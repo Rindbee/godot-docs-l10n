@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,11 +29,53 @@ msgstr ""
 msgid "Native libraries (via JNI)"
 msgstr "Librairies natives (via JNI)"
 
+msgid "GDExtension libraries"
+msgstr "Bibliothèques GDExtension"
+
 msgid "Where:"
 msgstr "Où :"
 
+msgid ""
+"Navigate to ``Project`` -> ``Project Settings...`` -> ``Plugins``, and "
+"ensure the plugin is enabled"
+msgstr ""
+"Accédez à ``Projet`` -> ``Paramètres du projet...`` -> ``Plugins``, et "
+"assurez-vous que le plugin est activé"
+
+msgid "Navigate to ``Project`` -> ``Export...``"
+msgstr "Naviguez vers ``Projet`` -> ``Exporter...``"
+
 msgid "Reference implementations"
 msgstr "Implémentations de référence"
+
+msgid ""
+"`Godot Android Plugins Samples <https://github.com/m4gr3d/Godot-Android-"
+"Samples/tree/master/plugins>`_"
+msgstr ""
+"`Exemples de plugins Android Godot <https://github.com/m4gr3d/Godot-Android-"
+"Samples/tree/master/plugins>`_"
+
+msgid ""
+"`Godot Android Plugin Template <https://github.com/m4gr3d/Godot-Android-"
+"Plugin-Template>`_"
+msgstr ""
+"`Modèle de plug-in Android Godot <https://github.com/m4gr3d/Godot-Android-"
+"Plugin-Template>`_"
+
+msgid ""
+"`GDExtension Android Plugin Template <https://github.com/m4gr3d/GDExtension-"
+"Android-Plugin-Template>`_"
+msgstr ""
+"` Modèle Plugin Android GDExtension <https://github.com/m4gr3d/GDExtension-"
+"Android-Plugin-Template>`_"
+
+msgid ""
+"`Godot OpenXR Loaders <https://github.com/GodotVR/godot_openxr_loaders>`_"
+msgstr ""
+"`Chargeurs Godot OpenXR <https://github.com/GodotVR/godot_openxr_loaders>`_"
+
+msgid "For example::"
+msgstr "Par exemple ::"
 
 msgid "Godot crashes upon load"
 msgstr "Godot crashes lors du chargement"
@@ -56,6 +98,3 @@ msgid "More complex datatypes are not supported for now."
 msgstr ""
 "Les types de données plus complexes ne sont pas pris en charge pour "
 "l'instant."
-
-msgid "Translation status"
-msgstr "État de la traduction"

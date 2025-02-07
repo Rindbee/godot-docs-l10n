@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,9 @@ msgstr "Les environnements et les effets post-rendu"
 
 msgid "Environment"
 msgstr "Environnement"
+
+msgid "WorldEnvironment node (medium priority, recommended)"
+msgstr "Nœud WorldEnvironment (priorité moyenne, recommandée)"
 
 msgid ""
 "The WorldEnvironment node can be added to any scene, but only one can exist "
@@ -282,6 +285,9 @@ msgstr ""
 msgid "**Basic BCS adjustments**"
 msgstr "**Ajustements basiques BCS**"
 
+msgid "**Color correction using a 1D gradient**"
+msgstr "**Correction des couleurs à l'aide d'une rampe unidimensionnelle**"
+
 msgid ""
 "But creating custom ones will allow to map each channel to a different color:"
 msgstr ""
@@ -311,6 +317,9 @@ msgstr ""
 "l'attention du spectateur sur un objet donné, ou créer un effet dit de "
 "« tilt shift » <https://en.wikipedia.org/wiki/Miniature_faking>`__."
 
+msgid "Exposure"
+msgstr "Exposition"
+
 msgid ""
 "The simplest way to use auto exposure is to make sure outdoor lights (or "
 "other strong lights) have energy beyond 1.0. This is done by tweaking their "
@@ -335,6 +344,3 @@ msgstr ""
 "Les valeurs contrôlables par l'utilisateur de la section Exposition "
 "automatique sont définies par défaut, mais vous pouvez toujours les "
 "modifier :"
-
-msgid "Translation status"
-msgstr "État de la traduction"

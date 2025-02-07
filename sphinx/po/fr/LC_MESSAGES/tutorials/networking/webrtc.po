@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -160,6 +160,3 @@ msgstr "Cela va imprimer quelque chose de similaire à ceci :"
 
 msgid "Remote signaling with WebSocket"
 msgstr "Signalisation à distance avec WebSocket"
-
-msgid "Translation status"
-msgstr "État de la traduction"

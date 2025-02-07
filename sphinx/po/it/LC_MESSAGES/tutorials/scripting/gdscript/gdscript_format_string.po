@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,14 +11,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Usage in GDScript"
-msgstr "Utilizzo in GDScript"
-
 msgid "Examine this concrete GDScript example:"
 msgstr "Esamina questo esempio concreto in GDScript:"
-
-msgid "A quick example in GDScript:"
-msgstr "Un rapido esempio in GDScript:"
 
 msgid "Multiple placeholders"
 msgstr "Segnaposto multipli"
@@ -73,49 +67,17 @@ msgstr "``c``"
 msgid "``d``"
 msgstr "``d``"
 
-msgid ""
-"A **decimal integral** number. Expects an integral or real number (will be "
-"floored)."
-msgstr ""
-"Un numero **decimale intero**. Si aspetta un intero o un numero reale (sarà "
-"troncato)."
-
 msgid "``o``"
 msgstr "``o``"
-
-msgid ""
-"An **octal integral** number. Expects an integral or real number (will be "
-"floored)."
-msgstr ""
-"Un numero **integrale ottale**. Si aspetta un integrale o un numero reale "
-"(sarà troncato)."
 
 msgid "``x``"
 msgstr "``x``"
 
-msgid ""
-"A **hexadecimal integral** number with **lower-case** letters. Expects an "
-"integral or real number (will be floored)."
-msgstr ""
-"Un numero **esadecimale intero** con lettere **minuscole**. Si aspetta un "
-"intero o numero reale (verrà troncato)."
-
 msgid "``X``"
 msgstr "``X``"
 
-msgid ""
-"A **hexadecimal integral** number with **upper-case** letters. Expects an "
-"integral or real number (will be floored)."
-msgstr ""
-"Un numero **esadecimale intero** con lettere **maiuscole**. Si aspetta un "
-"intero o numero reale (verrà troncato)."
-
 msgid "``f``"
 msgstr "``f``"
-
-msgid "A **decimal real** number. Expects an integral or real number."
-msgstr ""
-"Un numero **decimale reale**. Si aspetta un integrale o un numero reale."
 
 msgid "Placeholder modifiers"
 msgstr "Modificatori segnaposto"
@@ -145,15 +107,11 @@ msgstr "``*``"
 msgid "Padding"
 msgstr "Padding"
 
+msgid "A quick example in GDScript:"
+msgstr "Un rapido esempio in GDScript:"
+
 msgid "Format method examples"
 msgstr "Esempi del metodo Format"
-
-msgid ""
-"The following are some examples of how to use the various invocations of the "
-"``String.format``  method."
-msgstr ""
-"I seguenti sono alcuni esempi di come usare le varie invocazioni del metodo "
-"``String.format``."
 
 msgid "**Type**"
 msgstr "**Tipo**"
@@ -203,6 +161,3 @@ msgstr "Prefisso"
 
 msgid "Hi, Godette v3.11"
 msgstr "Ciao, Godette v3.11"
-
-msgid "Translation status"
-msgstr "Stato della traduzione"

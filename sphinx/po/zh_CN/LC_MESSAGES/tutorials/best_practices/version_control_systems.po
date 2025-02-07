@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -57,7 +57,7 @@ msgid ""
 "<https://github.com/godotengine/godot-git-plugin/wiki>`__."
 msgstr ""
 "最新的更新、文档和源代码可以在Godot iOS插件库找到 `Godot iOS plugins "
-"repository <https://github.com/godotengine/godot-ios-plugins>`_。"
+"repository <https://github.com/godotengine/godot-ios-plugins>`__\\ 。"
 
 msgid "Files to exclude from VCS"
 msgstr "从 VCS 中排除的文件"
@@ -92,7 +92,7 @@ msgstr ""
 "的数据使版本控制仓库膨胀，你应该将它们添加到 VCS 忽略中："
 
 msgid "``.godot/``: This folder stores various project cache data."
-msgstr "``. godot/``\\ ：此文件夹存储各种项目缓存数据。"
+msgstr "``.godot/``\\ ：此文件夹存储各种项目缓存数据。"
 
 msgid ""
 "``*.translation``: These files are binary imported :ref:`translations "
@@ -117,7 +117,7 @@ msgstr "在项目管理器的“新建项目”对话框中创建版本控制元
 msgid ""
 "Creating version control metadata in the project manager's **New Project** "
 "dialog"
-msgstr "在项目管理器的 **新建项目** 对话框中创建版本控制元数据"
+msgstr "在项目管理器的\\ **新建项目**\\ 对话框中创建版本控制元数据"
 
 msgid ""
 "In existing projects, select the **Project** menu at the top of the editor, "
@@ -151,6 +151,3 @@ msgid ""
 msgstr ""
 "使用项目管理器或编辑器创建版本控制元数据时，会使用 ``.gitattributes`` 文件自"
 "动强制使用 LF 行尾，因此无需更改 Git 配置。"
-
-msgid "Translation status"
-msgstr "翻译状态"

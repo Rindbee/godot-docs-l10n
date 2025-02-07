@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -85,16 +85,6 @@ msgid ""
 msgstr ""
 "Это распространенный компромисс, поэтому Godot поставляется с настройками по "
 "умолчанию, которые не требуется изменять."
-
-msgid ""
-"The problem, in the end, is not this slight delay but synchronizing graphics "
-"and audio for games that require it. Beginning with Godot 3.2, some helpers "
-"were added to obtain more precise playback timing."
-msgstr ""
-"Проблема, в конце концов, не в этой небольшой задержке, а в синхронизации "
-"графики и звука для игр, в которых это требуется. Начиная с Godot 3.2, были "
-"добавлены некоторые помощники для получения более точного времени "
-"воспроизведения."
 
 msgid "Using the system clock to sync"
 msgstr "Использование системных часов для синхронизации"
@@ -210,6 +200,3 @@ msgstr ""
 
 msgid "Here is the same code as before using this approach:"
 msgstr "Вот тот же код, что и до использования этого подхода:"
-
-msgid "Translation status"
-msgstr "Статус перевода"

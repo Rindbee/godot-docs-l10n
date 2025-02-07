@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,10 +12,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Introduction to GUI skinning"
-msgstr "Grafik Kullnıcı Arayüzünü (GUI) giydirmeye giriş"
+msgstr "Grafik Kullanıcı Arayüzünü (GUI) giydirmeye giriş"
 
 msgid "Theme items"
-msgstr "Tema öğeleri"
+msgstr "Tema ögeleri"
 
 msgid "**Color**"
 msgstr "**Color**"
@@ -24,13 +24,10 @@ msgid "**Constant**"
 msgstr "**Sabit**"
 
 msgid "**Font**"
-msgstr "**Yazı Tipi:**"
+msgstr "**Font**"
 
 msgid "**Icon**"
 msgstr "**Simge**"
 
 msgid "Theme types"
 msgstr "Tema türleri"
-
-msgid "Translation status"
-msgstr "Çeviri durumu"

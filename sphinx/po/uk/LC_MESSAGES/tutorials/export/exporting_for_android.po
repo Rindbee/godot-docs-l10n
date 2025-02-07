@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,6 +32,25 @@ msgstr ""
 "Наступні кроки детально описують, що потрібно для налаштування Android SDK "
 "та движка."
 
+msgid ""
+"Projects written in C# can be exported to Android as of Godot 4.2, but "
+"support is experimental and :ref:`some limitations apply "
+"<doc_c_sharp_platforms>`."
+msgstr ""
+"Проекти, написані на C#, можна експортувати в Android починаючи з Godot 4.2, "
+"але підтримка є експериментальною та :ref:`застосовуються деякі обмеження "
+"<doc_c_sharp_platforms>`."
+
+msgid "Install OpenJDK 17"
+msgstr "Встановіть OpenJDK 17"
+
+msgid ""
+"Download and install `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
+"variant=openjdk17>`__."
+msgstr ""
+"Завантажте та інсталюйте `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
+"variant=openjdk17>`__."
+
 msgid "Download the Android SDK"
 msgstr "Завантажте Android SDK"
 
@@ -43,13 +62,54 @@ msgid ""
 "developer.android.com/studio/intro/update#sdk-manager>`__."
 msgstr ""
 "Запустіть її один раз, щоб завершити встановлення SDK виконуючи `ці "
-"інструкції<https://developer.android.com/studio/intro/update#sdk-manager>`__."
+"інструкції <https://developer.android.com/studio/intro/update#sdk-"
+"manager>`__."
+
+msgid ""
+"Ensure that the `required packages <https://developer.android.com/studio/"
+"intro/update#required>`__ are installed as well."
+msgstr ""
+"Переконайтеся, що також встановлено `необхідні пакети <https://developer."
+"android.com/studio/intro/update#required>`__."
+
+msgid "Android SDK Platform-Tools version 34.0.0 or later"
+msgstr "Android SDK Platform-Tools версії 34.0.0 або новішої"
+
+msgid "Android SDK Build-Tools version 34.0.0"
+msgstr "Android SDK Build-Tools версія 34.0.0"
+
+msgid "Android SDK Platform 34"
+msgstr "Платформа Android SDK 34"
 
 msgid "Android SDK Command-line Tools (latest)"
 msgstr "Android SDK Command-line Tools (остання)"
 
 msgid "CMake version 3.10.2.4988404"
 msgstr "CMake версія 3.10.2.4988404"
+
+msgid "NDK version r23c (23.2.8568313)"
+msgstr "Версія NDK r23c (23.2.8568313)"
+
+msgid ""
+"Alternatively, you can install the Android SDK with the `sdkmanager` command "
+"line tool."
+msgstr ""
+"Крім того, ви можете встановити Android SDK за допомогою інструмента "
+"командного рядка `sdkmanager`."
+
+msgid ""
+"Install the command line tools package using these `instructions <https://"
+"developer.android.com/tools/sdkmanager>`__."
+msgstr ""
+"Установіть пакет інструментів командного рядка, використовуючи ці "
+"`інструкції <https://developer.android.com/tools/sdkmanager>`__."
+
+msgid ""
+"Once the command line tools are installed, run the following `sdkmanager` "
+"command to complete the setup process:"
+msgstr ""
+"Після встановлення інструментів командного рядка виконайте таку команду "
+"`sdkmanager`, щоб завершити процес встановлення:"
 
 msgid ""
 "If you are using Linux, **do not use an Android SDK provided by your "
@@ -74,6 +134,19 @@ msgstr "Прокрутіть униз до розділу, де розташов
 
 msgid "In that screen, 2 paths need to be set:"
 msgstr "На цьому екрані потрібно встановити 2 шляхи:"
+
+msgid ""
+"``Java SDK Path`` should be the location where OpenJDK 17 was installed."
+msgstr "``Шлях Java SDK`` має бути місцем, де встановлено OpenJDK 17."
+
+msgid ""
+"``Android Sdk Path`` should be the location where the Android SDK was "
+"installed. - For example ``%LOCALAPPDATA%\\Android\\Sdk\\`` on Windows or ``/"
+"Users/$USER/Library/Android/sdk/`` on macOS."
+msgstr ""
+"``Android Sdk Path`` має бути місцем встановлення Android SDK. - Наприклад "
+"``%LOCALAPPDATA%\\Android\\Sdk\\`` у Windows або ``/Users/$USER/Library/"
+"Android/sdk/`` у macOS."
 
 msgid "Once that is configured, everything is ready to export to Android!"
 msgstr ""
@@ -200,13 +273,6 @@ msgstr ""
 msgid "Exporting for Google Play Store"
 msgstr "Експорт для Google Play Store"
 
-msgid ""
-"Uploading an APK to Google's Play Store requires you to sign using a non-"
-"debug keystore file; such file can be generated like this:"
-msgstr ""
-"Завантажуючи файл APK у Google Play Store вам потрібно підписатися "
-"використовуючи неналагоджуваний файл ключів; такий файл можна сформувати так:"
-
 msgid "Now fill in the following forms in your Android Export Presets:"
 msgstr "Тепер заповніть такі форми у ваших зразках експорту Android:"
 
@@ -230,42 +296,6 @@ msgstr ""
 "Не забудьте зняти галочку **Export With Debug** (Експортувати з "
 "налагодженням) під час експортування."
 
-msgid "Optimizing the APK size"
-msgstr "Оптимізація розміру APK"
-
-msgid ""
-"By default, the APK will contain native libraries for both ARMv7 and ARMv8 "
-"architectures. This increases its size significantly. To create a smaller "
-"APK, uncheck either **Armeabi-v 7a** or **Arm 64 -v 8a** in your project's "
-"Android export preset. This will create an APK that only contains a library "
-"for a single architecture. Note that applications targeting ARMv7 can also "
-"run on ARMv8 devices, but the opposite is not true."
-msgstr ""
-"За замовчуванням APK буде містити власні бібліотеки для архітектур ARMv7 та "
-"ARMv8. Це значно збільшує його розміри. Щоб створити менший файл APK, "
-"зніміть галочку **Armeabi-v 7a**, або **Arm 64 -v 8a** у вашому зразку "
-"експорту проєкта на Android. Це створить файл APK, який містить бібліотеку "
-"лише для однієї архітектури. Зауважте, що програми, націлені на ARMv7, також "
-"можуть працювати на пристроях ARMv8, але навпаки, ні."
-
-msgid ""
-"Since August 2019, Google Play requires all applications to be available in "
-"64-bit form. This means you cannot upload an APK that contains *just* an "
-"ARMv7 library. To solve this, you can upload several APKs to Google Play "
-"using its `Multiple APK support <https://developer.android.com/google/play/"
-"publishing/multiple-apks>`__. Each APK should target a single architecture; "
-"creating an APK for ARMv7 and ARMv8 is usually sufficient to cover most "
-"devices in use today."
-msgstr ""
-"З серпня 2019 року Google Play вимагає, щоб усі програми були доступні в 64-"
-"бітній формі. Це означає, що ви не можете завантажити файл APK, який містить "
-"*лише* бібліотеку ARMv7. Щоб вирішити цю проблему, ви можете завантажити "
-"кілька файлів APK у Google Play, використовуючи `підтримку кількох "
-"APK<https://developer.android.com/google/play/publishing/multiple-apks>`__. "
-"Кожен файл APK повинен бути націлений на одну архітектуру; створення файлу "
-"APK для ARMv7 та ARMv8 зазвичай достатньо для охоплення більшості пристроїв, "
-"що використовуються сьогодні."
-
 msgid ""
 "You can optimize the size further by compiling an Android export template "
 "with only the features you need. See :ref:`doc_optimizing_for_size` for more "
@@ -278,5 +308,62 @@ msgstr ""
 msgid "Environment variables"
 msgstr "Змінні середовища"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid ""
+"You can use the following environment variables to set export options "
+"outside of the editor. During the export process, these override the values "
+"that you set in the export menu."
+msgstr ""
+"Ви можете використовувати такі змінні середовища, щоб налаштувати параметри "
+"експорту поза редактором. Під час процесу експорту вони замінюють значення, "
+"встановлені в меню експорту."
+
+msgid "Android export environment variables"
+msgstr "Змінні середовища експорту Android"
+
+msgid "Export option"
+msgstr "Варіант експорту"
+
+msgid "Environment variable"
+msgstr "Змінна середовища"
+
+msgid "Encryption / Encryption Key"
+msgstr "Шифрування / ключ шифрування"
+
+msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "Options / Keystore / Debug"
+msgstr "Параметри / Keystore / Debug"
+
+msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_PATH``"
+msgstr "``GODOT_ANDROID_KEYSTORE_DEBUG_PATH``"
+
+msgid "Options / Keystore / Debug User"
+msgstr "Параметри / Keystore / Debug User"
+
+msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_USER``"
+msgstr "``GODOT_ANDROID_KEYSTORE_DEBUG_USER``"
+
+msgid "Options / Keystore / Debug Password"
+msgstr "Параметри / Сховище ключів / Пароль налагодження"
+
+msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD``"
+msgstr "``GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD``"
+
+msgid "Options / Keystore / Release"
+msgstr "Параметри / Keystore / Release"
+
+msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_PATH``"
+msgstr "``GODOT_ANDROID_KEYSTORE_RELEASE_PATH``"
+
+msgid "Options / Keystore / Release User"
+msgstr "Параметри / Сховище ключів / Звільнити користувача"
+
+msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_USER``"
+msgstr "``GODOT_ANDROID_KEYSTORE_RELEASE_USER``"
+
+msgid "Options / Keystore / Release Password"
+msgstr "Параметри / Keystore / Release Password"
+
+msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``"
+msgstr "``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``"

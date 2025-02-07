@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,14 +17,6 @@ msgstr "Esqueletos 2D"
 msgid "Introduction"
 msgstr "Introdução"
 
-msgid ""
-"One option is to create animations in third-party software such as Spine or "
-"Dragonbones. From Godot 3.1 onwards, though, this functionality is supported "
-"built-in."
-msgstr ""
-"Uma opção é criar animações em softwares de terceiros como Spine ou "
-"Dragonbones. A partir do Godot 3.1, porém, esta funcionalidade é embutida."
-
 msgid "Setup"
 msgstr "Configurar"
 
@@ -39,6 +31,3 @@ msgstr "Deformando os polígonos"
 
 msgid "Internal vertices"
 msgstr "Vértices internos"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

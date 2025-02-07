@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -34,6 +34,27 @@ msgstr ""
 "opérés ne sont pas visibles. De nombreux pages ont été grandement mises à "
 "jour mais ne sont pas visibles dans ce document."
 
+msgid "About"
+msgstr "À propos"
+
+msgid "2D"
+msgstr "2D"
+
+msgid "Contributing"
+msgstr "Contribuer"
+
+msgid "GDExtension"
+msgstr "GDExtension"
+
+msgid "Migrating"
+msgstr "Migration"
+
+msgid "Rendering"
+msgstr "Rendu"
+
+msgid "XR"
+msgstr "XR"
+
 msgid "New pages since version 4.1"
 msgstr "Nouveaux tutoriels depuis la version 4.1"
 
@@ -48,9 +69,6 @@ msgstr "Développement"
 
 msgid ":ref:`doc_2d_coordinate_systems`"
 msgstr ":ref:`doc_2d_coordinate_systems`"
-
-msgid "Migrating"
-msgstr "Migration"
 
 msgid ":ref:`doc_upgrading_to_godot_4.2`"
 msgstr ":ref:`doc_upgrading_to_godot_4.2`"
@@ -87,9 +105,6 @@ msgstr ":ref:`doc_troubleshooting_physics_issues`"
 
 msgid "New pages since version 3.6"
 msgstr "Nouveaux tutoriels depuis la version 3.6"
-
-msgid "2D"
-msgstr "2D"
 
 msgid ":ref:`doc_2d_antialiasing`"
 msgstr ":ref:`doc_2d_antialiasing`"
@@ -178,9 +193,6 @@ msgstr "Processus de travail"
 msgid ":ref:`doc_pr_review_guidelines`"
 msgstr ":ref :`doc_pr_review_guidelines`"
 
-msgid "XR"
-msgstr "XR"
-
 msgid ":ref:`doc_introducing_xr_tools`"
 msgstr ":ref:`doc_introducing_xr_tools`"
 
@@ -231,9 +243,6 @@ msgstr "Nouveaux tutoriels depuis la version 3.2"
 
 msgid ":ref:`doc_3d_rendering_limitations`"
 msgstr ":ref:`doc_3d_rendering_limitations`"
-
-msgid "About"
-msgstr "À propos"
 
 msgid ":ref:`doc_troubleshooting`"
 msgstr ":ref:`doc_troubleshooting`"
@@ -539,9 +548,7 @@ msgid ":ref:`doc_csg_tools`"
 msgstr ":ref:`CSG (Géométrie des solides évolutifs) <doc_csg_tools>`"
 
 msgid ":ref:`doc_animating_thousands_of_fish`"
-msgstr ""
-":ref:`Animer des milliers de poissons avec MultiMeshInstance "
-"<doc_animating_thousands_of_fish>`"
+msgstr ":ref:`doc_animating_thousands_of_fish`"
 
 msgid ":ref:`doc_controlling_thousands_of_fish`"
 msgstr ""
@@ -646,6 +653,3 @@ msgid ":ref:`doc_binding_to_external_libraries`"
 msgstr ""
 ":ref:`Utilisation de bibliothèques externes "
 "<doc_binding_to_external_libraries>`"
-
-msgid "Translation status"
-msgstr "État de la traduction"

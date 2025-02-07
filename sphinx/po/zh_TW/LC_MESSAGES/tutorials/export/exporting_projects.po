@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -358,6 +358,3 @@ msgid ""
 msgstr ""
 "保存啟動腳本, 並將它與匯出的二進位檔案放在同一資料夾中. 在Linux上, 請確保使"
 "用 ``chmod +x launch.sh`` 命令給予啟動腳本可執行許可權."
-
-msgid "Translation status"
-msgstr "翻譯狀態"

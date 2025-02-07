@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -52,6 +52,41 @@ msgstr ""
 msgid "Command line reference"
 msgstr "Команди командного рядка"
 
+msgid "**Legend**"
+msgstr "**Легенда**"
+
+msgid ""
+"|release| Available in editor builds, debug export templates and release "
+"export templates."
+msgstr ""
+"|release| Доступно в збірках редакторів, шаблонах експорту налагодження та "
+"випуску шаблонів експорту."
+
+msgid "release"
+msgstr "реліз"
+
+msgid "|debug| Available in editor builds and debug export templates only."
+msgstr ""
+"|debug| Доступно лише для збірок редакторів і шаблонів експорту налагодження."
+
+msgid "debug"
+msgstr "налагоджувати"
+
+msgid "|editor| Only available in editor builds."
+msgstr "|editor| Доступно лише в збірках редактора."
+
+msgid "editor"
+msgstr "редактор"
+
+msgid ""
+"Note that unknown command line arguments have no effect whatsoever. The "
+"engine will **not** warn you when using a command line argument that doesn't "
+"exist with a given build type."
+msgstr ""
+"Зауважте, що невідомі аргументи командного рядка не мають ніякого ефекту. "
+"Механізм **не** попереджатиме вас про використання аргументу командного "
+"рядка, який не існує з даним типом збірки."
+
 msgid "**General options**"
 msgstr "**Загальні команди**"
 
@@ -61,38 +96,228 @@ msgstr "Команда"
 msgid "Description"
 msgstr "Опис"
 
+msgid "``-h``, ``--help``"
+msgstr "``-h``, ``--help``"
+
+msgid "|release| Display the list of command line options."
+msgstr "|release| Відобразити список параметрів командного рядка."
+
 msgid "``--version``"
 msgstr "``--version``"
+
+msgid "|release| Display the version string."
+msgstr "|release| Відобразити рядок версії."
 
 msgid "``-v``, ``--verbose``"
 msgstr "``-v``, ``--verbose``"
 
+msgid "|release| Use verbose stdout mode."
+msgstr "|release| Використовуйте режим докладного стандартного виводу."
+
+msgid "``-q``, ``--quiet``"
+msgstr "``-q``, ``--quiet``"
+
+msgid ""
+"|release| Quiet mode, silences stdout messages. Errors are still displayed."
+msgstr ""
+"|release| Тихий режим, вимикає повідомлення стандартного виводу. Помилки все "
+"ще відображаються."
+
 msgid "**Run options**"
 msgstr "**Команди запуску**"
+
+msgid "``--``, ``++``"
+msgstr "``--``, ``++``"
+
+msgid ""
+"|release| Separator for user-provided arguments. Following arguments are not "
+"used by the engine, but can be read from ``OS.get_cmdline_user_args()``."
+msgstr ""
+"|release| Роздільник для наданих користувачем аргументів. Наступні аргументи "
+"не використовуються системою, але їх можна зчитувати ``OS."
+"get_cmdline_user_args()``."
 
 msgid "``-e``, ``--editor``"
 msgstr "``-e``, ``--editor``"
 
+msgid "|editor| Start the editor instead of running the scene."
+msgstr "|editor| Запустіть редактор замість запуску сцени."
+
 msgid "``-p``, ``--project-manager``"
 msgstr "``-p``, ``--project-manager``"
+
+msgid "|editor| Start the Project Manager, even if a project is auto-detected."
+msgstr ""
+"|editor| Запустіть менеджер проектів, навіть якщо проект визначено "
+"автоматично."
+
+msgid "``--debug-server <uri>``"
+msgstr "``--debug-server <uri>``"
+
+msgid ""
+"|editor| Start the editor debug server (``<protocol>://<host/IP>[:<port>]``, "
+"e.g. ``tcp://127.0.0.1:6007``)"
+msgstr ""
+"|editor| Запустіть сервер налагодження редактора (``<protocol>://<host/IP>[:"
+"<port>]``, напр. ``tcp://127.0.0.1:6007``)"
+
+msgid "``--quit``"
+msgstr "``--вийти``"
+
+msgid "|release| Quit after the first iteration."
+msgstr "|release| Вийти після першої ітерації."
+
+msgid "``--quit-after``"
+msgstr "``--quit-after``"
+
+msgid ""
+"|release| Quit after the given number of iterations. Set to 0 to disable."
+msgstr ""
+"|release| Вийти після вказаної кількості ітерацій. Встановіть 0, щоб "
+"вимкнути."
+
+msgid "``-l``, ``--language <locale>``"
+msgstr "``-l``, ``--language <локаль>``"
+
+msgid ""
+"|release| Use a specific locale. ``<locale>`` follows the format "
+"``language_Script_COUNTRY_VARIANT`` where language is a 2 or 3-letter "
+"language code in lowercase and the rest is optional. See :ref:`doc_locales` "
+"for more details."
+msgstr ""
+"|release| Використовуйте певну мову. ``<locale>`` відповідає формату "
+"``language_Script_COUNTRY_VARIANT``, де мова – це 2- або 3-літерний код мови "
+"в нижньому регістрі, а решта необов’язкова. Дивіться :ref:`doc_locales` для "
+"отримання додаткової інформації."
 
 msgid "``--path <directory>``"
 msgstr "``--path <каталог>``"
 
+msgid ""
+"|release| Path to a project (``<directory>`` must contain a 'project.godot' "
+"file)."
+msgstr ""
+"|release| Шлях до проекту (``<directory>`` має містити файл 'project.godot')."
+
 msgid "``-u``, ``--upwards``"
 msgstr "``-u``, ``--upwards``"
+
+msgid "|release| Scan folders upwards for 'project.godot' file."
+msgstr "|release| Скануйте папки вгору, щоб знайти файл «project.godot»."
 
 msgid "``--main-pack <file>``"
 msgstr "``--main-pack <file>``"
 
+msgid "|release| Path to a pack (.pck) file to load."
+msgstr "|release| Шлях до пакетного файлу (.pck) для завантаження."
+
 msgid "``--render-thread <mode>``"
 msgstr "``--render-thread <mode>``"
+
+msgid ""
+"|release| Render thread mode ('unsafe', 'safe', 'separate'). See :ref:"
+"`Thread Model <class_ProjectSettings_property_rendering/driver/threads/"
+"thread_model>` for more details."
+msgstr ""
+"|release| Режим потоку відтворення («небезпечний», «безпечний», «окремий»). "
+"Перегляньте :ref:`Модель потоку <class_ProjectSettings_property_rendering/"
+"driver/threads/thread_model>` для отримання додаткової інформації."
 
 msgid "``--remote-fs <address>``"
 msgstr "``--remote-fs <address>``"
 
+msgid "|release| Remote filesystem (``<host/IP>[:<port>]`` address)."
+msgstr "|release| Віддалена файлова система (``<host/IP>[:<port>]`` адреса)."
+
+msgid "``--remote-fs-password <password>``"
+msgstr "``--remote-fs-password <пароль>``"
+
+msgid "|release| Password for remote filesystem."
+msgstr "|release| Пароль для віддаленої файлової системи."
+
 msgid "``--audio-driver <driver>``"
 msgstr "``--audio-driver <driver>``"
+
+msgid ""
+"|release| Audio driver. Use ``--help`` first to display the list of "
+"available drivers."
+msgstr ""
+"|release| Аудіо драйвер. Спочатку використовуйте ``--help``, щоб відобразити "
+"список доступних драйверів."
+
+msgid "``--display-driver <driver>``"
+msgstr "``--display-driver <драйвер>``"
+
+msgid ""
+"|release| Display driver (and rendering driver). Use ``--help`` first to "
+"display the list of available drivers."
+msgstr ""
+"|release| Драйвер дисплея (та драйвер візуалізації). Спочатку використовуйте "
+"``--help``, щоб відобразити список доступних драйверів."
+
+msgid "``--rendering-method <renderer>``"
+msgstr "``--rendering-method <renderer>``"
+
+msgid "|release| Renderer name. Requires driver support."
+msgstr "|release| Ім'я рендерера. Потрібна підтримка драйверів."
+
+msgid "``--rendering-driver <driver>``"
+msgstr "``--rendering-driver <драйвер>``"
+
+msgid ""
+"|release| Rendering driver (depends on display driver). Use ``--help`` first "
+"to display the list of available drivers."
+msgstr ""
+"|release| Драйвер візуалізації (залежить від драйвера дисплея). Спочатку "
+"використовуйте ``--help``, щоб відобразити список доступних драйверів."
+
+msgid "``--gpu-index <device_index>``"
+msgstr "``--gpu-index <індекс_пристрою>``"
+
+msgid ""
+"|release| Use a specific GPU (run with ``--verbose`` to get available device "
+"list)."
+msgstr ""
+"|release| Використовуйте певний GPU (запустіть з ``--verbose``, щоб отримати "
+"список доступних пристроїв)."
+
+msgid "``--text-driver <driver>``"
+msgstr "``--text-driver <драйвер>``"
+
+msgid "|release| Text driver (Fonts, BiDi, shaping)."
+msgstr "|release| Текстовий драйвер (Шрифти, BiDi, формування)."
+
+msgid "``--tablet-driver <driver>``"
+msgstr "``--tablet-driver <драйвер>``"
+
+msgid "|release| Pen tablet input driver."
+msgstr "|release| Драйвер введення перо планшета."
+
+msgid "``--headless``"
+msgstr "``--безголовий``"
+
+msgid ""
+"|release| Enable headless mode (``--display-driver headless --audio-driver "
+"Dummy``). Useful for servers and with ``--script``."
+msgstr ""
+"|release| Увімкнути безголовий режим (``--display-driver headless --audio-"
+"driver Dummy``). Корисно для серверів і з ``--script``."
+
+msgid "``--write-movie <file>``"
+msgstr "``--write-movie <файл>``"
+
+msgid ""
+"|release| Run the engine in a way that a movie is written (usually with .avi "
+"or .png extension). ``--fixed-fps`` is forced when enabled, but can be used "
+"to change movie FPS. ``--disable-vsync`` can speed up movie writing but "
+"makes interaction more difficult. ``--quit-after`` can be used to specify "
+"the number of frames to write."
+msgstr ""
+"|release| Запустіть двигун так, як написаний фільм (зазвичай із розширенням ."
+"avi або .png). ``--fixed-fps`` є примусовим, якщо ввімкнено, але його можна "
+"використовувати для зміни частоти кадрів у секунду фільму. ``--disable-"
+"vsync`` може прискорити написання фільму, але ускладнює взаємодію. ``--quit-"
+"after`` можна використовувати для визначення кількості кадрів для запису."
 
 msgid "**Display options**"
 msgstr "**Команди відображення**"
@@ -100,20 +325,56 @@ msgstr "**Команди відображення**"
 msgid "``-f``, ``--fullscreen``"
 msgstr "``-f``, ``--fullscreen``"
 
+msgid "|release| Request fullscreen mode."
+msgstr "|release| Запит на повноекранний режим."
+
 msgid "``-m``, ``--maximized``"
 msgstr "``-m``, ``--maximized``"
+
+msgid "|release| Request a maximized window."
+msgstr "|release| Запит на розгорнуте вікно."
 
 msgid "``-w``, ``--windowed``"
 msgstr "``-w``, ``--windowed``"
 
+msgid "|release| Request windowed mode."
+msgstr "|release| Запит віконного режиму."
+
 msgid "``-t``, ``--always-on-top``"
 msgstr "``-t``, ``--always-on-top``"
+
+msgid "|release| Request an always-on-top window."
+msgstr "|release| Подайте запит на вікно, яке завжди відображається зверху."
 
 msgid "``--resolution <W>x<H>``"
 msgstr "``--resolution <W>x<H>``"
 
+msgid "|release| Request window resolution."
+msgstr "|release| Роздільна здатність вікна запиту."
+
 msgid "``--position <X>,<Y>``"
 msgstr "``--position <X>,<Y>``"
+
+msgid "|release| Request window position."
+msgstr "|release| Розташування вікна запиту."
+
+msgid "``--screen <N>``"
+msgstr "``--екран <N>``"
+
+msgid "|release| Request window screen."
+msgstr "|release| Екран вікна запиту."
+
+msgid "``--single-window``"
+msgstr "``--єдине вікно``"
+
+msgid "|release| Use a single window (no separate subwindows)."
+msgstr "|release| Використовуйте одне вікно (без окремих підвікон)."
+
+msgid "``--xr-mode <mode>``"
+msgstr "``--xr-mode <режим>``"
+
+msgid "|release| Select XR mode ('default', 'off', 'on')."
+msgstr "|release| Виберіть режим XR (\"default\", \"off\", \"on\")."
 
 msgid "**Debug options**"
 msgstr "**Команди налагодження**"
@@ -121,53 +382,378 @@ msgstr "**Команди налагодження**"
 msgid "``-d``, ``--debug``"
 msgstr "``-d``, ``--debug``"
 
+msgid "|release| Debug (local stdout debugger)."
+msgstr "|release| Налагодження (локальний налагоджувач stdout)."
+
 msgid "``-b``, ``--breakpoints``"
 msgstr "``-b``, ``--breakpoints``"
+
+msgid ""
+"|release| Breakpoint list as source::line comma-separated pairs, no spaces "
+"(use ``%20`` instead)."
+msgstr ""
+"|release| Список точок зупину як пари джерело::рядок, розділені комами, без "
+"пробілів (замість цього використовуйте ``%20``)."
 
 msgid "``--profiling``"
 msgstr "``--profiling``"
 
+msgid "|release| Enable profiling in the script debugger."
+msgstr "|release| Увімкніть профілювання в налагоджувачі сценаріїв."
+
+msgid "``--gpu-profile``"
+msgstr "``--gpu-profile``"
+
+msgid ""
+"|release| Show a GPU profile of the tasks that took the most time during "
+"frame rendering."
+msgstr ""
+"|release| Показати профіль GPU для завдань, які займали найбільше часу під "
+"час рендерингу кадру."
+
+msgid "``--gpu-validation``"
+msgstr "``--gpu-validation``"
+
+msgid ""
+"|release| Enable graphics API :ref:`validation layers "
+"<doc_vulkan_validation_layers>` for debugging."
+msgstr ""
+"|release| Увімкніть графічний API :ref:`шари перевірки "
+"<doc_vulkan_validation_layers>` для налагодження."
+
+msgid "``--gpu-abort``"
+msgstr "``--gpu-abort``"
+
+msgid ""
+"|debug| Abort on GPU errors (usually validation layer errors), may help see "
+"the problem if your system freezes."
+msgstr ""
+"|debug| Переривання через помилки GPU (зазвичай помилки рівня перевірки) "
+"може допомогти виявити проблему, якщо ваша система зависає."
+
+msgid "``--remote-debug <uri>``"
+msgstr "``--remote-debug <uri>``"
+
+msgid ""
+"|release| Remote debug (``<protocol>://<host/IP>[:<port>]``, e.g. "
+"``tcp://127.0.0.1:6007``)."
+msgstr ""
+"|release| Віддалене налагодження (``<протокол>://<хост/IP>[:<порт>]``, "
+"наприклад ``tcp://127.0.0.1:6007``)."
+
+msgid "``--single-threaded-scene``"
+msgstr "``--single-threaded-scene``"
+
+msgid ""
+"|release| Scene tree runs in single-threaded mode. Sub-thread groups are "
+"disabled and run on the main thread."
+msgstr ""
+"|release| Дерево сцен працює в однопоточному режимі. Групи підпотоків "
+"вимкнено та запускаються в основному потоці."
+
 msgid "``--debug-collisions``"
 msgstr "``--debug-collisions``"
+
+msgid "|debug| Show collision shapes when running the scene."
+msgstr "|debug| Показувати форми зіткнень під час запуску сцени."
+
+msgid "``--debug-paths``"
+msgstr "``--debug-paths``"
+
+msgid "|debug| Show path lines when running the scene."
+msgstr "|debug| Показувати лінії шляху під час запуску сцени."
 
 msgid "``--debug-navigation``"
 msgstr "``--debug-navigation``"
 
+msgid "|debug| Show navigation polygons when running the scene."
+msgstr "|debug| Показувати полігони навігації під час запуску сцени."
+
+msgid "``--debug-avoidance``"
+msgstr "``--debug-avoidance``"
+
+msgid "|debug| Show navigation avoidance debug visuals when running the scene."
+msgstr ""
+"|debug| Показувати візуальні ефекти налагодження уникнення навігації під час "
+"запуску сцени."
+
+msgid "``--debug-stringnames``"
+msgstr "``--debug-stringnames``"
+
+msgid ""
+"|debug| Print all StringName allocations to stdout when the engine quits."
+msgstr ""
+"|debug| Вивести всі розподіли StringName у стандартний вивід, коли механізм "
+"завершує роботу."
+
 msgid "``--frame-delay <ms>``"
 msgstr "``--frame-delay <ms>``"
+
+msgid ""
+"|release| Simulate high CPU load (delay each frame by <ms> milliseconds)."
+msgstr ""
+"|release| Імітація високого навантаження на ЦП (затримка кожного кадру на "
+"<ms> мілісекунд)."
 
 msgid "``--time-scale <scale>``"
 msgstr "``--time-scale <scale>``"
 
+msgid ""
+"|release| Force time scale (higher values are faster, 1.0 is normal speed)."
+msgstr ""
+"|release| Шкала часу форсування (більше значення – швидше, 1,0 – нормальна "
+"швидкість)."
+
+msgid "``--disable-vsync``"
+msgstr "``--disable-vsync``"
+
+msgid ""
+"|release| Forces disabling of vertical synchronization, even if enabled in "
+"the project settings. Does not override driver-level V-Sync enforcement."
+msgstr ""
+"|release| Примусово вимикає вертикальну синхронізацію, навіть якщо її "
+"ввімкнено в налаштуваннях проекту. Не скасовує примусове застосування V-Sync "
+"на рівні драйвера."
+
 msgid "``--disable-render-loop``"
 msgstr "``--disable-render-loop``"
+
+msgid ""
+"|release| Disable render loop so rendering only occurs when called "
+"explicitly from script."
+msgstr ""
+"|release| Вимкніть цикл візуалізації, щоб рендеринг відбувався лише під час "
+"явного виклику зі сценарію."
 
 msgid "``--disable-crash-handler``"
 msgstr "``--disable-crash-handler``"
 
+msgid "|release| Disable crash handler when supported by the platform code."
+msgstr ""
+"|release| Вимкнути обробник збоїв, якщо це підтримується кодом платформи."
+
 msgid "``--fixed-fps <fps>``"
 msgstr "``--fixed-fps <fps>``"
+
+msgid ""
+"|release| Force a fixed number of frames per second. This setting disables "
+"real-time synchronization."
+msgstr ""
+"|release| Примусово встановити фіксовану кількість кадрів за секунду. Цей "
+"параметр вимикає синхронізацію в реальному часі."
+
+msgid "``--delta-smoothing <enable>``"
+msgstr "``--delta-smoothing <включити>``"
+
+msgid ""
+"|release| Enable or disable frame delta smoothing ('enable', 'disable')."
+msgstr ""
+"|release| Увімкнути або вимкнути дельта-згладжування кадру («ввімкнути», "
+"«вимкнути»)."
 
 msgid "``--print-fps``"
 msgstr "``--print-fps``"
 
+msgid "|release| Print the frames per second to the stdout."
+msgstr "|release| Вивести кількість кадрів за секунду в стандартний вихід."
+
 msgid "**Standalone tools**"
 msgstr "**Автономні інструменти**"
+
+msgid "``-s``, ``--script <script>``"
+msgstr "``-s``, ``--script <script>``"
+
+msgid "|release| Run a script."
+msgstr "|release| Запустіть сценарій."
 
 msgid "``--check-only``"
 msgstr "``--check-only``"
 
+msgid "|release| Only parse for errors and quit (use with ``--script``)."
+msgstr ""
+"|release| Лише аналізуйте помилки та виходьте (використовуйте з ``--"
+"script``)."
+
+msgid "``--import``"
+msgstr "``--імпорт``"
+
+msgid ""
+"|editor| Starts the editor, waits for any resources to be imported, and then "
+"quits. Implies ``--editor`` and ``--quit``."
+msgstr ""
+"|editor| Запускає редактор, очікує, поки будь-які ресурси будуть "
+"імпортовані, а потім завершує роботу. Має на увазі ``--editor`` і ``--quit``."
+
+msgid "``--export-release <preset> <path>``"
+msgstr "``--export-release <попереднє налаштування> <шлях>``"
+
+msgid ""
+"|editor| Export the project using the given preset and matching release "
+"template. The preset name should match one defined in export_presets.cfg. "
+"``<path>`` should be absolute or relative to the project directory, and "
+"include the filename for the binary (e.g. 'builds/game.exe'). The target "
+"directory should exist. Implies ``--import``."
+msgstr ""
+"|editor| Експортуйте проект за допомогою заданого попереднього налаштування "
+"та відповідного шаблону випуску. Назва стилю має збігатися з назвою, "
+"визначеною у файлі export_presets.cfg. ``<path>`` має бути абсолютним або "
+"відносним до каталогу проекту та містити назву файлу для двійкового файлу "
+"(наприклад, 'builds/game.exe'). Цільовий каталог має існувати. Має на увазі "
+"``--import``."
+
+msgid "``--export-debug <preset> <path>``"
+msgstr "``--export-debug <попереднє налаштування> <шлях>``"
+
+msgid ""
+"|editor| Like ``--export-release``, but use debug template. Implies ``--"
+"import``."
+msgstr ""
+"|editor| Як ``--export-release``, але використовувати шаблон налагодження. "
+"Має на увазі ``--import``."
+
 msgid "``--export-pack <preset> <path>``"
 msgstr "``--export-pack <preset> <path>``"
+
+msgid ""
+"|editor| Like ``--export-release``, but only export the game pack for the "
+"given preset. The ``<path>`` extension determines whether it will be in PCK "
+"or ZIP format. Implies ``--import``."
+msgstr ""
+"|editor| Подібно до ``--export-release``, але експортувати лише ігровий "
+"пакет для заданого стилю. Розширення ``<path>`` визначає, чи буде він у "
+"форматі PCK чи ZIP. Має на увазі ``--import``."
+
+msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
+msgstr "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
+
+msgid "|editor| Convert project from Godot 3.x to Godot 4.x."
+msgstr "|editor| Перетворення проекту з Godot 3.x на Godot 4.x."
+
+msgid "``--validate-conversion-3to4 [<max_file_kb>] [<max_line_size>]``"
+msgstr "``--validate-conversion-3to4 [<max_file_kb>] [<max_line_size>]``"
+
+msgid ""
+"|editor| Show what elements will be renamed when converting project from "
+"Godot 3.x to Godot 4.x."
+msgstr ""
+"|editor| Показати, які елементи будуть перейменовані під час перетворення "
+"проекту з Godot 3.x на Godot 4.x."
+
+msgid "``--doctool [<path>]``"
+msgstr "``--doctool [<шлях>]``"
+
+msgid ""
+"|editor| Dump the engine API reference to the given ``<path>`` in XML "
+"format, merging if existing files are found."
+msgstr ""
+"|editor| Дамп посилання на API двигуна до вказаного ``<шлях>`` у форматі "
+"XML, об’єднуючи, якщо знайдено існуючі файли."
 
 msgid "``--no-docbase``"
 msgstr "``--no-docbase``"
 
+msgid "|editor| Disallow dumping the base types (used with ``--doctool``)."
+msgstr ""
+"|editor| Заборонити скидання базових типів (використовується з ``--"
+"doctool``)."
+
+msgid "``--gdscript-docs <path>``"
+msgstr "``--gdscript-docs <шлях>``"
+
+msgid ""
+"|editor| Rather than dumping the engine API, generate API reference from the "
+"inline documentation in the GDScript files found in <path> (used with ``--"
+"doctool``)."
+msgstr ""
+"|editor| Замість того, щоб створювати дамп API двигуна, згенеруйте посилання "
+"на API із вбудованої документації у файлах GDScript, знайдених у <path> "
+"(використовується з ``--doctool``)."
+
 msgid "``--build-solutions``"
 msgstr "``--build-solutions``"
 
+msgid ""
+"|editor| Build the scripting solutions (e.g. for C# projects). Implies ``--"
+"editor`` and requires a valid project to edit."
+msgstr ""
+"|editor| Створюйте рішення для сценаріїв (наприклад, для проектів C#). Має "
+"на увазі ``--editor`` і вимагає дійсного проекту для редагування."
+
+msgid "``--dump-gdextension-interface``"
+msgstr "``--dump-gdextension-interface``"
+
+msgid ""
+"|editor| Generate GDExtension header file 'gdnative_interface.h' in the "
+"current folder. This file is the base file required to implement a "
+"GDExtension."
+msgstr ""
+"|editor| Створіть файл заголовка GDExtension 'gdnative_interface.h' у "
+"поточній папці. Цей файл є базовим файлом, необхідним для впровадження "
+"GDExtension."
+
+msgid "``--dump-extension-api``"
+msgstr "``--dump-extension-api``"
+
+msgid ""
+"|editor| Generate JSON dump of the Godot API for GDExtension bindings named "
+"'extension_api.json' in the current folder."
+msgstr ""
+"|editor| Створіть JSON-дамп API Godot для прив’язок GDExtension під назвою "
+"«extension_api.json» у поточній папці."
+
+msgid "``--validate-extension-api <path>``"
+msgstr "``--validate-extension-api <шлях>``"
+
+msgid ""
+"|editor| Validate an extension API file dumped (with the option above) from "
+"a previous version of the engine to ensure API compatibility. If "
+"incompatibilities or errors are detected, the return code will be non-zero."
+msgstr ""
+"|editor| Перевірте файл розширення API, викинутий (з опцією вище) із "
+"попередньої версії механізму, щоб забезпечити сумісність API. Якщо виявлено "
+"несумісність або помилки, код повернення буде ненульовим."
+
+msgid "``--benchmark``"
+msgstr "``--еталон``"
+
+msgid "|editor| Benchmark the run time and print it to console."
+msgstr "|editor| Порівняйте час виконання та роздрукуйте його на консолі."
+
+msgid "``--benchmark-file <path>``"
+msgstr "``--benchmark-file <шлях>``"
+
+msgid ""
+"|editor| Benchmark the run time and save it to a given file in JSON format. "
+"The path should be absolute."
+msgstr ""
+"|editor| Перевірте час виконання та збережіть його у заданому файлі у "
+"форматі JSON. Шлях повинен бути абсолютним."
+
 msgid "Path"
 msgstr "Шлях"
+
+msgid ""
+"It is recommended to place your Godot editor binary in your ``PATH`` "
+"environment variable, so it can be executed easily from any place by typing "
+"``godot``. You can do so on Linux by placing the Godot binary in ``/usr/"
+"local/bin`` and making sure it is called ``godot`` (case-sensitive)."
+msgstr ""
+"Рекомендовано розмістити двійковий файл редактора Godot у змінній середовища "
+"``PATH``, щоб його можна було легко виконати з будь-якого місця, ввівши "
+"``godot``. Ви можете зробити це в Linux, помістивши двійковий файл Godot у "
+"``/usr/local/bin`` і переконавшись, що він називається ``godot`` (з "
+"урахуванням регістру)."
+
+msgid ""
+"To achieve this on Windows or macOS easily, you can install Godot using "
+"`Scoop <https://scoop.sh>`__ (on Windows) or `Homebrew <https://brew.sh>`__ "
+"(on macOS). This will automatically make the copy of Godot installed "
+"available in the ``PATH``:"
+msgstr ""
+"Щоб легко досягти цього в Windows або macOS, ви можете встановити Godot за "
+"допомогою `Scoop <https://scoop.sh>`__ (у Windows) або `Homebrew <https://"
+"brew.sh>`__ (у macOS). Це автоматично зробить встановлену копію Godot "
+"доступною в ``PATH``:"
 
 msgid "Setting the project path"
 msgstr "Налаштування шляху проєкта"
@@ -182,20 +768,72 @@ msgstr ""
 "будь-яка з наступних команд працювала правильно."
 
 msgid ""
+"When running the editor, this can be done by giving the path to the "
+"``project.godot`` file of your project as either the first argument, like "
+"this:"
+msgstr ""
+"Під час запуску редактора це можна зробити, вказавши шлях до файлу ``project."
+"godot`` вашого проекту як перший аргумент, наприклад:"
+
+msgid "For all commands, this can be done by using the ``--path`` argument:"
+msgstr "Для всіх команд це можна зробити за допомогою аргументу ``--path``:"
+
+msgid ""
 "For example, the full command for exporting your game (as explained below) "
 "might look like this:"
 msgstr ""
 "Наприклад, повна команда експорту вашої гри (описано нижче) може виглядати "
 "так:"
 
+msgid ""
+"When starting from a subdirectory of your project, use the ``--upwards`` "
+"argument for Godot to automatically find the ``project.godot`` file by "
+"recursively searching the parent directories."
+msgstr ""
+"Починаючи з підкаталогу вашого проекту, використовуйте аргумент ``--"
+"upwards`` для Godot, щоб автоматично знайти файл ``project.godot`` шляхом "
+"рекурсивного пошуку в батьківських каталогах."
+
+msgid ""
+"For example, running a scene (as explained below) nested in a subdirectory "
+"might look like this when your working directory is in the same path:"
+msgstr ""
+"Наприклад, запуск сцени (як пояснюється нижче), вкладеної в підкаталог, може "
+"виглядати так, якщо ваш робочий каталог знаходиться в тому самому шляху:"
+
 msgid "Creating a project"
 msgstr "Як створити проєкт"
+
+msgid ""
+"Creating a project from the command line can be done by navigating the shell "
+"to the desired place and making a ``project.godot`` file."
+msgstr ""
+"Створити проект із командного рядка можна, перейшовши в оболонку до "
+"потрібного місця та створивши файл ``project.godot``."
 
 msgid "The project can now be opened with Godot."
 msgstr "Тепер проєкт можна відкрити в Godot."
 
 msgid "Running the editor"
 msgstr "Запуск редактора"
+
+msgid ""
+"Running the editor is done by executing Godot with the ``-e`` flag. This "
+"must be done from within the project directory or by setting the project "
+"path as explained above, otherwise the command is ignored and the Project "
+"Manager appears."
+msgstr ""
+"Запуск редактора виконується виконанням Godot з прапорцем ``-e``. Це "
+"потрібно зробити з каталогу проекту або шляхом встановлення шляху до "
+"проекту, як пояснено вище, інакше команда ігнорується та з’являється "
+"менеджер проекту."
+
+msgid ""
+"When passing in the full path to the ``project.godot`` file, the ``-e`` flag "
+"may be omitted."
+msgstr ""
+"Під час передачі повного шляху до файлу ``project.godot`` прапор ``-e`` "
+"можна опустити."
 
 msgid ""
 "If a scene has been created and saved, it can be edited later by running the "
@@ -207,8 +845,32 @@ msgstr ""
 msgid "Erasing a scene"
 msgstr "Видаляння сцени"
 
+msgid ""
+"Godot is friends with your filesystem and will not create extra metadata "
+"files. Use ``rm`` to erase a scene file. Make sure nothing references that "
+"scene. Otherwise, an error will be thrown upon opening the project."
+msgstr ""
+"Godot дружить з вашою файловою системою і не буде створювати додаткові файли "
+"метаданих. Використовуйте ``rm``, щоб стерти файл сцени. Переконайтеся, що "
+"ніщо не посилається на цю сцену. Інакше під час відкриття проекту буде "
+"видано повідомлення про помилку."
+
 msgid "Running the game"
 msgstr "Запуск гри"
+
+msgid ""
+"To run the game, execute Godot within the project directory or with the "
+"project path as explained above."
+msgstr ""
+"Щоб запустити гру, виконайте Godot у каталозі проекту або за допомогою шляху "
+"проекту, як описано вище."
+
+msgid ""
+"Note that passing in the ``project.godot`` file will always run the editor "
+"instead of running the game."
+msgstr ""
+"Зауважте, що передавання файлу ``project.godot`` завжди запускатиме редактор "
+"замість запуску гри."
 
 msgid ""
 "When a specific scene needs to be tested, pass that scene to the command "
@@ -219,8 +881,36 @@ msgstr ""
 msgid "Debugging"
 msgstr "Діагностика"
 
+msgid ""
+"Catching errors in the command line can be a difficult task because they "
+"scroll quickly. For this, a command line debugger is provided by adding ``-"
+"d``. It works for running either the game or a single scene."
+msgstr ""
+"Виявлення помилок у командному рядку може бути важким завданням, оскільки "
+"вони швидко прокручуються. Для цього налагоджувач командного рядка "
+"забезпечується додаванням ``-d``. Він працює для запуску гри або окремої "
+"сцени."
+
 msgid "Exporting"
 msgstr "Експортування"
+
+msgid ""
+"Exporting the project from the command line is also supported. This is "
+"especially useful for continuous integration setups."
+msgstr ""
+"Також підтримується експорт проекту з командного рядка. Це особливо корисно "
+"для налаштувань постійної інтеграції."
+
+msgid ""
+"Using the ``--headless`` command line argument is **required** on platforms "
+"that do not have GPU access (such as continuous integration). On platforms "
+"with GPU access, ``--headless`` prevents a window from spawning while the "
+"project is exporting."
+msgstr ""
+"Використання аргументу командного рядка ``--headless`` є **обов’язковим** на "
+"платформах, які не мають доступу до GPU (наприклад, безперервна інтеграція). "
+"На платформах із доступом до GPU ``--headless`` запобігає появі вікна під "
+"час експорту проекту."
 
 msgid ""
 "The preset name must match the name of an export preset defined in the "
@@ -234,13 +924,53 @@ msgstr ""
 "чи спеціальні символи (наприклад, \"Windows Desktop\"), то вона повинна бути "
 "загорнута в лапки."
 
+msgid ""
+"To export a debug version of the game, use the ``--export-debug`` switch "
+"instead of ``--export-release``. Their parameters and usage are the same."
+msgstr ""
+"Щоб експортувати налагоджену версію гри, використовуйте перемикач ``--export-"
+"debug`` замість ``--export-release``. Їх параметри та використання однакові."
+
+msgid ""
+"To export only a PCK file, use the ``--export-pack`` option followed by the "
+"preset name and output path, with the file extension, instead of ``--export-"
+"release`` or ``--export-debug``. The output path extension determines the "
+"package's format, either PCK or ZIP."
+msgstr ""
+"Щоб експортувати лише файл PCK, використовуйте опцію ``--export-pack``, за "
+"якою слід попередньо встановлене ім’я та вихідний шлях із розширенням файлу, "
+"замість ``--export-release`` або ``--export`` -debug``. Розширення вихідного "
+"шляху визначає формат пакета, PCK або ZIP."
+
+msgid ""
+"When specifying a relative path as the path for ``--export-release``, ``--"
+"export-debug`` or ``--export-pack``, the path will be relative to the "
+"directory containing the ``project.godot`` file, **not** relative to the "
+"current working directory."
+msgstr ""
+"Якщо вказати відносний шлях як шлях для ``--export-release``, ``--export-"
+"debug`` або ``--export-pack``, шлях буде відносним до каталогу, що містить ` "
+"файл `project.godot``, **не** відносно поточного робочого каталогу."
+
 msgid "Running a script"
 msgstr "Запуск скрипта"
+
+msgid ""
+"It is possible to run a ``.gd`` script from the command line. This feature "
+"is especially useful in large projects, e.g. for batch conversion of assets "
+"or custom import/export."
+msgstr ""
+"Сценарій ``.gd`` можна запустити з командного рядка. Ця функція особливо "
+"корисна у великих проектах, напр. для пакетного перетворення активів або "
+"спеціального імпорту/експорту."
 
 msgid "The script must inherit from ``SceneTree`` or ``MainLoop``."
 msgstr ""
 "Скрипт повинен успадковуватись від ``SceneTree`` (Дерева сцен), або "
 "``MainLoop`` (Головного циклу)."
+
+msgid "Here is an example ``sayhello.gd``, showing how it works:"
+msgstr "Ось приклад ``sayhello.gd``, який показує, як це працює:"
 
 msgid "And how to run it:"
 msgstr "І як це запустити:"
@@ -270,6 +1000,3 @@ msgstr ""
 "Якщо вищевказане не працює у вашій поточній версії Linux, або macOS, ви "
 "завжди можете запустити шебанг Godot прямо звідти, де він знаходиться "
 "наступним чином:"
-
-msgid "Translation status"
-msgstr "Стан перекладу"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -72,9 +72,6 @@ msgstr "No Rider:"
 msgid "Set **MSBuild version** to **.NET Core**."
 msgstr "Defina a **versão do MSBuild** para **.NET Core**."
 
-msgid "Install the **Godot support** plugin."
-msgstr "Instale o plugin de **suporte do Godot**."
-
 msgid ""
 "After reading the \"Prerequisites\" section, you can download and install "
 "`Visual Studio Code <https://code.visualstudio.com/download>`__ (aka VS "
@@ -93,15 +90,6 @@ msgid ""
 msgstr ""
 "Instale a extensão `C# <https://marketplace.visualstudio.com/items?"
 "itemName=ms-dotnettools.csharp>`__."
-
-msgid ""
-"If you are using Linux you need to install the `Mono SDK <https://www.mono-"
-"project.com/download/stable/#download-lin>`__ for the C# tools plugin to "
-"work."
-msgstr ""
-"Se você está usando Linux, você precisa instalar o `Mono SDK <https://www."
-"mono-project.com/download/stable/#download-lin>` para que o plugin de "
-"ferramentas C# funcione."
 
 msgid "Visual Studio (Windows only)"
 msgstr "Visual Studio (somente Windows)"
@@ -215,6 +203,3 @@ msgstr ""
 
 msgid "Profiling your C# code"
 msgstr "Perfilando seu código C#"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

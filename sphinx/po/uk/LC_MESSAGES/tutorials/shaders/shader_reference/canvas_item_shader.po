@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,29 +11,600 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CanvasItem shaders"
+msgstr "Шейдери CanvasItem"
+
+msgid ""
+"CanvasItem shaders are used to draw all 2D elements in Godot. These include "
+"all nodes that inherit from CanvasItems, and all GUI elements."
+msgstr ""
+"Шейдери CanvasItem використовуються для малювання всіх 2D-елементів у Godot. "
+"До них належать усі вузли, які успадковуються від CanvasItems, і всі "
+"елементи GUI."
+
+msgid ""
+"CanvasItem shaders contain less built-in variables and functionality than "
+"Spatial shaders, but they maintain the same basic structure with vertex, "
+"fragment, and light processor functions."
+msgstr ""
+"Шейдери CanvasItem містять менше вбудованих змінних і функцій, ніж шейдери "
+"Spatial, але вони зберігають ту саму базову структуру з функціями "
+"вершинного, фрагментного та світлового процесора."
+
+msgid "Render modes"
+msgstr "Режими візуалізації"
+
+msgid "Render mode"
+msgstr "Режим візуалізації"
+
 msgid "Description"
 msgstr "Опис"
+
+msgid "**blend_mix**"
+msgstr "**Blend_mix**"
+
+msgid "Mix blend mode (alpha is transparency), default."
+msgstr "Режим змішування (альфа — це прозорість), за замовчуванням."
+
+msgid "**blend_add**"
+msgstr "**Blend_add**"
+
+msgid "Additive blend mode."
+msgstr "Режим адитивного змішування."
+
+msgid "**blend_sub**"
+msgstr "**Blend_sub**"
+
+msgid "Subtractive blend mode."
+msgstr "Режим субтрактивного змішування."
+
+msgid "**blend_mul**"
+msgstr "**Blend_mul**"
+
+msgid "Multiplicative blend mode."
+msgstr "Мультиплікативний режим змішування."
+
+msgid "**blend_premul_alpha**"
+msgstr "**Blend_premul_alpha**"
+
+msgid "Pre-multiplied alpha blend mode."
+msgstr "Режим альфа-змішування з попереднім множенням."
+
+msgid "**blend_disabled**"
+msgstr "**Blend_disabled**"
+
+msgid "Disable blending, values (including alpha) are written as-is."
+msgstr "Вимкнути змішування, значення (включаючи альфа) записуються як є."
+
+msgid "**unshaded**"
+msgstr "**Unshaded**"
+
+msgid "Result is just albedo. No lighting/shading happens in material."
+msgstr "Результат - просто альбедо. У матеріалі немає освітлення/затінення."
+
+msgid "**light_only**"
+msgstr "**Light_only**"
+
+msgid "Only draw on light pass."
+msgstr "Малюйте тільки на світлому проході."
+
+msgid "**skip_vertex_transform**"
+msgstr "**Skip_vertex_transform**"
+
+msgid "VERTEX needs to be transformed manually in vertex function."
+msgstr "VERTEX потрібно вручну перетворити у функцію вершини."
+
+msgid "**world_vertex_coords**"
+msgstr "**World_vertex_coords**"
+
+msgid "VERTEX is modified in world coordinates instead of local."
+msgstr "VERTEX змінено у світових координатах замість локальних."
+
+msgid "Built-ins"
+msgstr "Вбудовані"
+
+msgid ""
+"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
+"optional writing and will not necessarily contain sensible values. Values "
+"marked as \"inout\" provide a sensible default value, and can optionally be "
+"written to. Samplers are not subjects of writing and they are not marked."
+msgstr ""
+"Значення, позначені як \"in\", доступні лише для читання. Значення, "
+"позначені як \"out\", призначені для необов'язкового запису та не "
+"обов'язково містять розумні значення. Значення, помічені як \"inout\", "
+"забезпечують розумне значення за замовчуванням і, за бажанням, можуть бути "
+"записані. Пробники не є предметом написання і не маркуються."
+
+msgid "Global built-ins"
+msgstr "Глобальні вбудовані функції"
+
+msgid "Global built-ins are available everywhere, including custom functions."
+msgstr ""
+"Глобальні вбудовані функції доступні скрізь, включаючи спеціальні функції."
 
 msgid "Built-in"
 msgstr "Вбудований"
 
+msgid "in float **TIME**"
+msgstr "In float **TIME**"
+
+msgid "in float **PI**"
+msgstr "у float **PI**"
+
+msgid ""
+"A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
+"diameter and amount of radians in half turn."
+msgstr ""
+"Константа ``PI`` (``3,141592``). Відношення довжини кола до його діаметра та "
+"кількості радіанів на півоберта."
+
+msgid "in float **TAU**"
+msgstr "у float **TAU**"
+
+msgid ""
+"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
+"radians in full turn."
+msgstr ""
+"Константа ``TAU`` (``6,283185``). Еквівалент ``PI * 2`` і кількість радіан у "
+"повному оберті."
+
+msgid "in float **E**"
+msgstr "у float **E**"
+
+msgid ""
+"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
+"logarithm."
+msgstr ""
+"Константа ``E`` (``2,718281``). Число Ейлера та основа натурального "
+"логарифма."
+
+msgid "Vertex built-ins"
+msgstr "Вбудовані вершини"
+
+msgid ""
+"Vertex data (``VERTEX``) is presented in local space (pixel coordinates, "
+"relative to the Node2D's origin). If not written to, these values will not "
+"be modified and be passed through as they came."
+msgstr ""
+"Дані вершини (``VERTEX``) представлені в локальному просторі (координати "
+"пікселів відносно початку Node2D). Якщо не записувати, ці значення не будуть "
+"змінені та передадуться так, як вони надійшли."
+
+msgid ""
+"The user can disable the built-in model to world transform (world to screen "
+"and projection will still happen later) and do it manually with the "
+"following code:"
+msgstr ""
+"Користувач може вимкнути вбудовану модель для перетворення світу (світ на "
+"екран і проекція все одно відбудеться пізніше) і зробити це вручну за "
+"допомогою наступного коду:"
+
+msgid ""
+"Other built-ins, such as UV and COLOR, are also passed through to the "
+"fragment function if not modified."
+msgstr ""
+"Інші вбудовані функції, такі як UV і COLOR, також передаються до функції "
+"фрагменту, якщо не змінюються."
+
+msgid ""
+"For instancing, the INSTANCE_CUSTOM variable contains the instance custom "
+"data. When using particles, this information is usually:"
+msgstr ""
+"Для створення екземплярів змінна INSTANCE_CUSTOM містить користувацькі дані "
+"екземпляра. При використанні частинок ця інформація зазвичай така:"
+
+msgid "**x**: Rotation angle in radians."
+msgstr "**x**: Кут повороту в радіанах."
+
+msgid "**y**: Phase during lifetime (0 to 1)."
+msgstr "**y**: Фаза протягом життя (від 0 до 1)."
+
+msgid "**z**: Animation frame."
+msgstr "**z**: рамка анімації."
+
+msgid "in mat4 **MODEL_MATRIX**"
+msgstr "In mat4 **MODEL_MATRIX**"
+
+msgid ""
+"Local space to world space transform. World space is the coordinates you "
+"normally use in the editor."
+msgstr ""
+"Трансформація локального простору у світовий простір. Світовий простір - це "
+"координати, які ви зазвичай використовуєте в редакторі."
+
+msgid "in mat4 **CANVAS_MATRIX**"
+msgstr "In mat4 **CANVAS_MATRIX**"
+
+msgid ""
+"World space to canvas space transform. In canvas space the origin is the "
+"upper-left corner of the screen and coordinates ranging from (0, 0) to "
+"viewport size."
+msgstr ""
+"Перетворення світового простору в простір полотна. У просторі полотна "
+"початок координат — це верхній лівий кут екрана з координатами в діапазоні "
+"від (0, 0) до розміру вікна перегляду."
+
+msgid "in mat4 **SCREEN_MATRIX**"
+msgstr "In mat4 **SCREEN_MATRIX**"
+
+msgid ""
+"Canvas space to clip space. In clip space coordinates ranging from (-1, -1) "
+"to (1, 1)."
+msgstr ""
+"Простір полотна до простору кліпу. У просторі кліпу координати в діапазоні "
+"від (-1, -1) до (1, 1)."
+
+msgid "in int  **INSTANCE_ID**"
+msgstr "In int **INSTANCE_ID**"
+
+msgid "Instance ID for instancing."
+msgstr "Ідентифікатор екземпляра для створення екземпляра."
+
+msgid "in vec4 **INSTANCE_CUSTOM**"
+msgstr "In vec4 **INSTANCE_CUSTOM**"
+
+msgid "Instance custom data."
+msgstr "Спеціальні дані екземпляра."
+
+msgid "in bool **AT_LIGHT_PASS**"
+msgstr "In bool **AT_LIGHT_PASS**"
+
 msgid "Always ``false``."
 msgstr "Завжди``false``."
+
+msgid "in vec2 **TEXTURE_PIXEL_SIZE**"
+msgstr "In vec2 **TEXTURE_PIXEL_SIZE**"
+
+msgid ""
+"Normalized pixel size of default 2D texture. For a Sprite2D with a texture "
+"of size 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
+msgstr ""
+"Нормалізований розмір пікселів двовимірної текстури за замовчуванням. Для "
+"Sprite2D із текстурою розміром 64x32 пікселів **TEXTURE_PIXEL_SIZE** = "
+"``vec2(1/64, 1/32)``"
+
+msgid "inout vec2 **VERTEX**"
+msgstr "Inout vec2 **VERTEX**"
 
 msgid "Vertex, in local space."
 msgstr "Вершина, в локальному просторі."
 
+msgid "in int **VERTEX_ID**"
+msgstr "In int **VERTEX_ID**"
+
+msgid "The index of the current vertex in the vertex buffer."
+msgstr "Індекс поточної вершини в буфері вершин."
+
+msgid "inout vec2 **UV**"
+msgstr "Inout vec2 **UV**"
+
+msgid "Normalized texture coordinates. Range from 0 to 1."
+msgstr "Нормалізовані координати текстури. Діапазон від 0 до 1."
+
+msgid "inout vec4 **COLOR**"
+msgstr "Inout vec4 **COLOR**"
+
+msgid "Color from vertex primitive."
+msgstr "Колір з примітиву вершини."
+
+msgid "inout float **POINT_SIZE**"
+msgstr "Inout float **POINT_SIZE**"
+
+msgid "Point size for point drawing."
+msgstr "Розмір точки для малювання точки."
+
+msgid "in vec4 **CUSTOM0**"
+msgstr "In vec4 **CUSTOM0**"
+
+msgid "Custom value from vertex primitive."
+msgstr "Спеціальне значення з примітиву вершини."
+
+msgid "in vec4 **CUSTOM1**"
+msgstr "In vec4 **CUSTOM1**"
+
+msgid "Fragment built-ins"
+msgstr "Фрагмент вбудованих"
+
+msgid ""
+"Similarly, if a normal map is used in the :ref:`CanvasTexture "
+"<class_CanvasTexture>`, Godot uses it by default and assigns its value to "
+"the built-in ``NORMAL`` variable. If you are using a normal map meant for "
+"use in 3D, it will appear inverted. In order to use it in your shader, you "
+"must assign it to the ``NORMALMAP`` property. Godot will handle converting "
+"it for use in 2D and overwriting ``NORMAL``."
+msgstr ""
+"Подібним чином, якщо в :ref:`CanvasTexture <class_CanvasTexture>` "
+"використовується карта нормалей, Godot використовує її за замовчуванням і "
+"призначає її значення вбудованій змінній ``NORMAL``. Якщо ви використовуєте "
+"звичайну карту, призначену для використання в 3D, вона відображатиметься "
+"перевернутою. Щоб використовувати його у вашому шейдері, ви повинні "
+"призначити його властивості ``NORMALMAP``. Godot перетворить його для "
+"використання у 2D і перезапише ``NORMAL``."
+
+msgid "in vec4 **FRAGCOORD**"
+msgstr "In vec4 **FRAGCOORD**"
+
+msgid ""
+"Coordinate of pixel center. In screen space. ``xy`` specifies position in "
+"window. Origin is upper-left."
+msgstr ""
+"Координата центру пікселя. В екранному просторі. ``xy`` вказує позицію у "
+"вікні. Початок – верхній лівий кут."
+
+msgid "in vec2 **SCREEN_PIXEL_SIZE**"
+msgstr "In vec2 **SCREEN_PIXEL_SIZE**"
+
+msgid "Size of individual pixels. Equal to inverse of resolution."
+msgstr "Розмір окремих пікселів. Дорівнює оберненій роздільній здатності."
+
+msgid "in vec2 **POINT_COORD**"
+msgstr "In vec2 **POINT_COORD**"
+
+msgid "Coordinate for drawing points."
+msgstr "Координата для малювання точок."
+
+msgid "sampler2D **TEXTURE**"
+msgstr "Sampler2D **TEXTURE**"
+
+msgid "Default 2D texture."
+msgstr "Двовимірна текстура за замовчуванням."
+
+msgid "sampler2D **SPECULAR_SHININESS_TEXTURE**"
+msgstr "Sampler2D **SPECULAR_SHININESS_TEXTURE**"
+
+msgid "Specular shininess texture of this object."
+msgstr "Текстура дзеркального блиску цього об'єкта."
+
+msgid "in vec4 **SPECULAR_SHININESS**"
+msgstr "In vec4 **SPECULAR_SHININESS**"
+
+msgid "Specular shininess color, as sampled from the texture."
+msgstr "Колір дзеркального блиску, взятий із текстури."
+
+msgid "in vec2 **UV**"
+msgstr "In vec2 **UV**"
+
+msgid "UV from vertex function."
+msgstr "UV від вершинної функції."
+
+msgid "in vec2 **SCREEN_UV**"
+msgstr "In vec2 **SCREEN_UV**"
+
+msgid "Screen UV coordinate for current pixel."
+msgstr "УФ-координата екрана для поточного пікселя."
+
+msgid "sampler2D **SCREEN_TEXTURE**"
+msgstr "Sampler2D **SCREEN_TEXTURE**"
+
+msgid ""
+"Removed in Godot 4. Use a ``sampler2D`` with ``hint_screen_texture`` instead."
+msgstr ""
+"Видалено в Godot 4. Замість цього використовуйте ``sampler2D`` з "
+"``hint_screen_texture``."
+
+msgid "inout vec3 **NORMAL**"
+msgstr "Inout vec3 **NORMAL**"
+
+msgid "Normal read from **NORMAL_TEXTURE**. Writable."
+msgstr "Нормальне читання з **NORMAL_TEXTURE**. Можливість запису."
+
+msgid "sampler2D **NORMAL_TEXTURE**"
+msgstr "Sampler2D **NORMAL_TEXTURE**"
+
+msgid "Default 2D normal texture."
+msgstr "Стандартна 2D звичайна текстура."
+
+msgid "out vec3 **NORMAL_MAP**"
+msgstr "Out vec3 **NORMAL_MAP**"
+
+msgid ""
+"Configures normal maps meant for 3D for use in 2D. If used, overrides "
+"**NORMAL**."
+msgstr ""
+"Налаштовує карти нормалей, призначені для 3D, для використання у 2D. Якщо "
+"використовується, замінює **NORMAL**."
+
+msgid "out float **NORMAL_MAP_DEPTH**"
+msgstr "Out float **NORMAL_MAP_DEPTH**"
+
+msgid "Normalmap depth for scaling."
+msgstr "Глибина карти нормалей для масштабування."
+
+msgid "Pixel position in screen space."
+msgstr "Розташування пікселя в просторі екрана."
+
+msgid "inout vec2 **SHADOW_VERTEX**"
+msgstr "Inout vec2 **SHADOW_VERTEX**"
+
+msgid "Same as ``VERTEX`` but can be written to alter shadows."
+msgstr "Те саме, що ``VERTEX``, але його можна записати для зміни тіней."
+
+msgid "inout vec3 **LIGHT_VERTEX**"
+msgstr "Inout vec3 **LIGHT_VERTEX**"
+
+msgid ""
+"Same as ``VERTEX`` but can be written to alter lighting. Z component "
+"represents height."
+msgstr ""
+"Те саме, що ``VERTEX``, але його можна записати для зміни освітлення. "
+"Компонент Z представляє висоту."
+
+msgid "Light built-ins"
+msgstr "Легкі вбудовані"
+
+msgid ""
+"Light processor functions work differently in Godot 4.x than they did in "
+"Godot 3.x. In Godot 4.x all lighting is done during the regular draw pass. "
+"In other words, Godot no longer draws the object again for each light."
+msgstr ""
+"Функції світлового процесора працюють інакше в Godot 4.x, ніж у Godot 3.x. У "
+"Godot 4.x усе освітлення здійснюється під час звичайного проходу розіграшу. "
+"Іншими словами, Годо більше не малює об’єкт знову для кожного світла."
+
+msgid ""
+"Use render_mode ``unshaded`` if you do not want the light processor function "
+"to run. Use render_mode ``light_only`` if you only want to see the impact of "
+"lighting on an object; this can be useful when you only want the object "
+"visible where it is covered by light."
+msgstr ""
+"Використовуйте режим render_mode ``unshaded``, якщо ви не хочете, щоб "
+"функція світлового процесора запускалася. Використовуйте режим render_mode "
+"``light_only``, якщо ви хочете лише побачити вплив освітлення на об’єкт; це "
+"може бути корисно, коли ви бажаєте, щоб об’єкт було видно лише там, де він "
+"покритий світлом."
+
+msgid ""
+"If you define a light function it will replace the built in light function, "
+"even if your light function is empty."
+msgstr ""
+"Якщо ви визначите функцію освітлення, вона замінить вбудовану функцію "
+"освітлення, навіть якщо ваша функція освітлення порожня."
+
+msgid ""
+"Below is an example of a light shader that takes a CanvasItem's normal map "
+"into account:"
+msgstr ""
+"Нижче наведено приклад світлого шейдера, який враховує карту нормалей "
+"CanvasItem:"
+
+msgid ""
+"Coordinate of pixel center. In screen space. ``xy`` specifies position in "
+"window. Origin is lower-left."
+msgstr ""
+"Координата центру пікселя. В екранному просторі. ``xy`` вказує позицію у "
+"вікні. Початок нижній лівий."
+
+msgid "in vec3 **NORMAL**"
+msgstr "In vec3 **NORMAL**"
+
 msgid "Input Normal."
 msgstr "Ввід нормальний."
+
+msgid "in vec4 **COLOR**"
+msgstr "In vec4 **COLOR**"
+
+msgid "Input Color. This is the output of the fragment function."
+msgstr "Колір введення. Це вихід функції фрагмента."
+
+msgid "UV from vertex function, equivalent to the UV in the fragment function."
+msgstr "UV від вершинної функції, еквівалентно UV у функції фрагмента."
+
+msgid "Current texture in use for CanvasItem."
+msgstr "Поточна текстура, яка використовується для CanvasItem."
+
+msgid ""
+"Normalized pixel size of **TEXTURE**. For a Sprite2D with a **TEXTURE** of "
+"size 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
+msgstr ""
+"Нормалізований розмір пікселя **TEXTURE**. Для Sprite2D із **TEXTURE** "
+"розміром 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
 
 msgid "UV for Point Sprite."
 msgstr "УФ для точкового спрайта."
 
+msgid "in vec4 **LIGHT_COLOR**"
+msgstr "In vec4 **LIGHT_COLOR**"
+
+msgid "Color of Light multiplied by Light's texture."
+msgstr "Колір світла, помножений на текстуру світла."
+
+msgid "in float **LIGHT_ENERGY**"
+msgstr "In float **LIGHT_ENERGY**"
+
+msgid "Energy multiplier of Light."
+msgstr "Множник енергії Світла."
+
+msgid "in vec3 **LIGHT_POSITION**"
+msgstr "In vec3 **LIGHT_POSITION**"
+
+msgid ""
+"Position of Light in screen space. If using a ``DirectionalLight2D`` this is "
+"always ``vec3(0,0,0)``."
+msgstr ""
+"Розташування світла в екранному просторі. Якщо використовується "
+"``DirectionalLight2D``, це завжди ``vec3(0,0,0)``."
+
+msgid "in vec3 **LIGHT_DIRECTION**"
+msgstr "In vec3 **LIGHT_DIRECTION**"
+
+msgid "Direction of Light in screen space."
+msgstr "Напрямок світла в екранному просторі."
+
+msgid "in bool **LIGHT_IS_DIRECTIONAL**"
+msgstr "In bool **LIGHT_IS_DIRECTIONAL**"
+
+msgid "``true`` if this pass is a ``DirectionalLight2D``."
+msgstr "``true``, якщо цей пропуск є ``DirectionalLight2D``."
+
+msgid "in vec3 **LIGHT_VERTEX**"
+msgstr "In vec3 **LIGHT_VERTEX**"
+
+msgid "Pixel position, in screen space as modified in the fragment function."
+msgstr "Позиція пікселя в просторі екрана, змінена у функції фрагмента."
+
+msgid "inout vec4 **LIGHT**"
+msgstr "Inout vec4 **LIGHT**"
+
 msgid "Output color for this Light."
 msgstr "Виведіть колір для цього світла."
+
+msgid "Specular shininess, as set in the object's texture."
+msgstr "Дзеркальне сяйво, встановлене в текстурі об'єкта."
+
+msgid "out vec4 **SHADOW_MODULATE**"
+msgstr "Out vec4 **SHADOW_MODULATE**"
+
+msgid "Multiply shadows cast at this point by this color."
+msgstr "Помножте тіні, що відкидаються в цій точці, на цей колір."
+
+msgid "SDF functions"
+msgstr "Функції SDF"
+
+msgid ""
+"There are a few additional functions implemented to sample an automatically "
+"generated Signed Distance Field texture. These functions available for "
+"Fragment and Light functions of CanvasItem shaders."
+msgstr ""
+"Є кілька додаткових функцій, реалізованих для вибірки автоматично створеної "
+"текстури Signed Distance Field. Ці функції доступні для функцій Fragment і "
+"Light шейдерів CanvasItem."
+
+msgid ""
+"The signed distance field is generated from :ref:`class_LightOccluder2D` "
+"nodes present in the scene with the **SDF Collision** property enabled "
+"(which is the default). See the :ref:`2D lights and shadows "
+"<doc_2d_lights_and_shadows_setting_up_shadows>` documentation for more "
+"information."
+msgstr ""
+"Поле підписаної відстані генерується з вузлів :ref:`class_LightOccluder2D`, "
+"присутніх у сцені з увімкненою властивістю **SDF Collision** (яка є "
+"типовою). Перегляньте документацію :ref:`2D lights and shadows "
+"<doc_2d_lights_and_shadows_setting_up_shadows>` для отримання додаткової "
+"інформації."
 
 msgid "Function"
 msgstr "Функція"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "float **texture_sdf** (vec2 sdf_pos)"
+msgstr "Float **texture_sdf** (vec2 sdf_pos)"
+
+msgid "Performs an SDF texture lookup."
+msgstr "Виконує пошук текстури SDF."
+
+msgid "vec2 **texture_sdf_normal** (vec2 sdf_pos)"
+msgstr "Vec2 **texture_sdf_normal** (vec2 sdf_pos)"
+
+msgid "Calculates a normal from the SDF texture."
+msgstr "Обчислює нормаль із текстури SDF."
+
+msgid "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
+msgstr "Vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
+
+msgid "Converts an SDF to screen UV."
+msgstr "Перетворює SDF на УФ екран."
+
+msgid "vec2 **screen_uv_to_sdf** (vec2 uv)"
+msgstr "Vec2 **screen_uv_to_sdf** (vec2 uv)"
+
+msgid "Converts screen UV to an SDF."
+msgstr "Перетворює УФ екрана на SDF."

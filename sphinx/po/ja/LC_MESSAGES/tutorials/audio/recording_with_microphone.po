@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -97,6 +97,3 @@ msgstr ""
 "記録を保存するには、ファイルへのパスを指定して ``save_to_wav()`` を呼び出しま"
 "す。このデモでは、パスは ``LineEdit`` 入力ボックスを介してユーザーが定義しま"
 "す。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using decals"
+msgstr "Çıkartmaları kullanma"
+
 msgid "Textures"
 msgstr "Dokular"
 
 msgid "Parameters"
 msgstr "Parametreler"
 
-msgid "Translation status"
-msgstr "Çeviri durumu"
+msgid "Vertical Fade"
+msgstr "Dikey Solma"
+
+msgid "Distance Fade"
+msgstr "Mesafe Solması"
+
+msgid "Cull Mask"
+msgstr "Kaldırma Maskesi"
+
+msgid "Limitations"
+msgstr "Sınırlamalar"

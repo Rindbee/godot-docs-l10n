@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -355,6 +355,3 @@ msgstr ""
 "también puedes animar otras propiedades como la posición o la escala. La "
 "clase \"AnimationPlayer\" también puede ser usada con un \"AnimatedSprite\". "
 "Experimenta para ver qué es lo que mejor funciona para tus necesidades."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

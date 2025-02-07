@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -79,9 +79,6 @@ msgstr "布林值的四分量向量."
 msgid "**int**"
 msgstr "**int**"
 
-msgid "Signed scalar integer."
-msgstr "帶正負的符號標量整數."
-
 msgid "**ivec2**"
 msgstr "**ivec2**"
 
@@ -126,9 +123,6 @@ msgstr "不帶正負號的整數的四分量向量."
 
 msgid "**float**"
 msgstr "**float**"
-
-msgid "Floating-point scalar."
-msgstr "浮點標量."
 
 msgid "**vec2**"
 msgstr "**vec2**"
@@ -234,9 +228,6 @@ msgstr "用於綁定立方體貼圖的取樣器型別，作為 float 讀取。"
 msgid "**samplerCubeArray**"
 msgstr "**samplerCubeArray**"
 
-msgid "Sampler type for binding Cubemap arrays, which are read as float."
-msgstr "用於綁定立方體貼圖陣列的取樣器型別，作為 float 讀取。"
-
 msgid "Comments"
 msgstr "注釋"
 
@@ -272,28 +263,11 @@ msgstr ""
 "用 \"r\" , \"g\" , \"b\" 和 \"a\" 也可以, 而且是等效的. 使用最適合你的需求的"
 "方法."
 
-msgid ""
-"For matrices, use the ``m[column][row]`` indexing syntax to access each "
-"scalar, or ``m[idx]`` to access a vector by row index. For example, for "
-"accessing the y position of an object in a mat4 you use ``m[3][1]``."
-msgstr ""
-"對於矩陣，使用 ``m[column][row]`` 索引語法來存取每個標量，或者 ``m[idx]`` 按"
-"行索引來存取一個向量。例如，為了存取 mat4 中一個物件的 y 位置，使用 ``m[3]"
-"[1]``。"
-
 msgid "Constructing"
 msgstr "建構"
 
 msgid "Construction of vector types must always pass:"
 msgstr "向量型別的建構必須始終通過:"
-
-msgid ""
-"Construction of matrix types requires vectors of the same dimension as the "
-"matrix. You can also build a diagonal matrix using ``matx(float)`` syntax. "
-"Accordingly, ``mat4(1.0)`` is an identity matrix."
-msgstr ""
-"建構矩陣型別需要與矩陣相同維度的向量. 你也可以使用 ``matx(float)`` 語法建構一"
-"個對角矩陣. 相應地, ``mat4(1.0)`` 是一個單位矩陣."
 
 msgid ""
 "Matrices can also be built from a matrix of another dimension. There are two "
@@ -2167,6 +2141,3 @@ msgid ""
 "of infinity or NaN, the results are undefined."
 msgstr ""
 "對於“x”等於零，有效數和指數都為零。對於無窮大或 NaN 的“x”，結果是未定義的。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Translation status"
-msgstr "翻訳ステータス"
+msgid "Enable the project setting."
+msgstr "プロジェクト設定を有効化する。"
+
+msgid "Configure the camera."
+msgstr "カメラを設定する。"
+
+msgid "Configure the environment."
+msgstr "環境(environment)を設定する。"
+
+msgid "Configure Light3D nodes."
+msgstr "Light3D ノードを設定する。"

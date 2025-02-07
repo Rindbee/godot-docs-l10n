@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,6 +11,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"The NavigationServer does not update every change immediately but waits "
+"until the end of the **physics frame** to synchronize all the changes "
+"together."
+msgstr ""
+"Le NavigationServer ne met pas à jour chaque changement immédiatement mais "
+"attend jusqu'à la fin de la **trame physique** pour synchroniser tous les "
+"changements ensemble."
+
+msgid "2D and 3D NavigationServer differences"
+msgstr "Différences entre le NavigationServer 2D et 3D"
+
+msgid ""
+"To learn more about NavigationAgents see :ref:"
+"`doc_navigation_using_navigationagents`."
+msgstr ""
+"Pour en savoir plus sur les NavigationAgents, voir :ref:"
+"`doc_navigation_using_navigationagents`."
+
+msgid "``_physics_process(delta)``."
+msgstr "``_physics_process(delta)``."
+
 msgid "NavigationServer waits for synchronization."
 msgstr "NavigationServer attend pour la synchronisation."
 
@@ -19,6 +41,3 @@ msgstr "PhysicsServer se synchronise."
 
 msgid "physics frame ends."
 msgstr "La trame physique s'arrête."
-
-msgid "Translation status"
-msgstr "État de la traduction"

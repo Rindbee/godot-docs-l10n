@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -115,6 +115,3 @@ msgid ""
 msgstr ""
 "これでボタンが押されたときに ``_on_button_pressed`` が呼び出されます。このメ"
 "ソッドは敵をスポーンするために使用します。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -74,6 +74,9 @@ msgstr "12 KB"
 msgid "Import options (Ogg Vorbis and MP3)"
 msgstr "Opciones de importación (Off Vorbis y MP3)"
 
+msgid "BPM"
+msgstr "BPM"
+
 msgid "Best practices"
 msgstr "Buenas prácticas"
 
@@ -86,6 +89,3 @@ msgstr ""
 "con efectos incorporados. Esto ahorra a los artistas de efectos especiales "
 "la necesidad de agregar reverberación a los efectos de sonido, reduciendo su "
 "tamaño y asegurando un correcto recorte."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

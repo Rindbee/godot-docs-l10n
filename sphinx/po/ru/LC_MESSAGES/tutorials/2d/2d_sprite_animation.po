@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -22,6 +22,15 @@ msgstr ""
 "В этом случае у вас есть коллекция изображений, каждое из которых содержит "
 "один из анимационных кадров вашего персонажа. Для этого примера мы будем "
 "использовать следующую анимацию:"
+
+msgid ""
+"You can download the images here: `2d_sprite_animation_assets.zip <https://"
+"github.com/godotengine/godot-docs-project-starters/releases/download/"
+"latest-4.x/2d_sprite_animation_assets.zip>`_"
+msgstr ""
+"Вы можете скачать изображения здесь: `2d_sprite_animation_assets.zip "
+"<https://github.com/godotengine/godot-docs-project-starters/releases/"
+"download/latest-4.x/2d_sprite_animation_assets.zip>`_"
 
 msgid ""
 "Unzip the images and place them in your project folder. Set up your scene "
@@ -201,6 +210,3 @@ msgstr ""
 
 msgid "Summary"
 msgstr "Подведение итогов"
-
-msgid "Translation status"
-msgstr "Статус перевода"

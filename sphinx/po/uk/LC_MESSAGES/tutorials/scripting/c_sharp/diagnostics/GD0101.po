@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,68 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0101: The exported member is static"
+msgstr "GD0101: експортований елемент є статичним"
+
+msgid "**Rule ID**"
+msgstr "**Ідентифікатор правила**"
+
+msgid "GD0101"
+msgstr "GD0101"
+
 msgid "**Category**"
 msgstr "**Категорія**"
 
 msgid "Usage"
 msgstr "Використання"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Виправлення ламається або не ламається**"
+
+msgid "Breaking - If the ``static`` keyword is removed"
+msgstr "Злам – якщо ключове слово ``static`` видалено"
+
+msgid "Non-breaking - If the ``[Export]`` attribute is removed"
+msgstr "Нерозривний – якщо видалено атрибут ``[Export]``"
+
+msgid "**Enabled by default**"
+msgstr "**Увімкнено за замовчуванням**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "причина"
+
+msgid ""
+"A static member is annotated with the ``[Export]`` attribute. Static members "
+"can't be exported."
+msgstr ""
+"Статичний член анотується атрибутом ``[Export]``. Статичні елементи не можна "
+"експортувати."
+
+msgid "Rule description"
+msgstr "Опис правила"
+
+msgid "Godot doesn't allow exporting static members."
+msgstr "Godot не дозволяє експортувати статичні елементи."
+
+msgid "How to fix violations"
+msgstr "Як усунути порушення"
+
+msgid ""
+"To fix a violation of this rule, remove the ``[Export]`` attribute or remove "
+"the ``static`` keyword."
+msgstr ""
+"Щоб виправити порушення цього правила, видаліть атрибут ``[Export]`` або "
+"видаліть ключове слово ``static``."
+
+msgid "When to suppress warnings"
+msgstr "Коли придушувати попередження"
+
+msgid ""
+"Do not suppress a warning from this rule. Static members can't be exported "
+"so they will be ignored by Godot, resulting in runtime errors."
+msgstr ""
+"Не приховуйте попередження з цього правила. Статичні елементи не можна "
+"експортувати, тому Godot їх ігноруватиме, що призведе до помилок виконання."

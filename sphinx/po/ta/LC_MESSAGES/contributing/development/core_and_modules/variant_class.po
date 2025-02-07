@@ -1,0 +1,82 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Variant class"
+msgstr "மாறுபாடு வகுப்பு"
+
+msgid "About"
+msgstr "பற்றி"
+
+msgid "A Variant can:"
+msgstr "ஒரு மாறுபாடு:"
+
+msgid ""
+"Perform operations between many variants (GDScript uses Variant as its "
+"atomic/native datatype)."
+msgstr ""
+"பல வகைகளுக்கு இடையில் செயல்பாடுகளைச் செய்யுங்கள் (GDSCRIPT அதன் அணு/சொந்த "
+"தரவுத்தொகுப்பாக மாறுபாட்டைப் பயன்படுத்துகிறது)."
+
+msgid "Be used to defer calls or move data between threads."
+msgstr "அழைப்புகளை ஒத்திவைக்க அல்லது நூல்களுக்கு இடையில் தரவை நகர்த்த பயன்படுகிறது."
+
+msgid "Be serialized as binary and stored to disk, or transferred via network."
+msgstr ""
+"பைனரி என வரிசைப்படுத்தப்பட்டு வட்டில் சேமிக்கப்படலாம் அல்லது பிணையம் வழியாக மாற்றப்படும்."
+
+msgid ""
+"Be serialized to text and use it for printing values and editable settings."
+msgstr ""
+"உரைக்கு வரிசைப்படுத்தப்பட்டு அதை அச்சிடும் மதிப்புகள் மற்றும் திருத்தக்கூடிய அமைப்புகளுக்கு "
+"பயன்படுத்தவும்."
+
+msgid "Work as an exported property, so the editor can edit it universally."
+msgstr ""
+"ஏற்றுமதி செய்யப்பட்ட சொத்தாக வேலை செய்யுங்கள், எனவே ஆசிரியர் அதை உலகளவில் திருத்த "
+"முடியும்."
+
+msgid "Be used for dictionaries, arrays, parsers, etc."
+msgstr "அகராதிகள், வரிசைகள், பாகுபடுத்திகள் போன்றவற்றுக்கு பயன்படுத்தப்பட வேண்டும்."
+
+msgid ""
+"Basically, thanks to the Variant class, writing Godot itself was a much, "
+"much easier task, as it allows for highly dynamic constructs not common of C+"
+"+ with little effort. Become a friend of Variant today."
+msgstr ""
+"அடிப்படையில், மாறுபட்ட வகுப்பிற்கு நன்றி, கோடோட்டை எழுதுவது மிகவும் எளிதான பணியாக "
+"இருந்தது, ஏனெனில் இது சிறிய முயற்சியுடன் சி ++ க்கு பொதுவானதாக இல்லாத மிகவும் மாறும் "
+"கட்டுமானங்களை அனுமதிக்கிறது. இன்று மாறுபாட்டின் நண்பராகுங்கள்."
+
+msgid "References"
+msgstr "குறிப்புகள்"
+
+msgid ""
+"`core/variant/variant.h <https://github.com/godotengine/godot/blob/master/"
+"core/variant/variant.h>`__"
+msgstr "`கோர்/மாறுபாடு/மாறுபாடு."
+
+msgid "Type"
+msgstr "வகை"
+
+msgid "Notes"
+msgstr "குறிப்புகள்"
+
+msgid ""
+"`core/variant/dictionary.h <https://github.com/godotengine/godot/blob/master/"
+"core/variant/dictionary.h>`__"
+msgstr "`கோர்/மாறுபாடு/அகராதி."
+
+msgid ""
+"`core/variant/array.h <https://github.com/godotengine/godot/blob/master/core/"
+"variant/array.h>`__"
+msgstr "`கோர்/மாறுபாடு/வரிசை."

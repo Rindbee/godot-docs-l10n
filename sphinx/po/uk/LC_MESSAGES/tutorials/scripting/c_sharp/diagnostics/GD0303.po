@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,73 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"GD0303: The parent symbol of a type argument that must be Variant compatible "
+"was not handled"
+msgstr ""
+"GD0303: батьківський символ аргументу типу, який має бути сумісним з "
+"варіантом, не оброблено"
+
+msgid "**Rule ID**"
+msgstr "**Ідентифікатор правила**"
+
+msgid "GD0303"
+msgstr "GD0303"
+
 msgid "**Category**"
 msgstr "**Категорія**"
 
 msgid "Usage"
 msgstr "Використання"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Виправлення ламається або не ламається**"
+
+msgid "Not fixable"
+msgstr "Не виправляється"
+
+msgid "**Enabled by default**"
+msgstr "**Увімкнено за замовчуванням**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "причина"
+
+msgid "This is a bug in the engine and must be reported."
+msgstr "Це помилка в двигуні, про яку потрібно повідомити."
+
+msgid "Rule description"
+msgstr "Опис правила"
+
+msgid ""
+"The ``MustBeVariantAnalyzer`` has found an unhandled case in the user source "
+"code. Please, open an `issue <https://github.com/godotengine/godot/issues>`_ "
+"and attach a minimal reproduction project so it can be fixed."
+msgstr ""
+"``MustBeVariantAnalyzer`` знайшов необроблений регістр у вихідному коді "
+"користувача. Будь ласка, відкрийте `проблему <https://github.com/godotengine/"
+"godot/issues>`_ та додайте мінімальний проект відтворення, щоб це можна було "
+"виправити."
+
+msgid "How to fix violations"
+msgstr "Як усунути порушення"
+
+msgid "Violations of this rule can't be fixed."
+msgstr "Порушення цього правила не можна виправити."
+
+msgid "When to suppress warnings"
+msgstr "Коли придушувати попередження"
+
+msgid ""
+"Suppressing a warning from this rule may result in unexpected errors, since "
+"the case found by the analyzer may need to be handled by the user to prevent "
+"types that are not Variant-compatible from reaching the engine. Attempting "
+"to marshal incompatible types will result in runtime errors."
+msgstr ""
+"Придушення попередження з цього правила може призвести до неочікуваних "
+"помилок, оскільки користувачеві може знадобитися обробити регістр, знайдений "
+"аналізатором, щоб запобігти потраплянню до механізму типів, які не є "
+"сумісними з варіантами. Спроба маршалу несумісних типів призведе до помилок "
+"виконання."

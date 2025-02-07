@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -375,6 +375,9 @@ msgstr ""
 msgid "`GH-80410`_"
 msgstr "`GH-80410`_"
 
+msgid "Rendering"
+msgstr "Renderizado"
+
 msgid "**ImporterMesh**"
 msgstr "**ImporterMesh**"
 
@@ -651,6 +654,3 @@ msgstr ""
 "en conflicto con el nombre de un enum existente y el generador de enlaces de "
 "C# da prioridad a las propiedades, por lo tanto el tipo enum fue renombrada "
 "de ``EnvironmentBlendMode`` a ``EnvironmentBlendModeEnum``."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

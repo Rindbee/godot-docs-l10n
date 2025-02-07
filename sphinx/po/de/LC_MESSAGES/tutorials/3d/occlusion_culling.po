@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -630,6 +630,3 @@ msgstr ""
 "Occlusion Culling für dieses Objekt auf, aber es ist sinnvoll, dies für "
 "Objekte zu tun, die nie gecullt werden (wie z. B. ein First-Person-View-"
 "Modell)."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

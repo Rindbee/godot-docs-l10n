@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -60,6 +60,3 @@ msgstr ""
 "Defaultwerte an. Wenn Sie einen Wert ändern, erscheint ein Häkchen links "
 "neben seinem Namen. Dies bedeutet, dass die Property in der project.godot-"
 "Datei gespeichert wird und nicht vergessen wird."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

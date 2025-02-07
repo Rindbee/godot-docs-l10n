@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,74 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0103: The exported member is read-only"
+msgstr "GD0103: експортований елемент доступний лише для читання"
+
+msgid "**Rule ID**"
+msgstr "**Ідентифікатор правила**"
+
+msgid "GD0103"
+msgstr "GD0103"
+
 msgid "**Category**"
 msgstr "**Категорія**"
 
 msgid "Usage"
 msgstr "Використання"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Виправлення ламається або не ламається**"
+
+msgid "Non-breaking"
+msgstr "Не б'ється"
+
+msgid "**Enabled by default**"
+msgstr "**Увімкнено за замовчуванням**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "причина"
+
+msgid ""
+"A read-only member is annotated with the ``[Export]`` attribute. Read-only "
+"members can't be exported."
+msgstr ""
+"Член, доступний лише для читання, позначається атрибутом ``[Export]``. "
+"Учасників із доступом лише для читання не можна експортувати."
+
+msgid "Rule description"
+msgstr "Опис правила"
+
+msgid "Godot doesn't allow exporting read-only members."
+msgstr "Godot не дозволяє експортувати членів, доступних лише для читання."
+
+msgid "How to fix violations"
+msgstr "Як усунути порушення"
+
+msgid ""
+"To fix a violation of this rule for fields, remove the ``readonly`` keyword "
+"or remove the ``[Export]`` attribute."
+msgstr ""
+"Щоб виправити порушення цього правила для полів, видаліть ключове слово "
+"``readonly`` або видаліть ``[Export]`` атрибут."
+
+msgid ""
+"To fix a violation of this rule for properties, make sure the property "
+"declares both a getter and a setter, or remove the ``[Export]`` attribute."
+msgstr ""
+"Щоб виправити порушення цього правила для властивостей, переконайтеся, що "
+"властивість оголошує як getter, так і setter, або видаліть атрибут "
+"``[Export]``."
+
+msgid "When to suppress warnings"
+msgstr "Коли придушувати попередження"
+
+msgid ""
+"Do not suppress a warning from this rule. Read-only members can't be "
+"exported so they will be ignored by Godot, resulting in runtime errors."
+msgstr ""
+"Не приховуйте попередження з цього правила. Члени лише для читання не можуть "
+"бути експортовані, тому Godot їх ігноруватиме, що призведе до помилок "
+"виконання."

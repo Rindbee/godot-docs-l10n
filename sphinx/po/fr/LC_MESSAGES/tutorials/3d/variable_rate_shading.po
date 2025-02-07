@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,11 +14,29 @@ msgstr ""
 msgid "What is variable rate shading?"
 msgstr "Qu'est-ce que le Variable Rate Shading ?"
 
+msgid "**Desktop:**"
+msgstr "**Bureau :**"
+
 msgid "Snapdragon 888 and newer"
 msgstr "Snapdragon 888 et plus récent"
 
+msgid "MediaTek Dimensity 9000 and newer"
+msgstr "MediaTek Dimensity 9000 et plus récent"
+
 msgid "ARM Mali-G615 and newer"
 msgstr "ARM Mali-G615 et plus récent"
+
+msgid ""
+"**Mode:** Controls the variable rate shading mode. **Disabled** disables "
+"variable rate shading. **Texture** uses a manually authored texture to set "
+"shading density (see the property below). **XR** automatically generates a "
+"texture suited for foveated rendering in virtual/augmented reality."
+msgstr ""
+"**Mode :** Contrôle le mode d'ombrage à taux variable. **Disabled** "
+"désactive l'ombrage à taux variable. **Texture** utilise une texture "
+"manuscrite pour définir la densité d'ombrage (voir la propriété ci-dessous). "
+"**XR** génère automatiquement une texture adaptée au rendu fovéal en réalité "
+"virtuelle/augmentée."
 
 msgid "Density"
 msgstr "Densité"
@@ -29,11 +47,65 @@ msgstr "Couleur"
 msgid "Comment"
 msgstr "Commentaire"
 
+msgid "``rgb(0, 0, 0) - #000000``"
+msgstr "``rgb(0, 0, 0) - #000000``"
+
+msgid "1×2"
+msgstr "1×2"
+
+msgid "``rgb(0, 85, 0) - #005500``"
+msgstr "``rgb(0, 85, 0) - #005500``"
+
+msgid "2×1"
+msgstr "2×1"
+
+msgid "``rgb(85, 0, 0) - #550000``"
+msgstr "``rgb(85, 0, 0) - #550000``"
+
+msgid "2×2"
+msgstr "2×2"
+
+msgid "``rgb(85, 85, 0) - #555500``"
+msgstr "``rgb(85, 85, 0) - #555500``"
+
+msgid "2×4"
+msgstr "2×4"
+
+msgid "``rgb(85, 170, 0) - #55aa00``"
+msgstr "``rgb(85, 170, 0) - #55aa00``"
+
 msgid "4×2"
 msgstr "4×2"
 
+msgid "``rgb(170, 85, 0) - #aa5500``"
+msgstr "``rgb(170, 85, 0) - #aa5500``"
+
+msgid "4×4"
+msgstr "4×4"
+
+msgid "``rgb(170, 170, 0) - #aaaa00``"
+msgstr "``rgb(170, 170, 0) - #aaaa00``"
+
+msgid "4×8"
+msgstr "4×8"
+
+msgid "``rgb(170, 255, 0) - #aaff00``"
+msgstr "``rgb(170, 255, 0) - #aaff00``"
+
+msgid "Not supported on most hardware."
+msgstr "Non pris en charge sur la plupart des matériels."
+
 msgid "8×4"
 msgstr "8×4"
+
+msgid "``rgb(255, 170, 0) - #ffaa00``"
+msgstr "``rgb(255, 170, 0) - #ffaa00``"
+
+msgid "``rgb(255, 255, 0) - #ffff00``"
+msgstr "``rgb(255, 255, 0) - #ffff00``"
+
+msgid "Resolution"
+msgstr "Résolution"
 
 msgid "1920×1080 (Full HD)"
 msgstr "1920×1080 (Full HD)"
@@ -82,6 +154,3 @@ msgstr "473 FPS"
 
 msgid "+23.1%"
 msgstr "+23.1%"
-
-msgid "Translation status"
-msgstr "État de la traduction"

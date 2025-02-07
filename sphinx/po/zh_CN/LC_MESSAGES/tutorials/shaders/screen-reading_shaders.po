@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -211,6 +211,3 @@ msgid ""
 msgstr ""
 "下面的例子中，着色器在读取屏幕空间法线时使用的就是线性过滤，而读取屏幕空间粗"
 "糙度时使用的就是最邻近过滤。"
-
-msgid "Translation status"
-msgstr "翻译状态"

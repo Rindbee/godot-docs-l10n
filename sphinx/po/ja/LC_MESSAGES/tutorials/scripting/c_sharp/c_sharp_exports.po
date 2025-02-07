@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -22,11 +22,83 @@ msgstr ""
 "の実行方法に影響する値を変更できます。このために特別なエクスポート構文が用意"
 "されています。"
 
+msgid "Basic use"
+msgstr "基本的な使い方"
+
+msgid "Strings as paths"
+msgstr "パス文字列"
+
+msgid "String as a path to a file."
+msgstr "ファイルへのパス文字列。"
+
+msgid "String as a path to a directory."
+msgstr "ディレクトリへのパス文字列。"
+
+msgid "String as a path to a file, custom filter provided as hint."
+msgstr "ファイルへのパス文字列、カスタムフィルターのヒントを指定します。"
+
+msgid ""
+"Using paths in the global filesystem is also possible, but only in scripts "
+"in tool mode."
+msgstr ""
+"グローバルファイルシステム内のパスを使用することも可能ですが、ツールモードの"
+"スクリプトでのみ使用できます。"
+
+msgid "String as a path to a PNG file in the global filesystem."
+msgstr "グローバルファイル システム内のPNGファイルへのパス文字列。"
+
+msgid "String as a path to a directory in the global filesystem."
+msgstr "グローバルファイルシステム内のディレクトリへのパス文字列。"
+
+msgid ""
+"The multiline annotation tells the editor to show a large input field for "
+"editing over multiple lines."
+msgstr ""
+"multilineアノテーションは複数行にわたって編集するための、大きな入力フィールド"
+"を表示するようにエディターに指示します。"
+
+msgid "Limiting editor input ranges"
+msgstr "入力範囲の制限"
+
+msgid "Allow integer values from 0 to 20."
+msgstr "0 ～ 20 の整数値を指定可能。"
+
+msgid "Allow integer values from -10 to 20."
+msgstr "-10 ～ 20 の整数値を指定可能。"
+
+msgid "Allow floats from -10 to 20 and snap the value to multiples of 0.2."
+msgstr ""
+"-10 から 20 までの浮動小数点を指定でき、値は 0.2 の倍数にスナップします。"
+
+msgid "Floats with easing hint"
+msgstr "イージングヒント付き実数"
+
+msgid "Colors"
+msgstr "色"
+
+msgid "Regular color given as red-green-blue-alpha value."
+msgstr "RGBAの値として指定される通常の色。"
+
+msgid "Color given as red-green-blue value (alpha will always be 1)."
+msgstr "RGBの値として指定される色 (アルファは常に1)。"
+
 msgid "Nodes"
 msgstr "ノード"
 
+msgid ""
+"Exporting NodePaths like in Godot 3.x is still possible, in case you need it:"
+msgstr ""
+"必要に応じてGodot 3.x のようにNodePathをエクスポートすることも可能です。"
+
 msgid "Resources"
 msgstr "リソース"
+
+msgid ""
+"In the Inspector, you can then drag and drop a resource file from the "
+"FileSystem dock into the variable slot."
+msgstr ""
+"リソースファイルはファイルシステムドックから、インスペクタのプロパティスロッ"
+"トにドラッグ＆ドロップできます。"
 
 msgid ""
 "It must be noted that even if the script is not being run while in the "
@@ -40,8 +112,48 @@ msgstr ""
 msgid "Exporting bit flags"
 msgstr "ビットフラグのエクスポート"
 
+msgid ""
+"Export annotations are also provided for the physics and render layers "
+"defined in the project settings."
+msgstr ""
+"エクスポートの注釈は、プロジェクト設定の物理レイヤーとレンダーレイヤーにも提"
+"供されています。"
+
+msgid ""
+"Using bit flags requires some understanding of bitwise operations. If in "
+"doubt, use boolean variables instead."
+msgstr ""
+"ビットフラグを使用するには、ビット単位の演算についてある程度理解する必要があ"
+"ります。疑わしい場合は、代わりにブール変数を使用してください。"
+
+msgid "Exporting enums"
+msgstr "列挙型のエクスポート"
+
+msgid ""
+"Arrays with specified types which inherit from resource can be set by drag-"
+"and-dropping multiple files from the FileSystem dock."
+msgstr ""
+"リソースを継承する型の配列は、ファイルシステムドックから複数のファイルをド"
+"ラッグ＆ドロップすることで設定できます。"
+
 msgid "Setting exported variables from a tool script"
 msgstr "エクスポートされた変数をツールスクリプトから設定する"
 
-msgid "Translation status"
-msgstr "翻訳ステータス"
+msgid "Advanced exports"
+msgstr "高度なエクスポート"
+
+msgid ""
+"Not every type of export can be provided on the level of the language itself "
+"to avoid unnecessary design complexity. The following describes some more or "
+"less common exporting features which can be implemented with a low-level API."
+msgstr ""
+"不必要な設計の複雑さを避けるために、言語自体のレベルですべてのタイプのエクス"
+"ポートを提供できるわけではありません。以下では低レベルAPIで実装できる一般的な"
+"エクスポート機能について説明します。"
+
+msgid ""
+"For binding properties using the above methods in C++, see :ref:"
+"`doc_binding_properties_using_set_get_property_list`."
+msgstr ""
+"C++で上記のメソッドを使用してプロパティをバインドする場合は :ref:"
+"`doc_binding_properties_using_set_get_property_list` を参照してください。"

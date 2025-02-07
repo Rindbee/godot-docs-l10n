@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -205,6 +205,3 @@ msgid ""
 msgstr ""
 "这两步过程的优点在于：打包的场景可以保持加载状态，且可以随时使用。例如，你可"
 "以对大量敌人或子弹快速进行实例化。"
-
-msgid "Translation status"
-msgstr "翻译状态"

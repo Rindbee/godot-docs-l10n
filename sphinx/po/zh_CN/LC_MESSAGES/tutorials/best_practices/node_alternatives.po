@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -126,6 +126,3 @@ msgstr ""
 "样轻量，它们仍然可以在检查器中显示并导出属性。这使它们在易用性上，可以媲美使"
 "用子节点的方式，而且如果有人计划在其场景中包含许多这类 Resource/Node，它们还"
 "可以提高性能。"
-
-msgid "Translation status"
-msgstr "翻译状态"

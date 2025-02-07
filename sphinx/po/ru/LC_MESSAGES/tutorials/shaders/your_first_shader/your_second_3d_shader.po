@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -159,6 +159,3 @@ msgstr ""
 "эффект света под скользящими углами. Обычно оно используется для имитации "
 "прохождения света через ткань на краях объекта, но мы будем использовать его "
 "здесь, чтобы добиться красивого эффекта воды."
-
-msgid "Translation status"
-msgstr "Статус перевода"

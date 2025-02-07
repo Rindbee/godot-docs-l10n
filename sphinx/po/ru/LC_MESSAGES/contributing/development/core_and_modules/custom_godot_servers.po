@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,14 +23,43 @@ msgstr "Для чего это?"
 msgid "Creating a Godot server"
 msgstr "Создание сервера Godot"
 
+msgid "Custom managed resource data"
+msgstr "Кастомно управляемая информация о ресурсе"
+
+msgid ":ref:`RID<class_rid>`"
+msgstr ":ref:`RID<class_rid>`"
+
 msgid "Registering the class in GDScript"
 msgstr "Регистрация класса в GDScript"
+
+msgid ""
+"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
+"blob/master/servers/register_server_types.cpp>`__"
+msgstr ""
+"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
+"blob/master/servers/register_server_types.cpp>`__"
+
+msgid "Bind methods"
+msgstr "Связка методов"
 
 msgid "Binding Signals"
 msgstr "Привязка сигналов"
 
+msgid "MessageQueue"
+msgstr "MessageQueue"
+
 msgid "References:"
 msgstr "Источники:"
+
+msgid ""
+"`core/object/message_queue.cpp <https://github.com/godotengine/godot/blob/"
+"master/core/object/message_queue.cpp>`__"
+msgstr ""
+"`core/object/message_queue.cpp <https://github.com/godotengine/godot/blob/"
+"master/core/object/message_queue.cpp>`__"
+
+msgid "Summing it up"
+msgstr "Подводя итоги"
 
 msgid "Here is the GDScript sample code:"
 msgstr "Вот пример кода GDScript:"
@@ -38,5 +67,5 @@ msgstr "Вот пример кода GDScript:"
 msgid "Notes"
 msgstr "Примечания"
 
-msgid "Translation status"
-msgstr "Статус перевода"
+msgid "Connecting signal example code is pretty hacky."
+msgstr "Пример кода с подключением сигнала довольно сложный."

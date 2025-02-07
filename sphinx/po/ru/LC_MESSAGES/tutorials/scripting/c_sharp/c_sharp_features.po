@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -79,15 +79,6 @@ msgstr ""
 "Godot имеет набор определений, которые позволяют изменять код C# в "
 "зависимости от среды, в которую вы компилируете."
 
-msgid ""
-"If you created your project before Godot 3.2, you have to modify or "
-"regenerate your `csproj` file to use this feature (compare "
-"``<DefineConstants>`` with a new 3.2+ project)."
-msgstr ""
-"Если вы создали свой проект до Godot 3.2, вам придется изменить или "
-"регенерировать свой файл `csproj`, чтобы использовать эту функцию (сравните "
-"``<DefineConstants>`` с новым проектом 3.2+)."
-
 msgid "Examples"
 msgstr "Примеры"
 
@@ -134,6 +125,3 @@ msgid ""
 msgstr ""
 "Чтобы увидеть пример проекта, см. демонстрационную версию тестирования ОС: "
 "https://github.com/godotengine/godot-demo-projects/tree/master/misc/os_test"
-
-msgid "Translation status"
-msgstr "Статус перевода"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -72,6 +72,15 @@ msgstr "次のようなディレクトリ構造になるはずです:"
 
 msgid "The script file"
 msgstr "スクリプトファイル"
+
+msgid ""
+"In addition to the EditorPlugin script, any other GDScript that your plugin "
+"uses must *also* be a tool. Any GDScript without ``@tool`` used by the "
+"editor will act like an empty file!"
+msgstr ""
+"EditorPluginスクリプトの他にも、プラグインが使用する全てのGDScriptは必ず\\ "
+"*toolでもある\\ *必要があります。 ``@tool`` がない全てのGDScriptは、エディタ"
+"から使われる際に空のファイルのようにふるまいます！"
 
 msgid "This is a good template to use when creating new plugins."
 msgstr ""
@@ -230,6 +239,3 @@ msgstr ""
 "自分でプラグインを作成して自分自身を助け、\\ `Asset Library <https://"
 "godotengine.org/asset-library/>`_ で共有して、人々があなたの仕事から利益を得"
 "られるようにすることができます。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

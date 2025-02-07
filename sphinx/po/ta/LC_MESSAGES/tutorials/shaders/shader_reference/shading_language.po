@@ -1,0 +1,2374 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Shading language"
+msgstr "நிழல் மொழி"
+
+msgid "Introduction"
+msgstr "அறிமுகம்"
+
+msgid ""
+"Godot uses a shading language similar to GLSL ES 3.0. Most datatypes and "
+"functions are supported, and the few remaining ones will likely be added "
+"over time."
+msgstr ""
+"கோடோட் GLSL ES 3.0 ஐப் போன்ற ஒரு நிழல் மொழியைப் பயன்படுத்துகிறார். பெரும்பாலான "
+"தரவுத்தொகுப்புகள் மற்றும் செயல்பாடுகள் ஆதரிக்கப்படுகின்றன, மேலும் மீதமுள்ள சில காலப்போக்கில் "
+"சேர்க்கப்படும்."
+
+msgid ""
+"If you are already familiar with GLSL, the :ref:`Godot Shader Migration "
+"Guide<doc_converting_glsl_to_godot_shaders>` is a resource that will help "
+"you transition from regular GLSL to Godot's shading language."
+msgstr ""
+"நீங்கள் ஏற்கனவே சி.எல்.எச்.எல் உடன் தெரிந்திருந்தால், தி: ரெஃப்: `கோடோட் சேடர் இடம்பெயர்வு "
+"வழிகாட்டி <doc_converting_glsl_to_godot_shaders>` என்பது வழக்கமான சி.எல்.எச்.எல் "
+"இலிருந்து கோடோட்டின் நிழல் மொழிக்கு மாற உதவும் ஒரு வளமாகும்."
+
+msgid "Data types"
+msgstr "தரவு வகைகள்"
+
+msgid "Most GLSL ES 3.0 datatypes are supported:"
+msgstr "பெரும்பாலான GLSL ES 3.0 தரவுத்தொகுப்புகள் ஆதரிக்கப்படுகின்றன:"
+
+msgid "Type"
+msgstr "வகை"
+
+msgid "Description"
+msgstr "விவரம்"
+
+msgid "**void**"
+msgstr "** வெற்றிட **"
+
+msgid "Void datatype, useful only for functions that return nothing."
+msgstr ""
+"வெற்றிட தரவுத்தொகுப்பு, எதையும் திருப்பித் தரும் செயல்பாடுகளுக்கு மட்டுமே பயனுள்ளதாக "
+"இருக்கும்."
+
+msgid "**bool**"
+msgstr "** பூல் **"
+
+msgid "Boolean datatype, can only contain ``true`` or ``false``."
+msgstr ""
+"பூலியன் டேட்டாடைப், `` உண்மை`` அல்லது `` தவறு`` ஆகியவற்றைக் கொண்டிருக்க முடியும்."
+
+msgid "**bvec2**"
+msgstr "** BVEC2 **"
+
+msgid "Two-component vector of booleans."
+msgstr "பூலியன்சின் இரண்டு-கூறு திசையன்."
+
+msgid "**bvec3**"
+msgstr "** BVEC3 **"
+
+msgid "Three-component vector of booleans."
+msgstr "பூலியன்சின் மூன்று-கூறு திசையன்."
+
+msgid "**bvec4**"
+msgstr "** BVEC4 **"
+
+msgid "Four-component vector of booleans."
+msgstr "பூலியன்சின் நான்கு-கூறு திசையன்."
+
+msgid "**int**"
+msgstr "** int **"
+
+msgid "**ivec2**"
+msgstr "** IVEC2 **"
+
+msgid "Two-component vector of signed integers."
+msgstr "கையொப்பமிடப்பட்ட முழு எண்களின் இரண்டு-கூறு திசையன்."
+
+msgid "**ivec3**"
+msgstr "** IVEC3 **"
+
+msgid "Three-component vector of signed integers."
+msgstr "கையொப்பமிடப்பட்ட முழு எண்களின் மூன்று-கூறு திசையன்."
+
+msgid "**ivec4**"
+msgstr "** IVEC4 **"
+
+msgid "Four-component vector of signed integers."
+msgstr "கையொப்பமிடப்பட்ட முழு எண்களின் நான்கு-கூறு திசையன்."
+
+msgid "**uint**"
+msgstr "** uint **"
+
+msgid "Unsigned scalar integer; can't contain negative numbers."
+msgstr "கையொப்பமிடாத அளவிடுதல் முழு எண்; எதிர்மறை எண்களைக் கொண்டிருக்க முடியாது."
+
+msgid "**uvec2**"
+msgstr "** Vish 2 **"
+
+msgid "Two-component vector of unsigned integers."
+msgstr "கையொப்பமிடாத முழு எண்களின் இரண்டு-கூறு திசையன்."
+
+msgid "**uvec3**"
+msgstr "** UVC3 **"
+
+msgid "Three-component vector of unsigned integers."
+msgstr "கையொப்பமிடாத முழு எண்களின் மூன்று-கூறு திசையன்."
+
+msgid "**uvec4**"
+msgstr "** UVC4 **"
+
+msgid "Four-component vector of unsigned integers."
+msgstr "கையொப்பமிடாத முழு எண்களின் நான்கு-கூறு திசையன்."
+
+msgid "**float**"
+msgstr "** மிதவை **"
+
+msgid "**vec2**"
+msgstr "** VEC2 **"
+
+msgid "Two-component vector of floating-point values."
+msgstr "மிதக்கும்-புள்ளி மதிப்புகளின் இரண்டு-கூறு திசையன்."
+
+msgid "**vec3**"
+msgstr "** VEC3 **"
+
+msgid "Three-component vector of floating-point values."
+msgstr "மிதக்கும்-புள்ளி மதிப்புகளின் மூன்று-கூறு திசையன்."
+
+msgid "**vec4**"
+msgstr "** VEC4 **"
+
+msgid "Four-component vector of floating-point values."
+msgstr "மிதக்கும்-புள்ளி மதிப்புகளின் நான்கு-கூறு திசையன்."
+
+msgid "**mat2**"
+msgstr "** MAT2 **"
+
+msgid "2x2 matrix, in column major order."
+msgstr "2x2 மேட்ரிக்ச், நெடுவரிசை முக்கிய வரிசையில்."
+
+msgid "**mat3**"
+msgstr "** வேடிக்கை **"
+
+msgid "3x3 matrix, in column major order."
+msgstr "3x3 மேட்ரிக்ச், நெடுவரிசை முக்கிய வரிசையில்."
+
+msgid "**mat4**"
+msgstr "** MAT4 **"
+
+msgid "4x4 matrix, in column major order."
+msgstr "4x4 மேட்ரிக்ச், நெடுவரிசை முக்கிய வரிசையில்."
+
+msgid "**sampler2D**"
+msgstr "** sampler2d **"
+
+msgid "Sampler type for binding 2D textures, which are read as float."
+msgstr "2 டி அமைப்புகளை பிணைப்பதற்கான மாதிரி வகை, அவை மிதவை எனப் படிக்கப்படுகின்றன."
+
+msgid "**isampler2D**"
+msgstr "** isampler2d **"
+
+msgid "Sampler type for binding 2D textures, which are read as signed integer."
+msgstr ""
+"கையொப்பமிடப்பட்ட முழு எண்ணாக படிக்கப்படக்கூடிய 2 டி அமைப்புகளை பிணைப்பதற்கான மாதிரி "
+"வகை."
+
+msgid "**usampler2D**"
+msgstr "** USAMPLER2D **"
+
+msgid ""
+"Sampler type for binding 2D textures, which are read as unsigned integer."
+msgstr ""
+"கையொப்பமிடப்படாத முழு எண்ணாக படிக்கப்படக்கூடிய 2 டி அமைப்புகளை பிணைப்பதற்கான மாதிரி "
+"வகை."
+
+msgid "**sampler2DArray**"
+msgstr "** sampler2darray **"
+
+msgid "Sampler type for binding 2D texture arrays, which are read as float."
+msgstr ""
+"2 டி அமைப்பு வரிசைகளை பிணைப்பதற்கான மாதிரி வகை, அவை மிதவை எனப் படிக்கப்படுகின்றன."
+
+msgid "**isampler2DArray**"
+msgstr "** நான் sampler2d வரிசை **"
+
+msgid ""
+"Sampler type for binding 2D texture arrays, which are read as signed integer."
+msgstr ""
+"கையொப்பமிடப்பட்ட முழு எண் என படிக்கப்படக்கூடிய 2 டி அமைப்பு வரிசைகளை பிணைப்பதற்கான "
+"மாதிரி வகை."
+
+msgid "**usampler2DArray**"
+msgstr "** USAMPLER2Darray **"
+
+msgid ""
+"Sampler type for binding 2D texture arrays, which are read as unsigned "
+"integer."
+msgstr ""
+"கையொப்பமிடப்படாத முழு எண்ணாக படிக்கப்படக்கூடிய 2 டி அமைப்பு வரிசைகளை பிணைப்பதற்கான "
+"மாதிரி வகை."
+
+msgid "**sampler3D**"
+msgstr "** sampler3d **"
+
+msgid "Sampler type for binding 3D textures, which are read as float."
+msgstr "3D அமைப்புகளை பிணைப்பதற்கான மாதிரி வகை, அவை மிதவை எனப் படிக்கப்படுகின்றன."
+
+msgid "**isampler3D**"
+msgstr "** isampler3d **"
+
+msgid "Sampler type for binding 3D textures, which are read as signed integer."
+msgstr ""
+"3D அமைப்புகளை பிணைப்பதற்கான மாதிரி வகை, அவை கையொப்பமிடப்பட்ட முழு எண்ணாக "
+"படிக்கப்படுகின்றன."
+
+msgid "**usampler3D**"
+msgstr "** USAMPLER3D **"
+
+msgid ""
+"Sampler type for binding 3D textures, which are read as unsigned integer."
+msgstr ""
+"கையொப்பமிடாத முழு எண்ணாக படிக்கப்படக்கூடிய 3D அமைப்புகளை பிணைப்பதற்கான மாதிரி வகை."
+
+msgid "**samplerCube**"
+msgstr "** samplercube **"
+
+msgid "Sampler type for binding Cubemaps, which are read as float."
+msgstr "க்யூப்மேப்புகளை பிணைப்பதற்கான மாதிரி வகை, அவை மிதவை எனப் படிக்கப்படுகின்றன."
+
+msgid "**samplerCubeArray**"
+msgstr "** samplercubearray **"
+
+msgid "Comments"
+msgstr "கருத்துகள்"
+
+msgid ""
+"The shading language supports the same comment syntax as used in C# and C++:"
+msgstr ""
+"சி# மற்றும் சி ++ இல் பயன்படுத்தப்படும் அதே கருத்து தொடரியல் நிழல் மொழி ஆதரிக்கிறது:"
+
+msgid ""
+"Additionally, you can use documentation comments that are displayed in the "
+"inspector when hovering a shader parameter. Documentation comments are "
+"currently only supported when placed immediately above a ``uniform`` "
+"declaration. These documentation comments only support the **multiline** "
+"comment syntax and must use **two** leading asterisks (``/**``) instead of "
+"just one (``/*``):"
+msgstr ""
+"கூடுதலாக, சேடர் அளவுருவை வட்டமிடும் போது இன்ச்பெக்டரில் காட்டப்படும் ஆவணக் கருத்துகளை "
+"நீங்கள் பயன்படுத்தலாம். ஆவணங்கள் கருத்துகள் தற்போது `` சீருடை`` பிரகடனத்திற்கு மேலே "
+"வைக்கப்படும்போது மட்டுமே ஆதரிக்கப்படுகின்றன. இந்த ஆவணக் கருத்துக்கள் ** மல்டைலைன் ** "
+"கருத்து தொடரியல் மட்டுமே ஆதரிக்கின்றன, மேலும் ** இரண்டு ** முன்னணி நட்சத்திரங்களை (``/"
+"** ``) ஒன்றுக்கு பதிலாக (``/*``) பயன்படுத்த வேண்டும்:"
+
+msgid ""
+"The asterisks on the follow-up lines are not required, but are recommended "
+"as per the :ref:`doc_shaders_style_guide`. These asterisks are automatically "
+"stripped by the inspector, so they won't appear in the tooltip."
+msgstr ""
+"பின்தொடர்தல் வரிகளில் உள்ள நட்சத்திரங்கள் தேவையில்லை, ஆனால் அவை பரிந்துரைக்கப்படுகின்றன: "
+"ref: `doc_shaders_style_guide`. இந்த நட்சத்திரங்கள் தானாகவே இன்ச்பெக்டரால் "
+"அகற்றப்படுகின்றன, எனவே அவை உதவிக்குறிப்பில் தோன்றாது."
+
+msgid "Casting"
+msgstr "வார்ப்பு"
+
+msgid ""
+"Just like GLSL ES 3.0, implicit casting between scalars and vectors of the "
+"same size but different type is not allowed. Casting of types of different "
+"size is also not allowed. Conversion must be done explicitly via "
+"constructors."
+msgstr ""
+"GLSL ES 3.0 ஐப் போலவே, ஒரே அளவிலான அளவீடுகளுக்கும் திசையன்களுக்கும் இடையில் மறைமுக "
+"வார்ப்பு ஆனால் வெவ்வேறு வகை அனுமதிக்கப்படாது. வெவ்வேறு அளவிலான வகைகளை நடிப்பதும் "
+"அனுமதிக்கப்படவில்லை. கட்டமைப்பாளர்கள் வழியாக மாற்றத்தை வெளிப்படையாக செய்ய வேண்டும்."
+
+msgid "Example:"
+msgstr "எடுத்துக்காட்டு:"
+
+msgid ""
+"Default integer constants are signed, so casting is always needed to convert "
+"to unsigned:"
+msgstr ""
+"இயல்புநிலை முழு எண் மாறிலிகள் கையொப்பமிடப்பட்டுள்ளன, எனவே கையொப்பமிடப்படாததாக மாற்ற "
+"வார்ப்பு எப்போதும் தேவைப்படுகிறது:"
+
+msgid "Members"
+msgstr "உறுப்பினர்கள்"
+
+msgid ""
+"Individual scalar members of vector types are accessed via the \"x\", \"y\", "
+"\"z\" and \"w\" members. Alternatively, using \"r\", \"g\", \"b\" and \"a\" "
+"also works and is equivalent. Use whatever fits best for your needs."
+msgstr ""
+"திசையன் வகைகளின் தனிப்பட்ட அளவிடுதல் உறுப்பினர்கள் \"எக்ச்\", \"ஒய்\", \"சட்\" மற்றும் "
+"\"டபிள்யூ\" உறுப்பினர்கள் வழியாக அணுகப்படுகிறார்கள். மாற்றாக, \"ஆர்\", \"சி\", \"பி\" "
+"மற்றும் \"ஏ\" ஆகியவற்றைப் பயன்படுத்துவதும் சமமானதாகும். உங்கள் தேவைகளுக்கு ஏற்ற எதைப் "
+"பயன்படுத்துங்கள்."
+
+msgid "Constructing"
+msgstr "கட்டமைத்தல்"
+
+msgid "Construction of vector types must always pass:"
+msgstr "திசையன் வகைகளின் கட்டுமானம் எப்போதும் கடந்து செல்ல வேண்டும்:"
+
+msgid ""
+"Matrices can also be built from a matrix of another dimension. There are two "
+"rules:"
+msgstr ""
+"மற்றொரு பரிமாணத்தின் மேட்ரிக்சிலிருந்து மெட்ரிக்குகள் கட்டப்படலாம். இரண்டு விதிகள் உள்ளன:"
+
+msgid ""
+"1. If a larger matrix is constructed from a smaller matrix, the additional "
+"rows and columns are set to the values they would have in an identity "
+"matrix. 2. If a smaller matrix is constructed from a larger matrix, the top, "
+"left submatrix of the larger matrix is used."
+msgstr ""
+"1. ஒரு சிறிய மேட்ரிக்சிலிருந்து ஒரு பெரிய மேட்ரிக்ச் கட்டப்பட்டால், கூடுதல் வரிசைகள் "
+"மற்றும் நெடுவரிசைகள் ஒரு அடையாள மேட்ரிக்சில் அவை வைத்திருக்கும் மதிப்புகளுக்கு "
+"அமைக்கப்படுகின்றன. 2. ஒரு பெரிய மேட்ரிக்சிலிருந்து ஒரு சிறிய மேட்ரிக்ச் கட்டப்பட்டால், "
+"பெரிய மேட்ரிக்சின் மேல், இடது சப்மேட்ரிக்ச் பயன்படுத்தப்படுகிறது."
+
+msgid "Swizzling"
+msgstr "ச்விச்லிங்"
+
+msgid ""
+"It is possible to obtain any combination of components in any order, as long "
+"as the result is another vector type (or scalar). This is easier shown than "
+"explained:"
+msgstr ""
+"இதன் விளைவாக மற்றொரு திசையன் வகை (அல்லது அளவிடுதல்) இருக்கும் வரை, எந்தவொரு "
+"வரிசையிலும் கூறுகளின் எந்தவொரு கலவையையும் பெற முடியும். விளக்கப்பட்டதை விட இது "
+"எளிதாகக் காட்டப்படுகிறது:"
+
+msgid "Precision"
+msgstr "துல்லியம்"
+
+msgid ""
+"It is possible to add precision modifiers to datatypes; use them for "
+"uniforms, variables, arguments and varyings:"
+msgstr ""
+"தரவுத்தொகுப்புகளில் துல்லியமான மாற்றிகளைச் சேர்க்க முடியும்; சீருடைகள், மாறிகள், வாதங்கள் "
+"மற்றும் மாறுபாடுகளுக்கு அவற்றைப் பயன்படுத்தவும்:"
+
+msgid ""
+"Using lower precision for some operations can speed up the math involved (at "
+"the cost of less precision). This is rarely needed in the vertex processor "
+"function (where full precision is needed most of the time), but is often "
+"useful in the fragment processor."
+msgstr ""
+"சில செயல்பாடுகளுக்கு குறைந்த துல்லியத்தைப் பயன்படுத்துவது சம்பந்தப்பட்ட கணிதத்தை "
+"விரைவுபடுத்தும் (குறைந்த துல்லியமான செலவில்). வெர்டெக்ச் செயலி செயல்பாட்டில் இது "
+"அரிதாகவே தேவைப்படுகிறது (அங்கு முழு துல்லியமும் தேவைப்படும் இடத்தில்), ஆனால் "
+"பெரும்பாலும் துண்டு செயலியில் பயனுள்ளதாக இருக்கும்."
+
+msgid ""
+"Some architectures (mainly mobile) can benefit significantly from this, but "
+"there are downsides such as the additional overhead of conversion between "
+"precisions. Refer to the documentation of the target architecture for "
+"further information. In many cases, mobile drivers cause inconsistent or "
+"unexpected behavior and it is best to avoid specifying precision unless "
+"necessary."
+msgstr ""
+"சில கட்டமைப்புகள் (முக்கியமாக மொபைல்) இதிலிருந்து கணிசமாக பயனடையலாம், ஆனால் "
+"துல்லியங்களுக்கு இடையில் மாற்றத்தின் கூடுதல் மேல்நிலை போன்ற தீமைகள் உள்ளன. மேலும் தகவலுக்கு "
+"இலக்கு கட்டமைப்பின் ஆவணங்களைப் பார்க்கவும். பல சந்தர்ப்பங்களில், மொபைல் இயக்கிகள் சீரற்ற அல்லது "
+"எதிர்பாராத நடத்தையை ஏற்படுத்துகின்றன, மேலும் தேவைப்படாவிட்டால் துல்லியத்தைக் "
+"குறிப்பிடுவதைத் தவிர்ப்பது நல்லது."
+
+msgid "Arrays"
+msgstr "வரிசைகள்"
+
+msgid "Arrays are containers for multiple variables of a similar type."
+msgstr "வரிசைகள் இதேபோன்ற வகையின் பல மாறிகளுக்கான கொள்கலன்கள்."
+
+msgid "Local arrays"
+msgstr "உள்ளக வரிசைகள்"
+
+msgid ""
+"Local arrays are declared in functions. They can use all of the allowed "
+"datatypes, except samplers. The array declaration follows a C-style syntax: "
+"``[const] + [precision] + typename + identifier + [array size]``."
+msgstr ""
+"உள்ளக வரிசைகள் செயல்பாடுகளில் அறிவிக்கப்படுகின்றன. மாதிரிகளைத் தவிர, அனுமதிக்கப்பட்ட "
+"அனைத்து தரவுத்தொகுப்புகளையும் அவர்கள் பயன்படுத்தலாம். வரிசை அறிவிப்பு ஒரு சி-பாணி "
+"தொடரியல்: `` [கான்ச்ட்] + [துல்லியம்] + டைப் பெயர் + அடையாளங்காட்டி + [வரிசை அளவு] ``."
+
+msgid "They can be initialized at the beginning like:"
+msgstr "ஆரம்பத்தில் அவை தொடங்கப்படலாம்:"
+
+msgid ""
+"You can declare multiple arrays (even with different sizes) in one "
+"expression:"
+msgstr "ஒரு வெளிப்பாட்டில் நீங்கள் பல வரிசைகளை (வெவ்வேறு அளவுகளுடன் கூட) அறிவிக்கலாம்:"
+
+msgid "To access an array element, use the indexing syntax:"
+msgstr "ஒரு வரிசை உறுப்பை அணுக, குறியீட்டு தொடரியல் பயன்படுத்தவும்:"
+
+msgid ""
+"Arrays also have a built-in function ``.length()`` (not to be confused with "
+"the built-in ``length()`` function). It doesn't accept any parameters and "
+"will return the array's size."
+msgstr ""
+"வரிசைகளில் ஒரு உள்ளமைக்கப்பட்ட செயல்பாடு ``. நீளம் () `` (உள்ளமைக்கப்பட்ட `` நீளம் () "
+"`செயல்பாடு) குழப்பமடையக்கூடாது. இது எந்த அளவுருக்களையும் ஏற்காது, மேலும் வரிசையின் "
+"அளவைத் தரும்."
+
+msgid ""
+"If you use an index either below 0 or greater than array size - the shader "
+"will crash and break rendering. To prevent this, use ``length()``, ``if``, "
+"or ``clamp()`` functions to ensure the index is between 0 and the array's "
+"length. Always carefully test and check your code. If you pass a constant "
+"expression or a number, the editor will check its bounds to prevent this "
+"crash."
+msgstr ""
+"நீங்கள் ஒரு குறியீட்டை 0 க்குக் கீழே அல்லது வரிசை அளவை விட அதிகமாகப் பயன்படுத்தினால் - "
+"சேடர் செயலிழந்து வழங்குதல் உடைக்கும். இதைத் தடுக்க, குறியீட்டு 0 மற்றும் வரிசையின் "
+"நீளத்திற்கு இடையில் இருப்பதை உறுதிப்படுத்த `` நீளம் () ``, `` if``, அல்லது `` கிளாம்ப் "
+"() `செயல்பாடுகளைப் பயன்படுத்தவும். எப்போதும் கவனமாக சோதித்து உங்கள் குறியீட்டை "
+"சரிபார்க்கவும். நீங்கள் ஒரு நிலையான வெளிப்பாடு அல்லது ஒரு எண்ணைக் கடந்து சென்றால், இந்த "
+"விபத்தைத் தடுக்க ஆசிரியர் அதன் எல்லைகளை சரிபார்க்கிறார்."
+
+msgid "Global arrays"
+msgstr "உலகளாவிய வரிசைகள்"
+
+msgid "You can declare arrays at global space like:"
+msgstr "உலகளாவிய இடத்தில் வரிசைகளை நீங்கள் அறிவிக்கலாம்:"
+
+msgid ""
+"Global arrays have to be declared as global constants, otherwise they can be "
+"declared the same as local arrays."
+msgstr ""
+"உலகளாவிய வரிசைகளை உலகளாவிய மாறிலிகள் என்று அறிவிக்க வேண்டும், இல்லையெனில் அவை உள்ளக "
+"வரிசைகளைப் போலவே அறிவிக்கப்படலாம்."
+
+msgid "Constants"
+msgstr "மாறிலிகள்"
+
+msgid ""
+"Use the ``const`` keyword before the variable declaration to make that "
+"variable immutable, which means that it cannot be modified. All basic types, "
+"except samplers can be declared as constants. Accessing and using a constant "
+"value is slightly faster than using a uniform. Constants must be initialized "
+"at their declaration."
+msgstr ""
+"அந்த மாறியை மாறாததாக மாற்ற மாறி அறிவிப்புக்கு முன் `` கான்ச்ட்` விசைப்பலகையைப் "
+"பயன்படுத்தவும், அதாவது அதை மாற்ற முடியாது. மாதிரிகளைத் தவிர அனைத்து அடிப்படை "
+"வகைகளும் மாறிலிகளாக அறிவிக்கப்படலாம். ஒரு சீருடையைப் பயன்படுத்துவதை விட நிலையான "
+"மதிப்பை அணுகுவதும் பயன்படுத்துவதும் சற்று வேகமாக இருக்கும். அவர்களின் அறிவிப்பில் "
+"மாறிலிகள் துவக்கப்பட வேண்டும்."
+
+msgid ""
+"Constants cannot be modified and additionally cannot have hints, but "
+"multiple of them (if they have the same type) can be declared in a single "
+"expression e.g"
+msgstr ""
+"மாறிலிகளை மாற்றியமைக்க முடியாது, கூடுதலாக குறிப்புகள் இருக்க முடியாது, ஆனால் "
+"அவற்றில் பல (அவை ஒரே வகை இருந்தால்) ஒரு வெளிப்பாட்டில் அறிவிக்கப்படலாம் எ.கா."
+
+msgid "Similar to variables, arrays can also be declared with ``const``."
+msgstr "மாறிகள் போலவே, வரிசைகளையும் `` const`` உடன் அறிவிக்க முடியும்."
+
+msgid ""
+"Constants can be declared both globally (outside of any function) or locally "
+"(inside a function). Global constants are useful when you want to have "
+"access to a value throughout your shader that does not need to be modified. "
+"Like uniforms, global constants are shared between all shader stages, but "
+"they are not accessible outside of the shader."
+msgstr ""
+"மாறிலிகள் உலகளவில் (எந்தவொரு செயல்பாட்டிற்கும் வெளியே) அல்லது உள்நாட்டில் (ஒரு "
+"செயல்பாட்டின் உள்ளே) அறிவிக்கப்படலாம். மாற்றியமைக்கத் தேவையில்லாத உங்கள் சேடர் முழுவதும் "
+"ஒரு மதிப்பை அணுக விரும்பும் போது உலகளாவிய மாறிலிகள் பயனுள்ளதாக இருக்கும். சீருடைகளைப் "
+"போலவே, உலகளாவிய மாறிலிகளும் அனைத்து சேடர் நிலைகளுக்கும் இடையில் பகிரப்படுகின்றன, "
+"ஆனால் அவை சேடருக்கு வெளியே அணுக முடியாது."
+
+msgid ""
+"Constants of the ``float`` type must be initialized using ``.`` notation "
+"after the decimal part or by using the scientific notation. The optional "
+"``f`` post-suffix is also supported."
+msgstr ""
+"`` மிதவை`` வகையின் மாறிலிகள் தசம பகுதிக்குப் பிறகு அல்லது விஞ்ஞான குறியீட்டைப் "
+"பயன்படுத்துவதன் மூலம் ``` குறியீட்டைப் பயன்படுத்தி துவக்கப்பட வேண்டும். விருப்பமான `` f`` "
+"போச்ட்-ஃபிக்சும் ஆதரிக்கப்படுகிறது."
+
+msgid ""
+"Constants of the ``uint`` (unsigned int) type must have a ``u`` suffix to "
+"differentiate them from signed integers. Alternatively, this can be done by "
+"using the ``uint(x)`` built-in conversion function."
+msgstr ""
+"`` Uint`` (கையொப்பமிடப்படாத எண்ணாக) வகையின் மாறிலிகள் கையொப்பமிடப்பட்ட முழு "
+"எண்களிலிருந்து வேறுபடுவதற்கு `` u`` பின்னொட்டு இருக்க வேண்டும். மாற்றாக, `` uint (x) "
+"`` உள்ளமைக்கப்பட்ட மாற்று செயல்பாட்டைப் பயன்படுத்துவதன் மூலம் இதைச் செய்யலாம்."
+
+msgid "Structs"
+msgstr "கட்டமைப்புகள்"
+
+msgid ""
+"Structs are compound types which can be used for better abstraction of "
+"shader code. You can declare them at the global scope like:"
+msgstr ""
+"கட்டமைப்புகள் என்பது கூட்டு வகைகள், அவை சேடர் குறியீட்டின் சிறந்த சுருக்கத்திற்கு "
+"பயன்படுத்தப்படலாம். உலகளாவிய நோக்கத்தில் அவற்றை நீங்கள் அறிவிக்கலாம்:"
+
+msgid "After declaration, you can instantiate and initialize them like:"
+msgstr "அறிவிப்புக்குப் பிறகு, நீங்கள் அவற்றை உடனடி மற்றும் துவக்கலாம்:"
+
+msgid "Or use struct constructor for same purpose:"
+msgstr "அல்லது அதே நோக்கத்திற்காக struct கட்டமைப்பாளரைப் பயன்படுத்தவும்:"
+
+msgid ""
+"Structs may contain other struct or array, you can also instance them as "
+"global constant:"
+msgstr ""
+"கட்டமைப்புகள் பிற கட்டமைப்பு அல்லது வரிசையைக் கொண்டிருக்கலாம், அவற்றை உலகளாவிய மாறிலி "
+"என நீங்கள் உதாரணமாக மாற்றலாம்:"
+
+msgid "You can also pass them to functions:"
+msgstr "நீங்கள் அவற்றை செயல்பாடுகளுக்கு அனுப்பலாம்:"
+
+msgid "Operators"
+msgstr "ஆபரேட்டர்கள்"
+
+msgid ""
+"Godot shading language supports the same set of operators as GLSL ES 3.0. "
+"Below is the list of them in precedence order:"
+msgstr ""
+"கோடோட் நிழல் மொழி GLSL ES 3.0 போன்ற அதே ஆபரேட்டர்களை ஆதரிக்கிறது. முன்னுரிமை "
+"வரிசையில் அவற்றின் பட்டியல் கீழே:"
+
+msgid "Precedence"
+msgstr "முன்னுரிமை"
+
+msgid "Class"
+msgstr "வகுப்பு"
+
+msgid "Operator"
+msgstr "ஆபரேட்டர்"
+
+msgid "1 (highest)"
+msgstr "1 (மிக உயர்ந்த)"
+
+msgid "parenthetical grouping"
+msgstr "அடைப்புக்குறிப்பு குழு"
+
+msgid "**()**"
+msgstr "** () **"
+
+msgid "2"
+msgstr "2"
+
+msgid "unary"
+msgstr "ஒற்றுமையற்ற"
+
+msgid "**+, -, !, ~**"
+msgstr "**+, -,!, ~ **"
+
+msgid "3"
+msgstr "3"
+
+msgid "multiplicative"
+msgstr "பெருக்கல்"
+
+msgid "**/, \\*, %**"
+msgstr "**/, \\*, %**"
+
+msgid "4"
+msgstr "4"
+
+msgid "additive"
+msgstr "சேர்க்கை"
+
+msgid "**+, -**"
+msgstr "**+, -**"
+
+msgid "5"
+msgstr "5"
+
+msgid "bit-wise shift"
+msgstr "பிட் வாரியான மாற்றம்"
+
+msgid "**<<, >>**"
+msgstr "** <<, >> **"
+
+msgid "6"
+msgstr "6"
+
+msgid "relational"
+msgstr "தொடர்புடைய"
+
+msgid "**<, >, <=, >=**"
+msgstr "** <,>, <=,> = **"
+
+msgid "7"
+msgstr "7"
+
+msgid "equality"
+msgstr "ஒரு நிகர்"
+
+msgid "**==, !=**"
+msgstr "** ==,! = **"
+
+msgid "8"
+msgstr "8"
+
+msgid "bit-wise AND"
+msgstr "பிட் வாரியாக மற்றும்"
+
+msgid "**&**"
+msgstr "** & **"
+
+msgid "9"
+msgstr "9"
+
+msgid "bit-wise exclusive OR"
+msgstr "பிட் வாரியாக பிரத்தியேக அல்லது"
+
+msgid "**^**"
+msgstr "**^**"
+
+msgid "10"
+msgstr "10"
+
+msgid "bit-wise inclusive OR"
+msgstr "பிட் வாரியாக உள்ளடக்கிய அல்லது"
+
+msgid "**|**"
+msgstr "** | **"
+
+msgid "11"
+msgstr "11"
+
+msgid "logical AND"
+msgstr "தர்க்கரீதியான மற்றும்"
+
+msgid "**&&**"
+msgstr "** && **"
+
+msgid "12 (lowest)"
+msgstr "12 (மிகக் குறைவு)"
+
+msgid "logical inclusive OR"
+msgstr "தர்க்கரீதியான உள்ளடக்கம் அல்லது"
+
+msgid "**||**"
+msgstr "** || **"
+
+msgid "Flow control"
+msgstr "ஓட்ட கட்டுப்பாடு"
+
+msgid "Godot Shading language supports the most common types of flow control:"
+msgstr "கோடோட் நிழல் மொழி மிகவும் பொதுவான வகை ஓட்டக் கட்டுப்பாட்டை ஆதரிக்கிறது:"
+
+msgid ""
+"Keep in mind that in modern GPUs, an infinite loop can exist and can freeze "
+"your application (including editor). Godot can't protect you from this, so "
+"be careful not to make this mistake!"
+msgstr ""
+"நவீன சி.பீ.யுகளில், எல்லையற்ற வளையம் இருக்கக்கூடும் என்பதை நினைவில் கொள்ளுங்கள், மேலும் "
+"உங்கள் பயன்பாட்டை முடக்கலாம் (ஆசிரியர் உட்பட). கோடோட் இதிலிருந்து உங்களைப் பாதுகாக்க "
+"முடியாது, எனவே இந்த தவறைச் செய்யாமல் கவனமாக இருங்கள்!"
+
+msgid ""
+"Also, when comparing floating-point values against a number, make sure to "
+"compare them against a *range* instead of an exact number."
+msgstr ""
+"மேலும், மிதக்கும்-புள்ளி மதிப்புகளை ஒரு எண்ணுக்கு எதிராக ஒப்பிடும்போது, சரியான "
+"எண்ணுக்கு பதிலாக * வரம்பை * ஒப்பிடுவதை உறுதிசெய்க."
+
+msgid ""
+"A comparison like ``if (value == 0.3)`` may not evaluate to ``true``. "
+"Floating-point math is often approximate and can defy expectations. It can "
+"also behave differently depending on the hardware."
+msgstr ""
+"`` If (மதிப்பு == 0.3) `` போன்ற ஒரு ஒப்பீடு `` உண்மை` `மதிப்பீடு செய்யக்கூடாது. "
+"மிதக்கும்-புள்ளி கணிதம் பெரும்பாலும் தோராயமாக இருக்கும் மற்றும் எதிர்பார்ப்புகளை மீறும். "
+"இது வன்பொருளைப் பொறுத்து வித்தியாசமாக நடந்து கொள்ளலாம்."
+
+msgid "**Don't** do this."
+msgstr "** வேண்டாம் ** இதைச் செய்யுங்கள்."
+
+msgid ""
+"Instead, always perform a range comparison with an epsilon value. The larger "
+"the floating-point number (and the less precise the floating-point number), "
+"the larger the epsilon value should be."
+msgstr ""
+"அதற்கு பதிலாக, எப்போதும் எப்சிலன் மதிப்புடன் ஒரு வரம்பு ஒப்பீடு செய்யுங்கள். பெரிய "
+"மிதக்கும்-புள்ளி எண் (மற்றும் மிதக்கும்-புள்ளி எண் குறைந்த துல்லியமானது), பெரிய எப்சிலன் "
+"மதிப்பு இருக்க வேண்டும்."
+
+msgid ""
+"See `floating-point-gui.de <https://floating-point-gui.de/>`__ for more "
+"information."
+msgstr ""
+"மேலும் தகவலுக்கு `மிதக்கும்-புள்ளி-gui.de <https://floating-point-gui.de/> __ ஐப் "
+"பார்க்கவும்."
+
+msgid "Discarding"
+msgstr "நிராகரிப்பு"
+
+msgid ""
+"Fragment and light functions can use the ``discard`` keyword. If used, the "
+"fragment is discarded and nothing is written."
+msgstr ""
+"துண்டு மற்றும் ஒளி செயல்பாடுகள் `` நிராகரிப்பு`` முக்கிய சொல்லைப் பயன்படுத்தலாம். "
+"பயன்படுத்தினால், துண்டு நிராகரிக்கப்பட்டு எதுவும் எழுதப்படவில்லை."
+
+msgid ""
+"Beware that ``discard`` has a performance cost when used, as it will prevent "
+"the depth prepass from being effective on any surfaces using the shader. "
+"Also, a discarded pixel still needs to be rendered in the vertex shader, "
+"which means a shader that uses ``discard`` on all of its pixels is still "
+"more expensive to render compared to not rendering any object in the first "
+"place."
+msgstr ""
+"`` நிராகரிக்க`` பயன்படுத்தும்போது செயல்திறன் செலவைக் கொண்டுள்ளது என்பதை கவனமாக "
+"செய்யுங்கள், ஏனெனில் இது சேடரைப் பயன்படுத்தும் எந்த மேற்பரப்புகளிலும் ஆழமான ப்ரெபாச் "
+"பயனுள்ளதாக இருக்கும். மேலும், நிராகரிக்கப்பட்ட படப்புள்ளி இன்னும் வெர்டெக்ச் சேடரில் "
+"வழங்கப்பட வேண்டும், அதாவது அதன் அனைத்து பிக்சல்களிலும் `` நிராகரிக்கவும்` ஐப் பயன்படுத்தும் "
+"ஒரு சேடர், எந்தவொரு பொருளையும் முதலில் வழங்காததை ஒப்பிடும்போது வழங்குவதற்கு இன்னும் "
+"விலை உயர்ந்தது."
+
+msgid "Functions"
+msgstr "செயல்பாடுகள்"
+
+msgid ""
+"It is possible to define functions in a Godot shader. They use the following "
+"syntax:"
+msgstr ""
+"ஒரு கோடோட் சேடரில் செயல்பாடுகளை வரையறுக்க முடியும். அவர்கள் பின்வரும் தொடரியல் "
+"பயன்படுத்துகிறார்கள்:"
+
+msgid ""
+"You can only use functions that have been defined above (higher in the "
+"editor) the function from which you are calling them. Redefining a function "
+"that has already been defined above (or is a built-in function name) will "
+"cause an error."
+msgstr ""
+"மேலே வரையறுக்கப்பட்ட செயல்பாடுகளை மட்டுமே நீங்கள் பயன்படுத்த முடியும் (எடிட்டரில் "
+"உயர்ந்தது) நீங்கள் அவற்றை அழைக்கும் செயல்பாட்டை. ஏற்கனவே வரையறுக்கப்பட்டுள்ள ஒரு செயல்பாட்டை "
+"மறுவரையறை செய்வது (அல்லது ஒரு உள்ளமைக்கப்பட்ட செயல்பாட்டு பெயர்) பிழையை ஏற்படுத்தும்."
+
+msgid "Function arguments can have special qualifiers:"
+msgstr "செயல்பாட்டு வாதங்கள் சிறப்பு தகுதிகளைக் கொண்டிருக்கலாம்:"
+
+msgid "**in**: Means the argument is only for reading (default)."
+msgstr "** இல் **: அதாவது உரையாடல் வாசிப்புக்கு மட்டுமே (இயல்புநிலை)."
+
+msgid "**out**: Means the argument is only for writing."
+msgstr "** அவுட் **: அதாவது உரையாடல் எழுதுவதற்கு மட்டுமே."
+
+msgid "**inout**: Means the argument is fully passed via reference."
+msgstr "** உள்ளீடு **: அதாவது உரையாடல் குறிப்பு மூலம் முழுமையாக அனுப்பப்படுகிறது."
+
+msgid ""
+"**const**: Means the argument is a constant and cannot be changed, may be "
+"combined with **in** qualifier."
+msgstr ""
+"** கான்ச்ட் **: அதாவது உரையாடல் ஒரு நிலையானது மற்றும் மாற்ற முடியாது, ** தகுதியில் "
+"** உடன் இணைக்கப்படலாம்."
+
+msgid "Example below:"
+msgstr "கீழே உள்ள எடுத்துக்காட்டு:"
+
+msgid ""
+"Unlike GLSL, Godot's shader language does **not** support function "
+"overloading. This means that a function cannot be defined several times with "
+"different argument types or numbers of arguments. As a workaround, use "
+"different names for functions that accept a different number of arguments or "
+"arguments of different types."
+msgstr ""
+"சி.எல்.எச்.எல் போலல்லாமல், கோடோட்டின் சேடர் மொழி ** அல்ல ** உதவி செயல்பாடு ஓவர்லோட். இதன் "
+"பொருள் ஒரு செயல்பாட்டை வெவ்வேறு வாத வகைகள் அல்லது வாதங்களின் எண்ணிக்கையுடன் பல முறை "
+"வரையறுக்க முடியாது. ஒரு பணித்தொகுப்பாக, வெவ்வேறு வகையான வாதங்கள் அல்லது வெவ்வேறு "
+"வகைகளின் வாதங்களை ஏற்றுக்கொள்ளும் செயல்பாடுகளுக்கு வெவ்வேறு பெயர்களைப் பயன்படுத்துங்கள்."
+
+msgid "Varyings"
+msgstr "மாறுபாடுகள்"
+
+msgid ""
+"To send data from the vertex to the fragment (or light) processor function, "
+"*varyings* are used. They are set for every primitive vertex in the *vertex "
+"processor*, and the value is interpolated for every pixel in the *fragment "
+"processor*."
+msgstr ""
+"வெர்டெக்சிலிருந்து தரவை துண்டு (அல்லது ஒளி) செயலி செயல்பாட்டிற்கு அனுப்ப, * "
+"மாறுபாடுகள் * பயன்படுத்தப்படுகின்றன. அவை *வெர்டெக்ச் செயலி *இல் உள்ள ஒவ்வொரு பழமையான "
+"வெர்டெக்சிற்கும் அமைக்கப்பட்டுள்ளன, மேலும் *துண்டு செயலியில் *ஒவ்வொரு பிக்சலுக்கும் மதிப்பு "
+"இடைக்கணிக்கப்படுகிறது."
+
+msgid "Varying can also be an array:"
+msgstr "மாறுபடுவது ஒரு வரிசையாகவும் இருக்கலாம்:"
+
+msgid ""
+"It's also possible to send data from *fragment* to *light* processors using "
+"*varying* keyword. To do so you can assign it in the *fragment* and later "
+"use it in the *light* function."
+msgstr ""
+"* துண்டு * இலிருந்து * மாறுபட்ட * முக்கிய சொல்லைப் பயன்படுத்தி * துண்டு * இலிருந்து * "
+"ஒளி * செயலிகளுக்கு தரவை அனுப்பவும் முடியும். அவ்வாறு செய்ய நீங்கள் அதை * துண்டு * இல் "
+"ஒதுக்கலாம், பின்னர் அதை * ஒளி * செயல்பாட்டில் பயன்படுத்தலாம்."
+
+msgid ""
+"Note that varying may not be assigned in custom functions or a *light "
+"processor* function like:"
+msgstr ""
+"தனிப்பயன் செயல்பாடுகளில் அல்லது * ஒளி செயலி * செயல்பாடு போன்றவற்றில் மாறுபாடு "
+"ஒதுக்கப்படாது என்பதை நினைவில் கொள்க:"
+
+msgid ""
+"This limitation was introduced to prevent incorrect usage before "
+"initialization."
+msgstr "துவக்கத்திற்கு முன் தவறான பயன்பாட்டைத் தடுக்க இந்த வரம்பு அறிமுகப்படுத்தப்பட்டது."
+
+msgid "Interpolation qualifiers"
+msgstr "இடைக்கணிப்பு தகுதி"
+
+msgid ""
+"Certain values are interpolated during the shading pipeline. You can modify "
+"how these interpolations are done by using *interpolation qualifiers*."
+msgstr ""
+"நிழல் குழாய்த்திட்டத்தின் போது சில மதிப்புகள் இடைக்கணிக்கப்படுகின்றன. *இடைக்கணிப்பு "
+"தகுதிகள் *பயன்படுத்துவதன் மூலம் இந்த இடைக்கணிப்புகள் எவ்வாறு செய்யப்படுகின்றன என்பதை நீங்கள் "
+"மாற்றலாம்."
+
+msgid "There are two possible interpolation qualifiers:"
+msgstr "இரண்டு சாத்தியமான இடைக்கணிப்பு தகுதிகள் உள்ளன:"
+
+msgid "Qualifier"
+msgstr "தகுதி"
+
+msgid "**flat**"
+msgstr "** பிளாட் **"
+
+msgid "The value is not interpolated."
+msgstr "மதிப்பு இடைக்கணிக்கப்படவில்லை."
+
+msgid "**smooth**"
+msgstr "** மென்மையான **"
+
+msgid ""
+"The value is interpolated in a perspective-correct fashion. This is the "
+"default."
+msgstr "மதிப்பு ஒரு முன்னோக்கு-சரியான பாணியில் இடைக்கணிக்கப்பட்டுள்ளது. இது இயல்புநிலை."
+
+msgid "Uniforms"
+msgstr "சீருடைகள்"
+
+msgid ""
+"Passing values to shaders is possible. These are global to the whole shader "
+"and are called *uniforms*. When a shader is later assigned to a material, "
+"the uniforms will appear as editable parameters in it. Uniforms can't be "
+"written from within the shader."
+msgstr ""
+"மதிப்புகளை சேடர்களுக்கு அனுப்புவது சாத்தியமாகும். இவை முழு நிழலுக்கும் உலகளாவியவை "
+"மற்றும் அவை *சீருடைகள் *என்று அழைக்கப்படுகின்றன. ஒரு சேடர் பின்னர் ஒரு பொருளுக்கு "
+"ஒதுக்கப்படும்போது, சீருடைகள் அதில் திருத்தக்கூடிய அளவுருக்களாகத் தோன்றும். சீருடைகளை "
+"சேடருக்குள் இருந்து எழுத முடியாது."
+
+msgid ""
+"You can set uniforms in the editor in the material. Or you can set them "
+"through GDScript:"
+msgstr ""
+"நீங்கள் பொருளில் எடிட்டரில் சீருடைகளை அமைக்கலாம். அல்லது அவற்றை GDSCRIPT மூலம் அமைக்கலாம்:"
+
+msgid ""
+"The first argument to ``set_shader_parameter`` is the name of the uniform in "
+"the shader. It must match *exactly* to the name of the uniform in the shader "
+"or else it will not be recognized."
+msgstr ""
+"`` Set_shader_parameter`` க்கான முதல் உரையாடல் சேடரில் உள்ள சீருடையின் பெயர். இது "
+"சேடரில் உள்ள சீருடையின் பெயருடன் * சரியாக * பொருந்த வேண்டும், இல்லையெனில் அது "
+"அங்கீகரிக்கப்படாது."
+
+msgid ""
+"Any GLSL type except for *void* can be a uniform. Additionally, Godot "
+"provides optional shader hints to make the compiler understand for what the "
+"uniform is used, and how the editor should allow users to modify it."
+msgstr ""
+"* வெற்றிடத்தைத் தவிர வேறு எந்த சி.எல்.எச்.எல் வகையும் ஒரு சீருடையாக இருக்கலாம். "
+"கூடுதலாக, சீருடை என்ன பயன்படுத்தப்படுகிறது என்பதையும், அதை மாற்றியமைக்க எடிட்டர் எவ்வாறு "
+"அனுமதிக்க வேண்டும் என்பதையும் கம்பைலரைப் புரிந்துகொள்ள கோடோட் விருப்பமான சேடர் "
+"குறிப்புகளை வழங்குகிறது."
+
+msgid ""
+"It's important to understand that textures *that are supplied as color* "
+"require hints for proper sRGB -> linear conversion (i.e. ``source_color``), "
+"as Godot's 3D engine renders in linear color space. If this is not done, the "
+"texture will appear washed out."
+msgstr ""
+"கோடோட்டின் 3 டி எஞ்சின் நேரியல் வண்ண இடத்தில் வழங்குவதால், சரியான SRGB -> நேரியல் "
+"மாற்றத்திற்கான குறிப்புகள் * வண்ணமாக வழங்கப்படுகின்றன * சரியான SRGB -> நேரியல் "
+"மாற்றத்திற்கான குறிப்புகள் தேவை என்பதை புரிந்து கொள்ள வேண்டியது தேவை. இது "
+"செய்யப்படாவிட்டால், அமைப்பு கழுவப்பட்டதாகத் தோன்றும்."
+
+msgid ""
+"The 2D renderer also renders in linear color space if the **Rendering > "
+"Viewport > HDR 2D** project setting is enabled, so ``source_color`` must "
+"also be used in ``canvas_item`` shaders. If 2D HDR is disabled, "
+"``source_color`` will keep working correctly in ``canvas_item`` shaders, so "
+"it's recommend to use it either way."
+msgstr ""
+"** ரெண்டரிங்> VIEWPORT> HDR 2D ** திட்ட அமைப்பு இயக்கப்பட்டிருந்தால், 2D ரெண்டரர் "
+"நேரியல் வண்ண இடத்திலும் வழங்கப்படுகிறது, எனவே `` Canvas_item`` சேடர்களில் `` "
+"source_color`` ஐப் பயன்படுத்த வேண்டும். 2D HDR முடக்கப்பட்டிருந்தால், `` "
+"source_color`` `` கேன்வாச்_இடெம்`` சேடர்களில் சரியாக வேலை செய்யும், எனவே அதை எந்த "
+"வகையிலும் பயன்படுத்த பரிந்துரைக்கப்படுகிறது."
+
+msgid "Full list of hints below:"
+msgstr "கீழே உள்ள குறிப்புகளின் முழு பட்டியல்:"
+
+msgid "Hint"
+msgstr "குறிப்பு"
+
+msgid "**vec3, vec4**"
+msgstr "** VEC3, மேலும்"
+
+msgid "source_color"
+msgstr "source_color"
+
+msgid "Used as color."
+msgstr "வண்ணமாக பயன்படுத்தப்படுகிறது."
+
+msgid "**int, float**"
+msgstr "** int, மிதவை **"
+
+msgid "hint_range(min, max[, step])"
+msgstr "hint_range (நிமிடம், அதிகபட்சம் [, படி])"
+
+msgid "Restricted to values in a range (with min/max/step)."
+msgstr "ஒரு வரம்பில் உள்ள மதிப்புகளுக்கு கட்டுப்படுத்தப்பட்டுள்ளது (நிமிடம்/அதிகபட்சம்/படி)."
+
+msgid "Used as albedo color."
+msgstr "ஆல்பிடோ நிறமாக பயன்படுத்தப்படுகிறது."
+
+msgid "hint_normal"
+msgstr "hint_normal"
+
+msgid "Used as normalmap."
+msgstr "இயல்பானதாக பயன்படுத்தப்படுகிறது."
+
+msgid "hint_default_white"
+msgstr "hint_default_white"
+
+msgid "As value or albedo color, default to opaque white."
+msgstr "மதிப்பு அல்லது ஆல்பிடோ வண்ணமாக, இயல்புநிலை ஒளிபுகா வெள்ளை."
+
+msgid "hint_default_black"
+msgstr "hint_default_black"
+
+msgid "As value or albedo color, default to opaque black."
+msgstr "மதிப்பு அல்லது ஆல்பிடோ வண்ணமாக, இயல்புநிலை ஒளிபுகா கருப்பு."
+
+msgid "hint_default_transparent"
+msgstr "hint_default_transperent"
+
+msgid "As value or albedo color, default to transparent black."
+msgstr "மதிப்பு அல்லது ஆல்பிடோ வண்ணமாக, வெளிப்படையான கருப்பு நிறத்திற்கு இயல்புநிலை."
+
+msgid "hint_anisotropy"
+msgstr "hint_anisotropy"
+
+msgid "As flowmap, default to right."
+msgstr "ஃப்ளோமேப்பாக, இயல்புநிலை வலதுபுறம்."
+
+msgid "hint_roughness[_r, _g, _b, _a, _normal, _gray]"
+msgstr "hint_roughness [_r, _g, _b, _a, _anormal, _gray]"
+
+msgid ""
+"Used for roughness limiter on import (attempts reducing specular aliasing). "
+"``_normal`` is a normal map that guides the roughness limiter, with "
+"roughness increasing in areas that have high-frequency detail."
+msgstr ""
+"இறக்குமதியில் கடினத்தன்மை வரம்புக்கு பயன்படுத்தப்படுகிறது (ஏகப்பட்ட மாற்றுப்பெயரைக் "
+"குறைக்கும் முயற்சிகள்). `` _நார்மல்`` என்பது ஒரு சாதாரண வரைபடமாகும், இது கடினத்தன்மை "
+"வரம்பை வழிநடத்துகிறது, அதிக அதிர்வெண் விவரம் கொண்ட பகுதிகளில் கடினத்தன்மை அதிகரிக்கும்."
+
+msgid "filter[_nearest, _linear][_mipmap][_anisotropic]"
+msgstr "வடிகட்டி [_nearest, _Linear] [_ MIPMAP] [_ அனிசோட்ரோபிக்]"
+
+msgid "Enabled specified texture filtering."
+msgstr "குறிப்பிட்ட அமைப்பு வடிகட்டுதல் இயக்கப்பட்டது."
+
+msgid "repeat[_enable, _disable]"
+msgstr "மீண்டும் [_enable, _ disable]"
+
+msgid "Enabled texture repeating."
+msgstr "இயக்கப்பட்ட அமைப்பு மீண்டும் மீண்டும்."
+
+msgid "hint_screen_texture"
+msgstr "hint_screen_texture"
+
+msgid "Texture is the screen texture."
+msgstr "அமைப்பு என்பது திரை அமைப்பு."
+
+msgid "hint_depth_texture"
+msgstr "hint_depth_texture"
+
+msgid "Texture is the depth texture."
+msgstr "அமைப்பு என்பது ஆழமான அமைப்பு."
+
+msgid "hint_normal_roughness_texture"
+msgstr "hint_normal_roughness_texture"
+
+msgid "Texture is the normal roughness texture (only supported in Forward+)."
+msgstr ""
+"அமைப்பு என்பது சாதாரண கடினத்தன்மை அமைப்பு (முன்னோக்கி+இல் மட்டுமே ஆதரிக்கப்படுகிறது)."
+
+msgid ""
+"GDScript uses different variable types than GLSL does, so when passing "
+"variables from GDScript to shaders, Godot converts the type automatically. "
+"Below is a table of the corresponding types:"
+msgstr ""
+"சி.டி.எச்.பிரிவ் சி.எல்.எச்.எல் விட வெவ்வேறு மாறி வகைகளைப் பயன்படுத்துகிறது, எனவே சி."
+"டி.எச்ச்கிரிப்டிலிருந்து சேடர்களுக்கு மாறிகளை அனுப்பும்போது, கோடோட் அந்த வகையை தானாகவே "
+"மாற்றுகிறது. தொடர்புடைய வகைகளின் அட்டவணை கீழே உள்ளது:"
+
+msgid "GLSL type"
+msgstr "சி.எல்.எச்.எல் வகை"
+
+msgid "GDScript type"
+msgstr "Gdscript வகை"
+
+msgid "Notes"
+msgstr "குறிப்புகள்"
+
+msgid "Bitwise packed int where bit 0 (LSB) corresponds to x."
+msgstr "பிட் 0 (எல்.எச்.பி) ஃச் உடன் ஒத்த இடத்தில் பிட்வைச் பேக் செய்யப்பட்ட இன்ட்."
+
+msgid "For example, a bvec2 of (bx, by) could be created in the following way:"
+msgstr "எடுத்துக்காட்டாக, ஒரு BVEC2 இன் (BX, BY) பின்வரும் வழியில் உருவாக்கப்படலாம்:"
+
+msgid "**Vector2i**"
+msgstr "** vecter2i **"
+
+msgid "**Vector3i**"
+msgstr "** vecter3i **"
+
+msgid "**Vector4i**"
+msgstr "** vecter4i **"
+
+msgid "**Vector2**"
+msgstr "** திசையன் 2 **"
+
+msgid "**Vector3**, **Color**"
+msgstr "** திசையன் 3 **, ** வண்ணம் **"
+
+msgid "When Color is used, it will be interpreted as (r, g, b)."
+msgstr "வண்ணம் பயன்படுத்தப்படும்போது, அது (r, g, b) என விளக்கப்படும்."
+
+msgid "**Vector4**, **Color**, **Rect2**, **Plane**, **Quaternion**"
+msgstr "**Vector4**, **Color**, **Rect2**, **Plane**, **Quaternion**"
+
+msgid "When Color is used, it will be interpreted as (r, g, b, a)."
+msgstr "வண்ணம் பயன்படுத்தப்படும்போது, அது (r, g, b, a) என விளக்கப்படும்."
+
+msgid ""
+"When Rect2 is used, it will be interpreted as (position.x, position.y, size."
+"x, size.y)."
+msgstr ""
+"Rect2 பயன்படுத்தப்படும்போது, அது (pasition.x, position.y, size.x, size.y) என "
+"விளக்கப்படும்."
+
+msgid ""
+"When Plane is used it will be interpreted as (normal.x, normal.y, normal.z, "
+"d)."
+msgstr ""
+"வானூர்தி பயன்படுத்தப்படும்போது அது (normal.x, normal.y, normal.z, d) என "
+"விளக்கப்படும்."
+
+msgid "**Transform2D**"
+msgstr "** உருமாற்றம் 2 டி **"
+
+msgid "**Basis**"
+msgstr "** அடிப்படை **"
+
+msgid "**Projection**, **Transform3D**"
+msgstr "** ப்ரொசெக்சன் **, ** உருமாற்றம் 3 டி **"
+
+msgid "When a Transform3D is used, the w Vector is set to the identity."
+msgstr ""
+"ஒரு டிரான்ச்ஃபார்ம் 3 டி பயன்படுத்தப்படும்போது, W திசையன் அடையாளத்திற்கு அமைக்கப்படுகிறது."
+
+msgid "**Texture2D**"
+msgstr "** stecture2d **"
+
+msgid "**Texture2DArray**"
+msgstr "** stecture2darray **"
+
+msgid "**Texture3D**"
+msgstr "** stecture3d **"
+
+msgid "**Cubemap**"
+msgstr "** குபேமேப் **"
+
+msgid "**CubemapArray**"
+msgstr "** கியூபேமபாரே **"
+
+msgid ""
+"Be careful when setting shader uniforms from GDScript, no error will be "
+"thrown if the type does not match. Your shader will just exhibit undefined "
+"behavior."
+msgstr ""
+"GDSCRIPT இலிருந்து சேடர் சீருடைகளை அமைக்கும் போது கவனமாக இருங்கள், வகை பொருந்தவில்லை "
+"என்றால் எந்த பிழையும் வீசப்படாது. உங்கள் சேடர் வரையறுக்கப்படாத நடத்தையை வெளிப்படுத்தும்."
+
+msgid "Uniforms can also be assigned default values:"
+msgstr "சீருடைகளுக்கு இயல்புநிலை மதிப்புகள் ஒதுக்கப்படலாம்:"
+
+msgid ""
+"Note that when adding a default value and a hint, the default value goes "
+"after the hint."
+msgstr ""
+"இயல்புநிலை மதிப்பு மற்றும் குறிப்பைச் சேர்க்கும்போது, இயல்புநிலை மதிப்பு குறிப்புக்குப் "
+"பின் செல்கிறது என்பதை நினைவில் கொள்க."
+
+msgid ""
+"If you need to make multiple uniforms to be grouped in the specific category "
+"of an inspector, you can use a `group_uniform` keyword like:"
+msgstr ""
+"ஒரு இன்ச்பெக்டரின் குறிப்பிட்ட பிரிவில் நீங்கள் பல சீருடைகளை உருவாக்க வேண்டும் என்றால், நீங்கள் "
+"ஒரு `குழு_யூனிஃபார்ம்` முக்கிய சொல்லைப் பயன்படுத்தலாம்:"
+
+msgid "You can close the group by using:"
+msgstr "பயன்படுத்துவதன் மூலம் நீங்கள் குழுவை மூடலாம்:"
+
+msgid ""
+"The syntax also supports subgroups (it's not mandatory to declare the base "
+"group before this):"
+msgstr ""
+"தொடரியல் துணைக்குழுக்களை ஆதரிக்கிறது (இதற்கு முன் அடிப்படைக் குழுவை அறிவிப்பது "
+"கட்டாயமில்லை):"
+
+msgid "Global uniforms"
+msgstr "உலகளாவிய சீருடைகள்"
+
+msgid ""
+"Sometimes, you want to modify a parameter in many different shaders at once. "
+"With a regular uniform, this takes a lot of work as all these shaders need "
+"to be tracked and the uniform needs to be set for each of them. Global "
+"uniforms allow you to create and update uniforms that will be available in "
+"all shaders, in every shader type (``canvas_item``, ``spatial``, "
+"``particles``, ``sky`` and ``fog``)."
+msgstr ""
+"சில நேரங்களில், ஒரே நேரத்தில் பல சேடர்களில் ஒரு அளவுருவை மாற்ற விரும்புகிறீர்கள். ஒரு "
+"வழக்கமான சீருடையில், இந்த சேடர்களைக் கண்காணிக்க வேண்டியிருப்பதால் இது நிறைய வேலைகளை "
+"எடுக்கும், மேலும் அவை ஒவ்வொன்றிற்கும் சீருடை அமைக்கப்பட வேண்டும். ஒவ்வொரு சேடர் வகையிலும் "
+"(`` கேன்வாச்_இடெம்``, `` இடஞ்சார்ந்த```, `` துகள்கள்``, `` ச்கை`` மற்றும் `` ஃபோக்` `)."
+
+msgid ""
+"Global uniforms are especially useful for environmental effects that affect "
+"many objects in a scene, like having foliage bend when the player is nearby, "
+"or having objects move with the wind."
+msgstr ""
+"ஒரு காட்சியில் பல பொருள்களை பாதிக்கும் சுற்றுச்சூழல் விளைவுகளுக்கு உலகளாவிய சீருடைகள் "
+"குறிப்பாக பயனுள்ளதாக இருக்கும், வீரர் அருகிலேயே இருக்கும்போது பசுமையாக வளைவது "
+"போன்றவை, அல்லது பொருள்கள் காற்றோடு நகர்வது போன்றவை."
+
+msgid ""
+"To create a global uniform, open the **Project Settings** then go to the "
+"**Shader Globals** tab. Specify a name for the uniform (case-sensitive) and "
+"a type, then click **Add** in the top-right corner of the dialog. You can "
+"then edit the value assigned to the uniform by clicking the value in the "
+"list of uniforms:"
+msgstr ""
+"உலகளாவிய சீருடையை உருவாக்க, ** திட்ட அமைப்புகளைத் திறக்கவும் ** பின்னர் ** சேடர் "
+"குளோபல்ச் ** தாவலுக்குச் செல்லவும். சீருடை (வழக்கு-உணர்திறன்) மற்றும் ஒரு வகைக்கான பெயரைக் "
+"குறிப்பிடவும், பின்னர் உரையாடலின் மேல்-வலது மூலையில் ** ** ஐச் சேர் என்பதைக் சொடுக்கு "
+"செய்க. சீருடைகளின் பட்டியலில் உள்ள மதிப்பைக் சொடுக்கு செய்வதன் மூலம் சீருடைக்கு ஒதுக்கப்பட்ட "
+"மதிப்பை நீங்கள் திருத்தலாம்:"
+
+msgid ""
+"Adding a global uniform in the Shader Globals tab of the Project Settings"
+msgstr "திட்ட அமைப்புகளின் சேடர் குளோபல்ச் தாவலில் உலகளாவிய சீருடையைச் சேர்ப்பது"
+
+msgid "After creating a global uniform, you can use it in a shader as follows:"
+msgstr ""
+"உலகளாவிய சீருடையை உருவாக்கிய பிறகு, நீங்கள் அதை ஒரு சேடரில் பின்வருமாறு பயன்படுத்தலாம்:"
+
+msgid ""
+"Note that the global uniform *must* exist in the Project Settings at the "
+"time the shader is saved, or compilation will fail. While you can assign a "
+"default value using ``global uniform vec4 my_color = ...`` in the shader "
+"code, it will be ignored as the global uniform must always be defined in the "
+"Project Settings anyway."
+msgstr ""
+"சேடர் சேமிக்கப்படும் நேரத்தில் திட்ட அமைப்புகளில் உலகளாவிய சீருடை * இருக்க வேண்டும், "
+"அல்லது தொகுப்பு தோல்வியடையும் என்பதை நினைவில் கொள்க. சேடர் குறியீட்டில் `` உலகளாவிய "
+"சீரான VEC4 My_Color = ... `` ஐப் பயன்படுத்தி இயல்புநிலை மதிப்பை நீங்கள் ஒதுக்க முடியும் "
+"என்றாலும், உலகளாவிய சீருடை எப்போதும் திட்ட அமைப்புகளில் வரையறுக்கப்பட வேண்டும் என்பதால் "
+"இது புறக்கணிக்கப்படும்."
+
+msgid ""
+"To change the value of a global uniform at run-time, use the :ref:"
+"`RenderingServer.global_shader_parameter_set "
+"<class_RenderingServer_method_global_shader_parameter_set>` method in a "
+"script:"
+msgstr ""
+"ரன்-டைமில் உலகளாவிய சீருடையின் மதிப்பை மாற்ற, பயன்படுத்தவும்: குறிப்பு: "
+"`renderingserver.global_shader_parameter_set "
+"<class_renderingserver_method_global_shader_parameter_set>` ஒரு ச்கிரிப்ட்டில் "
+"முறை:"
+
+msgid ""
+"Assigning global uniform values can be done as many times as desired without "
+"impacting performance, as setting data doesn't require synchronization "
+"between the CPU and GPU."
+msgstr ""
+"உலகளாவிய சீரான மதிப்புகளை ஒதுக்குவது செயல்திறனை பாதிக்காமல் விரும்பிய அளவுக்கு செய்ய "
+"முடியும், ஏனெனில் தரவை அமைப்பதற்கு சிபியு மற்றும் GPU க்கு இடையில் ஒத்திசைவு "
+"தேவையில்லை."
+
+msgid "You can also add or remove global uniforms at run-time:"
+msgstr "ரன்-நேரத்தில் உலகளாவிய சீருடைகளை நீங்கள் சேர்க்கலாம் அல்லது அகற்றலாம்:"
+
+msgid ""
+"Adding or removing global uniforms at run-time has a performance cost, "
+"although it's not as pronounced compared to getting global uniform values "
+"from a script (see the warning below)."
+msgstr ""
+"ரன்-டைமில் உலகளாவிய சீருடைகளைச் சேர்ப்பது அல்லது அகற்றுவது செயல்திறன் செலவைக் "
+"கொண்டுள்ளது, இருப்பினும் இது ஒரு ச்கிரிப்டிலிருந்து உலகளாவிய சீரான மதிப்புகளைப் "
+"பெறுவதோடு ஒப்பிடும்போது உச்சரிக்கப்படவில்லை (கீழே உள்ள எச்சரிக்கையைப் பார்க்கவும்)."
+
+msgid ""
+"While you *can* query the value of a global uniform at run-time in a script "
+"using ``RenderingServer.global_shader_parameter_get(\"uniform_name\")``, "
+"this has a large performance penalty as the rendering thread needs to "
+"synchronize with the calling thread."
+msgstr ""
+"`` ரெண்டரிங்சர். குளோபல்_சேடர்_பாரமீட்டர்_செட் (\"சீரான_பெயர்\") `` `, இது ஒரு பெரிய "
+"செயல்திறன் அபராதத்தைக் கொண்டுள்ளது, ஏனெனில் வழங்குதல் நூல் அழைப்பு நூலுடன் ஒத்திசைக்க "
+"வேண்டியிருப்பதால், இது ஒரு ச்கிரிப்ட்டில் ஒரு ச்கிரிப்ட்டில் ரன்-டைமில் ஒரு உலகளாவிய "
+"சீருடையின் மதிப்பை வினவலாம். ."
+
+msgid ""
+"Therefore, it's not recommended to read global shader uniform values "
+"continuously in a script. If you need to read values in a script after "
+"setting them, consider creating an :ref:`autoload <doc_singletons_autoload>` "
+"where you store the values you need to query at the same time you're setting "
+"them as global uniforms."
+msgstr ""
+"எனவே, ஒரு ச்கிரிப்டில் உலகளாவிய சேடர் சீரான மதிப்புகளை தொடர்ந்து படிக்க "
+"பரிந்துரைக்கப்படவில்லை. ஒரு ச்கிரிப்ட்டில் மதிப்புகளை நீங்கள் அமைக்க வேண்டும் என்றால், அவற்றை "
+"உருவாக்குவதைக் கவனியுங்கள்: குறிப்பு: `ஆட்டோலோட் <doc_singletons_autoload>` நீங்கள் "
+"வினவ வேண்டிய மதிப்புகளை நீங்கள் எங்கு சேமிக்க வேண்டும், அதே நேரத்தில் நீங்கள் அவற்றை "
+"உலகளாவிய சீருடைகளாக அமைக்கிறீர்கள்."
+
+msgid "Per-instance uniforms"
+msgstr "புறப்படும் சீருடைகள்"
+
+msgid "Per-instance uniforms are only available in ``spatial`` (3D) shaders."
+msgstr "`` இடஞ்சார்ந்த`` (3 டி) சேடர்களில் மட்டுமே ஒவ்வொரு-நிலை சீருடைகள் கிடைக்கின்றன."
+
+msgid ""
+"Per-instance uniforms are not supported when using the Compatibility "
+"renderer."
+msgstr ""
+"பொருந்தக்கூடிய ரெண்டரரைப் பயன்படுத்தும் போது ஒவ்வொரு நிலைத்தன்மையும் ஆதரிக்கப்படுவதில்லை."
+
+msgid ""
+"Sometimes, you want to modify a parameter on each node using the material. "
+"As an example, in a forest full of trees, when you want each tree to have a "
+"slightly different color that is editable by hand. Without per-instance "
+"uniforms, this requires creating a unique material for each tree (each with "
+"a slightly different hue). This makes material management more complex, and "
+"also has a performance overhead due to the scene requiring more unique "
+"material instances. Vertex colors could also be used here, but they'd "
+"require creating unique copies of the mesh for each different color, which "
+"also has a performance overhead."
+msgstr ""
+"சில நேரங்களில், பொருளைப் பயன்படுத்தி ஒவ்வொரு முனையிலும் ஒரு அளவுருவை மாற்ற "
+"விரும்புகிறீர்கள். உதாரணமாக, மரங்கள் நிறைந்த காட்டில், ஒவ்வொரு மரமும் சற்று வித்தியாசமான "
+"நிறத்தைக் கொண்டிருக்க வேண்டும் என்று நீங்கள் விரும்பும்போது, அது கையால் திருத்தக்கூடியது. "
+"ஒரு நிகழ்வு சீருடைகள் இல்லாமல், இதற்கு ஒவ்வொரு மரத்திற்கும் ஒரு தனித்துவமான பொருளை "
+"உருவாக்க வேண்டும் (ஒவ்வொன்றும் சற்று வித்தியாசமான சாயல்). இது பொருள் நிர்வாகத்தை மிகவும் "
+"சிக்கலாக்குகிறது, மேலும் தனித்துவமான பொருள் நிகழ்வுகள் தேவைப்படும் காட்சியின் காரணமாக "
+"செயல்திறன் மேல்நிலை உள்ளது. வெர்டெக்ச் வண்ணங்களையும் இங்கே பயன்படுத்தலாம், ஆனால் அவை ஒவ்வொரு "
+"வெவ்வேறு வண்ணத்திற்கும் கண்ணி தனித்துவமான நகல்களை உருவாக்க வேண்டும், இது செயல்திறன் "
+"மேல்நிலைகளையும் கொண்டுள்ளது."
+
+msgid ""
+"Per-instance uniforms are set on each GeometryInstance3D, rather than on "
+"each Material instance. Take this into account when working with meshes that "
+"have multiple materials assigned to them, or MultiMesh setups."
+msgstr ""
+"ஒவ்வொரு பொருள் நிகழ்வையும் விட, ஒவ்வொரு வடிவியல்இயன்ச்டன்ச் 3 டி யிலும் ஒவ்வொரு நிகழ்வின் "
+"சீருடைகள் அமைக்கப்படுகின்றன. பல பொருட்கள் அல்லது மல்டிமேச் அமைப்புகளைக் கொண்ட மெச்களுடன் "
+"பணிபுரியும் போது இதை கணக்கில் எடுத்துக்கொள்ளுங்கள்."
+
+msgid ""
+"After saving the shader, you can change the per-instance uniform's value "
+"using the inspector:"
+msgstr ""
+"சேடரைக் காப்பாற்றிய பிறகு, இன்ச்பெக்டரைப் பயன்படுத்தி ஒவ்வொரு-நிலை சீருடையின் மதிப்பை "
+"மாற்றலாம்:"
+
+msgid ""
+"Setting a per-instance uniform's value in the GeometryInstance3D section of "
+"the inspector"
+msgstr "இன்ச்பெக்டரின் வடிவியல்இசெச்டான்ச் 3 டி பிரிவில் ஒரு முன்-சீரான மதிப்பை அமைத்தல்"
+
+msgid ""
+"Per-instance uniform values can also be set at run-time using :ref:"
+"`set_instance_shader_parameter "
+"<class_GeometryInstance3D_method_set_instance_shader_parameter>` method on a "
+"node that inherits from :ref:`class_GeometryInstance3D`:"
+msgstr ""
+"ஒவ்வொரு-வெளியீட்டு சீரான மதிப்புகளையும் பயன்படுத்தவும் ரன்-டைம்: ref: "
+"`set_instance_shader_parameter "
+"<class_geomemitanstance3d_method_inestance_shader_parameter>` இதிலிருந்து "
+"பெறும் ஒரு முனையில் முறை: `class_geometomminstance3d`:"
+
+msgid ""
+"When using per-instance uniforms, there are some restrictions you should be "
+"aware of:"
+msgstr ""
+"ஒவ்வொரு-நிலை சீருடைகளைப் பயன்படுத்தும் போது, நீங்கள் அறிந்திருக்க வேண்டிய சில "
+"கட்டுப்பாடுகள் உள்ளன:"
+
+msgid ""
+"**Per-instance uniforms do not support textures**, only regular scalar and "
+"vector types. As a workaround, you can pass a texture array as a regular "
+"uniform, then pass the index of the texture to be drawn using a per-instance "
+"uniform."
+msgstr ""
+"** ஒவ்வொரு-நிலை சீருடைகள் அமைப்புகளை ஆதரிக்காது **, வழக்கமான அளவிடுதல் மற்றும் திசையன் "
+"வகைகள் மட்டுமே. ஒரு பணித்தொகுப்பாக, நீங்கள் ஒரு அமைப்பு வரிசையை ஒரு வழக்கமான சீருடையாக "
+"அனுப்பலாம், பின்னர் ஒரு முன் சீருடையைப் பயன்படுத்தி வரையப்பட்ட அமைப்பின் குறியீட்டை "
+"அனுப்பலாம்."
+
+msgid "There is a practical maximum limit of 16 instance uniforms per shader."
+msgstr "ஒரு சேடருக்கு 16 நிகழ்வு சீருடைகள் நடைமுறை அதிகபட்ச வரம்பு உள்ளது."
+
+msgid ""
+"If your mesh uses multiple materials, the parameters for the first mesh "
+"material found will \"win\" over the subsequent ones, unless they have the "
+"same name, index *and* type. In this case, all parameters are affected "
+"correctly."
+msgstr ""
+"உங்கள் கண்ணி பல பொருட்களைப் பயன்படுத்தினால், கண்டுபிடிக்கப்பட்ட முதல் கண்ணி பொருளுக்கான "
+"அளவுருக்கள் அடுத்தடுத்தவற்றை விட \"வெல்லும்\", அவற்றில் ஒரே பெயர், குறியீட்டு * மற்றும் * "
+"வகை இல்லாவிட்டால். இந்த வழக்கில், அனைத்து அளவுருக்கள் சரியாக பாதிக்கப்படுகின்றன."
+
+msgid ""
+"If you run into the above situation, you can avoid clashes by manually "
+"specifying the index (0-15) of the instance uniform by using the "
+"``instance_index`` hint:"
+msgstr ""
+"மேலே உள்ள சூழ்நிலைக்கு நீங்கள் ஓடினால், `` Instance_index`` குறிப்பைப் பயன்படுத்துவதன் "
+"மூலம் நிகழ்வு சீருடையின் குறியீட்டை (0-15) கைமுறையாகக் குறிப்பிடுவதன் மூலம் மோதல்களைத் "
+"தவிர்க்கலாம்:"
+
+msgid "Built-in variables"
+msgstr "உள்ளமைக்கப்பட்ட மாறிகள்"
+
+msgid ""
+"A large number of built-in variables are available, like ``UV``, ``COLOR`` "
+"and ``VERTEX``. What variables are available depends on the type of shader "
+"(``spatial``, ``canvas_item`` or ``particle``) and the function used "
+"(``vertex``, ``fragment`` or ``light``). For a list of the built-in "
+"variables that are available, please see the corresponding pages:"
+msgstr ""
+"`` Uv``, `` வண்ணம்`` மற்றும் `` வெர்டெக்ச்`` போன்ற ஏராளமான உள்ளமைக்கப்பட்ட மாறிகள் "
+"கிடைக்கின்றன. என்ன மாறிகள் கிடைக்கின்றன, சேடர் வகை (`` இடஞ்சார்ந்த``, `` கேன்வாச்_இடெம்`` "
+"அல்லது `துகள்``) மற்றும் பயன்படுத்தப்படும் செயல்பாடு (` `வெர்டெக்ச்``,` `துண்டு` அல்லது` "
+"ஒளி` `). கிடைக்கக்கூடிய உள்ளமைக்கப்பட்ட மாறிகளின் பட்டியலுக்கு, தயவுசெய்து தொடர்புடைய "
+"பக்கங்களைப் பார்க்கவும்:"
+
+msgid ":ref:`Spatial shaders <doc_spatial_shader>`"
+msgstr ": குறிப்பு: `இடஞ்சார்ந்த சேடர்கள் <doc_spatial_shader>`"
+
+msgid ":ref:`Canvas item shaders <doc_canvas_item_shader>`"
+msgstr ":ref:`Canvas item shaders <doc_canvas_item_shader>`"
+
+msgid ":ref:`Particle shaders <doc_particle_shader>`"
+msgstr ": குறிப்பு: `துகள் சேடர்கள் <doc_particle_shader>`"
+
+msgid ":ref:`Sky shaders <doc_sky_shader>`"
+msgstr ": குறிப்பு: `ச்கை சேடர்ச் <doc_sky_shader>`"
+
+msgid ":ref:`Fog shaders <doc_fog_shader>`"
+msgstr ": குறிப்பு: `மூடுபனி சேடர்கள் <doc_fog_shader>`"
+
+msgid "Built-in functions"
+msgstr "உள்ளமைக்கப்பட்ட செயல்பாடுகள்"
+
+msgid ""
+"A large number of built-in functions are supported, conforming to GLSL ES "
+"3.0. When vec_type (float), vec_int_type, vec_uint_type, vec_bool_type "
+"nomenclature is used, it can be scalar or vector."
+msgstr ""
+"GLSL ES 3.0 க்கு இணங்க, ஏராளமான உள்ளமைக்கப்பட்ட செயல்பாடுகள் ஆதரிக்கப்படுகின்றன. "
+"Vec_type (float), vec_int_type, vec_uint_type, vec_bool_type பெயரிடல் "
+"பயன்படுத்தப்படும்போது, அது அளவிடுதல் அல்லது திசையன் இருக்கலாம்."
+
+msgid "Function"
+msgstr "சார்பு"
+
+msgid "Description / Return value"
+msgstr "விளக்கம் / வருவாய் மதிப்பு"
+
+msgid "vec_type **radians** (vec_type degrees)"
+msgstr "vec_type ** ரேடியன்கள் ** (vec_type டிகிரி)"
+
+msgid "Convert degrees to radians."
+msgstr "டிகிரிகளை ரேடியன்களாக மாற்றவும்."
+
+msgid "vec_type **degrees** (vec_type radians)"
+msgstr "vec_type ** டிகிரி ** (vec_type ரேடியன்கள்)"
+
+msgid "Convert radians to degrees."
+msgstr "ரேடியன்களை டிகிரிக்கு மாற்றவும்."
+
+msgid "vec_type **sin** (vec_type x)"
+msgstr "vec_type ** ஊழ்கம் ** (vec_type x)"
+
+msgid "Sine."
+msgstr "சைன்."
+
+msgid "vec_type **cos** (vec_type x)"
+msgstr "vec_type ** cos ** (vec_type x)"
+
+msgid "Cosine."
+msgstr "கொசைன்."
+
+msgid "vec_type **tan** (vec_type x)"
+msgstr "vec_type ** டான் ** (vec_type x)"
+
+msgid "Tangent."
+msgstr "டேன்சென்ட்."
+
+msgid "vec_type **asin** (vec_type x)"
+msgstr "vec_type ** asin ** (vec_type x)"
+
+msgid "Arcsine."
+msgstr "ஆர்க்சைன்."
+
+msgid "vec_type **acos** (vec_type x)"
+msgstr "vec_type ** acos ** (vec_type x)"
+
+msgid "Arccosine."
+msgstr "ஆர்கோசின்."
+
+msgid "vec_type **atan** (vec_type y_over_x)"
+msgstr "Vec_type ** atan ** (vec_type y_over_x)"
+
+msgid "Arctangent."
+msgstr "ஆர்க்டாங்கென்ட்."
+
+msgid "vec_type **atan** (vec_type y, vec_type x)"
+msgstr "Vec_type ** atan ** (vec_type ஒய், vec_type x)"
+
+msgid "vec_type **sinh** (vec_type x)"
+msgstr "vec_type ** sinh ** (vec_type x)"
+
+msgid "Hyperbolic sine."
+msgstr "ஐபர்போலிக் சைன்."
+
+msgid "vec_type **cosh** (vec_type x)"
+msgstr "vec_type ** cosh ** (vec_type x)"
+
+msgid "Hyperbolic cosine."
+msgstr "ஐபர்போலிக் கொசைன்."
+
+msgid "vec_type **tanh** (vec_type x)"
+msgstr "vec_type ** tanh ** (vec_type x)"
+
+msgid "Hyperbolic tangent."
+msgstr "ஐபர்போலிக் தொடுகோடு."
+
+msgid "vec_type **asinh** (vec_type x)"
+msgstr "vec_type ** asinh ** (vec_type x)"
+
+msgid "Inverse hyperbolic sine."
+msgstr "தலைகீழ் ஐபர்போலிக் சைன்."
+
+msgid "vec_type **acosh** (vec_type x)"
+msgstr "vec_type ** acosh ** (vec_type x)"
+
+msgid "Inverse hyperbolic cosine."
+msgstr "தலைகீழ் ஐபர்போலிக் கொசைன்."
+
+msgid "vec_type **atanh** (vec_type x)"
+msgstr "vec_type ** atanh ** (vec_type x)"
+
+msgid "Inverse hyperbolic tangent."
+msgstr "தலைகீழ் ஐபர்போலிக் தொடுகோடு."
+
+msgid "vec_type **pow** (vec_type x, vec_type y)"
+msgstr "vec_type ** pow ** (vec_type ஃச், vec_type y)"
+
+msgid "Power (undefined if ``x`` < 0 or if ``x`` == 0 and ``y`` <= 0)."
+msgstr ""
+"ஆற்றல் (`` x`` <0 அல்லது `` x`` == 0 மற்றும் `` y`` <= 0 என வரையறுக்கப்படவில்லை)."
+
+msgid "vec_type **exp** (vec_type x)"
+msgstr "vec_type ** exp ** (vec_type x)"
+
+msgid "Base-e exponential."
+msgstr "அடிப்படை-இ எக்ச்போனென்சியல்."
+
+msgid "vec_type **exp2** (vec_type x)"
+msgstr "vec_type ** exp2 ** (vec_type x)"
+
+msgid "Base-2 exponential."
+msgstr "அடிப்படை -2 அதிவேக."
+
+msgid "vec_type **log** (vec_type x)"
+msgstr "vec_type ** log ** (vec_type x)"
+
+msgid "Natural logarithm."
+msgstr "இயற்கை மடக்கை."
+
+msgid "vec_type **log2** (vec_type x)"
+msgstr "vec_type ** log2 ** (vec_type x)"
+
+msgid "Base-2 logarithm."
+msgstr "அடிப்படை -2 மடக்கை."
+
+msgid "vec_type **sqrt** (vec_type x)"
+msgstr "vec_type ** sqrt ** (vec_type x)"
+
+msgid "Square root."
+msgstr "சதுர வேர்."
+
+msgid "vec_type **inversesqrt** (vec_type x)"
+msgstr "vec_type ** avenversesqrt ** (vec_type x)"
+
+msgid "Inverse square root."
+msgstr "தலைகீழ் சதுர வேர்."
+
+msgid "vec_type **abs** (vec_type x)"
+msgstr "vec_type ** abs ** (vec_type x)"
+
+msgid "ivec_type **abs** (ivec_type x)"
+msgstr "ivec_type ** abs ** (ivec_type x)"
+
+msgid "Absolute value (returns positive value if negative)."
+msgstr "முழுமையான மதிப்பு (எதிர்மறையாக இருந்தால் நேர்மறை மதிப்பை வழங்குகிறது)."
+
+msgid "vec_type **sign** (vec_type x)"
+msgstr "vec_type ** அடையாளம் ** (vec_type x)"
+
+msgid "ivec_type **sign** (ivec_type x)"
+msgstr "ivec_type ** அடையாளம் ** (ivec_type x)"
+
+msgid ""
+"Sign (returns ``1.0`` if positive, ``-1.0`` if negative, ``0.0`` if zero)."
+msgstr ""
+"அடையாளம் (`` 1.0`` நேர்மறையாக இருந்தால், `` -1.0`` எதிர்மறையாக இருந்தால், `` 0.0`` "
+"பூச்சியமாக இருந்தால்)."
+
+msgid "vec_type **floor** (vec_type x)"
+msgstr "vec_type ** மாடி ** (vec_type x)"
+
+msgid "Round to the integer below."
+msgstr "கீழே உள்ள முழு எண்ணுக்கு வட்டமானது."
+
+msgid "vec_type **round** (vec_type x)"
+msgstr "vec_type ** சுற்று ** (vec_type x)"
+
+msgid "Round to the nearest integer."
+msgstr "அருகிலுள்ள முழு எண்ணுக்கு வட்டமானது."
+
+msgid "vec_type **roundEven** (vec_type x)"
+msgstr "vec_type ** roundeven ** (vec_type x)"
+
+msgid "Round to the nearest even integer."
+msgstr "அருகிலுள்ள கூட முழு எண்ணுக்கு வட்டமானது."
+
+msgid "vec_type **trunc** (vec_type x)"
+msgstr "vec_type ** trunc ** (vec_type x)"
+
+msgid "Truncation."
+msgstr "துண்டிப்பு."
+
+msgid "vec_type **ceil** (vec_type x)"
+msgstr "vec_type ** ceril ** (vec_type x)"
+
+msgid "Round to the integer above."
+msgstr "மேலே உள்ள முழு எண்ணுக்கு வட்டமானது."
+
+msgid "vec_type **fract** (vec_type x)"
+msgstr "that_type ** fract ** (vec_type x)"
+
+msgid "Fractional (returns ``x - floor(x)``)."
+msgstr "பகுதியளவு (`` ஃச் - மாடி (x) ``)."
+
+msgid "vec_type **mod** (vec_type x, vec_type y)"
+msgstr "vec_type ** மோட் ** (vec_type ஃச், vec_type y)"
+
+msgid "vec_type **mod** (vec_type x, float y)"
+msgstr "vec_type ** மோட் ** (vec_type ஃச், float y)"
+
+msgid "Modulo (division remainder)."
+msgstr "மாடுலோ (பிரிவு மீதமுள்ள)."
+
+msgid "vec_type **modf** (vec_type x, out vec_type i)"
+msgstr "vec_type ** modf ** (vec_type ஃச், out vec_type i)"
+
+msgid "Fractional of ``x``, with ``i`` as integer part."
+msgstr "`` X`` இன் பகுதியளவு, `` நான்` `முழு எண்."
+
+msgid "vec_type  **min** (vec_type a, vec_type b)"
+msgstr "vec_type ** min ** (vec_type a, vec_type b)"
+
+msgid "Lowest value between ``a`` and ``b``."
+msgstr "`` A`` மற்றும் `b`` க்கு இடையில் மிகக் குறைந்த மதிப்பு."
+
+msgid "vec_type  **max** (vec_type a, vec_type b)"
+msgstr "vec_type ** max ** (vec_type a, vec_type b)"
+
+msgid "Highest value between ``a`` and ``b``."
+msgstr "`` A`` மற்றும் `b`` க்கு இடையில் அதிக மதிப்பு."
+
+msgid "vec_type **clamp** (vec_type x, vec_type min, vec_type max)"
+msgstr "vec_type ** கிளாம்ப் ** (vec_type ஃச், vec_type min, vec_type max)"
+
+msgid "Clamp ``x`` between ``min`` and ``max`` (inclusive)."
+msgstr "`` நிமிடம்`` மற்றும் `` அதிகபட்சம்`` (உள்ளடக்கியது) இடையே `` x`` ஐ கிளம்ப."
+
+msgid "float **mix** (float a, float b, float c)"
+msgstr "மிதவை ** கலவை ** (மிதவை ஏ, மிதவை பி, மிதவை சி)"
+
+msgid "vec_type **mix** (vec_type a, vec_type b, float c)"
+msgstr "vec_type ** mix ** (vec_type A, vec_type b, மிதவை c)"
+
+msgid "vec_type **mix** (vec_type a, vec_type b, bvec_type c)"
+msgstr "vec_type ** mix ** (VEC_TYPE A, VEC_TYPE B, BVEC_TYPE C)"
+
+msgid "Linear interpolate between ``a`` and ``b`` by ``c``."
+msgstr "`` A`` மற்றும் `b`` க்கு இடையில்` `c`` க்கு இடையில் நேரியல் இடைக்கணிப்பு."
+
+msgid "vec_type **fma** (vec_type a, vec_type b, vec_type c)"
+msgstr "vec_type ** fma ** (vec_type A, vec_type b, vec_type c)"
+
+msgid ""
+"Performs a fused multiply-add operation: ``(a * b + c)`` (faster than doing "
+"it manually)."
+msgstr ""
+"இணைந்த பெருக்கல்-சேர்க்கும் செயல்பாட்டைச் செய்கிறது: `` (A * B + C) `` (கைமுறையாக "
+"செய்வதை விட வேகமாக)."
+
+msgid "vec_type **step** (vec_type a, vec_type b)"
+msgstr "vec_type ** படி ** (vec_type a, vec_type b)"
+
+msgid "``b[i] < a[i] ? 0.0 : 1.0``."
+msgstr "`` b [i] <a [i]? 0.0: 1.0``."
+
+msgid "vec_type **step** (float a, vec_type b)"
+msgstr "vec_type ** படி ** (மிதவை A, vec_type b)"
+
+msgid "``b[i] < a ? 0.0 : 1.0``."
+msgstr "`` b [i] <a? 0.0: 1.0``."
+
+msgid "vec_type **smoothstep** (vec_type a, vec_type b, vec_type c)"
+msgstr "vec_type ** smollstep ** (vec_type A, vec_type b, vec_type c)"
+
+msgid "vec_type **smoothstep** (float a, float b, vec_type c)"
+msgstr "vec_type ** smollstep ** (மிதவை A, மிதவை B, VEC_TYPE C)"
+
+msgid "Hermite interpolate between ``a`` and ``b`` by ``c``."
+msgstr "எர்மைட் `` a` `மற்றும்` b`` இடையே `` c`` க்கு இடையில் ஒன்றிணைகிறது."
+
+msgid "bvec_type **isnan** (vec_type x)"
+msgstr "bvec_type ** isnan ** (vec_type x)"
+
+msgid "Returns ``true`` if scalar or vector component is ``NaN``."
+msgstr "`` உண்மை`` அளவிடுகிறது அல்லது திசையன் கூறு `` nan`` என்றால்."
+
+msgid "bvec_type **isinf** (vec_type x)"
+msgstr "bvec_type ** isinf ** (vec_type x)"
+
+msgid "Returns ``true`` if scalar or vector component is ``INF``."
+msgstr "அளவிடுதல் அல்லது திசையன் கூறு `` inf`` என்றால் `` உண்மை`` தருகிறது."
+
+msgid "ivec_type **floatBitsToInt** (vec_type x)"
+msgstr "ivec_type ** floatbit-stoint ** (vec_type x)"
+
+msgid "Float->Int bit copying, no conversion."
+msgstr "மிதவை-> int பிட் நகலெடுக்கும், மாற்றம் இல்லை."
+
+msgid "uvec_type **floatBitsToUint** (vec_type x)"
+msgstr "uvec_type ** floatbitstouint ** (vec_type x)"
+
+msgid "Float->UInt bit copying, no conversion."
+msgstr "மிதவை-> uint பிட் நகலெடுக்கும், மாற்றம் இல்லை."
+
+msgid "vec_type **intBitsToFloat** (ivec_type x)"
+msgstr "vec_type ** intbitstofloat ** (ivec_type x)"
+
+msgid "Int->Float bit copying, no conversion."
+msgstr "Int-> மிதவை பிட் நகலெடுப்பு, மாற்றம் இல்லை."
+
+msgid "vec_type **uintBitsToFloat** (uvec_type x)"
+msgstr "vec_type ** uintbitstofloat ** (uvec_type x)"
+
+msgid "UInt->Float bit copying, no conversion."
+msgstr "Uint-> மிதவை பிட் நகலெடுக்கும், மாற்றம் இல்லை."
+
+msgid "float **length** (vec_type x)"
+msgstr "மிதவை ** நீளம் ** (vec_type x)"
+
+msgid "Vector length."
+msgstr "திசையன் நீளம்."
+
+msgid "float **distance** (vec_type a, vec_type b)"
+msgstr "மிதவை ** தூரம் ** (VEC_TYPE A, VEC_TYPE B)"
+
+msgid "Distance between vectors i.e ``length(a - b)``."
+msgstr "திசையன்களுக்கு இடையிலான தூரம் அதாவது `` நீளம் (a - b) ``."
+
+msgid "float **dot** (vec_type a, vec_type b)"
+msgstr "மிதவை ** புள்ளி ** (vec_type A, vec_type b)"
+
+msgid "Dot product."
+msgstr "புள்ளி தயாரிப்பு."
+
+msgid "vec3 **cross** (vec3 a, vec3 b)"
+msgstr "VEC3 ** குறுக்கு ** (VEC3 A, VEC3 B)"
+
+msgid "Cross product."
+msgstr "குறுக்கு தயாரிப்பு."
+
+msgid "vec_type **normalize** (vec_type x)"
+msgstr "vec_type ** இயல்பாக்குதல் ** (vec_type x)"
+
+msgid "Normalize to unit length."
+msgstr "அலகு நீளத்திற்கு இயல்பாக்குங்கள்."
+
+msgid "vec3 **reflect** (vec3 I, vec3 N)"
+msgstr "VEC3 ** பிரதிபலிக்கவும் ** (VEC3 I, VEC3 N)"
+
+msgid "Reflect."
+msgstr "பிரதிபலிக்கவும்."
+
+msgid "vec3 **refract** (vec3 I, vec3 N, float eta)"
+msgstr "VEC3 ** ரிஃப்ராக்ட் ** (VEC3 I, VEC3 N, மிதவை ETA)"
+
+msgid "Refract."
+msgstr "ரிஃபாக்ட்."
+
+msgid "vec_type **faceforward** (vec_type N, vec_type I, vec_type Nref)"
+msgstr "vec_type ** முகநூல் ** (vec_type n, vec_type I, vec_type nref)"
+
+msgid "If ``dot(Nref, I)`` < 0, return ``N``, otherwise ``-N``."
+msgstr "`` Dot (nref, i) `` <0 என்றால், `` n`` ஐத் தரவும், இல்லையெனில் `` -n``."
+
+msgid "mat_type **matrixCompMult** (mat_type x, mat_type y)"
+msgstr "mat_type ** மேட்ரிக்ச் காம்பால் ** (mat_type ஃச், mat_type y)"
+
+msgid "Matrix component multiplication."
+msgstr "மேட்ரிக்ச் கூறு பெருக்கல்."
+
+msgid "mat_type **outerProduct** (vec_type column, vec_type row)"
+msgstr "mat_type ** வெளிப்புற தயாரிப்பு ** (vec_type நெடுவரிசை, vec_type வரிசை)"
+
+msgid "Matrix outer product."
+msgstr "அணி வெளிப்புற தயாரிப்பு."
+
+msgid "mat_type **transpose** (mat_type m)"
+msgstr "mat_type ** இடமாற்றம் ** (mat_type m)"
+
+msgid "Transpose matrix."
+msgstr "டிரான்ச் மேட்ரிக்ச்."
+
+msgid "float **determinant** (mat_type m)"
+msgstr "மிதவை ** தீர்மானித்தல் ** (Mat_Type M)"
+
+msgid "Matrix determinant."
+msgstr "மேட்ரிக்ச் தீர்மானிப்பவர்."
+
+msgid "mat_type **inverse** (mat_type m)"
+msgstr "mat_type ** தலைகீழ் ** (mat_type m)"
+
+msgid "Inverse matrix."
+msgstr "தலைகீழ் அணி."
+
+msgid "bvec_type **lessThan** (vec_type x, vec_type y)"
+msgstr "BVEC வகை ** ** ஐ விட குறைவாக (VEC வகை ஃச், வகை Y)"
+
+msgid "Bool vector comparison on < int/uint/float vectors."
+msgstr "<Int/uint/float vectors இல் பூல் திசையன் ஒப்பீடு."
+
+msgid "bvec_type **greaterThan** (vec_type x, vec_type y)"
+msgstr "பி.வி.இ.சி வகை ** ** ஐ விட பெரியது (VEC வகை ஃச், வகை Y)"
+
+msgid "Bool vector comparison on > int/uint/float vectors."
+msgstr "> Int/uint/float vectors இல் பூல் திசையன் ஒப்பீடு."
+
+msgid "bvec_type **lessThanEqual** (vec_type x, vec_type y)"
+msgstr "bvec_type ** lestanequal ** (vec_type ஃச், vec_type y)"
+
+msgid "Bool vector comparison on <= int/uint/float vectors."
+msgstr "<= Int/uint/float vectors இல் பூல் திசையன் ஒப்பீடு."
+
+msgid "bvec_type **greaterThanEqual** (vec_type x, vec_type y)"
+msgstr "bvec_type ** materthanequal ** (vec_type ஃச், vec_type y)"
+
+msgid "Bool vector comparison on >= int/uint/float vectors."
+msgstr "> = Int/uint/float vectors இல் பூல் திசையன் ஒப்பீடு."
+
+msgid "bvec_type **equal** (vec_type x, vec_type y)"
+msgstr "bvec_type ** சம ** (vec_type ஃச், vec_type y)"
+
+msgid "Bool vector comparison on == int/uint/float vectors."
+msgstr "== int/uint/float vectors இல் பூல் திசையன் ஒப்பீடு."
+
+msgid "bvec_type **notEqual** (vec_type x, vec_type y)"
+msgstr "BVEC வகை ** சமமாக இல்லை ** (VEC வகை ஃச், வகை Y)"
+
+msgid "Bool vector comparison on != int/uint/float vectors."
+msgstr "பூல் திசையன் ஒப்பீடு! = Int/uint/float vectors."
+
+msgid "bool **any** (bvec_type x)"
+msgstr "பூல் ** ஏதேனும் ** (bvec_type x)"
+
+msgid "``true`` if any component is ``true``, ``false`` otherwise."
+msgstr "`` உண்மை`` எந்தவொரு கூறுகளும் `` உண்மை`` என்றால், `` தவறு`` இல்லையெனில்."
+
+msgid "bool **all** (bvec_type x)"
+msgstr "பூல் ** அனைத்தும் ** (bvec_type x)"
+
+msgid "``true`` if all components are ``true``, ``false`` otherwise."
+msgstr "`` உண்மை`` அனைத்து கூறுகளும் `` உண்மை`` என்றால், இல்லையெனில் `` பொய்."
+
+msgid "bvec_type **not** (bvec_type x)"
+msgstr "bvec_type ** not ** (bvec_type x)"
+
+msgid "Invert boolean vector."
+msgstr "பூலியன் திசையன் தலைகீழ்."
+
+msgid "ivec2 **textureSize** (gsampler2D s, int lod)"
+msgstr "IVEC2 ** tessuresize ** (gsampler2d s, int lod)"
+
+msgid "ivec3 **textureSize** (gsampler2DArray s, int lod)"
+msgstr "IVEC3 ** tessuresize ** (gsampler2darray s, int lod)"
+
+msgid "ivec3 **textureSize** (gsampler3D s, int lod)"
+msgstr "IVEC3 ** tessuresize ** (gsampler3d s, int lod)"
+
+msgid "ivec2 **textureSize** (samplerCube s, int lod)"
+msgstr "IVEC2 ** tessuresize ** (Samplercube S, int lod)"
+
+msgid "ivec2 **textureSize** (samplerCubeArray s, int lod)"
+msgstr "IVEC2 ** tessuresize ** (SamplerCubearray S, int lod)"
+
+msgid "Get the size of a texture."
+msgstr "ஒரு அமைப்பின் அளவைப் பெறுங்கள்."
+
+msgid ""
+"The LOD defines which mipmap level is used. An LOD value of ``0`` will use "
+"the full resolution texture."
+msgstr ""
+"எந்த MIPMAP நிலை பயன்படுத்தப்படுகிறது என்பதை LOD வரையறுக்கிறது. `` 0`` இன் LOD "
+"மதிப்பு முழு தெளிவுத்திறன் அமைப்பையும் பயன்படுத்தும்."
+
+msgid "vec2 **textureQueryLod** (gsampler2D s, vec2 p)"
+msgstr "vec2 ** strecureQuerlod ** (gsampler2d s, vec2 p)"
+
+msgid "vec3 **textureQueryLod** (gsampler2DArray s, vec2 p)"
+msgstr "vec3 ** strecureQuerlod ** (gsampler2darray s, vec2 p)"
+
+msgid "vec2 **textureQueryLod** (gsampler3D s, vec3 p)"
+msgstr "vec2 ** strecureQuerlod ** (gsampler3d s, vec3 p)"
+
+msgid "vec2 **textureQueryLod** (samplerCube s, vec3 p)"
+msgstr "vec2 ** strecureQuerlod ** (Samplercube S, VEC3 P)"
+
+msgid ""
+"Compute the level-of-detail that would be used to sample from a texture. The "
+"``x`` component of the resulted value is the mipmap array that would be "
+"accessed. The ``y`` component is computed level-of-detail relative to the "
+"base level (regardless of the mipmap levels of the texture)."
+msgstr ""
+"ஒரு அமைப்பிலிருந்து மாதிரியாகப் பயன்படுத்தப்படும் விரிவான நிலையை கணக்கிடுங்கள். இதன் "
+"விளைவாக மதிப்பின் `` x`` கூறு அணுகப்படும் MIPMAP வரிசை. `` Y`` கூறு அடிப்படை "
+"மட்டத்துடன் ஒப்பிடும்போது (அமைப்பின் MIPMAP அளவைப் பொருட்படுத்தாமல்) கணக்கிடப்படுகிறது."
+
+msgid "int **textureQueryLevels** (gsampler2D s)"
+msgstr "int ** SextureQueryLevels ** (gsampler2d s)"
+
+msgid "int **textureQueryLevels** (gsampler2DArray s)"
+msgstr "int ** SextureQueryLevels ** (gsampler2darray s)"
+
+msgid "int **textureQueryLevels** (gsampler3D s)"
+msgstr "int ** SextureQueryLevels ** (gsampler3d s)"
+
+msgid "int **textureQueryLevels** (samplerCube s)"
+msgstr "int ** SextureQueryLevels ** (Samplercube S)"
+
+msgid "Get the number of accessible mipmap levels of a texture."
+msgstr "ஒரு அமைப்பின் அணுகக்கூடிய MIPMAP அளவுகளின் எண்ணிக்கையைப் பெறுங்கள்."
+
+msgid ""
+"If the texture is unassigned to a sampler, ``1`` is returned (Godot always "
+"internally assigns a texture even to an empty sampler)."
+msgstr ""
+"அமைப்பு ஒரு மாதிரியுடன் ஒதுக்கப்படவில்லை என்றால், `` 1`` திரும்பப் பெறப்படுகிறது "
+"(கோடோட் எப்போதும் ஒரு வெற்று மாதிரிக்கு கூட ஒரு அமைப்பை உள்நாட்டில் ஒதுக்குகிறது)."
+
+msgid "gvec4_type **texture** (gsampler2D s, vec2 p [, float bias])"
+msgstr "gvec4_type ** அமைப்பு ** (gsampler2d s, vec2 p [, மிதவை சார்பு])"
+
+msgid "gvec4_type **texture** (gsampler2DArray s, vec3 p [, float bias])"
+msgstr "gvec4_type ** அமைப்பு ** (gsampler2darray s, vec3 p [, மிதவை சார்பு])"
+
+msgid "gvec4_type **texture** (gsampler3D s, vec3 p [, float bias])"
+msgstr "gvec4_type ** அமைப்பு ** (gsampler3d s, vec3 p [, மிதவை சார்பு])"
+
+msgid "vec4 **texture** (samplerCube s, vec3 p [, float bias])"
+msgstr "VEC4 ** அமைப்பு ** (SAMPLERCUBE S, VEC3 P [, மிதவை சார்பு])"
+
+msgid "vec4 **texture** (samplerCubeArray s, vec4 p [, float bias])"
+msgstr "VEC4 ** அமைப்பு ** (SAMPLERCUBEARRAY S, VEC4 P [, மிதவை சார்பு])"
+
+msgid "Perform a texture read."
+msgstr "ஒரு அமைப்பு படிக்க."
+
+msgid "gvec4_type **textureProj** (gsampler2D s, vec3 p [, float bias])"
+msgstr "gvec4_type ** sextureproj ** (gsampler2d s, vec3 p [, மிதவை சார்பு])"
+
+msgid "gvec4_type **textureProj** (gsampler2D s, vec4 p [, float bias])"
+msgstr "gvec4_type ** sextureproj ** (gsampler2d s, vec4 p [, மிதவை சார்பு])"
+
+msgid "gvec4_type **textureProj** (gsampler3D s, vec4 p [, float bias])"
+msgstr "gvec4_type ** sextureproj ** (gsampler3d s, vec4 p [, மிதவை சார்பு])"
+
+msgid "Perform a texture read with projection."
+msgstr "திட்டத்துடன் படிக்க ஒரு அமைப்பைச் செய்யுங்கள்."
+
+msgid "gvec4_type **textureLod** (gsampler2D s, vec2 p, float lod)"
+msgstr "gvec4_type ** texturelod ** (gsampler2d s, vec2 p, மிதவை LOD)"
+
+msgid "gvec4_type **textureLod** (gsampler2DArray s, vec3 p, float lod)"
+msgstr "gvec4_type ** texturelod ** (gsampler2darray s, vec3 p, மிதவை LOD)"
+
+msgid "gvec4_type **textureLod** (gsampler3D s, vec3 p, float lod)"
+msgstr "gvec4_type ** texturelod ** (gsampler3d s, vec3 p, மிதவை LOD)"
+
+msgid "vec4 **textureLod** (samplerCube s, vec3 p, float lod)"
+msgstr "VEC4 ** TextureLod ** (SAMPLERCUBE S, VEC3 P, மிதவை LOD)"
+
+msgid "vec4 **textureLod** (samplerCubeArray s, vec4 p, float lod)"
+msgstr "VEC4 ** TextureLod ** (SamplerCubearray S, VEC4 P, மிதவை LOD)"
+
+msgid "Perform a texture read at custom mipmap."
+msgstr "தனிப்பயன் MIPMAP இல் படிக்க ஒரு அமைப்பைச் செய்யுங்கள்."
+
+msgid ""
+"The LOD defines which mipmap level is used. An LOD value of ``0.0`` will use "
+"the full resolution texture. If the texture lacks mipmaps, all LOD values "
+"will act like ``0.0``."
+msgstr ""
+"எந்த MIPMAP நிலை பயன்படுத்தப்படுகிறது என்பதை LOD வரையறுக்கிறது. `` 0.0`` இன் LOD "
+"மதிப்பு முழு தெளிவுத்திறன் அமைப்பையும் பயன்படுத்தும். அமைப்புக்கு MIPMAPS "
+"இல்லாதிருந்தால், அனைத்து LOD மதிப்புகளும் `` 0.0`` போல செயல்படும்."
+
+msgid "gvec4_type **textureProjLod** (gsampler2D s, vec3 p, float lod)"
+msgstr "gvec4_type ** sextureprojlod ** (gsampler2d s, vec3 p, மிதவை LOD)"
+
+msgid "gvec4_type **textureProjLod** (gsampler2D s, vec4 p, float lod)"
+msgstr "gvec4_type ** sextureprojlod ** (gsampler2d s, vec4 p, மிதவை LOD)"
+
+msgid "gvec4_type **textureProjLod** (gsampler3D s, vec4 p, float lod)"
+msgstr "gvec4_type ** sextureprojlod ** (gsampler3d s, vec4 p, மிதவை LOD)"
+
+msgid "Performs a texture read with projection/LOD."
+msgstr "ப்ரொசெக்சன்/லாட் உடன் படிக்க ஒரு அமைப்பைச் செய்கிறது."
+
+msgid "gvec4_type **textureGrad** (gsampler2D s, vec2 p, vec2 dPdx, vec2 dPdy)"
+msgstr ""
+"gvec4_type ** texturegragrad ** (gsampler2d s, vec2 p, vec2 dpdx, vec2 dpdy)"
+
+msgid ""
+"gvec4_type **textureGrad** (gsampler2DArray s, vec3 p, vec2 dPdx, vec2 dPdy)"
+msgstr ""
+"gvec4_type ** texturegragrage ** (gsampler2darray s, vec3 p, vec2 dpdx, vec2 "
+"dpdy)"
+
+msgid "gvec4_type **textureGrad** (gsampler3D s, vec3 p, vec2 dPdx, vec2 dPdy)"
+msgstr ""
+"gvec4_type ** texturegragrad ** (gsampler3d s, vec3 p, vec2 dpdx, Vec2 dpdy)"
+
+msgid "vec4 **textureGrad** (samplerCube s, vec3 p, vec3 dPdx, vec3 dPdy)"
+msgstr "VEC4 ** STECRYCREGRAD ** (SampLERCUBE S, VEC3 P, VEC3 DPDX, VEC3 DPDY)"
+
+msgid "vec4 **textureGrad** (samplerCubeArray s, vec3 p, vec3 dPdx, vec3 dPdy)"
+msgstr ""
+"VEC4 ** StrectureGragre ** (SamplerCubearray S, VEC3 P, VEC3 DPDX, VEC3 DPDY)"
+
+msgid "Performs a texture read with explicit gradients."
+msgstr "வெளிப்படையான சாய்வுகளுடன் படிக்க ஒரு அமைப்பைச் செய்கிறது."
+
+msgid ""
+"gvec4_type **textureProjGrad** (gsampler2D s, vec3 p, vec2 dPdx, vec2 dPdy)"
+msgstr ""
+"gvec4_type ** sextureprojgrad ** (gsampler2d s, vec3 p, vec2 dpdx, vec2 dpdy)"
+
+msgid ""
+"gvec4_type **textureProjGrad** (gsampler2D s, vec4 p, vec2 dPdx, vec2 dPdy)"
+msgstr ""
+"gvec4_type ** sextureprojgrad ** (gsampler2d s, vec4 p, vec2 dpdx, Vec2 dpdy)"
+
+msgid ""
+"gvec4_type **textureProjGrad** (gsampler3D s, vec4 p, vec3 dPdx, vec3 dPdy)"
+msgstr ""
+"gvec4_type ** strecureProjgrad ** (gsampler3d s, vec4 p, vec3 dpdx, Vec3 "
+"dpdy)"
+
+msgid ""
+"Performs a texture read with projection/LOD and with explicit gradients."
+msgstr "ப்ரொசெக்சன்/லாட் மற்றும் வெளிப்படையான சாய்வுகளுடன் படிக்க ஒரு அமைப்பைச் செய்கிறது."
+
+msgid "gvec4_type **texelFetch** (gsampler2D s, ivec2 p, int lod)"
+msgstr "gvec4_type ** dexelfetch ** (gsampler2d s, ivec2 p, int lod)"
+
+msgid "gvec4_type **texelFetch** (gsampler2DArray s, ivec3 p, int lod)"
+msgstr "gvec4_type ** dexelfetch ** (gsampler2darray s, ivec3 p, int lod)"
+
+msgid "gvec4_type **texelFetch** (gsampler3D s, ivec3 p, int lod)"
+msgstr "gvec4_type ** dexelfetch ** (gsampler3d s, ivec3 p, int lod)"
+
+msgid "Fetches a single texel using integer coordinates."
+msgstr "முழு எண் ஒருங்கிணைப்புகளைப் பயன்படுத்தி ஒரு டெக்சலைப் பெறுகிறது."
+
+msgid "gvec4_type **textureGather** (gsampler2D s, vec2 p [, int comps])"
+msgstr "gvec4_type ** strecuregather ** (gsampler2d s, vec2 p [, int comps])"
+
+msgid "gvec4_type **textureGather** (gsampler2DArray s, vec3 p [, int comps])"
+msgstr ""
+"gvec4_type ** strecuregather ** (gsampler2darray s, vec3 p [, int comps])"
+
+msgid "vec4 **textureGather** (samplerCube s, vec3 p [, int comps])"
+msgstr "VEC4 ** Sexturegather ** (SampLercube S, VEC3 P [, int comps])"
+
+msgid ""
+"Gathers four texels from a texture. Use ``comps`` within range of 0..3 to "
+"define which component (x, y, z, w) is returned. If ``comps`` is not "
+"provided: 0 (or x-component) is used."
+msgstr ""
+"ஒரு அமைப்பிலிருந்து நான்கு டெக்சல்களை சேகரிக்கிறது. எந்த கூறு (x, ஒய், சட், w) "
+"திரும்பப் பெறப்படுகிறது என்பதை வரையறுக்க 0..3 வரம்பிற்குள் `` comps`` ஐப் "
+"பயன்படுத்தவும். `` Comps`` வழங்கப்படவில்லை என்றால்: 0 (அல்லது எக்ச்-கூறு) "
+"பயன்படுத்தப்படுகிறது."
+
+msgid "vec_type **dFdx** (vec_type p)"
+msgstr "vec_type ** dfdx ** (vec_type p)"
+
+msgid ""
+"Derivative in ``x`` using local differencing. Internally, can use either "
+"``dFdxCoarse`` or ``dFdxFine``, but the decision for which to use is made by "
+"the GPU driver."
+msgstr ""
+"உள்ளக வேறுபாட்டைப் பயன்படுத்தி `` x`` இல் வழித்தோன்றல். உள்நாட்டில், `` dfdxcoaress`` "
+"அல்லது `` dfdxfine`` ஐப் பயன்படுத்தலாம், ஆனால் பயன்படுத்த வேண்டிய முடிவு GPU இயக்கி "
+"மூலம் எடுக்கப்படுகிறது."
+
+msgid "vec_type **dFdxCoarse** (vec_type p)"
+msgstr "vec_type ** dfdxcoares ** (vec_type p)"
+
+msgid ""
+"Calculates derivative with respect to ``x`` window coordinate using local "
+"differencing based on the value of ``p`` for the current fragment "
+"neighbour(s), and will possibly, but not necessarily, include the value for "
+"the current fragment. This function is not available on ``gl_compatibility`` "
+"profile."
+msgstr ""
+"தற்போதைய துண்டு அண்டை (கள்) க்கான `` p`` இன் மதிப்பின் அடிப்படையில் உள்ளக வேறுபாட்டைப் "
+"பயன்படுத்தி `` x`` சாளர ஒருங்கிணைப்பைப் பொறுத்தவரை வழித்தோன்றலை கணக்கிடுகிறது, ஆனால் "
+"தற்போதைய துண்டுக்கான மதிப்பை உள்ளடக்கும். இந்த செயல்பாடு `` gl_compatibility`` "
+"சுயவிவரத்தில் கிடைக்கவில்லை."
+
+msgid "vec_type **dFdxFine** (vec_type p)"
+msgstr "vec_type ** dfdxfine ** (vec_type p)"
+
+msgid ""
+"Calculates derivative with respect to ``x`` window coordinate using local "
+"differencing based on the value of ``p`` for the current fragment and its "
+"immediate neighbour(s). This function is not available on "
+"``gl_compatibility`` profile."
+msgstr ""
+"தற்போதைய துண்டு மற்றும் அதன் உடனடி அண்டை (கள்) ஆகியவற்றிற்கான `` p`` மதிப்பின் "
+"அடிப்படையில் உள்ளக வேறுபாட்டைப் பயன்படுத்தி `` x`` சாளர ஒருங்கிணைப்பைப் பொறுத்தவரை "
+"வழித்தோன்றலை கணக்கிடுகிறது. இந்த செயல்பாடு `` gl_compatibility`` சுயவிவரத்தில் "
+"கிடைக்கவில்லை."
+
+msgid "vec_type **dFdy** (vec_type p)"
+msgstr "vec_type ** dfdy ** (vec_type p)"
+
+msgid ""
+"Derivative in ``y`` using local differencing. Internally, can use either "
+"``dFdyCoarse`` or ``dFdyFine``, but the decision for which to use is made by "
+"the GPU driver."
+msgstr ""
+"உள்ளக வேறுபாட்டைப் பயன்படுத்தி `` y`` இல் வழித்தோன்றல். உள்நாட்டில், `` dfdycoaress`` "
+"அல்லது `` dfdyfine`` ஐப் பயன்படுத்தலாம், ஆனால் பயன்படுத்த வேண்டிய முடிவு GPU இயக்கி "
+"மூலம் எடுக்கப்படுகிறது."
+
+msgid "vec_type **dFdyCoarse** (vec_type p)"
+msgstr "vec_type ** dfdycoaress ** (vec_type p)"
+
+msgid ""
+"Calculates derivative with respect to ``y`` window coordinate using local "
+"differencing based on the value of ``p`` for the current fragment "
+"neighbour(s), and will possibly, but not necessarily, include the value for "
+"the current fragment. This function is not available on ``gl_compatibility`` "
+"profile."
+msgstr ""
+"தற்போதைய துண்டு அண்டை (கள்) க்கான `` p`` இன் மதிப்பின் அடிப்படையில் உள்ளக வேறுபாட்டைப் "
+"பயன்படுத்தி `` y`` சாளர ஒருங்கிணைப்பைப் பொறுத்தவரை வழித்தோன்றலை கணக்கிடுகிறது, ஆனால் "
+"தற்போதைய துண்டுக்கான மதிப்பை உள்ளடக்கும். இந்த செயல்பாடு `` gl_compatibility`` "
+"சுயவிவரத்தில் கிடைக்கவில்லை."
+
+msgid "vec_type **dFdyFine** (vec_type p)"
+msgstr "vec_type ** dfdyfine ** (vec_type p)"
+
+msgid ""
+"Calculates derivative with respect to ``y`` window coordinate using local "
+"differencing based on the value of ``p`` for the current fragment and its "
+"immediate neighbour(s). This function is not available on "
+"``gl_compatibility`` profile."
+msgstr ""
+"தற்போதைய துண்டு மற்றும் அதன் உடனடி அண்டை (கள்) ஆகியவற்றிற்கான `` p`` மதிப்பின் "
+"அடிப்படையில் உள்ளக வேறுபாட்டைப் பயன்படுத்தி `` y`` சாளர ஒருங்கிணைப்பைப் பொறுத்தவரை "
+"வழித்தோன்றலை கணக்கிடுகிறது. இந்த செயல்பாடு `` gl_compatibility`` சுயவிவரத்தில் "
+"கிடைக்கவில்லை."
+
+msgid "vec_type **fwidth** (vec_type p)"
+msgstr "vec_type ** fwidth ** (vec_type p)"
+
+msgid ""
+"Sum of absolute derivative in ``x`` and ``y``. This is the equivalent of "
+"using ``abs(dFdx(p)) + abs(dFdy(p))``."
+msgstr ""
+"`` X`` மற்றும் `` y`` ஆகியவற்றில் முழுமையான வழித்தோன்றலின் தொகை. இது `` ஏபிஎச் (டி."
+"எஃப்.டி.எக்ச் (பி)) + ஏபிஎச் (டி.எஃப்.டி.ஒய் (பி)) `` ஐப் பயன்படுத்துவதற்கு சமம்."
+
+msgid "vec_type **fwidthCoarse** (vec_type p)"
+msgstr "vec_type ** fwidthcoares ** (vec_type p)"
+
+msgid ""
+"Sum of absolute derivative in ``x`` and ``y``. This is the equivalent of "
+"using ``abs(dFdxCoarse(p)) + abs(dFdyCoarse(p))``. This function is not "
+"available on ``gl_compatibility`` profile."
+msgstr ""
+"`` X`` மற்றும் `` y`` ஆகியவற்றில் முழுமையான வழித்தோன்றலின் தொகை. இது `` ஏபிஎச் "
+"(dfdxcoares (p)) + abs (dfdycoares (p)) `` ஐப் பயன்படுத்துவதற்கு சமம். இந்த "
+"செயல்பாடு `` gl_compatibility`` சுயவிவரத்தில் கிடைக்கவில்லை."
+
+msgid "vec_type **fwidthFine** (vec_type p)"
+msgstr "vec_type ** fwidthfine ** (vec_type p)"
+
+msgid ""
+"Sum of absolute derivative in ``x`` and ``y``. This is the equivalent of "
+"using ``abs(dFdxFine(p)) + abs(dFdyFine(p))``. This function is not "
+"available on ``gl_compatibility`` profile."
+msgstr ""
+"`` X`` மற்றும் `` y`` ஆகியவற்றில் முழுமையான வழித்தோன்றலின் தொகை. இது `` ஏபிஎச் "
+"(dfdxfine (p)) + abs (dfdyfine (p)) `` ஐப் பயன்படுத்துவதற்கு சமம். இந்த செயல்பாடு "
+"`` gl_compatibility`` சுயவிவரத்தில் கிடைக்கவில்லை."
+
+msgid "uint **packHalf2x16** (vec2 v)"
+msgstr "uint ** packhalf2x16 ** (vec2 v)"
+
+msgid "vec2 **unpackHalf2x16** (uint v)"
+msgstr "vec2 ** unpackhalf2x16 ** (uint v)"
+
+msgid ""
+"Convert two 32-bit floating-point numbers into 16-bit and pack them into a "
+"32-bit unsigned integer and vice-versa."
+msgstr ""
+"இரண்டு 32-பிட் மிதக்கும்-புள்ளி எண்களை 16-பிட் ஆக மாற்றி, அவற்றை 32-பிட் கையொப்பமிடாத "
+"முழு எண் மற்றும் நேர்மாறாக மாற்றவும்."
+
+msgid "uint **packUnorm2x16** (vec2 v)"
+msgstr "Uint ** packunorm2x16 ** (vec2 v)"
+
+msgid "vec2 **unpackUnorm2x16** (uint v)"
+msgstr "vec2 ** uncackunorm2x16 ** (uint v)"
+
+msgid ""
+"Convert two 32-bit floating-point numbers (clamped within 0..1 range) into "
+"16-bit and pack them into a 32-bit unsigned integer and vice-versa."
+msgstr ""
+"இரண்டு 32-பிட் மிதக்கும்-புள்ளி எண்களை (0..1 வரம்பிற்குள் பிணைக்கப்பட்டுள்ளது) 16-பிட் ஆக "
+"மாற்றி, அவற்றை 32-பிட் கையொப்பமிடாத முழு எண் மற்றும் அதற்கு நேர்மாறாக மாற்றவும்."
+
+msgid "uint **packSnorm2x16** (vec2 v)"
+msgstr "UINT ** PackSnorm2x16 ** (VEC2 V)"
+
+msgid "vec2 **unpackSnorm2x16** (uint v)"
+msgstr "VEC2 ** UNPACKSNORM2X16 ** (UINT V)"
+
+msgid ""
+"Convert two 32-bit floating-point numbers (clamped within -1..1 range) into "
+"16-bit and pack them into a 32-bit unsigned integer and vice-versa."
+msgstr ""
+"இரண்டு 32-பிட் மிதக்கும்-புள்ளி எண்களை (-1..1 வரம்பிற்குள் பிணைக்கப்பட்டு) 16-பிட் ஆக "
+"மாற்றி, அவற்றை 32-பிட் கையொப்பமிடாத முழு எண் மற்றும் அதற்கு நேர்மாறாக மாற்றவும்."
+
+msgid "uint **packUnorm4x8** (vec4 v)"
+msgstr "Uint ** packunorm4x8 ** (VEC4 V)"
+
+msgid "vec4 **unpackUnorm4x8** (uint v)"
+msgstr "VEC4 ** uncackunorm4x8 ** (uint v)"
+
+msgid ""
+"Convert four 32-bit floating-point numbers (clamped within 0..1 range) into "
+"8-bit and pack them into a 32-bit unsigned integer and vice-versa."
+msgstr ""
+"நான்கு 32-பிட் மிதக்கும்-புள்ளி எண்களை (0..1 வரம்பிற்குள் பிணைக்கப்பட்டுள்ளது) 8-பிட் ஆக "
+"மாற்றி, அவற்றை 32-பிட் கையொப்பமிடாத முழு எண் மற்றும் அதற்கு நேர்மாறாக மாற்றவும்."
+
+msgid "uint **packSnorm4x8** (vec4 v)"
+msgstr "Uint ** packsnorm4x8 ** (vec4 v)"
+
+msgid "vec4 **unpackSnorm4x8** (uint v)"
+msgstr "VEC4 ** UNPACKSNORM4X8 ** (UINT V)"
+
+msgid ""
+"Convert four 32-bit floating-point numbers (clamped within -1..1 range) into "
+"8-bit and pack them into a 32-bit unsigned integer and vice-versa."
+msgstr ""
+"நான்கு 32-பிட் மிதக்கும்-புள்ளி எண்களை (-1..1 வரம்பிற்குள்) 8-பிட் ஆக மாற்றி, அவற்றை 32-"
+"பிட் கையொப்பமிடாத முழு எண் மற்றும் நேர்மாறாக மாற்றவும்."
+
+msgid "ivec_type **bitfieldExtract** (ivec_type value, int offset, int bits)"
+msgstr ""
+"ivec_type ** bitfieldextract ** (ivec_type value, int ஆஃப்செட், இன்ட் பிட்கள்)"
+
+msgid "uvec_type **bitfieldExtract** (uvec_type value, int offset, int bits)"
+msgstr ""
+"uvec_type ** bitfieldextract ** (uvec_type மதிப்பு, int ஆஃப்செட், இன்ட் பிட்கள்)"
+
+msgid "Extracts a range of bits from an integer."
+msgstr "ஒரு முழு எண்ணிலிருந்து பிட்களின் வரம்பைப் பிரித்தெடுக்கிறது."
+
+msgid ""
+"ivec_type **bitfieldInsert** (ivec_type base, ivec_type insert, int offset, "
+"int bits)"
+msgstr ""
+"IVEC_TYPE ** BitfieldInsert ** (IVEC_TYPE BASE, IVEC_TYPE INSERT, INT "
+"ஆஃப்செட், இன்ட் பிட்கள்)"
+
+msgid ""
+"uvec_type **bitfieldInsert** (uvec_type base, uvec_type insert, int offset, "
+"int bits)"
+msgstr ""
+"UVEC_TYPE ** BITFIELDINSERT ** (UVEC_TYPE BASE, UVEC_TYPE செருகல், INT "
+"ஆஃப்செட், இன்ட் பிட்கள்)"
+
+msgid "Insert a range of bits into an integer."
+msgstr "பிட்களின் வரம்பை ஒரு முழு எண்ணில் செருகவும்."
+
+msgid "ivec_type **bitfieldReverse** (ivec_type value)"
+msgstr "IVEC_TYPE ** பிட்ஃபீல்ட்ரெவர்ச் ** (IVEC_TYPE மதிப்பு)"
+
+msgid "uvec_type **bitfieldReverse** (uvec_type value)"
+msgstr "uvec_type ** bitfieldreverse ** (uvec_type மதிப்பு)"
+
+msgid "Reverse the order of bits in an integer."
+msgstr "பிட்களின் வரிசையை ஒரு முழு எண்ணில் மாற்றியமைக்கவும்."
+
+msgid "ivec_type **bitCount** (ivec_type value)"
+msgstr "IVEC_TYPE ** BitCount ** (IVEC_TYPE மதிப்பு)"
+
+msgid "uvec_type **bitCount** (uvec_type value)"
+msgstr "UVEC_TYPE ** BitCount ** (UVEC_TYPE மதிப்பு)"
+
+msgid "Counts the number of 1 bits in an integer."
+msgstr "ஒரு முழு எண்ணில் 1 பிட்களின் எண்ணிக்கையை கணக்கிடுகிறது."
+
+msgid "ivec_type **findLSB** (ivec_type value)"
+msgstr "ivec_type ** findlsb ** (ivec_type மதிப்பு)"
+
+msgid "uvec_type **findLSB** (uvec_type value)"
+msgstr "uvec_type ** findlsb ** (uvec_type மதிப்பு)"
+
+msgid "Find the index of the least significant bit set to 1 in an integer."
+msgstr ""
+"ஒரு முழு எண்ணில் 1 ஆக அமைக்கப்பட்ட குறைந்த குறிப்பிடத்தக்க பிட் குறியீட்டைக் கண்டறியவும்."
+
+msgid "ivec_type **findMSB** (ivec_type value)"
+msgstr "ivec_type ** findmsb ** (ivec_type மதிப்பு)"
+
+msgid "uvec_type **findMSB** (uvec_type value)"
+msgstr "uvec_type ** findmsb ** (uvec_type மதிப்பு)"
+
+msgid "Find the index of the most significant bit set to 1 in an integer."
+msgstr ""
+"ஒரு முழு எண்ணில் 1 ஆக அமைக்கப்பட்ட மிக முக்கியமான பிட்டின் குறியீட்டைக் கண்டறியவும்."
+
+msgid ""
+"void **imulExtended** (ivec_type x, ivec_type y, out ivec_type msb, out "
+"ivec_type lsb)"
+msgstr ""
+"void ** imulextended ** (ivec_type ஃச், ivec_type ஒய், out ivec_type msb, out "
+"ivec_type lsb)"
+
+msgid ""
+"void **umulExtended** (uvec_type x, uvec_type y, out uvec_type msb, out "
+"uvec_type lsb)"
+msgstr ""
+"void ** umulextended ** (uvec_type ஃச், uvec_type ஒய், out uvec_type msb, out "
+"uvec_type lsb)"
+
+msgid ""
+"Multiplies two 32-bit numbers and produce a 64-bit result. ``x`` - the first "
+"number. ``y`` - the second number. ``msb`` - will contain the most "
+"significant bits. ``lsb`` - will contain the least significant bits."
+msgstr ""
+"இரண்டு 32-பிட் எண்களை பெருக்கி 64 பிட் முடிவை உருவாக்குகிறது. `` x`` - முதல் எண். `` "
+"y`` - இரண்டாவது எண். `` msb`` - மிக முக்கியமான பிட்களைக் கொண்டிருக்கும். `` lsb`` - "
+"குறைந்த குறிப்பிடத்தக்க பிட்களைக் கொண்டிருக்கும்."
+
+msgid "uvec_type **uaddCarry** (uvec_type x, uvec_type y, out uvec_type carry)"
+msgstr ""
+"uvec_type ** uaddcarry ** (uvec_type ஃச், uvec_type ஒய், out uvec_type கேரி)"
+
+msgid "Adds two unsigned integers and generates carry."
+msgstr "கையொப்பமிடப்படாத இரண்டு முழு எண்களைச் சேர்த்து, கேரி உருவாக்குகிறது."
+
+msgid ""
+"uvec_type **usubBorrow** (uvec_type x, uvec_type y, out uvec_type borrow)"
+msgstr ""
+"uvec_type ** usubboror ** (uvec_type ஃச், uvec_type ஒய், out uvec_type கடன்)"
+
+msgid "Subtracts two unsigned integers and generates borrow."
+msgstr "கையொப்பமிடப்படாத இரண்டு முழு எண்களைக் கழித்து கடன் வாங்குகிறது."
+
+msgid "vec_type **ldexp** (vec_type x, out ivec_type exp)"
+msgstr "vec_type ** ldexp ** (vec_type ஃச், out ivec_type exp)"
+
+msgid "Assemble a floating-point number from a value and exponent."
+msgstr "மதிப்பு மற்றும் அதிவேகத்திலிருந்து மிதக்கும்-புள்ளி எண்ணை ஒன்றிணைக்கவும்."
+
+msgid ""
+"If this product is too large to be represented in the floating-point type "
+"the result is undefined."
+msgstr ""
+"இந்த தயாரிப்பு மிதக்கும்-புள்ளி வகையில் குறிப்பிட முடியாத அளவுக்கு பெரியதாக இருந்தால், "
+"முடிவு வரையறுக்கப்படவில்லை."
+
+msgid "vec_type **frexp** (vec_type x, out ivec_type exp)"
+msgstr "vec_type ** frexp ** (vec_type ஃச், out ivec_type exp)"
+
+msgid ""
+"Splits a floating-point number(``x``) into significand (in the range of "
+"[0.5, 1.0]) and an integral exponent."
+msgstr ""
+"மிதக்கும்-புள்ளி எண்ணை (`` x``) முக்கிய மற்றும் ([0.5, 1.0] வரம்பில்) மற்றும் ஒரு "
+"ஒருங்கிணைந்த அதிவேகமாக பிரிக்கிறது."
+
+msgid ""
+"For ``x`` equals zero the significand and exponent are both zero. For ``x`` "
+"of infinity or NaN, the results are undefined."
+msgstr ""
+"`` X`` க்கு பூச்சியத்திற்கு சமம் மற்றும் அதிவேகமானது மற்றும் அதிவேக இரண்டும் "
+"பூச்சியமாகும். முடிவிலி அல்லது நான் `` x`` க்கு, முடிவுகள் வரையறுக்கப்படவில்லை."

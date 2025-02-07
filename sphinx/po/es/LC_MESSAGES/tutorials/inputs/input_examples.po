@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -283,6 +283,3 @@ msgstr ""
 "Configuración del proyecto y vaya a la sección \"Dispositivos de entrada/"
 "punto\". Habilita \"Emular el toque del ratón\" y tu proyecto interpretará "
 "los clics y el movimiento del ratón como eventos táctiles."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

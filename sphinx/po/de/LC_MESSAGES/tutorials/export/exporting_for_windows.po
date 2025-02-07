@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,22 +47,6 @@ msgstr ""
 
 msgid "Code signing"
 msgstr "Code-Signierung"
-
-msgid ""
-"Godot is capable of automatic code signing on export. To do this you must "
-"have the ``Windows SDK`` (on Windows) or `osslsigncode <https://github.com/"
-"mtrojnar/osslsigncode>`__ (on any other OS) installed. You will also need a "
-"package signing certificate, information on creating one can be found `here "
-"<https://docs.microsoft.com/en-us/windows/win32/appxpkg/how-to-create-a-"
-"package-signing-certificate?redirectedfrom=MSDN>`__."
-msgstr ""
-"Godot ist in der Lage, Code beim Export automatisch zu signieren. Dazu "
-"müssen Sie das ``Windows SDK`` (unter Windows) oder `osslsigncode <https://"
-"github.com/mtrojnar/osslsigncode>`__ (unter jedem anderen Betriebssystem) "
-"installiert haben. Sie benötigen auch ein Paket-Signierungszertifikat. "
-"Informationen zur Erstellung eines solchen Zertifikats finden Sie `hier "
-"<https://docs.microsoft.com/en-us/windows/win32/appxpkg/how-to-create-a-"
-"package-signing-certificate?redirectedfrom=MSDN>`__."
 
 msgid ""
 "If you export for Windows with embedded PCK files, you will not be able to "
@@ -161,6 +145,3 @@ msgstr "Optionen / Codesign / Passwort"
 
 msgid "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
 msgstr "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

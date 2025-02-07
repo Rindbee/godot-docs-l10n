@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -73,22 +73,6 @@ msgid ""
 "Be aware that there are, broadly, two different types of assets you can post."
 msgstr "要知道, 你可以發行的資源大致有兩種不同的型別."
 
-msgid ""
-"Assets labeled as \"Templates\", \"Projects\", or \"Demos\" appear under the "
-"\"Asset Library Projects\" tab in the Godot Project Manager. These assets "
-"are standalone Godot projects that can run by themselves."
-msgstr ""
-"標為 \"範本\" , \"專案\" 或 \"演示\" 的資源出現在Godot專案管理的 \"範本\" 標"
-"籤下. 這些資源是獨立的Godot專案, 可以單獨運作."
-
-msgid ""
-"Other assets show up inside of the Godot editor under the \"AssetLib\" main "
-"screen tab, next to \"2D\", \"3D\", and \"Script\". These assets are meant "
-"to be downloaded and placed into an existing Godot project."
-msgstr ""
-"其他資源顯示在Godot編輯器內部的 \"AssetLib\" 主螢幕標籤下,\"2D\" , \"3D\" 和 "
-"\"Script\" 旁邊. 這些資源可以下載並存入現有的Godot專案中."
-
 msgid "Frequently asked questions"
 msgstr "常見問題"
 
@@ -102,6 +86,3 @@ msgid ""
 msgstr ""
 "不是對官方的，雖然在未來，可能會有其他素材庫允許這樣做。也就是說，你可以在素"
 "材庫以外的地方將 Godot 素材貨幣化並出售。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

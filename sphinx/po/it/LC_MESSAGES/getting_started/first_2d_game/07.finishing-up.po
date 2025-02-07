@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -40,7 +40,7 @@ msgstr ""
 
 msgid "Finally, add ``$DeathSound.play()`` in the ``game_over()`` function."
 msgstr ""
-"Dopodichè , aggiungi ''$DeathSound.play()'' nella funzione ''game_over()''."
+"Dopodiché , aggiungi ''$DeathSound.play()'' nella funzione ''game_over()''."
 
 msgid "Keyboard shortcut"
 msgstr "Scorciatoia da tastiera"
@@ -53,6 +53,3 @@ msgstr ""
 "Poiché il gioco si gioca con i comandi della tastiera, sarebbe conveniente "
 "se potessimo iniziare il gioco anche premendo un tasto sulla tastiera. "
 "Possiamo farlo con la proprietà \"Shortcut\" del nodo ``Button``."
-
-msgid "Translation status"
-msgstr "Stato della traduzione"

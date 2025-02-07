@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -55,6 +55,3 @@ msgid ""
 msgstr ""
 "코드에서는 :ref:`Object.tr() <class_Object_method_tr>` 함수가 사용됩니다. 이"
 "것은 번역안에 있는 text를 찾고 발견되면 그것을 변환합니다:"
-
-msgid "Translation status"
-msgstr "번역 상태"

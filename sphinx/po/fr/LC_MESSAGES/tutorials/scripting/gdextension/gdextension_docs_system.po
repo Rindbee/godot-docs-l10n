@@ -1,0 +1,73 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Tag"
+msgstr "Balise"
+
+msgid "Example"
+msgstr "Exemple"
+
+msgid "**b**"
+msgstr "**b**"
+
+msgid "``[b]{text}[/b]``"
+msgstr "``[b]{texte}[/b]``"
+
+msgid "**i**"
+msgstr "**i**"
+
+msgid "``[i]{text}[/i]``"
+msgstr "``[i]{texte}[/i]``"
+
+msgid "**u**"
+msgstr "**u**"
+
+msgid "``[u]{text}[/u]``"
+msgstr "``[u]{texte}[/u]``"
+
+msgid "**s**"
+msgstr "**s**"
+
+msgid "``[s]{text}[/s]``"
+msgstr "``[s]{texte}[/s]``"
+
+msgid "**code**"
+msgstr "**code**"
+
+msgid "``[code]{text}[/code]``"
+msgstr "``[code]{texte}[/code]``"
+
+msgid "**center**"
+msgstr "**centré**"
+
+msgid "Same as ``[p align=center]``."
+msgstr "Comme ``[p align=center]`` ."
+
+msgid "``[center]{text}[/center]``"
+msgstr "``[center]{texte}[/center]``"
+
+msgid "**url**"
+msgstr "**url**"
+
+msgid ""
+"Supports configuration options, see :ref:"
+"`doc_bbcode_in_richtextlabel_image_options`."
+msgstr ""
+"Supporte les options de configuration, voir :ref:"
+"`doc_bbcode_in_richtextlabel_image_options`."
+
+msgid "``[img]{path}[/img]``"
+msgstr "``[img]{chemin}[/img]``"
+
+msgid "**color**"
+msgstr "**couleur**"

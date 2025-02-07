@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,72 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0107: Types not derived from Node should not export Node members"
+msgstr "GD0107: Типи, не похідні від Node, не повинні експортувати членів Node"
+
+msgid "**Rule ID**"
+msgstr "**Ідентифікатор правила**"
+
+msgid "GD0107"
+msgstr "GD0107"
+
 msgid "**Category**"
 msgstr "**Категорія**"
 
 msgid "Usage"
 msgstr "Використання"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Виправлення ламається або не ламається**"
+
+msgid "Breaking"
+msgstr "ломка"
+
+msgid "**Enabled by default**"
+msgstr "**Увімкнено за замовчуванням**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "причина"
+
+msgid ""
+"A type that doesn't derive from ``Node`` contains an exported field or "
+"property of a type that derives from ``Node``."
+msgstr ""
+"Тип, який не походить від ``Node``, містить експортоване поле або "
+"властивість типу, який походить від ``Node``."
+
+msgid "Rule description"
+msgstr "Опис правила"
+
+msgid ""
+"Exported nodes are serialized as ``NodePath``. Only types derived from "
+"``Node`` are able to get the node instance from the ``NodePath``."
+msgstr ""
+"Експортовані вузли серіалізуються як ``NodePath``. Лише типи, похідні від "
+"``Node``, можуть отримати екземпляр вузла від ``NodePath``."
+
+msgid "How to fix violations"
+msgstr "Як усунути порушення"
+
+msgid ""
+"To fix a violation of this rule, avoid exporting ``Node`` members on a type "
+"that doesn't derive from ``Node``, or consider exporting a ``NodePath``."
+msgstr ""
+"Щоб виправити порушення цього правила, уникайте експорту елементів ``Node`` "
+"для типу, який не є похідним від ``Node``, або розгляньте можливість "
+"експорту ``NodePath``."
+
+msgid "When to suppress warnings"
+msgstr "Коли придушувати попередження"
+
+msgid ""
+"Do not suppress a warning from this rule. Types that don't derive from "
+"``Node`` will be unable to retrieve the right node instance for exported "
+"``Node`` members, resulting in unexpected runtime errors."
+msgstr ""
+"Не приховуйте попередження з цього правила. Типи, які не походять від "
+"``Node``, не зможуть отримати правильний екземпляр вузла для експортованих "
+"елементів ``Node``, що призведе до неочікуваних помилок виконання."

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -528,6 +528,3 @@ msgstr "預設情況下，使用的是 ``console.error()``。"
 
 msgid "A variadic number of arguments to be printed as errors."
 msgstr "將要輸出的可變數量的參數."
-
-msgid "Translation status"
-msgstr "翻譯狀態"

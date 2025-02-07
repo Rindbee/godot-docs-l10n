@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -139,6 +139,3 @@ msgstr ""
 "Das folgende Skript verschiebt einen von Node3D geerbten Node entlang eines "
 "Navigationspfades unter Verwendung der Default-Navigations-Map, indem es die "
 "Zielposition mit ``set_movement_target()`` setzt."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

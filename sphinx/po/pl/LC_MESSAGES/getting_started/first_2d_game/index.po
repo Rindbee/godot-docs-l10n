@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -105,10 +105,7 @@ msgid ""
 msgstr ""
 "`dodge_the_creeps_2d_assets.zip <https://github.com/godotengine/godot-docs-"
 "project-starters/releases/download/latest-4.x/dodge_the_creeps_2d_assets."
-"zip>`_"
+"zip>`_."
 
 msgid "Contents"
 msgstr "Zawartość"
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

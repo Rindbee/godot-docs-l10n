@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -41,6 +41,9 @@ msgstr ""
 "заблокированы Gatekeeper, если они будут загружены из неизвестных "
 "источников, см.:ref:`Запуск Godot приложения на macOS "
 "<doc_running_on_macos>` для получения дополнительной информации."
+
+msgid "Code signing and notarization"
+msgstr "Подписание кода и нотаризация"
 
 msgid ""
 "By default, macOS will run only applications that are signed and notarized. "
@@ -93,8 +96,17 @@ msgstr ""
 msgid "If you do not have an Apple Developer ID Certificate"
 msgstr "Если у вас нет сертификата Apple Developer ID"
 
+msgid "Option"
+msgstr "Вариант"
+
 msgid "Description"
 msgstr "Описание"
+
+msgid "Identity"
+msgstr "Идентификация"
+
+msgid "Notarization Options"
+msgstr "Параметры нотаризации"
 
 msgid "Apple ID Name"
 msgstr "Имя Apple ID"
@@ -114,6 +126,9 @@ msgstr ""
 "macOS перед распространением <https://developer.apple.com/documentation/"
 "security/notarizing_macos_software_before_distribution?language=objc>`__."
 
+msgid "Entitlements"
+msgstr "Права"
+
 msgid "Hardened Runtime Entitlements"
 msgstr "Усиленные права во время выполнения"
 
@@ -126,6 +141,9 @@ msgstr ""
 "политикой доступа к ресурсам. Дополнительную информацию см. в разделе "
 "`Hardened Runtime <https://developer.apple.com/documentation/security/"
 "hardened_runtime?language=objc>`__."
+
+msgid "Entitlement"
+msgstr "Право"
 
 msgid ""
 "Allows creating writable and executable memory without JIT restrictions. If "
@@ -180,6 +198,9 @@ msgstr "Адресная книга"
 msgid "Calendars"
 msgstr "Календари"
 
+msgid "Photo Library"
+msgstr "Библиотека фотографий"
+
 msgid "Apple Events"
 msgstr "Apple события"
 
@@ -226,6 +247,9 @@ msgstr ""
 
 msgid "Enabled"
 msgstr "Включено"
+
+msgid "Enables App Sandbox."
+msgstr "Включить Sandbox приложение."
 
 msgid "Network Server"
 msgstr "Сетевой сервер"
@@ -305,6 +329,3 @@ msgid ""
 msgstr ""
 "Вы можете переопределить права по умолчанию, выбрав собственный файл "
 "разрешений; в этом случае все остальные права игнорируются."
-
-msgid "Translation status"
-msgstr "Статус перевода"

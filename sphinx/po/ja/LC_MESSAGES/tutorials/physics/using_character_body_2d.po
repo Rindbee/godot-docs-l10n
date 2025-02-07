@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -117,6 +117,15 @@ msgstr ""
 "含まれています。 BulletとWallは別々のシーンであるため、インスタンス化できま"
 "す。"
 
+msgid ""
+"The Player is controlled by the ``w`` and ``s`` keys for forward and back. "
+"Aiming uses the mouse pointer. Here is the code for the Player, using "
+"``move_and_slide()``:"
+msgstr ""
+"プレイヤーの前後移動は\\ ``w`` および ``s`` キーで制御します。 照準はマウスポ"
+"インターを使用します。以下が\\ ``move_and_slide()`` を使用する プレイヤーの"
+"コードです:"
+
 msgid "And the code for the Bullet:"
 msgstr "そして、弾丸のコード:"
 
@@ -141,6 +150,3 @@ msgstr "プラットフォームの動き"
 
 msgid "Here's the code for the player body:"
 msgstr "プレイヤーの本体のコードは次のとおりです:"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

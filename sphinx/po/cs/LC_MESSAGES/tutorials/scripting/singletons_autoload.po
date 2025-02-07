@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -178,6 +178,3 @@ msgstr ""
 "zobrazit \"načítací tabulku\", a to tak, že těsně před změnou scény "
 "zobrazíte nějaký 2D prvek. Ten pak můžete skrýt těsně po změně scény. Hráči "
 "tak naznačíte, že se načítá scéna."
-
-msgid "Translation status"
-msgstr "Stav překladu"

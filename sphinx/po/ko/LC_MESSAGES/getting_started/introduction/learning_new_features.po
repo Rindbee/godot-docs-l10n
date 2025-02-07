@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -214,6 +214,3 @@ msgstr ""
 "않습니다. 만약 롤플레잉 게임, 플랫포머 또는 기타 게임을 만드는 방법에 대한 튜"
 "토리얼을 찾고 있다면, :ref:`doc_community_tutorials`를 참조하세요. 해당 페이"
 "지에는 Godot 커뮤니티가 작성한 내용이 나열되어 있습니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,16 @@ msgstr "Швидкодія"
 
 msgid "Introduction"
 msgstr "Вступ"
+
+msgid ""
+"Godot follows a balanced performance philosophy. In the performance world, "
+"there are always tradeoffs, which consist of trading speed for usability and "
+"flexibility. Some practical examples of this are:"
+msgstr ""
+"Godot дотримується збалансованої філософії продуктивності. У світі "
+"продуктивності завжди є компроміси, які складаються з обміну швидкістю "
+"торгівлі на зручність використання та гнучкість. Деякі практичні приклади "
+"цього:"
 
 msgid ""
 "Rendering large amounts of objects efficiently is easy, but when a large "
@@ -96,6 +106,3 @@ msgstr "Просторова графіка"
 
 msgid "Threads"
 msgstr "Потоки"
-
-msgid "Translation status"
-msgstr "Стан перекладу"

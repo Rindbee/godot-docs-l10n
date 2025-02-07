@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -290,6 +290,3 @@ msgstr ""
 "RIDはリソースIDです。 サーバーはこれらを使用して、保存されているデータを参照"
 "します。 RIDは不透明です。つまり、RIDが参照するデータに直接アクセスすることは"
 "できません。 RIDは、さまざまな種類の参照データに対しても一意です。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

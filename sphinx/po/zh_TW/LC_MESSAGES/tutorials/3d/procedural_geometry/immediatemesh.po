@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,6 +24,3 @@ msgstr ""
 "一旦你呼叫了 ``begin()`` , 就可以開始新增頂點了. 每次新增一個頂點, 首先使用 "
 "``set_ **** ()`` 新增頂點的特定屬性, 如法線或UV(例如 ``set_normal()`` ). 然後"
 "呼叫 ``add_vertex()`` 來新增一個帶有這些屬性的頂點. 例如 \"add_vertex()\" :"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

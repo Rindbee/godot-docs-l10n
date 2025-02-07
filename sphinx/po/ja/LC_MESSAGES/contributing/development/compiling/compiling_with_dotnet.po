@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,6 +29,13 @@ msgstr ""
 "のようなメソッドのパラメーターの1つが変更されたときです。 ClassDBとグルーソー"
 "スの間にAPIの不一致がある場合、Godotは起動時にエラーを出力します。"
 
+msgid ""
+"If everything went well, the ``GodotSharp`` directory, containing the "
+"managed libraries, should have been created in the ``bin`` directory."
+msgstr ""
+"すべてが正常に進んだ場合、管理ライブラリを含む ``GodotSharp`` ディレクトリが "
+"``bin`` ディレクトリ内に作成されているはずです。"
+
 msgid "Examples"
 msgstr "例"
 
@@ -46,6 +53,3 @@ msgstr "エクスポートテンプレート"
 
 msgid "Command-line options"
 msgstr "コマンドラインオプション"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

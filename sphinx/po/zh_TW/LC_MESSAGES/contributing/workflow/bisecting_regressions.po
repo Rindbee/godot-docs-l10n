@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -248,6 +248,3 @@ msgid ""
 msgstr ""
 "有關 ``git bisect`` 的完整說明文件可以參考 `此處 <https://git-scm.com/docs/"
 "git-bisect>`__ 。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

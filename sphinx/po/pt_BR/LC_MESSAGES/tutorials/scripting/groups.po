@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -61,6 +61,3 @@ msgstr ""
 "para interagir com cenas, suas hierarquias e grupos de nós. Ela lhe permite "
 "facilmente trocar ou recarregar cenas, sair do jogo ou pausa-lo ou retomá-"
 "lo. Ela também fornece sinais úteis."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

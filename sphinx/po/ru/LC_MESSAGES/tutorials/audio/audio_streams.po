@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -125,6 +125,3 @@ msgstr ""
 "используйте ** Idle ** для объектов, перемещаемых с помощью _process, или ** "
 "Physics ** для объектов, перемещаемых с помощью _physics_process. "
 "Отслеживание будет происходить автоматически."
-
-msgid "Translation status"
-msgstr "Статус перевода"

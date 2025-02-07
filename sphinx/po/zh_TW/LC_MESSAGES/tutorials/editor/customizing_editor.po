@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -291,6 +291,3 @@ msgid ""
 msgstr ""
 "有關大多數編輯器設定的完整說明，請看 :ref:`class_EditorSettings` 類參考。在編"
 "輯器設定中將滑鼠懸停在編輯器設定名稱上，你可以看見其說明。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,28 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "OpenXR body tracking"
+msgstr "OpenXR 身体跟踪"
+
+msgid ""
+"Support for full body tracking in OpenXR is only just becoming available for "
+"a select few platforms. As support solidifies information will be added to "
+"this page."
+msgstr ""
+"OpenXR 全身体追踪支持目前仅对少数平台可用。当支持面更广时，该页面会添加更多信"
+"息。"
+
+msgid "HTC Tracker support"
+msgstr "HTC 追踪器支持"
+
+msgid ""
+"An option that has been available for some time is doing full body tracking "
+"using HTC trackers. These are currently supported through SteamVR and on HTC "
+"Elite XR headsets. They are exposed through the action map system."
+msgstr ""
+"近来，全身体追踪可用的一个选项是使用 HTC 追踪器。目前由 SteamVR 和 HTC Elite "
+"XR 头戴设备支持。通过动作映射系统暴露。"
 
 msgid "HTC trackers"
 msgstr "HTC 追踪器"
@@ -52,6 +74,3 @@ msgstr "/user/vive_tracker_htcx/role/camera"
 
 msgid "/user/vive_tracker_htcx/role/keyboard"
 msgstr "/user/vive_tracker_htcx/role/keyboard"
-
-msgid "Translation status"
-msgstr "翻译状态"

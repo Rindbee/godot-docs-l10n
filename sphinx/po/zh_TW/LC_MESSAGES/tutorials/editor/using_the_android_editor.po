@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,14 +13,6 @@ msgstr ""
 
 msgid "Using the Android editor"
 msgstr "執行編輯器"
-
-msgid ""
-"The Android editor is in beta testing stage, while we continue to refine the "
-"experience, and bring it up to parity with the Desktop version of the "
-"editor. See :ref:`doc_using_the_android_editor_limitations` below."
-msgstr ""
-"Web 編輯器處於初級階段。雖然其功能集可能足以滿足教學目的，但目前**不建議用於"
-"生產工作**。見下文 :ref:`doc_using_the_web_editor_limitations`。"
 
 msgid "Android devices support"
 msgstr "Android 裝置支援"
@@ -88,11 +80,6 @@ msgstr ""
 msgid "No support for building and exporting binaries for other platforms"
 msgstr "不支援其他平臺的二進位建構與匯出"
 
-msgid ""
-"Performance and stability issues when using the *Vulkan Mobile* renderer for "
-"a project"
-msgstr "使用 *Vulkan Mobile* 作為算繪器時的性能與穩定性問題"
-
 msgid "UX not optimized for Android phones form-factor"
 msgstr "UX 未針對 Android 手機的尺寸進行優化"
 
@@ -110,6 +97,3 @@ msgstr ""
 "請瀏覽 `GitHub 上的 HTML5 問題列表 <https://github.com/godotengine/godot/"
 "issues?q=is:open+is:issue+label:platform:html5>`__ 以瞭解您有興趣的功能目前是"
 "否有問題。若列表上沒有，可以開啟 Issue 來與大家交流。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

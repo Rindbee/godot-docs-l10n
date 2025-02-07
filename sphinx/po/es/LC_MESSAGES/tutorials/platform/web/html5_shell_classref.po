@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -282,13 +282,6 @@ msgid "Promise that resolves once the game started."
 msgstr ""
 "Devuelve una promesa de que resolverá una vez que el juego ha arrancado."
 
-msgid ""
-"Create a file at the specified ``path`` with the passed as ``buffer`` in the "
-"instance's file system."
-msgstr ""
-"Crea un archivo en la ruta especificada en ``path`` con el contenido "
-"proporcionado en ``buffer`` en el sistema de archivos de la instancia."
-
 msgid "The location where the file will be created."
 msgstr "La ubicación donde el archivo será creado."
 
@@ -497,10 +490,6 @@ msgstr ""
 msgid "``[]``"
 msgstr "``[]``"
 
-msgid "A callback function for handling Godot's ``OS.execute`` calls."
-msgstr ""
-"Una función de callback para manejar las llamadas de ``OS.execute`` de Godot."
-
 msgid "The path that Godot's wants executed."
 msgstr "La ruta que Godot desea ejecutar."
 
@@ -589,6 +578,3 @@ msgstr "Por defecto, se usa ``console.error()``."
 
 msgid "A variadic number of arguments to be printed as errors."
 msgstr "Un número variable de argumentos para ser impresos como errores."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

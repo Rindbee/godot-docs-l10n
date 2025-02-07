@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,6 +11,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Upgrading from Godot 3 to Godot 4"
+msgstr "Оновлення з Godot 3 до Godot 4"
+
+msgid "Should I upgrade to Godot 4?"
+msgstr "Чи варто оновлюватись до Godot 4?"
+
+msgid ""
+"Before beginning the upgrade process, it's worth thinking about the "
+"advantages and disadvantages that upgrading would bring to your project."
+msgstr ""
+"Перш ніж почати процес оновлення, варто подумати про переваги та недоліки, "
+"які оновлення принесе вашому проекту."
+
+msgid "Advantages of upgrading"
+msgstr "Переваги оновлення"
+
 msgid ""
 "Along with the `new features present in 4.0 <https://github.com/godotengine/"
 "godot/blob/master/CHANGELOG.md>`__, upgrading gives the following advantages:"
@@ -18,35 +34,1571 @@ msgstr ""
 "Поряд з `новими функціями, присутніми в 4.0 <https://github.com/godotengine/"
 "godot/blob/master/CHANGELOG.md>`__, апгрейд дає наступні переваги:"
 
+msgid ""
+"Many bugs are fixed in 4.0, but cannot be resolved in 3.x for various "
+"reasons (such as graphics API differences or backwards compatibility)."
+msgstr ""
+"Багато помилок виправлено у версії 4.0, але їх неможливо усунути в версії 3."
+"x з різних причин (наприклад, відмінності графічного API або зворотна "
+"сумісність)."
+
+msgid ""
+"4.x will enjoy a longer :ref:`support period <doc_release_policy>`. Godot 3."
+"x will continue to be supported for some time after 4.0 is released, but it "
+"will eventually stop receiving support."
+msgstr ""
+"4.x матиме довший :ref:`період підтримки <doc_release_policy>`. Godot 3.x "
+"підтримуватиметься деякий час після виходу версії 4.0, але згодом підтримку "
+"припиниться."
+
+msgid ""
+"See :ref:`doc_docs_changelog` for a list of pages documenting new features "
+"in Godot 4.0."
+msgstr ""
+"Перегляньте :ref:`doc_docs_changelog` список сторінок, що документують нові "
+"функції в Godot 4.0."
+
+msgid "Disadvantages of upgrading"
+msgstr "Недоліки модернізації"
+
+msgid ""
+"If you don't *need* any features present in Godot 4.0, you may want to stay "
+"on Godot 3.x for the following reasons:"
+msgstr ""
+"Якщо вам *не потрібні* жодні функції в Godot 4.0, ви можете залишитися на "
+"Godot 3.x з таких причин:"
+
+msgid ""
+"`Godot 3.x is tried and true, while Godot 4 remains in its early stages. "
+"<https://godotengine.org/article/release-management-4-0-and-beyond>`__"
+msgstr ""
+"«Godot 3.x перевірений і вірний, тоді як Godot 4 залишається на ранніх "
+"стадіях. <https://godotengine.org/article/release-management-4-0-and-"
+"beyond>`__"
+
+msgid ""
+"Godot 4.0 is expected to contain workflow and performance issues that Godot "
+"3.x doesn't have. These issues will be ironed out over time in future Godot "
+"4.x releases."
+msgstr ""
+"Очікується, що Godot 4.0 матиме проблеми з робочим процесом і "
+"продуктивністю, яких немає у Godot 3.x. Ці проблеми з часом будуть усунені в "
+"майбутніх випусках Godot 4.x."
+
+msgid ""
+"Godot 4 has fewer third-party tutorials available compared to Godot 3.x. If "
+"you're new to game engines, you may have a better experience using Godot 3.x "
+"as a result."
+msgstr ""
+"Godot 4 має менше доступних посібників від сторонніх розробників порівняно з "
+"Godot 3.x. Якщо ви новачок у роботі з ігровими движками, можливо, у вас буде "
+"кращий досвід використання Godot 3.x."
+
+msgid ""
+"Godot 4's baseline hardware requirements (such as memory usage) are slightly "
+"higher, both for the editor and exported projects. This was required for the "
+"implementation of some core optimizations."
+msgstr ""
+"Базові вимоги до апаратного забезпечення Godot 4 (наприклад, використання "
+"пам’яті) дещо вищі як для редактора, так і для експортованих проектів. Це "
+"було потрібно для впровадження деяких основних оптимізацій."
+
+msgid ""
+"Since Godot 4 includes more features than Godot 3, Godot 4's binary size for "
+"exported projects is larger. While this can be mitigated by :ref:`optimizing "
+"a build for size <doc_optimizing_for_size>`, a 4.0 build with a given set of "
+"enabled modules will remain larger compared to a 3.x build with the same "
+"modules. This can be an issue for :ref:`exporting to the Web "
+"<doc_exporting_for_web>`, as binary size directly influences how fast the "
+"engine can initialize (regardless of download speed)."
+msgstr ""
+"Оскільки Godot 4 містить більше функцій, ніж Godot 3, двійковий розмір Godot "
+"4 для експортованих проектів більший. Хоча це можна пом’якшити :ref:"
+"`оптимізацією збірки для розміру <doc_optimizing_for_size>`, збірка 4.0 із "
+"заданим набором увімкнених модулів залишатиметься більшою порівняно з "
+"збіркою 3.x із тими самими модулями. Це може бути проблемою для :ref:"
+"`експорту в Інтернет <doc_exporting_for_web>`, оскільки двійковий розмір "
+"безпосередньо впливає на швидкість ініціалізації механізму (незалежно від "
+"швидкості завантаження)."
+
+msgid ""
+"Godot 4 does not and will not have support for GLES2 rendering. (There is "
+"still support for GLES3 rendering using the new OpenGL backend, which means "
+"that devices without Vulkan support can still run Godot 4.)"
+msgstr ""
+"Godot 4 не підтримує і не матиме підтримки візуалізації GLES2. (Досі існує "
+"підтримка візуалізації GLES3 за допомогою нової версії OpenGL, що означає, "
+"що пристрої без підтримки Vulkan можуть працювати з Godot 4.)"
+
+msgid ""
+"If you are targeting **very** old hardware such as Intel Sandy Bridge (2nd "
+"generation) integrated graphics, this will prevent the project from running "
+"on such hardware after upgrading. `Software OpenGL implementations <https://"
+"github.com/pal1000/mesa-dist-win>`__ can be used to bypass this limitation, "
+"but they're too slow for gaming."
+msgstr ""
+"Якщо ви націлюєтеся на **дуже** старе обладнання, наприклад інтегровану "
+"відеокарту Intel Sandy Bridge (2-го покоління), це не дозволить запустити "
+"проект на такому обладнанні після оновлення. `Програмні реалізації OpenGL "
+"<https://github.com/pal1000/mesa-dist-win>`__ можна використовувати для "
+"обходу цього обмеження, але вони надто повільні для ігор."
+
+msgid "Caveats of upgrading"
+msgstr "Застереження щодо модернізації"
+
+msgid ""
+"**Since Godot 4 is a complete rewrite in many aspects, some features have "
+"unfortunately been lost in the process.** Some of these features may be "
+"restored in future Godot releases:"
+msgstr ""
+"**Оскільки Godot 4 є повністю переписаним у багатьох аспектах, деякі "
+"функції, на жаль, було втрачено в процесі.** Деякі з цих функцій можуть бути "
+"відновлені в майбутніх випусках Godot:"
+
+msgid ""
+"Bullet physics was removed in favor of GodotPhysics. This only affects 3D "
+"projects that used the default physics engine (which was Bullet) and didn't "
+"manually change it to GodotPhysics. There are no plans to re-add Bullet "
+"physics in core, but a third-party add-on could be created for it thanks to "
+"GDExtension."
+msgstr ""
+"Фізику куль було видалено на користь GodotPhysics. Це стосується лише 3D-"
+"проектів, які використовували фізичний движок за замовчуванням (яким був "
+"Bullet) і не змінювали його вручну на GodotPhysics. Немає планів повторно "
+"додавати фізику Bullet в ядро, але стороннє доповнення можна створити для "
+"нього завдяки GDExtension."
+
+msgid ""
+"While rendering still happens in HDR in 3D when using the Forward Plus or "
+"Forward Mobile backends, Viewports cannot return HDR data anymore. This is "
+"planned to be restored at some point in the future."
+msgstr ""
+"Хоча візуалізація все ще відбувається в HDR у 3D під час використання "
+"серверних модулів Forward Plus або Forward Mobile, Viewports більше не "
+"можуть повертати дані HDR. Це планується відновити в якийсь момент у "
+"майбутньому."
+
+msgid ""
+"Mono was replaced by .NET 6. This means exporting C# projects to Android, "
+"iOS and HTML5 is no longer supported for now. Exporting C# projects to "
+"desktop platforms is still supported, and as of 4.2 there's experimental "
+"support for exporting to mobile platforms. Support for exporting C# projects "
+"to more platforms will be restored in future 4.x releases as upstream "
+"support improves."
+msgstr ""
+"Mono було замінено на .NET 6. Це означає, що експорт проектів C# до Android, "
+"iOS і HTML5 більше не підтримується. Експорт проектів C# на настільні "
+"платформи все ще підтримується, а з версії 4.2 існує експериментальна "
+"підтримка експорту на мобільні платформи. Підтримку експорту проектів C# на "
+"більше платформ буде відновлено в майбутніх випусках 4.x у міру покращення "
+"підтримки початкової версії."
+
+msgid ""
+"You can find a more complete list of functional regressions by searching for "
+"`issues labeled \"regression\" but not \"bug\" on GitHub <https://github.com/"
+"godotengine/godot/issues?q=is%3Aissue+is%3Aopen+label%3Aregression+-"
+"label%3Abug>`__."
+msgstr ""
+"Ви можете знайти більш повний список функціональних регресій, виконавши "
+"пошук `проблем з позначкою «регресія», але не «помилка» на GitHub <https://"
+"github.com/godotengine/godot/issues?q=is%3Aissue+is%3Aopen "
+"+label%3Aregression+-label%3Abug>`__."
+
+msgid "Preparing before the upgrade (optional)"
+msgstr "Підготовка перед оновленням (необов’язково)"
+
+msgid ""
+"If you want to be ready to upgrade to Godot 4 in the future, consider using :"
+"ref:`class_Tweener` and the :ref:`class_Time` singleton in your project. "
+"These classes are both available in Godot 3.5 and later."
+msgstr ""
+"Якщо ви хочете бути готовими до оновлення до Godot 4 у майбутньому, "
+"подумайте про використання :ref:`class_Tweener` і :ref:`class_Time` "
+"синглтона у вашому проекті. Ці класи доступні в Godot 3.5 і новіших версіях."
+
+msgid ""
+"This way, you won't be relying on the deprecated Tween node and OS time "
+"functions, both of which are removed in Godot 4.0."
+msgstr ""
+"Таким чином, ви не будете покладатися на застарілі функції вузла Tween і "
+"часу ОС, обидві з яких видалено в Godot 4.0."
+
+msgid ""
+"It's also a good idea to rename external shaders so that their extension is "
+"``.gdshader`` instead of ``.shader``. Godot 3.x supports both extensions, "
+"but only ``.gdshader`` is supported in Godot 4.0."
+msgstr ""
+"Також доцільно перейменувати зовнішні шейдери так, щоб їхнє розширення було "
+"``.gdshader`` замість ``.shader``. Godot 3.x підтримує обидва розширення, "
+"але в Godot 4.0 підтримується лише ``.gdshader``."
+
+msgid "Running the project upgrade tool"
+msgstr "Запуск інструменту оновлення проекту"
+
+msgid ""
+"**Make a full backup of your project** before upgrading! The project upgrade "
+"tool will *not* perform any backups of the project that is being upgraded."
+msgstr ""
+"**Зробіть повну резервну копію свого проекту** перед оновленням! Інструмент "
+"оновлення проекту *не* створюватиме резервні копії проекту, який оновлюється."
+
+msgid ""
+"You can backup a project by using version control, or by copying the project "
+"folder to another location."
+msgstr ""
+"Ви можете створити резервну копію проекту за допомогою керування версіями "
+"або скопіювавши папку проекту в інше розташування."
+
+msgid "Using the Project Manager"
+msgstr "Використання менеджера проекту"
+
 msgid "To use the project upgrade tool:"
 msgstr "Використовувати інструмент оновлення проекту:"
 
 msgid "Open the Godot 4 Project Manager."
 msgstr "Відкрийте Менеджер проектів Godot 4."
 
+msgid ""
+"Import the Godot 3.x project using the **Import** button, or use the "
+"**Scan** button to find the project within a folder."
+msgstr ""
+"Імпортуйте проект Godot 3.x за допомогою кнопки **Імпортувати** або "
+"використовуйте кнопку **Сканувати**, щоб знайти проект у папці."
+
+msgid ""
+"Double-click the imported project (or select the project then choose "
+"**Edit**)."
+msgstr ""
+"Двічі клацніть імпортований проект (або виберіть проект і виберіть "
+"**Редагувати**)."
+
+msgid ""
+"You will see a dialog appearing with two options: **Convert project.godot "
+"Only** and **Convert Full Project**. After ensuring your project is backed "
+"up (see the above warning), choose **Convert Full Project**. **Convert "
+"project.godot Only** is intended to be used for advanced use cases *only*, "
+"in case the conversion tool fails."
+msgstr ""
+"Ви побачите діалогове вікно з двома параметрами: **Перетворити тільки "
+"project.godot** і **Перетворити весь проект**. Переконавшись, що для вашого "
+"проекту створено резервну копію (див. попередження вище), виберіть "
+"**Перетворити повний проект**. **Convert project.godot Only** призначено для "
+"використання *лише* для розширених випадків використання, якщо інструмент "
+"перетворення не працює."
+
+msgid ""
+"Wait until the project conversion process finishes. This can take up to a "
+"few minutes for large projects with lots of scenes."
+msgstr ""
+"Дочекайтеся завершення процесу перетворення проекту. Для великих проектів із "
+"великою кількістю сцен це може зайняти до кількох хвилин."
+
+msgid ""
+"When the Project Manager interface becomes available again, double-click the "
+"project (or select the project then choose **Edit**) to open it in the "
+"editor."
+msgstr ""
+"Коли інтерфейс менеджера проектів знову стане доступним, двічі клацніть "
+"проект (або виберіть проект і виберіть **Редагувати**), щоб відкрити його в "
+"редакторі."
+
+msgid ""
+"If you hit conversion issues due to some project files being too large or "
+"long, you can use the command line to upgrade the project (see below). This "
+"will allow you to override the converter's size limits."
+msgstr ""
+"Якщо у вас виникають проблеми з перетворенням через те, що деякі файли "
+"проекту занадто великі або довгі, ви можете скористатися командним рядком "
+"для оновлення проекту (див. нижче). Це дозволить вам перевизначити обмеження "
+"розміру конвертера."
+
+msgid "Using the command line"
+msgstr "Використання командного рядка"
+
+msgid ""
+"To use the project upgrade tool from the :ref:`command line "
+"<doc_command_line_tutorial>`, it's recommended to validate the project "
+"conversion by running the Godot editor binary with the following arguments:"
+msgstr ""
+"Щоб скористатися інструментом оновлення проекту з :ref:`командного рядка "
+"<doc_command_line_tutorial>`, рекомендується перевірити перетворення "
+"проекту, запустивши двійковий файл редактора Godot із такими аргументами:"
+
+msgid ""
+"If the list of planned upgrades looks good to you, run the following command "
+"on the Godot editor binary to upgrade project files:"
+msgstr ""
+"Якщо вам подобається список запланованих оновлень, виконайте таку команду у "
+"двійковому файлі редактора Godot, щоб оновити файли проекту:"
+
+msgid ""
+"``[<max_file_kb>]`` and ``[<max_line_size>]`` are *optional* arguments to "
+"specify the maximum size of files to be converted (in kilobytes and lines). "
+"The default limits are 4 MB and 100,000 lines respectively. If a file hits "
+"either of those limits, it will not be upgraded by the project converter. "
+"This is useful to prevent large resources from slowing down the upgrade to a "
+"crawl."
+msgstr ""
+"``[<max_file_kb>]`` і ``[<max_line_size>]`` є *необов’язковими* аргументами "
+"для визначення максимального розміру файлів, які потрібно конвертувати (у "
+"кілобайтах і рядках). Обмеження за умовчанням становлять 4 МБ і 100 000 "
+"рядків відповідно. Якщо файл досягає будь-якого з цих обмежень, він не буде "
+"оновлено конвертером проекту. Це корисно, щоб запобігти сповільненню "
+"оновлення великих ресурсів до сканування."
+
+msgid ""
+"If you still want large files to be converted by the project upgrade tool, "
+"increase the size limits when running the project upgrade tool. For example, "
+"running the Godot editor binary with those arguments increases both limits "
+"by a 10× factor:"
+msgstr ""
+"Якщо ви все ще бажаєте, щоб інструмент оновлення проекту конвертував великі "
+"файли, збільште обмеження на розмір під час запуску інструмента оновлення "
+"проекту. Наприклад, запуск двійкового редактора Годо з цими аргументами "
+"збільшує обидва обмеження в 10 разів:"
+
+msgid ""
+"Only Godot 3.0 and later projects can be upgraded using the project "
+"conversion tool found in the Godot 4 editor."
+msgstr ""
+"Лише проекти Godot 3.0 і новіших версій можна оновити за допомогою "
+"інструменту перетворення проектів у редакторі Godot 4."
+
+msgid ""
+"It's recommended to ensure that your project is up-to-date with the latest 3."
+"x stable release before running the project upgrade tool."
+msgstr ""
+"Рекомендується переконатися, що ваш проект оновлено до останньої стабільної "
+"версії 3.x, перш ніж запускати інструмент оновлення проекту."
+
+msgid "Fixing the project after running the project upgrade tool"
+msgstr "Виправлення проекту після запуску інструменту оновлення проекту"
+
+msgid ""
+"After upgrading the project, you may notice that certain things don't look "
+"as they should. Scripts will likely contain various errors as well (possibly "
+"hundreds in large projects). This is because the project upgrade tool cannot "
+"cater to all situations. Therefore, a large part of the upgrade process "
+"remains manual."
+msgstr ""
+"Після оновлення проекту ви можете помітити, що деякі речі виглядають не так, "
+"як повинні. Сценарії, ймовірно, також будуть містити різні помилки (можливо, "
+"сотні у великих проектах). Це тому, що інструмент оновлення проекту не може "
+"задовольнити всі ситуації. Тому велика частина процесу оновлення залишається "
+"вручну."
+
+msgid "Automatically renamed nodes and resources"
+msgstr "Автоматичне перейменування вузлів і ресурсів"
+
+msgid ""
+"The list below refers to nodes which were simply renamed for consistency or "
+"clarity in Godot 4.0. The project upgrade tool renames them automatically in "
+"your scripts."
+msgstr ""
+"Список нижче стосується вузлів, які були просто перейменовані для "
+"узгодженості та ясності в Godot 4.0. Інструмент оновлення проекту "
+"автоматично перейменовує їх у ваших сценаріях."
+
+msgid ""
+"One noteworthy set of renames is 3D nodes, which all got a ``3D`` suffix "
+"added for consistency with their 2D counterparts. For example, ``Area`` is "
+"now ``Area3D``."
+msgstr ""
+"Вартий уваги набір перейменувань — це 3D-вузли, до яких додано суфікс ``3D`` "
+"для узгодженості з їх двовимірними аналогами. Наприклад, ``Area`` тепер "
+"``Area3D``."
+
+msgid ""
+"For ease of searching, this table lists all nodes and resources that were "
+"renamed and are automatically converted, excluding the ones which only "
+"involved adding a ``3D`` suffix to the old name:"
+msgstr ""
+"Для зручності пошуку в цій таблиці перераховано всі вузли та ресурси, які "
+"було перейменовано та автоматично перетворено, за винятком тих, які "
+"передбачали лише додавання суфікса ``3D`` до старої назви:"
+
+msgid "Old name (Godot 3.x)"
+msgstr "Стара назва (Godot 3.x)"
+
+msgid "New name (Godot 4)"
+msgstr "Нова назва (Годо 4)"
+
+msgid "AnimatedSprite"
+msgstr "Анімований спрайт"
+
+msgid "AnimatedSprite2D"
+msgstr "Анімований Sprite2D"
+
+msgid "ARVRCamera"
+msgstr "Камера AR VR"
+
+msgid "XRCamera3D"
+msgstr "XRCamera3D"
+
+msgid "ARVRController"
+msgstr "ARVRController"
+
+msgid "XRController3D"
+msgstr "XRController3D"
+
+msgid "ARVRAnchor"
+msgstr "ARVRAnchor"
+
+msgid "XRAnchor3D"
+msgstr "XRAnchor3D"
+
+msgid "ARVRInterface"
+msgstr "Інтерфейс ARVR"
+
+msgid "XRInterface"
+msgstr "XRInterface"
+
+msgid "ARVROrigin"
+msgstr "ARVROпоходження"
+
+msgid "XROrigin3D"
+msgstr "XROrigin3D"
+
+msgid "ARVRPositionalTracker"
+msgstr "ARVRPositionalTracker"
+
+msgid "XRPositionalTracker"
+msgstr "XRPositionalTracker"
+
+msgid "ARVRServer"
+msgstr "ARVRServer"
+
+msgid "XRServer"
+msgstr "XRServer"
+
+msgid "CubeMesh"
+msgstr "CubeMesh"
+
+msgid "BoxMesh"
+msgstr "BoxMesh"
+
+msgid "EditorSpatialGizmo"
+msgstr "Редактор SpatialGizmo"
+
+msgid "EditorNode3DGizmo"
+msgstr "Редактор Node3D Gizmo"
+
+msgid "EditorSpatialGizmoPlugin"
+msgstr "Редактор Spatial Gizmo Плагін"
+
+msgid "EditorNode3DGizmoPlugin"
+msgstr "Плагін редактора Node3D Gizmo"
+
+msgid "GIProbe"
+msgstr "GI зонд"
+
+msgid "VoxelGI"
+msgstr "Воксель Г.І"
+
+msgid "GIProbeData"
+msgstr "Дані зонду GI"
+
+msgid "VoxelGIData"
+msgstr "Воксельні дані GID"
+
+msgid "GradientTexture"
+msgstr "Градієнтна текстура"
+
+msgid "GradientTexture1D"
+msgstr "Градієнтна текстура"
+
 msgid "KinematicBody"
 msgstr "Кінематичне тіло"
+
+msgid "CharacterBody3D"
+msgstr "Тіло персонажа 3D"
+
+msgid "KinematicBody2D"
+msgstr "Кінематичне тіло 2D"
+
+msgid "CharacterBody2D"
+msgstr "Тіло персонажа 2D"
+
+msgid "Light2D"
+msgstr "Світло 2D"
+
+msgid "PointLight2D"
+msgstr "Точкове світло 2D"
+
+msgid "LineShape2D"
+msgstr "Форма лінії 2D"
+
+msgid "WorldBoundaryShape2D"
+msgstr "Світова межа 2D"
+
+msgid "Listener"
+msgstr "Слухач"
+
+msgid "AudioListener3D"
+msgstr "AudioListener 3D"
 
 msgid "NavigationMeshInstance"
 msgstr "Екземпляр навігаційної сітки"
 
+msgid "NavigationRegion3D"
+msgstr "Область навігації 3D"
+
+msgid "NavigationPolygonInstance"
+msgstr "Екземпляр багатокутника навігації"
+
+msgid "NavigationRegion2D"
+msgstr "Область навігації 2D"
+
+msgid "Navigation2DServer"
+msgstr "Сервер Navigation2D"
+
+msgid "NavigationServer2D"
+msgstr "Навігаційний сервер 2D"
+
+msgid "PanoramaSky"
+msgstr "Панорама неба"
+
+msgid "Sky"
+msgstr "небо"
+
 msgid "Particles"
 msgstr "Частинки"
+
+msgid "GPUParticles3D"
+msgstr "GPU Particles 3D"
+
+msgid "Particles2D"
+msgstr "Частинки 2D"
+
+msgid "GPUParticles2D"
+msgstr "GPU Particles 2D"
 
 msgid "ParticlesMaterial"
 msgstr "ParticlesMaterial (Матеріал Частинок)"
 
+msgid "ParticleProcessMaterial"
+msgstr "Матеріал обробки частинок"
+
+msgid "Physics2DDirectBodyState"
+msgstr "Physics2D DirectBodyState"
+
+msgid "PhysicsDirectBodyState2D"
+msgstr "Physics Direct BodyState2D"
+
+msgid "Physics2DDirectSpaceState"
+msgstr "Physics2D DirectSpaceState"
+
+msgid "PhysicsDirectSpaceState2D"
+msgstr "Фізика DirectSpaceState2D"
+
+msgid "Physics2DServer"
+msgstr "Сервер Physics2D"
+
+msgid "PhysicsServer2D"
+msgstr "Фізичний сервер 2"
+
+msgid "Physics2DShapeQueryParameters"
+msgstr "Параметри запиту Physics2D Shape"
+
+msgid "PhysicsShapeQueryParameters2D"
+msgstr "PhysicsShapeQueryParameters2D"
+
+msgid "Physics2DTestMotionResult"
+msgstr "Physics2D TestMotion Результат"
+
+msgid "PhysicsTestMotionResult2D"
+msgstr "Тест з фізики Рух Результат 2D"
+
+msgid "PlaneShape"
+msgstr "Форма площини"
+
+msgid "WorldBoundaryShape3D"
+msgstr "Світова межа фігури 3D"
+
+msgid "Position2D"
+msgstr "Позиція2D"
+
+msgid "Marker2D"
+msgstr "Marker2D"
+
+msgid "Position3D"
+msgstr "Позиція 3D"
+
+msgid "Marker3D"
+msgstr "Marker3D"
+
 msgid "ProceduralSky"
 msgstr "ProceduralSky"
+
+msgid "RayShape"
+msgstr "RayShape"
+
+msgid "SeparationRayShape3D"
+msgstr "Розділення RayShape 3D"
+
+msgid "RayShape2D"
+msgstr "RayShape2D"
+
+msgid "SeparationRayShape2D"
+msgstr "Розділення ReShape 2D"
+
+msgid "ShortCut"
+msgstr "Ярлик"
+
+msgid "Shortcut"
+msgstr "Ярлик"
+
+msgid "Spatial"
+msgstr "Просторова"
+
+msgid "Node3D"
+msgstr "Node3D"
+
+msgid "SpatialGizmo"
+msgstr "Просторова гізмо"
+
+msgid "Node3DGizmo"
+msgstr "Node3D Gizmo"
+
+msgid "SpatialMaterial"
+msgstr "SpatialMaterial"
+
+msgid "StandardMaterial3D"
+msgstr "StandardMaterial3D"
+
+msgid "Sprite"
+msgstr "Спрайт"
+
+msgid "Sprite2D"
+msgstr "Sprite2D"
+
+msgid "StreamTexture"
+msgstr "StreamTexture"
+
+msgid "CompressedTexture2D"
+msgstr "CompressedTexture2D"
+
+msgid "TextureProgress"
+msgstr "TextureProgress"
+
+msgid "TextureProgressBar"
+msgstr "TextureProgressBar"
+
+msgid "VideoPlayer"
+msgstr "Відеопрогравач"
+
+msgid "VideoStreamPlayer"
+msgstr "VideoStreamPlayer"
+
+msgid "ViewportContainer"
+msgstr "Контейнер Viewport"
+
+msgid "SubViewportContainer"
+msgstr "SubViewportContainer"
+
+msgid "Viewport"
+msgstr "Видове вікно"
+
+msgid "SubViewport"
+msgstr "SubViewport"
+
+msgid "VisibilityEnabler"
+msgstr "VisibilityEnabler"
+
+msgid "VisibleOnScreenEnabler3D"
+msgstr "VisibleOnScreenEnabler3D"
+
+msgid "VisibilityNotifier"
+msgstr "VisibilityNotifier"
+
+msgid "VisibleOnScreenNotifier3D"
+msgstr "Видимий на екрані Notifier 3D"
+
+msgid "VisibilityNotifier2D"
+msgstr "VisibilityNotifier2D"
+
+msgid "VisibleOnScreenNotifier2D"
+msgstr "Видимий на екрані Notifier 2D"
+
+msgid "VisibilityNotifier3D"
+msgstr "Видимість Notifier 3D"
+
+msgid "VisualServer"
+msgstr "VisualServer"
+
+msgid "RenderingServer"
+msgstr "RenderingServer"
+
+msgid "VisualShaderNodeScalarConstant"
+msgstr "VisualShaderNodeScalarConstant"
+
+msgid "VisualShaderNodeFloatConstant"
+msgstr "Плаваюча константа вузла візуального шейдера"
+
+msgid "VisualShaderNodeScalarFunc"
+msgstr "VisualShaderNodeScalarFunc"
+
+msgid "VisualShaderNodeFloatFunc"
+msgstr "Visual Shader Node Float Func"
+
+msgid "VisualShaderNodeScalarOp"
+msgstr "VisualShaderNodeScalarOp"
+
+msgid "VisualShaderNodeFloatOp"
+msgstr "VisualShaderNodeFloatOp"
+
+msgid "VisualShaderNodeScalarClamp"
+msgstr "VisualShaderNodeScalarClamp"
+
+msgid "VisualShaderNodeClamp"
+msgstr "VisualShaderNodeClamp"
+
+msgid "VisualShaderNodeVectorClamp"
+msgstr "Візуальний шейдерний вузол векторного затиску"
+
+msgid "VisualShaderNodeScalarInterp"
+msgstr "VisualShaderNodeScalarInterp"
+
+msgid "VisualShaderNodeMix"
+msgstr "VisualShaderNodeMix"
+
+msgid "VisualShaderNodeVectorInterp"
+msgstr "VisualShaderNodeVectorInterp"
+
+msgid "VisualShaderNodeVectorScalarMix"
+msgstr "VisualShaderNodeVectorScalarMix"
+
+msgid "VisualShaderNodeScalarSmoothStep"
+msgstr "Вузол візуального шейдера Scalar SmoothStep"
+
+msgid "VisualShaderNodeSmoothStep"
+msgstr "Вузол візуального шейдера SmoothStep"
+
+msgid "VisualShaderNodeVectorSmoothStep"
+msgstr "Visual Shader Node Vector SmoothStep"
+
+msgid "VisualShaderNodeVectorScalarSmoothStep"
+msgstr "Візуальний шейдер Node Vector Scalar SmoothStep"
+
+msgid "VisualShaderNodeVectorScalarStep"
+msgstr "VisualShaderNodeVectorScalarStep"
+
+msgid "VisualShaderNodeStep"
+msgstr "VisualShaderNodeStep"
+
+msgid "VisualShaderNodeScalarSwitch"
+msgstr "VisualShaderNodeScalarSwitch"
+
+msgid "VisualShaderNodeSwitch"
+msgstr "Visual Shader Node Switch"
+
+msgid "VisualShaderNodeScalarTransformMult"
+msgstr "VisualShaderNodeScalarTransformMult"
+
+msgid "VisualShaderNodeTransformOp"
+msgstr "VisualShaderNodeTransformOp"
+
+msgid "VisualShaderNodeScalarDerivativeFunc"
+msgstr "VisualShaderNodeScalarDerivativeFunc"
+
+msgid "VisualShaderNodeDerivativeFunc"
+msgstr "Похідна функція Visual Shader Node"
+
+msgid "VisualShaderNodeVectorDerivativeFunc"
+msgstr "Векторна похідна функція вузла візуального шейдера"
+
+msgid "VisualShaderNodeBooleanUniform"
+msgstr "Візуальний шейдерний вузол Boolean Uniform"
+
+msgid "VisualShaderNodeBooleanParameter"
+msgstr "Логічний параметр Visual Shader Node"
+
+msgid "VisualShaderNodeColorUniform"
+msgstr "Уніфікований колір вузла візуального шейдера"
+
+msgid "VisualShaderNodeColorParameter"
+msgstr "Параметр кольору вузла візуального шейдера"
+
+msgid "VisualShaderNodeScalarUniform"
+msgstr "VisualShaderNodeScalarUniform"
+
+msgid "VisualShaderNodeFloatParameter"
+msgstr "VisualShaderNodeFloatParameter"
+
+msgid "VisualShaderNodeCubeMapUniform"
+msgstr "VisualShaderNodeCubeMapUniform"
+
+msgid "VisualShaderNodeCubeMapParameter"
+msgstr "VisualShaderNodeCubeMapParameter"
+
+msgid "VisualShaderNodeTextureUniform"
+msgstr "VisualShaderNodeTextureUniform"
+
+msgid "VisualShaderNodeTexture2DParameter"
+msgstr "VisualShaderNodeTexture2DParameter"
+
+msgid "VisualShaderNodeTextureUniformTriplanar"
+msgstr "VisualShaderNodeTextureUniformTriplanar"
+
+msgid "VisualShaderNodeTextureParameterTriplanar"
+msgstr "VisualShaderNodeTextureParameterTriplanar"
+
+msgid "VisualShaderNodeTransformUniform"
+msgstr "VisualShaderNodeTransformUniform"
+
+msgid "VisualShaderNodeTransformParameter"
+msgstr "VisualShaderNodeTransformParameter"
+
+msgid "VisualShaderNodeVec3Uniform"
+msgstr "VisualShaderNodeVec3Uniform"
+
+msgid "VisualShaderNodeVec3Parameter"
+msgstr "VisualShaderNodeVec3Parameter"
+
+msgid "VisualShaderNodeUniform"
+msgstr "VisualShaderNodeUniform"
+
+msgid "VisualShaderNodeParameter"
+msgstr "VisualShaderNodeParameter"
+
+msgid "VisualShaderNodeUniformRef"
+msgstr "VisualShaderNodeUniformRef"
+
+msgid "VisualShaderNodeParameterRef"
+msgstr "VisualShaderNodeParameterRef"
 
 msgid "Manually renaming methods, properties, signals and constants"
 msgstr "Перейменування методів, властивостей, сигналів та констант вручну"
 
+msgid ""
+"Due to how the project upgrade tool works, not all :abbr:`API (Application "
+"Programming Interface)` renames can be performed automatically. The list "
+"below contains all renames that must be performed manually using the script "
+"editor."
+msgstr ""
+"Через те, як працює інструмент оновлення проекту, не всі перейменування :"
+"abbr:`API (Application Programming Interface)` можна виконати автоматично. "
+"Список нижче містить усі перейменування, які потрібно виконати вручну за "
+"допомогою редактора сценаріїв."
+
+msgid ""
+"If you cannot find a node or resource in the list below, refer to the above "
+"table to find its new name."
+msgstr ""
+"Якщо ви не можете знайти вузол або ресурс у списку нижче, зверніться до "
+"таблиці вище, щоб знайти його нову назву."
+
+msgid ""
+"You can use the **Replace in Files** dialog to speed up replacement by "
+"pressing :kbd:`Ctrl + Shift + R` while the script editor is open. However, "
+"be careful as the Replace in Files dialog doesn't offer any way to undo a "
+"replacement. Use version control to commit your upgrade work regularly. "
+"Command line tools such as `sd <https://github.com/chmln/sd>`__ can also be "
+"used if you need something more flexible than the editor's Replace in Files "
+"dialog."
+msgstr ""
+"Ви можете скористатися діалоговим вікном **Замінити у файлах**, щоб "
+"пришвидшити заміну, натиснувши :kbd:`Ctrl + Shift + R`, коли відкрито "
+"редактор сценаріїв. Однак будьте обережні, оскільки діалогове вікно "
+"«Замінити у файлах» не пропонує жодного способу скасувати заміну. "
+"Використовуйте контроль версій, щоб регулярно виконувати роботу з оновлення. "
+"Інструменти командного рядка, такі як `sd <https://github.com/chmln/sd>`__, "
+"також можна використовувати, якщо вам потрібно щось гнучкіше, ніж діалогове "
+"вікно редактора «Замінити у файлах»."
+
+msgid ""
+"If using C#, remember to search for outdated API usage with PascalCase "
+"notation in the project (and perform the replacement with PascalCase "
+"notation)."
+msgstr ""
+"Якщо ви використовуєте C#, не забувайте шукати застаріле використання API з "
+"нотацією PascalCase у проекті (і виконати заміну на нотацію PascalCase)."
+
+msgid "**Methods**"
+msgstr "**Методи**"
+
+msgid ""
+"File and Directory classes were replaced by :ref:`class_FileAccess` and :ref:"
+"`class_DirAccess`, which have an entirely different API. Several methods are "
+"now static, which means you can call them directly on FileAccess or "
+"DirAccess without having to create an instance of that class."
+msgstr ""
+"Класи File та Directory були замінені на :ref:`class_FileAccess` і :ref:"
+"`class_DirAccess`, які мають зовсім інший API. Кілька методів тепер "
+"статичні, що означає, що ви можете викликати їх безпосередньо у FileAccess "
+"або DirAccess без необхідності створювати екземпляр цього класу."
+
+msgid ""
+"Screen and window-related methods from the :ref:`class_OS` singleton (such "
+"as ``OS.get_screen_size()``) were moved to the :ref:`class_DisplayServer` "
+"singleton. Method naming was also changed to use the ``DisplayServer."
+"<object>_<get/set>_property()`` form instead. For example, ``OS."
+"get_screen_size()`` becomes ``DisplayServer.screen_get_size()``."
+msgstr ""
+"Методи, пов’язані з екраном і вікном, із синглтона :ref:`class_OS` (такі як "
+"``OS.get_screen_size()``) були переміщені до сінглона :ref:"
+"`class_DisplayServer`. Іменування методів також було змінено для "
+"використання форми ``DisplayServer.<object>_<get/set>_property()``. "
+"Наприклад, ``OS.get_screen_size()`` стає ``DisplayServer.screen_get_size()``."
+
+msgid ""
+"Time and date methods from the :ref:`class_OS` singleton were moved to the :"
+"ref:`class_Time` singleton. (The Time singleton is also available in Godot "
+"3.5 and later.)"
+msgstr ""
+"Методи часу та дати з синглтона :ref:`class_OS` було переміщено до сінглона :"
+"ref:`class_Time`. (Синглтон часу також доступний у Godot 3.5 і пізніших "
+"версіях.)"
+
+msgid ""
+"You may have to replace some ``instance()`` calls with ``instantiate()``. "
+"The converter *should* handle this automatically, but this relies on custom "
+"code that may not work in 100% of situations."
+msgstr ""
+"Можливо, вам доведеться замінити деякі виклики ``instance()`` на "
+"``instantiate()``. Конвертер *має* обробляти це автоматично, але це залежить "
+"від спеціального коду, який може не працювати в 100% ситуацій."
+
+msgid "AcceptDialog's ``set_autowrap()`` is now ``set_autowrap_mode()``."
+msgstr "``set_autowrap()`` AcceptDialog тепер ``set_autowrap_mode()``."
+
+msgid ""
+"AnimationNode's ``process()`` is now ``_process()`` (note the leading "
+"underscore, which denotes a virtual method)."
+msgstr ""
+"``process()`` AnimationNode тепер ``_process()`` (зверніть увагу на початок "
+"підкреслення, яке позначає віртуальний метод)."
+
+msgid "AStar2D and AStar3D's ``get_points()`` is now ``get_points_id()``."
+msgstr "``get_points()`` AStar2D і AStar3D тепер ``get_points_id()``."
+
+msgid "BaseButton's ``set_event()`` is now ``set_shortcut()``."
+msgstr "``set_event()`` BaseButton тепер ``set_shortcut()``."
+
+msgid "Camera2D's ``get_v_offset()`` is now ``get_drag_vertical_offset()``."
+msgstr "``get_v_offset()`` Camera2D тепер ``get_drag_vertical_offset()``."
+
+msgid "Camera2D's ``set_v_offset()`` is now ``set_drag_vertical_offset()``."
+msgstr "``set_v_offset()`` Camera2D тепер ``set_drag_vertical_offset()``."
+
+msgid "CanvasItem's ``update()`` is now ``queue_redraw()``."
+msgstr "``update()`` CanvasItem тепер ``queue_redraw()``."
+
+msgid "Control's ``set_tooltip()`` is now ``set_tooltip_text()``."
+msgstr "``set_tooltip()`` елемента керування тепер ``set_tooltip_text()``."
+
+msgid ""
+"EditorNode3DGizmoPlugin's ``create_gizmo()`` is now ``_create_gizmo()`` "
+"(note the leading underscore, which denotes a virtual method)."
+msgstr ""
+"``create_gizmo()`` EditorNode3DGizmoPlugin тепер ``_create_gizmo()`` "
+"(зверніть увагу на початок підкреслення, яке позначає віртуальний метод)."
+
+msgid "ENetMultiplayerPeer's ``get_peer_port()`` is now ``get_peer()``."
+msgstr "``get_peer_port()`` ENetMultiplayerPeer тепер ``get_peer()``."
+
+msgid "FileDialog's ``get_mode()`` is now ``get_file_mode()``."
+msgstr "``get_mode()`` FileDialog тепер ``get_file_mode()``."
+
+msgid "FileDialog's ``set_mode()`` is now ``set_file_mode()``."
+msgstr "``set_mode()`` FileDialog тепер ``set_file_mode()``."
+
+msgid "GraphNode's ``get_offset()`` is now ``get_position_offset()``."
+msgstr "``get_offset()`` GraphNode тепер ``get_position_offset()``."
+
+msgid "GridMap's ``world_to_map()`` is now ``local_to_map()``."
+msgstr "``world_to_map()`` GridMap тепер ``local_to_map()``."
+
+msgid "GridMap's ``map_to_world()`` is now ``map_to_local()``."
+msgstr "``map_to_world()`` GridMap тепер ``map_to_local()``."
+
+msgid "Image's ``get_rect()`` is now ``get_region()``."
+msgstr "``get_rect()`` зображення тепер ``get_region()``."
+
+msgid "ItemList's ``get_v_scroll()`` is now ``get_v_scroll_bar()``."
+msgstr "``get_v_scroll()`` ItemList тепер ``get_v_scroll_bar()``."
+
+msgid ""
+"MultiPlayerAPI's ``get_network_connected_peers()`` is now ``get_peers()``."
+msgstr ""
+"``get_network_connected_peers()`` MultiPlayerAPI тепер ``get_peers()``."
+
+msgid "MultiPlayerAPI's ``get_network_peer()`` is now ``get_peer()``."
+msgstr "``get_network_peer()`` MultiPlayerAPI тепер ``get_peer()``."
+
+msgid ""
+"MultiPlayerAPI's ``get_network_unique_id()`` is now ``get_unique_id()``."
+msgstr "``get_network_unique_id()`` MultiPlayerAPI тепер ``get_unique_id()``."
+
+msgid ""
+"MultiPlayerAPI's ``has_network_peer()`` is now ``has_multiplayer_peer()``."
+msgstr ""
+"``has_network_peer()`` MultiPlayerAPI тепер ``has_multiplayer_peer()``."
+
+msgid "PacketPeerUDP's ``is_listening()`` is now ``is_bound()``."
+msgstr "``is_listening()`` PacketPeerUDP тепер ``is_bound()``."
+
+msgid "PacketPeerUDP's ``listen()`` is now ``bind()``."
+msgstr "``listen()`` PacketPeerUDP тепер ``bind()``."
+
+msgid ""
+"ParticleProcessMaterial's ``set_flag()`` is now ``set_particle_flag()``."
+msgstr ""
+"``set_flag()`` у ParticleProcessMaterial тепер ``set_particle_flag()``."
+
+msgid ""
+"ResourceFormatLoader's ``get_dependencies()`` is now ``_get_dependencies()`` "
+"(note the leading underscore, which denotes a virtual method)."
+msgstr ""
+"``get_dependencies()`` ResourceFormatLoader тепер ``_get_dependencies()`` "
+"(зверніть увагу на початок підкреслення, яке позначає віртуальний метод)."
+
+msgid "SceneTree's ``change_scene()`` is now ``change_scene_to_file()``."
+msgstr "``change_scene()`` SceneTree тепер ``change_scene_to_file()``."
+
+msgid "Shortcut's ``is_valid()`` is now ``has_valid_event()``."
+msgstr "Ярлик ``is_valid()`` тепер ``has_valid_event()``."
+
+msgid "TileMap's ``world_to_map()`` is now ``local_to_map()``."
+msgstr "``world_to_map()`` TileMap тепер ``local_to_map()``."
+
+msgid "TileMap's ``map_to_world()`` is now ``map_to_local()``."
+msgstr "``map_to_world()`` TileMap тепер ``map_to_local()``."
+
+msgid ""
+"Transform2D's ``xform()`` is ``mat * vec`` and ``xform_inv()`` is ``vec * "
+"mat``."
+msgstr ""
+"``xform()`` Transform2D має значення ``mat * vec``, а ``xform_inv()`` є "
+"``vec * mat``."
+
+msgid "**Properties**"
+msgstr "**Властивості**"
+
+msgid ""
+"If a property is listed here, its associated getter and setter methods must "
+"also be renamed manually if used in the project. For example, PathFollow2D "
+"and PathFollow3D's ``set_offset()`` and ``get_offset()`` must be renamed to "
+"``set_progress()`` and ``get_progress()`` respectively."
+msgstr ""
+"Якщо тут зазначено властивість, пов’язані з нею методи отримання та "
+"встановлення також потрібно перейменувати вручну, якщо вони використовуються "
+"в проекті. Наприклад, ``set_offset()`` і ``get_offset()`` PathFollow2D і "
+"PathFollow3D повинні бути перейменовані на ``set_progress()`` і "
+"``get_progress()`` відповідно."
+
+msgid "Control's ``margin`` is now ``offset``."
+msgstr "``Поле`` елемента керування тепер ``зсув``."
+
+msgid "Label's ``percent_visible`` is now ``visible_ratio``."
+msgstr "``percent_visible`` мітки тепер ``visible_ratio``."
+
+msgid ""
+"MultiPlayerAPI's ``refuse_new_network_connections`` is now "
+"``refuse_new_connections``."
+msgstr ""
+"``refuse_new_network_connections`` MultiPlayerAPI тепер "
+"``refuse_new_connections``."
+
+msgid "PathFollow2D and PathFollow3D's ``offset`` is now ``progress``."
+msgstr "``Зсув`` PathFollow2D і PathFollow3D тепер ``прогрес``."
+
+msgid "TextureProgressBar's ``percent_visible`` is now ``show_percentage``."
+msgstr "``percent_visible`` TextureProgressBar тепер ``show_percentage``."
+
+msgid ""
+"The ``extents`` property on CSG nodes and VoxelGI will have to be replaced "
+"with ``size``, with the set value halved (as they're no longer half-"
+"extents). This also affects its setter/getter methods ``set_extents()`` and "
+"``get_extents()``."
+msgstr ""
+"Властивість ``extents`` на вузлах CSG і VoxelGI потрібно буде замінити на "
+"``size``, при цьому задане значення буде зменшено вдвічі (оскільки вони "
+"більше не є напівекстентами). Це також впливає на його методи установки/"
+"отримання ``set_extents()`` і ``get_extents()``."
+
+msgid ""
+"The ``Engine.editor_hint`` property was removed in favor of the ``Engine."
+"is_editor_hint()`` *method*. This is because it's read-only, and properties "
+"in Godot are not used for read-only values."
+msgstr ""
+"Властивість ``Engine.editor_hint`` було видалено на користь ``Engine."
+"is_editor_hint()`` *методу*. Це тому, що він доступний лише для читання, а "
+"властивості в Godot не використовуються для значень лише для читання."
+
+msgid "**Enums**"
+msgstr "**Юним**"
+
+msgid "CPUParticles2D's ``FLAG_MAX`` is now ``PARTICLE_FLAG_MAX``."
+msgstr "``FLAG_MAX`` CPUParticles2D тепер ``PARTICLE_FLAG_MAX``."
+
+msgid "**Signals**"
+msgstr "**Сигнали**"
+
+msgid "FileSystemDock's ``instantiate`` is now ``instance``."
+msgstr "``Екземпляр`` FileSystemDock тепер є ``примірником``."
+
+msgid ""
+"CanvasItem's ``hide`` is now ``hidden``. This rename does **not** apply to "
+"the ``hide()`` method, only the signal."
+msgstr ""
+"``Hide`` CanvasItem тепер ``схований``. Це перейменування **не** стосується "
+"методу ``hide()``, а лише сигналу."
+
+msgid "Tween's ``tween_all_completed`` is now ``loop_finished``."
+msgstr "Tween ``tween_all_completed`` тепер ``loop_finished``."
+
+msgid "EditorSettings' ``changed`` is now ``settings_changed``."
+msgstr "EditorSettings ``changed`` тепер ``settings_changed``."
+
+msgid "**Constants**"
+msgstr "**Константи**"
+
+msgid ""
+"Color names are now uppercase and use underscores between words. For "
+"example, ``Color.palegreen`` is now ``Color.PALE_GREEN``."
+msgstr ""
+"Назви кольорів тепер пишуться великими літерами, а між словами "
+"використовуються підкреслення. Наприклад, ``Color.palegreen`` тепер ``Color."
+"PALE_GREEN``."
+
+msgid ""
+"MainLoop's ``NOTIFICATION_`` constants were duplicated to ``Node`` which "
+"means you can remove the ``MainLoop.`` prefix when referencing them."
+msgstr ""
+"Константи MainLoop ``NOTIFICATION_`` були продубльовані до ``Node``, що "
+"означає, що ви можете видалити префікс ``MainLoop.`` під час посилання на "
+"них."
+
+msgid ""
+"MainLoop's ``NOTIFICATION_WM_QUIT_REQUEST`` is now "
+"``NOTIFICATION_WM_CLOSE_REQUEST``."
+msgstr ""
+"``NOTIFICATION_WM_QUIT_REQUEST`` MainLoop тепер "
+"``NOTIFICATION_WM_CLOSE_REQUEST``."
+
+msgid "Checking project settings"
+msgstr "Перевірка налаштувань проекту"
+
+msgid ""
+"Several project settings were renamed, and some of them had their enums "
+"changed in incompatible ways (such as shadow filter quality). This means you "
+"may need to set some project settings' values again. Make sure the "
+"**Advanced** toggle is enabled in the project settings dialog so you can see "
+"all project settings."
+msgstr ""
+"Кілька налаштувань проекту було перейменовано, а переліки деяких із них "
+"змінено несумісними способами (наприклад, якість тіньового фільтра). Це "
+"означає, що вам може знадобитися знову встановити деякі параметри проекту. "
+"Переконайтеся, що перемикач **Додатково** увімкнено в діалоговому вікні "
+"налаштувань проекту, щоб ви могли бачити всі налаштування проекту."
+
+msgid "Checking Environment settings"
+msgstr "Перевірка параметрів середовища"
+
+msgid ""
+"Graphics quality settings were moved from Environment properties to project "
+"settings. This was done to make run-time quality adjustments easier, without "
+"having to access the currently active Environment resource then modify its "
+"properties."
+msgstr ""
+"Параметри якості графіки перенесено з властивостей середовища до параметрів "
+"проекту. Це було зроблено, щоб полегшити коригування якості під час "
+"виконання, без необхідності доступу до активного ресурсу середовища та зміни "
+"його властивостей."
+
+msgid ""
+"As a result, you will have to configure Environment quality settings in the "
+"project settings as old Environment quality settings aren't converted "
+"automatically to project settings."
+msgstr ""
+"У результаті вам доведеться налаштувати параметри якості середовища в "
+"параметрах проекту, оскільки старі параметри якості середовища не "
+"перетворюються автоматично на параметри проекту."
+
+msgid ""
+"If you have a graphics settings menu that changed environment properties in "
+"Godot 3.x, you will have to change its code to call :ref:"
+"`class_RenderingServer` methods that affect environment effects' quality. "
+"Only the \"base\" toggle of each environment effect and its visual knobs "
+"remain within the Environment resource."
+msgstr ""
+"Якщо у вас є меню налаштувань графіки, яке змінило властивості середовища в "
+"Godot 3.x, вам доведеться змінити його код для виклику методів :ref:"
+"`class_RenderingServer`, які впливають на якість ефектів середовища. Лише "
+"«базовий» перемикач кожного ефекту середовища та його візуальні ручки "
+"залишаються в межах ресурсу середовища."
+
+msgid "Updating shaders"
+msgstr "Оновлення шейдерів"
+
+msgid ""
+"The ``.shader`` file extension is no longer supported, which means you must "
+"rename ``.shader`` files to ``.gdshader`` and update references accordingly "
+"in scene/resource files using an external text editor."
+msgstr ""
+"Розширення файлу ``.shader`` більше не підтримується, що означає, що ви "
+"повинні перейменувати файли ``.shader`` на ``.gdshader`` і відповідно "
+"оновити посилання у файлах сцен/ресурсів за допомогою зовнішнього текстового "
+"редактора."
+
+msgid ""
+"Texture filter and repeat modes are now set on individual uniforms, rather "
+"than the texture files themselves."
+msgstr ""
+"Фільтр текстур і режими повторення тепер встановлюються для окремих форм, а "
+"не для самих файлів текстур."
+
+msgid "``hint_albedo`` is now ``source_color``."
+msgstr "``hint_albedo`` тепер ``source_color``."
+
+msgid "``hint_color`` is now ``source_color``."
+msgstr "``hint_color`` тепер ``source_color``."
+
+msgid ":ref:`Built in matrix variables were renamed. <doc_spatial_shader>`"
+msgstr ":ref:`Вбудовані змінні матриці перейменовано. <doc_spatial_shader>`"
+
+msgid ""
+"Particles shaders no longer use the ``vertex()`` processor function. Instead "
+"they use ``start()`` and ``process()``."
+msgstr ""
+"Шейдери частинок більше не використовують функцію процесора ``vertex()``. "
+"Замість цього вони використовують ``start()`` і ``process()``."
+
+msgid "See :ref:`doc_shading_language` for more information."
+msgstr ""
+"Перегляньте :ref:`doc_shading_language` для отримання додаткової інформації."
+
+msgid "Updating scripts to take backwards-incompatible changes into account"
+msgstr "Оновлення сценаріїв для врахування зворотно-несумісних змін"
+
+msgid ""
+"Some changes performed between Godot 3.x and 4 are not renames, but they "
+"still break backwards compatibility due to different default behavior."
+msgstr ""
+"Деякі зміни, виконані між Godot 3.x і 4, не є перейменуванням, але вони все "
+"одно порушують зворотну сумісність через різну поведінку за умовчанням."
+
+msgid "The most notable examples of this are:"
+msgstr "Найпомітніші приклади цього:"
+
+msgid ""
+"Lifecycle functions such as ``_ready()`` and ``_process()`` no longer "
+"implicitly call parent classes' functions that have the same name. Instead, "
+"you must use ``super()`` at the top of a lifecycle function in the child "
+"class so that the parent class function is called first."
+msgstr ""
+"Такі функції життєвого циклу, як ``_ready()`` і ``_process()`` більше не "
+"викликають неявно функції батьківських класів, які мають однакові назви. "
+"Замість цього ви повинні використовувати ``super()`` у верхній частині "
+"функції життєвого циклу в дочірньому класі, щоб функція батьківського класу "
+"викликалася першою."
+
+msgid ""
+"Both :ref:`class_String` and :ref:`class_StringName` are now exposed to "
+"GDScript. This allows for greater optimization, as StringName is "
+"specifically designed to be used for \"constant\" strings that are created "
+"once and reused many times. These types are not strictly equivalent to each "
+"other, which means ``is_same(\"example\", &\"example\")`` returns ``false``. "
+"Although in most cases they are interchangeable (``\"example\" == "
+"&\"example\"`` returns ``true``), sometimes you may have to replace "
+"``\"example\"`` with ``&\"example\"``."
+msgstr ""
+"І :ref:`class_String`, і :ref:`class_StringName` тепер доступні для "
+"GDScript. Це забезпечує більшу оптимізацію, оскільки StringName спеціально "
+"розроблено для використання для \"константи\" рядки, які створюються один "
+"раз і повторно використовуються багато разів. Ці типи не є строго "
+"еквівалентними один одному, що означає, що ``is_same(\"example\", "
+"&\"example\")`` повертає ``false``. Хоча в більшості випадків вони "
+"взаємозамінні (``\"example\" == &\"example\"`` повертає ``true``), інколи "
+"вам може знадобитися замінити ``\"example\"`` на ``&\"example\"` `."
+
+msgid ""
+":ref:`GDScript setter and getter syntax "
+"<doc_gdscript_basics_setters_getters>` was changed, but it's only partially "
+"converted by the conversion tool. In most cases, manual changes are required "
+"to make setters and getters working again."
+msgstr ""
+":ref:`Синтаксис установщика та отримання GDScript "
+"<doc_gdscript_basics_setters_getters>` було змінено, але він лише частково "
+"перетворено інструментом перетворення. У більшості випадків потрібні ручні "
+"зміни, щоб сеттери та геттери знову працювали."
+
+msgid ""
+":ref:`GDScript signal connection syntax <doc_gdscript_signals>` was changed. "
+"The conversion tool will use the string-based syntax which is still present "
+"in Godot 4, but it's recommended to switch to the :ref:`class_Signal`-based "
+"syntax described on the linked page. This way, strings are no longer "
+"involved, which avoids issues with signal name errors that can only be "
+"discovered at run-time."
+msgstr ""
+":ref:`Синтаксис підключення сигналу GDScript <doc_gdscript_signals>` "
+"змінено. Інструмент перетворення використовуватиме синтаксис на основі "
+"рядків, який все ще присутній у Godot 4, але рекомендується перейти на "
+"синтаксис на основі :ref:`class_Signal`, описаний на сторінці за посиланням. "
+"Таким чином, рядки більше не залучаються, що дозволяє уникнути проблем із "
+"помилками імен сигналу, які можна виявити лише під час виконання."
+
+msgid ""
+"Built-in scripts that are :ref:`tool scripts "
+"<doc_running_code_in_the_editor>` do not get the ``tool`` keyword converted "
+"to the ``@tool`` annotation."
+msgstr ""
+"Вбудовані сценарії, які є :ref:`скриптами інструментів "
+"<doc_running_code_in_the_editor>`, не перетворюють ключове слово ``tool`` на "
+"анотацію ``@tool``."
+
+msgid ""
+"The Tween node was removed in favor of Tweeners, which are also available in "
+"Godot 3.5 and later. See the `original pull request <https://github.com/"
+"godotengine/godot/pull/41794>`__ for details."
+msgstr ""
+"Вузол Tween було видалено на користь Tweeners, які також доступні в Godot "
+"3.5 і пізніших версіях.Перегляньте `оригінальний запит на витягування "
+"<https://github.com/godotengine/godot/pull/41794>`__ для деталей."
+
+msgid ""
+"``randomize()`` is now automatically called on project load, so "
+"deterministic randomness with the global RandomNumberGenerate instance "
+"requires manually setting a seed in a script's ``_ready()`` function."
+msgstr ""
+"``randomize()`` тепер автоматично викликається під час завантаження проекту, "
+"тому детермінована випадковість із глобальним екземпляром "
+"RandomNumberGenerate вимагає вручну встановити початкове значення у функції "
+"``_ready()`` сценарію."
+
+msgid ""
+"``call_group()``, ``set_group()`` and ``notify_group()`` are now immediate "
+"by default. If calling an expensive function, this may result in stuttering "
+"when used on a group containing a large number of nodes. To use deferred "
+"calls like before, replace ``call_group(...)`` with "
+"``call_group_flags(SceneTree.GROUP_CALL_DEFERRED, ...)`` (and do the same "
+"with ``set_group()`` and ``notify_group()`` respectively)."
+msgstr ""
+"``call_group()``, ``set_group()`` і ``notify_group()`` тепер негайні за "
+"замовчуванням. Якщо викликати дорогу функцію, це може призвести до заїкань "
+"під час використання в групі, що містить велику кількість вузлів. Щоб "
+"використовувати відкладені дзвінки, як раніше, замініть ``call_group(...)`` "
+"на ``call_group_flags(SceneTree.GROUP_CALL_DEFERRED, ...)`` (і зробіть те "
+"саме з ``set_group()`` і ``notify_group) ()`` відповідно)."
+
+msgid ""
+"Instead of ``rotation_degrees``, the ``rotation`` property is exposed to the "
+"editor, which is automatically displayed as degrees in the Inspector dock. "
+"This may break animations, as the conversion is not handled automatically by "
+"the conversion tool."
+msgstr ""
+"Замість ``rotation_degrees``, властивість ``rotation`` доступна для "
+"редактора, яка автоматично відображається як градуси в панелі Inspector. Це "
+"може порушити анімацію, оскільки конвертація не виконується автоматично "
+"інструментом конвертації."
+
+msgid ""
+":ref:`class_AABB`'s ``has_no_surface()`` was inverted and renamed to "
+"``has_surface()``."
+msgstr ""
+":ref:`class_AABB`'s ``has_no_surface()`` було перевернуто та перейменовано "
+"на ``has_surface()``."
+
+msgid ""
+":ref:`class_AABB` and :ref:`class_Rect2`'s ``has_no_area()`` was inverted "
+"and renamed to ``has_area()``."
+msgstr ""
+":ref:`class_AABB` і :ref:`class_Rect2` ``has_no_area()`` було інвертовано та "
+"перейменовано на ``has_area()``."
+
+msgid ""
+":ref:`class_AnimatedTexture`'s ``fps`` property was replaced by "
+"``speed_scale``, which works the same as AnimationPlayer's "
+"``playback_speed`` property."
+msgstr ""
+"Властивість ``fps`` :ref:`class_AnimatedTexture` було замінено на "
+"``speed_scale``, яке працює так само, як і властивість ``playback_speed`` "
+"AnimationPlayer."
+
+msgid ""
+":ref:`class_AnimatedSprite2D` and :ref:`class_AnimatedSprite3D` now allow "
+"negative ``speed_scale`` values. This may break animations if you relied on "
+"``speed_scale`` being internally clamped to ``0.0``."
+msgstr ""
+":ref:`class_AnimatedSprite2D` і :ref:`class_AnimatedSprite3D` тепер "
+"допускають негативні значення ``speed_scale``. Це може порушити анімацію, "
+"якщо ви покладалися на те, що ``speed_scale`` внутрішньо закріплено на "
+"``0.0``."
+
+msgid ""
+":ref:`class_AnimatedSprite2D` and :ref:`class_AnimatedSprite3D`'s "
+"``playing`` property was removed. Use ``play()``/``stop()`` method instead "
+"OR configure ``autoplay`` animation via the SpriteFrames bottom panel (but "
+"not both at once)."
+msgstr ""
+":ref:`class_AnimatedSprite2D` і :ref:`class_AnimatedSprite3D` властивість "
+"``playing`` видалено. Замість цього використовуйте метод ``play()``/"
+"``stop()`` АБО налаштуйте анімацію ``autoplay`` через нижню панель "
+"SpriteFrames (але не обидва одночасно)."
+
+msgid ""
+":ref:`class_Array`'s ``slice()`` second parameter (``end``) is now "
+"*exclusive*, instead of being inclusive. For example, this means that ``[1, "
+"2, 3].slice(0, 1)`` now returns ``[1]`` instead of ``[1, 2]``."
+msgstr ""
+":ref:`class_Array`'s ``slice()`` другий параметр (``end``) тепер є "
+"*виключним*, а не включним. Наприклад, це означає, що ``[1, 2, 3].slice(0, "
+"1)`` тепер повертає ``[1]`` замість ``[1, 2]``."
+
+msgid ""
+":ref:`class_BaseButton`'s signals are now ``button_up`` and ``button_down``. "
+"The ``pressed`` property is now ``button_pressed``."
+msgstr ""
+"Сигнали :ref:`class_BaseButton` тепер ``button_up`` і ``button_down``. "
+"Властивість ``pressed`` тепер ``button_pressed``."
+
+msgid ""
+":ref:`class_Camera2D`'s ``rotating`` property was replaced by "
+"``ignore_rotation``, which has inverted behavior."
+msgstr ""
+"Властивість ``rotating`` :ref:`class_Camera2D` було замінено на "
+"``ignore_rotation``, яка має інвертовану поведінку."
+
+msgid ""
+"Camera2D's ``zoom`` property was inverted: higher values are now more zoomed "
+"in, instead of less."
+msgstr ""
+"Властивість Camera2D ``zoom`` було інвертовано: вищі значення тепер "
+"збільшено більше, а не менше."
+
+msgid ""
+":ref:`class_Node`'s ``remove_and_skip()`` method was removed. If you need to "
+"reimplement it in a script, you can use the `old C++ implementation <https://"
+"github.com/godotengine/godot/blob/7936b3cc4c657e4b273b376068f095e1e0e4d82a/"
+"scene/main/node.cpp#L1910-L1945>`__ as a reference."
+msgstr ""
+":ref:`class_Node`'s ``remove_and_skip()`` метод видалено. Якщо вам потрібно "
+"повторно реалізувати його в сценарії, ви можете використати `«стару "
+"реалізацію C++». <https://github.com/godotengine/godot/"
+"blob/7936b3cc4c657e4b273b376068f095e1e0e4d82a/scene/main/node.cpp#L1910-"
+"L1945>`__ як посилання."
+
+msgid ""
+"``OS.get_system_time_secs()`` should be converted to ``Time."
+"get_time_dict_from_system()[\"second\"]``."
+msgstr ""
+"``OS.get_system_time_secs()`` слід перетворити на ``Time."
+"get_time_dict_from_system()[\"second\"]``."
+
+msgid ""
+":ref:`class_ResourceSaver`'s ``save()`` method now has its arguments swapped "
+"around (``resource: Resource, path: String``). This also applies to :ref:"
+"`class_ResourceFormatSaver`'s ``_save()`` method."
+msgstr ""
+":ref:`class_ResourceSaver`'s ``save()`` тепер аргументи методу поміняні "
+"місцями (``resource: Resource, path: String``). Це також стосується методу :"
+"ref:`class_ResourceFormatSaver` ``_save()``."
+
+msgid ""
+"A :ref:`class_StreamPeerTCP` must have ``poll()`` called on it to update its "
+"state, instead of relying on ``get_status()`` automatically polling: "
+"`GH-59582 <https://github.com/godotengine/godot/pull/59582>`__"
+msgstr ""
+":ref:`class_StreamPeerTCP` має викликати ``poll()``, щоб оновити його стан, "
+"замість того, щоб покладатися на ``get_status()`` автоматичного опитування: "
+"`GH-59582 <https://github.com /godotengine/godot/pull/59582>`__"
+
+msgid ""
+":ref:`class_String`'s ``right()`` method `has changed behavior <https://"
+"github.com/godotengine/godot/pull/36180>`__: it now returns a number of "
+"characters from the right of the string, rather than the right side of the "
+"string from a given position. If you need the old behavior, you can use "
+"``substr()`` instead."
+msgstr ""
+":ref:`class_String`'s ``right()`` метод `змінив поведінку <https://github."
+"com/godotengine/godot/pull/36180>`__: тепер він повертає кількість символів "
+"з правого боку рядка, а не з правого боку рядка з даної позиції. Якщо вам "
+"потрібна стара поведінка, ви можете використовувати замість неї ``substr()``."
+
+msgid ""
+"``is_connected_to_host()`` was removed from StreamPeerTCP and PacketPeerUDP "
+"as per `GH-59582 <https://github.com/godotengine/godot/pull/59582>`__. "
+"``get_status()`` can be used in StreamPeerTCP instead. "
+"``is_socket_connected()`` can be used in :ref:`class_PacketPeerUDP` instead."
+msgstr ""
+"``is_connected_to_host()`` було видалено зі StreamPeerTCP і PacketPeerUDP "
+"відповідно до `GH-59582 <https://github.com/godotengine/godot/"
+"pull/59582>`__. Замість цього в StreamPeerTCP можна використовувати "
+"``get_status()``. ``is_socket_connected()`` можна використовувати в :ref:"
+"`class_PacketPeerUDP` замість цього."
+
+msgid ""
+"In ``_get_property_list()``, the ``or_lesser`` property hint string is now "
+"``or_less``."
+msgstr ""
+"У ``_get_property_list()`` рядок підказки властивості ``or_lesser`` тепер "
+"має назву ``or_less``."
+
+msgid ""
+"In ``_get_property_list()``, the ``noslider`` property hint string is now "
+"``no_slider``."
+msgstr ""
+"У ``_get_property_list()`` рядок підказки властивості ``noslider`` тепер має "
+"назву ``no_slider``."
+
+msgid ""
+"VisualShaderNodeVec4Parameter now takes a :ref:`class_Vector4` as parameter "
+"instead of a :ref:`class_Quaternion`."
+msgstr ""
+"VisualShaderNodeVec4Parameter тепер приймає :ref:`class_Vector4` як параметр "
+"замість :ref:`class_Quaternion`."
+
+msgid "**Removed or replaced nodes/resources**"
+msgstr "**Видалені або замінені вузли/ресурси**"
+
+msgid ""
+"This lists all nodes that were replaced by another node requiring different "
+"configuration. The setup must be done from scratch again, as the project "
+"converter doesn't support updating existing setups:"
+msgstr ""
+"Це список усіх вузлів, які були замінені іншим вузлом, що потребує іншої "
+"конфігурації. Налаштування потрібно виконати знову з нуля, оскільки "
+"конвертер проекту не підтримує оновлення наявних налаштувань:"
+
+msgid "Removed node"
+msgstr "Видалений вузол"
+
+msgid "Closest approximation"
+msgstr "Найближче наближення"
+
 msgid "Comment"
 msgstr "Коментар"
 
+msgid "AnimationTreePlayer"
+msgstr "AnimationTreePlayer"
+
+msgid "AnimationTree"
+msgstr "AnimationTree"
+
+msgid "AnimationTreePlayer was deprecated since Godot 3.1."
+msgstr "Програвач AnimationTreePlayer застарів з Godot 3.1."
+
+msgid "BakedLightmap"
+msgstr "BakedLightmap"
+
+msgid "LightmapGI"
+msgstr "LightmapGI"
+
 msgid "See :ref:`doc_using_lightmap_gi`."
 msgstr "Дивіться :ref:`doc_using_lightmap_gi`."
+
+msgid "BakedLightmapData"
+msgstr "BakedLightmapData"
+
+msgid "LightmapGIData"
+msgstr "LightmapGIData"
+
+msgid "BitmapFont"
+msgstr "BitmapFont"
+
+msgid "FontFile"
+msgstr "FontFile"
 
 msgid "See :ref:`doc_gui_using_fonts`."
 msgstr "Дивіться :ref:`doc_gui_using_fonts`."
@@ -54,8 +1606,42 @@ msgstr "Дивіться :ref:`doc_gui_using_fonts`."
 msgid "DynamicFont"
 msgstr "Динамічний Шрифт"
 
+msgid "DynamicFontData"
+msgstr "DynamicFontData"
+
+msgid "Navigation2D"
+msgstr "Navigation2D"
+
 msgid "Node2D"
 msgstr "Node2D"
+
+msgid ""
+"Replaced by :ref:`other 2D Navigation nodes <doc_navigation_overview_2d>`."
+msgstr ""
+"Замінено на :ref:`інші вузли двовимірної навігації "
+"<doc_navigation_overview_2d>`."
+
+msgid "Navigation3D"
+msgstr "Навігація 3D"
+
+msgid ""
+"Replaced by :ref:`other 3D Navigation nodes <doc_navigation_overview_3d>`."
+msgstr ""
+"Замінено на :ref:`інші вузли тривимірної навігації "
+"<doc_navigation_overview_3d>`."
+
+msgid "OpenSimplexNoise"
+msgstr "Відкрити Simplex Noise"
+
+msgid "FastNoiseLite"
+msgstr "Швидкий Noise Lite"
+
+msgid ""
+"Has different parameters and more noise types such as cellular. No support "
+"for 4D noise as it's absent from the FastNoiseLite library."
+msgstr ""
+"Має різні параметри та більше типів шуму, наприклад стільниковий. Немає "
+"підтримки 4D-шуму, оскільки його немає в бібліотеці FastNoiseLite."
 
 msgid "ToolButton"
 msgstr "Кнопка \"Інструмент\""
@@ -63,11 +1649,156 @@ msgstr "Кнопка \"Інструмент\""
 msgid "Button"
 msgstr "Кнопка"
 
+msgid "ToolButton was Button with the **Flat** property enabled by default."
+msgstr ""
+"ToolButton була кнопкою з властивістю **Flat**, увімкненою за замовчуванням."
+
+msgid "YSort"
+msgstr "Y Сортування"
+
+msgid "Node2D or Control"
+msgstr "Node2D або Control"
+
+msgid "CanvasItem has a new **Y Sort Enabled** property in 4.0."
+msgstr "CanvasItem має нову властивість **Y Sort Enabled** у версії 4.0."
+
+msgid "ProximityGroup"
+msgstr "Група близькості"
+
+msgid ":ref:`class_VisibleOnScreenNotifier3D` can act as a replacement."
+msgstr ":ref:`class_VisibleOnScreenNotifier3D` може виступати як заміна."
+
+msgid "Portal"
+msgstr "Портал"
+
+msgid ""
+"Portal and room occlusion culling was replaced by raster :ref:`occlusion "
+"culling <doc_occlusion_culling>` (OccluderInstance3D node), which requires a "
+"different setup process."
+msgstr ""
+"Відбір блокування порталу та кімнати було замінено растровим :ref:"
+"`відбракуванням блокування <doc_occlusion_culling>` (вузол "
+"OccluderInstance3D), для якого потрібен інший процес налаштування."
+
+msgid "Room"
+msgstr "Кімната"
+
 msgid "RoomManager"
 msgstr "RoomManager (Керівник кімнати)"
+
+msgid "RoomGroup"
+msgstr "Група номерів"
+
+msgid "Occluder"
+msgstr "Оклюдер"
+
+msgid ""
+"Geometry occlusion culling was replaced by raster :ref:`occlusion culling "
+"<doc_occlusion_culling>` (OccluderInstance3D node), which requires a "
+"different setup process."
+msgstr ""
+"Геометричне відсіювання оклюзії було замінено растровим :ref:`відбракуванням "
+"оклюзії <doc_occlusion_culling>` (вузол OccluderInstance3D), для якого "
+"потрібен інший процес налаштування."
 
 msgid "OccluderShapeSphere"
 msgstr "OccluderShapeSphere (Сферична Форма Оклюдера)"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "Resource"
+msgstr "Ресурс"
+
+msgid ""
+"If loading an old project, the node will be replaced with its *Closest "
+"approximation* automatically (even if not using the project upgrade tool)."
+msgstr ""
+"Якщо завантажується старий проект, вузол буде автоматично замінено його "
+"*Найближчим наближенням* (навіть якщо не використовується інструмент "
+"оновлення проекту)."
+
+msgid "**Threading changes**"
+msgstr "**Зміни потоків**"
+
+msgid ""
+":ref:`Threading <doc_using_multiple_threads>` APIs have changed in 4.0. For "
+"example, the following code snippet in Godot 3.x must be modified to work in "
+"4.0:"
+msgstr ""
+":ref:`Threading <doc_using_multiple_threads>` API змінено у версії 4.0. "
+"Наприклад, наступний фрагмент коду в Godot 3.x потрібно змінити, щоб він "
+"працював у 4.0:"
+
+msgid ""
+"``Thread.is_active()`` is no longer used and should be converted to ``Thread."
+"is_alive()``."
+msgstr ""
+"``Thread.is_active()`` більше не використовується і має бути перетворено на "
+"``Thread.is_alive()``."
+
+msgid ""
+"See the `changelog <https://github.com/godotengine/godot/blob/master/"
+"CHANGELOG.md>`__ for a full list of changes between Godot 3.x and 4."
+msgstr ""
+"Перегляньте `журнал змін <https://github.com/godotengine/godot/blob/master/"
+"CHANGELOG.md>`__, щоб отримати повний список змін між Godot 3.x і 4."
+
+msgid "ArrayMesh resource compatibility breakage"
+msgstr "Порушення сумісності ресурсів ArrayMesh"
+
+msgid ""
+"If you've saved an ArrayMesh resource to a ``.res`` or ``.tres`` file, the "
+"format used in 4.0 is not compatible with the one used in 3.x. You will need "
+"to go through the process of importing the source mesh file and saving it as "
+"an ArrayMesh resource again."
+msgstr ""
+"Якщо ви зберегли ресурс ArrayMesh у файлі ``.res`` або ``.tres``, формат, "
+"який використовується у 4.0, несумісний із форматом, який використовується у "
+"3.x. Вам потрібно буде знову пройти процес імпорту вихідного файлу сітки та "
+"зберегти його як ресурс ArrayMesh."
+
+msgid ""
+"List of automatically renamed methods, properties, signals and constants"
+msgstr ""
+"Список автоматично перейменованих методів, властивостей, сигналів і констант"
+
+msgid ""
+"The `editor/renames_map_3_to_4.cpp <https://github.com/godotengine/godot/"
+"blob/master/editor/renames_map_3_to_4.cpp>`__ source file lists all "
+"automatic renames performed by the project upgrade tool. Lines that are "
+"commented out refer to API renames that :ref:`cannot be performed "
+"automatically <doc_upgrading_to_godot_4_manual_rename>`."
+msgstr ""
+"Вихідний файл `editor/renames_map_3_to_4.cpp <https://github.com/godotengine/"
+"godot/blob/master/editor/renames_map_3_to_4.cpp>`__ перелічує всі "
+"автоматичні перейменування, виконані інструментом оновлення проекту. "
+"Закоментовані рядки стосуються перейменувань API, які :ref:`не можна "
+"виконати автоматично <doc_upgrading_to_godot_4_manual_rename>`."
+
+msgid "Porting editor settings"
+msgstr "Налаштування редактора портування"
+
+msgid ""
+"Godot 3.x and 4.0 use different editor settings files. This means their "
+"settings can be changed independently from each other."
+msgstr ""
+"Godot 3.x і 4.0 використовують різні файли налаштувань редактора. Це "
+"означає, що їхні налаштування можна змінювати незалежно один від одного."
+
+msgid ""
+"If you wish to port over your Godot 3.x settings to Godot 4, open the :ref:"
+"`editor settings folder <doc_data_paths_editor_data_paths>` and copy "
+"``editor_settings-3.tres`` to ``editor_settings-4.tres`` while the Godot 4 "
+"editor is closed."
+msgstr ""
+"Якщо ви бажаєте перенести налаштування Godot 3.x на Godot 4, відкрийте :ref:"
+"`теку налаштувань редактора <doc_data_paths_editor_data_paths>` і скопіюйте "
+"``editor_settings-3.tres`` до ``editor_settings-4.tres`` поки редактор Godot "
+"4 закритий."
+
+msgid ""
+"Many settings' names and categories have changed since Godot 3.x. Editor "
+"settings whose name or category has changed won't carry over to Godot 4.0; "
+"you will have to set their values again."
+msgstr ""
+"Багато назв і категорій налаштувань змінилися з Godot 3.x. Налаштування "
+"редактора, назва чи категорія якого змінено, не переносяться до Godot 4.0; "
+"вам доведеться знову встановити їх значення."

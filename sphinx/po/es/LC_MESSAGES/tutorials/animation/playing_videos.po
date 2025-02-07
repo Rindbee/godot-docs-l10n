@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -292,6 +292,3 @@ msgstr ""
 "de 720 píxeles (720p), mientras se conserva su relación de aspecto "
 "existente. Esto ayuda a reducir considerablemente el tamaño del archivo si "
 "la fuente se grabó a una resolución superior a 720p:"
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

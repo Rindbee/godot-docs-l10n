@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -51,6 +51,41 @@ msgstr ""
 msgid "Command line reference"
 msgstr "コマンドライン リファレンス"
 
+msgid "**Legend**"
+msgstr "**アイコン説明**"
+
+msgid ""
+"|release| Available in editor builds, debug export templates and release "
+"export templates."
+msgstr ""
+"|release| エディタビルド、デバッグエクスポートテンプレート、そしてリリースエ"
+"クスポートテンプレートで使用可能です。"
+
+msgid "release"
+msgstr "リリース"
+
+msgid "|debug| Available in editor builds and debug export templates only."
+msgstr ""
+"|debug| エディタビルドとデバッグエクスポートテンプレートでのみ使用可能です。"
+
+msgid "debug"
+msgstr "デバッグ"
+
+msgid "|editor| Only available in editor builds."
+msgstr "|editor| エディタビルドでのみ利用可能です。"
+
+msgid "editor"
+msgstr "エディタ"
+
+msgid ""
+"Note that unknown command line arguments have no effect whatsoever. The "
+"engine will **not** warn you when using a command line argument that doesn't "
+"exist with a given build type."
+msgstr ""
+"不明なコマンドライン引数は何の効果もないことに注意してください。 指定されたビ"
+"ルドタイプに存在しないコマンドライン引数を使用しても、エンジンは警告**しませ"
+"ん**。"
+
 msgid "**General options**"
 msgstr "**一般的なオプション**"
 
@@ -60,38 +95,231 @@ msgstr "Command"
 msgid "Description"
 msgstr "説明"
 
+msgid "``-h``, ``--help``"
+msgstr "\\ ``-h``, ``--help``"
+
+msgid "|release| Display the list of command line options."
+msgstr "|release| コマンド ラインオプションの一覧を表示します。"
+
 msgid "``--version``"
 msgstr "\\ ``--version``"
+
+msgid "|release| Display the version string."
+msgstr "|release| バージョン文字列を表示します。"
 
 msgid "``-v``, ``--verbose``"
 msgstr "\\ ``-v``, ``--verbose``"
 
+msgid "|release| Use verbose stdout mode."
+msgstr "|release| 詳細な標準出力モードを使用します。"
+
+msgid "``-q``, ``--quiet``"
+msgstr "``-q``, ``--quiet``"
+
+msgid ""
+"|release| Quiet mode, silences stdout messages. Errors are still displayed."
+msgstr ""
+"|release| 静かなモード、標準出力メッセージを出力しません。エラーは引き続き表"
+"示されます。"
+
 msgid "**Run options**"
 msgstr "**実行オプション**"
+
+msgid "``--``, ``++``"
+msgstr "``--``, ``++``"
+
+msgid ""
+"|release| Separator for user-provided arguments. Following arguments are not "
+"used by the engine, but can be read from ``OS.get_cmdline_user_args()``."
+msgstr ""
+"|release| ユーザーが提供した引数の区切りとして使用します。この区切り以降の引"
+"数はエンジンによって使用されず、 ``OS.get_cmdline_user_args()`` から読み取る"
+"ことができます。"
 
 msgid "``-e``, ``--editor``"
 msgstr "\\ ``-e``, ``--editor``"
 
+msgid "|editor| Start the editor instead of running the scene."
+msgstr "|editor| シーンを実行する代わりにエディタを開きます。"
+
 msgid "``-p``, ``--project-manager``"
 msgstr "\\ ``-p``, ``--project-manager``"
+
+msgid "|editor| Start the Project Manager, even if a project is auto-detected."
+msgstr ""
+"|editor| プロジェクトが自動検出された場合でも、プロジェクトマネージャーを開き"
+"ます。"
+
+msgid "``--debug-server <uri>``"
+msgstr "\\ ``--debug-server <uri>``"
+
+msgid ""
+"|editor| Start the editor debug server (``<protocol>://<host/IP>[:<port>]``, "
+"e.g. ``tcp://127.0.0.1:6007``)"
+msgstr ""
+"|editor| エディタデバッグサーバーを開始します (``<protocol>://<host/IP>[:"
+"<port>]`` 、 または ``tcp://127.0.0.1:6007``)"
+
+msgid "``--quit``"
+msgstr "\\ ``--quit``"
+
+msgid "|release| Quit after the first iteration."
+msgstr "|release| 最初のイテレーションの後に終了します。"
+
+msgid "``--quit-after``"
+msgstr "\\ ``--quit-after``"
+
+msgid ""
+"|release| Quit after the given number of iterations. Set to 0 to disable."
+msgstr ""
+"|release| 指定された回数のイテレーション後に終了します。無効にするには 0 に設"
+"定します。"
+
+msgid "``-l``, ``--language <locale>``"
+msgstr "\\ ``-l``, ``--language <locale>``"
+
+msgid ""
+"|release| Use a specific locale. ``<locale>`` follows the format "
+"``language_Script_COUNTRY_VARIANT`` where language is a 2 or 3-letter "
+"language code in lowercase and the rest is optional. See :ref:`doc_locales` "
+"for more details."
+msgstr ""
+"|release| 特定のロケールを使用します。 ``<locale>`` は "
+"``language_Script_COUNTRY_VARIANT`` の形式に従います。language は 2 文字また"
+"は 3 文字の小文字の言語コードで、残りはオプションです。詳細については、:ref:"
+"`doc_locales` を参照してください。"
 
 msgid "``--path <directory>``"
 msgstr "\\ ``--path <directory>``"
 
+msgid ""
+"|release| Path to a project (``<directory>`` must contain a 'project.godot' "
+"file)."
+msgstr ""
+"|release| プロジェクトへのパス (``<directory>`` には「project.godot」ファイル"
+"が含まれている必要があります)。"
+
 msgid "``-u``, ``--upwards``"
 msgstr "\\ ``-u``, ``--upwards``"
+
+msgid "|release| Scan folders upwards for 'project.godot' file."
+msgstr ""
+"|release| 「project.godot」ファイルのフォルダを上方向にスキャンします。"
 
 msgid "``--main-pack <file>``"
 msgstr "\\ ``--main-pack <file>``"
 
+msgid "|release| Path to a pack (.pck) file to load."
+msgstr "|release| 読み込むパック (.pck) ファイルへのパス。"
+
 msgid "``--render-thread <mode>``"
 msgstr "\\ ``--render-thread <mode>``"
+
+msgid ""
+"|release| Render thread mode ('unsafe', 'safe', 'separate'). See :ref:"
+"`Thread Model <class_ProjectSettings_property_rendering/driver/threads/"
+"thread_model>` for more details."
+msgstr ""
+"|release| レンダリングスレッドモード ('unsafe', 'safe', 'separate')。詳細につ"
+"いては、 :ref:`Thread Model <class_ProjectSettings_property_rendering/driver/"
+"threads/thread_model>` を参照してください。"
 
 msgid "``--remote-fs <address>``"
 msgstr "\\ ``--remote-fs <address>``"
 
+msgid "|release| Remote filesystem (``<host/IP>[:<port>]`` address)."
+msgstr "|release| リモートファイルシステム (``<host/IP>[:<port>]`` アドレス)。"
+
+msgid "``--remote-fs-password <password>``"
+msgstr "\\ ``--remote-fs-password <password>``"
+
+msgid "|release| Password for remote filesystem."
+msgstr "|release| リモートファイルシステムのパスワード。"
+
 msgid "``--audio-driver <driver>``"
 msgstr "\\ ``--audio-driver <driver>``"
+
+msgid ""
+"|release| Audio driver. Use ``--help`` first to display the list of "
+"available drivers."
+msgstr ""
+"|release| オーディオ ドライバー。使用可能なドライバーの一覧を表示するには "
+"``--help`` を使用します。"
+
+msgid "``--display-driver <driver>``"
+msgstr "\\ ``--display-driver <driver>``"
+
+msgid ""
+"|release| Display driver (and rendering driver). Use ``--help`` first to "
+"display the list of available drivers."
+msgstr ""
+"|release| ディスプレイ ドライバー (およびレンダリング ドライバー)。使用可能な"
+"ドライバーの一覧を表示するには ``--help`` を使用します。"
+
+msgid "``--rendering-method <renderer>``"
+msgstr "\\ ``--rendering-method <renderer>``"
+
+msgid "|release| Renderer name. Requires driver support."
+msgstr "|release| レンダラー名。ドライバーのサポートが必要です。"
+
+msgid "``--rendering-driver <driver>``"
+msgstr "\\ ``--rendering-driver <driver>``"
+
+msgid ""
+"|release| Rendering driver (depends on display driver). Use ``--help`` first "
+"to display the list of available drivers."
+msgstr ""
+"|release| レンダリングドライバー (ディスプレイドライバーによって異なります)。"
+"使用可能なドライバーの一覧を表示するには ``--help`` を使用します。"
+
+msgid "``--gpu-index <device_index>``"
+msgstr "\\ ``--gpu-index <device_index>``"
+
+msgid ""
+"|release| Use a specific GPU (run with ``--verbose`` to get available device "
+"list)."
+msgstr ""
+"|release| 特定の GPU を使用します (使用可能なデバイスリストを取得するには、"
+"``--verbose`` で実行します)。"
+
+msgid "``--text-driver <driver>``"
+msgstr "\\ ``--text-driver <driver>``"
+
+msgid "|release| Text driver (Fonts, BiDi, shaping)."
+msgstr "|release| テキストドライバー (フォント、BiDi、シェーピング)。"
+
+msgid "``--tablet-driver <driver>``"
+msgstr "\\ ``--tablet-driver <driver>``"
+
+msgid "|release| Pen tablet input driver."
+msgstr "|release| ペンタブレット入力ドライバー。"
+
+msgid "``--headless``"
+msgstr "\\ ``--headless``"
+
+msgid ""
+"|release| Enable headless mode (``--display-driver headless --audio-driver "
+"Dummy``). Useful for servers and with ``--script``."
+msgstr ""
+"|release| ヘッドレスモードを有効にします (``--display-driver headless --"
+"audio-driver Dummy``)。サーバー用途、もしくは ``--script`` と一緒に使用しま"
+"す。"
+
+msgid "``--write-movie <file>``"
+msgstr "\\ ``--write-movie <file>``"
+
+msgid ""
+"|release| Run the engine in a way that a movie is written (usually with .avi "
+"or .png extension). ``--fixed-fps`` is forced when enabled, but can be used "
+"to change movie FPS. ``--disable-vsync`` can speed up movie writing but "
+"makes interaction more difficult. ``--quit-after`` can be used to specify "
+"the number of frames to write."
+msgstr ""
+"|release| エンジンをムービー出力モードで実行します (通常は .avi または .png "
+"拡張子)。 ``--fixed-fps`` はムービーの FPS を指定するために使用できます。 "
+"``--disable-vsync`` はムービーの書き込みを高速化できますが、ゲームの操作が難"
+"しくなります。 ``--quit-after`` を使用すると、書き込むフレーム数を指定できま"
+"す。"
 
 msgid "**Display options**"
 msgstr "**表示オプション**"
@@ -99,20 +327,57 @@ msgstr "**表示オプション**"
 msgid "``-f``, ``--fullscreen``"
 msgstr "\\ ``-f``, ``--fullscreen``"
 
+msgid "|release| Request fullscreen mode."
+msgstr "|release| フルスクリーンモードを指定します。"
+
 msgid "``-m``, ``--maximized``"
 msgstr "\\ ``-m``, ``--maximized``"
+
+msgid "|release| Request a maximized window."
+msgstr "|release| ウィンドウの最大化を指定します。"
 
 msgid "``-w``, ``--windowed``"
 msgstr "\\ ``-w``, ``--windowed``"
 
+msgid "|release| Request windowed mode."
+msgstr "|release| ウィンドウモードを指定します。"
+
 msgid "``-t``, ``--always-on-top``"
 msgstr "\\ ``-t``, ``--always-on-top``"
+
+msgid "|release| Request an always-on-top window."
+msgstr "|release| ウィンドウを常時最前面に表示するように指定します。"
 
 msgid "``--resolution <W>x<H>``"
 msgstr "\\ ``--resolution <W>x<H>``"
 
+msgid "|release| Request window resolution."
+msgstr "|release| ウィンドウの解像度を指定します。"
+
 msgid "``--position <X>,<Y>``"
 msgstr "\\ ``--position <X>,<Y>``"
+
+msgid "|release| Request window position."
+msgstr "|release| ウィンドウの位置を指定します。"
+
+msgid "``--screen <N>``"
+msgstr "\\ ``--screen <N>``"
+
+msgid "|release| Request window screen."
+msgstr "|release| ウィンドウを表示する画面の番号を指定します。"
+
+msgid "``--single-window``"
+msgstr "\\ ``--single-window``"
+
+msgid "|release| Use a single window (no separate subwindows)."
+msgstr ""
+"|release| 単一のウィンドウを使用します (個別のサブウィンドウはありません)。"
+
+msgid "``--xr-mode <mode>``"
+msgstr "\\ ``--xr-mode <mode>``"
+
+msgid "|release| Select XR mode ('default', 'off', 'on')."
+msgstr "|release| XR モードを選択します ('default', 'off', 'on')。"
 
 msgid "**Debug options**"
 msgstr "**デバッグオプション**"
@@ -120,50 +385,343 @@ msgstr "**デバッグオプション**"
 msgid "``-d``, ``--debug``"
 msgstr "\\ ``-d``, ``--debug``"
 
+msgid "|release| Debug (local stdout debugger)."
+msgstr "|release| デバッグ (ローカル stdout デバッガー)。"
+
 msgid "``-b``, ``--breakpoints``"
 msgstr "\\ ``-b``, ``--breakpoints``"
+
+msgid ""
+"|release| Breakpoint list as source::line comma-separated pairs, no spaces "
+"(use ``%20`` instead)."
+msgstr ""
+"|release| ブレークポイントとしてソースの行番号をカンマで区切って列挙します。"
+"スペースは使えません (代わりに ``%20`` を使用できます)。"
 
 msgid "``--profiling``"
 msgstr "\\ ``--profiling``"
 
+msgid "|release| Enable profiling in the script debugger."
+msgstr "|release| スクリプトデバッガーでプロファイリングを有効にします。"
+
+msgid "``--gpu-profile``"
+msgstr "\\ ``--gpu-profile``"
+
+msgid ""
+"|release| Show a GPU profile of the tasks that took the most time during "
+"frame rendering."
+msgstr ""
+"|release| フレームのレンダリング中に最も時間がかかったタスクの GPU プロファイ"
+"ルを表示します。"
+
+msgid "``--gpu-validation``"
+msgstr "\\ ``--gpu-validation``"
+
+msgid ""
+"|release| Enable graphics API :ref:`validation layers "
+"<doc_vulkan_validation_layers>` for debugging."
+msgstr ""
+"|release| デバッグ用にグラフィック API の :ref:`検証レイヤー "
+"<doc_vulkan_validation_layers>` を有効にします。"
+
+msgid "``--gpu-abort``"
+msgstr "\\ ``--gpu-abort``"
+
+msgid ""
+"|debug| Abort on GPU errors (usually validation layer errors), may help see "
+"the problem if your system freezes."
+msgstr ""
+"|debug| GPU エラー (通常は検証レイヤーエラー) が発生した場合に停止します。シ"
+"ステムがフリーズした場合に問題を確認するのに役立つ場合があります。"
+
+msgid "``--remote-debug <uri>``"
+msgstr "\\ ``--remote-debug <uri>``"
+
+msgid ""
+"|release| Remote debug (``<protocol>://<host/IP>[:<port>]``, e.g. "
+"``tcp://127.0.0.1:6007``)."
+msgstr ""
+"|release| リモートデバッグ (``<protocol>://<host/IP>[:<port>]`` 、例: "
+"``tcp://127.0.0.1:6007``)。"
+
+msgid "``--single-threaded-scene``"
+msgstr "\\ ``--single-threaded-scene``"
+
+msgid ""
+"|release| Scene tree runs in single-threaded mode. Sub-thread groups are "
+"disabled and run on the main thread."
+msgstr ""
+"|release| シーンツリーはシングルスレッドモードで実行されます。サブスレッドグ"
+"ループは無効になり、メインスレッドで実行されます。"
+
 msgid "``--debug-collisions``"
 msgstr "\\ ``--debug-collisions``"
+
+msgid "|debug| Show collision shapes when running the scene."
+msgstr "|debug| シーンを実行する際にコリジョン形状を表示する。"
+
+msgid "``--debug-paths``"
+msgstr "\\ ``--debug-paths``"
+
+msgid "|debug| Show path lines when running the scene."
+msgstr "|debug| シーンの実行時にパスラインを表示します。"
 
 msgid "``--debug-navigation``"
 msgstr "\\ ``--debug-navigation``"
 
+msgid "|debug| Show navigation polygons when running the scene."
+msgstr "|debug| シーンを実行する際にナビゲーション・ポリゴンを表示する。"
+
+msgid "``--debug-avoidance``"
+msgstr "\\ ``--debug-avoidance``"
+
+msgid "|debug| Show navigation avoidance debug visuals when running the scene."
+msgstr ""
+"|debug| シーンの実行時にナビゲーション回避のデバッグビジュアルを表示します。"
+
+msgid "``--debug-stringnames``"
+msgstr "\\ ``--debug-stringnames``"
+
+msgid ""
+"|debug| Print all StringName allocations to stdout when the engine quits."
+msgstr ""
+"|debug| エンジンが終了したときに、すべての StringName 割り当てを stdout に出"
+"力します。"
+
 msgid "``--frame-delay <ms>``"
 msgstr "\\ ``--frame-delay <ms>``"
+
+msgid ""
+"|release| Simulate high CPU load (delay each frame by <ms> milliseconds)."
+msgstr ""
+"|release| 高CPU負荷のシミュレーション (毎フレームごとに <ms> ミリ秒遅らせ"
+"る)。"
 
 msgid "``--time-scale <scale>``"
 msgstr "\\ ``--time-scale <scale>``"
 
+msgid ""
+"|release| Force time scale (higher values are faster, 1.0 is normal speed)."
+msgstr "|release| タイムスケールの強制 (値が大きいほど早く、1.0が標準)。"
+
+msgid "``--disable-vsync``"
+msgstr "\\ ``--disable-vsync``"
+
+msgid ""
+"|release| Forces disabling of vertical synchronization, even if enabled in "
+"the project settings. Does not override driver-level V-Sync enforcement."
+msgstr ""
+"|release| プロジェクト設定で有効になっている場合でも、垂直同期(V-Sync)を強制"
+"的に無効にします。ドライバーレベルの V-Sync 強制は上書きされません。"
+
 msgid "``--disable-render-loop``"
 msgstr "\\ ``--disable-render-loop``"
+
+msgid ""
+"|release| Disable render loop so rendering only occurs when called "
+"explicitly from script."
+msgstr ""
+"|release| 描画ループを無効にして、スクリプトから明示的に呼び出された場合にの"
+"みレンダリングが行われるようにします。"
 
 msgid "``--disable-crash-handler``"
 msgstr "\\ ``--disable-crash-handler``"
 
+msgid "|release| Disable crash handler when supported by the platform code."
+msgstr ""
+"|release| プラットフォーム・コードが対応している場合もクラッシュ・ハンドラを"
+"無効にする。"
+
 msgid "``--fixed-fps <fps>``"
 msgstr "\\ ``--fixed-fps <fps>``"
+
+msgid ""
+"|release| Force a fixed number of frames per second. This setting disables "
+"real-time synchronization."
+msgstr "|release| フレーム毎秒の固定。この設定によりリアルタイム同期は無効化。"
+
+msgid "``--delta-smoothing <enable>``"
+msgstr "\\ ``--delta-smoothing <enable>``"
+
+msgid ""
+"|release| Enable or disable frame delta smoothing ('enable', 'disable')."
+msgstr ""
+"|release| フレーム間のスムージングを有効または無効にします ('enable', "
+"'disable')。"
 
 msgid "``--print-fps``"
 msgstr "\\ ``--print-fps``"
 
+msgid "|release| Print the frames per second to the stdout."
+msgstr "|release| 1秒あたりのフレーム数を stdout に出力します。"
+
 msgid "**Standalone tools**"
 msgstr "**スタンドアロンツール**"
+
+msgid "``-s``, ``--script <script>``"
+msgstr "\\ ``-s``, ``--script <script>``"
+
+msgid "|release| Run a script."
+msgstr "|release| スクリプトの実行。"
 
 msgid "``--check-only``"
 msgstr "\\ ``--check-only``"
 
+msgid "|release| Only parse for errors and quit (use with ``--script``)."
+msgstr "|release| エラー分析のみ行って終了 (``--script`` と一緒に使用)。"
+
+msgid "``--import``"
+msgstr "\\ ``--import``"
+
+msgid ""
+"|editor| Starts the editor, waits for any resources to be imported, and then "
+"quits. Implies ``--editor`` and ``--quit``."
+msgstr ""
+"|editor| エディタを起動し、リソースがインポートされるのを待ってから終了しま"
+"す。 ``--editor`` および ``--quit`` も暗黙的に使用されます。"
+
+msgid "``--export-release <preset> <path>``"
+msgstr "\\ ``--export-release <preset> <path>``"
+
+msgid ""
+"|editor| Export the project using the given preset and matching release "
+"template. The preset name should match one defined in export_presets.cfg. "
+"``<path>`` should be absolute or relative to the project directory, and "
+"include the filename for the binary (e.g. 'builds/game.exe'). The target "
+"directory should exist. Implies ``--import``."
+msgstr ""
+"|editor| 指定されたプリセットと一致するリリーステンプレートを使用してプロジェ"
+"クトをエクスポートします。プリセット名は、export_presets.cfg で定義されたもの"
+"と一致する必要があります。 ``<path>`` はプロジェクトディレクトリの絶対パスま"
+"たは相対パスで、バイナリのファイル名 (例: 'builds/game.exe') を含める必要があ"
+"ります。ターゲットディレクトリが存在している必要があります。 ``--import`` も"
+"暗黙的に使用されます。"
+
+msgid "``--export-debug <preset> <path>``"
+msgstr "\\ ``--export-debug <preset> <path>``"
+
+msgid ""
+"|editor| Like ``--export-release``, but use debug template. Implies ``--"
+"import``."
+msgstr ""
+"|editor| ``--export-release`` と似ていますが、デバッグテンプレートを使用しま"
+"す。 ``--import`` も暗黙的に使用されます。"
+
 msgid "``--export-pack <preset> <path>``"
-msgstr "``--export-pack <preset> <path>``"
+msgstr "\\ ``--export-pack <preset> <path>``"
+
+msgid ""
+"|editor| Like ``--export-release``, but only export the game pack for the "
+"given preset. The ``<path>`` extension determines whether it will be in PCK "
+"or ZIP format. Implies ``--import``."
+msgstr ""
+"|editor| ``--export-release`` と似ていますが、指定されたプリセットのゲーム"
+"パックのみをエクスポートします。 ``<path>`` の拡張子によって、PCK 形式か ZIP "
+"形式かが決まります。 ``--import`` も暗黙的に使用されます。"
+
+msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
+msgstr "\\ ``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
+
+msgid "|editor| Convert project from Godot 3.x to Godot 4.x."
+msgstr "|editor| プロジェクトを Godot 3.x から Godot 4.x に変換します。"
+
+msgid "``--validate-conversion-3to4 [<max_file_kb>] [<max_line_size>]``"
+msgstr "\\ ``--validate-conversion-3to4 [<max_file_kb>] [<max_line_size>]``"
+
+msgid ""
+"|editor| Show what elements will be renamed when converting project from "
+"Godot 3.x to Godot 4.x."
+msgstr ""
+"|editor| プロジェクトを Godot 3.x から Godot 4.x に変換するときに名前が変更さ"
+"れる要素を表示します。"
+
+msgid "``--doctool [<path>]``"
+msgstr "\\ ``--doctool [<path>]``"
+
+msgid ""
+"|editor| Dump the engine API reference to the given ``<path>`` in XML "
+"format, merging if existing files are found."
+msgstr ""
+"|editor| 指定された ``<path>`` へのエンジン API 参照を XML 形式でダンプし、既"
+"存のファイルが見つかった場合はマージします。"
 
 msgid "``--no-docbase``"
 msgstr "\\ ``--no-docbase``"
 
+msgid "|editor| Disallow dumping the base types (used with ``--doctool``)."
+msgstr "|editor| 基本型のダンプを禁止します (``--doctool`` で使用されます)。"
+
+msgid "``--gdscript-docs <path>``"
+msgstr "\\ ``--gdscript-docs <path>``"
+
+msgid ""
+"|editor| Rather than dumping the engine API, generate API reference from the "
+"inline documentation in the GDScript files found in <path> (used with ``--"
+"doctool``)."
+msgstr ""
+"|editor| エンジン API をダンプするのではなく、<path> にある GDScript ファイル"
+"内のインライン ドキュメントから API リファレンスを生成します (``--doctool`` "
+"で使用)。"
+
 msgid "``--build-solutions``"
 msgstr "\\ ``--build-solutions``"
+
+msgid ""
+"|editor| Build the scripting solutions (e.g. for C# projects). Implies ``--"
+"editor`` and requires a valid project to edit."
+msgstr ""
+"|editor| スクリプトソリューションをビルドします (例: C# プロジェクト用)。 "
+"``--editor`` が暗黙的に指定され、編集するには有効なプロジェクトが必要です。"
+
+msgid "``--dump-gdextension-interface``"
+msgstr "\\ ``--dump-gdextension-interface``"
+
+msgid ""
+"|editor| Generate GDExtension header file 'gdnative_interface.h' in the "
+"current folder. This file is the base file required to implement a "
+"GDExtension."
+msgstr ""
+"|editor| 現在のフォルダーに GDExtension ヘッダーファイル 'gdnative_interface."
+"h' を生成します。このファイルは GDExtension を実装するために必要な基本ファイ"
+"ルです。"
+
+msgid "``--dump-extension-api``"
+msgstr "\\ ``--dump-extension-api``"
+
+msgid ""
+"|editor| Generate JSON dump of the Godot API for GDExtension bindings named "
+"'extension_api.json' in the current folder."
+msgstr ""
+"|editor| 現在のフォルダーに 'extension_api.json' という名前の GDExtension バ"
+"インディングの Godot API の JSON ダンプを生成します。"
+
+msgid "``--validate-extension-api <path>``"
+msgstr "\\ ``--validate-extension-api <path>``"
+
+msgid ""
+"|editor| Validate an extension API file dumped (with the option above) from "
+"a previous version of the engine to ensure API compatibility. If "
+"incompatibilities or errors are detected, the return code will be non-zero."
+msgstr ""
+"|editor| 以前のバージョンのエンジンからダンプされたGDExtension API ファイルを"
+"検証し (上記のオプションを使用)、API の互換性を確認します。非互換性またはエ"
+"ラーが検出された場合、戻りコードはゼロ以外になります。"
+
+msgid "``--benchmark``"
+msgstr "\\ ``--benchmark``"
+
+msgid "|editor| Benchmark the run time and print it to console."
+msgstr "|editor| 実行時間をベンチマークし、コンソールに出力します。"
+
+msgid "``--benchmark-file <path>``"
+msgstr "\\ ``--benchmark-file <path>``"
+
+msgid ""
+"|editor| Benchmark the run time and save it to a given file in JSON format. "
+"The path should be absolute."
+msgstr ""
+"|editor| 実行時間をベンチマークし、JSON 形式で指定されたファイルに保存しま"
+"す。パスは絶対パスにする必要があります。"
 
 msgid "Path"
 msgstr "パス"
@@ -178,6 +736,17 @@ msgstr ""
 "ナリをPATH環境変数に含めることをお勧めします。Linuxでこれを行うには、 ``/usr/"
 "local/bin`` にGodotバイナリを配置し、それが ``godot`` として呼び出されるよう"
 "にします。"
+
+msgid ""
+"To achieve this on Windows or macOS easily, you can install Godot using "
+"`Scoop <https://scoop.sh>`__ (on Windows) or `Homebrew <https://brew.sh>`__ "
+"(on macOS). This will automatically make the copy of Godot installed "
+"available in the ``PATH``:"
+msgstr ""
+"Windows または macOS でこれを簡単に実現するには、`Scoop <https://scoop."
+"sh>`__ (Windows の場合) または `Homebrew <https://brew.sh>`__ (macOS の場合) "
+"を使用して Godot をインストールします。これにより、インストールされた Godot "
+"のコピーが ``PATH`` で自動的に使用できるようになります。"
 
 msgid "Setting the project path"
 msgstr "プロジェクトパスの設定"
@@ -208,14 +777,55 @@ msgstr ""
 "たとえば、ゲームをエクスポートするための完全なコマンド(以下に説明する)は次の"
 "ようになります:"
 
+msgid ""
+"When starting from a subdirectory of your project, use the ``--upwards`` "
+"argument for Godot to automatically find the ``project.godot`` file by "
+"recursively searching the parent directories."
+msgstr ""
+"プロジェクトのサブディレクトリから開始する場合は、Godot の ``--upwards`` 引数"
+"を使用して、親ディレクトリを再帰的に検索し、 ``project.godot`` ファイルを自動"
+"的に見つけます。"
+
+msgid ""
+"For example, running a scene (as explained below) nested in a subdirectory "
+"might look like this when your working directory is in the same path:"
+msgstr ""
+"たとえば、作業ディレクトリが同じパスにある場合、サブディレクトリにネストされ"
+"たシーン (以下で説明) を実行すると、次のようになります。"
+
 msgid "Creating a project"
 msgstr "プロジェクトの作成"
+
+msgid ""
+"Creating a project from the command line can be done by navigating the shell "
+"to the desired place and making a ``project.godot`` file."
+msgstr ""
+"コマンドラインからプロジェクトを作成するには、シェルを目的の場所に移動して "
+"``project.godot`` ファイルを作成します。"
 
 msgid "The project can now be opened with Godot."
 msgstr "これで、Godotでプロジェクトを開くことができます。"
 
 msgid "Running the editor"
 msgstr "エディタの実行"
+
+msgid ""
+"Running the editor is done by executing Godot with the ``-e`` flag. This "
+"must be done from within the project directory or by setting the project "
+"path as explained above, otherwise the command is ignored and the Project "
+"Manager appears."
+msgstr ""
+"エディタを実行するには、Godotに ``-e`` フラグを付けて実行します。これは、プロ"
+"ジェクトディレクトリ内から実行するか、上で説明したようにプロジェクトパスを設"
+"定する必要があります。そうしないとコマンドは無視され、プロジェクトマネー"
+"ジャーが表示されます。"
+
+msgid ""
+"When passing in the full path to the ``project.godot`` file, the ``-e`` flag "
+"may be omitted."
+msgstr ""
+"``project.godot`` ファイルへのフルパスを渡す場合、 ``-e`` フラグは省略できま"
+"す。"
 
 msgid ""
 "If a scene has been created and saved, it can be edited later by running the "
@@ -227,8 +837,32 @@ msgstr ""
 msgid "Erasing a scene"
 msgstr "シーンの削除"
 
+msgid ""
+"Godot is friends with your filesystem and will not create extra metadata "
+"files. Use ``rm`` to erase a scene file. Make sure nothing references that "
+"scene. Otherwise, an error will be thrown upon opening the project."
+msgstr ""
+"Godot はファイルシステムと連携しており、追加のメタデータファイルを作成するこ"
+"とはありません。シーン ファイルを消去するには ``rm`` を使用します。そのシーン"
+"を参照するものがないことを確認してください。そうしないと、プロジェクトを開い"
+"たときにエラーが発生します。"
+
 msgid "Running the game"
 msgstr "ゲームの実行"
+
+msgid ""
+"To run the game, execute Godot within the project directory or with the "
+"project path as explained above."
+msgstr ""
+"ゲームを実行するには、プロジェクトディレクトリ内または上記で説明したプロジェ"
+"クトパスを使用して Godot を実行します。"
+
+msgid ""
+"Note that passing in the ``project.godot`` file will always run the editor "
+"instead of running the game."
+msgstr ""
+"``project.godot`` ファイルを渡すと、ゲームが実行されずに常にエディターが実行"
+"されることに注意してください。"
 
 msgid ""
 "When a specific scene needs to be tested, pass that scene to the command "
@@ -240,8 +874,36 @@ msgstr ""
 msgid "Debugging"
 msgstr "デバッグ"
 
+msgid ""
+"Catching errors in the command line can be a difficult task because they "
+"scroll quickly. For this, a command line debugger is provided by adding ``-"
+"d``. It works for running either the game or a single scene."
+msgstr ""
+"コマンドラインはすぐにスクロールしてしまうため、これでエラーを検出するのは困"
+"難な場合があります。そのため ``-d`` を追加することでコマンドラインデバッガー"
+"が利用できるようになっています。これはゲームまたは単一シーンの実行で機能しま"
+"す。"
+
 msgid "Exporting"
 msgstr "エクスポート"
+
+msgid ""
+"Exporting the project from the command line is also supported. This is "
+"especially useful for continuous integration setups."
+msgstr ""
+"コマンドラインからのプロジェクトのエクスポートもサポートされています。これは"
+"継続的インテグレーション(CI)のセットアップに特に便利です。"
+
+msgid ""
+"Using the ``--headless`` command line argument is **required** on platforms "
+"that do not have GPU access (such as continuous integration). On platforms "
+"with GPU access, ``--headless`` prevents a window from spawning while the "
+"project is exporting."
+msgstr ""
+"GPU アクセスのないプラットフォーム (継続的インテグレーションなど) では、 ``--"
+"headless`` コマンドライン引数の使用が **必須** です。GPU アクセスのあるプラッ"
+"トフォームでは、 ``--headless`` によりプロジェクトのエクスポート中にウィンド"
+"ウが起動されなくなります。"
 
 msgid ""
 "The preset name must match the name of an export preset defined in the "
@@ -254,12 +916,54 @@ msgstr ""
 "ペースや特殊文字を含んでいる場合 (\"Windows Desktop\"のような)、クォート "
 "(\"や') で囲まれている必要があります。"
 
+msgid ""
+"To export a debug version of the game, use the ``--export-debug`` switch "
+"instead of ``--export-release``. Their parameters and usage are the same."
+msgstr ""
+"ゲームのデバッグバージョンをエクスポートするには、 ``--export-release`` の代"
+"わりに ``--export-debug`` スイッチを使用します。パラメーターと使用方法は同じ"
+"です。"
+
+msgid ""
+"To export only a PCK file, use the ``--export-pack`` option followed by the "
+"preset name and output path, with the file extension, instead of ``--export-"
+"release`` or ``--export-debug``. The output path extension determines the "
+"package's format, either PCK or ZIP."
+msgstr ""
+"PCKファイルのみをエクスポートしたい場合、 ``--export-release`` または ``--"
+"export-debug`` の代わりに ``--export-pack`` を用い、後ろにプリセット名と拡張"
+"子付きの出力パスを付けてください。出力パスの拡張子によって、パッケージの形式 "
+"(PCK または ZIP) が決まります。"
+
+msgid ""
+"When specifying a relative path as the path for ``--export-release``, ``--"
+"export-debug`` or ``--export-pack``, the path will be relative to the "
+"directory containing the ``project.godot`` file, **not** relative to the "
+"current working directory."
+msgstr ""
+"`--export-release` 、 `--export-debug` 、 `--export-pack` を使用する際にパス"
+"を相対パスで指定する場合、パスはカレントディレクトリに対する相対パスではな"
+"く、 ``project.godot`` ファイルを含むディレクトリに対する相対パスになります。"
+
 msgid "Running a script"
 msgstr "スクリプトの実行"
+
+msgid ""
+"It is possible to run a ``.gd`` script from the command line. This feature "
+"is especially useful in large projects, e.g. for batch conversion of assets "
+"or custom import/export."
+msgstr ""
+"コマンドラインから ``.gd`` スクリプトを実行することができます。この機能はア"
+"セットのバッチ変換やカスタムのインポート/エクスポートなど、大規模なプロジェク"
+"トで特に役立ちます。"
 
 msgid "The script must inherit from ``SceneTree`` or ``MainLoop``."
 msgstr ""
 "スクリプトは ``SceneTree`` または ``MainLoop`` から継承する必要があります。"
+
+msgid "Here is an example ``sayhello.gd``, showing how it works:"
+msgstr ""
+"以下は ``sayhello.gd`` のサンプルで、どのように動作するかを示しています。"
 
 msgid "And how to run it:"
 msgstr "実行方法:"
@@ -289,6 +993,3 @@ msgstr ""
 "もし上記の例があなたのLinuxかmacOSのバージョンで動かない場合、次のようにGodot"
 "の場所を直接指定することで、どんなときでもシェバングにGodotを実行させることが"
 "できます:"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

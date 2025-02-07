@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -100,6 +100,3 @@ msgstr ""
 "Это также повлияет на то, как объект отображается в окне просмотра Blender. "
 "В большинстве случаев вы хотите, чтобы ваша геометрия столкновения была "
 "прозрачной при работе с моделями, так что это работает довольно хорошо."
-
-msgid "Translation status"
-msgstr "Статус перевода"

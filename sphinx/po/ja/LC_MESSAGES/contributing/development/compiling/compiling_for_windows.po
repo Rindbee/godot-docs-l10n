@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -189,6 +189,3 @@ msgstr ""
 "この場合はコピーする必要はなく、Godotのソースフォルダ内にある ``bin\\`` ディ"
 "レクトリに出力されたファイルを指定するだけです。こうすれば、次にビルドした時"
 "も、自動的にカスタム テンプレートを参照するようになります。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

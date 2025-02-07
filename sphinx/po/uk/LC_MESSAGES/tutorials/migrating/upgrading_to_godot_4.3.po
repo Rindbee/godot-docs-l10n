@@ -1,0 +1,118 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Breaking changes"
+msgstr "Ломальні зміни"
+
+msgid ""
+"This article indicates whether each breaking change affects GDScript and "
+"whether the C# breaking change is *binary compatible* or *source compatible*:"
+msgstr ""
+"У цій статті вказується, чи кожна порушна зміна впливає на GDScript і чи є "
+"порушна зміна C# *бінарною сумісністю* чи *сумісною з джерелом*:"
+
+msgid ""
+"**Binary compatible** - Existing binaries will load and execute successfully "
+"without recompilation, and the run-time behavior won't change."
+msgstr ""
+"**Бінарна сумісність** – наявні двійкові файли завантажуватимуться та "
+"успішно виконуватимуться без повторної компіляції, а поведінка під час "
+"виконання не зміниться."
+
+msgid ""
+"**Source compatible** - Source code will compile successfully without "
+"changes when upgrading Godot."
+msgstr ""
+"**Сумісність із вихідним кодом** – вихідний код буде успішно скомпільовано "
+"без змін під час оновлення Godot."
+
+msgid "GDExtension"
+msgstr "GDеxtension"
+
+msgid "Change"
+msgstr "Зміна"
+
+msgid "GDScript Compatible"
+msgstr "Сумісність з GDScript"
+
+msgid "C# Binary Compatible"
+msgstr "C# двійковий сумісний"
+
+msgid "C# Source Compatible"
+msgstr "Сумісність із вихідним кодом C#"
+
+msgid "Introduced"
+msgstr "Введено"
+
+msgid "|❌|"
+msgstr "|❌|"
+
+msgid "Animation"
+msgstr "Анімація"
+
+msgid "**Animation**"
+msgstr "**Анімація**"
+
+msgid "|✔️|"
+msgstr "|✔️|"
+
+msgid "|✔️ with compat|"
+msgstr "|✔️ з compat|"
+
+msgid "GUI nodes"
+msgstr "Вузли GUI"
+
+msgid "Physics"
+msgstr "Фізика"
+
+msgid "Rendering"
+msgstr "Рендеринг"
+
+msgid "**RenderingDevice**"
+msgstr "**RenderingDevice**"
+
+msgid "**RenderingServer**"
+msgstr "**RenderingServer**"
+
+msgid "Text"
+msgstr "текст"
+
+msgid "**Font**"
+msgstr "**Шрифт**"
+
+msgid "**RichTextLabel**"
+msgstr "**RichTextLabel**"
+
+msgid "Audio"
+msgstr "Аудіо"
+
+msgid "Navigation"
+msgstr "Навігація"
+
+msgid "TileMap"
+msgstr "Плитка карти"
+
+msgid "XR"
+msgstr "ИКСР"
+
+msgid "Editor plugins"
+msgstr "Додатки редактора"
+
+msgid "Behavior changes"
+msgstr "Зміни поведінки"
+
+msgid "Core"
+msgstr "Ядро"
+
+msgid "Android"
+msgstr "Android"

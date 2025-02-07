@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -159,6 +159,3 @@ msgstr ""
 "Importowanie doda także tłumaczenie do listy tłumaczeń w chwili wczytywania "
 "gry, ustalonych w project.godot (lub ustawieniach projektu). Godot pozwala "
 "także na wczytywanie i usuwanie tłumaczeń w czasie działania programu."
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

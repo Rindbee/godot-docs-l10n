@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -244,15 +244,6 @@ msgid "**SchlickGGX:** The most common blob used by PBR 3D engines nowadays."
 msgstr "** ShlickGGX:** 現在PBR 3D引擎使用的最常見的blob."
 
 msgid ""
-"**Blinn:** Common in previous-generation engines. Not worth using nowadays, "
-"but left here for the sake of compatibility."
-msgstr ""
-"**Blinn:** 在上一代引擎中很常見. 現在不值得使用, 但為了相容性而留在這裡."
-
-msgid "**Phong:** Same as above."
-msgstr "** Phong:** 同上."
-
-msgid ""
 "**Toon:** Creates a toon blob, which changes size depending on roughness."
 msgstr "**Toon:** 建立一個toon blob, 根據粗糙度改變大小."
 
@@ -473,17 +464,6 @@ msgstr ""
 
 msgid "Height"
 msgstr "光照"
-
-msgid ""
-"Setting a depth map on a material produces a ray-marched search to emulate "
-"the proper displacement of cavities along the view direction. This is not "
-"real added geometry, but an illusion of depth. It may not work for complex "
-"objects, but it produces a realistic depth effect for textures. For best "
-"results, *Depth* should be used together with normal mapping."
-msgstr ""
-"在材質上設定深度貼圖會做一個ray-marching搜索, 以模擬沿視圖方向的空穴的正確位"
-"移. 這不是真正增加的幾何, 而是一種深度的幻覺. 它可能不適用於複雜的物件, 但它"
-"會為紋理產生逼真的深度效果. 為獲得最佳效果,*Depth* 應與法線貼圖一起使用."
 
 msgid "Subsurface Scattering"
 msgstr "次表面散射"
@@ -819,11 +799,3 @@ msgstr ""
 
 msgid "Next Pass"
 msgstr "下一階段"
-
-msgid ""
-"Sets the material to be used for the next pass. This renders the object "
-"again with a different material."
-msgstr "設定下一個頻道要使用的材質。這會使用不同的材質再次算繪該物件。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

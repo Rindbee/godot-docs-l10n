@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,15 +47,6 @@ msgstr ""
 "Esteja ciente de que existem, de maneira geral, dois tipos diferentes de "
 "assets que você pode postar."
 
-msgid ""
-"Other assets show up inside of the Godot editor under the \"AssetLib\" main "
-"screen tab, next to \"2D\", \"3D\", and \"Script\". These assets are meant "
-"to be downloaded and placed into an existing Godot project."
-msgstr ""
-"Outros assets são exibidos no editor do Godot na aba \"AssetLib\" da tela "
-"principal, ao lado de \"2D\", \"3D\" e \"Script\". Esses assets devem ser "
-"baixados e colocados em um projeto do Godot existente."
-
 msgid "Frequently asked questions"
 msgstr "Perguntas Frequentes"
 
@@ -70,6 +61,3 @@ msgstr ""
 "Não para a oficial, embora no futuro possa haver outras bibliotecas de "
 "assets que permitam. Dito isso, você tem permissão para monetizar e vender "
 "assets do Godot fora da Biblioteca de Assets."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

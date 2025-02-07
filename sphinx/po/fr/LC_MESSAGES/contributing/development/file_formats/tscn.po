@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -89,6 +89,15 @@ msgstr "``groups``"
 msgid "NodePath"
 msgstr "NodePath"
 
+msgid ""
+"For instance, MeshInstance3D uses ``NodePath()`` to point to its skeleton. "
+"Likewise, Animation tracks use ``NodePath()`` to point to node properties to "
+"animate."
+msgstr ""
+"Par exemple, MeshInstance3D utilise ``NodePath()`` pour pointer vers son "
+"squelette. De même, les pistes d'animation utilisent ``NodePath()`` pour "
+"pointer vers les propriétés de nœud à animer."
+
 msgid "``position``: Vector3"
 msgstr "``position`` : Vector3"
 
@@ -103,6 +112,15 @@ msgstr "AnimationPlayer"
 
 msgid "Resources"
 msgstr "Ressources"
+
+msgid ""
+"Resources are components that make up the nodes. For example, a "
+"MeshInstance3D node will have an accompanying ArrayMesh resource. The "
+"ArrayMesh resource may be either internal or external to the TSCN file."
+msgstr ""
+"Les ressources sont les éléments qui composent les nœuds. Pour exemple, un "
+"nœud MeshInstance3D aura une ressource ArrayMesh associée. La ressource "
+"ArrayMesh peut être interne ou externe au fichier TSCN."
 
 msgid ""
 "Godot always generates absolute paths relative to the resource directory and "
@@ -144,11 +162,14 @@ msgstr ""
 msgid "ArrayMesh"
 msgstr "ArrayMesh"
 
+msgid "``format``: The surface's buffer format."
+msgstr "``format`` : Le format de la mémoire tampon de la surface."
+
 msgid "``skin_data``: Bone weight data."
 msgstr "``skin_data``: Données de poids d'os."
 
+msgid "``vertex_data``: The vertex position data."
+msgstr "``vertex_data`` : Les données de position des sommets."
+
 msgid "Animation"
 msgstr "Animation"
-
-msgid "Translation status"
-msgstr "État de la traduction"

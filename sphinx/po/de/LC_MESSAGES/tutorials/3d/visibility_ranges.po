@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -600,6 +600,3 @@ msgstr ""
 "Dither**. Setzen Sie **Min Distanz** auf denselben Wert wie den "
 "Sichtbarkeitsbereich **Beginn**. Setzen Sie **Max Distanz** auf denselben "
 "Wert *plus* die Fading-Übergangsdistanz."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

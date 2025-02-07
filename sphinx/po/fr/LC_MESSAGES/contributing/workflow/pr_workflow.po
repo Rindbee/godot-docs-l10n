@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -202,14 +202,6 @@ msgstr ""
 
 msgid "To clone your fork from GitHub, use the following command:"
 msgstr "Pour cloner votre fork depuis GitHub, utilisez la commande suivante :"
-
-msgid ""
-"In our examples, the \"$\" character denotes the command line prompt on "
-"typical UNIX shells. It is not part of the command and should not be typed."
-msgstr ""
-"Dans nos exemples, le caractère \"$\" désigne l'invite de la ligne de "
-"commande sur les shells UNIX. Il ne fait pas partie de la commande et ne "
-"doit pas être tapé."
 
 msgid ""
 "After a little while, you should have a ``godot`` directory in your current "
@@ -848,6 +840,3 @@ msgid ""
 msgstr ""
 "Vous pouvez également supprimer la branche distante depuis PR GitHub elle-"
 "même, un bouton devrait apparaître une fois qu'elle a été fusionné ou fermé."
-
-msgid "Translation status"
-msgstr "État de la traduction"

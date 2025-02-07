@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -123,6 +123,3 @@ msgstr ""
 "Vous pouvez utiliser le plugin immédiatement après l'avoir activé ; il n'est "
 "pas nécessaire de redémarrer l'éditeur. De même, la désactivation d'un "
 "plugin peut être effectuée sans avoir à redémarrer l'éditeur."
-
-msgid "Translation status"
-msgstr "État de la traduction"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -42,26 +42,6 @@ msgstr ""
 "VisualShaderは、任意の :ref:`class_ShaderMaterial` で作成できます。 "
 "VisualShaderの使用を開始するには、選択したオブジェクトに新しい "
 "``ShaderMaterial`` を作成します。"
-
-msgid ""
-"Then assign a :ref:`class_VisualShader` resource to the ``Shader`` property."
-msgstr ""
-"次に、\\ :ref:`class_VisualShader` リソースを ``Shader`` プロパティに割り当て"
-"ます。"
-
-msgid ""
-"Click on the new ``Shader`` resource and the Create Shader dialog will open "
-"automatically. Change the Type option to VisualShader in the dropdown."
-msgstr ""
-"新しい ``Shader`` リソースをクリックすると、\"シェーダの作成\"ダイアログが自"
-"動的に開きます。ドロップダウンで型オプションを VisualShader に変更します。"
-
-msgid ""
-"The layout of the Visual Shader Editor comprises two parts: the upper "
-"toolbar and the graph itself."
-msgstr ""
-"ビジュアルシェーダーエディタのレイアウトは、上部のツールバーとグラフ自体の2つ"
-"の部分で構成されます。"
 
 msgid "From left to right in the toolbar:"
 msgstr "ツールバーの左から右へ:"
@@ -198,18 +178,6 @@ msgstr ""
 msgid "These ports are colored to differentiate type of port:"
 msgstr "これらのポートは、ポートの型を区別するために色分けされています。"
 
-msgid "scalar"
-msgstr "スカラー"
-
-msgid "vector"
-msgstr "ベクトル"
-
-msgid "transform"
-msgstr "トランスフォーム"
-
-msgid "sampler"
-msgstr "サンプラー"
-
 msgid "Port types"
 msgstr "ポートの型"
 
@@ -228,14 +196,14 @@ msgstr "サンプル"
 msgid "Scalar"
 msgstr "スカラー"
 
-msgid "Cyan"
-msgstr "シアン"
-
 msgid "Scalar is a single value."
 msgstr "スカラーは単一の値です。"
 
 msgid "|scalar|"
 msgstr "|スカラー|"
+
+msgid "scalar"
+msgstr "スカラー"
 
 msgid "Vector"
 msgstr "ベクトル"
@@ -249,11 +217,11 @@ msgstr "ベクトルは値の集合です。"
 msgid "|vector|"
 msgstr "|ベクトル|"
 
+msgid "vector"
+msgstr "ベクトル"
+
 msgid "Boolean"
 msgstr "ブーリアン"
-
-msgid "Blue"
-msgstr "青"
 
 msgid "On or off, true or false."
 msgstr "オンかオフか、真か偽か。"
@@ -262,10 +230,7 @@ msgid "|boolean|"
 msgstr "|ブーリアン|"
 
 msgid "Transform"
-msgstr "トランスフォーム"
-
-msgid "Orange"
-msgstr "オレンジ"
+msgstr "Transform (トランスフォーム)"
 
 msgid "A matrix, usually used to transform vertices."
 msgstr "行列。通常は頂点を変換するために使用されます。"
@@ -273,17 +238,23 @@ msgstr "行列。通常は頂点を変換するために使用されます。"
 msgid "|transform|"
 msgstr "|トランスフォーム|"
 
+msgid "transform"
+msgstr "トランスフォーム"
+
 msgid "Sampler"
 msgstr "サンプラー"
 
-msgid "Yellow"
-msgstr "黄"
+msgid "Orange"
+msgstr "オレンジ"
 
 msgid "A texture sampler. It can be used to sample textures."
 msgstr "テクスチャサンプラー。テクスチャのサンプリングで使用します。"
 
 msgid "|sampler|"
 msgstr "|サンプラー|"
+
+msgid "sampler"
+msgstr "サンプラー"
 
 msgid ""
 "All of the types are used in the calculations of vertices, fragments, and "
@@ -390,6 +361,3 @@ msgstr ""
 "``Switch`` ノードは、ブール条件が ``true`` または ``false`` の場合にベクトル"
 "を返します。\\ ``Boolean`` は、上記で導入されました。ベクトルを真(true)のブー"
 "ル値に変換する場合、ベクトルのすべての要素はゼロより上でなければなりません。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

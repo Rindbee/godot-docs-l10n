@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -154,6 +154,3 @@ msgstr ""
 "節點，並且不需要以任何方式在場景編輯器中標記節點。然而，這種方法很慢。場景唯"
 "一節點由 Godot 快取，並且可以快速檢索，但每次呼叫該方法時，``find_child()`` "
 "都需要檢查每個後代（每個孩子、孫子等）。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

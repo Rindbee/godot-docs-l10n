@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,26 +11,246 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GDScript documentation comments"
+msgstr "GDScriptドキュメントコメント"
+
+msgid ""
+"In GDScript, comments can be used to document your code and add descriptions "
+"to the members of a script. There are two differences between a normal "
+"comment and a documentation comment. Firstly, a documentation comment should "
+"start with double hash symbols ``##``. Secondly, it must immediately precede "
+"a script member, or for script descriptions, be placed at the top of the "
+"script. If an exported variable is documented, its description is used as a "
+"tooltip in the editor. This documentation can be generated as XML files by "
+"the editor."
+msgstr ""
+"GDScriptではコメントを使用してコードをドキュメント化し、スクリプトのメンバー"
+"に説明を追加できます。通常のコメントとドキュメントコメントには2つの違いがあり"
+"ます。まずドキュメントのコメントは二重ハッシュ記号 ``##`` で始まる必要があり"
+"ます。次にスクリプトメンバーの直前に配置するか、スクリプトの説明の場合はスク"
+"リプトの先頭に配置する必要があります。エクスポートされた変数がドキュメント化"
+"されている場合、その説明はエディタのツールチップとして使用されます。このド"
+"キュメントは、エディタによってXMLファイルとして生成できます。"
+
+msgid "Documenting a script"
+msgstr "スクリプトのドキュメント化"
+
+msgid ""
+"Comments documenting a script must come before any member documentation. A "
+"suggested format for script documentation can be divided into three parts."
+msgstr ""
+"スクリプトをドキュメント化するコメントは、メンバーのドキュメントよりも前に配"
+"置する必要があります。スクリプトドキュメントの推奨形式は次の3つのセクションに"
+"分けることができます。"
+
+msgid "A brief description of the script."
+msgstr "スクリプトの概要 (簡単な説明)。"
+
+msgid "Detailed description."
+msgstr "スクリプトの詳細な説明。"
+
+msgid "Tutorials and deprecated/experimental marks."
+msgstr "チュートリアルと非推奨/実験的マーク。"
+
+msgid ""
+"To separate these from each other, the documentation comments use special "
+"tags. The tag must be at the beginning of a line (ignoring preceding white "
+"space) and must have the format ``@``, followed by the keyword."
+msgstr ""
+"これらを互いに区別するために、ドキュメントのコメントは特別なタグが使用されま"
+"す。タグは行の先頭にあり (前の空白は無視されます)、 ``@`` の後にキーワードが"
+"続く形式でなければなりません。"
+
 msgid "Tags"
 msgstr "タグ"
+
+msgid "Brief description"
+msgstr "概要"
+
+msgid "No tag. Lives at the very beginning of the documentation section."
+msgstr "タグはありません。ドキュメントセクションの最初にあります。"
 
 msgid "Description"
 msgstr "説明"
 
+msgid "No tag. Use one blank line to separate the description from the brief."
+msgstr "タグはありません。概要と説明を区切るには、1行の空白行を使用します。"
+
+msgid "Tutorial"
+msgstr "チュートリアル"
+
+msgid "``@tutorial: https://example.com``"
+msgstr "``@tutorial: https://example.com``"
+
+msgid "``@tutorial(The Title Here): https://example.com``"
+msgstr "``@tutorial(The Title Here): https://example.com``"
+
 msgid "Deprecated"
 msgstr "非推奨"
 
-msgid "Function"
-msgstr "関数"
+msgid "``@deprecated``"
+msgstr "``@deprecated``"
+
+msgid "``@deprecated: Use [AnotherClass] instead.``"
+msgstr "``@deprecated: Use [AnotherClass] instead.``"
+
+msgid "Experimental"
+msgstr "実験的"
+
+msgid "``@experimental``"
+msgstr "``@experimental``"
+
+msgid "``@experimental: This class is unstable.``"
+msgstr "``@experimental: This class is unstable.``"
+
+msgid ""
+"If there is any space in between the tag name and colon, for example "
+"``@tutorial  :``, it won't be treated as a valid tag and will be ignored."
+msgstr ""
+"``@tutorial :`` のようにタグ名とコロンの間にスペースがある場合、有効なタグと"
+"して扱われず無視されます。"
+
+msgid ""
+"When the description spans multiple lines, the preceding and trailing white "
+"spaces will be stripped and joined with a single space. To preserve the line "
+"break use ``[br]``. See also `BBCode and class reference`_ below."
+msgstr ""
+"説明が複数行にまたがる場合、前後の空白は削除され単一の空白で結合されます。改"
+"行を保持するには ``[br]`` を使用します。以下の `BBCode とクラスリファレンス"
+"`_ も参照してください。"
+
+msgid "Documenting script members"
+msgstr "スクリプトメンバーのドキュメント化"
+
+msgid "Members that are applicable for documentation:"
+msgstr "ドキュメント化の対象となるメンバー:"
 
 msgid "Signal"
 msgstr "シグナル"
 
-msgid "Variable"
-msgstr "変数"
+msgid "Enum"
+msgstr "列挙型"
 
 msgid "Enum value"
 msgstr "列挙値"
+
+msgid "Constant"
+msgstr "定数"
+
+msgid "Variable"
+msgstr "変数"
+
+msgid "Function"
+msgstr "関数"
+
+msgid "Inner class"
+msgstr "内部クラス"
+
+msgid ""
+"Documentation of a script member must immediately precede the member or its "
+"annotations if it has any. The description can have more than one line but "
+"every line must start with the double hash symbol ``##`` to be considered as "
+"part of the documentation."
+msgstr ""
+"スクリプトメンバーのドキュメントは、メンバーまたはそのアノテーション (ある場"
+"合) の直前に置く必要があります。説明には複数行を含めることができますが、ド"
+"キュメントの一部としてみなされるには、すべての行が二重ハッシュ記号 ``##`` で"
+"始まる必要があります。"
+
+msgid "No tag."
+msgstr "タグはありません。"
+
+msgid "``@deprecated: Use [member another] instead.``"
+msgstr "``@deprecated: Use [member another] instead.``"
+
+msgid "``@experimental: This method is incomplete.``"
+msgstr "``@experimental: This method is incomplete.``"
+
+msgid "Alternatively, you can use inline documentation comments::"
+msgstr "もしくはインラインドキュメントのコメントを使用することもできます::"
+
+msgid ""
+"The script documentation will update in the editor help window every time "
+"the script is updated. If any member variable or function name starts with "
+"an underscore, it will be treated as private. It will not appear in the "
+"documentation and will be ignored in the help window."
+msgstr ""
+"スクリプトのドキュメントは、スクリプトが更新されるたびにエディターのヘルプ"
+"ウィンドウで更新されます。なおメンバー変数または関数名がアンダースコアで始ま"
+"る場合はプライベートとして扱われます。これはドキュメントには表示されず、ヘル"
+"プウィンドウでは無視されます。"
+
+msgid "Complete script example"
+msgstr "スクリプトの例"
+
+msgid "``@deprecated`` and ``@experimental`` tags"
+msgstr "``@deprecated`` タグと ``@experimental`` タグ"
+
+msgid ""
+"You can mark a class or any of its members as deprecated or experimental. "
+"This will add the corresponding indicator in the built-in documentation "
+"viewer. Optionally, you can provide a short message explaining why the API "
+"is not recommended. This can be especially useful for plugin and library "
+"creators."
+msgstr ""
+"クラスまたはそのメンバーを非推奨または実験的としてマークできます。これにより"
+"対応するアイコンが組み込みドキュメントビューアに追加されます。オプションでAPI"
+"が推奨されない理由を説明する短いメッセージを提供できます。これはプラグインや"
+"ライブラリの作成者にとって特に役立ちます。"
+
+msgid ""
+"**Deprecated** marks a non-recommended API that is subject to removal or "
+"incompatible change in a future major release. Usually the API is kept for "
+"backwards compatibility."
+msgstr ""
+"**非推奨** は将来のメジャーリリースで削除または互換性のない変更が行われる可能"
+"性があるAPIを示します。通常、非推奨APIは下位互換性のために保持されます。"
+
+msgid ""
+"**Experimental** marks a new unstable API that may be changed or removed in "
+"the current major branch. Using this API is not recommended in production "
+"code."
+msgstr ""
+"**実験的** は現在のメジャーブランチで変更または削除される可能性がある新しい不"
+"安定なAPIを示します。この API を製品コードで使用することは推奨されません。"
+
+msgid ""
+"While technically you can use both ``@deprecated`` and ``@experimental`` "
+"tags on the same class/member, this is not recommended as it is against "
+"common conventions."
+msgstr ""
+"技術的には同じクラス/メンバー上で ``@deprecated`` タグと ``@experimental`` タ"
+"グの両方を使用できますが、一般的な規則に反するため、これはお勧めできません。"
+
+msgid "BBCode and class reference"
+msgstr "BBCodeとクラスリファレンス"
+
+msgid ""
+"Godot's class reference supports BBCode-like tags. They add nice formatting "
+"to the text which could also be used in the documentation. See also :ref:"
+"`class reference bbcode <doc_class_reference_bbcode>`. Note that this is "
+"slightly different from the ``RichTextLabel`` :ref:`BBCode "
+"<doc_bbcode_in_richtextlabel>`."
+msgstr ""
+"Godotのクラスリファレンスは、BBCodeのようなタグをサポートしています。これらに"
+"より、テキストに素敵な書式を追加し、ドキュメントでも使用できます。 :ref:"
+"`class reference bbcode <doc_class_reference_bbcode>` も参照してください。こ"
+"れは ``RichTextLabel`` :ref:`BBCode <doc_bbcode_in_richtextlabel>` とは少し異"
+"なることに注意してください。"
+
+msgid ""
+"Whenever you link to a member of another class, you need to specify the "
+"class name. For links to the same class, the class name is optional and can "
+"be omitted."
+msgstr ""
+"別のクラスのメンバーにリンクするときは、必ずクラス名を指定する必要がありま"
+"す。同じクラスへのリンクの場合はクラス名はオプションであり省略できます。"
+
+msgid "Here's the list of available tags:"
+msgstr "利用可能なタグのリストは次のとおりです。"
+
+msgid "Tag and Description"
+msgstr "タグと説明"
 
 msgid "Example"
 msgstr "サンプル"
@@ -38,14 +258,263 @@ msgstr "サンプル"
 msgid "Result"
 msgstr "結果"
 
+msgid "``[Class]``"
+msgstr "``[Class]``"
+
+msgid "Link to class"
+msgstr "クラスへのリンク"
+
+msgid "``Move the [Sprite2D].``"
+msgstr "``Move the [Sprite2D].``"
+
+msgid "Move the :ref:`class_Sprite2D`."
+msgstr "\\ Move the :ref:`class_Sprite2D`."
+
+msgid "``[annotation Class.name]``"
+msgstr "``[annotation Class.name]``"
+
+msgid "Link to annotation"
+msgstr "アノテーションへのリンク"
+
+msgid "``See [annotation @GDScript.@rpc].``"
+msgstr "``See [annotation @GDScript.@rpc].``"
+
+msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+msgstr "\\ See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+
+msgid "``[constant Class.name]``"
+msgstr "``[constant Class.name]``"
+
+msgid "Link to constant"
+msgstr "定数へのリンク"
+
+msgid "``See [constant Color.RED].``"
+msgstr "``[constant Color.RED]を参照。``"
+
+msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
+msgstr ":ref:`Color.RED <class_Color_constant_RED>` を参照。"
+
+msgid "``[enum Class.name]``"
+msgstr "``[enum Class.name]``"
+
+msgid "Link to enum"
+msgstr "列挙型へのリンク"
+
+msgid "``See [enum Mesh.ArrayType].``"
+msgstr "``See [enum Mesh.ArrayType].``"
+
+msgid "See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
+msgstr "\\ See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
+
+msgid "``[member Class.name]``"
+msgstr "``[member Class.name]``"
+
+msgid "Link to member (property)"
+msgstr "メンバー(プロパティ)へのリンク"
+
+msgid "``Get [member Node2D.scale].``"
+msgstr "``Get [member Node2D.scale].``"
+
+msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
+msgstr "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
+
+msgid "``[method Class.name]``"
+msgstr "``[method Class.name]``"
+
+msgid "Link to method"
+msgstr "メソッドへのリンク"
+
+msgid "``Call [method Node3D.hide].``"
+msgstr "``Call [method Node3D.hide].``"
+
+msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
+msgstr "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
+
+msgid "``[constructor Class.name]``"
+msgstr "``[constructor Class.name]``"
+
+msgid "Link to built-in constructor"
+msgstr "組み込みコンストラクターへのリンク"
+
+msgid "``Use [constructor Color.Color].``"
+msgstr "``Use [constructor Color.Color].``"
+
+msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
+msgstr "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
+
+msgid "``[operator Class.name]``"
+msgstr "``[operator Class.name]``"
+
+msgid "Link to built-in operator"
+msgstr "組み込み演算子へのリンク"
+
+msgid "``Use [operator Color.operator *].``"
+msgstr "``Use [operator Color.operator *].``"
+
+msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+msgstr "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+
+msgid "``[signal Class.name]``"
+msgstr "``[signal Class.name]``"
+
+msgid "Link to signal"
+msgstr "シグナルへのリンク"
+
+msgid "``Emit [signal Node.renamed].``"
+msgstr "``Emit [signal Node.renamed].``"
+
+msgid "Emit :ref:`Node.renamed <class_Node_signal_renamed>`."
+msgstr "\\ Emit :ref:`Node.renamed <class_Node_signal_renamed>`."
+
+msgid "``[theme_item Class.name]``"
+msgstr "``[theme_item Class.name]``"
+
+msgid "Link to theme item"
+msgstr "テーマアイテムへのリンク"
+
+msgid "``See [theme_item Label.font].``"
+msgstr "``See [theme_item Label.font].``"
+
+msgid "See :ref:`Label.font <class_Label_theme_font_font>`."
+msgstr "\\ See :ref:`Label.font <class_Label_theme_font_font>`."
+
+msgid "``[param name]``"
+msgstr "``[param name]``"
+
+msgid "Parameter name (as code)"
+msgstr "パラメータ名 (コードとして)"
+
+msgid "``Takes [param size] for the size.``"
+msgstr "``Takes [param size] for the size.``"
+
+msgid "Takes ``size`` for the size."
+msgstr "\\ Takes ``size`` for the size."
+
+msgid "``[br]``"
+msgstr "``[br]``"
+
+msgid "Line break"
+msgstr "改行"
+
+msgid "``Line 1.[br]``"
+msgstr "``Line 1.[br]``"
+
+msgid "``Line 2.``"
+msgstr "``Line 2.``"
+
+msgid "Line 1."
+msgstr "Line 1."
+
+msgid "Line 2."
+msgstr "Line 2."
+
+msgid "``[lb]`` ``[rb]``"
+msgstr "``[lb]`` ``[rb]``"
+
+msgid "``[`` and ``]`` respectively"
+msgstr "``[`` と ``]``"
+
+msgid "``[lb]b[rb]text[lb]/b[rb]``"
+msgstr "``[lb]b[rb]text[lb]/b[rb]``"
+
+msgid "[b]text[/b]"
+msgstr "[b]text[/b]"
+
+msgid "``[b]`` ``[/b]``"
+msgstr "``[b]`` ``[/b]``"
+
 msgid "Bold"
 msgstr "太字"
+
+msgid "``Do [b]not[/b] call this method.``"
+msgstr "``Do [b]not[/b] call this method.``"
+
+msgid "Do **not** call this method."
+msgstr "\\ Do **not** call this method."
+
+msgid "``[i]`` ``[/i]``"
+msgstr "``[i]`` ``[/i]``"
 
 msgid "Italic"
 msgstr "斜体"
 
+msgid "``Returns the [i]global[/i] position.``"
+msgstr "``Returns the [i]global[/i] position.``"
+
+msgid "Returns the *global* position."
+msgstr "\\ Returns the *global* position."
+
+msgid "``[u]`` ``[/u]``"
+msgstr "``[u]`` ``[/u]``"
+
+msgid "Underline"
+msgstr "下線"
+
+msgid "``[u]Always[/u] use this method.``"
+msgstr "``[u]Always[/u] use this method.``"
+
+msgid "``[s]`` ``[/s]``"
+msgstr "``[s]`` ``[/s]``"
+
+msgid "Strikethrough"
+msgstr "取り消し線"
+
+msgid "``[s]Outdated information.[/s]``"
+msgstr "``[s]Outdated information.[/s]``"
+
+msgid "``[color]`` ``[/color]``"
+msgstr "``[color]`` ``[/color]``"
+
 msgid "Color"
 msgstr "色"
+
+msgid "``[color=red]Error![/color]``"
+msgstr "``[color=red]Error![/color]``"
+
+msgid "``[font]`` ``[/font]``"
+msgstr "``[font]`` ``[/font]``"
+
+msgid "Font"
+msgstr "フォント"
+
+msgid "``[font=res://mono.ttf]LICENSE[/font]``"
+msgstr "``[font=res://mono.ttf]LICENSE[/font]``"
+
+msgid "``[img]`` ``[/img]``"
+msgstr "``[img]`` ``[/img]``"
+
+msgid "Image"
+msgstr "画像"
+
+msgid "``[img width=32]res://icon.svg[/img]``"
+msgstr "``[img width=32]res://icon.svg[/img]``"
+
+msgid "``[url]`` ``[/url]``"
+msgstr "``[url]`` ``[/url]``"
+
+msgid "Hyperlink"
+msgstr "ハイパーリンク"
+
+msgid "``[url]https://example.com[/url]``"
+msgstr "``[url]https://example.com[/url]``"
+
+msgid "``[url=https://example.com]Website[/url]``"
+msgstr "``[url=https://example.com]Website[/url]``"
+
+msgid "https://example.com"
+msgstr "https://example.com"
+
+msgid "`Website <https://example.com>`_"
+msgstr "`Website <https://example.com>`_"
+
+msgid "``[center]`` ``[/center]``"
+msgstr "``[center]`` ``[/center]``"
+
+msgid "Horizontal centering"
+msgstr "水平方向のセンタリング"
+
+msgid "``[center]2 + 2 = 4[/center]``"
+msgstr "``[center]2 + 2 = 4[/center]``"
 
 msgid "``[kbd]`` ``[/kbd]``"
 msgstr "``[kbd]`` ``[/kbd]``"
@@ -53,11 +522,77 @@ msgstr "``[kbd]`` ``[/kbd]``"
 msgid "Keyboard/mouse shortcut"
 msgstr "キーボードとマウスのショートカット"
 
+msgid "``Press [kbd]Ctrl + C[/kbd].``"
+msgstr "``Press [kbd]Ctrl + C[/kbd].``"
+
+msgid "Press :kbd:`Ctrl + C`."
+msgstr "\\ Press :kbd:`Ctrl + C`."
+
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
+
+msgid "Inline code fragment"
+msgstr "インラインのコードフラグメント"
+
+msgid "``Returns [code]true[/code].``"
+msgstr "``Returns [code]true[/code].``"
+
+msgid "Returns ``true``."
+msgstr "\\ Returns ``true``."
+
+msgid "``[codeblock]``"
+msgstr "``[codeblock]``"
+
+msgid "``[/codeblock]``"
+msgstr "``[/codeblock]``"
+
+msgid "Multiline code block"
+msgstr "複数行のコードブロック"
 
 msgid "*See below.*"
 msgstr "*下記参照。*"
 
-msgid "Translation status"
-msgstr "翻訳ステータス"
+msgid "Currently only :ref:`class_@GDScript` has annotations."
+msgstr "現在、アノテーションがあるのは :ref:`class_@GDScript` のみです。"
+
+msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
+msgstr ""
+"``[kbd]`` は、パーサーが ``[/kbd]`` に遭遇するまで BBCode を無効にします。"
+
+msgid "``[code]`` disables BBCode until the parser encounters ``[/code]``."
+msgstr ""
+"``[code]`` は、パーサーが ``[/code]`` に遭遇するまで BBCode を無効にします。"
+
+msgid ""
+"``[codeblock]`` disables BBCode until the parser encounters ``[/codeblock]``."
+msgstr ""
+"``[codeblock]`` は、パーサーが ``[/codeblock]`` に遭遇するまで BBCode を無効"
+"にします。"
+
+msgid ""
+"Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, "
+"always use **four spaces** for indentation (the parser will delete tabs)."
+msgstr ""
+"事前にフォーマットされたコードブロックには ``[codeblock]`` を使用します。 "
+"``[codeblock]`` 内では、インデントには常に **4 つのスペース**を使用してくださ"
+"い (パーサーはタブを削除します)。"
+
+msgid ""
+"By default, ``[codeblock]`` highlights GDScript syntax. You can change it "
+"using the ``lang`` attribute. Currently supported options are:"
+msgstr ""
+"デフォルトでは ``[codeblock]`` は GDScript 構文をハイライトします。これは "
+"``lang`` 属性を使用して言語を変更できます。現在サポートされているオプションは"
+"次のとおりです。"
+
+msgid "``[codeblock lang=text]`` disables syntax highlighting;"
+msgstr "``[codeblock lang=text]`` は構文のハイライトを無効にします;"
+
+msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
+msgstr "``[codeblock lang=gdscript]`` は GDScript 構文をハイライトします;"
+
+msgid ""
+"``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
+msgstr ""
+"``[codeblock lang=csharp]`` は C# 構文をハイライトします (.NET バージョンの"
+"み)。"

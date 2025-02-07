@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -124,6 +124,3 @@ msgstr ""
 "자손 관계에서 AnimationPlayer를 공유하므로 더 적은 AnimationPlayers를 만듭니"
 "다. 여러 리깅을 해야 할 때나, 각 Skeleton과 Mesh가 동작을 가질 때 유용합니다 "
 "이렇게 하면 하나의 리깅은 하나의 AnimationPlayer만 있으면 됩니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

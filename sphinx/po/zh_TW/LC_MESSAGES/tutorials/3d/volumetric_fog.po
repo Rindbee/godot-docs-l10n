@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -600,6 +600,3 @@ msgid ""
 msgstr ""
 "或者，如果您將四邊形放置在其所有角落都處於實體幾何形狀中的方式，則可以停用廣"
 "告看板。這對於相機無法進入的大型平面（例如無底坑）的霧化非常有用。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

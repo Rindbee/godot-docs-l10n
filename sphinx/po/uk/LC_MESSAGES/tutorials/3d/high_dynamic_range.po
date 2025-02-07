@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,17 @@ msgstr "Освітлення з високим динамічним діапаз
 
 msgid "Introduction"
 msgstr "Вступ"
+
+msgid ""
+"Normally, an artist does all the 3D modeling, then all the texturing, looks "
+"at their awesome looking model in the 3D modeling software and says \"looks "
+"fantastic, ready for integration!\" then goes into the game, lighting is "
+"setup and the game runs."
+msgstr ""
+"Зазвичай художник виконує все 3D-моделювання, потім усе текстурування, "
+"дивиться на свою чудову модель у програмі для 3D-моделювання та каже: "
+"«Виглядає фантастично, готова до інтеграції!» потім переходить у гру, "
+"освітлення налаштовано та гра запускається."
 
 msgid ""
 "So at what point does all this \"HDR\" business come into play? To "
@@ -140,6 +151,18 @@ msgstr ""
 msgid "Scene linear & asset pipelines"
 msgstr "Лінійні сцени та канали активів"
 
+msgid ""
+"Working in scene-linear sRGB is more complex than pressing a single switch. "
+"First, imported image assets must be converted to linear light ratios on "
+"import. Even when linearized, those assets may not be perfectly well-suited "
+"for use as textures, depending on how they were generated."
+msgstr ""
+"Робота в сценично-лінійному sRGB складніша, ніж натискання одного "
+"перемикача. По-перше, імпортовані об’єкти зображення мають бути перетворені "
+"на лінійні коефіцієнти освітленості під час імпорту. Навіть у "
+"лінеаризованому вигляді ці ресурси можуть бути не зовсім придатними для "
+"використання як текстури, залежно від того, як вони були згенеровані."
+
 msgid "There are two ways to do this:"
 msgstr "Зробити це можна двома способами:"
 
@@ -212,6 +235,3 @@ msgstr ""
 "більшості випадків вони знаходяться всередині вузла :ref:`WorldEnvironment "
 "<class_WorldEnvironment>`, або камери. Для отримання додаткових відомостей "
 "дивіться :ref:`doc_environment_and_post_processing`."
-
-msgid "Translation status"
-msgstr "Стан перекладу"

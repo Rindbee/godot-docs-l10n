@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -44,6 +44,16 @@ msgstr ""
 msgid "Bone Weights"
 msgstr "骨骼权重"
 
+msgid ""
+"Blender puts rigged mesh vertices which have no bone weights at their "
+"original position, but these vertices would be placed at (0, 0, 0) in Godot, "
+"making the mesh deformed. Therefore, the exporter will raise an error for "
+"any vertex with no bone weights detected in a rigged mesh."
+msgstr ""
+"Blender在其原始位置放置了没有骨骼权重的已绑定网格顶点，但是这些顶点将放置在"
+"Godot中的 (0, 0, 0) 处，从而使网格形变. 因此，对于在绑定网格中未检测到骨骼权"
+"重的任何顶点，导出器都会引发错误。"
+
 msgid "Non-Deform Bone"
 msgstr "非形变骨骼"
 
@@ -64,6 +74,3 @@ msgid ""
 msgstr ""
 "在 Blender 中，骨骼可以是对象的父对象；此关系将作为 Godot 场景中的 "
 "BoneAttachment 节点导出。"
-
-msgid "Translation status"
-msgstr "翻译状态"

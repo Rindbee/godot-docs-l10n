@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -92,6 +92,3 @@ msgstr ""
 "線, 在新增頂點時, 呼叫 ``add_smooth_group()`` . ``add_smooth_group()`` 需要在"
 "建立幾何體時呼叫, 例如在呼叫 ``add_vertex()`` (如果沒有索引)或 "
 "``add_index()`` (如果有索引)之前."
-
-msgid "Translation status"
-msgstr "翻譯狀態"

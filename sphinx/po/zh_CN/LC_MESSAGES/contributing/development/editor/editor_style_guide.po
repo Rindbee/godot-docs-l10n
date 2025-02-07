@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -59,11 +59,6 @@ msgid ""
 msgstr ""
 "**在信息中使用双引号**\\ （\\ ``\"\"``\\ ）而不是单引号（\\ ``''``\\ ）。双引"
 "号应该被用来引用用户输入的信息，文件路径和可能的其他东西，这取决于上下文。"
-
-msgid ""
-"Try to follow the :ref:`doc_docs_writing_guidelines` in addition to the "
-"guidelines outlined above."
-msgstr "除了上述规范外，尽量遵循 :ref:`doc_docs_writing_guidelines`。"
 
 msgid "Button and menu texts"
 msgstr "按钮和菜单文本"
@@ -179,6 +174,3 @@ msgstr "**良好：**\\ *Computes global illumination for the selected GIProbe.*
 
 msgid "**Bad:** *Compute global illumination for the selected GIProbe.*"
 msgstr "**欠佳：**\\ *Compute global illumination for the selected GIProbe.*"
-
-msgid "Translation status"
-msgstr "翻译状态"

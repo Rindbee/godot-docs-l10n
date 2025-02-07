@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -142,17 +142,6 @@ msgstr ""
 "contribuir para o editor ou desenvolver módulos C++."
 
 msgid ""
-"**Community** is dedicated to the life of Godot's community. It points to "
-"various community channels like the `Godot Contributors Chat <https://chat."
-"godotengine.org/>`_ and `Discord`_ and contains a list of recommended third-"
-"party tutorials and materials outside of this documentation."
-msgstr ""
-"**Comunidade** é dedicada à vida da comunidade de Godot. Ela lista os vários "
-"canais comunitários como o `Chat de Contribuintes do Godot <https://chat."
-"godotengine.org/>`_ e `Discord`_ e contém uma lista de tutoriais e materiais "
-"de terceiros recomendados fora desta documentação."
-
-msgid ""
 "Finally, the **Class reference** documents the full Godot API, also "
 "available directly within the engine's script editor. You can find "
 "information on all classes, functions, signals and so on here."
@@ -207,6 +196,3 @@ msgstr ""
 
 msgid "*Have fun reading and making games with Godot Engine!*"
 msgstr "*Divirta-se lendo e fazendo jogos com Godot Engine!*"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

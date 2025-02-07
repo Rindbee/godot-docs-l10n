@@ -1,0 +1,23 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Godot's architecture diagram"
+msgstr "கோடோட்டின் கட்டிடக்கலை வரைபடம்"
+
+msgid ""
+"The following diagram describes the architecture used by Godot, from the "
+"core components down to the abstracted drivers, via the scene structure and "
+"the servers."
+msgstr ""
+"பின்வரும் வரைபடம் கோடோட் பயன்படுத்தும் கட்டமைப்பை விவரிக்கிறது, முக்கிய கூறுகள் முதல் "
+"சுருக்கமான இயக்கிகள் வரை, காட்சி அமைப்பு மற்றும் சேவையகங்கள் வழியாக."

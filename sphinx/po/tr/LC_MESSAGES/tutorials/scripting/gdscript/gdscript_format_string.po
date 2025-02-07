@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,29 +13,6 @@ msgstr ""
 
 msgid "GDScript format strings"
 msgstr "GDScript biçim dizeleri"
-
-msgid ""
-"Format strings are just like normal strings, except they contain certain "
-"placeholder character-sequences. These placeholders can then easily be "
-"replaced by parameters handed to the format string."
-msgstr ""
-"Biçim dizeleri normal dizeler gibidir, ancak belirli yer tutucu karakter-"
-"dizeleri barındırırlar. Bu yer tutucular, daha sonra verilen parametrelerle "
-"kolayca yer değiştirilebilir."
-
-msgid ""
-"As an example, with ``%s`` as a placeholder, the format string ``\"Hello %s, "
-"how are you?\"`` can easily be changed to ``\"Hello World, how are you?\"``. "
-"Notice the placeholder is in the middle of the string; modifying it without "
-"format strings could be cumbersome."
-msgstr ""
-"Bir örnek olarak, ``%s`` yer tutucusunu kullanarak, ``\"Merhaba %s, nasılsın?"
-"\"`` biçimleme dizesi kolaylıkla ``\"Merhaba Dünya, nasılsın?\"`` olarak "
-"değiştirilebilir. Yer tutucunun dizenin ortasında olduğuna dikkat edin; "
-"biçimleme dizeleri olmadan böyle bir değişikliği yapmak çok daha zor olurdu."
-
-msgid "Usage in GDScript"
-msgstr "GDScript içinde Kullanımı"
 
 msgid ""
 "Placeholders always start with a ``%``, but the next character or "
@@ -51,6 +28,3 @@ msgstr "Dolgulama"
 
 msgid "Prefix"
 msgstr "Ön Ek"
-
-msgid "Translation status"
-msgstr "Çeviri durumu"

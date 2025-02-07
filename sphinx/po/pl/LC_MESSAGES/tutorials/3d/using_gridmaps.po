@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -73,6 +73,3 @@ msgstr ""
 "Utwórz nową scenę i dodaj węzeł GridMap. Dodaj mesh library, przeciągając "
 "plik źródłowy z panelu - system plików i upuszczając go w właściwości "
 "\"Temat\" w inspektorze."
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

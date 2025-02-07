@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -198,6 +198,3 @@ msgstr ""
 "Если ваш значок не отображается должным образом, в Windows 10 попробуйте "
 "очистить кеш значков. Для этого откройте диалоговое окно **Выполнить** и "
 "введите ``ie4uinit.exe -ClearIconCache`` или ``ie4uinit.exe -show``."
-
-msgid "Translation status"
-msgstr "Статус перевода"

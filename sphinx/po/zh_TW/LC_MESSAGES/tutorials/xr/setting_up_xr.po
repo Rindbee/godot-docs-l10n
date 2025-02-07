@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -266,6 +266,3 @@ msgid ""
 "For the rest of this basic tutorial series we will create a game that uses a "
 "single scene."
 msgstr "在本基本教學系列的其餘部分中，我們將建立一個使用單一場景的遊戲。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

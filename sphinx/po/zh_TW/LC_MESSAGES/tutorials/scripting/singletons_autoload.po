@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -245,6 +245,3 @@ msgstr ""
 "另外，若載入時間沒有很長的話 (如小於 3 秒等)，也可以在場景更改前顯示一些 2D "
 "元素來製造出「載入磚 (Loading Plaque)」的效果。場景更改完後就可以將這些元素隱"
 "藏起來。這種做法可以用來讓玩家知道場景正在載入。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -100,6 +100,3 @@ msgid ""
 msgstr ""
 "例如，\\ **不会**\\ 包含名为 ``_example/image.png`` 的资产，但是会包含 "
 "``_image.png``\\ 。"
-
-msgid "Translation status"
-msgstr "翻译状态"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -71,6 +71,3 @@ msgstr ""
 "發送此通知將通知所有節點有關程式終止的信息，但不會終止程式本身*與 3.X 中不同"
 "*。為了實作前面的行為，應該在通知後呼叫 SceneTree.quit "
 "<class_SceneTree_method_quit>` 。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

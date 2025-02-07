@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,6 +29,3 @@ msgid ""
 msgstr ""
 "2D 메시가 어떻게 생성될 지에 대한 미리보기를 보여주는 대화 상자가 나타날 겁니"
 "다:"
-
-msgid "Translation status"
-msgstr "번역 상태"

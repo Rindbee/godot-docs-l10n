@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,9 +32,6 @@ msgstr "**disable_velocity**"
 msgid "Built-in"
 msgstr "Wbudowany"
 
-msgid "Global time, in seconds."
-msgstr "Czas globalny ,w sekundach."
-
 msgid "Function"
 msgstr "Funkcja"
 
@@ -43,6 +40,3 @@ msgstr "Czas życia cząsteczki."
 
 msgid "Delta process time."
 msgstr "Czas od ostatniej klatki."
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

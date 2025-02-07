@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,19 +27,19 @@ msgid "**windows**"
 msgstr "**Windows**"
 
 msgid "**macos**"
-msgstr "**macOS**"
+msgstr "**macos**"
 
 msgid "**linux**"
-msgstr "**Alpine Linux**"
+msgstr "**linux**"
 
 msgid "**bsd**"
 msgstr "**bsd**"
 
 msgid "**linuxbsd**"
-msgstr "**Alpine Linux**"
+msgstr "**linuxbsd**"
 
 msgid "**android**"
-msgstr "**Android**"
+msgstr "**android**"
 
 msgid "**ios**"
 msgstr "**ios**"
@@ -60,10 +60,10 @@ msgid "Architecture"
 msgstr "架構"
 
 msgid "**double**"
-msgstr "**mobile**"
+msgstr "**double**"
 
 msgid "**single**"
-msgstr "**mobile**"
+msgstr "**single**"
 
 msgid "**x86_64**"
 msgstr "**x86_64**"
@@ -72,13 +72,13 @@ msgid "**arm64**"
 msgstr "**arm64**"
 
 msgid "**rv64**"
-msgstr "**64**"
+msgstr "**rv64**"
 
 msgid "**riscv**"
 msgstr "**riscv**"
 
 msgid "**wasm32**"
-msgstr "**32**"
+msgstr "**wasm32**"
 
 msgid "For example:"
 msgstr "如："
@@ -89,6 +89,3 @@ msgid ""
 msgstr ""
 "該路徑應指向 16 x 16 像素的 SVG 影像。閱讀建立圖示 <doc_editor_icons> 指南以"
 "取得更多資訊。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

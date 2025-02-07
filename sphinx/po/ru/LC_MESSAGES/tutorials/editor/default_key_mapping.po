@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -15,20 +15,7 @@ msgid "cheatsheet, cheat sheet, shortcut"
 msgstr "шпоргалка, шпора, сокращение"
 
 msgid "Default editor shortcuts"
-msgstr "Стандартные сочетания клавиш"
-
-msgid ""
-"Many of Godot Editor functions can be executed with keyboard shortcuts. This "
-"page lists functions which have associated shortcuts by default, but many "
-"others are available for customization in editor settings as well. To change "
-"keys associated with these and other actions navigate to ``Editor -> Editor "
-"Settings -> Shortcuts``."
-msgstr ""
-"Многие функции Godot могут быть вызваны с помощью сочетаний клавиш на "
-"клавиатуре. На этой странице перечислены функции, которые по умолчанию имеют "
-"сочетание горячих клавиш, но многие другие также доступны для персональной "
-"настройки. Чтобы изменить сочетания клавиш относительно действий пройдите в "
-"``Редактор -> Настройки редактора -> Горячие клавиши``."
+msgstr "Стандартные сочетания клавиш редактора"
 
 msgid ""
 "While some actions are universal, a lot of shortcuts are specific to "
@@ -36,10 +23,10 @@ msgid ""
 "to be assigned to more than one function. The correct action will be "
 "performed depending on the context."
 msgstr ""
-"Когда как некоторые действия универсальны, многие из горячих клавиш отвечают "
-"за конкретные инструменты. В связи с этим возможным является назначение "
-"одной и той же комбинации сразу к нескольким действиям. Нужное действие "
-"будет совершаться зависимо от контекста."
+"Одни действия универсальны, многие другие из горячих клавиш отвечают за "
+"конкретные инструменты. В связи с этим возможным является назначение одной и "
+"той же комбинации сразу к нескольким действиям. Нужное действие будет "
+"совершаться зависимо от контекста."
 
 msgid ""
 "While Windows and Linux builds of the editor share most of the default "
@@ -48,14 +35,11 @@ msgid ""
 "standard shortcuts on that OS should find Godot Editor's default key mapping "
 "intuitive."
 msgstr ""
-"Windows и Linux версии редактора делят многие стандартные настройки, "
-"некоторые сочетания для версии macOS могут отличаться. Это сделано для "
-"лучшей интеграции редактора в экосистему macOS. Пользователи привыкшие к "
+"Windows и Linux версии редакторы делят многие стандартные настройки, "
+"некоторые сочетания клавиш для версии macOS могут отличаться. Это сделано "
+"для лучшей интеграции редактора в экосистему macOS. Пользователи привыкшие к "
 "сочетаниям клавиш для конкретной ОС найдут стандартные сочетания клавиш "
 "интуитивными."
-
-msgid "General Editor Actions"
-msgstr "Общие действия редактора"
 
 msgid "Action name"
 msgstr "Имя действия"
@@ -75,6 +59,9 @@ msgstr "Открыть 2D-редактор"
 msgid ":kbd:`Ctrl + F1`"
 msgstr ":kbd:`Ctrl + F1`"
 
+msgid ":kbd:`Opt + 1`"
+msgstr ":kbd:`Opt + 1`"
+
 msgid "``editor/editor_2d``"
 msgstr "``editor/editor_2d``"
 
@@ -83,6 +70,9 @@ msgstr "Открыть 3D-редактор"
 
 msgid ":kbd:`Ctrl + F2`"
 msgstr ":kbd:`Ctrl + F2`"
+
+msgid ":kbd:`Opt + 2`"
+msgstr ":kbd:`Opt + 2`"
 
 msgid "``editor/editor_3d``"
 msgstr "``editor/editor_3d``"
@@ -93,14 +83,20 @@ msgstr "Открыть редактор скриптов"
 msgid ":kbd:`Ctrl + F3`"
 msgstr ":kbd:`Ctrl + F3`"
 
+msgid ":kbd:`Opt + 3`"
+msgstr ":kbd:`Opt + 3`"
+
 msgid "``editor/editor_script``"
 msgstr "``editor/editor_script``"
 
 msgid "Search Help"
-msgstr "Справка"
+msgstr "Поиск в справке"
 
 msgid ":kbd:`F1`"
 msgstr ":kbd:`F1`"
+
+msgid ":kbd:`Opt + Space`"
+msgstr ":kbd:`Opt + Space`"
 
 msgid "``editor/editor_help``"
 msgstr "``editor/editor_help``"
@@ -146,6 +142,9 @@ msgstr "Фильтр файлов"
 
 msgid ":kbd:`Ctrl + Alt + P`"
 msgstr ":kbd:`Ctrl + Alt + P`"
+
+msgid ":kbd:`Opt + Cmd + P`"
+msgstr ":kbd:`Opt + Cmd + P`"
 
 msgid "``editor/filter_files``"
 msgstr "``editor/filter_files``"
@@ -216,6 +215,9 @@ msgstr "Сохранить все сцены"
 msgid ":kbd:`Ctrl + Shift + Alt + S`"
 msgstr ":kbd:`Ctrl + Shift + Alt + S`"
 
+msgid ":kbd:`Cmd + Shift + Opt + S`"
+msgstr ":kbd:`Cmd + Shift + Opt + S`"
+
 msgid "``editor/save_all_scenes``"
 msgstr "``editor/save_all_scenes``"
 
@@ -224,6 +226,9 @@ msgstr "Быстрое открытие"
 
 msgid ":kbd:`Shift + Alt + O`"
 msgstr ":kbd:`Shift + Alt + O`"
+
+msgid ":kbd:`Shift + Opt + O`"
+msgstr ":kbd:`Shift + Opt + O`"
 
 msgid "``editor/quick_open``"
 msgstr "``editor/quick_open``"
@@ -245,6 +250,9 @@ msgstr "Быстро открыть скрипт"
 
 msgid ":kbd:`Ctrl + Alt + O`"
 msgstr ":kbd:`Ctrl + Alt + O`"
+
+msgid ":kbd:`Opt + Cmd + O`"
+msgstr ":kbd:`Opt + Cmd + O`"
 
 msgid "``editor/quick_open_script``"
 msgstr "``editor/quick_open_script``"
@@ -290,6 +298,9 @@ msgstr "Выйти в список проектов"
 
 msgid ":kbd:`Ctrl + Shift + Q`"
 msgstr ":kbd:`Ctrl + Shift + Q`"
+
+msgid ":kbd:`Shift + Opt + Q`"
+msgstr ":kbd:`Shift + Opt + Q`"
 
 msgid "``editor/quit_to_project_list``"
 msgstr "``editor/quit_to_project_list``"
@@ -352,7 +363,7 @@ msgid ":kbd:`Cmd + .`"
 msgstr ":kbd:`Cmd + .`"
 
 msgid "``editor/stop``"
-msgstr "``редактор/остановить``"
+msgstr "``editor/stop``"
 
 msgid "Play Scene"
 msgstr "Запустить сцену"
@@ -367,7 +378,7 @@ msgid "``editor/play_scene``"
 msgstr "``editor/play_scene``"
 
 msgid "Play Custom Scene"
-msgstr "Запустить произвольную сцену"
+msgstr "Запустить выбранную сцену"
 
 msgid ":kbd:`Ctrl + Shift + F5`"
 msgstr ":kbd:`Ctrl + Shift + F5`"
@@ -387,8 +398,14 @@ msgstr ":kbd:`Shift + F12`"
 msgid "``editor/bottom_panel_expand``"
 msgstr "``editor/bottom_panel_expand``"
 
-msgid "2D / Canvas Item Editor"
-msgstr "2D / Редактор элементов холста"
+msgid ":kbd:`Ctrl + Shift + P`"
+msgstr ":kbd:`Ctrl + Shift + P`"
+
+msgid ":kbd:`Cmd + Shift + P`"
+msgstr ":kbd:`Cmd + Shift + P`"
+
+msgid ":kbd:`Alt + F`"
+msgstr ":kbd:`Alt + F`"
 
 msgid "Zoom In"
 msgstr "Приблизить"
@@ -564,12 +581,6 @@ msgstr "``canvas_item_editor/frame_selection``"
 msgid "Preview Canvas Scale"
 msgstr "Предпросмотр масштаба холста"
 
-msgid ":kbd:`Ctrl + Shift + P`"
-msgstr ":kbd:`Ctrl + Shift + P`"
-
-msgid ":kbd:`Cmd + Shift + P`"
-msgstr ":kbd:`Cmd + Shift + P`"
-
 msgid "``canvas_item_editor/preview_canvas_scale``"
 msgstr "``canvas_item_editor/preview_canvas_scale``"
 
@@ -615,9 +626,6 @@ msgstr ":kbd:`Shift + K`"
 msgid "``canvas_item_editor/anim_clear_pose``"
 msgstr "``canvas_item_editor/anim_clear_pose``"
 
-msgid "3D / Spatial Editor"
-msgstr "3D"
-
 msgid "Toggle Freelook"
 msgstr "Включить свободный вид"
 
@@ -643,7 +651,7 @@ msgid "``spatial_editor/freelook_right``"
 msgstr "``spatial_editor/freelook_right``"
 
 msgid "Freelook Forward"
-msgstr "Обзор вперёд"
+msgstr "Свободный обзор вперёд"
 
 msgid "``spatial_editor/freelook_forward``"
 msgstr "``spatial_editor/freelook_forward``"
@@ -655,7 +663,7 @@ msgid "``spatial_editor/freelook_backwards``"
 msgstr "``spatial_editor/freelook_backwards``"
 
 msgid "Freelook Up"
-msgstr "Свободный вид, вверх"
+msgstr "Свободный обзор, вверх"
 
 msgid "``spatial_editor/freelook_up``"
 msgstr "``spatial_editor/freelook_up``"
@@ -667,7 +675,7 @@ msgid "``spatial_editor/freelook_down``"
 msgstr "``spatial_editor/freelook_down``"
 
 msgid "Freelook Speed Modifier"
-msgstr "Модификатор скорости свободного вида"
+msgstr "Модификатор скорости при свободном виде"
 
 msgid ":kbd:`Shift`"
 msgstr ":kbd:`Shift`"
@@ -676,10 +684,13 @@ msgid "``spatial_editor/freelook_speed_modifier``"
 msgstr "``spatial_editor/freelook_speed_modifier``"
 
 msgid "Freelook Slow Modifier"
-msgstr "Модификатор замедления свободного вида"
+msgstr "Модификатор замедления при свободном виде"
 
 msgid ":kbd:`Alt`"
 msgstr ":kbd:`Alt`"
+
+msgid ":kbd:`Opt`"
+msgstr ":kbd:`Opt`"
 
 msgid "``spatial_editor/freelook_slow_modifier``"
 msgstr "``spatial_editor/freelook_slow_modifier``"
@@ -735,6 +746,9 @@ msgstr "Вид снизу"
 msgid ":kbd:`Alt + Num 7`"
 msgstr ":kbd:`Alt + Num 7`"
 
+msgid ":kbd:`Opt + Num 7`"
+msgstr ":kbd:`Opt + Num 7`"
+
 msgid "``spatial_editor/bottom_view``"
 msgstr "``spatial_editor/bottom_view``"
 
@@ -753,6 +767,9 @@ msgstr "Вид сзади"
 msgid ":kbd:`Alt + Num 1`"
 msgstr ":kbd:`Alt + Num 1`"
 
+msgid ":kbd:`Opt + Num 1`"
+msgstr ":kbd:`Opt + Num 1`"
+
 msgid "``spatial_editor/rear_view``"
 msgstr "``spatial_editor/rear_view``"
 
@@ -770,6 +787,9 @@ msgstr "Вид слева"
 
 msgid ":kbd:`Alt + Num 3`"
 msgstr ":kbd:`Alt + Num 3`"
+
+msgid ":kbd:`Opt + Num 3`"
+msgstr ":kbd:`Opt + Num 3`"
 
 msgid "``spatial_editor/left_view``"
 msgstr "``spatial_editor/left_view``"
@@ -808,19 +828,25 @@ msgid "``spatial_editor/focus_selection``"
 msgstr "``spatial_editor/focus_selection``"
 
 msgid "Align Transform with View"
-msgstr "Выровнять трансформации с видом"
+msgstr "Выровнять трансформацию с видом"
 
 msgid ":kbd:`Ctrl + Alt + M`"
 msgstr ":kbd:`Ctrl + Alt + M`"
+
+msgid ":kbd:`Opt + Cmd + M`"
+msgstr ":kbd:`Opt + Cmd + M`"
 
 msgid "``spatial_editor/align_transform_with_view``"
 msgstr "``spatial_editor/align_transform_with_view``"
 
 msgid "Align Rotation with View"
-msgstr "Совместить поворот с направлением взгляда"
+msgstr "Выровнить поворот со взглядом"
 
 msgid ":kbd:`Ctrl + Alt + F`"
 msgstr ":kbd:`Ctrl + Alt + F`"
+
+msgid ":kbd:`Opt + Cmd + F`"
+msgstr ":kbd:`Opt + Cmd + F`"
 
 msgid "``spatial_editor/align_rotation_with_view``"
 msgstr "``spatial_editor/align_rotation_with_view``"
@@ -855,6 +881,9 @@ msgstr "2 Окна (другой)"
 msgid ":kbd:`Ctrl + Alt + 2`"
 msgstr ":kbd:`Ctrl + Alt + 2`"
 
+msgid ":kbd:`Opt + Cmd + 2`"
+msgstr ":kbd:`Opt + Cmd + 2`"
+
 msgid "``spatial_editor/2_viewports_alt``"
 msgstr "``spatial_editor/2_viewports_alt``"
 
@@ -876,6 +905,9 @@ msgstr "3 Окна (другой)"
 msgid ":kbd:`Ctrl + Alt + 3`"
 msgstr ":kbd:`Ctrl + Alt + 3`"
 
+msgid ":kbd:`Opt + Cmd + 3`"
+msgstr ":kbd:`Opt + Cmd + 3`"
+
 msgid "``spatial_editor/3_viewports_alt``"
 msgstr "``spatial_editor/3_viewports_alt``"
 
@@ -890,9 +922,6 @@ msgstr ":kbd:`Cmd + 4`"
 
 msgid "``spatial_editor/4_viewports``"
 msgstr "``spatial_editor/4_viewports``"
-
-msgid "Text Editor"
-msgstr "Текстовый редактор"
 
 msgid "Cut"
 msgstr "Вырезать"
@@ -1026,6 +1055,9 @@ msgstr "Переместить вверх"
 msgid ":kbd:`Alt + Up Arrow`"
 msgstr ":kbd:`Alt + Up Arrow`"
 
+msgid ":kbd:`Opt + Up Arrow`"
+msgstr ":kbd:`Opt + Стрелка Вверх`"
+
 msgid "``script_text_editor/move_up``"
 msgstr "``script_text_editor/move_up``"
 
@@ -1034,6 +1066,9 @@ msgstr "Переместить вниз"
 
 msgid ":kbd:`Alt + Down Arrow`"
 msgstr ":kbd:`Alt + Down Arrow`"
+
+msgid ":kbd:`Opt + Down Arrow`"
+msgstr ":kbd:`Opt + Down Arrow`"
 
 msgid "``script_text_editor/move_down``"
 msgstr "``script_text_editor/move_down``"
@@ -1065,8 +1100,8 @@ msgstr "``script_text_editor/toggle_comment``"
 msgid "Fold/Unfold Line"
 msgstr "Свернуть/развернуть строку"
 
-msgid ":kbd:`Alt + F`"
-msgstr ":kbd:`Alt + F`"
+msgid ":kbd:`Ctrl + Cmd + F`"
+msgstr ":kbd:`Ctrl + Cmd + F`"
 
 msgid "``script_text_editor/toggle_fold_line``"
 msgstr "``script_text_editor/toggle_fold_line``"
@@ -1079,6 +1114,9 @@ msgstr ":kbd:`Ctrl + Shift + D`"
 
 msgid ":kbd:`Cmd + Shift + C`"
 msgstr ":kbd:`Cmd + Shift + C`"
+
+msgid "``script_text_editor/duplicate_selection``"
+msgstr "``script_text_editor/duplicate_selection``"
 
 msgid "Complete Symbol"
 msgstr "Завершить символ"
@@ -1107,11 +1145,14 @@ msgstr "Обрезать замыкающие пробелы"
 msgid ":kbd:`Ctrl + Alt + T`"
 msgstr ":kbd:`Ctrl + Alt + T`"
 
+msgid ":kbd:`Opt + Cmd + T`"
+msgstr ":kbd:`Opt + Cmd + T`"
+
 msgid "``script_text_editor/trim_trailing_whitespace``"
 msgstr "``script_text_editor/trim_trailing_whitespace``"
 
 msgid "Uppercase"
-msgstr "ВЕРХНИЙ РЕГИСТР"
+msgstr "Верхний регистр"
 
 msgid ":kbd:`Shift + F4`"
 msgstr ":kbd:`Shift + F4`"
@@ -1120,7 +1161,7 @@ msgid "``script_text_editor/convert_to_uppercase``"
 msgstr "``script_text_editor/convert_to_uppercase``"
 
 msgid "Lowercase"
-msgstr "нижний регистр"
+msgstr "Нижний регистр"
 
 msgid ":kbd:`Shift + F5`"
 msgstr ":kbd:`Shift + F5`"
@@ -1129,7 +1170,7 @@ msgid "``script_text_editor/convert_to_lowercase``"
 msgstr "``script_text_editor/convert_to_lowercase``"
 
 msgid "Capitalize"
-msgstr "С Заглавных Букв"
+msgstr "С заглавных букв"
 
 msgid ":kbd:`Shift + F6`"
 msgstr ":kbd:`Shift + F6`"
@@ -1179,6 +1220,9 @@ msgstr "Переключить закладку"
 msgid ":kbd:`Ctrl + Alt + B`"
 msgstr ":kbd:`Ctrl + Alt + B`"
 
+msgid ":kbd:`Opt + Cmd + B`"
+msgstr ":kbd:`Opt + Cmd + B`"
+
 msgid "``script_text_editor/toggle_bookmark``"
 msgstr "``script_text_editor/toggle_bookmark``"
 
@@ -1192,7 +1236,7 @@ msgid "``script_text_editor/goto_next_bookmark``"
 msgstr "``script_text_editor/goto_next_bookmark``"
 
 msgid "Go to Previous Bookmark"
-msgstr "Переход к предыдущей закладке"
+msgstr "Перейти в предыдущую закладку"
 
 msgid "``script_text_editor/goto_previous_bookmark``"
 msgstr "``script_text_editor/goto_previous_bookmark``"
@@ -1240,7 +1284,7 @@ msgid "``script_text_editor/remove_all_breakpoints``"
 msgstr "``script_text_editor/remove_all_breakpoints``"
 
 msgid "Go to Next Breakpoint"
-msgstr "Переход к следующей точке останова"
+msgstr "Перейти к следующей точке останова"
 
 msgid ":kbd:`Ctrl + .`"
 msgstr ":kbd:`Ctrl + .`"
@@ -1266,11 +1310,11 @@ msgstr "Контекстная справка"
 msgid ":kbd:`Alt + F1`"
 msgstr ":kbd:`Alt + F1`"
 
+msgid ":kbd:`Opt + Shift + Space`"
+msgstr ":kbd:`Opt + Shift + Space`"
+
 msgid "``script_text_editor/contextual_help``"
 msgstr "``script_text_editor/contextual_help``"
-
-msgid "Script Editor"
-msgstr "Редактор скриптов"
 
 msgid "``script_editor/find``"
 msgstr "``script_editor/find``"
@@ -1287,11 +1331,17 @@ msgstr "``script_editor/find_in_files``"
 msgid ":kbd:`Shift + Alt + Up Arrow`"
 msgstr ":kbd:`Shift + Alt + Up Arrow`"
 
+msgid ":kbd:`Shift + Opt + Up Arrow`"
+msgstr ":kbd:`Shift + Opt + Up Arrow`"
+
 msgid "``script_editor/window_move_up``"
 msgstr "``script_editor/window_move_up``"
 
 msgid ":kbd:`Shift + Alt + Down Arrow`"
 msgstr ":kbd:`Shift + Alt + Down Arrow`"
+
+msgid ":kbd:`Shift + Opt + Down Arrow`"
+msgstr ":kbd:`Shift + Opt + Down Arrow`"
 
 msgid "``script_editor/window_move_down``"
 msgstr "``script_editor/window_move_down``"
@@ -1332,6 +1382,9 @@ msgstr "Сохранить"
 msgid ":kbd:`Ctrl + Alt + S`"
 msgstr ":kbd:`Ctrl + Alt + S`"
 
+msgid ":kbd:`Opt + Cmd + S`"
+msgstr ":kbd:`Opt + Cmd + S`"
+
 msgid "``script_editor/save``"
 msgstr "``script_editor/save``"
 
@@ -1353,6 +1406,9 @@ msgstr "Предыдущий файл"
 msgid ":kbd:`Alt + Left Arrow`"
 msgstr ":kbd:`Alt + Стрелка вниз`"
 
+msgid ":kbd:`Opt + Left Arrow`"
+msgstr ":kbd:`Opt + Стрелка влево`"
+
 msgid "``script_editor/history_previous``"
 msgstr "``script_editor/history_previous``"
 
@@ -1360,6 +1416,9 @@ msgid "History Next"
 msgstr "Следующий файл"
 
 msgid ":kbd:`Alt + Right Arrow`"
+msgstr ":kbd:`Alt + Стрелка вправо`"
+
+msgid ":kbd:`Opt + Right Arrow`"
 msgstr ":kbd:`Alt + Стрелка вправо`"
 
 msgid "``script_editor/history_next``"
@@ -1413,9 +1472,6 @@ msgstr "Сбросить приближение"
 msgid "``script_editor/reset_zoom``"
 msgstr "``script_editor/reset_zoom``"
 
-msgid "Editor Output"
-msgstr "Вывод редактора"
-
 msgid "Copy Selection"
 msgstr "Копировать выделенное"
 
@@ -1458,9 +1514,6 @@ msgstr ":kbd:`F12`"
 msgid "``debugger/continue``"
 msgstr "``debugger/continue``"
 
-msgid "File Dialog"
-msgstr "Файловое диалоговое окно"
-
 msgid "Go Back"
 msgstr "Назад"
 
@@ -1500,6 +1553,9 @@ msgstr "``file_dialog/toggle_hidden_files``"
 msgid "Toggle Favorite"
 msgstr "Избранное"
 
+msgid ":kbd:`Opt + F`"
+msgstr ":kbd:`Opt + F`"
+
 msgid "``file_dialog/toggle_favorite``"
 msgstr "``file_dialog/toggle_favorite``"
 
@@ -1508,6 +1564,9 @@ msgstr "Режим отображения"
 
 msgid ":kbd:`Alt + V`"
 msgstr ":kbd:`Alt + V`"
+
+msgid ":kbd:`Opt + V`"
+msgstr ":kbd:`Opt + V`"
 
 msgid "``file_dialog/toggle_mode``"
 msgstr "``file_dialog/toggle_mode``"
@@ -1539,12 +1598,6 @@ msgstr "``file_dialog/delete``"
 msgid "Focus Path"
 msgstr "Переместить фокус на строку пути"
 
-msgid ":kbd:`Ctrl + D`"
-msgstr ":kbd:`Ctrl + D`"
-
-msgid ":kbd:`Cmd + D`"
-msgstr ":kbd:`Cmd + D`"
-
 msgid "``file_dialog/focus_path``"
 msgstr "``file_dialog/focus_path``"
 
@@ -1572,9 +1625,6 @@ msgstr ":kbd:`Cmd + Стрелка вниз`"
 msgid "``file_dialog/move_favorite_down``"
 msgstr "``file_dialog/move_favorite_down``"
 
-msgid "FileSystem Dock"
-msgstr "Панель \"Файловая система\""
-
 msgid "Copy Path"
 msgstr "Копировать путь"
 
@@ -1584,14 +1634,17 @@ msgstr "``filesystem_dock/copy_path``"
 msgid "Duplicate"
 msgstr "Дублировать"
 
+msgid ":kbd:`Ctrl + D`"
+msgstr ":kbd:`Ctrl + D`"
+
+msgid ":kbd:`Cmd + D`"
+msgstr ":kbd:`Cmd + D`"
+
 msgid "``filesystem_dock/duplicate``"
 msgstr "``filesystem_dock/duplicate``"
 
 msgid "``filesystem_dock/delete``"
 msgstr "``filesystem_dock/delete``"
-
-msgid "Scene Tree Dock"
-msgstr "Панель дерева сцены"
 
 msgid "Add Child Node"
 msgstr "Добавить дочерний узел"
@@ -1610,6 +1663,12 @@ msgstr "``scene_tree/batch_rename``"
 
 msgid "Copy Node Path"
 msgstr "Копировать путь узла"
+
+msgid ":kbd:`Ctrl + Shift + C`"
+msgstr ":kbd:`Ctrl + Shift + C`"
+
+msgid ":kbd:`Cmd + Shift +  C`"
+msgstr ":kbd:`Cmd + Shift +  C`"
 
 msgid "``scene_tree/copy_node_path``"
 msgstr "``scene_tree/copy_node_path``"
@@ -1634,9 +1693,6 @@ msgstr "``scene_tree/move_up``"
 
 msgid "``scene_tree/move_down``"
 msgstr "``scene_tree/move_down``"
-
-msgid "Animation Track Editor"
-msgstr "Редактор анимационных дорожек"
 
 msgid "``animation_editor/duplicate_selection``"
 msgstr "``animation_editor/duplicate_selection``"
@@ -1680,29 +1736,101 @@ msgstr ":kbd:`Cmd + Стрелка влево`"
 msgid "``animation_editor/goto_prev_step``"
 msgstr "``animation_editor/goto_prev_step``"
 
-msgid "Tile Map Editor"
-msgstr "Редактор тайлов"
-
 msgid "Select"
 msgstr "Выбор"
+
+msgid "``tiles_editor/selection_tool``"
+msgstr "``tiles_editor/selection_tool``"
 
 msgid "Cut Selection"
 msgstr "Вырезать выделенное"
 
+msgid "``tiles_editor/cut``"
+msgstr "``tiles_editor/cut``"
+
+msgid "``tiles_editor/copy``"
+msgstr "``tiles_editor/copy``"
+
+msgid "Paste Selection"
+msgstr "Вставить выделенное"
+
+msgid "``tiles_editor/paste``"
+msgstr "``tiles_editor/paste``"
+
+msgid "``tiles_editor/delete``"
+msgstr "``tiles_editor/delete``"
+
 msgid "Cancel"
 msgstr "Отменить"
+
+msgid ":kbd:`Esc`"
+msgstr ":kbd:`Esc`"
+
+msgid "``tiles_editor/cancel``"
+msgstr "``tiles_editor/cancel``"
+
+msgid "Paint"
+msgstr "Покрасить"
+
+msgid "``tiles_editor/paint_tool``"
+msgstr "``tiles_editor/paint_tool``"
 
 msgid "Line"
 msgstr "Строка"
 
+msgid ":kbd:`L`"
+msgstr ":kbd:`L`"
+
+msgid "``tiles_editor/line_tool``"
+msgstr "``tiles_editor/line_tool``"
+
+msgid "Rect"
+msgstr "Прямоугольник"
+
+msgid "``tiles_editor/rect_tool``"
+msgstr "``tiles_editor/rect_tool``"
+
+msgid "Bucket"
+msgstr "Ведро"
+
+msgid ":kbd:`B`"
+msgstr ":kbd:`B`"
+
+msgid "``tiles_editor/bucket_tool``"
+msgstr "``tiles_editor/bucket_tool``"
+
+msgid "Picker"
+msgstr "Пипетка"
+
 msgid ":kbd:`P`"
 msgstr ":kbd:`P`"
+
+msgid "``tiles_editor/picker``"
+msgstr "``tiles_editor/picker``"
+
+msgid "Eraser"
+msgstr "Стиралка"
+
+msgid "``tiles_editor/eraser``"
+msgstr "``tiles_editor/eraser``"
 
 msgid "Flip Horizontally"
 msgstr "Перевернуть по горизонтали"
 
+msgid ":kbd:`C`"
+msgstr ":kbd:`C`"
+
+msgid "``tiles_editor/flip_tile_horizontal``"
+msgstr "``tiles_editor/flip_tile_horizontal``"
+
 msgid "Flip Vertically"
 msgstr "Перевернуть по вертикали"
+
+msgid ":kbd:`V`"
+msgstr ":kbd:`V`"
+
+msgid "``tiles_editor/flip_tile_vertical``"
+msgstr "``tiles_editor/flip_tile_vertical``"
 
 msgid "Rotate Left"
 msgstr "Повернуть влево"
@@ -1710,14 +1838,17 @@ msgstr "Повернуть влево"
 msgid ":kbd:`Z`"
 msgstr ":kbd:`Z`"
 
+msgid "``tiles_editor/rotate_tile_left``"
+msgstr "``tiles_editor/rotate_tile_left``"
+
 msgid "Rotate Right"
 msgstr "Повернуть вправо"
 
 msgid ":kbd:`X`"
 msgstr ":kbd:`X`"
 
-msgid "Tileset Editor"
-msgstr "Редактор набора плиток"
+msgid "``tiles_editor/rotate_tile_right``"
+msgstr "``tiles_editor/rotate_tile_right``"
 
 msgid "Next Coordinate"
 msgstr "Следующая координата"
@@ -1805,6 +1936,3 @@ msgstr ":kbd:`8`"
 
 msgid "``tileset_editor/editmode_z_index``"
 msgstr "``tileset_editor/editmode_z_index``"
-
-msgid "Translation status"
-msgstr "Статус перевода"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,18 +32,6 @@ msgstr ""
 "Se hai avuto esperienze con linguaggi staticamente tipizzati come C, C++, o "
 "C# ma non hai mai usato un linguaggio dinamicamente tipizzato, è consigliato "
 "che tu legga questo tutorial: :ref:`doc_gdscript_more_efficiently`."
-
-msgid "Language"
-msgstr "Lingua"
-
-msgid ""
-"In the following, an overview is given to GDScript. Details, such as which "
-"methods are available to arrays or other objects, should be looked up in the "
-"linked class descriptions."
-msgstr ""
-"In questa sezione viene data una panoramica di GDScript. Dettagli, come i "
-"metodi disponibili per array e altri oggetti, dovrebbero essere cercati "
-"nelle descrizioni delle classi."
 
 msgid "Identifiers"
 msgstr "Identificatori"
@@ -217,7 +205,7 @@ msgid "Defines a variable."
 msgstr "Definisce una variabile."
 
 msgid "breakpoint"
-msgstr "breakpoint"
+msgstr "Punto di interruzione"
 
 msgid "preload"
 msgstr "preload"
@@ -439,9 +427,6 @@ msgid "Associative container which contains values referenced by unique keys."
 msgstr ""
 "Contenitore associativo che contiene valori referenziati da chiavi uniche."
 
-msgid "Data"
-msgstr "Dati"
-
 msgid "Variables"
 msgstr "Variabili"
 
@@ -511,6 +496,3 @@ msgstr "Vedi :ref:`doc_running_code_in_the_editor` per maggiori informazioni."
 
 msgid "Signals"
 msgstr "Segnali"
-
-msgid "Translation status"
-msgstr "Stato della traduzione"

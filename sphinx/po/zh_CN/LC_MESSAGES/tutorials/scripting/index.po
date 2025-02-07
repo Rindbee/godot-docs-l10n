@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -43,6 +43,3 @@ msgid ""
 msgstr ""
 "有一些特性是由引擎提供的，可以在所有支持的语言中使用。无论你编码时使用的是 "
 "GDScript、C#，还是其他语言，下面的页面都能够帮你充分利用 Godot。"
-
-msgid "Translation status"
-msgstr "翻译状态"

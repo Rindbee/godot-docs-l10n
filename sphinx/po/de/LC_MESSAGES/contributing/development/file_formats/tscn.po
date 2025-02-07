@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -330,15 +330,6 @@ msgstr ""
 
 msgid "Skeleton3D"
 msgstr "Skeleton3D"
-
-msgid ""
-"The :ref:`class_Skeleton3D` node inherits the Node3D node, but may alsohave "
-"a list of bones described in key-value pairs in the format ``bones/<id>/"
-"<attribute> = value``. The bone attributes consist of:"
-msgstr ""
-"Der :ref:`class_Skeleton3D`-Node erbt den Node3D-Node, kann aber auch eine "
-"Liste von Knochen haben, die in Schlüssel-Wert-Paaren im Format ``bones/<id>/"
-"<attribute> = value`` beschrieben werden. Die Knochen-Attribute bestehen aus:"
 
 msgid "``position``: Vector3"
 msgstr "``position``: Vector3"
@@ -799,6 +790,3 @@ msgstr ""
 "(derzeit immer ``1``). Für 3D-Positions- und Skalierungs-Tracks sind ``X``, "
 "``Y``, ``Z`` die Koordinaten des Vector3. Für 3D-Rotationstracks sind ``X``, "
 "``Y``, ``Z`` und ``W`` die Koordinaten des Quaternions."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

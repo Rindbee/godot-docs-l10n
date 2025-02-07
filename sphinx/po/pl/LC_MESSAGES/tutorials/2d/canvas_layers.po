@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -152,6 +152,3 @@ msgstr ""
 "rysowane *za* niższymi w rzutni. Węzły 2D mają również właściwość :ref:"
 "`CanvasItem.z_index <class_CanvasItem_property_z_index>` do kontrolowania "
 "ich kolejności rysowania."
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

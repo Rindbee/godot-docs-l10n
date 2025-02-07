@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -592,6 +592,3 @@ msgid ""
 msgstr ""
 "Jetzt können Sie diesem Controller-Node Dinge hinzufügen, wie z. B. einen "
 "Raycast, und Dinge mit Ihren Augen steuern."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

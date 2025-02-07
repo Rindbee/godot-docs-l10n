@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Killing the player"
+msgstr "플레이어 죽이기"
 
 msgid "|image0|"
 msgstr "|image0|"
@@ -47,5 +50,5 @@ msgstr "|image5|"
 msgid "image5"
 msgstr "image5"
 
-msgid "Translation status"
-msgstr "번역 상태"
+msgid "Starting with ``main.gd``."
+msgstr "``main.gd`` 부터 시작합니다."

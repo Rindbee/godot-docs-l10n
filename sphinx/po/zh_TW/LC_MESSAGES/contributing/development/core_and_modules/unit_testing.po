@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -384,6 +384,9 @@ msgstr ""
 "為了緩解這個問題，請直接在測試案例中使用“ERR_PRINT_OFF”和“ERR_PRINT_ON”巨集來"
 "暫時停用來自引擎的錯誤輸出，例如："
 
+msgid "Description"
+msgstr "說明"
+
 msgid "Test tools"
 msgstr "2D 工具"
 
@@ -537,6 +540,3 @@ msgstr ""
 "如果您的測試案例要求腳本檔案中不存在「test()」函式，您可以透過命名腳本檔案來"
 "停用測試的執行時間部分，使其與模式「*.notest.gd」相符``。例如，"
 "「test_empty_file.notes.gd」。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

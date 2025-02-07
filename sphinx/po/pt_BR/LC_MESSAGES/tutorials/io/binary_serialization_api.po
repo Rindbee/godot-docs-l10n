@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -338,6 +338,18 @@ msgstr "X+4"
 msgid "16: :ref:`RID<class_rid>` (unsupported)"
 msgstr "16: :ref:`RID<class_rid>` (sem suporte)"
 
+msgid "Y"
+msgstr "Y"
+
+msgid "Z"
+msgstr "Z"
+
+msgid "Y+4+Z"
+msgstr "Y+4+Z"
+
+msgid "W"
+msgstr "W"
+
 msgid "18: :ref:`Dictionary<class_dictionary>`"
 msgstr "18: :ref:`Dictionary<class_dictionary>`"
 
@@ -388,6 +400,3 @@ msgstr "8..16+comprimento\\*16"
 
 msgid "8..20+length\\*16"
 msgstr "8..20+comprimento\\*16"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

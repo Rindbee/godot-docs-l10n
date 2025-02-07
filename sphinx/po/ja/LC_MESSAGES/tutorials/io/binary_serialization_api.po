@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -60,13 +60,13 @@ msgid "float"
 msgstr "\\ float"
 
 msgid "4"
-msgstr "\\ 4"
+msgstr "4"
 
 msgid "string"
 msgstr "\\ string"
 
 msgid "5"
-msgstr "\\ 5"
+msgstr "5"
 
 msgid "vector2"
 msgstr "\\ vector2"
@@ -99,13 +99,13 @@ msgid "10"
 msgstr "10"
 
 msgid "11"
-msgstr "\\ 11"
+msgstr "11"
 
 msgid "aabb"
 msgstr "\\ aabb"
 
 msgid "12"
-msgstr "\\ 12"
+msgstr "12"
 
 msgid "basis"
 msgstr "\\ basis"
@@ -444,6 +444,3 @@ msgstr "8..16+長さ\\*16"
 
 msgid "8..20+length\\*16"
 msgstr "8..20+長さ\\*16"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

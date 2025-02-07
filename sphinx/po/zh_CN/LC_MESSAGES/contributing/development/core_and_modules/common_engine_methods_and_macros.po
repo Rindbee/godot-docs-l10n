@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -188,6 +188,3 @@ msgid ""
 "Also, always try to return processable data so the engine can keep running "
 "well."
 msgstr "另外，总是尽量返回可处理的数据，这样引擎才能保持良好的运行。"
-
-msgid "Translation status"
-msgstr "翻译状态"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -172,9 +172,6 @@ msgstr "內建"
 msgid "in float **TIME**"
 msgstr "in float **TIME**"
 
-msgid "Global time, in seconds."
-msgstr "全球時間, 以秒為單位."
-
 msgid "in vec3 **POSITION**"
 msgstr "in vec3 **POSITION**"
 
@@ -313,6 +310,3 @@ msgstr "輸出 alpha 值，只能在子通道中使用。"
 
 msgid "out vec4 **FOG**"
 msgstr "out vec4 **FOG**"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

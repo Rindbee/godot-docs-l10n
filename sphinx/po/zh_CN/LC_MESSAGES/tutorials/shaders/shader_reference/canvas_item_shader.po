@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -101,15 +101,15 @@ msgid ""
 "marked as \"inout\" provide a sensible default value, and can optionally be "
 "written to. Samplers are not subjects of writing and they are not marked."
 msgstr ""
-"标记为 \"in\" 的值是只读的. 标记为 \"out\" 的值是可以选择写入的, 不一定包含合"
-"理的值. 标记为 \"inout\" 的值提供一个合理的默认值, 并且可以选择写入. 采样器不"
-"是写入的对象, 它们没有被标记."
+"标记为“in”的值只读。标记为“out”的值可以选择写入，不一定包含有意义的值。标记"
+"为“inout”的值提供了有意义的默认值，可以选择写入。采样器始终无法写入，不进行标"
+"记。"
 
 msgid "Global built-ins"
 msgstr "全局内置"
 
 msgid "Global built-ins are available everywhere, including custom functions."
-msgstr "全局内置的功能随处可见, 包括自定义功能."
+msgstr "全局的内置在所有地方均可用，包括自定义函数中。"
 
 msgid "Built-in"
 msgstr "内置"
@@ -120,14 +120,40 @@ msgstr "in float **TIME**"
 msgid "in float **PI**"
 msgstr "in float **PI**"
 
+msgid ""
+"A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
+"diameter and amount of radians in half turn."
+msgstr ""
+"``PI`` 常数（\\ ``3.141592``\\ ）。圆的周长与直径的比值，即转半圈对应的弧度。"
+
 msgid "in float **TAU**"
 msgstr "in float **TAU**"
+
+msgid ""
+"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
+"radians in full turn."
+msgstr ""
+"``TAU`` 常数（\\ ``6.283185``\\ ）。等价于 ``PI * 2``\\ ，即转一圈对应的弧"
+"度。"
 
 msgid "in float **E**"
 msgstr "in float **E**"
 
+msgid ""
+"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
+"logarithm."
+msgstr "``E`` 常数（\\ ``2.718281``\\ ）。欧拉数，即自然对数的底。"
+
 msgid "Vertex built-ins"
 msgstr "顶点内置"
+
+msgid ""
+"Vertex data (``VERTEX``) is presented in local space (pixel coordinates, "
+"relative to the Node2D's origin). If not written to, these values will not "
+"be modified and be passed through as they came."
+msgstr ""
+"顶点数据（\\ ``VERTEX``\\ ）使用局部空间呈现（像素坐标，相对于 Node2D 的原"
+"点）。如果不写入，这些值就不会被修改，会原样传下去。"
 
 msgid ""
 "Other built-ins, such as UV and COLOR, are also passed through to the "
@@ -378,6 +404,3 @@ msgstr "执行2D纹理读取。"
 
 msgid "vec2 **screen_uv_to_sdf** (vec2 uv)"
 msgstr "vec2 **screen_uv_to_sdf** (vec2 uv)"
-
-msgid "Translation status"
-msgstr "翻译状态"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -22,6 +22,9 @@ msgstr "Utilisation de BBCode"
 
 msgid "Use:"
 msgstr "Utilisation :"
+
+msgid "Handling user input safely"
+msgstr "Gérer l'entrée utilisateur en sécurité"
 
 msgid "The above image was created using the following script:"
 msgstr "L'image ci-dessus a été créée à l'aide du script suivant :"
@@ -77,11 +80,17 @@ msgstr "``[p]{text}[/p]``"
 msgid "**center**"
 msgstr "**centré**"
 
+msgid "Same as ``[p align=center]``."
+msgstr "Comme ``[p align=center]`` ."
+
 msgid "``[center]{text}[/center]``"
 msgstr "``[center]{texte}[/center]``"
 
 msgid "**left**"
 msgstr "**gauche**"
+
+msgid "Same as ``[p align=left]``."
+msgstr "Identique à ``[p align=left]``."
 
 msgid "``[left]{text}[/left]``"
 msgstr "``[left]{text}[/left]``"
@@ -89,11 +98,17 @@ msgstr "``[left]{text}[/left]``"
 msgid "**right**"
 msgstr "**droite**"
 
+msgid "Same as ``[p align=right]``."
+msgstr "Identique à ``[p align=right]``."
+
 msgid "``[right]{text}[/right]``"
 msgstr "``[right]{texte}[/right]``"
 
 msgid "**fill**"
 msgstr "**remplir**"
+
+msgid "Same as ``[p align=fill]``."
+msgstr "Identique à ``[p align=fill]``."
 
 msgid "``[fill]{text}[/fill]``"
 msgstr "``[fill]{texte}[/fill]``"
@@ -107,11 +122,28 @@ msgstr "``[indent]{texte}[/indent]``"
 msgid "**url**"
 msgstr "**url**"
 
+msgid "``[hint={tooltip text displayed on hover}]{text}[/hint]``"
+msgstr "``[hint={texte info-bulle affiché lors du survol}]{text}[/hint]``"
+
+msgid ""
+"Supports configuration options, see :ref:"
+"`doc_bbcode_in_richtextlabel_image_options`."
+msgstr ""
+"Supporte les options de configuration, voir :ref:"
+"`doc_bbcode_in_richtextlabel_image_options`."
+
 msgid "``[img]{path}[/img]``"
 msgstr "``[img]{chemin}[/img]``"
 
 msgid "**font**"
 msgstr "**police**"
+
+msgid ""
+"Supports configuration options, see :ref:"
+"`doc_bbcode_in_richtextlabel_font_options`."
+msgstr ""
+"Supporte les options de configuration, voir :ref:"
+"`doc_bbcode_in_richtextlabel_font_options`."
 
 msgid "**dropcap**"
 msgstr "**lettrine**"
@@ -140,6 +172,13 @@ msgstr "**table**"
 msgid "**cell**"
 msgstr "**cell**"
 
+msgid ""
+"Supports configuration options, see :ref:"
+"`doc_bbcode_in_richtextlabel_cell_options`."
+msgstr ""
+"Supporte les options de configuration, voir :ref:"
+"`doc_bbcode_in_richtextlabel_cell_options`."
+
 msgid "``[cell]{text}[/cell]``"
 msgstr "``[cell]{text}[/cell]``"
 
@@ -151,6 +190,12 @@ msgstr "``[ol type={type}]{items}[/ol]``"
 
 msgid "**lb**, **rb**"
 msgstr "**lb**, **rb**"
+
+msgid "``[lb]b[rb]text[lb]/b[rb]`` will display as ``[b]text[/b]``."
+msgstr "``[lb]b[rb]texte[lb]/b[rb]`` va s'afficher en ``[b]texte[/b]``."
+
+msgid "control characters directly in the text."
+msgstr "caractères de contrôle directement dans le texte."
 
 msgid "``[shy]`` (soft hyphen)"
 msgstr "``[shy]`` (trait d'union doux)"
@@ -187,6 +232,9 @@ msgstr "Hérite"
 msgid "**language**, **lang**"
 msgstr "**language**, **lang**"
 
+msgid "ISO language codes. See :ref:`doc_locales`"
+msgstr "Codes de langue ISO. Voir :ref:`doc_locales`"
+
 msgid "Handling ``[url]`` tag clicks"
 msgstr "Gestion des clics de la balise ``[url]``"
 
@@ -219,14 +267,23 @@ msgstr ""
 msgid "x,y,width,height in pixels"
 msgstr "x, y, largeur, hauteur en pixels"
 
-msgid "**tootip**"
-msgstr "**Info-bulle**"
+msgid "**pad**"
+msgstr "**remplissage**"
+
+msgid "``false``, ``true``"
+msgstr "``false``, ``true``"
 
 msgid "String"
 msgstr "Chaîne de caractères"
 
+msgid "Image tooltip."
+msgstr "Image de l'info-bulle."
+
 msgid "**name**, **n**"
 msgstr "**name**, **n**"
+
+msgid "Font resource path."
+msgstr "Chemin des ressources (Resource path)."
 
 msgid "**size**, **s**"
 msgstr "**size**, **s**"
@@ -234,11 +291,30 @@ msgstr "**size**, **s**"
 msgid "Number in pixels."
 msgstr "Nombre en pixels."
 
+msgid "Custom font size."
+msgstr "Taille de police personnalisée."
+
+msgid "Floating-point number."
+msgstr "Nombres à virgule flottante."
+
+msgid "Integer number."
+msgstr "Nombre entier."
+
 msgid "``0``"
 msgstr "``0``"
 
 msgid "**opentype_variation**, **otv**"
 msgstr "**opentype_variation**, **otv**"
+
+msgid ""
+"Font OpenType features. See `OpenType features tags <https://docs.microsoft."
+"com/en-us/typography/opentype/spec/featuretags>`__."
+msgstr ""
+"Fonctionnalités de police OpenType. Voir `Tag de fonctionnalité OpenType "
+"<https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags>`__."
+
+msgid "Named colors"
+msgstr "Couleurs nommées"
 
 msgid "Hexadecimal color codes"
 msgstr "Codes de couleur héxadécimaux"
@@ -345,6 +421,3 @@ msgid "This will add a few new BBCode commands, which can be used like so:"
 msgstr ""
 "Ceci ajoutera quelques nouvelles commandes BBCode, qui peuvent être "
 "utilisées de cette manière :"
-
-msgid "Translation status"
-msgstr "État de la traduction"

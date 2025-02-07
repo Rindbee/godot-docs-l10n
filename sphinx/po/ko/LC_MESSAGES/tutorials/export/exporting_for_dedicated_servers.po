@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -56,6 +56,3 @@ msgstr ""
 "만약 컨테이너를 다뤄본 경험이 있다면 데디케이티드 서버를`Docker <https://www."
 "docker.com/>`__ 로 래핑하는 것 역시 고려해보십시오. 이렇게 하면 자동 스케일 "
 "조절시 더 간편해집니다(튜토리얼 주제를 벗어나는 내용입니다)."
-
-msgid "Translation status"
-msgstr "번역 상태"

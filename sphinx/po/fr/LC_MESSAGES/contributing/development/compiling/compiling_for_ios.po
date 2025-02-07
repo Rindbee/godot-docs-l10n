@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -26,6 +26,11 @@ msgstr ""
 msgid "Requirements"
 msgstr "Pré-requis"
 
+msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
+msgstr ""
+"`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ système de "
+"construction(build)."
+
 msgid ""
 "Installing Homebrew will also fetch the Command Line Tools for Xcode "
 "automatically if you don't have them already."
@@ -49,27 +54,6 @@ msgstr ""
 msgid "Compiling"
 msgstr "Compilation"
 
-msgid "Open a Terminal, go to the root dir of the engine source code and type:"
-msgstr ""
-"Ouvrez un terminal, allez à la racine du code source du moteur et tapez :"
-
-msgid "for a debug build, or:"
-msgstr "pour une construction de débogage, ou :"
-
-msgid "Alternatively, you can run"
-msgstr "Alternativement, vous pouvez exécuter"
-
-msgid ""
-"To create an Xcode project like in the official builds, you need to use the "
-"template located in ``misc/dist/ios_xcode``. The release and debug libraries "
-"should be placed in ``libgodot.ios.debug.xcframework`` and ``libgodot.ios."
-"release.xcframework`` respectively."
-msgstr ""
-"Pour créer un projet Xcode comme dans les builds officiels, vous devez "
-"utiliser le modèle situé dans ``misc/dist/ios_xcode``. Les bibliothèques de "
-"version et de débogage doivent être placées respectivement dans ``libgodot."
-"ios.debug.xcframework`` et ``libgodot.ios.release.xcframework``."
-
 msgid "Run"
 msgstr "Exécution"
 
@@ -79,6 +63,3 @@ msgid ""
 msgstr ""
 "Pour exécuter sur un appareil ou un simulateur, suivez ces instructions : :"
 "ref:`doc_exporting_for_ios`."
-
-msgid "Translation status"
-msgstr "État de la traduction"

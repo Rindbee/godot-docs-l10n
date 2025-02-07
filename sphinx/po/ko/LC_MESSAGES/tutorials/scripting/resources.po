@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -267,6 +267,3 @@ msgstr ""
 "아래 예시에서, Godot는 ``Node`` 스크립트를 불러오고, ``Resource``\\ 를 확장"
 "(extend)하지 않는지 확인한 다음, 이 경우 타입이 호환되지 않으므로 스크립트가 "
 "Resource 오브젝트를 불러오는 데 실패했다고 판단합니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

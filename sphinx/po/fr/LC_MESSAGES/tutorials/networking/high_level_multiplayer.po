@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -231,6 +231,25 @@ msgstr ""
 msgid "Managing connections"
 msgstr "Gestion des connexions"
 
+msgid "``connected_to_server()``"
+msgstr "``connected_to_server()``"
+
+msgid "``connection_failed()``"
+msgstr "``connection_failed()``"
+
+msgid "``server_disconnected()``"
+msgstr "``server_disconnected()``"
+
+msgid "Remote procedure calls"
+msgstr "Appels de procédure à distance"
+
+msgid ""
+"See further explanation and troubleshooting on `this post <https://github."
+"com/godotengine/godot/issues/57869#issuecomment-1034215138>`__."
+msgstr ""
+"Voyez plus d'explications et du dépannage sur `ce poste <https://github.com/"
+"godotengine/godot/issues/57869#issuecomment-1034215138>`__."
+
 msgid "``mode``:"
 msgstr "``mode`` :"
 
@@ -239,6 +258,9 @@ msgstr "``sync`` :"
 
 msgid "``transfer_mode``:"
 msgstr "``transfer_mode`` :"
+
+msgid "``transfer_channel`` is the channel index."
+msgstr "``transfer_channel`` est l'index du canal."
 
 msgid "Exporting for dedicated servers"
 msgstr "Exportation pour les serveurs dédiés"
@@ -263,6 +285,3 @@ msgstr ""
 "considéré comme un joueur. Vous devrez également modifier le mécanisme de "
 "démarrage du jeu afin que le premier joueur qui se joint à la partie puisse "
 "démarrer la partie."
-
-msgid "Translation status"
-msgstr "État de la traduction"

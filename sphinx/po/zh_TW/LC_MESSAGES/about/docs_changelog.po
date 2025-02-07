@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -31,14 +31,32 @@ msgstr ""
 "這份文件只包含了新的教學，所以並能反映出所有改動。許多教學都已經被大幅更新"
 "了，但並未反映在這份文件中。"
 
+msgid "About"
+msgstr "關於"
+
+msgid "2D"
+msgstr "2D"
+
+msgid "Contributing"
+msgstr "參與貢獻"
+
+msgid "GDExtension"
+msgstr "GDExtension"
+
+msgid "Migrating"
+msgstr "Light Baking - 光照烘焙"
+
+msgid "Rendering"
+msgstr "算繪"
+
+msgid "XR"
+msgstr "XR"
+
 msgid "C#"
 msgstr "C#"
 
 msgid "Development"
 msgstr "開發"
-
-msgid "Migrating"
-msgstr "Light Baking - 光照烘焙"
 
 msgid "Platform-specific"
 msgstr "個別平台"
@@ -63,9 +81,6 @@ msgstr ":ref:`doc_exporting`"
 
 msgid "New pages since version 3.6"
 msgstr "自 3.1 版以來新增的教學"
-
-msgid "2D"
-msgstr "2D"
 
 msgid ":ref:`doc_2d_antialiasing`"
 msgstr ":ref:`doc_2d_sprite_animation`"
@@ -154,9 +169,6 @@ msgstr "工作流"
 msgid ":ref:`doc_pr_review_guidelines`"
 msgstr ":ref:`doc_data_preferences`"
 
-msgid "XR"
-msgstr "XR"
-
 msgid ":ref:`doc_introducing_xr_tools`"
 msgstr ":ref:`doc_introduction_best_practices`"
 
@@ -207,9 +219,6 @@ msgstr "自 3.1 版以來新增的教學"
 
 msgid ":ref:`doc_3d_rendering_limitations`"
 msgstr ":ref:`doc_2d_sprite_animation`"
-
-msgid "About"
-msgstr "關於"
 
 msgid ":ref:`doc_troubleshooting`"
 msgstr ":ref:`doc_interpolation`"
@@ -595,6 +604,3 @@ msgstr "引擎開發"
 
 msgid ":ref:`doc_binding_to_external_libraries`"
 msgstr ":ref:`doc_binding_to_external_libraries`"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

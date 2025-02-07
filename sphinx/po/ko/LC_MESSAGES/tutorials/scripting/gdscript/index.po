@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,6 +20,3 @@ msgid ""
 msgstr ""
 "linter 또는 formatter와 같이 GDScript와 상호 작용하는 서드 파티 툴을 작성하"
 "는 데 관심이 있다면 :ref:`doc_gdscript_grammar`\\ 을 참조하세요."
-
-msgid "Translation status"
-msgstr "번역 상태"

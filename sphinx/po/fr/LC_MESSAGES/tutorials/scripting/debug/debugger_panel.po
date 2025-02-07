@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -92,6 +92,12 @@ msgstr ""
 msgid "Profiler"
 msgstr "Profileur"
 
+msgid "Example results from a 2D scene in the Visual Profiler"
+msgstr "Exemples de résultats d'une scène 2D dans le Profileur"
+
+msgid "Example results from a 3D scene in the Visual Profiler"
+msgstr "Exemples de résultats d'une scène 3D dans le Profileur"
+
 msgid "Network Profiler"
 msgstr "Profileur réseau"
 
@@ -160,6 +166,3 @@ msgid "**Clicked Control Type** tells you the type of the node you clicked is."
 msgstr ""
 "**Clicked Control Type** vous indique le type du nœud sur lequel vous avez "
 "cliqué."
-
-msgid "Translation status"
-msgstr "État de la traduction"

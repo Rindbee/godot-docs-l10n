@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,6 +47,17 @@ msgstr ""
 msgid "Bone Weights"
 msgstr "Вага кісток"
 
+msgid ""
+"Blender puts rigged mesh vertices which have no bone weights at their "
+"original position, but these vertices would be placed at (0, 0, 0) in Godot, "
+"making the mesh deformed. Therefore, the exporter will raise an error for "
+"any vertex with no bone weights detected in a rigged mesh."
+msgstr ""
+"Blender розміщує сфальсифіковані вершини сітки, які не мають кісткової ваги, "
+"у їх початкове положення, але ці вершини будуть розміщені в (0, 0, 0) у "
+"Годо, що робить сітку деформованою. Таким чином, експортер викличе помилку "
+"для будь-якої вершини, у фальсифікованій сітці якої не виявлено ваги кісток."
+
 msgid "Non-Deform Bone"
 msgstr "Недеформована кістка"
 
@@ -68,6 +79,3 @@ msgid ""
 msgstr ""
 "Кістка може бути предком об’єкта в Blender; це відношення експортується як "
 "вузол BoneAttachment на сцені Godot."
-
-msgid "Translation status"
-msgstr "Стан перекладу"

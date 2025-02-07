@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -140,10 +140,11 @@ msgstr "Linhas em branco"
 
 msgid "Surround functions and class definitions with two blank lines:"
 msgstr ""
-"Deixe uma linha vazia em cima e embaixo de definições de classes e funções:"
+"Cerque funções e definições de classes com duas linhas em branco(uma em cima "
+"e uma embaixo):"
 
 msgid "Use one blank line inside functions to separate logical sections."
-msgstr "Use uma linha vazia dentro de funções para separar seções lógicas."
+msgstr "Use uma linha em branco dentro de funções para separar seções lógicas."
 
 msgid "Line length"
 msgstr "Tamanho de linha"
@@ -286,17 +287,26 @@ msgstr ""
 msgid "Naming conventions"
 msgstr "Convenções de nomes"
 
-msgid ""
-"These naming conventions follow the Godot Engine style. Breaking these will "
-"make your code clash with the built-in naming conventions, leading to "
-"inconsistent code."
-msgstr ""
-"Estas convenções de nomeação seguem o estilo do Godot Engine. Quebrá-las "
-"fará com que o seu código fique diferente das convenções de nomeação "
-"embutidas, o que deixa o seu código inconsistente."
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Example"
+msgstr "Exemplo"
 
 msgid "File names"
 msgstr "Nomes de arquivo"
+
+msgid "Functions"
+msgstr "Funções"
+
+msgid "Variables"
+msgstr "Variáveis"
+
+msgid "Signals"
+msgstr "Sinais"
+
+msgid "Constants"
+msgstr "Constantes"
 
 msgid ""
 "Use snake_case for file names. For named classes, convert the PascalCase "
@@ -338,9 +348,6 @@ msgstr ""
 "Prefixe métodos virtuais (funções que o usuário deve sobrescrever), funções "
 "privadas e variáveis privadas com um único sublinhado (\\_):"
 
-msgid "Signals"
-msgstr "Sinais"
-
 msgid "Use the past tense to name signals:"
 msgstr "Utilize o tempo pretérito para nomear sinais:"
 
@@ -363,14 +370,6 @@ msgstr ""
 
 msgid "Code order"
 msgstr "Ordem do código"
-
-msgid ""
-"This first section focuses on code order. For formatting, see :ref:"
-"`formatting`. For naming conventions, see :ref:`naming_conventions`."
-msgstr ""
-"Esta primeira seção foca na ordem do código. Para formatação, veja :ref:"
-"`formatação <formatting>`. Para convenções de nomes, veja :ref:`convenções "
-"de nomes <naming_conventions>`."
 
 msgid "We suggest to organize GDScript code this way:"
 msgstr "Sugerimos que você organize seu código GDScript assim:"
@@ -496,13 +495,6 @@ msgstr ""
 msgid "Static typing"
 msgstr "Tipagem estática"
 
-msgid ""
-"Since Godot 3.1, GDScript supports :ref:`optional static "
-"typing<doc_gdscript_static_typing>`."
-msgstr ""
-"Desde o Godot 3.1, GDScript suporta :ref:`tipagem estática "
-"opcional<doc_gdscript_static_typing>`."
-
 msgid "Declared types"
 msgstr "Tipos declarados"
 
@@ -528,6 +520,3 @@ msgid ""
 msgstr ""
 "Esta opção também é considerada mais :ref: `type-safe "
 "<doc_gdscript_static_typing_safe_lines>` do que a primeira."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

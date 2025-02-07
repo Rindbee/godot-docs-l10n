@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -33,6 +33,3 @@ msgstr ""
 "приводит к тому, что Godot выбраковывает квад, когда мы отворачиваемся от "
 "центра сцены. Для того чтобы квадрант не сворачивался, есть несколько "
 "вариантов:"
-
-msgid "Translation status"
-msgstr "Статус перевода"

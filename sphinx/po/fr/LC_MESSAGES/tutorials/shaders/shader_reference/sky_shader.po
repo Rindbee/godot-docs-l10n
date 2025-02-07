@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -38,17 +38,26 @@ msgstr "Intégré"
 msgid "in float **TIME**"
 msgstr "in float **TIME**"
 
-msgid "Global time, in seconds."
-msgstr "Temps global, en secondes."
-
 msgid "in vec3 **POSITION**"
 msgstr "out vec4 **POSITION**"
+
+msgid "Camera position in world space"
+msgstr "Position de la caméra dans le repère du monde"
+
+msgid "Currently rendering to radiance cubemap."
+msgstr "Actuellement rendu sur la cubemap de rayonnement."
+
+msgid "Energy multiplier for ``LIGHTX``."
+msgstr "Multiplicateur d'énergie pour ``LIGHTX``."
+
+msgid "Direction that ``LIGHTX`` is facing."
+msgstr "Direction vers laquelle ``LIGHTX`` fait face."
 
 msgid "in vec2 **SCREEN_UV**"
 msgstr "in vec2 **SCREEN_UV**"
 
+msgid "Output color."
+msgstr "couleur de sortie."
+
 msgid "out float **ALPHA**"
 msgstr "out float **ALPHA**"
-
-msgid "Translation status"
-msgstr "État de la traduction"

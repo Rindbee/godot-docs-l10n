@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Editor and documentation localization"
+msgstr "Localisation de l'éditeur et de la documentation"
 
 msgid ""
 "Godot aims to make game development available to everyone, including people "
@@ -557,6 +560,15 @@ msgstr ""
 "devez donc pas ajouter de sauts de ligne s'ils ne font pas partie de la "
 "traduction originale."
 
+msgid ""
+"See our documentation for class reference writers for the :ref:`list of "
+"BBCode-like tags <doc_class_reference_bbcode>` which are used throughout the "
+"class reference."
+msgstr ""
+"Consultez notre documentation pour les auteurs de références de classe pour "
+"la :ref:`liste des balises de type BBCode <doc_class_reference_bbcode>` qui "
+"sont utilisées dans les références des classes."
+
 msgid "Offline translation and testing"
 msgstr "Traduction et tests hors ligne"
 
@@ -732,6 +744,3 @@ msgid ""
 msgstr ""
 "Répétez ceci pour les autres images et :ref:`faites un Pull Request "
 "<doc_pr_workflow>`."
-
-msgid "Translation status"
-msgstr "État de la traduction"

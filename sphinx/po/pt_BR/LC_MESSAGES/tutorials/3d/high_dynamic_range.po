@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -160,8 +160,16 @@ msgstr ""
 "dispositivos mobile não tem suporte para isso, ou eles não tem suporte para "
 "texturas comprimidas (iOS por exemplo)."
 
+msgid ""
+"Keep in mind that the **sRGB -> Display Linear** and **Display Linear -> "
+"sRGB** conversions must always be **both** enabled. Failing to enable one of "
+"them will result in horrible visuals suitable only for avant-garde "
+"experimental indie games."
+msgstr ""
+"Lembre-se de que as conversões **sRGB -> Linear de Exibição** e **Linear de "
+"Exibição -> sRGB** devem sempre estar **ambas** ativadas. Não ativar uma "
+"delas resultará em visuais horríveis, adequados apenas para jogos "
+"independentes experimentais vanguardistas."
+
 msgid "Parameters of HDR"
 msgstr "Parâmetros de HDR"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

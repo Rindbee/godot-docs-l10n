@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -48,6 +48,3 @@ msgstr ""
 "그러나 화면 좌표를 사용하여 작업하는 것은 일반적으로 바람직하지 않음을 명심하"
 "세요. 권장되는 접근방식은 Canvas 좌표(``CanvasItem.get_global_transform()``)"
 "로 자동으로 화면 해상도를 제대로 크기 조정할 수 있게 간단히 작동해야 합니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

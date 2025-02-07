@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -19,8 +19,8 @@ msgid ""
 "from source. If you're looking to export your project to macOS instead, "
 "read :ref:`doc_exporting_for_macos`."
 msgstr ""
-"这个页面描述的是如何从源码编译 macOS 编辑器和导出模板二进制文件。如果你要找的"
-"是导出项目到 macOS，请阅读 :ref:`doc_exporting_for_macos`\\ 。"
+"本页面描述的是如何从源码编译 macOS 编辑器和导出模板二进制文件。如果你想要将项"
+"目导出到 macOS，请移步《\\ :ref:`doc_exporting_for_macos`\\ 》。"
 
 msgid "Requirements"
 msgstr "需求"
@@ -30,6 +30,9 @@ msgstr "在 macOS 下编译时，需要以下条件："
 
 msgid "`Python 3.6+ <https://www.python.org/downloads/macos/>`_."
 msgstr "`Python 3.6+ <https://www.python.org/downloads/macos/>`_."
+
+msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
+msgstr "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ 构建系统。"
 
 msgid ""
 "`Xcode <https://apps.apple.com/us/app/xcode/id497799835>`_ (or the more "
@@ -42,17 +45,6 @@ msgid ""
 "Installing Homebrew will also fetch the Command Line Tools for Xcode "
 "automatically if you don't have them already."
 msgstr "如果你还没有 Xcode 命令行工具，安装 Homebrew 也会自动进行获取。"
-
-msgid ""
-"To get the Godot source code for compiling, see :ref:`doc_getting_source`."
-msgstr "要获取编译所需的 Godot 源码，请参阅 :ref:`doc_getting_source`\\ 。"
-
-msgid ""
-"For a general overview of SCons usage for Godot, see :ref:"
-"`doc_introduction_to_the_buildsystem`."
-msgstr ""
-"有关 Godot 的 SCons 用法的一般概述，请参阅 :ref:"
-"`doc_introduction_to_the_buildsystem`。"
 
 msgid "Compiling"
 msgstr "编译"
@@ -85,6 +77,13 @@ msgstr ""
 msgid "Running a headless/server build"
 msgstr "运行无头/服务器构建"
 
+msgid ""
+"To run in *headless* mode which provides editor functionality to export "
+"projects in an automated manner, use the normal build::"
+msgstr ""
+"如果想要以\\ *无头*\\ 模式运行，能够使用编辑器的自动导出项目功能，请使用普通"
+"构建： ::"
+
 msgid "And then use the ``--headless`` command line argument::"
 msgstr "然后使用 ``--headless`` 命令行参数： ::"
 
@@ -104,30 +103,6 @@ msgstr ""
 
 msgid "Building export templates"
 msgstr "构建导出模板"
-
-msgid ""
-"Official templates are universal binaries which support both Intel x86_64 "
-"and ARM64 architectures. You can also create export templates that support "
-"only one of those two architectures by leaving out the ``lipo`` step below."
-msgstr ""
-"官方模板是通用的二进制文件，同时支持英特尔x86_64和ARM64架构。你也可以通过省略"
-"下面的 ``lipo`` 步骤，创建只支持架构中的一种的导出模板。"
-
-msgid "For Intel x86_64::"
-msgstr "对于英特尔 x86_64： ::"
-
-msgid "For Arm64 (Apple M1)::"
-msgstr "对于 Arm64（Apple M1）： ::"
-
-msgid ""
-"To support both architectures in a single \"Universal 2\" binary, run the "
-"above two commands blocks and then use ``lipo`` to bundle them together::"
-msgstr ""
-"要使用“Universal 2”二进制来同时支持这两种架构，请运行上述两个命令块，然后使"
-"用 ``lipo`` 将它们捆绑在一起： ::"
-
-msgid "Using Pyston for faster development"
-msgstr "使用 Pyston 加快开发速度"
 
 msgid "Cross-compiling for macOS from Linux"
 msgstr "从 Linux 交叉编译 macOS"
@@ -181,6 +156,3 @@ msgid ""
 msgstr ""
 "如果你的 OSXCross SDK 版本与 SCons 构建系统所期望的不同，你可以用 "
 "``osxcross_sdk`` 参数指定一个自定义的版本： ::"
-
-msgid "Translation status"
-msgstr "翻译状态"

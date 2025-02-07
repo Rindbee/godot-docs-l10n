@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -85,6 +85,15 @@ msgstr ""
 "の代わりにマウスの位置によって方向が設定されます。 キャラクタは常にマウスポイ"
 "ンタを \"見ます\" 。ただし、フォワード/バック入力は同じままです。"
 
+msgid ""
+"Here we're using the :ref:`Node2D <class_Node2D>` ``look_at()`` method to "
+"point the player towards the mouse's position. Without this function, you "
+"could get the same effect by setting the angle like this:"
+msgstr ""
+"ここでは、 \\ :ref:`Node2D <class_Node2D>` ``look_at()`` メソッドを使用して、"
+"プレイヤーをマウスの位置に向けます。この関数を使用しない場合は、次のように角"
+"度を設定しても同じ効果が得られます:"
+
 msgid "Click-and-move"
 msgstr "クリックと移動"
 
@@ -120,7 +129,7 @@ msgstr ""
 "``target`` 位置には、移動先の任意のオブジェクトの位置を指定できます。"
 
 msgid "Summary"
-msgstr "概要"
+msgstr "要約"
 
 msgid ""
 "You may find these code samples useful as starting points for your own "
@@ -129,6 +138,3 @@ msgid ""
 msgstr ""
 "これらのコードサンプルは、独自のプロジェクトの開始点として便利です。ご自由に"
 "使って、どんなものが作れるか試してみてください。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

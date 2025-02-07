@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -151,6 +151,3 @@ msgid ""
 msgstr ""
 "使用專案管理器或編輯器建立版本控制中繼資料時，會使用 ``.gitattributes`` 檔自"
 "動強制使用 LF 行尾，因此無需更改 Git 配置。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

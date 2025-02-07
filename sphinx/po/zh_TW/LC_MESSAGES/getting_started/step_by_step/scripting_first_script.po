@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -344,6 +344,3 @@ msgstr "GDScript 範例"
 
 msgid "Here is the complete ``sprite_2d.gd`` file for reference."
 msgstr "這是完整的 ``sprite_2d.gd`` 檔案，僅供參考。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -39,6 +39,3 @@ msgid ""
 msgstr ""
 "GDScript에서 주어진 텍스쳐의 모든 픽셀을 주어진 색깔로 바꾼다고 가정합시다. "
 "이때는 코드에 ``for`` 구문을 사용해야 합니다:"
-
-msgid "Translation status"
-msgstr "번역 상태"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -183,6 +183,20 @@ msgstr ""
 "一些源资产可以作为不同类型的资源被导入。为此，选择所需资源的相关类型，然后点"
 "击 **重新导入** 即可："
 
+msgid ""
+"Select ``Keep File (exported as is)`` as resource type to skip file import, "
+"files with this resource type will be preserved as is during project export."
+msgstr ""
+"选择 ``Keep File (exported as is)`` 作为资源类型以跳过文件导入，具有此资源类"
+"型的文件将在项目导出期间按原样保留。"
+
+msgid ""
+"Select ``Skip File (not exported)`` as resource type to skip file import and "
+"ignore file during project export."
+msgstr ""
+"选择 ``Skip File (not exported)`` 作为资源类型以跳过文件导入并在项目导出期间"
+"忽略文件。"
+
 msgid "Changing default import parameters"
 msgstr "更改默认导入参数"
 
@@ -227,6 +241,3 @@ msgstr ":ref:`doc_importing_3d_scenes`"
 
 msgid ":ref:`doc_importing_translations`"
 msgstr ":ref:`doc_importing_translations`"
-
-msgid "Translation status"
-msgstr "翻译状态"

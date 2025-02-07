@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -226,6 +226,9 @@ msgid "And that's all the code you need to move the character on the floor."
 msgstr ""
 "Und das ist schon der gesamte Code den Sie brauchen, um den Charakter auf "
 "dem Boden zu bewegen."
+
+msgid "Here is the complete ``player.gd`` code for reference."
+msgstr "Hier ist der vollständige ``Player.gd``-Code als Referenz."
 
 msgid "Testing our player's movement"
 msgstr "Testen der Bewegung unseres Spielers"
@@ -469,6 +472,3 @@ msgid ""
 msgstr ""
 "Zuletzt haben wir sowohl die Bewegungen des Spielers als auch die Ansicht "
 "fertiggestellt. Als Nächstes werden wir an den Monstern arbeiten."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

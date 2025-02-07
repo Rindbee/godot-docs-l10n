@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,6 +27,3 @@ msgid ""
 msgstr ""
 "``my_func3()`` 처럼 3개의 큰따옴표 ``\"\"\"`` 로 둘러싸인 GDScript의 멀티라"
 "인 문자열은 JavaScript 코드의 가독성을 높이는데 유용합니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -223,6 +223,3 @@ msgstr ""
 "選擇匯入或忽略他們的資料.有幾種選擇專案的放大，包括手動、按結構層次、按資料型"
 "別等等.選擇包括資料將複製所有專案到你的主題.忽略資料將建立具有相應資料型別和"
 "名稱的專案，但是他們會保存為空，以所指定的方式建立了範本."
-
-msgid "Translation status"
-msgstr "翻譯狀態"

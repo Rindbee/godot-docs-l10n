@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Scene Unique Nodes"
+msgstr "Nœuds uniques de scène"
+
 msgid "Introduction"
 msgstr "Introduction"
+
+msgid "``get_node(\"%Eyes\")`` returns the **Eyes** node."
+msgstr "``get_node(\"%Eyes\")`` renvoie le nœud **Eyes**."
 
 msgid "``get_node(\"%Hilt\")`` returns ``null``."
 msgstr "``get_node(\"%Hilt\")`` retourne ``null``."
@@ -20,5 +26,16 @@ msgstr "``get_node(\"%Hilt\")`` retourne ``null``."
 msgid "``get_node(\"%Eyes\")`` returns ``null``."
 msgstr "``get_node(\"%Eyes\")`` retourne ``null``."
 
-msgid "Translation status"
-msgstr "État de la traduction"
+msgid "``get_node(\"%Hilt\")`` returns the **Hilt** node."
+msgstr "``get_node(\"%Hilt\")`` renvoie le nœud **Hilt**."
+
+msgid ""
+"``get_node(\"Hand/Sword\").get_node(\"%Hilt\")`` returns the **Hilt** node."
+msgstr ""
+"``get_node(\"Hand/Sword\").get_node(\"%Hilt\")`` renvoie le nœud **Hilt**."
+
+msgid "``get_node(\"Hand/Sword/%Hilt\")`` also returns the **Hilt** node."
+msgstr "``get_node(\"Hand/Sword/%Hilt\")`` renvoie aussi un noeud **Hilt**."
+
+msgid "``get_node(\"%Sword/%Hilt\")`` returns the **Hilt** node."
+msgstr "``get_node(\"%Sword/%Hilt\")`` renvoie le nœud **Hilt**."

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -98,6 +98,3 @@ msgstr ""
 "이는 오브젝트가 블렌더의 뷰포트에서 보이는 방식에도 영향을 줍니다. 대부분의 "
 "경우, 모델을 작업할 때 콜리전 지형이 투명하게 보이게 하고 싶을 겁니다, 그래"
 "서 이것은 꽤 잘 작동합니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

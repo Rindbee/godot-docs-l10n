@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -58,6 +58,3 @@ msgstr ""
 "guardar en un archivo project.godot y muestra sus valores por defecto. Si "
 "cambias un valor, una marca aparecerá a la izquierda de su nombre. Esto "
 "significa que la propiedad será guardada en el archivo project.godot."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

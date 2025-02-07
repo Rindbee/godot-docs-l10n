@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -114,6 +114,9 @@ msgstr ""
 "Un nœud qui tient une ressource de mesh de navigation qui définit un mesh de "
 "navigation pour le NavigationServer3D."
 
+msgid "The region can be enabled / disabled."
+msgstr "La région peut être activée / désactivée."
+
 msgid ""
 "The NavigationServer3D will join the navigation meshes of regions by "
 "proximity for a combined navigation mesh."
@@ -123,6 +126,9 @@ msgstr ""
 
 msgid ":ref:`NavigationLink3D<class_NavigationLink3D>` Node"
 msgstr "Nœud :ref:`NavigationLink3D<class_NavigationLink3D>`"
+
+msgid "The link can be enabled / disabled."
+msgstr "Le lien peut être activé / désactivé."
 
 msgid ":ref:`NavigationAgent3D<class_NavigationAgent3D>` Node"
 msgstr "Nœud :ref:`NavigationAgent3D<class_NavigationAgent3D>`"
@@ -187,5 +193,10 @@ msgstr ""
 msgid "Setup for 3D scene"
 msgstr "Configuration pour une scène 3D"
 
-msgid "Translation status"
-msgstr "État de la traduction"
+msgid "Add a NavigationRegion3D Node to the scene."
+msgstr "Ajouter un nœud NavigationRegion3D à la scène."
+
+msgid "Add a new MeshInstance3D node as a child of the region node."
+msgstr ""
+"Ajoutez un nouveau nœud MeshInstance3D en tant qu'enfant du nœud de la "
+"région."

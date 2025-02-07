@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -74,7 +74,7 @@ msgid "**Description**"
 msgstr "**描述**"
 
 msgid "**android**"
-msgstr "**Android**"
+msgstr "**android**"
 
 msgid "Running on Android (but not within a Web browser)"
 msgstr "在 Android 上運作（非 Web 瀏覽器）"
@@ -86,13 +86,13 @@ msgid "Running on \\*BSD (but not within a Web browser)"
 msgstr "在 \\*BSD 上運行（非 Web 瀏覽器）"
 
 msgid "**linux**"
-msgstr "**Alpine Linux**"
+msgstr "**linux**"
 
 msgid "Running on Linux (but not within a Web browser)"
 msgstr "在 Linux 上運作（非 Web 瀏覽器）"
 
 msgid "**macos**"
-msgstr "**macOS**"
+msgstr "**macos**"
 
 msgid "Running on macOS (but not within a Web browser)"
 msgstr "在 macOS 上運作（非 Web 瀏覽器）"
@@ -110,7 +110,7 @@ msgid "Running on Windows"
 msgstr "在 Windows 上執行"
 
 msgid "**linuxbsd**"
-msgstr "**Alpine Linux**"
+msgstr "**linuxbsd**"
 
 msgid "Running on Linux or \\*BSD"
 msgstr "在 iOS 上執行"
@@ -134,19 +134,19 @@ msgid "Running on an editor build"
 msgstr "在編輯器建置中執行"
 
 msgid "**template**"
-msgstr "**釋出日期**"
+msgstr "**template**"
 
 msgid "Running on a non-editor (export template) build"
 msgstr "在非編輯器建置中執行"
 
 msgid "**double**"
-msgstr "**mobile**"
+msgstr "**double**"
 
 msgid "Running on a double-precision build"
 msgstr "在非編輯器建置中執行"
 
 msgid "**single**"
-msgstr "**mobile**"
+msgstr "**single**"
 
 msgid "Running on a single-precision build"
 msgstr "在非編輯器建置中執行"
@@ -170,7 +170,7 @@ msgid "Running on a 64-bit x86 build"
 msgstr "在 64 位元 x86 建置上執行"
 
 msgid "**x86_32**"
-msgstr "**x86**"
+msgstr "**x86_32**"
 
 msgid "Running on a 32-bit x86 build"
 msgstr "在 32 位元 x86 建置上執行"
@@ -188,7 +188,7 @@ msgid "Running on a 64-bit ARM build"
 msgstr "在 64 位元 ARM 建置上執行"
 
 msgid "**arm32**"
-msgstr "**arm**"
+msgstr "**arm32**"
 
 msgid "Running on a 32-bit ARM build"
 msgstr "在 32 位元 ARM 建置上執行"
@@ -200,7 +200,7 @@ msgid "Running on an ARM build (any bitness)"
 msgstr "在 64 位元建置上執行 (不限架構)"
 
 msgid "**rv64**"
-msgstr "**64**"
+msgstr "**rv64**"
 
 msgid "Running on a 64-bit RISC-V build"
 msgstr "在 64 位元 ARM 建置上執行"
@@ -212,31 +212,31 @@ msgid "Running on a RISC-V build (any bitness)"
 msgstr "在 64 位元建置上執行 (不限架構)"
 
 msgid "**ppc64**"
-msgstr "**64**"
+msgstr "**ppc64**"
 
 msgid "Running on a 64-bit PowerPC build"
 msgstr "在 64 位元 x86 建置上執行"
 
 msgid "**ppc32**"
-msgstr "**32**"
+msgstr "**ppc32**"
 
 msgid "Running on a 32-bit PowerPC build"
 msgstr "在 32 位元 x86 建置上執行"
 
 msgid "**ppc**"
-msgstr "**pc**"
+msgstr "**ppc**"
 
 msgid "Running on a PowerPC build (any bitness)"
 msgstr "在 64 位元建置上執行 (不限架構)"
 
 msgid "**wasm64**"
-msgstr "**arm64**"
+msgstr "**wasm64**"
 
 msgid "Running on a 64-bit WebAssembly build (not yet possible)"
 msgstr "在 64 位元建置上執行 (不限架構)"
 
 msgid "**wasm32**"
-msgstr "**32**"
+msgstr "**wasm32**"
 
 msgid "Running on a 32-bit WebAssembly build"
 msgstr "在 32 位元 ARM 建置上執行"
@@ -266,31 +266,31 @@ msgid "Host OS is a Web browser"
 msgstr "主機作業系統為網頁瀏覽器"
 
 msgid "**web_android**"
-msgstr "**Android**"
+msgstr "**web_android**"
 
 msgid "Host OS is a Web browser running on Android"
 msgstr "主機作業系統為網頁瀏覽器"
 
 msgid "**web_ios**"
-msgstr "**web**"
+msgstr "**web_ios**"
 
 msgid "Host OS is a Web browser running on iOS"
 msgstr "主機作業系統為網頁瀏覽器"
 
 msgid "**web_linuxbsd**"
-msgstr "**web**"
+msgstr "**web_linuxbsd**"
 
 msgid "Host OS is a Web browser running on Linux or \\*BSD"
 msgstr "主機作業系統為網頁瀏覽器"
 
 msgid "**web_macos**"
-msgstr "**web**"
+msgstr "**web_macos**"
 
 msgid "Host OS is a Web browser running on macOS"
 msgstr "主機作業系統為網頁瀏覽器"
 
 msgid "**web_windows**"
-msgstr "**Windows**"
+msgstr "**web_windows**"
 
 msgid "Host OS is a Web browser running on Windows"
 msgstr "主機作業系統為網頁瀏覽器"
@@ -314,10 +314,10 @@ msgid "Textures using S3TC (DXT/BC) compression are supported"
 msgstr "支援以 S3TC (DXT/BC) 壓縮紋理"
 
 msgid "**movie**"
-msgstr "**mobile**"
+msgstr "**movie**"
 
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
-msgstr ":ref:`Movie Maker 模式 <doc_creating_movies>` 已激活"
+msgstr ":ref:`Movie Maker 模式 <doc_creating_movies>` 已啟用"
 
 msgid "Custom features"
 msgstr "自定功能"
@@ -389,6 +389,3 @@ msgid ""
 msgstr ""
 "可以通過撰寫自定 **ExportPlugin** 來使用功能標籤自定建置過程。ExportPlugin 也"
 "可以用來指定 **GDNative** 中要載入與匯出哪些共用程式庫。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

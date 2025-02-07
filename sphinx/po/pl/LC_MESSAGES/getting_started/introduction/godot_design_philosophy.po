@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,9 @@ msgstr ""
 
 msgid "Godot's design philosophy"
 msgstr "Godot - filozofia projektowania"
+
+msgid "Now that you've gotten your feet wet, let's talk about Godot's design."
+msgstr "Teraz nadszedł czas aby porozmawiać o konstrukcji samego Godota."
 
 msgid ""
 "**Every game engine is different and fits different needs.** Not only do "
@@ -81,6 +84,19 @@ msgstr ""
 msgid "|image0|"
 msgstr "|image0|"
 
+msgid ""
+"Also note that Godot offers many different types of objects called nodes, "
+"each with a specific purpose. Nodes are part of a tree and always inherit "
+"from their parents up to the Node class. Although the engine does feature "
+"some nodes like collision shapes that a parent physics body will use, most "
+"nodes work independently from one another."
+msgstr ""
+"Zauważ też, że Godot oferuje wiele odmiennych typów obiektów zwanych "
+"węzłami, każdy o określonym przeznaczeniu. Węzły są częścią drzewa i zawsze "
+"dziedziczą od swoich rodziców aż do podstawowej klasy węzła(Node). Chociaż "
+"silnik posiada węzły takie jak obszar kolizji(collision shape), z którego "
+"kożysta rodzic(physics body), są one wyjątkiem, a nie normą."
+
 msgid "|image1|"
 msgstr "|image1|"
 
@@ -100,6 +116,17 @@ msgstr ""
 
 msgid "|image2|"
 msgstr "|image2|"
+
+msgid ""
+"GDScript lets you write code using an indentation-based syntax, yet it "
+"detects types and offers a static language's quality of auto-completion. It "
+"is also optimized for gameplay code with built-in types like Vectors and "
+"Colors."
+msgstr ""
+"GDscript umożliwia pisanie prostego kodu przy użyciu składni podobnej do "
+"Pythona, ale wykrywa typy oraz oferuje auto uzupełnianie jak w języku "
+"statycznym. Jest również zoptymalizowany pod kątem kodowania gier i posiada "
+"wbudowane typy, takie jak wektor czy kolor."
 
 msgid ""
 "Note that the 3D workspace doesn't feature as many tools as the 2D "
@@ -125,7 +152,7 @@ msgstr ""
 "zarządzanie stanami i przejściami*"
 
 msgid "Open source"
-msgstr "Otwarto-źródłowy"
+msgstr "Otwartoźródłowy"
 
 msgid ""
 "Godot offers a fully open source codebase under the **MIT license**. This "
@@ -157,6 +184,13 @@ msgstr ""
 "rozszerzać możliwości silnika** do własnych potrzeb. Możesz również łatwo "
 "debugować gry, ponieważ Godot będzie wypisywał błędy na stosie (stack "
 "trace), nawet jeśli pochodzą one z samego silnika."
+
+msgid ""
+"This **does not affect the work you do with Godot** in any way: there's no "
+"strings attached to the engine or anything you make with it."
+msgstr ""
+"To w *żaden* sposób **nie wpływa na twoją pracę w Godocie**: Nie ma żadnej "
+"etykiety przypiętej do silnika czy stworzonych przez ciebie programów."
 
 msgid "Community-driven"
 msgstr "Tworzony przez społeczność"
@@ -191,6 +225,3 @@ msgstr "|image5|"
 
 msgid "Separate 2D and 3D engines"
 msgstr "Osobny silnik 2D i 3D"
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

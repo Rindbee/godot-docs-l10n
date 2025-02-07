@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -185,6 +185,3 @@ msgid ""
 msgstr ""
 "예를 들어, C 또는 C++로 까다로운 알고리즘을 구현하고 그 외 대부분의 게임 로직"
 "을 GDScript 또는 C#으로 작성하는 식으로 여러 언어를 사용할 수 있습니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

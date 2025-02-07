@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -213,6 +213,3 @@ msgid ""
 msgstr ""
 "다음 파트에서는 게임 및 Godot에서 또 다른 중요한 개념인 씬의 인스턴스"
 "(instances)를 생성하는 것에 대해 논의하겠습니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

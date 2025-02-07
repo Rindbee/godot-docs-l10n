@@ -1,0 +1,147 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Tag"
+msgstr "標籤"
+
+msgid "Example"
+msgstr "範例"
+
+msgid "**b**"
+msgstr "**乙**"
+
+msgid ""
+"Makes ``{text}`` use the bold (or bold italics) font of ``RichTextLabel``."
+msgstr "使“{text}”使用“RichTextLabel”的粗體（或粗體斜體）字形。"
+
+msgid "``[b]{text}[/b]``"
+msgstr "``[b]{text}[/b]``"
+
+msgid "**i**"
+msgstr "**我**"
+
+msgid ""
+"Makes ``{text}`` use the italics (or bold italics) font of ``RichTextLabel``."
+msgstr "使“{text}”使用“RichTextLabel”的斜體（或粗體斜體）字形。"
+
+msgid "``[i]{text}[/i]``"
+msgstr "``[i]{text}[/i]``"
+
+msgid "**u**"
+msgstr "**u**"
+
+msgid "Makes ``{text}`` underlined."
+msgstr "在 ``{text}`` 上顯示底線。"
+
+msgid "``[u]{text}[/u]``"
+msgstr "``[u]{text}[/u]``"
+
+msgid "**s**"
+msgstr "**s**"
+
+msgid "Makes ``{text}`` strikethrough."
+msgstr "在 ``{text}`` 上顯示刪除線。"
+
+msgid "``[s]{text}[/s]``"
+msgstr "``[s]{text}[/s]``"
+
+msgid "**code**"
+msgstr "**code**"
+
+msgid "``[code]{text}[/code]``"
+msgstr "``[code]{text}[/code]``"
+
+msgid "``{text}``"
+msgstr "``{project}``"
+
+msgid "**center**"
+msgstr "**center**"
+
+msgid "Makes ``{text}`` horizontally centered."
+msgstr "使得 {text} 水平居中."
+
+msgid "Same as ``[p align=center]``."
+msgstr "與“[palign=center]”相同。"
+
+msgid "``[center]{text}[/center]``"
+msgstr "``[center]{text}[/center]``"
+
+msgid "**url**"
+msgstr "**url**"
+
+msgid ""
+"Creates a hyperlink (underlined and clickable text). Can contain optional "
+"``{text}`` or display ``{link}`` as is."
+msgstr ""
+"建立超連結（帶下劃線且可點擊的文字）。可以包含可選的“{text}”或按原樣顯"
+"示“{link}”。"
+
+msgid "``[url]{link}[/url]``"
+msgstr "``[url]{url}[/url]``"
+
+msgid "``[url={link}]{text}[/url]``"
+msgstr "``[url=<url>]{text}[/url]``"
+
+msgid "**img**"
+msgstr "**img**"
+
+msgid ""
+"Inserts an image from the ``{path}`` (can be any valid :ref:"
+"`class_Texture2D` resource)."
+msgstr "從「{path}」插入映像（可以是任何有效的 class_Texture2D 資源）。"
+
+msgid ""
+"If ``{width}`` is provided, the image will try to fit that width maintaining "
+"the aspect ratio."
+msgstr "如果提供了“{width}”，圖像將嘗試適應該寬度並保持縱橫比。"
+
+msgid ""
+"If both ``{width}`` and ``{height}`` are provided, the image will be scaled "
+"to that size."
+msgstr "如果同時提供了“{width}”和“{height}”，則圖像將縮放到該尺寸。"
+
+msgid ""
+"Supports configuration options, see :ref:"
+"`doc_bbcode_in_richtextlabel_image_options`."
+msgstr ""
+"支援配置選項，請參閱 :ref:`doc_bbcode_in_richtextlabel_image_options`。"
+
+msgid "``[img]{path}[/img]``"
+msgstr "``[img]{path}[/img]``"
+
+msgid "``[img={width}]{path}[/img]``"
+msgstr "``[img=<width>]{path}[/img]``"
+
+msgid "``[img={width}x{height}]{path}[/img]``"
+msgstr "``[img=<width>x<height>]{path}[/img]``"
+
+msgid "``[img={valign}]{path}[/img]``"
+msgstr "``[img]{path}[/img]``"
+
+msgid "``[img {options}]{path}[/img]``"
+msgstr "``[img]{path}[/img]``"
+
+msgid "**color**"
+msgstr "**color**"
+
+msgid ""
+"Changes the color of ``{text}``. Color must be provided by a common name "
+"(see :ref:`doc_bbcode_in_richtextlabel_named_colors`) or using the HEX "
+"format (e.g. ``#ff00ff``, see :ref:`doc_bbcode_in_richtextlabel_hex_colors`)."
+msgstr ""
+"更改“{text}”的顏色。顏色必須由通用名稱提供（請參閱 "
+"doc_bbcode_in_richtextlabel_named_colors`）或使用十六進位格式（例"
+"如“#ff00ff”，請參閱 doc_bbcode_in_richtextlabel_hex_colors`）。"
+
+msgid "``[color={code/name}]{text}[/color]``"
+msgstr "``[color={code/name}]{text}[/color]``"

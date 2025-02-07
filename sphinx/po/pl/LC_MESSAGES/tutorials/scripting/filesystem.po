@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -94,6 +94,3 @@ msgstr ""
 "spoza Godota, ponieważ jego błędne zależności będą musiały być naprawione "
 "ręcznie (Godot wykrywa to i pomaga naprawić je tak czy inaczej, ale czemu "
 "sobie życie utrudniać?)."
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

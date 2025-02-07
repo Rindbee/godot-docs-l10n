@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -50,6 +50,3 @@ msgstr ""
 "Funktion als Annotation oder als Sprachschlüsselwort implementiert wird, ist "
 "eine differenzierte Entscheidung, die im Gespräch mit anderen GDScript-"
 "Entwicklern getroffen werden sollte."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

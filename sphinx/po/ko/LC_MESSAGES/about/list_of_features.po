@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -18,15 +18,6 @@ msgid "This page aims to list **all** features currently supported by Godot."
 msgstr ""
 "이 페이지의 목표는 현재 Godot가 지원하는 **모든** 기능을 나열하는 것입니다."
 
-msgid ""
-"This page lists features supported by the current stable version of Godot. "
-"Some of these features may not be available in the `LTS release series (3.x) "
-"<https://docs.godotengine.org/en/3.5/about/list_of_features.html>`__."
-msgstr ""
-"이 페이지는 현재 stable 버전 Godot가 지원하는 기능들을 나열하고 있습니다. 몇"
-"몇 기능은 `이전 버전 시리즈 (3.x) <https://docs.godotengine.org/ko/3.5/about/"
-"list_of_features.html>`_에서 작동하지 않을 수 있습니다."
-
 msgid "Platforms"
 msgstr "플랫폼"
 
@@ -40,9 +31,6 @@ msgstr ""
 msgid "**Can run both the editor and exported projects:**"
 msgstr "**에디터와 내보낸 프로젝트를 모두 실행할 수 있는 플랫폼:**"
 
-msgid "Windows (x86, 64-bit and 32-bit)."
-msgstr "Windows (x86, 64비트 및 32비트)."
-
 msgid "macOS (x86 and ARM, 64-bit only)."
 msgstr "macOS (x86 과 64비트 ARM 버전만)."
 
@@ -55,15 +43,6 @@ msgid ""
 msgstr ""
 "바이너리는 정적으로 연결되어 있어서 아주 오래된 기본 배포에서 컴파일 된 경우"
 "라도 모든 배포에서 실행할 수 있습니다."
-
-msgid ""
-"Official binaries are compiled using the `Godot Engine buildroot <https://"
-"github.com/godotengine/buildroot>`__, allowing for binaries that work across "
-"common Linux distributions (including LTS variants)."
-msgstr ""
-"공식 바이너리는 `Godot Engine buildroot <https://github.com/godotengine/"
-"buildroot>`를 사용하여 컴파일되며 이를 통해 (LTS를 포함한) 일반적인 리눅스 배"
-"포판들에서 바이너리가 동작할 수 있게 됩니다."
 
 msgid "Android (editor support is experimental)."
 msgstr "Android (에디터 지원은 실험적인 기능입니다)."
@@ -254,12 +233,15 @@ msgid "Parallax layers."
 msgstr "패럴랙스 레이어."
 
 msgid "Pseudo-3D support including preview in the editor."
-msgstr "Pseudo-3D지원 (에디터 시점 포함)"
+msgstr "Pseudo-3D지원 (에디터 시점 포함)."
 
 msgid ""
 ":ref:`2D lighting <doc_2d_lights_and_shadows>` with normal maps and specular "
 "maps."
 msgstr ":ref:`법선 맵과 반사 맵을 이용한 2D 조명 <doc_2d_lights_and_shadows>`."
+
+msgid "Point (omni/spot) and directional 2D lights."
+msgstr "Point (omni/spot) 및 방향성(directional) 2D 조명."
 
 msgid "Hard or soft shadows (adjustable on a per-light basis)."
 msgstr "하드한 또는 부드러운 그림자 (광도 단위로 조정 가능)"
@@ -459,16 +441,49 @@ msgstr ""
 "Burley, Lambert, Lambert 랩 (half-Lambert) 및 Toon diffuse 셰이딩 모드를 지원"
 "합니다."
 
+msgid "Supports Schlick-GGX, Toon and Disabled specular shading modes."
+msgstr ""
+"Schlick-GGX, Blinn, Phong, Toon, 그리고 Disabled specular shading modes를 지"
+"원합니다."
+
 msgid "Uses a roughness-metallic workflow with support for ORM textures."
 msgstr ""
 "ORM 텍스처를 지원하는 러프니스-메탈릭(roughness-metallic) 워크플로를 사용합니"
 "다."
 
+msgid ""
+"Uses horizon specular occlusion (Filament model) to improve material "
+"appearance."
+msgstr "수평선 반사 오클루전(Filament 모델)을 사용하여 재료 모양 개선."
+
 msgid "Normal mapping."
 msgstr "노멀 매핑."
 
+msgid ""
+"Parallax/relief mapping with automatic level of detail based on distance."
+msgstr "*GLES3:* 거리 기반 자동 패럴랙스(parallax) 매핑/릴리프(relief) 매핑."
+
 msgid "Detail mapping for the albedo and normal maps."
 msgstr "Albedo 및 노멀 지도에 대한 매핑 세부화."
+
+msgid "Sub-surface scattering and transmittance."
+msgstr "*GLES3:* sub-surface scattering 및 transmittance."
+
+msgid ""
+"Screen-space refraction with support for material roughness (resulting in "
+"blurry refraction)."
+msgstr ""
+"머터리얼의 질감을 화면 공간 반사(Screen-space refraction)로 지원합니다."
+
+msgid "Proximity fade (soft particles) and distance fade."
+msgstr "*GLES3:* 근접(Proximity) 페이드(가벼운 파티클)."
+
+msgid ""
+"Distance fade can use alpha blending or dithering to avoid going through the "
+"transparent pipeline."
+msgstr ""
+"투명 파이프라인을 통과하는 것을 피하기 위해 알파 블렌딩이나 디더링(dithering)"
+"을 사용할 수 있는 디스턴스 페이드(distance face)."
 
 msgid "Dithering can be determined on a per-pixel or per-object basis."
 msgstr "디더링은 픽셀 또는 객체별로 적용할 수 있습니다."
@@ -485,6 +500,11 @@ msgstr "전방위 조명(Omnidirectional lights)."
 
 msgid "Spot lights with adjustable cone angle and attenuation."
 msgstr "원뿔 모양의 각도와 감쇠(attenuation)를 조정할 수 있는 스포트라이트."
+
+msgid ""
+"Specular, indirect light, and volumetric fog energy can be adjusted on a per-"
+"light basis."
+msgstr "반사, 간접광, 볼류메트릭 포그 강도는 광원마다 조절할 수 있습니다."
 
 msgid ""
 "Adjustable light \"size\" for fake area lights (will also make shadows "
@@ -533,6 +553,9 @@ msgid ""
 msgstr ""
 "*옴니 라이트(OmniLight):* 쌍포물선(빠름) 또는 큐브맵(느리지만 정확). 색이 있"
 "는 프로젝터 텍스처를 파노라마 형태로 사용할 수 있습니다."
+
+msgid "*SpotLight:* Single texture. Supports colored projector textures."
+msgstr "*스포트라이트:* 단일 텍스처. 색이 있는 투영 텍스처에 대응."
 
 msgid ""
 "Shadow normal offset bias and shadow pancaking to decrease the amount of "
@@ -877,9 +900,6 @@ msgstr "**텍스처 압축:**"
 msgid "Basis Universal (slow, but results in smaller files)."
 msgstr "Basis Universal (느리지만 더 작은 파일 크기를 제공합니다)."
 
-msgid "**Anti-aliasing:**"
-msgstr "**안티 앨리어싱:**"
-
 msgid "Temporal :ref:`antialiasing <doc_3d_antialiasing>` (TAA)."
 msgstr "시간적 :ref:`안티앨리어싱 <doc_3d_antialiasing>` (TAA)."
 
@@ -1106,19 +1126,6 @@ msgstr ""
 
 msgid "Use any build system and language features you wish."
 msgstr "여러분이 사용하는 어느 빌드 시스템이나 언어든 사용할 수 있습니다."
-
-msgid ""
-"Actively developed GDExtension bindings for `D <https://github.com/godot-"
-"dlang/godot-dlang>`__, `Haxe <https://hxgodot.github.io/>`__, `Swift "
-"<https://github.com/migueldeicaza/SwiftGodot>`__, and `Rust <https://github."
-"com/godot-rust/gdextension>`__ bindings provided by the community. (Some of "
-"these bindings may be experimental and not production-ready)."
-msgstr ""
-"커뮤니티에서 제공하는 활발히 개발 중인 GDExtension 바인딩: `D <https://"
-"github.com/godot-dlang/godot-dlang>`, `Haxe <https://hxgodot.github.io/>`, "
-"`Swift <https://github.com/migueldeicaza/SwiftGodot>`, 그리고 `Rust <https://"
-"github.com/godot-rust/gdextension>`. (일부 바인딩은 실험적이며, 실제 사용에 "
-"적합하지 않을 수 있습니다)."
 
 msgid "Audio"
 msgstr "오디오"
@@ -1668,6 +1675,3 @@ msgstr ""
 "`고도 제안 저장소 <https://github.com/godotengine/godot-proposals>`__ 에는 커"
 "뮤니티가 요청한 기능과 향후 Godot 릴리스에서 구현될 수 있는 기능 목록이 있습"
 "니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

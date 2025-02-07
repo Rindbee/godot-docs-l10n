@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -156,6 +156,24 @@ msgstr "|bad| Regular"
 msgid "|bad| Slow"
 msgstr "|bad| Lenta"
 
+msgid "**128×128**"
+msgstr "**128×128**"
+
+msgid "**256×256**"
+msgstr "**256×256**"
+
+msgid "**512×512**"
+msgstr "**512×512**"
+
+msgid "**1024×1024**"
+msgstr "**1024×1024**"
+
+msgid "**2048×2048**"
+msgstr "**2048×2048**"
+
+msgid "**4096×4096**"
+msgstr "**4096×4096**"
+
 msgid ""
 "More information about normal maps (including a coordinate order table for "
 "popular engines) can be found `here <http://wiki.polycount.com/wiki/"
@@ -178,6 +196,3 @@ msgstr ""
 
 msgid "Best practices"
 msgstr "Buenas prácticas"
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

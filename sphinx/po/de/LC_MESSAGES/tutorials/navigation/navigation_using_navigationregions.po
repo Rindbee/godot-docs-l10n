@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -138,6 +138,3 @@ msgstr ""
 "Navigations-Regionen können nur einer einzigen Navigation Map zugewiesen "
 "werden. Wenn eine bestehende Region einer neuen Map zugewiesen wird, "
 "verlässt sie die alte Map."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

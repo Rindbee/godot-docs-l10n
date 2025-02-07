@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,8 +20,22 @@ msgstr "Vulkan"
 msgid "**Vulkan context creation:**"
 msgstr "**Contexte de création Vulkan :**"
 
+msgid ""
+"`drivers/vulkan/vulkan_context.cpp <https://github.com/godotengine/godot/"
+"blob/4.2/drivers/vulkan/vulkan_context.cpp>`__"
+msgstr ""
+"`drivers/vulkan/vulkan_context.cpp <https://github.com/godotengine/godot/"
+"blob/4.2/drivers/vulkan/vulkan_context.cpp>`__"
+
 msgid "**Direct3D 12 context creation:**"
 msgstr "**Contexte de création Direct3D 12 :**"
+
+msgid ""
+"`drivers/d3d12/d3d12_context.cpp <https://github.com/godotengine/godot/blob/"
+"master/drivers/d3d12/d3d12_context.cpp>`__"
+msgstr ""
+"`drivers/d3d12/d3d12_context.cpp <https://github.com/godotengine/godot/blob/"
+"master/drivers/d3d12/d3d12_context.cpp>`__"
 
 msgid "OpenGL"
 msgstr "OpenGL"
@@ -35,8 +49,57 @@ msgstr "Vulkan + Forward Mobile"
 msgid "Direct3D 12 + Forward+"
 msgstr "Direct3D 12 + Forward+"
 
+msgid "Direct3D 12 + Forward Mobile"
+msgstr "Direct3D 12 + Forward Mobile"
+
+msgid "Metal + Forward+ (via MoltenVK)"
+msgstr "Metal + Forward+ (via MoltenVK)"
+
+msgid ""
+"`View at full size <https://raw.githubusercontent.com/godotengine/godot-docs/"
+"master/contributing/development/core_and_modules/img/"
+"rendering_architecture_diagram.webp>`__"
+msgstr ""
+"`Voir en taille réelle <https://raw.githubusercontent.com/godotengine/godot-"
+"docs/master/contributing/development/core_and_modules/img/"
+"rendering_architecture_diagram.webp>`__"
+
+msgid ""
+"Compatibility: `drivers/gles3/shaders/scene.glsl <https://github.com/"
+"godotengine/godot/blob/4.2/drivers/gles3/shaders/scene.glsl>`__"
+msgstr ""
+"Compatibilité : `drivers/gles3/shaders/scene.glsl <https://github.com/"
+"godotengine/godot/blob/4.2/drivers/gles3/shaders/scene.glsl>`__"
+
+msgid ""
+"`scene/resources/material.cpp <https://github.com/godotengine/godot/blob/4.2/"
+"scene/resources/material.cpp>`__"
+msgstr ""
+"`scene/resources/material.cpp <https://github.com/godotengine/godot/blob/4.2/"
+"scene/resources/material.cpp>`__"
+
+msgid ""
+"`modules/lightmapper_rd/ <https://github.com/godotengine/godot/blob/4.2/"
+"modules/lightmapper_rd>`__"
+msgstr ""
+"`modules/lightmapper_rd/ <https://github.com/godotengine/godot/blob/4.2/"
+"modules/lightmapper_rd>`__"
+
+msgid ""
+"`drivers/gles3/shaders/ <https://github.com/godotengine/godot/blob/4.2/"
+"drivers/gles3/shaders/>`__"
+msgstr ""
+"`drivers/gles3/shaders/ <https://github.com/godotengine/godot/blob/4.2/"
+"drivers/gles3/shaders/>`__"
+
 msgid "**FSR 1.0:**"
 msgstr "**FSR 1.0:**"
+
+msgid "**2D SDF generation GLSL shader:**"
+msgstr "**Shader GLSL de générateur de CDS 2D :**"
+
+msgid "Light, decal and reflection probe rendering"
+msgstr "Rendu de lumière, de calque et de sonde de réflexion"
 
 msgid "Shadow mapping"
 msgstr "Cartographie des ombres"
@@ -50,14 +113,47 @@ msgstr "**FSR 2.2:**"
 msgid "**Core GI C++ code:**"
 msgstr "**Code Core GI C++ :**"
 
+msgid ""
+"`editor/plugins/voxel_gi_editor_plugin.cpp <https://github.com/godotengine/"
+"godot/blob/4.2/editor/plugins/voxel_gi_editor_plugin.cpp>`__ - Editor UI for "
+"the VoxelGI node"
+msgstr ""
+"`editor/plugins/voxel_gi_editor_plugin.cpp <https://github.com/godotengine/"
+"godot/blob/4.2/editor/plugins/voxel_gi_editor_plugin.cpp>`__ - Interface "
+"Graphique pour le noeud VoxelGI"
+
 msgid "**Core GI GLSL shaders:**"
 msgstr "**Shaders Core GI GLSL:**"
 
 msgid "**Lightmapper GLSL shaders:**"
 msgstr "**Mappeur de lumière de shaders GLSL :**"
 
+msgid ""
+"`modules/lightmapper_rd/lm_raster.glsl <https://github.com/godotengine/godot/"
+"blob/4.2/modules/lightmapper_rd/lm_raster.glsl>`__"
+msgstr ""
+"`modules/lightmapper_rd/lm_raster.glsl <https://github.com/godotengine/godot/"
+"blob/4.2/modules/lightmapper_rd/lm_raster.glsl>`__"
+
+msgid ""
+"`modules/lightmapper_rd/lm_compute.glsl <https://github.com/godotengine/"
+"godot/blob/4.2/modules/lightmapper_rd/lm_compute.glsl>`__"
+msgstr ""
+"`modules/lightmapper_rd/lm_compute.glsl <https://github.com/godotengine/"
+"godot/blob/4.2/modules/lightmapper_rd/lm_compute.glsl>`__"
+
+msgid ""
+"`modules/lightmapper_rd/lm_blendseams.glsl <https://github.com/godotengine/"
+"godot/blob/4.2/modules/lightmapper_rd/lm_blendseams.glsl>`__"
+msgstr ""
+"`modules/lightmapper_rd/lm_blendseams.glsl <https://github.com/godotengine/"
+"godot/blob/4.2/modules/lightmapper_rd/lm_blendseams.glsl>`__"
+
 msgid "Depth of field"
 msgstr "Profondeur de champ"
+
+msgid ":ref:`doc_sky_shader`"
+msgstr ":ref:`doc_sky_shader`"
 
 msgid "**Sky rendering C++ code:**"
 msgstr "**Code Sky rendering C++ :**"
@@ -67,6 +163,9 @@ msgstr "**Shader Sky rendering GLSL :**"
 
 msgid "Volumetric fog"
 msgstr "Brouillard volumétrique"
+
+msgid ":ref:`doc_fog_shader`"
+msgstr ":ref:`doc_fog_shader`"
 
 msgid "**Volumetric fog C++ code:**"
 msgstr "**Code C++ de brouillard volumétrique :**"
@@ -79,6 +178,3 @@ msgstr "Occlusion culling"
 
 msgid "**Visibility range C++ code:**"
 msgstr "**Code C++ de plage de visibilité :**"
-
-msgid "Translation status"
-msgstr "État de la traduction"

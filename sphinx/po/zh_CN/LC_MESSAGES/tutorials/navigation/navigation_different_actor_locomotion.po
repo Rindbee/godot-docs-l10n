@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -53,6 +53,3 @@ msgid ""
 msgstr ""
 "虽然可以对多个地图立即执行路径查询，但回避代理地图切换只有在下一次服务器同步"
 "后才会生效。"
-
-msgid "Translation status"
-msgstr "翻译状态"

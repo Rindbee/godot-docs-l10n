@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Customizing the interface"
+msgstr "Кастомизация интерфейса"
 
 msgid ""
 "Godot's interface lives in a single window by default. Since Godot 4.0, you "
@@ -20,12 +23,18 @@ msgstr ""
 "можете разделить несколько элементов на отдельные окна, чтобы лучше "
 "использовать системы с несколькими мониторами."
 
+msgid "Moving and resizing docks"
+msgstr "Перемещение и изменение размера вкладок"
+
 msgid ""
 "Click and drag on the edge of any dock or panel to resize it horizontally or "
 "vertically:"
 msgstr ""
 "Нажмите и перетащите край любого дока или панели, чтобы изменить его размер "
 "по горизонтали или вертикали:"
+
+msgid "Resizing a dock in the editor"
+msgstr "Изменение размера вкладки в редакторе"
 
 msgid ""
 "Click the \"3 vertical dots\" icon at the top of any dock to change its "
@@ -35,6 +44,9 @@ msgstr ""
 "Нажмите значок «3 вертикальные точки» в верхней части любой панели, чтобы "
 "изменить его расположение, или выделите его в отдельное окно, выбрав "
 "**Сделать плавающим** в появившемся подменю:"
+
+msgid "Moving a dock in the editor"
+msgstr "Перемещение вкладки в редакторе"
 
 msgid ""
 "To move a floating dock back to the editor window, close the dock window "
@@ -103,6 +115,9 @@ msgstr ""
 "качестве альтернативы вы можете нажать :kbd: \"Alt + F4\", пока окно "
 "разделённое окно сфокусировано."
 
+msgid "Customizing editor layouts"
+msgstr "Персонализация шаблонов редактора"
+
 msgid ""
 "You may want to save and load a dock configuration depending on the kind of "
 "task you're working on. For instance, when working on animating a character, "
@@ -123,6 +138,15 @@ msgstr ""
 "макеты редактора. Прежде чем сохранять макет, внесите изменения в доки, "
 "которые хотите сохранить. В сохраненном макете сохраняются следующие "
 "изменения:"
+
+msgid "Moving a dock."
+msgstr "Передвижение влкадки."
+
+msgid "Resizing a dock."
+msgstr "Изменение размера вкладки."
+
+msgid "Making a dock floating."
+msgstr "Соаздание плавучей вкладки."
 
 msgid "Changing a floating dock's position or size."
 msgstr "Изменение положения или размера панели."
@@ -317,6 +341,3 @@ msgstr ""
 "большинства настроек редактора. Вы также можете навести указатель мыши на "
 "имя параметра редактора в настройках редактора, чтобы отобразить его "
 "описание."
-
-msgid "Translation status"
-msgstr "Статус перевода"

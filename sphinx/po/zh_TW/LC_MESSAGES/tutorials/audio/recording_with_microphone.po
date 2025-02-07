@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -87,6 +87,3 @@ msgid ""
 msgstr ""
 "要保存錄音, 你需要呼叫 ``save_to_wav()``, 並提供檔的路徑. 在本演示中, 路徑由"
 "使用者通過 ``LineEdit`` 輸入框定義."
-
-msgid "Translation status"
-msgstr "翻譯狀態"

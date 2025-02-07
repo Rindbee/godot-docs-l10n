@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,90 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0201: The name of the delegate must end with 'EventHandler'"
+msgstr "GD0201: ім’я делегата має закінчуватися на «EventHandler»"
+
+msgid "**Rule ID**"
+msgstr "**Ідентифікатор правила**"
+
+msgid "GD0201"
+msgstr "GD0201"
+
 msgid "**Category**"
 msgstr "**Категорія**"
 
 msgid "Usage"
 msgstr "Використання"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Виправлення ламається або не ламається**"
+
+msgid "Breaking"
+msgstr "ломка"
+
+msgid "**Enabled by default**"
+msgstr "**Увімкнено за замовчуванням**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "причина"
+
+msgid ""
+"A delegate annotated with the ``[Signal]`` attribute has a name that doesn't "
+"end with 'EventHandler'."
+msgstr ""
+"Ім’я делегату, позначеного атрибутом ``[Signal]``, не закінчується на "
+"EventHandler."
+
+msgid "Rule description"
+msgstr "Опис правила"
+
+msgid ""
+"Godot source generators will generate C# events using the name of the "
+"delegate with the 'EventHandler' suffix removed. Adding the 'EventHandler' "
+"suffix to the name of delegates used in events is a `.NET naming convention "
+"<https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/names-"
+"of-classes-structs-and-interfaces#names-of-common-types>`_."
+msgstr ""
+"Генератори вихідного коду Godot генеруватимуть події C#, використовуючи ім’я "
+"делегату з видаленим суфіксом EventHandler. Додавання суфікса EventHandler "
+"до імен делегатів, які використовуються в подіях, `є умовою іменування .NET "
+"<https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/names-"
+"of-classes-structs-and-interfaces#names-of-common-types>`_."
+
+msgid ""
+"Using a suffix for the delegate allows the generated event to use the name "
+"without the suffix avoiding a naming conflict."
+msgstr ""
+"Використання суфікса для делегату дозволяє згенерованій події "
+"використовувати назву без суфікса, щоб уникнути конфлікту імен."
+
+msgid ""
+"Take a look at the :ref:`C# signals <doc_c_sharp_signals>` documentation for "
+"more information about how to declare and use signals."
+msgstr ""
+"Перегляньте документацію :ref:`C# signals <doc_c_sharp_signals>`, щоб "
+"дізнатися більше про те, як декларувати та використовувати сигнали."
+
+msgid "How to fix violations"
+msgstr "Як усунути порушення"
+
+msgid ""
+"To fix a violation of this rule, add 'EventHandler' to the end of the "
+"delegate name."
+msgstr ""
+"Щоб виправити порушення цього правила, додайте «EventHandler» у кінець імені "
+"делегата."
+
+msgid "When to suppress warnings"
+msgstr "Коли придушувати попередження"
+
+msgid ""
+"Do not suppress a warning from this rule. Signal delegates without the "
+"suffix will be ignored by the source generator, so the signal won't be "
+"registered."
+msgstr ""
+"Не приховуйте попередження з цього правила. Делегати сигналу без суфікса "
+"будуть проігноровані генератором джерела, тому сигнал не буде зареєстровано."

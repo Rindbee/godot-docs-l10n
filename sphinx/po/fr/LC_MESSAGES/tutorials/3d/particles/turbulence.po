@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Particle turbulence properties"
+msgstr "Propriétés de turbulence des particules"
+
 msgid "Turbulence noise strength"
 msgstr "Force du bruit de la turbulence"
 
@@ -19,6 +22,3 @@ msgstr "Mise à l'échelle du bruit de la turbulence"
 
 msgid "Turbulence noise speed"
 msgstr "Vitesse du bruit de la turbulence"
-
-msgid "Translation status"
-msgstr "État de la traduction"

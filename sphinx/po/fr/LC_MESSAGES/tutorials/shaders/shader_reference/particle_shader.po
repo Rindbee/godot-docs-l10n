@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,14 @@ msgstr ""
 
 msgid "Particle shaders"
 msgstr "Shaders de particules"
+
+msgid ""
+"Particle shaders are only available with GPU-based particle nodes (:ref:"
+"`class_GPUParticles2D` and :ref:`class_GPUParticles3D`)."
+msgstr ""
+"Les shaders de particules sont uniquement disponibles dans des nœuds de "
+"particules basées sur le GPU (:ref:`class_GPUParticles2D` et :ref:"
+"`class_GPUParticles3D`)."
 
 msgid "Render modes"
 msgstr "Mode de rendu"
@@ -70,9 +78,6 @@ msgstr "Intégré"
 
 msgid "in float **TIME**"
 msgstr "in float **TIME**"
-
-msgid "Global time, in seconds."
-msgstr "Temps global, en secondes."
 
 msgid "Function"
 msgstr "Fonction"
@@ -145,6 +150,3 @@ msgstr ""
 
 msgid "in bool **RESTART**"
 msgstr "in bool **RESTART**"
-
-msgid "Translation status"
-msgstr "État de la traduction"

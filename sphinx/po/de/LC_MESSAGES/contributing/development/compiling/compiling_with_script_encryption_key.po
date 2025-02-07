@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -134,6 +134,3 @@ msgstr ""
 "Schlüssel nicht ordnungsgemäß in Ihren Godot-Build aufgenommen wurde. Godot "
 "verschlüsselt die PCK-Datei während des Exports, kann sie aber zur Laufzeit "
 "nicht lesen."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

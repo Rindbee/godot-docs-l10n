@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -72,6 +72,3 @@ msgstr ""
 "雖然不是嚴格要求，但這兩個物件都旨在提前建立一次，儲存在代理程式的持久變數"
 "中，並在每個後續路徑查詢中重複使用更新的參數。如果專案具有大量同時定期更新其"
 "路徑的代理，則這種重用可以避免頻繁建立物件對效能造成的影響。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

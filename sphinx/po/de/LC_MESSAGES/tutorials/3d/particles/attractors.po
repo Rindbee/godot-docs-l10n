@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -377,6 +377,3 @@ msgstr ""
 "Zwei Partikel-Systeme sind von demselben Vektorfeld-Attraktor betroffen. :"
 "download: `Klicken Sie hier, um die 3D-Textur <img/"
 "particle_vector_field_16x16x16.bmp>` herunterzuladen."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

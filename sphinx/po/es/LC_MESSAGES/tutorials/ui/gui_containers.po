@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -118,13 +118,6 @@ msgstr ""
 
 msgid "Box Containers"
 msgstr "Contenedores Box"
-
-msgid ""
-"These containers make use of the *Ratio* property for children with the "
-"*Expand* flag set."
-msgstr ""
-"Estos contenedores hacen uso de la propiedad *Ratio* para los niños con la "
-"bandera *Expandir* puesta."
 
 msgid "Grid Container"
 msgstr "Contenedor Rejilla"
@@ -243,6 +236,3 @@ msgstr "SubViewportContainer"
 
 msgid "Creating custom Containers"
 msgstr "Creando contenedores personalizados"
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

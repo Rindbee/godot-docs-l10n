@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -165,6 +165,3 @@ msgid ""
 msgstr ""
 "``Input`` 單例允許您在程式碼中的任何位置對玩家的輸入做出反應。 尤其是，你在 "
 "``_process()`` 迴圈中使用它。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

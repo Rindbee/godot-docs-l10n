@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -151,17 +151,6 @@ msgstr ""
 "은 쉽습니다. 이것은 법선(단위 벡터)와 점 또는 공간의 두 점으로부터 수행될 수 "
 "있습니다."
 
-msgid ""
-"For two points in space, there are actually two planes that pass through "
-"them, sharing the same space but with normal pointing to the opposite "
-"directions. To compute the normal from the two points, the direction vector "
-"must be obtained first, and then it needs to be rotated 90° degrees to "
-"either side:"
-msgstr ""
-"평면에서의 두 점은, 실제로 두 개의 평면이 그들을 통과하면서 같은 공간을 공유"
-"하지만, 법선 벡터는 보통 다른 방향을 가리킨다. 두 점에서 법선벡터를 계산하려"
-"면 먼저 방향 벡터를 얻은 다음 어느 쪽으로든 90° 회전해야 합니다:"
-
 msgid "Some examples of planes"
 msgstr "평면의 예"
 
@@ -292,6 +281,3 @@ msgstr ""
 
 msgid ":ref:`doc_matrices_and_transforms`"
 msgstr ":ref:`doc_matrices_and_transforms`"
-
-msgid "Translation status"
-msgstr "번역 상태"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -83,14 +83,6 @@ msgstr ""
 
 msgid "There are two main ways to alleviate banding:"
 msgstr "Godot 沒有使用限制"
-
-msgid ""
-"If using the Forward+ or Forward Mobile rendering methods, enable **Use "
-"Debanding** in the advanced Project Settings. This applies a fullscreen "
-"debanding shader as a post-processing effect and is very cheap."
-msgstr ""
-"如果使用 Forward+ 或 Forward Mobile 算繪方法，請在進階專案設定中啟用 **Use "
-"Debanding**。這應用了全螢幕去帶著色器作為後處理效果，並且非常便宜。"
 
 msgid ""
 "Alternatively, bake some noise into your textures. This is mainly effective "
@@ -317,6 +309,3 @@ msgstr ""
 "以更高的解析度算繪場景，然後在與視窗大小配對的 ViewportTexture 中顯示它。確保"
 "在 ViewportTexture 的標記中啟用 **Filter**。這種技術叫做*超取樣*，非常慢。通"
 "常只推薦在離線算繪時使用。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

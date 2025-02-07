@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -260,9 +260,6 @@ msgstr "內建"
 
 msgid "in float **TIME**"
 msgstr "in float **TIME**"
-
-msgid "Global time, in seconds."
-msgstr "全球時間, 以秒為單位."
 
 msgid "in float **PI**"
 msgstr "in float **PI**"
@@ -563,14 +560,6 @@ msgstr ""
 msgid "in vec4 **FRAGCOORD**"
 msgstr "in vec4 **FRAGCOORD**"
 
-msgid ""
-"Coordinate of pixel center in screen space. ``xy`` specifies position in "
-"window, ``z`` specifies fragment depth if ``DEPTH`` is not used. Origin is "
-"lower-left."
-msgstr ""
-"螢幕空間中像素中心的座標. ``xy`` 表示視窗位置, 如果不使用 ``DEPTH``, 則 "
-"``z`` 表示片段深度. 原點在左下角."
-
 msgid "in bool **FRONT_FACING**"
 msgstr "in bool **FRONT_FACING**"
 
@@ -869,6 +858,14 @@ msgstr ""
 "繪>Quality品質>Shading著色>強制頂點著色** , 則不會運作 ``light()`` 函式.(在移"
 "動平臺上預設啟用.)"
 
+msgid ""
+"Coordinate of pixel center in screen space. ``xy`` specifies position in "
+"window, ``z`` specifies fragment depth if ``DEPTH`` is not used. Origin is "
+"lower-left."
+msgstr ""
+"螢幕空間中像素中心的座標. ``xy`` 表示視窗位置, 如果不使用 ``DEPTH``, 則 "
+"``z`` 表示片段深度. 原點在左下角."
+
 msgid "in vec3 **NORMAL**"
 msgstr "in vec3 **NORMAL**"
 
@@ -965,6 +962,3 @@ msgstr ""
 "透明材質也不能投射陰影或出現在「hint_screen_texture」和「hint_depth_texture」"
 "制服中。這反過來又防止這些材質出現在螢幕空間反射或折射中。 :ref:`SDFGI "
 "<doc_using_sdfgi>` 銳反射在透明材料上不可見（在透明材料上僅可見粗糙反射）。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -154,6 +154,3 @@ msgstr ""
 "die obersten Nodes im Szenenfenster *hinter* den niedrigeren im Viewport "
 "gezeichnet. 2D-Nodes haben auch die Property :ref:`CanvasItem.z_index "
 "<class_CanvasItem_property_z_index>`, um ihre Zeichenreihenfolge zu steuern."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

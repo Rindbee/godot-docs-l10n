@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -128,13 +128,6 @@ msgstr ""
 msgid "Debug project settings"
 msgstr "Paramètres de débogage du projet"
 
-msgid ""
-"In the project settings, there is a **Debug** category with three "
-"subcategories which control different things."
-msgstr ""
-"Dans les paramètres du projet, il y a une catégorie **Debug** avec trois "
-"sous-catégories qui contrôlent différentes choses."
-
 msgid "Settings"
 msgstr "Paramètres"
 
@@ -148,14 +141,6 @@ msgstr ""
 
 msgid "GDScript"
 msgstr "GDScript"
-
-msgid ""
-"These settings allow you to toggle specific GDScript warnings, such as for "
-"unused variables. You can also turn off warnings completely."
-msgstr ""
-"Ces paramètres vous permettent d'activer/désactiver des avertissements "
-"GDScript spécifiques, par exemple pour les variables non utilisées. Vous "
-"pouvez également désactiver complètement les avertissements."
 
 msgid "Shapes"
 msgstr "Formes"
@@ -188,6 +173,3 @@ msgstr ""
 "Certains paramètres de l'éditeur relatifs au débogage se trouvent dans les "
 "**Paramètres de l'éditeur**, sous les sections **Network > Debug** et "
 "**Debugger**."
-
-msgid "Translation status"
-msgstr "État de la traduction"

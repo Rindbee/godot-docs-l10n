@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -21,5 +21,70 @@ msgstr ""
 "このセクションのチュートリアルでは、Godotでグラフィカルユーザーインターフェイ"
 "ス (GUI) を作成する基本について説明します。"
 
-msgid "Translation status"
-msgstr "翻訳ステータス"
+msgid "UI building blocks"
+msgstr "UIの構成要素"
+
+msgid ""
+"Like everything else in Godot the user interface is built using nodes, "
+"specifically :ref:`Control <class_Control>` nodes. There are many different "
+"types of controls which are useful for creating specific types of GUIs. For "
+"simplicity we can separate them into two groups: content and layout."
+msgstr ""
+"Godotでは他と同様に、ユーザーインターフェイスもノード、特に :ref:`Control "
+"<class_Control>` ノードを使用して構築されます。 GUIの作成に役立つコントロール"
+"ノードには様々な型のノードがあります。簡単にするためにコンテンツとレイアウト"
+"の 2 つのグループに分けることができます。"
+
+msgid "Typical content controls include:"
+msgstr "一般的なコンテンツのコントロール:"
+
+msgid ":ref:`Buttons <class_Button>`"
+msgstr ":ref:`Buttons <class_Button>`"
+
+msgid ":ref:`Labels <class_Label>`"
+msgstr ":ref:`Labels <class_Label>`"
+
+msgid ":ref:`LineEdits <class_LineEdit>` and :ref:`TextEdits <class_TextEdit>`"
+msgstr ":ref:`LineEdits <class_LineEdit>` と :ref:`TextEdits <class_TextEdit>`"
+
+msgid "Typical layout controls include:"
+msgstr "一般的なレイアウトのコントロール:"
+
+msgid ":ref:`BoxContainers <class_BoxContainer>`"
+msgstr ":ref:`BoxContainers <class_BoxContainer>`"
+
+msgid ":ref:`MarginContainers <class_MarginContainer>`"
+msgstr ":ref:`MarginContainers <class_MarginContainer>`"
+
+msgid ":ref:`ScrollContainers <class_ScrollContainer>`"
+msgstr ":ref:`ScrollContainers <class_ScrollContainer>`"
+
+msgid ":ref:`TabContainers <class_TabContainer>`"
+msgstr ":ref:`TabContainers <class_TabContainer>`"
+
+msgid ":ref:`Popups <class_Popup>`"
+msgstr ":ref:`Popups <class_Popup>`"
+
+msgid "The following pages explain the basics of using such controls."
+msgstr "以下のページでは、コントロールの使用方法の基本について説明します。"
+
+msgid "GUI skinning and themes"
+msgstr "GUIスキンとテーマ"
+
+msgid ""
+"Godot features an in-depth skinning/theming system for control nodes. The "
+"pages in this section explain the benefits of that system and how to set it "
+"up in your projects."
+msgstr ""
+"Godotはコントロールノード用の詳細なスキン/テーマ設定システムを備えています。"
+"このセクションのページでは、そのシステムの利点とプロジェクトでのセットアップ"
+"方法について説明します。"
+
+msgid "Control node tutorials"
+msgstr "コントロールノードのチュートリアル"
+
+msgid ""
+"The following articles cover specific details of using particular control "
+"nodes."
+msgstr ""
+"以下の記事では、特定のコントロールノードの使用方法について詳しく説明します。"

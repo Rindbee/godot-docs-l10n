@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -161,6 +161,3 @@ msgstr ""
 "景里的节点，也不需要在场景编辑器里标记节点。但是这个方法相对较慢。Godot 会缓"
 "存场景唯一节点，所以获取的时候比较快，而调用 ``find_child()`` 时则需要查找每"
 "一个后代节点（子节点、孙节点等）。"
-
-msgid "Translation status"
-msgstr "翻译状态"

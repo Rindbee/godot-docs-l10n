@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -25,11 +25,8 @@ msgstr ""
 msgid "Pathfollowing common problems"
 msgstr "Problèmes courants de suivi de chemin"
 
-msgid "Actor as Node3D"
-msgstr "Acteur comme Node3D"
+msgid "The path is returned empty"
+msgstr "Le chemin est renvoyé vide"
 
-msgid "Actor as CharacterBody3D"
-msgstr "Acteur comme CharacterBody3D"
-
-msgid "Translation status"
-msgstr "État de la traduction"
+msgid "The agent is backtracking sometimes"
+msgstr "L'agent fait parfois demi-tour"

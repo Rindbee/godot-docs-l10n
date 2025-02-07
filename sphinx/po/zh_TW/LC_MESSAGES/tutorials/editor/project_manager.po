@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,23 +14,11 @@ msgstr ""
 msgid "Using the Project Manager"
 msgstr "專案管理員"
 
-msgid ""
-"When you launch Godot, the first window you see is the Project Manager. It "
-"lets you create, remove, import, or play game projects."
-msgstr ""
-"啟動 Godot 後看到的第一個視窗就是專案管理員了。由於目前還沒有專案，所以會出現"
-"一個彈窗詢問是否開啟素材庫，這裡先點 [取消]，我們晚點再回來看。"
-
 msgid "Creating and importing projects"
 msgstr "建立新專案"
 
 msgid "To create a new project:"
 msgstr "建立新專案"
-
-msgid ""
-"Give the project a name, choose an empty folder on your computer to save the "
-"files, and select a rendering backend."
-msgstr "為專案命名，在電腦上選擇一個空資料夾來保存檔，然後選擇算繪後端。"
 
 msgid "Using the file browser"
 msgstr "提供檔案"
@@ -51,14 +39,6 @@ msgstr "當資料夾路徑正確時，你會看到一個綠色的對勾。"
 msgid "Downloading demos and templates"
 msgstr "建置匯出樣板"
 
-msgid ""
-"From the **Asset Library Projects** tab you can download open source project "
-"templates and demos from the :ref:`Asset Library <doc_what_is_assetlib>` to "
-"help you get started faster."
-msgstr ""
-"在**素材庫專案**分頁中，你可以從:ref:`素材庫 <doc_what_is_assetlib>`下載開源"
-"專案範本和演示程式，以便更快地開始。"
-
 msgid "Click on its title."
 msgstr "點擊它的標題。"
 
@@ -69,6 +49,3 @@ msgid ""
 "Once it finished downloading, click install and choose where you want to "
 "save the project."
 msgstr "一旦下載完成，點擊\\\\\\\\*安裝*並選擇你想要保存專案的位置。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

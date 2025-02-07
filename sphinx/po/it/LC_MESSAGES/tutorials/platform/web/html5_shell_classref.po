@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -22,6 +22,18 @@ msgstr "void"
 
 msgid "Instance Methods"
 msgstr "Metodi di Istanza"
+
+msgid ""
+"This will load the engine if it is not loaded, and preload the main pck."
+msgstr ""
+"Questo caricherà l'engine se non è stato caricato, e si precarica il pck "
+"principale."
+
+msgid "Promise that resolves once the game started."
+msgstr "Promessa che si risolve una volta avviato il game."
+
+msgid "The location where the file will be created."
+msgstr "Il percorso in cui verrà creato il file."
 
 msgid "Properties"
 msgstr "Proprietà"
@@ -91,6 +103,3 @@ msgstr "``2``"
 
 msgid "``[]``"
 msgstr "``[]``"
-
-msgid "Translation status"
-msgstr "Stato della traduzione"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,14 +13,6 @@ msgstr ""
 
 msgid "Converting GLSL to Godot shaders"
 msgstr "将 GLSL 转换为 Godot 着色器"
-
-msgid ""
-"This document explains the differences between Godot's shading language and "
-"GLSL and gives practical advice on how to migrate shaders from other "
-"sources, such as Shadertoy and The Book of Shaders, into Godot shaders."
-msgstr ""
-"本文档解释了Godot的着色语言和GLSL之间的区别, 并提供了有关如何将着色器从其他来"
-"源(如Shadertoy和The Book of Shaders)迁移到Godot着色器的实用建议."
 
 msgid ""
 "For detailed information on Godot's shading language, please refer to the :"
@@ -124,6 +116,15 @@ msgstr ""
 
 msgid "Macros"
 msgstr "宏"
+
+msgid ""
+"``#include`` (only ``.gdshaderinc`` files and with a maximum depth of 25)"
+msgstr "``#include`` （仅支持 ``.gdshaderinc`` 文件，最大深度为 25）"
+
+msgid ""
+"``#pragma disable_preprocessor``, which disables preprocessing for the rest "
+"of the file"
+msgstr "``#pragma disable_preprocessor`` ，对文件剩余部分禁用预处理"
 
 msgid "Variables"
 msgstr "变量"
@@ -451,6 +452,3 @@ msgid ""
 "The Book of Shaders uses the same coordinate system as :ref:`GLSL "
 "<glsl_coordinates>`."
 msgstr "Shaders使用相同的坐标系 :ref:`GLSL <glsl_coordinates>`."
-
-msgid "Translation status"
-msgstr "翻译状态"

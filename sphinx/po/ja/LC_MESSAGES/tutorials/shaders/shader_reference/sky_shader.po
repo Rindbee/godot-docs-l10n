@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -113,7 +113,7 @@ msgid ""
 "<class_Sky_constant_PROCESS_MODE_REALTIME>`."
 msgstr ""
 "なるべく放射キューブマップを不必要に更新しないようにしてください。もし各フ"
-"レームで放射キューブマップを更新する必要がある場合は、:ref:`Skyプロセス モー"
+"レームで放射キューブマップを更新する必要がある場合は、:ref:`Skyプロセスモー"
 "ド <class_Sky_property_process_mode>` が :ref:`REALTIME "
 "<class_Sky_constant_PROCESS_MODE_REALTIME>` に設定するようにしてください。"
 
@@ -128,7 +128,7 @@ msgid ""
 "cubemap when rendering the visible sky. With a completely static sky, this "
 "means that it needs to be rendered only once."
 msgstr ""
-":ref:`プロセス モード <class_Sky_property_process_mode>` は、放射キューブマッ"
+":ref:`プロセスモード <class_Sky_property_process_mode>` は、放射キューブマッ"
 "プのレンダリングにのみ影響することに注意してください。可視範囲の空はピクセル"
 "ごとにフラグメントシェーダーを呼び出すことによって常にレンダリングされます。"
 "複雑なフラグメントシェーダを使用すると、レンダリングのオーバーヘッドが高くな"
@@ -226,9 +226,6 @@ msgstr "ビルトイン"
 msgid "in float **TIME**"
 msgstr "\\ in float **TIME**"
 
-msgid "Global time, in seconds."
-msgstr "秒単位のグローバル時間。"
-
 msgid "in vec3 **POSITION**"
 msgstr "\\ in vec3 **POSITION**"
 
@@ -290,7 +287,7 @@ msgid "in vec3 **LIGHTX_COLOR**"
 msgstr "\\ in vec3 **LIGHTX_COLOR**"
 
 msgid "Color of ``LIGHTX``."
-msgstr "``LIGHTX``の色。"
+msgstr "``LIGHTX`` の色。"
 
 msgid "in float **LIGHTX_SIZE**"
 msgstr "\\ in float **LIGHTX_SIZE**"
@@ -385,6 +382,3 @@ msgstr "出力のアルファ値。サブパスでのみ使用できます。"
 
 msgid "out vec4 **FOG**"
 msgstr "\\ out vec4 **FOG**"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

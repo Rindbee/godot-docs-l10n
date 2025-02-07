@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -420,6 +420,3 @@ msgstr ""
 "Ein fortgeschrittenes Beispiel für Post-Effekte finden Sie in dem "
 "Beispielprojekt `Radial blur based sky rays <https://github.com/BastiaanOlij/"
 "RERadialSunRays>`_ von Bastiaan Olij."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

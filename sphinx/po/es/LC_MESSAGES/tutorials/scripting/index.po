@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -45,6 +45,3 @@ msgstr ""
 "todos los lenguajes admitidos. Ya sea que estés programando en GDScript, C# "
 "u otro lenguaje, las páginas a continuación te ayudarán a aprovechar al "
 "máximo Godot."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

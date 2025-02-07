@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -52,6 +52,3 @@ msgstr "/user/vive_tracker_htcx/role/camera"
 
 msgid "/user/vive_tracker_htcx/role/keyboard"
 msgstr "/user/vive_tracker_htcx/role/keyboard"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

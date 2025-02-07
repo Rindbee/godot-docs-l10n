@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -74,17 +74,6 @@ msgstr ""
 "von ``NOTIFICATION_APPLICATION_PAUSED``, um notwendige Aktionen "
 "durchzuführen, während die App angehalten wird."
 
-msgid ""
-"On Android, pressing the Back button will exit the application if "
-"**Application > Config > Quit** On Go Back is checked in the Project "
-"Settings (which is the default). This will fire "
-"``NOTIFICATION_WM_GO_BACK_REQUEST``."
-msgstr ""
-"Unter Android wird die Anwendung durch Drücken des Zurück-Buttons beendet, "
-"wenn **Anwendung > Konfig > Beenden** Beim Zurückgehen in den "
-"Projekteinstellungen aktiviert ist (was der Default ist). Dadurch wird "
-"``NOTIFICATION_WM_GO_BACK_REQUEST`` ausgelöst."
-
 msgid "Sending your own quit notification"
 msgstr "Senden einer eigenen Beenden-Benachrichtigung"
 
@@ -122,6 +111,3 @@ msgstr ""
 "des Programms, beendet aber nicht das Programm selbst, *anders als in 3.X*. "
 "Um das vorherige Verhalten zu erreichen, sollte :ref:`SceneTree.quit "
 "<class_SceneTree_method_quit>` nach der Benachrichtigung aufgerufen werden."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -166,8 +166,14 @@ msgstr "**wоrld_vertex_coords**"
 msgid "VERTEX/NORMAL/etc. are modified in world coordinates instead of local."
 msgstr "VERTEX/NORMAL/etc. изменяются в мировых координатах, а не в локальных."
 
+msgid "**ensure_correct_normals**"
+msgstr "**ensure_correct_normals**"
+
 msgid "Use when non-uniform scale is applied to mesh."
 msgstr "Используется, когда к сетке применяется неравномерный масштаб."
+
+msgid "**shadows_disabled**"
+msgstr "**shadows_disabled**"
 
 msgid "Disable computing shadows in shader."
 msgstr "Отключение вычисления теней в шейдере."
@@ -225,9 +231,6 @@ msgstr ""
 
 msgid "Built-in"
 msgstr "Встроенный"
-
-msgid "Global time, in seconds."
-msgstr "Глобальное время в секундах."
 
 msgid ""
 "A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
@@ -415,15 +418,6 @@ msgstr ""
 
 msgid "in vec4 **FRAGCOORD**"
 msgstr "vec4 **FRAGCOORD**"
-
-msgid ""
-"Coordinate of pixel center in screen space. ``xy`` specifies position in "
-"window, ``z`` specifies fragment depth if ``DEPTH`` is not used. Origin is "
-"lower-left."
-msgstr ""
-"Координата центра пикселя в пространстве экрана. ``xy`` задаёт позицию в "
-"окне, ``z`` задает глубину фрагмента, если ``DEPTH`` не используется. "
-"Ориентир - левый нижний угол."
 
 msgid "in bool **FRONT_FACING**"
 msgstr "bool **FRONT_FACING**"
@@ -638,6 +632,15 @@ msgstr ""
 "Quality > Shading > Force Vertex Shading**. (На мобильных платформах он "
 "включен по умолчанию.)"
 
+msgid ""
+"Coordinate of pixel center in screen space. ``xy`` specifies position in "
+"window, ``z`` specifies fragment depth if ``DEPTH`` is not used. Origin is "
+"lower-left."
+msgstr ""
+"Координата центра пикселя в пространстве экрана. ``xy`` задаёт позицию в "
+"окне, ``z`` задает глубину фрагмента, если ``DEPTH`` не используется. "
+"Ориентир - левый нижний угол."
+
 msgid "Roughness."
 msgstr "Шероховатость."
 
@@ -662,6 +665,3 @@ msgstr ""
 "преломлениях в экранном пространстве. :ref:`SDFGI <doc_using_sdfgi>` резкие "
 "отражения не видны на прозрачных материалах (на прозрачных материалах видны "
 "только грубые отражения)."
-
-msgid "Translation status"
-msgstr "Статус перевода"

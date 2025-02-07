@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -193,6 +193,13 @@ msgstr ""
 "Ein-Klick-Bereitstellung verwenden möchten (siehe unten), stellen Sie "
 "sicher, dass **Runnable** aktiviert ist."
 
+msgid ""
+"If the vendors plugins were installed correctly you should find entries for "
+"the different headsets, select the entry for meta:"
+msgstr ""
+"Wenn die Loader-Plugins korrekt installiert wurden, sollten Sie Einträge für "
+"die verschiedenen Headsets finden, wählen Sie den Eintrag für Meta:"
+
 msgid "Also change the **XR Mode** to **OpenXR**."
 msgstr "Ändern Sie außerdem den **XR-Modus** in **OpenXR**."
 
@@ -277,6 +284,3 @@ msgid ""
 msgstr ""
 "Wenn Sie Probleme mit der Ein-Klick-Bereitstellung haben, lesen Sie den :ref:"
 "`Abschnitt Troubleshooting <doc_one-click_deploy_troubleshooting>`."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

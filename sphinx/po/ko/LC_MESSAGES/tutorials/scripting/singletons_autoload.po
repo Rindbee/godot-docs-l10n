@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -152,6 +152,3 @@ msgstr ""
 "를 표시해서 \"로딩 플라크(plaque)\"를 표시할 수 있습니다. 그런 다음 씬이 변경"
 "된 직후에 숨길 수 있습니다. 이는 장면이 로드되고 있음을 플레이어에게 알려주"
 "는 데 사용할 수 있습니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

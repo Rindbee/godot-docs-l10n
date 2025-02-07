@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,6 +11,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "``string``."
+msgstr "``chaînes de caractères``."
+
+msgid "Classes derived from :ref:`GodotObject <class_Object>`."
+msgstr "Classes dérivées de :ref:`GodotObject <class_Object>`."
+
 msgid "``Nil``"
 msgstr "``Nil``"
 
@@ -19,6 +25,15 @@ msgstr "``null`` (N'est pas un type)"
 
 msgid "``Bool``"
 msgstr "``Bool``"
+
+msgid "``Int``"
+msgstr "``Int``"
+
+msgid "``Float``"
+msgstr "``Float``"
+
+msgid "``string``"
+msgstr "``string``"
 
 msgid "``Godot.Plane``"
 msgstr "``Godot.Plane``"
@@ -32,8 +47,20 @@ msgstr "``Godot.Aabb``"
 msgid "``Godot.Basis``"
 msgstr "``Godot.Basis``"
 
+msgid "``Transform3D``"
+msgstr "``Transform3D``"
+
+msgid "``Godot.Transform3D``"
+msgstr "``Godot.Transform3D``"
+
 msgid "``Godot.Rid``"
 msgstr "``Godot.Rid``"
+
+msgid "``Godot.GodotObject`` or any derived type."
+msgstr "``Godot.GodotObject`` ou n'importe quel type dérivé."
+
+msgid "``Godot.Collections.Dictionary``"
+msgstr "``Godot.Collections.Dictionary``"
 
 msgid "``Array``"
 msgstr "``Array``"
@@ -41,14 +68,41 @@ msgstr "``Array``"
 msgid "``Godot.Collections.Array``"
 msgstr "``Godot.Collections.Array``"
 
+msgid "``PackedByteArray``"
+msgstr "``PackedByteArray``"
+
 msgid "``byte[]``"
 msgstr "``byte[]``"
+
+msgid "``PackedInt32Array``"
+msgstr "``PackedInt32Array``"
 
 msgid "``int[]``"
 msgstr "``int[]``"
 
+msgid "``PackedInt64Array``"
+msgstr "``PackedInt64Array``"
+
+msgid "``PackedFloat32Array``"
+msgstr "``PackedFloat32Array``"
+
 msgid "``float[]``"
 msgstr "``float[]``"
 
-msgid "Translation status"
-msgstr "État de la traduction"
+msgid "``PackedFloat64Array``"
+msgstr "``PackedFloat64Array``"
+
+msgid "``PackedStringArray``"
+msgstr "``PackedStringArray``"
+
+msgid "``PackedVector2Array``"
+msgstr "``PackedVector2Array``"
+
+msgid "``PackedVector3Array``"
+msgstr "``PackedVector3Array``"
+
+msgid "``PackedColorArray``"
+msgstr "``PackedColorArray``"
+
+msgid "Using Variant in a generic context"
+msgstr "Utiliser Variant dans un contexte générique"

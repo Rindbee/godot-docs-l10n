@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -51,6 +51,3 @@ msgstr ""
 "项目设置对话框提供了许多可以保存到 project.godot 文件的选项，会显示这些选项的"
 "默认值。更改取值后，名称左侧会出现一个勾号，表示该属性会保存到 project.godot "
 "文件中，被记录下来。"
-
-msgid "Translation status"
-msgstr "翻译状态"

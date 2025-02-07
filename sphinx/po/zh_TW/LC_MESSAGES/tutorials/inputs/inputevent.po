@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -231,20 +231,6 @@ msgid ""
 "programmer as feedback. (more on this below)"
 msgstr "包含一般動作. 這些事件通常由程式師作為回饋生成. (以下更多內容)"
 
-msgid "Actions"
-msgstr "動作"
-
-msgid ""
-"Actions are a grouping of zero or more InputEvents into a commonly "
-"understood title (for example, the default \"ui_left\" action grouping both "
-"joypad-left input and a keyboard's left arrow key). They are not required to "
-"represent an InputEvent but are useful because they abstract various inputs "
-"when programming the game logic."
-msgstr ""
-"動作是將零個或多個輸入事件群組為通常理解的標題（例如，預設的「ui_left」動作將"
-"手柄左輸入和鍵盤左箭頭鍵群組）。它們不需要表示輸入事件，但很有用，因為它們在"
-"編寫遊戲邏輯時抽象化了各種輸入。"
-
 msgid "This allows for:"
 msgstr "這樣的做法有許多優點："
 
@@ -302,6 +288,3 @@ msgstr ""
 "麼 :ref:`InputMap <class_InputMap>` 單例是在運作時重新分配或建立不同動作的理"
 "想選擇. 這個單例不被保存(必須手動修改), 其狀態從專案設定進行(project.godot). "
 "所以任何這種型別的動態系統, 都需要以程式師認為最合適的方式來儲存設定."
-
-msgid "Translation status"
-msgstr "翻譯狀態"

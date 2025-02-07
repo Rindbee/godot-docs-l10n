@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -465,6 +465,3 @@ msgstr ""
 "就是這樣！ 你的第一個匯入外掛程式已經完成！ 現在就發揮創造力，為自己心愛的格"
 "式製作外掛程式吧。這對於以自訂格式編寫資料然後在 Godot 中使用它就像它們是本機"
 "資源一樣非常有用。這顯示了匯入系統如何強大和可擴充。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

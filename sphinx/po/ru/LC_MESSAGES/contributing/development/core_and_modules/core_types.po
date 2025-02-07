@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -294,6 +294,3 @@ msgstr ""
 "данные сохранённые в них. RID'ы непрозрачные типы данных, что подразумевает "
 "что данные на которые они ссылаются не могут быть доступны напрямую. Все "
 "RID'ы уникальны, даже для различных типов данные на которые они ссылаются."
-
-msgid "Translation status"
-msgstr "Статус перевода"

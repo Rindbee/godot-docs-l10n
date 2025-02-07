@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -92,6 +92,9 @@ msgstr ""
 "Фильтр - это контейнер для остальных фильтров, и его не следует использовать "
 "напрямую."
 
+msgid "HighPassFilter"
+msgstr "HighPass фильтр"
+
 msgid ""
 "Cuts frequencies below a specific *Cutoff* frequency. HighPassFilter is used "
 "to reduce the bass content of a signal."
@@ -107,6 +110,9 @@ msgstr "Подавляет все частоты выше определенно
 
 msgid "Limiter"
 msgstr "Ограничитель"
+
+msgid "LowPassFilter"
+msgstr "LowPass Фильтр"
 
 msgid ""
 "Cuts frequencies above a specific *Cutoff* frequency and can also resonate "
@@ -158,6 +164,3 @@ msgstr "SpectrumAnаlyzer"
 
 msgid "StereoEnhance"
 msgstr "StereоEnhance"
-
-msgid "Translation status"
-msgstr "Статус перевода"

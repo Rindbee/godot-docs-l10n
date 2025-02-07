@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -50,8 +50,5 @@ msgstr ""
 ":ref:`SahneAğacı <class_SceneTree>` sınıfı, sahneler, bunların düğüm "
 "hiyerarşisi ve gruplar ile etkileşim için kullanışlı pek çok yöntem sağlar. "
 "Sahneleri kolaylıkla değiştirme veya yeniden yükleme, oyundan çıkma veya "
-"durdurma yada devam ettirmeye olanak sağlar. Hatta ilgi çekici sinyallerle "
+"durdurma ya da devam ettirmeye olanak sağlar. Hatta ilgi çekici sinyallerle "
 "birlikte gelir."
-
-msgid "Translation status"
-msgstr "Çeviri durumu"

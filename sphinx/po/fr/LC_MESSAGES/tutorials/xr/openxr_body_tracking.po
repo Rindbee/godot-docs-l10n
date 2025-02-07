@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,21 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "OpenXR body tracking"
+msgstr "Suivi du corps OpenXR"
+
+msgid ""
+"Support for full body tracking in OpenXR is only just becoming available for "
+"a select few platforms. As support solidifies information will be added to "
+"this page."
+msgstr ""
+"Le support pour le suivi complet du corps dans OpenXR vient tout juste "
+"d'être disponible que pour quelques plateformes. À mesure que le support se "
+"solidifie, l'information sera ajouté à cette page."
+
+msgid "HTC Tracker support"
+msgstr "Support des Trackers HTC"
 
 msgid "HTC trackers"
 msgstr "Traqueurs HTC"
@@ -52,6 +67,3 @@ msgstr "/user/vive_tracker_htcx/role/camera"
 
 msgid "/user/vive_tracker_htcx/role/keyboard"
 msgstr "/user/vive_tracker_htcx/role/keyboard"
-
-msgid "Translation status"
-msgstr "État de la traduction"

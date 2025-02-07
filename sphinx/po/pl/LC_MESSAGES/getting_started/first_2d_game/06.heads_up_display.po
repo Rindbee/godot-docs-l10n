@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -80,11 +80,20 @@ msgstr ""
 msgid "ScoreLabel"
 msgstr "ScoreLabel"
 
+msgid "Add the text ``0``."
+msgstr "Dodaj tekst ``0``."
+
 msgid "Message"
 msgstr "Wiadomość"
 
+msgid "Add the text ``Dodge the Creeps!``."
+msgstr "Dodaj tekst : ``Dodge the Creeps!``."
+
 msgid "StartButton"
-msgstr "StartButton"
+msgstr "Przycisk Start"
+
+msgid "Add the text ``Start``."
+msgstr "Dodaj tekst: ``Start``."
 
 msgid ""
 "On the ``MessageTimer``, set the ``Wait Time`` to ``2`` and set the ``One "
@@ -135,6 +144,3 @@ msgstr ""
 
 msgid "In ``game_over()`` we need to call the corresponding ``HUD`` function:"
 msgstr "W ``game_over()`` musimy wywołać odpowiednią funkcję w ``HUD``:"
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -89,6 +89,3 @@ msgid ""
 msgstr ""
 "``_input()`` 동안 공간이 잠겨 있을 수 있으므로 실제로 이 쿼리는 "
 "``_physics_process()``에서 실행해야 한다는 점을 기억하십시오."
-
-msgid "Translation status"
-msgstr "번역 상태"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -65,8 +65,5 @@ msgstr ""
 "决这个问题，导出器提供了一个 Python 函数 ``io_scene_godot."
 "export(out_file_path)``\\ ，可以调用它来导出文件。这样可以轻松地与其他构建系"
 "统集成。将所有 blend 文件导出到同一目录的示例 Makefile 和 Python 脚本位于 "
-"`godot-blender-exporter 存储库 <https://github.com/godotengine/godot-blender-"
+"`godot-blender-exporter 仓库 <https://github.com/godotengine/godot-blender-"
 "exporter>`__ 中。"
-
-msgid "Translation status"
-msgstr "翻译状态"

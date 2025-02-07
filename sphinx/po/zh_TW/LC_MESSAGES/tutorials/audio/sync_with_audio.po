@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -76,14 +76,6 @@ msgid ""
 msgstr ""
 "這是一種常見的折衷方案, 因此Godot附帶了合理的預設值. 一般這些預設值不需要更"
 "改."
-
-msgid ""
-"The problem, in the end, is not this slight delay but synchronizing graphics "
-"and audio for games that require it. Beginning with Godot 3.2, some helpers "
-"were added to obtain more precise playback timing."
-msgstr ""
-"歸根結底, 問題並不在於這一點點的延遲, 而是同步遊戲的畫面和聲音. 從Godot 3.2開"
-"始, 加入了一些輔助工具, 幫助獲取更精確的播放時間."
 
 msgid "Using the system clock to sync"
 msgstr "使用系統時鐘同步"
@@ -185,6 +177,3 @@ msgstr ""
 
 msgid "Here is the same code as before using this approach:"
 msgstr "下面是使用這種方法之前相同的程式碼:"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

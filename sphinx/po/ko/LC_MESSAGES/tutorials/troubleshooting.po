@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -168,6 +168,3 @@ msgstr ""
 "서 리소스를 참조하는 경우 프로젝트를 내보내면 리소스 로드가 실패합니다. 가상 "
 "PCK 파일 시스템은 대소 문자를 구분하지만, Windows의 파일 시스템은 기본적으로 "
 "대소 문자를 구분하지 않기 때문입니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

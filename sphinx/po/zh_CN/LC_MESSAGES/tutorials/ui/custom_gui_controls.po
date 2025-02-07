@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -132,6 +132,3 @@ msgid ""
 msgstr ""
 "控件也有许多有用的通知, 这些通知不存在专门的回调, 但可以用_notification回调来"
 "检查:"
-
-msgid "Translation status"
-msgstr "翻译状态"

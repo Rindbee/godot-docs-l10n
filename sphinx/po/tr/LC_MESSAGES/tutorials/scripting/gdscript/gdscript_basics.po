@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,9 +13,6 @@ msgstr ""
 
 msgid "History"
 msgstr "Geçmiş"
-
-msgid "Language"
-msgstr "Dil"
 
 msgid "Description"
 msgstr "Tanım"
@@ -50,6 +47,9 @@ msgstr "TAU sabiti."
 msgid "Operators"
 msgstr "İşleçler"
 
+msgid "**Description**"
+msgstr "**Tanım**"
+
 msgid "``$NodePath``"
 msgstr "``$DüğümYolu``"
 
@@ -61,9 +61,6 @@ msgstr "Yorumlar"
 
 msgid ":ref:`int <class_int>`"
 msgstr ":ref:`int <class_int>`"
-
-msgid "Data"
-msgstr "Veri"
 
 msgid "Initialization order"
 msgstr "İlk değerleme sırası"
@@ -87,10 +84,7 @@ msgid "There are a few things to keep in mind here:"
 msgstr "Burada aklınızda tutmanız gereken birkaç şey var:"
 
 msgid "This can also be done in the same line::"
-msgstr "Bu aynı satırda da yapılabilir:"
+msgstr "Bu aynı satırda da yapılabilir::"
 
 msgid "Signals"
 msgstr "Sinyaller"
-
-msgid "Translation status"
-msgstr "Çeviri durumu"

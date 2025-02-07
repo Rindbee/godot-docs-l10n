@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -65,6 +65,3 @@ msgid ""
 msgstr ""
 "在 Blender 中，骨骼可以為另一個物件的父級。這種關係會匯出為 Godot 場景中的 "
 "BoneAttachment 節點。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

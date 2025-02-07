@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -836,6 +836,3 @@ msgstr ""
 "Oculus Touch 控制器被許多運作時廣泛用作後備控制器。如果您能夠使用 Meta Rift "
 "或 Quest 測試您的遊戲並新增此配置檔案，那麼您的遊戲很可能可以與其他耳機配合使"
 "用。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

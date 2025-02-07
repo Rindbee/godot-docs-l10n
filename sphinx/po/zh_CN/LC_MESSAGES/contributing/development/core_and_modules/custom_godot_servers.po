@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -204,6 +204,3 @@ msgstr ""
 
 msgid "Connecting signal example code is pretty hacky."
 msgstr "连接信号的示例代码是很旁门左道的."
-
-msgid "Translation status"
-msgstr "翻译状态"

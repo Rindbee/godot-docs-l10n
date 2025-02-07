@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -283,6 +283,3 @@ msgstr ""
 "preservando sua proporção existente. Isso ajuda a diminuir "
 "significativamente o tamanho do arquivo se a fonte for gravada em uma "
 "resolução superior a 720p:"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

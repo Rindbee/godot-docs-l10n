@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -34,13 +34,6 @@ msgstr ""
 "funzionalità desiderata dell'oggetto - ciò che l'oggetto *è*. Fare clic sul "
 "pulsante \"Altro nodo\" e aggiungere un nodo :ref:`Area2D <class_Area2D>`` "
 "alla scena."
-
-msgid ""
-"Godot will display a warning icon next to the node in the scene tree. You "
-"can ignore it for now. We will address it later."
-msgstr ""
-"Godot mostrerà un'icona di avvertimento accanto al nodo nell'albero della "
-"scena. Per ora lo puoi ignorare. Ce ne occuperemo successivamente."
 
 msgid ""
 "With ``Area2D`` we can detect objects that overlap or run into the player. "
@@ -81,6 +74,3 @@ msgstr ""
 
 msgid "Make sure to save the scene again after these changes."
 msgstr "Assicurati di salvare di nuovo la scena dopo queste modifiche."
-
-msgid "Translation status"
-msgstr "Stato della traduzione"

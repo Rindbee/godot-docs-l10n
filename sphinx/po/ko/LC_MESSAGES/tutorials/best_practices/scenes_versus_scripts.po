@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -157,9 +157,6 @@ msgstr ""
 "엔진 개발자는 수동으로 언어 지원을 추가해야 합니다 (이름 표시와 런타임 접근 "
 "가능성 모두)."
 
-msgid "Godot 3.1+ only."
-msgstr "Godot 3.1+에서만 가능합니다."
-
 msgid ""
 "The Editor scans project folders and registers any exposed names for all "
 "scripting languages. Each scripting language must implement its own support "
@@ -273,6 +270,3 @@ msgid ""
 msgstr ""
 "씬에 이름을 부여하고 싶다면, 스크립트 클래스를 선언하고 상수로 씬을 지정하여 "
 "원하는 바를 달성할 수 있습니다. 스크립트는 사실상 네임스페이스가 됩니다:"
-
-msgid "Translation status"
-msgstr "번역 상태"

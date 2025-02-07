@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -206,6 +206,11 @@ msgstr ""
 "在 `Godot iOS GameCenter 插件 <https://github.com/godotengine/godot-ios-"
 "plugins/blob/master/plugins/gamecenter/game_center.mm>`_\\ 中实现。"
 
+msgid ""
+"The Game Center API is available through the ``GameCenter`` singleton. It "
+"has the following methods:"
+msgstr "Game Center API 可通过 ``GameCenter`` 单例获得。它有以下方法："
+
 msgid "and the pending events interface:"
 msgstr "以及未决事件接口："
 
@@ -315,6 +320,3 @@ msgstr "示例："
 
 msgid "On close:"
 msgstr "关闭时："
-
-msgid "Translation status"
-msgstr "翻译状态"

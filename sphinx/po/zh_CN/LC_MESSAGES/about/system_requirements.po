@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -30,19 +30,13 @@ msgid ""
 "These are the **minimum** specifications required to run the Godot editor "
 "and work on a simple 2D or 3D project:"
 msgstr ""
-"以下数据是运行 Godot 编辑器开发简单 2D 和 3D 项目的\\ **最低**\\ 需求："
+"以下数据是运行 Godot 编辑器开发简单 2D 和 3D 项目的\\ **最低**\\ 规格需求："
 
 msgid "Desktop or laptop PC - Minimum"
 msgstr "台式机和笔记本 PC - 最低配置"
 
 msgid "**CPU**"
 msgstr "**CPU**"
-
-msgid "**Windows:** x86_32 CPU with SSE2 instructions, or any x86_64 CPU"
-msgstr "**Windows：**\\ 支持 SSE2 指令的 x86_32 CPU 或任何 x86_64 CPU"
-
-msgid "*Example: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300*"
-msgstr "*示例：Intel Core 2 Duo E8200、AMD Athlon XE BE-2300*"
 
 msgid "**macOS:** x86_64 or ARM CPU (Apple Silicon)"
 msgstr "**macOS：**\\ x86_64 或 ARM CPU（Apple Silicon）"
@@ -130,9 +124,9 @@ msgid ""
 "<doc_release_policy>`."
 msgstr ""
 "我们对 Windows 7/8/8.1 的支持秉承尽力而为的原则。这些版本没有常规测试，可能会"
-"缺失部分功能（例如 :ref:`print_rich <class_@GlobalScope_method_print_rich>` "
-"控制台输出）。\\ :ref:`后续 Godot 4.x 版本 <doc_release_policy>`\\ 中可能会移"
-"除对 Windows 7/8/8.1 的支持。"
+"缺失部分功能（例如彩色的 :ref:`print_rich "
+"<class_@GlobalScope_method_print_rich>` 控制台输出）。\\ :ref:`后续 Godot 4."
+"x 版本 <doc_release_policy>`\\ 中可能会移除对 Windows 7/8/8.1 的支持。"
 
 msgid ""
 "Vulkan drivers for these Windows versions are known to have issues with "
@@ -180,13 +174,6 @@ msgid "**Web editor:** 6 GB"
 msgstr "**Web 编辑器：**\\ 6 GB"
 
 msgid ""
-"**Native editor:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
-"Mobile), iOS 11.0"
-msgstr ""
-"**原生编辑器：**\\ Android 6.0（兼容渲染器）、Android 9.0（Forward+/移动渲染"
-"器）、iOS 11.0"
-
-msgid ""
 "**Web editor:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
 "Samsung Internet 15"
 msgstr ""
@@ -201,14 +188,6 @@ msgstr ""
 
 msgid "Desktop or laptop PC - Recommended"
 msgstr "台式机和笔记本 PC - 推荐配置"
-
-msgid ""
-"**Windows:** x86_64 CPU with SSE4.2 instructions, with 4 physical cores or "
-"more"
-msgstr "**Windows：**\\ 支持 SSE4.2 指令的 x86_64 CPU，至少有 4 个物理核心"
-
-msgid "*Example: Intel Core i5-6600K, AMD Ryzen 5 1600*"
-msgstr "*示例：Intel Core i5-6600K、AMD Ryzen 5 1600*"
 
 msgid "*Example: Intel Core i5-8500, Apple M1*"
 msgstr "*示例：Intel Core i5-8500、Apple M1*"
@@ -289,9 +268,6 @@ msgstr "**兼容渲染方法：**\\ 芯片提供完整支持 OpenGL ES 3.2 的 G
 msgid "**Native editor:** 6 GB"
 msgstr "**原生编辑器：**\\ 6 GB"
 
-msgid "**Native editor:** Android 9.0 or iOS 11.0"
-msgstr "**原生编辑器：**\\ Android 9.0、iOS 11.0"
-
 msgid ""
 "**Web editor:** Latest version of Firefox, Chrome, Edge, Safari, Opera, "
 "Samsung Internet"
@@ -357,29 +333,11 @@ msgstr "**iOS：**\\ 芯片使用任何 64 位 ARM CPU"
 msgid "*Example: Apple A7 (iPhone 5S)*"
 msgstr "*示例：Apple A7（iPhone 5S）*"
 
-msgid ""
-"*Example: Qualcomm Adreno 505, Mali-G71 MP2, PowerVR G6430 (iPhone 6S/iPhone "
-"SE 1)*"
-msgstr ""
-"*示例：Qualcomm Adreno 505、Mali-G71 MP2、PowerVR G6430（iPhone 6S/iPhone SE "
-"1）*"
-
-msgid ""
-"*Example: Qualcomm Adreno 306, Mali-T628 MP6, PowerVR G6430 (iPhone 5S)*"
-msgstr "*示例：Qualcomm Adreno 306、Mali-T628 MP6、PowerVR G6430（iPhone 5S）*"
-
 msgid "**For native exports:** 1 GB"
 msgstr "**原生导出：**\\ 1 GB"
 
 msgid "**For web exports:** 2 GB"
 msgstr "**Web 导出：**\\ 2 GB"
-
-msgid ""
-"**For native exports:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
-"Mobile), iOS 11.0"
-msgstr ""
-"**原生导出：**\\ Android 6.0（兼容渲染器）、Android 9.0（Forward+/移动渲染"
-"器）、iOS 11.0"
 
 msgid ""
 "**For web exports:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
@@ -412,16 +370,6 @@ msgstr "**Web 导出：**\\ 最新版本的 Firefox、Chrome、Edge、Safari、O
 msgid "**iOS:** SoC with 64-bit ARM CPU"
 msgstr "**iOS：**\\ 芯片使用 64 位 ARM CPU"
 
-msgid "*Example: Apple A11 (iPhone XS/XR)*"
-msgstr "*示例：Apple A11（iPhone XS/XR）*"
-
-msgid ""
-"*Example: Qualcomm Adreno 630, Mali-G72 MP18, Apple G11P (iPhone XR/XS)*"
-msgstr "*示例：Qualcomm Adreno 630、Mali-G72 MP18、Apple G11P（iPhone XR/XS）*"
-
-msgid "**For native exports:** Android 9.0 or iOS 11.0"
-msgstr "**原生导出：**\\ Android 9.0、iOS 11.0"
-
 msgid ""
 "**For web exports:** Latest version of Firefox, Chrome, Edge, Safari, Opera, "
 "Samsung Internet"
@@ -436,6 +384,3 @@ msgid ""
 msgstr ""
 "Godot 不会使用 OpenGL 3.3/OpenGL ES 3.0 之后的 OpenGL/OpenGL ES 扩展，但是通"
 "常支持更高版本 OpenGL/OpenGL ES 的 GPU 在驱动方面的问题更少。"
-
-msgid "Translation status"
-msgstr "翻译状态"

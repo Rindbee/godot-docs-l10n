@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -296,6 +296,3 @@ msgstr ""
 "fragmento de código que conecta un método de una señal personalizada al nodo "
 "padre sin fallar. Esto es útil en nodos centrados en datos que se pueden "
 "querer crear en tiempo de ejecución."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

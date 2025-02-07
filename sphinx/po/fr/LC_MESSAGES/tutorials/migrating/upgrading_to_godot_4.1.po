@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,68 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Upgrading from Godot 4.0 to Godot 4.1"
+msgstr "Mise à niveau de Godot 4.0 à Godot 4.1"
+
+msgid ""
+"For most games and apps made with 4.0, it should be relatively safe to "
+"migrate to 4.1. This page intends to cover everything you need to pay "
+"attention to when migrating your project."
+msgstr ""
+"Pour la plupart des jeux et applications fabriqués en 4.0, il devrait être "
+"relativement sûr de migrer à la 4.1. Cette page a l'intention de couvrir "
+"tout ce dont vous avez besoin pour faire attention lors de la migration de "
+"votre projet."
+
+msgid ""
+"The GDExtension API completely breaks compatibility in 4.1, so it's not "
+"included in the table below. See the :ref:"
+"`updating_your_gdextension_for_godot_4_1` section for more information."
+msgstr ""
+"L'API GDExtension casse complètement la compatibilité en 4.1, donc elle "
+"n'est pas inclus dans le tableau ci-dessous. Voir la section :ref:"
+"`updating_your_gdextension_for_godot_4_1` pour plus d'informations."
+
+msgid ""
+"**Binary compatible** - Existing binaries will load and execute successfully "
+"without recompilation, and the run-time behavior won't change."
+msgstr ""
+"**Compatible binaire** - Les binaires existants vont charger et exécuter "
+"avec succès sans recompilation, et le comportement lors de l'exécution ne "
+"changera pas."
+
+msgid ""
+"**Source compatible** - Source code will compile successfully without "
+"changes when upgrading Godot."
+msgstr ""
+"**Compatible source** - Le code source compilera avec succès sans changement "
+"lors de la mise à niveau de Godot."
+
+msgid "Core"
+msgstr "Core"
+
+msgid "Change"
+msgstr "Modifications"
+
+msgid "GDScript Compatible"
+msgstr "Compatible GDScript"
+
+msgid "C# Binary Compatible"
+msgstr "Compatible binaire C#"
+
 msgid "C# Source Compatible"
 msgstr "Compatible source C#"
+
+msgid "Introduced"
+msgstr "Intégré"
+
+msgid "**Basis**"
+msgstr "**Basis**"
+
+msgid "Method ``looking_at`` adds a new ``use_model_front`` optional parameter"
+msgstr ""
+"La méthode ``ook_at`` ajoute un nouveau paramètre ``use_model_front`` "
+"optionnel"
 
 msgid "|✔️|"
 msgstr "|✔️|"
@@ -20,14 +80,33 @@ msgstr "|✔️|"
 msgid "`GH-76082`_"
 msgstr "`GH-76082`_"
 
+msgid "**Object**"
+msgstr "**Object**"
+
+msgid ""
+"Method ``get_meta_list`` changes return type from ``PackedStringArray`` to "
+"``Array[StringName]``"
+msgstr ""
+"La méthode ``get_meta_list`` change de type de retour de "
+"``PackedStringArray`` à ``Array[StringName]``"
+
 msgid "|❌|"
 msgstr "|❌|"
 
 msgid "`GH-76418`_"
 msgstr "`GH-76418`_"
 
+msgid "**Transform3D**"
+msgstr "**Transform3D**"
+
 msgid "**UndoRedo**"
 msgstr "**UndoRedo**"
+
+msgid ""
+"Method ``create_action`` adds a new ``backward_undo_ops`` optional parameter"
+msgstr ""
+"La méthode ``create_action`` ajoute un nouveau paramètre optionnel "
+"``backward_undo_ops``"
 
 msgid "|✔️ with compat|"
 msgstr "|✔️ avec compatibilité|"
@@ -38,17 +117,47 @@ msgstr "`GH-76688`_"
 msgid "**WorkerThreadPool**"
 msgstr "**WorkerThreadPool**"
 
+msgid ""
+"Method ``wait_for_task_completion`` changes return type from ``void`` to "
+"``Error``"
+msgstr ""
+"La méthode ``wait_for_task_completion`` change de type de retour de ``void`` "
+"à ``Error``"
+
 msgid "`GH-77143`_"
 msgstr "`GH-77143`_"
 
 msgid "Animation"
 msgstr "Animation"
 
+msgid "**AnimationNode**"
+msgstr "**AnimationNode**"
+
+msgid "Method ``_process`` adds a new ``test_only`` parameter"
+msgstr "La méthode ``_process`` ajoute un nouveau paramètre ``test_only``"
+
 msgid "`GH-75759`_"
 msgstr "`GH-75759`_"
 
+msgid "Method ``blend_input`` adds a new ``test_only`` optional parameter"
+msgstr "La méthode ``blend_input`` ajoute un nouveau paramètre ``test_only``"
+
+msgid "Method ``blend_node`` adds a new ``test_only`` optional parameter"
+msgstr ""
+"La méthode ``blend_node`` ajoute un nouveau paramètre optionnel ``test_only``"
+
 msgid "**AnimationNodeStateMachinePlayback**"
 msgstr "**AnimationNodeStateMachinePlayback**"
+
+msgid ""
+"Method ``get_travel_path`` changes return type from ``PackedStringArray`` to "
+"``Array[StringName]``"
+msgstr ""
+"La méthode ``get_travel_path`` change de type de retour de "
+"``PackedStringArray`` à ``Array[StringName]``"
+
+msgid "2D nodes"
+msgstr "Nœuds 2D"
 
 msgid "**PathFollow2D**"
 msgstr "**PathFollow2D**"
@@ -59,23 +168,98 @@ msgstr "Propriété``lookahead`` enlevée"
 msgid "`GH-72842`_"
 msgstr "`GH-72842`_"
 
+msgid "3D nodes"
+msgstr "Nœuds 3D"
+
+msgid "**Geometry3D**"
+msgstr "**Geometry3D**"
+
+msgid ""
+"Method ``segment_intersects_convex`` changes ``planes`` parameter type from "
+"untyped ``Array`` to ``Array[Plane]``"
+msgstr ""
+"La méthode ``segment_intersects_convex`` changes le type de paramètre de "
+"``planes`` de ``Array`` en ``Array[Plane]``"
+
+msgid "**MeshInstance3D**"
+msgstr "**MeshInstance3D**"
+
+msgid ""
+"Method ``create_multiple_convex_collisions`` adds a new ``settings`` "
+"optional parameter"
+msgstr ""
+"La méthode ``create_multiple_convex_collisions`` ajoute un nouveau paramètre "
+"optionnel ``settings``"
+
 msgid "`GH-72152`_"
 msgstr "`GH-72152`_"
+
+msgid "**Node3D**"
+msgstr "**Node3D**"
+
+msgid "Method ``look_at`` adds a new ``use_model_front`` optional parameter"
+msgstr ""
+"La méthode ``look_at`` ajoute un nouveau paramètre optionnel "
+"``use_model_front``"
+
+msgid ""
+"Method ``look_at_from_position`` adds a new ``use_model_front`` optional "
+"parameter"
+msgstr ""
+"La méthode ``look_at_from_position`` ajoute un nouveau paramètre optionnel "
+"``use_model_front``"
+
+msgid "GUI nodes"
+msgstr "Nœuds GUI"
 
 msgid "**CodeEdit**"
 msgstr "**CodeEdit**"
 
+msgid ""
+"Method ``add_code_completion_option`` adds a new ``location`` optional "
+"parameter"
+msgstr ""
+"La méthode ``add_code_completion_option`` ajoute un nouveau paramètre "
+"optionnel ``location``"
+
 msgid "`GH-75746`_"
 msgstr "`GH-75746`_"
+
+msgid "**RichTextLabel**"
+msgstr "**RichTextLabel**"
+
+msgid "Method ``push_list`` adds a new ``bullet`` optional parameter"
+msgstr ""
+"La méthode ``push_list`` ajoute un nouveau paramètre optionnel ``bullet``"
 
 msgid "`GH-75017`_"
 msgstr "`GH-75017`_"
 
+msgid ""
+"Method ``push_paragraph`` adds a new ``justification_flags`` optional "
+"parameter"
+msgstr ""
+"La méthode ``push_paragraph`` ajoute un nouveau paramètre optionnel "
+"``justification_flags``"
+
 msgid "`GH-75250`_"
 msgstr "`GH-75250`_"
 
+msgid "Method ``push_paragraph`` adds a new ``tab_stops`` optional parameter"
+msgstr ""
+"La méthode ``push_paragraph`` ajoute un nouveau paramètre optionnel "
+"``tab_stops``"
+
 msgid "`GH-76401`_"
 msgstr "`GH-76401`_"
+
+msgid "**Tree**"
+msgstr "**Tree**"
+
+msgid "Method ``edit_selected`` adds a new ``force_edit`` optional parameter"
+msgstr ""
+"La méthode ``edit_sélection`` ajoute un nouveau paramètre optionnel "
+"``force_edit``"
 
 msgid "`GH-76794`_"
 msgstr "`GH-76794`_"
@@ -83,11 +267,27 @@ msgstr "`GH-76794`_"
 msgid "Physics"
 msgstr "Physique"
 
+msgid "**Area2D**"
+msgstr "**Area2D**"
+
+msgid "Property ``priority`` changes type from ``float`` to ``int``"
+msgstr "La propriété ``priority`` change de type, de ``float`` à ``int``"
+
 msgid "`GH-72749`_"
 msgstr "`GH-72749`_"
 
+msgid "**Area3D**"
+msgstr "**Area3D**"
+
 msgid "**PhysicsDirectSpaceState2D**"
 msgstr "**PhysicsDirectSpaceState2D**"
+
+msgid ""
+"Method ``collide_shape`` changes return type from "
+"``Array[PackedVector2Array]`` to ``Array[Vector2]``"
+msgstr ""
+"La méthode ``collide_shape`` change de type de retour de "
+"``Array[PackedVector2Array]`` en ``Array[Vector2]``"
 
 msgid "`GH-75260`_"
 msgstr "`GH-75260`_"
@@ -95,26 +295,116 @@ msgstr "`GH-75260`_"
 msgid "**PhysicsDirectSpaceState3D**"
 msgstr "**PhysicsDirectSpaceState3D**"
 
+msgid ""
+"Method ``collide_shape`` changes return type from "
+"``Array[PackedVector3Array]`` to ``Array[Vector3]``"
+msgstr ""
+"La méthode ``collide_shape`` change de type de retour de "
+"``Array[PackedVector3Array]`` en ``Array[Vector3]``"
+
 msgid "Rendering"
 msgstr "Rendu"
 
 msgid "**RDShaderFile**"
 msgstr "**RDShaderFile**"
 
+msgid ""
+"Method ``get_version_list`` changes return type from ``PackedStringArray`` "
+"to ``Array[StringName]``"
+msgstr ""
+"La méthode ``get_version_list`` change de type de retour de "
+"``PackedStringArray`` en ``Array[StringName]``"
+
+msgid "**RenderingDevice**"
+msgstr "**RenderingDevice**"
+
+msgid ""
+"Method ``draw_list_begin`` changes ``storage_textures`` parameter type from "
+"untyped ``Array`` to ``Array[RID]``"
+msgstr ""
+"La méthode ``draw_list_begin`` change le type de paramètre de "
+"``storage_textures`` de ``Array`` non-typé en ``Array[RID]``"
+
+msgid "**RenderingServer**"
+msgstr "**RenderingServer**"
+
+msgid ""
+"Method ``global_shader_parameter_get_list`` changes return type from "
+"``PackedStringArray`` to ``Array[StringName]``"
+msgstr ""
+"La méthode ``global_shader_parameter_get_list`` change le type de retour de "
+"``PackedStringArray`` à ``Array[StringName]``"
+
+msgid "**SurfaceTool**"
+msgstr "**SurfaceTool**"
+
+msgid ""
+"Method ``add_triangle_fan`` changes ``tangents`` parameter type from untyped "
+"``Array`` to ``Array[Plane]``"
+msgstr ""
+"La méthode ``add_triangle_fan`` change le type de paramètre de ``tangents`` "
+"de ``Array`` non-typé à ``Array[Plane]``"
+
 msgid "Navigation"
 msgstr "Navigation"
+
+msgid "**NavigationAgent2D**"
+msgstr "**NavigationAgent2D**"
+
+msgid "Method ``set_velocity`` replaced with ``velocity`` property"
+msgstr "Méthode ``set_velocity`` remplacée par la propriété ``velocity``"
 
 msgid "`GH-69988`_"
 msgstr "`GH-69988`_"
 
+msgid ""
+"Property ``time_horizon`` split into ``time_horizon_agents`` and "
+"``time_horizon_obstacles``"
+msgstr ""
+"La propriété ``time_horizon` a été séparée en ``time_horizon_agents`` et "
+"``time_horizon_obstacles``"
+
+msgid "**NavigationAgent3D**"
+msgstr "**NavigationAgent3D**"
+
+msgid "Property ``agent_height_offset`` renamed to ``path_height_offset``"
+msgstr "Propriété ``agent_height_offset``` renommée en ``path_height_offset``"
+
 msgid "Property ``ignore_y`` removed"
 msgstr "Propriété``ignore_y`` enlevé"
+
+msgid "**NavigationObstacle2D**"
+msgstr "**NavigationObstacle2D**"
 
 msgid "Property ``estimate_radius`` removed"
 msgstr "Propriété``estimate_radius`` enlevée"
 
+msgid "Method ``get_rid`` renamed to ``get_agent_rid``"
+msgstr "Méthode ``get_rid`` renommée en ``get_agent_rid``"
+
+msgid "**NavigationObstacle3D**"
+msgstr "**NavigationObstacle3D**"
+
+msgid "**NavigationServer2D**"
+msgstr "**NavigationServer2D**"
+
+msgid ""
+"Method ``agent_set_callback`` renamed to ``agent_set_avoidance_callback``"
+msgstr ""
+"Méthode ``agent_set_callback`` renommée en ``agent_set_avoidance_callback``"
+
 msgid "Method ``agent_set_target_velocity`` removed"
 msgstr "Méthode ``agent_set_target_velocity`` enlevée"
+
+msgid ""
+"Method ``agent_set_time_horizon`` split into "
+"``agent_set_time_horizon_agents`` and ``agent_set_time_horizon_obstacles``"
+msgstr ""
+"La méthode ``agent_set_time_horizon`` a été séparée en "
+"``agent_set_time_horizon_agents`` et ``agent_set_time_horizon_obstacles``"
+
+msgid "**NavigationServer3D**"
+msgstr "**NavigationServer3D**"
 
 msgid "Networking"
 msgstr "Réseau"
@@ -122,32 +412,163 @@ msgstr "Réseau"
 msgid "**WebRTCPeerConnectionExtension**"
 msgstr "**WebRTCPeerConnectionExtension**"
 
+msgid ""
+"Method ``_create_data_channel`` changes return type from ``Object`` to "
+"``WebRTCDataChannel``"
+msgstr ""
+"La méthode ``_create_data_channel`` change de type de retour de ``Object`` à "
+"``WebRTCDataChannel``"
+
 msgid "`GH-78237`_"
 msgstr "`GH-78237`_"
 
 msgid "Editor plugins"
 msgstr "Extensions pour l'éditeur"
 
+msgid "**AnimationTrackEditPlugin**"
+msgstr "**AnimationTrackEditPlugin**"
+
+msgid "Type ``AnimationTrackEditPlugin`` removed"
+msgstr "Type ``AnimationTrackEditPlugin`` supprimé"
+
 msgid "`GH-76413`_"
 msgstr "`GH-76413`_"
+
+msgid "**EditorInterface**"
+msgstr "**EditorInterface**"
+
+msgid ""
+"Type ``EditorInterface`` changes inheritance from ``Node`` to ``Object``"
+msgstr "Le type ``EditorInterface`` change d'héritage de ``Node`` à ``Object``"
 
 msgid "`GH-76176`_"
 msgstr "`GH-76176`_"
 
+msgid ""
+"Method ``set_movie_maker_enabled`` replaced with ``movie_maker_enabled`` "
+"property"
+msgstr ""
+"Méthode ``set_movie_maker_enabled`` remplacée par la propriété "
+"``movie_maker_enabled``"
+
+msgid ""
+"Method ``is_movie_maker_enabled`` replaced with ``movie_maker_enabled`` "
+"property"
+msgstr ""
+"Méthode ``is_movie_maker_enabled`` remplacée par la propriété "
+"``movie_maker_enabled``"
+
 msgid "**EditorResourcePreviewGenerator**"
 msgstr "**EditorResourcePreviewGenerator**"
+
+msgid "Method ``_generate`` adds a new ``metadata`` parameter"
+msgstr "La méthode ``_generate`` ajoute un nouveau paramètre ``metadata``"
 
 msgid "`GH-64628`_"
 msgstr "`GH-64628`_"
 
+msgid "Method ``_generate_from_path`` adds a new ``metadata`` parameter"
+msgstr ""
+"La méthode ``_generate_from_path`` ajoute un nouveau paramètre ``metadata``"
+
 msgid "**EditorUndoRedoManager**"
 msgstr "**EditorUndoRedoManager**"
+
+msgid "Behavior changes"
+msgstr "Changements de comportement"
+
+msgid ""
+"In 4.1 some behavior changes have been introduced, which might require you "
+"to adjust your project."
+msgstr ""
+"En 4.1 certains changements de comportement ont été introduits, ce qui "
+"pourrait vous obliger à ajuster votre projet."
+
+msgid "**SubViewportContainer**"
+msgstr "**SubViewportContainer**"
+
+msgid ""
+"When input events should reach SubViewports and their children, "
+"``SubViewportContainer.mouse_filter`` now needs to be ``MOUSE_FILTER_STOP`` "
+"or ``MOUSE_FILTER_PASS``. See `GH-79271`_ for details."
+msgstr ""
+"Lorsque les événements d'entrée doivent atteindre des SubViewports et leurs "
+"enfants, ``SubViewportContainer.mouse_filter`` doit maintenant être "
+"``MOUSE_FILTER_STOP`` ou ``MOUSE_FILTER_PASS``. Voir `GH-79271`_ pour les "
+"détails."
 
 msgid "`GH-57894`_"
 msgstr "`GH-57894`_"
 
+msgid ""
+"Multiple layered ``SubViewportContainer`` nodes, that should all receive "
+"mouse input events, now need to be replaced by ``Area2D`` nodes. See "
+"`GH-79128`_ for details."
+msgstr ""
+"Plusieurs couches de nœuds ``SubViewportContainer``, qui devraient tous "
+"recevoir des événements d'entrée de la souris, doit maintenant être remplacé "
+"par des nœuds ``Area2D``. Voir `GH-79128`_ pour les détails."
+
+msgid "**Viewport**"
+msgstr "**Viewport**"
+
 msgid "`GH-77595`_"
 msgstr "`GH-77595`_"
 
-msgid "Translation status"
-msgstr "État de la traduction"
+msgid "Updating your GDExtension for 4.1"
+msgstr "Mise à jour de votre GDExtension pour la 4.1"
+
+msgid ""
+"GDExtension is still in beta. Until it's marked as stable, compatibility may "
+"break when upgrading to a new minor version of Godot."
+msgstr ""
+"GDExtension est toujours en bêta. Jusqu'à ce qu'il soit marqué comme stable, "
+"la compatibilité peut se briser lors de la mise à niveau vers une nouvelle "
+"version mineure de Godot."
+
+msgid ""
+"This means that GDExtensions made for Godot 4.0 will need to be recompiled "
+"for Godot 4.1 (using the  ``4.1`` branch of godot-cpp), with a small change "
+"to their source code."
+msgstr ""
+"Cela signifie que les GDExtensions faites pour Godot 4.0 devront être "
+"recompilées pour Godot 4.1 (en utilisant la branche ``4.1`` de godot-cpp), "
+"avec un petit changement à leur code source."
+
+msgid "In Godot 4.0, your \"entry_symbol\" function looks something like this:"
+msgstr "Dans Godot 4.0, votre fonction \"entry_symbol\" ressemble à ceci :"
+
+msgid "However, for Godot 4.1, it should look like:"
+msgstr "Cependant, pour Godot 4.1, il devrait ressembler à :"
+
+msgid "There are two small changes:"
+msgstr "Il y a deux petits changements :"
+
+msgid ""
+"The first argument changes from ``const GDExtensionInterface *p_interface`` "
+"to ``GDExtensionInterfaceGetProcAddress p_get_proc_address``"
+msgstr ""
+"Le premier argument change de ``const GDExtension Interface *p_interface`` à "
+"``GDExtensionInterfaceGetProcAddress p_get_proc_address``"
+
+msgid ""
+"The constructor for the `init_obj` variable now receives "
+"``p_get_proc_address`` as its first parameter"
+msgstr ""
+"Le constructeur de la variable `init_obj` reçoit dorénavant "
+"``p_get_proc_address`` comme premier paramètre"
+
+msgid ""
+"You also need to add an extra ``compatibility_minimum`` line to your ``."
+"gdextension`` file, so that it looks something like::"
+msgstr ""
+"Vous devez également ajouter une ligne supplémentaire "
+"``compatibility_minimum`` à votre fichier ``.gdextension``, de sorte que "
+"cela ressemble à :"
+
+msgid ""
+"This lets Godot know that your GDExtension has been updated and is safe to "
+"load in Godot 4.1."
+msgstr ""
+"Ça permet à Godot de savoir que votre GDExtension a été mise à jour et est "
+"sûre de charger en Godot 4.1."

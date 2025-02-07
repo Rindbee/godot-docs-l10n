@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -58,6 +58,3 @@ msgstr ""
 "があります。コミット範囲が長くなればなるほど、より多くのステップが必要になり"
 "ます。ほとんどのリグレッションを見つけるには、通常 5 から 10 のステップで十分"
 "です。Gitは、(最悪の場合における)残りのステップ数を教えてくれます。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

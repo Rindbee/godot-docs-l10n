@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -73,7 +73,7 @@ msgid "Draw a user interface on a 3D game."
 msgstr "3D ゲームにユーザー インターフェイスを描画します。"
 
 msgid "And more."
-msgstr "もっと。"
+msgstr "などなど。"
 
 msgid ""
 "This tutorial is for beginners who followed the complete getting started "
@@ -122,6 +122,3 @@ msgstr ""
 
 msgid "Contents"
 msgstr "コンテンツ"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -40,6 +40,3 @@ msgstr ""
 "메시를 내보낼 때, 메시가 본에 의해 형태가 변하지 않는 것이 중요합니다. 좋아하"
 "는 3D 편집기에서 메시를 내보낼 때, 스켈레톤이 기존의 T 포즈나 기본 휴식 포즈"
 "로 되어있는지 확인하세요."
-
-msgid "Translation status"
-msgstr "번역 상태"

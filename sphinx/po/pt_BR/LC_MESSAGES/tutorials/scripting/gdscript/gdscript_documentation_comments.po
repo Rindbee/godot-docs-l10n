@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,17 +14,22 @@ msgstr ""
 msgid "Description"
 msgstr "Descrição"
 
-msgid "Function"
-msgstr "Função"
+msgid "No tag. Use one blank line to separate the description from the brief."
+msgstr ""
+"Sem decorator(especificador). Use uma linha em branco para separar entre a "
+"descrição e o resumo."
 
 msgid "Signal"
 msgstr "Sinal"
 
+msgid "Enum value"
+msgstr "Valor de enumeração"
+
 msgid "Variable"
 msgstr "Variável"
 
-msgid "Enum value"
-msgstr "Valor de enumeração"
+msgid "Function"
+msgstr "Função"
 
 msgid "Example"
 msgstr "Exemplo"
@@ -40,6 +45,3 @@ msgstr "Itálico"
 
 msgid "Color"
 msgstr "Cor"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

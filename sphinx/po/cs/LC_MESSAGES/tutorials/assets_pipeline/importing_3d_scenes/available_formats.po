@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,6 +23,3 @@ msgstr "Jsou zde tři možnosti jak exportovat glTF 2.0 z programu Blender:"
 
 msgid "Exporting DAE files from Blender"
 msgstr "Export souborů DAE z programu Blender"
-
-msgid "Translation status"
-msgstr "Stav překladu"

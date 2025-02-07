@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -73,9 +73,6 @@ msgstr "V Rideru:"
 msgid "Set **MSBuild version** to **.NET Core**."
 msgstr "Nastavte **verzi MSBuild** na **.NET Core**."
 
-msgid "Install the **Godot support** plugin."
-msgstr "Nainstalujte zásuvný modul **Godot support**."
-
 msgid ""
 "After reading the \"Prerequisites\" section, you can download and install "
 "`Visual Studio Code <https://code.visualstudio.com/download>`__ (aka VS "
@@ -93,15 +90,6 @@ msgid ""
 msgstr ""
 "Nainstalujte rozšíření `C# <https://marketplace.visualstudio.com/items?"
 "itemName=ms-dotnettools.csharp>`__."
-
-msgid ""
-"If you are using Linux you need to install the `Mono SDK <https://www.mono-"
-"project.com/download/stable/#download-lin>`__ for the C# tools plugin to "
-"work."
-msgstr ""
-"Pokud používáte Linux, musíte si nainstalovat `Mono SDK <https://www.mono-"
-"project.com/download/stable/#download-lin>`__, aby zásuvný modul nástrojů C# "
-"fungoval."
 
 msgid "Visual Studio (Windows only)"
 msgstr "Visual Studio (pouze pro Windows)"
@@ -221,6 +209,3 @@ msgstr ""
 
 msgid "Profiling your C# code"
 msgstr "Profilování kódu C#"
-
-msgid "Translation status"
-msgstr "Stav překladu"

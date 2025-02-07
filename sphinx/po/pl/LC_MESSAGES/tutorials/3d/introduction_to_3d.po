@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,15 +13,6 @@ msgstr ""
 
 msgid "Introduction to 3D"
 msgstr "Wprowadzenie do 3D"
-
-msgid "3D content"
-msgstr "Zawartość 3D"
-
-msgid "2D in 3D"
-msgstr "2D w 3D"
-
-msgid "Environment"
-msgstr "Środowisko"
 
 msgid "Coordinate system"
 msgstr "System koordynatów"
@@ -35,11 +26,17 @@ msgstr "**Y** jest górą/dołem"
 msgid "**Z** is front/back"
 msgstr "**Z** jest przodem/tyłem"
 
+msgid "3D content"
+msgstr "Zawartość 3D"
+
+msgid "2D in 3D"
+msgstr "2D w 3D"
+
+msgid "Environment"
+msgstr "Środowisko"
+
 msgid "Cameras"
 msgstr "Kamery"
 
 msgid "Lights"
 msgstr "Światła"
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

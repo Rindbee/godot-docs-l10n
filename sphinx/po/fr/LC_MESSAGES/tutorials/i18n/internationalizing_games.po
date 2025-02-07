@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -116,6 +116,9 @@ msgstr ""
 "ajoutées ou supprimées pendant l'exécution ; la langue actuelle peut "
 "également être modifiée pendant l'exécution."
 
+msgid "``language``, overrides current project locale."
+msgstr "``language``, remplace la langue actuelle du projet."
+
 msgid "Testing translations"
 msgstr "Tester les traductions"
 
@@ -145,6 +148,3 @@ msgid ""
 msgstr ""
 "Si vous n'êtes pas sûr du code de langue à utiliser, référez-vous à la :ref:"
 "`liste des codes de langue <doc_locales>`."
-
-msgid "Translation status"
-msgstr "État de la traduction"

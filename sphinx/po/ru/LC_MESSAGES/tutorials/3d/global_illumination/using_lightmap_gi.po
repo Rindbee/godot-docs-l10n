@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -118,6 +118,26 @@ msgstr "Tweaks (надстройки)"
 msgid "Balancing bake times with quality"
 msgstr "Баланс между временем выпечки и качеством"
 
+msgid "OIDN (Open Image Denoise)"
+msgstr "OIDN (Open Image Denoise)"
+
+msgid "On AMD GPUs, HIP must be installed and configured."
+msgstr "На видеокартах от AMD необходимо установить и настроить HIP."
+
+msgid ""
+"On NVIDIA GPUs, CUDA must be installed and configured. This may "
+"automatically be done by the NVIDIA installer, but on Linux, CUDA libraries "
+"may not be installed by default. Double-check that the CUDA packages from "
+"your Linux distribution are installed."
+msgstr ""
+"На видеокартах от NVIDIA необходимо установить и настроить CUDA. Это может "
+"быть автоматически выполнено установщиком NVIDIA, но в Linux библиотеки CUDA "
+"могут быть не установлены по умолчанию. Убедитесь, что пакеты CUDA из вашего "
+"дистрибутива Linux установлены."
+
+msgid "On Intel GPUs, SYCL must be installed and configured."
+msgstr "На видеокартах от Intel необходимо установить и настроить SYCL."
+
 msgid "Dynamic objects"
 msgstr "Динамические объекты"
 
@@ -130,6 +150,3 @@ msgstr ""
 "редактора изображений, чтобы при необходимости выполнить постобработку. "
 "Однако следует помнить, что изменения в EXR-файле будут потеряны при "
 "повторном запекании карт освещения."
-
-msgid "Translation status"
-msgstr "Статус перевода"

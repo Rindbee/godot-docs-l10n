@@ -1,0 +1,108 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"**Binary compatible** - Existing binaries will load and execute successfully "
+"without recompilation, and the run-time behavior won't change."
+msgstr ""
+"**Compatible binaire** - Les binaires existants vont charger et exécuter "
+"avec succès sans recompilation, et le comportement lors de l'exécution ne "
+"changera pas."
+
+msgid ""
+"**Source compatible** - Source code will compile successfully without "
+"changes when upgrading Godot."
+msgstr ""
+"**Compatible source** - Le code source compilera avec succès sans changement "
+"lors de la mise à niveau de Godot."
+
+msgid "GDExtension"
+msgstr "GDExtension"
+
+msgid "Change"
+msgstr "Modifications"
+
+msgid "GDScript Compatible"
+msgstr "Compatible GDScript"
+
+msgid "C# Binary Compatible"
+msgstr "Compatible binaire C#"
+
+msgid "C# Source Compatible"
+msgstr "Compatible source C#"
+
+msgid "Introduced"
+msgstr "Intégré"
+
+msgid "|❌|"
+msgstr "|❌|"
+
+msgid "Animation"
+msgstr "Animation"
+
+msgid "**Animation**"
+msgstr "**Animation**"
+
+msgid "|✔️|"
+msgstr "|✔️|"
+
+msgid "|✔️ with compat|"
+msgstr "|✔️ avec compatibilité|"
+
+msgid "GUI nodes"
+msgstr "Nœuds GUI"
+
+msgid "Physics"
+msgstr "Physique"
+
+msgid "Rendering"
+msgstr "Rendu"
+
+msgid "**RenderingDevice**"
+msgstr "**RenderingDevice**"
+
+msgid "**RenderingServer**"
+msgstr "**RenderingServer**"
+
+msgid "Text"
+msgstr "Texte"
+
+msgid "**Font**"
+msgstr "**Font**"
+
+msgid "**RichTextLabel**"
+msgstr "**RichTextLabel**"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "TileMap"
+msgstr "TileMap"
+
+msgid "XR"
+msgstr "XR"
+
+msgid "Editor plugins"
+msgstr "Extensions pour l'éditeur"
+
+msgid "Behavior changes"
+msgstr "Changements de comportement"
+
+msgid "Core"
+msgstr "Core"
+
+msgid "Android"
+msgstr "Android"

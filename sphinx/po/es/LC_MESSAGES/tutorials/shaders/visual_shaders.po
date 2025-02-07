@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -46,12 +46,6 @@ msgstr ""
 "Los VisualShaders pueden ser creados en cualquier :ref:"
 "`class_ShaderMaterial`. Para empezar a usar VisualShaders, crea un nuevo "
 "``ShaderMaterial`` en un objeto de tu elección."
-
-msgid ""
-"Then assign a :ref:`class_VisualShader` resource to the ``Shader`` property."
-msgstr ""
-"Entonces asigna un recurso :ref:`class_VisualShader`` a la propiedad "
-"``Shader``."
 
 msgid "From left to right in the toolbar:"
 msgstr "De izquierda a derecha en la barra de herramientas:"
@@ -181,9 +175,6 @@ msgstr ""
 "Cuando se conecta cualquier salida ``vector`` a una entrada ``scalar``, el "
 "valor del escalar será el promedio de los componentes del vector."
 
-msgid "boolean"
-msgstr "boolean"
-
 msgid "Type"
 msgstr "Tipo"
 
@@ -198,6 +189,9 @@ msgstr "Ejemplo"
 
 msgid "Vector"
 msgstr "Vector"
+
+msgid "boolean"
+msgstr "boolean"
 
 msgid "Transform"
 msgstr "Transformar"
@@ -303,6 +297,3 @@ msgstr ""
 "``false``. ``Boolean`` fue introducido arriba. Si conviertes un vector en un "
 "verdadero booleano, todos los componentes del vector deben estar por encima "
 "de cero."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

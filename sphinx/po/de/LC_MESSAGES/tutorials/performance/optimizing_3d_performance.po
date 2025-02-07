@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -361,6 +361,3 @@ msgstr ""
 "ist, können Sie vielleicht Techniken wie die Ausrichtung der Welt um den "
 "Spieler (statt umgekehrt) oder das periodische Verschieben des Ursprungs "
 "verwenden, um die Dinge um ``Vector3(0, 0, 0)`` zu zentrieren."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

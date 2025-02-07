@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -127,5 +127,7 @@ msgstr ""
 "材料导出的默认配置会将所有材质保留在 ``escn`` 文件内部. 有一个选项可以确保, "
 "在Godot中打开 ``escn`` 文件时生成外部 ``.material`` 文件."
 
-msgid "Translation status"
-msgstr "翻译状态"
+msgid ""
+"``.material`` file can be assigned to any material slot to be an external "
+"resource."
+msgstr "``.material`` 文件可以分配到任何材料插槽, 以作为一个外部资源."

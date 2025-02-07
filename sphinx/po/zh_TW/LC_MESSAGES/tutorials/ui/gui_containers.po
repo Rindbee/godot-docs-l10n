@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -155,12 +155,6 @@ msgstr "Godot提供了幾種開箱即用的容器型別, 因為它們有不同�
 msgid "Box Containers"
 msgstr "盒式容器"
 
-msgid ""
-"These containers make use of the *Ratio* property for children with the "
-"*Expand* flag set."
-msgstr ""
-"這些容器會用到設定了 *Expand（擴充）* 選項的子節點的 *Ratio（比例）* 屬性。"
-
 msgid "Grid Container"
 msgstr "網格容器"
 
@@ -300,6 +294,3 @@ msgid ""
 msgstr ""
 "可以使用腳本輕鬆地建立自訂容器。下面是一個簡單容器的例子，它會根據自身的矩形"
 "尺寸調整子節點："
-
-msgid "Translation status"
-msgstr "翻譯狀態"

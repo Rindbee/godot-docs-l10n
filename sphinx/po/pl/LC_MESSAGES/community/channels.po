@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -18,39 +18,5 @@ msgstr ""
 "Gdzie szukać członków społeczności Godot i gdzie można zadawać pytania oraz "
 "prosić o pomoc?"
 
-msgid ""
-"Note that some of these channels are run and moderated by members of the "
-"Godot community or third parties."
-msgstr ""
-"Pamiętaj, że niektóre z kanałów są prowadzone i moderowane przez członków "
-"społeczności Godot i inne osoby."
-
-msgid ""
-"A brief overview over these and other channels is also available on the "
-"`Godot website <https://godotengine.org/community>`_."
-msgstr ""
-"Krótkie omówienie dotyczące tych i innych kanałów komunikacyjnych dostępne "
-"jest także na stronie Godot '<https://godotengine.org/community>`_."
-
-msgid ""
-"`Matrix (IRC compatible) <https://matrix.to/#/#godotengine:matrix.org>`_"
-msgstr ""
-"`Matrix (kompatybilny z IRC) <https://matrix.to/#/#godotengine:matrix.org>`_"
-
-msgid "`GitHub <https://github.com/godotengine/>`_"
-msgstr "`GitHub <https://github.com/godotengine/>`_"
-
-msgid "`Facebook group <https://www.facebook.com/groups/godotengine/>`_"
-msgstr "`Grupa na Facebooku <https://www.facebook.com/groups/godotengine/>`_"
-
-msgid "`Reddit <https://www.reddit.com/r/godot>`_"
-msgstr "`Reddit <https://www.reddit.com/r/godot>`_"
-
-msgid "`Steam <https://steamcommunity.com/app/404790>`_"
-msgstr "`Steam <https://steamcommunity.com/app/404790>`_"
-
 msgid "Language-based communities"
 msgstr "Społeczności nieanglojęzyczne"
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

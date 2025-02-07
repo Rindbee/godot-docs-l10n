@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -48,17 +48,6 @@ msgstr "macOS: ``$HOME/Library/Application Support/Godot/script_templates/``"
 
 msgid "Project-defined templates"
 msgstr "Plantillas definidas en el proyecto"
-
-msgid ""
-"The default path to search for templates is the ``res://script_templates/`` "
-"directory. The path can be changed by configuring the ``editor/"
-"script_templates_search_path`` setting in the :ref:`ProjectSettings "
-"<class_ProjectSettings>`, both via code and the editor."
-msgstr ""
-"La ruta por defecto para las plantillas es la carpeta ``res://"
-"script_templates/``. La ruta se puede cambiar configurando ``editor/"
-"script_templates_search_path`` en :ref:`ProjectSettings "
-"<class_ProjectSettings>`, tanto desde código como desde el editor."
 
 msgid ""
 "If no ``script_templates`` directory is found within a project, it is simply "
@@ -130,6 +119,3 @@ msgstr "El tipo base del que el nuevo script hereda."
 
 msgid "Type placeholders"
 msgstr "Placeholders de tipo"
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

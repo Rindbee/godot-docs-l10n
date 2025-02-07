@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -143,6 +143,11 @@ msgstr ""
 "performance, ce qui le rend idéal pour les troupeaux, l'herbe, les "
 "particules et tout ce qui comporte des milliers d'objets identiques."
 
+msgid ""
+"See also the :ref:`Using MultiMesh <doc_using_multimesh>` documentation."
+msgstr ""
+"Voir aussi la documentation :ref:`Utiliser MultiMesh <doc_using_multimesh>`."
+
 msgid "Bake lighting"
 msgstr "Préparation de l’éclairage"
 
@@ -168,6 +173,3 @@ msgstr ""
 "être chargées à la demande lorsque vous vous déplacez dans le monde. Cela "
 "peut éviter que l'utilisation de la mémoire ne devienne incontrôlable et "
 "limiter le traitement nécessaire à la zone locale."
-
-msgid "Translation status"
-msgstr "État de la traduction"

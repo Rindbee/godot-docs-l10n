@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,20 +17,22 @@ msgstr "功能列表"
 msgid "This page aims to list **all** features currently supported by Godot."
 msgstr "本頁列出了目前 Godot 所支援的所有功能。"
 
-msgid ""
-"This page lists features supported by the current stable version of Godot. "
-"Some of these features may not be available in the `LTS release series (3.x) "
-"<https://docs.godotengine.org/en/3.5/about/list_of_features.html>`__."
-msgstr ""
-"本頁列出了目前 Godot 穩定版中所支援的功能。 有些功能可能不存在於 `長期維護版"
-"本 (3.x) <https://docs.godotengine.org/zh_TW/latest/about/list_of_features."
-"html>` 中__ 。"
-
 msgid "Platforms"
 msgstr "支援平台"
 
+msgid ""
+"See :ref:`doc_system_requirements` for hardware and software version "
+"requirements."
+msgstr "請參閱 :ref:`doc_system_requirements`來了解硬體與軟體版本的需求。"
+
 msgid "**Can run both the editor and exported projects:**"
 msgstr "**在編輯器與匯出的專案中均可執行：**"
+
+msgid "macOS (x86 and ARM, 64-bit only)."
+msgstr "macOS ( x86 和 AR，僅支援 64位元)。"
+
+msgid "Linux (x86 and ARM, 64-bit and 32-bit)."
+msgstr "Linux (x86 和 ARM, 64 位元與 32 位元)。"
 
 msgid ""
 "Binaries are statically linked and can run on any distribution if compiled "
@@ -38,6 +40,9 @@ msgid ""
 msgstr ""
 "二進位檔使用靜態連結，並且若在一定舊的基礎發行版上編譯，則可在任意發行版上執"
 "行。"
+
+msgid "Android (editor support is experimental)."
+msgstr "Android（編輯器支援是實驗性的）。"
 
 msgid ""
 ":ref:`Web browsers <doc_using_the_web_editor>`. Experimental in 4.0, using "
@@ -62,6 +67,16 @@ msgstr ""
 "Godot 的目標是盡可能地獨立於平臺，並且可以相對輕鬆地 :ref:`移植到新平臺 "
 "<doc_custom_platform_ports>` 。"
 
+msgid ""
+"Projects written in C# using Godot 4 currently cannot be exported to the web "
+"platform. To use C# on that platform, consider Godot 3 instead. Android and "
+"iOS platform support is available as of Godot 4.2, but is experimental and :"
+"ref:`some limitations apply <doc_c_sharp_platforms>`."
+msgstr ""
+"使用Godot 4以C#編寫的專案目前無法匯出至Web平台。若要在該平台上使用C#，請考慮"
+"使用Godot 3。從Godot 4.2開始，提供Android與iOS平台的支援，但其仍處於實驗階"
+"段，且 :ref: `存在一些限制<doc_c_sharp_platforms>`。"
+
 msgid "Editor"
 msgstr "編輯器"
 
@@ -83,6 +98,9 @@ msgstr ""
 
 msgid "GDScript :ref:`debugger <doc_debugger_panel>`."
 msgstr "GDScript :ref:`除錯工具 <doc_debugger_panel>` 。"
+
+msgid "Support for debugging in threads is available since 4.2."
+msgstr "從 4.2 版本開始，已支援線程中的除錯功能。"
 
 msgid ""
 "Visual profiler with CPU and GPU time indications for each step of the "
@@ -294,6 +312,15 @@ msgstr ""
 msgid "CPU-based particles."
 msgstr "基於 CPU 的粒子。"
 
+msgid ""
+"Optional :ref:`2D HDR rendering "
+"<doc_environment_and_post_processing_using_glow_in_2d>` for better glow "
+"capabilities."
+msgstr ""
+"可選的 :ref:`2D HDR 渲染 "
+"<doc_environment_and_post_processing_using_glow_in_2d> `以獲得更好的發光效"
+"果。"
+
 msgid "2D tools"
 msgstr "2D 工具"
 
@@ -443,6 +470,11 @@ msgid "Spot lights with adjustable cone angle and attenuation."
 msgstr "有可調整圓錐角與衰減的聚光。"
 
 msgid ""
+"Specular, indirect light, and volumetric fog energy can be adjusted on a per-"
+"light basis."
+msgstr "可以在每個光源的基礎上調整鏡面反射、間接光和體積霧的能量。"
+
+msgid ""
 "Adjustable light \"size\" for fake area lights (will also make shadows "
 "blurrier)."
 msgstr "可調節的燈光 \"大小\" 來説明虛擬區域打光（也會使陰影更模糊）。"
@@ -497,6 +529,13 @@ msgid ""
 msgstr ""
 "陰影通常情況下會偏置補償和陰影平移，以減少可見的陰影失真和陰影懸浮的數量。"
 
+msgid ""
+":abbr:`PCSS (Percentage Closer Soft Shadows)`-like shadow blur based on the "
+"light size and distance from the surface the shadow is cast on."
+msgstr ""
+":abbr: 類似 `PCSS (Percentage Closer Soft Shadows)` 的陰影模糊是基於光線大小"
+"和與陰影投射表面的距離。"
+
 msgid "Adjustable shadow blur on a per-light basis."
 msgstr "晃動可依像素級別或物件級別來判斷。"
 
@@ -534,6 +573,22 @@ msgid ""
 msgstr ""
 "光照貼圖在 GPU 上使用計算著色器烘焙（與 CPU 計算光照貼圖相比速度更快）。烘焙"
 "只能在編輯器中進行，不能在匯出的專案中進行。"
+
+msgid ""
+"Supports GPU-based :ref:`denoising <doc_using_lightmap_gi_denoising>` with "
+"JNLM, or CPU/GPU-based denoising with OIDN."
+msgstr ""
+"支持使用 JNLM 進行基於 GPU 的 :ref:`去噪 <doc_using_lightmap_gi_denoising>`，"
+"或使用 OIDN 進行基於 CPU/GPU 的去噪。"
+
+msgid ""
+":ref:`Screen-space indirect lighting (SSIL) "
+"<doc_environment_and_post_processing_ssil>` at half or full resolution. "
+"Fully real-time and supports any kind of emissive light source (including "
+"decals)."
+msgstr ""
+"螢幕空間間接光照（SSIL），可以選擇半解析度或全解析度。它完全即時並支援任何類"
+"型的發光光源（包括裝飾）。"
 
 msgid ""
 "VoxelGI and SDFGI use a deferred pass to allow for rendering GI at half "
@@ -651,6 +706,15 @@ msgstr "支援依照相機角度自動調整深度霧色彩 (以配合陽光的�
 msgid "Support for sun scattering in the fog."
 msgstr "支援視覺著色器外掛。"
 
+msgid ""
+"Support for controlling how much fog rendering should affect the sky, with "
+"separate controls for traditional and volumetric fog."
+msgstr ""
+"支持控制霧氣渲染對天空的影響程度，並為傳統霧氣和體積霧氣提供獨立的控制選項。"
+
+msgid "Support for making specific materials ignore fog."
+msgstr "支持使特定材質忽略霧氣效果。"
+
 msgid "**Volumetric fog:**"
 msgstr "**體積霧：**"
 
@@ -663,6 +727,14 @@ msgid ""
 "Volumetric fog can take indirect light into account when using VoxelGI or "
 "SDFGI."
 msgstr "在使用VoxelGI或SDFGI時體積霧可以受間接光影響。"
+
+msgid ""
+"Fog volume nodes that can be placed to add fog to specific areas (or remove "
+"fog from specific areas). Supported shapes include box, ellipse, cone, "
+"cylinder, and 3D texture-based density maps."
+msgstr ""
+"可以放置以向特定區域新增霧（或從特定區域去除霧）的霧體積節點。可以支援的形狀"
+"包括方框、橢圓、圓錐、圓柱和基於3D紋理的密度圖。"
 
 msgid "Each fog volume can have its own custom shader."
 msgstr "每個霧體積都可以有自己的自訂著色器。"
@@ -735,6 +807,13 @@ msgstr ""
 msgid "Glow can have a colored dirt map texture, acting as a lens dirt effect."
 msgstr "輝光可以使用彩色污漬貼圖紋理，實作鏡頭髒汙效果。"
 
+msgid ""
+"Glow can be :ref:`used as a screen-space blur effect "
+"<doc_environment_and_post_processing_using_glow_to_blur_the_screen>`."
+msgstr ""
+"發光效果可以 :ref:`作為屏幕空間模糊效果使用 "
+"<doc_environment_and_post_processing_using_glow_to_blur_the_screen>`。"
+
 msgid "Color correction using a one-dimensional ramp or a 3D LUT texture."
 msgstr "使用單維漸變進行色彩校正。"
 
@@ -768,9 +847,6 @@ msgstr "**GLES3:** ETC2 (在 macOS 上不支援)。"
 
 msgid "S3TC (not supported on mobile/Web platforms)."
 msgstr "**GLES3:** S3TC (在行動裝置與網頁平台上不支援)。"
-
-msgid "**Anti-aliasing:**"
-msgstr "**抗鋸齒：**"
 
 msgid "Temporal :ref:`antialiasing <doc_3d_antialiasing>` (TAA)."
 msgstr "時間 :ref:`抗鋸齒 <doc_3d_antialiasing>` （TAA）。"
@@ -960,8 +1036,27 @@ msgstr ":ref:`C#: <toc-learn-scripting-gdscript>`"
 msgid "Packaged in a separate binary to keep file sizes and dependencies down."
 msgstr "打包為獨立二進位檔案，以減少檔案大小與相依性。"
 
+msgid "Supports .NET 6 and higher."
+msgstr "支援 .NET 6 或更高的版本。"
+
 msgid "Full support for the C# 10.0 syntax and features."
 msgstr "完整支援 C# 7.0 語法與功能。"
+
+msgid ""
+"Supports Windows, Linux, and macOS. As of 4.2 experimental support for "
+"Android and iOS is also available (requires a .NET 7.0 project for Android "
+"and 8.0 for iOS)."
+msgstr ""
+"支援 Windows、Linux 及 macOS。 從 4.2 版本開始，還提供對 Android 和 iOS 的實"
+"驗性支援（Android 需要 .NET 7.0 專案，iOS 需要 8.0 專案）。"
+
+msgid ""
+"On the Android platform only some architectures are supported: ``arm64`` and "
+"``x64``."
+msgstr "在 Android 平台上只支援某些架構：``arm64`` 和 ``x64``。"
+
+msgid "On the iOS platform only some architectures are supported: ``arm64``."
+msgstr "在 iOS 平台上只支援某些架構：``arm64``。"
 
 msgid ""
 "The web platform is currently unsupported. To use C# on that platform, "
@@ -994,18 +1089,6 @@ msgstr ""
 
 msgid "Use any build system and language features you wish."
 msgstr "可依照需求使用任何建置系統與語言功能。"
-
-msgid ""
-"Actively developed GDExtension bindings for `D <https://github.com/godot-"
-"dlang/godot-dlang>`__, `Haxe <https://hxgodot.github.io/>`__, `Swift "
-"<https://github.com/migueldeicaza/SwiftGodot>`__, and `Rust <https://github."
-"com/godot-rust/gdextension>`__ bindings provided by the community. (Some of "
-"these bindings may be experimental and not production-ready)."
-msgstr ""
-"社群積極開發對 `D <https://github.com/godot-dlang/godot-dlang >`__ 、 `Haxe "
-"<https://hxgodot.github.io/ >`__ 、 `Swift <https://github.com/migueldeicaza/"
-"SwiftGodot>`__ 和 `Rust <https://github.com/godot-Rust/GDExtension >`__ 等語"
-"言的 GDExtension 綁定（其中一些綁定可能仍處於實驗階段，不適合用於正式環境）。"
 
 msgid "Audio"
 msgstr "音訊"
@@ -1365,6 +1448,25 @@ msgstr "支援 XR (AR 與 VR)"
 msgid "Out of the box :ref:`support for OpenXR <doc_setting_up_xr>`."
 msgstr "開箱即用的 :ref:`OpenXR 支援 <doc_setting_up_xr>` 。"
 
+msgid ""
+"Including support for popular desktop headsets like the Valve Index, WMR "
+"headsets, and Quest over Link."
+msgstr "包含對 Meta Quest、Valve Index 等流行頭戴式裝置的支援。"
+
+msgid ""
+"Including support for popular stand alone headsets like the Meta Quest 1/2/3 "
+"and Pro, Pico 4, Magic Leap 2, and Lynx R1."
+msgstr ""
+"包含對 Meta Quest 1/2/3 Pro、Magic Leap 2 、Lynx R1等流行頭戴式裝置的支援。"
+
+msgid "Other devices supported through an XR plugin structure."
+msgstr "其他設備通過XR外掛結構支持。"
+
+msgid ""
+"Various advanced toolkits are available that implement common features "
+"required by XR applications."
+msgstr "各種先進的工具包可用於實現XR應用程序所需的常見功能。"
+
 msgid "GUI system"
 msgstr "GUI 圖形界面系統"
 
@@ -1632,6 +1734,3 @@ msgid ""
 msgstr ""
 "`Roadmap <https://github.com/godotengine/godot-roadmap>`__ Repository 中的文"
 "件說明了經討論同意且可能在未來版本中實作的功能。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

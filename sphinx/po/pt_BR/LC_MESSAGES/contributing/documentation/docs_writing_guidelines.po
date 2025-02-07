@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -22,6 +22,9 @@ msgstr "Use referências explícitas"
 
 msgid "Use the Oxford comma"
 msgstr "Use a vírgula Oxford"
+
+msgid "Passive:"
+msgstr "Passivo:"
 
 msgid "Active:"
 msgstr "Ativo:"
@@ -50,6 +53,13 @@ msgstr "apenas"
 msgid "clear"
 msgstr "limpo"
 
+msgid ""
+"**Don't** example. The banned words lengthen the description and take "
+"attention away from the most important info:"
+msgstr ""
+"**Não faça** exemplo. As palavras banidas alongam a descrição e desviam a "
+"atenção das informações mais importantes:"
+
 msgid "From the Oxford dictionary:"
 msgstr "Do dicionário Oxford:"
 
@@ -64,6 +74,3 @@ msgstr "**Escreva** funções usando tipagem dinâmica:"
 
 msgid "**Do** write concrete examples:"
 msgstr "*Escreva* exemplos concretos:"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

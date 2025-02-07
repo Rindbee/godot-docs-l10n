@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,6 +27,14 @@ msgstr ""
 "です。リソースはプライマリコンテナです。同じファイル パスで再度読み込みが呼び"
 "出されると、以前に読み込まれたリソースが参照されます。当然のことながら、読み"
 "込まれたリソースはステートレスである必要があります。"
+
+msgid ""
+"This guide assumes the reader knows how to create C++ modules and Godot data "
+"types. If not, refer to this guide: :ref:`doc_custom_modules_in_cpp`"
+msgstr ""
+"このガイドは、読者がC++モジュールとGodotデータ型を作成する方法を知っているこ"
+"とを前提としています。そうでない場合は、このガイドを参照してください: :ref:"
+"`doc_custom_modules_in_cpp`"
 
 msgid "References"
 msgstr "参照"
@@ -154,6 +162,3 @@ msgstr ""
 
 msgid "Then attach the following script to any node::"
 msgstr "次に、次のスクリプトを任意のノードにアタッチします:"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

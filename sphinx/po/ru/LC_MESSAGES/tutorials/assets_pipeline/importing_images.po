@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -111,6 +111,12 @@ msgstr "С потерями"
 msgid "**Description**"
 msgstr "**Описание**"
 
+msgid "Stored as Lossless WebP / PNG"
+msgstr "Сохранен как Lossless WebP /PNG"
+
+msgid "Stored as Lossy WebP"
+msgstr "Сохранен как Lossy WebP"
+
 msgid "Stored as raw pixels"
 msgstr "\"Сырые\" пиксели"
 
@@ -173,6 +179,3 @@ msgstr ""
 
 msgid "Best practices"
 msgstr "Лучшие практики"
-
-msgid "Translation status"
-msgstr "Статус перевода"

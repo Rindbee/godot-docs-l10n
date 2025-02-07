@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -161,6 +161,9 @@ msgstr ""
 "在着色器编辑器中, 要使选定的代码成为注释或取消注释, 按 :kbd:`Ctrl + K` . 该功"
 "能在所选行的开头添加或删除 ``//`` ."
 
+msgid "Documentation comments"
+msgstr "文档注释"
+
 msgid "Whitespace"
 msgstr "空格"
 
@@ -263,6 +266,3 @@ msgid ""
 msgstr ""
 "局部变量的声明位置离首次使用该局部变量的位置越近越好，让人更容易跟上代码的思"
 "路，而不需要上翻下找该变量的声明位置。"
-
-msgid "Translation status"
-msgstr "翻译状态"

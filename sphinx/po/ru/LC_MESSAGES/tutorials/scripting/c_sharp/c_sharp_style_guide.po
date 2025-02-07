@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -368,6 +368,3 @@ msgstr ""
 "Используйте безопасное приведение, когда существует вероятность того, что "
 "значение имеет другой тип, и используйте прямое приведение в противном "
 "случае."
-
-msgid "Translation status"
-msgstr "Статус перевода"

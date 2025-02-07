@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -520,16 +520,6 @@ msgstr ""
 "Ecke des Bildes befindet."
 
 msgid ""
-"Hopefully you now fully understand the how a transformation matrix affects "
-"the object, and the relationship between the basis vectors and how the "
-"object's \"UV\" or \"intra-coordinates\" have their world position changed."
-msgstr ""
-"Sie verstehen nun hoffentlich, wie sich eine Transformationsmatrix auf das "
-"Objekt auswirkt und welche Beziehung zwischen den Basisvektoren und der "
-"Änderung der Weltposition der \"UV\"- oder \"Intra-Koordinaten\" des Objekts "
-"besteht."
-
-msgid ""
 "In Godot, all transform math is done relative to the parent node. When we "
 "refer to \"world position\", that would be relative to the node's parent "
 "instead, if the node had a parent."
@@ -875,6 +865,3 @@ msgstr "https://www.youtube.com/watch?v=d4EgbgTm0Bg"
 
 msgid "https://eater.net/quaternions"
 msgstr "https://eater.net/quaternions"
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

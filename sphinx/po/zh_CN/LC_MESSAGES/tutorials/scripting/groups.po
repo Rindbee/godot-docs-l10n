@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -58,6 +58,34 @@ msgstr ""
 msgid "Using the Node dock"
 msgstr "使用节点面板"
 
+msgid "When done, press Ok to create it."
+msgstr "完成后，按“确定”创建它。"
+
+msgid ""
+"Selected Node(s) from the Scene dock can be added into groups by marking the "
+"checkbox on the left side of the groups in the Groups dock. The node(s) you "
+"had selected when creating a new group will be automatically checked."
+msgstr ""
+"通过标记组停靠栏中组左侧的复选框，可以将场景停靠栏中的选定节点添加到组中。创"
+"建新组时选择的节点将被自动选中。"
+
+msgid ""
+"All groups present in the project that were marked as Global, created from "
+"any scene, will be visible under Global Groups."
+msgstr "从任何场景创建的项目中标记为“全局”的所有组都将在“全局组”下可见。"
+
+msgid ""
+"Any other group derived from nodes in the current scene will appear under "
+"Scene Groups."
+msgstr "从当前场景中的节点派生的任何其他组都将显示在“场景组”下。"
+
+msgid ""
+"The same underlying logic is used for both Global and Scene groups. Groups "
+"with the same name are considered one and the same. This feature is purely "
+"organizational."
+msgstr ""
+"全局组和场景组使用相同的底层逻辑。同名组被视为同一组。此功能纯粹是组织性的。"
+
 msgid "Using code"
 msgstr "使用代码"
 
@@ -106,6 +134,3 @@ msgstr ""
 ":ref:`SceneTree <class_SceneTree>` 类提供了许多有用的方法，例如与场景、场景节"
 "点层次结构及节点编组交互，还可以使你可以轻松切换场景或重新加载场景、退出游戏"
 "或暂停和恢复运行游戏。不仅如此，该类还提供了一些有用的信号。"
-
-msgid "Translation status"
-msgstr "翻译状态"

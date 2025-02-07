@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -261,6 +261,3 @@ msgstr ""
 "這是將顏色預先乘以 ``alpha`` 值, 然後將它們正確地混合在一起. 通常情況下, 當在"
 "一個透明的顏色上混合另一個顏色時, 即使背景的 ``alpha`` 為 ``0`` (如本例), 也"
 "會出現奇怪的顏色滲漏問題. 設定 ``blend_premul_alpha`` 可以解決這個問題."
-
-msgid "Translation status"
-msgstr "翻譯狀態"

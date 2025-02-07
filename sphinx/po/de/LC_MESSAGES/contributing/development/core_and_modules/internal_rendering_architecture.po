@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -492,17 +492,6 @@ msgstr ""
 "Desktop-Plattformen verwendet, um diesen Treiber auszuführen, da die meisten "
 "Grafiktreiber auf dem Desktop OpenGL ES nicht unterstützen. WebGL 2.0 wird "
 "für Web-Exporte verwendet."
-
-msgid ""
-"It is possible to use the use of OpenGL ES 3.0 directly on desktop platforms "
-"using the ``--rendering-driver opengl3_es`` command line argument, although "
-"this will only work on graphics drivers that feature native OpenGL ES "
-"support (such as Mesa)."
-msgstr ""
-"Es ist möglich, OpenGL ES 3.0 direkt auf Desktop-Plattformen zu verwenden, "
-"indem man das Kommandozeilenargument ``--rendering-driver opengl3_es`` "
-"benutzt, obwohl dies nur auf Grafiktreibern funktioniert, die native OpenGL "
-"ES-Unterstützung bieten (wie Mesa)."
 
 msgid ""
 "Only the :ref:`doc_internal_rendering_architecture_compatibility` rendering "
@@ -2013,6 +2002,3 @@ msgstr ""
 
 msgid "**Mesh LOD determination C++ code:**"
 msgstr "**C++-Code zur Bestimmung von Mesh LOD:**"
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

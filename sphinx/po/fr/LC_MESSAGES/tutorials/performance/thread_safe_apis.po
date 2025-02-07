@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -34,6 +34,17 @@ msgstr ""
 
 msgid "Global scope"
 msgstr "Portée globale"
+
+msgid ""
+":ref:`Global Scope<class_@GlobalScope>` singletons are all thread-safe. "
+"Accessing servers from threads is supported (for RenderingServer and Physics "
+"servers, ensure threaded or thread-safe operation is enabled in the project "
+"settings!)."
+msgstr ""
+"Les singletons de :ref:`Global Scope<class_@GlobalScope>` sont tous thread-"
+"safe. L'accès aux serveurs à partir de threads est pris en charge (pour les "
+"serveurs RenderingServer et Physics, assurez-vous que le fonctionnement "
+"threadé ou thread safe est activé dans les paramètres du projet !)."
 
 msgid ""
 "This makes them ideal for code that creates dozens of thousands of instances "
@@ -139,6 +150,3 @@ msgstr ""
 "de plusieurs threads en même temps, il est donc plus facile d'utiliser "
 "**un** thread pour le chargement et la modification des ressources, puis le "
 "thread principal pour les ajouter."
-
-msgid "Translation status"
-msgstr "État de la traduction"

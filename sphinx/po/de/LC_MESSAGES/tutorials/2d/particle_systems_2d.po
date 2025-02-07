@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -767,6 +767,3 @@ msgstr ""
 "Ein Bild sollte nicht direkt zur ``Punkt-Textur`` oder ``Farb-Textur`` "
 "hinzugefügt werden. Es sollte immer das \"Emissionsmaske laden\"-Menü "
 "benutzt werden."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

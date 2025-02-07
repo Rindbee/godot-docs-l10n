@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -75,12 +75,6 @@ msgid ""
 msgstr ""
 "Realiza una división entera si ambos operandos son enteros. Si al menos uno "
 "de ellos es un número de punto flotante, devuelve un valor de punto flotante."
-
-msgid "Modulo (``%``)"
-msgstr "Modulo o Residuo (``%``)"
-
-msgid "Returns the remainder of an integer division."
-msgstr "Devuelve el residuo de una división entera."
 
 msgid ""
 "Spaces around operators are optional. Also, keep in mind the usual `order of "
@@ -205,6 +199,3 @@ msgstr ""
 "clase. En contraste, esta restricción en los argumentos no se aplica a las "
 "funciones hechas por el usuario cuando se vincula una instancia base a la "
 "expresión."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

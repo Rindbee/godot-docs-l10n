@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -62,6 +62,3 @@ msgstr ""
 "可以使用 :ref:`运行时文件加载和保存 "
 "<doc_runtime_file_loading_and_saving_3d_scenes>` 在运行时保存 3D 场景，包括从"
 "导出的项目中保存。"
-
-msgid "Translation status"
-msgstr "翻译状态"

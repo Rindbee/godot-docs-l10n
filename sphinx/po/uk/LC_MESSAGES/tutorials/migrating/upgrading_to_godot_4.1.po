@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,20 +11,411 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Upgrading from Godot 4.0 to Godot 4.1"
+msgstr "Оновлення з Godot 4.0 до Godot 4.1"
+
+msgid ""
+"For most games and apps made with 4.0, it should be relatively safe to "
+"migrate to 4.1. This page intends to cover everything you need to pay "
+"attention to when migrating your project."
+msgstr ""
+"Для більшості ігор і програм, створених з версією 4.0, перехід на 4.1 має "
+"бути відносно безпечним. На цій сторінці описано все, на що потрібно "
+"звернути увагу під час міграції вашого проекту."
+
+msgid "Breaking changes"
+msgstr "Ломальні зміни"
+
+msgid ""
+"If you are migrating from 4.0 to 4.1, the breaking changes listed here might "
+"affect you. Changes are grouped by areas/systems."
+msgstr ""
+"Якщо ви переходите з 4.0 на 4.1, перелічені тут критичні зміни можуть "
+"вплинути на вас. Зміни згруповано за сферами/системами."
+
+msgid ""
+"The GDExtension API completely breaks compatibility in 4.1, so it's not "
+"included in the table below. See the :ref:"
+"`updating_your_gdextension_for_godot_4_1` section for more information."
+msgstr ""
+"API GDExtension повністю порушує сумісність у версії 4.1, тому його не "
+"включено в таблицю нижче. Перегляньте розділ :ref:"
+"`updating_your_gdextension_for_godot_4_1` для отримання додаткової "
+"інформації."
+
+msgid ""
+"This article indicates whether each breaking change affects GDScript and "
+"whether the C# breaking change is *binary compatible* or *source compatible*:"
+msgstr ""
+"У цій статті вказується, чи кожна порушна зміна впливає на GDScript і чи є "
+"порушна зміна C# *бінарною сумісністю* чи *сумісною з джерелом*:"
+
+msgid ""
+"**Binary compatible** - Existing binaries will load and execute successfully "
+"without recompilation, and the run-time behavior won't change."
+msgstr ""
+"**Бінарна сумісність** – наявні двійкові файли завантажуватимуться та "
+"успішно виконуватимуться без повторної компіляції, а поведінка під час "
+"виконання не зміниться."
+
+msgid ""
+"**Source compatible** - Source code will compile successfully without "
+"changes when upgrading Godot."
+msgstr ""
+"**Сумісність із вихідним кодом** – вихідний код буде успішно скомпільовано "
+"без змін під час оновлення Godot."
+
+msgid "Core"
+msgstr "Ядро"
+
+msgid "Change"
+msgstr "Зміна"
+
+msgid "GDScript Compatible"
+msgstr "Сумісність з GDScript"
+
+msgid "C# Binary Compatible"
+msgstr "C# двійковий сумісний"
+
+msgid "C# Source Compatible"
+msgstr "Сумісність із вихідним кодом C#"
+
+msgid "Introduced"
+msgstr "Введено"
+
+msgid "**Basis**"
+msgstr "**Основа**"
+
+msgid "Method ``looking_at`` adds a new ``use_model_front`` optional parameter"
+msgstr ""
+"Метод ``looking_at`` додає новий необов’язковий параметр ``use_model_front``"
+
+msgid "|✔️|"
+msgstr "|✔️|"
+
+msgid "`GH-76082`_"
+msgstr "`GH-76082`_"
+
+msgid "**Object**"
+msgstr "**Об'єкт**"
+
+msgid ""
+"Method ``get_meta_list`` changes return type from ``PackedStringArray`` to "
+"``Array[StringName]``"
+msgstr ""
+"Метод ``get_meta_list`` змінює тип повернення з ``PackedStringArray`` на "
+"``Array[StringName]``"
+
+msgid "|❌|"
+msgstr "|❌|"
+
+msgid "`GH-76418`_"
+msgstr "`GH-76418`_"
+
+msgid "**Transform3D**"
+msgstr "**Transform3D**"
+
+msgid "**UndoRedo**"
+msgstr "**Відмінити Повторити**"
+
+msgid ""
+"Method ``create_action`` adds a new ``backward_undo_ops`` optional parameter"
+msgstr ""
+"Метод ``create_action`` додає новий необов’язковий параметр "
+"``backward_undo_ops``"
+
+msgid "|✔️ with compat|"
+msgstr "|✔️ з compat|"
+
+msgid "`GH-76688`_"
+msgstr "`GH-76688`_"
+
+msgid "**WorkerThreadPool**"
+msgstr "**WorkerThreadPool**"
+
+msgid ""
+"Method ``wait_for_task_completion`` changes return type from ``void`` to "
+"``Error``"
+msgstr ""
+"Метод ``wait_for_task_completion`` змінює тип повернення з ``void`` на "
+"``Error``"
+
+msgid "`GH-77143`_"
+msgstr "`GH-77143`_"
+
 msgid "Animation"
 msgstr "Анімація"
+
+msgid "**AnimationNode**"
+msgstr "**AnimationNode**"
+
+msgid "Method ``_process`` adds a new ``test_only`` parameter"
+msgstr "Метод ``_process`` додає новий параметр ``test_only``"
+
+msgid "`GH-75759`_"
+msgstr "`GH-75759`_"
+
+msgid "Method ``blend_input`` adds a new ``test_only`` optional parameter"
+msgstr ""
+"Метод ``blend_input`` додає новий необов'язковий параметр ``test_only``"
+
+msgid "Method ``blend_node`` adds a new ``test_only`` optional parameter"
+msgstr "Метод ``blend_node`` додає новий необов'язковий параметр ``test_only``"
+
+msgid "**AnimationNodeStateMachinePlayback**"
+msgstr "**AnimationNodeStateMachinePlayback**"
+
+msgid ""
+"Method ``get_travel_path`` changes return type from ``PackedStringArray`` to "
+"``Array[StringName]``"
+msgstr ""
+"Метод ``get_travel_path`` змінює тип повернення з ``PackedStringArray`` на "
+"``Array[StringName]``"
+
+msgid "2D nodes"
+msgstr "2D вузли"
+
+msgid "**PathFollow2D**"
+msgstr "**Дотримуйтеся шляху 2D**"
+
+msgid "Property ``lookahead`` removed"
+msgstr "Властивість ``lookahead`` видалено"
+
+msgid "`GH-72842`_"
+msgstr "`GH-72842`_"
+
+msgid "3D nodes"
+msgstr "3D вузли"
+
+msgid "**Geometry3D**"
+msgstr "**Geometry3D**"
+
+msgid ""
+"Method ``segment_intersects_convex`` changes ``planes`` parameter type from "
+"untyped ``Array`` to ``Array[Plane]``"
+msgstr ""
+"Метод ``segment_intersects_convex`` змінює тип параметра ``planes`` з "
+"нетипового ``Array`` на ``Array[Plane]``"
+
+msgid "**MeshInstance3D**"
+msgstr "**MeshInstance3D**"
+
+msgid ""
+"Method ``create_multiple_convex_collisions`` adds a new ``settings`` "
+"optional parameter"
+msgstr ""
+"Метод ``create_multiple_convex_collision`` додає новий необов’язковий "
+"параметр ``settings``"
+
+msgid "`GH-72152`_"
+msgstr "`GH-72152`_"
+
+msgid "**Node3D**"
+msgstr "**Node3D**"
+
+msgid "Method ``look_at`` adds a new ``use_model_front`` optional parameter"
+msgstr ""
+"Метод ``look_at`` додає новий необов'язковий параметр ``use_model_front``"
+
+msgid ""
+"Method ``look_at_from_position`` adds a new ``use_model_front`` optional "
+"parameter"
+msgstr ""
+"Метод ``look_at_from_position`` додає новий необов’язковий параметр "
+"``use_model_front``"
+
+msgid "GUI nodes"
+msgstr "Вузли GUI"
+
+msgid "**CodeEdit**"
+msgstr "**Редагування коду**"
+
+msgid ""
+"Method ``add_code_completion_option`` adds a new ``location`` optional "
+"parameter"
+msgstr ""
+"Метод ``add_code_completion_option`` додає новий необов'язковий параметр "
+"``location``"
+
+msgid "`GH-75746`_"
+msgstr "`GH-75746`_"
+
+msgid "**RichTextLabel**"
+msgstr "**RichTextLabel**"
+
+msgid "Method ``push_list`` adds a new ``bullet`` optional parameter"
+msgstr "Метод ``push_list`` додає новий необов’язковий параметр ``bullet``"
+
+msgid "`GH-75017`_"
+msgstr "`GH-75017`_"
+
+msgid ""
+"Method ``push_paragraph`` adds a new ``justification_flags`` optional "
+"parameter"
+msgstr ""
+"Метод ``push_paragraph`` додає новий необов'язковий параметр "
+"``justification_flags``"
+
+msgid "`GH-75250`_"
+msgstr "`GH-75250`_"
+
+msgid "Method ``push_paragraph`` adds a new ``tab_stops`` optional parameter"
+msgstr ""
+"Метод ``push_paragraph`` додає новий необов’язковий параметр ``tab_stops``"
+
+msgid "`GH-76401`_"
+msgstr "`GH-76401`_"
+
+msgid "**Tree**"
+msgstr "**Дерево**"
+
+msgid "Method ``edit_selected`` adds a new ``force_edit`` optional parameter"
+msgstr ""
+"Метод ``edit_selected`` додає новий необов’язковий параметр ``force_edit``"
+
+msgid "`GH-76794`_"
+msgstr "`GH-76794`_"
 
 msgid "Physics"
 msgstr "Фізика"
 
+msgid "**Area2D**"
+msgstr "**Area2D**"
+
+msgid "Property ``priority`` changes type from ``float`` to ``int``"
+msgstr "Властивість ``priority`` змінює тип з ``float`` на ``int``"
+
+msgid "`GH-72749`_"
+msgstr "`GH-72749`_"
+
+msgid "**Area3D**"
+msgstr "**Area3D**"
+
+msgid "**PhysicsDirectSpaceState2D**"
+msgstr "**PhysicsDirectSpaceState2D**"
+
+msgid ""
+"Method ``collide_shape`` changes return type from "
+"``Array[PackedVector2Array]`` to ``Array[Vector2]``"
+msgstr ""
+"Метод ``collide_shape`` змінює тип повернення з "
+"``Array[PackedVector2Array]`` на ``Array[Vector2``"
+
+msgid "`GH-75260`_"
+msgstr "`GH-75260`_"
+
+msgid "**PhysicsDirectSpaceState3D**"
+msgstr "**PhysicsDirectSpaceState3D**"
+
+msgid ""
+"Method ``collide_shape`` changes return type from "
+"``Array[PackedVector3Array]`` to ``Array[Vector3]``"
+msgstr ""
+"Метод ``collide_shape`` змінює тип повернення з "
+"``Array[PackedVector3Array]`` на ``Array[Vector3]``"
+
 msgid "Rendering"
 msgstr "Рендеринг"
+
+msgid "**RDShaderFile**"
+msgstr "**RDShaderFile**"
+
+msgid ""
+"Method ``get_version_list`` changes return type from ``PackedStringArray`` "
+"to ``Array[StringName]``"
+msgstr ""
+"Метод ``get_version_list`` змінює тип повернення з ``PackedStringArray`` на "
+"``Array[StringName]``"
+
+msgid "**RenderingDevice**"
+msgstr "**RenderingDevice**"
+
+msgid ""
+"Method ``draw_list_begin`` changes ``storage_textures`` parameter type from "
+"untyped ``Array`` to ``Array[RID]``"
+msgstr ""
+"Метод ``draw_list_begin`` змінює тип параметра ``storage_textures`` з "
+"нетипового ``Array`` на ``Array[RID]``"
+
+msgid "**RenderingServer**"
+msgstr "**RenderingServer**"
+
+msgid ""
+"Method ``global_shader_parameter_get_list`` changes return type from "
+"``PackedStringArray`` to ``Array[StringName]``"
+msgstr ""
+"Метод ``global_shader_parameter_get_list`` змінює тип повернення з "
+"``PackedStringArray`` на ``Array[StringName]``"
+
+msgid "**SurfaceTool**"
+msgstr "**Інструмент SurfaceTool**"
+
+msgid ""
+"Method ``add_triangle_fan`` changes ``tangents`` parameter type from untyped "
+"``Array`` to ``Array[Plane]``"
+msgstr ""
+"Метод ``add_triangle_fan`` змінює тип параметра ``tangents`` з нетипового "
+"``Array`` на ``Array[Plane]``"
 
 msgid "Navigation"
 msgstr "Навігація"
 
+msgid "**NavigationAgent2D**"
+msgstr "**NavigationAgent2D**"
+
+msgid "Method ``set_velocity`` replaced with ``velocity`` property"
+msgstr "Метод ``set_velocity`` замінено властивістю ``velocity``"
+
+msgid "`GH-69988`_"
+msgstr "`GH-69988`_"
+
+msgid ""
+"Property ``time_horizon`` split into ``time_horizon_agents`` and "
+"``time_horizon_obstacles``"
+msgstr ""
+"Властивість ``time_horizon`` розділена на ``time_horizon_agents`` і "
+"``time_horizon_obstacles``"
+
+msgid "**NavigationAgent3D**"
+msgstr "**NavigationAgent3D**"
+
+msgid "Property ``agent_height_offset`` renamed to ``path_height_offset``"
+msgstr ""
+"Властивість ``agent_height_offset`` перейменовано на ``path_height_offset``"
+
+msgid "Property ``ignore_y`` removed"
+msgstr "Властивість ``ignore_y`` видалено"
+
+msgid "**NavigationObstacle2D**"
+msgstr "**NavigationObstacle2D**"
+
+msgid "Property ``estimate_radius`` removed"
+msgstr "Властивість ``estimate_radius`` видалено"
+
+msgid "Method ``get_rid`` renamed to ``get_agent_rid``"
+msgstr "Метод ``get_rid`` перейменовано на ``get_agent_rid``"
+
+msgid "**NavigationObstacle3D**"
+msgstr "**NavigationObstacle3D**"
+
 msgid "**NavigationServer2D**"
 msgstr "**НавігаційнийСервер2D**"
+
+msgid ""
+"Method ``agent_set_callback`` renamed to ``agent_set_avoidance_callback``"
+msgstr ""
+"Метод ``agent_set_callback`` перейменовано на "
+"``agent_set_avoidance_callback``"
+
+msgid "Method ``agent_set_target_velocity`` removed"
+msgstr "Метод ``agent_set_target_velocity`` видалено"
+
+msgid ""
+"Method ``agent_set_time_horizon`` split into "
+"``agent_set_time_horizon_agents`` and ``agent_set_time_horizon_obstacles``"
+msgstr ""
+"Метод ``agent_set_time_horizon`` розділений на "
+"``agent_set_time_horizon_agents`` і ``agent_set_time_horizon_obstacles``"
 
 msgid "**NavigationServer3D**"
 msgstr "**НавігаційнийСервер3D**"
@@ -32,11 +423,177 @@ msgstr "**НавігаційнийСервер3D**"
 msgid "Networking"
 msgstr "Робота у мережі"
 
+msgid "**WebRTCPeerConnectionExtension**"
+msgstr "**WebRTCPeerConnectionExtension**"
+
+msgid ""
+"Method ``_create_data_channel`` changes return type from ``Object`` to "
+"``WebRTCDataChannel``"
+msgstr ""
+"Метод ``_create_data_channel`` змінює тип повернення з ``Object`` на "
+"``WebRTCDataChannel``"
+
+msgid "`GH-78237`_"
+msgstr "`GH-78237`_"
+
 msgid "Editor plugins"
 msgstr "Додатки редактора"
+
+msgid "**AnimationTrackEditPlugin**"
+msgstr "**Плагін AnimationTrackEdit**"
+
+msgid "Type ``AnimationTrackEditPlugin`` removed"
+msgstr "Тип ``AnimationTrackEditPlugin`` видалено"
+
+msgid "`GH-76413`_"
+msgstr "`GH-76413`_"
+
+msgid "**EditorInterface**"
+msgstr "**Інтерфейс редактора**"
+
+msgid ""
+"Type ``EditorInterface`` changes inheritance from ``Node`` to ``Object``"
+msgstr "Тип ``EditorInterface`` змінює успадкування з ``Node`` на ``Object``"
+
+msgid "`GH-76176`_"
+msgstr "`GH-76176`_"
+
+msgid ""
+"Method ``set_movie_maker_enabled`` replaced with ``movie_maker_enabled`` "
+"property"
+msgstr ""
+"Метод ``set_movie_maker_enabled`` замінено властивістю "
+"``movie_maker_enabled``"
+
+msgid ""
+"Method ``is_movie_maker_enabled`` replaced with ``movie_maker_enabled`` "
+"property"
+msgstr ""
+"Метод ``is_movie_maker_enabled`` замінено властивістю ``movie_maker_enabled``"
+
+msgid "**EditorResourcePreviewGenerator**"
+msgstr "**EditorResourcePreviewGenerator**"
+
+msgid "Method ``_generate`` adds a new ``metadata`` parameter"
+msgstr "Метод ``_generate`` додає новий параметр ``metadata``"
+
+msgid "`GH-64628`_"
+msgstr "`GH-64628`_"
+
+msgid "Method ``_generate_from_path`` adds a new ``metadata`` parameter"
+msgstr "Метод ``_generate_from_path`` додає новий параметр ``metadata``"
+
+msgid "**EditorUndoRedoManager**"
+msgstr "**EditorUndoRedoManager**"
+
+msgid "Behavior changes"
+msgstr "Зміни поведінки"
+
+msgid ""
+"In 4.1 some behavior changes have been introduced, which might require you "
+"to adjust your project."
+msgstr ""
+"У версії 4.1 було внесено деякі зміни в поведінку, які можуть вимагати від "
+"вас коригування вашого проекту."
+
+msgid "**SubViewportContainer**"
+msgstr "**SubViewportContainer**"
+
+msgid ""
+"When input events should reach SubViewports and their children, "
+"``SubViewportContainer.mouse_filter`` now needs to be ``MOUSE_FILTER_STOP`` "
+"or ``MOUSE_FILTER_PASS``. See `GH-79271`_ for details."
+msgstr ""
+"Коли події введення мають досягати SubViewports та їхніх дітей, "
+"``SubViewportContainer.mouse_filter`` тепер має бути ``MOUSE_FILTER_STOP`` "
+"або ``MOUSE_FILTER_PASS``. Докладніше див. `GH-79271`_."
+
+msgid "`GH-57894`_"
+msgstr "`GH-57894`_"
+
+msgid ""
+"Multiple layered ``SubViewportContainer`` nodes, that should all receive "
+"mouse input events, now need to be replaced by ``Area2D`` nodes. See "
+"`GH-79128`_ for details."
+msgstr ""
+"Багатошарові вузли ``SubViewportContainer``, які мають отримувати події "
+"введення миші, тепер потрібно замінити вузлами ``Area2D``. Докладніше див. "
+"`GH-79128`_."
+
+msgid "**Viewport**"
+msgstr "**Вікно перегляду**"
+
+msgid ""
+"``Viewport`` nodes, that have Physics Picking enabled, now automatically set "
+"InputEvents as handled. See `GH-79897`_ for workarounds."
+msgstr ""
+"Вузли ``Viewport``, для яких увімкнено Physics Picking, тепер автоматично "
+"встановлюють InputEvents як оброблені. Перегляньте `GH-79897`_ для обхідних "
+"шляхів."
+
+msgid "`GH-77595`_"
+msgstr "`GH-77595`_"
+
+msgid "Updating your GDExtension for 4.1"
+msgstr "Оновлення GDExtension до 4.1"
+
+msgid ""
+"GDExtension is still in beta. Until it's marked as stable, compatibility may "
+"break when upgrading to a new minor version of Godot."
+msgstr ""
+"GDExtension все ще знаходиться в бета-версії. Доки її не буде позначено як "
+"стабільну, сумісність може бути порушена під час оновлення до нової "
+"проміжної версії Godot."
+
+msgid ""
+"In order to fix a serious bug, in Godot 4.1 we had to break binary "
+"compatibility in a big way and source compatibility in a small way."
+msgstr ""
+"Щоб виправити серйозну помилку, у Godot 4.1 нам довелося значною мірою "
+"порушити двійкову сумісність і меншою мірою сумісність з джерелами."
+
+msgid ""
+"This means that GDExtensions made for Godot 4.0 will need to be recompiled "
+"for Godot 4.1 (using the  ``4.1`` branch of godot-cpp), with a small change "
+"to their source code."
+msgstr ""
+"Це означає, що GDExtensions, створені для Godot 4.0, потрібно буде "
+"перекомпілювати для Godot 4.1 (використовуючи гілку ``4.1`` godot-cpp), з "
+"невеликою зміною їх вихідного коду."
 
 msgid "In Godot 4.0, your \"entry_symbol\" function looks something like this:"
 msgstr "У Godot 4.0 ваша функція \"entry_symbol\" виглядає приблизно так:"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "However, for Godot 4.1, it should look like:"
+msgstr "Однак для Godot 4.1 це має виглядати так:"
+
+msgid "There are two small changes:"
+msgstr "Є дві невеликі зміни:"
+
+msgid ""
+"The first argument changes from ``const GDExtensionInterface *p_interface`` "
+"to ``GDExtensionInterfaceGetProcAddress p_get_proc_address``"
+msgstr ""
+"Перший аргумент змінюється з ``const GDExtensionInterface *p_interface`` на "
+"``GDExtensionInterfaceGetProcAddress p_get_proc_address``"
+
+msgid ""
+"The constructor for the `init_obj` variable now receives "
+"``p_get_proc_address`` as its first parameter"
+msgstr ""
+"Конструктор для змінної `init_obj` тепер отримує ``p_get_proc_address`` як "
+"перший параметр"
+
+msgid ""
+"You also need to add an extra ``compatibility_minimum`` line to your ``."
+"gdextension`` file, so that it looks something like::"
+msgstr ""
+"Вам також потрібно додати доп рядок ``compatibility_minimum`` у ваш файл ``."
+"gdextension``, щоб він виглядав приблизно так:"
+
+msgid ""
+"This lets Godot know that your GDExtension has been updated and is safe to "
+"load in Godot 4.1."
+msgstr ""
+"Це дає Godot знати, що ваше GDExtension оновлено та безпечно завантажувати у "
+"Godot 4.1."

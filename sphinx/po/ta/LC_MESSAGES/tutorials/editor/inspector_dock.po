@@ -1,0 +1,56 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "The Inspector"
+msgstr "இன்ச்பெக்டர்"
+
+msgid ""
+"This page explains how the Inspector dock works in-depth. You will learn how "
+"to edit properties, fold and unfold areas, use the search bar, and more."
+msgstr ""
+"இன்ச்பெக்டர் கப்பல்துறை எவ்வாறு ஆழமாக செயல்படுகிறது என்பதை இந்த பக்கம் விளக்குகிறது. "
+"பண்புகளை எவ்வாறு திருத்துவது, மடிப்பு மற்றும் விரிவடைவது, தேடல் பட்டியைப் "
+"பயன்படுத்துவது மற்றும் பலவற்றை நீங்கள் கற்றுக் கொள்வீர்கள்."
+
+msgid "This page is a work-in-progress."
+msgstr "இந்த பக்கம் ஒரு வேலை முன்னேற்றம்."
+
+msgid "Overview of the interface"
+msgstr "இடைமுகத்தின் கண்ணோட்டம்"
+
+msgid "Let's start by looking at the dock's main parts."
+msgstr "கப்பல்துறையின் முக்கிய பகுதிகளைப் பார்த்து ஆரம்பிக்கலாம்."
+
+msgid "At the top are the file and navigation buttons."
+msgstr "மேலே கோப்பு மற்றும் வழிசெலுத்தல் பொத்தான்கள் உள்ளன."
+
+msgid ""
+"Below it, you can find the selected node's name, its type, and the tools "
+"menu on the right side."
+msgstr ""
+"அதற்கு கீழே, தேர்ந்தெடுக்கப்பட்ட முனையின் பெயர், அதன் வகை மற்றும் கருவிகள் மெனுவை வலது "
+"பக்கத்தில் காணலாம்."
+
+msgid ""
+"If you click the tool menu icon, a drop-down menu offers some view and edit "
+"options."
+msgstr ""
+"கருவி பட்டியல் ஐகானைக் சொடுக்கு செய்தால், ஒரு கீழ்தோன்றும் பட்டியல் சில பார்வை மற்றும் "
+"திருத்த விருப்பங்களை வழங்குகிறது."
+
+msgid ""
+"Then comes the search bar. Type anything in it to filter displayed "
+"properties. Delete the text to clear the search."
+msgstr ""
+"பின்னர் தேடல் பட்டி வருகிறது. காட்டப்பட்ட பண்புகளை வடிகட்ட அதில் எதையும் தட்டச்சு செய்க. "
+"தேடலை அழிக்க உரையை நீக்கவும்."

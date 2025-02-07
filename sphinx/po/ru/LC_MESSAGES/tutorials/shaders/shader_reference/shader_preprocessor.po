@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -467,6 +467,3 @@ msgstr ""
 "В настоящее время она может иметь только одно значение: "
 "``disable_preprocessor``. Если вам не нужен препроцессор, используйте эту "
 "директиву, чтобы ускорить компиляцию шейдеров, исключив шаг препроцессора."
-
-msgid "Translation status"
-msgstr "Статус перевода"

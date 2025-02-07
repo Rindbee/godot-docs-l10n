@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -59,6 +59,3 @@ msgid ""
 "be assigned a navigation map manually."
 msgstr ""
 "如果直接使用 NavigationServer API 建立區域，則需要手動為其指派導覽地圖。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

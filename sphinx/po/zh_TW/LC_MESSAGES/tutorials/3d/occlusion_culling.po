@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -521,6 +521,3 @@ msgstr ""
 "作為最後的手段，您可以啟用被遮蔽者的 **忽略遮蔽剔除** 屬性。這將抵消該物件的"
 "遮蔽剔除的效能改進，但對於永遠不會被剔除的物件（例如第一人稱視圖模型）執行此"
 "操作是有意義的。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

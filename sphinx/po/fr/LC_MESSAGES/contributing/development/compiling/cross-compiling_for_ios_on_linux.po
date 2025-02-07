@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -19,6 +19,14 @@ msgstr "Avertissement"
 
 msgid "Requirements"
 msgstr "Pré-requis"
+
+msgid ""
+"`XCode with the iOS SDK <https://developer.apple.com/download/all/?"
+"q=Xcode>`__ (you must be logged into an Apple ID to download Xcode)."
+msgstr ""
+"`XCode avec le SDK iOS <https://developer.apple.com/download/all/?"
+"q=Xcode>`__ (vous devez pour vous connecter avec un compte Apple ID pour "
+"télécharger Xcode)."
 
 msgid ""
 "`cctools-port <https://github.com/tpoechtrager/cctools-port>`__ for the "
@@ -60,6 +68,13 @@ msgstr ""
 "pour vous fournir les binaires de la chaîne d'outils, vous devez donc copier "
 "dans ce sous-répertoire, comme pour les commandes suivantes :"
 
+msgid ""
+"Now you should have the iOS toolchain binaries in ``$HOME/iostoolchain/usr/"
+"bin``."
+msgstr ""
+"Maintenant vous deviez avoir les binaires de la chaîne d'outils iOS dans "
+"``$HOME/iostoolchain/usr/bin``."
+
 msgid "Compiling Godot for iPhone"
 msgstr "Compilation de Godot pour iPhone"
 
@@ -89,6 +104,3 @@ msgstr ""
 "Vous pouvez maintenant compiler pour iPhone en utilisant SCons comme la "
 "méthode standard de Godot, avec quelques arguments supplémentaires pour "
 "fournir les chemins corrects :"
-
-msgid "Translation status"
-msgstr "État de la traduction"

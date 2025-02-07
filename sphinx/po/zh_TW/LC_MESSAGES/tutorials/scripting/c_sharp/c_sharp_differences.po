@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -2026,6 +2026,3 @@ msgid ""
 msgstr ""
 "對訊號的 yield 可以使用 async/await 與 ``Godot.Object.ToSignal`` 來達到同等效"
 "果。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

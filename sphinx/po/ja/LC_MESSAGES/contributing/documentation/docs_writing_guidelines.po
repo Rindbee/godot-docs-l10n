@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Writing guidelines"
+msgstr "ドキュメント作成ガイドライン"
 
 msgid ""
 "The Godot community is rich and international. Users come from all around "
@@ -26,27 +29,30 @@ msgstr ""
 msgid "In summary, always try to:"
 msgstr "要約すると、常に次のように努めます:"
 
+msgid "Use the active voice"
+msgstr "能動態を使用する"
+
 msgid "Use precise action verbs"
 msgstr "正確なアクション動詞を使用する"
 
 msgid "Avoid verbs that end in -ing"
-msgstr "「-ing」で終わる動詞は避けてください"
+msgstr "「-ing」で終わる動詞は避ける"
 
 msgid "Remove unnecessary adverbs and adjectives."
-msgstr "不要な副詞や形容詞を削除します。"
+msgstr "不要な副詞や形容詞を削除する。"
 
 msgid ""
 "Ban these 8 words: obvious, simple, basic, easy, actual, just, clear, and "
 "however"
 msgstr ""
 "これらの8つの単語を禁止: 明白な、シンプル、基本的な、簡単、実際、ちょうど、明"
-"確、および"
+"確、しかしながら"
 
 msgid "Use explicit references"
-msgstr "明示的な参照を使用する"
+msgstr "明示的な参照を使う"
 
 msgid "Use 's to show possession"
-msgstr "「's」を使用して所有物を表示する"
+msgstr "所有を表す時は「's」を使用する"
 
 msgid "Use the Oxford comma"
 msgstr "オックスフォードコンマを使用する"
@@ -484,8 +490,8 @@ msgid ""
 "The Animation, Debugger, etc. at the bottom of the viewport are ``panels``. "
 "Together they make up the ``bottom panels``."
 msgstr ""
-"ビューポートの下部にあるアニメーション、デバッガなどは ``panels``です。彼らは"
-"一緒に ``bottom panels`` を構成します。"
+"ビューポートの下部にあるアニメーション、デバッガーなどは ``panels``です。彼ら"
+"は一緒に ``bottom panels`` を構成します。"
 
 msgid "Keyboard shortcut guidelines"
 msgstr "キーボードショートカットのガイドライン"
@@ -519,6 +525,3 @@ msgstr ""
 
 msgid "Press ``:kbd:`Shift + Up Arrow``` to move the node upwards by 8 pixels."
 msgstr "``:kbd:`Shift + 上矢印``` を押して、ノードを8ピクセル上に移動します。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

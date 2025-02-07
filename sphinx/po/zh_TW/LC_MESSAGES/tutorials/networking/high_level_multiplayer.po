@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -381,11 +381,6 @@ msgid "``mode``:"
 msgstr "``mode``:"
 
 msgid ""
-"``\"authority\"``: Only the multiplayer authority (the server) can call "
-"remotely."
-msgstr "『「authority」『：只有多人權限（伺服器）才能遠端呼叫。"
-
-msgid ""
 "``\"any_peer\"``: Clients are allowed to call remotely. Useful for "
 "transferring user input."
 msgstr "``“any_peer”``：允許客戶端遠端呼叫。對於傳輸使用者輸入很有用。"
@@ -510,6 +505,3 @@ msgstr ""
 "這個頁面上的程式碼樣本並不是為了在專用伺服器上運作而設計的. 必須修改它們, 使"
 "伺服器不被認為是一個玩家, 還必須修改遊戲啟動機制, 使第一個加入的玩家可以啟動"
 "遊戲."
-
-msgid "Translation status"
-msgstr "翻譯狀態"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,7 +28,7 @@ msgstr "Importation du projet"
 
 msgid "When using the clangd extension, run ``scons compiledb=yes``."
 msgstr ""
-"Lorsque vous utilisez l'extension glangd, lancer ``scons compiledb=yes``."
+"Lorsque vous utilisez l'extension clangd, lancer ``scons compiledb=yes``."
 
 msgid ""
 "From the Visual Studio Code's main screen open the Godot root folder with "
@@ -125,6 +125,3 @@ msgid ""
 msgstr ""
 "Si vous rencontrez des problèmes, demandez de l'aide sur l'un des `canaux "
 "communautaires de Godot <https://godotengine.org/community>`__."
-
-msgid "Translation status"
-msgstr "État de la traduction"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -216,6 +216,3 @@ msgstr ""
 "Si votre icône n'apparaît pas correctement, sous Windows 10, essayez de "
 "vider le cache des icônes. Pour ce faire, ouvrez **Run** et appelez la "
 "commande ``ie4uinit.exe -ClearIconCache`` ou ``ie4uinit.exe -show``."
-
-msgid "Translation status"
-msgstr "État de la traduction"

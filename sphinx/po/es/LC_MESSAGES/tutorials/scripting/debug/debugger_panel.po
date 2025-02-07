@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -168,6 +168,3 @@ msgid "**Clicked Control Type** tells you the type of the node you clicked is."
 msgstr ""
 "**Tipo de Nodo de Control Clicado** te indica el tipo del nodo en el que has "
 "hecho clic."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

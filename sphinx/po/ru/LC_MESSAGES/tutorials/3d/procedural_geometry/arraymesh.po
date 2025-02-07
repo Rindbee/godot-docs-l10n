@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -169,6 +169,3 @@ msgstr ""
 "<class_resourcesaver>` для сохранения ArrayMesh. Это полезно, когда вы "
 "хотите сгенерировать сетку, а затем использовать ее позже без необходимости "
 "повторной генерации."
-
-msgid "Translation status"
-msgstr "Статус перевода"

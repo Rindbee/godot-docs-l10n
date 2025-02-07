@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -345,6 +345,3 @@ msgstr ""
 "Salve o script do iniciador e coloque-o na mesma pasta do binário exportado. "
 "No Linux, certifique-se de dar permissões executáveis ao script do iniciador "
 "usando o comando ``chmod +x launch.sh``."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -75,9 +75,6 @@ msgstr "説明"
 
 msgid "in float **TIME**"
 msgstr "\\ in float **TIME**"
-
-msgid "Global time, in seconds."
-msgstr "秒単位のグローバル時間。"
 
 msgid "in float **PI**"
 msgstr "\\ in float **PI**"
@@ -189,6 +186,3 @@ msgid ""
 msgstr ""
 "発光色を出力します。光の通過中にこの発光色が追加されて最終的な色が生成されま"
 "す。使用した際はフォグボリュームにのみ書き込まれます。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

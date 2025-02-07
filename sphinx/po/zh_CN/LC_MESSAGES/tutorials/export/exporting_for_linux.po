@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,14 @@ msgstr ""
 
 msgid "Exporting for Linux"
 msgstr "为 Linux 导出"
+
+msgid ""
+"This page describes how to export a Godot project to Linux. If you're "
+"looking to compile editor or export template binaries from source instead, "
+"read :ref:`doc_compiling_for_linuxbsd`."
+msgstr ""
+"本页面描述的是如何将 Godot 项目导出到 Linux。如果你想要从源码编译编辑器或导出"
+"模板二进制文件，请移步《\\ :ref:`doc_compiling_for_linuxbsd`\\ 》。"
 
 msgid ""
 "The simplest way to distribute a game for PC is to copy the executable "
@@ -58,6 +66,3 @@ msgstr "加密 / 密钥"
 
 msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
-
-msgid "Translation status"
-msgstr "翻译状态"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -144,6 +144,3 @@ msgstr ""
 "nœud de contrôle, vous pouvez trouver la propriété **Theme Type Variation**. "
 "Elle est vide par défaut, ce qui signifie que seul le type de base a un "
 "effet sur ce nœud."
-
-msgid "Translation status"
-msgstr "État de la traduction"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -50,6 +50,27 @@ msgstr ""
 "Que ce soit une scène (un fichier ``.tscn`` ou ``.scn``), une image, un "
 "script... Voici quelques exemples de :ref:`Resource <class_Resource>` :"
 
+msgid ":ref:`Texture <class_Texture>`"
+msgstr ":ref:`Texture <class_Texture>`"
+
+msgid ":ref:`Script <class_Script>`"
+msgstr ":ref:`Script <class_Script>`"
+
+msgid ":ref:`Mesh <class_Mesh>`"
+msgstr ":ref:`Maillage <class_Mesh>`"
+
+msgid ":ref:`Animation <class_Animation>`"
+msgstr ":ref:`Animation <class_Animation>`"
+
+msgid ":ref:`AudioStream <class_AudioStream>`"
+msgstr ":ref:`AudioStream <class_AudioStream>`"
+
+msgid ":ref:`Font <class_Font>`"
+msgstr ":ref:`Police d'écriture <class_Font>`"
+
+msgid ":ref:`Translation <class_Translation>`"
+msgstr ":ref:`Traduction <class_Translation>`"
+
 msgid ""
 "When the engine loads a resource from disk, **it only loads it once**. If a "
 "copy of that resource is already in memory, trying to load the resource "
@@ -92,6 +113,13 @@ msgid ""
 msgstr ""
 "**Built-in** (intégrées), enregistrées dans le fichier ``.tscn`` ou le "
 "fichier ``.scn`` auquel elles sont attachés."
+
+msgid ""
+"To be more specific, here's a :ref:`Texture2D <class_Texture2D>` in a :ref:"
+"`Sprite2D <class_Sprite2D>` node:"
+msgstr ""
+"Pour être plus spécifique, voici une :ref:`Texture2D <class_Texture2D>` dans "
+"un nœud :ref:`Sprite2D <class_Sprite2D>` :"
 
 msgid ""
 "The path property tells us where the resource comes from. In this case, it "
@@ -321,6 +349,3 @@ msgstr ""
 "Dans l'exemple ci-dessous, Godot chargerait le script ``Nœud``, verrait "
 "qu'il n'étend pas ``Ressource``, puis déterminerait que le script n'a pas pu "
 "être chargé pour l'objet Ressource car les types sont incompatibles."
-
-msgid "Translation status"
-msgstr "État de la traduction"

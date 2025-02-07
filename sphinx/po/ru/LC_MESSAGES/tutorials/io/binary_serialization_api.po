@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -280,6 +280,9 @@ msgstr ""
 "Если установлен флаг ``ENCODE_FLAG_64`` (``flags & 1 == 1``), то float "
 "передается как 64-битное число двойной точности:"
 
+msgid "IEEE 754 double-precision float"
+msgstr "IЕEE 754 32-Битное Число с плавающей точкой"
+
 msgid "4: :ref:`String<class_string>`"
 msgstr "4: :ref:`String<class_string>`"
 
@@ -532,6 +535,3 @@ msgstr "8..16+длина\\*16"
 
 msgid "8..20+length\\*16"
 msgstr "8..20+длина\\*16"
-
-msgid "Translation status"
-msgstr "Статус перевода"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -116,6 +116,3 @@ msgid ""
 msgstr ""
 "現在可以通過與一般編譯 Godot 相同的方法來用 SCons 為 iPhone 進行編譯，但需要"
 "在一些額外的參數中提供正確路徑："
-
-msgid "Translation status"
-msgstr "翻譯狀態"

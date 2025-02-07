@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -39,11 +39,26 @@ msgstr "Spazio bianco"
 msgid "Numbers"
 msgstr "Numeri"
 
-msgid "Classes and nodes"
-msgstr "Classi e nodi"
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Example"
+msgstr "Esempio"
+
+msgid "Functions"
+msgstr "Funzioni"
+
+msgid "Variables"
+msgstr "Variabili"
 
 msgid "Signals"
 msgstr "Segnali"
+
+msgid "Constants"
+msgstr "Costanti"
+
+msgid "Classes and nodes"
+msgstr "Classi e nodi"
 
 msgid "Member variables"
 msgstr "Variabili membro"
@@ -53,13 +68,3 @@ msgstr "Variabili locali"
 
 msgid "Static typing"
 msgstr "Tipizzazione statica"
-
-msgid ""
-"Since Godot 3.1, GDScript supports :ref:`optional static "
-"typing<doc_gdscript_static_typing>`."
-msgstr ""
-"A partire da Godot 3.1, GDScript supporta :ref:`tipizzazione statica "
-"opzionale<doc_gdscript_static_typing>`."
-
-msgid "Translation status"
-msgstr "Stato della traduzione"

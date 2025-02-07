@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -145,6 +145,3 @@ msgid ""
 msgstr ""
 "為 CharacterBody3D 節點新增下面的腳本。場景完全載入後，我們確保設定移動目標，"
 "NavigationServer 有時間進行同步。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

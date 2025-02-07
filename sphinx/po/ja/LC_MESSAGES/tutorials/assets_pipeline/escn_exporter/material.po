@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -111,7 +111,4 @@ msgid ""
 msgstr ""
 "マテリアルのエクスポートのデフォルト設定は、すべてのマテリアルを ``escn`` "
 "ファイルの内部に保持します。オプションとして、 Godotで ``escn`` ファイルを開"
-"くときに使われる、外部 ``.material``ファイルの生成を指示することができます。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"
+"くときに使われる、外部 ``.material`` ファイルの生成を指示することができます。"

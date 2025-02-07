@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,8 +20,23 @@ msgstr "より速く動かす。"
 msgid "Work smarter."
 msgstr "よりスマートに動かす。"
 
+msgid "Smoke and mirrors"
+msgstr "ごまかし"
+
+msgid "The nature of slowness"
+msgstr "遅さの本質"
+
 msgid "Limitations"
 msgstr "制限事項"
+
+msgid "Detective work"
+msgstr "捜査"
+
+msgid "Binary search"
+msgstr "二分探索"
+
+msgid "Principles"
+msgstr "原則"
 
 msgid "`Donald Knuth <https://en.wikipedia.org/wiki/Donald_Knuth>`__ said:"
 msgstr "`Donald Knuth <https://en.wikipedia.org/wiki/Donald_Knuth>`__ 曰く:"
@@ -31,6 +46,3 @@ msgstr "ボトルネックを最適化します。"
 
 msgid "Return to step 1."
 msgstr "ステップ 1 に戻ります。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

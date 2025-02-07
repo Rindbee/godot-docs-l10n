@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -334,6 +334,3 @@ msgid ""
 msgstr ""
 "값이 다른 타입의 가능성이 있을 때 안전한 캐스트를 사용하고, 그렇지 않으면 직"
 "접 캐스트를 사용하세요."
-
-msgid "Translation status"
-msgstr "번역 상태"

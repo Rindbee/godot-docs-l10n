@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,63 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Breaking changes"
+msgstr "破壊的変更"
+
+msgid ""
+"If you are migrating from 4.0 to 4.1, the breaking changes listed here might "
+"affect you. Changes are grouped by areas/systems."
+msgstr ""
+"4.0から4.1へ移行する場合、ここに記載されている破壊的変更が影響する可能性があ"
+"ります。 変更点はエリア/システムごとにグループ化されています。"
+
+msgid ""
+"The GDExtension API completely breaks compatibility in 4.1, so it's not "
+"included in the table below. See the :ref:"
+"`updating_your_gdextension_for_godot_4_1` section for more information."
+msgstr ""
+"GDExtension APIは4.1では互換性が完全に失われるため、以下の表には含まれていま"
+"せん。 詳細は :ref:`updating_your_gdextension_for_godot_4_1` セクションを参照"
+"してください。"
+
+msgid ""
+"This article indicates whether each breaking change affects GDScript and "
+"whether the C# breaking change is *binary compatible* or *source compatible*:"
+msgstr ""
+"この記事では、各破壊的変更がGDScriptに影響するかどうか、またC#の破壊的変更が "
+"*バイナリ互換* なのか *ソース互換* なのかを示します:"
+
+msgid ""
+"**Binary compatible** - Existing binaries will load and execute successfully "
+"without recompilation, and the run-time behavior won't change."
+msgstr ""
+"**バイナリ互換** - 既存のバイナリは再コンパイルすることなく正常にロードされ、"
+"ランタイムの挙動は変更されません。"
+
+msgid ""
+"**Source compatible** - Source code will compile successfully without "
+"changes when upgrading Godot."
+msgstr ""
+"**ソース互換**: Godotをアップグレードしてもソースコードの変更なしでコンパイル"
+"に成功します。"
+
+msgid "C# Binary Compatible"
+msgstr "C# バイナリ互換"
+
+msgid "C# Source Compatible"
+msgstr "C# ソース互換"
+
+msgid "Method ``looking_at`` adds a new ``use_model_front`` optional parameter"
+msgstr ""
+"メソッド ``looking_at`` は新しいオプション引数``use_model_front`` を追加しま"
+"す"
+
+msgid "|✔️|"
+msgstr "|✔️|"
+
+msgid "`GH-76082`_"
+msgstr "`GH-76082`_"
 
 msgid "Animation"
 msgstr "アニメーション"
@@ -23,11 +80,14 @@ msgstr "レンダリング"
 msgid "Navigation"
 msgstr "ナビゲーション"
 
+msgid "**NavigationServer2D**"
+msgstr "**NavigationServer2D**"
+
+msgid "**NavigationServer3D**"
+msgstr "**NavigationServer3D**"
+
 msgid "Networking"
 msgstr "ネットワーク"
 
 msgid "Editor plugins"
 msgstr "エディタプラグイン"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,14 +13,6 @@ msgstr ""
 
 msgid "Using the Web editor"
 msgstr "Utilizando o editor Web"
-
-msgid ""
-"Since Godot 3.3, there is a `Web editor <https://editor.godotengine.org/>`__ "
-"you can use to work on new or existing projects."
-msgstr ""
-"Desde o Godot 3.3, existe um `Web editor <https://editor.godotengine.org/"
-">`__ que você pode utilizar para trabalhar em projetos novos ou já "
-"existentes."
 
 msgid ""
 "The web editor is in a preliminary stage. While its feature set may be "
@@ -63,6 +55,14 @@ msgstr ""
 
 msgid "**Mobile browsers are currently not supported.**"
 msgstr "**Navegadores móveis não são compatíveis no momento.**"
+
+msgid ""
+"The web editor only supports the Compatibility rendering method, as there is "
+"no stable way to run Vulkan applications on the web yet."
+msgstr ""
+"O editor web suporta apenas o método de renderização de Compatibilidade, "
+"pois ainda não há nenhuma maneira estável de executar aplicativos Vulkan na "
+"web."
 
 msgid ""
 "If you use Linux, due to `poor Firefox WebGL performance <https://bugzilla."
@@ -129,17 +129,6 @@ msgstr "Sem suporte para editores de script externos."
 
 msgid "No support for Android one-click deploy."
 msgstr "Sem suporte para implantação de um clique do Android."
-
-msgid ""
-"See the `list of open issues on GitHub related to the web editor <https://"
-"github.com/godotengine/godot/issues?"
-"q=is%3Aopen+is%3Aissue+label%3Aplatform%3Ahtml5+label%3Atopic%3Aeditor>`__ "
-"for a list of known bugs."
-msgstr ""
-"Veja a `lista de issues abertos no GitHub relacionados ao editor web "
-"<https://github.com/godotengine/godot/issues?"
-"q=is%3Aopen+is%3Aissue+label%3Aplatform%3Ahtml5+label%3Atopic%3Aeditor>`__ "
-"para uma lista de bugs conhecidos."
 
 msgid "Importing a project"
 msgstr "Importando um projeto"
@@ -242,6 +231,3 @@ msgstr ""
 "developer.mozilla.org/en-US/docs/Web/API/FileSystem>`__ para armazenar os "
 "arquivos do projeto no sistema de arquivos do usuário como o editor nativo "
 "faria. No entanto, isto ainda não foi implementado."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

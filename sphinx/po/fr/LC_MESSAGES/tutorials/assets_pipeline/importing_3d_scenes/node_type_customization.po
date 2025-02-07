@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -61,6 +61,15 @@ msgstr ""
 "ou pas assez lisse pour les collisions. Cela peut créer des glitches "
 "physiques et ralentir le moteur inutilement."
 
+msgid "Single arrow will create a :ref:`class_SeparationRayShape3D`."
+msgstr "Une flèche simple créera une :ref:`class_SeparationRayShape3D`."
+
+msgid "Cube will create a :ref:`class_BoxShape3D`."
+msgstr "Cube créera un :ref:`class_BoxShape3D`."
+
+msgid "Image will create a :ref:`class_WorldBoundaryShape3D`."
+msgstr "Image créera une :ref:`class_WorldBoundaryShape3D`."
+
 msgid ""
 "When possible, **try to use a few primitive collision shapes** instead of "
 "triangle mesh or convex shapes. Primitive shapes often have the best "
@@ -106,6 +115,3 @@ msgid ""
 msgstr ""
 "Dans Blender, cela nécessite d'utiliser l'éditeur NLA et de nommer l'Action "
 "avec le préfixe ou le suffixe ``loop`` ou ``cycle``."
-
-msgid "Translation status"
-msgstr "État de la traduction"

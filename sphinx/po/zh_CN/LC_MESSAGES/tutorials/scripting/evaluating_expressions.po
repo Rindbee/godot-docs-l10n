@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -71,12 +71,6 @@ msgid ""
 "of them is a floating-point number, returns a floating-point value."
 msgstr ""
 "两个操作数都是整数时执行整数除法。如果至少有一个是浮点数，就会返回浮点值。"
-
-msgid "Modulo (``%``)"
-msgstr "求余（\\ ``%``\\ ）"
-
-msgid "Returns the remainder of an integer division."
-msgstr "返回整数除法的余数。"
 
 msgid ""
 "Spaces around operators are optional. Also, keep in mind the usual `order of "
@@ -179,6 +173,3 @@ msgid ""
 msgstr ""
 "然而，与 GDScript 不同，参数\\ **始终是必须的**\\ ，即使类参考中说明此参数为"
 "可选。不过，为表达式绑定了基础实例时，用户定义函数的参数没有此限制。"
-
-msgid "Translation status"
-msgstr "翻译状态"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -55,6 +55,3 @@ msgstr "**Obrázek/YouTube Adresa**:"
 
 msgid "Either a link to the image, or to a video, hosted on YouTube."
 msgstr "Buď odkaz na obrázek či video, které je nahráno na YouTube."
-
-msgid "Translation status"
-msgstr "Stav překladu"

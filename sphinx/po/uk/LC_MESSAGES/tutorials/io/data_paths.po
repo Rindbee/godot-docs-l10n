@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -189,6 +189,9 @@ msgstr "Windows: ``%APPDATA%\\[project_name]``"
 msgid "macOS: ``~/Library/Application Support/[project_name]``"
 msgstr "macOS: ``~/Library/Application Support/[project_name]``"
 
+msgid "Linux: ``~/.local/share/[project_name]``"
+msgstr "Linux: ``~/.local/share/[назва_проекту]``"
+
 msgid "Custom dir and name"
 msgstr "Власний каталог і ім'я"
 
@@ -216,6 +219,17 @@ msgid ""
 msgstr ""
 "На мобільних платформах цей шлях є унікальним для проекту і недоступний "
 "іншим додаткам з міркувань безпеки."
+
+msgid ""
+"On HTML5 exports, ``user://`` will refer to a virtual filesystem stored on "
+"the device via IndexedDB. (Interaction with the main filesystem can still be "
+"performed through the :ref:`JavaScriptBridge <class_JavaScriptBridge>` "
+"singleton.)"
+msgstr ""
+"Під час експорту HTML5 ``user://`` посилатиметься на віртуальну файлову "
+"систему, що зберігається на пристрої через IndexedDB. (Взаємодія з основною "
+"файловою системою все ще може здійснюватися через :ref:`JavaScriptBridge "
+"<class_JavaScriptBridge>` singleton.)"
 
 msgid "Converting paths to absolute paths or \"local\" paths"
 msgstr "Перетворення шляхів на абсолютні або \"локальні\" шляхи"
@@ -264,11 +278,32 @@ msgstr ""
 msgid "Editor data"
 msgstr "Дані редактора"
 
+msgid "Windows: ``%APPDATA%\\Godot\\``"
+msgstr "Windows: ``%APPDATA%\\Godot\\``"
+
+msgid "macOS: ``~/Library/Application Support/Godot/``"
+msgstr "macOS: ``~/Library/Application Support/Godot/``"
+
+msgid "Linux: ``~/.local/share/godot/``"
+msgstr "Linux: ``~/.local/share/godot/``"
+
 msgid "Editor settings"
 msgstr "Параметри редактора"
 
+msgid "Linux: ``~/.config/godot/``"
+msgstr "Linux: ``~/.config/godot/``"
+
 msgid "Cache"
 msgstr "Кеш"
+
+msgid "Windows: ``%TEMP%\\Godot\\``"
+msgstr "Windows: ``%TEMP%\\Godot\\``"
+
+msgid "macOS: ``~/Library/Caches/Godot/``"
+msgstr "macOS: ``~/Library/Caches/Godot/``"
+
+msgid "Linux: ``~/.cache/godot/``"
+msgstr "Linux: ``~/.cache/godot/``"
 
 msgid "**Editor data** contains export templates and project-specific data."
 msgstr ""
@@ -291,22 +326,11 @@ msgstr ""
 "можна безпечно очистити, коли Godot закритий."
 
 msgid ""
-"Godot complies with the `XDG Base Directory Specification <https://"
-"specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html>`__ on "
-"all platforms. You can override environment variables following the "
-"specification to change the editor and project data paths."
-msgstr ""
-"Godot відповідає `специфікації базового каталогу XDG<https://specifications."
-"freedesktop.org/basedir-spec/basedir-spec-latest.html>`__ на всіх "
-"платформах. Ви можете перевизначити змінні середовища після специфікації, "
-"щоб змінити шляхи даних редактора і проекту."
-
-msgid ""
 "If you use `Godot packaged as a Flatpak <https://flathub.org/apps/details/"
 "org.godotengine.Godot>`__, the editor data paths will be located in "
 "subfolders in ``~/.var/app/org.godotengine.Godot/``."
 msgstr ""
-"Якщо ви використовуєте `Godot, упакований як Flatpak<https://flathub.org/"
+"Якщо ви використовуєте `Godot, упакований як Flatpak <https://flathub.org/"
 "apps/details/org.godotengine.Godot>`__, шляхи даних редактора будуть "
 "розташовані в вкладених папках у ``~/.var/app/org.godotengine.Godot/``."
 
@@ -350,6 +374,3 @@ msgstr ""
 "виконуваний файл розміщений в придатному для запису місці (тобто **не** "
 "Program Files або іншому каталозі, який доступний лише для читання для "
 "звичайних користувачів)."
-
-msgid "Translation status"
-msgstr "Стан перекладу"

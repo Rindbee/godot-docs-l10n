@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -189,6 +189,3 @@ msgstr ""
 "**Remove Class Items**\\ 将删除你为一个控制节点类型定制的所有内置主题项"
 "目。\\ **Remove Custom Items**\\ 将删除所选类型的所有自定义主题项"
 "目。\\**Remove All Items**\\ 将删除该类型的所有项目。"
-
-msgid "Translation status"
-msgstr "翻译状态"

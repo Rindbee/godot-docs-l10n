@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -413,6 +413,3 @@ msgid ""
 msgstr ""
 "下方的例子裡，Godot 會載入 ``Node`` 腳本，並確認其是否繼承了 ``Resource`` ，"
 "然後判斷在 Resource 物件上載入腳本失敗，因其型別並不相容。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

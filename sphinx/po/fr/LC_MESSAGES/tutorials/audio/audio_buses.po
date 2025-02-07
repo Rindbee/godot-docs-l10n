@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -240,6 +240,3 @@ msgstr ""
 "La disposition de bus par défaut est automatiquement enregistrée dans le "
 "fichier ``res:///default_bus_layout.tres``. Les arrangements de bus "
 "personnalisés peuvent être sauvegardés et chargés à partir du disque."
-
-msgid "Translation status"
-msgstr "État de la traduction"

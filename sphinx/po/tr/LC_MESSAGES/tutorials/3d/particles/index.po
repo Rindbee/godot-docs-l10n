@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Particle systems (3D)"
+msgstr "Parçacık sistemleri (3B)"
+
 msgid "Introduction"
 msgstr "Giriş"
 
 msgid "Particles"
-msgstr "Parçacıklar"
+msgstr "Particles"
 
-msgid "Translation status"
-msgstr "Çeviri durumu"
+msgid "Emitters"
+msgstr "Yayıcılar"
+
+msgid "Node overview"
+msgstr "Düğüme genel bakış"
+
+msgid "Advanced topics"
+msgstr "İleri düzey konular"

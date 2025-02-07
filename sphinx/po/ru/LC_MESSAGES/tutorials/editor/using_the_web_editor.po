@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,13 +13,6 @@ msgstr ""
 
 msgid "Using the Web editor"
 msgstr "Использование веб-редактора"
-
-msgid ""
-"Since Godot 3.3, there is a `Web editor <https://editor.godotengine.org/>`__ "
-"you can use to work on new or existing projects."
-msgstr ""
-"Начиная с Godot 3.3, есть «редактор Веб <https://editor.godotengine.org/>`__ "
-"Вы можете использовать для работы над новыми или существующими проектами."
 
 msgid ""
 "The web editor is in a preliminary stage. While its feature set may be "
@@ -93,6 +86,9 @@ msgstr ""
 msgid "No C#/Mono support."
 msgstr "C#/Mono не поддерживается."
 
+msgid "No GDExtension support."
+msgstr "Нет поддержки GDExtension."
+
 msgid ""
 "No debugging support. This means GDScript debugging/profiling, live scene "
 "editing, the Remote Scene tree dock and other features that rely on the "
@@ -139,17 +135,6 @@ msgstr "Внешние редакторы сценариев не поддерж
 msgid "No support for Android one-click deploy."
 msgstr "Развёртывание в один клик для Android не поддерживается."
 
-msgid ""
-"See the `list of open issues on GitHub related to the web editor <https://"
-"github.com/godotengine/godot/issues?"
-"q=is%3Aopen+is%3Aissue+label%3Aplatform%3Ahtml5+label%3Atopic%3Aeditor>`__ "
-"for a list of known bugs."
-msgstr ""
-"Посмотрите `список нерешенных проблем на GitHub связанных с веб-редактором "
-"<https://github.com/godotengine/godot/issues?"
-"q=is%3Aopen+is%3Aissue+label%3Aplatform%3Ahtml5+label%3Atopic%3Aeditor>`__ "
-"для получения списка известных ошибок."
-
 msgid "Importing a project"
 msgstr "Импортирование проекта"
 
@@ -164,6 +149,15 @@ msgid ""
 msgstr ""
 "Укажите файл ZIP для предварительной загрузки в файловую систему HTML5 с "
 "помощью ввода **Предварительная загрузка ZIP проекта**."
+
+msgid ""
+"Run the editor by clicking **Start Godot editor**. The Godot Project Manager "
+"should appear after 10-20 seconds. On slower machines or connections, "
+"loading may take up to a minute."
+msgstr ""
+"Запустите редактор, нажав **Запустить редактор Godot**. Менеджер проектов "
+"Godot должен появиться через 10-20 секунд. На более медленных машинах или "
+"подключениях загрузка может занять до минуты."
 
 msgid ""
 "In the dialog that appears at the middle of the window, specify a name for "
@@ -252,6 +246,3 @@ msgstr ""
 "developer.mozilla.org/en-US/docs/Web/API/FileSystem>`__ для хранения файлов "
 "проекта в файловой системе пользователя как это делал бы родной редактор. "
 "Однако это еще не реализовано."
-
-msgid "Translation status"
-msgstr "Статус перевода"

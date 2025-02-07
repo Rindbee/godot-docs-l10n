@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -74,15 +74,8 @@ msgstr ""
 "次に、ページのダウンロードリンクからソースをダウンロードして抽出できます。"
 
 msgid ""
-"There are also generally branches besides ``master`` for each major version."
-msgstr "通常、各メジャーバージョンには ``master`` 以外のブランチもあります。"
-
-msgid ""
 "After downloading the Godot source code, you can :ref:`continue to compiling "
 "Godot <doc_introduction_to_the_buildsystem>`."
 msgstr ""
 "Godot のソース コードをダウンロードした後、\\ :ref:`Godotのコンパイルを続行で"
 "きます <doc_introduction_to_the_buildsystem>`\\ 。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

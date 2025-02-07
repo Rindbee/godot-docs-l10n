@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,16 @@ msgstr ""
 
 msgid "Signal"
 msgstr "Sygnał"
+
+msgid ""
+"As mentioned in the introduction, signals are Godot's version of the "
+"observer pattern. You can learn more about it in `Game Programming Patterns "
+"<https://gameprogrammingpatterns.com/observer.html>`__."
+msgstr ""
+"Jak wspomniane w wprowadzeniu, sygnały to Godotowa wersja wzorca "
+"projektowego obserwator. O wzorcu projektowym \"obserwator\", możesz "
+"przeczytać więcej tutaj: `Game Programming Patterns <https://"
+"gameprogrammingpatterns.com/observer.html>`__."
 
 msgid "For this project, we will be following the Godot naming conventions."
 msgstr ""
@@ -56,6 +66,3 @@ msgstr ""
 
 msgid "Summary"
 msgstr "Podsumowanie"
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

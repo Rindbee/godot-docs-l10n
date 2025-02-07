@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -226,6 +226,11 @@ msgid ""
 msgstr ""
 "这一行的意思是，当小怪发出 ``squashed`` 信号时，\\ ``ScoreLabel`` 节点就会接"
 "收到并调用 ``_on_mob_squashed()`` 函数。"
+
+msgid ""
+"Head back to the ``score_label.gd`` script to define the "
+"``_on_mob_squashed()`` callback function."
+msgstr "回到 ``score_label.gd`` 脚本，定义回调函数 ``_on_mob_squashed()``\\ 。"
 
 msgid "There, we increment the score and update the displayed text."
 msgstr "这里我们将进行加分并更新显示的文本。"
@@ -487,18 +492,30 @@ msgstr "|image17|"
 msgid "image17"
 msgstr "image17"
 
+msgid "Save the scene as ``music_player.tscn``."
+msgstr "将这个场景保存为 ``music_player.tscn``\\ 。"
+
 msgid ""
-"We have to register it as an autoload. Head to the *Project -> Project "
-"Settings…* menu and click on the *Autoload* tab."
+"In the *Path* field, you want to enter the path to your scene. Click the "
+"folder icon to open the file browser and double-click on ``music_player."
+"tscn``. Then, click the *Add* button on the right to register the node."
 msgstr ""
-"我们需要将其注册为自动加载。前往菜单\\ *项目 -> 项目设置...*\\ ，然后单击\\ *"
-"自动加载*\\ 选项卡。"
+"*路径*\\ 输入框中需要输入场景的路径。单击文件夹图标打开文件浏览器，然后双击 "
+"``music_player.tscn``\\ 。接下来，单击右侧的\\ *添加*\\ 按钮，将该节点进行注"
+"册。"
 
 msgid "|image18|"
 msgstr "|image18|"
 
 msgid "image18"
 msgstr "image18"
+
+msgid ""
+"``music_player.tscn`` now loads into any scene you open or play. So if you "
+"run the game now, the music will play automatically in any scene."
+msgstr ""
+"``music_player.tscn`` 现在会被加载到任何你打开或播放的场景中。 因此，如果你现"
+"在运行游戏，音乐将在任何场景中自动播放。"
 
 msgid ""
 "Before we wrap up this lesson, here's a quick look at how it works under the "
@@ -541,6 +558,3 @@ msgstr "这一节课就是这样。在下一部分，我们会添加动画，让
 
 msgid "Here is the complete ``main.gd`` script for reference."
 msgstr "这是完整的 ``main.gd`` 脚本，仅供参考。"
-
-msgid "Translation status"
-msgstr "翻译状态"

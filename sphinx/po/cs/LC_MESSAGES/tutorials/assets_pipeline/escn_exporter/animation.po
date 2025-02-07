@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -136,6 +136,3 @@ msgstr ""
 "schopen generovat méně AnimationPlayerů; objekty ve vztahu rodič-dítě budou "
 "sdílet svůj AnimationPlayer. To je užitečné, pokud máte několik rigů a každý "
 "Skeleton a Mesh má akce; pak by jeden rig měl právě jeden AnimationPlayer."
-
-msgid "Translation status"
-msgstr "Stav překladu"

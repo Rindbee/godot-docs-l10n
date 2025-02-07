@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -350,6 +350,9 @@ msgstr "uk"
 msgid "Ukrainian"
 msgstr "ukraiński"
 
+msgid "Unami"
+msgstr "Unami"
+
 msgid "ur"
 msgstr "ur"
 
@@ -376,6 +379,3 @@ msgstr "chiński"
 
 msgid "Java"
 msgstr "Java"
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

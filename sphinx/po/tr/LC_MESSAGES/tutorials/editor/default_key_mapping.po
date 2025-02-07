@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,26 +12,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "cheatsheet, cheat sheet, shortcut"
-msgstr "hilekodları, hile kodları, kısa yollar"
+msgstr "hilekağıdı, hile kağıdı, kısayol"
 
 msgid "Default editor shortcuts"
 msgstr "Varsayılan düzenleyici kısayolları"
-
-msgid ""
-"Many of Godot Editor functions can be executed with keyboard shortcuts. This "
-"page lists functions which have associated shortcuts by default, but many "
-"others are available for customization in editor settings as well. To change "
-"keys associated with these and other actions navigate to ``Editor -> Editor "
-"Settings -> Shortcuts``."
-msgstr ""
-"Godot Düzenleyici fonksiyonlarının pek çoğu, klavye kısa yolları ile "
-"çalıştırılabilir. Bu sayfa, varsayılan olarak kısayol atanmış fonksiyonları "
-"listeler, ama bunlardan çok daha fazlasını da düzenleyicinin ayarlarından "
-"kişiselleştirmek mümkündür. Hem burada verilen atanmış tuşları hem de "
-"diğerlerini değiştirmek için ``Düzenleyici-> Düzenleyici Ayarları -> "
-"Kısayollar`` kısmına gidin. (Num: Sayısal Tuş Takımı, Shift: Üst Karakter "
-"Tuşu, Tab: Sekme Tuşu, Del: Silme Tuşu, BkSp: Geri Silme Tuşu, Ins: Insert/"
-"Araya Ekleme Tuşu, PgDown/PgUp: Sayfa Aşağı/Yukarı Tuşları."
 
 msgid ""
 "While some actions are universal, a lot of shortcuts are specific to "
@@ -58,9 +42,6 @@ msgstr ""
 "kullanıcılar, Godot Düzenleyicinin varsayılan tuş haritalamasını oldukça "
 "sezgisel bulacaktır."
 
-msgid "General Editor Actions"
-msgstr "Genel Düzenleyici Eylemleri"
-
 msgid "Action name"
 msgstr "Eylem ismi"
 
@@ -79,6 +60,9 @@ msgstr "2B Düzenleyiciyi Aç"
 msgid ":kbd:`Ctrl + F1`"
 msgstr ":kbd:`Ctrl + F1`"
 
+msgid ":kbd:`Opt + 1`"
+msgstr ":kbd:`Opt + 1`"
+
 msgid "``editor/editor_2d``"
 msgstr "``editor/editor_2d``"
 
@@ -87,6 +71,9 @@ msgstr "3B Düzenleyiciyi Aç"
 
 msgid ":kbd:`Ctrl + F2`"
 msgstr ":kbd:`Ctrl + F2`"
+
+msgid ":kbd:`Opt + 2`"
+msgstr ":kbd:`Opt + 2`"
 
 msgid "``editor/editor_3d``"
 msgstr "``editor/editor_3d``"
@@ -97,6 +84,9 @@ msgstr "Betik Düzenleyiciyi Aç"
 msgid ":kbd:`Ctrl + F3`"
 msgstr ":kbd:`Ctrl + F3`"
 
+msgid ":kbd:`Opt + 3`"
+msgstr ":kbd:`Opt + 3`"
+
 msgid "``editor/editor_script``"
 msgstr "``editor/editor_script``"
 
@@ -105,6 +95,9 @@ msgstr "Yardımda Ara"
 
 msgid ":kbd:`F1`"
 msgstr ":kbd:`F1`"
+
+msgid ":kbd:`Opt + Space`"
+msgstr ":kbd:`Opt + Boşluk`"
 
 msgid "``editor/editor_help``"
 msgstr "``editor/editor_help``"
@@ -150,6 +143,9 @@ msgstr "Dosyaları Filtrele"
 
 msgid ":kbd:`Ctrl + Alt + P`"
 msgstr ":kbd:`Ctrl + Alt + P`"
+
+msgid ":kbd:`Opt + Cmd + P`"
+msgstr ":kbd:`Opt + Cmd + P`"
 
 msgid "``editor/filter_files``"
 msgstr "``editor/filter_files``"
@@ -220,6 +216,9 @@ msgstr "Tüm Sahneleri Kaydet"
 msgid ":kbd:`Ctrl + Shift + Alt + S`"
 msgstr ":kbd:`Ctrl + Shift + Alt + S`"
 
+msgid ":kbd:`Cmd + Shift + Opt + S`"
+msgstr ":kbd:`Cmd + Shift + Opt + S`"
+
 msgid "``editor/save_all_scenes``"
 msgstr "``editor/save_all_scenes``"
 
@@ -228,6 +227,9 @@ msgstr "Hızlı Aç"
 
 msgid ":kbd:`Shift + Alt + O`"
 msgstr ":kbd:`Shift + Alt + O`"
+
+msgid ":kbd:`Shift + Opt + O`"
+msgstr ":kbd:`Shift + Opt + O`"
 
 msgid "``editor/quick_open``"
 msgstr "``editor/quick_open``"
@@ -249,6 +251,9 @@ msgstr "Betiği Hızlı Aç"
 
 msgid ":kbd:`Ctrl + Alt + O`"
 msgstr ":kbd:`Ctrl + Alt + O`"
+
+msgid ":kbd:`Opt + Cmd + O`"
+msgstr ":kbd:`Opt + Cmd + O`"
 
 msgid "``editor/quick_open_script``"
 msgstr "``editor/quick_open_script``"
@@ -294,6 +299,9 @@ msgstr "Proje Listesine Çık"
 
 msgid ":kbd:`Ctrl + Shift + Q`"
 msgstr ":kbd:`Ctrl + Shift + Q`"
+
+msgid ":kbd:`Shift + Opt + Q`"
+msgstr ":kbd:`Shift + Opt + Q`"
 
 msgid "``editor/quit_to_project_list``"
 msgstr "``editor/quit_to_project_list``"
@@ -391,8 +399,14 @@ msgstr ":kbd:`Shift + F12`"
 msgid "``editor/bottom_panel_expand``"
 msgstr "``editor/bottom_panel_expand``"
 
-msgid "2D / Canvas Item Editor"
-msgstr "2B / Kanvas Öğe Düzenleyici"
+msgid ":kbd:`Ctrl + Shift + P`"
+msgstr ":kbd:`Ctrl + Shift + P`"
+
+msgid ":kbd:`Cmd + Shift + P`"
+msgstr ":kbd:`Cmd + Shift + P`"
+
+msgid ":kbd:`Alt + F`"
+msgstr ":kbd:`Alt + F`"
 
 msgid "Zoom In"
 msgstr "Yakınlaştır"
@@ -568,12 +582,6 @@ msgstr "``canvas_item_editor/frame_selection``"
 msgid "Preview Canvas Scale"
 msgstr "Kanvas Ölçeğini Önizle"
 
-msgid ":kbd:`Ctrl + Shift + P`"
-msgstr ":kbd:`Ctrl + Shift + P`"
-
-msgid ":kbd:`Cmd + Shift + P`"
-msgstr ":kbd:`Cmd + Shift + P`"
-
 msgid "``canvas_item_editor/preview_canvas_scale``"
 msgstr "``canvas_item_editor/preview_canvas_scale``"
 
@@ -618,9 +626,6 @@ msgstr ":kbd:`Shift + K`"
 
 msgid "``canvas_item_editor/anim_clear_pose``"
 msgstr "``canvas_item_editor/anim_clear_pose``"
-
-msgid "3D / Spatial Editor"
-msgstr "3B / Uzaysal Düzenleyici"
 
 msgid "Toggle Freelook"
 msgstr "Serbest Bakışı Aç/Kapat"
@@ -685,6 +690,9 @@ msgstr "Serbest Bakış Yavaş Değiştirici"
 msgid ":kbd:`Alt`"
 msgstr ":kbd:`Alt`"
 
+msgid ":kbd:`Opt`"
+msgstr ":kbd:`Opt`"
+
 msgid "``spatial_editor/freelook_slow_modifier``"
 msgstr "``spatial_editor/freelook_slow_modifier``"
 
@@ -739,6 +747,9 @@ msgstr "Alttan Görünüm"
 msgid ":kbd:`Alt + Num 7`"
 msgstr ":kbd:`Alt + Num 7`"
 
+msgid ":kbd:`Opt + Num 7`"
+msgstr ":kbd:`Opt + Num 7`"
+
 msgid "``spatial_editor/bottom_view``"
 msgstr "``spatial_editor/bottom_view``"
 
@@ -756,6 +767,9 @@ msgstr "Arkadan Görünüm"
 
 msgid ":kbd:`Alt + Num 1`"
 msgstr ":kbd:`Alt + Num 1`"
+
+msgid ":kbd:`Opt + Num 1`"
+msgstr ":kbd:`Opt + Num 1`"
 
 msgid "``spatial_editor/rear_view``"
 msgstr "``spatial_editor/rear_view``"
@@ -775,6 +789,9 @@ msgstr "Soldan Görünüm"
 msgid ":kbd:`Alt + Num 3`"
 msgstr ":kbd:`Alt + Num 3`"
 
+msgid ":kbd:`Opt + Num 3`"
+msgstr ":kbd:`Alt + Num 3`"
+
 msgid "``spatial_editor/left_view``"
 msgstr "``spatial_editor/left_view``"
 
@@ -788,7 +805,7 @@ msgid "``spatial_editor/switch_perspective_orthogonal``"
 msgstr "``spatial_editor/switch_perspective_orthogonal``"
 
 msgid "Insert Animation Key"
-msgstr "Animasyon Anahtarı Ekle"
+msgstr "Canlandırma Anahtarı Ekle"
 
 msgid ":kbd:`K`"
 msgstr ":kbd:`K`"
@@ -817,6 +834,9 @@ msgstr "Dönüştürmeyi Görünüme Hizala"
 msgid ":kbd:`Ctrl + Alt + M`"
 msgstr ":kbd:`Ctrl + Alt + M`"
 
+msgid ":kbd:`Opt + Cmd + M`"
+msgstr ":kbd:`Alt + Cmd + M`"
+
 msgid "``spatial_editor/align_transform_with_view``"
 msgstr "``spatial_editor/align_transform_with_view``"
 
@@ -825,6 +845,9 @@ msgstr "Dönmeyi Görünüme Hizala"
 
 msgid ":kbd:`Ctrl + Alt + F`"
 msgstr ":kbd:`Ctrl + Alt + F`"
+
+msgid ":kbd:`Opt + Cmd + F`"
+msgstr ":kbd:`Alt + Cmd + F`"
 
 msgid "``spatial_editor/align_rotation_with_view``"
 msgstr "``spatial_editor/align_rotation_with_view``"
@@ -859,6 +882,9 @@ msgstr "2 Çerçeve (diğer)"
 msgid ":kbd:`Ctrl + Alt + 2`"
 msgstr ":kbd:`Ctrl + Alt + 2`"
 
+msgid ":kbd:`Opt + Cmd + 2`"
+msgstr ":kbd:`Alt + Cmd + 2`"
+
 msgid "``spatial_editor/2_viewports_alt``"
 msgstr "``spatial_editor/2_viewports_alt``"
 
@@ -880,6 +906,9 @@ msgstr "3 Çerçeve (diğer)"
 msgid ":kbd:`Ctrl + Alt + 3`"
 msgstr ":kbd:`Ctrl + Alt + 3`"
 
+msgid ":kbd:`Opt + Cmd + 3`"
+msgstr ":kbd:`Opt + Cmd + 3`"
+
 msgid "``spatial_editor/3_viewports_alt``"
 msgstr "``spatial_editor/3_viewports_alt``"
 
@@ -894,9 +923,6 @@ msgstr ":kbd:`Cmd + 4`"
 
 msgid "``spatial_editor/4_viewports``"
 msgstr "``spatial_editor/4_viewports``"
-
-msgid "Text Editor"
-msgstr "Metin Düzenleyici"
 
 msgid "Cut"
 msgstr "Kes"
@@ -1030,6 +1056,9 @@ msgstr "Yukarı Taşı"
 msgid ":kbd:`Alt + Up Arrow`"
 msgstr ":kbd:`Alt + Yukarı Ok`"
 
+msgid ":kbd:`Opt + Up Arrow`"
+msgstr ":kbd:`Opt + Yukarı Ok`"
+
 msgid "``script_text_editor/move_up``"
 msgstr "``script_text_editor/move_up``"
 
@@ -1038,6 +1067,9 @@ msgstr "Aşağı Taşı"
 
 msgid ":kbd:`Alt + Down Arrow`"
 msgstr ":kbd:`Alt + Aşağı Ok`"
+
+msgid ":kbd:`Opt + Down Arrow`"
+msgstr ":kbd:`Opt + Aşağı Ok`"
 
 msgid "``script_text_editor/move_down``"
 msgstr "``script_text_editor/move_down``"
@@ -1069,8 +1101,8 @@ msgstr "``script_text_editor/toggle_comment``"
 msgid "Fold/Unfold Line"
 msgstr "Satırı Katla/Aç"
 
-msgid ":kbd:`Alt + F`"
-msgstr ":kbd:`Alt + F`"
+msgid ":kbd:`Ctrl + Cmd + F`"
+msgstr ":kbd:`Ctrl + Cmd + F`"
 
 msgid "``script_text_editor/toggle_fold_line``"
 msgstr "``script_text_editor/toggle_fold_line``"
@@ -1083,6 +1115,9 @@ msgstr ":kbd:`Ctrl + Shift + D`"
 
 msgid ":kbd:`Cmd + Shift + C`"
 msgstr ":kbd:`Cmd + Shift + C`"
+
+msgid "``script_text_editor/duplicate_selection``"
+msgstr "``script_text_editor/duplicate_selection``"
 
 msgid "Complete Symbol"
 msgstr "Sembolü Tamamla"
@@ -1110,6 +1145,9 @@ msgstr "Sondaki Beyaz boşlukları Kırp"
 
 msgid ":kbd:`Ctrl + Alt + T`"
 msgstr ":kbd:`Ctrl + Alt + T`"
+
+msgid ":kbd:`Opt + Cmd + T`"
+msgstr ":kbd:`Opt + Cmd + T`"
 
 msgid "``script_text_editor/trim_trailing_whitespace``"
 msgstr "``script_text_editor/trim_trailing_whitespace``"
@@ -1182,6 +1220,9 @@ msgstr "Yer imlerini Aç / Kapat"
 
 msgid ":kbd:`Ctrl + Alt + B`"
 msgstr ":kbd:`Ctrl + Alt + B`"
+
+msgid ":kbd:`Opt + Cmd + B`"
+msgstr ":kbd:`Opt + Cmd + B`"
 
 msgid "``script_text_editor/toggle_bookmark``"
 msgstr "``script_text_editor/toggle_bookmark``"
@@ -1270,11 +1311,11 @@ msgstr "Bağlamsal Yardım"
 msgid ":kbd:`Alt + F1`"
 msgstr ":kbd:`Alt + F1`"
 
+msgid ":kbd:`Opt + Shift + Space`"
+msgstr ":kbd:`Opt + Shift + Boşluk`"
+
 msgid "``script_text_editor/contextual_help``"
 msgstr "``script_text_editor/contextual_help``"
-
-msgid "Script Editor"
-msgstr "Betik Düzenleyici"
 
 msgid "``script_editor/find``"
 msgstr "``script_editor/find``"
@@ -1291,11 +1332,17 @@ msgstr "``script_editor/find_in_files``"
 msgid ":kbd:`Shift + Alt + Up Arrow`"
 msgstr ":kbd:`Shift + Alt + Yukarı Ok`"
 
+msgid ":kbd:`Shift + Opt + Up Arrow`"
+msgstr ":kbd:`Shift + Opt + Yukarı Ok`"
+
 msgid "``script_editor/window_move_up``"
 msgstr "``script_editor/window_move_up``"
 
 msgid ":kbd:`Shift + Alt + Down Arrow`"
 msgstr ":kbd:`Shift + Alt + Aşağı Ok`"
+
+msgid ":kbd:`Shift + Opt + Down Arrow`"
+msgstr ":kbd:`Shift + Opt + Aşağı Ok`"
 
 msgid "``script_editor/window_move_down``"
 msgstr "``script_editor/window_move_down``"
@@ -1336,6 +1383,9 @@ msgstr "Kaydet"
 msgid ":kbd:`Ctrl + Alt + S`"
 msgstr ":kbd:`Ctrl + Alt + S`"
 
+msgid ":kbd:`Opt + Cmd + S`"
+msgstr ":kbd:`Opt + Cmd + S`"
+
 msgid "``script_editor/save``"
 msgstr "``script_editor/save``"
 
@@ -1357,6 +1407,9 @@ msgstr "Geçmiş Önceki"
 msgid ":kbd:`Alt + Left Arrow`"
 msgstr ":kbd:`Alt + Sol Ok`"
 
+msgid ":kbd:`Opt + Left Arrow`"
+msgstr ":kbd:`Opt + Sol Ok`"
+
 msgid "``script_editor/history_previous``"
 msgstr "``script_editor/history_previous``"
 
@@ -1365,6 +1418,9 @@ msgstr "Geçmiş Sonraki"
 
 msgid ":kbd:`Alt + Right Arrow`"
 msgstr ":kbd:`Alt + Sağ Ok`"
+
+msgid ":kbd:`Opt + Right Arrow`"
+msgstr ":kbd:`Opt + Sağ Ok`"
 
 msgid "``script_editor/history_next``"
 msgstr "``script_editor/history_next``"
@@ -1417,9 +1473,6 @@ msgstr "Yakınlaştırmayı Sıfırla"
 msgid "``script_editor/reset_zoom``"
 msgstr "``script_editor/reset_zoom``"
 
-msgid "Editor Output"
-msgstr "Düzenleyici Çıktısı"
-
 msgid "Copy Selection"
 msgstr "Seçimi Kopyala"
 
@@ -1462,9 +1515,6 @@ msgstr ":kbd:`F12`"
 msgid "``debugger/continue``"
 msgstr "``debugger/continue``"
 
-msgid "File Dialog"
-msgstr "Dosya İleti Penceresi"
-
 msgid "Go Back"
 msgstr "Geri Git"
 
@@ -1504,6 +1554,9 @@ msgstr "``file_dialog/toggle_hidden_files``"
 msgid "Toggle Favorite"
 msgstr "Sık Kullanılanları Aç/Kapat"
 
+msgid ":kbd:`Opt + F`"
+msgstr ":kbd:`Opt + F`"
+
 msgid "``file_dialog/toggle_favorite``"
 msgstr "``file_dialog/toggle_favorite``"
 
@@ -1512,6 +1565,9 @@ msgstr "Kip Değiştir"
 
 msgid ":kbd:`Alt + V`"
 msgstr ":kbd:`Alt + V`"
+
+msgid ":kbd:`Opt + V`"
+msgstr ":kbd:`Opt + V`"
 
 msgid "``file_dialog/toggle_mode``"
 msgstr "``file_dialog/toggle_mode``"
@@ -1543,12 +1599,6 @@ msgstr "``file_dialog/delete``"
 msgid "Focus Path"
 msgstr "Yolu Odakla"
 
-msgid ":kbd:`Ctrl + D`"
-msgstr ":kbd:`Ctrl + D`"
-
-msgid ":kbd:`Cmd + D`"
-msgstr ":kbd:`Cmd + D`"
-
 msgid "``file_dialog/focus_path``"
 msgstr "``file_dialog/focus_path``"
 
@@ -1576,9 +1626,6 @@ msgstr ":kbd:`Cmd + Aşağı Ok`"
 msgid "``file_dialog/move_favorite_down``"
 msgstr "``file_dialog/move_favorite_down``"
 
-msgid "FileSystem Dock"
-msgstr "DosyaSistemi Yuvası"
-
 msgid "Copy Path"
 msgstr "Yolu Kopyala"
 
@@ -1588,17 +1635,20 @@ msgstr "``filesystem_dock/copy_path``"
 msgid "Duplicate"
 msgstr "Kopyasını Oluştur"
 
+msgid ":kbd:`Ctrl + D`"
+msgstr ":kbd:`Ctrl + D`"
+
+msgid ":kbd:`Cmd + D`"
+msgstr ":kbd:`Cmd + D`"
+
 msgid "``filesystem_dock/duplicate``"
 msgstr "``filesystem_dock/duplicate``"
 
 msgid "``filesystem_dock/delete``"
 msgstr "``filesystem_dock/delete``"
 
-msgid "Scene Tree Dock"
-msgstr "Sahne Ağacı Yuvası"
-
 msgid "Add Child Node"
-msgstr "Alt-öğe Düğümü Ekle"
+msgstr "Alt-öge Düğümü Ekle"
 
 msgid "``scene_tree/add_child_node``"
 msgstr "``scene_tree/add_child_node``"
@@ -1614,6 +1664,12 @@ msgstr "``scene_tree/batch_rename``"
 
 msgid "Copy Node Path"
 msgstr "Düğüm Yolunu Kopyala"
+
+msgid ":kbd:`Ctrl + Shift + C`"
+msgstr ":kbd:`Ctrl + Shift + C`"
+
+msgid ":kbd:`Cmd + Shift +  C`"
+msgstr ":kbd:`Cmd + Shift + C`"
 
 msgid "``scene_tree/copy_node_path``"
 msgstr "``scene_tree/copy_node_path``"
@@ -1638,9 +1694,6 @@ msgstr "``scene_tree/move_up``"
 
 msgid "``scene_tree/move_down``"
 msgstr "``scene_tree/move_down``"
-
-msgid "Animation Track Editor"
-msgstr "Animasyon İzi Düzenleyicisi"
 
 msgid "``animation_editor/duplicate_selection``"
 msgstr "``animation_editor/duplicate_selection``"
@@ -1684,23 +1737,101 @@ msgstr ":kbd:`Cmd + Sol Ok`"
 msgid "``animation_editor/goto_prev_step``"
 msgstr "``animation_editor/goto_prev_step``"
 
-msgid "Tile Map Editor"
-msgstr "Karo Haritası Düzenleyici"
-
 msgid "Select"
 msgstr "Seç"
+
+msgid "``tiles_editor/selection_tool``"
+msgstr "``tiles_editor/selection_tool``"
 
 msgid "Cut Selection"
 msgstr "Seçimi Kes"
 
+msgid "``tiles_editor/cut``"
+msgstr "``tiles_editor/cut``"
+
+msgid "``tiles_editor/copy``"
+msgstr "``tiles_editor/copy``"
+
+msgid "Paste Selection"
+msgstr "Seçim Yapıştır"
+
+msgid "``tiles_editor/paste``"
+msgstr "``tiles_editor/paste``"
+
+msgid "``tiles_editor/delete``"
+msgstr "``tiles_editor/delete``"
+
+msgid "Cancel"
+msgstr "İptal"
+
+msgid ":kbd:`Esc`"
+msgstr ":kbd:`Esc`"
+
+msgid "``tiles_editor/cancel``"
+msgstr "``tiles_editor/cancel``"
+
+msgid "Paint"
+msgstr "Boya"
+
+msgid "``tiles_editor/paint_tool``"
+msgstr "``tiles_editor/paint_tool``"
+
+msgid "Line"
+msgstr "Çizgi"
+
+msgid ":kbd:`L`"
+msgstr ":kbd:`L`"
+
+msgid "``tiles_editor/line_tool``"
+msgstr "``tiles_editor/line_tool``"
+
+msgid "Rect"
+msgstr "Dörtgen"
+
+msgid "``tiles_editor/rect_tool``"
+msgstr "``tiles_editor/rect_tool``"
+
+msgid "Bucket"
+msgstr "Kova"
+
+msgid ":kbd:`B`"
+msgstr ":kbd:`B`"
+
+msgid "``tiles_editor/bucket_tool``"
+msgstr "``tiles_editor/bucket_tool``"
+
+msgid "Picker"
+msgstr "Seçici"
+
 msgid ":kbd:`P`"
 msgstr ":kbd:`P`"
+
+msgid "``tiles_editor/picker``"
+msgstr "``tiles_editor/picker``"
+
+msgid "Eraser"
+msgstr "Silgi"
+
+msgid "``tiles_editor/eraser``"
+msgstr "``tiles_editor/eraser``"
 
 msgid "Flip Horizontally"
 msgstr "Yatayda Ters Çevir"
 
+msgid ":kbd:`C`"
+msgstr ":kbd:`C`"
+
+msgid "``tiles_editor/flip_tile_horizontal``"
+msgstr "``tiles_editor/flip_tile_horizontal``"
+
 msgid "Flip Vertically"
 msgstr "Dikeyde Ters Çevir"
+
+msgid ":kbd:`V`"
+msgstr ":kbd:`V`"
+
+msgid "``tiles_editor/flip_tile_vertical``"
+msgstr "``tiles_editor/flip_tile_vertical``"
 
 msgid "Rotate Left"
 msgstr "Sola Döndür"
@@ -1708,14 +1839,17 @@ msgstr "Sola Döndür"
 msgid ":kbd:`Z`"
 msgstr ":kbd:`Z`"
 
+msgid "``tiles_editor/rotate_tile_left``"
+msgstr "``tiles_editor/rotate_tile_left``"
+
 msgid "Rotate Right"
 msgstr "Sağa Döndür"
 
 msgid ":kbd:`X`"
 msgstr ":kbd:`X`"
 
-msgid "Tileset Editor"
-msgstr "Karo Seti Düzenleyici"
+msgid "``tiles_editor/rotate_tile_right``"
+msgstr "``tiles_editor/rotate_tile_right``"
 
 msgid "Next Coordinate"
 msgstr "Sonraki Koordinat"
@@ -1803,6 +1937,3 @@ msgstr ":kbd:`8`"
 
 msgid "``tileset_editor/editmode_z_index``"
 msgstr "``tileset_editor/editmode_z_index``"
-
-msgid "Translation status"
-msgstr "Çeviri durumu"

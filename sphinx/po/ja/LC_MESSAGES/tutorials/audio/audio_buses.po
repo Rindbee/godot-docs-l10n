@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -76,6 +76,13 @@ msgstr ""
 "0dBは、デジタルオーディオシステムで可能な最大振幅です。この制限は人間の制限で"
 "はなく、サウンドハードウェアの制限です。振幅が大きすぎて0dB未満で適切に表現で"
 "きないオーディオでは、\\ *クリッピング* と呼ばれる一種の歪みが発生します。"
+
+msgid ""
+"To avoid clipping, your sound mix should be arranged so that the output of "
+"the *master bus* (more on that later) never exceeds 0 dB."
+msgstr ""
+"クリッピングを避けるために、 *master bus* (詳細は後述)の出力が 0dBを超えない"
+"ようにサウンドミックスを調整する必要があります。"
 
 msgid ""
 "Every 6 dB below the 0 dB limit, sound energy is *halved*. It means the "
@@ -170,6 +177,11 @@ msgstr ""
 "オーディオバスには、あらゆる種類のエフェクトを含めることができます。これらの"
 "エフェクトは、何かの方法でサウンドを変更し、順番に適用されます。"
 
+msgid "For information on what each effect does, see :ref:`doc_audio_effects`."
+msgstr ""
+"各エフェクトの動作については、 :ref:`doc_using_multiple_threads` を参照してく"
+"ださい。"
+
 msgid "Automatic bus disabling"
 msgstr "自動的なバス無効化"
 
@@ -210,6 +222,3 @@ msgid ""
 msgstr ""
 "デフォルトのバスレイアウトは自動的に ``res://default_bus_layout.tres`` ファイ"
 "ルに保存されます。カスタムのバス配置を保存し、ディスクからロードできます。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

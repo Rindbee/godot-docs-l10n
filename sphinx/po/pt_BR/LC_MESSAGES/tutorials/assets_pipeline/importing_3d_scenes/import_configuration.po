@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,9 @@ msgstr ""
 
 msgid "Import workflows"
 msgstr "Fluxos de trabalho de importação"
+
+msgid "**glTF**"
+msgstr "**glTF**"
 
 msgid ""
 "It is possible to specify a filter script in a special syntax to decide "
@@ -135,6 +138,3 @@ msgstr ""
 
 msgid "Scene inheritance"
 msgstr "Herança de cena"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

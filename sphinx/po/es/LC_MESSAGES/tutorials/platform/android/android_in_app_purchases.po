@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -18,7 +18,7 @@ msgid "Usage"
 msgstr "Uso"
 
 msgid "Getting started"
-msgstr "Primeros pasos"
+msgstr "Empezar"
 
 msgid "Initialization example:"
 msgstr "Ejemplo de inicialización:"
@@ -44,6 +44,3 @@ msgstr ""
 "``\"subs\"`` como segundo argumento de ``querySkuDetails()`` para obtener "
 "detalles de una suscripción. Pasa ``\"subs\"`` a ``queryPurchases()`` para "
 "obtener detalles de compra de suscripciones."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

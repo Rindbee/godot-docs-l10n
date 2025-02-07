@@ -1,0 +1,96 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Using the Project Manager"
+msgstr "திட்ட மேலாளரைப் பயன்படுத்துதல்"
+
+msgid "Creating and importing projects"
+msgstr "திட்டங்களை உருவாக்குதல் மற்றும் இறக்குமதி செய்தல்"
+
+msgid "To create a new project:"
+msgstr "புதிய திட்டத்தை உருவாக்க:"
+
+msgid ""
+"Click the **Create & Edit** button to create the project folder and open it "
+"in the editor."
+msgstr ""
+"திட்டக் கோப்புறையை உருவாக்க ** உருவாக்கு & திருத்து ** பொத்தானைக் சொடுக்கு செய்து அதை "
+"எடிட்டரில் திறக்கவும்."
+
+msgid "Using the file browser"
+msgstr "கோப்பு உலாவியைப் பயன்படுத்துதல்"
+
+msgid "Opening and importing projects"
+msgstr "திட்டங்களைத் திறந்து இறக்குமதி செய்தல்"
+
+msgid ""
+"The next time you open the Project Manager, you'll see your new project in "
+"the list. Double click on it to open it in the editor."
+msgstr ""
+"அடுத்த முறை நீங்கள் திட்ட மேலாளரைத் திறக்கும்போது, உங்கள் புதிய திட்டத்தை பட்டியலில் "
+"காண்பீர்கள். அதை எடிட்டரில் திறக்க அதை இருமுறை சொடுக்கு செய்க."
+
+msgid ""
+"You can similarly import existing projects using the **Import** button. "
+"Locate the folder that contains the project or the **project.godot** file to "
+"import and edit it."
+msgstr ""
+"** இறக்குமதி ** பொத்தானைப் பயன்படுத்தி இருக்கும் திட்டங்களை இதேபோல் இறக்குமதி செய்யலாம். "
+"அதை இறக்குமதி செய்து திருத்துவதற்கு திட்டம் அல்லது ** Project.godot ** கோப்பைக் கொண்ட "
+"கோப்புறையைக் கண்டறியவும்."
+
+msgid "When the folder path is correct, you'll see a green checkmark."
+msgstr ""
+"கோப்புறை பாதை சரியாக இருக்கும்போது, நீங்கள் ஒரு பச்சை சரிபார்ப்பு அடையாளத்தைக் காண்பீர்கள்."
+
+msgid "Downloading demos and templates"
+msgstr "டெமோக்கள் மற்றும் வார்ப்புருக்கள் பதிவிறக்குதல்"
+
+msgid ""
+"Now that Godot is connected to the internet you can download a demo or "
+"template, to do this:"
+msgstr ""
+"இப்போது கோடோட் இணையத்துடன் இணைக்கப்பட்டுள்ளது, இதைச் செய்ய நீங்கள் ஒரு டெமோ அல்லது "
+"வார்ப்புருவைப் பதிவிறக்கம் செய்யலாம்:"
+
+msgid "Click on its title."
+msgstr "அதன் தலைப்பைக் சொடுக்கு செய்க."
+
+msgid "On the page that opens, click the download button."
+msgstr "திறக்கும் பக்கத்தில், பதிவிறக்க பொத்தானைக் சொடுக்கு செய்க."
+
+msgid ""
+"Once it finished downloading, click install and choose where you want to "
+"save the project."
+msgstr ""
+"பதிவிறக்குவதை முடித்தவுடன், நிறுவு என்பதைக் சொடுக்கு செய்து, திட்டத்தை நீங்கள் எங்கு "
+"சேமிக்க விரும்புகிறீர்கள் என்பதைத் தேர்வுசெய்க."
+
+msgid "Managing projects with tags"
+msgstr "குறிச்சொற்களுடன் திட்டங்களை நிர்வகித்தல்"
+
+msgid ""
+"This will open up the manage project tags window. To add a tag click the "
+"plus button."
+msgstr ""
+"இது திட்ட குறிச்சொற்கள் சாளரத்தை நிர்வகிக்கும். குறிச்சொல்லைச் சேர்க்க பிளச் பொத்தானைக் "
+"சொடுக்கு செய்க."
+
+msgid ""
+"To remove a tag from your project manager it must be removed from all the "
+"projects it's used by. Once that's done close the project manager, open it "
+"up again, and the tag should be gone."
+msgstr ""
+"உங்கள் திட்ட மேலாளரிடமிருந்து ஒரு குறிச்சொல்லை அகற்ற, அது பயன்படுத்தும் அனைத்து "
+"திட்டங்களிலிருந்தும் அகற்றப்பட வேண்டும். அது முடிந்ததும் திட்ட மேலாளரை மூடிவிட்டு, அதை "
+"மீண்டும் திறந்து, குறிச்சொல் இல்லாமல் போய்விட வேண்டும்."

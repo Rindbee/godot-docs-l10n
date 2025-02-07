@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -18,7 +18,7 @@ msgid ""
 "Latest updates, documentation and source code can be found at `Godot iOS "
 "plugins repository <https://github.com/godotengine/godot-ios-plugins>`_"
 msgstr ""
-"Son güncellemeler, belgeler, ve kynak kodu `Godot iOS eklenti deposu "
+"Son güncellemeler, belgeler, ve kaynak kodu `Godot iOS eklenti deposu "
 "<https://github.com/godotengine/godot-ios-plugins>`_ 'nda bulunabilir"
 
 msgid "Parameters"
@@ -26,6 +26,3 @@ msgstr "Parametreler"
 
 msgid "Example:"
 msgstr "Örnek:"
-
-msgid "Translation status"
-msgstr "Çeviri durumu"

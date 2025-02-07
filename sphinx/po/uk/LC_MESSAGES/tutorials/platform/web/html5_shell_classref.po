@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,32 +11,567 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "HTML5 shell class reference"
+msgstr "Посилання на клас оболонки HTML5"
+
+msgid ""
+"Projects exported for the Web expose the :js:class:`Engine` class to the "
+"JavaScript environment, that allows fine control over the engine's start-up "
+"process."
+msgstr ""
+"Проекти, експортовані для Інтернету, надають клас :js:class:`Engine` "
+"середовищу JavaScript, що дозволяє точно контролювати процес запуску двигуна."
+
+msgid ""
+"This API is built in an asynchronous manner and requires basic understanding "
+"of `Promises <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/"
+"Using_promises>`__."
+msgstr ""
+"Цей API створено асинхронним способом і вимагає базового розуміння `Promises "
+"<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/"
+"Using_promises>`__."
+
+msgid "Engine"
+msgstr "Двигун"
+
+msgid ""
+"The ``Engine`` class provides methods for loading and starting exported "
+"projects on the Web. For default export settings, this is already part of "
+"the exported HTML page. To understand practical use of the ``Engine`` class, "
+"see :ref:`Custom HTML page for Web export <doc_customizing_html5_shell>`."
+msgstr ""
+"Клас ``Engine`` надає методи для завантаження та запуску експортованих "
+"проектів в Інтернеті. Для параметрів експорту за замовчуванням це вже є "
+"частиною експортованої сторінки HTML. Щоб зрозуміти практичне використання "
+"класу ``Engine``, перегляньте :ref:`Користувацьку HTML-сторінку для веб-"
+"експорту <doc_customizing_html5_shell>`."
+
+msgid "Static Methods"
+msgstr "Статичні методи"
+
+msgid "Promise"
+msgstr "Обіцяю"
+
+msgid ":js:attr:`load <Engine.load>` **(** string basePath **)**"
+msgstr ":js:attr:`load <Engine.load>` **(** рядок basePath **)**"
+
+msgid "void"
+msgstr "Void"
+
+msgid ":js:attr:`unload <Engine.unload>` **(** **)**"
+msgstr ":js:attr:`unload <Engine.unload>` **(** **)**"
+
+msgid "boolean"
+msgstr "логічний"
+
+msgid ""
+":js:attr:`isWebGLAvailable <Engine.isWebGLAvailable>` **(** *[ number "
+"majorVersion=1 ]* **)**"
+msgstr ""
+":js:attr:`isWebGLAvailable <Engine.isWebGLAvailable>` **(** *[ number "
+"majorVersion=1 ]* **)**"
+
+msgid "Instance Methods"
+msgstr "Методи екземплярів"
+
+msgid ""
+":js:attr:`init <Engine.prototype.init>` **(** *[ string basePath ]* **)**"
+msgstr ""
+":js:attr:`init <Engine.prototype.init>` **(** *[ string basePath ]* **)**"
+
+msgid ""
+":js:attr:`preloadFile <Engine.prototype.preloadFile>` **(** string\\|"
+"ArrayBuffer file *[, string path ]* **)**"
+msgstr ""
+":js:attr:`preloadFile <Engine.prototype.preloadFile>` **(** string\\|"
+"ArrayBuffer file *[, string path ]* **)**"
+
+msgid ""
+":js:attr:`start <Engine.prototype.start>` **(** EngineConfig override **)**"
+msgstr ""
+":js:attr:`start <Engine.prototype.start>` **(** EngineConfig override **)*"
+
+msgid ""
+":js:attr:`startGame <Engine.prototype.startGame>` **(** EngineConfig "
+"override **)**"
+msgstr ""
+":js:attr:`startGame <Engine.prototype.startGame>` **(** EngineConfig "
+"override **)**"
+
+msgid ""
+":js:attr:`copyToFS <Engine.prototype.copyToFS>` **(** string path, "
+"ArrayBuffer buffer **)**"
+msgstr ""
+":js:attr:`copyToFS <Engine.prototype.copyToFS>` **(** string path, "
+"ArrayBuffer buffer **)**"
+
+msgid ":js:attr:`requestQuit <Engine.prototype.requestQuit>` **(** **)**"
+msgstr ":js:attr:`requestQuit <Engine.prototype.requestQuit>` **(** **)**"
+
+msgid "Create a new Engine instance with the given configuration."
+msgstr "Створіть новий екземпляр Engine із заданою конфігурацією."
+
 msgid "Arguments"
 msgstr "Аргументи"
+
+msgid "The initial config for this instance."
+msgstr "Початкова конфігурація для цього екземпляра."
+
+msgid "**Static Methods**"
+msgstr "**Статичні методи**"
+
+msgid "Load the engine from the specified base path."
+msgstr "Завантажте двигун із зазначеного базового шляху."
+
+msgid "Base path of the engine to load."
+msgstr "Базовий шлях двигуна до завантаження."
+
+msgid "Returns"
+msgstr "Повернення"
+
+msgid "A Promise that resolves once the engine is loaded."
+msgstr "Обіцянка, яка вирішується після завантаження двигуна."
+
+msgid "Return type"
+msgstr "Тип повернення"
+
+msgid "Unload the engine to free memory."
+msgstr "Розвантажте двигун, щоб звільнити пам'ять."
+
+msgid ""
+"This method will be called automatically depending on the configuration. "
+"See :js:attr:`unloadAfterInit`."
+msgstr ""
+"Цей метод буде викликатися автоматично залежно від конфігурації. "
+"Перегляньте :js:attr:`unloadAfterInit`."
+
+msgid ""
+"Check whether WebGL is available. Optionally, specify a particular version "
+"of WebGL to check for."
+msgstr ""
+"Перевірте, чи доступний WebGL. За бажанням можна вказати конкретну версію "
+"WebGL, яку потрібно перевірити."
+
+msgid "The major WebGL version to check for."
+msgstr "Основна версія WebGL, яку потрібно перевірити."
+
+msgid "If the given major version of WebGL is available."
+msgstr "Якщо дана основна версія WebGL доступна."
+
+msgid "**Instance Methods**"
+msgstr "**Методи екземплярів**"
+
+msgid ""
+"Initialize the engine instance. Optionally, pass the base path to the engine "
+"to load it, if it hasn't been loaded yet. See :js:meth:`Engine.load`."
+msgstr ""
+"Ініціалізуйте екземпляр двигуна. За бажанням передайте базовий шлях "
+"механізму, щоб завантажити його, якщо він ще не завантажений. Перегляньте :"
+"js:meth:`Engine.load`."
+
+msgid "A ``Promise`` that resolves once the engine is loaded and initialized."
+msgstr ""
+"``Promise``, який вирішується після завантаження та ініціалізації двигуна."
+
+msgid ""
+"Load a file so it is available in the instance's file system once it runs. "
+"Must be called **before** starting the instance."
+msgstr ""
+"Завантажте файл, щоб він був доступний у файловій системі примірника після "
+"його запуску. Потрібно викликати **перед** запуском примірника."
+
+msgid ""
+"If not provided, the ``path`` is derived from the URL of the loaded file."
+msgstr ""
+"Якщо не вказано, ``шлях`` отримується з URL-адреси завантаженого файлу."
+
+msgid ""
+"The file to preload.  If a ``string`` the file will be loaded from that "
+"path.  If an ``ArrayBuffer`` or a view on one, the buffer will used as the "
+"content of the file."
+msgstr ""
+"Файл для попереднього завантаження. Якщо ``рядок``, файл буде завантажено з "
+"цього шляху. Якщо ``ArrayBuffer`` або перегляд на одному, буфер "
+"використовуватиметься як вміст файлу."
 
 msgid "The file to preload."
 msgstr "Файл для попереднього завантаження."
 
+msgid "If a ``string`` the file will be loaded from that path."
+msgstr "Якщо ``рядок``, файл буде завантажено з цього шляху."
+
+msgid ""
+"If an ``ArrayBuffer`` or a view on one, the buffer will used as the content "
+"of the file."
+msgstr ""
+"Якщо ``ArrayBuffer`` або перегляд на одному, буфер використовуватиметься як "
+"вміст файлу."
+
+msgid ""
+"Path by which the file will be accessible. Required, if ``file`` is not a "
+"string."
+msgstr ""
+"Шлях, за яким буде доступний файл. Обов’язковий, якщо ``файл`` не є рядком."
+
+msgid "A Promise that resolves once the file is loaded."
+msgstr "Обіцянка, яка вирішується після завантаження файлу."
+
+msgid ""
+"Start the engine instance using the given override configuration (if any). :"
+"js:meth:`startGame <Engine.prototype.startGame>` can be used in typical "
+"cases instead."
+msgstr ""
+"Запустіть екземпляр двигуна, використовуючи задану конфігурацію "
+"перевизначення (якщо є). :js:meth:`startGame <Engine.prototype.startGame>` "
+"можна використовувати в типових випадках."
+
+msgid ""
+"This will initialize the instance if it is not initialized. For manual "
+"initialization, see :js:meth:`init <Engine.prototype.init>`. The engine must "
+"be loaded beforehand."
+msgstr ""
+"Це ініціалізує примірник, якщо він не ініціалізований. Для ініціалізації "
+"вручну див. :js:meth:`init <Engine.prototype.init>`. Двигун необхідно "
+"попередньо завантажити."
+
+msgid ""
+"Fails if a canvas cannot be found on the page, or not specified in the "
+"configuration."
+msgstr ""
+"Помилка, якщо полотно не знайдено на сторінці або не вказано в конфігурації."
+
+msgid "An optional configuration override."
+msgstr "Додаткова зміна конфігурації."
+
+msgid "Promise that resolves once the engine started."
+msgstr "Обіцянка, яка вирішується після запуску двигуна."
+
+msgid ""
+"Start the game instance using the given configuration override (if any)."
+msgstr ""
+"Запустіть екземпляр гри, використовуючи перевизначення заданої конфігурації "
+"(якщо є)."
+
+msgid ""
+"This will initialize the instance if it is not initialized. For manual "
+"initialization, see :js:meth:`init <Engine.prototype.init>`."
+msgstr ""
+"Це ініціалізує примірник, якщо він не ініціалізований. Для ініціалізації "
+"вручну див. :js:meth:`init <Engine.prototype.init>`."
+
+msgid ""
+"This will load the engine if it is not loaded, and preload the main pck."
+msgstr ""
+"Це завантажить двигун, якщо він не завантажений, і попередньо завантажить "
+"основний pck."
+
+msgid ""
+"This method expects the initial config (or the override) to have both the :"
+"js:attr:`executable` and :js:attr:`mainPack` properties set (normally done "
+"by the editor during export)."
+msgstr ""
+"Цей метод очікує, що початкова конфігурація (або перевизначення) матиме "
+"обидві властивості: :js:attr:`executable` і :js:attr:`mainPack` (зазвичай "
+"робиться редактором під час експорту)."
+
+msgid "Promise that resolves once the game started."
+msgstr "Обіцянка, яка вирішується після початку гри."
+
+msgid ""
+"Create a file at the specified ``path`` with the passed as ``buffer`` in the "
+"instance's file system."
+msgstr ""
+"Створіть файл за вказаним ``шляхом`` із переданим ``буфером`` у файловій "
+"системі примірника."
+
+msgid "The location where the file will be created."
+msgstr "Місце, де буде створено файл."
+
 msgid "The content of the file."
 msgstr "Вміст файлу."
+
+msgid "Request that the current instance quit."
+msgstr "Запит на вихід поточного екземпляра."
+
+msgid ""
+"This is akin the user pressing the close button in the window manager, and "
+"will have no effect if the engine has crashed, or is stuck in a loop."
+msgstr ""
+"Це схоже на натискання користувачем кнопки закриття в диспетчері вікон і не "
+"матиме жодного ефекту, якщо система вийшла з ладу або застрягла в циклі."
 
 msgid "Engine configuration"
 msgstr "Конфігурація движка"
 
+msgid ""
+"An object used to configure the Engine instance based on godot export "
+"options, and to override those in custom HTML templates if needed."
+msgstr ""
+"Об’єкт, який використовується для налаштування екземпляра Engine на основі "
+"параметрів експорту godot і для заміни цих параметрів у власних шаблонах "
+"HTML, якщо це необхідно."
+
 msgid "Properties"
 msgstr "Властивості"
+
+msgid "type"
+msgstr "типу"
 
 msgid "name"
 msgstr "name"
 
+msgid ":js:attr:`unloadAfterInit`"
+msgstr ":js:attr:`unloadAfterInit`"
+
+msgid "HTMLCanvasElement"
+msgstr "Елемент HTML Canvas"
+
+msgid ":js:attr:`canvas`"
+msgstr ":js:attr:`canvas`"
+
 msgid "string"
 msgstr "текст"
+
+msgid ":js:attr:`executable`"
+msgstr ":js:attr:`executable`"
+
+msgid ":js:attr:`mainPack`"
+msgstr ":js:attr:`mainPack`"
+
+msgid ":js:attr:`locale`"
+msgstr ":js:attr:`locale`"
+
+msgid "number"
+msgstr "номер"
+
+msgid ":js:attr:`canvasResizePolicy`"
+msgstr ":js:attr:`canvasResizePolicy`"
+
+msgid "Array.<string>"
+msgstr "Array.<string>"
+
+msgid ":js:attr:`args`"
+msgstr ":js:attr:`args`"
 
 msgid "function"
 msgstr "функція"
 
+msgid ":js:attr:`onExecute`"
+msgstr ":js:attr:`onExecute`"
+
+msgid ":js:attr:`onExit`"
+msgstr ":js:attr:`onExit`"
+
+msgid ":js:attr:`onProgress`"
+msgstr ":js:attr:`onProgress`"
+
+msgid ":js:attr:`onPrint`"
+msgstr ":js:attr:`onPrint`"
+
+msgid ":js:attr:`onPrintError`"
+msgstr ":js:attr:`onPrintError`"
+
+msgid ""
+"The Engine configuration object. This is just a typedef, create it like a "
+"regular object, e.g.:"
+msgstr ""
+"Об'єкт конфігурації Engine. Це лише визначення типу, створіть його як "
+"звичайний об’єкт, наприклад:"
+
+msgid "``const MyConfig = { executable: 'godot', unloadAfterInit: false }``"
+msgstr "``const MyConfig = { executable: 'godot', unloadAfterInit: false }``"
+
+msgid "**Property Descriptions**"
+msgstr "**Опис нерухомості**"
+
+msgid ""
+"Whether the unload the engine automatically after the instance is "
+"initialized."
+msgstr "Чи розвантажувати механізм автоматично після ініціалізації екземпляра."
+
 msgid "value"
 msgstr "значення"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "``true``"
+msgstr "``правда``"
+
+msgid "The HTML DOM Canvas object to use."
+msgstr "Об’єкт HTML DOM Canvas для використання."
+
+msgid ""
+"By default, the first canvas element in the document will be used is none is "
+"specified."
+msgstr ""
+"За замовчуванням буде використано перший елемент canvas у документі, якщо не "
+"вказано жодного."
+
+msgid "``null``"
+msgstr "``нуль``"
+
+msgid ""
+"The name of the WASM file without the extension. (Set by Godot Editor export "
+"process)."
+msgstr ""
+"Ім'я файлу WASM без розширення. (Встановлено процесом експорту редактора "
+"Godot)."
+
+msgid "``\"\"``"
+msgstr "``\"\"``"
+
+msgid ""
+"An alternative name for the game pck to load. The executable name is used "
+"otherwise."
+msgstr ""
+"Альтернативна назва гри, яку потрібно завантажити. В іншому випадку "
+"використовується назва виконуваного файлу."
+
+msgid "Specify a language code to select the proper localization for the game."
+msgstr "Вкажіть код мови, щоб вибрати правильну локалізацію для гри."
+
+msgid ""
+"The browser locale will be used if none is specified. See complete list of :"
+"ref:`supported locales <doc_locales>`."
+msgstr ""
+"Мова браузера буде використана, якщо її не вказано. Перегляньте повний "
+"список :ref:`підтримуваних локалей <doc_locales>`."
+
+msgid ""
+"The canvas resize policy determines how the canvas should be resized by "
+"Godot."
+msgstr ""
+"Політика зміни розміру полотна визначає, як Годо має змінити розмір полотна."
+
+msgid ""
+"``0`` means Godot won't do any resizing. This is useful if you want to "
+"control the canvas size from javascript code in your template."
+msgstr ""
+"``0`` означає, що Godot не змінюватиме розмір. Це корисно, якщо ви хочете "
+"керувати розміром полотна з коду javascript у вашому шаблоні."
+
+msgid ""
+"``1`` means Godot will resize the canvas on start, and when changing window "
+"size via engine functions."
+msgstr ""
+"``1`` означає, що Godot змінить розмір полотна під час запуску та під час "
+"зміни розміру вікна за допомогою функцій двигуна."
+
+msgid ""
+"``2`` means Godot will adapt the canvas size to match the whole browser "
+"window."
+msgstr ""
+"``2`` означає, що Godot адаптує розмір полотна до всього вікна браузера."
+
+msgid "``2``"
+msgstr "``2``"
+
+msgid "The arguments to be passed as command line arguments on startup."
+msgstr ""
+"Аргументи, які передаються як аргументи командного рядка під час запуску."
+
+msgid "See :ref:`command line tutorial <doc_command_line_tutorial>`."
+msgstr ""
+"Перегляньте :ref:`навчальний посібник із командного рядка "
+"<doc_command_line_tutorial>`."
+
+msgid ""
+"**Note**: :js:meth:`startGame <Engine.prototype.startGame>` will always add "
+"the ``--main-pack`` argument."
+msgstr ""
+"**Примітка**: :js:meth:`startGame <Engine.prototype.startGame>` завжди "
+"додаватиме аргумент ``--main-pack``."
+
+msgid "``[]``"
+msgstr "``[]``"
+
+msgid "A callback function for handling Godot's ``OS.execute`` calls."
+msgstr "Функція зворотного виклику для обробки викликів ``OS.execute`` Годо."
+
+msgid ""
+"This is for example used in the Web Editor template to switch between "
+"Project Manager and editor, and for running the game."
+msgstr ""
+"Це, наприклад, використовується в шаблоні веб-редактора для перемикання між "
+"менеджером проекту та редактором, а також для запуску гри."
+
+msgid "The path that Godot's wants executed."
+msgstr "Шлях, який Годо хоче здійснити."
+
+msgid "The arguments of the \"command\" to execute."
+msgstr "Аргументи «команди» для виконання."
+
+msgid "A callback function for being notified when the Godot instance quits."
+msgstr ""
+"Функція зворотного виклику для отримання сповіщень, коли примірник Godot "
+"завершує роботу."
+
+msgid ""
+"**Note**: This function will not be called if the engine crashes or become "
+"unresponsive."
+msgstr ""
+"**Примітка**: ця функція не буде викликана, якщо двигун виходить з ладу або "
+"перестає реагувати."
+
+msgid "The status code returned by Godot on exit."
+msgstr "Код стану, який повертає Годо при виході."
+
+msgid "A callback function for displaying download progress."
+msgstr "Функція зворотного виклику для відображення прогресу завантаження."
+
+msgid ""
+"The function is called once per frame while downloading files, so the usage "
+"of ``requestAnimationFrame()`` is not necessary."
+msgstr ""
+"Функція викликається один раз для кожного кадру під час завантаження файлів, "
+"тому використовувати ``requestAnimationFrame()`` не потрібно."
+
+msgid ""
+"If the callback function receives a total amount of bytes as 0, this means "
+"that it is impossible to calculate. Possible reasons include:"
+msgstr ""
+"Якщо функція зворотного виклику отримує загальну кількість байтів як 0, це "
+"означає, що її неможливо обчислити. Можливі причини:"
+
+msgid "Files are delivered with server-side chunked compression"
+msgstr "Файли доставляються з частковим стисненням на стороні сервера"
+
+msgid "Files are delivered with server-side compression on Chromium"
+msgstr "Файли доставляються зі стисненням на стороні сервера в Chromium"
+
+msgid ""
+"Not all file downloads have started yet (usually on servers without multi-"
+"threading)"
+msgstr ""
+"Ще не всі завантаження файлів почалися (зазвичай на серверах без "
+"багатопоточності)"
+
+msgid "The current amount of downloaded bytes so far."
+msgstr "Поточний обсяг завантажених байтів на даний момент."
+
+msgid "The total amount of bytes to be downloaded."
+msgstr "Загальна кількість байтів для завантаження."
+
+msgid ""
+"A callback function for handling the standard output stream. This method "
+"should usually only be used in debug pages."
+msgstr ""
+"Функція зворотного виклику для обробки стандартного потоку виводу. Зазвичай "
+"цей метод слід використовувати лише на сторінках налагодження."
+
+msgid "By default, ``console.log()`` is used."
+msgstr "За замовчуванням використовується ``console.log()``."
+
+msgid "A variadic number of arguments to be printed."
+msgstr "Різна кількість аргументів для друку."
+
+msgid ""
+"A callback function for handling the standard error stream. This method "
+"should usually only be used in debug pages."
+msgstr ""
+"Функція зворотного виклику для обробки стандартного потоку помилок. Зазвичай "
+"цей метод слід використовувати лише на сторінках налагодження."
+
+msgid "By default, ``console.error()`` is used."
+msgstr "За замовчуванням використовується ``console.error()``."
+
+msgid "A variadic number of arguments to be printed as errors."
+msgstr "Різна кількість аргументів, які будуть надруковані як помилки."

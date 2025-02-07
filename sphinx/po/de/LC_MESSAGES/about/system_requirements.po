@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -41,13 +41,6 @@ msgstr "Desktop- oder Laptop-PC - Minimum"
 
 msgid "**CPU**"
 msgstr "**CPU**"
-
-msgid "**Windows:** x86_32 CPU with SSE2 instructions, or any x86_64 CPU"
-msgstr ""
-"**Windows:** x86_32 CPU mit SSE2-Instruktionen oder beliebige x86_64 CPU"
-
-msgid "*Example: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300*"
-msgstr "*Beispiel: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300*"
 
 msgid "**macOS:** x86_64 or ARM CPU (Apple Silicon)"
 msgstr "**macOS:** x86_64 oder ARM CPU (Apple Silicon)"
@@ -205,13 +198,6 @@ msgid "**Web editor:** 6 GB"
 msgstr "**Web-Editor:** 6 GB"
 
 msgid ""
-"**Native editor:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
-"Mobile), iOS 11.0"
-msgstr ""
-"**Nativer Editor:** Android 6.0 (Kompatibilität) oder Android 9.0 (Forward+/"
-"Mobile), iOS 11.0"
-
-msgid ""
 "**Web editor:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
 "Samsung Internet 15"
 msgstr ""
@@ -227,16 +213,6 @@ msgstr ""
 
 msgid "Desktop or laptop PC - Recommended"
 msgstr "Desktop- oder Laptop-PC - Empfohlen"
-
-msgid ""
-"**Windows:** x86_64 CPU with SSE4.2 instructions, with 4 physical cores or "
-"more"
-msgstr ""
-"**Windows:** x86_64 CPU mit SSE4.2-Befehlen, mit 4 physischen Kernen oder "
-"mehr"
-
-msgid "*Example: Intel Core i5-6600K, AMD Ryzen 5 1600*"
-msgstr "*Beispiel: Intel Core i5-6600K, AMD Ryzen 5 1600*"
 
 msgid "*Example: Intel Core i5-8500, Apple M1*"
 msgstr "*Beispiel: Intel Core i5-8500, Apple M1*"
@@ -340,9 +316,6 @@ msgstr ""
 msgid "**Native editor:** 6 GB"
 msgstr "**Nativer Editor:** 6 GB"
 
-msgid "**Native editor:** Android 9.0 or iOS 11.0"
-msgstr "**Nativer Editor:** Android 9.0 oder iOS 11.0"
-
 msgid ""
 "**Web editor:** Latest version of Firefox, Chrome, Edge, Safari, Opera, "
 "Samsung Internet"
@@ -418,30 +391,11 @@ msgstr "**iOS:** SoC mit beliebiger 64-Bit-ARM-CPU"
 msgid "*Example: Apple A7 (iPhone 5S)*"
 msgstr "*Beispiel: Apple A7 (iPhone 5S)*"
 
-msgid ""
-"*Example: Qualcomm Adreno 505, Mali-G71 MP2, PowerVR G6430 (iPhone 6S/iPhone "
-"SE 1)*"
-msgstr ""
-"*Beispiel: Qualcomm Adreno 505, Mali-G71 MP2, PowerVR G6430 (iPhone 6S/"
-"iPhone SE 1)*"
-
-msgid ""
-"*Example: Qualcomm Adreno 306, Mali-T628 MP6, PowerVR G6430 (iPhone 5S)*"
-msgstr ""
-"*Beispiel: Qualcomm Adreno 306, Mali-T628 MP6, PowerVR G6430 (iPhone 5S)*"
-
 msgid "**For native exports:** 1 GB"
 msgstr "**Für native Exporte:** 1 GB"
 
 msgid "**For web exports:** 2 GB"
 msgstr "**Für Web-Exporte:** 2 GB"
-
-msgid ""
-"**For native exports:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
-"Mobile), iOS 11.0"
-msgstr ""
-"**Für native Exporte:** Android 6.0 (Kompatibilität) oder Android 9.0 "
-"(Forward+/Mobile), iOS 11.0"
 
 msgid ""
 "**For web exports:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
@@ -478,17 +432,6 @@ msgstr ""
 msgid "**iOS:** SoC with 64-bit ARM CPU"
 msgstr "**iOS:** SoC mit 64-bit ARM CPU"
 
-msgid "*Example: Apple A11 (iPhone XS/XR)*"
-msgstr "*Beispiel: Apple A11 (iPhone XS/XR)*"
-
-msgid ""
-"*Example: Qualcomm Adreno 630, Mali-G72 MP18, Apple G11P (iPhone XR/XS)*"
-msgstr ""
-"*Beispiel: Qualcomm Adreno 630, Mali-G72 MP18, Apple G11P (iPhone XR/XS)*"
-
-msgid "**For native exports:** Android 9.0 or iOS 11.0"
-msgstr "**Für native Exporte:** Android 9.0 oder iOS 11.0"
-
 msgid ""
 "**For web exports:** Latest version of Firefox, Chrome, Edge, Safari, Opera, "
 "Samsung Internet"
@@ -504,6 +447,3 @@ msgstr ""
 "Godot verwendet keine OpenGL/OpenGL ES-Erweiterungen, die nach OpenGL 3.3/"
 "OpenGL ES 3.0 eingeführt wurden, aber GPUs, die neuere OpenGL/OpenGL ES-"
 "Versionen unterstützen, haben im Allgemeinen weniger Treiberprobleme."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

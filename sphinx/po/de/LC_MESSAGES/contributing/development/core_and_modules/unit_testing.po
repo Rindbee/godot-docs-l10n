@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -449,6 +449,9 @@ msgstr ""
 "``ERR_PRINT_ON`` direkt in den Testfällen verwenden, um z.B. die "
 "Fehlerausgabe der Engine vorübergehend zu deaktivieren:"
 
+msgid "Description"
+msgstr "Beschreibung"
+
 msgid "Test tools"
 msgstr "Test-Tools"
 
@@ -629,6 +632,3 @@ msgstr ""
 "Tests deaktivieren, indem Sie die Skriptdatei so benennen, dass sie dem "
 "Muster ``*.notest.gd`` entspricht. Zum Beispiel: \"test_empty_file.notest."
 "gd\"."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

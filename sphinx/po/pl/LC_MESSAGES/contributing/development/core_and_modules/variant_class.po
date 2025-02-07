@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,28 +17,6 @@ msgstr "Klasa Wariant"
 msgid "About"
 msgstr "O Godocie"
 
-msgid ""
-"Variant is the most important datatype of Godot, it's the most important "
-"class in the engine. A Variant takes up only 20 bytes and can store almost "
-"any engine datatype inside of it. Variants are rarely used to hold "
-"information for long periods of time, instead they are used mainly for "
-"communication, editing, serialization and generally moving data around."
-msgstr ""
-"Wariant jest najważniejszym typem danych w Godot, jest najważniejszą klasą w "
-"silniku. Wariant zajmuje tylko 20 bajtów i może przechowywać wewnątrz prawie "
-"każdy typ danych. Warianty są rzadko używanie do przechowywania informacji "
-"przez długi okres, zamiast tego są używane głównie do komunikacji, edycji, "
-"serializacji i ogólnie przenoszenia danych."
-
-msgid "Store almost any datatype"
-msgstr "Przechowywać prawie każdy typ danych"
-
-msgid "Be hashed, so it can be compared quickly to other variants"
-msgstr "Mieć obliczony hash, więc może być szybko porównywany z innymi"
-
-msgid "Be used to convert safely between datatypes"
-msgstr "Jest używany do bezpiecznej konwersji między typami"
-
 msgid "Be serialized as binary and stored to disk, or transferred via network."
 msgstr ""
 "Być serializowany jako binarne dane zapisywane na dysk lub przesyłane przez "
@@ -47,8 +25,11 @@ msgstr ""
 msgid "Be used for dictionaries, arrays, parsers, etc."
 msgstr "Używane dla słowników, tablic, parserów itp."
 
-msgid "References:"
-msgstr "Odniesienia:"
+msgid "References"
+msgstr "Odniesienia"
 
-msgid "Translation status"
-msgstr "Status tłumaczenia"
+msgid "Type"
+msgstr "Typ"
+
+msgid "Notes"
+msgstr "Uwagi"

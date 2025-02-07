@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,20 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Large world coordinates"
+msgstr "Large world coordinate"
+
+msgid ""
+"Large world coordinates are mainly useful in 3D projects; they are rarely "
+"required in 2D projects. Also, unlike 3D rendering, 2D rendering currently "
+"doesn't benefit from increased precision when large world coordinates are "
+"enabled."
+msgstr ""
+"Large world coordinate は主に3Dプロジェクトで有用です; 2Dプロジェクトでは必要"
+"とされることはほとんどありません。また、3Dレンダリングとは異なり、現在のとこ"
+"ろ、2Dレンダリングでは Large world coordinate を有効にしても精度が向上する利"
+"点はありません。"
 
 msgid "Why use large world coordinates?"
 msgstr "なぜLarge World Coordinatesを使うのか?"
@@ -20,8 +34,20 @@ msgstr "範囲"
 msgid "Comment"
 msgstr "コメント(Comment)"
 
+msgid "How large world coordinates work"
+msgstr "Large world coordinate がどのように動作するか"
+
+msgid "Who are large world coordinates for?"
+msgstr "Large world coordinate はどんな人のためにあるか?"
+
+msgid "Enabling large world coordinates"
+msgstr "Large world coordinate を有効化"
+
+msgid "Compatibility between single-precision and double-precision builds"
+msgstr "単精度ビルドと倍精度ビルド間の互換性"
+
+msgid "Known incompatibilities"
+msgstr "既知の非互換性"
+
 msgid "Limitations"
 msgstr "制限事項"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

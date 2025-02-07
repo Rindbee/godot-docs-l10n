@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -261,10 +261,6 @@ msgstr ""
 
 msgid "Floats with easing hint"
 msgstr "Floats mit Easing-Hint"
-
-msgid "Display a visual representation of the 'ease()' function when editing."
-msgstr ""
-"Zeigt eine visuelle Darstellung der Funktion 'ease()' bei der Bearbeitung an."
 
 msgid "Colors"
 msgstr "Farben"
@@ -597,6 +593,3 @@ msgid ""
 msgstr ""
 "Das Skript muss im ``Tool`` -Modus arbeiten, damit die oben genannten "
 "Methoden im Editor ausgeführt werden können."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

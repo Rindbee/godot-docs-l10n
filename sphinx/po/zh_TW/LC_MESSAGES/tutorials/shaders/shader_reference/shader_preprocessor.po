@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -411,6 +411,3 @@ msgid ""
 msgstr ""
 "目前，它可能只有一個值：「disable_preprocessor」。如果您不需要預處理器，請使"
 "用指令透過排除預處理器步驟來加速著色器編譯。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

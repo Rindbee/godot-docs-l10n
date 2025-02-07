@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -52,6 +52,18 @@ msgstr ""
 
 msgid "Command line reference"
 msgstr "Referência para linha de comando"
+
+msgid "|editor| Only available in editor builds."
+msgstr "|editor| Apenas disponível em compilações de editores."
+
+msgid ""
+"Note that unknown command line arguments have no effect whatsoever. The "
+"engine will **not** warn you when using a command line argument that doesn't "
+"exist with a given build type."
+msgstr ""
+"Note que os argumentos de linha de comando desconhecidos não têm nenhum "
+"efeito. O motor **não** vai avisá-lo ao usar um argumento de linha de "
+"comando que não existe com um determinado tipo de compilação."
 
 msgid "**General options**"
 msgstr "**Opções gerais**"
@@ -104,6 +116,9 @@ msgstr "``--remote-fs <endereço>``"
 
 msgid "``--audio-driver <driver>``"
 msgstr "``--audio-driver <driver>``"
+
+msgid "``--rendering-driver <driver>``"
+msgstr "``--rendering-driver <driver>``"
 
 msgid "**Display options**"
 msgstr "**Opções de exibição**"
@@ -171,11 +186,33 @@ msgstr "``--check-only``"
 msgid "``--export-pack <preset> <path>``"
 msgstr "``--export-pack <preset> <caminho>``"
 
+msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
+msgstr "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
+
+msgid "|editor| Convert project from Godot 3.x to Godot 4.x."
+msgstr "|editor| Converta o projeto de Godot 3.x para Godot 4.x."
+
+msgid "``--validate-conversion-3to4 [<max_file_kb>] [<max_line_size>]``"
+msgstr "``--validate-conversion-3to4 [<max_file_kb>] [<max_line_size>]``"
+
+msgid ""
+"|editor| Show what elements will be renamed when converting project from "
+"Godot 3.x to Godot 4.x."
+msgstr ""
+"|editor| Mostrar que elementos serão renomeados ao converter o projeto de "
+"Godot 3.x para Godot 4.x."
+
 msgid "``--no-docbase``"
 msgstr "``--no-docbase``"
 
 msgid "``--build-solutions``"
 msgstr "``--build-solutions``"
+
+msgid "``--dump-gdextension-interface``"
+msgstr "``--dump-gdextension-interface``"
+
+msgid "``--benchmark``"
+msgstr "``--benchmark``"
 
 msgid "Path"
 msgstr "Caminho"
@@ -280,6 +317,3 @@ msgstr ""
 "Se o acima não funcionar em sua versão atual do Linux ou macOS, você sempre "
 "pode fazer com que o shebang execute Godot diretamente de onde está "
 "localizado da seguinte maneira:"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

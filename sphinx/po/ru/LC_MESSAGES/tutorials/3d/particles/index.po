@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,9 +23,6 @@ msgid ""
 msgstr ""
 "Каждая система частиц, которую вы создаете в Godot, состоит из двух основных "
 "частей: частиц и эмиттеров."
-
-msgid "Particles"
-msgstr "Частицы"
 
 msgid ""
 "A particle is the visible part of a particle system. It's what you see on "
@@ -140,6 +137,3 @@ msgstr ""
 "хотите, чтобы частицы сталкивались с большими открытыми сценами, используйте "
 "ноду :ref:`class_GPUParticlesCollisionHeightField3D`. Он создает карту высот "
 "вашего мира и объектов в нем и использует ее для масштабных коллизий частиц."
-
-msgid "Translation status"
-msgstr "Статус перевода"

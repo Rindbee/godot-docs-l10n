@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -67,7 +67,7 @@ msgstr ""
 "有项目中："
 
 msgid "Only some Android architectures are supported: ``arm64`` and ``x64``."
-msgstr "只支持部分 Android 架构： ``arm64`` 和 ``x64`` 。"
+msgstr "只支持部分 Android 架构： ``arm64`` 和 ``x64``\\ 。"
 
 msgid "iOS support is currently experimental and has a few limitations."
 msgstr "iOS 支持目前是实验性的，存在部分限制。"
@@ -96,6 +96,3 @@ msgid ""
 msgstr ""
 "目前，用 C# 编写的项目无法导出到 Web 平台。要在该平台上使用 C#，请考虑 Godot "
 "3。"
-
-msgid "Translation status"
-msgstr "翻译状态"

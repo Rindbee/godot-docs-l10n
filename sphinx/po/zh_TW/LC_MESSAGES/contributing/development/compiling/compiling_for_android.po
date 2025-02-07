@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -105,14 +105,8 @@ msgid ""
 "Release template (used when exporting with **Debugging Enabled** unchecked)"
 msgstr "釋出樣板 (用於匯出時有勾選 **Debugging Enabled** 時)"
 
-msgid "The resulting APK will be located at ``bin/android_release.apk``."
-msgstr "產生的 APK 會放在 ``bin/android_release.apk``。"
-
 msgid "Debug template (used when exporting with **Debugging Enabled** checked)"
 msgstr "除錯樣板 (用於匯出時有勾選 **Debugging Enabled** 時)"
-
-msgid "The resulting APK will be located at ``bin/android_debug.apk``."
-msgstr "產生的 APK 會放在 ``bin/android_debug.apk``。"
 
 msgid ""
 "If you want to enable Vulkan validation layers, see :ref:`Vulkan validation "
@@ -124,15 +118,6 @@ msgstr ""
 msgid "Adding support for x86 devices"
 msgstr "加上對 x86 裝置的支援"
 
-msgid ""
-"This will create a fat binary that works on all platforms. The final APK "
-"size of exported projects will depend on the platforms you choose to support "
-"when exporting; in other words, unused platforms will be removed from the "
-"APK."
-msgstr ""
-"這樣會產生一個很大的二進位檔案，可用於所有平台。最終用於匯出專案的 APK 大小會"
-"依據匯出時選擇要支援的平台而定。也就是說，未使用的平台會從 APK 中被移除。"
-
 msgid "Cleaning the generated export templates"
 msgstr "清理產生的匯出樣板"
 
@@ -143,31 +128,8 @@ msgstr "可以使用下列指令來移除產生的匯出樣板："
 msgid "Using the export templates"
 msgstr "使用匯出樣板"
 
-msgid ""
-"Godot needs release and debug APKs that were compiled against the same "
-"version/commit as the editor. If you are using official binaries for the "
-"editor, make sure to install the matching export templates, or build your "
-"own from the same version."
-msgstr ""
-"Godot 需要使用與編輯器相同版本／Commit 編譯的釋出與除錯 APK。若使用官方的編輯"
-"器執行檔，請確定與安裝的匯出樣板版本相同，或是自行以相同的版本建置。"
-
-msgid ""
-"When exporting your game, Godot opens the APK, changes a few things inside "
-"and adds your files."
-msgstr ""
-"匯出遊戲時，Godot 會開啟 APK，並在 APK 內部修改一些東西，然後加上專案檔案。"
-
 msgid "Installing the templates"
 msgstr "安裝樣板"
-
-msgid ""
-"The newly-compiled templates (``android_debug.apk`` and ``android_release."
-"apk``) must be copied to Godot's templates folder with their respective "
-"names. The templates folder can be located in:"
-msgstr ""
-"必須將新編譯的樣板 (``android_debug.apk`` and ``android_release.apk``) 複製"
-"到 Godot 的樣板路徑中，並命名為對應的名稱。樣板資料夾位於："
 
 msgid "Windows: ``%APPDATA%\\Godot\\export_templates\\<version>\\``"
 msgstr "Windows: ``%APPDATA%\\Godot\\templates\\<版本>\\``"
@@ -179,13 +141,6 @@ msgid ""
 "macOS: ``$HOME/Library/Application Support/Godot/export_templates/<version>/"
 "``"
 msgstr "macOS: ``$HOME/Library/Application Support/Godot/templates/<版本>/``"
-
-msgid ""
-"However, if you are writing your custom modules or custom C++ code, you "
-"might instead want to configure your APKs as custom export templates here:"
-msgstr ""
-"但若你使用自定模組或自定 C++ 程式碼，可能需要在此處將自定匯出樣板設為自定 "
-"APK："
 
 msgid ""
 "You don't even need to copy them, you can just reference the resulting file "
@@ -202,16 +157,6 @@ msgid ""
 "Compiling the editor is done by calling SCons from the Godot root directory "
 "with the following arguments:"
 msgstr "可以通過在 Godot 根目錄以下列參數來呼叫 SCons 來編譯標準匯出樣板："
-
-msgid "Removing the Editor templates"
-msgstr "使用匯出樣板"
-
-msgid ""
-"You can use the following commands to remove the generated editor templates:"
-msgstr "可以使用下列指令來移除產生的匯出樣板："
-
-msgid "Installing the Godot editor"
-msgstr "安裝樣板"
 
 msgid ""
 "With an Android device with Developer Options enabled, connect the Android "
@@ -288,6 +233,3 @@ msgstr ""
 
 msgid "In any case, ``adb logcat`` should also show the cause of the error."
 msgstr "不論哪種情況，``adb logcat`` 應該也會顯示錯誤的原因。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

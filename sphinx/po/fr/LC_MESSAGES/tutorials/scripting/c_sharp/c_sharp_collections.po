@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,26 +11,62 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"If not, consider `choosing an appropriate .NET collection <https://learn."
+"microsoft.com/en-us/dotnet/standard/collections/selecting-a-collection-"
+"class>`_."
+msgstr ""
+"Sinon, considérez `choisir un collection .NET appropriée <https://learn."
+"microsoft.com/en-us/dotnet/standard/collections/selecting-a-collection-"
+"class>`_."
+
 msgid "GDScript"
 msgstr "GDScript"
 
 msgid "C#"
 msgstr "C#"
 
+msgid "``PackedByteArray``"
+msgstr "``PackedByteArray``"
+
 msgid "``byte[]``"
 msgstr "``byte[]``"
+
+msgid "``PackedInt32Array``"
+msgstr "``PackedInt32Array``"
 
 msgid "``int[]``"
 msgstr "``int[]``"
 
+msgid "``PackedInt64Array``"
+msgstr "``PackedInt64Array``"
+
+msgid "``PackedFloat32Array``"
+msgstr "``PackedFloat32Array``"
+
 msgid "``float[]``"
 msgstr "``float[]``"
+
+msgid "``PackedFloat64Array``"
+msgstr "``PackedFloat64Array``"
+
+msgid "``PackedStringArray``"
+msgstr "``PackedStringArray``"
+
+msgid "``PackedVector2Array``"
+msgstr "``PackedVector2Array``"
 
 msgid "``Vector2[]``"
 msgstr "``Vector2[]``"
 
+msgid "``PackedVector3Array``"
+msgstr "``PackedVector3Array``"
+
 msgid "``Vector3[]``"
 msgstr "``Vector3[]``"
+
+msgid "``PackedColorArray``"
+msgstr "``PackedColorArray``"
 
 msgid "``Color[]``"
 msgstr "``Color[]``"
@@ -49,6 +85,13 @@ msgstr "AddRange"
 
 msgid "Clear and AddRange"
 msgstr "Vider et AddRange"
+
+msgid ""
+"``Array[^1]`` or `System.Linq.Enumerable.Last`_ or `System.Linq.Enumerable."
+"LastOrDefault`_"
+msgstr ""
+"``Array[^1]`` ou `System.Linq.Enumerable.Last`_ ou `System.Linq.Enumerable."
+"LastOrDefault`_"
 
 msgid "bsearch_custom"
 msgstr "bsearch_custom"
@@ -79,6 +122,13 @@ msgstr "Trouver"
 
 msgid "front"
 msgstr "Devant"
+
+msgid ""
+"``Array[0]`` or `System.Linq.Enumerable.First`_ or `System.Linq.Enumerable."
+"FirstOrDefault`_"
+msgstr ""
+"``Array[0]`` ou `System.Linq.Enumerable.First`_ ou `System.Linq.Enumerable."
+"FirstOrDefault`_"
 
 msgid "get_typed_script"
 msgstr "get_typed_script"
@@ -116,6 +166,9 @@ msgstr "`System.Linq.Enumerable.Select`_"
 msgid "max"
 msgstr "max"
 
+msgid "min"
+msgstr "min"
+
 msgid "pick_random"
 msgstr "pick_random"
 
@@ -130,6 +183,9 @@ msgstr "``Array[i]`` avec ``RemoveAt(i)``"
 
 msgid "pop_back"
 msgstr "pop_back"
+
+msgid "``Array[^1]`` with ``RemoveAt(Count - 1)``"
+msgstr "``Array[^1]`` avec ``RemoveAt(Count - 1)``"
 
 msgid "pop_front"
 msgstr "pop_front"
@@ -214,6 +270,3 @@ msgstr "fusionner"
 
 msgid "Merge"
 msgstr "Fusionner"
-
-msgid "Translation status"
-msgstr "État de la traduction"

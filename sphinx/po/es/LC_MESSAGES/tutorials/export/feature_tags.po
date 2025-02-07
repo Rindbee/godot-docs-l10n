@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -73,6 +73,12 @@ msgstr "**Etiquetas de características**"
 msgid "**Description**"
 msgstr "**Descripción**"
 
+msgid "**bsd**"
+msgstr "**bsd**"
+
+msgid "**ios**"
+msgstr "**ios**"
+
 msgid "Running on Windows"
 msgstr "Ejecución en Windows"
 
@@ -129,6 +135,9 @@ msgstr "Ejecutando en una versión de 32 bits ARM"
 
 msgid "**arm**"
 msgstr "**arm**"
+
+msgid "**wasm**"
+msgstr "**wasm**"
 
 msgid "**mobile**"
 msgstr "**móvil**"
@@ -241,6 +250,3 @@ msgstr ""
 
 msgid "Customizing the build"
 msgstr "Personalización de la Compilación"
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

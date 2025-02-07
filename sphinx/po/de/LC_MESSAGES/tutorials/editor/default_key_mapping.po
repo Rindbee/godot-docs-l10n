@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,19 +16,6 @@ msgstr "Cheatsheet, Cheat Sheet, Shortcut"
 
 msgid "Default editor shortcuts"
 msgstr "Default-Editor-Tastenkürzel"
-
-msgid ""
-"Many of Godot Editor functions can be executed with keyboard shortcuts. This "
-"page lists functions which have associated shortcuts by default, but many "
-"others are available for customization in editor settings as well. To change "
-"keys associated with these and other actions navigate to ``Editor -> Editor "
-"Settings -> Shortcuts``."
-msgstr ""
-"Viele der Funktionen des Godot Editors können auch mittels Tastenkürzeln "
-"erreicht werden. Diese Seite listet Funktionen mit den Default-Tastenkürzeln "
-"auf, es können aber auch eigene in den Editor-Einstellungen zugewiesen "
-"werden. Um die Tastenkürzel zu ändern oder für andere Aktionen zu erzeugen, "
-"gehnavigieren Sie zu ``Editor -> Editoreinstellungen -> Tastenkürzel``."
 
 msgid ""
 "While some actions are universal, a lot of shortcuts are specific to "
@@ -54,9 +41,6 @@ msgstr ""
 "MacOS-Ökosystem. Benutzer, die mit den Tastenkürzeln auf diesem "
 "Betriebssystem vertraut sind, sollten die Default-Tastenbelegung des Godot-"
 "Editors intuitiv finden."
-
-msgid "General Editor Actions"
-msgstr "Allgemeine Editoraktionen"
 
 msgid "Action name"
 msgstr "Name der Aktion"
@@ -415,8 +399,14 @@ msgstr ":kbd:`Umschalt + F12`"
 msgid "``editor/bottom_panel_expand``"
 msgstr "``editor/bottom_panel_expand``"
 
-msgid "2D / Canvas Item Editor"
-msgstr "2D / Canvas-Element-Editor"
+msgid ":kbd:`Ctrl + Shift + P`"
+msgstr ":kbd:`Strg + Umschalt + P`"
+
+msgid ":kbd:`Cmd + Shift + P`"
+msgstr ":kbd:`Cmd + Umschalt + P`"
+
+msgid ":kbd:`Alt + F`"
+msgstr ":kbd:`Alt + F`"
 
 msgid "Zoom In"
 msgstr "Hereinzoomen"
@@ -592,12 +582,6 @@ msgstr "``canvas_item_editor/frame_selection``"
 msgid "Preview Canvas Scale"
 msgstr "Vorschau Canvas-Skalierung"
 
-msgid ":kbd:`Ctrl + Shift + P`"
-msgstr ":kbd:`Strg + Umschalt + P`"
-
-msgid ":kbd:`Cmd + Shift + P`"
-msgstr ":kbd:`Cmd + Umschalt + P`"
-
 msgid "``canvas_item_editor/preview_canvas_scale``"
 msgstr "``canvas_item_editor/preview_canvas_scale``"
 
@@ -642,9 +626,6 @@ msgstr ":kbd:`Umschalt + K`"
 
 msgid "``canvas_item_editor/anim_clear_pose``"
 msgstr "``canvas_item_editor/anim_clear_pose``"
-
-msgid "3D / Spatial Editor"
-msgstr "3D / Spatial-Editor"
 
 msgid "Toggle Freelook"
 msgstr "Freelook ein-/ausschalten"
@@ -943,9 +924,6 @@ msgstr ":kbd:`Cmd + 4`"
 msgid "``spatial_editor/4_viewports``"
 msgstr "``spatial_editor/4_viewports``"
 
-msgid "Text Editor"
-msgstr "Texteditor"
-
 msgid "Cut"
 msgstr "Ausschneiden"
 
@@ -1122,9 +1100,6 @@ msgstr "``script_text_editor/toggle_comment``"
 
 msgid "Fold/Unfold Line"
 msgstr "Zeile ein-/ausklappen"
-
-msgid ":kbd:`Alt + F`"
-msgstr ":kbd:`Alt + F`"
 
 msgid ":kbd:`Ctrl + Cmd + F`"
 msgstr ":kbd:`Ctrl + Cmd + F`"
@@ -1342,9 +1317,6 @@ msgstr ":kbd:`Opt + Umschalt + Space`"
 msgid "``script_text_editor/contextual_help``"
 msgstr "``script_text_editor/contextual_help``"
 
-msgid "Script Editor"
-msgstr "Skript-Editor"
-
 msgid "``script_editor/find``"
 msgstr "``script_editor/find``"
 
@@ -1501,9 +1473,6 @@ msgstr "Zoom zurücksetzen"
 msgid "``script_editor/reset_zoom``"
 msgstr "``script_editor/reset_zoom``"
 
-msgid "Editor Output"
-msgstr "Editor-Ausgabe"
-
 msgid "Copy Selection"
 msgstr "Auswahl kopieren"
 
@@ -1545,9 +1514,6 @@ msgstr ":kbd:`F12`"
 
 msgid "``debugger/continue``"
 msgstr "``debugger/continue``"
-
-msgid "File Dialog"
-msgstr "Dateidialog"
 
 msgid "Go Back"
 msgstr "Zurück"
@@ -1633,12 +1599,6 @@ msgstr "``file_dialog/delete``"
 msgid "Focus Path"
 msgstr "Zu Pfad springen"
 
-msgid ":kbd:`Ctrl + D`"
-msgstr ":kbd:`Strg + D`"
-
-msgid ":kbd:`Cmd + D`"
-msgstr ":kbd:`Cmd + D`"
-
 msgid "``file_dialog/focus_path``"
 msgstr "``file_dialog/focus_path``"
 
@@ -1666,9 +1626,6 @@ msgstr ":kbd:`Cmd + Pfeil unten`"
 msgid "``file_dialog/move_favorite_down``"
 msgstr "``file_dialog/move_favorite_down``"
 
-msgid "FileSystem Dock"
-msgstr "Dateisystem-Dock"
-
 msgid "Copy Path"
 msgstr "Pfad kopieren"
 
@@ -1678,14 +1635,17 @@ msgstr "``filesystem_dock/copy_path``"
 msgid "Duplicate"
 msgstr "Duplicate"
 
+msgid ":kbd:`Ctrl + D`"
+msgstr ":kbd:`Strg + D`"
+
+msgid ":kbd:`Cmd + D`"
+msgstr ":kbd:`Cmd + D`"
+
 msgid "``filesystem_dock/duplicate``"
 msgstr "``filesystem_dock/duplicate``"
 
 msgid "``filesystem_dock/delete``"
 msgstr "``filesystem_dock/delete``"
-
-msgid "Scene Tree Dock"
-msgstr "Szenenbaum-Dock"
 
 msgid "Add Child Node"
 msgstr "Child-Node hinzufügen"
@@ -1735,9 +1695,6 @@ msgstr "``scene_tree/move_up``"
 msgid "``scene_tree/move_down``"
 msgstr "``scene_tree/move_down``"
 
-msgid "Animation Track Editor"
-msgstr "Animationstrack-Editor"
-
 msgid "``animation_editor/duplicate_selection``"
 msgstr "``animation_editor/duplicate_selection``"
 
@@ -1779,9 +1736,6 @@ msgstr ":kbd:`Cmd + Pfeil links`"
 
 msgid "``animation_editor/goto_prev_step``"
 msgstr "``animation_editor/goto_prev_step``"
-
-msgid "Tile Map Editor"
-msgstr "TileMap-Editor"
 
 msgid "Select"
 msgstr "Auswählen"
@@ -1897,9 +1851,6 @@ msgstr ":kbd:`X`"
 msgid "``tiles_editor/rotate_tile_right``"
 msgstr "``tiles_editor/rotate_tile_right``"
 
-msgid "Tileset Editor"
-msgstr "TileSet-Editor"
-
 msgid "Next Coordinate"
 msgstr "Nächste Koordinate"
 
@@ -1986,6 +1937,3 @@ msgstr ":kbd:`8`"
 
 msgid "``tileset_editor/editmode_z_index``"
 msgstr "``tileset_editor/editmode_z_index``"
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

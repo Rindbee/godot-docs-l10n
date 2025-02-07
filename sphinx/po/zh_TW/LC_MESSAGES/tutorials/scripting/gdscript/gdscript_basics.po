@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -56,17 +56,6 @@ msgid ""
 msgstr ""
 "如果你曾經有使用如 C、C++、或 C# 等靜態型別語言的經驗卻沒用過動態型別的話，建"
 "議你閱讀這個教學： :ref:`doc_gdscript_more_efficiently` 。"
-
-msgid "Language"
-msgstr "語言"
-
-msgid ""
-"In the following, an overview is given to GDScript. Details, such as which "
-"methods are available to arrays or other objects, should be looked up in the "
-"linked class descriptions."
-msgstr ""
-"接下來是 GDScript 的概要說明。關於陣列或其他物件有哪些方法可以用之類的詳細說"
-"明，請參考相關連結裡的類別介紹。"
 
 msgid "Identifiers"
 msgstr "識別項"
@@ -1153,19 +1142,6 @@ msgid "Packed arrays"
 msgstr "本地坐標"
 
 msgid ""
-"GDScript arrays are allocated linearly in memory for speed. Large arrays "
-"(more than tens of thousands of elements) may however cause memory "
-"fragmentation. If this is a concern, special types of arrays are available. "
-"These only accept a single data type. They avoid memory fragmentation and "
-"use less memory, but are atomic and tend to run slower than generic arrays. "
-"They are therefore only recommended to use for large data sets:"
-msgstr ""
-"為求速度，GDScript 的陣列在記憶體中只會以線性進行分配。對於大型陣列（超過數萬"
-"元素），可能會導致記憶體片段化。若有需要考慮這類情況，可以使用其他特殊型別的"
-"陣列。這型別別只能存放單一資料型別、能避免記憶體片段化且使用更少記憶體。但這"
-"些型別具不可分割性且速度比通用陣列還來的慢。所以只推薦用於有大量資料的情況："
-
-msgid ""
 ":ref:`PackedByteArray <class_PackedByteArray>`: An array of bytes (integers "
 "from 0 to 255)."
 msgstr ""
@@ -1274,9 +1250,6 @@ msgstr ""
 msgid "You can call it using the ``call`` method: ``x.call(PI)``."
 msgstr "您可以使用“call”方法來呼叫它：“x.call(PI)”。"
 
-msgid "Data"
-msgstr "資料"
-
 msgid "Variables"
 msgstr "變數"
 
@@ -1316,9 +1289,6 @@ msgstr "有效的型別為："
 
 msgid "Built-in types (Array, Vector2, int, String, etc.)."
 msgstr "內建型別（Array、Vector2、int、String…等）。"
-
-msgid "Engine classes (Node, Resource, Reference, etc.)."
-msgstr "引擎類別（Node、Resource、Reference…等）。"
 
 msgid ""
 "Constant names if they contain a script resource (``MyScript`` if you "
@@ -2350,6 +2320,3 @@ msgid ""
 "You can optionally pass a custom error message to be shown if the assertion "
 "fails::"
 msgstr "你還可以傳入自訂的錯誤消息，會在判斷提示失敗時顯示： ::"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

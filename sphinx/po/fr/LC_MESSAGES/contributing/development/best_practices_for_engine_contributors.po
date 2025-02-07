@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -228,6 +228,3 @@ msgstr ""
 "Comme Godot doit être livré sur un grand nombre de plates-formes, nous ne "
 "pouvons tout simplement pas relier les bibliothèques de manière dynamique. "
 "Au lieu de cela, nous les regroupons dans notre arbre des sources."
-
-msgid "Translation status"
-msgstr "État de la traduction"

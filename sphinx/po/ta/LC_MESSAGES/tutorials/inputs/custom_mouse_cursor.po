@@ -1,0 +1,51 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Customizing the mouse cursor"
+msgstr "மவுச் கர்சரைத் தனிப்பயனாக்குதல்"
+
+msgid ""
+"You might want to change the appearance of the mouse cursor in your game in "
+"order to suit the overall design. There are two ways to customize the mouse "
+"cursor:"
+msgstr ""
+"ஒட்டுமொத்த வடிவமைப்பிற்கு ஏற்றவாறு உங்கள் விளையாட்டில் மவுச் கர்சரின் தோற்றத்தை மாற்ற "
+"விரும்பலாம். மவுச் கர்சரைத் தனிப்பயனாக்க இரண்டு வழிகள் உள்ளன:"
+
+msgid ""
+"If you have to use the \"software\" approach, consider adding an "
+"extrapolation step to better display the actual mouse input."
+msgstr ""
+"நீங்கள் \"மென்பொருள்\" அணுகுமுறையைப் பயன்படுத்த வேண்டும் என்றால், உண்மையான சுட்டி உள்ளீட்டைக் "
+"காண்பிக்க ஒரு விரிவாக்க படியைச் சேர்ப்பதைக் கவனியுங்கள்."
+
+msgid "Using project settings"
+msgstr "திட்ட அமைப்புகளைப் பயன்படுத்துதல்"
+
+msgid "On the web platform, the maximum allowed cursor image size is 128×128."
+msgstr "வலை இயங்குதளத்தில், அதிகபட்சமாக அனுமதிக்கப்பட்ட கர்சர் பட அளவு 128 × 128 ஆகும்."
+
+msgid "Using a script"
+msgstr "ச்கிரிப்டைப் பயன்படுத்துதல்"
+
+msgid "Create a Node and attach the following script."
+msgstr "ஒரு முனையை உருவாக்கி பின்வரும் ச்கிரிப்டை இணைக்கவும்."
+
+msgid ""
+"Check :ref:`Input.set_custom_mouse_cursor() "
+"<class_Input_method_set_custom_mouse_cursor>`'s documentation for more "
+"information on usage and platform-specific caveats."
+msgstr "சரிபார்க்கவும்: REF: `உள்ளீடு."
+
+msgid "Cursor list"
+msgstr "கர்சர் பட்டியல்"

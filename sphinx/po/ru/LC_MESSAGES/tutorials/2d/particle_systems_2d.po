@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -31,6 +31,15 @@ msgstr ""
 
 msgid "Particle nodes"
 msgstr "Узлы частиц"
+
+msgid ""
+"You can convert a GPUParticles2D node into a CPUParticles2D node by clicking "
+"on the node in the inspector, selecting the 2D viewport, and selecting "
+"**GPUParticles2D > Convert to CPUParticles2D** in the viewport toolbar."
+msgstr ""
+"Вы можете превратить узел GPUParticles2D в CPUParticles2D кликнув на узел в "
+"инспекторе, выделяя 2D окно просмотра, и выбрав **GPUParticles2D > "
+"Преобразовать в CPUParticles2D** в панели инструментов окна просмотра."
 
 msgid "Texture"
 msgstr "Текстура"
@@ -430,6 +439,3 @@ msgstr ""
 "Изображение не следует добавлять напрямую в ``Point Texture`` или ``Color "
 "Texture``. Вместо этого всегда следует использовать меню «Загрузить маску "
 "излучения»."
-
-msgid "Translation status"
-msgstr "Статус перевода"

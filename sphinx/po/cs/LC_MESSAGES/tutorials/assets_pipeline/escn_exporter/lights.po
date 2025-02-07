@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -66,6 +66,3 @@ msgid ""
 "There is no difference between buffer shadow and ray shadow in the export."
 msgstr ""
 "V exportu není žádný rozdíl mezi stíny ``Buffer Shadow`` a ``Ray Shadow``."
-
-msgid "Translation status"
-msgstr "Stav překladu"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -96,6 +96,3 @@ msgid ""
 msgstr ""
 "这也将影响对象在Blender视图中的显示方式. 大多数时候, 你希望在处理模型时透明显"
 "示碰撞几何体, 因此效果很好."
-
-msgid "Translation status"
-msgstr "翻译状态"

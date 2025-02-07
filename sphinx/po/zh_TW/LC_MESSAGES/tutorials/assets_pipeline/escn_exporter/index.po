@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -65,6 +65,3 @@ msgstr ""
 "出工具中有一個 Python 函式 ``io_scene_godot.export(輸出檔案路徑)`` 可用於呼叫"
 "來匯出檔案。該函式能用來與其他建置系統整合。Godot-Blender-exporter 儲存庫中有"
 "提供一個範例 Makefile 與 python 腳本，可匯出一資料夾中所有的 Blend 檔案。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

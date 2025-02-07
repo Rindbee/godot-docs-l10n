@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -71,6 +71,3 @@ msgstr ""
 "Entwurfsprinzipien. Wir verwenden Werkzeuge wie das `Single Responsibility-"
 "Prinzip <https://de.wikipedia.org/wiki/Single-Responsibility-Prinzip>`_ und "
 "`Kapselung <https://de.wikipedia.org/wiki/Datenkapselung_(Programmierung)>`_."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

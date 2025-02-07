@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,11 +17,23 @@ msgstr "Lumière indirecte diffuse"
 msgid "Performance"
 msgstr "Performance"
 
+msgid "**ReflectionProbe:**"
+msgstr "**ReflectionProbe :**"
+
+msgid "**LightmapGI:**"
+msgstr "**LightmapGI :**"
+
 msgid "**VoxelGI:**"
 msgstr "**VoxelGI:**"
 
 msgid "**SDFGI:**"
 msgstr "**SDFGI:**"
+
+msgid "Visuals"
+msgstr "Visuels"
+
+msgid "average"
+msgstr "moyenne"
 
 msgid "VoxelGI in action."
 msgstr "VoxelGI en action."
@@ -44,8 +56,11 @@ msgstr "**ReflectionProbe:** |moyenne| Optionnellement en temps réel."
 msgid "User work needed"
 msgstr "Travail de l'utilisateur nécessaire"
 
+msgid "**LightmapGI:** Requires UV2 setup and baking."
+msgstr "**LightmapGI :** Nécessite une configuration UV2 et du pré-calcul."
+
+msgid "**ReflectionProbe:** Placed manually by the user."
+msgstr "**ReflectionProbe :** Placé manuellement par l'utilisateur."
+
 msgid "Summary"
 msgstr "Résumé"
-
-msgid "Translation status"
-msgstr "État de la traduction"

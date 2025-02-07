@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,18 @@ msgstr ""
 
 msgid "Documentation changelog"
 msgstr "문서 변경 내역"
+
+msgid "About"
+msgstr "정보"
+
+msgid "2D"
+msgstr "2D"
+
+msgid "Contributing"
+msgstr "기여하기"
+
+msgid "Rendering"
+msgstr "렌더링"
 
 msgid "C#"
 msgstr "C#"
@@ -28,9 +40,6 @@ msgstr "플랫폼 특화(Platform-specific)"
 
 msgid "Physics"
 msgstr "물리"
-
-msgid "2D"
-msgstr "2D"
 
 msgid "3D"
 msgstr "3D"
@@ -55,9 +64,6 @@ msgstr "에디터"
 
 msgid "GDScript"
 msgstr "GDScript"
-
-msgid "About"
-msgstr "정보"
 
 msgid "Best practices"
 msgstr "모범 사례"
@@ -334,6 +340,3 @@ msgstr "엔진 개발(Engine development)"
 
 msgid ":ref:`doc_binding_to_external_libraries`"
 msgstr ":ref:`doc_binding_to_external_libraries`"
-
-msgid "Translation status"
-msgstr "번역 상태"

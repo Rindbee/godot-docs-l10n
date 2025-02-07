@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -878,6 +878,3 @@ msgstr ""
 "konvergieren und daher besser aussehen, da sie mit mehr Daten in pro Zeit "
 "arbeiten können. Siehe :ref:`doc_creating_movies_reducing_framerate`, wenn "
 "Sie diesen Vorteil nutzen wollen, ohne Bewegungsunschärfe hinzuzufügen."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

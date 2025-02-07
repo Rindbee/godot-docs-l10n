@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,17 +16,6 @@ msgstr "速查表、快捷方式"
 
 msgid "Default editor shortcuts"
 msgstr "编辑器默认快捷键"
-
-msgid ""
-"Many of Godot Editor functions can be executed with keyboard shortcuts. This "
-"page lists functions which have associated shortcuts by default, but many "
-"others are available for customization in editor settings as well. To change "
-"keys associated with these and other actions navigate to ``Editor -> Editor "
-"Settings -> Shortcuts``."
-msgstr ""
-"Godot Editor的许多功能都可以通过键盘快捷键执行. 该页面列出了默认情况下具有关"
-"联的快捷方式的功能, 但是许多其他功能也可以在编辑器设置中进行自定义. 要更改与"
-"这些操作和其他操作相关的键, 请导航至 ``编辑器->编辑器设置->快捷键`` ."
 
 msgid ""
 "While some actions are universal, a lot of shortcuts are specific to "
@@ -48,14 +37,11 @@ msgstr ""
 "可能有所不同. 这样做是为了将编辑器更好地集成到macOS生态系统中. 熟练使用该操作"
 "系统上的标准快捷方式的用户应该直观地找到Godot Editor的默认键映射."
 
-msgid "General Editor Actions"
-msgstr "编辑器常规操作"
-
 msgid "Action name"
 msgstr "动作名称"
 
 msgid "Windows, Linux"
-msgstr "Windows, Linux"
+msgstr "Windows、Linux"
 
 msgid "macOS"
 msgstr "macOS"
@@ -408,8 +394,14 @@ msgstr ":kbd:`Shift + F12`"
 msgid "``editor/bottom_panel_expand``"
 msgstr "``editor/bottom_panel_expand``"
 
-msgid "2D / Canvas Item Editor"
-msgstr "2D / 画布项目编辑器"
+msgid ":kbd:`Ctrl + Shift + P`"
+msgstr ":kbd:`Ctrl + Shift + P`"
+
+msgid ":kbd:`Cmd + Shift + P`"
+msgstr ":kbd:`Cmd + Shift + P`"
+
+msgid ":kbd:`Alt + F`"
+msgstr ":kbd:`Alt + F`"
 
 msgid "Zoom In"
 msgstr "放大"
@@ -585,12 +577,6 @@ msgstr "``canvas_item_editor/frame_selection``"
 msgid "Preview Canvas Scale"
 msgstr "预览画布比例"
 
-msgid ":kbd:`Ctrl + Shift + P`"
-msgstr ":kbd:`Ctrl + Shift + P`"
-
-msgid ":kbd:`Cmd + Shift + P`"
-msgstr ":kbd:`Cmd + Shift + P`"
-
 msgid "``canvas_item_editor/preview_canvas_scale``"
 msgstr "``canvas_item_editor/preview_canvas_scale``"
 
@@ -635,9 +621,6 @@ msgstr ":kbd:`Shift + K`"
 
 msgid "``canvas_item_editor/anim_clear_pose``"
 msgstr "``canvas_item_editor/anim_clear_pose``"
-
-msgid "3D / Spatial Editor"
-msgstr "3D / 空间编辑器"
 
 msgid "Toggle Freelook"
 msgstr "切换自由观看"
@@ -936,9 +919,6 @@ msgstr ":kbd:`Cmd + 4`"
 msgid "``spatial_editor/4_viewports``"
 msgstr "``spatial_editor/4_viewports``"
 
-msgid "Text Editor"
-msgstr "文本编辑器"
-
 msgid "Cut"
 msgstr "剪切"
 
@@ -1115,9 +1095,6 @@ msgstr "``script_text_editor/toggle_comment``"
 
 msgid "Fold/Unfold Line"
 msgstr "折叠／展开行"
-
-msgid ":kbd:`Alt + F`"
-msgstr ":kbd:`Alt + F`"
 
 msgid ":kbd:`Ctrl + Cmd + F`"
 msgstr ":kbd:`Ctrl + Cmd + F`"
@@ -1335,9 +1312,6 @@ msgstr ":kbd:`Opt + Shift + 空格`"
 msgid "``script_text_editor/contextual_help``"
 msgstr "``script_text_editor/contextual_help``"
 
-msgid "Script Editor"
-msgstr "脚本编辑器"
-
 msgid "``script_editor/find``"
 msgstr "``script_editor/find``"
 
@@ -1494,9 +1468,6 @@ msgstr "重置缩放"
 msgid "``script_editor/reset_zoom``"
 msgstr "``script_editor/reset_zoom``"
 
-msgid "Editor Output"
-msgstr "编辑器输出"
-
 msgid "Copy Selection"
 msgstr "复制所选项"
 
@@ -1538,9 +1509,6 @@ msgstr ":kbd:`F12`"
 
 msgid "``debugger/continue``"
 msgstr "``debugger/continue``"
-
-msgid "File Dialog"
-msgstr "文件对话框"
 
 msgid "Go Back"
 msgstr "后退"
@@ -1626,12 +1594,6 @@ msgstr "``file_dialog/delete``"
 msgid "Focus Path"
 msgstr "聚焦路径"
 
-msgid ":kbd:`Ctrl + D`"
-msgstr ":kbd:`Ctrl + D`"
-
-msgid ":kbd:`Cmd + D`"
-msgstr ":kbd:`Cmd + D`"
-
 msgid "``file_dialog/focus_path``"
 msgstr "``file_dialog/focus_path``"
 
@@ -1659,9 +1621,6 @@ msgstr ":kbd:`Cmd + Down Arrow`"
 msgid "``file_dialog/move_favorite_down``"
 msgstr "``file_dialog/move_favorite_down``"
 
-msgid "FileSystem Dock"
-msgstr "文件系统面板"
-
 msgid "Copy Path"
 msgstr "复制路径"
 
@@ -1669,16 +1628,19 @@ msgid "``filesystem_dock/copy_path``"
 msgstr "``filesystem_dock/copy_path``"
 
 msgid "Duplicate"
-msgstr "Duplicate"
+msgstr "创建副本"
+
+msgid ":kbd:`Ctrl + D`"
+msgstr ":kbd:`Ctrl + D`"
+
+msgid ":kbd:`Cmd + D`"
+msgstr ":kbd:`Cmd + D`"
 
 msgid "``filesystem_dock/duplicate``"
 msgstr "``filesystem_dock/duplicate``"
 
 msgid "``filesystem_dock/delete``"
 msgstr "``filesystem_dock/delete``"
-
-msgid "Scene Tree Dock"
-msgstr "场景树停靠面板"
 
 msgid "Add Child Node"
 msgstr "添加子节点"
@@ -1728,9 +1690,6 @@ msgstr "``scene_tree/move_up``"
 msgid "``scene_tree/move_down``"
 msgstr "``scene_tree/move_down``"
 
-msgid "Animation Track Editor"
-msgstr "动画轨道编辑器"
-
 msgid "``animation_editor/duplicate_selection``"
 msgstr "``animation_editor/duplicate_selection``"
 
@@ -1772,9 +1731,6 @@ msgstr ":kbd:`Cmd + Left Arrow`"
 
 msgid "``animation_editor/goto_prev_step``"
 msgstr "``animation_editor/goto_prev_step``"
-
-msgid "Tile Map Editor"
-msgstr "图块地图编辑器"
 
 msgid "Select"
 msgstr "选择"
@@ -1890,9 +1846,6 @@ msgstr ":kbd:`X`"
 msgid "``tiles_editor/rotate_tile_right``"
 msgstr "``tiles_editor/rotate_tile_right``"
 
-msgid "Tileset Editor"
-msgstr "图块集编辑器"
-
 msgid "Next Coordinate"
 msgstr "下一个坐标"
 
@@ -1979,6 +1932,3 @@ msgstr ":kbd:`8`"
 
 msgid "``tileset_editor/editmode_z_index``"
 msgstr "``tileset_editor/editmode_z_index``"
-
-msgid "Translation status"
-msgstr "翻译状态"

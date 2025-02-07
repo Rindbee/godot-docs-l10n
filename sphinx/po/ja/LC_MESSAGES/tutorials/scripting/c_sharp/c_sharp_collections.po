@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -38,14 +38,44 @@ msgstr "\\ ``Color[]``"
 msgid "Array"
 msgstr "配列"
 
+msgid "N/A"
+msgstr "\\ N/A"
+
 msgid "clear"
 msgstr "はっきりとした"
+
+msgid "count"
+msgstr "\\ count"
 
 msgid "Duplicate"
 msgstr "複製"
 
+msgid "erase"
+msgstr "\\ erase"
+
+msgid "find"
+msgstr "\\ find"
+
+msgid "hash"
+msgstr "\\ hash"
+
+msgid "GD.Hash"
+msgstr "\\ GD.Hash"
+
+msgid "insert"
+msgstr "\\ insert"
+
+msgid "is_empty"
+msgstr "\\ is_empty"
+
 msgid "max"
 msgstr "\\ max"
+
+msgid "reverse"
+msgstr "\\ reverse"
+
+msgid "rfind"
+msgstr "\\ rfind"
 
 msgid "Count"
 msgstr "カウント"
@@ -55,6 +85,3 @@ msgstr "辞書(ディクショナリ)"
 
 msgid "keys"
 msgstr "\\ keys"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -179,6 +179,3 @@ msgid ""
 msgstr ""
 "``Input`` 싱글톤을 사용하면 코드의 어느 곳에서나 플레이어의 입력에 반응할 수 "
 "있습니다. 특히 ``_process()`` 루프에서 이것을 사용하게 될 것입니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

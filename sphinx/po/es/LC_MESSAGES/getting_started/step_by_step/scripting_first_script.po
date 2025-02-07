@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -340,6 +340,15 @@ msgstr ""
 "es una propiedad heredada de la clase ``Node2D``, la que ``Sprite2D`` "
 "extiende. Esta controla la rotación de nuestro nodo y funciona con radianes."
 
+msgid ""
+"In the code editor, you can Ctrl-click (Cmd-click on MacOS) on any built-in "
+"property or function like ``position``, ``rotation``, or ``_process`` to "
+"open the corresponding documentation in a new tab."
+msgstr ""
+"En el editor de código, puede presionar Ctrl + clic en cualquier función o "
+"propiedad incorporada como ``position``, ``rotation`` o ``_process`` para "
+"abrir la documentación correspondiente en una nueva pestaña."
+
 msgid "Run the scene to see the Godot icon turn in-place."
 msgstr "Ejecute la escena para ver el ícono de Godot girar en su lugar."
 
@@ -427,6 +436,3 @@ msgstr "Script completo"
 
 msgid "Here is the complete ``sprite_2d.gd`` file for reference."
 msgstr "Aquí está el archivo ``sprite_2d.gd`` completo como referencia."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

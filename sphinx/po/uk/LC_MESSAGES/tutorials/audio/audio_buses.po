@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -184,6 +184,11 @@ msgstr ""
 "Звукові шини можуть містити всілякі ефекти. Ці ефекти так чи інакше змінюють "
 "звук і застосовуються по порядку."
 
+msgid "For information on what each effect does, see :ref:`doc_audio_effects`."
+msgstr ""
+"Щоб отримати інформацію про те, що робить кожен ефект, перегляньте :ref:"
+"`doc_audio_effects`."
+
 msgid "Automatic bus disabling"
 msgstr "Автоматичне відключення шини"
 
@@ -226,6 +231,3 @@ msgstr ""
 "Макет шини за замовчуванням автоматично зберігається у файлі ``res://"
 "default_bus_layout.tres``. Власні налаштування шини можна зберігати та "
 "завантажувати з диска."
-
-msgid "Translation status"
-msgstr "Стан перекладу"

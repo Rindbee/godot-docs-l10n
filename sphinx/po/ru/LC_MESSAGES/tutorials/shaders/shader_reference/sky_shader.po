@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,9 +29,6 @@ msgstr "Глобальные встроенные функции"
 msgid "Built-in"
 msgstr "Встроенный"
 
-msgid "Global time, in seconds."
-msgstr "Глобальное время в секундах."
-
 msgid ""
 "A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
 "radians in full turn."
@@ -41,6 +38,3 @@ msgstr ""
 
 msgid "in vec2 **SCREEN_UV**"
 msgstr "vec2 **SCREEN_UV**"
-
-msgid "Translation status"
-msgstr "Статус перевода"

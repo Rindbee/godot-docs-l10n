@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -375,15 +375,3 @@ msgid ""
 "The following sections provides script templates for nodes commonly used "
 "with NavigationAgents."
 msgstr "以下部分提供了通常與NavigationAgents 一起使用的節點的腳本模板。"
-
-msgid "Actor as Node3D"
-msgstr "角色為 Node3D"
-
-msgid "Actor as CharacterBody3D"
-msgstr "角色為 CharacterBody3D"
-
-msgid "Actor as RigidBody3D"
-msgstr "角色為 RigidBody3D"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

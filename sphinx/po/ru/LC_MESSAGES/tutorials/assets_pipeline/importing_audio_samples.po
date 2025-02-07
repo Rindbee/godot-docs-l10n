@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -83,6 +83,3 @@ msgstr ""
 "эффектами. Это избавляет мастеров SFX от необходимости добавлять "
 "реверберацию к звуковым эффектам, значительно уменьшая их размер и "
 "обеспечивая правильную обрезку."
-
-msgid "Translation status"
-msgstr "Статус перевода"

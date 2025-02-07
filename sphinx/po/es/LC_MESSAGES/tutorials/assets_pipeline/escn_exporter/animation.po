@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -139,6 +139,3 @@ msgstr ""
 "hijo compartirían su AnimationPlayer. Es útil cuando tienes varias "
 "plataformas, y cada Esqueleto y Malla tiene acciones; entonces una "
 "plataforma tendría solo un AnimationPlayer."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

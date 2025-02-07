@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -256,6 +256,3 @@ msgid ""
 msgstr ""
 "Siehe :ref:`class_GridMap` für Details zu den Methoden und Membervariablen "
 "des Nodes."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

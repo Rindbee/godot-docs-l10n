@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -34,17 +34,6 @@ msgstr ""
 msgid "Compiling"
 msgstr "コンパイル"
 
-msgid "Open a Terminal, go to the root dir of the engine source code and type:"
-msgstr ""
-"ターミナルを開き、エンジンソースコードのルートディレクトリに移動し、次のよう"
-"に入力します:"
-
-msgid "for a debug build, or:"
-msgstr "デバッグビルドの場合、または次の場合:"
-
-msgid "Alternatively, you can run"
-msgstr "または、次の操作を実行できます"
-
 msgid "Run"
 msgstr "実行"
 
@@ -54,6 +43,3 @@ msgid ""
 msgstr ""
 "デバイスまたはシミュレーターで実行するには、次の手順に従います: :ref:"
 "`doc_exporting_for_ios`。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

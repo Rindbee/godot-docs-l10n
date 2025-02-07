@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -69,8 +69,77 @@ msgstr ""
 msgid "Setup"
 msgstr "Налаштування"
 
+msgid ""
+"Settings need to be changed in two places. First, in the editor settings, "
+"under **Export > Windows**. Click on the folder next to the ``Sign Tool`` "
+"setting, if you're using Windows navigate to and select ``SignTool.exe``, if "
+"you're on a different OS select ``osslsigncode``."
+msgstr ""
+"Налаштування потрібно змінити в двох місцях. Спочатку в налаштуваннях "
+"редактора в розділі **Експорт > Windows**. Клацніть папку поруч із "
+"налаштуванням ``Sign Tool``, якщо ви використовуєте Windows, перейдіть до та "
+"виберіть ``SignTool.exe``, якщо ви користуєтеся іншою ОС, виберіть "
+"``osslsigncode``."
+
+msgid ""
+"The second location is the Windows export preset, which can be found in "
+"**Project > Export...**. Add a windows desktop preset if you haven't "
+"already. Under options there is a code signing category."
+msgstr ""
+"Друге розташування — це стиль експорту Windows, який можна знайти в **Проект "
+"> Експорт...**. Додайте стиль робочого столу Windows, якщо ви ще цього не "
+"зробили. Під параметрами є категорія підпису коду."
+
+msgid ""
+"``Enabled`` must be set to true, and ``Identity`` must be set to the signing "
+"certificate. The other settings can be adjusted as needed. Once this is Done "
+"Godot will sign your project on export."
+msgstr ""
+"``Enabled`` має бути встановлено на true, а ``Identity`` має бути "
+"встановлено на сертифікат підпису. Інші параметри можна налаштувати за "
+"потреби. Після цього Godot підпише ваш проект під час експорту."
+
 msgid "Environment variables"
 msgstr "Змінні середовища"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid ""
+"You can use the following environment variables to set export options "
+"outside of the editor. During the export process, these override the values "
+"that you set in the export menu."
+msgstr ""
+"Ви можете використовувати такі змінні середовища, щоб налаштувати параметри "
+"експорту поза редактором. Під час процесу експорту вони замінюють значення, "
+"встановлені в меню експорту."
+
+msgid "Windows export environment variables"
+msgstr "Експорт змінних середовища Windows"
+
+msgid "Export option"
+msgstr "Варіант експорту"
+
+msgid "Environment variable"
+msgstr "Змінна середовища"
+
+msgid "Encryption / Encryption Key"
+msgstr "Шифрування / ключ шифрування"
+
+msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "Options / Codesign / Identity Type"
+msgstr "Параметри / Кодовий дизайн / Тип ідентифікації"
+
+msgid "``GODOT_WINDOWS_CODESIGN_IDENTITY_TYPE``"
+msgstr "``GODOT_WINDOWS_CODESIGN_IDENTITY_TYPE``"
+
+msgid "Options / Codesign / Identity"
+msgstr "Опції / Кодовий дизайн / Ідентифікація"
+
+msgid "``GODOT_WINDOWS_CODESIGN_IDENTITY``"
+msgstr "``GODOT_WINDOWS_CODESIGN_IDENTITY``"
+
+msgid "Options / Codesign / Password"
+msgstr "Параметри / Кодовий дизайн / Пароль"
+
+msgid "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
+msgstr "``GODOT_WINDOWS_CODESIGN_PASSWORD``"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,6 +24,3 @@ msgstr ""
 "<doc_gdscript_static_typing>` (pero puede funcionar también sin tipado "
 "estático). Está allí para ayudar a evitar errores que son difíciles de ver "
 "durante el desarrollo y que pueden llevar a errores en tiempo de ejecución."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

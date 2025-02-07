@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,6 +29,9 @@ msgid ""
 msgstr ""
 "Для получения подробной информации о языке шейдеров Godot, пожалуйста, "
 "обратитесь к ссылке :ref:`Shading Language <doc_shading_language>`."
+
+msgid "GLSL"
+msgstr "GLSL"
 
 msgid ""
 "Godot uses a shading language based on GLSL with the addition of a few "
@@ -174,17 +177,38 @@ msgstr "Эквивалент"
 msgid "Description"
 msgstr "Описание"
 
+msgid "gl_FragColor"
+msgstr "gl_FragColor"
+
 msgid "COLOR"
 msgstr "ЦВЕТ"
 
+msgid "gl_FragCoord"
+msgstr "gl_FragCoord"
+
+msgid "vec4"
+msgstr "vec4"
+
+msgid "FRAGCOORD"
+msgstr "FRAGCOORD"
+
 msgid "VERTEX"
 msgstr "ВЕРШИНА"
+
+msgid "gl_PointSize"
+msgstr "gl_PointSize"
 
 msgid "float"
 msgstr "float"
 
 msgid "POINT_SIZE"
 msgstr "РАЗМЕР_ТОЧКИ"
+
+msgid "gl_PointCoord"
+msgstr "gl_PointCoord"
+
+msgid "vec2"
+msgstr "vec2"
 
 msgid "POINT_COORD"
 msgstr "МЕСТОПОЛОЖЕНИЕ_ТОЧКИ"
@@ -194,6 +218,9 @@ msgstr "gl_FrontFаcing"
 
 msgid "bool"
 msgstr "bool"
+
+msgid "FRONT_FACING"
+msgstr "FRONT_FACING"
 
 msgid "Coordinates"
 msgstr "Координаты"
@@ -232,8 +259,56 @@ msgstr ""
 msgid "fragColor"
 msgstr "frаgColor"
 
+msgid "fragCoord"
+msgstr "fragCoord"
+
+msgid "FRAGCOORD.xy"
+msgstr "FRAGCOORD.xy"
+
 msgid "iResolution"
 msgstr "iRеsolution"
 
-msgid "Translation status"
-msgstr "Статус перевода"
+msgid "vec3"
+msgstr "vec3"
+
+msgid "iTime"
+msgstr "iTime"
+
+msgid "TIME"
+msgstr "TIME"
+
+msgid "iTimeDelta"
+msgstr "iTimeDelta"
+
+msgid "iFrame"
+msgstr "iFrame"
+
+msgid "iChannelTime[4]"
+msgstr "iChannelTime[4]"
+
+msgid "iMouse"
+msgstr "iMouse"
+
+msgid "iDate"
+msgstr "iDate"
+
+msgid "iChannelResolution[4]"
+msgstr "iChannelResolution[4]"
+
+msgid "iChanneli"
+msgstr "iChanneli"
+
+msgid "Sampler2D"
+msgstr "Sampler2D"
+
+msgid "TEXTURE"
+msgstr "TEXTURE"
+
+msgid "u_resolution"
+msgstr "u_resolution"
+
+msgid "u_time"
+msgstr "u_time"
+
+msgid "u_mouse"
+msgstr "u_mouse"

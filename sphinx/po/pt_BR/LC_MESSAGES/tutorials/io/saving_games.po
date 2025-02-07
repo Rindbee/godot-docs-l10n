@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -121,6 +121,3 @@ msgstr ""
 "filho forem carregados. Você também precisará de uma maneira de vincular "
 "filhos aos pais, pois o :ref:`NodePath <class_nodepath>` provavelmente será "
 "inválido."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

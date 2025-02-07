@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -122,9 +122,6 @@ msgstr "ビルトイン"
 
 msgid "in float **TIME**"
 msgstr "\\ in float **TIME**"
-
-msgid "Global time, in seconds."
-msgstr "秒単位のグローバル時間。"
 
 msgid "in float **PI**"
 msgstr "\\ in float **PI**"
@@ -465,6 +462,3 @@ msgstr ""
 
 msgid "Emits a particle from a sub-emitter."
 msgstr "サブエミッターからパーティクルを放出します。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

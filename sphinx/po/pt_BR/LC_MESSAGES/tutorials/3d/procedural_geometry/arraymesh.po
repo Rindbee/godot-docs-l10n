@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -149,6 +149,3 @@ msgstr ""
 "Finalmente, podemos usar a classe :ref:'ResourceSaver<class_resourcesaver>' "
 "para salvar a ArrayMesh. Isso é útil quando você deseja gerar uma malha e, "
 "em seguida, usá-la mais tarde sem ter que gerá-la novamente."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

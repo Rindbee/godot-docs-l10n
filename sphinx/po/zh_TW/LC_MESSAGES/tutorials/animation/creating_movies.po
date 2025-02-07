@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -704,6 +704,3 @@ msgstr ""
 "這也使得在多個影格上收斂的效果（例如時間抗鋸齒、SDFGI 和體積霧）收斂得更快，"
 "因此看起來更好，因為它們將能夠在給定時間處理更多資料。如果您想在不新增運動模"
 "糊的情況下獲得此優勢，請參閱 doc_creating_movies_reducing_framerate`。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

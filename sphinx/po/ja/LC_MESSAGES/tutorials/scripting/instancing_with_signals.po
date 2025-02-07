@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -108,9 +108,13 @@ msgid "Here is the code for the player using signals to emit the bullet:"
 msgstr "シグナルを使用して弾丸を発射するプレイヤーのコードは次のとおりです:"
 
 msgid ""
+"In the main scene, we then connect the player's signal (it will appear in "
+"the \"Node\" tab of the Inspector)"
+msgstr ""
+"メインシーンで、プレイヤーのシグナルを接続します(インスペクターの[ノード]タブ"
+"に表示されます)"
+
+msgid ""
 "Now the bullets will maintain their own movement independent of the player's "
 "rotation:"
 msgstr "これで、弾丸はプレイヤーの回転に関係なく独自の動きを維持します:"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

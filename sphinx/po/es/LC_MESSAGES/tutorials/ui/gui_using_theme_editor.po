@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -229,6 +229,3 @@ msgstr ""
 "Custom Items) eliminará todos los elementos de tema personalizados para el "
 "tipo seleccionado. Por último, **Eliminar todos los elementos** (Remove All "
 "Items) eliminará todo del tipo."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

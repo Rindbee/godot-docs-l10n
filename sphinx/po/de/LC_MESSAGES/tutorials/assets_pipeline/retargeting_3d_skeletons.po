@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -386,6 +386,3 @@ msgstr ""
 "Außerdem kann es bei Modellen mit gebeugten Knien oder Füßen notwendig sein, "
 "die Höhe der ``scale_base_bone`` anzupassen. Hierfür können Sie die Option "
 "``base_height_adjustment`` verwenden."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

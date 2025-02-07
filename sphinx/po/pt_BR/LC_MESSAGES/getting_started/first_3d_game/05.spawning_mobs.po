@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -35,6 +35,10 @@ msgstr "|image1|"
 
 msgid "image1"
 msgstr "imagem1"
+
+msgid "If you still have *Input Map* open, switch to the *General* tab."
+msgstr ""
+"Se você ainda estiver com a aba *Input Map* aberta, mude para a aba *Geral*."
 
 msgid ""
 "In the left menu, navigate down to *Display -> Window*. On the right, set "
@@ -70,6 +74,17 @@ msgstr "imagem3"
 
 msgid "Adding placeholder cylinders"
 msgstr "Adicionando cilindros de substituto"
+
+msgid ""
+"Let's add the placeholder meshes. Add a new :ref:`Node3D <class_Node3D>` as "
+"a child of the ``Main`` node and name it ``Cylinders``. We'll use it to "
+"group the cylinders. Select ``Cylinders`` and add a child node :ref:"
+"`MeshInstance3D <class_MeshInstance3D>`"
+msgstr ""
+"Vamos adicionar as malhas substitutas. Adicione um novo :ref:`Node3D "
+"<class_Node3D>` como filho do nó ``Principal`` e o nomeie ``Cilindros``. "
+"Vamos usá-lo para agrupar os cilindros. Selecione ``Cilindros`` e adicione "
+"um nó como filho :ref:`MeshInstance3D <class_MeshInstance3D>`"
 
 msgid "|image4|"
 msgstr "|image4|"
@@ -287,6 +302,17 @@ msgstr "Com isso, estamos prontos para programar o mecanismo de geração."
 msgid "Spawning monsters randomly"
 msgstr "Gerando monstros aleatóriamente"
 
+msgid ""
+"We want to spawn mobs at regular time intervals. To do this, we need to go "
+"back to the scene and add a timer. Before that, though, we need to assign "
+"the ``mob.tscn`` file to the ``mob_scene`` property above (otherwise it's "
+"null!)"
+msgstr ""
+"Queremos gerar inimigos em intervalos de tempo regulares. Para fazer isso, "
+"precisamos voltar ao local e adicionar um temporizador. Antes disso, porém, "
+"precisamos atribuir o arquivo ``mob.tscn`` para a propriedade ``mob_scene`` "
+"acima (caso contrário, é nulo!)"
+
 msgid "|image20|"
 msgstr "|image20|"
 
@@ -374,6 +400,13 @@ msgstr ""
 "câmera, então qualquer valor aleatório entre 0 e 1 é uma posição aleatória "
 "ao lado das bordas do viewport!"
 
+msgid ""
+"Note that if you remove the ``Player`` from the main scene, the following "
+"line"
+msgstr ""
+"Observe que, se você remover o ``Jogador`` da cena principal, a seguinte "
+"linha"
+
 msgid "Here is the complete ``main.gd`` script so far, for reference."
 msgstr "Aqui está o script ``main.gd`` completo até agora, para referência."
 
@@ -396,6 +429,3 @@ msgid ""
 msgstr ""
 "Por enquanto, eles se chocam e deslizam um contra o outro quando seus "
 "caminhos se cruzam. Trataremos disso na próxima parte."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

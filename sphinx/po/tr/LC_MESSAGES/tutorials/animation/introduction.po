@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,13 +12,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Introduction to the animation features"
-msgstr "Animasyon özelliklerine giriş"
+msgstr "Canlandırma özelliklerine giriş"
 
 msgid "Scene setup"
 msgstr "Sahne ayarları"
 
 msgid "Add Animation"
-msgstr "Animasyon Ekle"
-
-msgid "Translation status"
-msgstr "Çeviri durumu"
+msgstr "Canlandırma Ekle"

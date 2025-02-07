@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -489,6 +489,3 @@ msgstr ""
 "gilt auch für den Editor, da wir ihn auf lange Sicht möglicherweise auf iOS "
 "einsetzen wollen. Da iOS kein dynamisches Linking unterstützt, ist "
 "statisches Linking die einzige Option auf dieser Plattform."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

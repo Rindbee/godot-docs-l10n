@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,15 @@ msgstr ""
 
 msgid "Exporting for Linux"
 msgstr "Експорт на Linux"
+
+msgid ""
+"This page describes how to export a Godot project to Linux. If you're "
+"looking to compile editor or export template binaries from source instead, "
+"read :ref:`doc_compiling_for_linuxbsd`."
+msgstr ""
+"На цій сторінці описано, як експортувати проект Godot у Linux. Якщо замість "
+"цього ви бажаєте скомпілювати редактор або експортувати двійкові файли "
+"шаблону з джерела, прочитайте :ref:`doc_compiling_for_linuxbsd`."
 
 msgid ""
 "The simplest way to distribute a game for PC is to copy the executable "
@@ -39,5 +48,26 @@ msgstr ""
 msgid "Environment variables"
 msgstr "Змінні середовища"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid ""
+"You can use the following environment variables to set export options "
+"outside of the editor. During the export process, these override the values "
+"that you set in the export menu."
+msgstr ""
+"Ви можете використовувати такі змінні середовища, щоб налаштувати параметри "
+"експорту поза редактором. Під час процесу експорту вони замінюють значення, "
+"встановлені в меню експорту."
+
+msgid "Linux export environment variables"
+msgstr "Змінні середовища експорту Linux"
+
+msgid "Export option"
+msgstr "Варіант експорту"
+
+msgid "Environment variable"
+msgstr "Змінна середовища"
+
+msgid "Encryption / Encryption Key"
+msgstr "Шифрування / ключ шифрування"
+
+msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"

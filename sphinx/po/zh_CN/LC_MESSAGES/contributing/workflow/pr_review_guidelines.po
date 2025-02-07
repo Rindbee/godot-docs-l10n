@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -37,11 +37,55 @@ msgstr "**代码仅涉及 PR（和提交信息）中提及的领域。**"
 msgid "**Code properly uses Godot's own APIs and patterns.**"
 msgstr "**代码正确使用了 Godot 自己的 API 和模式。**"
 
+msgid ""
+"Consistency is very important, and a solution that already exists in the "
+"codebase is preferable to an ad-hoc solution."
+msgstr ""
+"一致性非常重要，相较于临时的解决方案，我们更倾向于使用代码库中已有的解决方"
+"案。"
+
 msgid "**Are core areas affected by the change?**"
 msgstr "**修改影响核心区域吗？**"
 
+msgid ""
+"Sometimes a PR that is supposed to solve a local problem can have a far-"
+"reaching effect way outside of its scope. Usually it is best to keep code "
+"changes local to where the problem arises. If you think that the solution "
+"requires changes outside the scope of the problem, it is usually best to "
+"seek the opinion of a team leader who may have another idea for how to solve "
+"the problem."
+msgstr ""
+"有时，本应解决局部问题的 PR 会影响到自身范围之外的内容。通常最好让代码的改动"
+"局限于产生问题的地方。如果你认为解决方法需要修改问题领域之外的地方，通常最好"
+"征求一下团队领导的意见，他们可能对如何解决问题有其他想法。"
+
 msgid "4. Iterate with the contributor and improve the PR"
 msgstr "4、与贡献者迭代改进 PR"
+
+msgid ""
+"If the PR has clear blockers or will likely not get merged for whatever "
+"other reason, that fact should be communicated as early and clearly as "
+"possible. We want to avoid stringing people along because it feels bad to "
+"say \"sorry, no\"."
+msgstr ""
+"如果 PR 存在明显的障碍，或者因为其他原因不大可能合并，应当尽早就这一事实进行"
+"沟通。我们希望避免因为不好意思说“抱歉，不行”而对他人进行拖延。"
+
+msgid ""
+"As you review pull requests, keep the Godot `Code of Conduct <https://"
+"godotengine.org/code-of-conduct>`_ in mind. Especially the following:"
+msgstr ""
+"评审拉取请求时，请牢记 Godot 的 `行为准则 <https://godotengine.org/code-of-"
+"conduct>`_\\ 。尤其是以下几点："
+
+msgid "Politeness is expected at all times. Be kind and courteous."
+msgstr "任何时候都要讲礼貌，要宽容谦恭。"
+
+msgid "Always assume positive intent from others."
+msgstr "始终假定他人的意图是好的。"
+
+msgid "Feedback is always welcome but keep your criticism constructive."
+msgstr "欢迎各种反馈，但确保你的批评具有建设性。"
 
 msgid ""
 "Here are some things to avoid as you iterate on a pull request with a "
@@ -51,8 +95,27 @@ msgstr "与贡献者迭代拉取请求时，请避免以下情况："
 msgid "**Needless double reviews.**"
 msgstr "**不必要的多次评审。**"
 
+msgid ""
+"In other words, review the full PR at once and avoid coming back endless "
+"times to point out issues that you could have noted in the first review. Of "
+"course, this can't always be avoided, but we should try to catch everything "
+"at once."
+msgstr ""
+"换句话说，要一次性评审完整个 PR，避免来回挤牙膏，指出那些本应在第一次评审中就"
+"指出的问题。当然，这种情况并不能完全避免，但我们应该尽量一次把所有东西都搞"
+"定。"
+
 msgid "**Being overly nitpicky.**"
 msgstr "**过于吹毛求疵。**"
+
+msgid ""
+"Code quality can be flexible depending on the area of the engine you are "
+"working in. In general, our standard for code quality is much higher in core "
+"areas and in performance-sensitive areas than it is in editor code for "
+"example."
+msgstr ""
+"根据你所在的引擎领域不同，对代码质量的要求也可能不同。例如，总体上我们在核心"
+"区域和性能敏感区域上对代码质量的要求远高于编辑器代码。"
 
 msgid "**Expanding the scope of a pull request.**"
 msgstr "**扩大拉取请求的范围。**"
@@ -63,8 +126,33 @@ msgstr "5、批准拉取请求"
 msgid "Code style review"
 msgstr "代码风格评审"
 
+msgid "The style of header includes is respected."
+msgstr "遵守头文件的引入风格。"
+
+msgid "Identifiers use ``snake_case`` and follow our naming conventions."
+msgstr "标识符使用 ``snake_case`` 并遵守我们的命名规范。"
+
+msgid ""
+"Method parameters start with ``p_*`` or ``r_*`` (if they are used to return "
+"a value)."
+msgstr "方法的参数使用 ``p_*`` 或 ``r_*`` 开头（后者用于返回一个值）。"
+
+msgid "Braces are used appropriately, even for one-liner conditionals."
+msgstr "即便是单行条件分支也需要正确使用大括号。"
+
+msgid ""
+"Code is properly spaced (exactly one empty line between methods, no "
+"unnecessary empty lines inside of method bodies)."
+msgstr "代码正确留空（方法之间空一行，方法内部不添加不必要的空行）。"
+
 msgid "Merging pull requests"
 msgstr "合并拉取请求"
+
+msgid ""
+"As a contributor you can help move a pull request forward by doing some of "
+"these steps yourself."
+msgstr ""
+"作为贡献者，你可以通过自己遵循这中间的某些步骤，来帮助推动拉取请求的进度。"
 
 msgid "1. Get feedback from the right people/teams"
 msgstr "1、从正确的人/团队获取反馈"
@@ -113,6 +201,3 @@ msgstr "**为 PR 所关闭的 Issue 添加最近的相关里程碑。**"
 
 msgid "5. Merge the pull request"
 msgstr "5、合并拉取请求"
-
-msgid "Translation status"
-msgstr "翻译状态"

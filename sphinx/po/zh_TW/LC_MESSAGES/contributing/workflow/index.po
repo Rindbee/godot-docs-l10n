@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,6 +23,3 @@ msgstr ""
 "無論是從程式碼庫還是貢獻者的工作量來看，Godot 都是一個大型專案。當您在處理 "
 "Git 或 GitHub 時遇到困難，或者您通常對維護人員如何處理專案感興趣時，以下的指"
 "南可以為您提供協助。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -160,19 +160,6 @@ msgstr ""
 "их в 2D легко, это можно сделать либо по нормали (единичному вектору) и "
 "точке, либо по двум точкам в пространстве."
 
-msgid ""
-"For two points in space, there are actually two planes that pass through "
-"them, sharing the same space but with normal pointing to the opposite "
-"directions. To compute the normal from the two points, the direction vector "
-"must be obtained first, and then it needs to be rotated 90° degrees to "
-"either side:"
-msgstr ""
-"Для двух точек пространства, на самом деле через них проходят две плоскости, "
-"разделяющие одно и то же пространство, но с нормалями, направленными в "
-"противоположные стороны. Чтобы вычислить нормаль из двух точек, сначала "
-"необходимо получить вектор направления, а затем его нужно повернуть на 90 ° "
-"градусов в любую сторону:"
-
 msgid "Some examples of planes"
 msgstr "Несколько примеров плоскостей"
 
@@ -285,6 +272,3 @@ msgstr "Дополнительная информация"
 
 msgid ":ref:`doc_matrices_and_transforms`"
 msgstr ":ref:`doc_matrices_and_transforms`"
-
-msgid "Translation status"
-msgstr "Статус перевода"

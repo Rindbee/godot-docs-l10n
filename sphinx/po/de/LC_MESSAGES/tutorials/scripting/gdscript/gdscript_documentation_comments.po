@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -134,26 +134,26 @@ msgstr "Dokumentieren von Skript-Membern"
 msgid "Members that are applicable for documentation:"
 msgstr "Member, die für die Dokumentation in Frage kommen:"
 
-msgid "Inner class"
-msgstr "Innere Klasse"
-
-msgid "Constant"
-msgstr "Konstante"
-
-msgid "Function"
-msgstr "Funktion"
-
 msgid "Signal"
 msgstr "Signal"
-
-msgid "Variable"
-msgstr "Variable"
 
 msgid "Enum"
 msgstr "Enum"
 
 msgid "Enum value"
 msgstr "Enum-Wert"
+
+msgid "Constant"
+msgstr "Konstante"
+
+msgid "Variable"
+msgstr "Variable"
+
+msgid "Function"
+msgstr "Funktion"
+
+msgid "Inner class"
+msgstr "Innere Klasse"
 
 msgid ""
 "Documentation of a script member must immediately precede the member or its "
@@ -611,6 +611,3 @@ msgid ""
 msgstr ""
 "``[codeblock lang=csharp]`` verwendet C#-Syntax-Highlighting (nur in der ."
 "NET-Version)."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

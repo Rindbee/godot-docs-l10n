@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -41,6 +41,3 @@ msgstr ""
 "На расстоянии необходимо переместить зрителя на значительное расстояние, "
 "чтобы угол обзора существенно изменился. Это может быть сложным для работы, "
 "но может стоить того в зависимости от типа проекта, который вы делаете."
-
-msgid "Translation status"
-msgstr "Статус перевода"

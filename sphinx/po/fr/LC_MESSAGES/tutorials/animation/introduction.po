@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -157,6 +157,13 @@ msgstr ""
 "Le mode de mise à jour d'une piste indique à Godot quand mettre à jour les "
 "valeurs des propriétés. Cela peut l'être :"
 
+msgid "**Continuous:** Update the property on each frame"
+msgstr "**Continu:** Met à jour la propriété à chaque image"
+
+msgid "**Discrete:** Only update the property on keyframes"
+msgstr ""
+"**Discret :** Met à jour la propriété uniquement sur les clés d'animation"
+
 msgid "Track mode"
 msgstr "Mode piste"
 
@@ -212,6 +219,12 @@ msgstr "Modifier les clés d'animation"
 msgid "Keyframe editor editing a key"
 msgstr "Éditeur clé d'animation éditant une clé d'animation"
 
+msgid ""
+"You can tweak your animations this way until the movement \"looks right.\""
+msgstr ""
+"Vous pouvez ajuster vos animations de cette façon jusqu'à ce que le "
+"mouvement \" vous semble correct.\""
+
 msgid "Using RESET tracks"
 msgstr "Utiliser les pistes RESET"
 
@@ -247,6 +260,3 @@ msgstr ""
 "(comme si elle avait été recherchée au temps ``0.0``). Cela n'affecte que le "
 "fichier sauvegardé - les pistes de propriétés dans l'éditeur restent là où "
 "elles étaient."
-
-msgid "Translation status"
-msgstr "État de la traduction"

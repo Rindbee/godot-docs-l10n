@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -176,6 +176,3 @@ msgstr ""
 "fungovat dobře na jeho platformě, ale ne na jiných platformách, jako je "
 "Linux, Android atd. To se může týkat i exportovaných binárních souborů, "
 "které používají komprimovaný balíček pro uložení všech souborů."
-
-msgid "Translation status"
-msgstr "Stav překladu"

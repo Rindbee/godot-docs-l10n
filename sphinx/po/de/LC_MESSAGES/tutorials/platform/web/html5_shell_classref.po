@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -591,6 +591,3 @@ msgstr "Standardmäßig wird ``console.error()`` verwendet."
 
 msgid "A variadic number of arguments to be printed as errors."
 msgstr "Eine variable Menge von Argumenten, die als Fehler ausgegeben werden."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,3 @@ msgstr "Konfiguracja projektu"
 
 msgid "Run the scene to see the Godot icon turn in-place."
 msgstr "Uruchom scenę, aby zobaczyć, jak ikona Godota zmienia się."
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

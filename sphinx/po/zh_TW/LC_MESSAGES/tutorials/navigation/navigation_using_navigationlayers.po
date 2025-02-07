@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -33,6 +33,3 @@ msgid ""
 msgstr ""
 "更改路徑查詢的導覽層是啟用/停用整個導覽區域的一種效能友善的替代方案。與區域變"
 "更相比，具有不同導覽層的導覽路徑查詢不會觸發導覽伺服器上的大規模更新。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

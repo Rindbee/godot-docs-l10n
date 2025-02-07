@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -18,7 +18,5 @@ msgid ""
 "The following diagram describes the architecture used by Godot, from the "
 "core components down to the abstracted drivers, via the scene structure and "
 "the servers."
-msgstr "下图描述了Godot使用的架构, 从核心组件到抽象驱动, 经过场景架构和服务."
-
-msgid "Translation status"
-msgstr "翻译状态"
+msgstr ""
+"下图描述了Godot 所使用的架构，从核心组件到抽象驱动，中间是场景结构和服务器。"

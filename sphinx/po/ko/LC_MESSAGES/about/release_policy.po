@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -79,9 +79,6 @@ msgstr "**릴리스 날짜**"
 
 msgid "**Support level**"
 msgstr "**지원 수준**"
-
-msgid "Godot 4.3 (`master`)"
-msgstr "Godot 4.3 (`master`)"
 
 msgid "unstable"
 msgstr "불안정"
@@ -173,15 +170,15 @@ msgstr "Godot 1.0"
 msgid "December 2014"
 msgstr "2014년 12월"
 
-msgid "partial"
-msgstr "부분적"
-
 msgid ""
 "**Legend:** |supported| Full support – |partial| Partial support – |eol| No "
 "support (end of life) – |unstable| Development version"
 msgstr ""
 "**범례:** |supported| 지원 - |partial| 부분 지원 - |eol| 지원 없음(종료) - |"
 "unstable| 개발 버전"
+
+msgid "partial"
+msgstr "부분적"
 
 msgid ""
 "Pre-release Godot versions aren't intended to be used in production and are "
@@ -310,18 +307,6 @@ msgstr ""
 "유지 관리(패치) 릴리스는 필요에 따라 매우 짧은 개발 주기로 릴리스되며, 현재 "
 "안정적인 브랜치 사용자에게 프로덕션 요구 사항에 대한 최신 버그 수정을 제공합"
 "니다."
-
-msgid ""
-"The 3.6 release is still planned and should be the last stable branch of "
-"Godot 3.x. It will be a Long-Term Support (LTS) release, which we plan to "
-"support for as long as users still need it (due to missing features in Godot "
-"4.x, or having published games which they need to keep updating for platform "
-"requirements)."
-msgstr ""
-"3.6 릴리스는 여전히 계획 중이며, Godot 3.x의 마지막 안정적인 브랜치가 될 예정"
-"입니다. 이 릴리스는 장기 지원(LTS) 릴리스로, 사용자가 필요로 하는 한 계속 지"
-"원할 계획입니다(예: Godot 4.x에서 누락된 기능이나 플랫폼 요구 사항에 맞춰 계"
-"속 업데이트해야 하는 출시된 게임 등)."
 
 msgid "What are the criteria for compatibility across engine versions?"
 msgstr "엔진 버전 간 호환성 기준은 무엇인가요?"
@@ -452,6 +437,3 @@ msgstr ""
 "GDExtension이 패치 및 마이너 릴리스에서도 계속 작동하여 사용자가 이를 다시 컴"
 "파일할 필요가 없도록 보장합니다. 자세한 내용은 :ref:"
 "`doc_handling_compatibility_breakages`를 참조하십시오."
-
-msgid "Translation status"
-msgstr "번역 상태"

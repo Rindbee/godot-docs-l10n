@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -355,6 +355,3 @@ msgstr ""
 "Deklarieren Sie lokale Variablen so nah wie möglich am Ort ihrer ersten "
 "Verwendung. Dies erleichtert das Lesen des Codes, ohne zu viel scrollen zu "
 "müssen, um herauszufinden, wo die Variable deklariert wurde."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

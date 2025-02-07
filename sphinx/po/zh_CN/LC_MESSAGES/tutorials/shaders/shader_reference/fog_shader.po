@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,9 +29,6 @@ msgstr "描述"
 msgid "in float **TIME**"
 msgstr "in float **TIME**"
 
-msgid "Global time, in seconds."
-msgstr "全球时间, 以秒为单位."
-
 msgid "in float **PI**"
 msgstr "in float **PI**"
 
@@ -45,8 +42,23 @@ msgstr ""
 msgid "in float **TAU**"
 msgstr "in float **TAU**"
 
+msgid ""
+"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
+"radians in full turn."
+msgstr ""
+"``TAU`` 常数（\\ ``6.283185``\\ ）。等价于 ``PI * 2``\\ ，即转一圈对应的弧"
+"度。"
+
 msgid "in float **E**"
 msgstr "in float **E**"
+
+msgid ""
+"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
+"logarithm."
+msgstr "``E`` 常数（\\ ``2.718281``\\ ）。欧拉数，即自然对数的底。"
+
+msgid "Fog built-ins"
+msgstr "Fog 内置"
 
 msgid "in vec3 **WORLD_POSITION**"
 msgstr "in vec3 **WORLD_POSITION**"
@@ -77,6 +89,3 @@ msgstr "out float **DENSITY**"
 
 msgid "out vec3 **EMISSION**"
 msgstr "out vec3 **EMISSION**"
-
-msgid "Translation status"
-msgstr "翻译状态"

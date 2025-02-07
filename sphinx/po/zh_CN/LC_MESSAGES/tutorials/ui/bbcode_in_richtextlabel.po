@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,40 @@ msgstr "RichTextLabel 中的 BBCode"
 
 msgid "Introduction"
 msgstr "前言"
+
+msgid ""
+":ref:`class_Label` nodes are great for displaying basic text, but they have "
+"limitations. If you want to change the color of the text, or its alignment, "
+"you can only do that to the entire label. You can't make a part of the text "
+"have another color, or have a part of the text centered. To get around these "
+"limitations, you would use a :ref:`class_RichTextLabel`."
+msgstr ""
+":ref:`class_Label` 节点非常适合显示基础文本，但有一定局限性。如果你需要改变文"
+"本的颜色或其对齐方式，则只能对整个标签执行此操作。你不能使文本的一部分具有其"
+"他颜色，也不能使文本的一部分居中。要绕过这些限制，你可以使用 :ref:"
+"`class_RichTextLabel` 。"
+
+msgid ""
+":ref:`class_RichTextLabel` allows for complex formatting of text using a "
+"markup syntax or the built-in API. It uses BBCodes for the markup syntax, a "
+"system of tags that designate formatting rules for a part of the text. You "
+"may be familiar with them if you ever used forums (also known as `bulletin "
+"boards`, hence the \"BB\" in \"BBCode\")."
+msgstr ""
+":ref:`class_RichTextLabel` 允许使用标记语法或内置 API 对文本进行复杂的格式设"
+"置。它使用 BBCode 作为标记语法，这是一个为文本的一部分指定格式规则的标签系"
+"统。如果你曾经使用过论坛，你可能对它们很熟悉。（“BBCode” 中的 “BB”（bulletin "
+"boards），就是指“公告板”）。"
+
+msgid ""
+"Unlike Label, RichTextLabel also comes with its own vertical scrollbar. This "
+"scrollbar is automatically displayed if the text does not fit within the "
+"control's size. The scrollbar can be disabled by unchecking the **Scroll "
+"Active** property in the RichTextLabel inspector."
+msgstr ""
+"与 Label 不同，RichTextLabel 还带有自己的垂直滚动条。如果文本不适合控件的大"
+"小，则会自动显示此滚动条。可以通过在 RichTextLabel 的检查器中取消选中 "
+"**Scroll Active** 属性来禁用滚动条。"
 
 msgid "Using BBCode"
 msgstr "使用 BBCode"
@@ -80,14 +114,39 @@ msgstr "让 ``{text}`` 使用 ``RichTextLabel`` 的等宽字体。"
 msgid "``[code]{text}[/code]``"
 msgstr "``[code]{text}[/code]``"
 
+msgid "**char**"
+msgstr "**char**"
+
+msgid "Adds Unicode character with hexadecimal UTF-32 ``{codepoint}``."
+msgstr "将十六进制的 UTF-32 码位 ``{codepoint}`` 添加为 Unicode 字符。"
+
+msgid "``[char={codepoint}]``"
+msgstr "``[char={codepoint}]``"
+
 msgid "**p**"
 msgstr "**p**"
+
+msgid ""
+"Adds new paragraph with ``{text}``. Supports configuration options, see :ref:"
+"`doc_bbcode_in_richtextlabel_paragraph_options`."
+msgstr ""
+"将 ``{text}`` 添加为新的段落。支持配置选项，见 :ref:"
+"`doc_bbcode_in_richtextlabel_paragraph_options`\\ 。"
 
 msgid "``[p]{text}[/p]``"
 msgstr "``[p]{text}[/p]``"
 
+msgid "``[p {options}]{text}[/p]``"
+msgstr "``[p {options}]{text}[/p]``"
+
 msgid "**center**"
 msgstr "**center**"
+
+msgid "Makes ``{text}`` horizontally centered."
+msgstr "使得 ``{text}`` 水平居中。"
+
+msgid "Same as ``[p align=center]``."
+msgstr "等价于 ``[p align=center]``\\ 。"
 
 msgid "``[center]{text}[/center]``"
 msgstr "``[center]{text}[/center]``"
@@ -95,11 +154,23 @@ msgstr "``[center]{text}[/center]``"
 msgid "**left**"
 msgstr "**left**"
 
+msgid "Makes ``{text}`` horizontally left-aligned."
+msgstr "使得 ``{text}`` 左对齐。"
+
+msgid "Same as ``[p align=left]``."
+msgstr "等价于 ``[p align=left]``\\ 。"
+
 msgid "``[left]{text}[/left]``"
 msgstr "``[left]{text}[/left]``"
 
 msgid "**right**"
 msgstr "**right**"
+
+msgid "Makes ``{text}`` horizontally right-aligned."
+msgstr "使得 ``{text}`` 右对齐。"
+
+msgid "Same as ``[p align=right]``."
+msgstr "等价于 ``[p align=right]``\\ 。"
 
 msgid "``[right]{text}[/right]``"
 msgstr "``[right]{text}[/right]``"
@@ -107,11 +178,21 @@ msgstr "``[right]{text}[/right]``"
 msgid "**fill**"
 msgstr "**fill**"
 
+msgid "Same as ``[p align=fill]``."
+msgstr "等价于 ``[p align=fill]``\\ 。"
+
 msgid "``[fill]{text}[/fill]``"
 msgstr "``[fill]{text}[/fill]``"
 
 msgid "**indent**"
 msgstr "**indent**"
+
+msgid ""
+"Indents ``{text}`` once. The indentation width is the same as with ``[ul]`` "
+"or ``[ol]``, but without a bullet point."
+msgstr ""
+"单次缩进 ``{text}``\\ 。缩进宽度与 ``[ul]`` 或 ``[ol]`` 中相同，但不创建列表"
+"点。"
 
 msgid "``[indent]{text}[/indent]``"
 msgstr "``[indent]{text}[/indent]``"
@@ -119,23 +200,112 @@ msgstr "``[indent]{text}[/indent]``"
 msgid "**url**"
 msgstr "**url**"
 
+msgid ""
+"Creates a hyperlink (underlined and clickable text). Can contain optional "
+"``{text}`` or display ``{link}`` as is."
+msgstr ""
+"创建超链接（有下划线且可点击的文本）。可以包含可选的 ``{text}`` 或者原样显示 "
+"``{link}``\\ 。"
+
+msgid "``[url]{link}[/url]``"
+msgstr "``[url]{link}[/url]``"
+
+msgid "``[url={link}]{text}[/url]``"
+msgstr "``[url={link}]{text}[/url]``"
+
 msgid "**hint**"
 msgstr "**hint**"
+
+msgid ""
+"Creates a tooltip hint that is displayed when hovering the text with the "
+"mouse. Tooltip text should not be quoted (quotes will appear as-is in the "
+"tooltip otherwise)."
+msgstr ""
+"创建工具提示，鼠标在文本上悬停时显示。工具提示文本不需要引号包裹（否则会原样"
+"显示在工具提示中）。"
+
+msgid "``[hint={tooltip text displayed on hover}]{text}[/hint]``"
+msgstr "``[hint={悬停时显示的工具提示文本}]{text}[/hint]``"
 
 msgid "**img**"
 msgstr "**img**"
 
+msgid ""
+"Inserts an image from the ``{path}`` (can be any valid :ref:"
+"`class_Texture2D` resource)."
+msgstr ""
+"插入位于 ``{路径}`` 的图像（可以是任意有效的 :ref:`class_Texture2D` 资源）。"
+
+msgid ""
+"If ``{width}`` is provided, the image will try to fit that width maintaining "
+"the aspect ratio."
+msgstr "如果提供了 ``{宽度}``\\ ，图像会尝试在保持纵横比的前提下适配该宽度。"
+
+msgid ""
+"If both ``{width}`` and ``{height}`` are provided, the image will be scaled "
+"to that size."
+msgstr "如果同时提供了 ``{宽度}`` 和 ``{高度}``\\ ，图像会缩放至该大小。"
+
+msgid ""
+"Add ``%`` to the end of ``{width}`` or ``{height}`` value to specify it as "
+"percentages of the control width instead of pixels."
+msgstr ""
+"在 ``{宽度}`` 和 ``{高度}`` 取值的末尾加上 ``%`` 可以指定控件宽高的百分比，而"
+"不是像素。"
+
+msgid ""
+"If ``{valign}`` configuration is provided, the image will try to align to "
+"the surrounding text, see :ref:"
+"`doc_bbcode_in_richtextlabel_image_and_table_alignment`."
+msgstr ""
+"如果提供了 ``{垂直对齐}`` 配置，图像会尝试与周围的文本对齐，见 :ref:"
+"`doc_bbcode_in_richtextlabel_image_and_table_alignment`\\ 。"
+
+msgid ""
+"Supports configuration options, see :ref:"
+"`doc_bbcode_in_richtextlabel_image_options`."
+msgstr "支持配置选项，见 :ref:`doc_bbcode_in_richtextlabel_image_options`\\ 。"
+
 msgid "``[img]{path}[/img]``"
-msgstr "``[img]{path}[/img]``"
+msgstr "``[img]{路径}[/img]``"
+
+msgid "``[img={width}]{path}[/img]``"
+msgstr "``[img={宽度}]{路径}[/img]``"
+
+msgid "``[img={width}x{height}]{path}[/img]``"
+msgstr "``[img=<宽度>x<高度>]{路径}[/img]``"
+
+msgid "``[img={valign}]{path}[/img]``"
+msgstr "``[img={垂直对齐}]{路径}[/img]``"
+
+msgid "``[img {options}]{path}[/img]``"
+msgstr "``[img {选项}]{路径}[/img]``"
 
 msgid "**font**"
 msgstr "**font**"
 
+msgid "Makes ``{text}`` use a font resource from the ``{path}``."
+msgstr "为 ``{text}`` 使用位于 ``{路径}`` 的字体资源。"
+
+msgid ""
+"Supports configuration options, see :ref:"
+"`doc_bbcode_in_richtextlabel_font_options`."
+msgstr "支持配置选项，见 :ref:`doc_bbcode_in_richtextlabel_font_options`\\ 。"
+
+msgid "``[font={path}]{text}[/font]``"
+msgstr "``[font={路径}]{文本}[/font]``"
+
+msgid "``[font {options}]{text}[/font]``"
+msgstr "``[font {选项}]{文本}[/font]``"
+
 msgid "**font_size**"
 msgstr "**font_size**"
 
+msgid "Use custom font size for ``{text}``."
+msgstr "为 ``{text}`` 使用自定义字体大小。"
+
 msgid "``[font_size={size}]{text}[/font_size]``"
-msgstr "``[font_size={size}]{text}[/font_size]``"
+msgstr "``[font_size={大小}]{文本}[/font_size]``"
 
 msgid "**dropcap**"
 msgstr "**dropcap**"
@@ -161,6 +331,9 @@ msgstr "``[/opentype_features]``"
 
 msgid "**lang**"
 msgstr "**lang**"
+
+msgid "``[lang={code}]{text}[/lang]``"
+msgstr "``[lang={code}]{text}[/lang]``"
 
 msgid "**color**"
 msgstr "**color**"
@@ -367,7 +540,7 @@ msgid ""
 "flexible use of ``[url]`` tags rather than limiting them to opening URLs in "
 "a web browser."
 msgstr ""
-"默认情况下， ``[url]`` 标签在单击时不执行任何操作.这是为了允许灵活使用 "
+"默认情况下，\\ ``[url]`` 标签在单击时不执行任何操作.这是为了允许灵活使用 "
 "``[url]`` 标签，而不是限制它们在Web浏览器中打开URL."
 
 msgid ""
@@ -415,7 +588,7 @@ msgid "**pad**"
 msgstr "**pad**"
 
 msgid "``false``, ``true``"
-msgstr "``false``, ``true``"
+msgstr "``false``\\ 、\\ ``true``"
 
 msgid "``false``"
 msgstr "``false``"
@@ -427,9 +600,6 @@ msgid ""
 msgstr ""
 "如果设为 ``true`` 且图像小于 ``width`` 和 ``height`` 指定的大小，那么就会为图"
 "像加上边距让大小一致，不会进行缩放。"
-
-msgid "**tootip**"
-msgstr "**tootip**"
 
 msgid "String"
 msgstr "字符串"
@@ -464,14 +634,23 @@ msgstr "自定义字体大小。"
 msgid "**glyph_spacing**, **gl**"
 msgstr "**glyph_spacing**\\ 、\\ **gl**"
 
-msgid "**glyph_spacing**, **sp**"
-msgstr "**glyph_spacing**\\ 、\\ **sp**"
+msgid "Extra spacing for each glyph."
+msgstr "每个字形的额外间距。"
+
+msgid "Extra spacing for the space character."
+msgstr "空格字符的额外间距。"
 
 msgid "**top_spacing**, **top**"
 msgstr "**top_spacing**\\ 、\\ **top**"
 
+msgid "Extra spacing at the top of the line."
+msgstr "行上方的额外间距。"
+
 msgid "**bottom_spacing**, **bt**"
 msgstr "**bottom_spacing**\\ 、\\ **bt**"
+
+msgid "Extra spacing at the bottom of the line."
+msgstr "行下方的额外间距。"
 
 msgid "**embolden**, **emb**"
 msgstr "**embolden**\\ 、\\ **emb**"
@@ -513,11 +692,29 @@ msgstr "**opentype_variation**\\ 、\\ **otv**"
 msgid "Comma-separated list of the OpenType variation tags."
 msgstr "OpenType 变体标签列表，使用英文逗号分隔。"
 
+msgid ""
+"Font OpenType variation coordinates. See `OpenType variation tags <https://"
+"docs.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg>`__."
+msgstr ""
+"字体的 OpenType 变体坐标。见 `OpenType 变体标签 <https://docs.microsoft.com/"
+"en-us/typography/opentype/spec/dvaraxisreg>`__\\ 。"
+
+msgid ""
+"Note: The value should be enclosed in ``\"`` to allow using ``=`` inside it:"
+msgstr "注意：取值应使用 ``\"`` 包裹，这样就能够在其中使用 ``=``\\ ："
+
 msgid "**opentype_features**, **otf**"
 msgstr "**opentype_features**\\ 、\\ **otf**"
 
 msgid "Comma-separated list of the OpenType feature tags."
 msgstr "OpenType 特性标签列表，使用英文逗号分隔。"
+
+msgid ""
+"Font OpenType features. See `OpenType features tags <https://docs.microsoft."
+"com/en-us/typography/opentype/spec/featuretags>`__."
+msgstr ""
+"字体的 OpenType 特性。见 `OpenType 特性标签 <https://docs.microsoft.com/en-"
+"us/typography/opentype/spec/featuretags>`__\\ 。"
 
 msgid "Named colors"
 msgstr "具名颜色"
@@ -572,8 +769,45 @@ msgstr "单元格左侧、上方、右侧、下方的内边距。"
 msgid "Unordered list bullet"
 msgstr "无序列表项目符号"
 
+msgid ""
+"By default, the ``[ul]`` tag uses the ``U+2022`` \"Bullet\" Unicode glyph as "
+"the bullet character. This behavior is similar to web browsers. The bullet "
+"character can be customized using ``[ul bullet={bullet}]``. If provided, "
+"this ``{bullet}`` parameter must be a *single* character with no enclosing "
+"quotes (for example, ``[bullet=*]``). Additional characters are ignored. The "
+"bullet character's width does not affect the list's formatting."
+msgstr ""
+"默认情况下，\\ ``[ul]`` 标签会使用 Unicode ``U+2022``\\ “Bullet”字形作为项目"
+"符号字符。这一行为与网页浏览器一致。项目符号字符可以使用 ``[ul "
+"bullet={bullet}]`` 自定义。如果提供了 ``{bullet}`` 参数，该参数必须是不含引号"
+"的\\ *单个*\\ 字符（例如 ``[bullet=*]``\\ ），额外的字符会被忽略。项目符号字"
+"符的宽度不会影响列表的格式。"
+
+msgid ""
+"See `Bullet (typography) on Wikipedia <https://en.wikipedia.org/wiki/"
+"Bullet_(typography)>`__ for a list of common bullet characters that you can "
+"paste directly in the ``bullet`` parameter."
+msgstr ""
+"常用项目符号字符列表见\\ `维基百科上的《项目符号》 <https://zh.wikipedia.org/"
+"zh-hans/%E9%A0%85%E7%9B%AE%E7%AC%A6%E8%99%9F>`__\\ ，你可以直接粘贴过来用作 "
+"``bullet`` 参数。"
+
 msgid "Ordered list types"
 msgstr "有序列表类型"
+
+msgid ""
+"Ordered lists can be used to automatically mark items with numbers or "
+"letters in ascending order. This tag supports the following type options:"
+msgstr "有序列表可以使用数字或字母自动升序标记条目。该标签支持以下类型选项："
+
+msgid "``1`` - Numbers, using language specific numbering system if possible."
+msgstr "``1`` - 数字，会尽量使用语言对应的数字系统。"
+
+msgid "``a``, ``A`` - Lower and upper case Latin letters."
+msgstr "``a``\\ 、\\ ``A`` - 小写和大写拉丁字母。"
+
+msgid "``i``, ``I`` - Lower and upper case Roman numerals."
+msgstr "``i``\\ 、\\ ``I`` - 小写和大写罗马数字。"
 
 msgid "Text effects"
 msgstr "文本效果"
@@ -643,6 +877,17 @@ msgid ""
 "running."
 msgstr "``elapsed_time`` 是文本效果运行的总时间."
 
+msgid ""
+"The last thing to note about this function is that it is necessary to return "
+"a boolean ``true`` value to verify that the effect processed correctly. This "
+"way, if there's a problem with rendering a given glyph, it will back out of "
+"rendering custom effects entirely until the user fixes whatever error "
+"cropped up in their custom effect logic."
+msgstr ""
+"关于这个函数，最后一点需要注意的就是需要返回布尔值 ``true`` 来确认效果已正确"
+"处理完毕。这样一来，如果在渲染某个字形时遇到了问题，就会跳出自定义效果的渲"
+"染，直到用户修正了自定义效果逻辑中所发生的错误。"
+
 msgid "Here are some examples of custom effects:"
 msgstr "以下是一些自定义效果的示例:"
 
@@ -654,6 +899,3 @@ msgstr "矩阵"
 
 msgid "This will add a few new BBCode commands, which can be used like so:"
 msgstr "这将增加一些新的BBCode命令, 可以像这样使用:"
-
-msgid "Translation status"
-msgstr "翻译状态"

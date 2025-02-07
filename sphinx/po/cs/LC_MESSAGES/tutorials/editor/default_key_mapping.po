@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,19 +13,6 @@ msgstr ""
 
 msgid "Default editor shortcuts"
 msgstr "Výchozí zkratky editoru"
-
-msgid ""
-"Many of Godot Editor functions can be executed with keyboard shortcuts. This "
-"page lists functions which have associated shortcuts by default, but many "
-"others are available for customization in editor settings as well. To change "
-"keys associated with these and other actions navigate to ``Editor -> Editor "
-"Settings -> Shortcuts``."
-msgstr ""
-"Mnoho funkcí editoru Godot lze provádět pomocí klávesových zkratek. Na této "
-"stránce jsou uvedeny funkce, které mají ve výchozím nastavení přiřazené "
-"klávesové zkratky, ale mnoho dalších je k dispozici také pro přizpůsobení v "
-"nastavení editoru. Chcete-li změnit klávesy spojené s těmito a dalšími "
-"akcemi, přejděte na ``Editor -> Nastavení editoru -> Klávesové zkratky``."
 
 msgid ""
 "While some actions are universal, a lot of shortcuts are specific to "
@@ -50,9 +37,6 @@ msgstr ""
 "lepší integrace editoru do ekosystému macOS. Pro uživatelé, kteří jsou "
 "zběhlí ve standardních klávesových zkratkách v tomto operačním systému, bude "
 "výchozí mapování kláves editoru Godot více intuitivní."
-
-msgid "General Editor Actions"
-msgstr "Obecné akce editoru"
 
 msgid "Action name"
 msgstr "Název akce"
@@ -384,8 +368,14 @@ msgstr ":kbd:`Shift + F12`"
 msgid "``editor/bottom_panel_expand``"
 msgstr "``editor/bottom_panel_expand``"
 
-msgid "2D / Canvas Item Editor"
-msgstr "2D / Editor položek na plátně"
+msgid ":kbd:`Ctrl + Shift + P`"
+msgstr ":kbd:`Ctrl + Shift + P`"
+
+msgid ":kbd:`Cmd + Shift + P`"
+msgstr ":kbd:`Cmd + Shift + P`"
+
+msgid ":kbd:`Alt + F`"
+msgstr ":kbd:`Alt + F`"
 
 msgid "Zoom In"
 msgstr "Zvětšit"
@@ -561,12 +551,6 @@ msgstr "``canvas_item_editor/frame_selection``"
 msgid "Preview Canvas Scale"
 msgstr "Náhled měřítka plátna"
 
-msgid ":kbd:`Ctrl + Shift + P`"
-msgstr ":kbd:`Ctrl + Shift + P`"
-
-msgid ":kbd:`Cmd + Shift + P`"
-msgstr ":kbd:`Cmd + Shift + P`"
-
 msgid "``canvas_item_editor/preview_canvas_scale``"
 msgstr "``canvas_item_editor/preview_canvas_scale``"
 
@@ -611,9 +595,6 @@ msgstr ":kbd:`Shift + K`"
 
 msgid "``canvas_item_editor/anim_clear_pose``"
 msgstr "``canvas_item_editor/anim_clear_pose``"
-
-msgid "3D / Spatial Editor"
-msgstr "3D / Prostorový editor"
 
 msgid "Toggle Freelook"
 msgstr "Přepnout volný pohled"
@@ -888,9 +869,6 @@ msgstr ":kbd:`Cmd + 4`"
 msgid "``spatial_editor/4_viewports``"
 msgstr "``spatial_editor/4_viewports``"
 
-msgid "Text Editor"
-msgstr "Editor textu"
-
 msgid "Cut"
 msgstr "Vyjmout"
 
@@ -1061,9 +1039,6 @@ msgstr "``script_text_editor/toggle_comment``"
 
 msgid "Fold/Unfold Line"
 msgstr "Složit/Rozložit řádek"
-
-msgid ":kbd:`Alt + F`"
-msgstr ":kbd:`Alt + F`"
 
 msgid "``script_text_editor/toggle_fold_line``"
 msgstr "``script_text_editor/toggle_fold_line``"
@@ -1266,9 +1241,6 @@ msgstr ":kbd:`Alt + F1`"
 msgid "``script_text_editor/contextual_help``"
 msgstr "``script_text_editor/contextual_help``"
 
-msgid "Script Editor"
-msgstr "Editor skriptů"
-
 msgid "``script_editor/find``"
 msgstr "``script_editor/find``"
 
@@ -1410,9 +1382,6 @@ msgstr "Obnovit původní přiblížení"
 msgid "``script_editor/reset_zoom``"
 msgstr "``script_editor/reset_zoom``"
 
-msgid "Editor Output"
-msgstr "Výstup editoru"
-
 msgid "Copy Selection"
 msgstr "Kopírovat výběr"
 
@@ -1454,9 +1423,6 @@ msgstr ":kbd:`F12`"
 
 msgid "``debugger/continue``"
 msgstr "``debugger/continue``"
-
-msgid "File Dialog"
-msgstr "Souborový dialog"
 
 msgid "Go Back"
 msgstr "Jít zpět"
@@ -1536,12 +1502,6 @@ msgstr "``file_dialog/delete``"
 msgid "Focus Path"
 msgstr "Zvýraznit cestu"
 
-msgid ":kbd:`Ctrl + D`"
-msgstr ":kbd:`Ctrl + D`"
-
-msgid ":kbd:`Cmd + D`"
-msgstr ":kbd:`Cmd + D`"
-
 msgid "``file_dialog/focus_path``"
 msgstr "``file_dialog/focus_path``"
 
@@ -1569,9 +1529,6 @@ msgstr ":kbd:`Cmd + Down Arrow`"
 msgid "``file_dialog/move_favorite_down``"
 msgstr "``file_dialog/move_favorite_down``"
 
-msgid "FileSystem Dock"
-msgstr "Souborový systém"
-
 msgid "Copy Path"
 msgstr "Kopírovat cestu"
 
@@ -1581,14 +1538,17 @@ msgstr "``filesystem_dock/copy_path``"
 msgid "Duplicate"
 msgstr "Duplikovat"
 
+msgid ":kbd:`Ctrl + D`"
+msgstr ":kbd:`Ctrl + D`"
+
+msgid ":kbd:`Cmd + D`"
+msgstr ":kbd:`Cmd + D`"
+
 msgid "``filesystem_dock/duplicate``"
 msgstr "``filesystem_dock/duplicate``"
 
 msgid "``filesystem_dock/delete``"
 msgstr "``filesystem_dock/delete``"
-
-msgid "Scene Tree Dock"
-msgstr "Dok stromu scény"
 
 msgid "Add Child Node"
 msgstr "Přidat uzel"
@@ -1632,9 +1592,6 @@ msgstr "``scene_tree/move_up``"
 msgid "``scene_tree/move_down``"
 msgstr "``scene_tree/move_down``"
 
-msgid "Animation Track Editor"
-msgstr "Editor animace stop"
-
 msgid "``animation_editor/duplicate_selection``"
 msgstr "``animation_editor/duplicate_selection``"
 
@@ -1677,9 +1634,6 @@ msgstr ":kbd:`Cmd + Left Arrow`"
 msgid "``animation_editor/goto_prev_step``"
 msgstr "``animation_editor/goto_prev_step``"
 
-msgid "Tile Map Editor"
-msgstr "Editor mapy dlaždic"
-
 msgid "Select"
 msgstr "Vybrat"
 
@@ -1706,9 +1660,6 @@ msgstr "Otočit doprava"
 
 msgid ":kbd:`X`"
 msgstr ":kbd:`X`"
-
-msgid "Tileset Editor"
-msgstr "Editor dlaždic"
 
 msgid "Next Coordinate"
 msgstr "Další koordináta"
@@ -1796,6 +1747,3 @@ msgstr ":kbd:`8`"
 
 msgid "``tileset_editor/editmode_z_index``"
 msgstr "``tileset_editor/editmode_z_index``"
-
-msgid "Translation status"
-msgstr "Stav překladu"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -40,12 +40,6 @@ msgstr "PC de escritorio o laptop - Mínimo"
 
 msgid "**CPU**"
 msgstr "**CPU**"
-
-msgid "**Windows:** x86_32 CPU with SSE2 instructions, or any x86_64 CPU"
-msgstr "**Windows:** x86_32 CPU con instrucciones SSE2, o cualquier x86_64 CPU"
-
-msgid "*Example: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300*"
-msgstr "*Ejemplo: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300*"
 
 msgid "**macOS:** x86_64 or ARM CPU (Apple Silicon)"
 msgstr "**macOS:** x86_64 o ARM CPU (Apple Silicon)"
@@ -148,6 +142,16 @@ msgstr ""
 "podría ser retirado en una :ref:`future Godot 4.x release "
 "<doc_release_policy>`."
 
+msgid ""
+"Vulkan drivers for these Windows versions are known to have issues with "
+"memory leaks. As a result, it's recommended to stick to the Compatibility "
+"rendering method when running Godot on a Windows version older than 10."
+msgstr ""
+"Los controladores de Vulkan para estas versiones de Windows son conocidas "
+"por tener problemas con fugas de memoria. Como resultado, recomendamos "
+"quedarse en el método de renderizado Compatibilidad al correr Godot en una "
+"versión de Windows más vieja a la 10."
+
 msgid "Mobile device (smartphone/tablet) - Minimum"
 msgstr "Dispositivos móviles (teléfonos inteligentes/tabletas) - Mínimo"
 
@@ -191,13 +195,6 @@ msgid "**Web editor:** 6 GB"
 msgstr "**Editor web:** 6 GB"
 
 msgid ""
-"**Native editor:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
-"Mobile), iOS 11.0"
-msgstr ""
-"**Editor nativo:** Android 6.0 (Compatibility) o Android 9.0 (Forward+/"
-"Mobile), iOS 11.0"
-
-msgid ""
 "**Web editor:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
 "Samsung Internet 15"
 msgstr ""
@@ -213,15 +210,6 @@ msgstr ""
 
 msgid "Desktop or laptop PC - Recommended"
 msgstr "PC de escritorio o laptop - Recomendado"
-
-msgid ""
-"**Windows:** x86_64 CPU with SSE4.2 instructions, with 4 physical cores or "
-"more"
-msgstr ""
-"**Windows:** x86_64 CPU con instrucciones SSE4.2, con 4 núcleos físicos o más"
-
-msgid "*Example: Intel Core i5-6600K, AMD Ryzen 5 1600*"
-msgstr "*Ejemplo: Intel Core i5-6600K, AMD Ryzen 5 1600*"
 
 msgid "*Example: Intel Core i5-8500, Apple M1*"
 msgstr "*Ejemplo: Intel Core i5-8500, Apple M1*"
@@ -325,9 +313,6 @@ msgstr ""
 msgid "**Native editor:** 6 GB"
 msgstr "**Editor nativo:** 6 GB"
 
-msgid "**Native editor:** Android 9.0 or iOS 11.0"
-msgstr "**Editor nativo:** Android 9.0 o iOS 11.0"
-
 msgid ""
 "**Web editor:** Latest version of Firefox, Chrome, Edge, Safari, Opera, "
 "Samsung Internet"
@@ -402,30 +387,11 @@ msgstr "**iOS:** SoC con cualquier CPU ARM de 64 bits"
 msgid "*Example: Apple A7 (iPhone 5S)*"
 msgstr "*Ejemplo: Apple A7 (iPhone 5S)*"
 
-msgid ""
-"*Example: Qualcomm Adreno 505, Mali-G71 MP2, PowerVR G6430 (iPhone 6S/iPhone "
-"SE 1)*"
-msgstr ""
-"*Ejemplo: Qualcomm Adreno 505, Mali-G71 MP2, PowerVR G6430 (iPhone 6S/iPhone "
-"SE 1)*"
-
-msgid ""
-"*Example: Qualcomm Adreno 306, Mali-T628 MP6, PowerVR G6430 (iPhone 5S)*"
-msgstr ""
-"*Ejemplo: Qualcomm Adreno 306, Mali-T628 MP6, PowerVR G6430 (iPhone 5S)*"
-
 msgid "**For native exports:** 1 GB"
 msgstr "**Para exportaciones nativas:** 1 GB"
 
 msgid "**For web exports:** 2 GB"
 msgstr "**Para exportaciones web:** 2 GB"
-
-msgid ""
-"**For native exports:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
-"Mobile), iOS 11.0"
-msgstr ""
-"**Para exportaciones nativas:** Android 6.0 (Compatibilidad) o Android 9.0 "
-"(Forward+/Mobile), iOS 11.0"
 
 msgid ""
 "**For web exports:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
@@ -463,17 +429,6 @@ msgstr ""
 msgid "**iOS:** SoC with 64-bit ARM CPU"
 msgstr "**iOS:** SoC con CPU ARM de 64 bits"
 
-msgid "*Example: Apple A11 (iPhone XS/XR)*"
-msgstr "*Ejemplo: Apple A11 (iPhone XS/XR)*"
-
-msgid ""
-"*Example: Qualcomm Adreno 630, Mali-G72 MP18, Apple G11P (iPhone XR/XS)*"
-msgstr ""
-"*Ejemplo: Qualcomm Adreno 630, Mali-G72 MP18, Apple G11P (iPhone XR/XS)*"
-
-msgid "**For native exports:** Android 9.0 or iOS 11.0"
-msgstr "**Para exportaciones nativas:** Android 9.0 o iOS 11.0"
-
 msgid ""
 "**For web exports:** Latest version of Firefox, Chrome, Edge, Safari, Opera, "
 "Samsung Internet"
@@ -489,6 +444,3 @@ msgstr ""
 "Godot no utiliza extensiones de OpenGL/OpenGL ES introducidas después de "
 "OpenGL 3.3/OpenGL ES 3.0, pero las GPUs que admiten versiones más recientes "
 "de OpenGL/OpenGL ES generalmente tienen menos problemas de controladores."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

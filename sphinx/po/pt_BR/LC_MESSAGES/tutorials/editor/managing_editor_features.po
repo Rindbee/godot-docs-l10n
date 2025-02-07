@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -85,6 +85,3 @@ msgstr ""
 "habilitar o modo independente para Godot, que permite colocar toda a "
 "configuração do editor na mesma pasta que o binário do editor. Veja :ref:"
 "`doc_data_paths_self_contained_mode` para detalhes."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

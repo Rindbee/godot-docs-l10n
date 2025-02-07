@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -245,9 +245,6 @@ msgstr "Built-in"
 msgid "in float **TIME**"
 msgstr "in float **TIME**"
 
-msgid "Global time, in seconds."
-msgstr "Globale Zeit in Sekunden."
-
 msgid "in vec3 **POSITION**"
 msgstr "in vec3 **POSITION**"
 
@@ -416,6 +413,3 @@ msgstr "Alphawert der Ausgabe, kann nur in Unterdurchläufen verwendet werden."
 
 msgid "out vec4 **FOG**"
 msgstr "out vec4 **FOG**"
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

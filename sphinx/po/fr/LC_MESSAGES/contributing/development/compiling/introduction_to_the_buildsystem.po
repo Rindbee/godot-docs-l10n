@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,24 @@ msgstr ""
 
 msgid "Introduction to the buildsystem"
 msgstr "Introduction au buildsystem"
+
+msgid ":ref:`doc_compiling_for_android`"
+msgstr ":ref:`doc_compiling_for_android`"
+
+msgid ":ref:`doc_compiling_for_ios`"
+msgstr ":ref:`doc_compiling_for_ios`"
+
+msgid ":ref:`doc_compiling_for_linuxbsd`"
+msgstr ":ref:`doc_compiling_for_linuxbsd`"
+
+msgid ":ref:`doc_compiling_for_macos`"
+msgstr ":ref:`doc_compiling_for_macos`"
+
+msgid ":ref:`doc_compiling_for_web`"
+msgstr ":ref:`doc_compiling_for_web`"
+
+msgid ":ref:`doc_compiling_for_windows`"
+msgstr ":ref:`doc_compiling_for_windows`"
 
 msgid "Platform selection"
 msgstr "Choix de la plate-forme"
@@ -112,6 +130,9 @@ msgstr ""
 "module intégré, le moteur ne compilera que le module personnalisé. Cette "
 "logique peut être utilisée pour passer outre les implémentations de modules "
 "intégrés."
+
+msgid ":ref:`doc_custom_modules_in_cpp`"
+msgstr ":ref:`doc_custom_modules_in_cpp`"
 
 msgid "Cleaning generated files"
 msgstr "Nettoyage des fichiers générés"
@@ -275,6 +296,3 @@ msgstr ""
 "les lignes ``major``, ``minor``, ``patch`` (si présent) et ``status`` du "
 "`fichier version.py dans le dépôt Git Godot <https://github.com/godotengine/"
 "godot/blob/master/version.py>`__."
-
-msgid "Translation status"
-msgstr "État de la traduction"

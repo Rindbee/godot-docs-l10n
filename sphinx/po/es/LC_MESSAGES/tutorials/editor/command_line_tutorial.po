@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -55,15 +55,6 @@ msgstr ""
 msgid "Command line reference"
 msgstr "Referencia de la línea de comandos"
 
-msgid "release"
-msgstr "release"
-
-msgid "debug"
-msgstr "debug"
-
-msgid "editor"
-msgstr "editor"
-
 msgid "**Legend**"
 msgstr "**Leyenda**"
 
@@ -74,13 +65,22 @@ msgstr ""
 "|release| Disponible en la versión de editor, en las plantillas de "
 "exportación de depuración y de lanzamiento."
 
+msgid "release"
+msgstr "release"
+
 msgid "|debug| Available in editor builds and debug export templates only."
 msgstr ""
 "|debug| Disponible únicamente en las versiones de editor y en las plantillas "
 "de exportación."
 
+msgid "debug"
+msgstr "debug"
+
 msgid "|editor| Only available in editor builds."
 msgstr "|editor| Disponible únicamente en la versión de editor."
+
+msgid "editor"
+msgstr "editor"
 
 msgid ""
 "Note that unknown command line arguments have no effect whatsoever. The "
@@ -585,6 +585,9 @@ msgstr "``--check-only``"
 msgid "|release| Only parse for errors and quit (use with ``--script``)."
 msgstr "|release| Analizar solo los errores y salir (usar con `` --script``)."
 
+msgid "``--import``"
+msgstr "``--import``"
+
 msgid ""
 "|editor| Starts the editor, waits for any resources to be imported, and then "
 "quits. Implies ``--editor`` and ``--quit``."
@@ -595,11 +598,41 @@ msgstr ""
 msgid "``--export-release <preset> <path>``"
 msgstr "``--export-release <preset> <path>``"
 
+msgid ""
+"|editor| Export the project using the given preset and matching release "
+"template. The preset name should match one defined in export_presets.cfg. "
+"``<path>`` should be absolute or relative to the project directory, and "
+"include the filename for the binary (e.g. 'builds/game.exe'). The target "
+"directory should exist. Implies ``--import``."
+msgstr ""
+"|editor| Exporta el proyecto usando el preset dado y la plantilla de "
+"lanzamiento correspondiente. El nombre del preset debe coincidir el definido "
+"en export_preset.cfg. La ``<ruta>`` debería ser absoluta o relativa al "
+"directorio del proyecto, y debería incluir el nombre del archivo binario "
+"(ej: 'builds/game.exe'). El directorio de destino debe existir. Implica ``--"
+"import``."
+
 msgid "``--export-debug <preset> <path>``"
 msgstr "``--export-debug <preset> <path>``"
 
+msgid ""
+"|editor| Like ``--export-release``, but use debug template. Implies ``--"
+"import``."
+msgstr ""
+"|editor| Como ``--export-release``, pero utiliza la plantilla de depuración. "
+"Implica ``--import``."
+
 msgid "``--export-pack <preset> <path>``"
 msgstr "``--export-pack <preestablecido> <ruta>``"
+
+msgid ""
+"|editor| Like ``--export-release``, but only export the game pack for the "
+"given preset. The ``<path>`` extension determines whether it will be in PCK "
+"or ZIP format. Implies ``--import``."
+msgstr ""
+"|editor| Como ``--export-release``, pero sólo para exportar el paquete del "
+"juego para un preset dado. La extensión de ``<path>`` determina si será en "
+"formato PCK o ZIP. Implica ``--import``."
 
 msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
 msgstr "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
@@ -987,6 +1020,3 @@ msgstr ""
 "Si lo anterior no funciona en su versión actual de Linux o MacOS, siempre "
 "puede hacer que el shebang ejecute Godot directamente desde donde se "
 "encuentra, de la siguiente manera:"
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

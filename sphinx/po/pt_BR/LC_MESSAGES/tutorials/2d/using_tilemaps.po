@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,8 +17,17 @@ msgstr "Usando TileMaps"
 msgid "Introduction"
 msgstr "Introdução"
 
+msgid "Rendering"
+msgstr "Renderizando"
+
+msgid "Physics"
+msgstr "Física"
+
+msgid "Navigation"
+msgstr "Navegação"
+
+msgid "Line"
+msgstr "Linha"
+
 msgid "Bucket Fill"
 msgstr "Preenchimento de Balde"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

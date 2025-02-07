@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,13 +10,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid ""
-"The Godot demo projects repository contains a `3D decals demo <https://"
-"github.com/godotengine/godot-demo-projects/tree/4.0-dev/3d/decals>`__."
-msgstr ""
-"Repozitář demo projektů Godot obsahuje ` demo 3D obtisků <https://github.com/"
-"godotengine/godot-demo-projects/tree/4.0-dev/3d/decals>`__."
 
 msgid "Use cases"
 msgstr "Případy použití"
@@ -29,6 +22,3 @@ msgstr "Parametry"
 
 msgid "Limitations"
 msgstr "Omezení"
-
-msgid "Translation status"
-msgstr "Stav překladu"

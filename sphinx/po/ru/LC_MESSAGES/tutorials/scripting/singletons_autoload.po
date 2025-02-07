@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -171,6 +171,3 @@ msgstr ""
 "какой-либо 2D-элемент непосредственно перед изменением сцены. Затем вы "
 "можете скрыть его сразу после изменения сцены. Это можно использовать, чтобы "
 "указать игроку, что сцена загружается."
-
-msgid "Translation status"
-msgstr "Статус перевода"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -539,6 +539,3 @@ msgstr ""
 "als 3D-Modell zu exportieren, um ihn in eine 3D-Modellierungssoftware zu "
 "importieren. Sie können dies tun, indem Sie **Szene > Exportieren als... > "
 "glTF 2.0-Szene**."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

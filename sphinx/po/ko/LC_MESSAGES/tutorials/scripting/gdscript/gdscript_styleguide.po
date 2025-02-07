@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -272,16 +272,26 @@ msgstr "리터럴에서 GDScript의 밑줄을 활용해 큰 숫자를 더 읽기
 msgid "Naming conventions"
 msgstr "명명 규칙"
 
-msgid ""
-"These naming conventions follow the Godot Engine style. Breaking these will "
-"make your code clash with the built-in naming conventions, leading to "
-"inconsistent code."
-msgstr ""
-"이러한 명명 규칙은 Godot 엔진 스타일을 따릅니다. 이 규칙을 깨면 코드가 기본 "
-"제공 명명 규칙과 충돌해서 일관되지 않게 됩니다."
+msgid "Type"
+msgstr "타입"
+
+msgid "Example"
+msgstr "예제"
 
 msgid "File names"
 msgstr "파일 이름"
+
+msgid "Functions"
+msgstr "함수(Function)"
+
+msgid "Variables"
+msgstr "변수(Variable)"
+
+msgid "Signals"
+msgstr "시그널"
+
+msgid "Constants"
+msgstr "상수"
 
 msgid ""
 "Use snake_case for file names. For named classes, convert the PascalCase "
@@ -324,9 +334,6 @@ msgstr ""
 "사용자가 재정의해야 하는 가상 메서드 함수, private 함수, private 변수 앞에 밑"
 "줄(\\_) 하나를 추가하세요:"
 
-msgid "Signals"
-msgstr "시그널"
-
 msgid "Use the past tense to name signals:"
 msgstr "시그널의 이름에는 과거형을 사용하세요:"
 
@@ -349,13 +356,6 @@ msgstr ""
 
 msgid "Code order"
 msgstr "코드 순서"
-
-msgid ""
-"This first section focuses on code order. For formatting, see :ref:"
-"`formatting`. For naming conventions, see :ref:`naming_conventions`."
-msgstr ""
-"이 섹션에서는 코드 순서에 중점을 둡니다. 서식은 :ref:`formatting`\\ 을 참고하"
-"세요. 명명 규칙의 경우 :ref:`naming_conventions`\\ 를 참고하세요."
 
 msgid "We suggest to organize GDScript code this way:"
 msgstr "제안하는 GDScript 코드 구조는 다음과 같습니다:"
@@ -480,13 +480,6 @@ msgstr ""
 msgid "Static typing"
 msgstr "정적 타이핑(Static Typing)"
 
-msgid ""
-"Since Godot 3.1, GDScript supports :ref:`optional static "
-"typing<doc_gdscript_static_typing>`."
-msgstr ""
-"Godot 3.1부터, GDScript는 :ref:`선택적 정적 타이핑"
-"<doc_gdscript_static_typing>`\\ 을 지원합니다."
-
 msgid "Declared types"
 msgstr "선언된 타입"
 
@@ -512,6 +505,3 @@ msgid ""
 msgstr ""
 "이 방법은 첫 번째 방법보다 더 :ref:`타입에 안전한"
 "<doc_gdscript_static_typing_safe_lines>`\\ 것으로 간주됩니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

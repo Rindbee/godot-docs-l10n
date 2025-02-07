@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -83,15 +83,8 @@ msgstr ""
 "标签，来克隆稳定版本： ::"
 
 msgid ""
-"There are also generally branches besides ``master`` for each major version."
-msgstr "此外，你可以通过 ``git`` 在各个主要版本的分支间进行切换。"
-
-msgid ""
 "After downloading the Godot source code, you can :ref:`continue to compiling "
 "Godot <doc_introduction_to_the_buildsystem>`."
 msgstr ""
 "获取到 Godot 的源代码之后，你就可以继续\\ :ref:`编译 Godot "
 "<doc_introduction_to_the_buildsystem>` 了。"
-
-msgid "Translation status"
-msgstr "翻译状态"

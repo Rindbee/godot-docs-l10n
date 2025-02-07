@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"That said, if your game runs at near-real-time speeds when capturing, you "
+"can still use this feature (but it will lack audible sound playback, as "
+"sound is saved directly to the video file)."
+msgstr ""
+"つまり、録画中にあなたのゲームがほぼリアルタイムで動いているなら、この機能を"
+"使えるということです。（ただし、音声は動画ファイルに直接書き込まれるため、聴"
+"取可能なPlaybackは失われます）。"
+
 msgid "Configuration"
 msgstr "構成"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

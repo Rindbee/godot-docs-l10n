@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -195,6 +195,3 @@ msgid ""
 msgstr ""
 "其中 ``documentation_image.webp`` 將更改為所建立圖像的名稱。以明確的方式為圖"
 "像命名，可以的話使用前綴明確表示它們與文件頁面的關係。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

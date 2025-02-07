@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,58 @@ msgstr ""
 
 msgid "KDevelop"
 msgstr "КДевелоп"
+
+msgid ""
+"`KDevelop <https://www.kdevelop.org>`_ is a free, open source IDE for all "
+"desktop platforms."
+msgstr ""
+"`KDevelop <https://www.kdevelop.org>`_ — це безкоштовна IDE із відкритим "
+"кодом для всіх платформ робочого столу."
+
+msgid "Importing the project"
+msgstr "Імпорт проекту"
+
+msgid "From the KDevelop's main screen select **Open Project**."
+msgstr "На головному екрані KDevelop виберіть **Відкрити проект**."
+
+msgid "KDevelop's main screen."
+msgstr "Головний екран KDevelop."
+
+msgid "Navigate to the Godot root folder and select it."
+msgstr "Перейдіть до кореневої папки Godot і виберіть її."
+
+msgid ""
+"On the next screen, choose **Custom Build System** for the **Project "
+"Manager**."
+msgstr ""
+"На наступному екрані виберіть **Custom Build System** для **Project "
+"Manager**."
+
+msgid ""
+"After the project has been imported, open the project configuration by right-"
+"clicking on it in the **Projects** panel and selecting **Open Configuration.."
+"** option."
+msgstr ""
+"Після імпортування проекту відкрийте конфігурацію проекту, клацнувши її "
+"правою кнопкою миші на панелі **Проекти** і вибравши опцію **Відкрити "
+"конфігурацію..**."
+
+msgid ""
+"Under **Language Support** open the **Includes/Imports** tab and add the "
+"following paths:"
+msgstr ""
+"У розділі **Language Support** відкрийте вкладку **Includes/Imports** і "
+"додайте такі шляхи:"
+
+msgid "Apply the changes."
+msgstr "Застосуйте зміни."
+
+msgid ""
+"Under **Custom Build System** add a new build configuration with the "
+"following settings:"
+msgstr ""
+"У розділі **Custom Build System** додайте нову конфігурацію збірки з такими "
+"параметрами:"
 
 msgid "Build Directory"
 msgstr "Каталог збирання"
@@ -26,8 +78,48 @@ msgstr "Увімкнути"
 msgid "**True**"
 msgstr "**True**"
 
+msgid "Executable"
+msgstr "Виконуваний файл"
+
+msgid "**scons**"
+msgstr "**Scons**"
+
 msgid "Arguments"
 msgstr "Аргументи"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid ""
+"See :ref:`doc_introduction_to_the_buildsystem` for a full list of arguments."
+msgstr ""
+"Перегляньте :ref:`doc_introduction_to_the_buildsystem` повний список "
+"аргументів."
+
+msgid "Apply the changes and close the configuration window."
+msgstr "Застосуйте зміни та закрийте вікно конфігурації."
+
+msgid "Debugging the project"
+msgstr "Налагодження проекту"
+
+msgid "Select **Run > Configure Launches...** from the top menu."
+msgstr "У верхньому меню виберіть **Виконати > Налаштувати запуски...**."
+
+msgid "Click **Add** to create a new launch configuration."
+msgstr "Натисніть **Додати**, щоб створити нову конфігурацію запуску."
+
+msgid ""
+"Select **Executable** option and specify the path to your executable located "
+"in the ``<Godot root directory>/bin`` folder. The name depends on your build "
+"configuration, e.g. ``godot.linuxbsd.editor.dev.x86_64`` for 64-bit LinuxBSD "
+"platform with ``platform=editor`` and ``dev_build=yes``."
+msgstr ""
+"Виберіть параметр **Виконуваний файл** і вкажіть шлях до виконуваного файлу, "
+"який знаходиться в папці ``<кореневий каталог Godot>/bin``. Назва залежить "
+"від конфігурації вашої збірки, наприклад. ``godot.linuxbsd.editor.dev."
+"x86_64`` для 64-розрядної платформи LinuxBSD з ``platform=editor`` і "
+"``dev_build=yes``."
+
+msgid ""
+"If you run into any issues, ask for help in one of `Godot's community "
+"channels <https://godotengine.org/community>`__."
+msgstr ""
+"Якщо у вас виникнуть проблеми, зверніться по допомогу в один із каналів "
+"спільноти Godot <https://godotengine.org/community>__."

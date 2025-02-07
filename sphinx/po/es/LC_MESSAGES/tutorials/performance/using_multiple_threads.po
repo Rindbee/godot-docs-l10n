@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -126,6 +126,3 @@ msgstr ""
 "El hilo principal, en cambio, utiliza :ref:`Semaphore."
 "post()<class_Semaphore_method_post>` para indicar que los datos están listos "
 "para ser procesados:"
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

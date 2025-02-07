@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -21,56 +21,6 @@ msgstr ""
 "Alors, où est la communauté de Godot et où pouvez-vous poser vos question et "
 "demander de l'aide ?"
 
-msgid ""
-"Note that some of these channels are run and moderated by members of the "
-"Godot community or third parties."
-msgstr ""
-"Notez que quelque de ces chaines sont lancés et modérés par des membres de "
-"la communauté de Godot ou tierce."
-
-msgid ""
-"A brief overview over these and other channels is also available on the "
-"`Godot website <https://godotengine.org/community>`_."
-msgstr ""
-"Un bref aperçu de ces canaux et d'autres canaux est également disponible sur "
-"le site Web de `Godot <https://godotengine.org/community>`_."
-
-msgid "Chats"
-msgstr "Chats"
-
-msgid "`Godot Contributors Chat <https://chat.godotengine.org/>`_"
-msgstr "`Chat des Contributeurs de Godot <https://chat.godotengine.org/>`_"
-
-msgid "`Discord <https://discord.gg/4JBkykG>`_"
-msgstr "`Discord <https://discord.gg/4JBkykG>`_"
-
-msgid ""
-"`Matrix (IRC compatible) <https://matrix.to/#/#godotengine:matrix.org>`_"
-msgstr ""
-"`Matrix (compatible IRC) <https://matrix.to/#/#godotengine:matrix.org>`_"
-
-msgid "`GitHub <https://github.com/godotengine/>`_"
-msgstr "`Dépôt GitHub <https://github.com/godotengine/>`_"
-
-msgid "`Facebook group <https://www.facebook.com/groups/godotengine/>`_"
-msgstr "`Groupe Facebook <https://www.facebook.com/groups/godotengine/>`_"
-
-msgid ""
-"`Twitter <https://twitter.com/godotengine>`_ (see also the `#GodotEngine "
-"<https://twitter.com/hashtag/GodotEngine>`_ hashtag)"
-msgstr ""
-"`Twitter <https://twitter.com/godotengine>`_ (voir aussi `#GodotEngine "
-"<https://twitter.com/hashtag/GodotEngine>`_ hashtag)"
-
-msgid "`Reddit <https://www.reddit.com/r/godot>`_"
-msgstr "`Profil Reddit <https://www.reddit.com/r/godot>`_"
-
-msgid "`YouTube <https://www.youtube.com/c/GodotEngineOfficial>`_"
-msgstr "`YouTube <https://www.youtube.com/c/GodotEngineOfficial>`_"
-
-msgid "`Steam <https://steamcommunity.com/app/404790>`_"
-msgstr "`Page Steam <https://steamcommunity.com/app/404790>`_"
-
 msgid "Language-based communities"
 msgstr "Communautés linguistiques"
 
@@ -80,6 +30,3 @@ msgid ""
 msgstr ""
 "Voir la page `Groupes d'utilisateurs <https://godotengine.org/community/user-"
 "groups>`_ du site web pour une liste des communautés locales."
-
-msgid "Translation status"
-msgstr "État de la traduction"

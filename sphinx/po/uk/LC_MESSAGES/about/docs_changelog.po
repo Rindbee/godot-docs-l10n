@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,6 +32,27 @@ msgstr ""
 "Цей документ містить лише нові сторінки, тому не всі зміни відображені, "
 "багато сторінок були суттєво оновлені, але не відображені в цьому документі."
 
+msgid "About"
+msgstr "Відомості"
+
+msgid "2D"
+msgstr "Двовимірна графіка"
+
+msgid "Contributing"
+msgstr "Участь у розробці"
+
+msgid "GDExtension"
+msgstr "GDеxtension"
+
+msgid "Migrating"
+msgstr "Міграція"
+
+msgid "Rendering"
+msgstr "Рендеринг"
+
+msgid "XR"
+msgstr "ИКСР"
+
 msgid "New pages since version 4.1"
 msgstr "Нові сторінки з версії 4.1"
 
@@ -46,9 +67,6 @@ msgstr "Розробка"
 
 msgid ":ref:`doc_2d_coordinate_systems`"
 msgstr ":ref:`doc_2d_coordinate_systems`"
-
-msgid "Migrating"
-msgstr "Міграція"
 
 msgid ":ref:`doc_upgrading_to_godot_4.2`"
 msgstr ":ref:`doc_upgrading_to_godot_4.2`"
@@ -69,7 +87,7 @@ msgid "New pages since version 4.0"
 msgstr "Нові сторінки з версії 4.0"
 
 msgid ":ref:`doc_internal_rendering_architecture`"
-msgstr ":ref:`doc_internal_rendering_architecture"
+msgstr ":ref:`doc_internal_rendering_architecture`"
 
 msgid ":ref:`doc_using_sanitizers`"
 msgstr ":ref:`doc_using_sanitizers` (Док. використовують сантизерс)"
@@ -86,9 +104,6 @@ msgstr ""
 
 msgid "New pages since version 3.6"
 msgstr "Нові сторінки з версії 3.6"
-
-msgid "2D"
-msgstr "Двовимірна графіка"
 
 msgid ":ref:`doc_2d_antialiasing`"
 msgstr ":ref:`doc_2d_antialiasing` (док. 2d згладжування)"
@@ -181,9 +196,6 @@ msgstr "Робочий процес"
 msgid ":ref:`doc_pr_review_guidelines`"
 msgstr ":ref:`doc_pr_review_guidelines`"
 
-msgid "XR"
-msgstr "ИКСР"
-
 msgid ":ref:`doc_introducing_xr_tools`"
 msgstr ":ref:`doc_introducing_xr_tools`"
 
@@ -234,9 +246,6 @@ msgstr "Нові сторінки з версії 3.2"
 
 msgid ":ref:`doc_3d_rendering_limitations`"
 msgstr ":ref:`doc_3d_rendering_limitations`"
-
-msgid "About"
-msgstr "Відомості"
 
 msgid ":ref:`doc_troubleshooting`"
 msgstr ":ref:`doc_troubleshooting`"
@@ -622,6 +631,3 @@ msgstr "Розробка движка"
 
 msgid ":ref:`doc_binding_to_external_libraries`"
 msgstr ":ref:`doc_binding_to_external_libraries`"
-
-msgid "Translation status"
-msgstr "Стан перекладу"

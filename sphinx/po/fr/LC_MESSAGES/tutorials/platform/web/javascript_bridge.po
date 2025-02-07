@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,15 +11,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "The JavaScriptBridge Singleton"
-msgstr "L'instance JavaScriptBridge"
-
 msgid ""
 "The value of the last JavaScript statement is converted to a GDScript value "
 "and returned by ``eval()`` under certain circumstances:"
 msgstr ""
 "La valeur de la dernière déclaration JavaScript est convertie en une valeur "
 "GDScript et renvoyée par ``eval()`` dans certaines circonstances :"
+
+msgid "JavaScript ``number`` is returned as :ref:`class_float`"
+msgstr "Un ``number`` JavaScript est renvoyé en tant que :ref:`class_float`"
+
+msgid "JavaScript ``boolean`` is returned as :ref:`class_bool`"
+msgstr "Un ``boolean`` JavaScript est renvoyé en tant que :ref:`class_bool`"
+
+msgid "JavaScript ``string`` is returned as :ref:`class_String`"
+msgstr "Un ``string`` JavaScript est renvoyé en tant que :ref:`class_String`"
+
+msgid ""
+"JavaScript ``ArrayBuffer``, ``TypedArray``, and ``DataView`` are returned "
+"as :ref:`PackedByteArray<class_PackedByteArray>`"
+msgstr ""
+"JavaScript ``ArrayBuffer``, ``TypedArray`` et ``DataView`` sont renvoyés en "
+"tant que :ref:`PackedByteArray<class_PackedByteArray>`"
 
 msgid "Any other JavaScript value is returned as ``null``."
 msgstr "Toute autre valeur JavaScript est retournée comme ``null``."
@@ -31,6 +44,3 @@ msgstr ""
 "Les chaînes multi-lignes de GDScript, entourées de 3 guillemets ``\"\"\"`` "
 "comme dans ``my_func3()`` ci-dessus, sont utiles pour garder le code "
 "JavaScript lisible."
-
-msgid "Translation status"
-msgstr "État de la traduction"

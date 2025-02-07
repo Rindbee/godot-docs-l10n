@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -44,8 +44,41 @@ msgstr ":js:attr:`unloadAfterInit`"
 msgid "HTMLCanvasElement"
 msgstr "HTMLCanvasElement"
 
+msgid ":js:attr:`canvas`"
+msgstr ":js:attr:`canvas`"
+
 msgid "string"
 msgstr "string"
+
+msgid ":js:attr:`executable`"
+msgstr ":js:attr:`executable`"
+
+msgid ":js:attr:`mainPack`"
+msgstr ":js:attr:`mainPack`"
+
+msgid ":js:attr:`locale`"
+msgstr ":js:attr:`locale`"
+
+msgid ":js:attr:`canvasResizePolicy`"
+msgstr ":js:attr:`canvasResizePolicy`"
+
+msgid ":js:attr:`args`"
+msgstr ":js:attr:`args`"
+
+msgid ":js:attr:`onExecute`"
+msgstr ":js:attr:`onExecute`"
+
+msgid ":js:attr:`onExit`"
+msgstr ":js:attr:`onExit`"
+
+msgid ":js:attr:`onProgress`"
+msgstr ":js:attr:`onProgress`"
+
+msgid ":js:attr:`onPrint`"
+msgstr ":js:attr:`onPrint`"
+
+msgid ":js:attr:`onPrintError`"
+msgstr ":js:attr:`onPrintError`"
 
 msgid "**Property Descriptions**"
 msgstr "**Описания свойства**"
@@ -79,6 +112,3 @@ msgid ""
 "threading)"
 msgstr ""
 "Еще не все загрузки файлов начались (обычно на серверах без многопоточности)"
-
-msgid "Translation status"
-msgstr "Статус перевода"

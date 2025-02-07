@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -176,6 +176,3 @@ msgstr ""
 "La ventaja de este proceso en dos pasos es que puedes mantener una escena "
 "empaquetada cargada y crear nuevas instancias sobre la marcha. Por ejemplo, "
 "para crear rápidamente varias instancias de enemigos o balas."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

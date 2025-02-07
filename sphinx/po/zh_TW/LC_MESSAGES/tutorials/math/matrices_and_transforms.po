@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -425,14 +425,6 @@ msgstr ""
 "的圖像右上角的位置相吻合."
 
 msgid ""
-"Hopefully you now fully understand the how a transformation matrix affects "
-"the object, and the relationship between the basis vectors and how the "
-"object's \"UV\" or \"intra-coordinates\" have their world position changed."
-msgstr ""
-"希望您現在完全瞭解變換矩陣如何影響物件，以及基向量之間的關係以及物件"
-"的“UV”或“內部座標”如何更改其世界位置。"
-
-msgid ""
 "In Godot, all transform math is done relative to the parent node. When we "
 "refer to \"world position\", that would be relative to the node's parent "
 "instead, if the node had a parent."
@@ -725,6 +717,3 @@ msgstr "https://www.youtube.com/watch?v=d4EgbgTm0Bg"
 
 msgid "https://eater.net/quaternions"
 msgstr "https://eater.net/quaternions"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

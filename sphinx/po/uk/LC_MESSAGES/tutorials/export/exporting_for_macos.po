@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,15 @@ msgstr ""
 
 msgid "Exporting for macOS"
 msgstr "Експорт на macOS"
+
+msgid ""
+"This page describes how to export a Godot project to macOS. If you're "
+"looking to compile editor or export template binaries from source instead, "
+"read :ref:`doc_compiling_for_macos`."
+msgstr ""
+"На цій сторінці описано, як експортувати проект Godot у macOS. Якщо "
+"натомість ви бажаєте скомпілювати редактор або експортувати двійкові файли "
+"шаблону з джерела, прочитайте :ref:`doc_compiling_for_macos`."
 
 msgid "Requirements"
 msgstr "Вимоги"
@@ -62,6 +71,49 @@ msgstr ""
 "Щоб нотаріально засвідчити застосунок, ви **повинні** мати дійсний "
 "`Сертифікат Apple Developer ID <https://developer.apple.com/>`__."
 
+msgid "If you have an Apple Developer ID Certificate and exporting from macOS"
+msgstr "Якщо у вас є сертифікат Apple Developer ID і ви експортуєте з macOS"
+
+msgid ""
+"Install `Xcode <https://developer.apple.com/xcode/>`__ command line tools "
+"and open Xcode at least once or run the ``sudo xcodebuild -license accept`` "
+"command to accept license agreement."
+msgstr ""
+"Установіть `Xcode <https://developer.apple.com/xcode/>`__ інструменти "
+"командного рядка та відкрийте Xcode принаймні один раз або виконайте команду "
+"``sudo xcodebuild -license accept``, щоб прийняти ліцензійну угоду."
+
+msgid "To sign exported app"
+msgstr "Щоб підписати експортовану програму"
+
+msgid "Select ``Xcode codesign`` in the ``Code Signing > Codesign`` option."
+msgstr "Виберіть ``Xcode codesign`` у опції ``Code Signing > Codesign``."
+
+msgid ""
+"Set valid Apple ID certificate identity (certificate \"Common Name\") in the "
+"``Code Signing > Identity`` section."
+msgstr ""
+"Встановіть дійсний ідентифікатор сертифіката Apple ID (сертифікат \"Common "
+"Name\") у розділі ``Підпис коду > Ідентифікація``."
+
+msgid "To notarize exported app"
+msgstr "Нотаріально завірити експортований додаток"
+
+msgid "Select ``Xcode altool`` in the ``Notarization > Notarization`` option."
+msgstr "Виберіть ``Xcode altool`` у опції ``Нотаріальне засвідчення``."
+
+msgid "Disable the ``Debugging`` entitlement."
+msgstr "Вимкніть право ``Debugging``."
+
+msgid ""
+"Set valid Apple ID login / app. specific password or `App Store Connect "
+"<https://developer.apple.com/documentation/appstoreconnectapi>`__ API UUID / "
+"Key in the ``Notarization`` section."
+msgstr ""
+"Встановіть дійсний логін / додаток Apple ID. конкретний пароль або `App "
+"Store Connect <https://developer.apple.com/documentation/"
+"appstoreconnectapi>`__ API UUID / Ключ у розділі ``Нотаріальне засвідчення``."
+
 msgid ""
 "You can use the ``xcrun notarytool history`` command to check notarization "
 "status and use the ``xcrun notarytool log {ID}`` command to download the "
@@ -88,13 +140,90 @@ msgid ""
 "com/documentation/security/notarizing_macos_software_before_distribution/"
 "customizing_the_notarization_workflow>`__ to the exported project."
 msgstr ""
-"Після завершення нотаріального засвідчення `прикріпіть квиток<https://"
+"Після завершення нотаріального засвідчення `прикріпіть квиток <https://"
 "developer.apple.com/documentation/security/"
 "notarizing_macos_software_before_distribution/"
 "customizing_the_notarization_workflow>`__ до експортованого проекту."
 
+msgid ""
+"If you have an Apple Developer ID Certificate and exporting from Linux or "
+"Windows"
+msgstr ""
+"Якщо у вас є сертифікат Apple Developer ID і ви експортуєте з Linux або "
+"Windows"
+
+msgid ""
+"Install `PyOxidizer rcodesign <https://github.com/indygreg/apple-platform-rs/"
+"tree/main/apple-codesign>`__, and configure the path to ``rcodesign`` in the "
+"``Editor Settings > Export > macOS > rcodesign``."
+msgstr ""
+"Установіть `PyOxidizer rcodesign <https://github.com/indygreg/apple-platform-"
+"rs/tree/main/apple-codesign>`__ та налаштуйте шлях до ``rcodesign`` у "
+"``Налаштування редактора > Експорт > macOS > rcodesign``."
+
+msgid ""
+"Select ``PyOxidizer rcodesign`` in the ``Code Signing > Codesign`` option."
+msgstr "Виберіть ``PyOxidizer rcodesign`` у опції ``Code Signing > Codesign``."
+
+msgid ""
+"Set valid Apple ID PKCS #12 certificate file and password in the ``Code "
+"Signing`` section."
+msgstr ""
+"Встановіть дійсний файл сертифіката Apple ID PKCS #12 і пароль у розділі "
+"``Code Signing``."
+
+msgid ""
+"Select ``PyOxidizer rcodesign`` in the ``Notarization > Notarization`` "
+"option."
+msgstr ""
+"Виберіть ``PyOxidizer rcodesign`` у опції ``Нотаріальне засвідчення > "
+"Нотаріальне засвідчення``."
+
+msgid ""
+"Set valid `App Store Connect <https://developer.apple.com/documentation/"
+"appstoreconnectapi>`__ API UUID / Key in the ``Notarization`` section."
+msgstr ""
+"Установіть дійсний `App Store Connect <https://developer.apple.com/"
+"documentation/appstoreconnectapi>`__ API UUID/ключ у розділі ``Нотаріальне "
+"засвідчення``."
+
+msgid ""
+"You can use the ``rcodesign notary-log`` command to check notarization "
+"status."
+msgstr ""
+"Ви можете використовувати команду ``rcodesign notary-log``, щоб перевірити "
+"статус нотаріального засвідчення."
+
+msgid ""
+"After notarization is completed, use the ``rcodesign staple`` command to "
+"staple the ticket to the exported project."
+msgstr ""
+"Після завершення нотаріального засвідчення скористайтеся командою "
+"``rcodesign staple``, щоб прикріпити квиток до експортованого проекту."
+
 msgid "If you do not have an Apple Developer ID Certificate"
 msgstr "Якщо у вас немає сертифіката Apple Developer ID"
+
+msgid ""
+"Select ``Built-in (ad-hoc only)`` in the ``Code Signing > Codesign`` option."
+msgstr ""
+"Виберіть ``Вбудований (лише ad-hoc)`` у опції ``Підпис коду > Кодовий "
+"дизайн``."
+
+msgid "Select ``Disabled`` in the ``Notarization > Notarization`` option."
+msgstr ""
+"Виберіть ``Вимкнено`` в опції ``Нотаріальне засвідчення > Нотаріальне "
+"засвідчення``."
+
+msgid ""
+"In this case Godot will use an ad-hoc signature, which will make running an "
+"exported app easier for the end users, see the :ref:`Running Godot apps on "
+"macOS <doc_running_on_macos>` page for more information."
+msgstr ""
+"У цьому випадку Godot використовуватиме спеціальний підпис, який спростить "
+"запуск експортованої програми для кінцевих користувачів. Для отримання "
+"додаткової інформації перегляньте сторінку :ref:`Запуск програм Godot на "
+"macOS <doc_running_on_macos>`."
 
 msgid "Signing Options"
 msgstr "Параметри підпису"
@@ -108,14 +237,60 @@ msgstr "Опис"
 msgid "Codesign"
 msgstr "Дизайн"
 
+msgid "Tool to use for code signing."
+msgstr "Інструмент для підписання коду."
+
 msgid "Identity"
 msgstr "Профіль"
+
+msgid ""
+"The \"Full Name\" or \"Common Name\" of the signing identity, store in the "
+"macOS keychain. [1]_"
+msgstr ""
+"«Повне ім’я» або «Загальне ім’я» ідентифікатора підпису зберігається в "
+"брелоку macOS. [1]_"
+
+msgid "Certificate File"
+msgstr "Файл сертифіката"
+
+msgid "The PKCS #12 certificate file. [2]_"
+msgstr "Файл сертифіката PKCS #12. [2]_"
+
+msgid "Certificate Password"
+msgstr "Пароль сертифіката"
+
+msgid "Password for the certificate file. [2]_"
+msgstr "Пароль для файлу сертифіката. [2]_"
+
+msgid "Custom Options"
+msgstr "Спеціальні параметри"
+
+msgid "Array of command line arguments passed to the code signing tool."
+msgstr ""
+"Масив аргументів командного рядка, переданий інструменту підписання коду."
+
+msgid "This option is visible only when signing with Xcode codesign."
+msgstr "Ця опція відображається лише під час підписання кодом Xcode."
+
+msgid "These options are visible only when signing with PyOxidizer rcodesign."
+msgstr ""
+"Ці параметри видимі лише під час підписання за допомогою PyOxidizer "
+"rcodesign."
 
 msgid "Notarization Options"
 msgstr "Параметри нотаріального засвідчення"
 
+msgid "Notarization"
+msgstr "Нотаріальне засвідчення"
+
+msgid "Tool to use for notarization."
+msgstr "Інструмент для нотаріального засвідчення."
+
 msgid "Apple ID Name"
 msgstr "Ім'я Apple ID"
+
+msgid "Apple ID account name (email address). [3]_"
+msgstr "Назва облікового запису Apple ID (адреса електронної пошти). [3]_"
 
 msgid "Apple ID Password"
 msgstr "Пароль до Apple ID"
@@ -129,6 +304,48 @@ msgstr ""
 "автентифікацію та створити пароль програми, див. розділ `Використання "
 "паролів для конкретних програм <https://support.apple.com/en-us/"
 "HT204397>`__. [3]_"
+
+msgid "Apple Team ID"
+msgstr "ID команди Apple"
+
+msgid ""
+"Team ID (\"Organization Unit\"), if your Apple ID belongs to multiple teams "
+"(optional). [3]_"
+msgstr ""
+"Ідентифікатор групи («Організаційний підрозділ»), якщо ваш Apple ID належить "
+"кільком командам (необов’язково).[3]_"
+
+msgid "API UUID"
+msgstr "API UUID"
+
+msgid ""
+"Apple `App Store Connect <https://developer.apple.com/documentation/"
+"appstoreconnectapi>`__ API issuer UUID."
+msgstr ""
+"Apple `App Store Connect <https://developer.apple.com/documentation/"
+"appstoreconnectapi>`__ UUID видавця API."
+
+msgid "API Key"
+msgstr "Ключ API"
+
+msgid ""
+"Apple `App Store Connect <https://developer.apple.com/documentation/"
+"appstoreconnectapi>`__ API key."
+msgstr ""
+"Ключ API Apple `App Store Connect <https://developer.apple.com/documentation/"
+"appstoreconnectapi>`__."
+
+msgid ""
+"You should set either Apple ID Name/Password or App Store Connect API UUID/"
+"Key."
+msgstr ""
+"Ви повинні встановити ім’я/пароль Apple ID або UUID/ключ App Store Connect "
+"API."
+
+msgid "These options are visible only when notarizing with Xcode altool."
+msgstr ""
+"Ці параметри видимі лише під час нотаріального посвідчення за допомогою "
+"інструменту Xcode."
 
 msgid ""
 "See `Notarizing macOS Software Before Distribution <https://developer.apple."
@@ -159,6 +376,9 @@ msgstr ""
 msgid "Entitlement"
 msgstr "Дозволи"
 
+msgid "Allow JIT Code Execution [4]_"
+msgstr "Дозволити виконання коду JIT [4]_"
+
 msgid ""
 "Allows creating writable and executable memory for JIT code. If you are "
 "using add-ons with dynamic or self-modifying native code, enable them "
@@ -167,6 +387,9 @@ msgstr ""
 "Дозволяє створювати записувану та виконувану пам'ять для коду JIT. Якщо "
 "використовуються додаткові компоненти з динамічним, або само-змінюваним, "
 "рідним кодом, увімкніть їх відповідно до додаткової документації."
+
+msgid "Allow Unsigned Executable Memory [4]_"
+msgstr "Дозволити непідписану виконувану пам'ять [4]_"
 
 msgid ""
 "Allows creating writable and executable memory without JIT restrictions. If "
@@ -177,8 +400,30 @@ msgstr ""
 "Якщо використовуються додаткові компоненти з динамічним або само-змінюваним "
 "рідним кодом, увімкніть їх відповідно до додаткової документації."
 
+msgid "Allow DYLD Environment Variables [4]_"
+msgstr "Дозволити змінні середовища DYLD [4]_"
+
+msgid ""
+"Allows app to uss dynamic linker environment variables to inject code. If "
+"you are using add-ons with dynamic or self-modifying native code, enable "
+"them according to the add-on documentation."
+msgstr ""
+"Дозволяє програмі використовувати змінні середовища динамічного "
+"компонувальника для введення коду. Якщо ви використовуєте додатки з "
+"динамічним або самозмінним власним кодом, увімкніть їх відповідно до "
+"документації до додатка."
+
 msgid "Disable Library Validation"
 msgstr "Вимкнути перевірку бібліотеки"
+
+msgid ""
+"Allows app to load arbitrary libraries and frameworks. Enable it if you are "
+"using GDExtension add-ons or ad-hoc signing, or want to support user-"
+"provided external add-ons."
+msgstr ""
+"Дозволяє програмі завантажувати довільні бібліотеки та фреймворки. Увімкніть "
+"його, якщо ви використовуєте надбудови GDExtension або спеціальний підпис "
+"або хочете підтримувати надані користувачем зовнішні надбудови."
 
 msgid "Audio Input"
 msgstr "Звуковий вхід"
@@ -219,17 +464,57 @@ msgstr ""
 msgid "Address Book"
 msgstr "Адресна книга"
 
+msgid ""
+"[5]_ Enable to allow access contacts in the user's address book, if it's "
+"enabled you should also provide usage message in the `privacy/"
+"address_book_usage_description` option."
+msgstr ""
+"[5]_ Увімкніть, щоб дозволити доступ до контактів в адресній книзі "
+"користувача. Якщо це ввімкнено, вам також слід надати повідомлення про "
+"використання в параметрі `privacy/address_book_usage_description`."
+
 msgid "Calendars"
 msgstr "Календарі"
+
+msgid ""
+"[5]_ Enable to allow access to the user's calendar, if it's enabled you "
+"should also provide usage message in the `privacy/"
+"calendar_usage_description` option."
+msgstr ""
+"[5]_ Увімкніть, щоб дозволити доступ до календаря користувача, якщо це "
+"ввімкнено, ви також повинні надати повідомлення про використання в параметрі "
+"`privacy/calendar_usage_description`."
 
 msgid "Photo Library"
 msgstr "Бібліотека світлин"
 
+msgid ""
+"[5]_ Enable to allow access to the user's Photos library, if it's enabled "
+"you should also provide usage message in the `privacy/"
+"photos_library_usage_description` option."
+msgstr ""
+"[5]_ Увімкніть, щоб дозволити доступ до бібліотеки фотографій користувача. "
+"Якщо ввімкнено, ви також маєте надати повідомлення про використання в "
+"параметрі `privacy/photos_library_usage_description`."
+
 msgid "Apple Events"
 msgstr "Події Apple"
 
+msgid "[5]_ Enable to allow app to send Apple events to other apps."
+msgstr ""
+"[5]_ Увімкніть, щоб дозволити програмі надсилати події Apple іншим програмам."
+
 msgid "Debugging"
 msgstr "Діагностика"
+
+msgid ""
+"[6]_ You can temporarily enable this entitlement to use native debugger "
+"(GDB, LLDB) with the exported app. This entitlement should be disabled for "
+"production export."
+msgstr ""
+"[6]_ Ви можете тимчасово ввімкнути це право для використання власного "
+"налагоджувача (GDB, LLDB) з експортованою програмою. Це право має бути "
+"вимкнено для експорту продукції."
 
 msgid ""
 "The ``Allow JIT Code Execution``, ``Allow Unsigned Executable Memory`` and "
@@ -315,18 +600,33 @@ msgstr ""
 "Увімкніть, щоб дозволити програмі взаємодіяти з пристроями Bluetooth. Цей "
 "дозвіл необхідний для використання бездротових контролерів."
 
+msgid "Files Downloads [7]_"
+msgstr "Завантаження файлів [7]_"
+
 msgid "Allows read or write access to the user's \"Downloads\" folder."
 msgstr ""
 "Надає доступ для читання, або запису, папки користувача \"Завантаження\"."
 
+msgid "Files Pictures [7]_"
+msgstr "Файли Зображення [7]_"
+
 msgid "Allows read or write access to the user's \"Pictures\" folder."
 msgstr "Дозволяє читати, або записувати, папку користувача \"Зображення\"."
+
+msgid "Files Music [7]_"
+msgstr "Файли Музика [7]_"
 
 msgid "Allows read or write access to the user's \"Music\" folder."
 msgstr "Дозволяє читати, або записувати, папку користувача \"Музика\"."
 
+msgid "Files Movies [7]_"
+msgstr "Файли Фільми [7]_"
+
 msgid "Allows read or write access to the user's \"Movies\" folder."
 msgstr "Дозволяє читати, або записувати, папку користувача \"Фільми\"."
+
+msgid "Files User Selected [7]_"
+msgstr "Файли, вибрані користувачем [7]_"
 
 msgid ""
 "Allows read or write access to arbitrary folder. To gain access, a folder "
@@ -362,5 +662,74 @@ msgstr ""
 msgid "Environment variables"
 msgstr "Змінні середовища"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid ""
+"You can use the following environment variables to set export options "
+"outside of the editor. During the export process, these override the values "
+"that you set in the export menu."
+msgstr ""
+"Ви можете використовувати такі змінні середовища, щоб налаштувати параметри "
+"експорту поза редактором. Під час процесу експорту вони замінюють значення, "
+"встановлені в меню експорту."
+
+msgid "macOS export environment variables"
+msgstr "експорт змінних середовища macOS"
+
+msgid "Export option"
+msgstr "Варіант експорту"
+
+msgid "Environment variable"
+msgstr "Змінна середовища"
+
+msgid "Encryption / Encryption Key"
+msgstr "Шифрування / ключ шифрування"
+
+msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "Options / Codesign / Certificate File"
+msgstr "Параметри / Кодовий дизайн / Файл сертифіката"
+
+msgid "``GODOT_MACOS_CODESIGN_CERTIFICATE_FILE``"
+msgstr "``GODOT_MACOS_CODESIGN_CERTIFICATE_FILE``"
+
+msgid "Options / Codesign / Certificate Password"
+msgstr "Параметри / Кодовий дизайн / Пароль сертифіката"
+
+msgid "``GODOT_MACOS_CODESIGN_CERTIFICATE_PASSWORD``"
+msgstr "``GODOT_MACOS_CODESIGN_CERTIFICATE_PASSWORD``"
+
+msgid "Options / Codesign / Provisioning Profile"
+msgstr "Параметри / Кодовий дизайн / Профіль надання"
+
+msgid "``GODOT_MACOS_CODESIGN_PROVISIONING_PROFILE``"
+msgstr "``GODOT_MACOS_CODESIGN_PROVISIONING_PROFILE``"
+
+msgid "Options / Notarization / API UUID"
+msgstr "Опції / Нотаріальне засвідчення / API UUID"
+
+msgid "``GODOT_MACOS_NOTARIZATION_API_UUID``"
+msgstr "``GODOT_MACOS_NOTARIZATION_API_UUID``"
+
+msgid "Options / Notarization / API Key"
+msgstr "Опції / Нотаріальне засвідчення / Ключ API"
+
+msgid "``GODOT_MACOS_NOTARIZATION_API_KEY``"
+msgstr "``GODOT_MACOS_NOTARIZATION_API_KEY``"
+
+msgid "Options / Notarization / API Key ID"
+msgstr "Опції / Нотаріальне засвідчення / API Key ID"
+
+msgid "``GODOT_MACOS_NOTARIZATION_API_KEY_ID``"
+msgstr "``GODOT_MACOS_NOTARIZATION_API_KEY_ID``"
+
+msgid "Options / Notarization / Apple ID Name"
+msgstr "Опції / Нотаріальне засвідчення / Ім'я Apple ID"
+
+msgid "``GODOT_MACOS_NOTARIZATION_APPLE_ID_NAME``"
+msgstr "``GODOT_MACOS_NOTARIZATION_APPLE_ID_NAME``"
+
+msgid "Options / Notarization / Apple ID Password"
+msgstr "Параметри / Нотаріальне засвідчення / Пароль Apple ID"
+
+msgid "``GODOT_MACOS_NOTARIZATION_APPLE_ID_PASSWORD``"
+msgstr "``GODOT_MACOS_NOTARIZATION_APPLE_ID_PASSWORD``"

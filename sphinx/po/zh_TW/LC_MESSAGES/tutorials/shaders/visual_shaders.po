@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -44,24 +44,6 @@ msgid ""
 msgstr ""
 "VisualShader 可以在任何 :ref:`class_ShaderMaterial` 中建立。要開始使用 "
 "VisualShader，請在你選擇的物件中建立一個新的 ``ShaderMaterial``。"
-
-msgid ""
-"Then assign a :ref:`class_VisualShader` resource to the ``Shader`` property."
-msgstr "然後將一個 :ref:`class_VisualShader` 資源配置給 ``Shader`` 屬性。"
-
-msgid ""
-"Click on the new ``Shader`` resource and the Create Shader dialog will open "
-"automatically. Change the Type option to VisualShader in the dropdown."
-msgstr ""
-"點擊新的 ``VisualShader`` 資源，Visual Shader 編輯器就會自動打開。Visual "
-"Shader 編輯器的佈局包括兩部分：上層工具列和圖表本身。"
-
-msgid ""
-"The layout of the Visual Shader Editor comprises two parts: the upper "
-"toolbar and the graph itself."
-msgstr ""
-"點擊新的 ``VisualShader`` 資源，Visual Shader 編輯器就會自動打開。Visual "
-"Shader 編輯器的佈局包括兩部分：上層工具列和圖表本身。"
 
 msgid "From left to right in the toolbar:"
 msgstr "在工具列中從左到右："
@@ -170,12 +152,6 @@ msgstr ""
 "當把任何 ``vector`` 輸出連接到 ``scalar`` 輸入時, 標量的值將是向量分量的平均"
 "值."
 
-msgid "scalar"
-msgstr "純量"
-
-msgid "boolean"
-msgstr "boolean"
-
 msgid "Type"
 msgstr "型別"
 
@@ -188,11 +164,11 @@ msgstr "說明"
 msgid "Example"
 msgstr "範例"
 
-msgid "Cyan"
-msgstr "青色"
-
 msgid "|scalar|"
 msgstr "|純量|"
+
+msgid "scalar"
+msgstr "純量"
 
 msgid "Vector"
 msgstr "向量 Vector"
@@ -200,14 +176,11 @@ msgstr "向量 Vector"
 msgid "Purple"
 msgstr "紫色"
 
-msgid "Blue"
-msgstr "藍色"
+msgid "boolean"
+msgstr "boolean"
 
 msgid "Transform"
 msgstr "變換"
-
-msgid "Yellow"
-msgstr "黃色"
 
 msgid "Visual Shader nodes"
 msgstr "可視化著色器節點"
@@ -296,6 +269,3 @@ msgstr ""
 "如果布林條件是 ``true`` 或 ``false`` , ``Switch`` 節點返回一個向量. "
 "``Boolean`` 在上面介紹過. 如果你把一個向量轉換為真布林值, 那麼向量的所有分量"
 "都應該高於零."
-
-msgid "Translation status"
-msgstr "翻譯狀態"

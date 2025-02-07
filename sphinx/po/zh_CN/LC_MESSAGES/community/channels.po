@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -19,87 +19,6 @@ msgid ""
 "help?"
 msgstr "那么,Godot社区在哪里？在哪里可以提出问题并获得帮助？"
 
-msgid ""
-"Note that some of these channels are run and moderated by members of the "
-"Godot community or third parties."
-msgstr "请注意, 其中一些渠道由Godot社区的或第三方的成员运营和审核."
-
-msgid ""
-"A brief overview over these and other channels is also available on the "
-"`Godot website <https://godotengine.org/community>`_."
-msgstr ""
-"有关这些渠道的简要概述也可在 `Godot 网站 <https://godotengine.org/"
-"community>`_ 上找到."
-
-msgid "Forums"
-msgstr "论坛"
-
-msgid "`Official Godot Forum <https://forum.godotengine.org/>`_"
-msgstr "`Godot 官方论坛 <https://forum.godotengine.org/>`_"
-
-msgid "`Community Forum <https://godotforums.org/>`_"
-msgstr "`社区论坛 <https://godotforums.org/>`_"
-
-msgid "Chats"
-msgstr "聊天室"
-
-msgid "`Godot Contributors Chat <https://chat.godotengine.org/>`_"
-msgstr "`Godot 贡献者聊天室 <https://chat.godotengine.org/>`_"
-
-msgid "`Discord <https://discord.gg/4JBkykG>`_"
-msgstr "`Discord <https://discord.gg/4JBkykG>`_"
-
-msgid ""
-"`Matrix (IRC compatible) <https://matrix.to/#/#godotengine:matrix.org>`_"
-msgstr "`Matrix (IRC兼容) <https://matrix.to/#/#godotengine:matrix.org>`_"
-
-msgid ""
-"`IRC (#godotengine on Libera.Chat) <https://web.libera.chat/?"
-"channels=#godotengine>`_"
-msgstr ""
-"`IRC (#godotengine on Libera.Chat) <https://web.libera.chat/?"
-"channels=#godotengine>`_"
-
-msgid ""
-"As of January 2021, core developer chat has moved to the Godot Contributors "
-"Chat platform listed above. IRC is less active. Please stick around to get "
-"an answer, as it may take several hours for someone to see and answer your "
-"questions."
-msgstr ""
-"核心开发者已于 2021 年 1 月转移至上面的“Godot 贡献者聊天室”平台。相较而言 "
-"IRC 不再活跃。请耐心等待回复，可能几个小时后才会有人看到并回复你的问题。"
-
-msgid "Social networks and other sites"
-msgstr "社交网络及其他站点"
-
-msgid "`GitHub <https://github.com/godotengine/>`_"
-msgstr "`GitHub <https://github.com/godotengine/>`_"
-
-msgid "`Facebook group <https://www.facebook.com/groups/godotengine/>`_"
-msgstr "`Facebook 组 <https://www.facebook.com/groups/godotengine/>`_"
-
-msgid ""
-"`Twitter <https://twitter.com/godotengine>`_ (see also the `#GodotEngine "
-"<https://twitter.com/hashtag/GodotEngine>`_ hashtag)"
-msgstr ""
-"`Twitter <https://twitter.com/godotengine>`_ (另见 `#GodotEngine <https://"
-"twitter.com/hashtag/GodotEngine>`_ 标签)"
-
-msgid "`Reddit <https://www.reddit.com/r/godot>`_"
-msgstr "`Reddit <https://www.reddit.com/r/godot>`_"
-
-msgid "`YouTube <https://www.youtube.com/c/GodotEngineOfficial>`_"
-msgstr "`YouTube <https://www.youtube.com/c/GodotEngineOfficial>`_"
-
-msgid "`Steam <https://steamcommunity.com/app/404790>`_"
-msgstr "`Steam <https://steamcommunity.com/app/404790>`_"
-
-msgid "`itch.io <https://godotengine.itch.io/godot>`_"
-msgstr "`itch.io <https://godotengine.itch.io/godot>`_"
-
-msgid "`Links <https://links.godotengine.org>`_"
-msgstr "`链接 <https://links.godotengine.org>`_"
-
 msgid "Language-based communities"
 msgstr "基于语言的社区"
 
@@ -109,6 +28,3 @@ msgid ""
 msgstr ""
 "本地社区列表见网站的\\ `用户组 <https://godotengine.org/community/user-"
 "groups>`_\\ 页面。"
-
-msgid "Translation status"
-msgstr "翻译状态"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -325,6 +325,3 @@ msgstr ""
 "如果 MultiMesh 中的实例彼此距离较远，则应将它们放置在单独的 "
 "MultiMeshInstance3D 节点中。这样做还可以提高渲染性能，因为视锥体和遮挡剔除将"
 "能够剔除单个节点（尽管它们无法剔除 MultiMesh 中的单个实例）。"
-
-msgid "Translation status"
-msgstr "翻译状态"

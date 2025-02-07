@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -49,6 +49,9 @@ msgstr ""
 
 msgid "Static Methods"
 msgstr "Métodos Estáticos"
+
+msgid "Promise"
+msgstr "Promesa"
 
 msgid "void"
 msgstr "void"
@@ -219,6 +222,3 @@ msgid ""
 msgstr ""
 "Nem todos os downloads de arquivos foram iniciados ainda (geralmente em "
 "servidores sem multi-threading)"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

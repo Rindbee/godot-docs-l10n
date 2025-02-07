@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -82,6 +82,3 @@ msgid ""
 "Changing the edge connection margin will trigger a full update of all "
 "navigation mesh connections on the NavigationServer."
 msgstr "更改邊緣連接邊距將觸發導覽伺服器上所有導覽網格連接的完整更新。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

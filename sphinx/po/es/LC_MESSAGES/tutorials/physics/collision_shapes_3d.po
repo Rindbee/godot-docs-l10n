@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -179,6 +179,3 @@ msgstr ""
 "hacer concesiones en términos de precisión. La mayoría de los juegos no "
 "tienen una colisión 100% precisa. Encuentran formas creativas de ocultarlo o "
 "hacerlo imperceptible durante el juego."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

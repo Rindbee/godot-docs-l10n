@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,6 +28,3 @@ msgstr ""
 "「Stats」類別是註冊為全域類別的自訂資源。 :ref:`匯出 ``Stats`` 型別的屬性 "
 "<doc_c_sharp_exports>` 將只允許指派此資源型別的實例，並且屬性面板將允許您輕鬆"
 "建立和載入此型別的實例。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

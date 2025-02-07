@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -178,6 +178,3 @@ msgstr ""
 "만약 아이콘이 Windows 10에서 제대로 보이지 않는다면 **실행** 창에서 "
 "``ie4uinit.exe -ClearIconCache`` 또는 ``ie4uinit.exe -show`` 를 입력해 아이"
 "콘 캐시를 삭제해보십시오."
-
-msgid "Translation status"
-msgstr "번역 상태"

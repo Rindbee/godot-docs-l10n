@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -918,16 +918,6 @@ msgstr "自定 Godot 伺服器"
 msgid "Named colors"
 msgstr "有名稱的型別"
 
-msgid ""
-"For tags that allow specifying a color by name you can use names of the "
-"constants from the built-in :ref:`class_Color` class. Named classes can be "
-"specified in a number of styles using different casings: ``DARK_RED``, "
-"``DarkRed``, and ``darkred`` will give the same exact result."
-msgstr ""
-"對於允許按名稱指定顏色的標籤，您可以使用內建 class_Color 類別中的常數名稱。命"
-"名類別可以使用不同的大小寫以多種樣式指定：「DARK_RED」、「DarkRed」和"
-"「darkred」將給出相同的精確結果。"
-
 msgid "Hexadecimal color codes"
 msgstr "十六進位顏色程式碼"
 
@@ -1313,6 +1303,3 @@ msgstr "矩陣"
 
 msgid "This will add a few new BBCode commands, which can be used like so:"
 msgstr "這將增加一些新的BBCode命令, 可以像這樣使用:"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

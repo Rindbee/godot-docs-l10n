@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -91,16 +91,6 @@ msgstr ""
 "Il s'agit là d'un compromis courant, de sorte que Godot est livré avec des "
 "valeurs par défaut raisonnables qui ne devraient pas avoir besoin d'être "
 "modifiés."
-
-msgid ""
-"The problem, in the end, is not this slight delay but synchronizing graphics "
-"and audio for games that require it. Beginning with Godot 3.2, some helpers "
-"were added to obtain more precise playback timing."
-msgstr ""
-"Le problème, en fin de compte, n'est pas ce léger retard, mais la "
-"synchronisation graphique et audio pour les jeux qui l'exigent. A partir de "
-"Godot 3.2, des aides ont été ajoutées pour obtenir un timing de lecture plus "
-"précis."
 
 msgid "Using the system clock to sync"
 msgstr "Utilisation de l'horloge système pour la synchronisation"
@@ -218,6 +208,3 @@ msgstr ""
 
 msgid "Here is the same code as before using this approach:"
 msgstr "Voici le même code qu'avant en utilisant cette approche :"
-
-msgid "Translation status"
-msgstr "État de la traduction"

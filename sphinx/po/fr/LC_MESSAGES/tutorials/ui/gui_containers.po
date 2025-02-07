@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,14 @@ msgstr ""
 
 msgid "Using Containers"
 msgstr "Utilisation de Containers"
+
+msgid ""
+":ref:`Anchors <doc_size_and_anchors>` are an efficient way to handle "
+"different aspect ratios for basic multiple resolution handling in GUIs."
+msgstr ""
+":ref:`Les ancres <doc_size_and_anchors>` sont un moyen efficace de gérer les "
+"différents rapports de taille pour une gestion basique des résolutions "
+"multiples dans les interfaces graphiques."
 
 msgid "For more complex user interfaces, they can become difficult to use."
 msgstr ""
@@ -112,13 +120,6 @@ msgstr ""
 
 msgid "Box Containers"
 msgstr "Box Containers"
-
-msgid ""
-"These containers make use of the *Ratio* property for children with the "
-"*Expand* flag set."
-msgstr ""
-"Ces conteneurs utilisent la propriété *Ratio* pour les enfants avec le "
-"drapeau *Expand* activé."
 
 msgid "Grid Container"
 msgstr "Conteneur de grille"
@@ -239,6 +240,3 @@ msgstr "SubViewportContainer"
 
 msgid "Creating custom Containers"
 msgstr "Création de conteneurs personnalisés"
-
-msgid "Translation status"
-msgstr "État de la traduction"

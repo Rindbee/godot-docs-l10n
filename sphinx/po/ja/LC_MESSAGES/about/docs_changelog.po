@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,62 +14,279 @@ msgstr ""
 msgid "Documentation changelog"
 msgstr "ドキュメントの変更ログ"
 
-msgid "C#"
-msgstr "C#"
+msgid ""
+"The documentation is continually being improved. New releases include new "
+"pages, fixes and updates to existing pages, and many updates to the :ref:"
+"`class reference <doc_class_reference>`. Below is a list of new pages added "
+"since version 3.0."
+msgstr ""
+"ドキュメントは継続的に改善されています。新しいリリースには、新しいページ、既"
+"存のページの修正と更新、そして :ref:`クラスリファレンス"
+"<doc_class_reference>` に対する多くの更新が含まれています。以下は、バージョン"
+"3.0以降に追加された新しいページのリストです。"
 
-msgid "Development"
-msgstr "開発"
-
-msgid "Platform-specific"
-msgstr "プラットフォーム固有"
-
-msgid "Physics"
-msgstr "物理"
-
-msgid "2D"
-msgstr "2D"
-
-msgid "3D"
-msgstr "3D"
-
-msgid "Animation"
-msgstr "アニメーション"
-
-msgid "Assets pipeline"
-msgstr "アセットパイプライン"
-
-msgid "Scripting"
-msgstr "スクリプト"
-
-msgid "Shaders"
-msgstr "シェーダー"
-
-msgid "Editor"
-msgstr "エディタ"
-
-msgid "C++"
-msgstr "C++"
-
-msgid "GDScript"
-msgstr "GDScript"
+msgid ""
+"This document only contains new pages so not all changes are reflected, many "
+"pages have been substantially updated but are not reflected in this document."
+msgstr ""
+"このドキュメントには新しいページのみが含まれているため、すべての変更が反映さ"
+"れているわけではありません。多くのチュートリアルは大幅に更新されていますが、"
+"このドキュメントには反映されていません。"
 
 msgid "About"
 msgstr "概要"
 
+msgid "2D"
+msgstr "2D"
+
+msgid "Contributing"
+msgstr "貢献"
+
+msgid "Migrating"
+msgstr "移行"
+
+msgid "Rendering"
+msgstr "レンダリング"
+
+msgid "XR"
+msgstr "XR"
+
+msgid "New pages since version 4.1"
+msgstr "バージョン4.1以降の新しいページ"
+
+msgid "C#"
+msgstr "C#"
+
+msgid ":ref:`doc_c_sharp_diagnostics`"
+msgstr ":ref:`doc_c_sharp_diagnostics`"
+
+msgid "Development"
+msgstr "開発"
+
+msgid ":ref:`doc_2d_coordinate_systems`"
+msgstr ":ref:`doc_2d_coordinate_systems`"
+
+msgid ":ref:`doc_upgrading_to_godot_4.2`"
+msgstr ":ref:`doc_upgrading_to_godot_4.2`"
+
+msgid "I/O"
+msgstr "入出力(I/O)"
+
+msgid ":ref:`doc_runtime_loading_and_saving`"
+msgstr ":ref:`doc_runtime_loading_and_saving`"
+
+msgid "Platform-specific"
+msgstr "プラットフォーム固有"
+
+msgid ":ref:`doc_android_library`"
+msgstr "\\ :ref:`doc_android_library`"
+
+msgid "New pages since version 4.0"
+msgstr "バージョン 4.0 以降の新しいページ"
+
+msgid ":ref:`doc_internal_rendering_architecture`"
+msgstr "\\ :ref:`doc_internal_rendering_architecture`"
+
+msgid ":ref:`doc_using_sanitizers`"
+msgstr "\\ :ref:`doc_using_sanitizers`"
+
+msgid ":ref:`doc_upgrading_to_godot_4.1`"
+msgstr ":ref:`doc_upgrading_to_godot_4.1`"
+
+msgid "Physics"
+msgstr "物理"
+
+msgid ":ref:`doc_troubleshooting_physics_issues`"
+msgstr ":ref:`doc_troubleshooting_physics_issues`"
+
+msgid "New pages since version 3.6"
+msgstr "バージョン 3.6 以降の新しいページ"
+
+msgid ":ref:`doc_2d_antialiasing`"
+msgstr ":ref:`doc_2d_antialiasing`"
+
+msgid "3D"
+msgstr "3D"
+
+msgid ":ref:`doc_3d_antialiasing`"
+msgstr ":ref:`doc_3d_antialiasing`"
+
+msgid ":ref:`doc_faking_global_illumination`"
+msgstr ":ref:`doc_faking_global_illumination`"
+
+msgid ":ref:`doc_introduction_to_global_illumination`"
+msgstr ":ref:`doc_introduction_to_global_illumination`"
+
+msgid ":ref:`doc_mesh_lod`"
+msgstr ":ref:`doc_mesh_lod`"
+
+msgid ":ref:`doc_occlusion_culling`"
+msgstr ":ref:`doc_occlusion_culling`"
+
+msgid ":ref:`doc_using_sdfgi`"
+msgstr ":ref:`doc_using_sdfgi`"
+
+msgid ":ref:`doc_using_decals`"
+msgstr ":ref:`doc_using_decals`"
+
+msgid ":ref:`doc_visibility_ranges`"
+msgstr ":ref:`doc_visibility_ranges`"
+
+msgid ":ref:`doc_volumetric_fog`"
+msgstr ":ref:`doc_volumetric_fog`"
+
+msgid ":ref:`doc_variable_rate_shading`"
+msgstr ":ref:`doc_variable_rate_shading`"
+
+msgid ":ref:`doc_physical_light_and_camera_units`"
+msgstr ":ref:`doc_physical_light_and_camera_units`"
+
+msgid "Animation"
+msgstr "アニメーション"
+
+msgid ":ref:`doc_creating_movies`"
+msgstr ":ref:`doc_creating_movies`"
+
+msgid "Assets pipeline"
+msgstr "アセットパイプライン"
+
+msgid ":ref:`doc_retargeting_3d_skeletons`"
+msgstr ":ref:`doc_retargeting_3d_skeletons`"
+
+msgid ":ref:`doc_custom_platform_ports`"
+msgstr ":ref:`doc_custom_platform_ports`"
+
+msgid ":ref:`doc_upgrading_to_godot_4`"
+msgstr ":ref:`doc_upgrading_to_godot_4`"
+
+msgid ":ref:`doc_large_world_coordinates`"
+msgstr ":ref:`doc_large_world_coordinates`"
+
+msgid "Scripting"
+msgstr "スクリプト"
+
+msgid ":ref:`doc_custom_performance_monitors`"
+msgstr ":ref:`doc_custom_performance_monitors`"
+
+msgid ":ref:`doc_c_sharp_collections`"
+msgstr ":ref:`doc_c_sharp_collections`"
+
+msgid ":ref:`doc_c_sharp_global_classes`"
+msgstr ":ref:`doc_c_sharp_global_classes`"
+
+msgid ":ref:`doc_c_sharp_variant`"
+msgstr ":ref:`doc_c_sharp_variant`"
+
+msgid "Shaders"
+msgstr "シェーダー"
+
+msgid ":ref:`doc_compute_shaders`"
+msgstr ":ref:`doc_compute_shaders`"
+
+msgid "Workflow"
+msgstr "ワークフロー"
+
+msgid ":ref:`doc_pr_review_guidelines`"
+msgstr ":ref:`doc_pr_review_guidelines`"
+
+msgid ":ref:`doc_introducing_xr_tools`"
+msgstr ":ref:`doc_introducing_xr_tools`"
+
+msgid ":ref:`doc_xr_action_map`"
+msgstr ":ref:`doc_xr_action_map`"
+
+msgid ":ref:`doc_deploying_to_android`"
+msgstr ":ref:`doc_deploying_to_android`"
+
+msgid "New pages since version 3.5"
+msgstr "バージョン3.5 以降の新しいページ"
+
+msgid "None."
+msgstr "ありません。"
+
+msgid "New pages since version 3.4"
+msgstr "バージョン 3.4 以降の新しいページ"
+
+msgid ":ref:`doc_3d_text`"
+msgstr ":ref:`doc_3d_text`"
+
+msgid ":ref:`doc_playing_videos`"
+msgstr ":ref:`doc_playing_videos`"
+
+msgid "Editor"
+msgstr "エディタ"
+
+msgid ":ref:`doc_managing_editor_features`"
+msgstr ":ref:`doc_managing_editor_features`"
+
+msgid "New pages since version 3.3"
+msgstr "バージョン 3.3 以降の新しいページ"
+
+msgid "C++"
+msgstr "C++"
+
+msgid ":ref:`doc_cpp_usage_guidelines`"
+msgstr ":ref:`doc_cpp_usage_guidelines`"
+
+msgid "GDScript"
+msgstr "GDScript"
+
+msgid ":ref:`doc_gdscript_documentation_comments`"
+msgstr ":ref:`doc_gdscript_documentation_comments`"
+
+msgid "New pages since version 3.2"
+msgstr "バージョン 3.2 以降の新しいページ"
+
+msgid ":ref:`doc_3d_rendering_limitations`"
+msgstr ":ref:`doc_3d_rendering_limitations`"
+
+msgid ":ref:`doc_troubleshooting`"
+msgstr ":ref:`doc_troubleshooting`"
+
+msgid ":ref:`doc_list_of_features`"
+msgstr ":ref:`doc_list_of_features`"
+
+msgid ":ref:`doc_release_policy`"
+msgstr ":ref:`doc_release_policy`"
+
 msgid "Best practices"
 msgstr "ベストプラクティス"
+
+msgid ":ref:`doc_version_control_systems`"
+msgstr ":ref:`doc_version_control_systems`"
 
 msgid "Community"
 msgstr "コミュニティ"
 
+msgid ":ref:`doc_best_practices_for_engine_contributors`"
+msgstr ":ref:`doc_best_practices_for_engine_contributors`"
+
+msgid ":ref:`doc_bisecting_regressions`"
+msgstr ":ref:`doc_bisecting_regressions`"
+
 msgid ":ref:`doc_editor_and_docs_localization`"
 msgstr ":ref:`doc_editor_and_docs_localization`"
+
+msgid ":ref:`doc_introduction_to_editor_development`"
+msgstr ":ref:`doc_introduction_to_editor_development`"
+
+msgid ":ref:`doc_editor_style_guide`"
+msgstr ":ref:`doc_editor_style_guide`"
+
+msgid ":ref:`doc_common_engine_methods_and_macros`"
+msgstr ":ref:`doc_common_engine_methods_and_macros`"
+
+msgid ":ref:`doc_vulkan_validation_layers`"
+msgstr ":ref:`doc_vulkan_validation_layers`"
 
 msgid ":ref:`doc_gdscript_grammar`"
 msgstr ":ref:`doc_gdscript_grammar`"
 
 msgid "Configuring an IDE: :ref:`doc_configuring_an_ide_code_blocks`"
 msgstr "IDEの設定: :ref:`doc_configuring_an_ide_code_blocks`"
+
+msgid ":ref:`doc_default_key_mapping`"
+msgstr ":ref:`doc_default_key_mapping`"
 
 msgid ":ref:`doc_using_the_web_editor`"
 msgstr ":ref:`doc_using_the_web_editor`"
@@ -83,20 +300,66 @@ msgstr ":ref:`doc_exporting_for_dedicated_servers`"
 msgid "Input"
 msgstr "入力"
 
+msgid ":ref:`doc_controllers_gamepads_joysticks`"
+msgstr ":ref:`doc_controllers_gamepads_joysticks`"
+
 msgid "Math"
 msgstr "数学"
 
 msgid ":ref:`doc_random_number_generation`"
 msgstr ":ref:`doc_random_number_generation`"
 
+msgid ":ref:`doc_plugins_for_ios`"
+msgstr ":ref:`doc_plugins_for_ios`"
+
+msgid ":ref:`doc_ios_plugin`"
+msgstr ":ref:`doc_ios_plugin`"
+
+msgid ":ref:`doc_html5_shell_classref`"
+msgstr ":ref:`doc_html5_shell_classref`"
+
 msgid ":ref:`doc_collision_shapes_2d`"
 msgstr ":ref:`doc_collision_shapes_2d`"
+
+msgid ":ref:`doc_collision_shapes_3d`"
+msgstr ":ref:`doc_collision_shapes_3d`"
+
+msgid ":ref:`doc_shaders_style_guide`"
+msgstr ":ref:`doc_shaders_style_guide`"
 
 msgid ":ref:`doc_debugger_panel`"
 msgstr ":ref:`doc_debugger_panel`"
 
+msgid ":ref:`doc_creating_script_templates`"
+msgstr ":ref:`doc_creating_script_templates`"
+
+msgid ":ref:`doc_evaluating_expressions`"
+msgstr ":ref:`doc_evaluating_expressions`"
+
+msgid ":ref:`doc_what_is_gdextension`"
+msgstr ":ref:`doc_what_is_gdextension`"
+
+msgid ""
+":ref:`doc_gdscript_warning_system` (split from :ref:"
+"`doc_gdscript_static_typing`)"
+msgstr ""
+":ref:`doc_gdscript_warning_system` ( :ref:`doc_gdscript_static_typing` から分"
+"割)"
+
+msgid "User Interface (UI)"
+msgstr "ユーザーインターフェース (UI)"
+
+msgid ":ref:`doc_control_node_gallery`"
+msgstr ":ref:`doc_control_node_gallery`"
+
+msgid "New pages since version 3.1"
+msgstr "バージョン 3.1 以降の新しいページ"
+
 msgid "Project workflow"
 msgstr "プロジェクトワークフロー"
+
+msgid ":ref:`doc_android_gradle_build`"
+msgstr ":ref:`doc_android_gradle_build`"
 
 msgid ":ref:`doc_2d_sprite_animation`"
 msgstr "\\ :ref:`doc_2d_sprite_animation`"
@@ -105,13 +368,13 @@ msgid "Audio"
 msgstr "オーディオ"
 
 msgid ":ref:`doc_recording_with_microphone`"
-msgstr ":ref:`doc_complying_with_licenses`"
+msgstr ":ref:`doc_recording_with_microphone`"
 
 msgid ":ref:`doc_sync_with_audio`"
 msgstr ":ref:`doc_sync_with_audio`"
 
 msgid ":ref:`doc_beziers_and_curves`"
-msgstr "\\ :ref:`doc_ways_to_contribute`"
+msgstr ":ref:`doc_beziers_and_curves`"
 
 msgid ":ref:`doc_interpolation`"
 msgstr "\\ :ref:`doc_interpolation`"
@@ -135,7 +398,7 @@ msgid "Your First Shader Series:"
 msgstr "初めてのシェーダーシリーズ:"
 
 msgid ":ref:`doc_introduction_to_shaders`"
-msgstr ":ref:`初めてのシェーダー`"
+msgstr ":ref:`doc_introduction_to_shaders`"
 
 msgid ":ref:`doc_your_first_canvasitem_shader`"
 msgstr "\\ :ref:`doc_your_first_canvasitem_shader`"
@@ -191,6 +454,9 @@ msgstr "\\ :ref:`doc_surfacetool`"
 msgid ":ref:`doc_meshdatatool`"
 msgstr "\\ :ref:`doc_meshdatatool`"
 
+msgid ":ref:`doc_immediatemesh`"
+msgstr ":ref:`doc_immediatemesh`"
+
 msgid "Optimization"
 msgstr "最適化"
 
@@ -205,6 +471,9 @@ msgstr "法的表示"
 
 msgid ":ref:`doc_complying_with_licenses`"
 msgstr "\\ :ref:`doc_complying_with_licenses`"
+
+msgid "New pages since version 3.0"
+msgstr "バージョン 3.0 以降の新しいページ"
 
 msgid "Step by step"
 msgstr "ステップ・バイ・ステップ"
@@ -317,6 +586,9 @@ msgstr "\\ :ref:`doc_particle_shader`"
 msgid ":ref:`doc_making_main_screen_plugins`"
 msgstr "\\ :ref:`doc_making_main_screen_plugins`"
 
+msgid ":ref:`doc_3d_gizmo_plugins`"
+msgstr ":ref:`doc_3d_gizmo_plugins`"
+
 msgid ":ref:`doc_customizing_html5_shell`"
 msgstr "\\ :ref:`doc_customizing_html5_shell`"
 
@@ -352,6 +624,3 @@ msgstr "エンジン開発"
 
 msgid ":ref:`doc_binding_to_external_libraries`"
 msgstr "\\ :ref:`doc_binding_to_external_libraries`"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

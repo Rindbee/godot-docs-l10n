@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -30,6 +30,3 @@ msgstr ""
 "suporte partes_paralelizáveis, o Pré-Calculo real raramente é a fonte de "
 "quaisquer problemas de desempenho (assumindo uma geometria complexa e de "
 "tamanho razoável para recálculo em tempo de execução)."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

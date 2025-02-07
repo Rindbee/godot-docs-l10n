@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "Control node gallery"
+msgstr "Галерея контрольних вузлів"
+
+msgid "Here is a list of common Control nodes with their name next to them:"
+msgstr "Ось список загальних вузлів керування з їхніми назвами поруч із ними:"
+
+msgid ""
+"The Control Gallery demo pictured above can be found `on GitHub <https://"
+"github.com/godotengine/godot-demo-projects/tree/master/gui/"
+"control_gallery>`__."
+msgstr ""
+"Демонстрацію Control Gallery, зображену вище, можна знайти на GitHub "
+"<https://github.com/godotengine/godot-demo-projects/tree/master/gui/"
+"control_gallery>`__."

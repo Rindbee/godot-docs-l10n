@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid ":ref:`Astar2D<class_Astar2D>`"
+msgstr ":ref:`Astar2D<class_Astar2D>`"
+
+msgid ":ref:`NavigationServer2D<class_NavigationServer2D>`"
+msgstr ":ref:`NavigationServer2D<class_NavigationServer2D>`"
 
 msgid "The following NavigationServer RID types are available."
 msgstr "Les types RID NavigationServer suivants sont disponibles."
@@ -26,5 +32,26 @@ msgstr "NavLink RID"
 msgid "NavAgent RID"
 msgstr "NavAgent RID"
 
-msgid "Translation status"
-msgstr "État de la traduction"
+msgid ":ref:`NavigationRegion2D<class_NavigationRegion2D>` Node"
+msgstr "Nœud :ref:`NavigationRegion2D<class_NavigationRegion2D>`"
+
+msgid "The region can be enabled / disabled."
+msgstr "La région peut être activée / désactivée."
+
+msgid ":ref:`NavigationLink2D<class_NavigationLink2D>` Node"
+msgstr "Nœud :ref:`NavigationLink2D<class_NavigationLink2D>`"
+
+msgid "The link can be enabled / disabled."
+msgstr "Le lien peut être activé / désactivé."
+
+msgid ":ref:`NavigationAgent2D<class_NavigationAgent2D>` Node"
+msgstr "Nœud :ref:`NavigationAgent2D<class_NavigationAgent2D>`"
+
+msgid ":ref:`NavigationObstacle2D<class_NavigationObstacle2D>` Node"
+msgstr "Nœud :ref:`NavigationObstacle2D<class_NavigationObstacle2D>`"
+
+msgid ":ref:`NavigationPolygon<class_NavigationPolygon>` Resource"
+msgstr "Ressource :ref:`NavigationPolygon<class_NavigationPolygon>`"
+
+msgid "Add a NavigationRegion2D Node to the scene."
+msgstr "Ajouter un nœud NavigationRegion2D à la scène."

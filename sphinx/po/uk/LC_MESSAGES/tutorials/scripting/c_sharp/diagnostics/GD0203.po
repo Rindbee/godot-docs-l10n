@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,94 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0203: The delegate signature of the signal must return void"
+msgstr "GD0203: підпис делегата сигналу має повертатися недійсним"
+
+msgid "**Rule ID**"
+msgstr "**Ідентифікатор правила**"
+
+msgid "GD0203"
+msgstr "GD0203"
+
 msgid "**Category**"
 msgstr "**Категорія**"
 
 msgid "Usage"
 msgstr "Використання"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Виправлення ламається або не ламається**"
+
+msgid "Breaking - If the return type is changed"
+msgstr "Розрив – якщо тип повернення змінено"
+
+msgid "Non-breaking - If the ``[Signal]`` attribute is removed"
+msgstr "Нерозривний – якщо видалено атрибут ``[Signal]``"
+
+msgid "**Enabled by default**"
+msgstr "**Увімкнено за замовчуванням**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "причина"
+
+msgid ""
+"A delegate annotated with the ``[Signal]`` attribute has a return type when "
+"``void`` was expected."
+msgstr ""
+"Делегат, анотований атрибутом ``[Signal]``, має тип повернення, коли "
+"очікувався ``void``."
+
+msgid "Rule description"
+msgstr "Опис правила"
+
+msgid ""
+"Every signal must return ``void``. There can be multiple callbacks "
+"registered for each signal, if signal callbacks could return something it "
+"wouldn't be possible to determine which of the returned values to use."
+msgstr ""
+"Кожен сигнал має повертати ``пустоту``. Для кожного сигналу може бути "
+"зареєстровано кілька зворотних викликів. Якби зворотні виклики сигналів "
+"могли щось повернути, було б неможливо визначити, яке з повернених значень "
+"використовувати."
+
+msgid ""
+"Take a look at the :ref:`C# signals <doc_c_sharp_signals>` documentation for "
+"more information about how to declare and use signals."
+msgstr ""
+"Перегляньте документацію :ref:`C# signals <doc_c_sharp_signals>`, щоб "
+"дізнатися більше про те, як декларувати та використовувати сигнали."
+
+msgid "How to fix violations"
+msgstr "Як усунути порушення"
+
+msgid ""
+"To fix a violation of this rule, change the delegate to return ``void`` or "
+"remove the ``[Signal]`` attribute from the delegate. Note that removing the "
+"attribute will mean the signal is not registered."
+msgstr ""
+"Щоб виправити порушення цього правила, змініть делегат на повернення "
+"``void`` або видаліть атрибут ``[Signal]`` з делегату. Зауважте, що "
+"видалення атрибута означатиме, що сигнал не зареєстровано."
+
+msgid ""
+"If the signal doesn't need to interact with Godot, consider using `C# events "
+"<https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/events/"
+">`_ directly. Pure C# events allow you to use any C# type for its parameters."
+msgstr ""
+"Якщо сигналу не потрібно взаємодіяти з Годо, розгляньте можливість "
+"безпосереднього використання `C# події <https://learn.microsoft.com/en-us/"
+"dotnet/csharp/programming-guide/events/>`_. Чисті події C# дозволяють "
+"використовувати будь-який тип C# для його параметрів."
+
+msgid "When to suppress warnings"
+msgstr "Коли придушувати попередження"
+
+msgid ""
+"Do not suppress a warning from this rule. Signal delegates that return "
+"something will result in unexpected runtime errors."
+msgstr ""
+"Не приховуйте попередження з цього правила. Делегати сигналу, які повертають "
+"щось, призведуть до неочікуваних помилок виконання."

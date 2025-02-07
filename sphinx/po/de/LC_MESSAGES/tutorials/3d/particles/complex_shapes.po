@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -183,6 +183,3 @@ msgstr ""
 "Es gibt auch die Property ``Punktanzahl``, mit der Sie die Anzahl der "
 "Emissionspunkte jederzeit nach der Erstellung der Shape ändern können. Dies "
 "gilt auch für die dynamische Änderung zur Laufzeit während des Spieles."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

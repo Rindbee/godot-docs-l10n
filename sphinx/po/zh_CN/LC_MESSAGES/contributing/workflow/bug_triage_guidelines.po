@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,18 +13,6 @@ msgstr ""
 
 msgid "Bug triage guidelines"
 msgstr "Bug 分类规范"
-
-msgid ""
-"This page describes the typical workflow of the bug triage team aka bugsquad "
-"when handling issues and pull requests on Godot's `GitHub repository "
-"<https://github.com/godotengine/godot>`__. It is bound to evolve together "
-"with the bugsquad, so do not hesitate to propose modifications to the "
-"following guidelines."
-msgstr ""
-"本页面描述了 Bug 分类团队即 bugsquad（Bug 小队）在处理 Godot `GitHub "
-"<https://github.com/godotengine/godot>`_ 仓库的 Issue 和 Pull Request 时的典"
-"型工作流程。它一定会与 bugsquad 一起发展，所以请对下面的规范提出修改意见，不"
-"要犹豫。"
 
 msgid "Issues management"
 msgstr "问题管理"
@@ -67,9 +55,6 @@ msgstr "我们尽可能尝试为问题和拉取请求分配标签(和相关的�
 
 msgid "Labels"
 msgstr "标签"
-
-msgid "The following labels are currently defined in the Godot repository:"
-msgstr "目前在Godot仓库中定义了以下标签:"
 
 msgid "**Categories:**"
 msgstr "**分类:**"
@@ -121,28 +106,8 @@ msgstr ""
 "*Discussion*: 这个问题不是共识, 需要进一步讨论以定义解决该主题的确切方法."
 
 msgid ""
-"*Documentation*: issue related to the documentation. Mainly to request "
-"enhancements in the API documentation. Issues related to the ReadTheDocs "
-"documentation should be filed on the `godot-docs <https://github.com/"
-"godotengine/godot-docs>`_ repository."
-msgstr ""
-"*Documentation*: 与文档相关的问题. 主要是要求改进API文档. 与ReadTheDocs文档相"
-"关的问题应该在 `godot-docs <https://github.com/godotengine/godot-docs>`_ 储存"
-"库上提交."
-
-msgid ""
 "*Enhancement*: describes a proposed enhancement to an existing functionality."
 msgstr "*Enhancement*: 描述对现有功能的建议增强."
-
-msgid ""
-"*Feature proposal*: describes a wish for a new feature to be implemented. "
-"Note that the main Godot repository no longer accepts feature requests. "
-"Please use `godot-proposals <https://github.com/godotengine/godot-"
-"proposals>`__ instead."
-msgstr ""
-"*Feature proposal*\\ ：用于描述实现新功能的愿望。请注意 Godot 主仓库不再接受"
-"功能请求。请换用 `godot-proposals <https://github.com/godotengine/godot-"
-"proposals>`__\\ 。"
 
 msgid ""
 "*For PR meeting*: the issue needs to be discussed in a pull request meeting. "
@@ -151,6 +116,15 @@ msgid ""
 msgstr ""
 "*For PR meeting*\\ ：该问题需要在拉取请求会议中进行讨论。会议是公开的，在 "
 "`Godot 贡献者聊天 <https://chat.godotengine.org/>`_\\ 中举行。"
+
+msgid ""
+"*Good first issue*: the issue is *assumed* to be an easy one to fix, which "
+"makes it a great fit for new contributors who want to become familiar with "
+"the code base. It should be removed while an active PR is available, that "
+"resolves this issue."
+msgstr ""
+"*Good first issue*\\ ：该问题\\ *应该*\\ 是易于修复的，非常适合想要熟悉代码库"
+"的新贡献者。有可用的 PR 能够解决该问题时应当移除此标签。"
 
 msgid ""
 "*High priority:* the issue is particularly important as it can prevent "
@@ -169,16 +143,15 @@ msgstr ""
 "需要在不同的硬件/软件配置上进行测试, 或者甚至重现的步骤不确定."
 
 msgid ""
-"*Needs work*: the pull request needs additional work before it can be merged."
-msgstr "*Needs work*\\ ：拉取请求需要额外处理才能进行合并。"
-
-msgid ""
 "*Performance*: issues that directly impact engine or editor performance. Can "
 "also be used for pull requests that improve performance or add low-end-"
 "friendly options. Should not be coupled with *Usability*."
 msgstr ""
 "*Performance*: 直接影响引擎或编辑器性能的问题。也可用于改善性能或增加低端友好"
 "选项的拉取请求。不应与 *Usability* 可用性结合在一起。"
+
+msgid "*Production*: Relates to the production team."
+msgstr "*Production*\\ ：与产品团队相关。"
 
 msgid ""
 "*Regression*: the bug appeared after a stable release not exhibiting the bug "
@@ -279,9 +252,6 @@ msgid ""
 "*Navigation*: relates to the navigation system (including A* and navmeshes)."
 msgstr "*Navigation*\\ ：与导航系统（包括 A* 和导航网格）有关。"
 
-msgid "*Network*: relates to (lot-level) networking."
-msgstr "*Network*\\ ：与（底层）网络相关。"
-
 msgid "*Particles*: particles, particle systems and their editors."
 msgstr "*Particles*\\ ：粒子和粒子系统，以及对应的编辑器。"
 
@@ -335,16 +305,19 @@ msgid "Documentation labels"
 msgstr "文档标签"
 
 msgid ""
-"In the `documentation repository <https://github.com/godotengine/godot-"
-"docs>`__, we use the following labels:"
-msgstr ""
-"在\\ `文档仓库 <https://github.com/godotengine/godot-docs>`__\\ 中，我们使用"
-"如下标签："
-
-msgid ""
 "*Bug*: Incorrect information in an existing page. Not to be used for "
 "*missing* information."
 msgstr "*Bug*\\ ：现有页面中的错误信息。请勿对\\ *缺失*\\ 信息使用。"
+
+msgid "*Dependencies*: describes pull requests that update a dependency file."
+msgstr "*Dependencies*：更新依赖文件的拉取请求。"
+
+msgid ""
+"*Needs work*: the pull request needs additional work before it can be merged."
+msgstr "*Needs work*\\ ：拉取请求需要额外处理才能进行合并。"
+
+msgid "*Python*: Pull requests that update Python code."
+msgstr "*Python*：更新 Python 代码的拉取请求。"
 
 msgid "**Area:**"
 msgstr "**Area:**"
@@ -386,6 +359,3 @@ msgid ""
 msgstr ""
 "无论指定的里程碑如何, 贡献者都可以自由选择问题；如果针对一个不被认为是紧急的"
 "错误提出修复, 因此没有里程碑, 那么它可能仍然非常受欢迎."
-
-msgid "Translation status"
-msgstr "翻译状态"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -789,6 +789,17 @@ msgstr ""
 "könnten Entwickler / Benutzer daran gehindert werden, Code zu schreiben, der "
 "vom Godot-Editor aus auf das Plugin zugreift."
 
+msgid ""
+"This may involve creating dummy plugins for the host OS just so the API is "
+"published to the editor. You can use the `godot-cpp-template <https://github."
+"com/godotengine/godot-cpp-template>`__ github template for reference on how "
+"to do so."
+msgstr ""
+"Dies kann das Erstellen von Dummy-Plugins für das Host-Betriebssystem "
+"beinhalten, nur damit die API im Editor veröffentlicht wird. Sie können die "
+"GitHub-Vorlage `godot-cpp-template <https://github.com/godotengine/godot-cpp-"
+"template>`__ als Referenz verwenden, wie das geht."
+
 msgid "Godot crashes upon load"
 msgstr "Godot stürzt beim Laden ab"
 
@@ -808,6 +819,3 @@ msgstr ""
 
 msgid "More complex datatypes are not supported for now."
 msgstr "Komplexere Datentypen werden derzeit nicht unterstützt."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

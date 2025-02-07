@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -385,6 +385,3 @@ msgstr ""
 "許多遊戲（包括 XR Tools）透過引入介紹畫面或載入畫面來解決此問題，玩家必須在準"
 "備好時按下按鈕。此起始環境通常是較大的位置，玩家的位置對玩家所看到的內容幾乎"
 "沒有影響。當玩家準備好並按下按鈕時，您就記錄了攝影機的位置和高度。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

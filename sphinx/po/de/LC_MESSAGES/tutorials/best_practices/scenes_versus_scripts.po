@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -170,9 +170,6 @@ msgstr ""
 "Engine-Entwickler müssen die Unterstützung für Sprachen manuell hinzufügen "
 "(sowohl verfügbar machen von Namen als auch Zugriff zur Laufzeit)."
 
-msgid "Godot 3.1+ only."
-msgstr "Nur in Godot 3.1+ verfügbar."
-
 msgid ""
 "The Editor scans project folders and registers any exposed names for all "
 "scripting languages. Each scripting language must implement its own support "
@@ -299,6 +296,3 @@ msgstr ""
 "Wenn man einer Szene einen Namen geben möchte, kann man das immer noch tun, "
 "indem man eine Skriptklasse deklariert und ihr eine Szene als Konstante "
 "gibt. Das Skript wird sozusagen zu einem Namespace:"
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

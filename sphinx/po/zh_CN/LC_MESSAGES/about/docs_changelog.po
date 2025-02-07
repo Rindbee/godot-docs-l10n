@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -21,7 +21,7 @@ msgid ""
 "since version 3.0."
 msgstr ""
 "文档正在不断完善中。新版本加入了许多新页面、对旧版页面的修正和更新，以及对"
-"\\ :ref:`类参考手册 <doc_class_reference>`\\ 的诸多更新。 以下是自 3.0 版以来"
+"\\ :ref:`类参考手册 <doc_class_reference>`\\ 的诸多更新。以下是自 3.0 版以来"
 "添加的新页面的列表。"
 
 msgid ""
@@ -30,6 +30,27 @@ msgid ""
 msgstr ""
 "本文档仅包含新页面，因此并未反映所有更改，许多页面已经大幅更新，但未反映在本"
 "文档中。"
+
+msgid "About"
+msgstr "关于"
+
+msgid "2D"
+msgstr "2D"
+
+msgid "Contributing"
+msgstr "贡献"
+
+msgid "GDExtension"
+msgstr "GDExtension"
+
+msgid "Migrating"
+msgstr "迁移"
+
+msgid "Rendering"
+msgstr "渲染"
+
+msgid "XR"
+msgstr "XR"
 
 msgid "New pages since version 4.1"
 msgstr "4.1 版本加入的新页面"
@@ -45,9 +66,6 @@ msgstr "开发"
 
 msgid ":ref:`doc_2d_coordinate_systems`"
 msgstr ":ref:`doc_2d_coordinate_systems`"
-
-msgid "Migrating"
-msgstr "迁移"
 
 msgid ":ref:`doc_upgrading_to_godot_4.2`"
 msgstr ":ref:`doc_upgrading_to_godot_4.2`"
@@ -84,9 +102,6 @@ msgstr ":ref:`doc_troubleshooting_physics_issues`"
 
 msgid "New pages since version 3.6"
 msgstr "3.6 版本加入的新页面"
-
-msgid "2D"
-msgstr "2D"
 
 msgid ":ref:`doc_2d_antialiasing`"
 msgstr ":ref:`doc_2d_antialiasing`"
@@ -175,9 +190,6 @@ msgstr "工作流"
 msgid ":ref:`doc_pr_review_guidelines`"
 msgstr ":ref:`doc_pr_review_guidelines`"
 
-msgid "XR"
-msgstr "XR"
-
 msgid ":ref:`doc_introducing_xr_tools`"
 msgstr ":ref:`doc_introducing_xr_tools`"
 
@@ -228,9 +240,6 @@ msgstr "3.2 版本加入的新页面"
 
 msgid ":ref:`doc_3d_rendering_limitations`"
 msgstr ":ref:`doc_3d_rendering_limitations`"
-
-msgid "About"
-msgstr "关于"
 
 msgid ":ref:`doc_troubleshooting`"
 msgstr ":ref:`doc_troubleshooting`"
@@ -616,6 +625,3 @@ msgstr "引擎开发"
 
 msgid ":ref:`doc_binding_to_external_libraries`"
 msgstr ":ref:`doc_binding_to_external_libraries`"
-
-msgid "Translation status"
-msgstr "翻译状态"

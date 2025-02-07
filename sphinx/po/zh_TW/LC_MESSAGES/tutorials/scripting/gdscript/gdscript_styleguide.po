@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -260,16 +260,26 @@ msgstr "在字面值中通過 GDScript 的底線功能來讓大數更好閱讀�
 msgid "Naming conventions"
 msgstr "命名公約"
 
-msgid ""
-"These naming conventions follow the Godot Engine style. Breaking these will "
-"make your code clash with the built-in naming conventions, leading to "
-"inconsistent code."
-msgstr ""
-"下列命名公約遵守 Godot Engine 風格。若不遵守這些規則會讓程式碼與內建的命名規"
-"範衝突，進而讓程式碼不一致。"
+msgid "Type"
+msgstr "型別"
+
+msgid "Example"
+msgstr "範例"
 
 msgid "File names"
 msgstr "檔案名稱"
+
+msgid "Functions"
+msgstr "函式"
+
+msgid "Variables"
+msgstr "變數"
+
+msgid "Signals"
+msgstr "訊號"
+
+msgid "Constants"
+msgstr "常數"
 
 msgid ""
 "Use snake_case for file names. For named classes, convert the PascalCase "
@@ -308,9 +318,6 @@ msgstr ""
 "在需要由使用者覆寫的虛擬方法、Private 函式、Private 變數前加上一個底線 "
 "(\\_)："
 
-msgid "Signals"
-msgstr "訊號"
-
 msgid "Use the past tense to name signals:"
 msgstr "訊號使用過去式來命名："
 
@@ -331,13 +338,6 @@ msgstr ""
 
 msgid "Code order"
 msgstr "程式碼順序"
-
-msgid ""
-"This first section focuses on code order. For formatting, see :ref:"
-"`formatting`. For naming conventions, see :ref:`naming_conventions`."
-msgstr ""
-"第一個段落為程式碼順序，有關格式，請參考 :ref:`formatting` 。有關命名公約，請"
-"參考 :ref:`naming_coventions` 。"
 
 msgid "We suggest to organize GDScript code this way:"
 msgstr "建議按照這種方法來組織 GDScript 程式碼："
@@ -472,13 +472,6 @@ msgstr "剩下的則依序為類別介面、Public 與 Private 方法。"
 msgid "Static typing"
 msgstr "靜態型別"
 
-msgid ""
-"Since Godot 3.1, GDScript supports :ref:`optional static "
-"typing<doc_gdscript_static_typing>`."
-msgstr ""
-"自 Godot 3.1 版以後，GDScript 支援 :ref:`可選的靜態型別定義 "
-"<doc_gdscript_static_typing>` 。"
-
 msgid "Declared types"
 msgstr "宣告型別"
 
@@ -527,6 +520,3 @@ msgid ""
 "safe<doc_gdscript_static_typing_safe_lines>` than the first."
 msgstr ""
 "這種做法也比第一種更:ref:`型別安全<doc_gdscript_static_typing_safe_lines>`。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

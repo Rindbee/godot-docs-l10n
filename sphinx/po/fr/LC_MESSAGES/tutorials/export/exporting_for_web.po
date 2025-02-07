@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -306,6 +306,15 @@ msgstr ""
 "HTML personnalisé peut être utilisé, voir :ref:`doc_customizing_html5_shell`."
 
 msgid ""
+"The generated ``.html`` file can be used as ``DirectoryIndex`` in Apache "
+"servers and can be renamed to e.g. ``index.html`` at any time. Its name is "
+"never depended on by default."
+msgstr ""
+"Le fichier ``.html`` généré peut être utilisé comme ``DirectoryIndex`` dans "
+"les serveurs Apache et peut être renommé, par exemple, ``index.html`` à tout "
+"moment. Son nom n'est jamais utilisé par défaut."
+
+msgid ""
 "The other exported files are served as they are, next to the ``.html`` file, "
 "names unchanged. The ``.wasm`` file is a binary WebAssembly module "
 "implementing the engine. The ``.pck`` file is the Godot main pack containing "
@@ -362,6 +371,3 @@ msgstr "Cryptage / Clé de cryptage"
 
 msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
-
-msgid "Translation status"
-msgstr "État de la traduction"

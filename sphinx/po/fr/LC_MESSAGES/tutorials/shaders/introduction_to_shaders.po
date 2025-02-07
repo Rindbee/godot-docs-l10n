@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -168,6 +168,14 @@ msgid ":ref:`particles <doc_particle_shader>` for particle systems."
 msgstr ""
 ":ref:`particles <doc_particle_shader>` pour les systèmes de particules."
 
+msgid ":ref:`sky <doc_sky_shader>` to render :ref:`Skies <class_Sky>`."
+msgstr ":ref:`sky <doc_sky_shader>` pour rendre :ref:`Skies <class_Sky>`."
+
+msgid ""
+":ref:`fog <doc_fog_shader>` to render :ref:`FogVolumes <class_FogVolume>`"
+msgstr ""
+":ref:`fog <doc_fog_shader>` pour rendre  :ref:`FogVolumes <class_FogVolume>`"
+
 msgid "Render modes"
 msgstr "Mode de rendu"
 
@@ -278,6 +286,3 @@ msgstr ""
 "description du fonctionnement de chacun, consultez leur documentation, :ref:"
 "`CanvasItem shaders <doc_canvas_item_shader>` et :ref:`Spatial shaders "
 "<doc_spatial_shader>`, respectivement."
-
-msgid "Translation status"
-msgstr "État de la traduction"

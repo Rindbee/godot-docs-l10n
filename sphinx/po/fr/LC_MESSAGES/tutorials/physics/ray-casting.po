@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -37,6 +37,15 @@ msgstr ""
 
 msgid "Space"
 msgstr "Espace"
+
+msgid ""
+"The resulting space :ref:`RID <class_RID>` can be used in :ref:"
+"`PhysicsServer3D <class_PhysicsServer3D>` and :ref:`PhysicsServer2D "
+"<class_PhysicsServer2D>` respectively for 3D and 2D."
+msgstr ""
+"L'espace résultant :ref:`RID <class_RID>` peut être utilisé dans :ref:"
+"`PhysicsServer3D <class_PhysicsServer3D>` et :ref:`Physics2DServer "
+"<class_Physics2DServer>` respectivement pour 3D et 2D."
 
 msgid "Accessing space"
 msgstr "Accéder à l'espace"
@@ -84,6 +93,16 @@ msgstr ""
 "détectera que le collisionneur de son parent, comme le montre l'image "
 "suivante :"
 
+msgid ""
+"To avoid self-intersection, the ``intersect_ray()`` parameters object can "
+"take an array of exceptions via its ``exclude`` property. This is an example "
+"of how to use it from a CharacterBody2D or any other collision object node:"
+msgstr ""
+"Pour éviter l'auto-intersection, la fonction ``intersect_ray()`` peut "
+"prendre tableau d'exceptions via sa propriété ``exclude``. Voici un exemple "
+"d'utilisation à partir d'un nœud CharacterBody2D ou de tout autre nœud "
+"d'objet de collision :"
+
 msgid "The exceptions array can contain objects or RIDs."
 msgstr "Le tableau des exceptions peut contenir des objets ou des RIDs."
 
@@ -121,6 +140,3 @@ msgid ""
 msgstr ""
 "Rappelez-vous que pendant ``_input()``, l'espace peut être verrouillé, donc "
 "en pratique cette requête doit être exécutée dans ``_physics_process()``."
-
-msgid "Translation status"
-msgstr "État de la traduction"

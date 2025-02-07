@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -364,6 +364,3 @@ msgstr ""
 "在遠處顯示的 MeshInstance3D 上，在屬性面板中編輯其材質。將其**距離淡入淡出**"
 "模式設定為**物件抖動**。將 **Min Distance** 設定為與可見範圍 **Begin** 相同的"
 "值。將**最大距離**設定為相同的值*加上*淡入淡出過渡距離。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

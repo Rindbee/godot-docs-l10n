@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -33,12 +33,6 @@ msgstr "데스크탑 또는 노트북 PC - 최소 사양"
 
 msgid "**CPU**"
 msgstr "**CPU**"
-
-msgid "**Windows:** x86_32 CPU with SSE2 instructions, or any x86_64 CPU"
-msgstr "Windows: SSE2 인스트럭션을 지원하는 x86_32 CPU 또는 모든 x86_64 CPU"
-
-msgid "*Example: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300*"
-msgstr "*예시: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300*"
 
 msgid "**macOS:** x86_64 or ARM CPU (Apple Silicon)"
 msgstr "**macOS:** x86_64 or ARM CPU (Apple Silicon)"
@@ -157,13 +151,6 @@ msgid "*Example: Qualcomm Adreno 306, Mali-T628 MP6*"
 msgstr "*예시: Qualcomm Adreno 306, Mali-T628 MP6*"
 
 msgid ""
-"**Native editor:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
-"Mobile), iOS 11.0"
-msgstr ""
-"**네이티브 에디터**: Android 6.0(호환성) 또는 Android 9.0(Forward+/모바일), "
-"iOS 11.0"
-
-msgid ""
 "**Web editor:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
 "Samsung Internet 15"
 msgstr ""
@@ -179,14 +166,6 @@ msgstr ""
 
 msgid "Desktop or laptop PC - Recommended"
 msgstr "데스크탑 또는 노트북 PC - 권장 사양"
-
-msgid ""
-"**Windows:** x86_64 CPU with SSE4.2 instructions, with 4 physical cores or "
-"more"
-msgstr "Windows: SSE4.2 명령어를 지원하는 x86_64 CPU, 4개 이상의 물리적 코어"
-
-msgid "*Example: Intel Core i5-6600K, AMD Ryzen 5 1600*"
-msgstr "*예시: Intel Core i5-6600K, AMD Ryzen 5 1600*"
 
 msgid "*Example: Intel Core i5-8500, Apple M1*"
 msgstr "*예시: Intel Core i5-8500, Apple M1*"
@@ -265,9 +244,6 @@ msgid ""
 msgstr ""
 "**호환성 렌더링 방식**: OpenGL ES 3.2를 완전히 지원하는 GPU가 포함된 SoC"
 
-msgid "**Native editor:** Android 9.0 or iOS 11.0"
-msgstr "네이티브 에디터: Android 9.0 또는 iOS 11.0"
-
 msgid ""
 "**Web editor:** Latest version of Firefox, Chrome, Edge, Safari, Opera, "
 "Samsung Internet"
@@ -329,24 +305,6 @@ msgid "*Example: Apple A7 (iPhone 5S)*"
 msgstr "*예시: Apple A7 (iPhone 5S)*"
 
 msgid ""
-"*Example: Qualcomm Adreno 505, Mali-G71 MP2, PowerVR G6430 (iPhone 6S/iPhone "
-"SE 1)*"
-msgstr ""
-"*예시: Qualcomm Adreno 505, Mali-G71 MP2, PowerVR G6430 (iPhone 6S/iPhone SE "
-"1)*"
-
-msgid ""
-"*Example: Qualcomm Adreno 306, Mali-T628 MP6, PowerVR G6430 (iPhone 5S)*"
-msgstr "*예시: Qualcomm Adreno 306, Mali-T628 MP6, PowerVR G6430 (iPhone 5S)*"
-
-msgid ""
-"**For native exports:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
-"Mobile), iOS 11.0"
-msgstr ""
-"**네이티브 내보내기**: Android 6.0(호환성) 또는 Android 9.0(Forward+/모바"
-"일), iOS 11.0"
-
-msgid ""
 "**For web exports:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
 "Samsung Internet 15"
 msgstr ""
@@ -375,16 +333,6 @@ msgstr ""
 msgid "**iOS:** SoC with 64-bit ARM CPU"
 msgstr "**iOS**: 64비트 ARM CPU가 포함된 SoC"
 
-msgid "*Example: Apple A11 (iPhone XS/XR)*"
-msgstr "*예제: Apple A11 (iPhone XS/XR)*"
-
-msgid ""
-"*Example: Qualcomm Adreno 630, Mali-G72 MP18, Apple G11P (iPhone XR/XS)*"
-msgstr "*에시: Qualcomm Adreno 630, Mali-G72 MP18, Apple G11P (iPhone XR/XS)*"
-
-msgid "**For native exports:** Android 9.0 or iOS 11.0"
-msgstr "**네이티브 내보내기:** Android 9.0 or iOS 11.0"
-
 msgid ""
 "**For web exports:** Latest version of Firefox, Chrome, Edge, Safari, Opera, "
 "Samsung Internet"
@@ -400,6 +348,3 @@ msgstr ""
 "Godot은 OpenGL 3.3/OpenGL ES 3.0 이후에 도입된 OpenGL/OpenGL ES 확장을 사용하"
 "지 않지만, 최신 OpenGL/OpenGL ES 버전을 지원하는 GPU는 일반적으로 드라이버 문"
 "제를 덜 겪습니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

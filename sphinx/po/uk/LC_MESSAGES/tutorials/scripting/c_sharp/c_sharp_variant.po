@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,334 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "C# Variant"
+msgstr "Варіант C#"
+
+msgid ""
+"For a detailed explanation of Variant in general, see the :ref:`Variant "
+"<class_Variant>` documentation page."
+msgstr ""
+"Для детального пояснення Variant в цілому дивіться сторінку документації :"
+"ref:`Variant <class_Variant>`."
+
+msgid ""
+"``Godot.Variant`` is used to represent Godot's native :ref:`Variant "
+"<class_Variant>` type. Any :ref:`Variant-compatible type "
+"<c_sharp_variant_compatible_types>` can be converted from/to it. We "
+"recommend avoiding ``Godot.Variant`` unless it is necessary to interact with "
+"untyped engine APIs. Take advantage of C#'s type safety when possible."
+msgstr ""
+"``Godot.Variant`` використовується для представлення рідного типу Godot :ref:"
+"`Variant <class_Variant>`. Будь-який :ref:`Variant-compatible type "
+"<c_sharp_variant_compatible_types>` можна конвертувати з/в нього. Ми "
+"рекомендуємо уникати ``Godot.Variant``, якщо не потрібно взаємодіяти з "
+"нетиповими API механізму. Скористайтеся перевагами захисту типів C#, коли це "
+"можливо."
+
+msgid ""
+"Converting from a Variant-compatible C# type to ``Godot.Variant`` can be "
+"done using implicit conversions. There are also ``CreateFrom`` method "
+"overloads and the generic ``Variant.From<T>`` methods. Only the syntax is "
+"different: the behavior is the same."
+msgstr ""
+"Перетворення з Variant-сумісного типу C# на ``Godot.Variant`` можна "
+"здійснити за допомогою неявних перетворень. Існують також перевантаження "
+"методів ``CreateFrom`` і загальні методи ``Variant.From<T>``. Тільки "
+"синтаксис інший: поведінка однакова."
+
+msgid ""
+"Implicit conversions to ``Godot.Variant`` make passing variants as method "
+"arguments very convenient. For example, the third argument of :ref:"
+"`tween_property<class_Tween_method_tween_property>` specifying the final "
+"color of the tween is a ``Godot.Variant``."
+msgstr ""
+"Неявні перетворення в ``Godot.Variant`` роблять передачу варіантів як "
+"аргументів методу дуже зручною. Наприклад, третій аргумент :ref:"
+"`tween_property<class_Tween_method_tween_property>`, який визначає "
+"остаточний колір анімації, є ``Godot.Variant``."
+
+msgid ""
+"Converting from ``Godot.Variant`` to a C# type can be done using explicit "
+"conversions. There are also ``Variant.As{TYPE}`` methods and the generic "
+"``Variant.As<T>`` method. All of these behave the same."
+msgstr ""
+"Перетворення з ``Godot.Variant`` на тип C# можна здійснити за допомогою "
+"явних перетворень. Існують також методи ``Variant.As{TYPE}`` і загальний "
+"метод ``Variant.As<T>``. Усі вони поводяться однаково."
+
+msgid ""
+"The ``Variant.As{TYPE}`` methods are typically named after C# types "
+"(``Int32``), not C# keywords (``int``)."
+msgstr ""
+"Методи ``Variant.As{TYPE}`` зазвичай називаються за типами C# (``Int32``), а "
+"не за ключовими словами C# (``int``)."
+
+msgid ""
+"If the Variant type doesn't match the conversion target type, the "
+"consequences vary depending on the source and target values."
+msgstr ""
+"Якщо тип варіанту не відповідає цільовому типу конверсії, наслідки залежать "
+"від вихідного та цільового значень."
+
+msgid ""
+"The conversion may examine the value and return a similar but potentially "
+"unexpected value of the target type. For example, the string ``\"42a\"`` may "
+"be converted to the integer ``42``."
+msgstr ""
+"Перетворення може перевіряти значення та повертати подібне, але потенційно "
+"неочікуване значення цільового типу. Наприклад, рядок ``\"42a\"`` можна "
+"перетворити на ціле число ``42``."
+
+msgid "The default value of the target type may be returned."
+msgstr "Може бути повернуто значення за замовчуванням цільового типу."
+
+msgid "An empty array may be returned."
+msgstr "Може бути повернуто порожній масив."
+
+msgid "An exception may be thrown."
+msgstr "Може бути виняток."
+
+msgid ""
+"Converting to the correct type avoids complicated behavior and should be "
+"preferred."
+msgstr ""
+"Перетворення на правильний тип дозволяє уникнути складної поведінки, тому "
+"йому слід надавати перевагу."
+
+msgid ""
+"The ``Variant.Obj`` property returns a C# ``object`` with the correct value "
+"for any variant. This may be useful when the type of Variant is completely "
+"unknown. However, when possible, prefer more specific conversions. ``Variant."
+"Obj`` evaluates a ``switch`` on ``Variant.VariantType`` and it may not be "
+"necessary. Also, if the result is a value type, it is boxed."
+msgstr ""
+"Властивість ``Variant.Obj`` повертає ``об’єкт`` C# з правильним значенням "
+"для будь-якого варіанту. Це може бути корисним, коли тип варіанту абсолютно "
+"невідомий. Однак, коли це можливо, віддайте перевагу більш конкретним "
+"перетворенням. ``Variant.Obj`` оцінює ``перемикач`` на ``Variant."
+"VariantType``, і це може не знадобитися. Крім того, якщо результат є типом "
+"значення, він поміщається в рамку."
+
+msgid ""
+"For example, if the potential for ``Variant.As<MyNode>()`` to throw an "
+"invalid cast exception isn't acceptable, consider using a ``Variant."
+"As<GodotObject>() is MyNode n`` type pattern instead."
+msgstr ""
+"Наприклад, якщо можливість ``Variant.As<MyNode>()`` викликати недійсний "
+"виняток приведення є неприйнятною, розгляньте можливість використання "
+"``Variant.As<GodotObject>() є MyNode n`` шаблон типу замість цього."
+
+msgid ""
+"Since the Variant type in C# is a struct, it can't be null. To create a "
+"\"null\" Variant, use the ``default`` keyword or the ``Godot.Variant`` "
+"parameterless constructor."
+msgstr ""
+"Оскільки тип Variant у C# є структурою, він не може бути нульовим. Щоб "
+"створити «нульовий» варіант, використовуйте ключове слово ``default`` або "
+"``Godot.Variant`` конструктор без параметрів."
+
+msgid "Variant-compatible types"
+msgstr "Типи, сумісні з варіантами"
+
+msgid ""
+"A Variant-compatible type can be converted to and from a ``Godot.Variant``. "
+"These C# types are Variant-compatible:"
+msgstr ""
+"Тип, сумісний з Variant, можна конвертувати в ``Godot.Variant`` і з нього. "
+"Ці типи C# сумісні з варіантами:"
+
+msgid ""
+"All the `built-in value types <https://docs.microsoft.com/en-us/dotnet/"
+"csharp/language-reference/keywords/built-in-types-table>`_, except "
+"``decimal``, ``nint`` and ``nuint``."
+msgstr ""
+"Усі `вбудовані типи значень <https://docs.microsoft.com/en-us/dotnet/csharp/"
+"language-reference/keywords/built-in-types-table>`_, крім ``decimal`` , "
+"``nint`` і ``nuint``."
+
 msgid "``string``."
 msgstr "``строка``."
 
 msgid "Classes derived from :ref:`GodotObject <class_Object>`."
-msgstr "Класи, похідні від :ref:`GodotObject <клас_об'єкт>`."
+msgstr "Похідні класи :ref:`GodotObject <class_Object>`."
+
+msgid "Collections types defined in the ``Godot.Collections`` namespace."
+msgstr "Типи колекцій, визначені в просторі імен ``Godot.Collections``."
+
+msgid "Full list of Variant types and their equivalent C# type:"
+msgstr "Повний список типів Variant і їх еквівалентного типу C#:"
+
+msgid "Variant.Type"
+msgstr "Варіант.Тип"
+
+msgid "C# Type"
+msgstr "Тип C#"
+
+msgid "``Nil``"
+msgstr "``Nil``"
+
+msgid "``null`` (Not a type)"
+msgstr "``null`` (Не тип)"
+
+msgid "``Bool``"
+msgstr "``Bool``"
+
+msgid "``bool``"
+msgstr "``bool``"
+
+msgid "``Int``"
+msgstr "``Int``"
+
+msgid "``long`` (Godot stores 64-bit integers in Variant)"
+msgstr "``long`` (Godot зберігає 64-розрядні цілі числа у Variant)"
+
+msgid "``Float``"
+msgstr "``Float``"
+
+msgid "``double`` (Godot stores 64-bit floats in Variant)"
+msgstr ""
+"``double`` (Godot зберігає 64-бітні числа з плаваючою точкою у Variant)"
+
+msgid "``String``"
+msgstr "``String``"
+
+msgid "``string``"
+msgstr "``string``"
+
+msgid "``Vector2``"
+msgstr "``Vector2``"
+
+msgid "``Godot.Vector2``"
+msgstr "``Godot.Vector2``"
+
+msgid "``Vector2I``"
+msgstr "``Vector2I``"
+
+msgid "``Godot.Vector2I``"
+msgstr "``Godot.Vector2I``"
+
+msgid "``Rect2``"
+msgstr "``Rect2``"
+
+msgid "``Godot.Rect2``"
+msgstr "``Godot.Rect2``"
+
+msgid "``Rect2I``"
+msgstr "``Rect2I``"
+
+msgid "``Godot.Rect2I``"
+msgstr "``Godot.Rect2I``"
+
+msgid "``Vector3``"
+msgstr "``Vector3``"
+
+msgid "``Godot.Vector3``"
+msgstr "``Godot.Vector3``"
+
+msgid "``Vector3I``"
+msgstr "``Vector3I``"
+
+msgid "``Godot.Vector3I``"
+msgstr "``Godot.Vector3I``"
+
+msgid "``Transform2D``"
+msgstr "``Transform2D``"
+
+msgid "``Godot.Transform2D``"
+msgstr "``Godot.Transform2D``"
+
+msgid "``Vector4``"
+msgstr "``Vector4``"
+
+msgid "``Godot.Vector4``"
+msgstr "``Godot.Vector4``"
+
+msgid "``Vector4I``"
+msgstr "``Vector4I``"
+
+msgid "``Godot.Vector4I``"
+msgstr "``Godot.Vector4I``"
+
+msgid "``Plane``"
+msgstr "``Plane``"
+
+msgid "``Godot.Plane``"
+msgstr "``Godot.Plane``"
+
+msgid "``Quaternion``"
+msgstr "``Quaternion``"
+
+msgid "``Godot.Quaternion``"
+msgstr "``Godot.Quaternion``"
+
+msgid "``Aabb``"
+msgstr "``Aabb``"
+
+msgid "``Godot.Aabb``"
+msgstr "``Godot.Aabb``"
+
+msgid "``Basis``"
+msgstr "``Basis``"
+
+msgid "``Godot.Basis``"
+msgstr "``Godot.Basis``"
+
+msgid "``Transform3D``"
+msgstr "``Transform3D``"
+
+msgid "``Godot.Transform3D``"
+msgstr "``Godot.Transform3D``"
+
+msgid "``Projection``"
+msgstr "``Projection``"
+
+msgid "``Godot.Projection``"
+msgstr "``Godot.Projection``"
+
+msgid "``Color``"
+msgstr "``Color``"
+
+msgid "``Godot.Color``"
+msgstr "``Godot.Color``"
+
+msgid "``StringName``"
+msgstr "``StringName``"
+
+msgid "``Godot.StringName``"
+msgstr "``Godot.StringName``"
+
+msgid "``NodePath``"
+msgstr "``NodePath``"
+
+msgid "``Godot.NodePath``"
+msgstr "``Godot.NodePath``"
+
+msgid "``Rid``"
+msgstr "``Rid``"
+
+msgid "``Godot.Rid``"
+msgstr "``Godot.Rid``"
+
+msgid "``Object``"
+msgstr "``Object``"
+
+msgid "``Godot.GodotObject`` or any derived type."
+msgstr "``Godot.GodotObject`` або будь-який похідний тип."
+
+msgid "``Callable``"
+msgstr "``Callable``"
+
+msgid "``Godot.Callable``"
+msgstr "``Godot.Callable``"
+
+msgid "``Signal``"
+msgstr "``Signal``"
+
+msgid "``Godot.Signal``"
+msgstr "``Godot.Signal``"
+
+msgid "``Dictionary``"
+msgstr "``Dictionary``"
 
 msgid "``Godot.Collections.Dictionary``"
 msgstr "``Godot.Collections.Dictionary`` (Словник колекцій Годо)"
@@ -26,14 +349,113 @@ msgstr "``Array``"
 msgid "``Godot.Collections.Array``"
 msgstr "``Godot.Collections.Array``"
 
+msgid "``PackedByteArray``"
+msgstr "``PackedByteArray``"
+
 msgid "``byte[]``"
 msgstr "``byte[]``"
+
+msgid "``PackedInt32Array``"
+msgstr "``PackedInt32Array``"
 
 msgid "``int[]``"
 msgstr "``int[]``"
 
+msgid "``PackedInt64Array``"
+msgstr "``PackedInt64Array``"
+
+msgid "``long[]``"
+msgstr "``long[]``"
+
+msgid "``PackedFloat32Array``"
+msgstr "``PackedFloat32Array``"
+
 msgid "``float[]``"
 msgstr "``float[]``"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "``PackedFloat64Array``"
+msgstr "``PackedFloat64Array``"
+
+msgid "``double[]``"
+msgstr "``double[]``"
+
+msgid "``PackedStringArray``"
+msgstr "``PackedStringArray``"
+
+msgid "``string[]``"
+msgstr "``string[]``"
+
+msgid "``PackedVector2Array``"
+msgstr "``PackedVector2Array``"
+
+msgid "``Godot.Vector2[]``"
+msgstr "``Godot.Vector2[]``"
+
+msgid "``PackedVector3Array``"
+msgstr "``PackedVector3Array``"
+
+msgid "``Godot.Vector3[]``"
+msgstr "``Godot.Vector3[]``"
+
+msgid "``PackedColorArray``"
+msgstr "``PackedColorArray``"
+
+msgid "``Godot.Color[]``"
+msgstr "``Godot.Color[]``"
+
+msgid ""
+"Godot uses 64-bit integers and floats in Variant. Smaller integer and float "
+"types such as ``int``, ``short`` and ``float`` are supported since they can "
+"fit in the bigger type. Be aware that when a conversion is performed, using "
+"the wrong type will result in potential precision loss."
+msgstr ""
+"Godot використовує 64-розрядні цілі числа та числа з плаваючою точкою у "
+"Variant. Підтримуються менші цілі числа та типи з плаваючою точкою, такі як "
+"``int``, ``short`` і ``float``, оскільки вони можуть поміститися у більший "
+"тип. Майте на увазі, що під час перетворення використання неправильного типу "
+"призведе до потенційної втрати точності."
+
+msgid ""
+"Enums are supported by ``Godot.Variant`` since their underlying type is an "
+"integer type which are all compatible. However, implicit conversions don't "
+"exist, enums must be manually converted to their underlying integer type "
+"before they can converted to/from ``Godot.Variant`` or use the generic "
+"``Variant.As<T>`` and ``Variant.From<T>`` methods to convert them."
+msgstr ""
+"Переліки підтримуються ``Godot.Variant``, оскільки їхній базовий тип є "
+"цілочисельним типом, і всі вони сумісні. Однак неявні перетворення не "
+"існують, переліки потрібно вручну перетворити на базовий цілочисельний тип, "
+"перш ніж їх можна буде перетворити в/з ``Godot.Variant`` або використовувати "
+"загальні ``Variant.As<T>`` і `` Методи Variant.From<T>`` для їх перетворення."
+
+msgid "Using Variant in a generic context"
+msgstr "Використання Variant у загальному контексті"
+
+msgid ""
+"When using generics, you may be interested in restricting the generic ``T`` "
+"type to be only one of the Variant-compatible types. This can be achieved "
+"using the ``[MustBeVariant]`` attribute."
+msgstr ""
+"Під час використання генериків вам може бути цікаво обмежити загальний тип "
+"``T`` лише одним із типів, сумісних з варіантами. Цього можна досягти за "
+"допомогою атрибута ``[MustBeVariant]``."
+
+msgid ""
+"Combined with the generic ``Variant.From<T>`` allows you to obtain an "
+"instance of ``Godot.Variant`` from an instance of a generic ``T`` type. Then "
+"it can be used in any API that only supports the ``Godot.Variant`` struct."
+msgstr ""
+"У поєднанні із загальним ``Variant.From<T>`` дозволяє отримати екземпляр "
+"``Godot.Variant`` з екземпляра ``загального типу ``T``. Потім його можна "
+"використовувати в будь-якому API, який підтримує лише структуру Godot."
+"Variant."
+
+msgid ""
+"In order to invoke a method with a generic parameter annotated with the "
+"``[MustBeVariant]`` attribute, the value must be a Variant-compatible type "
+"or a generic ``T`` type annotated with the ``[MustBeVariant]`` attribute as "
+"well."
+msgstr ""
+"Щоб викликати метод із загальним параметром, анотованим атрибутом "
+"``[MustBeVariant]``, значення має бути типом, сумісним з Variant, або "
+"загальним типом ``T``, анотованим ``[MustBeVariant]`` атрибут також."

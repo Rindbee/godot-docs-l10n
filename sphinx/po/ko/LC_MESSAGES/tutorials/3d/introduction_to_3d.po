@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,16 +13,6 @@ msgstr ""
 
 msgid "Introduction to 3D"
 msgstr "3D 소개"
-
-msgid ""
-"In 3D, math is a little more complex than in 2D, so also checking the :ref:"
-"`doc_vector_math` entry in the wiki (which was especially created for game "
-"developers, not mathematicians or engineers) will help pave the way for you "
-"to develop 3D games efficiently."
-msgstr ""
-"3D에서 수학은 2D보다 조금 더 복잡하기 때문에 위키에서의 벡터 항목(특히 수학자"
-"나 엔지니어가 아닌 게임 개발자를 위해 만들어진 것)을 확인하는 것도 3D 게임을 "
-"효율적으로 개발할 수 있는 길을 닦는 데 도움이 될 것입니다."
 
 msgid ""
 "In any case, this method is meant for generating static geometry (models "
@@ -39,16 +29,8 @@ msgstr "즉각적인 지오메트리(Immediate geometry)"
 msgid "Environment"
 msgstr "환경"
 
-msgid ""
-"The view options are controlled by the \"View\" menu in the viewport's "
-"toolbar."
-msgstr "뷰 옵션은 뷰포트의 툴바에서 \"보기\" 메뉴에 의해 제어됩니다."
-
 msgid "Cameras"
 msgstr "카메라"
 
 msgid "Lights"
 msgstr "빛"
-
-msgid "Translation status"
-msgstr "번역 상태"

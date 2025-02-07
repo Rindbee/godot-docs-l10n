@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -65,6 +65,3 @@ msgstr ""
 "警告不会阻止游戏的运行，但是你可以根据需要将其转换为错误，除非你修复所有警"
 "告，否则游戏无法编译。前往项目设置的 ``GDScript`` 部分打开此选项。这是与前一"
 "个示例相同的文件，在启用了警告转成错误这个设置之后："
-
-msgid "Translation status"
-msgstr "翻译状态"

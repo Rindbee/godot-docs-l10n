@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -404,6 +404,3 @@ msgid ""
 msgstr ""
 "Затем просто определите этот метод, и все, к чему прикасается камень, может "
 "быть разбито."
-
-msgid "Translation status"
-msgstr "Статус перевода"

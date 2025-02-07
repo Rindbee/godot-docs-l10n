@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -35,6 +35,13 @@ msgstr "Nós de partículas"
 
 msgid "Texture"
 msgstr "Textura"
+
+msgid ""
+"Credit: `JoesAlotofthings <https://opengameart.org/content/alot-of-particles-"
+"indispersal-special-effect-alotofparticles30>`__ (CC BY 4.0)"
+msgstr ""
+"Créditos: `JoesAlotofthings <https://opengameart.org/content/alot-of-"
+"particles-indispersal-special-effect-alotofparticles30>`__ (CC BY 4.0)"
 
 msgid "Time parameters"
 msgstr "Parâmetros de tempo"
@@ -437,6 +444,3 @@ msgstr ""
 "Uma imagem não deve ser adicionada a ``Point Texture`` ou ``Color Texture`` "
 "diretamente. O menu \"Load Emission Mask\" deve ser sempre utilizado em seu "
 "lugar."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

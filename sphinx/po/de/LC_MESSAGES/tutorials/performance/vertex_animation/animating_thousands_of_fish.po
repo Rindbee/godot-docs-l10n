@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -491,6 +491,3 @@ msgstr ""
 "`GPUParticles3D <class_GPUParticles3D>` verwendet, um die Vorteile der GPU "
 "zu nutzen und jeden Fisch einzeln zu bewegen, ohne auf die Vorteile der "
 "Instanziierung zu verzichten."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

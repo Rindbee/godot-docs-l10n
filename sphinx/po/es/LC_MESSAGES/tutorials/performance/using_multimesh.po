@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -39,17 +39,6 @@ msgstr ""
 
 msgid "MultiMeshes"
 msgstr "MultiMeshes"
-
-msgid ""
-"A :ref:`MultiMesh<class_MultiMesh>` is a single draw primitive that can draw "
-"up to millions of objects in one go. It's extremely efficient because it "
-"uses the GPU hardware to do this (in OpenGL ES 2.0, it's less efficient "
-"because there is no hardware support for it, though)."
-msgstr ""
-"Un :ref:`MultiMesh<class_MultiMesh>` es una primitiva de dibujo única que "
-"puede dibujar hasta millones de objetos de una vez. Es extremadamente "
-"eficiente porque utiliza el hardware de la GPU para hacer esto (en OpenGL ES "
-"2.0, es menos eficiente porque no hay soporte de hardware para ello)."
 
 msgid ""
 "The only drawback is that there is no *screen* or *frustum* culling possible "
@@ -119,6 +108,3 @@ msgstr ""
 "Aquí tienes un ejemplo de cómo usar un MultiMesh desde el código. Otros "
 "lenguajes además de GDScript pueden ser más eficientes para millones de "
 "objetos, pero para unos pocos miles, GDScript debería ser suficiente."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

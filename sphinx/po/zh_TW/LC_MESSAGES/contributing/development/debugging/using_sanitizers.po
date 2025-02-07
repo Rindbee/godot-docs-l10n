@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -296,6 +296,3 @@ msgstr ""
 "emscripten.org/docs/debugging/Sanitizers.html>`__。它提供與 ASAN 類似的功能，"
 "但它側重於 WebAssembly 特有的問題。 ``SAFE_HEAP`` 不保證與相同二進位檔案中的 "
 "ASAN 和 UBSAN 相容，因此您可能需要單獨建置它。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

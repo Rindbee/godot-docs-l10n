@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,13 +13,6 @@ msgstr ""
 
 msgid "C# global classes"
 msgstr "Globale C#-Klassen"
-
-msgid ""
-"Global classes (also known as named scripts) are types registered in Godot's "
-"editor so they can be used more conveniently."
-msgstr ""
-"Globale Klassen (auch als benannte Skripte bekannt) sind Typen, die im Godot-"
-"Editor registriert sind, damit sie bequemer verwendet werden können."
 
 msgid "Global classes show up in the *Add Node* and *Create Resource* dialogs."
 msgstr ""
@@ -84,6 +77,3 @@ msgstr ""
 "<doc_c_sharp_exports>` des Typs ``Stats`` erlaubt nur die Zuweisung von "
 "Instanzen dieses Ressourcentyps, und mit dem Inspektor können Sie Instanzen "
 "dieses Typs einfach erstellen und laden."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

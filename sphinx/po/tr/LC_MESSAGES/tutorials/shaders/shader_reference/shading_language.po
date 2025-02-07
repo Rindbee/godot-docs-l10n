@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -80,8 +80,14 @@ msgstr "Niteleyici"
 msgid "Hint"
 msgstr "İpucu"
 
+msgid "Notes"
+msgstr "Notlar"
+
 msgid "**Transform2D**"
 msgstr "**Transform2D**"
+
+msgid "**Basis**"
+msgstr "**Basis**"
 
 msgid "Built-in variables"
 msgstr "Yerleşik değişkenler"
@@ -90,13 +96,10 @@ msgid ":ref:`Spatial shaders <doc_spatial_shader>`"
 msgstr ":ref:`Spatial shaders <doc_spatial_shader>`"
 
 msgid ":ref:`Canvas item shaders <doc_canvas_item_shader>`"
-msgstr ":ref:`Kanvas öğesi gölgelendiriciler <doc_canvas_item_shader>`"
+msgstr ":ref:`Kanvas ögesi gölgelendiriciler <doc_canvas_item_shader>`"
 
 msgid ":ref:`Particle shaders <doc_particle_shader>`"
 msgstr ":ref:`Parçacık gölgelendiriciler <doc_particle_shader>`"
 
 msgid "Function"
 msgstr "Fonksiyon"
-
-msgid "Translation status"
-msgstr "Çeviri durumu"

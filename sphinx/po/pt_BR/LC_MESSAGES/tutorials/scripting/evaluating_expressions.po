@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -38,9 +38,6 @@ msgstr "Multiplicação (``*``)"
 msgid "Division (``/``)"
 msgstr "Divisão (``/``)"
 
-msgid "Modulo (``%``)"
-msgstr "Módulo (``%``)"
-
 msgid "Setting a base instance for the expression"
 msgstr "Definindo uma instância base para a expressão"
 
@@ -52,6 +49,3 @@ msgstr "A saída do script será::"
 
 msgid "Built-in functions"
 msgstr "Funções embutidas"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

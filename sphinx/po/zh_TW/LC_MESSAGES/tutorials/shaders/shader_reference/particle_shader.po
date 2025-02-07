@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -100,9 +100,6 @@ msgstr "內建"
 
 msgid "in float **TIME**"
 msgstr "in float **TIME**"
-
-msgid "Global time, in seconds."
-msgstr "全球時間, 以秒為單位."
 
 msgid "in float **PI**"
 msgstr "in float **PI**"
@@ -335,6 +332,3 @@ msgid ""
 msgstr ""
 "bool **emit_subparticle** (mat4 xform, vec3 velocity, vec4 color, vec4 "
 "custom, uint flags)"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

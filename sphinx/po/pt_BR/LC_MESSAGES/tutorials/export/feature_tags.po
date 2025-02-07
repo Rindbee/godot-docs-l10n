@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -74,8 +74,14 @@ msgstr "**Descrição**"
 msgid "**android**"
 msgstr "**android**"
 
+msgid "**bsd**"
+msgstr "**bsd**"
+
 msgid "**linux**"
 msgstr "**linux**"
+
+msgid "**ios**"
+msgstr "**ios**"
 
 msgid "Running on Windows"
 msgstr "Executando no Windows"
@@ -169,6 +175,9 @@ msgstr "**wasm64**"
 
 msgid "**wasm32**"
 msgstr "**wasm32**"
+
+msgid "**wasm**"
+msgstr "**wasm**"
 
 msgid "**mobile**"
 msgstr "**mobile**"
@@ -293,6 +302,3 @@ msgstr ""
 "processo de compilação, escrevendo um **ExportPlugin** personalizado. Elas "
 "também são usados para especificar qual biblioteca compartilhada é carregada "
 "e exportada em **GDExtension**."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

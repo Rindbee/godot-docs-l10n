@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -138,15 +138,6 @@ msgstr ""
 "器，或者其他能够方便编辑此类文件的编辑器。你还可以使用它们的搜索功能快速查找"
 "类和属性。"
 
-msgid ""
-"If you use Visual Studio Code, you can install the `vscode-xml extension "
-"<https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml>`__ "
-"to get linting for class reference XML files."
-msgstr ""
-"如果你使用 Visual Studio Code，则可以安装 `vscode-xml 扩展 <https://"
-"marketplace.visualstudio.com/items?itemName=redhat.vscode-xml>` 来纠察 XML 文"
-"件的类引用。"
-
 msgid "Improve formatting with BBCode style tags"
 msgstr "使用 BBCode 风格标签来改进格式"
 
@@ -200,7 +191,7 @@ msgid "``See [annotation @GDScript.@rpc].``"
 msgstr "``见 [annotation @GDScript.@rpc].``"
 
 msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
-msgstr "见 :ref:`@GDScript.@export <class_@GDScript_annotation_@rpc>`。"
+msgstr "见 :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`\\ 。"
 
 msgid "``[constant Class.name]``"
 msgstr "``[constant Class.name]``"
@@ -212,7 +203,7 @@ msgid "``See [constant Color.RED].``"
 msgstr "``见 [constant Color.RED]。``"
 
 msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
-msgstr "见 :ref:`Color.RED <class_Color_constant_RED>`。"
+msgstr "见 :ref:`Color.RED <class_Color_constant_RED>`\\ 。"
 
 msgid "``[enum Class.name]``"
 msgstr "``[enum Class.name]``"
@@ -224,7 +215,7 @@ msgid "``See [enum Mesh.ArrayType].``"
 msgstr "``见 [enum Mesh.ArrayType]。``"
 
 msgid "See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
-msgstr "见 :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`。"
+msgstr "见 :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`\\ 。"
 
 msgid "``[member Class.name]``"
 msgstr "``[member Class.name]``"
@@ -248,7 +239,7 @@ msgid "``Call [method Node3D.hide].``"
 msgstr "``调用 [method Node3D.hide].``"
 
 msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
-msgstr "调用 :ref:`Node3D.hide() <class_Node3D_method_hide>`。"
+msgstr "调用 :ref:`Node3D.hide() <class_Node3D_method_hide>`\\ 。"
 
 msgid "``[constructor Class.name]``"
 msgstr "``[constructor Class.name]``"
@@ -260,7 +251,7 @@ msgid "``Use [constructor Color.Color].``"
 msgstr "``使用 [constructor Color.Color].``"
 
 msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
-msgstr "使用  :ref:`Color.Color <class_Color_constructor_Color>`。"
+msgstr "使用  :ref:`Color.Color <class_Color_constructor_Color>`\\ 。"
 
 msgid "``[operator Class.name]``"
 msgstr "``[operator Class.name]``"
@@ -272,7 +263,7 @@ msgid "``Use [operator Color.operator *].``"
 msgstr "``使用 [operator Color.operator *].``"
 
 msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
-msgstr "使用  :ref:`Color.operator * <class_Color_operator_mul_int>`。"
+msgstr "使用  :ref:`Color.operator * <class_Color_operator_mul_int>`\\ 。"
 
 msgid "``[signal Class.name]``"
 msgstr "``[signal Class.name]``"
@@ -284,7 +275,7 @@ msgid "``Emit [signal Node.renamed].``"
 msgstr "``发送 [signal Node.renamed]。``"
 
 msgid "Emit :ref:`Node.renamed <class_Node_signal_renamed>`."
-msgstr "发送 :ref:`Node.renamed <class_Node_signal_renamed>`。"
+msgstr "发出 :ref:`Node.renamed <class_Node_signal_renamed>`\\ 。"
 
 msgid "``[theme_item Class.name]``"
 msgstr "``[theme_item Class.name]``"
@@ -296,7 +287,7 @@ msgid "``See [theme_item Label.font].``"
 msgstr "``见 [theme_item Label.font]。``"
 
 msgid "See :ref:`Label.font <class_Label_theme_font_font>`."
-msgstr "见 :ref:`Label.font <class_Label_theme_font_font>`。"
+msgstr "见 :ref:`Label.font <class_Label_theme_font_font>`\\ 。"
 
 msgid "``[param name]``"
 msgstr "``[param name]``"
@@ -323,16 +314,16 @@ msgid "Line break"
 msgstr "换行"
 
 msgid "``Line 1.[br]``"
-msgstr "``行 1。[br]``"
+msgstr "``第 1 行。[br]``"
 
 msgid "``Line 2.``"
-msgstr "``行 2。``"
+msgstr "``第 2 行。``"
 
 msgid "Line 1."
-msgstr "行 1。"
+msgstr "第 1 行。"
 
 msgid "Line 2."
-msgstr "行 2。"
+msgstr "第 2 行。"
 
 msgid "``[lb]`` ``[rb]``"
 msgstr "``[lb]`` ``[rb]``"
@@ -353,10 +344,10 @@ msgid "Bold"
 msgstr "粗体"
 
 msgid "``Do [b]not[/b] call this method.``"
-msgstr "`` [b]请勿[/b] 调用该方法``"
+msgstr "``[b]请勿[/b]调用该方法。``"
 
 msgid "Do **not** call this method."
-msgstr "**请勿**\\调用该方法。"
+msgstr "**请勿**\\ 调用该方法。"
 
 msgid "``[i]`` ``[/i]``"
 msgstr "``[i]`` ``[/i]``"
@@ -365,10 +356,10 @@ msgid "Italic"
 msgstr "斜体"
 
 msgid "``Returns the [i]global[/i] position.``"
-msgstr "``返回 [i]全局[/i] 位置。``"
+msgstr "``返回[i]全局[/i]位置。``"
 
 msgid "Returns the *global* position."
-msgstr "返回 *全局*\\位置。"
+msgstr "返回\\ *全局*\\ 位置。"
 
 msgid "``[u]`` ``[/u]``"
 msgstr "``[u]`` ``[/u]``"
@@ -377,7 +368,7 @@ msgid "Underline"
 msgstr "下划线"
 
 msgid "``[u]Always[/u] use this method.``"
-msgstr "``[u]始终[/u] 调用该方法。``"
+msgstr "``[u]始终[/u]调用该方法。``"
 
 msgid "``[s]`` ``[/s]``"
 msgstr "``[s]`` ``[/s]``"
@@ -425,7 +416,7 @@ msgid "``Press [kbd]Ctrl + C[/kbd].``"
 msgstr "``按下 [kbd]Ctrl + C[/kbd] 组合键。``"
 
 msgid "Press :kbd:`Ctrl + C`."
-msgstr "按下 :kbd:`Ctrl + C`组合键。"
+msgstr "按下 :kbd:`Ctrl + C` 组合键。"
 
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
@@ -437,7 +428,14 @@ msgid "``Returns [code]true[/code].``"
 msgstr "``返回[code]true[/code]。``"
 
 msgid "Returns ``true``."
-msgstr "返回 ``true`` 。"
+msgstr "返回 ``true``\\ 。"
+
+msgid ""
+"Some supported tags like ``[color]`` and ``[font]`` are not listed here "
+"because they are not recommended in the engine documentation."
+msgstr ""
+"某些支持的标签，例如 ``[color]`` 和 ``[font]`` 不在此列出，因为不建议在引擎文"
+"档中使用它们。"
 
 msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
 msgstr "``[kbd]`` 与 ``[/kbd]`` 之间的 BBCode 代码均无效。"
@@ -516,6 +514,9 @@ msgstr ""
 msgid "The above will display as:"
 msgstr "上述内容将显示为："
 
+msgid "Formatting notes and warnings"
+msgstr "格式注意事项和警告"
+
 msgid ""
 "To denote important information, add a paragraph starting with \"[b]Note:[/"
 "b]\" at the end of the description:"
@@ -538,5 +539,15 @@ msgstr ""
 msgid "Marking API as deprecated/experimental"
 msgstr "将 API 标记为已弃用/实验性"
 
-msgid "Translation status"
-msgstr "翻译状态"
+msgid ""
+"To mark an API as deprecated or experimental, you need to add the "
+"corresponding XML attribute. The attribute value must be a message "
+"explaining why the API is not recommended (BBCode markup is supported) or an "
+"empty string (the default message will be used). If an API element is marked "
+"as deprecated/experimental, then it is considered documented even if the "
+"description is empty."
+msgstr ""
+"若要将 API 标记为已弃用或者实验性，你需要添加相应的 XML 属性。属性值应为一条"
+"消息，用于解释不建议使用 API 的原因（支持 BBCode 标记），或者一个空字符串（此"
+"时将使用默认消息）。如果某 API 元素被标记为已弃用/实验性，那么即使其描述为"
+"空，也将被视为有文档记录。"

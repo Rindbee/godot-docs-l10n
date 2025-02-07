@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -360,5 +360,5 @@ msgstr ""
 "Unser Monster ist endlich bereit, das Spiel zu betreten! I'm nächsten Teil "
 "werden Sie Monster im Spiellevel spawnen."
 
-msgid "Translation status"
-msgstr "Übersetzungsstatus"
+msgid "Here is the complete ``mob.gd`` script for reference."
+msgstr "Hier ist das vollständige ``Mob.gd`` Skript als Referenz."

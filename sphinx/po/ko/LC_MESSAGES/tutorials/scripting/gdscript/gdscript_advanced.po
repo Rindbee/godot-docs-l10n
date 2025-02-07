@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -347,6 +347,3 @@ msgid ""
 "Then, simply define that method and anything the rock touches can be smashed."
 msgstr ""
 "그런 다음 메서드를 정의하기만 하면 바위가 닿는 모든 것이 박살날 수 있습니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

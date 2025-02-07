@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -205,13 +205,6 @@ msgstr ""
 "experiencia de juego."
 
 msgid ""
-"You can pat yourself in the back: you prototyped a complete 3D game, even if "
-"it's still a bit rough."
-msgstr ""
-"Puedes darte palmaditas en la espalda: has creado un prototipo de un juego "
-"completo en 3D, aunque todavía esté un poco áspero."
-
-msgid ""
 "From there, we'll add a score, the option to retry the game, and you'll see "
 "how you can make the game feel much more alive with minimalistic animations."
 msgstr ""
@@ -233,10 +226,13 @@ msgstr ""
 msgid "Starting with ``main.gd``."
 msgstr "Empezando con ``main.gd``."
 
+msgid "Next is ``mob.gd``."
+msgstr "A continuación ``Mob.gd``."
+
+msgid "Finally, the longest script, ``player.gd``:"
+msgstr "Por último, el script más largo, ``Player.gd``:"
+
 msgid "See you in the next lesson to add the score and the retry option."
 msgstr ""
 "Nos vemos en la próxima lección para agregar la puntuación y la opción de "
 "volver a intentarlo."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

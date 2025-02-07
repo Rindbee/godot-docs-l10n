@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -26,18 +26,6 @@ msgstr ""
 "takimi jak C, C++ lub C#, ale nigdy wcześniej nie używałeś języka "
 "dynamicznie typowanego, zalecane jest przeczytanie tego samouczka: :ref:"
 "`doc_gdscript_more_efficiently`."
-
-msgid "Language"
-msgstr "Język"
-
-msgid ""
-"In the following, an overview is given to GDScript. Details, such as which "
-"methods are available to arrays or other objects, should be looked up in the "
-"linked class descriptions."
-msgstr ""
-"Poniżej przedstawiono przegląd GDScript. Szczegóły, takie jak metody "
-"dostępne dla tablic lub innych obiektów, należy sprawdzić w powiązanych "
-"opisach klas."
 
 msgid "Identifiers"
 msgstr "Identyfikatory"
@@ -425,9 +413,6 @@ msgstr ""
 "Aby dodać klucz do istniejącego słownika, otwórz go jakby istniał i przypisz "
 "do niego wartość::"
 
-msgid "Data"
-msgstr "Dane"
-
 msgid "Variables"
 msgstr "Zmienne"
 
@@ -476,6 +461,12 @@ msgstr "if/else/elif"
 
 msgid "Short statements can be written on the same line as the condition::"
 msgstr "Krótkie instrukcje mogą być napisane w tym samym wierszu co warunek::"
+
+msgid "Basic syntax"
+msgstr "Podstawowa składnia"
+
+msgid "Crash-course for people who are familiar with switch statements"
+msgstr "Kurs dla osób, które są zaznajomione z instrukcją switch"
 
 msgid "Replace ``switch`` with ``match``."
 msgstr "Zastąp ``switch`` z ``match``."
@@ -547,6 +538,3 @@ msgstr "Sygnały"
 
 msgid "Assert keyword"
 msgstr "Słowo kluczowe assert"
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

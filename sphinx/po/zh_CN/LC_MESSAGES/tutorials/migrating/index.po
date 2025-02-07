@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -36,6 +36,3 @@ msgstr ""
 "不过，引擎内部的新功能、可用性改进或范式转变可能会促使你进行升级。下面列出的"
 "文章应该有助于你在不同版本之间升级项目。每篇文章都会尽最大努力记录每一个重要"
 "的差异，并为你提供一个迁移路径。"
-
-msgid "Translation status"
-msgstr "翻译状态"

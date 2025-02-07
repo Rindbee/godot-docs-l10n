@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -186,6 +186,3 @@ msgid ""
 msgstr ""
 "``Point Texture`` 또는 ``Color Texture``에 직접 이미지를 추가해서는 안됩니"
 "다. 그 대신에 \"에미션 마스크 불러오기\" 메뉴를 통해서 사용되어야 합니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

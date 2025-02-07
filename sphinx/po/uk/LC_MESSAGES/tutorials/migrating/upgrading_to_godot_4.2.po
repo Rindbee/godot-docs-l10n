@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,14 +11,663 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Upgrading from Godot 4.1 to Godot 4.2"
+msgstr "Оновлення з Godot 4.1 до Godot 4.2"
+
+msgid ""
+"For most games and apps made with 4.1 it should be relatively safe to "
+"migrate to 4.2. This page intends to cover everything you need to pay "
+"attention to when migrating your project."
+msgstr ""
+"Для більшості ігор і програм, створених за допомогою 4.1, перехід на 4.2 має "
+"бути відносно безпечним. На цій сторінці описано все, на що потрібно "
+"звернути увагу під час міграції вашого проекту."
+
+msgid "Breaking changes"
+msgstr "Ломальні зміни"
+
+msgid ""
+"If you are migrating from 4.1 to 4.2, the breaking changes listed here might "
+"affect you. Changes are grouped by areas/systems."
+msgstr ""
+"Якщо ви переходите з 4.1 на 4.2, перелічені тут критичні зміни можуть "
+"вплинути на вас. Зміни згруповано за сферами/системами."
+
+msgid ""
+"The :ref:`class_Mesh` resource format has changed in 4.2 to allow for "
+"`vertex and attribute compression <https://github.com/godotengine/godot/"
+"pull/81138>`__. This allows for improved rendering performance, especially "
+"on platforms constrained by memory bandwidth such as mobile."
+msgstr ""
+"Формат ресурсу :ref:`class_Mesh` змінено в 4.2, щоб дозволити `стиск вершин "
+"і атрибутів <https://github.com/godotengine/godot/pull/81138>`__. Це "
+"дозволяє підвищити продуктивність візуалізації, особливо на платформах, "
+"обмежених пропускною здатністю пам’яті, наприклад мобільних."
+
+msgid ""
+"It is still possible to load the Godot 4.0-4.1 Mesh formats, but it is "
+"**not** possible to load the Godot 4.2 Mesh format in prior Godot versions. "
+"When opening a Godot project made with a version prior to 4.2, you may be "
+"presented with an upgrade dialog that offers two options:"
+msgstr ""
+"Все ще можна завантажити формати Godot 4.0-4.1 Mesh, але **не** можливо "
+"завантажити формат Godot 4.2 Mesh у попередніх версіях Godot. Під час "
+"відкриття проекту Godot, створеного з версією до 4.2, вам може відобразитися "
+"діалогове вікно оновлення, яке пропонує два варіанти:"
+
+msgid ""
+"**Restart & Upgrade:** Upgrades the mesh format for all meshes in the "
+"project and saves the result to disk. Once chosen, this option prevents "
+"downgrading the project to a Godot version prior to 4.2. Set up a version "
+"control system and push your changes *before* choosing this option!"
+msgstr ""
+"**Перезапуск і оновлення:** оновлює формат сітки для всіх сіток у проекті та "
+"зберігає результат на диск. Після вибору цей параметр запобігає поверненню "
+"проекту до версії Godot, ранішої за 4.2. Налаштуйте систему контролю версій "
+"і внесіть свої зміни *перед* вибором цієї опції!"
+
+msgid ""
+"**Upgrade Only:** Upgrades the mesh format in-memory without writing it to "
+"disk. This allows downgrading the project to a Godot version older than 4.2 "
+"if you need to do so in the future. The downside is that loading the project "
+"will be slower every time as the mesh format needs to be upgraded every time "
+"the project is loaded. These increased loading times will also affect the "
+"exported project. The number and complexity of Mesh resources determines how "
+"much loading times are affected."
+msgstr ""
+"**Лише оновлення:** оновлює формат сітки в пам’яті без запису на диск. Це "
+"дозволяє знизити версію проекту до версії Godot, старішої за 4.2, якщо вам "
+"знадобиться це зробити в майбутньому. Недоліком є те, що завантаження "
+"проекту відбуватиметься повільніше щоразу, оскільки формат сітки потрібно "
+"оновлювати щоразу, коли завантажується проект. Ці збільшення часу "
+"завантаження також вплинуть на експортований проект. Кількість і складність "
+"ресурсів Mesh визначає, наскільки це впливає на час завантаження."
+
+msgid ""
+"If this dialog doesn't appear, use **Project > Tools > Upgrade Mesh Surfaces…"
+"** at the top of the editor."
+msgstr ""
+"Якщо це діалогове вікно не з’являється, скористайтеся **Проект > Інструменти "
+"> Оновити сітчасті поверхні…** у верхній частині редактора."
+
+msgid ""
+"This article indicates whether each breaking change affects GDScript and "
+"whether the C# breaking change is *binary compatible* or *source compatible*:"
+msgstr ""
+"У цій статті вказується, чи кожна порушна зміна впливає на GDScript і чи є "
+"порушна зміна C# *бінарною сумісністю* чи *сумісною з джерелом*:"
+
+msgid ""
+"**Binary compatible** - Existing binaries will load and execute successfully "
+"without recompilation, and the run-time behavior won't change."
+msgstr ""
+"**Бінарна сумісність** – наявні двійкові файли завантажуватимуться та "
+"успішно виконуватимуться без повторної компіляції, а поведінка під час "
+"виконання не зміниться."
+
+msgid ""
+"**Source compatible** - Source code will compile successfully without "
+"changes when upgrading Godot."
+msgstr ""
+"**Сумісність із вихідним кодом** – вихідний код буде успішно скомпільовано "
+"без змін під час оновлення Godot."
+
+msgid "Core"
+msgstr "Ядро"
+
+msgid "Change"
+msgstr "Зміна"
+
+msgid "GDScript Compatible"
+msgstr "Сумісність з GDScript"
+
+msgid "C# Binary Compatible"
+msgstr "C# двійковий сумісний"
+
+msgid "C# Source Compatible"
+msgstr "Сумісність із вихідним кодом C#"
+
+msgid "Introduced"
+msgstr "Введено"
+
+msgid "**Node**"
+msgstr "**вузол**"
+
+msgid "Constant ``NOTIFICATION_NODE_RECACHE_REQUESTED`` removed"
+msgstr "Константу ``NOTIFICATION_NODE_RECACHE_REQUESTED`` видалено"
+
+msgid "|❌|"
+msgstr "|❌|"
+
+msgid "|✔️|"
+msgstr "|✔️|"
+
+msgid "`GH-84419`_"
+msgstr "`GH-84419`_"
+
 msgid "Animation"
 msgstr "Анімація"
+
+msgid "**AnimationPlayer**"
+msgstr "**Програвач анімації**"
+
+msgid ""
+"Method ``_post_process_key_value`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``_post_process_key_value`` перенесено в базовий клас "
+"``AnimationMixer``"
+
+msgid "`GH-80813`_"
+msgstr "`GH-80813`_"
+
+msgid "Method ``add_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``add_animation_library`` перенесено в базовий клас ``AnimationMixer``"
+
+msgid "Method ``advance`` moved to base class ``AnimationMixer``"
+msgstr "Метод ``advance`` перенесено в базовий клас ``AnimationMixer``"
+
+msgid "Signal ``animation_finished`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Сигнал ``animation_finished`` перенесено до базового класу ``AnimationMixer``"
+
+msgid "Signal ``animation_started`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Сигнал ``animation_started`` перенесено до базового класу ``AnimationMixer``"
+
+msgid ""
+"Signal ``animation_libraries_updated`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Сигнал ``animation_libraries_updated`` переміщено до базового класу "
+"``AnimationMixer``"
+
+msgid ""
+"Signal ``animation_list_changed`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Сигнал ``animation_list_changed`` переміщено до базового класу "
+"``AnimationMixer``"
+
+msgid "Property ``audio_max_polyphony`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Властивість ``audio_max_polyphony`` перенесено до базового класу "
+"``AnimationMixer``"
+
+msgid "Signal ``caches_cleared`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Сигнал ``caches_cleared`` перенесено до базового класу ``AnimationMixer``"
+
+msgid "Method ``clear_caches`` moved to base class ``AnimationMixer``"
+msgstr "Метод ``clear_caches`` перенесено в базовий клас ``AnimationMixer``"
+
+msgid "Method ``find_animation`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``find_animation`` перенесено до базового класу ``AnimationMixer``"
+
+msgid ""
+"Method ``find_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``find_animation_library`` перенесено в базовий клас ``AnimationMixer``"
+
+msgid "Method ``get_animation`` moved to base class ``AnimationMixer``"
+msgstr "Метод ``get_animation`` перенесено в базовий клас ``AnimationMixer``"
+
+msgid "Method ``get_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``get_animation_library`` перенесено в базовий клас ``AnimationMixer``"
+
+msgid ""
+"Method ``get_animation_library_list`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``get_animation_library_list`` перенесено в базовий клас "
+"``AnimationMixer``"
+
+msgid "Method ``get_animation_list`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``get_animation_list`` переміщено до базового класу ``AnimationMixer``"
+
+msgid "Method ``has_animation`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``has_animation`` переміщено до базового класу ``AnimationMixer``"
+
+msgid "Method ``has_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``has_animation_library`` переміщено до базового класу "
+"``AnimationMixer``"
+
+msgid ""
+"Property ``method_call_mode`` renamed to ``callback_mode_method`` and moved "
+"to base class ``AnimationMixer``"
+msgstr ""
+"Властивість ``method_call_mode`` перейменовано на ``callback_mode_method`` і "
+"переміщено до базового класу ``AnimationMixer``"
+
+msgid "|✔️ with compat|"
+msgstr "|✔️ з compat|"
+
+msgid ""
+"Property ``playback_active`` renamed to ``active`` and moved to base class "
+"``AnimationMixer``"
+msgstr ""
+"Властивість ``playback_active`` перейменовано на ``active`` і переміщено до "
+"базового класу ``AnimationMixer``"
+
+msgid ""
+"Property ``playback_process_mode`` renamed to ``callback_mode_process`` and "
+"moved to base class ``AnimationMixer``"
+msgstr ""
+"Властивість ``playback_process_mode`` перейменовано на "
+"``callback_mode_process`` і переміщено до базового класу ``AnimationMixer``"
+
+msgid ""
+"Method ``remove_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``remove_animation_library`` перенесено до базового класу "
+"``AnimationMixer``"
+
+msgid ""
+"Method ``rename_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``rename_animation_library`` перенесено в базовий клас "
+"``AnimationMixer``"
+
+msgid "Property ``reset_on_save`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Властивість ``reset_on_save`` перенесено до базового класу ``AnimationMixer``"
+
+msgid "Property ``root_node`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Властивість ``root_node`` переміщено до базового класу ``AnimationMixer``"
+
+msgid ""
+"Method ``set_reset_on_save_enabled`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``set_reset_on_save_enabled`` перенесено в базовий клас "
+"``AnimationMixer``"
+
+msgid "Method ``seek`` adds a new ``update_only`` optional parameter"
+msgstr "Метод ``seek`` додає новий необов’язковий параметр ``update_only``"
+
+msgid "**AnimationTree**"
+msgstr "**Дерево анімації**"
+
+msgid "Property ``active`` moved to base class ``AnimationMixer``"
+msgstr "Властивість ``active`` перенесено до базового класу ``AnimationMixer``"
+
+msgid ""
+"Method ``get_root_motion_position`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``get_root_motion_position`` перенесено в базовий клас "
+"``AnimationMixer``"
+
+msgid ""
+"Method ``get_root_motion_position_accumulator`` moved to base class "
+"``AnimationMixer``"
+msgstr ""
+"Метод ``get_root_motion_position_accumulator`` перенесено в базовий клас "
+"``AnimationMixer``"
+
+msgid ""
+"Method ``get_root_motion_rotation`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``get_root_motion_rotation`` перенесено в базовий клас "
+"``AnimationMixer``"
+
+msgid ""
+"Method ``get_root_motion_rotation_accumulator`` moved to base class "
+"``AnimationMixer``"
+msgstr ""
+"Метод ``get_root_motion_rotation_accumulator`` перенесено в базовий клас "
+"``AnimationMixer``"
+
+msgid "Method ``get_root_motion_scale`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``get_root_motion_scale`` перенесено в базовий клас ``AnimationMixer``"
+
+msgid ""
+"Method ``get_root_motion_scale_accumulator`` moved to base class "
+"``AnimationMixer``"
+msgstr ""
+"Метод ``get_root_motion_scale_accumulator`` перенесено в базовий клас "
+"``AnimationMixer``"
+
+msgid ""
+"Property ``process_callback`` renamed to ``callback_mode_process`` and moved "
+"to base class ``AnimationMixer``"
+msgstr ""
+"Властивість ``process_callback`` перейменовано на ``callback_mode_process`` "
+"і переміщено до базового класу ``AnimationMixer``"
+
+msgid "Property ``root_motion_track``  moved to base class ``AnimationMixer``"
+msgstr ""
+"Властивість ``root_motion_track`` переміщено до базового класу "
+"``AnimationMixer``"
+
+msgid ""
+"Property ``tree_root`` changes type from ``AnimationNode`` to "
+"``AnimationRootNode``"
+msgstr ""
+"Властивість ``tree_root`` змінює тип з ``AnimationNode`` на "
+"``AnimationRootNode``"
+
+msgid "GUI nodes"
+msgstr "Вузли GUI"
+
+msgid "**PopupMenu**"
+msgstr "**Спливаюче меню**"
+
+msgid ""
+"Method ``add_icon_shortcut`` adds a new ``allow_echo`` optional parameter"
+msgstr ""
+"Метод ``add_icon_shortcut`` додає новий необов’язковий параметр "
+"``allow_echo``"
+
+msgid "`GH-36493`_"
+msgstr "`GH-36493`_"
+
+msgid "Method ``add_shortcut`` adds a new ``allow_echo`` optional parameter"
+msgstr ""
+"Метод ``add_shortcut`` додає новий необов'язковий параметр ``allow_echo``"
+
+msgid "Method ``clear`` adds a new ``free_submenus`` optional parameter"
+msgstr "Метод ``clear`` додає новий необов’язковий параметр ``free_submenus``"
+
+msgid "`GH-79965`_"
+msgstr "`GH-79965`_"
+
+msgid "**RichTextLabel**"
+msgstr "**RichTextLabel**"
+
+msgid ""
+"Method ``add_image`` adds new ``key``, ``pad``, ``tooltip``, and "
+"``size_in_percent`` optional parameters"
+msgstr ""
+"Метод ``add_image`` додає нові додаткові параметри ``key``, ``pad``, "
+"``tooltip`` і ``size_in_percent``"
+
+msgid "`GH-80410`_"
+msgstr "`GH-80410`_"
 
 msgid "Rendering"
 msgstr "Рендеринг"
 
+msgid "**ImporterMesh**"
+msgstr "**Імпортер сітки**"
+
+msgid ""
+"Method ``add_surface`` changes ``flags`` parameter type from ``uint32`` to "
+"``uint64``"
+msgstr ""
+"Метод ``add_surface`` змінює тип параметра ``flags`` з ``uint32`` на "
+"``uint64``"
+
+msgid "`GH-81138`_"
+msgstr "`GH-81138`_"
+
+msgid ""
+"Method ``get_surface_format`` changes return type from ``uint32`` to "
+"``uint64``"
+msgstr ""
+"Метод ``get_surface_format`` змінює тип повернення з ``uint32`` на ``uint64``"
+
+msgid "**MeshDataTool**"
+msgstr "**Інструмент даних сітки**"
+
+msgid ""
+"Method ``commit_to_surface`` adds a new ``compression_flags`` optional "
+"parameter"
+msgstr ""
+"Метод ``commit_to_surface`` додає новий необов'язковий параметр "
+"``compression_flags``"
+
+msgid "Method ``get_format`` changes return type from ``uint32`` to ``uint64``"
+msgstr "Метод ``get_format`` змінює тип повернення з ``uint32`` на ``uint64``"
+
+msgid "**RenderingDevice**"
+msgstr "**RenderingDevice**"
+
+msgid ""
+"Enum field ``BarrierMask.BARRIER_MASK_RASTER`` changes value from ``1`` to "
+"``9``"
+msgstr ""
+"Поле Enum ``BarrierMask.BARRIER_MASK_RASTER`` змінює значення з ``1`` на "
+"``9``"
+
+msgid "`GH-79911`_"
+msgstr "`GH-79911`_"
+
+msgid ""
+"Enum field ``BarrierMask.BARRIER_MASK_ALL_BARRIERS`` changes value from "
+"``7`` to ``32767``"
+msgstr ""
+"Поле Enum ``BarrierMask.BARRIER_MASK_ALL_BARRIERS`` змінює значення з ``7`` "
+"на ``32767``"
+
+msgid ""
+"Enum field ``BarrierMask.BARRIER_MASK_NO_BARRIER`` changes value from ``8`` "
+"to ``32768``"
+msgstr ""
+"Поле Enum ``BarrierMask.BARRIER_MASK_NO_BARRIER`` змінює значення з ``8`` на "
+"``32768``"
+
+msgid ""
+"Method ``shader_create_from_bytecode`` adds a new ``placeholder_rid`` "
+"optional parameter"
+msgstr ""
+"Метод ``shader_create_from_bytecode`` додає новий необов’язковий параметр "
+"``placeholder_rid``"
+
+msgid "`GH-79606`_"
+msgstr "`GH-79606`_"
+
+msgid ""
+"Method ``shader_get_vertex_input_attribute_ask`` changes return type from "
+"``uint32`` to ``uint64``"
+msgstr ""
+"Метод shader_get_vertex_input_attribute_ask змінює тип повернення з uint32 "
+"на uint64"
+
+msgid "**SurfaceTool**"
+msgstr "**Інструмент SurfaceTool**"
+
+msgid ""
+"Method ``commit`` changes ``flags`` parameter type from ``uint32`` to "
+"``uint64``"
+msgstr ""
+"Метод ``commit`` змінює тип параметра ``flags`` з ``uint32`` на ``uint64``"
+
+msgid "Text"
+msgstr "текст"
+
+msgid "**Font**"
+msgstr "**Шрифт**"
+
+msgid "Method ``set_fallbacks`` replaced with ``fallbacks`` property"
+msgstr "Метод ``set_fallbacks`` замінено на властивість ``fallbacks``"
+
+msgid "`GH-78266`_"
+msgstr "`GH-78266`_"
+
+msgid "Method ``get_fallbacks`` replaced with ``fallbacks`` property"
+msgstr "Метод ``get_fallbacks`` замінено властивістю ``fallbacks``"
+
+msgid ""
+"Method ``find_variation`` adds new ``spacing_top``, ``spacing_bottom``, "
+"``spacing_space``, and ``spacing_glyph`` optional parameters"
+msgstr ""
+"Метод ``find_variation`` додає нові додаткові параметри ``spacing_top``, "
+"``spacing_bottom``, ``spacing_space`` і ``spacing_glyph``"
+
+msgid "`GH-80954`_"
+msgstr "`GH-80954`_"
+
+msgid "GraphEdit"
+msgstr "Редагування графіка"
+
+msgid "**GraphEdit**"
+msgstr "**Редагування графіка**"
+
+msgid ""
+"Property ``arrange_nodes_button_hidden`` renamed to ``show_arrange_button``"
+msgstr ""
+"Властивість ``arrange_nodes_button_hidden`` перейменовано на "
+"``show_arrange_button``"
+
+msgid "`GH-81582`_"
+msgstr "`GH-81582`_"
+
+msgid "Method ``get_zoom_hbox`` renamed to ``get_menu_hbox``"
+msgstr "Метод ``get_zoom_hbox`` перейменовано на ``get_menu_hbox``"
+
+msgid "`GH-79308`_"
+msgstr "`GH-79308`_"
+
+msgid "Property ``snap_distance`` renamed to ``snapping_distance``"
+msgstr "Властивість snap_distance перейменовано на snapping_distance"
+
+msgid "Property ``use_snap`` renamed to ``snapping_enabled``"
+msgstr "Властивість ``use_snap`` перейменовано на ``snapping_enabled``"
+
+msgid "**GraphNode**"
+msgstr "**Вузол графіка**"
+
+msgid "Property ``comment`` removed"
+msgstr "Властивість ``comment`` видалено"
+
+msgid "`GH-79307`_"
+msgstr "`GH-79307`_"
+
+msgid ""
+"Signal ``close_request`` renamed to ``delete_request`` and moved to base "
+"class ``GraphElement``"
+msgstr ""
+"Сигнал ``close_request`` перейменовано на ``delete_request`` і переміщено до "
+"базового класу ``GraphElement``"
+
+msgid "`GH-79311`_"
+msgstr "`GH-79311`_"
+
+msgid "Property ``draggable`` moved to base class ``GraphElement``"
+msgstr ""
+"Властивість ``draggable`` перенесено до базового класу ``GraphElement``"
+
+msgid "Signal ``dragged`` moved to base class ``GraphElement``"
+msgstr "Перетягнутий сигнал перенесено до базового класу GraphElement"
+
+msgid "Method ``get_connection_input_color`` removed"
+msgstr "Метод ``get_connection_input_color`` видалено"
+
+msgid "Method ``get_connection_input_count`` removed"
+msgstr "Метод ``get_connection_input_count`` видалено"
+
+msgid "Method ``get_connection_input_height`` removed"
+msgstr "Метод ``get_connection_input_height`` видалено"
+
+msgid "Method ``get_connection_input_position`` removed"
+msgstr "Метод ``get_connection_input_position`` видалено"
+
+msgid "Method ``get_connection_input_slot`` removed"
+msgstr "Метод ``get_connection_input_slot`` видалено"
+
+msgid "Method ``get_connection_input_type`` removed"
+msgstr "Метод ``get_connection_input_type`` видалено"
+
+msgid "Method ``get_connection_output_color`` removed"
+msgstr "Метод ``get_connection_output_color`` видалено"
+
+msgid "Method ``get_connection_output_count`` removed"
+msgstr "Метод ``get_connection_output_count`` видалено"
+
+msgid "Method ``get_connection_output_height`` removed"
+msgstr "Метод ``get_connection_output_height`` видалено"
+
+msgid "Method ``get_connection_output_position`` removed"
+msgstr "Метод ``get_connection_output_position`` видалено"
+
+msgid "Method ``get_connection_output_slot`` removed"
+msgstr "Метод ``get_connection_output_slot`` видалено"
+
+msgid "Method ``get_connection_output_type`` removed"
+msgstr "Метод ``get_connection_output_type`` видалено"
+
+msgid "Property ``language`` removed"
+msgstr "Властивість ``мова`` видалено"
+
+msgid "Signal ``node_deselected`` moved to base class ``GraphElement``"
+msgstr ""
+"Сигнал ``node_deselected`` переміщено до базового класу ``GraphElement``"
+
+msgid "Signal ``node_selected`` moved to base class ``GraphElement``"
+msgstr "Сигнал ``node_selected`` переміщено до базового класу ``GraphElement``"
+
+msgid "Property ``overlay`` removed"
+msgstr "Властивість ``overlay`` видалено"
+
+msgid "Property ``position_offset`` moved to base class ``GraphElement``"
+msgstr ""
+"Властивість ``position_offset`` перенесено до базового класу ``GraphElement``"
+
+msgid "Signal ``position_offset_changed`` moved to base class ``GraphElement``"
+msgstr ""
+"Сигнал ``position_offset_changed`` переміщено до базового класу "
+"``GraphElement``"
+
+msgid "Signal ``raise_request`` moved to base class ``GraphElement``"
+msgstr "Сигнал ``raise_request`` перенесено до базового класу ``GraphElement``"
+
+msgid "Property ``resizable`` moved to base class ``GraphElement``"
+msgstr ""
+"Властивість ``resizable`` перенесено до базового класу ``GraphElement``"
+
+msgid "Signal ``resize_request`` moved to base class ``GraphElement``"
+msgstr ""
+"Властивість ``resizable`` перенесено до базового класу ``GraphElement``"
+
+msgid "Property ``selectable`` moved to base class ``GraphElement``"
+msgstr ""
+"Властивість ``selectable`` перенесено до базового класу ``GraphElement``"
+
+msgid "Property ``selected`` moved to base class ``GraphElement``"
+msgstr "Властивість ``selected`` переміщено до базового класу ``GraphElement``"
+
+msgid "Property ``show_close`` removed"
+msgstr "Властивість ``show_close`` видалено"
+
+msgid "Property ``text_direction`` removed"
+msgstr "Властивість ``text_direction`` видалено"
+
+msgid "TileMap"
+msgstr "Плитка карти"
+
+msgid "**TileMap**"
+msgstr "**Плитка карти**"
+
+msgid "Property ``cell_quadrant_size`` renamed to ``rendering_quadrant_size``"
+msgstr ""
+"Властивість ``cell_quadrant_size`` перейменовано на "
+"``rendering_quadrant_size``"
+
+msgid "`GH-81070`_"
+msgstr "`GH-81070`_"
+
 msgid "XR"
 msgstr "ИКСР"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "**XRInterface**"
+msgstr "**XRIінтерфейс**"
+
+msgid "Property ``environment_blend_mode`` added"
+msgstr "Додано властивість ``environment_blend_mode``"
+
+msgid "`GH-81561`_"
+msgstr "`GH-81561`_"
+
+msgid ""
+"This change breaks compatibility in C# because the new property conflicts "
+"with the name of an existing enum and the C# bindings generator gives "
+"priority to properties, so the enum type was renamed from "
+"``EnvironmentBlendMode`` to ``EnvironmentBlendModeEnum``."
+msgstr ""
+"Ця зміна порушує сумісність у C#, оскільки нова властивість конфліктує з "
+"іменем існуючого enum, а генератор прив’язок C# надає пріоритет "
+"властивостям, тому тип enum було перейменовано з ``EnvironmentBlendMode`` на "
+"``EnvironmentBlendModeEnum``."

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -65,6 +65,3 @@ msgstr "Usando texturas protótipo"
 
 msgid "There are two ways to apply a material to a CSG node:"
 msgstr "Há duas maneiras de aplicar um material a um nó CSG:"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,6 +24,3 @@ msgid ""
 msgstr ""
 "上图中的Control Gallery演示可以 `在GitHub <https://github.com/godotengine/"
 "godot-demo-projects/tree/master/gui/control_gallery>`__ 上找到。"
-
-msgid "Translation status"
-msgstr "翻译状态"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -127,16 +127,6 @@ msgstr ""
 "獻者的部分， 提供有關編譯引擎的資訊，為編輯器做出貢獻， 或開發C++模組。"
 
 msgid ""
-"**Community** is dedicated to the life of Godot's community. It points to "
-"various community channels like the `Godot Contributors Chat <https://chat."
-"godotengine.org/>`_ and `Discord`_ and contains a list of recommended third-"
-"party tutorials and materials outside of this documentation."
-msgstr ""
-":ref:`sec-community` 章節涵蓋了有關參與 Godot 開發的資訊，例如回報告有錯誤的"
-"方法、如何協助改善說明文件…等。另外也提供了多個如 IRC 與 Discord 的社群頻道，"
-"並列出了其他推薦的第三方教學。"
-
-msgid ""
 "Finally, the **Class reference** documents the full Godot API, also "
 "available directly within the engine's script editor. You can find "
 "information on all classes, functions, signals and so on here."
@@ -184,6 +174,3 @@ msgstr ""
 
 msgid "*Have fun reading and making games with Godot Engine!*"
 msgstr "*祝你學習與使用 Godot Engine 開發遊戲愉快！*"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

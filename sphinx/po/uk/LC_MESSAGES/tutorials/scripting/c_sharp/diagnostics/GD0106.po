@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,80 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0106: The exported property is an explicit interface implementation"
+msgstr "GD0106: Експортована властивість є явною реалізацією інтерфейсу"
+
+msgid "**Rule ID**"
+msgstr "**Ідентифікатор правила**"
+
+msgid "GD0106"
+msgstr "GD0106"
+
 msgid "**Category**"
 msgstr "**Категорія**"
 
 msgid "Usage"
 msgstr "Використання"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Виправлення ламається або не ламається**"
+
+msgid "Non-breaking"
+msgstr "Не б'ється"
+
+msgid "**Enabled by default**"
+msgstr "**Увімкнено за замовчуванням**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "причина"
+
+msgid ""
+"An explicit interface property implementation is annotated with the "
+"``[Export]`` attribute. Properties that implement an interface explicitly "
+"can't be exported."
+msgstr ""
+"Явна реалізація властивості інтерфейсу анотується атрибутом ``[Export]``. "
+"Властивості, які явно реалізують інтерфейс, не можна експортувати."
+
+msgid "Rule description"
+msgstr "Опис правила"
+
+msgid ""
+"Godot doesn't allow exporting explicit interface property implementations. "
+"When an interface member is implemented explicitly, the member is hidden and "
+"consumers can't access them unless the type is converted to the interface "
+"first. Explicitly implemented members can also share the same name of other "
+"members in the type, so it could create naming conflicts with other exported "
+"members."
+msgstr ""
+"Godot не дозволяє експортувати явні реалізації властивостей інтерфейсу. Коли "
+"член інтерфейсу реалізовано явно, він прихований, і споживачі не можуть "
+"отримати до нього доступ, якщо тип не буде спочатку перетворено на "
+"інтерфейс. Явно реалізовані члени також можуть використовувати те саме ім’я "
+"інших членів у типі, тому це може створити конфлікт імен з іншими "
+"експортованими членами."
+
+msgid "How to fix violations"
+msgstr "Як усунути порушення"
+
+msgid ""
+"To fix a violation of this rule, implement the interface implicitly or "
+"remove the ``[Export]`` attribute."
+msgstr ""
+"Щоб виправити порушення цього правила, реалізуйте інтерфейс неявно або "
+"видаліть атрибут ``[Export]``."
+
+msgid "When to suppress warnings"
+msgstr "Коли придушувати попередження"
+
+msgid ""
+"Do not suppress a warning from this rule. Explicit interface property "
+"implementations can't be exported so they will be ignored by Godot, "
+"resulting in runtime errors."
+msgstr ""
+"Не приховуйте попередження з цього правила. Явні реалізації властивостей "
+"інтерфейсу не можна експортувати, тому Godot їх ігноруватиме, що призведе до "
+"помилок виконання."

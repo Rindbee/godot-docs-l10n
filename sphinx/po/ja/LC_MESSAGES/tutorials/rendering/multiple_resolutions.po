@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -346,6 +346,13 @@ msgstr "ゲーム以外のアプリケーション"
 msgid "Reducing aliasing on downsampling"
 msgstr "ダウンサンプリングでのエイリアスの削減"
 
+msgid ""
+"If the game has a very high base resolution (e.g. 3840×2160), aliasing might "
+"appear when downsampling to something considerably lower like 1280×720."
+msgstr ""
+"ゲームの基本解像度が非常に高い場合(3840 x 2160など)、1280 x 720などのかなり低"
+"い値にダウンサンプリングすると、エイリアスが現れる場合があります。"
+
 msgid "Handling aspect ratios"
 msgstr "アスペクト比の処理"
 
@@ -391,6 +398,3 @@ msgid ""
 msgstr ""
 "例として、 `3D viewport scaling demo <https://github.com/godotengine/godot-"
 "demo-projects/tree/master/viewport/3d_scaling>`__ をみてください。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

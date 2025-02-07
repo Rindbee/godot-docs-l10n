@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -114,6 +114,32 @@ msgstr "Існує кілька методів вимірювання проду
 
 msgid "Putting a start/stop timer around code of interest."
 msgstr "Встановлення таймера початку/зупинки навколо коду, який цікавить."
+
+msgid "Using the :ref:`Godot profiler <doc_the_profiler>`."
+msgstr "Використання :ref:`профайлера Godot <doc_the_profiler>`."
+
+msgid "Using :ref:`external CPU profilers <doc_using_cpp_profilers>`."
+msgstr "Використання :ref:`профілів зовнішнього ЦП <doc_using_cpp_profilers>`."
+
+msgid ""
+"Checking the frame rate (with V-Sync disabled). Third-party utilities such "
+"as `RivaTuner Statistics Server <https://www.guru3d.com/files-details/rtss-"
+"rivatuner-statistics-server-download.html>`__ (Windows) or `MangoHud "
+"<https://github.com/flightlessmango/MangoHud>`__ (Linux) can also be useful "
+"here."
+msgstr ""
+"Перевірка частоти кадрів (з вимкненою V-Sync). Утиліти сторонніх "
+"розробників, такі як `RivaTuner Statistics Server <https://www.guru3d.com/"
+"files-details/rtss-rivatuner-statistics-server-download.html>`__ (Windows) "
+"або `MangoHud <https:// github.com/flightlessmango/MangoHud>`__ (Linux) "
+"також може бути корисним тут."
+
+msgid ""
+"Using an unofficial `debug menu add-on <https://github.com/godot-extended-"
+"libraries/godot-debug-menu>`__."
+msgstr ""
+"Використання неофіційного додатка меню налагодження <https://github.com/"
+"godot-extended-libraries/godot-debug-menu>`__."
 
 msgid ""
 "Be very aware that the relative performance of different areas can vary on "
@@ -256,6 +282,13 @@ msgstr ""
 "продуктивність можуть дати зворотний ефект і призвести до уповільнення "
 "роботи. **Завжди використовуйте профілювання та визначення часу, щоб "
 "відстежувати вплив своїх зусиль.**"
+
+msgid ""
+"For more info about using Godot's built-in profiler, see :ref:"
+"`doc_the_profiler`."
+msgstr ""
+"Додаткову інформацію про використання вбудованого профайлера Godot див. :ref:"
+"`doc_the_profiler`."
 
 msgid "Principles"
 msgstr "Принципи"
@@ -525,6 +558,3 @@ msgid ""
 msgstr ""
 "У цьому прикладі ми знову значно оптимізували центральний процесор, але час "
 "кадру не покращився, оскільки у нас вузьке місце графічний процесор."
-
-msgid "Translation status"
-msgstr "Стан перекладу"

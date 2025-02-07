@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -140,6 +140,3 @@ msgstr ""
 "<class_CanvasItem_private_method__draw>` um programmatisch zu zeichnen oder :"
 "ref:`Control._gui_input() <class_Control_private_method__gui_input>` um "
 "Klicks und Eingaben auf UI-Elementen zu behandeln."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

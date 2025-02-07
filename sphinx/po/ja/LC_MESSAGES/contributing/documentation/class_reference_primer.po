@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,17 +17,253 @@ msgstr "クラスXMLを編集する方法"
 msgid "Improve formatting with BBCode style tags"
 msgstr "BBCodeスタイルタグを使用した書式設定を改善する"
 
+msgid ""
+"Whenever you link to a member of another class, you need to specify the "
+"class name. For links to the same class, the class name is optional and can "
+"be omitted."
+msgstr ""
+"別のクラスのメンバーにリンクするときは、必ずクラス名を指定する必要がありま"
+"す。同じクラスへのリンクの場合はクラス名はオプションであり省略できます。"
+
+msgid "Tag and Description"
+msgstr "タグと説明"
+
 msgid "Example"
 msgstr "サンプル"
 
 msgid "Result"
 msgstr "結果"
 
+msgid "``[Class]``"
+msgstr "``[Class]``"
+
+msgid "Link to class"
+msgstr "クラスへのリンク"
+
+msgid "``Move the [Sprite2D].``"
+msgstr "``Move the [Sprite2D].``"
+
+msgid "Move the :ref:`class_Sprite2D`."
+msgstr "\\ Move the :ref:`class_Sprite2D`."
+
+msgid "``[annotation Class.name]``"
+msgstr "``[annotation Class.name]``"
+
+msgid "Link to annotation"
+msgstr "アノテーションへのリンク"
+
+msgid "``See [annotation @GDScript.@rpc].``"
+msgstr "``See [annotation @GDScript.@rpc].``"
+
+msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+msgstr "\\ See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+
+msgid "``[constant Class.name]``"
+msgstr "``[constant Class.name]``"
+
+msgid "Link to constant"
+msgstr "定数へのリンク"
+
+msgid "``See [constant Color.RED].``"
+msgstr "``[constant Color.RED]を参照。``"
+
+msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
+msgstr ":ref:`Color.RED <class_Color_constant_RED>` を参照。"
+
+msgid "``[enum Class.name]``"
+msgstr "``[enum Class.name]``"
+
+msgid "Link to enum"
+msgstr "列挙型へのリンク"
+
+msgid "``See [enum Mesh.ArrayType].``"
+msgstr "``See [enum Mesh.ArrayType].``"
+
+msgid "See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
+msgstr "\\ See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
+
+msgid "``[member Class.name]``"
+msgstr "``[member Class.name]``"
+
+msgid "``Get [member Node2D.scale].``"
+msgstr "``Get [member Node2D.scale].``"
+
+msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
+msgstr "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
+
+msgid "``[method Class.name]``"
+msgstr "``[method Class.name]``"
+
+msgid "Link to method"
+msgstr "メソッドへのリンク"
+
+msgid "``Call [method Node3D.hide].``"
+msgstr "``Call [method Node3D.hide].``"
+
+msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
+msgstr "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
+
+msgid "``[constructor Class.name]``"
+msgstr "``[constructor Class.name]``"
+
+msgid "Link to built-in constructor"
+msgstr "組み込みコンストラクターへのリンク"
+
+msgid "``Use [constructor Color.Color].``"
+msgstr "``Use [constructor Color.Color].``"
+
+msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
+msgstr "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
+
+msgid "``[operator Class.name]``"
+msgstr "``[operator Class.name]``"
+
+msgid "Link to built-in operator"
+msgstr "組み込み演算子へのリンク"
+
+msgid "``Use [operator Color.operator *].``"
+msgstr "``Use [operator Color.operator *].``"
+
+msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+msgstr "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+
+msgid "``[signal Class.name]``"
+msgstr "``[signal Class.name]``"
+
+msgid "Link to signal"
+msgstr "シグナルへのリンク"
+
+msgid "``Emit [signal Node.renamed].``"
+msgstr "``Emit [signal Node.renamed].``"
+
+msgid "Emit :ref:`Node.renamed <class_Node_signal_renamed>`."
+msgstr "\\ Emit :ref:`Node.renamed <class_Node_signal_renamed>`."
+
+msgid "``[theme_item Class.name]``"
+msgstr "``[theme_item Class.name]``"
+
+msgid "Link to theme item"
+msgstr "テーマアイテムへのリンク"
+
+msgid "``See [theme_item Label.font].``"
+msgstr "``See [theme_item Label.font].``"
+
+msgid "See :ref:`Label.font <class_Label_theme_font_font>`."
+msgstr "\\ See :ref:`Label.font <class_Label_theme_font_font>`."
+
+msgid "``[param name]``"
+msgstr "``[param name]``"
+
+msgid "Parameter name (as code)"
+msgstr "パラメータ名 (コードとして)"
+
+msgid "``Takes [param size] for the size.``"
+msgstr "``Takes [param size] for the size.``"
+
+msgid "Takes ``size`` for the size."
+msgstr "\\ Takes ``size`` for the size."
+
+msgid "Currently only :ref:`class_@GDScript` has annotations."
+msgstr "現在、アノテーションがあるのは :ref:`class_@GDScript` のみです。"
+
+msgid "``[br]``"
+msgstr "``[br]``"
+
+msgid "Line break"
+msgstr "改行"
+
+msgid "``Line 1.[br]``"
+msgstr "``Line 1.[br]``"
+
+msgid "``Line 2.``"
+msgstr "``Line 2.``"
+
+msgid "Line 1."
+msgstr "Line 1."
+
+msgid "Line 2."
+msgstr "Line 2."
+
+msgid "``[lb]`` ``[rb]``"
+msgstr "``[lb]`` ``[rb]``"
+
+msgid "``[`` and ``]`` respectively"
+msgstr "``[`` と ``]``"
+
+msgid "``[lb]b[rb]text[lb]/b[rb]``"
+msgstr "``[lb]b[rb]text[lb]/b[rb]``"
+
+msgid "[b]text[/b]"
+msgstr "[b]text[/b]"
+
+msgid "``[b]`` ``[/b]``"
+msgstr "``[b]`` ``[/b]``"
+
 msgid "Bold"
 msgstr "太字"
 
+msgid "``Do [b]not[/b] call this method.``"
+msgstr "``Do [b]not[/b] call this method.``"
+
+msgid "Do **not** call this method."
+msgstr "\\ Do **not** call this method."
+
+msgid "``[i]`` ``[/i]``"
+msgstr "``[i]`` ``[/i]``"
+
 msgid "Italic"
 msgstr "斜体"
+
+msgid "``Returns the [i]global[/i] position.``"
+msgstr "``Returns the [i]global[/i] position.``"
+
+msgid "Returns the *global* position."
+msgstr "\\ Returns the *global* position."
+
+msgid "``[u]`` ``[/u]``"
+msgstr "``[u]`` ``[/u]``"
+
+msgid "Underline"
+msgstr "下線"
+
+msgid "``[u]Always[/u] use this method.``"
+msgstr "``[u]Always[/u] use this method.``"
+
+msgid "``[s]`` ``[/s]``"
+msgstr "``[s]`` ``[/s]``"
+
+msgid "Strikethrough"
+msgstr "取り消し線"
+
+msgid "``[s]Outdated information.[/s]``"
+msgstr "``[s]Outdated information.[/s]``"
+
+msgid "``[url]`` ``[/url]``"
+msgstr "``[url]`` ``[/url]``"
+
+msgid "Hyperlink"
+msgstr "ハイパーリンク"
+
+msgid "``[url]https://example.com[/url]``"
+msgstr "``[url]https://example.com[/url]``"
+
+msgid "``[url=https://example.com]Website[/url]``"
+msgstr "``[url=https://example.com]Website[/url]``"
+
+msgid "https://example.com"
+msgstr "https://example.com"
+
+msgid "`Website <https://example.com>`_"
+msgstr "`Website <https://example.com>`_"
+
+msgid "``[center]`` ``[/center]``"
+msgstr "``[center]`` ``[/center]``"
+
+msgid "Horizontal centering"
+msgstr "水平方向のセンタリング"
+
+msgid "``[center]2 + 2 = 4[/center]``"
+msgstr "``[center]2 + 2 = 4[/center]``"
 
 msgid "``[kbd]`` ``[/kbd]``"
 msgstr "``[kbd]`` ``[/kbd]``"
@@ -35,14 +271,68 @@ msgstr "``[kbd]`` ``[/kbd]``"
 msgid "Keyboard/mouse shortcut"
 msgstr "キーボードとマウスのショートカット"
 
+msgid "``Press [kbd]Ctrl + C[/kbd].``"
+msgstr "``Press [kbd]Ctrl + C[/kbd].``"
+
+msgid "Press :kbd:`Ctrl + C`."
+msgstr "\\ Press :kbd:`Ctrl + C`."
+
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
+
+msgid "Inline code fragment"
+msgstr "インラインのコードフラグメント"
+
+msgid "``Returns [code]true[/code].``"
+msgstr "``Returns [code]true[/code].``"
+
+msgid "Returns ``true``."
+msgstr "\\ Returns ``true``."
+
+msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
+msgstr ""
+"``[kbd]`` は、パーサーが ``[/kbd]`` に遭遇するまで BBCode を無効にします。"
+
+msgid "``[code]`` disables BBCode until the parser encounters ``[/code]``."
+msgstr ""
+"``[code]`` は、パーサーが ``[/code]`` に遭遇するまで BBCode を無効にします。"
+
+msgid ""
+"By default, ``[codeblock]`` highlights GDScript syntax. You can change it "
+"using the ``lang`` attribute. Currently supported options are:"
+msgstr ""
+"デフォルトでは ``[codeblock]`` は GDScript 構文をハイライトします。これは "
+"``lang`` 属性を使用して言語を変更できます。現在サポートされているオプションは"
+"次のとおりです。"
+
+msgid "``[codeblock lang=text]`` disables syntax highlighting;"
+msgstr "``[codeblock lang=text]`` は構文のハイライトを無効にします;"
+
+msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
+msgstr "``[codeblock lang=gdscript]`` は GDScript 構文をハイライトします;"
+
+msgid ""
+"``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
+msgstr ""
+"``[codeblock lang=csharp]`` は C# 構文をハイライトします (.NET バージョンの"
+"み)。"
+
+msgid ""
+"``[codeblock]`` disables BBCode until the parser encounters ``[/codeblock]``."
+msgstr ""
+"``[codeblock]`` は、パーサーが ``[/codeblock]`` に遭遇するまで BBCode を無効"
+"にします。"
+
+msgid ""
+"Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, "
+"always use **four spaces** for indentation. The parser will delete tabs."
+msgstr ""
+"事前にフォーマットされたコードブロックには ``[codeblock]`` を使用します。\\ "
+"``[codeblock]`` 内では、インデントには常に **4つのスペース** を使用します。"
+"パーサーはタブを削除します。"
 
 msgid "For example:"
 msgstr "例:"
 
 msgid "Will display as:"
 msgstr "次のように表示されます:"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

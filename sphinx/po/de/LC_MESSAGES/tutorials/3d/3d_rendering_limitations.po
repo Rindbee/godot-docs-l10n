@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -95,16 +95,6 @@ msgstr ""
 
 msgid "There are two main ways to alleviate banding:"
 msgstr "Es gibt im Wesentlichen zwei Möglichkeiten, Banding zu mindern:"
-
-msgid ""
-"If using the Forward+ or Forward Mobile rendering methods, enable **Use "
-"Debanding** in the advanced Project Settings. This applies a fullscreen "
-"debanding shader as a post-processing effect and is very cheap."
-msgstr ""
-"Wenn Sie die Render-Methoden Forward+ oder Forward Mobile verwenden, "
-"aktivieren Sie **Debanding verwenden** in den erweiterten "
-"Projekteinstellungen. Dies wendet einen Fullscreen-Debanding-Shader als Post-"
-"Processing-Effekt an und ist sehr kostengünstig."
 
 msgid ""
 "Alternatively, bake some noise into your textures. This is mainly effective "
@@ -401,6 +391,3 @@ msgstr ""
 "Diese Technik wird Supersample Antialiasing (SSAA) genannt und ist sehr "
 "langsam. Ihre Verwendung wird im Allgemeinen nur für Offline-Rendering "
 "empfohlen."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

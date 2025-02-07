@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -56,9 +56,6 @@ msgstr ""
 msgid "Labels"
 msgstr "ラベル"
 
-msgid "The following labels are currently defined in the Godot repository:"
-msgstr "現在、Godotリポジトリでは以下のラベルが定義されています:"
-
 msgid "**Categories:**"
 msgstr "**カテゴリ:**"
 
@@ -94,17 +91,6 @@ msgid ""
 msgstr ""
 "*Discussion*\\ :問題は合意に達しておらず、トピックに対処するために何をすべき"
 "かを正確に定義するために、さらなる議論が必要です。"
-
-msgid ""
-"*Documentation*: issue related to the documentation. Mainly to request "
-"enhancements in the API documentation. Issues related to the ReadTheDocs "
-"documentation should be filed on the `godot-docs <https://github.com/"
-"godotengine/godot-docs>`_ repository."
-msgstr ""
-"*Documentation*\\ : ドキュメントに関連する問題。主に APIドキュメントの機能強"
-"化を要求します。ReadTheDocs ドキュメントに関連する問題は、 `godot-docs "
-"<https://github.com/godotengine/godot-docs>`_\\ リポジトリに提出する必要があ"
-"ります。"
 
 msgid ""
 "*Enhancement*: describes a proposed enhancement to an existing functionality."
@@ -195,6 +181,3 @@ msgstr ""
 "貢献者は、割り当てられたマイルストーンに関係なく、問題を自由に選択できます。 "
 "緊急とみなされなかったため、マイルストーンのないバグの修正が提案された場合、"
 "それでも大歓迎です。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

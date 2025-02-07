@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -68,6 +68,3 @@ msgid ""
 msgstr ""
 "Un os peut être parent d'un objet dans Blender, cette relation est exportée "
 "en tant que nœud BoneAttachment dans la scène Godot."
-
-msgid "Translation status"
-msgstr "État de la traduction"

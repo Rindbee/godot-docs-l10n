@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -149,6 +149,3 @@ msgid ""
 msgstr ""
 "使用上面的範例程式碼，可以實作用自訂的小工具替代整數預設的 :ref:"
 "`class_SpinBox` 控制項，點擊 :ref:`class_Button` 後生成隨機值。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

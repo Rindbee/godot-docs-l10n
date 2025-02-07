@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,13 +20,6 @@ msgstr "导入项目"
 msgid "Android Studio's welcome window."
 msgstr "Android Studio 的欢迎界面."
 
-msgid ""
-"Navigate to ``<Godot root directory>/platform/android/java`` and select the "
-"``settings.gradle`` file."
-msgstr ""
-"导航到 ``<Godot根目录(Godot root directory)>/platform/android/java`` 并选择 "
-"``settings.gradle`` 文件."
-
 msgid "Android Studio will import and index the project."
 msgstr "Android Studio 将导入项目并为其编制索引."
 
@@ -39,13 +32,6 @@ msgid ""
 msgstr ""
 "你可以使用 `Android Studio 4.1或更高版本 <https://developer.android.com/"
 "studio/>`__ 进行安装："
-
-msgid ""
-"Located under ``<Godot root directory>/platform/android/java/lib``, this is "
-"a **library module** that organizes"
-msgstr ""
-"导航到 ``<Godot根目录(Godot root directory)>/platform/android/java`` 并选择 "
-"``settings.gradle`` 文件"
 
 msgid "``editor`` module:"
 msgstr "``editor`` 模块："
@@ -87,6 +73,3 @@ msgstr "要调试 ``editor`` 模块："
 
 msgid "Building & debugging the app module"
 msgstr "应用模块的构建与调试"
-
-msgid "Translation status"
-msgstr "翻译状态"

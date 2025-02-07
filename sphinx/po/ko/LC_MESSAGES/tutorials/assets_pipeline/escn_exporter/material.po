@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -110,6 +110,3 @@ msgstr ""
 "머티리얼 내보내기의 기본 구성은 모든 머티리얼을 ``escn`` 파일에 내부적으로 유"
 "지하는 것입니다. 설정을 통해 Godot에서 ``escn`` 파일을 열 때 외부 ``."
 "material`` 파일을 생성하도록 할 수 있습니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

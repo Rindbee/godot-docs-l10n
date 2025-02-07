@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -68,9 +68,6 @@ msgstr "我們會儘量給 Issue 與 PR 上加上 Label (必要的時候也會�
 msgid "Labels"
 msgstr "Label (標齊)"
 
-msgid "The following labels are currently defined in the Godot repository:"
-msgstr "在 Godot 儲存庫中目前有設定下列 Label："
-
 msgid "**Categories:**"
 msgstr "**分類：**"
 
@@ -124,28 +121,8 @@ msgstr ""
 "切該怎麼處理。"
 
 msgid ""
-"*Documentation*: issue related to the documentation. Mainly to request "
-"enhancements in the API documentation. Issues related to the ReadTheDocs "
-"documentation should be filed on the `godot-docs <https://github.com/"
-"godotengine/godot-docs>`_ repository."
-msgstr ""
-"**Documentation**: 說明文件。與說明文件有關的 Issue。通常是要求要改進 API 說"
-"明文件。有關 ReadTheDocs 說明文件的 Issue 應開在 `godot-docs <https://github."
-"com/godotengine/godot-docs>`_ 儲存庫內。"
-
-msgid ""
 "*Enhancement*: describes a proposed enhancement to an existing functionality."
 msgstr "**Enhancement**: 改進。對現有功能的改進建議。"
-
-msgid ""
-"*Feature proposal*: describes a wish for a new feature to be implemented. "
-"Note that the main Godot repository no longer accepts feature requests. "
-"Please use `godot-proposals <https://github.com/godotengine/godot-"
-"proposals>`__ instead."
-msgstr ""
-"*Feature proposal*：用於描述實作新功能的願望。請注意 Godot 主倉庫不再接受功能"
-"請求。請換用 `godot-proposals <https://github.com/godotengine/godot-"
-"proposals>`__。"
 
 msgid ""
 "*For PR meeting*: the issue needs to be discussed in a pull request meeting. "
@@ -180,10 +157,6 @@ msgstr ""
 "**Needs testing**: 需要測試。該 Issue/PR 無法完整被測試，並需要進一步測試。這"
 "可能表示該 Issue 需要在不同的硬體或軟體設定上測試，甚至是測試所需要的重現步驟"
 "不一定的情況。"
-
-msgid ""
-"*Needs work*: the pull request needs additional work before it can be merged."
-msgstr "**Needs rebase**: 需要 Rebase。該 Issue 需要進行 Git Rebase 才能合併。"
 
 msgid ""
 "*Performance*: issues that directly impact engine or editor performance. Can "
@@ -312,9 +285,6 @@ msgid ""
 "*Navigation*: relates to the navigation system (including A* and navmeshes)."
 msgstr "*Navigation*：與導覽系統（包括 A* 和導覽網格）有關。"
 
-msgid "*Network*: relates to (lot-level) networking."
-msgstr "**Network**: 與網路有關。"
-
 msgid "*Particles*: particles, particle systems and their editors."
 msgstr ":ref:`doc_particle_shader`"
 
@@ -369,19 +339,16 @@ msgid "Documentation labels"
 msgstr "說明文件修改記錄"
 
 msgid ""
-"In the `documentation repository <https://github.com/godotengine/godot-"
-"docs>`__, we use the following labels:"
-msgstr ""
-"在這份文件之外，你可能也會想看看 `Godot 的 demo 專案 <https://github.com/"
-"godotengine/godot-demo-projects>`_。"
-
-msgid ""
 "*Bug*: Incorrect information in an existing page. Not to be used for "
 "*missing* information."
 msgstr "*Bug*：現有頁面中的錯誤資訊。請勿對*缺失*資訊使用。"
 
 msgid "*Dependencies*: describes pull requests that update a dependency file."
 msgstr "*依賴項*：描述更新相依性檔案的拉取請求。"
+
+msgid ""
+"*Needs work*: the pull request needs additional work before it can be merged."
+msgstr "**Needs rebase**: 需要 Rebase。該 Issue 需要進行 Git Rebase 才能合併。"
 
 msgid "*Python*: Pull requests that update Python code."
 msgstr "*Python*：更新 Python 程式碼的拉取請求。"
@@ -483,6 +450,3 @@ msgid ""
 msgstr ""
 "不管 Issue 設定了什麼 Milestone，都歡迎貢獻者自由選擇 Issue 處理。若是某個不"
 "緊急且沒設定 Milestone 的 Bug 也依然歡迎處理。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

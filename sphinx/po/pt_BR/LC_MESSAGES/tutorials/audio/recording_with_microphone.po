@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -97,6 +97,3 @@ msgstr ""
 "Para salvar a gravação, chame ``save_to_wav()`` com o caminho para um "
 "arquivo. Nesta demonstração, o caminho é definido pelo usuário através de "
 "uma caixa de entrada ``LineEdit``."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

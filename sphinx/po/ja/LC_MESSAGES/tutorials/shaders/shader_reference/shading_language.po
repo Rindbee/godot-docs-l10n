@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -81,9 +81,6 @@ msgstr "Bool値の4要素ベクトル。"
 msgid "**int**"
 msgstr "\\ **int**"
 
-msgid "Signed scalar integer."
-msgstr "符号付きスカラー整数。"
-
 msgid "**ivec2**"
 msgstr "\\ **ivec2**"
 
@@ -128,9 +125,6 @@ msgstr "符号なし整数の4要素ベクトル。"
 
 msgid "**float**"
 msgstr "\\ **float**"
-
-msgid "Floating-point scalar."
-msgstr "浮動小数点のスカラー。"
 
 msgid "**vec2**"
 msgstr "\\ **vec2**"
@@ -247,11 +241,6 @@ msgstr ""
 msgid "**samplerCubeArray**"
 msgstr "\\ **samplerCubeArray**"
 
-msgid "Sampler type for binding Cubemap arrays, which are read as float."
-msgstr ""
-"キューブマップテクスチャ配列をバインドするためのサンプラータイプ。floatとして"
-"読み込まれます。"
-
 msgid "Comments"
 msgstr "コメント"
 
@@ -290,30 +279,11 @@ msgstr ""
 "バーを介してアクセスします。あるいは、\"r\"、\"g\"、\"b\" および \"a\" を使用"
 "しても機能し、同等です。ニーズに最適なものを使用してください。"
 
-msgid ""
-"For matrices, use the ``m[column][row]`` indexing syntax to access each "
-"scalar, or ``m[idx]`` to access a vector by row index. For example, for "
-"accessing the y position of an object in a mat4 you use ``m[3][1]``."
-msgstr ""
-"行列の場合、\\ ``m[column][row]`` インデックス構文を使用して各スカラーにアク"
-"セスするか、\\ ``m[idx]`` を使用して行インデックスでベクトルにアクセスしま"
-"す。たとえば、mat4のオブジェクトのy位置にアクセスするには、\\ ``m[3][1]`` を"
-"使用します。"
-
 msgid "Constructing"
 msgstr "構築"
 
 msgid "Construction of vector types must always pass:"
 msgstr "ベクトル型の構築は常に代入する必要があります:"
-
-msgid ""
-"Construction of matrix types requires vectors of the same dimension as the "
-"matrix. You can also build a diagonal matrix using ``matx(float)`` syntax. "
-"Accordingly, ``mat4(1.0)`` is an identity matrix."
-msgstr ""
-"行列タイプの構築には、行列と同じ次元のベクトルが必要です。\\ ``matx(float)`` "
-"構文を使用して対角行列を構築することもできます。したがって、\\ ``mat4(1.0)`` "
-"は単位行列です。"
 
 msgid ""
 "Matrices can also be built from a matrix of another dimension. There are two "
@@ -569,7 +539,7 @@ msgid "**/, \\*, %**"
 msgstr "**/、\\*、%**"
 
 msgid "4"
-msgstr "\\ 4"
+msgstr "4"
 
 msgid "additive"
 msgstr "加減算"
@@ -578,7 +548,7 @@ msgid "**+, -**"
 msgstr "**+、-**"
 
 msgid "5"
-msgstr "\\ 5"
+msgstr "5"
 
 msgid "bit-wise shift"
 msgstr "ビット単位のシフト"
@@ -632,7 +602,7 @@ msgid "**|**"
 msgstr "\\ **|**"
 
 msgid "11"
-msgstr "\\ 11"
+msgstr "11"
 
 msgid "logical AND"
 msgstr "論理AND"
@@ -1367,13 +1337,13 @@ msgstr ""
 "トについては、対応するページを参照してください。"
 
 msgid ":ref:`Spatial shaders <doc_spatial_shader>`"
-msgstr "\\ :ref:`Spatial(空間)シェーダー <doc_spatial_shader>`"
+msgstr "\\ :ref:`Spatial(3D)シェーダー <doc_spatial_shader>`"
 
 msgid ":ref:`Canvas item shaders <doc_canvas_item_shader>`"
-msgstr ":ref:`CanvasItemシェーダー <doc_canvas_item_shader>`"
+msgstr "\\ :ref:`CanvasItem(2D)シェーダー <doc_canvas_item_shader>`"
 
 msgid ":ref:`Particle shaders <doc_particle_shader>`"
-msgstr "\\ :ref:`パーティクルシェーダ <doc_particle_shader>`"
+msgstr "\\ :ref:`Particleシェーダー <doc_particle_shader>`"
 
 msgid ":ref:`Sky shaders <doc_sky_shader>`"
 msgstr "\\ :ref:`Skyシェーダー <doc_sky_shader>`"
@@ -1942,6 +1912,3 @@ msgstr "整数座標を使用して単一のテクセルを取得する。"
 
 msgid "gvec4_type **textureGather** (gsampler2DArray s, vec3 p [, int comps])"
 msgstr "gvec4_type **textureGather** (gsampler2DArray s, vec3 p [, int comps])"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

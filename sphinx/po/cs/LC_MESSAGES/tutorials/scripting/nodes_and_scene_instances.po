@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -52,6 +52,3 @@ msgstr ""
 "a připravena k použití, takže jste schopni vytvořit libovolný počet "
 "instancí. To je užitečné zejména při rychlém nasazení několika nepřátel, "
 "kulek a dalších entit do aktivní scény."
-
-msgid "Translation status"
-msgstr "Stav překladu"

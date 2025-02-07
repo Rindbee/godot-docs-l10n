@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -241,9 +241,6 @@ msgstr "Integrado"
 msgid "in float **TIME**"
 msgstr "en real **TIME**"
 
-msgid "Global time, in seconds."
-msgstr "Tiempo global, en segundos."
-
 msgid "Vertex built-ins"
 msgstr "Incorporados en Vertex"
 
@@ -437,15 +434,6 @@ msgstr ""
 msgid "in vec4 **FRAGCOORD**"
 msgstr "in vec4 **FRAGCOORD**"
 
-msgid ""
-"Coordinate of pixel center in screen space. ``xy`` specifies position in "
-"window, ``z`` specifies fragment depth if ``DEPTH`` is not used. Origin is "
-"lower-left."
-msgstr ""
-"La coordenada del centro del píxel en el espacio de la pantalla. ``xy`` "
-"especifica la posición en la ventana, ``z`` especifica la profundidad del "
-"fragmento si no se usa ``DEPTH``. El origen es abajo a la izquierda."
-
 msgid "in bool **FRONT_FACING**"
 msgstr "in booleano **FRONT_FACING**"
 
@@ -478,6 +466,9 @@ msgstr "Coordenadas de puntos para dibujar puntos con POINT_SIZE."
 
 msgid "in mat4 **PROJECTION_MATRIX**"
 msgstr "in mat4 **PROJECTION_MATRIX**"
+
+msgid "Node position, in world space."
+msgstr "Posición del nodo, en el espacio mundial."
 
 msgid "in vec3 **VERTEX**"
 msgstr "in vec3 **VERTEX**"
@@ -690,6 +681,15 @@ msgstr ""
 "> Forzar sombreado de vértices** está activado en la configuración del "
 "proyecto. (Está activado por defecto en plataformas móviles)"
 
+msgid ""
+"Coordinate of pixel center in screen space. ``xy`` specifies position in "
+"window, ``z`` specifies fragment depth if ``DEPTH`` is not used. Origin is "
+"lower-left."
+msgstr ""
+"La coordenada del centro del píxel en el espacio de la pantalla. ``xy`` "
+"especifica la posición en la ventana, ``z`` especifica la profundidad del "
+"fragmento si no se usa ``DEPTH``. El origen es abajo a la izquierda."
+
 msgid "in vec3 **NORMAL**"
 msgstr "in vec3 **NORMAL**"
 
@@ -742,6 +742,3 @@ msgid ""
 "Alpha (0..1); if written to, the material will go to the transparent "
 "pipeline."
 msgstr "Alfa (0..1); si se escribe, el material irá a la tubería transparente."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,20 +11,256 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GDScript documentation comments"
+msgstr "Коментарі до документації GDScript"
+
+msgid ""
+"In GDScript, comments can be used to document your code and add descriptions "
+"to the members of a script. There are two differences between a normal "
+"comment and a documentation comment. Firstly, a documentation comment should "
+"start with double hash symbols ``##``. Secondly, it must immediately precede "
+"a script member, or for script descriptions, be placed at the top of the "
+"script. If an exported variable is documented, its description is used as a "
+"tooltip in the editor. This documentation can be generated as XML files by "
+"the editor."
+msgstr ""
+"У GDScript коментарі можна використовувати для документування вашого коду та "
+"додавання описів до членів сценарію. Є дві відмінності між звичайним "
+"коментарем і коментарем документації. По-перше, коментар до документації має "
+"починатися з подвійних символів ``##``. По-друге, він має передувати "
+"безпосередньо члену сценарію або, для описів сценарію, розміщуватися у "
+"верхній частині сценарію. Якщо експортована змінна задокументована, її опис "
+"використовується як підказка в редакторі. Ця документація може бути "
+"згенерована редактором у вигляді файлів XML."
+
+msgid "Documenting a script"
+msgstr "Документування сценарію"
+
+msgid ""
+"Comments documenting a script must come before any member documentation. A "
+"suggested format for script documentation can be divided into three parts."
+msgstr ""
+"Коментарі, що документують сценарій, мають бути перед будь-якою "
+"документацією учасників. Пропонований формат документації сценарію можна "
+"розділити на три частини."
+
+msgid "A brief description of the script."
+msgstr "Короткий опис сценарію."
+
 msgid "Detailed description."
 msgstr "Детальний опис."
+
+msgid "Tutorials and deprecated/experimental marks."
+msgstr "Підручники та застарілі/експериментальні оцінки."
+
+msgid ""
+"To separate these from each other, the documentation comments use special "
+"tags. The tag must be at the beginning of a line (ignoring preceding white "
+"space) and must have the format ``@``, followed by the keyword."
+msgstr ""
+"Щоб відокремити їх один від одного, коментарі до документації використовують "
+"спеціальні теги. Тег має бути на початку рядка (не враховуючи пробіли перед "
+"ним) і мати формат ``@``, після якого йде ключове слово."
+
+msgid "Tags"
+msgstr "Теги"
+
+msgid "Brief description"
+msgstr "Короткий опис"
+
+msgid "No tag. Lives at the very beginning of the documentation section."
+msgstr "Без тегу. Живе на самому початку розділу документації."
 
 msgid "Description"
 msgstr "Опис"
 
-msgid "Function"
-msgstr "Функція"
+msgid "No tag. Use one blank line to separate the description from the brief."
+msgstr ""
+"Без тегу. Використовуйте один порожній рядок, щоб відокремити опис від брифа."
+
+msgid "Tutorial"
+msgstr "Підручник"
+
+msgid "``@tutorial: https://example.com``"
+msgstr "``@tutorial: https://example.com``"
+
+msgid "``@tutorial(The Title Here): https://example.com``"
+msgstr "``@tutorial(Назва тут): https://example.com``"
+
+msgid "Deprecated"
+msgstr "Застаріле"
+
+msgid "``@deprecated``"
+msgstr "``@deprecated``"
+
+msgid "``@deprecated: Use [AnotherClass] instead.``"
+msgstr "``@deprecated: замість цього використовуйте [AnotherClass].``"
+
+msgid "Experimental"
+msgstr "Експериментальний"
+
+msgid "``@experimental``"
+msgstr "``@experimental``"
+
+msgid "``@experimental: This class is unstable.``"
+msgstr "``@experimental: цей клас нестабільний.``"
+
+msgid "For example::"
+msgstr "Наприклад::"
+
+msgid ""
+"If there is any space in between the tag name and colon, for example "
+"``@tutorial  :``, it won't be treated as a valid tag and will be ignored."
+msgstr ""
+"Якщо між назвою тегу та двокрапкою є пробіл, наприклад ``@tutorial :``, це "
+"не вважатиметься дійсним тегом і ігноруватиметься."
+
+msgid ""
+"When the description spans multiple lines, the preceding and trailing white "
+"spaces will be stripped and joined with a single space. To preserve the line "
+"break use ``[br]``. See also `BBCode and class reference`_ below."
+msgstr ""
+"Якщо опис охоплює кілька рядків, попередні та кінцеві пробіли будуть "
+"видалені та об’єднані одним пробілом. Щоб зберегти розрив рядка, "
+"використовуйте ``[br]``. Дивіться також `BBCode і посилання на клас`_ нижче."
+
+msgid "Documenting script members"
+msgstr "Документування учасників сценарію"
+
+msgid "Members that are applicable for documentation:"
+msgstr "Члени, які застосовуються для документації:"
 
 msgid "Signal"
 msgstr "Сигнал"
 
+msgid "Enum"
+msgstr "Enum"
+
+msgid "Enum value"
+msgstr "Значення Enum"
+
+msgid "Constant"
+msgstr "Постійний"
+
 msgid "Variable"
 msgstr "Змінна"
+
+msgid "Function"
+msgstr "Функція"
+
+msgid "Inner class"
+msgstr "Внутрішній клас"
+
+msgid ""
+"Documentation of a script member must immediately precede the member or its "
+"annotations if it has any. The description can have more than one line but "
+"every line must start with the double hash symbol ``##`` to be considered as "
+"part of the documentation."
+msgstr ""
+"Документація елемента сценарію повинна безпосередньо передувати члену або "
+"його анотаціям, якщо вони є. Опис може мати більше одного рядка, але кожен "
+"рядок має починатися з символу подвійної решітки ``##``, щоб вважатися "
+"частиною документації."
+
+msgid "No tag."
+msgstr "Без тегу."
+
+msgid "``@deprecated: Use [member another] instead.``"
+msgstr "``@deprecated: замість цього використовуйте [member another].``"
+
+msgid "``@experimental: This method is incomplete.``"
+msgstr "``@experimental: Цей метод є неповним.``"
+
+msgid "Alternatively, you can use inline documentation comments::"
+msgstr "Крім того, ви можете використовувати вбудовані коментарі документації:"
+
+msgid ""
+"The script documentation will update in the editor help window every time "
+"the script is updated. If any member variable or function name starts with "
+"an underscore, it will be treated as private. It will not appear in the "
+"documentation and will be ignored in the help window."
+msgstr ""
+"Документація сценарію оновлюватиметься у вікні довідки редактора щоразу, "
+"коли оновлюватиметься сценарій. Якщо будь-яка змінна-член або ім’я функції "
+"починається з підкреслення, вона розглядатиметься як приватна. Він не "
+"відображатиметься в документації та буде проігнорований у вікні довідки."
+
+msgid "Complete script example"
+msgstr "Повний приклад сценарію"
+
+msgid "``@deprecated`` and ``@experimental`` tags"
+msgstr "Теги ``@deprecated`` і ``@experimental``"
+
+msgid ""
+"You can mark a class or any of its members as deprecated or experimental. "
+"This will add the corresponding indicator in the built-in documentation "
+"viewer. Optionally, you can provide a short message explaining why the API "
+"is not recommended. This can be especially useful for plugin and library "
+"creators."
+msgstr ""
+"Ви можете позначити клас або будь-якого з його членів як застарілі або "
+"експериментальні. Це додасть відповідний індикатор у вбудований засіб "
+"перегляду документації. За бажанням ви можете надати коротке повідомлення, "
+"пояснюючи, чому API не рекомендується. Це може бути особливо корисним для "
+"творців плагінів і бібліотек."
+
+msgid ""
+"**Deprecated** marks a non-recommended API that is subject to removal or "
+"incompatible change in a future major release. Usually the API is kept for "
+"backwards compatibility."
+msgstr ""
+"**Застарілий** позначає нерекомендований API, який підлягає видаленню або "
+"несумісним змінам у майбутньому основному випуску. Зазвичай API зберігається "
+"для зворотної сумісності."
+
+msgid ""
+"**Experimental** marks a new unstable API that may be changed or removed in "
+"the current major branch. Using this API is not recommended in production "
+"code."
+msgstr ""
+"**Експериментальний** позначає новий нестабільний API, який можна змінити "
+"або видалити в поточній основній гілці. Не рекомендується використовувати "
+"цей API у робочому коді."
+
+msgid ""
+"While technically you can use both ``@deprecated`` and ``@experimental`` "
+"tags on the same class/member, this is not recommended as it is against "
+"common conventions."
+msgstr ""
+"Хоча технічно ви можете використовувати теги ``@deprecated`` і "
+"``@experimental`` для того самого класу/члена, це не рекомендується, "
+"оскільки це суперечить загальним умовам."
+
+msgid "BBCode and class reference"
+msgstr "BBCode та посилання на клас"
+
+msgid ""
+"Godot's class reference supports BBCode-like tags. They add nice formatting "
+"to the text which could also be used in the documentation. See also :ref:"
+"`class reference bbcode <doc_class_reference_bbcode>`. Note that this is "
+"slightly different from the ``RichTextLabel`` :ref:`BBCode "
+"<doc_bbcode_in_richtextlabel>`."
+msgstr ""
+"Посилання на клас Godot підтримує теги, подібні до BBCode. Вони додають "
+"приємне форматування тексту, який також можна використовувати в "
+"документації. Дивіться також :ref:`class reference bbcode "
+"<doc_class_reference_bbcode>`. Зауважте, що це дещо відрізняється від "
+"``RichTextLabel`` :ref:`BBCode <doc_bbcode_in_richtextlabel>`."
+
+msgid ""
+"Whenever you link to a member of another class, you need to specify the "
+"class name. For links to the same class, the class name is optional and can "
+"be omitted."
+msgstr ""
+"Щоразу, коли ви посилаєтеся на члена іншого класу, вам потрібно вказати "
+"назву класу. Для посилань на той самий клас ім’я класу є необов’язковим і "
+"його можна опустити."
+
+msgid "Here's the list of available tags:"
+msgstr "Ось список доступних тегів:"
+
+msgid "Tag and Description"
+msgstr "Тег і опис"
 
 msgid "Example"
 msgstr "Приклад"
@@ -32,35 +268,337 @@ msgstr "Приклад"
 msgid "Result"
 msgstr "Результат"
 
+msgid "``[Class]``"
+msgstr "``[Клас]``"
+
+msgid "Link to class"
+msgstr "Посилання на клас"
+
+msgid "``Move the [Sprite2D].``"
+msgstr "``Перемістити [Sprite2D].``"
+
 msgid "Move the :ref:`class_Sprite2D`."
 msgstr "Перемістити :ref:`class_Sprite2D`."
+
+msgid "``[annotation Class.name]``"
+msgstr "``[анотація Class.name]``"
+
+msgid "Link to annotation"
+msgstr "Посилання на анотацію"
+
+msgid "``See [annotation @GDScript.@rpc].``"
+msgstr "``Див. [анотацію @GDScript.@rpc].``"
+
+msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+msgstr "Перегляньте :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+
+msgid "``[constant Class.name]``"
+msgstr "``[константа Class.name]``"
 
 msgid "Link to constant"
 msgstr "Посилання на константу"
 
+msgid "``See [constant Color.RED].``"
+msgstr "``Див. [constant Color.RED].``"
+
+msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
+msgstr "Перегляньте :ref:`Color.RED <class_Color_constant_RED>`."
+
+msgid "``[enum Class.name]``"
+msgstr "``[enum Class.name]``"
+
+msgid "Link to enum"
+msgstr "Посилання на enum"
+
+msgid "``See [enum Mesh.ArrayType].``"
+msgstr "``Див. [enum Mesh.ArrayType].``"
+
+msgid "See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
+msgstr "Див. :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
+
+msgid "``[member Class.name]``"
+msgstr "``[член Class.name]``"
+
+msgid "Link to member (property)"
+msgstr "Посилання на учасника (власність)"
+
+msgid "``Get [member Node2D.scale].``"
+msgstr "``Отримати [член Node2D.scale].``"
+
 msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
-msgstr "Отримати :ref:`Node2D.scale <клас_Node2D_властивості_масштабу>`."
+msgstr "Отримати :ref:`Node2D.scale <class_Node2D_property_scale>`."
+
+msgid "``[method Class.name]``"
+msgstr "``[метод Class.name]``"
+
+msgid "Link to method"
+msgstr "Посилання на метод"
+
+msgid "``Call [method Node3D.hide].``"
+msgstr "``Виклик [метод Node3D.hide].``"
+
+msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
+msgstr "Виклик :ref:`Node3D.hide() <class_Node3D_method_hide>`."
+
+msgid "``[constructor Class.name]``"
+msgstr "``[constructor Class.name]``"
+
+msgid "Link to built-in constructor"
+msgstr "Посилання на вбудований конструктор"
+
+msgid "``Use [constructor Color.Color].``"
+msgstr "``Використовуйте [конструктор Color.Color].``"
+
+msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
+msgstr "Використовуйте :ref:`Color.Color <class_Color_constructor_Color>`."
+
+msgid "``[operator Class.name]``"
+msgstr "``[оператор Class.name]``"
+
+msgid "Link to built-in operator"
+msgstr "Посилання на вбудований оператор"
+
+msgid "``Use [operator Color.operator *].``"
+msgstr "``Використовуйте [оператор Color.operator *].``"
+
+msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+msgstr "Використовуйте :ref:`Color.operator * <class_Color_operator_mul_int>`."
+
+msgid "``[signal Class.name]``"
+msgstr "``[сигнал Class.name]``"
+
+msgid "Link to signal"
+msgstr "Посилання на сигнал"
+
+msgid "``Emit [signal Node.renamed].``"
+msgstr "``Подати [signal Node.renamed].``"
 
 msgid "Emit :ref:`Node.renamed <class_Node_signal_renamed>`."
 msgstr "Видати :ref:`Node.renamed <class_Node_signal_renamed>`."
 
+msgid "``[theme_item Class.name]``"
+msgstr "``[theme_item Class.name]``"
+
+msgid "Link to theme item"
+msgstr "Посилання на предмет теми"
+
+msgid "``See [theme_item Label.font].``"
+msgstr "``Див. [theme_item Label.font].``"
+
+msgid "See :ref:`Label.font <class_Label_theme_font_font>`."
+msgstr "Перегляньте :ref:`Label.font <class_Label_theme_font_font>`."
+
+msgid "``[param name]``"
+msgstr "``[назва параметра]``"
+
+msgid "Parameter name (as code)"
+msgstr "Назва параметра (як код)"
+
+msgid "``Takes [param size] for the size.``"
+msgstr "``За розмір приймає [param size].``"
+
+msgid "Takes ``size`` for the size."
+msgstr "Використовує ``size`` для розміру."
+
+msgid "``[br]``"
+msgstr "``[br]``"
+
+msgid "Line break"
+msgstr "Розрив рядка"
+
+msgid "``Line 1.[br]``"
+msgstr "``Line 1.[br]``"
+
+msgid "``Line 2.``"
+msgstr "``Line 2.``"
+
+msgid "Line 1."
+msgstr "Рядок 1."
+
+msgid "Line 2."
+msgstr "Рядок 2."
+
+msgid "``[lb]`` ``[rb]``"
+msgstr "``[lb]`` ``[rb]``"
+
+msgid "``[`` and ``]`` respectively"
+msgstr "``[`` і ``]`` відповідно"
+
+msgid "``[lb]b[rb]text[lb]/b[rb]``"
+msgstr "``[lb]b[rb]text[lb]/b[rb]``"
+
+msgid "[b]text[/b]"
+msgstr "[b]text[/b]"
+
+msgid "``[b]`` ``[/b]``"
+msgstr "``[b]`` ``[/b]``"
+
 msgid "Bold"
 msgstr "Напівжирний"
+
+msgid "``Do [b]not[/b] call this method.``"
+msgstr "``[b]Не[/b] викликайте цей метод.``"
+
+msgid "Do **not** call this method."
+msgstr "**Не** викликайте цей метод."
+
+msgid "``[i]`` ``[/i]``"
+msgstr "``[i]`` ``[/i]``"
 
 msgid "Italic"
 msgstr "Курсив"
 
+msgid "``Returns the [i]global[/i] position.``"
+msgstr "``Повертає [i]глобальну[/i] позицію.``"
+
+msgid "Returns the *global* position."
+msgstr "Повертає *глобальну* позицію."
+
+msgid "``[u]`` ``[/u]``"
+msgstr "``[u]`` ``[/u]``"
+
+msgid "Underline"
+msgstr "Підкреслити"
+
+msgid "``[u]Always[/u] use this method.``"
+msgstr "``[u]Завжди[/u] використовуйте цей метод.``"
+
+msgid "``[s]`` ``[/s]``"
+msgstr "``[s]`` ``[/s]``"
+
+msgid "Strikethrough"
+msgstr "Закреслення"
+
+msgid "``[s]Outdated information.[/s]``"
+msgstr "``[s]Застаріла інформація.[/s]``"
+
+msgid "``[color]`` ``[/color]``"
+msgstr "``[color]`` ``[/color]``"
+
 msgid "Color"
 msgstr "Колір"
+
+msgid "``[color=red]Error![/color]``"
+msgstr "``[color=red]Помилка![/color]``"
+
+msgid "``[font]`` ``[/font]``"
+msgstr "``[font]`` ``[/font]``"
+
+msgid "Font"
+msgstr "Шрифт"
+
+msgid "``[font=res://mono.ttf]LICENSE[/font]``"
+msgstr "``[font=res://mono.ttf]ЛІЦЕНЗІЯ[/font]``"
+
+msgid "``[img]`` ``[/img]``"
+msgstr "``[img]`` ``[/img]``"
+
+msgid "Image"
+msgstr "Зображення"
+
+msgid "``[img width=32]res://icon.svg[/img]``"
+msgstr "``[img width=32]res://icon.svg[/img]``"
+
+msgid "``[url]`` ``[/url]``"
+msgstr "``[url]`` ``[/url]``"
+
+msgid "Hyperlink"
+msgstr "Гіперболічний синус"
+
+msgid "``[url]https://example.com[/url]``"
+msgstr "``[url]https://example.com[/url]``"
+
+msgid "``[url=https://example.com]Website[/url]``"
+msgstr "``[url=https://example.com]Website[/url]``"
+
+msgid "https://example.com"
+msgstr "https://example.com"
+
+msgid "`Website <https://example.com>`_"
+msgstr "`Website <https://example.com>`_"
+
+msgid "``[center]`` ``[/center]``"
+msgstr "``[center]`` ``[/center]``"
+
+msgid "Horizontal centering"
+msgstr "Горизонтальне центрування"
+
+msgid "``[center]2 + 2 = 4[/center]``"
+msgstr "``[center]2 + 2 = 4[/center]``"
 
 msgid "``[kbd]`` ``[/kbd]``"
 msgstr "``[kbd]`` ``[/kbd]``"
 
+msgid "Keyboard/mouse shortcut"
+msgstr "Комбінація клавіш/миші"
+
+msgid "``Press [kbd]Ctrl + C[/kbd].``"
+msgstr "``Натисніть [kbd]Ctrl + C[/kbd].``"
+
+msgid "Press :kbd:`Ctrl + C`."
+msgstr "Натисніть :kbd:`Ctrl + C`."
+
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
+
+msgid "Inline code fragment"
+msgstr "Вбудований фрагмент коду"
+
+msgid "``Returns [code]true[/code].``"
+msgstr "``Повертає [code]true[/code].``"
+
+msgid "Returns ``true``."
+msgstr "Повертає ``true``."
+
+msgid "``[codeblock]``"
+msgstr "``[codeblock]``"
+
+msgid "``[/codeblock]``"
+msgstr "``[/codeblock]``"
+
+msgid "Multiline code block"
+msgstr "Багаторядковий кодовий блок"
 
 msgid "*See below.*"
 msgstr "*Див. нижче.*"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "Currently only :ref:`class_@GDScript` has annotations."
+msgstr "Наразі лише :ref:`class_@GDScript` має анотації."
+
+msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
+msgstr "``[kbd]`` вимикає BBCode, поки аналізатор не зустріне ``[/kbd]``."
+
+msgid "``[code]`` disables BBCode until the parser encounters ``[/code]``."
+msgstr "``[code]`` вимикає BBCode, доки аналізатор не зустріне ``[/code]``."
+
+msgid ""
+"``[codeblock]`` disables BBCode until the parser encounters ``[/codeblock]``."
+msgstr ""
+"``[codeblock]`` вимикає BBCode, доки аналізатор не зустріне ``[/codeblock]``."
+
+msgid ""
+"Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, "
+"always use **four spaces** for indentation (the parser will delete tabs)."
+msgstr ""
+"Використовуйте ``[codeblock]`` для попередньо відформатованих блоків коду. "
+"Усередині ``[codeblock]`` завжди використовуйте **чотири пробіли** для "
+"відступу (аналізатор видалить вкладки)."
+
+msgid ""
+"By default, ``[codeblock]`` highlights GDScript syntax. You can change it "
+"using the ``lang`` attribute. Currently supported options are:"
+msgstr ""
+"За замовчуванням ``[codeblock]`` підсвічує синтаксис GDScript. Ви можете "
+"змінити його за допомогою атрибута ``lang``. Наразі підтримуються такі "
+"варіанти:"
+
+msgid "``[codeblock lang=text]`` disables syntax highlighting;"
+msgstr "``[codeblock lang=text]`` вимикає підсвічування синтаксису;"
+
+msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
+msgstr "``[codeblock lang=gdscript]`` підсвічує синтаксис GDScript;"
+
+msgid ""
+"``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
+msgstr ""
+"``[codeblock lang=csharp]`` підсвічує синтаксис C# (лише у версії .NET)."

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -18,13 +18,13 @@ msgid "Versions"
 msgstr "Versiones"
 
 msgid "On Read the Docs"
-msgstr "En Leer la Documentación"
+msgstr "Sobre Leer los documentos"
 
 msgid "Project Home"
 msgstr "Página del Proyecto"
 
 msgid "Builds"
-msgstr "Generados"
+msgstr "Estructura"
 
 msgid "Downloads"
 msgstr "Descargas"

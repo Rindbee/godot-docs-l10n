@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,6 +11,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Recording game trailers for promotional use."
+msgstr ""
+"Enregistrer des bandes-annonces de jeu pour une utilisation promotionnelle."
+
 msgid ""
 "Movie Maker can also be enabled from the :ref:`command line "
 "<doc_command_line_tutorial>`:"
@@ -18,8 +22,14 @@ msgstr ""
 "Movie Maker peut également être activé à partir de la :ref:`ligne de "
 "commande <doc_command_line_tutorial>` :"
 
+msgid "AVI (recommended)"
+msgstr "AVI (recommandé)"
+
 msgid "PNG"
 msgstr "PNG"
+
+msgid "Custom"
+msgstr "Personnalisé"
 
 msgid "Configuration"
 msgstr "Configuration"
@@ -30,8 +40,8 @@ msgstr "Voir aussi :ref:`doc_creating_movies_recording_at_higher_resolution`."
 msgid "Using high-quality graphics settings"
 msgstr "Utilisation des préférences graphiques de haute qualité"
 
+msgid "Post-processing steps"
+msgstr "Étapes de post-traitement"
+
 msgid "Cutting video"
 msgstr "Montage vidéo"
-
-msgid "Translation status"
-msgstr "État de la traduction"

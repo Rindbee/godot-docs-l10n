@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -80,9 +80,6 @@ msgstr "Beschreibung"
 
 msgid "in float **TIME**"
 msgstr "in float **TIME**"
-
-msgid "Global time, in seconds."
-msgstr "Globale Zeit in Sekunden."
 
 msgid "in float **PI**"
 msgstr "in float **PI**"
@@ -204,6 +201,3 @@ msgstr ""
 "Ausgabe -Emissionsfarbwert, der während des Lichtdurchlaufs zur Farbe "
 "addiert wird, um die endgültige Farbe zu erzeugen. Wird nur in das "
 "Nebelvolumen geschrieben, wenn es verwendet wird."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

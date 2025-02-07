@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -34,6 +34,3 @@ msgstr ""
 "**pas** généré à partir d'une définition de la grammaire. Les incohérences "
 "ici signifient probablement une erreur dans cette grammaire, pas un bogue "
 "dans GDScript."
-
-msgid "Translation status"
-msgstr "État de la traduction"

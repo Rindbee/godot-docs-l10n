@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -130,6 +130,16 @@ msgstr "1"
 msgid "Pulse"
 msgstr "Pulso"
 
+msgid ""
+"Pulse creates an animated pulsing effect that multiplies each character's "
+"opacity and color. It can be used to bring attention to specific text. Its "
+"tag format is ``[pulse freq=1.0 color=#ffffff40 ease=-2.0]{text}[/pulse]``."
+msgstr ""
+"Pulse cria um efeito de pulsação animada que multiplica a opacidade e a cor "
+"de cada caractere. Pode ser usado para chamar a atenção para um texto "
+"específico. Seu formato de tag é ``[pulse freq=1.0 color=#ffffff40 ease=-2.0]"
+"{text}[/pulse]``."
+
 msgid "Wave"
 msgstr "Onda"
 
@@ -163,6 +173,3 @@ msgstr "Matriz"
 msgid "This will add a few new BBCode commands, which can be used like so:"
 msgstr ""
 "Isso adicionará alguns novos comandos BBCode, que podem ser usados assim:"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

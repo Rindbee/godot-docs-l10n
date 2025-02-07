@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -355,17 +355,26 @@ msgstr ""
 msgid "Naming conventions"
 msgstr "Namenskonventionen"
 
-msgid ""
-"These naming conventions follow the Godot Engine style. Breaking these will "
-"make your code clash with the built-in naming conventions, leading to "
-"inconsistent code."
-msgstr ""
-"Diese Namenskonventionen folgen dem Godot Engine-Stil. Bei Nichtbeachtung "
-"würde Ihr Code mit den Built-in-Namenskonventionen kollidieren, was zu "
-"inkonsistentem Code führt."
+msgid "Type"
+msgstr "Typ"
+
+msgid "Example"
+msgstr "Beispiel"
 
 msgid "File names"
 msgstr "Dateinamen"
+
+msgid "Functions"
+msgstr "Funktionen"
+
+msgid "Variables"
+msgstr "Variablen"
+
+msgid "Signals"
+msgstr "Signale"
+
+msgid "Constants"
+msgstr "Konstanten"
 
 msgid ""
 "Use snake_case for file names. For named classes, convert the PascalCase "
@@ -409,9 +418,6 @@ msgstr ""
 "Funktionen, die der Benutzer überschreiben muss, privaten Funktionen und "
 "privaten Variablen:"
 
-msgid "Signals"
-msgstr "Signale"
-
 msgid "Use the past tense to name signals:"
 msgstr "Verwenden Sie die Vergangenheitsform, um Signale zu benennen:"
 
@@ -432,26 +438,8 @@ msgstr ""
 "Verwenden Sie PascalCase für Enum-*Namen* und CONSTANT\\_CASE für deren "
 "Member, da sie Konstanten sind:"
 
-msgid ""
-"Write enums with each item on its own line. This allows adding documentation "
-"comments abve each item more easily, and also makes for cleaner diffs in "
-"version control when items are added or removed."
-msgstr ""
-"Schreiben Sie Enums mit jedem Element in einer eigenen Zeile. Dies "
-"vereinfacht das Hinzufügen von Dokumentationskommentaren über jedem Element, "
-"und sorgt auch für sauberere Unterschiede in der Versionsverwaltung, wenn "
-"Elemente hinzugefügt oder entfernt werden."
-
 msgid "Code order"
 msgstr "Code-Reihenfolge"
-
-msgid ""
-"This first section focuses on code order. For formatting, see :ref:"
-"`formatting`. For naming conventions, see :ref:`naming_conventions`."
-msgstr ""
-"Dieser erste Abschnitt geht auf die Reihenfolge der Befehle im Code ein. Für "
-"Formatierung, siehe :ref:`formatting`. Für Namenskonventionen, siehe :ref:"
-"`naming_conventions`."
 
 msgid "We suggest to organize GDScript code this way:"
 msgstr "Wir empfehlen, GDScript-Code auf folgende Art zu organisieren:"
@@ -544,6 +532,17 @@ msgstr ""
 "Schreiben Sie dann Konstanten, exportierte Variablen, öffentliche, private "
 "und onready-Variablen in dieser Reihenfolge."
 
+msgid ""
+"GDScript evaluates ``@onready`` variables right before the ``_ready`` "
+"callback. You can use that to cache node dependencies, that is to say, to "
+"get child nodes in the scene that your class relies on. This is what the "
+"example above shows."
+msgstr ""
+"GDScript wertet ``@onready``-Variablen direkt vor dem ``_ready``-Callback "
+"aus. Sie können dies verwenden, um Knotenabhängigkeiten zwischenzuspeichern, "
+"das heißt, um untergeordnete Knoten in der Szene abzurufen, auf die sich "
+"Ihre Klasse stützt. Dies zeigt das obige Beispiel."
+
 msgid "Member variables"
 msgstr "Membervariablen"
 
@@ -610,13 +609,6 @@ msgstr ""
 msgid "Static typing"
 msgstr "Statische Typisierung"
 
-msgid ""
-"Since Godot 3.1, GDScript supports :ref:`optional static "
-"typing<doc_gdscript_static_typing>`."
-msgstr ""
-"Seit Godot 3.1 unterstützt GDScript :ref:`optionale statische Typisierung "
-"<doc_gdscript_static_typing>`."
-
 msgid "Declared types"
 msgstr "Deklarierte Typen"
 
@@ -676,6 +668,3 @@ msgid ""
 msgstr ""
 "Diese Option wird auch als mehr :ref:`type-"
 "safe<doc_gdscript_static_typing_safe_lines>` angesehen als die erste."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

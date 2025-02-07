@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -100,6 +100,23 @@ msgstr ""
 "appelé \"Main\" et nous l'enregistrerons sous le nom de ``main.tscn``. Nous "
 "y reviendrons plus tard."
 
+msgid ""
+"In the ``src`` folder, we'll start with creating our header file for the "
+"GDExtension node we'll be creating. We will name it ``gdexample.h``:"
+msgstr ""
+"Dans le dossier ``src``, nous commencerons par créer notre fichier d'en-tête "
+"pour le nœud GDExtension que nous allons créer. Nous le nommerons "
+"``gdexample.h`` :"
+
+msgid ""
+"There are a few things of note to the above. We include ``sprite2d.hpp`` "
+"which contains bindings to the Sprite2D class. We'll be extending this class "
+"in our module."
+msgstr ""
+"Il y a quelques éléments à noter dans ce qui précède. Nous incluons "
+"``sprite2d.hpp`` qui contient tous les liens à la classe Sprite2D. Nous "
+"allons étendre cette classe dans notre module."
+
 msgid "After that, we declare a single member variable called ``time_passed``."
 msgstr ""
 "Après cela, nous déclarons une unique variable membre appelée "
@@ -135,6 +152,13 @@ msgstr "Nous sommes prêts à lancer le projet :"
 
 msgid "Adding properties"
 msgstr "Ajouter des propriétés"
+
+msgid ""
+"In our ``gdexample.h`` file we need to add a member variable and getter and "
+"setter functions:"
+msgstr ""
+"Dans notre fichier ``gdexample.h``, il faut ajouter une variable membre et "
+"des fonctions getter et setter :"
 
 msgid ""
 "In our ``gdexample.cpp`` file we need to make a number of changes, we will "
@@ -224,6 +248,3 @@ msgstr "Chaque seconde, on envoie notre position à la console."
 
 msgid "Next steps"
 msgstr "La suite"
-
-msgid "Translation status"
-msgstr "État de la traduction"

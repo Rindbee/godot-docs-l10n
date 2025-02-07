@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -94,6 +94,3 @@ msgstr ":ref:`Shadery položek plátna <doc_canvas_item_shader>`"
 
 msgid ":ref:`Particle shaders <doc_particle_shader>`"
 msgstr ":ref:`shadery částic <doc_particle_shader>`"
-
-msgid "Translation status"
-msgstr "Stav překladu"

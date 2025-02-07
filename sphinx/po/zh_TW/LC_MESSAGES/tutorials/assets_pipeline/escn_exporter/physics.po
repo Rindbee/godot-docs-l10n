@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -97,6 +97,3 @@ msgid ""
 msgstr ""
 "這個設定也會影響物件如何在 Blender 視接口中顯示。大多數時候，在處理模型是我們"
 "會需要將碰撞幾何都會顯示為半透明的，所以這樣設定也沒什麼問題。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

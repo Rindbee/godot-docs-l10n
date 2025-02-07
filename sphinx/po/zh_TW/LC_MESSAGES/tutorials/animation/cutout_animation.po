@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -585,6 +585,3 @@ msgstr ""
 msgid ""
 "This process is described in a :ref:`separate tutorial <doc_2d_skeletons>`."
 msgstr "這個過程在:ref:`單獨的教學 <doc_2d_skeletons>`中講述。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

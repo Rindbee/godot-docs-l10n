@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -746,6 +746,3 @@ msgid ""
 msgstr ""
 "如果您適合合併拉取請求（即您是生產團隊的成員或您是該領域的團隊領導），那麼您"
 "確信該拉取請求已得到充分審查，並且一旦執行了這些步驟您可以繼續合併拉取請求。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

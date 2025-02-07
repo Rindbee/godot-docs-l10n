@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -82,8 +82,8 @@ msgstr ""
 msgid "Resources and nodes can be exported."
 msgstr "Ressourcen und Nodes können exportiert werden."
 
-msgid "Grouping Exports"
-msgstr "Gruppierung von Exporten"
+msgid "Grouping exports"
+msgstr "Gruppieren der Exporte"
 
 msgid ""
 "It is possible to group your exported properties inside the Inspector with "
@@ -182,19 +182,8 @@ msgstr ""
 "Erlauben von Floats zwischen -10 und 20 und Einrasten des Wertes auf "
 "Vielfache von 0.2."
 
-msgid ""
-"The limits can be only for the slider if you add the hints \"or_greater\" "
-"and/or \"or_less\"."
-msgstr ""
-"Die Grenzen können nur für den Schieberegler gelten, wenn Sie die Hinweise "
-"\"or_greater\" und/oder \"or_less\" hinzufügen."
-
 msgid "Floats with easing hint"
 msgstr "Floats mit Easing-Hint"
-
-msgid "Display a visual representation of the 'ease()' function when editing."
-msgstr ""
-"Zeigt eine visuelle Darstellung der Funktion 'ease()' bei der Bearbeitung an."
 
 msgid "Colors"
 msgstr "Farben"
@@ -509,6 +498,3 @@ msgid ""
 msgstr ""
 "Das Skript muss im ``@tool`` -Modus arbeiten, damit die oben genannten "
 "Methoden im Editor ausgeführt werden können."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

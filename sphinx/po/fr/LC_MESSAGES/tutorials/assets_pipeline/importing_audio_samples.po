@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -74,6 +74,13 @@ msgstr "Ogg Vorbis 96 Kb/s, stéréo"
 msgid "12 KB"
 msgstr "12 Ko"
 
+msgid ""
+"Import options in the Import dock after selecting an MP3 file in the "
+"FileSystem dock"
+msgstr ""
+"Options d'importation dans le dock Importer après avoir sélectionné un "
+"fichier MP3 dans le dock Système de fichier"
+
 msgid "Force > 8 Bit"
 msgstr "Force > 8 Bit"
 
@@ -86,6 +93,9 @@ msgstr "Force > Taux maximum"
 msgid "Import options (Ogg Vorbis and MP3)"
 msgstr "Options d'importation (Ogg Vorbis et MP3)"
 
+msgid "Loop"
+msgstr "Boucle"
+
 msgid "Loop Offset"
 msgstr "Décalage de boucle"
 
@@ -94,6 +104,13 @@ msgstr "BPM"
 
 msgid "Beat Count"
 msgstr "Quantité de battements"
+
+msgid ""
+"Advanced dialog when double-clicking an Ogg Vorbis or MP3 file in the "
+"FileSystem dock"
+msgstr ""
+"Boîte de dialogue avancée lorsque vous double-cliquez sur un fichier Ogg "
+"Vorbis ou MP3 dans le dock Système de fichiers"
 
 msgid "Best practices"
 msgstr "Les meilleures pratiques"
@@ -107,6 +124,3 @@ msgstr ""
 "intégrés. Cela évite aux artistes SFX d'avoir à ajouter de la réverbération "
 "aux effets sonores, ce qui réduit considérablement leur taille et assure un "
 "réglage correct."
-
-msgid "Translation status"
-msgstr "État de la traduction"

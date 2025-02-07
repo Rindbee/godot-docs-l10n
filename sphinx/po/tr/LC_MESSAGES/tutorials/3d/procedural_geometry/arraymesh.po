@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,11 +20,17 @@ msgstr "Dizi tipleri"
 msgid "1"
 msgstr "1"
 
+msgid ":ref:`PackedVector3Array <class_PackedVector3Array>`"
+msgstr ":ref:`PackedVector3Array <class_PackedVector3Array>`"
+
 msgid "2"
 msgstr "2"
 
 msgid "3"
 msgstr "3"
+
+msgid ":ref:`PackedColorArray <class_PackedColorArray>`"
+msgstr ":ref:`PackedColorArray <class_PackedColorArray>`"
 
 msgid "4"
 msgstr "4"
@@ -35,5 +41,8 @@ msgstr "5"
 msgid "10"
 msgstr "10"
 
-msgid "Translation status"
-msgstr "Çeviri durumu"
+msgid ":ref:`PackedInt32Array <class_PackedInt32Array>`"
+msgstr ":ref:`PackedInt32Array <class_PackedInt32Array>`"
+
+msgid "Setting up the ArrayMesh"
+msgstr "ArrayMesh kurulumu"

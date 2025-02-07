@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,18 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "How to balance decal configuration between performance and quality."
+msgstr ""
+"Comment équilibrer la configuration des décalques entre performance et "
+"qualité."
+
+msgid ""
+"If you're looking to write arbitrary 3D text on top of a surface, use :ref:"
+"`doc_3d_text` placed close to a surface instead of a Decal node."
+msgstr ""
+"Si vous cherchez à écrire un texte 3D arbitraire sur une surface, utilisez :"
+"ref:`doc_3d_text` placé près d'une surface au lieu d'un nœud Decal."
 
 msgid "Use cases"
 msgstr "Cas d'utilisations"
@@ -20,11 +32,24 @@ msgstr "Éléments de gameplay dynamique"
 msgid "Quick start guide"
 msgstr "Guide de démarrage rapide"
 
+msgid "Textures"
+msgstr "Textures"
+
+msgid ""
+"**Emission:** The emission texture to use for the decal. Unlike **Albedo**, "
+"this texture will appear to glow in the dark."
+msgstr ""
+"**Émission :** La texture des émissions à utiliser pour le décalque. "
+"Contrairement à **Albedo**, cette texture va sembler briller dans le noir."
+
 msgid "Parameters"
 msgstr "Paramètres"
 
+msgid "**Emission Energy:** The brightness of the emission texture."
+msgstr "**Énergie d'émission :** La luminosité de la texture d'émission."
+
+msgid "Decal rendering order"
+msgstr "Ordre de rendu des calques"
+
 msgid "Limitations"
 msgstr "Limites"
-
-msgid "Translation status"
-msgstr "État de la traduction"

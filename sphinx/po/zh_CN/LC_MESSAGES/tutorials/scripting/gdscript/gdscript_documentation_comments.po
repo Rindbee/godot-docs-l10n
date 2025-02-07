@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,7 +47,7 @@ msgid "Detailed description."
 msgstr "脚本类详细描述。"
 
 msgid "Tutorials and deprecated/experimental marks."
-msgstr "教程与特殊标记——废弃标记/实验性标记。"
+msgstr "教程与特殊标记——弃用标记/实验性标记。"
 
 msgid ""
 "To separate these from each other, the documentation comments use special "
@@ -106,8 +106,8 @@ msgid ""
 "If there is any space in between the tag name and colon, for example "
 "``@tutorial  :``, it won't be treated as a valid tag and will be ignored."
 msgstr ""
-"若标记名和冒号中间存在空格，如 ``@tutorial  :``，则不会将该标记视为有效标记，"
-"该无效标记将会被引擎忽略。"
+"若标记名和冒号中间存在空格，如 ``@tutorial  :``\\ ，则不会将该标记视为有效标"
+"记，该无效标记将会被引擎忽略。"
 
 msgid ""
 "When the description spans multiple lines, the preceding and trailing white "
@@ -116,7 +116,7 @@ msgid ""
 msgstr ""
 "文档注释若描述超过一行，则改行文档注释文本的末尾空格与下一行文档注释文本的开"
 "头空格将会在显示时自动缩合成一个空格，且不会换行。若必须换行，请使用换行符 "
-"``[br]`` 。也可见下方的 `BBCode and class reference`_ 。"
+"``[br]``\\ 。也可见下方的 `BBCode and class reference`_ 。"
 
 msgid "Documenting script members"
 msgstr "为脚本类成员编写文档"
@@ -124,26 +124,26 @@ msgstr "为脚本类成员编写文档"
 msgid "Members that are applicable for documentation:"
 msgstr "脚本类成员也可以使用文档注释来生成对应文档说明："
 
-msgid "Inner class"
-msgstr "内部类"
-
-msgid "Constant"
-msgstr "常量"
-
-msgid "Function"
-msgstr "函数"
-
 msgid "Signal"
 msgstr "信号"
-
-msgid "Variable"
-msgstr "变量"
 
 msgid "Enum"
 msgstr "枚举"
 
 msgid "Enum value"
 msgstr "枚举值"
+
+msgid "Constant"
+msgstr "常量"
+
+msgid "Variable"
+msgstr "变量"
+
+msgid "Function"
+msgstr "函数"
+
+msgid "Inner class"
+msgstr "内部类"
 
 msgid ""
 "Documentation of a script member must immediately precede the member or its "
@@ -165,7 +165,7 @@ msgid "``@experimental: This method is incomplete.``"
 msgstr "``@experimental: 该方法尚未完善。``"
 
 msgid "Alternatively, you can use inline documentation comments::"
-msgstr "或者你也可以手动调用 sphinx-build 程序来构建文档：::"
+msgstr "或者你也可以使用内联的文档注释： ::"
 
 msgid ""
 "The script documentation will update in the editor help window every time "
@@ -190,16 +190,16 @@ msgid ""
 "is not recommended. This can be especially useful for plugin and library "
 "creators."
 msgstr ""
-"你可以将一个类或其成员标记为已废弃成员或者实验性成员，标记后，引擎就会在文档"
-"查看器里自动添加上对应提示符号。你也可以选择性地提供一条对不再支持该API的原因"
-"解释。这些对插件和代码库的作者而言无疑是一大福音。"
+"你可以将一个类或其成员标记为已弃用成员或者实验性成员，标记后，引擎就会在文档"
+"查看器里自动添加上对应提示符号。你也可以选择性地提供一条对不再支持该 API 的原"
+"因解释。这些对插件和代码库的作者而言无疑是一大福音。"
 
 msgid ""
 "**Deprecated** marks a non-recommended API that is subject to removal or "
 "incompatible change in a future major release. Usually the API is kept for "
 "backwards compatibility."
 msgstr ""
-"**已废弃** 标记不推荐的 API，该 API 可能会在未来的主要版本中移除或进行不兼容"
+"**已弃用** 标记不推荐的 API，该 API 可能会在未来的主要版本中移除或进行不兼容"
 "的更改。保留 API 通常是为了向后兼容。"
 
 msgid ""
@@ -228,9 +228,10 @@ msgid ""
 "slightly different from the ``RichTextLabel`` :ref:`BBCode "
 "<doc_bbcode_in_richtextlabel>`."
 msgstr ""
-"Godot 的类参考支持类似 BBCode 的标签。这些标签用在文档中时可以让文本格式更加"
-"美观。另见\\ :ref:`类参考 BBCode <doc_class_reference_bbcode>`\\ 。注意：与 "
-"``RichTextLabel`` 的 :ref:`BBCode <doc_bbcode_in_richtextlabel>`会稍有不同。"
+"Godot 的类参考支持类似 BBCode 的标签。它们为文本添加了漂亮的格式，也可用于文"
+"档中。另请参阅\\ :ref:`类参考 bbcode <doc_class_reference_bbcode>`。请注意，"
+"这与 ``RichTextLabel`` 的 :ref:`BBCode <doc_bbcode_in_richtextlabel>` 略有不"
+"同。"
 
 msgid ""
 "Whenever you link to a member of another class, you need to specify the "
@@ -274,7 +275,7 @@ msgid "``See [annotation @GDScript.@rpc].``"
 msgstr "``见 [annotation @GDScript.@rpc].``"
 
 msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
-msgstr "见 :ref:`@GDScript.@export <class_@GDScript_annotation_@rpc>`。"
+msgstr "见 :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`\\ 。"
 
 msgid "``[constant Class.name]``"
 msgstr "``[constant Class.name]``"
@@ -286,7 +287,7 @@ msgid "``See [constant Color.RED].``"
 msgstr "``见 [constant Color.RED]。``"
 
 msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
-msgstr "见 :ref:`Color.RED <class_Color_constant_RED>`。"
+msgstr "见 :ref:`Color.RED <class_Color_constant_RED>`\\ 。"
 
 msgid "``[enum Class.name]``"
 msgstr "``[enum Class.name]``"
@@ -298,7 +299,7 @@ msgid "``See [enum Mesh.ArrayType].``"
 msgstr "``见 [enum Mesh.ArrayType]。``"
 
 msgid "See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
-msgstr "见 :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`。"
+msgstr "见 :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`\\ 。"
 
 msgid "``[member Class.name]``"
 msgstr "``[member Class.name]``"
@@ -322,7 +323,7 @@ msgid "``Call [method Node3D.hide].``"
 msgstr "``调用 [method Node3D.hide].``"
 
 msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
-msgstr "调用 :ref:`Node3D.hide() <class_Node3D_method_hide>`。"
+msgstr "调用 :ref:`Node3D.hide() <class_Node3D_method_hide>`\\ 。"
 
 msgid "``[constructor Class.name]``"
 msgstr "``[constructor Class.name]``"
@@ -334,7 +335,7 @@ msgid "``Use [constructor Color.Color].``"
 msgstr "``使用 [constructor Color.Color].``"
 
 msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
-msgstr "使用  :ref:`Color.Color <class_Color_constructor_Color>`。"
+msgstr "使用  :ref:`Color.Color <class_Color_constructor_Color>`\\ 。"
 
 msgid "``[operator Class.name]``"
 msgstr "``[operator Class.name]``"
@@ -346,7 +347,7 @@ msgid "``Use [operator Color.operator *].``"
 msgstr "``使用 [operator Color.operator *].``"
 
 msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
-msgstr "使用  :ref:`Color.operator * <class_Color_operator_mul_int>`。"
+msgstr "使用  :ref:`Color.operator * <class_Color_operator_mul_int>`\\ 。"
 
 msgid "``[signal Class.name]``"
 msgstr "``[signal Class.name]``"
@@ -358,7 +359,7 @@ msgid "``Emit [signal Node.renamed].``"
 msgstr "``发送 [signal Node.renamed]。``"
 
 msgid "Emit :ref:`Node.renamed <class_Node_signal_renamed>`."
-msgstr "发送 :ref:`Node.renamed <class_Node_signal_renamed>`。"
+msgstr "发出 :ref:`Node.renamed <class_Node_signal_renamed>`\\ 。"
 
 msgid "``[theme_item Class.name]``"
 msgstr "``[theme_item Class.name]``"
@@ -370,7 +371,7 @@ msgid "``See [theme_item Label.font].``"
 msgstr "``见 [theme_item Label.font]。``"
 
 msgid "See :ref:`Label.font <class_Label_theme_font_font>`."
-msgstr "见 :ref:`Label.font <class_Label_theme_font_font>`。"
+msgstr "见 :ref:`Label.font <class_Label_theme_font_font>`\\ 。"
 
 msgid "``[param name]``"
 msgstr "``[param name]``"
@@ -391,16 +392,16 @@ msgid "Line break"
 msgstr "换行"
 
 msgid "``Line 1.[br]``"
-msgstr "``行 1。[br]``"
+msgstr "``第 1 行。[br]``"
 
 msgid "``Line 2.``"
-msgstr "``行 2。``"
+msgstr "``第 2 行。``"
 
 msgid "Line 1."
-msgstr "行 1。"
+msgstr "第 1 行。"
 
 msgid "Line 2."
-msgstr "行 2。"
+msgstr "第 2 行。"
 
 msgid "``[lb]`` ``[rb]``"
 msgstr "``[lb]`` ``[rb]``"
@@ -421,10 +422,10 @@ msgid "Bold"
 msgstr "粗体"
 
 msgid "``Do [b]not[/b] call this method.``"
-msgstr "`` [b]请勿[/b] 调用该方法``"
+msgstr "``[b]请勿[/b]调用该方法。``"
 
 msgid "Do **not** call this method."
-msgstr "**请勿**\\调用该方法。"
+msgstr "**请勿**\\ 调用该方法。"
 
 msgid "``[i]`` ``[/i]``"
 msgstr "``[i]`` ``[/i]``"
@@ -433,10 +434,10 @@ msgid "Italic"
 msgstr "斜体"
 
 msgid "``Returns the [i]global[/i] position.``"
-msgstr "``返回 [i]全局[/i] 位置。``"
+msgstr "``返回[i]全局[/i]位置。``"
 
 msgid "Returns the *global* position."
-msgstr "返回 *全局*\\位置。"
+msgstr "返回\\ *全局*\\ 位置。"
 
 msgid "``[u]`` ``[/u]``"
 msgstr "``[u]`` ``[/u]``"
@@ -445,7 +446,7 @@ msgid "Underline"
 msgstr "下划线"
 
 msgid "``[u]Always[/u] use this method.``"
-msgstr "``[u]始终[/u] 调用该方法。``"
+msgstr "``[u]始终[/u]调用该方法。``"
 
 msgid "``[s]`` ``[/s]``"
 msgstr "``[s]`` ``[/s]``"
@@ -469,7 +470,7 @@ msgid "``[font]`` ``[/font]``"
 msgstr "``[font]`` ``[/font]``"
 
 msgid "Font"
-msgstr "使用指定字体行文"
+msgstr "字体"
 
 msgid "``[font=res://mono.ttf]LICENSE[/font]``"
 msgstr "``[font=res://mono.ttf]LICENSE[/font]``"
@@ -520,7 +521,7 @@ msgid "``Press [kbd]Ctrl + C[/kbd].``"
 msgstr "``按下 [kbd]Ctrl + C[/kbd] 组合键。``"
 
 msgid "Press :kbd:`Ctrl + C`."
-msgstr "按下 :kbd:`Ctrl + C`组合键。"
+msgstr "按下 :kbd:`Ctrl + C` 组合键。"
 
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
@@ -532,7 +533,7 @@ msgid "``Returns [code]true[/code].``"
 msgstr "``返回[code]true[/code]。``"
 
 msgid "Returns ``true``."
-msgstr "返回 ``true`` 。"
+msgstr "返回 ``true``\\ 。"
 
 msgid "``[codeblock]``"
 msgstr "``[codeblock]``"
@@ -582,6 +583,3 @@ msgstr "``[codeblock lang=gdscript]`` 高亮 GDScript 语法;"
 msgid ""
 "``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
 msgstr "``[codeblock lang=csharp]`` 高亮 C# 语法（仅.NET版本有效）。"
-
-msgid "Translation status"
-msgstr "翻译状态"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -209,15 +209,6 @@ msgstr ""
 "Blender 內建 COLLADA 支援，但用起來不是很適合遊戲引擎，所以也不建議直接拿來"
 "用。"
 
-msgid ""
-"For complex scenes or scenes that contain animations, Godot provides a "
-"`Blender plugin <https://github.com/godotengine/collada-exporter>`_ that "
-"will correctly export COLLADA scenes for use in Godot."
-msgstr ""
-"Godot 有提供一個 `Blender 外掛 <https://github.com/godotengine/collada-"
-"exporter>`_ ，會自動校正匯出給 Godot 用的 COLLADA 場景。目前不支援 Blender "
-"2.8 與之後的版本，但未來有計劃要更新。"
-
 msgid "Importing OBJ files in Godot"
 msgstr "於 Godot 3.0+ 匯入素材"
 
@@ -274,6 +265,3 @@ msgid ""
 msgstr ""
 "如果您將 .fbx 檔案保留在專案資料夾中，但不希望 Godot 匯入它們，請在進階專案設"
 "定中停用 **檔案系統 > 匯入 > FBX > 啟用**。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

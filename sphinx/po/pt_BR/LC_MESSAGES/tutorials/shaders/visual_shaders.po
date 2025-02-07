@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -30,9 +30,6 @@ msgstr "Usando o Editor Visual de Shader"
 msgid "This popup has the following properties:"
 msgstr "Este pop-up tem as seguintes propriedades:"
 
-msgid "boolean"
-msgstr "booleano"
-
 msgid "Type"
 msgstr "Tipo"
 
@@ -47,6 +44,9 @@ msgstr "Exemplo"
 
 msgid "Vector"
 msgstr "Vetor"
+
+msgid "boolean"
+msgstr "booleano"
 
 msgid "Transform"
 msgstr "Transformar"
@@ -68,6 +68,3 @@ msgstr "Se nó"
 
 msgid "Switch node"
 msgstr "Nó Switch"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

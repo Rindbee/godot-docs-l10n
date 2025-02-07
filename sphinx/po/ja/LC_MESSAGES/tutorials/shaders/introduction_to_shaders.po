@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -216,12 +216,13 @@ msgid ":ref:`particles <doc_particle_shader>` for particle systems."
 msgstr ":ref:`particles <doc_particle_shader>`: パーティクルシステム用。"
 
 msgid ":ref:`sky <doc_sky_shader>` to render :ref:`Skies <class_Sky>`."
-msgstr ":ref:`sky <doc_sky_shader>`: :ref:`Skies <class_Sky>` の描画用。"
+msgstr ":ref:`sky <doc_sky_shader>`: :ref:`Sky(3D背景) <class_Sky>` の描画用。"
 
 msgid ""
 ":ref:`fog <doc_fog_shader>` to render :ref:`FogVolumes <class_FogVolume>`"
 msgstr ""
-":ref:`fog <doc_fog_shader>`: :ref:`FogVolumes <class_FogVolume>`の描画用"
+":ref:`fog <doc_fog_shader>`: :ref:`FogVolumes(ボリューメトリック フォグ) "
+"<class_FogVolume>` の描画用"
 
 msgid "Render modes"
 msgstr "レンダリングモード"
@@ -338,6 +339,3 @@ msgstr ""
 "``light()`` プロセッサは2Dと3Dでは動作が異なります。それぞれの機能の説明につ"
 "いては、各ドキュメント :ref:`CanvasItem シェーダ <doc_canvas_item_shader>` お"
 "よび :ref:`Spatial(空間)シェーダ <doc_spatial_shader>` を参照してください。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

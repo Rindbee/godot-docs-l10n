@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -86,14 +86,3 @@ msgstr ""
 
 msgid "Here is how it looks:"
 msgstr "Así es cómo se ve:"
-
-msgid ""
-"This useful for smoothing camera movement, allies following you (ensuring "
-"they stay within a certain range), and many other common game patterns."
-msgstr ""
-"Esto es útil para suavizar el movimiento de la cámara, para que los aliados "
-"te sigan (asegurándose de que se mantengan dentro de un cierto rango), y "
-"para muchos otros patrones de juego comunes."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

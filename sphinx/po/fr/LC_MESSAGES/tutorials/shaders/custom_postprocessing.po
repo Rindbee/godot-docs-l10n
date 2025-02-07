@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -37,6 +37,14 @@ msgstr ""
 "Pour cette démo, nous utiliserons ce :ref:`Sprite <class_Sprite2D>` d'un "
 "mouton."
 
+msgid ""
+"Copy the following code to your shader. The code below is a hex pixelization "
+"shader by `arlez80 <https://bitbucket.org/arlez80/hex-mosaic/src/master/>`_,"
+msgstr ""
+"Copiez le code suivant dans votre shader. Le code ci-dessous est un shader "
+"de pixellisation hexagonale de `arlez80 <https://bitbucket.org/arlez80/hex-"
+"mosaic/src/master/>`_,"
+
 msgid "Multi-pass post-processing"
 msgstr "Post-traitement multi-passe"
 
@@ -59,6 +67,3 @@ msgid ""
 msgstr ""
 "En utilisant le code ci-dessus, vous devriez vous retrouver avec un effet de "
 "flou plein écran comme ci-dessous."
-
-msgid "Translation status"
-msgstr "État de la traduction"

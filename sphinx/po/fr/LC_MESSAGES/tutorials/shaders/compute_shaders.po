@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,8 +14,14 @@ msgstr ""
 msgid "Let's take a look at this compute shader code:"
 msgstr "Jetons un coup d'œil à ce code de calcul de shader  :"
 
+msgid "These two lines communicate two things:"
+msgstr "Ces deux lignes communiquent deux choses :"
+
 msgid "Provide input data"
 msgstr "Procure des entrées de données"
 
-msgid "Translation status"
-msgstr "État de la traduction"
+msgid "Defining a compute pipeline"
+msgstr "Définir une pipeline de calcul"
+
+msgid "Execute a compute shader"
+msgstr "Exécuter un shader de calcul"

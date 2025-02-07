@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -230,6 +230,16 @@ msgstr ""
 "C#、C++ 編寫遊戲邏輯並不會有顯著的性能區別。"
 
 msgid ""
+"Projects written in C# using Godot 4 currently cannot be exported to the web "
+"platform. To use C# on that platform, consider Godot 3 instead. Android and "
+"iOS platform support is available as of Godot 4.2, but is experimental and :"
+"ref:`some limitations apply <doc_c_sharp_platforms>`."
+msgstr ""
+"使用Godot 4以C#編寫的專案目前無法匯出至Web平台。若要在該平台上使用C#，請考慮"
+"使用Godot 3。從Godot 4.2開始，提供Android與iOS平台的支援，但其仍處於實驗階"
+"段，且 :ref: `存在一些限制<doc_c_sharp_platforms>`。"
+
+msgid ""
 "To learn more about C#, head to the :ref:`C# basics <doc_c_sharp>` page."
 msgstr "更多資訊請參考 :ref:`doc_c_sharp_differences` 一頁。"
 
@@ -286,6 +296,3 @@ msgid ""
 msgstr ""
 "你可以混合語言，例如，用 C 或 C++ 實作高要求的演算法，用 GDScript 或 C# 編寫"
 "大部分的遊戲邏輯。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -49,6 +49,12 @@ msgstr ""
 "ссылаться на приведённую выше страницу (обратите внимание на отсутствие "
 "начального подчёркивания в ссылке)."
 
+msgid "**Good:** Understanding signals in Godot"
+msgstr "**Хорошо:** Understanding signals in Godot"
+
+msgid "**Bad:** Understanding Signals In Godot"
+msgstr "**Плохо:** Understanding Signals In Godot"
+
 msgid "License"
 msgstr "Лицензия"
 
@@ -59,6 +65,3 @@ msgstr ""
 "Внося свой вклад в документацию через GitHub репозиторий, вы соглашаетесь с "
 "тем, что ваши изменения распространяются в соответствии с настоящей "
 "лицензией."
-
-msgid "Translation status"
-msgstr "Статус перевода"

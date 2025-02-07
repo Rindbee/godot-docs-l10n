@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -404,6 +404,3 @@ msgid ""
 msgstr ""
 "궁극적으로 플레이어의 움직임과 시야를 모두 확보했습니다. 다음으로 몬스터에 대"
 "한 작업을 진행하겠습니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,183 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Class reference primer"
+msgstr "Базовий буквар класу"
+
+msgid ""
+"This page explains how to write the class reference. You will learn where to "
+"write new descriptions for the classes, methods, and properties for Godot's "
+"built-in node types."
+msgstr ""
+"На цій сторінці пояснюється, як написати посилання на клас. Ви дізнаєтеся, "
+"де писати нові описи для класів, методів і властивостей для типів вбудованих "
+"вузлів Годо."
+
+msgid ""
+"To learn to submit your changes to the Godot project using the Git version "
+"control system, see :ref:`doc_updating_the_class_reference`."
+msgstr ""
+"Щоб навчитися надсилати свої зміни до проекту Godot за допомогою системи "
+"контролю версій Git, перегляньте :ref:`doc_updating_the_class_reference`."
+
+msgid ""
+"The reference for each class is contained in an XML file like the one below:"
+msgstr ""
+"Посилання на кожен клас міститься у файлі XML, подібному до наведеного нижче:"
+
+msgid ""
+"It starts with brief and long descriptions. In the generated docs, the brief "
+"description is always at the top of the page, while the long description "
+"lies below the list of methods, variables, and constants. You can find "
+"methods, member variables, constants, and signals in separate XML nodes."
+msgstr ""
+"Починається з коротких і довгих описів. У згенерованих документах короткий "
+"опис завжди знаходиться у верхній частині сторінки, тоді як довгий опис "
+"знаходиться під списком методів, змінних і констант. Ви можете знайти "
+"методи, змінні-члени, константи та сигнали в окремих вузлах XML."
+
+msgid ""
+"For each, you want to learn how they work in Godot's source code. Then, fill "
+"their documentation by completing or improving the text in these tags:"
+msgstr ""
+"Для кожного ви хочете дізнатися, як вони працюють у вихідному коді Годо. "
+"Потім заповніть їхню документацію, доповнивши або покращивши текст у цих "
+"тегах:"
+
+msgid "`<brief_description>`"
+msgstr "`<brief_description>`"
+
+msgid "`<description>`"
+msgstr "`<description>`"
+
 msgid "`<constant>`"
 msgstr "`<константа>`"
 
+msgid ""
+"`<method>` (in its `<description>` tag; return types and arguments don't "
+"take separate documentation strings)"
+msgstr ""
+"`<method>` (у його тегу `<description>`; типи повернення та аргументи не "
+"приймають окремих рядків документації)"
+
+msgid "`<member>`"
+msgstr "`<member>`"
+
+msgid ""
+"`<signal>` (in its `<description>` tag; arguments don't take separate "
+"documentation strings)"
+msgstr ""
+"`<signal>` (у його тегу `<description>`; аргументи не приймають окремих "
+"рядків документації)"
+
+msgid ""
+"Write in a clear and simple language. Always follow the :ref:`writing "
+"guidelines <doc_docs_writing_guidelines>` to keep your descriptions short "
+"and easy to read. **Do not leave empty lines** in the descriptions: each "
+"line in the XML file will result in a new paragraph, even if it is empty."
+msgstr ""
+"Пишіть зрозумілою та простою мовою. Завжди дотримуйтеся :ref:`інструкцій з "
+"написання <doc_docs_writing_guidelines>`, щоб ваші описи були короткими та "
+"легкими для читання. **Не залишайте порожніх рядків** в описах: кожен рядок "
+"у файлі XML призведе до нового абзацу, навіть якщо він порожній."
+
 msgid "How to edit class XML"
 msgstr "Як редагувати XML класу"
+
+msgid ""
+"Edit the file for your chosen class in ``doc/classes/`` to update the class "
+"reference. The folder contains an XML file for each class. The XML lists the "
+"constants and methods you will find in the class reference. Godot generates "
+"and updates the XML automatically."
+msgstr ""
+"Відредагуйте файл для вибраного класу в ``doc/classes/``, щоб оновити "
+"посилання на клас. Папка містить файл XML для кожного класу. XML містить "
+"перелік констант і методів, які ви знайдете в довідці про клас. Godot "
+"створює та оновлює XML автоматично."
+
+msgid ""
+"For some modules in the engine's source code, you'll find the XML files in "
+"the ``modules/<module_name>/doc_classes/`` directory instead."
+msgstr ""
+"Для деяких модулів у вихідному коді механізму ви знайдете файли XML у "
+"каталозі ``modules/<module_name>/doc_classes/``."
+
+msgid ""
+"Edit it using your favorite text editor. If you use a code editor, make sure "
+"that it doesn't change the indent style: you should use tabs for the XML and "
+"four spaces inside BBCode-style blocks. More on that below."
+msgstr ""
+"Відредагуйте його за допомогою улюбленого текстового редактора. Якщо ви "
+"використовуєте редактор коду, переконайтеся, що він не змінює стиль "
+"відступу: ви повинні використовувати вкладки для XML і чотири пробіли "
+"всередині блоків у стилі BBCode. Детальніше про це нижче."
+
+msgid ""
+"To check that the modifications you've made are correct in the generated "
+"documentation, navigate to the ``doc/`` folder and run the command ``make "
+"rst``. This will convert the XML files to the online documentation's format "
+"and output errors if anything's wrong."
+msgstr ""
+"Щоб перевірити правильність внесених вами змін у створеній документації, "
+"перейдіть до папки ``doc/`` і виконайте команду ``make rst``. Це перетворить "
+"файли XML у формат онлайнової документації та виведе помилки, якщо щось не "
+"так."
+
+msgid ""
+"Alternatively, you can build Godot and open the modified page in the built-"
+"in code reference. To learn how to compile the engine, read the :ref:"
+"`compilation guide <toc-devel-compiling>`."
+msgstr ""
+"Крім того, ви можете створити Godot і відкрити змінену сторінку у "
+"вбудованому довідковому коді. Щоб дізнатися, як скомпілювати двигун, "
+"прочитайте :ref:`посібник із компіляції <toc-devel-compiling>`."
+
+msgid ""
+"We recommend using a code editor that supports XML files like Vim, Atom, "
+"Visual Studio Code, Notepad++, or another to comfortably edit the file. You "
+"can also use their search feature to find classes and properties quickly."
+msgstr ""
+"Ми рекомендуємо використовувати редактор коду, який підтримує файли XML, "
+"наприклад Vim, Atom, Visual Studio Code, Notepad++ або інший, щоб зручно "
+"редагувати файл. Ви також можете скористатися їх функцією пошуку, щоб швидко "
+"знайти класи та властивості."
+
+msgid ""
+"If you use Visual Studio Code, you can install the `vscode-xml extension "
+"<https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml>`__ "
+"to get linting for class reference XML files."
+msgstr ""
+"Якщо ви використовуєте Visual Studio Code, ви можете встановити розширення "
+"`vscode-xml <https://marketplace.visualstudio.com/items?itemName=redhat."
+"vscode-xml>`__, щоб отримати linting для XML-файлів посилання на клас."
+
+msgid "Improve formatting with BBCode style tags"
+msgstr "Покращуйте форматування за допомогою тегів стилю BBCode"
+
+msgid ""
+"Godot's XML class reference supports BBCode-like tags for linking as well as "
+"formatting text and code. In the tables below you can find the available "
+"tags, usage examples and the results after conversion to reStructuredText."
+msgstr ""
+"Довідник класу XML Godot підтримує теги, подібні до BBCode, для зв’язування, "
+"а також форматування тексту та коду. У таблицях нижче ви можете знайти "
+"доступні теги, приклади використання та результати після перетворення на "
+"reStructuredText."
+
+msgid "Linking"
+msgstr "Посилання"
+
+msgid ""
+"Whenever you link to a member of another class, you need to specify the "
+"class name. For links to the same class, the class name is optional and can "
+"be omitted."
+msgstr ""
+"Щоразу, коли ви посилаєтеся на члена іншого класу, вам потрібно вказати "
+"назву класу. Для посилань на той самий клас ім’я класу є необов’язковим і "
+"його можна опустити."
+
+msgid "Tag and Description"
+msgstr "Тег і опис"
 
 msgid "Example"
 msgstr "Приклад"
@@ -23,32 +195,399 @@ msgstr "Приклад"
 msgid "Result"
 msgstr "Результат"
 
+msgid "``[Class]``"
+msgstr "``[Клас]``"
+
+msgid "Link to class"
+msgstr "Посилання на клас"
+
+msgid "``Move the [Sprite2D].``"
+msgstr "``Перемістити [Sprite2D].``"
+
 msgid "Move the :ref:`class_Sprite2D`."
 msgstr "Перемістити :ref:`class_Sprite2D`."
+
+msgid "``[annotation Class.name]``"
+msgstr "``[анотація Class.name]``"
+
+msgid "Link to annotation"
+msgstr "Посилання на анотацію"
+
+msgid "``See [annotation @GDScript.@rpc].``"
+msgstr "``Див. [анотацію @GDScript.@rpc].``"
+
+msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+msgstr "Перегляньте :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+
+msgid "``[constant Class.name]``"
+msgstr "``[константа Class.name]``"
 
 msgid "Link to constant"
 msgstr "Посилання на константу"
 
+msgid "``See [constant Color.RED].``"
+msgstr "``Див. [constant Color.RED].``"
+
+msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
+msgstr "Перегляньте :ref:`Color.RED <class_Color_constant_RED>`."
+
+msgid "``[enum Class.name]``"
+msgstr "``[enum Class.name]``"
+
+msgid "Link to enum"
+msgstr "Посилання на enum"
+
+msgid "``See [enum Mesh.ArrayType].``"
+msgstr "``Див. [enum Mesh.ArrayType].``"
+
+msgid "See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
+msgstr "Див. :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
+
+msgid "``[member Class.name]``"
+msgstr "``[член Class.name]``"
+
+msgid "Link to member"
+msgstr "Посилання на учасника"
+
+msgid "``Get [member Node2D.scale].``"
+msgstr "``Отримати [член Node2D.scale].``"
+
 msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
-msgstr "Отримати :ref:`Node2D.scale <клас_Node2D_властивості_масштабу>`."
+msgstr "Отримати :ref:`Node2D.scale <class_Node2D_property_scale>`."
+
+msgid "``[method Class.name]``"
+msgstr "``[метод Class.name]``"
+
+msgid "Link to method"
+msgstr "Посилання на метод"
+
+msgid "``Call [method Node3D.hide].``"
+msgstr "``Виклик [метод Node3D.hide].``"
+
+msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
+msgstr "Виклик :ref:`Node3D.hide() <class_Node3D_method_hide>`."
+
+msgid "``[constructor Class.name]``"
+msgstr "``[constructor Class.name]``"
+
+msgid "Link to built-in constructor"
+msgstr "Посилання на вбудований конструктор"
+
+msgid "``Use [constructor Color.Color].``"
+msgstr "``Використовуйте [конструктор Color.Color].``"
+
+msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
+msgstr "Використовуйте :ref:`Color.Color <class_Color_constructor_Color>`."
+
+msgid "``[operator Class.name]``"
+msgstr "``[оператор Class.name]``"
+
+msgid "Link to built-in operator"
+msgstr "Посилання на вбудований оператор"
+
+msgid "``Use [operator Color.operator *].``"
+msgstr "``Використовуйте [оператор Color.operator *].``"
+
+msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+msgstr "Використовуйте :ref:`Color.operator * <class_Color_operator_mul_int>`."
+
+msgid "``[signal Class.name]``"
+msgstr "``[сигнал Class.name]``"
+
+msgid "Link to signal"
+msgstr "Посилання на сигнал"
+
+msgid "``Emit [signal Node.renamed].``"
+msgstr "``Подати [signal Node.renamed].``"
 
 msgid "Emit :ref:`Node.renamed <class_Node_signal_renamed>`."
 msgstr "Видати :ref:`Node.renamed <class_Node_signal_renamed>`."
 
+msgid "``[theme_item Class.name]``"
+msgstr "``[theme_item Class.name]``"
+
+msgid "Link to theme item"
+msgstr "Посилання на предмет теми"
+
+msgid "``See [theme_item Label.font].``"
+msgstr "``Див. [theme_item Label.font].``"
+
+msgid "See :ref:`Label.font <class_Label_theme_font_font>`."
+msgstr "Перегляньте :ref:`Label.font <class_Label_theme_font_font>`."
+
+msgid "``[param name]``"
+msgstr "``[назва параметра]``"
+
+msgid "Parameter name (as code)"
+msgstr "Назва параметра (як код)"
+
+msgid "``Takes [param size] for the size.``"
+msgstr "``За розмір приймає [param size].``"
+
+msgid "Takes ``size`` for the size."
+msgstr "Використовує ``size`` для розміру."
+
+msgid "Currently only :ref:`class_@GDScript` has annotations."
+msgstr "Наразі лише :ref:`class_@GDScript` має анотації."
+
+msgid "Formatting text"
+msgstr "Форматування тексту"
+
+msgid "``[br]``"
+msgstr "``[br]``"
+
+msgid "Line break"
+msgstr "Розрив рядка"
+
+msgid "``Line 1.[br]``"
+msgstr "``Line 1.[br]``"
+
+msgid "``Line 2.``"
+msgstr "``Line 2.``"
+
+msgid "Line 1."
+msgstr "Рядок 1."
+
+msgid "Line 2."
+msgstr "Рядок 2."
+
+msgid "``[lb]`` ``[rb]``"
+msgstr "``[lb]`` ``[rb]``"
+
+msgid "``[`` and ``]`` respectively"
+msgstr "``[`` і ``]`` відповідно"
+
+msgid "``[lb]b[rb]text[lb]/b[rb]``"
+msgstr "``[lb]b[rb]text[lb]/b[rb]``"
+
+msgid "[b]text[/b]"
+msgstr "[b]text[/b]"
+
+msgid "``[b]`` ``[/b]``"
+msgstr "``[b]`` ``[/b]``"
+
 msgid "Bold"
 msgstr "Напівжирний"
+
+msgid "``Do [b]not[/b] call this method.``"
+msgstr "``[b]Не[/b] викликайте цей метод.``"
+
+msgid "Do **not** call this method."
+msgstr "**Не** викликайте цей метод."
+
+msgid "``[i]`` ``[/i]``"
+msgstr "``[i]`` ``[/i]``"
 
 msgid "Italic"
 msgstr "Курсив"
 
+msgid "``Returns the [i]global[/i] position.``"
+msgstr "``Повертає [i]глобальну[/i] позицію.``"
+
+msgid "Returns the *global* position."
+msgstr "Повертає *глобальну* позицію."
+
+msgid "``[u]`` ``[/u]``"
+msgstr "``[u]`` ``[/u]``"
+
+msgid "Underline"
+msgstr "Підкреслити"
+
+msgid "``[u]Always[/u] use this method.``"
+msgstr "``[u]Завжди[/u] використовуйте цей метод.``"
+
+msgid "``[s]`` ``[/s]``"
+msgstr "``[s]`` ``[/s]``"
+
+msgid "Strikethrough"
+msgstr "Закреслення"
+
+msgid "``[s]Outdated information.[/s]``"
+msgstr "``[s]Застаріла інформація.[/s]``"
+
+msgid "``[url]`` ``[/url]``"
+msgstr "``[url]`` ``[/url]``"
+
+msgid "Hyperlink"
+msgstr "Гіперболічний синус"
+
+msgid "``[url]https://example.com[/url]``"
+msgstr "``[url]https://example.com[/url]``"
+
+msgid "``[url=https://example.com]Website[/url]``"
+msgstr "``[url=https://example.com]Website[/url]``"
+
+msgid "https://example.com"
+msgstr "https://example.com"
+
+msgid "`Website <https://example.com>`_"
+msgstr "`Website <https://example.com>`_"
+
+msgid "``[center]`` ``[/center]``"
+msgstr "``[center]`` ``[/center]``"
+
+msgid "Horizontal centering"
+msgstr "Горизонтальне центрування"
+
+msgid "``[center]2 + 2 = 4[/center]``"
+msgstr "``[center]2 + 2 = 4[/center]``"
+
 msgid "``[kbd]`` ``[/kbd]``"
 msgstr "``[kbd]`` ``[/kbd]``"
+
+msgid "Keyboard/mouse shortcut"
+msgstr "Комбінація клавіш/миші"
+
+msgid "``Press [kbd]Ctrl + C[/kbd].``"
+msgstr "``Натисніть [kbd]Ctrl + C[/kbd].``"
+
+msgid "Press :kbd:`Ctrl + C`."
+msgstr "Натисніть :kbd:`Ctrl + C`."
 
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
 
+msgid "Inline code fragment"
+msgstr "Вбудований фрагмент коду"
+
+msgid "``Returns [code]true[/code].``"
+msgstr "``Повертає [code]true[/code].``"
+
+msgid "Returns ``true``."
+msgstr "Повертає ``true``."
+
+msgid ""
+"Some supported tags like ``[color]`` and ``[font]`` are not listed here "
+"because they are not recommended in the engine documentation."
+msgstr ""
+"Деякі підтримувані теги, такі як ``[color]`` і ``[font]`` не перераховані "
+"тут, оскільки вони не рекомендовані в документації двигуна."
+
+msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
+msgstr "``[kbd]`` вимикає BBCode, поки аналізатор не зустріне ``[/kbd]``."
+
+msgid "``[code]`` disables BBCode until the parser encounters ``[/code]``."
+msgstr "``[code]`` вимикає BBCode, доки аналізатор не зустріне ``[/code]``."
+
+msgid "Formatting code blocks"
+msgstr "Форматування блоків коду"
+
+msgid "There are two options for formatting code blocks:"
+msgstr "Є два варіанти форматування блоків коду:"
+
+msgid ""
+"Use ``[codeblock]`` if you want to add an example for a specific language."
+msgstr ""
+"Використовуйте ``[codeblock]``, якщо ви хочете додати приклад для певної "
+"мови."
+
+msgid ""
+"Use ``[codeblocks]``, ``[gdscript]``, and ``[csharp]`` if you want to add "
+"the same example for both languages, GDScript and C#."
+msgstr ""
+"Використовуйте ``[codeblocks]``, ``[gdscript]`` і ``[csharp]``, якщо ви "
+"хочете додати той самий приклад для обох мов, GDScript і C#."
+
+msgid ""
+"By default, ``[codeblock]`` highlights GDScript syntax. You can change it "
+"using the ``lang`` attribute. Currently supported options are:"
+msgstr ""
+"За замовчуванням ``[codeblock]`` підсвічує синтаксис GDScript. Ви можете "
+"змінити його за допомогою атрибута ``lang``. Наразі підтримуються такі "
+"варіанти:"
+
+msgid "``[codeblock lang=text]`` disables syntax highlighting;"
+msgstr "``[codeblock lang=text]`` вимикає підсвічування синтаксису;"
+
+msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
+msgstr "``[codeblock lang=gdscript]`` підсвічує синтаксис GDScript;"
+
+msgid ""
+"``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
+msgstr ""
+"``[codeblock lang=csharp]`` підсвічує синтаксис C# (лише у версії .NET)."
+
+msgid ""
+"``[codeblock]`` disables BBCode until the parser encounters ``[/codeblock]``."
+msgstr ""
+"``[codeblock]`` вимикає BBCode, доки аналізатор не зустріне ``[/codeblock]``."
+
+msgid ""
+"Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, "
+"always use **four spaces** for indentation. The parser will delete tabs."
+msgstr ""
+"Використовуйте ``[codeblock]`` для попередньо відформатованих блоків коду. "
+"Усередині ``[codeblock]`` завжди використовуйте **чотири пробіли** для "
+"відступу. Синтаксичний аналізатор видалить вкладки."
+
 msgid "For example:"
 msgstr "Приклад:"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "Will display as:"
+msgstr "Відображатиметься як:"
+
+msgid ""
+"If you need to have different code version in GDScript and C#, use "
+"``[codeblocks]`` instead. If you use ``[codeblocks]``, you also need to have "
+"at least one of the language-specific tags, ``[gdscript]`` and ``[csharp]``."
+msgstr ""
+"Якщо вам потрібна інша версія коду в GDScript і C#, використовуйте натомість "
+"``[codeblocks]``. Якщо ви використовуєте ``[codeblocks]``, вам також "
+"потрібно мати принаймні один із специфічних для мови тегів ``[gdscript]`` і "
+"``[csharp]``."
+
+msgid ""
+"Always write GDScript code examples first! You can use this `experimental "
+"code translation tool <https://github.com/HaSa1002/codetranslator>`_ to "
+"speed up your workflow."
+msgstr ""
+"Завжди спочатку пишіть приклади коду GDScript! Ви можете використовувати цей "
+"`експериментальний інструмент перекладу коду <https://github.com/HaSa1002/"
+"codetranslator>`_, щоб пришвидшити робочий процес."
+
+msgid "The above will display as:"
+msgstr "Вище відображатиметься так:"
+
+msgid "Formatting notes and warnings"
+msgstr "Форматування приміток і попереджень"
+
+msgid ""
+"To denote important information, add a paragraph starting with \"[b]Note:[/"
+"b]\" at the end of the description:"
+msgstr ""
+"Щоб позначити важливу інформацію, додайте в кінці опису абзац, який "
+"починається з «[b]Примітка:[/b]»:"
+
+msgid ""
+"To denote crucial information that could cause security issues or loss of "
+"data if not followed carefully, add a paragraph starting with \"[b]Warning:[/"
+"b]\" at the end of the description:"
+msgstr ""
+"Щоб позначити важливу інформацію, яка може спричинити проблеми з безпекою "
+"або втрату даних, якщо її не дотримуватися, додайте абзац, що починається з "
+"«[b]Попередження:[/b]» у кінці опису:"
+
+msgid ""
+"In all the paragraphs described above, make sure the punctuation is part of "
+"the BBCode tags for consistency."
+msgstr ""
+"У всіх параграфах, описаних вище, переконайтеся, що пунктуація є частиною "
+"тегів BBCode для узгодженості."
+
+msgid "Marking API as deprecated/experimental"
+msgstr "Позначення API як застарілого/експериментального"
+
+msgid ""
+"To mark an API as deprecated or experimental, you need to add the "
+"corresponding XML attribute. The attribute value must be a message "
+"explaining why the API is not recommended (BBCode markup is supported) or an "
+"empty string (the default message will be used). If an API element is marked "
+"as deprecated/experimental, then it is considered documented even if the "
+"description is empty."
+msgstr ""
+"Щоб позначити API як застарілий або експериментальний, потрібно додати "
+"відповідний атрибут XML. Значення атрибута має бути повідомленням, що "
+"пояснює, чому API не рекомендовано (підтримується розмітка BBCode), або "
+"порожнім рядком (буде використано повідомлення за замовчуванням). Якщо "
+"елемент API позначено як застарілий/експериментальний, він вважається "
+"задокументованим, навіть якщо опис порожній."

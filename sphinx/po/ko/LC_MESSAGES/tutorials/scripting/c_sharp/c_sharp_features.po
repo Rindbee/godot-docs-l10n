@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -75,15 +75,6 @@ msgstr ""
 "Godot은 컴파일하는 환경에 따라 C# 코드를 변경할 수 있도록 여러 전처리기 지시"
 "문을 제공합니다."
 
-msgid ""
-"If you created your project before Godot 3.2, you have to modify or "
-"regenerate your `csproj` file to use this feature (compare "
-"``<DefineConstants>`` with a new 3.2+ project)."
-msgstr ""
-"Godot 3.2 버전 이전에 프로젝트를 생성했다면, `csproj` 파일을 수정하거나 재생"
-"성해야 이 기능(``<DefineConstants>`` 를 3.2 이후의 프로젝트와 비교해보십시오)"
-"을 사용할 수 있습니다."
-
 msgid "Examples"
 msgstr "예제"
 
@@ -130,6 +121,3 @@ msgid ""
 msgstr ""
 "예제 프로젝트를 확인하려면 OS 테스트 데모를 확인하세요: https://github.com/"
 "godotengine/godot-demo-projects/tree/master/misc/os_test"
-
-msgid "Translation status"
-msgstr "번역 상태"

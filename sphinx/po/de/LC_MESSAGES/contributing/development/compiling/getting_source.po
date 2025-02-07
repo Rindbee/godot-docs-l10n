@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -92,17 +92,8 @@ msgstr ""
 "angeben::"
 
 msgid ""
-"There are also generally branches besides ``master`` for each major version."
-msgstr ""
-"Im Allgemeinen gibt es für jede Major-Version auch andere Branches als den "
-"``master``."
-
-msgid ""
 "After downloading the Godot source code, you can :ref:`continue to compiling "
 "Godot <doc_introduction_to_the_buildsystem>`."
 msgstr ""
 "Nachdem Sie den Godot-Quellcode heruntergeladen haben, können Sie :ref:`mit "
 "der Kompilierung von Godot fortfahren <doc_introduction_to_the_buildsystem>`."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

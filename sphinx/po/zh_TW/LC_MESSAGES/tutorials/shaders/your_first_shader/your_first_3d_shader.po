@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -401,11 +401,6 @@ msgid "Interacting with light"
 msgstr "與光互動"
 
 msgid ""
-"First, turn wireframe off. To do so, click in the upper-left of the Viewport "
-"again, where it says \"Perspective\", and select \"Display Normal\"."
-msgstr "首先關閉線框顯示。再次點擊視口左上角的“透視”字樣，選擇“顯示標準”。"
-
-msgid ""
 "Note how the mesh color goes flat. This is because the lighting on it is "
 "flat. Let's add a light!"
 msgstr ""
@@ -522,6 +517,3 @@ msgstr ""
 "這就是這部分的全部內容. 希望您現在已瞭解Godot中頂點著色器的基本知識. 在本教學"
 "的下一部分中, 我們將編寫一個片段函式來配合這個頂點函式, 並且我們將介紹一種更"
 "高級的技術來將這個地形轉換成一個移動的波浪海洋."
-
-msgid "Translation status"
-msgstr "翻譯狀態"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,51 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "C# API differences to GDScript"
+msgstr "C# API と GDScript の違い"
+
 msgid "This is a (incomplete) list of API differences between C# and GDScript."
 msgstr "これは、C#とGDScriptのAPIの相違点の(不完全な)リストです。"
 
 msgid "General differences"
 msgstr "一般的な相違点"
+
+msgid ""
+"As explained in :ref:`doc_c_sharp_general_differences`, ``PascalCase`` is "
+"used to access Godot APIs in C# instead of the ``snake_case`` used by "
+"GDScript and C++. Where possible, fields and getters/setters have been "
+"converted to properties. In general, the C# Godot API strives to be as "
+"idiomatic as is reasonably possible. See the :ref:`doc_c_sharp_styleguide`, "
+"which we encourage you to also use for your own C# code."
+msgstr ""
+":ref:`doc_c_sharp_general_differences` で説明されているように、C# で Godot "
+"API にアクセスするには、GDScript/C++の ``snake_case`` の代わりに "
+"``PascalCase`` を使います。 可能な場合はフィールドとゲッター/セッターはプロパ"
+"ティに変換されています。一般的に C# Godot APIは合理的に可能な限り慣用的である"
+"ように努めています。:ref:`doc_c_sharp_styleguide` を参照してください。独自の "
+"C# コードにもこれを使用することをお勧めします。"
+
+msgid ""
+"In GDScript, the setters/getters of a property can be called directly, "
+"although this is not encouraged. In C#, only the property is defined. For "
+"example, to translate the GDScript code ``x.set_name(\"Friend\")`` to C#, "
+"write ``x.Name = \"Friend\";``."
+msgstr ""
+"GDScript ではプロパティのセッター/ゲッターを直接呼び出すことができますが、こ"
+"れは推奨されていません。C# ではプロパティのみが定義されます。たとえば、"
+"GDScript コード ``x.set_name(\"Friend\")`` を C# に変換するには ``x.Name = "
+"\"Friend\";`` と記述します。"
+
+msgid ""
+"A C# IDE will provide intellisense, which is extremely useful when figuring "
+"out renamed C# APIs. The built-in Godot script editor has no support for C# "
+"intellisense, and it also doesn't provide many other C# development tools "
+"that are considered essential. See :ref:`doc_c_sharp_setup_external_editor`."
+msgstr ""
+"C# の IDE は名前が変更された C# API を理解するときに非常に便利なインテリセン"
+"スを提供します。組み込みの Godot スクリプト エディタは C# インテリセンスをサ"
+"ポートしておらず、必須と見なされる他の多くの C# 開発ツールも提供していませ"
+"ん。 :ref:`doc_c_sharp_setup_external_editor` を参照してください。"
 
 msgid "Global scope"
 msgstr "グローバル スコープ"
@@ -31,6 +71,25 @@ msgstr ""
 
 msgid "Constants"
 msgstr "定数"
+
+msgid ""
+"In C#, only primitive types can be constant. For example, the ``TAU`` "
+"constant is replaced by the ``Mathf.Tau`` constant, but the ``Vector2."
+"RIGHT`` constant is replaced by the ``Vector2.Right`` read-only property. "
+"This behaves similarly to a constant, but can't be used in some contexts "
+"like ``switch`` statements."
+msgstr ""
+"C# では定数にできるのはプリミティブ型のみです。たとえば、定数 ``TAU`` は定数 "
+"``Mathf.Tau`` に置き換えられますが、定数 ``Vector2.RIGHT`` は読み取り専用プロ"
+"パティ ``Vector2.Right`` に置き換えられます。これは定数と同様に動作します"
+"が、 ``switch`` ステートメントなどの一部のコンテキストでは使用できません。"
+
+msgid ""
+"Global enum constants were moved to their own enums. For example, ``ERR_*`` "
+"constants were moved to the ``Error`` enum."
+msgstr ""
+"グローバル列挙定数は、独自の列挙に移動されました。たとえば ``ERR_*`` 定数は "
+"``Error`` 列挙型に移動されました。"
 
 msgid "Special cases:"
 msgstr "特殊なケース:"
@@ -66,6 +125,13 @@ msgstr ""
 "``Atan`` および ``Atan2``として、\\ ``PI`` 定数は ``Mathf.Pi`` として見つける"
 "ことができます。"
 
+msgid ""
+"C# also provides static `System.Math`_ and `System.MathF`_ classes that may "
+"contain other useful mathematical operations."
+msgstr ""
+"C# には他の便利な数学演算を含む静的な `System.Math`_ クラスと `System."
+"MathF`_ クラスも用意されています。"
+
 msgid "Random functions"
 msgstr "乱数生成関数"
 
@@ -76,8 +142,23 @@ msgstr ""
 "``rand_range`` や ``rand_seed`` などの乱数生成用のグローバル関数は、\\ "
 "``GD`` の下にあります。例:``GD.RandRange`` および ``GD.RandSeed``\\ 。"
 
+msgid ""
+"Consider using `System.Random`_ or, if you need cryptographically strong "
+"randomness, `System.Security.Cryptography.RandomNumberGenerator`_."
+msgstr ""
+"`System.Random`_ の使用を検討してください。暗号的に強力なランダム性が必要な場"
+"合は、`System.Security.Cryptography.RandomNumberGenerator`_ を使用してくださ"
+"い。"
+
 msgid "Other functions"
 msgstr "その他の関数"
+
+msgid ""
+"Many other global functions like ``print`` and ``var_to_str`` are located "
+"under ``GD``. Example: ``GD.Print`` and ``GD.VarToStr``."
+msgstr ""
+"``print`` や ``var_to_str`` などの他の多くのグローバル関数は ``GD`` の下にあ"
+"ります。例: ``GD.Print`` および ``GD.VarToStr`` 。"
 
 msgid "Exceptions:"
 msgstr "例外:"
@@ -85,8 +166,26 @@ msgstr "例外:"
 msgid "``weakref(obj)``"
 msgstr "\\ ``weakref(obj)``"
 
+msgid "``GodotObject.WeakRef(obj)``"
+msgstr "\\ ``GodotObject.WeakRef(obj)``"
+
+msgid "``instance_from_id(id)``"
+msgstr "\\ ``instance_from_id(id)``"
+
+msgid "``GodotObject.InstanceFromId(id)``"
+msgstr "\\ ``GodotObject.InstanceFromId(id)``"
+
+msgid "``is_instance_id_valid(id)``"
+msgstr "\\ ``is_instance_id_valid(id)``"
+
+msgid "``GodotObject.IsInstanceIdValid(id)``"
+msgstr "\\ ``GodotObject.IsInstanceIdValid(id)``"
+
 msgid "``is_instance_valid(obj)``"
 msgstr "\\ ``is_instance_valid(obj)``"
+
+msgid "``GodotObject.IsInstanceValid(obj)``"
+msgstr "\\ ``GodotObject.IsInstanceValid(obj)``"
 
 msgid "Tips"
 msgstr "ヒント"
@@ -103,14 +202,695 @@ msgstr ""
 msgid "Example:"
 msgstr "例:"
 
+msgid "Full list of equivalences"
+msgstr "APIの対応表"
+
+msgid "List of Godot's global scope functions and their equivalent in C#:"
+msgstr "Godot のグローバルスコープ関数とそれに対応する C# 関数の一覧です:"
+
+msgid "abs"
+msgstr "\\ abs"
+
+msgid "Mathf.Abs"
+msgstr "\\ Mathf.Abs"
+
+msgid "absf"
+msgstr "\\ absf"
+
+msgid "absi"
+msgstr "\\ absi"
+
+msgid "acos"
+msgstr "\\ acos"
+
+msgid "Mathf.Acos"
+msgstr "\\ Mathf.Acos"
+
+msgid "acosh"
+msgstr "\\ acosh"
+
+msgid "Mathf.Acosh"
+msgstr "\\ Mathf.Acosh"
+
+msgid "angle_difference"
+msgstr "\\ angle_difference"
+
+msgid "Mathf.AngleDifference"
+msgstr "\\ Mathf.AngleDifference"
+
+msgid "asin"
+msgstr "\\ asin"
+
+msgid "Mathf.Asin"
+msgstr "\\ Mathf.Asin"
+
+msgid "asinh"
+msgstr "\\ asinh"
+
+msgid "Mathf.Asinh"
+msgstr "\\ Mathf.Asinh"
+
+msgid "atan"
+msgstr "\\ atan"
+
+msgid "Mathf.Atan"
+msgstr "\\ Mathf.Atan"
+
+msgid "atan2"
+msgstr "\\ atan2"
+
+msgid "Mathf.Atan2"
+msgstr "\\ Mathf.Atan2"
+
+msgid "atanh"
+msgstr "\\ atanh"
+
+msgid "Mathf.Atanh"
+msgstr "\\ Mathf.Atanh"
+
+msgid "bezier_derivative"
+msgstr "\\ bezier_derivative"
+
+msgid "Mathf.BezierDerivative"
+msgstr "\\ Mathf.BezierDerivative"
+
+msgid "bezier_interpolate"
+msgstr "\\ bezier_interpolate"
+
+msgid "Mathf.BezierInterpolate"
+msgstr "\\ Mathf.BezierInterpolate"
+
+msgid "bytes_to_var"
+msgstr "\\ bytes_to_var"
+
+msgid "GD.BytesToVar"
+msgstr "\\ GD.BytesToVar"
+
+msgid "bytes_to_var_with_objects"
+msgstr "\\ bytes_to_var_with_objects"
+
+msgid "GD.BytesToVarWithObjects"
+msgstr "\\ GD.BytesToVarWithObjects"
+
+msgid "ceil"
+msgstr "\\ ceil"
+
+msgid "Mathf.Ceil"
+msgstr "\\ Mathf.Ceil"
+
+msgid "ceilf"
+msgstr "\\ ceilf"
+
+msgid "ceili"
+msgstr "\\ ceili"
+
+msgid "Mathf.CeilToInt"
+msgstr "\\ Mathf.CeilToInt"
+
+msgid "clamp"
+msgstr "\\ clamp"
+
+msgid "Mathf.Clamp"
+msgstr "\\ Mathf.Clamp"
+
+msgid "clampf"
+msgstr "\\ clampf"
+
+msgid "clampi"
+msgstr "\\ clampi"
+
+msgid "cos"
+msgstr "\\ cos"
+
+msgid "Mathf.Cos"
+msgstr "\\ Mathf.Cos"
+
+msgid "cosh"
+msgstr "\\ cosh"
+
+msgid "Mathf.Cosh"
+msgstr "\\ Mathf.Cosh"
+
+msgid "cubic_interpolate"
+msgstr "\\ cubic_interpolate"
+
+msgid "Mathf.CubicInterpolate"
+msgstr "\\ Mathf.CubicInterpolate"
+
+msgid "cubic_interpolate_angle"
+msgstr "\\ cubic_interpolate_angle"
+
+msgid "Mathf.CubicInterpolateAngle"
+msgstr "\\ Mathf.CubicInterpolateAngle"
+
+msgid "cubic_interpolate_angle_in_time"
+msgstr "\\ cubic_interpolate_angle_in_time"
+
+msgid "Mathf.CubicInterpolateInTime"
+msgstr "\\ Mathf.CubicInterpolateInTime"
+
+msgid "cubic_interpolate_in_time"
+msgstr "\\ cubic_interpolate_in_time"
+
+msgid "Mathf.CubicInterpolateAngleInTime"
+msgstr "\\ Mathf.CubicInterpolateAngleInTime"
+
+msgid "db_to_linear"
+msgstr "\\ db_to_linear"
+
+msgid "Mathf.DbToLinear"
+msgstr "\\ Mathf.DbToLinear"
+
+msgid "deg_to_rad"
+msgstr "\\ deg_to_rad"
+
+msgid "Mathf.DegToRad"
+msgstr "\\ Mathf.DegToRad"
+
+msgid "ease"
+msgstr "\\ ease"
+
+msgid "Mathf.Ease"
+msgstr "\\ Mathf.Ease"
+
+msgid "error_string"
+msgstr "\\ error_string"
+
+msgid "Error.ToString"
+msgstr "\\ Error.ToString"
+
+msgid "exp"
+msgstr "\\ exp"
+
+msgid "Mathf.Exp"
+msgstr "\\ Mathf.Exp"
+
+msgid "floor"
+msgstr "\\ floor"
+
+msgid "Mathf.Floor"
+msgstr "\\ Mathf.Floor"
+
+msgid "floorf"
+msgstr "\\ floorf"
+
+msgid "floori"
+msgstr "\\ floori"
+
+msgid "Mathf.FloorToInt"
+msgstr "\\ Mathf.FloorToInt"
+
+msgid "fmod"
+msgstr "\\ fmod"
+
+msgid "operator %"
+msgstr "\\ operator %"
+
+msgid "fposmod"
+msgstr "\\ fposmod"
+
+msgid "Mathf.PosMod"
+msgstr "\\ Mathf.PosMod"
+
+msgid "hash"
+msgstr "\\ hash"
+
+msgid "GD.Hash"
+msgstr "\\ GD.Hash"
+
+msgid "instance_from_id"
+msgstr "\\ instance_from_id"
+
+msgid "GodotObject.InstanceFromId"
+msgstr "\\ GodotObject.InstanceFromId"
+
+msgid "inverse_lerp"
+msgstr "\\ inverse_lerp"
+
+msgid "Mathf.InverseLerp"
+msgstr "\\ Mathf.InverseLerp"
+
+msgid "is_equal_approx"
+msgstr "\\ is_equal_approx"
+
+msgid "Mathf.IsEqualApprox"
+msgstr "\\ Mathf.IsEqualApprox"
+
+msgid "is_finite"
+msgstr "\\ is_finite"
+
+msgid "Mathf.IsFinite or `float.IsFinite`_ or `double.IsFinite`_"
+msgstr "\\ Mathf.IsFinite or `float.IsFinite`_ or `double.IsFinite`_"
+
+msgid "is_inf"
+msgstr "\\ is_inf"
+
+msgid "Mathf.IsInf or `float.IsInfinity`_ or `double.IsInfinity`_"
+msgstr "\\ Mathf.IsInf or `float.IsInfinity`_ or `double.IsInfinity`_"
+
+msgid "is_instance_id_valid"
+msgstr "\\ is_instance_id_valid"
+
+msgid "GodotObject.IsInstanceIdValid"
+msgstr "\\ GodotObject.IsInstanceIdValid"
+
+msgid "is_instance_valid"
+msgstr "\\ is_instance_valid"
+
+msgid "GodotObject.IsInstanceValid"
+msgstr "\\ GodotObject.IsInstanceValid"
+
+msgid "is_nan"
+msgstr "\\ is_nan"
+
+msgid "Mathf.IsNaN or `float.IsNaN`_ or `double.IsNaN`_"
+msgstr "\\ Mathf.IsNaN or `float.IsNaN`_ or `double.IsNaN`_"
+
+msgid "is_same"
+msgstr "\\ is_same"
+
+msgid "operator == or `object.ReferenceEquals`_"
+msgstr "\\ operator == or `object.ReferenceEquals`_"
+
+msgid "is_zero_approx"
+msgstr "\\ is_zero_approx"
+
+msgid "Mathf.IsZeroApprox"
+msgstr "\\ Mathf.IsZeroApprox"
+
+msgid "lerp"
+msgstr "\\ lerp"
+
+msgid "Mathf.Lerp"
+msgstr "\\ Mathf.Lerp"
+
+msgid "lerp_angle"
+msgstr "\\ lerp_angle"
+
+msgid "Mathf.LerpAngle"
+msgstr "\\ Mathf.LerpAngle"
+
+msgid "lerpf"
+msgstr "\\ lerpf"
+
+msgid "linear_to_db"
+msgstr "\\ linear_to_db"
+
+msgid "Mathf.LinearToDb"
+msgstr "\\ Mathf.LinearToDb"
+
+msgid "log"
+msgstr "\\ log"
+
+msgid "Mathf.Log"
+msgstr "\\ Mathf.Log"
+
 msgid "max"
 msgstr "\\ max"
+
+msgid "Mathf.Max"
+msgstr "\\ Mathf.Max"
+
+msgid "maxf"
+msgstr "\\ maxf"
+
+msgid "maxi"
+msgstr "\\ maxi"
+
+msgid "Mathf.Min"
+msgstr "\\ Mathf.Min"
+
+msgid "minf"
+msgstr "\\ minf"
+
+msgid "mini"
+msgstr "\\ mini"
+
+msgid "move_toward"
+msgstr "\\ move_toward"
+
+msgid "Mathf.MoveToward"
+msgstr "\\ Mathf.MoveToward"
+
+msgid "nearest_po2"
+msgstr "\\ nearest_po2"
+
+msgid "Mathf.NearestPo2"
+msgstr "\\ Mathf.NearestPo2"
+
+msgid "pingpong"
+msgstr "\\ pingpong"
+
+msgid "Mathf.PingPong"
+msgstr "\\ Mathf.PingPong"
+
+msgid "posmod"
+msgstr "\\ posmod"
+
+msgid "pow"
+msgstr "\\ pow"
+
+msgid "Mathf.Pow"
+msgstr "\\ Mathf.Pow"
+
+msgid "print"
+msgstr "\\ print"
+
+msgid "GD.Print"
+msgstr "\\ GD.Print"
+
+msgid "print_rich"
+msgstr "\\ print_rich"
+
+msgid "GD.PrintRich"
+msgstr "\\ GD.PrintRich"
+
+msgid "print_verbose"
+msgstr "\\ print_verbose"
+
+msgid "Use OS.IsStdoutVerbose and GD.Print"
+msgstr "\\ Use OS.IsStdoutVerbose and GD.Print"
+
+msgid "printerr"
+msgstr "\\ printerr"
+
+msgid "GD.PrintErr"
+msgstr "\\ GD.PrintErr"
+
+msgid "printraw"
+msgstr "\\ printraw"
+
+msgid "GD.PrintRaw"
+msgstr "\\ GD.PrintRaw"
+
+msgid "prints"
+msgstr "\\ prints"
+
+msgid "GD.PrintS"
+msgstr "\\ GD.PrintS"
+
+msgid "printt"
+msgstr "\\ printt"
+
+msgid "GD.PrintT"
+msgstr "\\ GD.PrintT"
+
+msgid "push_error"
+msgstr "\\ push_error"
+
+msgid "GD.PushError"
+msgstr "\\ GD.PushError"
+
+msgid "push_warning"
+msgstr "\\ push_warning"
+
+msgid "GD.PushWarning"
+msgstr "\\ GD.PushWarning"
+
+msgid "rad_to_deg"
+msgstr "\\ rad_to_deg"
+
+msgid "Mathf.RadToDeg"
+msgstr "\\ Mathf.RadToDeg"
+
+msgid "rand_from_seed"
+msgstr "\\ rand_from_seed"
+
+msgid "GD.RandFromSeed"
+msgstr "\\ GD.RandFromSeed"
+
+msgid "randf"
+msgstr "\\ randf"
+
+msgid "GD.Randf"
+msgstr "\\ GD.Randf"
+
+msgid "randf_range"
+msgstr "\\ randf_range"
+
+msgid "GD.RandRange"
+msgstr "\\ GD.RandRange"
+
+msgid "randfn"
+msgstr "\\ randfn"
+
+msgid "GD.Randfn"
+msgstr "\\ GD.Randfn"
+
+msgid "randi"
+msgstr "\\ randi"
+
+msgid "GD.Randi"
+msgstr "\\ GD.Randi"
+
+msgid "randi_range"
+msgstr "\\ randi_range"
+
+msgid "randomize"
+msgstr "\\ randomize"
+
+msgid "GD.Randomize"
+msgstr "\\ GD.Randomize"
+
+msgid "remap"
+msgstr "\\ remap"
+
+msgid "Mathf.Remap"
+msgstr "\\ Mathf.Remap"
+
+msgid "rid_allocate_id"
+msgstr "\\ rid_allocate_id"
+
+msgid "N/A"
+msgstr "\\ N/A"
+
+msgid "rid_from_int64"
+msgstr "\\ rid_from_int64"
+
+msgid "rotate_toward"
+msgstr "\\ rotate_toward"
+
+msgid "Mathf.RotateToward"
+msgstr "\\ Mathf.RotateToward"
+
+msgid "round"
+msgstr "\\ round"
+
+msgid "Mathf.Round"
+msgstr "\\ Mathf.Round"
+
+msgid "roundf"
+msgstr "\\ roundf"
+
+msgid "roundi"
+msgstr "\\ roundi"
+
+msgid "Mathf.RoundToInt"
+msgstr "\\ Mathf.RoundToInt"
+
+msgid "seed"
+msgstr "\\ seed"
+
+msgid "GD.Seed"
+msgstr "\\ GD.Seed"
+
+msgid "sign"
+msgstr "\\ sign"
+
+msgid "Mathf.Sign"
+msgstr "\\ Mathf.Sign"
+
+msgid "signf"
+msgstr "\\ signf"
+
+msgid "signi"
+msgstr "\\ signi"
+
+msgid "sin"
+msgstr "\\ sin"
+
+msgid "Mathf.Sin"
+msgstr "\\ Mathf.Sin"
+
+msgid "sinh"
+msgstr "\\ sinh"
+
+msgid "Mathf.Sinh"
+msgstr "\\ Mathf.Sinh"
+
+msgid "smoothstep"
+msgstr "\\ smoothstep"
+
+msgid "Mathf.SmoothStep"
+msgstr "\\ Mathf.SmoothStep"
+
+msgid "snapped"
+msgstr "\\ snapped"
+
+msgid "Mathf.Snapped"
+msgstr "\\ Mathf.Snapped"
+
+msgid "snappedf"
+msgstr "\\ snappedf"
+
+msgid "snappedi"
+msgstr "\\ snappedi"
+
+msgid "sqrt"
+msgstr "\\ sqrt"
+
+msgid "Mathf.Sqrt"
+msgstr "\\ Mathf.Sqrt"
+
+msgid "step_decimals"
+msgstr "\\ step_decimals"
+
+msgid "Mathf.StepDecimals"
+msgstr "\\ Mathf.StepDecimals"
+
+msgid "str"
+msgstr "\\ str"
+
+msgid "Use `$ string interpolation`_"
+msgstr "\\ Use `$ string interpolation`_"
+
+msgid "str_to_var"
+msgstr "\\ str_to_var"
+
+msgid "GD.StrToVar"
+msgstr "\\ GD.StrToVar"
+
+msgid "tan"
+msgstr "\\ tan"
+
+msgid "Mathf.Tan"
+msgstr "\\ Mathf.Tan"
+
+msgid "tanh"
+msgstr "\\ tanh"
+
+msgid "Mathf.Tanh"
+msgstr "\\ Mathf.Tanh"
+
+msgid "type_convert"
+msgstr "\\ type_convert"
+
+msgid "Variant.As<T> or GD.Convert"
+msgstr "\\ Variant.As<T> or GD.Convert"
+
+msgid "type_string"
+msgstr "\\ type_string"
+
+msgid "Variant.Type.ToString"
+msgstr "\\ Variant.Type.ToString"
+
+msgid "typeof"
+msgstr "\\ typeof"
+
+msgid "Variant.VariantType"
+msgstr "\\ Variant.VariantType"
+
+msgid "var_to_bytes"
+msgstr "\\ var_to_bytes"
+
+msgid "GD.VarToBytes"
+msgstr "\\ GD.VarToBytes"
+
+msgid "var_to_bytes_with_objects"
+msgstr "\\ var_to_bytes_with_objects"
+
+msgid "GD.VarToBytesWithObjects"
+msgstr "\\ GD.VarToBytesWithObjects"
+
+msgid "var_to_str"
+msgstr "\\ var_to_str"
+
+msgid "GD.VarToStr"
+msgstr "\\ GD.VarToStr"
+
+msgid "weakref"
+msgstr "\\ weakref"
+
+msgid "GodotObject.WeakRef"
+msgstr "\\ GodotObject.WeakRef"
+
+msgid "wrap"
+msgstr "\\ wrap"
+
+msgid "Mathf.Wrap"
+msgstr "\\ Mathf.Wrap"
+
+msgid "wrapf"
+msgstr "\\ wrapf"
+
+msgid "wrapi"
+msgstr "\\ wrapi"
+
+msgid "List of GDScript utility functions and their equivalent in C#:"
+msgstr "GDScript ユーティリティ関数とそれに対応する C# 関数の一覧:"
 
 msgid "assert"
 msgstr "\\ assert"
 
+msgid "`System.Diagnostics.Debug.Assert`_"
+msgstr "\\ `System.Diagnostics.Debug.Assert`_"
+
+msgid "char"
+msgstr "\\ char"
+
+msgid "Use explicit conversion: ``(char)65``"
+msgstr "明示的な変換を使用します: ``(char)65``"
+
+msgid "convert"
+msgstr "\\ convert"
+
+msgid "GD.Convert"
+msgstr "\\ GD.Convert"
+
+msgid "dict_to_inst"
+msgstr "\\ dict_to_inst"
+
+msgid "get_stack"
+msgstr "\\ get_stack"
+
+msgid "`System.Environment.StackTrace`_"
+msgstr "\\ `System.Environment.StackTrace`_"
+
+msgid "inst_to_dict"
+msgstr "\\ inst_to_dict"
+
+msgid "len"
+msgstr "\\ len"
+
+msgid "load"
+msgstr "\\ load"
+
+msgid "GD.Load"
+msgstr "\\ GD.Load"
+
 msgid "preload"
 msgstr "\\ preload"
+
+msgid "print_debug"
+msgstr "\\ print_debug"
+
+msgid "print_stack"
+msgstr "\\ print_stack"
+
+msgid "GD.Print(`System.Environment.StackTrace`_)"
+msgstr "\\ GD.Print(`System.Environment.StackTrace`_)"
+
+msgid "range"
+msgstr "\\ range"
+
+msgid "GD.Range or `System.Linq.Enumerable.Range`_"
+msgstr "\\ GD.Range or `System.Linq.Enumerable.Range`_"
+
+msgid "type_exists"
+msgstr "\\ type_exists"
+
+msgid "ClassDB.ClassExists(type)"
+msgstr "\\ ClassDB.ClassExists(type)"
 
 msgid ""
 "``preload``, as it works in GDScript, is not available in C#. Use ``GD."
@@ -119,8 +899,61 @@ msgstr ""
 "GDScriptで動作する ``preload`` は、C#では使用できません。代わりに ``GD."
 "Load`` または ``ResourceLoader.Load`` を使用してください。"
 
+msgid "``@export`` annotation"
+msgstr "``@export`` アノテーション"
+
+msgid ""
+"Use the ``[Export]`` attribute instead of the GDScript ``@export`` "
+"annotation. This attribute can also be provided with optional :ref:"
+"`PropertyHint<enum_@GlobalScope_PropertyHint>` and ``hintString`` "
+"parameters. Default values can be set by assigning a value."
+msgstr ""
+"GDScriptの ``@export`` アノテーションの代わりに ``[Export]`` 属性を使用しま"
+"す。この属性は、オプションの :ref:"
+"`PropertyHint<enum_@GlobalScope_PropertyHint>` および ``hintString`` パラメー"
+"ターで提供することもできます。デフォルト値は、値を割り当てることで設定できま"
+"す。"
+
+msgid "See also: :ref:`doc_c_sharp_exports`."
+msgstr ":ref:`doc_c_sharp_exports` も参照してください。"
+
+msgid "``signal`` keyword"
+msgstr "``signal`` キーワード"
+
+msgid ""
+"Use the ``[Signal]`` attribute to declare a signal instead of the GDScript "
+"``signal`` keyword. This attribute should be used on a `delegate`, whose "
+"name signature will be used to define the signal. The `delegate` must have "
+"the ``EventHandler`` suffix, an `event` will be generated in the class with "
+"the same name but without the suffix, use that event's name with "
+"``EmitSignal``."
+msgstr ""
+"GDScript の ``signal`` キーワードの代わりに ``[Signal]`` 属性を使用してシグナ"
+"ルを宣言します。この属性は、シグナルを定義するために名前の署名を使用する "
+"`delegate` で使用する必要があります。`delegate` には ``EventHandler`` サ"
+"フィックスが必要です。クラス内に同じ名前でサフィックスなしの `event` が生成さ"
+"れます。そのイベントの名前を ``EmitSignal`` で使用します。"
+
 msgid "See also: :ref:`doc_c_sharp_signals`."
-msgstr ":ref:`c_sharp_signals` も参照して下さい。"
+msgstr ":ref:`doc_c_sharp_signals` も参照して下さい。"
+
+msgid "`@onready` annotation"
+msgstr "`@onready` アノテーション"
+
+msgid ""
+"GDScript has the ability to defer the initialization of a member variable "
+"until the ready function is called with `@onready` (cf. :ref:"
+"`doc_gdscript_onready_annotation`). For example:"
+msgstr ""
+"GDScript には `@onready` で ready 関数が呼び出されるまでメンバ変数の初期化を"
+"延期させる機能があります (cf. :ref:`doc_gdscript_onready_annotation`)。例:"
+
+msgid ""
+"However C# does not have this ability. To achieve the same effect you need "
+"to do this."
+msgstr ""
+"ただし、C# にはこの機能がありません。同じ効果を得るには、次の操作を行う必要が"
+"あります。"
 
 msgid "Singletons"
 msgstr "シングルトン"
@@ -134,11 +967,813 @@ msgstr ""
 "用できます。これは、コードを ``Instance`` プロパティを使用する場合よりも冗長"
 "にするためです。"
 
+msgid ""
+"However, in some very rare cases this is not enough. For example, you may "
+"want to access a member from the base class ``GodotObject``, like "
+"``Connect``. For such use cases we provide a static property named "
+"``Singleton`` that returns the singleton instance. The type of this instance "
+"is ``GodotObject``."
+msgstr ""
+"ただし非常にまれなケースでは、これでは不十分です。たとえば ``Connect`` のよう"
+"に、基本クラス ``GodotObject`` のメンバーにアクセスしたい場合があります。この"
+"ようなユースケースでは、シングルトンインスタンスを返す ``Singleton`` という静"
+"的プロパティが用意されています。このインスタンスの型は ``GodotObject`` です。"
+
 msgid "String"
 msgstr "文字列"
 
+msgid ""
+"Use ``System.String`` (``string``). Most of Godot's String methods have an "
+"equivalent in ``System.String`` or are provided by the ``StringExtensions`` "
+"class as extension methods."
+msgstr ""
+"``System.String`` (``string``) を使用します。Godot の String メソッドのほとん"
+"どは ``System.String`` に同等のものが存在するか、または ``StringExtensions`` "
+"クラスによって拡張メソッドとして提供されています。"
+
+msgid ""
+"Strings are immutable in .NET, so all methods that manipulate a string don't "
+"modify the original string and return a newly created string with the "
+"modifications applied. To avoid creating multiple string allocations "
+"consider using a `StringBuilder`_."
+msgstr ""
+".NET では文字列はイミュータブル(不変)であるため、文字列を操作するすべてのメ"
+"ソッドは元の文字列を変更せず、変更を適用した新しく作成された文字列を返しま"
+"す。複数の文字列割り当てを作成しないようにするには、`StringBuilder`_ の使用を"
+"検討してください。"
+
+msgid "List of Godot's String methods and their equivalent in C#:"
+msgstr "Godot の String メソッドと C# の同等メソッドの対応表:"
+
+msgid "begins_with"
+msgstr "\\ begins_with"
+
+msgid "`string.StartsWith`_"
+msgstr "\\ `string.StartsWith`_"
+
+msgid "bigrams"
+msgstr "\\ bigrams"
+
+msgid "StringExtensions.Bigrams"
+msgstr "\\ StringExtensions.Bigrams"
+
+msgid "bin_to_int"
+msgstr "\\ bin_to_int"
+
+msgid "StringExtensions.BinToInt"
+msgstr "\\ StringExtensions.BinToInt"
+
+msgid "c_escape"
+msgstr "\\ c_escape"
+
+msgid "StringExtensions.CEscape"
+msgstr "\\ StringExtensions.CEscape"
+
+msgid "c_unescape"
+msgstr "\\ c_unescape"
+
+msgid "StringExtensions.CUnescape"
+msgstr "\\ StringExtensions.CUnescape"
+
+msgid "capitalize"
+msgstr "\\ capitalize"
+
+msgid "StringExtensions.Capitalize"
+msgstr "\\ StringExtensions.Capitalize"
+
+msgid "casecmp_to"
+msgstr "\\ casecmp_to"
+
+msgid ""
+"StringExtensions.CasecmpTo or StringExtensions.CompareTo (Consider using "
+"`string.Equals`_ or `string.Compare`_)"
+msgstr ""
+"StringExtensions.CasecmpTo or StringExtensions.CompareTo (`string.Equals`_ "
+"or `string.Compare`_ の使用を検討してください)"
+
+msgid "contains"
+msgstr "\\ contains"
+
+msgid "`string.Contains`_"
+msgstr "\\ `string.Contains`_"
+
+msgid "count"
+msgstr "\\ count"
+
+msgid "StringExtensions.Count (Consider using `RegEx`_)"
+msgstr "\\ StringExtensions.Count (`RegEx`_ の使用を検討してください)"
+
+msgid "countn"
+msgstr "\\ countn"
+
+msgid "StringExtensions.CountN (Consider using `RegEx`_)"
+msgstr "\\ StringExtensions.CountN (`RegEx`_ の使用を検討してください)"
+
+msgid "dedent"
+msgstr "\\ dedent"
+
+msgid "StringExtensions.Dedent"
+msgstr "\\ StringExtensions.Dedent"
+
+msgid "ends_with"
+msgstr "\\ ends_with"
+
+msgid "`string.EndsWith`_"
+msgstr "\\ `string.EndsWith`_"
+
+msgid "erase"
+msgstr "\\ erase"
+
+msgid ""
+"`string.Remove`_ (Consider using `StringBuilder`_ to manipulate strings)"
+msgstr ""
+"`string.Remove`_ (文字列を操作するには `StringBuilder`_ の使用を検討してくだ"
+"さい)"
+
+msgid "find"
+msgstr "\\ find"
+
+msgid ""
+"StringExtensions.Find (Consider using `string.IndexOf`_ or `string."
+"IndexOfAny`_)"
+msgstr ""
+"StringExtensions.Find (`string.IndexOf`_ or `string.IndexOfAny`_ の使用を検討"
+"してください)"
+
+msgid "findn"
+msgstr "\\ findn"
+
+msgid ""
+"StringExtensions.FindN (Consider using `string.IndexOf`_ or `string."
+"IndexOfAny`_)"
+msgstr ""
+"StringExtensions.FindN (`string.IndexOf`_ or `string.IndexOfAny`_ の使用を検"
+"討してください)"
+
+msgid "format"
+msgstr "\\ format"
+
+msgid "get_base_dir"
+msgstr "\\ get_base_dir"
+
+msgid "StringExtensions.GetBaseDir"
+msgstr "\\ StringExtensions.GetBaseDir"
+
+msgid "get_basename"
+msgstr "\\ get_basename"
+
+msgid "StringExtensions.GetBaseName"
+msgstr "\\ StringExtensions.GetBaseName"
+
+msgid "get_extension"
+msgstr "\\ get_extension"
+
+msgid "StringExtensions.GetExtension"
+msgstr "\\ StringExtensions.GetExtension"
+
+msgid "get_file"
+msgstr "\\ get_file"
+
+msgid "StringExtensions.GetFile"
+msgstr "\\ StringExtensions.GetFile"
+
+msgid "get_slice"
+msgstr "\\ get_slice"
+
+msgid "get_slice_count"
+msgstr "\\ get_slice_count"
+
+msgid "get_slicec"
+msgstr "\\ get_slicec"
+
+msgid ""
+"StringExtensions.Hash (Consider using `object.GetHashCode`_ unless you need "
+"to guarantee the same behavior as in GDScript)"
+msgstr ""
+"StringExtensions.Hash (GDScriptと同じ動作を保証する必要がない限り、`object."
+"GetHashCode`_ の使用を検討してください。)"
+
+msgid "hex_decode"
+msgstr "\\ hex_decode"
+
+msgid ""
+"StringExtensions.HexDecode (Consider using `System.Convert.FromHexString`_)"
+msgstr ""
+"StringExtensions.HexDecode (`System.Convert.FromHexString`_ の使用を検討して"
+"ください)"
+
+msgid "hex_to_int"
+msgstr "\\ hex_to_int"
+
+msgid ""
+"StringExtensions.HexToInt (Consider using `int.Parse`_ or `long.Parse`_ with "
+"`System.Globalization.NumberStyles.HexNumber`_)"
+msgstr ""
+"StringExtensions.HexToInt (`int.Parse`_ or `long.Parse`_ with `System."
+"Globalization.NumberStyles.HexNumber`_ の使用を検討してください)"
+
+msgid "humanize_size"
+msgstr "\\ humanize_size"
+
+msgid "indent"
+msgstr "\\ indent"
+
+msgid "StringExtensions.Indent"
+msgstr "\\ StringExtensions.Indent"
+
+msgid "insert"
+msgstr "\\ insert"
+
+msgid ""
+"`string.Insert`_ (Consider using `StringBuilder`_ to manipulate strings)"
+msgstr ""
+"`string.Insert`_ (文字列を操作するには `StringBuilder`_ の使用を検討してくだ"
+"さい)"
+
+msgid "is_absolute_path"
+msgstr "\\ is_absolute_path"
+
+msgid "StringExtensions.IsAbsolutePath"
+msgstr "\\ StringExtensions.IsAbsolutePath"
+
+msgid "is_empty"
+msgstr "\\ is_empty"
+
+msgid "`string.IsNullOrEmpty`_ or `string.IsNullOrWhiteSpace`_"
+msgstr "\\ `string.IsNullOrEmpty`_ or `string.IsNullOrWhiteSpace`_"
+
+msgid "is_relative_path"
+msgstr "\\ is_relative_path"
+
+msgid "StringExtensions.IsRelativePath"
+msgstr "\\ StringExtensions.IsRelativePath"
+
+msgid "is_subsequence_of"
+msgstr "\\ is_subsequence_of"
+
+msgid "StringExtensions.IsSubsequenceOf"
+msgstr "\\ StringExtensions.IsSubsequenceOf"
+
+msgid "is_subsequence_ofn"
+msgstr "\\ is_subsequence_ofn"
+
+msgid "StringExtensions.IsSubsequenceOfN"
+msgstr "\\ StringExtensions.IsSubsequenceOfN"
+
+msgid "is_valid_filename"
+msgstr "\\ is_valid_filename"
+
+msgid "StringExtensions.IsValidFileName"
+msgstr "\\ StringExtensions.IsValidFileName"
+
+msgid "is_valid_float"
+msgstr "\\ is_valid_float"
+
+msgid ""
+"StringExtensions.IsValidFloat (Consider using `float.TryParse`_ or `double."
+"TryParse`_)"
+msgstr ""
+"\\ StringExtensions.IsValidFloat (Consider using `float.TryParse`_ or "
+"`double.TryParse`_)"
+
+msgid "is_valid_hex_number"
+msgstr "\\ is_valid_hex_number"
+
+msgid "StringExtensions.IsValidHexNumber"
+msgstr "\\ StringExtensions.IsValidHexNumber"
+
+msgid "is_valid_html_color"
+msgstr "\\ is_valid_html_color"
+
+msgid "StringExtensions.IsValidHtmlColor"
+msgstr "\\ StringExtensions.IsValidHtmlColor"
+
+msgid "is_valid_identifier"
+msgstr "\\ is_valid_identifier"
+
+msgid "StringExtensions.IsValidIdentifier"
+msgstr "\\ StringExtensions.IsValidIdentifier"
+
+msgid "is_valid_int"
+msgstr "\\ is_valid_int"
+
+msgid ""
+"StringExtensions.IsValidInt (Consider using `int.TryParse`_ or `long."
+"TryParse`_)"
+msgstr ""
+"\\ StringExtensions.IsValidInt (`int.TryParse`_ or `long.TryParse`_ の使用を"
+"検討してください)"
+
+msgid "is_valid_ip_address"
+msgstr "\\ is_valid_ip_address"
+
+msgid "StringExtensions.IsValidIPAddress"
+msgstr "\\ StringExtensions.IsValidIPAddress"
+
+msgid "join"
+msgstr "\\ join"
+
+msgid "`string.Join`_"
+msgstr "\\ `string.Join`_"
+
+msgid "json_escape"
+msgstr "\\ json_escape"
+
+msgid "StringExtensions.JSONEscape"
+msgstr "\\ StringExtensions.JSONEscape"
+
+msgid "left"
+msgstr "\\ left"
+
+msgid ""
+"StringExtensions.Left (Consider using `string.Substring`_ or `string."
+"AsSpan`_)"
+msgstr ""
+"\\ StringExtensions.Left (`string.Substring`_ or `string.AsSpan`_ の使用を検"
+"討してください)"
+
+msgid "length"
+msgstr "\\ length"
+
+msgid "`string.Length`_"
+msgstr "\\ `string.Length`_"
+
+msgid "lpad"
+msgstr "\\ lpad"
+
+msgid "`string.PadLeft`_"
+msgstr "\\ `string.PadLeft`_"
+
+msgid "lstrip"
+msgstr "\\ lstrip"
+
+msgid "`string.TrimStart`_"
+msgstr "\\ `string.TrimStart`_"
+
 msgid "match"
 msgstr "\\ match"
+
+msgid "StringExtensions.Match (Consider using `RegEx`_)"
+msgstr "\\ StringExtensions.Match (`RegEx`_ の使用を検討してください)"
+
+msgid "matchn"
+msgstr "\\ matchn"
+
+msgid "StringExtensions.MatchN (Consider using `RegEx`_)"
+msgstr "\\ StringExtensions.MatchN (`RegEx`_ の使用を検討してください)"
+
+msgid "md5_buffer"
+msgstr "\\ md5_buffer"
+
+msgid ""
+"StringExtensions.Md5Buffer (Consider using `System.Security.Cryptography.MD5."
+"HashData`_)"
+msgstr ""
+"StringExtensions.Md5Buffer (`System.Security.Cryptography.MD5.HashData`_ の使"
+"用を検討してください)"
+
+msgid "md5_text"
+msgstr "\\ md5_text"
+
+msgid ""
+"StringExtensions.Md5Text (Consider using `System.Security.Cryptography.MD5."
+"HashData`_ with StringExtensions.HexEncode)"
+msgstr ""
+"StringExtensions.Md5Text (`System.Security.Cryptography.MD5.HashData`_ with "
+"`StringExtensions.HexEncode`_ の使用を検討してください)"
+
+msgid "naturalnocasecmp_to"
+msgstr "\\ naturalnocasecmp_to"
+
+msgid "N/A (Consider using `string.Equals`_ or `string.Compare`_)"
+msgstr "N/A (`string.Equals`_ or `string.Compare`_ の使用を検討してください)"
+
+msgid "nocasecmp_to"
+msgstr "\\ nocasecmp_to"
+
+msgid ""
+"StringExtensions.NocasecmpTo or StringExtensions.CompareTo (Consider using "
+"`string.Equals`_ or `string.Compare`_)"
+msgstr ""
+"StringExtensions.NocasecmpTo or StringExtensions.CompareTo (`string.Equals`_ "
+"or `string.Compare`_ の使用を検討してください)"
+
+msgid "num"
+msgstr "\\ num"
+
+msgid "`float.ToString`_ or `double.ToString`_"
+msgstr "\\ `float.ToString`_ or `double.ToString`_"
+
+msgid "num_int64"
+msgstr "\\ num_int64"
+
+msgid "`int.ToString`_ or `long.ToString`_"
+msgstr "\\ `int.ToString`_ or `long.ToString`_"
+
+msgid "num_scientific"
+msgstr "\\ num_scientific"
+
+msgid "num_uint64"
+msgstr "\\ num_uint64"
+
+msgid "`uint.ToString`_ or `ulong.ToString`_"
+msgstr "\\ `uint.ToString`_ or `ulong.ToString`_"
+
+msgid "pad_decimals"
+msgstr "\\ pad_decimals"
+
+msgid "StringExtensions.PadDecimals"
+msgstr "\\ StringExtensions.PadDecimals"
+
+msgid "pad_zeros"
+msgstr "\\ pad_zeros"
+
+msgid "StringExtensions.PadZeros"
+msgstr "\\ StringExtensions.PadZeros"
+
+msgid "path_join"
+msgstr "\\ path_join"
+
+msgid "StringExtensions.PathJoin"
+msgstr "\\ StringExtensions.PathJoin"
+
+msgid "repeat"
+msgstr "\\ repeat"
+
+msgid "Use `string constructor`_ or a `StringBuilder`_"
+msgstr "`stringコンストラクタ`_ または `StringBuilder`_ を使用します"
+
+msgid "replace"
+msgstr "\\ replace"
+
+msgid "`string.Replace`_ or `RegEx`_"
+msgstr "\\ `string.Replace`_ or `RegEx`_"
+
+msgid "replacen"
+msgstr "\\ replacen"
+
+msgid ""
+"StringExtensions.ReplaceN (Consider using `string.Replace`_ or `RegEx`_)"
+msgstr ""
+"\\ StringExtensions.ReplaceN (`string.Replace`_ or `RegEx`_ の使用を検討して"
+"ください)"
+
+msgid "reverse"
+msgstr "\\ reverse"
+
+msgid "rfind"
+msgstr "\\ rfind"
+
+msgid ""
+"StringExtensions.RFind (Consider using `string.LastIndexOf`_ or `string."
+"LastIndexOfAny`_)"
+msgstr ""
+"StringExtensions.RFind (`string.LastIndexOf`_ or `string.LastIndexOfAny`_ の"
+"使用を検討してください)"
+
+msgid "rfindn"
+msgstr "\\ rfindn"
+
+msgid ""
+"StringExtensions.RFindN (Consider using `string.LastIndexOf`_ or `string."
+"LastIndexOfAny`_)"
+msgstr ""
+"StringExtensions.RFindN (`string.LastIndexOf`_ or `string.LastIndexOfAny`_ の"
+"使用を検討してください)"
+
+msgid "right"
+msgstr "\\ right"
+
+msgid ""
+"StringExtensions.Right (Consider using `string.Substring`_ or `string."
+"AsSpan`_)"
+msgstr ""
+"StringExtensions.Right (`string.Substring`_ or `string.AsSpan`_ の使用を検討"
+"してください)"
+
+msgid "rpad"
+msgstr "\\ rpad"
+
+msgid "`string.PadRight`_"
+msgstr "\\ `string.PadRight`_"
+
+msgid "rsplit"
+msgstr "\\ rsplit"
+
+msgid "rstrip"
+msgstr "\\ rstrip"
+
+msgid "`string.TrimEnd`_"
+msgstr "\\ `string.TrimEnd`_"
+
+msgid "sha1_buffer"
+msgstr "\\ sha1_buffer"
+
+msgid ""
+"StringExtensions.Sha1Buffer (Consider using `System.Security.Cryptography."
+"SHA1.HashData`_)"
+msgstr ""
+"StringExtensions.Sha1Buffer (`System.Security.Cryptography.SHA1.HashData`_ の"
+"使用を検討してください)"
+
+msgid "sha1_text"
+msgstr "\\ sha1_text"
+
+msgid ""
+"StringExtensions.Sha1Text (Consider using `System.Security.Cryptography.SHA1."
+"HashData`_ with StringExtensions.HexEncode)"
+msgstr ""
+"StringExtensions.Sha1Text (`System.Security.Cryptography.SHA1.HashData`_ "
+"with `StringExtensions.HexEncode`_ の使用を検討してください)"
+
+msgid "sha256_buffer"
+msgstr "\\ sha256_buffer"
+
+msgid ""
+"StringExtensions.Sha256Buffer (Consider using `System.Security.Cryptography."
+"SHA256.HashData`_)"
+msgstr ""
+"StringExtensions.Sha256Buffer (`System.Security.Cryptography.SHA256."
+"HashData`_ の使用を検討してください)"
+
+msgid "sha256_text"
+msgstr "\\ sha256_text"
+
+msgid ""
+"StringExtensions.Sha256Text (Consider using `System.Security.Cryptography."
+"SHA256.HashData`_ with StringExtensions.HexEncode)"
+msgstr ""
+"StringExtensions.Sha256Text (`System.Security.Cryptography.SHA256.HashData`_ "
+"with `StringExtensions.HexEncode`_ の使用を検討してください)"
+
+msgid "similarity"
+msgstr "\\ similarity"
+
+msgid "StringExtensions.Similarity"
+msgstr "\\ StringExtensions.Similarity"
+
+msgid "simplify_path"
+msgstr "\\ simplify_path"
+
+msgid "StringExtensions.SimplifyPath"
+msgstr "\\ StringExtensions.SimplifyPath"
+
+msgid "split"
+msgstr "\\ split"
+
+msgid "StringExtensions.Split (Consider using `string.Split`_)"
+msgstr "StringExtensions.Split (`string.Split`_ の使用を検討してください)"
+
+msgid "split_floats"
+msgstr "\\ split_floats"
+
+msgid "StringExtensions.SplitFloat"
+msgstr "\\ StringExtensions.SplitFloat"
+
+msgid "strip_edges"
+msgstr "\\ strip_edges"
+
+msgid ""
+"StringExtensions.StripEdges (Consider using `string.Trim`_, `string."
+"TrimStart`_ or `string.TrimEnd`_)"
+msgstr ""
+"StringExtensions.StripEdges (`string.Trim`_, `string.TrimStart`_ or `string."
+"TrimEnd`_ の使用を検討してください)"
+
+msgid "strip_escapes"
+msgstr "\\ strip_escapes"
+
+msgid "StringExtensions.StripEscapes"
+msgstr "\\ StringExtensions.StripEscapes"
+
+msgid "substr"
+msgstr "\\ substr"
+
+msgid ""
+"StringExtensions.Substr (Consider using `string.Substring`_ or `string."
+"AsSpan`_)"
+msgstr ""
+"StringExtensions.Substr (`string.Substring`_ or `string.AsSpan`_ の使用を検討"
+"してください)"
+
+msgid "to_ascii_buffer"
+msgstr "\\ to_ascii_buffer"
+
+msgid ""
+"StringExtensions.ToAsciiBuffer (Consider using `System.Text.Encoding.ASCII."
+"GetBytes`_)"
+msgstr ""
+"StringExtensions.ToAsciiBuffer (`System.Text.Encoding.ASCII.GetBytes`_ の使用"
+"を検討してください)"
+
+msgid "to_camel_case"
+msgstr "\\ to_camel_case"
+
+msgid "StringExtensions.ToCamelCase"
+msgstr "\\ StringExtensions.ToCamelCase"
+
+msgid "to_float"
+msgstr "\\ to_float"
+
+msgid ""
+"StringExtensions.ToFloat (Consider using `float.TryParse`_ or `double."
+"TryParse`_)"
+msgstr ""
+"StringExtensions.ToFloat (`float.TryParse`_ or `double.TryParse`_ の使用を検"
+"討してください)"
+
+msgid "to_int"
+msgstr "\\ to_int"
+
+msgid ""
+"StringExtensions.ToInt (Consider using `int.TryParse`_ or `long.TryParse`_)"
+msgstr ""
+"StringExtensions.ToInt (`int.TryParse`_ or `long.TryParse`_ の使用を検討して"
+"ください)"
+
+msgid "to_lower"
+msgstr "\\ to_lower"
+
+msgid "`string.ToLower`_"
+msgstr "\\ `string.ToLower`_"
+
+msgid "to_pascal_case"
+msgstr "\\ to_pascal_case"
+
+msgid "StringExtensions.ToPascalCase"
+msgstr "\\ StringExtensions.ToPascalCase"
+
+msgid "to_snake_case"
+msgstr "\\ to_snake_case"
+
+msgid "StringExtensions.ToSnakeCase"
+msgstr "\\ StringExtensions.ToSnakeCase"
+
+msgid "to_upper"
+msgstr "\\ to_upper"
+
+msgid "`string.ToUpper`_"
+msgstr "\\ `string.ToUpper`_"
+
+msgid "to_utf16_buffer"
+msgstr "\\ to_utf16_buffer"
+
+msgid ""
+"StringExtensions.ToUtf16Buffer (Consider using `System.Text.Encoding.UTF16."
+"GetBytes`_)"
+msgstr ""
+"StringExtensions.ToUtf16Buffer (`System.Text.Encoding.UTF16.GetBytes`_ の使用"
+"を検討してください)"
+
+msgid "to_utf32_buffer"
+msgstr "\\ to_utf32_buffer"
+
+msgid ""
+"StringExtensions.ToUtf32Buffer (Consider using `System.Text.Encoding.UTF32."
+"GetBytes`_)"
+msgstr ""
+"StringExtensions.ToUtf32Buffer (`System.Text.Encoding.UTF32.GetBytes`_ の使用"
+"を検討してください)"
+
+msgid "to_utf8_buffer"
+msgstr "\\ to_utf8_buffer"
+
+msgid ""
+"StringExtensions.ToUtf8Buffer (Consider using `System.Text.Encoding.UTF8."
+"GetBytes`_)"
+msgstr ""
+"StringExtensions.ToUtf8Buffer (`System.Text.Encoding.UTF8.GetBytes`_ の使用を"
+"検討してください)"
+
+msgid "to_wchar_buffer"
+msgstr "\\ to_wchar_buffer"
+
+msgid ""
+"StringExtensions.ToUtf16Buffer in Windows and StringExtensions.ToUtf32Buffer "
+"in other platforms"
+msgstr ""
+"Windows では StringExtensions.ToUtf16Buffer、その他のプラットフォームでは "
+"StringExtensions.ToUtf32Buffer"
+
+msgid "trim_prefix"
+msgstr "\\ trim_prefix"
+
+msgid "StringExtensions.TrimPrefix"
+msgstr "\\ StringExtensions.TrimPrefix"
+
+msgid "trim_suffix"
+msgstr "\\ trim_suffix"
+
+msgid "StringExtensions.TrimSuffix"
+msgstr "\\ StringExtensions.TrimSuffix"
+
+msgid "unicode_at"
+msgstr "\\ unicode_at"
+
+msgid "`string[int]`_ indexer"
+msgstr "\\ `string[int]`_ インデクサー"
+
+msgid "uri_decode"
+msgstr "\\ uri_decode"
+
+msgid ""
+"StringExtensions.URIDecode (Consider using `System.Uri.UnescapeDataString`_)"
+msgstr ""
+"StringExtensions.URIDecode (`System.Uri.UnescapeDataString`_ の使用を検討して"
+"ください)"
+
+msgid "uri_encode"
+msgstr "\\ uri_encode"
+
+msgid ""
+"StringExtensions.URIEncode (Consider using `System.Uri.EscapeDataString`_)"
+msgstr ""
+"StringExtensions.URIEncode (`System.Uri.EscapeDataString`_ の使用を検討してく"
+"ださい)"
+
+msgid "validate_node_name"
+msgstr "\\ validate_node_name"
+
+msgid "StringExtensions.ValidateNodeName"
+msgstr "\\ StringExtensions.ValidateNodeName"
+
+msgid "xml_escape"
+msgstr "\\ xml_escape"
+
+msgid "StringExtensions.XMLEscape"
+msgstr "\\ StringExtensions.XMLEscape"
+
+msgid "xml_unescape"
+msgstr "\\ xml_unescape"
+
+msgid "StringExtensions.XMLUnescape"
+msgstr "\\ StringExtensions.XMLUnescape"
+
+msgid ""
+"List of Godot's PackedByteArray methods that create a String and their C# "
+"equivalent:"
+msgstr ""
+"文字列を作成する Godot の PackedByteArray メソッドとそれに対応する C# のリス"
+"ト:"
+
+msgid "get_string_from_ascii"
+msgstr "\\ get_string_from_ascii"
+
+msgid ""
+"StringExtensions.GetStringFromAscii (Consider using `System.Text.Encoding."
+"ASCII.GetString`_)"
+msgstr ""
+"StringExtensions.GetStringFromAscii (`System.Text.Encoding.ASCII.GetString`_ "
+"の使用を検討してください)"
+
+msgid "get_string_from_utf16"
+msgstr "\\ get_string_from_utf16"
+
+msgid ""
+"StringExtensions.GetStringFromUtf16 (Consider using `System.Text.Encoding."
+"UTF16.GetString`_)"
+msgstr ""
+"StringExtensions.GetStringFromUtf16 (`System.Text.Encoding.UTF16.GetString`_ "
+"の使用を検討してください)"
+
+msgid "get_string_from_utf32"
+msgstr "\\ get_string_from_utf32"
+
+msgid ""
+"StringExtensions.GetStringFromUtf32 (Consider using `System.Text.Encoding."
+"UTF32.GetString`_)"
+msgstr ""
+"StringExtensions.GetStringFromUtf32 (`System.Text.Encoding.UTF32.GetString`_ "
+"の使用を検討してください)"
+
+msgid "get_string_from_utf8"
+msgstr "\\ get_string_from_utf8"
+
+msgid ""
+"StringExtensions.GetStringFromUtf8 (Consider using `System.Text.Encoding."
+"UTF8.GetString`_)"
+msgstr ""
+"StringExtensions.GetStringFromUtf8 (`System.Text.Encoding.UTF8.GetString`_ の"
+"使用を検討してください)"
+
+msgid "hex_encode"
+msgstr "\\ hex_encode"
+
+msgid ""
+"StringExtensions.HexEncode (Consider using `System.Convert.ToHexString`_)"
+msgstr ""
+"StringExtensions.HexEncode (`System.Convert.ToHexString`_ の使用を検討してく"
+"ださい)"
+
+msgid ""
+".NET provides path utility methods under the `System.IO.Path`_ class. They "
+"can only be used with native OS paths, not Godot paths (paths that start "
+"with ``res://`` or ``user://``). See :ref:`doc_data_paths`."
+msgstr ""
+".NET は `System.IO.Path`_ クラスの下にパス ユーティリティ メソッドを提供しま"
+"す。これらはネイティブ OS パスでのみ使用でき、Godot パス (``res://`` または "
+"``user://`` で始まるパス) では使用できません。:ref:`doc_data_paths` を参照し"
+"てください。"
 
 msgid "NodePath"
 msgstr "\\ NodePath"
@@ -226,6 +1861,11 @@ msgstr "配列"
 msgid "Dictionary"
 msgstr "辞書(ディクショナリ)"
 
+msgid "See also :ref:`Dictionary in C# <doc_c_sharp_collections_dictionary>`."
+msgstr ""
+"\\ :ref:`C# のディクショナリ <doc_c_sharp_collections_dictionary>`も参照して"
+"ください。"
+
 msgid "Variant"
 msgstr "バリアント"
 
@@ -234,6 +1874,3 @@ msgstr "他のスクリプト言語との通信"
 
 msgid "This is explained extensively in :ref:`doc_cross_language_scripting`."
 msgstr "これは :ref:`doc_cross_language_scripting` で詳細に説明されています。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

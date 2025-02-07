@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -232,6 +232,3 @@ msgstr ""
 "Компоновка шины по умолчанию автоматически сохраняется в файле res: // "
 "default_bus_layout.tres. Пользовательские схемы шин могут быть сохранены и "
 "загружены с диска."
-
-msgid "Translation status"
-msgstr "Статус перевода"

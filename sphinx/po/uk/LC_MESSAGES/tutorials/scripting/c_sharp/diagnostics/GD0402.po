@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,69 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0402: The class must not be generic"
+msgstr "GD0402: клас не має бути загальним"
+
+msgid "**Rule ID**"
+msgstr "**Ідентифікатор правила**"
+
+msgid "GD0402"
+msgstr "GD0402"
+
 msgid "**Category**"
 msgstr "**Категорія**"
 
 msgid "Usage"
 msgstr "Використання"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Виправлення ламається або не ламається**"
+
+msgid "Breaking"
+msgstr "ломка"
+
+msgid "**Enabled by default**"
+msgstr "**Увімкнено за замовчуванням**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "причина"
+
+msgid "A generic type is annotated with the ``[GlobalClass]`` attribute."
+msgstr "Загальний тип анотується атрибутом ``[GlobalClass]``."
+
+msgid "Rule description"
+msgstr "Опис правила"
+
+msgid ""
+"The Godot editor assumes every :ref:`global class "
+"<doc_c_sharp_global_classes>` is instantiable, but generic types can't be "
+"instantiated because the type parameters are unbound."
+msgstr ""
+"Редактор Godot припускає, що кожен :ref:`глобальний клас "
+"<doc_c_sharp_global_classes>` можна створити, але загальні типи не можуть "
+"бути створені, оскільки параметри типу не зв’язані."
+
+msgid "How to fix violations"
+msgstr "Як усунути порушення"
+
+msgid ""
+"To fix a violation of this rule, change the type to remove the generic type "
+"parameters or remove the ``[GlobalClass]`` attribute."
+msgstr ""
+"Щоб виправити порушення цього правила, змініть тип, щоб видалити параметри "
+"загального типу, або видаліть атрибут ``[GlobalClass]``."
+
+msgid "When to suppress warnings"
+msgstr "Коли придушувати попередження"
+
+msgid ""
+"Do not suppress a warning from this rule. Adding the ``[GlobalClass]`` to a "
+"generic type is an easy mistake to make and this warning helps users realize "
+"that it may result in unexpected errors."
+msgstr ""
+"Не приховуйте попередження з цього правила. Додавання ``[GlobalClass]`` до "
+"загального типу є легкою помилкою, і це попередження допомагає користувачам "
+"зрозуміти, що це може призвести до несподіваних помилок."

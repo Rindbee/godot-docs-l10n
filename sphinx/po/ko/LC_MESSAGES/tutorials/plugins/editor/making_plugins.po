@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -103,6 +103,3 @@ msgstr ""
 "`Semantic Versioning <https://semver.org/>`_을 확인하세요. 메인 스크립트 파일"
 "은 플러그인이 활성화되면 에디에서 플러그인이 수행하는 작업을 Godot에게 지시니"
 "다."
-
-msgid "Translation status"
-msgstr "번역 상태"

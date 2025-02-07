@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -207,6 +207,22 @@ msgstr ""
 "Par exemple, imaginez que nous avons une balle en mouvement que nous voulons "
 "faire rebondir sur un mur ou un autre objet :"
 
+msgid ""
+"The surface normal has a value of ``(0, -1)`` because this is a horizontal "
+"surface. When the ball collides, we take its remaining motion (the amount "
+"left over when it hits the surface) and reflect it using the normal. In "
+"Godot, there is a :ref:`bounce() <class_Vector2_method_bounce>` method to "
+"handle this. Here is a code example of the above diagram using a :ref:"
+"`CharacterBody2D <class_CharacterBody2D>`:"
+msgstr ""
+"La normale de surface a une valeur de ``(0, -1)`` parce que c'est une "
+"surface horizontale. Lorsque la balle entre en collision, nous prenons son "
+"mouvement restant (la quantité restante lorsqu'elle touche la surface) et "
+"nous la réfléchissons en utilisant la normale. Dans Godot, il y a une "
+"méthode :ref:`bounce() <class_Vector2_method_bounce>` pour gérer cela. Voici "
+"un exemple de code du diagramme ci-dessus utilisant un :ref:`CharacterBody2D "
+"<class_CharacterBody2D>` :"
+
 msgid "Dot product"
 msgstr "Produit scalaire"
 
@@ -318,6 +334,3 @@ msgstr ":ref:`doc_vectors_advanced`"
 
 msgid ":ref:`doc_matrices_and_transforms`"
 msgstr ":ref:`doc_matrices_and_transforms`"
-
-msgid "Translation status"
-msgstr "État de la traduction"

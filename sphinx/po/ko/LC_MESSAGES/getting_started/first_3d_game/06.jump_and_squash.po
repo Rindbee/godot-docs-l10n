@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,9 +10,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid "Jumping and squashing monsters"
-msgstr "몬스터 점프 및 격파"
 
 msgid ""
 "In this part, we'll add the ability to jump and squash the monsters. In the "
@@ -347,6 +344,3 @@ msgstr ""
 "get_slide_collision_count()``와 ``get_slide_collision()`` 함수는 모두 :ref:"
 "`CharacterBody3D <class_CharacterBody3D>` 클래스에서 제공되며 "
 "``move_and_slide()``와 관련되어 있습니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

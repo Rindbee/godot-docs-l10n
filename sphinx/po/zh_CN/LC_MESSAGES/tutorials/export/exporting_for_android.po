@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -61,6 +61,22 @@ msgstr ""
 "运行一次，使用这些\\ `说明 <https://developer.android.com/studio/intro/"
 "update#sdk-manager>`__\\ 完成 SDK 设置。"
 
+msgid ""
+"Ensure that the `required packages <https://developer.android.com/studio/"
+"intro/update#required>`__ are installed as well."
+msgstr ""
+"确保安装了\\ `必要的软件包 <https://developer.android.com/studio/intro/"
+"update#recommended>`__\\ 。"
+
+msgid "Android SDK Platform-Tools version 34.0.0 or later"
+msgstr "Android SDK Platform-Tools 34.0.0 或更高版本"
+
+msgid "Android SDK Build-Tools version 34.0.0"
+msgstr "Android SDK Build-Tools 34.0.0"
+
+msgid "Android SDK Platform 34"
+msgstr "Android SDK Platform 34"
+
 msgid "Android SDK Command-line Tools (latest)"
 msgstr "Android SDK Command-line Tools（最新）"
 
@@ -69,6 +85,27 @@ msgstr "CMake 版本 3.10.2.4988404"
 
 msgid "NDK version r23c (23.2.8568313)"
 msgstr "NDK 版本 r23c（23.2.8568313）"
+
+msgid ""
+"Alternatively, you can install the Android SDK with the `sdkmanager` command "
+"line tool."
+msgstr ""
+"或者你也可以使用\\ `sdkmanager命令行工具 <https://developer.android.com/"
+"studio/#command-tools>`__\\ 来安装 Android SDK。"
+
+msgid ""
+"Install the command line tools package using these `instructions <https://"
+"developer.android.com/tools/sdkmanager>`__."
+msgstr ""
+"使用以下\\ `说明 <https://developer.android.com/tools/sdkmanager>`__\\ 完成命"
+"令行工具安装。"
+
+msgid ""
+"Once the command line tools are installed, run the following `sdkmanager` "
+"command to complete the setup process:"
+msgstr ""
+"命令行工具安装完成后, 运行 `sdkmanager <https://developer.android.com/studio/"
+"command-line/sdkmanager>`__ 命令以完成安装过程:"
 
 msgid ""
 "If you are using Linux, **do not use an Android SDK provided by your "
@@ -91,6 +128,19 @@ msgstr "向下滚动到 Android 设置所在的部分："
 
 msgid "In that screen, 2 paths need to be set:"
 msgstr "在该屏幕中，需要设置两个路径："
+
+msgid ""
+"``Java SDK Path`` should be the location where OpenJDK 17 was installed."
+msgstr "``Java SDK Path`` 应当为 OpenJDK 17 的安装位置。"
+
+msgid ""
+"``Android Sdk Path`` should be the location where the Android SDK was "
+"installed. - For example ``%LOCALAPPDATA%\\Android\\Sdk\\`` on Windows or ``/"
+"Users/$USER/Library/Android/sdk/`` on macOS."
+msgstr ""
+"``Android Sdk Path`` 设置为Android SDK的安装位置. 例如,Windows上的 "
+"``%LOCALAPPDATA%\\Android\\Sdk\\`` , 或macOS上的 ``/Users/$USER/Library/"
+"Android/sdk/`` ."
 
 msgid "Once that is configured, everything is ready to export to Android!"
 msgstr "配置完成后, 导出到Android的一切都准备好了！"
@@ -200,13 +250,6 @@ msgstr ""
 msgid "Exporting for Google Play Store"
 msgstr "为 Google Play 商店导出"
 
-msgid ""
-"Uploading an APK to Google's Play Store requires you to sign using a non-"
-"debug keystore file; such file can be generated like this:"
-msgstr ""
-"将 APK 上传到 Google 的 Play 商店，需要你使用非调试密钥库文件进行签名；这样的"
-"文件可以像这样生成："
-
 msgid "Now fill in the following forms in your Android Export Presets:"
 msgstr "现在，在你的 Android 导出预设中填写以下表格："
 
@@ -224,37 +267,6 @@ msgstr "**发布密码：**\\ 密钥密码。请注意，密钥库密码和密�
 msgid ""
 "Don't forget to uncheck the **Export With Debug** checkbox while exporting."
 msgstr "在导出时，不要忘记取消勾选\\ **使用调试导出**\\ 。"
-
-msgid "Optimizing the APK size"
-msgstr "优化 APK 大小"
-
-msgid ""
-"By default, the APK will contain native libraries for both ARMv7 and ARMv8 "
-"architectures. This increases its size significantly. To create a smaller "
-"APK, uncheck either **Armeabi-v 7a** or **Arm 64 -v 8a** in your project's "
-"Android export preset. This will create an APK that only contains a library "
-"for a single architecture. Note that applications targeting ARMv7 can also "
-"run on ARMv8 devices, but the opposite is not true."
-msgstr ""
-"默认情况下,APK将包含适用于ARMv7和ARMv8体系结构的本地库. 这会大大增加其大小. "
-"要创建较小的APK, 请在项目的Android导出预设中取消选中 **Armeabi-v 7a** 或 "
-"**Arm 64 -v 8a** . 这将创建一个仅包含单个架构库的APK. 请注意, 针对ARMv7的应用"
-"程序也可以在ARMv8设备上运行, 但事实并非如此."
-
-msgid ""
-"Since August 2019, Google Play requires all applications to be available in "
-"64-bit form. This means you cannot upload an APK that contains *just* an "
-"ARMv7 library. To solve this, you can upload several APKs to Google Play "
-"using its `Multiple APK support <https://developer.android.com/google/play/"
-"publishing/multiple-apks>`__. Each APK should target a single architecture; "
-"creating an APK for ARMv7 and ARMv8 is usually sufficient to cover most "
-"devices in use today."
-msgstr ""
-"自2019年8月起,Google Play要求所有应用程序都必须以64位格式提供. 这意味着你不能"
-"上传 *仅* 包含ARMv7库的APK. 为了解决这个问题, 你可以使用其 `多个APK 支持 "
-"<https://developer.android.com/google/play/publishing/multiple-apks>`__ 将多"
-"个APK上传到Google Play. 每个APK都应针对单一架构；为ARMv7和ARMv8创建APK通常足"
-"以覆盖当今使用的大多数设备."
 
 msgid ""
 "You can optimize the size further by compiling an Android export template "
@@ -325,6 +337,3 @@ msgstr "选项 / 密钥库 / 发布密码"
 
 msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``"
 msgstr "``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``"
-
-msgid "Translation status"
-msgstr "翻译状态"

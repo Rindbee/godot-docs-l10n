@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -379,7 +379,7 @@ msgstr ""
 "了。”*"
 
 msgid "Yes, we should call it Hulk typing instead."
-msgstr "没错，称它为浩克（Hulk，即绿巨人）类型适乎更合适。"
+msgstr "没错，称它为绿巨人类型适乎更合适。"
 
 msgid ""
 "It's possible that the object being hit doesn't have a smash() function. "
@@ -395,6 +395,3 @@ msgid ""
 "Then, simply define that method and anything the rock touches can be smashed."
 msgstr ""
 "然后，稍微定义下这个方法之后，大石块所触碰的任何东西都可以被大石块砸碎了。"
-
-msgid "Translation status"
-msgstr "翻译状态"

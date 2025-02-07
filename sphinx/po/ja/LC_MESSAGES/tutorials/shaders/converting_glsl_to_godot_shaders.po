@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -498,6 +498,3 @@ msgid ""
 "<glsl_coordinates>`."
 msgstr ""
 "Book of Shadersは :ref:`GLSL <glsl_coordinates>` と同じ座標系を使用します。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

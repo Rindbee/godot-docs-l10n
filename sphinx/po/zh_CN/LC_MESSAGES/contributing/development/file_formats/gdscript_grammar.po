@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -30,6 +30,3 @@ msgid ""
 msgstr ""
 "此语法源自参考文档和当前实现，仅用于描述。GDScript 解析器\\ **不是**\\ 根据语"
 "法定义生成的。如果有不一致的地方，应该是此语法的错误，不是 GDScript 的 Bug。"
-
-msgid "Translation status"
-msgstr "翻译状态"

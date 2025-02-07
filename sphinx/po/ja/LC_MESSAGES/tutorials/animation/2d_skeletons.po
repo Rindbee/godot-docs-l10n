@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,15 +16,6 @@ msgstr "2Dスケルトン"
 
 msgid "Introduction"
 msgstr "はじめに"
-
-msgid ""
-"One option is to create animations in third-party software such as Spine or "
-"Dragonbones. From Godot 3.1 onwards, though, this functionality is supported "
-"built-in."
-msgstr ""
-"1つのオプションは、SpineやDragonbonesなどのサードパーティソフトウェアでアニ"
-"メーションを作成することです。ただし、Godot 3.1以降では、この機能は組み込みで"
-"サポートされています。"
 
 msgid ""
 "Why would you want to do skeletal animations directly in Godot? The answer "
@@ -343,6 +334,3 @@ msgstr ""
 
 msgid "Once you are all set, you will get much better results:"
 msgstr "すべての設定が完了すると、より良い結果が得られます:"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

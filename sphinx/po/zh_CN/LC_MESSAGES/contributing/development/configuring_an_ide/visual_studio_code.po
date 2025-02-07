@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -49,9 +49,6 @@ msgid ""
 "*Configure Task*."
 msgstr ""
 "按 :kbd:`Ctrl + Shift + P` 打开命令提示符窗口，然后输入 *Configure Task*\\ 。"
-
-msgid "Select the **Create tasks.json file from template** option."
-msgstr "选择从模板中创建tasks.json文件选项."
 
 msgid "Then select **Others**."
 msgstr "然后选择\\ **其他**\\ 。"
@@ -119,6 +116,3 @@ msgid ""
 msgstr ""
 "如果遇到问题, 也可在 `Godot 社区论坛 <https://godotengine.org/community>`__ "
 "中寻求帮助."
-
-msgid "Translation status"
-msgstr "翻译状态"

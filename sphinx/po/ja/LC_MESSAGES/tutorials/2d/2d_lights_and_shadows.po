@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,8 +20,12 @@ msgstr "はじめに"
 msgid "Nodes"
 msgstr "ノード"
 
+msgid ""
+":ref:`CanvasModulate <class_CanvasModulate>` (to darken the rest of the "
+"scene)"
+msgstr ""
+"\\ :ref:`CanvasModulate<class_CanvasModulate>` (シーンの残りの部分を暗くする"
+"ために使用します)"
+
 msgid "Directional light"
 msgstr "指向性(Directional)ライト"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

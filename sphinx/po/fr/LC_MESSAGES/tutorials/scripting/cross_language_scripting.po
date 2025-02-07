@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -142,16 +142,6 @@ msgstr ""
 msgid "Calling GDScript methods from C#"
 msgstr "Appel de méthodes GDScript depuis C#"
 
-msgid ""
-"As you can see, if the first argument of the called method is an array, "
-"you'll need to cast it as ``object``. Otherwise, each element of your array "
-"will be treated as a single argument and the function signature won't match."
-msgstr ""
-"Comme vous pouvez voir, le premier argument de la méthode appelé est un "
-"array, vous aurez besoin de le convertir comme un ``object``. Sinon chaque "
-"élément de votre array sera traité comme un argument unique et la signature "
-"de la fonction ne correspondra pas."
-
 msgid "Inheritance"
 msgstr "Héritage"
 
@@ -167,6 +157,3 @@ msgstr ""
 "mise en œuvre serait telle que cette limitation ne sera surement pas levée à "
 "l'avenir. Voir `cette édition de GitHub <https://github.com/godotengine/"
 "godot/issues/38352>`__ pour plus d'informations."
-
-msgid "Translation status"
-msgstr "État de la traduction"

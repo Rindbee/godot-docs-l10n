@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,13 +13,6 @@ msgstr ""
 
 msgid "Using the Web editor"
 msgstr "웹 에디터 사용하기"
-
-msgid ""
-"Since Godot 3.3, there is a `Web editor <https://editor.godotengine.org/>`__ "
-"you can use to work on new or existing projects."
-msgstr ""
-"Godot 3.3부터 새 프로젝트나 기존 프로젝트를 `웹 에디터 <https://editor."
-"godotengine.org/>`__\\ 에서도 작업할 수 있습니다."
 
 msgid ""
 "The web editor is in a preliminary stage. While its feature set may be "
@@ -126,16 +119,6 @@ msgstr "외부 스크립트 에디터 미지원."
 msgid "No support for Android one-click deploy."
 msgstr "Android 원클릭 배포 미지원."
 
-msgid ""
-"See the `list of open issues on GitHub related to the web editor <https://"
-"github.com/godotengine/godot/issues?"
-"q=is%3Aopen+is%3Aissue+label%3Aplatform%3Ahtml5+label%3Atopic%3Aeditor>`__ "
-"for a list of known bugs."
-msgstr ""
-"알려진 버그는 `Github의 웹 에디터 오픈 이슈 목록 <https://github.com/"
-"godotengine/godot/issues?q=is:open+is:issue+label:platform:html5+label:topic:"
-"editor>`__\\ 을 참조하세요."
-
 msgid "Importing a project"
 msgstr "프로젝트 가져오기"
 
@@ -234,6 +217,3 @@ msgstr ""
 "API/FileSystem>`__\\ 를 사용해 네이티브 에디터처럼 사용자의 파일 시스템에 프"
 "로젝트 파일을 저장하는 것이 가능할 수도 있습니다. 그러나 아직 구현되지는 않았"
 "습니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

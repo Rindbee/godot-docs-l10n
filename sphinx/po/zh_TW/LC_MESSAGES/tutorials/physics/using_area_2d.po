@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -246,6 +246,3 @@ msgstr ""
 "您可以在此處下載專案：`area_2d_starter.zip <https://github.com/godotengine/"
 "godot-docs-project-starters/releases/download/latest-4.x/area_2d_starter."
 "zip>`_"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -146,6 +146,16 @@ msgstr ""
 
 msgid "Setting up"
 msgstr "Einrichtung"
+
+msgid ""
+"Baking lightmaps in the Android and web editors is not supported due to "
+"graphics API limitations on those devices. On Android and web platforms, "
+"only *rendering* lightmaps that were baked on a desktop PC is supported."
+msgstr ""
+"Das Backen von Lightmaps in den Android- und Web-Editoren wird aufgrund von "
+"Grafik-API-Einschränkungen auf diesen Geräten nicht unterstützt. Auf "
+"Android- und Webplattformen wird nur das *Rendern* von Lightmaps "
+"unterstützt, die auf einem Desktop-PC gebacken wurden."
 
 msgid ""
 "First of all, before the lightmapper can do anything, the objects to be "
@@ -1094,6 +1104,3 @@ msgstr ""
 "8 LightmapGI-Nodes gleichzeitig zu rendern, was bedeutet, dass bis zu 8 "
 "Instanzen in der Kameraansicht sein können, bevor einige von ihnen anfangen "
 "zu flackern."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

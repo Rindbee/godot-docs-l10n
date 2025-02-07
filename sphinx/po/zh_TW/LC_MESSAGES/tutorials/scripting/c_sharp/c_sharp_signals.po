@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -116,6 +116,3 @@ msgstr ""
 "最後，您可以在遊戲運作時直接建立自訂訊號。為此，請使用“AddUserSignal”方法。請"
 "注意，應在使用所述訊號（連接到它們或發出它們）之前執行它。另請注意，以這種方"
 "式建立的訊號將不會透過「SignalName」巢狀類別可見。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -486,6 +486,3 @@ msgstr ""
 "einem bestimmten Pixel auf dem Bildschirm überblenden. Wenn sich mehr als 2 "
 "VoxelGI-Nodes überlappen, kann die globale Beleuchtung flackern, wenn sich "
 "die Kamera bewegt oder dreht."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

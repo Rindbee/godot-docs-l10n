@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -55,6 +55,3 @@ msgstr ""
 msgid ""
 "Alternatively, it's possible to ask the viewport for the mouse position:"
 msgstr "También es posible preguntar al viewport por la posición del mouse:"
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

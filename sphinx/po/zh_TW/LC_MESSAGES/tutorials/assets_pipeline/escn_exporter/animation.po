@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -134,6 +134,3 @@ msgstr ""
 "本模式的行為與「Animation as Action」很像，但產生的 AnimationPlayer 比較少。"
 "在父級-子級關係中的物件會共用 AnimationPlayer。適合用於有多個綁定關係、骨骼與"
 "網格都有各自的動作時，一個綁定就只會有一個 AnimationPlayer。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

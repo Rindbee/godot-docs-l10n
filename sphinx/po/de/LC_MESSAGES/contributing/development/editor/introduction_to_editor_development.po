@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -206,6 +206,3 @@ msgstr ""
 "zu erstellen und es nach dem Kompilieren des Editors :ref:`über die "
 "Kommandozeile zu öffnen <doc_command_line_tutorial>`. Auf diese Weise müssen "
 "Sie nicht jedes Mal, wenn Sie Godot starten, über den Projektmanager gehen."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

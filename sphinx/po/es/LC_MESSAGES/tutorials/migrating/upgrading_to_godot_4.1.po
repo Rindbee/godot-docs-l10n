@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -316,6 +316,9 @@ msgstr ""
 "El método ``collide_shape`` cambia el tipo retornado de "
 "``Array[PackedVector3Array]`` a ``Array[Vector3]``"
 
+msgid "Rendering"
+msgstr "Renderizado"
+
 msgid "**RDShaderFile**"
 msgstr "**RDShaderFile**"
 
@@ -600,6 +603,3 @@ msgid ""
 msgstr ""
 "Esto le permite a Godot saber que su GDExtension ha sido actualizada y que "
 "es seguro cargarla en Godot 4.1."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

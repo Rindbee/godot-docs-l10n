@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,5 +14,15 @@ msgstr ""
 msgid "Introduction"
 msgstr "Введение"
 
-msgid "Translation status"
-msgstr "Статус перевода"
+msgid ""
+"If you also need navigation support, now is a good time to create a "
+"navigation layer:"
+msgstr ""
+"Если вам также нужна поддержка навигации, то сейчас подходящее время создать "
+"слой навигации:"
+
+msgid "Creating a terrain within the terrain set"
+msgstr "Создание местности через набор местности"
+
+msgid "Painting tile properties using the TileSet editor"
+msgstr "Рисование свойств тайла используя редактор наборов Тайлов"

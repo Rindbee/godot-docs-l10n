@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,46 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "The Inspector"
+msgstr "L'inspecteur"
+
+msgid ""
+"This page explains how the Inspector dock works in-depth. You will learn how "
+"to edit properties, fold and unfold areas, use the search bar, and more."
+msgstr ""
+"Cette page explique en détail comment la barre d'outils de l'Inspecteur "
+"fonctionne. Vous apprendrez comment éditer des propriétés, réduire ou "
+"développer des zones, utiliser la barre de recherche et plus encore."
+
 msgid "This page is a work-in-progress."
 msgstr "Cette page est un travail en cours."
 
-msgid "Translation status"
-msgstr "État de la traduction"
+msgid "Overview of the interface"
+msgstr "Aperçu de l'interface"
+
+msgid "Let's start by looking at the dock's main parts."
+msgstr "Commençons par regarder les éléments principaux de la barre d'outils."
+
+msgid "At the top are the file and navigation buttons."
+msgstr "En haut il y a le fichier et les boutons de navigation."
+
+msgid ""
+"Below it, you can find the selected node's name, its type, and the tools "
+"menu on the right side."
+msgstr ""
+"En dessous, vous trouvez le nom du nœud sélectionné, son type et le menu "
+"d'outils sur le coté droit."
+
+msgid ""
+"If you click the tool menu icon, a drop-down menu offers some view and edit "
+"options."
+msgstr ""
+"Si vous cliquez sur l'icône du menu d'outils, un menu déroulant propose "
+"plusieurs vues et des options d'édition."
+
+msgid ""
+"Then comes the search bar. Type anything in it to filter displayed "
+"properties. Delete the text to clear the search."
+msgstr ""
+"Ensuite il y a la barre de recherche. Tapez ce que vous voulez pour filtrer "
+"les propriétés affichées. Effacez le texte pour supprimer le filtrage."

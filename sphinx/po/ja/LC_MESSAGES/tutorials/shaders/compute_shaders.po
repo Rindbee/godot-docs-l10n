@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -398,6 +398,3 @@ msgstr ""
 "別にハイトマップイメージの生成を実行します。これにより同様のアルゴリズムを2つ"
 "の異なる方法で実装する方法を比較できます (ほとんどの場合、GPU実装の方が高速で"
 "す)。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

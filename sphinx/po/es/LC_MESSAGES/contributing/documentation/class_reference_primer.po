@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -187,8 +187,14 @@ msgstr "Resultado"
 msgid "``Move the [Sprite2D].``"
 msgstr "``Mueve el [Sprite2D].``"
 
+msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+msgstr "Consulte :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+
 msgid "Link to constant"
 msgstr "Vínculo a constante"
+
+msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
+msgstr "Consulte :ref:`Color.RED <class_Color_constant_RED>`."
 
 msgid "Link to member"
 msgstr "Vínculo a miembro"
@@ -198,6 +204,12 @@ msgstr "``Obtén [member Node2D.scale].``"
 
 msgid "``Call [method Node3D.hide].``"
 msgstr "``Llama a [method Node3D.hide].``"
+
+msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
+msgstr "Consulte :ref:`Color.Color <class_Color_constructor_Color>`."
+
+msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+msgstr "Consulte :ref:`Color.operator * <class_Color_operator_mul_int>`."
 
 msgid "``Emit [signal Node.renamed].``"
 msgstr "``Emite [signal Node.renamed].``"
@@ -217,8 +229,40 @@ msgstr "``[kbd]`` ``[/kbd]``"
 msgid "Keyboard/mouse shortcut"
 msgstr "Atajo del teclado/ratón"
 
+msgid "Press :kbd:`Ctrl + C`."
+msgstr "Presione :kbd:`Ctrl + C`."
+
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
+
+msgid "Returns ``true``."
+msgstr "Devuelve ``true``."
+
+msgid ""
+"Some supported tags like ``[color]`` and ``[font]`` are not listed here "
+"because they are not recommended in the engine documentation."
+msgstr ""
+"Algunas etiquetas soportadas como ``[color]`` y ``[font]`` no se enumeran "
+"aquí porque no se recomiendan en la documentación del motor."
+
+msgid "Formatting code blocks"
+msgstr "Formateando bloques de código"
+
+msgid "There are two options for formatting code blocks:"
+msgstr "Existen dos opciones para dar formato a los bloques de código:"
+
+msgid ""
+"Use ``[codeblock]`` if you want to add an example for a specific language."
+msgstr ""
+"Utiliza ``[codeblock]``si deseas añadir un ejemplo para un lenguaje en "
+"específico."
+
+msgid ""
+"Use ``[codeblocks]``, ``[gdscript]``, and ``[csharp]`` if you want to add "
+"the same example for both languages, GDScript and C#."
+msgstr ""
+"Utiliza ``[codeblocks]``, ``[gdscript]``, y ``[csharp]`` si deseas añadir el "
+"mismo ejemplo para ambos lenguajes, GDScript y C#."
 
 msgid ""
 "Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, "
@@ -279,5 +323,20 @@ msgstr ""
 "Claro, en todos los párrafos descritos anteriormente, asegúrate de que la "
 "puntuación forme parte de las etiquetas BBCode para mantener la consistencia."
 
-msgid "Translation status"
-msgstr "Estado de la traducción"
+msgid "Marking API as deprecated/experimental"
+msgstr "Marcar una API como obsoleta/experimental"
+
+msgid ""
+"To mark an API as deprecated or experimental, you need to add the "
+"corresponding XML attribute. The attribute value must be a message "
+"explaining why the API is not recommended (BBCode markup is supported) or an "
+"empty string (the default message will be used). If an API element is marked "
+"as deprecated/experimental, then it is considered documented even if the "
+"description is empty."
+msgstr ""
+"Para marcar una API como obsoleta o experimental, necesitas añadir el "
+"atributo XML correspondiente. El valor del atributo debe ser un mensaje "
+"explicando por qué no se recomienda más la API (se admite el marcado BBCode) "
+"o una cadena vacía (se usará el mensaje predeterminado). Si un elemento de "
+"la API está marcado como obsoleto/experimental, se considera como "
+"documentado incluso si la descripción está vacía."

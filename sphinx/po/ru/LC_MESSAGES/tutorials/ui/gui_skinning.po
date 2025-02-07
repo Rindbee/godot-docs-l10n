@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -51,6 +51,9 @@ msgstr ""
 "использовать эту конфигурацию так, как ему нужно для своего отображения. Это "
 "важно помнить при реализации :ref:`собственных пользовательских элементов "
 "управления <doc_custom_gui_controls>`."
+
+msgid "**Font**"
+msgstr "**Font**"
 
 msgid ""
 "It is important to remember that for child classes that process is "
@@ -147,6 +150,3 @@ msgstr ""
 "текстуры. Главное преимущество заключается в том, что вы можете создавать "
 "разные темы, используя одни и те же элементы темы для красной, синей и "
 "зеленой команд, и менять их местами одним изменением ресурса."
-
-msgid "Translation status"
-msgstr "Статус перевода"

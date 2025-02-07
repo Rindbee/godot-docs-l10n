@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,5 +29,8 @@ msgstr "Düzenleyici verisi"
 msgid "Editor settings"
 msgstr "Düzenleyici ayarları"
 
-msgid "Translation status"
-msgstr "Çeviri durumu"
+msgid "Cache"
+msgstr "Önbellek"
+
+msgid "Self-contained mode"
+msgstr "Bağımsız mod"

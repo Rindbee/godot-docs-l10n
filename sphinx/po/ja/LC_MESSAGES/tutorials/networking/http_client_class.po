@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,11 +29,8 @@ msgid ""
 "Here's an example of using the :ref:`HTTPClient <class_HTTPClient>` class. "
 "It's just a script, so it can be run by executing:"
 msgstr ""
-":ref:`HTTPClient <class_HTTPClient>`クラスの使用例を次に示します。これは単な"
+":ref:`HTTPClient <class_HTTPClient>` クラスの使用例を次に示します。これは単な"
 "るスクリプトなので、次を走らせることで実行できます:"
 
 msgid "It will connect and fetch a website."
 msgstr "Webサイトに接続して取得します。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

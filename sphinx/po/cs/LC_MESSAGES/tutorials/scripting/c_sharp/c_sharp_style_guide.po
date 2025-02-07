@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -40,6 +40,3 @@ msgstr ""
 "Lokální proměnné deklarujte co nejblíže jejich prvnímu použití. To usnadňuje "
 "sledování kódu, aniž byste museli příliš rolovat, abyste našli místo, kde "
 "byla proměnná deklarována."
-
-msgid "Translation status"
-msgstr "Stav překladu"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -77,16 +77,6 @@ msgstr ""
 "器. 音频数据可以通过多种方式加载, 例如使用用于音调发生器的内部计数器, 内部/外"
 "部缓冲区, 或文件引用."
 
-msgid ""
-"Some AudioStreams need to be stateless such as objects loaded from "
-"ResourceLoader. ResourceLoader loads once and references the same object "
-"regardless how many times ``load`` is called on a specific resource. "
-"Therefore, playback state must be self-contained in AudioStreamPlayback."
-msgstr ""
-"某些AudioStream需要是无状态的, 例如从ResourceLoader加载的对象.ResourceLoader"
-"加载一次并引用同一对象, 而不管在该特定资源上调用了多少次 ``load``. 因此, 播放"
-"状态必须被包含在AudioStreamPlayback中."
-
 msgid "Create an AudioStreamPlayback"
 msgstr "创建 AudioStreamPlayback"
 
@@ -128,6 +118,3 @@ msgid ""
 msgstr ""
 "`core/math/audio_frame.h <https://github.com/godotengine/godot/blob/master/"
 "core/math/audio_frame.h>`__"
-
-msgid "Translation status"
-msgstr "翻译状态"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -165,6 +165,3 @@ msgstr ""
 "定了速度，但是在你自己的著色器中，你也可以設定 ``COLOR``、旋轉、縮放（通過 "
 "``TRANSFORM``）。有關粒子著色器的更多資訊，請參閱:ref:`《粒子著色器參考》 "
 "<doc_particle_shader>`。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

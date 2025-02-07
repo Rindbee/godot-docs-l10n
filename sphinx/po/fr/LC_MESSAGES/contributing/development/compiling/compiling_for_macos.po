@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,6 +29,11 @@ msgstr "Pré-requis"
 msgid "For compiling under macOS, the following is required:"
 msgstr ""
 "Pour la compilation sous macOS, les éléments suivants sont nécessaires :"
+
+msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
+msgstr ""
+"`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ système de "
+"construction(build)."
 
 msgid ""
 "`Xcode <https://apps.apple.com/us/app/xcode/id497799835>`_ (or the more "
@@ -105,30 +110,6 @@ msgstr ""
 msgid "Building export templates"
 msgstr "Création de modèles d'exportation"
 
-msgid ""
-"Official templates are universal binaries which support both Intel x86_64 "
-"and ARM64 architectures. You can also create export templates that support "
-"only one of those two architectures by leaving out the ``lipo`` step below."
-msgstr ""
-"Les modèles officiels sont des binaires universels qui prennent en charge "
-"les architectures Intel x86_64 et ARM64. Vous pouvez également créer des "
-"modèles d'exportation qui ne prennent en charge qu'une seule de ces deux "
-"architectures en omettant l'étape ``lipo`` ci-dessous."
-
-msgid "For Intel x86_64::"
-msgstr "Pour Intel x86_64 :"
-
-msgid ""
-"To support both architectures in a single \"Universal 2\" binary, run the "
-"above two commands blocks and then use ``lipo`` to bundle them together::"
-msgstr ""
-"Pour prendre en charge les deux architectures dans un seul binaire "
-"\"Universal 2\", exécutez les deux commandes ci-dessus et utilisez ensuite "
-"``lipo`` pour les regrouper :"
-
-msgid "Using Pyston for faster development"
-msgstr "Utiliser Pyston pour un développement plus rapide"
-
 msgid "Cross-compiling for macOS from Linux"
 msgstr "Compilation croisée pour macOS à partir de Linux"
 
@@ -188,6 +169,3 @@ msgstr ""
 "Si vous avez une version du SDK OSXCross différente de celle attendue par le "
 "système de construction(build) SCons, vous pouvez en spécifier une "
 "personnalisée avec l'argument ``osxcross_sdk`` :"
-
-msgid "Translation status"
-msgstr "État de la traduction"

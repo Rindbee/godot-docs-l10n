@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -80,6 +80,9 @@ msgstr ""
 "には、まず tools を無効にする必要があります。3Dの無効化により、バイナリのサイ"
 "ズはおよそ15%減ります。"
 
+msgid "SubViewportContainer"
+msgstr "SubViewportContainer"
+
 msgid "Disabling unwanted modules"
 msgstr "不要なモジュールの無効化"
 
@@ -103,6 +106,3 @@ msgstr ":ref:'doc_overriding_build_options'。"
 
 msgid "Web"
 msgstr "Web"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

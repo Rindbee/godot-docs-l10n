@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -88,6 +88,9 @@ msgstr "|image5|"
 
 msgid "image5"
 msgstr "imagem5"
+
+msgid "Save the scene as ``player.tscn``"
+msgstr "Salve a cena como ``Player.tscn``"
 
 msgid ""
 "With the nodes ready, we can almost get coding. But first, we need to define "
@@ -220,12 +223,3 @@ msgstr ""
 msgid "In the next part, we'll code and test the player's movement."
 msgstr ""
 "Na próxima parte, nós iremos programar e testar o movimento do jogador."
-
-msgid "image11"
-msgstr "imagem11"
-
-msgid "image17"
-msgstr "image17"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -81,9 +81,6 @@ msgstr "Vecteur de booléens à quatre composants."
 msgid "**int**"
 msgstr "**int**"
 
-msgid "Signed scalar integer."
-msgstr "Entier scalaire signé."
-
 msgid "**ivec2**"
 msgstr "**ivec2**"
 
@@ -128,9 +125,6 @@ msgstr "Vecteur d'entier non-signé (unsigned int) à quatre composants."
 
 msgid "**float**"
 msgstr "**float**"
-
-msgid "Floating-point scalar."
-msgstr "Scalaire à virgule flottante."
 
 msgid "**vec2**"
 msgstr "**vec2**"
@@ -249,7 +243,7 @@ msgid "**samplerCube**"
 msgstr "**samplerCube**"
 
 msgid "Comments"
-msgstr "Commentaire"
+msgstr "Commentaires"
 
 msgid "Casting"
 msgstr "Conversion de type"
@@ -288,31 +282,11 @@ msgstr ""
 "\"a\" fonctionne aussi et est équivalent. Utilisez ce qui correspond le "
 "mieux à vos besoins."
 
-msgid ""
-"For matrices, use the ``m[column][row]`` indexing syntax to access each "
-"scalar, or ``m[idx]`` to access a vector by row index. For example, for "
-"accessing the y position of an object in a mat4 you use ``m[3][1]``."
-msgstr ""
-"Pour les matrices utilisez la syntaxe d'indexation ``m[ligne][colonne]`` "
-"pour accéder à chaque scalaire, ou ``m[idx]`` pour accéder à un vecteur par. "
-"Par exemple, pour accéder à la position y d'un objet de type mat4 utilisez "
-"``m[3][1]``."
-
 msgid "Constructing"
 msgstr "Construction"
 
 msgid "Construction of vector types must always pass:"
 msgstr "La construction de vecteurs doit toujours passer :"
-
-msgid ""
-"Construction of matrix types requires vectors of the same dimension as the "
-"matrix. You can also build a diagonal matrix using ``matx(float)`` syntax. "
-"Accordingly, ``mat4(1.0)`` is an identity matrix."
-msgstr ""
-"La construction des types matrice nécessite des vecteurs de même dimension "
-"que la matrice. Vous pouvez également construire une matrice diagonale en "
-"utilisant la syntaxe ``matx (float)``. Par conséquent, ``mat4 (1.0)`` est "
-"une matrice identité."
 
 msgid "Swizzling"
 msgstr "Mélange"
@@ -587,6 +561,13 @@ msgstr ""
 msgid "**Don't** do this."
 msgstr "**Ne faites pas** ceci."
 
+msgid ""
+"See `floating-point-gui.de <https://floating-point-gui.de/>`__ for more "
+"information."
+msgstr ""
+"Voir `floating-point-gui.de <https://floating-point-gui.de/>`__ pour plus "
+"d'information."
+
 msgid "Discarding"
 msgstr "Jeter"
 
@@ -713,6 +694,16 @@ msgstr ""
 "Vous pouvez définir des uniforms dans l'éditeur du matériau. Ou vous pouvez "
 "les définir via GDScript :"
 
+msgid ""
+"Any GLSL type except for *void* can be a uniform. Additionally, Godot "
+"provides optional shader hints to make the compiler understand for what the "
+"uniform is used, and how the editor should allow users to modify it."
+msgstr ""
+"Tout type GLSL, à l'exception de *vide*, peut être un uniform. En outre, "
+"Godot fournit des indices de shader facultatifs pour faire comprendre au "
+"compilateur pour quoi l'uniform est utilisé, et comment l'éditeur devrait "
+"permettre aux utilisateurs de le modifier."
+
 msgid "Full list of hints below:"
 msgstr "Liste complète des indices ci-dessous :"
 
@@ -746,6 +737,9 @@ msgstr "hint_default_transparent"
 msgid "As flowmap, default to right."
 msgstr "Comme flowmap, par défaut à droite."
 
+msgid "hint_roughness[_r, _g, _b, _a, _normal, _gray]"
+msgstr "hint_roughness[_r, _g, _b, _a, _normal, _gray]"
+
 msgid "filter[_nearest, _linear][_mipmap][_anisotropic]"
 msgstr "filter[_nearest, _linear][_mipmap][_anisotropic]"
 
@@ -757,6 +751,12 @@ msgstr "Répétition de texture activée."
 
 msgid "hint_screen_texture"
 msgstr "hint_screen_texture"
+
+msgid "Texture is the screen texture."
+msgstr "La texture est la texture de l'écran."
+
+msgid "Texture is the depth texture."
+msgstr "La texture est la texture de profondeur."
 
 msgid "hint_normal_roughness_texture"
 msgstr "hint_normal_roughness_texture"
@@ -783,8 +783,17 @@ msgstr "Notes"
 msgid "**Vector2**"
 msgstr "**Vector2**"
 
+msgid "**Vector4**, **Color**, **Rect2**, **Plane**, **Quaternion**"
+msgstr "**Vector4**, **Color**, **Rect2**, **Plane**, **Quaternion**"
+
 msgid "**Transform2D**"
 msgstr "**Transform2D**"
+
+msgid "**Basis**"
+msgstr "**Basis**"
+
+msgid "**Projection**, **Transform3D**"
+msgstr "**Projection**, **Transform3D**"
 
 msgid ""
 "Be careful when setting shader uniforms from GDScript, no error will be "
@@ -802,14 +811,34 @@ msgstr ""
 msgid "Built-in variables"
 msgstr "Variables intégrées"
 
+msgid ""
+"A large number of built-in variables are available, like ``UV``, ``COLOR`` "
+"and ``VERTEX``. What variables are available depends on the type of shader "
+"(``spatial``, ``canvas_item`` or ``particle``) and the function used "
+"(``vertex``, ``fragment`` or ``light``). For a list of the built-in "
+"variables that are available, please see the corresponding pages:"
+msgstr ""
+"Un grand nombre de variables intégrées sont disponibles, comme ``UV``, "
+"``COLOR`` et ``VERTEX``. Les variables disponibles dépendent du type de "
+"shader (``spatial``, ``canvas_item`` ou ``particle``) et de la fonction "
+"utilisée (``vertex``, ``fragment`` ou ``light``). Pour une liste des "
+"variables intégrées qui sont disponibles, veuillez consulter les pages "
+"correspondantes :"
+
 msgid ":ref:`Spatial shaders <doc_spatial_shader>`"
 msgstr ":ref:`Spatial shaders <doc_spatial_shader>`"
 
 msgid ":ref:`Canvas item shaders <doc_canvas_item_shader>`"
-msgstr ":ref:`Canvas item shaders <doc_canvas_item_shader>`"
+msgstr ":ref:`Shaders de CanvasItem <doc_canvas_item_shader>`"
 
 msgid ":ref:`Particle shaders <doc_particle_shader>`"
-msgstr ":ref:`Particle shaders <doc_particle_shader>`"
+msgstr ":ref:`Shaders de particules <doc_particle_shader>`"
+
+msgid ":ref:`Sky shaders <doc_sky_shader>`"
+msgstr ":ref:`Shaders du ciel <doc_sky_shader>`"
+
+msgid ":ref:`Fog shaders <doc_fog_shader>`"
+msgstr ":ref:`Shaders de brouillard <doc_fog_shader>`"
 
 msgid "Built-in functions"
 msgstr "Fonctions intégrées"
@@ -833,26 +862,50 @@ msgstr "Description / retour de valeur"
 msgid "vec_type **radians** (vec_type degrees)"
 msgstr "vec_type **radians** (vec_type degrees)"
 
+msgid "Convert degrees to radians."
+msgstr "Convertit les degrés en radians."
+
 msgid "vec_type **degrees** (vec_type radians)"
 msgstr "vec_type **degrees** (vec_type radians)"
+
+msgid "Convert radians to degrees."
+msgstr "Convertit les radians en degrés."
 
 msgid "vec_type **sin** (vec_type x)"
 msgstr "vec_type **sin** (vec_type x)"
 
+msgid "Sine."
+msgstr "Sinus."
+
 msgid "vec_type **cos** (vec_type x)"
 msgstr "vec_type **cos** (vec_type x)"
+
+msgid "Cosine."
+msgstr "Cosinus."
 
 msgid "vec_type **tan** (vec_type x)"
 msgstr "vec_type **tan** (vec_type x)"
 
+msgid "Tangent."
+msgstr "Tangente."
+
 msgid "vec_type **asin** (vec_type x)"
 msgstr "vec_type **asin** (vec_type x)"
+
+msgid "Arcsine."
+msgstr "Arc sinus."
 
 msgid "vec_type **acos** (vec_type x)"
 msgstr "vec_type **acos** (vec_type x)"
 
+msgid "Arccosine."
+msgstr "Arc cosinus."
+
 msgid "vec_type **atan** (vec_type y_over_x)"
 msgstr "vec_type **atan** (vec_type y_over_x)"
+
+msgid "Arctangent."
+msgstr "Arc Tangente."
 
 msgid "vec_type **atan** (vec_type y, vec_type x)"
 msgstr "vec_type **atan** (vec_type y, vec_type x)"
@@ -860,41 +913,80 @@ msgstr "vec_type **atan** (vec_type y, vec_type x)"
 msgid "vec_type **sinh** (vec_type x)"
 msgstr "vec_type **sinh** (vec_type x)"
 
+msgid "Hyperbolic sine."
+msgstr "Sinus hyperbolique."
+
 msgid "vec_type **cosh** (vec_type x)"
 msgstr "vec_type **cosh** (vec_type x)"
+
+msgid "Hyperbolic cosine."
+msgstr "Cosinus hyperbolique."
 
 msgid "vec_type **tanh** (vec_type x)"
 msgstr "vec_type **tanh** (vec_type x)"
 
+msgid "Hyperbolic tangent."
+msgstr "Tangente hyperbolique."
+
 msgid "vec_type **asinh** (vec_type x)"
 msgstr "vec_type **asinh** (vec_type x)"
+
+msgid "Inverse hyperbolic sine."
+msgstr "Sinus hyperbolique inverse."
 
 msgid "vec_type **acosh** (vec_type x)"
 msgstr "vec_type **acosh** (vec_type x)"
 
+msgid "Inverse hyperbolic cosine."
+msgstr "Cosinus hyperbolique inverse."
+
 msgid "vec_type **atanh** (vec_type x)"
 msgstr "vec_type **atanh** (vec_type x)"
+
+msgid "Inverse hyperbolic tangent."
+msgstr "Tangente hyperbolique inverse."
 
 msgid "vec_type **pow** (vec_type x, vec_type y)"
 msgstr "vec_type **pow** (vec_type x, vec_type y)"
 
+msgid "Power (undefined if ``x`` < 0 or if ``x`` == 0 and ``y`` <= 0)."
+msgstr "Puissance (indéfinie si ``x`` < 0 ou si ``x`` == 0 et ``y`` <= 0)."
+
 msgid "vec_type **exp** (vec_type x)"
 msgstr "vec_type **exp** (vec_type x)"
+
+msgid "Base-e exponential."
+msgstr "Exponentielle de base e."
 
 msgid "vec_type **exp2** (vec_type x)"
 msgstr "vec_type **exp2** (vec_type x)"
 
+msgid "Base-2 exponential."
+msgstr "Exponentielle de base 2."
+
 msgid "vec_type **log** (vec_type x)"
 msgstr "vec_type **log** (vec_type x)"
+
+msgid "Natural logarithm."
+msgstr "Logarithme naturel."
 
 msgid "vec_type **log2** (vec_type x)"
 msgstr "vec_type **log2** (vec_type x)"
 
+msgid "Base-2 logarithm."
+msgstr "Logarithme de base 2."
+
 msgid "vec_type **sqrt** (vec_type x)"
 msgstr "vec_type **sqrt** (vec_type x)"
 
+msgid "Square root."
+msgstr "Racine carrée."
+
 msgid "vec_type **inversesqrt** (vec_type x)"
 msgstr "vec_type **inversesqrt** (vec_type x)"
+
+msgid "Inverse square root."
+msgstr "Racine carrée inverse."
 
 msgid "vec_type **abs** (vec_type x)"
 msgstr "vec_type **abs** (vec_type x)"
@@ -911,17 +1003,32 @@ msgstr "ivec_type **sign** (ivec_type x)"
 msgid "vec_type **floor** (vec_type x)"
 msgstr "vec_type **floor** (vec_type x)"
 
+msgid "Round to the integer below."
+msgstr "Arrondit à l’entier inférieur."
+
 msgid "vec_type **round** (vec_type x)"
 msgstr "vec_type **round** (vec_type x)"
+
+msgid "Round to the nearest integer."
+msgstr "Arrondit à l’entier le plus proche."
 
 msgid "vec_type **roundEven** (vec_type x)"
 msgstr "vec_type **roundEven** (vec_type x)"
 
+msgid "Round to the nearest even integer."
+msgstr "Arrondit à l’entier pair le plus proche."
+
 msgid "vec_type **trunc** (vec_type x)"
 msgstr "vec_type **trunc** (vec_type x)"
 
+msgid "Truncation."
+msgstr "Troncature."
+
 msgid "vec_type **ceil** (vec_type x)"
 msgstr "vec_type **ceil** (vec_type x)"
+
+msgid "Round to the integer above."
+msgstr "Arrondit à l’entier supérieur."
 
 msgid "vec_type **fract** (vec_type x)"
 msgstr "vec_type **fract** (vec_type x)"
@@ -929,11 +1036,20 @@ msgstr "vec_type **fract** (vec_type x)"
 msgid "vec_type **mod** (vec_type x, vec_type y)"
 msgstr "vec_type **mod** (vec_type x, vec_type y)"
 
+msgid "Modulo (division remainder)."
+msgstr "Modulo (reste de la division)."
+
 msgid "vec_type **modf** (vec_type x, out vec_type i)"
 msgstr "vec_type **modf** (vec_type x, out vec_type i)"
 
+msgid "Fractional of ``x``, with ``i`` as integer part."
+msgstr "Partie fractionnaire de ``x``, avec la partie entière ``i``."
+
 msgid "vec_type  **min** (vec_type a, vec_type b)"
 msgstr "vec_type  **min** (vec_type a, vec_type b)"
+
+msgid "Lowest value between ``a`` and ``b``."
+msgstr "Plus petite valeur entre ``a`` et ``b``."
 
 msgid "vec_type  **max** (vec_type a, vec_type b)"
 msgstr "vec_type  **max** (vec_type a, vec_type b)"
@@ -953,8 +1069,14 @@ msgstr "vec_type **mix** (vec_type a, vec_type b, bvec_type c)"
 msgid "vec_type **step** (vec_type a, vec_type b)"
 msgstr "vec_type **step** (vec_type a, vec_type b)"
 
+msgid "``b[i] < a[i] ? 0.0 : 1.0``."
+msgstr "``b[i] < a[i] ? 0.0 : 1.0``."
+
 msgid "vec_type **step** (float a, vec_type b)"
 msgstr "vec_type **step** (float a, vec_type b)"
+
+msgid "``b[i] < a ? 0.0 : 1.0``."
+msgstr "``b[i] < a ? 0.0 : 1.0``."
 
 msgid "vec_type **smoothstep** (vec_type a, vec_type b, vec_type c)"
 msgstr "vec_type **smoothstep** (vec_type a, vec_type b, vec_type c)"
@@ -965,77 +1087,152 @@ msgstr "vec_type **smoothstep** (float a, float b, vec_type c)"
 msgid "bvec_type **isnan** (vec_type x)"
 msgstr "bvec_type **isnan** (vec_type x)"
 
+msgid "Returns ``true`` if scalar or vector component is ``NaN``."
+msgstr "Renvoie ``true`` si la composante scalaire ou vectorielle est ``NaN``."
+
 msgid "bvec_type **isinf** (vec_type x)"
 msgstr "bvec_type **isinf** (vec_type x)"
+
+msgid "Returns ``true`` if scalar or vector component is ``INF``."
+msgstr "Renvoie ``true`` si la composante scalaire ou vectorielle est ``INF``."
 
 msgid "ivec_type **floatBitsToInt** (vec_type x)"
 msgstr "ivec_type **floatBitsToInt** (vec_type x)"
 
+msgid "Float->Int bit copying, no conversion."
+msgstr "Copie de bits Float->Int, sans conversion."
+
 msgid "uvec_type **floatBitsToUint** (vec_type x)"
 msgstr "uvec_type **floatBitsToUint** (vec_type x)"
+
+msgid "Float->UInt bit copying, no conversion."
+msgstr "Copie de bits Float->UInt, sans conversion."
 
 msgid "vec_type **intBitsToFloat** (ivec_type x)"
 msgstr "vec_type **intBitsToFloat** (ivec_type x)"
 
+msgid "Int->Float bit copying, no conversion."
+msgstr "Copie de bits Int->Float, sans conversion."
+
 msgid "vec_type **uintBitsToFloat** (uvec_type x)"
 msgstr "vec_type **uintBitsToFloat** (uvec_type x)"
+
+msgid "UInt->Float bit copying, no conversion."
+msgstr "Copie de bits UInt->Float, sans conversion."
 
 msgid "float **length** (vec_type x)"
 msgstr "float **length** (vec_type x)"
 
+msgid "Vector length."
+msgstr "Longueur du vecteur."
+
 msgid "float **distance** (vec_type a, vec_type b)"
 msgstr "float **distance** (vec_type a, vec_type b)"
+
+msgid "Distance between vectors i.e ``length(a - b)``."
+msgstr "Distance entre les vecteurs, c'est à dire ``length(a - b)``."
 
 msgid "float **dot** (vec_type a, vec_type b)"
 msgstr "float **dot** (vec_type a, vec_type b)"
 
+msgid "Dot product."
+msgstr "Produit scalaire."
+
 msgid "vec3 **cross** (vec3 a, vec3 b)"
 msgstr "vec3 **cross** (vec3 a, vec3 b)"
+
+msgid "Cross product."
+msgstr "Produit Vectoriel."
 
 msgid "vec_type **normalize** (vec_type x)"
 msgstr "vec_type **normalize** (vec_type x)"
 
+msgid "Normalize to unit length."
+msgstr "Normaliser à la longueur unitaire."
+
 msgid "vec3 **reflect** (vec3 I, vec3 N)"
 msgstr "vec3 **reflect** (vec3 I, vec3 N)"
+
+msgid "Reflect."
+msgstr "Réflexion."
 
 msgid "vec3 **refract** (vec3 I, vec3 N, float eta)"
 msgstr "vec3 **refract** (vec3 I, vec3 N, float eta)"
 
+msgid "Refract."
+msgstr "Réfraction."
+
 msgid "vec_type **faceforward** (vec_type N, vec_type I, vec_type Nref)"
 msgstr "vec_type **faceforward** (vec_type N, vec_type I, vec_type Nref)"
+
+msgid "If ``dot(Nref, I)`` < 0, return ``N``, otherwise ``-N``."
+msgstr "Si ``dot(Nref, I)`` < 0, retourne ``N``, sinon ``-N``."
 
 msgid "mat_type **matrixCompMult** (mat_type x, mat_type y)"
 msgstr "mat_type **matrixCompMult** (mat_type x, mat_type y)"
 
+msgid "Matrix component multiplication."
+msgstr "Multiplication de composants matriciels."
+
 msgid "mat_type **outerProduct** (vec_type column, vec_type row)"
 msgstr "mat_type **outerProduct** (vec_type column, vec_type row)"
+
+msgid "Matrix outer product."
+msgstr "Produit matriciel tensoriel (outer product)."
 
 msgid "mat_type **transpose** (mat_type m)"
 msgstr "mat_type **transpose** (mat_type m)"
 
+msgid "Transpose matrix."
+msgstr "Matrice transposée."
+
 msgid "float **determinant** (mat_type m)"
 msgstr "float **determinant** (mat_type m)"
+
+msgid "Matrix determinant."
+msgstr "Déterminant de la matrice."
 
 msgid "mat_type **inverse** (mat_type m)"
 msgstr "mat_type **inverse** (mat_type m)"
 
+msgid "Inverse matrix."
+msgstr "Matrice inverse."
+
 msgid "bvec_type **lessThan** (vec_type x, vec_type y)"
 msgstr "bvec_type **lessThan** (vec_type x, vec_type y)"
+
+msgid "Bool vector comparison on < int/uint/float vectors."
+msgstr "Comparaison de bool vector < sur des vectors int/uint/float."
 
 msgid "bvec_type **greaterThan** (vec_type x, vec_type y)"
 msgstr "bvec_type **greaterThan** (vec_type x, vec_type y)"
 
+msgid "Bool vector comparison on > int/uint/float vectors."
+msgstr "Comparaison de bool vector > sur des vectors int/uint/float."
+
 msgid "bvec_type **lessThanEqual** (vec_type x, vec_type y)"
 msgstr "bvec_type **lessThanEqual** (vec_type x, vec_type y)"
+
+msgid "Bool vector comparison on <= int/uint/float vectors."
+msgstr "Comparaison de bool vector <= sur des vectors int/uint/float."
 
 msgid "bvec_type **greaterThanEqual** (vec_type x, vec_type y)"
 msgstr "bvec_type **greaterThanEqual** (vec_type x, vec_type y)"
 
+msgid "Bool vector comparison on >= int/uint/float vectors."
+msgstr "Comparaison de bool vector >= sur des vectors int/uint/float."
+
 msgid "bvec_type **equal** (vec_type x, vec_type y)"
 msgstr "bvec_type **equal** (vec_type x, vec_type y)"
 
+msgid "Bool vector comparison on == int/uint/float vectors."
+msgstr "Comparaison de bool vector == sur des vectors int/uint/float."
+
 msgid "bvec_type **notEqual** (vec_type x, vec_type y)"
 msgstr "bvec_type **nonEgaux** (vec_type x, vec_type y)"
+
+msgid "Bool vector comparison on != int/uint/float vectors."
+msgstr "Comparaison de bool vector != sur des vectors int/uint/float."
 
 msgid "bool **any** (bvec_type x)"
 msgstr "bool **n'importe** (bvec_type x)"
@@ -1046,8 +1243,17 @@ msgstr "bool **all** (bvec_type x)"
 msgid "bvec_type **not** (bvec_type x)"
 msgstr "bvec_type **not** (bvec_type x)"
 
+msgid "Invert boolean vector."
+msgstr "Inverser le vecteur booléen."
+
 msgid "ivec2 **textureSize** (samplerCube s, int lod)"
 msgstr "ivec2 **textureSize** (samplerCube s, int lod)"
+
+msgid "Get the size of a texture."
+msgstr "Donne la taille d'une texture."
+
+msgid "Get the number of accessible mipmap levels of a texture."
+msgstr "Donne le nombre de niveaux de mipmap accessibles d'une texture."
 
 msgid "gvec4_type **texture** (gsampler2DArray s, vec3 p [, float bias])"
 msgstr "vec4_type **texture** (sampler2DArray_type s, vec3 uv [, float bias])"
@@ -1055,8 +1261,32 @@ msgstr "vec4_type **texture** (sampler2DArray_type s, vec3 uv [, float bias])"
 msgid "gvec4_type **texture** (gsampler3D s, vec3 p [, float bias])"
 msgstr "vec4_type **texture** (sampler3D_type s, vec3 uv [, float bias])"
 
+msgid "Perform a texture read."
+msgstr "Effectue une lecture de texture."
+
 msgid "gvec4_type **textureProj** (gsampler3D s, vec4 p [, float bias])"
 msgstr "vec4_type **textureProj** (sampler3D_type s, vec4 uv [, float bias])"
+
+msgid "Perform a texture read with projection."
+msgstr "Effectue une lecture de texture avec projection."
+
+msgid "Perform a texture read at custom mipmap."
+msgstr "Effectue une lecture de texture avec mipmap personnalisé."
+
+msgid "Performs a texture read with projection/LOD."
+msgstr "Effectue une lecture de texture avec projection/LOD."
+
+msgid "Performs a texture read with explicit gradients."
+msgstr "Effectue une lecture de texture avec des dégradés explicites."
+
+msgid ""
+"Performs a texture read with projection/LOD and with explicit gradients."
+msgstr ""
+"Effectue une lecture de texture avec projection/LOD et avec des dégradés "
+"explicites."
+
+msgid "Fetches a single texel using integer coordinates."
+msgstr "Récupère un seul texel à l'aide de coordonnées entières."
 
 msgid "gvec4_type **textureGather** (gsampler2DArray s, vec3 p [, int comps])"
 msgstr "vec4_type **texture** (sampler2DArray_type s, vec3 uv [, float bias])"
@@ -1072,6 +1302,3 @@ msgstr "vec_type **fwidth** (vec_type p)"
 
 msgid "uint **packHalf2x16** (vec2 v)"
 msgstr "uint **packHalf2x16** (vec2 v)"
-
-msgid "Translation status"
-msgstr "État de la traduction"

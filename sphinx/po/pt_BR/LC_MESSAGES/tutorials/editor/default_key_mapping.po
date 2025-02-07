@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,19 +16,6 @@ msgstr "folha de dicas, cheat sheet, atalho"
 
 msgid "Default editor shortcuts"
 msgstr "Atalhos padrão do editor"
-
-msgid ""
-"Many of Godot Editor functions can be executed with keyboard shortcuts. This "
-"page lists functions which have associated shortcuts by default, but many "
-"others are available for customization in editor settings as well. To change "
-"keys associated with these and other actions navigate to ``Editor -> Editor "
-"Settings -> Shortcuts``."
-msgstr ""
-"Muitas das funções do Godot Editor podem ser executadas com atalhos de "
-"teclado. Esta página lista funções que possuem atalhos associados por "
-"padrão, mas muitas outras estão disponíveis para personalização nas "
-"configurações do editor também. Para mudar teclas associadas com estas e "
-"outras ações navegue para ``Editor -> Configurações do Editor -> Atalhos``."
 
 msgid ""
 "While some actions are universal, a lot of shortcuts are specific to "
@@ -53,9 +40,6 @@ msgstr ""
 "Isto é feito para melhor integração do editor no ecossistema do macOS. "
 "Usuários com atalhos padrão nesse Sistema devem achar o mapeamento de teclas "
 "padrão do Godot Editor intuitivo."
-
-msgid "General Editor Actions"
-msgstr "Ações Gerais do Editor"
 
 msgid "Action name"
 msgstr "Nome da ação"
@@ -387,8 +371,14 @@ msgstr ":kbd:`Shift + F12`"
 msgid "``editor/bottom_panel_expand``"
 msgstr "``editor/bottom_panel_expand``"
 
-msgid "2D / Canvas Item Editor"
-msgstr "2D / Editor de Canvas Item"
+msgid ":kbd:`Ctrl + Shift + P`"
+msgstr ":kbd:`Ctrl + Shift + P`"
+
+msgid ":kbd:`Cmd + Shift + P`"
+msgstr ":kbd:`Cmd + Shift + P`"
+
+msgid ":kbd:`Alt + F`"
+msgstr ":kbd:`Alt + F`"
 
 msgid "Zoom In"
 msgstr "Ampliar"
@@ -564,12 +554,6 @@ msgstr "``canvas_item_editor/frame_selection``"
 msgid "Preview Canvas Scale"
 msgstr "Visualização da Escala no Canvas"
 
-msgid ":kbd:`Ctrl + Shift + P`"
-msgstr ":kbd:`Ctrl + Shift + P`"
-
-msgid ":kbd:`Cmd + Shift + P`"
-msgstr ":kbd:`Cmd + Shift + P`"
-
 msgid "``canvas_item_editor/preview_canvas_scale``"
 msgstr "``canvas_item_editor/preview_canvas_scale``"
 
@@ -614,9 +598,6 @@ msgstr ":kbd:`Shift + K`"
 
 msgid "``canvas_item_editor/anim_clear_pose``"
 msgstr "``canvas_item_editor/anim_clear_pose``"
-
-msgid "3D / Spatial Editor"
-msgstr "Editor 3D / Espacial"
 
 msgid "Toggle Freelook"
 msgstr "Alternar Visão Livre"
@@ -826,7 +807,7 @@ msgid "``spatial_editor/align_rotation_with_view``"
 msgstr "``spatial_editor/align_rotation_with_view``"
 
 msgid "1 Viewport"
-msgstr "1 Viewport"
+msgstr "1 Janela de exibição"
 
 msgid ":kbd:`Ctrl + 1`"
 msgstr ":kbd:`Ctrl + 1`"
@@ -838,7 +819,7 @@ msgid "``spatial_editor/1_viewport``"
 msgstr "``spatial_editor/1_viewport``"
 
 msgid "2 Viewports"
-msgstr "2 Viewports"
+msgstr "2 Janelas de exibição"
 
 msgid ":kbd:`Ctrl + 2`"
 msgstr ":kbd:`Ctrl + 2`"
@@ -850,7 +831,7 @@ msgid "``spatial_editor/2_viewports``"
 msgstr "``spatial_editor/2_viewports``"
 
 msgid "2 Viewports (Alt)"
-msgstr "2 Viewports (Alt)"
+msgstr "2 Janelas de exibição (Alt)"
 
 msgid ":kbd:`Ctrl + Alt + 2`"
 msgstr ":kbd:`Ctrl + Alt + 2`"
@@ -859,7 +840,7 @@ msgid "``spatial_editor/2_viewports_alt``"
 msgstr "``spatial_editor/2_viewports_alt``"
 
 msgid "3 Viewports"
-msgstr "3 Viewports"
+msgstr "3 Janelas de exibição"
 
 msgid ":kbd:`Ctrl + 3`"
 msgstr ":kbd:`Ctrl + 3`"
@@ -870,9 +851,6 @@ msgstr ":kbd:`Cmd + 3`"
 msgid "``spatial_editor/3_viewports``"
 msgstr "``spatial_editor/3_viewports``"
 
-msgid "3 Viewports (Alt)"
-msgstr "3 Viewports (Alt)"
-
 msgid ":kbd:`Ctrl + Alt + 3`"
 msgstr ":kbd:`Ctrl + Alt + 3`"
 
@@ -880,7 +858,7 @@ msgid "``spatial_editor/3_viewports_alt``"
 msgstr "``spatial_editor/3_viewports_alt``"
 
 msgid "4 Viewports"
-msgstr "4 Viewports"
+msgstr "4 Janelas de exibição"
 
 msgid ":kbd:`Ctrl + 4`"
 msgstr ":kbd:`Ctrl + 4`"
@@ -890,9 +868,6 @@ msgstr ":kbd:`Cmd + 4`"
 
 msgid "``spatial_editor/4_viewports``"
 msgstr "``spatial_editor/4_viewports``"
-
-msgid "Text Editor"
-msgstr "Editor de Texto"
 
 msgid "Cut"
 msgstr "Recortar"
@@ -1064,9 +1039,6 @@ msgstr "``script_text_editor/toggle_comment``"
 
 msgid "Fold/Unfold Line"
 msgstr "Dobrar/Desdobrar Linha"
-
-msgid ":kbd:`Alt + F`"
-msgstr ":kbd:`Alt + F`"
 
 msgid "``script_text_editor/toggle_fold_line``"
 msgstr "``script_text_editor/toggle_fold_line``"
@@ -1269,9 +1241,6 @@ msgstr ":kbd:`Alt + F1`"
 msgid "``script_text_editor/contextual_help``"
 msgstr "``script_text_editor/contextual_help``"
 
-msgid "Script Editor"
-msgstr "Editor de Script"
-
 msgid "``script_editor/find``"
 msgstr "``script_editor/find``"
 
@@ -1413,9 +1382,6 @@ msgstr "Redefinir Ampliação"
 msgid "``script_editor/reset_zoom``"
 msgstr "``script_editor/reset_zoom``"
 
-msgid "Editor Output"
-msgstr "Saída do Editor"
-
 msgid "Copy Selection"
 msgstr "Copiar Seleção"
 
@@ -1457,9 +1423,6 @@ msgstr ":kbd:`F12`"
 
 msgid "``debugger/continue``"
 msgstr "``debugger/continue``"
-
-msgid "File Dialog"
-msgstr "Janela de Arquivo"
 
 msgid "Go Back"
 msgstr "Voltar"
@@ -1539,12 +1502,6 @@ msgstr "``file_dialog/delete``"
 msgid "Focus Path"
 msgstr "Destacar Caminho"
 
-msgid ":kbd:`Ctrl + D`"
-msgstr ":kbd:`Ctrl + D`"
-
-msgid ":kbd:`Cmd + D`"
-msgstr ":kbd:`Cmd + D`"
-
 msgid "``file_dialog/focus_path``"
 msgstr "``file_dialog/focus_path``"
 
@@ -1572,9 +1529,6 @@ msgstr ":kbd:`Cmd + Down Arrow`"
 msgid "``file_dialog/move_favorite_down``"
 msgstr "``file_dialog/move_favorite_down``"
 
-msgid "FileSystem Dock"
-msgstr "Painel de Sistema de Arquivos"
-
 msgid "Copy Path"
 msgstr "Copiar Caminho"
 
@@ -1584,14 +1538,17 @@ msgstr "``filesystem_dock/copy_path``"
 msgid "Duplicate"
 msgstr "Duplicar"
 
+msgid ":kbd:`Ctrl + D`"
+msgstr ":kbd:`Ctrl + D`"
+
+msgid ":kbd:`Cmd + D`"
+msgstr ":kbd:`Cmd + D`"
+
 msgid "``filesystem_dock/duplicate``"
 msgstr "``filesystem_dock/duplicate``"
 
 msgid "``filesystem_dock/delete``"
 msgstr "``filesystem_dock/delete``"
-
-msgid "Scene Tree Dock"
-msgstr "Dock da Árvore de Cenas"
 
 msgid "Add Child Node"
 msgstr "Adicionar Nó Filho"
@@ -1635,9 +1592,6 @@ msgstr "``scene_tree/move_up``"
 msgid "``scene_tree/move_down``"
 msgstr "``scene_tree/move_down``"
 
-msgid "Animation Track Editor"
-msgstr "Editor de Trilha de Animação"
-
 msgid "``animation_editor/duplicate_selection``"
 msgstr "``animation_editor/duplicate_selection``"
 
@@ -1680,14 +1634,17 @@ msgstr ":kbd:`Cmd + Left Arrow`"
 msgid "``animation_editor/goto_prev_step``"
 msgstr "``animation_editor/goto_prev_step``"
 
-msgid "Tile Map Editor"
-msgstr "Editor de Tile Map"
-
 msgid "Select"
 msgstr "Selecionar"
 
 msgid "Cut Selection"
 msgstr "Recortar Seleção"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Line"
+msgstr "Linha"
 
 msgid ":kbd:`P`"
 msgstr ":kbd:`P`"
@@ -1709,9 +1666,6 @@ msgstr "Girar à Direita"
 
 msgid ":kbd:`X`"
 msgstr ":kbd:`X`"
-
-msgid "Tileset Editor"
-msgstr "Editor de Tileset"
 
 msgid "Next Coordinate"
 msgstr "Próxima Coordenada"
@@ -1799,6 +1753,3 @@ msgstr ":kbd:`8`"
 
 msgid "``tileset_editor/editmode_z_index``"
 msgstr "``tileset_editor/editmode_z_index``"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

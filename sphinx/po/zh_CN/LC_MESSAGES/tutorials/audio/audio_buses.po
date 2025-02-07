@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -151,7 +151,7 @@ msgstr "最后将 **Playing** 属性勾上 **On** , 声音就开始播放了."
 
 msgid ""
 "You may also be interested in reading about :ref:`doc_audio_streams` now."
-msgstr "你现在可能有兴趣阅读 :ref:`doc_audio_streams`。"
+msgstr "你现在可能还对阅读《\\ :ref:`doc_audio_streams`\\ 》感兴趣。"
 
 msgid "Adding effects"
 msgstr "添加特效"
@@ -162,7 +162,7 @@ msgid ""
 msgstr "音频总线可以包含各种效果. 这些效果以某种方式修改声音并按顺序应用."
 
 msgid "For information on what each effect does, see :ref:`doc_audio_effects`."
-msgstr "有关每种效果效果的作用的信息，请参见 :ref:`doc_audio_effects`。"
+msgstr "有关每种效果的详细信息，请参阅《\\ :ref:`doc_audio_effects`\\ 》。"
 
 msgid "Automatic bus disabling"
 msgstr "自动总线禁用"
@@ -202,6 +202,3 @@ msgid ""
 msgstr ""
 "默认的总线布局会自动保存到 ``res:// default_bus_layout.tres`` 文件中. 自定义"
 "总线布局可以从磁盘中保存和加载."
-
-msgid "Translation status"
-msgstr "翻译状态"

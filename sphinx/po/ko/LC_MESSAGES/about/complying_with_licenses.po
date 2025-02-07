@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -188,6 +188,3 @@ msgstr ""
 "최종 사용자에게 서드파티 라이선스를 문서화하는 좋은 방법은 이 파일을 프로젝"
 "트 배포에 포함시키는 것입니다. 예를 들어, 혼동을 방지하기 위해 이 파일의 이름"
 "을 ``GODOT_COPYRIGHT.txt``로 변경할 수 있습니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

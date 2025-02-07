@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -221,6 +221,3 @@ msgstr ""
 "un nodo :ref:`WorldEnvironment <class_WorldEnvironment>` o en un nodo de la "
 "Cámara. Para más información, ver :ref:"
 "`doc_environment_and_post_processing``."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

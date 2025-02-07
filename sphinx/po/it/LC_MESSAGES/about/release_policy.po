@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -88,14 +88,14 @@ msgstr "**Livello di supporto**"
 msgid "unstable"
 msgstr "instabile"
 
+msgid "supported"
+msgstr "supportato"
+
 msgid "Godot 4.2"
 msgstr "Godot 4.2"
 
 msgid "November 2023"
 msgstr "Novembre 2023"
-
-msgid "supported"
-msgstr "supportato"
 
 msgid "Godot 4.1"
 msgstr "Godot 4.1"
@@ -187,15 +187,15 @@ msgstr "Godot 1.0"
 msgid "December 2014"
 msgstr "Dicembre 2014"
 
-msgid "partial"
-msgstr "parziale"
-
 msgid ""
 "**Legend:** |supported| Full support – |partial| Partial support – |eol| No "
 "support (end of life) – |unstable| Development version"
 msgstr ""
 "**Legenda:** |supported| Pieno supporto - |partial| Supporto parziale - |"
 "eol| Non supportato (end of life) - |unstable| Versione di sviluppo"
+
+msgid "partial"
+msgstr "parziale"
 
 msgid ""
 "Pre-release Godot versions aren't intended to be used in production and are "
@@ -209,6 +209,3 @@ msgstr "Quale versione dovrei usare per un nuovo progetto?"
 
 msgid "When is the next release out?"
 msgstr "Quando uscirà la prossima versione?"
-
-msgid "Translation status"
-msgstr "Stato della traduzione"

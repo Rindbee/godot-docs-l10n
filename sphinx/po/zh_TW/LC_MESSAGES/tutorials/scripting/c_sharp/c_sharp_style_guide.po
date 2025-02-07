@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -331,6 +331,3 @@ msgid ""
 "Use safe cast when there is a possibility of the value being a different "
 "type, and use direct cast otherwise."
 msgstr "若數值有可能為不同型別時，使用安全型別轉換，否則就使用直接型別轉換。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

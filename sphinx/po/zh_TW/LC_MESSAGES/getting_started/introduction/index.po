@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,6 +28,3 @@ msgstr ""
 "在下列頁面中，你將得到“Godot 適合我嗎？”或“我可以用 Godot 做什麼？”等問題的答"
 "案。然後，我們將介紹該引擎最基本的概念，讓你瞭解編輯器的介面，並提供提示以充"
 "分利用您的學習時間。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

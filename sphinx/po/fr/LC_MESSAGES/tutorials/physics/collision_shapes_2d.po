@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,6 +27,18 @@ msgstr "Formes primitives de collision"
 msgid "Godot provides the following primitive collision shape types:"
 msgstr "Godot fournit les types de formes de collision primitives suivants :"
 
+msgid ":ref:`class_RectangleShape2D`"
+msgstr ":ref:`class_RectangleShape2D`"
+
+msgid ":ref:`class_CircleShape2D`"
+msgstr ":ref:`class_CircleShape2D`"
+
+msgid ":ref:`class_CapsuleShape2D`"
+msgstr ":ref:`class_CapsuleShape2D`"
+
+msgid ":ref:`class_SegmentShape2D`"
+msgstr ":ref:`class_SegmentShape2D`"
+
 msgid ":ref:`class_SeparationRayShape2D` (designed for characters)"
 msgstr ":ref:`class_SeparationRayShape2D` (designé pour les personnages)"
 
@@ -47,6 +59,24 @@ msgstr ""
 
 msgid "Convex collision shapes"
 msgstr "Formes de collision convexes"
+
+msgid ""
+":ref:`Convex collision shapes <class_ConvexPolygonShape2D>` are a compromise "
+"between primitive collision shapes and concave collision shapes. They can "
+"represent shapes of any complexity, but with an important caveat. As their "
+"name implies, an individual shape can only represent a *convex* shape. For "
+"instance, a pyramid is *convex*, but a hollow box is *concave*. To define a "
+"concave object with a single collision shape, you need to use a concave "
+"collision shape."
+msgstr ""
+":ref:`Les formes de collision convexes <class_ConvexPolygonShape2D>` sont un "
+"compromis entre les formes de collision primitives et les formes de "
+"collision concaves. Elles peuvent représenter des formes de n'importe quelle "
+"complexité, mais avec une mise en garde importante. Comme leur nom "
+"l'indique, une forme individuelle ne peut représenter qu'une forme "
+"*convexe*. Par exemple, une pyramide est *convexe*, mais une boîte creuse "
+"est *concave*. Pour définir un objet concave avec une forme de collision "
+"unique, vous devez utiliser une forme de collision concave."
 
 msgid ""
 "Depending on the object's complexity, you may get better performance by "
@@ -103,6 +133,3 @@ msgstr ""
 "des compromis en termes de précision. La plupart des jeux n'ont pas une "
 "précision de collision de 100 %. Ils trouvent des moyens créatifs de la "
 "cacher ou de la rendre inaperçue pendant le gameplay normal."
-
-msgid "Translation status"
-msgstr "État de la traduction"

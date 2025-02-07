@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -141,6 +141,3 @@ msgstr ""
 "Usando el código de ejemplo anterior, deberías poder crear un widget "
 "personalizado que reemplace el control :ref:`class_SpinBox` predeterminado "
 "para enteros con un :ref:`class_Button` que genere valores aleatorios."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

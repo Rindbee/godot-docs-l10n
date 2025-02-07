@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -49,15 +49,6 @@ msgstr ""
 msgid "Command line reference"
 msgstr "命令列參照說明"
 
-msgid "release"
-msgstr "release"
-
-msgid "debug"
-msgstr "除錯"
-
-msgid "editor"
-msgstr "編輯器"
-
 msgid "**Legend**"
 msgstr "**圖例解釋**"
 
@@ -66,11 +57,20 @@ msgid ""
 "export templates."
 msgstr "|release|可用於編輯器版本、偵錯匯出範本和發布匯出模板。"
 
+msgid "release"
+msgstr "release"
+
 msgid "|debug| Available in editor builds and debug export templates only."
 msgstr "|debug|僅在編輯器建置和除錯匯出模板中可用。"
 
+msgid "debug"
+msgstr "除錯"
+
 msgid "|editor| Only available in editor builds."
 msgstr "|editor|僅在編輯器版本中可用。"
+
+msgid "editor"
+msgstr "編輯器"
 
 msgid ""
 "Note that unknown command line arguments have no effect whatsoever. The "
@@ -820,6 +820,3 @@ msgid ""
 msgstr ""
 "若上方的這個範例無法在你使用的 Linux 或 macOS 版本中使用，也可以通過下列這個"
 "方法來直接讓 Shebang 從 Godot 儲存的地方執行："
-
-msgid "Translation status"
-msgstr "翻譯狀態"

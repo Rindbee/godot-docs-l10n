@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -416,6 +416,3 @@ msgstr ""
 "此外，出于性能考虑，Godot 只能混合屏幕上给定像素的 2 个 VoxelGI 节点。如果有"
 "超过 2 个 VoxelGI 节点重叠在一起，全局照明可能会在摄像机移动或旋转时出现闪"
 "烁。"
-
-msgid "Translation status"
-msgstr "翻译状态"

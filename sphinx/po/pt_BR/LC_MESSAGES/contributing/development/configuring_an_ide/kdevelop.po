@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -26,11 +26,17 @@ msgstr "Aplique as alterações."
 msgid "Build Directory"
 msgstr "Construir Diretório"
 
+msgid "*blank*"
+msgstr "*em branco*"
+
 msgid "Enable"
 msgstr "Habilitar"
 
 msgid "Executable"
 msgstr "Executável"
+
+msgid "**scons**"
+msgstr "**scons**"
 
 msgid "Arguments"
 msgstr "Argumentos"
@@ -50,6 +56,3 @@ msgid ""
 msgstr ""
 "Se você se deparar com qualquer problema, peça ajuda em um dos `canais da "
 "comunidade do Godot <https://godotengine.org/community>`__."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -25,11 +25,8 @@ msgstr "3B işleme için :ref:`uzaysal gölgelendirici <doc_spatial_shader>` ."
 
 msgid ":ref:`canvas_item <doc_canvas_item_shader>` for 2D rendering."
 msgstr ""
-"2B işleme için :ref:`kanvas öğesi gölgelendirici <doc_canvas_item_shader>`."
+"2B işleme için :ref:`kanvas ögesi gölgelendirici <doc_canvas_item_shader>`."
 
 msgid ":ref:`particles <doc_particle_shader>` for particle systems."
 msgstr ""
 "parçacık sistemi için :ref:`parçacık gölgelendirici <doc_particle_shader>`."
-
-msgid "Translation status"
-msgstr "Çeviri durumu"

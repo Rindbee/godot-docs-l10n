@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -205,6 +205,3 @@ msgstr ""
 "不適當地使用 ``@tool`` 會產生許多錯誤. 建議首先按照你想要的方式寫程式碼, 然後"
 "才在上面新增 ``@tool`` 關鍵字. 另外, 要確保把在編輯器中運作的程式碼和在遊戲中"
 "運作的程式碼分開. 這樣, 你可以更容易地發現錯誤."
-
-msgid "Translation status"
-msgstr "翻譯狀態"

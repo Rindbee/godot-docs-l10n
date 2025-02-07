@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -31,10 +31,7 @@ msgid "How to use static typing"
 msgstr "Come usare la tipizzazione statica"
 
 msgid "Typed or dynamic: stick to one style"
-msgstr "Tipizzazione statica o dinamica: attieniti ad un unico stile"
+msgstr "Tipizzazione statica o dinamica: attieniti a un unico stile"
 
 msgid "Summary"
 msgstr "Sommario"
-
-msgid "Translation status"
-msgstr "Stato della traduzione"

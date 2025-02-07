@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -64,6 +64,13 @@ msgstr ""
 
 msgid "How does it work?"
 msgstr "Comment ça marche ?"
+
+msgid ""
+"The window's :ref:`Viewport <class_Viewport>` does quite a lot of stuff with "
+"the received input, in order:"
+msgstr ""
+":ref:`Viewport <class_Viewport>` de la fenêtre fait beaucoup de choses avec "
+"l'entrée reçue, dans l'ordre :"
 
 msgid ""
 "When sending events to its child and descendant nodes, the viewport will do "
@@ -172,6 +179,21 @@ msgstr ""
 "Contient des informations de glissement multi-touche. (uniquement disponible "
 "sur les appareils mobiles)"
 
+msgid ":ref:`InputEventMagnifyGesture <class_InputEventMagnifyGesture>`"
+msgstr ":ref:`InputEventMagnifyGesture <class_InputEventMagnifyGesture>`"
+
+msgid ":ref:`InputEventPanGesture <class_InputEventPanGesture>`"
+msgstr ":ref:`InputEventPanGesture <class_InputEventPanGesture>`"
+
+msgid ":ref:`InputEventMIDI <class_InputEventMIDI>`"
+msgstr ":ref:`InputEventMIDI <class_InputEventMIDI>`"
+
+msgid ":ref:`InputEventShortcut <class_InputEventShortcut>`"
+msgstr ":ref:`InputEventShortcut <class_InputEventShortcut>`"
+
+msgid "Contains a shortcut."
+msgstr "Contient un raccourci."
+
 msgid ":ref:`InputEventAction <class_InputEventAction>`"
 msgstr ":ref:`InputEventAction <class_InputEventAction>`"
 
@@ -182,9 +204,6 @@ msgstr ""
 "Contient une action générique. Ces événements sont souvent générés par le "
 "programmeur en tant que retour d'information. (plus d'informations ci-"
 "dessous)"
-
-msgid "Actions"
-msgstr "Actions"
 
 msgid ""
 "The same code to work on different devices with different inputs (e.g., "
@@ -238,6 +257,3 @@ msgstr ""
 "paramètres du projet (project.godot). Ainsi, tout système dynamique de ce "
 "type doit stocker les paramètres de la manière la plus appropriée pour le "
 "programmeur."
-
-msgid "Translation status"
-msgstr "État de la traduction"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -26,6 +26,9 @@ msgstr "Начните с дерева"
 
 msgid "I took this tree from SketchFab:"
 msgstr "Я взял это дерево из SketchFab:"
+
+msgid "https://sketchfab.com/models/ea5e6ed7f9d6445ba69589d503e8cebf"
+msgstr "https://sketchfab.com/models/ea5e6ed7f9d6445ba69589d503e8cebf"
 
 msgid "and opened it in Blender."
 msgstr "и открыл его в Blender."
@@ -108,5 +111,5 @@ msgstr ""
 "GPU Gems3 о том, как Crysis делает это (сосредоточьтесь в основном на коде "
 "sway, так как многие другие методы, показанные там, устарели):"
 
-msgid "Translation status"
-msgstr "Статус перевода"
+msgid "https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch16.html"
+msgstr "https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch16.html"

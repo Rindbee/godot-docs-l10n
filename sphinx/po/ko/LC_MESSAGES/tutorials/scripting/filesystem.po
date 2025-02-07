@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -168,6 +168,3 @@ msgstr ""
 "해당 플랫폼에서는 제대로 작동하지만 다른 플랫폼에서는 작동하지 않습니다. "
 "Linux, Android 등과 같이 압축된 패키지를 사용해 모든 파일을 저장하는 내보낸 "
 "바이너리에도 이 문제가 적용될 수 있습니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

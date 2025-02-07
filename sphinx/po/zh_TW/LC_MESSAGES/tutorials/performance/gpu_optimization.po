@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -513,6 +513,3 @@ msgstr ""
 "不過也有一些缺點. 圖塊算繪會讓某些技術變得更加複雜, 執行起來也更加昂貴. 依賴"
 "於不同圖塊算繪的結果, 或者依賴於早期操作的結果被保存的圖塊可能會非常慢. 要非"
 "常小心地測試著色器, 視圖紋理和後期處理的性能."
-
-msgid "Translation status"
-msgstr "翻譯狀態"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -22,6 +22,3 @@ msgstr "Android Studioのウェルカムウィンドウ。"
 
 msgid "Android Studio will import and index the project."
 msgstr "Android Studioはプロジェクトをインポートしてインデックスを作成します。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

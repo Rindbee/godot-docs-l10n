@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,13 +13,6 @@ msgstr ""
 
 msgid "Using the Web editor"
 msgstr "Використання Web редактора"
-
-msgid ""
-"Since Godot 3.3, there is a `Web editor <https://editor.godotengine.org/>`__ "
-"you can use to work on new or existing projects."
-msgstr ""
-"Починаючи з Godot 3.3, є `Web редактор <https://editor.godotengine.org/>`__, "
-"який можна використовувати для роботи над новими, або існуючими, проєктами."
 
 msgid ""
 "The web editor is in a preliminary stage. While its feature set may be "
@@ -64,6 +57,13 @@ msgid "**Mobile browsers are currently not supported.**"
 msgstr "**На даний момент мобільні браузери не підтримуються.**"
 
 msgid ""
+"The web editor only supports the Compatibility rendering method, as there is "
+"no stable way to run Vulkan applications on the web yet."
+msgstr ""
+"Веб-редактор підтримує лише метод візуалізації сумісності, оскільки ще немає "
+"стабільного способу запуску програм Vulkan в Інтернеті."
+
+msgid ""
 "If you use Linux, due to `poor Firefox WebGL performance <https://bugzilla."
 "mozilla.org/show_bug.cgi?id=1010527>`__, it's recommended to use a Chromium-"
 "based browser instead of Firefox."
@@ -84,6 +84,9 @@ msgstr ""
 
 msgid "No C#/Mono support."
 msgstr "Не підтримується C#/Mono."
+
+msgid "No GDExtension support."
+msgstr "Немає підтримки GDExtension."
 
 msgid ""
 "No debugging support. This means GDScript debugging/profiling, live scene "
@@ -131,17 +134,6 @@ msgstr "Немає підтримки зовнішніх редакторів с
 msgid "No support for Android one-click deploy."
 msgstr "Не підтримується розгортання в один клік для Android."
 
-msgid ""
-"See the `list of open issues on GitHub related to the web editor <https://"
-"github.com/godotengine/godot/issues?"
-"q=is%3Aopen+is%3Aissue+label%3Aplatform%3Ahtml5+label%3Atopic%3Aeditor>`__ "
-"for a list of known bugs."
-msgstr ""
-"Дивіться `список відкритих проблем на GitHub, пов'язаних з вебредактором "
-"<https://github.com/godotengine/godot/issues?"
-"q=is%3Aopen+is%3Aissue+label%3Aplatform%3Ahtml5+label%3Atopic%3Aeditor>`__, "
-"щоб ознайомитися зі списком проблем."
-
 msgid "Importing a project"
 msgstr "Імпорт проєкту"
 
@@ -155,6 +147,15 @@ msgstr ""
 "Вкажіть ZIP-файл для попереднього завантаження у файловій системі HTML5 за "
 "допомогою входу **Preload project ZIP** (**Попереднє завантаження проєкту "
 "ZIP**)."
+
+msgid ""
+"Run the editor by clicking **Start Godot editor**. The Godot Project Manager "
+"should appear after 10-20 seconds. On slower machines or connections, "
+"loading may take up to a minute."
+msgstr ""
+"Запустіть редактор, натиснувши **Запустити редактор Godot**. Через 10-20 "
+"секунд має з’явитися менеджер проекту Godot. На повільніших машинах або "
+"підключеннях завантаження може тривати до хвилини."
 
 msgid ""
 "In the dialog that appears at the middle of the window, specify a name for "
@@ -245,6 +246,3 @@ msgstr ""
 "<https://developer.mozilla.org/en-US/docs/Web/API/FileSystem>`__ для "
 "зберігання файлів проєкту у файловій системі користувача, як це робив би "
 "власний редактор. Однак це ще не реалізовано."
-
-msgid "Translation status"
-msgstr "Стан перекладу"

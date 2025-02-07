@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -106,12 +106,6 @@ msgstr "Godot提供了几种开箱即用的容器类型, 因为它们有不同�
 msgid "Box Containers"
 msgstr "盒式容器"
 
-msgid ""
-"These containers make use of the *Ratio* property for children with the "
-"*Expand* flag set."
-msgstr ""
-"这些容器会用到设置了 *Expand（扩展）* 选项的子节点的 *Ratio（比例）* 属性。"
-
 msgid "Grid Container"
 msgstr "网格容器"
 
@@ -215,6 +209,3 @@ msgstr "SubViewportContainer"
 
 msgid "Creating custom Containers"
 msgstr "创建自定义容器"
-
-msgid "Translation status"
-msgstr "翻译状态"

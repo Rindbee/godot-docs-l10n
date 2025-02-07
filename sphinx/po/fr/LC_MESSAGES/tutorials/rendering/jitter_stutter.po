@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -173,7 +173,7 @@ msgstr ""
 "peuvent présenter des problèmes. Ceci est généralement inévitable."
 
 msgid "Hardware/OS-specific"
-msgstr "Hardware/OS-specific"
+msgstr "Hardware/spécifique à l'OS"
 
 msgid ""
 "If you are reporting a stutter or jitter problem (opening an issue) not "
@@ -186,6 +186,3 @@ msgstr ""
 "clairement toutes les informations possibles sur l'appareil, le système "
 "d'exploitation, les versions de pilote, etc. Cela peut aider à mieux le "
 "dépanner."
-
-msgid "Translation status"
-msgstr "État de la traduction"

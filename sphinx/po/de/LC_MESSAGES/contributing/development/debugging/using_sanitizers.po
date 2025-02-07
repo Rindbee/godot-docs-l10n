@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -343,6 +343,3 @@ msgstr ""
 "spezifisch für WebAssembly sind. Es ist nicht garantiert, dass ``SAFE_HEAP`` "
 "mit ASAN und UBSAN in der gleichen Binärdatei kompatibel ist, so dass Sie es "
 "möglicherweise separat bauen müssen."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

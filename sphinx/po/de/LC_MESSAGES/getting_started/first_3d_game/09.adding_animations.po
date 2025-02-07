@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -588,11 +588,18 @@ msgstr ""
 msgid "**Congratulations**!"
 msgstr "**Herzlichen Glückwunsch**!"
 
+msgid ""
+"In the next part, we'll quickly recap what you learned and give you some "
+"links to keep learning more. But for now, here are the complete ``player."
+"gd`` and ``mob.gd`` so you can check your code against them."
+msgstr ""
+"Im nächsten Teil werden wir das Gelernte noch einmal kurz zusammenfassen und "
+"Ihnen einige Links geben, wenn Sie noch mehr lernen möchten. Aber erstmal "
+"sind hier nochmal die vollständigen ``Player.gd`` und ``Mob.gd`` Skripte, "
+"damit Sie Ihren Code damit vergleichen können."
+
 msgid "Here's the *Player* script."
 msgstr "Hier ist das *Player*-Skript."
 
 msgid "And the *Mob*'s script."
 msgstr "Und hier das *Mob*-Skript."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

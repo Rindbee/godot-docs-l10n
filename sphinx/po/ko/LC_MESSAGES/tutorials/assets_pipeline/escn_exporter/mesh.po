@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -50,6 +50,3 @@ msgstr ""
 "이어를 `issue list <https://github.com/godotengine/godot-blender-exporter/"
 "issues>`__\\ 에 보고하여 모디파이어를 더 정확하게 확인하는 내보내기를 개발하"
 "도록 도울 수 있습니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

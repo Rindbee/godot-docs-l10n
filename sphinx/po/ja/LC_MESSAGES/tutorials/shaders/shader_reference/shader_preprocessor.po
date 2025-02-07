@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -85,6 +85,3 @@ msgstr ""
 "プリプロセッサー構文は各行をバックスラッシュ (\\) で終了することにより、複数"
 "の行にまたがることができます。バックスラッシュを含まない最初の改行により、プ"
 "リプロセッサー構文は終了します。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

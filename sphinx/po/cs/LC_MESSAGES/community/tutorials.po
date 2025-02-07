@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,8 +23,18 @@ msgstr "Textové tutoriály"
 msgid "Devlogs"
 msgstr "Devblogy"
 
+msgid "`bitbrain <https://www.youtube.com/@bitbraindev>`_"
+msgstr "`bitbrain <https://www.youtube.com/@bitbraindev>`_"
+
 msgid "Resources"
 msgstr "Zdroje"
 
-msgid "Translation status"
-msgstr "Stav překladu"
+msgid "`Godot Asset Library <https://godotengine.org/asset-library/asset>`_"
+msgstr "`Godot Knihovna Pomůcek<https://godotengine.org/asset-library/asset>`_"
+
+msgid ""
+"`Godot Shaders: A community-driven shader library <https://godotshaders.com/"
+">`_"
+msgstr ""
+"`Godot Shaders: Knihovna shaderů řízená komunitou <https://godotshaders.com/"
+">`_"

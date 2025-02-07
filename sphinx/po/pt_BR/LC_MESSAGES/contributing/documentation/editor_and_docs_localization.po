@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -278,7 +278,7 @@ msgid "Locating original content"
 msgstr "Localizando conteúdo original"
 
 msgid "Respecting the markup syntax"
-msgstr "Respeita a sintaxe de marcação"
+msgstr "Respeitando a sintaxe de marcação"
 
 msgid ""
 "Each translation resource originates from a different source code format, "
@@ -408,6 +408,3 @@ msgstr ""
 "Planejamos trabalhar em uma ferramenta Web simplificada que poderia ser "
 "usada para gerenciar a localização de imagens de uma maneira conveniente, "
 "abstraindo essas etapas."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

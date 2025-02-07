@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -248,6 +248,3 @@ msgstr ""
 "wurde. Das bedeutet, dass, wenn Sie ein Engine-Build mit Double-Precision-"
 "Floats verwenden, die Erweiterung auch für Double-Precision-Floats "
 "kompiliert sein muss. Siehe :ref:`doc_large_world_coordinates` für Details."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

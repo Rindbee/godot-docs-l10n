@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -95,6 +95,3 @@ msgstr ""
 "auf die Performance vermieden, die sich aus der häufigen Erstellung von "
 "Objekten ergeben, wenn ein Projekt eine große Anzahl gleichzeitiger Agenten "
 "hat, die ihre Pfade regelmäßig aktualisieren."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

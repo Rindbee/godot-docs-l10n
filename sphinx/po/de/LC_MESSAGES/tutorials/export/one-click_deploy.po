@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -365,6 +365,3 @@ msgstr ""
 "**Export > Web > TLS-Zertifikat** angeben. Dies funktioniert nur, wenn der "
 "Zugriff auf das Projekt über einen Domänennamen erfolgt, der Teil des TLS-"
 "Zertifikats ist."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -223,6 +223,3 @@ msgstr ""
 "튜토리얼의 뒷 부분에서 몇 가지 기능들을 보다 상세하게 살펴볼텐데 이것들은 부"
 "가적인 준비가 필요한 경우들입니다. (예를 들어 클라이밍의 경우) 다른 기능들에 "
 "대해서는 Godot XR 도구의 도움 페이지를 참고 하시면 됩니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

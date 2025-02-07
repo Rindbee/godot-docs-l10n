@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Translation status"
-msgstr "翻訳ステータス"
+msgid "XR"
+msgstr "XR"
+
+msgid ""
+"This section of the manual covers everything related to XR ( Virtual Reality "
+"and Augmented Reality)."
+msgstr ""
+"このセクションではXR(仮想現実(VR)と拡張現実(AR))に関係するもの全てを扱いま"
+"す。"
+
+msgid "Basic Tutorial"
+msgstr "基本のチュートリアル"
+
+msgid "Godot XR Tools"
+msgstr "Godot XRツール"

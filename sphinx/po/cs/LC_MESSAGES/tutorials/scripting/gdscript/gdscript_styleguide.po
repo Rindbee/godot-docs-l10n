@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -248,17 +248,26 @@ msgstr ""
 msgid "Naming conventions"
 msgstr "Konvence pojmenování"
 
-msgid ""
-"These naming conventions follow the Godot Engine style. Breaking these will "
-"make your code clash with the built-in naming conventions, leading to "
-"inconsistent code."
-msgstr ""
-"Tyto konvence pojmenování odpovídají stylu Godot Engine. Jejich porušení "
-"způsobí, že váš kód bude v rozporu se zabudovanými konvencemi pro "
-"pojmenování, což povede k nekonzistentnímu kódu."
+msgid "Type"
+msgstr "Typ"
+
+msgid "Example"
+msgstr "Příklad"
 
 msgid "File names"
 msgstr "Názvy souborů"
+
+msgid "Functions"
+msgstr "Funkce"
+
+msgid "Variables"
+msgstr "Proměnné"
+
+msgid "Signals"
+msgstr "Signály"
+
+msgid "Constants"
+msgstr "Konstanty"
 
 msgid ""
 "Use snake_case for file names. For named classes, convert the PascalCase "
@@ -299,9 +308,6 @@ msgstr ""
 "K virtuálním metodám, které musí uživatel implementovat, soukromým funkcím a "
 "soukromým proměnným přidejte jedno podtržítko (\\_):"
 
-msgid "Signals"
-msgstr "Signály"
-
 msgid "Use the past tense to name signals:"
 msgstr "Pro pojmenování signálů použijte minulý čas:"
 
@@ -324,13 +330,6 @@ msgstr ""
 
 msgid "Code order"
 msgstr "Pořadí kódu"
-
-msgid ""
-"This first section focuses on code order. For formatting, see :ref:"
-"`formatting`. For naming conventions, see :ref:`naming_conventions`."
-msgstr ""
-"Tato první část se zaměřuje na pořadí kódu. O formátování viz :ref:"
-"`formatting`. Konvence pojmenování viz :ref:`naming_conventions`."
 
 msgid "We suggest to organize GDScript code this way:"
 msgstr "Doporučujeme uspořádat kód GDScript tímto způsobem:"
@@ -454,13 +453,6 @@ msgstr ""
 msgid "Static typing"
 msgstr "Statické typování"
 
-msgid ""
-"Since Godot 3.1, GDScript supports :ref:`optional static "
-"typing<doc_gdscript_static_typing>`."
-msgstr ""
-"Od verze Godot 3.1 podporuje GDScript :ref:`volitelné statické "
-"typování<doc_gdscript_static_typing>`."
-
 msgid "Declared types"
 msgstr "Deklarované typy"
 
@@ -472,6 +464,3 @@ msgstr "Chcete-li deklarovat návratový typ funkce, použijte ``-> <type>``:"
 
 msgid "Inferred types"
 msgstr "Odvozené typy"
-
-msgid "Translation status"
-msgstr "Stav překladu"

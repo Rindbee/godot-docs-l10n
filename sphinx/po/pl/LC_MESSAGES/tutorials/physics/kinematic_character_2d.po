@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -51,6 +51,3 @@ msgstr ""
 "Jest to dobry początek dla platformówki. Bardziej dokończone demo można "
 "znaleźć w https://github.com/godotengine/godot-demo-projects/tree/master/2d/"
 "kinematic_character."
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

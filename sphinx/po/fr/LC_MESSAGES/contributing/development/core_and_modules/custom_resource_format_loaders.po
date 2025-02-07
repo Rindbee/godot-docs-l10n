@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,6 +28,14 @@ msgstr ""
 "appelé à nouveau sur le même chemin de fichier, la ressource précédemment "
 "chargée est référencée. Naturellement, les ressources chargées doivent être "
 "sans état(stateless)."
+
+msgid ""
+"This guide assumes the reader knows how to create C++ modules and Godot data "
+"types. If not, refer to this guide: :ref:`doc_custom_modules_in_cpp`"
+msgstr ""
+"Ce guide part du principe que le lecteur sait comment créer des modules C++ "
+"et des types de données Godot. Si ce n'est pas le cas, voir : :ref:"
+"`doc_custom_modules_in_cpp`"
 
 msgid "References"
 msgstr "References"
@@ -159,6 +167,3 @@ msgstr ""
 
 msgid "Then attach the following script to any node::"
 msgstr "Attachez ensuite le script suivant à n'importe quel nœud :"
-
-msgid "Translation status"
-msgstr "État de la traduction"

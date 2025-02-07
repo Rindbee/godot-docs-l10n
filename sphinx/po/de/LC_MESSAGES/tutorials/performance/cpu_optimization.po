@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -544,6 +544,3 @@ msgstr ""
 "Ausführung eines Physik-Ticks. Sie ist um Größenordnungen schneller, so dass "
 "dies ein erheblicher Performance-Gewinn sein kann, während gleichzeitig "
 "Jitter reduziert wird."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -139,6 +139,3 @@ msgstr ""
 "AnimationPlayer. Это полезно, когда у вас несколько ригов и у каждого "
 "скелета и сетки есть действия; тогда одна установка будет иметь только один "
 "AnimationPlayer."
-
-msgid "Translation status"
-msgstr "Статус перевода"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -68,6 +68,9 @@ msgstr "Modのためにソースコードの公開は不要"
 msgid "more modular project structure"
 msgstr "プロジェクト構造をよりモジュール化"
 
+msgid "users don't have to replace the entire game"
+msgstr "ユーザーはゲーム全体を置き換えずにすむ"
+
 msgid ""
 "The first part of using them involves exporting and delivering the project "
 "to players. Then, when one wants to add functionality or content later on, "
@@ -113,6 +116,15 @@ msgstr ""
 
 msgid "Generating PCK files"
 msgstr "PCKファイルの生成"
+
+msgid ""
+"In order to pack all resources of a project into a PCK file open the project "
+"and go to Project/Export and click on \"Export PCK/Zip\". Also make sure to "
+"have an export template selected while doing so."
+msgstr ""
+"プロジェクトのすべてのリソースをPCKファイルに詰めるには、プロジェクトを開いて"
+"『プロジェクト/エクスポート』に行き、『PCK/Zipのエクスポート』をクリックしま"
+"す。同時に、エクスポートテンプレートを選択していることを確認してください。"
 
 msgid ""
 "Another method would be to :ref:`export from the command line "
@@ -162,7 +174,4 @@ msgstr ""
 "る必要があります: ``Assembly.LoadFile(\"mod.dll\")``"
 
 msgid "Summary"
-msgstr "概要"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"
+msgstr "要約"

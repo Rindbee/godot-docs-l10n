@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -46,21 +46,8 @@ msgstr ""
 "在导入项目后，在\\ **项目**\\ 面板中单击右键并选择\\ **打开配置...** 来打开项"
 "目配置。"
 
-msgid ""
-"Under **Language Support** open the **Includes/Imports** tab and add the "
-"following paths:"
-msgstr ""
-"在 **Language Support(语言支持)** 下打开 **Includes/Imports(包含/导入)** 标签"
-"并添加以下路径:"
-
 msgid "Apply the changes."
 msgstr "应用更改."
-
-msgid ""
-"Under **Custom Build System** add a new build configuration with the "
-"following settings:"
-msgstr ""
-"在 **Custom Build System(自定义构建系统)** 下添加一个新的构建配置, 设置如下:"
 
 msgid "Build Directory"
 msgstr "构建目录"
@@ -93,9 +80,6 @@ msgstr "应用更改并关闭配置窗口."
 msgid "Debugging the project"
 msgstr "调试项目"
 
-msgid "Select **Run > Configure Launches...** from the top menu."
-msgstr "从这顶部菜单选择 **Run > Configure Launches...** [运行>配置选项]."
-
 msgid "Click **Add** to create a new launch configuration."
 msgstr "单击 **Add** 以创建新的启动配置."
 
@@ -105,6 +89,3 @@ msgid ""
 msgstr ""
 "如果遇到问题, 也可在 `Godot 社区论坛 <https://godotengine.org/community>`__ "
 "中寻求帮助."
-
-msgid "Translation status"
-msgstr "翻译状态"

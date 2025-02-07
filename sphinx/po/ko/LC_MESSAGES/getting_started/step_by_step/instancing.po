@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -195,6 +195,3 @@ msgstr "복잡한 시스템을 구조화하고 캡슐화하는 도구."
 msgid ""
 "A language to think about your game project's structure in a natural way."
 msgstr "게임 프로젝트의 구조를 자연스러운 방법으로 생각하기 위한 언어."
-
-msgid "Translation status"
-msgstr "번역 상태"

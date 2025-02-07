@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -148,9 +148,6 @@ msgid ""
 "exposure and runtime accessibility)."
 msgstr "引擎開發人員必須為語言手動新增支援 (名稱暴露與執行時的可存取型)。"
 
-msgid "Godot 3.1+ only."
-msgstr "限適用於 Godot 3.1+ 版。"
-
 msgid ""
 "The Editor scans project folders and registers any exposed names for all "
 "scripting languages. Each scripting language must implement its own support "
@@ -257,6 +254,3 @@ msgid ""
 msgstr ""
 "如果想為場景起名，則還是可以在 3.1 版中通過宣告腳本類別並以常數來指定場景來實"
 "現類似的目的。該腳本就有了命名空間的效果："
-
-msgid "Translation status"
-msgstr "翻譯狀態"

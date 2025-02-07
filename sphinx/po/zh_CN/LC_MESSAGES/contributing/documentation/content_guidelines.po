@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -120,6 +120,3 @@ msgstr ""
 "拥有编程基础是使用像 Godot 这样复杂引擎的前提条件。讨论变量、函数、类是可以接"
 "受的，但相对于“元编程”之类的特定术语，我们应该更倾向于使用通俗易懂的语言来表"
 "达它们。如果你需要使用精准的术语，请务必通过定义解释它们。"
-
-msgid "Translation status"
-msgstr "翻译状态"

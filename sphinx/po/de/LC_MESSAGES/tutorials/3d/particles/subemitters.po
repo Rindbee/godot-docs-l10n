@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -162,6 +162,3 @@ msgstr ""
 "Emitter gespawnt wird. Die Property ``Explosivität`` zum Beispiel hat keinen "
 "Effekt. Je nach Emitter-Modus werden die Partikel entweder nacheinander in "
 "festen Intervallen oder explosionsartig auf einmal gespawnt."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

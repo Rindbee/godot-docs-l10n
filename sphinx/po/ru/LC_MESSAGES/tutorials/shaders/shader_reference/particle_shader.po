@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -115,9 +115,6 @@ msgstr ""
 
 msgid "Built-in"
 msgstr "Встроенный"
-
-msgid "Global time, in seconds."
-msgstr "Глобальное время в секундах."
 
 msgid ""
 "A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
@@ -303,6 +300,3 @@ msgstr ""
 
 msgid "Process built-ins"
 msgstr "Встроенные константы функции Process"
-
-msgid "Translation status"
-msgstr "Статус перевода"

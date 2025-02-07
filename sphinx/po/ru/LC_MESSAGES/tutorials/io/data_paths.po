@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "File paths in Godot projects"
+msgstr "Пути файлов в проектах Godot"
 
 msgid "Path separators"
 msgstr "Разделители путей"
@@ -41,6 +44,9 @@ msgstr "Тип"
 msgid "Location"
 msgstr "Расположение"
 
+msgid "Editor data paths"
+msgstr "Пути данных редактора"
+
 msgid "Windows: ``%APPDATA%\\Godot\\``"
 msgstr "Windows: ``%APPDATA%\\Godot\\``"
 
@@ -63,17 +69,6 @@ msgid "Linux: ``~/.cache/godot/``"
 msgstr "Linux: ``~/.cache/godot/``"
 
 msgid ""
-"Godot complies with the `XDG Base Directory Specification <https://"
-"specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html>`__ on "
-"all platforms. You can override environment variables following the "
-"specification to change the editor and project data paths."
-msgstr ""
-"Godot соответствует `Спецификации базового каталога XDG <https://"
-"specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html>`__ на "
-"всех платформах. Вы можете переопределить переменные среды в соответствии со "
-"спецификацией, чтобы изменить пути к данным редактора и проекта."
-
-msgid ""
 "If you use `Godot packaged as a Flatpak <https://flathub.org/apps/details/"
 "org.godotengine.Godot>`__, the editor data paths will be located in "
 "subfolders in ``~/.var/app/org.godotengine.Godot/``."
@@ -91,6 +86,3 @@ msgid ""
 msgstr ""
 "`В версии Godot для Steam <https://store.steampowered.com/app/404790/>`__ по "
 "умолчанию используется автономный режим."
-
-msgid "Translation status"
-msgstr "Статус перевода"

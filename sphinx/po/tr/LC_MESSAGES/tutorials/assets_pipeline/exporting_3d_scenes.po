@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,13 +12,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Overview"
-msgstr "Özet"
+msgstr "Genel Bakış"
+
+msgid "Limitations"
+msgstr "Sınırlamalar"
 
 msgid "There are several limitations with glTF export."
-msgstr "glTF dışa aktarmalarında bir çok sınırlandırma vardır."
+msgstr "glTF dışa aktarmalarında birçok sınırlandırma vardır."
 
 msgid "No support for exporting 2D scenes."
 msgstr "2B sahneleri dışarı aktarma desteği yok."
-
-msgid "Translation status"
-msgstr "Çeviri durumu"

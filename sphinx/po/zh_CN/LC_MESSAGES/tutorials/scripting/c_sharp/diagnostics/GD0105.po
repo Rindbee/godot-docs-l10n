@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0105: The exported property is an indexer"
+msgstr "GD0105：导出的属性是一个索引器"
+
 msgid "**Rule ID**"
 msgstr "**规则 ID**"
+
+msgid "GD0105"
+msgstr "GD0105"
 
 msgid "**Category**"
 msgstr "**类别**"
@@ -21,7 +27,10 @@ msgid "Usage"
 msgstr "用法"
 
 msgid "**Fix is breaking or non-breaking**"
-msgstr "**修复是中断修复还是非中断修复**"
+msgstr "**修复是破坏性的还是非破坏性的**"
+
+msgid "Non-breaking"
+msgstr "非破坏性的"
 
 msgid "**Enabled by default**"
 msgstr "**默认启用**"
@@ -32,14 +41,29 @@ msgstr "是"
 msgid "Cause"
 msgstr "原因"
 
+msgid ""
+"An indexer is annotated with the ``[Export]`` attribute. Indexers can't be "
+"exported."
+msgstr "索引器使用 ``[Export]`` 属性注解。索引器无法被导出。"
+
 msgid "Rule description"
 msgstr "规则说明"
 
+msgid "Godot doesn't allow exporting indexer properties."
+msgstr "Godot 不允许导出索引器属性。"
+
 msgid "How to fix violations"
-msgstr "如何解决冲突"
+msgstr "如何解决违规情况"
+
+msgid "To fix a violation of this rule, remove the ``[Export]`` attribute."
+msgstr "要修复违反该规则的情况，请移除 ``[Export]`` 属性。"
 
 msgid "When to suppress warnings"
-msgstr "何时禁止显示警告"
+msgstr "何时抑制警告"
 
-msgid "Translation status"
-msgstr "翻译状态"
+msgid ""
+"Do not suppress a warning from this rule. Indexers can't be exported so they "
+"will be ignored by Godot, resulting in runtime errors."
+msgstr ""
+"不要抑制该规则的警告。索引器无法被导出，因此它们将被 Godot 忽略，从而导致运行"
+"时错误。"

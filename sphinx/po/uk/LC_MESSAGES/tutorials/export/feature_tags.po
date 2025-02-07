@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -52,6 +52,15 @@ msgid "Features can be queried at run-time from the singleton API by calling:"
 msgstr ""
 "Про особливості можна дізнатися під час виконання з API Singleton, викликом:"
 
+msgid ""
+"OS feature tags are used by GDExtension to determine which libraries to "
+"load. For example, a library for ``linux.debug.editor.x86_64`` will be "
+"loaded only on a debug editor build for Linux x86_64."
+msgstr ""
+"Теги функцій ОС використовуються GDExtension, щоб визначити, які бібліотеки "
+"завантажувати. Наприклад, бібліотека для ``linux.debug.editor.x86_64`` буде "
+"завантажена лише у збірці редактора налагодження для Linux x86_64."
+
 msgid "Default features"
 msgstr "Типові можливості"
 
@@ -68,8 +77,47 @@ msgstr "**Тег функції**"
 msgid "**Description**"
 msgstr "**Опис**"
 
+msgid "**android**"
+msgstr "**android**"
+
+msgid "Running on Android (but not within a Web browser)"
+msgstr "Працює на Android (але не в веб-браузері)"
+
+msgid "**bsd**"
+msgstr "**bsd**"
+
+msgid "Running on \\*BSD (but not within a Web browser)"
+msgstr "Працює на \\*BSD (але не в веб-браузері)"
+
+msgid "**linux**"
+msgstr "**лінукс**"
+
+msgid "Running on Linux (but not within a Web browser)"
+msgstr "Працює в Linux (але не в веб-браузері)"
+
+msgid "**macos**"
+msgstr "**macos**"
+
+msgid "Running on macOS (but not within a Web browser)"
+msgstr "Працює в macOS (але не в веб-браузері)"
+
+msgid "**ios**"
+msgstr "**ios**"
+
+msgid "Running on iOS (but not within a Web browser)"
+msgstr "Працює на iOS (але не в веб-браузері)"
+
+msgid "**windows**"
+msgstr "**вікна**"
+
 msgid "Running on Windows"
 msgstr "Працюємо у Windows"
+
+msgid "**linuxbsd**"
+msgstr "**linux bsd**"
+
+msgid "Running on Linux or \\*BSD"
+msgstr "Працює на Linux або \\*BSD"
 
 msgid "**debug**"
 msgstr "**debug**"
@@ -89,6 +137,24 @@ msgstr "**editor**"
 msgid "Running on an editor build"
 msgstr "Працює в збірці редактора"
 
+msgid "**template**"
+msgstr "**шаблон**"
+
+msgid "Running on a non-editor (export template) build"
+msgstr "Працює на збірці без редактора (шаблон експорту)"
+
+msgid "**double**"
+msgstr "**подвійний**"
+
+msgid "Running on a double-precision build"
+msgstr "Запуск на збірці подвійної точності"
+
+msgid "**single**"
+msgstr "**одинак**"
+
+msgid "Running on a single-precision build"
+msgstr "Запуск на збірці одинарної точності"
+
 msgid "**64**"
 msgstr "**64**"
 
@@ -107,11 +173,17 @@ msgstr "**x86_64**"
 msgid "Running on a 64-bit x86 build"
 msgstr "Працюємо у 64-бітовій x86 збірці"
 
+msgid "**x86_32**"
+msgstr "**x86_32**"
+
 msgid "Running on a 32-bit x86 build"
 msgstr "Працює у 32-бітовій x86 збірці"
 
 msgid "**x86**"
 msgstr "**x86**"
+
+msgid "Running on an x86 build (any bitness)"
+msgstr "Працює на збірці x86 (будь-яка розрядність)"
 
 msgid "**arm64**"
 msgstr "**arm64**"
@@ -119,11 +191,65 @@ msgstr "**arm64**"
 msgid "Running on a 64-bit ARM build"
 msgstr "Працює у 64-бітовій ARM збірці"
 
+msgid "**arm32**"
+msgstr "**arm32**"
+
 msgid "Running on a 32-bit ARM build"
 msgstr "Працює у 32-бітовій ARM збірці"
 
 msgid "**arm**"
 msgstr "**arm**"
+
+msgid "Running on an ARM build (any bitness)"
+msgstr "Працює на збірці ARM (будь-яка розрядність)"
+
+msgid "**rv64**"
+msgstr "**rv64**"
+
+msgid "Running on a 64-bit RISC-V build"
+msgstr "Працює на 64-розрядній збірці RISC-V"
+
+msgid "**riscv**"
+msgstr "**risc v**"
+
+msgid "Running on a RISC-V build (any bitness)"
+msgstr "Працює на збірці RISC-V (будь-яка розрядність)"
+
+msgid "**ppc64**"
+msgstr "**p pc64**"
+
+msgid "Running on a 64-bit PowerPC build"
+msgstr "Працює на 64-розрядній збірці PowerPC"
+
+msgid "**ppc32**"
+msgstr "**p pc32**"
+
+msgid "Running on a 32-bit PowerPC build"
+msgstr "Працює на 32-розрядній версії PowerPC"
+
+msgid "**ppc**"
+msgstr "**p pc**"
+
+msgid "Running on a PowerPC build (any bitness)"
+msgstr "Запуск на збірці PowerPC (будь-яка розрядність)"
+
+msgid "**wasm64**"
+msgstr "**wasm 64**"
+
+msgid "Running on a 64-bit WebAssembly build (not yet possible)"
+msgstr "Запуск на 64-розрядній збірці WebAssembly (поки що неможливо)"
+
+msgid "**wasm32**"
+msgstr "**wasm 32**"
+
+msgid "Running on a 32-bit WebAssembly build"
+msgstr "Працює на 32-розрядній збірці WebAssembly"
+
+msgid "**wasm**"
+msgstr "** wasm**"
+
+msgid "Running on a WebAssembly build (any bitness)"
+msgstr "Запуск на збірці WebAssembly (будь-яка розрядність)"
 
 msgid "**mobile**"
 msgstr "**мобільний телефон**"
@@ -144,6 +270,36 @@ msgstr "**web**"
 msgid "Host OS is a Web browser"
 msgstr "Основна операційна система є переглядачем інтернету"
 
+msgid "**web_android**"
+msgstr "**web_android**"
+
+msgid "Host OS is a Web browser running on Android"
+msgstr "Host OS — це веб-браузер, що працює на Android"
+
+msgid "**web_ios**"
+msgstr "**web_ios**"
+
+msgid "Host OS is a Web browser running on iOS"
+msgstr "Host OS — це веб-браузер, що працює на iOS"
+
+msgid "**web_linuxbsd**"
+msgstr "**web linux bsd**"
+
+msgid "Host OS is a Web browser running on Linux or \\*BSD"
+msgstr "Хост-ОС — це веб-браузер, що працює на Linux або \\*BSD"
+
+msgid "**web_macos**"
+msgstr "**web_macos**"
+
+msgid "Host OS is a Web browser running on macOS"
+msgstr "Host OS — це веб-браузер, що працює на macOS"
+
+msgid "**web_windows**"
+msgstr "**web_windows**"
+
+msgid "Host OS is a Web browser running on Windows"
+msgstr "Хост-ОС — це веб-браузер, що працює під керуванням Windows"
+
 msgid "**etc**"
 msgstr "**etc**"
 
@@ -161,6 +317,25 @@ msgstr "**s3tc**"
 
 msgid "Textures using S3TC (DXT/BC) compression are supported"
 msgstr "Підтримуються текстури, що використовують стиснення S3TC (DXT / BC)"
+
+msgid "**movie**"
+msgstr "**фільм**"
+
+msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
+msgstr ":ref:`Режим Movie Maker <doc_creating_movies>` активний"
+
+msgid ""
+"With the exception of texture compression, ``web_<platform>`` and ``movie`` "
+"feature tags, default feature tags are **immutable**. This means that they "
+"will *not* change depending on run-time conditions. For example, ``OS."
+"has_feature(\"mobile\")`` will return ``false`` when running a project "
+"exported to Web on a mobile device."
+msgstr ""
+"За винятком стиснення текстури, тегів функцій ``web_<platform>`` і "
+"``movie``, теги функцій за замовчуванням є **незмінними**. Це означає, що "
+"вони *не* змінюватимуться залежно від умов виконання. Наприклад, ``OS."
+"has_feature(\"mobile\")`` поверне ``false`` під час запуску проекту, "
+"експортованого в Інтернет, на мобільному пристрої."
 
 msgid "Custom features"
 msgstr "Нетипові можливості"
@@ -234,5 +409,12 @@ msgstr ""
 msgid "Customizing the build"
 msgstr "Налаштування збірки"
 
-msgid "Translation status"
-msgstr "Стан перекладу"
+msgid ""
+"Feature tags can be used to customize a build process too, by writing a "
+"custom **ExportPlugin**. They are also used to specify which shared library "
+"is loaded and exported in **GDExtension**."
+msgstr ""
+"Теги функцій також можна використовувати для налаштування процесу збірки, "
+"написавши спеціальний **ExportPlugin**. Вони також використовуються для "
+"визначення того, яка спільна бібліотека завантажується та експортується в "
+"**GDExtension**."

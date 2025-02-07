@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -290,17 +290,26 @@ msgstr ""
 msgid "Naming conventions"
 msgstr "Соглашения об именовании"
 
-msgid ""
-"These naming conventions follow the Godot Engine style. Breaking these will "
-"make your code clash with the built-in naming conventions, leading to "
-"inconsistent code."
-msgstr ""
-"Эти соглашения об именовании следуют стилю Godot Engine. Нарушение этих "
-"правил приведет к конфликту вашего кода со встроенными соглашениями об "
-"именовании, что приведет к противоречивому коду."
+msgid "Type"
+msgstr "Тип"
+
+msgid "Example"
+msgstr "Пример"
 
 msgid "File names"
 msgstr "Имена файлов"
+
+msgid "Functions"
+msgstr "Функции"
+
+msgid "Variables"
+msgstr "Переменные"
+
+msgid "Signals"
+msgstr "Сигналы"
+
+msgid "Constants"
+msgstr "Константы"
 
 msgid ""
 "Use snake_case for file names. For named classes, convert the PascalCase "
@@ -344,9 +353,6 @@ msgstr ""
 "(функции, которые пользователь должен переопределить), приватных функций и "
 "приватных переменных:"
 
-msgid "Signals"
-msgstr "Сигналы"
-
 msgid "Use the past tense to name signals:"
 msgstr "Используйте прошедшее время в именах сигналов:"
 
@@ -369,14 +375,6 @@ msgstr ""
 
 msgid "Code order"
 msgstr "Порядок кода"
-
-msgid ""
-"This first section focuses on code order. For formatting, see :ref:"
-"`formatting`. For naming conventions, see :ref:`naming_conventions`."
-msgstr ""
-"Это первый раздел сфокусированный на порядке кода. Для форматирования "
-"смотрите :ref:`formatting`. Для соглашений по именованию смотрите :ref:"
-"`naming_conventions`."
 
 msgid "We suggest to organize GDScript code this way:"
 msgstr "Мы предлагаем организовывать код на GDScript таким образом:"
@@ -503,13 +501,6 @@ msgstr ""
 msgid "Static typing"
 msgstr "Статическая типизация"
 
-msgid ""
-"Since Godot 3.1, GDScript supports :ref:`optional static "
-"typing<doc_gdscript_static_typing>`."
-msgstr ""
-"Начиная с версии Godot 3.1, GDScript поддерживает :ref:`optional static "
-"typing<doc_gdscript_static_typing>`."
-
 msgid "Declared types"
 msgstr "Объявленные типы"
 
@@ -540,6 +531,3 @@ msgid ""
 msgstr ""
 "Этот вариант также считается больше :ref:`type-safe "
 "<doc_gdscript_static_typing_safe_lines>`, чем первый."
-
-msgid "Translation status"
-msgstr "Статус перевода"

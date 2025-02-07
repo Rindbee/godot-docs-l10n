@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -50,6 +50,3 @@ msgstr ""
 "apple.security.get-task-allow) pendant l'exportation. Lorsqu'il est "
 "sélectionné, la notarisation n'est pas prise en charge et doit être "
 "désactivée."
-
-msgid "Translation status"
-msgstr "État de la traduction"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -22,8 +22,8 @@ msgid ""
 msgstr ""
 ":ref:`HTTPClient <class_HTTPClient>` offre un accès de bas niveau à la "
 "communication HTTP. Pour une interface de haut niveau, il vaut peut-être "
-"mieux se renseigner d’abord sur :ref:`HTTPRequest <class_HTTPRequest>`, pour "
-"laquelle un tutorial est disponible :ref:`ici <doc_http_request_class>`."
+"mieux se renseigner d’abord sur :ref:`HTTPRequest <class_HTTPRequest>`, pour "
+"laquelle un tutoriel est disponible :ref:`ici <doc_http_request_class>`."
 
 msgid ""
 "When exporting to Android, make sure to enable the ``INTERNET`` permission "
@@ -46,6 +46,3 @@ msgstr ""
 
 msgid "It will connect and fetch a website."
 msgstr "Il va se connecter et récupérer un site web."
-
-msgid "Translation status"
-msgstr "État de la traduction"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -740,6 +740,3 @@ msgstr ""
 "crosskompilieren können. Linux und Windows kommen an zweiter Stelle, aber "
 "Linux hat den Vorteil, dass es die einfachere Plattform ist, um dies "
 "einzurichten."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

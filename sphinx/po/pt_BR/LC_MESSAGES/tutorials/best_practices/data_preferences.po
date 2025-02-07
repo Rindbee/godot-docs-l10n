@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -537,6 +537,3 @@ msgstr ""
 "que se planeja para seu objeto. Estes são casos onde a :ref:`AnimationTree "
 "<class_AnimationTree>` brilha. Pode-se encontrar um guia detalhado sobre o "
 "uso da AnimationTree :ref:`aqui <doc_animation_tree>`."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

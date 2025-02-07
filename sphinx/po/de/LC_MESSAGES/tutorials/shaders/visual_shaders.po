@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -50,27 +50,6 @@ msgstr ""
 "VisualShader können in jedem :ref:`class_ShaderMaterial` erstellt werden. Um "
 "VisualShader zu benutzen, erstellen Sie ein neues ``ShaderMaterial`` in "
 "einem Objekt Ihrer Wahl."
-
-msgid ""
-"Then assign a :ref:`class_VisualShader` resource to the ``Shader`` property."
-msgstr ""
-"Weisen Sie dann der Property ``Shader`` eine Ressource :ref:"
-"`class_VisualShader` zu."
-
-msgid ""
-"Click on the new ``Shader`` resource and the Create Shader dialog will open "
-"automatically. Change the Type option to VisualShader in the dropdown."
-msgstr ""
-"Klicken Sie auf die neue ``Shader``-Ressource und der Dialog Shader Erzeugen "
-"wird automatisch geöffnet. Ändern Sie in der Dropdown-Liste die Option "
-"\"Typ\" in \"VisualShader\"."
-
-msgid ""
-"The layout of the Visual Shader Editor comprises two parts: the upper "
-"toolbar and the graph itself."
-msgstr ""
-"Das Layout des Visual Shader-Editors besteht aus zwei Teilen: der oberen "
-"Symbolleiste und dem Diagramm selbst."
 
 msgid "From left to right in the toolbar:"
 msgstr "Von links nach rechts in der Toolbar:"
@@ -215,21 +194,6 @@ msgstr ""
 "Diese Ports sind farblich gekennzeichnet, um den Typ des Ports zu "
 "unterscheiden:"
 
-msgid "scalar"
-msgstr "scalar"
-
-msgid "vector"
-msgstr "vector"
-
-msgid "boolean"
-msgstr "boolean"
-
-msgid "transform"
-msgstr "transform"
-
-msgid "sampler"
-msgstr "sampler"
-
 msgid "Port types"
 msgstr "Port-Typen"
 
@@ -248,14 +212,14 @@ msgstr "Beispiel"
 msgid "Scalar"
 msgstr "Skalar"
 
-msgid "Cyan"
-msgstr "Türkis"
-
 msgid "Scalar is a single value."
 msgstr "Skalar ist ein einzelner Wert."
 
 msgid "|scalar|"
 msgstr "|scalar|"
+
+msgid "scalar"
+msgstr "scalar"
 
 msgid "Vector"
 msgstr "Vektor"
@@ -269,11 +233,11 @@ msgstr "Ein Vektor ist eine Menge von Werten."
 msgid "|vector|"
 msgstr "|vector|"
 
+msgid "vector"
+msgstr "vector"
+
 msgid "Boolean"
 msgstr "Boolean"
-
-msgid "Blue"
-msgstr "Blau"
 
 msgid "On or off, true or false."
 msgstr "Ein oder aus, wahr oder falsch."
@@ -281,11 +245,11 @@ msgstr "Ein oder aus, wahr oder falsch."
 msgid "|boolean|"
 msgstr "|boolean|"
 
+msgid "boolean"
+msgstr "boolean"
+
 msgid "Transform"
 msgstr "Transformation"
-
-msgid "Orange"
-msgstr "Orange"
 
 msgid "A matrix, usually used to transform vertices."
 msgstr ""
@@ -294,17 +258,23 @@ msgstr ""
 msgid "|transform|"
 msgstr "|transform|"
 
+msgid "transform"
+msgstr "transform"
+
 msgid "Sampler"
 msgstr "Sampler"
 
-msgid "Yellow"
-msgstr "Gelb"
+msgid "Orange"
+msgstr "Orange"
 
 msgid "A texture sampler. It can be used to sample textures."
 msgstr "Ein Textur-Sampler. Er kann verwendet werden, um Texturen abzutasten."
 
 msgid "|sampler|"
 msgstr "|sampler|"
+
+msgid "sampler"
+msgstr "sampler"
 
 msgid ""
 "All of the types are used in the calculations of vertices, fragments, and "
@@ -420,6 +390,3 @@ msgstr ""
 "``true`` oder ``false`` ist. ``Boolean`` wurde oben eingeführt. Wenn Sie "
 "einen Vektor in einen booleschen true-Wert umwandeln, sollten alle "
 "Komponenten des Vektors über Null liegen."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

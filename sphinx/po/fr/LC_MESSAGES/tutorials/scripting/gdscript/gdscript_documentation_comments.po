@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,14 +11,79 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GDScript documentation comments"
+msgstr "GDSCript Commentaires de documentation"
+
+msgid ""
+"In GDScript, comments can be used to document your code and add descriptions "
+"to the members of a script. There are two differences between a normal "
+"comment and a documentation comment. Firstly, a documentation comment should "
+"start with double hash symbols ``##``. Secondly, it must immediately precede "
+"a script member, or for script descriptions, be placed at the top of the "
+"script. If an exported variable is documented, its description is used as a "
+"tooltip in the editor. This documentation can be generated as XML files by "
+"the editor."
+msgstr ""
+"Dans GDScript, les commentaires peuvent être utilisés pour documenter votre "
+"code et ajouter des descriptions aux parties d'un script. Il existe deux "
+"différences entre un commentaire normal et un commentaire de documentation. "
+"Tout d'abord, un commentaire de documentation doit commencer par un double "
+"symbole dièse ``##``. Ensuite, il doit précéder immédiatement une partie de "
+"script ou, pour les descriptions de script, être placé en haut du script. Si "
+"une variable exportée est documentée, sa description est utilisée comme info-"
+"bulle dans l'éditeur. Cette documentation peut être générée sous forme de "
+"fichiers XML par l'éditeur."
+
+msgid "Documenting a script"
+msgstr "Documenter un script"
+
+msgid ""
+"Comments documenting a script must come before any member documentation. A "
+"suggested format for script documentation can be divided into three parts."
+msgstr ""
+"Les commentaires documentant un script doivent précéder toute documentation "
+"relative aux autres parties du script. Le format suggéré pour la "
+"documentation d'un script peut être divisé en trois parties."
+
+msgid "A brief description of the script."
+msgstr "Une brève description du script."
+
+msgid "Detailed description."
+msgstr "Une description détaillée."
+
 msgid "Tutorials and deprecated/experimental marks."
-msgstr "Tutoriels et marques dépréciées/expérimentales."
+msgstr "Des tutoriels et marques dépréciées/expérimentales."
+
+msgid ""
+"To separate these from each other, the documentation comments use special "
+"tags. The tag must be at the beginning of a line (ignoring preceding white "
+"space) and must have the format ``@``, followed by the keyword."
+msgstr ""
+"Pour les séparer les uns des autres, les commentaires de la documentation "
+"utilisent des étiquettes spéciales. L'étiquette doit être au début d'une "
+"ligne (en ignorant l'espace blanc qui la précède) et doit avoir le format "
+"``@``, suivi du mot-clé."
 
 msgid "Tags"
 msgstr "Étiquettes"
 
+msgid "Brief description"
+msgstr "Courte description"
+
+msgid "No tag. Lives at the very beginning of the documentation section."
+msgstr ""
+"Aucune étiquette. Se trouve au tout début de la section de documentation."
+
 msgid "Description"
 msgstr "Description"
+
+msgid "No tag. Use one blank line to separate the description from the brief."
+msgstr ""
+"Pas d'étiquette. Utilisez une ligne vide pour la séparer de la courte "
+"description."
+
+msgid "Tutorial"
+msgstr "Tutoriel"
 
 msgid "``@tutorial: https://example.com``"
 msgstr "``@tutorial: https://example.com``"
@@ -26,26 +91,184 @@ msgstr "``@tutorial: https://example.com``"
 msgid "``@tutorial(The Title Here): https://example.com``"
 msgstr "``@tutorial(Le titre ici): https://example.com``"
 
-msgid "``@deprecated: Use [AnotherClass] instead.``"
-msgstr "``@déprécié : utilisez [AnotherClass] à la place.``"
+msgid "Deprecated"
+msgstr "Obsolète"
 
-msgid "Function"
-msgstr "Fonction"
+msgid "``@deprecated``"
+msgstr "``@deprecated``"
+
+msgid "``@deprecated: Use [AnotherClass] instead.``"
+msgstr "``@deprecated: Utilisez [AutreClasse] à la place.``"
+
+msgid "Experimental"
+msgstr "Expérimental"
+
+msgid "``@experimental``"
+msgstr "``@experimental``"
+
+msgid "``@experimental: This class is unstable.``"
+msgstr "``@experimental: Cette classe est instable.``"
+
+msgid "For example::"
+msgstr "Par exemple ::"
+
+msgid ""
+"If there is any space in between the tag name and colon, for example "
+"``@tutorial  :``, it won't be treated as a valid tag and will be ignored."
+msgstr ""
+"S'il y a un espace entre le nom de la balise et les deux points, par exemple "
+"``@tutorial :``, il ne sera pas traité comme une balise valide et sera "
+"ignoré."
+
+msgid ""
+"When the description spans multiple lines, the preceding and trailing white "
+"spaces will be stripped and joined with a single space. To preserve the line "
+"break use ``[br]``. See also `BBCode and class reference`_ below."
+msgstr ""
+"Lorsque la description s'étend sur plusieurs lignes, les espaces blancs "
+"précédant et suivant les lignes seront supprimés et joints par un seul "
+"espace. Pour préserver le saut de ligne, utilisez ``[br]``. Voir également "
+"`BBCode and class reference`_ ci-dessous."
+
+msgid "Documenting script members"
+msgstr "Documentation des parties du script"
+
+msgid "Members that are applicable for documentation:"
+msgstr "Parties pouvant faire l'objet d'une entrée dans la documentation :"
 
 msgid "Signal"
 msgstr "Signaux"
 
-msgid "Variable"
-msgstr "Variable"
+msgid "Enum"
+msgstr "Énumération"
 
 msgid "Enum value"
 msgstr "Valeur d’énumération"
 
+msgid "Constant"
+msgstr "Constante"
+
+msgid "Variable"
+msgstr "Variable"
+
+msgid "Function"
+msgstr "Fonction"
+
+msgid "Inner class"
+msgstr "Classe interne"
+
+msgid ""
+"Documentation of a script member must immediately precede the member or its "
+"annotations if it has any. The description can have more than one line but "
+"every line must start with the double hash symbol ``##`` to be considered as "
+"part of the documentation."
+msgstr ""
+"La documentation d'un membre du script doit précéder immédiatement le membre "
+"ou ses annotations s'il en contient. La description peut comporter plusieurs "
+"lignes, mais chaque ligne doit commencer par le symbole dièse double ``##`` "
+"pour être considérée comme faisant partie de la documentation."
+
 msgid "No tag."
-msgstr "Sans balise."
+msgstr "Aucune étiquette."
+
+msgid "``@deprecated: Use [member another] instead.``"
+msgstr "``@deprecated: Utiliser [autre membre] à la place.``"
+
+msgid "``@experimental: This method is incomplete.``"
+msgstr "``@experimental: Cette méthode n'est pas terminée.``"
+
+msgid "Alternatively, you can use inline documentation comments::"
+msgstr "Autrement, vous pouvez utiliser des commentaires sur la même ligne::"
+
+msgid ""
+"The script documentation will update in the editor help window every time "
+"the script is updated. If any member variable or function name starts with "
+"an underscore, it will be treated as private. It will not appear in the "
+"documentation and will be ignored in the help window."
+msgstr ""
+"La documentation du script sera mise à jour dans la fenêtre d'aide de "
+"l'éditeur à chaque mise à jour du script. Si le nom d'une propriété ou d'une "
+"fonction commence par un trait de soulignement, il sera traité comme privé. "
+"Il n'apparaîtra pas dans la documentation et sera ignoré dans la fenêtre "
+"d'aide."
+
+msgid "Complete script example"
+msgstr "Exemple complet pour un script"
 
 msgid "``@deprecated`` and ``@experimental`` tags"
-msgstr "Tags ``@deprecated`` et ``@experimental``"
+msgstr "Etiquettes ``@deprecated`` et ``@experimental``"
+
+msgid ""
+"You can mark a class or any of its members as deprecated or experimental. "
+"This will add the corresponding indicator in the built-in documentation "
+"viewer. Optionally, you can provide a short message explaining why the API "
+"is not recommended. This can be especially useful for plugin and library "
+"creators."
+msgstr ""
+"Vous pouvez marquer une classe ou l'un de ses membres comme obsolète ou "
+"expérimental. Cela ajoutera l'indicateur correspondant dans la visionneuse "
+"de documentation intégrée. Vous pouvez éventuellement fournir un court "
+"message expliquant pourquoi l'API n'est pas recommandée. Cela peut être "
+"particulièrement utile pour les créateurs de plugins et de bibliothèques."
+
+msgid ""
+"**Deprecated** marks a non-recommended API that is subject to removal or "
+"incompatible change in a future major release. Usually the API is kept for "
+"backwards compatibility."
+msgstr ""
+"**Deprecated** indique une API non recommandée qui est susceptible d'être "
+"supprimée ou de subir une modification incompatible dans une future version "
+"majeure. En général, l'API est conservée pour des raisons de compatibilité "
+"ascendante."
+
+msgid ""
+"**Experimental** marks a new unstable API that may be changed or removed in "
+"the current major branch. Using this API is not recommended in production "
+"code."
+msgstr ""
+"**Experimental** indique une nouvelle API instable qui peut être modifiée ou "
+"supprimée dans la branche principale actuelle. L'utilisation de cette API "
+"n'est pas recommandée dans le code de production."
+
+msgid ""
+"While technically you can use both ``@deprecated`` and ``@experimental`` "
+"tags on the same class/member, this is not recommended as it is against "
+"common conventions."
+msgstr ""
+"Bien que techniquement vous puissiez utiliser les balises ``@deprecated`` et "
+"``@experimental`` sur la même classe/membre, cela n'est pas recommandé car "
+"cela va à l'encontre des conventions courantes."
+
+msgid "BBCode and class reference"
+msgstr "BBCode et référence de classe"
+
+msgid ""
+"Godot's class reference supports BBCode-like tags. They add nice formatting "
+"to the text which could also be used in the documentation. See also :ref:"
+"`class reference bbcode <doc_class_reference_bbcode>`. Note that this is "
+"slightly different from the ``RichTextLabel`` :ref:`BBCode "
+"<doc_bbcode_in_richtextlabel>`."
+msgstr ""
+"La référence de classe de Godot prend en charge les balises de type BBCode. "
+"Ils ajoutent une belle mise en forme au texte qui pourrait également être "
+"utilisée dans la documentation. Voir aussi :ref:`bbcode pour les références "
+"de classe <doc_class_reference_bbcode>`. Notez que cela est légèrement "
+"différent du ``RichTextLabel`` :ref:`BBCode <doc_bbcode_in_richtextlabel>`."
+
+msgid ""
+"Whenever you link to a member of another class, you need to specify the "
+"class name. For links to the same class, the class name is optional and can "
+"be omitted."
+msgstr ""
+"Chaque fois que vous créez un lien vers un membre d'une autre classe, vous "
+"devez spécifier le nom de la classe. Pour les liens vers la même classe, le "
+"nom de la classe est facultatif et peut être omis."
+
+msgid "Here's the list of available tags:"
+msgstr "Voici la liste des étiquettes disponibles :"
+
+msgid "Tag and Description"
+msgstr "Étiquettes et Description"
 
 msgid "Example"
 msgstr "Exemple"
@@ -53,11 +276,47 @@ msgstr "Exemple"
 msgid "Result"
 msgstr "Résultat"
 
+msgid "``[Class]``"
+msgstr "``[Class]``"
+
+msgid "Link to class"
+msgstr "Lien vers une classe"
+
+msgid "``Move the [Sprite2D].``"
+msgstr "``Déplacer le [Sprite2D].``"
+
+msgid "Move the :ref:`class_Sprite2D`."
+msgstr "Déplacez le :ref:`class_Sprite2D`."
+
 msgid "``[annotation Class.name]``"
 msgstr "``[annotation Class.name]``"
 
+msgid "Link to annotation"
+msgstr "Lien vers l'annotation"
+
 msgid "``See [annotation @GDScript.@rpc].``"
 msgstr "``Voir [annotation @GDScript.@rpc].``"
+
+msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+msgstr "Voir :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+
+msgid "``[constant Class.name]``"
+msgstr "``[constant Class.name]``"
+
+msgid "Link to constant"
+msgstr "Lien vers une constante"
+
+msgid "``See [constant Color.RED].``"
+msgstr "``Voir [constant Color.RED].``"
+
+msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
+msgstr "Voir :ref:`Color.RED <class_Color_constant_RED>`."
+
+msgid "``[enum Class.name]``"
+msgstr "``[enum Class.name]``"
+
+msgid "Link to enum"
+msgstr "Lien vers l'énumération"
 
 msgid "``See [enum Mesh.ArrayType].``"
 msgstr "``Voir [enum Mesh.ArrayType].``"
@@ -65,11 +324,71 @@ msgstr "``Voir [enum Mesh.ArrayType].``"
 msgid "See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
 msgstr "Voir :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
 
+msgid "``[member Class.name]``"
+msgstr "``[member Class.name]``"
+
+msgid "Link to member (property)"
+msgstr "Lien vers le membre (propriété)"
+
+msgid "``Get [member Node2D.scale].``"
+msgstr "``Obtenir [member Node2D.scale].``"
+
+msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
+msgstr "Obtenir :ref:`Node2D.scale <class_Node2D_property_scale>`."
+
+msgid "``[method Class.name]``"
+msgstr "``[method Class.name]``"
+
+msgid "Link to method"
+msgstr "Lien vers une méthode"
+
+msgid "``Call [method Node3D.hide].``"
+msgstr "``Appelle [method Node3D.hide].``"
+
+msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
+msgstr "Appelle :ref:`Node3D.hide() <class_Node3D_method_hide>`."
+
+msgid "``[constructor Class.name]``"
+msgstr "``[constructor Class.name]``"
+
+msgid "Link to built-in constructor"
+msgstr "Lien vers le constructeur intégré"
+
 msgid "``Use [constructor Color.Color].``"
-msgstr "``Utiliser [constructor Color.Color].``"
+msgstr "``Utilise [constructor Color.Color].``"
+
+msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
+msgstr "Utilise  :ref:`Color.Color <class_Color_constructor_Color>`."
+
+msgid "``[operator Class.name]``"
+msgstr "``[operator Class.name]``"
+
+msgid "Link to built-in operator"
+msgstr "Lien vers un opérateur intégré"
 
 msgid "``Use [operator Color.operator *].``"
-msgstr "``Utilisez [operator Color.operator *].``"
+msgstr "``Utilise [operator Color.operator *].``"
+
+msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+msgstr "Utilise  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+
+msgid "``[signal Class.name]``"
+msgstr "``[signal Class.name]``"
+
+msgid "Link to signal"
+msgstr "Lien vers un signal"
+
+msgid "``Emit [signal Node.renamed].``"
+msgstr "``Émet [signal Node.renamed].``"
+
+msgid "Emit :ref:`Node.renamed <class_Node_signal_renamed>`."
+msgstr "Émet :ref:`Node.renamed <class_Node_signal_renamed>`."
+
+msgid "``[theme_item Class.name]``"
+msgstr "``[theme_item Class.name]``"
+
+msgid "Link to theme item"
+msgstr "Lien vers un objet du thème"
 
 msgid "``See [theme_item Label.font].``"
 msgstr "``Voir [theme_item Label.font].``"
@@ -77,11 +396,23 @@ msgstr "``Voir [theme_item Label.font].``"
 msgid "See :ref:`Label.font <class_Label_theme_font_font>`."
 msgstr "Voir :ref:`Label.font <class_Label_theme_font_font>`."
 
+msgid "``[param name]``"
+msgstr "``[param name]``"
+
 msgid "Parameter name (as code)"
 msgstr "Nom de paramètre (comme code)"
 
+msgid "``Takes [param size] for the size.``"
+msgstr "``Prends [param size] pour la taille.``"
+
+msgid "Takes ``size`` for the size."
+msgstr "Prends ``size`` pour la taille."
+
 msgid "``[br]``"
 msgstr "``[br]``"
+
+msgid "Line break"
+msgstr "Saut de ligne"
 
 msgid "``Line 1.[br]``"
 msgstr "``Ligne 1.[br]``"
@@ -95,11 +426,32 @@ msgstr "Ligne 1."
 msgid "Line 2."
 msgstr "Ligne 2."
 
+msgid "``[lb]`` ``[rb]``"
+msgstr "``[lb]`` ``[rb]``"
+
 msgid "``[`` and ``]`` respectively"
 msgstr "``[`` et ``]`` respectivement"
 
+msgid "``[lb]b[rb]text[lb]/b[rb]``"
+msgstr "``[lb]b[rb]texte[lb]/b[rb]``"
+
+msgid "[b]text[/b]"
+msgstr "[b]texte[/b]"
+
+msgid "``[b]`` ``[/b]``"
+msgstr "``[b]`` ``[/b]``"
+
 msgid "Bold"
 msgstr "Gras"
+
+msgid "``Do [b]not[/b] call this method.``"
+msgstr "``[b]Ne pas[/b] appeler cette méthode.``"
+
+msgid "Do **not** call this method."
+msgstr "**Ne pas** appeler cette méthode."
+
+msgid "``[i]`` ``[/i]``"
+msgstr "``[i]`` ``[/i]``"
 
 msgid "Italic"
 msgstr "Italique"
@@ -107,8 +459,20 @@ msgstr "Italique"
 msgid "``Returns the [i]global[/i] position.``"
 msgstr "``Retourne la position [i]globale[/i].``"
 
+msgid "Returns the *global* position."
+msgstr "Retourne la position *globale*."
+
+msgid "``[u]`` ``[/u]``"
+msgstr "``[u]`` ``[/u]``"
+
+msgid "Underline"
+msgstr "Souligné"
+
 msgid "``[u]Always[/u] use this method.``"
 msgstr "``[u]Toujours[/u] utiliser cette méthode.``"
+
+msgid "``[s]`` ``[/s]``"
+msgstr "``[s]`` ``[/s]``"
 
 msgid "Strikethrough"
 msgstr "Barré"
@@ -116,23 +480,59 @@ msgstr "Barré"
 msgid "``[s]Outdated information.[/s]``"
 msgstr "``[s]Information plus à jour.[/s]``"
 
+msgid "``[color]`` ``[/color]``"
+msgstr "``[color]`` ``[/color]``"
+
 msgid "Color"
 msgstr "Couleur"
+
+msgid "``[color=red]Error![/color]``"
+msgstr "``[color=red]Erreur![/color]``"
+
+msgid "``[font]`` ``[/font]``"
+msgstr "``[font]`` ``[/font]``"
+
+msgid "Font"
+msgstr "Police"
 
 msgid "``[font=res://mono.ttf]LICENSE[/font]``"
 msgstr "``[font=res://mono.ttf]LICENSE[/font]``"
 
+msgid "``[img]`` ``[/img]``"
+msgstr "``[img]`` ``[/img]``"
+
+msgid "Image"
+msgstr "Image"
+
 msgid "``[img width=32]res://icon.svg[/img]``"
 msgstr "``[img width=32]res://icon.svg[/img]``"
+
+msgid "``[url]`` ``[/url]``"
+msgstr "``[url]`` ``[/url]``"
+
+msgid "Hyperlink"
+msgstr "Lien web"
 
 msgid "``[url]https://example.com[/url]``"
 msgstr "``[url]https://example.com[/url]``"
 
 msgid "``[url=https://example.com]Website[/url]``"
-msgstr "``[url=https://example.com]Website[/url]``"
+msgstr "``[url=https://example.com]site Web[/url]``"
 
 msgid "https://example.com"
 msgstr "https://example.com"
+
+msgid "`Website <https://example.com>`_"
+msgstr "`site Web<https://example.com>`_"
+
+msgid "``[center]`` ``[/center]``"
+msgstr "``[center]`` ``[/center]``"
+
+msgid "Horizontal centering"
+msgstr "Centrage horizontal"
+
+msgid "``[center]2 + 2 = 4[/center]``"
+msgstr "``[center]2 + 2 = 4[/center]``"
 
 msgid "``[kbd]`` ``[/kbd]``"
 msgstr "``[kbd]`` ``[/kbd]``"
@@ -140,14 +540,54 @@ msgstr "``[kbd]`` ``[/kbd]``"
 msgid "Keyboard/mouse shortcut"
 msgstr "Raccourci clavier/souris"
 
+msgid "``Press [kbd]Ctrl + C[/kbd].``"
+msgstr "``Appuyez sur [kbd]Ctrl + C[/kbd].``"
+
+msgid "Press :kbd:`Ctrl + C`."
+msgstr "Appuyez sur :kbd:`Ctrl + C`."
+
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
 
 msgid "Inline code fragment"
 msgstr "Fragment de code inline"
 
+msgid "``Returns [code]true[/code].``"
+msgstr "``Renvoie [code]true[/code].``"
+
+msgid "Returns ``true``."
+msgstr "Renvoie ``true``."
+
+msgid "``[codeblock]``"
+msgstr "``[codeblock]``"
+
+msgid "``[/codeblock]``"
+msgstr "``[/codeblock]``"
+
+msgid "Multiline code block"
+msgstr "Bloc de code multiligne"
+
 msgid "*See below.*"
 msgstr "*Voir ci-dessous.*"
+
+msgid "Currently only :ref:`class_@GDScript` has annotations."
+msgstr "Actuellement, seul :ref:`class_@GDScript` contient des annotations."
+
+msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
+msgstr ""
+"``[kbd]`` désactive le BBCode jusqu'à ce que l'analyseur rencontre ``[/"
+"kbd]``."
+
+msgid "``[code]`` disables BBCode until the parser encounters ``[/code]``."
+msgstr ""
+"``[code]`` désactive le BBCode jusqu'à ce que l'analyseur rencontre ``[/"
+"code]``."
+
+msgid ""
+"``[codeblock]`` disables BBCode until the parser encounters ``[/codeblock]``."
+msgstr ""
+"``[codeblock]`` désactive le BBCode jusqu'à ce que l'analyseur rencontre ``[/"
+"codeblock]``."
 
 msgid ""
 "Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, "
@@ -157,5 +597,22 @@ msgstr ""
 "de ``[codeblock]``, utilisez toujours **quatre espaces** pour l'indentation "
 "(l'analyseur supprimera les tabulations)."
 
-msgid "Translation status"
-msgstr "État de la traduction"
+msgid ""
+"By default, ``[codeblock]`` highlights GDScript syntax. You can change it "
+"using the ``lang`` attribute. Currently supported options are:"
+msgstr ""
+"Par défaut, ``[codeblock]`` met en surbrillance la syntaxe GDScript. Vous "
+"pouvez la modifier à l'aide de l'attribut ``lang``. Les options actuellement "
+"prises en charge sont :"
+
+msgid "``[codeblock lang=text]`` disables syntax highlighting;"
+msgstr "``[codeblock lang=text]`` désactive la coloration syntaxique ;"
+
+msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
+msgstr "``[codeblock lang=gdscript]`` met en évidence la syntaxe GDScript ;"
+
+msgid ""
+"``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
+msgstr ""
+"``[codeblock lang=csharp]`` met en évidence la syntaxe C# (uniquement dans "
+"la version .NET)."

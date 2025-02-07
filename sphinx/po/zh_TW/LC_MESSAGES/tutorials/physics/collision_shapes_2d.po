@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -210,6 +210,3 @@ msgstr ""
 "如果遇到性能問題, 您可能需要在準確性方面進行權衡. 大多數遊戲都沒有100%的精確"
 "碰撞. 他們找到了一些創造性的方法來隱藏它, 或者在正常的遊戲中讓它變得不讓人注"
 "意."
-
-msgid "Translation status"
-msgstr "翻譯狀態"

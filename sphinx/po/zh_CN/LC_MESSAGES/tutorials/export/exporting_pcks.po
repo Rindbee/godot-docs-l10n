@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -220,6 +220,3 @@ msgstr ""
 "本教程介绍如何向游戏添加模组、补丁或 DLC。最重要的是确定一个人计划如何为其游"
 "戏分发未来的内容，并开发为此目的定制的工作流程。无论开发人员选择哪种方法，"
 "Godot 都应该使该过程顺利进行。"
-
-msgid "Translation status"
-msgstr "翻译状态"

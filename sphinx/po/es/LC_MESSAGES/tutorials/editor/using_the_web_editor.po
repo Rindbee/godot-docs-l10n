@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,13 +13,6 @@ msgstr ""
 
 msgid "Using the Web editor"
 msgstr "Usando el editor web"
-
-msgid ""
-"Since Godot 3.3, there is a `Web editor <https://editor.godotengine.org/>`__ "
-"you can use to work on new or existing projects."
-msgstr ""
-"Desde Godot 3.3, hay un `Editor web <https://editor.godotengine.org/>`__ que "
-"puedes usar para trabajar en proyectos nuevos o existentes."
 
 msgid ""
 "The web editor is in a preliminary stage. While its feature set may be "
@@ -141,17 +134,6 @@ msgstr "Sin soporte para editores de scripts externos."
 msgid "No support for Android one-click deploy."
 msgstr "Sin soporte para el deploy en Android con sólo un click."
 
-msgid ""
-"See the `list of open issues on GitHub related to the web editor <https://"
-"github.com/godotengine/godot/issues?"
-"q=is%3Aopen+is%3Aissue+label%3Aplatform%3Ahtml5+label%3Atopic%3Aeditor>`__ "
-"for a list of known bugs."
-msgstr ""
-"Revisa la `lista de problemas abiertos sobre el editor web en Github "
-"<https://github.com/godotengine/godot/issues?"
-"q=is%3Aopen+is%3Aissue+label%3Aplatform%3Ahtml5+label%3Atopic%3Aeditor>`__ "
-"por la lista de bugs conocidos."
-
 msgid "Importing a project"
 msgstr "Importando un proyecto"
 
@@ -266,6 +248,3 @@ msgstr ""
 "developer.mozilla.org/en-US/docs/Web/API/FileSystem>` __ para almacenar los "
 "archivos del proyecto en el sistema de archivos del usuario como el editor "
 "nativo haría. Sin embargo, esto aún no se ha implementado."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

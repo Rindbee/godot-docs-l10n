@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -105,6 +105,9 @@ msgstr "plano"
 
 msgid "10"
 msgstr "10"
+
+msgid "quaternion"
+msgstr "cuaternión"
 
 msgid "11"
 msgstr "11"
@@ -494,6 +497,18 @@ msgstr "La cantidad de propiedades que serán serializadas"
 msgid "For each property:"
 msgstr "Para cada propiedad:"
 
+msgid "Y"
+msgstr "Y"
+
+msgid "Z"
+msgstr "Z"
+
+msgid "Y+4+Z"
+msgstr "Y+4+Z"
+
+msgid "W"
+msgstr "W"
+
 msgid "18: :ref:`Dictionary<class_dictionary>`"
 msgstr "18: :ref:`Dictionary<class_dictionary>`"
 
@@ -579,6 +594,3 @@ msgstr "8..16+longitud\\*16"
 
 msgid "8..20+length\\*16"
 msgstr "8..20+longitud\\*16"
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

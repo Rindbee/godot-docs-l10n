@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -307,6 +307,3 @@ msgstr ""
 "``light()`` 處理器在 2D 和 3D 中的工作方式不同；每種工作方式的詳細描述請參閱"
 "它們對應的文件 :ref:`CanvasItem 著色器 <doc_canvas_item_shader>` and :ref:"
 "`Spatial 著色器 <doc_spatial_shader>`。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

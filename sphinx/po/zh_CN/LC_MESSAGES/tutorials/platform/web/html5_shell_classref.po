@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -139,11 +139,6 @@ msgid ""
 "This method will be called automatically depending on the configuration. "
 "See :js:attr:`unloadAfterInit`."
 msgstr "该方法可以被配置为自动调用。请参阅 :js:attr:`unloadAfterInit`\\ 。"
-
-msgid ""
-"Check whether WebGL is available. Optionally, specify a particular version "
-"of WebGL to check for."
-msgstr "检查 WebGL 是否可用.(可选)指定要检查的特定 WebGL 版本."
 
 msgid "The major WebGL version to check for."
 msgstr "要检查的主要WebGL版本."
@@ -450,6 +445,12 @@ msgstr "``[]``"
 msgid "A callback function for handling Godot's ``OS.execute`` calls."
 msgstr "用于处理 Godot 的 ``OS.execute`` 调用的回调函数。"
 
+msgid ""
+"This is for example used in the Web Editor template to switch between "
+"Project Manager and editor, and for running the game."
+msgstr ""
+"例如，这在 Web 编辑器模板中，用于在项目管理器和编辑器之间切换，以及运行游戏。"
+
 msgid "The path that Godot's wants executed."
 msgstr "Godot想要执行的路径."
 
@@ -520,6 +521,3 @@ msgstr "默认情况下，使用的是 ``console.error()``\\ 。"
 
 msgid "A variadic number of arguments to be printed as errors."
 msgstr "将要输出的可变数量的参数."
-
-msgid "Translation status"
-msgstr "翻译状态"

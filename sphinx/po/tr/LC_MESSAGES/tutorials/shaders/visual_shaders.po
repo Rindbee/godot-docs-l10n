@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,9 +14,6 @@ msgstr ""
 msgid "Using VisualShaders"
 msgstr "Görsel gölgelendiriciler, VisualShader, kullanmak"
 
-msgid "sampler"
-msgstr "örnekleyici"
-
 msgid "Type"
 msgstr "Tip"
 
@@ -26,17 +23,20 @@ msgstr "Renk"
 msgid "Description"
 msgstr "Tanım"
 
+msgid "Example"
+msgstr "Örnek"
+
 msgid "Vector"
-msgstr "Vektör"
+msgstr "Vector"
 
 msgid "Transform"
 msgstr "Dönüştürme"
+
+msgid "sampler"
+msgstr "örnekleyici"
 
 msgid "Visual Shader nodes"
 msgstr "Görsel Gölgelendirici düğümleri"
 
 msgid "Switch node"
 msgstr "Switch düğümü"
-
-msgid "Translation status"
-msgstr "Çeviri durumu"

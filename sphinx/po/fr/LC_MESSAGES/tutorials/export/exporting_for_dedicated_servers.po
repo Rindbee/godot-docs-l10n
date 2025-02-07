@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -67,6 +67,3 @@ msgstr ""
 "www.docker.com/>`__. De cette façon, il peut être utilisé plus facilement "
 "dans une configuration de mise à l'échelle automatique (ce qui n'entre pas "
 "dans le cadre de ce tutoriel)."
-
-msgid "Translation status"
-msgstr "État de la traduction"

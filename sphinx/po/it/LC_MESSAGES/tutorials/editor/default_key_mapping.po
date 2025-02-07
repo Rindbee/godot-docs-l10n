@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -341,8 +341,14 @@ msgstr ":kbd:`Shift + F12`"
 msgid "``editor/bottom_panel_expand``"
 msgstr "``editor/bottom_panel_expand``"
 
-msgid "2D / Canvas Item Editor"
-msgstr "Editor 2D / Canvas Item"
+msgid ":kbd:`Ctrl + Shift + P`"
+msgstr ":kbd:`Ctrl + Shift + P`"
+
+msgid ":kbd:`Cmd + Shift + P`"
+msgstr ":kbd:`Cmd + Shift + P`"
+
+msgid ":kbd:`Alt + F`"
+msgstr ":kbd:`Alt + F`"
 
 msgid "Zoom In"
 msgstr "Ingrandisci"
@@ -480,7 +486,7 @@ msgid "``canvas_item_editor/show_grid``"
 msgstr "``canvas_item_editor/show_grid``"
 
 msgid "Show Helpers"
-msgstr "Mostra Aiuti"
+msgstr "Mostra aiuti"
 
 msgid ":kbd:`H`"
 msgstr ":kbd:`H`"
@@ -517,12 +523,6 @@ msgstr "``canvas_item_editor/frame_selection``"
 
 msgid "Preview Canvas Scale"
 msgstr "Anteprima Dimensione Canvas"
-
-msgid ":kbd:`Ctrl + Shift + P`"
-msgstr ":kbd:`Ctrl + Shift + P`"
-
-msgid ":kbd:`Cmd + Shift + P`"
-msgstr ":kbd:`Cmd + Shift + P`"
 
 msgid "``canvas_item_editor/preview_canvas_scale``"
 msgstr "``canvas_item_editor/preview_canvas_scale``"
@@ -565,9 +565,6 @@ msgstr ":kbd:`Shift + K`"
 
 msgid "``canvas_item_editor/anim_clear_pose``"
 msgstr "``canvas_item_editor/anim_clear_pose``"
-
-msgid "3D / Spatial Editor"
-msgstr "Editor 3D / Spatial"
 
 msgid "Toggle Freelook"
 msgstr "Commuta la vista libera"
@@ -842,9 +839,6 @@ msgstr ":kbd:`Cmd + 4`"
 msgid "``spatial_editor/4_viewports``"
 msgstr "``spatial_editor/4_viewports``"
 
-msgid "Text Editor"
-msgstr "Editor di Testo"
-
 msgid "Cut"
 msgstr "Taglia"
 
@@ -1015,9 +1009,6 @@ msgstr "``script_text_editor/toggle_comment``"
 
 msgid "Fold/Unfold Line"
 msgstr "Espandi/Comprimi linea"
-
-msgid ":kbd:`Alt + F`"
-msgstr ":kbd:`Alt + F`"
 
 msgid ":kbd:`Ctrl + Cmd + F`"
 msgstr ":kbd:`Ctrl + Cmd + F`"
@@ -1223,9 +1214,6 @@ msgstr ":kbd:`Alt + F1`"
 msgid "``script_text_editor/contextual_help``"
 msgstr "``script_text_editor/contextual_help``"
 
-msgid "Script Editor"
-msgstr "Editor degli script"
-
 msgid "``script_editor/find``"
 msgstr "``script_editor/find``"
 
@@ -1367,9 +1355,6 @@ msgstr "Reimposta l'ingrandimento"
 msgid "``script_editor/reset_zoom``"
 msgstr "``script_editor/reset_zoom``"
 
-msgid "Editor Output"
-msgstr "Editor Output"
-
 msgid "Copy Selection"
 msgstr "Copia selezione"
 
@@ -1411,9 +1396,6 @@ msgstr ":kbd:`F12`"
 
 msgid "``debugger/continue``"
 msgstr "``debugger/continue``"
-
-msgid "File Dialog"
-msgstr "Finestra di Dialogo del File"
 
 msgid "Go Back"
 msgstr "Torna indietro"
@@ -1493,12 +1475,6 @@ msgstr "``file_dialog/delete``"
 msgid "Focus Path"
 msgstr "Metti a fuoco il percorso"
 
-msgid ":kbd:`Ctrl + D`"
-msgstr ":kbd:`Ctrl + D`"
-
-msgid ":kbd:`Cmd + D`"
-msgstr ":kbd:`Cmd + D`"
-
 msgid "``file_dialog/focus_path``"
 msgstr "``file_dialog/focus_path``"
 
@@ -1526,9 +1502,6 @@ msgstr ":kbd:`Cmd + Freccia Giù`"
 msgid "``file_dialog/move_favorite_down``"
 msgstr "``file_dialog/move_favorite_down``"
 
-msgid "FileSystem Dock"
-msgstr "Pannello del file system"
-
 msgid "Copy Path"
 msgstr "Copia il percorso"
 
@@ -1538,14 +1511,17 @@ msgstr "``filesystem_dock/copy_path``"
 msgid "Duplicate"
 msgstr "Duplica"
 
+msgid ":kbd:`Ctrl + D`"
+msgstr ":kbd:`Ctrl + D`"
+
+msgid ":kbd:`Cmd + D`"
+msgstr ":kbd:`Cmd + D`"
+
 msgid "``filesystem_dock/duplicate``"
 msgstr "``filesystem_dock/duplicate``"
 
 msgid "``filesystem_dock/delete``"
 msgstr "``filesystem_dock/delete``"
-
-msgid "Scene Tree Dock"
-msgstr "Riquadro Albero della scena"
 
 msgid "Add Child Node"
 msgstr "Aggiungi un nodo figlio"
@@ -1589,9 +1565,6 @@ msgstr "``scene_tree/move_up``"
 msgid "``scene_tree/move_down``"
 msgstr "``scene_tree/move_down``"
 
-msgid "Animation Track Editor"
-msgstr "Editor di tracce d'animazione"
-
 msgid "``animation_editor/duplicate_selection``"
 msgstr "``animation_editor/duplicate_selection``"
 
@@ -1634,9 +1607,6 @@ msgstr ":kbd:`Cmd + Freccia Sinistra`"
 msgid "``animation_editor/goto_prev_step``"
 msgstr "``animation_editor/goto_prev_step``"
 
-msgid "Tile Map Editor"
-msgstr "Editor Tile Map"
-
 msgid "Select"
 msgstr "Seleziona"
 
@@ -1663,9 +1633,6 @@ msgstr "Ruota a destra"
 
 msgid ":kbd:`X`"
 msgstr ":kbd:`X`"
-
-msgid "Tileset Editor"
-msgstr "Editor Tileset"
 
 msgid "Next Coordinate"
 msgstr "Coordinata successiva"
@@ -1753,6 +1720,3 @@ msgstr ":kbd:`8`"
 
 msgid "``tileset_editor/editmode_z_index``"
 msgstr "``tileset_editor/editmode_z_index``"
-
-msgid "Translation status"
-msgstr "Stato della traduzione"

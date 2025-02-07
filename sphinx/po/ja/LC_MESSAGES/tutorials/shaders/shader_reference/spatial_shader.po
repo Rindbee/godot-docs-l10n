@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Spatial shaders"
-msgstr "Spatial(空間)シェーダー"
+msgstr "Spatial(3D)シェーダー"
 
 msgid ""
 "Spatial shaders are used for shading 3D objects. They are the most complex "
@@ -274,9 +274,6 @@ msgstr "ビルトイン"
 
 msgid "in float **TIME**"
 msgstr "\\ in float **TIME**"
-
-msgid "Global time, in seconds."
-msgstr "秒単位のグローバル時間。"
 
 msgid "in float **PI**"
 msgstr "\\ in float **PI**"
@@ -607,15 +604,6 @@ msgstr ""
 
 msgid "in vec4 **FRAGCOORD**"
 msgstr "\\ in vec4 **FRAGCOORD**"
-
-msgid ""
-"Coordinate of pixel center in screen space. ``xy`` specifies position in "
-"window, ``z`` specifies fragment depth if ``DEPTH`` is not used. Origin is "
-"lower-left."
-msgstr ""
-"画面空間のピクセル中心の座標。\\ ``xy`` はウィンドウ内の位置を指定し、\\ "
-"``z`` は ``DEPTH`` を使用しない場合のフラグメントの深さを指定します。原点は左"
-"下です。"
 
 msgid "in bool **FRONT_FACING**"
 msgstr "\\ in bool **FRONT_FACING**"
@@ -961,6 +949,15 @@ msgstr ""
 "なっている場合、 ``light()`` 関数は実行されません。 (モバイルプラットフォーム"
 "ではデフォルトで強制になっています。)"
 
+msgid ""
+"Coordinate of pixel center in screen space. ``xy`` specifies position in "
+"window, ``z`` specifies fragment depth if ``DEPTH`` is not used. Origin is "
+"lower-left."
+msgstr ""
+"画面空間のピクセル中心の座標。\\ ``xy`` はウィンドウ内の位置を指定し、\\ "
+"``z`` は ``DEPTH`` を使用しない場合のフラグメントの深さを指定します。原点は左"
+"下です。"
+
 msgid "in vec3 **NORMAL**"
 msgstr "\\ in vec3 **NORMAL**"
 
@@ -1062,6 +1059,3 @@ msgstr ""
 "半透明マテリアルがスクリーン空間の反射や屈折に現れるのを防ぎます。 :ref:"
 "`SDFGI <doc_using_sdfgi>` 半透明なマテリアルでは鋭い反射は表示されません (半"
 "透明なマテリアルでは粗い反射のみが表示されます)。"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

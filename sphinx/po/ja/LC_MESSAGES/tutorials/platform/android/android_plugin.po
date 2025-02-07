@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,14 +17,35 @@ msgstr "はじめに"
 msgid "Android plugin"
 msgstr "Androidプラグイン"
 
+msgid "GDExtension libraries"
+msgstr "GDExtension ライブラリ"
+
+msgid ""
+"Create an Android library module using `these instructions <https://"
+"developer.android.com/studio/projects/android-library>`_"
+msgstr ""
+"`これらの手順 <https://developer.android.com/studio/projects/android-"
+"library>`_ に従ってAndroidライブラリモジュールを作成します"
+
 msgid "Reference implementations"
 msgstr "リファレンス実装"
+
+msgid ""
+"`Godot Android Plugins Samples <https://github.com/m4gr3d/Godot-Android-"
+"Samples/tree/master/plugins>`_"
+msgstr ""
+"`Godot Androidプラグインサンプル <https://github.com/m4gr3d/Godot-Android-"
+"Samples/tree/master/plugins>`_"
+
+msgid ""
+"`Godot Android Plugin Template <https://github.com/m4gr3d/Godot-Android-"
+"Plugin-Template>`_"
+msgstr ""
+"`Godot Androidプラグインテンプレート <https://github.com/m4gr3d/Godot-"
+"Android-Plugin-Template>`_"
 
 msgid "Godot crashes upon load"
 msgstr "ロード時にGodotがクラッシュする"
 
 msgid "Check ``adb logcat`` for possible problems, then:"
 msgstr "``adb logcat`` で問題がないかチェックしてください:"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

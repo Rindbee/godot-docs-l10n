@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -199,13 +199,6 @@ msgstr ""
 
 msgid "To clone your fork from GitHub, use the following command:"
 msgstr "Чтобы клонировать ваш форк из GitHub, используйте следующую команду:"
-
-msgid ""
-"In our examples, the \"$\" character denotes the command line prompt on "
-"typical UNIX shells. It is not part of the command and should not be typed."
-msgstr ""
-"В подобных примерах символ \"$\" - приглашение командной строки, типичное "
-"для UNIX-оболочек. Он не является частью команды и вводить его не нужно."
 
 msgid ""
 "After a little while, you should have a ``godot`` directory in your current "
@@ -844,6 +837,3 @@ msgstr ""
 "Также вы можете сделать это, используя интерфейс GitHub - соответствующая "
 "кнопка должна появиться на странице PR, после того как он будет принят или "
 "закрыт."
-
-msgid "Translation status"
-msgstr "Статус перевода"

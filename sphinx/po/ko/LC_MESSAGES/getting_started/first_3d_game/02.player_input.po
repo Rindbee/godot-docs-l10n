@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -91,19 +91,6 @@ msgstr "|image2|"
 
 msgid "image2"
 msgstr "image2"
-
-msgid ""
-"The ``.glb`` files contain 3D scene data based on the open source GLTF 2.0 "
-"specification. They're a modern and powerful alternative to a proprietary "
-"format like FBX, which Godot also supports. To produce these files, we "
-"designed the model in `Blender 3D <https://www.blender.org/>`__ and exported "
-"it to GLTF."
-msgstr ""
-"``.glb`` 파일은 오픈 소스 GLTF 2.0 사양을 기반으로 한 3D 씬 데이터를 포함하"
-"고 있습니다. 이러한 파일들은 Godot이 지원하는 FBX와 같은 독점 형식에 대한 현"
-"대적이고 강력한 대안입니다. 이러한 파일을 생성하기 위해 우리는 모델을 "
-"`Blender 3D <https://www.blender.org/>` __에서 디자인하고 GLTF로 내보냈습니"
-"다."
 
 msgid ""
 "As with all kinds of physics nodes, we need a collision shape for our "
@@ -291,6 +278,3 @@ msgstr ""
 
 msgid "In the next part, we'll code and test the player's movement."
 msgstr "다음 부분에서는 플레이어의 움직임을 코딩하고 테스트하겠습니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

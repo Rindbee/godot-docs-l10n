@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,6 +17,3 @@ msgid ""
 msgstr ""
 "Zobacz :ref:`używanie przekształceń <doc_using_transforms>`,aby uzyskać "
 "więcej informacji na temat rotacji."
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,9 @@ msgstr ""
 
 msgid "Why use resolution scaling?"
 msgstr "Pourquoi utiliser la mise à l'échelle de résolution ?"
+
+msgid "**Bilinear:** Standard bilinear filtering (default)."
+msgstr "**Bilinéaire :** Filtrage bilinéaire standard (par défaut)."
 
 msgid "**1920×1080 (Full HD)**"
 msgstr "**1920×1080 (Full HD)**"
@@ -89,6 +92,9 @@ msgstr "1715×964"
 msgid "1.65 MPix"
 msgstr "1.65 MPix"
 
+msgid "1920×1080"
+msgstr "1920×1080"
+
 msgid "2.07 MPix"
 msgstr "2.07 MPix"
 
@@ -128,20 +134,35 @@ msgstr "3.72 MPix"
 msgid "3264×1836"
 msgstr "3264×1836"
 
+msgid "5.99 MPix"
+msgstr "5.99 MPix"
+
 msgid "**3840×2160**"
 msgstr "**3840×2160**"
+
+msgid "**8.29 MPix**"
+msgstr "**8.29 MPix**"
 
 msgid "5107×2872"
 msgstr "5107×2872"
 
+msgid "14.67 MPix"
+msgstr "14.67 MPix"
+
 msgid "5760×3240"
 msgstr "5760×3240"
+
+msgid "18.66 MPix"
+msgstr "18.66 MPix"
 
 msgid "7680×4320"
 msgstr "7680×4320"
 
+msgid "33.18 MPix"
+msgstr "33.18 MPix"
+
 msgid "Troubleshooting"
 msgstr "Dépannage"
 
-msgid "Translation status"
-msgstr "État de la traduction"
+msgid "See the :ref:`doc_performance` tutorials for more information."
+msgstr "Voir les tutoriels :ref:`doc_performance` pour plus d'informations."

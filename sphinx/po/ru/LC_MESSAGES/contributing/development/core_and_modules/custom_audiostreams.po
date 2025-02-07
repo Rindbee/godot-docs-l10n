@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -38,8 +38,30 @@ msgstr ""
 "собственный внутренний пользовательский AudioStreamPlayback, который "
 "переводит AudioStream в данные PCM."
 
+msgid ""
+"This guide assumes the reader knows how to create C++ modules. If not, refer "
+"to this guide :ref:`doc_custom_modules_in_cpp`."
+msgstr ""
+"Это руководство предполагает, что читатель знает, как создавать модули на C+"
+"+. Если это не так, обратитесь к этому руководству :ref:"
+"`doc_custom_modules_in_c++`."
+
 msgid "References:"
 msgstr "Источники:"
+
+msgid ""
+"`servers/audio/audio_stream.h <https://github.com/godotengine/godot/blob/"
+"master/servers/audio/audio_stream.h>`__"
+msgstr ""
+"`servers/audio/audio_stream.h <https://github.com/godotengine/godot/blob/"
+"master/servers/audio/audio_stream.h>`__"
+
+msgid ""
+"`scene/audio/audio_stream_player.cpp <https://github.com/godotengine/godot/"
+"blob/master/scene/audio/audio_stream_player.cpp>`__"
+msgstr ""
+"`scene/audio/audio_stream_player.cpp <https://github.com/godotengine/godot/"
+"blob/master/scene/audio/audio_stream_player.cpp>`__"
 
 msgid "What for?"
 msgstr "Для чего это?"
@@ -47,8 +69,14 @@ msgstr "Для чего это?"
 msgid "Binding external libraries (like Wwise, FMOD, etc)."
 msgstr "Привязка внешних библиотек (таких как Wwise, FMOD и т.д.)."
 
+msgid "Adding custom audio queues"
+msgstr "Создание кастомных аудиоочередей"
+
 msgid "Adding support for more audio formats"
 msgstr "Добавление поддержки большего количества аудиоформатов"
+
+msgid "Create an AudioStream"
+msgstr "Создайте AudioStream"
 
 msgid ""
 "An AudioStream consists of three components: data container, stream name, "
@@ -61,8 +89,15 @@ msgstr ""
 "множественными способами как внутренний счётчик или же генератором тона, "
 "внешним/внутренним буфером, или же при помощи указателя на файл."
 
+msgid "Create an AudioStreamPlayback"
+msgstr "Создайте AudioStreamPlayback"
+
 msgid "Resampling"
 msgstr "Передискретизация"
 
-msgid "Translation status"
-msgstr "Статус перевода"
+msgid ""
+"`core/math/audio_frame.h <https://github.com/godotengine/godot/blob/master/"
+"core/math/audio_frame.h>`__"
+msgstr ""
+"`core/math/audio_frame.h <https://github.com/godotengine/godot/blob/master/"
+"core/math/audio_frame.h>`__"

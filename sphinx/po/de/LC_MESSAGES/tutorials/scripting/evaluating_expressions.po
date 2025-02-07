@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -89,12 +89,6 @@ msgstr ""
 "Führt eine Integer-Division durch, wenn beide Operanden Integer sind. Wenn "
 "mindestens einer der beiden Operanden eine Float-Zahl ist, wird ein Float-"
 "Wert zurückgegeben."
-
-msgid "Modulo (``%``)"
-msgstr "Modulo (``%``)"
-
-msgid "Returns the remainder of an integer division."
-msgstr "Gibt den Rest einer Integer-Division zurück."
 
 msgid ""
 "Spaces around operators are optional. Also, keep in mind the usual `order of "
@@ -219,6 +213,3 @@ msgstr ""
 "wenn sie in der Klassenreferenz als optional angegeben sind. Im Gegensatz "
 "dazu gilt diese Einschränkung für Argumente nicht für benutzerdefinierte "
 "Funktionen, wenn Sie eine Basisinstanz an den Ausdruck binden."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

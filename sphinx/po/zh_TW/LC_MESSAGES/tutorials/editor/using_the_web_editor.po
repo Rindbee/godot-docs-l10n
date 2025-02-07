@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,13 +13,6 @@ msgstr ""
 
 msgid "Using the Web editor"
 msgstr "執行編輯器"
-
-msgid ""
-"Since Godot 3.3, there is a `Web editor <https://editor.godotengine.org/>`__ "
-"you can use to work on new or existing projects."
-msgstr ""
-"從 Godot 3.3 開始，你可以用 `Web 編輯器<https://editor.godotengine.org/>`__來"
-"處理新的或現有的專案。"
 
 msgid ""
 "The web editor is in a preliminary stage. While its feature set may be "
@@ -128,16 +121,6 @@ msgstr "尚未支援 MIDI 輸出。"
 msgid "No support for Android one-click deploy."
 msgstr "單鍵部署步驟"
 
-msgid ""
-"See the `list of open issues on GitHub related to the web editor <https://"
-"github.com/godotengine/godot/issues?"
-"q=is%3Aopen+is%3Aissue+label%3Aplatform%3Ahtml5+label%3Atopic%3Aeditor>`__ "
-"for a list of known bugs."
-msgstr ""
-"請瀏覽 `GitHub 上的 HTML5 問題列表 <https://github.com/godotengine/godot/"
-"issues?q=is:open+is:issue+label:platform:html5>`__ 以瞭解您有興趣的功能目前是"
-"否有問題。若列表上沒有，可以開啟 Issue 來與大家交流。"
-
 msgid "Importing a project"
 msgstr "匯入專案"
 
@@ -238,6 +221,3 @@ msgstr ""
 "將來可能會使用 `HTML5 FileSystem API <https://developer.mozilla.org/en-US/"
 "docs/Web/API/FileSystem>`__ 來將專案檔案儲存在使用者的檔案系統中, 就像本地編"
 "輯器那樣, 然而, 這還沒有實作."
-
-msgid "Translation status"
-msgstr "翻譯狀態"

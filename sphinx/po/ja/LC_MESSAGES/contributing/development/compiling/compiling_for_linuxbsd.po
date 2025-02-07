@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -126,9 +126,3 @@ msgstr ""
 "リンク時最適化を使用してコンパイルし、結果のバイナリをより小さく、より高速に"
 "することができるため、プロダクションビルドにはGCCを使用することをお勧めしま"
 "す。"
-
-msgid "**Fedora**"
-msgstr "**Fedora**"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

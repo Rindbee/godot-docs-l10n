@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -256,6 +256,3 @@ msgstr "リソースの保存"
 
 msgid "Saving a resource can be done with the resource saver API:"
 msgstr "リソースの保存は、リソースセーバー API を使用して行うことができます:"
-
-msgid "Translation status"
-msgstr "翻訳ステータス"

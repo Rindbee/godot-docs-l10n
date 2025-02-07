@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -164,13 +164,6 @@ msgstr ""
 "umiejscowiona."
 
 msgid ""
-"Let's try this. Open ``ball.tscn`` and select the Ball node. In the "
-"Inspector on the right, click on the PhysicsMaterial property to expand it."
-msgstr ""
-"Spróbujmy. Otwórz plik ``ball.tscn`` i wybierz węzeł Ball. W Inspektorze, po "
-"prawej stronie, kliknij na właściwość PhysicsMaterial, aby ją rozwinąć."
-
-msgid ""
 "Set its Bounce property to ``0.5`` by clicking on the number field, typing "
 "``0.5``, and pressing :kbd:`Enter`."
 msgstr ""
@@ -218,6 +211,3 @@ msgstr ""
 
 msgid "Summary"
 msgstr "Podsumowanie"
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

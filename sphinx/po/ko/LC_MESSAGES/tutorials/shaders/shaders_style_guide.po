@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -156,6 +156,3 @@ msgstr ""
 "지역 변수를 처음 사용할 때와 최대한 가깝게 선언하세요. 이렇게 하면 변수가 선"
 "언된 위치를 찾기 위해 너무 많이 스크롤하지 않고도 코드를 더 쉽게 따라갈 수 있"
 "습니다."
-
-msgid "Translation status"
-msgstr "번역 상태"

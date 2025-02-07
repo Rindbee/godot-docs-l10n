@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -35,11 +35,102 @@ msgstr ""
 "influenceront plus tard le fonctionnement du programme. Pour cela, une "
 "syntaxe spéciale d'exportation est fournie."
 
+msgid "Basic use"
+msgstr "Utilisation de base"
+
+msgid ""
+"Exporting works with fields and properties. They can have any access "
+"modifier."
+msgstr ""
+"L'exportation fonctionne avec les champs et les propriétés. Ils peuvent "
+"avoir n’importe quel modificateur d’accès."
+
+msgid "Strings as paths"
+msgstr "Chaînes de caractères représentant des chemins"
+
+msgid "String as a path to a file."
+msgstr "Chaîne de caractères représentant un chemin vers un fichier."
+
+msgid "String as a path to a directory."
+msgstr "Chaîne de caractères représentant un chemin vers un répertoire."
+
+msgid "String as a path to a file, custom filter provided as hint."
+msgstr ""
+"Chaîne de caractères représentant un chemin vers un fichier, avec un filtre "
+"personnalisé fourni comme indice."
+
+msgid ""
+"Using paths in the global filesystem is also possible, but only in scripts "
+"in tool mode."
+msgstr ""
+"L'utilisation de chemins dans le système de fichiers global est également "
+"possible, mais uniquement dans les scripts en mode outil (tool)."
+
+msgid "String as a path to a PNG file in the global filesystem."
+msgstr ""
+"Chaîne de caractères représentant un chemin vers un fichier dans le système "
+"de fichier global."
+
+msgid "String as a path to a directory in the global filesystem."
+msgstr ""
+"Chaîne de caractères représentant un chemin vers un répertoire dans le "
+"système de fichier global."
+
+msgid ""
+"The multiline annotation tells the editor to show a large input field for "
+"editing over multiple lines."
+msgstr ""
+"L'annotation multiligne indique à l'éditeur d'afficher un grand champ de "
+"saisie pour l'édition sur plusieurs lignes."
+
+msgid "Limiting editor input ranges"
+msgstr "Limitation des plages de saisie de l'éditeur"
+
+msgid "Allow integer values from 0 to 20."
+msgstr "Autorise les valeurs entières de 0 à 20."
+
+msgid "Allow integer values from -10 to 20."
+msgstr "Autorise les valeurs entières de -10 à 20."
+
+msgid "Allow floats from -10 to 20 and snap the value to multiples of 0.2."
+msgstr ""
+"Autorise les nombres à virgule flottante de -10 à 20 et aligne la valeur sur "
+"des multiples de 0,2."
+
+msgid "Floats with easing hint"
+msgstr "Nombre à virgule flottante avec indice d'assouplissement"
+
+msgid "Colors"
+msgstr "Couleurs"
+
+msgid "Regular color given as red-green-blue-alpha value."
+msgstr ""
+"Couleur classique donnée sous la forme de valeur rouge-vert-bleu-alpha."
+
+msgid "Color given as red-green-blue value (alpha will always be 1)."
+msgstr ""
+"Couleur donnée sous la forme de valeur rouge-vert-bleu (alpha vaudra "
+"toujours 1)."
+
 msgid "Nodes"
 msgstr "Nœuds"
 
+msgid ""
+"Exporting NodePaths like in Godot 3.x is still possible, in case you need it:"
+msgstr ""
+"L'exportation de NodePaths comme dans Godot 3.x est toujours possible, au "
+"cas où vous en auriez besoin :"
+
 msgid "Resources"
 msgstr "Ressources"
+
+msgid ""
+"In the Inspector, you can then drag and drop a resource file from the "
+"FileSystem dock into the variable slot."
+msgstr ""
+"Dans l'inspecteur, vous pouvez ensuite faire glisser et déposer un fichier "
+"de ressources depuis le dock 'Système de fichier' dans l'emplacement de la "
+"variable."
 
 msgid ""
 "It must be noted that even if the script is not being run while in the "
@@ -48,11 +139,11 @@ msgid ""
 msgstr ""
 "Il faut noter que même si le script n'est pas exécuté pendant qu'il est dans "
 "l'éditeur, les propriétés exportées sont toujours modifiables. Ceci peut "
-"être utilisé en conjonction avec un script :ref:`en mode \"tool\" "
+"être utilisé en conjonction avec un script :ref:`en mode \"outil\" (tool) "
 "<doc_gdscript_tool_mode>`."
 
 msgid "Exporting bit flags"
-msgstr "Exportation bit flags"
+msgstr "Exportation de bit flags"
 
 msgid ""
 "Export annotations are also provided for the physics and render layers "
@@ -68,6 +159,17 @@ msgstr ""
 "L'utilisation de bit flags nécessite une certaine compréhension des "
 "opérations sur les bits. En cas de doute, utilisez des variables booléennes "
 "à la place."
+
+msgid "Exporting enums"
+msgstr "Exportation d'énumérations"
+
+msgid ""
+"Arrays with specified types which inherit from resource can be set by drag-"
+"and-dropping multiple files from the FileSystem dock."
+msgstr ""
+"Les tableaux avec des types spécifiés qui héritent de ``Resource`` peuvent "
+"être définis en faisant glisser et en déposant plusieurs fichiers depuis le "
+"dock 'Système de fichiers'."
 
 msgid "Setting exported variables from a tool script"
 msgstr "Définition des variables exportées à partir d'un script tool(outil)"
@@ -98,6 +200,3 @@ msgid ""
 msgstr ""
 "Le script doit fonctionner en mode ``tool`` pour que les méthodes ci-dessus "
 "puissent fonctionner dans l'éditeur."
-
-msgid "Translation status"
-msgstr "État de la traduction"

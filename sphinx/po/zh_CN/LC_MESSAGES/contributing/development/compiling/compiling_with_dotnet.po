@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -43,8 +43,21 @@ msgid ""
 msgstr ""
 "如果一切正常, 除了正常的输出,SCons应该在 ``bin`` 目录中创建了以下文件。"
 
+msgid ""
+"In order to use Godot with a development version of those packages, a local "
+"NuGet source must be created where MSBuild can find them."
+msgstr ""
+"为了将Godot与这些包的开发版本一起使用，必须在 MSBuild 可以找到它们的地方创建"
+"一个本地 NuGet 源代码。"
+
 msgid "On Windows, ``C:\\Users\\<username>\\MyLocalNugetSource``"
 msgstr "在Windows系统中,``C:\\Users\\<username>\\MyLocalNugetSource``"
+
+msgid "On Linux, \\*BSD, etc., ``~/MyLocalNugetSource``"
+msgstr "在Linux上， \\*BSD, etc., ``~/MyLocalNugetSource``"
+
+msgid "Double Precision Support (REAL_T_IS_DOUBLE)"
+msgstr "双精度支持 (REAL_T_IS_DOUBLE)"
 
 msgid "Examples"
 msgstr "示例"
@@ -64,11 +77,13 @@ msgstr "编辑器"
 msgid "Export templates"
 msgstr "导出模板"
 
+msgid ""
+"In the case of multi-architecture exports multiple such data directories "
+"will be generated."
+msgstr "在多体系结构导出的情况下，将生成多个这样的数据目录。"
+
 msgid "Command-line options"
 msgstr "命令行选项"
 
 msgid "**module_mono_enabled**\\ =yes | **no**"
 msgstr "**module_mono_enabled** \\ =yes | **no**"
-
-msgid "Translation status"
-msgstr "翻译状态"

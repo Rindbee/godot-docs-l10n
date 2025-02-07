@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -202,8 +202,15 @@ msgstr "\"Activation\" en entrant dans l'*arbre de scène* (Scene Tree)"
 msgid "A scene is loaded from disk or created by scripting."
 msgstr "Une scène est chargée à partir du disque ou créée par un script."
 
+msgid ""
+"When a scene (or part of it) is removed, they receive the \"exit scene\" "
+"notification ( ``_exit_tree()`` callback in GDScript) in bottom-to-top order "
+"(the exact reverse of top-to-bottom order)."
+msgstr ""
+"Quand une scène (ou une partie de celle-ci) est supprimée, ils reçoivent la "
+"notification \"exit scene\" (fonction de rappel ``_exit_tree()`` dans "
+"GDScript) dans l'ordre bas-vers-haut (l'exact opposé de l'ordre haut-vers-"
+"bas)."
+
 msgid "Changing current scene"
 msgstr "Changement de la scène courante"
-
-msgid "Translation status"
-msgstr "État de la traduction"

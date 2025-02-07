@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -144,14 +144,26 @@ msgstr ""
 "opción de una etiqueta ``[url]`` y analizarlo en la función que maneja la "
 "señal ``meta_clicked``. Por ejemplo:"
 
+msgid "**pad**"
+msgstr "**rellenar**"
+
 msgid "String"
 msgstr "Cadena"
+
+msgid "Image tooltip."
+msgstr "Tooltip de imágen."
 
 msgid "Font resource path."
 msgstr "Ruta del recurso fuente."
 
 msgid "Custom font size."
 msgstr "Tamaño de fuente personalizado."
+
+msgid "Floating-point number."
+msgstr "Número de coma flotante."
+
+msgid "Integer number."
+msgstr "Número entero."
 
 msgid "Named colors"
 msgstr "Colores con nombre"
@@ -252,6 +264,3 @@ msgstr "Matriz"
 msgid "This will add a few new BBCode commands, which can be used like so:"
 msgstr ""
 "Esto agregará unos nuevos comandos BBCode que pueden ser usados de este modo:"
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

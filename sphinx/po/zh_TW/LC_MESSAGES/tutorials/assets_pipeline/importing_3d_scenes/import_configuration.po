@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -860,6 +860,3 @@ msgstr "子資源無法編輯 (可以使用上面說明的方法將子資源保�
 
 msgid "Other than that, everything is allowed."
 msgstr "除此之外，可以任何事。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

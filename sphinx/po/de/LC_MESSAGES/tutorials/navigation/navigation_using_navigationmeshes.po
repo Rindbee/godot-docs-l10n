@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -724,6 +724,24 @@ msgstr ""
 "Sie eine kleinere \"Dummy\"-Geometrie mit so wenig Dreiecken wie möglich "
 "hinzu, damit die Zellen mit etwas belegt sind."
 
+msgid ""
+"A :ref:`NavigationObstacle3D<class_NavigationObstacle3D>` shape set to bake "
+"with navigation mesh can be used to discard geometry as well."
+msgstr ""
+"Eine :ref:`NavigationObstacle3D<class_NavigationObstacle3D>`-Form, die zum "
+"Backen mit dem Navigationsnetz festgelegt ist, kann auch zum Verwerfen der "
+"Geometrie verwendet werden."
+
+msgid "NavigationObstacle3D unwanted geometry discard"
+msgstr "NavigationObstacle3D unerwünschte Geometrie verwerfen"
+
+msgid ""
+"A NavigationObstacle3D shape can be used to discard unwanted navigation mesh "
+"parts."
+msgstr ""
+"Mithilfe einer NavigationObstacle3D-Form können unerwünschte Teile des "
+"Navigationsnetzes verworfen werden."
+
 msgid "Navigation mesh script templates"
 msgstr "Skriptvorlagen für Navigations-Meshes"
 
@@ -742,6 +760,3 @@ msgid ""
 msgstr ""
 "Das folgende Skript verwendet den NavigationServer, um eine "
 "Navigationsregion mit prozedural erzeugten Mesh-Daten zu aktualisieren."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

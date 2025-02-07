@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -473,6 +473,3 @@ msgstr ""
 "Speichern Sie das Launcher-Skript und legen Sie es im selben Ordner wie die "
 "exportierte Binärdatei ab. Erteilen Sie unter Linux dem Launcher-Skript mit "
 "dem Befehl ``chmod +x launch.sh`` die Berechtigung zur Ausführung."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -262,6 +262,3 @@ msgid ""
 msgstr ""
 "위의 내용이 현재 버전의 Linux 또는 macOS에서 작동하지 않으면 다음과 같이 "
 "Shebang이 있는 위치에서 바로 Godot를 실행하도록 할 수 있습니다:"
-
-msgid "Translation status"
-msgstr "번역 상태"

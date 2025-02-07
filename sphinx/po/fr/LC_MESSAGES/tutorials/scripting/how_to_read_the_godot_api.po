@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -33,11 +33,27 @@ msgstr "En haut de chaque fichier, tu verras les noms des classes."
 msgid "Description"
 msgstr "Description"
 
+msgid "Things you may find here:"
+msgstr "Les choses que vous pouvez trouver ici :"
+
+msgid "Specifics of how the class works."
+msgstr "Explications de la façon dont la classe fonctionne."
+
+msgid "Code samples of common use cases."
+msgstr "Échantillons de code des cas d'usage courants."
+
+msgid "Warnings about required dependencies or configuration."
+msgstr ""
+"Avertissements concernant les dépendances ou la configuration requises."
+
 msgid "Tutorials"
 msgstr "Tutoriels"
 
 msgid "Properties"
 msgstr "Propriétés"
+
+msgid "Methods"
+msgstr "Méthodes"
 
 msgid "Signals"
 msgstr "Signaux"
@@ -47,6 +63,3 @@ msgstr "Constantes"
 
 msgid "Property Descriptions"
 msgstr "Descriptions des propriétés"
-
-msgid "Translation status"
-msgstr "État de la traduction"

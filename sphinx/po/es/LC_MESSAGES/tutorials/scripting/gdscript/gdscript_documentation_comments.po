@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,17 +17,17 @@ msgstr "Descripción detallada."
 msgid "Description"
 msgstr "Descripción"
 
-msgid "Function"
-msgstr "Función"
-
 msgid "Signal"
 msgstr "Señal"
+
+msgid "Enum value"
+msgstr "Valor de enumeración"
 
 msgid "Variable"
 msgstr "Variable"
 
-msgid "Enum value"
-msgstr "Valor de enumeración"
+msgid "Function"
+msgstr "Función"
 
 msgid "Example"
 msgstr "Ejemplo"
@@ -38,14 +38,26 @@ msgstr "Resultado"
 msgid "``Move the [Sprite2D].``"
 msgstr "``Mueve el [Sprite2D].``"
 
+msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+msgstr "Consulte :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+
 msgid "Link to constant"
 msgstr "Vínculo a constante"
+
+msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
+msgstr "Consulte :ref:`Color.RED <class_Color_constant_RED>`."
 
 msgid "``Get [member Node2D.scale].``"
 msgstr "``Obtén [member Node2D.scale].``"
 
 msgid "``Call [method Node3D.hide].``"
 msgstr "``Llama a [method Node3D.hide].``"
+
+msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
+msgstr "Consulte :ref:`Color.Color <class_Color_constructor_Color>`."
+
+msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+msgstr "Consulte :ref:`Color.operator * <class_Color_operator_mul_int>`."
 
 msgid "``Emit [signal Node.renamed].``"
 msgstr "``Emite [signal Node.renamed].``"
@@ -65,8 +77,14 @@ msgstr "``[kbd]`` ``[/kbd]``"
 msgid "Keyboard/mouse shortcut"
 msgstr "Atajo del teclado/ratón"
 
+msgid "Press :kbd:`Ctrl + C`."
+msgstr "Presione :kbd:`Ctrl + C`."
+
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
+
+msgid "Returns ``true``."
+msgstr "Devuelve ``true``."
 
 msgid "*See below.*"
 msgstr "*Ver a continuación.*"
@@ -78,6 +96,3 @@ msgstr ""
 "Usa ``[codeblock]`` para bloques de código preformateados. Dentro de "
 "``[codeblock]``, siempre utiliza **cuatro espacios** para la indentación (el "
 "analizador eliminará las tabulaciones)."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

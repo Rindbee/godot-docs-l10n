@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -382,6 +382,3 @@ msgstr ""
 "<doc_shading_language>` 文件和 :ref:`Spatial Shaders <doc_spatial_shader>` 文"
 "件. 也可以看看 :ref:`Shading 部分 <toc-learn-features-shading>` 和 :ref:`3D "
 "<toc-learn-features-3d>` 部分的高級教學."
-
-msgid "Translation status"
-msgstr "翻譯狀態"

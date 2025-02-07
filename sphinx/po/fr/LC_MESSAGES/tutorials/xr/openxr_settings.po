@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,8 +14,36 @@ msgstr ""
 msgid "Enabled"
 msgstr "Activé"
 
+msgid ""
+"This specifies the path of the action map file that OpenXR will load and "
+"communicate to the XR Runtime."
+msgstr ""
+"Ceci spécifie le chemin du fichier de la carte d'action que OpenXR chargera "
+"et communiquera au runtime XR."
+
+msgid ""
+"If the device on which you run your game does not match the selection here, "
+"OpenXR will fail to initialise."
+msgstr ""
+"Si l'appareil sur lequel vous exécutez votre jeu ne correspond pas à la "
+"sélection ici, OpenXR échouera à initialiser."
+
+msgid ""
+"Any other XR tracked elements such as controllers or anchors will also be "
+"adjusted accordingly."
+msgstr ""
+"Tous les autres éléments suivis XR tels que les contrôleurs ou les ancrages "
+"seront également ajustés en conséquence."
+
 msgid "Stage"
 msgstr "Niveau"
+
+msgid ""
+"In Godot you can do this by calling the ``center_on_hmd`` function on the :"
+"ref:`XRServer <class_xrserver>`:"
+msgstr ""
+"Dans Godot, vous pouvez le faire en appelant la fonction ``center_on_hmd`` "
+"sur le :ref:`XRServer <class_xrserver>` :"
 
 msgid "**Compatibility renderer only**"
 msgstr "**Compatibilité de rendu uniquement**"
@@ -23,11 +51,24 @@ msgstr "**Compatibilité de rendu uniquement**"
 msgid "Submit Depth Buffer"
 msgstr "Soumettre le tampon de profondeur"
 
+msgid ""
+"If enabled an OpenXR supplied depth buffer will be used while rendering "
+"which is submitted alongside the rendered image. The XR runtime can use this "
+"for improved reprojection."
+msgstr ""
+"Si activé un tampon de profondeur fourni par OpenXR sera utilisé lors du "
+"rendu et soumis avec l'image rendue. L'environnement d'exécution XR peut "
+"l'utiliser pour une reprojection améliorée."
+
 msgid "Startup Alert"
 msgstr "Alerte de démarrage"
 
+msgid "No OpenXR runtime is installed on the host system."
+msgstr ""
+"Aucun environnement d'exécution OpenXR n'est installé sur le système hôte."
+
+msgid "This subsection provides access to various optional OpenXR extensions."
+msgstr "Ce paragraphe donne accès à diverses extensions OpenXR optionnelles."
+
 msgid "Don't forget to save!"
 msgstr "N'oubliez pas de sauvegarder !"
-
-msgid "Translation status"
-msgstr "État de la traduction"

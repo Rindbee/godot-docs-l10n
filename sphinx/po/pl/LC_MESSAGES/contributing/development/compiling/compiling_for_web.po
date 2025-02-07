@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -21,6 +21,3 @@ msgid "To compile export templates for the Web, the following is required:"
 msgstr ""
 "By skompilować szablony eksportu dla sieci Web, wymagane są następujące "
 "kroki:"
-
-msgid "Translation status"
-msgstr "Status tłumaczenia"

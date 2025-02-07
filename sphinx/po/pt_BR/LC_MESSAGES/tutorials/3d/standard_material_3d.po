@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -175,16 +175,6 @@ msgid ""
 msgstr ""
 "Especifica como o blob especular será renderizado. O blob especular "
 "representa a forma de uma fonte de luz refletida no objeto."
-
-msgid ""
-"**Blinn:** Common in previous-generation engines. Not worth using nowadays, "
-"but left here for the sake of compatibility."
-msgstr ""
-"**Blinn:** Comum em motores da geração anterior. Não vale a pena usar hoje "
-"em dia, mas deixado aqui por uma questão de compatibilidade."
-
-msgid "**Phong:** Same as above."
-msgstr "**Phong:** O mesmo que acima."
 
 msgid ""
 "**Toon:** Creates a toon blob, which changes size depending on roughness."
@@ -422,20 +412,6 @@ msgstr ""
 
 msgid "Height"
 msgstr "Altura"
-
-msgid ""
-"Setting a depth map on a material produces a ray-marched search to emulate "
-"the proper displacement of cavities along the view direction. This is not "
-"real added geometry, but an illusion of depth. It may not work for complex "
-"objects, but it produces a realistic depth effect for textures. For best "
-"results, *Depth* should be used together with normal mapping."
-msgstr ""
-"A colocação de um mapa de profundidade em um material produz uma busca com "
-"raios para emular o deslocamento adequado das cavidades ao longo da direção "
-"da vista. Isto não é uma verdadeira geometria acrescentada, mas uma ilusão "
-"de profundidade. Pode não funcionar para objetos complexos, mas produz um "
-"efeito de profundidade realista para texturas. Para melhores resultados, "
-"*Profundidade* deve ser usado junto com o mapeamento normal."
 
 msgid "Subsurface Scattering"
 msgstr "Dispersão Subsuperficial"
@@ -697,6 +673,3 @@ msgstr ""
 
 msgid "Next Pass"
 msgstr "Próximo passo"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

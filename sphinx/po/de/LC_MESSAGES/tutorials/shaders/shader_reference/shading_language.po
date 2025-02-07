@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -81,9 +81,6 @@ msgstr "Vier-Komponenten-Vektor mit Bools."
 msgid "**int**"
 msgstr "**int**"
 
-msgid "Signed scalar integer."
-msgstr "Signed skalarer Integer."
-
 msgid "**ivec2**"
 msgstr "**ivec2**"
 
@@ -128,9 +125,6 @@ msgstr "Vier-Komponenten-Vektor mit Unsigned Integern."
 
 msgid "**float**"
 msgstr "**float**"
-
-msgid "Floating-point scalar."
-msgstr "Float-Skalar."
 
 msgid "**vec2**"
 msgstr "**vec2**"
@@ -249,10 +243,6 @@ msgstr "Samplertyp um Cubemaps zu binden, welche als Float gelesen werden."
 msgid "**samplerCubeArray**"
 msgstr "**samplerCubeArray**"
 
-msgid "Sampler type for binding Cubemap arrays, which are read as float."
-msgstr ""
-"Samplertyp um Cubemap-Arrays zu binden, welche als Float gelesen werden."
-
 msgid "Comments"
 msgstr "Kommentare"
 
@@ -325,31 +315,11 @@ msgstr ""
 "Verwendung von \"r\", \"g\", \"b\" und \"a\" und ist gleichwertig. Verwenden "
 "Sie, was für Ihre Bedürfnisse am besten geeignet ist."
 
-msgid ""
-"For matrices, use the ``m[column][row]`` indexing syntax to access each "
-"scalar, or ``m[idx]`` to access a vector by row index. For example, for "
-"accessing the y position of an object in a mat4 you use ``m[3][1]``."
-msgstr ""
-"Für Matrizen verwenden Sie die ``m[Spalte][Zeile]`` Indizierungssyntax, um "
-"auf jeden Skalar zuzugreifen, oder ``m[idx]``, um auf einen Vektor nach "
-"Zeilenindex zuzugreifen. Um zum Beispiel auf die y-Position eines Objekts in "
-"einer mat4 zuzugreifen, verwenden Sie ``m[3][1]``."
-
 msgid "Constructing"
 msgstr "Konstruieren"
 
 msgid "Construction of vector types must always pass:"
 msgstr "Die Konstruktion von Vektortypen muss immer bestehen aus:"
-
-msgid ""
-"Construction of matrix types requires vectors of the same dimension as the "
-"matrix. You can also build a diagonal matrix using ``matx(float)`` syntax. "
-"Accordingly, ``mat4(1.0)`` is an identity matrix."
-msgstr ""
-"Die Konstruktion von Matrixtypen erfordert Vektoren der gleichen Dimension "
-"wie die Matrix. Sie können auch eine Diagonalmatrix mit der Syntax "
-"``matx(float)`` konstruieren. Dementsprechend ist ``mat4(1.0)`` eine "
-"Einheitsmatrix."
 
 msgid ""
 "Matrices can also be built from a matrix of another dimension. There are two "
@@ -2463,6 +2433,3 @@ msgid ""
 msgstr ""
 "Für ``x`` gleich Null sind sowohl die Mantisse als auch der Exponent gleich "
 "Null. Für ``x`` von unendlich oder NaN sind die Ergebnisse undefiniert."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

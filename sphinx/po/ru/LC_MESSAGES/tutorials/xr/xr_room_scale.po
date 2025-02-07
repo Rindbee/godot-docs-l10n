@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,5 +17,5 @@ msgstr "Шаг 1"
 msgid "Step 2"
 msgstr "Шаг 2"
 
-msgid "Translation status"
-msgstr "Статус перевода"
+msgid "Step 3"
+msgstr "Шаг 3"

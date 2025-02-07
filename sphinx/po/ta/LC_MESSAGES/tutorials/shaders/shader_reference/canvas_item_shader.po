@@ -1,0 +1,601 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "CanvasItem shaders"
+msgstr "கேன்வாசிடெம் சேடர்ச்"
+
+msgid ""
+"CanvasItem shaders are used to draw all 2D elements in Godot. These include "
+"all nodes that inherit from CanvasItems, and all GUI elements."
+msgstr ""
+"கோடோட்டில் உள்ள அனைத்து 2 டி கூறுகளையும் வரைய கேன்வாசிடெம் சேடர்கள் "
+"பயன்படுத்தப்படுகின்றன. கேன்வாசிடெம்களிலிருந்து பெறப்பட்ட அனைத்து முனைகளும், மற்றும் "
+"அனைத்து GUI கூறுகளும் இதில் அடங்கும்."
+
+msgid ""
+"CanvasItem shaders contain less built-in variables and functionality than "
+"Spatial shaders, but they maintain the same basic structure with vertex, "
+"fragment, and light processor functions."
+msgstr ""
+"கேன்வாசிடெம் சேடர்களில் இடஞ்சார்ந்த சேடர்களை விட குறைவான உள்ளமைக்கப்பட்ட மாறிகள் மற்றும் "
+"செயல்பாடு ஆகியவை உள்ளன, ஆனால் அவை வெர்டெக்ச், துண்டு மற்றும் ஒளி செயலி செயல்பாடுகளுடன் "
+"அதே அடிப்படை கட்டமைப்பை பராமரிக்கின்றன."
+
+msgid "Render modes"
+msgstr "முறைகளை வழங்கவும்"
+
+msgid "Render mode"
+msgstr "பயன்முறையை வழங்கவும்"
+
+msgid "Description"
+msgstr "விவரம்"
+
+msgid "**blend_mix**"
+msgstr "** blend_mix **"
+
+msgid "Mix blend mode (alpha is transparency), default."
+msgstr "கலவை முறை (ஆல்பா வெளிப்படைத்தன்மை), இயல்புநிலை."
+
+msgid "**blend_add**"
+msgstr "** blend_add **"
+
+msgid "Additive blend mode."
+msgstr "சேர்க்கை கலப்பு முறை."
+
+msgid "**blend_sub**"
+msgstr "** Cland_sub **"
+
+msgid "Subtractive blend mode."
+msgstr "கழித்தல் கலப்பு முறை."
+
+msgid "**blend_mul**"
+msgstr "** blend_mul **"
+
+msgid "Multiplicative blend mode."
+msgstr "பெருக்கல் கலப்பு முறை."
+
+msgid "**blend_premul_alpha**"
+msgstr "** blend_premul_alpha **"
+
+msgid "Pre-multiplied alpha blend mode."
+msgstr "முன்-மல்டிபிள் ஆல்பா கலவை முறை."
+
+msgid "**blend_disabled**"
+msgstr "** blend_disabled **"
+
+msgid "Disable blending, values (including alpha) are written as-is."
+msgstr "கலப்பு முடக்கு, மதிப்புகள் (ஆல்பா உட்பட) எழுதப்பட்டவை."
+
+msgid "**unshaded**"
+msgstr "** அசைக்கப்படாத **"
+
+msgid "Result is just albedo. No lighting/shading happens in material."
+msgstr "முடிவு வெறும் ஆல்பிடோ. பொருளில் விளக்குகள்/நிழல் எதுவும் நடக்காது."
+
+msgid "**light_only**"
+msgstr "** லைட்_ஒன் **"
+
+msgid "Only draw on light pass."
+msgstr "ஒளி பாசில் மட்டுமே வரையவும்."
+
+msgid "**skip_vertex_transform**"
+msgstr "** skip_vertex_transform **"
+
+msgid "VERTEX needs to be transformed manually in vertex function."
+msgstr "வெர்டெக்ச் வெர்டெக்ச் செயல்பாட்டில் கைமுறையாக மாற்றப்பட வேண்டும்."
+
+msgid "**world_vertex_coords**"
+msgstr "** world_vertex_coords **"
+
+msgid "VERTEX is modified in world coordinates instead of local."
+msgstr "உள்ளக நிலைக்கு பதிலாக உலக ஆயத்தொகுதிகளில் வெர்டெக்ச் மாற்றியமைக்கப்படுகிறது."
+
+msgid "Built-ins"
+msgstr "உள்ளமைக்கப்பட்டவை"
+
+msgid ""
+"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
+"optional writing and will not necessarily contain sensible values. Values "
+"marked as \"inout\" provide a sensible default value, and can optionally be "
+"written to. Samplers are not subjects of writing and they are not marked."
+msgstr ""
+"\"இன்\" எனக் குறிக்கப்பட்ட மதிப்புகள் படிக்க மட்டுமே. \"அவுட்\" எனக் குறிக்கப்பட்ட "
+"மதிப்புகள் விருப்ப எழுத்துக்களுக்கானவை, மேலும் அவை விவேகமான மதிப்புகளைக் "
+"கொண்டிருக்காது. \"INOUT\" எனக் குறிக்கப்பட்ட மதிப்புகள் விவேகமான இயல்புநிலை மதிப்பை "
+"வழங்குகின்றன, மேலும் விருப்பமாக எழுதலாம். மாதிரிகள் எழுதும் பாடங்கள் அல்ல, அவை "
+"குறிக்கப்படவில்லை."
+
+msgid "Global built-ins"
+msgstr "உலகளாவிய கட்டடங்கள்"
+
+msgid "Global built-ins are available everywhere, including custom functions."
+msgstr "தனிப்பயன் செயல்பாடுகள் உட்பட எல்லா இடங்களிலும் உலகளாவிய கட்டடங்கள் கிடைக்கின்றன."
+
+msgid "Built-in"
+msgstr "உள்ளமைக்கப்பட்ட"
+
+msgid "in float **TIME**"
+msgstr "மிதவையில் ** நேரம் **"
+
+msgid "in float **PI**"
+msgstr "மிதவை ** பை **"
+
+msgid ""
+"A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
+"diameter and amount of radians in half turn."
+msgstr ""
+"A `` pi`` மாறிலி (`` 3.141592``). வட்டத்தின் விட்டம் மற்றும் ரேடியன்களின் அளவு "
+"ஆகியவற்றின் சுற்றளவு பாதி திரும்பும்."
+
+msgid "in float **TAU**"
+msgstr "மிதவையில் ** த அயு **"
+
+msgid ""
+"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
+"radians in full turn."
+msgstr ""
+"A `` tau`` மாறிலி (`` 6.283185``). `` பை * 2`` க்கு சமமான மற்றும் முழு "
+"திருப்பத்தில் ரேடியன்களின் அளவு."
+
+msgid "in float **E**"
+msgstr "மிதவையில் ** இ **"
+
+msgid ""
+"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
+"logarithm."
+msgstr ""
+"ஒரு `` E`` மாறிலி (`` 2.718281``). யூலரின் எண் மற்றும் இயற்கை மடக்கையின் அடிப்படை."
+
+msgid "Vertex built-ins"
+msgstr "வெர்டெக்ச் பில்ட்-இன்ச்"
+
+msgid ""
+"Vertex data (``VERTEX``) is presented in local space (pixel coordinates, "
+"relative to the Node2D's origin). If not written to, these values will not "
+"be modified and be passed through as they came."
+msgstr ""
+"வெர்டெக்ச் தரவு (`` வெர்டெக்ச்``) உள்ளக இடத்தில் (பிக்சல் ஆயத்தொகுதிகள், Node2D இன் "
+"தோற்றத்துடன் ஒப்பிடும்போது) வழங்கப்படுகிறது. எழுதப்படாவிட்டால், இந்த மதிப்புகள் "
+"மாற்றியமைக்கப்படாது, அவை வந்தபடியே அனுப்பப்படும்."
+
+msgid ""
+"The user can disable the built-in model to world transform (world to screen "
+"and projection will still happen later) and do it manually with the "
+"following code:"
+msgstr ""
+"உலக மாற்றத்திற்கான உள்ளமைக்கப்பட்ட மாதிரியை பயனர் முடக்க முடியும் (உலகம் திரை மற்றும் "
+"திட்டத்திற்கு இன்னும் பின்னர் நடக்கும்) மற்றும் பின்வரும் குறியீட்டைக் கொண்டு கைமுறையாகச் "
+"செய்யுங்கள்:"
+
+msgid ""
+"Other built-ins, such as UV and COLOR, are also passed through to the "
+"fragment function if not modified."
+msgstr ""
+"புற ஊதா மற்றும் வண்ணம் போன்ற பிற உள்ளீடுகளும் மாற்றியமைக்கப்படாவிட்டால் துண்டு "
+"செயல்பாட்டிற்கு அனுப்பப்படுகின்றன."
+
+msgid ""
+"For instancing, the INSTANCE_CUSTOM variable contains the instance custom "
+"data. When using particles, this information is usually:"
+msgstr ""
+"நிறுவலுக்கு, INSTANCE_CUSTOM மாறி நிகழ்வு தனிப்பயன் தரவைக் கொண்டுள்ளது. துகள்களைப் "
+"பயன்படுத்தும் போது, இந்த செய்தி பொதுவாக:"
+
+msgid "**x**: Rotation angle in radians."
+msgstr "** ஃச் **: ரேடியன்களில் சுழற்சி கோணம்."
+
+msgid "**y**: Phase during lifetime (0 to 1)."
+msgstr "** ஒய் **: வாழ்நாளில் கட்டம் (0 முதல் 1 வரை)."
+
+msgid "**z**: Animation frame."
+msgstr "** சட் **: அனிமேசன் சட்டகம்."
+
+msgid "in mat4 **MODEL_MATRIX**"
+msgstr "MAT4 ** Model_Matrix ** இல்"
+
+msgid ""
+"Local space to world space transform. World space is the coordinates you "
+"normally use in the editor."
+msgstr ""
+"உலக விண்வெளி உருமாற்றத்திற்கு உள்ளக இடம். உலக இடம் என்பது நீங்கள் பொதுவாக எடிட்டரில் "
+"பயன்படுத்தும் ஆயத்தொகுப்புகள்."
+
+msgid "in mat4 **CANVAS_MATRIX**"
+msgstr "MAT4 ** Canvas_matrix ** இல்"
+
+msgid ""
+"World space to canvas space transform. In canvas space the origin is the "
+"upper-left corner of the screen and coordinates ranging from (0, 0) to "
+"viewport size."
+msgstr ""
+"கேன்வாச் விண்வெளி உருமாற்றத்திற்கு உலக இடம். கேன்வாச் ச்பேசில் தோற்றம் திரையின் மேல்-இடது "
+"மூலையாகும், மேலும் (0, 0) முதல் வியூபோர்ட் அளவு வரையிலான ஒருங்கிணைப்பை "
+"ஒருங்கிணைக்கிறது."
+
+msgid "in mat4 **SCREEN_MATRIX**"
+msgstr "MAT4 ** Screen_Matrix ** இல்"
+
+msgid ""
+"Canvas space to clip space. In clip space coordinates ranging from (-1, -1) "
+"to (1, 1)."
+msgstr ""
+"இடத்தை கிளிப் செய்ய கேன்வாச் இடம். கிளிப் விண்வெளியில் (-1, -1) முதல் (1, 1) வரையிலான "
+"ஒருங்கிணைப்புகள்."
+
+msgid "in int  **INSTANCE_ID**"
+msgstr "int ** instance_id **"
+
+msgid "Instance ID for instancing."
+msgstr "நிறுவலுக்கான நிகழ்வு ஐடி."
+
+msgid "in vec4 **INSTANCE_CUSTOM**"
+msgstr "VEC4 ** INSTANCE_CUSTOM ** இல்"
+
+msgid "Instance custom data."
+msgstr "நிகழ்வு தனிப்பயன் தரவு."
+
+msgid "in bool **AT_LIGHT_PASS**"
+msgstr "பூல் ** at_light_pass ** இல்"
+
+msgid "Always ``false``."
+msgstr "எப்போதும் `` பொய்``."
+
+msgid "in vec2 **TEXTURE_PIXEL_SIZE**"
+msgstr "VEC2 ** stecture_pixel_size ** இல்"
+
+msgid ""
+"Normalized pixel size of default 2D texture. For a Sprite2D with a texture "
+"of size 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
+msgstr ""
+"இயல்புநிலை 2 டி அமைப்பின் இயல்பாக்கப்பட்ட படப்புள்ளி அளவு. 64x32px அளவின் அமைப்பைக் கொண்ட "
+"ஒரு ச்ப்ரைட் 2 டி க்கு, ** stecture_pixel_size ** = `` vec2 (1/64, 1/32) `` `"
+
+msgid "inout vec2 **VERTEX**"
+msgstr "vec2 ** vertex **"
+
+msgid "Vertex, in local space."
+msgstr "வெர்டெக்ச், உள்ளக இடத்தில்."
+
+msgid "in int **VERTEX_ID**"
+msgstr "int ** vertex_id **"
+
+msgid "The index of the current vertex in the vertex buffer."
+msgstr "வெர்டெக்ச் பஃப்பரில் தற்போதைய வெர்டெக்சின் குறியீடு."
+
+msgid "inout vec2 **UV**"
+msgstr "VEC2 ** UV **"
+
+msgid "Normalized texture coordinates. Range from 0 to 1."
+msgstr "இயல்பாக்கப்பட்ட அமைப்பு ஆயத்தொலைவுகள். 0 முதல் 1 வரை."
+
+msgid "inout vec4 **COLOR**"
+msgstr "VEC4 ** வண்ணம் **"
+
+msgid "Color from vertex primitive."
+msgstr "வெர்டெக்ச் பழமையான வண்ணம்."
+
+msgid "inout float **POINT_SIZE**"
+msgstr "inout float ** point_size **"
+
+msgid "Point size for point drawing."
+msgstr "புள்ளி வரைபடத்திற்கான புள்ளி அளவு."
+
+msgid "in vec4 **CUSTOM0**"
+msgstr "VEC4 ** தனிப்பயன் 0 ** இல்"
+
+msgid "Custom value from vertex primitive."
+msgstr "வெர்டெக்ச் ப்ரிமிட்டிவ் நிறுவனத்திலிருந்து தனிப்பயன் மதிப்பு."
+
+msgid "in vec4 **CUSTOM1**"
+msgstr "VEC4 ** Custom1 ** இல்"
+
+msgid "Fragment built-ins"
+msgstr "துண்டு கட்டப்பட்டவை"
+
+msgid ""
+"Similarly, if a normal map is used in the :ref:`CanvasTexture "
+"<class_CanvasTexture>`, Godot uses it by default and assigns its value to "
+"the built-in ``NORMAL`` variable. If you are using a normal map meant for "
+"use in 3D, it will appear inverted. In order to use it in your shader, you "
+"must assign it to the ``NORMALMAP`` property. Godot will handle converting "
+"it for use in 2D and overwriting ``NORMAL``."
+msgstr ""
+"இதேபோல், ஒரு சாதாரண வரைபடம் பயன்படுத்தப்பட்டால்: Ref: `canvastexture "
+"<class_canvastexture>`, கோடோட் அதை இயல்பாகவே பயன்படுத்துகிறார் மற்றும் அதன் மதிப்பை "
+"உள்ளமைக்கப்பட்ட `` இயல்பான`` மாறிக்கு ஒதுக்குகிறார். 3D இல் பயன்படுத்த ஒரு சாதாரண "
+"வரைபடத்தை நீங்கள் பயன்படுத்துகிறீர்கள் என்றால், அது தலைகீழாகத் தோன்றும். இதை உங்கள் சேடரில் "
+"பயன்படுத்த, நீங்கள் அதை `` நார்மல்மேப்`` சொத்துக்கு ஒதுக்க வேண்டும். கோடோட் அதை 2D இல் "
+"பயன்படுத்த மற்றும் `` இயல்பான`` ஐ மேலெழுதும் மாற்றுவதை கையாளும்."
+
+msgid "in vec4 **FRAGCOORD**"
+msgstr "VEC4 ** fragcoord ** இல்"
+
+msgid ""
+"Coordinate of pixel center. In screen space. ``xy`` specifies position in "
+"window. Origin is upper-left."
+msgstr ""
+"படப்புள்ளி மையத்தின் ஒருங்கிணைப்பு. திரை இடத்தில். `` xy`` சாளரத்தில் நிலையை "
+"குறிப்பிடுகிறது. தோற்றம் மேல் இடது."
+
+msgid "in vec2 **SCREEN_PIXEL_SIZE**"
+msgstr "VEC2 ** Screen_Pixel_Size ** இல்"
+
+msgid "Size of individual pixels. Equal to inverse of resolution."
+msgstr "தனிப்பட்ட பிக்சல்களின் அளவு. தீர்மானத்தின் தலைகீழ் சமம்."
+
+msgid "in vec2 **POINT_COORD**"
+msgstr "VEC2 ** Point_Coord ** இல்"
+
+msgid "Coordinate for drawing points."
+msgstr "வரைதல் புள்ளிகளுக்கு ஒருங்கிணைப்பு."
+
+msgid "sampler2D **TEXTURE**"
+msgstr "sampler2d ** அமைப்பு **"
+
+msgid "Default 2D texture."
+msgstr "இயல்புநிலை 2 டி அமைப்பு."
+
+msgid "sampler2D **SPECULAR_SHININESS_TEXTURE**"
+msgstr "sampler2d ** seploral_hininess_texture **"
+
+msgid "Specular shininess texture of this object."
+msgstr "இந்த பொருளின் ஏகப்பட்ட ஒளி அமைப்பு."
+
+msgid "in vec4 **SPECULAR_SHININESS**"
+msgstr "VEC4 இல் ** Sepular_Shininess **"
+
+msgid "Specular shininess color, as sampled from the texture."
+msgstr "எக்சுலர் சினினச் நிறம், அமைப்பிலிருந்து மாதிரி."
+
+msgid "in vec2 **UV**"
+msgstr "VEC2 ** UV ** இல்"
+
+msgid "UV from vertex function."
+msgstr "வெர்டெக்ச் செயல்பாட்டிலிருந்து புற ஊதா."
+
+msgid "in vec2 **SCREEN_UV**"
+msgstr "VEC2 ** Screen_uv ** இல்"
+
+msgid "Screen UV coordinate for current pixel."
+msgstr "தற்போதைய பிக்சலுக்கான திரை யு.வி ஒருங்கிணைப்பு."
+
+msgid "sampler2D **SCREEN_TEXTURE**"
+msgstr "sampler2d ** screen_texture **"
+
+msgid ""
+"Removed in Godot 4. Use a ``sampler2D`` with ``hint_screen_texture`` instead."
+msgstr "கோடோட்டில் அகற்றப்பட்டது."
+
+msgid "inout vec3 **NORMAL**"
+msgstr "VEC3 ** இயல்பானது **"
+
+msgid "Normal read from **NORMAL_TEXTURE**. Writable."
+msgstr "** normal_texture ** இலிருந்து இயல்பான வாசிப்பு. எழுதக்கூடியது."
+
+msgid "sampler2D **NORMAL_TEXTURE**"
+msgstr "sampler2d ** normal_texture **"
+
+msgid "Default 2D normal texture."
+msgstr "இயல்புநிலை 2 டி சாதாரண அமைப்பு."
+
+msgid "out vec3 **NORMAL_MAP**"
+msgstr "OUT VEC3 ** இயல்பான_மாப் **"
+
+msgid ""
+"Configures normal maps meant for 3D for use in 2D. If used, overrides "
+"**NORMAL**."
+msgstr ""
+"2D இல் பயன்படுத்த 3D க்கான சாதாரண வரைபடங்களை உள்ளமைக்கிறது. பயன்படுத்தினால், மீறுகிறது "
+"** இயல்பானது **."
+
+msgid "out float **NORMAL_MAP_DEPTH**"
+msgstr "அவுட் மிதவை ** இயல்பான_மாப்_டெப்ட் **"
+
+msgid "Normalmap depth for scaling."
+msgstr "அளவிடுதலுக்கான இயல்பான வரைபடம் ஆழம்."
+
+msgid "Pixel position in screen space."
+msgstr "திரை இடத்தில் படப்புள்ளி நிலை."
+
+msgid "inout vec2 **SHADOW_VERTEX**"
+msgstr "VEC2 ** shadow_vertex **"
+
+msgid "Same as ``VERTEX`` but can be written to alter shadows."
+msgstr "`` வெர்டெக்ச்`` அதே ஆனால் நிழல்களை மாற்ற எழுதலாம்."
+
+msgid "inout vec3 **LIGHT_VERTEX**"
+msgstr "VEC3 ** Light_vertex **"
+
+msgid ""
+"Same as ``VERTEX`` but can be written to alter lighting. Z component "
+"represents height."
+msgstr ""
+"`` வெர்டெக்ச்`` அதே ஆனால் விளக்குகளை மாற்ற எழுதலாம். சட் கூறு உயரத்தைக் குறிக்கிறது."
+
+msgid "Light built-ins"
+msgstr "லைட் பில்ட்-இன்ச்"
+
+msgid ""
+"Light processor functions work differently in Godot 4.x than they did in "
+"Godot 3.x. In Godot 4.x all lighting is done during the regular draw pass. "
+"In other words, Godot no longer draws the object again for each light."
+msgstr ""
+"கோடோட் 3.x இல் செய்ததை விட கோடோட் 4.x இல் ஒளி செயலி செயல்பாடுகள் வித்தியாசமாக "
+"செயல்படுகின்றன. கோடோட்டில் 4.x இல் அனைத்து விளக்குகளும் வழக்கமான டிரா பாசின் போது "
+"செய்யப்படுகின்றன. வேறு வார்த்தைகளில் கூறுவதானால், கோடோட் இனி ஒவ்வொரு ஒளிக்கும் பொருளை "
+"மீண்டும் இழுக்க மாட்டார்."
+
+msgid ""
+"Use render_mode ``unshaded`` if you do not want the light processor function "
+"to run. Use render_mode ``light_only`` if you only want to see the impact of "
+"lighting on an object; this can be useful when you only want the object "
+"visible where it is covered by light."
+msgstr ""
+"ஒளி செயலி செயல்பாடு இயங்க விரும்பவில்லை என்றால் ரெண்டர்_மோட் `` அசைக்கப்படாத`` ஐப் "
+"பயன்படுத்தவும். ஒரு பொருளின் மீது விளக்குகளின் தாக்கத்தை மட்டுமே நீங்கள் காண விரும்பினால் "
+"`` light_only`` ஐப் பயன்படுத்தவும்; பொருளால் ஒளியால் மூடப்பட்டிருக்கும் இடத்தில் மட்டுமே "
+"நீங்கள் காணப்பட வேண்டும் என்று நீங்கள் விரும்பும்போது இது பயனுள்ளதாக இருக்கும்."
+
+msgid ""
+"If you define a light function it will replace the built in light function, "
+"even if your light function is empty."
+msgstr ""
+"உங்கள் ஒளி செயல்பாடு காலியாக இருந்தாலும் கூட, ஒளி செயல்பாட்டை நீங்கள் வரையறுத்தால், அது "
+"கட்டமைக்கப்பட்ட ஒளி செயல்பாட்டை மாற்றும்."
+
+msgid ""
+"Below is an example of a light shader that takes a CanvasItem's normal map "
+"into account:"
+msgstr ""
+"கேன்வாசிட்டெமின் சாதாரண வரைபடத்தை கணக்கில் எடுக்கும் ஒளி சேடரின் எடுத்துக்காட்டு கீழே:"
+
+msgid ""
+"Coordinate of pixel center. In screen space. ``xy`` specifies position in "
+"window. Origin is lower-left."
+msgstr ""
+"படப்புள்ளி மையத்தின் ஒருங்கிணைப்பு. திரை இடத்தில். `` xy`` சாளரத்தில் நிலையை "
+"குறிப்பிடுகிறது. தோற்றம் குறைந்த இடது."
+
+msgid "in vec3 **NORMAL**"
+msgstr "VEC3 ** இயல்பான ** இல்"
+
+msgid "Input Normal."
+msgstr "இயல்பான உள்ளீடு."
+
+msgid "in vec4 **COLOR**"
+msgstr "VEC4 ** வண்ணம் **"
+
+msgid "Input Color. This is the output of the fragment function."
+msgstr "உள்ளீட்டு நிறம். இது துண்டு செயல்பாட்டின் வெளியீடு."
+
+msgid "UV from vertex function, equivalent to the UV in the fragment function."
+msgstr "வெர்டெக்ச் செயல்பாட்டிலிருந்து புற ஊதா, துண்டு செயல்பாட்டில் புற ஊதா சமம்."
+
+msgid "Current texture in use for CanvasItem."
+msgstr "கேன்வாசிட்டெமுக்கு பயன்பாட்டில் உள்ள தற்போதைய அமைப்பு."
+
+msgid ""
+"Normalized pixel size of **TEXTURE**. For a Sprite2D with a **TEXTURE** of "
+"size 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
+msgstr ""
+"** அமைப்பின் இயல்பாக்கப்பட்ட படப்புள்ளி அளவு **. 64x32px அளவின் ** அமைப்பு ** உடன் ஒரு "
+"ச்ப்ரைட் 2 டி க்கு, ** stecture_pixel_size ** = `` vec2 (1/64, 1/32) ``"
+
+msgid "UV for Point Sprite."
+msgstr "பாயிண்ட் ச்ப்ரைட்டுக்கு புற ஊதா."
+
+msgid "in vec4 **LIGHT_COLOR**"
+msgstr "VEC4 ** Light_Color ** இல்"
+
+msgid "Color of Light multiplied by Light's texture."
+msgstr "ஒளியின் நிறம் ஒளியின் அமைப்பால் பெருக்கப்படுகிறது."
+
+msgid "in float **LIGHT_ENERGY**"
+msgstr "மிதவையில் ** லைட்_இனெர்சி **"
+
+msgid "Energy multiplier of Light."
+msgstr "ஒளியின் ஆற்றல் பெருக்கி."
+
+msgid "in vec3 **LIGHT_POSITION**"
+msgstr "VEC3 ** Light_position ** இல்"
+
+msgid ""
+"Position of Light in screen space. If using a ``DirectionalLight2D`` this is "
+"always ``vec3(0,0,0)``."
+msgstr ""
+"திரை இடத்தில் ஒளியின் நிலை. ஒரு `` திசைஅலைட் 2 டி`` ஐப் பயன்படுத்தினால், இது எப்போதும் "
+"`` vec3 (0,0,0) ``."
+
+msgid "in vec3 **LIGHT_DIRECTION**"
+msgstr "VEC3 இல் ** லைட்_ திசை **"
+
+msgid "Direction of Light in screen space."
+msgstr "திரை இடத்தில் ஒளியின் திசை."
+
+msgid "in bool **LIGHT_IS_DIRECTIONAL**"
+msgstr "bool ** light_is_directional ** இல்"
+
+msgid "``true`` if this pass is a ``DirectionalLight2D``."
+msgstr "`` உண்மை`` இந்த பாச் ஒரு `` திசைஅல்லைட் 2 டி`` என்றால்."
+
+msgid "in vec3 **LIGHT_VERTEX**"
+msgstr "VEC3 ** Light_vertex ** இல்"
+
+msgid "Pixel position, in screen space as modified in the fragment function."
+msgstr "துண்டு செயல்பாட்டில் மாற்றியமைக்கப்பட்ட திரை இடத்தில் படப்புள்ளி நிலை."
+
+msgid "inout vec4 **LIGHT**"
+msgstr "VEC4 ** ஒளி **"
+
+msgid "Output color for this Light."
+msgstr "இந்த ஒளிக்கு வெளியீட்டு நிறம்."
+
+msgid "Specular shininess, as set in the object's texture."
+msgstr "பொருளின் அமைப்பில் அமைக்கப்பட்டுள்ளபடி, ஏகப்பட்ட ஒளி."
+
+msgid "out vec4 **SHADOW_MODULATE**"
+msgstr "OUT VEC4 ** shadow_modulate **"
+
+msgid "Multiply shadows cast at this point by this color."
+msgstr "இந்த வண்ணத்தில் இந்த கட்டத்தில் நடிக்கும் நிழல்களை பெருக்கவும்."
+
+msgid "SDF functions"
+msgstr "SDF செயல்பாடுகள்"
+
+msgid ""
+"There are a few additional functions implemented to sample an automatically "
+"generated Signed Distance Field texture. These functions available for "
+"Fragment and Light functions of CanvasItem shaders."
+msgstr ""
+"தானாக உருவாக்கப்பட்ட கையொப்பமிடப்பட்ட தூர புல அமைப்பை மாதிரியாக மாற்ற சில கூடுதல் "
+"செயல்பாடுகள் செயல்படுத்தப்படுகின்றன. கேன்வாசிட்டெம் சேடர்களின் துண்டு மற்றும் ஒளி "
+"செயல்பாடுகளுக்கு இந்த செயல்பாடுகள் கிடைக்கின்றன."
+
+msgid ""
+"The signed distance field is generated from :ref:`class_LightOccluder2D` "
+"nodes present in the scene with the **SDF Collision** property enabled "
+"(which is the default). See the :ref:`2D lights and shadows "
+"<doc_2d_lights_and_shadows_setting_up_shadows>` documentation for more "
+"information."
+msgstr ""
+"கையொப்பமிடப்பட்ட தூர புலம் இதிலிருந்து உருவாக்கப்படுகிறது: ref: "
+"`class_lightoccluder2d` முனைகள் ** SDF மோதல் ** சொத்து இயக்கப்பட்ட (இது இயல்புநிலை) "
+"காட்சியில் உள்ளது. பார்க்க: ref: `2 டி விளக்குகள் மற்றும் நிழல்கள் "
+"<doc_2d_lights_and_shadows_setting_up_shadows>` மேலும் தகவலுக்கு ஆவணங்கள்."
+
+msgid "Function"
+msgstr "சார்பு"
+
+msgid "float **texture_sdf** (vec2 sdf_pos)"
+msgstr "மிதவை ** stecture_sdf ** (VEC2 SDF_POS)"
+
+msgid "Performs an SDF texture lookup."
+msgstr "ஒரு SDF அமைப்பு தேடலை செய்கிறது."
+
+msgid "vec2 **texture_sdf_normal** (vec2 sdf_pos)"
+msgstr "vec2 ** stecture_sdf_normal ** (vec2 sdf_pos)"
+
+msgid "Calculates a normal from the SDF texture."
+msgstr "SDF அமைப்பிலிருந்து ஒரு இயல்பை கணக்கிடுகிறது."
+
+msgid "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
+msgstr "VEC2 ** SDF_TO_SCREEN_UV ** (VEC2 SDF_POS)"
+
+msgid "Converts an SDF to screen UV."
+msgstr "ஒரு SDF ஐ திரை UV க்கு மாற்றுகிறது."
+
+msgid "vec2 **screen_uv_to_sdf** (vec2 uv)"
+msgstr "vec2 ** screen_uv_to_sdf ** (vec2 uv)"
+
+msgid "Converts screen UV to an SDF."
+msgstr "திரை UV ஐ ஒரு SDF ஆக மாற்றுகிறது."

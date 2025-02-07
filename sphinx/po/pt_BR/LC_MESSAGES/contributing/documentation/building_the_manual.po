@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,6 +24,3 @@ msgstr ""
 "mas isso pode usar muita RAM se você tiver muitos threads de CPU. Por "
 "exemplo, em um sistema com 32 threads de CPU, ``-j auto`` (que corresponde a "
 "``-j 32`` aqui) pode exigir mais de 20 GB de RAM apenas para o Sphinx."
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

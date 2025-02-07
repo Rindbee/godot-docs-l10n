@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -96,8 +96,17 @@ msgstr "Description"
 msgid "Identity"
 msgstr "Identité"
 
+msgid "The PKCS #12 certificate file. [2]_"
+msgstr "Le fichier de certificat PKCS #12. [2]_"
+
+msgid "Password for the certificate file. [2]_"
+msgstr "Mot de passe pour le fichier de certificat. [2]_"
+
 msgid "Notarization Options"
 msgstr "Options de notarisation"
+
+msgid "Notarization"
+msgstr "Certification"
 
 msgid "Apple ID Name"
 msgstr "Nom Apple ID"
@@ -105,14 +114,38 @@ msgstr "Nom Apple ID"
 msgid "Apple ID Password"
 msgstr "Mot de passe Apple ID"
 
+msgid ""
+"Apple ID app-specific password. See `Using app-specific passwords <https://"
+"support.apple.com/en-us/HT204397>`__ to enable two-factor authentication and "
+"create app password. [3]_"
+msgstr ""
+"Mot de passe spécifique à l'application Apple ID. Voir `Utilisation de mots "
+"de passe pour application <https://support.apple.com/fr-fr/HT204397>`__ pour "
+"activer l'authentification à deux facteurs et créer un mot de passe "
+"d'application. [3]_"
+
 msgid "Apple Team ID"
 msgstr "Apple Team ID"
 
 msgid "API UUID"
 msgstr "API UUID"
 
+msgid ""
+"Apple `App Store Connect <https://developer.apple.com/documentation/"
+"appstoreconnectapi>`__ API issuer UUID."
+msgstr ""
+"UUID d’émetteur d'API de l'`App Store Connect <https://developer.apple.com/"
+"documentation/appstoreconnectapi>`__ d'Apple."
+
 msgid "API Key"
 msgstr "Clé API"
+
+msgid ""
+"Apple `App Store Connect <https://developer.apple.com/documentation/"
+"appstoreconnectapi>`__ API key."
+msgstr ""
+"Clé d'API de l'`App Store Connect <https://developer.apple.com/documentation/"
+"appstoreconnectapi>`__ d'Apple."
 
 msgid ""
 "See `Notarizing macOS Software Before Distribution <https://developer.apple."
@@ -391,6 +424,3 @@ msgstr "``GODOT_MACOS_NOTARIZATION_APPLE_ID_NAME``"
 
 msgid "``GODOT_MACOS_NOTARIZATION_APPLE_ID_PASSWORD``"
 msgstr "``GODOT_MACOS_NOTARIZATION_APPLE_ID_PASSWORD``"
-
-msgid "Translation status"
-msgstr "État de la traduction"

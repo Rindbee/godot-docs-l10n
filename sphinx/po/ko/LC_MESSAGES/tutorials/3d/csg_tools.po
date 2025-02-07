@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,6 +24,3 @@ msgid ""
 "Position your furniture in your room as you like and your scene should look "
 "this:"
 msgstr "방에 가구를 원하는 장소에 배치하고 씬은 다음과 같이 보여야 합니다:"
-
-msgid "Translation status"
-msgstr "번역 상태"

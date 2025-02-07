@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -18,10 +18,7 @@ msgid "Your final skeleton should look something like this:"
 msgstr "Sonunda iskeletiniz bunun gibi bir şeye benzemelidir:"
 
 msgid "Animation tips"
-msgstr "Animasyon ipuçları"
+msgstr "Canlandırma ipuçları"
 
 msgid "Create a new animation, rename it \"rest\"."
-msgstr "Yeni bir animasyon oluşturun, ismini \"rest\" olarak değiştirin."
-
-msgid "Translation status"
-msgstr "Çeviri durumu"
+msgstr "Yeni bir canlandırma oluşturun, ismini \"rest\" olarak değiştirin."

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -90,6 +90,3 @@ msgstr ""
 "可以在「debug/shapes/navigation」下的編輯器中更改連結除錯視覺效果:ref:"
 "`ProjectSettings<class_ProjectSettings>`。除錯的可見性也可以在編輯器 3D 視口"
 "小控制功能表中控制。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

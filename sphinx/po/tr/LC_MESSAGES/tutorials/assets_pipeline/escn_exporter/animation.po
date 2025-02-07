@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,25 +12,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Animation"
-msgstr "Animasyon"
+msgstr "Canlandırma"
 
 msgid "Animation supported:"
-msgstr "Desteklenen animasyon:"
+msgstr "Desteklenen canlandırma:"
 
 msgid "shape key animation"
-msgstr "şekil anahtar animasyonu"
+msgstr "şekil anahtar canlandırması"
 
 msgid "light animation"
-msgstr "ışık animasyonu"
+msgstr "ışık canlandırması"
 
 msgid "camera animation"
-msgstr "kamera animasyonu"
+msgstr "kamera canlandırması"
 
 msgid "Constraints"
 msgstr "Kısıtlamalar"
 
 msgid "Animation Mode"
-msgstr "Animasyon Kipi"
-
-msgid "Translation status"
-msgstr "Çeviri durumu"
+msgstr "Canlandırma Kipi"

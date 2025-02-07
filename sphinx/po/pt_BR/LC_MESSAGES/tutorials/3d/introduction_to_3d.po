@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,16 +14,38 @@ msgstr ""
 msgid "Introduction to 3D"
 msgstr "Introdução ao 3D"
 
+msgid "Coordinate system"
+msgstr "Sistema de coordenadas"
+
 msgid ""
-"In 3D, math is a little more complex than in 2D, so also checking the :ref:"
-"`doc_vector_math` entry in the wiki (which was especially created for game "
-"developers, not mathematicians or engineers) will help pave the way for you "
-"to develop 3D games efficiently."
+"Godot uses the `metric <https://en.wikipedia.org/wiki/Metric_system>`__ "
+"system for everything in 3D, with 1 unit being equal to 1 meter. Physics and "
+"other areas are tuned for this scale. Therefore, attempting to use a "
+"different scale is usually a bad idea (unless you know what you are doing)."
 msgstr ""
-"No 3D, a matemática é um pouco mais complexa que no 2D, então verifique a "
-"entrada :ref:`doc_vector_math`no wiki(que foi criada especialmente para "
-"desenvolvedores de jogos, não para matemáticos ou engenheiros) isto ajudará "
-"a preparar o caminho para você desenvolver jogos 3D com eficiência."
+"O Godot usa o sistema `métrico <https://pt.wikipedia.org/wiki/"
+"Sistema_m%C3%A9trico>`__ para tudo. A física 3D e outras áreas são ajustadas "
+"para isso, então tentar usar uma escala diferente é geralmente uma má ideia "
+"(a menos que você saiba o que está fazendo)."
+
+msgid "**X** is sides"
+msgstr "**X** são lados"
+
+msgid "**Y** is up/down"
+msgstr "**Y** é para cima/para baixo"
+
+msgid "**Z** is front/back"
+msgstr "**Z** é frente/trás"
+
+msgid "Space and manipulation gizmos"
+msgstr "Espaço e manipulação gizmos"
+
+msgid "Some useful keybindings:"
+msgstr "Algumas combinações de teclas úteis:"
+
+msgid "To center the view on the selected object, press :kbd:`F`."
+msgstr ""
+"Para centralizar a visualização no objeto selecionado, pressione :kbd:`F`."
 
 msgid "3D content"
 msgstr "Conteúdo 3D"
@@ -103,95 +125,6 @@ msgstr ""
 "tipos de efeitos de pós-processamento integrados. Os ambientes também podem "
 "ser substituídos na câmera."
 
-msgid "3D viewport"
-msgstr "Viewport 3D"
-
-msgid ""
-"Default 3D scene navigation controls are similar to Blender (aiming to have "
-"some sort of consistency in the free software pipeline..), but options are "
-"included to customize mouse buttons and behavior to be similar to other "
-"tools in the Editor Settings:"
-msgstr ""
-"Os controles de navegação de cena 3D padrão são semelhantes aos do Blender "
-"(com o objetivo de ter algum tipo de consistência no pipeline de software "
-"livre...), mas são incluídas opções para personalizar os botões e o "
-"comportamento do mouse para serem semelhantes a outras ferramentas nas "
-"Configurações do Editor:"
-
-msgid "Coordinate system"
-msgstr "Sistema de coordenadas"
-
-msgid ""
-"Godot uses the `metric <https://en.wikipedia.org/wiki/Metric_system>`__ "
-"system for everything in 3D, with 1 unit being equal to 1 meter. Physics and "
-"other areas are tuned for this scale. Therefore, attempting to use a "
-"different scale is usually a bad idea (unless you know what you are doing)."
-msgstr ""
-"O Godot usa o sistema `métrico <https://pt.wikipedia.org/wiki/"
-"Sistema_m%C3%A9trico>`__ para tudo. A física 3D e outras áreas são ajustadas "
-"para isso, então tentar usar uma escala diferente é geralmente uma má ideia "
-"(a menos que você saiba o que está fazendo)."
-
-msgid "**X** is sides"
-msgstr "**X** são lados"
-
-msgid "**Y** is up/down"
-msgstr "**Y** é para cima/para baixo"
-
-msgid "**Z** is front/back"
-msgstr "**Z** é frente/trás"
-
-msgid "Space and manipulation gizmos"
-msgstr "Espaço e manipulação gizmos"
-
-msgid ""
-"Moving objects in the 3D view is done through the manipulator gizmos. Each "
-"axis is represented by a color: Red, Green, Blue represent X, Y, Z "
-"respectively. This convention applies to the grid and other gizmos too (and "
-"also to the shader language, ordering of components for Vector3, Color, "
-"etc.)."
-msgstr ""
-"A movimentação de objetos na visualização 3D é feita por meio de gizmos "
-"manipuladores. Cada eixo é representado por uma cor: Vermelho, Verde, Azul "
-"representam X, Y, Z respectivamente. Essa convenção também se aplica à grade "
-"e a outros dispositivos (e também à linguagem de shader, ordenação de "
-"componentes para Vector3, Color, etc.)."
-
-msgid "Some useful keybindings:"
-msgstr "Algumas combinações de teclas úteis:"
-
-msgid ""
-"To snap placement or rotation, press :kbd:`Ctrl` while moving, scaling or "
-"rotating."
-msgstr ""
-"Para posicionamento ou rotação encaixada, pressione :kbd:`Ctrl` enquanto "
-"move, dimensiona ou gira."
-
-msgid "To center the view on the selected object, press :kbd:`F`."
-msgstr ""
-"Para centralizar a visualização no objeto selecionado, pressione :kbd:`F`."
-
-msgid "View menu"
-msgstr "Menu \"Exibir\""
-
-msgid ""
-"The view options are controlled by the \"View\" menu in the viewport's "
-"toolbar."
-msgstr ""
-"As opções de exibição são controladas pelo menu \"Exibir\" na barra de "
-"ferramentas da janela de exibição."
-
-msgid "You can hide the gizmos in the 3D view of the editor through this menu:"
-msgstr ""
-"Você pode ocultar os gizmos na visualização 3D do editor através deste menu:"
-
-msgid ""
-"To hide a specific type of gizmos, you can toggle them off in the \"View\" "
-"menu."
-msgstr ""
-"Para ocultar um tipo específico de gizmos, você pode desativá-los no menu "
-"\"Exibir\"."
-
 msgid "Cameras"
 msgstr "Câmeras"
 
@@ -242,6 +175,3 @@ msgstr ""
 
 msgid "Lights"
 msgstr "Luzes"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"

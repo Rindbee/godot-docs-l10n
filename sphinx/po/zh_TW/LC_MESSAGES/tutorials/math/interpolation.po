@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -123,13 +123,3 @@ msgstr "插值可用於平滑運動, 旋轉等. 下面是使用平滑運動跟�
 
 msgid "Here is how it looks:"
 msgstr "如下:"
-
-msgid ""
-"This useful for smoothing camera movement, allies following you (ensuring "
-"they stay within a certain range), and many other common game patterns."
-msgstr ""
-"這對平滑相機運動很有用, 隊友在跟隨你(確保他們保持在一定範圍內), 以及許多其他"
-"常見的遊戲模式."
-
-msgid "Translation status"
-msgstr "翻譯狀態"

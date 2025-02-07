@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -76,14 +76,17 @@ msgstr ""
 "`doctest : macros de connexion <https://github.com/onqtam/doctest/blob/"
 "master/doc/markdown/logging.md>`_."
 
+msgid "Description"
+msgstr "Description"
+
 msgid "tests for expected errors;"
 msgstr "Tests pour les erreurs attendues ;"
 
 msgid "tests for warnings;"
 msgstr "Tests pour les avertissements ;"
 
+msgid "tests for features."
+msgstr "tests pour les fonctionnalités."
+
 msgid "Run GDScript tests with:"
 msgstr "Exécutez des tests GDScript avec :"
-
-msgid "Translation status"
-msgstr "État de la traduction"

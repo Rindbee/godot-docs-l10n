@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Scripting"
-msgstr "Betik oluştuma"
+msgstr "Betiklendirme"
 
 msgid ""
 "This section covers programming languages and core features to code your "
@@ -26,6 +26,3 @@ msgstr "Programlama dilleri"
 
 msgid "Core features"
 msgstr "Çekirdek özellikler"
-
-msgid "Translation status"
-msgstr "Çeviri durumu"

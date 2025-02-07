@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -310,6 +310,3 @@ msgstr ""
 "En el siguiente ejemplo, Godot cargaría el script ``Node``, vería que no "
 "extiende ``Resource``, y luego determinaría que el script no se pudo cargar "
 "para el objeto Resource ya que los tipos son incompatibles."
-
-msgid "Translation status"
-msgstr "Estado de la traducción"

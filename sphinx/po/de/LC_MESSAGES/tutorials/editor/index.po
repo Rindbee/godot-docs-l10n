@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -90,6 +90,3 @@ msgstr ""
 "nützlich sein, wenn Sie als Lehrkraft versuchen, Ihre Schüler langsam an den "
 "Editor heranzuführen, oder wenn Sie an einem Projekt arbeiten, das nur 2D "
 "oder nur 3D verwendet, und nicht sehen wollen, was Sie nicht brauchen."
-
-msgid "Translation status"
-msgstr "Übersetzungsstatus"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -109,26 +109,26 @@ msgstr "建立腳本樣板"
 msgid "Members that are applicable for documentation:"
 msgstr "適用於檔案的成員："
 
-msgid "Inner class"
-msgstr "內類別"
-
-msgid "Constant"
-msgstr "常數"
-
-msgid "Function"
-msgstr "函式"
-
 msgid "Signal"
 msgstr "訊號"
-
-msgid "Variable"
-msgstr "變數"
 
 msgid "Enum"
 msgstr "Enum 列舉型別"
 
 msgid "Enum value"
 msgstr "列舉值"
+
+msgid "Constant"
+msgstr "常數"
+
+msgid "Variable"
+msgstr "變數"
+
+msgid "Function"
+msgstr "函式"
+
+msgid "Inner class"
+msgstr "內類別"
 
 msgid ""
 "Documentation of a script member must immediately precede the member or its "
@@ -371,6 +371,3 @@ msgid ""
 msgstr ""
 "使用 ``[codeblock]`` 來標記預先格式化的程式碼區塊。在 ``[codeblock]`` 中，請"
 "務必使用 **四個空格** 來進行縮排 (剖析器會移除 Tab 字元)。例如："
-
-msgid "Translation status"
-msgstr "翻譯狀態"

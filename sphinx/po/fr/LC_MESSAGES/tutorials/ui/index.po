@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,36 @@ msgstr ""
 
 msgid "UI building blocks"
 msgstr "Blocs de construction d'interface utilisateur"
+
+msgid "Typical content controls include:"
+msgstr "Les contrôles de contenu typiques comprennent :"
+
+msgid ":ref:`Buttons <class_Button>`"
+msgstr ":ref:`Boutons <class_Button>`"
+
+msgid ":ref:`Labels <class_Label>`"
+msgstr ":ref:`Labels <class_Label>`"
+
+msgid ":ref:`LineEdits <class_LineEdit>` and :ref:`TextEdits <class_TextEdit>`"
+msgstr ":ref:`LineEdits <class_LineEdit>` et :ref:`TextEdits <class_TextEdit>`"
+
+msgid "Typical layout controls include:"
+msgstr "Les contrôles de mise en page typiques comprennent :"
+
+msgid ":ref:`BoxContainers <class_BoxContainer>`"
+msgstr ":ref:`BoxContainers <class_BoxContainer>`"
+
+msgid ":ref:`MarginContainers <class_MarginContainer>`"
+msgstr ":ref:`Conteneurs de marge <class_MarginContainer>`"
+
+msgid ":ref:`ScrollContainers <class_ScrollContainer>`"
+msgstr ":ref:`ScrollContainers <class_ScrollContainer>`"
+
+msgid ":ref:`TabContainers <class_TabContainer>`"
+msgstr ":ref:`Conteneurs d'onglet <class_TabContainer>`"
+
+msgid ":ref:`Popups <class_Popup>`"
+msgstr ":ref:`Fenêtres contextuelles <class_Popup>`"
 
 msgid "GUI skinning and themes"
 msgstr "Habillage et thèmes de l'interface graphique"
@@ -35,6 +65,3 @@ msgid ""
 msgstr ""
 "Les articles suivants couvrent les détails spécifiques de l'utilisation de "
 "nœuds Control particuliers."
-
-msgid "Translation status"
-msgstr "État de la traduction"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -54,6 +54,3 @@ msgstr ""
 "плавающей запятой (32 бита). ``Float`` медленнее, но точнее, ``Byte`` займет "
 "меньше памяти и будет быстрее, но вы можете увидеть некоторые визуальные "
 "артефакты."
-
-msgid "Translation status"
-msgstr "Статус перевода"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1318,6 +1318,3 @@ msgid ""
 msgstr ""
 "如果您希望使用現實世界的單位來配置相機的曝光、視野和景深，請參閱 "
 "doc_physical_light_and_camera_units`。"
-
-msgid "Translation status"
-msgstr "翻譯狀態"

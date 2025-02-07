@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,87 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using the Project Manager"
+msgstr "Utiliser le gestionnaire de projets"
+
+msgid "Creating and importing projects"
+msgstr "Créer et importer des projets"
+
 msgid "To create a new project:"
 msgstr "Pour créer un nouveau projet :"
+
+msgid ""
+"Click the **Create & Edit** button to create the project folder and open it "
+"in the editor."
+msgstr ""
+"Cliquez sur *Importer et modifier* pour créer le dossier du projet et "
+"l'ouvrir dans l'éditeur."
+
+msgid "Using the file browser"
+msgstr "Utiliser l'explorateur de fichiers"
+
+msgid "Opening and importing projects"
+msgstr "Ouvrir et importer des fichiers"
+
+msgid ""
+"The next time you open the Project Manager, you'll see your new project in "
+"the list. Double click on it to open it in the editor."
+msgstr ""
+"La prochaine fois que vous ouvrirez le gestionnaire de projet, vous verrez "
+"votre nouveau projet dans la liste. Double cliquez dessus pour l'ouvrir dans "
+"l'éditeur."
+
+msgid ""
+"You can similarly import existing projects using the **Import** button. "
+"Locate the folder that contains the project or the **project.godot** file to "
+"import and edit it."
+msgstr ""
+"Vous pouvez également importer des projets existants en utilisant le bouton "
+"**Importer**. Localisez le dossier qui contient le projet ou le ficher "
+"**project.godot** pour l'importer et le modifier."
+
+msgid "When the folder path is correct, you'll see a green checkmark."
+msgstr "Lorsque le chemin de dossier est correct, vous verrez une coche verte."
+
+msgid "Downloading demos and templates"
+msgstr "Télécharger des demos et des modèles"
+
+msgid ""
+"Now that Godot is connected to the internet you can download a demo or "
+"template, to do this:"
+msgstr ""
+"Maintenant que Godot est connecté à Internet, vous pouvez télécharger une "
+"démo ou un modèle, pour ce faire :"
 
 msgid "Click on its title."
 msgstr "Cliquer sur son titre."
 
-msgid "Translation status"
-msgstr "État de la traduction"
+msgid "On the page that opens, click the download button."
+msgstr "Sur la page qui s'ouvre, cliquez sur le bouton de téléchargement."
+
+msgid ""
+"Once it finished downloading, click install and choose where you want to "
+"save the project."
+msgstr ""
+"Une fois le téléchargement terminé, cliquez sur **installer** et choisissez "
+"ou vous voulez sauvegarder le projet."
+
+msgid "Managing projects with tags"
+msgstr "Gérer des projects avec des tags"
+
+msgid ""
+"This will open up the manage project tags window. To add a tag click the "
+"plus button."
+msgstr ""
+"Cela ouvrira la fenêtre de gestion des balises de projet. Cliquez sur le "
+"bouton \"plus\" pour ajouter une balise."
+
+msgid ""
+"To remove a tag from your project manager it must be removed from all the "
+"projects it's used by. Once that's done close the project manager, open it "
+"up again, and the tag should be gone."
+msgstr ""
+"Pour supprimer une balise de votre gestionnaire de projet, elle doit être "
+"supprimée de tous les projets auxquels elle est attachée. Une fois que c'est "
+"fait, fermez le gestionnaire de projet, ouvrez le à nouveau et la balise "
+"devrait avoir disparue."

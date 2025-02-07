@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,18 @@ msgstr ""
 
 msgid "Documentation changelog"
 msgstr "Alterações da Documentação"
+
+msgid "About"
+msgstr "Sobre"
+
+msgid "2D"
+msgstr "2D"
+
+msgid "Contributing"
+msgstr "Contribuindo"
+
+msgid "Rendering"
+msgstr "Renderizando"
 
 msgid "C#"
 msgstr "C#"
@@ -28,9 +40,6 @@ msgstr "Específico da plataforma"
 
 msgid "Physics"
 msgstr "Física"
-
-msgid "2D"
-msgstr "2D"
 
 msgid "3D"
 msgstr "3D"
@@ -50,6 +59,9 @@ msgstr "Shaders"
 msgid "Workflow"
 msgstr "Fluxo de trabalho"
 
+msgid ":ref:`doc_pr_review_guidelines`"
+msgstr ":ref:`doc_pr_review_guidelines`"
+
 msgid "None."
 msgstr "Nenhum."
 
@@ -62,14 +74,17 @@ msgstr "C++"
 msgid "GDScript"
 msgstr "GDScript"
 
-msgid "About"
-msgstr "Sobre"
-
 msgid "Best practices"
 msgstr "Boas práticas"
 
 msgid "Community"
 msgstr "Comunidade"
+
+msgid ":ref:`doc_best_practices_for_engine_contributors`"
+msgstr ":ref:`doc_best_practices_for_engine_contributors`"
+
+msgid ":ref:`doc_editor_and_docs_localization`"
+msgstr ":ref:`doc_editor_and_docs_localization`"
 
 msgid "Configuring an IDE: :ref:`doc_configuring_an_ide_code_blocks`"
 msgstr "Configurando um IDE: :ref:`doc_configuring_an_ide_code_blocks`"
@@ -82,6 +97,9 @@ msgstr "Entrada"
 
 msgid "Math"
 msgstr "Matemática"
+
+msgid ":ref:`doc_debugger_panel`"
+msgstr ":ref:`doc_debugger_panel`"
 
 msgid ""
 ":ref:`doc_gdscript_warning_system` (split from :ref:"
@@ -356,6 +374,3 @@ msgstr "Desenvolvimento da Engine"
 
 msgid ":ref:`doc_binding_to_external_libraries`"
 msgstr ":ref: `doc_binding_to_external_libraries`"
-
-msgid "Translation status"
-msgstr "Progresso da Tradução"
