@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -183,30 +183,50 @@ msgstr ""
 msgid "You can see the plugin is not enabled. Click the **Enable** checkbox to activate the plugin. The dock should become visible before you even close the settings window. You should now have a custom dock:"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/making_plugins.rst:417
-msgid "Going beyond"
-msgstr ""
-
 #: ../../docs/tutorials/plugins/editor/making_plugins.rst:419
-msgid "Now that you've learned how to make basic plugins, you can extend the editor in several ways. Lots of functionality can be added to the editor with GDScript; it is a powerful way to create specialized editors without having to delve into C++ modules."
-msgstr ""
-
-#: ../../docs/tutorials/plugins/editor/making_plugins.rst:424
-msgid "You can make your own plugins to help yourself and share them in the `Asset Library <https://godotengine.org/asset-library/>`_ so that people can benefit from your work."
-msgstr ""
-
-#: ../../docs/tutorials/plugins/editor/making_plugins.rst:431
 msgid "Registering autoloads/singletons in plugins"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/making_plugins.rst:433
+#: ../../docs/tutorials/plugins/editor/making_plugins.rst:421
 msgid "It is possible for editor plugins to automatically register :ref:`autoloads <doc_singletons_autoload>` when the plugin is enabled. This also includes unregistering the autoload when the plugin is disabled."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/making_plugins.rst:437
+#: ../../docs/tutorials/plugins/editor/making_plugins.rst:425
 msgid "This makes setting up plugins faster for users, as they no longer have to manually add autoloads to their project settings if your editor plugin requires the use of an autoload."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/making_plugins.rst:441
+#: ../../docs/tutorials/plugins/editor/making_plugins.rst:429
 msgid "Use the following code to register a singleton from an editor plugin:"
+msgstr ""
+
+#: ../../docs/tutorials/plugins/editor/making_plugins.rst:474
+msgid "Using sub-plugins"
+msgstr ""
+
+#: ../../docs/tutorials/plugins/editor/making_plugins.rst:476
+msgid "Often a plugin adds multiple things, for example a custom node and a panel. In those cases it might be easier to have a separate plugin script for each of those features. Sub-plugins can be used for this."
+msgstr ""
+
+#: ../../docs/tutorials/plugins/editor/making_plugins.rst:480
+msgid "First create all plugins and sub plugins as normal plugins:"
+msgstr ""
+
+#: ../../docs/tutorials/plugins/editor/making_plugins.rst:484
+msgid "Then move the sub plugins into the main plugin folder:"
+msgstr ""
+
+#: ../../docs/tutorials/plugins/editor/making_plugins.rst:488
+msgid "Godot will hide sub-plugins from the plugin list, so that a user can't enable or disable them. Instead the main plugin script should enable and disable sub-plugins like this:"
+msgstr ""
+
+#: ../../docs/tutorials/plugins/editor/making_plugins.rst:509
+msgid "Going beyond"
+msgstr ""
+
+#: ../../docs/tutorials/plugins/editor/making_plugins.rst:511
+msgid "Now that you've learned how to make basic plugins, you can extend the editor in several ways. Lots of functionality can be added to the editor with GDScript; it is a powerful way to create specialized editors without having to delve into C++ modules."
+msgstr ""
+
+#: ../../docs/tutorials/plugins/editor/making_plugins.rst:516
+msgid "You can make your own plugins to help yourself and share them in the `Asset Library <https://godotengine.org/asset-library/>`_ so that people can benefit from your work."
 msgstr ""

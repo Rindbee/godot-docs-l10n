@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -304,7 +304,7 @@ msgid "``show_game_center``"
 msgstr ""
 
 #: ../../docs/tutorials/platform/ios/plugins_for_ios.rst:493
-msgid "Displays the built in Game Center overlay showing leaderboards, achievements, and challenges."
+msgid "Displays the built-in Game Center overlay showing leaderboards, achievements, and challenges."
 msgstr ""
 
 #: ../../docs/tutorials/platform/ios/plugins_for_ios.rst:499

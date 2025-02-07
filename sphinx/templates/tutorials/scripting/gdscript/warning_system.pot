@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -36,9 +36,13 @@ msgid "You can find a list of warnings for the active GDScript file in the scrip
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/warning_system.rst:26
-msgid "To ignore specific warnings in one file, insert an annotation of the form ``@warning_ignore(\"warning-id\")``, or click on the ignore link to the left of the warning's description. Godot will add an annotation above the corresponding line and the code won't trigger the corresponding warning anymore:"
+msgid "To ignore single warnings within a file, use the :ref:`@warning_ignore <class_@GDScript_annotation_@warning_ignore>` annotation. You can click on the ignore link to the left of the warning's description. Godot will add an annotation above the corresponding line and the code won't trigger the corresponding warning anymore:"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/warning_system.rst:34
+msgid "To ignore multiple warnings in a region within a file, use the :ref:`@warning_ignore_start <class_@GDScript_annotation_@warning_ignore_start>` and :ref:`@warning_ignore_restore <class_@GDScript_annotation_@warning_ignore_restore>` annotations. You can omit ``@warning_ignore_restore`` if you want to ignore the specified warning types until the end of the file."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdscript/warning_system.rst:40
 msgid "Warnings won't prevent the game from running, but you can turn them into errors if you'd like. This way your game won't compile unless you fix all warnings. Head to the ``GDScript`` section of the Project Settings to turn on this option to the warning that you want. Here's the same file as the previous example with the warning ``unused_variable`` as an error turned on:"
 msgstr ""

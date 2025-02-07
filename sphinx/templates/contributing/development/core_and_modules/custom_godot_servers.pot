@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,7 +32,7 @@ msgid "This guide assumes the reader knows how to create C++ modules and Godot d
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:19
-#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:312
+#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:314
 msgid "References"
 msgstr ""
 
@@ -84,36 +84,60 @@ msgstr ""
 msgid "At minimum, a server must have a static instance, a sleep timer, a thread loop, an initialization state and a cleanup procedure."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:270
+#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:41
+msgid "hilbert_hotel.h"
+msgstr ""
+
+#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:96
+msgid "hilbert_hotel.cpp"
+msgstr ""
+
+#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:239
+msgid "prime_255.h"
+msgstr ""
+
+#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:271
 msgid "Custom managed resource data"
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:272
+#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:273
 msgid "Godot servers implement a mediator pattern. All data types inherit ``RID_Data``. ``RID_Owner<MyRID_Data>`` owns the object when ``make_rid`` is called. During debug mode only, RID_Owner maintains a list of RIDs. In practice, RIDs are similar to writing object-oriented C code."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:314
+#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:278
+msgid "infinite_bus.h"
+msgstr ""
+
+#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:316
 msgid ":ref:`RID<class_rid>`"
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:315
+#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:317
 msgid "`core/templates/rid.h <https://github.com/godotengine/godot/blob/master/core/templates/rid.h>`__"
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:318
+#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:320
 msgid "Registering the class in GDScript"
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:320
+#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:322
 msgid "Servers are allocated in ``register_types.cpp``. The constructor sets the static instance and ``init()`` creates the managed thread; ``unregister_types.cpp`` cleans up the server."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:324
+#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:326
 msgid "Since a Godot server class creates an instance and binds it to a static singleton, binding the class might not reference the correct instance. Therefore, a dummy class must be created to reference the proper Godot server."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:328
+#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:330
 msgid "In ``register_server_types()``, ``Engine::get_singleton()->add_singleton`` is used to register the dummy class in GDScript."
+msgstr ""
+
+#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:333
+msgid "register_types.h"
+msgstr ""
+
+#: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:340
+msgid "register_types.cpp"
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/custom_godot_servers.rst:372

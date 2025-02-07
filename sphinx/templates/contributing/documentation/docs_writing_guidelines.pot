@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -459,4 +459,328 @@ msgstr ""
 
 #: ../../docs/contributing/documentation/docs_writing_guidelines.rst:508
 msgid "Press ``:kbd:`Shift + Up Arrow``` to move the node upwards by 8 pixels."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:512
+msgid "Manual style guidelines"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:514
+msgid "Follow these formatting and style guidelines when writing the manual."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:516
+msgid "Use your best judgement. If you can write more clearly by breaking one of these guidelines, please do! But remember that the guidelines exist for a reason."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:519
+msgid "In many cases, the manual does not follow these guidelines. If you are already making changes to a paragraph or section of the docs, update it to follow these standards. Avoid making unrelated changes that *only* update style, since every change will require the paragraph to be re-translated."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:525
+msgid "Text styles"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:527
+msgid "There are a few styles that the manual uses."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:530
+msgid "Style"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:530
+msgid "RST formatting"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:530
+msgid "Typical usage"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:532
+msgid "Plaintext"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:532
+msgid "``text``"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:532
+msgid "Used for most text."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:534
+msgid "*Italics*"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:534
+msgid "``*text*``"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:534
+msgid "Used for emphasis. Used for introducing new terms."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:536
+msgid "**Bold**"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:536
+msgid "``**text**``"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:536
+msgid "Used for emphasis, and for editor UI like menus and windows."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:539
+msgid "``Code``"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:539
+msgid "`` text ``"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:539
+msgid "Used for variable names, literal values, and code snippets. ``code`` is used in many cases where you would use \"quoted plaintext\" in typical English."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:543
+msgid "\"Quotes\""
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:543
+msgid "``\"text\"``"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:543
+msgid "Used for some literal or quoted values. In many cases, another style is preferred."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:548
+msgid "Emphasis"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:550
+msgid "Use either **bold style** or *italic style* to emphasize words or sentences. In most cases, either **bold** or *italics* is fine. Use whichever seems best, or whatever the page already uses."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:554
+msgid "Prefer using **bold style** for simple emphasis."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:556
+msgid "Do **not** close the window without saving first."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:558
+msgid "Use *italic style* or to emphasize one word in the context of a sentence."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:560
+msgid "You can *add* a node to the scene (but you can't connect one)."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:561
+msgid "You can add a *node* to the scene (but you can't add a resource)."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:562
+msgid "You can add a node to the *scene* (but you can't add one to a resource)."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:564
+msgid "Use *italic style* when introducing new technical terms. **Bold style** is fine too."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:567
+msgid "Godot uses *nodes* with *scripts* in a *scene tree*."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:568
+msgid "Godot uses **nodes** with **scripts** in a **scene tree**."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:571
+msgid "Literals"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:573
+msgid "Use ``code style`` for literal values. Literals include:"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:575
+msgid "Integer or ``int`` literals like ``0``, ``-2``, or ``100``"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:576
+msgid "Float literals like ``0.0``, ``0.5``, ``-2.0``, or ``100.0``"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:577
+msgid "Vector literals like ``(0.0, 0.0)``, ``(0.5, -0.5, 0.5)``, or ``(1.0, 2.0, 3.0, 4.0)``."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:580
+msgid "Classes, properties, and methods"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:582
+msgid "Link to classes the first time that you mention them in a page. After the first mention, use ``code style``. For common classes, like ``Node``, ``Control``, or ``Viewport``, you can also use plaintext."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:586
+msgid "Link to class members (properties, methods, enums, and constants) the first time that you mention them in a page. After the first mention, use ``code style``. If the class member is very common, like a Node2D's ``position``, you don't have to link."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:591
+msgid "When discussing properties in the context of the inspector, use **bold style** instead."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:595
+msgid "Editor UI"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:597
+msgid "Use **bold style** for editor UI, including window titles, menus, buttons, input fields, inspector properties, and inspector sections. Use the exact capitalization that the editor uses."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:601
+msgid "Open the **Editor Settings** window."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:602
+msgid "Press the **Confirm** button."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:603
+msgid "Change the node's **Transform > Position** property to ``(0, 0)``."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:604
+msgid "In the **Project Settings** window, enable the **Advanced Settings** toggle."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:606
+msgid "Use **Bold > With > Separators** when describing sequence of menus that the reader must navigate. Use ``>`` as a separator. You can omit ellipses in menu names."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:609
+msgid "In **Project > Project Settings > Input Map**, add a new input action."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:610
+msgid "Select **Scene > Export As... > MeshLibrary...**."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:611
+msgid "Select **Scene > Export As > MeshLibrary**."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:613
+msgid "Sometimes, ``->`` or ``→`` is used as a separator. This is nonstandard. Replace it with ``>`` if you are already making changes to a section."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:617
+msgid "Project settings"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:619
+msgid "Link to individual project settings. Either include the section and subsection in the link itself, or include the section and subsection separately from the link. Since long links are not split into multiple lines when the page is rendered, prefer splitting the setting name and the section when the link is long."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:624
+msgid "Set the :ref:`Application > Run > Max FPS<class_ProjectSettings_property_application/run/max_fps>` setting to ``60``."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:625
+msgid "In the project settings under **Application > Run**, set :ref:`Max FPS<class_ProjectSettings_property_application/run/max_fps>` to ``60``."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:626
+msgid "In **Project Settings > Application > Run**, set :ref:`Max FPS<class_ProjectSettings_property_application/run/max_fps>` to ``60``."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:629
+msgid "Manually wrapping lines"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:631
+msgid "In the manual, lines must be manually wrapped to no more than 80-100 characters per line. However, links must not be split into multiple lines, and can exceed 100 characters. Tables can also exceed 100 characters."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:635
+msgid "When making small changes, you don't need to manually re-wrap the whole paragraph, as long as the lines don't exceed 100 characters."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:638
+msgid "**Bad:** Line length exceeds 100 characters:"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:645
+msgid "**Good:** Lines are wrapped to 80-90 characters:"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:653
+msgid "**Best:** Lines are wrapped to under 80 characters:"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:662
+msgid "In most text editors, you can add a vertical guide or \"ruler\" at 80 characters. For example, in Visual Studio Code, you can add the following to your ``settings.json`` to add rulers at 80 and 100 characters:"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:671
+msgid "Section header syntax"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:673
+msgid "Use the following syntax for section headers:"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:701
+msgid "Currently, there are no cases of deeper header nesting than this. Avoid introducing any deeper nesting."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:704
+msgid "Note that headers have no inherent meaning. In reStructuredText, headers are parsed based on the order that they initially appear within a page. Make sure that if you use an ``h3`` section header (``~~~``), you include an ``h2`` sub-section header (``---``) first."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:709
+msgid "See the `Sphinx documentation <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#sections>`__ and the `reStructuredText documentation <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#sections>`__ for more information."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:714
+msgid "When to refer to a specific Godot version"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:716
+msgid "Most of the time, the class reference and the manual should not specify the first version in which a feature is added. This is because the documentation describes the *current* features of the engine. Documentation will be read and maintained for many versions after it is initially written, and a reference to a first supported version is only relevant for a few versions after a feature is added. After that, it becomes historical trivia best left to a dedicated changelog."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:723
+msgid "Follow these guidelines for when to refer to a specific Godot version:"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:725
+msgid "If a feature was added in the current major version (4.x), **you can specify** the feature is new in 4.x."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:727
+msgid "If a feature or default approach to a problem was changed between major versions (3.x -> 4.x), describe the current feature in the main body of the page, and optionally add a brief sentence or note block to compare 3.x and 4.x."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:730
+msgid "If a large feature is added in a 4.x minor version, **you can specify** the minor version when it was added. Large features have a whole page or large section of documentation. In many cases it should still be avoided, since it's only relevant for the next few minor versions."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:734
+msgid "If a small feature is added in a 4.x minor version, **do not specify** the minor version when it was added. Small features have only a short section of documentation, or are minor additions to existing features."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:737
+msgid "If the default approach to a problem is changed in a 4.x minor version, **do specify** the minor version in which a new default approach was added. For example, the change from ``TileMap`` to ``TileMapLayer`` in 4.3."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:740
+msgid "If a feature was added in a 3.x major or minor version, **do not specify** when the feature was added. These features are old enough that the exact version in which they were added is not relevant."
 msgstr ""

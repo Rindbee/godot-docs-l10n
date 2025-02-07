@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -63,14 +63,14 @@ msgstr ""
 msgid "Extract the ZIP archive and move the ``addons/`` folder it contains into your project folder. If your project already contains an ``addons/`` folder, move the plugin's ``addons/`` folder into your project folder to merge the new folder contents with the existing one. Your file manager may ask you whether to write into the folder; answer **Yes**. No files will be overwritten in the process."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/installing_plugins.rst:57
+#: ../../docs/tutorials/plugins/editor/installing_plugins.rst:59
 msgid "Enabling a plugin"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/installing_plugins.rst:59
+#: ../../docs/tutorials/plugins/editor/installing_plugins.rst:61
 msgid "To enable the freshly installed plugin, open **Project > Project Settings** at the top of the editor then go the **Plugins** tab. If the plugin was packaged correctly, you should see it in the list of plugins. Click on the **Enable** checkbox to enable the plugin."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/installing_plugins.rst:67
+#: ../../docs/tutorials/plugins/editor/installing_plugins.rst:69
 msgid "You can use the plugin immediately after enabling it; there's no need to restart the editor. Likewise, disabling a plugin can be done without having to restart the editor."
 msgstr ""

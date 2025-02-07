@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -131,74 +131,74 @@ msgstr ""
 msgid "We can apply similar logic from arrays to dictionaries as well:"
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:338
+#: ../../docs/tutorials/math/random_number_generation.rst:363
 msgid "Weighted random probability"
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:340
+#: ../../docs/tutorials/math/random_number_generation.rst:365
 msgid "The :ref:`randf() <class_@GlobalScope_method_randf>` method returns a floating-point number between 0.0 and 1.0. We can use this to create a \"weighted\" probability where different outcomes have different likelihoods:"
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:396
+#: ../../docs/tutorials/math/random_number_generation.rst:421
 msgid "You can also get a weighted random *index* using the :ref:`rand_weighted() <class_RandomNumberGenerator_method_rand_weighted>` method on a RandomNumberGenerator instance. This returns a random integer between 0 and the size of the array that is passed as a parameter. Each value in the array is a floating-point number that represents the *relative* likelihood that it will be returned as an index. A higher value means the value is more likely to be returned as an index, while a value of ``0`` means it will never be returned as an index."
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:404
+#: ../../docs/tutorials/math/random_number_generation.rst:429
 msgid "For example, if ``[0.5, 1, 1, 2]`` is passed as a parameter, then the method is twice as likely to return ``3`` (the index of the value ``2``) and twice as unlikely to return ``0`` (the index of the value ``0.5``) compared to the indices ``1`` and ``2``."
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:408
+#: ../../docs/tutorials/math/random_number_generation.rst:433
 msgid "Since the returned value matches the array's size, it can be used as an index to get a value from another array as follows:"
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:437
+#: ../../docs/tutorials/math/random_number_generation.rst:462
 msgid "\"Better\" randomness using shuffle bags"
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:439
+#: ../../docs/tutorials/math/random_number_generation.rst:464
 msgid "Taking the same example as above, we would like to pick fruits at random. However, relying on random number generation every time a fruit is selected can lead to a less *uniform* distribution. If the player is lucky (or unlucky), they could get the same fruit three or more times in a row."
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:444
-msgid "You can accomplish this using the *shuffle bag* pattern. It works by removing an element from the array after choosing it. After multiple selections, the array ends up empty. When that happens, you reinitialize it to its default value::"
+#: ../../docs/tutorials/math/random_number_generation.rst:469
+msgid "You can accomplish this using the *shuffle bag* pattern. It works by removing an element from the array after choosing it. After multiple selections, the array ends up empty. When that happens, you reinitialize it to its default value:"
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:473
+#: ../../docs/tutorials/math/random_number_generation.rst:537
 msgid "When running the above code, there is a chance to get the same fruit twice in a row. Once we picked a fruit, it will no longer be a possible return value unless the array is now empty. When the array is empty, we reset it back to its default value, making it possible to have the same fruit again, but only once."
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:479
+#: ../../docs/tutorials/math/random_number_generation.rst:543
 msgid "Random noise"
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:481
+#: ../../docs/tutorials/math/random_number_generation.rst:545
 msgid "The random number generation shown above can show its limits when you need a value that *slowly* changes depending on the input. The input can be a position, time, or anything else."
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:485
+#: ../../docs/tutorials/math/random_number_generation.rst:549
 msgid "To achieve this, you can use random *noise* functions. Noise functions are especially popular in procedural generation to generate realistic-looking terrain. Godot provides :ref:`class_fastnoiselite` for this, which supports 1D, 2D and 3D noise. Here's an example with 1D noise:"
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:526
+#: ../../docs/tutorials/math/random_number_generation.rst:590
 msgid "Cryptographically secure pseudorandom number generation"
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:528
+#: ../../docs/tutorials/math/random_number_generation.rst:592
 msgid "So far, the approaches mentioned above are **not** suitable for *cryptographically secure* pseudorandom number generation (CSPRNG). This is fine for games, but this is not sufficient for scenarios where encryption, authentication or signing is involved."
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:533
+#: ../../docs/tutorials/math/random_number_generation.rst:597
 msgid "Godot offers a :ref:`class_Crypto` class for this. This class can perform asymmetric key encryption/decryption, signing/verification, while also generating cryptographically secure random bytes, RSA keys, HMAC digests, and self-signed :ref:`class_X509Certificate`\\ s."
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:538
+#: ../../docs/tutorials/math/random_number_generation.rst:602
 msgid "The downside of :abbr:`CSPRNG (Cryptographically secure pseudorandom number generation)` is that it's much slower than standard pseudorandom number generation. Its API is also less convenient to use. As a result, :abbr:`CSPRNG (Cryptographically secure pseudorandom number generation)` should be avoided for gameplay elements."
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:544
+#: ../../docs/tutorials/math/random_number_generation.rst:608
 msgid "Example of using the Crypto class to generate 2 random integers between ``0`` and ``2^32 - 1`` (inclusive):"
 msgstr ""
 
-#: ../../docs/tutorials/math/random_number_generation.rst:566
+#: ../../docs/tutorials/math/random_number_generation.rst:630
 msgid "See :ref:`class_PackedByteArray`'s documentation for other methods you can use to decode the generated bytes into various types of data, such as integers or floats."
 msgstr ""

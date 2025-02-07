@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,7 +32,7 @@ msgid "From a performance standpoint, SDFGI is one of the most demanding global 
 msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/using_sdfgi.rst:21
-msgid "SDFGI is only supported when using the Forward Plus rendering backend, not the Forward Mobile or Compatibility backends."
+msgid "SDFGI is only supported when using the Forward+ renderer, not the Mobile or Compatibility renderers."
 msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/using_sdfgi.rst:26

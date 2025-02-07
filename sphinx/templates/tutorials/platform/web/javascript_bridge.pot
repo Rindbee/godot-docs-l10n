@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -68,89 +68,89 @@ msgid "Arguments passed by JavaScript to the callback will be passed as a single
 msgstr ""
 
 #: ../../docs/tutorials/platform/web/javascript_bridge.rst:98
-msgid "The number of arguments accepted by the callback method (``_my_callback`` in the above example) **must** match the number of arguments sent by JavaScript. Otherwise, the callback method will not be called."
+msgid "Callback methods created via :ref:`JavaScriptBridge.get_interface() <class_JavaScriptBridge_method_get_interface>` (``_my_callback`` in the above example) **must** take exactly one :ref:`Array<class_Array>` argument, which is going to be the JavaScript `arguments object <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments>`__ converted to an array. Otherwise, the callback method will not be called."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:102
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:103
 msgid "Here is another example that asks the user for the `Notification permission <https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API>`__ and waits asynchronously to deliver a notification if the permission is granted:"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:136
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:137
 msgid "Can I use my favorite library?"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:138
-msgid "You most likely can. First, you have to include your library in the page. You can simply customize the :ref:`Head Include <doc_javascript_export_options>` during export (see below), or even :ref:`write your own template <doc_customizing_html5_shell>`."
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:139
+msgid "You most likely can. First, you have to include your library in the page. You can customize the :ref:`Head Include <doc_javascript_export_options>` during export (see below), or even :ref:`write your own template <doc_customizing_html5_shell>`."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:143
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:144
 msgid "In the example below, we customize the ``Head Include`` to add an external library (`axios <https://axios-http.com/>`__) from a content delivery network, and a second ``<script>`` tag to define our own custom function:"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:158
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:159
 msgid "We can then access both the library and the function from Godot, like we did in previous examples:"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:184
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:185
 msgid "The eval interface"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:186
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:187
 msgid "The ``eval`` method works similarly to the JavaScript function of the same name. It takes a string as an argument and executes it as JavaScript code. This allows interacting with the browser in ways not possible with script languages integrated into Godot."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:204
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:205
 msgid "The value of the last JavaScript statement is converted to a GDScript value and returned by ``eval()`` under certain circumstances:"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:207
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:208
 msgid "JavaScript ``number`` is returned as :ref:`class_float`"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:208
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:209
 msgid "JavaScript ``boolean`` is returned as :ref:`class_bool`"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:209
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:210
 msgid "JavaScript ``string`` is returned as :ref:`class_String`"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:210
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:211
 msgid "JavaScript ``ArrayBuffer``, ``TypedArray``, and ``DataView`` are returned as :ref:`PackedByteArray<class_PackedByteArray>`"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:227
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:228
 msgid "Any other JavaScript value is returned as ``null``."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:229
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:230
 msgid "HTML5 export templates may be :ref:`built <doc_compiling_for_web>` without support for the singleton to improve security. With such templates, and on platforms other than HTML5, calling ``JavaScriptBridge.eval`` will also return ``null``. The availability of the singleton can be checked with the ``web`` :ref:`feature tag <doc_feature_tags>`:"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:260
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:261
 msgid "GDScript's multi-line strings, surrounded by 3 quotes ``\"\"\"`` as in ``my_func3()`` above, are useful to keep JavaScript code readable."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:263
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:264
 msgid "The ``eval`` method also accepts a second, optional Boolean argument, which specifies whether to execute the code in the global execution context, defaulting to ``false`` to prevent polluting the global namespace:"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:288
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:289
 msgid "Downloading files"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:290
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:291
 msgid "Downloading files (e.g. a save game) from the Godot Web export to the user's computer can be done by directly interacting with JavaScript, but given it is a very common use case, Godot exposes this functionality to scripting via a dedicated :ref:`JavaScriptBridge.download_buffer() <class_JavaScriptBridge_method_download_buffer>` function which lets you download any generated buffer."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:295
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:296
 msgid "Here is a minimal example on how to use it:"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:297
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:298
 msgid "extends Node"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/javascript_bridge.rst:305
+#: ../../docs/tutorials/platform/web/javascript_bridge.rst:306
 msgid "And here is a more complete example on how to download a previously saved file:"
 msgstr ""

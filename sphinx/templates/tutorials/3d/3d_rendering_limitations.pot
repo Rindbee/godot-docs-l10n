@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -48,7 +48,7 @@ msgid "Color banding"
 msgstr ""
 
 #: ../../docs/tutorials/3d/3d_rendering_limitations.rst:36
-msgid "When using the Forward+ or Forward Mobile rendering methods, Godot's 3D engine renders internally in HDR. However, the rendering output will be tonemapped to a low dynamic range so it can be displayed on the screen. This can result in visible banding, especially when using untextured materials. For performance reasons, color precision is also lower when using the Forward Mobile rendering method compared to Forward+."
+msgid "When using the Forward+ or Mobile rendering methods, Godot's 3D engine renders internally in HDR. However, the rendering output will be tonemapped to a low dynamic range so it can be displayed on the screen. This can result in visible banding, especially when using untextured materials. For performance reasons, color precision is also lower when using the Mobile rendering method compared to Forward+."
 msgstr ""
 
 #: ../../docs/tutorials/3d/3d_rendering_limitations.rst:43
@@ -132,48 +132,4 @@ msgstr ""
 #: ../../docs/tutorials/3d/3d_rendering_limitations.rst:149
 #: ../../docs/tutorials/3d/3d_rendering_limitations.rst:153
 msgid "Transparency sorting comparison (alpha-blended materials on the left, alpha scissor materials on the right)"
-msgstr ""
-
-#: ../../docs/tutorials/3d/3d_rendering_limitations.rst:156
-msgid "Multi-sample antialiasing"
-msgstr ""
-
-#: ../../docs/tutorials/3d/3d_rendering_limitations.rst:160
-msgid "Antialiasing is explained in detail on the :ref:`doc_3d_antialiasing` page."
-msgstr ""
-
-#: ../../docs/tutorials/3d/3d_rendering_limitations.rst:162
-msgid "Multi-sample antialiasing (MSAA) takes multiple *coverage* samples at the edges of polygons when rendering objects. It does not increase the number of *color* samples used to render a scene. Here's what this means in practice:"
-msgstr ""
-
-#: ../../docs/tutorials/3d/3d_rendering_limitations.rst:166
-msgid "Edges of meshes will be smoothed out nicely (as well as supersampling would)."
-msgstr ""
-
-#: ../../docs/tutorials/3d/3d_rendering_limitations.rst:167
-msgid "Transparent materials that use *alpha testing* (1-bit transparency) won't be smoothed out."
-msgstr ""
-
-#: ../../docs/tutorials/3d/3d_rendering_limitations.rst:168
-msgid "Specular aliasing (\"sparkles\" that appear on reflective surfaces) won't be reduced."
-msgstr ""
-
-#: ../../docs/tutorials/3d/3d_rendering_limitations.rst:170
-msgid "There are several ways to work around this limitation depending on your performance budget:"
-msgstr ""
-
-#: ../../docs/tutorials/3d/3d_rendering_limitations.rst:172
-msgid "To make specular aliasing less noticeable, open the Project Settings and enable **Rendering > Quality > Screen Space Filters > Screen Space Roughness Limiter**. This filter has a moderate cost on performance, so it should only be enabled if you actually need it."
-msgstr ""
-
-#: ../../docs/tutorials/3d/3d_rendering_limitations.rst:177
-msgid "Enable fast approximate antialiasing (FXAA) in addition to (or instead of) MSAA. Since FXAA is a screen-space antialiasing method, it will smooth out anything. As a downside, FXAA also makes the scene appear blurrier, especially at resolutions below 1440p. FXAA also lacks temporal information, which means its impact on specular aliasing is limited."
-msgstr ""
-
-#: ../../docs/tutorials/3d/3d_rendering_limitations.rst:183
-msgid "Enable temporal antialiasing (TAA) in addition to (or instead of) MSAA. Since TAA is a screen-space antialiasing method, it will smooth out anything. As a downside, TAA also makes the scene appear blurrier, especially at resolutions below 1440p. TAA provides superior quality compared to FXAA and can effectively combat specular aliasing. However, TAA has a greater performance cost compared to FXAA, and TAA can introduce ghosting artifacts with fast movement."
-msgstr ""
-
-#: ../../docs/tutorials/3d/3d_rendering_limitations.rst:191
-msgid "Render the scene at a higher resolution by increasing the **Scaling 3D > Scale** project setting above ``1.0``. This technique is called supersample antialiasing (SSAA) and is very slow. Its use is generally only recommended for offline rendering."
 msgstr ""

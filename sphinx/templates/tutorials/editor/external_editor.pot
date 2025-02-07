@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -112,7 +112,6 @@ msgid "``{file}:{line}``"
 msgstr ""
 
 #: ../../docs/tutorials/editor/external_editor.rst:49
-#: ../../docs/tutorials/editor/external_editor.rst:124
 msgid "JetBrains Rider"
 msgstr ""
 
@@ -121,7 +120,7 @@ msgid "``{project} --line {line} {file}``"
 msgstr ""
 
 #: ../../docs/tutorials/editor/external_editor.rst:51
-#: ../../docs/tutorials/editor/external_editor.rst:92
+#: ../../docs/tutorials/editor/external_editor.rst:102
 msgid "Visual Studio Code"
 msgstr ""
 
@@ -138,7 +137,7 @@ msgid "``\"+call cursor({line}, {col})\" {file}``"
 msgstr ""
 
 #: ../../docs/tutorials/editor/external_editor.rst:55
-#: ../../docs/tutorials/editor/external_editor.rst:119
+#: ../../docs/tutorials/editor/external_editor.rst:129
 msgid "Emacs"
 msgstr ""
 
@@ -154,70 +153,86 @@ msgstr ""
 msgid "``{project} {file}:{line}:{column}``"
 msgstr ""
 
-#: ../../docs/tutorials/editor/external_editor.rst:62
+#: ../../docs/tutorials/editor/external_editor.rst:59
+msgid "Visual Studio"
+msgstr ""
+
+#: ../../docs/tutorials/editor/external_editor.rst:59
+msgid "``/edit \"file\"``"
+msgstr ""
+
+#: ../../docs/tutorials/editor/external_editor.rst:64
 msgid "For Visual Studio Code on Windows, you will have to point to the ``code.cmd`` file."
 msgstr ""
 
-#: ../../docs/tutorials/editor/external_editor.rst:65
+#: ../../docs/tutorials/editor/external_editor.rst:67
 msgid "For Emacs, you can call ``emacsclient`` instead of ``emacs`` if you use the server mode."
 msgstr ""
 
-#: ../../docs/tutorials/editor/external_editor.rst:69
-msgid "Using External Editor in Debugger"
+#: ../../docs/tutorials/editor/external_editor.rst:70
+msgid "For Visual Studio, you will have to open the solution file ``.sln`` manually to get access to the IDE features. Additionally, it will not go to a specific line."
 msgstr ""
 
-#: ../../docs/tutorials/editor/external_editor.rst:71
-msgid "Using external editor in debugger is determined by a separate option in settings. For details, see :ref:`Script editor debug tools and options <doc_debugger_tools_and_options>`."
+#: ../../docs/tutorials/editor/external_editor.rst:74
+msgid "Automatically reloading your changes"
 msgstr ""
 
 #: ../../docs/tutorials/editor/external_editor.rst:75
-msgid "Official editor plugins"
-msgstr ""
-
-#: ../../docs/tutorials/editor/external_editor.rst:77
-msgid "We have official plugins for the following code editors:"
+msgid "To have the Godot Editor automatically reload any script that has been changed by an external text editor, enable **Editor > Editor Settings > Text Editor > Behavior > Auto Reload Scripts on External Change**."
 msgstr ""
 
 #: ../../docs/tutorials/editor/external_editor.rst:79
-msgid "`Visual Studio Code <https://github.com/godotengine/godot-vscode-plugin>`_"
+msgid "Using External Editor in Debugger"
 msgstr ""
 
-#: ../../docs/tutorials/editor/external_editor.rst:80
-msgid "`Emacs <https://github.com/godotengine/emacs-gdscript-mode>`_"
-msgstr ""
-
-#: ../../docs/tutorials/editor/external_editor.rst:83
-msgid "LSP/DAP support"
+#: ../../docs/tutorials/editor/external_editor.rst:81
+msgid "Using external editor in debugger is determined by a separate option in settings. For details, see :ref:`Script editor debug tools and options <doc_debugger_tools_and_options>`."
 msgstr ""
 
 #: ../../docs/tutorials/editor/external_editor.rst:85
-msgid "Godot supports the `Language Server Protocol <https://microsoft.github.io/language-server-protocol/>`_ (**LSP**) for code completion and the `Debug Adapter Protocol <https://microsoft.github.io/debug-adapter-protocol/>`_ (**DAP**) for debugging. You can check the `LSP client list <https://microsoft.github.io/language-server-protocol/implementors/tools/>`_ and `DAP client list <https://microsoft.github.io/debug-adapter-protocol/implementors/tools/>`_ to find if your editor supports them. If this is the case, you should be able to take advantage of these features without the need of a custom plugin."
+msgid "Official editor plugins"
 msgstr ""
 
 #: ../../docs/tutorials/editor/external_editor.rst:87
-msgid "To use these protocols, a Godot instance must be running on your current project. You should then configure your editor to communicate to the running adapter ports in Godot, which by default are ``6005`` for **LSP**, and ``6006`` for **DAP**. You can change these ports and other settings in the **Editor Settings**, under the **Network > Language Server** and **Network > Debug Adapter** sections respectively."
+msgid "We have official plugins for the following code editors:"
 msgstr ""
 
 #: ../../docs/tutorials/editor/external_editor.rst:89
+msgid "`Visual Studio Code <https://github.com/godotengine/godot-vscode-plugin>`_"
+msgstr ""
+
+#: ../../docs/tutorials/editor/external_editor.rst:90
+msgid "`Emacs <https://github.com/godotengine/emacs-gdscript-mode>`_"
+msgstr ""
+
+#: ../../docs/tutorials/editor/external_editor.rst:93
+msgid "LSP/DAP support"
+msgstr ""
+
+#: ../../docs/tutorials/editor/external_editor.rst:95
+msgid "Godot supports the `Language Server Protocol <https://microsoft.github.io/language-server-protocol/>`_ (**LSP**) for code completion and the `Debug Adapter Protocol <https://microsoft.github.io/debug-adapter-protocol/>`_ (**DAP**) for debugging. You can check the `LSP client list <https://microsoft.github.io/language-server-protocol/implementors/tools/>`_ and `DAP client list <https://microsoft.github.io/debug-adapter-protocol/implementors/tools/>`_ to find if your editor supports them. If this is the case, you should be able to take advantage of these features without the need of a custom plugin."
+msgstr ""
+
+#: ../../docs/tutorials/editor/external_editor.rst:97
+msgid "To use these protocols, a Godot instance must be running on your current project. You should then configure your editor to communicate to the running adapter ports in Godot, which by default are ``6005`` for **LSP**, and ``6006`` for **DAP**. You can change these ports and other settings in the **Editor Settings**, under the **Network > Language Server** and **Network > Debug Adapter** sections respectively."
+msgstr ""
+
+#: ../../docs/tutorials/editor/external_editor.rst:99
 msgid "Below are some configuration steps for specific editors:"
 msgstr ""
 
-#: ../../docs/tutorials/editor/external_editor.rst:94
+#: ../../docs/tutorials/editor/external_editor.rst:104
 msgid "You need to install the official `Visual Studio Code plugin <https://github.com/godotengine/godot-vscode-plugin>`_."
 msgstr ""
 
-#: ../../docs/tutorials/editor/external_editor.rst:96
+#: ../../docs/tutorials/editor/external_editor.rst:106
 msgid "For **LSP**, follow `these instructions <https://github.com/godotengine/godot-vscode-plugin#gdscript_lsp_server_port>`_ to change the default LSP port. The connection status can be checked on the status bar:"
 msgstr ""
 
-#: ../../docs/tutorials/editor/external_editor.rst:100
+#: ../../docs/tutorials/editor/external_editor.rst:110
 msgid "For **DAP**, specify the ``debugServer`` property in your ``launch.json`` file:"
 msgstr ""
 
-#: ../../docs/tutorials/editor/external_editor.rst:121
+#: ../../docs/tutorials/editor/external_editor.rst:131
 msgid "Check the official instructions to configure `LSP <https://github.com/godotengine/emacs-gdscript-mode#auto-completion-with-the-language-server-protocol-lsp>`_, and `DAP <https://github.com/godotengine/emacs-gdscript-mode#using-the-debugger>`_."
-msgstr ""
-
-#: ../../docs/tutorials/editor/external_editor.rst:126
-msgid "Refer to `JetBrains Rider documentation <https://www.jetbrains.com/help/rider/Godot.html>`_."
 msgstr ""

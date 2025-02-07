@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -36,19 +36,19 @@ msgid "This guide assumes the reader knows how to create C++ modules. If not, re
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:23
-#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:117
-#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:348
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:115
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:346
 msgid "References:"
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:25
-#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:119
-#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:350
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:117
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:348
 msgid "`servers/audio/audio_stream.h <https://github.com/godotengine/godot/blob/master/servers/audio/audio_stream.h>`__"
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:26
-#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:351
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:349
 msgid "`scene/audio/audio_stream_player.cpp <https://github.com/godotengine/godot/blob/master/scene/audio/audio_stream_player.cpp>`__"
 msgstr ""
 
@@ -80,30 +80,54 @@ msgstr ""
 msgid "Some AudioStreams need to be stateless such as objects loaded from ResourceLoader. ResourceLoader loads once and references the same object regardless how many times ``load`` is called on a specific resource. Therefore, playback state must be self-contained in AudioStreamPlayback."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:123
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:48
+msgid "audiostream_mytone.h"
+msgstr ""
+
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:78
+msgid "audiostream_mytone.cpp"
+msgstr ""
+
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:121
 msgid "Create an AudioStreamPlayback"
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:125
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:123
 msgid "AudioStreamPlayer uses ``mix`` callback to obtain PCM data. The callback must match sample rate and fill the buffer."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:127
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:125
 msgid "Since AudioStreamPlayback is controlled by the audio thread, i/o and dynamic memory allocation are forbidden."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:232
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:127
+msgid "audiostreamplayer_mytone.h"
+msgstr ""
+
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:164
+msgid "audiostreamplayer_mytone.cpp"
+msgstr ""
+
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:228
 msgid "Resampling"
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:234
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:230
 msgid "Godot's AudioServer currently uses 44100 Hz sample rate. When other sample rates are needed such as 48000, either provide one or use AudioStreamPlaybackResampled. Godot provides cubic interpolation for audio resampling."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:238
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:234
 msgid "Instead of overloading ``mix``, AudioStreamPlaybackResampled uses ``_mix_internal`` to query AudioFrames and ``get_stream_sampling_rate`` to query current mix rate."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:349
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:237
+msgid "mytone_audiostream_resampled.h"
+msgstr ""
+
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:279
+msgid "mytone_audiostream_resampled.cpp"
+msgstr ""
+
+#: ../../docs/contributing/development/core_and_modules/custom_audiostreams.rst:347
 msgid "`core/math/audio_frame.h <https://github.com/godotengine/godot/blob/master/core/math/audio_frame.h>`__"
 msgstr ""

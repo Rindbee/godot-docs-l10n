@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -96,7 +96,7 @@ msgid "Control provides keyboard/joypad focus via :ref:`Control.focus_mode <clas
 msgstr ""
 
 #: ../../docs/tutorials/ui/custom_gui_controls.rst:132
-msgid "This function is :ref:`Control._gui_input() <class_Control_private_method__gui_input>`. Simply override it in your control. No processing needs to be set."
+msgid "This function is :ref:`Control._gui_input() <class_Control_private_method__gui_input>`. To use it, override it in your control. No processing needs to be set."
 msgstr ""
 
 #: ../../docs/tutorials/ui/custom_gui_controls.rst:155

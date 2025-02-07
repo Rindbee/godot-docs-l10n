@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -391,42 +391,42 @@ msgstr ""
 msgid "If you would like, it's a good idea to play around with transforms to get an understanding of how they work. Godot allows you to edit 3D transform matrices directly from the inspector. You can download this project which has colored lines and cubes to help visualize the :ref:`class_Basis` vectors and the origin in both 2D and 3D: https://github.com/godotengine/godot-demo-projects/tree/master/misc/matrix_transform"
 msgstr ""
 
-#: ../../docs/tutorials/math/matrices_and_transforms.rst:610
+#: ../../docs/tutorials/math/matrices_and_transforms.rst:613
 msgid "You cannot edit Node2D's transform matrix directly in Godot 4.0's inspector. This may be changed in a future release of Godot."
 msgstr ""
 
-#: ../../docs/tutorials/math/matrices_and_transforms.rst:613
+#: ../../docs/tutorials/math/matrices_and_transforms.rst:616
 msgid "If you would like additional explanation, you should check out 3Blue1Brown's excellent video about 3D linear transformations: https://www.youtube.com/watch?v=rHLEWRxRGiM"
 msgstr ""
 
-#: ../../docs/tutorials/math/matrices_and_transforms.rst:618
+#: ../../docs/tutorials/math/matrices_and_transforms.rst:621
 msgid "Representing rotation in 3D (advanced)"
 msgstr ""
 
-#: ../../docs/tutorials/math/matrices_and_transforms.rst:620
+#: ../../docs/tutorials/math/matrices_and_transforms.rst:623
 msgid "The biggest difference between 2D and 3D transformation matrices is how you represent rotation by itself without the basis vectors."
 msgstr ""
 
-#: ../../docs/tutorials/math/matrices_and_transforms.rst:623
+#: ../../docs/tutorials/math/matrices_and_transforms.rst:626
 msgid "With 2D, we have an easy way (atan2) to switch between a transformation matrix and an angle. In 3D, rotation is too complex to represent as one number. There is something called Euler angles, which can represent rotations as a set of 3 numbers, however, they are limited and not very useful, except for trivial cases."
 msgstr ""
 
-#: ../../docs/tutorials/math/matrices_and_transforms.rst:629
+#: ../../docs/tutorials/math/matrices_and_transforms.rst:632
 msgid "In 3D we do not typically use angles, we either use a transformation basis (used pretty much everywhere in Godot), or we use quaternions. Godot can represent quaternions using the :ref:`class_Quaternion` struct. My suggestion to you is to completely ignore how they work under-the-hood, because they are very complicated and unintuitive."
 msgstr ""
 
-#: ../../docs/tutorials/math/matrices_and_transforms.rst:635
+#: ../../docs/tutorials/math/matrices_and_transforms.rst:638
 msgid "However, if you really must know how it works, here are some great resources, which you can follow in order:"
 msgstr ""
 
-#: ../../docs/tutorials/math/matrices_and_transforms.rst:638
+#: ../../docs/tutorials/math/matrices_and_transforms.rst:641
 msgid "https://www.youtube.com/watch?v=mvmuCPvRoWQ"
 msgstr ""
 
-#: ../../docs/tutorials/math/matrices_and_transforms.rst:640
+#: ../../docs/tutorials/math/matrices_and_transforms.rst:643
 msgid "https://www.youtube.com/watch?v=d4EgbgTm0Bg"
 msgstr ""
 
-#: ../../docs/tutorials/math/matrices_and_transforms.rst:642
+#: ../../docs/tutorials/math/matrices_and_transforms.rst:645
 msgid "https://eater.net/quaternions"
 msgstr ""

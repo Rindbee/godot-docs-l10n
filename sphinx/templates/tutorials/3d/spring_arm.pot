@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -15,139 +15,139 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../docs/tutorials/3d/spring_arm.rst:6
+#: ../../docs/tutorials/3d/spring_arm.rst:4
 msgid "Third-person camera with spring arm"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:9
+#: ../../docs/tutorials/3d/spring_arm.rst:7
 msgid "Introduction"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:11
+#: ../../docs/tutorials/3d/spring_arm.rst:9
 msgid "3D games will often have a third-person camera that follows and rotates around something such as a player character or a vehicle."
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:14
-msgid "In Godot, this can be done by setting a :ref:`Camera3D <class_Camera3D>` as a child of a node. However, if you try this without any extra steps you'll notice that the camera clips through geometry and hides the scene."
+#: ../../docs/tutorials/3d/spring_arm.rst:12
+msgid "In Godot, this can be done by setting a :ref:`Camera3D <class_Camera3D>` as a child of a node. However, if you try this without any extra steps, you'll notice that the camera clips through geometry and hides the scene."
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:17
+#: ../../docs/tutorials/3d/spring_arm.rst:15
 msgid "This is where the :ref:`SpringArm3D <class_SpringArm3D>` node comes in."
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:20
+#: ../../docs/tutorials/3d/spring_arm.rst:18
 msgid "What is a spring arm?"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:22
+#: ../../docs/tutorials/3d/spring_arm.rst:20
 msgid "A spring arm has two main components that affect its behavior."
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:24
+#: ../../docs/tutorials/3d/spring_arm.rst:22
 msgid "The \"length\" of the spring arm is how far from its global position to check for collisions:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:28
+#: ../../docs/tutorials/3d/spring_arm.rst:26
 msgid "The \"shape\" of the spring arm is what it uses to check for collisions. The spring arm will \"sweep\" this shape from its origin out towards its length."
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:32
+#: ../../docs/tutorials/3d/spring_arm.rst:30
 msgid "The spring arm tries to keep all of its children at the end of its length. When the shape collides with something, the children are instead placed at or near that collision point:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:37
+#: ../../docs/tutorials/3d/spring_arm.rst:35
 msgid "Spring arm with a camera"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:39
+#: ../../docs/tutorials/3d/spring_arm.rst:37
 msgid "When a camera is placed as a child of a spring arm, a pyramid representing the camera will be used as the shape."
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:41
+#: ../../docs/tutorials/3d/spring_arm.rst:39
 msgid "This pyramid represents the **near plane** of the camera:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:45
+#: ../../docs/tutorials/3d/spring_arm.rst:43
 msgid "If the spring arm is given a specific shape, then that shape will **always** be used."
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:47
+#: ../../docs/tutorials/3d/spring_arm.rst:45
 msgid "The camera's shape is only used if the camera is a **direct child** of the spring arm."
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:49
+#: ../../docs/tutorials/3d/spring_arm.rst:47
 msgid "If no shape is provided and the camera is not a direct child, the spring arm will fall back to using a ray cast which is inaccurate for camera collisions and not recommended."
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:51
+#: ../../docs/tutorials/3d/spring_arm.rst:49
 msgid "Every physics process frame, the spring arm will perform a motion cast to check if anything is collided with:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:55
+#: ../../docs/tutorials/3d/spring_arm.rst:53
 msgid "When the shape hits something, the camera will be placed at or near the collision point:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:60
+#: ../../docs/tutorials/3d/spring_arm.rst:58
 msgid "Setting up the spring arm and camera"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:62
+#: ../../docs/tutorials/3d/spring_arm.rst:60
 msgid "Let's add a spring arm camera setup to the platformer demo."
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:64
+#: ../../docs/tutorials/3d/spring_arm.rst:62
 msgid "You can download the Platformer 3D demo on `GitHub <https://github.com/godotengine/godot-demo-projects/tree/master/3d/platformer>`_ or using the `Asset Library <https://godotengine.org/asset-library/asset/2748>`_."
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:66
+#: ../../docs/tutorials/3d/spring_arm.rst:64
 msgid "In general, for a third-person camera setup, you will have three nodes as children of the node that you're following:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:68
+#: ../../docs/tutorials/3d/spring_arm.rst:66
 msgid "`Node3D` (the \"pivot point\" for the camera)"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:70
+#: ../../docs/tutorials/3d/spring_arm.rst:68
 msgid "`SpringArm3D`"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:72
+#: ../../docs/tutorials/3d/spring_arm.rst:70
 msgid "`Camera3D`"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:74
+#: ../../docs/tutorials/3d/spring_arm.rst:72
 msgid "Open the ``player/player.tscn`` scene. Set these up as children of our player and give them unique names so we can find them in our script. **Make sure to delete the existing camera node!**"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:78
+#: ../../docs/tutorials/3d/spring_arm.rst:76
 msgid "Let's move the pivot point up by ``2`` on the Y-axis so that it's not on the ground:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:83
+#: ../../docs/tutorials/3d/spring_arm.rst:81
 msgid "Give the spring arm a length of ``3`` so that it is placed behind the character:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:87
+#: ../../docs/tutorials/3d/spring_arm.rst:85
 msgid "Leave the **Shape** of the spring arm as ``<empty>``. This way, it will use the camera's pyramid shape."
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:89
+#: ../../docs/tutorials/3d/spring_arm.rst:87
 msgid "If you want, you can also try other shapes - a sphere is a common choice since it slides smoothly along edges."
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:91
+#: ../../docs/tutorials/3d/spring_arm.rst:89
 msgid "Update the top of ``player/player.gd`` to grab the camera and the pivot points by their unique names:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:93
-#: ../../docs/tutorials/3d/spring_arm.rst:104
+#: ../../docs/tutorials/3d/spring_arm.rst:91
+#: ../../docs/tutorials/3d/spring_arm.rst:102
 msgid "player/player.gd"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:102
+#: ../../docs/tutorials/3d/spring_arm.rst:100
 msgid "Add an ``_unhandled_input`` function to check for camera movement and then rotate the pivot point accordingly:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/spring_arm.rst:118
+#: ../../docs/tutorials/3d/spring_arm.rst:116
 msgid "By rotating the pivot point, the spring arm will also be rotated and it will change where the camera is positioned. Run the game and notice that mouse movement now rotates the camera around the character. If the camera moves into a wall, it collides with it."
 msgstr ""

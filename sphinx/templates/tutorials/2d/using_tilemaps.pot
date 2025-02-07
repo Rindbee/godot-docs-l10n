@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -36,7 +36,7 @@ msgid "Specifying the TileSet in the TileMapLayer"
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:27
-msgid "If you've followed the previous page on :ref:`doc_using_tilesets`, you should have a TileSet resource that is built-in to the TileMapLayer node. This is good for prototyping, but in a real world project, you will generally have multiple levels reusing the same tileset."
+msgid "If you've followed the previous page on :ref:`doc_using_tilesets`, you should have a TileSet resource that is built into the TileMapLayer node. This is good for prototyping, but in a real world project, you will generally have multiple levels reusing the same tileset."
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:32

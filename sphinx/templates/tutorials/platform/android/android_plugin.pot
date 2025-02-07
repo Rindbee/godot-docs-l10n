@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -423,14 +423,14 @@ msgstr ""
 msgid "Godot crashes upon load"
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_plugin.rst:372
+#: ../../docs/tutorials/platform/android/android_plugin.rst:375
 msgid "Check ``adb logcat`` for possible problems, then:"
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_plugin.rst:374
+#: ../../docs/tutorials/platform/android/android_plugin.rst:377
 msgid "Check that the methods exposed by the plugin used the following Java types: ``void``, ``boolean``, ``int``, ``float``, ``java.lang.String``, ``org.godotengine.godot.Dictionary``, ``int[]``, ``byte[]``, ``float[]``, ``java.lang.String[]``."
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_plugin.rst:375
+#: ../../docs/tutorials/platform/android/android_plugin.rst:378
 msgid "More complex datatypes are not supported for now."
 msgstr ""

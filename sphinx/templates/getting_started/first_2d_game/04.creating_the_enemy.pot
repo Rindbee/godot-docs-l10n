@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -108,17 +108,21 @@ msgid "First, we get the list of animation names from the AnimatedSprite2D's ``s
 msgstr ""
 
 #: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:104
-msgid "We then need to pick a random number between ``0`` and ``2`` to select one of these names from the list (array indices start at ``0``). ``randi() % n`` selects a random integer between ``0`` and ``n-1``."
+msgid "In the GDScript code, we use the :ref:`Array.pick_random <class_Array_method_pick_random>` method to select one of these animation names at random. Meanwhile, in the C# code, we pick a random number between ``0`` and ``2`` to select one of these names from the list (array indices start at ``0``). The expression ``GD.Randi() % n`` selects a random integer between ``0`` and ``n-1``."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:108
+#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:109
 msgid "The last piece is to make the mobs delete themselves when they leave the screen. Connect the ``screen_exited()`` signal of the ``VisibleOnScreenNotifier2D`` node to the ``Mob`` and add this code:"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:126
+#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:127
+msgid "``queue_free()`` is a function that essentially 'frees', or deletes, the node at the end of the frame."
+msgstr ""
+
+#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:129
 msgid "This completes the `Mob` scene."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:128
+#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:131
 msgid "With the player and enemies ready, in the next part, we'll bring them together in a new scene. We'll make enemies spawn randomly around the game board and move forward, turning our project into a playable game."
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -76,7 +76,7 @@ msgid "**Rotate Mode** (:kbd:`E`): Enables rotation mode for the selected nodes.
 msgstr ""
 
 #: ../../docs/tutorials/2d/introduction_to_2d.rst:74
-msgid "**Scale Mode** (:kbd:`R`): Enables scaling and displays scaling gizmos in both axes for the selected node(s). See :ref:`doc_introduction_to_2d_the_viewport` for more details."
+msgid "**Scale Mode** (:kbd:`S`): Enables scaling and displays scaling gizmos in both axes for the selected node(s). See :ref:`doc_introduction_to_2d_the_viewport` for more details."
 msgstr ""
 
 #: ../../docs/tutorials/2d/introduction_to_2d.rst:76
@@ -92,7 +92,7 @@ msgid "**Pan Mode** (:kbd:`G`): Allows you to navigate in the viewport without a
 msgstr ""
 
 #: ../../docs/tutorials/2d/introduction_to_2d.rst:90
-msgid "**Ruler Mode**: After enabling, click on the viewport to display the current global x and y coordinates. Dragging from a position to another one measures the distance in pixels. If you drag diagonally, it will draw a triangle and show the separate distances in terms of x, y, and total distance to the target, including the angles to the axes in degrees. The :kbd:`R` key also activates the ruler. If snapping is enabled, it also displays the measurements in terms of grid count:"
+msgid "**Ruler Mode**: After enabling, click on the viewport to display the current global x and y coordinates. Dragging from a position to another one measures the distance in pixels. If you drag diagonally, it will draw a triangle and show the separate distances in terms of x, y, and total distance to the target, including the angles to the axes in degrees. The :kbd:`R` key activates the ruler. If snapping is enabled, it also displays the measurements in terms of grid count:"
 msgstr ""
 
 #: ../../docs/tutorials/2d/introduction_to_2d.rst:99
@@ -208,149 +208,141 @@ msgid "To learn more about Skeletons, see :ref:`doc_cutout_animation`."
 msgstr ""
 
 #: ../../docs/tutorials/2d/introduction_to_2d.rst:169
-msgid "**Project Camera Override**: Temporarily replaces the active camera in the level (e.g., the camera following the player) with the camera in the editor's viewport, allowing you to move freely and inspect the level's different parts, while the game is running."
-msgstr ""
-
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:173
 msgid "**View** menu: Provides options to control the viewport view. Since its options depend heavily on the viewport, it is covered in the :ref:`doc_introduction_to_2d_the_viewport` section."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:177
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:173
 msgid "Next to the View menu, additional buttons may be visible. In the toolbar image at the beginning of this chapter, an additional *Sprite2D* button appears because a Sprite2D is selected. This menu provides some quick actions and tools to work on a specific node or selection. For example, while drawing a polygon, it provides buttons to add, modify, or remove points."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:185
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:181
 msgid "Coordinate system"
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:187
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:183
 msgid "In the 2D editor, unlike 3D, there are only two axes: ``x`` and ``y``. Also, the viewing angle is fixed."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:190
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:186
 msgid "In the viewport, you will see two lines in two colors going across the screen infinitely: red for the x-axis, and green for the y-axis. In Godot, going right and down are positive directions. Where these two lines intersect is the origin: ``x: 0, y: 0``."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:195
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:191
 msgid "A root node will have its origin at this position once added. Switching to the `move` or `scale` modes after selecting a node will display the gizmos at the node's offset position. The gizmos will point to the positive directions of the x and y axes. In the move mode, you can drag the green line to move only in the ``y`` axis. Similarly, you can hold the red line to move only in the ``x`` axis."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:202
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:198
 msgid "In the scale mode, the gizmos will have a square shape. You can hold and drag the green and red squares to scale the nodes in the ``y`` or ``x`` axes. Dragging in a negative direction flips the node horizontally or vertically."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:209
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:205
 msgid "2D Viewport"
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:211
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:207
 msgid "The viewport will be the area you spend the most time if you plan to design levels or user interfaces visually:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:216
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:212
 msgid "Middle-clicking and dragging the mouse will pan the view. The scrollbars on the right or bottom of the viewport also move the view. Alternatively, the :kbd:`G` or :kbd:`Space` keys can be used. If you enable `Editor Settings > Editors > Panning > Simple Panning`, you can activate panning directly with :kbd:`Space` only, without requiring dragging."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:222
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:218
 msgid "The viewport has buttons on the top-left. **Center View** centers the selected node(s) in the screen. Useful if you have a large scene with many nodes, and want to see the node selected in the scene tree. Next to it are the zoom controls. **-** zooms out, **+** zooms in, and clicking on the number with percentage defaults to 100%. Alternatively, you can use middle-mouse scrolling to zoom in (scroll up) and out (scroll down)."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:229
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:225
 msgid "The black bars at the viewport's left and top edges are the **rulers**. You can use them to orient yourself in the viewport. By default, the rulers will display the pixel coordinates of the viewport, numbered at 100 pixel steps. Changing the zoom factor will change the shown values. Enabling `Grid Snap` or changing the snapping options will update the ruler's scaling and the shown values."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:236
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:232
 msgid "You can also create multiple custom guides to help you make measurements or align nodes with them:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:241
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:237
 msgid "If you have at least one node in the scene, you can create guides by dragging from the horizontal or vertical ruler towards the viewport. A purple guide will appear, showing its position, and will remain there when you release the mouse. You can create both horizontal and vertical guides simultaneously by dragging from the gray square at the rulers' intersection. Guides can be repositioned by dragging them back to their respective rulers, and they can be removed by dragging them all the way back to the ruler."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:248
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:244
 msgid "You can also enable snapping to the created guides using the `Smart Snap` menu."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:250
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:246
 msgid "If you cannot create a line, or do not see previously created guides, make sure that they are visible by checking the `View` menu of the viewport. :kbd:`Y` toggles their visibility, by default. Also, make sure you have at least one node in the scene."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:254
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:250
 msgid "Depending on the tool chosen in the toolbar, left-clicking will have a primary action in the viewport. For example, the `Select Mode` will select the left-clicked node in the viewport. Sometimes, left-clicking can be combined with a modifier (e.g., :kbd:`Ctrl`, or :kbd:`Shift`) to perform secondary actions. For example, keeping :kbd:`Shift` pressed while dragging a node in the Select or Move modes will try to snap the node in a single axis while moving."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:262
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:258
 msgid "Right clicking in the viewport provides two options to create a node or instantiate a scene at the chosen position. If at least one node is selected, right clicking also provides the option to move the selected node(s) to this position."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:268
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:264
 msgid "Viewport has a **View** menu which provides several options to change the look of the viewport:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:270
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:266
 msgid "**Grid**: Allows you to show grids all the time, only when using snapping, or not at all. You can also toggle them with the provided option."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:272
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:268
 msgid "**Show Helpers**: Toggles the temporary display of an outline of the node, with the previous transform properties (position, scaling, or rotation) if a transform operation has been initiated. For `Control` nodes, it also shows the sizing parameters. Useful to see the deltas."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:275
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:271
 msgid "**Show Rulers**: Toggles the visibility of horizontal and vertical rulers. See :ref:`doc_introduction_to_2d_the_viewport` more on rulers."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:277
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:273
 msgid "**Show Guides**: Toggles the visibility of created guides. See :ref:`doc_introduction_to_2d_the_viewport` for on how to create them."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:279
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:275
 msgid "**Show Origin**: Toggles the display of the green and red origin lines drawn at ``x: 0, y: 0``."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:280
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:276
 msgid "**Show Viewport**: Toggles the visibility of the game's default viewport, indicated by an indigo-colored rectangle. It is also the default window size on desktop platforms, which can be changed by going to `Project Settings > Display > Window > Size` and setting `Viewport Width` and `Viewport Height`."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:284
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:280
 msgid "**Gizmos**: Toggles the visibility of `Position` (shown with cross icon), `Lock` (shown with padlock), `Groups` (shown with two squares), and `Transformation` (shown with green and red lines) indicators."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:287
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:283
 msgid "**Center Selection**: The same as the **Center View** button inside the viewport. Centers the selected node(s) in the view. :kbd:`F` is the default shortcut."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:289
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:285
 msgid "**Frame to Selection**: Similar to `Center Selection`, but also changes the zoom factor to fit the contents in the screen. :kbd:`Shift + F` is the default shortcut."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:291
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:287
 msgid "**Clear Guides**: Deletes all guides from the screen. You will need to recreate them if you plan to use them later."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:293
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:289
 msgid "**Preview Canvas Scale**: Toggles the preview for scaling of canvas in the editor when the zoom factor or view of the viewport changes. Useful to see how the controls will look like after scaling and moving, without running the game."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:296
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:292
 msgid "**Preview Theme**: Allows to choose from the available themes to change the look of control items in the editor, without requiring to run the game."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:301
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:297
 msgid "Node2D and Control node"
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:303
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:299
 msgid ":ref:`CanvasItem <class_CanvasItem>` is the base node for 2D. :ref:`Node2D <class_Node2D>` is the base node for 2D game objects, and :ref:`Control <class_Control>` is the base node for everything GUI. For 3D, Godot uses the :ref:`Node3D <class_Node3D>` node."
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:308
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:304
 msgid "3D in 2D"
 msgstr ""
 
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:310
-msgid "It is possible to display 3D scenes in 2D screen. This is achieved by adding a :ref:`SubViewport <class_SubViewport>` as a child. Then, you can drag a 3D scene as a child of the SubViewport:"
-msgstr ""
-
-#: ../../docs/tutorials/2d/introduction_to_2d.rst:316
-msgid "You can check the demo on: `3D in 2D Viewport demo <https://godotengine.org/asset-library/asset/2804>`__."
+#: ../../docs/tutorials/2d/introduction_to_2d.rst:306
+msgid "It is possible to display 3D scenes in 2D screen, You can see this in the demo `3D in 2D Viewport <https://godotengine.org/asset-library/asset/2804>`__."
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,7 +24,7 @@ msgid "This tutorial explores a technique used in the game `ABZU <https://www.gd
 msgstr ""
 
 #: ../../docs/tutorials/performance/vertex_animation/animating_thousands_of_fish.rst:12
-msgid "In Godot, this can be accomplished with a custom :ref:`Shader <class_Shader>` and a :ref:`MultiMeshInstance3D <class_MultiMeshInstance3D>`. Using the following technique you can render thousands of animated objects, even on low end hardware."
+msgid "In Godot, this can be accomplished with a custom :ref:`Shader <class_Shader>` and a :ref:`MultiMeshInstance3D <class_MultiMeshInstance3D>`. Using the following technique you can render thousands of animated objects, even on low-end hardware."
 msgstr ""
 
 #: ../../docs/tutorials/performance/vertex_animation/animating_thousands_of_fish.rst:16

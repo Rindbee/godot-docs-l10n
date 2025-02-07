@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -301,6 +301,6 @@ msgstr ""
 msgid "The `Steam release of Godot <https://store.steampowered.com/app/404790/>`__ uses self-contained mode by default."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:188
+#: ../../docs/tutorials/io/data_paths.rst:191
 msgid "Self-contained mode is not supported in exported projects yet. To read and write files relative to the executable path, use :ref:`OS.get_executable_path() <class_OS_method_get_executable_path>`. Note that writing files in the executable path only works if the executable is placed in a writable location (i.e. **not** Program Files or another directory that is read-only for regular users)."
 msgstr ""

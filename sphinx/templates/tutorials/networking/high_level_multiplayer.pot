@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -124,7 +124,7 @@ msgid "Initializing the network"
 msgstr ""
 
 #: ../../docs/tutorials/networking/high_level_multiplayer.rst:100
-msgid "High level networking in Godot is managed by the :ref:`SceneTree <class_SceneTree>`."
+msgid "High-level networking in Godot is managed by the :ref:`SceneTree <class_SceneTree>`."
 msgstr ""
 
 #: ../../docs/tutorials/networking/high_level_multiplayer.rst:102
@@ -311,18 +311,18 @@ msgstr ""
 msgid "This is an example lobby that can handle peers joining and leaving, notify UI scenes through signals, and start the game after all clients have loaded the game scene."
 msgstr ""
 
-#: ../../docs/tutorials/networking/high_level_multiplayer.rst:619
+#: ../../docs/tutorials/networking/high_level_multiplayer.rst:621
 msgid "The game scene's root node should be named Game. In the script attached to it:"
 msgstr ""
 
-#: ../../docs/tutorials/networking/high_level_multiplayer.rst:659
+#: ../../docs/tutorials/networking/high_level_multiplayer.rst:661
 msgid "Exporting for dedicated servers"
 msgstr ""
 
-#: ../../docs/tutorials/networking/high_level_multiplayer.rst:661
+#: ../../docs/tutorials/networking/high_level_multiplayer.rst:663
 msgid "Once you've made a multiplayer game, you may want to export it to run it on a dedicated server with no GPU available. See :ref:`doc_exporting_for_dedicated_servers` for more information."
 msgstr ""
 
-#: ../../docs/tutorials/networking/high_level_multiplayer.rst:667
+#: ../../docs/tutorials/networking/high_level_multiplayer.rst:669
 msgid "The code samples on this page aren't designed to run on a dedicated server. You'll have to modify them so the server isn't considered to be a player. You'll also have to modify the game starting mechanism so that the first player who joins can start the game."
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -104,53 +104,81 @@ msgid "The baked cell size of the NavigationMesh must match the NavigationServer
 msgstr ""
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:92
-msgid "Exporting the MeshLibrary"
+msgid "MeshLibrary format"
 msgstr ""
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:94
-msgid "To export the library, click on **Scene > Export As... > MeshLibrary...**, and save it as a resource."
+msgid "To summarize the specific constraints of the MeshLibrary format, a MeshLibrary scene has a Node3D as the root node, and several child nodes which will become MeshLibrary items. Each child of the root node should:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:99
-msgid "You can find an already exported MeshLibrary in the project named \"MeshLibrary.tres\"."
+#: ../../docs/tutorials/3d/using_gridmaps.rst:98
+msgid "Be a :ref:`class_MeshInstance3D`, which will become the MeshLibrary item. Only this visual mesh will be exported."
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_gridmaps.rst:100
+msgid "Have a material, in the mesh's material slot, *not* the MeshInstance3D's material slots."
 msgstr ""
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:102
-msgid "Using GridMap"
+msgid "Have up to one :ref:`class_StaticBody3D` child, for collision. The StaticBody3D should have one or more :ref:`class_CollisionShape3D` children."
 msgstr ""
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:104
+msgid "Have up to one :ref:`class_NavigationRegion3D` child, for navigation. The NavigationRegion3D can have one or more additional :ref:`class_MeshInstance3D` children, which can be baked for navigation, but won't be exported as a visual mesh."
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_gridmaps.rst:109
+msgid "Only this specific format is recognized. Other node types placed as children will not be recognized and exported. GridMap is not a general-purpose system for placing *nodes* on a grid, but rather a specific, optimized system, designed to place *meshes* with collisions and navigation."
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_gridmaps.rst:115
+msgid "Exporting the MeshLibrary"
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_gridmaps.rst:117
+msgid "To export the library, click on **Scene > Export As... > MeshLibrary...**, and save it as a resource."
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_gridmaps.rst:122
+msgid "You can find an already exported MeshLibrary in the project named \"MeshLibrary.tres\"."
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_gridmaps.rst:125
+msgid "Using GridMap"
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_gridmaps.rst:127
 msgid "Create a new scene and add a GridMap node. Add the mesh library by dragging the resource file from the FileSystem dock and dropping it in the \"Theme\" property in the Inspector."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:110
+#: ../../docs/tutorials/3d/using_gridmaps.rst:133
 msgid "The \"Cell/Size\" property should be set to the size of your meshes. You can leave it at the default value for the demo. Set the \"Center Y\" property to \"Off\"."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:113
+#: ../../docs/tutorials/3d/using_gridmaps.rst:136
 msgid "Now you can start designing the level by choosing a tile from the palette and placing it with Left-Click in the editor window. Use Right-click to remove a tile."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:116
+#: ../../docs/tutorials/3d/using_gridmaps.rst:139
 msgid "Use the arrows next to the \"GridMap\" menu to change the floor that you are working on."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:118
+#: ../../docs/tutorials/3d/using_gridmaps.rst:141
 msgid "Click on the \"GridMap\" menu to see options and shortcuts. For example, pressing :kbd:`S` rotates a tile around the y-axis."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:123
+#: ../../docs/tutorials/3d/using_gridmaps.rst:146
 msgid "Holding :kbd:`Shift` and dragging with the left mouse button will draw a selection box. You can duplicate or clear the selected area using the respective menu options."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:129
+#: ../../docs/tutorials/3d/using_gridmaps.rst:152
 msgid "In the menu, you can also change the axis you're drawing on, as well as shift the drawing plane higher or lower on its axis."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:135
+#: ../../docs/tutorials/3d/using_gridmaps.rst:158
 msgid "Using GridMap in code"
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:137
+#: ../../docs/tutorials/3d/using_gridmaps.rst:160
 msgid "See :ref:`class_GridMap` for details on the node's methods and member variables."
 msgstr ""

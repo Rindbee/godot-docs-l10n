@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,7 +20,7 @@ msgid "Volumetric fog and fog volumes"
 msgstr ""
 
 #: ../../docs/tutorials/3d/volumetric_fog.rst:8
-msgid "Volumetric fog is only supported in the Clustered Forward rendering backend, not Forward Mobile or Compatibility."
+msgid "Volumetric fog is only supported in the Forward+ renderer, not the Mobile or Compatibility renderers."
 msgstr ""
 
 #: ../../docs/tutorials/3d/volumetric_fog.rst:11
@@ -156,11 +156,11 @@ msgid "**Rendering > Environment > Volumetric Fog > Volume Size:** Base size use
 msgstr ""
 
 #: ../../docs/tutorials/3d/volumetric_fog.rst:143
-msgid "**Rendering > Environment > Volumetric Fog > Volume Depth:** Number of slices to use along the depth of the froxel buffer for volumetric fog. A lower number will be more efficient but may result in artifacts appearing during camera movement."
+msgid "**Rendering > Environment > Volumetric Fog > Volume Depth:** Number of slices to use along the depth of the froxel buffer for volumetric fog. A lower number will be more efficient, but may result in artifacts appearing during camera movement."
 msgstr ""
 
 #: ../../docs/tutorials/3d/volumetric_fog.rst:147
-msgid "**Rendering > Environment > Volumetric Fog > Use Filter:** Enables filtering of the volumetric fog effect prior to integration. This substantially blurs the fog which reduces fine details but also smooths out harsh edges and aliasing artifacts. Disable when more detail is required."
+msgid "**Rendering > Environment > Volumetric Fog > Use Filter:** Enables filtering of the volumetric fog effect prior to integration. This substantially blurs the fog which reduces fine details, but also smooths out harsh edges and aliasing artifacts. Disable when more detail is required."
 msgstr ""
 
 #: ../../docs/tutorials/3d/volumetric_fog.rst:154
@@ -172,7 +172,7 @@ msgid "Using fog volumes for local volumetric fog"
 msgstr ""
 
 #: ../../docs/tutorials/3d/volumetric_fog.rst:161
-msgid "Sometimes, you want fog to be constrained to specific areas. Conversely, you may want to have global volumetric fog but fog should be excluded from certain areas. Both approaches can be followed using FogVolume nodes."
+msgid "Sometimes, you want fog to be constrained to specific areas. Conversely, you may want to have global volumetric fog, but fog should be excluded from certain areas. Both approaches can be followed using FogVolume nodes."
 msgstr ""
 
 #: ../../docs/tutorials/3d/volumetric_fog.rst:165
@@ -296,7 +296,7 @@ msgid "In some cases, it may be better to use specially configured QuadMeshes as
 msgstr ""
 
 #: ../../docs/tutorials/3d/volumetric_fog.rst:273
-msgid "Quads work with any rendering method, including Forward Mobile and Compatibility."
+msgid "Quads work with any rendering method, including Mobile and Compatibility."
 msgstr ""
 
 #: ../../docs/tutorials/3d/volumetric_fog.rst:274

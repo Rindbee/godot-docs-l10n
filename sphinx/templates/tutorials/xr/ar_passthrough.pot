@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -36,7 +36,7 @@ msgid "Passthrough is implemented very differently across platforms."
 msgstr ""
 
 #: ../../docs/tutorials/xr/ar_passthrough.rst:20
-msgid "In Godot 4.3 we have implemented a unified approach that is explained on this help page so you don't need to worry about these differences, the :ref:`XRInterface <class_xrinterface>` implementation is now responsible for applying the correct platform dependent method [#]_."
+msgid "In Godot 4.3 we have implemented a unified approach that is explained on this help page so you don't need to worry about these differences, the :ref:`XRInterface <class_xrinterface>` implementation is now responsible for applying the correct platform-dependent method [#]_."
 msgstr ""
 
 #: ../../docs/tutorials/xr/ar_passthrough.rst:24
@@ -124,7 +124,7 @@ msgid "In OpenXR you can configure the default blend mode you want to use. Godot
 msgstr ""
 
 #: ../../docs/tutorials/xr/ar_passthrough.rst:93
-msgid "For passthrough devices OpenXR requires additional settings to be configured. These settings are platform dependent and provided through the OpenXR vendors plugin."
+msgid "For passthrough devices OpenXR requires additional settings to be configured. These settings are platform-dependent and provided through the OpenXR vendors plugin."
 msgstr ""
 
 #: ../../docs/tutorials/xr/ar_passthrough.rst:96

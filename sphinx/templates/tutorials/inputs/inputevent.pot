@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -87,198 +87,194 @@ msgstr ""
 msgid "When sending events to its child and descendant nodes, the viewport will do so, as depicted in the following graphic, in a reverse depth-first order, starting with the node at the bottom of the scene tree, and ending at the root node. Excluded from this process are Windows and SubViewports."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:126
-msgid "This order doesn't apply to :ref:`Control._gui_input() <class_Control_private_method__gui_input>`, which uses a different method based on event location or focused Control."
+#: ../../docs/tutorials/inputs/inputevent.rst:128
+msgid "This order doesn't apply to :ref:`Control._gui_input() <class_Control_private_method__gui_input>`, which uses a different method based on event location or focused Control. GUI **mouse** events also travel up the scene tree, subject to the :ref:`Control.mouse_filter <class_Control_property_mouse_filter>` restrictions described above. However, since these events target specific Controls, only direct ancestors of the targeted Control node receive the event. GUI **keyboard and joypad** events *do not* travel up the scene tree, and can only be handled by the Control that received them. Otherwise, they will be propagated as non-GUI events through :ref:`Node._unhandled_input() <class_Node_private_method__unhandled_input>`."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:129
+#: ../../docs/tutorials/inputs/inputevent.rst:136
 msgid "Since Viewports don't send events to other :ref:`SubViewports <class_SubViewport>`, one of the following methods has to be used:"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:132
+#: ../../docs/tutorials/inputs/inputevent.rst:139
 msgid "Use a :ref:`SubViewportContainer <class_SubViewportContainer>`, which automatically sends events to its child :ref:`SubViewports <class_SubViewport>` after :ref:`Node._input() <class_Node_private_method__input>` or :ref:`Control._gui_input() <class_Control_private_method__gui_input>`."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:135
+#: ../../docs/tutorials/inputs/inputevent.rst:142
 msgid "Implement event propagation based on the individual requirements."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:137
-msgid "GUI events also travel up the scene tree but, since these events target specific Controls, only direct ancestors of the targeted Control node receive the event."
-msgstr ""
-
-#: ../../docs/tutorials/inputs/inputevent.rst:140
+#: ../../docs/tutorials/inputs/inputevent.rst:144
 msgid "In accordance with Godot's node-based design, this enables specialized child nodes to handle and consume particular events, while their ancestors, and ultimately the scene root, can provide more generalized behavior if needed."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:146
+#: ../../docs/tutorials/inputs/inputevent.rst:150
 msgid "Anatomy of an InputEvent"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:148
+#: ../../docs/tutorials/inputs/inputevent.rst:152
 msgid ":ref:`InputEvent <class_InputEvent>` is just a base built-in type, it does not represent anything and only contains some basic information, such as event ID (which is increased for each event), device index, etc."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:152
+#: ../../docs/tutorials/inputs/inputevent.rst:156
 msgid "There are several specialized types of InputEvent, described in the table below:"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:155
+#: ../../docs/tutorials/inputs/inputevent.rst:159
 msgid "Event"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:155
+#: ../../docs/tutorials/inputs/inputevent.rst:159
 msgid "Description"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:157
+#: ../../docs/tutorials/inputs/inputevent.rst:161
 msgid ":ref:`InputEvent <class_InputEvent>`"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:157
+#: ../../docs/tutorials/inputs/inputevent.rst:161
 msgid "Empty Input Event."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:159
+#: ../../docs/tutorials/inputs/inputevent.rst:163
 msgid ":ref:`InputEventKey <class_InputEventKey>`"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:159
+#: ../../docs/tutorials/inputs/inputevent.rst:163
 msgid "Contains a keycode and Unicode value, as well as modifiers."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:162
+#: ../../docs/tutorials/inputs/inputevent.rst:166
 msgid ":ref:`InputEventMouseButton <class_InputEventMouseButton>`"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:162
+#: ../../docs/tutorials/inputs/inputevent.rst:166
 msgid "Contains click information, such as button, modifiers, etc."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:165
+#: ../../docs/tutorials/inputs/inputevent.rst:169
 msgid ":ref:`InputEventMouseMotion <class_InputEventMouseMotion>`"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:165
+#: ../../docs/tutorials/inputs/inputevent.rst:169
 msgid "Contains motion information, such as relative and absolute positions and speed."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:169
+#: ../../docs/tutorials/inputs/inputevent.rst:173
 msgid ":ref:`InputEventJoypadMotion <class_InputEventJoypadMotion>`"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:169
+#: ../../docs/tutorials/inputs/inputevent.rst:173
 msgid "Contains Joystick/Joypad analog axis information."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:172
+#: ../../docs/tutorials/inputs/inputevent.rst:176
 msgid ":ref:`InputEventJoypadButton <class_InputEventJoypadButton>`"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:172
+#: ../../docs/tutorials/inputs/inputevent.rst:176
 msgid "Contains Joystick/Joypad button information."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:175
+#: ../../docs/tutorials/inputs/inputevent.rst:179
 msgid ":ref:`InputEventScreenTouch <class_InputEventScreenTouch>`"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:175
+#: ../../docs/tutorials/inputs/inputevent.rst:179
 msgid "Contains multi-touch press/release information. (only available on mobile devices)"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:179
+#: ../../docs/tutorials/inputs/inputevent.rst:183
 msgid ":ref:`InputEventScreenDrag <class_InputEventScreenDrag>`"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:179
+#: ../../docs/tutorials/inputs/inputevent.rst:183
 msgid "Contains multi-touch drag information. (only available on mobile devices)"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:182
+#: ../../docs/tutorials/inputs/inputevent.rst:186
 msgid ":ref:`InputEventMagnifyGesture <class_InputEventMagnifyGesture>`"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:182
+#: ../../docs/tutorials/inputs/inputevent.rst:186
 msgid "Contains a position, a factor as well as modifiers."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:185
+#: ../../docs/tutorials/inputs/inputevent.rst:189
 msgid ":ref:`InputEventPanGesture <class_InputEventPanGesture>`"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:185
+#: ../../docs/tutorials/inputs/inputevent.rst:189
 msgid "Contains a position, a delta as well as modifiers."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:188
+#: ../../docs/tutorials/inputs/inputevent.rst:192
 msgid ":ref:`InputEventMIDI <class_InputEventMIDI>`"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:188
+#: ../../docs/tutorials/inputs/inputevent.rst:192
 msgid "Contains MIDI-related information."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:190
+#: ../../docs/tutorials/inputs/inputevent.rst:194
 msgid ":ref:`InputEventShortcut <class_InputEventShortcut>`"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:190
+#: ../../docs/tutorials/inputs/inputevent.rst:194
 msgid "Contains a shortcut."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:192
+#: ../../docs/tutorials/inputs/inputevent.rst:196
 msgid ":ref:`InputEventAction <class_InputEventAction>`"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:192
+#: ../../docs/tutorials/inputs/inputevent.rst:196
 msgid "Contains a generic action. These events are often generated by the programmer as feedback. (more on this below)"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:198
+#: ../../docs/tutorials/inputs/inputevent.rst:202
 msgid "Input actions"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:200
+#: ../../docs/tutorials/inputs/inputevent.rst:204
 msgid "Input actions are a grouping of zero or more InputEvents into a commonly understood title (for example, the default \"ui_left\" action grouping both joypad-left input and a keyboard's left arrow key). They are not required to represent an InputEvent but are useful because they abstract various inputs when programming the game logic."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:205
+#: ../../docs/tutorials/inputs/inputevent.rst:209
 msgid "This allows for:"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:207
+#: ../../docs/tutorials/inputs/inputevent.rst:211
 msgid "The same code to work on different devices with different inputs (e.g., keyboard on PC, Joypad on console)."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:209
-msgid "Input to be reconfigured at run-time."
+#: ../../docs/tutorials/inputs/inputevent.rst:213
+msgid "Input to be reconfigured at runtime."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:210
-msgid "Actions to be triggered programmatically at run-time."
+#: ../../docs/tutorials/inputs/inputevent.rst:214
+msgid "Actions to be triggered programmatically at runtime."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:212
+#: ../../docs/tutorials/inputs/inputevent.rst:216
 msgid "Actions can be created from the Project Settings menu in the **Input Map** tab and assigned input events."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:215
+#: ../../docs/tutorials/inputs/inputevent.rst:219
 msgid "Any event has the methods :ref:`InputEvent.is_action() <class_InputEvent_method_is_action>`, :ref:`InputEvent.is_pressed() <class_InputEvent_method_is_pressed>` and :ref:`InputEvent <class_InputEvent>`."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:218
+#: ../../docs/tutorials/inputs/inputevent.rst:222
 msgid "Alternatively, it may be desired to supply the game back with an action from the game code (a good example of this is detecting gestures). The Input singleton has a method for this: :ref:`Input.parse_input_event() <class_input_method_parse_input_event>`. You would normally use it like this:"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:245
+#: ../../docs/tutorials/inputs/inputevent.rst:249
 msgid "See :ref:`doc_first_3d_game_input_actions` for a tutorial on adding input actions in the project settings."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:249
+#: ../../docs/tutorials/inputs/inputevent.rst:253
 msgid "InputMap"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/inputevent.rst:251
-msgid "Customizing and re-mapping input from code is often desired. If your whole workflow depends on actions, the :ref:`InputMap <class_InputMap>` singleton is ideal for reassigning or creating different actions at run-time. This singleton is not saved (must be modified manually) and its state is run from the project settings (project.godot). So any dynamic system of this type needs to store settings in the way the programmer best sees fit."
+#: ../../docs/tutorials/inputs/inputevent.rst:255
+msgid "Customizing and re-mapping input from code is often desired. If your whole workflow depends on actions, the :ref:`InputMap <class_InputMap>` singleton is ideal for reassigning or creating different actions at runtime. This singleton is not saved (must be modified manually) and its state is run from the project settings (project.godot). So any dynamic system of this type needs to store settings in the way the programmer best sees fit."
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -119,6 +119,14 @@ msgstr ""
 msgid "To follow the existing style, please use standard ``#ifdef``-based include guards instead of ``#pragma once`` in new files."
 msgstr ""
 
-#: ../../docs/contributing/development/cpp_usage_guidelines.rst:105
+#: ../../docs/contributing/development/cpp_usage_guidelines.rst:104
+msgid "``try``-``catch`` blocks"
+msgstr ""
+
+#: ../../docs/contributing/development/cpp_usage_guidelines.rst:106
+msgid "C++ style exception handling using ``try`` and ``catch`` blocks is forbidden. This restriction is in place for several reasons, including performance, binary size and code complexity. Use :ref:`doc_common_engine_methods_and_macros_error_macros` instead."
+msgstr ""
+
+#: ../../docs/contributing/development/cpp_usage_guidelines.rst:114
 msgid "See :ref:`doc_code_style_guidelines_header_includes` for guidelines on sorting includes in C++ and Objective-C files."
 msgstr ""

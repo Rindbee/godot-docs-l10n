@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -91,110 +91,110 @@ msgstr ""
 msgid "When baking navigation meshes in scripts obstacles can be added procedurally as a projected obstruction. Obstacles are not involved in the source geometry parsing so adding them just before baking is enough."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:105
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:147
 msgid "Obstacles and agent avoidance"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:107
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:149
 msgid "For avoidance navigation obstacles can be used either as static or dynamic obstacles to affect avoidance controlled agents."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:109
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:151
 msgid "When used statically NavigationObstacles constrain avoidance controlled agents outside or inside a polygon defined area."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:110
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:152
 msgid "When used dynamically NavigationObstacles push away avoidance controlled agents in a radius around them."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:113
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:155
 msgid "Static avoidance obstacles"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:115
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:157
 msgid "An avoidance obstacle is considered static when its ``vertices`` property is populated with an outline array of positions to form a polygon."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:117
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:159
 msgid "Static obstacle drawn in the editor to block or contain navigation agents"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:121
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:163
 msgid "Static obstacle drawn in the editor to block or contain navigation agents."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:123
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:165
 msgid "Static obstacles act as hard do-not-cross boundaries for avoidance using agents, e.g. similar to physics collision but for avoidance."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:124
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:166
 msgid "Static obstacles define their boundaries with an array of outline ``vertices`` (positions), and in case of 3D with an additional ``height`` property."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:125
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:167
 msgid "Static obstacles only work for agents that use the 2D avoidance mode."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:126
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:168
 msgid "Static obstacles define through winding order of the vertices if agents are pushed out or sucked in."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:127
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:169
 msgid "Static obstacles can not change their position. They can only be warped to a new position and rebuilt from scratch. Static obstacles as a result are ill-suited for usages where the position is changed every frame, as the constant rebuild has a high performance cost."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:129
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:171
 msgid "Static obstacles that are warped to another position can not be predicted by agents. This creates the risk of getting agents stuck should a static obstacle be warped on top of agents."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:131
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:173
 msgid "When the 2D avoidance is used in 3D the y-axis of Vector3 vertices is ignored. Instead, the global y-axis position of the obstacle is used as the elevation level. Agents will ignore static obstacles in 3D that are below or above them. This is automatically determined by global y-axis position of both obstacle and agent as the elevation level as well as their respective height properties."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:134
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:176
 msgid "Dynamic avoidance obstacles"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:136
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:178
 msgid "An avoidance obstacle is considered dynamic when its ``radius`` property is greater than zero."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:138
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:180
 msgid "Dynamic obstacles act as a soft please-move-away-from-me object for avoidance using agents, e.g. similar to how they avoid other agents."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:139
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:181
 msgid "Dynamic obstacles define their boundaries with a single ``radius`` for a 2D circle, or in case of 3D avoidance a sphere shape."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:140
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:182
 msgid "Dynamic obstacles can change their position every frame without additional performance cost."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:141
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:183
 msgid "Dynamic obstacles with a set velocity can be predicted in their movement by agents."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:142
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:184
 msgid "Dynamic obstacles are not a reliable way to constrain agents in crowded or narrow spaces."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:144
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:186
 msgid "While both static and dynamic properties can be active at the same time on the same obstacle this is not recommended for performance. Ideally when an obstacle is moving the static vertices are removed and instead the radius activated. When the obstacle reaches the new final position it should gradually enlarge its radius to push all other agents away. With enough created safe space around the obstacle it should add the static vertices again and remove the radius. This helps avoid getting agents stuck in the suddenly appearing static obstacle when the rebuilt static boundary is finished."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:150
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:192
 msgid "Similar to agents the obstacles can make use of the ``avoidance_layers`` bitmask. All agents with a matching bit on their own avoidance mask will avoid the obstacle."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:154
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:196
 msgid "Procedural obstacles"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:156
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:198
 msgid "New obstacles can be created in a script without a Node by using the NavigationServer directly."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:158
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:200
 msgid "Obstacles created with scripts require at least a ``map`` and a ``position``. For dynamic use a ``radius`` is required. For static use an array of ``vertices`` is required."
 msgstr ""

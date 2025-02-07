@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -419,6 +419,14 @@ msgstr ""
 msgid ":ref:`Triplanar mapping <doc_standard_material_3d_triplanar_mapping>` doesn't benefit from increased precision. Materials using triplanar mapping will exhibit visible jittering when far away from the world origin."
 msgstr ""
 
-#: ../../docs/tutorials/physics/large_world_coordinates.rst:233
+#: ../../docs/tutorials/physics/large_world_coordinates.rst:232
+msgid "In double-precision builds, world space coordinates in a shader ``fragment()`` function can't be reconstructed from view space, for example:"
+msgstr ""
+
+#: ../../docs/tutorials/physics/large_world_coordinates.rst:239
+msgid "Instead, calculate the world space coordinates in the ``vertex()`` function and pass them using a :ref:`varying<doc_shading_language_varyings>`, for example:"
+msgstr ""
+
+#: ../../docs/tutorials/physics/large_world_coordinates.rst:250
 msgid "2D rendering currently doesn't benefit from increased precision when large world coordinates are enabled. This can cause visible model snapping to occur when far away from the world origin (starting from a few million pixels at typical zoom levels). 2D physics calculations will still benefit from increased precision though."
 msgstr ""

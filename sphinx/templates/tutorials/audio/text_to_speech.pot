@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -87,74 +87,74 @@ msgstr ""
 msgid "Distro-specific one-liners"
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:79
+#: ../../docs/tutorials/audio/text_to_speech.rst:80
 msgid "**Arch Linux**"
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:85
+#: ../../docs/tutorials/audio/text_to_speech.rst:86
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:87
+#: ../../docs/tutorials/audio/text_to_speech.rst:88
 msgid "If you get the error `Invalid get index '0' (on base: 'PackedStringArray').` for the line `var voice_id = voices[0]`, check if there are any items in `voices`. If not:"
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:89
+#: ../../docs/tutorials/audio/text_to_speech.rst:90
 msgid "All users: make sure you enabled **Text to Speech** in project settings"
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:90
+#: ../../docs/tutorials/audio/text_to_speech.rst:91
 msgid "Linux users: ensure you installed the system-specific libraries for text to speech"
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:93
+#: ../../docs/tutorials/audio/text_to_speech.rst:94
 msgid "Best practices"
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:95
+#: ../../docs/tutorials/audio/text_to_speech.rst:96
 msgid "The best practices for text-to-speech, in terms of the ideal player experience for blind players, is to send output to the player's screen reader. This preserves the choice of language, speed, pitch, etc. that the user set, as well as allows advanced features like allowing players to scroll backward and forward through text. As of now, Godot doesn't provide this level of integration."
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:97
+#: ../../docs/tutorials/audio/text_to_speech.rst:98
 msgid "With the current state of the Godot text-to-speech APIs, best practices include:"
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:99
+#: ../../docs/tutorials/audio/text_to_speech.rst:100
 msgid "Develop the game with text-to-speech enabled, and ensure that everything sounds correct"
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:100
+#: ../../docs/tutorials/audio/text_to_speech.rst:101
 msgid "Allow players to control which voice to use, and save/persist that selection across game sessions"
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:101
+#: ../../docs/tutorials/audio/text_to_speech.rst:102
 msgid "Allow players to control the speech rate, and save/persist that selection across game sessions"
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:103
+#: ../../docs/tutorials/audio/text_to_speech.rst:104
 msgid "This provides your blind players with the most flexibility and comfort available when not using a screen reader, and minimizes the chance of frustrating and alienating them."
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:106
+#: ../../docs/tutorials/audio/text_to_speech.rst:107
 msgid "Caveats and Other Information"
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:108
+#: ../../docs/tutorials/audio/text_to_speech.rst:109
 msgid "Expect delays when you call `tts_speak` and `tts_stop`. The actual delay time varies depending on both the OS and on your machine's specifications. This is especially critical on Android and Web, where some of the voices depend on web services, and the actual time to playback depends on server load, network latency, and other factors."
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:109
+#: ../../docs/tutorials/audio/text_to_speech.rst:110
 msgid "Non-English text works if the correct voices are installed and used. On Windows, you can consult the instructions in `this article`_ to enable additional language voices on Windows."
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:110
+#: ../../docs/tutorials/audio/text_to_speech.rst:111
 msgid "Non-ASCII characters, such as umlaut, are pronounced correctly if you select the correct voice."
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:111
+#: ../../docs/tutorials/audio/text_to_speech.rst:112
 msgid "Blind players use a number of screen readers, including JAWS, NVDA, VoiceOver, Narrator, and more."
 msgstr ""
 
-#: ../../docs/tutorials/audio/text_to_speech.rst:112
+#: ../../docs/tutorials/audio/text_to_speech.rst:113
 msgid "Windows text-to-speech APIs generally perform better than their equivalents on other systems (e.g. `tts_stop` followed by `tts_speak` immediately speaks the new message)."
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -108,113 +108,149 @@ msgid "After adding at least one scene or script, click **Generate POT** in the 
 msgstr ""
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:81
+msgid "See :ref:`below <doc_localization_using_gettext_gdscript>` for how to add comments for translators or exclude some strings from being added to the PO template for GDScript files."
+msgstr ""
+
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:84
 msgid "You can then move over to :ref:`creating a messages file from a PO template <doc_localization_using_gettext_messages_file>`."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:86
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:89
 msgid "Remember to regenerate the PO template after making any changes to localizable strings, or after adding new scenes or scripts. Otherwise, newly added strings will not be localizable and translators won't be able to update translations for outdated strings."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:92
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:95
 msgid "Manual creation"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:94
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:97
 msgid "If the automatic generation approach doesn't work out for your needs, you can create a PO template by hand in a text editor. This file can be placed anywhere in the project directory, but it's recommended to keep it in a subdirectory, as each locale will be defined in its own file."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:99
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:102
 msgid "Create a directory named ``locale`` in the project directory. In this directory, save a file named ``messages.pot`` with the following contents:"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:123
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:126
 msgid "Messages in gettext are made of ``msgid`` and ``msgstr`` pairs. ``msgid`` is the source string (usually in English), ``msgstr`` will be the translated string."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:129
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:132
 msgid "The ``msgstr`` value in PO template files (``.pot``) should **always** be empty. Localization will be done in the generated ``.po`` files instead."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:135
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:138
 msgid "Creating a messages file from a PO template"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:137
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:140
 msgid "The ``msginit`` command is used to turn a PO template into a messages file. For instance, to create a French localization file, use the following command while in the ``locale`` directory:"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:145
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:148
 msgid "The command above will create a file named ``fr.po`` in the same directory as the PO template."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:148
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:151
 msgid "Alternatively, you can do that graphically using Poedit, or by uploading the POT file to your web platform of choice."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:152
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:155
 msgid "Loading a messages file in Godot"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:154
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:157
 msgid "To register a messages file as a translation in a project, open the **Project Settings**, then go to the **Localization** tab. In **Translations**, click **Add…** then choose the ``.po`` or ``.mo`` file in the file dialog. The locale will be inferred from the ``\"Language: <code>\\n\"`` property in the messages file."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:160
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:163
 msgid "See :ref:`doc_internationalizing_games` for more information on importing and testing translations in Godot."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:164
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:167
 msgid "Updating message files to follow the PO template"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:166
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:169
 msgid "After updating the PO template, you will have to update message files so that they contain new strings, while removing strings that are no longer present in the PO template. This can be done automatically using the ``msgmerge`` tool:"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:176
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:179
 msgid "If you want to keep a backup of the original message file (which would be saved as ``fr.po~`` in this example), remove the ``--backup=none`` argument."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:181
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:184
 msgid "After running ``msgmerge``, strings which were modified in the source language will have a \"fuzzy\" comment added before them in the ``.po`` file. This comment denotes that the translation should be updated to match the new source string, as the translation will most likely be inaccurate until it's updated."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:186
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:189
 msgid "Strings with \"fuzzy\" comments will **not** be read by Godot until the translation is updated and the \"fuzzy\" comment is removed."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:190
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:193
 msgid "Checking the validity of a PO file or template"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:192
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:195
 msgid "It is possible to check whether a gettext file's syntax is valid by running the command below:"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:199
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:202
 msgid "If there are syntax errors or warnings, they will be displayed in the console. Otherwise, ``msgfmt`` won't output anything."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:203
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:206
 msgid "Using binary MO files (useful for large projects only)"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:205
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:208
 msgid "For large projects with several thousands of strings to translate or more, it can be worth it to use binary (compiled) MO message files instead of text-based PO files. Binary MO files are smaller and faster to read than the equivalent PO files."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:210
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:213
 msgid "You can generate an MO file with the command below:"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:216
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:219
 msgid "If the PO file is valid, this command will create a ``fr.mo`` file besides the PO file. This MO file can then be loaded in Godot as described above."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:219
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:222
 msgid "The original PO file should be kept in version control so you can update your translation in the future. In case you lose the original PO file and wish to decompile an MO file into a text-based PO file, you can do so with:"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:227
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:230
 msgid "The decompiled file will not include comments or fuzzy strings, as these are never compiled in the MO file in the first place."
+msgstr ""
+
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:236
+msgid "Extracting localizable strings from GDScript files"
+msgstr ""
+
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:238
+msgid "The built-in `editor plugin <https://github.com/godotengine/godot/blob/master/modules/gdscript/editor/gdscript_translation_parser_plugin.h>`_ recognizes a variety of patterns in source code to extract localizable strings from GDScript files, including but not limited to the following:"
+msgstr ""
+
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:242
+msgid "``tr()``, ``tr_n()``, ``atr()``, and ``atr_n()`` calls;"
+msgstr ""
+
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:243
+msgid "assigning properties ``text``, ``placeholder_text``, and ``tooltip_text``;"
+msgstr ""
+
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:244
+msgid "``add_tab()``, ``add_item()``, ``set_tab_title()``, and other calls;"
+msgstr ""
+
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:245
+msgid "``FileDialog`` filters like ``\"*.png ; PNG Images\"``."
+msgstr ""
+
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:249
+msgid "The argument or right operand must be a constant string, otherwise the plugin will not be able to evaluate the expression and will ignore it."
+msgstr ""
+
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:252
+msgid "If the plugin extracts unnecessary strings, you can ignore them with the ``NO_TRANSLATE`` comment. You can also provide additional information for translators using the ``TRANSLATORS:`` comment. These comments must be placed either on the same line as the recognized pattern or precede it."
 msgstr ""

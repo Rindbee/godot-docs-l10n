@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -64,145 +64,149 @@ msgid "When you open a new or an existing project, the editor's interface appear
 msgstr ""
 
 #: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:56
-msgid "By default, along the window's top edge, it features **main menu** on the left, **workspace** switching buttons in the center (active workspace is highlighted), and **playtest** buttons on the right:"
+msgid "By default, along the window's top edge, it features **main menu** on the left, **workspace** switching buttons in the center (active workspace is highlighted), and **playtest** buttons and the **Movie Maker Mode** toggle on the right:"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:61
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:62
 msgid "Just below the workspace buttons, the opened :ref:`scenes <doc_key_concepts_overview_scenes>` as tabs are seen. The plus (+) button right next to the tabs will add a new scene to the project. With the button on the far right, distraction-free mode can be toggled, which maximizes or restores the **viewport**'s size by hiding **docks** in the interface:"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:68
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:69
 msgid "In the center, below the scene selector is the **viewport** with its **toolbar** at the top, where you'll find different tools to move, scale, or lock the scene's nodes (currently the 3D workspace is active):"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:73
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:74
 msgid "This toolbar changes based on the context and selected node. Here is the 2D toolbar:"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:77
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:78
 msgid "Below is the 3D one:"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:81
-msgid "To learn more on workspaces, read :ref:`doc_intro_to_the_editor_interface_four_screens`."
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:82
+msgid "To learn more on workspaces, read :ref:`doc_intro_to_the_editor_interface_five_screens`."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:83
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:84
 msgid "To learn more on the 3D viewport and 3D in general, read :ref:`doc_introduction_to_3d`."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:85
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:86
 msgid "On either side of the viewport sit the **docks**. And at the bottom of the window lies the **bottom panel**."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:88
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:89
 msgid "Let's look at the docks. The **FileSystem** dock lists your project files, including scripts, images, audio samples, and more:"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:93
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:94
 msgid "The **Scene** dock lists the active scene's nodes:"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:97
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:98
 msgid "The **Inspector** allows you to edit the properties of a selected node:"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:101
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:102
 msgid "To read more on inspector, see :ref:`doc_editor_inspector_dock`."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:103
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:104
 msgid "Docks can be customized. Read more on :ref:`doc_customizing_editor_moving_docks`."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:105
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:106
 msgid "The **bottom panel**, situated below the viewport, is the host for the debug console, the animation editor, the audio mixer, and more. They can take precious space, that's why they're folded by default:"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:111
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:112
 msgid "When you click on one, it expands vertically. Below, you can see the animation editor opened:"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:115
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:116
 msgid "Bottom panels can also be shown or hidden using the shortcuts defined in **Editor Settings > Shortcuts**, under the **Bottom Panels** category."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:121
-msgid "The four main screens"
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:122
+msgid "The five main screens"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:123
-msgid "There are four main screen buttons centered at the top of the editor: 2D, 3D, Script, and Asset Library."
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:124
+msgid "There are five main screen buttons centered at the top of the editor: 2D, 3D, Script, Game and Asset Library."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:126
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:127
 msgid "You'll use the **2D screen** for all types of games. In addition to 2D games, the 2D screen is where you'll build your interfaces."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:131
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:132
 msgid "In the **3D screen**, you can work with meshes, lights, and design levels for 3D games."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:136
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:137
 msgid "Read :ref:`doc_introduction_to_3d` for more detail about the **3D main screen**."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:139
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:140
+msgid "The **Game screen** is where your project will appear when running it from the editor. You can go through your project to test it, and pause it and adjust it in real time. Note that this is for testing how adjustments would work, any changes made here are not saved when the game stops running."
+msgstr ""
+
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:147
 msgid "The **Script screen** is a complete code editor with a debugger, rich auto-completion, and built-in code reference."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:144
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:152
 msgid "Finally, the **Asset Library** is a library of free and open source add-ons, scripts, and assets to use in your projects."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:149
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:157
 msgid "You can learn more about the asset library in :ref:`doc_what_is_assetlib`."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:153
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:163
 msgid "Integrated class reference"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:155
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:165
 msgid "Godot comes with a built-in class reference."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:157
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:167
 msgid "You can search for information about a class, method, property, constant, or signal by any one of the following methods:"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:160
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:170
 msgid "Pressing :kbd:`F1` (or :kbd:`Opt + Space` on macOS, or :kbd:`Fn + F1` for laptops with a :kbd:`Fn` key) anywhere in the editor."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:162
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:172
 msgid "Clicking the \"Search Help\" button in the top-right of the Script main screen."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:163
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:173
 msgid "Clicking on the Help menu and Search Help."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:164
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:174
 msgid ":kbd:`Ctrl + Click` (:kbd:`Cmd + Click` on macOS) on a class name, function name, or built-in variable in the script editor."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:169
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:179
 msgid "When you do any of these, a window pops up. Type to search for any item. You can also use it to browse available objects and methods."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:174
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:184
 msgid "Double-click on an item to open the corresponding page in the script main screen."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:178
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:188
 msgid "Alternatively,"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:180
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:190
 msgid "Clicking while pressing the :kbd:`Ctrl` key on a class name, function name, or built-in variable in the script editor."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:182
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:192
 msgid "Right-clicking on nodes and choosing **Open Documentation** or choosing **Lookup Symbol** for elements in script editor will directly open their documentation."
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -67,7 +67,7 @@ msgstr ""
 msgid "|image0|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:366
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:370
 msgid "image0"
 msgstr ""
 
@@ -79,7 +79,7 @@ msgstr ""
 msgid "|image1|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:367
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:371
 msgid "image1"
 msgstr ""
 
@@ -99,7 +99,7 @@ msgstr ""
 msgid "|image2|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:368
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:372
 msgid "image2"
 msgstr ""
 
@@ -111,7 +111,7 @@ msgstr ""
 msgid "|image3|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:369
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:373
 msgid "image3"
 msgstr ""
 
@@ -127,7 +127,7 @@ msgstr ""
 msgid "|image4|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:370
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:374
 msgid "image4"
 msgstr ""
 
@@ -143,7 +143,7 @@ msgstr ""
 msgid "|image5|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:371
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:375
 msgid "image5"
 msgstr ""
 
@@ -159,7 +159,7 @@ msgstr ""
 msgid "|image6|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:372
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:376
 msgid "image6"
 msgstr ""
 
@@ -227,7 +227,7 @@ msgstr ""
 msgid "|image7|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:373
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:377
 msgid "image7"
 msgstr ""
 
@@ -239,7 +239,7 @@ msgstr ""
 msgid "|image8|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:374
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:378
 msgid "image8"
 msgstr ""
 
@@ -271,54 +271,54 @@ msgstr ""
 msgid "With this code, if no collisions occurred on a given frame, the loop won't run."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:289
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:293
 msgid "That's a lot of new functions. Here's some more information about them."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:291
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:295
 msgid "The functions ``get_slide_collision_count()`` and ``get_slide_collision()`` both come from the :ref:`CharacterBody3D <class_CharacterBody3D>` class and are related to ``move_and_slide()``."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:295
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:299
 msgid "``get_slide_collision()`` returns a :ref:`KinematicCollision3D<class_KinematicCollision3D>` object that holds information about where and how the collision occurred. For example, we use its ``get_collider`` property to check if we collided with a \"mob\" by calling ``is_in_group()`` on it: ``collision.get_collider().is_in_group(\"mob\")``."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:303
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:307
 msgid "The method ``is_in_group()`` is available on every :ref:`Node<class_Node>`."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:305
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:309
 msgid "To check that we are landing on the monster, we use the vector dot product: ``Vector3.UP.dot(collision.get_normal()) > 0.1``. The collision normal is a 3D vector that is perpendicular to the plane where the collision occurred. The dot product allows us to compare it to the up direction."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:310
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:314
 msgid "With dot products, when the result is greater than ``0``, the two vectors are at an angle of fewer than 90 degrees. A value higher than ``0.1`` tells us that we are roughly above the monster."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:314
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:318
 msgid "After handling the squash and bounce logic, we terminate the loop early via the ``break`` statement to prevent further duplicate calls to ``mob.squash()``, which may otherwise result in unintended bugs such as counting the score multiple times for one kill."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:318
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:322
 msgid "We are calling one undefined function, ``mob.squash()``, so we have to add it to the Mob class."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:321
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:325
 msgid "Open the script ``mob.gd`` by double-clicking on it in the *FileSystem* dock. At the top of the script, we want to define a new signal named ``squashed``. And at the bottom, you can add the squash function, where we emit the signal and destroy the mob."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:357
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:361
 msgid "When using C#, Godot will create the appropriate events automatically for all Signals ending with `EventHandler`, see :ref:`C# Signals <doc_c_sharp_signals>`."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:359
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:363
 msgid "We will use the signal to add points to the score in the next lesson."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:361
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:365
 msgid "With that, you should be able to kill monsters by jumping on them. You can press :kbd:`F5` to try the game and set ``main.tscn`` as your project's main scene."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:364
+#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:368
 msgid "However, the player won't die yet. We'll work on that in the next part."
 msgstr ""

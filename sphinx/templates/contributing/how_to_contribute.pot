@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -52,7 +52,7 @@ msgid "Are you a content creator? Consider adding a link to the `Godot Developme
 msgstr ""
 
 #: ../../docs/contributing/how_to_contribute.rst:34
-msgid "**Publish Godot Games.** You heard right, simply publishing a game #MadeWithGodot can positively impact the well-being of this project. Your personal success elevates the engine to a viable alternative for other developers, growing the community further. Additionally, it opens the doors for us to approach industry contacts about possible cooperations."
+msgid "**Publish Godot Games.** You heard right, simply publishing a game #MadeWithGodot can positively impact the well-being of this project. Your personal success elevates the engine to a viable alternative for other developers, growing the community further. Additionally, it opens the door for us to approach industry contacts about possible collaborations."
 msgstr ""
 
 #: ../../docs/contributing/how_to_contribute.rst:41

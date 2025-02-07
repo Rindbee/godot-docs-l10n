@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -57,7 +57,7 @@ msgid "For this demo, we will use this :ref:`Sprite <class_Sprite2D>` of a sheep
 msgstr ""
 
 #: ../../docs/tutorials/shaders/custom_postprocessing.rst:51
-msgid "Assign a new :ref:`Shader <class_Shader>` to the ``ColorRect``'s ``ShaderMaterial``. You can access the frame's texture and UV with a ``sampler2D`` using ``hint_screen_texture`` and the built in ``SCREEN_UV`` uniforms."
+msgid "Assign a new :ref:`Shader <class_Shader>` to the ``ColorRect``'s ``ShaderMaterial``. You can access the frame's texture and UV with a ``sampler2D`` using ``hint_screen_texture`` and the built-in ``SCREEN_UV`` uniforms."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/custom_postprocessing.rst:56

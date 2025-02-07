@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -63,154 +63,158 @@ msgstr ""
 msgid "Next, look down in the Inspector, under the CanvasItem section, click beside \"Material\" and select \"New ShaderMaterial\". This creates a new Material resource. Click on the sphere that appears. Godot currently doesn't know whether you are writing a CanvasItem Shader or a Spatial Shader and it previews the output of spatial shaders. So what you are seeing is the output of the default Spatial Shader."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:56
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:57
+msgid "Materials that inherit from the :ref:`class_Material` resource, such as :ref:`class_StandardMaterial3D` and :ref:`class_ParticleProcessMaterial`, can be converted to a :ref:`class_ShaderMaterial` and their existing properties will be converted to an accompanying text shader. To do so, right-click on the material in the FileSystem dock and choose **Convert to ShaderMaterial**. You can also do so by right-clicking on any property holding a reference to the material in the inspector."
+msgstr ""
+
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:64
 msgid "Click beside \"Shader\" and select \"New Shader\". Finally, click on the shader you just created and the shader editor will open. You are now ready to begin writing your first shader."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:61
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:69
 msgid "Your first CanvasItem shader"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:63
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:71
 msgid "In Godot, all shaders start with a line specifying what type of shader they are. It uses the following format:"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:70
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:78
 msgid "Because we are writing a CanvasItem shader, we specify ``canvas_item`` in the first line. All our code will go beneath this declaration."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:73
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:81
 msgid "This line tells the engine which built-in variables and functionality to supply you with."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:76
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:84
 msgid "In Godot you can override three functions to control how the shader operates; ``vertex``, ``fragment``, and ``light``. This tutorial will walk you through writing a shader with both vertex and fragment functions. Light functions are significantly more complex than vertex and fragment functions and so will not be covered here."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:83
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:91
 msgid "Your first fragment function"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:85
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:93
 msgid "The fragment function runs for every pixel in a Sprite2D and determines what color that pixel should be."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:88
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:96
 msgid "They are restricted to the pixels covered by the Sprite2D, that means you cannot use one to, for example, create an outline around a Sprite2D."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:91
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:99
 msgid "The most basic fragment function does nothing except assign a single color to every pixel."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:94
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:102
 msgid "We do so by writing a ``vec4`` to the built-in variable ``COLOR``. ``vec4`` is shorthand for constructing a vector with 4 numbers. For more information about vectors see the :ref:`Vector math tutorial <doc_vector_math>`. ``COLOR`` is both an input variable to the fragment function and the final output from it."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:107
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:115
 msgid "Congratulations! You're done. You have successfully written your first shader in Godot."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:110
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:118
 msgid "Now let's make things more complex."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:112
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:120
 msgid "There are many inputs to the fragment function that you can use for calculating ``COLOR``. ``UV`` is one of them. UV coordinates are specified in your Sprite2D (without you knowing it!) and they tell the shader where to read from textures for each part of the mesh."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:117
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:125
 msgid "In the fragment function you can only read from ``UV``, but you can use it in other functions or to assign values to ``COLOR`` directly."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:120
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:128
 msgid "``UV`` varies between 0-1 from left-right and from top-bottom."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:133
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:141
 msgid "Using ``TEXTURE`` built-in"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:135
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:143
 msgid "The default fragment function reads from the set Sprite2D texture and displays it."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:137
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:145
 msgid "When you want to adjust a color in a Sprite2D you can adjust the color from the texture manually like in the code below."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:147
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:155
 msgid "Certain nodes, like Sprite2Ds, have a dedicated texture variable that can be accessed in the shader using ``TEXTURE``. If you want to use the Sprite2D texture to combine with other colors, you can use the ``UV`` with the ``texture`` function to access this variable. Use them to redraw the Sprite2D with the texture."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:162
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:170
 msgid "Uniform input"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:164
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:172
 msgid "Uniform input is used to pass data into a shader that will be the same across the entire shader."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:167
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:175
 msgid "You can use uniforms by defining them at the top of your shader like so:"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:173
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:181
 msgid "For more information about usage see the :ref:`Shading Language doc <doc_shading_language>`."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:176
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:184
 msgid "Add a uniform to change the amount of blue in our Sprite2D."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:187
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:195
 msgid "Now you can change the amount of blue in the Sprite2D from the editor. Look back at the Inspector under where you created your shader. You should see a section called \"Shader Param\". Unfold that section and you will see the uniform you just declared. If you change the value in the editor, it will overwrite the default value you provided in the shader."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:194
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:202
 msgid "Interacting with shaders from code"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:196
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:204
 msgid "You can change uniforms from code using the function ``set_shader_parameter()`` which is called on the node's material resource. With a Sprite2D node, the following code can be used to set the ``blue`` uniform."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:212
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:220
 msgid "Note that the name of the uniform is a string. The string must match exactly with how it is written in the shader, including spelling and case."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:216
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:224
 msgid "Your first vertex function"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:218
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:226
 msgid "Now that we have a fragment function, let's write a vertex function."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:220
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:228
 msgid "Use the vertex function to calculate where on the screen each vertex should end up."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:223
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:231
 msgid "The most important variable in the vertex function is ``VERTEX``. Initially, it specifies the vertex coordinates in your model, but you also write to it to determine where to actually draw those vertices. ``VERTEX`` is a ``vec2`` that is initially presented in local-space (i.e. not relative to the camera, viewport, or parent nodes)."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:229
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:237
 msgid "You can offset the vertices by directly adding to ``VERTEX``."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:237
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:245
 msgid "Combined with the ``TIME`` built-in variable, this can be used for basic animation."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:248
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:256
 msgid "Conclusion"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:250
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:258
 msgid "At their core, shaders do what you have seen so far, they compute ``VERTEX`` and ``COLOR``. It is up to you to dream up more complex mathematical strategies for assigning values to those variables."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:254
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:262
 msgid "For inspiration, take a look at some of the more advanced shader tutorials, and look at other sites like `Shadertoy <https://www.shadertoy.com/results?query=&sort=popular&from=10&num=4>`_ and `The Book of Shaders <https://thebookofshaders.com>`_."
 msgstr ""

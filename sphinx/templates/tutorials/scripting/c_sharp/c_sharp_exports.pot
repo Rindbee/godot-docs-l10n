@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -228,7 +228,7 @@ msgid "Opening the inspector dropdown may result in an extremely long list of po
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:360
-msgid "The drop-down menu will be limited to AnimationNode and all its inherited classes. Custom resource classes can also be used, see :ref:`doc_c_sharp_global_classes`."
+msgid "The drop-down menu will be limited to AnimationNode and all its derived classes. Custom resource classes can also be used, see :ref:`doc_c_sharp_global_classes`."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:364
@@ -292,82 +292,94 @@ msgstr ""
 msgid "If you want to set an initial value, you must specify it explicitly:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:493
-msgid "Exporting collections"
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:494
+msgid "Exporting inspector buttons with ``[ExportToolButton]``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:495
-msgid "As explained in the :ref:`C# Variant <doc_c_sharp_variant>` documentation, only certain C# arrays and the collection types defined in the ``Godot.Collections`` namespace are Variant-compatible, therefore, only those types can be exported."
-msgstr ""
-
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:500
-msgid "Exporting Godot arrays"
-msgstr ""
-
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:507
-msgid "Using the generic ``Godot.Collections.Array<T>`` allows specifying the type of the array elements, which will be used as a hint for the editor. The Inspector will restrict the elements to the specified type."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:496
+msgid "If you want to create a clickable button in the inspector, you can use the ``[ExportToolButton]`` attribute.  This exports a Callable property or field as a clickable button. Since this runs in the editor, usage of the :ref:`[Tool] <doc_running_code_in_the_editor>` attribute is required. When the button is pressed, the callable is called:"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:516
-msgid "The default value of Godot arrays is null. A different default can be specified:"
+msgid "You can also set an icon for the button with a second argument. If specified, an icon will be fetched via :ref:`GetThemeIcon() <class_Control_method_get_theme_icon>`, from the ``\"EditorIcons\"`` theme type."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:526
+msgid "Exporting collections"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:528
-msgid "Arrays with specified types which inherit from resource can be set by drag-and-dropping multiple files from the FileSystem dock."
+msgid "As explained in the :ref:`C# Variant <doc_c_sharp_variant>` documentation, only certain C# arrays and the collection types defined in the ``Godot.Collections`` namespace are Variant-compatible, therefore, only those types can be exported."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:533
+msgid "Exporting Godot arrays"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:540
-msgid "Exporting Godot dictionaries"
+msgid "Using the generic ``Godot.Collections.Array<T>`` allows specifying the type of the array elements, which will be used as a hint for the editor. The Inspector will restrict the elements to the specified type."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:547
-msgid "Using the generic ``Godot.Collections.Dictionary<TKey, TValue>`` allows specifying the types of the key and value elements of the dictionary."
-msgstr ""
-
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:552
-msgid "Typed dictionaries are currently unsupported in the Godot editor, so the Inspector will not restrict the types that can be assigned, potentially resulting in runtime exceptions."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:549
+msgid "The default value of Godot arrays is null. A different default can be specified:"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:561
+msgid "Arrays with specified types which inherit from resource can be set by drag-and-dropping multiple files from the FileSystem dock."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:573
+msgid "Exporting Godot dictionaries"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:580
+msgid "Using the generic ``Godot.Collections.Dictionary<TKey, TValue>`` allows specifying the types of the key and value elements of the dictionary."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:585
+msgid "Typed dictionaries are currently unsupported in the Godot editor, so the Inspector will not restrict the types that can be assigned, potentially resulting in runtime exceptions."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:594
 msgid "The default value of Godot dictionaries is null. A different default can be specified:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:574
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:607
 msgid "Exporting C# arrays"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:576
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:609
 msgid "C# arrays can exported as long as the element type is a :ref:`Variant-compatible type <c_sharp_variant_compatible_types>`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:586
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:619
 msgid "The default value of C# arrays is null. A different default can be specified:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:598
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:631
 msgid "Setting exported variables from a tool script"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:600
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:633
 msgid "When changing an exported variable's value from a script in :ref:`doc_gdscript_tool_mode`, the value in the inspector won't be updated automatically. To update it, call :ref:`NotifyPropertyListChanged() <class_Object_method_notify_property_list_changed>` after setting the exported variable's value."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:607
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:640
 msgid "Advanced exports"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:609
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:642
 msgid "Not every type of export can be provided on the level of the language itself to avoid unnecessary design complexity. The following describes some more or less common exporting features which can be implemented with a low-level API."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:613
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:646
 msgid "Before reading further, you should get familiar with the way properties are handled and how they can be customized with :ref:`_Set() <class_Object_private_method__set>`, :ref:`_Get() <class_Object_private_method__get>`, and :ref:`_GetPropertyList() <class_Object_private_method__get_property_list>` methods as described in :ref:`doc_accessing_data_or_logic_from_object`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:620
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:653
 msgid "For binding properties using the above methods in C++, see :ref:`doc_binding_properties_using_set_get_property_list`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:623
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:656
 msgid "The script must operate in the ``tool`` mode so the above methods can work from within the editor."
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -56,7 +56,7 @@ msgid "As long as you ensure that your style matches the surrounding code and th
 msgstr ""
 
 #: ../../docs/contributing/development/code_style_guidelines.rst:37
-msgid "Godot's code style should *not* be applied to third-party code, i.e. that is included in Godot's source tree but was not written specifically for our project. Such code usually comes from different upstream projects with their own style guides (or lack thereof), and don't want to introduce differences that would make syncing with upstream repositories harder."
+msgid "Godot's code style should *not* be applied to third-party code, i.e. code that is included in Godot's source tree, but was not written specifically for our project. Such code usually comes from different upstream projects with their own style guides (or lack thereof), and don't want to introduce differences that would make syncing with upstream repositories harder."
 msgstr ""
 
 #: ../../docs/contributing/development/code_style_guidelines.rst:44
@@ -76,7 +76,7 @@ msgid "You need to use **clang-format 17** to be compatible with Godot's format.
 msgstr ""
 
 #: ../../docs/contributing/development/code_style_guidelines.rst:67
-#: ../../docs/contributing/development/code_style_guidelines.rst:308
+#: ../../docs/contributing/development/code_style_guidelines.rst:310
 msgid "Pre-commit hook"
 msgstr ""
 
@@ -85,17 +85,17 @@ msgid "For ease of use, we provide hooks for Git with the `pre-commit <https://p
 msgstr ""
 
 #: ../../docs/contributing/development/code_style_guidelines.rst:80
-#: ../../docs/contributing/development/code_style_guidelines.rst:321
+#: ../../docs/contributing/development/code_style_guidelines.rst:323
 msgid "You can also run the hook manually with ``pre-commit run``."
 msgstr ""
 
 #: ../../docs/contributing/development/code_style_guidelines.rst:84
-#: ../../docs/contributing/development/code_style_guidelines.rst:325
+#: ../../docs/contributing/development/code_style_guidelines.rst:327
 msgid "Previously, we supplied a hook in the folder ``misc/hooks``. If you copied the script manually, these hooks should still work, but symlinks will be broken. If you are using the new system, run ``rm .git/hooks/*`` to remove the old hooks that are no longer needed."
 msgstr ""
 
 #: ../../docs/contributing/development/code_style_guidelines.rst:91
-#: ../../docs/contributing/development/code_style_guidelines.rst:280
+#: ../../docs/contributing/development/code_style_guidelines.rst:282
 msgid "Installation"
 msgstr ""
 
@@ -116,7 +116,7 @@ msgid "You then have different possibilities to apply clang-format to your chang
 msgstr ""
 
 #: ../../docs/contributing/development/code_style_guidelines.rst:108
-#: ../../docs/contributing/development/code_style_guidelines.rst:292
+#: ../../docs/contributing/development/code_style_guidelines.rst:294
 msgid "Manual usage"
 msgstr ""
 
@@ -204,111 +204,119 @@ msgstr ""
 msgid "Example:"
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:259
-msgid "Java"
+#: ../../docs/contributing/development/code_style_guidelines.rst:173
+msgid "my_new_file.h"
+msgstr ""
+
+#: ../../docs/contributing/development/code_style_guidelines.rst:219
+msgid "my_new_file.cpp"
 msgstr ""
 
 #: ../../docs/contributing/development/code_style_guidelines.rst:261
+msgid "Java"
+msgstr ""
+
+#: ../../docs/contributing/development/code_style_guidelines.rst:263
 msgid "Godot's Java code (mostly in ``platform/android``) is also enforced via ``clang-format``, so see the instructions above to set it up. Keep in mind that this style guide only applies to code written and maintained by Godot, not third-party code such as the ``java/src/com/google`` subfolder."
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:267
+#: ../../docs/contributing/development/code_style_guidelines.rst:269
 msgid "Python"
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:269
+#: ../../docs/contributing/development/code_style_guidelines.rst:271
 msgid "Godot's SCons buildsystem is written in Python, and various scripts included in the source tree are also using Python."
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:272
+#: ../../docs/contributing/development/code_style_guidelines.rst:274
 msgid "For those, we use the `Ruff linter and code formatter <https://docs.astral.sh/ruff/>`__."
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:275
+#: ../../docs/contributing/development/code_style_guidelines.rst:277
 msgid "Using ruff locally"
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:277
+#: ../../docs/contributing/development/code_style_guidelines.rst:279
 msgid "First of all, you will need to install Ruff. Ruff requires Python 3.7+ to run."
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:282
+#: ../../docs/contributing/development/code_style_guidelines.rst:284
 msgid "Here's how to install ruff:"
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:289
+#: ../../docs/contributing/development/code_style_guidelines.rst:291
 msgid "You then have different possibilities to apply ruff to your changes:"
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:294
+#: ../../docs/contributing/development/code_style_guidelines.rst:296
 msgid "You can apply ``ruff`` manually to one or more files with the following command:"
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:301
+#: ../../docs/contributing/development/code_style_guidelines.rst:303
 msgid "``-l 120`` means that the allowed number of characters per line is 120. This number was agreed upon by the developers."
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:303
+#: ../../docs/contributing/development/code_style_guidelines.rst:305
 msgid "The path can point to several files, either one after the other or using wildcards like in a typical Unix shell."
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:310
+#: ../../docs/contributing/development/code_style_guidelines.rst:312
 msgid "For ease of use, we provide hooks for Git with the `pre-commit <https://pre-commit.com/>`__ Python framework that will run ``ruff`` automatically on all your commits with the correct version of ``ruff``. To set up:"
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:332
+#: ../../docs/contributing/development/code_style_guidelines.rst:334
 msgid "Editor integration"
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:334
+#: ../../docs/contributing/development/code_style_guidelines.rst:336
 msgid "Many IDEs or code editors have beautifier plugins that can be configured to run ruff automatically, for example, each time you save a file. For details, you can check `Ruff Integrations <https://docs.astral.sh/ruff/integrations/>`__."
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:339
+#: ../../docs/contributing/development/code_style_guidelines.rst:341
 msgid "Comment style guide"
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:341
+#: ../../docs/contributing/development/code_style_guidelines.rst:343
 msgid "This comment style guide applies to all programming languages used within Godot's codebase."
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:344
+#: ../../docs/contributing/development/code_style_guidelines.rst:346
 msgid "Begin comments with a space character to distinguish them from disabled code."
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:345
+#: ../../docs/contributing/development/code_style_guidelines.rst:347
 msgid "Use sentence case for comments. Begin comments with an uppercase character and always end them with a period."
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:347
+#: ../../docs/contributing/development/code_style_guidelines.rst:349
 msgid "Reference variable/function names and values using backticks."
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:348
+#: ../../docs/contributing/development/code_style_guidelines.rst:350
 msgid "Wrap comments to ~100 characters."
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:349
-msgid "You can use ``TODO:``, ``FIXME:``, ``NOTE:``, or ``HACK:`` as admonitions when needed."
+#: ../../docs/contributing/development/code_style_guidelines.rst:351
+msgid "You can use ``TODO:``, ``FIXME:``, ``NOTE:``, ``WARNING:``, or ``HACK:`` as admonitions when needed."
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:352
-#: ../../docs/contributing/development/code_style_guidelines.rst:375
+#: ../../docs/contributing/development/code_style_guidelines.rst:354
+#: ../../docs/contributing/development/code_style_guidelines.rst:377
 msgid "**Example:**"
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:360
+#: ../../docs/contributing/development/code_style_guidelines.rst:362
 msgid "Don't repeat what the code says in a comment. Explain the *why* rather than *how*."
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:362
+#: ../../docs/contributing/development/code_style_guidelines.rst:364
 msgid "**Bad:**"
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:369
+#: ../../docs/contributing/development/code_style_guidelines.rst:371
 msgid "You can use Javadoc-style comments above function or macro definitions. It's recommended to use Javadoc-style comments *only* for methods which are not exposed to scripting. This is because exposed methods should be documented in the :ref:`class reference XML <doc_updating_the_class_reference>` instead."
 msgstr ""
 
-#: ../../docs/contributing/development/code_style_guidelines.rst:387
-msgid "For member variables, don't use Javadoc-style comments but use single-line comments instead:"
+#: ../../docs/contributing/development/code_style_guidelines.rst:389
+msgid "For member variables, don't use Javadoc-style comments, but use single-line comments instead:"
 msgstr ""

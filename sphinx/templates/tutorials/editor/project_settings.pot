@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -15,26 +15,86 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../docs/tutorials/editor/project_settings.rst:6
+#: ../../docs/tutorials/editor/project_settings.rst:4
 msgid "Project Settings"
 msgstr ""
 
-#: ../../docs/tutorials/editor/project_settings.rst:8
-msgid "This page explains how to use the Project Settings window. If you would like to access and modify project settings via code, see :ref:`ProjectSettings <class_ProjectSettings>`."
-msgstr ""
-
-#: ../../docs/tutorials/editor/project_settings.rst:10
-msgid "Godot stores the project settings in a project.godot file, a plain text file in INI format. There are dozens of settings you can change to control a project's execution. To simplify this process, Godot provides a project settings dialog, which acts as a front-end to editing a project.godot file."
+#: ../../docs/tutorials/editor/project_settings.rst:6
+msgid "There are dozens of settings you can change to control a project's execution, including physics, rendering, and windowing settings. These settings can be changed from the **Project Settings** window, from code, or by manually editing the ``project.godot`` file. You can see a full list of settings in the :ref:`ProjectSettings <class_ProjectSettings>` class."
 msgstr ""
 
 #: ../../docs/tutorials/editor/project_settings.rst:12
-msgid "To access that dialog, select Project -> Project Settings."
+msgid "Internally, Godot stores the settings for a project in a ``project.godot`` file, a plain text file in INI format. While this is human-readable and version control friendly, it's not the most convenient to edit. For that reason, the **Project Settings** window is available to edit these settings. To open the Project Settings, select **Project > Project Settings** from the main menu."
 msgstr ""
 
-#: ../../docs/tutorials/editor/project_settings.rst:14
-msgid "Once the window opens, let's select a main scene. Locate the `Application/Run/Main Scene` property and click on it to select 'hello.tscn'."
+#: ../../docs/tutorials/editor/project_settings.rst:21
+msgid "The Project Settings window"
 msgstr ""
 
-#: ../../docs/tutorials/editor/project_settings.rst:16
-msgid "The project settings dialog provides a lot of options that can be saved to a project.godot file and shows their default values. If you change a value, a tick appears to the left of its name. This means that the property will be saved in the project.godot file and remembered."
+#: ../../docs/tutorials/editor/project_settings.rst:23
+msgid "The **Project Settings** window is mainly used to change settings in the **General** tab. Additionally, there are tabs for the :ref:`Input Map <doc_input_examples_input_map>`, :ref:`Localization <doc_internationalizing_games>`, :ref:`Globals <doc_singletons_autoload>`, :ref:`Plugins <doc_installing_plugins_enabling_a_plugin>`, and **Import Defaults**. Usage of these other tabs is documented elsewhere."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_settings.rst:32
+msgid "Changing project settings"
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_settings.rst:34
+msgid "The **General** tab of the project settings window works much like the inspector. It displays a list of project settings which you can change, just like inspector properties. There is a list of categories on the left, which you can use to select related groups of settings. You can also search for a specific setting with the **Filter Settings** field."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_settings.rst:40
+msgid "Each setting has a default value. Settings can be reset to their default values by clicking the circular arrow **Reset** button next to each property."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_settings.rst:44
+msgid "Changing project settings from code"
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_settings.rst:46
+msgid "You can use :ref:`set_setting() <class_ProjectSettings_method_set_setting>` to change a setting's value from code:"
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_settings.rst:60
+msgid "However, many project settings are only read once when the game starts. After that, changing the setting with ``set_setting()`` will have no effect. Instead, most settings have a corresponding property or method on a runtime class like :ref:`Engine <class_Engine>` or :ref:`DisplayServer <class_DisplayServer>`:"
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_settings.rst:76
+msgid "In general, project settings are duplicated at runtime in the :ref:`Engine <class_Engine>`, :ref:`PhysicsServer2D <class_PhysicsServer2D>`, :ref:`PhysicsServer3D <class_PhysicsServer3D>`, :ref:`RenderingServer <class_RenderingServer>`, :ref:`Viewport <class_Viewport>`, or :ref:`Window <class_Window>` classes. In the :ref:`ProjectSettings <class_ProjectSettings>` class reference, settings links to their equivalent runtime property or method."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_settings.rst:85
+msgid "Reading project settings"
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_settings.rst:87
+msgid "You can read project settings with :ref:`get_setting() <class_ProjectSettings_method_get_setting>` or :ref:`get_setting_with_override() <class_ProjectSettings_method_get_setting_with_override>`:"
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_settings.rst:102
+msgid "Since many project settings are only read once at startup, the value in the project settings may no longer be accurate. In these cases, it's better to read the value from the runtime equivalent property or method:"
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_settings.rst:118
+msgid "Manually editing project.godot"
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_settings.rst:120
+msgid "You can open the ``project.godot`` file using a text editor and manually change project settings. Note that if the ``project.godot`` file does not have a stored value for a particular setting, it is implicitly the default value of that setting. This means that if you are are manually editing the file, you may have to write in both the setting name *and* the value."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_settings.rst:126
+msgid "In general, it is recommended to use the Project Settings window rather than manually edit ``project.godot``."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_settings.rst:130
+msgid "Advanced project settings"
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_settings.rst:135
+msgid "The advanced project settings"
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_settings.rst:137
+msgid "By default, only some project settings are shown. To see all the project settings, enable the **Advanced Settings** toggle."
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -68,7 +68,7 @@ msgid "You can create new groups using the Groups tab in the Node dock."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/groups.rst:36
-msgid "Select one or more nodes in the Scene dock then click the add button with the + symbol."
+msgid "Select a node in the Scene dock then click the add button with the + symbol."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/groups.rst:40
@@ -88,7 +88,7 @@ msgid "You should see the new groups appear in the Groups tab under Scene Groups
 msgstr ""
 
 #: ../../docs/tutorials/scripting/groups.rst:52
-msgid "Selected Node(s) from the Scene dock can be added into groups by marking the checkbox on the left side of the groups in the Groups dock. The node(s) you had selected when creating a new group will be automatically checked."
+msgid "A selected Node from the Scene dock can be added into groups by marking the checkbox on the left side of the groups in the Groups dock. The node you had selected when creating a new group will be automatically checked."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/groups.rst:57

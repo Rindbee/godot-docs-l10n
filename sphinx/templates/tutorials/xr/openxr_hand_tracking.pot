@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -228,7 +228,7 @@ msgid "You can access this information through code:"
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_hand_tracking.rst:188
-msgid "This example simply logs the state for the left hand."
+msgid "This example logs the state for the left hand."
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_hand_tracking.rst:190

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -96,19 +96,19 @@ msgid "The ``get_next_path_position()`` function is responsible for updating man
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:59
-msgid "The following properties influence the path following behavior."
+msgid "The following distance properties influence the path following behavior."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:61
-msgid "The ``path_desired_distance`` defines the distance at which the agent advances its internal path index to the next path position."
+msgid "At ``path_desired_distance`` from the next path position, the agent advances its internal path index to the subsequent next path position."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:62
-msgid "The ``target_desired_distance`` defines the distance at which the agent considers the target position to be reached and the path at its end."
+msgid "At ``target_desired_distance`` from the target path position, the agent considers the target position to be reached and the path at its end."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:63
-msgid "The ``path_max_distance`` defines when an agent requests a new path cause it was moved too far away from the current path point segment."
+msgid "At ``path_max_distance`` from the ideal path to the next path position, the agent requests a new path because it was pushed too far off."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:65
@@ -228,7 +228,7 @@ msgid "The properties ``avoidance_layers`` and ``avoidance_mask`` are bitmasks s
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:124
-msgid "The ``avoidance_priority`` makes agents with a higher priority ignore agents with a lower priority. This can be used to give certain agents more importance in the avoidance simulation, e.g. important npcs characters, without constantly changing their entire avoidance layers or mask."
+msgid "The ``avoidance_priority`` makes agents with a higher priority ignore agents with a lower priority. This can be used to give certain agents more importance in the avoidance simulation, e.g. important non-playable characters, without constantly changing their entire avoidance layers or mask."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:127
@@ -247,18 +247,26 @@ msgstr ""
 msgid "Using the NavigationAgent ``enable_avoidance`` property is the preferred option to toggle avoidance. The following code snippets can be used to toggle avoidance on agents, create or delete avoidance callbacks or switch avoidance modes."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:183
+#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:232
 msgid "NavigationAgent Script Templates"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:185
+#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:234
 msgid "The following sections provides script templates for nodes commonly used with NavigationAgents."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:189
+#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:238
 msgid "2D GDScript"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:286
+#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:335
+msgid "2D C#"
+msgstr ""
+
+#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:498
 msgid "3D GDScript"
+msgstr ""
+
+#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:595
+msgid "3D C#"
 msgstr ""

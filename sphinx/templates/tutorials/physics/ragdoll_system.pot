@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -103,22 +103,22 @@ msgstr ""
 msgid "The ragdoll is now ready to use. To start the simulation and play the ragdoll animation, you need to call the ``physical_bones_start_simulation`` method. Attach a script to the skeleton node and call the method in the ``_ready`` method:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:71
+#: ../../docs/tutorials/physics/ragdoll_system.rst:78
 msgid "To stop the simulation, call the ``physical_bones_stop_simulation()`` method."
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:75
+#: ../../docs/tutorials/physics/ragdoll_system.rst:82
 msgid "You can also limit the simulation to only a few bones. To do so, pass the bone names as a parameter. Here's an example of partial ragdoll simulation:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:80
+#: ../../docs/tutorials/physics/ragdoll_system.rst:87
 msgid "Collision layer and mask"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:82
+#: ../../docs/tutorials/physics/ragdoll_system.rst:89
 msgid "Make sure to set up your collision layers and masks properly so the ``CharacterBody3D``'s capsule doesn't get in the way of the physics simulation:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:86
+#: ../../docs/tutorials/physics/ragdoll_system.rst:93
 msgid "For more information, read :ref:`doc_physics_introduction_collision_layers_and_masks`."
 msgstr ""

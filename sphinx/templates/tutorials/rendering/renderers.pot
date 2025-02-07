@@ -1,0 +1,737 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/tutorials/rendering/renderers.rst:4
+msgid "Renderers"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:8
+msgid "This page gives an overview of Godot's renderers, focusing on the differences between their rendering features. For more technical details on the renderers, see :ref:`doc_internal_rendering_architecture`."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:13
+msgid "Introduction"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:15
+msgid "Godot 4 includes three renderers:"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:17
+msgid "**Forward+**. The most advanced renderer, suited for desktop platforms only. Used by default on desktop platforms. This renderer uses **Vulkan**, **Direct3D 12**, or **Metal** as the rendering driver, and it uses the **RenderingDevice** backend."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:20
+msgid "**Mobile**. Fewer features, but renders simple scenes faster. Suited for mobile and desktop platforms. Used by default on mobile platforms. This renderer uses **Vulkan**, **Direct3D 12**, or **Metal** as the rendering driver, and it uses the **RenderingDevice** backend."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:24
+msgid "**Compatibility**, sometimes called **GL Compatibility**. The least advanced renderer, suited for low-end desktop and mobile platforms. Used by default on the web platform. This renderer uses **OpenGL** as the rendering driver."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:29
+msgid "Renderers, rendering drivers, and RenderingDevice"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:31
+msgid "Diagram of rendering layers. The Compatibility renderer runs on the OpenGL\n"
+"driver. The Forward+ and Mobile renderers run on RenderingDevice, which can use\n"
+"Vulkan, Direct3D 12, or Metal as a rendering driver."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:37
+msgid "Godot's rendering abstraction layers."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:39
+msgid "The *renderer*, or *rendering method*, determines which features are available. Most of the time, this is the only thing you need to think about. Godot's renderers are **Forward+**, **Mobile**, and **Compatibility**."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:43
+msgid "The *rendering driver* tells the GPU what to do, using a graphics API. Godot can use the **OpenGL**, **Vulkan**, **Direct3D 12**, and **Metal** rendering drivers. Not every GPU supports every rendering driver, and therefore not every GPU supports all renderers. Vulkan, Direct3D 12, and Metal are modern, low-level graphics APIs, and requires newer hardware. OpenGL is an older graphics API that runs on most hardware."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:49
+msgid "RenderingDevice is a *rendering backend*, an abstraction layer between the renderer and the rendering driver. It is used by the Forward+ and Mobile renderers, and these renderers are sometimes called \"RenderingDevice-based renderers\"."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:54
+msgid "Choosing a renderer"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:56
+msgid "Choosing a renderer is a complex question, and depends on your hardware and the which platforms you are developing for. As a starting point:"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:59
+msgid "Choose **Forward+** if:"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:61
+msgid "You are developing for desktop."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:62
+#: ../../docs/tutorials/rendering/renderers.rst:69
+msgid "You have relatively new hardware which supports Vulkan, Direct3D 12, or Metal."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:63
+#: ../../docs/tutorials/rendering/renderers.rst:70
+msgid "You are developing a 3D game."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:64
+msgid "You want to use the most advanced rendering features."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:66
+msgid "Choose **Mobile** if:"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:68
+msgid "You are developing for newer mobile devices, desktop XR, or desktop."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:71
+msgid "You want to use advanced rendering features, subject to the limitations of mobile hardware."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:74
+msgid "Choose **Compatibility** if:"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:76
+msgid "You are developing for older mobile devices, older desktop devices, or standalone XR. The Compatibility renderer supports the widest range of hardware."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:78
+msgid "You are developing for web. In this case, Compatibility is the only choice."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:79
+msgid "You have older hardware which does not support Vulkan. In this case, Compatibility is the only choice."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:81
+msgid "You are developing a 2D game, or a 3D game which does not need advanced rendering features."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:83
+msgid "You want the best performance possible on all devices and don't need advanced rendering features."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:86
+msgid "Keep in mind every game is unique, and this is only a starting point. For example, you might choose to use the Compatibility renderer even though you have the latest GPU, so you can support the widest range of hardware. Or you might want to use the Forward+ renderer for a 2D game, so you can advanced features like compute shaders."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:92
+msgid "Switching between renderers"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:94
+msgid "In the editor, you can always switch between renderers by clicking on the renderer name in the upper-right corner of the editor."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:97
+msgid "Switching between renderers may require some manual tweaks to your scene, lighting, and environment, since each renderer is different. In general, switching between the Mobile and Forward+ renderers will require fewer adjustments than switching between the Compatibility renderer and the Forward+ or Mobile renderers."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:102
+msgid "Since Godot 4.4, when using Forward+ or Mobile, if Vulkan is not supported, the engine will fall back to Direct3D 12 and vice versa. If the attempted fallback driver is not supported either, the engine will then fall back to Compatibility when the RenderingDevice backend is not supported. This allows the project to run anyway, but it may look different than the intended appearance due to the more limited renderer. This behavior can be disabled in the project settings by unchecking :ref:`Rendering > Rendering Device > Fallback to OpenGL 3<class_ProjectSettings_property_rendering/rendering_device/fallback_to_opengl3>`."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:111
+msgid "Feature comparison"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:113
+msgid "This is not a complete list of the features of each renderer. If a feature is not listed here, it is available in all renderers, though it may be much faster on some renderers. For a list of *all* features in Godot, see :ref:`doc_list_of_features`."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:117
+msgid "Hardware with RenderingDevice support is hardware which can run Vulkan, Direct3D 12, or Metal."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:121
+msgid "Overall comparison"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:128
+#: ../../docs/tutorials/rendering/renderers.rst:196
+#: ../../docs/tutorials/rendering/renderers.rst:226
+#: ../../docs/tutorials/rendering/renderers.rst:254
+#: ../../docs/tutorials/rendering/renderers.rst:291
+#: ../../docs/tutorials/rendering/renderers.rst:315
+#: ../../docs/tutorials/rendering/renderers.rst:327
+#: ../../docs/tutorials/rendering/renderers.rst:345
+msgid "Feature"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:128
+#: ../../docs/tutorials/rendering/renderers.rst:196
+#: ../../docs/tutorials/rendering/renderers.rst:226
+#: ../../docs/tutorials/rendering/renderers.rst:254
+#: ../../docs/tutorials/rendering/renderers.rst:291
+#: ../../docs/tutorials/rendering/renderers.rst:315
+#: ../../docs/tutorials/rendering/renderers.rst:327
+#: ../../docs/tutorials/rendering/renderers.rst:345
+msgid "Compatibility"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:128
+#: ../../docs/tutorials/rendering/renderers.rst:150
+#: ../../docs/tutorials/rendering/renderers.rst:196
+#: ../../docs/tutorials/rendering/renderers.rst:226
+#: ../../docs/tutorials/rendering/renderers.rst:254
+#: ../../docs/tutorials/rendering/renderers.rst:291
+#: ../../docs/tutorials/rendering/renderers.rst:315
+#: ../../docs/tutorials/rendering/renderers.rst:327
+#: ../../docs/tutorials/rendering/renderers.rst:345
+msgid "Mobile"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:128
+#: ../../docs/tutorials/rendering/renderers.rst:196
+#: ../../docs/tutorials/rendering/renderers.rst:226
+#: ../../docs/tutorials/rendering/renderers.rst:254
+#: ../../docs/tutorials/rendering/renderers.rst:291
+#: ../../docs/tutorials/rendering/renderers.rst:315
+#: ../../docs/tutorials/rendering/renderers.rst:327
+#: ../../docs/tutorials/rendering/renderers.rst:345
+msgid "Forward+"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:130
+msgid "**Required** **hardware**"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:130
+msgid "Older or low-end."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:130
+msgid "Newer or high-end. Requires Vulkan, Direct3D 12, or Metal support."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:134
+msgid "Runs on new hardware"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:134
+#: ../../docs/tutorials/rendering/renderers.rst:136
+#: ../../docs/tutorials/rendering/renderers.rst:139
+#: ../../docs/tutorials/rendering/renderers.rst:148
+#: ../../docs/tutorials/rendering/renderers.rst:158
+#: ../../docs/tutorials/rendering/renderers.rst:160
+#: ../../docs/tutorials/rendering/renderers.rst:164
+#: ../../docs/tutorials/rendering/renderers.rst:168
+#: ../../docs/tutorials/rendering/renderers.rst:171
+msgid "✔️ Yes."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:136
+msgid "Runs on old and low-end hardware"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:136
+msgid "✔️ Yes, but slower than Compatibility."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:136
+msgid "✔️ Yes, but slowest of all renderers."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:139
+msgid "Runs on hardware without RenderingDevice support"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:139
+#: ../../docs/tutorials/rendering/renderers.rst:158
+#: ../../docs/tutorials/rendering/renderers.rst:174
+msgid "❌ No."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:144
+msgid "**Target platforms**"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:144
+msgid "Mobile, low-end desktop, web."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:144
+msgid "Mobile, desktop."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:144
+msgid "Desktop."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:148
+msgid "Desktop"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:150
+msgid "✔️ Yes (low-end)."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:150
+msgid "✔️ Yes (high-end)."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:150
+#: ../../docs/tutorials/rendering/renderers.rst:154
+msgid "⚠️ Supported, but poorly optimized. Use Mobile or Compatibility instead."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:154
+msgid "XR"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:154
+msgid "✔️ Yes. Recommended for standalone headsets."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:154
+msgid "✔️ Yes. Recommended for"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:155
+msgid "desktop headsets."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:158
+msgid "Web"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:160
+msgid "2D Games"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:160
+msgid "✔️ Yes, but Compatibility is usually good enough for 2D."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:164
+msgid "3D Games"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:166
+msgid "**Feature set**"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:166
+msgid "2D and core 3D features."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:166
+msgid "Most rendering features."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:166
+msgid "All rendering features."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:168
+msgid "2D rendering features"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:171
+msgid "Core 3D rendering features"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:174
+msgid "Advanced rendering features"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:174
+msgid "⚠️ Yes, limited by mobile hardware."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:174
+msgid "✔️ Yes. All rendering features are supported."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:177
+msgid "New features"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:177
+msgid "⚠️ Some new rendering features are added to Compatibility. Features are added after Mobile and Forward+."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:177
+msgid "✔️ Most new rendering features are added to Mobile. Mobile usually gets new features as Forward+ does."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:177
+msgid "✔️ All new features are added to Forward+. As the focus of new development, Forward+ gets features first."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:183
+msgid "Rendering cost"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:183
+msgid "Low base cost, but high scaling cost."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:183
+msgid "Medium base cost, and medium scaling cost."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:183
+msgid "Highest base cost, and low scaling cost."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:186
+msgid "Rendering driver"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:186
+msgid "OpenGL."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:186
+msgid "Vulkan, Direct3D 12, or Metal."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:191
+msgid "Lights and shadows"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:193
+msgid "See :ref:`doc_lights_and_shadows` for more information."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:198
+msgid "Lighting approach"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:198
+msgid "Forward"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:198
+msgid "Clustered Forward"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:201
+msgid "Maximum OmniLights"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:201
+#: ../../docs/tutorials/rendering/renderers.rst:204
+msgid "8 per mesh. Can be increased."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:201
+#: ../../docs/tutorials/rendering/renderers.rst:204
+msgid "8 per mesh, 256 per view."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:201
+#: ../../docs/tutorials/rendering/renderers.rst:204
+msgid "512 per cluster. Can be increased."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:204
+msgid "Maximum SpotLights"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:207
+msgid "Maximum DirectionalLights"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:207
+msgid "8"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:210
+msgid "PCSS for OmniLight and SpotLight"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:210
+#: ../../docs/tutorials/rendering/renderers.rst:213
+#: ../../docs/tutorials/rendering/renderers.rst:216
+#: ../../docs/tutorials/rendering/renderers.rst:237
+#: ../../docs/tutorials/rendering/renderers.rst:240
+#: ../../docs/tutorials/rendering/renderers.rst:243
+#: ../../docs/tutorials/rendering/renderers.rst:258
+#: ../../docs/tutorials/rendering/renderers.rst:262
+#: ../../docs/tutorials/rendering/renderers.rst:264
+#: ../../docs/tutorials/rendering/renderers.rst:267
+#: ../../docs/tutorials/rendering/renderers.rst:270
+#: ../../docs/tutorials/rendering/renderers.rst:281
+#: ../../docs/tutorials/rendering/renderers.rst:295
+#: ../../docs/tutorials/rendering/renderers.rst:297
+#: ../../docs/tutorials/rendering/renderers.rst:299
+#: ../../docs/tutorials/rendering/renderers.rst:301
+#: ../../docs/tutorials/rendering/renderers.rst:305
+#: ../../docs/tutorials/rendering/renderers.rst:317
+#: ../../docs/tutorials/rendering/renderers.rst:334
+#: ../../docs/tutorials/rendering/renderers.rst:336
+#: ../../docs/tutorials/rendering/renderers.rst:347
+#: ../../docs/tutorials/rendering/renderers.rst:350
+#: ../../docs/tutorials/rendering/renderers.rst:352
+#: ../../docs/tutorials/rendering/renderers.rst:354
+#: ../../docs/tutorials/rendering/renderers.rst:357
+#: ../../docs/tutorials/rendering/renderers.rst:359
+msgid "❌ Not supported."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:210
+#: ../../docs/tutorials/rendering/renderers.rst:213
+#: ../../docs/tutorials/rendering/renderers.rst:216
+#: ../../docs/tutorials/rendering/renderers.rst:231
+#: ../../docs/tutorials/rendering/renderers.rst:237
+#: ../../docs/tutorials/rendering/renderers.rst:240
+#: ../../docs/tutorials/rendering/renderers.rst:243
+#: ../../docs/tutorials/rendering/renderers.rst:256
+#: ../../docs/tutorials/rendering/renderers.rst:258
+#: ../../docs/tutorials/rendering/renderers.rst:260
+#: ../../docs/tutorials/rendering/renderers.rst:262
+#: ../../docs/tutorials/rendering/renderers.rst:264
+#: ../../docs/tutorials/rendering/renderers.rst:267
+#: ../../docs/tutorials/rendering/renderers.rst:270
+#: ../../docs/tutorials/rendering/renderers.rst:274
+#: ../../docs/tutorials/rendering/renderers.rst:276
+#: ../../docs/tutorials/rendering/renderers.rst:278
+#: ../../docs/tutorials/rendering/renderers.rst:281
+#: ../../docs/tutorials/rendering/renderers.rst:293
+#: ../../docs/tutorials/rendering/renderers.rst:295
+#: ../../docs/tutorials/rendering/renderers.rst:297
+#: ../../docs/tutorials/rendering/renderers.rst:299
+#: ../../docs/tutorials/rendering/renderers.rst:301
+#: ../../docs/tutorials/rendering/renderers.rst:303
+#: ../../docs/tutorials/rendering/renderers.rst:305
+#: ../../docs/tutorials/rendering/renderers.rst:317
+#: ../../docs/tutorials/rendering/renderers.rst:329
+#: ../../docs/tutorials/rendering/renderers.rst:331
+#: ../../docs/tutorials/rendering/renderers.rst:334
+#: ../../docs/tutorials/rendering/renderers.rst:336
+#: ../../docs/tutorials/rendering/renderers.rst:347
+#: ../../docs/tutorials/rendering/renderers.rst:350
+#: ../../docs/tutorials/rendering/renderers.rst:352
+#: ../../docs/tutorials/rendering/renderers.rst:354
+#: ../../docs/tutorials/rendering/renderers.rst:357
+#: ../../docs/tutorials/rendering/renderers.rst:359
+msgid "✔️ Supported."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:213
+msgid "PCSS for DirectionalLight"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:216
+msgid "Light projector textures"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:221
+msgid "Global Illumination"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:223
+msgid "See :ref:`doc_introduction_to_global_illumination` for more information."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:228
+msgid "ReflectionProbe"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:228
+msgid "✔️ Supported, 2 per mesh."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:228
+msgid "✔️ Supported, 8 per mesh."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:228
+msgid "✔️ Supported, unlimited."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:231
+msgid "LightmapGI"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:231
+msgid "⚠️ Rendering of baked lightmaps is supported. Baking requires hardware with RenderingDevice support."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:237
+msgid "VoxelGI"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:240
+#: ../../docs/tutorials/rendering/renderers.rst:267
+msgid "Screen-Space Indirect Lighting (SSIL)"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:243
+#: ../../docs/tutorials/rendering/renderers.rst:270
+msgid "Signed Distance Field Global Illumination (SDFGI)"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:249
+msgid "Environment and post-processing"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:251
+msgid "See :ref:`doc_environment_and_post_processing` for more information."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:256
+msgid "Fog (Depth and Height)"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:258
+msgid "Volumetric Fog"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:260
+msgid "Tonemapping"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:262
+msgid "Screen-Space Reflections"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:264
+msgid "Screen-Space Ambient Occlusion (SSAO)"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:274
+msgid "Glow"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:276
+msgid "Adjustments"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:278
+msgid "Custom post-processing with fullscreen quad"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:281
+msgid "Custom post-processing with CompositorEffects"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:286
+msgid "Antialiasing"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:288
+msgid "See :ref:`doc_3d_antialiasing` for more information."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:293
+msgid "MSAA 3D"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:295
+msgid "MSAA 2D"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:297
+msgid "TAA"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:299
+msgid "FSR2"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:301
+msgid "FXAA"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:303
+msgid "SSAA"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:305
+msgid "Screen-space roughness limiter"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:310
+msgid "StandardMaterial features"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:312
+msgid "See :ref:`doc_standard_material_3d` for more information."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:317
+msgid "Sub-surface scattering"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:322
+msgid "Shader features"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:324
+msgid "See :ref:`doc_shading_reference` for more information."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:329
+msgid "Screen texture"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:331
+msgid "Depth texture"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:334
+msgid "Normal/Roughness texture"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:336
+msgid "Compute shaders"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:336
+msgid "⚠️ Supported, but comes with a performance penalty on older devices."
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:342
+msgid "Other features"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:347
+msgid "Variable rate shading"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:350
+msgid "Decals"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:352
+msgid "Depth of field blur"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:354
+msgid "Adaptive and Mailbox VSync modes"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:357
+msgid "2D HDR Viewport"
+msgstr ""
+
+#: ../../docs/tutorials/rendering/renderers.rst:359
+msgid "RenderingDevice access"
+msgstr ""

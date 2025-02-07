@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,7 +28,7 @@ msgid "One of the most common tasks in game development is casting a ray (or cus
 msgstr ""
 
 #: ../../docs/tutorials/physics/ray-casting.rst:14
-msgid "Godot stores all the low level game information in servers, while the scene is only a frontend. As such, ray casting is generally a lower-level task. For simple raycasts, nodes like :ref:`RayCast3D <class_RayCast3D>` and :ref:`RayCast2D <class_RayCast2D>` will work, as they return every frame what the result of a raycast is."
+msgid "Godot stores all the low-level game information in servers, while the scene is only a frontend. As such, ray casting is generally a lower-level task. For simple raycasts, nodes like :ref:`RayCast3D <class_RayCast3D>` and :ref:`RayCast2D <class_RayCast2D>` will work, as they return every frame what the result of a raycast is."
 msgstr ""
 
 #: ../../docs/tutorials/physics/ray-casting.rst:21
@@ -40,7 +40,7 @@ msgid "Space"
 msgstr ""
 
 #: ../../docs/tutorials/physics/ray-casting.rst:27
-msgid "In the physics world, Godot stores all the low level collision and physics information in a *space*. The current 2d space (for 2D Physics) can be obtained by accessing :ref:`CanvasItem.get_world_2d().space <class_CanvasItem_method_get_world_2d>`. For 3D, it's :ref:`Node3D.get_world_3d().space <class_Node3D_method_get_world_3d>`."
+msgid "In the physics world, Godot stores all the low-level collision and physics information in a *space*. The current 2d space (for 2D Physics) can be obtained by accessing :ref:`CanvasItem.get_world_2d().space <class_CanvasItem_method_get_world_2d>`. For 3D, it's :ref:`Node3D.get_world_3d().space <class_Node3D_method_get_world_3d>`."
 msgstr ""
 
 #: ../../docs/tutorials/physics/ray-casting.rst:33
@@ -91,54 +91,54 @@ msgstr ""
 msgid "The data is similar in 3D space, using Vector3 coordinates. Note that to enable collisions with Area3D, the boolean parameter ``collide_with_areas`` must be set to ``true``."
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:175
+#: ../../docs/tutorials/physics/ray-casting.rst:193
 msgid "Collision exceptions"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:177
+#: ../../docs/tutorials/physics/ray-casting.rst:195
 msgid "A common use case for ray casting is to enable a character to gather data about the world around it. One problem with this is that the same character has a collider, so the ray will only detect its parent's collider, as shown in the following image:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:184
+#: ../../docs/tutorials/physics/ray-casting.rst:202
 msgid "To avoid self-intersection, the ``intersect_ray()`` parameters object can take an array of exceptions via its ``exclude`` property. This is an example of how to use it from a CharacterBody2D or any other collision object node:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:214
+#: ../../docs/tutorials/physics/ray-casting.rst:232
 msgid "The exceptions array can contain objects or RIDs."
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:217
+#: ../../docs/tutorials/physics/ray-casting.rst:235
 msgid "Collision Mask"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:219
+#: ../../docs/tutorials/physics/ray-casting.rst:237
 msgid "While the exceptions method works fine for excluding the parent body, it becomes very inconvenient if you need a large and/or dynamic list of exceptions. In this case, it is much more efficient to use the collision layer/mask system."
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:223
+#: ../../docs/tutorials/physics/ray-casting.rst:241
 msgid "The ``intersect_ray()`` parameters object can also be supplied a collision mask. For example, to use the same mask as the parent body, use the ``collision_mask`` member variable. The array of exceptions can be supplied as the last argument as well:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:253
+#: ../../docs/tutorials/physics/ray-casting.rst:271
 msgid "See :ref:`doc_physics_introduction_collision_layer_code_example` for details on how to set the collision mask."
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:256
+#: ../../docs/tutorials/physics/ray-casting.rst:274
 msgid "3D ray casting from screen"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:258
+#: ../../docs/tutorials/physics/ray-casting.rst:276
 msgid "Casting a ray from screen to 3D physics space is useful for object picking. There is not much need to do this because :ref:`CollisionObject3D <class_CollisionObject3D>` has an \"input_event\" signal that will let you know when it was clicked, but in case there is any desire to do it manually, here's how."
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:264
+#: ../../docs/tutorials/physics/ray-casting.rst:282
 msgid "To cast a ray from the screen, you need a :ref:`Camera3D <class_Camera3D>` node. A ``Camera3D`` can be in two projection modes: perspective and orthogonal. Because of this, both the ray origin and direction must be obtained. This is because ``origin`` changes in orthogonal mode, while ``normal`` changes in perspective mode:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:272
+#: ../../docs/tutorials/physics/ray-casting.rst:290
 msgid "To obtain it using a camera, the following code can be used:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:299
+#: ../../docs/tutorials/physics/ray-casting.rst:317
 msgid "Remember that during ``_input()``, the space may be locked, so in practice this query should be run in ``_physics_process()``."
 msgstr ""

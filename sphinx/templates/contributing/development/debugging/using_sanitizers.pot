@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -58,7 +58,7 @@ msgstr ""
 #: ../../docs/contributing/development/debugging/using_sanitizers.rst:44
 #: ../../docs/contributing/development/debugging/using_sanitizers.rst:77
 #: ../../docs/contributing/development/debugging/using_sanitizers.rst:120
-#: ../../docs/contributing/development/debugging/using_sanitizers.rst:146
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:180
 msgid "Available in Clang and GCC."
 msgstr ""
 
@@ -156,42 +156,74 @@ msgstr ""
 msgid "To enable the thread sanitizer in a Godot build, pass the ``use_tsan=yes`` SCons option when compiling. Enabling TSAN generally makes the resulting binary 10× slower, while also multiplying memory usage by an approximately 8× factor."
 msgstr ""
 
-#: ../../docs/contributing/development/debugging/using_sanitizers.rst:144
-msgid "Undefined behavior sanitizer (UBSAN)"
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:145
+msgid "On Linux, if you stumble upon the following error:"
 msgstr ""
 
 #: ../../docs/contributing/development/debugging/using_sanitizers.rst:147
-msgid "**Supported platforms:** Linux, macOS, Web"
+msgid "``FATAL: ThreadSanitizer: unexpected memory mapping``"
 msgstr ""
 
-#: ../../docs/contributing/development/debugging/using_sanitizers.rst:148
-msgid "`Clang UBSAN documentation <https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html>`__"
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:149
+msgid "You may need to temporarily lower the Address Space Layout Randomization (ASLR) entropy in your system with:"
 msgstr ""
 
-#: ../../docs/contributing/development/debugging/using_sanitizers.rst:150
-msgid "The undefined behavior sanitizer is used to track down situations where the program exhibits random and unpredictable behavior. This is due to C/C++ code that is accepted by the compiler, but is not *correct*. Compiling with a different set of optimizations can also change the observed results of undefined behavior."
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:155
+msgid "Or preferably disable it entirely with:"
 msgstr ""
 
-#: ../../docs/contributing/development/debugging/using_sanitizers.rst:156
-msgid "To enable the undefined behavior sanitizer in a Godot build, pass the ``use_ubsan=yes`` SCons option when compiling. Enabling UBSAN only has a small performance overhead."
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:161
+msgid "And as soon as you are done with the thread sanitizer, increase the ASLR entropy with:"
 msgstr ""
 
-#: ../../docs/contributing/development/debugging/using_sanitizers.rst:163
-msgid "Platform-specific sanitizers"
-msgstr ""
-
-#: ../../docs/contributing/development/debugging/using_sanitizers.rst:166
-msgid "Web"
-msgstr ""
-
-#: ../../docs/contributing/development/debugging/using_sanitizers.rst:168
-msgid "When :ref:`compiling for the Web <doc_compiling_for_web>`, there are 2 additional sanitizer SCons options available:"
-msgstr ""
-
-#: ../../docs/contributing/development/debugging/using_sanitizers.rst:171
-msgid "``use_assertions=yes`` enables runtime Emscripten assertions, which can catch various issues."
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:167
+msgid "Or re-enable ASLR with:"
 msgstr ""
 
 #: ../../docs/contributing/development/debugging/using_sanitizers.rst:173
+msgid "Rebooting your machine will also revert the ASLR state to its default values."
+msgstr ""
+
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:175
+msgid "It's important to revert the changes as soon as possible because lowering the ASLR entropy or disabling ASLR entirely can be a security risk."
+msgstr ""
+
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:178
+msgid "Undefined behavior sanitizer (UBSAN)"
+msgstr ""
+
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:181
+msgid "**Supported platforms:** Linux, macOS, Web"
+msgstr ""
+
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:182
+msgid "`Clang UBSAN documentation <https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html>`__"
+msgstr ""
+
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:184
+msgid "The undefined behavior sanitizer is used to track down situations where the program exhibits random and unpredictable behavior. This is due to C/C++ code that is accepted by the compiler, but is not *correct*. Compiling with a different set of optimizations can also change the observed results of undefined behavior."
+msgstr ""
+
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:190
+msgid "To enable the undefined behavior sanitizer in a Godot build, pass the ``use_ubsan=yes`` SCons option when compiling. Enabling UBSAN only has a small performance overhead."
+msgstr ""
+
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:197
+msgid "Platform-specific sanitizers"
+msgstr ""
+
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:200
+msgid "Web"
+msgstr ""
+
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:202
+msgid "When :ref:`compiling for the Web <doc_compiling_for_web>`, there are 2 additional sanitizer SCons options available:"
+msgstr ""
+
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:205
+msgid "``use_assertions=yes`` enables runtime Emscripten assertions, which can catch various issues."
+msgstr ""
+
+#: ../../docs/contributing/development/debugging/using_sanitizers.rst:207
 msgid "``use_safe_heap=yes`` enables `Emscripten's SAFE_HEAP sanitizer <https://emscripten.org/docs/debugging/Sanitizers.html>`__. It provides similar functionality to ASAN, but it focuses on issues that are specific to WebAssembly. ``SAFE_HEAP`` is not guaranteed to be compatible with ASAN and UBSAN in the same binary, so you may have to build it separately."
 msgstr ""

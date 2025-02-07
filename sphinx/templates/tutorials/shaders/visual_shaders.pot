@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -48,289 +48,309 @@ msgid "Click on the new ``Shader`` resource and the Create Shader dialog will op
 msgstr ""
 
 #: ../../docs/tutorials/shaders/visual_shaders.rst:37
-msgid "Click on the visual shader you just created to open the Shader Editor. The layout of the Shader Editor comprises two parts: the upper toolbar and the graph itself."
+msgid "Click on the visual shader you just created to open the Shader Editor. The layout of the Shader Editor comprises four parts, a file list on the right, the upper toolbar, the graph itself, and a material preview on the right that can be toggled off"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:43
+#: ../../docs/tutorials/shaders/visual_shaders.rst:44
 msgid "From left to right in the toolbar:"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:45
+#: ../../docs/tutorials/shaders/visual_shaders.rst:46
 msgid "The ``Add Node`` button displays a popup menu to let you add nodes to the shader graph."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:47
+#: ../../docs/tutorials/shaders/visual_shaders.rst:48
 msgid "The drop-down menu is the shader type: Vertex, Fragment and Light. Like for script shaders, it defines what built-in nodes will be available."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:49
+#: ../../docs/tutorials/shaders/visual_shaders.rst:50
 msgid "The following buttons and number input control the zooming level, grid snapping and distance between grid lines (in pixels)."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:51
+#: ../../docs/tutorials/shaders/visual_shaders.rst:52
 msgid "The toggle controls if the graph minimap in the bottom right of the editor is visible or not."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:53
+#: ../../docs/tutorials/shaders/visual_shaders.rst:54
 msgid "The automatically arrange selected nodes button will try to organize any nodes you have selected as efficiently and cleanly as possible."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:55
+#: ../../docs/tutorials/shaders/visual_shaders.rst:56
 msgid "The Manage Varyings button opens a dropdown that lets you add or remove a varying."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:57
-msgid "The last icon shows the generated shader code corresponding to your graph."
+#: ../../docs/tutorials/shaders/visual_shaders.rst:58
+msgid "The show generated code button shows shader code corresponding to your graph."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:61
+#: ../../docs/tutorials/shaders/visual_shaders.rst:59
+msgid "The last icon toggles the material preview on or off."
+msgstr ""
+
+#: ../../docs/tutorials/shaders/visual_shaders.rst:63
 msgid "Although VisualShaders do not require coding, they share the same logic with script shaders. It is advised to learn the basics of both to have a good understanding of the shading pipeline."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:65
+#: ../../docs/tutorials/shaders/visual_shaders.rst:67
 msgid "The visual shader graph is converted to a script shader behind the scene, and you can see this code by pressing the last button in the toolbar. This can be convenient to understand what a given node does and how to reproduce it in scripts."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:71
+#: ../../docs/tutorials/shaders/visual_shaders.rst:73
 msgid "Using the Visual Shader Editor"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:73
+#: ../../docs/tutorials/shaders/visual_shaders.rst:75
 msgid "By default, every new ``VisualShader`` will have an output node. Every node connection ends at one of the output node's sockets. A node is the basic unit to create your shader. To add a new node, click on the ``Add Node`` button on the upper left corner or right click on any empty location in the graph, and a menu will pop up."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:81
+#: ../../docs/tutorials/shaders/visual_shaders.rst:83
 msgid "This popup has the following properties:"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:83
+#: ../../docs/tutorials/shaders/visual_shaders.rst:85
 msgid "If you right-click on the graph, this menu will be called at the cursor position and the created node, in that case, will also be placed under that position; otherwise, it will be created at the graph's center."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:86
+#: ../../docs/tutorials/shaders/visual_shaders.rst:88
 msgid "It can be resized horizontally and vertically allowing more content to be shown. Size transform and tree content position are saved between the calls, so if you suddenly closed the popup you can easily restore its previous state."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:89
+#: ../../docs/tutorials/shaders/visual_shaders.rst:91
 msgid "The ``Expand All`` and ``Collapse All`` options in the drop-down option menu can be used to easily list the available nodes."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:91
+#: ../../docs/tutorials/shaders/visual_shaders.rst:93
 msgid "You can also drag and drop nodes from the popup onto the graph."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:93
+#: ../../docs/tutorials/shaders/visual_shaders.rst:95
 msgid "While the popup has nodes sorted in categories, it can seem overwhelming at first. Try to add some of the nodes, plug them in the output socket and observe what happens."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:97
+#: ../../docs/tutorials/shaders/visual_shaders.rst:99
 msgid "When connecting any ``scalar`` output to a ``vector`` input, all components of the vector will take the value of the scalar."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:100
+#: ../../docs/tutorials/shaders/visual_shaders.rst:102
 msgid "When connecting any ``vector`` output to a ``scalar`` input, the value of the scalar will be the average of the vector's components."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:104
+#: ../../docs/tutorials/shaders/visual_shaders.rst:106
 msgid "Visual Shader node interface"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:106
+#: ../../docs/tutorials/shaders/visual_shaders.rst:108
 msgid "Visual shader nodes have input and output ports. The input ports are located on the left side of the node, and output ports are located on the right side of the node."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:110
+#: ../../docs/tutorials/shaders/visual_shaders.rst:112
 msgid "These ports are colored to differentiate type of port:"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:119
+#: ../../docs/tutorials/shaders/visual_shaders.rst:121
 msgid "Port types"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:123
+#: ../../docs/tutorials/shaders/visual_shaders.rst:125
 msgid "Type"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:124
+#: ../../docs/tutorials/shaders/visual_shaders.rst:126
 msgid "Color"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:125
+#: ../../docs/tutorials/shaders/visual_shaders.rst:127
 msgid "Description"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:126
+#: ../../docs/tutorials/shaders/visual_shaders.rst:128
 msgid "Example"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:127
+#: ../../docs/tutorials/shaders/visual_shaders.rst:129
 msgid "Scalar"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:128
+#: ../../docs/tutorials/shaders/visual_shaders.rst:130
 msgid "Gray"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:129
+#: ../../docs/tutorials/shaders/visual_shaders.rst:131
 msgid "Scalar is a single value."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:130
+#: ../../docs/tutorials/shaders/visual_shaders.rst:132
 msgid "|scalar|"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:112
+#: ../../docs/tutorials/shaders/visual_shaders.rst:114
 msgid "scalar"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:131
+#: ../../docs/tutorials/shaders/visual_shaders.rst:133
 msgid "Vector"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:132
+#: ../../docs/tutorials/shaders/visual_shaders.rst:134
 msgid "Purple"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:133
+#: ../../docs/tutorials/shaders/visual_shaders.rst:135
 msgid "Vector is a set of values."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:134
+#: ../../docs/tutorials/shaders/visual_shaders.rst:136
 msgid "|vector|"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:113
+#: ../../docs/tutorials/shaders/visual_shaders.rst:115
 msgid "vector"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:135
+#: ../../docs/tutorials/shaders/visual_shaders.rst:137
 msgid "Boolean"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:136
+#: ../../docs/tutorials/shaders/visual_shaders.rst:138
 msgid "Green"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:137
+#: ../../docs/tutorials/shaders/visual_shaders.rst:139
 msgid "On or off, true or false."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:138
+#: ../../docs/tutorials/shaders/visual_shaders.rst:140
 msgid "|boolean|"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:114
+#: ../../docs/tutorials/shaders/visual_shaders.rst:116
 msgid "boolean"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:139
+#: ../../docs/tutorials/shaders/visual_shaders.rst:141
 msgid "Transform"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:140
+#: ../../docs/tutorials/shaders/visual_shaders.rst:142
 msgid "Pink"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:141
+#: ../../docs/tutorials/shaders/visual_shaders.rst:143
 msgid "A matrix, usually used to transform vertices."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:142
+#: ../../docs/tutorials/shaders/visual_shaders.rst:144
 msgid "|transform|"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:115
+#: ../../docs/tutorials/shaders/visual_shaders.rst:117
 msgid "transform"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:143
+#: ../../docs/tutorials/shaders/visual_shaders.rst:145
 msgid "Sampler"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:144
+#: ../../docs/tutorials/shaders/visual_shaders.rst:146
 msgid "Orange"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:145
+#: ../../docs/tutorials/shaders/visual_shaders.rst:147
 msgid "A texture sampler. It can be used to sample textures."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:146
+#: ../../docs/tutorials/shaders/visual_shaders.rst:148
 msgid "|sampler|"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:116
+#: ../../docs/tutorials/shaders/visual_shaders.rst:118
 msgid "sampler"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:148
+#: ../../docs/tutorials/shaders/visual_shaders.rst:150
 msgid "All of the types are used in the calculations of vertices, fragments, and lights in the shader. For example: matrix multiplication, vector addition, or scalar division."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:151
+#: ../../docs/tutorials/shaders/visual_shaders.rst:153
 msgid "There are other types but these are the main ones."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:154
+#: ../../docs/tutorials/shaders/visual_shaders.rst:156
 msgid "Visual Shader nodes"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:156
+#: ../../docs/tutorials/shaders/visual_shaders.rst:158
 msgid "Below are some special nodes that are worth knowing about. The list is not exhaustive and might be expanded with more nodes and examples."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:160
+#: ../../docs/tutorials/shaders/visual_shaders.rst:162
 msgid "Expression node"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:162
+#: ../../docs/tutorials/shaders/visual_shaders.rst:164
 msgid "The ``Expression`` node allows you to write Godot Shading Language (GLSL-like) expressions inside your visual shaders. The node has buttons to add any amount of required input and output ports and can be resized. You can also set up the name and type of each port. The expression you have entered will apply immediately to the material (once the focus leaves the expression text box). Any parsing or compilation errors will be printed to the Output tab. The outputs are initialized to their zero value by default. The node is located under the Special tab and can be used in all shader modes."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:171
+#: ../../docs/tutorials/shaders/visual_shaders.rst:173
 msgid "The possibilities of this node are almost limitless – you can write complex procedures, and use all the power of text-based shaders, such as loops, the ``discard`` keyword, extended types, etc. For example:"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:178
+#: ../../docs/tutorials/shaders/visual_shaders.rst:180
 msgid "Reroute node"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:180
+#: ../../docs/tutorials/shaders/visual_shaders.rst:182
 msgid "The ``Reroute`` node is used purely for organizational purposes. In a complicated shader with many nodes you may find that the paths between nodes can make things hard to read. Reroute, as its name suggests, allows you to adjust the path between nodes to make things easier to read. You can even have multiple reroute nodes for a single path, which can be used to make right angles."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:188
+#: ../../docs/tutorials/shaders/visual_shaders.rst:190
 msgid "To move a reroute node move your mouse cursor above it, and grab the handle that appears."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:194
+#: ../../docs/tutorials/shaders/visual_shaders.rst:196
 msgid "Fresnel node"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:196
+#: ../../docs/tutorials/shaders/visual_shaders.rst:198
 msgid "The ``Fresnel`` node is designed to accept normal and view vectors and produces a scalar which is the saturated dot product between them. Additionally, you can setup the inversion and the power of equation. The ``Fresnel`` node is great for adding a rim-like lighting effect to objects."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:204
+#: ../../docs/tutorials/shaders/visual_shaders.rst:206
 msgid "Boolean node"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:206
+#: ../../docs/tutorials/shaders/visual_shaders.rst:208
 msgid "The ``Boolean`` node can be converted to ``Scalar`` or ``Vector`` to represent ``0`` or ``1`` and ``(0, 0, 0)`` or ``(1, 1, 1)`` respectively. This property can be used to enable or disable some effect parts with one click."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:213
+#: ../../docs/tutorials/shaders/visual_shaders.rst:215
 msgid "If node"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:215
+#: ../../docs/tutorials/shaders/visual_shaders.rst:217
 msgid "The ``If`` node allows you to setup a vector which will be returned the result of the comparison between ``a`` and ``b``. There are three vectors which can be returned: ``a == b`` (in that case the tolerance parameter is provided as a comparison threshold – by default it is equal to the minimal value, i.e. ``0.00001``), ``a > b`` and ``a < b``."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:224
+#: ../../docs/tutorials/shaders/visual_shaders.rst:226
 msgid "Switch node"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:226
-msgid "The ``Switch`` node returns a vector if the boolean condition is ``true`` or ``false``. ``Boolean`` was introduced above. If you convert a vector to a true boolean, all components of the vector should be above zero."
+#: ../../docs/tutorials/shaders/visual_shaders.rst:228
+msgid "The ``Switch`` node returns a vector if the boolean condition is ``true`` or ``false``. ``Boolean`` was introduced above. If you want to convert a vector to a true boolean, all components of the vector should be non-zero."
+msgstr ""
+
+#: ../../docs/tutorials/shaders/visual_shaders.rst:235
+msgid "Mesh Emitter"
+msgstr ""
+
+#: ../../docs/tutorials/shaders/visual_shaders.rst:237
+msgid "The ``Mesh Emitter`` node is used for emitting particles from mesh vertices. This is only available for shaders that are in ``Particles`` mode."
+msgstr ""
+
+#: ../../docs/tutorials/shaders/visual_shaders.rst:240
+msgid "Keep in mind that not all 3D objects are mesh files. a glTF file can't be dragged and dropped into the graph. However, you can create an inherited scene from it, save the mesh in that scene as it's own file, and use that."
+msgstr ""
+
+#: ../../docs/tutorials/shaders/visual_shaders.rst:246
+msgid "You can also drag and drop obj files into the graph editor to add the node for that specific mesh, other mesh files will not work for this."
 msgstr ""

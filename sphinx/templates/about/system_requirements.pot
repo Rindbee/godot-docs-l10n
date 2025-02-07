@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -41,9 +41,9 @@ msgstr ""
 #: ../../docs/about/system_requirements.rst:115
 #: ../../docs/about/system_requirements.rst:153
 #: ../../docs/about/system_requirements.rst:210
-#: ../../docs/about/system_requirements.rst:260
-#: ../../docs/about/system_requirements.rst:298
-#: ../../docs/about/system_requirements.rst:336
+#: ../../docs/about/system_requirements.rst:265
+#: ../../docs/about/system_requirements.rst:307
+#: ../../docs/about/system_requirements.rst:347
 msgid "**CPU**"
 msgstr ""
 
@@ -59,7 +59,7 @@ msgstr ""
 #: ../../docs/about/system_requirements.rst:30
 #: ../../docs/about/system_requirements.rst:119
 #: ../../docs/about/system_requirements.rst:214
-#: ../../docs/about/system_requirements.rst:302
+#: ../../docs/about/system_requirements.rst:311
 msgid "**macOS:** x86_64 or ARM CPU (Apple Silicon)"
 msgstr ""
 
@@ -71,7 +71,7 @@ msgstr ""
 #: ../../docs/about/system_requirements.rst:34
 #: ../../docs/about/system_requirements.rst:123
 #: ../../docs/about/system_requirements.rst:218
-#: ../../docs/about/system_requirements.rst:306
+#: ../../docs/about/system_requirements.rst:315
 msgid "**Linux:** x86_32 CPU with SSE2 instructions, x86_64 CPU, ARMv7 or ARMv8 CPU"
 msgstr ""
 
@@ -85,36 +85,33 @@ msgstr ""
 #: ../../docs/about/system_requirements.rst:127
 #: ../../docs/about/system_requirements.rst:159
 #: ../../docs/about/system_requirements.rst:222
-#: ../../docs/about/system_requirements.rst:268
-#: ../../docs/about/system_requirements.rst:310
-#: ../../docs/about/system_requirements.rst:344
+#: ../../docs/about/system_requirements.rst:273
+#: ../../docs/about/system_requirements.rst:319
+#: ../../docs/about/system_requirements.rst:355
 msgid "**GPU**"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:38
-#: ../../docs/about/system_requirements.rst:222
-msgid "**Forward+ rendering method:** Integrated graphics with full Vulkan 1.0 support"
+msgid "**Forward+ renderer:** Integrated graphics with full Vulkan 1.0 support"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:40
 #: ../../docs/about/system_requirements.rst:44
-#: ../../docs/about/system_requirements.rst:224
-#: ../../docs/about/system_requirements.rst:228
+#: ../../docs/about/system_requirements.rst:225
+#: ../../docs/about/system_requirements.rst:230
 msgid "*Example: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics (Kaveri)*"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:42
-#: ../../docs/about/system_requirements.rst:226
-msgid "**Mobile rendering method:** Integrated graphics with full Vulkan 1.0 support"
+msgid "**Mobile renderer:** Integrated graphics with full Vulkan 1.0 support"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:46
-#: ../../docs/about/system_requirements.rst:230
-msgid "**Compatibility rendering method:** Integrated graphics with full OpenGL 3.3 support"
+msgid "**Compatibility renderer:** Integrated graphics with full OpenGL 3.3 support"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:48
-#: ../../docs/about/system_requirements.rst:232
+#: ../../docs/about/system_requirements.rst:235
 msgid "*Example: Intel HD Graphics 2500 (Ivy Bridge), AMD Radeon R5 Graphics (Kaveri)*"
 msgstr ""
 
@@ -122,10 +119,10 @@ msgstr ""
 #: ../../docs/about/system_requirements.rst:96
 #: ../../docs/about/system_requirements.rst:139
 #: ../../docs/about/system_requirements.rst:171
-#: ../../docs/about/system_requirements.rst:234
-#: ../../docs/about/system_requirements.rst:280
-#: ../../docs/about/system_requirements.rst:322
-#: ../../docs/about/system_requirements.rst:356
+#: ../../docs/about/system_requirements.rst:237
+#: ../../docs/about/system_requirements.rst:289
+#: ../../docs/about/system_requirements.rst:333
+#: ../../docs/about/system_requirements.rst:369
 msgid "**RAM**"
 msgstr ""
 
@@ -142,15 +139,14 @@ msgstr ""
 #: ../../docs/about/system_requirements.rst:99
 #: ../../docs/about/system_requirements.rst:142
 #: ../../docs/about/system_requirements.rst:174
-#: ../../docs/about/system_requirements.rst:237
-#: ../../docs/about/system_requirements.rst:283
-#: ../../docs/about/system_requirements.rst:325
-#: ../../docs/about/system_requirements.rst:359
+#: ../../docs/about/system_requirements.rst:240
+#: ../../docs/about/system_requirements.rst:292
+#: ../../docs/about/system_requirements.rst:336
+#: ../../docs/about/system_requirements.rst:372
 msgid "**Storage**"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:53
-#: ../../docs/about/system_requirements.rst:99
 msgid "200 MB (used for the executable, project files and cache). Exporting projects requires downloading export templates separately (1.3 GB after installation)."
 msgstr ""
 
@@ -158,10 +154,10 @@ msgstr ""
 #: ../../docs/about/system_requirements.rst:103
 #: ../../docs/about/system_requirements.rst:144
 #: ../../docs/about/system_requirements.rst:176
-#: ../../docs/about/system_requirements.rst:239
-#: ../../docs/about/system_requirements.rst:285
-#: ../../docs/about/system_requirements.rst:327
-#: ../../docs/about/system_requirements.rst:361
+#: ../../docs/about/system_requirements.rst:242
+#: ../../docs/about/system_requirements.rst:294
+#: ../../docs/about/system_requirements.rst:338
+#: ../../docs/about/system_requirements.rst:374
 msgid "**Operating system**"
 msgstr ""
 
@@ -174,27 +170,27 @@ msgid "**Web editor:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:64
-#: ../../docs/about/system_requirements.rst:246
+#: ../../docs/about/system_requirements.rst:251
 msgid "Windows 7/8/8.1 are supported on a best-effort basis. These versions are not regularly tested and some features may be missing (such as colored :ref:`print_rich <class_@GlobalScope_method_print_rich>` console output). Support for Windows 7/8/8.1 may be removed in a :ref:`future Godot 4.x release <doc_release_policy>`."
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:70
-#: ../../docs/about/system_requirements.rst:252
-msgid "Vulkan drivers for these Windows versions are known to have issues with memory leaks. As a result, it's recommended to stick to the Compatibility rendering method when running Godot on a Windows version older than 10."
+#: ../../docs/about/system_requirements.rst:257
+msgid "Vulkan drivers for these Windows versions are known to have issues with memory leaks. As a result, it's recommended to stick to the Compatibility renderer when running Godot on a Windows version older than 10."
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:75
-#: ../../docs/about/system_requirements.rst:257
+#: ../../docs/about/system_requirements.rst:262
 msgid "Mobile device (smartphone/tablet) - Minimum"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:78
-#: ../../docs/about/system_requirements.rst:260
+#: ../../docs/about/system_requirements.rst:265
 msgid "**Android:** SoC with any 32-bit or 64-bit ARM or x86 CPU"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:80
-#: ../../docs/about/system_requirements.rst:262
+#: ../../docs/about/system_requirements.rst:267
 msgid "*Example: Qualcomm Snapdragon 430, Samsung Exynos 5 Octa 5430*"
 msgstr ""
 
@@ -204,8 +200,7 @@ msgid "**iOS:** *Cannot run the editor*"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:84
-#: ../../docs/about/system_requirements.rst:268
-msgid "**Forward+ rendering method:** SoC featuring GPU with full Vulkan 1.0 support"
+msgid "**Forward+ renderer:** SoC featuring GPU with full Vulkan 1.0 support"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:86
@@ -214,13 +209,12 @@ msgid "*Example: Qualcomm Adreno 505, Mali-G71 MP2*"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:88
-#: ../../docs/about/system_requirements.rst:272
-msgid "**Mobile rendering method:** SoC featuring GPU with full Vulkan 1.0 support"
+msgid "**Mobile renderer:** SoC featuring GPU with full Vulkan 1.0 support"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:92
-#: ../../docs/about/system_requirements.rst:276
-msgid "**Compatibility rendering method:** SoC featuring GPU with full OpenGL ES 3.0 support"
+#: ../../docs/about/system_requirements.rst:285
+msgid "**Compatibility renderer:** SoC featuring GPU with full OpenGL ES 3.0 support"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:94
@@ -233,6 +227,10 @@ msgstr ""
 
 #: ../../docs/about/system_requirements.rst:97
 msgid "**Web editor:** 6 GB"
+msgstr ""
+
+#: ../../docs/about/system_requirements.rst:99
+msgid "200 MB (used for the executable, project files and cache) Exporting projects requires downloading export templates separately (1.3 GB after installation)"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:103
@@ -248,54 +246,52 @@ msgid "These are the **recommended** specifications to get a smooth experience w
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:112
-#: ../../docs/about/system_requirements.rst:295
+#: ../../docs/about/system_requirements.rst:304
 msgid "Desktop or laptop PC - Recommended"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:115
-#: ../../docs/about/system_requirements.rst:298
+#: ../../docs/about/system_requirements.rst:307
 msgid "**Windows:** x86_64 CPU with SSE4.2 instructions, with 4 physical cores or more, ARMv8 CPU"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:117
-#: ../../docs/about/system_requirements.rst:300
+#: ../../docs/about/system_requirements.rst:309
 msgid "*Example: Intel Core i5-6600K, AMD Ryzen 5 1600, Snapdragon X Elite*"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:121
-#: ../../docs/about/system_requirements.rst:304
+#: ../../docs/about/system_requirements.rst:313
 msgid "*Example: Intel Core i5-8500, Apple M1*"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:125
-#: ../../docs/about/system_requirements.rst:308
+#: ../../docs/about/system_requirements.rst:317
 msgid "*Example: Intel Core i5-6600K, AMD Ryzen 5 1600, Raspberry Pi 5 with overclocking*"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:127
-#: ../../docs/about/system_requirements.rst:310
-msgid "**Forward+ rendering method:** Dedicated graphics with full Vulkan 1.2 support"
+msgid "**Forward+ renderer:** Dedicated graphics with full Vulkan 1.2 support"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:129
 #: ../../docs/about/system_requirements.rst:133
-#: ../../docs/about/system_requirements.rst:312
-#: ../../docs/about/system_requirements.rst:316
+#: ../../docs/about/system_requirements.rst:322
+#: ../../docs/about/system_requirements.rst:327
 msgid "*Example: NVIDIA GeForce GTX 1050 (Pascal), AMD Radeon RX 460 (GCN 4.0)*"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:131
-#: ../../docs/about/system_requirements.rst:314
-msgid "**Mobile rendering method:** Dedicated graphics with full Vulkan 1.2 support"
+msgid "**Mobile renderer:** Dedicated graphics with full Vulkan 1.2 support"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:135
-#: ../../docs/about/system_requirements.rst:318
-msgid "**Compatibility rendering method:** Dedicated graphics with full OpenGL 4.6 support"
+#: ../../docs/about/system_requirements.rst:329
+msgid "**Compatibility renderer:** Dedicated graphics with full OpenGL 4.6 support"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:137
-#: ../../docs/about/system_requirements.rst:320
+#: ../../docs/about/system_requirements.rst:331
 msgid "*Example: NVIDIA GeForce GTX 650 (Kepler), AMD Radeon HD 7750 (GCN 1.0)*"
 msgstr ""
 
@@ -321,23 +317,22 @@ msgid "**Web editor:** Latest version of Firefox, Chrome, Edge, Safari, Opera"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:150
-#: ../../docs/about/system_requirements.rst:333
+#: ../../docs/about/system_requirements.rst:344
 msgid "Mobile device (smartphone/tablet) - Recommended"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:153
-#: ../../docs/about/system_requirements.rst:336
+#: ../../docs/about/system_requirements.rst:347
 msgid "**Android:** SoC with 64-bit ARM or x86 CPU, with 3 \"performance\" cores or more"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:155
-#: ../../docs/about/system_requirements.rst:338
+#: ../../docs/about/system_requirements.rst:349
 msgid "*Example: Qualcomm Snapdragon 845, Samsung Exynos 9810*"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:159
-#: ../../docs/about/system_requirements.rst:344
-msgid "**Forward+ rendering method:** SoC featuring GPU with full Vulkan 1.2 support"
+msgid "**Forward+ renderer:** SoC featuring GPU with full Vulkan 1.2 support"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:161
@@ -347,13 +342,12 @@ msgid "*Example: Qualcomm Adreno 630, Mali-G72 MP18*"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:163
-#: ../../docs/about/system_requirements.rst:348
-msgid "**Mobile rendering method:** SoC featuring GPU with full Vulkan 1.2 support"
+msgid "**Mobile renderer:** SoC featuring GPU with full Vulkan 1.2 support"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:167
-#: ../../docs/about/system_requirements.rst:352
-msgid "**Compatibility rendering method:** SoC featuring GPU with full OpenGL ES 3.2 support"
+#: ../../docs/about/system_requirements.rst:365
+msgid "**Compatibility renderer:** SoC featuring GPU with full OpenGL ES 3.2 support"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:171
@@ -373,7 +367,7 @@ msgid "Exported Godot project"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:186
-msgid "The requirements below are a baseline for a **simple** 2D or 3D project, with basic scripting and few visual flourishes. CPU, GPU, RAM and storage requirements will heavily vary depending on your project's scope, its rendering method, viewport resolution and graphics settings chosen. Other programs running on the system while the project is running will also compete for resources, including RAM and video RAM."
+msgid "The requirements below are a baseline for a **simple** 2D or 3D project, with basic scripting and few visual flourishes. CPU, GPU, RAM and storage requirements will heavily vary depending on your project's scope, its renderer, viewport resolution and graphics settings chosen. Other programs running on the system while the project is running will also compete for resources, including RAM and video RAM."
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:193
@@ -388,106 +382,147 @@ msgstr ""
 msgid "**Windows:** x86_32 CPU with SSE2 instructions, any x86_64 CPU, ARMv8 CPU"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:234
-#: ../../docs/about/system_requirements.rst:356
-msgid "**For native exports:** 2 GB"
+#: ../../docs/about/system_requirements.rst:222
+msgid "**Forward+ renderer:** Integrated graphics with full Vulkan 1.0 support, Metal 3 support (macOS) or Direct3D 12 (12_0 feature level) support (Windows)"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:235
-#: ../../docs/about/system_requirements.rst:357
-msgid "**For web exports:** 4 GB"
+#: ../../docs/about/system_requirements.rst:227
+msgid "**Mobile renderer:** Integrated graphics with full Vulkan 1.0 support, Metal 3 support (macOS) or Direct3D 12 (12_0 feature level) support (Windows)"
+msgstr ""
+
+#: ../../docs/about/system_requirements.rst:232
+msgid "**Compatibility renderer:** Integrated graphics with full OpenGL 3.3 support or Direct3D 11 support (Windows)."
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:237
-#: ../../docs/about/system_requirements.rst:283
-#: ../../docs/about/system_requirements.rst:325
-#: ../../docs/about/system_requirements.rst:359
+#: ../../docs/about/system_requirements.rst:369
+msgid "**For native exports:** 2 GB"
+msgstr ""
+
+#: ../../docs/about/system_requirements.rst:238
+#: ../../docs/about/system_requirements.rst:370
+msgid "**For web exports:** 4 GB"
+msgstr ""
+
+#: ../../docs/about/system_requirements.rst:240
+#: ../../docs/about/system_requirements.rst:292
+#: ../../docs/about/system_requirements.rst:336
+#: ../../docs/about/system_requirements.rst:372
 msgid "150 MB (used for the executable, project files and cache)"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:239
-msgid "**For native exports:** Windows 7, macOS 10.13 (Compatibility) or macOS 10.15 (Forward+/Mobile), Linux distribution released after 2016"
+#: ../../docs/about/system_requirements.rst:242
+msgid "**For native exports:** Windows 7 (Compatibility and Forward+/Mobile, Vulkan), Windows 10 (Forward+/Mobile, Direct3D 12), macOS 10.13 (Compatibility), macOS 10.15 (Forward+/Mobile, Vulkan), macOS 13.0 (Forward+/Mobile, Metal), Linux distribution released after 2016"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:241
+#: ../../docs/about/system_requirements.rst:246
 msgid "**For web exports:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:264
+#: ../../docs/about/system_requirements.rst:269
 msgid "**iOS:** SoC with any 64-bit ARM CPU"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:266
+#: ../../docs/about/system_requirements.rst:271
 msgid "*Example: Apple A7 (iPhone 5S)*"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:270
-#: ../../docs/about/system_requirements.rst:274
-msgid "*Example: Qualcomm Adreno 505, Mali-G71 MP2, Apple A12 (iPhone XR/XS)*"
+#: ../../docs/about/system_requirements.rst:273
+msgid "**Forward+ renderer:** SoC featuring GPU with full Vulkan 1.0 support, or Metal 3 support (iOS/iPadOS)"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:278
-msgid "*Example: Qualcomm Adreno 306, Mali-T628 MP6, Apple A7 (iPhone 5S)*"
+#: ../../docs/about/system_requirements.rst:276
+#: ../../docs/about/system_requirements.rst:282
+msgid "*Example (Vulkan): Qualcomm Adreno 505, Mali-G71 MP2, Apple A12 (iPhone XR/XS)*"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:280
-msgid "**For native exports:** 1 GB"
+#: ../../docs/about/system_requirements.rst:277
+#: ../../docs/about/system_requirements.rst:283
+msgid "*Example (Metal): Apple A11 (iPhone 8/X)*"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:281
-msgid "**For web exports:** 2 GB"
-msgstr ""
-
-#: ../../docs/about/system_requirements.rst:285
-msgid "**For native exports:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/Mobile), iOS 12.0"
+#: ../../docs/about/system_requirements.rst:279
+msgid "**Mobile renderer:** SoC featuring GPU with full Vulkan 1.0 support, or Metal 3 support (iOS/iPadOS)"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:287
+msgid "*Example: Qualcomm Adreno 306, Mali-T628 MP6, Apple A7 (iPhone 5S)*"
+msgstr ""
+
+#: ../../docs/about/system_requirements.rst:289
+msgid "**For native exports:** 1 GB"
+msgstr ""
+
+#: ../../docs/about/system_requirements.rst:290
+msgid "**For web exports:** 2 GB"
+msgstr ""
+
+#: ../../docs/about/system_requirements.rst:294
+msgid "**For native exports:** Android 6.0 (Compatibility), Android 9.0 (Forward+/Mobile), iOS 12.0 (Forward+/Mobile, Vulkan), iOS 16.0 (Forward+/Mobile, Metal)"
+msgstr ""
+
+#: ../../docs/about/system_requirements.rst:296
 msgid "**For web exports:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, Samsung Internet 15"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:291
+#: ../../docs/about/system_requirements.rst:300
 msgid "These are the **recommended** specifications to get a smooth experience with a simple 2D or 3D project exported with Godot:"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:322
+#: ../../docs/about/system_requirements.rst:319
+msgid "**Forward+ renderer:** Dedicated graphics with full Vulkan 1.2 support, Metal 3 support (macOS), or Direct3D 12 (12_0 feature level) support (Windows)"
+msgstr ""
+
+#: ../../docs/about/system_requirements.rst:324
+msgid "**Mobile renderer:** Dedicated graphics with full Vulkan 1.2 support, Metal 3 support (macOS), or Direct3D 12 (12_0 feature level) support (Windows)"
+msgstr ""
+
+#: ../../docs/about/system_requirements.rst:333
 msgid "**For native exports:** 4 GB"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:323
+#: ../../docs/about/system_requirements.rst:334
 msgid "**For web exports:** 8 GB"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:327
-msgid "**For native exports:** Windows 10, macOS 10.15, Linux distribution released after 2020"
-msgstr ""
-
-#: ../../docs/about/system_requirements.rst:329
-msgid "**For web exports:** Latest version of Firefox, Chrome, Edge, Safari, Opera"
+#: ../../docs/about/system_requirements.rst:338
+msgid "**For native exports:** Windows 10, macOS 10.15 (Forward+/Mobile, Vulkan), macOS 13.0 (Forward+/Mobile, Metal), Linux distribution released after 2020"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:340
+msgid "**For web exports:** Latest version of Firefox, Chrome, Edge, Safari, Opera"
+msgstr ""
+
+#: ../../docs/about/system_requirements.rst:351
 msgid "**iOS:** SoC with 64-bit ARM CPU"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:342
+#: ../../docs/about/system_requirements.rst:353
 msgid "*Example: Apple A14 (iPhone 12)*"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:346
-#: ../../docs/about/system_requirements.rst:350
-#: ../../docs/about/system_requirements.rst:354
+#: ../../docs/about/system_requirements.rst:355
+msgid "**Forward+ renderer:** SoC featuring GPU with full Vulkan 1.2 support, or Metal 3 support (iOS/iPadOS)"
+msgstr ""
+
+#: ../../docs/about/system_requirements.rst:358
+#: ../../docs/about/system_requirements.rst:363
+#: ../../docs/about/system_requirements.rst:367
 msgid "*Example: Qualcomm Adreno 630, Mali-G72 MP18, Apple A14 (iPhone 12)*"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:361
-msgid "**For native exports:** Android 9.0 or iOS 14.1"
+#: ../../docs/about/system_requirements.rst:360
+msgid "**Mobile renderer:** SoC featuring GPU with full Vulkan 1.2 support, or Metal 3 support (iOS/iPadOS)"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:362
+#: ../../docs/about/system_requirements.rst:374
+msgid "**For native exports:** Android 9.0, iOS 14.1 (Forward+/Mobile, Vulkan), iOS 16.0 (Forward+/Mobile, Metal)"
+msgstr ""
+
+#: ../../docs/about/system_requirements.rst:376
 msgid "**For web exports:** Latest version of Firefox, Chrome, Edge, Safari, Opera, Samsung Internet"
 msgstr ""
 
-#: ../../docs/about/system_requirements.rst:368
+#: ../../docs/about/system_requirements.rst:382
 msgid "Godot doesn't use OpenGL/OpenGL ES extensions introduced after OpenGL 3.3/OpenGL ES 3.0, but GPUs supporting newer OpenGL/OpenGL ES versions generally have fewer driver issues."
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -36,33 +36,33 @@ msgid "Built-ins"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:24
-msgid "Values marked as \"in\" are read-only. Values marked as \"out\" are for optional writing and will not necessarily contain sensible values. Samplers cannot be written to so they are not marked."
+msgid "Values marked as ``in`` are read-only. Values marked as ``out`` can optionally be written to and will not necessarily contain sensible values. Samplers cannot be written to so they are not marked."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:30
+#: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:29
 msgid "Global built-ins"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:32
+#: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:31
 msgid "Global built-ins are available everywhere, including in custom functions."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:36
+#: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:35
 #: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:64
 msgid "Built-in"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:36
+#: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:35
 #: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:64
 msgid "Description"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:38
+#: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:37
 msgid "in float **TIME**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:38
-msgid "Global time since the engine has started, in seconds. It repeats after every 3,600 seconds (which can  be changed with the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/time_rollover_secs>` setting). It's not affected by :ref:`time_scale<class_Engine_property_time_scale>` or pausing. If you need  a ``TIME`` variable that can be scaled or paused, add your own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and update it each frame."
+#: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:37
+msgid "Global time since the engine has started, in seconds. It repeats after every ``3,600`` seconds (which can  be changed with the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/time_rollover_secs>` setting). It's affected by :ref:`time_scale<class_Engine_property_time_scale>` but not by pausing. If you need a ``TIME`` variable that is not affected by time scale, add your own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and update it each frame."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:46
@@ -118,7 +118,7 @@ msgid "in vec3 **UVW**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:70
-msgid "3-dimensional uv, used to map a 3D texture to the current :ref:`FogVolume <class_FogVolume>`."
+msgid "3-dimensional UV, used to map a 3D texture to the current :ref:`FogVolume <class_FogVolume>`."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/fog_shader.rst:72

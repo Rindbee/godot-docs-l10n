@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,7 +20,7 @@ msgid "Optimization using Servers"
 msgstr ""
 
 #: ../../docs/tutorials/performance/using_servers.rst:8
-msgid "Engines like Godot provide increased ease of use thanks to their high level constructs and features. Most of them are accessed and used via the :ref:`Scene System<doc_scene_tree>`. Using nodes and resources simplifies project organization and asset management in complex games."
+msgid "Engines like Godot provide increased ease of use thanks to their high-level constructs and features. Most of them are accessed and used via the :ref:`Scene System<doc_scene_tree>`. Using nodes and resources simplifies project organization and asset management in complex games."
 msgstr ""
 
 #: ../../docs/tutorials/performance/using_servers.rst:12
@@ -48,7 +48,7 @@ msgid "In many cases, this is not really a problem (Godot is very optimized, and
 msgstr ""
 
 #: ../../docs/tutorials/performance/using_servers.rst:23
-msgid "This type of situation makes programmers regret they are using a game engine and wish they could go back to a more handcrafted, low level implementation of game code."
+msgid "This type of situation makes programmers regret they are using a game engine and wish they could go back to a more handcrafted, low-level implementation of game code."
 msgstr ""
 
 #: ../../docs/tutorials/performance/using_servers.rst:26
@@ -175,18 +175,18 @@ msgstr ""
 msgid "This creates a :ref:`RigidBody2D <class_RigidBody2D>` using the :ref:`PhysicsServer2D <class_PhysicsServer2D>` API, and moves a :ref:`CanvasItem <class_CanvasItem>` when the body moves."
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_servers.rst:255
+#: ../../docs/tutorials/performance/using_servers.rst:290
 msgid "The 3D version should be very similar, as 2D and 3D physics servers are identical (using :ref:`RigidBody3D <class_RigidBody3D>` and :ref:`PhysicsServer3D <class_PhysicsServer3D>` respectively)."
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_servers.rst:259
+#: ../../docs/tutorials/performance/using_servers.rst:294
 msgid "Getting data from the servers"
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_servers.rst:261
+#: ../../docs/tutorials/performance/using_servers.rst:296
 msgid "Try to **never** request any information from ``RenderingServer``, ``PhysicsServer2D`` or ``PhysicsServer3D`` by calling functions unless you know what you are doing. These servers will often run asynchronously for performance and calling any function that returns a value will stall them and force them to process anything pending until the function is actually called. This will severely decrease performance if you call them every frame (and it won't be obvious why)."
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_servers.rst:267
+#: ../../docs/tutorials/performance/using_servers.rst:302
 msgid "Because of this, most APIs in such servers are designed so it's not even possible to request information back, until it's actual data that can be saved."
 msgstr ""

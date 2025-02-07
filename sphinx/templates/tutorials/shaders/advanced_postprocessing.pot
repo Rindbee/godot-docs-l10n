@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -99,54 +99,58 @@ msgstr ""
 msgid "Firstly, take the screen space coordinates and transform them into normalized device coordinates (NDC). NDC run ``-1.0`` to ``1.0`` in ``x`` and ``y`` directions and from ``0.0`` to ``1.0`` in the ``z`` direction when using the Vulkan backend. Reconstruct the NDC using ``SCREEN_UV`` for the ``x`` and ``y`` axis, and the depth value for ``z``."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:120
+#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:121
 msgid "This tutorial assumes the use of the Forward+ or Mobile renderers, which both use Vulkan NDCs with a Z-range of ``[0.0, 1.0]``. In contrast, the Compatibility renderer uses OpenGL NDCs with a Z-range of ``[-1.0, 1.0]``. For the Compatibility renderer, replace the NDC calculation with this instead:"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:129
+#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:130
+msgid "You can also use the ``CURRENT_RENDERER`` and ``RENDERER_COMPATIBILITY`` built-in defines for a shader that will work in all renderers:"
+msgstr ""
+
+#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:141
 msgid "Convert NDC to view space by multiplying the NDC by ``INV_PROJECTION_MATRIX``. Recall that view space gives positions relative to the camera, so the ``z`` value will give us the distance to the point."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:142
+#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:154
 msgid "Because the camera is facing the negative ``z`` direction, the position will have a negative ``z`` value. In order to get a usable depth value, we have to negate ``view.z``."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:145
+#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:157
 msgid "The world position can be constructed from the depth buffer using the following code, using the ``INV_VIEW_MATRIX`` to transform the position from view space into world space."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:157
+#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:169
 msgid "Example shader"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:159
+#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:171
 msgid "Once we add a line to output to ``ALBEDO``, we have a complete shader that looks something like this. This shader lets you visualize the linear depth or world space coordinates, depending on which line is commented out."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:193
+#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:205
 msgid "An optimization"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:195
+#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:207
 msgid "You can benefit from using a single large triangle rather than using a full screen quad. The reason for this is explained `here <https://michaldrobot.com/2014/04/01/gcn-execution-patterns-in-full-screen-passes>`_. However, the benefit is quite small and only beneficial when running especially complex fragment shaders."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:200
+#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:212
 msgid "Set the Mesh in the MeshInstance3D to an :ref:`ArrayMesh <class_ArrayMesh>`. An ArrayMesh is a tool that allows you to easily construct a Mesh from Arrays for vertices, normals, colors, etc."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:204
+#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:216
 msgid "Now, attach a script to the MeshInstance3D and use the following code:"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:226
+#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:238
 msgid "The triangle is specified in normalized device coordinates. Recall, NDC run from ``-1.0`` to ``1.0`` in both the ``x`` and ``y`` directions. This makes the screen ``2`` units wide and ``2`` units tall. In order to cover the entire screen with a single triangle, use a triangle that is ``4`` units wide and ``4`` units tall, double its height and width."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:233
+#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:245
 msgid "Assign the same vertex shader from above and everything should look exactly the same."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:235
+#: ../../docs/tutorials/shaders/advanced_postprocessing.rst:247
 msgid "The one drawback to using an ArrayMesh over using a QuadMesh is that the ArrayMesh is not visible in the editor because the triangle is not constructed until the scene is run. To get around that, construct a single triangle Mesh in a modeling program and use that in the MeshInstance3D instead."
 msgstr ""

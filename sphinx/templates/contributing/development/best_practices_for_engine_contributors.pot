@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -180,7 +180,7 @@ msgid "As mentioned before (in point #2), it is very difficult for us (as human 
 msgstr ""
 
 #: ../../docs/contributing/development/best_practices_for_engine_contributors.rst:170
-msgid "We may come up with something we believe is brilliant but later find out that users will never even use half of it or that they require features that don't quite fit into our original design, forcing us to either throw it away or make it even more complex."
+msgid "We may come up with something we believe is brilliant, but later find out that users will never even use half of it or that they require features that don't quite fit into our original design, forcing us to either throw it away or make it even more complex."
 msgstr ""
 
 #: ../../docs/contributing/development/best_practices_for_engine_contributors.rst:175
@@ -188,7 +188,7 @@ msgid "The question is then, how do we design software that both allows users to
 msgstr ""
 
 #: ../../docs/contributing/development/best_practices_for_engine_contributors.rst:181
-msgid "The answer to this question is that, to ensure users still can do what they want to do, we need to give them access to a *low level API* that they can use to achieve what they want, even if it's more work for them because it means reimplementing some logic that already exists."
+msgid "The answer to this question is that, to ensure users still can do what they want to do, we need to give them access to a *low-level API* that they can use to achieve what they want, even if it's more work for them because it means reimplementing some logic that already exists."
 msgstr ""
 
 #: ../../docs/contributing/development/best_practices_for_engine_contributors.rst:186
@@ -224,7 +224,7 @@ msgid "#8: Don't use complex canned solutions for simple problems"
 msgstr ""
 
 #: ../../docs/contributing/development/best_practices_for_engine_contributors.rst:221
-msgid "Not every problem has a simple solution and, many times, the right choice is to use a third party library to solve the problem."
+msgid "Not every problem has a simple solution and, many times, the right choice is to use a third-party library to solve the problem."
 msgstr ""
 
 #: ../../docs/contributing/development/best_practices_for_engine_contributors.rst:224

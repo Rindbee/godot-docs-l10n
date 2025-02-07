@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -96,7 +96,7 @@ msgid "The **Rendering > Scaling 3D > Scale** setting adjusts the resolution sca
 msgstr ""
 
 #: ../../docs/tutorials/3d/resolution_scaling.rst:96
-msgid "The rendering scale can be adjusted at run-time by changing the ``scaling_3d_scale`` property on a :ref:`class_Viewport` node."
+msgid "The rendering scale can be adjusted at runtime by changing the ``scaling_3d_scale`` property on a :ref:`class_Viewport` node."
 msgstr ""
 
 #: ../../docs/tutorials/3d/resolution_scaling.rst:99
@@ -408,7 +408,7 @@ msgid "To counteract the blurriness added by some antialiasing methods, Godot al
 msgstr ""
 
 #: ../../docs/tutorials/3d/resolution_scaling.rst:235
-msgid "The texture LOD bias can manually be changed by adjusting the **Rendering > Textures > Default Filters > Texture Mipmap Bias** advanced project setting. It can also be changed at run-time on :ref:`Viewports <class_Viewport>` by adjusting the ``texture_mipmap_bias`` property."
+msgid "The texture LOD bias can manually be changed by adjusting the **Rendering > Textures > Default Filters > Texture Mipmap Bias** advanced project setting. It can also be changed at runtime on :ref:`Viewports <class_Viewport>` by adjusting the ``texture_mipmap_bias`` property."
 msgstr ""
 
 #: ../../docs/tutorials/3d/resolution_scaling.rst:242

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -56,7 +56,7 @@ msgid "This article indicates whether each breaking change affects GDScript and 
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.2.rst:46
-msgid "**Binary compatible** - Existing binaries will load and execute successfully without recompilation, and the run-time behavior won't change."
+msgid "**Binary compatible** - Existing binaries will load and execute successfully without recompilation, and the runtime behavior won't change."
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.2.rst:48

@@ -58,8 +58,10 @@ tutorials/editor/index.pot
 tutorials/editor/project_manager.pot
 tutorials/editor/inspector_dock.pot
 tutorials/editor/project_settings.pot
+tutorials/editor/script_editor.pot
 tutorials/editor/default_key_mapping.pot
 tutorials/editor/customizing_editor.pot
+tutorials/editor/using_the_xr_editor.pot
 tutorials/editor/using_the_android_editor.pot
 tutorials/editor/using_the_web_editor.pot
 tutorials/editor/command_line_tutorial.pot
@@ -78,6 +80,7 @@ tutorials/2d/2d_lights_and_shadows.pot
 tutorials/2d/2d_meshes.pot
 tutorials/2d/2d_sprite_animation.pot
 tutorials/2d/particle_systems_2d.pot
+tutorials/2d/particle_process_material_2d.pot
 tutorials/2d/2d_antialiasing.pot
 tutorials/2d/custom_drawing_in_2d.pot
 tutorials/2d/2d_parallax.pot
@@ -149,12 +152,6 @@ tutorials/assets_pipeline/importing_3d_scenes/import_configuration.pot
 tutorials/assets_pipeline/retargeting_3d_skeletons.pot
 tutorials/assets_pipeline/exporting_3d_scenes.pot
 tutorials/assets_pipeline/escn_exporter/index.pot
-tutorials/assets_pipeline/escn_exporter/material.pot
-tutorials/assets_pipeline/escn_exporter/physics.pot
-tutorials/assets_pipeline/escn_exporter/lights.pot
-tutorials/assets_pipeline/escn_exporter/mesh.pot
-tutorials/assets_pipeline/escn_exporter/skeleton.pot
-tutorials/assets_pipeline/escn_exporter/animation.pot
 tutorials/audio/index.pot
 tutorials/audio/audio_buses.pot
 tutorials/audio/audio_effects.pot
@@ -234,6 +231,7 @@ tutorials/performance/using_servers.pot
 tutorials/performance/cpu_optimization.pot
 tutorials/performance/gpu_optimization.pot
 tutorials/performance/using_multimesh.pot
+tutorials/performance/pipeline_compilations.pot
 tutorials/performance/optimizing_3d_performance.pot
 tutorials/performance/vertex_animation/index.pot
 tutorials/performance/vertex_animation/animating_thousands_of_fish.pot
@@ -252,6 +250,12 @@ tutorials/physics/soft_body.pot
 tutorials/physics/collision_shapes_2d.pot
 tutorials/physics/collision_shapes_3d.pot
 tutorials/physics/large_world_coordinates.pot
+tutorials/physics/interpolation/index.pot
+tutorials/physics/interpolation/physics_interpolation_quick_start_guide.pot
+tutorials/physics/interpolation/physics_interpolation_introduction.pot
+tutorials/physics/interpolation/using_physics_interpolation.pot
+tutorials/physics/interpolation/advanced_physics_interpolation.pot
+tutorials/physics/interpolation/2d_and_3d_physics_interpolation.pot
 tutorials/physics/troubleshooting_physics_issues.pot
 tutorials/platform/index.pot
 tutorials/platform/android/index.pot
@@ -281,6 +285,7 @@ tutorials/rendering/viewports.pot
 tutorials/rendering/multiple_resolutions.pot
 tutorials/rendering/jitter_stutter.pot
 tutorials/rendering/compositor.pot
+tutorials/rendering/renderers.pot
 tutorials/scripting/index.pot
 tutorials/scripting/gdscript/index.pot
 tutorials/scripting/gdscript/gdscript_basics.pot
@@ -323,11 +328,13 @@ tutorials/scripting/c_sharp/diagnostics/GD0402.pot
 tutorials/scripting/gdextension/index.pot
 tutorials/scripting/gdextension/what_is_gdextension.pot
 tutorials/scripting/gdextension/gdextension_cpp_example.pot
+tutorials/scripting/gdextension/gdextension_c_example.pot
 tutorials/scripting/gdextension/gdextension_file.pot
 tutorials/scripting/gdextension/gdextension_docs_system.pot
 tutorials/scripting/how_to_read_the_godot_api.pot
 tutorials/scripting/debug/index.pot
 tutorials/scripting/debug/overview_of_debugging_tools.pot
+tutorials/scripting/debug/output_panel.pot
 tutorials/scripting/debug/debugger_panel.pot
 tutorials/scripting/debug/the_profiler.pot
 tutorials/scripting/debug/custom_performance_monitors.pot
@@ -350,6 +357,7 @@ tutorials/shaders/index.pot
 tutorials/shaders/introduction_to_shaders.pot
 tutorials/shaders/shader_reference/index.pot
 tutorials/shaders/shader_reference/shading_language.pot
+tutorials/shaders/shader_reference/shader_functions.pot
 tutorials/shaders/shader_reference/shader_preprocessor.pot
 tutorials/shaders/shader_reference/spatial_shader.pot
 tutorials/shaders/shader_reference/canvas_item_shader.pot
@@ -360,7 +368,6 @@ tutorials/shaders/your_first_shader/index.pot
 tutorials/shaders/your_first_shader/your_first_2d_shader.pot
 tutorials/shaders/your_first_shader/your_first_3d_shader.pot
 tutorials/shaders/your_first_shader/your_second_3d_shader.pot
-tutorials/shaders/shader_materials.pot
 tutorials/shaders/visual_shaders.pot
 tutorials/shaders/compute_shaders.pot
 tutorials/shaders/screen-reading_shaders.pot

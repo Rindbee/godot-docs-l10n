@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -114,7 +114,7 @@ msgid "If you run into errors, you may try the following command:"
 msgstr ""
 
 #: ../../docs/contributing/documentation/building_the_manual.rst:121
-msgid "If you get a ``MemoryError`` or ``EOFError``, you can remove the ``classes/`` folder and run ``make`` again. This will drop the class references from the final HTML documentation but will keep the rest intact."
+msgid "If you get a ``MemoryError`` or ``EOFError``, you can remove the ``classes/`` folder and run ``make`` again. This will drop the class references from the final HTML documentation, but will keep the rest intact."
 msgstr ""
 
 #: ../../docs/contributing/documentation/building_the_manual.rst:127
@@ -141,6 +141,22 @@ msgstr ""
 msgid "Specifying a list of files"
 msgstr ""
 
-#: ../../docs/contributing/documentation/building_the_manual.rst:165
+#: ../../docs/contributing/documentation/building_the_manual.rst:167
+msgid "This section will not work on Windows, since the repository is using a simplified ``make.bat`` script instead of the real GNU Make program. If you would like to get a Linux terminal on your system, consider using `Windows Subsystem for Linux (WSL) <https://learn.microsoft.com/en-us/windows/wsl/>`__."
+msgstr ""
+
+#: ../../docs/contributing/documentation/building_the_manual.rst:172
 msgid "You can specify a list of files to build, which can greatly speed up compilation:"
+msgstr ""
+
+#: ../../docs/contributing/documentation/building_the_manual.rst:178
+msgid "The list of files can also be provided by the ``git`` command. This way you can automatically get the names of all files that have changed since the last commit (``sed`` is used to put them on the same line)."
+msgstr ""
+
+#: ../../docs/contributing/documentation/building_the_manual.rst:186
+msgid "You can replace ``HEAD`` with ``master`` to return all files changed from the ``master`` branch:"
+msgstr ""
+
+#: ../../docs/contributing/documentation/building_the_manual.rst:193
+msgid "If any images were modified, the output will contain some warnings about them, but the build will proceed correctly."
 msgstr ""

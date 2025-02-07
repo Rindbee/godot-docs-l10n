@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -56,7 +56,7 @@ msgid "Many more things."
 msgstr ""
 
 #: ../../docs/tutorials/export/feature_tags.rst:20
-msgid "Features can be queried at run-time from the singleton API by calling:"
+msgid "Features can be queried at runtime from the singleton API by calling:"
 msgstr ""
 
 #: ../../docs/tutorials/export/feature_tags.rst:31
@@ -408,7 +408,7 @@ msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ""
 
 #: ../../docs/tutorials/export/feature_tags.rst:128
-msgid "With the exception of texture compression, ``web_<platform>`` and ``movie`` feature tags, default feature tags are **immutable**. This means that they will *not* change depending on run-time conditions. For example, ``OS.has_feature(\"mobile\")`` will return ``false`` when running a project exported to Web on a mobile device."
+msgid "With the exception of texture compression, ``web_<platform>`` and ``movie`` feature tags, default feature tags are **immutable**. This means that they will *not* change depending on runtime conditions. For example, ``OS.has_feature(\"mobile\")`` will return ``false`` when running a project exported to Web on a mobile device."
 msgstr ""
 
 #: ../../docs/tutorials/export/feature_tags.rst:134
@@ -439,26 +439,34 @@ msgstr ""
 msgid "In the following example, a different icon is added for the demo build of the game (which was customized in a special export preset, which, in turn, includes only demo levels)."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:163
-msgid "After overriding, a new field is added for this specific configuration:"
+#: ../../docs/tutorials/export/feature_tags.rst:161
+msgid "The Project Settings panel"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:169
+#: ../../docs/tutorials/export/feature_tags.rst:164
+msgid "The desired configuration is selected, which effectively copies its properties to the panel above (1). The \"demo_build\" feature tag is selected (2). The configuration is added to the project settings (3)."
+msgstr ""
+
+#: ../../docs/tutorials/export/feature_tags.rst:166
+msgid "After overriding, a new field is added for this specific configuration."
+msgstr ""
+
+#: ../../docs/tutorials/export/feature_tags.rst:172
 msgid "When using the :ref:`project settings \"override.cfg\" functionality <class_ProjectSettings>` (which is unrelated to feature tags), remember that feature tags still apply. Therefore, make sure to *also* override the setting with the desired feature tag(s) if you want them to override base project settings on all platforms and configurations."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:177
+#: ../../docs/tutorials/export/feature_tags.rst:180
 msgid "Default overrides"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:179
+#: ../../docs/tutorials/export/feature_tags.rst:182
 msgid "There are already a lot of settings that come with overrides by default; they can be found in many sections of the project settings."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:185
+#: ../../docs/tutorials/export/feature_tags.rst:188
 msgid "Customizing the build"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:187
+#: ../../docs/tutorials/export/feature_tags.rst:190
 msgid "Feature tags can be used to customize a build process too, by writing a custom **ExportPlugin**. They are also used to specify which shared library is loaded and exported in **GDExtension**."
 msgstr ""

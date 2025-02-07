@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -64,7 +64,7 @@ msgid "After adjusting the parameters, click **Reimport**. Be careful: if you se
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/import_process.rst:49
-msgid "Changing the import parameters of several assets at the same time is also possible. Simply select all of them together in the resources dock and the exposed parameters will apply to all of them when reimporting."
+msgid "Changing the import parameters of several assets at the same time is also possible. Select all of them together in the FileSystem dock and the exposed parameters will apply to all of them when reimporting."
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/import_process.rst:54

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -93,4 +93,28 @@ msgstr ""
 
 #: ../../docs/contributing/development/configuring_an_ide/clion.rst:83
 msgid "When playing a scene, the Godot editor will spawn a separate process. You can debug this process in CLion by going to **Run > Attach to process...**, typing ``godot``, and selecting the Godot process with the highest **pid** (process ID), which will usually be the running project."
+msgstr ""
+
+#: ../../docs/contributing/development/configuring_an_ide/clion.rst:86
+msgid "Ignoring object and library files"
+msgstr ""
+
+#: ../../docs/contributing/development/configuring_an_ide/clion.rst:88
+msgid "After building Godot in CLion, you may see the object and library files showing up in the **Project** view."
+msgstr ""
+
+#: ../../docs/contributing/development/configuring_an_ide/clion.rst:93
+msgid "You can configure CLion to ignore those files:"
+msgstr ""
+
+#: ../../docs/contributing/development/configuring_an_ide/clion.rst:95
+msgid "Open CLion and navigate to **Preferences > Editor > File Types > Ignored Files and Folders**"
+msgstr ""
+
+#: ../../docs/contributing/development/configuring_an_ide/clion.rst:96
+msgid "Click the **+** button to add ``*.o`` and ``*.a`` to the list. In Windows, you would add ``*.obj`` and ``*.dll``."
+msgstr ""
+
+#: ../../docs/contributing/development/configuring_an_ide/clion.rst:101
+msgid "Now, the files should be ignored in the Project view."
 msgstr ""

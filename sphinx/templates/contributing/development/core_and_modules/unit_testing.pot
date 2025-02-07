@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -160,7 +160,7 @@ msgid "`tests/test_macros.h <https://github.com/godotengine/godot/blob/master/te
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/unit_testing.rst:148
-msgid "Test cases are created using ``TEST_CASE`` function-like macro. Each test case must have a brief description written in parentheses, optionally including custom tags which allow to filter the tests at run-time, such as ``[String]``, ``[Stress]`` etc."
+msgid "Test cases are created using ``TEST_CASE`` function-like macro. Each test case must have a brief description written in parentheses, optionally including custom tags which allow to filter the tests at runtime, such as ``[String]``, ``[Stress]`` etc."
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/unit_testing.rst:153
@@ -298,7 +298,7 @@ msgid "Fails the test immediately. Can be wrapped in conditionals for complex ch
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/unit_testing.rst:230
-msgid "Different reporters can be chosen at run-time. For instance, here's how the output can be redirected to an XML file:"
+msgid "Different reporters can be chosen at runtime. For instance, here's how the output can be redirected to an XML file:"
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/unit_testing.rst:239

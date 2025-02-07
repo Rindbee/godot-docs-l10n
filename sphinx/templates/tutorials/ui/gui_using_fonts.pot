@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -710,7 +710,7 @@ msgid "**Top:** Additional spacing above glyphs. This is used for multiline text
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:647
-msgid "**Top:** Additional spacing below glyphs. This is used for multiline text, but also to calculate the minimum size of controls such as :ref:`class_Label` and :ref:`class_Button`."
+msgid "**Bottom:** Additional spacing below glyphs. This is used for multiline text, but also to calculate the minimum size of controls such as :ref:`class_Label` and :ref:`class_Button`."
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:651
@@ -794,7 +794,7 @@ msgid "However, loading system fonts on Android is unreliable as there is no off
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:752
-msgid "System fonts are a different type of resource compared to imported fonts. They are never actually imported into the project, but are loaded at run-time. This has 2 benefits:"
+msgid "System fonts are a different type of resource compared to imported fonts. They are never actually imported into the project, but are loaded at runtime. This has 2 benefits:"
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:756

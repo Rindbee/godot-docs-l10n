@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -44,11 +44,11 @@ msgid "In 3D, click the **Perspective** button in the top left corner and enable
 msgstr ""
 
 #: ../../docs/tutorials/troubleshooting.rst:26
-msgid "Open the Editor Settings and increase the value of **Low Processor Mode Sleep (µsec)** to ``33000`` (30 FPS). This value determines the amount of *microseconds* between frames to render. Higher values will make the editor feel less reactive but will help decrease CPU and GPU usage significantly."
+msgid "Open the Editor Settings and increase the value of **Low Processor Mode Sleep (µsec)** to ``33000`` (30 FPS). This value determines the amount of *microseconds* between frames to render. Higher values will make the editor feel less reactive, but will help decrease CPU and GPU usage significantly."
 msgstr ""
 
 #: ../../docs/tutorials/troubleshooting.rst:30
-msgid "If you have a node that causes the editor to redraw continuously (such as particles), hide it and show it using a script in the ``_ready()`` method. This way, it will be hidden in the editor but will still be visible in the running project."
+msgid "If you have a node that causes the editor to redraw continuously (such as particles), hide it and show it using a script in the ``_ready()`` method. This way, it will be hidden in the editor, but will still be visible in the running project."
 msgstr ""
 
 #: ../../docs/tutorials/troubleshooting.rst:36
@@ -64,7 +64,7 @@ msgid "There are several workarounds for this:"
 msgstr ""
 
 #: ../../docs/tutorials/troubleshooting.rst:46
-msgid "Enable **Interface > Editor > Update Continuously** in the Editor Settings. Keep in mind this will increase power usage and heat/noise emissions since the editor will now be rendering constantly, even if nothing has changed on screen. To alleviate this, you can increase **Low Processor Mode Sleep (µsec)** to ``33000`` (30 FPS) in the Editor Settings. This value determines the amount of *microseconds* between frames to render. Higher values will make the editor feel less reactive but will help decrease CPU and GPU usage significantly."
+msgid "Enable **Interface > Editor > Update Continuously** in the Editor Settings. Keep in mind this will increase power usage and heat/noise emissions since the editor will now be rendering constantly, even if nothing has changed on screen. To alleviate this, you can increase **Low Processor Mode Sleep (µsec)** to ``33000`` (30 FPS) in the Editor Settings. This value determines the amount of *microseconds* between frames to render. Higher values will make the editor feel less reactive, but will help decrease CPU and GPU usage significantly."
 msgstr ""
 
 #: ../../docs/tutorials/troubleshooting.rst:53
@@ -84,7 +84,7 @@ msgid "The editor or project takes a very long time to start"
 msgstr ""
 
 #: ../../docs/tutorials/troubleshooting.rst:63
-msgid "When using one of the Vulkan-based renderers (Forward+ or Forward Mobile), the first startup is expected to be relatively long. This is because shaders need to be compiled before they can be cached. Shaders also need to be cached again after updating Godot, after updating graphics drivers or after switching graphics cards."
+msgid "When using one of the Vulkan-based renderers (Forward+ or Mobile), the first startup is expected to be relatively long. This is because shaders need to be compiled before they can be cached. Shaders also need to be cached again after updating Godot, after updating graphics drivers or after switching graphics cards."
 msgstr ""
 
 #: ../../docs/tutorials/troubleshooting.rst:69
@@ -224,38 +224,46 @@ msgstr ""
 msgid "If you insist on leaving HDR enabled, it is possible to somewhat improve the result by ensuring the display is configured to use :abbr:`HGIG (HDR Gaming Interest Group)` tonemapping (as opposed to :abbr:`DTM (Dynamic Tone Mapping)`), then `using the Windows HDR calibration app <https://support.microsoft.com/en-us/windows/calibrate-your-hdr-display-using-the-windows-hdr-calibration-app-f30f4809-3369-43e4-9b02-9eabebd23f19>`__. It is also strongly recommended to use Windows 11 instead of Windows 10 when using HDR. The end result will still likely be inferior to disabling HDR on the display, though."
 msgstr ""
 
-#: ../../docs/tutorials/troubleshooting.rst:214
+#: ../../docs/tutorials/troubleshooting.rst:217
 msgid "Support for HDR *output* is planned in a future release."
 msgstr ""
 
-#: ../../docs/tutorials/troubleshooting.rst:217
+#: ../../docs/tutorials/troubleshooting.rst:220
 msgid "The editor/project freezes or displays glitched visuals after resuming the PC from suspend"
 msgstr ""
 
-#: ../../docs/tutorials/troubleshooting.rst:219
-msgid "This is a known issue on Linux with NVIDIA graphics when using the proprietary driver. There is no definitive fix yet, as suspend on Linux + NVIDIA is often buggy when OpenGL or Vulkan is involved. The Compatibility rendering method (which uses OpenGL) is generally less prone to suspend-related issues compared to the Forward+ and Forward Mobile rendering methods (which use Vulkan)."
+#: ../../docs/tutorials/troubleshooting.rst:222
+msgid "This is a known issue on Linux with NVIDIA graphics when using the proprietary driver. There is no definitive fix yet, as suspend on Linux + NVIDIA is often buggy when OpenGL or Vulkan is involved. The Compatibility rendering method (which uses OpenGL) is generally less prone to suspend-related issues compared to the Forward+ and Mobile renderers (which use Vulkan)."
 msgstr ""
 
-#: ../../docs/tutorials/troubleshooting.rst:225
+#: ../../docs/tutorials/troubleshooting.rst:228
 msgid "The NVIDIA driver offers an *experimental* `option to preserve video memory after suspend <https://wiki.archlinux.org/title/NVIDIA/Tips_and_tricks#Preserve_video_memory_after_suspend>`__ which may resolve this issue. This option has been reported to work better with more recent NVIDIA driver versions."
 msgstr ""
 
-#: ../../docs/tutorials/troubleshooting.rst:230
+#: ../../docs/tutorials/troubleshooting.rst:233
 msgid "To avoid losing work, save scenes in the editor before putting the PC to sleep."
 msgstr ""
 
-#: ../../docs/tutorials/troubleshooting.rst:233
+#: ../../docs/tutorials/troubleshooting.rst:236
 msgid "The project works when run from the editor, but fails to load some files when running from an exported copy"
 msgstr ""
 
-#: ../../docs/tutorials/troubleshooting.rst:235
+#: ../../docs/tutorials/troubleshooting.rst:238
 msgid "This is usually caused by forgetting to specify a filter for non-resource files in the Export dialog. By default, Godot will only include actual *resources* into the PCK file. Some files commonly used, such as JSON files, are not considered resources. For example, if you load ``test.json`` in the exported project, you need to specify ``*.json`` in the non-resource export filter. See :ref:`doc_exporting_projects_export_mode` for more information."
 msgstr ""
 
-#: ../../docs/tutorials/troubleshooting.rst:242
+#: ../../docs/tutorials/troubleshooting.rst:245
 msgid "Also, note that files and folders whose names begin with a period will never be included in the exported project. This is done to prevent version control folders like ``.git`` from being included in the exported PCK file."
 msgstr ""
 
-#: ../../docs/tutorials/troubleshooting.rst:246
+#: ../../docs/tutorials/troubleshooting.rst:249
 msgid "On Windows, this can also be due to :ref:`case sensitivity <doc_project_organization_case_sensitivity>` issues. If you reference a resource in your script with a different case than on the filesystem, loading will fail once you export the project. This is because the virtual PCK filesystem is case-sensitive, while Windows's filesystem is case-insensitive by default."
+msgstr ""
+
+#: ../../docs/tutorials/troubleshooting.rst:256
+msgid "The project crashes frequently or instantly after opening it from the project manager"
+msgstr ""
+
+#: ../../docs/tutorials/troubleshooting.rst:258
+msgid "This could be caused by a number of things such as an editor plugin, GDExtension addon, or something else. In this scenario it's recommended that you open the project in recovery mode, and attempt to find and fix whatever is causing the crashes. See the :ref:`Project Manager page <doc_project_manager>` for more information."
 msgstr ""

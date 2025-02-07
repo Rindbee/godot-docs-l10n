@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -67,23 +67,24 @@ msgstr ""
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:89
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:123
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:253
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:388
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:497
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:582
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:372
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:399
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:508
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:593
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:611
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:648
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:664
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:679
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:696
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:708
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:716
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:729
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:737
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:750
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:784
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:792
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:800
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:604
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:622
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:659
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:675
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:690
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:707
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:719
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:727
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:740
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:748
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:761
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:795
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:803
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:811
 msgid "GDScript"
 msgstr ""
 
@@ -91,23 +92,24 @@ msgstr ""
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:89
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:123
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:253
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:388
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:497
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:582
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:372
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:399
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:508
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:593
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:611
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:648
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:664
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:679
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:696
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:708
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:716
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:729
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:737
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:750
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:784
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:792
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:800
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:604
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:622
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:659
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:675
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:690
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:707
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:719
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:727
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:740
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:748
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:761
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:795
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:803
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:811
 msgid "C#"
 msgstr ""
 
@@ -207,8 +209,8 @@ msgstr ""
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:284
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:349
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:360
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:373
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:870
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:384
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:881
 msgid "Example:"
 msgstr ""
 
@@ -500,7 +502,7 @@ msgid "Mathf.PosMod"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:162
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:414
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:425
 msgid "hash"
 msgstr ""
 
@@ -849,13 +851,13 @@ msgstr ""
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:261
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:263
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:264
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:397
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:411
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:412
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:413
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:417
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:454
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:459
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:408
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:422
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:423
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:424
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:428
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:465
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:470
 msgid "N/A"
 msgstr ""
 
@@ -981,7 +983,7 @@ msgid "str"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:225
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:406
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:417
 msgid "Use `$ string interpolation`_"
 msgstr ""
 
@@ -1223,1240 +1225,1252 @@ msgstr ""
 msgid "However, in some very rare cases this is not enough. For example, you may want to access a member from the base class ``GodotObject``, like ``Connect``. For such use cases we provide a static property named ``Singleton`` that returns the singleton instance. The type of this instance is ``GodotObject``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:367
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:366
+msgid "If you are developing main screen plugins, it is essential to note that ``EditorInterface`` is not a static class in C#, unlike in GDScript. Therefore, you must use the singleton pattern to obtain an instance of the ``EditorInterface``:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:374
+msgid "``EditorInterface``"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:374
+msgid "``EditorInterface.Singleton``"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:378
 msgid "String"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:369
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:380
 msgid "Use ``System.String`` (``string``). Most of Godot's String methods have an equivalent in ``System.String`` or are provided by the ``StringExtensions`` class as extension methods."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:380
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:391
 msgid "Strings are immutable in .NET, so all methods that manipulate a string don't modify the original string and return a newly created string with the modifications applied. To avoid creating multiple string allocations consider using a `StringBuilder`_."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:385
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:396
 msgid "List of Godot's String methods and their equivalent in C#:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:390
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:401
 msgid "begins_with"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:390
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:401
 msgid "`string.StartsWith`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:391
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:402
 msgid "bigrams"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:391
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:402
 msgid "StringExtensions.Bigrams"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:392
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:403
 msgid "bin_to_int"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:392
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:403
 msgid "StringExtensions.BinToInt"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:393
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:404
 msgid "c_escape"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:393
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:404
 msgid "StringExtensions.CEscape"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:394
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:405
 msgid "c_unescape"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:394
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:405
 msgid "StringExtensions.CUnescape"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:395
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:406
 msgid "capitalize"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:395
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:406
 msgid "StringExtensions.Capitalize"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:396
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:407
 msgid "casecmp_to"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:396
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:407
 msgid "StringExtensions.CasecmpTo or StringExtensions.CompareTo (Consider using `string.Equals`_ or `string.Compare`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:397
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:408
 msgid "chr"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:398
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:409
 msgid "contains"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:398
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:409
 msgid "`string.Contains`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:399
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:410
 msgid "count"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:399
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:410
 msgid "StringExtensions.Count (Consider using `RegEx`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:400
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:411
 msgid "countn"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:400
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:411
 msgid "StringExtensions.CountN (Consider using `RegEx`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:401
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:412
 msgid "dedent"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:401
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:412
 msgid "StringExtensions.Dedent"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:402
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:413
 msgid "ends_with"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:402
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:413
 msgid "`string.EndsWith`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:403
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:414
 msgid "erase"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:403
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:414
 msgid "`string.Remove`_ (Consider using `StringBuilder`_ to manipulate strings)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:404
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:415
 msgid "find"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:404
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:415
 msgid "StringExtensions.Find (Consider using `string.IndexOf`_ or `string.IndexOfAny`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:405
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:416
 msgid "findn"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:405
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:416
 msgid "StringExtensions.FindN (Consider using `string.IndexOf`_ or `string.IndexOfAny`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:406
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:417
 msgid "format"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:407
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:418
 msgid "get_base_dir"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:407
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:418
 msgid "StringExtensions.GetBaseDir"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:408
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:419
 msgid "get_basename"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:408
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:419
 msgid "StringExtensions.GetBaseName"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:409
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:420
 msgid "get_extension"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:409
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:420
 msgid "StringExtensions.GetExtension"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:410
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:421
 msgid "get_file"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:410
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:421
 msgid "StringExtensions.GetFile"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:411
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:422
 msgid "get_slice"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:412
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:423
 msgid "get_slice_count"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:413
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:424
 msgid "get_slicec"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:414
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:425
 msgid "StringExtensions.Hash (Consider using `object.GetHashCode`_ unless you need to guarantee the same behavior as in GDScript)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:415
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:426
 msgid "hex_decode"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:415
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:426
 msgid "StringExtensions.HexDecode (Consider using `System.Convert.FromHexString`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:416
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:427
 msgid "hex_to_int"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:416
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:427
 msgid "StringExtensions.HexToInt (Consider using `int.Parse`_ or `long.Parse`_ with `System.Globalization.NumberStyles.HexNumber`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:417
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:428
 msgid "humanize_size"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:418
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:429
 msgid "indent"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:418
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:429
 msgid "StringExtensions.Indent"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:419
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:430
 msgid "insert"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:419
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:430
 msgid "`string.Insert`_ (Consider using `StringBuilder`_ to manipulate strings)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:420
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:431
 msgid "is_absolute_path"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:420
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:431
 msgid "StringExtensions.IsAbsolutePath"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:421
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:432
 msgid "is_empty"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:421
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:432
 msgid "`string.IsNullOrEmpty`_ or `string.IsNullOrWhiteSpace`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:422
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:433
 msgid "is_relative_path"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:422
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:433
 msgid "StringExtensions.IsRelativePath"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:423
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:434
 msgid "is_subsequence_of"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:423
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:434
 msgid "StringExtensions.IsSubsequenceOf"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:424
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:435
 msgid "is_subsequence_ofn"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:424
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:435
 msgid "StringExtensions.IsSubsequenceOfN"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:425
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:436
 msgid "is_valid_filename"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:425
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:436
 msgid "StringExtensions.IsValidFileName"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:426
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:437
 msgid "is_valid_float"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:426
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:437
 msgid "StringExtensions.IsValidFloat (Consider using `float.TryParse`_ or `double.TryParse`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:427
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:438
 msgid "is_valid_hex_number"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:427
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:438
 msgid "StringExtensions.IsValidHexNumber"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:428
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:439
 msgid "is_valid_html_color"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:428
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:439
 msgid "StringExtensions.IsValidHtmlColor"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:429
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:440
 msgid "is_valid_identifier"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:429
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:440
 msgid "StringExtensions.IsValidIdentifier"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:430
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:441
 msgid "is_valid_int"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:430
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:441
 msgid "StringExtensions.IsValidInt (Consider using `int.TryParse`_ or `long.TryParse`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:431
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:442
 msgid "is_valid_ip_address"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:431
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:442
 msgid "StringExtensions.IsValidIPAddress"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:432
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:443
 msgid "join"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:432
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:443
 msgid "`string.Join`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:433
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:444
 msgid "json_escape"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:433
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:444
 msgid "StringExtensions.JSONEscape"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:434
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:445
 msgid "left"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:434
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:445
 msgid "StringExtensions.Left (Consider using `string.Substring`_ or `string.AsSpan`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:435
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:446
 msgid "length"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:435
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:446
 msgid "`string.Length`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:436
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:447
 msgid "lpad"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:436
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:447
 msgid "`string.PadLeft`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:437
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:448
 msgid "lstrip"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:437
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:448
 msgid "`string.TrimStart`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:438
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:449
 msgid "match"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:438
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:449
 msgid "StringExtensions.Match (Consider using `RegEx`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:439
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:450
 msgid "matchn"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:439
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:450
 msgid "StringExtensions.MatchN (Consider using `RegEx`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:440
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:451
 msgid "md5_buffer"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:440
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:451
 msgid "StringExtensions.Md5Buffer (Consider using `System.Security.Cryptography.MD5.HashData`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:441
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:452
 msgid "md5_text"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:441
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:452
 msgid "StringExtensions.Md5Text (Consider using `System.Security.Cryptography.MD5.HashData`_ with StringExtensions.HexEncode)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:442
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:453
 msgid "naturalnocasecmp_to"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:442
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:453
 msgid "N/A (Consider using `string.Equals`_ or `string.Compare`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:443
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:454
 msgid "nocasecmp_to"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:443
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:454
 msgid "StringExtensions.NocasecmpTo or StringExtensions.CompareTo (Consider using `string.Equals`_ or `string.Compare`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:444
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:455
 msgid "num"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:444
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:446
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:455
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:457
 msgid "`float.ToString`_ or `double.ToString`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:445
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:456
 msgid "num_int64"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:445
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:456
 msgid "`int.ToString`_ or `long.ToString`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:446
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:457
 msgid "num_scientific"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:447
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:458
 msgid "num_uint64"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:447
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:458
 msgid "`uint.ToString`_ or `ulong.ToString`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:448
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:459
 msgid "pad_decimals"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:448
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:459
 msgid "StringExtensions.PadDecimals"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:449
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:460
 msgid "pad_zeros"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:449
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:460
 msgid "StringExtensions.PadZeros"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:450
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:461
 msgid "path_join"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:450
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:461
 msgid "StringExtensions.PathJoin"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:451
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:462
 msgid "repeat"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:451
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:462
 msgid "Use `string constructor`_ or a `StringBuilder`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:452
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:463
 msgid "replace"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:452
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:463
 msgid "`string.Replace`_ or `RegEx`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:453
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:464
 msgid "replacen"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:453
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:464
 msgid "StringExtensions.ReplaceN (Consider using `string.Replace`_ or `RegEx`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:454
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:465
 msgid "reverse"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:455
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:466
 msgid "rfind"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:455
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:466
 msgid "StringExtensions.RFind (Consider using `string.LastIndexOf`_ or `string.LastIndexOfAny`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:456
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:467
 msgid "rfindn"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:456
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:467
 msgid "StringExtensions.RFindN (Consider using `string.LastIndexOf`_ or `string.LastIndexOfAny`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:457
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:468
 msgid "right"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:457
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:468
 msgid "StringExtensions.Right (Consider using `string.Substring`_ or `string.AsSpan`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:458
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:469
 msgid "rpad"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:458
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:469
 msgid "`string.PadRight`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:459
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:470
 msgid "rsplit"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:460
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:471
 msgid "rstrip"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:460
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:471
 msgid "`string.TrimEnd`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:461
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:472
 msgid "sha1_buffer"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:461
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:472
 msgid "StringExtensions.Sha1Buffer (Consider using `System.Security.Cryptography.SHA1.HashData`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:462
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:473
 msgid "sha1_text"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:462
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:473
 msgid "StringExtensions.Sha1Text (Consider using `System.Security.Cryptography.SHA1.HashData`_ with StringExtensions.HexEncode)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:463
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:474
 msgid "sha256_buffer"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:463
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:474
 msgid "StringExtensions.Sha256Buffer (Consider using `System.Security.Cryptography.SHA256.HashData`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:464
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:475
 msgid "sha256_text"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:464
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:475
 msgid "StringExtensions.Sha256Text (Consider using `System.Security.Cryptography.SHA256.HashData`_ with StringExtensions.HexEncode)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:465
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:476
 msgid "similarity"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:465
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:476
 msgid "StringExtensions.Similarity"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:466
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:477
 msgid "simplify_path"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:466
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:477
 msgid "StringExtensions.SimplifyPath"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:467
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:478
 msgid "split"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:467
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:478
 msgid "StringExtensions.Split (Consider using `string.Split`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:468
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:479
 msgid "split_floats"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:468
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:479
 msgid "StringExtensions.SplitFloat"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:469
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:480
 msgid "strip_edges"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:469
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:480
 msgid "StringExtensions.StripEdges (Consider using `string.Trim`_, `string.TrimStart`_ or `string.TrimEnd`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:470
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:481
 msgid "strip_escapes"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:470
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:481
 msgid "StringExtensions.StripEscapes"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:471
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:482
 msgid "substr"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:471
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:482
 msgid "StringExtensions.Substr (Consider using `string.Substring`_ or `string.AsSpan`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:472
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:483
 msgid "to_ascii_buffer"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:472
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:483
 msgid "StringExtensions.ToAsciiBuffer (Consider using `System.Text.Encoding.ASCII.GetBytes`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:473
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:484
 msgid "to_camel_case"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:473
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:484
 msgid "StringExtensions.ToCamelCase"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:474
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:485
 msgid "to_float"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:474
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:485
 msgid "StringExtensions.ToFloat (Consider using `float.TryParse`_ or `double.TryParse`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:475
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:486
 msgid "to_int"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:475
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:486
 msgid "StringExtensions.ToInt (Consider using `int.TryParse`_ or `long.TryParse`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:476
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:487
 msgid "to_lower"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:476
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:487
 msgid "`string.ToLower`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:477
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:488
 msgid "to_pascal_case"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:477
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:488
 msgid "StringExtensions.ToPascalCase"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:478
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:489
 msgid "to_snake_case"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:478
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:489
 msgid "StringExtensions.ToSnakeCase"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:479
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:490
 msgid "to_upper"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:479
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:490
 msgid "`string.ToUpper`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:480
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:491
 msgid "to_utf16_buffer"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:480
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:491
 msgid "StringExtensions.ToUtf16Buffer (Consider using `System.Text.Encoding.UTF16.GetBytes`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:481
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:492
 msgid "to_utf32_buffer"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:481
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:492
 msgid "StringExtensions.ToUtf32Buffer (Consider using `System.Text.Encoding.UTF32.GetBytes`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:482
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:493
 msgid "to_utf8_buffer"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:482
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:493
 msgid "StringExtensions.ToUtf8Buffer (Consider using `System.Text.Encoding.UTF8.GetBytes`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:483
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:494
 msgid "to_wchar_buffer"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:483
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:494
 msgid "StringExtensions.ToUtf16Buffer in Windows and StringExtensions.ToUtf32Buffer in other platforms"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:484
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:495
 msgid "trim_prefix"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:484
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:495
 msgid "StringExtensions.TrimPrefix"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:485
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:496
 msgid "trim_suffix"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:485
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:496
 msgid "StringExtensions.TrimSuffix"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:486
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:497
 msgid "unicode_at"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:486
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:497
 msgid "`string[int]`_ indexer"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:487
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:498
 msgid "uri_decode"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:487
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:498
 msgid "StringExtensions.URIDecode (Consider using `System.Uri.UnescapeDataString`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:488
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:499
 msgid "uri_encode"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:488
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:499
 msgid "StringExtensions.URIEncode (Consider using `System.Uri.EscapeDataString`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:489
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:500
 msgid "validate_node_name"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:489
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:500
 msgid "StringExtensions.ValidateNodeName"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:490
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:501
 msgid "xml_escape"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:490
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:501
 msgid "StringExtensions.XMLEscape"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:491
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:502
 msgid "xml_unescape"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:491
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:502
 msgid "StringExtensions.XMLUnescape"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:494
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:505
 msgid "List of Godot's PackedByteArray methods that create a String and their C# equivalent:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:499
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:510
 msgid "get_string_from_ascii"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:499
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:510
 msgid "StringExtensions.GetStringFromAscii (Consider using `System.Text.Encoding.ASCII.GetString`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:500
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:511
 msgid "get_string_from_utf16"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:500
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:511
 msgid "StringExtensions.GetStringFromUtf16 (Consider using `System.Text.Encoding.UTF16.GetString`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:501
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:512
 msgid "get_string_from_utf32"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:501
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:512
 msgid "StringExtensions.GetStringFromUtf32 (Consider using `System.Text.Encoding.UTF32.GetString`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:502
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:513
 msgid "get_string_from_utf8"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:502
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:513
 msgid "StringExtensions.GetStringFromUtf8 (Consider using `System.Text.Encoding.UTF8.GetString`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:503
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:514
 msgid "hex_encode"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:503
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:514
 msgid "StringExtensions.HexEncode (Consider using `System.Convert.ToHexString`_)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:508
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:519
 msgid ".NET provides path utility methods under the `System.IO.Path`_ class. They can only be used with native OS paths, not Godot paths (paths that start with ``res://`` or ``user://``). See :ref:`doc_data_paths`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:577
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:588
 msgid "NodePath"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:579
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:661
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:713
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:734
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:747
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:781
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:590
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:672
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:724
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:745
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:758
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:792
 msgid "The following method was converted to a property with a different name:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:584
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:595
 msgid "``is_empty()``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:584
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:595
 msgid "``IsEmpty``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:588
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:599
 msgid "Signal"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:590
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:608
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:645
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:676
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:693
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:601
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:619
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:656
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:687
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:704
 msgid "The following methods were converted to properties with their respective names changed:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:595
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:606
 msgid "``get_name()``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:595
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:606
 msgid "``Name``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:596
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:613
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:607
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:624
 msgid "``get_object()``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:596
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:607
 msgid "``Owner``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:599
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:610
 msgid "The ``Signal`` type implements the awaitable pattern which means it can be used with the ``await`` keyword. See :ref:`doc_c_sharp_differences_await`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:602
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:613
 msgid "Instead of using the ``Signal`` type, the recommended way to use Godot signals in C# is to use the generated C# events. See :ref:`doc_c_sharp_signals`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:606
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:617
 msgid "Callable"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:613
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:624
 msgid "``Target``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:614
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:625
 msgid "``get_method()``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:614
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:625
 msgid "``Method``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:617
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:628
 msgid "Currently C# supports ``Callable`` if one of the following holds:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:619
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:630
 msgid "``Callable`` was created using the C# ``Callable`` type."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:620
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:631
 msgid "``Callable`` is a basic version of the engine's ``Callable``. Custom ``Callable``\\ s are unsupported. A ``Callable`` is custom when any of the following holds:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:623
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:634
 msgid "``Callable`` has bound information (``Callable``\\ s created with ``bind``/``unbind`` are unsupported)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:624
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:635
 msgid "``Callable`` was created from other languages through the GDExtension API."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:626
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:637
 msgid "Some methods such as ``bind`` and ``unbind`` are not implemented, use lambdas instead:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:638
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:649
 msgid "The lambda captures the ``name`` variable so it can be bound to the ``SayHello`` method."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:641
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:652
 msgid "RID"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:643
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:654
 msgid "This type is named ``Rid`` in C# to follow the .NET naming convention."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:650
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:661
 msgid "``get_id()``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:650
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:661
 msgid "``Id``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:651
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:662
 msgid "``is_valid()``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:651
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:662
 msgid "``IsValid``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:655
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:666
 msgid "Basis"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:657
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:668
 msgid "Structs cannot have parameterless constructors in C#. Therefore, ``new Basis()`` initializes all primitive members to their default value. Use ``Basis.Identity`` for the equivalent of ``Basis()`` in GDScript and C++."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:666
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:682
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:699
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:677
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:693
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:710
 msgid "``get_scale()``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:666
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:682
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:699
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:677
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:693
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:710
 msgid "``Scale``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:670
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:681
 msgid "Transform2D"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:672
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:683
 msgid "Structs cannot have parameterless constructors in C#. Therefore, ``new Transform2D()`` initializes all primitive members to their default value. Please use ``Transform2D.Identity`` for the equivalent of ``Transform2D()`` in GDScript and C++."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:681
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:698
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:692
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:709
 msgid "``get_rotation()``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:681
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:698
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:692
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:709
 msgid "``Rotation``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:683
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:694
 msgid "``get_skew()``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:683
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:694
 msgid "``Skew``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:687
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:698
 msgid "Transform3D"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:689
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:700
 msgid "Structs cannot have parameterless constructors in C#. Therefore, ``new Transform3D()`` initializes all primitive members to their default value. Please use ``Transform3D.Identity`` for the equivalent of ``Transform3D()`` in GDScript and C++."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:703
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:714
 msgid "Rect2"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:705
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:726
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:716
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:737
 msgid "The following field was converted to a property with a *slightly* different name:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:710
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:731
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:721
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:742
 msgid "``end``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:710
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:731
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:721
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:742
 msgid "``End``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:718
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:739
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:729
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:750
 msgid "``get_area()``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:718
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:739
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:729
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:750
 msgid "``Area``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:722
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:733
 msgid "Rect2i"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:724
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:735
 msgid "This type is named ``Rect2I`` in C# to follow the .NET naming convention."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:743
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:754
 msgid "AABB"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:745
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:756
 msgid "This type is named ``Aabb`` in C# to follow the .NET naming convention."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:752
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:763
 msgid "``get_volume()``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:752
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:763
 msgid "``Volume``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:756
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:767
 msgid "Quaternion"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:758
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:769
 msgid "Structs cannot have parameterless constructors in C#. Therefore, ``new Quaternion()`` initializes all primitive members to their default value. Please use ``Quaternion.Identity`` for the equivalent of ``Quaternion()`` in GDScript and C++."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:763
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:774
 msgid "Projection"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:765
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:776
 msgid "Structs cannot have parameterless constructors in C#. Therefore, ``new Projection()`` initializes all primitive members to their default value. Please use ``Projection.Identity`` for the equivalent of ``Projection()`` in GDScript and C++."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:770
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:781
 msgid "Color"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:772
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:783
 msgid "Structs cannot have parameterless constructors in C#. Therefore, ``new Color()`` initializes all primitive members to their default value (which represents the transparent black color). Please use ``Colors.Black`` for the equivalent of ``Color()`` in GDScript and C++."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:776
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:787
 msgid "The global ``Color8`` method to construct a Color from bytes is available as a static method in the Color type."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:779
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:790
 msgid "The Color constants are available in the ``Colors`` static class as readonly properties."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:786
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:797
 msgid "``get_luminance()``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:786
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:797
 msgid "``Luminance``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:789
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:800
 msgid "The following method was converted to a method with a different name:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:794
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:805
 msgid "``html(String)``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:794
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:805
 msgid "``FromHtml(ReadOnlySpan<char>)``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:797
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:808
 msgid "The following methods are available as constructors:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:802
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:813
 msgid "``hex(int)``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:802
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:813
 msgid "``Color(uint)``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:803
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:814
 msgid "``hex64(int)``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:803
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:814
 msgid "``Color(ulong)``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:807
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:818
 msgid "Array"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:809
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:820
 msgid "The equivalent of packed arrays are ``System.Array``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:811
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:822
 msgid "See also :ref:`PackedArray in C# <doc_c_sharp_collections_packedarray>`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:813
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:824
 msgid "Use ``Godot.Collections.Array`` for an untyped ``Variant`` array. ``Godot.Collections.Array<T>`` is a type-safe wrapper around ``Godot.Collections.Array``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:816
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:827
 msgid "See also :ref:`Array in C# <doc_c_sharp_collections_array>`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:819
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:830
 msgid "Dictionary"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:821
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:832
 msgid "Use ``Godot.Collections.Dictionary`` for an untyped ``Variant`` dictionary. ``Godot.Collections.Dictionary<TKey, TValue>`` is a type-safe wrapper around ``Godot.Collections.Dictionary``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:824
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:835
 msgid "See also :ref:`Dictionary in C# <doc_c_sharp_collections_dictionary>`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:827
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:838
 msgid "Variant"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:829
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:840
 msgid "``Godot.Variant`` is used to represent Godot's native :ref:`Variant <class_Variant>` type. Any :ref:`Variant-compatible type <c_sharp_variant_compatible_types>` can be converted from/to it."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:832
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:843
 msgid "See also: :ref:`doc_c_sharp_variant`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:835
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:846
 msgid "Communicating with other scripting languages"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:837
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:848
 msgid "This is explained extensively in :ref:`doc_cross_language_scripting`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:842
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:853
 msgid "``await`` keyword"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:844
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:855
 msgid "Something similar to GDScript's ``await`` keyword can be achieved with C#'s `await keyword <https://docs.microsoft.com/en-US/dotnet/csharp/language-reference/keywords/await>`_."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:847
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:858
 msgid "The ``await`` keyword in C# can be used with any awaitable expression. It's commonly used with operands of the types `Task`_, `Task<TResult>`_, `ValueTask`_, or `ValueTask<TResult>`_."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:850
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:861
 msgid "An expression ``t`` is awaitable if one of the following holds:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:852
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:863
 msgid "``t`` is of compile-time type ``dynamic``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:853
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:864
 msgid "``t`` has an accessible instance or extension method called ``GetAwaiter`` with no parameters and no type parameters, and a return type ``A`` for which all of the following hold:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:857
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:868
 msgid "``A`` implements the interface ``System.Runtime.CompilerServices.INotifyCompletion``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:858
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:869
 msgid "``A`` has an accessible, readable instance property ``IsCompleted`` of type ``bool``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:859
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:870
 msgid "``A`` has an accessible instance method ``GetResult`` with no parameters and no type parameters."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:867
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_differences.rst:878
 msgid "An equivalent of awaiting a signal in GDScript can be achieved with the ``await`` keyword and ``GodotObject.ToSignal``."
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,72 +47,72 @@ msgstr ""
 msgid "This is the standard, non-positional stream player. It can play to any bus. In 5.1 sound setups, it can send audio to stereo mix or front speakers."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:36
+#: ../../docs/tutorials/audio/audio_streams.rst:39
 msgid "Playback Type is an experimental setting, and could change in future versions of Godot. It exists so Web exports use Web Audio-API based samples instead of streaming all sounds to the browser, unlike most platforms. This prevents the audio from being garbled in single-threaded Web exports. By default, only the Web platform will use samples. Changing this setting is not recommended, unless you have an explicit reason to. You can change the default playback type for the web and other platforms in the project settings under **Audio > General** (advanced settings must be turned on to see the setting)."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:46
+#: ../../docs/tutorials/audio/audio_streams.rst:49
 msgid "AudioStreamPlayer2D"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:50
+#: ../../docs/tutorials/audio/audio_streams.rst:53
 msgid "This is a variant of AudioStreamPlayer, but emits sound in a 2D positional environment. When close to the left of the screen, the panning will go left. When close to the right side, it will go right."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:56
+#: ../../docs/tutorials/audio/audio_streams.rst:59
 msgid "Area2Ds can be used to divert sound from any AudioStreamPlayer2Ds they contain to specific buses. This makes it possible to create buses with different reverb or sound qualities to handle action happening in a particular parts of your game world."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:64
+#: ../../docs/tutorials/audio/audio_streams.rst:67
 msgid "AudioStreamPlayer3D"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:68
+#: ../../docs/tutorials/audio/audio_streams.rst:71
 msgid "This is a variant of AudioStreamPlayer, but emits sound in a 3D positional environment. Depending on the location of the player relative to the screen, it can position sound in stereo, 5.1 or 7.1 depending on the chosen audio setup."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:72
+#: ../../docs/tutorials/audio/audio_streams.rst:75
 msgid "Similar to AudioStreamPlayer2D, an Area3D can divert the sound to an audio bus."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:76
+#: ../../docs/tutorials/audio/audio_streams.rst:79
 msgid "Unlike for 2D, the 3D version of AudioStreamPlayer has a few more advanced options:"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:81
+#: ../../docs/tutorials/audio/audio_streams.rst:84
 msgid "Reverb buses"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:85
-#: ../../docs/tutorials/audio/audio_streams.rst:117
+#: ../../docs/tutorials/audio/audio_streams.rst:88
+#: ../../docs/tutorials/audio/audio_streams.rst:120
 msgid "This feature is not supported on the web platform if the AudioStreamPlayer's playback mode is set to **Sample**, which is the default. It will only work if the playback mode is set to **Stream**, at the cost of increased latency if threads are not enabled."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:90
-#: ../../docs/tutorials/audio/audio_streams.rst:122
+#: ../../docs/tutorials/audio/audio_streams.rst:93
+#: ../../docs/tutorials/audio/audio_streams.rst:125
 msgid "See :ref:`Audio playback in the Exporting for the Web documentation <doc_exporting_for_web_audio_playback>` for details."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:93
+#: ../../docs/tutorials/audio/audio_streams.rst:96
 msgid "Godot allows for 3D audio streams that enter a specific Area3D node to send dry and wet audio to separate buses. This is useful when you have several reverb configurations for different types of rooms. This is done by enabling this type of reverb in the **Reverb Bus** section of the Area3D's properties:"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:100
+#: ../../docs/tutorials/audio/audio_streams.rst:103
 msgid "At the same time, a special bus layout is created where each Area3D receives the reverb info from each Area3D. A Reverb effect needs to be created and configured in each reverb bus to complete the setup for the desired effect:"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:106
+#: ../../docs/tutorials/audio/audio_streams.rst:109
 msgid "The Area3D's **Reverb Bus** section also has a parameter named **Uniformity**. Some types of rooms bounce sounds more than others (like a warehouse), so reverberation can be heard almost uniformly across the room even though the source may be far away. Playing around with this parameter can simulate that effect."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:113
+#: ../../docs/tutorials/audio/audio_streams.rst:116
 msgid "Doppler"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:125
+#: ../../docs/tutorials/audio/audio_streams.rst:128
 msgid "When the relative velocity between an emitter and listener changes, this is perceived as an increase or decrease in the pitch of the emitted sound. Godot can track velocity changes in the AudioStreamPlayer3D and Camera nodes. Both nodes have this property, which must be enabled manually:"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_streams.rst:132
+#: ../../docs/tutorials/audio/audio_streams.rst:135
 msgid "Enable it by setting it depending on how objects will be moved: use **Idle** for objects moved using ``_process``, or **Physics** for objects moved using ``_physics_process``. The tracking will happen automatically."
 msgstr ""

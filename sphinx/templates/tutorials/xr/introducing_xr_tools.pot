@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -40,69 +40,69 @@ msgid "Installing XR Tools"
 msgstr ""
 
 #: ../../docs/tutorials/xr/introducing_xr_tools.rst:27
-msgid "Continuing on from our project we started in :ref:`doc_setting_up_xr` we want to add in the Godot XR Tools library. This can be downloaded from the `Godot XR Tools releases page <https://github.com/GodotVR/godot-xr-tools/releases>`_. Simply find the latest pre-release for Godot 4 and then under assets download the ``godot-xr-tools.zip`` file."
+msgid "Continuing on from our project we started in :ref:`doc_setting_up_xr` we want to add in the Godot XR Tools library. This can be downloaded from the `Godot XR Tools releases page <https://github.com/GodotVR/godot-xr-tools/releases>`_. Find the latest release for Godot 4, and under **Assets**, download the ``godot-xr-tools.zip`` file."
 msgstr ""
 
-#: ../../docs/tutorials/xr/introducing_xr_tools.rst:31
+#: ../../docs/tutorials/xr/introducing_xr_tools.rst:32
 msgid "Once downloaded unzip the file. You will notice the files are held within a ``godot-xr-tools`` subfolder. Inside of this folder you will find an ``addons`` folder. It is this folder that you want to copy in its entirety to your Godot project folder, your project should now look something like this:"
 msgstr ""
 
-#: ../../docs/tutorials/xr/introducing_xr_tools.rst:38
+#: ../../docs/tutorials/xr/introducing_xr_tools.rst:39
 msgid "Now open up your project in Godot, if you haven't already, and give it a minute or so to import all the resources of the plugin."
 msgstr ""
 
-#: ../../docs/tutorials/xr/introducing_xr_tools.rst:40
+#: ../../docs/tutorials/xr/introducing_xr_tools.rst:41
 msgid "Next open the ``Project`` menu and select ``Project Settings..``. Now go to the ``Plugins`` tab and enable the plugin."
 msgstr ""
 
-#: ../../docs/tutorials/xr/introducing_xr_tools.rst:46
+#: ../../docs/tutorials/xr/introducing_xr_tools.rst:47
 msgid "Basic hands"
 msgstr ""
 
-#: ../../docs/tutorials/xr/introducing_xr_tools.rst:48
+#: ../../docs/tutorials/xr/introducing_xr_tools.rst:49
 msgid "Just to get a feel of things we're going to add a few standard components that dress up our scene starting with hands for our player."
 msgstr ""
 
-#: ../../docs/tutorials/xr/introducing_xr_tools.rst:50
+#: ../../docs/tutorials/xr/introducing_xr_tools.rst:51
 msgid "OpenXR supports full hand tracking however there currently are significant differences in capabilities between the different XR Runtimes."
 msgstr ""
 
-#: ../../docs/tutorials/xr/introducing_xr_tools.rst:52
+#: ../../docs/tutorials/xr/introducing_xr_tools.rst:53
 msgid "As a reliable alternative Godot XR Tools comes with a number of rigged hand scenes that react on trigger and grip inputs of your controller. These hands come in low and high poly versions, come in a few configurations, a number of animation files to control finger positions and a number of different textures."
 msgstr ""
 
-#: ../../docs/tutorials/xr/introducing_xr_tools.rst:55
+#: ../../docs/tutorials/xr/introducing_xr_tools.rst:56
 msgid "In your scene tree select your left hand :ref:`XRController3D <class_xrcontroller3d>` node. Now click on the ``instantiate Child Scene`` button to add a child scene. And select ``addons/godot-xr-tools/hands/scenes/lowpoly/left_hand_low.tscn``."
 msgstr ""
 
-#: ../../docs/tutorials/xr/introducing_xr_tools.rst:59
+#: ../../docs/tutorials/xr/introducing_xr_tools.rst:60
 msgid "As you can see from the path of this scene, low poly models are in the ``lowpoly`` subfolder while high poly models are in the ``highpoly`` subfolder. You will want to use the low poly versions if you plan to release your game on mobile devices."
 msgstr ""
 
-#: ../../docs/tutorials/xr/introducing_xr_tools.rst:62
+#: ../../docs/tutorials/xr/introducing_xr_tools.rst:63
 msgid "The default hand we chose is just a hand. The other options are:"
 msgstr ""
 
-#: ../../docs/tutorials/xr/introducing_xr_tools.rst:64
+#: ../../docs/tutorials/xr/introducing_xr_tools.rst:65
 msgid "tac_glove - the hand is wearing a glove with fingers exposed"
 msgstr ""
 
-#: ../../docs/tutorials/xr/introducing_xr_tools.rst:65
+#: ../../docs/tutorials/xr/introducing_xr_tools.rst:66
 msgid "full_glove - the hand is wearing a glove that covers the entire hand"
 msgstr ""
 
-#: ../../docs/tutorials/xr/introducing_xr_tools.rst:67
+#: ../../docs/tutorials/xr/introducing_xr_tools.rst:68
 msgid "Finally each hand comes in a ``physics`` version. This exposes all the bones. We'll look at how that can be used in another tutorial."
 msgstr ""
 
-#: ../../docs/tutorials/xr/introducing_xr_tools.rst:71
+#: ../../docs/tutorials/xr/introducing_xr_tools.rst:72
 msgid "We repeat the same for the right hand."
 msgstr ""
 
-#: ../../docs/tutorials/xr/introducing_xr_tools.rst:76
+#: ../../docs/tutorials/xr/introducing_xr_tools.rst:77
 msgid "More information"
 msgstr ""
 
-#: ../../docs/tutorials/xr/introducing_xr_tools.rst:78
+#: ../../docs/tutorials/xr/introducing_xr_tools.rst:79
 msgid "We'll continue with adding features to our tutorial project using Godot XR tools in the next couple of pages. More detailed information about the toolkit can be found `on the toolkits help pages <https://godotvr.github.io/godot-xr-tools/>`_."
 msgstr ""

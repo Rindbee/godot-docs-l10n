@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,7 +24,7 @@ msgid "VoxelGI is a form of fully real-time global illumination, intended to be 
 msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:12
-msgid "VoxelGI is only supported when using the Forward Plus rendering backend, not the Forward Mobile or Compatibility backends."
+msgid "VoxelGI is only supported when using the Forward+ renderer, not the Mobile or Compatibility renderers."
 msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:17
@@ -102,7 +102,7 @@ msgid "**Energy:** The indirect lighting's overall energy. This also effects the
 msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:84
-msgid "**Bias:** Optional bias added to lookups into the voxel buffer at run time. This helps avoid self-occlusion artifacts."
+msgid "**Bias:** Optional bias added to lookups into the voxel buffer at runtime. This helps avoid self-occlusion artifacts."
 msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:86

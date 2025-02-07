@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -75,162 +75,158 @@ msgstr ""
 msgid "Godot's :ref:`class_FileAccess` class provides methods to access files on the filesystem for reading and writing:"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:59
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:75
 msgid "To handle custom binary formats (such as loading file formats not supported by Godot), :ref:`class_FileAccess` provides several methods to read/write integers, floats, strings and more. These FileAccess methods have names that start with ``get_`` and ``store_``."
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:64
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:80
 msgid "If you need more control over reading binary files or need to read binary streams that are not part of a file, :ref:`class_PackedByteArray` provides several helper methods to decode/encode series of bytes to integers, floats, strings and more. These PackedByteArray methods have names that start with ``decode_`` and ``encode_``. See also :ref:`doc_binary_serialization_api`."
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:73
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:89
 msgid "Images"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:75
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:91
 msgid "Image's :ref:`Image.load_from_file <class_Image_method_load_from_file>` static method handles everything, from format detection based on file extension to reading the file from disk."
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:79
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:95
 msgid "If you need error handling or more control (such as changing the scale an SVG is loaded at), use one of the following methods depending on the file format:"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:82
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:98
 msgid ":ref:`Image.load_jpg_from_buffer <class_Image_method_load_jpg_from_buffer>`"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:83
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:99
 msgid ":ref:`Image.load_ktx_from_buffer <class_Image_method_load_ktx_from_buffer>`"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:84
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:100
 msgid ":ref:`Image.load_png_from_buffer <class_Image_method_load_png_from_buffer>`"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:85
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:101
 msgid ":ref:`Image.load_svg_from_buffer <class_Image_method_load_svg_from_buffer>` or :ref:`Image.load_svg_from_string <class_Image_method_load_svg_from_string>`"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:87
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:103
 msgid ":ref:`Image.load_tga_from_buffer <class_Image_method_load_tga_from_buffer>`"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:88
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:104
 msgid ":ref:`Image.load_webp_from_buffer <class_Image_method_load_webp_from_buffer>`"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:90
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:106
 msgid "Several image formats can also be saved by Godot at runtime using the following methods:"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:93
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:109
 msgid ":ref:`Image.save_png <class_Image_method_save_png>` or :ref:`Image.save_png_to_buffer <class_Image_method_save_png_to_buffer>`"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:95
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:111
 msgid ":ref:`Image.save_webp <class_Image_method_save_webp>` or :ref:`Image.save_webp_to_buffer <class_Image_method_save_webp_to_buffer>`"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:97
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:113
 msgid ":ref:`Image.save_jpg <class_Image_method_save_jpg>` or :ref:`Image.save_jpg_to_buffer <class_Image_method_save_jpg_to_buffer>`"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:99
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:115
 msgid ":ref:`Image.save_exr <class_Image_method_save_exr>` or :ref:`Image.save_exr_to_buffer <class_Image_method_save_exr_to_buffer>` *(only available in editor builds, cannot be used in exported projects)*"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:103
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:119
 msgid "The methods with the ``to_buffer`` suffix save the image to a PackedByteArray instead of the filesystem. This is useful to send the image over the network or into a ZIP archive without having to write it on the filesystem. This can increase performance by reducing I/O utilization."
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:110
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:126
 msgid "If displaying the loaded image on a 3D surface, make sure to call :ref:`Image.generate_mipmaps <class_Image_method_generate_mipmaps>` so that the texture doesn't look grainy when viewed at a distance. This is also useful in 2D when following instructions on :ref:`reducing aliasing when downsampling <doc_multiple_resolutions_reducing_aliasing_on_downsampling>`."
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:116
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:132
 msgid "Example of loading an image and displaying it in a :ref:`class_TextureRect` node (which requires conversion to :ref:`class_ImageTexture`):"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:137
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:169
 msgid "Audio/video files"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:139
-msgid "Godot supports loading Ogg Vorbis audio at runtime. Note that not *all* files with an ``.ogg`` extension may be Ogg Vorbis files. Some may be Ogg Theora videos, or contain Opus audio within an Ogg container. These files will **not** load correctly as audio files in Godot."
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:171
+msgid "Godot supports loading Ogg Vorbis and WAV audio at runtime. Note that not *all* files with an ``.ogg`` extension are Ogg Vorbis files. Some may be Ogg Theora videos, or contain Opus audio within an Ogg container. These files will **not** load correctly as audio files in Godot."
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:144
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:176
 msgid "Example of loading an Ogg Vorbis audio file in an :ref:`class_AudioStreamPlayer` node:"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:150
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:187
 msgid "Example of loading an Ogg Theora video file in a :ref:`class_VideoStreamPlayer` node:"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:166
-msgid "Godot doesn't support runtime loading of MP3 or WAV files yet. Until this is implemented, it's feasible to implement runtime WAV loading using a script since :ref:`class_AudioStreamWAV`'s ``data`` property is exposed to scripting."
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:216
+msgid "Godot doesn't support runtime loading of MP3 files yet."
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:171
-msgid "It's still possible to *save* WAV files using :ref:`AudioStreamWAV.save_to_wav <class_AudioStreamWAV_method_save_to_wav>`, which is useful for procedurally generated audio or microphone recordings."
-msgstr ""
-
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:178
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:221
 msgid "3D scenes"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:180
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:223
 msgid "Godot has first-class support for glTF 2.0, both in the editor and exported projects. Using :ref:`class_gltfdocument` and :ref:`class_gltfstate` together, Godot can load and save glTF files in exported projects, in both text (``.gltf``) and binary (``.glb``) formats. The binary format should be preferred as it's faster to write and smaller, but the text format is easier to debug."
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:186
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:229
 msgid "Example of loading a glTF scene and appending its root node to the scene:"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:214
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:286
 msgid "When loading a glTF scene, a *base path* must be set so that external resources like textures can be loaded correctly. When loading from a file, the base path is automatically set to the folder containing the file. When loading from a buffer, this base path must be manually set as there is no way for Godot to infer this path."
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:220
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:292
 msgid "To set the base path, set :ref:`GLTFState.base_path <class_GLTFState_property_base_path>` on your GLTFState instance *before* calling :ref:`GLTFDocument.append_from_buffer <class_GLTFDocument_method_append_from_buffer>` or :ref:`GLTFDocument.append_from_file <class_GLTFDocument_method_append_from_file>`."
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:229
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:301
 msgid "Fonts"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:231
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:303
 msgid ":ref:`FontFile.load_dynamic_font <class_FontFile_method_load_bitmap_font>` supports the following font file formats: TTF, OTF, WOFF, WOFF2, PFB, PFM"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:234
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:306
 msgid "On the other hand, :ref:`FontFile.load_bitmap_font <class_FontFile_method_load_bitmap_font>` supports the `BMFont <https://www.angelcode.com/products/bmfont/>`__ format (``.fnt`` or ``.font``)."
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:237
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:309
 msgid "Additionally, it is possible to load any font that is installed on the system using Godot's support for :ref:`doc_using_fonts_system_fonts`."
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:240
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:312
 msgid "Example of loading a font file automatically according to its file extension, then adding it as a theme override to a :ref:`class_Label` node:"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:267
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:371
 msgid "ZIP archives"
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:269
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:373
 msgid "Godot supports reading and writing ZIP archives using the :ref:`class_zipreader` and :ref:`class_zippacker` classes. This supports any ZIP file, including files generated by Godot's \"Export PCK/ZIP\" functionality (although these will contain imported Godot resources rather than the original project files)."
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:276
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:380
 msgid "Use :ref:`ProjectSettings.load_resource_pack <class_ProjectSettings_method_load_resource_pack>` to load PCK or ZIP files exported by Godot as :ref:`additional data packs <doc_exporting_pcks>`. That approach is preferred for DLCs, as it makes interacting with additional data packs seamless (virtual filesystem)."
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:281
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:385
 msgid "This ZIP archive support can be combined with runtime image, 3D scene and audio loading to provide a seamless modding experience without requiring users to go through the Godot editor to generate PCK/ZIP files."
 msgstr ""
 
-#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:285
+#: ../../docs/tutorials/io/runtime_file_loading_and_saving.rst:389
 msgid "Example that lists files in a ZIP archive in an :ref:`class_ItemList` node, then writes contents read from it to a new ZIP archive (essentially duplicating the archive):"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -15,18 +15,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../docs/tutorials/2d/index.rst:4
+#: ../../docs/tutorials/2d/index.rst:3
+msgid "Godot includes a dedicated 2D renderer and 2D physics engine, as well as 2D-specific features like tilemaps, particles, and animation systems. This section covers most 2D-specific topics in Godot."
+msgstr ""
+
+#: ../../docs/tutorials/2d/index.rst:7
+msgid "For 2D topics not covered in this section, see also :ref:`doc_2d_skeletons` and :ref:`doc_navigation_overview_2d`. For using physics in 2D, see :ref:`doc_physics_index`. There is also a step-by-step tutorial on creating a 2D game in :ref:`doc_your_first_2d_game`."
+msgstr ""
+
+#: ../../docs/tutorials/2d/index.rst:13
 msgid "2D"
 msgstr ""
 
-#: ../../docs/tutorials/2d/index.rst:17
+#: ../../docs/tutorials/2d/index.rst:26
 msgid "Rendering"
 msgstr ""
 
-#: ../../docs/tutorials/2d/index.rst:32
+#: ../../docs/tutorials/2d/index.rst:42
 msgid "Physics and movement"
 msgstr ""
 
-#: ../../docs/tutorials/2d/index.rst:41
+#: ../../docs/tutorials/2d/index.rst:51
 msgid "Tools"
 msgstr ""

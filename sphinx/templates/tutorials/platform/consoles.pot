@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,7 +24,7 @@ msgid "Console porting process"
 msgstr ""
 
 #: ../../docs/tutorials/platform/consoles.rst:9
-msgid "In order to develop for consoles in Godot, you need access to the console SDK and export templates for it. These export templates need to be developed either by yourself or someone hired to do it, or provided by a third party company."
+msgid "In order to develop for consoles in Godot, you need access to the console SDK and export templates for it. These export templates need to be developed either by yourself or someone hired to do it, or provided by a third-party company."
 msgstr ""
 
 #: ../../docs/tutorials/platform/consoles.rst:13

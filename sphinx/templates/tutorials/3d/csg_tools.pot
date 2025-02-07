@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,321 +28,409 @@ msgid "Level prototyping is one of the main uses of CSG in Godot. This technique
 msgstr ""
 
 #: ../../docs/tutorials/3d/csg_tools.rst:16
-msgid "The CSG nodes in Godot are mainly intended for prototyping. There is no built-in support for UV mapping or editing 3D polygons (though extruded 2D polygons can be used with the CSGPolygon3D node). In addition CSG can't reliably create meshes made up of multiple nodes without holes."
+msgid "The CSG nodes in Godot are mainly intended for prototyping. There is no built-in support for UV mapping or editing 3D polygons (though extruded 2D polygons can be used with the CSGPolygon3D node)."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:22
+#: ../../docs/tutorials/3d/csg_tools.rst:20
 msgid "If you're looking for an easy to use level design tool for a project, you may want to use `FuncGodot <https://github.com/func-godot/func_godot_plugin>`__ or `Cyclops Level Builder <https://github.com/blackears/cyclopsLevelBuilder>`__ instead."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:35
+#: ../../docs/tutorials/3d/csg_tools.rst:34
 msgid "You can check how to use CSG nodes to build various shapes (such as stairs or roads) using the `Constructive Solid Geometry demo project <https://github.com/godotengine/godot-demo-projects/tree/master/3d/csg>`__."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:39
+#: ../../docs/tutorials/3d/csg_tools.rst:38
 msgid "Introduction to CSG nodes"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:41
+#: ../../docs/tutorials/3d/csg_tools.rst:40
 msgid "Like other features of Godot, CSG is supported in the form of nodes. These are the CSG nodes:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:44
+#: ../../docs/tutorials/3d/csg_tools.rst:43
 msgid ":ref:`CSGBox3D <class_CSGBox3D>`"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:45
+#: ../../docs/tutorials/3d/csg_tools.rst:44
 msgid ":ref:`CSGCylinder3D <class_CSGCylinder3D>` (also supports cone)"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:46
+#: ../../docs/tutorials/3d/csg_tools.rst:45
 msgid ":ref:`CSGSphere3D <class_CSGSphere3D>`"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:47
+#: ../../docs/tutorials/3d/csg_tools.rst:46
 msgid ":ref:`CSGTorus3D <class_CSGTorus3D>`"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:48
+#: ../../docs/tutorials/3d/csg_tools.rst:47
 msgid ":ref:`CSGPolygon3D <class_CSGPolygon3D>`"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:49
+#: ../../docs/tutorials/3d/csg_tools.rst:48
 msgid ":ref:`CSGMesh3D <class_CSGMesh3D>`"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:50
+#: ../../docs/tutorials/3d/csg_tools.rst:49
 msgid ":ref:`CSGCombiner3D <class_CSGCombiner3D>`"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:57
+#: ../../docs/tutorials/3d/csg_tools.rst:56
 msgid "CSG tools features"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:59
+#: ../../docs/tutorials/3d/csg_tools.rst:58
 msgid "Every CSG node supports 3 kinds of boolean operations:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:61
+#: ../../docs/tutorials/3d/csg_tools.rst:60
 msgid "**Union:** Geometry of both primitives is merged, intersecting geometry is removed."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:63
+#: ../../docs/tutorials/3d/csg_tools.rst:62
 msgid "**Intersection:** Only intersecting geometry remains, the rest is removed."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:64
+#: ../../docs/tutorials/3d/csg_tools.rst:63
 msgid "**Subtraction:** The second shape is subtracted from the first, leaving a dent with its shape."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:72
+#: ../../docs/tutorials/3d/csg_tools.rst:71
 msgid "CSGPolygon"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:74
+#: ../../docs/tutorials/3d/csg_tools.rst:73
 msgid "The :ref:`CSGPolygon3D <class_CSGPolygon3D>` node extrude along a Polygon drawn in 2D (in X, Y coordinates) in the following ways:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:77
+#: ../../docs/tutorials/3d/csg_tools.rst:76
 msgid "**Depth:** Extruded back a given amount."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:78
+#: ../../docs/tutorials/3d/csg_tools.rst:77
 msgid "**Spin:** Extruded while spinning around its origin."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:79
+#: ../../docs/tutorials/3d/csg_tools.rst:78
 msgid "**Path:** Extruded along a Path node. This operation is commonly called lofting."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:86
+#: ../../docs/tutorials/3d/csg_tools.rst:85
 msgid "The **Path** mode must be provided with a :ref:`Path3D <class_Path3D>` node to work. In the Path node, draw the path and the polygon in CSGPolygon3D will extrude along the given path."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:92
+#: ../../docs/tutorials/3d/csg_tools.rst:91
 msgid "Custom meshes"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:94
-msgid "Any mesh can be used for :ref:`CSGMesh3D <class_CSGMesh3D>`; the mesh can be modeled in other software and imported into Godot. Multiple materials are supported. There are some restrictions for geometry:"
+#: ../../docs/tutorials/3d/csg_tools.rst:93
+msgid "Custom meshes can be used for :ref:`CSGMesh3D <class_CSGMesh3D>` as long as the mesh is *manifold*. The mesh can be modeled in other software and imported into Godot. Multiple materials are supported."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:98
-msgid "it must be closed,"
+#: ../../docs/tutorials/3d/csg_tools.rst:97
+msgid "For a mesh to be used as a CSG mesh, it is required to:"
 msgstr ""
 
 #: ../../docs/tutorials/3d/csg_tools.rst:99
-msgid "it must not self-intersect,"
+msgid "be closed"
 msgstr ""
 
 #: ../../docs/tutorials/3d/csg_tools.rst:100
-msgid "it must not contain internal faces,"
+msgid "have each edge connect to only two faces"
 msgstr ""
 
 #: ../../docs/tutorials/3d/csg_tools.rst:101
-msgid "every edge must connect to only two other faces."
+msgid "have volume"
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:103
+msgid "And it is recommended to avoid:"
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:105
+msgid "negative volume"
 msgstr ""
 
 #: ../../docs/tutorials/3d/csg_tools.rst:106
-msgid "CSGCombiner3D"
+msgid "self-intersection"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:108
-msgid "The :ref:`CSGCombiner3D <class_CSGCombiner3D>` node is an empty shape used for organization. It will only combine children nodes."
+#: ../../docs/tutorials/3d/csg_tools.rst:107
+msgid "interior faces"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:112
-msgid "Processing order"
+#: ../../docs/tutorials/3d/csg_tools.rst:109
+msgid "Godot uses the `manifold <https://github.com/elalish/manifold>`__ library to implement CSG meshes. The technical definition of \"manifold\" used by Godot is the following, adapted from that library's `definition of \"manifold\" <https://github.com/elalish/manifold/wiki/Manifold-Library#manifoldness-definition>`__:"
 msgstr ""
 
 #: ../../docs/tutorials/3d/csg_tools.rst:114
-msgid "Every CSG node will first process its children nodes and their operations: union, intersection, or subtraction, in tree order, and apply them to itself one after the other."
+msgid "Every edge of every triangle must contain the same two vertices (by index) as exactly one other triangle edge, and the start and end vertices must switch places between these two edges. The triangle vertices must appear in clockwise order when viewed from the outside of the Godot Engine manifold mesh."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:118
-msgid "In the interest of performance, make sure CSG geometry remains relatively simple, as complex meshes can take a while to process. If adding objects together (such as table and room objects), create them as separate CSG trees. Forcing too many objects in a single tree will eventually start affecting performance. Only use binary operations where you actually need them."
+#: ../../docs/tutorials/3d/csg_tools.rst:122
+msgid "Making an existing mesh manifold with Blender"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:126
-msgid "Prototyping a level"
-msgstr ""
-
-#: ../../docs/tutorials/3d/csg_tools.rst:128
-msgid "We will prototype a room to practice the use of CSG tools."
+#: ../../docs/tutorials/3d/csg_tools.rst:127
+msgid "If you have an existing mesh that is not already manifold, you can make it manifold using Blender."
 msgstr ""
 
 #: ../../docs/tutorials/3d/csg_tools.rst:130
-msgid "Working in **Orthogonal** projection gives a better view when combining the CSG shapes."
+msgid "In Blender, install and enable the `3D Print Toolbox <https://extensions.blender.org/add-ons/print3d-toolbox/>`_ addon."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:133
-msgid "Our level will contain these objects:"
-msgstr ""
-
-#: ../../docs/tutorials/3d/csg_tools.rst:135
-msgid "a room,"
-msgstr ""
-
-#: ../../docs/tutorials/3d/csg_tools.rst:136
-msgid "a bed,"
-msgstr ""
-
-#: ../../docs/tutorials/3d/csg_tools.rst:137
-msgid "a lamp,"
+#: ../../docs/tutorials/3d/csg_tools.rst:134
+msgid "Select the mesh you want to make manifold. Open the sidebar by clicking on the arrow:"
 msgstr ""
 
 #: ../../docs/tutorials/3d/csg_tools.rst:138
-msgid "a desk,"
+msgid "In the **3D Print** tab, under **Clean Up**, click the **Make Manifold** button:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:139
-msgid "a bookshelf."
+#: ../../docs/tutorials/3d/csg_tools.rst:142
+msgid "The mesh should now be manifold, and can be used as a custom mesh."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:141
-msgid "Create a scene with a Node3D node as root node."
+#: ../../docs/tutorials/3d/csg_tools.rst:145
+msgid "CSGCombiner3D"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:143
-msgid "The default lighting of the environment doesn't provide clear shading at some angles. Change the display mode using **Display Overdraw** in the 3D viewport menu, or add a DirectionalLight node to help you see clearly."
+#: ../../docs/tutorials/3d/csg_tools.rst:147
+msgid "The :ref:`CSGCombiner3D <class_CSGCombiner3D>` node is an empty shape used for organization. It will only combine children nodes."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:150
-msgid "Create a CSGBox3D and name it ``room``, enable **Invert Faces** and change the dimensions of your room."
+#: ../../docs/tutorials/3d/csg_tools.rst:151
+msgid "Processing order"
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:153
+msgid "Every CSG node will first process its children nodes and their operations: union, intersection, or subtraction, in tree order, and apply them to itself one after the other."
 msgstr ""
 
 #: ../../docs/tutorials/3d/csg_tools.rst:157
-msgid "Next, create a CSGCombiner3D and name it ``desk``."
+msgid "In the interest of performance, make sure CSG geometry remains relatively simple, as complex meshes can take a while to process. If adding objects together (such as table and room objects), create them as separate CSG trees. Forcing too many objects in a single tree will eventually start affecting performance. Only use binary operations where you actually need them."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:159
-msgid "A desk has one surface and 4 legs:"
+#: ../../docs/tutorials/3d/csg_tools.rst:165
+msgid "Prototyping a level"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:161
-msgid "Create 1 CSGBox3D children node in **Union** mode for the surface and adjust the dimensions."
+#: ../../docs/tutorials/3d/csg_tools.rst:167
+msgid "We will prototype a room to practice the use of CSG tools."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:163
-msgid "Create 4 CSGBox3D children nodes in **Union** mode for the legs and adjust the dimensions."
+#: ../../docs/tutorials/3d/csg_tools.rst:169
+msgid "Working in **Orthogonal** projection gives a better view when combining the CSG shapes."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:166
-msgid "Adjust their placement to resemble a desk."
-msgstr ""
-
-#: ../../docs/tutorials/3d/csg_tools.rst:170
-msgid "CSG nodes inside a CSGCombiner3D will only process their operation within the combiner. Therefore, CSGCombiner3Ds are used to organize CSG nodes."
+#: ../../docs/tutorials/3d/csg_tools.rst:172
+msgid "Our level will contain these objects:"
 msgstr ""
 
 #: ../../docs/tutorials/3d/csg_tools.rst:174
-msgid "Create a CSGCombiner3D and name it ``bed``."
+msgid "a room,"
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:175
+msgid "a bed,"
 msgstr ""
 
 #: ../../docs/tutorials/3d/csg_tools.rst:176
-msgid "Our bed consists of 3 parts: the bed, the mattress and a pillow. Create a CSGBox3D and adjust its dimension for the bed. Create another CSGBox3D and adjust its dimension for the mattress."
+msgid "a lamp,"
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:177
+msgid "a desk,"
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:178
+msgid "a bookshelf."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:180
+msgid "Create a scene with a Node3D node as root node."
 msgstr ""
 
 #: ../../docs/tutorials/3d/csg_tools.rst:182
-msgid "We will create another CSGCombiner3D named ``pillow`` as the child of  ``bed``. The scene tree should look like this:"
+msgid "The default lighting of the environment doesn't provide clear shading at some angles. Change the display mode using **Display Overdraw** in the 3D viewport menu, or add a DirectionalLight node to help you see clearly."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:187
-msgid "We will combine 3 CSGSphere3D nodes in **Union** mode to form a pillow. Scale the Y axis of the spheres and enable **Smooth Faces**."
+#: ../../docs/tutorials/3d/csg_tools.rst:189
+msgid "Create a CSGBox3D and name it ``room``, enable **Invert Faces** and change the dimensions of your room."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:192
-msgid "Select the ``pillow`` node and switch the mode to **Subtraction**; the combined spheres will cut a hole into the mattress."
+#: ../../docs/tutorials/3d/csg_tools.rst:196
+msgid "Next, create a CSGCombiner3D and name it ``desk``."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:197
-msgid "Try to re-parent the ``pillow`` node to the root ``Node3D`` node; the hole will disappear."
+#: ../../docs/tutorials/3d/csg_tools.rst:198
+msgid "A desk has one surface and 4 legs:"
 msgstr ""
 
 #: ../../docs/tutorials/3d/csg_tools.rst:200
-msgid "This is to illustrate the effect of CSG processing order. Since the root node is not a CSG node, the CSGCombiner3D nodes are the end of the operations; this shows the use of CSGCombiner3D to organize the CSG scene."
+msgid "Create 1 CSGBox3D children node in **Union** mode for the surface and adjust the dimensions."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:202
+msgid "Create 4 CSGBox3D children nodes in **Union** mode for the legs and adjust the dimensions."
 msgstr ""
 
 #: ../../docs/tutorials/3d/csg_tools.rst:205
+msgid "Adjust their placement to resemble a desk."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:209
+msgid "CSG nodes inside a CSGCombiner3D will only process their operation within the combiner. Therefore, CSGCombiner3Ds are used to organize CSG nodes."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:213
+msgid "Create a CSGCombiner3D and name it ``bed``."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:215
+msgid "Our bed consists of 3 parts: the bed, the mattress and a pillow. Create a CSGBox3D and adjust its dimension for the bed. Create another CSGBox3D and adjust its dimension for the mattress."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:221
+msgid "We will create another CSGCombiner3D named ``pillow`` as the child of  ``bed``. The scene tree should look like this:"
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:226
+msgid "We will combine 3 CSGSphere3D nodes in **Union** mode to form a pillow. Scale the Y axis of the spheres and enable **Smooth Faces**."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:231
+msgid "Select the ``pillow`` node and switch the mode to **Subtraction**; the combined spheres will cut a hole into the mattress."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:236
+msgid "Try to re-parent the ``pillow`` node to the root ``Node3D`` node; the hole will disappear."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:239
+msgid "This is to illustrate the effect of CSG processing order. Since the root node is not a CSG node, the CSGCombiner3D nodes are the end of the operations; this shows the use of CSGCombiner3D to organize the CSG scene."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:244
 msgid "Undo the re-parent after observing the effect. The bed you've built should look like this:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:210
+#: ../../docs/tutorials/3d/csg_tools.rst:249
 msgid "Create a CSGCombiner3D and name it ``lamp``."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:212
+#: ../../docs/tutorials/3d/csg_tools.rst:251
 msgid "A lamp consists of 3 parts: the stand, the pole and the lampshade. Create a CSGCylinder3D, enable the **Cone** option and make it the stand. Create another CSGCylinder3D and adjust the dimensions to use it as a pole."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:218
+#: ../../docs/tutorials/3d/csg_tools.rst:257
 msgid "We will use a CSGPolygon3D for the lampshade. Use the **Spin** mode for the CSGPolygon3D and draw a `trapezoid <https://en.wikipedia.org/wiki/Trapezoid>`_ while in **Front View** (numeric keypad 1); this shape will extrude around the origin and form the lampshade."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:229
+#: ../../docs/tutorials/3d/csg_tools.rst:268
 msgid "Adjust the placement of the 3 parts to make it look like a lamp."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:233
+#: ../../docs/tutorials/3d/csg_tools.rst:272
 msgid "Create a CSGCombiner3D and name it ``bookshelf``."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:235
+#: ../../docs/tutorials/3d/csg_tools.rst:274
 msgid "We will use 3 CSGBox3D nodes for the bookshelf. Create a CSGBox3D and adjust its dimensions; this will be the size of the bookshelf."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:240
+#: ../../docs/tutorials/3d/csg_tools.rst:279
 msgid "Duplicate the CSGBox3D and shorten the dimensions of each axis and change the mode to **Subtraction**."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:247
+#: ../../docs/tutorials/3d/csg_tools.rst:286
 msgid "You've almost built a shelf. Create one more CSGBox3D for dividing the shelf into two levels."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:252
+#: ../../docs/tutorials/3d/csg_tools.rst:291
 msgid "Position your furniture in your room as you like and your scene should look this:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:257
+#: ../../docs/tutorials/3d/csg_tools.rst:296
 msgid "You've successfully prototyped a room level with the CSG tools in Godot. CSG tools can be used for designing all kinds of levels, such as a maze or a city; explore its limitations when designing your game."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:262
+#: ../../docs/tutorials/3d/csg_tools.rst:301
 msgid "Using prototype textures"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:264
+#: ../../docs/tutorials/3d/csg_tools.rst:303
 msgid "Godot's :ref:`doc_standard_material_3d` supports *triplanar mapping*, which can be used to automatically apply a texture to arbitrary objects without distortion. This is handy when using CSG as Godot doesn't support editing UV maps on CSG nodes yet. Triplanar mapping is relatively slow, which usually restricts its usage to organic surfaces like terrain. Still, when prototyping, it can be used to quickly apply textures to CSG-based levels."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:271
+#: ../../docs/tutorials/3d/csg_tools.rst:310
 msgid "If you need some textures for prototyping, Kenney made a `set of CC0-licensed prototype textures <https://kenney.nl/assets/prototype-textures>`__."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:274
+#: ../../docs/tutorials/3d/csg_tools.rst:313
 msgid "There are two ways to apply a material to a CSG node:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:276
+#: ../../docs/tutorials/3d/csg_tools.rst:315
 msgid "Applying it to a CSGCombiner3D node as a material override (**Geometry > Material Override** in the Inspector). This will affect its children automatically, but will make it impossible to change the material in individual children."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:280
+#: ../../docs/tutorials/3d/csg_tools.rst:319
 msgid "Applying a material to individual nodes (**Material** in the Inspector). This way, each CSG node can have its own appearance. Subtractive CSG nodes will apply their material to the nodes they're \"digging\" into."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:284
+#: ../../docs/tutorials/3d/csg_tools.rst:323
 msgid "To apply triplanar mapping to a CSG node, select it, go to the Inspector, click the **[empty]** text next to **Material Override** (or **Material** for individual CSG nodes). Choose **New StandardMaterial3D**. Click the newly created material's icon to edit it. Unfold the **Albedo** section and load a texture into the **Texture** property. Now, unfold the **Uv1** section and check **Triplanar**. You can change the texture offset and scale on each axis by playing with the **Scale** and **Offset** properties just above. Higher values in the **Scale** property will cause the texture to repeat more often."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:293
+#: ../../docs/tutorials/3d/csg_tools.rst:332
 msgid "You can copy a StandardMaterial3D to reuse it across CSG nodes. To do so, click the dropdown arrow next to a material property in the Inspector and choose **Copy**. To paste it, select the node you'd like to apply the material onto, click the dropdown arrow next to its material property then choose **Paste**."
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:300
+#: ../../docs/tutorials/3d/csg_tools.rst:341
+msgid "Converting to MeshInstance3D"
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:343
+msgid "Since Godot 4.4, you can convert a CSG node and its children to a :ref:`class_MeshInstance3D` node."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:345
+msgid "This has several benefits:"
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:347
+msgid "Bake lightmaps, since UV2 can be generated on a MeshInstance3D."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:348
+msgid "Bake occlusion culling, since the occlusion culling bake process only takes MeshInstance3D into account."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:349
+msgid "Faster loading times, since the CSG mesh no longer needs to be rebuilt when the scene loads."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:350
+msgid "Better performance when updating the node's transform if using the mesh within another CSG node."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:352
+msgid "To convert a CSG node to a MeshInstance3D node, select it, then choose **CSG > Bake Mesh Instance** in the toolbar. The MeshInstance3D node will be created as a sibling. Note that the CSG node that was used for baking is **not** hidden automatically, so remember to hide it to prevent its geometry from overlapping with the newly created MeshInstance3D."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:358
+msgid "You can also create a trimesh collision shape using **CSG > Bake Collision Shape**. The generated :ref:`class_CollisionShape3D` node must be a child of a :ref:`class_StaticBody3D` or :ref:`class_AnimatableBody3D` node to be effective."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:364
+msgid "Remember to keep the original CSG node in the scene tree, so that you can perform changes to the geometry later if needed. To make changes to the geometry, remove the MeshInstance3D node and make the root CSG node visible again."
+msgstr ""
+
+#: ../../docs/tutorials/3d/csg_tools.rst:370
 msgid "Exporting as glTF"
 msgstr ""
 
-#: ../../docs/tutorials/3d/csg_tools.rst:302
+#: ../../docs/tutorials/3d/csg_tools.rst:372
 msgid "It can be useful to block out a level using CSG, then export it as a 3d model, to import into 3D modeling software. You can do this by selecting **Scene > Export As... > glTF 2.0 Scene**."
 msgstr ""

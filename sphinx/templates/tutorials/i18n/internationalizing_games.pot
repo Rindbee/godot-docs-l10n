@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -72,245 +72,293 @@ msgid "The upside of the DynamicFont fallback system is that it works regardless
 msgstr ""
 
 #: ../../docs/tutorials/i18n/internationalizing_games.rst:62
-msgid "Converting keys to text"
+msgid "Automatically setting a language"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:64
-msgid "Some controls, such as :ref:`Button <class_Button>` and :ref:`Label <class_Label>`, will automatically fetch a translation if their text matches a translation key. For example, if a label's text is \"MAIN_SCREEN_GREETING1\" and that key exists in the current translation, then the text will automatically be translated."
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:63
+msgid "It is recommended to default to the user's preferred language which can be obtained via :ref:`OS.get_locale_language() <class_OS_method_get_locale_language>`. If your game is not available in that language, it will fall back to the :ref:`Fallback <class_ProjectSettings_property_internationalization/locale/fallback>` in **Project Settings > Internationalization > Locale**, or to ``en`` if empty. Nevertheless letting players change the language in game is recommended for various reasons (e.g. translation quality or player preference)."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:69
-msgid "This automatic translation behavior may be undesirable in certain cases. For instance, when using a Label to display a player's name, you most likely don't want the player's name to be translated if it matches a translation key. To disable automatic translation on a specific node, disable **Localization > Auto Translate** in the inspector."
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:80
+msgid "Locale vs. language"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:75
-msgid "In code, the :ref:`Object.tr() <class_Object_method_tr>` function can be used. This will just look up the text in the translations and convert it if found:"
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:81
+msgid "A :ref:`locale <doc_locales>` is commonly a combination of a language with a region or country, but can also contain information like a script or a variant."
+msgstr ""
+
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:83
+msgid "Examples:"
 msgstr ""
 
 #: ../../docs/tutorials/i18n/internationalizing_games.rst:85
+msgid "``en``: English language"
+msgstr ""
+
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:86
+msgid "``en_GB``: English in Great Britain / British English"
+msgstr ""
+
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:87
+msgid "``en_US``: English in the USA / American English"
+msgstr ""
+
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:88
+msgid "``en_DE``: English in Germany"
+msgstr ""
+
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:90
+msgid "Indie games generally only need to care about language, but read on for more information."
+msgstr ""
+
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:92
+msgid "Why locales exist can be illustrated through the USA and Great Britain. Both speak the same language (English), yet differ in many aspects: - Spelling: E.g. gray (USA), grey (GB) - Use of words: E.g. eggplant (USA), aubergine (GB) - Units or currencies: E.g. feet/inches (USA), metres/cm (GB)"
+msgstr ""
+
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:97
+msgid "It can get more complex however. Imagine you offer different content in Europe and in China (e.g. in an MMO). You will need to translate each of those content variations into many languages and store and load them accordingly."
+msgstr ""
+
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:100
+msgid "Converting keys to text"
+msgstr ""
+
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:102
+msgid "Some controls, such as :ref:`Button <class_Button>` and :ref:`Label <class_Label>`, will automatically fetch a translation if their text matches a translation key. For example, if a label's text is \"MAIN_SCREEN_GREETING1\" and that key exists in the current translation, then the text will automatically be translated."
+msgstr ""
+
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:107
+msgid "This automatic translation behavior may be undesirable in certain cases. For instance, when using a Label to display a player's name, you most likely don't want the player's name to be translated if it matches a translation key. To disable automatic translation on a specific node, disable **Localization > Auto Translate** in the inspector."
+msgstr ""
+
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:113
+msgid "In code, the :ref:`Object.tr() <class_Object_method_tr>` function can be used. This will just look up the text in the translations and convert it if found:"
+msgstr ""
+
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:129
 msgid "If no text is displayed after changing the language, try to use a different font. The default project font only supports a subset of the Latin-1 character set, which cannot be used to display languages like Russian or Chinese."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:89
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:133
 msgid "A good resource for multilingual fonts is `Noto Fonts <https://www.google.com/get/noto/>`__. Make sure to download the correct variation if you're using a less common language."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:93
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:137
 msgid "Once you've downloaded the font, load the TTF file into a DynamicFont resource and use it as a custom font of your Control node. For better reusability, associate a new a Theme resource to your root Control node and define the DynamicFont as the Default Font in the theme."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:99
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:143
 msgid "Placeholders"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:101
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:145
 msgid "To feature placeholders in your translated strings, use :ref:`doc_gdscript_printf` or the equivalent feature in C#. This lets translators move the location of the placeholder in the string freely, which allows translations to sound more natural. Named placeholders with the ``String.format()`` function should be used whenever possible, as they also allow translators to choose the *order* in which placeholders appear:"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:119
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:164
 msgid "Translation contexts"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:121
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:166
 msgid "If you're using plain English as source strings (rather than message codes ``LIKE_THIS``), you may run into ambiguities when you have to translate the same English string to different strings in certain target languages. You can optionally specify a *translation context* to resolve this ambiguity and allow target languages to use different strings, even though the source string is identical:"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:137
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:191
 msgid "Pluralization"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:139
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:193
 msgid "Most languages require different strings depending on whether an object is in singular or plural form. However, hardcoding the \"is plural\" condition depending on whether there is more than 1 object is not valid in all languages."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:143
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:197
 msgid "Some languages have more than two plural forms, and the rules on the number of objects required for each plural form vary. Godot offers support for *pluralization* so that the target locales can handle this automatically."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:147
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:201
 msgid "Pluralization is meant to be used with positive (or zero) integer numbers only. Negative and floating-point values usually represent physical entities for which singular and plural don't clearly apply."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:156
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:216
 msgid "This can be combined with a context if needed:"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:165
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:231
 msgid "Providing pluralized translations is only supported with :ref:`doc_localization_using_gettext`, not CSV."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:169
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:235
 msgid "Making controls resizable"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:171
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:237
 msgid "The same text in different languages can vary greatly in length. For this, make sure to read the tutorial on :ref:`doc_size_and_anchors`, as dynamically adjusting control sizes may help. :ref:`Container <class_Container>` can be useful, as well as the text wrapping options available in :ref:`Label <class_Label>`."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:177
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:243
 msgid "To check whether your UI can accommodate translations with longer strings than the original, you can enable *pseudolocalization* in the advanced Project Settings. This will replace all your localizable strings with longer versions of themselves, while also replacing some characters in the original strings with accented versions (while still being readable). Placeholders are kept as-is, so that they keep working when pseudolocalization is enabled."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:184
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:250
 msgid "For example, the string ``Hello world, this is %s!`` becomes ``[Ĥéłłô ŵôŕłd́, ŧh̀íš íš %s!]`` when pseudolocalization is enabled."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:187
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:253
 msgid "While looking strange at first, pseudolocalization has several benefits:"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:189
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:255
 msgid "It lets you spot non-localizable strings quickly, so you can go over them and make them localizable (if it makes sense to do so)."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:191
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:257
 msgid "It lets you check UI elements that can't fit long strings. Many languages will feature much longer translations than the source text, so it's important to ensure your UI can accommodate longer-than-usual strings."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:194
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:260
 msgid "It lets you check whether your font contains all the characters required to support various languages. However, since the goal of pseudolocalization is to keep the original strings readable, it's not an effective test for checking whether a font can support :abbr:`CJK (Chinese, Japanese, Korean)` or right-to-left languages."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:200
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:266
 msgid "The project settings allow you to tune pseudolocalization behavior, so that you can disable parts of it if desired."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:204
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:270
 msgid "TranslationServer"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:206
-msgid "Godot has a server handling low-level translation management called the :ref:`TranslationServer <class_TranslationServer>`. Translations can be added or removed during run-time; the current language can also be changed at run-time."
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:272
+msgid "Godot has a server handling low-level translation management called the :ref:`TranslationServer <class_TranslationServer>`. Translations can be added or removed during runtime; the current language can also be changed at runtime."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:214
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:280
 msgid "Bidirectional text and UI Mirroring"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:216
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:282
 msgid "Arabic and Hebrew are written from right to left (except for the numbers and Latin words mixed in), and the user interface for these languages should be mirrored as well. In some languages the shape of a glyph changes depending on the surrounding characters."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:220
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:286
 msgid "Support for bidirectional writing systems and UI mirroring is transparent, you don't usually need to change anything or have any knowledge of the specific writing system."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:223
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:289
 msgid "For RTL languages, Godot will automatically do the following changes to the UI:"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:225
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:291
 msgid "Mirrors left/right anchors and margins."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:226
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:292
 msgid "Swaps left and right text alignment."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:227
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:293
 msgid "Mirrors horizontal order of the child controls in the containers, and items in Tree/ItemList controls."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:228
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:294
 msgid "Uses mirrored order of the internal control elements (e.g. OptionButton dropdown button, checkbox alignment, List column order, Tree item icons and connecting line alignment, e.t.c.), in some cases mirrored controls use separate theme styles."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:229
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:295
 msgid "Coordinate system is not mirrored, and non-UI nodes (sprites, e.t.c) are not affected."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:231
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:297
 msgid "It is possible to override text and control layout direction by using the following control properties:"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:233
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:299
 msgid "``text_direction``, sets the base text direction. When set to \"auto\", direction depends on the first strong directional character in the text according to the Unicode Bidirectional Algorithm,"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:234
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:300
 msgid "``language``, overrides current project locale."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:235
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:301
 msgid "``structured_text_bidi_override`` property and ``_structured_text_parser`` callback, enables special handling for structured text."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:236
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:302
 msgid "``layout_direction``, overrides control mirroring."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:242
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:308
 msgid "You can see how right-to-left typesetting works in action using the `BiDI and Font Features demo project <https://github.com/godotengine/godot-demo-projects/tree/master/gui/bidi_and_font_features>`__."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:246
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:312
 msgid "Adding break iterator data to exported project"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:248
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:314
 msgid "Some languages are written without spaces, and word and line breaking requires more than rules over character sequences. Godot includes ICU rule and dictionary based, break iterator data, but this data is not included into exported projects by default. To include it go to **Project → Project Settings → Localization → Text Server Data** and click **Install support data...**. Break iterator data is about 4 MB large."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:255
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:321
 msgid "Structured text BiDi override"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:257
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:323
 msgid "Unicode BiDi algorithm is designed to work with natural text and it's incapable of handling text with the higher level order, like file names, URIs, email addresses, regular expressions or source code."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:263
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:329
 msgid "For example, the path for this shown directory structure will be displayed incorrectly (top \"LineEdit\" control). \"File\" type structured text override splits text into segments, then BiDi algorithm is applied to each of them individually to correctly display directory names in any language and preserve correct order of the folders (bottom \"LineEdit\" control)."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:268
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:334
 msgid "Custom callbacks provide a way to override BiDi for the other types of structured text."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:271
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:337
 msgid "Localizing numbers"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:273
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:339
 msgid "Controls specifically designed for number input or output (e.g. ProgressBar, SpinBox) will use localized numbering system automatically, for the other control :ref:`TextServer.format_number(string, language) <class_TextServer_method_format_number>` can be used to convert Western Arabic numbers (0..9) to the localized numbering system and :ref:`TextServer.parse_number(string, language) <class_TextServer_method_parse_number>` to convert it back."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:281
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:347
 msgid "Localizing icons and images"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:283
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:349
 msgid "Icons with left and right pointing arrows which may need to be reversed for Arabic and Hebrew locales, in case they indicate movement or direction (e.g. back/forward buttons). Otherwise, they can remain the same."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:288
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:354
 msgid "Testing translations"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:290
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:356
 msgid "You may want to test a project's translation before releasing it. Godot provides two ways to do this."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:293
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:359
 msgid "First, in the Project Settings, under **Internationalization > Locale** (with advanced settings enabled), there is a **Test** property. Set this property to the locale code of the language you want to test. Godot will run the project with that locale when the project is run (either from the editor or when exported)."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:300
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:366
 msgid "Keep in mind that since this is a project setting, it will show up in version control when it is set to a non-empty value. Therefore, it should be set back to an empty value before committing changes to version control."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:304
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:370
 msgid "Translations can also be tested when :ref:`running Godot from the command line <doc_command_line_tutorial>`. For example, to test a game in French, the following argument can be supplied:"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:313
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:379
 msgid "Translating the project name"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:315
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:381
 msgid "The project name becomes the app name when exporting to different operating systems and platforms. To specify the project name in more than one language go to **Project > Project Settings> Application > Config**. From here click on the button that says ``Localizable String (Size 0)``. Now there should be a button below that which says ``Add Translation``. Click on that and it will take you to a page where you can choose the language (and country if needed) for your project name translation. After doing that you can now type in the localized name."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:326
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:392
 msgid "If you are unsure about the language code to use, refer to the :ref:`list of locale codes <doc_locales>`."
 msgstr ""

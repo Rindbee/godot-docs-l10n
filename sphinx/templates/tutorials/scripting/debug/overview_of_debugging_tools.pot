@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,305 +32,313 @@ msgid "Finally, you have options to debug the game running on a remote device an
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:18
-msgid "Debugger Panel"
+msgid "Output Panel"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:20
-msgid "Many of Godot's debugging tools are part of the Debugger panel, which you can find information about in :ref:`doc_debugger_panel`."
+msgid "The output panel allows you to see text printed by the project, but also by the editor (e.g. from ``@tool`` scripts). You can find information about in :ref:`doc_output_panel`."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:24
-msgid "Debug menu options"
+msgid "Debugger Panel"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:26
+msgid "Many of Godot's debugging tools are part of the Debugger panel, which you can find information about in :ref:`doc_debugger_panel`."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:30
+msgid "Debug menu options"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:32
 msgid "There are a few common debug options you can toggle on or off when running your game in the editor, which can help you in debugging your game."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:29
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:35
 msgid "You can find these options in the **Debug** editor menu."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:33
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:39
 msgid "Here are the descriptions of the options:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:36
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:42
 msgid "Deploy with Remote Debug"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:38
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:44
 msgid "When this option is enabled, using one-click deploy will make the executable attempt to connect to this computer's IP so the running project can be debugged. This option is intended to be used for remote debugging (typically with a mobile device). You don't need to enable it to use the GDScript debugger locally."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:45
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:51
 msgid "Small Deploy with Network Filesystem"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:47
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:53
 msgid "This option speeds up testing for games with a large footprint on remote devices."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:49
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:55
 msgid "When **Small Deploy with Network Filesystem** is on, instead of exporting the full game, deploying the game builds a minimal executable. The editor then provides files from the project over the network."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:53
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:59
 msgid "Also, on Android, the game is deployed using the USB cable to speed up deployment."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:57
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:63
 msgid "Visible Collision Shapes"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:59
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:65
 msgid "When this option is enabled, collision shapes and raycast nodes (for 2D and 3D) will be visible in the running project."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:63
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:69
 msgid "Visible Paths"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:65
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:71
 msgid "When this option is enabled, curve resources used by path nodes will be visible in the running project."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:69
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:75
 msgid "Visible Navigation"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:71
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:77
 msgid "When this option is enabled, navigation meshes, and polygons will be visible in the running project."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:75
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:81
 msgid "Visible Avoidance"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:77
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:83
 msgid "When this option is enabled, avoidance object shapes, radiuses, and velocities will be visible in the running project."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:81
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:87
 msgid "Debug CanvasItem Redraws"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:83
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:89
 msgid "When this option is enabled, redraw requests of 2D objects will become visible (as a short flash) in the running project. This is useful to troubleshoot low processor mode."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:88
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:94
 msgid "Synchronize Scene Changes"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:90
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:96
 msgid "When this option is enabled, any changes made to the scene in the editor will be replicated in the running project. When used remotely on a device, this is more efficient when the network filesystem option is enabled."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:96
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:102
 msgid "Synchronize Script Changes"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:98
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:104
 msgid "When this option is enabled, any changes made to the script in the editor will be reloaded in the running project. When used remotely on a device, this is more efficient with the network filesystem."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:103
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:109
 msgid "Keep Debug Server Open"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:105
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:111
 msgid "When this option is enabled, the editor debug server will stay open and listen for new sessions started outside of the editor itself."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:109
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:115
 msgid "Customize Run Instances..."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:111
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:117
 msgid "This opens a dialog allowing you to tell Godot to run multiple instances of the game at once, and to specify the command line arguments for each instance. This is especially useful when building and debugging multiplayer games."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:118
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:124
 msgid "Enable Multiple Instances"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:120
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:126
 msgid "When this option is enabled, the editor will run multiple instances of the project at once when you Run Project."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:123
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:129
 msgid "Below this checkbox is a selector to pick how many instances to run."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:125
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:131
 msgid "Checking the box and setting this to only 1 is the same as not checking this box at all."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:129
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:135
 msgid "Main Run Args"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:131
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:137
 msgid "These are the arguments that will be passed to **every** instance of the project when you Run Project, unless you select \"Enabled\" under \"Override Main Run Args\" for a specific instance."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:135
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:141
 msgid "Note that these arguments are space-separated."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:139
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:145
 msgid "These arguments can be accessed in your script by using :ref:`get_cmdline_args<class_OS_method_get_cmdline_args>`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:144
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:150
 msgid "Even if you uncheck \"Enable Multiple Instances\" these arguments will be passed when you Run Project."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:148
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:154
 msgid "Main Feature Tags"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:150
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:156
 msgid "These are the feature tags that will be passed to **every** instance of the project when you Run Project, unless you select \"Enabled\" under \"Override Main Tags\" for a specific instance."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:155
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:161
 msgid "Override Main Run Args"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:157
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:163
 msgid "When this is enabled, the arguments in the \"Main Run Args\" field will **not be passed** to this specific instance of the project when you Run Project."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:161
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:167
 msgid "Launch Arguments"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:163
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:169
 msgid "These are the arguments that will be passed to this specific instance of the project when you Run Project. They will be **combined with** the \"Main Run Args\" unless you select \"Enabled\" under \"Override Main Run Args\"."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:168
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:174
 msgid "Override Main Tags"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:170
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:176
 msgid "When this is enabled, the tags in the \"Main Feature Tags\" field will **not be passed** to this specific instance of the project when you Run Project."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:174
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:180
 msgid "Feature Tags"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:176
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:182
 msgid "These are the feature tags that will be passed to this specific instance of the project when you Run Project. They will be **combined with** the \"Main Feature Tags\" unless you select \"Enabled\" under \"Override Main Tags\"."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:181
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:187
 msgid "If you want to pass \"User\" arguments, that can be accessed with :ref:`get_cmdline_user_args<class_OS_method_get_cmdline_user_args>` then you must prefix them with two dashes **and a space** like `-- one two three`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:185
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:191
 msgid "Be aware that these dashes will apply to arguments added later in the \"Launch Arguments\" on a per instance basis, which can cause some confusion when combining the `Main Run Args` and `Launch Arguments`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:189
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:195
 msgid "If you place `-- one two three` in the \"Main Run Args\" and `-- four five six` in the \"Launch Arguments\" then the final command line arguments will be `one two three -- four five six`. This is because the `--` is repeated in the \"Launch Arguments\"."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:198
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:204
 msgid "Script editor debug tools and options"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:200
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:206
 msgid "The script editor has its own set of debug tools for use with breakpoints and two options. The breakpoint tools can also be found in the **Debugger** tab of the debugger."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:206
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:212
 msgid "You can create a breakpoint by clicking the gutter in the left of the script editor (on the left of the line numbers). When hovering this gutter, you will see a transparent red dot appearing, which turns into an opaque red dot after the breakpoint is placed by clicking. Click the red dot again to remove the breakpoint. Breakpoints created this way persist across editor restarts, even if the script wasn't saved when exiting the editor."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:213
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:219
 msgid "You can also use the ``breakpoint`` keyword in GDScript to create a breakpoint that is stored in the script itself. Unlike breakpoints created by clicking in the gutter, this keyword-based breakpoint is persistent across different machines when using version control."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:220
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:226
 msgid "The **Break** button causes a break in the script like a breakpoint would. **Continue** makes the game continue after pausing at a breakpoint. **Step Over** goes to the next line of code, and **Step Into** goes into a function if possible. Otherwise, it does the same thing as **Step Over**."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:225
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:231
 msgid "The **Debug with External Editor** option lets you debug your game with an external editor. You can set a shortcut for it in **Editor Settings > Shortcuts > Debugger**."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:228
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:234
 msgid "When the debugger breaks on a breakpoint, a green triangle arrow is visible in the script editor's gutter. This arrow indicates the line of code the debugger broke on."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:233
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:239
 msgid "Debug project settings"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:235
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:241
 msgid "In the project settings, there is a **Debug** category with subcategories which control different things. Enable **Advanced Settings** to change these settings."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:239
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:245
 msgid "Settings"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:241
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:247
 msgid "These are some general settings such as printing the current FPS to the **Output** panel, the maximum amount of functions when profiling and others."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:246
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:252
 msgid "File Logging"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:248
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:254
 msgid "These settings allow you to log console output and error messages to files."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:251
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:257
 msgid "GDScript"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:253
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:259
 msgid "These settings allow you to toggle specific GDScript warnings, such as for unused variables. You can also turn off warnings completely. See :ref:`doc_gdscript_warning_system` for more information."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:258
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:264
 msgid "Shader Language"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:260
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:266
 msgid "These settings allow you to toggle specific shader warnings, such as for unused variables. You can also turn off warnings completely."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:264
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:270
 msgid "Canvas Items"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:266
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:272
 msgid "These settings are for canvas item redraw debugging."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:269
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:275
 msgid "Shapes"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:271
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:277
 msgid "Shapes are where you can adjust the color of shapes that only appear for debugging purposes, such as collision and navigation shapes."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:275
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:281
 msgid "Remote in scene dock"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:277
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:283
 msgid "When running a game in the editor two options appear at the top of the **Scene** dock, **Remote** and **Local**. While using **Remote** you can inspect or change the nodes' parameters in the running project."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:283
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:289
 msgid "Some editor settings related to debugging can be found inside the **Editor Settings**, under the **Network > Debug** and **Debugger** sections."
 msgstr ""

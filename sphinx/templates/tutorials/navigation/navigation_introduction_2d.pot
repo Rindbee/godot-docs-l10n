@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -40,190 +40,202 @@ msgid "The AStar2D class is best suited for cell-based 2D gameplay that does not
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:16
-msgid ":ref:`NavigationServer2D<class_NavigationServer2D>`"
+msgid ":ref:`AstarGrid2D<class_AstarGrid2D>`"
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:17
-msgid "``NavigationServer2D`` provides a powerful server API to find the shortest path between two positions on an area defined by a navigation mesh."
+msgid "``AstarGrid2D``  is a variant of AStar2D that is specialized for partial 2D grids."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:19
-msgid "The NavigationServer is best suited for 2D realtime gameplay that does require actors to reach any possible position within a navigation mesh defined area. Mesh-based navigation scales well with large game worlds as a large area can often be defined with a single polygon when it would require many, many grid cells."
+msgid "AstarGrid2D is simpler to use when applicable because it doesn't require you to manually create points and connect them together."
+msgstr ""
+
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:21
+msgid ":ref:`NavigationServer2D<class_NavigationServer2D>`"
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:22
-msgid "The NavigationServer holds different navigation maps that each consist of regions that hold navigation mesh data. Agents can be placed on a map for avoidance calculation. RIDs are used to reference internal maps, regions, and agents when communicating with the server."
+msgid "``NavigationServer2D`` provides a powerful server API to find the shortest path between two positions on an area defined by a navigation mesh."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:26
-msgid "The following NavigationServer RID types are available."
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:24
+msgid "The NavigationServer is best suited for 2D realtime gameplay that does require actors to reach any possible position within a navigation mesh defined area. Mesh-based navigation scales well with large game worlds as a large area can often be defined with a single polygon when it would require many, many grid cells."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:27
-msgid "NavMap RID"
-msgstr ""
-
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:28
-msgid "Reference to a specific navigation map that holds regions and agents. The map will attempt to join the navigation meshes of the regions by proximity. The map will synchronize regions and agents each physics frame."
+msgid "The NavigationServer holds different navigation maps that each consist of regions that hold navigation mesh data. Agents can be placed on a map for avoidance calculation. RIDs are used to reference internal maps, regions, and agents when communicating with the server."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:31
-msgid "NavRegion RID"
+msgid "The following NavigationServer RID types are available."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:32
-msgid "Reference to a specific navigation region that can hold navigation mesh data. The region can be enabled / disabled or the use restricted with a navigation layer bitmask."
+msgid "NavMap RID"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:34
-msgid "NavLink RID"
-msgstr ""
-
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:35
-msgid "Reference to a specific navigation link that connects two navigation mesh positions over arbitrary distances."
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:33
+msgid "Reference to a specific navigation map that holds regions and agents. The map will attempt to join the navigation meshes of the regions by proximity. The map will synchronize regions and agents each physics frame."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:36
-msgid "NavAgent RID"
+msgid "NavRegion RID"
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:37
-msgid "Reference to a specific avoidance agent. The avoidance is specified by a radius value."
+msgid "Reference to a specific navigation region that can hold navigation mesh data. The region can be enabled / disabled or the use restricted with a navigation layer bitmask."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:39
-msgid "NavObstacle RID"
+msgid "NavLink RID"
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:40
-msgid "Reference to a specific avoidance obstacle used to affect and constrain the avoidance velocity of agents."
+msgid "Reference to a specific navigation link that connects two navigation mesh positions over arbitrary distances."
+msgstr ""
+
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:41
+msgid "NavAgent RID"
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:42
-msgid "The following scene tree nodes are available as helpers to work with the NavigationServer2D API."
+msgid "Reference to a specific avoidance agent. The avoidance is specified by a radius value."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:44
-msgid ":ref:`NavigationRegion2D<class_NavigationRegion2D>` Node"
+msgid "NavObstacle RID"
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:45
-msgid "A Node that holds a NavigationPolygon resource that defines a navigation mesh for the NavigationServer2D."
+msgid "Reference to a specific avoidance obstacle used to affect and constrain the avoidance velocity of agents."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:47
-msgid "The region can be enabled / disabled."
-msgstr ""
-
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:48
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:56
-msgid "The use in pathfinding can be further restricted through the ``navigation_layers`` bitmask."
+msgid "The following scene tree nodes are available as helpers to work with the NavigationServer2D API."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:49
-msgid "The NavigationServer2D will join the navigation meshes of regions by proximity for a combined navigation mesh."
+msgid ":ref:`NavigationRegion2D<class_NavigationRegion2D>` Node"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:51
-msgid ":ref:`NavigationLink2D<class_NavigationLink2D>` Node"
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:50
+msgid "A Node that holds a NavigationPolygon resource that defines a navigation mesh for the NavigationServer2D."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:52
-msgid "A Node that connects two positions on navigation meshes over arbitrary distances for pathfinding."
+msgid "The region can be enabled / disabled."
+msgstr ""
+
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:53
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:61
+msgid "The use in pathfinding can be further restricted through the ``navigation_layers`` bitmask."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:54
+msgid "The NavigationServer2D will join the navigation meshes of regions by proximity for a combined navigation mesh."
+msgstr ""
+
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:56
+msgid ":ref:`NavigationLink2D<class_NavigationLink2D>` Node"
+msgstr ""
+
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:57
+msgid "A Node that connects two positions on navigation meshes over arbitrary distances for pathfinding."
+msgstr ""
+
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:59
 msgid "The link can be enabled / disabled."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:55
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:60
 msgid "The link can be made one-way or bidirectional."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:58
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:63
 msgid "Links tell the pathfinding that a connection exists and at what cost. The actual agent handling and movement needs to happen in custom scripts."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:60
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:65
 msgid ":ref:`NavigationAgent2D<class_NavigationAgent2D>` Node"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:61
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:66
 msgid "A helper Node used to facilitate common NavigationServer2D API calls for pathfinding and avoidance. Use this Node with a Node2D inheriting parent Node."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:64
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:69
 msgid ":ref:`NavigationObstacle2D<class_NavigationObstacle2D>` Node"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:65
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:70
 msgid "A Node that can be used to affect and constrain the avoidance velocity of avoidance enabled agents. This Node does NOT affect the pathfinding of agents. You need to change the navigation meshes for that instead."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:68
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:73
 msgid "The 2D navigation meshes are defined with the following resources:"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:70
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:75
 msgid ":ref:`NavigationPolygon<class_NavigationPolygon>` Resource"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:71
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:76
 msgid "A resource that holds 2D navigation mesh data. It provides polygon drawing tools to allow defining navigation areas inside the Editor as well as at runtime."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:74
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:79
 msgid "The NavigationRegion2D Node uses this resource to define its navigation area."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:75
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:80
 msgid "The NavigationServer2D uses this resource to update the navigation mesh of individual regions."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:76
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:81
 msgid "The TileSet Editor creates and uses this resource internally when defining tile navigation areas."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:80
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:85
 msgid "You can see how 2D navigation works in action using the `2D Navigation Polygon <https://github.com/godotengine/godot-demo-projects/tree/master/2d/navigation>`__ and `Grid-based Navigation with AStarGrid2D <https://github.com/godotengine/godot-demo-projects/tree/master/2d/navigation_astar>`__ demo projects."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:86
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:91
 msgid "Setup for 2D scene"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:88
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:93
 msgid "The following steps show the basic setup for minimal viable navigation in 2D. It uses the NavigationServer2D and a NavigationAgent2D for path movement."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:91
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:96
 msgid "Add a NavigationRegion2D Node to the scene."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:93
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:98
 msgid "Click on the region node and add a new NavigationPolygon Resource to the region node."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:97
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:102
 msgid "Define the movable navigation area with the NavigationPolygon draw tool. Then click the `Bake NavigationPolygon`` button on the toolbar."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:104
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:109
 msgid "The navigation mesh defines the area where an actor can stand and move with its center. Leave enough margin between the navigation polygon edges and collision objects to not get path following actors repeatedly stuck on collision."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:107
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:112
 msgid "Add a CharacterBody2D node in the scene with a basic collision shape and a sprite or mesh for visuals."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:110
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:115
 msgid "Add a NavigationAgent2D node below the character node."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:114
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:119
 msgid "Add the following script to the CharacterBody2D node. We make sure to set a movement target after the scene has fully loaded and the NavigationServer had time to sync."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:216
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:221
 msgid "On the first frame the NavigationServer map has not synchronized region data and any path query will return empty. Wait for the NavigationServer synchronization by awaiting one frame in the script."
 msgstr ""

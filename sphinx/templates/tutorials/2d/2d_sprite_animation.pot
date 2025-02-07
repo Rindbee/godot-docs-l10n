@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -177,7 +177,7 @@ msgid "Like with AnimatedSprite2D, you can control the animation via code using 
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_sprite_animation.rst:268
-msgid "If updating both an animation and a separate property at once (for example, a platformer may update the sprite's ``h_flip``/``v_flip`` properties when a character turns while starting a 'turning' animation), it's important to keep in mind that ``play()`` isn't applied instantly. Instead, it's applied the next time the :ref:`AnimationPlayer <class_AnimationPlayer>` is processed. This may end up being on the next frame, causing a 'glitch' frame, where the property change was applied but the animation was not. If this turns out to be a problem, after calling ``play()``, you can call ``advance(0)`` to update the animation immediately."
+msgid "If updating both an animation and a separate property at once (for example, a platformer may update the sprite's ``h_flip``/``v_flip`` properties when a character turns while starting a 'turning' animation), it's important to keep in mind that ``play()`` isn't applied instantly. Instead, it's applied the next time the :ref:`AnimationPlayer <class_AnimationPlayer>` is processed. This may end up being on the next frame, causing a 'glitch' frame, where the property change was applied, but the animation was not. If this turns out to be a problem, after calling ``play()``, you can call ``advance(0)`` to update the animation immediately."
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_sprite_animation.rst:279

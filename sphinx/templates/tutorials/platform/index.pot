@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -15,6 +15,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../docs/tutorials/platform/index.rst:5
+#: ../../docs/tutorials/platform/index.rst:4
 msgid "Platform-specific"
+msgstr ""
+
+#: ../../docs/tutorials/platform/index.rst:6
+msgid "Godot supports both running the editor and exporting projects on several platforms. Usage of the engine is generally similar across platforms, but there are some platform-specific considerations, which are covered in this section."
+msgstr ""
+
+#: ../../docs/tutorials/platform/index.rst:12
+msgid "For platform-specific versions of the editor, see :ref:`doc_using_the_xr_editor`, :ref:`doc_using_the_android_editor`, and :ref:`doc_using_the_web_editor`. For exporting to specific platforms, see the :ref:`doc_export_index` section."
 msgstr ""

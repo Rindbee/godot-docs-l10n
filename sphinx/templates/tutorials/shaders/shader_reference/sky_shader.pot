@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -72,7 +72,7 @@ msgid "If the screen is resized and either of the subpasses are used."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:62
-msgid "Try to avoid updating the radiance cubemap needlessly. If you do need to update the radiance cubemap each frame, make sure your :ref:`Sky process mode <class_Sky_property_process_mode>` is set to :ref:`REALTIME <class_Sky_constant_PROCESS_MODE_REALTIME>`."
+msgid "Try to avoid updating the radiance cubemap needlessly. If you do need to update the radiance cubemap each frame, make sure your :ref:`Sky process mode <class_Sky_property_process_mode>` is set to :ref:`PROCESS_MODE_REALTIME <class_Sky_constant_PROCESS_MODE_REALTIME>`."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:67
@@ -134,7 +134,7 @@ msgid "Built-ins"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:142
-msgid "Values marked as \"in\" are read-only. Values marked as \"out\" are for optional writing and will not necessarily contain sensible values. Samplers cannot be written to so they are not marked."
+msgid "Values marked as ``in`` are read-only. Values marked as ``out`` can optionally be written to and will not necessarily contain sensible values. Samplers cannot be written to so they are not marked."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:147
@@ -159,7 +159,7 @@ msgid "in float **TIME**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:157
-msgid "Global time since the engine has started, in seconds. It repeats after every 3,600 seconds (which can  be changed with the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/time_rollover_secs>` setting). It's not affected by :ref:`time_scale<class_Engine_property_time_scale>` or pausing. If you need  a ``TIME`` variable that can be scaled or paused, add your own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and update it each frame."
+msgid "Global time since the engine has started, in seconds. It repeats after every ``3,600`` seconds (which can  be changed with the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/time_rollover_secs>` setting). It's affected by :ref:`time_scale<class_Engine_property_time_scale>` but not by pausing. If you need a ``TIME`` variable that is not affected by time scale, add your own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and update it each frame."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:165
@@ -167,7 +167,7 @@ msgid "in vec3 **POSITION**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:165
-msgid "Camera position in world space"
+msgid "Camera position, in world space."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:167
@@ -183,7 +183,7 @@ msgid "in bool **AT_HALF_RES_PASS**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:169
-msgid "Currently rendering to half resolution pass."
+msgid "``true`` when rendering to half resolution pass."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:171
@@ -191,7 +191,7 @@ msgid "in bool **AT_QUARTER_RES_PASS**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:171
-msgid "Currently rendering to quarter resolution pass."
+msgid "``true`` when rendering to quarter resolution pass."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:173
@@ -199,7 +199,7 @@ msgid "in bool **AT_CUBEMAP_PASS**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:173
-msgid "Currently rendering to radiance cubemap."
+msgid "``true`` when rendering to radiance cubemap."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:175
@@ -207,7 +207,7 @@ msgid "in bool **LIGHTX_ENABLED**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:175
-msgid "``LightX`` is visible and in the scene. If ``false``, other light properties may be garbage."
+msgid "``true`` if ``LIGHTX`` is visible and in the scene. If ``false``, other light properties may be garbage."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:177

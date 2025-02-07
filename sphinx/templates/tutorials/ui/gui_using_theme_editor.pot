@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -104,13 +104,17 @@ msgid "Manage and import items"
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_theme_editor.rst:133
-msgid "Clicking the **Manage Items** button brings up the **Manage Theme Items** dialog. In the **Edit Items** tab you can view and add theme types, as well as view and edit the theme items of the selected type."
+msgid "Clicking the **Manage Items** button brings up the **Manage Theme Items** dialog."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_theme_editor.rst:140
+#: ../../docs/tutorials/ui/gui_using_theme_editor.rst:138
+msgid "In the **Edit Items** tab you can view and add theme types, as well as view and edit the theme items of the selected type."
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_theme_editor.rst:144
 msgid "You can create, rename and remove individual theme items here by clicking the corresponding **Add X Item** and specifying their name. You can also mass delete theme items either by their data type (using the brush icon in the list) or by their quality. **Remove Class Items** will remove all built-in theme items you have customized for a control node type. **Remove Custom Items** will remove all the custom theme items for the selected type. Finally, **Remove All Items** will remove everything from the type."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_theme_editor.rst:148
+#: ../../docs/tutorials/ui/gui_using_theme_editor.rst:152
 msgid "From the **Import Items** tab you can import theme items from other themes. You can import items from the default Godot theme, the Godot editor theme, or another custom theme. You can import individual or multiple items, and you can decide whether to copy or omit their data as well. There are several ways you can select and deselect the items, including by hand, by hierarchy, by data type, and everything. Opting to include the data will copy all theme items as they are to your theme. Omitting the data will create the items of the corresponding data type and name, but will leave them empty, creating a template of a theme in a way."
 msgstr ""

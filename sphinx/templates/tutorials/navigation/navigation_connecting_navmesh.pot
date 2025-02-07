@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -59,6 +59,6 @@ msgstr ""
 msgid "The edge connection margin value of any navigation map can also be changed at runtime with the NavigationServer API."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_connecting_navmesh.rst:67
+#: ../../docs/tutorials/navigation/navigation_connecting_navmesh.rst:95
 msgid "Changing the edge connection margin will trigger a full update of all navigation mesh connections on the NavigationServer."
 msgstr ""

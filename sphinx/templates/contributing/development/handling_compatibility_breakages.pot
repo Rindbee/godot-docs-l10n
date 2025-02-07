@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,30 +47,42 @@ msgstr ""
 msgid "They should start with a ``_`` to indicate that they are internal, and end with ``_bind_compat_`` followed by the PR number that introduced the change (``88047`` in this example). These compatibility methods need to be implemented in a dedicated file, like ``core/math/a_star_grid_2d.compat.inc`` in this case:"
 msgstr ""
 
-#: ../../docs/contributing/development/handling_compatibility_breakages.rst:102
-msgid "Unless the change in compatibility is complex, the compatibility method should simply call the modified method directly, instead of duplicating that method. Make sure to match the default arguments for that method (in the example above this would be ``false``)."
+#: ../../docs/contributing/development/handling_compatibility_breakages.rst:51
+msgid "core/math/a_star_grid_2d.compat.inc"
 msgstr ""
 
-#: ../../docs/contributing/development/handling_compatibility_breakages.rst:105
+#: ../../docs/contributing/development/handling_compatibility_breakages.rst:103
+msgid "Unless the change in compatibility is complex, the compatibility method should call the modified method directly, instead of duplicating that method. Make sure to match the default arguments for that method (in the example above this would be ``false``)."
+msgstr ""
+
+#: ../../docs/contributing/development/handling_compatibility_breakages.rst:106
 msgid "This file should always be placed next to the original file, and have ``.compat.inc`` at the end instead of ``.cpp`` or ``.h``. Next, this should be included in the ``.cpp`` file we're adding compatibility methods to, so ``core/math/a_star_grid_2d.cpp``:"
 msgstr ""
 
-#: ../../docs/contributing/development/handling_compatibility_breakages.rst:115
+#: ../../docs/contributing/development/handling_compatibility_breakages.rst:109
+msgid "core/math/a_star_grid_2d.cpp"
+msgstr ""
+
+#: ../../docs/contributing/development/handling_compatibility_breakages.rst:117
 msgid "And finally, the changes reported by the API validation step should be added to the relevant validation file. Because this was done during the development of 4.3, this would be ``misc/extension_api_validation/4.2-stable.expected`` (including changes not shown in this example):"
 msgstr ""
 
-#: ../../docs/contributing/development/handling_compatibility_breakages.rst:133
+#: ../../docs/contributing/development/handling_compatibility_breakages.rst:121
+msgid "misc/extension_api_validation/4.2-stable.expected"
+msgstr ""
+
+#: ../../docs/contributing/development/handling_compatibility_breakages.rst:136
 msgid "The instructions for how to add to that file are at the top of the file itself."
 msgstr ""
 
-#: ../../docs/contributing/development/handling_compatibility_breakages.rst:135
+#: ../../docs/contributing/development/handling_compatibility_breakages.rst:138
 msgid "If you get a \"Hash changed\" error for a method, it means that the compatibility binding is missing or incorrect. Such lines shouldn't be added to the ``.expected`` file, but fixed by binding the proper compatibility method."
 msgstr ""
 
-#: ../../docs/contributing/development/handling_compatibility_breakages.rst:138
+#: ../../docs/contributing/development/handling_compatibility_breakages.rst:141
 msgid "And that's it! You might run into a bit more complicated cases, like rearranging arguments, changing return types, etc., but this covers the basic on how to use this system."
 msgstr ""
 
-#: ../../docs/contributing/development/handling_compatibility_breakages.rst:141
+#: ../../docs/contributing/development/handling_compatibility_breakages.rst:144
 msgid "For more information, see `pull request #76446 <https://github.com/godotengine/godot/pull/76446>`_."
 msgstr ""

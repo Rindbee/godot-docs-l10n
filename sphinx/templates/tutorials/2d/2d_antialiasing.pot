@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -69,41 +69,45 @@ msgid "Multisample antialiasing (MSAA)"
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_antialiasing.rst:58
+msgid "*This is only available in the Forward+ and Mobile renderers, not the Compatibility renderer.*"
+msgstr ""
+
+#: ../../docs/tutorials/2d/2d_antialiasing.rst:61
 msgid "Before enabling MSAA in 2D, it's important to understand what MSAA will operate on. MSAA in 2D follows similar restrictions as in 3D. While it does not introduce any blurriness, its scope of application is limited. The main applications of 2D MSAA are:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_antialiasing.rst:63
+#: ../../docs/tutorials/2d/2d_antialiasing.rst:66
 msgid "Geometry edges, such as line and polygon drawing."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_antialiasing.rst:64
+#: ../../docs/tutorials/2d/2d_antialiasing.rst:67
 msgid "Sprite edges *only for pixels touching one of the texture's edges*. This works for both linear and nearest-neighbor filtering. Sprite edges created using transparency on the image are not affected by MSAA."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_antialiasing.rst:68
+#: ../../docs/tutorials/2d/2d_antialiasing.rst:71
 msgid "The downside of MSAA is that it only operates on edges. This is because MSAA increases the number of *coverage* samples, but not the number of *color* samples. However, since the number of color samples did not increase, fragment shaders are still run for each pixel only once. As a result, MSAA will **not affect** the following kinds of aliasing in any way:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_antialiasing.rst:74
+#: ../../docs/tutorials/2d/2d_antialiasing.rst:77
 msgid "Aliasing *within* nearest-neighbor filtered textures (pixel art)."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_antialiasing.rst:75
+#: ../../docs/tutorials/2d/2d_antialiasing.rst:78
 msgid "Aliasing caused by custom 2D shaders."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_antialiasing.rst:76
+#: ../../docs/tutorials/2d/2d_antialiasing.rst:79
 msgid "Specular aliasing when using Light2D."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_antialiasing.rst:77
+#: ../../docs/tutorials/2d/2d_antialiasing.rst:80
 msgid "Aliasing in font rendering."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_antialiasing.rst:79
+#: ../../docs/tutorials/2d/2d_antialiasing.rst:82
 msgid "MSAA can be enabled in the Project Settings by changing the value of the :ref:`Rendering > Anti Aliasing > Quality > MSAA 2D<class_ProjectSettings_property_rendering/anti_aliasing/quality/msaa_2d>` setting. It's important to change the value of the **MSAA 2D** setting and not **MSAA 3D**, as these are entirely separate settings."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_antialiasing.rst:84
+#: ../../docs/tutorials/2d/2d_antialiasing.rst:87
 msgid "Comparison between no antialiasing (left) and various MSAA levels (right). The top-left corner contains a Line2D node, the top-right corner contains 2 TextureProgressBar nodes. The bottom contains 8 pixel art sprites, with 4 of them touching the edges (green background) and 4 of them not touching the edges (Godot logo):"
 msgstr ""

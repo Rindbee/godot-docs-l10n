@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -92,7 +92,7 @@ msgid "Adding a composition layer"
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_composition_layers.rst:74
-msgid "The second step is adding our composition layer. We simply add the correct composition layer node as a child node of our :ref:`XROrigin3D <class_xrorigin3d>` node. This is very important as the XR runtime positions everything in relation to our origin."
+msgid "The second step is adding our composition layer. We can add the correct composition layer node as a child node of our :ref:`XROrigin3D <class_xrorigin3d>` node. This is very important as the XR runtime positions everything in relation to our origin."
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_composition_layers.rst:79
@@ -160,7 +160,7 @@ msgid "Next we remember our state for next frame."
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_composition_layers.rst:266
-msgid "Finally, if we aren't intersecting, we simply clear our state."
+msgid "Finally, if we aren't intersecting, we clear our state."
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_composition_layers.rst:278
