@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -116,7 +116,7 @@ msgid "Arranges child controls vertically or horizontally (via :ref:`HBoxContain
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_containers.rst:81
-msgid "These containers make use of the *Ratio* property for children with the *Expand* flag set."
+msgid "These containers make use of the *Stretch Ratio* property for children with the *Expand* flag set."
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_containers.rst:84
@@ -245,8 +245,4 @@ msgstr ""
 
 #: ../../docs/tutorials/ui/gui_containers.rst:212
 msgid "It is possible to create a custom container using a script. Here is an example of a container that fits children to its rect size:"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

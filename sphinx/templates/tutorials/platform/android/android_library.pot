@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -84,11 +84,11 @@ msgid "The hosting component is responsible for driving the engine lifecycle via
 msgstr ""
 
 #: ../../docs/tutorials/platform/android/android_library.rst:47
-msgid "We showcase how this is done using a sample Android app that embeds the Godot Engine as an Android view, and uses it to render 3D GLTF models."
+msgid "We showcase how this is done using a sample Android app that embeds the Godot Engine as an Android view, and uses it to render 3D glTF models."
 msgstr ""
 
 #: ../../docs/tutorials/platform/android/android_library.rst:50
-msgid "The `GLTF Viewer <https://github.com/m4gr3d/Godot-Android-Samples/tree/master/apps/gltf_viewer>`_ sample app uses an `Android RecyclerView component <https://developer.android.com/develop/ui/views/layout/recyclerview>`_ to create a list of GLTF items, populated from `Kenney's Food Kit pack <https://kenney.nl/assets/food-kit>`_. When an item on the list is selected, the app's logic interacts with the embedded Godot Engine to render the selected GLTF item as a 3D model."
+msgid "The `GLTF Viewer <https://github.com/m4gr3d/Godot-Android-Samples/tree/master/apps/gltf_viewer>`_ sample app uses an `Android RecyclerView component <https://developer.android.com/develop/ui/views/layout/recyclerview>`_ to create a list of glTF items, populated from `Kenney's Food Kit pack <https://kenney.nl/assets/food-kit>`_. When an item on the list is selected, the app's logic interacts with the embedded Godot Engine to render the selected glTF item as a 3D model."
 msgstr ""
 
 #: ../../docs/tutorials/platform/android/android_library.rst:56
@@ -144,121 +144,117 @@ msgid "If using ``gradle``, include the following ``aaptOptions`` configuration 
 msgstr ""
 
 #: ../../docs/tutorials/platform/android/android_library.rst:97
-msgid "If your build system does not support including hidden directories, you can `configure the Godot project to not use hidden directories <https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-application-config-use-hidden-project-data-directory>`_ by deselecting ``Project Settings... > Application > Config > Use Hidden Project Data Directory``."
-msgstr ""
-
-#: ../../docs/tutorials/platform/android/android_library.rst:111
-msgid "Create / update the application's Activity that will be hosting the Godot Engine instance. For the sample app, this is `MainActivity <https://github.com/m4gr3d/Godot-Android-Samples/blob/master/apps/gltf_viewer/src/main/java/fhuyakou/godot/app/android/gltfviewer/MainActivity.kt>`_"
-msgstr ""
-
-#: ../../docs/tutorials/platform/android/android_library.rst:113
-msgid "The host Activity should implement the `GodotHost interface <https://github.com/godotengine/godot/blob/master/platform/android/java/lib/src/org/godotengine/godot/GodotHost.java>`_"
+msgid "If your build system does not support including hidden directories, you can configure the Godot project to not use hidden directories by deselecting :ref:`Application > Config > Use Hidden Project Data Directory<class_ProjectSettings_property_application/config/use_hidden_project_data_directory>` in the Project Settings."
 msgstr ""
 
 #: ../../docs/tutorials/platform/android/android_library.rst:114
+msgid "Create / update the application's Activity that will be hosting the Godot Engine instance. For the sample app, this is `MainActivity <https://github.com/m4gr3d/Godot-Android-Samples/blob/master/apps/gltf_viewer/src/main/java/fhuyakou/godot/app/android/gltfviewer/MainActivity.kt>`_"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/android_library.rst:116
+msgid "The host Activity should implement the `GodotHost interface <https://github.com/godotengine/godot/blob/master/platform/android/java/lib/src/org/godotengine/godot/GodotHost.java>`_"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/android_library.rst:117
 msgid "The sample app uses `Fragments <https://developer.android.com/guide/fragments>`_ to organize its UI, so it uses `GodotFragment <https://github.com/godotengine/godot/blob/master/platform/android/java/lib/src/org/godotengine/godot/GodotFragment.java>`_, a fragment component provided by the Godot Android library to automatically host and manage the Godot Engine instance."
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:139
+#: ../../docs/tutorials/platform/android/android_library.rst:142
 msgid "The Godot Android library also provide `GodotActivity <https://github.com/godotengine/godot/blob/master/platform/android/java/lib/src/org/godotengine/godot/GodotActivity.kt>`_, an Activity component that can be extended to automatically host and manage the Godot Engine instance."
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:141
+#: ../../docs/tutorials/platform/android/android_library.rst:144
 msgid "Alternatively, applications can directly create a `Godot <https://github.com/godotengine/godot/blob/master/platform/android/java/lib/src/org/godotengine/godot/Godot.kt>`_ instance, host and manage it themselves."
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:143
+#: ../../docs/tutorials/platform/android/android_library.rst:146
 msgid "Using `GodotHost#getHostPlugins(...) <https://github.com/m4gr3d/Godot-Android-Samples/blob/0e3440f357f8be5b4c63a4fe75766793199a99d0/apps/gltf_viewer/src/main/java/fhuyakou/godot/app/android/gltfviewer/MainActivity.kt#L55>`_, the sample app creates a `runtime GodotPlugin instance <https://github.com/m4gr3d/Godot-Android-Samples/blob/master/apps/gltf_viewer/src/main/java/fhuyakou/godot/app/android/gltfviewer/AppPlugin.kt>`_ that's used to send :ref:`signals <doc_signals>` to the ``gdscript`` logic"
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:145
+#: ../../docs/tutorials/platform/android/android_library.rst:148
 msgid "The runtime ``GodotPlugin`` can also be used by ``gdscript`` logic to access JVM methods. For more information, see :ref:`Godot Android plugins <doc_android_plugin>`."
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:147
+#: ../../docs/tutorials/platform/android/android_library.rst:150
 msgid "Add any additional logic that will be used by your application"
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:149
-msgid "For the sample app, this includes adding the `ItemsSelectionFragment fragment <https://github.com/m4gr3d/Godot-Android-Samples/blob/master/apps/gltf_viewer/src/main/java/fhuyakou/godot/app/android/gltfviewer/ItemsSelectionFragment.kt>`_ (and related classes), a fragment used to build and show the list of GLTF items"
+#: ../../docs/tutorials/platform/android/android_library.rst:152
+msgid "For the sample app, this includes adding the `ItemsSelectionFragment fragment <https://github.com/m4gr3d/Godot-Android-Samples/blob/master/apps/gltf_viewer/src/main/java/fhuyakou/godot/app/android/gltfviewer/ItemsSelectionFragment.kt>`_ (and related classes), a fragment used to build and show the list of glTF items"
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:151
+#: ../../docs/tutorials/platform/android/android_library.rst:154
 msgid "Open the ``AndroidManifest.xml`` file, and configure the orientation if needed using the `android:screenOrientation attribute <https://developer.android.com/guide/topics/manifest/activity-element#screen>`_"
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:153
+#: ../../docs/tutorials/platform/android/android_library.rst:156
 msgid "If needed, disable automatic resizing / orientation configuration changes using the `android:configChanges attribute <https://developer.android.com/guide/topics/manifest/activity-element#config>`_"
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:167
+#: ../../docs/tutorials/platform/android/android_library.rst:170
 msgid "2. Create the Godot project"
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:171
+#: ../../docs/tutorials/platform/android/android_library.rst:174
 msgid "On Android, Godot's project files are exported to the ``assets`` directory of the generated ``apk`` binary."
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:173
+#: ../../docs/tutorials/platform/android/android_library.rst:176
 msgid "We leverage that architecture to bind our Android app and Godot project together by creating the Godot project in the Android app's ``assets`` directory."
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:175
+#: ../../docs/tutorials/platform/android/android_library.rst:178
 msgid "Note that it's also possible to create the Godot project in a separate directory and export it as a `PCK or ZIP file <https://docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html#pck-versus-zip-pack-file-formats>`_ to the Android app's ``assets`` directory. Using this approach requires passing the ``--main-pack <pck_or_zip_filepath_relative_to_assets_dir>`` argument to the hosted Godot Engine instance using `GodotHost#getCommandLine() <https://github.com/godotengine/godot/blob/6916349697a4339216469e9bf5899b983d78db07/platform/android/java/lib/src/org/godotengine/godot/GodotHost.java#L45>`_."
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:179
+#: ../../docs/tutorials/platform/android/android_library.rst:182
 msgid "The instructions below and the sample app follow the first approach of creating the Godot project in the Android app's ``assets`` directory."
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:182
+#: ../../docs/tutorials/platform/android/android_library.rst:185
 msgid "As mentioned in the **note** above, open the Godot Editor and create a Godot project directly (no subfolder) in the ``assets`` directory of the Android application project"
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:184
+#: ../../docs/tutorials/platform/android/android_library.rst:187
 msgid "See the sample app's `Godot project <https://github.com/m4gr3d/Godot-Android-Samples/tree/master/apps/gltf_viewer/src/main/assets>`_ for reference"
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:186
+#: ../../docs/tutorials/platform/android/android_library.rst:189
 msgid "Configure the Godot project as desired"
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:188
+#: ../../docs/tutorials/platform/android/android_library.rst:191
 msgid "Make sure the `orientation <https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-display-window-handheld-orientation>`_ set for the Godot project matches the one set in the Android app's manifest"
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:189
+#: ../../docs/tutorials/platform/android/android_library.rst:192
 msgid "For Android, make sure `textures/vram_compression/import_etc2_astc <https://docs.godotengine.org/en/stable/classes/class_projectsettings.html#class-projectsettings-property-rendering-textures-vram-compression-import-etc2-astc>`_ is set to `true`"
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:191
+#: ../../docs/tutorials/platform/android/android_library.rst:194
 msgid "Update the Godot project script logic as needed"
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:193
+#: ../../docs/tutorials/platform/android/android_library.rst:196
 msgid "For the sample app, the `script logic <https://github.com/m4gr3d/Godot-Android-Samples/blob/master/apps/gltf_viewer/src/main/assets/main.gd>`_ queries for the runtime ``GodotPlugin`` instance and uses it to register for signals fired by the app logic"
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:194
-msgid "The app logic fires a signal every time an item is selected in the list. The signal contains the filepath of the GLTF model, which is used by the ``gdscript`` logic to render the model."
+#: ../../docs/tutorials/platform/android/android_library.rst:197
+msgid "The app logic fires a signal every time an item is selected in the list. The signal contains the filepath of the glTF model, which is used by the ``gdscript`` logic to render the model."
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:228
+#: ../../docs/tutorials/platform/android/android_library.rst:231
 msgid "3. Build and run the app"
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:230
+#: ../../docs/tutorials/platform/android/android_library.rst:233
 msgid "Once you complete configuration of your Godot project, build and run the Android app. If set up correctly, the host Activity will initialize the embedded Godot Engine on startup. The Godot Engine will check the ``assets`` directory for project files to load (unless configured to look for a ``main pack``), and will proceed to run the project."
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:234
+#: ../../docs/tutorials/platform/android/android_library.rst:237
 msgid "While the app is running on device, you can check `Android logcat <https://developer.android.com/studio/debug/logcat>`_ to investigate any errors or crashes."
 msgstr ""
 
-#: ../../docs/tutorials/platform/android/android_library.rst:236
+#: ../../docs/tutorials/platform/android/android_library.rst:239
 msgid "For reference, check the `build and install instructions <https://github.com/m4gr3d/Godot-Android-Samples/blob/master/apps/gltf_viewer/README.md>`_ for the GLTF Viewer sample app."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

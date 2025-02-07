@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -186,8 +186,4 @@ msgstr ""
 
 #: ../../docs/tutorials/2d/2d_sprite_animation.rst:281
 msgid "These examples illustrate the two classes you can use in Godot for 2D animation. ``AnimationPlayer`` is a bit more complex than ``AnimatedSprite2D``, but it provides additional functionality, since you can also animate other properties like position or scale. The class ``AnimationPlayer`` can also be used with an ``AnimatedSprite2D``. Experiment to see what works best for your needs."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -328,15 +328,15 @@ msgid "Godot's :ref:`RenderingServer <class_RenderingServer>` then draws the reg
 msgstr ""
 
 #: ../../docs/tutorials/best_practices/data_preferences.rst:327
-msgid "Also note that AnimatedTexture is a :ref:`Resource <class_Resource>` unlike the other :ref:`Node <class_Node>` objects discussed here. One might create a :ref:`Sprite2D <class_Sprite2D>` node that uses AnimatedTexture as its texture. Or (something the others can't do) one could add AnimatedTextures as tiles in a :ref:`TileSet <class_TileSet>` and integrate it with a :ref:`TileMap <class_TileMap>` for many auto-animating backgrounds that all render in a single batched draw call."
+msgid "Also note that AnimatedTexture is a :ref:`Resource <class_Resource>` unlike the other :ref:`Node <class_Node>` objects discussed here. One might create a :ref:`Sprite2D <class_Sprite2D>` node that uses AnimatedTexture as its texture. Or (something the others can't do) one could add AnimatedTextures as tiles in a :ref:`TileSet <class_TileSet>` and integrate it with a :ref:`TileMapLayer <class_TileMapLayer>` for many auto-animating backgrounds that all render in a single batched draw call."
 msgstr ""
 
 #: ../../docs/tutorials/best_practices/data_preferences.rst:335
-msgid "The AnimatedSprite2D node, in combination with the :ref:`SpriteFrames <class_SpriteFrames>` resource, allows one to create a variety of animation sequences through spritesheets, flip between animations, and control their speed, regional offset, and orientation. This makes them well-suited to controlling 2D frame-based animations."
+msgid "The :ref:`AnimatedSprite2D <class_AnimatedSprite2D>` node, in combination with the :ref:`SpriteFrames <class_SpriteFrames>` resource, allows one to create a variety of animation sequences through spritesheets, flip between animations, and control their speed, regional offset, and orientation. This makes them well-suited to controlling 2D frame-based animations."
 msgstr ""
 
 #: ../../docs/tutorials/best_practices/data_preferences.rst:341
-msgid "If one needs trigger other effects in relation to animation changes (for example, create particle effects, call functions, or manipulate other peripheral elements besides the frame-based animation), then will need to use an :ref:`AnimationPlayer <class_AnimationPlayer>` node in conjunction with the AnimatedSprite2D."
+msgid "If one needs to trigger other effects in relation to animation changes (for example, create particle effects, call functions, or manipulate other peripheral elements besides the frame-based animation), then one will need to use an :ref:`AnimationPlayer <class_AnimationPlayer>` node in conjunction with the AnimatedSprite2D."
 msgstr ""
 
 #: ../../docs/tutorials/best_practices/data_preferences.rst:347
@@ -357,8 +357,4 @@ msgstr ""
 
 #: ../../docs/tutorials/best_practices/data_preferences.rst:359
 msgid "While one needs an AnimationPlayer to design each of the individual animation sequences for a game, it can also be useful to combine animations for blending, i.e. enabling smooth transitions between these animations. There may also be a hierarchical structure between animations that one plans out for their object. These are the cases where the :ref:`AnimationTree <class_AnimationTree>` shines. One can find an in-depth guide on using the AnimationTree :ref:`here <doc_animation_tree>`."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

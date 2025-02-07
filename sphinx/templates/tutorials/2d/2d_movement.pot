@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -107,30 +107,26 @@ msgstr ""
 msgid "This last example uses only the mouse to control the character. Clicking on the screen will cause the player to move to the target location."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:278
+#: ../../docs/tutorials/2d/2d_movement.rst:276
 msgid "Note the ``distance_to()`` check we make prior to movement. Without this test, the body would \"jitter\" upon reaching the target position, as it moves slightly past the position and tries to move back, only to move too far and repeat."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:283
+#: ../../docs/tutorials/2d/2d_movement.rst:281
 msgid "Uncommenting the ``look_at()`` line will also turn the body to point in its direction of motion if you prefer."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:286
+#: ../../docs/tutorials/2d/2d_movement.rst:284
 msgid "This technique can also be used as the basis of a \"following\" character. The ``target`` position can be that of any object you want to move to."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:290
+#: ../../docs/tutorials/2d/2d_movement.rst:288
 msgid "Summary"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:292
+#: ../../docs/tutorials/2d/2d_movement.rst:290
 msgid "You may find these code samples useful as starting points for your own projects. Feel free to use them and experiment with them to see what you can make."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:295
+#: ../../docs/tutorials/2d/2d_movement.rst:293
 msgid "You can download this sample project here: `2d_movement_starter.zip <https://github.com/godotengine/godot-docs-project-starters/releases/download/latest-4.x/2d_movement_starter.zip>`_"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

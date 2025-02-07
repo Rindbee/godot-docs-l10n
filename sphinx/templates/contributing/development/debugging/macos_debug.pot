@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -41,8 +41,4 @@ msgstr ""
 
 #: ../../docs/contributing/development/debugging/macos_debug.rst:44
 msgid "To allow debugging, select the ``codesign\\debugging`` (``com.apple.security.get-task-allow``) entitlement during the export. When it is selected, notarization is not supported and should be disabled."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

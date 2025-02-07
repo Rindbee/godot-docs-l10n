@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -31,7 +31,7 @@ msgstr ""
 msgid "Godot can be used with an external text editor, such as Sublime Text or Visual Studio Code. Browse to the relevant editor settings: **Editor > Editor Settings > Text Editor > External**"
 msgstr ""
 
-#: ../../docs/tutorials/editor/external_editor.rst:21
+#: ../../docs/tutorials/editor/external_editor.rst:17
 msgid "Text Editor > External section of the Editor Settings"
 msgstr ""
 
@@ -112,6 +112,7 @@ msgid "``{file}:{line}``"
 msgstr ""
 
 #: ../../docs/tutorials/editor/external_editor.rst:49
+#: ../../docs/tutorials/editor/external_editor.rst:124
 msgid "JetBrains Rider"
 msgstr ""
 
@@ -217,6 +218,6 @@ msgstr ""
 msgid "Check the official instructions to configure `LSP <https://github.com/godotengine/emacs-gdscript-mode#auto-completion-with-the-language-server-protocol-lsp>`_, and `DAP <https://github.com/godotengine/emacs-gdscript-mode#using-the-debugger>`_."
 msgstr ""
 
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
+#: ../../docs/tutorials/editor/external_editor.rst:126
+msgid "Refer to `JetBrains Rider documentation <https://www.jetbrains.com/help/rider/Godot.html>`_."
 msgstr ""

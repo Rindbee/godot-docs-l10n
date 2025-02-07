@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -260,7 +260,7 @@ msgid "The **Break** button causes a break in the script like a breakpoint would
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:225
-msgid "The **Debug with External Editor** option lets you debug your game with an external editor. This option is also accessible in **Editor Settings > Debugger**."
+msgid "The **Debug with External Editor** option lets you debug your game with an external editor. You can set a shortcut for it in **Editor Settings > Shortcuts > Debugger**."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:228
@@ -272,7 +272,7 @@ msgid "Debug project settings"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:235
-msgid "In the project settings, there is a **Debug** category with three subcategories which control different things."
+msgid "In the project settings, there is a **Debug** category with subcategories which control different things. Enable **Advanced Settings** to change these settings."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:239
@@ -284,33 +284,53 @@ msgid "These are some general settings such as printing the current FPS to the *
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:246
-msgid "GDScript"
+msgid "File Logging"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:248
-msgid "These settings allow you to toggle specific GDScript warnings, such as for unused variables. You can also turn off warnings completely."
+msgid "These settings allow you to log console output and error messages to files."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:252
-msgid "Shapes"
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:251
+msgid "GDScript"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:254
-msgid "Shapes are where you can adjust the color of shapes that only appear for debugging purposes, such as collision and navigation shapes."
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:253
+msgid "These settings allow you to toggle specific GDScript warnings, such as for unused variables. You can also turn off warnings completely. See :ref:`doc_gdscript_warning_system` for more information."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:258
-msgid "Remote in scene dock"
+msgid "Shader Language"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:260
-msgid "When running a game in the editor two options appear at the top of the **Scene** dock, **Remote** and **Local**. While using **Remote** you can inspect or change the nodes' parameters in the running project."
+msgid "These settings allow you to toggle specific shader warnings, such as for unused variables. You can also turn off warnings completely."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:264
+msgid "Canvas Items"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:266
-msgid "Some editor settings related to debugging can be found inside the **Editor Settings**, under the **Network > Debug** and **Debugger** sections."
+msgid "These settings are for canvas item redraw debugging."
 msgstr ""
 
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:269
+msgid "Shapes"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:271
+msgid "Shapes are where you can adjust the color of shapes that only appear for debugging purposes, such as collision and navigation shapes."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:275
+msgid "Remote in scene dock"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:277
+msgid "When running a game in the editor two options appear at the top of the **Scene** dock, **Remote** and **Local**. While using **Remote** you can inspect or change the nodes' parameters in the running project."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/debug/overview_of_debugging_tools.rst:283
+msgid "Some editor settings related to debugging can be found inside the **Editor Settings**, under the **Network > Debug** and **Debugger** sections."
 msgstr ""

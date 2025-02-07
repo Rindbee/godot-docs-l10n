@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -412,37 +412,41 @@ msgid "``Godot.Vector3[]``"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:132
-msgid "``PackedColorArray``"
+msgid "``PackedVector4Array``"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:132
+msgid "``Godot.Vector4[]``"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:133
+msgid "``PackedColorArray``"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:133
 msgid "``Godot.Color[]``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:137
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:138
 msgid "Godot uses 64-bit integers and floats in Variant. Smaller integer and float types such as ``int``, ``short`` and ``float`` are supported since they can fit in the bigger type. Be aware that when a conversion is performed, using the wrong type will result in potential precision loss."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:144
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:145
 msgid "Enums are supported by ``Godot.Variant`` since their underlying type is an integer type which are all compatible. However, implicit conversions don't exist, enums must be manually converted to their underlying integer type before they can converted to/from ``Godot.Variant`` or use the generic ``Variant.As<T>`` and ``Variant.From<T>`` methods to convert them."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:161
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:162
 msgid "Using Variant in a generic context"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:163
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:164
 msgid "When using generics, you may be interested in restricting the generic ``T`` type to be only one of the Variant-compatible types. This can be achieved using the ``[MustBeVariant]`` attribute."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:174
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:175
 msgid "Combined with the generic ``Variant.From<T>`` allows you to obtain an instance of ``Godot.Variant`` from an instance of a generic ``T`` type. Then it can be used in any API that only supports the ``Godot.Variant`` struct."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:191
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:192
 msgid "In order to invoke a method with a generic parameter annotated with the ``[MustBeVariant]`` attribute, the value must be a Variant-compatible type or a generic ``T`` type annotated with the ``[MustBeVariant]`` attribute as well."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

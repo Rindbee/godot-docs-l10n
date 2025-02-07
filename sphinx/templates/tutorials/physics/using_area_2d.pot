@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -177,8 +177,4 @@ msgstr ""
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:140
 msgid "You can download this project here: `area_2d_starter.zip <https://github.com/godotengine/godot-docs-project-starters/releases/download/latest-4.x/area_2d_starter.zip>`_"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

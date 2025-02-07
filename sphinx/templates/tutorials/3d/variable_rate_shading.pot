@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -39,12 +39,12 @@ msgstr ""
 msgid "Here's a scene rendered with rate shading disabled then enabled, using the density map linked at the bottom of this page:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/variable_rate_shading.rst:36
+#: ../../docs/tutorials/3d/variable_rate_shading.rst:32
 #: ../../docs/tutorials/3d/variable_rate_shading.rst:36
 msgid "Variable rate shading disabled in textured scene"
 msgstr ""
 
-#: ../../docs/tutorials/3d/variable_rate_shading.rst:42
+#: ../../docs/tutorials/3d/variable_rate_shading.rst:38
 #: ../../docs/tutorials/3d/variable_rate_shading.rst:42
 msgid "Variable rate shading enabled in textured scene (lower quality but higher performance)"
 msgstr ""
@@ -53,12 +53,12 @@ msgstr ""
 msgid "When used in scenes with low-frequency detail (such as scenes with a stylized/low-poly aesthetic), it's possible to achieve similar performance gains but with less reduction in visual quality:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/variable_rate_shading.rst:52
+#: ../../docs/tutorials/3d/variable_rate_shading.rst:48
 #: ../../docs/tutorials/3d/variable_rate_shading.rst:52
 msgid "Variable rate shading disabled in untextured scene"
 msgstr ""
 
-#: ../../docs/tutorials/3d/variable_rate_shading.rst:58
+#: ../../docs/tutorials/3d/variable_rate_shading.rst:54
 #: ../../docs/tutorials/3d/variable_rate_shading.rst:58
 msgid "Variable rate shading enabled in untextured scene (lower quality but higher performance)"
 msgstr ""
@@ -269,7 +269,7 @@ msgstr ""
 msgid "For example, this VRS density texture provides the highest shading density in the center of the viewport, and the lowest shading density in the corners:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/variable_rate_shading.rst:163
+#: ../../docs/tutorials/3d/variable_rate_shading.rst:159
 #: ../../docs/tutorials/3d/variable_rate_shading.rst:163
 msgid "Example VRS density map texture, simulating foveated rendering"
 msgstr ""
@@ -388,8 +388,4 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/variable_rate_shading.rst:215
 msgid "For non-VR games, you will probably have to use a less aggressive VRS texture than what was used in this example. As a result, the effective performance gains will be lower."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

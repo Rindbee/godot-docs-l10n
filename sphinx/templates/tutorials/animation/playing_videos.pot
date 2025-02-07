@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -83,7 +83,7 @@ msgstr ""
 msgid "Add an AspectRatioContainer node. Make sure it is not a child of any other container node. Select the AspectRatioContainer node, then set its **Layout** at the top of the 2D editor to **Full Rect**. Set **Ratio** in the AspectRatioContainer node to match your video's aspect ratio. You can use math formulas in the inspector to help yourself. Remember to make one of the operands a float. Otherwise, the division's result will always be an integer."
 msgstr ""
 
-#: ../../docs/tutorials/animation/playing_videos.rst:74
+#: ../../docs/tutorials/animation/playing_videos.rst:69
 msgid "AspectRatioContainer's Ratio property being modified in the editor inspector"
 msgstr ""
 
@@ -311,22 +311,18 @@ msgstr ""
 msgid "To allow users to manipulate the chroma key effect in real-time, we created sliders in the `Control` node. The `Control` node's script contains the following functions:"
 msgstr ""
 
-#: ../../docs/tutorials/animation/playing_videos.rst:334
+#: ../../docs/tutorials/animation/playing_videos.rst:373
 msgid "also make sure that the range of the sliders are appropriate, our settings are :"
 msgstr ""
 
-#: ../../docs/tutorials/animation/playing_videos.rst:339
+#: ../../docs/tutorials/animation/playing_videos.rst:378
 msgid "Signal Handling"
 msgstr ""
 
-#: ../../docs/tutorials/animation/playing_videos.rst:341
+#: ../../docs/tutorials/animation/playing_videos.rst:380
 msgid "Connect the appropriate signal from the UI elements to the `Control` node's script. you created in the `Control` node's script to control the chroma key effect. These signal handlers will update the shader's uniform variables in response to user input."
 msgstr ""
 
-#: ../../docs/tutorials/animation/playing_videos.rst:346
+#: ../../docs/tutorials/animation/playing_videos.rst:385
 msgid "Save and run the scene to see the chroma key effect in action! With the provided UI controls, you can now adjust the chroma key color, pickup range, and fade amount in real-time, achieving the desired chroma key functionality for your video content."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

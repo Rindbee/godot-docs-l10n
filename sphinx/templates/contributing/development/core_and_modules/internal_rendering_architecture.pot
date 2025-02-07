@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -224,7 +224,7 @@ msgid "This driver uses OpenGL ES 3.0 and targets legacy and low-end devices tha
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/internal_rendering_architecture.rst:231
-msgid "It is possible to use the use of OpenGL ES 3.0 directly on desktop platforms using the ``--rendering-driver opengl3_es`` command line argument, although this will only work on graphics drivers that feature native OpenGL ES support (such as Mesa)."
+msgid "It is possible to use OpenGL ES 3.0 directly on desktop platforms by passing the ``--rendering-driver opengl3_es`` command line argument, although this will only work on graphics drivers that feature native OpenGL ES support (such as Mesa)."
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/internal_rendering_architecture.rst:236
@@ -1032,8 +1032,4 @@ msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/internal_rendering_architecture.rst:818
 msgid "**Mesh LOD determination C++ code:**"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

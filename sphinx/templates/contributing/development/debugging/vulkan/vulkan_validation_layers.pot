@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -170,8 +170,4 @@ msgstr ""
 
 #: ../../docs/contributing/development/debugging/vulkan/vulkan_validation_layers.rst:187
 msgid "Linked validation layers are automatically loaded and enabled in Android debug builds. You can use Godot's :ref:`doc_one-click_deploy` feature to quickly test your project with the validation layers enabled."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

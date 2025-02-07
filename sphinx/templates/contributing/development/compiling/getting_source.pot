@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -59,14 +59,14 @@ msgstr ""
 msgid "With ``git``, you can also clone a stable release by specifying its branch or tag after the ``--branch`` (or just ``-b``) argument::"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/getting_source.rst:51
-msgid "There are also generally branches besides ``master`` for each major version."
+#: ../../docs/contributing/development/compiling/getting_source.rst:57
+msgid "The `maintenance branches <https://github.com/godotengine/godot/branches/all>`__ are used to release further patches on each minor version."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/getting_source.rst:53
+#: ../../docs/contributing/development/compiling/getting_source.rst:60
+msgid "You can get the source code for each release and pre-release in ``.tar.xz`` format from `godotengine/godot-builds on GitHub <https://github.com/godotengine/godot-builds/releases>`__. This lacks version control information but has a slightly smaller download size."
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/getting_source.rst:64
 msgid "After downloading the Godot source code, you can :ref:`continue to compiling Godot <doc_introduction_to_the_buildsystem>`."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,7 +27,6 @@ msgstr ""
 msgid "|image0|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:616
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:616
 msgid "image0"
 msgstr ""
@@ -57,7 +56,6 @@ msgid "|image1|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:617
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:617
 msgid "image1"
 msgstr ""
 
@@ -74,7 +72,6 @@ msgid "|image2|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:618
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:618
 msgid "image2"
 msgstr ""
 
@@ -86,7 +83,6 @@ msgstr ""
 msgid "|image3|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:619
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:619
 msgid "image3"
 msgstr ""
@@ -100,7 +96,6 @@ msgid "|image4|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:620
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:620
 msgid "image4"
 msgstr ""
 
@@ -113,8 +108,6 @@ msgid "To do so, you can click the autoplay button (|Autoplay|) in the animation
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:642
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:642
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:642
 msgid "Autoplay"
 msgstr ""
 
@@ -122,7 +115,6 @@ msgstr ""
 msgid "|image5|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:621
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:621
 msgid "image5"
 msgstr ""
@@ -136,7 +128,6 @@ msgid "|image6|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:622
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:622
 msgid "image6"
 msgstr ""
 
@@ -148,7 +139,6 @@ msgstr ""
 msgid "|image7|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:623
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:623
 msgid "image7"
 msgstr ""
@@ -162,7 +152,6 @@ msgid "|image8|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:624
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:624
 msgid "image8"
 msgstr ""
 
@@ -174,7 +163,6 @@ msgstr ""
 msgid "|image9|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:625
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:625
 msgid "image9"
 msgstr ""
@@ -200,7 +188,6 @@ msgid "|image10|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:626
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:626
 msgid "image10"
 msgstr ""
 
@@ -217,7 +204,6 @@ msgid "|image11|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:627
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:627
 msgid "image11"
 msgstr ""
 
@@ -230,7 +216,6 @@ msgid "|image12|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:628
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:628
 msgid "image12"
 msgstr ""
 
@@ -242,7 +227,6 @@ msgstr ""
 msgid "|timeline_05_click|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:641
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:641
 msgid "timeline_05_click"
 msgstr ""
@@ -260,7 +244,6 @@ msgid "|image13|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:629
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:629
 msgid "image13"
 msgstr ""
 
@@ -273,7 +256,6 @@ msgid "|second_keys_both|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:640
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:640
 msgid "second_keys_both"
 msgstr ""
 
@@ -285,7 +267,6 @@ msgstr ""
 msgid "|image14|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:630
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:630
 msgid "image14"
 msgstr ""
@@ -303,7 +284,6 @@ msgid "|animation_final_keyframes|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:639
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:639
 msgid "animation_final_keyframes"
 msgstr ""
 
@@ -315,7 +295,6 @@ msgstr ""
 msgid "|image15|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:631
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:631
 msgid "image15"
 msgstr ""
@@ -337,7 +316,6 @@ msgid "|image16|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:632
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:632
 msgid "image16"
 msgstr ""
 
@@ -350,7 +328,6 @@ msgid "|image17|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:633
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:633
 msgid "image17"
 msgstr ""
 
@@ -362,7 +339,6 @@ msgstr ""
 msgid "|image18|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:634
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:634
 msgid "image18"
 msgstr ""
@@ -380,7 +356,6 @@ msgid "|image19|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:635
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:635
 msgid "image19"
 msgstr ""
 
@@ -393,7 +368,6 @@ msgid "|image20|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:636
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:636
 msgid "image20"
 msgstr ""
 
@@ -405,7 +379,6 @@ msgstr ""
 msgid "|image21|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:637
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:637
 msgid "image21"
 msgstr ""
@@ -438,7 +411,6 @@ msgstr ""
 msgid "|image22|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:638
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:638
 msgid "image22"
 msgstr ""
@@ -501,8 +473,4 @@ msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:517
 msgid "And the *Mob*'s script."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

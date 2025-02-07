@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -161,8 +161,4 @@ msgstr ""
 
 #: ../../docs/about/complying_with_licenses.rst:159
 msgid "A good option for end users to document third-party licenses is to include this file in your project's distribution, which you can e.g. rename to ``GODOT_COPYRIGHT.txt`` to prevent any confusion with your own code and assets."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

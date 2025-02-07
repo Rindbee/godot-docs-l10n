@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -121,8 +121,4 @@ msgstr ""
 
 #: ../../docs/contributing/development/cpp_usage_guidelines.rst:105
 msgid "See :ref:`doc_code_style_guidelines_header_includes` for guidelines on sorting includes in C++ and Objective-C files."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

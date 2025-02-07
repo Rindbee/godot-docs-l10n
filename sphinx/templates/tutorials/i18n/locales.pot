@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -4363,7 +4363,6 @@ msgstr ""
 
 #: ../../docs/tutorials/i18n/locales.rst:1093
 #: ../../docs/tutorials/i18n/locales.rst:1608
-#: ../../docs/tutorials/i18n/locales.rst:1608
 msgid "Thai"
 msgstr ""
 
@@ -5056,7 +5055,6 @@ msgid "Caucasian Albanian"
 msgstr ""
 
 #: ../../docs/tutorials/i18n/locales.rst:1270
-#: ../../docs/tutorials/i18n/locales.rst:1270
 msgid "Ahom"
 msgstr ""
 
@@ -5180,7 +5178,6 @@ msgstr ""
 msgid "Carian"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/locales.rst:1310
 #: ../../docs/tutorials/i18n/locales.rst:1310
 msgid "Cham"
 msgstr ""
@@ -5594,7 +5591,6 @@ msgid "Latn"
 msgstr ""
 
 #: ../../docs/tutorials/i18n/locales.rst:1426
-#: ../../docs/tutorials/i18n/locales.rst:1426
 msgid "Leke"
 msgstr ""
 
@@ -5631,11 +5627,9 @@ msgid "Linear B"
 msgstr ""
 
 #: ../../docs/tutorials/i18n/locales.rst:1436
-#: ../../docs/tutorials/i18n/locales.rst:1436
 msgid "Lisu"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/locales.rst:1438
 #: ../../docs/tutorials/i18n/locales.rst:1438
 msgid "Loma"
 msgstr ""
@@ -5737,7 +5731,6 @@ msgid "Mlym"
 msgstr ""
 
 #: ../../docs/tutorials/i18n/locales.rst:1466
-#: ../../docs/tutorials/i18n/locales.rst:1466
 msgid "Modi"
 msgstr ""
 
@@ -5745,7 +5738,6 @@ msgstr ""
 msgid "Mong"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/locales.rst:1470
 #: ../../docs/tutorials/i18n/locales.rst:1470
 msgid "Moon"
 msgstr ""
@@ -5806,7 +5798,6 @@ msgstr ""
 msgid "Nabataean"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/locales.rst:1486
 #: ../../docs/tutorials/i18n/locales.rst:1486
 msgid "Newa"
 msgstr ""
@@ -6267,7 +6258,6 @@ msgstr ""
 msgid "Tangsa"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/locales.rst:1616
 #: ../../docs/tutorials/i18n/locales.rst:1616
 msgid "Toto"
 msgstr ""
@@ -8434,8 +8424,4 @@ msgstr ""
 
 #: ../../docs/tutorials/i18n/locales.rst:2169
 msgid "Zimbabwe"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

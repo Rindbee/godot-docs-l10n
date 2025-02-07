@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,12 +47,12 @@ msgstr ""
 msgid "Visual comparison"
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:48
+#: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:45
 #: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:48
 msgid "LightmapGI disabled."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:53
+#: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:50
 msgid "LightmapGI enabled (with indirect light baked only)."
 msgstr ""
 
@@ -60,7 +60,7 @@ msgstr ""
 msgid "LightmapGI enabled (with indirect light baked only). Direct light is still real-time, allowing for subtle changes during gameplay."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:59
+#: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:56
 msgid "LightmapGI enabled (with direct and indirect light baked)."
 msgstr ""
 
@@ -368,7 +368,7 @@ msgstr ""
 msgid "Since baking lightmaps relies on raytracing, there will always be visible noise in the \"raw\" baked lightmap. Noise is especially visible in areas that are difficult to reach by bounced light, such as indoor areas with small openings where the sunlight can enter. Noise can be reduced by increasing bake quality, but doing so will increase bake times significantly."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:402
+#: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:398
 msgid "Comparison between denoising disabled and enabled"
 msgstr ""
 
@@ -392,7 +392,7 @@ msgstr ""
 msgid "JNLM's denoising can be adjusted using the **Denoiser Strength** property that is visible when **Use Denoiser** enabled. Higher values can be more effective at removing noise, at the cost of suppressing shadow detail for static shadows."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:425
+#: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:421
 msgid "Comparison between JNLM denoiser strength values"
 msgstr ""
 
@@ -440,7 +440,7 @@ msgstr ""
 msgid "The denoising method is configured in the project settings instead of the editor settings. This is done so that different team members working on the same project are assured to be using the same denoising method for consistent results."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:474
+#: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:470
 msgid "Comparison between JNLM and OIDN denoisers"
 msgstr ""
 
@@ -498,8 +498,4 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:536
 msgid "If you notice LightmapGI nodes popping in and out of existence as the camera moves, this is most likely because the engine is rendering too many LightmapGI instances at once. Godot is limited to rendering 8 LightmapGI nodes at once, which means up to 8 instances can be in the camera view before some of them will start flickering."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

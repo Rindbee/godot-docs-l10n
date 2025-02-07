@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -213,8 +213,4 @@ msgstr ""
 
 #: ../../docs/contributing/documentation/docs_image_guidelines.rst:244
 msgid "The ``:autoplay:``, ``:loop:`` and ``:muted:`` flags should always be specified unless the video needs to play audio. In this case, do not specify *any* of these flags."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

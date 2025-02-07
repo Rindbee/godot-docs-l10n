@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -194,8 +194,4 @@ msgstr ""
 
 #: ../../docs/tutorials/animation/animation_track_types.rst:213
 msgid "If you instanced a scene that contains an animation player into your scene, you need to enable \"Editable Children\" in the scene tree to access its animation player. Also, an animation player cannot reference itself."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

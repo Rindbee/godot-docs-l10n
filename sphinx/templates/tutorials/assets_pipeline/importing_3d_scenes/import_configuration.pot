@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -39,7 +39,7 @@ msgstr ""
 msgid "To allow customizing the scene and its materials, Godot's scene importer allows for different workflows regarding how data is imported."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:35
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:31
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:35
 msgid "Import dock after selecting a 3D scene in the FileSystem dock"
 msgstr ""
@@ -173,7 +173,7 @@ msgid "**FBX**"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:162
-msgid "**Importer** Which import method is used. ubfx handles fbx files as fbx files. FBX2glTF converts FBX files to glTF on import and requires additonal setup. FBX2glTF is not recommended unless you have a specific rason to use it over ufbx or working with a different file format."
+msgid "**Importer** Which import method is used. ubfx handles fbx files as fbx files. FBX2glTF converts FBX files to glTF on import and requires additional setup. FBX2glTF is not recommended unless you have a specific rason to use it over ufbx or working with a different file format."
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:166
@@ -192,7 +192,7 @@ msgstr ""
 msgid "The first tab you'll see is the **Scene** tab. The options available in the panel on the right are identical to the Import dock, but you have access to a 3D preview. The 3D preview can be rotated by holding down the left mouse button then dragging the mouse. Zoom can be adjusted using the mouse wheel."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:187
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:183
 msgid "Advanced Import Settings dialog (Scene tab)"
 msgstr ""
 
@@ -208,7 +208,7 @@ msgstr ""
 msgid "You can select individual nodes that compose the scene while in the **Scene** tab using the tree view at the left:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:199
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:195
 msgid "Selecting a node in the Advanced Import Settings dialog (Scene tab)"
 msgstr ""
 
@@ -280,7 +280,7 @@ msgstr ""
 msgid "If you select a mesh, different options will appear in the panel on the right:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:264
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:260
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:264
 msgid "Advanced Import Settings dialog (Meshes tab)"
 msgstr ""
@@ -317,7 +317,7 @@ msgstr ""
 msgid "If you select a material, only one option will appear in the panel on the right:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:312
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:308
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:312
 msgid "Advanced Import Settings dialog (Materials tab)"
 msgstr ""
@@ -354,7 +354,7 @@ msgstr ""
 msgid "In the top-left corner of the Advanced Import Settings dialog, choose **Actions… > Extract Materials**:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:340
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:336
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:340
 msgid "Extracting all built-in materials to external resources in the Advanced Import Settings dialog"
 msgstr ""
@@ -363,7 +363,7 @@ msgstr ""
 msgid "After choosing this option, select a folder to extract material ``.tres`` files to, then confirm the extraction:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:349
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:345
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:349
 msgid "Confirming material extraction in the Advanced Import Settings subdialog"
 msgstr ""
@@ -416,7 +416,7 @@ msgstr ""
 msgid "To do so, select the glTF file in the FileSystem dock, then change the import mode to Animation Library in the Import dock:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:431
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:427
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:431
 msgid "Changing the import type to Animation Library in the Import dock"
 msgstr ""
@@ -505,7 +505,7 @@ msgstr ""
 msgid "However, it is possible to make local modifications by using *scene inheritance*. If you try to open the imported scene using **Scene > Open Scene…** or **Scene > Quick Open Scene…**, the following dialog will appear:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:532
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:528
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:532
 msgid "Dialog when opening an imported 3D scene in the editor"
 msgstr ""
@@ -524,8 +524,4 @@ msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:541
 msgid "Other than that, everything is allowed."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

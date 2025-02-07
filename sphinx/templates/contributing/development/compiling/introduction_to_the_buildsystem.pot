@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -147,254 +147,250 @@ msgstr ""
 msgid "The editor is enabled by default in all PC targets (Linux, Windows, macOS), disabled for everything else. Disabling the editor produces a binary that can run projects but does not include the editor or the Project Manager."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:143
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:145
 msgid "Development and production aliases"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:145
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:147
 msgid "When creating builds for development (running debugging/:ref:`profiling <doc_using_cpp_profilers>` tools), you often have different goals compared to production builds (making binaries as fast and small as possible)."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:149
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:151
 msgid "Godot provides two aliases for this purpose:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:151
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:153
 msgid "``dev_mode=yes`` is an alias for ``verbose=yes warnings=extra werror=yes tests=yes``. This enables warnings-as-errors behavior (similar to Godot's continuous integration setup) and also builds :ref:`unit tests <doc_unit_testing>` so you can run them locally."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:155
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:157
 msgid "``production=yes`` is an alias for ``use_static_cpp=yes debug_symbols=no lto=auto``. Statically linking libstdc++ allows for better binary portability when compiling for Linux. This alias also enables link-time optimization when compiling for Linux, Web and Windows with MinGW, but keeps LTO disabled when compiling for macOS, iOS or Windows with MSVC. This is because LTO on those platforms is very slow to link or has issues with the generated code."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:162
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:164
 msgid "You can manually override options from those aliases by specifying them on the same command line with different values. For example, you can use ``scons production=yes debug_symbols=yes`` to create production-optimized binaries with debugging symbols included."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:168
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:170
 msgid "Dev build"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:172
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:174
 msgid "``dev_build`` should **not** be confused with ``dev_mode``, which is an alias for several development-related options (see above)."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:175
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:177
 msgid "When doing engine development the ``dev_build`` option can be used together with ``target`` to enable dev-specific code. ``dev_build`` defines ``DEV_ENABLED``, disables optimization (``-O0``/``/0d``), enables generating debug symbols, and does not define ``NDEBUG`` (so ``assert()`` works in thirdparty libraries)."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:184
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:186
 msgid "This flag appends the ``.dev`` suffix (for development) to the generated binary name."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:189
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:191
 msgid "There are additional SCons options to enable *sanitizers*, which are tools you can enable at compile-time to better debug certain engine issues. See :ref:`doc_using_sanitizers` for more information."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:194
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:196
 msgid "Debugging symbols"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:196
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:198
 msgid "By default, ``debug_symbols=no`` is used, which means **no** debugging symbols are included in compiled binaries. Use ``debug_symbols=yes`` to include debug symbols within compiled binaries, which allows debuggers and profilers to work correctly. Debugging symbols are also required for Godot's crash stacktraces to display with references to source code files and lines."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:202
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:204
 msgid "The downside is that debugging symbols are large files (significantly larger than the binaries themselves). As a result, official binaries currently do not include debugging symbols. This means you need to compile Godot yourself to have access to debugging symbols."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:207
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:209
 msgid "When using ``debug_symbols=yes``, you can also use ``separate_debug_symbols=yes`` to put debug information in a separate file with a ``.debug`` suffix. This allows distributing both files independently. Note that on Windows, when compiling with MSVC, debugging information is *always* written to a separate ``.pdb`` file regardless of ``separate_debug_symbols``."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:215
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:217
 msgid "Use the ``strip <path/to/binary>`` command to remove debugging symbols from a binary you've already compiled."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:219
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:221
 msgid "Optimization level"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:221
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:223
 msgid "Several compiler optimization levels can be chosen from:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:223
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:225
 msgid "``optimize=speed_trace`` *(default when targeting non-Web platforms)*: Favors execution speed at the cost of larger binary size. Optimizations may sometimes negatively impact debugger usage (stack traces may be less accurate. If this occurs to you, use ``optimize=debug`` instead."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:227
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:229
 msgid "``optimize=speed``: Favors even more execution speed, at the cost of even larger binary size compared to ``optimize=speed_trace``. Even less friendly to debugging compared to ``optimize=debug``, as this uses the most aggressive optimizations available."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:231
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:233
 msgid "``optimize=size`` *(default when targeting the Web platform)*: Favors small binaries at the cost of slower execution speed."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:233
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:235
 msgid "``optimize=debug``: Only enables optimizations that do not impact debugging in any way. This results in faster binaries than ``optimize=none``, but slower binaries than ``optimize=speed_trace``."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:236
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:238
 msgid "``optimize=none``: Do not perform any optimization. This provides the fastest build times, but the slowest execution times."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:238
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:240
 msgid "``optimize=custom`` *(advanced users only)*: Do not pass optimization arguments to the C/C++ compilers. You will have to pass arguments manually using the ``cflags``, ``ccflags`` and ``cxxflags`` SCons options."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:243
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:245
 msgid "Architecture"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:245
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:247
 msgid "The ``arch`` option is meant to control the CPU or OS version intended to run the binaries. It is focused mostly on desktop platforms and ignored everywhere else."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:249
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:251
 msgid "Supported values for the ``arch`` option are **auto**, **x86_32**, **x86_64**, **arm32**, **arm64**, **rv64**, **ppc32**, **ppc64** and **wasm32**."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:256
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:258
 msgid "This flag appends the value of ``arch`` to resulting binaries when relevant.  The default value ``arch=auto`` detects the architecture that matches the host platform."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:263
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:265
 msgid "Custom modules"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:265
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:267
 msgid "It's possible to compile modules residing outside of Godot's directory tree, along with the built-in modules."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:268
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:270
 msgid "A ``custom_modules`` build option can be passed to the command line before compiling. The option represents a comma-separated list of directory paths containing a collection of independent C++ modules that can be seen as C++ packages, just like the built-in ``modules/`` directory."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:273
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:275
 msgid "For instance, it's possible to provide both relative, absolute, and user directory paths containing such modules:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:282
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:284
 msgid "If there's any custom module with the exact directory name as a built-in module, the engine will only compile the custom one. This logic can be used to override built-in module implementations."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:288
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:290
 msgid ":ref:`doc_custom_modules_in_cpp`"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:291
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:293
 msgid "Cleaning generated files"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:293
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:295
 msgid "Sometimes, you may encounter an error due to generated files being present. You can remove them by using ``scons --clean <options>``, where ``<options>`` is the list of build options you've used to build Godot previously."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:297
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:299
 msgid "Alternatively, you can use ``git clean -fixd`` which will clean build artifacts for all platforms and configurations. Beware, as this will remove all untracked and ignored files in the repository. Don't run this command if you have uncommitted work!"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:303
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:305
 msgid "Other build options"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:305
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:307
 msgid "There are several other build options that you can use to configure the way Godot should be built (compiler, debug options, etc.) as well as the features to include/disable."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:309
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:311
 msgid "Check the output of ``scons --help`` for details about each option for the version you are willing to compile."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:315
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:317
 msgid "Overriding the build options"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:318
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:320
 msgid "Using a file"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:320
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:322
 msgid "The default ``custom.py`` file can be created at the root of the Godot Engine source to initialize any SCons build options passed via the command line:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:332
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:334
 msgid "You can also disable some of the builtin modules before compiling, saving some time it takes to build the engine. See :ref:`doc_optimizing_for_size` page for more details."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:337
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:339
 msgid "You can use the online `Godot build options generator <https://godot-build-options-generator.github.io/>`__ to generate a ``custom.py`` file containing SCons options. You can then save this file and place it at the root of your Godot source directory."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:342
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:344
 msgid "Another custom file can be specified explicitly with the ``profile`` command line option, both overriding the default build configuration:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:349
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:351
 msgid "Build options set from the file can be overridden by the command line options."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:352
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:354
 msgid "It's also possible to override the options conditionally:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:367
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:369
 msgid "Using the SCONSFLAGS"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:369
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:371
 msgid "``SCONSFLAGS`` is an environment variable which is used by the SCons to set the options automatically without having to supply them via the command line."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:372
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:374
 msgid "For instance, you may want to force a number of CPU threads with the aforementioned ``-j`` option for all future builds:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:389
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:391
 msgid "SCU (single compilation unit) build"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:391
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:393
 msgid "Regular builds tend to be bottlenecked by including large numbers of headers in each compilation translation unit. Primarily to speed up development (rather than for production builds), Godot offers a \"single compilation unit\" build (aka \"Unity / Jumbo\" build)."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:396
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:398
 msgid "For the folders accelerated by this option, multiple ``.cpp`` files are compiled in each translation unit, so headers can be shared between multiple files, which can dramatically decrease build times."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:400
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:402
 msgid "To perform an SCU build, use the ``scu_build=yes`` SCons option."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:402
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:404
 msgid "When developing a Pull Request using SCU builds, be sure to make a regular build prior to submitting the PR. This is because SCU builds by nature include headers from earlier ``.cpp`` files in the translation unit, therefore won't catch all the includes you will need in a regular build. The CI will catch these errors but it will usually be faster to catch them on a local build on your machine."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:410
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:412
 msgid "Export templates"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:412
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:414
 msgid "Official export templates are downloaded from the Godot Engine site: `godotengine.org <https://godotengine.org/>`__. However, you might want to build them yourself (in case you want newer ones, you are using custom modules, or simply don't trust your own shadow)."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:417
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:419
 msgid "If you download the official export templates package and unzip it, you will notice that most files are optimized binaries or packages for each platform:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:454
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:460
 msgid "To create those yourself, follow the instructions detailed for each platform in this same tutorial section. Each platform explains how to create its own template."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:458
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:464
 msgid "The ``version.txt`` file should contain the corresponding Godot version identifier. This file is used to install export templates in a version-specific directory to avoid conflicts. For instance, if you are building export templates for Godot 3.1.1, ``version.txt`` should contain ``3.1.1.stable`` on the first line (and nothing else). This version identifier is based on the ``major``, ``minor``, ``patch`` (if present) and ``status`` lines of the `version.py file in the Godot Git repository <https://github.com/godotengine/godot/blob/master/version.py>`__."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:466
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:472
 msgid "If you are developing for multiple platforms, macOS is definitely the most convenient host platform for cross-compilation, since you can cross-compile for every target. Linux and Windows come in second place, but Linux has the advantage of being the easier platform to set this up."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

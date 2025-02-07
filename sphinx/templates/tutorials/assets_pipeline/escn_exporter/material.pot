@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -35,7 +35,7 @@ msgstr ""
 msgid "Where the exporter searches for the ``.tres`` file is determined by the \"Material Search Paths\" option:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/escn_exporter/material.rst:34
+#: ../../docs/tutorials/assets_pipeline/escn_exporter/material.rst:25
 msgid "This can take the value of:"
 msgstr ""
 
@@ -93,8 +93,4 @@ msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/escn_exporter/material.rst:67
 msgid "``.material`` file can be assigned to any material slot to be an external resource."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

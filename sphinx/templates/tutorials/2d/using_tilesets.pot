@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,11 +24,11 @@ msgid "Introduction"
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:9
-msgid "A tilemap is a grid of tiles used to create a game's layout. There are several benefits to using :ref:`TileMap <class_TileMap>` nodes to design your levels. First, they let you draw a layout by \"painting\" tiles onto a grid, which is much faster than placing individual :ref:`Sprite2D <class_Sprite2D>` nodes one by one. Second, they allow for larger levels because they are optimized for drawing large numbers of tiles. Finally, they allow you to add greater functionality to your tiles with collision, occlusion, and navigation shapes."
+msgid "A tilemap is a grid of tiles used to create a game's layout. There are several benefits to using :ref:`TileMapLayer <class_TileMapLayer>` nodes to design your levels. First, they let you draw a layout by \"painting\" tiles onto a grid, which is much faster than placing individual :ref:`Sprite2D <class_Sprite2D>` nodes one by one. Second, they allow for larger levels because they are optimized for drawing large numbers of tiles. Finally, they allow you to add greater functionality to your tiles with collision, occlusion, and navigation shapes."
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:18
-msgid "To use tilemaps, you will need to create a TileSet first. A TileSet is a collection of tiles that can be placed in a TileMap node. After creating a TileSet, you will be able to place them :ref:`using the TileMap editor <doc_using_tilemaps>`."
+msgid "To use TileMapLayer nodes, you will need to create a TileSet first. A TileSet is a collection of tiles that can be placed in a TileMapLayer node. After creating a TileSet, you will be able to place them :ref:`using the TileMap editor <doc_using_tilemaps>`."
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:23
@@ -47,7 +47,7 @@ msgstr ""
 msgid "This demonstration will use the following tiles taken from `Kenney's \"Abstract Platformer\" pack <https://kenney.nl/assets/abstract-platformer>`__. We'll use this particular *tilesheet* from the set:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:44
+#: ../../docs/tutorials/2d/using_tilesets.rst:40
 msgid "Tilesheet example with 64×64 tiles"
 msgstr ""
 
@@ -56,12 +56,12 @@ msgid "Tilesheet with 64×64 tiles. Credit: `Kenney <https://kenney.nl/assets/ab
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:46
-msgid "Create a new **TileMap** node, then select it and create a new TileSet resource in the inspector:"
+msgid "Create a new **TileMapLayer** node, then select it and create a new TileSet resource in the inspector:"
 msgstr ""
 
+#: ../../docs/tutorials/2d/using_tilesets.rst:48
 #: ../../docs/tutorials/2d/using_tilesets.rst:52
-#: ../../docs/tutorials/2d/using_tilesets.rst:52
-msgid "Creating a new TileSet resource within the TileMap node"
+msgid "Creating a new TileSet resource within the TileMapLayer node"
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:54
@@ -72,20 +72,20 @@ msgstr ""
 msgid "Set the tile size to 64×64 in the inspector to match the example tilesheet:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:69
+#: ../../docs/tutorials/2d/using_tilesets.rst:65
 #: ../../docs/tutorials/2d/using_tilesets.rst:69
 msgid "Setting the tile size to 64×64 to match the example tilesheet"
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:71
-msgid "If relying on automatic tiles creation (like we're about to do here), you must set the tile size **before** creating the *atlas*. The atlas will determine which tiles from the tilesheet can be added to a TileMap node (as not every part of the image may be a valid tile)."
+msgid "If relying on automatic tiles creation (like we're about to do here), you must set the tile size **before** creating the *atlas*. The atlas will determine which tiles from the tilesheet can be added to a TileMapLayer node (as not every part of the image may be a valid tile)."
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:76
 msgid "Open the **TileSet** panel at the bottom of the editor, then click and drag the tilesheet image onto the panel. You will be asked whether to create tiles automatically. Answer **Yes**:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:84
+#: ../../docs/tutorials/2d/using_tilesets.rst:80
 #: ../../docs/tutorials/2d/using_tilesets.rst:84
 msgid "Automatically creating tiles based on tilesheet image content"
 msgstr ""
@@ -102,7 +102,7 @@ msgstr ""
 msgid "If there are tiles from the tilesheet you do not wish to be present in atlas, choose the Eraser tool at the top of the tileset preview, then click the tiles you wish to remove:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:102
+#: ../../docs/tutorials/2d/using_tilesets.rst:98
 #: ../../docs/tutorials/2d/using_tilesets.rst:102
 msgid "Using the Eraser tool to remove unwanted tiles from the TileSet atlas"
 msgstr ""
@@ -123,7 +123,7 @@ msgstr ""
 msgid "You can adjust properties for the atlas in the middle column:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:124
+#: ../../docs/tutorials/2d/using_tilesets.rst:120
 #: ../../docs/tutorials/2d/using_tilesets.rst:124
 msgid "Adjusting TileSet atlas properties in the dedicated inspector (part of the TileSet panel)"
 msgstr ""
@@ -149,7 +149,7 @@ msgid "**Separation:** The separation between each tile on the atlas in pixels. 
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:137
-msgid "**Texture Region Size:** The size of each tile on the atlas in pixels. In most cases, this should match the tile size defined in the TileMap property (although this is not strictly necessary)."
+msgid "**Texture Region Size:** The size of each tile on the atlas in pixels. In most cases, this should match the tile size defined in the TileMapLayer property (although this is not strictly necessary)."
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:140
@@ -160,7 +160,7 @@ msgstr ""
 msgid "Note that changing texture margin, separation and region size may cause tiles to be lost (as some of them would be located outside the atlas image's coordinates). To regenerate tiles automatically from the tilesheet, use the three vertical dots menu button at the top of the TileSet editor and choose **Create Tiles in Non-Transparent Texture Regions**:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:155
+#: ../../docs/tutorials/2d/using_tilesets.rst:151
 #: ../../docs/tutorials/2d/using_tilesets.rst:155
 msgid "Recreating tiles automatically after changing atlas properties"
 msgstr ""
@@ -178,14 +178,14 @@ msgid "Scene tiles come with a greater performance overhead compared to atlases,
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:171
-msgid "It's recommended to use only scene tiles when necessary. To draw sprites in a tile without any kind of advanced manipulation, :ref:`use atlases instead <doc_creating_tilesets_using_tilesheet>`."
+msgid "It's recommended to only use scene tiles when necessary. To draw sprites in a tile without any kind of advanced manipulation, :ref:`use atlases instead <doc_creating_tilesets_using_tilesheet>`."
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:175
-msgid "For this example, we'll create a scene containing a CPUParticles2D root node. Save this scene to a scene file (separate from the scene containing the TileMap), then switch to the scene containing the TileMap node. Open the TileSet editor, and create a new **Scenes Collection** in the left column:"
+msgid "For this example, we'll create a scene containing a CPUParticles2D root node. Save this scene to a scene file (separate from the scene containing the TileMapLayer), then switch to the scene containing the TileMapLayer node. Open the TileSet editor, and create a new **Scenes Collection** in the left column:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:184
+#: ../../docs/tutorials/2d/using_tilesets.rst:180
 #: ../../docs/tutorials/2d/using_tilesets.rst:184
 msgid "Creating a scenes collection in the TileSet editor"
 msgstr ""
@@ -194,7 +194,7 @@ msgstr ""
 msgid "After creating a scenes collection, you can enter a descriptive name for the scenes collection in the middle column if you wish. Select this scenes collection then create a new scene slot:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:194
+#: ../../docs/tutorials/2d/using_tilesets.rst:190
 #: ../../docs/tutorials/2d/using_tilesets.rst:194
 msgid "Creating a scene tile after selecting the scenes collection in the TileSet editor"
 msgstr ""
@@ -203,7 +203,7 @@ msgstr ""
 msgid "Select this scene slot in the right column, then use **Quick Load** (or **Load**) to load the scene file containing the particles:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:203
+#: ../../docs/tutorials/2d/using_tilesets.rst:199
 #: ../../docs/tutorials/2d/using_tilesets.rst:203
 msgid "Creating a scene slot, then loading a scene file into it in the TileSet editor"
 msgstr ""
@@ -224,7 +224,7 @@ msgstr ""
 msgid "To do so, you must have more than one atlas created in the TileSet resource. Use the \"three vertical dots\" menu button located at the bottom of the list of atlases, then choose **Open Atlas Merging Tool**:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:225
+#: ../../docs/tutorials/2d/using_tilesets.rst:221
 #: ../../docs/tutorials/2d/using_tilesets.rst:225
 msgid "Opening the atlas merging tool after creating multiple atlases"
 msgstr ""
@@ -233,7 +233,7 @@ msgstr ""
 msgid "This will open a dialog, in which you can select several atlases by holding :kbd:`Shift` or :kbd:`Ctrl` then clicking on multiple elements:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:234
+#: ../../docs/tutorials/2d/using_tilesets.rst:230
 #: ../../docs/tutorials/2d/using_tilesets.rst:234
 msgid "Using the atlas merging tool dialog"
 msgstr ""
@@ -259,7 +259,7 @@ msgid "Adding collision, navigation and occlusion to the TileSet"
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:260
-msgid "We've now successfully created a basic TileSet. We could start using in the TileMap node now, but it currently lacks any form of collision detection. This means the player and other objects could walk straight through the floor or walls."
+msgid "We've now successfully created a basic TileSet. We could start using it in the TileMapLayer node now, but it currently lacks any form of collision detection. This means the player and other objects could walk straight through the floor or walls."
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:265
@@ -271,30 +271,30 @@ msgid "Lastly, if you use :ref:`doc_2d_lights_and_shadows` or GPUParticles2D, yo
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:273
-msgid "To be able to define collision, navigation and occlusion shapes for each tile, you will need to create a physics, navigation or occlusion layer for the TileSet resource first. To do so, select the TileMap node, click the TileSet property value in the inspector to edit it then unfold **Physics Layers** and choose **Add Element**:"
+msgid "To be able to define collision, navigation and occlusion shapes for each tile, you will need to create a physics, navigation or occlusion layer for the TileSet resource first. To do so, select the TileMapLayer node, click the TileSet property value in the inspector to edit it then unfold **Physics Layers** and choose **Add Element**:"
 msgstr ""
 
+#: ../../docs/tutorials/2d/using_tilesets.rst:279
 #: ../../docs/tutorials/2d/using_tilesets.rst:283
-#: ../../docs/tutorials/2d/using_tilesets.rst:283
-msgid "Creating a physics layer in the TileSet resource inspector (within the TileMap node)"
+msgid "Creating a physics layer in the TileSet resource inspector (within the TileMapLayer node)"
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:285
 msgid "If you also need navigation support, now is a good time to create a navigation layer:"
 msgstr ""
 
+#: ../../docs/tutorials/2d/using_tilesets.rst:287
 #: ../../docs/tutorials/2d/using_tilesets.rst:291
-#: ../../docs/tutorials/2d/using_tilesets.rst:291
-msgid "Creating a navigation layer in the TileSet resource inspector (within the TileMap node)"
+msgid "Creating a navigation layer in the TileSet resource inspector (within the TileMapLayer node)"
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:293
 msgid "If you need support for light polygon occluders, now is a good time to create an occlusion layer:"
 msgstr ""
 
+#: ../../docs/tutorials/2d/using_tilesets.rst:295
 #: ../../docs/tutorials/2d/using_tilesets.rst:299
-#: ../../docs/tutorials/2d/using_tilesets.rst:299
-msgid "Creating an occlusion layer in the TileSet resource inspector (within the TileMap node)"
+msgid "Creating an occlusion layer in the TileSet resource inspector (within the TileMapLayer node)"
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:303
@@ -309,7 +309,7 @@ msgstr ""
 msgid "After creating a physics layer, you have access to the **Physics Layer** section in the TileSet atlas inspector:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:319
+#: ../../docs/tutorials/2d/using_tilesets.rst:315
 #: ../../docs/tutorials/2d/using_tilesets.rst:319
 msgid "Opening the collision editor while in Select mode"
 msgstr ""
@@ -318,7 +318,7 @@ msgstr ""
 msgid "You can quickly create a rectangle collision shape by pressing :kbd:`F` while the TileSet editor is focused. If the keyboard shortcut doesn't work, try clicking in the empty area around the polygon editor to focus it:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:329
+#: ../../docs/tutorials/2d/using_tilesets.rst:325
 #: ../../docs/tutorials/2d/using_tilesets.rst:329
 msgid "Using default rectangle collision shape by pressing :kbd:`F`"
 msgstr ""
@@ -347,7 +347,7 @@ msgstr ""
 msgid "You can use the default rectangle shape to quickly create a triangle-shaped collision shape by removing one of the points:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:349
+#: ../../docs/tutorials/2d/using_tilesets.rst:345
 #: ../../docs/tutorials/2d/using_tilesets.rst:349
 msgid "Creating a triangle collision shape by right-clicking one of the corners to remove it"
 msgstr ""
@@ -356,7 +356,7 @@ msgstr ""
 msgid "You can also use the rectangle as a base for more complex shapes by adding more points:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:357
+#: ../../docs/tutorials/2d/using_tilesets.rst:353
 #: ../../docs/tutorials/2d/using_tilesets.rst:357
 msgid "Drawing a custom collision for a complex tile shape"
 msgstr ""
@@ -377,12 +377,12 @@ msgstr ""
 msgid "The data is associated with the tile in the TileSet: all instances of the placed tile will use the same custom data. If you need to create a variant of a tile that has different custom data, this can be done by :ref:`creating an alternative tile <doc_using_tilesets_creating_alternative_tiles>` and changing the custom data for the alternative tile only."
 msgstr ""
 
+#: ../../docs/tutorials/2d/using_tilesets.rst:382
 #: ../../docs/tutorials/2d/using_tilesets.rst:386
-#: ../../docs/tutorials/2d/using_tilesets.rst:386
-msgid "Creating a custom data layer in the TileSet resource inspector (within the TileMap node)"
+msgid "Creating a custom data layer in the TileSet resource inspector (within the TileMapLayer node)"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:392
+#: ../../docs/tutorials/2d/using_tilesets.rst:388
 #: ../../docs/tutorials/2d/using_tilesets.rst:392
 msgid "Example of configured custom data layers with game-specific properties"
 msgstr ""
@@ -392,250 +392,246 @@ msgid "You can reorder custom data without breaking existing metadata: the TileS
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:397
-msgid "Note that in the editor, property names do not appear (only their index, which matches the order in which they are defined). For example, with the custom data layers example shown above, we're assigning a tile to have the ``damage_per_second`` metadata set to ``25`` and the ``destructible`` metadata to ``false``:"
+msgid "With the custom data layers example shown above, we're assigning a tile to have the ``damage_per_second`` metadata set to ``25`` and the ``destructible`` metadata to ``false``:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:407
-#: ../../docs/tutorials/2d/using_tilesets.rst:407
+#: ../../docs/tutorials/2d/using_tilesets.rst:401
+#: ../../docs/tutorials/2d/using_tilesets.rst:405
 msgid "Editing custom data in the TileSet editor while in Select mode"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:409
+#: ../../docs/tutorials/2d/using_tilesets.rst:407
 msgid ":ref:`Tile property painting <doc_using_tilemaps_using_tile_property_painting>` can also be used for custom data:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:416
-#: ../../docs/tutorials/2d/using_tilesets.rst:416
+#: ../../docs/tutorials/2d/using_tilesets.rst:410
+#: ../../docs/tutorials/2d/using_tilesets.rst:414
 msgid "Assigning custom data in the TileSet editor using tile property painting"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:421
+#: ../../docs/tutorials/2d/using_tilesets.rst:419
 msgid "Creating terrain sets (autotiling)"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:425
+#: ../../docs/tutorials/2d/using_tilesets.rst:423
 msgid "This functionality was implemented in a different form as *autotiling* in Godot 3.x. Terrains are essentially a more powerful replacement of autotiles. Unlike autotiles, terrains can support transitions from one terrain to another, as a tile may define several terrains at once."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:430
+#: ../../docs/tutorials/2d/using_tilesets.rst:428
 msgid "Unlike before, where autotiles were a specific kind of tiles, terrains are only a set of properties assigned to atlas tiles. These properties are then used by a dedicated TileMap painting mode that selects tiles featuring terrain data in a smart way. This means any terrain tile can be either painted as terrain or as a single tile, like any other."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:436
+#: ../../docs/tutorials/2d/using_tilesets.rst:434
 msgid "A \"polished\" tileset generally features variations that you should use on corners or edges of platforms, floors, etc. While these can be placed manually, this quickly becomes tedious. Handling this situation with procedurally generated levels can also be difficult and require a lot of code."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:441
-msgid "Godot offers *terrains* to perform this kind of tile connections automatically. This allows you to have the \"correct\" tile variants automatically used."
+#: ../../docs/tutorials/2d/using_tilesets.rst:439
+msgid "Godot offers *terrains* to perform this kind of tile connection automatically. This allows you to have the \"correct\" tile variants automatically used."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:444
+#: ../../docs/tutorials/2d/using_tilesets.rst:442
 msgid "Terrains are grouped into terrain sets. Each terrain set is assigned a mode from **Match Corners and Sides**, **Match Corners** and **Match sides**. They define how terrains are matched to each other in a terrain set."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:450
+#: ../../docs/tutorials/2d/using_tilesets.rst:448
 msgid "The above modes correspond to the previous bitmask modes autotiles used in Godot 3.x: 2×2, 3×3 or 3×3 minimal. This is also similar to what the `Tiled <https://www.mapeditor.org/>`__ editor features."
 msgstr ""
 
+#: ../../docs/tutorials/2d/using_tilesets.rst:452
+msgid "Select the TileMapLayer node, go to the inspector and create a new terrain set within the TileSet *resource*:"
+msgstr ""
+
 #: ../../docs/tutorials/2d/using_tilesets.rst:454
-msgid "Select the TileMap node, go to the inspector and create a new terrain set within the TileSet *resource*:"
+#: ../../docs/tutorials/2d/using_tilesets.rst:458
+msgid "Creating a terrain set in the TileSet resource inspector (within the TileMapLayer node)"
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilesets.rst:460
-#: ../../docs/tutorials/2d/using_tilesets.rst:460
-msgid "Creating a terrain set in the TileSet resource inspector (within the TileMap node)"
-msgstr ""
-
-#: ../../docs/tutorials/2d/using_tilesets.rst:462
 msgid "After creating a terrain set, you **must** create one or more terrains *within* the terrain set:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:468
-#: ../../docs/tutorials/2d/using_tilesets.rst:468
+#: ../../docs/tutorials/2d/using_tilesets.rst:462
+#: ../../docs/tutorials/2d/using_tilesets.rst:466
 msgid "Creating a terrain within the terrain set"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:470
+#: ../../docs/tutorials/2d/using_tilesets.rst:468
 msgid "In the TileSet editor, switch to Select mode and click a tile. In the middle column, unfold the **Terrains** section then assign a terrain set ID and a terrain ID for the tile. ``-1`` means \"no terrain set\" or \"no terrain\", which means you must set **Terrain Set** to ``0`` or greater before you can set **Terrain** to ``0`` or greater."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:478
+#: ../../docs/tutorials/2d/using_tilesets.rst:476
 msgid "Terrain set IDs and terrain IDs are independent from each other. They also start from ``0``, not ``1``."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:485
-#: ../../docs/tutorials/2d/using_tilesets.rst:485
+#: ../../docs/tutorials/2d/using_tilesets.rst:479
+#: ../../docs/tutorials/2d/using_tilesets.rst:483
 msgid "Configuring terrain on a single tile in the TileSet editor's Select mode"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:487
+#: ../../docs/tutorials/2d/using_tilesets.rst:485
 msgid "After doing so, you can now configure the **Terrain Peering Bits** section which becomes visible in the middle column. The peering bits determine which tile will be placed depending on neighboring tiles. ``-1`` is a special value which refers to empty space."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:492
+#: ../../docs/tutorials/2d/using_tilesets.rst:490
 msgid "For example, if a tile has all its bits set to ``0`` or greater, it will only appear if *all* 8 neighboring tiles are using a tile with the same terrain ID. If a tile has its bits set to ``0`` or greater, but the top-left, top and top-right bits are set to ``-1``, it will only appear if there is empty space on top of it (including diagonally)."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:502
-#: ../../docs/tutorials/2d/using_tilesets.rst:502
+#: ../../docs/tutorials/2d/using_tilesets.rst:496
+#: ../../docs/tutorials/2d/using_tilesets.rst:500
 msgid "Configuring terrain peering bits on a single tile in the TileSet editor's Select mode"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:504
+#: ../../docs/tutorials/2d/using_tilesets.rst:502
 msgid "An example configuration for a full tilesheet may look as follows:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:510
-#: ../../docs/tutorials/2d/using_tilesets.rst:510
+#: ../../docs/tutorials/2d/using_tilesets.rst:504
+#: ../../docs/tutorials/2d/using_tilesets.rst:508
 msgid "Example full tilesheet for a sidescrolling game"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:516
-#: ../../docs/tutorials/2d/using_tilesets.rst:516
+#: ../../docs/tutorials/2d/using_tilesets.rst:510
+#: ../../docs/tutorials/2d/using_tilesets.rst:514
 msgid "Example full tilesheet for a sidescrolling game with terrain peering bits visible"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:521
+#: ../../docs/tutorials/2d/using_tilesets.rst:519
 msgid "Assigning properties to multiple tiles at once"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:523
+#: ../../docs/tutorials/2d/using_tilesets.rst:521
 msgid "There are two ways to assign properties to multiple tiles at once. Depending on your use cases, one method may be faster than the other:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:527
+#: ../../docs/tutorials/2d/using_tilesets.rst:525
 msgid "Using multiple tile selection"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:529
-msgid "If you wish to configure various properties on several times at once, choose the **Select** mode at the top of the TileSet editor:"
+#: ../../docs/tutorials/2d/using_tilesets.rst:527
+msgid "If you wish to configure various properties on several tiles at once, choose the **Select** mode at the top of the TileSet editor:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:532
+#: ../../docs/tutorials/2d/using_tilesets.rst:530
 msgid "After doing this, you can select multiple tiles on the right column by holding :kbd:`Shift` then clicking on tiles. You can also perform rectangle selection by holding down the left mouse button then dragging the mouse. Lastly, you can deselect tiles that were already selected (without affecting the rest of the selection) by holding :kbd:`Shift` then clicking on a selected tile."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:538
+#: ../../docs/tutorials/2d/using_tilesets.rst:536
 msgid "You can then assign properties using the inspector in the middle column of the TileSet editor. Only properties that you change here will be applied to all selected tiles. Like in the editor's inspector, properties that differ on selected tiles will remain different until you edit them."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:543
+#: ../../docs/tutorials/2d/using_tilesets.rst:541
 msgid "With numerical and color properties, you will also see a preview of the property's value on all tiles in the atlas after editing a property:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:550
-#: ../../docs/tutorials/2d/using_tilesets.rst:550
+#: ../../docs/tutorials/2d/using_tilesets.rst:544
+#: ../../docs/tutorials/2d/using_tilesets.rst:548
 msgid "Selecting multiple tiles using the Select mode, then applying properties"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:555
+#: ../../docs/tutorials/2d/using_tilesets.rst:553
 msgid "Using tile property painting"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:557
+#: ../../docs/tutorials/2d/using_tilesets.rst:555
 msgid "If you wish to apply a single property to several tiles at once, you can use the *property painting* mode for this purpose."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:560
+#: ../../docs/tutorials/2d/using_tilesets.rst:558
 msgid "Configure a property to be painted in the middle column, then click on tiles (or hold down the left mouse button) in the right column to \"paint\" properties onto tiles."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:568
-#: ../../docs/tutorials/2d/using_tilesets.rst:568
+#: ../../docs/tutorials/2d/using_tilesets.rst:562
+#: ../../docs/tutorials/2d/using_tilesets.rst:566
 msgid "Painting tile properties using the TileSet editor"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:570
+#: ../../docs/tutorials/2d/using_tilesets.rst:568
 msgid "Tile property painting is especially useful with properties that are time-consuming to set manually, such as collision shapes:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:577
-#: ../../docs/tutorials/2d/using_tilesets.rst:577
+#: ../../docs/tutorials/2d/using_tilesets.rst:571
+#: ../../docs/tutorials/2d/using_tilesets.rst:575
 msgid "Painting a collision polygon, then left-clicking tiles to apply it"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:582
+#: ../../docs/tutorials/2d/using_tilesets.rst:580
 msgid "Creating alternative tiles"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:584
+#: ../../docs/tutorials/2d/using_tilesets.rst:582
 msgid "Sometimes, you want to use a single tile image (found only once within the atlas), but configured in different ways. For example, you may want to use the same tile image, but rotated, flipped, or modulated with a different color. This can be done using *alternative tiles*."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:591
+#: ../../docs/tutorials/2d/using_tilesets.rst:589
 msgid "Since Godot 4.2, you don't have to create alternative tiles to rotate or flip tiles anymore. You can rotate any tile while placing it in the TileMap editor by using the rotation/flip buttons in the TileMap editor toolbar."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:596
+#: ../../docs/tutorials/2d/using_tilesets.rst:594
 msgid "To create an alternative tile, right-click a base tile in the atlas displayed by the TileSet editor, then choose **Create an Alternative Tile**:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:603
-#: ../../docs/tutorials/2d/using_tilesets.rst:603
+#: ../../docs/tutorials/2d/using_tilesets.rst:597
+#: ../../docs/tutorials/2d/using_tilesets.rst:601
 msgid "Creating an alternative tile by right-clicking a base tile in the TileSet editor"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:605
+#: ../../docs/tutorials/2d/using_tilesets.rst:603
 msgid "If currently in Select mode, the alternative tile will already be selected for editing. If not currently in Select mode, you can still create alternative tiles, but you will need to switch to Select mode and select the alternative tile to edit it."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:610
+#: ../../docs/tutorials/2d/using_tilesets.rst:608
 msgid "If you don't see the alternative tile, pan over to the right of the atlas image, as alternative tiles always appear on the right of base tiles of a given atlas in the TileSet editor:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:618
-#: ../../docs/tutorials/2d/using_tilesets.rst:618
+#: ../../docs/tutorials/2d/using_tilesets.rst:612
+#: ../../docs/tutorials/2d/using_tilesets.rst:616
 msgid "Configuring an alternative tile after clicking it in the TileSet editor"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:620
+#: ../../docs/tutorials/2d/using_tilesets.rst:618
 msgid "After selecting an alternative tile, you can change any properties using the middle column like you would on a base tile. However, the list of exposed properties is different compared to base tiles:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:624
+#: ../../docs/tutorials/2d/using_tilesets.rst:622
 msgid "**Alternative ID:** The unique numerical identifier for this alternative tile. Changing it will break existing TileMaps, so be careful! This ID also controls the sorting in the list of alternative tiles displayed in the editor."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:627
+#: ../../docs/tutorials/2d/using_tilesets.rst:625
 msgid "**Rendering > Flip H:** If ``true``, the tile is horizontally flipped."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:628
+#: ../../docs/tutorials/2d/using_tilesets.rst:626
 msgid "**Rendering > Flip V:** If ``true``, the tile is vertically flipped."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:629
+#: ../../docs/tutorials/2d/using_tilesets.rst:627
 msgid "**Rendering > Transpose:** If ``true``, the tile is rotated 90 degrees *counter-clockwise* and then flipped vertically. In practice, this means that to rotate a tile by 90 degrees clockwise without flipping it, you should enable **Flip H** and **Transpose**. To rotate a tile by 180 degrees clockwise, enable **Flip H** and **Flip V**. To rotate a tile by 270 degrees clockwise, enable **Flip V** and **Transpose**."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:635
+#: ../../docs/tutorials/2d/using_tilesets.rst:633
 msgid "**Rendering > Texture Origin:** The origin to use for drawing the tile. This can be used to visually offset the tile compared to the base tile."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:637
+#: ../../docs/tutorials/2d/using_tilesets.rst:635
 msgid "**Rendering > Modulate:** The color multiplier to use when rendering the tile."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:638
+#: ../../docs/tutorials/2d/using_tilesets.rst:636
 msgid "**Rendering > Material:** The material to use for this tile. This can be used to apply a different blend mode or custom shaders to a single tile."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:640
+#: ../../docs/tutorials/2d/using_tilesets.rst:638
 msgid "**Z Index:** The sorting order for this tile. Higher values will make the tile render in front of others on the same layer."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:642
-msgid "**Y Sort Origin:** The vertical offset to use for tile sorting based on its Y coordinate (in pixels). This allows using layers as if they were on different height for top-down games. Adjusting this can help alleviate issues with sorting certain tiles. Only effective if **Y Sort Enabled** is ``true`` on the TileMap layer the tile is placed on."
+#: ../../docs/tutorials/2d/using_tilesets.rst:640
+msgid "**Y Sort Origin:** The vertical offset to use for tile sorting based on its Y coordinate (in pixels). This allows using layers as if they were on different height for top-down games. Adjusting this can help alleviate issues with sorting certain tiles. Only effective if **Y Sort Enabled** is ``true`` on the TileMapLayer node under **CanvasItem > Ordering**"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:648
+#: ../../docs/tutorials/2d/using_tilesets.rst:646
 msgid "You can create an additional alternative tile variant by clicking the large \"+\" icon next to the alternative tile. This is equivalent to selecting the base tile and right-clicking it to choose **Create an Alternative Tile** again."
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilesets.rst:654
+#: ../../docs/tutorials/2d/using_tilesets.rst:652
 msgid "When creating an alternative tile, none of the properties from the base tile are inherited. You must set properties again on the alternative tile if you wish those to be identical on the base tile and the alternative tile."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -121,8 +121,4 @@ msgstr ""
 
 #: ../../docs/contributing/development/editor/introduction_to_editor_development.rst:85
 msgid "To iterate quickly on the editor, we recommend to set up a test project and :ref:`open it from the command line <doc_command_line_tutorial>` after compiling the editor. This way, you don't have to go through the Project Manager every time you start Godot."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -81,8 +81,4 @@ msgstr ""
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:60
 msgid "CanvasLayers aren't necessary to control the drawing order of nodes. The standard way to ensuring that a node is correctly drawn 'in front' or 'behind' others is to manipulate the order of the nodes in the scene panel. Perhaps counterintuitively, the topmost nodes in the scene panel are drawn on *behind* lower ones in the viewport. 2D nodes also have the :ref:`CanvasItem.z_index <class_CanvasItem_property_z_index>` property for controlling their drawing order."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

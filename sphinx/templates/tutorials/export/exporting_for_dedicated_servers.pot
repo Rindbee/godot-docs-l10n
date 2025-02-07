@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -83,7 +83,7 @@ msgstr ""
 msgid "To begin doing so, make sure you have a dedicated export preset for your server, then select it, go to its **Resources** tab and change its export mode:"
 msgstr ""
 
-#: ../../docs/tutorials/export/exporting_for_dedicated_servers.rst:66
+#: ../../docs/tutorials/export/exporting_for_dedicated_servers.rst:62
 #: ../../docs/tutorials/export/exporting_for_dedicated_servers.rst:66
 msgid "Choosing the **Export as dedicated server** export mode in the export preset"
 msgstr ""
@@ -100,7 +100,7 @@ msgstr ""
 msgid "After selecting this export mode, you will be presented with a list of resources in the project:"
 msgstr ""
 
-#: ../../docs/tutorials/export/exporting_for_dedicated_servers.rst:85
+#: ../../docs/tutorials/export/exporting_for_dedicated_servers.rst:81
 #: ../../docs/tutorials/export/exporting_for_dedicated_servers.rst:85
 msgid "Choosing resources to keep, keep with stripped visuals or remove"
 msgstr ""
@@ -191,8 +191,4 @@ msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_dedicated_servers.rst:286
 msgid "If you have experience with containers, you could also look into wrapping your dedicated server in a `Docker <https://www.docker.com/>`__ container. This way, it can be used more easily in an automatic scaling setup (which is outside the scope of this tutorial)."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,7 +47,7 @@ msgstr ""
 msgid "Click graphic to enlarge."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:38
+#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:37
 msgid "**Item Coordinates**"
 msgstr ""
 
@@ -55,7 +55,7 @@ msgstr ""
 msgid "This is the local coordinate system of a :ref:`CanvasItem <class_CanvasItem>`."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:44
+#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:40
 msgid "**Parent Item Coordinates**"
 msgstr ""
 
@@ -63,7 +63,7 @@ msgstr ""
 msgid "This is the local coordinate system of the parent's *CanvasItem*. When positioning *CanvasItems* in the *Canvas*, they usually inherit the transformations of their parent *CanvasItems*. An exceptions is :ref:`CanvasItems.top_level <class_CanvasItem_property_top_level>`."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:50
+#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:46
 msgid "**Canvas Coordinates**"
 msgstr ""
 
@@ -71,7 +71,7 @@ msgstr ""
 msgid "As mentioned in the previous tutorial :ref:`doc_canvas_layers`, there are two types of canvases (*Viewport* canvas and *CanvasLayer* canvas) and both have a canvas coordinate system. These are also called world coordinates. A *Viewport* can contain multiple *Canvases* with different coordinate systems."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:53
+#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:52
 msgid "**Viewport Coordinates**"
 msgstr ""
 
@@ -79,7 +79,7 @@ msgstr ""
 msgid "This is the coordinate system of the :ref:`Viewport <class_Viewport>`."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:56
+#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:55
 msgid "**Camera Coordinates**"
 msgstr ""
 
@@ -87,7 +87,7 @@ msgstr ""
 msgid "This is only used internally for functionality like 3D-camera ray projections."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:64
+#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:58
 msgid "**Embedder Coordinates / Screen Coordinates**"
 msgstr ""
 
@@ -99,7 +99,7 @@ msgstr ""
 msgid "If the embedder is the OS Window Manager, then they are also called Screen Coordinates."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:72
+#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:66
 msgid "**Absolute Embedder Coordinates / Absolute Screen Coordinates**"
 msgstr ""
 
@@ -119,7 +119,7 @@ msgstr ""
 msgid "Each of the mentioned nodes have one or more transforms associated with them and the combination of these nodes infer the transforms between the different coordinate systems. With a few exceptions, the transforms are :ref:`Transform2D <class_Transform2D>` and the following list shows details and effects of each of them."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:95
+#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:82
 msgid "**CanvasItem transform**"
 msgstr ""
 
@@ -139,7 +139,7 @@ msgstr ""
 msgid "The transform affects the item itself and usually also child-*CanvasItems* and in the case of a *SubViewportContainer* it affects the contained *SubViewport*."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:100
+#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:97
 msgid "**CanvasLayer transform**"
 msgstr ""
 
@@ -147,7 +147,7 @@ msgstr ""
 msgid "The *CanvasLayer's* :ref:`transform <class_CanvasLayer_property_transform>` affects all *CanvasItems* within the *CanvasLayer*. It doesn't affect other *CanvasLayers* or *Windows* in its *Viewport*."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:107
+#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:102
 msgid "**CanvasLayer follow viewport transform**"
 msgstr ""
 
@@ -155,7 +155,7 @@ msgstr ""
 msgid "The *follow viewport transform* is an automatically calculated transform, that is based on the *Viewport's* :ref:`canvas transform <class_Viewport_property_canvas_transform>` and the *CanvasLayer's* :ref:`follow viewport scale <class_CanvasLayer_property_follow_viewport_scale>` and can be used, if :ref:`enabled <class_CanvasLayer_property_follow_viewport_enabled>`, to achieve a pseudo 3D effect. It affects the same child nodes as the *CanvasLayer transform*."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:113
+#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:109
 msgid "**Viewport canvas transform**"
 msgstr ""
 
@@ -163,7 +163,7 @@ msgstr ""
 msgid "The :ref:`canvas transform <class_Viewport_property_canvas_transform>` affects all *CanvasItems* in the *Viewport's* default canvas. It also affects *CanvasLayers*, that have follow viewport transform enabled. The *Viewport's* active :ref:`Camera2D <class_Camera2D>` works by changing this transform. It doesn't affect this *Viewport's* embedded *Windows*."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:118
+#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:115
 msgid "**Viewport global canvas transform**"
 msgstr ""
 
@@ -171,7 +171,7 @@ msgstr ""
 msgid "*Viewports* also have a :ref:`global canvas transform <class_Viewport_property_global_canvas_transform>`. This is the master transform and affects all individual *Canvas Layer* and embedded *Window* transforms. This is primarily used in Godot's CanvasItem Editor."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:129
+#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:120
 msgid "**Viewport stretch transform**"
 msgstr ""
 
@@ -179,7 +179,7 @@ msgstr ""
 msgid "Finally, *Viewports* have a *stretch transform*, which is used when resizing or stretching the viewport. This transform is used for :ref:`Windows <class_Window>` as described in :ref:`doc_multiple_resolutions`, but can also be manually set on *SubViewports* by means of :ref:`size <class_SubViewport_property_size>` and :ref:`size_2d_override <class_SubViewport_property_size_2d_override>`. It's :ref:`translation <class_Transform2D_method_get_origin>`, :ref:`rotation <class_Transform2D_method_get_rotation>` and :ref:`skew <class_Transform2D_method_get_skew>` are the default values and it can only have non-default :ref:`scale <class_Transform2D_method_get_scale>`."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:135
+#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:131
 msgid "**Window transform**"
 msgstr ""
 
@@ -187,7 +187,7 @@ msgstr ""
 msgid "In order to scale and position the *Window's* content as described in :ref:`doc_multiple_resolutions`, each :ref:`Window <class_Window>` contains a *window transform*. It is for example responsible for the black bars at the *Window's* sides so that the *Viewport* is displayed with a fixed aspect ratio."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:139
+#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:137
 msgid "**Window position**"
 msgstr ""
 
@@ -195,14 +195,10 @@ msgstr ""
 msgid "Every *Window* also has a :ref:`position <class_Window_property_position>` to describe its position within its embedder. The embedder can be another *Viewport* or the OS Window Manager."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:146
+#: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:141
 msgid "**SubViewportContainer shrink transform**"
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/2d_coordinate_systems.rst:142
 msgid ":ref:`stretch <class_SubViewportContainer_property_stretch>` together with :ref:`stretch_shrink <class_SubViewportContainer_property_stretch_shrink>` declare for a *SubViewportContainer* if and by what integer factor the contained *SubViewport* should be scaled in comparison to the container's size."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -252,7 +252,7 @@ msgid "Similarly, the top-right corner of the grid, which is always at the UV po
 msgstr ""
 
 #: ../../docs/tutorials/math/matrices_and_transforms.rst:355
-msgid "Hopefully you now fully understand the how a transformation matrix affects the object, and the relationship between the basis vectors and how the object's \"UV\" or \"intra-coordinates\" have their world position changed."
+msgid "Hopefully you now fully understand how a transformation matrix affects the object, and the relationship between the basis vectors and how the object's \"UV\" or \"intra-coordinates\" have their world position changed."
 msgstr ""
 
 #: ../../docs/tutorials/math/matrices_and_transforms.rst:359
@@ -429,8 +429,4 @@ msgstr ""
 
 #: ../../docs/tutorials/math/matrices_and_transforms.rst:642
 msgid "https://eater.net/quaternions"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

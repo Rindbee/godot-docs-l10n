@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -100,165 +100,161 @@ msgid "Make the viewport smaller"
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_parallax.rst:81
-msgid "The simplest answer is to make the viewport the same size or smaller than your textures. Click on ``Project -> Project Settings -> Window`` and change the viewport height and width to match your background."
+msgid "The simplest answer is to make the viewport the same size or smaller than your textures. In **Project Settings > Display > Window**, change the :ref:`Viewport Width<class_ProjectSettings_property_display/window/size/viewport_width>` and :ref:`Viewport Height<class_ProjectSettings_property_display/window/size/viewport_height>` settings to match your background."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:87
+#: ../../docs/tutorials/2d/2d_parallax.rst:90
 msgid "Scale the Parallax2D"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:89
+#: ../../docs/tutorials/2d/2d_parallax.rst:92
 msgid "If you're not aiming for a pixel-perfect style, or don't mind a little blurriness, you may opt to scale the textures larger to fit your screen. Set the :ref:`scale<class_node2d_property_scale>` of the :ref:`Parallax2D<class_parallax2d>`, and all child textures scale with it."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:94
+#: ../../docs/tutorials/2d/2d_parallax.rst:97
 msgid "Scale the child nodes"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:96
+#: ../../docs/tutorials/2d/2d_parallax.rst:99
 msgid "Similar to scaling the :ref:`Parallax2D<class_parallax2d>`, you can scale your :ref:`Sprite2D<class_sprite2d>` nodes to be large enough to cover the screen. Keep in mind that some settings like :ref:`Parallax2D.repeat_size<class_parallax2d_property_repeat_size>` and :ref:`Sprite2D.region_rect<class_sprite2d_property_region_rect>` do not take scaling into account, so it's necessary to adjust these values based on the scale."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:105
+#: ../../docs/tutorials/2d/2d_parallax.rst:108
 msgid "Repeat the textures"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:107
+#: ../../docs/tutorials/2d/2d_parallax.rst:110
 msgid "You can also start off on the right foot by preparing child nodes earlier in the process. If you have a :ref:`Sprite2D<class_sprite2d>` you'd like to repeat, but is too small, you can do the following to repeat it:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:110
+#: ../../docs/tutorials/2d/2d_parallax.rst:113
 msgid "set :ref:`texture_repeat<class_canvasitem_property_texture_repeat>` to :ref:`CanvasItem.TEXTURE_REPEAT_ENABLED<class_canvasitem_constant_TEXTURE_REPEAT_ENABLED>`"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:111
+#: ../../docs/tutorials/2d/2d_parallax.rst:114
 msgid "set :ref:`region_enabled<class_sprite2d_property_region_enabled>` to ``true``"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:112
+#: ../../docs/tutorials/2d/2d_parallax.rst:115
 msgid "set the :ref:`region_rect<class_sprite2d_property_region_rect>` to a multiple of the size of your texture large enough to cover the viewport."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:114
+#: ../../docs/tutorials/2d/2d_parallax.rst:117
 msgid "Below, you can see that repeating the image twice makes it large enough to cover the screen."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:119
+#: ../../docs/tutorials/2d/2d_parallax.rst:122
 msgid "Poor positioning"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:121
+#: ../../docs/tutorials/2d/2d_parallax.rst:124
 msgid "It's common to see users mistakenly set all of their textures to be centered at ``(0,0)``:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:125
+#: ../../docs/tutorials/2d/2d_parallax.rst:128
 msgid "This creates problems with the infinite repeat effect and should be avoided. The \"infinite repeat canvas\" starts at ``(0,0)`` and expands down and to the right to the size of the :ref:`repeat_size<class_parallax2d_property_repeat_size>` value."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:131
+#: ../../docs/tutorials/2d/2d_parallax.rst:134
 msgid "If the textures are centered on the ``(0,0)`` crossing, the infinite repeat canvas is only partly covered, so it only partly repeats."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:135
+#: ../../docs/tutorials/2d/2d_parallax.rst:138
 msgid "Would increasing ``repeat_times`` fix this?"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:137
+#: ../../docs/tutorials/2d/2d_parallax.rst:140
 msgid "Increasing :ref:`repeat_times<class_parallax2d_property_repeat_times>` technically *would* work in some scenarios, but is a brute force solution and not the problem it is designed to solve (we'll go over this in a bit). A better fix is to understand how the repeat effect works and set up the parallax textures appropriately to begin with."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:141
+#: ../../docs/tutorials/2d/2d_parallax.rst:144
 msgid "First, check to see if any textures are spilling over onto the negative parts of the canvas. Make sure the textures used in the parallax nodes fit inside the \"infinite repeat canvas\" starting at ``(0,0)``. That way, if :ref:`Parallax2D.repeat_size<class_parallax2d_property_repeat_size>` is set correctly, it should look something like this, with one single loop of the image the same size or larger than the viewport:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:148
+#: ../../docs/tutorials/2d/2d_parallax.rst:151
 msgid "If you think of how the image scrolls across the screen, it starts by displaying what's inside the red rectangle (determined by :ref:`repeat_size<class_parallax2d_property_repeat_size>`), and when it reaches what's inside the yellow rectangle it zips the image forward to give the illusion of scrolling forever."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:154
+#: ../../docs/tutorials/2d/2d_parallax.rst:157
 msgid "If you have the image positioned away from the \"infinite repeat canvas\", when the camera reaches the yellow rectangle, half of the image is cut off before it jumps forward like in the image below:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:160
+#: ../../docs/tutorials/2d/2d_parallax.rst:163
 msgid "Scroll offset"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:162
+#: ../../docs/tutorials/2d/2d_parallax.rst:165
 msgid "If your parallax textures are already working correctly, but you prefer it to start at a different point, :ref:`Parallax2D<class_parallax2d>` comes with a :ref:`scroll_offset<class_parallax2d_property_scroll_offset>` property used to offset where the infinite repeat canvas starts. As an example, if your image is 288x208, setting the :ref:`scroll_offset<class_parallax2d_property_scroll_offset>` to ``(-144,0)`` or ``(144,0)`` allows it to begin halfway across the image."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:169
+#: ../../docs/tutorials/2d/2d_parallax.rst:172
 msgid "Repeat times"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:171
+#: ../../docs/tutorials/2d/2d_parallax.rst:174
 msgid "Ideally, following this guide, your parallax textures are large enough to cover the screen even when zoomed out. Until now, we have had a perfectly fitting 288x208 texture inside of a 288x208 viewport. However, problems occur when we zoom out by setting the :ref:`Camera2D.zoom<class_camera2d_property_zoom>` to ``(0.5, 0.5)``:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:177
+#: ../../docs/tutorials/2d/2d_parallax.rst:180
 msgid "Even though everything is correctly set for the viewport at the default zoom level, zooming out makes it smaller than the viewport, breaking the infinite repeat effect. This is where :ref:`repeat_times<class_parallax2d_property_repeat_times>` can help out. Setting a value of ``3`` (one extra repeat behind and in front), it is now large enough to accommodate the infinite repeat effect."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:184
+#: ../../docs/tutorials/2d/2d_parallax.rst:187
 msgid "If these textures were meant to be repeated vertically, we would have specified a ``y`` value for the :ref:`repeat_size<class_parallax2d_property_repeat_size>`. The :ref:`repeat_times<class_parallax2d_property_repeat_times>` would automatically add a repeat above and below as well. This is only a horizontal parallax, so it leaves an empty block above and below the image. How do we solve this? We need to get creative! In this example, we stretch the sky higher, and grass sprite lower. The textures now support the normal zoom level and zooming out to half size."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:194
+#: ../../docs/tutorials/2d/2d_parallax.rst:197
 msgid "Split screen"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:196
+#: ../../docs/tutorials/2d/2d_parallax.rst:199
 msgid "Most tutorials for making a split screen game in Godot begin by writing a small script to assign the :ref:`Viewport.world_2d<class_viewport_property_world_2d>` of the first SubViewport to the second, so they have a shared display. Questions often pop up about how to share a parallax effect between both screens."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:200
+#: ../../docs/tutorials/2d/2d_parallax.rst:203
 msgid "The parallax effect fakes a perspective by moving the positions of different textures in relation to the camera. This is understandably problematic if you have multiple cameras, because your textures can't be in two places at once!"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:203
-msgid "This is still achievable by cloning the parallax nodes into the second (or third or fourth) :ref:`SubViewport<class_subviewport>`. Here's how it looks for a two player game:"
+#: ../../docs/tutorials/2d/2d_parallax.rst:206
+msgid "This is still achievable by cloning the parallax nodes into the second (or third or fourth) :ref:`SubViewport<class_subviewport>`. Here's how a setup looks for a two player game:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:208
-msgid "Of course, now both backgrounds show in both SubViewports. What we want is for some nodes to be visible in one viewport but not another. While technically possible, this is not a feature officially supported by Godot at the moment. There is currently a proposal to make this much simpler, so please stay tuned."
-msgstr ""
-
-#: ../../docs/tutorials/2d/2d_parallax.rst:212
-msgid "As a workaround, you can do the following:"
+#: ../../docs/tutorials/2d/2d_parallax.rst:211
+msgid "Of course, now both backgrounds show in both SubViewports. What we want is for each parallax to only show in their corresponding viewport. We can achieve this by doing the following:"
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_parallax.rst:214
-msgid "Set the first SubViewport's :ref:`canvas_cull_mask<class_viewport_property_canvas_cull_mask>` to only layer 1, so it displays all nodes with a :ref:`visibility_layer<class_canvasitem_property_visibility_layer>` of layer 1."
+msgid "Leave all parallax nodes at their default :ref:`visibility_layer<class_canvasitem_property_visibility_layer>` of 1."
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_parallax.rst:215
-msgid "Set the second SubViewport's :ref:`canvas_cull_mask<class_viewport_property_canvas_cull_mask>` to only layer 2, so it displays all nodes with a :ref:`visibility_layer<class_canvasitem_property_visibility_layer>` of layer 2."
+msgid "Set the first SubViewport's :ref:`canvas_cull_mask<class_viewport_property_canvas_cull_mask>` to only layers 1 and 2."
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_parallax.rst:216
-msgid "Set the :ref:`visibility_layer<class_canvasitem_property_visibility_layer>` of every node you want to display in both viewports to both layers 1 and 2."
+msgid "Do the same for the second SubViewport but use layers 1 and 3."
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_parallax.rst:217
-msgid "Set the :ref:`visibility_layer<class_canvasitem_property_visibility_layer>` of the :ref:`Parallax2D<class_parallax2d>` node and all its descendants in the first :ref:`SubViewport<class_subviewport>` to layer 1."
+msgid "Give your parallax nodes in the first SubViewport a common parent and set its :ref:`visibility_layer<class_canvasitem_property_visibility_layer>` to 2."
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_parallax.rst:218
-msgid "Set the :ref:`visibility_layer<class_canvasitem_property_visibility_layer>` of the :ref:`Parallax2D<class_parallax2d>` node and all its descendants in the second :ref:`SubViewport<class_subviewport>` to layer 2."
+msgid "Do the same for the second SubViewport's parallax nodes, but use a layer of 3."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:221
+#: ../../docs/tutorials/2d/2d_parallax.rst:220
+msgid "How does this work? If a canvas item has a :ref:`visibility_layer<class_canvasitem_property_visibility_layer>` that doesn't match the SubViewport's :ref:`canvas_cull_mask<class_viewport_property_canvas_cull_mask>`, it will hide all children, even if they do. We use this to our advantage, letting the SubViewports cut off rendering of parallax nodes whose parent doesn't have a supported :ref:`visibility_layer<class_canvasitem_property_visibility_layer>`."
+msgstr ""
+
+#: ../../docs/tutorials/2d/2d_parallax.rst:226
 msgid "Previewing in the editor"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:223
+#: ../../docs/tutorials/2d/2d_parallax.rst:228
 msgid "Prior to 4.3, the recommendation was to place every layer in their own :ref:`ParallaxBackground<class_parallaxbackground>`, enable the :ref:`follow_viewport_enabled<class_canvaslayer_property_follow_viewport_enabled>` property, and scale the individual layer. This method has always been tricky to get right, but is still achievable by using a :ref:`CanvasLayer<class_canvaslayer>` instead of a :ref:`ParallaxBackground<class_parallaxbackground>`."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_parallax.rst:230
+#: ../../docs/tutorials/2d/2d_parallax.rst:235
 msgid "Another recommendation is `KoBeWi's \"Parallax2D Preview\" addon <https://github.com/KoBeWi/Godot-Parallax2D-Preview>`_. It provides a few different preview modes and is very handy!"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

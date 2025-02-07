@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,8 +29,4 @@ msgstr ""
 
 #: ../../docs/tutorials/shaders/your_first_shader/index.rst:15
 msgid "For a more general introduction into shaders and the OpenGL Shading Language, use `The Book of Shaders <https://thebookofshaders.com>`_."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

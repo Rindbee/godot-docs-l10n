@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -412,7 +412,7 @@ msgstr ""
 msgid "The developers chose some specific words to refer to areas of the interface. They're used in the sources, in the documentation, and you should always use them instead of synonyms, so the users know what you're talking about."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:467
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:464
 #: ../../docs/contributing/documentation/docs_writing_guidelines.rst:467
 msgid "Overview of the interface and common vocabulary"
 msgstr ""
@@ -459,8 +459,4 @@ msgstr ""
 
 #: ../../docs/contributing/documentation/docs_writing_guidelines.rst:508
 msgid "Press ``:kbd:`Shift + Up Arrow``` to move the node upwards by 8 pixels."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

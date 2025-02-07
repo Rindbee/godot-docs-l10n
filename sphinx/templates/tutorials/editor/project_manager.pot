@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,113 +20,149 @@ msgid "Using the Project Manager"
 msgstr ""
 
 #: ../../docs/tutorials/editor/project_manager.rst:6
-msgid "When you launch Godot, the first window you see is the Project Manager. It lets you create, remove, import, or play game projects."
+msgid "When you launch Godot, the first window you see is the Project Manager. It lets you create, remove, import, or play game projects:"
 msgstr ""
 
 #: ../../docs/tutorials/editor/project_manager.rst:11
-msgid "To change the editors language click on the \"Settings\" Button in the top right corner."
+msgid "To change the editors language click on the **Settings** Button in the top right corner:"
 msgstr ""
 
 #: ../../docs/tutorials/editor/project_manager.rst:16
-msgid "Then on the settings page select the language you want from the dropdown menu."
+msgid "In Project Manager Settings, you can change the interface **language** from the language dropdown menu, which is the system default language by default."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:19
+msgid "You can also change the **theme** of the editor, the **display scale** for different interface element sizes, and the availability of online functionality using **network mode**. If network mode is online, Godot will also check and inform you about new versions of Godot."
 msgstr ""
 
 #: ../../docs/tutorials/editor/project_manager.rst:23
+msgid "The **directory naming convention** can also be changed to replace spaces according to the chosen format when creating folders automatically."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:31
 msgid "Creating and importing projects"
 msgstr ""
 
-#: ../../docs/tutorials/editor/project_manager.rst:25
+#: ../../docs/tutorials/editor/project_manager.rst:33
 msgid "To create a new project:"
 msgstr ""
 
-#: ../../docs/tutorials/editor/project_manager.rst:27
-msgid "Click the **New** button on the top-left of the window."
-msgstr ""
-
-#: ../../docs/tutorials/editor/project_manager.rst:28
-msgid "Give the project a name, choose an empty folder on your computer to save the files, and select a rendering backend."
-msgstr ""
-
-#: ../../docs/tutorials/editor/project_manager.rst:30
-msgid "Click the **Create & Edit** button to create the project folder and open it in the editor."
-msgstr ""
-
 #: ../../docs/tutorials/editor/project_manager.rst:35
-msgid "Using the file browser"
+msgid "Click the **Create** button on the top-left of the window."
 msgstr ""
 
-#: ../../docs/tutorials/editor/project_manager.rst:37
-msgid "Click the **Browse** button to open Godot's file browser and pick a location or type the folder's path in the Project Path field."
+#: ../../docs/tutorials/editor/project_manager.rst:36
+msgid "Give the project a name, then open the file browser using the **Browse** button, and choose an empty folder on your computer to save the files. Alternatively, you can enable **Create Folder** option to automatically create a new sub-folder with the project name, following the directory naming convention set in the settings. An empty folder will show a green tick on the right."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:41
+msgid "Select one of the rendering backends (this can also be changed later)."
 msgstr ""
 
 #: ../../docs/tutorials/editor/project_manager.rst:42
-msgid "When you see the green tick on the right, it means the engine detects an empty folder. You can also click the **Create Folder** button to create an empty folder based on your project's name."
+msgid "Click the **Create & Edit** button to create the project folder and open it in the editor."
 msgstr ""
 
-#: ../../docs/tutorials/editor/project_manager.rst:47
+#: ../../docs/tutorials/editor/project_manager.rst:46
+msgid "You can optionally choose a version control system. Currently, only `git <https://git-scm.com>`__ is supported and it needs the Godot Git Plugin to be installed, either manually or using the :ref:`Asset Library <doc_using_assetlib>`. To learn more about the Godot Git Plugin, see its `wiki <https://github.com/godotengine/godot-git-plugin/wiki>`__."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:51
+msgid "Using the file browser"
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:53
+msgid "From the **Create New Project** window, click the **Browse** button to open Godot's file browser. You can pick a location or type the folder's path in the **Path** field, after choosing a drive."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:57
+msgid "Left of the path field on the top row contains arrows to navigate backward and forward through the last visited locations. The up arrow navigates to parent folder. On the right side of the path field, there are buttons to refresh the current folder's contents, favorite/unfavorite the current folder, and show/hide hidden folders."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:63
+msgid "Next, the buttons to switch the display type of the folders and files between grid view and list view are seen."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:66
+msgid "The last button on the right will create a new folder."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:68
+msgid "Favorited folders will be displayed on the left side under the **Favorites** section. You can sort the favorites using the up and down buttons in this section. Last chosen folders will be listed under the **Recent** list."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:75
 msgid "Opening and importing projects"
 msgstr ""
 
-#: ../../docs/tutorials/editor/project_manager.rst:49
+#: ../../docs/tutorials/editor/project_manager.rst:77
 msgid "The next time you open the Project Manager, you'll see your new project in the list. Double click on it to open it in the editor."
 msgstr ""
 
-#: ../../docs/tutorials/editor/project_manager.rst:54
+#: ../../docs/tutorials/editor/project_manager.rst:82
 msgid "You can similarly import existing projects using the **Import** button. Locate the folder that contains the project or the **project.godot** file to import and edit it."
 msgstr ""
 
-#: ../../docs/tutorials/editor/project_manager.rst:60
-msgid "When the folder path is correct, you'll see a green checkmark."
-msgstr ""
-
-#: ../../docs/tutorials/editor/project_manager.rst:65
-msgid "Downloading demos and templates"
-msgstr ""
-
-#: ../../docs/tutorials/editor/project_manager.rst:67
-msgid "From the **Asset Library Projects** tab you can download open source project templates and demos from the :ref:`Asset Library <doc_what_is_assetlib>` to help you get started faster."
-msgstr ""
-
-#: ../../docs/tutorials/editor/project_manager.rst:71
-msgid "The first time you open this tab you'll notice that it's asking you to go online. For privacy reasons the project manager, and Godot editor, can't access the internet by default. To enable accessing the internet click the \"Go Online\" button. This will also allow project manager to notify you about updates. If you wish to turn this off in the future go into project manager settings and change \"Network Mode\" to \"Offline\""
-msgstr ""
-
-#: ../../docs/tutorials/editor/project_manager.rst:77
-msgid "Now that Godot is connected to the internet you can download a demo or template, to do this:"
-msgstr ""
-
-#: ../../docs/tutorials/editor/project_manager.rst:80
-msgid "Click on its title."
-msgstr ""
-
-#: ../../docs/tutorials/editor/project_manager.rst:81
-msgid "On the page that opens, click the download button."
-msgstr ""
-
-#: ../../docs/tutorials/editor/project_manager.rst:82
-msgid "Once it finished downloading, click install and choose where you want to save the project."
-msgstr ""
-
 #: ../../docs/tutorials/editor/project_manager.rst:88
-msgid "Managing projects with tags"
+msgid "Alternatively, it is possible to choose a zip file to be automatically extracted by Godot."
 msgstr ""
 
 #: ../../docs/tutorials/editor/project_manager.rst:90
-msgid "For users with a lot of projects on one PC it can be a lot to keep track of. To aid in this Godot allows you to create project tags. To add a tag to a project click on the project in the project manager, then click on the \"Manage Tags\" button"
+msgid "When the folder path is correct, you'll see a green checkmark."
 msgstr ""
 
-#: ../../docs/tutorials/editor/project_manager.rst:96
+#: ../../docs/tutorials/editor/project_manager.rst:97
+msgid "Downloading demos and templates"
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:99
+msgid "From the **Asset Library** tab you can download open source project templates and demos from the :ref:`Asset Library <toc-learn-features-assetlib>` to help you get started faster."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:103
+msgid "The first time you open this tab you'll notice that it's asking you to go online. For privacy reasons the project manager, and Godot editor, can't access the internet by default. To enable accessing the internet click the **Go Online** button. This will also allow project manager to notify you about updates. If you wish to turn this off in the future go into project manager settings and change **Network Mode** to \"Offline\""
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:109
+msgid "Now that Godot is connected to the internet you can download a demo or template, to do this:"
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:112
+msgid "Click on its title."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:113
+msgid "On the page that opens, click the download button."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:114
+msgid "Once it finished downloading, click install and choose where you want to save the project."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:120
+msgid "Managing projects with tags"
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:122
+msgid "For users with a lot of projects on one PC it can be a lot to keep track of. To aid in this Godot allows you to create project tags. To add a tag to a project click on the project in the project manager, then click on the **Manage Tags** button"
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:128
 msgid "This will open up the manage project tags window. To add a tag click the plus button."
 msgstr ""
 
-#: ../../docs/tutorials/editor/project_manager.rst:100
-msgid "Type out the tag name, and click \"ok\". Your project will now have a tag added to it. These tags can be used for any other project in your project manager. In addition tags will stay with projects. So if you tag your project, send it to another machine and import it into the project manager you will see the tags you created."
+#: ../../docs/tutorials/editor/project_manager.rst:132
+msgid "Type out the tag name, and click **OK**. Your project will now have a tag added to it. These tags can be used for any other project in your project manager."
 msgstr ""
 
-#: ../../docs/tutorials/editor/project_manager.rst:105
+#: ../../docs/tutorials/editor/project_manager.rst:135
+msgid "To show projects with a specific tag only, you can click on the tags or write ``tag:`` and type the tag you would like to search for in the filter bar. To limit the results using multiple tags, you can click on another tag or add ``tag:`` after a space and type another tag in the filter bar."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:140
+msgid "In addition, tags will stay with projects. So if you tag your project, send it to another machine, and import it into the project manager you will see the tags you created."
+msgstr ""
+
+#: ../../docs/tutorials/editor/project_manager.rst:144
 msgid "To remove a tag from your project manager it must be removed from all the projects it's used by. Once that's done close the project manager, open it up again, and the tag should be gone."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

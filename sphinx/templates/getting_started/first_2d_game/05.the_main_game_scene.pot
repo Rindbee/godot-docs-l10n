@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -143,38 +143,34 @@ msgstr ""
 msgid "Note that a new instance must be added to the scene using ``add_child()``."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/05.the_main_game_scene.rst:256
+#: ../../docs/getting_started/first_2d_game/05.the_main_game_scene.rst:252
 msgid "Why ``PI``? In functions requiring angles, Godot uses *radians*, not degrees. Pi represents a half turn in radians, about ``3.1415`` (there is also ``TAU`` which is equal to ``2 * PI``). If you're more comfortable working with degrees, you'll need to use the ``deg_to_rad()`` and ``rad_to_deg()`` functions to convert between the two."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/05.the_main_game_scene.rst:264
+#: ../../docs/getting_started/first_2d_game/05.the_main_game_scene.rst:260
 msgid "Testing the scene"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/05.the_main_game_scene.rst:266
+#: ../../docs/getting_started/first_2d_game/05.the_main_game_scene.rst:262
 msgid "Let's test the scene to make sure everything is working. Add this ``new_game`` call to ``_ready()``:"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/05.the_main_game_scene.rst:282
+#: ../../docs/getting_started/first_2d_game/05.the_main_game_scene.rst:278
 msgid "Let's also assign ``Main`` as our \"Main Scene\" - the one that runs automatically when the game launches. Press the \"Play\" button and select ``main.tscn`` when prompted."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/05.the_main_game_scene.rst:286
+#: ../../docs/getting_started/first_2d_game/05.the_main_game_scene.rst:282
 msgid "If you had already set another scene as the \"Main Scene\", you can right click ``main.tscn`` in the FileSystem dock and select \"Set As Main Scene\"."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/05.the_main_game_scene.rst:289
+#: ../../docs/getting_started/first_2d_game/05.the_main_game_scene.rst:285
 msgid "You should be able to move the player around, see mobs spawning, and see the player disappear when hit by a mob."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/05.the_main_game_scene.rst:292
+#: ../../docs/getting_started/first_2d_game/05.the_main_game_scene.rst:288
 msgid "When you're sure everything is working, remove the call to ``new_game()`` from ``_ready()`` and replace it with ``pass``."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/05.the_main_game_scene.rst:295
+#: ../../docs/getting_started/first_2d_game/05.the_main_game_scene.rst:291
 msgid "What's our game lacking? Some user interface. In the next lesson, we'll add a title screen and display the player's score."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

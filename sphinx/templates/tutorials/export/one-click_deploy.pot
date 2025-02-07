@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -76,7 +76,7 @@ msgstr ""
 msgid "Using one-click deploy"
 msgstr ""
 
-#: ../../docs/tutorials/export/one-click_deploy.rst:69
+#: ../../docs/tutorials/export/one-click_deploy.rst:64
 msgid "**Android:**"
 msgstr ""
 
@@ -92,7 +92,7 @@ msgstr ""
 msgid "For advanced users, it should also be possible to use wireless ADB."
 msgstr ""
 
-#: ../../docs/tutorials/export/one-click_deploy.rst:85
+#: ../../docs/tutorials/export/one-click_deploy.rst:71
 msgid "**iOS:**"
 msgstr ""
 
@@ -104,7 +104,7 @@ msgstr ""
 msgid "If you are using Xcode 14 or earlier, install `ios-deploy <https://github.com/ios-control/ios-deploy>`__ and set path to `ios-deploy` in the Editor Settings (see `Export ⇾ iOS ⇾ iOS Deploy`)."
 msgstr ""
 
-#: ../../docs/tutorials/export/one-click_deploy.rst:81
+#: ../../docs/tutorials/export/one-click_deploy.rst:76
 msgid "For running on device:"
 msgstr ""
 
@@ -136,7 +136,7 @@ msgstr ""
 msgid "Device screen should be unlocked."
 msgstr ""
 
-#: ../../docs/tutorials/export/one-click_deploy.rst:89
+#: ../../docs/tutorials/export/one-click_deploy.rst:87
 msgid "**Desktop platforms:**"
 msgstr ""
 
@@ -206,8 +206,4 @@ msgstr ""
 
 #: ../../docs/tutorials/export/one-click_deploy.rst:158
 msgid "If you have an SSL/TLS certificate that is trusted by browsers, you can specify the paths to the key and certificate files in the **Export > Web > TLS Key** and **Export > Web > TLS Certificate**. This will only work if the project is accessed through a domain name that is part of the TLS certificate."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

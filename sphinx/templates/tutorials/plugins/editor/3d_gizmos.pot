@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -93,8 +93,4 @@ msgstr ""
 
 #: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:237
 msgid "Note that we just added some handles in the `_redraw` method, but we still need to implement the rest of handle-related callbacks in :ref:`EditorNode3DGizmo<class_EditorNode3DGizmo>` to get properly working handles."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

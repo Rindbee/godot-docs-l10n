@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -40,7 +40,6 @@ msgid "|image0|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:334
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:334
 msgid "image0"
 msgstr ""
 
@@ -53,7 +52,6 @@ msgid "|image1|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:335
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:335
 msgid "image1"
 msgstr ""
 
@@ -65,7 +63,6 @@ msgstr ""
 msgid "|image2|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:336
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:336
 msgid "image2"
 msgstr ""
@@ -86,7 +83,6 @@ msgstr ""
 msgid "|image4|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:337
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:337
 msgid "image4"
 msgstr ""
@@ -124,7 +120,6 @@ msgid "|image5|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:338
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:338
 msgid "image5"
 msgstr ""
 
@@ -136,7 +131,6 @@ msgstr ""
 msgid "|image6|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:339
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:339
 msgid "image6"
 msgstr ""
@@ -157,7 +151,6 @@ msgstr ""
 msgid "|image7|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:340
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:340
 msgid "image7"
 msgstr ""
@@ -203,7 +196,6 @@ msgid "|image8|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:341
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:341
 msgid "image8"
 msgstr ""
 
@@ -216,7 +208,6 @@ msgid "|image9|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:342
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:342
 msgid "image9"
 msgstr ""
 
@@ -228,7 +219,6 @@ msgstr ""
 msgid "|image10|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:343
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:343
 msgid "image10"
 msgstr ""
@@ -243,8 +233,4 @@ msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:255
 msgid "Here is the complete ``mob.gd`` script for reference."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

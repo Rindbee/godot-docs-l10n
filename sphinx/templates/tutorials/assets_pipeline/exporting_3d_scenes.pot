@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -57,8 +57,4 @@ msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/exporting_3d_scenes.rst:34
 msgid "3D scenes can be saved at runtime using :ref:`runtime file loading and saving <doc_runtime_file_loading_and_saving_3d_scenes>`, including from an exported project."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

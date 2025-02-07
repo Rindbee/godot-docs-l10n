@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -161,8 +161,4 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/procedural_geometry/index.rst:144
 msgid "The MeshDataTool is not fast, but it gives you access to all kinds of properties of the mesh that you don't get with the others (edges, faces, etc.). It is incredibly useful when you need that sort of data to transform the mesh, but it is not a good idea to use it if that extra information is not needed. The MeshDataTool is best used if you are going to be using an algorithm that requires access to the face or edge array."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

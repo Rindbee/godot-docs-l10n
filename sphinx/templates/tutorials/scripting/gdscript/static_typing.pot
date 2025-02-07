@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -63,7 +63,7 @@ msgstr ""
 msgid "You've probably encountered a lack of autocomplete suggestions after a dot:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:None
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:46
 msgid "Completion options for dynamic typed code."
 msgstr ""
 
@@ -71,7 +71,7 @@ msgstr ""
 msgid "This is due to dynamic code. Godot cannot know what value type you're passing to the function. If you write the type explicitly however, you will get all methods, properties, constants, etc. from the value:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:None
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:53
 msgid "Completion options for static typed code."
 msgstr ""
 
@@ -204,62 +204,62 @@ msgid "To define the type of an ``Array``, enclose the type name in ``[]``."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/static_typing.rst:198
-msgid "An array's type applies to ``for`` loop variables, as well as some operators like ``[]``, ``[]=``, and ``+``. Array methods (such as ``push_back``) and other operators (such as ``==``) are still untyped. Built-in types, native and custom classes, and enums may be used as element types. Nested array types are not supported."
+msgid "An array's type applies to ``for`` loop variables, as well as some operators like ``[]``, ``[]=``, and ``+``. Array methods (such as ``push_back``) and other operators (such as ``==``) are still untyped. Built-in types, native and custom classes, and enums may be used as element types. Nested array types (like ``Array[Array[int]]``) are not supported."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:218
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:221
 msgid "Since Godot 4.2, you can also specify a type for the loop variable in a ``for`` loop. For instance, you can write::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:225
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:228
 msgid "The array will remain untyped, but the ``name`` variable within the ``for`` loop will always be of ``String`` type."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:229
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:232
 msgid "Type casting"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:231
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:234
 msgid "Type casting is an important concept in typed languages. Casting is the conversion of a value from one type to another."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:234
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:237
 msgid "Imagine an ``Enemy`` in your game, that ``extends Area2D``. You want it to collide with the ``Player``, a ``CharacterBody2D`` with a script called ``PlayerController`` attached to it. You use the ``body_entered`` signal to detect the collision. With typed code, the body you detect is going to be a generic ``PhysicsBody2D``, and not your ``PlayerController`` on the ``_on_body_entered`` callback."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:240
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:243
 msgid "You can check if this ``PhysicsBody2D`` is your ``Player`` with the ``as`` keyword, and using the colon ``:`` again to force the variable to use this type. This forces the variable to stick to the ``PlayerController`` type::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:251
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:254
 msgid "As we're dealing with a custom type, if the ``body`` doesn't extend ``PlayerController``, the ``player`` variable will be set to ``null``. We can use this to check if the body is the player or not. We will also get full autocompletion on the player variable thanks to that cast."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:258
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:261
 msgid "The ``as`` keyword silently casts the variable to ``null`` in case of a type mismatch at runtime, without an error/warning. While this may be convenient in some cases, it can also lead to bugs. Use the ``as`` keyword only if this behavior is intended. A safer alternative is to use the ``is`` keyword::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:272
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:275
 msgid "or ``assert()`` statement::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:284
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:287
 msgid "If you try to cast with a built-in type and it fails, Godot will throw an error."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:289
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:292
 msgid "Safe lines"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:291
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:294
 msgid "You can also use casting to ensure safe lines. Safe lines are a tool to tell you when ambiguous lines of code are type-safe. As you can mix and match typed and dynamic code, at times, Godot doesn't have enough information to know if an instruction will trigger an error or not at runtime."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:296
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:299
 msgid "This happens when you get a child node. Let's take a timer for example: with dynamic code, you can get the node with ``$Timer``. GDScript supports `duck-typing <https://stackoverflow.com/a/4205163/8125343>`__, so even if your timer is of type ``Timer``, it is also a ``Node`` and an ``Object``, two classes it extends. With dynamic GDScript, you also don't care about the node's type as long as it has the methods you need to call."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:303
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:306
 msgid "You can use casting to tell Godot the type you expect when you get a node: ``($Timer as Timer)``, ``($Player as CharacterBody2D)``, etc. Godot will ensure the type works and if so, the line number will turn green at the left of the script editor."
 msgstr ""
 
@@ -267,134 +267,130 @@ msgstr ""
 msgid "Unsafe vs Safe Line"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:311
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:314
 msgid "Unsafe line (line 7) vs Safe Lines (line 6 and 8)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:315
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:318
 msgid "Safe lines do not always mean better or more reliable code. See the note above about the ``as`` keyword. For example::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:321
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:324
 msgid "Even though ``node_2`` declaration is marked as an unsafe line, it is more reliable than ``node_1`` declaration. Because if you change the node type in the scene and accidentally forget to change it in the script, the error will be detected immediately when the scene is loaded. Unlike ``node_1``, which will be silently cast to ``null`` and the error will be detected later."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:329
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:332
 msgid "You can turn off safe lines or change their color in the editor settings."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:332
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:335
 msgid "Typed or dynamic: stick to one style"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:334
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:337
 msgid "Typed GDScript and dynamic GDScript can coexist in the same project. But it's recommended to stick to either style for consistency in your codebase, and for your peers. It's easier for everyone to work together if you follow the same guidelines, and faster to read and understand other people's code."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:339
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:342
 msgid "Typed code takes a little more writing, but you get the benefits we discussed above. Here's an example of the same, empty script, in a dynamic style::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:352
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:355
 msgid "And with static typing::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:364
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:367
 msgid "As you can see, you can also use types with the engine's virtual methods. Signal callbacks, like any methods, can also use types. Here's a ``body_entered`` signal in a dynamic style::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:371
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:374
 msgid "And the same callback, with type hints::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:377
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:380
 msgid "Warning system"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:381
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:384
 msgid "Detailed documentation about the GDScript warning system has been moved to :ref:`doc_gdscript_warning_system`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:384
-msgid "From version 3.1, Godot gives you warnings about your code as you write it: the engine identifies sections of your code that may lead to issues at runtime, but lets you decide whether or not you want to leave the code as it is."
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:387
+msgid "Godot gives you warnings about your code as you write it. The engine identifies sections of your code that may lead to issues at runtime, but lets you decide whether or not you want to leave the code as it is."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:388
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:391
 msgid "We have a number of warnings aimed specifically at users of typed GDScript. By default, these warnings are disabled, you can enable them in Project Settings (**Debug > GDScript**, make sure **Advanced Settings** is enabled)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:392
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:395
 msgid "You can enable the ``UNTYPED_DECLARATION`` warning if you want to always use static types. Additionally, you can enable the ``INFERRED_DECLARATION`` warning if you prefer a more readable and reliable, but more verbose syntax."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:396
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:399
 msgid "``UNSAFE_*`` warnings make unsafe operations more noticeable, than unsafe lines. Currently, ``UNSAFE_*`` warnings do not cover all cases that unsafe lines cover."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:400
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:403
 msgid "Common unsafe operations and their safe counterparts"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:403
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:406
 msgid "``UNSAFE_PROPERTY_ACCESS`` and ``UNSAFE_METHOD_ACCESS`` warnings"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:405
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:408
 msgid "In this example, we aim to set a property and call a method on an object that has a script attached with ``class_name MyScript`` and that ``extends Node2D``. If we have a reference to the object as a ``Node2D`` (for instance, as it was passed to us by the physics system), we can first check if the property and method exist and then set and call them if they do::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:417
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:420
 msgid "However, this code will produce ``UNSAFE_PROPERTY_ACCESS`` and ``UNSAFE_METHOD_ACCESS`` warnings as the property and method are not present in the referenced type - in this case a ``Node2D``. To make these operations safe, you can first check if the object is of type ``MyScript`` using the ``is`` keyword and then declare a variable with the type ``MyScript`` on which you can set its properties and call its methods::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:429
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:432
 msgid "Alternatively, you can declare a variable and use the ``as`` operator to try to cast the object. You'll then want to check whether the cast was successful by confirming that the variable was assigned::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:439
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:442
 msgid "``UNSAFE_CAST`` warning"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:441
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:444
 msgid "In this example, we would like the label connected to an object entering our collision area to show the area's name. Once the object enters the collision area, the physics system sends a signal with a ``Node2D`` object, and the most straightforward (but not statically typed) solution to do what we want could be achieved like this::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:450
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:453
 msgid "This piece of code produces an ``UNSAFE_PROPERTY_ACCESS`` warning because ``label`` is not defined in ``Node2D``. To solve this, we could first check if the ``label`` property exist and cast it to type ``Label`` before settings its text property like so::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:459
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:462
 msgid "However, this produces an ``UNSAFE_CAST`` warning because ``body.label`` is of a ``Variant`` type. To safely get the property in the type you want, you can use the ``Object.get()`` method which returns the object as a ``Variant`` value or returns ``null`` if the property doesn't exist. You can then determine whether the property contains an object of the right type using the ``is`` keyword, and finally declare a statically typed variable with the object::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:473
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:476
 msgid "Cases where you can't specify types"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:475
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:478
 msgid "To wrap up this introduction, let's mention cases where you can't use type hints. This will trigger a **syntax error**."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:478
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:481
 msgid "You can't specify the type of individual elements in an array or a dictionary::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:487
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:490
 msgid "Nested types are not currently supported::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:491
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:494
 msgid "Typed dictionaries are not currently supported::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:496
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:499
 msgid "Summary"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:498
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:501
 msgid "Typed GDScript is a powerful tool. It helps you write more structured code, avoid common errors, and create scalable and reliable systems. Static types improve GDScript performance and more optimizations are planned for the future."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

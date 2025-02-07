@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,7 +24,7 @@ msgid "In 2023, `we added <https://godotengine.org/article/android_godot_editor_
 msgstr ""
 
 #: ../../docs/tutorials/editor/using_the_android_editor.rst:12
-msgid "The Android editor is in beta testing stage, while we continue to refine the experience, and bring it up to parity with the Desktop version of the editor. See :ref:`doc_using_the_android_editor_limitations` below."
+msgid "The Android editor is in early access, while we continue to refine the experience, and bring it up to parity with the Desktop version of the editor. See :ref:`doc_using_the_android_editor_limitations` below."
 msgstr ""
 
 #: ../../docs/tutorials/editor/using_the_android_editor.rst:16
@@ -84,25 +84,17 @@ msgid "No support for building and exporting binaries for other platforms"
 msgstr ""
 
 #: ../../docs/tutorials/editor/using_the_android_editor.rst:44
-msgid "Performance and stability issues when using the *Vulkan Mobile* renderer for a project"
-msgstr ""
-
-#: ../../docs/tutorials/editor/using_the_android_editor.rst:45
 msgid "UX not optimized for Android phones form-factor"
 msgstr ""
 
-#: ../../docs/tutorials/editor/using_the_android_editor.rst:46
+#: ../../docs/tutorials/editor/using_the_android_editor.rst:45
 msgid "`Android Go devices <https://developer.android.com/guide/topics/androidgo>`__ lacks the *All files access* permission required for device read/write access. As a workaround, when using an Android Go device, it's recommended to create new projects only in the Android *Documents* or *Downloads* directories."
 msgstr ""
 
-#: ../../docs/tutorials/editor/using_the_android_editor.rst:49
+#: ../../docs/tutorials/editor/using_the_android_editor.rst:48
 msgid "The editor doesn't properly resume when *Don't keep activities* is enabled in the *Developer Options*"
 msgstr ""
 
-#: ../../docs/tutorials/editor/using_the_android_editor.rst:53
+#: ../../docs/tutorials/editor/using_the_android_editor.rst:52
 msgid "See the `list of open issues on GitHub related to the Android editor <https://github.com/godotengine/godot/issues?q=is%3Aopen+is%3Aissue+label%3Aplatform%3Aandroid+label%3Atopic%3Aeditor>`__ for a list of known bugs."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -37,8 +37,4 @@ msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_different_actor_locomotion.rst:43
 msgid "While a path query can be execute immediately for multiple maps, the avoidance agent map switch will only take effect after the next server synchronization."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

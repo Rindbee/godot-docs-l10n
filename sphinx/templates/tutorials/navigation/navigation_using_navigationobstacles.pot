@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -43,7 +43,7 @@ msgstr ""
 msgid "Obstacles and navigation mesh"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:26
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:22
 msgid "Navigation obstacles affecting navigation mesh baking"
 msgstr ""
 
@@ -52,14 +52,14 @@ msgid "Navigation obstacles affecting navigation mesh baking."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:28
-msgid "For navigation mesh baking obstacles can be used to discard parts of all other source geometry inside the obstacle shape."
+msgid "For navigation mesh baking, obstacles can be used to discard parts of all other source geometry inside the obstacle shape."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:30
 msgid "This can be used to stop navigation meshes being baked in unwanted places, e.g. inside \"solid\" geometry like thick walls or on top of other geometry that should not be included for gameplay like roofs."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:37
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:33
 msgid "Navigation obstacles discard of unwanted navigation mesh"
 msgstr ""
 
@@ -115,7 +115,7 @@ msgstr ""
 msgid "An avoidance obstacle is considered static when its ``vertices`` property is populated with an outline array of positions to form a polygon."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:121
+#: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:117
 msgid "Static obstacle drawn in the editor to block or contain navigation agents"
 msgstr ""
 
@@ -197,8 +197,4 @@ msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:158
 msgid "Obstacles created with scripts require at least a ``map`` and a ``position``. For dynamic use a ``radius`` is required. For static use an array of ``vertices`` is required."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

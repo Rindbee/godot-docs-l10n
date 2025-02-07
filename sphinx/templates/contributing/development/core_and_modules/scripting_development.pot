@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -37,8 +37,4 @@ msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/scripting_development.rst:35
 msgid "For historical reasons, some existing annotations and keywords do not strictly follow these guidelines. Choosing between implementing a feature as an annotation or as a language keyword is a nuanced decision that should be made through discussion with other GDScript developers."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -132,7 +132,7 @@ msgid "Getting notified when resources change"
 msgstr ""
 
 #: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:251
-msgid "Some times you want your tool to use a resource. However, when you change a property of that resource in the editor, the ``set()`` method of your tool will not be called."
+msgid "Sometimes you want your tool to use a resource. However, when you change a property of that resource in the editor, the ``set()`` method of your tool will not be called."
 msgstr ""
 
 #: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:300
@@ -187,7 +187,7 @@ msgstr ""
 msgid "To create an EditorScript, right-click a folder or empty space in the FileSystem dock then choose **New > Script...**. In the script creation dialog, click the tree icon to choose an object to extend from (or enter ``EditorScript`` directly in the field on the left, though note this is case-sensitive):"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:485
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:481
 #: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:485
 msgid "Creating an editor script in the script editor creation dialog"
 msgstr ""
@@ -234,8 +234,4 @@ msgstr ""
 
 #: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:617
 msgid "Using ``@tool`` improperly can yield many errors. It is advised to first write the code how you want it, and only then add the ``@tool`` annotation to the top. Also, make sure to separate code that runs in-editor from code that runs in-game. This way, you can find bugs more easily."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

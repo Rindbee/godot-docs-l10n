@@ -69,7 +69,9 @@ tutorials/migrating/index.pot
 tutorials/migrating/upgrading_to_godot_4.pot
 tutorials/migrating/upgrading_to_godot_4.1.pot
 tutorials/migrating/upgrading_to_godot_4.2.pot
+tutorials/migrating/upgrading_to_godot_4.3.pot
 tutorials/2d/index.pot
+tutorials/2d/introduction_to_2d.pot
 tutorials/2d/canvas_layers.pot
 tutorials/2d/2d_transforms.pot
 tutorials/2d/2d_lights_and_shadows.pot
@@ -125,6 +127,7 @@ tutorials/3d/resolution_scaling.pot
 tutorials/3d/variable_rate_shading.pot
 tutorials/3d/csg_tools.pot
 tutorials/3d/using_gridmaps.pot
+tutorials/3d/spring_arm.pot
 tutorials/animation/index.pot
 tutorials/animation/introduction.pot
 tutorials/animation/animation_track_types.pot
@@ -321,6 +324,7 @@ tutorials/scripting/gdextension/index.pot
 tutorials/scripting/gdextension/what_is_gdextension.pot
 tutorials/scripting/gdextension/gdextension_cpp_example.pot
 tutorials/scripting/gdextension/gdextension_file.pot
+tutorials/scripting/gdextension/gdextension_docs_system.pot
 tutorials/scripting/how_to_read_the_godot_api.pot
 tutorials/scripting/debug/index.pot
 tutorials/scripting/debug/overview_of_debugging_tools.pot

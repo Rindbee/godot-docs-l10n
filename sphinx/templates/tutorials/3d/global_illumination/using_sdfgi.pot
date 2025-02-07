@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -43,12 +43,12 @@ msgstr ""
 msgid "Visual comparison"
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_sdfgi.rst:36
+#: ../../docs/tutorials/3d/global_illumination/using_sdfgi.rst:33
 #: ../../docs/tutorials/3d/global_illumination/using_sdfgi.rst:36
 msgid "SDFGI disabled."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_sdfgi.rst:41
+#: ../../docs/tutorials/3d/global_illumination/using_sdfgi.rst:38
 #: ../../docs/tutorials/3d/global_illumination/using_sdfgi.rst:41
 msgid "SDFGI enabled."
 msgstr ""
@@ -247,8 +247,4 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/using_sdfgi.rst:231
 msgid "SDFGI's sharp reflections are only visible on opaque materials. Transparent materials will only use rough reflections, even if the material's roughness is lower than 0.2."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

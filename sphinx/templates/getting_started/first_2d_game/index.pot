@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,7 +27,6 @@ msgstr ""
 msgid "|image0|"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/index.rst:79
 #: ../../docs/getting_started/first_2d_game/index.rst:79
 msgid "image0"
 msgstr ""
@@ -118,8 +117,4 @@ msgstr ""
 
 #: ../../docs/getting_started/first_2d_game/index.rst:65
 msgid "Contents"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

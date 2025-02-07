@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -241,7 +241,7 @@ msgid "Resources"
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/object_class.rst:277
-msgid ":ref:`Resource <class_resource>` inherits from Reference, so all resources are reference counted. Resources can optionally contain a path, which reference a file on disk. This can be set with ``resource.set_path(path)``, though this is normally done by the resource loader. No two different resources can have the same path; attempting to do so will result in an error."
+msgid ":ref:`Resource <class_resource>` inherits from RefCounted, so all resources are reference counted. Resources can optionally contain a path, which reference a file on disk. This can be set with ``resource.set_path(path)``, though this is normally done by the resource loader. No two different resources can have the same path; attempting to do so will result in an error."
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/object_class.rst:283
@@ -286,8 +286,4 @@ msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/object_class.rst:328
 msgid "`core/io/resource_saver.h <https://github.com/godotengine/godot/blob/master/core/io/resource_saver.h>`__"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

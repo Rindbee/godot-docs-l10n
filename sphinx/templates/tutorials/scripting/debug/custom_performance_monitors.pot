@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -67,7 +67,7 @@ msgstr ""
 msgid "To visualize the graph created from this custom performance monitor, run the project, switch to the editor while the project is running and open **Debugger > Monitors** at the bottom of the editor window. Scroll down to the newly available **Game** section and check **Enemies**. You should see a graph appearing as follows:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/custom_performance_monitors.rst:98
+#: ../../docs/tutorials/scripting/debug/custom_performance_monitors.rst:94
 #: ../../docs/tutorials/scripting/debug/custom_performance_monitors.rst:98
 msgid "Example editor graph from a custom performance monitor"
 msgstr ""
@@ -86,8 +86,4 @@ msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/custom_performance_monitors.rst:117
 msgid "This method can be used in exported projects as well (debug and release mode), which allows you to create visualizations outside the editor."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

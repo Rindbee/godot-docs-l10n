@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -91,78 +91,74 @@ msgstr ""
 msgid "Within the ``launch.json`` file find the ``\"configurations\"`` array and add a new section to it:"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:146
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:162
 msgid "An example of a filled out ``launch.json``."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:151
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:167
 msgid "Due to sporadic performance issues, it is recommended to use LLDB over GDB on Unix-based systems. Make sure that the `CodeLLDB extension <https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb>`_ is installed."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:155
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:171
 msgid "If you encounter issues with lldb, you may consider using gdb (see the LinuxBSD_gdb configuration)."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:157
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:173
 msgid "Do note that lldb may work better with LLVM-based builds. See :ref:`doc_compiling_for_linuxbsd` for further information."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:159
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:175
 msgid "The name under ``program`` depends on your build configuration, e.g. ``godot.linuxbsd.editor.dev.x86_64`` for 64-bit LinuxBSD platform with ``target=editor`` and ``dev_build=yes``."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:164
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:180
 msgid "Configuring Intellisense"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:166
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:182
 msgid "For the C/C++ extension:"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:168
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:184
 msgid "To fix include errors you may be having, you need to configure some settings in the ``c_cpp_properties.json`` file."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:170
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:186
 msgid "First, make sure to build the project since some files need to be generated."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:172
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:188
 msgid "Edit the C/C++ Configuration file either with the UI or with text:"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:177
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:193
 msgid "Add an include path for your platform, for example, ``${workspaceFolder}/platform/windows``."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:179
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:195
 msgid "Add defines for the editor ``TOOLS_ENABLED``, debug builds ``DEBUG_ENABLED``, and tests ``TESTS_ENABLED``."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:181
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:197
 msgid "Make sure the compiler path is configured correctly to the compiler you are using. See :ref:`doc_introduction_to_the_buildsystem` for further information on your platform."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:183
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:199
 msgid "The ``c_cpp_properties.json`` file should look similar to this for Windows:"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:213
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:229
 msgid "Alternatively, you can use the scons argument ``compiledb=yes`` and set the compile commands setting ``compileCommands`` to ``compile_commands.json``, found in the advanced section of the C/C++ Configuration UI."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:215
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:231
 msgid "This argument can be added to your build task in ``tasks.json`` since it will need to be run whenever files are added or moved."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:217
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:233
 msgid "If you run into any issues, ask for help in one of `Godot's community channels <https://godotengine.org/community>`__."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:222
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:238
 msgid "To get linting on class reference XML files, install the `vscode-xml extension <https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml>`__."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -105,8 +105,4 @@ msgstr ""
 
 #: ../../docs/contributing/documentation/content_guidelines.rst:91
 msgid "Programming fundamentals are a prerequisite for using a complex engine like Godot. Talking about variables, functions, or classes is acceptable. But we should favor plain language over specific terminology like \"metaprogramming\". If you need to use precise terms, be sure to define them."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "Process material properties"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:10
+#: ../../docs/tutorials/3d/particles/process_material_properties.rst:6
 msgid "ParticleProcessMaterial properties"
 msgstr ""
 
@@ -71,7 +71,7 @@ msgstr ""
 msgid "Particles can emit from a single point in space or in a way that they fill out a shape. The ``Shape`` property controls that shape. ``Point`` is the default value. All particles emit from a single point in the center of the particle system. When set to ``Sphere`` or ``Box``, particles emit in a way that they fill out a sphere or a box shape evenly. You have full control over the size of these shapes. ``Sphere Surface`` works like ``Sphere``, but instead of filling it out, all particles spawn on the sphere's surface."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:68
+#: ../../docs/tutorials/3d/particles/process_material_properties.rst:65
 msgid "Simple particle emission shapes"
 msgstr ""
 
@@ -79,7 +79,7 @@ msgstr ""
 msgid "Particles emitting from a point (left), in a sphere (middle), and in a box (right)"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:74
+#: ../../docs/tutorials/3d/particles/process_material_properties.rst:70
 msgid "Ring-shaped particle system"
 msgstr ""
 
@@ -115,7 +115,7 @@ msgstr ""
 msgid "The ``Direction`` property is a vector that controls each particle's direction of movement at the moment it is spawned. A value of ``(X=1,Y=0,Z=0)`` would make all particles move sideways along the X-axis. For something like a fountain where particles shoot out up in the air, a value of ``(X=0,Y=1,Z=0)`` would be a good starting point."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:113
+#: ../../docs/tutorials/3d/particles/process_material_properties.rst:110
 msgid "Different values for particle direction"
 msgstr ""
 
@@ -127,7 +127,7 @@ msgstr ""
 msgid "After setting a direction, you will notice that all particles move in the same direction in a straight line. The ``Spread`` property adds some variation and randomness to each particle's direction. The higher the value, the stronger the deviation from the original path. A value of ``0`` means there is no spread at all while a value of ``180`` makes particles shoot out in every direction. You could use this for something like pieces of debris during an explosion effect."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:124
+#: ../../docs/tutorials/3d/particles/process_material_properties.rst:121
 msgid "Different values for particle spread"
 msgstr ""
 
@@ -163,7 +163,7 @@ msgstr ""
 msgid "The next few property groups work closely together to control particle movement and rotation. ``Gravity`` drags particles in the direction it points at, which is straight down at the strength of Earth's gravity by default. Gravity affects all particle movement. If your game uses physics and the world's gravity can change at runtime, you can use this property to keep the game's gravity in sync with particle gravity. A ``Gravity`` value of ``(X=0,Y=0,Z=0)`` means no particle will ever move at all if none of the other movement properties are set."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:159
+#: ../../docs/tutorials/3d/particles/process_material_properties.rst:156
 msgid "Different values for particle gravity"
 msgstr ""
 
@@ -191,7 +191,7 @@ msgstr ""
 msgid "A particle's velocity is a constant value: once it's set, it doesn't change and the particle will always move at the same speed. You can use the ``Linear Accel`` property to change the speed of movement over a particle's lifetime `as described above <#process-material-properties>`__. Positive values will speed up the particle and make it move faster. Negative values will slow it down until it stops and starts moving in the other direction."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:185
+#: ../../docs/tutorials/3d/particles/process_material_properties.rst:182
 msgid "Different values for particle linear acceleration"
 msgstr ""
 
@@ -211,7 +211,7 @@ msgstr ""
 msgid "The ``Radial Accel`` property adds a gravity-like force to all particles, with the origin of that force at the particle system's current location. Negative values make particles move towards the center, like the force of gravity from a planet on objects in its orbit. Positive values make particles move away from the center."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:204
+#: ../../docs/tutorials/3d/particles/process_material_properties.rst:201
 msgid "Different values for particle radial acceleration"
 msgstr ""
 
@@ -223,7 +223,7 @@ msgstr ""
 msgid "Tangential acceleration"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:213
+#: ../../docs/tutorials/3d/particles/process_material_properties.rst:209
 #: ../../docs/tutorials/3d/particles/process_material_properties.rst:213
 msgid "Tangents on a circle"
 msgstr ""
@@ -240,7 +240,7 @@ msgstr ""
 msgid "A tangent to a circle is a straight line that \"touches\" the circle in a right angle to the circle's radius at the touch point. A circle on the particle system's XZ-plane is the circle that you see when you look straight down at the particle system from above."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:229
+#: ../../docs/tutorials/3d/particles/process_material_properties.rst:225
 #: ../../docs/tutorials/3d/particles/process_material_properties.rst:229
 msgid "Tangential acceleration from above"
 msgstr ""
@@ -289,7 +289,7 @@ msgstr ""
 msgid "The ``Color`` property controls a particle's initial color. It will have an effect only after the ``Use As Albedo`` property in the ``Vertex Color`` group of the :ref:`Standard Material <doc_standard_material_3d>` is enabled. This property is multiplied with color coming from the particle material's own ``Color`` or ``Texture`` property."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:278
+#: ../../docs/tutorials/3d/particles/process_material_properties.rst:274
 msgid "Particle color ramp"
 msgstr ""
 
@@ -321,7 +321,7 @@ msgstr ""
 msgid "It works on top of the particle's current color. The values you set for ``Variation Min`` and ``Variation Max`` control how far the hue is allowed to shift in either direction. A higher value leads to more color variation while a low value limits the available colors to the closest neighbors of the original color."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:313
+#: ../../docs/tutorials/3d/particles/process_material_properties.rst:310
 msgid "Different values for hue variation"
 msgstr ""
 
@@ -341,7 +341,7 @@ msgstr ""
 msgid "An animated sprite sheet is a texture that contains several smaller images aligned on a grid. The images are shown one after the other so fast that they combine to play a short animation, like a flipbook. You can use them for animated particles like smoke or fire. These are the steps to create an animated particle system:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:333
+#: ../../docs/tutorials/3d/particles/process_material_properties.rst:329
 msgid "A sprite sheet"
 msgstr ""
 
@@ -377,7 +377,7 @@ msgstr ""
 msgid "That's it for the Standard Material. You won't see any animation right away. This is where the ``Animation`` properties come in. The ``Speed`` properties control how fast the sprite sheet animates. Set ``Speed Min`` and ``Speed Max`` to ``1`` and you should see the animation playing. The ``Offset`` properties control where the animation starts on a newly spawned particle. By default, it will always be the first image in the sequence. You can add some variety by changing ``Offset Min`` and ``Offset Max`` to randomize the starting position."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:353
+#: ../../docs/tutorials/3d/particles/process_material_properties.rst:350
 msgid "Animated particles"
 msgstr ""
 
@@ -403,7 +403,7 @@ msgstr ""
 msgid "If your sprite sheet contains 64 (8x8) images and the particle's lifetime is set to ``1 second``, the animation will be very smooth at **64 FPS** (1 second / 64 images). if the lifetime is set to ``2 seconds``, it will still be fairly smooth at **32 FPS**. But if the particle is alive for ``8 seconds``, the animation will be visibly choppy at **8 FPS**. In order to make the animation smooth again, you need to increase the animation speed to something like ``3`` to reach an acceptable framerate."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:379
+#: ../../docs/tutorials/3d/particles/process_material_properties.rst:376
 msgid "Animated particles lifetimes"
 msgstr ""
 
@@ -447,7 +447,7 @@ msgstr ""
 msgid "Sub-emitter"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:430
+#: ../../docs/tutorials/3d/particles/process_material_properties.rst:426
 msgid "Sub-emitter modes"
 msgstr ""
 
@@ -465,8 +465,4 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/particles/process_material_properties.rst:444
 msgid "See the :ref:`Sub-emitters <doc_3d_particles_subemitters>` section in this manual for a detailed explanation of how to add a sub-emitter to a particle system."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

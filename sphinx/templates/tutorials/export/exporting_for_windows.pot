@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -36,7 +36,7 @@ msgid "Code signing"
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_windows.rst:24
-msgid "Godot is capable of automatic code signing on export. To do this you must have the ``Windows SDK`` (on Windows) or `osslsigncode <https://github.com/mtrojnar/osslsigncode>`__ (on any other OS) installed. You will also need a package signing certificate, information on creating one can be found `here <https://docs.microsoft.com/en-us/windows/win32/appxpkg/how-to-create-a-package-signing-certificate?redirectedfrom=MSDN>`__."
+msgid "Godot is capable of automatic code signing on export. To do this you must have the ``Windows SDK`` (on Windows) or `osslsigncode <https://github.com/mtrojnar/osslsigncode>`__ (on any other OS) installed. You will also need a package signing certificate, information on creating one can be found `here <https://learn.microsoft.com/en-us/windows/msix/package/create-certificate-package-signing>`__."
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_windows.rst:31
@@ -113,8 +113,4 @@ msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_windows.rst:78
 msgid "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

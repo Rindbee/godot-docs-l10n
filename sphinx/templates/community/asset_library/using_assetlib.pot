@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -35,7 +35,6 @@ msgstr ""
 msgid "|image0|"
 msgstr ""
 
-#: ../../docs/community/asset_library/using_assetlib.rst:187
 #: ../../docs/community/asset_library/using_assetlib.rst:187
 msgid "image0"
 msgstr ""
@@ -77,7 +76,6 @@ msgid "|image1|"
 msgstr ""
 
 #: ../../docs/community/asset_library/using_assetlib.rst:188
-#: ../../docs/community/asset_library/using_assetlib.rst:188
 msgid "image1"
 msgstr ""
 
@@ -97,7 +95,6 @@ msgstr ""
 msgid "|image2|"
 msgstr ""
 
-#: ../../docs/community/asset_library/using_assetlib.rst:189
 #: ../../docs/community/asset_library/using_assetlib.rst:189
 msgid "image2"
 msgstr ""
@@ -159,7 +156,6 @@ msgid "|image3|"
 msgstr ""
 
 #: ../../docs/community/asset_library/using_assetlib.rst:190
-#: ../../docs/community/asset_library/using_assetlib.rst:190
 msgid "image3"
 msgstr ""
 
@@ -172,7 +168,6 @@ msgid "|image4|"
 msgstr ""
 
 #: ../../docs/community/asset_library/using_assetlib.rst:191
-#: ../../docs/community/asset_library/using_assetlib.rst:191
 msgid "image4"
 msgstr ""
 
@@ -184,7 +179,6 @@ msgstr ""
 msgid "|image5|"
 msgstr ""
 
-#: ../../docs/community/asset_library/using_assetlib.rst:192
 #: ../../docs/community/asset_library/using_assetlib.rst:192
 msgid "image5"
 msgstr ""
@@ -209,7 +203,6 @@ msgstr ""
 msgid "|image6|"
 msgstr ""
 
-#: ../../docs/community/asset_library/using_assetlib.rst:193
 #: ../../docs/community/asset_library/using_assetlib.rst:193
 msgid "image6"
 msgstr ""
@@ -243,7 +236,6 @@ msgid "|image7|"
 msgstr ""
 
 #: ../../docs/community/asset_library/using_assetlib.rst:194
-#: ../../docs/community/asset_library/using_assetlib.rst:194
 msgid "image7"
 msgstr ""
 
@@ -251,7 +243,6 @@ msgstr ""
 msgid "|image14|"
 msgstr ""
 
-#: ../../docs/community/asset_library/using_assetlib.rst:201
 #: ../../docs/community/asset_library/using_assetlib.rst:201
 msgid "image14"
 msgstr ""
@@ -264,7 +255,6 @@ msgstr ""
 msgid "|image8|"
 msgstr ""
 
-#: ../../docs/community/asset_library/using_assetlib.rst:195
 #: ../../docs/community/asset_library/using_assetlib.rst:195
 msgid "image8"
 msgstr ""
@@ -290,7 +280,6 @@ msgid "|image9|"
 msgstr ""
 
 #: ../../docs/community/asset_library/using_assetlib.rst:196
-#: ../../docs/community/asset_library/using_assetlib.rst:196
 msgid "image9"
 msgstr ""
 
@@ -302,7 +291,6 @@ msgstr ""
 msgid "|image10|"
 msgstr ""
 
-#: ../../docs/community/asset_library/using_assetlib.rst:197
 #: ../../docs/community/asset_library/using_assetlib.rst:197
 msgid "image10"
 msgstr ""
@@ -316,7 +304,6 @@ msgid "|image11|"
 msgstr ""
 
 #: ../../docs/community/asset_library/using_assetlib.rst:198
-#: ../../docs/community/asset_library/using_assetlib.rst:198
 msgid "image11"
 msgstr ""
 
@@ -328,7 +315,6 @@ msgstr ""
 msgid "|image12|"
 msgstr ""
 
-#: ../../docs/community/asset_library/using_assetlib.rst:199
 #: ../../docs/community/asset_library/using_assetlib.rst:199
 msgid "image12"
 msgstr ""
@@ -342,14 +328,9 @@ msgid "|image13|"
 msgstr ""
 
 #: ../../docs/community/asset_library/using_assetlib.rst:200
-#: ../../docs/community/asset_library/using_assetlib.rst:200
 msgid "image13"
 msgstr ""
 
 #: ../../docs/community/asset_library/using_assetlib.rst:182
 msgid "You may also use the Import button to import asset archives obtained elsewhere (such as downloading them directly from the AssetLib web frontend), which will take you through the same package installation procedure as with the assets downloaded directly via Godot that we just covered."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

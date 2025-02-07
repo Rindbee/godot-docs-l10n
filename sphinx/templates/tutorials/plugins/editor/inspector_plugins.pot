@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -109,8 +109,4 @@ msgstr ""
 
 #: ../../docs/tutorials/plugins/editor/inspector_plugins.rst:311
 msgid "Using the example code above you should be able to make a custom widget that replaces the default :ref:`class_SpinBox` control for integers with a :ref:`class_Button` that generates random values."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

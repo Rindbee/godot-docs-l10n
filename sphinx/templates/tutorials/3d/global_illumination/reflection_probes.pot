@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -43,14 +43,14 @@ msgstr ""
 msgid "Visual comparison"
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:38
+#: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:34
 #: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:38
 msgid "Reflection probe disabled. Environment sky is used as a fallback."
 msgstr ""
 
+#: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:40
 #: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:44
-#: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:44
-#: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:51
+#: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:47
 msgid "Reflection probe enabled."
 msgstr ""
 
@@ -62,7 +62,7 @@ msgstr ""
 msgid "By combining reflection probes with screen-space reflections, you can get the best of both worlds: high-quality reflections for general room structure (that remain present when off-screen), while also having real-time reflections for small details."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:62
+#: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:58
 msgid "Reflections in a room using ReflectionProbe only."
 msgstr ""
 
@@ -70,7 +70,7 @@ msgstr ""
 msgid "Reflections in a room using ReflectionProbe only. Notice how small details don't have any reflections."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:69
+#: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:65
 msgid "Reflections in a room using screen-space reflections only."
 msgstr ""
 
@@ -78,7 +78,7 @@ msgstr ""
 msgid "Reflections in a room using screen-space reflections only. Notice how the reflection on the sides of the room's walls is partly missing due to being off-screen."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:77
+#: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:73
 msgid "Reflections in a room using ReflectionProbe and screen-space reflections together."
 msgstr ""
 
@@ -187,13 +187,13 @@ msgid "Limitations"
 msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:185
-msgid "When using the Forward+ renderer, Godot uses a *clustering* approach for reflection probe rendering. As many reflection probes as desired can be added (as long as performance allows). However, there's still a default limit of 512 *clustered elements* that can be present in the current camera view. A clustered element is an omni light, a spot light, a :ref:`decal <doc_using_decals>` or a :ref:`reflection probe <doc_reflection_probes>`. This limit can be increased by adjusting the **Rendering > Limits > Cluster Builder > Max Clustered Elements** advanced project setting."
+msgid "When using the Forward+ renderer, Godot uses a *clustering* approach for reflection probe rendering. As many reflection probes as desired can be added (as long as performance allows). However, there's still a default limit of 512 *clustered elements* that can be present in the current camera view. A clustered element is an omni light, a spot light, a :ref:`decal <doc_using_decals>` or a :ref:`reflection probe <doc_reflection_probes>`. This limit can be increased by adjusting :ref:`Max Clustered Elements<class_ProjectSettings_property_rendering/limits/cluster_builder/max_clustered_elements>` in **Project Settings > Rendering > Limits > Cluster Builder**."
 msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:194
 msgid "When using the Forward Mobile backend, only 8 reflection probes can be applied on each individual Mesh *resource*. If there are more reflection probes affecting a single mesh, not all of them will be rendered on the mesh."
 msgstr ""
 
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
+#: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:198
+msgid "Similarly, when using the Compatibility backend, up to 2 reflection probes can be applied per mesh. If more than 2 reflection probes affect a single mesh, additional probes will not be rendered."
 msgstr ""

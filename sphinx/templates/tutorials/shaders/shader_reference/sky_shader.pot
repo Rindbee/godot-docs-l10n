@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -101,7 +101,7 @@ msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:130
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:155
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:194
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:200
 msgid "Description"
 msgstr ""
 
@@ -150,7 +150,7 @@ msgid "There are 4 ``LIGHTX`` lights, accessed as ``LIGHT0``, ``LIGHT1``, ``LIGH
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:155
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:194
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:200
 msgid "Built-in"
 msgstr ""
 
@@ -159,177 +159,173 @@ msgid "in float **TIME**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:157
-msgid "Global time, in seconds."
+msgid "Global time since the engine has started, in seconds. It repeats after every 3,600 seconds (which can  be changed with the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/time_rollover_secs>` setting). It's not affected by :ref:`time_scale<class_Engine_property_time_scale>` or pausing. If you need  a ``TIME`` variable that can be scaled or paused, add your own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and update it each frame."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:159
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:165
 msgid "in vec3 **POSITION**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:159
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:165
 msgid "Camera position in world space"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:161
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:167
 msgid "samplerCube **RADIANCE**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:161
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:167
 msgid "Radiance cubemap. Can only be read from during background pass. Check ``!AT_CUBEMAP_PASS`` before using."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:163
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:169
 msgid "in bool **AT_HALF_RES_PASS**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:163
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:169
 msgid "Currently rendering to half resolution pass."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:165
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:171
 msgid "in bool **AT_QUARTER_RES_PASS**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:165
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:171
 msgid "Currently rendering to quarter resolution pass."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:167
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:173
 msgid "in bool **AT_CUBEMAP_PASS**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:167
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:173
 msgid "Currently rendering to radiance cubemap."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:169
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:175
 msgid "in bool **LIGHTX_ENABLED**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:169
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:175
 msgid "``LightX`` is visible and in the scene. If ``false``, other light properties may be garbage."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:171
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:177
 msgid "in float **LIGHTX_ENERGY**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:171
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:177
 msgid "Energy multiplier for ``LIGHTX``."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:173
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:179
 msgid "in vec3 **LIGHTX_DIRECTION**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:173
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:179
 msgid "Direction that ``LIGHTX`` is facing."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:175
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:181
 msgid "in vec3 **LIGHTX_COLOR**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:175
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:181
 msgid "Color of ``LIGHTX``."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:177
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:183
 msgid "in float **LIGHTX_SIZE**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:177
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:183
 msgid "Angular diameter of ``LIGHTX`` in the sky. Expressed in radians. For reference, the sun from earth is about .0087 radians (0.5 degrees)."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:180
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:186
 msgid "in float **PI**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:180
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:186
 msgid "A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its diameter and amount of radians in half turn."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:183
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:189
 msgid "in float **TAU**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:183
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:189
 msgid "A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of radians in full turn."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:186
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:192
 msgid "in float **E**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:186
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:192
 msgid "An ``E`` constant (``2.718281``). Euler's number and a base of the natural logarithm."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:191
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:197
 msgid "Sky built-ins"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:196
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:202
 msgid "in vec3 **EYEDIR**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:196
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:202
 msgid "Normalized direction of current pixel. Use this as your basic direction for procedural effects."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:198
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:204
 msgid "in vec2 **SCREEN_UV**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:198
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:204
 msgid "Screen UV coordinate for current pixel. Used to map a texture to the full screen."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:200
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:206
 msgid "in vec2 **SKY_COORDS**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:200
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:206
 msgid "Sphere UV. Used to map a panorama texture to the sky."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:202
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:208
 msgid "in vec4 **HALF_RES_COLOR**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:202
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:208
 msgid "Color value of corresponding pixel from half resolution pass. Uses linear filter."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:204
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:210
 msgid "in vec4 **QUARTER_RES_COLOR**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:204
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:210
 msgid "Color value of corresponding pixel from quarter resolution pass. Uses linear filter."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:206
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:212
 msgid "out vec3 **COLOR**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:206
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:212
 msgid "Output color."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:208
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:214
 msgid "out float **ALPHA**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:208
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:214
 msgid "Output alpha value, can only be used in subpasses."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:210
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:216
 msgid "out vec4 **FOG**"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

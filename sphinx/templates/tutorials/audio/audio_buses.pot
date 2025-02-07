@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -112,42 +112,46 @@ msgstr ""
 msgid "Adding effects"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_buses.rst:91
-msgid "Audio buses can contain all sorts of effects. These effects modify the sound in one way or another and are applied in order."
+#: ../../docs/tutorials/audio/audio_buses.rst:93
+msgid "This feature is not supported on the web platform if the AudioStreamPlayer's playback mode is set to **Sample**, which is the default. It will only work if the playback mode is set to **Stream**, at the cost of increased latency if threads are not enabled."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_buses.rst:96
-msgid "For information on what each effect does, see :ref:`doc_audio_effects`."
-msgstr ""
-
-#: ../../docs/tutorials/audio/audio_buses.rst:99
-msgid "Automatic bus disabling"
+#: ../../docs/tutorials/audio/audio_buses.rst:98
+msgid "See :ref:`Audio playback in the Exporting for the Web documentation <doc_exporting_for_web_audio_playback>` for details."
 msgstr ""
 
 #: ../../docs/tutorials/audio/audio_buses.rst:101
+msgid "Audio buses can contain all sorts of effects. These effects modify the sound in one way or another and are applied in order."
+msgstr ""
+
+#: ../../docs/tutorials/audio/audio_buses.rst:106
+msgid "For information on what each effect does, see :ref:`doc_audio_effects`."
+msgstr ""
+
+#: ../../docs/tutorials/audio/audio_buses.rst:109
+msgid "Automatic bus disabling"
+msgstr ""
+
+#: ../../docs/tutorials/audio/audio_buses.rst:111
 msgid "There is no need to disable buses manually when not in use. Godot detects that the bus has been silent for a few seconds and disables it (including all effects)."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_buses.rst:107
+#: ../../docs/tutorials/audio/audio_buses.rst:117
 msgid "Disabled buses have a blue VU meter instead of a red-green one."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_buses.rst:110
+#: ../../docs/tutorials/audio/audio_buses.rst:120
 msgid "Bus rearrangement"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_buses.rst:112
+#: ../../docs/tutorials/audio/audio_buses.rst:122
 msgid "Stream Players use bus names to identify a bus, which allows adding, removing and moving buses around while the reference to them is kept. However, if a bus is renamed, the reference will be lost and the Stream Player will output to Master. This system was chosen because rearranging buses is a more common process than renaming them."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_buses.rst:119
+#: ../../docs/tutorials/audio/audio_buses.rst:129
 msgid "Default bus layout"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_buses.rst:121
+#: ../../docs/tutorials/audio/audio_buses.rst:131
 msgid "The default bus layout is automatically saved to the ``res://default_bus_layout.tres`` file. Custom bus arrangements can be saved and loaded from disk."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

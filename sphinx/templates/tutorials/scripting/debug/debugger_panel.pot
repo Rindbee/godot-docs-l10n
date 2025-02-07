@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -115,7 +115,7 @@ msgstr ""
 msgid "To use the visual profiler, run the project, switch to the **Visual Profiler** tab within the Debugger bottom panel, then click **Start**:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:89
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:86
 msgid "Visual Profiler tab after clicking Start, waiting for a few seconds, then clicking Stop"
 msgstr ""
 
@@ -155,7 +155,7 @@ msgstr ""
 msgid "Visual Profiler is supported when using any rendering method (Forward+, Mobile or Compatibility), but the reported categories will vary depending on the current rendering method as well as the enabled graphics features. For example, when using Forward+, a simple 2D scene with shadow-casting lights will result in the following categories appearing:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:131
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:128
 #: ../../docs/tutorials/scripting/debug/debugger_panel.rst:131
 msgid "Example results from a 2D scene in the Visual Profiler"
 msgstr ""
@@ -164,7 +164,7 @@ msgstr ""
 msgid "To give another example with Forward+, a 3D scene with shadow-casting lights and various effects enabled will result in the following categories enabled:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:139
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:136
 #: ../../docs/tutorials/scripting/debug/debugger_panel.rst:139
 msgid "Example results from a 3D scene in the Visual Profiler"
 msgstr ""
@@ -219,8 +219,4 @@ msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/debugger_panel.rst:193
 msgid "**Clicked Control Type** tells you the type of the node you clicked is."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

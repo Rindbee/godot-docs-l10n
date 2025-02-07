@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,59 +24,57 @@ msgid "You might want to change the appearance of the mouse cursor in your game 
 msgstr ""
 
 #: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:10
-#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:28
-msgid "Using project settings"
+msgid "Using project settings. This is simpler, but more limited."
 msgstr ""
 
 #: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:11
-#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:46
-msgid "Using a script"
+msgid "Using a script. This is more customizable, but involves scripting."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:13
-msgid "Using project settings is a simpler (but more limited) way to customize the mouse cursor. The second way is more customizable, but involves scripting:"
+#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:15
+msgid "You could display a \"software\" mouse cursor by hiding the mouse cursor and moving a Sprite2D to the cursor position in a ``_process()`` method, but this will add at least one frame of latency compared to a \"hardware\" mouse cursor. Therefore, it's recommended to use the approach described here whenever possible."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:18
-msgid "You could display a \"software\" mouse cursor by hiding the mouse cursor and moving a Sprite2D to the cursor position in a ``_process()`` method, but this will add at least one frame of latency compared to an \"hardware\" mouse cursor. Therefore, it's recommended to use the approach described here whenever possible."
-msgstr ""
-
-#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:24
+#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:21
 msgid "If you have to use the \"software\" approach, consider adding an extrapolation step to better display the actual mouse input."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:30
-msgid "Open project settings, go to Display>Mouse Cursor. You will see Custom Image, Custom Image Hotspot and Tooltip Position Offset."
+#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:25
+msgid "Using project settings"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:35
-msgid "Custom Image is the desired image that you would like to set as the mouse cursor. Custom Hotspot is the point in the image that you would like to use as the cursor's detection point."
+#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:27
+msgid "Open the **Project Settings** and go to **Display > Mouse Cursor**. You will see the settings :ref:`Custom Image <class_ProjectSettings_property_display/mouse_cursor/custom_image>`, :ref:`Custom Image Hotspot <class_ProjectSettings_property_display/mouse_cursor/custom_image_hotspot>`, and :ref:`Tooltip Position Offset <class_ProjectSettings_property_display/mouse_cursor/tooltip_position_offset>`."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:40
-msgid "The custom image **must** be 256×256 pixels at most. To avoid rendering issues, sizes lower than or equal to 128×128 are recommended."
+#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:34
+msgid "**Custom Image** is the desired image that you would like to set as the mouse cursor. **Custom Hotspot** is the point in the image that you would like to use as the cursor's detection point."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:43
+#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:39
+msgid "The custom image **must** be 256×256 pixels at most. To avoid rendering issues, sizes of 128×128 or smaller are recommended."
+msgstr ""
+
+#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:42
 msgid "On the web platform, the maximum allowed cursor image size is 128×128."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:48
+#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:45
+msgid "Using a script"
+msgstr ""
+
+#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:47
 msgid "Create a Node and attach the following script."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:87
+#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:91
 msgid "Check :ref:`Input.set_custom_mouse_cursor() <class_Input_method_set_custom_mouse_cursor>`'s documentation for more information on usage and platform-specific caveats."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:91
+#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:95
 msgid "Cursor list"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:93
-msgid "As documented in the :ref:`Input <class_Input>` class (see the **CursorShape** enum), there are multiple mouse cursors you can define. Which ones you want to use depends on your use case."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
+#: ../../docs/tutorials/inputs/custom_mouse_cursor.rst:97
+msgid "There are multiple mouse cursors you can define, documented in the :ref:`Input.CursorShape <enum_Input_CursorShape>` enum. Which ones you want to use depends on your use case."
 msgstr ""

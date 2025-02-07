@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -217,8 +217,4 @@ msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/retargeting_3d_skeletons.rst:171
 msgid "Also, for models with bent knees or feet, it may be necessary to adjust the ``scale_base_bone`` height. For that, you can use ``base_height_adjustment`` option."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

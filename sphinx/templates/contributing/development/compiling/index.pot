@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -31,7 +31,7 @@ msgstr ""
 msgid "The articles below should help you navigate configuration options available, as well as prerequisites required to compile Godot exactly the way you need."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/index.rst:22
+#: ../../docs/contributing/development/compiling/index.rst:-1
 msgid "Basics of building Godot"
 msgstr ""
 
@@ -39,7 +39,7 @@ msgstr ""
 msgid "Let's start with basics, and learn how to get Godot's source code, and then which options to use to compile it regardless of your target platform."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/index.rst:35
+#: ../../docs/contributing/development/compiling/index.rst:-1
 msgid "Building for target platforms"
 msgstr ""
 
@@ -47,7 +47,7 @@ msgstr ""
 msgid "Below you can find instructions for compiling the engine for your specific target platform. Note that Godot supports cross-compilation, which means you can compile it for a target platform that doesn't match your current platform (say, target Linux while being on Windows). The guides will try their best to cover all possible situations."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/index.rst:55
+#: ../../docs/contributing/development/compiling/index.rst:-1
 msgid "Other compilation targets and options"
 msgstr ""
 
@@ -57,8 +57,4 @@ msgstr ""
 
 #: ../../docs/contributing/development/compiling/index.rst:61
 msgid "Articles below explain how to configure the buildsystem for cases like this, and also cover some optimization techniques."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

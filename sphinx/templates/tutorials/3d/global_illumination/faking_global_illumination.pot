@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -122,8 +122,4 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/faking_global_illumination.rst:94
 msgid "In the example below, a SpotLight3D node is used to light up the room's floor. However, since there is no indirect lighting, the rest of the room remains entirely dark. In real life, the room's walls and ceiling would be lit up by light bouncing around. Using an OmniLight3D node positioned between the SpotLight3D's origin and the floor allows simulating this effect:"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

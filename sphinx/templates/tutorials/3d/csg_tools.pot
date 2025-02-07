@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -345,8 +345,4 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/csg_tools.rst:302
 msgid "It can be useful to block out a level using CSG, then export it as a 3d model, to import into 3D modeling software. You can do this by selecting **Scene > Export As... > glTF 2.0 Scene**."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

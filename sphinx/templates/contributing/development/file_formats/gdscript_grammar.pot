@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -25,8 +25,4 @@ msgstr ""
 
 #: ../../docs/contributing/development/file_formats/gdscript_grammar.rst:11
 msgid "This grammar is descriptive only, derived from the reference documentation and current implementation. The GDScript parser is **not** generated from a grammar definition. Inconsistencies here likely mean an error in this grammar, not a bug in GDScript."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

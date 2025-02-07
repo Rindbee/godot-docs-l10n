@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -95,7 +95,7 @@ msgstr ""
 msgid "Open the Project Settings' **Localization > POT Generation** tab, then use the **Add…** button to specify the path to your project's scenes and scripts that contain localizable strings:"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/localization_using_gettext.rst:74
+#: ../../docs/tutorials/i18n/localization_using_gettext.rst:70
 msgid "Creating a PO template in the Localization > POT Generation tab of the Project Settings"
 msgstr ""
 
@@ -217,8 +217,4 @@ msgstr ""
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:227
 msgid "The decompiled file will not include comments or fuzzy strings, as these are never compiled in the MO file in the first place."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

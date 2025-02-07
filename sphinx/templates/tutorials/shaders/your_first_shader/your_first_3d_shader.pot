@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -228,73 +228,69 @@ msgid "Interacting with light"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:278
-msgid "First, turn wireframe off. To do so, click in the upper-left of the Viewport again, where it says \"Perspective\", and select \"Display Normal\"."
+msgid "First, turn wireframe off. To do so, click in the upper-left of the Viewport again, where it says \"Perspective\", and select \"Display Normal\". Additionally in the 3D scene toolbar, turn off preview sunlight."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:283
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:284
 msgid "Note how the mesh color goes flat. This is because the lighting on it is flat. Let's add a light!"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:286
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:287
 msgid "First, we will add an :ref:`OmniLight3D<class_OmniLight3D>` to the scene."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:290
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:291
 msgid "You can see the light affecting the terrain, but it looks odd. The problem is the light is affecting the terrain as if it were a flat plane. This is because the light shader uses the normals from the :ref:`Mesh <class_mesh>` to calculate light."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:295
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:296
 msgid "The normals are stored in the Mesh, but we are changing the shape of the Mesh in the shader, so the normals are no longer correct. To fix this, we can recalculate the normals in the shader or use a normal texture that corresponds to our noise. Godot makes both easy for us."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:300
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:301
 msgid "You can calculate the new normal manually in the vertex function and then just set ``NORMAL``. With ``NORMAL`` set, Godot will do all the difficult lighting calculations for us. We will cover this method in the next part of this tutorial, for now we will read normals from a texture."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:305
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:306
 msgid "Instead we will rely on the NoiseTexture again to calculate normals for us. We do that by passing in a second noise texture."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:312
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:313
 msgid "Set this second uniform texture to another :ref:`NoiseTexture2D <class_noisetexture2D>` with another :ref:`FastNoiseLite <class_fastnoiselite>`. But this time, check **As Normalmap**."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:317
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:318
 msgid "Now, because this is a normalmap and not a per-vertex normal, we are going to assign it in the ``fragment()`` function. The ``fragment()`` function will be explained in more detail in the next part of this tutorial."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:326
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:327
 msgid "When we have normals that correspond to a specific vertex we set ``NORMAL``, but if you have a normalmap that comes from a texture, set the normal using ``NORMAL_MAP``. This way Godot will handle the wrapping of texture around the mesh automatically."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:331
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:332
 msgid "Lastly, in order to ensure that we are reading from the same places on the noise texture and the normalmap texture, we are going to pass the ``VERTEX.xz`` position from the ``vertex()`` function to the ``fragment()`` function. We do that with varyings."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:336
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:337
 msgid "Above the ``vertex()`` define a ``vec2`` called ``tex_position``. And inside the ``vertex()`` function assign ``VERTEX.xz`` to ``tex_position``."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:350
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:351
 msgid "And now we can access ``tex_position`` from the ``fragment()`` function."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:358
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:359
 msgid "With the normals in place the light now reacts to the height of the mesh dynamically."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:363
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:364
 msgid "We can even drag the light around and the lighting will update automatically."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:367
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:368
 msgid "Here is the full code for this tutorial. You can see it is not very long as Godot handles most of the difficult stuff for you."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:390
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_3d_shader.rst:391
 msgid "That is everything for this part. Hopefully, you now understand the basics of vertex shaders in Godot. In the next part of this tutorial we will write a fragment function to accompany this vertex function and we will cover a more advanced technique to turn this terrain into an ocean of moving waves."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

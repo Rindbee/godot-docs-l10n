@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -237,8 +237,4 @@ msgstr ""
 
 #: ../../docs/contributing/development/best_practices_for_engine_contributors.rst:235
 msgid "Libraries must use a permissive enough license to be included into Godot. Some examples of acceptable licenses are Apache 2.0, BSD, MIT, ISC, and MPL 2.0. In particular, we cannot accept libraries licensed under the GPL or LGPL since these licenses effectively disallow static linking in proprietary software (which Godot is distributed as in most exported projects). This requirement also applies to the editor, since we may want to run it on iOS in the long term. Since iOS doesn't support dynamic linking, static linking is the only option on that platform."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

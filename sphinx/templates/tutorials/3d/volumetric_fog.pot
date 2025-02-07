@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -255,7 +255,7 @@ msgstr ""
 msgid "Since Godot 4.1, there is a NoiseTexture3D resource that can be used to procedurally generate 3D noise. This is well-suited to FogMaterial density textures, which can result in more detailed fog effects:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/volumetric_fog.rst:236
+#: ../../docs/tutorials/3d/volumetric_fog.rst:233
 msgid "FogMaterial comparison (without and with density texture)"
 msgstr ""
 
@@ -353,8 +353,4 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/volumetric_fog.rst:306
 msgid "Optionally, billboarding may be left disabled if you place the quad in a way where all of its corners are in solid geometry. This can be useful for fogging large planes that the camera cannot enter, such as bottomless pits."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

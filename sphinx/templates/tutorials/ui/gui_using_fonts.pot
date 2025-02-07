@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -95,7 +95,7 @@ msgstr ""
 msgid "Alternatively, you can import any image to be used as a bitmap font. This is only supported for **monospaced** fonts (fonts where each character has the same width). To do so, select the image in the FileSystem dock, go to the Import dock, change its import type to **Font Data (Monospace Image Font)** then click **Reimport**:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:81
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:77
 msgid "Changing import type to Font Data (Monospace Image Font)"
 msgstr ""
 
@@ -107,7 +107,7 @@ msgstr ""
 msgid "The font's character set layout can be in any order, but orders that match standard Unicode are recommended as they'll require far less configuration to import. For example, the bitmap font below contains `ASCII <https://en.wikipedia.org/wiki/ASCII>`__ characters and follows standard ASCII ordering:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:92
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:88
 msgid "Bitmap font example"
 msgstr ""
 
@@ -119,7 +119,7 @@ msgstr ""
 msgid "The following import options can be used to import the above font image successfully:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:102
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:98
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:102
 msgid "Import options to use for the above example font"
 msgstr ""
@@ -189,7 +189,7 @@ msgstr ""
 msgid "To enable outline for a font on a given node, configure the theme overrides **Font Outline Color** and **Outline Size** in the inspector. The result should look like this:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:177
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:173
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:177
 msgid "Font outline example"
 msgstr ""
@@ -202,7 +202,7 @@ msgstr ""
 msgid "Support for font shadows is more limited: they are only available in :ref:`class_Label` and :ref:`class_RichTextLabel`. Additionally, font shadows always have a hard edge (but you can reduce their opacity to make them look more subtle). To enable font shadows on a given node, configure the **Font Shadow Color**, **Shadow Offset X**, and **Shadow Offset Y** theme overrides in a Label or RichTextLabel node accordingly:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:197
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:193
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:197
 msgid "Configuring font shadow in a Label node"
 msgstr ""
@@ -211,7 +211,7 @@ msgstr ""
 msgid "The result should look like this:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:205
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:201
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:205
 msgid "Font shadow example"
 msgstr ""
@@ -244,7 +244,7 @@ msgstr ""
 msgid "In most games, it's recommended to stick to the default **Grayscale** antialiasing. For non-game applications, LCD subpixel optimization is worth exploring."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:244
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:240
 msgid "Font antialiasing comparison"
 msgstr ""
 
@@ -264,7 +264,7 @@ msgstr ""
 msgid "Hinting controls how aggressively glyph edges should be snapped to pixels when rasterizing the font. **None** results in the smoothest appearance, which can make the font look blurry at small sizes. **Light** (default) is sharper by snapping glyph edges to pixels on the Y axis only, while **Full** is even sharper by snapping glyph edges to pixels on both X and Y axes. Depending on personal preference, you may prefer using one hinting mode over the other."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:267
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:263
 msgid "Font hinting comparison"
 msgstr ""
 
@@ -360,7 +360,7 @@ msgstr ""
 msgid "Fonts with self-intersecting outlines will not render correctly in MSDF mode. If you notice rendering issues on fonts downloaded from websites such as `Google Fonts <https://fonts.google.com>`__, try downloading the font from the font author's official website instead."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:358
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:354
 msgid "Comparison of font rasterization methods"
 msgstr ""
 
@@ -372,7 +372,7 @@ msgstr ""
 msgid "To enable MSDF rendering for a given font, select it in the FileSystem dock, go to the Import dock, enable **Multichannel Signed Distance Field**, then click **Reimport**:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:369
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:365
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:369
 msgid "Enabling MSDF in the font's import options"
 msgstr ""
@@ -401,7 +401,7 @@ msgstr ""
 msgid "For Godot to be able to display emoji, the font used (or one of its :ref:`fallbacks <doc_using_fonts_font_fallbacks>`) needs to include them. Otherwise, emoji won't be displayed and placeholder \"tofu\" characters will appear instead:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:393
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:389
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:393
 msgid "Default appearance when trying to use emoji in a label"
 msgstr ""
@@ -410,7 +410,7 @@ msgstr ""
 msgid "After adding a font to display emoji such as `Noto Color Emoji <https://fonts.google.com/noto/specimen/Noto+Color+Emoji>`__, you get the expected result:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:403
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:399
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:403
 msgid "Correct appearance after adding an emoji font to the label"
 msgstr ""
@@ -476,14 +476,14 @@ msgid "Use a font to render text, and another font to render emoji or icons."
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:477
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:654
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:832
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:677
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:855
 msgid "Open the Advanced Import Settings dialog by double-clicking the font file in the FileSystem dock. You can also select the font in the FileSystem dock, go to the Import dock then choose **Advanced…** at the bottom:"
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:484
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:661
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:839
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:684
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:862
 msgid "Import dock"
 msgstr ""
 
@@ -524,7 +524,7 @@ msgid "To use a variable font, create a :ref:`class_FontVariation` resource in t
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:529
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:682
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:705
 msgid "Creating a FontVariation resource"
 msgstr ""
 
@@ -553,464 +553,548 @@ msgid "Variable font example (Inter V)"
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:558
-msgid "While variable font axis names and scales aren't standardized, some common conventions are usually followed by font designers. For instance, the *weight* axis typically uses ``400`` as the \"regular\" font weight and ``700`` as the \"bold\" font weight."
+msgid "While variable font axis names and scales aren't standardized, some common conventions are usually followed by font designers. The *weight* axis is standardized in OpenType to work as follows:"
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:563
-msgid "You can save the FontVariation to a ``.tres`` resource file to reuse it in other places:"
+msgid "Axis value"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:563
+msgid "Effective font weight"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:565
+msgid "``100``"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:565
+msgid "Thin (Hairline)"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:567
+msgid "``200``"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:567
+msgid "Extra Light (Ultra Light)"
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:569
-msgid "Saving FontVariation to an external resource file"
+msgid "``300``"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:572
-msgid "Faux bold and italic"
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:569
+msgid "Light"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:574
-msgid "When writing text in bold or italic, using font variants specifically designed for this looks better. Spacing between glyphs will be more consistent when using a bold font, and certain glyphs' shapes may change entirely in italic variants (compare \"a\" and *\"a\"*)."
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:571
+msgid "``400``"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:571
+msgid "**Regular (Normal)**"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:573
+msgid "``500``"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:573
+msgid "Medium"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:575
+msgid "``600``"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:575
+msgid "Semi-Bold (Demi-Bold)"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:577
+msgid "``700``"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:577
+msgid "**Bold**"
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:579
-msgid "However, real bold and italic fonts require shipping more font files, which increases distribution size. A single :ref:`variable font <doc_using_fonts_variable_fonts>` file can also be used, but this file will be larger than a single non-variable font. While file size is usually not an issue for desktop projects, it can be a concern for mobile/web projects that strive to keep distribution size as low as possible."
+msgid "``800``"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:585
-msgid "To allow bold and italic fonts to be displayed without having to ship additional fonts (or use a variable font that is larger in size), Godot supports *faux* bold and italic."
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:579
+msgid "Extra Bold (Ultra Bold)"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:593
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:593
-msgid "Faux bold/italic (top), real bold/italic (bottom). Normal font used: Open Sans SemiBold"
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:581
+msgid "``900``"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:581
+msgid "Black (Heavy)"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:583
+msgid "``950``"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:583
+msgid "Extra Black (Ultra Black)"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:586
+msgid "You can save the FontVariation to a ``.tres`` resource file to reuse it in other places:"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:592
+msgid "Saving FontVariation to an external resource file"
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:595
-msgid "Faux bold and italic is automatically used in :ref:`class_RichTextLabel`'s bold and italic tags if no custom fonts are provided for bold and/or italic."
+msgid "Faux bold and italic"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:598
-msgid "To use faux bold, create a FontVariation resource in a property where a Font resource is expected. Set **Variation > Embolden** to a positive value to make a font bolder, or to a negative value to make it less bold. Recommended values are between ``0.5`` and ``1.2`` depending on the font."
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:597
+msgid "When writing text in bold or italic, using font variants specifically designed for this looks better. Spacing between glyphs will be more consistent when using a bold font, and certain glyphs' shapes may change entirely in italic variants (compare \"a\" and *\"a\"*)."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:603
-msgid "Faux italic is created by skewing the text, which is done by modifying the per-character transform. This is also provided in FontVariation using the **Variation > Transform** property. Setting the ``yx`` component of the character transform to a positive value will italicize the text. Recommended values are between ``0.2`` and ``0.4`` depending on the font."
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:602
+msgid "However, real bold and italic fonts require shipping more font files, which increases distribution size. A single :ref:`variable font <doc_using_fonts_variable_fonts>` file can also be used, but this file will be larger than a single non-variable font. While file size is usually not an issue for desktop projects, it can be a concern for mobile/web projects that strive to keep distribution size as low as possible."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:610
-msgid "Adjusting font spacing"
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:608
+msgid "To allow bold and italic fonts to be displayed without having to ship additional fonts (or use a variable font that is larger in size), Godot supports *faux* bold and italic."
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:612
-msgid "For stylistic purposes or for better readability, you may want to adjust how a font is presented in Godot."
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:616
+msgid "Faux bold/italic (top), real bold/italic (bottom). Normal font used: Open Sans SemiBold"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:615
-msgid "Create a FontVariation resource in a property where a Font resource is expected. There are 4 properties available in the **Variation > Extra Spacing** section, which accept positive and negative values:"
-msgstr ""
-
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:619
-msgid "**Glyph:** Additional spacing between every glyph."
-msgstr ""
-
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:620
-msgid "**Space:** Additional spacing between words."
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:618
+msgid "Faux bold and italic is automatically used in :ref:`class_RichTextLabel`'s bold and italic tags if no custom fonts are provided for bold and/or italic."
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:621
+msgid "To use faux bold, create a FontVariation resource in a property where a Font resource is expected. Set **Variation > Embolden** to a positive value to make a font bolder, or to a negative value to make it less bold. Recommended values are between ``0.5`` and ``1.2`` depending on the font."
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:626
+msgid "Faux italic is created by skewing the text, which is done by modifying the per-character transform. This is also provided in FontVariation using the **Variation > Transform** property. Setting the ``yx`` component of the character transform to a positive value will italicize the text. Recommended values are between ``0.2`` and ``0.4`` depending on the font."
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:633
+msgid "Adjusting font spacing"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:635
+msgid "For stylistic purposes or for better readability, you may want to adjust how a font is presented in Godot."
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:638
+msgid "Create a FontVariation resource in a property where a Font resource is expected. There are 4 properties available in the **Variation > Extra Spacing** section, which accept positive and negative values:"
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:642
+msgid "**Glyph:** Additional spacing between every glyph."
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:643
+msgid "**Space:** Additional spacing between words."
+msgstr ""
+
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:644
 msgid "**Top:** Additional spacing above glyphs. This is used for multiline text, but also to calculate the minimum size of controls such as :ref:`class_Label` and :ref:`class_Button`."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:624
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:647
 msgid "**Top:** Additional spacing below glyphs. This is used for multiline text, but also to calculate the minimum size of controls such as :ref:`class_Label` and :ref:`class_Button`."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:628
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:651
 msgid "The **Variation > Transform** property can also be adjusted to stretch characters horizontally or vertically. This is specifically done by adjusting the ``xx`` (horizontal scale) and ``yy`` (vertical scale) components. Remember to adjust glyph spacing to account for any changes, as glyph transform doesn't affect how much space each glyph takes in the text. Non-uniform scaling of this kind should be used sparingly, as fonts are generally not designed to be displayed with stretching."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:639
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:662
 msgid "OpenType font features"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:641
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:664
 msgid "Godot supports enabling OpenType font features, which are a standardized way to define alternate characters that can be toggled without having to swap font files entirely. Despite being named OpenType font features, these are also supported in TrueType (``.ttf``) and WOFF/WOFF2 font files."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:646
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:669
 msgid "Support for OpenType features highly depends on the font used. Some fonts don't support any OpenType features, while other fonts can support dozens of toggleable features."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:650
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:673
 msgid "There are 2 ways to use OpenType font features:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:652
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:675
 msgid "**Globally on a font file**"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:663
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:686
 msgid "In the dialog that appears, look for the **Metadata Overrides > OpenType Features** section on the sidebar on the right, click the **Features (0 of N set)** text to expand the property, then click **Add Feature**:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:671
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:694
 msgid "OpenType feature overrides in Advanced Import Settings"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:673
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:696
 msgid "**In a specific font usage (FontVariation)**"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:675
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:698
 msgid "To use a font feature, create a FontVariation resource like you would do for a :ref:`variable font <doc_using_fonts_variable_fonts>`, then load a font file within the FontVariation resource:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:687
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:710
 msgid "Loading a font file into a FontVariation resource"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:689
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:712
 msgid "Scroll down to the FontVariation's **OpenType Features** section, click the **Features (0 of N set)** text to expand the property, then click **Add Feature** and select the desired feature in the dropdown:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:696
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:719
 msgid "Specifying OpenType features in a FontVariation resource"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:698
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:721
 msgid "For example, here's the `Inter <https://rsms.me/inter/>`__ font without the *Slashed Zero* feature (top), then with the *Slashed Zero* OpenType feature enabled (bottom):"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:705
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:728
 msgid "OpenType feature comparison (Inter)"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:707
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:730
 msgid "You can disable ligatures and/or kerning for a specific font by adding OpenType features, then unchecking them in the inspector:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:713
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:736
 msgid "Disabling ligatures and kerning for a font"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:718
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:741
 msgid "System fonts"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:722
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:745
 msgid "Loading system fonts is only supported on Windows, macOS, Linux, Android and iOS."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:724
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:747
 msgid "However, loading system fonts on Android is unreliable as there is no official API for doing so. Godot has to rely on parsing system configuration files, which can be modified by third-party Android vendors. This may result in non-functional system font loading."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:729
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:752
 msgid "System fonts are a different type of resource compared to imported fonts. They are never actually imported into the project, but are loaded at run-time. This has 2 benefits:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:733
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:756
 msgid "The fonts are not included within the exported PCK file, leading to a smaller file size for the exported project."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:735
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:758
 msgid "Since fonts are not included with the exported project, this avoids licensing issues that would occur if proprietary system fonts were distributed alongside the project."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:739
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:762
 msgid "The engine automatically uses system fonts as fallback fonts, which makes it possible to display CJK characters and emoji without having to load a custom font. There are some restrictions that apply though, as mentioned in the :ref:`Using emoji <doc_using_fonts_emoji>` section."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:744
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:767
 msgid "Create a :ref:`class_SystemFont` resource in the location where you desire to use the system font:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:750
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:773
 msgid "Creating a SystemFont resource"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:755
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:778
 msgid "Specifying a font name to use in a SystemFont resource"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:757
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:780
 msgid "You can either specify one or more font names explicitly (such as ``Arial``), or specify the name of a font *alias* that maps to a \"standard\" default font for the system:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:764
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:787
 msgid "Font alias"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:764
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:787
 msgid "Windows"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:764
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:787
 msgid "macOS/iOS"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:764
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:787
 msgid "Linux"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:764
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:787
 msgid "Android"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:766
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:789
 msgid "``sans-serif``"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:766
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:789
 msgid "Arial"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:766
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:789
 msgid "Helvetica"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:766
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:768
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:770
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:772
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:774
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:789
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:791
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:793
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:795
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:797
 msgid "*Handled by fontconfig*"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:766
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:789
 msgid "Roboto / Noto Sans"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:768
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:791
 msgid "``serif``"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:768
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:791
 msgid "Times New Roman"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:768
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:791
 msgid "Times"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:768
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:791
 msgid "Noto Serif"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:770
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:793
 msgid "``monospace``"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:770
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:793
 msgid "Courier New"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:770
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:793
 msgid "Courier"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:770
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:774
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:793
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:797
 msgid "Droid Sans Mono"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:772
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:795
 msgid "``cursive``"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:772
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:795
 msgid "Comic Sans MS"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:772
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:795
 msgid "Apple Chancery"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:772
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:795
 msgid "Dancing Script"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:774
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:797
 msgid "``fantasy``"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:774
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:797
 msgid "Gabriola"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:774
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:797
 msgid "Papyrus"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:777
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:800
 msgid "On Android, Roboto is used for Latin/Cyrillic text and Noto Sans is used for other languages' glyphs such as CJK. On third-party Android distributions, the exact font selection may differ."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:781
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:804
 msgid "If specifying more than one font, the first font that is found on the system will be used (from top to bottom). Font names and aliases are case-insensitive on all platforms."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:785
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:808
 msgid "Like for font variations, you can save the SystemFont arrangement to a resource file to reuse it in other places."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:788
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:811
 msgid "Remember that different system fonts have different metrics, which means that text that can fit within a rectangle on one platform may not be doing so on another platform. Always reserve some additional space during development so that labels can extend further if needed."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:795
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:818
 msgid "Unlike Windows and macOS/iOS, the set of default fonts shipped on Linux depends on the distribution. This means that on different Linux distributions, different fonts may be displayed for a given system font name or alias."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:800
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:823
 msgid "It is also possible to load fonts at runtime even if they aren't installed on the system. See :ref:`Runtime loading and saving <doc_runtime_file_loading_and_saving_fonts>` for details."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:807
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:830
 msgid "Font prerendering"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:809
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:832
 msgid "When using traditional rasterized fonts, Godot caches glyphs on a per-font and per-size basis. This reduces stuttering, but it can still occur the first time a glyph is displayed when running the project. This can be especially noticeable at higher font sizes or on mobile devices."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:814
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:837
 msgid "When using MSDF fonts, they only need to be rasterized once to a special signed distance field texture. This means caching can be done purely on a per-font basis, without taking the font size into consideration. However, the initial rendering of MSDF fonts is slower compared to a traditional rasterized font at a medium size."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:820
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:843
 msgid "To avoid stuttering issues related to font rendering, it is possible to *prerender* certain glyphs. This can be done for all glyphs you intend to use (for optimal results), or only for common glyphs that are most likely to appear during gameplay (to reduce file size). Glyphs that aren't pre-rendered will be rasterized on-the-fly as usual."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:828
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:851
 msgid "In both cases (traditional and MSDF), font rasterization is done on the CPU. This means that the GPU performance doesn't affect how long it takes for fonts to be rasterized."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:841
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:864
 msgid "Move to the **Pre-render Configurations** tab of the Advanced Import Settings dialog, then add a configuration by clicking the \"plus\" symbol:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:848
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:848
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:867
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:871
 msgid "Adding a new prerendering configuration in the Advanced Import Settings dialog"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:850
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:873
 msgid "After adding a configuration, make sure it is selected by clicking its name once. You can also rename the configuration by double-clicking it."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:853
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:876
 msgid "There are 2 ways to add glyphs to be prerendered to a given configuration. It is possible to use both approaches in a cumulative manner:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:856
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:879
 msgid "**Using text from translations**"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:858
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:881
 msgid "For most projects, this approach is the most convenient to use, as it automatically sources text from your language translations. The downside is that it can only be used if your project supports :ref:`internationalization <doc_internationalizing_games>`. Otherwise, stick to the \"Using custom text\" approach described below."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:864
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:887
 msgid "After adding translations to the Project Settings, use the **Glyphs from the Translations** tab to check translations by double-clicking them, then click **Shape All Strings in the Translations and Add Glyphs** at the bottom:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:872
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:891
 msgid "Enabling prerendering in the Advanced Import Settings dialog with the Glyphs from the Translations tab"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:872
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:895
 msgid "Enabling prerendering in the Advanced Import Settings dialog with the **Glyphs from the Translations** tab"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:876
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:899
 msgid "The list of prerendered glyphs is not automatically updated when translations are updated, so you need to repeat this process if your translations have changed significantly."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:880
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:903
 msgid "**Using custom text**"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:882
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:905
 msgid "While it requires manually specifying text that will appear in the game, this is the most efficient approach for games which don't feature user text input. This approach is worth exploring for mobile games to reduce the file size of the distributed app."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:887
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:910
 msgid "To use existing text as a baseline for prerendering, go to the **Glyphs from the Text** sub-tab of the Advanced Import Settings dialog, enter text in the window on the right, then click **Shape Text and Add Glyphs** at the bottom of the dialog:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:896
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:915
 msgid "Enabling prerendering in the Advanced Import Settings dialog, Glyphs from the Text tab"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:896
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:919
 msgid "Enabling prerendering in the Advanced Import Settings dialog with the **Glyphs from the Text** tab"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:900
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:923
 msgid "If your project supports :ref:`internationalization <doc_internationalizing_games>`, you can paste the contents of your CSV or PO files in the above box to quickly prerender all possible characters that may be rendered during gameplay (excluding user-provided or non-translatable strings)."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:905
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:928
 msgid "**By enabling character sets**"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:907
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:930
 msgid "The second method requires less configuration and fewer updates if your game's text changes, and is more suited to text-heavy games or multiplayer games with chat. On the other hand, it may cause glyphs that never show up in the game to be prerendered, which is less efficient in terms of file size."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:912
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:935
 msgid "To use existing text as a baseline for prerendering, go to the **Glyphs from the Character Map** sub-tab of the Advanced Import Settings dialog, then *double-click* character sets to be enabled on the right:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:920
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:939
 msgid "Enabling prerendering in the Advanced Import Settings dialog, Glyphs from the Character Map tab"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:920
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:943
 msgid "Enabling prerendering in the Advanced Import Settings dialog with the **Glyphs from the Character Map** tab"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:922
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:945
 msgid "To ensure full prerendering, the character sets you need to enable depend on which languages are supported in your game. For English, only **Basic Latin** needs to be enabled. Enabling **Latin-1 Supplement** as well allows fully covering many more languages, such as French, German and Spanish. For Russian, **Cyrillic** needs to be enabled, and so on."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:929
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:952
 msgid "Default project font properties"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:931
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:954
 msgid "In the **GUI > Theme** section of the advanced Project Settings, you can choose how the default font should be rendered:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:934
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:957
 msgid "**Default Font Antialiasing:** Controls the :ref:`antialiasing <doc_using_fonts_antialiasing>` method used for the default project font."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:937
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:960
 msgid "**Default Font Hinting:** Controls the :ref:`hinting <doc_using_fonts_hinting>` method used for the default project font."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:940
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:963
 msgid "**Default Font Subpixel Positioning:** Controls the :ref:`subpixel positioning <doc_using_fonts_subpixel_positioning>` method for the default project font."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:943
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:966
 msgid "**Default Font Multichannel Signed Distance Field:** If ``true``, makes the default project font use :ref:`MSDF font rendering <doc_using_fonts_msdf>` instead of traditional rasterization."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:946
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:969
 msgid "**Default Font Generate Mipmaps:** If ``true``, enables :ref:`mipmap <doc_using_fonts_mipmaps>` generation and usage for the default project font."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:952
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:975
 msgid "These project settings *only* affect the default project font (the one that is hardcoded in the engine binary)."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:955
+#: ../../docs/tutorials/ui/gui_using_fonts.rst:978
 msgid "Custom fonts' properties are governed by their respective import options instead. You can use the **Import Defaults** section of the Project Settings dialog to override default import options for custom fonts."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -52,7 +52,7 @@ msgid "How to balance decal configuration between performance and quality."
 msgstr ""
 
 #: ../../docs/tutorials/3d/using_decals.rst:31
-msgid "The Godot demo projects repository contains a `3D decals demo <https://github.com/godotengine/godot-demo-projects/tree/4.0-dev/3d/decals>`__."
+msgid "The Godot demo projects repository contains a `3D decals demo <https://github.com/godotengine/godot-demo-projects/tree/master/3d/decals>`__."
 msgstr ""
 
 #: ../../docs/tutorials/3d/using_decals.rst:34
@@ -75,7 +75,7 @@ msgstr ""
 msgid "Since decals can inject their own :abbr:`PBR (Physically-Based Rendering)` properties on top of the projected surfaces, they can also be used to create footprints or wet puddles."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_decals.rst:58
+#: ../../docs/tutorials/3d/using_decals.rst:54
 #: ../../docs/tutorials/3d/using_decals.rst:58
 msgid "Dirt added on top of level geometry using decals"
 msgstr ""
@@ -108,7 +108,7 @@ msgstr ""
 msgid "Even with real-time lighting, blob shadows can still be useful as a form of ambient occlusion for situations where SSAO is too expensive or too unstable due to its screen-space nature. For example, vehicles' underside shadows are well-represented using blob shadows."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_decals.rst:93
+#: ../../docs/tutorials/3d/using_decals.rst:89
 #: ../../docs/tutorials/3d/using_decals.rst:93
 msgid "Blob shadow under object comparison"
 msgstr ""
@@ -237,7 +237,7 @@ msgstr ""
 msgid "If you want to ensure a decal is always rendered on top of other decals, you need to set its **Sorting Offset** property to a positive value greater than the AABB length of the largest decal that may overlap it. To make this decal drawn behind other decals instead, set the **Sorting Offset** to the same negative value."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_decals.rst:221
+#: ../../docs/tutorials/3d/using_decals.rst:217
 #: ../../docs/tutorials/3d/using_decals.rst:221
 msgid "VisualInstance3D Sorting Offset comparison on Decals"
 msgstr ""
@@ -255,33 +255,29 @@ msgid "To improve rendering performance, you can enable the **Distance Fade** pr
 msgstr ""
 
 #: ../../docs/tutorials/3d/using_decals.rst:237
-msgid "The way decals are rendered also has an impact on performance. The **Rendering > Textures > Decals > Filter** advanced project setting lets you control how decal textures should be filtered. **Nearest/Linear** does not use mipmaps. However, decals will look grainy at a distance. **Nearest/Linear Mipmaps** will look smoother at a distance, but decals will look blurry when viewed from oblique angles. This can be resolved by using **Nearest/Linear Mipmaps Anisotropic**, which provides the highest quality but is also slower to render."
+msgid "The way decals are rendered also has an impact on performance. The :ref:`Rendering > Textures > Decals > Filter<class_ProjectSettings_property_rendering/textures/decals/filter>` advanced project setting lets you control how decal textures should be filtered. **Nearest/Linear** does not use mipmaps. However, decals will look grainy at a distance. **Nearest/Linear Mipmaps** will look smoother at a distance, but decals will look blurry when viewed from oblique angles. This can be resolved by using **Nearest/Linear Mipmaps Anisotropic**, which provides the highest quality but is also slower to render."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_decals.rst:245
+#: ../../docs/tutorials/3d/using_decals.rst:246
 msgid "If your project has a pixel art style, consider setting the filter to one of the **Nearest** values so that decals use nearest-neighbor filtering. Otherwise, stick to **Linear**."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_decals.rst:250
+#: ../../docs/tutorials/3d/using_decals.rst:251
 msgid "Limitations"
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_decals.rst:252
+#: ../../docs/tutorials/3d/using_decals.rst:253
 msgid "Decals cannot affect material properties other than the ones listed above, such as height (for parallax mapping)."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_decals.rst:255
+#: ../../docs/tutorials/3d/using_decals.rst:256
 msgid "For performance reasons, decals use purely fixed rendering logic. This means decals cannot use custom shaders. However, custom shaders on the projected surfaces are able to read the information that is overridden by decals on top of them, such as roughness and metallic."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_decals.rst:260
-msgid "When using the Forward+ renderer, Godot uses a *clustering* approach for decal rendering. As many decals as desired can be added (as long as performance allows). However, there's still a default limit of 512 *clustered elements* that can be present in the current camera view. A clustered element is an omni light, a spot light, a :ref:`decal <doc_using_decals>` or a :ref:`reflection probe <doc_reflection_probes>`. This limit can be increased by adjusting the **Rendering > Limits > Cluster Builder > Max Clustered Elements** advanced project setting."
+#: ../../docs/tutorials/3d/using_decals.rst:261
+msgid "When using the Forward+ renderer, Godot uses a *clustering* approach for decal rendering. As many decals as desired can be added (as long as performance allows). However, there's still a default limit of 512 *clustered elements* that can be present in the current camera view. A clustered element is an omni light, a spot light, a :ref:`decal <doc_using_decals>` or a :ref:`reflection probe <doc_reflection_probes>`. This limit can be increased by adjusting :ref:`Max Clustered Elements<class_ProjectSettings_property_rendering/limits/cluster_builder/max_clustered_elements>` in **Project Settings > Rendering > Limits > Cluster Builder**."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_decals.rst:269
+#: ../../docs/tutorials/3d/using_decals.rst:270
 msgid "When using the Forward Mobile backend, only 8 decals can be applied on each individual Mesh *resource*. If there are more decals affecting a single mesh, not all of them will be rendered on the mesh."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

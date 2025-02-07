@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -177,8 +177,4 @@ msgstr ""
 
 #: ../../docs/tutorials/export/exporting_pcks.rst:140
 msgid "This tutorial explains how to add mods, patches, or DLC to a game. The most important thing is to identify how one plans to distribute future content for their game and develop a workflow that is customized for that purpose. Godot should make that process smooth regardless of which route a developer pursues."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

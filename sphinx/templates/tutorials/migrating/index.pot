@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -25,8 +25,4 @@ msgstr ""
 
 #: ../../docs/tutorials/migrating/index.rst:12
 msgid "Still, new features, usability improvements, or paradigm shifts in engine's internals may incentivize you to upgrade. Below is a list of articles that should assist you when upgrading your project between versions. Each article would try its best to document every important difference and provide you with a migration path."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

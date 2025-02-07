@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -136,13 +136,9 @@ msgid "After compiling the editor, extract the ZIP archive that was created in t
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/compiling_for_web.rst:127
-msgid "This will serve the contents of the ``bin/`` folder and open the default web browser automatically. In the page that opens, access ``godot.tools.html`` and you should be able to test the web editor this way."
+msgid "This will serve the contents of the ``bin/`` folder and open the default web browser automatically. In the page that opens, access ``godot.editor.html`` and you should be able to test the web editor this way."
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/compiling_for_web.rst:131
 msgid "Note that for production use cases, this Python-based web server should not be used. Instead, you should use an established web server such as Apache or nginx."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

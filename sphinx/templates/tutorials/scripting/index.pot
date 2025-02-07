@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,7 +27,7 @@ msgstr ""
 msgid "Here, you will find information that is not already covered in more specific sections. For instance, to learn about inputs, we recommend you to read :ref:`Inputs <toc-learn-features-inputs>`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/index.rst:14
+#: ../../docs/tutorials/scripting/index.rst:-1
 msgid "Programming languages"
 msgstr ""
 
@@ -41,8 +41,4 @@ msgstr ""
 
 #: ../../docs/tutorials/scripting/index.rst:29
 msgid "Some features are specific to the engine and are available in all supported languages. Whether you code in GDScript, C#, or another language, the pages below will help you make the most of Godot."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

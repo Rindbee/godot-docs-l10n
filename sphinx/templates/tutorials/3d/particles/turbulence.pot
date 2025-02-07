@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/3d/particles/turbulence.rst:4
-#: ../../docs/tutorials/3d/particles/turbulence.rst:None
+#: ../../docs/tutorials/3d/particles/turbulence.rst:6
 msgid "Particle turbulence"
 msgstr ""
 
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Turbulence uses a noise texture to add variation and interesting patterns to particle movement. It can be combined with :ref:`particle attractors <doc_3d_particles_attractors>` and :ref:`collision <doc_3d_particles_collision>` nodes to create even more complex looking behavior."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/turbulence.rst:17
+#: ../../docs/tutorials/3d/particles/turbulence.rst:13
 msgid "Turbulence properties"
 msgstr ""
 
@@ -52,7 +52,7 @@ msgstr ""
 msgid "The ``Noise Strength`` property controls the pattern's contrast, which affects the overall turbulence sharpness. A lower value creates a softer pattern where individual movement paths are not as sharply separated from another. Set this to a higher number to make the pattern more distinct."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/turbulence.rst:46
+#: ../../docs/tutorials/3d/particles/turbulence.rst:43
 msgid "Turbulence noise strength"
 msgstr ""
 
@@ -64,7 +64,7 @@ msgstr ""
 msgid "The ``Noise Scale`` property controls the pattern's frequency. It basically changes the noise texture's UV scale where a smaller value produces finer detail, but repeating patterns become noticeable faster. A larger value results in a weaker turbulence pattern overall, but the particle system can cover a larger area before repetition starts to become an issue."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/turbulence.rst:56
+#: ../../docs/tutorials/3d/particles/turbulence.rst:53
 msgid "Turbulence noise scale"
 msgstr ""
 
@@ -84,7 +84,7 @@ msgstr ""
 msgid "At a value of ``(X=0,Y=0,Z=0)``, the noise pattern doesn't move at all. The influence on particle movement stays the same at any given point. Set the speed to ``(X=1,Y=0,Z=0)`` instead, and the noise pattern moves along the X-axis."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/turbulence.rst:76
+#: ../../docs/tutorials/3d/particles/turbulence.rst:73
 msgid "Turbulence noise speed"
 msgstr ""
 
@@ -108,7 +108,7 @@ msgstr ""
 msgid "Since these properties affect the overall influence of the turbulence over a particle system, both movement direction and speed change as you set different values. A stronger influence causes a particle to move faster and all particles to follow along narrower paths as a result of that."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/turbulence.rst:99
+#: ../../docs/tutorials/3d/particles/turbulence.rst:96
 msgid "Turbulence influence"
 msgstr ""
 
@@ -128,14 +128,10 @@ msgstr ""
 msgid "Displacement is very useful to break up regular shapes or to create complex shapes from simpler ones. The only difference between the particle systems in the screenshot below is the value given to the displacement properties."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/turbulence.rst:116
+#: ../../docs/tutorials/3d/particles/turbulence.rst:113
 msgid "Turbulence displacement"
 msgstr ""
 
 #: ../../docs/tutorials/3d/particles/turbulence.rst:116
 msgid "No displacement (left), displacement value of 5 (middle), displacement range [-20, 20] (right)"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -91,7 +91,7 @@ msgstr ""
 msgid "The glTF import process first loads the glTF file's data into an in-memory GLTFState class. This data is then used to generate a Godot scene. When importing files at runtime, this scene can be directly added to the tree. The export process is the reverse of this, a Godot scene is converted to a GLTFState class, then the glTF file is generated from that."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:None
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:62
 msgid "Diagram explaining the runtime import and export process for glTF files in Godot"
 msgstr ""
 
@@ -99,7 +99,7 @@ msgstr ""
 msgid "When importing glTF files in the editor, there are two more steps. After generating the Godot scene, the ResourceImporterScene class is used to apply additional import settings, including settings you set through the Import dock and the Advanced Import Settings dialog. This is then saved as a Godot scene file, which is what gets used when you run/export your game."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:None
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:72
 msgid "Diagram explaining the editor import process for glTF files in Godot"
 msgstr ""
 
@@ -151,7 +151,7 @@ msgstr ""
 msgid "The ``.blend`` import process converts to glTF first, so it still uses Godot's glTF import code. Therefore, the ``.blend`` import process is the same as the glTF import process, but with an extra step at the beginning."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:None
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:135
 msgid "Diagram explaining the import process for Blender files in Godot"
 msgstr ""
 
@@ -172,65 +172,61 @@ msgid "Blender has built-in COLLADA support, but it does not work properly for t
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:157
-msgid "For complex scenes or scenes that contain animations, Godot provides a `Blender plugin <https://github.com/godotengine/collada-exporter>`_ that will correctly export COLLADA scenes for use in Godot."
-msgstr ""
-
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:162
-msgid "Importing OBJ files in Godot"
+msgid "For complex scenes or scenes that contain animations, Godot provides a `Blender plugin <https://github.com/godotengine/collada-exporter>`_ that will correctly export COLLADA scenes for use in Godot. This plugin is not maintained or supported in Godot 4.x, but may still work depending on your Godot and Blender versions."
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:164
+msgid "Importing OBJ files in Godot"
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:166
 msgid "OBJ is one of the simplest 3D formats out there, so Godot should be able to import most OBJ files successfully. However, OBJ is also a very limited format: it doesn't support skinning, animation, UV2 or PBR materials."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:168
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:170
 msgid "There are 2 ways to use OBJ meshes in Godot:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:170
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:172
 msgid "Load them directly in a MeshInstance3D node, or any other property that expects as mesh (such as GPUParticles3D). This is the default mode."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:172
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:174
 msgid "Change their import mode to **OBJ as Scene** in the Import dock then restart the editor. This allows you to use the same import options as glTF or Collada scenes, such as unwrapping UV2 on import (for :ref:`doc_using_lightmap_gi`)."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:178
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:180
 msgid "Blender 3.4 and later can export RGB vertex colors in OBJ files (this is a nonstandard extension of the OBJ format). Godot is able to import those vertex colors since Godot 4.0, but they will not be displayed on the material unless you enable **Vertex Color > Use As Albedo** on the material."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:183
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:185
 msgid "Vertex colors from OBJ meshes keep their original color space once imported (sRGB/linear), but their brightness is clamped to 1.0 (they can't be overbright)."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:188
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:190
 msgid "Importing FBX files in Godot"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:190
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:192
 msgid "By default any FBX file added to a Godot project in Godot 4.3 or later will use the ufbx import method. Any file that was was added to a project in a previous version, such as 4.2, will continue to be imported via the FBX2glTF method unless you go into that files import settings, and change the importer to  ``ufbx``."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:196
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:198
 msgid "If you keep ``.fbx`` files within your project folder but don't want them to be imported by Godot, disable **Filesystem > Import > FBX > Enabled** in the advanced Project Settings."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:202
 msgid "If you want to setup the FBX2glTF workflow, which is generally not recommend unless you have a specific reason to use it, you need to download the `FBX2glTF <https://github.com/godotengine/FBX2glTF>`__ executable, then specify the path to that executable in the editor settings under **Filesystem > Import > FBX > FBX2glTFPath**"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:205
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:207
 msgid "The FBX2glTF import process converts to glTF first, so it still uses Godot's glTF import code. Therefore, the FBX import process is the same as the glTF import process, but with an extra step at the beginning."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:None
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:211
 msgid "Diagram explaining the import process for FBX files in Godot  via FBX2glTF"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:215
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:217
 msgid "The full installation process for using FBX2glTF in Godot is described on the `FBX import page of the Godot website <https://godotengine.org/fbx-import>`__."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

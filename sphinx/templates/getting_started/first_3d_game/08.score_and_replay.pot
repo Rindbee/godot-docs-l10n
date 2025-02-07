@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -40,7 +40,6 @@ msgid "|image1|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:449
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:449
 msgid "image1"
 msgstr ""
 
@@ -52,7 +51,6 @@ msgstr ""
 msgid "|image2|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:450
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:450
 msgid "image2"
 msgstr ""
@@ -70,7 +68,6 @@ msgid "|image3|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:451
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:451
 msgid "image3"
 msgstr ""
 
@@ -82,7 +79,6 @@ msgstr ""
 msgid "|image4|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:452
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:452
 msgid "image4"
 msgstr ""
@@ -104,7 +100,6 @@ msgid "|image5|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:453
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:453
 msgid "image5"
 msgstr ""
 
@@ -116,7 +111,6 @@ msgstr ""
 msgid "|image6|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:454
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:454
 msgid "image6"
 msgstr ""
@@ -146,7 +140,6 @@ msgid "|image7|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:455
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:455
 msgid "image7"
 msgstr ""
 
@@ -174,7 +167,6 @@ msgstr ""
 msgid "|image8|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:456
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:456
 msgid "image8"
 msgstr ""
@@ -216,7 +208,6 @@ msgid "|image9|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:457
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:457
 msgid "image9"
 msgstr ""
 
@@ -245,7 +236,6 @@ msgid "|image10|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:458
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:458
 msgid "image10"
 msgstr ""
 
@@ -258,7 +248,6 @@ msgid "|image11|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:459
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:459
 msgid "image11"
 msgstr ""
 
@@ -270,7 +259,6 @@ msgstr ""
 msgid "|image12|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:460
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:460
 msgid "image12"
 msgstr ""
@@ -292,7 +280,6 @@ msgid "|image13|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:461
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:461
 msgid "image13"
 msgstr ""
 
@@ -304,7 +291,6 @@ msgstr ""
 msgid "|image14|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:462
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:462
 msgid "image14"
 msgstr ""
@@ -362,7 +348,6 @@ msgid "|image15|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:463
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:463
 msgid "image15"
 msgstr ""
 
@@ -374,7 +359,6 @@ msgstr ""
 msgid "|image16|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:464
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:464
 msgid "image16"
 msgstr ""
@@ -388,7 +372,6 @@ msgid "|image17|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:465
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:465
 msgid "image17"
 msgstr ""
 
@@ -397,7 +380,7 @@ msgid "Save the scene as ``music_player.tscn``."
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:326
-msgid "We have to register it as an autoload. Head to the *Project -> Project Settings…* menu and click on the *Autoload* tab."
+msgid "We have to register it as an autoload. Head to the *Project -> Project Settings…* menu and click on the *Globals -> Autoload* tab."
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:329
@@ -408,7 +391,6 @@ msgstr ""
 msgid "|image18|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:466
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:466
 msgid "image18"
 msgstr ""
@@ -426,7 +408,6 @@ msgid "|image19|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:467
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:467
 msgid "image19"
 msgstr ""
 
@@ -438,7 +419,6 @@ msgstr ""
 msgid "|image20|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:468
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:468
 msgid "image20"
 msgstr ""
@@ -453,8 +433,4 @@ msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:356
 msgid "Here is the complete ``main.gd`` script for reference."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -83,7 +83,7 @@ msgstr ""
 msgid "To enable Movie Maker mode, click the \"movie reel\" button in the top-right corner of the editor *before* running the project:"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:67
+#: ../../docs/tutorials/animation/creating_movies.rst:63
 #: ../../docs/tutorials/animation/creating_movies.rst:67
 msgid "Movie Maker mode is disabled, click the \"movie reel\" icon to enable"
 msgstr ""
@@ -92,7 +92,7 @@ msgstr ""
 msgid "The icon gets a background matching the accent color when Movie Maker mode is enabled:"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:76
+#: ../../docs/tutorials/animation/creating_movies.rst:72
 #: ../../docs/tutorials/animation/creating_movies.rst:76
 msgid "Movie Maker mode is enabled, click the \"movie reel\" icon again to disable"
 msgstr ""
@@ -109,7 +109,7 @@ msgstr ""
 msgid "Before you can record video by running the project, you still need to configure the output file path. This path can be set for all scenes in the Project Settings:"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:93
+#: ../../docs/tutorials/animation/creating_movies.rst:89
 #: ../../docs/tutorials/animation/creating_movies.rst:93
 msgid "Movie Maker project settings (with Advanced toggle enabled)"
 msgstr ""
@@ -118,7 +118,7 @@ msgstr ""
 msgid "Alternatively, you can set the output file path on a per-scene basis by adding a String metadata with the name ``movie_file`` to the scene's **root node**. This is only used when the main scene is set to the scene in question, or when running the scene directly by pressing :kbd:`F6` (:kbd:`Cmd + R` on macOS)."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:104
+#: ../../docs/tutorials/animation/creating_movies.rst:100
 #: ../../docs/tutorials/animation/creating_movies.rst:104
 msgid "Inspector view after creating a ``movie_file`` metadata of type String"
 msgstr ""
@@ -279,142 +279,138 @@ msgstr ""
 msgid "This feature tag can also be queried in a script to increase quality settings that are set in the Environment resource. For example, to further improve SDFGI detail and reduce light leaking:"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:302
+#: ../../docs/tutorials/animation/creating_movies.rst:321
 msgid "Rendering at a higher resolution than the screen resolution"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:304
+#: ../../docs/tutorials/animation/creating_movies.rst:323
 msgid "The overall rendering quality can be improved significantly by rendering at high resolutions such as 4K or 8K."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:309
+#: ../../docs/tutorials/animation/creating_movies.rst:328
 msgid "For 3D rendering, Godot provides a **Rendering > Scaling 3D > Scale** advanced project setting, which can be set above ``1.0`` to obtain *supersample antialiasing*. The 3D rendering is then *downsampled* when it's drawn on the viewport. This provides an expensive but high-quality form of antialiasing, without increasing the final output resolution."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:315
+#: ../../docs/tutorials/animation/creating_movies.rst:334
 msgid "Consider using this project setting first, as it avoids slowing down movie writing speeds and increasing output file size compared to actually increasing the output resolution."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:319
+#: ../../docs/tutorials/animation/creating_movies.rst:338
 msgid "If you wish to render 2D at a higher resolution, or if you actually need the higher raw pixel output for 3D rendering, you can increase the resolution above what the screen allows."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:323
+#: ../../docs/tutorials/animation/creating_movies.rst:342
 msgid "By default, Godot uses the ``disabled`` :ref:`stretch modes <doc_multiple_resolutions>` in projects. If using ``disabled`` or ``canvas_items`` stretch mode, the window size dictates the output video resolution."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:327
+#: ../../docs/tutorials/animation/creating_movies.rst:346
 msgid "On the other hand, if the project is configured to use the ``viewport`` stretch mode, the viewport resolution dictates the output video resolution. The viewport resolution is set using the **Display > Window > Size > Viewport Width** and **Viewport Height** project settings. This can be used to render a video at a higher resolution than the screen resolution."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:333
+#: ../../docs/tutorials/animation/creating_movies.rst:352
 msgid "To make the window smaller during recording without affecting the output video resolution, you can set the **Display > Window > Size > Window Width Override** and **Window Height Override** advanced project settings to values greater than ``0``."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:338
+#: ../../docs/tutorials/animation/creating_movies.rst:357
 msgid "To apply a resolution override only when recording a movie, you can override those settings with the ``movie`` :ref:`feature tag <doc_feature_tags>`."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:342
+#: ../../docs/tutorials/animation/creating_movies.rst:361
 msgid "Post-processing steps"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:344
+#: ../../docs/tutorials/animation/creating_movies.rst:363
 msgid "Some common post-processing steps are listed below."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:348
+#: ../../docs/tutorials/animation/creating_movies.rst:367
 msgid "When using several post-processing steps, try to perform all of them in a single FFmpeg command. This will save encoding time and improve quality by avoiding multiple lossy encoding steps."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:355
+#: ../../docs/tutorials/animation/creating_movies.rst:374
 msgid "Converting AVI video to MP4"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:357
+#: ../../docs/tutorials/animation/creating_movies.rst:376
 msgid "While some platforms such as YouTube support uploading the AVI file directly, many others will require a conversion step beforehand. `HandBrake <https://handbrake.fr/>`__ (GUI) and `FFmpeg <https://ffmpeg.org/>`__ (CLI) are popular open source tools for this purpose. FFmpeg has a steeper learning curve, but it's more powerful."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:362
+#: ../../docs/tutorials/animation/creating_movies.rst:381
 msgid "The command below converts an AVI video to an MP4 (H.264) video with a Constant Rate Factor (CRF) of 15. This results in a relatively large file, but is well-suited for platforms that will re-encode your videos to reduce their size (such as most video sharing websites):"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:371
+#: ../../docs/tutorials/animation/creating_movies.rst:390
 msgid "To get a smaller file at the cost of quality, *increase* the CRF value in the above command."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:374
+#: ../../docs/tutorials/animation/creating_movies.rst:393
 msgid "To get a file with a better size/quality ratio (at the cost of slower encoding times), add ``-preset veryslow`` before ``-crf 15`` in the above command. On the contrary, ``-preset veryfast`` can be used to achieve faster encoding at the cost of a worse size/quality ratio."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:382
+#: ../../docs/tutorials/animation/creating_movies.rst:401
 msgid "Converting PNG image sequence + WAV audio to a video"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:384
+#: ../../docs/tutorials/animation/creating_movies.rst:403
 msgid "If you chose to record a PNG image sequence with a WAV file beside it, you need to convert it to a video before you can use it elsewhere."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:387
+#: ../../docs/tutorials/animation/creating_movies.rst:406
 msgid "The filename for the PNG image sequence generated by Godot always contains 8 digits, starting at 0 with zero-padded numbers. If you specify an output path ``folder/example.png``, Godot will write ``folder/example00000000.png``, ``folder/example00000001.png``, and so on in that folder. The audio will be saved at ``folder/example.wav``."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:393
+#: ../../docs/tutorials/animation/creating_movies.rst:412
 msgid "The FPS is specified using the ``-r`` argument. It should match the FPS specified during recording. Otherwise, the video will appear to be slowed down or sped up, and audio will be out of sync with the video."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:401
+#: ../../docs/tutorials/animation/creating_movies.rst:420
 msgid "If you recorded a PNG image sequence with transparency enabled, you need to use a video format that supports storing transparency. MP4/H.264 doesn't support storing transparency, so you can use WebM/VP9 as an alternative:"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:412
+#: ../../docs/tutorials/animation/creating_movies.rst:431
 msgid "Cutting video"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:414
+#: ../../docs/tutorials/animation/creating_movies.rst:433
 msgid "You can trim parts of the video you don't want to keep after the video is recorded. For example, to discard everything before 12.1 seconds and keep only 5.2 seconds of video after that point:"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:422
+#: ../../docs/tutorials/animation/creating_movies.rst:441
 msgid "Cutting videos can also be done with the GUI tool `LosslessCut <https://mifi.github.io/lossless-cut/>`__."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:426
+#: ../../docs/tutorials/animation/creating_movies.rst:445
 msgid "Resizing video"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:428
+#: ../../docs/tutorials/animation/creating_movies.rst:447
 msgid "The following command resizes a video to be 1080 pixels tall (1080p), while preserving its existing aspect ratio:"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:439
+#: ../../docs/tutorials/animation/creating_movies.rst:458
 msgid "Reducing framerate"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:441
+#: ../../docs/tutorials/animation/creating_movies.rst:460
 msgid "The following command changes a video's framerate to 30 FPS, dropping some of the original frames if there are more in the input video:"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:449
+#: ../../docs/tutorials/animation/creating_movies.rst:468
 msgid "Generating accumulation motion blur with FFmpeg"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:451
+#: ../../docs/tutorials/animation/creating_movies.rst:470
 msgid "Godot does not have built-in support for motion blur, but it can still be created in recorded videos."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:454
+#: ../../docs/tutorials/animation/creating_movies.rst:473
 msgid "If you record the video at a multiple of the original framerate, you can blend the frames together then reduce the frameate to produce a video with *accumulation motion blur*. This motion blur can look very good, but it can take a long time to generate since you have to render many more frames per second (on top of the time spent on post-processing)."
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:460
+#: ../../docs/tutorials/animation/creating_movies.rst:479
 msgid "Example with a 240 FPS source video, generating 4× motion blur and decreasing its output framerate to 60 FPS:"
 msgstr ""
 
-#: ../../docs/tutorials/animation/creating_movies.rst:467
+#: ../../docs/tutorials/animation/creating_movies.rst:486
 msgid "This also makes effects that converge over several frames (such as temporal antialiasing, SDFGI and volumetric fog) converge faster and therefore look better, since they'll be able to work with more data at a given time. See :ref:`doc_creating_movies_reducing_framerate` if you want to get this benefit without adding motion blur."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

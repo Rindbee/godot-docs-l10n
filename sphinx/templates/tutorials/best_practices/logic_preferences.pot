@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -121,8 +121,4 @@ msgstr ""
 
 #: ../../docs/tutorials/best_practices/logic_preferences.rst:176
 msgid "For an example of the various ways one can swap scenes around at runtime, please see the :ref:`\"Change scenes manually\" <doc_change_scenes_manually>` documentation."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

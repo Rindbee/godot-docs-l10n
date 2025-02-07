@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -222,8 +222,4 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:352
 msgid "Finally, we can use the :ref:`ResourceSaver <class_resourcesaver>` class to save the ArrayMesh. This is useful when you want to generate a mesh and then use it later without having to re-generate it."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

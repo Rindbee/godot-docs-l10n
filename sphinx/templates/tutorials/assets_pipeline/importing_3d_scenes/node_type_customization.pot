@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -83,7 +83,7 @@ msgstr ""
 msgid "With Collada files, the option ``-colonly`` can also be used with Blender's empty objects. On import, it will create a :ref:`class_StaticBody3D` with a collision node as a child. The collision node will have one of a number of predefined shapes, depending on Blender's empty draw type:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/node_type_customization.rst:70
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/node_type_customization.rst:66
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/node_type_customization.rst:70
 msgid "Choosing a draw type for an Empty on creation in Blender"
 msgstr ""
@@ -170,8 +170,4 @@ msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/node_type_customization.rst:133
 msgid "In Blender, this requires using the NLA Editor and naming the Action with the ``loop`` or ``cycle`` prefix or suffix."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

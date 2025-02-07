@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -131,8 +131,7 @@ msgstr ""
 msgid "|image0|"
 msgstr ""
 
-#: ../../docs/community/asset_library/submitting_to_assetlib.rst:224
-#: ../../docs/community/asset_library/submitting_to_assetlib.rst:224
+#: ../../docs/community/asset_library/submitting_to_assetlib.rst:218
 msgid "image0"
 msgstr ""
 
@@ -140,7 +139,7 @@ msgstr ""
 msgid "While it may look like a lot (and there is more as you scroll down), each field is described in terms of what you should put in. We will nonetheless go over what is required in the submission form here as well."
 msgstr ""
 
-#: ../../docs/community/asset_library/submitting_to_assetlib.rst:135
+#: ../../docs/community/asset_library/submitting_to_assetlib.rst:134
 msgid "**Asset Name**:"
 msgstr ""
 
@@ -148,7 +147,7 @@ msgstr ""
 msgid "The name of your asset. Should be a unique, descriptive title of what your asset is."
 msgstr ""
 
-#: ../../docs/community/asset_library/submitting_to_assetlib.rst:141
+#: ../../docs/community/asset_library/submitting_to_assetlib.rst:137
 msgid "**Category**:"
 msgstr ""
 
@@ -156,7 +155,7 @@ msgstr ""
 msgid "The category that your asset belongs to, and will be shown in search results. The category is split into **Addons** and **Projects**. In-editor, assets of the Project type (Templates, Demos, Projects) only show up when viewing the AssetLib from the Project Manager, while assets of the Addon type will only be visible from inside a project."
 msgstr ""
 
-#: ../../docs/community/asset_library/submitting_to_assetlib.rst:147
+#: ../../docs/community/asset_library/submitting_to_assetlib.rst:143
 msgid "**Godot version**:"
 msgstr ""
 
@@ -164,7 +163,7 @@ msgstr ""
 msgid "The version of the engine that the asset works with. Currently, it's not possible to have a single asset entry contain downloads for multiple engine versions, so you may need to re-submit the asset multiple times, with an entry for each Godot version it supports. This is particularly important when dealing with major versions of the engine, such as Godot 2.x and Godot 3.x."
 msgstr ""
 
-#: ../../docs/community/asset_library/submitting_to_assetlib.rst:154
+#: ../../docs/community/asset_library/submitting_to_assetlib.rst:149
 msgid "**Version**:"
 msgstr ""
 
@@ -172,7 +171,7 @@ msgstr ""
 msgid "The version number of the asset. While you are free to choose and use any versioning scheme that you like, you may want to look into something such as `SemVer <https://semver.org>`_ if you want your asset's versioning scheme to be clear and consistent. Note that there is also an internal version number, incremented every time the asset download URL is changed or updated."
 msgstr ""
 
-#: ../../docs/community/asset_library/submitting_to_assetlib.rst:159
+#: ../../docs/community/asset_library/submitting_to_assetlib.rst:156
 msgid "**Repository host**:"
 msgstr ""
 
@@ -180,7 +179,7 @@ msgstr ""
 msgid "Assets uploaded to the AssetLib are not hosted on it directly. Instead, they point to repositories hosted on third-party Git providers, such as GitHub, GitLab or Bitbucket. This is where you choose which provider your asset uses, so the site can compute the final download link."
 msgstr ""
 
-#: ../../docs/community/asset_library/submitting_to_assetlib.rst:162
+#: ../../docs/community/asset_library/submitting_to_assetlib.rst:161
 msgid "**Repository URL**:"
 msgstr ""
 
@@ -188,7 +187,7 @@ msgstr ""
 msgid "The URL to your asset's files/webpage. This will vary based on your choice of provider, but it should look similar to `https://github.com/<user>/<project>`."
 msgstr ""
 
-#: ../../docs/community/asset_library/submitting_to_assetlib.rst:167
+#: ../../docs/community/asset_library/submitting_to_assetlib.rst:164
 msgid "**Issues URL**:"
 msgstr ""
 
@@ -196,7 +195,7 @@ msgstr ""
 msgid "The URL to your asset's issue tracker. Again, this will differ from repository host to repository host, but will likely look similar to `https://github.com/<user>/<project>/issues`. You may leave this field empty if you use your provider's issue tracker, and it's part of the same repository."
 msgstr ""
 
-#: ../../docs/community/asset_library/submitting_to_assetlib.rst:171
+#: ../../docs/community/asset_library/submitting_to_assetlib.rst:169
 msgid "**Download Commit**:"
 msgstr ""
 
@@ -204,7 +203,7 @@ msgstr ""
 msgid "The commit of the asset. For example, `b1d3172f89b86e52465a74f63a74ac84c491d3e1`. The site computes the actual download URL from this."
 msgstr ""
 
-#: ../../docs/community/asset_library/submitting_to_assetlib.rst:179
+#: ../../docs/community/asset_library/submitting_to_assetlib.rst:173
 msgid "**Icon URL**:"
 msgstr ""
 
@@ -220,7 +219,7 @@ msgstr ""
 msgid "For icons hosted on GitHub, URLs must be provided in the form of `https://raw.githubusercontent.com/<user>/<project>/<branch>/Icon.png`."
 msgstr ""
 
-#: ../../docs/community/asset_library/submitting_to_assetlib.rst:188
+#: ../../docs/community/asset_library/submitting_to_assetlib.rst:185
 msgid "**License**:"
 msgstr ""
 
@@ -228,7 +227,7 @@ msgstr ""
 msgid "The license under which you are distributing the asset. The list includes a variety of free and open source software licenses, such as GPL (v2 and v3), MIT, BSD and Boost Software License. You can visit `OpenSource.org <https://opensource.org>`_ for a detailed description of each of the listed licenses."
 msgstr ""
 
-#: ../../docs/community/asset_library/submitting_to_assetlib.rst:194
+#: ../../docs/community/asset_library/submitting_to_assetlib.rst:190
 msgid "**Description**:"
 msgstr ""
 
@@ -256,7 +255,7 @@ msgstr ""
 msgid "Either a link to the image, or to a video, hosted on YouTube."
 msgstr ""
 
-#: ../../docs/community/asset_library/submitting_to_assetlib.rst:207
+#: ../../docs/community/asset_library/submitting_to_assetlib.rst:204
 msgid "**Thumbnail URL**:"
 msgstr ""
 
@@ -268,14 +267,6 @@ msgstr ""
 msgid "Once you are done, press \"Submit\". Your asset will be entered into the review queue. You can check all assets currently pending a review `here <https://godotengine.org/asset-library/asset/edit?&asset=-1>`_ . The approval process is manual and may take up to a few days for your asset to be accepted (or rejected), so please be patient!"
 msgstr ""
 
-#: ../../docs/community/asset_library/submitting_to_assetlib.rst:216
-msgid "You may have some luck accelerating the approval process by messaging the moderators and AssetLib reviewers on the `Godot Contributors Chat <https://chat.godotengine.org/>`_, or the official Discord server."
-msgstr ""
-
-#: ../../docs/community/asset_library/submitting_to_assetlib.rst:220
+#: ../../docs/community/asset_library/submitting_to_assetlib.rst:214
 msgid "You will be informed when your asset is reviewed. If it was rejected, you will be told why that may have been, and you will be able to submit it again with the appropriate changes."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

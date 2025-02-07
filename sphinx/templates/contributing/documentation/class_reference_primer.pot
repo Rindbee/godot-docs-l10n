@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -573,8 +573,4 @@ msgstr ""
 
 #: ../../docs/contributing/documentation/class_reference_primer.rst:332
 msgid "To mark an API as deprecated or experimental, you need to add the corresponding XML attribute. The attribute value must be a message explaining why the API is not recommended (BBCode markup is supported) or an empty string (the default message will be used). If an API element is marked as deprecated/experimental, then it is considered documented even if the description is empty."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -63,18 +63,14 @@ msgstr ""
 msgid "The region RID can then be obtained from NavigationRegion Nodes with ``get_rid()``."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationregions.rst:54
+#: ../../docs/tutorials/navigation/navigation_using_navigationregions.rst:74
 msgid "New regions can also be created with the NavigationServer API and added to any existing map."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationregions.rst:56
+#: ../../docs/tutorials/navigation/navigation_using_navigationregions.rst:76
 msgid "If regions are created with the NavigationServer API directly they need to be assigned a navigation map manually."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationregions.rst:79
+#: ../../docs/tutorials/navigation/navigation_using_navigationregions.rst:123
 msgid "Navigation regions can only be assigned to a single navigation map. If an existing region is assigned to a new navigation map it will leave the old map."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

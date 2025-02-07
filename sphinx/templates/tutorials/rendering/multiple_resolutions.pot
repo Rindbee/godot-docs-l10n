@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -239,7 +239,7 @@ msgstr ""
 msgid "Compare this pixel art which is displayed with the ``viewport`` stretch mode, with the stretch scale mode set to ``fractional``:"
 msgstr ""
 
-#: ../../docs/tutorials/rendering/multiple_resolutions.rst:305
+#: ../../docs/tutorials/rendering/multiple_resolutions.rst:301
 msgid "Fractional scaling example (incorrect pixel art appearance)"
 msgstr ""
 
@@ -251,7 +251,7 @@ msgstr ""
 msgid "This pixel art is also displayed with the ``viewport`` stretch mode, but the stretch scale mode is set to ``integer`` this time:"
 msgstr ""
 
-#: ../../docs/tutorials/rendering/multiple_resolutions.rst:314
+#: ../../docs/tutorials/rendering/multiple_resolutions.rst:310
 msgid "Integer scaling example (correct pixel art appearance)"
 msgstr ""
 
@@ -499,8 +499,4 @@ msgstr ""
 
 #: ../../docs/tutorials/rendering/multiple_resolutions.rst:563
 msgid "See the `3D viewport scaling demo <https://github.com/godotengine/godot-demo-projects/tree/master/viewport/3d_scaling>`__ for examples."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

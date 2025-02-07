@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -301,8 +301,4 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/visibility_ranges.rst:257
 msgid "On the MeshInstance3D that is displayed far away, edit its material in the inspector. Set its **Distance Fade** mode to **Object Dither**. Set **Min Distance** to the same value as the visibility range **Begin**. Set **Max Distance** to the same value *plus* the fade transition distance."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

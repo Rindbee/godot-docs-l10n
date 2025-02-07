@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -178,8 +178,4 @@ msgstr ""
 
 #: ../../docs/tutorials/inputs/input_examples.rst:405
 msgid "To test your touch events on a non-touchscreen device, open Project Settings and go to the \"Input Devices/Pointing\" section. Enable \"Emulate Touch From Mouse\" and your project will interpret mouse clicks and motion as touch events."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

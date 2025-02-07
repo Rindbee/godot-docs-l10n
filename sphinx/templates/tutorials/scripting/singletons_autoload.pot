@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -128,57 +128,57 @@ msgid "To begin, download the template from here: `singleton_autoload_starter.zi
 msgstr ""
 
 #: ../../docs/tutorials/scripting/singletons_autoload.rst:135
+msgid "A window notifying you that the project was last opened in an older Godot version may appear, that's not an issue. Click *Ok* to open the project."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/singletons_autoload.rst:138
 msgid "The project contains two scenes: ``scene_1.tscn`` and ``scene_2.tscn``. Each scene contains a label displaying the scene name and a button with its ``pressed()`` signal connected. When you run the project, it starts in ``scene_1.tscn``. However, pressing the button does nothing."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/singletons_autoload.rst:141
+#: ../../docs/tutorials/scripting/singletons_autoload.rst:144
 msgid "Creating the script"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/singletons_autoload.rst:143
+#: ../../docs/tutorials/scripting/singletons_autoload.rst:146
 msgid "Open the **Script** window and create a new script called ``global.gd``. Make sure it inherits from ``Node``:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/singletons_autoload.rst:148
+#: ../../docs/tutorials/scripting/singletons_autoload.rst:151
 msgid "The next step is to add this script to the autoLoad list. Starting from the menu, open **Project > Project Settings > Globals > Autoload** and select the script by clicking the browse button or typing its path: ``res://global.gd``. Press **Add** to add it to the autoload list:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/singletons_autoload.rst:156
+#: ../../docs/tutorials/scripting/singletons_autoload.rst:159
 msgid "Now whenever we run any scene in the project, this script will always be loaded."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/singletons_autoload.rst:158
+#: ../../docs/tutorials/scripting/singletons_autoload.rst:161
 msgid "Returning to the script, it needs to fetch the current scene in the `_ready()` function. Both the current scene (the one with the button) and ``global.gd`` are children of root, but autoloaded nodes are always first. This means that the last child of root is always the loaded scene."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/singletons_autoload.rst:189
+#: ../../docs/tutorials/scripting/singletons_autoload.rst:194
 msgid "Now we need a function for changing the scene. This function needs to free the current scene and replace it with the requested one."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/singletons_autoload.rst:258
+#: ../../docs/tutorials/scripting/singletons_autoload.rst:263
 msgid "Using :ref:`Object.call_deferred() <class_Object_method_call_deferred>`, the second function will only run once all code from the current scene has completed. Thus, the current scene will not be removed while it is still being used (i.e. its code is still running)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/singletons_autoload.rst:263
+#: ../../docs/tutorials/scripting/singletons_autoload.rst:268
 msgid "Finally, we need to fill the empty callback functions in the two scenes:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/singletons_autoload.rst:283
+#: ../../docs/tutorials/scripting/singletons_autoload.rst:288
 msgid "and"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/singletons_autoload.rst:303
+#: ../../docs/tutorials/scripting/singletons_autoload.rst:308
 msgid "Run the project and test that you can switch between scenes by pressing the button."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/singletons_autoload.rst:308
+#: ../../docs/tutorials/scripting/singletons_autoload.rst:313
 msgid "When scenes are small, the transition is instantaneous. However, if your scenes are more complex, they may take a noticeable amount of time to appear. To learn how to handle this, see the next tutorial: :ref:`doc_background_loading`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/singletons_autoload.rst:312
+#: ../../docs/tutorials/scripting/singletons_autoload.rst:317
 msgid "Alternatively, if the loading time is relatively short (less than 3 seconds or so), you can display a \"loading plaque\" by showing some kind of 2D element just before changing the scene. You can then hide it just after the scene is changed. This can be used to indicate to the player that a scene is being loaded."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

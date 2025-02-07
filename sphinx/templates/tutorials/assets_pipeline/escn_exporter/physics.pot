@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -43,7 +43,7 @@ msgstr ""
 msgid "Many of the parameters for collision shapes are missing from Blender, and many of the collision shapes are also not present. However, almost all of the options in Blender's rigid body collision and rigid body dynamics interfaces are supported:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/escn_exporter/physics.rst:39
+#: ../../docs/tutorials/assets_pipeline/escn_exporter/physics.rst:32
 msgid "There are the following caveats:"
 msgstr ""
 
@@ -69,8 +69,4 @@ msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/escn_exporter/physics.rst:56
 msgid "This will also influence how the object is shown in Blender's viewport. Most of the time, you want your collision geometry to be shown see-through when working on the models, so this works out fairly nicely."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

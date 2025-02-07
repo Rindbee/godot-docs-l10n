@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -65,8 +65,4 @@ msgstr ""
 
 #: ../../docs/tutorials/ui/gui_navigation.rst:78
 msgid "Now when the scene starts the \"Start Button\" node will be focused, and the keyboard or a controller can be used to navigate between it and other UI elements."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

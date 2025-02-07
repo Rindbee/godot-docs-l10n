@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -53,8 +53,4 @@ msgstr ""
 
 #: ../../docs/tutorials/editor/managing_editor_features.rst:48
 msgid "This process is potentially cumbersome however if a large amount of computers need custom profiles. As an alternative, you can enable self-contained mode for Godot, which allows putting all editor configuration in the same folder as the editor binary. See :ref:`doc_data_paths_self_contained_mode` for details."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

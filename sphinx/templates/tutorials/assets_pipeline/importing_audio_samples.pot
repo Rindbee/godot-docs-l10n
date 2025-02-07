@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -128,7 +128,7 @@ msgstr ""
 msgid "Several options are available in the Import dock after selecting a WAV file in the FileSystem dock:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:74
+#: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:70
 #: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:74
 msgid "Import options in the Import dock after selecting a WAV file in the FileSystem dock"
 msgstr ""
@@ -137,7 +137,7 @@ msgstr ""
 msgid "The set of options available after selecting an Ogg Vorbis or MP3 file is different:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:82
+#: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:78
 msgid "Import options in the Import dock after selecting an MP3 file in the FileSystem dock"
 msgstr ""
 
@@ -283,7 +283,7 @@ msgid "BPM"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:213
-msgid "The Beats Per Minute of the audio track. This should match the BPM measure that was used to compose the track. This is only relevant for music that wishes to make use of interactive music functionality (not implemented yet), not sound effects."
+msgid "The Beats Per Minute of the audio track. This should match the BPM measure that was used to compose the track. This is only relevant for music that wishes to make use of interactive music functionality, not sound effects."
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:218
@@ -295,7 +295,7 @@ msgid "Beat Count"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:225
-msgid "The beat count of the audio track. This is only relevant for music that wishes to make use of interactive music functionality (not implemented yet), not sound effects."
+msgid "The beat count of the audio track. This is only relevant for music that wishes to make use of interactive music functionality, not sound effects."
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:229
@@ -307,7 +307,7 @@ msgid "Bar Beats"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:236
-msgid "The number of bars within a single beat in the audio track. This is only relevant for music that wishes to make use of interactive music functionality (not implemented yet), not sound effects."
+msgid "The number of bars within a single beat in the audio track. This is only relevant for music that wishes to make use of interactive music functionality , not sound effects."
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:240
@@ -322,7 +322,7 @@ msgstr ""
 msgid "If you double-click an Ogg Vorbis or MP3 file in the FileSystem dock (or choose **Advanced…** in the Import dock), you will see a dialog appear:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:256
+#: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:252
 #: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:256
 msgid "Advanced dialog when double-clicking an Ogg Vorbis or MP3 file in the FileSystem dock"
 msgstr ""
@@ -381,8 +381,4 @@ msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:315
 msgid "Audio samples can be loaded and saved at runtime using :ref:`runtime file loading and saving <doc_runtime_file_loading_and_saving_audio_video_files>`, including from an exported project."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

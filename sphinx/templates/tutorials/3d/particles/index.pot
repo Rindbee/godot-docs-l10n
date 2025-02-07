@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "This section of the tutorial covers (3D) GPU-accelerated particle systems. Most of the things discussed here apply to CPU particles as well."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/index.rst:12
+#: ../../docs/tutorials/3d/particles/index.rst:-1
 msgid "Introduction"
 msgstr ""
 
@@ -39,7 +39,7 @@ msgstr ""
 msgid "Every particle system you create in Godot consists of two main parts: particles and emitters."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/index.rst:26
+#: ../../docs/tutorials/3d/particles/index.rst:-1
 msgid "Particles"
 msgstr ""
 
@@ -47,7 +47,7 @@ msgstr ""
 msgid "A particle is the visible part of a particle system. It's what you see on the screen when a particle system is active: The tiny specks of dust, the flames of a fire, the glowing orbs of a magical effect. You can have anywhere between a couple hundred and tens of thousands of particles in a single system. You can randomize a particle's size, its speed and movement direction, and change its color over the course of its lifetime. When you think of a fire, you can think of all the little embers flying away from it as individual particles."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/index.rst:36
+#: ../../docs/tutorials/3d/particles/index.rst:-1
 msgid "Emitters"
 msgstr ""
 
@@ -55,11 +55,11 @@ msgstr ""
 msgid "An emitter is what's creating the particles. Emitters are usually not visible, but they can have a shape. That shape controls where and how particles are spawned, for example whether they should fill a room like dust or shoot away from a single point like a fountain. Going back to the fire example, an emitter would be the heat at the center of the fire that creates the embers and the flames."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/index.rst:44
+#: ../../docs/tutorials/3d/particles/index.rst:-1
 msgid "Node overview"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/index.rst:50
+#: ../../docs/tutorials/3d/particles/index.rst:46
 msgid "A list of nodes related to 3D particles"
 msgstr ""
 
@@ -87,14 +87,10 @@ msgstr ""
 msgid "There are several particle collision nodes. :ref:`class_GPUParticlesCollisionBox3D` and :ref:`class_GPUParticlesCollisionSphere3D` are the simple ones. You can use them to create basic shapes like boxes, a floor, or a wall that particles collide with. The other two nodes provide more complex collision behavior. The :ref:`class_GPUParticlesCollisionSDF3D` is useful when you want indoor scenes to collide with particles without having to create all the individual box and sphere colliders by hand. If you want particles to collide with large outdoor scenes, you would use the :ref:`class_GPUParticlesCollisionHeightField3D` node. It creates a heightmap of your world and the objects in it and uses that for large-scale particle collisions."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/index.rst:79
+#: ../../docs/tutorials/3d/particles/index.rst:-1
 msgid "Basic usage"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/index.rst:90
+#: ../../docs/tutorials/3d/particles/index.rst:-1
 msgid "Advanced topics"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

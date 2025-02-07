@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "The following pages are meant to introduce the global organization of Godot Engine's source code, and give useful tips for extending and fixing the engine on the C++ side."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/index.rst:10
+#: ../../docs/contributing/development/core_and_modules/index.rst:-1
 msgid "Getting started with Godot's source code"
 msgstr ""
 
@@ -31,14 +31,10 @@ msgstr ""
 msgid "This section covers the basics that you will encounter in (almost) every source file."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/index.rst:29
+#: ../../docs/contributing/development/core_and_modules/index.rst:-1
 msgid "Extending Godot by modifying its source code"
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/index.rst:31
 msgid "This section covers what you can do by modifying Godot's C++ source code."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

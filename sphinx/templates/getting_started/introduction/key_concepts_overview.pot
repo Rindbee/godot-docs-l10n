@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,86 +27,82 @@ msgstr ""
 msgid "These are the four concepts you will learn here. We're going to look at them briefly to give you a sense of how the engine works. In the getting started series, you will get to use them in practice."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:20
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:22
 msgid "Scenes"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:22
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:24
 msgid "In Godot, you break down your game in reusable scenes. A scene can be a character, a weapon, a menu in the user interface, a single house, an entire level, or anything you can think of. Godot's scenes are flexible; they fill the role of both prefabs and scenes in some other game engines."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:29
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:31
 msgid "You can also nest scenes. For example, you can put your character in a level, and drag and drop a scene as a child of it."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:35
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:37
 msgid "Nodes"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:37
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:39
 msgid "A scene is composed of one or more **nodes**. Nodes are your game's smallest building blocks that you arrange into trees. Here's an example of a character's nodes."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:43
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:45
 msgid "It is made of a ``CharacterBody2D`` node named \"Player\", a ``Camera2D``, a ``Sprite2D``, and a ``CollisionShape2D``."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:46
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:48
 msgid "The node names end with \"2D\" because this is a 2D scene. Their 3D counterparts have names that end with \"3D\". Be aware that \"Spatial\" Nodes are now called \"Node3D\" starting with Godot 4."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:50
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:52
 msgid "Notice how nodes and scenes look the same in the editor. When you save a tree of nodes as a scene, it then shows as a single node, with its internal structure hidden in the editor."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:54
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:56
 msgid "Godot provides an extensive library of base node types you can combine and extend to build more powerful ones. 2D, 3D, or user interface, you will do most things with these nodes."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:61
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:63
 msgid "The scene tree"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:63
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:65
 msgid "All your game's scenes come together in the **scene tree**, literally a tree of scenes. And as scenes are trees of nodes, the scene tree also is a tree of nodes. But it's easier to think of your game in terms of scenes as they can represent characters, weapons, doors, or your user interface."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:73
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:75
 msgid "Signals"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:75
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:77
 msgid "Nodes emit signals when some event occurs. This feature allows you to make nodes communicate without hard-wiring them in code. It gives you a lot of flexibility in how you structure your scenes."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:81
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:83
 msgid "Signals are Godot's version of the *observer* pattern. You can read more about it here: https://gameprogrammingpatterns.com/observer.html"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:85
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:87
 msgid "For example, buttons emit a signal when pressed. You can connect to this signal to run code in reaction to this event, like starting the game or opening a menu."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:88
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:90
 msgid "Other built-in signals can tell you when two objects collided, when a character or monster entered a given area, and much more. You can also define new signals tailored to your game."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:93
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:95
 msgid "Summary"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:95
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:97
 msgid "Nodes, scenes, the scene tree, and signals are four core concepts in Godot that you will manipulate all the time."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:98
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:100
 msgid "Nodes are your game's smallest building blocks. You combine them to create scenes that you then combine and nest into the scene tree. You can then use signals to make nodes react to events in other nodes or different scene tree branches."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/key_concepts_overview.rst:102
+#: ../../docs/getting_started/introduction/key_concepts_overview.rst:104
 msgid "After this short breakdown, you probably have many questions. Bear with us as you will get many answers throughout the getting started series."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

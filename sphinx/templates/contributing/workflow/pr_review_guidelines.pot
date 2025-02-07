@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -417,8 +417,4 @@ msgstr ""
 
 #: ../../docs/contributing/workflow/pr_review_guidelines.rst:418
 msgid "If it is appropriate for you to be merging a pull request (i.e. you are on the production team or you are the team leader for that area), you are confident that the pull request has been sufficiently reviewed, and once you carry out these steps you can go ahead and merge the pull request."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

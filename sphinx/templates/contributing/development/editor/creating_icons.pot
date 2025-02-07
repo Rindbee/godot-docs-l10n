@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -64,65 +64,49 @@ msgid "Icon optimization"
 msgstr ""
 
 #: ../../docs/contributing/development/editor/creating_icons.rst:49
-msgid "Because the editor renders SVGs once at load time, they need to be small in size so they can be efficiently parsed. Editor icons must be first optimized before being added to the engine, to do so:"
+msgid "Because the editor renders SVGs once at load time, they need to be small in size so they can be efficiently parsed. When the :ref:`pre-commit hook <doc_code_style_guidelines_pre_commit_hook>` runs, it automatically optimizes the SVG using `svgo <https://github.com/svg/svgo>`_."
 msgstr ""
 
-#: ../../docs/contributing/development/editor/creating_icons.rst:53
-msgid "Install `svgcleaner <https://github.com/RazrFalcon/svgcleaner>`__ by downloading a binary from its `Releases tab <https://github.com/RazrFalcon/svgcleaner/releases/latest>`__ and placing it into a location in your ``PATH`` environment variable."
-msgstr ""
-
-#: ../../docs/contributing/development/editor/creating_icons.rst:58
-msgid "Run the command below, replacing ``svg_source.svg`` with the path to your SVG file (which can be a relative or absolute path):"
-msgstr ""
-
-#: ../../docs/contributing/development/editor/creating_icons.rst:65
-msgid "The ``--multipass`` switch improves compression, so make sure to include it. The optimized icon will be saved to ``svg_optimized.svg``. You can also change the destination parameter to any relative or absolute path you'd like."
-msgstr ""
-
-#: ../../docs/contributing/development/editor/creating_icons.rst:71
+#: ../../docs/contributing/development/editor/creating_icons.rst:56
 msgid "While this optimization step won't impact the icon's quality noticeably, it will still remove editor-only information such as guides. Therefore, it's recommended to keep the source SVG around if you need to make further changes."
 msgstr ""
 
-#: ../../docs/contributing/development/editor/creating_icons.rst:77
+#: ../../docs/contributing/development/editor/creating_icons.rst:62
 msgid "Integrating and sharing the icons"
 msgstr ""
 
-#: ../../docs/contributing/development/editor/creating_icons.rst:79
+#: ../../docs/contributing/development/editor/creating_icons.rst:64
 msgid "If you're contributing to the engine itself, you should make a pull request to add optimized icons to ``editor/icons`` in the main repository. Recompile the engine to make it pick up new icons for classes."
 msgstr ""
 
-#: ../../docs/contributing/development/editor/creating_icons.rst:83
+#: ../../docs/contributing/development/editor/creating_icons.rst:68
 msgid "It's also possible to create custom icons within a module. If you're creating your own module and don't plan to integrate it with Godot, you don't need to make a separate pull request for your icons to be available within the editor as they can be self-contained."
 msgstr ""
 
-#: ../../docs/contributing/development/editor/creating_icons.rst:88
+#: ../../docs/contributing/development/editor/creating_icons.rst:73
 msgid "For specific instructions on how to create module icons, refer to :ref:`Creating custom module icons<doc_custom_module_icons>`."
 msgstr ""
 
-#: ../../docs/contributing/development/editor/creating_icons.rst:92
+#: ../../docs/contributing/development/editor/creating_icons.rst:77
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../docs/contributing/development/editor/creating_icons.rst:94
+#: ../../docs/contributing/development/editor/creating_icons.rst:79
 msgid "If icons don't appear in the editor, make sure that:"
 msgstr ""
 
-#: ../../docs/contributing/development/editor/creating_icons.rst:96
+#: ../../docs/contributing/development/editor/creating_icons.rst:81
 msgid "Each icon's filename matches the naming requirement as described previously."
 msgstr ""
 
-#: ../../docs/contributing/development/editor/creating_icons.rst:98
+#: ../../docs/contributing/development/editor/creating_icons.rst:83
 msgid "``modules/svg`` is enabled (it should be enabled by default). Without it, icons won't appear in the editor at all."
 msgstr ""
 
-#: ../../docs/contributing/development/editor/creating_icons.rst:102
+#: ../../docs/contributing/development/editor/creating_icons.rst:87
 msgid "References"
 msgstr ""
 
-#: ../../docs/contributing/development/editor/creating_icons.rst:104
+#: ../../docs/contributing/development/editor/creating_icons.rst:89
 msgid "`editor/icons <https://github.com/godotengine/godot/tree/master/editor/icons>`__"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

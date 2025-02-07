@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,7 +32,7 @@ msgid "This page is here to help you understand how Godot works, starting with s
 msgstr ""
 
 #: ../../docs/getting_started/introduction/godot_design_philosophy.rst:19
-msgid "Please watch `Godot explained in 5 minutes <https://www.youtube.com/watch?v=KjX5llYZ5eQ>`_ if you're looking for an overview of the engine's features."
+msgid "Please watch `Godot explained in 7 minutes <https://www.youtube.com/watch?v=yS9cuu5o5Ug>`_ if you're looking for an overview of the engine's features."
 msgstr ""
 
 #: ../../docs/getting_started/introduction/godot_design_philosophy.rst:24
@@ -64,7 +64,6 @@ msgid "|image0|"
 msgstr ""
 
 #: ../../docs/getting_started/introduction/godot_design_philosophy.rst:176
-#: ../../docs/getting_started/introduction/godot_design_philosophy.rst:176
 msgid "image0"
 msgstr ""
 
@@ -80,7 +79,6 @@ msgstr ""
 msgid "|image1|"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/godot_design_philosophy.rst:177
 #: ../../docs/getting_started/introduction/godot_design_philosophy.rst:177
 msgid "image1"
 msgstr ""
@@ -101,7 +99,6 @@ msgstr ""
 msgid "|image2|"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/godot_design_philosophy.rst:178
 #: ../../docs/getting_started/introduction/godot_design_philosophy.rst:178
 msgid "image2"
 msgstr ""
@@ -130,7 +127,6 @@ msgstr ""
 msgid "|image4|"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/godot_design_philosophy.rst:179
 #: ../../docs/getting_started/introduction/godot_design_philosophy.rst:179
 msgid "image4"
 msgstr ""
@@ -188,7 +184,6 @@ msgid "|image5|"
 msgstr ""
 
 #: ../../docs/getting_started/introduction/godot_design_philosophy.rst:180
-#: ../../docs/getting_started/introduction/godot_design_philosophy.rst:180
 msgid "image5"
 msgstr ""
 
@@ -210,8 +205,4 @@ msgstr ""
 
 #: ../../docs/getting_started/introduction/godot_design_philosophy.rst:171
 msgid "Godot offers dedicated 2D and 3D rendering engines. As a result, **the base unit for 2D scenes is pixels.** Even though the engines are separate, you can render 2D in 3D, 3D in 2D, and overlay 2D sprites and interfaces over your 3D world."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

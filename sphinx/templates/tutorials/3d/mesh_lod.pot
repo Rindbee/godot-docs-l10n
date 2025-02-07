@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -71,7 +71,7 @@ msgstr ""
 msgid "Here is an example of LOD meshes generated on import. Lower detailed meshes will be used when the camera is far away from the object:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:52
+#: ../../docs/tutorials/3d/mesh_lod.rst:48
 #: ../../docs/tutorials/3d/mesh_lod.rst:52
 msgid "From most detailed (left) to least detailed (right), shaded view"
 msgstr ""
@@ -80,7 +80,7 @@ msgstr ""
 msgid "Here's the same image with wireframe rendering to make the decimation easier to see:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:60
+#: ../../docs/tutorials/3d/mesh_lod.rst:56
 #: ../../docs/tutorials/3d/mesh_lod.rst:60
 msgid "From most detailed (left) to least detailed (right), wireframe view"
 msgstr ""
@@ -105,7 +105,7 @@ msgstr ""
 msgid "To make an OBJ file have mesh LOD generated for it, select it in the FileSystem dock, go to the Import dock, change its **Import As** option to **Scene** then click **Reimport**:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:88
+#: ../../docs/tutorials/3d/mesh_lod.rst:84
 #: ../../docs/tutorials/3d/mesh_lod.rst:88
 msgid "Changing the import type on an OBJ file in the Import dock"
 msgstr ""
@@ -134,7 +134,7 @@ msgstr ""
 msgid "To disable mesh LOD in the editor for comparison purposes, use the **Disable Mesh LOD** advanced debug draw mode. This can be done using the menu in the top-left corner of the 3D viewport (labeled **Perspective** or **Orthogonal** depending on camera mode):"
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:118
+#: ../../docs/tutorials/3d/mesh_lod.rst:114
 #: ../../docs/tutorials/3d/mesh_lod.rst:118
 msgid "Disabling mesh LOD in the 3D viewport's top-left menu"
 msgstr ""
@@ -159,46 +159,42 @@ msgstr ""
 msgid "You can adjust how aggressive mesh LOD transitions should be in the root viewport by changing the **Rendering > Mesh LOD > LOD Change > Threshold Pixels** project setting. To change this value at run-time, set ``mesh_lod_threshold`` on the root viewport as follows:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:145
+#: ../../docs/tutorials/3d/mesh_lod.rst:150
 msgid "Each viewport has its own ``mesh_lod_threshold`` property, which can be set independently from other viewports."
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:148
+#: ../../docs/tutorials/3d/mesh_lod.rst:153
 msgid "The default mesh LOD threshold of 1 pixel is tuned to look *perceptually* lossless; it provides a significant performance gain with an unnoticeable loss in quality. Higher values will make LOD transitions happen sooner when the camera moves away, resulting in higher performance but lower quality."
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:153
+#: ../../docs/tutorials/3d/mesh_lod.rst:158
 msgid "If you need to perform per-object adjustments to mesh LOD, you can adjust how aggressive LOD transitions should be by adjusting the **LOD Bias** property on any node that inherits from GeometryInstance3D. Values *above* ``1.0`` will make LOD transitions happen later than usual (resulting in higher quality but lower performance). Values *below* ``1.0`` will make LOD transitions happen sooner than usual (resulting in lower quality but higher performance)."
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:160
+#: ../../docs/tutorials/3d/mesh_lod.rst:165
 msgid "Additionally, ReflectionProbe nodes have their own **Mesh LOD Threshold** property that can be adjusted to improve rendering performance when the reflection probe updates. This is especially important for ReflectionProbes that use the **Always** update mode."
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:167
+#: ../../docs/tutorials/3d/mesh_lod.rst:172
 msgid "When rendering the scene, mesh LOD selection uses a screen-space metric. This means it automatically takes camera field of view and viewport resolution into account. Higher camera FOV and lower viewport resolutions will make LOD selection more aggressive; the engine will display heavily decimated models earlier when the camera moves away."
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:173
+#: ../../docs/tutorials/3d/mesh_lod.rst:178
 msgid "As a result, unlike :ref:`doc_visibility_ranges`, you don't need to do anything specific in your project to take camera FOV and viewport resolution into account."
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:178
+#: ../../docs/tutorials/3d/mesh_lod.rst:183
 msgid "Using mesh LOD with MultiMesh and particles"
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:180
+#: ../../docs/tutorials/3d/mesh_lod.rst:185
 msgid "For LOD selection, the point of the node's :abbr:`AABB (Axis-Aligned Bounding Box)` that is the closest to the camera is used as a basis. This applies to any kind of mesh LOD (including for individual MeshInstance3D)s, but this has some implications for nodes that display multiple meshes at once, such as MultiMeshInstance3D, GPUParticles3D and GPUParticles3D. Most importantly, this means that all instances will be drawn with the same LOD level at a given time."
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:187
+#: ../../docs/tutorials/3d/mesh_lod.rst:192
 msgid "If you are noticing incorrect LOD selection with GPUParticles3D, make sure the node's visibility AABB is configured by selecting the GPUParticles3D node and using **GPUParticles3D > Generate AABB** at the top of the 3D viewport."
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:192
+#: ../../docs/tutorials/3d/mesh_lod.rst:197
 msgid "If you have instances in a MultiMesh that are far away from each other, they should be placed in a separate MultiMeshInstance3D node. Doing so will also improve rendering performance, as frustum and occlusion culling will be able to cull individual nodes (while they can't cull individual instances in a MultiMesh)."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

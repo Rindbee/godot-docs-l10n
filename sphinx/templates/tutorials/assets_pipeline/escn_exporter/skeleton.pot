@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -57,8 +57,4 @@ msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/escn_exporter/skeleton.rst:39
 msgid "A bone can be the parent of an object in Blender; this relation is exported as a BoneAttachment node in the Godot scene."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

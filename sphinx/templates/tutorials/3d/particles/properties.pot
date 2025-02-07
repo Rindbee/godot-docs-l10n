@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -95,12 +95,12 @@ msgstr ""
 msgid "The ``Randomness`` property adds some randomness to the particle emission timing. When set to ``0``, there is no randomness at all and the interval between the emission of one particle and the next is always the same: the particles are emitted at *regular* intervals. A ``Randomness`` value of ``1`` makes the interval completely random. You can use this property to break up some of the uniformity in your effects. When ``Explosiveness`` is set to ``1``, this property has no effect."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:101
+#: ../../docs/tutorials/3d/particles/properties.rst:97
 msgid "Particles running at low FPS"
 msgstr ""
 
 #: ../../docs/tutorials/3d/particles/properties.rst:101
-msgid "Interpolation on (left) vs. off (right)"
+msgid "Interpolation off (left) vs. on (right)"
 msgstr ""
 
 #: ../../docs/tutorials/3d/particles/properties.rst:103
@@ -131,7 +131,7 @@ msgstr ""
 msgid "Drawing properties"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:None
+#: ../../docs/tutorials/3d/particles/properties.rst:143
 msgid "Particle drawing properties"
 msgstr ""
 
@@ -163,7 +163,7 @@ msgstr ""
 msgid "Trail properties"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:193
+#: ../../docs/tutorials/3d/particles/properties.rst:189
 msgid "Particle trails"
 msgstr ""
 
@@ -181,8 +181,4 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/particles/properties.rst:201
 msgid "See the :ref:`Particle trails <doc_3d_particles_trails>` section in this manual for a detailed explanation of how particle trails work and how to set them up."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

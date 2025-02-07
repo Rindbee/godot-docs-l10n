@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -164,7 +164,7 @@ msgid "In order to display our hand we need a hand mesh that is properly rigged 
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_hand_tracking.rst:129
-msgid "The `OpenXR hand tracking demo <https://github.com/godotengine/godot-demo-projects/tree/master/xr/openxr_hand_tracking_demo>`_ contains example GLTF files of properly rigged hands."
+msgid "The `OpenXR hand tracking demo <https://github.com/godotengine/godot-demo-projects/tree/master/xr/openxr_hand_tracking_demo>`_ contains example glTF files of properly rigged hands."
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_hand_tracking.rst:132
@@ -415,8 +415,4 @@ msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_hand_tracking.rst:355
 msgid "`Malcolm Nixons Hand Pose Detector <https://github.com/Malcolmnixon/GodotXRHandPoseDetector>`_"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -121,8 +121,4 @@ msgstr ""
 
 #: ../../docs/tutorials/best_practices/project_organization.rst:124
 msgid "If you haven't enabled the Windows Subsystem for Linux, you can enter the following line in a PowerShell window *running as Administrator* then reboot when asked::"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

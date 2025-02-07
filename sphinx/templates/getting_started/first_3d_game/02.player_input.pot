@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -31,8 +31,7 @@ msgstr ""
 msgid "|image0|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:166
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:166
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:168
 msgid "image0"
 msgstr ""
 
@@ -64,8 +63,7 @@ msgstr ""
 msgid "|image1|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:167
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:167
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:169
 msgid "image1"
 msgstr ""
 
@@ -77,13 +75,12 @@ msgstr ""
 msgid "|image2|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:168
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:168
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:170
 msgid "image2"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/02.player_input.rst:54
-msgid "The ``.glb`` files contain 3D scene data based on the open source GLTF 2.0 specification. They're a modern and powerful alternative to a proprietary format like FBX, which Godot also supports. To produce these files, we designed the model in `Blender 3D <https://www.blender.org/>`__ and exported it to GLTF."
+msgid "The ``.glb`` files contain 3D scene data based on the open source glTF 2.0 specification. They're a modern and powerful alternative to a proprietary format like FBX, which Godot also supports. To produce these files, we designed the model in `Blender 3D <https://www.blender.org/>`__ and exported it to glTF."
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/02.player_input.rst:59
@@ -98,8 +95,7 @@ msgstr ""
 msgid "|image3|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:169
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:169
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:171
 msgid "image3"
 msgstr ""
 
@@ -115,8 +111,7 @@ msgstr ""
 msgid "|image4|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:170
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:170
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:172
 msgid "image4"
 msgstr ""
 
@@ -128,8 +123,7 @@ msgstr ""
 msgid "|image5|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:171
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:171
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:173
 msgid "image5"
 msgstr ""
 
@@ -141,162 +135,142 @@ msgstr ""
 msgid "With the nodes ready, we can almost get coding. But first, we need to define some input actions."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:88
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:90
 msgid "Creating input actions"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:90
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:92
 msgid "To move the character, we will listen to the player's input, like pressing the arrow keys. In Godot, while we could write all the key bindings in code, there's a powerful system that allows you to assign a label to a set of keys and buttons. This simplifies our scripts and makes them more readable."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:95
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:97
 msgid "This system is the Input Map. To access its editor, head to the *Project* menu and select *Project Settings*."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:98
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:100
 msgid "|image6|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:172
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:172
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:174
 msgid "image6"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:100
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:102
 msgid "At the top, there are multiple tabs. Click on *Input Map*. This window allows you to add new actions at the top; they are your labels. In the bottom part, you can bind keys to these actions."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:104
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:106
 msgid "|image7|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:173
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:173
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:175
 msgid "image7"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:106
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:108
 msgid "Godot projects come with some predefined actions designed for user interface design (see above screenshot). These will become visible if you enable the *Show Built-in Actions* toggle. We could use these here, but instead we're defining our own to support gamepads. Leave *Show Built-in Actions* disabled."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:111
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:113
 msgid "We're going to name our actions ``move_left``, ``move_right``, ``move_forward``, ``move_back``, and ``jump``."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:114
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:116
 msgid "To add an action, write its name in the bar at the top and press Enter."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:116
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:118
 msgid "|image8|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:174
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:174
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:176
 msgid "image8"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:118
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:120
 msgid "Create the following five actions:"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:120
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:122
 msgid "|image9|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:175
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:175
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:177
 msgid "image9"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:122
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:124
 msgid "To bind a key or button to an action, click the \"+\" button to its right. Do this for ``move_left``. Press the left arrow key and click *OK*."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:127
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:129
 msgid "Bind also the :kbd:`A` key, onto the action ``move_left``."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:129
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:131
 msgid "|image12|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:177
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:177
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:179
 msgid "image12"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:131
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:133
 msgid "Let's now add support for a gamepad's left joystick. Click the \"+\" button again but this time, select *Manual Selection -> Joypad Axes*."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:136
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:138
 msgid "Select the negative X axis of the left joystick."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:140
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:142
 msgid "Leave the other values as default and press *OK*"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:144
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:146
 msgid "If you want controllers to have different input actions, you should use the Devices option in Additional Options. Device 0 corresponds to the first plugged gamepad, Device 1 corresponds to the second plugged gamepad, and so on."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:146
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:148
 msgid "Do the same for the other input actions. For example, bind the right arrow, D, and the left joystick's positive axis to ``move_right``. After binding all keys, your interface should look like this."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:150
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:152
 msgid "|image15|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:178
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:178
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:180
 msgid "image15"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:152
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:154
 msgid "The final action to set up is the ``jump`` action. Bind the Space key and the gamepad's A button."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:155
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:157
 msgid "|image16|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:179
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:179
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:181
 msgid "image16"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:157
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:159
 msgid "Your jump input action should look like this."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:159
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:161
 msgid "|image18|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:181
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:181
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:183
 msgid "image18"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:161
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:163
 msgid "That's all the actions we need for this game. You can use this menu to label any groups of keys and buttons in your projects."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:164
+#: ../../docs/getting_started/first_3d_game/02.player_input.rst:166
 msgid "In the next part, we'll code and test the player's movement."
-msgstr ""
-
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:176
-msgid "image11"
-msgstr ""
-
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:180
-msgid "image17"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

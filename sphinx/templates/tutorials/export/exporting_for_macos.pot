@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,7 +24,7 @@ msgid "This page describes how to export a Godot project to macOS. If you're loo
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_macos.rst:12
-msgid "macOS apps exported with the official export templates are exported as a single \"Universal 2\" binary ``.app`` bundle, a folder with a specific structure which stores the executable, libraries and all the project files. This bundle can be exported as is, packed in a ZIP archive or DMG disk image (only supported when exporting from a computer running macOS). `Universal binaries for macOS support both Intel x86_64 and ARM64 (Apple silicon, i.e. M1) architectures <https://developer.apple.com/documentation/apple-silicon/building-a-universal-macos-binary>`__."
+msgid "macOS apps exported with the official export templates are exported as a single \"Universal 2\" binary ``.app`` bundle, a folder with a specific structure which stores the executable, libraries and all the project files. This bundle can be exported as is, packed in a ZIP archive or DMG disk image (only supported when exporting from a computer running macOS). `Universal binaries for macOS support both Intel x86_64 and ARM64 (Apple Silicon) architectures <https://developer.apple.com/documentation/apple-silicon/building-a-universal-macos-binary>`__."
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_macos.rst:17
@@ -605,8 +605,4 @@ msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_macos.rst:248
 msgid "``GODOT_MACOS_NOTARIZATION_APPLE_ID_PASSWORD``"
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

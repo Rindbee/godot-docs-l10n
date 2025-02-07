@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -121,8 +121,4 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:116
 msgid "HDR settings can be found in the :ref:`Environment <class_Environment>` resource. Most of the time, these are found inside a :ref:`WorldEnvironment <class_WorldEnvironment>` node or set in a Camera node. For more information, see :ref:`doc_environment_and_post_processing`."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,17 +27,17 @@ msgstr ""
 msgid "By default, 2D scenes in Godot are unshaded, with no lights and shadows visible. While this is fast to render, unshaded scenes can look bland. Godot provides the ability to use real-time 2D lighting and shadows, which can greatly enhance the sense of depth in your project."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:18
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:14
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:18
 msgid "No 2D lights or shadows, scene is unshaded"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:24
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:20
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:24
 msgid "2D lights enabled (without shadows)"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:30
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:26
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:30
 msgid "2D lights and shadows enabled"
 msgstr ""
@@ -67,7 +67,7 @@ msgid ":ref:`LightOccluder2D <class_LightOccluder2D>` (for light shadow casters)
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:41
-msgid "Other 2D nodes that receive lighting, such as Sprite2D or TileMap."
+msgid "Other 2D nodes that receive lighting, such as Sprite2D or TileMapLayer."
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:43
@@ -83,7 +83,7 @@ msgid ":ref:`PointLight2Ds <class_PointLight2D>` are used to light the scene. Th
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:56
-msgid ":ref:`LightOccluder2Ds <class_LightOccluder2D>` are used to tell the shader which parts of the scene cast shadows. These occluders can be placed as independent nodes or can be part of a TileMap node."
+msgid ":ref:`LightOccluder2Ds <class_LightOccluder2D>` are used to tell the shader which parts of the scene cast shadows. These occluders can be placed as independent nodes or can be part of a TileMapLayer node."
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:60
@@ -130,7 +130,7 @@ msgstr ""
 msgid "If you don't have a pre-made texture to use in a light, you can use this \"neutral\" point light texture (right-click > **Save Image As…**):"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:106
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:102
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:106
 msgid "Neutral point light texture"
 msgstr ""
@@ -283,17 +283,17 @@ msgstr ""
 msgid "**Item Cull Mask:** Controls which LightOccluder2D nodes cast shadows, depending on their respective **Occluder Light Mask** properties."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:244
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:240
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:244
 msgid "Hard shadows"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:250
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:246
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:250
 msgid "Soft shadows (PCF13, Filter Smooth 1.5)"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:256
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:252
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:256
 msgid "Soft shadows with streaking artifacts due to Filter Smooth being too high (PCF5, Filter Smooth 4)"
 msgstr ""
@@ -342,7 +342,7 @@ msgstr ""
 msgid "To set up normal maps and/or specular maps on a 2D node, create a new CanvasTexture resource for the property that draws the node's texture. For example, on a Sprite2D:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:310
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:306
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:310
 msgid "Creating a CanvasTexture resource for a Sprite2D node"
 msgstr ""
@@ -413,8 +413,4 @@ msgstr ""
 
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:364
 msgid "To display a sprite with additive blending, create a Sprite2D node and assign a texture to it. In the inspector, scroll down to the **CanvasItem > Material** section, unfold it and click the dropdown next to the **Material** property. Choose **New CanvasItemMaterial**, click the newly created material to edit it, then set **Blend Mode** to **Add**."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""

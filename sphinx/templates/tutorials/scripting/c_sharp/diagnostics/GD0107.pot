@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -81,8 +81,4 @@ msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0107.rst:34
 msgid "Do not suppress a warning from this rule. Types that don't derive from ``Node`` will be unable to retrieve the right node instance for exported ``Node`` members, resulting in unexpected runtime errors."
-msgstr ""
-
-#: ../../docs/<rst_epilog>:0
-msgid "Translation status"
 msgstr ""
