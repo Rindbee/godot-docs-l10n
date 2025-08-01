@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,42 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "2D navigation overview"
+msgstr "Panoramica della navigazione 2D"
+
+msgid "Godot provides the following objects and classes for 2D navigation:"
+msgstr "Godot fornisce i seguenti oggetti e classi per la navigazione 2D:"
+
+msgid ":ref:`Astar2D<class_Astar2D>`"
+msgstr ":ref:`Astar2D<class_Astar2D>`"
+
+msgid ":ref:`AstarGrid2D<class_AstarGrid2D>`"
+msgstr ":ref:`AstarGrid2D<class_AstarGrid2D>`"
+
+msgid ":ref:`NavigationServer2D<class_NavigationServer2D>`"
+msgstr ":ref:`NavigationServer2D<class_NavigationServer2D>`"
+
+msgid "The following NavigationServer RID types are available."
+msgstr "Sono disponibili i seguenti tipi di RID per il NavigationServer."
+
+msgid "NavObstacle RID"
+msgstr "RID NavObstacle"
+
+msgid ":ref:`NavigationRegion2D<class_NavigationRegion2D>` Node"
+msgstr "Nodo :ref:`NavigationRegion2D<class_NavigationRegion2D>`"
+
+msgid ":ref:`NavigationLink2D<class_NavigationLink2D>` Node"
+msgstr "Node :ref:`NavigationLink2D<class_NavigationLink2D>`"
+
+msgid ":ref:`NavigationAgent2D<class_NavigationAgent2D>` Node"
+msgstr "Node :ref:`NavigationAgent2D<class_NavigationAgent2D>`"
+
+msgid ":ref:`NavigationObstacle2D<class_NavigationObstacle2D>` Node"
+msgstr "Nodo :ref:`NavigationObstacle2D<class_NavigationObstacle2D>`"
+
+msgid "The 2D navigation meshes are defined with the following resources:"
+msgstr "Le mesh di navigazione 2D sono definite con le seguenti risorse:"
+
+msgid ":ref:`NavigationPolygon<class_NavigationPolygon>` Resource"
+msgstr "Risorsa :ref:`NavigationPolygon<class_NavigationPolygon>`"

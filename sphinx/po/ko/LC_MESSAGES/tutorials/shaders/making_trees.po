@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,9 @@ msgstr ""
 
 msgid "https://sketchfab.com/models/ea5e6ed7f9d6445ba69589d503e8cebf"
 msgstr "https://sketchfab.com/models/ea5e6ed7f9d6445ba69589d503e8cebf"
+
+msgid "Finally, all that's left is the fragment shader:"
+msgstr "마침내 남은 것은 프래그먼트 셰이더뿐입니다:"
 
 msgid "Improving the shader"
 msgstr "셰이더 개선하기"

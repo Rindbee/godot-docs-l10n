@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,20 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Introduction to the XR system in Godot"
+msgstr "Introduzione al sistema XR in Godot"
+
+msgid "Which Renderer to use"
+msgstr "Quale Renderer utilizzare"
+
+msgid ""
+"The warning icons are expected and should go away after you configure the "
+"controllers. Select the left hand and set it up as follows:"
+msgstr ""
+"Le icone di avvertimento sono previste e dovrebbero scomparire dopo aver "
+"configurato i controller. Seleziona il controller sinistro e configuralo "
+"come segue:"
+
+msgid "And the right hand:"
+msgstr "E la mano destra:"

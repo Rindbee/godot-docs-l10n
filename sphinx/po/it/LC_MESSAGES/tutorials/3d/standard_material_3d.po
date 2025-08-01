@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,8 +14,44 @@ msgstr ""
 msgid "Introduction"
 msgstr "Introduzione"
 
+msgid "BaseMaterial 3D settings"
+msgstr "Impostazioni 3D di BaseMaterial"
+
+msgid "Transparency"
+msgstr "Trasparenza"
+
+msgid "Alpha Antialiasing"
+msgstr "Antialiasing alfa"
+
+msgid "There are 3 alpha antialiasing modes available:"
+msgstr "Sono disponibili 3 modalità di antialiasing alfa:"
+
+msgid "Blend Mode"
+msgstr "Modalità fusione"
+
+msgid "Cull Mode"
+msgstr "Modalità di culling"
+
 msgid "Shading"
 msgstr "Shading"
+
+msgid "Shading mode"
+msgstr "Modalità di ombreggiatura"
+
+msgid "Diffuse Mode"
+msgstr "Modalità di diffusione"
+
+msgid "Specular Mode"
+msgstr "Modalità di speculare"
+
+msgid "Disable Ambient Light"
+msgstr "Disabilita luce ambientale"
+
+msgid "Disable Fog"
+msgstr "Disabilita nebbia"
+
+msgid "Vertex Color"
+msgstr "Colore di vertice"
 
 msgid "Is sRGB"
 msgstr "È sRGB"
@@ -32,6 +68,9 @@ msgstr "Rugosità"
 msgid "Emission"
 msgstr "Emissione"
 
+msgid "Normal map"
+msgstr "Mappa di normali"
+
 msgid "Rim"
 msgstr "Rim"
 
@@ -44,8 +83,14 @@ msgstr "Anisotropia"
 msgid "Ambient Occlusion"
 msgstr "Occlusione ambientale"
 
+msgid "Height"
+msgstr "Altezza"
+
 msgid "Subsurface Scattering"
 msgstr "Subsurface Scattering"
+
+msgid "Back Lighting"
+msgstr "Illuminazione posteriore"
 
 msgid "Refraction"
 msgstr "Rifrazione"
@@ -57,6 +102,9 @@ msgid "There are several settings that control how detail is used."
 msgstr ""
 "Ci sono vari settaggi che controllano come viene utilizzato il dettaglio."
 
+msgid "Sampling"
+msgstr "Campionamento"
+
 msgid "Filter"
 msgstr "Filtro"
 
@@ -66,11 +114,29 @@ msgstr "Ripeti"
 msgid "Shadows"
 msgstr "Ombre"
 
+msgid "Billboard"
+msgstr "Billboard"
+
+msgid "Billboard Mode"
+msgstr "Modalità di billboard"
+
 msgid "Grow"
 msgstr "Crescere"
 
 msgid "Transform"
 msgstr "Trasformazione"
 
+msgid "Fixed Size"
+msgstr "Dimensioni fisse"
+
 msgid "Transmission"
 msgstr "Trasmissione"
+
+msgid "Material Settings"
+msgstr "Impostazioni di materiale"
+
+msgid "Render priority"
+msgstr "Priorità di rendering"
+
+msgid "Next Pass"
+msgstr "Passo successivo"

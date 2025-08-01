@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,13 @@ msgstr ""
 
 msgid "There are some reasons why you may want to do this:"
 msgstr "이렇게 하고 싶어하는 몇 가지 이유가 있습니다:"
+
+msgid ""
+"When setting up the Android project in the **Project > Export** dialog, "
+"**Gradle Build** needs to be enabled:"
+msgstr ""
+"**프로젝트 > 내보내기** 대화 상자에서 Android 프로젝트를 설정할 때 **Gradle "
+"빌드**\\ 가 활성화되어야 합니다:"
 
 msgid ""
 "From now on, attempting to export the project or one-click deploy will call "

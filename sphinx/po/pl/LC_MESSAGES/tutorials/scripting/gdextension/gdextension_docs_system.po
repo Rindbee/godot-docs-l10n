@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -26,14 +26,38 @@ msgstr "``[i]{tekst}[/i]``"
 msgid "``[u]{text}[/u]``"
 msgstr "``[u]{tekst}[/u]``"
 
+msgid "**s**"
+msgstr "**s**"
+
 msgid "``[s]{text}[/s]``"
 msgstr "``[s]{text}[/s]``"
 
+msgid "**kbd**"
+msgstr "**kbd**"
+
+msgid "``[kbd]{text}[/kbd]``"
+msgstr "``[kbd]{tekst}[/kbd]``"
+
 msgid "**code**"
-msgstr "**kod**"
+msgstr "**code**"
 
 msgid "``[code]{text}[/code]``"
 msgstr "``[code]{tekst}[/code]``"
+
+msgid "**codeblocks**"
+msgstr "**codeblocks**"
+
+msgid "``[codeblocks]``"
+msgstr "``[codeblocks]``"
+
+msgid "``[gdscript]``"
+msgstr "``[gdscript]``"
+
+msgid "``[/gdscript]``"
+msgstr "``[/gdscript]``"
+
+msgid "``[/codeblocks]``"
+msgstr "``[/codeblocks]``"
 
 msgid "**center**"
 msgstr "**wyśrodkuj**"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,74 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Godot Android plugins"
+msgstr "Estensioni Android di Godot"
+
 msgid "Introduction"
 msgstr "Introduzione"
 
 msgid "Android plugin"
 msgstr "Plugin Android"
+
+msgid "v2 Architecture"
+msgstr "Architettura v2"
+
+msgid "Android platform APIs"
+msgstr "API della piattaforma Android"
+
+msgid "Android libraries"
+msgstr "Librerie Android"
+
+msgid "Kotlin and Java libraries"
+msgstr "Librerie di Java e Kotlin"
+
+msgid "GDExtension libraries"
+msgstr "Librerie GDExtension"
+
+msgid "Building a v2 Android plugin"
+msgstr "Creazione di estensioni v2 Android"
+
+msgid ""
+"Create an Android library module using `these instructions <https://"
+"developer.android.com/studio/projects/android-library>`_"
+msgstr ""
+"Crea un modulo libreria di Android seguendo `queste istruzioni <https://"
+"developer.android.com/studio/projects/android-library>`_"
+
+msgid "Migrating a v1 Android plugin to v2"
+msgstr "Migrazione di un'estensione Android v1 a v2"
+
+msgid "Using a v2 Android plugin"
+msgstr "Utilizzo di un'estensione Android v2"
+
+msgid "Using a v2 Android plugin as an Android library"
+msgstr "Utilizzo di un'estensione Android v2 come libreria Android"
+
+msgid "Reference implementations"
+msgstr "Implementazioni di riferimento"
+
+msgid ""
+"`Godot Android Plugins Samples <https://github.com/m4gr3d/Godot-Android-"
+"Samples/tree/master/plugins>`_"
+msgstr ""
+"`Esempi di plugin Android per Godot <https://github.com/m4gr3d/Godot-Android-"
+"Samples/tree/master/plugins>`_"
+
+msgid ""
+"`Godot Android Plugin Template <https://github.com/m4gr3d/Godot-Android-"
+"Plugin-Template>`_"
+msgstr ""
+"`Modello di plugin Android per Godot <https://github.com/m4gr3d/Godot-"
+"Android-Plugin-Template>`_"
+
+msgid ""
+"`Godot OpenXR Loaders <https://github.com/GodotVR/godot_openxr_loaders>`_"
+msgstr ""
+"`Caricatori OpenXR di Godot <https://github.com/GodotVR/"
+"godot_openxr_loaders>`_"
+
+msgid "Tips and Guidelines"
+msgstr "Consigli e linee guida"
+
+msgid "For example::"
+msgstr "Per esempio::"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,26 +11,93 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "C# collections"
+msgstr "Raccolte di C#"
+
+msgid ""
+"The .NET base class library contains multiple collection types that can be "
+"used to store and manipulate data. Godot also provide some collection types "
+"that are tightly integrated with the rest of the engine."
+msgstr ""
+"La libreria di classi base .NET contiene diversi tipi di collezioni che si "
+"possono utilizzare per archiviare e manipolare dati. Godot fornisce anche "
+"alcuni tipi di collezioni che sono strettamente integrati con il resto del "
+"motore."
+
+msgid "Choose a collection"
+msgstr "Scegli una raccolta"
+
+msgid "Godot collections"
+msgstr "Raccolte di Godot"
+
+msgid "PackedArray"
+msgstr "PackedArray"
+
+msgid "In C#, packed arrays are replaced by ``System.Array``:"
+msgstr "In C#, gli array impacchettati sono sostituiti da ``System.Array``:"
+
 msgid "GDScript"
 msgstr "GDScript"
 
 msgid "C#"
 msgstr "C#"
 
+msgid "``PackedByteArray``"
+msgstr "``PackedByteArray``"
+
 msgid "``byte[]``"
 msgstr "``byte[]``"
+
+msgid "``PackedInt32Array``"
+msgstr "``PackedInt32Array``"
 
 msgid "``int[]``"
 msgstr "``int[]``"
 
+msgid "``PackedInt64Array``"
+msgstr "``PackedInt64Array``"
+
+msgid "``long[]``"
+msgstr "``long[]``"
+
+msgid "``PackedFloat32Array``"
+msgstr "``PackedFloat32Array``"
+
 msgid "``float[]``"
 msgstr "``float[]``"
+
+msgid "``PackedFloat64Array``"
+msgstr "``PackedFloat64Array``"
+
+msgid "``double[]``"
+msgstr "``double[]``"
+
+msgid "``PackedStringArray``"
+msgstr "``PackedStringArray``"
+
+msgid "``string[]``"
+msgstr "``string[]``"
+
+msgid "``PackedVector2Array``"
+msgstr "``PackedVector2Array``"
 
 msgid "``Vector2[]``"
 msgstr "``Vector2[]``"
 
+msgid "``PackedVector3Array``"
+msgstr "``PackedVector3Array``"
+
 msgid "``Vector3[]``"
 msgstr "``Vector3[]``"
+
+msgid "``PackedVector4Array``"
+msgstr "``PackedVector4Array``"
+
+msgid "``Vector4[]``"
+msgstr "``Vector4[]``"
+
+msgid "``PackedColorArray``"
+msgstr "``PackedColorArray``"
 
 msgid "``Color[]``"
 msgstr "``Color[]``"
@@ -38,11 +105,392 @@ msgstr "``Color[]``"
 msgid "Array"
 msgstr "Array"
 
+msgid ""
+"Godot arrays are implemented as an array of ``Variant`` and can contain "
+"several elements of any type. In C#, the equivalent type is "
+"``Godot.Collections.Array``."
+msgstr ""
+"Gli array di Godot sono implementati come array di tipo ``Variant`` e "
+"possono contenere diversi elementi di qualsiasi tipo. In C#, il tipo "
+"equivalente è ``Godot.Collections.Array``."
+
+msgid "List of Godot's Array methods and their equivalent in C#:"
+msgstr "Elenco dei metodi di Array in Godot e dei loro equivalenti in C#:"
+
+msgid "all"
+msgstr "all"
+
+msgid "`System.Linq.Enumerable.All`_"
+msgstr "`System.Linq.Enumerable.All`_"
+
+msgid "any"
+msgstr "any"
+
+msgid "`System.Linq.Enumerable.Any`_"
+msgstr "`System.Linq.Enumerable.Any`_"
+
+msgid "append"
+msgstr "append"
+
+msgid "Add"
+msgstr "Add"
+
+msgid "append_array"
+msgstr "append_array"
+
+msgid "AddRange"
+msgstr "AddRange"
+
+msgid "assign"
+msgstr "assign"
+
+msgid "Clear and AddRange"
+msgstr "Clear e AddRange"
+
+msgid "back"
+msgstr "back"
+
+msgid ""
+"``Array[^1]`` or `System.Linq.Enumerable.Last`_ or "
+"`System.Linq.Enumerable.LastOrDefault`_"
+msgstr ""
+"``Array[^1]`` o `System.Linq.Enumerable.Last`_ o "
+"`System.Linq.Enumerable.LastOrDefault`_"
+
+msgid "bsearch"
+msgstr "bsearch"
+
+msgid "BinarySearch"
+msgstr "BinarySearch"
+
+msgid "bsearch_custom"
+msgstr "bsearch_custom"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "clear"
+msgstr "clear"
+
+msgid "Clear"
+msgstr "Clear"
+
+msgid "count"
+msgstr "count"
+
+msgid "`System.Linq.Enumerable.Count`_"
+msgstr "`System.Linq.Enumerable.Count`_"
+
+msgid "duplicate"
+msgstr "duplicate"
+
 msgid "Duplicate"
 msgstr "Duplica"
+
+msgid "erase"
+msgstr "erase"
+
+msgid "Remove"
+msgstr "Remove"
+
+msgid "fill"
+msgstr "fill"
+
+msgid "Fill"
+msgstr "Fill"
+
+msgid "filter"
+msgstr "filter"
+
+msgid "Use `System.Linq.Enumerable.Where`_"
+msgstr "Usa `System.Linq.Enumerable.Where`_"
+
+msgid "find"
+msgstr "find"
+
+msgid "IndexOf"
+msgstr "IndexOf"
+
+msgid "front"
+msgstr "front"
+
+msgid ""
+"``Array[0]`` or `System.Linq.Enumerable.First`_ or "
+"`System.Linq.Enumerable.FirstOrDefault`_"
+msgstr ""
+"``Array[0]`` o `System.Linq.Enumerable.First`_ o "
+"`System.Linq.Enumerable.FirstOrDefault`_"
+
+msgid "get_typed_builtin"
+msgstr "get_typed_builtin"
+
+msgid "get_typed_class_name"
+msgstr "get_typed_class_name"
+
+msgid "get_typed_script"
+msgstr "get_typed_script"
+
+msgid "has"
+msgstr "has"
+
+msgid "Contains"
+msgstr "Contains"
+
+msgid "hash"
+msgstr "hash"
+
+msgid "GD.Hash"
+msgstr "GD.Hash"
+
+msgid "insert"
+msgstr "insert"
+
+msgid "Insert"
+msgstr "Insert"
+
+msgid "is_empty"
+msgstr "is_empty"
+
+msgid "Use ``Count == 0``"
+msgstr "Usa ``Count == 0``"
+
+msgid "is_read_only"
+msgstr "is_read_only"
+
+msgid "IsReadOnly"
+msgstr "IsReadOnly"
+
+msgid "is_same_typed"
+msgstr "is_same_typed"
+
+msgid "is_typed"
+msgstr "is_typed"
+
+msgid "make_read_only"
+msgstr "make_read_only"
+
+msgid "MakeReadOnly"
+msgstr "MakeReadOnly"
+
+msgid "map"
+msgstr "map"
+
+msgid "`System.Linq.Enumerable.Select`_"
+msgstr "`System.Linq.Enumerable.Select`_"
 
 msgid "max"
 msgstr "max"
 
+msgid "Max"
+msgstr "Max"
+
+msgid "min"
+msgstr "min"
+
+msgid "Min"
+msgstr "Min"
+
+msgid "pick_random"
+msgstr "pick_random"
+
+msgid "PickRandom (Consider using `System.Random`_)"
+msgstr "PickRandom (Si consiglia di usare `System.Random`_)"
+
+msgid "pop_at"
+msgstr "pop_at"
+
+msgid "``Array[i]`` with ``RemoveAt(i)``"
+msgstr "``Array[i]`` con ``RemoveAt(i)``"
+
+msgid "pop_back"
+msgstr "pop_back"
+
+msgid "``Array[^1]`` with ``RemoveAt(Count - 1)``"
+msgstr "``Array[^1]`` con ``RemoveAt(Count - 1)``"
+
+msgid "pop_front"
+msgstr "pop_front"
+
+msgid "``Array[0]`` with ``RemoveAt(0)``"
+msgstr "``Array[0]`` con ``RemoveAt(0)``"
+
+msgid "push_back"
+msgstr "push_back"
+
+msgid "``Insert(Count, item)``"
+msgstr "``Insert(Count, item)``"
+
+msgid "push_front"
+msgstr "push_front"
+
+msgid "``Insert(0, item)``"
+msgstr "``Insert(0, item)``"
+
+msgid "reduce"
+msgstr "reduce"
+
+msgid "`System.Linq.Enumerable.Aggregate`_"
+msgstr "`System.Linq.Enumerable.Aggregate`_"
+
+msgid "remove_at"
+msgstr "remove_at"
+
+msgid "RemoveAt"
+msgstr "RemoveAt"
+
+msgid "resize"
+msgstr "resize"
+
+msgid "Resize"
+msgstr "Resize"
+
+msgid "reverse"
+msgstr "reverse"
+
+msgid "Reverse"
+msgstr "Reverse"
+
+msgid "rfind"
+msgstr "rfind"
+
+msgid "LastIndexOf"
+msgstr "LastIndexOf"
+
+msgid "shuffle"
+msgstr "shuffle"
+
+msgid "Shuffle"
+msgstr "Shuffle"
+
+msgid "size"
+msgstr "size"
+
+msgid "Count"
+msgstr "Count"
+
+msgid "slice"
+msgstr "slice"
+
+msgid "Slice"
+msgstr "Slice"
+
+msgid "sort"
+msgstr "sort"
+
+msgid "Sort"
+msgstr "Sort"
+
+msgid "sort_custom"
+msgstr "sort_custom"
+
+msgid "`System.Linq.Enumerable.OrderBy`_"
+msgstr "`System.Linq.Enumerable.OrderBy`_"
+
+msgid "operator !="
+msgstr "Operatore !="
+
+msgid "!RecursiveEqual"
+msgstr "!RecursiveEqual"
+
+msgid "operator +"
+msgstr "Operatore +"
+
+msgid "operator <"
+msgstr "Operatore <"
+
+msgid "operator <="
+msgstr "Operatore <="
+
+msgid "operator =="
+msgstr "Operatore =="
+
+msgid "RecursiveEqual"
+msgstr "RecursiveEqual"
+
+msgid "operator >"
+msgstr "Operatore >"
+
+msgid "operator >="
+msgstr "Operatore >="
+
+msgid "operator []"
+msgstr "Operatore []"
+
+msgid "Array[int] indexer"
+msgstr "Indicizzatore Array[int]"
+
 msgid "Dictionary"
 msgstr "Dizionario"
+
+msgid ""
+"Godot dictionaries are implemented as a dictionary with ``Variant`` keys and "
+"values. In C#, the equivalent type is ``Godot.Collections.Dictionary``."
+msgstr ""
+"I dizionari in Godot sono implementati come un dizionario con chiavi e "
+"valori ``Variant``. In C#, il tipo equivalente è "
+"``Godot.Collections.Dictionary``."
+
+msgid ""
+"The generic ``Godot.Collections.Dictionary<TKey, TValue>`` type allows "
+"restricting the key and value types to a :ref:`Variant-compatible type "
+"<c_sharp_variant_compatible_types>`."
+msgstr ""
+"Il tipo generico ``Godot.Collections.Dictionary<TKey, TValue>`` consente di "
+"limitare i tipi chiave e valore a un :ref:`tipo compatibile con Variant "
+"<c_sharp_variant_compatible_types>`."
+
+msgid ""
+"An untyped ``Godot.Collections.Dictionary`` can be converted to a typed "
+"dictionary using the ``Godot.Collections.Dictionary<TKey, "
+"TValue>(Godot.Collections.Dictionary)`` constructor."
+msgstr ""
+"Un ``Godot.Collections.Dictionary`` non tipizzato può essere convertito in "
+"un dizionario tipizzato attraverso il costruttore "
+"``Godot.Collections.Dictionary<TKey, TValue>(Godot.Collections.Dictionary)``."
+
+msgid ""
+"If you need a dictionary where the key is typed but not the value, use "
+"``Variant`` as the ``TValue`` generic parameter of the typed dictionary."
+msgstr ""
+"Se è necessario un dizionario in cui è tipizzata la chiave ma non il valore, "
+"utilizzare ``Variant`` come parametro generico ``TValue`` del dizionario "
+"tipizzato."
+
+msgid "List of Godot's Dictionary methods and their equivalent in C#:"
+msgstr "Elenco dei metodi di Dictionary di Godot e dei loro equivalenti in C#:"
+
+msgid "find_key"
+msgstr "find_key"
+
+msgid "get"
+msgstr "get"
+
+msgid "Dictionary[Variant] indexer or TryGetValue"
+msgstr "Indicizzatore Dictionary[Variant] o TryGetValue"
+
+msgid "ContainsKey"
+msgstr "ContainsKey"
+
+msgid "has_all"
+msgstr "has_all"
+
+msgid "keys"
+msgstr "chiavi"
+
+msgid "Keys"
+msgstr "Keys"
+
+msgid "merge"
+msgstr "merge"
+
+msgid "Merge"
+msgstr "Merge"
+
+msgid "values"
+msgstr "values"
+
+msgid "Values"
+msgstr "Values"
+
+msgid "Dictionary[Variant] indexer, Add or TryGetValue"
+msgstr "Indicizzatore Dictionary[Variant], Add o TryGetValue"

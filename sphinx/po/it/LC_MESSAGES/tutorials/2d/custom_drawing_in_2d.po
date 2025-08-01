@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,8 +20,48 @@ msgstr "Disegnare"
 msgid "Updating"
 msgstr "Aggiornamento"
 
+msgid "Antialiased drawing"
+msgstr "Disegno con antialiasing"
+
 msgid "Tools"
 msgstr "Strumenti"
 
+msgid "When running it you should see something like this:"
+msgstr "Durante l'esecuzione, dovresti vedere qualcosa di simile a questo:"
+
+msgid "Drawing connected lines"
+msgstr "Disegno di linee connesse"
+
+msgid "You should get the following output:"
+msgstr "Dovresti ottenere il seguente risultato:"
+
+msgid "Drawing circles"
+msgstr "Disegno di cerchi"
+
+msgid "When executing it, you should have something like this:"
+msgstr "Durante l'esecuzione, dovresti avere qualcosa di simile a questo:"
+
+msgid "Drawing lines"
+msgstr "Disegno di linee"
+
+msgid "Drawing text"
+msgstr "Disegno di testo"
+
+msgid "You should see the following on your screen:"
+msgstr "Dovresti vedere sul tuo schermo quanto segue:"
+
 msgid "Animation"
 msgstr "Animazione"
+
+msgid "It will look somewhat like this when run:"
+msgstr "All'esecuzione, dovrebbe avere più o meno questo aspetto:"
+
+msgid ""
+"The width, color, and position of the starting point can be configured with "
+"with the corresponding properties."
+msgstr ""
+"La larghezza, il colore e la posizione del punto di partenza possono essere "
+"configurati con le proprietà corrispondenti."
+
+msgid "It should look like this when run:"
+msgstr "Quando viene eseguito dovrebbe apparire così:"

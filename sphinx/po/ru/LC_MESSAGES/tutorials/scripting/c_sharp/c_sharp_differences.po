@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -39,7 +39,7 @@ msgid "Special cases:"
 msgstr "Особые случаи:"
 
 msgid "GDScript"
-msgstr "GDScript"
+msgstr "GDScript_"
 
 msgid "C#"
 msgstr "C#"
@@ -66,8 +66,8 @@ msgid ""
 msgstr ""
 "Глобальные математические функции, такие как ``abs``, ``acos``, ``asin``, "
 "``atan`` и ``atan2``, расположены под ``Mathf`` как ``Abs``, ``Acos``, "
-"``Asin``, ``Atan`` и ``Atan2``. Константу ``PI`` можно найти как ``Mathf."
-"Pi``."
+"``Asin``, ``Atan`` и ``Atan2``. Константу ``PI`` можно найти как "
+"``Mathf.Pi``."
 
 msgid "Random functions"
 msgstr "Случайные функции"
@@ -109,6 +109,9 @@ msgstr "Пример:"
 msgid "max"
 msgstr "max"
 
+msgid "min"
+msgstr "min"
+
 msgid "assert"
 msgstr "assеrt"
 
@@ -122,8 +125,8 @@ msgid "GD.Range or `System.Linq.Enumerable.Range`_"
 msgstr "GD.Range или `System.Linq.Enumerable.Range`_"
 
 msgid ""
-"``preload``, as it works in GDScript, is not available in C#. Use ``GD."
-"Load`` or ``ResourceLoader.Load`` instead."
+"``preload``, as it works in GDScript, is not available in C#. Use "
+"``GD.Load`` or ``ResourceLoader.Load`` instead."
 msgstr ""
 "``preload``, так как он работает в GDScript, недоступен в C#. Вместо этого "
 "используйте ``GD.Load`` или ``ResourceLoader.Load``."
@@ -152,6 +155,9 @@ msgstr ""
 
 msgid "String"
 msgstr "Строка"
+
+msgid "chr"
+msgstr "chr"
 
 msgid "left"
 msgstr "left"

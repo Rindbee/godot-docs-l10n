@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -130,8 +130,8 @@ msgstr "它可以通过较慢的启动（attack）来突出瞬态，让音效听
 
 msgid ""
 "If your goal is to prevent a signal from exceeding a given amplitude "
-"altogether, rather than to reduce the dynamic range of the signal, a :ref:"
-"`limiter <doc_audio_buses_limiter>` is likely a better choice than a "
+"altogether, rather than to reduce the dynamic range of the signal, "
+"a :ref:`limiter <doc_audio_buses_limiter>` is likely a better choice than a "
 "compressor for this purpose. However, applying compression before a limiter "
 "is still good practice."
 msgstr ""

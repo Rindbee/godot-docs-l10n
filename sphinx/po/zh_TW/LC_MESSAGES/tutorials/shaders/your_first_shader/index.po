@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "本系列教學將指導您編寫第一個著色器。適用於沒有著色器相關經驗的人，想要從最基"
 "礎開始。本教學不涉及高級主題，並不全面。有關 Godot 中著色器的全面和詳細概述，"
-"請參見:ref:`著色參考頁面 <toc-shading-reference>`。"
+"請參見 :ref:`著色參考頁面 <toc-shading-reference>`。"
 
 msgid ""
 "The \"your first shader\" tutorials walk you through the process of writing "

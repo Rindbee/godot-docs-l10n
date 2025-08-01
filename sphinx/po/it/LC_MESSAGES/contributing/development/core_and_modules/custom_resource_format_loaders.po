@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,33 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Custom resource format loaders"
+msgstr "Caricatori di formato di risorse personalizzati"
+
 msgid "Introduction"
 msgstr "Introduzione"
+
+msgid ""
+"ResourceFormatLoader is a factory interface for loading file assets. "
+"Resources are primary containers. When load is called on the same file path "
+"again, the previous loaded Resource will be referenced. Naturally, loaded "
+"resources must be stateless."
+msgstr ""
+"ResourceFormatLoader è un'interfaccia per il caricamento di file. Le risorse "
+"sono contenitori primari. Quando il caricamento è richiamato sullo stesso "
+"percorso di file, la risorsa caricata in precedenza verrà referenziata. "
+"Naturalmente, le risorse caricate devono essere senza stato (stateless)."
+
+msgid ""
+"This guide assumes the reader knows how to create C++ modules and Godot data "
+"types. If not, refer to this guide: :ref:`doc_custom_modules_in_cpp`"
+msgstr ""
+"Questa guida presuppone che il lettore sappia come creare moduli C++ e tipi "
+"di dati di Godot. Se no, consultare questa "
+"guida: :ref:`doc_custom_modules_in_cpp`"
+
+msgid "References"
+msgstr "Riferimenti"
 
 msgid ":ref:`ResourceLoader<class_resourceloader>`"
 msgstr ":ref:`ResourceLoader<class_resourceloader>`"
@@ -24,6 +49,24 @@ msgstr ""
 "`core/io/resource_loader.cpp <https://github.com/godotengine/godot/blob/"
 "master/core/io/resource_loader.cpp>`_"
 
+msgid "Adding new support for many file formats"
+msgstr "Aggiungere nuovo supporto per numerosi formati di file"
+
+msgid "Audio formats"
+msgstr "Formati audio"
+
+msgid "Video formats"
+msgstr "Formati video"
+
+msgid "Machine learning models"
+msgstr "Modelli di machine learning"
+
+msgid "Raster images"
+msgstr "Immagini raster"
+
+msgid "ImageFormatLoader should be used to load images."
+msgstr "Si dovrebbe utilizzare ImageFormatLoader per caricare immagini."
+
 msgid ""
 "`core/io/image_loader.h <https://github.com/godotengine/godot/blob/master/"
 "core/io/image_loader.h>`_"
@@ -31,8 +74,120 @@ msgstr ""
 "`core/io/image_loader.h <https://github.com/godotengine/godot/blob/master/"
 "core/io/image_loader.h>`_"
 
+msgid "Creating a ResourceFormatLoader"
+msgstr "Creare un ResourceFormatLoader"
+
+msgid ""
+"Each file format consist of a data container and a ``ResourceFormatLoader``."
+msgstr ""
+"Ogni formato di file consiste in un contenitore di dati e da un "
+"``ResourceFormatLoader``."
+
+msgid ""
+"ResourceFormatLoaders are classes which return all the necessary metadata "
+"for supporting new extensions in Godot. The class must return the format "
+"name and the extension string."
+msgstr ""
+"I ResourceFormatLoader sono classi che restituiscono tutti i metadati "
+"necessari per supportare nuove estensioni in Godot. La classe deve "
+"restituire il nome del formato e l'estensione."
+
+msgid ""
+"In addition, ResourceFormatLoaders must convert file paths into resources "
+"with the ``load`` function. To load a resource, ``load`` must read and "
+"handle data serialization."
+msgstr ""
+"Inoltre, i ResourceFormatLoader devono convertire i percorsi dei file in "
+"risorse con la funzione ``load``. Per caricare una risorsa, ``load`` deve "
+"leggere e gestire la serializzazione dei dati."
+
+msgid "resource_loader_json.h"
+msgstr "resource_loader_json.h"
+
+msgid "resource_loader_json.cpp"
+msgstr "resource_loader_json.cpp"
+
+msgid "Creating a ResourceFormatSaver"
+msgstr "Creare un ResourceFormatSaver"
+
+msgid ""
+"If you'd like to be able to edit and save a resource, you can implement a "
+"``ResourceFormatSaver``:"
+msgstr ""
+"Se si desidera modificare e salvare una risorsa, è possibile implementare un "
+"``ResourceFormatSaver``:"
+
+msgid "resource_saver_json.h"
+msgstr "resource_saver_json.h"
+
+msgid "resource_saver_json.cpp"
+msgstr "resource_saver_json.cpp"
+
+msgid "Creating custom data types"
+msgstr "Creare tipi di dati personalizzati"
+
+msgid ""
+"Godot may not have a proper substitute within its :ref:`doc_core_types` or "
+"managed resources. Godot needs a new registered data type to understand "
+"additional binary formats such as machine learning models."
+msgstr ""
+"Godot potrebbe non avere un sostituto adeguato dentro i "
+"suoi :ref:`doc_core_types` o nelle risorse gestite. Godot necessita di un "
+"nuovo tipo di dati registrato per comprendere ulteriori formati binari, come "
+"i modelli di machine learning."
+
+msgid "Here is an example of creating a custom datatype:"
+msgstr "Ecco un esempio di creazione di un tipo di dati personalizzato:"
+
+msgid "resource_json.h"
+msgstr "resource_json.h"
+
+msgid "resource_json.cpp"
+msgstr "resource_json.cpp"
+
 msgid "Considerations"
 msgstr "Considerazioni"
 
+msgid ""
+"Some libraries may not define certain common routines such as IO handling. "
+"Therefore, Godot call translations are required."
+msgstr ""
+"Alcune librerie potrebbero non definire certe routine comuni, come la "
+"gestione degli I/O. Pertanto, sono necessarie traduzioni delle chiamate "
+"Godot."
+
+msgid ""
+"For example, here is the code for translating ``FileAccess`` calls into "
+"``std::istream``."
+msgstr ""
+"Ad esempio, ecco il codice per tradurre le chiamate di ``FileAccess`` in "
+"``std::istream``."
+
 msgid "`istream <https://cplusplus.com/reference/istream/istream/>`_"
 msgstr "`istream <https://cplusplus.com/reference/istream/istream/>`_"
+
+msgid ""
+"`streambuf <https://cplusplus.com/reference/streambuf/streambuf/?"
+"kw=streambuf>`_"
+msgstr ""
+"`streambuf <https://cplusplus.com/reference/streambuf/streambuf/?"
+"kw=streambuf>`_"
+
+msgid ""
+"`core/io/file_access.h <https://github.com/godotengine/godot/blob/master/"
+"core/io/file_access.h>`_"
+msgstr ""
+"`core/io/file_access.h <https://github.com/godotengine/godot/blob/master/"
+"core/io/file_access.h>`_"
+
+msgid "Registering the new file format"
+msgstr "Registrare il nuovo formato di file"
+
+msgid "register_types.h"
+msgstr "register_types.h"
+
+msgid "register_types.cpp"
+msgstr "register_types.cpp"
+
+msgid "Then attach the following script to any node::"
+msgstr "Poi allega il seguente script a qualsiasi nodo::"

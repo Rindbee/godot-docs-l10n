@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"The goal of this page is to document design decisions taken to best "
+"suit :ref:`Godot's design philosophy "
+"<doc_best_practices_for_engine_contributors>`, while providing a starting "
+"point for new rendering contributors."
+msgstr ""
+"Цель этой страницы — документировать решения по проектированию, принятые с "
+"целью наилучшего соответствия :ref:`философии дизайна Godot "
+"<doc_best_practices_for_engine_contributors>`, а также дать отправную точку "
+"для новых участников."
+
 msgid "Forward+"
 msgstr "Forward+"
 
 msgid "Mobile"
 msgstr "Мобильные устройства"
+
+msgid "Compatibility"
+msgstr "Совместимость"
 
 msgid "Vulkan"
 msgstr "Vulkan"
@@ -43,8 +57,14 @@ msgstr ""
 msgid "**FSR 2.2:**"
 msgstr "**FSR 2.2:**"
 
+msgid "Global illumination"
+msgstr "Глобальное освещение"
+
 msgid "**Core GI C++ code:**"
 msgstr "**Core GI C++ код:**"
 
 msgid "Depth of field"
 msgstr "Глубина резкости"
+
+msgid "Occlusion culling"
+msgstr "Отбраковка окклюзии"

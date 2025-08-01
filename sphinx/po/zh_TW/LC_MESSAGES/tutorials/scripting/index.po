@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -21,17 +21,20 @@ msgstr "本章節介紹在 Godot 中編寫遊戲的程式語言和核心功能�
 
 msgid ""
 "Here, you will find information that is not already covered in more specific "
-"sections. For instance, to learn about inputs, we recommend you to read :ref:"
-"`Inputs <toc-learn-features-inputs>`."
+"sections. For instance, to learn about inputs, we recommend you to "
+"read :ref:`Inputs <toc-learn-features-inputs>`."
 msgstr ""
-"這裡，你會找到其他專門章節中沒有講到的資訊。例如，要學習輸入，我們建議你閱讀:"
-"ref:`《輸入》 <toc-learn-features-inputs>`。"
+"在這裡，你會找到其他專門章節未涵蓋的資訊。例如，若想瞭解輸入，建議閱讀 :ref:`"
+"輸入 <toc-learn-features-inputs>`。"
 
 msgid "Programming languages"
 msgstr "設計語言"
 
 msgid "The sections below each focus on a given programming language."
 msgstr "下列各節會分別介紹一種特定的程式設計語言。"
+
+msgid "Core features"
+msgstr "核心功能"
 
 msgid ""
 "Some features are specific to the engine and are available in all supported "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -69,18 +69,6 @@ msgstr ""
 
 msgid "Spawning mobs"
 msgstr "Gerando monstros"
-
-msgid ""
-"The Main node will be spawning new mobs, and we want them to appear at a "
-"random location on the edge of the screen. Add a :ref:`Path2D "
-"<class_Path2D>` node named ``MobPath`` as a child of ``Main``. When you "
-"select ``Path2D``, you will see some new buttons at the top of the editor:"
-msgstr ""
-"O nó Principal ficará gerando novos inimigos, e nós queremos que eles "
-"apareçam em lugares aleatórios nos cantos da tela. Adicione um nó :ref:"
-"`Path2D <class_Path2D>` chamado ``CaminhoTurba`` como filho de "
-"``Principal``. Quando você selecionar ``Path2D``, aparecerão alguns botões "
-"novos na parte superior do editor:"
 
 msgid ""
 "Draw the path in *clockwise* order, or your mobs will spawn pointing "

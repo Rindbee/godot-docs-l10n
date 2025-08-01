@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,52 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Nodes and scene instances"
+msgstr "Nodi e istanze di scene"
+
+msgid "Getting nodes"
+msgstr "Ottenere nodi"
+
+msgid "To do so, you can use the following code."
+msgstr "Per fare ciò, puoi utilizzare il seguente codice."
+
+msgid "Node paths"
+msgstr "Percorsi di nodo"
+
+msgid "To get the AnimationPlayer node, you would use the following code."
+msgstr "Per ottenere il nodo AnimationPlayer, useresti il seguente codice."
+
+msgid "Syntactic sugar"
+msgstr "Zucchero sintattico"
+
 msgid "Creating nodes"
 msgstr "Creare nodi"
 
+msgid ""
+"To create a node from code, call its ``new()`` method like for any other "
+"class-based datatype."
+msgstr ""
+"Per creare un nodo tramite codice, chiama il suo metodo ``new()`` come per "
+"qualsiasi altro tipo di dati basato su una classe."
+
 msgid "Instancing scenes"
 msgstr "Istanziare scene"
+
+msgid "Loading the scene from the local drive."
+msgstr "Caricare la scena dal disco locale."
+
+msgid ""
+"Creating an instance of the loaded :ref:`PackedScene <class_PackedScene>` "
+"resource."
+msgstr ""
+"Creazione di un'istanza della risorsa :ref:`PackedScene <class_PackedScene>` "
+"caricata."
+
+msgid ""
+"The advantage of this two-step process is you can keep a packed scene loaded "
+"and create new instances on the fly. For example, to quickly instance "
+"several enemies or bullets."
+msgstr ""
+"Il vantaggio di questo processo diviso in due parti è che si può mantenere "
+"la scena impacchettata caricata e creare istanze al volo. Ad esempio, per "
+"creare parecchi nemici o proiettili."

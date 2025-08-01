@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Script Editor"
+msgstr "스크립트 편집기"
+
 msgid "Introduction"
 msgstr "소개"
 
 msgid "Usage"
 msgstr "사용례"
+
+msgid ""
+"**Close All**: Closes all open scripts and prompts to save if there are "
+"unsaved changes."
+msgstr ""
+"**모두 닫기**: 열려 있는 모든 스크립트를 닫고 저장되지 않은 변경사항이 있으"
+"면 저장하라고 요구합니다."
+
+msgid "**Select All***: Selects the all code in the text editor."
+msgstr "**모두 선택***: 텍스트 편집기에서 모든 코드를 선택합니다."
+
+msgid ""
+"**Trim Trailing Whitespaces**: Removes extra spacing at the end of each line "
+"in the file."
+msgstr ""
+"**후행 공백 다듬기**: 파일의 각 줄 끝에 붙은 불필요한 공백을 제거합니다."
+
+msgid ""
+"**Trim Final Newlines**: Removes the extra new lines at the end of the file."
+msgstr "**최종 개행 다듬기**: 파일 끝에 붙은 불필요한 줄바꿈을 제거합니다."
+
+msgid "foldable"
+msgstr "접기 가능"

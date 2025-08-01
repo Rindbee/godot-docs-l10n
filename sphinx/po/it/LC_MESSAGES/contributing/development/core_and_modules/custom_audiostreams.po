@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Custom AudioStreams"
+msgstr "AudioStream personalizzati"
 
 msgid "Introduction"
 msgstr "Introduzione"
@@ -23,6 +26,22 @@ msgid ""
 msgstr ""
 "`servers/audio/audio_stream.h <https://github.com/godotengine/godot/blob/"
 "master/servers/audio/audio_stream.h>`__"
+
+msgid ""
+"`scene/audio/audio_stream_player.cpp <https://github.com/godotengine/godot/"
+"blob/master/scene/audio/audio_stream_player.cpp>`__"
+msgstr ""
+"`scene/audio/audio_stream_player.cpp <https://github.com/godotengine/godot/"
+"blob/master/scene/audio/audio_stream_player.cpp>`__"
+
+msgid "audiostream_mytone.h"
+msgstr "audiostream_mytone.h"
+
+msgid "audiostreamplayer_mytone.h"
+msgstr "audiostreamplayer_mytone.h"
+
+msgid "audiostreamplayer_mytone.cpp"
+msgstr "audiostreamplayer_mytone.cpp"
 
 msgid "Resampling"
 msgstr "Ricampionamento"

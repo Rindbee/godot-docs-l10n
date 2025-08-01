@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,9 +11,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Git source repository"
+msgstr "Repository sorgente di Git"
+
 msgid ""
 "If you are contributing to the documentation, its repository can be found "
 "`here <https://github.com/godotengine/godot-docs>`_."
 msgstr ""
-"Se stai contribuendo alla documentazione, il repository può essere trovato "
-"qui <https://github.com/godotengine/godot-docs>`_."
+"Se stai contribuendo alla documentazione, il suo repository si può trovare "
+"`qui <https://github.com/godotengine/godot-docs>`_."
+
+msgid "Branching"
+msgstr "I branch"
+
+msgid "Making changes"
+msgstr "Effettuare cambiamenti"

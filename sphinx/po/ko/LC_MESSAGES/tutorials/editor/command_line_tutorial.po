@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Command line tutorial"
-msgstr "명령줄(Command line) 튜토리얼"
+msgstr "명령줄 튜토리얼"
 
 msgid ""
 "Some developers like using the command line extensively. Godot is designed "
@@ -33,9 +33,9 @@ msgstr ""
 "수 있습니다."
 
 msgid ""
-"On macOS, the process is different due to Godot being contained within an ``."
-"app`` bundle (which is a *folder*, not a file). To run a Godot binary from a "
-"terminal on macOS, you have to ``cd`` to the folder where the Godot "
+"On macOS, the process is different due to Godot being contained within an "
+"``.app`` bundle (which is a *folder*, not a file). To run a Godot binary "
+"from a terminal on macOS, you have to ``cd`` to the folder where the Godot "
 "application bundle is located, then run ``Godot.app/Contents/MacOS/Godot`` "
 "followed by any command line arguments. If you've renamed the application "
 "bundle from ``Godot`` to another name, make sure to edit this command line "
@@ -51,6 +51,9 @@ msgstr ""
 msgid "Command line reference"
 msgstr "명령줄 참조"
 
+msgid "editor"
+msgstr "편집기"
+
 msgid "**General options**"
 msgstr "**일반 옵션**"
 
@@ -60,14 +63,20 @@ msgstr "명령"
 msgid "Description"
 msgstr "설명"
 
+msgid "|release| Display the list of command line options."
+msgstr "|release| 명령줄 옵션의 목록을 표시합니다."
+
 msgid "``--version``"
 msgstr "``--version``"
 
 msgid "``-v``, ``--verbose``"
 msgstr "``-v``, ``--verbose``"
 
+msgid "|release| Use verbose stdout mode."
+msgstr "|release| 버보스 표준 출력 모드를 사용합니다."
+
 msgid "**Run options**"
-msgstr "**실행 설정**"
+msgstr "**실행 옵션**"
 
 msgid "``-e``, ``--editor``"
 msgstr "``-e``, ``--editor``"
@@ -80,6 +89,9 @@ msgstr "``--path <directory>``"
 
 msgid "``-u``, ``--upwards``"
 msgstr "``-u``, ``--upwards``"
+
+msgid "|release| Scan folders upwards for 'project.godot' file."
+msgstr "|release| 'project.godot' 파일을 찾기 위해 위로 폴더를 스캔합니다."
 
 msgid "``--main-pack <file>``"
 msgstr "``--main-pack <file>``"
@@ -94,31 +106,61 @@ msgid "``--audio-driver <driver>``"
 msgstr "``--audio-driver <driver>``"
 
 msgid "**Display options**"
-msgstr "**디스플레이 설정**"
+msgstr "**디스플레이 옵션**"
 
 msgid "``-f``, ``--fullscreen``"
 msgstr "``-f``, ``--fullscreen``"
 
+msgid "|release| Request fullscreen mode."
+msgstr "|release| 전체화면 모드를 요청합니다."
+
 msgid "``-m``, ``--maximized``"
 msgstr "``-m``, ``--maximized``"
+
+msgid "|release| Request a maximized window."
+msgstr "|release| 최대화된 창을 요청합니다."
 
 msgid "``-w``, ``--windowed``"
 msgstr "``-w``, ``--windowed``"
 
+msgid "|release| Request windowed mode."
+msgstr "|release| 창 모드를 요청합니다."
+
 msgid "``-t``, ``--always-on-top``"
 msgstr "``-t``, ``--always-on-top``"
+
+msgid "|release| Request an always-on-top window."
+msgstr "|release| 항상 위 창을 요청합니다."
 
 msgid "``--resolution <W>x<H>``"
 msgstr "``--resolution <W>x<H>``"
 
+msgid "|release| Request window resolution."
+msgstr "|release| 창 해상도를 요청합니다."
+
 msgid "``--position <X>,<Y>``"
 msgstr "``--position <X>,<Y>``"
 
+msgid "|release| Request window position."
+msgstr "|release| 창 위치를 요청합니다."
+
+msgid "|release| Request window screen."
+msgstr "|release| 창 화면을 요청합니다."
+
+msgid "|release| Use a single window (no separate subwindows)."
+msgstr "|release| 단일 창을 사용합니다 (별도의 하위 창 없음)."
+
+msgid "|release| Select XR mode ('default', 'off', 'on')."
+msgstr "|release| XR 모드를 선택합니다 ('default', 'off', 'on')."
+
 msgid "**Debug options**"
-msgstr "**디버그 설정**"
+msgstr "**디버그 옵션**"
 
 msgid "``-d``, ``--debug``"
 msgstr "``-d``, ``--debug``"
+
+msgid "|release| Debug (local stdout debugger)."
+msgstr "|release| 디버그 (로컬 표준 출력 디버거)."
 
 msgid "``-b``, ``--breakpoints``"
 msgstr "``-b``, ``--breakpoints``"
@@ -126,8 +168,17 @@ msgstr "``-b``, ``--breakpoints``"
 msgid "``--profiling``"
 msgstr "``--profiling``"
 
+msgid "|release| Enable profiling in the script debugger."
+msgstr "|release| 스크립트 디버거에서 프로파일링을 활성화합니다."
+
 msgid "``--debug-collisions``"
 msgstr "``--debug-collisions``"
+
+msgid "|debug| Show collision shapes when running the scene."
+msgstr "|debug| 씬을 실행할 때 콜리전 모양을 보여줍니다."
+
+msgid "|debug| Show path lines when running the scene."
+msgstr "|debug| 씬을 실행할 때 경로 줄을 보여줍니다."
 
 msgid "``--debug-navigation``"
 msgstr "``--debug-navigation``"
@@ -193,7 +244,7 @@ msgid "The project can now be opened with Godot."
 msgstr "프로젝트는 이제 Godot로 열 수 있습니다."
 
 msgid "Running the editor"
-msgstr "에디터 실행하기"
+msgstr "편집기 실행하기"
 
 msgid ""
 "If a scene has been created and saved, it can be edited later by running the "
@@ -217,7 +268,7 @@ msgid "Debugging"
 msgstr "디버깅"
 
 msgid "Exporting"
-msgstr "내보내기(Exporting)"
+msgstr "내보내기"
 
 msgid ""
 "The preset name must match the name of an export preset defined in the "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -81,8 +81,8 @@ msgid ""
 "Use **UTF-8** encoding without a `byte order mark <https://en.wikipedia.org/"
 "wiki/Byte_order_mark>`_. *(editor default)*"
 msgstr ""
-"** UTF-8 ** குறியாக்கத்தைப் பயன்படுத்தவும் `பைட் ஆர்டர் குறி <https://en.wikipedia."
-"org/wiki/byte_order_mark>` _. *(ஆசிரியர் இயல்புநிலை)*"
+"** UTF-8 ** குறியாக்கத்தைப் பயன்படுத்தவும் `பைட் ஆர்டர் குறி <https://"
+"en.wikipedia.org/wiki/byte_order_mark>` _. *(ஆசிரியர் இயல்புநிலை)*"
 
 msgid "Use **Tabs** instead of spaces for indentation. *(editor default)*"
 msgstr ""
@@ -277,9 +277,9 @@ msgstr ""
 "குறியீட்டிலிருந்து உரை கருத்துகளை வேறுபடுத்த உதவுகிறது."
 
 msgid ""
-"In the script editor, to toggle commenting of the selected code, press :kbd:"
-"`Ctrl + K`. This feature adds/removes a single ``#`` sign before any code on "
-"the selected lines."
+"In the script editor, to toggle commenting of the selected code, "
+"press :kbd:`Ctrl + K`. This feature adds/removes a single ``#`` sign before "
+"any code on the selected lines."
 msgstr ""
 "ச்கிரிப்ட் எடிட்டரில், தேர்ந்தெடுக்கப்பட்ட குறியீட்டைப் பற்றி கருத்து தெரிவிக்க, அழுத்தவும்: "
 "KBD: `ctrl + k`. இந்த நற்பொருத்தம் தேர்ந்தெடுக்கப்பட்ட வரிகளில் எந்த குறியீட்டிற்கும் முன் "
@@ -345,8 +345,20 @@ msgstr ""
 msgid "Naming conventions"
 msgstr "பெயரிடும் மரபுகள்"
 
+msgid ""
+"These naming conventions follow the Godot Engine style. Breaking these will "
+"make your code clash with the built-in naming conventions, leading to "
+"inconsistent code. As a summary table:"
+msgstr ""
+"இந்த பெயரிடும் மரபுகள் கோடோட் என்சின் பாணியைப் பின்பற்றுகின்றன. இவற்றை உடைப்பது உங்கள் "
+"குறியீட்டை உள்ளமைக்கப்பட்ட பெயரிடும் மாநாடுகளுடன் மோதுகிறது, இது சீரற்ற குறியீட்டிற்கு "
+"வழிவகுக்கும். சுருக்கமான அட்டவணையாக:"
+
 msgid "Type"
 msgstr "வகை"
+
+msgid "Convention"
+msgstr "மாநாடு"
 
 msgid "Example"
 msgstr "எடுத்துக்காட்டு"
@@ -354,17 +366,65 @@ msgstr "எடுத்துக்காட்டு"
 msgid "File names"
 msgstr "கோப்பு பெயர்கள்"
 
+msgid "snake_case"
+msgstr "பாம்பு_கச்"
+
+msgid "``yaml_parser.gd``"
+msgstr "`` yaml_parser.gd``"
+
+msgid "Class names"
+msgstr "வகுப்பு பெயர்கள்"
+
+msgid "PascalCase"
+msgstr "பாச்கால்கேச்"
+
+msgid "``class_name YAMLParser``"
+msgstr "`` class_name yamlparser``"
+
+msgid "Node names"
+msgstr "முனை பெயர்கள்"
+
+msgid "``Camera3D``, ``Player``"
+msgstr "`` கேமரா 3 டி``, `` பிளேயர்``"
+
 msgid "Functions"
 msgstr "செயல்பாடுகள்"
+
+msgid "``func load_level():``"
+msgstr "`` func load_level (): ``"
 
 msgid "Variables"
 msgstr "மாறிகள்"
 
+msgid "``var particle_effect``"
+msgstr "`` var pethel_effect``"
+
 msgid "Signals"
 msgstr "சமிக்ஞைகள்"
 
+msgid "``signal door_opened``"
+msgstr "`` சிக்னல் கதவு_OPENED``"
+
 msgid "Constants"
 msgstr "மாறிலிகள்"
+
+msgid "CONSTANT_CASE"
+msgstr "Contantion_case"
+
+msgid "``const MAX_SPEED = 200``"
+msgstr "`` const max_speed = 200``"
+
+msgid "Enum names"
+msgstr "Enum பெயர்கள்"
+
+msgid "``enum Element``"
+msgstr "`` enum உறுப்பு``"
+
+msgid "Enum members"
+msgstr "Enum உறுப்பினர்கள்"
+
+msgid "``{EARTH, WATER, AIR, FIRE}``"
+msgstr "`` {பூமி, நீர், காற்று, நெருப்பு} ``"
 
 msgid ""
 "Use snake_case for file names. For named classes, convert the PascalCase "
@@ -420,17 +480,33 @@ msgstr ""
 "பிரிக்க அடிக்கோடிட்டு (\\ _) சொல்ல வேண்டும்:"
 
 msgid ""
-"Use PascalCase for enum *names* and CONSTANT\\_CASE for their members, as "
-"they are constants:"
+"Write enums with each item on its own line. This allows adding documentation "
+"comments above each item more easily, and also makes for cleaner diffs in "
+"version control when items are added or removed."
 msgstr ""
-"Enum * பெயர்கள் * மற்றும் நிலையான _ _ கேசுக்கு பாச்கல்கேசைப் பயன்படுத்தவும், ஏனெனில் அவை "
-"மாறிலிகள்:"
+"ஒவ்வொரு பொருளையும் அதன் சொந்த வரியில் எழுதுங்கள். இது ஒவ்வொரு பொருளுக்கும் மேலாக "
+"ஆவணப்படுத்தல் கருத்துகளைச் சேர்ப்பதை அனுமதிக்கிறது, மேலும் உருப்படிகள் சேர்க்கப்படும்போது "
+"அல்லது அகற்றப்படும்போது பதிப்பு கட்டுப்பாட்டில் தூய்மையான வேறுபாடுகளையும் உருவாக்குகிறது."
 
 msgid "Code order"
 msgstr "குறியீடு வரிசை"
 
+msgid ""
+"This section focuses on code order. For formatting, see :ref:`formatting`. "
+"For naming conventions, see :ref:`naming_conventions`."
+msgstr ""
+"இந்த பிரிவு குறியீடு வரிசையில் கவனம் செலுத்துகிறது. வடிவமைப்பிற்கு, காண்க: குறிப்பு: "
+"`வடிவமைப்பு`. மரபுகளுக்கு பெயரிடுவதற்கு, காண்க: குறிப்பு: `பெயரிடுதல்_கன்வென்ட்கள்`."
+
 msgid "We suggest to organize GDScript code this way:"
 msgstr "GDSCRIPT குறியீட்டை இந்த வழியில் ஒழுங்கமைக்க நாங்கள் பரிந்துரைக்கிறோம்:"
+
+msgid ""
+"And put the class methods and variables in the following order depending on "
+"their access modifiers:"
+msgstr ""
+"மற்றும் வகுப்பு முறைகள் மற்றும் மாறிகள் அவற்றின் அணுகல் மாற்றிகளைப் பொறுத்து பின்வரும் "
+"வரிசையில் வைக்கவும்:"
 
 msgid ""
 "We optimized the order to make it easy to read the code from top to bottom, "
@@ -587,6 +663,12 @@ msgstr ""
 msgid "Static typing"
 msgstr "நிலையான தட்டச்சு"
 
+msgid ""
+"GDScript supports :ref:`optional static typing<doc_gdscript_static_typing>`."
+msgstr ""
+"Gdscript ஆதரிக்கிறது: ref: `விருப்ப நிலையான தட்டச்சு "
+"<doc_gdscript_static_typing>`."
+
 msgid "Declared types"
 msgstr "அறிவிக்கப்பட்ட வகைகள்"
 
@@ -598,15 +680,6 @@ msgstr "ஒரு செயல்பாட்டின் வருவாய் 
 
 msgid "Inferred types"
 msgstr "ஊகிக்கப்பட்ட வகைகள்"
-
-msgid ""
-"In most cases you can let the compiler infer the type, using ``:=``. Prefer "
-"``:=`` when the type is written on the same line as the assignment, "
-"otherwise prefer writing the type explicitly."
-msgstr ""
-"பெரும்பாலான சந்தர்ப்பங்களில், ``: = `` ஐப் பயன்படுத்தி கம்பைலர் வகையை ஊகிக்க "
-"அனுமதிக்கலாம். ``: = `` என்ற வகை வேலையின் அதே வரியில் எழுதப்படும்போது, வகையை "
-"வெளிப்படையாக எழுத விரும்புங்கள்."
 
 msgid ""
 "Include the type hint when the type is ambiguous, and omit the type hint "
@@ -634,10 +707,3 @@ msgid ""
 msgstr ""
 "மாற்றாக, திரும்பும் வகையை நடிக்க `` AS`` முக்கிய சொல்லைப் பயன்படுத்தலாம், மேலும் var இன் "
 "வகையை ஊகிக்க அந்த வகை பயன்படுத்தப்படும்."
-
-msgid ""
-"This option is also considered more :ref:`type-"
-"safe<doc_gdscript_static_typing_safe_lines>` than the first."
-msgstr ""
-"இந்த விருப்பமும் மேலும் கருதப்படுகிறது: ref: `வகை-பாதுகாப்பானது "
-"<doc_gdscript_static_typing_safe_lines>` முதல் விட."

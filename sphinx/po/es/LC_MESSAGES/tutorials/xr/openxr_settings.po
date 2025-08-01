@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,14 @@ msgstr ""
 
 msgid "Enabled"
 msgstr "Activar"
+
+msgid ""
+"**Compatibility renderer only**, for Mobile and Forward+ renderer, set the "
+"``vrs_mode`` property on :ref:`Viewport <class_viewport>` to ``VRS_XR``."
+msgstr ""
+"**Solo renderizador Compatibilidad**, para el renderizador Mobile y "
+"Forward+, configure la propiedad ``vrs_mode`` en :ref:`Viewport "
+"<class_viewport>` en ``VRS_XR``."
+
+msgid "**Compatibility renderer only**"
+msgstr "**Solo renderizador Compatibilidad**"

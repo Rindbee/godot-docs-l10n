@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -25,45 +25,11 @@ msgstr ""
 "dtreo."
 
 msgid ""
-"Create a new scene by going to the Scene menu in the top-left and clicking "
-"*New Scene*."
+"To learn more about the different physics node types, see "
+"the :ref:`doc_physics_introduction`."
 msgstr ""
-"Cruthaigh radharc nua trí dhul chuig an roghchlár Scene sa bharr ar chlé "
-"agus cliceáil ar *New Scene *."
-
-msgid "|image0|"
-msgstr "|íomhá0|"
-
-msgid "image0"
-msgstr "íomhá0"
-
-msgid ""
-"Create a :ref:`CharacterBody3D <class_CharacterBody3D>` node as the root"
-msgstr ""
-"Cruthaigh nód :ref:`CharacterBody3D <class_CharacterBody3D>` mar an fhréamh"
-
-msgid ""
-"Name the :ref:`CharacterBody3D <class_CharacterBody3D>` to ``Player``. "
-"Character bodies are complementary to the area and rigid bodies used in the "
-"2D game tutorial. Like rigid bodies, they can move and collide with the "
-"environment, but instead of being controlled by the physics engine, **you** "
-"dictate their movement. You will see how we use the node's unique features "
-"when we code the jump and squash mechanics."
-msgstr ""
-"Ainmnigh an :tag:`CharacterBody3D <class_CharacterBody3D>` go ``Player``. "
-"Comhlánaíonn na comhlachtaí carachtair an limistéar agus na comhlachtaí "
-"dochta a úsáidtear sa rang teagaisc cluiche 2D. Cosúil le coirp dochta, is "
-"féidir leo gluaiseacht agus imbhualadh leis an gcomhshaol, ach in ionad a "
-"bheith faoi rialú ag inneall na fisice, ** tusa** a ordaíonn a ngluaiseacht. "
-"Feicfidh tú conas a úsáidimid gnéithe uathúla an nód nuair a chódaimid an "
-"mheicnic léim agus scuaise."
-
-msgid ""
-"To learn more about the different physics node types, see the :ref:"
-"`doc_physics_introduction`."
-msgstr ""
-"Chun níos mó a fhoghlaim faoi na cineálacha éagsúla nód fisice, féach an :"
-"ref:'doc_physics_introduction'."
+"Chun níos mó a fhoghlaim faoi na cineálacha éagsúla nód fisice, féach "
+"an :ref:'doc_physics_introduction'."
 
 msgid ""
 "For now, we're going to create a basic rig for our character's 3D model. "
@@ -75,24 +41,11 @@ msgstr ""
 "beochan á sheinm aige."
 
 msgid ""
-"Add a :ref:`Node3D <class_Node3D>` node as a child of ``Player`` and name it "
-"``Pivot``"
-msgstr ""
-"Cuir leis :ref:`Node3D <class_Node3D>` nód mar leanbh de ``Player`` agus "
-"ainmnigh ``Pivot`` air"
-
-msgid ""
 "Then, in the FileSystem dock, expand the ``art/`` folder by double-clicking "
 "it and drag and drop ``player.glb`` onto ``Pivot``."
 msgstr ""
 "Ansin, sa duga FileSystem, leathnaigh an fillteán ''art/'' trí chliceáil "
 "faoi dhó air agus tarraing agus scaoil ''player.glb'' ar ''Pivot''."
-
-msgid "|image1|"
-msgstr "|íomhá1|"
-
-msgid "image1"
-msgstr "íomhá 1"
 
 msgid ""
 "This should instantiate the model as a child of ``Pivot``. You can rename it "
@@ -101,33 +54,8 @@ msgstr ""
 "Ba chóir go gcuirfeadh sé seo an tsamhail ar an toirt mar leanbh de "
 "''Pivot''. Is féidir é a athainmniú go ''Carachtar''."
 
-msgid "|image2|"
-msgstr "|íomhá2|"
-
-msgid "image2"
-msgstr "íomhá 2"
-
-msgid ""
-"As with all kinds of physics nodes, we need a collision shape for our "
-"character to collide with the environment. Select the ``Player`` node again "
-"and add a child node :ref:`CollisionShape3D <class_CollisionShape3D>`. In "
-"the *Inspector*, on the *Shape* property, add a new :ref:`SphereShape3D "
-"<class_SphereShape3D>`."
-msgstr ""
-"Cosúil le gach cineál nóid fisice, ní mór dúinn cruth imbhuailte chun ár "
-"gcarachtar imbhualadh leis an gcomhshaol. Roghnaigh an nód ``Player`` arís "
-"agus cuir nód linbh leis :ref:`CollisionShape3D <class_CollisionShape3D>`. "
-"Sa *Cigire*, ar an airí *Cruth*, cuir :ref:`SphereShape3D "
-"<class_SphereShape3D>> nua leis."
-
 msgid "The sphere's wireframe appears below the character."
 msgstr "Tá sreangfhráma an sféir le feiceáil faoi bhun an charachtair."
-
-msgid "|image3|"
-msgstr "|íomhá3|"
-
-msgid "image3"
-msgstr "íomhá 3"
 
 msgid ""
 "It will be the shape the physics engine uses to collide with the "
@@ -146,29 +74,6 @@ msgid ""
 msgstr ""
 "Ansin, bog cruth an imbhuailte suas ionas go mbeidh a bhun ag teacht go "
 "garbh le plána na greille."
-
-msgid "|image4|"
-msgstr "|íomhá4|"
-
-msgid "image4"
-msgstr "íomhá 4"
-
-msgid ""
-"To make moving the shape easier, you can toggle the model's visibility by "
-"clicking the eye icon next to the ``Character`` or the ``Pivot`` nodes."
-msgstr ""
-"Chun an cruth a bhogadh níos éasca, is féidir leat infheictheacht na samhla "
-"a scoránú trí chliceáil ar dheilbhín na súl in aice leis na nóid "
-"''Carachtar'' nó na nóid ''Pivot''."
-
-msgid "|image5|"
-msgstr "|íomhá5|"
-
-msgid "image5"
-msgstr "íomhá5"
-
-msgid "Save the scene as ``player.tscn``"
-msgstr "Sábháil an radharc mar ''player.tscn''"
 
 msgid ""
 "With the nodes ready, we can almost get coding. But first, we need to define "
@@ -193,103 +98,17 @@ msgstr ""
 "scripteanna agus déanann sé níos inléite iad."
 
 msgid ""
-"This system is the Input Map. To access its editor, head to the *Project* "
-"menu and select *Project Settings*."
-msgstr ""
-"Is é an córas seo an Léarscáil Ionchurtha. Chun teacht ar a eagarthóir, "
-"téigh chuig an roghchlár *Project *agus roghnaigh *Project Arrangements *."
-
-msgid "|image6|"
-msgstr "|íomhá6|"
-
-msgid "image6"
-msgstr "íomhá6"
-
-msgid ""
-"At the top, there are multiple tabs. Click on *Input Map*. This window "
-"allows you to add new actions at the top; they are your labels. In the "
-"bottom part, you can bind keys to these actions."
-msgstr ""
-"Ag an mbarr, tá cluaisíní éagsúla ann. Cliceáil ar *Input map *. Ligeann an "
-"fhuinneog seo duit gníomhartha nua a chur ag an mbarr; is iad do lipéid iad. "
-"Sa chuid bun, is féidir leat eochracha a cheangal leis na gníomhartha seo."
-
-msgid "|image7|"
-msgstr "|íomhá7|"
-
-msgid "image7"
-msgstr "íomhá 7"
-
-msgid ""
-"Godot projects come with some predefined actions designed for user interface "
-"design (see above screenshot). These will become visible if you enable the "
-"*Show Built-in Actions* toggle. We could use these here, but instead we're "
-"defining our own to support gamepads. Leave *Show Built-in Actions* disabled."
-msgstr ""
-"Tagann tionscadail Godot le roinnt gníomhartha réamhshainithe atá deartha le "
-"haghaidh dearadh comhéadan úsáideora (féach thuas an pictiúr). Beidh siad "
-"seo le feiceáil má chumasaíonn tú an scoránaigh *Show Built-in Actions *. "
-"D'fhéadfaimis iad seo a úsáid anseo, ach ina ionad sin táimid ag sainiú ár "
-"gcuid féin chun tacú le gamepads. Fág *Taispeáin Gníomhartha Tógtha * faoi "
-"mhíchumas."
-
-msgid ""
 "We're going to name our actions ``move_left``, ``move_right``, "
 "``move_forward``, ``move_back``, and ``jump``."
 msgstr ""
 "Táimid chun ár ngníomhartha ''move_left'', 'move_right'', 'move_forward'', "
 "''move_back'', agus ''léim'' a ainmniú."
 
-msgid "To add an action, write its name in the bar at the top and press Enter."
-msgstr ""
-"Chun gníomh a chur leis, scríobh a ainm sa bharra ag an mbarr agus brúigh "
-"Enter."
-
-msgid "|image8|"
-msgstr "|íomhá8|"
-
-msgid "image8"
-msgstr "íomhá8"
-
 msgid "Create the following five actions:"
 msgstr "Cruthaigh na cúig ghníomh seo a leanas:"
 
-msgid "|image9|"
-msgstr "|íomhá9|"
-
-msgid "image9"
-msgstr "íomhá9"
-
-msgid ""
-"To bind a key or button to an action, click the \"+\" button to its right. "
-"Do this for ``move_left``. Press the left arrow key and click *OK*."
-msgstr ""
-"Chun eochair nó cnaipe a cheangal le gníomh, cliceáil ar an gcnaipe \"+\" ar "
-"dheis. Déan é seo le haghaidh ''move_left''. Brúigh an eochair arrow chlé "
-"agus cliceáil *OK *."
-
 msgid "Bind also the :kbd:`A` key, onto the action ``move_left``."
 msgstr "Ceangail freisin an eochair :kbd:'A', ar an ngníomh ''move_left''."
-
-msgid "|image12|"
-msgstr "|íomhá12|"
-
-msgid "image12"
-msgstr "íomhá12"
-
-msgid ""
-"Let's now add support for a gamepad's left joystick. Click the \"+\" button "
-"again but this time, select *Manual Selection -> Joypad Axes*."
-msgstr ""
-"Cuirimis tacaíocht anois do luamhán stiúrtha clé gamepad. Cliceáil ar an "
-"gcnaipe \"+\" arís ach an uair seo, roghnaigh *Roghnú Láimhe -> Aiseanna "
-"Joypad *."
-
-msgid "Select the negative X axis of the left joystick."
-msgstr "Roghnaigh ais dhiúltach X an luamhán stiúrtha ar chlé."
-
-msgid "Leave the other values as default and press *OK*"
-msgstr "Fág na luachanna eile mar réamhshocrú agus brúigh *OK *"
 
 msgid ""
 "If you want controllers to have different input actions, you should use the "
@@ -312,33 +131,8 @@ msgstr ""
 "''move_right''. Tar éis gach eochair a cheangal, ba chóir go mbeadh cuma mar "
 "seo ar do chomhéadan."
 
-msgid "|image15|"
-msgstr "|íomhá15|"
-
-msgid "image15"
-msgstr "íomhá15"
-
-msgid ""
-"The final action to set up is the ``jump`` action. Bind the Space key and "
-"the gamepad's A button."
-msgstr ""
-"Is é an gníomh deiridh atá le bunú ná an gníomh ''léim''. Ceangail an "
-"eochair Spás agus cnaipe A an gamepad."
-
-msgid "|image16|"
-msgstr "|íomhá16|"
-
-msgid "image16"
-msgstr "íomhá16"
-
 msgid "Your jump input action should look like this."
 msgstr "Ba chóir go mbeadh cuma mar seo ar do ghníomh ionchuir léim."
-
-msgid "|image18|"
-msgstr "|íomhá18|"
-
-msgid "image18"
-msgstr "íomhá18"
 
 msgid ""
 "That's all the actions we need for this game. You can use this menu to label "

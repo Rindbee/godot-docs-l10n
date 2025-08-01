@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 "En Windows, también se sabe que la incrustación de PCK provoca falsos "
 "positivos en los programas antivirus. Por lo tanto, se recomienda evitar su "
-"uso a menos que esté distribuyendo su proyecto a través de Steam, ya que "
+"uso a menos que esté distribuyendo tu proyecto a través de Steam, ya que "
 "evita la firma de código y las comprobaciones de antivirus."
 
 msgid "Setup"
@@ -71,3 +71,6 @@ msgstr "Organización"
 
 msgid "Environment variables"
 msgstr "Variables de entorno"
+
+msgid "Export options"
+msgstr "Opciones de exportación"

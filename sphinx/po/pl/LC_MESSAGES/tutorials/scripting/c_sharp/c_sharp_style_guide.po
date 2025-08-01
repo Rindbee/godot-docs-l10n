@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -38,6 +38,9 @@ msgstr ""
 "dotnet/csharp/programming-guide/inside-a-program/coding-conventions>`_ lub "
 "`Wytyczne projektowania frameworków <https://docs.microsoft.com/en-us/dotnet/"
 "standard/design-guidelines/naming-guidelines>`_."
+
+msgid "Formatting"
+msgstr "Formatowanie"
 
 msgid "Insert a blank line:"
 msgstr "Wstaw pustą linię:"

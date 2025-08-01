@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,64 @@ msgstr ""
 
 msgid "Exporting for Linux"
 msgstr "Экспорт для Linux"
+
+msgid ""
+"This page describes how to export a Godot project to Linux. If you're "
+"looking to compile editor or export template binaries from source instead, "
+"read :ref:`doc_compiling_for_linuxbsd`."
+msgstr ""
+"На этой странице описано, как экспортировать проект Godot в Linux. Если вы "
+"хотите скомпилировать редактор или экспортировать исполняемые файлы шаблона "
+"из исходного кода, см. :ref:`doc_compiling_for_linuxbsd`."
+
+msgid ""
+"The simplest way to distribute a game for PC is to copy the executable "
+"(``godot``), compress the folder and send it to someone else. However, this "
+"is often not desired."
+msgstr ""
+"Самый простой способ распространения игры для ПК — скопировать исполняемый "
+"файл (``godot``), заархивировать папку и отправить её кому-нибудь ещё. "
+"Однако часто это нежелательно."
+
+msgid ""
+"Godot offers a more elegant approach for PC distribution when using the "
+"export system. When exporting for Linux, the exporter takes all the project "
+"files and creates a ``data.pck`` file. This file is bundled with a specially "
+"optimized binary that is smaller, faster and does not contain the editor and "
+"debugger."
+msgstr ""
+"Godot предлагает более элегантный подход к распространению на ПК с помощью "
+"системы экспорта. При экспорте для Linux экспортер берёт все файлы проекта и "
+"создаёт файл ``data.pck``. Этот файл поставляется вместе со специально "
+"оптимизированным исполняемым файлом, который меньше по размеру, быстрее и не "
+"содержит редактора и отладчика."
+
+msgid "Environment variables"
+msgstr "Переменные среды"
+
+msgid ""
+"You can use the following environment variables to set export options "
+"outside of the editor. During the export process, these override the values "
+"that you set in the export menu."
+msgstr ""
+"Вы можете использовать следующие переменные окружения, чтобы задавать опции "
+"экспорта вне редактора. Во время процесса экспорта, они переопределяют "
+"значения, которые были заданы в меню экспорта."
+
+msgid "Linux export environment variables"
+msgstr "Переменные среды экспорта Linux"
+
+msgid "Export option"
+msgstr "Опции экспорта"
+
+msgid "Environment variable"
+msgstr "Переменная окружения"
+
+msgid "Encryption / Encryption Key"
+msgstr "Шифрование / Ключ шифрования"
+
+msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "Export options"
+msgstr "Опции экспорта"

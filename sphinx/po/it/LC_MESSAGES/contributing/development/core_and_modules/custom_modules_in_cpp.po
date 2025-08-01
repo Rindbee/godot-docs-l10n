@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,11 +14,14 @@ msgstr ""
 msgid "Modules"
 msgstr "Moduli"
 
-msgid "Example output::"
-msgstr "Esempio di output::"
-
 msgid "Now we can generate the documentation:"
 msgstr "Ora possiamo generare la documentazione:"
+
+msgid "Writing custom unit tests"
+msgstr "Scrivere test unitari personalizzati"
+
+msgid "The procedure is the following:"
+msgstr "La procedura è la seguente:"
 
 msgid "Adding custom editor icons"
 msgstr "Aggiunta di icone personalizzato nell'editor"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,36 @@ msgstr ""
 
 msgid "In this guide, you will learn:"
 msgstr "In questa guida imparerai:"
+
+msgid ""
+"**How to write your input logic to support both keyboard and controller "
+"inputs.**"
+msgstr ""
+"**Come scrivere la logica di input per supportare sia gli input da tastiera "
+"sia da controller.**"
+
+msgid "**How controllers can behave differently from keyboard/mouse input.**"
+msgstr ""
+"**Come i controller possono comportarsi diversamente rispetto agli input da "
+"tastiera/mouse.**"
+
+msgid "**Troubleshooting issues with controllers in Godot.**"
+msgstr "**Risolvere problemi con i controller in Godot.**"
+
+msgid "Which Input singleton method should I use?"
+msgstr "Quale metodo del singleton Input dovrei utilizzare?"
+
+msgid "Vibration"
+msgstr "Vibrazione"
+
+msgid "Dead zone"
+msgstr "Zona morta"
+
+msgid "\"Echo\" events"
+msgstr "Eventi \"Echo\""
+
+msgid "Window focus"
+msgstr "Focus della finestra"
 
 msgid "Troubleshooting"
 msgstr "Risoluzione dei problemi"

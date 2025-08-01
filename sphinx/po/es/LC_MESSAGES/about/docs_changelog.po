@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,9 +16,9 @@ msgstr "Registro de cambios de la documentación"
 
 msgid ""
 "The documentation is continually being improved. New releases include new "
-"pages, fixes and updates to existing pages, and many updates to the :ref:"
-"`class reference <doc_class_reference>`. Below is a list of new pages added "
-"since version 3.0."
+"pages, fixes and updates to existing pages, and many updates to "
+"the :ref:`class reference <doc_class_reference>`. Below is a list of new "
+"pages added since version 3.0."
 msgstr ""
 "La documentación está continuamente siendo mejorada. Nuevas versiones "
 "incluyen nuevas páginas, correcciones y actualizaciones de páginas "
@@ -34,41 +34,131 @@ msgstr ""
 "están reflejados, muchas páginas han sido actualizadas sustancialmente pero "
 "no está indicado en este documento."
 
+msgid "New pages since version 4.3"
+msgstr "Nuevas páginas desde la versión 4.3"
+
 msgid "2D"
 msgstr "2D"
+
+msgid ":ref:`doc_introduction_to_2d`"
+msgstr ":ref:`doc_introducción_a_2d`"
 
 msgid "3D"
 msgstr "3D"
 
+msgid ":ref:`doc_spring_arm`"
+msgstr ":ref:`doc_spring_arm`"
+
 msgid "Debug"
 msgstr "Depurar"
+
+msgid ":ref:`doc_output_panel`"
+msgstr ":ref:`panel de salida del documento`"
 
 msgid "Editor"
 msgstr "Editor"
 
+msgid ":ref:`doc_using_the_xr_editor`"
+msgstr ":ref:`doc_usando_el_editor_xr`"
+
 msgid "Performance"
 msgstr "Rendimiento"
+
+msgid ":ref:`doc_pipeline_compilations`"
+msgstr ":ref:`doc_pipeline_compilations`"
 
 msgid "Physics"
 msgstr "Física"
 
+msgid ":ref:`doc_physics_interpolation`"
+msgstr ":ref:`doc_physics_interpolación`"
+
+msgid ":ref:`doc_physics_interpolation_quick_start_guide`"
+msgstr ":ref:`doc_guía_rápida_de_inicio_de_interpolación_física`"
+
+msgid ":ref:`doc_physics_interpolation_introduction`"
+msgstr ":ref:`doc_física_interpolación_introducción`"
+
+msgid ":ref:`doc_using_physics_interpolation`"
+msgstr ":ref:`doc_using_physics_interpolation`"
+
+msgid ":ref:`doc_advanced_physics_interpolation`"
+msgstr ":ref:`doc_advanced_physics_interpolation`"
+
+msgid ":ref:`doc_2d_and_3d_physics_interpolation`"
+msgstr ":ref:`doc_2d_and_3d_physics_interpolation`"
+
 msgid "Rendering"
 msgstr "Renderizado"
+
+msgid ":ref:`doc_renderers`"
+msgstr ":ref:`doc_renderers`"
 
 msgid "Shaders"
 msgstr "Shaders"
 
+msgid ":ref:`doc_shader_functions`"
+msgstr ":ref:`doc_shader_functions`"
+
+msgid "New pages since version 4.2"
+msgstr "Nuevas páginas desde la versión 4.2"
+
 msgid "About"
 msgstr "Acerca de"
+
+msgid ":ref:`doc_system_requirements`"
+msgstr ":ref:`doc_requisitos_del_sistema`"
+
+msgid ":ref:`doc_2d_parallax`"
+msgstr ":ref:`doc_2d_parallax`"
 
 msgid "Contributing"
 msgstr "Contribuir"
 
+msgid ":ref:`doc_handling_compatibility_breakages`"
+msgstr ":ref:`doc_handling_compatibility_breakages`"
+
+msgid ":ref:`doc_ways_to_contribute`"
+msgstr ":ref:`doc_ways_to_contribute`"
+
+msgid "GDExtension"
+msgstr "GDExtensión"
+
+msgid ":ref:`doc_gdextension_file`"
+msgstr ":ref:`doc_gdextension_file`"
+
+msgid ":ref:`doc_gdextension_docs_system`"
+msgstr ":ref:`doc_gdextension_docs_system`"
+
 msgid "Migrating"
 msgstr "Migrando"
 
+msgid ":ref:`doc_upgrading_to_godot_4.3`"
+msgstr ":ref:`doc_upgrading_to_godot_4.3`"
+
+msgid ":ref:`doc_compositor`"
+msgstr ":ref:`doc_compositor`"
+
 msgid "XR"
 msgstr "XR"
+
+msgid ":ref:`doc_a_better_xr_start_script`"
+msgstr ":ref:`doc_a_better_xr_start_script`"
+
+msgid ":ref:`doc_openxr_passthrough`"
+msgstr ":ref:`doc_openxr_passthrough`"
+
+msgid ":ref:`doc_xr_next_steps`"
+msgstr ":ref:`doc_xr_próximos_pasos`"
+
+msgid ":ref:`doc_openxr_settings`"
+msgstr ":ref:`doc_openxr_settings`"
+
+msgid ":ref:`doc_openxr_composition_layers`"
+msgstr ":ref:`doc_openxr_composition_layers`"
+
+msgid ":ref:`doc_openxr_body_tracking`"
+msgstr ":ref:`doc_openxr_body_tracking`"
 
 msgid "New pages since version 4.1"
 msgstr "Nuevas páginas desde la versión 4.1"
@@ -347,11 +437,11 @@ msgid ":ref:`doc_what_is_gdextension`"
 msgstr ":ref:`doc_what_is_gdextension`"
 
 msgid ""
-":ref:`doc_gdscript_warning_system` (split from :ref:"
-"`doc_gdscript_static_typing`)"
+":ref:`doc_gdscript_warning_system` (split "
+"from :ref:`doc_gdscript_static_typing`)"
 msgstr ""
-":ref:`doc_gdscript_warning_system` (separado de :ref:"
-"`doc_gdscript_static_typing`)"
+":ref:`doc_gdscript_warning_system` (separado "
+"de :ref:`doc_gdscript_static_typing`)"
 
 msgid "User Interface (UI)"
 msgstr "Interfaz de Usuario (UI)"

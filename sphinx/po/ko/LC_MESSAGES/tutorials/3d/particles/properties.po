@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "3D Particle system properties"
+msgstr "3D 입자 시스템 속성"
+
+msgid "Emitter properties"
+msgstr "방출기 속성"
+
+msgid "Collision properties"
+msgstr "콜리전 속성"
+
+msgid "Particle trails"
+msgstr "입자 트레일"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,35 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Using NavigationAgents"
+msgstr "Utilizzo dei NavigationAgent"
+
+msgid ""
+"The result of the pathfinding can be influenced with the following "
+"properties."
+msgstr ""
+"Il risultato della ricerca del percorso può essere influenzato dalle "
+"seguenti proprietà."
+
+msgid ""
+"The following distance properties influence the path following behavior."
+msgstr ""
+"Le seguenti proprietà di distanza influenzano il comportamento di seguimento "
+"del percorso."
+
+msgid "NavigationAgent Avoidance"
+msgstr "Evitamento di NavigationAgent"
+
+msgid "The following NavigationAgent properties are relevant for avoidance:"
+msgstr ""
+"Le seguenti proprietà di NavigationAgent sono rilevanti per l'evitamento:"
+
+msgid "NavigationAgent Script Templates"
+msgstr "Modelli di script per NavigationAgent"
+
+msgid "2D GDScript"
+msgstr "GDScript 2D"
+
+msgid "3D GDScript"
+msgstr "GDScript 3D"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,14 +23,26 @@ msgstr "Pola w flagach Exec"
 msgid "Is replaced with"
 msgstr "Jest zastępowany z"
 
+msgid "``{project}``"
+msgstr "``{project}``"
+
 msgid "The absolute path to the project directory"
 msgstr "Ścieżka bezwzględna do katalogu projektu"
+
+msgid "``{file}``"
+msgstr "``{file}``"
 
 msgid "The absolute path to the file"
 msgstr "Ścieżka bezwzględna do pliku"
 
+msgid "``{col}``"
+msgstr "``{col}``"
+
 msgid "The column number of the error"
 msgstr "Numer kolumny błędu"
+
+msgid "``{line}``"
+msgstr "``{line}``"
 
 msgid "The line number of the error"
 msgstr "Numer wiersza błędu"
@@ -40,3 +52,15 @@ msgstr "Edytor"
 
 msgid "Exec Flags"
 msgstr "Parametry uruchomienia"
+
+msgid "Geany/Kate"
+msgstr "Geany/Kate"
+
+msgid "Atom"
+msgstr "Atom"
+
+msgid "``{file}:{line}``"
+msgstr "``{file}:{line}``"
+
+msgid "Emacs"
+msgstr "Emacs"

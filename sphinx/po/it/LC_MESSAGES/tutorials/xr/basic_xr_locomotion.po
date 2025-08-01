@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,25 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Basic XR Locomotion"
+msgstr "Locomozione XR base"
+
+msgid "Adding our player body"
+msgstr "Aggiungere il corpo del nostro giocatore"
+
+msgid "Adding a floor"
+msgstr "Aggiungere un pavimento"
+
+msgid "Direct movement"
+msgstr "Movimento diretto"
+
+msgid "Teleport"
+msgstr "Teleportazione"
+
+msgid ""
+"If you've followed all instructions correctly your scene should now look "
+"something like this:"
+msgstr ""
+"Se hai seguito correttamente tutte le istruzioni, la scena dovrebbe apparire "
+"più o meno così:"

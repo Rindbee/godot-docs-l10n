@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -22,8 +22,17 @@ msgid ""
 "Summator example:"
 msgstr "要绑定到外部库, 请设置类似于Summator示例的模块目录:"
 
+msgid "Next, you will create a header file with a TTS class:"
+msgstr "接下来，创建 TTS 类的头文件："
+
+msgid "godot/modules/tts/tts.h"
+msgstr "godot/modules/tts/tts.h"
+
 msgid "And then you'll add the cpp file."
-msgstr "然后你将添加cpp文件."
+msgstr "然后添加 cpp 文件。"
+
+msgid "godot/modules/tts/tts.cpp"
+msgstr "godot/modules/tts/tts.cpp"
 
 msgid ""
 "Just as before, the new class needs to be registered somehow, so two more "
@@ -39,6 +48,20 @@ msgstr ""
 
 msgid "These files should contain the following:"
 msgstr "这些文件应包含以下内容:"
+
+msgid "godot/modules/tts/register_types.h"
+msgstr "godot/modules/tts/register_types.h"
+
+msgid "godot/modules/tts/register_types.cpp"
+msgstr "godot/modules/tts/register_types.cpp"
+
+msgid ""
+"Next, you need to create an ``SCsub`` file so the build system compiles this "
+"module:"
+msgstr "接下来需要创建一个 ``SCsub`` 文件，让构建系统编译该模块："
+
+msgid "godot/modules/tts/SCsub"
+msgstr "godot/modules/tts/SCsub"
 
 msgid ""
 "You'll need to install the external library on your machine to get the .a "

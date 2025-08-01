@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -57,10 +57,10 @@ msgid "**editor**"
 msgstr "**editor**"
 
 msgid "**double**"
-msgstr "**двойной**"
+msgstr "**double (двойной)**"
 
 msgid "**single**"
-msgstr "**одинарной**"
+msgstr "**single (одинарный)**"
 
 msgid "**x86_64**"
 msgstr "**x86_64**"
@@ -76,6 +76,9 @@ msgstr "**risc-v**"
 
 msgid "**wasm32**"
 msgstr "**wasm-32**"
+
+msgid "Icons section"
+msgstr "Раздел иконок"
 
 msgid "For example:"
 msgstr "Например:"

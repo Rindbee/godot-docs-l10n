@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,9 @@ msgstr ""
 
 msgid "Import process"
 msgstr "가져오기 과정"
+
+msgid "Importing assets in Godot"
+msgstr "Godot에서 애셋 가져오기"
 
 msgid "Changing import parameters"
 msgstr "가져오기의 매개변수 변경하기"
@@ -80,6 +83,17 @@ msgstr "가져오기 리소스 타입 변경하기"
 
 msgid "Changing default import parameters"
 msgstr "디폴트 가져오기 매개변수 변경하기"
+
+msgid ""
+"Different types of projects might require different defaults. Changing the "
+"import options to a predefined set of options can be achieved by using the "
+"**Preset...** Menu. Besides some resource types offering presets, the "
+"default settings can be saved and cleared too:"
+msgstr ""
+"다른 프로젝트의 유형에 따라 다른 디폴트가 필요할 수 있습니다. 가져오기 옵션"
+"을 미리 정의된 옵션의 세트로 변경하려면 **프리셋...** 메뉴를 사용하여 달성할 "
+"수 있습니다. 게다가 일부 리소스 유형은 프리셋을 제공하며, 디폴트 설정도 저장"
+"하고 비울 수 있습니다:"
 
 msgid ""
 "There are many types of assets available for import. Continue reading to "

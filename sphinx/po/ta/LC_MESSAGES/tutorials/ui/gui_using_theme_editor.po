@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -226,6 +226,21 @@ msgstr ""
 
 msgid "Manage and import items"
 msgstr "பொருட்களை நிர்வகிக்கவும் இறக்குமதி செய்யவும்"
+
+msgid ""
+"Clicking the **Manage Items** button brings up the **Manage Theme Items** "
+"dialog."
+msgstr ""
+"** உருப்படிகளை நிர்வகி ** பொத்தானைக் சொடுக்கு செய்வது ** கருப்பொருள் உருப்படிகளை "
+"நிர்வகிக்கவும் ** உரையாடலைக் கொண்டுவருகிறது."
+
+msgid ""
+"In the **Edit Items** tab you can view and add theme types, as well as view "
+"and edit the theme items of the selected type."
+msgstr ""
+"** உருப்படிகளைத் திருத்து ** தாவலில் நீங்கள் கருப்பொருள் வகைகளைக் காணலாம் மற்றும் "
+"சேர்க்கலாம், அத்துடன் தேர்ந்தெடுக்கப்பட்ட வகையின் கருப்பொருள் உருப்படிகளைக் காணலாம் மற்றும் "
+"திருத்தலாம்."
 
 msgid ""
 "You can create, rename and remove individual theme items here by clicking "

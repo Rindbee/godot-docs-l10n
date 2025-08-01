@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,17 +14,5 @@ msgstr ""
 msgid "Bug triage guidelines"
 msgstr "Diretrizes de triagem de bugs"
 
-msgid "For the time being, we do not use the project dashboard feature either."
-msgstr "Por enquanto, também não usamos o recurso de painel do projeto."
-
 msgid "Labels"
 msgstr "Etiquetas"
-
-msgid "**Categories:**"
-msgstr "**Categorias:**"
-
-msgid "**Topics:**"
-msgstr "**Tópicos:**"
-
-msgid "**Platforms:**"
-msgstr "**Plataformas:**"

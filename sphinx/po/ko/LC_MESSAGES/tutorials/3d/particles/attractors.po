@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,39 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "3D Particle attractors"
+msgstr "3D 입자 어트랙터"
+
+msgid "Particle attractors"
+msgstr "입자 어트랙터"
+
+msgid "Common properties"
+msgstr "일반 속성"
+
+msgid "Common particle attractor properties"
+msgstr "일반 입자 어트랙터 속성"
+
+msgid "Common attractor properties"
+msgstr "일반 어트랙터 속성"
+
+msgid "Sphere attractors"
+msgstr "구체 어트랙터"
+
+msgid "Particle attractor sphere"
+msgstr "입자 어트랙터 구체"
+
+msgid "Sphere attractor in the node list"
+msgstr "노드 목록에서 구체 어트랙터"
+
+msgid "Sphere attractor parts particle field"
+msgstr "구체 어트랙터 부분 입자 필드"
+
+msgid "Vector field attractors"
+msgstr "벡터 필드 어트랙터"
+
+msgid "Particle attractor vector field"
+msgstr "입자 어트랙터 벡터 필드"
+
+msgid "Vector field attractor in the node list"
+msgstr "노드 목록에서 벡터 필드 어트랙터"

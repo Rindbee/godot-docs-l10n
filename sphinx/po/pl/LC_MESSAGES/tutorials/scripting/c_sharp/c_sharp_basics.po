@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -34,11 +34,20 @@ msgstr "Wymagania wstępne"
 msgid "Configuring an external editor"
 msgstr "Konfiguracja zewnętrznego edytora"
 
+msgid "MonoDevelop"
+msgstr "MonoDevelop"
+
+msgid "Visual Studio for Mac"
+msgstr "Visual Studio dla Maca"
+
 msgid "In Godot's **Editor → Editor Settings** menu:"
 msgstr "Wtyczki edytora **Editor → Editor Settings**:"
 
 msgid "In Visual Studio Code:"
-msgstr "Visual Studio Code:"
+msgstr "W Visual Studio Code:"
+
+msgid "Visual Studio (Windows only)"
+msgstr "Visual Studio (tylko Windows)"
 
 msgid "Creating a C# script"
 msgstr "Tworzenie skryptu C#"

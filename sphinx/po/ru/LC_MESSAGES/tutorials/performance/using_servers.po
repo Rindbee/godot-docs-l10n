@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,8 +14,28 @@ msgstr ""
 msgid "Optimization using Servers"
 msgstr "Оптимизация с помощью серверов"
 
+msgid ""
+"Engines like Godot provide increased ease of use thanks to their high-level "
+"constructs and features. Most of them are accessed and used via "
+"the :ref:`Scene System<doc_scene_tree>`. Using nodes and resources "
+"simplifies project organization and asset management in complex games."
+msgstr ""
+"Движки вроде Godot обеспечивают простоту использования благодаря "
+"конструкциям высокого уровня. Большинство функций доступны "
+"через :ref:`Систему сцен <doc_scene_tree>`. Использование узлов и ресурсов "
+"упрощает организацию проекта и управление ассетами в сложных играх."
+
 msgid "There are, of course, always drawbacks:"
 msgstr "Недостатки, конечно, всегда есть:"
+
+msgid "There is an extra layer of complexity."
+msgstr "Существует дополнительный уровень сложности."
+
+msgid "Performance is lower than when using simple APIs directly."
+msgstr "Производительность ниже, чем при использовании простых API напрямую."
+
+msgid "It is not possible to use multiple threads to control them."
+msgstr "Невозможность использовать несколько потоков для управления."
 
 msgid "More memory is needed."
 msgstr "Необходимо больше памяти."
@@ -77,8 +97,8 @@ msgid ""
 "implementation. They are allocated and freed manually. Almost every function "
 "in the servers requires RIDs to access the actual resource."
 msgstr ""
-"Ключом к использованию серверов является понимание объектов Resource ID (:"
-"ref:`RID <class_RID>`). Это непрозрачные ручки реализации сервера. Они "
+"Ключом к использованию серверов является понимание объектов Resource ID "
+"(:ref:`RID <class_RID>`). Это непрозрачные ручки реализации сервера. Они "
 "выделяются и освобождаются вручную. Почти каждая функция в серверах требует "
 "RID для доступа к реальному ресурсу."
 

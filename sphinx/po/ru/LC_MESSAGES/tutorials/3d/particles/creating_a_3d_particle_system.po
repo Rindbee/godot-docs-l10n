@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Creating a 3D particle system"
+msgstr "Создание системы 3D-частиц"
+
+msgid "Required particle node properties"
+msgstr "Обязательные свойства узла частиц"
 
 msgid ""
 "To get started with particles, the first thing we need to do is add a "
@@ -20,6 +26,21 @@ msgstr ""
 "Чтобы начать работу с частицами, первым делом нам нужно добавить в сцену "
 "узел ``GPUParticles3D``. Прежде чем мы сможем увидеть частицы, нам нужно "
 "задать два параметра узла: ``Process Material`` и хотя бы один ``Draw Pass``."
+
+msgid "The process material"
+msgstr "Процессуальный материал"
+
+msgid ""
+"To add a process material to your particles node, go to ``Process Material`` "
+"in the inspector panel. Click on the box next to ``Process Material`` and "
+"from the dropdown menu select ``New ParticleProcessMaterial``."
+msgstr ""
+"Чтобы добавить процессуальный материал к узлу частиц, перейдите к ``Process "
+"Material`` в инспекторе. Нажмите на поле рядом с ``Process Material`` и "
+"выберите ``New ParticleProcessMaterial`` в выпадающем меню."
+
+msgid "Creating a process material"
+msgstr "Создание процессуального материала"
 
 msgid ""
 ":ref:`class_ParticleProcessMaterial` is a special kind of material. We don't "
@@ -34,6 +55,12 @@ msgstr ""
 "производительности. Щелчок на только что добавленном материале отображает "
 "длинный список свойств, которые вы можете установить для управления "
 "поведением каждой частицы."
+
+msgid "Draw passes"
+msgstr "Проходы отрисовки"
+
+msgid "At least one draw pass is required"
+msgstr "Требуется как минимум один пропуск для розыгрыша"
 
 msgid ""
 "In order to render any particles, at least one draw pass needs to be "
@@ -70,3 +97,112 @@ msgid ""
 msgstr ""
 "Использование нескольких проходов рисования: желтые прямоугольники (проход "
 "1) и синие сферы (проход 2)"
+
+msgid ""
+"If you followed the steps above, your particle system should now be emitting "
+"particles in a waterfall-like fashion, making them move downwards and "
+"disappear after a few seconds. This is the foundation for all particle "
+"effects. Take a look at the documentation for :ref:`particle "
+"<doc_3d_particles_properties>` and :ref:`particle material "
+"<doc_process_material_properties>` properties to learn how to make particle "
+"effects more interesting."
+msgstr ""
+"Если вы выполнили шаги выше, ваша система частиц должна теперь испускать "
+"частицы в водопадной манере, заставляя их двигаться вниз и исчезать через "
+"несколько секунд. Это основа для всех эффектов частиц. Ознакомьтесь с "
+"документацией по свойствам :ref:`particle <doc_3d_particles_properties>` "
+"и :ref:`particle material <doc_process_material_properties>`, чтобы узнать, "
+"как сделать эффекты частиц более интересными."
+
+msgid "Particle conversion"
+msgstr "Конвертация частиц"
+
+msgid "Turning GPU into CPU particles"
+msgstr "Превращаем GPU в частицы CPU"
+
+msgid ""
+"You can convert GPU particles to CPU particles at any time using the entry "
+"in the viewport menu. When you do so, keep in mind that not every feature of "
+"GPU particles is available for CPU particles, so the resulting particle "
+"system will look and behave differently from the original."
+msgstr ""
+"Вы можете преобразовать частицы GPU в частицы CPU в любое время, используя "
+"запись в меню viewport. Когда вы это делаете, имейте в виду, что не все "
+"функции частиц GPU доступны для частиц CPU, поэтому полученная система "
+"частиц будет выглядеть и вести себя иначе, чем оригинал."
+
+msgid ""
+"You can also convert CPU particles to GPU particles if you no longer need to "
+"use CPU particles. This is also done from the viewport menu."
+msgstr ""
+"Вы также можете преобразовать частицы CPU в частицы GPU, если вам больше не "
+"нужно использовать частицы CPU. Это также делается из меню области просмотра."
+
+msgid ""
+"Some of the most notable features that are lost during the conversion "
+"include:"
+msgstr ""
+"Некоторые из наиболее примечательных особенностей, которые теряются во время "
+"преобразования, включают в себя:"
+
+msgid "multiple draw passes"
+msgstr "несколько проходов отрисовки"
+
+msgid "turbulence"
+msgstr "турбулентность"
+
+msgid "sub-emitters"
+msgstr "суб-эмиттеры"
+
+msgid "trails"
+msgstr "тропы"
+
+msgid "attractors"
+msgstr "аттракторы"
+
+msgid "collision"
+msgstr "столкновения"
+
+msgid "You also lose the following properties:"
+msgstr "Также теряются следующие свойства:"
+
+msgid "``Amount Ratio``"
+msgstr "``Amount Ratio``"
+
+msgid "``Interp to End``"
+msgstr "``Interp to End``"
+
+msgid "``Damping as Friction``"
+msgstr "``Damping as Friction``"
+
+msgid "``Emission Shape Offset``"
+msgstr "``Emission Shape Offset``"
+
+msgid "``Emission Shape Scale``"
+msgstr "``Emission Shape Scale``"
+
+msgid "``Inherit Velocity Ratio``"
+msgstr "``Inherit Velocity Ratio``"
+
+msgid "``Velocity Pivot``"
+msgstr "``Velocity Pivot``"
+
+msgid "``Directional Velocity``"
+msgstr "``Directional Velocity``"
+
+msgid "``Radial Velocity``"
+msgstr "``Radial Velocity``"
+
+msgid "``Velocity Limit``"
+msgstr "``Velocity Limit (Ограничение скорости)``"
+
+msgid "``Scale Over Velocity``"
+msgstr "``Scale Over Velocity (Масштаб важнее скорости)``"
+
+msgid ""
+"Converting GPU particles to CPU particles can become necessary when you want "
+"to release a game on older devices that don't support modern graphics APIs."
+msgstr ""
+"Преобразование частиц графического процессора в частицы центрального "
+"процессора может стать необходимым, если вы хотите выпустить игру на старых "
+"устройствах, которые не поддерживают современные графические API-ы."

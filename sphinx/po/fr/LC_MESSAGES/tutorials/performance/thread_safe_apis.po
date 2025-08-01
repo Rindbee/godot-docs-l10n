@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -106,6 +106,19 @@ msgstr ""
 
 msgid "Rendering"
 msgstr "Rendu"
+
+msgid ""
+"Instancing nodes that render anything in 2D or 3D (such as Sprite) is *not* "
+"thread-safe by default. To make rendering thread-safe, set "
+"the :ref:`Rendering > Driver > Thread "
+"Model<class_ProjectSettings_property_rendering/driver/threads/thread_model>` "
+"project setting to **Multi-Threaded**."
+msgstr ""
+"L'instanciation de nœuds qui effectuent un rendu en 2D ou en 3D (comme "
+"Sprite) n'est *pas* thread-safe par défaut. Pour rendre le rendu thread-"
+"safe, définissez le paramètre de projet :ref:`Rendu > Pilote > Modèle de "
+"Thread <class_ProjectSettings_property_rendering/driver/threads/"
+"thread_model>` sur **Multi-Threaded**."
 
 msgid ""
 "Note that the Multi-Threaded thread model has several known bugs, so it may "

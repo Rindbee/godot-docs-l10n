@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,25 @@ msgstr ""
 
 msgid "Introduction"
 msgstr "Introduzione"
+
+msgid ""
+"For more information on 3D specific optimizations, "
+"see :ref:`doc_optimizing_3d_performance`."
+msgstr ""
+"Per più informazioni su ottimizzazioni specifiche al 3D, "
+"consultare :ref:`doc_optimizing_3d_performance`."
+
+msgid "Reuse shaders and materials"
+msgstr "Riutilizza gli shader e i materiali"
+
+msgid "Reading textures"
+msgstr "Lettura delle texture"
+
+msgid "Texture compression"
+msgstr "Compressione delle texture"
+
+msgid "Post-processing and shadows"
+msgstr "Post-elaborazione e ombre"
+
+msgid "Multi-platform advice"
+msgstr "Consiglio multi-piattaforma"

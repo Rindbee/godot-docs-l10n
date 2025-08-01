@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -167,13 +167,6 @@ msgid ""
 msgstr ""
 "``GODOT_REAL_T_IS_DOUBLE`` ist definiert, wenn die Property ``GodotFloat64`` "
 "auf ``true`` gesetzt ist."
-
-msgid ""
-"One of ``GODOT_64`` or ``GODOT_32`` is defined depending on if the "
-"architecture is 64-bit or 32-bit."
-msgstr ""
-"Eine von ``GODOT_64`` oder ``GODOT_32`` ist definiert, je nachdem ob die "
-"Architektur 64-bit oder 32-bit ist."
 
 msgid ""
 "``GODOTX``, ``GODOTX_Y``, ``GODOTX_Y_Z``, ``GODOTx_OR_GREATER``, "

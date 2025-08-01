@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,14 +11,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "C# collections"
+msgstr "Collections C#"
+
 msgid ""
-"If not, consider `choosing an appropriate .NET collection <https://learn."
-"microsoft.com/en-us/dotnet/standard/collections/selecting-a-collection-"
+"If not, consider `choosing an appropriate .NET collection <https://"
+"learn.microsoft.com/en-us/dotnet/standard/collections/selecting-a-collection-"
 "class>`_."
 msgstr ""
-"Sinon, considérez `choisir un collection .NET appropriée <https://learn."
-"microsoft.com/en-us/dotnet/standard/collections/selecting-a-collection-"
+"Sinon, considérez `choisir un collection .NET appropriée <https://"
+"learn.microsoft.com/en-us/dotnet/standard/collections/selecting-a-collection-"
 "class>`_."
+
+msgid "Godot collections"
+msgstr "Collections Godot"
+
+msgid "PackedArray"
+msgstr "PackedArray"
+
+msgid "In C#, packed arrays are replaced by ``System.Array``:"
+msgstr "Dans C#, les PackedArrays sont remplacés par ``System.Array`` :"
 
 msgid "GDScript"
 msgstr "GDScript"
@@ -41,6 +53,9 @@ msgstr "``int[]``"
 msgid "``PackedInt64Array``"
 msgstr "``PackedInt64Array``"
 
+msgid "``long[]``"
+msgstr "``long[]``"
+
 msgid "``PackedFloat32Array``"
 msgstr "``PackedFloat32Array``"
 
@@ -50,8 +65,14 @@ msgstr "``float[]``"
 msgid "``PackedFloat64Array``"
 msgstr "``PackedFloat64Array``"
 
+msgid "``double[]``"
+msgstr "``double[]``"
+
 msgid "``PackedStringArray``"
 msgstr "``PackedStringArray``"
+
+msgid "``string[]``"
+msgstr "``string[]``"
 
 msgid "``PackedVector2Array``"
 msgstr "``PackedVector2Array``"
@@ -65,6 +86,12 @@ msgstr "``PackedVector3Array``"
 msgid "``Vector3[]``"
 msgstr "``Vector3[]``"
 
+msgid "``PackedVector4Array``"
+msgstr "``PackedVector4Array``"
+
+msgid "``Vector4[]``"
+msgstr "``Vector4[]``"
+
 msgid "``PackedColorArray``"
 msgstr "``PackedColorArray``"
 
@@ -74,27 +101,57 @@ msgstr "``Color[]``"
 msgid "Array"
 msgstr "Tableau"
 
+msgid "all"
+msgstr "all"
+
 msgid "`System.Linq.Enumerable.All`_"
 msgstr "`System.Linq.Enumerable.All`_"
+
+msgid "any"
+msgstr "any"
 
 msgid "`System.Linq.Enumerable.Any`_"
 msgstr "`System.Linq.Enumerable.Any`_"
 
+msgid "append"
+msgstr "append"
+
+msgid "Add"
+msgstr "Add"
+
+msgid "append_array"
+msgstr "append_array"
+
 msgid "AddRange"
 msgstr "AddRange"
+
+msgid "assign"
+msgstr "assign"
 
 msgid "Clear and AddRange"
 msgstr "Vider et AddRange"
 
+msgid "back"
+msgstr "back"
+
 msgid ""
-"``Array[^1]`` or `System.Linq.Enumerable.Last`_ or `System.Linq.Enumerable."
-"LastOrDefault`_"
+"``Array[^1]`` or `System.Linq.Enumerable.Last`_ or "
+"`System.Linq.Enumerable.LastOrDefault`_"
 msgstr ""
-"``Array[^1]`` ou `System.Linq.Enumerable.Last`_ ou `System.Linq.Enumerable."
-"LastOrDefault`_"
+"``Array[^1]`` ou `System.Linq.Enumerable.Last`_ ou "
+"`System.Linq.Enumerable.LastOrDefault`_"
+
+msgid "bsearch"
+msgstr "bsearch"
+
+msgid "BinarySearch"
+msgstr "BinarySearch"
 
 msgid "bsearch_custom"
 msgstr "bsearch_custom"
+
+msgid "N/A"
+msgstr "N/A"
 
 msgid "clear"
 msgstr "clair/clairement"
@@ -102,17 +159,32 @@ msgstr "clair/clairement"
 msgid "Clear"
 msgstr "Vider"
 
+msgid "count"
+msgstr "count"
+
 msgid "`System.Linq.Enumerable.Count`_"
 msgstr "`System.Linq.Enumerable.Count`_"
+
+msgid "duplicate"
+msgstr "duplicate"
 
 msgid "Duplicate"
 msgstr "Dupliquer"
 
+msgid "erase"
+msgstr "erase"
+
 msgid "Remove"
 msgstr "Supprimer"
 
+msgid "fill"
+msgstr "fill"
+
 msgid "Fill"
 msgstr "Remplissage"
+
+msgid "filter"
+msgstr "filter"
 
 msgid "Use `System.Linq.Enumerable.Where`_"
 msgstr "Utiliser `System.Linq.Enumerable.Where`_"
@@ -120,24 +192,45 @@ msgstr "Utiliser `System.Linq.Enumerable.Where`_"
 msgid "find"
 msgstr "Trouver"
 
+msgid "IndexOf"
+msgstr "IndexOf"
+
 msgid "front"
 msgstr "Devant"
 
 msgid ""
-"``Array[0]`` or `System.Linq.Enumerable.First`_ or `System.Linq.Enumerable."
-"FirstOrDefault`_"
+"``Array[0]`` or `System.Linq.Enumerable.First`_ or "
+"`System.Linq.Enumerable.FirstOrDefault`_"
 msgstr ""
-"``Array[0]`` ou `System.Linq.Enumerable.First`_ ou `System.Linq.Enumerable."
-"FirstOrDefault`_"
+"``Array[0]`` ou `System.Linq.Enumerable.First`_ ou "
+"`System.Linq.Enumerable.FirstOrDefault`_"
+
+msgid "get_typed_builtin"
+msgstr "get_typed_builtin"
+
+msgid "get_typed_class_name"
+msgstr "get_typed_class_name"
 
 msgid "get_typed_script"
 msgstr "get_typed_script"
+
+msgid "has"
+msgstr "has"
+
+msgid "Contains"
+msgstr "Contains"
 
 msgid "hash"
 msgstr "hachage"
 
 msgid "GD.Hash"
 msgstr "GD.Hash"
+
+msgid "insert"
+msgstr "insert"
+
+msgid "Insert"
+msgstr "Insert"
 
 msgid "is_empty"
 msgstr "is_empty"
@@ -154,11 +247,17 @@ msgstr "IsReadOnly"
 msgid "is_same_typed"
 msgstr "is_same_typed"
 
+msgid "is_typed"
+msgstr "is_typed"
+
 msgid "make_read_only"
 msgstr "make_read_only"
 
 msgid "MakeReadOnly"
 msgstr "MakeReadOnly"
+
+msgid "map"
+msgstr "map"
 
 msgid "`System.Linq.Enumerable.Select`_"
 msgstr "`System.Linq.Enumerable.Select`_"
@@ -166,8 +265,14 @@ msgstr "`System.Linq.Enumerable.Select`_"
 msgid "max"
 msgstr "max"
 
+msgid "Max"
+msgstr "Max"
+
 msgid "min"
 msgstr "min"
+
+msgid "Min"
+msgstr "Min"
 
 msgid "pick_random"
 msgstr "pick_random"
@@ -211,17 +316,38 @@ msgstr "Réduire"
 msgid "`System.Linq.Enumerable.Aggregate`_"
 msgstr "`System.Linq.Enumerable.Aggregate`_"
 
+msgid "remove_at"
+msgstr "remove_at"
+
 msgid "RemoveAt"
 msgstr "RemoveAt"
 
+msgid "resize"
+msgstr "resize"
+
+msgid "Resize"
+msgstr "Resize"
+
+msgid "reverse"
+msgstr "reverse"
+
+msgid "Reverse"
+msgstr "Reverse"
+
 msgid "rfind"
 msgstr "rfind"
+
+msgid "LastIndexOf"
+msgstr "LastIndexOf"
 
 msgid "shuffle"
 msgstr "mélanger"
 
 msgid "Shuffle"
 msgstr "Mélanger"
+
+msgid "size"
+msgstr "size"
 
 msgid "Count"
 msgstr "Compte"
@@ -235,17 +361,44 @@ msgstr "Trancher"
 msgid "sort"
 msgstr "trier"
 
+msgid "Sort"
+msgstr "Sort"
+
 msgid "sort_custom"
 msgstr "sort_custom"
 
 msgid "`System.Linq.Enumerable.OrderBy`_"
 msgstr "`System.Linq.Enumerable.OrderBy`_"
 
+msgid "operator !="
+msgstr "Opérateur !="
+
 msgid "!RecursiveEqual"
 msgstr "!RecursiveEqual"
 
+msgid "operator +"
+msgstr "Opérateur +"
+
+msgid "operator <"
+msgstr "Opérateur <"
+
+msgid "operator <="
+msgstr "Opérateur <="
+
+msgid "operator =="
+msgstr "Opérateur =="
+
 msgid "RecursiveEqual"
 msgstr "RecursiveEqual"
+
+msgid "operator >"
+msgstr "Opérateur >"
+
+msgid "operator >="
+msgstr "Opérateur >="
+
+msgid "operator []"
+msgstr "Opérateur []"
 
 msgid "Array[int] indexer"
 msgstr "Array[int] indexer"
@@ -255,6 +408,12 @@ msgstr "Dictionnaire"
 
 msgid "find_key"
 msgstr "find_key"
+
+msgid "get"
+msgstr "get"
+
+msgid "ContainsKey"
+msgstr "ContainsKey"
 
 msgid "has_all"
 msgstr "has_all"
@@ -270,3 +429,9 @@ msgstr "fusionner"
 
 msgid "Merge"
 msgstr "Fusionner"
+
+msgid "values"
+msgstr "values"
+
+msgid "Values"
+msgstr "Values"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -38,6 +38,14 @@ msgstr "台式机和笔记本 PC - 最低配置"
 msgid "**CPU**"
 msgstr "**CPU**"
 
+msgid "**Windows:** x86_32 CPU with SSE2 instructions, x86_64 CPU, ARMv8 CPU"
+msgstr "**Windows：**\\ 支持 SSE2 指令的 x86_32 CPU、x86_64 CPU、ARMv8 CPU"
+
+msgid ""
+"*Example: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300, Snapdragon X Elite*"
+msgstr ""
+"*示例：Intel Core 2 Duo E8200、AMD Athlon XE BE-2300、Snapdragon X Elite*"
+
 msgid "**macOS:** x86_64 or ARM CPU (Apple Silicon)"
 msgstr "**macOS：**\\ x86_64 或 ARM CPU（Apple Silicon）"
 
@@ -56,11 +64,21 @@ msgstr "*示例：Intel Core 2 Duo E8200、AMD Athlon XE BE-2300、Raspberry Pi 
 msgid "**GPU**"
 msgstr "**GPU**"
 
+msgid "**Forward+ renderer:** Integrated graphics with full Vulkan 1.0 support"
+msgstr "**Forward+ 渲染器：**\\ 完整支持 Vulkan 1.0 的集成显卡"
+
 msgid ""
 "*Example: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics "
 "(Kaveri)*"
 msgstr ""
 "*示例：Intel HD Graphics 5500 (Broadwell)、AMD Radeon R5 Graphics (Kaveri)*"
+
+msgid "**Mobile renderer:** Integrated graphics with full Vulkan 1.0 support"
+msgstr "**移动渲染器：**\\ 完整支持 Vulkan 1.0 的集成显卡"
+
+msgid ""
+"**Compatibility renderer:** Integrated graphics with full OpenGL 3.3 support"
+msgstr "**兼容渲染器：**\\ 完整支持 OpenGL 3.3 的集成显卡"
 
 msgid ""
 "*Example: Intel HD Graphics 2500 (Ivy Bridge), AMD Radeon R5 Graphics "
@@ -104,15 +122,23 @@ msgstr ""
 
 msgid ""
 "Windows 7/8/8.1 are supported on a best-effort basis. These versions are not "
-"regularly tested and some features may be missing (such as colored :ref:"
-"`print_rich <class_@GlobalScope_method_print_rich>` console output). Support "
-"for Windows 7/8/8.1 may be removed in a :ref:`future Godot 4.x release "
-"<doc_release_policy>`."
+"regularly tested and some features may be missing (such as "
+"colored :ref:`print_rich <class_@GlobalScope_method_print_rich>` console "
+"output). Support for Windows 7/8/8.1 may be removed in a :ref:`future Godot "
+"4.x release <doc_release_policy>`."
 msgstr ""
 "我们对 Windows 7/8/8.1 的支持秉承尽力而为的原则。这些版本没有常规测试，可能会"
 "缺失部分功能（例如彩色的 :ref:`print_rich "
-"<class_@GlobalScope_method_print_rich>` 控制台输出）。\\ :ref:`后续 Godot 4."
-"x 版本 <doc_release_policy>`\\ 中可能会移除对 Windows 7/8/8.1 的支持。"
+"<class_@GlobalScope_method_print_rich>` 控制台输出）。\\ :ref:`后续 Godot "
+"4.x 版本 <doc_release_policy>`\\ 中可能会移除对 Windows 7/8/8.1 的支持。"
+
+msgid ""
+"Vulkan drivers for these Windows versions are known to have issues with "
+"memory leaks. As a result, it's recommended to stick to the Compatibility "
+"renderer when running Godot on a Windows version older than 10."
+msgstr ""
+"这些版本 Windows 的 Vulkan 驱动有已知的内存泄漏问题。因此，建议在 Windows 10 "
+"之前的版本中运行 Godot 时使用兼容渲染器。"
 
 msgid "Mobile device (smartphone/tablet) - Minimum"
 msgstr "移动设备（智能手机、平板）- 最低配置"
@@ -126,8 +152,23 @@ msgstr "*示例：Qualcomm Snapdragon 430、Samsung Exynos 5 Octa 5430*"
 msgid "**iOS:** *Cannot run the editor*"
 msgstr "**iOS：**\\ *无法运行编辑器*"
 
+msgid "**Forward+ renderer:** SoC featuring GPU with full Vulkan 1.0 support"
+msgstr ""
+"**Forward+ 渲染器：** 适用于搭载完整支持 Vulkan 1.0 的 GPU 的系统级芯片"
+"（SoC）"
+
 msgid "*Example: Qualcomm Adreno 505, Mali-G71 MP2*"
 msgstr "*示例：Qualcomm Adreno 505、Mali-G71 MP2*"
+
+msgid "**Mobile renderer:** SoC featuring GPU with full Vulkan 1.0 support"
+msgstr ""
+"**移动渲染器：** 适用于搭载完整支持 Vulkan 1.0 的 GPU 的系统级芯片（SoC）"
+
+msgid ""
+"**Compatibility renderer:** SoC featuring GPU with full OpenGL ES 3.0 support"
+msgstr ""
+"**兼容性渲染器：** 适用于搭载完整支持 OpenGL ES 3.0 的 GPU 的系统级芯片"
+"（SoC）"
 
 msgid "*Example: Qualcomm Adreno 306, Mali-T628 MP6*"
 msgstr "*示例：Qualcomm Adreno 306、Mali-T628 MP6*"
@@ -137,6 +178,20 @@ msgstr "**原生编辑器：**\\ 3 GB"
 
 msgid "**Web editor:** 6 GB"
 msgstr "**Web 编辑器：**\\ 6 GB"
+
+msgid ""
+"200 MB (used for the executable, project files and cache) Exporting projects "
+"requires downloading export templates separately (1.3 GB after installation)"
+msgstr ""
+"200 MB（用于可执行文件、项目文件、缓存）。导出项目需要单独下载导出模板（安装"
+"后为 1.3 GB）"
+
+msgid ""
+"**Native editor:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
+"Mobile)"
+msgstr ""
+"**原生编辑器：**\\ Android 6.0（兼容渲染器）、Android 9.0（Forward+/移动渲染"
+"器）"
 
 msgid ""
 "**Web editor:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
@@ -154,6 +209,16 @@ msgstr ""
 msgid "Desktop or laptop PC - Recommended"
 msgstr "台式机和笔记本 PC - 推荐配置"
 
+msgid ""
+"**Windows:** x86_64 CPU with SSE4.2 instructions, with 4 physical cores or "
+"more, ARMv8 CPU"
+msgstr ""
+"**Windows：** 支持 SSE4.2 指令集的4 核或更多物理核心的 x86_64 CPU，或 ARMv8 "
+"CPU"
+
+msgid "*Example: Intel Core i5-6600K, AMD Ryzen 5 1600, Snapdragon X Elite*"
+msgstr "*示例：Intel Core i5-6600K、AMD Ryzen 5 1600, Snapdragon X Elite*"
+
 msgid "*Example: Intel Core i5-8500, Apple M1*"
 msgstr "*示例：Intel Core i5-8500、Apple M1*"
 
@@ -162,9 +227,19 @@ msgid ""
 "overclocking*"
 msgstr "*示例：Intel Core i5-6600K、AMD Ryzen 5 1600、超频 Raspberry Pi 5*"
 
+msgid "**Forward+ renderer:** Dedicated graphics with full Vulkan 1.2 support"
+msgstr "**Forward+ 渲染器：**\\ 完整支持 Vulkan 1.2 的独立显卡"
+
 msgid ""
 "*Example: NVIDIA GeForce GTX 1050 (Pascal), AMD Radeon RX 460 (GCN 4.0)*"
 msgstr "*示例：NVIDIA GeForce GTX 1050 (Pascal)、AMD Radeon RX 460 (GCN 4.0)*"
+
+msgid "**Mobile renderer:** Dedicated graphics with full Vulkan 1.2 support"
+msgstr "**移动渲染器：**\\ 完整支持 Vulkan 1.2 的独立显卡"
+
+msgid ""
+"**Compatibility renderer:** Dedicated graphics with full OpenGL 4.6 support"
+msgstr "**兼容渲染器：**\\ 完整支持 OpenGL 4.6 的独立显卡"
 
 msgid ""
 "*Example: NVIDIA GeForce GTX 650 (Kepler), AMD Radeon HD 7750 (GCN 1.0)*"
@@ -200,11 +275,28 @@ msgstr "**Android：**\\ 芯片使用 64 位 ARM 或 x86 CPU，至少有 3 个�
 msgid "*Example: Qualcomm Snapdragon 845, Samsung Exynos 9810*"
 msgstr "*示例：Qualcomm Snapdragon 845、Samsung Exynos 9810*"
 
+msgid "**Forward+ renderer:** SoC featuring GPU with full Vulkan 1.2 support"
+msgstr ""
+"**Forward+ 渲染器：** 适用于搭载完整支持 Vulkan 1.2 的 GPU 的系统级芯片"
+"（SoC）"
+
 msgid "*Example: Qualcomm Adreno 630, Mali-G72 MP18*"
 msgstr "*示例：Qualcomm Adreno 630、Mali-G72 MP18*"
 
+msgid "**Mobile renderer:** SoC featuring GPU with full Vulkan 1.2 support"
+msgstr ""
+"**移动渲染器：** 适用于搭载完整支持 Vulkan 1.2 的 GPU 的系统级芯片（SoC）"
+
+msgid ""
+"**Compatibility renderer:** SoC featuring GPU with full OpenGL ES 3.2 support"
+msgstr ""
+"**兼容渲染器：** 适用于搭载完整支持 OpenGL ES 3.2 的 GPU 的系统级芯片（SoC）"
+
 msgid "**Native editor:** 6 GB"
 msgstr "**原生编辑器：**\\ 6 GB"
+
+msgid "**Native editor:** Android 9.0"
+msgstr "**原生编辑器：**\\ Android 9.0"
 
 msgid ""
 "**Web editor:** Latest version of Firefox, Chrome, Edge, Safari, Opera, "
@@ -215,6 +307,19 @@ msgstr ""
 
 msgid "Exported Godot project"
 msgstr "导出的 Godot 项目"
+
+msgid ""
+"The requirements below are a baseline for a **simple** 2D or 3D project, "
+"with basic scripting and few visual flourishes. CPU, GPU, RAM and storage "
+"requirements will heavily vary depending on your project's scope, its "
+"renderer, viewport resolution and graphics settings chosen. Other programs "
+"running on the system while the project is running will also compete for "
+"resources, including RAM and video RAM."
+msgstr ""
+"下面列出的是\\ **简单** 2D 和 3D 项目的基本要求，能够支撑基础的脚本和少量的视"
+"觉效果。CPU、GPU、内存、存储等方面的需求与项目的规模、渲染方法、视口分辨率、"
+"所选的图形设置等关系很大。运行项目时，系统中运行的其他程序也会争抢内存、显存"
+"等资源。"
 
 msgid ""
 "It is strongly recommended to do your own testing on low-end hardware to "
@@ -232,6 +337,31 @@ msgid ""
 "project exported with Godot:"
 msgstr "以下数据是运行 Godot 导出的简单 2D 和 3D 项目的\\ **最低**\\ 需求："
 
+msgid ""
+"**Windows:** x86_32 CPU with SSE2 instructions, any x86_64 CPU, ARMv8 CPU"
+msgstr ""
+"**Windows：** \\ 支持 SSE2 指令集的 x86_32 CPU，任何 x86_64 CPU，或 ARMv8 CPU"
+
+msgid ""
+"**Forward+ renderer:** Integrated graphics with full Vulkan 1.0 support, "
+"Metal 3 support (macOS) or Direct3D 12 (12_0 feature level) support (Windows)"
+msgstr ""
+"**Forward+ 渲染器：**\\ 完整支持 Vulkan 1.0、Metal 3（macOS）或 Direct3D 12"
+"（12_0 特性级别，Windows）的集成显卡"
+
+msgid ""
+"**Mobile renderer:** Integrated graphics with full Vulkan 1.0 support, Metal "
+"3 support (macOS) or Direct3D 12 (12_0 feature level) support (Windows)"
+msgstr ""
+"**移动渲染器：**\\ 完整支持 Vulkan 1.0、Metal 3（macOS）或 Direct3D 12（12_0 "
+"特性级别，Windows）的集成显卡"
+
+msgid ""
+"**Compatibility renderer:** Integrated graphics with full OpenGL 3.3 support "
+"or Direct3D 11 support (Windows)."
+msgstr ""
+"**兼容渲染器：**\\ 完整支持 OpenGL 3.3 或 Direct3D 111（Windows）的集成显卡。"
+
 msgid "**For native exports:** 2 GB"
 msgstr "**原生导出：**\\ 2 GB"
 
@@ -240,6 +370,17 @@ msgstr "**Web 导出：**\\ 4 GB"
 
 msgid "150 MB (used for the executable, project files and cache)"
 msgstr "150 MB（用于可执行文件、项目文件、缓存）"
+
+msgid ""
+"**For native exports:** Windows 7 (Compatibility and Forward+/Mobile, "
+"Vulkan), Windows 10 (Forward+/Mobile, Direct3D 12), macOS 10.13 "
+"(Compatibility), macOS 10.15 (Forward+/Mobile, Vulkan), macOS 13.0 (Forward+/"
+"Mobile, Metal), Linux distribution released after 2016"
+msgstr ""
+"**对于本地导出：** Windows 7（兼容性和 Forward+/移动，Vulkan）、Windows 10"
+"（Forward+/移动，Direct3D 12）、macOS 10.13（兼容）、macOS 10.15（Forward+/移"
+"动，Vulkan）、macOS 13.0（Forward+/移动，Metal）、2016 年后发布的 Linux 发行"
+"版"
 
 msgid ""
 "**For web exports:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
@@ -251,11 +392,46 @@ msgstr "**iOS：**\\ 芯片使用任何 64 位 ARM CPU"
 msgid "*Example: Apple A7 (iPhone 5S)*"
 msgstr "*示例：Apple A7（iPhone 5S）*"
 
+msgid ""
+"**Forward+ renderer:** SoC featuring GPU with full Vulkan 1.0 support, or "
+"Metal 3 support (iOS/iPadOS)"
+msgstr ""
+"**Forward+ 渲染器：** 配备支持 Vulkan 1.0 或 Metal 3（iOS/iPadOS）的 GPU 的系"
+"统级芯片（SoC）"
+
+msgid ""
+"*Example (Vulkan): Qualcomm Adreno 505, Mali-G71 MP2, Apple A12 (iPhone XR/"
+"XS)*"
+msgstr ""
+"*示例 (Vulkan)： Qualcomm Adreno 505、Mali-G71 MP2、Apple A12 (iPhone XR/XS*"
+
+msgid "*Example (Metal): Apple A11 (iPhone 8/X)*"
+msgstr "*示例（Metal）：Apple A11（iPhone 8/X）*"
+
+msgid ""
+"**Mobile renderer:** SoC featuring GPU with full Vulkan 1.0 support, or "
+"Metal 3 support (iOS/iPadOS)"
+msgstr ""
+"**移动渲染器：** 适用于搭载完整支持 Vulkan 1.0 的 GPU 的系统级芯片（SoC），或"
+"支持 Metal 3 的设备（iOS/iPadOS）"
+
+msgid "*Example: Qualcomm Adreno 306, Mali-T628 MP6, Apple A7 (iPhone 5S)*"
+msgstr "*示例：Qualcomm Adreno 306、Mali-T628 MP6、Apple A7（iPhone 5S）*"
+
 msgid "**For native exports:** 1 GB"
 msgstr "**原生导出：**\\ 1 GB"
 
 msgid "**For web exports:** 2 GB"
 msgstr "**Web 导出：**\\ 2 GB"
+
+msgid ""
+"**For native exports:** Android 6.0 (Compatibility), Android 9.0 (Forward+/"
+"Mobile), iOS 12.0 (Forward+/Mobile, Vulkan), iOS 16.0 (Forward+/Mobile, "
+"Metal)"
+msgstr ""
+"**原生导出：**\\ Android 6.0（兼容渲染器）、Android 9.0（Forward+/移动渲染"
+"器）、iOS 12.0（Forward+/移动渲染器, Vulkan）, iOS 16.0（Forward+/移动渲染"
+"器, Metal）"
 
 msgid ""
 "**For web exports:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
@@ -270,6 +446,21 @@ msgid ""
 msgstr ""
 "以下数据是流畅运行 Godot 导出的简单 2D 和 3D 项目的\\ **推荐**\\ 需求："
 
+msgid ""
+"**Forward+ renderer:** Dedicated graphics with full Vulkan 1.2 support, "
+"Metal 3 support (macOS), or Direct3D 12 (12_0 feature level) support "
+"(Windows)"
+msgstr ""
+"**Forward+ 渲染器：**\\ 全面支持 Vulkan 1.2、Metal 3（macOS）或 Direct3D 12"
+"（12_0 特性级别，Windows） 的独立显卡"
+
+msgid ""
+"**Mobile renderer:** Dedicated graphics with full Vulkan 1.2 support, Metal "
+"3 support (macOS), or Direct3D 12 (12_0 feature level) support (Windows)"
+msgstr ""
+"**移动渲染方法：**\\ 专用图形，支持完整的 Vulkan 1.2、Metal 3（macOS）或 "
+"Direct3D 12（12_0 特性级别）（Windows）支持"
+
 msgid "**For native exports:** 4 GB"
 msgstr "**原生导出：**\\ 4 GB"
 
@@ -277,11 +468,45 @@ msgid "**For web exports:** 8 GB"
 msgstr "**Web 导出：**\\ 8 GB"
 
 msgid ""
+"**For native exports:** Windows 10, macOS 10.15 (Forward+/Mobile, Vulkan), "
+"macOS 13.0 (Forward+/Mobile, Metal), Linux distribution released after 2020"
+msgstr ""
+"**原生导出：** Windows 10、macOS 10.15（Forward+/移动，Vulkan）、macOS 13.0"
+"（Forward+/移动，Metal）、2020 年后发布的 Linux 发行版"
+
+msgid ""
 "**For web exports:** Latest version of Firefox, Chrome, Edge, Safari, Opera"
 msgstr "**Web 导出：**\\ 最新版本的 Firefox、Chrome、Edge、Safari、Opera"
 
 msgid "**iOS:** SoC with 64-bit ARM CPU"
 msgstr "**iOS：**\\ 芯片使用 64 位 ARM CPU"
+
+msgid "*Example: Apple A14 (iPhone 12)*"
+msgstr "*示例：Apple A14（iPhone 12）*"
+
+msgid ""
+"**Forward+ renderer:** SoC featuring GPU with full Vulkan 1.2 support, or "
+"Metal 3 support (iOS/iPadOS)"
+msgstr ""
+"**Forward+ 渲染器：** 配备支持 Vulkan 1.2 或 Metal 3（iOS/iPadOS）的 GPU 的系"
+"统级芯片（SoC）"
+
+msgid "*Example: Qualcomm Adreno 630, Mali-G72 MP18, Apple A14 (iPhone 12)*"
+msgstr "*示例：Qualcomm Adreno 630、Mali-G72 MP18、Apple A14（iPhone 12）*"
+
+msgid ""
+"**Mobile renderer:** SoC featuring GPU with full Vulkan 1.2 support, or "
+"Metal 3 support (iOS/iPadOS)"
+msgstr ""
+"**移动渲染器：** 配备支持 Vulkan 1.2 或 Metal 3（iOS/iPadOS）的 GPU 的系统级"
+"芯片（SoC）"
+
+msgid ""
+"**For native exports:** Android 9.0, iOS 14.1 (Forward+/Mobile, Vulkan), iOS "
+"16.0 (Forward+/Mobile, Metal)"
+msgstr ""
+"**原生导出：**\\ Android 9.0、iOS 14.1（Forward+/移动渲染器，Vulkan）、iOS "
+"16.0 （Forward+/移动渲染器, Metal）"
 
 msgid ""
 "**For web exports:** Latest version of Firefox, Chrome, Edge, Safari, Opera, "

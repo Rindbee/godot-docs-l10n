@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,9 @@ msgstr "Comparaciones visuales"
 
 msgid "SDFGI disabled."
 msgstr "SDFGI deshabilitado."
+
+msgid "Setting up SDFGI"
+msgstr "Configurar SDFGI"
 
 msgid ""
 "**Bounce Feedback:** By default, indirect lighting only bounces once when "
@@ -34,7 +37,7 @@ msgstr ""
 "encima de ``0.0`` hará que SDFGI rebote más de una vez, lo que proporciona "
 "una iluminación indirecta más realista a un pequeño costo de rendimiento. "
 "Los valores razonables suelen estar entre ``0.3`` y ``1.0`` dependiendo de "
-"la escena. Tenga en cuenta que en algunas escenas, los valores superiores a "
+"la escena. Ten en cuenta que en algunas escenas, los valores superiores a "
 "``0.5`` pueden provocar bucles de retroalimentación infinitos, haciendo que "
 "la escena se vuelva extremadamente brillante en pocos segundos. Si su "
 "iluminación indirecta parece \"manchada\", considere aumentar este valor por "

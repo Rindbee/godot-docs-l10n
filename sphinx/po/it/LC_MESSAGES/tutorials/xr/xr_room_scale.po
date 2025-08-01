@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,6 +11,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Room scale in XR"
+msgstr "Scala di radice in XR"
+
+msgid ""
+"The `Origin centric movement demo <https://github.com/godotengine/godot-demo-"
+"projects/tree/master/xr/openxr_origin_centric_movement>`__ contains a more "
+"elaborate example of the technique described below."
+msgstr ""
+"La demo `Origin centric movement <https://github.com/godotengine/godot-demo-"
+"projects/tree/master/xr/openxr_origin_centric_movement>`__ contiene un "
+"esempio più elaborato della tecnica descritta di seguito."
+
 msgid "Step 1"
 msgstr "Passo 1"
 
@@ -19,3 +31,12 @@ msgstr "Passo 2"
 
 msgid "Step 3"
 msgstr "Passo 3"
+
+msgid ""
+"The `Character centric movement demo <https://github.com/godotengine/godot-"
+"demo-projects/tree/master/xr/openxr_character_centric_movement>`__ contains "
+"a more elaborate example of the technique described below."
+msgstr ""
+"La demo `Character centric movement <https://github.com/godotengine/godot-"
+"demo-projects/tree/master/xr/openxr_character_centric_movement>`__ contiene "
+"un esempio più elaborato della tecnica descritta di seguito."

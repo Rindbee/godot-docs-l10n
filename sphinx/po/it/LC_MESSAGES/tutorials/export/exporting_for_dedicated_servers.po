@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Export approaches"
+msgstr "Approcci all'esportazione"
+
+msgid "There are two ways to export a project for a server:"
+msgstr "Ci sono due modi per esportare un progetto per un server:"
+
 msgid "See :ref:`doc_exporting_projects` for more information."
-msgstr "Vedi: ref: `doc_exporting_projects` per maggiori informazioni."
+msgstr "Vedi :ref:`doc_exporting_projects` per maggiori informazioni."
+
+msgid "Exporting a project for a dedicated server"
+msgstr "Esportazione di un progetto per un server dedicato"
+
+msgid "Starting the dedicated server"
+msgstr "Avvio del server dedicato"

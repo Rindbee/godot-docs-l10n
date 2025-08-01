@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,100 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Using navigation meshes"
+msgstr "Utilizzo di mesh di navigazione"
+
+msgid "Navigation mesh baking steps"
+msgstr "Passaggi per preparare una mesh di navigazione"
+
+msgid "Baking with a NavigationRegion2D"
+msgstr "Preparazione con un NavigationRegion2D"
+
+msgid ""
+"In order for the region to work "
+"a :ref:`NavigationPolygon<class_NavigationPolygon>` resource needs to be "
+"added."
+msgstr ""
+"Affinché la regione funzioni, è necessario aggiungere una "
+"risorsa :ref:`NavigationPolygon<class_NavigationPolygon>`."
+
+msgid ""
+"The result of the source geometry parsing can be influenced with the "
+"following properties."
+msgstr ""
+"Il risultato dell'analisi della geometria sorgente può essere influenzato "
+"dalle seguenti proprietà."
+
+msgid ""
+"With the source geometry added, the result of the baking can be controlled "
+"with the following properties."
+msgstr ""
+"Aggiunta la geometria della sorgente, il risultato della preparazione può "
+"essere controllato con le seguenti proprietà."
+
+msgid "Add a :ref:`NavigationRegion2D<class_NavigationRegion2D>`."
+msgstr "Aggiungi un :ref:`NavigationRegion2D<class_NavigationRegion2D>`."
+
+msgid ""
+"Add a :ref:`NavigationPolygon<class_NavigationPolygon>` resource to the "
+"NavigationRegion2D."
+msgstr ""
+"Aggiungi una risorsa :ref:`NavigationPolygon<class_NavigationPolygon>` al "
+"NavigationRegion2D."
+
+msgid "Baking with a NavigationRegion3D"
+msgstr "Preparazione con un NavigationRegion3D"
+
+msgid ""
+"In order for the region to work "
+"a :ref:`NavigationMesh<class_NavigationMesh>` resource needs to be added."
+msgstr ""
+"Affinché la regione funzioni, è necessario aggiungere una "
+"risorsa :ref:`NavigationMesh<class_NavigationMesh>`."
+
+msgid "Add a :ref:`NavigationRegion3D<class_NavigationRegion3D>`."
+msgstr "Aggiungi un :ref:`NavigationRegion3D<class_NavigationRegion3D>`."
+
+msgid ""
+"Add a :ref:`NavigationMesh<class_NavigationMesh>` resource to the "
+"NavigationRegion3D."
+msgstr ""
+"Aggiungi una risorsa :ref:`NavigationMesh<class_NavigationMesh>` al "
+"NavigationRegion3D."
+
+msgid "Baking navigation mesh chunks for large worlds"
+msgstr "Preparare blocchi di mesh di navigazione per grandi mondi"
+
+msgid "Building navigation mesh chunks"
+msgstr "Creazione di blocchi di mesh di navigazione"
+
+msgid ""
+"You can see the navigation mesh chunk baking in action in the `Navigation "
+"Mesh Chunks 2D <https://github.com/godotengine/godot-demo-projects/tree/"
+"master/2d/navigation_mesh_chunks>`__ and `Navigation Mesh Chunks 3D <https://"
+"github.com/godotengine/godot-demo-projects/tree/master/3d/"
+"navigation_mesh_chunks>`__ demo projects."
+msgstr ""
+"È possibile osservare la preparazione dei blocchi di mesh di navigazione in "
+"azione nei progetti demo `Navigation Mesh Chunks 2D <https://github.com/"
+"godotengine/godot-demo-projects/tree/master/2d/navigation_mesh_chunks>`__ e "
+"`Navigation Mesh Chunks 3D <https://github.com/godotengine/godot-demo-"
+"projects/tree/master/3d/navigation_mesh_chunks>`__."
+
+msgid "Navigation mesh chunks with gaps"
+msgstr "Blocchi di mesh di navigazione con distacchi"
+
+msgid "Navigation mesh chunks without gaps"
+msgstr "Blocchi di mesh di navigazione senza distacchi"
+
+msgid "Navigation mesh baking common problems"
+msgstr "Problemi comuni preparando le mesh di navigazione"
+
+msgid "Navigation mesh baking creates frame rate problems at runtime"
+msgstr ""
+"La preparazione delle mesh di navigazione crea problemi di frame rate in "
+"fase di esecuzione"
+
+msgid "Navigation mesh script templates"
+msgstr "Modelli di script per le mesh di navigazione"

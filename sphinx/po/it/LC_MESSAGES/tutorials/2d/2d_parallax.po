@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,3 +16,21 @@ msgstr "Introduzione"
 
 msgid "Getting started"
 msgstr "Per iniziare"
+
+msgid "Scroll scale"
+msgstr "Scala di scorrimento"
+
+msgid "Repeat the textures"
+msgstr "Ripetere le texture"
+
+msgid "Poor positioning"
+msgstr "Posizionamento inadeguato"
+
+msgid "Repeat times"
+msgstr "Numero di ripetizioni"
+
+msgid "Split screen"
+msgstr "Schermo diviso"
+
+msgid "Previewing in the editor"
+msgstr "Vedere l'anteprima nell'editor"

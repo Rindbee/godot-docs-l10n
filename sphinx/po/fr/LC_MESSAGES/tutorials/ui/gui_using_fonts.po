@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Using Fonts"
+msgstr "Utiliser des polices d'écriture"
+
+msgid "Dynamic fonts"
+msgstr "Polices dynamiques"
 
 msgid "Web Open Font Format 1 (``.woff``)"
 msgstr "Web Open Font Format 1 (``.woff``)"
@@ -23,6 +29,12 @@ msgstr "Polices de bitmap"
 msgid "Font shadow example"
 msgstr "Exemple d'ombre de police"
 
+msgid "Antialiasing"
+msgstr "Anticrénelage"
+
+msgid "Hinting"
+msgstr "Hinting"
+
 msgid "Subpixel positioning"
 msgstr "Positionnement de subpixel"
 
@@ -32,6 +44,9 @@ msgstr "Mipmaps"
 msgid "Comparison of font rasterization methods"
 msgstr "Comparaison des méthodes de rastérisation des polices"
 
+msgid "Using emoji"
+msgstr "Utiliser des emojis"
+
 msgid "It's possible to use a system font as a fallback font too."
 msgstr ""
 "Il est également possible d'utiliser une police système comme police de "
@@ -40,11 +55,65 @@ msgstr ""
 msgid "Font fallbacks"
 msgstr "Police de repli"
 
+msgid "Import dock"
+msgstr "Dock d'import"
+
 msgid "Loading font fallback"
 msgstr "Chargement de la police de repli"
 
 msgid "Variable font example (Inter V)"
 msgstr "Exemple de police variable (Inter V)"
+
+msgid "Effective font weight"
+msgstr "Poids de police effectif"
+
+msgid "``100``"
+msgstr "``100``"
+
+msgid "``200``"
+msgstr "``200``"
+
+msgid "``300``"
+msgstr "``300``"
+
+msgid "Light"
+msgstr "Light"
+
+msgid "``400``"
+msgstr "``400``"
+
+msgid "**Regular (Normal)**"
+msgstr "**Régulière (Normale)**"
+
+msgid "``500``"
+msgstr "``500``"
+
+msgid "Medium"
+msgstr "Medium"
+
+msgid "``600``"
+msgstr "``600``"
+
+msgid "Semi-Bold (Demi-Bold)"
+msgstr "Semi-Bold (Demi-Bold)"
+
+msgid "``700``"
+msgstr "``700``"
+
+msgid "**Bold**"
+msgstr "**Bold**"
+
+msgid "``800``"
+msgstr "``800``"
+
+msgid "``900``"
+msgstr "``900``"
+
+msgid "Black (Heavy)"
+msgstr "Black (Heavy)"
+
+msgid "``950``"
+msgstr "``950``"
 
 msgid "Faux bold and italic"
 msgstr "Faux gras et italique"
@@ -63,6 +132,9 @@ msgstr "Polices du système"
 
 msgid "Windows"
 msgstr "Windows"
+
+msgid "macOS/iOS"
+msgstr "macOS/iOS"
 
 msgid "Linux"
 msgstr "Linux"
@@ -91,8 +163,14 @@ msgstr "``serif``"
 msgid "Times New Roman"
 msgstr "Times New Roman"
 
+msgid "Times"
+msgstr "Times"
+
 msgid "Noto Serif"
 msgstr "Noto Serif"
+
+msgid "``monospace``"
+msgstr "``monospace``"
 
 msgid "Courier New"
 msgstr "Courier New"
@@ -103,14 +181,29 @@ msgstr "Courier"
 msgid "Droid Sans Mono"
 msgstr "Droid Sans Mono"
 
+msgid "``cursive``"
+msgstr "``cursive``"
+
 msgid "Comic Sans MS"
 msgstr "Comic Sans MS"
 
 msgid "Apple Chancery"
 msgstr "Apple Chancery"
 
+msgid "Dancing Script"
+msgstr "Dancing Script"
+
+msgid "``fantasy``"
+msgstr "``fantasy``"
+
+msgid "Gabriola"
+msgstr "Gabriola"
+
 msgid "Papyrus"
 msgstr "Papyrus"
+
+msgid "Font prerendering"
+msgstr "Pré-rendu de la police"
 
 msgid "**By enabling character sets**"
 msgstr "**En activant des jeux de caractères**"

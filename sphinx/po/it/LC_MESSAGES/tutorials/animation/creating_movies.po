@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,49 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Creating movies"
+msgstr "Creare film"
+
+msgid ""
+"**This feature is not designed for capturing real-time footage during "
+"gameplay.**"
+msgstr ""
+"**Questa funzionalità non è progettata per catturare riprese in tempo reale "
+"durante il gioco.**"
+
+msgid "Command line usage"
+msgstr "Utilizzo tramite riga di comando"
+
+msgid "Choosing an output format"
+msgstr "Scegliere un formato di output"
+
+msgid "AVI (recommended)"
+msgstr "AVI (consigliato)"
+
+msgid "Custom"
+msgstr "Personalizzato"
+
 msgid "Configuration"
 msgstr "Conﬁgurazione"
+
+msgid "Post-processing steps"
+msgstr "Passaggi di post-elaborazione"
+
+msgid "Converting AVI video to MP4"
+msgstr "Convertire un video AVI in MP4"
+
+msgid "Cutting video"
+msgstr "Ritagliare un video"
+
+msgid "Resizing video"
+msgstr "Ridimensionare un video"
+
+msgid "Reducing framerate"
+msgstr "Ridurre il framerate"
+
+msgid ""
+"Example with a 240 FPS source video, generating 4× motion blur and "
+"decreasing its output framerate to 60 FPS:"
+msgstr ""
+"Esempio con un video sorgente a 240 FPS, che genera un effetto motion blur "
+"4x e riduce il frame rate risultante a 60 FPS:"

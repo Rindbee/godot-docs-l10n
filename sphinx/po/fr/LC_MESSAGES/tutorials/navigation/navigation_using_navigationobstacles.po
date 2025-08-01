@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Using NavigationObstacles"
+msgstr "Utiliser NavigationObstacles"
+
+msgid ""
+"For more details on the navigation mesh baking "
+"see :ref:`doc_navigation_using_navigationmeshes`."
+msgstr ""
+"Pour en savoir plus sur le pré-calcul des maillages de navigation, "
+"lisez :ref:`doc_navigation_using_navigationmeshes`."
 
 msgid "Static avoidance obstacles"
 msgstr "Évitement des obstacles statiques"

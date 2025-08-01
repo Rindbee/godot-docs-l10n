@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,13 +27,16 @@ msgstr "Вираз може бути:"
 msgid "A mathematical expression such as ``(2 + 4) * 16/4.0``."
 msgstr "Математичний вираз, наприклад \"(2 + 4) * 16/4,0\"."
 
+msgid "A boolean expression such as ``true && false``."
+msgstr "Логічний вираз, наприклад ``true && false``."
+
 msgid "A built-in method call like ``deg_to_rad(90)``."
 msgstr "Виклик вбудованого методу, наприклад ``deg_to_rad(90)``."
 
 msgid ""
 "A method call on a user-provided script like ``update_health()``, if "
-"``base_instance`` is set to a value other than ``null`` when calling :ref:"
-"`Expression.execute() <class_Expression_method_execute>`."
+"``base_instance`` is set to a value other than ``null`` when "
+"calling :ref:`Expression.execute() <class_Expression_method_execute>`."
 msgstr ""
 "Виклик методу наданого користувачем сценарію, наприклад ``update_health()``, "
 "якщо ``base_instance`` під час виклику встановлюється значення, відмінне від "
@@ -86,6 +89,34 @@ msgid ""
 msgstr ""
 "Виконує цілочисельне ділення, якщо обидва операнди є цілими. Якщо хоча б "
 "одне з них є числом з плаваючою комою, повертає значення з плаваючою комою."
+
+msgid "Remainder (``%``)"
+msgstr "Залишок (``%``)"
+
+msgid ""
+"Returns the remainder of an integer division (modulo). The result will "
+"always have the sign of the dividend."
+msgstr ""
+"Повертає залишок від цілого ділення (за модулем). Результат завжди матиме "
+"знак дивіденду."
+
+msgid "Conjunction (``&&``)"
+msgstr "Сполучник (``&&``)"
+
+msgid "Returns the result of a boolean AND."
+msgstr "Повертає результат логічного І."
+
+msgid "Disjunction (``||``)"
+msgstr "Диз'юнкція (``||``)"
+
+msgid "Returns the result of a boolean OR."
+msgstr "Повертає результат логічного АБО."
+
+msgid "Negation (``!``)"
+msgstr "Заперечення (``!``)"
+
+msgid "Returns the result of a boolean NOT."
+msgstr "Повертає результат логічного значення NOT."
 
 msgid ""
 "Spaces around operators are optional. Also, keep in mind the usual `order of "

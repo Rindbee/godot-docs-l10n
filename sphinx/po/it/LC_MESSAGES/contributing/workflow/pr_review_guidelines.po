@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,80 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Pull request review process"
+msgstr "Procedura di recensione delle richieste di pull"
+
+msgid ""
+"An engine maintainer reviews the code and provides feedback, requests "
+"changes, or approves the pull request, as appropriate."
+msgstr ""
+"Un manutentore del motore esamina il codice e fornisce feedback, richiede "
+"modifiche o approva la richiesta di pull, se appropriato."
+
+msgid ""
+"**Code only touches the areas announced in the PR (and the commit message).**"
+msgstr ""
+"**Il codice tocca solo le aree annunciate nel PR (e nel messaggio di "
+"commit).**"
+
+msgid "**Code properly uses Godot's own APIs and patterns.**"
+msgstr "**Il codice utilizza correttamente le API e i pattern di Godot.**"
+
+msgid "**Are core areas affected by the change?**"
+msgstr "**Le aree fondamentali sono influenzate dal cambiamento?**"
+
+msgid "**Needless double reviews.**"
+msgstr "**Inutili doppie recensioni.**"
+
+msgid "**Being overly nitpicky.**"
+msgstr "**Essere eccessivamente pignoli.**"
+
+msgid "**Expanding the scope of a pull request.**"
+msgstr "**Espandere la portata di una richiesta pull.**"
+
+msgid "Code style review"
+msgstr "Recensione dello stile del codice"
+
+msgid "Braces are used appropriately, even for one-liner conditionals."
+msgstr ""
+"Le parentesi graffe sono utilizzate appropriatamente, anche per le "
+"istruzioni condizionali di una sola riga."
+
+msgid ""
+"Code is properly spaced (exactly one empty line between methods, no "
+"unnecessary empty lines inside of method bodies)."
+msgstr ""
+"Il codice è opportunamente spaziato (esattamente una riga vuota tra i "
+"metodi, nessuna riga vuota non necessaria dentro i corpi dei metodi)."
+
+msgid "**Make sure that the PR comes in one commit.**"
+msgstr "**Assicurati che la PR arrivi in un unico commit.**"
+
+msgid "**Make sure that the PR has no merge conflicts.**"
+msgstr "**Assicurati che la PR non abbia conflitti di merge.**"
+
+msgid "**Check for proper commit attribution.**"
+msgstr "**Verifica la corretta attribuzione del commit.**"
+
+msgid "**Check for proper commit messages.**"
+msgstr "**Verifica che i messaggi del commit siano appropriati.**"
+
+msgid "**Validate the target branch of the PR.**"
+msgstr "**Convalida il branch di destinazione del PR.**"
+
+msgid "**Make sure that the appropriate milestone is assigned.**"
+msgstr "**Assicurati che sia stata assegnata la milestone appropriata.**"
+
+msgid ""
+"**Make sure that the opening message of the PR contains the magic words "
+"\"Closes #...\" or \"Fixes #...\".**"
+msgstr ""
+"**Assicurati che il messaggio di apertura della PR contenga le parole "
+"magiche \"Closes #...\" o \"Fixes #...\".**"
+
+msgid ""
+"**For the issues that get closed by the PR add the closest relevant "
+"milestone.**"
+msgstr ""
+"**Per i problemi risolti dal PR, aggiungi la milestone più pertinente.**"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,8 +17,21 @@ msgstr "GLSL"
 msgid "gl_Position"
 msgstr "gl_Position"
 
+msgid "Varyings"
+msgstr "Varying"
+
 msgid "Macros"
-msgstr "Macros"
+msgstr "Macro"
+
+msgid "``#define`` / ``#undef``"
+msgstr "``#define`` / ``#undef``"
+
+msgid ""
+"``#if``, ``#elif``, ``#else``, ``#endif``, ``defined()``, ``#ifdef``, "
+"``#ifndef``"
+msgstr ""
+"``#if``, ``#elif``, ``#else``, ``#endif``, ``defined()``, ``#ifdef``, "
+"``#ifndef``"
 
 msgid "Variables"
 msgstr "Variabili"
@@ -125,6 +138,9 @@ msgstr "iTime"
 msgid "TIME"
 msgstr "TIME"
 
+msgid "Time since shader started."
+msgstr "Tempo trascorso dall'avvio dello shader."
+
 msgid "iTimeDelta"
 msgstr "iTimeDelta"
 
@@ -137,14 +153,23 @@ msgstr "iChannelTime[4]"
 msgid "iMouse"
 msgstr "iMouse"
 
+msgid "Mouse position in pixel coordinates."
+msgstr "Posizione del mouse in coordinate di pixel."
+
 msgid "iDate"
 msgstr "iDate"
+
+msgid "Current date, expressed in seconds."
+msgstr "Data attuale, espressa in secondi."
 
 msgid "iChannelResolution[4]"
 msgstr "iChannelResolution[4]"
 
 msgid "1.0 / TEXTURE_PIXEL_SIZE"
 msgstr "1.0 / TEXTURE_PIXEL_SIZE"
+
+msgid "Resolution of particular texture."
+msgstr "Risoluzione di una particolare texture."
 
 msgid "iChanneli"
 msgstr "iChanneli"

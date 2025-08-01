@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -141,6 +141,9 @@ msgstr ""
 msgid "**x**: Rotation angle in radians."
 msgstr "**x**\\ ：旋转角度，单位为弧度。"
 
+msgid "**y**: Phase during lifetime (``0.0`` to ``1.0``)."
+msgstr "**y**\\ ：生命周期的阶段（\\ ``0.0`` 到 ``1.0``\\ ）。"
+
 msgid "**z**: Animation frame."
 msgstr "**z**\\ ：动画帧。"
 
@@ -154,7 +157,7 @@ msgid "in mat4 **SCREEN_MATRIX**"
 msgstr "in mat4 **SCREEN_MATRIX**"
 
 msgid "Instance ID for instancing."
-msgstr "实例化的实例ID."
+msgstr "实例化的实例 ID。"
 
 msgid "in vec4 **INSTANCE_CUSTOM**"
 msgstr "in vec4 **INSTANCE_CUSTOM**"
@@ -174,11 +177,20 @@ msgstr "in vec2 **TEXTURE_PIXEL_SIZE**"
 msgid "inout vec2 **VERTEX**"
 msgstr "inout vec2 **VERTEX**"
 
+msgid "Vertex position, in local space."
+msgstr "顶点位置，使用局部空间。"
+
 msgid "in int **VERTEX_ID**"
 msgstr "in int **VERTEX_ID**"
 
+msgid "The index of the current vertex in the vertex buffer."
+msgstr "顶点缓冲区中当前顶点的索引。"
+
 msgid "inout vec2 **UV**"
 msgstr "inout vec2 **UV**"
+
+msgid "Normalized texture coordinates. Range from ``0.0`` to ``1.0``."
+msgstr "归一化的纹理坐标。范围从 ``0.0`` 到 ``1.0``\\ 。"
 
 msgid "inout vec4 **COLOR**"
 msgstr "inout vec4 **COLOR**"
@@ -197,6 +209,12 @@ msgstr "in vec4 **CUSTOM1**"
 
 msgid "Fragment built-ins"
 msgstr "片段内置"
+
+msgid "COLOR and TEXTURE"
+msgstr "COLOR 与 TEXTURE"
+
+msgid "The built-in variable ``COLOR`` is used for a few things:"
+msgstr "内置变量 ``COLOR`` 用于以下几种情况："
 
 msgid "in vec4 **FRAGCOORD**"
 msgstr "in vec4 **FRAGCOORD**"
@@ -327,6 +345,12 @@ msgstr "float **texture_sdf** (vec2 sdf_pos)"
 
 msgid "Performs an SDF texture lookup."
 msgstr "执行2D纹理读取。"
+
+msgid "vec2 **texture_sdf_normal** (vec2 sdf_pos)"
+msgstr "vec2 **texture_sdf_normal** (vec2 sdf_pos)"
+
+msgid "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
+msgstr "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
 
 msgid "vec2 **screen_uv_to_sdf** (vec2 uv)"
 msgstr "vec2 **screen_uv_to_sdf** (vec2 uv)"

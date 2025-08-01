@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -25,7 +25,7 @@ msgid ""
 "If you've compiled the Godot editor from source with specific modules "
 "disabled, some formats may not be available."
 msgstr ""
-"만약 특정 모듈을 비활성화 한 채로 Godot 에디터를 직접 컴파일했다면, 몇몇 포맷"
+"만약 특정 모듈을 비활성화 한 채로 Godot 편집기를 직접 컴파일했다면, 몇몇 포맷"
 "을 사용할 수 없을 수 있습니다."
 
 msgid "Format"
@@ -42,6 +42,18 @@ msgstr "MP3 192 Kb/s, 스테레오"
 
 msgid "Ogg Vorbis 128 Kb/s, stereo"
 msgstr "Ogg Vorbis 128 Kb/s, 스테레오"
+
+msgid "Edit > Trim"
+msgstr "편집 > 다듬기"
+
+msgid "Edit > Normalize"
+msgstr "편집 > 정규화"
+
+msgid "Edit > Loop Mode"
+msgstr "편집 > 루프 모드"
+
+msgid "Import options (Ogg Vorbis and MP3)"
+msgstr "가져오기 옵션 (Ogg Vorbis 및 MP3)"
 
 msgid "Best practices"
 msgstr "모범 사례"

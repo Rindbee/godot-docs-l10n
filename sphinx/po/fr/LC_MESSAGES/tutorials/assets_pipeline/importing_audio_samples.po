@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -90,6 +90,18 @@ msgstr "Force > Mono"
 msgid "Force > Max Rate"
 msgstr "Force > Taux maximum"
 
+msgid ""
+"The source audio file may contain long silences at the beginning and/or the "
+"end. These silences are inserted by :abbr:`DAWs (Digital Audio "
+"Workstations)` when saving to a waveform, which increases their size "
+"unnecessarily and add latency to the moment they are played back."
+msgstr ""
+"Le fichier audio source peut contenir de longs silences au début et/ou à la "
+"fin. Ces silences sont insérés par les :abbr:`DAWs (Stations de Travail "
+"d'Audio Numérique)` lors de l'enregistrement à une forme d'onde, ce qui "
+"augmente inutilement leur taille et ajoutent de la latence au moment où ils "
+"sont joués."
+
 msgid "Import options (Ogg Vorbis and MP3)"
 msgstr "Options d'importation (Ogg Vorbis et MP3)"
 
@@ -104,6 +116,9 @@ msgstr "BPM"
 
 msgid "Beat Count"
 msgstr "Quantité de battements"
+
+msgid "Bar Beats"
+msgstr "Battements par mesure"
 
 msgid ""
 "Advanced dialog when double-clicking an Ogg Vorbis or MP3 file in the "

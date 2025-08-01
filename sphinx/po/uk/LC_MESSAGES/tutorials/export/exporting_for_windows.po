@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,6 +47,21 @@ msgstr ""
 
 msgid "Code signing"
 msgstr "Підписання коду"
+
+msgid ""
+"Godot is capable of automatic code signing on export. To do this you must "
+"have the ``Windows SDK`` (on Windows) or `osslsigncode <https://github.com/"
+"mtrojnar/osslsigncode>`__ (on any other OS) installed. You will also need a "
+"package signing certificate, information on creating one can be found `here "
+"<https://learn.microsoft.com/en-us/windows/msix/package/create-certificate-"
+"package-signing>`__."
+msgstr ""
+"Godot здатний автоматично підписувати код під час експорту. Для цього у вас "
+"має бути встановлено ``Windows SDK`` (у Windows) або `osslsigncode <https://"
+"github.com/mtrojnar/osslsigncode>`__ (у будь-якій іншій ОС). Вам також "
+"знадобиться сертифікат підпису пакета, інформацію про його створення можна "
+"знайти `тут <https://learn.microsoft.com/en-us/windows/msix/package/create-"
+"certificate-package-signing>`__."
 
 msgid ""
 "If you export for Windows with embedded PCK files, you will not be able to "
@@ -143,3 +158,6 @@ msgstr "Параметри / Кодовий дизайн / Пароль"
 
 msgid "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
 msgstr "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
+
+msgid "Export options"
+msgstr "Параметри експортування"

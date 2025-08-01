@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -39,7 +39,7 @@ msgid "Yes"
 msgstr "Да"
 
 msgid "Cause"
-msgstr "причина"
+msgstr "Причина"
 
 msgid "A generic type is annotated with the ``[GlobalClass]`` attribute."
 msgstr "Загальний тип анотується атрибутом ``[GlobalClass]``."
@@ -52,7 +52,7 @@ msgid ""
 "<doc_c_sharp_global_classes>` is instantiable, but generic types can't be "
 "instantiated because the type parameters are unbound."
 msgstr ""
-"Редактор Godot припускає, що кожен :ref:`глобальний клас "
+"Редактор Godot припускає, що кожен :ref:`global class "
 "<doc_c_sharp_global_classes>` можна створити, але загальні типи не можуть "
 "бути створені, оскільки параметри типу не зв’язані."
 

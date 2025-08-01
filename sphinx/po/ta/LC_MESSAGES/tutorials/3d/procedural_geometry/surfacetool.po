@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -37,10 +37,10 @@ msgstr "ஒவ்வொரு வெர்டெக்சும் சேர்�
 
 msgid ""
 "When finished generating your geometry with the :ref:`SurfaceTool "
-"<class_surfacetool>` call ``commit()`` to finish generating the mesh. If an :"
-"ref:`ArrayMesh <class_ArrayMesh>` is passed to ``commit()`` then it appends "
-"a new surface to the end of the ArrayMesh. While if nothing is passed in, "
-"``commit()`` returns an ArrayMesh."
+"<class_surfacetool>` call ``commit()`` to finish generating the mesh. If "
+"an :ref:`ArrayMesh <class_ArrayMesh>` is passed to ``commit()`` then it "
+"appends a new surface to the end of the ArrayMesh. While if nothing is "
+"passed in, ``commit()`` returns an ArrayMesh."
 msgstr ""
 "உங்கள் வடிவவியலை உருவாக்கி முடிந்ததும்: ref: `surfacetool <class_surfacetool>` "
 "கண்ணி உருவாக்குவதை முடிக்க `` கமிட் () `ஐ அழைக்கவும். An: ref: `arraymesh "

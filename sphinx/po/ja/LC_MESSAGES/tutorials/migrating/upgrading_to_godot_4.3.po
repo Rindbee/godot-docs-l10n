@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,6 +27,9 @@ msgid ""
 msgstr ""
 "**ソース互換**: Godotをアップグレードしてもソースコードの変更なしでコンパイル"
 "に成功します。"
+
+msgid "GDExtension"
+msgstr "\\ GDExtension"
 
 msgid "C# Binary Compatible"
 msgstr "C# バイナリ互換"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,18 @@ msgstr ""
 
 msgid "C# signals"
 msgstr "Segnali in C#"
+
+msgid "Signals as C# events"
+msgstr "Segnali come eventi C#"
+
+msgid "Custom signals as C# events"
+msgstr "Segnali personalizzati come eventi C#"
+
+msgid "Signal emission"
+msgstr "Emissione di segnali"
+
+msgid "Bound values"
+msgstr "Valori vincolati"
+
+msgid "Using Connect and Disconnect"
+msgstr "Utilizzo di Connect e Disconnect"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Using AnimationTree"
+msgstr "Utilizzo di AnimationTree"
 
 msgid "Introduction"
 msgstr "Introduzione"
@@ -23,6 +26,15 @@ msgstr "Creazione di un albero"
 msgid "Blend2 / Blend3"
 msgstr "Blend2 / Blend3"
 
+msgid "OneShot"
+msgstr "OneShot"
+
+msgid "TimeSeek"
+msgstr "TimeSeek"
+
+msgid "TimeScale"
+msgstr "TimeScale"
+
 msgid "Transition"
 msgstr "Transizione"
 
@@ -31,3 +43,12 @@ msgstr "BlendSpace2D"
 
 msgid "BlendSpace1D"
 msgstr "BlendSpace1D"
+
+msgid "StateMachine"
+msgstr "StateMachine"
+
+msgid "There are many types of transition:"
+msgstr "Esistono molti tipi di transizioni:"
+
+msgid "Root motion"
+msgstr "Movimento della radice"

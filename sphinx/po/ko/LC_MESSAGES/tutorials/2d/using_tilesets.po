@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using TileSets"
+msgstr "타일셋 사용하기"
+
 msgid "Introduction"
 msgstr "소개"
+
+msgid "Creating a new TileSet"
+msgstr "새 타일셋 만들기"
+
+msgid "Using a tilesheet"
+msgstr "타일시트 사용하기"
+
+msgid "Creating a new TileSet resource within the TileMapLayer node"
+msgstr "TileMapLayer 노드 안에 새 타일셋 리소스 만들기"
+
+msgid "Creating a scenes collection in the TileSet editor"
+msgstr "타일셋 편집기에서 씬 컬렉션 만들기"
+
+msgid "Using tile property painting"
+msgstr "타일 속성 칠하기 사용하기"
+
+msgid "Painting tile properties using the TileSet editor"
+msgstr "타일셋 편집기를 사용하여 타일 속성을 칠하기"

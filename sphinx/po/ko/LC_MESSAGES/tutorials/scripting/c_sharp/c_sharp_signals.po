@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,9 @@ msgstr ""
 
 msgid "C# signals"
 msgstr "C# 시그널"
+
+msgid "Signals as C# events"
+msgstr "C# 이벤트로 된 시그널"
+
+msgid "Signal emission"
+msgstr "시그널 방출"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -317,6 +317,13 @@ msgstr "**movie**"
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ":ref:`Movie Maker 模式 <doc_creating_movies>`\\ 已激活"
 
+msgid ""
+"To check whether a project exported to Web is running on a mobile device, "
+"use ``OS.has_feature(\"web_android\") or OS.has_feature(\"web_ios\")``."
+msgstr ""
+"要检查针对 Web 导出的项目是否是在移动设备上运行，请使用 "
+"``OS.has_feature(\"web_android\") or OS.has_feature(\"web_ios\")`` 。"
+
 msgid "Custom features"
 msgstr "自定义功能"
 
@@ -353,6 +360,12 @@ msgid ""
 msgstr ""
 "在下面的示例中，为游戏的演示版本添加了一个不同的图标（在特定的导出预设中进行"
 "了自定义，而该预设仅包含演示关卡）。"
+
+msgid "The Project Settings panel"
+msgstr "项目设置面板"
+
+msgid "After overriding, a new field is added for this specific configuration."
+msgstr "覆盖后，将为此特定配置添加一个新字段。"
 
 msgid ""
 "When using the :ref:`project settings \"override.cfg\" functionality "

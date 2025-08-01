@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Sky shaders"
+msgstr "Shaders de ciel"
 
 msgid "``TIME`` is used."
 msgstr "``TIME`` est utilisé."
@@ -23,8 +26,14 @@ msgstr "Mode de rendu"
 msgid "Description"
 msgstr "Description"
 
+msgid "**use_half_res_pass**"
+msgstr "**use_half_res_pass**"
+
 msgid "**use_quarter_res_pass**"
 msgstr "**use_quarter_res_pass**"
+
+msgid "**disable_fog**"
+msgstr "**disable_fog**"
 
 msgid "Built-ins"
 msgstr "Variables intégrées"
@@ -44,11 +53,29 @@ msgstr "out vec4 **POSITION**"
 msgid "Camera position, in world space."
 msgstr "Position de la caméra, dans le repère du monde."
 
+msgid "samplerCube **RADIANCE**"
+msgstr "samplerCube **RADIANCE**"
+
+msgid "in float **LIGHTX_ENERGY**"
+msgstr "in float **LIGHTX_ENERGY**"
+
 msgid "Energy multiplier for ``LIGHTX``."
 msgstr "Multiplicateur d'énergie pour ``LIGHTX``."
 
 msgid "Direction that ``LIGHTX`` is facing."
 msgstr "Direction vers laquelle ``LIGHTX`` fait face."
+
+msgid "in float **LIGHTX_SIZE**"
+msgstr "in float **LIGHTX_SIZE**"
+
+msgid "in float **PI**"
+msgstr "in float **PI**"
+
+msgid "in float **TAU**"
+msgstr "in float **TAU**"
+
+msgid "in float **E**"
+msgstr "in float **E**"
 
 msgid "in vec2 **SCREEN_UV**"
 msgstr "in vec2 **SCREEN_UV**"

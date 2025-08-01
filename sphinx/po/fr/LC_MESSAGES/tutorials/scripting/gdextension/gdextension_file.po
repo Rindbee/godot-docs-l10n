@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,6 +14,9 @@ msgstr ""
 msgid "Introduction"
 msgstr "Introduction"
 
+msgid "Property"
+msgstr "Propriété"
+
 msgid "Type"
 msgstr "Type"
 
@@ -25,6 +28,21 @@ msgstr "**entry_symbol**"
 
 msgid "String"
 msgstr "Chaîne de caractères"
+
+msgid "**compatibility_minimum**"
+msgstr "**compatibility_minimum**"
+
+msgid "**compatibility_maximum**"
+msgstr "**compatibility_maximum**"
+
+msgid "**reloadable**"
+msgstr "**reloadable**"
+
+msgid "Boolean"
+msgstr "Booléen"
+
+msgid "**android_aar_plugin**"
+msgstr "**android_aar_plugin**"
 
 msgid "Flag"
 msgstr "Drapeau"
@@ -52,6 +70,9 @@ msgstr "**ios**"
 
 msgid "**web**"
 msgstr "**web**"
+
+msgid "Build"
+msgstr "Compilation"
 
 msgid "**debug**"
 msgstr "**debug**"

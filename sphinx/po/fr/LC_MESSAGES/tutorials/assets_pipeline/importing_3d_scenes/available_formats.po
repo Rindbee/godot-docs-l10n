@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,6 +23,15 @@ msgstr ""
 
 msgid "As a glTF binary file (``.glb``)."
 msgstr "En tant que fichier binaire glTF (``.glb``)."
+
+msgid ""
+"Blender versions older than 3.2 do not export emissive textures with the "
+"glTF file. If your model uses one and you're using an older version of "
+"Blender, it must be brought in separately."
+msgstr ""
+"Les versions de Blender plus vieilles que la 3.2 n'exportent pas de textures "
+"d'émission avec le fichier glTF. Si votre modèle en utilise une et que vous "
+"utilisez une ancienne version de Blender, elle doit être apportée séparément."
 
 msgid ""
 "By default, Blender has backface culling disabled on materials and will "

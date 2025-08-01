@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,9 @@ msgstr "소개"
 
 msgid "Setting up the scene"
 msgstr "씬 설정하기"
+
+msgid "Setting up the SubViewport"
+msgstr "SubViewport 설정하기"
 
 msgid "Making the planet texture"
 msgstr "행성 텍스처 만들기"

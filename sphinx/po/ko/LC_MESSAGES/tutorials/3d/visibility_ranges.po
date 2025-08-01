@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,24 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility ranges (HLOD)"
+msgstr "가시성 범위 (HLOD)"
+
+msgid "How to set up visibility ranges (manual LOD) in Godot."
+msgstr "Godot에서 가시성 범위(수동 LOD)를 설정하는 방법입니다."
+
+msgid "Setting up visibility range"
+msgstr "가시성 범위 설정하기"
+
+msgid "Visibility range properties"
+msgstr "가시성 범위 속성"
+
+msgid "Fade mode"
+msgstr "페이드 모드"
+
+msgid "Visibility parent"
+msgstr "가시성 부모"
 
 msgid "Rim"
 msgstr "림"
@@ -25,3 +43,6 @@ msgstr "서브서피스 산란"
 
 msgid "Refraction"
 msgstr "굴절률"
+
+msgid "Proximity Fade"
+msgstr "근접 페이드"

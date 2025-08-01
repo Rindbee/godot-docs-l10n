@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,39 @@ msgstr ""
 
 msgid "Getting started"
 msgstr "시작하기"
+
+msgid "What is the Godot documentation"
+msgstr "Godot 문서는 무엇입니까"
+
+msgid "Contributing changes"
+msgstr "변경사항 기여하기"
+
+msgid "Editing existing pages"
+msgstr "기존 페이지 편집하기"
+
+msgid "Editing pages online"
+msgstr "온라인에서 페이지 편집하기"
+
+msgid "Edit the text in the text editor."
+msgstr "텍스트 편집기에서 텍스트를 편집합니다."
+
+msgid "Adding new pages"
+msgstr "새 페이지 추가하기"
+
+msgid "Read our :ref:`doc_content_guidelines`."
+msgstr ":ref:`doc_content_guidelines`\\ 을 읽으세요."
+
+msgid "Titles"
+msgstr "제목"
+
+msgid "**Good:** Understanding signals in Godot"
+msgstr "**좋음:** Understanding signals in Godot"
+
+msgid "**Bad:** Understanding Signals In Godot"
+msgstr "**나쁨:** Understanding Signals In Godot"
+
+msgid "Adding images and attachments"
+msgstr "이미지와 첨부 추가하기"
 
 msgid "License"
 msgstr "라이선스"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Exporting for dedicated servers"
-msgstr "데디케이티드 서버로 내보내기"
+msgstr "데디케이티드 서버를 위해 내보내기"
 
 msgid "There are two ways to export a project for a server:"
 msgstr "서버로 프로젝트를 내보낼 수 있는 방법이 두 가지 있습니다:"
@@ -20,8 +20,16 @@ msgstr "서버로 프로젝트를 내보낼 수 있는 방법이 두 가지 있�
 msgid "See :ref:`doc_exporting_projects` for more information."
 msgstr "자세한 설명은 :ref:`doc_exporting_projects` 를 참고하세요."
 
+msgid "Exporting a project for a dedicated server"
+msgstr "데디케이티드 서버를 위해 프로젝트 내보내기"
+
+msgid ""
+"Choosing the **Export as dedicated server** export mode in the export preset"
+msgstr ""
+"내보내기 프리셋에서 **데디케이티드 서버로 내보내기** 내보내기 모드를 선택하기"
+
 msgid "Starting the dedicated server"
-msgstr "데디케이티드 서버 구동시키기"
+msgstr "데디케이티드 서버 시작하기"
 
 msgid ""
 "If your client and server are separate Godot projects, your server should "
@@ -53,6 +61,6 @@ msgid ""
 "This way, it can be used more easily in an automatic scaling setup (which is "
 "outside the scope of this tutorial)."
 msgstr ""
-"만약 컨테이너를 다뤄본 경험이 있다면 데디케이티드 서버를`Docker <https://www."
-"docker.com/>`__ 로 래핑하는 것 역시 고려해보십시오. 이렇게 하면 자동 스케일 "
-"조절시 더 간편해집니다(튜토리얼 주제를 벗어나는 내용입니다)."
+"만약 컨테이너를 다뤄본 경험이 있다면 데디케이티드 서버를`Docker <https://"
+"www.docker.com/>`__ 로 래핑하는 것 역시 고려해보십시오. 이렇게 하면 자동 스케"
+"일 조절시 더 간편해집니다(튜토리얼 주제를 벗어나는 내용입니다)."

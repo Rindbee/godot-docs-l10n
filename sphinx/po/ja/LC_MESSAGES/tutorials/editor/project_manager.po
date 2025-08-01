@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,13 @@ msgstr ""
 
 msgid "Using the Project Manager"
 msgstr "プロジェクトマネージャーの使用"
+
+msgid ""
+"In Project Manager Settings, you can change the interface **language** from "
+"the language dropdown menu, which is the system default language by default."
+msgstr ""
+"プロジェクトマネージャーの設定では、ドロップダウンメニューからインターフェイ"
+"スの**言語**を変更することができます。"
 
 msgid "Creating and importing projects"
 msgstr "プロジェクトの作成とインポート"

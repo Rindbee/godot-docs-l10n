@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,58 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using the XR editor"
+msgstr "XR 편집기 사용하기"
+
+msgid "**Projects sync**"
+msgstr "**프로젝트 동기화**"
+
+msgid "**Plugins**"
+msgstr "**플러그인**"
+
+msgid ""
+"GDExtension plugins work as expected, but require the plugin developer to "
+"provide native Android binaries."
+msgstr ""
+"GDExtension 플러그인은 예상대로 작동하지만 플러그인 개발자가 네이티브 "
+"Android 바이너리를 제공해야 합니다."
+
+msgid "Limitations & known issues"
+msgstr "제한 사항 및 알려진 문제"
+
+msgid "Here are the known limitations and issues of the XR editor:"
+msgstr "XR 편집기의 알려진 제한 사항과 문제점은 다음과 같습니다:"
+
+msgid ""
+"No Meta Quest 2 support due to the limited amount of memory on the device. "
+"However advanced users can grab the XR editor APK from the `download page "
+"<https://godotengine.org/download/preview/>`__ and sideload it onto their "
+"device if they desire to do so."
+msgstr ""
+"기기에 메모리의 용량이 제한되어 Meta Quest 2는 지원되지 않습니다. 하지만 고"
+"급 사용자는 `다운로드 페이지 <https://godotengine.org/download/preview/"
+">`__\\ 에서 XR 편집기 APK를 다운로드하여 원하는 경우 사용자의 기기에 사이드로"
+"드할 수 있습니다."
+
+msgid "No gradle build support."
+msgstr "Gradle 빌드 지원 없음."
+
+msgid ""
+"No support for Android plugins as they require gradle build support. "
+"GDExtension plugins are supported."
+msgstr ""
+"Android 플러그인은 Gradle 빌드 지원이 필요하므로 지원이 없습니다. "
+"GDExtension 플러그인은 지원됩니다."
+
 msgid "No C#/Mono support."
-msgstr "C#/Mono 미지원."
+msgstr "C#/Mono 지원 없음."
 
 msgid "No support for external script editors."
-msgstr "외부 스크립트 에디터 미지원."
+msgstr "외부 스크립트 편집기를 위한 지원 없음."
+
+msgid ""
+"While available, the *Vulkan Forward+* renderer is not recommended due to "
+"severe performance issues."
+msgstr ""
+"*Vulkan Forward+* 렌더러는 사용 가능하지만 심각한 성능 문제로 인해 권장되지 "
+"않습니다."

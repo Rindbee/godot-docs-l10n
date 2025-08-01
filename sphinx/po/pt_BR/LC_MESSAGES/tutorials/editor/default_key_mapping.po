@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -365,8 +365,34 @@ msgstr ":kbd:`Ctrl + Shift + P`"
 msgid ":kbd:`Cmd + Shift + P`"
 msgstr ":kbd:`Cmd + Shift + P`"
 
+msgid ""
+"Only bottom panels that are always available have a default shortcut "
+"assigned. Others must be manually bound in the Editor Settings if desired."
+msgstr ""
+"Apenas os painéis inferiores que estão sempre disponíveis têm um atalho "
+"padrão atribuído. Os demais devem ser vinculados manualmente nas "
+"Configurações do Editor, se desejado."
+
+msgid "``bottom_panels/toggle_animation_bottom_panel``"
+msgstr "``bottom_panels/toggle_animation_bottom_panel``"
+
+msgid "``bottom_panels/toggle_audio_bottom_panel``"
+msgstr "``bottom_panels/toggle_audio_bottom_panel``"
+
+msgid "``bottom_panels/toggle_debugger_bottom_panel``"
+msgstr "``bottom_panels/toggle_debugger_bottom_panel``"
+
 msgid ":kbd:`Alt + F`"
 msgstr ":kbd:`Alt + F`"
+
+msgid "``bottom_panels/toggle_filesystem_bottom_panel``"
+msgstr "``bottom_panels/toggle_filesystem_bottom_panel``"
+
+msgid "``bottom_panels/toggle_output_bottom_panel``"
+msgstr "``bottom_panels/toggle_output_bottom_panel``"
+
+msgid "``bottom_panels/toggle_shader_editor_bottom_panel``"
+msgstr "``bottom_panels/toggle_shader_editor_bottom_panel``"
 
 msgid "Zoom In"
 msgstr "Ampliar"
@@ -1738,3 +1764,21 @@ msgstr ":kbd:`8`"
 
 msgid "``tileset_editor/editmode_z_index``"
 msgstr "``tileset_editor/editmode_z_index``"
+
+msgid "``project_manager/import_project``"
+msgstr "``project_manager/import_project``"
+
+msgid "Scan for Projects"
+msgstr "Procurar projetos"
+
+msgid "``project_manager/scan_projects``"
+msgstr "``project_manager/scan_projects``"
+
+msgid "``project_manager/edit_project``"
+msgstr "``project_manager/edit_project``"
+
+msgid "``project_manager/rename_project``"
+msgstr "``project_manager/rename_project``"
+
+msgid "``project_manager/remove_project``"
+msgstr "``project_manager/remove_project``"

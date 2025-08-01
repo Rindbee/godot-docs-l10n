@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,27 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Customizing the interface"
+msgstr "Personalizzare l'interfaccia"
+
+msgid "Resizing a dock in the editor"
+msgstr "Ridimensionare un pannello nell'editor"
+
+msgid "Moving a dock in the editor"
+msgstr "Spostare un pannello nell'editor"
+
+msgid "Customizing editor layouts"
+msgstr "Personalizzare i layout dell'editor"
+
+msgid "Moving a dock."
+msgstr "Muovere un pannello."
+
+msgid "Resizing a dock."
+msgstr "Ridimensionare un pannello."
+
+msgid "Customizing editor settings"
+msgstr "Personalizzare le impostazioni dell'editor"
+
+msgid "The Editor Settings window"
+msgstr "La finestra delle impostazioni del progetto"

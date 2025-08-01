@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,27 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Creating a 3D particle system"
+msgstr "Creación de un sistema de partículas 3D"
+
+msgid "Required particle node properties"
+msgstr "Propiedades de los nodos de partículas requeridas"
+
+msgid "Particle conversion"
+msgstr "Conversión de partículas"
+
+msgid "multiple draw passes"
+msgstr "múltiples pasadas de dibujado"
+
+msgid "You also lose the following properties:"
+msgstr "También se pierden las siguientes propiedades:"
+
+msgid "``Amount Ratio``"
+msgstr "``Relación de cantidad``"
+
+msgid "``Directional Velocity``"
+msgstr "``Velocidad direccional``"
+
+msgid "``Radial Velocity``"
+msgstr "``Velocidad radial``"

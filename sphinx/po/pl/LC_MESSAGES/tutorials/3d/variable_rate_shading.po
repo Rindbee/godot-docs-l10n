@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,53 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "**Desktop:**"
+msgstr "**Desktop:**"
+
+msgid "Density"
+msgstr "Gęstość"
+
 msgid "Color"
 msgstr "Kolor"
 
 msgid "Comment"
 msgstr "Komentarz"
+
+msgid "1×2"
+msgstr "1×2"
+
+msgid "2×1"
+msgstr "2×1"
+
+msgid "2×2"
+msgstr "2×2"
+
+msgid "2×4"
+msgstr "2×4"
+
+msgid "4×2"
+msgstr "4×2"
+
+msgid "4×4"
+msgstr "4×4"
+
+msgid "4×8"
+msgstr "4×8"
+
+msgid "8×4"
+msgstr "8×4"
+
+msgid "Resolution"
+msgstr "Rozdzielczość"
+
+msgid "+10.7%"
+msgstr "+10.7%"
+
+msgid "+12.3%"
+msgstr "+12.3%"
+
+msgid "+16.2%"
+msgstr "+16.2%"
+
+msgid "+23.1%"
+msgstr "+23.1%"

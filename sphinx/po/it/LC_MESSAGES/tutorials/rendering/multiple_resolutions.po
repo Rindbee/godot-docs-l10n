@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,61 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Multiple resolutions"
+msgstr "Molteplici risoluzioni"
+
+msgid ""
+"You can see how Godot's support for multiple resolutions works in action "
+"using the `Multiple Resolutions and Aspect Ratios demo project <https://"
+"github.com/godotengine/godot-demo-projects/tree/master/gui/"
+"multiple_resolutions>`__."
+msgstr ""
+"È possibile osservare in azione il funzionamento del supporto di Godot per "
+"più risoluzioni attraverso il progetto dimostrativo `Risoluzioni multiple e "
+"rapporti d'aspetto <https://github.com/godotengine/godot-demo-projects/tree/"
+"master/gui/multiple_resolutions>`__."
+
+msgid "Base size"
+msgstr "Dimensioni di base"
+
 msgid "Resizing"
 msgstr "Ridimensionamento"
 
+msgid "Stretch settings"
+msgstr "Impostazioni di allungamento"
+
+msgid "Stretch Mode"
+msgstr "Modo di allungamento"
+
+msgid ""
+"The following settings are recommended to support multiple resolutions and "
+"aspect ratios well."
+msgstr ""
+"Le seguenti impostazioni sono consigliate per supportare bene più "
+"risoluzioni e rapporti di aspetto."
+
+msgid "Desktop game"
+msgstr "Gioco per desktop"
+
 msgid "**Non-pixel art:**"
 msgstr "**Non-pixel art:**"
+
+msgid "**Pixel art:**"
+msgstr "**Pixel art:**"
+
+msgid "Non-game application"
+msgstr "Applicazione non di gioco"
+
+msgid "hiDPI support"
+msgstr "Supporto per hiDPI"
+
+msgid "Handling aspect ratios"
+msgstr "Gestione dei rapporti di aspetto"
+
+msgid ""
+"See the `3D viewport scaling demo <https://github.com/godotengine/godot-demo-"
+"projects/tree/master/viewport/3d_scaling>`__ for examples."
+msgstr ""
+"Consulta la demo di `ridimensionamento 3D di viewport <https://github.com/"
+"godotengine/godot-demo-projects/tree/master/viewport/3d_scaling>`__ per "
+"alcuni esempi."

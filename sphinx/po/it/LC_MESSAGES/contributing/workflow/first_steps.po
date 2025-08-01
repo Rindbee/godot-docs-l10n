@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,32 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Contributing code"
+msgstr "Contribuire con il codice"
+
+msgid "Testing and reporting issues"
+msgstr "Test e segnalazione di problemi (issues)"
+
+msgid "Testing development versions"
+msgstr "Testare le versioni di sviluppo"
+
 msgid "To help with the testing, you have several possibilities:"
 msgstr "Per aiutare con il testare, hai diverse possibilità:"
+
+msgid "Filing an issue on GitHub"
+msgstr "Segnalazione di un problema (issue) su GitHub"
+
+msgid "Contributing to the documentation"
+msgstr "Contribuire alla documentazione"
+
+msgid ""
+"There are two separate resources referred to as \"documentation\" in Godot:"
+msgstr ""
+"Esistono due risorse separate riferite come \"documentazione\" in Godot:"
+
+msgid "Contributing translations"
+msgstr "Contribuire alle traduzioni"
+
+msgid "See :ref:`doc_editor_and_docs_localization` for more details."
+msgstr ""
+"Consultare :ref:`doc_editor_and_docs_localization` per maggiori dettagli."

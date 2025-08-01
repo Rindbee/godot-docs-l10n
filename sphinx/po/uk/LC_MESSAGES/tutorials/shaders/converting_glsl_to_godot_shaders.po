@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Converting GLSL to Godot shaders"
-msgstr "Перетворення GLSL в шейдери Годо"
+msgstr "Перетворення GLSL в шейдери Godot"
 
 msgid ""
 "This document explains the differences between Godot's shading language and "
@@ -24,8 +24,8 @@ msgstr ""
 "як Shadertoy і The Book of Shaders, у шейдери Godot."
 
 msgid ""
-"For detailed information on Godot's shading language, please refer to the :"
-"ref:`Shading Language <doc_shading_language>` reference."
+"For detailed information on Godot's shading language, please refer to "
+"the :ref:`Shading Language <doc_shading_language>` reference."
 msgstr ""
 "Для отримання детальної інформації про мову затінення Godot, будь ласка, "
 "зверніться до довідника :ref:`Shading Language <doc_shading_language>`."
@@ -40,7 +40,7 @@ msgid ""
 msgstr ""
 "Godot використовує мову затінення на основі GLSL із додаванням кількох "
 "функцій якості життя. Відповідно, більшість функцій, доступних у GLSL, "
-"доступні в мові затінення Годо."
+"доступні в мові затінення Godot."
 
 msgid "Shader programs"
 msgstr "Шейдерні програми"
@@ -54,7 +54,7 @@ msgstr ""
 "У GLSL кожен шейдер використовує окрему програму. У вас є одна програма для "
 "вершинного шейдера та одна для фрагментного шейдера. У Godot у вас є один "
 "шейдер, який містить функцію ``вершина`` та/або ``фрагмент``. Якщо ви "
-"вирішите написати лише один, Годо надасть інший."
+"вирішите написати лише один, Godot надасть інший."
 
 msgid ""
 "Godot allows uniform variables and functions to be shared by defining the "
@@ -155,7 +155,7 @@ msgid ""
 "The :ref:`Godot shader preprocessor<doc_shader_preprocessor>` supports the "
 "following macros:"
 msgstr ""
-":ref:`Препроцесор шейдерів Godot<doc_shader_preprocessor>` підтримує такі "
+":ref:`Godot shader preprocessor<doc_shader_preprocessor>` підтримує такі "
 "макроси:"
 
 msgid "``#define`` / ``#undef``"
@@ -191,31 +191,31 @@ msgstr ""
 "єдиними, тому їх не можна редагувати з основної програми."
 
 msgid "Variable"
-msgstr "Змінна"
+msgstr "Variable"
 
 msgid "Type"
 msgstr "Тип"
 
 msgid "Equivalent"
-msgstr "Еквівалент"
+msgstr "Equivalent"
 
 msgid "Description"
 msgstr "Опис"
 
 msgid "gl_FragColor"
-msgstr "Gi_FragColor"
+msgstr "gl_FragColor"
 
 msgid "out vec4"
-msgstr "Out vec4"
+msgstr "out vec4"
 
 msgid "COLOR"
-msgstr "КОЛІР"
+msgstr "COLOR"
 
 msgid "Output color for each pixel."
 msgstr "Вихідний колір для кожного пікселя."
 
 msgid "gl_FragCoord"
-msgstr "Gl_FragCoord"
+msgstr "gl_FragCoord"
 
 msgid "vec4"
 msgstr "Vec4"
@@ -228,13 +228,13 @@ msgstr ""
 "Для повноекранних квадроциклів. Для менших квадроциклів використовуйте UV."
 
 msgid "VERTEX"
-msgstr "ВЕРШИНА"
+msgstr "VERTEX"
 
 msgid "Position of Vertex, output from Vertex Shader."
 msgstr "Позиція Vertex, виведена з Vertex Shader."
 
 msgid "gl_PointSize"
-msgstr "Gl_PointSize"
+msgstr "gl_PointSize"
 
 msgid "float"
 msgstr "десяткове число"
@@ -246,7 +246,7 @@ msgid "Size of Point primitive."
 msgstr "Розмір примітиву точки."
 
 msgid "gl_PointCoord"
-msgstr "Gl_PointCoord"
+msgstr "gl_PointCoord"
 
 msgid "vec2"
 msgstr "Vec2"
@@ -258,7 +258,7 @@ msgid "Position on point when drawing Point primitives."
 msgstr "Позиція точки під час малювання примітивів Point."
 
 msgid "gl_FrontFacing"
-msgstr "Gl_FrontFacing"
+msgstr "gl_FrontFacing"
 
 msgid "bool"
 msgstr "bool"
@@ -300,7 +300,7 @@ msgstr ""
 "довідник :ref:`Shading Language <doc_shading_language>`."
 
 msgid "Shadertoy"
-msgstr "shadertoy"
+msgstr "Shadertoy"
 
 msgid ""
 "`Shadertoy <https://www.shadertoy.com/results?"
@@ -333,7 +333,7 @@ msgstr ""
 "GLSL. Однак він все ще має звичайні типи, включаючи константи та макроси."
 
 msgid "mainImage"
-msgstr "MainImage"
+msgstr "mainImage"
 
 msgid ""
 "The main point of entry to a Shadertoy shader is the ``mainImage`` function. "
@@ -369,16 +369,16 @@ msgstr ""
 "Опис дає читачеві підказку про те, що вони можуть замінити."
 
 msgid "fragColor"
-msgstr "FragColor"
+msgstr "fragColor"
 
 msgid "fragCoord"
-msgstr "FragCoord"
+msgstr "fragCoord"
 
 msgid "FRAGCOORD.xy"
 msgstr "FRAGCOORD.xy"
 
 msgid "iResolution"
-msgstr "IResolution"
+msgstr "iResolution"
 
 msgid "vec3"
 msgstr "Vec3"
@@ -390,16 +390,16 @@ msgid "Can also pass in manually."
 msgstr "Також можна здавати вручну."
 
 msgid "iTime"
-msgstr "ITime"
+msgstr "iTime"
 
 msgid "TIME"
-msgstr "ЧАС"
+msgstr "TIME"
 
 msgid "Time since shader started."
 msgstr "Час від початку шейдера."
 
 msgid "iTimeDelta"
-msgstr "ITimeDelta"
+msgstr "iTimeDelta"
 
 msgid "Provide with Uniform"
 msgstr "Забезпечити уніформою"
@@ -408,31 +408,31 @@ msgid "Time to render previous frame."
 msgstr "Час відтворити попередній кадр."
 
 msgid "iFrame"
-msgstr "IFrame"
+msgstr "iFrame"
 
 msgid "Frame number."
 msgstr "Номер кадру."
 
 msgid "iChannelTime[4]"
-msgstr "IChannelTime[4]"
+msgstr "iChannelTime[4]"
 
 msgid "Time since that particular texture started."
 msgstr "Час, відколи ця конкретна текстура почалася."
 
 msgid "iMouse"
-msgstr "IMouse"
+msgstr "iMouse"
 
 msgid "Mouse position in pixel coordinates."
 msgstr "Позиція миші в піксельних координатах."
 
 msgid "iDate"
-msgstr "IDate"
+msgstr "iDate"
 
 msgid "Current date, expressed in seconds."
 msgstr "Поточна дата, виражена в секундах."
 
 msgid "iChannelResolution[4]"
-msgstr "IChannelResolution[4]"
+msgstr "iChannelResolution[4]"
 
 msgid "1.0 / TEXTURE_PIXEL_SIZE"
 msgstr "1.0 / TEXTURE_PIXEL_SIZE"
@@ -441,13 +441,13 @@ msgid "Resolution of particular texture."
 msgstr "Роздільна здатність конкретної текстури."
 
 msgid "iChanneli"
-msgstr "IChanneli"
+msgstr "iChanneli"
 
 msgid "Sampler2D"
-msgstr "sampler2D"
+msgstr "Sampler2D"
 
 msgid "TEXTURE"
-msgstr "ТЕКСТУР"
+msgstr "TEXTURE"
 
 msgid "Godot provides only one built-in; user can make more."
 msgstr "Godot забезпечує лише один вбудований; користувач може зробити більше."
@@ -480,8 +480,8 @@ msgid ""
 "running shaders in various frameworks."
 msgstr ""
 "Щоб отримати додаткову допомогу щодо перенесення шейдерів на різні "
-"фреймворки, The Book of Shaders надає `сторінку <https://thebookofshaders."
-"com/04>`_ про запуск шейдерів у різних фреймворках."
+"фреймворки, The Book of Shaders надає `сторінку <https://"
+"thebookofshaders.com/04>`_ про запуск шейдерів у різних фреймворках."
 
 msgid ""
 "The Book of Shaders uses the webgl spec, so it runs a slightly different "
@@ -499,7 +499,7 @@ msgid ""
 msgstr ""
 "Точкою входу для фрагментного шейдера Book of Shaders є ``main``, як і в "
 "GLSL. Усе, що написано у функції ``main`` Книги шейдерів, слід скопіювати у "
-"функцію ``fragment`` Годо."
+"функцію ``fragment`` Godot."
 
 msgid ""
 "The Book of Shaders sticks closer to plain GLSL than Shadertoy does. It also "
@@ -509,13 +509,13 @@ msgstr ""
 "використовує менше уніформи, ніж Shadertoy."
 
 msgid "u_resolution"
-msgstr "u resolution"
+msgstr "u_resolution"
 
 msgid "u_time"
-msgstr "u time"
+msgstr "u_time"
 
 msgid "u_mouse"
-msgstr "u mouse"
+msgstr "u_mouse"
 
 msgid ""
 "The Book of Shaders uses the same coordinate system as :ref:`GLSL "

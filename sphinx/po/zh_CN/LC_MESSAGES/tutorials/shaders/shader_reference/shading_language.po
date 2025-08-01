@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -601,6 +601,30 @@ msgstr "逻辑或"
 msgid "**||**"
 msgstr "**||**"
 
+msgid "Operation"
+msgstr "运算"
+
+msgid "Equivalent Scalar Operation"
+msgstr "等价标量运算"
+
+msgid "``vec3(4, 5, 6) + 2``"
+msgstr "``vec3(4, 5, 6) + 2``"
+
+msgid "``vec3(4 + 2, 5 + 2, 6 + 2)``"
+msgstr "``vec3(4 + 2, 5 + 2, 6 + 2)``"
+
+msgid "``vec2(3, 4) * vec2(10, 20)``"
+msgstr "``vec2(3, 4) * vec2(10, 20)``"
+
+msgid "``vec2(3 * 10, 4 * 20)``"
+msgstr "``vec2(3 * 10, 4 * 20)``"
+
+msgid "``mat2(vec2(1, 2), vec2(3, 4)) + 10``"
+msgstr "``mat2(vec2(1, 2), vec2(3, 4)) + 10``"
+
+msgid "``mat2(vec2(1 + 10, 2 + 10), vec2(3 + 10, 4 + 10))``"
+msgstr "``mat2(vec2(1 + 10, 2 + 10), vec2(3 + 10, 4 + 10))``"
+
 msgid "Flow control"
 msgstr "控制流"
 
@@ -788,6 +812,9 @@ msgstr "source_color"
 msgid "Used as color."
 msgstr "用作颜色。"
 
+msgid "hint_enum(\"String1\", \"String2\")"
+msgstr "hint_enum(\"String1\", \"String2\")"
+
 msgid "**int, float**"
 msgstr "**int、float**"
 
@@ -893,8 +920,8 @@ msgstr ""
 "有时你会想要统一修改很多不同着色器中的某个参数。使用普通的 uniform 就会很麻"
 "烦，因为你需要记录这些着色器，并且需要一个个地设 uniform。使用全局 uniform 就"
 "可以创建并更新所有着色器中均可以使用的 uniform，所有类型的着色器都适用（\\ "
-"``canvas_item``\\ 、\\ ``spatial``\\ 、\\ ``particles``\\ 、\\ "
-"``sky``\\ 、\\ ``fog``\\ ）。"
+"``canvas_item``\\ 、\\ ``spatial``\\ 、\\ ``particles``\\ 、\\ ``sky``\\ 、"
+"\\ ``fog``\\ ）。"
 
 msgid ""
 "Global uniforms are especially useful for environmental effects that affect "
@@ -954,9 +981,6 @@ msgstr ""
 
 msgid "Per-instance uniforms"
 msgstr "单实例 uniform"
-
-msgid "Per-instance uniforms are only available in ``spatial`` (3D) shaders."
-msgstr "只有 ``spatial``\\ （3D）着色器中才可以使用单实例 uniform。"
 
 msgid ""
 "Per-instance uniforms are set on each GeometryInstance3D, rather than on "
@@ -1041,8 +1065,8 @@ msgid "When Color is used, it will be interpreted as (r, g, b, a)."
 msgstr "使用 Color 时会将其解释为 (r, g, b, a)。"
 
 msgid ""
-"When Rect2 is used, it will be interpreted as (position.x, position.y, size."
-"x, size.y)."
+"When Rect2 is used, it will be interpreted as (position.x, position.y, "
+"size.x, size.y)."
 msgstr "使用 Rect2 时会将其解释为 (position.x, position.y, size.x, size.y)。"
 
 msgid ""

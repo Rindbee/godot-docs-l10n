@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,18 @@ msgstr ""
 
 msgid "Introduction"
 msgstr "Introduzione"
+
+msgid "What is a spring arm?"
+msgstr "Che cos'è un braccio a molla?"
+
+msgid "Spring arm with a camera"
+msgstr "Braccio a molla con una telecamera"
+
+msgid "Setting up the spring arm and camera"
+msgstr "Configurare il braccio a molla e la telecamera"
+
+msgid "`SpringArm3D`"
+msgstr "`SpringArm3D`"
+
+msgid "`Camera3D`"
+msgstr "`Camera3D`"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,3 +16,10 @@ msgstr "Введение"
 
 msgid "How pausing works"
 msgstr "Как работает пауза"
+
+msgid ""
+"**Always**: Process the node (and its children in Inherit mode) no matter "
+"what. Paused or not, this node will process."
+msgstr ""
+"**Всегда**: Обрабатывать узел (и его дочерние узлы в режиме наследования) в "
+"любом случае. Независимо от паузы, этот узел будет обрабатываться."

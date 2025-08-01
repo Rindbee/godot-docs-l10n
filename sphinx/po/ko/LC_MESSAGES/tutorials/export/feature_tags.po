@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -200,7 +200,7 @@ msgstr ""
 "그 기능 태그가 포함된 설정도 *함께* 재정의 해야 합니다."
 
 msgid "Default overrides"
-msgstr "기본 재정의"
+msgstr "디폴트 재정의"
 
 msgid ""
 "There are already a lot of settings that come with overrides by default; "

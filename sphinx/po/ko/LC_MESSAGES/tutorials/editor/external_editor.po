@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,7 +12,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Using an external text editor"
-msgstr "외부 텍스트 에디터 사용하기"
+msgstr "외부 텍스트 편집기 사용하기"
+
+msgid "This page explains how to code using an external text editor."
+msgstr ""
+"이 페이지에서는 외부 텍스트 편집기를 사용하여 코딩하는 방법을 설명합니다."
+
+msgid ""
+"Godot can be used with an external text editor, such as Sublime Text or "
+"Visual Studio Code. Browse to the relevant editor settings: **Editor > "
+"Editor Settings > Text Editor > External**"
+msgstr ""
+"Godot는 Sublime Text나 Visual Studio Code와 같은 외부 텍스트 편집기와 함께 사"
+"용할 수 있습니다. 관련 편집기 설정을 찾아보세요: **편집기 > 편집기 설정 > 텍"
+"스트 편집기 > 외부**"
 
 msgid "Field in Exec Flags"
 msgstr "Exec Flags 필드"
@@ -45,7 +58,7 @@ msgid "The line number of the error"
 msgstr "오류의 행 번호"
 
 msgid "Editor"
-msgstr "에디터"
+msgstr "편집기"
 
 msgid "Exec Flags"
 msgstr "실행 플래그"
@@ -73,3 +86,15 @@ msgstr "Vim (gVim)"
 
 msgid "``\"+call cursor({line}, {col})\" {file}``"
 msgstr "``\"+call cursor({line}, {col})\" {file}``"
+
+msgid "Automatically reloading your changes"
+msgstr "변경사항을 자동으로 다시 불러오기"
+
+msgid "Using External Editor in Debugger"
+msgstr "디버거에 외부 편집기 사용하기"
+
+msgid "Official editor plugins"
+msgstr "공식 편집기 플러그인"
+
+msgid "LSP/DAP support"
+msgstr "LSP/DAP 지원"

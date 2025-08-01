@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,9 @@ msgstr ""
 
 msgid "Occlusion culling"
 msgstr "Eliminación de oclusión"
+
+msgid "On this page, you'll learn:"
+msgstr "En esta pagina aprenderá:"
 
 msgid "Troubleshooting common issues with occlusion culling."
 msgstr "Resolviendo problemas comunes del filtrado por oclusión."

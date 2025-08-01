@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,9 @@ msgstr "BBCode w RichTextLabel"
 
 msgid "Introduction"
 msgstr "Wprowadzenie"
+
+msgid "Using BBCode"
+msgstr "Używanie BBCode"
 
 msgid "Performance"
 msgstr "Wydajność"
@@ -38,17 +41,23 @@ msgstr "``[i]{tekst}[/i]``"
 msgid "``[u]{text}[/u]``"
 msgstr "``[u]{tekst}[/u]``"
 
+msgid "**s**"
+msgstr "**s**"
+
 msgid "``[s]{text}[/s]``"
 msgstr "``[s]{text}[/s]``"
 
 msgid "**code**"
-msgstr "**kod**"
+msgstr "**code**"
 
 msgid "``[code]{text}[/code]``"
 msgstr "``[code]{tekst}[/code]``"
 
+msgid "**p**"
+msgstr "**p**"
+
 msgid "``[p]{text}[/p]``"
-msgstr "``[p]{text}[/p]``"
+msgstr "``[p]{tekst}[/p]``"
 
 msgid "**center**"
 msgstr "**wyśrodkuj**"
@@ -89,6 +98,12 @@ msgstr "**czcionka**"
 msgid "**color**"
 msgstr "**kolor**"
 
+msgid "**table**"
+msgstr "**table**"
+
+msgid "**cell**"
+msgstr "**cell**"
+
 msgid "``[cell]{text}[/cell]``"
 msgstr "``[cell]{tekst}[/cell]``"
 
@@ -103,3 +118,30 @@ msgstr "Heksadecymalne kody kolorów"
 
 msgid "1"
 msgstr "1"
+
+msgid "Pulse"
+msgstr "Puls"
+
+msgid "Wave"
+msgstr "Fala"
+
+msgid "Tornado"
+msgstr "Tornado"
+
+msgid "Shake"
+msgstr "Wstrząs"
+
+msgid "Fade"
+msgstr "Zanik"
+
+msgid "Rainbow"
+msgstr "Tęcza"
+
+msgid "``_process_custom_fx``"
+msgstr "``_process_custom_fx``"
+
+msgid "Ghost"
+msgstr "Duch"
+
+msgid "Matrix"
+msgstr "Matrix"

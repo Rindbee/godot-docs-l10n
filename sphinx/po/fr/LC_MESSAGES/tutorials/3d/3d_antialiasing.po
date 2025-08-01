@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "3D antialiasing"
+msgstr "**Anticrénelage 3D**"
 
 msgid "Introduction"
 msgstr "Introduction"
@@ -24,11 +27,45 @@ msgstr ""
 msgid "Multisample antialiasing (MSAA)"
 msgstr "Anticrénelage multi-échantillon (MSAA)"
 
+msgid ""
+"MSAA can be enabled in the Project Settings by changing the value of "
+"the :ref:`Rendering > Anti Aliasing > Quality > MSAA "
+"3D<class_ProjectSettings_property_rendering/anti_aliasing/quality/msaa_3d>` "
+"setting. It's important to change the value of the **MSAA 3D** setting and "
+"not **MSAA 2D**, as these are entirely separate settings."
+msgstr ""
+"Le MSAA peut être activé dans les paramètres du projet en changeant la "
+"valeur du paramètre :ref:`Rendu > Anti Crénelage > Qualité > MSAA "
+"3D<class_ProjectSettings_property_rendering/anti_aliasing/quality/msaa_3d>` "
+"Il est important de changer la valeur du paramètre **MSAA 3D** et non **MSAA "
+"2D**, car ce sont des paramètres entièrement séparés."
+
 msgid "Temporal antialiasing (TAA)"
 msgstr "Anticrénelage temporel (TAA)"
 
+msgid ""
+"Temporal antialiasing can be enabled in the Project Settings by changing the "
+"value of the :ref:`Rendering > Anti Aliasing > Quality > "
+"TAA<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_taa>` "
+"setting."
+msgstr ""
+"L'anticrénelage temporel peut être activé dans les paramètres du projet en "
+"changeant la valeur du réglage :ref:`Rendu > Anticrénelage > Qualité > "
+"TAA<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_taa>`."
+
 msgid "Fast approximate antialiasing (FXAA)"
 msgstr "Anticrénelage approximatif rapide (FXAA)"
+
+msgid ""
+"FXAA can be enabled in the Project Settings by changing the value of "
+"the :ref:`Rendering > Anti Aliasing > Quality > Screen Space "
+"AA<class_ProjectSettings_property_rendering/anti_aliasing/quality/"
+"screen_space_aa>` setting to ``FXAA``."
+msgstr ""
+"La FXAA peut être activée dans les paramètres du projet en changeant la "
+"valeur du paramètre :ref:`Rendu > Anticrénelage > Qualité > Anticrénelage "
+"dans l'espace écran <class_ProjectSettings_property_rendering/anti_aliasing/"
+"quality/screen_space_aa>` à ``FXAA``."
 
 msgid ""
 "Supersampling also has high video RAM requirements, since it needs to render "
@@ -56,5 +93,62 @@ msgstr ""
 msgid "Texture roughness limiter on import"
 msgstr "Limitation de la rugosité des textures lors de l'importation"
 
+msgid "Feature"
+msgstr "Fonctionnalité"
+
+msgid "MSAA"
+msgstr "MSAA"
+
+msgid "TAA"
+msgstr "TAA"
+
+msgid "FSR2"
+msgstr "FSR2"
+
+msgid "FXAA"
+msgstr "FXAA"
+
+msgid "SSAA"
+msgstr "SSAA"
+
+msgid "SSRL"
+msgstr "SSRL"
+
+msgid "🟢 Yes"
+msgstr "🟢 Oui"
+
+msgid "🔴 No"
+msgstr "🔴 Non"
+
+msgid "🟡 Some [1]_"
+msgstr "🟡 En partie [1]_"
+
+msgid "🟢 Yes [2]_"
+msgstr "🟢 Oui [2]_"
+
+msgid "Added blur"
+msgstr "Flou ajouté"
+
+msgid "🟡 Some [3]_"
+msgstr "🟡 En partie [3]_"
+
+msgid "🔴 Yes"
+msgstr "🔴 Oui"
+
+msgid "🔴 Very High"
+msgstr "🔴 Très Élevée"
+
+msgid "Forward+"
+msgstr "Forward+"
+
+msgid "✔️ Yes"
+msgstr "✔️ Oui"
+
 msgid "Mobile"
 msgstr "Mobile"
+
+msgid "❌ No"
+msgstr "❌ Non"
+
+msgid "Compatibility"
+msgstr "Compatibilité"

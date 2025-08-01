@@ -1,0 +1,88 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 4.4\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"**Source compatible** - Source code will compile successfully without "
+"changes when upgrading Godot."
+msgstr ""
+"**Compatible source** - Le code source compilera avec succès sans changement "
+"lors de la mise à niveau de Godot."
+
+msgid "Core"
+msgstr "Core"
+
+msgid "Change"
+msgstr "Modifications"
+
+msgid "GDScript Compatible"
+msgstr "Compatible GDScript"
+
+msgid "C# Binary Compatible"
+msgstr "Compatible binaire C#"
+
+msgid "C# Source Compatible"
+msgstr "Compatible source C#"
+
+msgid "Introduced"
+msgstr "Intégré"
+
+msgid "|✔️|"
+msgstr "|✔️|"
+
+msgid "|✔️ with compat|"
+msgstr "|✔️ avec compatibilité|"
+
+msgid "|❌|"
+msgstr "|❌|"
+
+msgid "GUI nodes"
+msgstr "Nœuds GUI"
+
+msgid "**RichTextLabel**"
+msgstr "**RichTextLabel**"
+
+msgid "**GraphEdit**"
+msgstr "**GraphEdit**"
+
+msgid "Physics"
+msgstr "Physique"
+
+msgid "Rendering"
+msgstr "Rendu"
+
+msgid "**RenderingDevice**"
+msgstr "**RenderingDevice**"
+
+msgid "**RenderingServer**"
+msgstr "**RenderingServer**"
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "**NavigationServer2D**"
+msgstr "**NavigationServer2D**"
+
+msgid "**NavigationServer3D**"
+msgstr "**NavigationServer3D**"
+
+msgid "Editor plugins"
+msgstr "Extensions pour l'éditeur"
+
+msgid "**EditorInterface**"
+msgstr "**EditorInterface**"
+
+msgid "Behavior changes"
+msgstr "Changements de comportement"
+
+msgid "Android"
+msgstr "Android"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,20 @@ msgstr "Класс Object"
 
 msgid "General definition"
 msgstr "Общее определение"
+
+msgid ""
+":ref:`Object <class_object>` is the base class for almost everything. Most "
+"classes in Godot inherit directly or indirectly from it. Objects provide "
+"reflection and editable properties, and declaring them is a matter of using "
+"a single macro like this:"
+msgstr ""
+":ref:`Object <class_object>` — базовый класс практически для всего. "
+"Большинство классов в Godot наследуются от него напрямую или косвенно. "
+"Объекты предоставляют рефлексию и редактируемые свойства, а их объявление "
+"осуществляется с помощью одного макроса, например:"
+
+msgid "This adds a lot of functionality to Objects. For example:"
+msgstr "Это значительно расширяет функциональность Objects. Например:"
 
 msgid "References:"
 msgstr "Источники:"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Operation"
+msgstr "연산자"
 
 msgid "Function"
 msgstr "함수"
@@ -20,5 +23,21 @@ msgstr "return"
 msgid "float"
 msgstr "float"
 
+msgid "Transpose matrix."
+msgstr "행렬을 전치합니다."
+
+msgid "The reference vector."
+msgstr "참조 벡터."
+
 msgid "bool"
 msgstr "bool"
+
+msgid "Available only in the fragment shader."
+msgstr "프래그먼트 셰이더에서만 사용할 수 있습니다."
+
+msgid ""
+"Available only in the fragment shader. Not available when using the "
+"Compatibility renderer."
+msgstr ""
+"프래그먼트 셰이더에서만 사용할 수 있습니다. 호환성 렌더러를 사용할 때 사용할 "
+"수 없습니다."

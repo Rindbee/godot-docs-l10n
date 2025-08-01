@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,20 +14,69 @@ msgstr ""
 msgid "Introduction to 3D"
 msgstr "Introduzione al 3D"
 
+msgid "Main toolbar"
+msgstr "Barra degli strumenti principale"
+
+msgid ""
+"**Group selected nodes** (:kbd:`Ctrl + G`). This allows selection of the "
+"root node if any of the children are selected. Using :kbd:`Ctrl + G` "
+"ungroups them. Additionally, clicking the ungroup button in the scene tree "
+"performs the same action."
+msgstr ""
+"**Raggruppa nodo(i) selezionato(i)** (:kbd:`Ctrl + G`). Questo permette di "
+"selezionare il nodo radice se è selezionato uno qualsiasi dei nodi figlio. "
+"Premendo :kbd:`Ctrl + G` i nodi vengono separati. Inoltre, cliccando sul "
+"pulsante di separazione nell'albero di scene si effettua la stessa azione."
+
+msgid "View menu of viewport"
+msgstr "Menu di vista della viewport"
+
 msgid "Coordinate system"
 msgstr "Sistema di coordinate"
+
+msgid "**X** is sides"
+msgstr "**X** sono i lati"
+
+msgid "**Y** is up/down"
+msgstr "**Y** è su/giù"
+
+msgid "**Z** is front/back"
+msgstr "**Z** è davanti/dietro"
 
 msgid "Image by `Freya Holmér <https://twitter.com/FreyaHolmer>`__"
 msgstr "Immagine di `Freya Holmér <https://twitter.com/FreyaHolmer>`__"
 
+msgid "Navigating the 3D environment"
+msgstr "Navigazione nell'ambiente 3D"
+
+msgid ":kbd:`G`-:kbd:`Y`-:kbd:`2`-:kbd:`.`-:kbd:`5`-:kbd:`Enter`"
+msgstr ":kbd:`G`-:kbd:`Y`-:kbd:`2`-:kbd:`.`-:kbd:`5`-:kbd:`Enter`"
+
+msgid "Node3D node"
+msgstr "Nodo Node3D"
+
 msgid "3D content"
 msgstr "Contenuto 3D"
+
+msgid "See :ref:`doc_importing_3d_scenes` for more on importing."
+msgstr ""
+"Consulta :ref:`doc_importing_3d_scenes` per più informazioni "
+"sull'importazione."
+
+msgid "Generated geometry"
+msgstr "Geometria generata"
+
+msgid "Immediate geometry"
+msgstr "Geometria immediata"
 
 msgid "2D in 3D"
 msgstr "2D in 3D"
 
 msgid "Environment"
 msgstr "Ambiente"
+
+msgid "Preview environment and light"
+msgstr "Anteprima di ambiente e di luce"
 
 msgid "Cameras"
 msgstr "Telecamere"

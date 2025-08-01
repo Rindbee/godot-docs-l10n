@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Exporting for macOS"
+msgstr "Esportazione per macOS"
+
 msgid "Requirements"
 msgstr "Requisiti"
+
+msgid "Code signing and notarization"
+msgstr "Firma del codice e autorizzazione"
 
 msgid "Option"
 msgstr "Opzione"
@@ -53,6 +59,9 @@ msgstr "Calendari"
 msgid "Apple Events"
 msgstr "Eventi Apple"
 
+msgid "Debugging"
+msgstr "Debugging"
+
 msgid "Enabled"
 msgstr "Abilitato"
 
@@ -67,3 +76,42 @@ msgstr "Dispositivo USB"
 
 msgid "Device Bluetooth"
 msgstr "Dispositivo Bluetooth"
+
+msgid "Environment variables"
+msgstr "Variabili d'ambiente"
+
+msgid "Export option"
+msgstr "Opzioni di esportazione"
+
+msgid "Environment variable"
+msgstr "Variabile d'ambiente"
+
+msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "``GODOT_MACOS_CODESIGN_CERTIFICATE_FILE``"
+msgstr "``GODOT_MACOS_CODESIGN_CERTIFICATE_FILE``"
+
+msgid "``GODOT_MACOS_CODESIGN_CERTIFICATE_PASSWORD``"
+msgstr "``GODOT_MACOS_CODESIGN_CERTIFICATE_PASSWORD``"
+
+msgid "``GODOT_MACOS_CODESIGN_PROVISIONING_PROFILE``"
+msgstr "``GODOT_MACOS_CODESIGN_PROVISIONING_PROFILE``"
+
+msgid "``GODOT_MACOS_NOTARIZATION_API_UUID``"
+msgstr "``GODOT_MACOS_NOTARIZATION_API_UUID``"
+
+msgid "``GODOT_MACOS_NOTARIZATION_API_KEY``"
+msgstr "``GODOT_MACOS_NOTARIZATION_API_KEY``"
+
+msgid "``GODOT_MACOS_NOTARIZATION_API_KEY_ID``"
+msgstr "``GODOT_MACOS_NOTARIZATION_API_KEY_ID``"
+
+msgid "``GODOT_MACOS_NOTARIZATION_APPLE_ID_NAME``"
+msgstr "``GODOT_MACOS_NOTARIZATION_APPLE_ID_NAME``"
+
+msgid "``GODOT_MACOS_NOTARIZATION_APPLE_ID_PASSWORD``"
+msgstr "``GODOT_MACOS_NOTARIZATION_APPLE_ID_PASSWORD``"
+
+msgid "Export options"
+msgstr "Opzioni di esportazione"

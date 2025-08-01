@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,12 @@ msgstr ""
 
 msgid "Export"
 msgstr "Экспорт"
+
+msgid ""
+"This section is about exporting a build of your project. If you're trying to "
+"export properties from a script, see :ref:`doc_gdscript_exports` "
+"or :ref:`doc_c_sharp_exports`."
+msgstr ""
+"Этот раздел посвящен экспорту сборки вашего проекта. Если вы пытаетесь "
+"экспортировать свойства из скрипта, см. :ref:`doc_gdscript_exports` "
+"или :ref:`doc_c_sharp_exports`."

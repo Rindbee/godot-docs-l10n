@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,18 @@ msgstr "Utilizzo"
 
 msgid "Getting started"
 msgstr "Per iniziare"
+
+msgid "Initialize the plugin"
+msgstr "Inizializza il plugin"
+
+msgid "Call ``startConnection``"
+msgstr "Chiamare ``startConnection``"
+
+msgid "Initialization example:"
+msgstr "Esempio di inizializzazione:"
+
+msgid "Purchase fields:"
+msgstr "Campi di acquisto:"
 
 msgid "Consumables"
 msgstr "Consumabili"

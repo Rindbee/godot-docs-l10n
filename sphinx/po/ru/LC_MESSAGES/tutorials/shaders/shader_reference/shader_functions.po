@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -99,6 +99,15 @@ msgid "Returns ``true`` if scalar or vector component is ``INF``."
 msgstr ""
 "Возвращает ``true``, если скалярный или векторный компонент является ``INF``."
 
+msgid "The rounded value."
+msgstr "Округленное значение."
+
+msgid "The location of the edge of the step function."
+msgstr "Местоположение края ступенчатой функции."
+
+msgid "The value to test for infinity."
+msgstr "Значение для проверки на бесконечность."
+
 msgid "float"
 msgstr "float"
 
@@ -192,6 +201,12 @@ msgstr "Выполняет чтение текстуры с явными гра�
 msgid "Fetches a single texel using integer coordinates."
 msgstr "Получает один тексель, используя целочисленные координаты."
 
+msgid "Available only in the fragment shader."
+msgstr "Доступно только во фрагментном шейдере."
+
+msgid "Returns the value::"
+msgstr "Возвращает значение:"
+
 msgid "Extracts a range of bits from an integer."
 msgstr "Извлечение диапазона битов из целого числа."
 
@@ -219,3 +234,10 @@ msgstr "Вычитает два беззнаковых целых числа и 
 
 msgid "Assemble a floating-point number from a value and exponent."
 msgstr "Сборка числа с плавающей точкой из значения и экспоненты."
+
+msgid ""
+"Extracts ``x`` into a floating-point significand in the range ``[0.5, 1.0)`` "
+"and in integral exponent of two, such that::"
+msgstr ""
+"Извлекает ``x`` в число с плавающей точкой в диапазоне ``[0.5, 1.0)`` и в "
+"целочисленную степень двух, таким образом:"

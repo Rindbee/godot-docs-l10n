@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,5 +14,53 @@ msgstr ""
 msgid "Requirements"
 msgstr "Requisiti"
 
+msgid "`Python 3.8+ <https://www.python.org/downloads/macos/>`_."
+msgstr "`Python 3.8+ <https://www.python.org/downloads/macos/>`_."
+
+msgid "`SCons 4.0+ <https://scons.org/pages/download.html>`_ build system."
+msgstr ""
+"Sistema di compilazione `SCons 4.0+ <https://scons.org/pages/"
+"download.html>`_."
+
+msgid ""
+"If you have `Homebrew <https://brew.sh/>`_ installed, you can easily install "
+"SCons using the following command::"
+msgstr ""
+"Se `Homebrew <https://brew.sh/>`_ è stato installato, è possibile facilmente "
+"installare SCons tramite il seguente comando::"
+
+msgid ""
+"Installing Homebrew will also fetch the Command Line Tools for Xcode "
+"automatically if you don't have them already."
+msgstr ""
+"Installando Homebrew verranno recuperati automaticamente anche gli strumenti "
+"da riga di comando per Xcode, se non li si ha già."
+
+msgid ""
+"Similarly, if you have `MacPorts <https://www.macports.org/>`_ installed, "
+"you can easily install SCons using the following command::"
+msgstr ""
+"Similmente, se `MacPorts <https://www.macports.org/>`_ è stato installato, è "
+"possibile facilmente installare SCons tramite il seguente comando::"
+
+msgid ""
+"To get the Godot source code for compiling, see :ref:`doc_getting_source`."
+msgstr ""
+"Per ottenere il codice sorgente di Godot per la compilazione, "
+"consultare :ref:`doc_getting_source`."
+
+msgid ""
+"For a general overview of SCons usage for Godot, "
+"see :ref:`doc_introduction_to_the_buildsystem`."
+msgstr ""
+"Per una panoramica generale sull'utilizzo di SCons per Godot, "
+"consultare :ref:`doc_introduction_to_the_buildsystem`."
+
 msgid "Compiling"
 msgstr "Compilazione"
+
+msgid "Running a headless/server build"
+msgstr "Eseguire una compilazione headless/server"
+
+msgid "Troubleshooting"
+msgstr "Risoluzione dei problemi"

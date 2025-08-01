@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -114,6 +114,12 @@ msgstr "bien"
 msgid "bad"
 msgstr "mal"
 
+msgid "Lossless"
+msgstr "Sin pérdida"
+
+msgid "Lossy"
+msgstr "Con pérdida"
+
 msgid "**Description**"
 msgstr "**Descripción**"
 
@@ -137,6 +143,9 @@ msgstr "|bad| Grande"
 
 msgid "|good| Small"
 msgstr "|good| Pequeña"
+
+msgid "**Performance**"
+msgstr "**Rendimiento:**"
 
 msgid "|regular| Normal"
 msgstr "|regular| Normal"
@@ -175,13 +184,20 @@ msgid "**4096×4096**"
 msgstr "**4096×4096**"
 
 msgid ""
+"When using the Compatibility renderer, this option is always considered "
+"disabled."
+msgstr ""
+"Al utilizar el renderizador Compatibilidad, esta opción siempre se considera "
+"deshabilitada."
+
+msgid ""
 "More information about normal maps (including a coordinate order table for "
 "popular engines) can be found `here <http://wiki.polycount.com/wiki/"
 "Normal_Map_Technical_Details>`__."
 msgstr ""
 "Más información sobre mapa de normales (incluyendo la tabla de orden de "
-"coordenadas para motores populares) se puede encontrar `aquí <http://wiki."
-"polycount.com/wiki/Normal_Map_Technical_Details>`__."
+"coordenadas para motores populares) se puede encontrar `aquí <http://"
+"wiki.polycount.com/wiki/Normal_Map_Technical_Details>`__."
 
 msgid ""
 "An alternative to fixing darkened borders with **Fix Alpha Border** is to "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,15 @@ msgstr "Windows"
 
 msgid "macOS"
 msgstr "macOS"
+
+msgid "Linux, \\*BSD"
+msgstr "Linux, \\*BSD"
+
+msgid "Alpine Linux"
+msgstr "Alpine Linux"
+
+msgid "Arch Linux"
+msgstr "Arch Linux"
 
 msgid "Android"
 msgstr "Android"

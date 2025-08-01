@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,8 +17,17 @@ msgstr "사용 사례"
 msgid "Parameters"
 msgstr "매개변수"
 
+msgid "Vertical Fade"
+msgstr "세로 페이드"
+
+msgid "Distance Fade"
+msgstr "거리 페이드"
+
 msgid "Cull Mask"
-msgstr "컬 마스크"
+msgstr "컬링 마스크"
+
+msgid "Decal rendering order"
+msgstr "데칼 렌더링 순서"
 
 msgid "Limitations"
-msgstr "제한사항"
+msgstr "제한 사항"

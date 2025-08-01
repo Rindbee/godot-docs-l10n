@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Shader preprocessor"
+msgstr "Processeur de shader"
+
 msgid "Why use a shader preprocessor?"
 msgstr "Pourquoi utiliser un préprocesseur de shader ?"
+
+msgid "Directives"
+msgstr "Directives"
+
+msgid "General syntax"
+msgstr "Syntaxe générale"
 
 msgid "#define"
 msgstr "#define"
@@ -23,8 +32,14 @@ msgstr "#undef"
 msgid "**Syntax:** ``#undef identifier``"
 msgstr "**Syntaxe :** ``#undef identifier``"
 
+msgid "#if"
+msgstr "#if"
+
 msgid "**Syntax:** ``#if <condition>``"
 msgstr "**Syntaxe :** ``#if <condition>``"
+
+msgid "#elif"
+msgstr "#elif"
 
 msgid "#ifdef"
 msgstr "#ifdef"
@@ -38,6 +53,9 @@ msgstr "#ifndef"
 msgid "**Syntax:** ``#ifndef <identifier>``"
 msgstr "**Syntaxe :** ``#ifndef <identifier>``"
 
+msgid "#else"
+msgstr "#else"
+
 msgid "**Syntax:** ``#else``"
 msgstr "**Syntax:** ``#else``"
 
@@ -46,6 +64,12 @@ msgstr "#endif"
 
 msgid "**Syntax:** ``#endif``"
 msgstr "**Syntax:** ``#endif``"
+
+msgid "#error"
+msgstr "#error"
+
+msgid "#include"
+msgstr "#include"
 
 msgid "**Syntax:** ``#include \"path\"``"
 msgstr "**Syntaxe :** ``#include \"path\"``"
@@ -58,3 +82,15 @@ msgstr "#pragma"
 
 msgid "**Syntax:** ``#pragma value``"
 msgstr "**Syntaxe :** ``#pragma value``"
+
+msgid "Current renderer"
+msgstr "Moteur de rendu actuel"
+
+msgid "``RENDERER_COMPATIBILITY`` is always ``0``."
+msgstr "``RENDERER_COMPATIBILITY`` vaut toujours ``0``."
+
+msgid "``RENDERER_MOBILE`` is always ``1``."
+msgstr "``RENDERER_MOBILE`` vaut toujours ``1``."
+
+msgid "``RENDERER_FORWARD_PLUS`` is always ``2``."
+msgstr "``RENDERER_FORWARD_PLUS`` vaut toujours ``2``."

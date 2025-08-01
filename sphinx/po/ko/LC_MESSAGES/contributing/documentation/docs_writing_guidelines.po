@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "**Don't** write made-up examples:"
+msgstr "만들어낸 예제를 쓰지 **마세요**:"
+
+msgid "**Do** write concrete examples:"
+msgstr "구체적인 예를 쓰\\ **세요**:"
+
 msgid "Literals"
 msgstr "리터럴(Literal)"
+
+msgid "Editor UI"
+msgstr "편집기 UI"
+
+msgid "Open the **Editor Settings** window."
+msgstr "**편집기 설정** 창을 엽니다."
+
+msgid "In **Project > Project Settings > Input Map**, add a new input action."
+msgstr ""
+"**프로젝트 > 프로젝트 설정 > 입력 맵**\\ 에서, 새 입력 액션을 추가합니다."

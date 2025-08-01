@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,70 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Internationalizing games"
+msgstr "Internazionalizzazione dei giochi"
+
 msgid "Introduction"
 msgstr "Introduzione"
+
+msgid ""
+"We will be using the official demo as an example; you can `download it from "
+"the Asset Library <https://godotengine.org/asset-library/asset/2776>`_."
+msgstr ""
+"Utilizzeremo la demo ufficiale come esempio; puoi `scaricarla dalla Libreria "
+"dei contenuti <https://godotengine.org/asset-library/asset/2776>`_."
+
+msgid "Localizing resources"
+msgstr "Localizzazione delle risorse"
+
+msgid "Automatically setting a language"
+msgstr "Impostazione automatica di una lingua"
 
 msgid "Examples:"
 msgstr "Esempi:"
 
+msgid "``en``: English language"
+msgstr "``en``: Lingua inglese"
+
+msgid "``en_GB``: English in Great Britain / British English"
+msgstr "``en_GB``: inglese in Gran Bretagna / inglese britannico"
+
+msgid "``en_US``: English in the USA / American English"
+msgstr "``en_US``: inglese negli Stati Uniti / inglese americano"
+
+msgid "``en_DE``: English in Germany"
+msgstr "``en_DE``: inglese in Germania"
+
+msgid ""
+"Indie games generally only need to care about language, but read on for more "
+"information."
+msgstr ""
+"In genere, i giochi indie devono preoccuparsi solo della lingua, ma continua "
+"a leggere per maggiori informazioni."
+
+msgid "Placeholders"
+msgstr "Segnaposto"
+
+msgid "Translation contexts"
+msgstr "Contesti di traduzione"
+
+msgid "Pluralization"
+msgstr "Pluralizzazione"
+
+msgid "This can be combined with a context if needed:"
+msgstr "Questo si può abbinare a un contesto, se necessario:"
+
 msgid "TranslationServer"
 msgstr "TranslationServer"
+
+msgid "Localizing numbers"
+msgstr "Localizzare i numeri"
+
+msgid "Localizing icons and images"
+msgstr "Localizzare le icone e immagini"
+
+msgid "Testing translations"
+msgstr "Testare le traduzioni"
+
+msgid "Translating the project name"
+msgstr "Tradurre il nome del progetto"

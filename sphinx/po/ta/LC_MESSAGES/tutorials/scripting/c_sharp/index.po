@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,15 +13,6 @@ msgstr ""
 
 msgid "C#/.NET"
 msgstr "சி # /"
-
-msgid ""
-"C# is a high-level programming language developed by Microsoft. Godot "
-"supports C# as an option for a scripting language, alongside Godot's own :"
-"ref:`GDScript<toc-learn-scripting-gdscript>`."
-msgstr ""
-"சி# என்பது மைக்ரோசாப்ட் உருவாக்கிய உயர் மட்ட நிரலாக்க மொழியாகும். கோடோட் ஒரு ச்கிரிப்டிங் "
-"மொழிக்கான ஒரு விருப்பமாக சி# ஐ ஆதரிக்கிறார், கோடோட்டின் சொந்தத்துடன்: குறிப்பு: `சி.டி."
-"எச்.பிராண்ட் <டோக்-லேர்ன்-ச்கிரிப்டிங்-சி.டி.எச்.ச்கிரிப்ட்>`."
 
 msgid ""
 "The standard Godot executable does not contain C# support out of the box. "
@@ -48,6 +39,32 @@ msgstr ""
 
 msgid "C# platform support"
 msgstr "சி# இயங்குதள உதவி"
+
+msgid ""
+"See :ref:`doc_system_requirements` for hardware and software version "
+"requirements for the Godot engine."
+msgstr ""
+"காண்க: ref: கோடோட் எஞ்சினுக்கான வன்பொருள் மற்றும் மென்பொருள் பதிப்பு தேவைகளுக்கான "
+"`doc_system_requirments`."
+
+msgid ""
+"Since C# projects use the .NET runtime, also check the system requirements "
+"for the version of .NET that you'll be using. See `supported OS <https://"
+"github.com/dotnet/core/tree/main/release-notes#supported-os>`_."
+msgstr ""
+"சி# திட்டங்கள் .NET இயக்க நேரத்தைப் பயன்படுத்துவதால், நீங்கள் பயன்படுத்தும் .net இன் "
+"பதிப்பிற்கான கணினி தேவைகளையும் சரிபார்க்கவும். `ஆதரிக்கப்பட்ட OS <https://github.com/"
+"dotnet/core/tree/main/release-notes#supported-os>` _ ஐப் பார்க்கவும்."
+
+msgid ""
+"Since Godot 4.2, projects written in C# support all desktop platforms "
+"(Windows, Linux, and macOS), as well as Android and iOS."
+msgstr ""
+"கோடோட் 4.2 முதல், சி# இல் எழுதப்பட்ட திட்டங்கள் அனைத்து டெச்க்டாப் இயங்குதளங்களையும் "
+"(விண்டோச், லினக்ச் மற்றும் மேகோச்), அண்ட்ராய்டு மற்றும் ஐஇமு ஐ ஆதரிக்கின்றன."
+
+msgid "Android support is currently experimental."
+msgstr "ஆண்ட்ராய்டு உதவி தற்போது சோதனைக்குரியது."
 
 msgid "iOS support is currently experimental and has a few limitations."
 msgstr "ஐஇமு உதவி தற்போது சோதனை மற்றும் சில வரம்புகளைக் கொண்டுள்ளது."

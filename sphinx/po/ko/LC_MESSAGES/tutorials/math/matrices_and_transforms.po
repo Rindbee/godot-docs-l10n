@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,12 @@ msgstr "행렬과 변환"
 
 msgid "Introduction"
 msgstr "소개"
+
+msgid "Shearing the transformation matrix (advanced)"
+msgstr "변환 행렬의 밀림 (고급)"
+
+msgid "Node2D provides a shearing property out of the box."
+msgstr "Node2D는 기본적으로 밀림 속성을 제공합니다."
 
 msgid "https://www.youtube.com/watch?v=mvmuCPvRoWQ"
 msgstr "https://www.youtube.com/watch?v=mvmuCPvRoWQ"

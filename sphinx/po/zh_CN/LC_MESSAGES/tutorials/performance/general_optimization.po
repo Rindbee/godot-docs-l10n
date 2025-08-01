@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -245,8 +245,8 @@ msgstr ""
 "反, 导致性能变慢. **始终使用分析器和时长来指导你的工作**"
 
 msgid ""
-"For more info about using Godot's built-in profiler, see :ref:"
-"`doc_the_profiler`."
+"For more info about using Godot's built-in profiler, "
+"see :ref:`doc_the_profiler`."
 msgstr "有关使用 Godot 内置分析器的更多信息见 :ref:`doc_the_profiler`\\ 。"
 
 msgid "Principles"

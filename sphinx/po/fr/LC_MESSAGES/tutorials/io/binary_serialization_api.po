@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -173,14 +173,26 @@ msgstr "raw array"
 msgid "21"
 msgstr "21"
 
+msgid "int32 array"
+msgstr "int32 array"
+
 msgid "22"
 msgstr "22"
+
+msgid "int64 array"
+msgstr "int64 array"
 
 msgid "23"
 msgstr "23"
 
+msgid "float32 array"
+msgstr "float32 array"
+
 msgid "24"
 msgstr "24"
+
+msgid "float64 array"
+msgstr "float64 array"
 
 msgid "25"
 msgstr "25"

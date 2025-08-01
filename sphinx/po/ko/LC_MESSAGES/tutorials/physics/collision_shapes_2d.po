@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Collision shapes (2D)"
+msgstr "콜리전 모양 (2D)"
+
+msgid "Primitive collision shapes"
+msgstr "프리미티브 콜리전 모양"
+
+msgid "Godot provides the following primitive collision shape types:"
+msgstr "Godot는 다음 프리미티브 콜리전 모양 유형을 지원합니다:"
+
 msgid "Convex collision shapes"
 msgstr "컨벡스 콜리전 모양"
+
+msgid "Concave or trimesh collision shapes"
+msgstr "오목 또는 삼각메시 콜리전 모양"

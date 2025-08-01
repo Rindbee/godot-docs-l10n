@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,21 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Reducing stutter from shader (pipeline) compilations"
+msgstr "减少着色器（管线）编译导致的卡顿"
+
+msgid "Pipeline precompilation monitors"
+msgstr "管道预编译监视器"
+
+msgid "Screenshot of the Godot pipeline compilations monitor"
+msgstr "Godot 管线编译监视器的截图"
+
+msgid "Pipeline compilations of one of the demo projects."
+msgstr "演示项目的管线编译。"
+
+msgid "Pipeline precompilation features"
+msgstr "管道预编译功能"
+
+msgid "Pipeline precompilation instancing"
+msgstr "管线预编译实例化"

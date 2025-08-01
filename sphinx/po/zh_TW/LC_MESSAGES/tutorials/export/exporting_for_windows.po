@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -43,12 +43,28 @@ msgstr ""
 "編輯器與除錯工具。"
 
 msgid "Code signing"
-msgstr "Godot 版本"
+msgstr "程式碼簽章"
+
+msgid ""
+"Godot is capable of automatic code signing on export. To do this you must "
+"have the ``Windows SDK`` (on Windows) or `osslsigncode <https://github.com/"
+"mtrojnar/osslsigncode>`__ (on any other OS) installed. You will also need a "
+"package signing certificate, information on creating one can be found `here "
+"<https://learn.microsoft.com/en-us/windows/msix/package/create-certificate-"
+"package-signing>`__."
+msgstr ""
+"Godot 支援在匯出時自動進行程式碼簽章。要啟用此功能，請在 Windows 系統安裝 "
+"``Windows SDK``，或在其他作業系統安裝 `osslsigncode <https://github.com/"
+"mtrojnar/osslsigncode>`__。你還需要一份套件簽章憑證，建立方式可參考 `這裡 "
+"<https://learn.microsoft.com/en-us/windows/msix/package/create-certificate-"
+"package-signing>`__。"
 
 msgid ""
 "If you export for Windows with embedded PCK files, you will not be able to "
 "sign the program as it will break."
-msgstr "若為 Windows 匯出內嵌 PCK 檔案，則會沒辦法簽署程式，程式會退出。"
+msgstr ""
+"如果你匯出 Windows 執行檔且內嵌了 PCK 檔案，將無法進行程式碼簽章，否則會導致"
+"執行檔損壞。"
 
 msgid ""
 "On Windows, PCK embedding is also known to cause false positives in "
@@ -56,8 +72,8 @@ msgid ""
 "you're distributing your project via Steam as it bypasses code signing and "
 "antivirus checks."
 msgstr ""
-"在Windows上,PCK嵌入也會在殺毒軟體中造成誤報. 因此, 建議避免使用它, 除非你的專"
-"案通過Steam發行, 因為這樣就繞過了程式碼簽章和防病毒檢查."
+"在 Windows 上，PCK 檔案嵌入也常會觸發防毒軟體的誤判。因此除非你是透過 Steam "
+"發行，可以略過程式碼簽章和防毒檢查，否則建議不要啟用 PCK 嵌入。"
 
 msgid "Setup"
 msgstr "設定"
@@ -109,13 +125,28 @@ msgid "Environment variable"
 msgstr "環境變數"
 
 msgid "Encryption / Encryption Key"
-msgstr "加密/加密金鑰"
+msgstr "加密／加密金鑰"
+
+msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 
 msgid "Options / Codesign / Identity Type"
 msgstr "選項/協同設計/身分型別"
 
+msgid "``GODOT_WINDOWS_CODESIGN_IDENTITY_TYPE``"
+msgstr "``GODOT_WINDOWS_CODESIGN_IDENTITY_TYPE``"
+
 msgid "Options / Codesign / Identity"
 msgstr "選項/協同設計/身份"
 
+msgid "``GODOT_WINDOWS_CODESIGN_IDENTITY``"
+msgstr "``GODOT_WINDOWS_CODESIGN_IDENTITY``"
+
 msgid "Options / Codesign / Password"
 msgstr "選項/程式碼設計/密碼"
+
+msgid "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
+msgstr "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
+
+msgid "Export options"
+msgstr "匯出選項"

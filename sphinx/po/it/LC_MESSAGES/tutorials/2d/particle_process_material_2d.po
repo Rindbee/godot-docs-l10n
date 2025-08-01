@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ParticleProcessMaterial 2D Usage"
+msgstr "Utilizzo di ParticlesProcessMaterial in 2D"
+
+msgid "Process material properties"
+msgstr "Proprietà di materiale di processo"
+
+msgid "ParticleProcessMaterial properties"
+msgstr "Proprietà di ParticleProcessMaterial"
+
+msgid "Min, max, and curve properties"
+msgstr "Proprietà di minimo, massimo e curva"
+
+msgid "Lifetime Randomness"
+msgstr "Casualità del tempo di vita"
+
+msgid "Particle Flags"
+msgstr "Flag di particelle"
+
 msgid "Angle"
 msgstr "Angolo"
+
+msgid "Velocity"
+msgstr "Velocità"
 
 msgid "Direction"
 msgstr "Direzione"
@@ -23,8 +44,32 @@ msgstr "Propagazione"
 msgid "Flatness"
 msgstr "Piattezza"
 
+msgid "Initial Velocity"
+msgstr "Velocità iniziale"
+
+msgid "Animated Velocity"
+msgstr "Velocità animata"
+
+msgid "Angular Velocity"
+msgstr "Velocità angolare"
+
+msgid "Orbit Velocity"
+msgstr "Velocità d'orbita"
+
+msgid "Accelerations"
+msgstr "Accelerazioni"
+
 msgid "Gravity"
 msgstr "Gravità"
+
+msgid "Linear Acceleration"
+msgstr "Accelerazione lineare"
+
+msgid "Radial Acceleration"
+msgstr "Accelerazione radiale"
+
+msgid "Tangential Acceleration"
+msgstr "Accelerazione tangenziale"
 
 msgid "Damping"
 msgstr "Smorzamento"
@@ -32,11 +77,20 @@ msgstr "Smorzamento"
 msgid "Scale"
 msgstr "Scala"
 
+msgid "Color Curves"
+msgstr "Curve di colore"
+
 msgid "Color"
 msgstr "Colore"
 
+msgid "Hue Variation"
+msgstr "Variazione di tonalità"
+
 msgid "Animation"
 msgstr "Animazione"
+
+msgid "Emission Shapes"
+msgstr "Forme di emissione"
 
 msgid "Emission Mask"
 msgstr "Maschera Emissione"

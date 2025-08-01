@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -58,6 +58,9 @@ msgstr "优化游戏的核心部分。"
 msgid "Adding new functionality to the engine and/or editor."
 msgstr "为引擎和/或编辑器添加新功能。"
 
+msgid "Porting an existing game to Godot."
+msgstr "将现有的游戏移植到 Godot。"
+
 msgid "Write a whole, new game in C++ because you can't live without C++."
 msgstr "使用 C++ 编写整个新游戏，因为你离不开 C++。"
 
@@ -78,8 +81,14 @@ msgstr ""
 "示例模块的名字就叫加法器“summator”（\\ ``godot/modules/summator``\\ ）。我们"
 "在里面创建一个简单的加法器类："
 
+msgid "godot/modules/summator/summator.h"
+msgstr "godot/modules/summator/summator.h"
+
 msgid "And then the cpp file."
 msgstr "然后是 cpp 文件。"
+
+msgid "godot/modules/summator/summator.cpp"
+msgstr "godot/modules/summator/summator.cpp"
 
 msgid ""
 "Then, the new class needs to be registered somehow, so two more files need "
@@ -96,10 +105,19 @@ msgstr ""
 msgid "These files should contain the following:"
 msgstr "这些文件应包含以下内容:"
 
+msgid "godot/modules/summator/register_types.h"
+msgstr "godot/modules/summator/register_types.h"
+
+msgid "godot/modules/summator/register_types.cpp"
+msgstr "godot/modules/summator/register_types.cpp"
+
 msgid ""
 "Next, we need to create an ``SCsub`` file so the build system compiles this "
 "module:"
 msgstr "接下来，我们需要创建一个 ``SCsub`` 文件，让构建系统编译此模块："
+
+msgid "godot/modules/summator/SCsub"
+msgstr "godot/modules/summator/SCsub"
 
 msgid ""
 "With multiple sources, you can also add each file individually to a Python "
@@ -127,6 +145,15 @@ msgstr ""
 "如果你想在构建模块时添加自定义编译器标志，你需要先克隆 ``env`` ，这样它就不会"
 "把这些标志添加到整个Godot构建中（这可能导致错误）。例子 ``SCsub`` 带有自定义"
 "标志:"
+
+msgid ""
+"And finally, the configuration file for the module, this is a Python script "
+"that must be named ``config.py``:"
+msgstr ""
+"最后是模块的配置文件，这是一个 Python 脚本，必须命名为 ``config.py``\\ ："
+
+msgid "godot/modules/summator/config.py"
+msgstr "godot/modules/summator/config.py"
 
 msgid ""
 "The module is asked if it's OK to build for the specific platform (in this "
@@ -167,9 +194,9 @@ msgstr "输出将是 ``60`` ."
 
 msgid ""
 "The previous Summator example is great for small, custom modules, but what "
-"if you want to use a larger, external library? Refer to :ref:"
-"`doc_binding_to_external_libraries` for details about binding to external "
-"libraries."
+"if you want to use a larger, external library? Refer "
+"to :ref:`doc_binding_to_external_libraries` for details about binding to "
+"external libraries."
 msgstr ""
 "前面的Summator例子对于小型的自定义模块来说是很好的, 但是如果你想使用一个更大"
 "的外部库呢？请参考 :ref:`doc_binding_to_external_libraries`, 了解有关绑定外部"
@@ -447,6 +474,9 @@ msgstr "在你的模组的根目录下创建一个命名为 ``tests/`` 的新目
 msgid "Write some test cases. Here's an example:"
 msgstr "编写一些测试样例。以下是一个例子："
 
+msgid "godot/modules/summator/tests/test_summator.h"
+msgstr "godot/modules/summator/tests/test_summator.h"
+
 msgid ""
 "Compile the engine with ``scons tests=yes``, and run the tests with the "
 "following command:"
@@ -467,8 +497,8 @@ msgid ""
 "For the actual process of creating editor icons to be integrated within the "
 "engine, please refer to :ref:`doc_editor_icons` first."
 msgstr ""
-"有关创建要集成到引擎中的编辑器图标的实际过程, 首先请参考 :ref:"
-"`doc_editor_icons`."
+"有关创建要集成到引擎中的编辑器图标的实际过程, 首先请参"
+"考 :ref:`doc_editor_icons`."
 
 msgid "Once you've created your icon(s), proceed with the following steps:"
 msgstr "创建图标后, 请执行以下步骤:"

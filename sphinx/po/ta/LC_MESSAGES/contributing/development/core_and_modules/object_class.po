@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -333,6 +333,19 @@ msgstr "`கோர்/பொருள்/குறிப்பு."
 
 msgid "Resources"
 msgstr "வளங்கள்"
+
+msgid ""
+":ref:`Resource <class_resource>` inherits from RefCounted, so all resources "
+"are reference counted. Resources can optionally contain a path, which "
+"reference a file on disk. This can be set with ``resource.set_path(path)``, "
+"though this is normally done by the resource loader. No two different "
+"resources can have the same path; attempting to do so will result in an "
+"error."
+msgstr ""
+". வளங்கள் விருப்பமாக ஒரு பாதையைக் கொண்டிருக்கலாம், அவை வட்டில் ஒரு கோப்பைக் குறிக்கும். "
+"இதை `` resource.set_path (பாதை) `` உடன் அமைக்கலாம், இருப்பினும் இது பொதுவாக வள "
+"ஏற்றியால் செய்யப்படுகிறது. இரண்டு வெவ்வேறு வளங்கள் ஒரே பாதையை கொண்டிருக்க முடியாது; "
+"அவ்வாறு செய்ய முயற்சிப்பது பிழையை ஏற்படுத்தும்."
 
 msgid "Resources without a path are fine too."
 msgstr "பாதை இல்லாத வளங்களும் நன்றாக உள்ளன."

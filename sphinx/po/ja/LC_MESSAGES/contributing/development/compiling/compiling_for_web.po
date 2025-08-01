@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -21,11 +21,14 @@ msgid "To compile export templates for the Web, the following is required:"
 msgstr "Webのエクスポートテンプレートをコンパイルするには、次のことが必要です:"
 
 msgid ""
-"For a general overview of SCons usage for Godot, see :ref:"
-"`doc_introduction_to_the_buildsystem`."
+"For a general overview of SCons usage for Godot, "
+"see :ref:`doc_introduction_to_the_buildsystem`."
 msgstr ""
-"Godotにおける基本的なSconsの使い方については、\\ :ref:"
-"`doc_introduction_to_the_buildsystem`\\ を参照してください。"
+"Godotにおける基本的なSconsの使い方については、"
+"\\ :ref:`doc_introduction_to_the_buildsystem`\\ を参照してください。"
 
 msgid "Building export templates"
 msgstr "エクスポートテンプレートの構築"
+
+msgid "GDExtension"
+msgstr "\\ GDExtension"

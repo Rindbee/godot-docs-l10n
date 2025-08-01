@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Downloading the Godot source code"
+msgstr "Scaricare il codice sorgente di Godot"
+
+msgid ""
+"After downloading the Godot source code, you can :ref:`continue to compiling "
+"Godot <doc_introduction_to_the_buildsystem>`."
+msgstr ""
+"Dopo aver scaricato il codice sorgente di Godot, è "
+"possibile :ref:`continuare a compilare Godot "
+"<doc_introduction_to_the_buildsystem>`."

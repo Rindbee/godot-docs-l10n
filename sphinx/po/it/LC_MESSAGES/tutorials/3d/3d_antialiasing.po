@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,106 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "3D antialiasing"
+msgstr "Antialiasing 3D"
+
 msgid "Introduction"
 msgstr "Introduzione"
 
+msgid ""
+"Image is scaled by 2× with nearest-neighbor filtering to make aliasing more "
+"noticeable."
+msgstr ""
+"L'immagine è ingrandita di 2 volte con il filtro vicino più ravvicinato per "
+"rendere più evidente l'aliasing."
+
+msgid ""
+"You can compare antialiasing algorithms in action using the `3D Antialiasing "
+"demo project <https://github.com/godotengine/godot-demo-projects/tree/master/"
+"3d/antialiasing>`__."
+msgstr ""
+"È possibile confrontare gli algoritmi di antialiasing in azione attraverso "
+"il progetto demo `3D Antialiasing <https://github.com/godotengine/godot-demo-"
+"projects/tree/master/3d/antialiasing>`__."
+
+msgid "Multisample antialiasing (MSAA)"
+msgstr "Antialiasing multi-campione (MSAA)"
+
+msgid "Temporal antialiasing (TAA)"
+msgstr "Antialiasing temporale (TAA)"
+
+msgid "Fast approximate antialiasing (FXAA)"
+msgstr "Antialiasing approssimativo rapido (FXAA)"
+
+msgid ""
+"*This is only available in the Forward+ and Mobile renderers, not the "
+"Compatibility renderer.*"
+msgstr ""
+"*Questo è disponibile solo nei renderer Forward+ e Mobile, non nel renderer "
+"Compatibilità.*"
+
+msgid "Supersample antialiasing (SSAA)"
+msgstr "Antialiasing supercampione (SSAA)"
+
+msgid "Which antialiasing technique should I use?"
+msgstr "Quale tecnica di antialiasing dovrei usare?"
+
+msgid "Antialiasing comparison"
+msgstr "Confronto tra antialiasing"
+
+msgid "Feature"
+msgstr "Funzionalità"
+
+msgid "MSAA"
+msgstr "MSAA"
+
+msgid "TAA"
+msgstr "TAA"
+
+msgid "FSR2"
+msgstr "FSR2"
+
+msgid "FXAA"
+msgstr "FXAA"
+
+msgid "SSAA"
+msgstr "SSAA"
+
+msgid "SSRL"
+msgstr "SSRL"
+
+msgid "🟢 Yes"
+msgstr "🟢 Sì"
+
+msgid "🔴 No"
+msgstr "🔴 No"
+
+msgid "Specular antialiasing"
+msgstr "Antialiasing speculare"
+
+msgid "Transparency antialiasing"
+msgstr "Antialiasing di trasparenza"
+
+msgid "Ghosting artifacts"
+msgstr "Artefatti di ghosting"
+
+msgid "🔴 Yes"
+msgstr "🔴 Si"
+
+msgid "Performance cost"
+msgstr "Costo sulle prestazioni"
+
+msgid "Forward+"
+msgstr "Forward+"
+
+msgid "✔️ Yes"
+msgstr "✔️ Si"
+
 msgid "Mobile"
 msgstr "Mobile"
+
+msgid "❌ No"
+msgstr "❌ No"
+
+msgid "Compatibility"
+msgstr "Compatibilità"

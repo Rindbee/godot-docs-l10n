@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,19 +29,6 @@ msgstr ""
 
 msgid "Single pass post-processing"
 msgstr "单阶段后期处理"
-
-msgid ""
-"Post-processing effects are shaders applied to a frame after Godot has "
-"rendered it. To apply a shader to a frame, create a :ref:`CanvasLayer "
-"<class_CanvasLayer>`, and give it a :ref:`ColorRect <class_ColorRect>`. "
-"Assign a new :ref:`ShaderMaterial <class_ShaderMaterial>` to the newly "
-"created ``ColorRect``, and set the ``ColorRect``'s layout to \"Full Rect\"."
-msgstr ""
-"后期处理效果指的是在 Godot 渲染完成一帧后，对这一帧应用的着色器。要对某一帧应"
-"用着色器，请先创建一个 :ref:`CanvasLayer <class_CanvasLayer>`\\ ，然后再添加"
-"一个 :ref:`ColorRect <class_ColorRect>`\\ 。为这个新建的 ``ColorRect`` 分配一"
-"个新的 :ref:`ShaderMaterial <class_ShaderMaterial>` 并将 ``ColorRect`` 的布局"
-"设置为“完整矩形”。"
 
 msgid "Your scene tree will look something like this:"
 msgstr "你的场景树应该类似这样："

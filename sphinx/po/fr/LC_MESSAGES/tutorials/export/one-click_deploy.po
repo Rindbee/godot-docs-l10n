@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -81,8 +81,18 @@ msgstr ""
 "Si vous avez plus d'un appareil connecté, Godot vous demandera dans quel "
 "appareil le project sera exporté."
 
+msgid ""
+"Make sure to follow the steps described in :ref:`doc_exporting_for_ios`. "
+"Otherwise, the one-click deploy button won't appear."
+msgstr ""
+"Veillez à suivre les étapes décrites dans :ref:`doc_exporting_for_ios`. "
+"Sinon, le bouton de déploiement en un clic n'apparaîtra pas."
+
 msgid "Using one-click deploy"
 msgstr "Utilisation du déploiement en un clic"
+
+msgid "**Android:**"
+msgstr "**Android :**"
 
 msgid "For advanced users, it should also be possible to use wireless ADB."
 msgstr ""
@@ -100,6 +110,9 @@ msgstr "Activez le mode développeur sur votre appareil."
 
 msgid "For running in simulator:"
 msgstr "Pour s'exécuter dans un simulateur :"
+
+msgid "Device screen should be unlocked."
+msgstr "L'écran du périphérique doit être déverrouillé."
 
 msgid ""
 "If everything is configured correctly and with no errors, platform-specific "
@@ -159,9 +172,9 @@ msgid ""
 "On Linux, you may be missing the required `udev rules <https://github.com/"
 "M0Rf30/android-udev-rules>`__ for your device to be recognized."
 msgstr ""
-"Sous Linux, il se peut qu'il vous manque les `udev' règles<https://github."
-"com/M0Rf30/android-udev-rules>`__ nécessaires pour que votre périphérique "
-"soit reconnu."
+"Sous Linux, il se peut qu'il vous manque les `règles udev <https://"
+"github.com/M0Rf30/android-udev-rules>`__ nécessaires pour que votre "
+"périphérique soit reconnu."
 
 msgid "Web"
 msgstr "Web"

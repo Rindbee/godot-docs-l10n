@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "3D Particle system properties"
+msgstr "Propiedades del sistema de partículas 3D"
+
 msgid "Emitter properties"
 msgstr "Propiedades del emisor"
+
+msgid "Time properties"
+msgstr "Propiedades del tiempo"
 
 msgid ""
 "This can be useful if you want the particle system to look like it has been "
@@ -35,6 +41,15 @@ msgstr ""
 "sistema de partículas se preprocesa durante ``4`` segundos. El polvo es "
 "completamente visible desde el principio porque nos saltamos los primeros "
 "cuatro segundos del tiempo de \"configuración\"."
+
+msgid "Interpolation off (left) vs. on (right)"
+msgstr "Interpolación desactivada (izquierda) versus activada (derecha)"
+
+msgid "Collision properties"
+msgstr "Propiedades de colisión"
+
+msgid "Drawing properties"
+msgstr "Propiedades de dibujo"
 
 msgid ""
 "The ``Transform Align`` property controls the particle's default rotation. "

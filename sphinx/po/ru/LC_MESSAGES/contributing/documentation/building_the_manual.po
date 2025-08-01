@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,8 +23,23 @@ msgstr ""
 "с помощью движка Sphinx docs. Это позволяет вам иметь локальные HTML файлы и "
 "создавать документацию, например, в виде PDF, EPUB или LaTeX файла."
 
+msgid "Create the virtual environment:"
+msgstr "Создайте виртуальную среду:"
+
 msgid "Windows"
 msgstr "Windows"
+
+msgid "Activate the virtual environment:"
+msgstr "Активируйте виртуальную среду:"
+
+msgid "Clone the docs repo:"
+msgstr "Клонируйте репозиторий документов:"
+
+msgid "Install the required packages:"
+msgstr "Установите необходимые пакеты:"
+
+msgid "Build the docs:"
+msgstr "Создайте документы:"
 
 msgid ""
 "Alternatively, you can build the documentation by running the sphinx-build "
@@ -43,8 +58,8 @@ msgstr ""
 msgid ""
 "If you delete the ``classes/`` folder, do not use ``git add .`` when working "
 "on a pull request or the whole ``classes/`` folder will be removed when you "
-"commit. See `#3157 <https://github.com/godotengine/godot-docs/"
-"issues/3157>`__ for more detail."
+"commit. See `#3157 <https://github.com/godotengine/godot-docs/issues/"
+"3157>`__ for more detail."
 msgstr ""
 "Если вы удалите папку ``classes/``, не используйте ``git add .`` при работе "
 "над запросом на пулл-реквест, иначе вся папка ``classes/`` будет удалена при "

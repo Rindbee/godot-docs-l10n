@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,13 @@ msgstr ""
 
 msgid "We add a few things to the ready function."
 msgstr "A continuación, añade este código a la función."
+
+msgid ""
+"If we're using the compatibility renderer, we check if the OpenXR foveated "
+"rendering settings are configured and if not, we output a warning. "
+"See :ref:`OpenXR Settings <doc_openxr_settings>` for further details."
+msgstr ""
+"Si se está usando el renderizador Compatibilidad, se comprueba si la "
+"configuración de renderizado foveado de OpenXR está configurada y, de no ser "
+"así, mostramos una advertencia. Consulta :ref:`OpenXR Settings "
+"<doc_openxr_settings>` para obtener más información."

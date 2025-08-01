@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,10 @@ msgstr ""
 
 msgid "Rendering"
 msgstr "算繪"
+
+msgid ""
+"Most rendering topics are covered in :ref:`2D rendering <doc_2d_rendering>` "
+"and :ref:`3D rendering <doc_3d_rendering>`."
+msgstr ""
+"大多數繪圖主題都涵蓋於 :ref:`2D 繪圖 <doc_2d_rendering>` 及 :ref:`3D 繪圖 "
+"<doc_3d_rendering>`。"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,62 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Variable rate shading"
+msgstr "가변 비율 셰이딩"
+
+msgid "Hardware support"
+msgstr "하드웨어 지원"
+
+msgid "Variable rate shading is only supported on specific GPUs:"
+msgstr "가변 비율 셰이딩은 특정 GPU에서만 지원됩니다:"
+
+msgid "**Desktop:**"
+msgstr "**데스크톱:**"
+
+msgid "NVIDIA Turing and newer (including GTX 1600 series)"
+msgstr "NVIDIA Turing 이상 (GTX 1600 시리즈 포함)"
+
+msgid ""
+"AMD RDNA2 and newer (both integrated and dedicated GPUs – including Steam "
+"Deck)"
+msgstr "AMD RDNA2 이상 (통합 및 전용 GPU 모두 – Steam Deck 포함)"
+
+msgid "Intel Arc Alchemist and newer **(dedicated GPUs only)**"
+msgstr "Intel Arc Alchemist 이상 **(전용 GPU만)**"
+
+msgid "Intel integrated graphics do not support variable rate shading."
+msgstr "Intel 통합 그래픽은 가변 비율 셰이딩을 지원하지 않습니다."
+
+msgid "**Mobile SoCs:**"
+msgstr "**모바일 SoC:**"
+
+msgid "Snapdragon 888 and newer"
+msgstr "Snapdragon 888 이상"
+
+msgid "MediaTek Dimensity 9000 and newer"
+msgstr "MediaTek Dimensity 9000 이상"
+
+msgid "ARM Mali-G615 and newer"
+msgstr "ARM Mali-G615 이상"
+
+msgid ""
+"As of January 2023, Apple and Raspberry Pi GPUs do not support variable rate "
+"shading."
+msgstr ""
+"2023년 1월 현재 Apple과 Raspberry Pi GPU는 가변 비율 셰이딩을 지원하지 않습니"
+"다."
+
+msgid "Using variable rate shading in Godot"
+msgstr "Godot에서 가변 비율 셰이딩 사용하기"
+
 msgid "Color"
 msgstr "색상"
 
 msgid "Comment"
 msgstr "주석"
+
+msgid "VRS disabled"
+msgstr "VRS 비활성화"
+
+msgid "VRS enabled"
+msgstr "VRS 활성화"

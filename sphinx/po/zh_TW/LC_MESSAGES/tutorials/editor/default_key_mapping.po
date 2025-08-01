@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,17 @@ msgstr "速查表、快捷方式"
 
 msgid "Default editor shortcuts"
 msgstr "預設編輯器快捷鍵"
+
+msgid ""
+"Many Godot editor functions can be executed with keyboard shortcuts. This "
+"page lists functions which have associated shortcuts by default, but many "
+"others are available for customization in editor settings as well. To change "
+"keys associated with these and other actions navigate to **Editor > Editor "
+"Settings > Shortcuts**."
+msgstr ""
+"許多 Godot 編輯器功能可以使用鍵盤快捷鍵執行。此頁面列出了預設具有關聯快捷鍵的"
+"功能，但許多其他功能也可以在編輯器設定中自訂。若要更改與這些和其他動作相關聯"
+"的按鍵，請前往 **編輯器 > 編輯器設定 > 快捷鍵**。"
 
 msgid ""
 "While some actions are universal, a lot of shortcuts are specific to "
@@ -37,6 +48,9 @@ msgstr ""
 "快捷鍵不同。這是為了讓編輯器可以與 macOS 生態系統整合地更好。熟悉作業系統的標"
 "準快捷鍵的使用者應該能直覺地找到 Godot 編輯器的預設按鍵對應。"
 
+msgid "General editor actions"
+msgstr "通用編輯器動作"
+
 msgid "Action name"
 msgstr "操作名稱"
 
@@ -55,6 +69,9 @@ msgstr "開啟 2D 編輯器"
 msgid ":kbd:`Ctrl + F1`"
 msgstr ":kbd:`Ctrl + F12`"
 
+msgid ":kbd:`Cmd + Ctrl + 1`"
+msgstr ":kbd:`Cmd + Ctrl + 1`"
+
 msgid "``editor/editor_2d``"
 msgstr "``editor/editor_2d``"
 
@@ -63,6 +80,9 @@ msgstr "開啟 3D 編輯器"
 
 msgid ":kbd:`Ctrl + F2`"
 msgstr ":kbd:`Ctrl + F2`"
+
+msgid ":kbd:`Cmd + Ctrl + 2`"
+msgstr ":kbd:`Cmd + Ctrl + 2`"
 
 msgid "``editor/editor_3d``"
 msgstr "``editor/editor_3d``"
@@ -73,6 +93,9 @@ msgstr "開啟腳本編輯器"
 msgid ":kbd:`Ctrl + F3`"
 msgstr ":kbd:`Ctrl + F`"
 
+msgid ":kbd:`Cmd + Ctrl + 3`"
+msgstr ":kbd:`Cmd + Ctrl + 3`"
+
 msgid "``editor/editor_script``"
 msgstr "``editor/editor_script``"
 
@@ -81,6 +104,9 @@ msgstr "搜尋說明"
 
 msgid ":kbd:`F1`"
 msgstr ":kbd:`F1`"
+
+msgid ":kbd:`Opt + Space`"
+msgstr ":kbd:`Opt + Space`"
 
 msgid "``editor/editor_help``"
 msgstr "``editor/editor_help``"
@@ -97,11 +123,17 @@ msgstr ":kbd:`Cmd + Ctrl + D`"
 msgid "``editor/distraction_free_mode``"
 msgstr "``editor/distraction_free_mode``"
 
+msgid "Next Scene Tab"
+msgstr "下一個場景頁籤"
+
 msgid ":kbd:`Ctrl + Tab`"
 msgstr ":kbd:`Ctrl + Tab`"
 
 msgid "``editor/next_tab``"
 msgstr "``editor/next_tab``"
+
+msgid "Previous Scene Tab"
+msgstr "上一個場景頁籤"
 
 msgid ":kbd:`Ctrl + Shift + Tab`"
 msgstr ":kbd:`Ctrl + Shift + Tab`"
@@ -114,6 +146,9 @@ msgstr "篩選檔案"
 
 msgid ":kbd:`Ctrl + Alt + P`"
 msgstr ":kbd:`Ctrl + Alt + P`"
+
+msgid ":kbd:`Opt + Cmd + P`"
+msgstr ":kbd:`Opt + Cmd + P`"
 
 msgid "``editor/filter_files``"
 msgstr "``editor/filter_files``"
@@ -184,6 +219,9 @@ msgstr "儲存所有場景"
 msgid ":kbd:`Ctrl + Shift + Alt + S`"
 msgstr ":kbd:`Ctrl + Shift + Alt + S`"
 
+msgid ":kbd:`Cmd + Shift + Opt + S`"
+msgstr ":kbd:`Cmd + Shift + Opt + S`"
+
 msgid "``editor/save_all_scenes``"
 msgstr "``editor/save_all_scenes``"
 
@@ -192,6 +230,9 @@ msgstr "快速開啟"
 
 msgid ":kbd:`Shift + Alt + O`"
 msgstr ":kbd:`Shift + Alt + O`"
+
+msgid ":kbd:`Cmd + Ctrl + O`"
+msgstr ":kbd:`Cmd + Ctrl + O`"
 
 msgid "``editor/quick_open``"
 msgstr "``editor/quick_open``"
@@ -213,6 +254,9 @@ msgstr "快速開啟場景"
 
 msgid ":kbd:`Ctrl + Alt + O`"
 msgstr ":kbd:`Ctrl + Alt + O`"
+
+msgid ":kbd:`Opt + Cmd + O`"
+msgstr ":kbd:`Opt + Cmd + O`"
 
 msgid "``editor/quick_open_script``"
 msgstr "``editor/quick_open_script``"
@@ -258,6 +302,9 @@ msgstr "退出到專案列表"
 
 msgid ":kbd:`Ctrl + Shift + Q`"
 msgstr ":kbd:`Ctrl + Shift + Q`"
+
+msgid ":kbd:`Shift + Opt + Q`"
+msgstr ":kbd:`Shift + Opt + Q`"
 
 msgid "``editor/quit_to_project_list``"
 msgstr "``editor/quit_to_project_list``"
@@ -355,14 +402,93 @@ msgstr ":kbd:`Shift + F12`"
 msgid "``editor/bottom_panel_expand``"
 msgstr "``editor/bottom_panel_expand``"
 
+msgid "Command Palette"
+msgstr "指令面板"
+
 msgid ":kbd:`Ctrl + Shift + P`"
 msgstr ":kbd:`Ctrl + Shift + P`"
 
 msgid ":kbd:`Cmd + Shift + P`"
 msgstr ":kbd:`Cmd + Shift + P`"
 
+msgid "``editor/command_palette``"
+msgstr "``editor/command_palette``"
+
+msgid "Bottom panels"
+msgstr "底部面板"
+
+msgid ""
+"Only bottom panels that are always available have a default shortcut "
+"assigned. Others must be manually bound in the Editor Settings if desired."
+msgstr ""
+"只有永遠可用的底部面板預設會指派快速鍵。其他面板若有需要，必須在編輯器設定中"
+"手動綁定。"
+
+msgid "Toggle Last Opened Panel"
+msgstr "切換上次開啟面板"
+
+msgid ":kbd:`Ctrl + J`"
+msgstr ":kbd:`Ctrl + J`"
+
+msgid "``editor/toggle_last_opened_bottom_panel``"
+msgstr "``editor/toggle_last_opened_bottom_panel``"
+
+msgid "Toggle Animation Bottom Panel"
+msgstr "切換動畫底部面板"
+
+msgid ":kbd:`Alt + N`"
+msgstr ":kbd:`Alt + N`"
+
+msgid "``bottom_panels/toggle_animation_bottom_panel``"
+msgstr "``bottom_panels/toggle_animation_bottom_panel``"
+
+msgid "Toggle Audio Bottom Panel"
+msgstr "切換音訊底部面板"
+
+msgid ":kbd:`Alt + A`"
+msgstr ":kbd:`Alt + A`"
+
+msgid "``bottom_panels/toggle_audio_bottom_panel``"
+msgstr "``bottom_panels/toggle_audio_bottom_panel``"
+
+msgid "Toggle Debugger Bottom Panel"
+msgstr "切換除錯工具底部面板"
+
+msgid ":kbd:`Alt + D`"
+msgstr ":kbd:`Alt + D`"
+
+msgid "``bottom_panels/toggle_debugger_bottom_panel``"
+msgstr "``bottom_panels/toggle_debugger_bottom_panel``"
+
+msgid "Toggle FileSystem Bottom Panel"
+msgstr "切換檔案系統底部面板"
+
 msgid ":kbd:`Alt + F`"
 msgstr ":kbd:`Alt + F`"
+
+msgid "``bottom_panels/toggle_filesystem_bottom_panel``"
+msgstr "``bottom_panels/toggle_filesystem_bottom_panel``"
+
+msgid "Toggle Output Bottom Panel"
+msgstr "切換輸出底部面板"
+
+msgid ":kbd:`Alt + O`"
+msgstr ":kbd:`Alt + O`"
+
+msgid "``bottom_panels/toggle_output_bottom_panel``"
+msgstr "``bottom_panels/toggle_output_bottom_panel``"
+
+msgid "Toggle Shader Editor Bottom Panel"
+msgstr "切換著色器編輯器底部面板"
+
+msgid ":kbd:`Alt + S`"
+msgstr ":kbd:`Alt + S`"
+
+msgid "``bottom_panels/toggle_shader_editor_bottom_panel``"
+msgstr "``bottom_panels/toggle_shader_editor_bottom_panel``"
+
+msgid "2D / CanvasItem editor"
+msgstr "2D / CanvasItem 編輯器"
 
 msgid "Zoom In"
 msgstr "放大"
@@ -583,6 +709,9 @@ msgstr ":kbd:`Shift + K`"
 msgid "``canvas_item_editor/anim_clear_pose``"
 msgstr "``canvas_item_editor/anim_clear_pose``"
 
+msgid "3D / Spatial editor"
+msgstr "3D / Spatial 編輯器"
+
 msgid "Toggle Freelook"
 msgstr "開啟／關閉自由視圖"
 
@@ -646,6 +775,9 @@ msgstr "自由觀看減速調整"
 msgid ":kbd:`Alt`"
 msgstr ":kbd:`Alt`"
 
+msgid ":kbd:`Opt`"
+msgstr ":kbd:`Opt`"
+
 msgid "``spatial_editor/freelook_slow_modifier``"
 msgstr "``spatial_editor/freelook_slow_modifier``"
 
@@ -700,6 +832,9 @@ msgstr "仰視圖"
 msgid ":kbd:`Alt + Num 7`"
 msgstr ":kbd:`Alt + Num 7`"
 
+msgid ":kbd:`Opt + Num 7`"
+msgstr ":kbd:`Opt + Num 7`"
+
 msgid "``spatial_editor/bottom_view``"
 msgstr "``spatial_editor/bottom_view``"
 
@@ -718,6 +853,9 @@ msgstr "後視圖"
 msgid ":kbd:`Alt + Num 1`"
 msgstr ":kbd:`Alt + Num 1`"
 
+msgid ":kbd:`Opt + Num 1`"
+msgstr ":kbd:`Opt + Num 1`"
+
 msgid "``spatial_editor/rear_view``"
 msgstr "``spatial_editor/rear_view``"
 
@@ -735,6 +873,9 @@ msgstr "左視圖"
 
 msgid ":kbd:`Alt + Num 3`"
 msgstr ":kbd:`Alt + Num 3`"
+
+msgid ":kbd:`Opt + Num 3`"
+msgstr ":kbd:`Opt + Num 3`"
 
 msgid "``spatial_editor/left_view``"
 msgstr "``spatial_editor/left_view``"
@@ -778,6 +919,9 @@ msgstr "將變換與視圖對齊"
 msgid ":kbd:`Ctrl + Alt + M`"
 msgstr ":kbd:`Ctrl + Alt + M`"
 
+msgid ":kbd:`Opt + Cmd + M`"
+msgstr ":kbd:`Opt + Cmd + M`"
+
 msgid "``spatial_editor/align_transform_with_view``"
 msgstr "``spatial_editor/align_transform_with_view``"
 
@@ -786,6 +930,9 @@ msgstr "將旋轉與視圖對齊"
 
 msgid ":kbd:`Ctrl + Alt + F`"
 msgstr ":kbd:`Ctrl + Alt + F`"
+
+msgid ":kbd:`Opt + Cmd + F`"
+msgstr ":kbd:`Opt + Cmd + F`"
 
 msgid "``spatial_editor/align_rotation_with_view``"
 msgstr "``spatial_editor/align_rotation_with_view``"
@@ -820,6 +967,9 @@ msgstr "2 個檢視區（替代）"
 msgid ":kbd:`Ctrl + Alt + 2`"
 msgstr ":kbd:`Ctrl + Alt + 2`"
 
+msgid ":kbd:`Opt + Cmd + 2`"
+msgstr ":kbd:`Opt + Cmd + 2`"
+
 msgid "``spatial_editor/2_viewports_alt``"
 msgstr "``spatial_editor/2_viewports_alt``"
 
@@ -841,6 +991,9 @@ msgstr "3 個檢視區（替代）"
 msgid ":kbd:`Ctrl + Alt + 3`"
 msgstr ":kbd:`Ctrl + Alt + 3`"
 
+msgid ":kbd:`Opt + Cmd + 3`"
+msgstr ":kbd:`Opt + Cmd + 3`"
+
 msgid "``spatial_editor/3_viewports_alt``"
 msgstr "``spatial_editor/3_viewports_alt``"
 
@@ -855,6 +1008,9 @@ msgstr ":kbd:`Cmd + 4`"
 
 msgid "``spatial_editor/4_viewports``"
 msgstr "``spatial_editor/4_viewports``"
+
+msgid "Text editor"
+msgstr "文字編輯器"
 
 msgid "Cut"
 msgstr "剪下"
@@ -988,6 +1144,9 @@ msgstr "上移"
 msgid ":kbd:`Alt + Up Arrow`"
 msgstr ":kbd:`Alt + 方向鍵上`"
 
+msgid ":kbd:`Opt + Up Arrow`"
+msgstr ":kbd:`Opt + Up Arrow`"
+
 msgid "``script_text_editor/move_up``"
 msgstr "``script_text_editor/move_up``"
 
@@ -996,6 +1155,9 @@ msgstr "下移"
 
 msgid ":kbd:`Alt + Down Arrow`"
 msgstr ":kbd:`Alt + 方向鍵下`"
+
+msgid ":kbd:`Opt + Down Arrow`"
+msgstr ":kbd:`Opt + Down Arrow`"
 
 msgid "``script_text_editor/move_down``"
 msgstr "``script_text_editor/move_down``"
@@ -1027,8 +1189,23 @@ msgstr "``script_text_editor/toggle_comment``"
 msgid "Fold/Unfold Line"
 msgstr "展開／收起行"
 
+msgid ":kbd:`Ctrl + Cmd + F`"
+msgstr ":kbd:`Ctrl + Cmd + F`"
+
 msgid "``script_text_editor/toggle_fold_line``"
 msgstr "``script_text_editor/toggle_fold_line``"
+
+msgid "Duplicate Lines"
+msgstr "複製行"
+
+msgid ":kbd:`Ctrl + Alt + Down Arrow`"
+msgstr ":kbd:`Ctrl + Alt + Down Arrow`"
+
+msgid ":kbd:`Cmd + Shift + Down Arrow`"
+msgstr ":kbd:`Cmd + Shift + Down Arrow`"
+
+msgid "``script_text_editor/duplicate_lines``"
+msgstr "``script_text_editor/duplicate_lines``"
 
 msgid "Duplicate Selection"
 msgstr "重複所選"
@@ -1038,6 +1215,9 @@ msgstr ":kbd:`Ctrl + Shift + D`"
 
 msgid ":kbd:`Cmd + Shift + C`"
 msgstr ":kbd:`Cmd + Shift + C`"
+
+msgid "``script_text_editor/duplicate_selection``"
+msgstr "``script_text_editor/duplicate_selection``"
 
 msgid "Complete Symbol"
 msgstr "補全符號"
@@ -1065,6 +1245,9 @@ msgstr "移除後方空白字元"
 
 msgid ":kbd:`Ctrl + Alt + T`"
 msgstr ":kbd:`Ctrl + Alt + T`"
+
+msgid ":kbd:`Opt + Cmd + T`"
+msgstr ":kbd:`Opt + Cmd + T`"
 
 msgid "``script_text_editor/trim_trailing_whitespace``"
 msgstr "``script_text_editor/trim_trailing_whitespace``"
@@ -1137,6 +1320,9 @@ msgstr "新增／移除書籤"
 
 msgid ":kbd:`Ctrl + Alt + B`"
 msgstr ":kbd:`Ctrl + Alt + B`"
+
+msgid ":kbd:`Opt + Cmd + B`"
+msgstr ":kbd:`Opt + Cmd + B`"
 
 msgid "``script_text_editor/toggle_bookmark``"
 msgstr "``script_text_editor/toggle_bookmark``"
@@ -1225,8 +1411,14 @@ msgstr "本文說明"
 msgid ":kbd:`Alt + F1`"
 msgstr ":kbd:`Alt + F1`"
 
+msgid ":kbd:`Opt + Shift + Space`"
+msgstr ":kbd:`Opt + Shift + Space`"
+
 msgid "``script_text_editor/contextual_help``"
 msgstr "``script_text_editor/contextual_help``"
+
+msgid "Script editor"
+msgstr "腳本編輯器"
 
 msgid "``script_editor/find``"
 msgstr "``script_editor/find``"
@@ -1243,11 +1435,17 @@ msgstr "``script_editor/find_in_files``"
 msgid ":kbd:`Shift + Alt + Up Arrow`"
 msgstr ":kbd:`Shift + Alt + 方向鍵上`"
 
+msgid ":kbd:`Shift + Opt + Up Arrow`"
+msgstr ":kbd:`Shift + Opt + Up Arrow`"
+
 msgid "``script_editor/window_move_up``"
 msgstr "``script_editor/window_move_up``"
 
 msgid ":kbd:`Shift + Alt + Down Arrow`"
 msgstr ":kbd:`Shift + Alt + 方向鍵下`"
+
+msgid ":kbd:`Shift + Opt + Down Arrow`"
+msgstr ":kbd:`Shift + Opt + Down Arrow`"
 
 msgid "``script_editor/window_move_down``"
 msgstr "``script_editor/window_move_down``"
@@ -1288,6 +1486,9 @@ msgstr "儲存"
 msgid ":kbd:`Ctrl + Alt + S`"
 msgstr ":kbd:`Ctrl + Alt + S`"
 
+msgid ":kbd:`Opt + Cmd + S`"
+msgstr ":kbd:`Opt + Cmd + S`"
+
 msgid "``script_editor/save``"
 msgstr "``script_editor/save``"
 
@@ -1309,6 +1510,9 @@ msgstr "上一個歷史記錄"
 msgid ":kbd:`Alt + Left Arrow`"
 msgstr ":kbd:`Alt + 方向鍵左`"
 
+msgid ":kbd:`Opt + Left Arrow`"
+msgstr ":kbd:`Opt + Left Arrow`"
+
 msgid "``script_editor/history_previous``"
 msgstr "``script_editor/history_previous``"
 
@@ -1317,6 +1521,9 @@ msgstr "下一個歷史記錄"
 
 msgid ":kbd:`Alt + Right Arrow`"
 msgstr ":kbd:`Alt + 方向鍵右`"
+
+msgid ":kbd:`Opt + Right Arrow`"
+msgstr ":kbd:`Opt + Right Arrow`"
 
 msgid "``script_editor/history_next``"
 msgstr "``script_editor/history_next``"
@@ -1366,6 +1573,9 @@ msgstr "重設縮放大小"
 msgid "``script_editor/reset_zoom``"
 msgstr "``script_editor/reset_zoom``"
 
+msgid "Editor output"
+msgstr "編輯器輸出"
+
 msgid "Copy Selection"
 msgstr "複製所選"
 
@@ -1408,6 +1618,9 @@ msgstr ":kbd:`F12`"
 msgid "``debugger/continue``"
 msgstr "``debugger/continue``"
 
+msgid "File dialog"
+msgstr "檔案對話框"
+
 msgid "Go Back"
 msgstr "上一頁"
 
@@ -1447,6 +1660,9 @@ msgstr "``file_dialog/toggle_hidden_files``"
 msgid "Toggle Favorite"
 msgstr "新增／取消我的最愛"
 
+msgid ":kbd:`Opt + F`"
+msgstr ":kbd:`Opt + F`"
+
 msgid "``file_dialog/toggle_favorite``"
 msgstr "``file_dialog/toggle_favorite``"
 
@@ -1455,6 +1671,9 @@ msgstr "切換模式"
 
 msgid ":kbd:`Alt + V`"
 msgstr ":kbd:`Alt + V`"
+
+msgid ":kbd:`Opt + V`"
+msgstr ":kbd:`Opt + V`"
 
 msgid "``file_dialog/toggle_mode``"
 msgstr "``file_dialog/toggle_mode``"
@@ -1513,6 +1732,9 @@ msgstr ":kbd:`Cmd + 方向鍵下`"
 msgid "``file_dialog/move_favorite_down``"
 msgstr "``file_dialog/move_favorite_down``"
 
+msgid "FileSystem dock"
+msgstr "檔案系統停靠區"
+
 msgid "Copy Path"
 msgstr "複製路徑"
 
@@ -1534,6 +1756,9 @@ msgstr "``filesystem_dock/duplicate``"
 msgid "``filesystem_dock/delete``"
 msgstr "``filesystem_dock/delete``"
 
+msgid "Scene tree dock"
+msgstr "場景樹停靠區"
+
 msgid "Add Child Node"
 msgstr "新增子節點"
 
@@ -1551,6 +1776,12 @@ msgstr "``scene_tree/batch_rename``"
 
 msgid "Copy Node Path"
 msgstr "複製節點路徑"
+
+msgid ":kbd:`Ctrl + Shift + C`"
+msgstr ":kbd:`Ctrl + Shift + C`"
+
+msgid ":kbd:`Cmd + Shift +  C`"
+msgstr ":kbd:`Cmd + Shift +  C`"
 
 msgid "``scene_tree/copy_node_path``"
 msgstr "``scene_tree/copy_node_path``"
@@ -1575,6 +1806,9 @@ msgstr "``scene_tree/move_up``"
 
 msgid "``scene_tree/move_down``"
 msgstr "``scene_tree/move_down``"
+
+msgid "Animation track editor"
+msgstr "動畫軌編輯器"
 
 msgid "``animation_editor/duplicate_selection``"
 msgstr "``animation_editor/duplicate_selection``"
@@ -1618,32 +1852,104 @@ msgstr ":kbd:`Cmd + 方向鍵左`"
 msgid "``animation_editor/goto_prev_step``"
 msgstr "``animation_editor/goto_prev_step``"
 
+msgid "TileMap editor"
+msgstr "圖塊地圖編輯器"
+
 msgid "Select"
 msgstr "選擇"
+
+msgid "``tiles_editor/selection_tool``"
+msgstr "``tiles_editor/selection_tool``"
 
 msgid "Cut Selection"
 msgstr "剪下所選"
 
+msgid "``tiles_editor/cut``"
+msgstr "``tiles_editor/cut``"
+
+msgid "``tiles_editor/copy``"
+msgstr "``tiles_editor/copy``"
+
+msgid "Paste Selection"
+msgstr "貼上選取"
+
+msgid "``tiles_editor/paste``"
+msgstr "``tiles_editor/paste``"
+
+msgid "``tiles_editor/delete``"
+msgstr "``tiles_editor/delete``"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid ":kbd:`Esc`"
+msgstr ":kbd:`Esc`"
+
+msgid "``tiles_editor/cancel``"
+msgstr "``tiles_editor/cancel``"
+
 msgid "Paint"
 msgstr "繪製圖塊"
+
+msgid "``tiles_editor/paint_tool``"
+msgstr "``tiles_editor/paint_tool``"
 
 msgid "Line"
 msgstr "線段"
 
+msgid ":kbd:`L`"
+msgstr ":kbd:`L`"
+
+msgid "``tiles_editor/line_tool``"
+msgstr "``tiles_editor/line_tool``"
+
+msgid "Rect"
+msgstr "矩形"
+
+msgid "``tiles_editor/rect_tool``"
+msgstr "``tiles_editor/rect_tool``"
+
+msgid "Bucket"
+msgstr "筆刷"
+
+msgid ":kbd:`B`"
+msgstr ":kbd:`B`"
+
+msgid "``tiles_editor/bucket_tool``"
+msgstr "``tiles_editor/bucket_tool``"
+
 msgid "Picker"
-msgstr "顏色"
+msgstr "選取器"
 
 msgid ":kbd:`P`"
 msgstr ":kbd:`P`"
 
+msgid "``tiles_editor/picker``"
+msgstr "``tiles_editor/picker``"
+
 msgid "Eraser"
 msgstr "橡皮擦"
+
+msgid "``tiles_editor/eraser``"
+msgstr "``tiles_editor/eraser``"
 
 msgid "Flip Horizontally"
 msgstr "水平翻轉"
 
+msgid ":kbd:`C`"
+msgstr ":kbd:`C`"
+
+msgid "``tiles_editor/flip_tile_horizontal``"
+msgstr "``tiles_editor/flip_tile_horizontal``"
+
 msgid "Flip Vertically"
 msgstr "垂直翻轉"
+
+msgid ":kbd:`V`"
+msgstr ":kbd:`V`"
+
+msgid "``tiles_editor/flip_tile_vertical``"
+msgstr "``tiles_editor/flip_tile_vertical``"
 
 msgid "Rotate Left"
 msgstr "向左旋轉"
@@ -1651,11 +1957,20 @@ msgstr "向左旋轉"
 msgid ":kbd:`Z`"
 msgstr ":kbd:`Z`"
 
+msgid "``tiles_editor/rotate_tile_left``"
+msgstr "``tiles_editor/rotate_tile_left``"
+
 msgid "Rotate Right"
 msgstr "向右旋轉"
 
 msgid ":kbd:`X`"
 msgstr ":kbd:`X`"
+
+msgid "``tiles_editor/rotate_tile_right``"
+msgstr "``tiles_editor/rotate_tile_right``"
+
+msgid "TileSet Editor"
+msgstr "圖塊集編輯器"
 
 msgid "Next Coordinate"
 msgstr "下一個座標"
@@ -1743,3 +2058,63 @@ msgstr ":kbd:`8`"
 
 msgid "``tileset_editor/editmode_z_index``"
 msgstr "``tileset_editor/editmode_z_index``"
+
+msgid "Project manager"
+msgstr "專案管理員"
+
+msgid "New Project"
+msgstr "新增專案"
+
+msgid "``project_manager/new_project``"
+msgstr "``project_manager/new_project``"
+
+msgid "Import Project"
+msgstr "匯入專案"
+
+msgid "``project_manager/import_project``"
+msgstr "``project_manager/import_project``"
+
+msgid "Scan for Projects"
+msgstr "掃描專案"
+
+msgid "``project_manager/scan_projects``"
+msgstr "``project_manager/scan_projects``"
+
+msgid "Edit Project"
+msgstr "編輯專案"
+
+msgid ":kbd:`Ctrl + E`"
+msgstr ":kbd:`Ctrl + E`"
+
+msgid ":kbd:`Cmd + E`"
+msgstr ":kbd:`Cmd + E`"
+
+msgid "``project_manager/edit_project``"
+msgstr "``project_manager/edit_project``"
+
+msgid "Run Project"
+msgstr "執行專案"
+
+msgid "``project_manager/run_project``"
+msgstr "``project_manager/run_project``"
+
+msgid "Rename Project"
+msgstr "重新命名專案"
+
+msgid ":kbd:`F2`"
+msgstr ":kbd:`F2`"
+
+msgid ":kbd:`Enter`"
+msgstr ":kbd:`Enter`"
+
+msgid "``project_manager/rename_project``"
+msgstr "``project_manager/rename_project``"
+
+msgid "Remove Project"
+msgstr "移除專案"
+
+msgid ":kbd:`Delete`"
+msgstr ":kbd:`Delete`"
+
+msgid "``project_manager/remove_project``"
+msgstr "``project_manager/remove_project``"

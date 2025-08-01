@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,65 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Introduction to global illumination"
+msgstr "Introduzione all'illuminazione globale"
+
+msgid "What is global illumination?"
+msgstr "Che cos'è l'illuminazione globale?"
+
+msgid "Specular lighting"
+msgstr "Illuminazione speculare"
+
+msgid "Which global illumination technique should I use?"
+msgstr "Quale tecnica di illuminazione globale dovrei utilizzare?"
+
 msgid "Performance"
 msgstr "Prestazioni"
 
+msgid "**ReflectionProbe:**"
+msgstr "**ReflectionProbe:**"
+
+msgid "**LightmapGI:**"
+msgstr "**LightmapGI:**"
+
+msgid "**VoxelGI:**"
+msgstr "**VoxelGI:**"
+
+msgid "**Screen-space indirect lighting (SSIL):**"
+msgstr "**Illuminazione indiretta nello spazio dello schermo (SSIL):**"
+
+msgid "**SDFGI:**"
+msgstr "**SDFGI:**"
+
+msgid "Visuals"
+msgstr "Visuali"
+
+msgid "average"
+msgstr "average"
+
+msgid "SDFGI in action."
+msgstr "SDFGI in azione."
+
+msgid "good"
+msgstr "good"
+
+msgid "Real-time ability"
+msgstr "Capacità in tempo reale"
+
+msgid "bad"
+msgstr "bad"
+
 msgid "Summary"
 msgstr "Sommario"
+
+msgid ""
+"You can compare global illumination techniques in action using the `Global "
+"Illumination demo project <https://github.com/godotengine/godot-demo-"
+"projects/tree/master/3d/global_illumination>`__."
+msgstr ""
+"È possibile confrontare le tecniche di illuminazione globale in azione "
+"attraverso il progetto dimostrativo `Global Illumination <https://github.com/"
+"godotengine/godot-demo-projects/tree/master/3d/global_illumination>`__."
+
+msgid "Alternatives to GI techniques"
+msgstr "Alternative alle tecniche di GI"

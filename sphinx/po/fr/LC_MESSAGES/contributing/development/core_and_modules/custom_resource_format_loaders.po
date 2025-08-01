@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -34,8 +34,8 @@ msgid ""
 "types. If not, refer to this guide: :ref:`doc_custom_modules_in_cpp`"
 msgstr ""
 "Ce guide part du principe que le lecteur sait comment créer des modules C++ "
-"et des types de données Godot. Si ce n'est pas le cas, voir : :ref:"
-"`doc_custom_modules_in_cpp`"
+"et des types de données Godot. Si ce n'est pas le cas, "
+"voir : :ref:`doc_custom_modules_in_cpp`"
 
 msgid "References"
 msgstr "References"
@@ -100,6 +100,12 @@ msgstr ""
 "ressource, la fonction ``load`` doit lire et gérer la sérialisation des "
 "données."
 
+msgid "resource_loader_json.h"
+msgstr "resource_loader_json.h"
+
+msgid "resource_loader_json.cpp"
+msgstr "resource_loader_json.cpp"
+
 msgid "Creating a ResourceFormatSaver"
 msgstr "Création d'un ResourceFormatSaver"
 
@@ -110,6 +116,12 @@ msgstr ""
 "Si vous souhaitez pouvoir modifier et sauvegarder une ressource, vous pouvez "
 "mettre en place un ``ResourceFormatSaver`` :"
 
+msgid "resource_saver_json.h"
+msgstr "resource_saver_json.h"
+
+msgid "resource_saver_json.cpp"
+msgstr "resource_saver_json.cpp"
+
 msgid "Creating custom data types"
 msgstr "Création de types de données personnalisés"
 
@@ -118,13 +130,19 @@ msgid ""
 "managed resources. Godot needs a new registered data type to understand "
 "additional binary formats such as machine learning models."
 msgstr ""
-"Godot n'a peut-être pas de substitut approprié dans ses :ref:"
-"`doc_core_types` ou ses ressources gérées. Godot a besoin d'un nouveau type "
-"de données déclaré pour comprendre les formats binaires supplémentaires tels "
-"que les modèles de machine learning."
+"Godot n'a peut-être pas de substitut approprié dans "
+"ses :ref:`doc_core_types` ou ses ressources gérées. Godot a besoin d'un "
+"nouveau type de données déclaré pour comprendre les formats binaires "
+"supplémentaires tels que les modèles de machine learning."
 
 msgid "Here is an example of creating a custom datatype:"
 msgstr "Voici un exemple de création d'un type de données personnalisé :"
+
+msgid "resource_json.h"
+msgstr "resource_json.h"
+
+msgid "resource_json.cpp"
+msgstr "resource_json.cpp"
 
 msgid "Considerations"
 msgstr "Considérations"
@@ -144,6 +162,13 @@ msgstr ""
 "Par exemple, voici le code permettant de traduire les appels ``FileAccess`` "
 "en ``std::istream``."
 
+msgid ""
+"`core/io/file_access.h <https://github.com/godotengine/godot/blob/master/"
+"core/io/file_access.h>`_"
+msgstr ""
+"`core/io/file_access.h <https://github.com/godotengine/godot/blob/master/"
+"core/io/file_access.h>`_"
+
 msgid "Registering the new file format"
 msgstr "Enregistrement du nouveau format de fichier"
 
@@ -154,6 +179,12 @@ msgstr ""
 "Godot enregistre ``ResourcesFormatLoader`` avec un gestionnaire de "
 "``ResourceLoader``. Le gestionnaire sélectionne automatiquement le chargeur "
 "approprié lorsque ``load`` est appelé."
+
+msgid "register_types.h"
+msgstr "register_types.h"
+
+msgid "register_types.cpp"
+msgstr "register_types.cpp"
 
 msgid "Loading it on GDScript"
 msgstr "Chargement sur GDScript"

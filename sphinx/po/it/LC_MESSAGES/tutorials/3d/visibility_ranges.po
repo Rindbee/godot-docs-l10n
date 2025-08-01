@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,27 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Visibility ranges (HLOD)"
+msgstr "Campi di visibilità (HLOD)"
+
+msgid "On this page, you'll learn:"
+msgstr "In questa pagina imparerai:"
+
+msgid "Setting up visibility range"
+msgstr "Configurazione del campo di visibilità"
+
+msgid "Visibility range properties"
+msgstr "Proprietà del campo di visibilità"
+
+msgid "Fade mode"
+msgstr "Modalità di dissolvenza"
+
+msgid "Visibility parent"
+msgstr "Genitore di visibilità"
+
+msgid "Configuration tips"
+msgstr "Consigli di configurazione"
 
 msgid "Rim"
 msgstr "Rim"
@@ -20,8 +41,20 @@ msgstr "Rivestimento trasparente"
 msgid "Anisotropy"
 msgstr "Anisotropia"
 
+msgid "Height"
+msgstr "Altezza"
+
 msgid "Subsurface Scattering"
 msgstr "Subsurface Scattering"
 
+msgid "Back Lighting"
+msgstr "Illuminazione posteriore"
+
 msgid "Refraction"
 msgstr "Rifrazione"
+
+msgid "Proximity Fade"
+msgstr "Dissolvenza in prossimità"
+
+msgid "Use dithering for LOD transitions"
+msgstr "Utilizza dithering per le transizioni tra LOD"

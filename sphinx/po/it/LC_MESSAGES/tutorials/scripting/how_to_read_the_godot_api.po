@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,8 +14,31 @@ msgstr ""
 msgid "Inheritance"
 msgstr "Ereditarietà"
 
+msgid "Brief Description"
+msgstr "Breve descrizione"
+
+msgid ""
+"Next a brief description of the class. This text appears in Godot Editor "
+"popups for creating Nodes, Resources, and other types."
+msgstr ""
+"Segue una breve descrizione della classe. Questo testo appare nei popup "
+"dell'editor Godot per la creazione di nodi, risorse e altri tipi."
+
 msgid "Description"
 msgstr "Descrizione"
+
+msgid ""
+"Next a more detailed description the class, its features, and its use "
+"case(s)."
+msgstr ""
+"Successivamente una descrizione più dettagliata della classe, delle sue "
+"caratteristiche e dei suoi casi d'uso."
+
+msgid "Code samples of common use cases."
+msgstr "Esempi di codice di casi d'uso comuni."
+
+msgid "Links to other related parts of the Godot API."
+msgstr "Collegamenti ad altre parti correlate dell'API di Godot."
 
 msgid "Tutorials"
 msgstr "Tutorial"
@@ -29,5 +52,24 @@ msgstr "Metodi"
 msgid "Signals"
 msgstr "Segnali"
 
+msgid "Enumerations"
+msgstr "Enumerazioni"
+
 msgid "Constants"
 msgstr "Costanti"
+
+msgid "Property Descriptions"
+msgstr "Descrizioni di proprietà"
+
+msgid "The Property Descriptions list details everything about each property."
+msgstr ""
+"L'elenco delle descrizioni delle proprietà fornisce informazioni dettagliate "
+"su ciascuna proprietà."
+
+msgid "Method Descriptions"
+msgstr "Descrizioni dei metodi"
+
+msgid "The Method Descriptions list details everything about each method."
+msgstr ""
+"L'elenco delle descrizioni dei metodi fornisce informazioni dettagliate su "
+"ciascun metodo."

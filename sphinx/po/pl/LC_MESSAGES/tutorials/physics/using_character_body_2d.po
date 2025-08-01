@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,8 +14,17 @@ msgstr ""
 msgid "Introduction"
 msgstr "Wprowadzenie"
 
+msgid "move_and_collide"
+msgstr "move_and_collide"
+
+msgid "move_and_slide"
+msgstr "move_and_slide"
+
 msgid "Examples"
 msgstr "Przykłady"
+
+msgid "Bouncing/reflecting"
+msgstr "Odbijanie"
 
 msgid "Here's the code for the player body:"
 msgstr "Oto kod dla kodu ciała gracza:"

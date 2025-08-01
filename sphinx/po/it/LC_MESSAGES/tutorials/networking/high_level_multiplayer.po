@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,36 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Managing connections"
+msgstr "Gestione delle connessioni"
+
+msgid "The rest are only emitted on clients:"
+msgstr "Il resto viene emesso solo sui client:"
+
+msgid "``connected_to_server()``"
+msgstr "``connected_to_server()``"
+
+msgid "``connection_failed()``"
+msgstr "``connection_failed()``"
+
+msgid "``server_disconnected()``"
+msgstr "``server_disconnected()``"
+
+msgid "Remote procedure calls"
+msgstr "Chiamate di procedura remota"
+
+msgid "``mode``:"
+msgstr "``mode``:"
+
+msgid "``sync``:"
+msgstr "``sync``:"
+
+msgid "``transfer_mode``:"
+msgstr "``transfer_mode``:"
+
+msgid "Channels"
+msgstr "Canali"
+
+msgid "Example lobby implementation"
+msgstr "Esempio di implementazione di una lobby"

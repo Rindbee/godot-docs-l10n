@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -19,16 +19,6 @@ msgstr "Zarządzanie problemami"
 
 msgid "Labels"
 msgstr "Labels(Etykiety)"
-
-msgid "**Categories:**"
-msgstr "**Kategorie:**"
-
-msgid ""
-"*Archived*: either a duplicate of another issue, or invalid. Such an issue "
-"would also be closed."
-msgstr ""
-"*Archived*: opisuje duplikaty innych zgłoszeń błędów, lub jest niepoprawny. "
-"Może zostać zamknięty."
 
 msgid "*Bug*: describes something that is not working properly."
 msgstr "*Bug*: opisuje coś, co nie działa poprawnie."
@@ -81,9 +71,6 @@ msgstr ""
 "*Tracker*: Zgłoszenie problemu który służy do śledzenia powiązanych ze sobą "
 "problemów lub pull requestów(np. związanych z systemem rozszerzeń)."
 
-msgid "**Topics:**"
-msgstr "**Tematy:**"
-
 msgid "*Assetlib*: relates to issues with the asset library."
 msgstr "*Assetlib*: odnosi się do kwestii związanych z biblioteką zasobów."
 
@@ -109,8 +96,12 @@ msgstr "*Plugin*: odnosi się do problemów z pisaniem wtyczek."
 msgid "*Rendering*: relates to the 2D and 3D rendering engines."
 msgstr "*Rendering*: odnosi się do błędów renderowania silnika 2D i 3D."
 
-msgid "**Platforms:**"
-msgstr "**Platformy:**"
+msgid ""
+"*Archived*: either a duplicate of another issue, or invalid. Such an issue "
+"would also be closed."
+msgstr ""
+"*Archived*: opisuje duplikaty innych zgłoszeń błędów, lub jest niepoprawny. "
+"Może zostać zamknięty."
 
 msgid "Milestones"
 msgstr "Kamienie Milowe"

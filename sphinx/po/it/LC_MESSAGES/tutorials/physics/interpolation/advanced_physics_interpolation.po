@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,38 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Advanced physics interpolation"
+msgstr "Interpolazione avanzata della fisica"
+
+msgid "Exceptions to automatic physics interpolation"
+msgstr "Eccezioni all'interpolazione automatica della fisica"
+
 msgid "Cameras"
 msgstr "Telecamere"
 
+msgid "Manual camera interpolation"
+msgstr "Interpolazione manuale della telecamera"
+
+msgid "There are two ways of doing this:"
+msgstr "Ci sono due modi per fare ciò:"
+
+msgid "Typical example"
+msgstr "Esempio tipico"
+
+msgid "Example manual camera script"
+msgstr "Script di esempio di camera manuale"
+
+msgid "Mouse look"
+msgstr "Sguardo con il mouse"
+
+msgid "Disabling interpolation on other nodes"
+msgstr "Disabilitare l'interpolazione su altri nodi"
+
 msgid "MultiMeshes"
 msgstr "MultiMeshes"
+
+msgid ":ref:`MultiMesh.reset_instance_physics_interpolation<class_MultiMesh_method_reset_instance_physics_interpolation>`"
+msgstr ":ref:`MultiMesh.reset_instance_physics_interpolation<class_MultiMesh_method_reset_instance_physics_interpolation>`"
+
+msgid ":ref:`MultiMesh.set_buffer_interpolated<class_MultiMesh_method_set_buffer_interpolated>`"
+msgstr ":ref:`MultiMesh.set_buffer_interpolated<class_MultiMesh_method_set_buffer_interpolated>`"

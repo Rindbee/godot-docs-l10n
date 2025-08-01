@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ":ref:`doc_compiling_for_android`"
+msgstr ":ref:`doc_compiling_for_android`"
+
+msgid ":ref:`doc_compiling_for_ios`"
+msgstr ":ref:`doc_compiling_for_ios`"
+
+msgid ":ref:`doc_compiling_for_linuxbsd`"
+msgstr ":ref:`doc_compiling_for_linuxbsd`"
+
+msgid ":ref:`doc_compiling_for_macos`"
+msgstr ":ref:`doc_compiling_for_macos`"
+
+msgid ":ref:`doc_compiling_for_web`"
+msgstr ":ref:`doc_compiling_for_web`"
+
+msgid ":ref:`doc_compiling_for_windows`"
+msgstr ":ref:`doc_compiling_for_windows`"
+
+msgid "For the previous build attempt, the result would look like this:"
+msgstr "이전 빌드 시도의 결과는 다음과 같습니다:"
+
 msgid "Target"
 msgstr "대상"
+
+msgid ""
+"Build options set from the file can be overridden by the command line "
+"options."
+msgstr "파일에서 설정된 빌드 옵션은 명령줄 옵션으로 재정의될 수 있습니다."
 
 msgid "Export templates"
 msgstr "템플릿 내보내기"

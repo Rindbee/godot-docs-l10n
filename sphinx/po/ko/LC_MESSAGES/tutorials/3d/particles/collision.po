@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,47 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Particle collisions"
+msgstr "입자 콜리전"
+
+msgid "Common properties"
+msgstr "일반 속성"
+
+msgid "Box collision"
+msgstr "상자 콜리전"
+
+msgid "Particle collision box"
+msgstr "입자 콜리전 상자"
+
+msgid "Box collision in the node list"
+msgstr "노드 목록에서 상자 콜리전"
+
+msgid "Sphere collision"
+msgstr "구체 콜리전"
+
+msgid "Particle collision sphere"
+msgstr "입자 콜리전 구체"
+
+msgid "Sphere collision in the node list"
+msgstr "노드 목록에서 구체 콜리전"
+
+msgid "SDF collision"
+msgstr "SDF 콜리전"
+
+msgid "Particle collision SDF"
+msgstr "입자 콜리전 SDF"
+
+msgid "SDF collision in the node list"
+msgstr "노드 목록에서 SDF 콜리전"
+
+msgid "SDF particle collision"
+msgstr "SDF 입자 콜리전"
+
+msgid ""
+"SDF particle collision allows for very detailed 3-dimensional collision "
+"shapes"
+msgstr "SDF 입자 콜리전은 매우 세부적인 3차원 콜리전 모양에 대해 허용합니다"
 
 msgid "Troubleshooting"
 msgstr "문제 해결"

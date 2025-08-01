@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,6 +32,13 @@ msgstr ""
 
 msgid "Create an empty Node2D as root of the scene, we will work under it:"
 msgstr "씬의 루트로 빈 Node2D를 만듭니다. 우리는 아래와 같이 작업할 것입니다:"
+
+msgid ""
+"The first node of the model is the hip. Generally, both in 2D and 3D, the "
+"hip is the root of the skeleton. This makes it easier to animate:"
+msgstr ""
+"모델의 첫 번째 노드는 엉덩이입니다. 일반적으로 2D와 3D 모두 엉덩이는 골격의 "
+"뿌리입니다. 이렇게 하면 애니메이션을 보다 쉽게 만들 수 있습니다:"
 
 msgid "Adjusting the pivot"
 msgstr "중심점 조정하기"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -317,3 +317,38 @@ msgstr "#pragma"
 
 msgid "**Syntax:** ``#pragma value``"
 msgstr "**语法：**\\ ``#pragma 值``"
+
+msgid "Built-in defines"
+msgstr "内置定义"
+
+msgid "Current renderer"
+msgstr "当前渲染器"
+
+msgid ""
+"Since Godot 4.4, you can check which renderer is currently used with the "
+"built-in defines ``CURRENT_RENDERER``, ``RENDERER_COMPATIBILITY``, "
+"``RENDERER_MOBILE``, and ``RENDERER_FORWARD_PLUS``:"
+msgstr ""
+"从 Godot 4.4 开始，你可以使用内置的定义 ``CURRENT_RENDERER``\\ 、\\ "
+"``RENDERER_COMPATIBILITY``\\ 、\\ ``RENDERER_MOBILE``\\ 、\\ "
+"``RENDERER_FORWARD_PLUS`` 来检查当前使用的渲染器："
+
+msgid ""
+"``CURRENT_RENDERER`` is set to either ``0``, ``1``, or ``2`` depending on "
+"the current renderer."
+msgstr ""
+"``CURRENT_RENDERER`` 会根据当前的渲染器设为 ``0``\\ 、\\ ``1`` 或 ``2``\\ 。"
+
+msgid "``RENDERER_COMPATIBILITY`` is always ``0``."
+msgstr "``RENDERER_COMPATIBILITY`` 始终为 ``0``\\ 。"
+
+msgid "``RENDERER_MOBILE`` is always ``1``."
+msgstr "``RENDERER_MOBILE`` 始终为 ``1``\\ 。"
+
+msgid "``RENDERER_FORWARD_PLUS`` is always ``2``."
+msgstr "``RENDERER_FORWARD_PLUS`` 的值始终为 ``2``\\ 。"
+
+msgid ""
+"As an example, this shader sets ``ALBEDO`` to a different color in each "
+"renderer:"
+msgstr "例如这个着色器会根据渲染器的不同将 ``ALBEDO`` 设置为不同的颜色："

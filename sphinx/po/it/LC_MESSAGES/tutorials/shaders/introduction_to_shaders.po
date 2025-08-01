@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,6 +11,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Introduction to shaders"
+msgstr "Introduzione agli shader"
+
+msgid "Shaders in Godot"
+msgstr "Shader in Godot"
+
+msgid "Shader types"
+msgstr "Tipi di shader"
+
+msgid "Here are the available types:"
+msgstr "Ecco i tipi disponibili:"
+
 msgid ":ref:`spatial <doc_spatial_shader>` for 3D rendering."
 msgstr ":ref:`spatial <doc_spatial_shader>` per il rendering 3D."
 
@@ -19,3 +31,12 @@ msgstr ":ref:`canvas_item <doc_canvas_item_shader>` per il rendering 2D."
 
 msgid ":ref:`particles <doc_particle_shader>` for particle systems."
 msgstr ":ref:`particles <doc_particle_shader>` per i sistemi di particelle."
+
+msgid ""
+":ref:`fog <doc_fog_shader>` to render :ref:`FogVolumes <class_FogVolume>`"
+msgstr ""
+":ref:`fog <doc_fog_shader>` per renderizzare :ref:`FogVolumes "
+"<class_FogVolume>`"
+
+msgid "Render modes"
+msgstr "Modalità di rendering"

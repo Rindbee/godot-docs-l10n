@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,8 +17,25 @@ msgstr "Клас Variant"
 msgid "About"
 msgstr "Відомості"
 
+msgid ""
+"Variant is the most important datatype in Godot. A Variant takes up only 24 "
+"bytes on 64-bit platforms (20 bytes on 32-bit platforms) and can store "
+"almost any engine datatype inside of it. Variants are rarely used to hold "
+"information for long periods of time, instead they are used mainly for "
+"communication, editing, serialization and generally moving data around."
+msgstr ""
+"Variant є найважливішим типом даних у Godot. Variant займає лише 24 байти на "
+"64-розрядних платформах (20 байтів на 32-розрядних платформах) і може "
+"зберігати в собі майже будь-який тип даних двигуна. Варіанти рідко "
+"використовуються для зберігання інформації протягом тривалого періоду часу, "
+"натомість вони використовуються в основному для зв’язку, редагування, "
+"серіалізації та загалом переміщення даних."
+
 msgid "A Variant can:"
 msgstr "Варіант може:"
+
+msgid "Store almost any datatype."
+msgstr "Зберігайте практично будь-які типи даних."
 
 msgid ""
 "Perform operations between many variants (GDScript uses Variant as its "
@@ -26,6 +43,20 @@ msgid ""
 msgstr ""
 "Виконуйте операції між багатьма варіантами (GDScript використовує Variant як "
 "свій атомарний/власний тип даних)."
+
+msgid "Be hashed, so it can be compared quickly to other variants."
+msgstr ""
+"Бути хешованим, щоб його можна було швидко порівняти з іншими варіантами."
+
+msgid "Be used to convert safely between datatypes."
+msgstr "Використовується для безпечного перетворення між типами даних."
+
+msgid ""
+"Be used to abstract calling methods and their arguments (Godot exports all "
+"its functions through variants)."
+msgstr ""
+"Використовується для абстрактного виклику методів та їхніх аргументів (Godot "
+"експортує всі свої функції через варіанти)."
 
 msgid "Be used to defer calls or move data between threads."
 msgstr ""
@@ -60,6 +91,24 @@ msgstr ""
 "конструкції, які не є звичними для C++, з невеликими зусиллями. Станьте "
 "другом Variant сьогодні."
 
+msgid ""
+"All types within Variant except Nil and Object **cannot** be ``null`` and "
+"must always store a valid value. These types within Variant are therefore "
+"called *non-nullable* types."
+msgstr ""
+"Усі типи в Variant, крім Nil і Object, **не можуть** бути ``null`` і повинні "
+"завжди зберігати дійсне значення. Тому ці типи у Variant називаються типами, "
+"які не допускають нульових значень."
+
+msgid ""
+"One of the Variant types is *Nil* which can only store the value ``null``. "
+"Therefore, it is possible for a Variant to contain the value ``null``, even "
+"though all Variant types excluding Nil and Object are non-nullable."
+msgstr ""
+"Одним із типів Variant є *Nil*, який може зберігати лише значення ``null``. "
+"Таким чином, Variant може містити значення ``null``, навіть якщо всі типи "
+"Variant, за винятком Nil і Object, не допускають значення null."
+
 msgid "References"
 msgstr "Посилання"
 
@@ -70,11 +119,167 @@ msgstr ""
 "`core/variant/variant.h <https://github.com/godotengine/godot/blob/master/"
 "core/variant/variant.h>`__"
 
+msgid "List of variant types"
+msgstr "Список типів варіантів"
+
+msgid "These types are available in Variant:"
+msgstr "Ці типи доступні у варіантах:"
+
 msgid "Type"
 msgstr "Тип"
 
 msgid "Notes"
 msgstr "Нотатки"
+
+msgid "Nil (can only store ``null``)"
+msgstr "Нуль (може зберігати лише ``null``)"
+
+msgid "Nullable type"
+msgstr "Тип із можливістю нульового значення"
+
+msgid ":ref:`class_bool`"
+msgstr ":ref:`class_bool`"
+
+msgid ":ref:`class_int`"
+msgstr ":ref:`class_int`"
+
+msgid ":ref:`class_float`"
+msgstr ":ref:`class_float`"
+
+msgid ":ref:`class_string`"
+msgstr ":ref:`class_string`"
+
+msgid ":ref:`class_vector2`"
+msgstr ":ref:`class_vector2`"
+
+msgid ":ref:`class_vector2i`"
+msgstr ":ref:`class_vector2i`"
+
+msgid ":ref:`class_rect2`"
+msgstr ":ref:`class_rect2`"
+
+msgid "2D counterpart of AABB"
+msgstr "2D аналог AABB"
+
+msgid ":ref:`class_rect2i`"
+msgstr ":ref:`class_rect2i`"
+
+msgid ":ref:`class_vector3`"
+msgstr ":ref:`class_vector3`"
+
+msgid ":ref:`class_vector3i`"
+msgstr ":ref:`class_vector3i`"
+
+msgid ":ref:`class_transform2d`"
+msgstr ":ref:`class_transform2d`"
+
+msgid ":ref:`class_vector4`"
+msgstr ":ref:`class_vector4`"
+
+msgid ":ref:`class_vector4i`"
+msgstr ":ref:`class_vector4i`"
+
+msgid ":ref:`class_plane`"
+msgstr ":ref:`class_plane`"
+
+msgid ":ref:`class_quaternion`"
+msgstr ":ref:`class_quaternion`"
+
+msgid ":ref:`class_aabb`"
+msgstr ":ref:`class_aabb`"
+
+msgid "3D counterpart of Rect2"
+msgstr "3D аналог Rect2"
+
+msgid ":ref:`class_basis`"
+msgstr ":ref:`class_basis`"
+
+msgid ":ref:`class_transform3d`"
+msgstr ":ref:`class_transform3d`"
+
+msgid ":ref:`class_projection`"
+msgstr ":ref:`class_projection`"
+
+msgid ":ref:`class_color`"
+msgstr ":ref:`class_color`"
+
+msgid ":ref:`class_stringname`"
+msgstr ":ref:`class_stringname`"
+
+msgid ":ref:`class_nodepath`"
+msgstr ":ref:`class_nodepath`"
+
+msgid ":ref:`class_rid`"
+msgstr ":ref:`class_rid`"
+
+msgid ":ref:`class_object`"
+msgstr ":ref:`class_object`"
+
+msgid ":ref:`class_callable`"
+msgstr ":ref:`class_callable`"
+
+msgid ":ref:`class_signal`"
+msgstr ":ref:`class_signal`"
+
+msgid ":ref:`class_dictionary`"
+msgstr ":ref:`class_dictionary`"
+
+msgid ":ref:`class_array`"
+msgstr ":ref:`class_array`"
+
+msgid ":ref:`class_packedbytearray`"
+msgstr ":ref:`class_packedbytearray`"
+
+msgid ":ref:`class_packedint32array`"
+msgstr ":ref:`class_packedint32array`"
+
+msgid ":ref:`class_packedint64array`"
+msgstr ":ref:`class_packedint64array`"
+
+msgid ":ref:`class_packedfloat32array`"
+msgstr ":ref:`class_packedfloat32array`"
+
+msgid ":ref:`class_packedfloat64array`"
+msgstr ":ref:`class_packedfloat64array`"
+
+msgid ":ref:`class_packedstringarray`"
+msgstr ":ref:`class_packedstringarray`"
+
+msgid ":ref:`class_packedvector2array`"
+msgstr ":ref:`class_packedvector2array`"
+
+msgid ":ref:`class_packedvector3array`"
+msgstr ":ref:`class_packedvector3array`"
+
+msgid ":ref:`class_packedcolorarray`"
+msgstr ":ref:`class_packedcolorarray`"
+
+msgid ":ref:`class_packedvector4array`"
+msgstr ":ref:`class_packedvector4array`"
+
+msgid "Containers: Array and Dictionary"
+msgstr "Контейнери: масив і словник"
+
+msgid ""
+"Both :ref:`class_array` and :ref:`class_dictionary` are implemented using "
+"variants. A Dictionary can match any datatype used as key to any other "
+"datatype. An Array just holds an array of Variants. Of course, a Variant can "
+"also hold a Dictionary or an Array inside, making it even more flexible."
+msgstr ""
+"І :ref:`class_array`, і :ref:`class_dictionary` реалізовано за допомогою "
+"варіантів. Словник може відповідати будь-якому типу даних, який "
+"використовується як ключ, до будь-якого іншого типу даних. Масив містить "
+"лише масив варіантів. Звичайно, варіант також може містити всередині словник "
+"або масив, що робить його ще більш гнучким."
+
+msgid ""
+"Modifications to a container will modify all references to it. A Mutex "
+"should be created to lock it if :ref:`multi-threaded access "
+"<doc_using_multiple_threads>` is desired."
+msgstr ""
+"Зміни в контейнері змінять усі посилання на нього. Необхідно створити Mutex, "
+"щоб заблокувати його, якщо потрібен :ref:`multi-threaded access "
+"<doc_using_multiple_threads>`."
 
 msgid ""
 "`core/variant/dictionary.h <https://github.com/godotengine/godot/blob/master/"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -191,11 +191,17 @@ msgstr "Godot 4.2"
 msgid "November 2023"
 msgstr "Samhain 2023"
 
+msgid "partial"
+msgstr "páirteach"
+
 msgid "Godot 4.1"
 msgstr "Godot 4.1"
 
 msgid "July 2023"
 msgstr "Iúil 2023"
+
+msgid "eol"
+msgstr "eol"
 
 msgid "Godot 4.0"
 msgstr "Godot 4.0"
@@ -205,9 +211,6 @@ msgstr "Márta 2023"
 
 msgid "|eol| No longer supported (last update: 4.0.4)."
 msgstr "|eol| Ní thacaítear a thuilleadh (nuashonrú deireanach: 4.0.4)."
-
-msgid "eol"
-msgstr "eol"
 
 msgid ""
 "|supported| *Beta.* Receives new features, usability and performance "
@@ -307,9 +310,6 @@ msgstr ""
 "**Finscéal: ** |tacaíth| Tacaíocht iomlán - | páirtiúil | Tacaíocht "
 "pháirteach - | eol| Gan tacaíocht (deireadh na saoil) - | neamhshubstainti| "
 "Leagan forbartha"
-
-msgid "partial"
-msgstr "páirteach"
 
 msgid ""
 "Pre-release Godot versions aren't intended to be used in production and are "
@@ -437,15 +437,6 @@ msgid ""
 msgstr ""
 "Cé nach bhfuil ranníocóirí Godot ag obair faoi aon spriocdhátaí, déanaimid "
 "ár ndícheall mion-eisiúintí a fhoilsiú go réasúnta minic."
-
-msgid ""
-"In particular, after the very length release cycle for 4.0, we are pivoting "
-"to a faster paced development workflow, 4.1 released 4 months after 4.0, and "
-"4.2 released 4 months after 4.1"
-msgstr ""
-"Go háirithe, tar éis an timthriall scaoilte an-fhada do 4.0, táimid ag "
-"teacht chun sreabhadh oibre forbartha níos gasta, 4.1 a scaoileadh 4 mhí tar "
-"éis 4.0, agus 4.2 a scaoileadh 4 mhí tar éis 4.1"
 
 msgid ""
 "Frequent minor releases will enable us to ship new features faster (possibly "
@@ -600,8 +591,8 @@ msgid ""
 "When modifying a method's signature in any fashion (including adding an "
 "optional parameter), a GDExtension compatibility method must be created. "
 "This ensures that existing GDExtensions continue to work across patch and "
-"minor releases, so that users don't have to recompile them. See :ref:"
-"`doc_handling_compatibility_breakages` for more information."
+"minor releases, so that users don't have to recompile them. "
+"See :ref:`doc_handling_compatibility_breakages` for more information."
 msgstr ""
 "Agus síniú modha á mhodhnú ar bhealach ar bith (lena n-áirítear paraiméadar "
 "roghnach a chur leis), caithfear modh comhoiriúnachta GDExtension a chruthú. "

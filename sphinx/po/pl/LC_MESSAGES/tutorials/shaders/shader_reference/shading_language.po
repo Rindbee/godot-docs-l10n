@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -104,11 +104,32 @@ msgstr "**isampler2D**"
 msgid "**usampler2D**"
 msgstr "**usampler2D**"
 
+msgid "**sampler2DArray**"
+msgstr "**sampler2DArray**"
+
+msgid "**isampler2DArray**"
+msgstr "**isampler2DArray**"
+
+msgid "**usampler2DArray**"
+msgstr "**usampler2DArray**"
+
+msgid "**sampler3D**"
+msgstr "**sampler3D**"
+
+msgid "**isampler3D**"
+msgstr "**isampler3D**"
+
+msgid "**usampler3D**"
+msgstr "**usampler3D**"
+
 msgid "**samplerCube**"
 msgstr "**samplerCube**"
 
 msgid "Comments"
 msgstr "Komentarze"
+
+msgid "Casting"
+msgstr "Rzutowanie"
 
 msgid "Example:"
 msgstr "Na przykład:"
@@ -118,6 +139,9 @@ msgstr "Członkowie"
 
 msgid "Constructing"
 msgstr "Konstruowanie"
+
+msgid "Swizzling"
+msgstr "Przypisanie mieszane"
 
 msgid "Precision"
 msgstr "Precyzja"
@@ -149,17 +173,26 @@ msgstr "**()**"
 msgid "2"
 msgstr "2"
 
+msgid "unary"
+msgstr "jednoargumentowy"
+
 msgid "**+, -, !, ~**"
 msgstr "**+, -, !, ~**"
 
 msgid "3"
 msgstr "3"
 
+msgid "multiplicative"
+msgstr "mnożące"
+
 msgid "**/, \\*, %**"
 msgstr "**/, \\*, %**"
 
 msgid "4"
 msgstr "4"
+
+msgid "additive"
+msgstr "sumujące"
 
 msgid "**+, -**"
 msgstr "**+, -**"
@@ -181,6 +214,9 @@ msgstr "**<, >, <=, >=**"
 
 msgid "7"
 msgstr "7"
+
+msgid "equality"
+msgstr "równość"
 
 msgid "**==, !=**"
 msgstr "**==, !=**"
@@ -224,6 +260,9 @@ msgstr "**||**"
 msgid "Flow control"
 msgstr "Płynna kontrola"
 
+msgid "Discarding"
+msgstr "Odrzucanie"
+
 msgid "Functions"
 msgstr "Funkcje"
 
@@ -233,8 +272,32 @@ msgstr "Przykład poniżej:"
 msgid "Varyings"
 msgstr "Varying"
 
+msgid "Qualifier"
+msgstr "Kwalifikator"
+
+msgid "**flat**"
+msgstr "**flat**"
+
+msgid "**smooth**"
+msgstr "**smooth**"
+
+msgid "Uniforms"
+msgstr "Uniformy"
+
 msgid "Hint"
 msgstr "Podpowiedz"
 
+msgid "hint_normal"
+msgstr "hint_normal"
+
 msgid "Notes"
 msgstr "Uwagi"
+
+msgid "**Vector2**"
+msgstr "**Vector2**"
+
+msgid "**Transform2D**"
+msgstr "**Transform2D**"
+
+msgid "**Basis**"
+msgstr "**Basis**"

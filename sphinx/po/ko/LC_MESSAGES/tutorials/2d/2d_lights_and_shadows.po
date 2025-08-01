@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,10 +12,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "2D lights and shadows"
-msgstr "2D 빛(lights)과 그림자(shadows)"
+msgstr "2D 빛과 그림자"
 
 msgid "Introduction"
 msgstr "소개"
 
+msgid "2D lights enabled (without shadows)"
+msgstr "2D 조명 활성화 (그림자 없음)"
+
+msgid "2D lights and shadows enabled"
+msgstr "2D 빛과 그림자 활성화"
+
 msgid "Nodes"
 msgstr "노드"
+
+msgid "Point lights"
+msgstr "점 조명"
+
+msgid "Normal and specular maps"
+msgstr "노멀 및 스페큘러 맵"

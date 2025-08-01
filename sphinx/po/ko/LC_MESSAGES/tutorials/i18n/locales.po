@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,6 +20,12 @@ msgstr "en"
 msgid "es"
 msgstr "es"
 
+msgid "Fon"
+msgstr "폰어"
+
+msgid "hne"
+msgstr "hne"
+
 msgid "is"
 msgstr "is"
 
@@ -28,6 +34,42 @@ msgstr "ja"
 
 msgid "ms"
 msgstr "ms"
+
+msgid "nog"
+msgstr "nog"
+
+msgid "nus"
+msgstr "nus"
+
+msgid "shs"
+msgstr "shs"
+
+msgid "sog"
+msgstr "sog"
+
+msgid "tog"
+msgstr "tog"
+
+msgid "xog"
+msgstr "xog"
+
+msgid "Script code"
+msgstr "스크립트 코드"
+
+msgid "SignWriting"
+msgstr "SignWriting"
+
+msgid "HR"
+msgstr "HR"
+
+msgid "Palestine"
+msgstr "팔레스타인"
+
+msgid "Portugal"
+msgstr "포르투갈"
+
+msgid "QA"
+msgstr "QA"
 
 msgid "Viet Nam"
 msgstr "베트남"

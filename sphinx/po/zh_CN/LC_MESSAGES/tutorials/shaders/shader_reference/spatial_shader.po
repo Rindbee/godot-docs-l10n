@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,6 +29,13 @@ msgstr ""
 
 msgid "Render modes"
 msgstr "渲染模式"
+
+msgid ""
+"For visual examples of these render modes, see :ref:`Standard Material 3D "
+"and ORM Material 3D<doc_standard_material_3d>`."
+msgstr ""
+"渲染模式的可视示例见《\\ :ref:`标准 3D 材质与 ORM 3D 材质 "
+"<doc_standard_material_3d>`\\ 》。"
 
 msgid "Render mode"
 msgstr "渲染模式"
@@ -117,17 +124,42 @@ msgstr "禁用剔除（双面）。"
 msgid "**unshaded**"
 msgstr "**unshaded**"
 
+msgid ""
+"Result is just albedo. No lighting/shading happens in material, making it "
+"faster to render."
+msgstr "结果只使用反照率。材质中不会发生照明/阴影，渲染更快。"
+
 msgid "**wireframe**"
 msgstr "**wireframe**"
+
+msgid "Geometry draws using lines (useful for troubleshooting)."
+msgstr "使用线段绘制几何体（常用于排查故障）。"
+
+msgid "**debug_shadow_splits**"
+msgstr "**debug_shadow_splits**"
+
+msgid ""
+"Directional shadows are drawn using different colors for each split (useful "
+"for troubleshooting)."
+msgstr "绘制方向阴影时为不同的拆分使用不同的颜色（常用于排查故障）。"
 
 msgid "**diffuse_burley**"
 msgstr "**diffuse_burley**"
 
+msgid "Burley (Disney PBS) for diffuse (default)."
+msgstr "漫反射使用 Burley（迪士尼 PBS）（默认值）。"
+
 msgid "**diffuse_lambert**"
 msgstr "**diffuse_lambert**"
 
+msgid "Lambert shading for diffuse."
+msgstr "漫反射使用 Lambert 着色。"
+
 msgid "**diffuse_lambert_wrap**"
 msgstr "**diffuse_lambert_wrap**"
+
+msgid "Lambert-wrap shading (roughness-dependent) for diffuse."
+msgstr "漫反射使用 Lambert 环绕着色（受粗糙度影响）。"
 
 msgid "**diffuse_toon**"
 msgstr "**diffuse_toon**"
@@ -138,17 +170,43 @@ msgstr "漫反射使用卡通着色。"
 msgid "**specular_schlick_ggx**"
 msgstr "**specular_schlick_ggx**"
 
+msgid "Schlick-GGX for direct light specular lobes (default)."
+msgstr "直接光照镜面反射高光使用 Schlick-GGX（默认）。"
+
 msgid "**specular_toon**"
 msgstr "**specular_toon**"
+
+msgid "Toon for direct light specular lobes."
+msgstr "直接光照镜面反射高光使用 Toon。"
 
 msgid "**specular_disabled**"
 msgstr "**specular_disabled**"
 
+msgid ""
+"Disable direct light specular lobes. Doesn't affect reflected light (use "
+"``SPECULAR = 0.0`` instead)."
+msgstr ""
+"禁用直接光照镜面反射高光。不影响反射光（请改用 ``SPECULAR = 0.0``\\ ）。"
+
 msgid "**skip_vertex_transform**"
 msgstr "**skip_vertex_transform**"
 
+msgid ""
+"``VERTEX``, ``NORMAL``, ``TANGENT``, and ``BITANGENT`` need to be "
+"transformed manually in the ``vertex()`` function."
+msgstr ""
+"``VERTEX``\\ 、\\ ``NORMAL``\\ 、\\ ``TANGENT``\\ 、\\ ``BITANGENT`` 等需要"
+"在 ``vertex()`` 函数中手动变换。"
+
 msgid "**world_vertex_coords**"
 msgstr "**world_vertex_coords**"
+
+msgid ""
+"``VERTEX``, ``NORMAL``, ``TANGENT``, and ``BITANGENT`` are modified in world "
+"space instead of model space."
+msgstr ""
+"``VERTEX``\\ 、\\ ``NORMAL``\\ 、\\ ``TANGENT``\\ 、\\ ``BITANGENT`` 等在世界"
+"空间中修改，而不是模型空间。"
 
 msgid "**ensure_correct_normals**"
 msgstr "**ensure_correct_normals**"
@@ -176,12 +234,21 @@ msgstr ""
 msgid "**vertex_lighting**"
 msgstr "**vertex_lighting**"
 
+msgid "**particle_trails**"
+msgstr "**particle_trails**"
+
+msgid "**alpha_to_coverage**"
+msgstr "**alpha_to_coverage**"
+
 msgid ""
 "Alpha antialiasing mode, see `here <https://github.com/godotengine/godot/"
 "pull/40364>`_ for more."
 msgstr ""
-"Alpha 抗锯齿模式，详见\\ `此处 <https://github.com/godotengine/godot/"
-"pull/40364>`_\\ 。"
+"Alpha 抗锯齿模式，详见\\ `此处 <https://github.com/godotengine/godot/pull/"
+"40364>`_\\ 。"
+
+msgid "**alpha_to_coverage_and_one**"
+msgstr "**alpha_to_coverage_and_one**"
 
 msgid "**fog_disabled**"
 msgstr "**fog_disabled**"
@@ -232,6 +299,16 @@ msgstr "``E`` 常数（\\ ``2.718281``\\ ）。欧拉数，即自然对数的底
 msgid "in bool **OUTPUT_IS_SRGB**"
 msgstr "in bool **OUTPUT_IS_SRGB**"
 
+msgid ""
+"``true`` when output is in sRGB color space (this is ``true`` in the "
+"Compatibility renderer, ``false`` in Forward+ and Mobile)."
+msgstr ""
+"输出使用 sRGB 色彩空间时为 ``true``\\ （兼容渲染器中为 ``true``\\ ，Forward+ "
+"和移动渲染器中为 ``false``\\ ）。"
+
+msgid "in float **CLIP_SPACE_FAR**"
+msgstr "in float **CLIP_SPACE_FAR**"
+
 msgid "Vertex built-ins"
 msgstr "顶点内置"
 
@@ -243,6 +320,9 @@ msgstr ""
 
 msgid "**x**: Rotation angle in radians."
 msgstr "**x**\\ ：旋转角度，单位为弧度。"
+
+msgid "**y**: Phase during lifetime (``0.0`` to ``1.0``)."
+msgstr "**y**\\ ：生命周期的阶段（\\ ``0.0`` 到 ``1.0``\\ ）。"
 
 msgid "**z**: Animation frame."
 msgstr "**z**\\ ：动画帧。"
@@ -265,19 +345,27 @@ msgid "in mat4 **VIEW_MATRIX**"
 msgstr "in mat4 **VIEW_MATRIX**"
 
 msgid "World space to view space transform."
-msgstr "世界空间向视图空间转变。"
+msgstr "世界空间到视图空间变换。"
 
 msgid "in mat4 **INV_VIEW_MATRIX**"
 msgstr "in mat4 **INV_VIEW_MATRIX**"
 
 msgid "View space to world space transform."
-msgstr "视图空间向世界空间变换."
+msgstr "视图空间到世界空间的变换。"
+
+msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
+msgstr "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
+
+msgid ""
+"View space to world space transform of camera used to draw the current "
+"viewport."
+msgstr "视图空间到绘制当前视口的相机的世界空间变换。"
 
 msgid "in mat4 **INV_PROJECTION_MATRIX**"
 msgstr "in mat4 **INV_PROJECTION_MATRIX**"
 
 msgid "Clip space to view space transform."
-msgstr "裁剪空间向视图空间变换。"
+msgstr "裁剪空间到视图空间的变换。"
 
 msgid "in vec3 **NODE_POSITION_WORLD**"
 msgstr "in vec3 **NODE_POSITION_WORLD**"
@@ -303,6 +391,9 @@ msgstr "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgid "Camera direction, in world space."
 msgstr "相机的方向，使用世界空间。"
 
+msgid "in uint **CAMERA_VISIBLE_LAYERS**"
+msgstr "in uint **CAMERA_VISIBLE_LAYERS**"
+
 msgid "Cull layers of the camera rendering the current pass."
 msgstr "剔除当前渲染阶段中相机不渲染的图层。"
 
@@ -310,7 +401,7 @@ msgid "in int **INSTANCE_ID**"
 msgstr "in int **INSTANCE_ID**"
 
 msgid "Instance ID for instancing."
-msgstr "实例化的实例ID."
+msgstr "实例化的实例 ID。"
 
 msgid "in vec4 **INSTANCE_CUSTOM**"
 msgstr "in vec4 **INSTANCE_CUSTOM**"
@@ -351,17 +442,39 @@ msgstr "正在渲染的眼睛处的偏移量，仅适用于多视图渲染。"
 msgid "inout vec3 **VERTEX**"
 msgstr "inout vec3 **VERTEX**"
 
+msgid ""
+"Position of the vertex, in model space. In world space if "
+"``world_vertex_coords`` is used."
+msgstr ""
+"模型空间中的顶点位置。如果使用了 ``world_vertex_coords`` 则使用世界空间。"
+
 msgid "in int **VERTEX_ID**"
 msgstr "in int **VERTEX_ID**"
+
+msgid "The index of the current vertex in the vertex buffer."
+msgstr "顶点缓冲区中当前顶点的索引。"
 
 msgid "inout vec3 **NORMAL**"
 msgstr "inout vec3 **NORMAL**"
 
+msgid ""
+"Normal in model space. In world space if ``world_vertex_coords`` is used."
+msgstr "模型空间中的法线。如果使用了 ``world_vertex_coords`` 则使用世界空间。"
+
 msgid "inout vec3 **TANGENT**"
 msgstr "inout vec3 **TANGENT**"
 
+msgid ""
+"Tangent in model space. In world space if ``world_vertex_coords`` is used."
+msgstr "模型空间中的切线。如果使用了 ``world_vertex_coords`` 则使用世界空间。"
+
 msgid "inout vec3 **BINORMAL**"
 msgstr "inout vec3 **BINORMAL**"
+
+msgid ""
+"Binormal in model space. In world space if ``world_vertex_coords`` is used."
+msgstr ""
+"模型空间中的副法线。如果使用了 ``world_vertex_coords`` 则使用世界空间。"
 
 msgid "out vec4 **POSITION**"
 msgstr "out vec4 **POSITION**"
@@ -414,6 +527,12 @@ msgstr "inout mat4 **PROJECTION_MATRIX**"
 msgid "View space to clip space transform."
 msgstr "视图空间向裁剪空间变换."
 
+msgid "in uvec4 **BONE_INDICES**"
+msgstr "in uvec4 **BONE_INDICES**"
+
+msgid "in vec4 **BONE_WEIGHTS**"
+msgstr "in vec4 **BONE_WEIGHTS**"
+
 msgid "in vec4 **CUSTOM0**"
 msgstr "in vec4 **CUSTOM0**"
 
@@ -445,6 +564,9 @@ msgstr "in vec4 **FRAGCOORD**"
 msgid "in bool **FRONT_FACING**"
 msgstr "in bool **FRONT_FACING**"
 
+msgid "``true`` if current face is front facing, ``false`` otherwise."
+msgstr "如果当前的面展示的是正面则为 ``true``\\ ，否则为 ``false``\\ 。"
+
 msgid "in vec3 **VIEW**"
 msgstr "in vec3 **VIEW**"
 
@@ -458,14 +580,26 @@ msgstr ""
 msgid "in vec2 **UV**"
 msgstr "in vec2 **UV**"
 
+msgid "UV that comes from the ``vertex()`` function."
+msgstr "来自 ``vertex()`` 函数的 UV。"
+
 msgid "in vec2 **UV2**"
 msgstr "in vec2 **UV2**"
+
+msgid "UV2 that comes from the ``vertex()`` function."
+msgstr "来自 ``vertex()`` 函数的 UV2。"
 
 msgid "in vec4 **COLOR**"
 msgstr "in vec4 **COLOR**"
 
+msgid "COLOR that comes from the ``vertex()`` function."
+msgstr "来自 ``vertex()`` 函数的 COLOR。"
+
 msgid "in vec2 **POINT_COORD**"
 msgstr "in vec2 **POINT_COORD**"
+
+msgid "Point coordinate for drawing points with ``POINT_SIZE``."
+msgstr "使用 ``POINT_SIZE`` 绘制点的点坐标。"
 
 msgid "in mat4 **PROJECTION_MATRIX**"
 msgstr "in mat4 **PROJECTION_MATRIX**"
@@ -513,8 +647,14 @@ msgstr "out vec3 **NORMAL_MAP**"
 msgid "out float **NORMAL_MAP_DEPTH**"
 msgstr "out float **NORMAL_MAP_DEPTH**"
 
+msgid "Depth from ``NORMAL_MAP``. Defaults to ``1.0``."
+msgstr "``NORMAL_MAP`` 中的深度。默认为 ``1.0``\\ 。"
+
 msgid "out vec3 **ALBEDO**"
 msgstr "out vec3 **ALBEDO**"
+
+msgid "Albedo (default white). Base color."
+msgstr "反照率（默认为白色）。基础颜色。"
 
 msgid "out float **ALPHA**"
 msgstr "out float **ALPHA**"
@@ -537,8 +677,14 @@ msgstr "out vec2 **ALPHA_TEXTURE_COORDINATE**"
 msgid "out float **METALLIC**"
 msgstr "out float **METALLIC**"
 
+msgid "Metallic (range of ``[0.0, 1.0]``)."
+msgstr "金属性（范围为 ``[0.0, 1.0]``\\ ）。"
+
 msgid "out float **SPECULAR**"
 msgstr "out float **SPECULAR**"
+
+msgid "Roughness (range of ``[0.0, 1.0]``)."
+msgstr "粗糙度（范围为 ``[0.0, 1.0]``\\ ）。"
 
 msgid "out float **RIM**"
 msgstr "out float **RIM**"

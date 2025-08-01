@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,7 +12,57 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Type"
-msgstr "타입"
+msgstr "유형"
 
 msgid "Location"
 msgstr "위치"
+
+msgid "Default"
+msgstr "디폴트"
+
+msgid "Windows: ``%APPDATA%\\Godot\\app_userdata\\[project_name]``"
+msgstr "Windows: ``%APPDATA%\\Godot\\app_userdata\\[프로젝트_이름]``"
+
+msgid ""
+"macOS: ``~/Library/Application Support/Godot/app_userdata/[project_name]``"
+msgstr ""
+"macOS: ``~/Library/Application Support/Godot/app_userdata/[프로젝트_이름]``"
+
+msgid "Linux: ``~/.local/share/godot/app_userdata/[project_name]``"
+msgstr "Linux: ``~/.local/share/godot/app_userdata/[프로젝트_이름]``"
+
+msgid "Custom dir"
+msgstr "커스텀 디렉터리"
+
+msgid "Windows: ``%APPDATA%\\[project_name]``"
+msgstr "Windows: ``%APPDATA%\\[프로젝트_이름]``"
+
+msgid "macOS: ``~/Library/Application Support/[project_name]``"
+msgstr "macOS: ``~/Library/Application Support/[프로젝트_이름]``"
+
+msgid "Linux: ``~/.local/share/[project_name]``"
+msgstr "Linux: ``~/.local/share/[프로젝트_이름]``"
+
+msgid "Custom dir and name"
+msgstr "커스텀 디렉터리와 이름"
+
+msgid "Windows: ``%APPDATA%\\[custom_user_dir_name]``"
+msgstr "Windows: ``%APPDATA%\\[커스텀_사용자_디렉터리_이름]``"
+
+msgid "macOS: ``~/Library/Application Support/[custom_user_dir_name]``"
+msgstr "macOS: ``~/Library/Application Support/[커스텀_사용자_디렉터리_이름]``"
+
+msgid "Linux: ``~/.local/share/[custom_user_dir_name]``"
+msgstr "Linux: ``~/.local/share/[커스텀_사용자_디렉터리_이름]``"
+
+msgid "Editor data paths"
+msgstr "편집기 데이터 경로"
+
+msgid "Editor data"
+msgstr "편집기 데이터"
+
+msgid "Editor settings"
+msgstr "편집기 설정"
+
+msgid "Cache"
+msgstr "캐시"

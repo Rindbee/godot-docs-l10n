@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,21 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Making HTTP requests"
+msgstr "Fare richieste HTTP"
+
+msgid "HTTP requests in Godot"
+msgstr "Richieste HTTP in Godot"
+
+msgid "Preparing the scene"
+msgstr "Preparare la scena"
+
+msgid "Scripting the request"
+msgstr "Programmare la richiesta"
+
+msgid "Sending data to the server"
+msgstr "Inviare dati al server"
+
+msgid "Setting custom HTTP headers"
+msgstr "Impostare intestazioni HTTP personalizzate"

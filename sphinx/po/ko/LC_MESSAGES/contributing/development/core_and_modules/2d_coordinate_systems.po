@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "2D coordinate systems and 2D transforms"
+msgstr "2D 좌표계와 2D 변형"
+
 msgid "Introduction"
 msgstr "소개"
+
+msgid "Godot 2D coordinate systems"
+msgstr "Godot 2D 좌표계"
+
+msgid "**Viewport canvas transform**"
+msgstr "**뷰포트 캔버스 변형**"
+
+msgid "**Viewport global canvas transform**"
+msgstr "**뷰포트 전역 캔버스 변형**"
+
+msgid "**Viewport stretch transform**"
+msgstr "**뷰포트 늘이기 변형**"
+
+msgid "**Window transform**"
+msgstr "**창 변형**"
+
+msgid "**Window position**"
+msgstr "**창 위치**"
+
+msgid "**SubViewportContainer shrink transform**"
+msgstr "**SubViewportContainer 수축 변형**"

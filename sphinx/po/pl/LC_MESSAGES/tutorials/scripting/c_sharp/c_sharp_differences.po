@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -26,6 +26,12 @@ msgstr "GDScript"
 msgid "C#"
 msgstr "C#"
 
+msgid "``TYPE_*``"
+msgstr "``TYPE_*``"
+
+msgid "``OP_*``"
+msgstr "``OP_*``"
+
 msgid ""
 "Math global functions, like ``abs``, ``acos``, ``asin``, ``atan`` and "
 "``atan2``, are located under ``Mathf`` as ``Abs``, ``Acos``, ``Asin``, "
@@ -36,22 +42,649 @@ msgstr ""
 "jest w ``Matf.PI``."
 
 msgid "Exceptions:"
-msgstr "Opcje Eksportu:"
+msgstr "Wyjątki:"
+
+msgid "``weakref(obj)``"
+msgstr "``weakref(obiekt)``"
+
+msgid "``GodotObject.WeakRef(obj)``"
+msgstr "``GodotObject.WeakRef(obj)``"
+
+msgid "``instance_from_id(id)``"
+msgstr "``instance_from_id(id)``"
+
+msgid "``GodotObject.InstanceFromId(id)``"
+msgstr "``GodotObject.InstanceFromId(id)``"
+
+msgid "``is_instance_id_valid(id)``"
+msgstr "``is_instance_id_valid(id)``"
+
+msgid "``GodotObject.IsInstanceIdValid(id)``"
+msgstr "``GodotObject.IsInstanceIdValid(id)``"
+
+msgid "``is_instance_valid(obj)``"
+msgstr "``is_instance_valid(obiekt)``"
+
+msgid "``GodotObject.IsInstanceValid(obj)``"
+msgstr "``GodotObject.IsInstanceValid(obj)``"
+
+msgid "Tips"
+msgstr "Porady"
 
 msgid "Example:"
 msgstr "Na przykład:"
 
+msgid "abs"
+msgstr "abs"
+
+msgid "Mathf.Abs"
+msgstr "Mathf.Abs"
+
+msgid "absf"
+msgstr "absf"
+
+msgid "absi"
+msgstr "absi"
+
+msgid "acos"
+msgstr "acos"
+
+msgid "Mathf.Acos"
+msgstr "Mathf.Acos"
+
+msgid "asin"
+msgstr "asin"
+
+msgid "Mathf.Asin"
+msgstr "Mathf.Asin"
+
+msgid "atan"
+msgstr "atan"
+
+msgid "Mathf.Atan"
+msgstr "Mathf.Atan"
+
+msgid "atan2"
+msgstr "atan2"
+
+msgid "Mathf.Atan2"
+msgstr "Mathf.Atan2"
+
+msgid "bezier_derivative"
+msgstr "bezier_derivative"
+
+msgid "Mathf.BezierDerivative"
+msgstr "Mathf.BezierDerivative"
+
+msgid "bezier_interpolate"
+msgstr "bezier_interpolate"
+
+msgid "Mathf.BezierInterpolate"
+msgstr "Mathf.BezierInterpolate"
+
+msgid "bytes_to_var"
+msgstr "bytes_to_var"
+
+msgid "GD.BytesToVar"
+msgstr "GD.BytesToVar"
+
+msgid "bytes_to_var_with_objects"
+msgstr "bytes_to_var_with_objects"
+
+msgid "GD.BytesToVarWithObjects"
+msgstr "GD.BytesToVarWithObjects"
+
+msgid "ceil"
+msgstr "ceil"
+
+msgid "Mathf.Ceil"
+msgstr "Mathf.Ceil"
+
+msgid "ceilf"
+msgstr "ceilf"
+
+msgid "ceili"
+msgstr "ceili"
+
+msgid "Mathf.CeilToInt"
+msgstr "Mathf.CeilToInt"
+
+msgid "clamp"
+msgstr "clamp"
+
+msgid "Mathf.Clamp"
+msgstr "Mathf.Clamp"
+
+msgid "clampf"
+msgstr "clampf"
+
+msgid "clampi"
+msgstr "clampi"
+
+msgid "cos"
+msgstr "cos"
+
+msgid "Mathf.Cos"
+msgstr "Mathf.Cos"
+
+msgid "cosh"
+msgstr "cosh"
+
+msgid "Mathf.Cosh"
+msgstr "Mathf.Cosh"
+
+msgid "cubic_interpolate"
+msgstr "cubic_interpolate"
+
+msgid "Mathf.CubicInterpolate"
+msgstr "Mathf.CubicInterpolate"
+
+msgid "Mathf.CubicInterpolateAngle"
+msgstr "Mathf.CubicInterpolateAngle"
+
+msgid "cubic_interpolate_angle_in_time"
+msgstr "cubic_interpolate_angle_in_time"
+
+msgid "Mathf.CubicInterpolateInTime"
+msgstr "Mathf.CubicInterpolateInTime"
+
+msgid "cubic_interpolate_in_time"
+msgstr "cubic_interpolate_in_time"
+
+msgid "Mathf.CubicInterpolateAngleInTime"
+msgstr "Mathf.CubicInterpolateAngleInTime"
+
+msgid "db_to_linear"
+msgstr "db_to_linear"
+
+msgid "Mathf.DbToLinear"
+msgstr "Mathf.DbToLinear"
+
+msgid "deg_to_rad"
+msgstr "deg_to_rad"
+
+msgid "Mathf.DegToRad"
+msgstr "Mathf.DegToRad"
+
+msgid "ease"
+msgstr "ease"
+
+msgid "Mathf.Ease"
+msgstr "Mathf.Ease"
+
+msgid "error_string"
+msgstr "error_string"
+
+msgid "Error.ToString"
+msgstr "Error.ToString"
+
+msgid "exp"
+msgstr "exp"
+
+msgid "Mathf.Exp"
+msgstr "Mathf.Exp"
+
+msgid "floor"
+msgstr "floor"
+
+msgid "Mathf.Floor"
+msgstr "Mathf.Floor"
+
+msgid "floorf"
+msgstr "floorf"
+
+msgid "floori"
+msgstr "floori"
+
+msgid "Mathf.FloorToInt"
+msgstr "Mathf.FloorToInt"
+
+msgid "fmod"
+msgstr "fmod"
+
+msgid "fposmod"
+msgstr "fposmod"
+
+msgid "Mathf.PosMod"
+msgstr "Mathf.PosMod"
+
+msgid "hash"
+msgstr "hash"
+
+msgid "GD.Hash"
+msgstr "GD.Hash"
+
+msgid "instance_from_id"
+msgstr "instance_from_id"
+
+msgid "GodotObject.InstanceFromId"
+msgstr "GodotObject.InstanceFromId"
+
+msgid "inverse_lerp"
+msgstr "inverse_lerp"
+
+msgid "Mathf.InverseLerp"
+msgstr "Mathf.InverseLerp"
+
+msgid "is_equal_approx"
+msgstr "is_equal_approx"
+
+msgid "Mathf.IsEqualApprox"
+msgstr "Mathf.IsEqualApprox"
+
+msgid "is_finite"
+msgstr "is_finite"
+
+msgid "is_inf"
+msgstr "is_inf"
+
+msgid "is_instance_id_valid"
+msgstr "is_instance_id_valid"
+
+msgid "GodotObject.IsInstanceIdValid"
+msgstr "GodotObject.IsInstanceIdValid"
+
+msgid "is_instance_valid"
+msgstr "is_instance_valid"
+
+msgid "GodotObject.IsInstanceValid"
+msgstr "GodotObject.IsInstanceValid"
+
+msgid "is_nan"
+msgstr "is_nan"
+
+msgid "is_same"
+msgstr "is_same"
+
+msgid "is_zero_approx"
+msgstr "is_zero_approx"
+
+msgid "Mathf.IsZeroApprox"
+msgstr "Mathf.IsZeroApprox"
+
+msgid "lerp"
+msgstr "lerp"
+
+msgid "Mathf.Lerp"
+msgstr "Mathf.Lerp"
+
+msgid "lerp_angle"
+msgstr "lerp_angle"
+
+msgid "Mathf.LerpAngle"
+msgstr "Mathf.LerpAngle"
+
+msgid "lerpf"
+msgstr "lerpf"
+
+msgid "linear_to_db"
+msgstr "linear_to_db"
+
+msgid "Mathf.LinearToDb"
+msgstr "Mathf.LinearToDb"
+
 msgid "log"
 msgstr "log"
+
+msgid "Mathf.Log"
+msgstr "Mathf.Log"
 
 msgid "max"
 msgstr "max"
 
+msgid "Mathf.Max"
+msgstr "Mathf.Max"
+
+msgid "maxf"
+msgstr "maxf"
+
+msgid "maxi"
+msgstr "maxi"
+
+msgid "min"
+msgstr "min"
+
+msgid "Mathf.Min"
+msgstr "Mathf.Min"
+
+msgid "minf"
+msgstr "minf"
+
+msgid "mini"
+msgstr "mini"
+
+msgid "move_toward"
+msgstr "move_toward"
+
+msgid "Mathf.MoveToward"
+msgstr "Mathf.MoveToward"
+
+msgid "nearest_po2"
+msgstr "nearest_po2"
+
+msgid "Mathf.NearestPo2"
+msgstr "Mathf.NearestPo2"
+
+msgid "pingpong"
+msgstr "pingpong"
+
+msgid "Mathf.PingPong"
+msgstr "Mathf.PingPong"
+
+msgid "posmod"
+msgstr "posmod"
+
+msgid "pow"
+msgstr "pow"
+
+msgid "Mathf.Pow"
+msgstr "Mathf.Pow"
+
+msgid "print"
+msgstr "print"
+
+msgid "GD.Print"
+msgstr "GD.Print"
+
+msgid "print_rich"
+msgstr "print_rich"
+
+msgid "GD.PrintRich"
+msgstr "GD.PrintRich"
+
+msgid "print_verbose"
+msgstr "print_verbose"
+
+msgid "printerr"
+msgstr "printerr"
+
+msgid "GD.PrintErr"
+msgstr "GD.PrintErr"
+
+msgid "printraw"
+msgstr "printraw"
+
+msgid "GD.PrintRaw"
+msgstr "GD.PrintRaw"
+
+msgid "prints"
+msgstr "prints"
+
+msgid "GD.PrintS"
+msgstr "GD.PrintS"
+
+msgid "printt"
+msgstr "printt"
+
+msgid "GD.PrintT"
+msgstr "GD.PrintT"
+
+msgid "push_error"
+msgstr "push_error"
+
+msgid "GD.PushError"
+msgstr "GD.PushError"
+
+msgid "push_warning"
+msgstr "push_warning"
+
+msgid "GD.PushWarning"
+msgstr "GD.PushWarning"
+
+msgid "rad_to_deg"
+msgstr "rad_to_deg"
+
+msgid "Mathf.RadToDeg"
+msgstr "Mathf.RadToDeg"
+
+msgid "rand_from_seed"
+msgstr "rand_from_seed"
+
+msgid "GD.RandFromSeed"
+msgstr "GD.RandFromSeed"
+
+msgid "randf"
+msgstr "randf"
+
+msgid "GD.Randf"
+msgstr "GD.Randf"
+
+msgid "randf_range"
+msgstr "randf_range"
+
+msgid "GD.RandRange"
+msgstr "GD.RandRange"
+
+msgid "randfn"
+msgstr "randfn"
+
+msgid "GD.Randfn"
+msgstr "GD.Randfn"
+
+msgid "randi"
+msgstr "randi"
+
+msgid "GD.Randi"
+msgstr "GD.Randi"
+
+msgid "randi_range"
+msgstr "randi_range"
+
+msgid "randomize"
+msgstr "randomize"
+
+msgid "GD.Randomize"
+msgstr "GD.Randomize"
+
+msgid "remap"
+msgstr "remap"
+
+msgid "Mathf.Remap"
+msgstr "Mathf.Remap"
+
+msgid "rid_allocate_id"
+msgstr "rid_allocate_id"
+
+msgid "N/A"
+msgstr "ND."
+
+msgid "rid_from_int64"
+msgstr "rid_from_int64"
+
+msgid "round"
+msgstr "round"
+
+msgid "Mathf.Round"
+msgstr "Mathf.Round"
+
+msgid "roundf"
+msgstr "roundf"
+
+msgid "roundi"
+msgstr "roundi"
+
+msgid "Mathf.RoundToInt"
+msgstr "Mathf.RoundToInt"
+
+msgid "seed"
+msgstr "seed"
+
+msgid "GD.Seed"
+msgstr "GD.Seed"
+
+msgid "sign"
+msgstr "sign"
+
+msgid "Mathf.Sign"
+msgstr "Mathf.Sign"
+
+msgid "signf"
+msgstr "signf"
+
+msgid "signi"
+msgstr "signi"
+
+msgid "sin"
+msgstr "sin"
+
+msgid "Mathf.Sin"
+msgstr "Mathf.Sin"
+
+msgid "sinh"
+msgstr "sinh"
+
+msgid "Mathf.Sinh"
+msgstr "Mathf.Sinh"
+
+msgid "smoothstep"
+msgstr "smoothstep"
+
+msgid "Mathf.SmoothStep"
+msgstr "Mathf.SmoothStep"
+
+msgid "snapped"
+msgstr "snapped"
+
+msgid "Mathf.Snapped"
+msgstr "Mathf.Snapped"
+
+msgid "snappedf"
+msgstr "snappedf"
+
+msgid "snappedi"
+msgstr "snappedi"
+
+msgid "sqrt"
+msgstr "sqrt"
+
+msgid "Mathf.Sqrt"
+msgstr "Mathf.Sqrt"
+
+msgid "step_decimals"
+msgstr "step_decimals"
+
+msgid "Mathf.StepDecimals"
+msgstr "Mathf.StepDecimals"
+
+msgid "str"
+msgstr "str"
+
+msgid "str_to_var"
+msgstr "str_to_var"
+
+msgid "GD.StrToVar"
+msgstr "GD.StrToVar"
+
+msgid "tan"
+msgstr "tan"
+
+msgid "Mathf.Tan"
+msgstr "Mathf.Tan"
+
+msgid "tanh"
+msgstr "tanh"
+
+msgid "Mathf.Tanh"
+msgstr "Mathf.Tanh"
+
+msgid "typeof"
+msgstr "typeof"
+
+msgid "Variant.VariantType"
+msgstr "Variant.VariantType"
+
+msgid "var_to_bytes"
+msgstr "var_to_bytes"
+
+msgid "GD.VarToBytes"
+msgstr "GD.VarToBytes"
+
+msgid "var_to_bytes_with_objects"
+msgstr "var_to_bytes_with_objects"
+
+msgid "GD.VarToBytesWithObjects"
+msgstr "GD.VarToBytesWithObjects"
+
+msgid "var_to_str"
+msgstr "var_to_str"
+
+msgid "GD.VarToStr"
+msgstr "GD.VarToStr"
+
+msgid "weakref"
+msgstr "weakref"
+
+msgid "GodotObject.WeakRef"
+msgstr "GodotObject.WeakRef"
+
+msgid "wrap"
+msgstr "wrap"
+
+msgid "Mathf.Wrap"
+msgstr "Mathf.Wrap"
+
+msgid "wrapf"
+msgstr "wrapf"
+
+msgid "wrapi"
+msgstr "wrapi"
+
 msgid "assert"
 msgstr "assert"
 
+msgid "`System.Diagnostics.Debug.Assert`_"
+msgstr "`System.Diagnostics.Debug.Assert`_"
+
+msgid "char"
+msgstr "char"
+
+msgid "convert"
+msgstr "convert"
+
+msgid "GD.Convert"
+msgstr "GD.Convert"
+
+msgid "dict_to_inst"
+msgstr "dict_to_inst"
+
+msgid "get_stack"
+msgstr "get_stack"
+
+msgid "`System.Environment.StackTrace`_"
+msgstr "`System.Environment.StackTrace`_"
+
+msgid "inst_to_dict"
+msgstr "inst_to_dict"
+
+msgid "len"
+msgstr "len"
+
+msgid "load"
+msgstr "load"
+
+msgid "GD.Load"
+msgstr "GD.Load"
+
 msgid "preload"
 msgstr "preload"
+
+msgid "print_debug"
+msgstr "print_debug"
+
+msgid "print_stack"
+msgstr "print_stack"
+
+msgid "GD.Print(`System.Environment.StackTrace`_)"
+msgstr "GD.Print(`System.Environment.StackTrace`_)"
+
+msgid "range"
+msgstr "range"
+
+msgid "type_exists"
+msgstr "type_exists"
+
+msgid "ClassDB.ClassExists(type)"
+msgstr "ClassDB.ClassExists(type)"
 
 msgid "See also: :ref:`doc_c_sharp_signals`."
 msgstr "Zobacz również: :ref:`c_sharp_signals`."
@@ -62,8 +695,278 @@ msgstr "Singletony"
 msgid "String"
 msgstr "String"
 
+msgid "begins_with"
+msgstr "begins_with"
+
+msgid "`string.StartsWith`_"
+msgstr "`string.StartsWith`_"
+
+msgid "bigrams"
+msgstr "bigrams"
+
+msgid "StringExtensions.Bigrams"
+msgstr "StringExtensions.Bigrams"
+
+msgid "bin_to_int"
+msgstr "bin_to_int"
+
+msgid "StringExtensions.BinToInt"
+msgstr "StringExtensions.BinToInt"
+
+msgid "c_escape"
+msgstr "c_escape"
+
+msgid "StringExtensions.CEscape"
+msgstr "StringExtensions.CEscape"
+
+msgid "c_unescape"
+msgstr "c_unescape"
+
+msgid "StringExtensions.CUnescape"
+msgstr "StringExtensions.CUnescape"
+
+msgid "capitalize"
+msgstr "capitalize"
+
+msgid "StringExtensions.Capitalize"
+msgstr "StringExtensions.Capitalize"
+
+msgid "casecmp_to"
+msgstr "casecmp_to"
+
+msgid "chr"
+msgstr "chr"
+
+msgid "contains"
+msgstr "contains"
+
+msgid "`string.Contains`_"
+msgstr "`string.Contains`_"
+
+msgid "count"
+msgstr "count"
+
+msgid "countn"
+msgstr "countn"
+
+msgid "dedent"
+msgstr "dedent"
+
+msgid "StringExtensions.Dedent"
+msgstr "StringExtensions.Dedent"
+
+msgid "ends_with"
+msgstr "ends_with"
+
+msgid "`string.EndsWith`_"
+msgstr "`string.EndsWith`_"
+
+msgid "erase"
+msgstr "erase"
+
+msgid "find"
+msgstr "find"
+
+msgid "findn"
+msgstr "findn"
+
+msgid "format"
+msgstr "format"
+
+msgid "get_base_dir"
+msgstr "get_base_dir"
+
+msgid "StringExtensions.GetBaseDir"
+msgstr "StringExtensions.GetBaseDir"
+
+msgid "get_basename"
+msgstr "get_basename"
+
+msgid "StringExtensions.GetBaseName"
+msgstr "StringExtensions.GetBaseName"
+
+msgid "get_extension"
+msgstr "get_extension"
+
+msgid "StringExtensions.GetExtension"
+msgstr "StringExtensions.GetExtension"
+
+msgid "get_file"
+msgstr "get_file"
+
+msgid "StringExtensions.GetFile"
+msgstr "StringExtensions.GetFile"
+
+msgid "get_slice"
+msgstr "get_slice"
+
+msgid "get_slice_count"
+msgstr "get_slice_count"
+
+msgid "get_slicec"
+msgstr "get_slicec"
+
+msgid "hex_decode"
+msgstr "hex_decode"
+
+msgid "hex_to_int"
+msgstr "hex_to_int"
+
+msgid "humanize_size"
+msgstr "humanize_size"
+
+msgid "indent"
+msgstr "indent"
+
+msgid "StringExtensions.Indent"
+msgstr "StringExtensions.Indent"
+
+msgid "insert"
+msgstr "insert"
+
+msgid "is_absolute_path"
+msgstr "is_absolute_path"
+
+msgid "StringExtensions.IsAbsolutePath"
+msgstr "StringExtensions.IsAbsolutePath"
+
+msgid "is_empty"
+msgstr "is_empty"
+
+msgid "is_relative_path"
+msgstr "is_relative_path"
+
+msgid "StringExtensions.IsRelativePath"
+msgstr "StringExtensions.IsRelativePath"
+
+msgid "is_subsequence_of"
+msgstr "is_subsequence_of"
+
+msgid "StringExtensions.IsSubsequenceOf"
+msgstr "StringExtensions.IsSubsequenceOf"
+
+msgid "is_subsequence_ofn"
+msgstr "is_subsequence_ofn"
+
+msgid "StringExtensions.IsSubsequenceOfN"
+msgstr "StringExtensions.IsSubsequenceOfN"
+
+msgid "is_valid_filename"
+msgstr "is_valid_filename"
+
+msgid "StringExtensions.IsValidFileName"
+msgstr "StringExtensions.IsValidFileName"
+
+msgid "is_valid_float"
+msgstr "is_valid_float"
+
+msgid "is_valid_hex_number"
+msgstr "is_valid_hex_number"
+
+msgid "StringExtensions.IsValidHexNumber"
+msgstr "StringExtensions.IsValidHexNumber"
+
+msgid "is_valid_html_color"
+msgstr "is_valid_html_color"
+
+msgid "StringExtensions.IsValidHtmlColor"
+msgstr "StringExtensions.IsValidHtmlColor"
+
+msgid "is_valid_identifier"
+msgstr "is_valid_identifier"
+
+msgid "StringExtensions.IsValidIdentifier"
+msgstr "StringExtensions.IsValidIdentifier"
+
+msgid "is_valid_int"
+msgstr "is_valid_int"
+
+msgid "is_valid_ip_address"
+msgstr "is_valid_ip_address"
+
+msgid "StringExtensions.IsValidIPAddress"
+msgstr "StringExtensions.IsValidIPAddress"
+
+msgid "join"
+msgstr "join"
+
+msgid "`string.Join`_"
+msgstr "`string.Join`_"
+
+msgid "json_escape"
+msgstr "json_escape"
+
+msgid "StringExtensions.JSONEscape"
+msgstr "StringExtensions.JSONEscape"
+
+msgid "left"
+msgstr "left"
+
+msgid "length"
+msgstr "length"
+
+msgid "`string.Length`_"
+msgstr "`string.Length`_"
+
+msgid "lpad"
+msgstr "lpad"
+
+msgid "`string.PadLeft`_"
+msgstr "`string.PadLeft`_"
+
+msgid "lstrip"
+msgstr "lstrip"
+
+msgid "`string.TrimStart`_"
+msgstr "`string.TrimStart`_"
+
 msgid "match"
 msgstr "match"
+
+msgid "matchn"
+msgstr "matchn"
+
+msgid "md5_buffer"
+msgstr "md5_buffer"
+
+msgid "md5_text"
+msgstr "md5_text"
+
+msgid "naturalnocasecmp_to"
+msgstr "naturalnocasecmp_to"
+
+msgid "nocasecmp_to"
+msgstr "nocasecmp_to"
+
+msgid "num"
+msgstr "num"
+
+msgid "num_int64"
+msgstr "num_int64"
+
+msgid "num_scientific"
+msgstr "num_scientific"
+
+msgid "num_uint64"
+msgstr "num_uint64"
+
+msgid "pad_decimals"
+msgstr "pad_decimals"
+
+msgid "StringExtensions.PadDecimals"
+msgstr "StringExtensions.PadDecimals"
+
+msgid "pad_zeros"
+msgstr "pad_zeros"
+
+msgid "StringExtensions.PadZeros"
+msgstr "StringExtensions.PadZeros"
+
+msgid "path_join"
+msgstr "path_join"
+
+msgid "StringExtensions.PathJoin"
+msgstr "StringExtensions.PathJoin"
 
 msgid "NodePath"
 msgstr "NodePath"
@@ -84,14 +987,62 @@ msgstr "Pozbądź się"
 msgid "Basis"
 msgstr "Podstawa"
 
+msgid "``get_scale()``"
+msgstr "``get_scale()``"
+
+msgid "``Scale``"
+msgstr "``Scale``"
+
 msgid "Transform2D"
 msgstr "Transform2D"
+
+msgid "``get_rotation()``"
+msgstr "``get_rotation()``"
+
+msgid "``Rotation``"
+msgstr "``Rotation``"
 
 msgid "Rect2"
 msgstr "Rect2"
 
+msgid "``end``"
+msgstr "``end``"
+
+msgid "``End``"
+msgstr "``End``"
+
+msgid "``get_area()``"
+msgstr "``get_area()``"
+
+msgid "``Area``"
+msgstr "``Area``"
+
 msgid "Color"
 msgstr "Kolor"
+
+msgid "``get_luminance()``"
+msgstr "``get_luminance()``"
+
+msgid "``Luminance``"
+msgstr "``Luminance``"
+
+msgid "``html(String)``"
+msgstr "``html(String)``"
+
+msgid "``FromHtml(ReadOnlySpan<char>)``"
+msgstr "``FromHtml(ReadOnlySpan<char>)``"
+
+msgid "``hex(int)``"
+msgstr "``hex(int)``"
+
+msgid "``Color(uint)``"
+msgstr "``Color(uint)``"
+
+msgid "``hex64(int)``"
+msgstr "``hex64(int)``"
+
+msgid "``Color(ulong)``"
+msgstr "``Color(ulong)``"
 
 msgid "Array"
 msgstr "Tablica"

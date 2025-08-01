@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -22,4 +22,4 @@ msgstr "本教程的这一部分介绍如何使用 Godot 中的两个动画节�
 msgid ""
 "See :ref:`doc_importing_3d_scenes` for information on importing animations "
 "from a 3D model."
-msgstr "有关从 3D 模型导入动画的信息，请参阅 :ref:`doc_importing_3d_scenes`。"
+msgstr "从 3D 模型中导入动画见《\\ :ref:`doc_importing_3d_scenes`\\ 》。"

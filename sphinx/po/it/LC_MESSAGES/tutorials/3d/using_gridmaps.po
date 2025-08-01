@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,14 +11,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using GridMaps"
+msgstr "Utilizzo di GridMap"
+
 msgid "Introduction"
 msgstr "Introduzione"
 
 msgid "Example project"
 msgstr "Progetto d'esempio"
 
+msgid ""
+"To learn how GridMaps work, start by downloading the sample project: "
+"`gridmap_starter.zip <https://github.com/godotengine/godot-docs-project-"
+"starters/releases/download/latest-4.x/gridmap_starter.zip>`_."
+msgstr ""
+"Per imparare come funzionano le GridMap, inizia scaricando il progetto di "
+"esempio: `gridmap_starter.zip <https://github.com/godotengine/godot-docs-"
+"project-starters/releases/download/latest-4.x/gridmap_starter.zip>`_."
+
 msgid "Collisions"
 msgstr "Collisioni"
 
 msgid "Materials"
 msgstr "Materiali"
+
+msgid "Using GridMap"
+msgstr "Utilizzo di GridMap"

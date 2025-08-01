@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,21 @@ msgstr ""
 
 msgid "Mipmaps"
 msgstr "밉맵"
+
+msgid "Import dock"
+msgstr "독 가져오기"
+
+msgid "Adding font fallback"
+msgstr "글꼴 폴백 추가하기"
+
+msgid "Loading font fallback"
+msgstr "글꼴 폴백 불러오기"
+
+msgid "Variable fonts"
+msgstr "가변 글꼴"
+
+msgid "Light"
+msgstr "조명"
 
 msgid "Windows"
 msgstr "Windows"

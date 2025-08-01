@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,39 @@ msgstr "Использование многопоточности"
 
 msgid "Threads"
 msgstr "Потоки"
+
+msgid ""
+"Threads allow simultaneous execution of code. It allows off-loading work "
+"from the main thread."
+msgstr ""
+"Потоки позволяют выполнять код одновременно. Это позволяет разгрузить работу "
+"от основного потока."
+
+msgid "Godot supports threads and provides many handy functions to use them."
+msgstr ""
+"Godot поддерживает потоки и предоставляет множество удобных функций для их "
+"использования."
+
+msgid ""
+"If using other languages (C#, C++), it may be easier to use the threading "
+"classes they support."
+msgstr ""
+"При использовании других языков (C#, C++) может быть проще использовать "
+"поддерживаемые ими классы потоковой передачи."
+
+msgid ""
+"Before using a built-in class in a thread, read :ref:`doc_thread_safe_apis` "
+"first to check whether it can be safely used in a thread."
+msgstr ""
+"Прежде чем использовать встроенный класс в потоке, сначала "
+"прочитайте :ref:`doc_thread_safe_apis`, чтобы проверить, можно ли безопасно "
+"использовать его в потоке."
+
+msgid "Creating a Thread"
+msgstr "Создание потока"
+
+msgid "To create a thread, use the following code:"
+msgstr "Чтобы создать поток, используйте следующий код:"
 
 msgid "Mutexes"
 msgstr "Мьютексы"

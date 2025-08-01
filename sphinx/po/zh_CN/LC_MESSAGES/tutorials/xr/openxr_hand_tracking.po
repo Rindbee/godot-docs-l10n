@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -119,6 +119,37 @@ msgstr "手部跟踪 API"
 
 msgid "Hand tracking node"
 msgstr "手部跟踪节点"
+
+msgid ""
+"Actual placement of the hands may be loosely bound to the tracking in "
+"scenarios such as avatar creation UIs, fake mirrors, or similar situations "
+"resulting in the hand mesh and finger tracking being localized elsewhere."
+msgstr ""
+"手部的实际放置位置可能与追踪结果存在松散绑定关系。这种情况常见于角色创建界"
+"面、虚拟镜子等类似场景，在这些情况下，手部网格和手指追踪可能会被定位到其他位"
+"置。"
+
+msgid "We'll concentrate on the first use case only."
+msgstr "我们只考虑第一个用例。"
+
+msgid ""
+"For this you need to add an :ref:`XRNode3D <class_xrnode3d>` node to your "
+"``XROrigin3D`` node."
+msgstr ""
+"为此，你需要在 ``XROrigin3D`` 节点中添加一个 :ref:`XRNode3D "
+"<class_xrnode3d>` 节点。"
+
+msgid ""
+"On this node the ``tracker`` should be set to ``/user/hand_tracker/left`` or "
+"``/user/hand_tracker/right`` for the left or right hand respectively."
+msgstr ""
+"该节点上的 ``tracker`` 应设置为 ``/user/hand_tracker/left`` 或 ``/user/"
+"hand_tracker/right``\\ ，分别对应左右手。"
+
+msgid ""
+"The ``pose`` should remain set to ``default``, no other option will work "
+"here."
+msgstr "``pose`` 应保持设置为 ``default``\\ ，其他选项均无法使用。"
 
 msgid "The hand skeleton modifier"
 msgstr "手部骨架修改器"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -97,6 +97,12 @@ msgstr ""
 "முறை `` சுமை`` என்று அழைக்கப்படுவதைப் பொருட்படுத்தாமல் அதே பொருளைக் குறிப்பிடுகிறது. "
 "எனவே, பிளேபேக் நிலை ஆடியோச்ட்ரீஆம்ப்ளேபேக்கில் தன்னிறைவுடன் இருக்க வேண்டும்."
 
+msgid "audiostream_mytone.h"
+msgstr "ஆடியோச்ட்ரீம்_மிடோன்..எச்"
+
+msgid "audiostream_mytone.cpp"
+msgstr "audiostream_mytone.cpp"
+
 msgid "Create an AudioStreamPlayback"
 msgstr "ஆடியோச்ட்ரீஆம்ப்ளே பேக்கை உருவாக்கவும்"
 
@@ -113,6 +119,12 @@ msgid ""
 msgstr ""
 "ஆடியோச்ட்ரீஆம்ப்ளேபேக் ஆடியோ நூலால் கட்டுப்படுத்தப்படுவதால், I/O மற்றும் மாறும் நினைவக "
 "ஒதுக்கீடு தடைசெய்யப்பட்டுள்ளன."
+
+msgid "audiostreamplayer_mytone.h"
+msgstr "AudioStreamPlayer_mytone.h"
+
+msgid "audiostreamplayer_mytone.cpp"
+msgstr "audiostreamplayer_mytone.cpp"
 
 msgid "Resampling"
 msgstr "மறுசீரமைத்தல்"
@@ -135,6 +147,12 @@ msgstr ""
 "`` கலவை`` ஓவர்லோட் செய்வதற்கு பதிலாக, ஆடியோஃப்ரேம்கள் மற்றும் `` "
 "get_stream_sampling_rate`` தற்போதைய கலவை வீதத்தை வினவுவதற்கு `_mix_internal`` ஐப் "
 "பயன்படுத்துகிறது."
+
+msgid "mytone_audiostream_resampled.h"
+msgstr "mytone_audiostream_resampled.h"
+
+msgid "mytone_audiostream_resampled.cpp"
+msgstr "mytone_audiostream_resampled.cpp"
 
 msgid ""
 "`core/math/audio_frame.h <https://github.com/godotengine/godot/blob/master/"

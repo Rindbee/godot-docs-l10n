@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,27 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Output panel"
+msgstr "Pannello di output"
+
+msgid "Message categories"
+msgstr "Categorie dei messaggi"
+
+msgid "Four message categories are available:"
+msgstr "Sono disponibili quattro categorie di messaggi:"
+
+msgid "Filtering messages"
+msgstr "Filtrare i messaggi"
+
+msgid "Clearing messages"
+msgstr "Ripulire i messaggi"
+
+msgid "Printing messages"
+msgstr "Stampare i messaggi"
+
+msgid "Several methods are available to print messages:"
+msgstr "Sono disponibili vari metodi per stampare messaggi:"
+
+msgid "Printing rich text"
+msgstr "Stampare testo ricco"

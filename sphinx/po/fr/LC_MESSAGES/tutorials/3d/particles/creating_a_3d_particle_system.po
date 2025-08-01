@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,18 @@ msgstr "Transformer des particules GPU en CPU"
 
 msgid "turbulence"
 msgstr "Turbulence"
+
+msgid "sub-emitters"
+msgstr "sous-émetteurs"
+
+msgid "trails"
+msgstr "traînées"
+
+msgid "attractors"
+msgstr "attracteurs"
+
+msgid "collision"
+msgstr "collision"
 
 msgid "``Velocity Limit``"
 msgstr "``Velocity Limit``"

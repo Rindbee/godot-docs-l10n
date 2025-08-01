@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -49,19 +49,19 @@ msgid "aa"
 msgstr "aa"
 
 msgid "Afar"
-msgstr "афар"
+msgstr "Афар"
 
 msgid "ab"
 msgstr "ab"
 
 msgid "Abkhazian"
-msgstr "абхазька"
+msgstr "Абхазька"
 
 msgid "ace"
 msgstr "ace"
 
 msgid "Achinese"
-msgstr "ахінезький"
+msgstr "Ахінезький"
 
 msgid "ach"
 msgstr "ach"
@@ -79,13 +79,13 @@ msgid "ady"
 msgstr "ady"
 
 msgid "Adyghe"
-msgstr "адигейська"
+msgstr "Адигейська"
 
 msgid "ae"
 msgstr "ae"
 
 msgid "Avestan"
-msgstr "авестійська"
+msgstr "Авестійська"
 
 msgid "aeb"
 msgstr "aeb"
@@ -97,7 +97,7 @@ msgid "af"
 msgstr "af"
 
 msgid "Afrikaans"
-msgstr "африкаанс"
+msgstr "Африкаанс"
 
 msgid "afh"
 msgstr "afh"
@@ -115,7 +115,7 @@ msgid "ain"
 msgstr "ain"
 
 msgid "Ainu"
-msgstr "Ainu"
+msgstr "Айну"
 
 msgid "agr"
 msgstr "агр"
@@ -133,7 +133,7 @@ msgid "akk"
 msgstr "akk"
 
 msgid "Akkadian"
-msgstr "аккадський"
+msgstr "Аккадський"
 
 msgid "akz"
 msgstr "akz"
@@ -151,7 +151,7 @@ msgid "aln"
 msgstr "aln"
 
 msgid "Gheg Albanian"
-msgstr "гегський албанець"
+msgstr "Гегський албанець"
 
 msgid "alt"
 msgstr "alt"
@@ -163,13 +163,13 @@ msgid "am"
 msgstr "am"
 
 msgid "Amharic"
-msgstr "амхарська"
+msgstr "Амхарська"
 
 msgid "an"
 msgstr "ан"
 
 msgid "Aragonese"
-msgstr "арагонська"
+msgstr "Арагонська"
 
 msgid "ang"
 msgstr "ang"
@@ -187,13 +187,13 @@ msgid "ar"
 msgstr "ar"
 
 msgid "Arabic"
-msgstr "арабська"
+msgstr "Арабська"
 
 msgid "arc"
 msgstr "arc"
 
 msgid "Aramaic"
-msgstr "арамейська"
+msgstr "Арамейська"
 
 msgid "arn"
 msgstr "arn"
@@ -229,7 +229,7 @@ msgid "arw"
 msgstr "arw"
 
 msgid "Arawak"
-msgstr "аравак"
+msgstr "Аравак"
 
 msgid "ary"
 msgstr "ary"
@@ -247,13 +247,13 @@ msgid "as"
 msgstr "as"
 
 msgid "Assamese"
-msgstr "асамська"
+msgstr "Асамська"
 
 msgid "asa"
 msgstr "asa"
 
 msgid "Asu"
-msgstr "Asu"
+msgstr "Асу"
 
 msgid "ase"
 msgstr "ase"
@@ -295,7 +295,7 @@ msgid "ay"
 msgstr "ay"
 
 msgid "Aymara"
-msgstr "аймара"
+msgstr "Аймара"
 
 msgid "az"
 msgstr "az"
@@ -307,13 +307,13 @@ msgid "ba"
 msgstr "ba"
 
 msgid "Bashkir"
-msgstr "башкирська"
+msgstr "Башкирська"
 
 msgid "bal"
 msgstr "bal"
 
 msgid "Baluchi"
-msgstr "белуджі"
+msgstr "Белуджі"
 
 msgid "ban"
 msgstr "ban"
@@ -433,7 +433,7 @@ msgid "bik"
 msgstr "bik"
 
 msgid "Bikol"
-msgstr "бікол"
+msgstr "Бікол"
 
 msgid "bin"
 msgstr "bin"
@@ -511,7 +511,7 @@ msgid "bs"
 msgstr "bs"
 
 msgid "Bosnian"
-msgstr "боснійський"
+msgstr "Боснійський"
 
 msgid "bss"
 msgstr "bss"
@@ -523,7 +523,7 @@ msgid "bua"
 msgstr "bua"
 
 msgid "Buriat"
-msgstr "бурят"
+msgstr "Бурят"
 
 msgid "bug"
 msgstr "bug"
@@ -589,7 +589,7 @@ msgid "ce"
 msgstr "ce"
 
 msgid "Chechen"
-msgstr "чеченський"
+msgstr "Чеченський"
 
 msgid "ceb"
 msgstr "ceb"
@@ -625,7 +625,7 @@ msgid "chk"
 msgstr "chk"
 
 msgid "Chuukese"
-msgstr "чуукезе"
+msgstr "Чуукезе"
 
 msgid "chm"
 msgstr "chm"
@@ -673,13 +673,13 @@ msgid "ckb"
 msgstr "ckb"
 
 msgid "Central Kurdish"
-msgstr "центральнокурд"
+msgstr "Центральний курдський"
 
 msgid "csb"
 msgstr "csb"
 
 msgid "Kashubian"
-msgstr "кашубська"
+msgstr "Кашубська"
 
 msgid "cmn"
 msgstr "cmn"
@@ -697,7 +697,7 @@ msgid "cop"
 msgstr "cop"
 
 msgid "Coptic"
-msgstr "коптська"
+msgstr "Коптська"
 
 msgid "cps"
 msgstr "cps"
@@ -715,7 +715,7 @@ msgid "crh"
 msgstr "crh"
 
 msgid "Crimean Tatar"
-msgstr "кримськотатарський"
+msgstr "Кримськотатарський"
 
 msgid "crs"
 msgstr "crs"
@@ -733,13 +733,13 @@ msgid "cu"
 msgstr "cu"
 
 msgid "Church Slavic"
-msgstr "церковнослов'янська"
+msgstr "Церковнослов'янська"
 
 msgid "cv"
 msgstr "cv"
 
 msgid "Chuvash"
-msgstr "чуваська"
+msgstr "Чуваська"
 
 msgid "cy"
 msgstr "cy"
@@ -817,7 +817,7 @@ msgid "dsb"
 msgstr "dsb"
 
 msgid "Lower Sorbian"
-msgstr "нижньолужицька"
+msgstr "Нижньолужицька"
 
 msgid "dtp"
 msgstr "dtp"
@@ -835,13 +835,13 @@ msgid "dum"
 msgstr "dum"
 
 msgid "Middle Dutch"
-msgstr "середньоголандська"
+msgstr "Середньоголандська"
 
 msgid "dv"
 msgstr "dv"
 
 msgid "Dhivehi"
-msgstr "мальдівський"
+msgstr "Мальдівський"
 
 msgid "dyo"
 msgstr "dyo"
@@ -925,7 +925,7 @@ msgid "enm"
 msgstr "enm"
 
 msgid "Middle English"
-msgstr "середньоанглійська"
+msgstr "Середньоанглійська"
 
 msgid "eo"
 msgstr "eo"
@@ -1015,7 +1015,7 @@ msgid "fj"
 msgstr "fj"
 
 msgid "Fijian"
-msgstr "фіджійський"
+msgstr "Фіджійський"
 
 msgid "fo"
 msgstr "fo"
@@ -1051,7 +1051,7 @@ msgid "fro"
 msgstr "fro"
 
 msgid "Old French"
-msgstr "старофранц"
+msgstr "Старофранц"
 
 msgid "frp"
 msgstr "frp"
@@ -1069,7 +1069,7 @@ msgid "frs"
 msgstr "frs"
 
 msgid "Eastern Frisian"
-msgstr "східнофризька"
+msgstr "Східнофризька"
 
 msgid "fur"
 msgstr "fur"
@@ -1081,25 +1081,25 @@ msgid "fy"
 msgstr "fy"
 
 msgid "Western Frisian"
-msgstr "західнофризька"
+msgstr "Західнофризька"
 
 msgid "ga"
 msgstr "ga"
 
 msgid "Irish"
-msgstr "ірландська"
+msgstr "Ірландська"
 
 msgid "gaa"
 msgstr "gaa"
 
 msgid "Ga"
-msgstr "Ga"
+msgstr "Га"
 
 msgid "gag"
 msgstr "gag"
 
 msgid "Gagauz"
-msgstr "гагауз"
+msgstr "Гагауз"
 
 msgid "gan"
 msgstr "gan"
@@ -1147,7 +1147,7 @@ msgid "gl"
 msgstr "gl"
 
 msgid "Galician"
-msgstr "галицький"
+msgstr "Галицький"
 
 msgid "glk"
 msgstr "glk"
@@ -1159,7 +1159,7 @@ msgid "gmh"
 msgstr "gmh"
 
 msgid "Middle High German"
-msgstr "середньоверхньонімецька"
+msgstr "Середньоверхньонімецька"
 
 msgid "gn"
 msgstr "gn"
@@ -1171,7 +1171,7 @@ msgid "goh"
 msgstr "goh"
 
 msgid "Old High German"
-msgstr "староверхньонімецька"
+msgstr "Староверхньонімецька"
 
 msgid "gom"
 msgstr "gom"
@@ -1195,7 +1195,7 @@ msgid "got"
 msgstr "got"
 
 msgid "Gothic"
-msgstr "готика"
+msgstr "Готика"
 
 msgid "grb"
 msgstr "grb"
@@ -1207,13 +1207,13 @@ msgid "grc"
 msgstr "grc"
 
 msgid "Ancient Greek"
-msgstr "старогрецька"
+msgstr "Старогрецька"
 
 msgid "gsw"
 msgstr "gsw"
 
 msgid "Swiss German"
-msgstr "швейцарський німецький"
+msgstr "Швейцарський німецький"
 
 msgid "gu"
 msgstr "gu"
@@ -1225,13 +1225,13 @@ msgid "guc"
 msgstr "guc"
 
 msgid "Wayuu"
-msgstr "Wayuu"
+msgstr "Вайуу"
 
 msgid "gur"
 msgstr "gur"
 
 msgid "Frafra"
-msgstr "frafra"
+msgstr "Фрафра"
 
 msgid "guz"
 msgstr "guz"
@@ -1303,7 +1303,7 @@ msgid "hit"
 msgstr "hit"
 
 msgid "Hittite"
-msgstr "хетський"
+msgstr "Хетський"
 
 msgid "hmn"
 msgstr "hmn"
@@ -1363,13 +1363,13 @@ msgid "hus"
 msgstr "hus"
 
 msgid "Huastec"
-msgstr "Huastec"
+msgstr "Уастек"
 
 msgid "hy"
 msgstr "hy"
 
 msgid "Armenian"
-msgstr "вірменський"
+msgstr "Вірменський"
 
 msgid "hz"
 msgstr "hz"
@@ -1381,7 +1381,7 @@ msgid "ia"
 msgstr "ia"
 
 msgid "Interlingua"
-msgstr "інтерлінгва"
+msgstr "Інтерлінгва"
 
 msgid "iba"
 msgstr "iba"
@@ -1417,7 +1417,7 @@ msgid "ii"
 msgstr "ii"
 
 msgid "Sichuan Yi"
-msgstr "Sichuan Yi"
+msgstr "Сичуань І"
 
 msgid "ik"
 msgstr "ik"
@@ -1501,13 +1501,13 @@ msgid "jpr"
 msgstr "jpr"
 
 msgid "Judeo-Persian"
-msgstr "іудейсько-перський"
+msgstr "Іудейсько-перський"
 
 msgid "jrb"
 msgstr "jrb"
 
 msgid "Judeo-Arabic"
-msgstr "іудейсько-араб"
+msgstr "Іудейсько-араб"
 
 msgid "jut"
 msgstr "jut"
@@ -1519,7 +1519,7 @@ msgid "jv"
 msgstr "jv"
 
 msgid "Javanese"
-msgstr "яванський"
+msgstr "Яванський"
 
 msgid "ka"
 msgstr "ka"
@@ -1531,13 +1531,13 @@ msgid "kaa"
 msgstr "kaa"
 
 msgid "Kara-Kalpak"
-msgstr "каракалпакська"
+msgstr "Каракалпакська"
 
 msgid "kab"
 msgstr "kab"
 
 msgid "Kabyle"
-msgstr "кабільська"
+msgstr "Кабільська"
 
 msgid "kac"
 msgstr "kac"
@@ -1567,7 +1567,7 @@ msgid "kbd"
 msgstr "kbd"
 
 msgid "Kabardian"
-msgstr "кабардинський"
+msgstr "Кабардинський"
 
 msgid "kbl"
 msgstr "kbl"
@@ -1597,7 +1597,7 @@ msgid "ken"
 msgstr "ken"
 
 msgid "Kenyang"
-msgstr "Kenyang"
+msgstr "Кепуанд"
 
 msgid "kfo"
 msgstr "kfo"
@@ -1615,7 +1615,7 @@ msgid "kgp"
 msgstr "kgp"
 
 msgid "Kaingang"
-msgstr "Kaingang"
+msgstr "Кайнган"
 
 msgid "kha"
 msgstr "kha"
@@ -1663,7 +1663,7 @@ msgid "kk"
 msgstr "kk"
 
 msgid "Kazakh"
-msgstr "казахська"
+msgstr "Казахська"
 
 msgid "kkj"
 msgstr "kkj"
@@ -1699,7 +1699,7 @@ msgid "kn"
 msgstr "kn"
 
 msgid "Kannada"
-msgstr "каннада"
+msgstr "Каннада"
 
 msgid "ko"
 msgstr "ko"
@@ -1723,13 +1723,13 @@ msgid "kos"
 msgstr "kos"
 
 msgid "Kosraean"
-msgstr "косрайський"
+msgstr "Косрайський"
 
 msgid "kpe"
 msgstr "kpe"
 
 msgid "Kpelle"
-msgstr "Kpelle"
+msgstr "Кпелле"
 
 msgid "kr"
 msgstr "kr"
@@ -1759,7 +1759,7 @@ msgid "krl"
 msgstr "krl"
 
 msgid "Karelian"
-msgstr "карельська"
+msgstr "Карельська"
 
 msgid "kru"
 msgstr "kru"
@@ -1789,7 +1789,7 @@ msgid "ksh"
 msgstr "ksh"
 
 msgid "Colognian"
-msgstr "кельський"
+msgstr "Кельський"
 
 msgid "ku"
 msgstr "ku"
@@ -1825,7 +1825,7 @@ msgid "ky"
 msgstr "ky"
 
 msgid "Kirghiz"
-msgstr "киргизький"
+msgstr "Киргизький"
 
 msgid "lag"
 msgstr "lag"
@@ -1837,13 +1837,13 @@ msgid "la"
 msgstr "la"
 
 msgid "Latin"
-msgstr "латинь"
+msgstr "Латинь"
 
 msgid "lad"
 msgstr "lad"
 
 msgid "Ladino"
-msgstr "ладіно"
+msgstr "Ладіно"
 
 msgid "lah"
 msgstr "lah"
@@ -1861,13 +1861,13 @@ msgid "lb"
 msgstr "lb"
 
 msgid "Luxembourgish"
-msgstr "люксембурзький"
+msgstr "Люксембурзький"
 
 msgid "lez"
 msgstr "lez"
 
 msgid "Lezghian"
-msgstr "лезгинська"
+msgstr "Лезгинська"
 
 msgid "lfn"
 msgstr "lfn"
@@ -1885,7 +1885,7 @@ msgid "li"
 msgstr "li"
 
 msgid "Limburgan"
-msgstr "лімбурганець"
+msgstr "Лімбурганець"
 
 msgid "lij"
 msgstr "lij"
@@ -1921,7 +1921,7 @@ msgid "lo"
 msgstr "lo"
 
 msgid "Lao"
-msgstr "лаоський"
+msgstr "Лао"
 
 msgid "lol"
 msgstr "lol"
@@ -1957,7 +1957,7 @@ msgid "ltg"
 msgstr "ltg"
 
 msgid "Latgalian"
-msgstr "латгальська"
+msgstr "Латгальська"
 
 msgid "lu"
 msgstr "lu"
@@ -1987,7 +1987,7 @@ msgid "luo"
 msgstr "luo"
 
 msgid "Luo"
-msgstr "Ло"
+msgstr "Луо"
 
 msgid "lus"
 msgstr "lus"
@@ -2101,13 +2101,13 @@ msgid "mg"
 msgstr "mg"
 
 msgid "Malagasy"
-msgstr "малагасійська"
+msgstr "Малагасійська"
 
 msgid "mga"
 msgstr "Mga"
 
 msgid "Middle Irish"
-msgstr "середньоірландський"
+msgstr "Середньоірландський"
 
 msgid "mgh"
 msgstr "mgh"
@@ -2125,13 +2125,13 @@ msgid "mh"
 msgstr "mh"
 
 msgid "Marshallese"
-msgstr "маршальський"
+msgstr "Маршальський"
 
 msgid "mhr"
 msgstr "mhr"
 
 msgid "Eastern Mari"
-msgstr "східна марійська"
+msgstr "Східна марійська"
 
 msgid "mi"
 msgstr "mi"
@@ -2155,7 +2155,7 @@ msgid "miq"
 msgstr "miq"
 
 msgid "Mískito"
-msgstr "Mískito"
+msgstr "Міскітто"
 
 msgid "mjw"
 msgstr "mjw"
@@ -2179,7 +2179,7 @@ msgid "mn"
 msgstr "mn"
 
 msgid "Mongolian"
-msgstr "монгольська"
+msgstr "Монгольська"
 
 msgid "mnc"
 msgstr "mnc"
@@ -2197,7 +2197,7 @@ msgid "mnw"
 msgstr "mnw"
 
 msgid "Mon"
-msgstr "Пн"
+msgstr "Мон"
 
 msgid "mos"
 msgstr "mos"
@@ -2209,13 +2209,13 @@ msgid "moh"
 msgstr "moh"
 
 msgid "Mohawk"
-msgstr "ірокез"
+msgstr "Ірокез"
 
 msgid "mr"
 msgstr "mr"
 
 msgid "Marathi"
-msgstr "маратхі"
+msgstr "Маратхі"
 
 msgid "mrj"
 msgstr "mrj"
@@ -2251,7 +2251,7 @@ msgid "mwl"
 msgstr "mwl"
 
 msgid "Mirandese"
-msgstr "мірандійський"
+msgstr "Мірандійський"
 
 msgid "mwr"
 msgstr "mwr"
@@ -2311,7 +2311,7 @@ msgid "nap"
 msgstr "nap"
 
 msgid "Neapolitan"
-msgstr "неаполітанський"
+msgstr "Неаполітанський"
 
 msgid "naq"
 msgstr "naq"
@@ -2335,13 +2335,13 @@ msgid "nds"
 msgstr "nds"
 
 msgid "Low German"
-msgstr "нижньонімецька"
+msgstr "Нижньонімецька"
 
 msgid "ne"
 msgstr "ne"
 
 msgid "Nepali"
-msgstr "непальська"
+msgstr "Непальська"
 
 msgid "new"
 msgstr "new"
@@ -2515,7 +2515,7 @@ msgid "os"
 msgstr "os"
 
 msgid "Ossetic"
-msgstr "осетинський"
+msgstr "Осетинський"
 
 msgid "osa"
 msgstr "osa"
@@ -2581,7 +2581,7 @@ msgid "pdc"
 msgstr "pdc"
 
 msgid "Pennsylvania German"
-msgstr "пенсільванський німець"
+msgstr "Пенсільванський німець"
 
 msgid "pdt"
 msgstr "pdt"
@@ -2593,7 +2593,7 @@ msgid "peo"
 msgstr "peo"
 
 msgid "Old Persian"
-msgstr "староперська"
+msgstr "Староперська"
 
 msgid "pfl"
 msgstr "pfl"
@@ -2605,7 +2605,7 @@ msgid "phn"
 msgstr "phn"
 
 msgid "Phoenician"
-msgstr "фінікійський"
+msgstr "Фінікійський"
 
 msgid "pi"
 msgstr "pi"
@@ -2647,7 +2647,7 @@ msgid "prg"
 msgstr "prg"
 
 msgid "Prussian"
-msgstr "прусський"
+msgstr "Прусський"
 
 msgid "pro"
 msgstr "pro"
@@ -2665,7 +2665,7 @@ msgid "ps"
 msgstr "ps"
 
 msgid "Pushto"
-msgstr "пушту"
+msgstr "Пушто"
 
 msgid "pt"
 msgstr "pt"
@@ -2737,7 +2737,7 @@ msgid "rm"
 msgstr "rm"
 
 msgid "Romansh"
-msgstr "ретороманська"
+msgstr "Ретороманська"
 
 msgid "rn"
 msgstr "rn"
@@ -2761,7 +2761,7 @@ msgid "rom"
 msgstr "rom"
 
 msgid "Romany"
-msgstr "ромська"
+msgstr "Ромська"
 
 msgid "rtm"
 msgstr "rtm"
@@ -2809,7 +2809,7 @@ msgid "sa"
 msgstr "sa"
 
 msgid "Sanskrit"
-msgstr "санскрит"
+msgstr "Санскрит"
 
 msgid "sad"
 msgstr "sad"
@@ -2827,7 +2827,7 @@ msgid "sam"
 msgstr "sam"
 
 msgid "Samaritan Aramaic"
-msgstr "самаритянська арамейська"
+msgstr "Самаритянська арамейська"
 
 msgid "saq"
 msgstr "saq"
@@ -2869,13 +2869,13 @@ msgid "sc"
 msgstr "sc"
 
 msgid "Sardinian"
-msgstr "сардинський"
+msgstr "Сардинський"
 
 msgid "scn"
 msgstr "scn"
 
 msgid "Sicilian"
-msgstr "сицилійський"
+msgstr "Сицилійський"
 
 msgid "sco"
 msgstr "sco"
@@ -2893,13 +2893,13 @@ msgid "sdc"
 msgstr "sdc"
 
 msgid "Sassarese Sardinian"
-msgstr "сасарський сардинський"
+msgstr "Сасарський сардинський"
 
 msgid "sdh"
 msgstr "sdh"
 
 msgid "Southern Kurdish"
-msgstr "південний курд"
+msgstr "Південний курд"
 
 msgid "se"
 msgstr "se"
@@ -2947,19 +2947,19 @@ msgid "sga"
 msgstr "sga"
 
 msgid "Old Irish"
-msgstr "староірландський"
+msgstr "Староірландський"
 
 msgid "sgs"
 msgstr "sgs"
 
 msgid "Samogitian"
-msgstr "жемайтійський"
+msgstr "Жемайтійський"
 
 msgid "sh"
 msgstr "sh"
 
 msgid "Serbo-Croatian"
-msgstr "сербохорватська"
+msgstr "Сербохорватська"
 
 msgid "shi"
 msgstr "shi"
@@ -2977,7 +2977,7 @@ msgid "shs"
 msgstr "shs"
 
 msgid "Shuswap"
-msgstr "Shuswap"
+msgstr "Шусвап"
 
 msgid "shu"
 msgstr "shu"
@@ -3031,7 +3031,7 @@ msgid "sma"
 msgstr "sma"
 
 msgid "Southern Sami"
-msgstr "південні саами"
+msgstr "Південні саами"
 
 msgid "smj"
 msgstr "smj"
@@ -3109,7 +3109,7 @@ msgid "ss"
 msgstr "ss"
 
 msgid "Swati"
-msgstr "свати"
+msgstr "Сваті"
 
 msgid "ssy"
 msgstr "ssy"
@@ -3187,7 +3187,7 @@ msgid "syr"
 msgstr "syr"
 
 msgid "Syriac"
-msgstr "сирійська"
+msgstr "Сирійська"
 
 msgid "szl"
 msgstr "szl"
@@ -3217,7 +3217,7 @@ msgid "tem"
 msgstr "tem"
 
 msgid "Timne"
-msgstr "час"
+msgstr "Тімнай"
 
 msgid "teo"
 msgstr "teo"
@@ -3271,13 +3271,13 @@ msgid "tiv"
 msgstr "tiv"
 
 msgid "Tiv"
-msgstr "тив"
+msgstr "Тив"
 
 msgid "tk"
 msgstr "tk"
 
 msgid "Turkmen"
-msgstr "туркменський"
+msgstr "Туркменський"
 
 msgid "tkl"
 msgstr "tkl"
@@ -3295,13 +3295,13 @@ msgid "tl"
 msgstr "tl"
 
 msgid "Tagalog"
-msgstr "тагальська"
+msgstr "Тагальська"
 
 msgid "tlh"
 msgstr "tlh"
 
 msgid "Klingon"
-msgstr "клінгонська"
+msgstr "Клінгонська"
 
 msgid "tli"
 msgstr "tli"
@@ -3325,13 +3325,13 @@ msgid "tn"
 msgstr "tn"
 
 msgid "Tswana"
-msgstr "тсвана"
+msgstr "Тсвана"
 
 msgid "to"
 msgstr "to"
 
 msgid "Tongan"
-msgstr "тонганська"
+msgstr "Тонганська"
 
 msgid "tog"
 msgstr "tog"
@@ -3343,7 +3343,7 @@ msgid "tpi"
 msgstr "tpi"
 
 msgid "Tok Pisin"
-msgstr "ток-пісин"
+msgstr "Ток-пісин"
 
 msgid "tr"
 msgstr "tr"
@@ -3385,13 +3385,13 @@ msgid "tt"
 msgstr "tt"
 
 msgid "Tatar"
-msgstr "татарський"
+msgstr "Татарський"
 
 msgid "ttt"
 msgstr "ttt"
 
 msgid "Muslim Tat"
-msgstr "мусульманський тат"
+msgstr "Мусульманський тат"
 
 msgid "tum"
 msgstr "tum"
@@ -3415,19 +3415,19 @@ msgid "twq"
 msgstr "twq"
 
 msgid "Tasawaq"
-msgstr "Tasawaq"
+msgstr "Тасавак"
 
 msgid "ty"
 msgstr "ty"
 
 msgid "Tahitian"
-msgstr "таїтянський"
+msgstr "Таїтянський"
 
 msgid "tyv"
 msgstr "tyv"
 
 msgid "Tuvinian"
-msgstr "тувинський"
+msgstr "Тувинський"
 
 msgid "tzm"
 msgstr "Tzm"
@@ -3439,19 +3439,19 @@ msgid "udm"
 msgstr "udm"
 
 msgid "Udmurt"
-msgstr "удмуртська"
+msgstr "Удмуртська"
 
 msgid "ug"
 msgstr "ug"
 
 msgid "Uyghur"
-msgstr "уйгурський"
+msgstr "Уйгурський"
 
 msgid "uga"
 msgstr "uga"
 
 msgid "Ugaritic"
-msgstr "угаритська"
+msgstr "Угаритська"
 
 msgid "uk"
 msgstr "uk"
@@ -3499,13 +3499,13 @@ msgid "vec"
 msgstr "vec"
 
 msgid "Venetian"
-msgstr "венеціанський"
+msgstr "Венеціанський"
 
 msgid "vep"
 msgstr "vep"
 
 msgid "Veps"
-msgstr "вепсів"
+msgstr "Вепсів"
 
 msgid "vi"
 msgstr "vi"
@@ -3517,7 +3517,7 @@ msgid "vls"
 msgstr "vls"
 
 msgid "West Flemish"
-msgstr "західнофламандський"
+msgstr "Західнофламандський"
 
 msgid "vmf"
 msgstr "vmf"
@@ -3529,7 +3529,7 @@ msgid "vo"
 msgstr "vo"
 
 msgid "Volapük"
-msgstr "волапюк"
+msgstr "Волапюк"
 
 msgid "vot"
 msgstr "vot"
@@ -3601,7 +3601,7 @@ msgid "xal"
 msgstr "xal"
 
 msgid "Kalmyk"
-msgstr "калмицький"
+msgstr "Калмицький"
 
 msgid "xh"
 msgstr "xh"
@@ -3613,7 +3613,7 @@ msgid "xmf"
 msgstr "xmf"
 
 msgid "Mingrelian"
-msgstr "мінгрельський"
+msgstr "Мінгрельський"
 
 msgid "xog"
 msgstr "xog"
@@ -3625,13 +3625,13 @@ msgid "yao"
 msgstr "yao"
 
 msgid "Yao"
-msgstr "Яо"
+msgstr "Уао"
 
 msgid "yap"
 msgstr "yap"
 
 msgid "Yapese"
-msgstr "Yapese"
+msgstr "Япезе"
 
 msgid "yav"
 msgstr "yav"
@@ -3649,19 +3649,19 @@ msgid "yi"
 msgstr "yi"
 
 msgid "Yiddish"
-msgstr "ідиш"
+msgstr "Ідиш"
 
 msgid "yo"
 msgstr "yo"
 
 msgid "Yoruba"
-msgstr "йоруба"
+msgstr "Йоруба"
 
 msgid "yrl"
 msgstr "yrl"
 
 msgid "Nheengatu"
-msgstr "nheengatu"
+msgstr "Нхінґату"
 
 msgid "yue"
 msgstr "yue"
@@ -3697,7 +3697,7 @@ msgid "zea"
 msgstr "zea"
 
 msgid "Zeelandic"
-msgstr "зеландська"
+msgstr "Зеландська"
 
 msgid "zen"
 msgstr "zen"
@@ -3757,331 +3757,331 @@ msgid "Aghb"
 msgstr "aghb"
 
 msgid "Caucasian Albanian"
-msgstr "кавказький албанець"
+msgstr "Кавказький албанець"
 
 msgid "Ahom"
 msgstr "Ахом"
 
 msgid "Arab"
-msgstr "араб"
+msgstr "Arab"
 
 msgid "Armi"
-msgstr "Армі"
+msgstr "Armi"
 
 msgid "Imperial Aramaic"
 msgstr "Імперська арамейська"
 
 msgid "Armn"
-msgstr "Армн"
+msgstr "Armn"
 
 msgid "Avst"
-msgstr "Авст"
+msgstr "Avst"
 
 msgid "Bali"
-msgstr "Балі"
+msgstr "Bali"
 
 msgid "Bamu"
-msgstr "Бам"
+msgstr "Bamu"
 
 msgid "Bamum"
-msgstr "Бам"
+msgstr "Бамум"
 
 msgid "Bass"
-msgstr "Бас"
+msgstr "Bass"
 
 msgid "Bassa Vah"
-msgstr "Бас Вах"
+msgstr "Басса-Вах"
 
 msgid "Batk"
-msgstr "Batt"
+msgstr "Batk"
 
 msgid "Batak"
 msgstr "Батак"
 
 msgid "Beng"
-msgstr "Бен"
+msgstr "Beng"
 
 msgid "Bhks"
-msgstr "Bhx"
+msgstr "Bhks"
 
 msgid "Bhaiksuki"
 msgstr "Байксукі"
 
 msgid "Blis"
-msgstr "Блаженство"
+msgstr "Blis"
 
 msgid "Bopo"
-msgstr "Бопо"
+msgstr "Bopo"
 
 msgid "Bopomofo"
 msgstr "Бопомофо"
 
 msgid "Brah"
-msgstr "Брат"
+msgstr "Brah"
 
 msgid "Brahmi"
 msgstr "Брахмі"
 
 msgid "Brai"
-msgstr "Брей"
+msgstr "Brai"
 
 msgid "Braille"
-msgstr "шрифт Брайля"
+msgstr "Брайль"
 
 msgid "Bugi"
-msgstr "помилка"
+msgstr "Bugi"
 
 msgid "Buhd"
-msgstr "буд"
+msgstr "Buhd"
 
 msgid "Buhid"
 msgstr "Бухід"
 
 msgid "Cakm"
-msgstr "cakm"
+msgstr "Cakm"
 
 msgid "Cans"
-msgstr "Банки"
+msgstr "Cans"
 
 msgid "Unified Canadian Aboriginal"
 msgstr "Об'єднані канадські аборигени"
 
 msgid "Cari"
-msgstr "Карі"
+msgstr "Cari"
 
 msgid "Carian"
-msgstr "карійський"
+msgstr "Карійський"
 
 msgid "Cham"
-msgstr "Чам"
+msgstr "Cham"
 
 msgid "Cher"
 msgstr "Шер"
 
 msgid "Chrs"
-msgstr "чрс"
+msgstr "Chrs"
 
 msgid "Chorasmian"
 msgstr "Хоразмійський"
 
 msgid "Cirt"
-msgstr "cirt"
+msgstr "Cirt"
 
 msgid "Cirth"
-msgstr "Cirth"
+msgstr "Цирт"
 
 msgid "Copt"
-msgstr "копт"
+msgstr "Copt"
 
 msgid "Cpmn"
-msgstr "cpmn"
+msgstr "Cpmn"
 
 msgid "Cypro-Minoan"
 msgstr "Кіпромінойська"
 
 msgid "Cprt"
-msgstr "cprt"
+msgstr "Cprt"
 
 msgid "Cypriot"
-msgstr "кіпрський"
+msgstr "Кіпрський"
 
 msgid "Cyrl"
-msgstr "Локон"
+msgstr "Cyrl"
 
 msgid "Cyrillic"
 msgstr "Кирилиця"
 
 msgid "Deva"
-msgstr "Дева"
+msgstr "Deva"
 
 msgid "Devanagari"
-msgstr "Devanagari"
+msgstr "Деванагарі"
 
 msgid "Diak"
-msgstr "Діак"
+msgstr "Diak"
 
 msgid "Dives Akuru"
-msgstr "Dives akuru"
+msgstr "Пірнає акуру"
 
 msgid "Dogr"
-msgstr "Догар"
+msgstr "Dogr"
 
 msgid "Dogra"
 msgstr "Догра"
 
 msgid "Dsrt"
-msgstr "dsrt"
+msgstr "Dsrt"
 
 msgid "Deseret"
-msgstr "Deseret"
+msgstr "Дезерет"
 
 msgid "Dupl"
-msgstr "Двомісний"
+msgstr "Dupl"
 
 msgid "Duployan"
 msgstr "Дуплоян"
 
 msgid "Egyd"
-msgstr "Те саме"
+msgstr "Egyd"
 
 msgid "Egyptian demotic"
-msgstr "Egyptian demotic"
+msgstr "Єгипетський демотичний"
 
 msgid "Egyh"
-msgstr "Також"
+msgstr "Egyh"
 
 msgid "Egyptian hieratic"
-msgstr "Egyptian hieratic"
+msgstr "Єгипетська ієратика"
 
 msgid "Egyp"
-msgstr "Єгипет"
+msgstr "Egyp"
 
 msgid "Egyptian hieroglyphs"
-msgstr "Egyptian hieroglyphs"
+msgstr "Єгипетські ієрогліфи"
 
 msgid "Elba"
-msgstr "Ельба"
+msgstr "Elba"
 
 msgid "Elbasan"
 msgstr "Ельбасан"
 
 msgid "Elym"
-msgstr "Елім"
+msgstr "Elym"
 
 msgid "Elymaic"
 msgstr "Елімейський"
 
 msgid "Ethi"
-msgstr "Еті"
+msgstr "Ethi"
 
 msgid "Ethiopic"
-msgstr "ефіопський"
+msgstr "Ефіопський"
 
 msgid "Geok"
-msgstr "geok"
+msgstr "Geok"
 
 msgid "Khutsuri"
 msgstr "Хуцурі"
 
 msgid "Geor"
-msgstr "Георг"
+msgstr "Geor"
 
 msgid "Glag"
-msgstr "дзвоник"
+msgstr "Glag"
 
 msgid "Glagolitic"
-msgstr "Glagolitic"
+msgstr "Глаголиця"
 
 msgid "Gong"
-msgstr "Гонг"
+msgstr "Gong"
 
 msgid "Gunjala Gondi"
-msgstr "Gunjala gondi"
+msgstr "Ґунджала гонді"
 
 msgid "Gonm"
-msgstr "gonm"
+msgstr "Gonm"
 
 msgid "Masaram Gondi"
 msgstr "Масарам Гонді"
 
 msgid "Goth"
-msgstr "гот"
+msgstr "Goth"
 
 msgid "Gran"
-msgstr "Гран"
+msgstr "Gran"
 
 msgid "Grantha"
 msgstr "Гранта"
 
 msgid "Grek"
-msgstr "Грек"
+msgstr "Grek"
 
 msgid "Gujr"
 msgstr "Гуджр"
 
 msgid "Guru"
-msgstr "вчитель"
+msgstr "Guru"
 
 msgid "Gurmukhi"
 msgstr "Гурмухі"
 
 msgid "Hang"
-msgstr "Повісити"
+msgstr "Hang"
 
 msgid "Hangul"
-msgstr "хангиль"
+msgstr "Хангиль"
 
 msgid "Hani"
-msgstr "Хані"
+msgstr "Hani"
 
 msgid "Han"
 msgstr "Хан"
 
 msgid "Hano"
-msgstr "Хано"
+msgstr "Hano"
 
 msgid "Hanunoo"
 msgstr "Хануну"
 
 msgid "Hans"
-msgstr "Ганс"
+msgstr "Hans"
 
 msgid "Simplified"
 msgstr "Спрощено"
 
 msgid "Hant"
-msgstr "Привид"
+msgstr "Hant"
 
 msgid "Traditional"
 msgstr "Традиційний"
 
 msgid "Hatr"
-msgstr "hatr"
+msgstr "Hatr"
 
 msgid "Hatran"
 msgstr "Хатран"
 
 msgid "Hebr"
-msgstr "івр"
+msgstr "Hebr"
 
 msgid "Hira"
-msgstr "Хіра"
+msgstr "Hira"
 
 msgid "Hiragana"
 msgstr "Хірагана"
 
 msgid "Hluw"
-msgstr "hluw"
+msgstr "Hluw"
 
 msgid "Anatolian Hieroglyphs"
 msgstr "Анатолійські ієрогліфи"
 
 msgid "Hmng"
-msgstr "Хмнг"
+msgstr "Hmng"
 
 msgid "Pahawh Hmong"
 msgstr "Пахав Хмонг"
 
 msgid "Hmnp"
-msgstr "hmnp"
+msgstr "Hmnp"
 
 msgid "Nyiakeng Puachue Hmong"
 msgstr "Ньякенг Пуачуе Хмонг"
 
 msgid "Hung"
-msgstr "Хунг"
+msgstr "Hung"
 
 msgid "Old Hungarian"
-msgstr "староугорська"
+msgstr "Староугорська"
 
 msgid "Inds"
-msgstr "Інд"
+msgstr "Inds"
 
 msgid "Indus"
-msgstr "Інд"
+msgstr "Індус"
 
 msgid "Ital"
-msgstr "італ"
+msgstr "Ital"
 
 msgid "Old Italic"
 msgstr "Старий курсив"
@@ -4090,535 +4090,535 @@ msgid "Java"
 msgstr "Java"
 
 msgid "Jurc"
-msgstr "Юрц"
+msgstr "Jurc"
 
 msgid "Jurchen"
-msgstr "Юрц"
+msgstr "Чжурчженів"
 
 msgid "Kali"
-msgstr "час"
+msgstr "Kali"
 
 msgid "Kayah Li"
 msgstr "Кая Лі"
 
 msgid "Kana"
-msgstr "Кана"
+msgstr "Kana"
 
 msgid "Katakana"
 msgstr "Катакана"
 
 msgid "Khar"
-msgstr "Хар"
+msgstr "Khar"
 
 msgid "Kharoshthi"
-msgstr "Kharoshthi"
+msgstr "Харошті"
 
 msgid "Khmr"
-msgstr "Хамр"
+msgstr "Khmr"
 
 msgid "Khmer"
-msgstr "кхмерська"
+msgstr "Кхмерська"
 
 msgid "Khoj"
-msgstr "khoj"
+msgstr "Khoj"
 
 msgid "Khojki"
 msgstr "Хойки"
 
 msgid "Kitl"
-msgstr "kitl"
+msgstr "Kitl"
 
 msgid "Khitan large script"
-msgstr "Обрізання великим шрифтом"
+msgstr "Великий шрифт для обрізання"
 
 msgid "Kits"
-msgstr "комплекти"
+msgstr "Kits"
 
 msgid "Khitan small script"
-msgstr "Обрізання дрібним шрифтом"
+msgstr "Малий шрифт для обрізання"
 
 msgid "Knda"
-msgstr "Канда"
+msgstr "Knda"
 
 msgid "Kpel"
-msgstr "Каплиця"
+msgstr "Kpel"
 
 msgid "Kthi"
-msgstr "kthi"
+msgstr "Kthi"
 
 msgid "Kaithi"
 msgstr "Каїті"
 
 msgid "Lana"
-msgstr "Лана"
+msgstr "Lana"
 
 msgid "Tai Tham"
 msgstr "Тай Тхам"
 
 msgid "Laoo"
-msgstr "Лаоо"
+msgstr "Laoo"
 
 msgid "Latn"
-msgstr "лат"
+msgstr "Latn"
 
 msgid "Leke"
-msgstr "Леке"
+msgstr "Leke"
 
 msgid "Lepc"
-msgstr "lepc"
+msgstr "Lepc"
 
 msgid "Lepcha"
 msgstr "Лепча"
 
 msgid "Limb"
-msgstr "кінцівки"
+msgstr "Limb"
 
 msgid "Limbu"
 msgstr "Лімбу"
 
 msgid "Lina"
-msgstr "Ліна"
+msgstr "Lina"
 
 msgid "Linear A"
 msgstr "Лінійний А"
 
 msgid "Linb"
-msgstr "linb"
+msgstr "Linb"
 
 msgid "Linear B"
 msgstr "Лінійний Б"
 
 msgid "Lisu"
-msgstr "Лісу"
+msgstr "Lisu"
 
 msgid "Loma"
-msgstr "Лома"
+msgstr "Loma"
 
 msgid "Lyci"
-msgstr "Ліці"
+msgstr "Lyci"
 
 msgid "Lycian"
 msgstr "Лікійці"
 
 msgid "Lydi"
-msgstr "Лідія"
+msgstr "Lydi"
 
 msgid "Lydian"
-msgstr "лідійський"
+msgstr "Лідійський"
 
 msgid "Mahj"
-msgstr "mahj"
+msgstr "Mahj"
 
 msgid "Mahajani"
 msgstr "Махаджані"
 
 msgid "Maka"
-msgstr "Отже"
+msgstr "Maka"
 
 msgid "Mand"
-msgstr "Манда"
+msgstr "Mand"
 
 msgid "Mandaic"
 msgstr "Мандаїк"
 
 msgid "Mani"
-msgstr "Мані"
+msgstr "Mani"
 
 msgid "Manichaean"
 msgstr "Маніхейський"
 
 msgid "Marc"
-msgstr "Марк"
+msgstr "Marc"
 
 msgid "Marchen"
 msgstr "Марчен"
 
 msgid "Maya"
-msgstr "Майя"
+msgstr "Maya"
 
 msgid "Mayan Hieroglyphs"
 msgstr "Ієрогліфи майя"
 
 msgid "Medf"
-msgstr "medf"
+msgstr "Medf"
 
 msgid "Medefaidrin"
 msgstr "Медефаїдрин"
 
 msgid "Mend"
-msgstr "Виправити"
+msgstr "Mend"
 
 msgid "Mende Kikakui"
 msgstr "Менде Кікакуї"
 
 msgid "Merc"
-msgstr "merc"
+msgstr "Merc"
 
 msgid "Meroitic Cursive"
 msgstr "Мероїтичний скоропис"
 
 msgid "Mero"
-msgstr "Меро"
+msgstr "Mero"
 
 msgid "Meroitic Hieroglyphs"
 msgstr "Мероїтичні ієрогліфи"
 
 msgid "Mlym"
-msgstr "Млим"
+msgstr "Mlym"
 
 msgid "Modi"
-msgstr "Моді"
+msgstr "Modi"
 
 msgid "Mong"
-msgstr "Монг"
+msgstr "Mong"
 
 msgid "Moon"
-msgstr "Місяць"
+msgstr "Moon"
 
 msgid "Mroo"
-msgstr "Мру"
+msgstr "Mroo"
 
 msgid "Mro"
-msgstr "пан"
+msgstr "Пан"
 
 msgid "Mtei"
-msgstr "Мтей"
+msgstr "Mtei"
 
 msgid "Meitei Mayek"
 msgstr "Мейтей Маєк"
 
 msgid "Mult"
-msgstr "Мульт"
+msgstr "Mult"
 
 msgid "Multani"
 msgstr "Мультані"
 
 msgid "Mymr"
-msgstr "mymr"
+msgstr "Mymr"
 
 msgid "Myanmar (Burmese)"
 msgstr "М'янма (бірманська)"
 
 msgid "Nand"
-msgstr "nand"
+msgstr "Nand"
 
 msgid "Nandinagari"
 msgstr "Нандінагарі"
 
 msgid "Narb"
-msgstr "Нарб"
+msgstr "Narb"
 
 msgid "Old North Arabian"
 msgstr "Давні північні араби"
 
 msgid "Nbat"
-msgstr "nbat"
+msgstr "Nbat"
 
 msgid "Nabataean"
-msgstr "набатейський"
+msgstr "Набатейський"
 
 msgid "Newa"
-msgstr "newa"
+msgstr "Newa"
 
 msgid "Nkdb"
-msgstr "nkdb"
+msgstr "Nkdb"
 
 msgid "Naxi Dongba"
-msgstr "naxi Dongba"
+msgstr "Насі Донгба"
 
 msgid "Nkgb"
-msgstr "nkgb"
+msgstr "Nkgb"
 
 msgid "Nakhi Geba"
 msgstr "Нахі Геба"
 
 msgid "Nkoo"
-msgstr "nkoo"
+msgstr "Nkoo"
 
 msgid "Nshu"
-msgstr "nshu"
+msgstr "Nshu"
 
 msgid "Nüshu"
-msgstr "nüshu"
+msgstr "Нюшу"
 
 msgid "Ogam"
-msgstr "Огам"
+msgstr "Ogam"
 
 msgid "Ogham"
 msgstr "Огам"
 
 msgid "Olck"
-msgstr "Олк"
+msgstr "Olck"
 
 msgid "Ol Chiki"
 msgstr "Ол Чікі"
 
 msgid "Orkh"
-msgstr "Орх"
+msgstr "Orkh"
 
 msgid "Old Turkic"
-msgstr "старотюрк"
+msgstr "Старотюрк"
 
 msgid "Orya"
-msgstr "Оря"
+msgstr "Orya"
 
 msgid "Oriya"
 msgstr "Орія"
 
 msgid "Osge"
-msgstr "osge"
+msgstr "Osge"
 
 msgid "Osma"
-msgstr "Осма"
+msgstr "Osma"
 
 msgid "Osmanya"
 msgstr "Османя"
 
 msgid "Ougr"
-msgstr "угр"
+msgstr "Ougr"
 
 msgid "Old Uyghur"
-msgstr "староуйгурський"
+msgstr "Староуйгурський"
 
 msgid "Palm"
-msgstr "palm"
+msgstr "Palm"
 
 msgid "Palmyrene"
 msgstr "Пальмірен"
 
 msgid "Pauc"
-msgstr "pauc"
+msgstr "Pauc"
 
 msgid "Pau Cin Hau"
 msgstr "Пау Син Хау"
 
 msgid "Pcun"
-msgstr "pcun"
+msgstr "Pcun"
 
 msgid "Proto-Cuneiform"
 msgstr "Протоклинопис"
 
 msgid "Pelm"
-msgstr "Пельм"
+msgstr "Pelm"
 
 msgid "Proto-Elamite"
 msgstr "Протоелам"
 
 msgid "Perm"
-msgstr "завивка"
+msgstr "Perm"
 
 msgid "Old Permic"
 msgstr "Старопермський"
 
 msgid "Phag"
-msgstr "phag"
+msgstr "Phag"
 
 msgid "Phags-pa"
 msgstr "Фагс-па"
 
 msgid "Phli"
-msgstr "phli"
+msgstr "Phli"
 
 msgid "Inscriptional Pahlavi"
 msgstr "Пехлеві з написом"
 
 msgid "Phlp"
-msgstr "phlp"
+msgstr "Phlp"
 
 msgid "Psalter Pahlavi"
 msgstr "Псалтир Пехлеві"
 
 msgid "Phlv"
-msgstr "phlv"
+msgstr "Phlv"
 
 msgid "Book Pahlavi"
 msgstr "Книга Пехлеві"
 
 msgid "Phnx"
-msgstr "phnx"
+msgstr "Phnx"
 
 msgid "Piqd"
-msgstr "piqd"
+msgstr "Piqd"
 
 msgid "Plrd"
-msgstr "plrd"
+msgstr "Plrd"
 
 msgid "Miao"
-msgstr "Мяо"
+msgstr "Miao"
 
 msgid "Prti"
-msgstr "prti"
+msgstr "Prti"
 
 msgid "Inscriptional Parthian"
 msgstr "Написовий парф"
 
 msgid "Psin"
-msgstr "Псін"
+msgstr "Psin"
 
 msgid "Proto-Sinaitic"
 msgstr "Протосинайський"
 
 msgid "Ranj"
-msgstr "рандж"
+msgstr "Ranj"
 
 msgid "Ranjana"
 msgstr "Ранджана"
 
 msgid "Rjng"
-msgstr "Кільце"
+msgstr "Rjng"
 
 msgid "Rejang"
-msgstr "rejang"
+msgstr "Реджанг"
 
 msgid "Rohg"
-msgstr "rohg"
+msgstr "Rohg"
 
 msgid "Hanifi Rohingya"
 msgstr "Ханіфі рохінджа"
 
 msgid "Roro"
-msgstr "Роро"
+msgstr "Roro"
 
 msgid "Rongorongo"
 msgstr "Ронгоронго"
 
 msgid "Runr"
-msgstr "runr"
+msgstr "Runr"
 
 msgid "Runic"
-msgstr "рунічний"
+msgstr "Рунічний"
 
 msgid "Samr"
-msgstr "Самр"
+msgstr "Samr"
 
 msgid "Samaritan"
 msgstr "Самарянин"
 
 msgid "Sara"
-msgstr "Сара"
+msgstr "Sara"
 
 msgid "Sarati"
 msgstr "Сараті"
 
 msgid "Sarb"
-msgstr "Сарб"
+msgstr "Sarb"
 
 msgid "Old South Arabian"
 msgstr "Давньоаравійський"
 
 msgid "Saur"
-msgstr "Саур"
+msgstr "Saur"
 
 msgid "Sgnw"
-msgstr "sgnw"
+msgstr "Sgnw"
 
 msgid "SignWriting"
-msgstr "Sign Writing"
+msgstr "Написання вивісок"
 
 msgid "Shaw"
-msgstr "Шоу"
+msgstr "Shaw"
 
 msgid "Shavian"
 msgstr "Шавіан"
 
 msgid "Shrd"
-msgstr "shrd"
+msgstr "Shrd"
 
 msgid "Sharada"
 msgstr "Шарада"
 
 msgid "Shui"
-msgstr "шуй"
+msgstr "Shui"
 
 msgid "Shuishu"
-msgstr "shuishu"
+msgstr "Шуйшу"
 
 msgid "Sidd"
-msgstr "Сідд"
+msgstr "Sidd"
 
 msgid "Siddham"
 msgstr "Сідхем"
 
 msgid "Sind"
-msgstr "Сінд"
+msgstr "Sind"
 
 msgid "Khudawadi"
 msgstr "Худаваді"
 
 msgid "Sinh"
-msgstr "Синх"
+msgstr "Sinh"
 
 msgid "Sogd"
-msgstr "Согд"
+msgstr "Sogd"
 
 msgid "Sogdian"
 msgstr "Согдійський"
 
 msgid "Sogo"
-msgstr "Сого"
+msgstr "Sogo"
 
 msgid "Old Sogdian"
-msgstr "старосогдійський"
+msgstr "Старосогдійський"
 
 msgid "Sora"
-msgstr "Сора"
+msgstr "Sora"
 
 msgid "Sora Sompeng"
 msgstr "Сора Сомпенг"
 
 msgid "Soyo"
-msgstr "Сойо"
+msgstr "Soyo"
 
 msgid "Soyombo"
 msgstr "Сойомбо"
 
 msgid "Sund"
-msgstr "sund"
+msgstr "Sund"
 
 msgid "Sylo"
-msgstr "Силос"
+msgstr "Sylo"
 
 msgid "Syloti Nagri"
 msgstr "Сілоті Нагрі"
 
 msgid "Syrc"
-msgstr "syrc"
+msgstr "Syrc"
 
 msgid "Tagb"
-msgstr "Тегб"
+msgstr "Tagb"
 
 msgid "Tagbanwa"
 msgstr "Тагбанва"
 
 msgid "Takr"
-msgstr "Такр"
+msgstr "Takr"
 
 msgid "Takri"
 msgstr "Такрі"
 
 msgid "Tale"
-msgstr "Казка"
+msgstr "Tale"
 
 msgid "Tai Le"
 msgstr "Тай Ле"
 
 msgid "Talu"
-msgstr "Талу"
+msgstr "Talu"
 
 msgid "New Tai Lue"
 msgstr "Новий Тай Лю"
 
 msgid "Taml"
-msgstr "Тамл"
+msgstr "Taml"
 
 msgid "Tang"
-msgstr "Тан"
+msgstr "Tang"
 
 msgid "Tangut"
-msgstr "тангутська"
+msgstr "Тангутська"
 
 msgid "Tavt"
-msgstr "Тавт"
+msgstr "Tavt"
 
 msgid "Tai Viet"
 msgstr "тай в'єт"
@@ -4627,103 +4627,103 @@ msgid "Telu"
 msgstr "телу"
 
 msgid "Teng"
-msgstr "Тенг"
+msgstr "Teng"
 
 msgid "Tengwar"
 msgstr "Тенгвар"
 
 msgid "Tfng"
-msgstr "tfng"
+msgstr "Tfng"
 
 msgid "Tifinagh"
 msgstr "Тіфінаг"
 
 msgid "Tglg"
-msgstr "tglg"
+msgstr "Tglg"
 
 msgid "Thaa"
-msgstr "Тхаа"
+msgstr "Thaa"
 
 msgid "Thaana"
 msgstr "Таана"
 
 msgid "Tibt"
-msgstr "Тібт"
+msgstr "Tibt"
 
 msgid "Tirh"
-msgstr "Тірх"
+msgstr "Tirh"
 
 msgid "Tirhuta"
 msgstr "Тірхута"
 
 msgid "Tnsa"
-msgstr "tnsa"
+msgstr "Tnsa"
 
 msgid "Tangsa"
 msgstr "Тангса"
 
 msgid "Toto"
-msgstr "Тото"
+msgstr "Toto"
 
 msgid "Ugar"
-msgstr "Угар"
+msgstr "Ugar"
 
 msgid "Vaii"
-msgstr "vaii"
+msgstr "Vaii"
 
 msgid "Visp"
-msgstr "Висп"
+msgstr "Visp"
 
 msgid "Visible Speech"
 msgstr "Видима мова"
 
 msgid "Vith"
-msgstr "Віт"
+msgstr "Vith"
 
 msgid "Vithkuqi"
-msgstr "vithkuqi"
+msgstr "Віткук"
 
 msgid "Wara"
-msgstr "Вара"
+msgstr "Wara"
 
 msgid "Warang Citi"
 msgstr "Варанг Сіті"
 
 msgid "Wcho"
-msgstr "Хто"
+msgstr "Wcho"
 
 msgid "Wancho"
 msgstr "Ванчо"
 
 msgid "Wole"
-msgstr "Воле"
+msgstr "Wole"
 
 msgid "Woleai"
-msgstr "woleai"
+msgstr "Воле"
 
 msgid "Xpeo"
-msgstr "xpeo"
+msgstr "Xpeo"
 
 msgid "Xsux"
-msgstr "xsux"
+msgstr "Xsux"
 
 msgid "Cuneiform"
 msgstr "Клинопис"
 
 msgid "Yezi"
-msgstr "Єзі"
+msgstr "Yezi"
 
 msgid "Yezidi"
 msgstr "Єзиди"
 
 msgid "Yiii"
-msgstr "yiii"
+msgstr "Yiii"
 
 msgid "Yi"
 msgstr "Yi"
 
 msgid "Zanb"
-msgstr "Занб"
+msgstr "Zanb"
 
 msgid "Zanabazar Square"
 msgstr "Занабазарська площа"

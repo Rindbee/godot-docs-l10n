@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,62 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using TileSets"
+msgstr "Utilizzo di TileSet"
+
 msgid "Introduction"
 msgstr "Introduzione"
+
+msgid "Creating a new TileSet"
+msgstr "Creare un nuovo TileSet"
+
+msgid "Using a tilesheet"
+msgstr "Utilizzare un tilesheet"
+
+msgid "Tilesheet example with 64×64 tiles"
+msgstr "Esempio di tilesheet con tasselli 64×64"
+
+msgid ""
+"Tilesheet with 64×64 tiles. Credit: `Kenney <https://kenney.nl/assets/"
+"abstract-platformer>`__"
+msgstr ""
+"Tilesheet con tasselli 64×64 . Credito: `Kenney <https://kenney.nl/assets/"
+"abstract-platformer>`__"
+
+msgid "Creating a new TileSet resource within the TileMapLayer node"
+msgstr "Creare una nuova risorsa TileSet all'interno del nodo TileMapLayer"
+
+msgid ""
+"Set the tile size to 64×64 in the inspector to match the example tilesheet:"
+msgstr ""
+"Imposta le dimensioni dei tasselli su 64×64 nell'ispettore in modo che "
+"corrisponda al tilesheet di esempio:"
+
+msgid "Setting the tile size to 64×64 to match the example tilesheet"
+msgstr ""
+"Impostazione delle dimensioni dei tasselli su 64×64 in modo che corrisponda "
+"al tilesheet di esempio"
+
+msgid "The following properties can be adjusted on the atlas:"
+msgstr "Le seguenti proprietà si possono modificare sull'atlante:"
+
+msgid "Creating a scenes collection in the TileSet editor"
+msgstr "Creazione di una collezione di scene nell'editor TileSet"
+
+msgid "Creating terrain sets (autotiling)"
+msgstr "Creare insiemi di terreno (autotiling)"
+
+msgid "Creating a terrain within the terrain set"
+msgstr "Creare un terreno all'interno dell'insieme di terreni"
+
+msgid "Using multiple tile selection"
+msgstr "Utilizzare la selezione di più tasselli"
+
+msgid "Using tile property painting"
+msgstr "Utilizzare la pittura di proprietà di tasselli"
+
+msgid "Painting tile properties using the TileSet editor"
+msgstr "Pittura delle proprietà dei tasselli attraverso l'editor di TileSet"
+
+msgid "Creating alternative tiles"
+msgstr "Creare tasselli alternativi"

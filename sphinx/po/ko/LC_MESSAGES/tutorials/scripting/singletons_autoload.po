@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Singletons (Autoload)"
+msgstr "싱글톤 (오토로드)"
 
 msgid "Introduction"
 msgstr "소개"
@@ -76,6 +79,9 @@ msgstr "GDScript가 전역 변수를 지원하지 않기 때문에 싱글톤처�
 msgid "Autoloading nodes and scripts can give us these characteristics."
 msgstr "노드와 스크립트를 오토로드하면 위와 같은 특성을 적용할 수 있습니다."
 
+msgid "Autoload"
+msgstr "오토로드"
+
 msgid ""
 "When autoloading a script, a :ref:`class_Node` will be created and the "
 "script will be attached to it. This node will be added to the root viewport "
@@ -95,6 +101,13 @@ msgstr ""
 
 msgid "Custom scene switcher"
 msgstr "커스텀 씬 전환기"
+
+msgid ""
+"A window notifying you that the project was last opened in an older Godot "
+"version may appear, that's not an issue. Click *Ok* to open the project."
+msgstr ""
+"프로젝트가 마지막으로 이전 Godot 버전에서 열렸다는 알림 창이 나타날 수 있지"
+"만, 이건 문제가 되지 않습니다. *Ok* 를 클릭하여 프로젝트를 여세요."
 
 msgid ""
 "Now whenever we run any scene in the project, this script will always be "
@@ -134,12 +147,12 @@ msgstr "프로젝트를 실행하고 버튼을 누를 때마다 씬이 바뀌는
 msgid ""
 "When scenes are small, the transition is instantaneous. However, if your "
 "scenes are more complex, they may take a noticeable amount of time to "
-"appear. To learn how to handle this, see the next tutorial: :ref:"
-"`doc_background_loading`."
+"appear. To learn how to handle this, see the next "
+"tutorial: :ref:`doc_background_loading`."
 msgstr ""
 "씬이 작다면 씬 전환이 빠르게 됩니다. 그러나 씬이 더 복잡한 경우 표시되는 데 "
-"상당한 시간이 걸릴 수 있습니다. 이를 처리하는 방법을 배우려면 다음 튜토리얼 :"
-"ref:`doc_background_loading`\\ 을 살펴보세요."
+"상당한 시간이 걸릴 수 있습니다. 이를 처리하는 방법을 배우려면 다음 튜토리"
+"얼 :ref:`doc_background_loading`\\ 을 살펴보세요."
 
 msgid ""
 "Alternatively, if the loading time is relatively short (less than 3 seconds "

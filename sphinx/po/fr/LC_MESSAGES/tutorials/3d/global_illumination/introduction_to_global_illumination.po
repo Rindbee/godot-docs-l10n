@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,9 @@ msgstr ""
 
 msgid "Indirect diffuse lighting"
 msgstr "Lumière indirecte diffuse"
+
+msgid "Specular lighting"
+msgstr "Éclairage spéculaire"
 
 msgid "Performance"
 msgstr "Performance"
@@ -42,16 +45,16 @@ msgid "good"
 msgstr "bien"
 
 msgid "**VoxelGI:** |good| Fully real-time."
-msgstr "**VoxelGI:** |bon| complètement en temps réel."
+msgstr "**VoxelGI :** |good| Complètement en temps réel."
 
 msgid "**SDFGI:** |average| Semi-real-time."
-msgstr "**SDFGI:** |moyenne| Semi temps réel."
+msgstr "**SDFGI :** |average| Semi temps réel."
 
 msgid "bad"
 msgstr "bad"
 
 msgid "**ReflectionProbe:** |average| Optionally real-time."
-msgstr "**ReflectionProbe:** |moyenne| Optionnellement en temps réel."
+msgstr "**ReflectionProbe :** |average| Optionnellement en temps réel."
 
 msgid "User work needed"
 msgstr "Travail de l'utilisateur nécessaire"

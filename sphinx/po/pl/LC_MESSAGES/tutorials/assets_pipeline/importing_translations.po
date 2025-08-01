@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -58,12 +58,12 @@ msgstr ""
 
 msgid ""
 "If you need a more powerful file format, Godot also supports loading "
-"translations written in the gettext ``.po`` format. See :ref:"
-"`doc_localization_using_gettext` for details."
+"translations written in the gettext ``.po`` format. "
+"See :ref:`doc_localization_using_gettext` for details."
 msgstr ""
 "Jeśli potrzebujesz bardziej wydajnego formatu pliku, Godot obsługuje również "
-"ładowanie tłumaczeń napisanych w formacie gettext ``.po``. Zobacz :ref:"
-"`doc_localization_using_gettext` po szczegóły."
+"ładowanie tłumaczeń napisanych w formacie gettext ``.po``. "
+"Zobacz :ref:`doc_localization_using_gettext` po szczegóły."
 
 msgid "Translation format"
 msgstr "Format tłumaczenia"
@@ -82,6 +82,12 @@ msgstr ""
 "wymogiem jest, aby pliki były w środku specjalnie ułożone. Pliki CSV "
 "**muszą** być zapisane z kodowaniem UTF-8 bez `znacznika kolejności bajtów "
 "<https://pl.wikipedia.org/wiki/BOM_(informatyka)>`__."
+
+msgid "CSV files must be formatted as follows:"
+msgstr "Pliki CSV muszą być sformatowane w ten sposób:"
+
+msgid "keys"
+msgstr "klucze"
 
 msgid "<lang1>"
 msgstr "<lang1>"
@@ -108,7 +114,7 @@ msgid "en"
 msgstr "en"
 
 msgid "es"
-msgstr "es"
+msgstr "pl"
 
 msgid "ja"
 msgstr "ja"
@@ -117,6 +123,9 @@ msgid "GREET"
 msgstr "GREET"
 
 msgid "Hello, friend!"
+msgstr "Hello, friend!"
+
+msgid "Hola, amigo!"
 msgstr "Cześć kolego!"
 
 msgid "こんにちは"
@@ -126,7 +135,7 @@ msgid "ASK"
 msgstr "ASK"
 
 msgid "How are you?"
-msgstr "Jak się masz?"
+msgstr "How are you?"
 
 msgid "Cómo está?"
 msgstr "Jak się masz?"
@@ -137,11 +146,26 @@ msgstr "元気ですか"
 msgid "BYE"
 msgstr "BYE"
 
+msgid "Goodbye"
+msgstr "Goodbye"
+
 msgid "Adiós"
 msgstr "Żegnaj"
 
 msgid "さようなら"
-msgstr "Żegnaj"
+msgstr "さようなら"
+
+msgid "QUOTE"
+msgstr "QUOTE"
+
+msgid "\"Hello\" said the man."
+msgstr "\"Hello\" said the man."
+
+msgid "\"Hola\" dijo el hombre."
+msgstr "\"Cześć\" powiedział mężczyzna."
+
+msgid "「こんにちは」男は言いました"
+msgstr "「こんにちは」男は言いました"
 
 msgid ""
 "Godot will treat CSV files as translations by default. It will import them "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -33,7 +33,7 @@ msgid "Physics"
 msgstr "Física"
 
 msgid "Rendering"
-msgstr "Renderizando"
+msgstr "Renderização"
 
 msgid "Shaders"
 msgstr "Shaders"
@@ -42,7 +42,10 @@ msgid "About"
 msgstr "Sobre"
 
 msgid "Contributing"
-msgstr "Contribuindo"
+msgstr "Contribuição"
+
+msgid "GDExtension"
+msgstr "GDExtension"
 
 msgid "C#"
 msgstr "C#"
@@ -108,11 +111,11 @@ msgid ":ref:`doc_debugger_panel`"
 msgstr ":ref:`doc_debugger_panel`"
 
 msgid ""
-":ref:`doc_gdscript_warning_system` (split from :ref:"
-"`doc_gdscript_static_typing`)"
+":ref:`doc_gdscript_warning_system` (split "
+"from :ref:`doc_gdscript_static_typing`)"
 msgstr ""
-":ref:`doc_gdscript_warning_system` (separado de :ref:"
-"`doc_gdscript_static_typing`)"
+":ref:`doc_gdscript_warning_system` (separado "
+"de :ref:`doc_gdscript_static_typing`)"
 
 msgid "User Interface (UI)"
 msgstr "Interface de Usuário (UI)"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -68,9 +68,10 @@ msgstr "在 Windows 上，大多数 MinGW 工具链安装时都会包含 ``strip
 msgid ""
 "This will reduce the size of compiled binaries by a factor between 5× and "
 "10×. The downside is that crash backtraces will no longer provide accurate "
-"information (which is useful for troubleshooting the cause of a crash). :ref:"
-"`C++ profilers <doc_using_cpp_profilers>` will also no longer be able to "
-"display function names (this does not affect the built-in GDScript profiler)."
+"information (which is useful for troubleshooting the cause of a "
+"crash). :ref:`C++ profilers <doc_using_cpp_profilers>` will also no longer "
+"be able to display function names (this does not affect the built-in "
+"GDScript profiler)."
 msgstr ""
 "这样可以将编译后二进制文件减少到原先五分之一到十分之一的大小。缺点是崩溃追踪"
 "中就无法再提供准确的信息了（可用于查找崩溃原因）。\\ :ref:`C++ 性能分析器 "
@@ -215,6 +216,9 @@ msgstr ""
 
 msgid ":ref:`doc_overriding_build_options`."
 msgstr ":ref:`doc_overriding_build_options`."
+
+msgid "Desktop"
+msgstr "桌面"
 
 msgid ""
 "Platforms like Steam already apply their own compression scheme, so you "

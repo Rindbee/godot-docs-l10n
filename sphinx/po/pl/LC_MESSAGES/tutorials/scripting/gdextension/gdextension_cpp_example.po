@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,9 +23,21 @@ msgid ""
 msgstr ""
 "Skopiuj to repozytorium: `<https://github.com/godotengine/godot-cpp>`__."
 
+msgid "gdextension_cpp_example/src/gdexample.h"
+msgstr "gdextension_cpp_example/src/gdexample.h"
+
 msgid "After that, we declare a single member variable called ``time_passed``."
 msgstr ""
 "Następnie, deklarujemy pojedynczą zmienną składową o nazwie ``time_passed``."
+
+msgid "gdextension_cpp_example/src/gdexample.cpp"
+msgstr "gdextension_cpp_example/src/gdexample.cpp"
+
+msgid "gdextension_cpp_example/src/register_types.cpp"
+msgstr "gdextension_cpp_example/src/register_types.cpp"
+
+msgid "gdextension_cpp_example/src/register_types.h"
+msgstr "gdextension_cpp_example/src/register_types.h"
 
 msgid "Signals"
 msgstr "Sygnały"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,37 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Rationale"
+msgstr "Razionale"
+
+msgid "See :ref:`doc_code_style_guidelines` for formatting guidelines."
+msgstr ""
+"Consultare :ref:`doc_code_style_guidelines` per le linee guida sulla "
+"formattazione."
+
+msgid "Disallowed features"
+msgstr "Funzionalità non autorizzate"
+
+msgid "Standard Template Library"
+msgstr "Standard Template Library"
+
+msgid "``auto`` keyword"
+msgstr "Parola chiave ``auto``"
+
+msgid "Lambdas"
+msgstr "Lambda"
+
+msgid "``try``-``catch`` blocks"
+msgstr "Blocchi ``try``-``catch``"
+
+msgid ""
+"C++ style exception handling using ``try`` and ``catch`` blocks is "
+"forbidden. This restriction is in place for several reasons, including "
+"performance, binary size and code complexity. "
+"Use :ref:`doc_common_engine_methods_and_macros_error_macros` instead."
+msgstr ""
+"La gestione delle eccezioni in stile C++ tramite blocchi ``try`` e ``catch`` "
+"è vietata. Questa restrizione è in vigore per diversi motivi, tra cui "
+"prestazioni, dimensioni del binario e complessità del codice. Utilizzare "
+"invece :ref:`doc_common_engine_methods_and_macros_error_macros`."

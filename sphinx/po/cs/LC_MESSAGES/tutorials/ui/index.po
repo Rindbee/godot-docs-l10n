@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,85 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "User interface (UI)"
+msgstr "Uživatelské rozhraní (UI)"
+
+msgid ""
+"In this section of the tutorial we explain the basics of creating a "
+"graphical user interface (GUI) in Godot."
+msgstr ""
+"V této sekci návodu si vysvětlíme základy vytváření grafických uživatelských "
+"rozhraní (GUI) v Godotu."
+
+msgid "UI building blocks"
+msgstr "Stavební bloky UI"
+
+msgid ""
+"Like everything else in Godot the user interface is built using nodes, "
+"specifically :ref:`Control <class_Control>` nodes. There are many different "
+"types of controls which are useful for creating specific types of GUIs. For "
+"simplicity we can separate them into two groups: content and layout."
+msgstr ""
+"Tak jako vše ostatní v Godotu je uživatelské rozhraní vytvořeno pomocí uzlů, "
+"konkrétně uzlů :ref:`Control <class_Control>` (\"ovládací prvek\"). Existuje "
+"mnoho různých typů ovládacích prvků, které jsou užitečné pro vytváření "
+"specifických druhů GUI. Pro jednoduchost je můžeme rozdělit do dvou skupin: "
+"obsahové a vzhledové."
+
+msgid "Typical content controls include:"
+msgstr "Typické obsahové ovládací prvky zahrnují:"
+
+msgid ":ref:`Buttons <class_Button>`"
+msgstr ":ref:`Tlačítka <class_Button>`"
+
+msgid ":ref:`Labels <class_Label>`"
+msgstr ":ref:`Popisky <class_Label>`"
+
+msgid ":ref:`LineEdits <class_LineEdit>` and :ref:`TextEdits <class_TextEdit>`"
+msgstr ""
+":ref:`LineEdity <class_LineEdit>` pro zadávání textového vstupu v jednom "
+"řádku a :ref:`TextEdity <class_TextEdit>` ve více řádcích"
+
+msgid "Typical layout controls include:"
+msgstr "Typické vzhledové ovládací prvky zahrnují:"
+
+msgid ":ref:`BoxContainers <class_BoxContainer>`"
+msgstr ":ref:`Krabicové kontejnery <class_BoxContainer>`"
+
+msgid ":ref:`MarginContainers <class_MarginContainer>`"
+msgstr ":ref:`Okrajové kontejnery <class_MarginContainer>`"
+
+msgid ":ref:`ScrollContainers <class_ScrollContainer>`"
+msgstr ":ref:`Posuvné kontejnery <class_ScrollContainer>`"
+
+msgid ":ref:`TabContainers <class_TabContainer>`"
+msgstr ":ref:`Záložkové kontejnery <class_TabContainer>`"
+
+msgid ":ref:`Popups <class_Popup>`"
+msgstr ":ref:`Vyskakovací okna <class_Popup>`"
+
+msgid "The following pages explain the basics of using such controls."
+msgstr ""
+"Následující stránky vysvětlují základy používání takových ovládacích prvků."
+
+msgid "GUI skinning and themes"
+msgstr "Vzhled GUI a motivy"
+
+msgid ""
+"Godot features an in-depth skinning/theming system for control nodes. The "
+"pages in this section explain the benefits of that system and how to set it "
+"up in your projects."
+msgstr ""
+"Godot obsahuje důkladný systém pro úpravu motivů a vzhledů uzlů ovládacích "
+"prvků. Stránky v této části vysvětlují výhody tohoto systému a jak jej "
+"nastavit ve vašich projektech."
+
 msgid "Control node tutorials"
-msgstr "Tutorialy pro řídicí uzly"
+msgstr "Návody pro uzly ovládacích prvků"
+
+msgid ""
+"The following articles cover specific details of using particular control "
+"nodes."
+msgstr ""
+"Následující články pokrývají konkrétní podrobnosti o používání specifických "
+"uzlů ovládacích prvků."

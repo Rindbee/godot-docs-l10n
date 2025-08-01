@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,60 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "``Array``"
+msgstr "``Array``"
+
+msgid "``Godot.Collections.Array``"
+msgstr "``Godot.Collections.Array``"
+
+msgid "``PackedByteArray``"
+msgstr "``PackedByteArray``"
+
+msgid "``byte[]``"
+msgstr "``byte[]``"
+
+msgid "``PackedInt32Array``"
+msgstr "``PackedInt32Array``"
+
+msgid "``int[]``"
+msgstr "``int[]``"
+
+msgid "``PackedInt64Array``"
+msgstr "``PackedInt64Array``"
+
+msgid "``long[]``"
+msgstr "``long[]``"
+
+msgid "``PackedFloat32Array``"
+msgstr "``PackedFloat32Array``"
+
+msgid "``float[]``"
+msgstr "``float[]``"
+
+msgid "``PackedFloat64Array``"
+msgstr "``PackedFloat64Array``"
+
+msgid "``double[]``"
+msgstr "``double[]``"
+
+msgid "``PackedStringArray``"
+msgstr "``PackedStringArray``"
+
+msgid "``string[]``"
+msgstr "``string[]``"
+
+msgid "``PackedVector2Array``"
+msgstr "``PackedVector2Array``"
+
+msgid "``PackedVector3Array``"
+msgstr "``PackedVector3Array``"
+
+msgid "``PackedVector4Array``"
+msgstr "``PackedVector4Array``"
+
+msgid "``Godot.Vector4[]``"
+msgstr "``Godot.Vector4[]``"
+
+msgid "``PackedColorArray``"
+msgstr "``PackedColorArray``"

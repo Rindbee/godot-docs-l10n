@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,6 +17,9 @@ msgid ""
 msgstr ""
 "Wbudowany edytor skryptów Godota domyślnie korzysta z wielu z tych "
 "konwencji. Pozwól mu, pomóc sobie."
+
+msgid "Formatting"
+msgstr "Formatowanie"
 
 msgid ""
 "Use line feed (**LF**) characters to break lines, not CRLF or CR. *(editor "
@@ -67,6 +70,12 @@ msgstr "Użyj``or`` zamiast``||``."
 
 msgid "Whitespace"
 msgstr "Biały znak"
+
+msgid "Quotes"
+msgstr "Cudzysłowy"
+
+msgid "Numbers"
+msgstr "Liczby"
 
 msgid "Type"
 msgstr "Typ"

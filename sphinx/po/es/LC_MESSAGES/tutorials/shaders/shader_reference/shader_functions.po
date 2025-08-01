@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -44,6 +44,9 @@ msgstr "Tangente hiperbólica."
 msgid "return"
 msgstr "return"
 
+msgid "Exponential and math functions"
+msgstr "Funciones exponenciales y matemáticas"
+
 msgid "Base-e exponential."
 msgstr "Exponencial base e."
 
@@ -71,6 +74,9 @@ msgstr "Parte fraccionaria de ``x``, con ``i`` como parte entera."
 msgid "Lowest value between ``a`` and ``b``."
 msgstr "Valor más bajo entre ``a`` y ``b``."
 
+msgid "``b < a ? 0.0 : 1.0``"
+msgstr "``b < a ? 0.0 : 1.0``"
+
 msgid "Returns ``true`` if scalar or vector component is ``NaN``."
 msgstr ""
 "Devuelve ``true`` si el escalar o componente de un vector es ``NaN`` (no es "
@@ -78,6 +84,27 @@ msgstr ""
 
 msgid "Returns ``true`` if scalar or vector component is ``INF``."
 msgstr "Devuelve ``true`` si el escalar o componente de un vector es ``INF``."
+
+msgid "The rounded value."
+msgstr "El valor redondeado."
+
+msgid "The minimum value."
+msgstr "El valor mínimo."
+
+msgid "The clamped value."
+msgstr "El valor fijado."
+
+msgid "The interpolated value."
+msgstr "El valor interpolado."
+
+msgid "The value to be added to the result."
+msgstr "El valor que se agregará al resultado."
+
+msgid "The location of the edge of the step function."
+msgstr "La ubicación del borde de la función de paso."
+
+msgid "The value to test for infinity."
+msgstr "El valor para probar el infinito."
 
 msgid "float"
 msgstr "real"
@@ -124,6 +151,36 @@ msgstr "Matriz determinante."
 msgid "Inverse matrix."
 msgstr "Matriz inversa."
 
+msgid "The second point."
+msgstr "El segundo punto."
+
+msgid "The first vector."
+msgstr "El primer vector."
+
+msgid "The second vector."
+msgstr "El segundo vector."
+
+msgid "The normalized vector."
+msgstr "El vector normalizado."
+
+msgid "The incident vector."
+msgstr "El vector incidente."
+
+msgid "The refraction vector."
+msgstr "El vector de refracción."
+
+msgid "The vector to orient."
+msgstr "El vector para orientar."
+
+msgid "The reference vector."
+msgstr "El vector de referencia."
+
+msgid "The resultant matrix."
+msgstr "La matriz resultante."
+
+msgid "Calculate the transpose of a matrix."
+msgstr "Calcular la transpuesta de una matriz."
+
 msgid "Bool vector comparison on < int/uint/float vectors."
 msgstr "Comparación booleana de vectores en vectores < int/uint/float."
 
@@ -148,6 +205,9 @@ msgstr "bool"
 msgid "Invert boolean vector."
 msgstr "Invierte un vector booleano."
 
+msgid "The second vector to compare."
+msgstr "El segundo vector a comparar."
+
 msgid "Get the size of a texture."
 msgstr "Obtiene el tamaño de una textura."
 
@@ -166,5 +226,39 @@ msgstr "Realiza una lectura de textura con proyección/LOD."
 msgid "Performs a texture read with explicit gradients."
 msgstr "Realiza una lectura de textura con gradientes explícitos."
 
+msgid "Performs a texture read with projection/LOD and with explicit"
+msgstr "Realiza una lectura de textura con proyección/LOD y con explícitos"
+
 msgid "Fetches a single texel using integer coordinates."
 msgstr "Obtiene un solo texel usando coordenadas enteras."
+
+msgid "Not available when using the Compatibility renderer."
+msgstr "No disponible cuando se utiliza el renderizador Compatibilidad."
+
+msgid "Available only in the fragment shader."
+msgstr "Solo disponible en el fragment shader."
+
+msgid "See description."
+msgstr "Véase la descripción."
+
+msgid "Returns the value::"
+msgstr "Regresa el valor::"
+
+msgid "The gathered texel."
+msgstr "El texel recogido."
+
+msgid ""
+"Available only in the fragment shader. Not available when using the "
+"Compatibility renderer."
+msgstr ""
+"Disponible solo en el shader de fragmentos. No disponible al usar el "
+"renderizador Compatibilidad."
+
+msgid "The number of bits to extract."
+msgstr "El número de bits a extraer."
+
+msgid "The number of bits to insert."
+msgstr "El número de bits a insertar."
+
+msgid "The second operand."
+msgstr "El segundo operando."

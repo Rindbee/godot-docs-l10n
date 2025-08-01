@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -39,8 +39,14 @@ msgstr ""
 msgid "Next, you will create a header file with a TTS class:"
 msgstr "Далі ви створите файл заголовка з класом TTS:"
 
+msgid "godot/modules/tts/tts.h"
+msgstr "godot/modules/tts/tts.h"
+
 msgid "And then you'll add the cpp file."
 msgstr "Потім ви додасте файл cpp."
+
+msgid "godot/modules/tts/tts.cpp"
+msgstr "godot/modules/tts/tts.cpp"
 
 msgid ""
 "Just as before, the new class needs to be registered somehow, so two more "
@@ -59,12 +65,21 @@ msgstr ""
 msgid "These files should contain the following:"
 msgstr "Ці файли повинні містити наступне:"
 
+msgid "godot/modules/tts/register_types.h"
+msgstr "godot/modules/tts/register_types.h"
+
+msgid "godot/modules/tts/register_types.cpp"
+msgstr "godot/modules/tts/register_types.cpp"
+
 msgid ""
 "Next, you need to create an ``SCsub`` file so the build system compiles this "
 "module:"
 msgstr ""
 "Далі вам потрібно створити файл ``SCsub``, щоб система збірки скомпілювала "
 "цей модуль:"
+
+msgid "godot/modules/tts/SCsub"
+msgstr "godot/modules/tts/SCsub"
 
 msgid ""
 "You'll need to install the external library on your machine to get the .a "

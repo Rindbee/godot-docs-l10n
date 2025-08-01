@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,14 +11,112 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Compiling for Linux, \\*BSD"
+msgstr "Compilare per Linux, \\*BSD"
+
 msgid "Requirements"
 msgstr "Requisiti"
 
+msgid "GCC 9+ or Clang 6+."
+msgstr "GCC 9+ o Clang 6+."
+
+msgid "`Python 3.8+ <https://www.python.org/downloads/>`_."
+msgstr "`Python 3.8+ <https://www.python.org/downloads/>`_."
+
+msgid "`SCons 4.0+ <https://scons.org/pages/download.html>`_ build system."
+msgstr ""
+"Sistema di compilazione `SCons 4.0+ <https://scons.org/pages/"
+"download.html>`_."
+
+msgid "Development libraries:"
+msgstr "Librerie di sviluppo:"
+
+msgid "PulseAudio."
+msgstr "PulseAudio."
+
+msgid ""
+"To get the Godot source code for compiling, see :ref:`doc_getting_source`."
+msgstr ""
+"Per ottenere il codice sorgente di Godot per la compilazione, "
+"consultare :ref:`doc_getting_source`."
+
+msgid ""
+"For a general overview of SCons usage for Godot, "
+"see :ref:`doc_introduction_to_the_buildsystem`."
+msgstr ""
+"Per una panoramica generale sull'utilizzo di SCons per Godot, "
+"consultare :ref:`doc_introduction_to_the_buildsystem`."
+
+msgid "Alpine Linux"
+msgstr "Alpine Linux"
+
+msgid "Arch Linux"
+msgstr "Arch Linux"
+
+msgid "Debian/Ubuntu"
+msgstr "Debian/Ubuntu"
+
+msgid "Fedora"
+msgstr "Fedora"
+
+msgid "FreeBSD"
+msgstr "FreeBSD"
+
+msgid "Gentoo"
+msgstr "Gentoo"
+
+msgid "Mageia"
+msgstr "Mageia"
+
+msgid "NetBSD"
+msgstr "NetBSD"
+
+msgid "OpenBSD"
+msgstr "OpenBSD"
+
+msgid "openSUSE"
+msgstr "openSUSE"
+
+msgid "Solus"
+msgstr "Solus"
+
 msgid "Compiling"
 msgstr "Compilazione"
+
+msgid "Running a headless/server build"
+msgstr "Eseguire una compilazione headless/server"
 
 msgid "(32 bits)"
 msgstr "(32 bits)"
 
 msgid "(64 bits)"
 msgstr "(64 bits)"
+
+msgid ""
+"Go to the root of the source code, and execute the following build command:"
+msgstr ""
+"Navigare alla radice del codice sorgente ed eseguire il seguente comando di "
+"compilazione:"
+
+msgid ""
+"After the build is completed, a new binary with a ``.llvm`` suffix will be "
+"created in the ``bin/`` folder."
+msgstr ""
+"Dopo che la compilazione è stata completata, verrà creato un nuovo binario "
+"con un suffisso ``.llvm`` nella cartella ``bin/``."
+
+msgid "There are two solutions:"
+msgstr "Ci sono due soluzioni:"
+
+msgid "Using mold for faster development"
+msgstr "Utilizzo di mold per uno sviluppo più rapido"
+
+msgid ""
+"Download mold binaries from its `releases page <https://github.com/rui314/"
+"mold/releases/latest>`__."
+msgstr ""
+"Scaricare i file binari di mold dalla sua `pagina dei rilasci <https://"
+"github.com/rui314/mold/releases/latest>`__."
+
+msgid "Using system libraries for faster development"
+msgstr "Utilizzo di librerie del sistema per uno sviluppo più rapido"

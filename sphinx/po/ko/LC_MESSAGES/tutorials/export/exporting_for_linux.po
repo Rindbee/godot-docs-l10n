@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,30 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Exporting for Linux"
+msgstr "Linux로 내보내기"
+
+msgid ""
+"This page describes how to export a Godot project to Linux. If you're "
+"looking to compile editor or export template binaries from source instead, "
+"read :ref:`doc_compiling_for_linuxbsd`."
+msgstr ""
+"이 페이지는 Godot 프로젝트를 Linux로 내보내는 방법을 설명합니다. 소스로부터 "
+"편집기나 내보내기 템플릿 바이너리를 컴파일하고자 한다면, 대"
+"신 :ref:`doc_compiling_for_linuxbsd`\\ 를 읽으세요."
+
+msgid "Export option"
+msgstr "내보내기 옵션"
+
+msgid "Environment variable"
+msgstr "환경 변수"
+
+msgid "Encryption / Encryption Key"
+msgstr "암호화 / 암호화 키"
+
+msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "Export options"
+msgstr "내보내기 옵션"

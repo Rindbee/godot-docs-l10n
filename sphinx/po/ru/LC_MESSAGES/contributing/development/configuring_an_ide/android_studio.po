@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -19,3 +19,13 @@ msgstr "Импортирование проекта"
 
 msgid "Android Studio's welcome window."
 msgstr "Приветственное окно Android Studio."
+
+msgid ""
+"The project is organized using `Android Studio's modules <https://"
+"developer.android.com/studio/projects#ApplicationModules>`_:"
+msgstr ""
+"Проект организован с использованием `модулей Android Studio <https://"
+"developer.android.com/studio/projects#ApplicationModules>`_:"
+
+msgid "``editor`` module:"
+msgstr "Модуль ``editor``:"

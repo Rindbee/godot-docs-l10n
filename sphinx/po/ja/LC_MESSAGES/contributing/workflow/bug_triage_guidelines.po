@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,54 +17,8 @@ msgstr "バグ分類のガイドライン"
 msgid "Issues management"
 msgstr "問題管理"
 
-msgid "GitHub proposes various features to manage issues:"
-msgstr "GitHubは課題を管理するためのさまざまな機能を提案します:"
-
-msgid "Set one or several labels from a predefined list"
-msgstr "定義済みリストから1つまたは複数のラベルを設定する"
-
-msgid "Set one milestone from a predefined list"
-msgstr "定義済みの一覧からマイルストーンを1つ設定する"
-
-msgid "Keep track of the issue in the project dashboard"
-msgstr "プロジェクト・ダッシュボードで問題を追跡する"
-
-msgid ""
-"Define one contributor as \"assignee\" among the Godot engine organization "
-"members"
-msgstr "Godotエンジン組織メンバーの間で1人の貢献者を「担当者」として定義します"
-
-msgid ""
-"As the Godot engine organization on GitHub currently has a restricted number "
-"of contributors, we do not use assignees extensively for now. All "
-"contributors are welcome to take on any issue, if relevant after mentioning "
-"it on the issue ticket and/or discussing the best way to resolve it with "
-"other developers."
-msgstr ""
-"GitHubのGodotエンジン組織には現在、限られた数の貢献者しかいないため当面は譲受"
-"人を広範囲に使用しません。すべての寄稿者は問題があればそれをissueチケットに記"
-"載したり、他の開発者と解決するための最善の方法を話し合った後で関連しているな"
-"ら、どのような問題でも解決することを歓迎します。"
-
-msgid ""
-"As far as possible, we try to assign labels (and milestones, when relevant) "
-"to both issues and pull requests."
-msgstr ""
-"可能な限り、ラベル(および関連する場合はマイルストーン)をissueとpull requestの"
-"両方に割り当てます。"
-
 msgid "Labels"
 msgstr "ラベル"
-
-msgid "**Categories:**"
-msgstr "**カテゴリ:**"
-
-msgid ""
-"*Archived*: either a duplicate of another issue, or invalid. Such an issue "
-"would also be closed."
-msgstr ""
-"*Archived*: 他の問題の重複、または無効です。 このような問題も解決されるでしょ"
-"う。"
 
 msgid "*Bug*: describes something that is not working properly."
 msgstr "*Bug*:正しく動作していないものを示します。"
@@ -114,9 +68,6 @@ msgstr ""
 "*Tracker*\\ :他の問題を追跡するために使用される問題(プラグインシステムに関連"
 "するすべての問題のような)。"
 
-msgid "**Topics:**"
-msgstr "**トピック:**"
-
 msgid "*Assetlib*: relates to issues with the asset library."
 msgstr "*Assetlib*\\ :アセットライブラリの問題に関連します。"
 
@@ -153,9 +104,6 @@ msgstr ""
 "者チームがあるため、チームのトピックでラベル付けされた問題に集中できるという"
 "ことです。"
 
-msgid "**Platforms:**"
-msgstr "**プラットフォーム:**"
-
 msgid ""
 "By default, it is assumed that a given issue applies to all platforms. If "
 "one of the platform labels is used, it is then exclusive and the previous "
@@ -167,14 +115,12 @@ msgstr ""
 "り、以前の前提はもはや存在しません(AndroidとLinuxのみのバグの場合は、この2つ"
 "のプラットフォームを選択してください。)。"
 
+msgid ""
+"*Archived*: either a duplicate of another issue, or invalid. Such an issue "
+"would also be closed."
+msgstr ""
+"*Archived*: 他の問題の重複、または無効です。 このような問題も解決されるでしょ"
+"う。"
+
 msgid "Milestones"
 msgstr "マイルス トーン"
-
-msgid ""
-"Contributors are free to pick issues regardless of their assigned milestone; "
-"if a fix is proposed for a bug that was not deemed urgent and thus without "
-"milestone, it would likely still be very welcome."
-msgstr ""
-"貢献者は、割り当てられたマイルストーンに関係なく、問題を自由に選択できます。 "
-"緊急とみなされなかったため、マイルストーンのないバグの修正が提案された場合、"
-"それでも大歓迎です。"

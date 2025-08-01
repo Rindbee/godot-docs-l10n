@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,30 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid ":ref:`class_AcceptDialog`"
+msgstr ":ref:`class_AcceptDialog`"
+
+msgid ":ref:`class_ColorPickerButton`"
+msgstr ":ref:`class_ColorPickerButton`"
+
+msgid ":ref:`class_ColorPicker`"
+msgstr ":ref:`class_ColorPicker`"
+
+msgid ":ref:`class_ConfirmationDialog`"
+msgstr ":ref:`class_ConfirmationDialog`"
+
+msgid ":ref:`class_FileDialog`"
+msgstr ":ref:`class_FileDialog`"
+
+msgid ":ref:`class_HSplitContainer`"
+msgstr ":ref:`class_HSplitContainer`"
+
+msgid ":ref:`class_SplitContainer`"
+msgstr ":ref:`class_SplitContainer`"
+
+msgid ":ref:`class_VSplitContainer`"
+msgstr ":ref:`class_VSplitContainer`"
 
 msgid "Web"
 msgstr "웹"

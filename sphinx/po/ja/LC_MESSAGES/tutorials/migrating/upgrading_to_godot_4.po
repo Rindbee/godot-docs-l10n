@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,11 +20,17 @@ msgstr "プロジェクトアップグレードツールを使うには:"
 msgid "Open the Godot 4 Project Manager."
 msgstr "Godot 4 プロジェクトマネージャーを開いてください。"
 
+msgid "Old name (Godot 3.x)"
+msgstr "旧名称 (Godot 3.x)"
+
+msgid "New name (Godot 4)"
+msgstr "新名称 (Godot 4)"
+
 msgid "AnimatedSprite"
-msgstr "AnimatedSprite"
+msgstr "\\ AnimatedSprite"
 
 msgid "AnimatedSprite2D"
-msgstr "AnimatedSprite2D"
+msgstr "\\ AnimatedSprite2D"
 
 msgid "ARVRCamera"
 msgstr "ARVRCamera"
@@ -68,6 +74,18 @@ msgstr "ARVRServer"
 msgid "XRServer"
 msgstr "XRServer"
 
+msgid "BoxShape"
+msgstr "\\ BoxShape"
+
+msgid "BoxShape3D"
+msgstr "\\ BoxShape3D"
+
+msgid "CapsuleShape"
+msgstr "\\ CapsuleShape"
+
+msgid "CapsuleShape3D"
+msgstr "\\ CapsuleShape3D"
+
 msgid "CubeMesh"
 msgstr "CubeMesh"
 
@@ -75,103 +93,103 @@ msgid "BoxMesh"
 msgstr "BoxMesh"
 
 msgid "EditorSpatialGizmo"
-msgstr "EditorSpatialGizmo"
+msgstr "\\ EditorSpatialGizmo"
 
 msgid "EditorNode3DGizmo"
-msgstr "EditorNode3DGizmo"
+msgstr "\\ EditorNode3DGizmo"
 
 msgid "EditorSpatialGizmoPlugin"
-msgstr "EditorSpatialGizmoPlugin"
+msgstr "\\ EditorSpatialGizmoPlugin"
 
 msgid "EditorNode3DGizmoPlugin"
-msgstr "EditorNode3DGizmoPlugin"
+msgstr "\\ EditorNode3DGizmoPlugin"
 
 msgid "GIProbe"
-msgstr "GIProbe"
+msgstr "\\ GIProbe"
 
 msgid "VoxelGI"
-msgstr "VoxelGI"
+msgstr "\\ VoxelGI"
 
 msgid "GIProbeData"
-msgstr "GIProbeData"
+msgstr "\\ GIProbeData"
 
 msgid "VoxelGIData"
-msgstr "VoxelGIData"
+msgstr "\\ VoxelGIData"
 
 msgid "GradientTexture"
-msgstr "GradientTexture"
+msgstr "\\ GradientTexture"
 
 msgid "GradientTexture1D"
-msgstr "GradientTexture1D"
+msgstr "\\ GradientTexture1D"
 
 msgid "KinematicBody"
-msgstr "KinematicBody"
+msgstr "\\ KinematicBody"
 
 msgid "CharacterBody3D"
-msgstr "CharacterBody3D"
+msgstr "\\ CharacterBody3D"
 
 msgid "KinematicBody2D"
-msgstr "KinematicBody2D"
+msgstr "\\ KinematicBody2D"
 
 msgid "CharacterBody2D"
-msgstr "CharacterBody2D"
+msgstr "\\ CharacterBody2D"
 
 msgid "Light2D"
-msgstr "Light2D"
+msgstr "\\ Light2D"
 
 msgid "PointLight2D"
-msgstr "PointLight2D"
+msgstr "\\ PointLight2D"
 
 msgid "LineShape2D"
-msgstr "LineShape2D"
+msgstr "\\ LineShape2D"
 
 msgid "WorldBoundaryShape2D"
-msgstr "WorldBoundaryShape2D"
+msgstr "\\ WorldBoundaryShape2D"
 
 msgid "Listener"
-msgstr "Listener"
+msgstr "\\ Listener"
 
 msgid "AudioListener3D"
-msgstr "AudioListener3D"
+msgstr "\\ AudioListener3D"
 
 msgid "NavigationMeshInstance"
-msgstr "NavigationMeshInstance"
+msgstr "\\ NavigationMeshInstance"
 
 msgid "NavigationRegion3D"
-msgstr "NavigationRegion3D"
+msgstr "\\ NavigationRegion3D"
 
 msgid "NavigationPolygonInstance"
-msgstr "NavigationPolygonInstance"
+msgstr "\\ NavigationPolygonInstance"
 
 msgid "NavigationRegion2D"
-msgstr "NavigationRegion2D"
+msgstr "\\ NavigationRegion2D"
 
 msgid "Navigation2DServer"
-msgstr "Navigation2DServer"
+msgstr "\\ Navigation2DServer"
 
 msgid "NavigationServer2D"
-msgstr "NavigationServer2D"
+msgstr "\\ NavigationServer2D"
 
 msgid "PanoramaSky"
-msgstr "PanoramaSky"
+msgstr "\\ PanoramaSky"
 
 msgid "Sky"
-msgstr "Sky"
+msgstr "\\ Sky"
 
 msgid "Particles"
-msgstr "Particles"
+msgstr "\\ Particles"
 
 msgid "GPUParticles3D"
-msgstr "GPUParticles3D"
+msgstr "\\ GPUParticles3D"
 
 msgid "Particles2D"
-msgstr "Particles2D"
+msgstr "\\ Particles2D"
 
 msgid "GPUParticles2D"
-msgstr "GPUParticles2D"
+msgstr "\\ GPUParticles2D"
 
 msgid "ParticlesMaterial"
-msgstr "ParticlesMaterial"
+msgstr "\\ ParticlesMaterial"
 
 msgid "ParticleProcessMaterial"
 msgstr "ParticleProcessMaterial"
@@ -288,7 +306,7 @@ msgid "VideoStreamPlayer"
 msgstr "VideoStreamPlayer"
 
 msgid "ViewportContainer"
-msgstr "ViewportContainer"
+msgstr "\\ ViewportContainer"
 
 msgid "SubViewportContainer"
 msgstr "SubViewportContainer"

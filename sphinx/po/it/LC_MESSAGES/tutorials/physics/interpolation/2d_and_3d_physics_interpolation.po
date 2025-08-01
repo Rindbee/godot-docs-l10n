@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,18 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "2D and 3D physics interpolation"
+msgstr "Interpolazione della fisica 2D e 3D"
+
+msgid "Global versus local interpolation"
+msgstr "Interpolazione globale control locale"
+
+msgid "This has some implications:"
+msgstr "Ciò ha alcune implicazioni:"
+
+msgid "Resetting physics interpolation"
+msgstr "Ripristinare l'interpolazione della fisica"
+
+msgid "2D Particles"
+msgstr "Particelle 2D"

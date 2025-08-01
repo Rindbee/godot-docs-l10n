@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using InputEvent"
+msgstr "Utilizzo di InputEvent"
+
 msgid "What is it?"
 msgstr "Che cos'è?"
+
+msgid "How does it work?"
+msgstr "Come funziona?"
+
+msgid "Anatomy of an InputEvent"
+msgstr "Anatomia di un InputEvent"
+
+msgid "Event"
+msgstr "Evento"
 
 msgid "Description"
 msgstr "Descrizione"
@@ -41,8 +53,26 @@ msgstr ":ref:`InputEventScreenTouch <class_InputEventScreenTouch>`"
 msgid ":ref:`InputEventScreenDrag <class_InputEventScreenDrag>`"
 msgstr ":ref:`InputEventScreenDrag <class_InputEventScreenDrag>`"
 
+msgid ":ref:`InputEventMagnifyGesture <class_InputEventMagnifyGesture>`"
+msgstr ":ref:`InputEventMagnifyGesture <class_InputEventMagnifyGesture>`"
+
+msgid ":ref:`InputEventPanGesture <class_InputEventPanGesture>`"
+msgstr ":ref:`InputEventPanGesture <class_InputEventPanGesture>`"
+
+msgid ":ref:`InputEventMIDI <class_InputEventMIDI>`"
+msgstr ":ref:`InputEventMIDI <class_InputEventMIDI>`"
+
+msgid "Contains MIDI-related information."
+msgstr "Contiene informazioni relative al MIDI."
+
+msgid ":ref:`InputEventShortcut <class_InputEventShortcut>`"
+msgstr ":ref:`InputEventShortcut <class_InputEventShortcut>`"
+
 msgid ":ref:`InputEventAction <class_InputEventAction>`"
 msgstr ":ref:`InputEventAction <class_InputEventAction>`"
+
+msgid "Input actions"
+msgstr "Azioni di input"
 
 msgid "InputMap"
 msgstr "InputMap"

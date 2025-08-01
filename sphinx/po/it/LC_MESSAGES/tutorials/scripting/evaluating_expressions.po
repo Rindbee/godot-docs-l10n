@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,53 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Evaluating expressions"
+msgstr "Valutazione delle espressioni"
+
+msgid "An expression can be:"
+msgstr "Un'espressione può essere:"
+
+msgid "The following operators are available:"
+msgstr "Sono disponibili i seguenti operatori:"
+
 msgid "Operator"
 msgstr "Operatore"
 
 msgid "Notes"
 msgstr "Note"
+
+msgid "Addition ``+``"
+msgstr "Addizione ``+``"
+
+msgid "Subtraction (``-``)"
+msgstr "Sottrazione (``-``)"
+
+msgid "Multiplication (``*``)"
+msgstr "Moltiplicazione (``*``)"
+
+msgid "Division (``/``)"
+msgstr "Divisione (``/``)"
+
+msgid "Remainder (``%``)"
+msgstr "Resto (``%``)"
+
+msgid "Conjunction (``&&``)"
+msgstr "Congiunzione (``&&``)"
+
+msgid "Disjunction (``||``)"
+msgstr "Disgiunzione (``||``)"
+
+msgid "Negation (``!``)"
+msgstr "Negazione (``!``)"
+
+msgid "Passing variables to an expression"
+msgstr "Passare variabili a un'espressione"
+
+msgid "Example script"
+msgstr "Script di esempio"
+
+msgid "The output from the script will be::"
+msgstr "Il risultato dello script sarà::"
+
+msgid "Built-in functions"
+msgstr "Funzioni integrate"

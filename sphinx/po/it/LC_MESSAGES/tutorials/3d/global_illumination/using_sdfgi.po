@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,18 @@ msgstr ""
 
 msgid "Visual comparison"
 msgstr "Confronto visivo"
+
+msgid "SDFGI disabled."
+msgstr "SDFGI disabilitato."
+
+msgid "Setting up SDFGI"
+msgstr "Configurare SDFGI"
+
+msgid "Environment SDFGI properties"
+msgstr "Proprietà SDFGI di ambiente"
+
+msgid "SDFGI interaction with lights and objects"
+msgstr "Interazione di SDFGI con luci e oggetti"
+
+msgid "There are 3 global illumination modes available for meshes:"
+msgstr "Sono disponibili 3 modalità di illuminazione globale per le mesh:"

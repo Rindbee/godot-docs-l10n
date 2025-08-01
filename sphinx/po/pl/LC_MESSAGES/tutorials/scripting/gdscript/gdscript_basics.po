@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,8 +24,8 @@ msgid ""
 msgstr ""
 "Jeśli masz wcześniejsze doświadczenia z językami statycznie typowanymi "
 "takimi jak C, C++ lub C#, ale nigdy wcześniej nie używałeś języka "
-"dynamicznie typowanego, zalecane jest przeczytanie tego samouczka: :ref:"
-"`doc_gdscript_more_efficiently`."
+"dynamicznie typowanego, zalecane jest przeczytanie tego "
+"samouczka: :ref:`doc_gdscript_more_efficiently`."
 
 msgid "Identifiers"
 msgstr "Identyfikatory"
@@ -135,6 +135,9 @@ msgstr "Zwraca wartość funkcji."
 msgid "class"
 msgstr "klasa"
 
+msgid "class_name"
+msgstr "class_name"
+
 msgid "extends"
 msgstr "extends"
 
@@ -143,6 +146,12 @@ msgstr "Definiuje rozszerzenie bieżącej klasy o inną klasę."
 
 msgid "is"
 msgstr "is"
+
+msgid "in"
+msgstr "in"
+
+msgid "as"
+msgstr "as"
 
 msgid "self"
 msgstr "self"
@@ -174,6 +183,9 @@ msgstr "preload"
 msgid "Preloads a class or variable. See `Classes as resources`_."
 msgstr "Ładuje za w czasu klasę albo zmienną. Zobacz `Classes as resources`_."
 
+msgid "await"
+msgstr "await"
+
 msgid "yield"
 msgstr "yield"
 
@@ -186,6 +198,9 @@ msgid ""
 msgstr ""
 "Sygnalizuje stan, rejestruje błąd w przypadku awarii. Ignorowane przy trybie "
 "niedebugowanym. Patrz słowo kluczowe `Assert`_."
+
+msgid "void"
+msgstr "void"
 
 msgid "PI"
 msgstr "PI"
@@ -217,41 +232,155 @@ msgstr "**Opis**"
 msgid "``x[index]``"
 msgstr "``x[indeks]``"
 
+msgid "Subscription"
+msgstr "Subskrypcja"
+
 msgid "``x.attribute``"
 msgstr "``x.atrybut``"
+
+msgid "``foo()``"
+msgstr "``foo()``"
+
+msgid "``x ** y``"
+msgstr "``x ** y``"
+
+msgid "Power"
+msgstr "Potęga"
+
+msgid "``~x``"
+msgstr "``~x``"
 
 msgid "Bitwise NOT"
 msgstr "Bitowe NOT"
 
+msgid "``+x``"
+msgstr "``+x``"
+
 msgid "``-x``"
 msgstr "``-x``"
+
+msgid "Identity / Negation"
+msgstr "Tożsamość / Negacja"
+
+msgid "``x * y``"
+msgstr "``x * y``"
+
+msgid "``x / y``"
+msgstr "``x / y``"
+
+msgid "``x % y``"
+msgstr "``x % y``"
 
 msgid "Multiplication / Division / Remainder"
 msgstr "Mnożenie / Dzielenie / Reszta z dzielenia"
 
+msgid "``x + y``"
+msgstr "``x + y``"
+
+msgid "``x - y``"
+msgstr "``x - y``"
+
+msgid "``x << y``"
+msgstr "``x << y``"
+
+msgid "``x >> y``"
+msgstr "``x >> y``"
+
+msgid "``x & y``"
+msgstr "``x & y``"
+
 msgid "Bitwise AND"
 msgstr "Bitowe AND"
+
+msgid "``x ^ y``"
+msgstr "``x ^ y``"
 
 msgid "Bitwise XOR"
 msgstr "Bitowe XOR"
 
+msgid "``x | y``"
+msgstr "``x | y``"
+
 msgid "Bitwise OR"
 msgstr "Bitowe OR"
+
+msgid "``x == y``"
+msgstr "``x == y``"
+
+msgid "``x != y``"
+msgstr "``x != y``"
+
+msgid "``x < y``"
+msgstr "``x < y``"
+
+msgid "``x > y``"
+msgstr "``x > y``"
+
+msgid "``x <= y``"
+msgstr "``x <= y``"
+
+msgid "``x >= y``"
+msgstr "``x >= y``"
+
+msgid "Comparison"
+msgstr "Porównanie"
+
+msgid "``x in y``"
+msgstr "``x in y``"
+
+msgid "``!x``"
+msgstr "``!x``"
+
+msgid "``x and y``"
+msgstr "``x and y``"
+
+msgid "``x && y``"
+msgstr "``x && y``"
+
+msgid "``x or y``"
+msgstr "``x or y``"
+
+msgid "``x || y``"
+msgstr "``x || y``"
 
 msgid "Ternary if/else"
 msgstr "Trójskładnikowy if/else"
 
+msgid "``x as Node``"
+msgstr "``x as Node``"
+
 msgid "Literals"
 msgstr "Literały"
+
+msgid "``null``"
+msgstr "``null``"
 
 msgid "``45``"
 msgstr "``45``"
 
 msgid "Base 10 integer"
-msgstr "Bazowy system dziesiętny"
+msgstr "Liczba całkowita o podstawie 10"
+
+msgid "``0x8f51``"
+msgstr "``0x8f51``"
+
+msgid "Base 16 (hexadecimal) integer"
+msgstr "Liczba całkowita o podstawie 16 (heksadecymalna)"
+
+msgid "``0b101010``"
+msgstr "``0b101010``"
+
+msgid "Base 2 (binary) integer"
+msgstr "Liczba całkowita o podstawie 2 (binarna)"
 
 msgid "``3.14``, ``58.1e-10``"
 msgstr "``3.14``, ``58.1e-10``"
+
+msgid "``&\"name\"``"
+msgstr "``&\"nazwa\"``"
+
+msgid "``^\"Node/Label\"``"
+msgstr "``^\"Node/Label\"``"
 
 msgid ":ref:`NodePath <class_NodePath>`"
 msgstr ":ref:`NodePath <class_NodePath>`"
@@ -259,8 +388,62 @@ msgstr ":ref:`NodePath <class_NodePath>`"
 msgid "**Example**"
 msgstr "**Przykład**"
 
+msgid "``$NodePath``"
+msgstr "``$NodePath``"
+
+msgid "``%UniqueNode``"
+msgstr "``%UnikalnyNode``"
+
+msgid "``\\n``"
+msgstr "``\\n``"
+
+msgid "``\\t``"
+msgstr "``\\t``"
+
+msgid "``\\r``"
+msgstr "``\\r``"
+
+msgid "``\\a``"
+msgstr "``\\a``"
+
+msgid "``\\b``"
+msgstr "``\\b``"
+
 msgid "Backspace"
 msgstr "Backspace"
+
+msgid "``\\f``"
+msgstr "``\\f``"
+
+msgid "``\\v``"
+msgstr "``\\v``"
+
+msgid "``\\\"``"
+msgstr "``\\\"``"
+
+msgid "Double quote"
+msgstr "Podwójny cudzysłów"
+
+msgid "``\\'``"
+msgstr "``\\'``"
+
+msgid "Single quote"
+msgstr "Pojedynczy cudzysłów"
+
+msgid "``\\\\``"
+msgstr "``\\\\``"
+
+msgid "Backslash"
+msgstr "Ukośnik odwrotny"
+
+msgid "``\\uXXXX``"
+msgstr "``\\uXXXX``"
+
+msgid "``\\UXXXXXX``"
+msgstr "``\\UXXXXXX``"
+
+msgid "Annotations"
+msgstr "Adnotacje"
 
 msgid "Comments"
 msgstr "Komentarze"
@@ -413,6 +596,9 @@ msgstr "Prawidłowymi typami są:"
 msgid "Built-in types (Array, Vector2, int, String, etc.)."
 msgstr "Wbudowane typy (Array, Vector2, int, String, itp.)."
 
+msgid "Casting"
+msgstr "Rzutowanie"
+
 msgid "Constants"
 msgstr "Stałe"
 
@@ -437,6 +623,9 @@ msgstr ""
 
 msgid "Static functions"
 msgstr "Funkcje statyczne"
+
+msgid "Expressions"
+msgstr "Wyrażenia"
 
 msgid "if/else/elif"
 msgstr "if/else/elif"
@@ -503,6 +692,9 @@ msgstr "Klasy jako zasoby"
 
 msgid "Exports"
 msgstr "Eksport"
+
+msgid "Example::"
+msgstr "Na przykład::"
 
 msgid "Tool mode"
 msgstr "Tryb narzędziowy"

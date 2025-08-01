@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -240,7 +240,7 @@ msgid "**movie**"
 msgstr "**movie**"
 
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
-msgstr ":ref:`Movie Maker mode <doc_creating_movies>` est actif"
+msgstr ":ref:`Le mode Création de film <doc_creating_movies>` est actif"
 
 msgid "Custom features"
 msgstr "Fonctionnalités personnalisées"
@@ -286,6 +286,11 @@ msgstr ""
 "Dans l'exemple suivant, une icône différente est ajoutée pour la compilation "
 "de la démo du jeu (qui a été personnalisé dans un préréglage d'exportation "
 "spécial, qui, à son tour, n'inclut que des niveaux de démo)."
+
+msgid "After overriding, a new field is added for this specific configuration."
+msgstr ""
+"Après écrasement, un nouveau champ est ajouté pour cette configuration "
+"spécifique."
 
 msgid ""
 "When using the :ref:`project settings \"override.cfg\" functionality "

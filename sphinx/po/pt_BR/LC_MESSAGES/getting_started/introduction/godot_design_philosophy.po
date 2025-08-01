@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -172,32 +172,8 @@ msgstr ""
 "Godot fornece uma API completa para estender a funcionalidade do editor "
 "usando o código do jogo. Confira `O editor do Godot é um jogo do Godot`_."
 
-msgid "|image4|"
-msgstr "|image4|"
-
-msgid "image4"
-msgstr "imagem4"
-
-msgid ""
-"*A State Machine editor plugin in Godot 2 by kubecz3k. It lets you manage "
-"states and transitions visually.*"
-msgstr ""
-"*Um plug-in do editor State Machine no Godot 2 por kubecz3k. Ele permite que "
-"você gerencie estados e transições visualmente.*"
-
 msgid "Open source"
 msgstr "Código aberto"
-
-msgid ""
-"Godot offers a fully open source codebase under the **MIT license**. This "
-"means all the technologies that ship with it have to be Free (as in freedom) "
-"as well. For the most part, they're developed from the ground up by "
-"contributors."
-msgstr ""
-"O Godot oferece uma base de código totalmente aberto sob a **licença MIT**. "
-"Isso significa que todas as tecnologias que acompanham o produto têm que ser "
-"Livres (como em liberdade) também. Na maior parte, elas são codificadas do "
-"zero pelos colaboradores."
 
 msgid ""
 "Anyone can plug in proprietary tools for the needs of their projects — they "
@@ -256,21 +232,6 @@ msgstr ""
 "seus projetos ou executar códigos de jogos no editor. Isso significa que "
 "você pode **usar o mesmo código** e cenas para seus jogos ou **construir "
 "plug-ins e estender o editor.**"
-
-msgid "|image5|"
-msgstr "|image5|"
-
-msgid "image5"
-msgstr "imagem5"
-
-msgid ""
-"*RPG in a Box is a voxel RPG editor made with Godot 2. It uses Godot's UI "
-"tools for its node-based programming system and for the rest of the "
-"interface.*"
-msgstr ""
-"*RPG in a Box é um editor de RPG voxel feito no Godot 2. Ele usa as "
-"ferramentas de Interface com Usuário do Godot para seu sistema de "
-"programação baseada em nós e para o resto da interface.*"
 
 msgid ""
 "The editor is fully written in C++ and is statically compiled into the "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,40 +23,11 @@ msgstr ""
 "式碼。在最後，你將會得到一個可以八方向移動的可遊玩角色。"
 
 msgid ""
-"Create a new scene by going to the Scene menu in the top-left and clicking "
-"*New Scene*."
-msgstr "在左上角的*場景*功能表中按一下*新建場景*來建立一個新場景。"
-
-msgid "|image0|"
-msgstr "\\ |image0|"
-
-msgid "image0"
-msgstr "image0"
-
-msgid ""
-"Create a :ref:`CharacterBody3D <class_CharacterBody3D>` node as the root"
-msgstr "建立一個 :ref:`CharacterBody3D <class_CharacterBody3D>` 節點來當根節點"
-
-msgid ""
-"Name the :ref:`CharacterBody3D <class_CharacterBody3D>` to ``Player``. "
-"Character bodies are complementary to the area and rigid bodies used in the "
-"2D game tutorial. Like rigid bodies, they can move and collide with the "
-"environment, but instead of being controlled by the physics engine, **you** "
-"dictate their movement. You will see how we use the node's unique features "
-"when we code the jump and squash mechanics."
+"To learn more about the different physics node types, see "
+"the :ref:`doc_physics_introduction`."
 msgstr ""
-"將 :ref:`CharacterBody3D <class_CharacterBody3D>` 命名為``Player``。角色身體"
-"（Character body）對應的是 2D 遊戲教學中的區域（Area）和剛體（Rigid Body）。"
-"與剛體類似，它可以移動並與環境發生碰撞，但它的運動並不是由物理引擎控制的，而"
-"是由*你*支配。當我們編寫跳躍和踩踏機制時，你就會看到我們是如何使用這一該節點"
-"獨有的功能的。"
-
-msgid ""
-"To learn more about the different physics node types, see the :ref:"
-"`doc_physics_introduction`."
-msgstr ""
-"要學習更多關於不同物理節點型別的內容，請參閱 :ref:"
-"`doc_physics_introduction`。"
+"要學習更多關於不同物理節點型別的內容，請參"
+"閱 :ref:`doc_physics_introduction`。"
 
 msgid ""
 "For now, we're going to create a basic rig for our character's 3D model. "
@@ -67,24 +38,11 @@ msgstr ""
 "式碼旋轉模型。"
 
 msgid ""
-"Add a :ref:`Node3D <class_Node3D>` node as a child of ``Player`` and name it "
-"``Pivot``"
-msgstr ""
-"新建一個 :ref:`Node3D <class_Node3D>` 節點作為 ``Player`` 的子節點，並將其命"
-"名為 ``Pivot``"
-
-msgid ""
 "Then, in the FileSystem dock, expand the ``art/`` folder by double-clicking "
 "it and drag and drop ``player.glb`` onto ``Pivot``."
 msgstr ""
 "然後在檔案系統面板中，按兩下展開 ``art/`` 資料夾，將 ``player.glb`` 拖放到 "
 "``Pivot`` 節點上。"
-
-msgid "|image1|"
-msgstr "\\ |image1|"
-
-msgid "image1"
-msgstr "image1"
 
 msgid ""
 "This should instantiate the model as a child of ``Pivot``. You can rename it "
@@ -93,47 +51,34 @@ msgstr ""
 "這樣應該就會把這個模型產生實體為 ``Pivot`` 的子項。你可以將其重命名為 "
 "``Character`` 。"
 
-msgid "|image2|"
-msgstr "\\ |image2|"
-
-msgid "image2"
-msgstr "image2"
-
 msgid ""
-"As with all kinds of physics nodes, we need a collision shape for our "
-"character to collide with the environment. Select the ``Player`` node again "
-"and add a child node :ref:`CollisionShape3D <class_CollisionShape3D>`. In "
-"the *Inspector*, on the *Shape* property, add a new :ref:`SphereShape3D "
-"<class_SphereShape3D>`."
+"The ``.glb`` files contain 3D scene data based on the open source glTF 2.0 "
+"specification. They're a modern and powerful alternative to a proprietary "
+"format like FBX, which Godot also supports. To produce these files, we "
+"designed the model in `Blender 3D <https://www.blender.org/>`__ and exported "
+"it to glTF."
 msgstr ""
-"與所有型別的物理節點一樣，我們的角色需要一個碰撞形狀才能與環境相碰撞。再次選"
-"中 ``Player`` 節點並新增 :ref:`CollisionShape3D <class_CollisionShape3D>` 子"
-"節點。在*屬性面板*中，為 *Shape* 屬性新建一個 :ref:`SphereShape3D "
-"<class_SphereShape3D>`。"
+"``.glb`` 檔案包含基於開放原始碼 glTF 2.0 規格的 3D 場景資料。它們是現代且強大"
+"的替代方案，可取代像 FBX 這樣的專有格式，而 Godot 也支援 FBX。為了產生這些檔"
+"案，我們在 `Blender 3D <https://www.blender.org/>`__ 中設計模型，並將其匯出"
+"為 glTF。"
 
 msgid "The sphere's wireframe appears below the character."
 msgstr "球體的線框出現在角色的下面。"
 
-msgid "|image3|"
-msgstr "\\ |image3|"
+msgid ""
+"It will be the shape the physics engine uses to collide with the "
+"environment, so we want it to better fit the 3D model. Make it a bit larger "
+"by dragging the orange dot in the viewport. My sphere has a radius of about "
+"``0.8`` meters."
+msgstr ""
+"這將會是物理引擎用來與環境碰撞的形狀，所以我們希望它能更貼合 3D 模型。在視埠"
+"中拖曳橘色圓點，將它稍微放大一點。我的球體的半徑大約是 ``0.8`` 公尺。"
 
-msgid "image3"
-msgstr "image3"
-
-msgid "|image4|"
-msgstr "\\ |image4|"
-
-msgid "image4"
-msgstr "image4"
-
-msgid "|image5|"
-msgstr "\\ |image5|"
-
-msgid "image5"
-msgstr "image5"
-
-msgid "Save the scene as ``player.tscn``"
-msgstr "最後，保存場景為 ``sayhello.tscn`` 之類的名稱。"
+msgid ""
+"Then, move the collision shape up so its bottom roughly aligns with the "
+"grid's plane."
+msgstr "然後，將碰撞形狀向上移動，使其底部大致對齊格線平面。"
 
 msgid ""
 "With the nodes ready, we can almost get coding. But first, we need to define "
@@ -154,83 +99,17 @@ msgstr ""
 "籤。這樣可以簡化我們的腳本，讓它們更易讀。"
 
 msgid ""
-"This system is the Input Map. To access its editor, head to the *Project* "
-"menu and select *Project Settings*."
-msgstr "這個系統是“按鍵對應”。可以在*專案*功能表中選擇*專案設定*來打開編輯器。"
-
-msgid "|image6|"
-msgstr "|image6|"
-
-msgid "image6"
-msgstr "image6"
-
-msgid ""
-"At the top, there are multiple tabs. Click on *Input Map*. This window "
-"allows you to add new actions at the top; they are your labels. In the "
-"bottom part, you can bind keys to these actions."
-msgstr ""
-"頂部有許多標籤。點擊*按鍵對應*。你可以在這個視窗頂部新增新的動作；即標籤。下"
-"半部分可以為這些動作綁定按鍵。"
-
-msgid "|image7|"
-msgstr "|image7|"
-
-msgid "image7"
-msgstr "image7"
-
-msgid ""
 "We're going to name our actions ``move_left``, ``move_right``, "
 "``move_forward``, ``move_back``, and ``jump``."
 msgstr ""
-"我們要把這些動作命名為 ``move_left``、``move_right``、``move_forward``、"
-"``move_back``、``jump``（向左移動、向右移動、向前移動、向後移動、跳躍）。"
-
-msgid "To add an action, write its name in the bar at the top and press Enter."
-msgstr "要新增動作，可以在頂部的框中輸入名稱然後按確認鍵。"
-
-msgid "|image8|"
-msgstr "|image8|"
-
-msgid "image8"
-msgstr "image8"
+"我們將把我們的動作命名為 ``move_left``、``move_right``、``move_forward``、"
+"``move_back`` 和 ``jump``。"
 
 msgid "Create the following five actions:"
 msgstr "有下列事項需注意："
 
-msgid "|image9|"
-msgstr "|image9|"
-
-msgid "image9"
-msgstr "image9"
-
-msgid ""
-"To bind a key or button to an action, click the \"+\" button to its right. "
-"Do this for ``move_left``. Press the left arrow key and click *OK*."
-msgstr ""
-"要為動作綁定按鍵或按鈕，請點擊右側的“+”按鈕。對 ``move_left`` 執行此操作，按"
-"下左方向鍵，然後按一下*確定*。"
-
 msgid "Bind also the :kbd:`A` key, onto the action ``move_left``."
 msgstr "將 :kbd:`A` 鍵也綁定在動作 ``move_left`` 上面。"
-
-msgid "|image12|"
-msgstr "|image12|"
-
-msgid "image12"
-msgstr "image12"
-
-msgid ""
-"Let's now add support for a gamepad's left joystick. Click the \"+\" button "
-"again but this time, select *Manual Selection -> Joypad Axes*."
-msgstr ""
-"現在讓我們為手柄左搖桿新增支援。再次點擊“+”按鈕，但是這一次選擇*手動選擇 -> "
-"搖桿軸*。"
-
-msgid "Select the negative X axis of the left joystick."
-msgstr "選擇左邊遙感的負 X 軸。"
-
-msgid "Leave the other values as default and press *OK*"
-msgstr "將其它值保持為預設，然後點擊 *確定*"
 
 msgid ""
 "If you want controllers to have different input actions, you should use the "
@@ -249,31 +128,8 @@ msgstr ""
 "為其他輸入動作也執行同樣的操作。比如將右方向鍵、D、左搖桿的正軸綁定給 "
 "``move_right``。全部綁定完後，你的介面應該類似這樣。"
 
-msgid "|image15|"
-msgstr "\\ |image1|"
-
-msgid "image15"
-msgstr "image15"
-
-msgid ""
-"The final action to set up is the ``jump`` action. Bind the Space key and "
-"the gamepad's A button."
-msgstr "最後一個動作是設定 ``jump`` 動作。綁定空白鍵和手柄的 A 鍵。"
-
-msgid "|image16|"
-msgstr "\\ |image1|"
-
-msgid "image16"
-msgstr "image16"
-
 msgid "Your jump input action should look like this."
-msgstr "現在場景看起來會這樣："
-
-msgid "|image18|"
-msgstr "\\ |image1|"
-
-msgid "image18"
-msgstr "image18"
+msgstr "你的跳躍輸入動作應該會像這樣。"
 
 msgid ""
 "That's all the actions we need for this game. You can use this menu to label "

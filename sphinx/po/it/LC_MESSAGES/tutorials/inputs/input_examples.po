@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,5 +20,36 @@ msgstr "Introduzione"
 msgid "Examples:"
 msgstr "Esempi:"
 
+msgid "Input events"
+msgstr "Eventi di input"
+
+msgid ""
+":ref:`InputEventMouse <class_InputEventMouse>` - adds mouse event "
+"properties, such as ``position``"
+msgstr ""
+":ref:`InputEventMouse <class_InputEventMouse>` - aggiunge proprietà di "
+"eventi del mouse, come ``position``"
+
 msgid "InputMap"
 msgstr "InputMap"
+
+msgid "Capturing actions"
+msgstr "Catturare le azioni"
+
+msgid "Keyboard events"
+msgstr "Eventi da tastiera"
+
+msgid "Keyboard modifiers"
+msgstr "Modificatori di tastiera"
+
+msgid "Mouse events"
+msgstr "Eventi del mouse"
+
+msgid "Mouse buttons"
+msgstr "Pulsanti del mouse"
+
+msgid "Mouse motion"
+msgstr "Movimento del mouse"
+
+msgid "Touch events"
+msgstr "Eventi di tocco"

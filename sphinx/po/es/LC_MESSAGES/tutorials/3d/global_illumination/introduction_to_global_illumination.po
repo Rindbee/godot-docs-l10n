@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,17 +11,38 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Introduction to global illumination"
+msgstr "Introducción a la iluminación global"
+
+msgid "What is global illumination?"
+msgstr "¿Qué es la iluminación global?"
+
 msgid "Specular lighting"
 msgstr "Iluminación especular"
 
+msgid "Which global illumination technique should I use?"
+msgstr "¿Qué técnica de iluminación global debo utilizar?"
+
 msgid "Performance"
 msgstr "Rendimiento"
+
+msgid "**ReflectionProbe:**"
+msgstr "**ReflectionProbe:**"
+
+msgid "**LightmapGI:**"
+msgstr "**LightmapGI:**"
 
 msgid "**VoxelGI:**"
 msgstr "**VoxelGI:**"
 
 msgid "**SDFGI:**"
 msgstr "**SDFGI:**"
+
+msgid "Visuals"
+msgstr "Visuales"
+
+msgid "average"
+msgstr "promedio"
 
 msgid ""
 "SSIL is designed to be used as a complement to another GI technique such as "
@@ -48,6 +69,9 @@ msgstr ""
 
 msgid "good"
 msgstr "bien"
+
+msgid "Real-time ability"
+msgstr "Capacidad en tiempo real"
 
 msgid "bad"
 msgstr "mal"

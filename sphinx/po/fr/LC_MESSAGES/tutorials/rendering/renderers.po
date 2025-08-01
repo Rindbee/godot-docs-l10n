@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,17 +14,178 @@ msgstr ""
 msgid "Introduction"
 msgstr "Introduction"
 
+msgid "Godot 4 includes three renderers:"
+msgstr "Godot 4 comprend trois moteurs de rendu :"
+
+msgid ""
+"**Forward+**. The most advanced renderer, suited for desktop platforms only. "
+"Used by default on desktop platforms. This renderer uses **Vulkan**, "
+"**Direct3D 12**, or **Metal** as the rendering driver, and it uses the "
+"**RenderingDevice** backend."
+msgstr ""
+"**Forward+**. Le moteur de rendu le plus avancé, adapté uniquement aux "
+"plateformes de bureau. Utilisé par défaut sur les plateformes de bureau. Ce "
+"moteur de rendu utilise **Vulkan**, **Direct3D 12**, ou **Metal** comme "
+"pilote de rendu, et il utilise le backend **RenderingDevice**."
+
+msgid ""
+"**Mobile**. Fewer features, but renders simple scenes faster. Suited for "
+"mobile and desktop platforms. Used by default on mobile platforms. This "
+"renderer uses **Vulkan**, **Direct3D 12**, or **Metal** as the rendering "
+"driver, and it uses the **RenderingDevice** backend."
+msgstr ""
+"**Mobile**. Moins de fonctionnalités, mais rend des scènes simples plus "
+"rapidement. Adapté aux plateformes mobiles et de bureau. Utilisé par défaut "
+"sur les plateformes mobiles. Ce rendu utilise **Vulkan**, **Direct3D 12**, "
+"ou **Metal** comme pilote de rendu, et il utilise le backend "
+"**RenderingDevice**."
+
+msgid ""
+"**Compatibility**, sometimes called **GL Compatibility**. The least advanced "
+"renderer, suited for low-end desktop and mobile platforms. Used by default "
+"on the web platform. This renderer uses **OpenGL** as the rendering driver."
+msgstr ""
+"**Compatibilité**, parfois appelé **Compatibilité GL**. Le moteur de rendu "
+"le moins avancé, adapté aux plateformes de bureau bas de gamme et aux "
+"plateformes mobiles. Utilisé par défaut sur la plateforme web. Ce moteur de "
+"rendu utilise **OpenGL** comme driver de rendu."
+
+msgid "Godot's rendering abstraction layers."
+msgstr "Les couches d'abstraction de rendu de Godot."
+
+msgid "Choose **Forward+** if:"
+msgstr "Choisissez **Forward+** si :"
+
+msgid "Choose **Mobile** if:"
+msgstr "Choisissez **Mobile** si :"
+
+msgid "Choose **Compatibility** if:"
+msgstr "Choisissez **Compatibilité** si :"
+
+msgid ""
+"You are developing for older mobile devices, older desktop devices, or "
+"standalone XR. The Compatibility renderer supports the widest range of "
+"hardware."
+msgstr ""
+"Vous développez pour des appareils mobiles plus anciens, des appareils de "
+"bureau plus anciens ou des appareils XR autonomes. Le moteur de rendu "
+"Compatibilité prend en charge la plus large gamme de matériel."
+
+msgid ""
+"Keep in mind every game is unique, and this is only a starting point. For "
+"example, you might choose to use the Compatibility renderer even though you "
+"have the latest GPU, so you can support the widest range of hardware. Or you "
+"might want to use the Forward+ renderer for a 2D game, so you can advanced "
+"features like compute shaders."
+msgstr ""
+"Gardez en tête que chaque jeu est unique, et ce n'est qu'un point de départ. "
+"Par exemple, vous pouvez choisir d'utiliser le moteur de rendu Compatibilité "
+"même si vous avez le dernier GPU, de sorte à ce que vous puissiez soutenir "
+"la plus large gamme de matériel. Ou vous pourriez vouloir utiliser le rendu "
+"Forward+ pour un jeu 2D, de sorte que vous pouvez des fonctionnalités "
+"avancées comme les shaders de calcul."
+
+msgid "Switching between renderers"
+msgstr "Basculer entre les moteurs de rendu"
+
+msgid ""
+"In the editor, you can always switch between renderers by clicking on the "
+"renderer name in the upper-right corner of the editor."
+msgstr ""
+"Dans l'éditeur, vous pouvez toujours basculer entre les moteurs de rendu en "
+"cliquant sur le nom du moteur dans le coin supérieur droit de l'éditeur."
+
+msgid "Feature"
+msgstr "Fonctionnalité"
+
+msgid "Compatibility"
+msgstr "Compatibilité"
+
 msgid "Mobile"
 msgstr "Mobile"
+
+msgid "Forward+"
+msgstr "Forward+"
+
+msgid "**Required** **hardware**"
+msgstr "**Matériel** **requis**"
+
+msgid "Older or low-end."
+msgstr "Plus vieux ou bas de gamme."
+
+msgid "✔️ Yes."
+msgstr "✔️ Oui."
+
+msgid "❌ No."
+msgstr "❌ Non."
+
+msgid "Mobile, desktop."
+msgstr "Mobile, bureau."
+
+msgid "Desktop."
+msgstr "Bureau."
+
+msgid "Desktop"
+msgstr "Bureau"
+
+msgid "✔️ Yes (low-end)."
+msgstr "✔️ Oui (bas de gamme)."
+
+msgid "✔️ Yes (high-end)."
+msgstr "✔️ Oui (haut de gamme)."
 
 msgid "XR"
 msgstr "XR"
 
+msgid "desktop headsets."
+msgstr "casques de bureau."
+
 msgid "Web"
 msgstr "Web"
 
+msgid "2D and core 3D features."
+msgstr "Fonctionnalités 2D, et 3D de base."
+
+msgid "All rendering features."
+msgstr "Toutes les fonctionnalités de rendu."
+
+msgid "OpenGL."
+msgstr "OpenGL."
+
+msgid "Vulkan, Direct3D 12, or Metal."
+msgstr "Vulkan, Direct3D 12, ou Metal."
+
+msgid "See :ref:`doc_lights_and_shadows` for more information."
+msgstr "Voir :ref:`doc_lights_and_shadows` pour plus d'informations."
+
+msgid "Forward"
+msgstr "Forward"
+
+msgid "Maximum OmniLights"
+msgstr "Maximum d'OmniLights"
+
+msgid "Maximum SpotLights"
+msgstr "Maximum de SpotLights"
+
 msgid "8"
 msgstr "8"
+
+msgid "❌ Not supported."
+msgstr "❌ Non supporté."
+
+msgid "✔️ Supported."
+msgstr "✔️ Supporté."
+
+msgid ""
+"See :ref:`doc_introduction_to_global_illumination` for more information."
+msgstr ""
+"Voir :ref:`doc_introduction_to_global_illumination` pour plus d'informations."
+
+msgid "ReflectionProbe"
+msgstr "ReflectionProbe"
+
+msgid "✔️ Supported, unlimited."
+msgstr "✔️ Supporté, illimité."
 
 msgid "LightmapGI"
 msgstr "LightmapGI"
@@ -34,6 +195,10 @@ msgstr "VoxelGI"
 
 msgid "Environment and post-processing"
 msgstr "Les environnements et les effets post-rendu"
+
+msgid "See :ref:`doc_environment_and_post_processing` for more information."
+msgstr ""
+"Voir :ref:`doc_environment_and_post_processing` pour plus d'informations."
 
 msgid "Volumetric Fog"
 msgstr "Brouillard volumétrique"
@@ -47,5 +212,41 @@ msgstr "Luisance"
 msgid "Adjustments"
 msgstr "Ajustements"
 
+msgid "Antialiasing"
+msgstr "Anticrénelage"
+
+msgid "See :ref:`doc_3d_antialiasing` for more information."
+msgstr "Voir :ref:`doc_3d_antialiasing` pour plus d'informations."
+
+msgid "MSAA 3D"
+msgstr "MSAA 3D"
+
+msgid "MSAA 2D"
+msgstr "MSAA 2D"
+
+msgid "TAA"
+msgstr "TAA"
+
+msgid "FSR2"
+msgstr "FSR2"
+
+msgid "FXAA"
+msgstr "FXAA"
+
+msgid "SSAA"
+msgstr "SSAA"
+
+msgid "See :ref:`doc_standard_material_3d` for more information."
+msgstr "Voir :ref:`doc_standard_material_3d` pour plus d'informations."
+
+msgid "See :ref:`doc_shading_reference` for more information."
+msgstr "Voir :ref:`doc_shading_reference` pour plus d'informations."
+
+msgid "Screen texture"
+msgstr "Texture d'écran"
+
 msgid "Depth texture"
 msgstr "Texture de profondeur"
+
+msgid "Compute shaders"
+msgstr "Shaders de calcul"

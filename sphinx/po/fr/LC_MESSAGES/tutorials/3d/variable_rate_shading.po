@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,6 +14,9 @@ msgstr ""
 msgid "What is variable rate shading?"
 msgstr "Qu'est-ce que le Variable Rate Shading ?"
 
+msgid "Hardware support"
+msgstr "Support du matériel"
+
 msgid "**Desktop:**"
 msgstr "**Bureau :**"
 
@@ -25,6 +28,15 @@ msgstr "MediaTek Dimensity 9000 et plus récent"
 
 msgid "ARM Mali-G615 and newer"
 msgstr "ARM Mali-G615 et plus récent"
+
+msgid ""
+"The Compatibility renderer does **not** support variable rate shading. For "
+"XR, you can use :ref:`foveation level <doc_openxr_settings_foveation_level>` "
+"as an alternative."
+msgstr ""
+"Le moteur de rendu Compatibilité **ne supporte pas** l'ombrage à taux "
+"variable. Pour la XR, vous pouvez utiliser :ref:`le niveau de fovéation "
+"<doc_openxr_settings_foveation_level>` comme alternative."
 
 msgid ""
 "**Mode:** Controls the variable rate shading mode. **Disabled** disables "
@@ -106,6 +118,15 @@ msgstr "``rgb(255, 255, 0) - #ffff00``"
 
 msgid "Resolution"
 msgstr "Résolution"
+
+msgid "VRS disabled"
+msgstr "VRS désactivé"
+
+msgid "VRS enabled"
+msgstr "VRS activé"
+
+msgid "Performance improvement"
+msgstr "Amélioration des performances"
 
 msgid "1920×1080 (Full HD)"
 msgstr "1920×1080 (Full HD)"

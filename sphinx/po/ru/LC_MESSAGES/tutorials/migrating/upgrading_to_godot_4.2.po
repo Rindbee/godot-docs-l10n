@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -36,9 +36,9 @@ msgstr ""
 
 msgid ""
 "The :ref:`class_Mesh` resource format has changed in 4.2 to allow for "
-"`vertex and attribute compression <https://github.com/godotengine/godot/"
-"pull/81138>`__. This allows for improved rendering performance, especially "
-"on platforms constrained by memory bandwidth such as mobile."
+"`vertex and attribute compression <https://github.com/godotengine/godot/pull/"
+"81138>`__. This allows for improved rendering performance, especially on "
+"platforms constrained by memory bandwidth such as mobile."
 msgstr ""
 "Формат ресурса :ref:`class_Mesh` изменен в 4.2 для разрешения `вершинной и "
 "атрибутной компрессии <https://github.com/godotengine/godot/pull/81138>`__. "
@@ -97,6 +97,14 @@ msgstr ""
 "Эта статья показывает, где каждое изменение обратной совместимости влияет на "
 "GDScript и где изменение обратной совместимости C# *бинарно совместимо* или "
 "*совместимо на уровне кода*:"
+
+msgid ""
+"**Binary compatible** - Existing binaries will load and execute successfully "
+"without recompilation, and the runtime behavior won't change."
+msgstr ""
+"**Binary compatible (Совместимость на уровне двоичных файлов)** — "
+"существующие двоичные файлы будут успешно загружены и выполнены без "
+"перекомпиляции, а поведение среды выполнения не изменится."
 
 msgid ""
 "**Source compatible** - Source code will compile successfully without "
@@ -194,14 +202,186 @@ msgstr "Метод ``clear_caches`` перенесен в базовый кла�
 msgid "Method ``find_animation`` moved to base class ``AnimationMixer``"
 msgstr "Метод ``find_animation`` перенесен в базовый класс ``AnimationMixer``"
 
+msgid ""
+"Method ``find_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``find_animation_library`` перенесен в базовый класс ``AnimationMixer``"
+
+msgid "Method ``get_animation`` moved to base class ``AnimationMixer``"
+msgstr "Метод ``get_animation`` перенесен в базовый класс ``AnimationMixer``"
+
+msgid "Method ``get_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``get_animation_library`` перенесен в базовый класс ``AnimationMixer``"
+
+msgid ""
+"Method ``get_animation_library_list`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``get_animation_library_list`` перенесен в базовый класс "
+"``AnimationMixer``"
+
+msgid "Method ``get_animation_list`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``get_animation_list`` перенесен в базовый класс ``AnimationMixer``"
+
+msgid "Method ``has_animation`` moved to base class ``AnimationMixer``"
+msgstr "Метод ``has_animation`` перенесен в базовый класс ``AnimationMixer``"
+
+msgid "Method ``has_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``has_animation_library`` перенесен в базовый класс ``AnimationMixer``"
+
+msgid ""
+"Property ``method_call_mode`` renamed to ``callback_mode_method`` and moved "
+"to base class ``AnimationMixer``"
+msgstr ""
+"Свойство ``method_call_mode`` переименовано в ``callback_mode_method`` и "
+"перемещено в базовый класс ``AnimationMixer``"
+
+msgid "|✔️ with compat|"
+msgstr "|✔️ with compat|"
+
+msgid ""
+"Property ``playback_active`` renamed to ``active`` and moved to base class "
+"``AnimationMixer``"
+msgstr ""
+"Свойство ``playback_active`` переименовано в ``active`` и перемещено в "
+"базовый класс ``AnimationMixer``"
+
+msgid ""
+"Property ``playback_process_mode`` renamed to ``callback_mode_process`` and "
+"moved to base class ``AnimationMixer``"
+msgstr ""
+"Свойство ``playback_process_mode`` переименовано в ``callback_mode_process`` "
+"и перемещено в базовый класс ``AnimationMixer``"
+
+msgid ""
+"Method ``remove_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``remove_animation_library`` перенесен в базовый класс "
+"``AnimationMixer``"
+
+msgid ""
+"Method ``rename_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``rename_animation_library`` перенесен в базовый класс "
+"``AnimationMixer``"
+
+msgid "Property ``reset_on_save`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Свойство ``reset_on_save`` перемещено в базовый класс ``AnimationMixer``"
+
+msgid "Property ``root_node`` moved to base class ``AnimationMixer``"
+msgstr "Свойство ``root_node`` перемещено в базовый класс ``AnimationMixer``"
+
+msgid ""
+"Method ``set_reset_on_save_enabled`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``set_reset_on_save_enabled`` перенесен в базовый класс "
+"``AnimationMixer``"
+
+msgid "Method ``seek`` adds a new ``update_only`` optional parameter"
+msgstr "Метод ``seek`` добавляет новый необязательный параметр ``update_only``"
+
 msgid "**AnimationTree**"
 msgstr "**AnimationTree**"
+
+msgid "Property ``active`` moved to base class ``AnimationMixer``"
+msgstr "Свойство ``active`` перемещено в базовый класс ``AnimationMixer``"
+
+msgid ""
+"Method ``get_root_motion_position`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``get_root_motion_position`` перенесен в базовый класс "
+"``AnimationMixer``"
+
+msgid ""
+"Method ``get_root_motion_position_accumulator`` moved to base class "
+"``AnimationMixer``"
+msgstr ""
+"Метод ``get_root_motion_position_accumulator`` перенесен в базовый класс "
+"``AnimationMixer``"
+
+msgid ""
+"Method ``get_root_motion_rotation`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``get_root_motion_rotation`` перенесен в базовый класс "
+"``AnimationMixer``"
+
+msgid ""
+"Method ``get_root_motion_rotation_accumulator`` moved to base class "
+"``AnimationMixer``"
+msgstr ""
+"Метод ``get_root_motion_rotation_accumulator`` перенесен в базовый класс "
+"``AnimationMixer``"
+
+msgid "Method ``get_root_motion_scale`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Метод ``get_root_motion_scale`` перенесен в базовый класс ``AnimationMixer``"
+
+msgid ""
+"Method ``get_root_motion_scale_accumulator`` moved to base class "
+"``AnimationMixer``"
+msgstr ""
+"Метод ``get_root_motion_scale_accumulator`` перенесен в базовый класс "
+"``AnimationMixer``"
+
+msgid ""
+"Property ``process_callback`` renamed to ``callback_mode_process`` and moved "
+"to base class ``AnimationMixer``"
+msgstr ""
+"Свойство ``process_callback`` переименовано в ``callback_mode_process`` и "
+"перемещено в базовый класс ``AnimationMixer``"
+
+msgid "Property ``root_motion_track``  moved to base class ``AnimationMixer``"
+msgstr ""
+"Свойство ``root_motion_track`` перемещено в базовый класс ``AnimationMixer``"
+
+msgid ""
+"Property ``tree_root`` changes type from ``AnimationNode`` to "
+"``AnimationRootNode``"
+msgstr ""
+"Свойство ``tree_root`` меняет тип с ``AnimationNode`` на "
+"``AnimationRootNode``"
 
 msgid "GUI nodes"
 msgstr "GUI узлы"
 
+msgid "**PopupMenu**"
+msgstr "**Всплывающее меню**"
+
+msgid ""
+"Method ``add_icon_shortcut`` adds a new ``allow_echo`` optional parameter"
+msgstr ""
+"Метод ``add_icon_shortcut`` добавляет новый необязательный параметр "
+"``allow_echo``"
+
+msgid "`GH-36493`_"
+msgstr "`GH-36493`_"
+
+msgid "Method ``add_shortcut`` adds a new ``allow_echo`` optional parameter"
+msgstr ""
+"Метод ``add_shortcut`` добавляет новый необязательный параметр ``allow_echo``"
+
+msgid "Method ``clear`` adds a new ``free_submenus`` optional parameter"
+msgstr ""
+"Метод ``clear`` добавляет новый необязательный параметр ``free_submenus``"
+
+msgid "`GH-79965`_"
+msgstr "`GH-79965`_"
+
 msgid "**RichTextLabel**"
 msgstr "**RichTextLabel**"
+
+msgid ""
+"Method ``add_image`` adds new ``key``, ``pad``, ``tooltip``, and "
+"``size_in_percent`` optional parameters"
+msgstr ""
+"Метод ``add_image`` добавляет новые необязательные параметры ``key``, "
+"``pad``, ``tooltip`` и ``size_in_percent``"
+
+msgid "`GH-80410`_"
+msgstr "`GH-80410`_"
 
 msgid "Rendering"
 msgstr "Отрисовка"
@@ -209,8 +389,81 @@ msgstr "Отрисовка"
 msgid "**ImporterMesh**"
 msgstr "**ImporterMesh**"
 
+msgid ""
+"Method ``add_surface`` changes ``flags`` parameter type from ``uint32`` to "
+"``uint64``"
+msgstr ""
+"Метод ``add_surface`` изменяет тип параметра ``flags`` с ``uint32`` на "
+"``uint64``"
+
+msgid "`GH-81138`_"
+msgstr "`GH-81138`_"
+
+msgid ""
+"Method ``get_surface_format`` changes return type from ``uint32`` to "
+"``uint64``"
+msgstr ""
+"Метод ``get_surface_format`` изменяет тип возвращаемого значения с "
+"``uint32`` на ``uint64``"
+
+msgid "**MeshDataTool**"
+msgstr "**MeshDataTool**"
+
+msgid ""
+"Method ``commit_to_surface`` adds a new ``compression_flags`` optional "
+"parameter"
+msgstr ""
+"Метод ``commit_to_surface`` добавляет новый необязательный параметр "
+"``compression_flags``"
+
+msgid "Method ``get_format`` changes return type from ``uint32`` to ``uint64``"
+msgstr ""
+"Метод ``get_format`` изменяет тип возвращаемого значения с ``uint32`` на "
+"``uint64``"
+
 msgid "**RenderingDevice**"
 msgstr "**RenderingDevice**"
+
+msgid ""
+"Enum field ``BarrierMask.BARRIER_MASK_RASTER`` changes value from ``1`` to "
+"``9``"
+msgstr ""
+"Поле перечисления ``BarrierMask.BARRIER_MASK_RASTER`` изменяет значение с "
+"``1`` на ``9``"
+
+msgid "`GH-79911`_"
+msgstr "`GH-79911`_"
+
+msgid ""
+"Enum field ``BarrierMask.BARRIER_MASK_ALL_BARRIERS`` changes value from "
+"``7`` to ``32767``"
+msgstr ""
+"Поле перечисления ``BarrierMask.BARRIER_MASK_ALL_BARRIERS`` изменяет "
+"значение с ``7`` на ``32767``"
+
+msgid ""
+"Enum field ``BarrierMask.BARRIER_MASK_NO_BARRIER`` changes value from ``8`` "
+"to ``32768``"
+msgstr ""
+"Поле перечисления ``BarrierMask.BARRIER_MASK_NO_BARRIER`` изменяет значение "
+"с ``8`` на ``32768``"
+
+msgid ""
+"Method ``shader_create_from_bytecode`` adds a new ``placeholder_rid`` "
+"optional parameter"
+msgstr ""
+"Метод ``shader_create_from_bytecode`` добавляет новый необязательный "
+"параметр ``placeholder_rid``"
+
+msgid "`GH-79606`_"
+msgstr "`GH-79606`_"
+
+msgid ""
+"Method ``shader_get_vertex_input_attribute_ask`` changes return type from "
+"``uint32`` to ``uint64``"
+msgstr ""
+"Метод ``shader_get_vertex_input_attribute_ask`` изменяет тип возвращаемого "
+"значения с ``uint32`` на ``uint64``"
 
 msgid "**SurfaceTool**"
 msgstr "**SurfaceTool**"
@@ -253,11 +506,23 @@ msgstr "GraphEdit"
 msgid "**GraphEdit**"
 msgstr "**GraphEdit**"
 
+msgid ""
+"Property ``arrange_nodes_button_hidden`` renamed to ``show_arrange_button``"
+msgstr ""
+"Свойство ``arrange_nodes_button_hidden`` переименовано в "
+"``show_arrange_button``"
+
 msgid "`GH-81582`_"
 msgstr "`GH-81582`_"
 
+msgid "Method ``get_zoom_hbox`` renamed to ``get_menu_hbox``"
+msgstr "Метод ``get_zoom_hbox`` переименован в ``get_menu_hbox``"
+
 msgid "`GH-79308`_"
 msgstr "`GH-79308`_"
+
+msgid "Property ``snap_distance`` renamed to ``snapping_distance``"
+msgstr "Свойство ``snap_distance`` переименовано в ``snapping_distance``"
 
 msgid "Property ``use_snap`` renamed to ``snapping_enabled``"
 msgstr "Свойство ``use_snap`` переименовано в ``snapping_enabled``"
@@ -270,6 +535,55 @@ msgstr "Свойство ``comment`` удалено"
 
 msgid "`GH-79307`_"
 msgstr "`GH-79307`_"
+
+msgid ""
+"Signal ``close_request`` renamed to ``delete_request`` and moved to base "
+"class ``GraphElement``"
+msgstr ""
+"Сигнал ``close_request`` переименован в ``delete_request`` и перемещен в "
+"базовый класс ``GraphElement``"
+
+msgid "`GH-79311`_"
+msgstr "`GH-79311`_"
+
+msgid "Property ``draggable`` moved to base class ``GraphElement``"
+msgstr "Свойство ``draggable`` перемещено в базовый класс ``GraphElement``"
+
+msgid "Signal ``dragged`` moved to base class ``GraphElement``"
+msgstr "Сигнал ``dragged`` перемещен в базовый класс ``GraphElement``"
+
+msgid "Method ``get_connection_input_color`` removed"
+msgstr "Метод ``get_connection_input_color`` удален"
+
+msgid "Method ``get_connection_input_count`` removed"
+msgstr "Метод ``get_connection_input_count`` удален"
+
+msgid "Method ``get_connection_input_height`` removed"
+msgstr "Метод ``get_connection_input_height`` удален"
+
+msgid "Method ``get_connection_input_position`` removed"
+msgstr "Метод ``get_connection_input_position`` удален"
+
+msgid "Method ``get_connection_input_slot`` removed"
+msgstr "Метод ``get_connection_input_slot`` удален"
+
+msgid "Method ``get_connection_input_type`` removed"
+msgstr "Метод ``get_connection_input_type`` удален"
+
+msgid "Method ``get_connection_output_color`` removed"
+msgstr "Метод ``get_connection_output_color`` удален"
+
+msgid "Method ``get_connection_output_count`` removed"
+msgstr "Метод ``get_connection_output_count`` удален"
+
+msgid "Method ``get_connection_output_height`` removed"
+msgstr "Метод ``get_connection_output_height`` удален"
+
+msgid "Method ``get_connection_output_position`` removed"
+msgstr "Метод ``get_connection_output_position`` удален"
+
+msgid "Method ``get_connection_output_slot`` removed"
+msgstr "Метод ``get_connection_output_slot`` удален"
 
 msgid "Method ``get_connection_output_type`` removed"
 msgstr "Метод ``get_connection_output_type`` удалён"
@@ -300,6 +614,9 @@ msgstr ""
 msgid "Signal ``raise_request`` moved to base class ``GraphElement``"
 msgstr ""
 "Сигнал ``raise_request`` был перемещён в базовый класс ``GraphElement``"
+
+msgid "Property ``resizable`` moved to base class ``GraphElement``"
+msgstr "Свойство ``resizable`` перемещено в базовый класс ``GraphElement``"
 
 msgid "Signal ``resize_request`` moved to base class ``GraphElement``"
 msgstr "Сигнал ``resize_request`` перемещен в базовый класс ``GraphElement``"
@@ -340,3 +657,14 @@ msgstr "Свойство ``environment_blend_mode`` добавлено"
 
 msgid "`GH-81561`_"
 msgstr "`GH-81561`_"
+
+msgid ""
+"This change breaks compatibility in C# because the new property conflicts "
+"with the name of an existing enum and the C# bindings generator gives "
+"priority to properties, so the enum type was renamed from "
+"``EnvironmentBlendMode`` to ``EnvironmentBlendModeEnum``."
+msgstr ""
+"Это изменение нарушает совместимость в C#, поскольку новое свойство "
+"конфликтует с именем существующего перечисления, а генератор привязок C# "
+"отдает приоритет свойствам, поэтому тип перечисления был переименован из "
+"``EnvironmentBlendMode`` в ``EnvironmentBlendModeEnum``."

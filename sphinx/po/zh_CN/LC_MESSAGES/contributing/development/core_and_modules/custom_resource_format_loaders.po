@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -93,6 +93,9 @@ msgid ""
 "``ResourceFormatSaver``:"
 msgstr "如果你希望能够编辑和保存资源, 则可以实现 ``ResourceFormatSaver``:"
 
+msgid "resource_saver_json.cpp"
+msgstr "resource_saver_json.cpp"
+
 msgid "Creating custom data types"
 msgstr "创建自定义数据类型"
 
@@ -122,6 +125,12 @@ msgstr "例如，下面是将 ``FileAccess`` 调用转换为 ``std::istream`` �
 
 msgid "Registering the new file format"
 msgstr "注册新的文件格式"
+
+msgid "register_types.h"
+msgstr "register_types.h"
+
+msgid "register_types.cpp"
+msgstr "register_types.cpp"
 
 msgid "Loading it on GDScript"
 msgstr "在 GDScript 中加载"

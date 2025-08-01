@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,6 +29,15 @@ msgstr "Variable"
 msgid "Function"
 msgstr "Función"
 
+msgid ""
+"**Deprecated** marks a non-recommended API that is subject to removal or "
+"incompatible change in a future major release. Usually the API is kept for "
+"backwards compatibility."
+msgstr ""
+"**Obsoleto** indica una API no recomendada que puede eliminarse o sufrir "
+"cambios incompatibles en una futura versión principal. Normalmente, la API "
+"se mantiene por motivos de compatibilidad con versiones anteriores."
+
 msgid "Example"
 msgstr "Ejemplo"
 
@@ -39,28 +48,37 @@ msgid "``Move the [Sprite2D].``"
 msgstr "``Mueve el [Sprite2D].``"
 
 msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
-msgstr "Consulte :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+msgstr "Consulta :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
 
 msgid "Link to constant"
 msgstr "Vínculo a constante"
 
 msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
-msgstr "Consulte :ref:`Color.RED <class_Color_constant_RED>`."
+msgstr "Consulta :ref:`Color.RED <class_Color_constant_RED>`."
 
 msgid "``Get [member Node2D.scale].``"
 msgstr "``Obtén [member Node2D.scale].``"
+
+msgid "``[method Class.name]``"
+msgstr "``[method Class.name]``"
 
 msgid "``Call [method Node3D.hide].``"
 msgstr "``Llama a [method Node3D.hide].``"
 
 msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
-msgstr "Consulte :ref:`Color.Color <class_Color_constructor_Color>`."
+msgstr "Consulta :ref:`Color.Color <class_Color_constructor_Color>`."
+
+msgid "``[operator Class.name]``"
+msgstr "``[operator Class.name]``"
 
 msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
-msgstr "Consulte :ref:`Color.operator * <class_Color_operator_mul_int>`."
+msgstr "Consulta :ref:`Color.operator * <class_Color_operator_mul_int>`."
 
 msgid "``Emit [signal Node.renamed].``"
 msgstr "``Emite [signal Node.renamed].``"
+
+msgid "``[theme_item Class.name]``"
+msgstr "``[theme_item Class.name]``"
 
 msgid "Bold"
 msgstr "Negrita"

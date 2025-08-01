@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Theme type variations"
+msgstr "Variations de type de thème"
 
 msgid ""
 "When designing a user interface there may be times when a :ref:`Control "
@@ -90,6 +93,9 @@ msgstr ""
 "la section :ref:`Personnaliser un projet <doc_gui_theme_in_project>` de "
 "l'article \"Introduction à l'habillage des interfaces graphiques\"."
 
+msgid "Creating a type variation"
+msgstr "Créer une variation de type"
+
 msgid ""
 "To create a type variation open the theme editor, then click the plus icon "
 "next to the **Type** dropdown on the right side of the editor. Type in what "
@@ -132,6 +138,9 @@ msgstr ""
 "Après avoir sélectionné le type de base, vous devriez maintenant être en "
 "mesure de voir ses propriétés sur les autres onglets de l'éditeur de thème. "
 "Vous pouvez les modifier comme d'habitude."
+
+msgid "Using a type variation"
+msgstr "Utiliser une variation de type"
 
 msgid ""
 "Now that a type variation has been created you can apply it to your nodes. "

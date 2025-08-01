@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -38,6 +38,9 @@ msgstr "bool"
 msgid "2"
 msgstr "2"
 
+msgid "integer"
+msgstr "integer"
+
 msgid "3"
 msgstr "3"
 
@@ -59,6 +62,9 @@ msgstr "vector2"
 msgid "6"
 msgstr "6"
 
+msgid "rect2"
+msgstr "rect2"
+
 msgid "7"
 msgstr "7"
 
@@ -67,6 +73,9 @@ msgstr "vector3"
 
 msgid "8"
 msgstr "8"
+
+msgid "transform2d"
+msgstr "transform2d"
 
 msgid "9"
 msgstr "9"
@@ -77,6 +86,9 @@ msgstr "płaszczyzna"
 msgid "10"
 msgstr "10"
 
+msgid "quaternion"
+msgstr "quaternion"
+
 msgid "11"
 msgstr "11"
 
@@ -86,8 +98,14 @@ msgstr "aabb"
 msgid "12"
 msgstr "12"
 
+msgid "basis"
+msgstr "basis"
+
 msgid "13"
 msgstr "13"
+
+msgid "transform3d"
+msgstr "transform3d"
 
 msgid "14"
 msgstr "14"
@@ -100,6 +118,9 @@ msgstr "15"
 
 msgid "16"
 msgstr "16"
+
+msgid "rid"
+msgstr "rid"
 
 msgid "17"
 msgstr "17"
@@ -115,6 +136,9 @@ msgstr "słownik"
 
 msgid "19"
 msgstr "19"
+
+msgid "array"
+msgstr "array"
 
 msgid "20"
 msgstr "20"
@@ -142,6 +166,9 @@ msgstr "27"
 
 msgid "28"
 msgstr "28"
+
+msgid "29"
+msgstr "29"
 
 msgid "max"
 msgstr "max"
@@ -311,11 +338,32 @@ msgstr "X+4"
 msgid "16: :ref:`RID<class_rid>` (unsupported)"
 msgstr "16: :ref:`RID<class_rid>` (niewspierany)"
 
+msgid "X+8"
+msgstr "X+8"
+
 msgid "The number of properties that are serialized"
 msgstr "Liczba właściwości, które są serializowane"
 
 msgid "For each property:"
 msgstr "Dla każdej właściwości:"
+
+msgid "Y"
+msgstr "Y"
+
+msgid "Y+4"
+msgstr "Y+4"
+
+msgid "Z"
+msgstr "Z"
+
+msgid "Y+4+Z"
+msgstr "Y+4+Z"
+
+msgid "W"
+msgstr "W"
+
+msgid "<variable>"
+msgstr "<zmienny>"
 
 msgid "18: :ref:`Dictionary<class_dictionary>`"
 msgstr "18: :ref:`Dictionary<class_dictionary>`"

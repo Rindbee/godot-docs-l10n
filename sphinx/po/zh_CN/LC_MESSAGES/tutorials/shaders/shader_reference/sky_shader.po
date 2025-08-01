@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -237,6 +237,9 @@ msgstr "输出颜色。"
 
 msgid "out float **ALPHA**"
 msgstr "out float **ALPHA**"
+
+msgid "Output alpha value, can only be used in subpasses."
+msgstr "输出 alpha 值，仅能在子阶段中使用。"
 
 msgid "out vec4 **FOG**"
 msgstr "out vec4 **FOG**"

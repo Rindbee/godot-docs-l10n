@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,32 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "What is ``@tool``?"
+msgstr "Che cos'è ``@tool``?"
+
+msgid "How to use ``@tool``"
+msgstr "Come utilizzare ``@tool``"
+
+msgid "Important information"
+msgstr "Informazioni importanti"
+
+msgid ""
+"You may need to restart the editor. This is a known bug found in all Godot 4 "
+"versions: `GH-66381 <https://github.com/godotengine/godot/issues/66381>`_."
+msgstr ""
+"Potrebbe essere necessario riavviare l'editor. Questo è un bug noto presente "
+"in tutte le versioni di Godot 4: `GH-66381 <https://github.com/godotengine/"
+"godot/issues/66381>`_."
+
+msgid "Editing variables"
+msgstr "Modificare le variabili"
+
+msgid "Getting notified when resources change"
+msgstr "Essere notificati quando una risorsa cambia"
+
+msgid "Reporting node configuration warnings"
+msgstr "Segnalare avvisi di configurazione dei nodi"
 
 msgid "Instancing scenes"
 msgstr "Istanziare scene"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -15,7 +15,7 @@ msgid "Introduction"
 msgstr "소개"
 
 msgid "Type"
-msgstr "타입"
+msgstr "유형"
 
 msgid "Description"
 msgstr "설명"
@@ -40,3 +40,6 @@ msgstr "**x86_64**"
 
 msgid "**arm64**"
 msgstr "**arm64**"
+
+msgid "Dependencies section"
+msgstr "종속 관계 섹션"

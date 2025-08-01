@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,6 +23,18 @@ msgstr ""
 "należy je skompresować. Godot oferuje kilka metod kompresji, w zależności od "
 "zastosowań."
 
+msgid "good"
+msgstr "good"
+
+msgid "bad"
+msgstr "bad"
+
+msgid "Lossless"
+msgstr "Bezstratny"
+
+msgid "Lossy"
+msgstr "Stratny"
+
 msgid "**Description**"
 msgstr "**Opis**"
 
@@ -32,11 +44,17 @@ msgstr "Przechowywane jako surowe piksele"
 msgid "|regular| Small"
 msgstr "|zwykły| Mały"
 
+msgid "regular"
+msgstr "regular"
+
 msgid "|bad| Large"
 msgstr "|zły| Duży"
 
 msgid "|good| Small"
 msgstr "|dobry| Mały"
+
+msgid "**Performance**"
+msgstr "**Wydajność**"
 
 msgid "|regular| Normal"
 msgstr "|zwykły| Normalny"
@@ -55,3 +73,21 @@ msgstr "|zły| Umiarkowany"
 
 msgid "|bad| Slow"
 msgstr "|zły| Powolne"
+
+msgid "**128×128**"
+msgstr "**128×128**"
+
+msgid "**256×256**"
+msgstr "**256×256**"
+
+msgid "**512×512**"
+msgstr "**512×512**"
+
+msgid "**1024×1024**"
+msgstr "**1024×1024**"
+
+msgid "**2048×2048**"
+msgstr "**2048×2048**"
+
+msgid "**4096×4096**"
+msgstr "**4096×4096**"

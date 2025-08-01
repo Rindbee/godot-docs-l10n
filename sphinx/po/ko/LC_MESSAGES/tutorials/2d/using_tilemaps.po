@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using TileMaps"
+msgstr "타일맵 사용하기"
+
 msgid "Introduction"
 msgstr "소개"
+
+msgid "Multiple TileMapLayers and settings"
+msgstr "여러 TileMapLayer와 설정"
 
 msgid "Rendering"
 msgstr "렌더링"
@@ -22,6 +28,25 @@ msgstr "물리"
 
 msgid "Navigation"
 msgstr "네비게이션"
+
+msgid "Opening the TileMap editor"
+msgstr "타일맵 편집기 열기"
+
+msgid ""
+"Select the TileMapLayer node, then open the TileMap panel at the bottom of "
+"the editor:"
+msgstr ""
+"TileMapLayer 노드를 선택하고 나서 편집기의 하단에서 타일맵 패널을 엽니다:"
+
+msgid ""
+"Opening the TileMap panel at the bottom of the editor. The TileMapLayer node "
+"must be selected first."
+msgstr ""
+"편집기의 하단에서 타일맵 패널이 열립니다. TileMapLayer 노드가 먼저 선택되어"
+"야 합니다."
+
+msgid "Selecting an alternative tile in the TileMap editor"
+msgstr "타일맵 편집기에서 대안 타일 선택하기"
 
 msgid "Bucket Fill"
 msgstr "버킷 채우기"

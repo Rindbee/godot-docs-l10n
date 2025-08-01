@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,44 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "3D lights and shadows"
+msgstr "Luci e ombre 3D"
+
 msgid "Introduction"
 msgstr "Introduzione"
+
+msgid ""
+"You can compare various types of lights in action using the `3D Lights and "
+"Shadows demo project <https://github.com/godotengine/godot-demo-projects/"
+"tree/master/3d/lights_and_shadows>`__."
+msgstr ""
+"È possibile confrontare vari tipi di luci in azione attraverso il progetto "
+"demo `Luci e ombre 3D <https://github.com/godotengine/godot-demo-projects/"
+"tree/master/3d/lights_and_shadows>`__."
+
+msgid "Light nodes"
+msgstr "Nodi di luce"
+
+msgid "Light number limits"
+msgstr "Limiti al numero di luci"
+
+msgid "Shadow mapping"
+msgstr "Mappatura delle ombre"
+
+msgid "Tweaking shadow bias"
+msgstr "Aggiustare il bias delle ombre"
 
 msgid "Directional light"
 msgstr "Luce direzionale"
 
 msgid "Omni light"
 msgstr "Luce omnidirezionale"
+
+msgid "Shadow map size"
+msgstr "Dimensioni della mappa delle ombre"
+
+msgid "PCSS recommendations"
+msgstr "Raccomandazioni per PCSS"
+
+msgid "Projector filter mode"
+msgstr "Modalità di filtro dei proiettori"

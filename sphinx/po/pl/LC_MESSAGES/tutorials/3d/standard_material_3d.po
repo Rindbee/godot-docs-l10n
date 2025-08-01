@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,17 +14,53 @@ msgstr ""
 msgid "Introduction"
 msgstr "Wprowadzenie"
 
+msgid "Transparency"
+msgstr "Przezroczystość"
+
 msgid "Shading"
 msgstr "Shadery"
 
 msgid "Vertex Color"
 msgstr "Kolor wierzchołka"
 
+msgid "Albedo"
+msgstr "Albedo"
+
+msgid "Metallic"
+msgstr "Metaliczność"
+
+msgid "Roughness"
+msgstr "Chropowatość"
+
+msgid "Emission"
+msgstr "Emisja"
+
+msgid "Rim"
+msgstr "Obrzeże"
+
+msgid "Clearcoat"
+msgstr "Lakier bezbarwny"
+
+msgid "Anisotropy"
+msgstr "Anizotropia"
+
+msgid "Height"
+msgstr "Wysokość"
+
 msgid "Subsurface Scattering"
 msgstr "Rozpraszanie podpowierzchniowe"
 
+msgid "Refraction"
+msgstr "Refrakcja"
+
+msgid "Detail"
+msgstr "Szczegółowość"
+
 msgid "UV1 and UV2"
 msgstr "UV1 i UV2"
+
+msgid "Sampling"
+msgstr "Próbkowanie"
 
 msgid "Filter"
 msgstr "Filtr"
@@ -32,5 +68,17 @@ msgstr "Filtr"
 msgid "Repeat"
 msgstr "Powtórz"
 
+msgid "Shadows"
+msgstr "Cienie"
+
+msgid "Billboard"
+msgstr "Bilbord"
+
+msgid "Grow"
+msgstr "Rośnięcie"
+
 msgid "Transform"
 msgstr "Przekształcanie"
+
+msgid "Transmission"
+msgstr "Transmisja"

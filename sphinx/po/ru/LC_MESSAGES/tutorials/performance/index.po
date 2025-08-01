@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,15 @@ msgstr "Производительность"
 
 msgid "Introduction"
 msgstr "Введение"
+
+msgid ""
+"Godot follows a balanced performance philosophy. In the performance world, "
+"there are always tradeoffs, which consist of trading speed for usability and "
+"flexibility. Some practical examples of this are:"
+msgstr ""
+"Godot придерживается сбалансированного подхода к производительности. В мире "
+"оптимизации всегда приходится искать компромиссы, жертвуя скоростью ради "
+"удобства и гибкости. Вот некоторые практические примеры:"
 
 msgid ""
 "Rendering large amounts of objects efficiently is easy, but when a large "

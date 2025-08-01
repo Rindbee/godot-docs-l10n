@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -77,6 +77,12 @@ msgstr ""
 "器. 音频数据可以通过多种方式加载, 例如使用用于音调发生器的内部计数器, 内部/外"
 "部缓冲区, 或文件引用."
 
+msgid "audiostream_mytone.h"
+msgstr "audiostream_mytone.h"
+
+msgid "audiostream_mytone.cpp"
+msgstr "audiostream_mytone.cpp"
+
 msgid "Create an AudioStreamPlayback"
 msgstr "创建 AudioStreamPlayback"
 
@@ -91,6 +97,12 @@ msgid ""
 "Since AudioStreamPlayback is controlled by the audio thread, i/o and dynamic "
 "memory allocation are forbidden."
 msgstr "由于AudioStreamPlayback由音频线程控制, 因此禁止进行i/o和动态内存分配."
+
+msgid "audiostreamplayer_mytone.h"
+msgstr "audiostreamplayer_mytone.h"
+
+msgid "audiostreamplayer_mytone.cpp"
+msgstr "audiostreamplayer_mytone.cpp"
 
 msgid "Resampling"
 msgstr "重采样"
@@ -111,6 +123,12 @@ msgid ""
 msgstr ""
 "AudioStreamPlaybackResampled不是重载 ``mix`` , 而是使用 ``_mix_internal`` 来"
 "查询AudioFrames, 并使用 ``get_stream_sampling_rate`` 来查询当前的混合率."
+
+msgid "mytone_audiostream_resampled.h"
+msgstr "mytone_audiostream_resampled.h"
+
+msgid "mytone_audiostream_resampled.cpp"
+msgstr "mytone_audiostream_resampled.cpp"
 
 msgid ""
 "`core/math/audio_frame.h <https://github.com/godotengine/godot/blob/master/"

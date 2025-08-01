@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -130,3 +130,6 @@ msgstr "选项 / 代码签名 / 密码"
 
 msgid "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
 msgstr "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
+
+msgid "Export options"
+msgstr "导出选项"

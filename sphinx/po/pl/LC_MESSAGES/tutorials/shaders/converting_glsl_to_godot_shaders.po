@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -55,20 +55,56 @@ msgstr "Zmienne"
 msgid "Type"
 msgstr "Typ"
 
+msgid "Equivalent"
+msgstr "Odpowiednik"
+
 msgid "Description"
 msgstr "Opis"
+
+msgid "gl_FragColor"
+msgstr "gl_FragColor"
+
+msgid "COLOR"
+msgstr "COLOR"
+
+msgid "gl_FragCoord"
+msgstr "gl_FragCoord"
 
 msgid "vec4"
 msgstr "vec4"
 
+msgid "FRAGCOORD"
+msgstr "FRAGCOORD"
+
+msgid "VERTEX"
+msgstr "VERTEX"
+
+msgid "gl_PointSize"
+msgstr "gl_PointSize"
+
 msgid "float"
 msgstr "float"
+
+msgid "POINT_SIZE"
+msgstr "POINT_SIZE"
+
+msgid "gl_PointCoord"
+msgstr "gl_PointCoord"
 
 msgid "vec2"
 msgstr "vec2"
 
+msgid "POINT_COORD"
+msgstr "POINT_COORD"
+
+msgid "gl_FrontFacing"
+msgstr "gl_FrontFacing"
+
 msgid "bool"
 msgstr "bool"
+
+msgid "FRONT_FACING"
+msgstr "FRONT_FACING"
 
 msgid "Coordinates"
 msgstr "Współrzędne"
@@ -88,14 +124,41 @@ msgstr "mainImage"
 msgid "fragColor"
 msgstr "fragColor"
 
+msgid "fragCoord"
+msgstr "fragCoord"
+
+msgid "FRAGCOORD.xy"
+msgstr "FRAGCOORD.xy"
+
 msgid "iResolution"
 msgstr "iResolution"
 
 msgid "vec3"
 msgstr "vec3"
 
+msgid "1.0 / SCREEN_PIXEL_SIZE"
+msgstr "1.0 / SCREEN_PIXEL_SIZE"
+
+msgid "iTime"
+msgstr "iTime"
+
+msgid "TIME"
+msgstr "TIME"
+
+msgid "iTimeDelta"
+msgstr "iTimeDelta"
+
+msgid "iFrame"
+msgstr "iFrame"
+
 msgid "iChannelTime[4]"
 msgstr "iChannelTime[4]"
+
+msgid "iMouse"
+msgstr "iMouse"
+
+msgid "iDate"
+msgstr "iDate"
 
 msgid "iChannelResolution[4]"
 msgstr "iChannelResolution[4]"
@@ -106,5 +169,14 @@ msgstr "iChanneli"
 msgid "Sampler2D"
 msgstr "Sampler2D"
 
+msgid "TEXTURE"
+msgstr "TEXTURE"
+
 msgid "u_resolution"
 msgstr "u_resolution"
+
+msgid "u_time"
+msgstr "u_time"
+
+msgid "u_mouse"
+msgstr "u_mouse"

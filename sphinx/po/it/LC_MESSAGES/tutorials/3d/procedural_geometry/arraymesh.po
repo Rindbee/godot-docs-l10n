@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,32 +17,91 @@ msgstr "Utilizzo di ArrayMesh"
 msgid "Index"
 msgstr "Indice"
 
+msgid "Array type"
+msgstr "Tipo di array"
+
 msgid "0"
 msgstr "0"
+
+msgid "``ARRAY_VERTEX``"
+msgstr "``ARRAY_VERTEX``"
+
+msgid ""
+":ref:`PackedVector3Array <class_PackedVector3Array>` "
+"or :ref:`PackedVector2Array <class_PackedVector2Array>`"
+msgstr ""
+":ref:`PackedVector3Array <class_PackedVector3Array>` "
+"o :ref:`PackedVector2Array <class_PackedVector2Array>`"
 
 msgid "1"
 msgstr "1"
 
+msgid "``ARRAY_NORMAL``"
+msgstr "``ARRAY_NORMAL``"
+
+msgid ":ref:`PackedVector3Array <class_PackedVector3Array>`"
+msgstr ":ref:`PackedVector3Array <class_PackedVector3Array>`"
+
 msgid "2"
 msgstr "2"
+
+msgid "``ARRAY_TANGENT``"
+msgstr "``ARRAY_TANGENT``"
 
 msgid "3"
 msgstr "3"
 
+msgid "``ARRAY_COLOR``"
+msgstr "``ARRAY_COLOR``"
+
+msgid ":ref:`PackedColorArray <class_PackedColorArray>`"
+msgstr ":ref:`PackedColorArray <class_PackedColorArray>`"
+
 msgid "4"
 msgstr "4"
+
+msgid "``ARRAY_TEX_UV``"
+msgstr "``ARRAY_TEX_UV``"
+
+msgid ""
+":ref:`PackedVector2Array <class_PackedVector2Array>` "
+"or :ref:`PackedVector3Array <class_PackedVector3Array>`"
+msgstr ""
+":ref:`PackedVector2Array <class_PackedVector2Array>` "
+"o :ref:`PackedVector3Array <class_PackedVector3Array>`"
 
 msgid "5"
 msgstr "5"
 
+msgid "``ARRAY_TEX_UV2``"
+msgstr "``ARRAY_TEX_UV2``"
+
 msgid "10"
 msgstr "10"
+
+msgid "``ARRAY_BONES``"
+msgstr "``ARRAY_BONES``"
 
 msgid "11"
 msgstr "11"
 
+msgid "``ARRAY_WEIGHTS``"
+msgstr "``ARRAY_WEIGHTS``"
+
 msgid "12"
 msgstr "12"
+
+msgid "``ARRAY_INDEX``"
+msgstr "``ARRAY_INDEX``"
+
+msgid ":ref:`PackedInt32Array <class_PackedInt32Array>`"
+msgstr ":ref:`PackedInt32Array <class_PackedInt32Array>`"
+
+msgid "Setting up the ArrayMesh"
+msgstr "Preparazione dell'ArrayMesh"
+
+msgid "Generating geometry"
+msgstr "Generazione della geometria"
 
 msgid "Saving"
 msgstr "Salvare"

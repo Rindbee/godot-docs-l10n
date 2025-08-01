@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Troubleshooting physics issues"
+msgstr "Risoluzione di problemi sulla fisica"
+
+msgid "Stacked objects are unstable and wobbly"
+msgstr "Gli oggetti impilati sono instabili e traballanti"
+
+msgid "This can be due to one of two causes:"
+msgstr "Ciò può essere dovuto a una di due cause:"
+
+msgid "Cylinder collision shapes are unstable"
+msgstr "Le forme cilindriche di collisione non sono stabili"

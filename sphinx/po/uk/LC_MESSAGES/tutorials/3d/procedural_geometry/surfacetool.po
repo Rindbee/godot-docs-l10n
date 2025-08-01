@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -38,10 +38,10 @@ msgstr "Атрибути потрібно додавати перед тим я�
 
 msgid ""
 "When finished generating your geometry with the :ref:`SurfaceTool "
-"<class_surfacetool>` call ``commit()`` to finish generating the mesh. If an :"
-"ref:`ArrayMesh <class_ArrayMesh>` is passed to ``commit()`` then it appends "
-"a new surface to the end of the ArrayMesh. While if nothing is passed in, "
-"``commit()`` returns an ArrayMesh."
+"<class_surfacetool>` call ``commit()`` to finish generating the mesh. If "
+"an :ref:`ArrayMesh <class_ArrayMesh>` is passed to ``commit()`` then it "
+"appends a new surface to the end of the ArrayMesh. While if nothing is "
+"passed in, ``commit()`` returns an ArrayMesh."
 msgstr ""
 "Коли закінчите задавати геометрію в :ref:`SurfaceTool <class_surfacetool>`, "
 "викличіть функцію ``commit()`` щоб завершити побудову меша. Якщо до функції "

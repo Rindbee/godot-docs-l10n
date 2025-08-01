@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,22 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Fog shaders"
+msgstr "Shaders de brouillard"
+
+msgid ""
+"Fog shaders are a special form of compute shader that is called once for "
+"every froxel that is touched by an axis aligned bounding box of the "
+"associated :ref:`FogVolume <class_FogVolume>`. This means that froxels that "
+"just barely touch a given :ref:`FogVolume <class_FogVolume>` will still be "
+"used."
+msgstr ""
+"Les shaders de brouillard sont une forme spéciale de shader de calcul qui "
+"est appelé une fois pour chaque froxel qui est touché par une boîte de "
+"délimitation alignée sur les axes (AABB) du :ref:`FogVolume "
+"<class_FogVolume>` associé. Cela signifie que les froxels qui touchent à "
+"peine un :ref:`FogVolume <class_FogVolume>` donné seront toujours utilisés."
 
 msgid "Built-ins"
 msgstr "Variables intégrées"
@@ -26,8 +42,27 @@ msgstr "Description"
 msgid "in float **TIME**"
 msgstr "in float **TIME**"
 
+msgid "in float **PI**"
+msgstr "in float **PI**"
+
+msgid "in float **TAU**"
+msgstr "in float **TAU**"
+
+msgid "in float **E**"
+msgstr "in float **E**"
+
+msgid ""
+"3-dimensional UV, used to map a 3D texture to the current :ref:`FogVolume "
+"<class_FogVolume>`."
+msgstr ""
+"UV 3-dimentionnels, utilisé pour cartographier une texture 3D "
+"au :ref:`FogVolume <class_FogVolume>` actuel."
+
 msgid "out vec3 **ALBEDO**"
 msgstr "out vec3 **ALBEDO**"
+
+msgid "out float **DENSITY**"
+msgstr "out float **DENSITY**"
 
 msgid "out vec3 **EMISSION**"
 msgstr "out vec3 **EMISSION**"

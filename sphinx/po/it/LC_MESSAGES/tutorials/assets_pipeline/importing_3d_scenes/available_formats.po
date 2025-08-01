@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,25 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Available 3D formats"
+msgstr "Formati 3D disponibili"
+
+msgid "There are 3 ways to export glTF files from Blender:"
+msgstr "Esistono 3 modi per esportare i file glTF da Blender:"
+
+msgid ""
+"As a glTF text-based file with separate binary data and textures (``.gltf`` "
+"file + ``.bin`` file + textures)."
+msgstr ""
+"Come file glTF testuale con dati binari e texture separati (file ``.gltf`` + "
+"file ``.bin`` + texture)."
+
+msgid "Importing OBJ files in Godot"
+msgstr "Importare i file OBJ in Godot"
+
+msgid "There are 2 ways to use OBJ meshes in Godot:"
+msgstr "Esistono due modi per utilizzare le mesh OBJ in Godot:"
+
+msgid "Importing FBX files in Godot"
+msgstr "Importare i file FBX in Godot"

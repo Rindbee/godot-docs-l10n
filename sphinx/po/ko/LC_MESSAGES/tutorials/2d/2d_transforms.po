@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,7 +24,7 @@ msgid "Global canvas transform"
 msgstr "전역 캔버스 변형(Global canvas transform)"
 
 msgid "Stretch transform"
-msgstr "늘이기 변형(Stretch transform)"
+msgstr "늘이기 변형"
 
 msgid "Transform order"
 msgstr "변형 순서"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,8 +20,35 @@ msgstr "설명"
 msgid "1"
 msgstr "1"
 
+msgid "my_first_action_set"
+msgstr "my_first_action_set"
+
 msgid "2"
 msgstr "2"
 
 msgid "3"
 msgstr "3"
+
+msgid "Let's finish our configuration:"
+msgstr "이제 구성을 마무리해 보겠습니다:"
+
+msgid "Dpad Binding modifier"
+msgstr "십자 패드 바인딩 제약"
+
+msgid ""
+"``Is Sticky``, when enabled means that an action stays in the pressed state "
+"until the thumbstick or trackpad moves into another wedge even if it has "
+"left the wedge for that action."
+msgstr ""
+"``고정 여부``\\ 가 활성화될 때 동작이 쐐기 모양으로 이동하기 전까지는 썸스틱"
+"이나 트랙패드가 해당 동작을 위해 쐐기 모양을 벗어났더라도 눌린 상태로 유지됩"
+"니다."
+
+msgid "Analog threshold modifier"
+msgstr "아날로그 역치값 모디파이어"
+
+msgid "Haptics on modifiers"
+msgstr "모디파이어에서 햅틱"
+
+msgid "Haptic vibration"
+msgstr "햅틱 진동"

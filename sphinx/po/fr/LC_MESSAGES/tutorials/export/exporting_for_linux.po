@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,15 @@ msgstr ""
 
 msgid "Exporting for Linux"
 msgstr "Exportation pour Linux"
+
+msgid ""
+"This page describes how to export a Godot project to Linux. If you're "
+"looking to compile editor or export template binaries from source instead, "
+"read :ref:`doc_compiling_for_linuxbsd`."
+msgstr ""
+"Cette page explique comment exporter un projet Godot vers Linux. Si vous "
+"cherchez à compiler l’éditeur ou les binaires du modèle d'exportation depuis "
+"le code source, voyez plutôt :ref:`doc_compiling_for_linuxbsd`."
 
 msgid ""
 "The simplest way to distribute a game for PC is to copy the executable "
@@ -32,15 +41,24 @@ msgid ""
 msgstr ""
 "Godot offre une approche plus élégante pour la distribution sur PC lorsqu'on "
 "utilise le système d'exportation. Lors de l'exportation pour Linux, "
-"l'exportateur prend tous les fichiers du projet et crée un fichier ``data."
-"pck``. Ce fichier est accompagné d'un binaire spécialement optimisé qui est "
-"plus petit, plus rapide et ne contient pas l'éditeur et le débogueur."
+"l'exportateur prend tous les fichiers du projet et crée un fichier "
+"``data.pck``. Ce fichier est accompagné d'un binaire spécialement optimisé "
+"qui est plus petit, plus rapide et ne contient pas l'éditeur et le débogueur."
 
 msgid "Environment variables"
 msgstr "Variables d'environnement"
+
+msgid "Export option"
+msgstr "Options d'exportation"
+
+msgid "Environment variable"
+msgstr "Variable d'environnement"
 
 msgid "Encryption / Encryption Key"
 msgstr "Cryptage / Clé de cryptage"
 
 msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "Export options"
+msgstr "Options d'exportation"

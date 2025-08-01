@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -247,9 +247,9 @@ msgstr ""
 "区分文本注释和停用的代码。"
 
 msgid ""
-"In the script editor, to toggle commenting of the selected code, press :kbd:"
-"`Ctrl + K`. This feature adds/removes a single ``#`` sign before any code on "
-"the selected lines."
+"In the script editor, to toggle commenting of the selected code, "
+"press :kbd:`Ctrl + K`. This feature adds/removes a single ``#`` sign before "
+"any code on the selected lines."
 msgstr ""
 "在脚本编辑器中，要切换已注释的选定代码，请按 :kbd:`Ctrl + K`\\ 。此功能会在选"
 "定行的开头添加/删除一个 ``#`` 注释符号。"
@@ -306,33 +306,91 @@ msgstr "利用 GDScript 的文字下划线，让大数字更易读。"
 msgid "Naming conventions"
 msgstr "命名规定"
 
+msgid ""
+"These naming conventions follow the Godot Engine style. Breaking these will "
+"make your code clash with the built-in naming conventions, leading to "
+"inconsistent code. As a summary table:"
+msgstr ""
+"这些命名规定遵循 Godot 引擎风格，不遵循这些规定会使你的代码与内置的命名规定相"
+"冲突，导致代码风格不一致。"
+
 msgid "Type"
 msgstr "类型"
+
+msgid "Convention"
+msgstr "约定"
 
 msgid "Example"
 msgstr "示例"
 
 msgid "File names"
-msgstr "文件命名"
+msgstr "文件名"
+
+msgid "snake_case"
+msgstr "snake_case"
+
+msgid "``yaml_parser.gd``"
+msgstr "``yaml_parser.gd``"
+
+msgid "Class names"
+msgstr "类名"
+
+msgid "PascalCase"
+msgstr "PascalCase"
+
+msgid "``class_name YAMLParser``"
+msgstr "``class_name YAMLParser``"
+
+msgid "Node names"
+msgstr "节点名称"
+
+msgid "``Camera3D``, ``Player``"
+msgstr "``Camera3D``\\ 、\\ ``Player``"
 
 msgid "Functions"
 msgstr "函数"
 
+msgid "``func load_level():``"
+msgstr "``func load_level():``"
+
 msgid "Variables"
 msgstr "变量"
+
+msgid "``var particle_effect``"
+msgstr "``var particle_effect``"
 
 msgid "Signals"
 msgstr "信号"
 
+msgid "``signal door_opened``"
+msgstr "``signal door_opened``"
+
 msgid "Constants"
 msgstr "常量"
+
+msgid "CONSTANT_CASE"
+msgstr "CONSTANT_CASE"
+
+msgid "``const MAX_SPEED = 200``"
+msgstr "``const MAX_SPEED = 200``"
+
+msgid "Enum names"
+msgstr "枚举名称"
+
+msgid "``enum Element``"
+msgstr "``enum Element``"
+
+msgid "Enum members"
+msgstr "枚举成员"
+
+msgid "``{EARTH, WATER, AIR, FIRE}``"
+msgstr "``{EARTH, WATER, AIR, FIRE}``"
 
 msgid ""
 "Use snake_case for file names. For named classes, convert the PascalCase "
 "class name to snake_case::"
 msgstr ""
-"文件名用 snake_case （蛇形）命名法，对于具名类，将其名字从帕斯卡命名（大驼峰"
-"命名，PascalCase）转化为 snake_case 命名： ::"
+"文件名用 snake_case 命名。具名类需要将 PascalCase 类名转为 snake_case： ::"
 
 msgid ""
 "This is consistent with how C++ files are named in Godot's source code. This "
@@ -346,10 +404,10 @@ msgid "Classes and nodes"
 msgstr "类与节点"
 
 msgid "Use PascalCase for class and node names:"
-msgstr "对类和节点名称使用帕斯卡命名法（大驼峰命名法，PascalCase）:"
+msgstr "类名和节点名称使用 PascalCase："
 
 msgid "Also use PascalCase when loading a class into a constant or a variable:"
-msgstr "将类加载到常量或变量时也同样适用："
+msgstr "将类加载到常量和变量中时也使用 PascalCase："
 
 msgid "Functions and variables"
 msgstr "函数与变量"
@@ -375,17 +433,30 @@ msgid ""
 msgstr "使用 CONSTANT\\_CASE，全部大写，并用下划线（\\_）来分隔单词："
 
 msgid ""
-"Use PascalCase for enum *names* and CONSTANT\\_CASE for their members, as "
-"they are constants:"
+"Write enums with each item on its own line. This allows adding documentation "
+"comments above each item more easily, and also makes for cleaner diffs in "
+"version control when items are added or removed."
 msgstr ""
-"对枚举的\\ *名称*\\ 使用 PascalCase，对其成员使用 CONSTANT\\_CASE， 因为这些"
-"成员是常量："
+"每个枚举值占一行。这样可以更方便地在每个值上方添加文档注释，添加删除枚举值的"
+"时候版本控制中的差异也更清晰。"
 
 msgid "Code order"
 msgstr "代码顺序"
 
+msgid ""
+"This section focuses on code order. For formatting, see :ref:`formatting`. "
+"For naming conventions, see :ref:`naming_conventions`."
+msgstr ""
+"第一节主要讨论代码顺序。格式相关的内容见 :ref:`formatting`\\ 。命名规范相关的"
+"内容见 :ref:`naming_conventions`\\ 。"
+
 msgid "We suggest to organize GDScript code this way:"
 msgstr "我们建议按以下方式来组织 GDScript 代码："
+
+msgid ""
+"And put the class methods and variables in the following order depending on "
+"their access modifiers:"
+msgstr "按以下顺序排列类方法和变量，具体取决于访问修饰符："
 
 msgid ""
 "We optimized the order to make it easy to read the code from top to bottom, "
@@ -411,8 +482,8 @@ msgid ""
 "The object's construction and initialization functions, ``_init`` and "
 "``_ready``, come before functions that modify the object at runtime."
 msgstr ""
-"先写对象的构造函数和初始化函数 ``_init`` 和 ``_ready`` ，然后再写修改对象的函"
-"数。"
+"先写对象的构造函数和初始化函数 ``_init`` 和 ``_ready``\\ ，然后再写运行时修改"
+"对象的函数。"
 
 msgid "Class declaration"
 msgstr "类声明"
@@ -536,14 +607,6 @@ msgid "Inferred types"
 msgstr "推断类型"
 
 msgid ""
-"In most cases you can let the compiler infer the type, using ``:=``. Prefer "
-"``:=`` when the type is written on the same line as the assignment, "
-"otherwise prefer writing the type explicitly."
-msgstr ""
-"大部分情况下，你可以让编译器自行推断变量类型，用 ``:=`` 来实现。在变量声明与"
-"变量类型写在同一行时使用该语法，除此之外还请显式指定变量类型。"
-
-msgid ""
 "Include the type hint when the type is ambiguous, and omit the type hint "
 "when it's redundant."
 msgstr "在类型不明确时指定类型，在类型提示多余时省略类型指定。"
@@ -563,10 +626,3 @@ msgid ""
 "Alternatively, you can use the ``as`` keyword to cast the return type, and "
 "that type will be used to infer the type of the var."
 msgstr "也可以使用 ``as`` 关键字来转换返回类型，该类型会用于推导变量类型。"
-
-msgid ""
-"This option is also considered more :ref:`type-"
-"safe<doc_gdscript_static_typing_safe_lines>` than the first."
-msgstr ""
-"这种做法也比第一种更加\\ :ref:`类型安全"
-"<doc_gdscript_static_typing_safe_lines>`\\ 。"

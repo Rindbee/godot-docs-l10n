@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,23 +11,134 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "PackedArray"
+msgstr "PackedArray"
+
 msgid "GDScript"
 msgstr "GDScript"
 
 msgid "C#"
 msgstr "C#"
 
+msgid "``PackedByteArray``"
+msgstr "``PackedByteArray``"
+
+msgid "``byte[]``"
+msgstr "``byte[]``"
+
+msgid "``PackedInt32Array``"
+msgstr "``PackedInt32Array``"
+
+msgid "``int[]``"
+msgstr "``int[]``"
+
+msgid "``PackedInt64Array``"
+msgstr "``PackedInt64Array``"
+
+msgid "``long[]``"
+msgstr "``long[]``"
+
+msgid "``PackedFloat32Array``"
+msgstr "``PackedFloat32Array``"
+
+msgid "``float[]``"
+msgstr "``float[]``"
+
+msgid "``PackedFloat64Array``"
+msgstr "``PackedFloat64Array``"
+
+msgid "``double[]``"
+msgstr "``double[]``"
+
+msgid "``PackedStringArray``"
+msgstr "``PackedStringArray``"
+
+msgid "``string[]``"
+msgstr "``string[]``"
+
+msgid "``PackedVector2Array``"
+msgstr "``PackedVector2Array``"
+
+msgid "``Vector2[]``"
+msgstr "``Vector2[]``"
+
+msgid "``PackedVector3Array``"
+msgstr "``PackedVector3Array``"
+
+msgid "``Vector3[]``"
+msgstr "``Vector3[]``"
+
+msgid "``PackedVector4Array``"
+msgstr "``PackedVector4Array``"
+
+msgid "``Vector4[]``"
+msgstr "``Vector4[]``"
+
+msgid "``PackedColorArray``"
+msgstr "``PackedColorArray``"
+
+msgid "``Color[]``"
+msgstr "``Color[]``"
+
 msgid "Array"
 msgstr "Tablica"
+
+msgid "all"
+msgstr "all"
+
+msgid "`System.Linq.Enumerable.All`_"
+msgstr "`System.Linq.Enumerable.All`_"
+
+msgid "any"
+msgstr "any"
+
+msgid "`System.Linq.Enumerable.Any`_"
+msgstr "`System.Linq.Enumerable.Any`_"
+
+msgid "append"
+msgstr "append"
+
+msgid "Add"
+msgstr "Add"
+
+msgid "N/A"
+msgstr "ND."
 
 msgid "clear"
 msgstr "wyczyść"
 
+msgid "count"
+msgstr "count"
+
 msgid "Duplicate"
 msgstr "Duplikuj"
+
+msgid "erase"
+msgstr "erase"
+
+msgid "find"
+msgstr "find"
+
+msgid "hash"
+msgstr "hash"
+
+msgid "GD.Hash"
+msgstr "GD.Hash"
+
+msgid "insert"
+msgstr "insert"
+
+msgid "is_empty"
+msgstr "is_empty"
 
 msgid "max"
 msgstr "max"
 
+msgid "min"
+msgstr "min"
+
 msgid "Dictionary"
 msgstr "Słownik"
+
+msgid "keys"
+msgstr "klucze"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -59,6 +59,9 @@ msgstr ""
 msgid "For example:"
 msgstr "Например:"
 
+msgid "By default:"
+msgstr "По умолчанию:"
+
 msgid ""
 "The script templates have the same extension as the regular script files. "
 "This may lead to an issue of a script parser treating those templates as "
@@ -76,6 +79,14 @@ msgstr ""
 
 msgid "Default template"
 msgstr "Шаблон по умолчанию"
+
+msgid ""
+"The ``Default`` templates for basic Nodes, for both GDScript and C#, are "
+"shown here so you can use these as the base for creating other templates:"
+msgstr ""
+"Здесь показаны шаблоны ``Default`` для базовых узлов, как для GDScript, так "
+"и для C#, поэтому вы можете использовать их в качестве основы для создания "
+"других шаблонов:"
 
 msgid "List of template placeholders"
 msgstr "Список заполнителей шаблонов"

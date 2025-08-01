@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -77,8 +77,14 @@ msgstr "Modulo (Rest der Division)."
 msgid "Fractional of ``x``, with ``i`` as integer part."
 msgstr "Bruchteil von ``x``, mit ``i`` als ganzzahligem Teil."
 
+msgid ":ref:`min<shader_func_min>`\\ (\\ |vec_type| a, |vec_type| b)"
+msgstr "vec_type **min** (vec_type a, vec_type b)"
+
 msgid "Lowest value between ``a`` and ``b``."
 msgstr "Niedrigster Wert zwischen ``a`` und ``b``."
+
+msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_type| a, |vec_type| b)"
+msgstr "vec_type **max** (vec_type a, vec_type b)"
 
 msgid "Highest value between ``a`` and ``b``."
 msgstr "Höchster Wert zwischen ``a`` und ``b``."
@@ -94,6 +100,36 @@ msgstr "Liefert ``true`` wenn die Skalar- oder Vektor-Komponente ``NaN`` ist."
 
 msgid "Returns ``true`` if scalar or vector component is ``INF``."
 msgstr "Liefert ``true`` wenn die Skalar- oder Vektor-Komponente ``INF`` ist."
+
+msgid ""
+"|vec_type| **min**\\ (\\ |vec_type| a, |vec_type| "
+"b) :ref:`🔗<shader_func_min>`"
+msgstr "vec_type **min** (vec_type a, vec_type b)"
+
+msgid ""
+"|vec_int_type| **min**\\ (\\ |vec_int_type| a, |vec_int_type| "
+"b) :ref:`🔗<shader_func_min>`"
+msgstr "vec_type **min** (vec_type a, vec_type b)"
+
+msgid ""
+"|vec_uint_type| **min**\\ (\\ |vec_uint_type| a, |vec_uint_type| "
+"b) :ref:`🔗<shader_func_min>`"
+msgstr "vec_type **min** (vec_type a, vec_type b)"
+
+msgid ""
+"|vec_type| **max**\\ (\\ |vec_type| a, |vec_type| "
+"b) :ref:`🔗<shader_func_max>`"
+msgstr "vec_type **max** (vec_type a, vec_type b)"
+
+msgid ""
+"|vec_uint_type| **max**\\ (\\ |vec_uint_type| a, |vec_uint_type| "
+"b) :ref:`🔗<shader_func_max>`"
+msgstr "vec_type **max** (vec_type a, vec_type b)"
+
+msgid ""
+"|vec_int_type| **max**\\ (\\ |vec_int_type| a, |vec_int_type| "
+"b) :ref:`🔗<shader_func_max>`"
+msgstr "vec_type **max** (vec_type a, vec_type b)"
 
 msgid "float"
 msgstr "float"
@@ -169,6 +205,36 @@ msgstr "``true``, wenn alle Komponenten ``true`` sind, ansonsten ``false``."
 
 msgid "Invert boolean vector."
 msgstr "Booleschen Vektor invertieren."
+
+msgid ""
+"A boolean vector in which each element ``i`` is computed as ``x[i] < y[i]``."
+msgstr ""
+"Ein Boolescher Vektor, in dem jedes Element ``i`` durch ``x[i] < y[i]`` "
+"berechnet wird."
+
+msgid ""
+"A boolean vector in which each element ``i`` is computed as ``x[i] > y[i]``."
+msgstr ""
+"Ein Boolescher Vektor, in dem jedes Element ``i`` durch ``x[i] > y[i]`` "
+"berechnet wird."
+
+msgid ""
+"A boolean vector in which each element ``i`` is computed as ``x[i] <= y[i]``."
+msgstr ""
+"Ein Boolescher Vektor, in dem jedes Element ``i`` durch ``x[i] <= y[i]`` "
+"berechnet wird."
+
+msgid ""
+"A boolean vector in which each element ``i`` is computed as ``x[i] >= y[i]``."
+msgstr ""
+"Ein Boolescher Vektor, in dem jedes Element ``i`` durch ``x[i] >= y[i]`` "
+"berechnet wird."
+
+msgid ""
+"A boolean vector in which each element ``i`` is computed as ``x[i] == y[i]``."
+msgstr ""
+"Ein Boolescher Vektor, in dem jedes Element ``i`` durch ``x[i] == y[i]`` "
+"berechnet wird."
 
 msgid "Get the size of a texture."
 msgstr "Ermitteln der Größe einer Textur."

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,16 +13,6 @@ msgstr ""
 
 msgid "Console support in Godot"
 msgstr "Soporte de consolas en Godot"
-
-msgid ""
-"Console SDKs are secret and covered by non-disclosure agreements. Even if we "
-"could get access to them, we could not publish the platform-specific code "
-"under an open source license."
-msgstr ""
-"Las SDK de las consolas son secretas y están cubiertas por acuerdos de "
-"confidencialidad. Incluso si pudiéramos acceder a ellas, no podríamos "
-"publicar el código específico de la plataforma bajo una licencia de código "
-"abierto."
 
 msgid "Console publishing process"
 msgstr "Proceso de publicación en consolas"
@@ -65,25 +55,8 @@ msgstr ""
 "kits de desarrollo es confidencial y puede variar según el fabricante y las "
 "condiciones específicas del acuerdo de desarrollo."
 
-msgid "Port the engine to the console platform or pay a company to do it."
-msgstr ""
-"Portar el motor a la plataforma de la consola o contratar a una empresa para "
-"hacerlo."
-
 msgid "Third-party support"
 msgstr "Soporte de herramientas de terceros"
-
-msgid ""
-"Console ports of Godot are offered by third-party companies (which have "
-"ported Godot on their own). These companies also offer publishing of your "
-"games to various consoles."
-msgstr ""
-"Los puertos de Godot para consolas son ofrecidos por compañías de terceros "
-"(que han realizado la portabilidad de Godot por sí mismas). Estas compañías "
-"también ofrecen servicios de publicación para tus juegos en varias consolas."
-
-msgid "Following is the list of providers:"
-msgstr "A continuación se muestra la lista de proveedores:"
 
 msgid ""
 "`Pineapple Works <https://pineapple.works/>`_ offers Switch, Xbox One & Xbox "

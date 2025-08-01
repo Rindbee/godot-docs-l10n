@@ -1,0 +1,42 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 4.4\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "**Rule ID**"
+msgstr "**Regel-ID**"
+
+msgid "**Category**"
+msgstr "**Kategorie**"
+
+msgid "Usage"
+msgstr "Verwendung"
+
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Fix führt oder führt nicht zu Kompatibilitätsbruch**"
+
+msgid "**Enabled by default**"
+msgstr "**Standardmäßig aktiviert**"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "Cause"
+msgstr "Ursache"
+
+msgid "Rule description"
+msgstr "Regelbeschreibung"
+
+msgid "How to fix violations"
+msgstr "Wie man Verstöße behebt"
+
+msgid "When to suppress warnings"
+msgstr "Wann man Warnungen unterdrücken sollte"

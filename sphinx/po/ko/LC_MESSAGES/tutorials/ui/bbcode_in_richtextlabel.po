@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,8 +20,32 @@ msgstr "성능"
 msgid "Example"
 msgstr "예제"
 
+msgid "`Default`"
+msgstr "`Default`"
+
+msgid "``default``"
+msgstr "``default``"
+
+msgid "Image options"
+msgstr "이미지 옵션"
+
+msgid "Integer number"
+msgstr "정수 숫자"
+
 msgid "String"
 msgstr "String"
+
+msgid "Image and table vertical alignment"
+msgstr "이미지 및 표 수직 정렬"
+
+msgid "Font options"
+msgstr "글꼴 옵션"
+
+msgid "Integer number."
+msgstr "정수 숫자."
+
+msgid "Cell options"
+msgstr "셀 옵션"
 
 msgid "1"
 msgstr "1"

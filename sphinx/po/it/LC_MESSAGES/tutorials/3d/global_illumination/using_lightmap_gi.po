@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,14 +17,38 @@ msgstr "Confronto visivo"
 msgid "Setting up"
 msgstr "Impostare"
 
+msgid "Generating UV2 for CSG nodes"
+msgstr "Generazione di UV2 per i nodi CSG"
+
+msgid "Bake lightmaps."
+msgstr "Prepara le lightmap."
+
+msgid "Checking UV2"
+msgstr "Verifica degli UV2"
+
 msgid "The modes are:"
 msgstr "Le modalità sono:"
 
 msgid "Disabled"
-msgstr "Disabilitato"
+msgstr "Disabilitata"
+
+msgid "Dynamic"
+msgstr "Dinamica"
+
+msgid "Static"
+msgstr "Statica"
 
 msgid "Baking"
-msgstr "Baking"
+msgstr "Preparazione (Baking)"
 
 msgid "Tweaks"
 msgstr "Ritocchi"
+
+msgid "Three shadowmasking modes are available:"
+msgstr "Sono disponibili tre modalità di shadowmasking:"
+
+msgid "Dynamic objects"
+msgstr "Oggetti dinamici"
+
+msgid "There are 2 ways to add light probes to a scene:"
+msgstr "Esistono due modi per aggiungere sonde di luce a una scena:"

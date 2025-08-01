@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,149 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "C# exported properties"
+msgstr "Proprietà esportate in C#"
+
+msgid ""
+"One of the fundamental benefits of exporting member variables is to have "
+"them visible and editable in the editor. This way, artists and game "
+"designers can modify values that later influence how the program runs. For "
+"this, a special export syntax is provided."
+msgstr ""
+"Uno dei motivi fondamentali per esportare variabili membro è per renderle "
+"visibili e modificabili nell'editor. Facendo così, artisti e game designer "
+"possono modificare valori che poi influiranno sull'esecuzione del programma. "
+"A questo scopo, viene fornita una sintassi di esportazione specifica."
+
+msgid "Basic use"
+msgstr "Utilizzo di base"
+
+msgid ""
+"Exporting works with fields and properties. They can have any access "
+"modifier."
+msgstr ""
+"L'esportazione funziona con campi e proprietà. Possono avere qualsiasi "
+"modificatore di accesso."
+
+msgid "Grouping exports"
+msgstr "Raggruppare le esportazioni"
+
+msgid "Strings as paths"
+msgstr "Stringhe rappresentanti percorsi"
+
+msgid "String as a path to a file."
+msgstr "Stringa rappresentante un percorso a un file."
+
+msgid ""
+"Using paths in the global filesystem is also possible, but only in scripts "
+"in tool mode."
+msgstr ""
+"È possibile utilizzare anche i percorsi nel file system globale, ma solo "
+"negli script in modalità strumento (tool)."
+
+msgid "Limiting editor input ranges"
+msgstr "Limitare gli intervalli inseribili nell'editor"
+
+msgid "Allow integer values from 0 to 20."
+msgstr "Permette valori interi da 0 a 20."
+
+msgid "Allow integer values from -10 to 20."
+msgstr "Permette valori interi da -10 a 20."
+
+msgid "Allow floats from -10 to 20 and snap the value to multiples of 0.2."
+msgstr ""
+"Permette valori in virgola mobile da -10 a 20 e aggancia il valore a "
+"multipli di 0,2."
+
+msgid "Floats with easing hint"
+msgstr "Numeri in virgola mobile con indicazione di easing"
+
+msgid "Colors"
+msgstr "Colori"
+
+msgid "Regular color given as red-green-blue-alpha value."
+msgstr "Colore regolare fornito come valore rosso-verde-blu-alfa."
+
 msgid "Nodes"
 msgstr "Nodi"
 
+msgid ""
+"Exporting NodePaths like in Godot 3.x is still possible, in case you need it:"
+msgstr ""
+"È ancora possibile esportare i NodePath come in Godot 3.x, nel caso in cui "
+"sia necessario:"
+
 msgid "Resources"
 msgstr "Risorse"
+
+msgid ""
+"In the Inspector, you can then drag and drop a resource file from the "
+"FileSystem dock into the variable slot."
+msgstr ""
+"Nell'Ispettore, sarà quindi possibile trascinare e rilasciare un file di "
+"risorse dal pannello del FileSystem nello slot della variabile."
+
+msgid ""
+"It must be noted that even if the script is not being run while in the "
+"editor, the exported properties are still editable. This can be used in "
+"conjunction with a :ref:`script in \"tool\" mode <doc_gdscript_tool_mode>`."
+msgstr ""
+"È importante notare che anche se lo script non viene eseguito nell'editor, "
+"le proprietà esportate sono comunque modificabili. Ciò può essere utilizzato "
+"in combinazione con uno :ref:`script in modalità \"strumento\" (tool) "
+"<doc_gdscript_tool_mode>`."
+
+msgid "Exporting bit flags"
+msgstr "Esportare bit flag"
+
+msgid ""
+"Using bit flags requires some understanding of bitwise operations. If in "
+"doubt, use boolean variables instead."
+msgstr ""
+"L'utilizzo dei bit flag richiede una certa conoscenza delle operazioni bit a "
+"bit. In casi di dubbio, utilizzare invece variabili booleane."
+
+msgid "Exporting enums"
+msgstr "Esportare enumerazioni"
+
+msgid "Exporting collections"
+msgstr "Esportazione di raccolte"
+
+msgid "Exporting Godot arrays"
+msgstr "Esportazione di array di Godot"
+
+msgid ""
+"Arrays with specified types which inherit from resource can be set by drag-"
+"and-dropping multiple files from the FileSystem dock."
+msgstr ""
+"Gli array con tipi specificati che ereditano da ``Resource`` si possono "
+"impostare trascinando e rilasciando più file dal pannello FileSystem."
+
+msgid "Exporting Godot dictionaries"
+msgstr "Esportazione di dizionari di Godot"
+
+msgid "Exporting C# arrays"
+msgstr "Esportazione di array di C#"
+
+msgid "Setting exported variables from a tool script"
+msgstr "Impostare le variabili esportate da uno script strumento (tool)"
+
+msgid "Advanced exports"
+msgstr "Esportazioni avanzate"
+
+msgid ""
+"Not every type of export can be provided on the level of the language itself "
+"to avoid unnecessary design complexity. The following describes some more or "
+"less common exporting features which can be implemented with a low-level API."
+msgstr ""
+"Non sono forniti tutti i tipi di esportazione nel linguaggio stesso, per "
+"evitare inutili complessità di progettazione. Di seguito sono descritte "
+"alcune funzionalità di esportazione più o meno comuni che si possono "
+"implementare con un'API di basso livello."
+
+msgid ""
+"For binding properties using the above methods in C++, "
+"see :ref:`doc_binding_properties_using_set_get_property_list`."
+msgstr ""
+"Per vincolare le proprietà in C++ attraverso i metodi sopra indicati, "
+"consultare :ref:`doc_binding_properties_using_set_get_property_list`."

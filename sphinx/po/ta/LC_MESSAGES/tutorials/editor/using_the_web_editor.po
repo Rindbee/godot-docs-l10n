@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,13 @@ msgstr ""
 
 msgid "Using the Web editor"
 msgstr "வலை எடிட்டரைப் பயன்படுத்துதல்"
+
+msgid ""
+"There is a `Web editor <https://editor.godotengine.org/>`__ you can use to "
+"work on new or existing projects."
+msgstr ""
+"`வலை ஆசிரியர் <https://editor.godotengine.org/> __ __ புதிய அல்லது ஏற்கனவே உள்ள "
+"திட்டங்களில் வேலை செய்ய நீங்கள் பயன்படுத்தலாம்."
 
 msgid ""
 "The web editor is in a preliminary stage. While its feature set may be "
@@ -63,9 +70,9 @@ msgstr ""
 "பயன்பாடுகளை வலையில் இயக்க இன்னும் நிலையான வழி இல்லை."
 
 msgid ""
-"If you use Linux, due to `poor Firefox WebGL performance <https://bugzilla."
-"mozilla.org/show_bug.cgi?id=1010527>`__, it's recommended to use a Chromium-"
-"based browser instead of Firefox."
+"If you use Linux, due to `poor Firefox WebGL performance <https://"
+"bugzilla.mozilla.org/show_bug.cgi?id=1010527>`__, it's recommended to use a "
+"Chromium-based browser instead of Firefox."
 msgstr ""
 "நீங்கள் லினக்சைப் பயன்படுத்தினால், `மோசமான பயர்பாக்ச் வெப்சிஎல் செயல்திறன் <https://"
 "bugzilla.mozilla.org/show_bug.cgi?"
@@ -128,6 +135,15 @@ msgstr "வெளிப்புற ச்கிரிப்ட் எடிட�
 
 msgid "No support for Android one-click deploy."
 msgstr "ஆண்ட்ராய்டு ஒரு சொடுக்கு வரிசைப்படுத்தலுக்கு எந்த ஆதரவும் இல்லை."
+
+msgid ""
+"See the `list of open issues on GitHub related to the web editor <https://"
+"github.com/godotengine/godot/issues?"
+"q=is%3Aopen+is%3Aissue+label%3Aplatform%3Aweb+label%3Atopic%3Aeditor>`__ for "
+"a list of known bugs."
+msgstr ""
+"வலை எடிட்டர் தொடர்பான கிட்அப்பில் திறந்த சிக்கல்களின் பட்டியலைக் காண்க <https://"
+"github.com/godotengine/godot/issues?q=is%3Aopen+is%3AISSUE+ சிட்டை மிக்கி"
 
 msgid "Importing a project"
 msgstr "ஒரு திட்டத்தை இறக்குமதி செய்தல்"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,32 +11,2011 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Upgrading from Godot 3 to Godot 4"
+msgstr "Passare da Godot 3 a Godot 4"
+
+msgid "Should I upgrade to Godot 4?"
+msgstr "Dovrei passare a Godot 4?"
+
+msgid ""
+"Before beginning the upgrade process, it's worth thinking about the "
+"advantages and disadvantages that upgrading would bring to your project."
+msgstr ""
+"Prima di cominciare il processo di aggiornamento, vale la pena riflettere "
+"sui vantaggi e sugli svantaggi che tale operazione comporterebbe per il "
+"proprio progetto."
+
+msgid "Advantages of upgrading"
+msgstr "Vantaggi dell'aggiornamento"
+
+msgid ""
+"Along with the `new features present in 4.0 <https://godotengine.org/article/"
+"godot-4-0-sets-sail>`__, upgrading gives the following advantages:"
+msgstr ""
+"Oltre alle `nuove funzionalità presenti nella versione 4.0 <https://"
+"godotengine.org/article/godot-4-0-sets-sail>`__, l'aggiornamento offre i "
+"seguenti vantaggi:"
+
+msgid ""
+"Many bugs are fixed in 4.0, but cannot be resolved in 3.x for various "
+"reasons (such as graphics API differences or backwards compatibility)."
+msgstr ""
+"Molti bug sono stati risolti nella versione 4.0, ma non si possono risolvere "
+"nella versione 3.x per vari motivi (ad esempio differenze nelle API grafiche "
+"o compatibilità con le versioni precedenti)."
+
+msgid ""
+"4.x will enjoy a longer :ref:`support period <doc_release_policy>`. Godot "
+"3.x will continue to be supported for some time after 4.0 is released, but "
+"it will eventually stop receiving support."
+msgstr ""
+"La versione 4.x godrà di un :ref:`periodo di supporto <doc_release_policy>` "
+"più lungo. Godot 3.x continuerà a essere supportato per un po' di tempo dopo "
+"il rilascio della versione 4.0, ma eventualmente non riceverà più supporto."
+
+msgid ""
+"See :ref:`doc_docs_changelog` for a list of pages documenting new features "
+"in Godot 4.0, and :ref:`doc_list_of_features` for a list of all features in "
+"Godot."
+msgstr ""
+"Consultare :ref:`doc_docs_changelog` per un elenco delle pagine che "
+"documentano le nuove funzionalità di Godot 4.0 e :ref:`doc_list_of_features` "
+"per un elenco di tutte le funzionalità di Godot."
+
+msgid "Disadvantages of upgrading"
+msgstr "Svantaggi dell'aggiornamento"
+
+msgid ""
+"Godot 4's baseline hardware requirements (such as memory usage) are slightly "
+"higher, both for the editor and exported projects. This was required for the "
+"implementation of some core optimizations."
+msgstr ""
+"I requisiti hardware di base di Godot 4 (come l'utilizzo della memoria) sono "
+"leggermente più elevati, sia per l'editor sia per i progetti esportati. "
+"Questo è stato necessario per l'implementazione di alcune ottimizzazioni "
+"fondamentali."
+
+msgid ""
+"Since Godot 4 includes more features than Godot 3, Godot 4's binary size for "
+"exported projects is larger. While this can be mitigated by :ref:`optimizing "
+"a build for size <doc_optimizing_for_size>`, a 4.0 build with a given set of "
+"enabled modules will remain larger compared to a 3.x build with the same "
+"modules. This can be an issue for :ref:`exporting to the Web "
+"<doc_exporting_for_web>`, as binary size directly influences how fast the "
+"engine can initialize (regardless of download speed)."
+msgstr ""
+"Poiché Godot 4 include più funzionalità di Godot 3, le dimensioni dei file "
+"binari di Godot 4 per i progetti esportati sono maggiori. Sebbene questo "
+"problema possa essere mitigato :ref:`ottimizzando una build per le "
+"dimensioni <doc_optimizing_for_size>`, una build 4.0 con un dato insieme di "
+"moduli abilitati rimarrà più grande rispetto a una build 3.x con gli stessi "
+"moduli. Questo può essere un problema per :ref:`esportare sul Web "
+"<doc_exporting_for_web>`, poiché le dimensioni dei file binari influenzano "
+"direttamente la velocità di inizializzazione del motore (indipendentemente "
+"dalla velocità di download)."
+
+msgid ""
+"Godot 4 does not and will not have support for GLES2 rendering. (There is "
+"still support for GLES3 rendering using the new Compatibility renderer, "
+"which means that devices without Vulkan support can still run Godot 4.)"
+msgstr ""
+"Godot 4 non supporta e non supporterà il rendering GLES2. (Il supporto per "
+"il rendering GLES3 è ancora disponibile utilizzando il nuovo renderer "
+"Compatibilità, il che significa che i dispositivi senza supporto per Vulkan "
+"possono comunque eseguire Godot 4.)"
+
+msgid ""
+"If you are targeting **very** old hardware such as Intel Sandy Bridge (2nd "
+"generation) integrated graphics, this will prevent the project from running "
+"on such hardware after upgrading. `Software OpenGL implementations <https://"
+"github.com/pal1000/mesa-dist-win>`__ can be used to bypass this limitation, "
+"but they're too slow for gaming."
+msgstr ""
+"Se si punta verso hardware **molto** vecchio, come una scheda grafica "
+"integrata Intel Sandy Bridge (2ª generazione), ciò impedirà al progetto di "
+"funzionare su tale hardware dopo l'aggiornamento. `Le implementazioni "
+"software OpenGL <https://github.com/pal1000/mesa-dist-win>`__ si possono "
+"utilizzare per aggirare questa limitazione, ma sono troppo lente per il "
+"gioco."
+
+msgid ""
+"**Since Godot 4 is a complete rewrite in many aspects, some features have "
+"unfortunately been lost in the process.** Some of these features may be "
+"restored in future Godot releases:"
+msgstr ""
+"**Dato che Godot 4 è una riscrittura completa sotto molti aspetti, alcune "
+"funzionalità sono purtroppo andate perse nel processo.** Alcune di queste "
+"funzionalità potrebbero essere ripristinate nelle versioni future di Godot:"
+
+msgid ""
+"Bullet physics was removed in favor of GodotPhysics. This only affects 3D "
+"projects that used the default physics engine (which was Bullet) and didn't "
+"manually change it to GodotPhysics. There are no plans to re-add Bullet "
+"physics in core, but a third-party add-on could be created for it thanks to "
+"GDExtension."
+msgstr ""
+"Bullet physics è stato rimosso a favore di GodotPhysics. Questo riguarda "
+"solo i progetti 3D che utilizzavano il motore fisico predefinito (Bullet) e "
+"non lo modificavano manualmente in GodotPhysics. Non ci sono piani per "
+"aggiungere nuovamente Bullet Physics nel core, ma è possibile creare per "
+"esso un componente aggiuntivo di terze parti grazie a GDExtension."
+
+msgid ""
+"By default, rendering in 2D is no longer performed in HDR, which means "
+"\"overbright\" modulate values have no visible effect. Since Godot 4.2, you "
+"can enable the project setting :ref:`HDR "
+"2D<class_ProjectSettings_property_rendering/viewport/hdr_2d>` to perform 2D "
+"rendering in HDR. See "
+"also :ref:`doc_environment_and_post_processing_using_glow_in_2d`."
+msgstr ""
+"Per impostazione predefinita, il rendering in 2D non viene più eseguito in "
+"HDR, il che significa che i valori di modulazione \"sovra-luminosi\" non "
+"hanno alcun effetto visibile. A partire da Godot 4.2, è possibile abilitare "
+"l'impostazione del progetto :ref:`HDR "
+"2D<class_ProjectSettings_property_rendering/viewport/hdr_2d>` per eseguire "
+"il rendering 2D in HDR. Consultare "
+"anche :ref:`doc_environment_and_post_processing_using_glow_in_2d`."
+
+msgid ""
+"While rendering still happens in HDR in 3D when using the Forward+ or Mobile "
+"renderers, Viewports cannot return HDR data anymore. This is planned to be "
+"restored at some point in the future."
+msgstr ""
+"Sebbene il rendering avvenga ancora in HDR in 3D quando si utilizzano i "
+"renderer Forward+ o Mobile, i Viewport non possono più restituire dati in "
+"HDR. Si prevede che ciò verrà ripristinato in futuro."
+
+msgid ""
+"Mono was replaced by .NET 6. This means exporting C# projects to Android, "
+"iOS and HTML5 is no longer supported for now. Exporting C# projects to "
+"desktop platforms is still supported, and as of 4.2 there's experimental "
+"support for exporting to mobile platforms. Support for exporting C# projects "
+"to more platforms will be restored in future 4.x releases as upstream "
+"support improves."
+msgstr ""
+"Mono è stato sostituito da .NET 6. Ciò significa che l'esportazione di "
+"progetti C# su Android, iOS e HTML5 non è più supportata al momento. "
+"L'esportazione di progetti C# su piattaforme desktop è ancora supportata e, "
+"a partire dalla versione 4.2, è disponibile un supporto sperimentale per "
+"l'esportazione su piattaforme mobili. Il supporto per l'esportazione di "
+"progetti C# su altre piattaforme verrà ripristinato nelle future versioni "
+"4.x man mano che il supporto upstream migliorerà."
+
+msgid ""
+"You can find a more complete list of functional regressions by searching for "
+"`issues labeled \"regression\" but not \"bug\" on GitHub <https://github.com/"
+"godotengine/godot/issues?q=is%3Aissue+is%3Aopen+label%3Aregression+-"
+"label%3Abug>`__."
+msgstr ""
+"È possibile trovare un elenco più completo delle regressioni funzionali "
+"cercando `problemi etichettati come \"regression\" ma non come \"bug\" su "
+"GitHub <https://github.com/godotengine/godot/issues?"
+"q=is%3Aissue+is%3Aopen+label%3Aregression+-label%3Abug>`__."
+
+msgid "Preparing before the upgrade (optional)"
+msgstr "Preparazione prima dell'aggiornamento (facoltativo)"
+
+msgid ""
+"If you want to be ready to upgrade to Godot 4 in the future, consider "
+"using :ref:`class_Tweener` and the :ref:`class_Time` singleton in your "
+"project. These classes are both available in Godot 3.5 and later."
+msgstr ""
+"Per prepararsi ad aggiornare a Godot 4 in futuro, si consiglia l'uso "
+"di :ref:`class_Tweener` e del singleton :ref:`class_Time` nel proprio "
+"progetto. Queste classi sono entrambe disponibili in Godot 3.5 e versioni "
+"successive."
+
+msgid ""
+"This way, you won't be relying on the deprecated Tween node and OS time "
+"functions, both of which are removed in Godot 4.0."
+msgstr ""
+"In questo modo, non sarà più necessario dipendere dalle funzioni obsolete "
+"del nodo Tween e del tempo in OS, rimosse in Godot 4.0."
+
+msgid ""
+"It's also a good idea to rename external shaders so that their extension is "
+"``.gdshader`` instead of ``.shader``. Godot 3.x supports both extensions, "
+"but only ``.gdshader`` is supported in Godot 4.0."
+msgstr ""
+"È anche una buona idea rinominare gli shader esterni in modo che la loro "
+"estensione sia ``.gdshader`` invece di ``.shader``. Godot 3.x supporta "
+"entrambe le estensioni, ma in Godot 4.0 è supportata solo ``.gdshader``."
+
+msgid "Running the project upgrade tool"
+msgstr "Eseguire lo strumento di aggiornamento di progetti"
+
+msgid ""
+"**Make a full backup of your project** before upgrading! The project upgrade "
+"tool will *not* perform any backups of the project that is being upgraded."
+msgstr ""
+"**Eseguire un backup completo del proprio progetto** prima di aggiornare! Lo "
+"strumento di aggiornamento di progetto *non* eseguirà alcun backup del "
+"progetto durante l'aggiornamento."
+
+msgid ""
+"You can backup a project by using version control, or by copying the project "
+"folder to another location."
+msgstr ""
+"È possibile eseguire il backup di un progetto attraverso il controllo "
+"versioni oppure copiando la cartella del progetto da un'altra parte."
+
+msgid "Using the Project Manager"
+msgstr "Utilizzare il Gestore dei progetti"
+
+msgid "To use the project upgrade tool:"
+msgstr "Per utilizzare lo strumento di aggiornamento di progetti:"
+
+msgid "Open the Godot 4 Project Manager."
+msgstr "Apri il Gestore dei progetti di Godot 4."
+
+msgid ""
+"Import the Godot 3.x project using the **Import** button, or use the "
+"**Scan** button to find the project within a folder."
+msgstr ""
+"Importare il progetto Godot 3.x utilizzando il pulsante **Importa** oppure "
+"utilizzare il pulsante **Scansiona** per trovare il progetto all'interno di "
+"una cartella."
+
+msgid ""
+"Double-click the imported project (or select the project then choose "
+"**Edit**)."
+msgstr ""
+"Fare doppio clic sul progetto importato (oppure selezionare il progetto e "
+"scegliere **Modifica**)."
+
+msgid ""
+"You will see a dialog appearing with two options: **Convert project.godot "
+"Only** and **Convert Full Project**. After ensuring your project is backed "
+"up (see the above warning), choose **Convert Full Project**. **Convert "
+"project.godot Only** is intended to be used for advanced use cases *only*, "
+"in case the conversion tool fails."
+msgstr ""
+"Apparirà una finestra di dialogo con due opzioni: **Converti solo "
+"project.godot** e **Converti progetto completo**. Dopo essersi assicurati "
+"che il progetto abbia un backup (vedere l'avviso sopra), scegliere "
+"**Converti progetto completo**. **Converti solo project.godot** è pensato "
+"per essere utilizzato *solo* in casi di uso avanzato, nel caso in cui lo "
+"strumento di conversione non funzioni."
+
+msgid ""
+"Wait until the project conversion process finishes. This can take up to a "
+"few minutes for large projects with lots of scenes."
+msgstr ""
+"Attendere il completamento del processo di conversione del progetto. Questo "
+"può richiedere fino a qualche minuto per progetti grandi con molte scene."
+
+msgid ""
+"When the Project Manager interface becomes available again, double-click the "
+"project (or select the project then choose **Edit**) to open it in the "
+"editor."
+msgstr ""
+"Quando l'interfaccia del Gestore di progetti torna disponibile, fare doppio "
+"clic sul progetto (oppure selezionare il progetto e poi scegliere "
+"**Modifica**) per aprirlo nell'editor."
+
+msgid ""
+"If you hit conversion issues due to some project files being too large or "
+"long, you can use the command line to upgrade the project (see below). This "
+"will allow you to override the converter's size limits."
+msgstr ""
+"Se si riscontrano problemi di conversione a causa di file di progetto troppo "
+"grandi o lunghi, è possibile utilizzare la riga di comando per aggiornare il "
+"progetto (vedere sotto). Ciò permetterà di ignorare i limiti di dimensione "
+"del convertitore."
+
+msgid "Using the command line"
+msgstr "Utilizzo della linea di comando"
+
+msgid ""
+"To use the project upgrade tool from the :ref:`command line "
+"<doc_command_line_tutorial>`, it's recommended to validate the project "
+"conversion by running the Godot editor binary with the following arguments:"
+msgstr ""
+"Per utilizzare lo strumento di aggiornamento di progetti dalla :ref:`riga di "
+"comando <doc_command_line_tutorial>`, si consiglia di convalidare la "
+"conversione del progetto avviando l'eseguibile dell'editor Godot con i "
+"seguenti argomenti:"
+
+msgid ""
+"If the list of planned upgrades looks good to you, run the following command "
+"on the Godot editor binary to upgrade project files:"
+msgstr ""
+"Se l'elenco degli aggiornamenti pianificati semba soddisfacente, eseguire il "
+"seguente comando sull'eseguibile dell'editor Godot per aggiornare i file del "
+"progetto:"
+
+msgid ""
+"``[<max_file_kb>]`` and ``[<max_line_size>]`` are *optional* arguments to "
+"specify the maximum size of files to be converted (in kilobytes and lines). "
+"The default limits are 4 MB and 100,000 lines respectively. If a file hits "
+"either of those limits, it will not be upgraded by the project converter. "
+"This is useful to prevent large resources from slowing down the upgrade to a "
+"crawl."
+msgstr ""
+"``[<max_file_kb>]`` e ``[<max_line_size>]`` sono argomenti *facoltativi* per "
+"specificare la dimensione massima dei file da convertire (in kilobyte e "
+"righe). I limiti predefiniti sono rispettivamente 4 MB e 100.000 righe. Se "
+"un file raggiunge uno di questi limiti, non verrà aggiornato dal "
+"convertitore di progetto. Questo è utile per evitare che risorse di grandi "
+"dimensioni rallentino l'aggiornamento a una scansione."
+
+msgid ""
+"If you still want large files to be converted by the project upgrade tool, "
+"increase the size limits when running the project upgrade tool. For example, "
+"running the Godot editor binary with those arguments increases both limits "
+"by a 10× factor:"
+msgstr ""
+"Se si desidera comunque che i grandi file vengano convertiti dallo strumento "
+"di aggiornamento di progetti, è possibile aumentare i limiti di dimensione "
+"durante l'esecuzione dello strumento. Ad esempio, avviando l'eseguibile "
+"dell'editor Godot con questi argomenti aumenta entrambi i limiti di un "
+"fattore 10x:"
+
+msgid ""
+"Only Godot 3.0 and later projects can be upgraded using the project "
+"conversion tool found in the Godot 4 editor."
+msgstr ""
+"Solo i progetti Godot 3.0 e successivi si possono aggiornare attraverso lo "
+"strumento di conversione dei progetti presente nell'editor Godot 4."
+
+msgid ""
+"It's recommended to ensure that your project is up-to-date with the latest "
+"3.x stable release before running the project upgrade tool."
+msgstr ""
+"Si consiglia di verificare che il progetto sia aggiornato con l'ultima "
+"versione stabile 3.x prima di eseguire lo strumento di aggiornamento dei "
+"progetti."
+
+msgid "Fixing the project after running the project upgrade tool"
+msgstr ""
+"Correggere il progetto dopo l'esecuzione dello strumento di aggiornamento "
+"dei progetti"
+
+msgid ""
+"After upgrading the project, you may notice that certain things don't look "
+"as they should. Scripts will likely contain various errors as well (possibly "
+"hundreds in large projects). This is because the project upgrade tool cannot "
+"cater to all situations. Therefore, a large part of the upgrade process "
+"remains manual."
+msgstr ""
+"Dopo aver aggiornato il progetto, si potrebbe notare che alcuni elementi non "
+"appaiono come dovrebbero. È probabile che anche gli script contengano "
+"diversi errori (anche centinaia nei progetti molto grandi). Questo perché lo "
+"strumento di aggiornamento dei progetti non è in grado di gestire tutte le "
+"situazioni. Pertanto, gran parte del processo di aggiornamento rimane "
+"manuale."
+
+msgid "Automatically renamed nodes and resources"
+msgstr "Nodi e risorse rinominati automaticamente"
+
+msgid ""
+"The list below refers to nodes which were simply renamed for consistency or "
+"clarity in Godot 4.0. The project upgrade tool renames them automatically in "
+"your scripts."
+msgstr ""
+"L'elenco seguente si riferisce ai nodi che sono stati semplicemente "
+"rinominati per coerenza o chiarezza in Godot 4.0. Lo strumento di "
+"aggiornamento di progetto li rinomina automaticamente negli script."
+
+msgid ""
+"One noteworthy set of renames is 3D nodes, which all got a ``3D`` suffix "
+"added for consistency with their 2D counterparts. For example, ``Area`` is "
+"now ``Area3D``."
+msgstr ""
+"Una serie di cambiamenti notevoli riguarda i nodi 3D, a cui è stato aggiunto "
+"il suffisso ``3D`` per coerenza con le controparti 2D. Ad esempio, ``Area`` "
+"ora è ``Area3D``."
+
+msgid ""
+"For ease of searching, this table lists all nodes and resources that were "
+"renamed and are automatically converted, excluding the ones which only "
+"involved adding a ``3D`` suffix to the old name:"
+msgstr ""
+"Per facilitare la ricerca, questa tabella elenca tutti i nodi e le risorse "
+"che sono stati rinominati e convertiti automaticamente, escludendo quelli a "
+"cui è stato solo aggiunto il suffisso ``3D`` al nome vecchio:"
+
+msgid "Old name (Godot 3.x)"
+msgstr "Nome vecchio (Godot 3.x)"
+
+msgid "New name (Godot 4)"
+msgstr "Nome nuovo (Godot 4)"
+
+msgid "AnimatedSprite"
+msgstr "AnimatedSprite"
+
+msgid "AnimatedSprite2D"
+msgstr "AnimatedSprite2D"
+
+msgid "ARVRCamera"
+msgstr "ARVRCamera"
+
+msgid "XRCamera3D"
+msgstr "XRCamera3D"
+
+msgid "ARVRController"
+msgstr "ARVRController"
+
+msgid "XRController3D"
+msgstr "XRController3D"
+
+msgid "ARVRAnchor"
+msgstr "ARVRAnchor"
+
+msgid "XRAnchor3D"
+msgstr "XRAnchor3D"
+
+msgid "ARVRInterface"
+msgstr "ARVRInterface"
+
+msgid "XRInterface"
+msgstr "XRInterface"
+
+msgid "ARVROrigin"
+msgstr "ARVROrigin"
+
+msgid "XROrigin3D"
+msgstr "XROrigin3D"
+
+msgid "ARVRPositionalTracker"
+msgstr "ARVRPositionalTracker"
+
+msgid "XRPositionalTracker"
+msgstr "XRPositionalTracker"
+
+msgid "ARVRServer"
+msgstr "ARVRServer"
+
+msgid "XRServer"
+msgstr "XRServer"
+
+msgid "BoxShape"
+msgstr "BoxShape"
+
+msgid "BoxShape3D"
+msgstr "BoxShape3D"
+
+msgid "CapsuleShape"
+msgstr "CapsuleShape"
+
+msgid "CapsuleShape3D"
+msgstr "CapsuleShape3D"
+
+msgid "CubeMesh"
+msgstr "CubeMesh"
+
+msgid "BoxMesh"
+msgstr "BoxMesh"
+
+msgid "EditorSpatialGizmo"
+msgstr "EditorSpatialGizmo"
+
+msgid "EditorNode3DGizmo"
+msgstr "EditorNode3DGizmo"
+
+msgid "EditorSpatialGizmoPlugin"
+msgstr "EditorSpatialGizmoPlugin"
+
+msgid "EditorNode3DGizmoPlugin"
+msgstr "EditorNode3DGizmoPlugin"
+
+msgid "GIProbe"
+msgstr "GIProbe"
+
+msgid "VoxelGI"
+msgstr "VoxelGI"
+
+msgid "GIProbeData"
+msgstr "GIProbeData"
+
+msgid "VoxelGIData"
+msgstr "VoxelGIData"
+
+msgid "GradientTexture"
+msgstr "GradientTexture"
+
+msgid "GradientTexture1D"
+msgstr "GradientTexture1D"
+
+msgid "KinematicBody"
+msgstr "KinematicBody"
+
+msgid "CharacterBody3D"
+msgstr "CharacterBody3D"
+
 msgid "KinematicBody2D"
 msgstr "KinematicBody2D"
+
+msgid "CharacterBody2D"
+msgstr "CharacterBody2D"
+
+msgid "Light2D"
+msgstr "Light2D"
+
+msgid "PointLight2D"
+msgstr "PointLight2D"
+
+msgid "LineShape2D"
+msgstr "LineShape2D"
+
+msgid "WorldBoundaryShape2D"
+msgstr "WorldBoundaryShape2D"
 
 msgid "Listener"
 msgstr "Ascoltatore"
 
+msgid "AudioListener3D"
+msgstr "AudioListener3D"
+
+msgid "NavigationMeshInstance"
+msgstr "NavigationMeshInstance"
+
+msgid "NavigationRegion3D"
+msgstr "NavigationRegion3D"
+
+msgid "NavigationPolygonInstance"
+msgstr "NavigationPolygonInstance"
+
+msgid "NavigationRegion2D"
+msgstr "NavigationRegion2D"
+
+msgid "Navigation2DServer"
+msgstr "Navigation2DServer"
+
+msgid "NavigationServer2D"
+msgstr "NavigationServer2D"
+
+msgid "PanoramaSky"
+msgstr "PanoramaSky"
+
+msgid "Sky"
+msgstr "Sky"
+
 msgid "Particles"
 msgstr "Particelle"
+
+msgid "GPUParticles3D"
+msgstr "GPUParticles3D"
+
+msgid "Particles2D"
+msgstr "Particles2D"
+
+msgid "GPUParticles2D"
+msgstr "GPUParticles2D"
 
 msgid "ParticlesMaterial"
 msgstr "ParticlesMaterial"
 
+msgid "ParticleProcessMaterial"
+msgstr "ParticleProcessMaterial"
+
+msgid "Physics2DDirectBodyState"
+msgstr "Physics2DDirectBodyState"
+
+msgid "PhysicsDirectBodyState2D"
+msgstr "PhysicsDirectBodyState2D"
+
+msgid "Physics2DDirectSpaceState"
+msgstr "Physics2DDirectSpaceState"
+
+msgid "PhysicsDirectSpaceState2D"
+msgstr "PhysicsDirectSpaceState2D"
+
+msgid "Physics2DServer"
+msgstr "Physics2DServer"
+
+msgid "PhysicsServer2D"
+msgstr "PhysicsServer2D"
+
+msgid "Physics2DShapeQueryParameters"
+msgstr "Physics2DShapeQueryParameters"
+
+msgid "PhysicsShapeQueryParameters2D"
+msgstr "PhysicsShapeQueryParameters2D"
+
+msgid "Physics2DTestMotionResult"
+msgstr "Physics2DTestMotionResult"
+
+msgid "PhysicsTestMotionResult2D"
+msgstr "PhysicsTestMotionResult2D"
+
+msgid "PlaneShape"
+msgstr "PlaneShape"
+
+msgid "WorldBoundaryShape3D"
+msgstr "WorldBoundaryShape3D"
+
+msgid "Position2D"
+msgstr "Position2D"
+
+msgid "Marker2D"
+msgstr "Marker2D"
+
+msgid "Position3D"
+msgstr "Position3D"
+
+msgid "Marker3D"
+msgstr "Marker3D"
+
+msgid "ProceduralSky"
+msgstr "ProceduralSky"
+
+msgid "RayShape"
+msgstr "RayShape"
+
+msgid "SeparationRayShape3D"
+msgstr "SeparationRayShape3D"
+
+msgid "RayShape2D"
+msgstr "RayShape2D"
+
+msgid "SeparationRayShape2D"
+msgstr "SeparationRayShape2D"
+
+msgid "ShortCut"
+msgstr "ShortCut"
+
+msgid "Shortcut"
+msgstr "Shortcut"
+
 msgid "Spatial"
 msgstr "Spatial"
+
+msgid "Node3D"
+msgstr "Node3D"
+
+msgid "SpatialGizmo"
+msgstr "SpatialGizmo"
+
+msgid "Node3DGizmo"
+msgstr "Node3DGizmo"
+
+msgid "SpatialMaterial"
+msgstr "SpatialMaterial"
+
+msgid "StandardMaterial3D"
+msgstr "StandardMaterial3D"
+
+msgid "Sprite"
+msgstr "Sprite"
+
+msgid "Sprite2D"
+msgstr "Sprite2D"
+
+msgid "StreamTexture"
+msgstr "StreamTexture"
+
+msgid "CompressedTexture2D"
+msgstr "CompressedTexture2D"
+
+msgid "TextureProgress"
+msgstr "TextureProgress"
+
+msgid "TextureProgressBar"
+msgstr "TextureProgressBar"
+
+msgid "VideoPlayer"
+msgstr "VideoPlayer"
+
+msgid "VideoStreamPlayer"
+msgstr "VideoStreamPlayer"
 
 msgid "ViewportContainer"
 msgstr "ViewportContainer"
 
+msgid "SubViewportContainer"
+msgstr "SubViewportContainer"
+
+msgid "Viewport"
+msgstr "Viewport"
+
+msgid "SubViewport"
+msgstr "SubViewport"
+
+msgid "VisibilityEnabler"
+msgstr "VisibilityEnabler"
+
+msgid "VisibleOnScreenEnabler3D"
+msgstr "VisibleOnScreenEnabler3D"
+
+msgid "VisibilityNotifier"
+msgstr "VisibilityNotifier"
+
+msgid "VisibleOnScreenNotifier3D"
+msgstr "VisibleOnScreenNotifier3D"
+
+msgid "VisibilityNotifier2D"
+msgstr "VisibilityNotifier2D"
+
+msgid "VisibleOnScreenNotifier2D"
+msgstr "VisibleOnScreenNotifier2D"
+
+msgid "VisibilityNotifier3D"
+msgstr "VisibilityNotifier3D"
+
+msgid "VisualServer"
+msgstr "VisualServer"
+
+msgid "RenderingServer"
+msgstr "RenderingServer"
+
+msgid "VisualShaderNodeScalarConstant"
+msgstr "VisualShaderNodeScalarConstant"
+
+msgid "VisualShaderNodeFloatConstant"
+msgstr "VisualShaderNodeFloatConstant"
+
+msgid "VisualShaderNodeScalarFunc"
+msgstr "VisualShaderNodeScalarFunc"
+
+msgid "VisualShaderNodeFloatFunc"
+msgstr "VisualShaderNodeFloatFunc"
+
+msgid "VisualShaderNodeScalarOp"
+msgstr "VisualShaderNodeScalarOp"
+
+msgid "VisualShaderNodeFloatOp"
+msgstr "VisualShaderNodeFloatOp"
+
+msgid "VisualShaderNodeScalarClamp"
+msgstr "VisualShaderNodeScalarClamp"
+
+msgid "VisualShaderNodeClamp"
+msgstr "VisualShaderNodeClamp"
+
+msgid "VisualShaderNodeVectorClamp"
+msgstr "VisualShaderNodeVectorClamp"
+
+msgid "VisualShaderNodeScalarInterp"
+msgstr "VisualShaderNodeScalarInterp"
+
+msgid "VisualShaderNodeMix"
+msgstr "VisualShaderNodeMix"
+
+msgid "VisualShaderNodeVectorInterp"
+msgstr "VisualShaderNodeVectorInterp"
+
+msgid "VisualShaderNodeVectorScalarMix"
+msgstr "VisualShaderNodeVectorScalarMix"
+
+msgid "VisualShaderNodeScalarSmoothStep"
+msgstr "VisualShaderNodeScalarSmoothStep"
+
+msgid "VisualShaderNodeSmoothStep"
+msgstr "VisualShaderNodeSmoothStep"
+
+msgid "VisualShaderNodeVectorSmoothStep"
+msgstr "VisualShaderNodeVectorSmoothStep"
+
+msgid "VisualShaderNodeVectorScalarSmoothStep"
+msgstr "VisualShaderNodeVectorScalarSmoothStep"
+
+msgid "VisualShaderNodeVectorScalarStep"
+msgstr "VisualShaderNodeVectorScalarStep"
+
+msgid "VisualShaderNodeStep"
+msgstr "VisualShaderNodeStep"
+
+msgid "VisualShaderNodeScalarSwitch"
+msgstr "VisualShaderNodeScalarSwitch"
+
+msgid "VisualShaderNodeSwitch"
+msgstr "VisualShaderNodeSwitch"
+
+msgid "VisualShaderNodeScalarTransformMult"
+msgstr "VisualShaderNodeScalarTransformMult"
+
+msgid "VisualShaderNodeTransformOp"
+msgstr "VisualShaderNodeTransformOp"
+
+msgid "VisualShaderNodeScalarDerivativeFunc"
+msgstr "VisualShaderNodeScalarDerivativeFunc"
+
+msgid "VisualShaderNodeDerivativeFunc"
+msgstr "VisualShaderNodeDerivativeFunc"
+
+msgid "VisualShaderNodeVectorDerivativeFunc"
+msgstr "VisualShaderNodeVectorDerivativeFunc"
+
+msgid "VisualShaderNodeBooleanUniform"
+msgstr "VisualShaderNodeBooleanUniform"
+
+msgid "VisualShaderNodeBooleanParameter"
+msgstr "VisualShaderNodeBooleanParameter"
+
+msgid "VisualShaderNodeColorUniform"
+msgstr "VisualShaderNodeColorUniform"
+
+msgid "VisualShaderNodeColorParameter"
+msgstr "VisualShaderNodeColorParameter"
+
+msgid "VisualShaderNodeScalarUniform"
+msgstr "VisualShaderNodeScalarUniform"
+
+msgid "VisualShaderNodeFloatParameter"
+msgstr "VisualShaderNodeFloatParameter"
+
+msgid "VisualShaderNodeCubeMapUniform"
+msgstr "VisualShaderNodeCubeMapUniform"
+
+msgid "VisualShaderNodeCubeMapParameter"
+msgstr "VisualShaderNodeCubeMapParameter"
+
+msgid "VisualShaderNodeTextureUniform"
+msgstr "VisualShaderNodeTextureUniform"
+
+msgid "VisualShaderNodeTexture2DParameter"
+msgstr "VisualShaderNodeTexture2DParameter"
+
+msgid "VisualShaderNodeTextureUniformTriplanar"
+msgstr "VisualShaderNodeTextureUniformTriplanar"
+
+msgid "VisualShaderNodeTextureParameterTriplanar"
+msgstr "VisualShaderNodeTextureParameterTriplanar"
+
+msgid "VisualShaderNodeTransformUniform"
+msgstr "VisualShaderNodeTransformUniform"
+
+msgid "VisualShaderNodeTransformParameter"
+msgstr "VisualShaderNodeTransformParameter"
+
+msgid "VisualShaderNodeVec3Uniform"
+msgstr "VisualShaderNodeVec3Uniform"
+
+msgid "VisualShaderNodeVec3Parameter"
+msgstr "VisualShaderNodeVec3Parameter"
+
+msgid "VisualShaderNodeUniform"
+msgstr "VisualShaderNodeUniform"
+
+msgid "VisualShaderNodeParameter"
+msgstr "VisualShaderNodeParameter"
+
+msgid "VisualShaderNodeUniformRef"
+msgstr "VisualShaderNodeUniformRef"
+
+msgid "VisualShaderNodeParameterRef"
+msgstr "VisualShaderNodeParameterRef"
+
+msgid "Manually renaming methods, properties, signals and constants"
+msgstr "Rinomina manuale di metodi, proprietà, segnali e costanti"
+
+msgid ""
+"Due to how the project upgrade tool works, not all :abbr:`API (Application "
+"Programming Interface)` renames can be performed automatically. The list "
+"below contains all renames that must be performed manually using the script "
+"editor."
+msgstr ""
+"A causa di come funziona lo strumento di aggiornamento dei progetti, non "
+"tutte i cambi di nome delle :abbr:`API (Application Programming Interface)` "
+"si possono effettuare automaticamente. L'elenco seguente contiene tutti i "
+"nomi che bisogna cambiare manualmente attraverso l'editor di script."
+
+msgid ""
+"If you cannot find a node or resource in the list below, refer to the above "
+"table to find its new name."
+msgstr ""
+"Se non si riesce a trovare un nodo o una risorsa nell'elenco sottostante, "
+"fare riferimento alla tabella sopra per trovarne il nuovo nome."
+
+msgid ""
+"You can use the **Replace in Files** dialog to speed up replacement by "
+"pressing :kbd:`Ctrl + Shift + R` while the script editor is open. However, "
+"be careful as the Replace in Files dialog doesn't offer any way to undo a "
+"replacement. Use version control to commit your upgrade work regularly. "
+"Command line tools such as `sd <https://github.com/chmln/sd>`__ can also be "
+"used if you need something more flexible than the editor's Replace in Files "
+"dialog."
+msgstr ""
+"Si può usare la finestra di dialogo **Sostituisci nei file** per velocizzare "
+"la sostituzione premendo :kbd:`Ctrl + Shift + R` mentre l'editor di script è "
+"aperto. Tuttavia, attenzione perché la finestra di dialogo \"Sostituisci nei "
+"file\" non offre alcun modo per annullare una sostituzione. Usa il controllo "
+"versioni per effettuare regolarmente un commit del proprio lavoro di "
+"aggiornamento. Si possono anche usare strumenti da riga di comando come `sd "
+"<https://github.com/chmln/sd>`__ se è necessario qualcosa di più flessibile "
+"della finestra di dialogo \"Sostituisci nei file\" nell'editor."
+
+msgid ""
+"If using C#, remember to search for outdated API usage with PascalCase "
+"notation in the project (and perform the replacement with PascalCase "
+"notation)."
+msgstr ""
+"Se si utilizza C#, ricordarsi di cercare l'utilizzo obsoleto dell'API con la "
+"notazione PascalCase nel progetto (ed eseguire la sostituzione con la "
+"notazione PascalCase)."
+
+msgid "**Methods**"
+msgstr "**Metodi**"
+
+msgid ""
+"File and Directory classes were replaced by :ref:`class_FileAccess` "
+"and :ref:`class_DirAccess`, which have an entirely different API. Several "
+"methods are now static, which means you can call them directly on FileAccess "
+"or DirAccess without having to create an instance of that class."
+msgstr ""
+"Le classi File e Directory sono state sostituite da :ref:`class_FileAccess` "
+"e :ref:`class_DirAccess`, che hanno un'API completamente diversa. Molti "
+"metodi sono ora statici, il che significa che è possibile chiamarli "
+"direttamente su FileAccess o DirAccess senza dover creare un'istanza di "
+"quella classe."
+
+msgid ""
+"Screen and window-related methods from the :ref:`class_OS` singleton (such "
+"as ``OS.get_screen_size()``) were moved to the :ref:`class_DisplayServer` "
+"singleton. Method naming was also changed to use the ``DisplayServer."
+"<object>_<get/set>_property()`` form instead. For example, "
+"``OS.get_screen_size()`` becomes ``DisplayServer.screen_get_size()``."
+msgstr ""
+"I metodi relativi a schermi e finestre del singleton :ref:`class_OS` (come "
+"``OS.get_screen_size()``) sono stati spostati nel "
+"singleton :ref:`class_DisplayServer`. Anche la denominazione dei metodi è "
+"cambiata, utilizzando invece la forma ``DisplayServer.<object>_<get/"
+"set>_property()``. Ad esempio, ``OS.get_screen_size()`` diventa "
+"``DisplayServer.screen_get_size()``."
+
+msgid ""
+"Time and date methods from the :ref:`class_OS` singleton were moved to "
+"the :ref:`class_Time` singleton. (The Time singleton is also available in "
+"Godot 3.5 and later.)"
+msgstr ""
+"I metodi di data e ora del singleton :ref:`class_OS` sono stati spostati nel "
+"singleton :ref:`class_Time`. (Il singleton Time è disponibile anche in Godot "
+"3.5 e versioni successive.)"
+
+msgid ""
+"You may have to replace some ``instance()`` calls with ``instantiate()``. "
+"The converter *should* handle this automatically, but this relies on custom "
+"code that may not work in 100% of situations."
+msgstr ""
+"Potrebbe essere necessario sostituire alcune chiamate di ``instance()`` con "
+"``instantiate()``. Il convertitore *dovrebbe* gestirlo automaticamente, ma "
+"questo si basa su codice personalizzato che potrebbe non funzionare nel 100% "
+"delle situazioni."
+
+msgid "AcceptDialog's ``set_autowrap()`` is now ``set_autowrap_mode()``."
+msgstr "AcceptDialog ``set_autowrap()`` è ora ``set_autowrap_mode()``."
+
+msgid ""
+"AnimationNode's ``process()`` is now ``_process()`` (note the leading "
+"underscore, which denotes a virtual method)."
+msgstr ""
+"AnimationNode ``process()`` è ora ``_process()`` (notare il trattino basso "
+"iniziale, che indica un metodo virtuale)."
+
+msgid ""
+"AnimationPlayer's ``add_animation()`` is now ``add_animation_library()`` and "
+"now uses an :ref:`class_AnimationLibrary`."
+msgstr ""
+"AnimationPlayer ``add_animation()`` è ora ``add_animation_library()`` e "
+"utilizza un':ref:`class_AnimationLibrary`."
+
+msgid ""
+"AnimationTree's ``set_process_mode()`` is now ``set_process_callback()``."
+msgstr "AnimationTree ``set_process_mode()`` è ora ``set_process_callback()``."
+
+msgid "Array's ``empty()`` is now ``is_empty()``."
+msgstr "Array ``empty()`` è ora ``is_empty()``."
+
+msgid "Array's ``invert()`` is now ``reverse()``."
+msgstr "Array ``invert()`` è ora ``reverse()``."
+
+msgid "Array's ``remove()`` is now ``remove_at()``."
+msgstr "Array ``remove()`` è ora ``remove_at()``."
+
+msgid "AStar2D and AStar3D's ``get_points()`` is now ``get_points_id()``."
+msgstr "AStar2D e AStar3D ``get_points()`` è ora ``get_points_id()``."
+
+msgid "BaseButton's ``set_event()`` is now ``set_shortcut()``."
+msgstr "BaseButton ``set_event()`` è ora ``set_shortcut()``."
+
+msgid "Camera2D's ``get_h_offset()`` is now ``get_drag_horizontal_offset()``."
+msgstr "Camera2D ``get_h_offset()`` è ora ``get_drag_horizontal_offset()``."
+
+msgid "Camera2D's ``get_v_offset()`` is now ``get_drag_vertical_offset()``."
+msgstr "Camera2D ``get_v_offset()`` è ora ``get_drag_vertical_offset()``."
+
+msgid "Camera2D's ``set_h_offset()`` is now ``set_drag_horizontal_offset()``."
+msgstr "Camera2D ``set_h_offset()`` è ora ``set_drag_horizontal_offset()``."
+
+msgid "Camera2D's ``set_v_offset()`` is now ``set_drag_vertical_offset()``."
+msgstr "Camera2D ``set_v_offset()`` è ora ``set_drag_vertical_offset()``."
+
+msgid "CanvasItem's ``raise()`` is now ``move_to_front()``."
+msgstr "CanvasItem ``raise()`` è ora ``move_to_front()``."
+
+msgid "CanvasItem's ``update()`` is now ``queue_redraw()``."
+msgstr "CanvasItem ``update()`` è ora ``queue_redraw()``."
+
+msgid "Control's ``get_stylebox()`` is now ``get_theme_stylebox()``."
+msgstr "Control ``get_stylebox()`` è ora ``get_theme_stylebox()``."
+
+msgid "Control's ``set_tooltip()`` is now ``set_tooltip_text()``."
+msgstr "Control ``set_tooltip()`` è ora ``set_tooltip_text()``."
+
+msgid ""
+"EditorNode3DGizmoPlugin's ``create_gizmo()`` is now ``_create_gizmo()`` "
+"(note the leading underscore, which denotes a virtual method)."
+msgstr ""
+"EditorNode3DGizmoPlugin ``create_gizmo()`` è ora ``_create_gizmo()`` (notare "
+"il trattino basso iniziale, che indica un metodo virtuale)."
+
+msgid "ENetMultiplayerPeer's ``get_peer_port()`` is now ``get_peer()``."
+msgstr "ENetMultiplayerPeer ``get_peer_port()`` è ora ``get_peer()``."
+
+msgid "FileDialog's ``get_mode()`` is now ``get_file_mode()``."
+msgstr "FileDialog ``get_mode()`` è ora ``get_file_mode()``."
+
+msgid "FileDialog's ``set_mode()`` is now ``set_file_mode()``."
+msgstr "FileDialog ``set_mode()`` è ora ``set_file_mode()``."
+
+msgid "GraphNode's ``get_offset()`` is now ``get_position_offset()``."
+msgstr "GraphNode ``get_offset()`` è ora ``get_position_offset()``."
+
+msgid "GridMap's ``map_to_world()`` is now ``map_to_local()``."
+msgstr "GridMap ``map_to_world()`` è ora ``map_to_local()``."
+
+msgid "GridMap's ``world_to_map()`` is now ``local_to_map()``."
+msgstr "GridMap ``world_to_map()`` è ora ``local_to_map()``."
+
+msgid "Image's ``get_rect()`` is now ``get_region()``."
+msgstr "Image ``get_rect()`` è ora ``get_region()``."
+
+msgid "ImmediateGeometry's ``set_normal()`` is now ``surface_set_normal()``."
+msgstr "ImmediateGeometry ``set_normal()`` è ora ``surface_set_normal()``."
+
+msgid "ImmediateMesh's ``set_color()`` is now ``surface_set_color()``."
+msgstr "ImmediateMesh ``set_color()`` è ora ``surface_set_color()``."
+
+msgid "ImmediateMesh's ``set_uv()`` is now ``surface_set_uv()``."
+msgstr "ImmediateMesh ``set_uv()`` è ora ``surface_set_uv()``."
+
+msgid "ItemList's ``get_v_scroll()`` is now ``get_v_scroll_bar()``."
+msgstr "ItemList ``get_v_scroll()`` è ora ``get_v_scroll_bar()``."
+
+msgid ""
+"MultiPlayerAPI's ``get_network_connected_peers()`` is now ``get_peers()``."
+msgstr ""
+"MultiPlayerAPI ``get_network_connected_peers()`` è ora ``get_peers()``."
+
+msgid "MultiPlayerAPI's ``get_network_peer()`` is now ``get_peer()``."
+msgstr "MultiPlayerAPI ``get_network_peer()`` è ora ``get_peer()``."
+
+msgid ""
+"MultiPlayerAPI's ``get_network_unique_id()`` is now ``get_unique_id()``."
+msgstr "MultiPlayerAPI ``get_network_unique_id()`` è ora ``get_unique_id()``."
+
+msgid ""
+"MultiPlayerAPI's ``has_network_peer()`` is now ``has_multiplayer_peer()``."
+msgstr ""
+"MultiPlayerAPI ``has_network_peer()`` è ora ``has_multiplayer_peer()``."
+
+msgid ""
+"MultiplayerAPI's ``is_refusing_new_network_connections()`` is now "
+"``is_refusing_new_connections()``."
+msgstr ""
+"MultiplayerAPI ``is_refusing_new_network_connections()`` è ora "
+"``is_refusing_new_connections()``."
+
+msgid "PacketPeerUDP's ``is_listening()`` is now ``is_bound()``."
+msgstr "PacketPeerUDP ``is_listening()`` è ora ``is_bound()``."
+
+msgid "PacketPeerUDP's ``listen()`` is now ``bind()``."
+msgstr "PacketPeerUDP ``listen()`` è ora ``bind()``."
+
+msgid ""
+"ParticleProcessMaterial's ``set_flag()`` is now ``set_particle_flag()``."
+msgstr "ParticleProcessMaterial ``set_flag()`` è ora ``set_particle_flag()``."
+
+msgid "PhysicsTestMotionResult2D's ``get_motion()`` is now ``get_travel()``."
+msgstr "PhysicsTestMotionResult2D ``get_motion()`` è ora ``get_travel()``."
+
+msgid ""
+"RenderingServer's ``get_render_info()`` is now ``get_rendering_info()``."
+msgstr "RenderingServer ``get_render_info()`` è ora ``get_rendering_info()``."
+
+msgid ""
+"ResourceFormatLoader's ``get_dependencies()`` is now ``_get_dependencies()`` "
+"(note the leading underscore, which denotes a virtual method)."
+msgstr ""
+"ResourceFormatLoader ``get_dependencies()`` è ora ``_get_dependencies()`` "
+"(notare il trattino basso iniziale, che indica un metodo virtuale)."
+
+msgid "ResourceFormatLoader's ``load()`` is now ``_load()``."
+msgstr "ResourceFormatLoader ``load()`` è ora ``_load()``."
+
+msgid "SceneTree's ``change_scene()`` is now ``change_scene_to_file()``."
+msgstr "SceneTree ``change_scene()`` è ora ``change_scene_to_file()``."
+
+msgid "Shortcut's ``is_valid()`` is now ``has_valid_event()``."
+msgstr "Shortcut ``is_valid()`` è ora ``has_valid_event()``."
+
+msgid "TileMap's ``map_to_world()`` is now ``map_to_local()``."
+msgstr "TileMap ``map_to_world()`` è ora ``map_to_local()``."
+
+msgid "TileMap's ``world_to_map()`` is now ``local_to_map()``."
+msgstr "TileMap ``world_to_map()`` è ora ``local_to_map()``."
+
+msgid ""
+"Transform2D's ``xform()`` is ``mat * vec`` and ``xform_inv()`` is ``vec * "
+"mat``."
+msgstr ""
+"``xform()`` di Transform2D è ``mat * vec`` e ``xform_inv()`` è ``vec * mat``."
+
+msgid "XRPositionalTracker's ``get_name()`` is now ``get_tracker_name()``."
+msgstr "XRPositionalTracker ``get_name()`` è ora ``get_tracker_name()``."
+
+msgid "XRPositionalTracker's ``get_type()`` is now ``get_tracker_type()``."
+msgstr "XRPositionalTracker ``get_type()`` è ora ``get_tracker_type()``."
+
+msgid "XRPositionalTracker's ``_set_name()`` is now ``get_tracker_name()``."
+msgstr "XRPositionalTracker ``_set_name()`` è ora ``get_tracker_name()``."
+
+msgid "**Properties**"
+msgstr "**Proprietà**"
+
+msgid ""
+"If a property is listed here, its associated getter and setter methods must "
+"also be renamed manually if used in the project. For example, PathFollow2D "
+"and PathFollow3D's ``set_offset()`` and ``get_offset()`` must be renamed to "
+"``set_progress()`` and ``get_progress()`` respectively."
+msgstr ""
+"Se una proprietà è elencata qui, anche i metodi getter e setter associati "
+"devono essere rinominati manualmente se utilizzati nel progetto. Ad esempio, "
+"``set_offset()`` e ``get_offset()`` di PathFollow2D e PathFollow3D devono "
+"essere rinominati rispettivamente in ``set_progress()`` e ``get_progress()``."
+
+msgid "AudioServer's ``device`` is now ``output_device``."
+msgstr "AudioServer ``device`` è ora ``output_device``."
+
+msgid "BaseButton's ``group`` is now ``button_group``."
+msgstr "BaseButton ``group`` è ora ``button_group``."
+
+msgid "Camera3D's ``zfar`` is now ``far``."
+msgstr "Camera3D ``zfar`` è ora ``far``."
+
+msgid "Camera3D's ``znear`` is now ``near``"
+msgstr "Camera3D ``znear`` è ora ``near``"
+
+msgid "Control's ``margin`` is now ``offset``."
+msgstr "Control ``margin`` è ora ``offset``."
+
+msgid "InputEventMouseButton's ``doubleclick`` is now ``double_click``."
+msgstr "InputEventMouseButton ``doubleclick`` è ora ``double_click``."
+
+msgid "InputEventWithModifiers's ``alt`` is now ``alt_pressed``."
+msgstr "InputEventWithModifiers ``alt`` è ora ``alt_pressed``."
+
+msgid "InputEventWithModifiers's ``command`` is now ``command_pressed``."
+msgstr "InputEventWithModifiers ``command`` è ora ``command_pressed``."
+
+msgid "InputEventWithModifiers's ``control`` is now ``ctrl_pressed``."
+msgstr "InputEventWithModifiers ``control`` è ora ``ctrl_pressed``."
+
+msgid "InputEventWithModifiers's ``meta`` is now ``meta_pressed``."
+msgstr "InputEventWithModifiers ``meta`` è ora ``meta_pressed``."
+
+msgid "InputEventWithModifiers's ``shift`` is now ``shift_pressed``."
+msgstr "InputEventWithModifiers ``shift`` è ora ``shift_pressed``."
+
+msgid "Label's ``percent_visible`` is now ``visible_ratio``."
+msgstr "Label ``percent_visible`` è ora ``visible_ratio``."
+
+msgid ""
+"MultiPlayerAPI's ``refuse_new_network_connections`` is now "
+"``refuse_new_connections``."
+msgstr ""
+"MultiPlayerAPI ``refuse_new_network_connections`` è ora "
+"``refuse_new_connections``."
+
+msgid "Node's ``filename`` is now ``scene_file_path``."
+msgstr "Node ``filename`` è ora ``scene_file_path``."
+
+msgid "PathFollow2D's ``rotate`` is now ``rotates``."
+msgstr "PathFollow2D ``rotate`` è ora ``rotates``."
+
+msgid "PathFollow2D and PathFollow3D's ``offset`` is now ``progress``."
+msgstr "PathFollow2D e PathFollow3D ``offset`` è ora ``progress``."
+
+msgid "RectangleShape2D's ``extents`` is now ``size``"
+msgstr "RectangleShape2D ``extents`` è ora ``size``"
+
+msgid "TextureProgressBar's ``percent_visible`` is now ``show_percentage``."
+msgstr "TextureProgressBar ``percent_visible`` è ora ``show_percentage``."
+
+msgid "Theme's ``off`` is now ``unchecked``."
+msgstr "Theme ``off`` è ora ``unchecked``."
+
+msgid "Theme's ``ofs`` is now ``offset``."
+msgstr "Theme ``ofs`` è ora ``offset``."
+
+msgid "Theme's ``on`` is now ``checked``."
+msgstr "Theme ``on`` è ora ``checked``."
+
+msgid "Window's ``window_title`` is now ``title``."
+msgstr "Window ``window_title`` è ora ``title``."
+
+msgid "WorldMarginShape2D's ``d`` is now ``distance``."
+msgstr "WorldMarginShape2D ``d`` è ora ``distance``."
+
+msgid ""
+"The ``extents`` property on CSG nodes and VoxelGI will have to be replaced "
+"with ``size``, with the set value halved (as they're no longer half-"
+"extents). This also affects its setter/getter methods ``set_extents()`` and "
+"``get_extents()``."
+msgstr ""
+"La proprietà ``extents`` sui nodi CSG e VoxelGI dovrà essere sostituita con "
+"``size``, con il valore impostato dimezzato (poiché non sono più mezze-"
+"estensioni). Ciò influisce anche sui metodi setter/getter ``set_extents()`` "
+"e ``get_extents()``."
+
+msgid ""
+"The ``Engine.editor_hint`` property was removed in favor of the "
+"``Engine.is_editor_hint()`` *method*. This is because it's read-only, and "
+"properties in Godot are not used for read-only values."
+msgstr ""
+"La proprietà ``Engine.editor_hint`` è stata rimossa a favore del *metodo* "
+"``Engine.is_editor_hint()``. Questo perché è di sola lettura e le proprietà "
+"in Godot non si utilizzano per valori di sola lettura."
+
+msgid "**Enums**"
+msgstr "**Enumerazioni**"
+
+msgid "CPUParticles2D's ``FLAG_MAX`` is now ``PARTICLE_FLAG_MAX``."
+msgstr "CPUParticles2D ``FLAG_MAX`` è ora ``PARTICLE_FLAG_MAX``."
+
+msgid "**Signals**"
+msgstr "**Segnali**"
+
+msgid "FileSystemDock's ``instantiate`` is now ``instance``."
+msgstr "FileSystemDock ``instantiate`` è ora ``instance``."
+
+msgid ""
+"CanvasItem's ``hide`` is now ``hidden``. This rename does **not** apply to "
+"the ``hide()`` method, only the signal."
+msgstr ""
+"CanvasItem ``hide`` è ora ``hidden``. Questo cambio del nome **non** si "
+"applica al metodo ``hide()``, ma solo al segnale."
+
+msgid "Tween's ``tween_all_completed`` is now ``loop_finished``."
+msgstr "Tween ``tween_all_completed`` è ora ``loop_finished``."
+
+msgid "EditorSettings' ``changed`` is now ``settings_changed``."
+msgstr "EditorSettings ``changed`` è ora ``settings_changed``."
+
+msgid "**Constants**"
+msgstr "**Costanti**"
+
+msgid ""
+"Color names are now uppercase and use underscores between words. For "
+"example, ``Color.palegreen`` is now ``Color.PALE_GREEN``."
+msgstr ""
+"I nomi dei colori ora sono in maiuscolo e utilizzano il trattino basso tra "
+"le parole. Ad esempio, ``Color.pallidoverde`` ora diventa "
+"``Color.PALE_GREEN``."
+
+msgid ""
+"MainLoop's ``NOTIFICATION_`` constants were duplicated to ``Node`` which "
+"means you can remove the ``MainLoop.`` prefix when referencing them."
+msgstr ""
+"Le costanti ``NOTIFICATION_`` di MainLoop sono state duplicate in ``Node``, "
+"il che significa che è possibile rimuovere il prefisso ``MainLoop.`` quando "
+"si fa riferimento a esse."
+
+msgid ""
+"MainLoop's ``NOTIFICATION_WM_QUIT_REQUEST`` is now "
+"``NOTIFICATION_WM_CLOSE_REQUEST``."
+msgstr ""
+"MainLoop ``NOTIFICATION_WM_QUIT_REQUEST`` è ora "
+"``NOTIFICATION_WM_CLOSE_REQUEST``."
+
+msgid "Checking project settings"
+msgstr "Verificare le impostazioni del progetto"
+
+msgid ""
+"Several project settings were renamed, and some of them had their enums "
+"changed in incompatible ways (such as shadow filter quality). This means you "
+"may need to set some project settings' values again. Make sure the "
+"**Advanced** toggle is enabled in the project settings dialog so you can see "
+"all project settings."
+msgstr ""
+"Diverse impostazioni del progetto sono state rinominate e alcune di esse "
+"hanno subito cambiamenti alle loro enumerazioni in modi incompatibili (ad "
+"esempio, la qualità di filtro delle ombre). Ciò significa che potrebbe "
+"essere necessario reimpostare alcuni valori delle impostazioni del progetto. "
+"Assicurarsi che l'opzione **Avanzate** sia abilitata nella finestra di "
+"dialogo delle impostazioni del progetto, in modo da poter vedere tutte le "
+"impostazioni."
+
+msgid "Checking Environment settings"
+msgstr "Verificare le impostazioni di ambiente"
+
+msgid ""
+"Graphics quality settings were moved from Environment properties to project "
+"settings. This was done to make runtime quality adjustments easier, without "
+"having to access the currently active Environment resource then modify its "
+"properties."
+msgstr ""
+"Le impostazioni relative alla qualità grafica sono state spostate dalle "
+"proprietà di Environment alle impostazioni del progetto. Questo per "
+"facilitare aggiustamenti alla qualità in fase di esecuzione, senza dover "
+"accedere alla risorsa Environment attualmente attiva e modificarne le "
+"proprietà."
+
+msgid ""
+"As a result, you will have to configure Environment quality settings in the "
+"project settings as old Environment quality settings aren't converted "
+"automatically to project settings."
+msgstr ""
+"Di conseguenza, sarà necessario configurare le impostazioni di qualità "
+"dell'ambiente nelle impostazioni del progetto, poiché le vecchie "
+"impostazioni di qualità dell'ambiente non vengono convertite automaticamente "
+"in impostazioni del progetto."
+
+msgid ""
+"If you have a graphics settings menu that changed environment properties in "
+"Godot 3.x, you will have to change its code to "
+"call :ref:`class_RenderingServer` methods that affect environment effects' "
+"quality. Only the \"base\" toggle of each environment effect and its visual "
+"knobs remain within the Environment resource."
+msgstr ""
+"Se si dispone di un menu di impostazioni grafiche che ha cambiato le "
+"proprietà dell'ambiente in Godot 3.x, sarà necessario modificarne il codice "
+"per richiamare i metodi del :ref:`class_RenderingServer` che influenzano la "
+"qualità degli effetti ambientali. Solo l'\"interruttore base\" di ciascun "
+"effetto ambientale e le relative manopole visive rimangono all'interno della "
+"risorsa Environment."
+
+msgid "Updating shaders"
+msgstr "Aggiornare gli shader"
+
+msgid ""
+"There have been some changes to shaders that aren't covered by the upgrade "
+"tool. You will need to make some manual changes, especially if your shader "
+"uses coordinate space transformations or a custom ``light()`` function."
+msgstr ""
+"Sono stati apportati alcuni cambiamenti agli shader che non sono coperte "
+"dallo strumento di aggiornamento. Sarà necessario apportare alcune modifiche "
+"manualmente, soprattutto se lo shader utilizza trasformazioni dello spazio "
+"di coordinate o una funzione ``light()`` personalizzata."
+
+msgid ""
+"The ``.shader`` file extension is no longer supported, which means you must "
+"rename ``.shader`` files to ``.gdshader`` and update references accordingly "
+"in scene/resource files using an external text editor."
+msgstr ""
+"L'estensione di file ``.shader`` non è più supportata, il che significa che "
+"è necessario rinominare i file ``.shader`` in ``.gdshader`` e aggiornare di "
+"conseguenza i riferimenti nei file di scene/risorse, attraverso un editor di "
+"testo esterno."
+
+msgid "Some notable changes you will need to perform in shaders are:"
+msgstr ""
+"Ci sono alcune modifiche importanti che sarà necessario apportare agli "
+"shader:"
+
+msgid ""
+"Texture filter and repeat modes are now set on individual uniforms, rather "
+"than the texture files themselves."
+msgstr ""
+"Le modalità di filtraggio e di ripetizione delle texture sono ora impostati "
+"sulle singole uniformi, anziché sui file di texture stessi."
+
+msgid "``hint_albedo`` is now ``source_color``."
+msgstr "``hint_albedo`` è ora ``source_color``."
+
+msgid "``hint_color`` is now ``source_color``."
+msgstr "``hint_color`` è ora ``source_color``."
+
+msgid ":ref:`Built in matrix variables were renamed. <doc_spatial_shader>`"
+msgstr ""
+":ref:`Le variabili di matrice integrate sono state rinominate. "
+"<doc_spatial_shader>`"
+
+msgid ""
+"Particles shaders no longer use the ``vertex()`` processor function. Instead "
+"they use ``start()`` and ``process()``."
+msgstr ""
+"Gli shader di particelle non utilizzano più la funzione di elaborazione "
+"``vertex()``. Invece, utilizzano ``start()`` e ``process()``."
+
+msgid ""
+"In the Forward+ and Mobile renderers, normalized device coordinates now have "
+"a Z-range of ``[0.0,1.0]`` instead of ``[-1.0,1.0]``. When reconstructing "
+"NDC from ``SCREEN_UV`` and depth, use ``vec3 ndc = vec3(SCREEN_UV * 2.0 - "
+"1.0, depth);`` instead of ``vec3 ndc = vec3(SCREEN_UV, depth) * 2.0 - "
+"1.0;``. The Compatibility renderer is unchanged, using the same NDC Z-range "
+"as 3.x."
+msgstr ""
+"Nei renderer Forward+ e Mobile, le coordinate normalizzate del dispositivo "
+"ora hanno un intervallo Z di ``[0.0,1.0]`` invece di ``[-1.0,1.0]``. Quando "
+"si ricostruisce l'NDC da ``SCREEN_UV`` e profondità, utilizzare ``vec3 ndc = "
+"vec3(SCREEN_UV * 2.0 - 1.0, profondità);`` invece di ``vec3 ndc = "
+"vec3(SCREEN_UV, profondità) * 2.0 - 1.0;``. Il renderer Compatibilità rimane "
+"invariato, utilizzando lo stesso intervallo Z NDC della versione 3.x."
+
+msgid ""
+"The lighting model changed. If your shader has a custom ``light()`` "
+"function, you may need to make changes to get the same visual result."
+msgstr ""
+"Il modello di illuminazione è cambiato. Se uno shader ha una funzione "
+"``light()`` personalizzata, potrebbe essere necessario apportare modifiche "
+"per ottenere lo stesso risultato visivo."
+
+msgid ""
+"In 4.3 and up, the reverse Z depth buffer technique is now implemented, "
+"which may break advanced shaders. See `Introducing Reverse Z (AKA I'm sorry "
+"for breaking your shader) <https://godotengine.org/article/introducing-"
+"reverse-z/>`__."
+msgstr ""
+"Dalla versione 4.3 in poi, è stata implementata la tecnica del buffer di "
+"profondità Z inverso, il che potrebbe danneggiare gli shader avanzati. "
+"Consultare `Introducing Reverse Z (AKA I'm sorry for breaking your shader) "
+"<https://godotengine.org/article/introducing-reverse-z/>`__."
+
+msgid "See :ref:`doc_shading_language` for more information."
+msgstr "Consulta :ref:`doc_shading_language` per ulteriori informazioni."
+
+msgid ""
+"This list is not exhaustive. If you made all the changes mentioned here and "
+"your shader still doesn't work, try asking for help in one of the `community "
+"channels <https://godotengine.org/community/>`__."
+msgstr ""
+"Questo elenco non è esaustivo. Se hai apportato tutte le modifiche "
+"menzionate qui e il tuo shader continua a non funzionare, prova a chiedere "
+"aiuto in uno dei `canali della comunità <https://godotengine.org/community/"
+">`__."
+
+msgid "Updating scripts to take backwards-incompatible changes into account"
+msgstr "Aggiornare gli script per tenere conto dei cambiamenti non compatibili"
+
+msgid ""
+"Some changes performed between Godot 3.x and 4 are not renames, but they "
+"still break backwards compatibility due to different default behavior."
+msgstr ""
+"Alcune modifiche apportate tra Godot 3.x e 4 non sono cambi di nomi, ma "
+"interrompono comunque la compatibilità con le versioni precedenti a causa "
+"del comportamento predefinito diverso."
+
+msgid "The most notable examples of this are:"
+msgstr "Gli esempi più notevoli di questo sono:"
+
+msgid ""
+"Lifecycle functions such as ``_ready()`` and ``_process()`` no longer "
+"implicitly call parent classes' functions that have the same name. Instead, "
+"you must use ``super()`` at the top of a lifecycle function in the child "
+"class so that the parent class function is called first."
+msgstr ""
+"Le funzioni di ciclo di vita come ``_ready()`` e ``_process()`` non chiamano "
+"più implicitamente le funzioni delle classi padre con lo stesso nome. È "
+"invece necessario utilizzare ``super()`` all'inizio di una tale funzione "
+"nella classe figlia, in modo che la funzione della classe padre venga "
+"chiamata per prima."
+
+msgid ""
+"Both :ref:`class_String` and :ref:`class_StringName` are now exposed to "
+"GDScript. This allows for greater optimization, as StringName is "
+"specifically designed to be used for \"constant\" strings that are created "
+"once and reused many times. These types are not strictly equivalent to each "
+"other, which means ``is_same(\"example\", &\"example\")`` returns ``false``. "
+"Although in most cases they are interchangeable (``\"example\" == "
+"&\"example\"`` returns ``true``), sometimes you may have to replace "
+"``\"example\"`` with ``&\"example\"``."
+msgstr ""
+"Sia :ref:`class_String` sia :ref:`class_StringName` sono ora esposti a "
+"GDScript. Ciò consente maggiori ottimizzazioni, poiché StringName è "
+"specificamente progettato per stringhe \"costanti\" create una sola volta e "
+"riutilizzate più volte. Questi tipi non sono strettamente equivalenti tra "
+"loro, il che significa che ``is_same(\"example\", &\"example\")`` "
+"restituisce ``false``. Sebbene nella maggior parte dei casi siano "
+"intercambiabili (``\"example\" == &\"example\"`` restituisce ``true``), a "
+"volte potrebbe essere necessario sostituire ``\"example\"`` con "
+"``&\"example\"``."
+
+msgid ""
+":ref:`GDScript setter and getter syntax "
+"<doc_gdscript_basics_setters_getters>` was changed, but it's only partially "
+"converted by the conversion tool. In most cases, manual changes are required "
+"to make setters and getters working again."
+msgstr ""
+":ref:`La sintassi dei setter e getter in GDScript "
+"<doc_gdscript_basics_setters_getters>` è stata modificata, ma viene "
+"convertita solo parzialmente dallo strumento di conversione. Nella maggior "
+"parte dei casi, sono necessarie modifiche manuali per ripristinare il "
+"funzionamento dei setter e getter."
+
+msgid ""
+":ref:`GDScript signal connection syntax <doc_gdscript_signals>` was changed. "
+"The conversion tool will use the string-based syntax which is still present "
+"in Godot 4, but it's recommended to switch to the :ref:`class_Signal`-based "
+"syntax described on the linked page. This way, strings are no longer "
+"involved, which avoids issues with signal name errors that can only be "
+"discovered at runtime."
+msgstr ""
+":ref:`La sintassi di connessione dei segnali in GDScript "
+"<doc_gdscript_signals>` è stata modificata. Lo strumento di conversione "
+"utilizzerà la sintassi basata su stringhe, ancora presente in Godot 4, ma si "
+"consiglia di passare alla sintassi basata su :ref:`class_Signal` descritta "
+"nella suddetta pagina. Facendo così, le stringhe non sono più coinvolte, "
+"evitando errori nei nomi dei segnali che si possono rilevare solo in fase di "
+"esecuzione."
+
+msgid ""
+"Built-in scripts that are :ref:`tool scripts "
+"<doc_running_code_in_the_editor>` do not get the ``tool`` keyword converted "
+"to the ``@tool`` annotation."
+msgstr ""
+"Gli script integrati che sono :ref:`script di strumento "
+"<doc_running_code_in_the_editor>` non ricevono la parola chiave ``tool`` "
+"convertita nell'annotazione ``@tool``."
+
+msgid ""
+"The Tween node was removed in favor of Tweeners, which are also available in "
+"Godot 3.5 and later. See the `original pull request <https://github.com/"
+"godotengine/godot/pull/41794>`__ for details."
+msgstr ""
+"Il nodo Tween è stato rimosso a favore dei Tweener, disponibili anche in "
+"Godot 3.5 e versioni successive. Per maggiori dettagli, consultare la `pull "
+"request originale <https://github.com/godotengine/godot/pull/41794>`__."
+
+msgid ""
+"``randomize()`` is now automatically called on project load, so "
+"deterministic randomness with the global RandomNumberGenerate instance "
+"requires manually setting a seed in a script's ``_ready()`` function."
+msgstr ""
+"``randomize()`` viene ora chiamato automaticamente al caricamento del "
+"progetto, quindi per una casualità deterministica con l'istanza globale di "
+"RandomNumberGenerate è necessario impostare manualmente un seed nella "
+"funzione ``_ready()`` di uno script."
+
+msgid ""
+"``call_group()``, ``set_group()`` and ``notify_group()`` are now immediate "
+"by default. If calling an expensive function, this may result in stuttering "
+"when used on a group containing a large number of nodes. To use deferred "
+"calls like before, replace ``call_group(...)`` with "
+"``call_group_flags(SceneTree.GROUP_CALL_DEFERRED, ...)`` (and do the same "
+"with ``set_group()`` and ``notify_group()`` respectively)."
+msgstr ""
+"``call_group()``, ``set_group()`` e ``notify_group()`` sono ora immediati "
+"normalmente. Se si richiama una funzione costosa, ciò potrebbe causare "
+"problemi di stuttering se utilizzato su un gruppo contenente un numero "
+"elevato di nodi. Per utilizzare le chiamate differite come in precedenza, "
+"sostituire ``call_group(...)`` con "
+"``call_group_flags(SceneTree.GROUP_CALL_DEFERRED, ...)`` (e fare lo stesso "
+"con ``set_group()`` e ``notify_group()`` rispettivamente)."
+
+msgid ""
+"Instead of ``rotation_degrees``, the ``rotation`` property is exposed to the "
+"editor, which is automatically displayed as degrees in the Inspector dock. "
+"This may break animations, as the conversion is not handled automatically by "
+"the conversion tool."
+msgstr ""
+"Invece di ``rotation_degrees``, la proprietà ``rotation`` è esposta "
+"nell'editor, la quale è visualizzata automaticamente in gradi nel pannello "
+"dell'Ispettore. Questo potrebbe causare danneggiare le animazioni, poiché la "
+"conversione non viene gestita automaticamente dallo strumento di conversione."
+
+msgid ""
+":ref:`class_AABB`'s ``has_no_surface()`` was inverted and renamed to "
+"``has_surface()``."
+msgstr ""
+":ref:`class_AABB` la funzione ``has_no_surface()`` è stata invertita e "
+"rinominata in ``has_surface()``."
+
+msgid ""
+":ref:`class_AABB` and :ref:`class_Rect2`'s ``has_no_area()`` was inverted "
+"and renamed to ``has_area()``."
+msgstr ""
+":ref:`class_AABB` e :ref:`class_Rect2` la funzione ``has_no_area()`` è stata "
+"invertita e rinominata in ``has_area()``."
+
+msgid ""
+":ref:`class_AnimatedTexture`'s ``fps`` property was replaced by "
+"``speed_scale``, which works the same as AnimationPlayer's "
+"``playback_speed`` property."
+msgstr ""
+":ref:`class_AnimatedTexture` la proprietà ``fps`` è stata sostituita da "
+"``speed_scale``, che funziona allo stesso modo della proprietà "
+"``playback_speed`` di AnimationPlayer."
+
+msgid ""
+":ref:`class_AnimatedSprite2D` and :ref:`class_AnimatedSprite3D` now allow "
+"negative ``speed_scale`` values. This may break animations if you relied on "
+"``speed_scale`` being internally clamped to ``0.0``."
+msgstr ""
+":ref:`class_AnimatedSprite2D` e :ref:`class_AnimatedSprite3D` ora consentono "
+"valori negativi di ``speed_scale``. Ciò potrebbe causare problemi di "
+"animazione se si è fatto affidamento sul fatto che ``speed_scale`` fosse "
+"limitato internamente a ``0.0``."
+
+msgid ""
+":ref:`class_AnimatedSprite2D` and :ref:`class_AnimatedSprite3D`'s "
+"``playing`` property was removed. Use ``play()``/``stop()`` method instead "
+"OR configure ``autoplay`` animation via the SpriteFrames bottom panel (but "
+"not both at once)."
+msgstr ""
+":ref:`class_AnimatedSprite2D` e :ref:`class_AnimatedSprite3D` la proprietà "
+"``playing`` è stata rimossa. Utilizzare il metodo ``play()``/``stop()`` "
+"OPPURE configurare l'animazione ``autoplay`` tramite il pannello inferiore "
+"di SpriteFrames (ma non entrambi alla volta)."
+
+msgid ""
+":ref:`class_Array`'s ``slice()`` second parameter (``end``) is now "
+"*exclusive*, instead of being inclusive. For example, this means that ``[1, "
+"2, 3].slice(0, 1)`` now returns ``[1]`` instead of ``[1, 2]``."
+msgstr ""
+"Il secondo parametro di ``slice()`` in :ref:`class_Array` (``end``) è ora "
+"*esclusivo*, anziché inclusivo. Ad esempio, ciò significa che ``[1, 2, "
+"3].slice(0, 1)`` ora restituisce ``[1]`` invece di ``[1, 2]``."
+
+msgid ""
+":ref:`class_BaseButton`'s signals are now ``button_up`` and ``button_down``. "
+"The ``pressed`` property is now ``button_pressed``."
+msgstr ""
+"I segnali di :ref:`class_BaseButton` sono ora ``button_up`` e "
+"``button_down``. La proprietà ``pressed`` è ora ``button_pressed``."
+
+msgid ""
+":ref:`class_Camera2D`'s ``rotating`` property was replaced by "
+"``ignore_rotation``, which has inverted behavior."
+msgstr ""
+":ref:`class_Camera2D` la proprietà ``rotating`` è stata sostituita da "
+"``ignore_rotation``, che ha un comportamento invertito."
+
+msgid ""
+":ref:`class_Node`'s ``remove_and_skip()`` method was removed. If you need to "
+"reimplement it in a script, you can use the `old C++ implementation <https://"
+"github.com/godotengine/godot/blob/7936b3cc4c657e4b273b376068f095e1e0e4d82a/"
+"scene/main/node.cpp#L1910-L1945>`__ as a reference."
+msgstr ""
+":ref:`class_Node` il metodo ``remove_and_skip()`` è stato rimosso. Se è "
+"necessario ri-implementarlo in uno script, è possibile usare la `vecchia "
+"implementazione in C++ <https://github.com/godotengine/godot/blob/"
+"7936b3cc4c657e4b273b376068f095e1e0e4d82a/scene/main/node.cpp#L1910-L1945>`__ "
+"come riferimento."
+
+msgid ""
+"``OS.get_system_time_secs()`` should be converted to "
+"``Time.get_time_dict_from_system()[\"second\"]``."
+msgstr ""
+"``OS.get_system_time_secs()`` dovrebbe essere convertito in "
+"``Time.get_time_dict_from_system()[\"second\"]``."
+
+msgid ""
+":ref:`class_ResourceSaver`'s ``save()`` method now has its arguments swapped "
+"around (``resource: Resource, path: String``). This also applies "
+"to :ref:`class_ResourceFormatSaver`'s ``_save()`` method."
+msgstr ""
+":ref:`class_ResourceSaver``il metodo ``save()`` ora ha gli argomenti "
+"invertiti (``resource: Resource, path: String``). Questo vale anche per il "
+"metodo ``_save()`` di :ref:`class_ResourceFormatSaver``."
+
+msgid ""
+"A :ref:`class_StreamPeerTCP` must have ``poll()`` called on it to update its "
+"state, instead of relying on ``get_status()`` automatically polling: "
+"`GH-59582 <https://github.com/godotengine/godot/pull/59582>`__"
+msgstr ""
+"Un :ref:`class_StreamPeerTCP` deve avere ``poll()`` chiamato su di esso per "
+"aggiornare il suo stato, invece di affidarsi al polling automatico di "
+"``get_status()``: `GH-59582 <https://github.com/godotengine/godot/pull/"
+"59582>`__"
+
+msgid ""
+":ref:`class_String`'s ``right()`` method `has changed behavior <https://"
+"github.com/godotengine/godot/pull/36180>`__: it now returns a number of "
+"characters from the right of the string, rather than the right side of the "
+"string from a given position. If you need the old behavior, you can use "
+"``substr()`` instead."
+msgstr ""
+":ref:`class_String` il metodo ``right()`` di `ha cambiato comportamento "
+"<https://github.com/godotengine/godot/pull/36180>`__: ora restituisce un "
+"numero di caratteri a partire dalla parte destra della stringa, anziché "
+"dalla parte destra della stringa da una posizione specificata. Se è "
+"necessario il vecchio comportamento, è possibile usare ``substr()``."
+
+msgid ""
+"``is_connected_to_host()`` was removed from StreamPeerTCP and PacketPeerUDP "
+"as per `GH-59582 <https://github.com/godotengine/godot/pull/59582>`__. "
+"``get_status()`` can be used in StreamPeerTCP instead. "
+"``is_socket_connected()`` can be used in :ref:`class_PacketPeerUDP` instead."
+msgstr ""
+"``is_connected_to_host()`` è stato rimosso da StreamPeerTCP e PacketPeerUDP "
+"come da `GH-59582 <https://github.com/godotengine/godot/pull/59582>`__. "
+"``get_status()`` può essere utilizzato al suo posto in StreamPeerTCP. "
+"``is_socket_connected()`` può essere utilizzato "
+"in :ref:`class_PacketPeerUDP`."
+
+msgid ""
+"In ``_get_property_list()``, the ``or_lesser`` property hint string is now "
+"``or_less``."
+msgstr ""
+"In ``_get_property_list()``, la stringa indicativa di proprietà "
+"``or_lesser`` è ora ``or_less``."
+
+msgid ""
+"In ``_get_property_list()``, the ``noslider`` property hint string is now "
+"``no_slider``."
+msgstr ""
+"In ``_get_property_list()``, la stringa indicativa di proprietà ``noslider`` "
+"è ora ``no_slider``."
+
+msgid ""
+"VisualShaderNodeVec4Parameter now takes a :ref:`class_Vector4` as parameter "
+"instead of a :ref:`class_Quaternion`."
+msgstr ""
+"VisualShaderNodeVec4Parameter ora accetta come "
+"parametro :ref:`class_Vector4` invece di :ref:`class_Quaternion`."
+
+msgid "**Removed or replaced nodes/resources**"
+msgstr "**Nodi/risorse rimossi o rimpiazzati**"
+
+msgid ""
+"This lists all nodes that were replaced by another node requiring different "
+"configuration. The setup must be done from scratch again, as the project "
+"converter doesn't support updating existing setups:"
+msgstr ""
+"Di seguito sono elencati tutti i nodi che sono stati sostituiti da altri "
+"nodi che richiedono una configurazione diversa. La configurazione deve "
+"essere rifatta da zero, poiché il convertitore di progetto non è in grado di "
+"aggiornare le configurazioni esistenti:"
+
+msgid "Removed node"
+msgstr "Nodo rimosso"
+
+msgid "Closest approximation"
+msgstr "Approssimazione più vicina"
+
 msgid "Comment"
 msgstr "Commento"
+
+msgid "AnimationTreePlayer"
+msgstr "AnimationTreePlayer"
+
+msgid "AnimationTree"
+msgstr "AnimationTree"
+
+msgid "AnimationTreePlayer was deprecated since Godot 3.1."
+msgstr "AnimationTreePlayer è stato deprecato da Godot 3.1."
+
+msgid "BakedLightmap"
+msgstr "BakedLightmap"
+
+msgid "LightmapGI"
+msgstr "LightmapGI"
+
+msgid "See :ref:`doc_using_lightmap_gi`."
+msgstr "Vedi :ref:`doc_using_lightmap_gi`."
+
+msgid "BakedLightmapData"
+msgstr "BakedLightmapData"
+
+msgid "LightmapGIData"
+msgstr "LightmapGIData"
+
+msgid "BitmapFont"
+msgstr "BitmapFont"
+
+msgid "FontFile"
+msgstr "FontFile"
+
+msgid "See :ref:`doc_gui_using_fonts`."
+msgstr "Vedi :ref:`doc_gui_using_fonts`."
+
+msgid "DynamicFont"
+msgstr "DynamicFont"
+
+msgid "DynamicFontData"
+msgstr "DynamicFontData"
+
+msgid "ClippedCamera"
+msgstr "ClippedCamera"
+
+msgid "Camera2D or Camera3D"
+msgstr "Camera2D o Camera3D"
+
+msgid "Camera's pyramid shape was moved to :ref:'class_Camera3D'."
+msgstr ""
+"La forma piramidale della telecamera è stata spostata "
+"in :ref:'class_Camera3D'."
+
+msgid "InterpolatedCamera"
+msgstr "InterpolatedCamera"
+
+msgid "Navigation2D"
+msgstr "Navigation2D"
 
 msgid "Node2D"
 msgstr "Node2D"
 
+msgid ""
+"Replaced by :ref:`other 2D Navigation nodes <doc_navigation_overview_2d>`."
+msgstr ""
+"Sostituito da :ref:`altri nodi di navigazione 2D "
+"<doc_navigation_overview_2d>`."
+
+msgid "Navigation3D"
+msgstr "Navigation3D"
+
+msgid ""
+"Replaced by :ref:`other 3D Navigation nodes <doc_navigation_overview_3d>`."
+msgstr ""
+"Sostituito da :ref:`altri nodi di navigazione 3D "
+"<doc_navigation_overview_3d>`."
+
+msgid "OpenSimplexNoise"
+msgstr "OpenSimplexNoise"
+
+msgid "FastNoiseLite"
+msgstr "FastNoiseLite"
+
+msgid ""
+"Has different parameters and more noise types such as cellular. No support "
+"for 4D noise as it's absent from the FastNoiseLite library."
+msgstr ""
+"Ha parametri diversi e più tipi di noise, come quello cellulare. Non "
+"supporta il noise 4D, in quanto assente nella libreria FastNoiseLite."
+
+msgid "ToolButton"
+msgstr "ToolButton"
+
+msgid "Button"
+msgstr "Button"
+
+msgid "ToolButton was Button with the **Flat** property enabled by default."
+msgstr ""
+"ToolButton era un pulsante con la proprietà **Flat** abilitata per "
+"impostazione predefinita."
+
+msgid "YSort"
+msgstr "YSort"
+
+msgid "Node2D or Control"
+msgstr "Node2D o Control"
+
+msgid "CanvasItem has a new **Y Sort Enabled** property in 4.0."
+msgstr ""
+"CanvasItem ha una nuova proprietà **Ordinamento in Y abilitato** in 4.0."
+
+msgid "ProximityGroup"
+msgstr "ProximityGroup"
+
+msgid ":ref:`class_VisibleOnScreenNotifier3D` can act as a replacement."
+msgstr ":ref:`class_VisibleOnScreenNotifier3D` può fungere da sostituto."
+
+msgid "Portal"
+msgstr "Portal"
+
+msgid ""
+"Portal and room occlusion culling was replaced by raster :ref:`occlusion "
+"culling <doc_occlusion_culling>` (OccluderInstance3D node), which requires a "
+"different setup process."
+msgstr ""
+"L'occlusion culling tramite portali e stanze è stato sostituito "
+"dall':ref:`occlusion culling raster <doc_occlusion_culling>` (nodo "
+"OccluderInstance3D), che richiede un processo di configurazione diverso."
+
+msgid "Room"
+msgstr "Room"
+
 msgid "RoomManager"
 msgstr "RoomManager"
 
+msgid "RoomGroup"
+msgstr "RoomGroup"
+
+msgid "Occluder"
+msgstr "Occluder"
+
+msgid ""
+"Geometry occlusion culling was replaced by raster :ref:`occlusion culling "
+"<doc_occlusion_culling>` (OccluderInstance3D node), which requires a "
+"different setup process."
+msgstr ""
+"L'occlusion culling di geometria è stato sostituito dall':ref:`occlusion "
+"culling raster <doc_occlusion_culling>` (nodo OccluderInstance3D), che "
+"richiede un processo di configurazione diverso."
+
 msgid "OccluderShapeSphere"
 msgstr "OccluderShapeSphere"
+
+msgid "Resource"
+msgstr "Resource"
+
+msgid ""
+"If loading an old project, the node will be replaced with its *Closest "
+"approximation* automatically (even if not using the project upgrade tool)."
+msgstr ""
+"Se si carica un vecchio progetto, il nodo verrà sostituito automaticamente "
+"con la sua *approssimazione più vicina* (anche se non si utilizza lo "
+"strumento di aggiornamento di progetti)."
+
+msgid "**Threading changes**"
+msgstr "**Cambiamenti al threading**"
+
+msgid ""
+":ref:`Threading <doc_using_multiple_threads>` APIs have changed in 4.0. For "
+"example, the following code snippet in Godot 3.x must be modified to work in "
+"4.0:"
+msgstr ""
+"Le API di :ref:`threading <doc_using_multiple_threads>` sono cambiate nella "
+"versione 4.0. Ad esempio, il seguente frammento di codice in Godot 3.x deve "
+"essere modificato per funzionare in 4.0:"
+
+msgid ""
+"``Thread.is_active()`` is no longer used and should be converted to "
+"``Thread.is_alive()``."
+msgstr ""
+"``Thread.is_active()`` non è più utilizzato e si dovrebbe convertire in "
+"``Thread.is_alive()``."
+
+msgid ""
+"See the `changelog <https://github.com/godotengine/godot/blob/master/"
+"CHANGELOG.md>`__ for a full list of changes between Godot 3.x and 4."
+msgstr ""
+"Consulta il `changelog <https://github.com/godotengine/godot/blob/master/"
+"CHANGELOG.md>`__ per una lista completa di cambiamenti tra Godot 3.x e 4."
+
+msgid "ArrayMesh resource compatibility breakage"
+msgstr "Interruzione di compatibilità delle risorse ArrayMesh"
+
+msgid ""
+"If you've saved an ArrayMesh resource to a ``.res`` or ``.tres`` file, the "
+"format used in 4.0 is not compatible with the one used in 3.x. You will need "
+"to go through the process of importing the source mesh file and saving it as "
+"an ArrayMesh resource again."
+msgstr ""
+"Se una risorsa ArrayMesh è stata salvata in un file ``.res`` o ``.tres``, il "
+"formato utilizzato nella versione 4.0 non è compatibile con quello della "
+"versione 3.x. Sarà necessario ripetere la procedura di importazione del file "
+"mesh sorgente e salvarlo nuovamente come risorsa ArrayMesh."
+
+msgid ""
+"List of automatically renamed methods, properties, signals and constants"
+msgstr ""
+"Elenco di metodi, proprietà, segnali e costanti rinominati automaticamente"
+
+msgid ""
+"The `editor/renames_map_3_to_4.cpp <https://github.com/godotengine/godot/"
+"blob/master/editor/renames_map_3_to_4.cpp>`__ source file lists all "
+"automatic renames performed by the project upgrade tool. Lines that are "
+"commented out refer to API renames that :ref:`cannot be performed "
+"automatically <doc_upgrading_to_godot_4_manual_rename>`."
+msgstr ""
+"Il file sorgente `editor/renames_map_3_to_4.cpp <https://github.com/"
+"godotengine/godot/blob/master/editor/renames_map_3_to_4.cpp>`__ elenca tutte "
+"i termini automaticamente rinominati dallo strumento di aggiornamento di "
+"progetti. Le righe commentate si riferiscono ai nomi cambiati nell'API "
+"che :ref:`non si possono rinominare automaticamente "
+"<doc_upgrading_to_godot_4_manual_rename>`."
+
+msgid "Porting editor settings"
+msgstr "Trasferire le impostazioni dell'editor"
+
+msgid ""
+"Godot 3.x and 4.0 use different editor settings files. This means their "
+"settings can be changed independently from each other."
+msgstr ""
+"Godot 3.x e 4.0 utilizzano file di impostazioni dell'editor diversi. Ciò "
+"significa che le loro impostazioni si possono modificare indipendentemente "
+"l'una dall'altra."
+
+msgid ""
+"If you wish to port over your Godot 3.x settings to Godot 4, open "
+"the :ref:`editor settings folder <doc_data_paths_editor_data_paths>` and "
+"copy ``editor_settings-3.tres`` to ``editor_settings-4.tres`` while the "
+"Godot 4 editor is closed."
+msgstr ""
+"Se desideri trasferire le impostazioni di Godot 3.x a Godot 4, apri "
+"la :ref:`cartella delle impostazioni dell'editor "
+"<doc_data_paths_editor_data_paths>` e copia ``editor_settings-3.tres`` in "
+"``editor_settings-4.tres`` mentre l'editor di Godot 4 è chiuso."
+
+msgid ""
+"Many settings' names and categories have changed since Godot 3.x. Editor "
+"settings whose name or category has changed won't carry over to Godot 4.0; "
+"you will have to set their values again."
+msgstr ""
+"I nomi e le categorie di molte impostazioni sono cambiati da Godot 3.x. Le "
+"impostazioni dell'editor il cui nome o la cui categoria sono cambiati non "
+"verranno trasferite a Godot 4.0; sarà necessario impostarne nuovamente i "
+"valori."

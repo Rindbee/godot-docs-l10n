@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,27 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Using the Godot Android library"
+msgstr "Utilizzo della libreria Android di Godot"
+
+msgid "Godot Android plugins"
+msgstr "Estensioni Android di Godot"
+
+msgid ""
+"For more information, see :ref:`Godot Android plugins <doc_android_plugin>`."
+msgstr ""
+"Per ulteriori informazioni, consultare :ref:`Godot Android plugins "
+"<doc_android_plugin>`."
+
+msgid "1. Create the Android app"
+msgstr "1. Creare l'applicazione Android"
+
+msgid "2. Create the Godot project"
+msgstr "2. Creare il progetto Godot"
+
+msgid "Configure the Godot project as desired"
+msgstr "Configurare il progetto Godot come desiderato"
+
+msgid "3. Build and run the app"
+msgstr "3. Compilare ed eseguire l'applicazione"

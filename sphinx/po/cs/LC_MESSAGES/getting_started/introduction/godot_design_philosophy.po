@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -163,31 +163,8 @@ msgstr ""
 "funkčnosti editoru pomocí herního kódu. Viz `Editor Godot je hra Godot`_ "
 "níže."
 
-msgid "|image4|"
-msgstr "| image4 |"
-
-msgid "image4"
-msgstr "image4"
-
-msgid ""
-"*A State Machine editor plugin in Godot 2 by kubecz3k. It lets you manage "
-"states and transitions visually.*"
-msgstr ""
-"*Doplněk editoru State Machine v Godot 2 od kubecz3k. Umožňuje vizuální "
-"správu stavů a přechodů.*"
-
 msgid "Open source"
 msgstr "Open source"
-
-msgid ""
-"Godot offers a fully open source codebase under the **MIT license**. This "
-"means all the technologies that ship with it have to be Free (as in freedom) "
-"as well. For the most part, they're developed from the ground up by "
-"contributors."
-msgstr ""
-"Godot nabízí plně otevřený zdrojový kód pod licencí **MIT**. To znamená, že "
-"všechny technologie, které se s ním dodávají, musí být také zdarma (jako ve "
-"svobodě). Z velké části jsou vyvíjeny od základu přispěvateli."
 
 msgid ""
 "Anyone can plug in proprietary tools for the needs of their projects — they "
@@ -243,21 +220,6 @@ msgstr ""
 "rozhraní enginu, může při testování projektů znovu načíst kód a scény, nebo "
 "spustit kód hry v editoru. To znamená, že můžete **použít stejný kód** a "
 "scény pro své hry, nebo **vytvořit doplňky a rozšířit editor.**"
-
-msgid "|image5|"
-msgstr "| image5 |"
-
-msgid "image5"
-msgstr "image5"
-
-msgid ""
-"*RPG in a Box is a voxel RPG editor made with Godot 2. It uses Godot's UI "
-"tools for its node-based programming system and for the rest of the "
-"interface.*"
-msgstr ""
-"*RPG in a Box je voxel RPG editor vytvořený programem Godot 2. Používá "
-"nástroje UI Godota pro svůj programovací systém založený na uzlech a pro "
-"zbytek rozhraní.*"
 
 msgid "Separate 2D and 3D engines"
 msgstr "Oddělené 2D a 3D enginy"

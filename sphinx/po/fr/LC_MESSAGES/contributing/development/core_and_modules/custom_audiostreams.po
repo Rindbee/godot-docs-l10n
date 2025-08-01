@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -37,6 +37,13 @@ msgstr ""
 "AudioStream contient les ressources et s'expose à GDScript. AudioStream fait "
 "référence à son propre AudioStreamPlayback interne personnalisé qui traduit "
 "AudioStream en données PCM."
+
+msgid ""
+"This guide assumes the reader knows how to create C++ modules. If not, refer "
+"to this guide :ref:`doc_custom_modules_in_cpp`."
+msgstr ""
+"Ce guide suppose que le lecteur sait comment créer des modules C++. Sinon, "
+"référez-vous à ce guide :ref:`doc_custom_modules_in_cpp`."
 
 msgid "References:"
 msgstr "Références :"
@@ -87,6 +94,12 @@ msgstr ""
 "spécifique. Par conséquent, l'état de lecture doit être contenu dans "
 "AudioStreamPlayback."
 
+msgid "audiostream_mytone.h"
+msgstr "audiostream_mytone.h"
+
+msgid "audiostream_mytone.cpp"
+msgstr "audiostream_mytone.cpp"
+
 msgid "Create an AudioStreamPlayback"
 msgstr "Créer un AudioStreamPlayback"
 
@@ -103,6 +116,12 @@ msgid ""
 msgstr ""
 "Comme AudioStreamPlayback est contrôlé par le thread audio, i/o et "
 "l'allocation dynamique de la mémoire sont interdites."
+
+msgid "audiostreamplayer_mytone.h"
+msgstr "audiostreamplayer_mytone.h"
+
+msgid "audiostreamplayer_mytone.cpp"
+msgstr "audiostreamplayer_mytone.cpp"
 
 msgid "Resampling"
 msgstr "Ré-échantillonnage"
@@ -127,6 +146,12 @@ msgstr ""
 "Au lieu de surcharger ``mix``, AudioStreamPlaybackResampled utilise "
 "``mix_internal`` pour interroger les AudioFrames et "
 "``get_stream_sampling_rate`` pour interroger le taux de mixage actuel."
+
+msgid "mytone_audiostream_resampled.h"
+msgstr "mytone_audiostream_resampled.h"
+
+msgid "mytone_audiostream_resampled.cpp"
+msgstr "mytone_audiostream_resampled.cpp"
 
 msgid ""
 "`core/math/audio_frame.h <https://github.com/godotengine/godot/blob/master/"

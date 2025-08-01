@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -307,11 +307,3 @@ msgstr "有关在 Godot 中使用向量数学的更多信息，请参阅以下�
 
 msgid ":ref:`doc_matrices_and_transforms`"
 msgstr ":ref:`doc_matrices_and_transforms`"
-
-msgid ""
-"If you would like additional explanation, you should check out 3Blue1Brown's "
-"excellent video series \"Essence of Linear Algebra\": https://www.youtube."
-"com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"
-msgstr ""
-"如果你需要进一步的解释，你可以看看 3Blue1Brown 的绝佳的系列视频《线性代数的本"
-"质》：\\ http://www.bilibili.com/video/BV1ys411472E?p=2"

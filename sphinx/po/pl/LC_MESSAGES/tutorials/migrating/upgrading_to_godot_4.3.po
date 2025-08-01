@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Change"
+msgstr "Zmiana"
+
+msgid "Introduced"
+msgstr "Wprowadzona"
+
+msgid "|❌|"
+msgstr "|❌|"
+
 msgid "Animation"
 msgstr "Animacja"
+
+msgid "**Animation**"
+msgstr "**Animacja**"
+
+msgid "|✔️|"
+msgstr "|✔️|"
 
 msgid "Physics"
 msgstr "Fizyka"
@@ -20,14 +35,32 @@ msgstr "Fizyka"
 msgid "Rendering"
 msgstr "Renderowanie"
 
+msgid "**RenderingDevice**"
+msgstr "**RenderingDevice**"
+
+msgid "**RenderingServer**"
+msgstr "**RenderingServer**"
+
+msgid "**Font**"
+msgstr "**Czcionka**"
+
+msgid "**RichTextLabel**"
+msgstr "**RichTextLabel**"
+
 msgid "Audio"
 msgstr "Audio"
 
 msgid "Navigation"
 msgstr "Nawigacja"
 
+msgid "XR"
+msgstr "XR"
+
 msgid "Editor plugins"
 msgstr "Wtyczki edytora"
+
+msgid "Core"
+msgstr "Jądro"
 
 msgid "Android"
 msgstr "Android"

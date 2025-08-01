@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -15,7 +15,7 @@ msgid "GDScript: An introduction to dynamic languages"
 msgstr "GDScript: 동적 언어 소개"
 
 msgid "About"
-msgstr "정보"
+msgstr "대하여"
 
 msgid ""
 "This tutorial aims to be a quick reference for how to use GDScript more "
@@ -68,7 +68,7 @@ msgstr ""
 "납니다 (정적 타입 언어에서의 표현 구문 분석이 더 엄격하기 때문입니다)."
 
 msgid "Variables & assignment"
-msgstr "변수 & 할당"
+msgstr "변수 및 할당"
 
 msgid ""
 "All variables in a dynamically typed language are \"variant\"-like. This "
@@ -95,7 +95,7 @@ msgstr ""
 "면:"
 
 msgid "Pointers & referencing:"
-msgstr "포인터(Pointer) & 참조:"
+msgstr "포인터 및 참조:"
 
 msgid ""
 "In static languages, such as C or C++ (and to some extent Java and C#), "
@@ -150,7 +150,7 @@ msgstr ""
 "수도 있습니다:"
 
 msgid "Or unordered sets:"
-msgstr "또는 순서가 없는 집합(unordered set)이 될 수도 있습니다:"
+msgstr "또는 순서가 없는 집합이 될 수 있습니다:"
 
 msgid "Dictionaries"
 msgstr "딕셔너리"
@@ -174,8 +174,8 @@ msgid ""
 "Dictionaries are also dynamic, keys can be added or removed at any point at "
 "little cost:"
 msgstr ""
-"딕셔너리 또한 동적이기에, 적은 비용으로 어디에나 키를 추가하고 삭제할 수 있습"
-"니다:"
+"딕셔너리 또한 동적이기에, 적은 비용으로 어디에나 키를 추가하거나 제거할 수 있"
+"습니다:"
 
 msgid ""
 "Dictionaries can also be used as data markup or quick structures. While "

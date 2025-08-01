@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -85,9 +85,15 @@ msgstr "**depth_draw_never**"
 msgid "Never draw depth."
 msgstr "Ne rend jamais la profondeur."
 
+msgid "**depth_prepass_alpha**"
+msgstr "**depth_prepass_alpha**"
+
 msgid "Do opaque depth pre-pass for transparent geometry."
 msgstr ""
-"Fait un pré-passage de profondeur opaque pour les géométries transparentes."
+"Fait une pré-passe de profondeur opaque pour les géométries transparentes."
+
+msgid "**depth_test_disabled**"
+msgstr "**depth_test_disabled**"
 
 msgid "Disable depth testing."
 msgstr "Désactive le test de profondeur."
@@ -118,6 +124,9 @@ msgstr "**unshaded**"
 
 msgid "**wireframe**"
 msgstr "**wireframe**"
+
+msgid "**debug_shadow_splits**"
+msgstr "**debug_shadow_splits**"
 
 msgid "**diffuse_burley**"
 msgstr "**diffuse_burley**"
@@ -178,6 +187,9 @@ msgstr ""
 msgid "**vertex_lighting**"
 msgstr "**vertex_lighting**"
 
+msgid "**particle_trails**"
+msgstr "**particle_trails**"
+
 msgid "**alpha_to_coverage**"
 msgstr "**alpha_to_coverage**"
 
@@ -190,6 +202,9 @@ msgstr ""
 
 msgid "**alpha_to_coverage_and_one**"
 msgstr "**alpha_to_coverage_and_one**"
+
+msgid "**fog_disabled**"
+msgstr "**fog_disabled**"
 
 msgid "Built-ins"
 msgstr "Variables intégrées"
@@ -208,8 +223,20 @@ msgstr "Intégré"
 msgid "in float **TIME**"
 msgstr "in float **TIME**"
 
+msgid "in float **PI**"
+msgstr "in float **PI**"
+
+msgid "in float **TAU**"
+msgstr "in float **TAU**"
+
+msgid "in float **E**"
+msgstr "in float **E**"
+
 msgid "in bool **OUTPUT_IS_SRGB**"
 msgstr "in bool **OUTPUT_IS_SRGB**"
+
+msgid "in float **CLIP_SPACE_FAR**"
+msgstr "in float **CLIP_SPACE_FAR**"
 
 msgid "Vertex built-ins"
 msgstr "Variables intégrées de sommet"
@@ -244,11 +271,20 @@ msgstr "in vec2 **VIEWPORT_SIZE**"
 msgid "Size of viewport (in pixels)."
 msgstr "Taille de la fenêtre d'affichage (en pixels)."
 
+msgid "in mat4 **VIEW_MATRIX**"
+msgstr "in mat4 **VIEW_MATRIX**"
+
 msgid "World space to view space transform."
 msgstr "Transformation de l'espace global à l'espace de vue."
 
+msgid "in mat4 **INV_VIEW_MATRIX**"
+msgstr "in mat4 **INV_VIEW_MATRIX**"
+
 msgid "View space to world space transform."
 msgstr "Transformation de l'espace de vue à l'espace global."
+
+msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
+msgstr "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
 
 msgid "in mat4 **INV_PROJECTION_MATRIX**"
 msgstr "in mat4 **INV_PROJECTION_MATRIX**"
@@ -323,6 +359,15 @@ msgstr "Taille des points pour le rendu en points."
 msgid "inout mat4 **MODELVIEW_MATRIX**"
 msgstr "inout mat4 **MODELVIEW_MATRIX**"
 
+msgid "inout mat3 **MODELVIEW_NORMAL_MATRIX**"
+msgstr "inout mat3 **MODELVIEW_NORMAL_MATRIX**"
+
+msgid "in mat4 **MODEL_MATRIX**"
+msgstr "in mat4 **MODEL_MATRIX**"
+
+msgid "in mat3 **MODEL_NORMAL_MATRIX**"
+msgstr "in mat3 **MODEL_NORMAL_MATRIX**"
+
 msgid "inout mat4 **PROJECTION_MATRIX**"
 msgstr "inout mat4 **PROJECTION_MATRIX**"
 
@@ -387,16 +432,31 @@ msgstr "sampler2D **DEPTH_TEXTURE**"
 msgid "out float **DEPTH**"
 msgstr "out float **DEPTH**"
 
+msgid "out float **NORMAL_MAP_DEPTH**"
+msgstr "out float **NORMAL_MAP_DEPTH**"
+
 msgid "out vec3 **ALBEDO**"
 msgstr "out vec3 **ALBEDO**"
 
 msgid "out float **ALPHA**"
 msgstr "out float **ALPHA**"
 
+msgid "out float **ALPHA_SCISSOR_THRESHOLD**"
+msgstr "out float **ALPHA_SCISSOR_THRESHOLD**"
+
 msgid "If written to, values below a certain amount of alpha are discarded."
 msgstr ""
 "En cas d'écriture, les valeurs inférieures à une certaine quantité d'alpha "
 "sont rejetées."
+
+msgid "out float **ALPHA_HASH_SCALE**"
+msgstr "out float **ALPHA_HASH_SCALE**"
+
+msgid "out float **ALPHA_ANTIALIASING_EDGE**"
+msgstr "out float **ALPHA_ANTIALIASING_EDGE**"
+
+msgid "out float **PREMUL_ALPHA_FACTOR**"
+msgstr "out float **PREMUL_ALPHA_FACTOR**"
 
 msgid "out float **METALLIC**"
 msgstr "out float **METALLIC**"
@@ -432,6 +492,12 @@ msgstr "Direction de la distorsion, à utiliser avec les flowmaps."
 msgid "out float **SSS_STRENGTH**"
 msgstr "out float **SSS_STRENGTH**"
 
+msgid "out float **SSS_TRANSMITTANCE_DEPTH**"
+msgstr "out float **SSS_TRANSMITTANCE_DEPTH**"
+
+msgid "out float **SSS_TRANSMITTANCE_BOOST**"
+msgstr "out float **SSS_TRANSMITTANCE_BOOST**"
+
 msgid "out float **AO**"
 msgstr "out float **AO**"
 
@@ -455,8 +521,8 @@ msgid ""
 "and ways to avoid issues."
 msgstr ""
 "Les shaders passant par le pipeline transparent lorsque ``ALPHA`` est écrit "
-"peuvent présenter des problèmes de tri par transparence. Lisez la section :"
-"ref:`tri par transparence dans la page des limitations de rendu 3D "
+"peuvent présenter des problèmes de tri par transparence. Lisez la "
+"section :ref:`tri par transparence dans la page des limitations de rendu 3D "
 "<doc_3d_rendering_limitations_transparency_sorting>` pour plus "
 "d'informations et moyens d'éviter les problèmes."
 
@@ -494,6 +560,15 @@ msgstr "in vec3 **LIGHT**"
 msgid "in vec3 **LIGHT_COLOR**"
 msgstr "in vec3 **LIGHT_COLOR**"
 
+msgid "in float **SPECULAR_AMOUNT**"
+msgstr "in float **SPECULAR_AMOUNT**"
+
+msgid "``true`` if this pass is a :ref:`class_DirectionalLight3D`."
+msgstr "``true`` cette passe est une :ref:`class_DirectionalLight3D`."
+
+msgid "in float **ATTENUATION**"
+msgstr "in float **ATTENUATION**"
+
 msgid "Attenuation based on distance or shadow."
 msgstr "Atténuation basée sur la distance ou l'ombre."
 
@@ -502,6 +577,9 @@ msgstr "in vec3 **ALBEDO**"
 
 msgid "Base albedo."
 msgstr "Albédo de base."
+
+msgid "in float **METALLIC**"
+msgstr "in float **METALLIC**"
 
 msgid "Metallic."
 msgstr "Métallique."

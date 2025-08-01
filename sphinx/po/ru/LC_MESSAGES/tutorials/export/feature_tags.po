@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -50,6 +50,20 @@ msgstr ""
 msgid "Many more things."
 msgstr "И еще много чего."
 
+msgid "Features can be queried at runtime from the singleton API by calling:"
+msgstr ""
+"Функции можно запрашивать во время выполнения из API-интерфейса Singleton, "
+"вызывая:"
+
+msgid ""
+"OS feature tags are used by GDExtension to determine which libraries to "
+"load. For example, a library for ``linux.debug.editor.x86_64`` will be "
+"loaded only on a debug editor build for Linux x86_64."
+msgstr ""
+"Теги функций ОС используются GDExtension для определения загружаемых "
+"библиотек. Например, библиотека для ``linux.debug.editor.x86_64`` будет "
+"загружена только в сборке отладочного редактора для Linux x86_64."
+
 msgid "Default features"
 msgstr "Основные особенности"
 
@@ -69,17 +83,32 @@ msgstr "**Описание**"
 msgid "**android**"
 msgstr "**android**"
 
+msgid "Running on Android (but not within a Web browser)"
+msgstr "Работает на Android (но не в веб-браузере)"
+
 msgid "**bsd**"
 msgstr "**bsd**"
+
+msgid "Running on \\*BSD (but not within a Web browser)"
+msgstr "Работает на \\*BSD (но не в веб-браузере)"
 
 msgid "**linux**"
 msgstr "**linux**"
 
+msgid "Running on Linux (but not within a Web browser)"
+msgstr "Работает в Linux (но не в веб-браузере)"
+
 msgid "**macos**"
 msgstr "**macOS**"
 
+msgid "Running on macOS (but not within a Web browser)"
+msgstr "Работает в macOS (но не в веб-браузере)"
+
 msgid "**ios**"
 msgstr "**ios**"
+
+msgid "Running on iOS (but not within a Web browser)"
+msgstr "Работает в iOS (но не в веб-браузере)"
 
 msgid "**windows**"
 msgstr "**windows**"
@@ -89,6 +118,9 @@ msgstr "Работает на Windows"
 
 msgid "**linuxbsd**"
 msgstr "**linux-bsd**"
+
+msgid "Running on Linux or \\*BSD"
+msgstr "Работает на Linux или \\*BSD"
 
 msgid "**debug**"
 msgstr "**debug**"
@@ -109,13 +141,22 @@ msgid "Running on an editor build"
 msgstr "Запуск в сборке редактора"
 
 msgid "**template**"
-msgstr "**шаблон**"
+msgstr "**template (шаблон)**"
+
+msgid "Running on a non-editor (export template) build"
+msgstr "Запуск на сборке без редактора (экспортный шаблон)"
 
 msgid "**double**"
-msgstr "**двойной**"
+msgstr "**double (двойной)**"
+
+msgid "Running on a double-precision build"
+msgstr "Работает на сборке с двойной точностью"
 
 msgid "**single**"
-msgstr "**одинарной**"
+msgstr "**single (одинарный)**"
+
+msgid "Running on a single-precision build"
+msgstr "Работа на сборке с одинарной точностью"
 
 msgid "**64**"
 msgstr "**64**"
@@ -144,6 +185,9 @@ msgstr "Запуск на 32-bit x86 сборке"
 msgid "**x86**"
 msgstr "**x86**"
 
+msgid "Running on an x86 build (any bitness)"
+msgstr "Работает на архитектуре x86 (любой битности)"
+
 msgid "**arm64**"
 msgstr "**arm64**"
 
@@ -159,29 +203,56 @@ msgstr "Запуск на 32-bit ARM сборке"
 msgid "**arm**"
 msgstr "**arm**"
 
+msgid "Running on an ARM build (any bitness)"
+msgstr "Работает на сборке ARM (любой разрядности)"
+
 msgid "**rv64**"
 msgstr "**rv64**"
+
+msgid "Running on a 64-bit RISC-V build"
+msgstr "Работает на 64-битной сборке RISC-V"
 
 msgid "**riscv**"
 msgstr "**risc-v**"
 
+msgid "Running on a RISC-V build (any bitness)"
+msgstr "Работает на сборке RISC-V (любой разрядности)"
+
 msgid "**ppc64**"
 msgstr "**ppc-64**"
+
+msgid "Running on a 64-bit PowerPC build"
+msgstr "Работает на 64-битной сборке PowerPC"
 
 msgid "**ppc32**"
 msgstr "**ppc-32**"
 
+msgid "Running on a 32-bit PowerPC build"
+msgstr "Работает на 32-битной сборке PowerPC"
+
 msgid "**ppc**"
 msgstr "**powerpc**"
+
+msgid "Running on a PowerPC build (any bitness)"
+msgstr "Работает на сборке PowerPC (любой разрядности)"
 
 msgid "**wasm64**"
 msgstr "**wasm-64**"
 
+msgid "Running on a 64-bit WebAssembly build (not yet possible)"
+msgstr "Запуск на 64-битной сборке WebAssembly (пока невозможно)"
+
 msgid "**wasm32**"
 msgstr "**wasm-32**"
 
+msgid "Running on a 32-bit WebAssembly build"
+msgstr "Работает на 32-битной сборке WebAssembly"
+
 msgid "**wasm**"
 msgstr "**WASM**"
+
+msgid "Running on a WebAssembly build (any bitness)"
+msgstr "Запуск сборки WebAssembly (любой разрядности)"
 
 msgid "**mobile**"
 msgstr "**мобильные устройства**"
@@ -201,6 +272,36 @@ msgstr "**web**"
 msgid "Host OS is a Web browser"
 msgstr "Host OS - это веб-браузер"
 
+msgid "**web_android**"
+msgstr "**web_android**"
+
+msgid "Host OS is a Web browser running on Android"
+msgstr "Host OS — это веб-браузер, работающий на Android"
+
+msgid "**web_ios**"
+msgstr "**web_ios**"
+
+msgid "Host OS is a Web browser running on iOS"
+msgstr "Host ОС — это веб-браузер, работающий на iOS"
+
+msgid "**web_linuxbsd**"
+msgstr "**web_linuxbsd**"
+
+msgid "Host OS is a Web browser running on Linux or \\*BSD"
+msgstr "Host ОС — это веб-браузер, работающий на Linux или \\*BSD"
+
+msgid "**web_macos**"
+msgstr "**web_macos**"
+
+msgid "Host OS is a Web browser running on macOS"
+msgstr "Host ОС — это веб-браузер, работающий на macOS"
+
+msgid "**web_windows**"
+msgstr "**web_windows**"
+
+msgid "Host OS is a Web browser running on Windows"
+msgstr "Host ОС — это веб-браузер, работающий на Windows"
+
 msgid "**etc**"
 msgstr "**etc**"
 
@@ -218,6 +319,33 @@ msgstr "**s3tc**"
 
 msgid "Textures using S3TC (DXT/BC) compression are supported"
 msgstr "Поддерживаются текстуры с применением сжатия S3TC (DXT/BC)"
+
+msgid "**movie**"
+msgstr "**movie**"
+
+msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
+msgstr ":ref:`Movie Maker mode <doc_creating_movies>` активен"
+
+msgid ""
+"With the exception of texture compression, ``web_<platform>`` and ``movie`` "
+"feature tags, default feature tags are **immutable**. This means that they "
+"will *not* change depending on runtime conditions. For example, "
+"``OS.has_feature(\"mobile\")`` will return ``false`` when running a project "
+"exported to Web on a mobile device."
+msgstr ""
+"За исключением сжатия текстур, тегов функций ``web_<platform>`` и ``movie``, "
+"теги функций по умолчанию являются **неизменяемыми**. Это означает, что они "
+"*не* будут меняться в зависимости от условий выполнения. Например, "
+"``OS.has_feature(\"mobile\")`` вернёт ``false`` при запуске проекта, "
+"экспортированного в Web, на мобильном устройстве."
+
+msgid ""
+"To check whether a project exported to Web is running on a mobile device, "
+"use ``OS.has_feature(\"web_android\") or OS.has_feature(\"web_ios\")``."
+msgstr ""
+"Чтобы проверить, запущен ли экспортированный в Интернет проект на мобильном "
+"устройстве, используйте ``OS.has_feature(\"web_android\") или "
+"OS.has_feature(\"web_ios\")``."
 
 msgid "Custom features"
 msgstr "Пользовательские особенности"
@@ -262,6 +390,23 @@ msgstr ""
 "был настроен в специальном пресете экспорта, который, в свою очередь, "
 "включает только демо-уровни)."
 
+msgid "The Project Settings panel"
+msgstr "Панель Настроек Проекта"
+
+msgid ""
+"The desired configuration is selected, which effectively copies its "
+"properties to the panel above (1). The \"demo_build\" feature tag is "
+"selected (2). The configuration is added to the project settings (3)."
+msgstr ""
+"Выбирается нужная конфигурация, свойства которой фактически копируются на "
+"панель выше (1). Выбирается тег функции \"demo_build\" (2). Конфигурация "
+"добавляется в настройки проекта (3)."
+
+msgid "After overriding, a new field is added for this specific configuration."
+msgstr ""
+"После переопределения добавляется новое поле для данной конкретной "
+"конфигурации."
+
 msgid ""
 "When using the :ref:`project settings \"override.cfg\" functionality "
 "<class_ProjectSettings>` (which is unrelated to feature tags), remember that "
@@ -287,3 +432,13 @@ msgstr ""
 
 msgid "Customizing the build"
 msgstr "Настройка сборки"
+
+msgid ""
+"Feature tags can be used to customize a build process too, by writing a "
+"custom **ExportPlugin**. They are also used to specify which shared library "
+"is loaded and exported in **GDExtension**."
+msgstr ""
+"Теги особенностей также можно использовать для настройки процесса сборки, "
+"написав пользовательский **ExportPlugin**. Они также используются для "
+"указания того, какая общая библиотека загружается и экспортируется в "
+"**GDExtension**."

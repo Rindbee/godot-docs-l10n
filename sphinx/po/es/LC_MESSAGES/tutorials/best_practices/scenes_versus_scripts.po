@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -140,7 +140,7 @@ msgstr ""
 "<class_EditorPlugin_method_add_custom_type>`."
 
 msgid ":ref:`Script Classes <doc_gdscript_basics_class_name>`"
-msgstr ":ref:`Script Classes <doc_scripting_continued_class_name>`"
+msgstr ":ref:`Script Classes <doc_gdscript_basics_class_name>`"
 
 msgid "Editor and runtime accessible."
 msgstr "Accesible en el editor y en tiempo de ejecución."

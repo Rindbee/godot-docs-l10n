@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,26 +17,56 @@ msgstr "Indeks"
 msgid "0"
 msgstr "0"
 
+msgid "``ARRAY_VERTEX``"
+msgstr "``ARRAY_VERTEX``"
+
 msgid "1"
 msgstr "1"
+
+msgid "``ARRAY_NORMAL``"
+msgstr "``ARRAY_NORMAL``"
 
 msgid "2"
 msgstr "2"
 
+msgid "``ARRAY_TANGENT``"
+msgstr "``ARRAY_TANGENT``"
+
 msgid "3"
 msgstr "3"
+
+msgid "``ARRAY_COLOR``"
+msgstr "``ARRAY_COLOR``"
 
 msgid "4"
 msgstr "4"
 
+msgid "``ARRAY_TEX_UV``"
+msgstr "``ARRAY_TEX_UV``"
+
 msgid "5"
 msgstr "5"
+
+msgid "``ARRAY_TEX_UV2``"
+msgstr "``ARRAY_TEX_UV2``"
 
 msgid "10"
 msgstr "10"
 
+msgid "``ARRAY_BONES``"
+msgstr "``ARRAY_BONES``"
+
 msgid "11"
 msgstr "11"
 
+msgid "``ARRAY_WEIGHTS``"
+msgstr "``ARRAY_WEIGHTS``"
+
 msgid "12"
 msgstr "12"
+
+msgid "``ARRAY_INDEX``"
+msgstr "``ARRAY_INDEX``"
+
+msgid "Saving"
+msgstr "Zapisywanie"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,37 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Pre-commit hook"
+msgstr "pre-commit 후크"
+
+msgid ""
+"For ease of use, we provide hooks for Git with the `pre-commit <https://pre-"
+"commit.com/>`__ Python framework that will run clang-format automatically on "
+"all your commits with the correct version of clang-format. To set up:"
+msgstr ""
+"사용 편의성을 위해 우리는 `pre-commit <https://pre-commit.com/>`__ Python 프"
+"레임워크로 Git용 후크를 제공합니다. 이 프레임워크는올바른 버전의 clang-format"
+"로 여러분의 모든 커밋에서 자동으로 clang-format을 실행합니다. 설정하려면:"
+
+msgid "You can also run the hook manually with ``pre-commit run``."
+msgstr "``pre-commit run``\\ 로 수동으로 후크를 실행할 수도 있습니다."
+
+msgid ""
+"Previously, we supplied a hook in the folder ``misc/hooks``. If you copied "
+"the script manually, these hooks should still work, but symlinks will be "
+"broken. If you are using the new system, run ``rm .git/hooks/*`` to remove "
+"the old hooks that are no longer needed."
+msgstr ""
+"이전에는 ``misc/hooks`` 폴더에 후크를 공급했습니다. 스크립트를 수동으로 복사"
+"한 경우 이 후크는 여전히 작동하지만 심볼릭링크가 망가질 수 있습니다. 새 시스"
+"템을 사용하는 경우 ``rm .git/hooks/*``\\ 를 실행하여 더 이상 필요하지 않은 오"
+"래된 후크를 제거하세요."
+
 msgid "Example:"
 msgstr "예시:"
 
 msgid "**Example:**"
 msgstr "**예시:**"
+
+msgid "**Bad:**"
+msgstr "**나쁨:**"

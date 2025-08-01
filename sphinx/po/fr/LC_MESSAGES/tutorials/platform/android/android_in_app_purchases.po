@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,14 +14,37 @@ msgstr ""
 msgid "Android in-app purchases"
 msgstr "Achats intégrés à l’application Android"
 
+msgid ""
+"Godot offers a first-party ``GodotGooglePlayBilling`` Android plugin "
+"compatible with Godot 4 which uses the `Google Play Billing library <https://"
+"developer.android.com/google/play/billing>`_."
+msgstr ""
+"Godot propose un plugin Android ``GodotGooglePlayBilling`` compatible avec "
+"Godot 4 qui utilise la bibliothèque `Google Play Billing <https://"
+"developer.android.com/google/play/billing>`_."
+
 msgid "Usage"
 msgstr "Utilisation"
 
 msgid "Getting started"
 msgstr "Pour commencer"
 
+msgid ""
+"Make sure you have enabled and successfully set up :ref:`Android Gradle "
+"Builds <doc_android_gradle_build>`. Follow the compiling instructions on the "
+"``GodotGooglePlayBilling`` `github page <https://github.com/godotengine/"
+"godot-google-play-billing>`__."
+msgstr ""
+"Assurez-vous que vous avez activé et configuré avec "
+"succès :ref:`Compilations Gradle Android <doc_android_gradle_build>`. Suivez "
+"les instructions de compilation sur la `page github <https://github.com/"
+"godotengine/godot-google-play-billing>`__ de ``GodotGooglePlayBilling``."
+
 msgid "To use the ``GodotGooglePlayBilling`` API:"
 msgstr "Pour utiliser l'API ``GodotGooglePlayBilling`` :"
+
+msgid "Call ``startConnection``"
+msgstr "Appellez ``startConnection``"
 
 msgid "Initialization example:"
 msgstr "Exemple d'initialisation :"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -85,6 +85,24 @@ msgstr "**Data wydania**"
 
 msgid "**Support level**"
 msgstr "**Poziom wsparcia**"
+
+msgid "unstable"
+msgstr "niestabilna"
+
+msgid "supported"
+msgstr "wspierana"
+
+msgid "partial"
+msgstr "partial"
+
+msgid "Godot 4.1"
+msgstr "Godot 4.1"
+
+msgid "July 2023"
+msgstr "Lipiec 2023"
+
+msgid "eol"
+msgstr "eol"
 
 msgid "Godot 4.0"
 msgstr "Godot 4.0"
@@ -188,11 +206,11 @@ msgstr ""
 "będzie obsługiwana długo po tym, jak wersja 3.x przestanie otrzymywać "
 "aktualizacje w przyszłości. Jedynym zastrzeżeniem jest to, że wiele "
 "dokumentacji stron trzecich nie zostało jeszcze zaktualizowanych dla silnika "
-"Godot 4.x. Jeśli musisz skorzystać z samouczka zaprojektowanego dla Godot 3."
-"x, zalecamy pozostawienie otwartego pliku :ref:`doc_upgrading_to_godot_4` w "
-"osobnej zakładce, aby sprawdzić, które nazwy metod zmieniono (jeśli wystąpi "
-"błąd skryptu podczas próby użycia określonego węzła lub metoda, której nazwa "
-"została zmieniona w Godot 4.x)."
+"Godot 4.x. Jeśli musisz skorzystać z samouczka zaprojektowanego dla Godot "
+"3.x, zalecamy pozostawienie otwartego pliku :ref:`doc_upgrading_to_godot_4` "
+"w osobnej zakładce, aby sprawdzić, które nazwy metod zmieniono (jeśli "
+"wystąpi błąd skryptu podczas próby użycia określonego węzła lub metoda, "
+"której nazwa została zmieniona w Godot 4.x)."
 
 msgid "Should I upgrade my project to use new engine versions?"
 msgstr "Czy powinienem zaktualizować mój projekt do nowej wersji silnika?"

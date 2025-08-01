@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,30 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Occlusion culling"
+msgstr "오클루전 컬링"
+
+msgid "How to set up occlusion culling in Godot."
+msgstr "Godot에서 오클루전 컬링을 설정하는 방법입니다."
+
+msgid "Troubleshooting common issues with occlusion culling."
+msgstr "오클루전 컬링과 관련된 일반적인 문제를 해결합니다."
+
+msgid "Why use occlusion culling"
+msgstr "오클루전 컬링을 사용하는 이유"
+
+msgid "Example scene with an occlusion culling-friendly layout"
+msgstr "오클루전 컬링 친화적 레이아웃이 있는 예시 씬"
+
+msgid "How occlusion culling works in Godot"
+msgstr "Godot에서 오클루전 컬링이 작동하는 방식"
+
+msgid "Setting up occlusion culling"
+msgstr "오클루전 컬링 설정하기"
+
+msgid "Previewing occlusion culling"
+msgstr "오클루전 컬링 미리보기"
 
 msgid "Troubleshooting"
 msgstr "문제 해결"

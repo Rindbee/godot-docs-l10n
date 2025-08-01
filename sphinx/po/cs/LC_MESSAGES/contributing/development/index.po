@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,29 @@ msgstr ""
 
 msgid "Engine development"
 msgstr "Vývoj enginu"
+
+msgid ""
+"The guides below explain how to contribute to the engine's codebase. You "
+"will learn about best practices when working on solutions and features, the "
+"code style and the internal structure of the codebase, how to set up your "
+"working environment, and more."
+msgstr ""
+"Níže uvedené návody vysvětlují, jak přispívat do kódové základny enginu. "
+"Dozvíte se o osvědčených postupech pro práci na řešeních a funkcích, stylu "
+"kódu a vnitřní struktuře kódové základny, jak si nastavit pracovní prostředí "
+"a další."
+
+msgid ""
+"Be sure to also check the :ref:`workflow guidelines "
+"<doc_contributing_workflow>`, especially if you're new to using Git or "
+"GitHub."
+msgstr ""
+"Určitě si také přečtěte :ref:`pokyny pro pracovní postup "
+"<doc_contributing_workflow>`, zvláště pokud s používáním Gitu nebo GitHubu "
+"teprve začínáte."
+
+msgid "Buildsystem and work environment"
+msgstr "Systém pro sestavení a pracovní prostředí"
+
+msgid "Engine architecture"
+msgstr "Architektura enginu"

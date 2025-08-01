@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,35 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Tags"
+msgstr "Tagi"
+
 msgid "Description"
 msgstr "Opis"
 
+msgid "Tutorial"
+msgstr "Samouczek"
+
+msgid "Deprecated"
+msgstr "Przestarzałe"
+
+msgid "``@deprecated``"
+msgstr "``@deprecated``"
+
+msgid "Experimental"
+msgstr "Eksperymentalne"
+
+msgid "``@experimental``"
+msgstr "``@experimental``"
+
 msgid "Signal"
 msgstr "Sygnał"
+
+msgid "Enum"
+msgstr "Wyliczenie"
+
+msgid "Constant"
+msgstr "Stała"
 
 msgid "Variable"
 msgstr "Zmienne"
@@ -28,6 +52,12 @@ msgstr "Przykład"
 
 msgid "Result"
 msgstr "Wynik"
+
+msgid "``[Class]``"
+msgstr "``[Klasa]``"
+
+msgid "``[br]``"
+msgstr "``[br]``"
 
 msgid "Bold"
 msgstr "Pogrubienie"

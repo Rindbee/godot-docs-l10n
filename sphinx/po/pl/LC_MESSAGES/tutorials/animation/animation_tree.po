@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,27 @@ msgstr ""
 
 msgid "Introduction"
 msgstr "Wprowadzenie"
+
+msgid "OneShot"
+msgstr "OneShot"
+
+msgid "TimeSeek"
+msgstr "TimeSeek"
+
+msgid "TimeScale"
+msgstr "TimeScale"
+
+msgid "Transition"
+msgstr "Transition"
+
+msgid "BlendSpace2D"
+msgstr "BlendSpace2D"
+
+msgid "BlendSpace1D"
+msgstr "BlendSpace1D"
+
+msgid "StateMachine"
+msgstr "StateMachine"
 
 msgid ""
 "Keep in mind that the animation nodes are just resources and, as such, they "

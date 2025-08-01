@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -15,11 +15,34 @@ msgid "Introduction"
 msgstr "Introduzione"
 
 msgid ""
+"You can download the included example in the test folder of the godot-cpp "
+"repository `on GitHub <https://github.com/godotengine/godot-cpp>`__."
+msgstr ""
+"È possibile scaricare l'esempio incluso nella cartella test del repository "
+"godot-cpp `su GitHub <https://github.com/godotengine/godot-cpp>`__."
+
+msgid "Setting up the project"
+msgstr "Configurare il progetto"
+
+msgid ""
 "a copy of the `godot-cpp repository <https://github.com/godotengine/godot-"
 "cpp>`__."
 msgstr ""
 "una copia del `repository godot-cpp <https://github.com/godotengine/godot-"
 "cpp>`__."
+
+msgid ""
+"You should now have ``demo``, ``godot-cpp``, and ``src`` directories in your "
+"GDExtension module."
+msgstr ""
+"Ora dovresti avere le cartelle ``demo``, ``godot-cpp`` e ``src`` nel tuo "
+"modulo GDExtension."
+
+msgid "Your folder structure should now look like this:"
+msgstr "La tua struttura di cartelle dovrebbe assomigliare a questa:"
+
+msgid "Using the GDExtension module"
+msgstr "Utilizzo del modulo GDExtension"
 
 msgid "Adding properties"
 msgstr "Aggiungere proprietà"

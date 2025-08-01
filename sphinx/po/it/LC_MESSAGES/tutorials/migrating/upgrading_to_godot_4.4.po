@@ -1,0 +1,99 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 4.4\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Breaking changes"
+msgstr "Cambiamenti distruttivi"
+
+msgid ""
+"This article indicates whether each breaking change affects GDScript and "
+"whether the C# breaking change is *binary compatible* or *source compatible*:"
+msgstr ""
+"Questo articolo indica se ogni cambiamento distruttivo influisce su GDScript "
+"e se un cambiamento distruttivo in C# è *compatibile con il binario* o "
+"*compatibile con il codice sorgente*:"
+
+msgid ""
+"**Source compatible** - Source code will compile successfully without "
+"changes when upgrading Godot."
+msgstr ""
+"**Compatibile con il codice sorgente** - Il codice sorgente sarà compilato "
+"correttamente senza cambiamenti all'aggiornamento di Godot."
+
+msgid "Core"
+msgstr "Fondamentali"
+
+msgid "Change"
+msgstr "Cambiamento"
+
+msgid "GDScript Compatible"
+msgstr "Compatibili con GDScript"
+
+msgid "C# Binary Compatible"
+msgstr "Compatibili con eseguibili C#"
+
+msgid "C# Source Compatible"
+msgstr "Compatibili con codice sorgente C#"
+
+msgid "Introduced"
+msgstr "Introdotti"
+
+msgid "|✔️|"
+msgstr "|✔️|"
+
+msgid "|✔️ with compat|"
+msgstr "|✔️ with compat|"
+
+msgid "|❌|"
+msgstr "|❌|"
+
+msgid "GUI nodes"
+msgstr "Nodi GUI"
+
+msgid "**RichTextLabel**"
+msgstr "**RichTextLabel**"
+
+msgid "**GraphEdit**"
+msgstr "**GraphEdit**"
+
+msgid "Physics"
+msgstr "Fisica"
+
+msgid "Rendering"
+msgstr "Renderer"
+
+msgid "**RenderingDevice**"
+msgstr "**RenderingDevice**"
+
+msgid "**RenderingServer**"
+msgstr "**RenderingServer**"
+
+msgid "Navigation"
+msgstr "Navigazione"
+
+msgid "**NavigationServer2D**"
+msgstr "**NavigationServer2D**"
+
+msgid "**NavigationServer3D**"
+msgstr "**NavigationServer3D**"
+
+msgid "Editor plugins"
+msgstr "Estensioni per l'editor"
+
+msgid "**EditorInterface**"
+msgstr "**EditorInterface**"
+
+msgid "Behavior changes"
+msgstr "Cambiamenti di comportamento"
+
+msgid "Android"
+msgstr "Android"

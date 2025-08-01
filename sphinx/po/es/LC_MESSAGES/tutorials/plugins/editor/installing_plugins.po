@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -36,7 +36,7 @@ msgstr ""
 "La forma preferida de encontrar los plugins de Godot es usar la `Biblioteca "
 "de Activos <https://godotengine.org/asset-library/>`__. Aunque se puede "
 "navegar en línea, es más conveniente utilizarlo directamente desde el "
-"editor. Para ello, haga clic en la pestaña **AssetLib** en la parte superior "
+"editor. Para ello, haz clic en la pestaña **AssetLib** en la parte superior "
 "del editor:"
 
 msgid "You can also find assets on code hosting websites such as GitHub."

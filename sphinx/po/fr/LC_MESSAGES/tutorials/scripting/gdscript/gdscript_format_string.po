@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "GDScript format strings"
-msgstr "Chaines de format GDScript"
+msgstr "Chaînes de format en GDScript"
 
 msgid "Examine this concrete GDScript example:"
 msgstr "Examinez cet exemple concret en GDScript :"
@@ -25,6 +25,9 @@ msgstr ""
 "Les emplacements réservés commencent toujours par un ``%``, mais le ou les "
 "caractères suivants, le *spécificateur de format*, détermine comment la "
 "valeur donnée est convertie en chaîne."
+
+msgid "There are other `format specifiers`_."
+msgstr "Il y a d'autres `spécificateurs de format`_."
 
 msgid "Multiple placeholders"
 msgstr "Emplacements réservés multiples"

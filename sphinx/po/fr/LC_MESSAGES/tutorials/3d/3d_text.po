@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,6 +28,19 @@ msgstr ""
 
 msgid "Label3D"
 msgstr "Label3D"
+
+msgid ""
+"Label3D behaves like a Label node, but in 3D space. Unlike the Label node, "
+"this Label3D node does **not** inherit properties of a GUI theme. However, "
+"its look remains customizable and uses the same font subresource as Control "
+"nodes (including support for :abbr:`MSDF (Multi-channel Signed Distance "
+"Font)` font rendering)."
+msgstr ""
+"Label3D se comporte comme un nœud Label mais dans un espace 3D. Mais comparé "
+"au nœud Label, celui-ci n'hérite **pas** des propriétés d'un thème de GUI. "
+"Cependant, son apparence reste personnalisable et utilise les mêmes sous-"
+"ressources de police que les nœuds Control utilisent (y compris le support "
+"pour le rendu de police :abbr:`CDSM (Champ de Distance Signé Multicanal)`)."
 
 msgid "Advantages"
 msgstr "Avantages"

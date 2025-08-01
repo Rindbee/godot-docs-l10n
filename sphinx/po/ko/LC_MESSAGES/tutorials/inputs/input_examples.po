@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,9 @@ msgstr ""
 
 msgid "Introduction"
 msgstr "소개"
+
+msgid "Examples:"
+msgstr "예시:"
+
+msgid "Keyboard modifiers"
+msgstr "키보드 모디파이어"

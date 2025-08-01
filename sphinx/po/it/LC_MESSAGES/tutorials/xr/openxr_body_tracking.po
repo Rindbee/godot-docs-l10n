@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,45 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "OpenXR body tracking"
+msgstr "Tracciamento del corpo OpenXR"
+
+msgid "/user/vive_tracker_htcx/role/handheld_object"
+msgstr "/user/vive_tracker_htcx/role/handheld_object"
+
+msgid "/user/vive_tracker_htcx/role/left_foot"
+msgstr "/user/vive_tracker_htcx/role/left_foot"
+
+msgid "/user/vive_tracker_htcx/role/right_foot"
+msgstr "/user/vive_tracker_htcx/role/right_foot"
+
+msgid "/user/vive_tracker_htcx/role/left_shoulder"
+msgstr "/user/vive_tracker_htcx/role/left_shoulder"
+
+msgid "/user/vive_tracker_htcx/role/right_shoulder"
+msgstr "/user/vive_tracker_htcx/role/right_shoulder"
+
+msgid "/user/vive_tracker_htcx/role/left_elbow"
+msgstr "/user/vive_tracker_htcx/role/left_elbow"
+
+msgid "/user/vive_tracker_htcx/role/right_elbow"
+msgstr "/user/vive_tracker_htcx/role/right_elbow"
+
+msgid "/user/vive_tracker_htcx/role/left_knee"
+msgstr "/user/vive_tracker_htcx/role/left_knee"
+
+msgid "/user/vive_tracker_htcx/role/right_knee"
+msgstr "/user/vive_tracker_htcx/role/right_knee"
+
+msgid "/user/vive_tracker_htcx/role/waist"
+msgstr "/user/vive_tracker_htcx/role/waist"
+
+msgid "/user/vive_tracker_htcx/role/chest"
+msgstr "/user/vive_tracker_htcx/role/chest"
+
+msgid "/user/vive_tracker_htcx/role/camera"
+msgstr "/user/vive_tracker_htcx/role/camera"
+
+msgid "/user/vive_tracker_htcx/role/keyboard"
+msgstr "/user/vive_tracker_htcx/role/keyboard"

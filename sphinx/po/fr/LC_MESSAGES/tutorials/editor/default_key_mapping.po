@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,20 @@ msgstr "feuille de triche, feuille de triche, raccourci"
 
 msgid "Default editor shortcuts"
 msgstr "Raccourcis de l'éditeur par défaut"
+
+msgid ""
+"Many Godot editor functions can be executed with keyboard shortcuts. This "
+"page lists functions which have associated shortcuts by default, but many "
+"others are available for customization in editor settings as well. To change "
+"keys associated with these and other actions navigate to **Editor > Editor "
+"Settings > Shortcuts**."
+msgstr ""
+"De nombreuses fonctions de l'éditeur Godot peuvent être exécutées à l'aide "
+"de raccourcis clavier. Cette page énumère les fonctions qui ont des "
+"raccourcis associés par défaut, mais de nombreux autres sont également "
+"disponibles pour être personnalisés dans les paramètres de l'éditeur. Pour "
+"modifier les touches associées à ces actions et à d'autres, naviguez vers "
+"**Éditeur > Paramètres de l'éditeur > Raccourcis**."
 
 msgid ""
 "While some actions are universal, a lot of shortcuts are specific to "
@@ -42,6 +56,9 @@ msgstr ""
 "de ce système d'exploitation devraient trouver intuitive la configuration "
 "des touches par défaut de l'éditeur Godot."
 
+msgid "General editor actions"
+msgstr "Actions générales de l'éditeur"
+
 msgid "Action name"
 msgstr "Nom de l'action"
 
@@ -60,6 +77,9 @@ msgstr "Ouvrir l'éditeur 2D"
 msgid ":kbd:`Ctrl + F1`"
 msgstr ":kbd:`Ctrl + F1`"
 
+msgid ":kbd:`Cmd + Ctrl + 1`"
+msgstr ":kbd:`Cmd + Ctrl + 1`"
+
 msgid "``editor/editor_2d``"
 msgstr "``editor/editor_2d``"
 
@@ -69,6 +89,9 @@ msgstr "Ouvrir l'éditeur 3D"
 msgid ":kbd:`Ctrl + F2`"
 msgstr ":kbd:`Ctrl + F2`"
 
+msgid ":kbd:`Cmd + Ctrl + 2`"
+msgstr ":kbd:`Cmd + Ctrl + 2`"
+
 msgid "``editor/editor_3d``"
 msgstr "``editor/editor_3d``"
 
@@ -77,6 +100,9 @@ msgstr "Ouvrir l'éditeur de script"
 
 msgid ":kbd:`Ctrl + F3`"
 msgstr ":kbd:`Ctrl + F3`"
+
+msgid ":kbd:`Cmd + Ctrl + 3`"
+msgstr ":kbd:`Cmd + Ctrl + 3`"
 
 msgid "``editor/editor_script``"
 msgstr "``editor/editor_script``"
@@ -105,11 +131,17 @@ msgstr ":kbd:`Cmd + Ctrl + D`"
 msgid "``editor/distraction_free_mode``"
 msgstr "``editor/distraction_free_mode``"
 
+msgid "Next Scene Tab"
+msgstr "Onglet de la scène suivante"
+
 msgid ":kbd:`Ctrl + Tab`"
 msgstr ":kbd:`Ctrl + Tab`"
 
 msgid "``editor/next_tab``"
 msgstr "``editor/next_tab``"
+
+msgid "Previous Scene Tab"
+msgstr "Onglet de la scène précédente"
 
 msgid ":kbd:`Ctrl + Shift + Tab`"
 msgstr ":kbd:`Ctrl + Shift + Tab`"
@@ -206,6 +238,9 @@ msgstr "Ouverture rapide"
 
 msgid ":kbd:`Shift + Alt + O`"
 msgstr ":kbd:`Shift + Alt + O`"
+
+msgid ":kbd:`Cmd + Ctrl + O`"
+msgstr ":kbd:`Cmd + Ctrl + O`"
 
 msgid "``editor/quick_open``"
 msgstr "``editor/quick_open``"
@@ -381,8 +416,85 @@ msgstr ":kbd:`Ctrl + Shift + P`"
 msgid ":kbd:`Cmd + Shift + P`"
 msgstr ":kbd:`Cmd + Shift + P`"
 
+msgid "``editor/command_palette``"
+msgstr "``editor/command_palette``"
+
+msgid "Bottom panels"
+msgstr "Panneaux inférieurs"
+
+msgid ""
+"Only bottom panels that are always available have a default shortcut "
+"assigned. Others must be manually bound in the Editor Settings if desired."
+msgstr ""
+"Seuls les panneaux inférieurs qui sont toujours disponibles ont un raccourci "
+"par défaut assigné. Les autres doivent être assignés manuellement dans les "
+"paramètres de l'éditeur si nécessaire."
+
+msgid "Toggle Last Opened Panel"
+msgstr "Afficher/Cacher le dernier panneau ouvert"
+
+msgid ":kbd:`Ctrl + J`"
+msgstr ":kbd:`Ctrl + J`"
+
+msgid "``editor/toggle_last_opened_bottom_panel``"
+msgstr "``editor/toggle_last_opened_bottom_panel``"
+
+msgid "Toggle Animation Bottom Panel"
+msgstr "Afficher/Cacher le panneau inférieur d'animation"
+
+msgid ":kbd:`Alt + N`"
+msgstr ":kbd:`Alt + N`"
+
+msgid "``bottom_panels/toggle_animation_bottom_panel``"
+msgstr "``bottom_panels/toggle_animation_bottom_panel``"
+
+msgid "Toggle Audio Bottom Panel"
+msgstr "Afficher/Cacher le panneau inférieur audio"
+
+msgid ":kbd:`Alt + A`"
+msgstr ":kbd:`Alt + A`"
+
+msgid "``bottom_panels/toggle_audio_bottom_panel``"
+msgstr "``bottom_panels/toggle_audio_bottom_panel``"
+
+msgid "Toggle Debugger Bottom Panel"
+msgstr "Afficher/Cacher le panneau inférieur du débogueur"
+
+msgid ":kbd:`Alt + D`"
+msgstr ":kbd:`Alt + D`"
+
+msgid "``bottom_panels/toggle_debugger_bottom_panel``"
+msgstr "``bottom_panels/toggle_debugger_bottom_panel``"
+
+msgid "Toggle FileSystem Bottom Panel"
+msgstr "Afficher/Cacher le panneau inférieur FileSystem"
+
 msgid ":kbd:`Alt + F`"
 msgstr ":kbd:`Alt + F`"
+
+msgid "``bottom_panels/toggle_filesystem_bottom_panel``"
+msgstr "``bottom_panels/toggle_filesystem_bottom_panel``"
+
+msgid "Toggle Output Bottom Panel"
+msgstr "Afficher/Cacher le panneau inférieur de sortie"
+
+msgid ":kbd:`Alt + O`"
+msgstr ":kbd:`Alt + O`"
+
+msgid "``bottom_panels/toggle_output_bottom_panel``"
+msgstr "``bottom_panels/toggle_output_bottom_panel``"
+
+msgid "Toggle Shader Editor Bottom Panel"
+msgstr "Afficher/Cacher le panneau inférieur d'éditeur de shader"
+
+msgid ":kbd:`Alt + S`"
+msgstr ":kbd:`Alt + S`"
+
+msgid "``bottom_panels/toggle_shader_editor_bottom_panel``"
+msgstr "``bottom_panels/toggle_shader_editor_bottom_panel``"
+
+msgid "2D / CanvasItem editor"
+msgstr "Éditeur 2D / CanvasItem"
 
 msgid "Zoom In"
 msgstr "Zoomer"
@@ -602,6 +714,9 @@ msgstr ":kbd:`Shift + K`"
 
 msgid "``canvas_item_editor/anim_clear_pose``"
 msgstr "``canvas_item_editor/anim_clear_pose``"
+
+msgid "3D / Spatial editor"
+msgstr "Éditeur 3D / Spatial"
 
 msgid "Toggle Freelook"
 msgstr "Basculer en vue libre"
@@ -900,6 +1015,9 @@ msgstr ":kbd:`Cmd + 4`"
 msgid "``spatial_editor/4_viewports``"
 msgstr "``spatial_editor/4_viewports``"
 
+msgid "Text editor"
+msgstr "Éditeur de texte"
+
 msgid "Cut"
 msgstr "Couper"
 
@@ -1082,6 +1200,18 @@ msgstr ":kbd:`Ctrl + Cmd + F`"
 
 msgid "``script_text_editor/toggle_fold_line``"
 msgstr "``script_text_editor/toggle_fold_line``"
+
+msgid "Duplicate Lines"
+msgstr "Dupliquer lignes"
+
+msgid ":kbd:`Ctrl + Alt + Down Arrow`"
+msgstr ":kbd:`Ctrl + Alt + Flèche Bas`"
+
+msgid ":kbd:`Cmd + Shift + Down Arrow`"
+msgstr ":kbd:`Cmd + Shift + Flèche Bas`"
+
+msgid "``script_text_editor/duplicate_lines``"
+msgstr "``script_text_editor/duplicate_lines``"
 
 msgid "Duplicate Selection"
 msgstr "Dupliquer la sélection"
@@ -1293,6 +1423,9 @@ msgstr ":kbd:`Opt + Shift + Space`"
 msgid "``script_text_editor/contextual_help``"
 msgstr "``script_text_editor/contextual_help``"
 
+msgid "Script editor"
+msgstr "Éditeur de Script"
+
 msgid "``script_editor/find``"
 msgstr "``script_editor/find``"
 
@@ -1445,6 +1578,9 @@ msgstr "Réinitialiser le zoom"
 
 msgid "``script_editor/reset_zoom``"
 msgstr "``script_editor/reset_zoom``"
+
+msgid "Editor output"
+msgstr "Sortie de l'Éditeur"
 
 msgid "Copy Selection"
 msgstr "Copier la sélection"
@@ -1599,6 +1735,9 @@ msgstr ":kbd:`Cmd + Down Arrow`"
 msgid "``file_dialog/move_favorite_down``"
 msgstr "``file_dialog/move_favorite_down``"
 
+msgid "FileSystem dock"
+msgstr "Dock du système de fichiers"
+
 msgid "Copy Path"
 msgstr "Copier le chemin"
 
@@ -1619,6 +1758,9 @@ msgstr "``filesystem_dock/duplicate``"
 
 msgid "``filesystem_dock/delete``"
 msgstr "``filesystem_dock/delete``"
+
+msgid "Scene tree dock"
+msgstr "Dock Arbre de Scène"
 
 msgid "Add Child Node"
 msgstr "Ajouter un nœud enfant"
@@ -1668,6 +1810,9 @@ msgstr "``scene_tree/move_up``"
 msgid "``scene_tree/move_down``"
 msgstr "``scene_tree/move_down``"
 
+msgid "Animation track editor"
+msgstr "Éditeur de piste d'animation"
+
 msgid "``animation_editor/duplicate_selection``"
 msgstr "``animation_editor/duplicate_selection``"
 
@@ -1709,6 +1854,9 @@ msgstr ":kbd:`Cmd + Left Arrow`"
 
 msgid "``animation_editor/goto_prev_step``"
 msgstr "``animation_editor/goto_prev_step``"
+
+msgid "TileMap editor"
+msgstr "Éditeur de TileMap"
 
 msgid "Select"
 msgstr "Sélectionner"
@@ -1824,6 +1972,9 @@ msgstr ":kbd:`X`"
 msgid "``tiles_editor/rotate_tile_right``"
 msgstr "``tiles_editor/rotate_tile_right``"
 
+msgid "TileSet Editor"
+msgstr "Éditeur de Tileset"
+
 msgid "Next Coordinate"
 msgstr "Coordonnée Suivante"
 
@@ -1910,3 +2061,63 @@ msgstr ":kbd:`8`"
 
 msgid "``tileset_editor/editmode_z_index``"
 msgstr "``tileset_editor/editmode_z_index``"
+
+msgid "Project manager"
+msgstr "Gestionnaire de projets"
+
+msgid "New Project"
+msgstr "Nouveau projet"
+
+msgid "``project_manager/new_project``"
+msgstr "``project_manager/new_project``"
+
+msgid "Import Project"
+msgstr "Importer un projet"
+
+msgid "``project_manager/import_project``"
+msgstr "``project_manager/import_project``"
+
+msgid "Scan for Projects"
+msgstr "Scanner pour des projets"
+
+msgid "``project_manager/scan_projects``"
+msgstr "``project_manager/scan_projects``"
+
+msgid "Edit Project"
+msgstr "Éditer un projet"
+
+msgid ":kbd:`Ctrl + E`"
+msgstr ":kbd:`Ctrl + E`"
+
+msgid ":kbd:`Cmd + E`"
+msgstr ":kbd:`Cmd + E`"
+
+msgid "``project_manager/edit_project``"
+msgstr "``project_manager/edit_project``"
+
+msgid "Run Project"
+msgstr "Exécuter un projet"
+
+msgid "``project_manager/run_project``"
+msgstr "``project_manager/run_project``"
+
+msgid "Rename Project"
+msgstr "Renommer un projet"
+
+msgid ":kbd:`F2`"
+msgstr ":kbd:`F2`"
+
+msgid ":kbd:`Enter`"
+msgstr ":kbd:`Enter`"
+
+msgid "``project_manager/rename_project``"
+msgstr "``project_manager/rename_project``"
+
+msgid "Remove Project"
+msgstr "Retirer un projet"
+
+msgid ":kbd:`Delete`"
+msgstr ":kbd:`Delete`"
+
+msgid "``project_manager/remove_project``"
+msgstr "``project_manager/remove_project``"

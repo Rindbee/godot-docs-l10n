@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,9 @@ msgstr ""
 
 msgid "Introduction"
 msgstr "Введение"
+
+msgid ""
+"For this demo, we will use this :ref:`Sprite <class_Sprite2D>` of a sheep."
+msgstr ""
+"Для этой демонстрации мы будем использовать :ref:`Sprite <class_Sprite2D>` "
+"овцы."

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,6 +17,9 @@ msgstr "Introduzione alla fisica"
 msgid "In this guide, you will learn:"
 msgstr "In questa guida imparerai:"
 
+msgid "Collision objects"
+msgstr "Oggetti di collisione"
+
 msgid ":ref:`Area2D <class_Area2D>`"
 msgstr ":ref:`Area2D <class_Area2D>`"
 
@@ -25,6 +28,12 @@ msgstr ":ref:`StaticBody2D <class_StaticBody2D>`"
 
 msgid ":ref:`RigidBody2D <class_RigidBody2D>`"
 msgstr ":ref:`RigidBody2D <class_RigidBody2D>`"
+
+msgid ":ref:`CharacterBody2D <class_CharacterBody2D>`"
+msgstr ":ref:`CharacterBody2D <class_CharacterBody2D>`"
+
+msgid "Physics material"
+msgstr "Materiale di fisica"
 
 msgid "Collision shapes"
 msgstr "Forme di collisione"
@@ -35,17 +44,38 @@ msgstr "collision_layer"
 msgid "collision_mask"
 msgstr "collision_mask"
 
+msgid "GUI example"
+msgstr "Esempio di GUI"
+
+msgid "Code example"
+msgstr "Esempio in codice"
+
 msgid "Area2D"
 msgstr "Area2D"
 
 msgid "There are three main uses for :ref:`Area2D <class_Area2D>`:"
-msgstr "Ci sono tre usi principali per : ref:`Area2D <class_Area2D>`:"
+msgstr "Ci sono tre usi principali per :ref:`Area2D <class_Area2D>`:"
 
 msgid "StaticBody2D"
 msgstr "StaticBody2D"
+
+msgid "Conveyor belts"
+msgstr "Nastri trasportatori"
 
 msgid "Walls and other obstacles"
 msgstr "Muri e altri ostacoli"
 
 msgid "RigidBody2D"
 msgstr "RigidBody2D"
+
+msgid "Using RigidBody2D"
+msgstr "Utilizzo di RigidBody2D"
+
+msgid "CharacterBody2D"
+msgstr "CharacterBody2D"
+
+msgid ":ref:`move_and_collide <class_PhysicsBody2D_method_move_and_collide>`"
+msgstr ":ref:`move_and_collide <class_PhysicsBody2D_method_move_and_collide>`"
+
+msgid ":ref:`move_and_slide <class_CharacterBody2D_method_move_and_slide>`"
+msgstr ":ref:`move_and_slide <class_CharacterBody2D_method_move_and_slide>`"

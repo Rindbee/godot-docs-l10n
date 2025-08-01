@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,6 +29,9 @@ msgstr "Héritage"
 
 msgid "At the top of each file, you will see the name of the class."
 msgstr "En haut de chaque fichier, tu verras les noms des classes."
+
+msgid "Brief Description"
+msgstr "Description brève"
 
 msgid "Description"
 msgstr "Description"
@@ -58,8 +61,14 @@ msgstr "Méthodes"
 msgid "Signals"
 msgstr "Signaux"
 
+msgid "Enumerations"
+msgstr "Énumérations"
+
 msgid "Constants"
 msgstr "Constantes"
 
 msgid "Property Descriptions"
 msgstr "Descriptions des propriétés"
+
+msgid "Method Descriptions"
+msgstr "Descriptions des méthodes"

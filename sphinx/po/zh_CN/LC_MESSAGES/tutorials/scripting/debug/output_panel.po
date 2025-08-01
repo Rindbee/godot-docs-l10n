@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,39 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Output panel"
+msgstr "输出面板"
+
+msgid "Message categories"
+msgstr "消息分类"
+
+msgid "Four message categories are available:"
+msgstr "消息分四种："
+
+msgid ""
+"**Log:** Standard messages printed by the project. Displayed in white or "
+"black (depending on the editor theme)."
+msgstr ""
+"**日志：**\\ 项目打印的标准信息。显示为白色或黑色（取决于编辑器主题）。"
+
+msgid ""
+"**Editor:** Messages printed by the editor, typically intended to be traces "
+"of undo/redo actions. Displayed in gray."
+msgstr ""
+"**编辑器：**\\ 编辑器打印的消息，通常用于跟踪撤销/重做操作。显示为灰色。"
+
+msgid "Filtering messages"
+msgstr "筛选消息"
+
+msgid "Clearing messages"
+msgstr "清空消息"
+
+msgid "Printing messages"
+msgstr "打印消息"
+
+msgid "Several methods are available to print messages:"
+msgstr "打印消息分以下几种方法："
+
+msgid "Printing rich text"
+msgstr "打印富文本"

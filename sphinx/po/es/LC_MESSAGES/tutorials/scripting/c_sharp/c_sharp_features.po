@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -98,13 +98,6 @@ msgstr "A continuación está la lista completa de hints"
 
 msgid "``GODOT`` is always defined for Godot projects."
 msgstr "\"GODOT\" siempre está definido para los proyectos de Godot."
-
-msgid ""
-"One of ``GODOT_64`` or ``GODOT_32`` is defined depending on if the "
-"architecture is 64-bit or 32-bit."
-msgstr ""
-"Uno de ``GODOT_64`` o ``GODOT_32`` se define dependiendo de si la "
-"arquitectura es de 64 o 32 bits."
 
 msgid ""
 "When **exporting**, the following may also be defined depending on the "

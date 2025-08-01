@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,39 @@ msgstr "Tryb renderowania"
 
 msgid "Description"
 msgstr "Opis"
+
+msgid "**blend_mix**"
+msgstr "**blend_mix**"
+
+msgid "**blend_add**"
+msgstr "**blend_add**"
+
+msgid "**blend_sub**"
+msgstr "**blend_sub**"
+
+msgid "**blend_mul**"
+msgstr "**blend_mul**"
+
+msgid "**blend_premul_alpha**"
+msgstr "**blend_premul_alpha**"
+
+msgid "**blend_disabled**"
+msgstr "**blend_disabled**"
+
+msgid "**unshaded**"
+msgstr "**unshaded**"
+
+msgid "**light_only**"
+msgstr "**light_only**"
+
+msgid "**skip_vertex_transform**"
+msgstr "**skip_vertex_transform**"
+
+msgid "**world_vertex_coords**"
+msgstr "**world_vertex_coords**"
+
+msgid "Built-ins"
+msgstr "Wbudowane"
 
 msgid "Built-in"
 msgstr "Wbudowany"

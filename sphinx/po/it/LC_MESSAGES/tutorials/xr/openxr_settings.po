@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,47 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "OpenXR Settings"
+msgstr "Impostazioni OpenXR"
+
 msgid "Enabled"
 msgstr "Abilitato"
+
+msgid "Default Action Map"
+msgstr "Mappa di azioni predefinita"
+
+msgid "Form Factor"
+msgstr "Fattore forma"
+
+msgid "View Configuration"
+msgstr "Configurazione di vista"
+
+msgid "Reference Space"
+msgstr "Spazio di riferimento"
+
+msgid "Local"
+msgstr "Locale"
+
+msgid "Local Floor"
+msgstr "Pavimento locale"
+
+msgid "Environment Blend Mode"
+msgstr "Modo di fusione di ambiente"
+
+msgid "Foveation Level"
+msgstr "Livello di foveazione"
+
+msgid "**Compatibility renderer only**"
+msgstr "**Solo per il renderer Compatibilità**"
+
+msgid "Extensions"
+msgstr "Estensioni"
+
+msgid "Hand Tracking"
+msgstr "Tracciamento delle mani"
+
+msgid "Eye Gaze Interaction"
+msgstr "Interazione con lo sguardo degli occhi"
+
+msgid "Binding Modifiers"
+msgstr "Modificatori di associazioni"

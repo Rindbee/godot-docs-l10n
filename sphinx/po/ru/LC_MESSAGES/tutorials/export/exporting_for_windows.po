@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,15 @@ msgstr ""
 
 msgid "Exporting for Windows"
 msgstr "Экспортирование для Windows"
+
+msgid ""
+"This page describes how to export a Godot project to Windows. If you're "
+"looking to compile editor or export template binaries from source instead, "
+"read :ref:`doc_compiling_for_windows`."
+msgstr ""
+"На этой странице описано, как экспортировать проект Godot в Windows. Если вы "
+"хотите скомпилировать редактор или экспортировать двоичные файлы шаблона из "
+"исходного кода, см. :ref:`doc_compiling_for_windows`."
 
 msgid ""
 "The simplest way to distribute a game for PC is to copy the executable "
@@ -30,12 +39,27 @@ msgid ""
 "editor and debugger."
 msgstr ""
 "Godot предлагает улучшенный подход при использовании системы экспорта. При "
-"экспорте для Windows экспортер берет все файлы проекта и создает файл data."
-"pck. Этот файл связан со специально оптимизированным двоичным файлом, "
+"экспорте для Windows экспортер берет все файлы проекта и создает файл "
+"data.pck. Этот файл связан со специально оптимизированным двоичным файлом, "
 "который меньше по размеру, быстрее и не содержит редактора и отладчика."
 
 msgid "Code signing"
 msgstr "Подписание кода"
+
+msgid ""
+"Godot is capable of automatic code signing on export. To do this you must "
+"have the ``Windows SDK`` (on Windows) or `osslsigncode <https://github.com/"
+"mtrojnar/osslsigncode>`__ (on any other OS) installed. You will also need a "
+"package signing certificate, information on creating one can be found `here "
+"<https://learn.microsoft.com/en-us/windows/msix/package/create-certificate-"
+"package-signing>`__."
+msgstr ""
+"Godot поддерживает автоматическую подпись кода при экспорте. Для этого "
+"необходимо установить ``Windows SDK`` (в Windows) или `osslsigncode <https://"
+"github.com/mtrojnar/osslsigncode>`__ (в любой другой ОС). Вам также "
+"потребуется сертификат для подписи пакета. Информацию о его создании можно "
+"найти `здесь <https://learn.microsoft.com/en-us/windows/msix/package/create-"
+"certificate-package-signing>`__."
 
 msgid ""
 "If you export for Windows with embedded PCK files, you will not be able to "
@@ -88,5 +112,50 @@ msgstr ""
 "настроить по мере необходимости. Как только это будет сделано, Godot "
 "подпишет ваш проект при экспорте."
 
+msgid "Environment variables"
+msgstr "Переменные среды"
+
+msgid ""
+"You can use the following environment variables to set export options "
+"outside of the editor. During the export process, these override the values "
+"that you set in the export menu."
+msgstr ""
+"Вы можете использовать следующие переменные окружения, чтобы задавать опции "
+"экспорта вне редактора. Во время процесса экспорта, они переопределяют "
+"значения, которые были заданы в меню экспорта."
+
 msgid "Windows export environment variables"
 msgstr "Переменные среды экспорта Windows"
+
+msgid "Export option"
+msgstr "Опции экспорта"
+
+msgid "Environment variable"
+msgstr "Переменная окружения"
+
+msgid "Encryption / Encryption Key"
+msgstr "Шифрование / Ключ шифрования"
+
+msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "Options / Codesign / Identity Type"
+msgstr "Options / Codesign / Identity Type"
+
+msgid "``GODOT_WINDOWS_CODESIGN_IDENTITY_TYPE``"
+msgstr "``GODOT_WINDOWS_CODESIGN_IDENTITY_TYPE``"
+
+msgid "Options / Codesign / Identity"
+msgstr "Options / Codesign / Identity"
+
+msgid "``GODOT_WINDOWS_CODESIGN_IDENTITY``"
+msgstr "``GODOT_WINDOWS_CODESIGN_IDENTITY``"
+
+msgid "Options / Codesign / Password"
+msgstr "Options / Codesign / Password"
+
+msgid "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
+msgstr "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
+
+msgid "Export options"
+msgstr "Опции экспорта"

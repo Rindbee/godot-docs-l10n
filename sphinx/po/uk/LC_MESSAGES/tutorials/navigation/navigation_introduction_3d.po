@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -86,7 +86,7 @@ msgid "The following NavigationServer RID types are available."
 msgstr "Доступні наступні типи RID NavigationServer."
 
 msgid "NavMap RID"
-msgstr "Nav Map RID"
+msgstr "NavMap RID"
 
 msgid ""
 "Reference to a specific navigation map that holds regions and agents. The "
@@ -99,7 +99,7 @@ msgstr ""
 "фізики."
 
 msgid "NavRegion RID"
-msgstr "Nav Region RID"
+msgstr "NavRegion RID"
 
 msgid ""
 "Reference to a specific navigation region that can hold navigation mesh "
@@ -111,7 +111,7 @@ msgstr ""
 "бітової маски шару навігації."
 
 msgid "NavLink RID"
-msgstr "Nav Link RID"
+msgstr "NavLink RID"
 
 msgid ""
 "Reference to a specific navigation link that connects two navigation mesh "
@@ -121,7 +121,7 @@ msgstr ""
 "навігаційної сітки на довільних відстанях."
 
 msgid "NavAgent RID"
-msgstr "Nav Agent RID"
+msgstr "NavAgent RID"
 
 msgid ""
 "Reference to a specific avoidance agent. The avoidance is defined by a "
@@ -131,7 +131,7 @@ msgstr ""
 "радіуса."
 
 msgid "NavObstacle RID"
-msgstr "Nav Obstacle RID"
+msgstr "NavObstacle RID"
 
 msgid ""
 "Reference to a specific avoidance obstacle used to affect and constrain the "
@@ -281,11 +281,11 @@ msgid "Add a NavigationRegion3D Node to the scene."
 msgstr "Додайте до сцени вузол NavigationRegion3D."
 
 msgid ""
-"Click on the region node and add a new :ref:"
-"`NavigationMesh<class_NavigationMesh>` Resource to the region node."
+"Click on the region node and add a "
+"new :ref:`NavigationMesh<class_NavigationMesh>` Resource to the region node."
 msgstr ""
-"Клацніть вузол регіону та додайте новий ресурс :ref:"
-"`NavigationMesh<class_NavigationMesh>` до вузла регіону."
+"Клацніть вузол регіону та додайте новий "
+"ресурс :ref:`NavigationMesh<class_NavigationMesh>` до вузла регіону."
 
 msgid "Add a new MeshInstance3D node as a child of the region node."
 msgstr "Додайте новий вузол MeshInstance3D як дочірній вузол регіону."

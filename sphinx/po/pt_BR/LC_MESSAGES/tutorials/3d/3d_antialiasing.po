@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,13 @@ msgstr ""
 
 msgid "Introduction"
 msgstr "Introdução"
+
+msgid ""
+"Image is scaled by 2× with nearest-neighbor filtering to make aliasing more "
+"noticeable."
+msgstr ""
+"A imagem é dimensionada em 2× com filtragem de vizinho mais próximo (nearest-"
+"neighbor) para tornar o aliasing mais perceptível."
 
 msgid "Mobile"
 msgstr "Mobile"

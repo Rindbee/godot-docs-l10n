@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,8 +27,8 @@ msgid "Android Studio project layout"
 msgstr "Android Studio 项目结构"
 
 msgid ""
-"The project is organized using `Android Studio's modules <https://developer."
-"android.com/studio/projects#ApplicationModules>`_:"
+"The project is organized using `Android Studio's modules <https://"
+"developer.android.com/studio/projects#ApplicationModules>`_:"
 msgstr ""
 "你可以使用 `Android Studio 4.1或更高版本 <https://developer.android.com/"
 "studio/>`__ 进行安装："
@@ -73,3 +73,9 @@ msgstr "要调试 ``editor`` 模块："
 
 msgid "Building & debugging the app module"
 msgstr "应用模块的构建与调试"
+
+msgid "To build the ``app`` module:"
+msgstr "要构建 ``app`` 模块："
+
+msgid "To debug the ``app`` module:"
+msgstr "要调试 ``app`` 模块："

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -25,6 +25,9 @@ msgid ""
 "The debugger panel is split into several tabs, each focusing on a specific "
 "task."
 msgstr "调试器面板被分成几个标签, 每个标签专注于一个特定的任务."
+
+msgid "Stack Trace"
+msgstr "栈跟踪"
 
 msgid "You can use the buttons in the top-right corner to:"
 msgstr "你可以使用右上角的按钮来:"
@@ -206,14 +209,6 @@ msgstr ""
 "监视器是游戏运行时几个方面的图表, 如FPS, 内存使用情况, 场景中的节点数量等等. "
 "所有的监控器都会自动跟踪统计, 所以即使游戏运行时一个监控器没有打开, 你也可以"
 "在以后打开它, 查看数值的变化."
-
-msgid ""
-"In addition to the default performance monitors, you can also create :ref:"
-"`custom performance monitors <doc_custom_performance_monitors>` to track "
-"arbitrary values in your project."
-msgstr ""
-"除了默认的性能监视器外，您还可以创建 :ref:`自定义性能监视器 "
-"<doc_custom_performance_monitors>` 来跟踪项目中的任意值。"
 
 msgid "Video RAM"
 msgstr "显存"

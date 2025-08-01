@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Mobile considerations"
+msgstr "Considerazioni per mobile"
+
+msgid "Audio playback"
+msgstr "Riproduzione audio"
+
+msgid "AudioEffects are not supported."
+msgstr "Gli AudioEffect (effetti audio) non sono supportati."
+
+msgid "Export options"
+msgstr "Opzioni di esportazione"
+
+msgid "Thread and extension support"
+msgstr "Supporto per thread ed estensioni"
+
 msgid "Limitations"
 msgstr "Limitazioni"
+
+msgid "Background processing"
+msgstr "Elaborazione nello sfondo"
 
 msgid "Audio"
 msgstr "Audio"
@@ -22,3 +40,24 @@ msgstr "Networking"
 
 msgid "Clipboard"
 msgstr "Appunti"
+
+msgid "Gamepads"
+msgstr "Gamepad"
+
+msgid "Interacting with the browser and JavaScript"
+msgstr "Interaggire con il browser e JavaScript"
+
+msgid "Environment variables"
+msgstr "Variabili d'ambiente"
+
+msgid "HTML5 export environment variables"
+msgstr "Variabili d'ambiente di esportazione HTML5"
+
+msgid "Export option"
+msgstr "Opzioni di esportazione"
+
+msgid "Environment variable"
+msgstr "Variabile d'ambiente"
+
+msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"

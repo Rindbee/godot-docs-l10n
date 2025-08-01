@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -68,6 +68,21 @@ msgstr ""
 
 msgid "Custom meshes"
 msgstr "Mallas personalizadas"
+
+msgid ""
+"Custom meshes can be used for :ref:`CSGMesh3D <class_CSGMesh3D>` as long as "
+"the mesh is *manifold*. The mesh can be modeled in other software and "
+"imported into Godot. Multiple materials are supported."
+msgstr ""
+"Se pueden usar mallas personalizadas para :ref:`CSGMesh3D <class_CSGMesh3D>` "
+"siempre que la malla sea *múltiple*. La malla se puede modelar en otro "
+"software e importar a Godot. Se admiten múltiples materiales."
+
+msgid "have each edge connect to only two faces"
+msgstr "cada arista debe conectarse sólo a otras dos caras"
+
+msgid "CSGCombiner3D"
+msgstr "CSGCombiner3D"
 
 msgid "Processing order"
 msgstr "Orden de procesamiento"

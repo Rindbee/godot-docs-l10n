@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,24 @@ msgstr ""
 
 msgid "Project Settings"
 msgstr "Impostazioni del progetto"
+
+msgid "The Project Settings window"
+msgstr "La finestra delle Impostazioni del progetto"
+
+msgid "Changing project settings"
+msgstr "Modificare le impostazioni del progetto"
+
+msgid "Changing project settings from code"
+msgstr "Modificare le impostazioni del progetto da codice"
+
+msgid "Reading project settings"
+msgstr "Leggere le Impostazioni del progetto"
+
+msgid "Manually editing project.godot"
+msgstr "Modificare manualmente project.godot"
+
+msgid "Advanced project settings"
+msgstr "Impostazioni avanzate del progetto"
+
+msgid "The advanced project settings"
+msgstr "Le impostazioni avanzate del progetto"

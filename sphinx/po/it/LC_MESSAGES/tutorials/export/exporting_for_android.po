@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,36 @@ msgstr ""
 
 msgid "Exporting for Android"
 msgstr "Esportazione per Android"
+
+msgid "Environment variables"
+msgstr "Variabili d'ambiente"
+
+msgid "Export option"
+msgstr "Opzioni di esportazione"
+
+msgid "Environment variable"
+msgstr "Variabile d'ambiente"
+
+msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_PATH``"
+msgstr "``GODOT_ANDROID_KEYSTORE_DEBUG_PATH``"
+
+msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_USER``"
+msgstr "``GODOT_ANDROID_KEYSTORE_DEBUG_USER``"
+
+msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD``"
+msgstr "``GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD``"
+
+msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_PATH``"
+msgstr "``GODOT_ANDROID_KEYSTORE_RELEASE_PATH``"
+
+msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_USER``"
+msgstr "``GODOT_ANDROID_KEYSTORE_RELEASE_USER``"
+
+msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``"
+msgstr "``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``"
+
+msgid "Export options"
+msgstr "Opzioni di esportazione"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,11 +17,14 @@ msgstr "GDScript의 정적 타이핑(Static typing)"
 msgid "In this guide, you will learn:"
 msgstr "이 가이드에서 다음 내용을 배울 것입니다:"
 
+msgid "how to use static typing in GDScript;"
+msgstr "GDScript에서 정적 타이핑 사용법"
+
 msgid ""
 "Static types can be used on variables, constants, functions, parameters, and "
 "return types."
 msgstr ""
-"정적 타입은 변수, 상수, 함수, 매개 변수, 반환 타입에 사용될 수 있습니다."
+"정적 타입은 변수, 상수, 함수, 매개변수, 반환 타입에 사용될 수 있습니다."
 
 msgid "A brief look at static typing"
 msgstr "정적 타이핑에 대한 간단한 설명"
@@ -44,6 +47,12 @@ msgstr ""
 
 msgid "How to use static typing"
 msgstr "정적 타입 사용법"
+
+msgid "What can be a type hint"
+msgstr "유형 힌트가 될 수 있는 것"
+
+msgid "Example::"
+msgstr "예시::"
 
 msgid ""
 "If you try to cast with a built-in type and it fails, Godot will throw an "
@@ -74,8 +83,7 @@ msgstr "안전하지 않은 라인(line 7) vs 안전한 라인(line 6 and 8)"
 
 msgid ""
 "You can turn off safe lines or change their color in the editor settings."
-msgstr ""
-"에디터 설정에서 안전한 라인을 끌 수 있고 혹은 색상을 바꿀 수도 있습니다."
+msgstr "편집기 설정에서 안전한 라인을 끄거나 색상을 바꿀 수 있습니다."
 
 msgid "Typed or dynamic: stick to one style"
 msgstr "타입형 혹은 동적: 하나의 스타일을 고수하기"

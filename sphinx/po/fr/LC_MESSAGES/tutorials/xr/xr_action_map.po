@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,11 +24,24 @@ msgstr ""
 "Le système d'entrée de Godot est basé sur les ids de périphériques qui sont "
 "sans signification dans OpenXR."
 
+msgid "Action sets"
+msgstr "Ensembles d'actions"
+
 msgid "for Steam this is SteamVR,"
 msgstr "pour Steam il s'agit de SteamVR,"
 
 msgid "for Meta on Quest this is the Quest's native OpenXR client,"
 msgstr "pour Meta sur Quest, il s'agit du client OpenXR natif du Quest,"
+
+msgid ""
+"For your first XR game/application we highly recommend starting with just a "
+"single action set and to not over-engineer things."
+msgstr ""
+"Pour votre premier jeu/application XR, nous vous recommandons fortement de "
+"commencer par un seul ensemble d'action et de ne pas faire de sur-ingénierie."
+
+msgid "Col"
+msgstr "Colonne"
 
 msgid "Value"
 msgstr "Valeur"
@@ -38,6 +51,9 @@ msgstr "Description"
 
 msgid "1"
 msgstr "1"
+
+msgid "my_first_action_set"
+msgstr "mon_premier_ensemble_dactions"
 
 msgid "2"
 msgstr "2"
@@ -85,6 +101,9 @@ msgstr ""
 "sur le même profil. Dans ce cas, l'environnement d'exécution XR tentera de "
 "combiner les entrées."
 
+msgid "Profiles"
+msgstr "Profils"
+
 msgid ""
 "we could be using a Quest Pro controller but no Quest Pro profile was given "
 "or the XR runtime being used does not support the Quest Pro controller,"
@@ -110,3 +129,20 @@ msgstr ""
 "C'est pourquoi de nombreux environnements d'exécution XR ne l'utilisent "
 "qu'en dernier recours et tenteront d'utiliser les liaisons d'un des systèmes "
 "les plus populaires comme un repli d'abord."
+
+msgid ""
+"In order to use the dpad binding modifier you need to enable the dpad "
+"binding modifier extension in project settings:"
+msgstr ""
+"Afin d'utiliser le modificateur de lien dpad, vous devez activer l'extension "
+"de modificateur de lien dpad dans les paramètres du projet :"
+
+msgid ""
+"In order to use this modifier you must enable the analog threshold extension "
+"in the project settings:"
+msgstr ""
+"Pour utiliser ce modificateur, vous devez activer l'extension de seuil "
+"analogique dans les paramètres du projet :"
+
+msgid "``Amplitude`` is the amplitude of the pulse."
+msgstr "``Amplitude`` est l'amplitude de l'impulsion."

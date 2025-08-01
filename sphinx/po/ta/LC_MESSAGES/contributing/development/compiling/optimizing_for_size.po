@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -73,9 +73,10 @@ msgstr ""
 msgid ""
 "This will reduce the size of compiled binaries by a factor between 5× and "
 "10×. The downside is that crash backtraces will no longer provide accurate "
-"information (which is useful for troubleshooting the cause of a crash). :ref:"
-"`C++ profilers <doc_using_cpp_profilers>` will also no longer be able to "
-"display function names (this does not affect the built-in GDScript profiler)."
+"information (which is useful for troubleshooting the cause of a "
+"crash). :ref:`C++ profilers <doc_using_cpp_profilers>` will also no longer "
+"be able to display function names (this does not affect the built-in "
+"GDScript profiler)."
 msgstr ""
 "இது 5 × மற்றும் 10 between க்கு இடையில் ஒரு காரணியால் தொகுக்கப்பட்ட பைனரிகளின் அளவைக் "
 "குறைக்கும். தீங்கு என்னவென்றால், செயலிழப்பு பின்னடைவுகள் இனி துல்லியமான தகவல்களை வழங்காது "
@@ -104,8 +105,8 @@ msgid ""
 msgstr ""
 "இணைப்பு நேர தேர்வுமுறை செயல்படுத்துவது செயல்திறன் மற்றும் கோப்பு அளவு ஆகியவற்றின் "
 "அடிப்படையில் மிகவும் திறமையான இருமங்களை உருவாக்குகிறது. நகல் வார்ப்புரு செயல்பாடுகள் "
-"மற்றும் பயன்படுத்தப்படாத குறியீட்டை அகற்றுவதன் மூலம் இது செயல்படுகிறது. இது தற்போது சி."
-"சி.சி மற்றும் எம்.எச்.வி.சி கம்பைலர்களுடன் பயன்படுத்தப்படலாம்:"
+"மற்றும் பயன்படுத்தப்படாத குறியீட்டை அகற்றுவதன் மூலம் இது செயல்படுகிறது. இது தற்போது "
+"சி.சி.சி மற்றும் எம்.எச்.வி.சி கம்பைலர்களுடன் பயன்படுத்தப்படலாம்:"
 
 msgid ""
 "Linking becomes much slower and more RAM-consuming with this option, so it "
@@ -250,6 +251,93 @@ msgstr ""
 msgid "This is everything that will be disabled:"
 msgstr "இது முடக்கப்படும் அனைத்தும்:"
 
+msgid ":ref:`class_AcceptDialog`"
+msgstr ": குறிப்பு: `class_acceptdialog`"
+
+msgid ":ref:`class_CharFXTransform`"
+msgstr ": குறிப்பு: `class_charfxtransform`"
+
+msgid ":ref:`class_CodeEdit`"
+msgstr ": குறிப்பு: `class_codeedit`"
+
+msgid ":ref:`class_CodeHighlighter`"
+msgstr ": குறிப்பு: `class_codehighlither`"
+
+msgid ":ref:`class_ColorPickerButton`"
+msgstr ": குறிப்பு: `class_colorpickerbutton`"
+
+msgid ":ref:`class_ColorPicker`"
+msgstr ": Ref: `class_colorpicker`"
+
+msgid ":ref:`class_ConfirmationDialog`"
+msgstr ": குறிப்பு: `class_confirmationDialog`"
+
+msgid ":ref:`class_FileDialog`"
+msgstr ": குறிப்பு: `class_filedialog`"
+
+msgid ":ref:`class_GraphEdit`"
+msgstr ": குறிப்பு: `class_graphedit`"
+
+msgid ":ref:`class_GraphElement`"
+msgstr ": குறிப்பு: `class_graphelement`"
+
+msgid ":ref:`class_GraphFrame`"
+msgstr ": குறிப்பு: `class_graphframe`"
+
+msgid ":ref:`class_GraphNode`"
+msgstr ": குறிப்பு: `class_graphnode`"
+
+msgid ":ref:`class_HSplitContainer`"
+msgstr ": குறிப்பு: `class_hsplitcontainer`"
+
+msgid ":ref:`class_MenuBar`"
+msgstr ": Ref: `class_menubar`"
+
+msgid ":ref:`class_MenuButton`"
+msgstr ": குறிப்பு: `class_menubutton`"
+
+msgid ":ref:`class_OptionButton`"
+msgstr ": குறிப்பு: `class_optionButton`"
+
+msgid ""
+":ref:`class_PopupMenu` (will make all popup menus unavailable in code for "
+"classes that use them, like :ref:`class_LineEdit`, even though those classes "
+"are still available)"
+msgstr ""
+":ref:`class_PopupMenu` (will make அனைத்தும் popup menus unavailable in குறியீடு "
+"க்கு வகுப்புகள் that use them, like :ref:`class_LineEdit`, இரட்டை though those "
+"வகுப்புகள் அரே still available)"
+
+msgid ":ref:`class_RichTextEffect`"
+msgstr ": ref: `class_richtexteffect`"
+
+msgid ":ref:`class_RichTextLabel`"
+msgstr ": ref: `வகுப்பு ரிச்ச்டெக்ச்ட்லேபிள்`"
+
+msgid ":ref:`class_SpinBox`"
+msgstr ": Ref: `class_spinbox`"
+
+msgid ":ref:`class_SplitContainer`"
+msgstr ": குறிப்பு: `class_splitcontainer`"
+
+msgid ":ref:`class_SubViewportContainer`"
+msgstr ": குறிப்பு: `class_subviewportcontainer`"
+
+msgid ":ref:`class_SyntaxHighlighter`"
+msgstr ": Ref: `வகுப்பு தொடரியல்`"
+
+msgid ":ref:`class_TextEdit`"
+msgstr ": ref: `class_textedit`"
+
+msgid ":ref:`class_TreeItem`"
+msgstr ": குறிப்பு: `class_treitem`"
+
+msgid ":ref:`class_Tree`"
+msgstr ": குறிப்பு: `class_tree`"
+
+msgid ":ref:`class_VSplitContainer`"
+msgstr ": குறிப்பு: `class_vsplitcontainer`"
+
 msgid "Disabling unwanted modules"
 msgstr "தேவையற்ற தொகுதிகள் முடக்குதல்"
 
@@ -293,6 +381,9 @@ msgid ""
 msgstr ""
 "மாற்றாக, பின்வருவனவற்றைப் போன்ற உள்ளடக்கங்களுடன் மூலத்தின் வேரில் `` Custom.py`` ஐ "
 "உருவாக்குவதன் மூலம் முடக்கப்பட்ட தொகுதிகளின் பட்டியலை நீங்கள் வழங்கலாம்:"
+
+msgid "custom.py"
+msgstr "custom.py"
 
 msgid ":ref:`doc_overriding_build_options`."
 msgstr ": Ref: `doc_overriding_build_options`."

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,48 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Introduction to 2D"
+msgstr "Introduction à la 2D"
+
+msgid ""
+"If you would like to get an introduction to 3D, "
+"see :ref:`doc_introduction_to_3d`."
+msgstr ""
+"Si vous souhaitez obtenir une introduction à la 3D, "
+"regardez :ref:`doc_introduction_to_3d`."
+
+msgid "2D workspace"
+msgstr "Espace de travail 2D"
+
+msgid "To learn more about Skeletons, see :ref:`doc_cutout_animation`."
+msgstr ""
+"Pour en savoir plus sur les Skeletons, regardez :ref:`doc_cutout_animation`."
+
 msgid "Coordinate system"
 msgstr "Système de coordonnées"
+
+msgid "Node2D and Control node"
+msgstr "Nœud Node2D et Control"
+
+msgid ""
+":ref:`CanvasItem <class_CanvasItem>` is the base node for 2D. :ref:`Node2D "
+"<class_Node2D>` is the base node for 2D game objects, and :ref:`Control "
+"<class_Control>` is the base node for everything GUI. For 3D, Godot uses "
+"the :ref:`Node3D <class_Node3D>` node."
+msgstr ""
+":ref:`CanvasItem <class_CanvasItem>` est le nœud de base pour la "
+"2D. :ref:`Node2D <class_Node2D>` est le nœud de base pour les objets de jeu "
+"2D, et :ref:`Control <class_Control>` est le nœud de base pour tout ce qui "
+"est GUI. Pour la 3D, Godot utilise le nœud :ref:`Node3D <class_Node3D>`."
+
+msgid "3D in 2D"
+msgstr "3D en 2D"
+
+msgid ""
+"It is possible to display 3D scenes in 2D screen, You can see this in the "
+"demo `3D in 2D Viewport <https://godotengine.org/asset-library/asset/"
+"2804>`__."
+msgstr ""
+"Il est possible d'afficher des scènes 3D dans l'écran 2D, vous pouvez voir "
+"ceci dans la démo `3D dans le Viewport 2D <https://godotengine.org/asset-"
+"library/asset/2804>`__."

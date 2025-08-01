@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,5 +23,23 @@ msgstr "Fizyka"
 msgid "Navigation"
 msgstr "Nawigacja"
 
+msgid "Selection"
+msgstr "Zaznaczanie"
+
+msgid "Paint"
+msgstr "Malowanie"
+
+msgid "Line"
+msgstr "Linia"
+
+msgid "Rectangle"
+msgstr "Prostokąt"
+
 msgid "Bucket Fill"
 msgstr "Wypełnienie"
+
+msgid "Picker"
+msgstr "Próbnik"
+
+msgid "Eraser"
+msgstr "Gumka"

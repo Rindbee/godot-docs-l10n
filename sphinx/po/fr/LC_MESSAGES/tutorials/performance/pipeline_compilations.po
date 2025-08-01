@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Pipeline precompilation monitors"
+msgstr "Moniteurs de pipeline de précompilation"
+
+msgid "Pipeline precompilation features"
+msgstr "Fonctionnalités de la pipeline de précompilation"
+
+msgid "**Multiview**: Enabled for XR projects."
+msgstr "**Multi-vue** : Activée pour les projets XR."
+
+msgid "Pipeline precompilation instancing"
+msgstr "Instanciation de la pipeline de précompilation"

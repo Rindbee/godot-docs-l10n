@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,77 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Introduction to the animation features"
+msgstr "Introduzione alle funzionalità d'animazione"
+
+msgid "Create a simple animation"
+msgstr "Creare una semplice animazione"
+
+msgid "The AnimationPlayer node"
+msgstr "Il nodo AnimationPlayer"
+
+msgid "The animation panel consists of four parts:"
+msgstr "Il pannello di animazione è composto da quattro parti:"
+
+msgid "The animation panel"
+msgstr "Il pannello di animazione"
+
 msgid "Scene setup"
 msgstr "Impostazione della scena"
+
+msgid "Our scene setup"
+msgstr "La configurazione della nostra scena"
+
+msgid "Adding an animation"
+msgstr "Aggiungere un'animazione"
+
+msgid "Add Animation"
+msgstr "Aggiungi animazione"
+
+msgid "Managing animation libraries"
+msgstr "Gestire le librerie di animazione"
+
+msgid "Manage animations"
+msgstr "Gestire le animazioni"
+
+msgid "Adding a track"
+msgstr "Aggiungere una traccia"
+
+msgid "Convenience buttons"
+msgstr "Pulsanti di convenienza"
 
 msgid "Animation length"
 msgstr "Lunghezza dell'animazione"
 
+msgid "Run the animation"
+msgstr "Riproduci l'animazione"
+
+msgid "Yay! Our animation runs:"
+msgstr "Evviva! La nostra animazione funziona:"
+
 msgid "The animation"
 msgstr "L'animazione"
+
+msgid "Back and forth"
+msgstr "Avanti e indietro"
+
+msgid "Animation loop"
+msgstr "Ciclo di animazione"
+
+msgid "Track settings"
+msgstr "Impostazioni di traccia"
+
+msgid "Track mode"
+msgstr "Modalità di traccia"
+
+msgid "Track interpolation"
+msgstr "Interpolazione di traccia"
+
+msgid "Loop modes"
+msgstr "Modalità di ciclo"
+
+msgid "Edit keyframes"
+msgstr "Modifica di fotogrammi chiave"
+
+msgid "Using RESET tracks"
+msgstr "Utilizzo di tracce RESET"

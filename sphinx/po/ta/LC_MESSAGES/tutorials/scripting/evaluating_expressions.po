@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,13 +27,16 @@ msgstr "ஒரு வெளிப்பாடு இருக்க முடி
 msgid "A mathematical expression such as ``(2 + 4) * 16/4.0``."
 msgstr "`` (2 + 4) * 16/4.0`` போன்ற கணித வெளிப்பாடு."
 
+msgid "A boolean expression such as ``true && false``."
+msgstr "`` உண்மை && false`` போன்ற ஒரு பூலியன் வெளிப்பாடு."
+
 msgid "A built-in method call like ``deg_to_rad(90)``."
 msgstr "`` Deg_to_rad (90) `` போன்ற ஒரு உள்ளமைக்கப்பட்ட முறை அழைப்பு."
 
 msgid ""
 "A method call on a user-provided script like ``update_health()``, if "
-"``base_instance`` is set to a value other than ``null`` when calling :ref:"
-"`Expression.execute() <class_Expression_method_execute>`."
+"``base_instance`` is set to a value other than ``null`` when "
+"calling :ref:`Expression.execute() <class_Expression_method_execute>`."
 msgstr ""
 "`` Update_health () `` போன்ற பயனர் வழங்கிய ச்கிரிப்ட்டில் ஒரு முறை அழைப்பு `` "
 "BASE_INSTANCE`` அழைக்கும் போது `` NULL`` தவிர வேறு மதிப்புக்கு அமைக்கப்பட்டால்: ref: "
@@ -86,6 +89,34 @@ msgid ""
 msgstr ""
 "இரண்டு செயல்பாடுகளும் முழு எண்களாக இருந்தால், முழு எண் பிரிவு. அவற்றில் குறைந்தபட்சம் "
 "ஒன்று மிதக்கும்-புள்ளி எண் என்றால், மிதக்கும்-புள்ளி மதிப்பை வழங்குகிறது."
+
+msgid "Remainder (``%``)"
+msgstr "மீதமுள்ள (``%``)"
+
+msgid ""
+"Returns the remainder of an integer division (modulo). The result will "
+"always have the sign of the dividend."
+msgstr ""
+"ஒரு முழு எண் பிரிவின் (மாடுலோ) மீதமுள்ளதை வழங்குகிறது. இதன் விளைவாக எப்போதும் "
+"ஈவுத்தொகையின் அடையாளம் இருக்கும்."
+
+msgid "Conjunction (``&&``)"
+msgstr "இணைத்தல் (`` && ``)"
+
+msgid "Returns the result of a boolean AND."
+msgstr "ஒரு பூலியன் மற்றும்."
+
+msgid "Disjunction (``||``)"
+msgstr "வேறுபாடு (`` || ``)"
+
+msgid "Returns the result of a boolean OR."
+msgstr "ஒரு பூலியன் அல்லது."
+
+msgid "Negation (``!``)"
+msgstr "மறுப்பு (``! ``)"
+
+msgid "Returns the result of a boolean NOT."
+msgstr "ஒரு பூலியனின் முடிவை வழங்குகிறது."
 
 msgid ""
 "Spaces around operators are optional. Also, keep in mind the usual `order of "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -91,6 +91,9 @@ msgstr ""
 "pour le nœud GDExtension que nous allons créer. Nous le nommerons "
 "``gdexample.h`` :"
 
+msgid "gdextension_cpp_example/src/gdexample.h"
+msgstr "gdextension_cpp_example/src/gdexample.h"
+
 msgid ""
 "There are a few things of note to the above. We include ``sprite2d.hpp`` "
 "which contains bindings to the Sprite2D class. We'll be extending this class "
@@ -107,6 +110,15 @@ msgstr ""
 
 msgid "Let's implement our functions by creating our ``gdexample.cpp`` file:"
 msgstr "Implémentons nos fonctions en créant notre fichier ``gdexample.cpp`` :"
+
+msgid "gdextension_cpp_example/src/gdexample.cpp"
+msgstr "gdextension_cpp_example/src/gdexample.cpp"
+
+msgid "gdextension_cpp_example/src/register_types.cpp"
+msgstr "gdextension_cpp_example/src/register_types.cpp"
+
+msgid "gdextension_cpp_example/src/register_types.h"
+msgstr "gdextension_cpp_example/src/register_types.h"
 
 msgid "Compiling the plugin"
 msgstr "Compiler le plugin"
@@ -134,8 +146,8 @@ msgid ""
 "only show the methods we end up changing, don't remove the lines we're "
 "omitting:"
 msgstr ""
-"Dans notre fichier ``gdexample.cpp`, il faut faire un certain nombre de "
-"changements . Nous ne montrerons que les méthodes que nous changerons donc "
+"Dans notre fichier ``gdexample.cpp``, il faut faire un certain nombre de "
+"changements. Nous ne montrerons que les méthodes que nous changerons, donc "
 "ne supprimez pas les lignes qui n’apparaissent pas ici :"
 
 msgid ""

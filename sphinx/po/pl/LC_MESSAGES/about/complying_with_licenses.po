@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -88,6 +88,15 @@ msgstr ""
 "Twórcy Godot Engine uważają, że link do ``godotengine.org/license`` w "
 "dokumentacji gry lub napisach końcowych byłby akceptowalnym sposobem "
 "spełnienia warunków licencji."
+
+msgid ":ref:`Engine.get_license_text<class_Engine_method_get_license_text>`"
+msgstr ":ref:`Engine.get_license_text<class_Engine_method_get_license_text>`"
+
+msgid ":ref:`Engine.get_license_info<class_Engine_method_get_license_info>`"
+msgstr ":ref:`Engine.get_license_info<class_Engine_method_get_license_info>`"
+
+msgid ":ref:`Engine.get_copyright_info<class_Engine_method_get_copyright_info>`"
+msgstr ":ref:`Engine.get_copyright_info<class_Engine_method_get_copyright_info>`"
 
 msgid "Third-party licenses"
 msgstr "Licencje firm trzecich"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,18 @@ msgstr ""
 
 msgid "Setup"
 msgstr "Konfiguracja"
+
+msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "``GODOT_WINDOWS_CODESIGN_IDENTITY_TYPE``"
+msgstr "``GODOT_WINDOWS_CODESIGN_IDENTITY_TYPE``"
+
+msgid "``GODOT_WINDOWS_CODESIGN_IDENTITY``"
+msgstr "``GODOT_WINDOWS_CODESIGN_IDENTITY``"
+
+msgid "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
+msgstr "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
+
+msgid "Export options"
+msgstr "Opcje Eksportu"

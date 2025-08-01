@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Restart Godot if prompted to do so."
+msgstr "메시지가 나타나면 Godot를 다시 시작합니다."
+
+msgid "Requirements for functionality"
+msgstr "기능에 대한 요구 사항"
+
 msgid "Troubleshooting"
 msgstr "문제 해결"
 
 msgid "Best practices"
 msgstr "모범 사례"
+
+msgid "Caveats and Other Information"
+msgstr "경고 및 기타 정보"

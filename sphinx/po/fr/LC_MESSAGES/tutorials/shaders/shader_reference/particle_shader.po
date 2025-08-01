@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -15,12 +15,25 @@ msgid "Particle shaders"
 msgstr "Shaders de particules"
 
 msgid ""
-"Particle shaders are only available with GPU-based particle nodes (:ref:"
-"`class_GPUParticles2D` and :ref:`class_GPUParticles3D`)."
+"Particle shaders are unique because they are not used to draw the object "
+"itself; they are used to calculate particle properties, which are then used "
+"by a :ref:`CanvasItem<doc_canvas_item_shader>` "
+"or :ref:`Spatial<doc_spatial_shader>` shader. They contain two processor "
+"functions: ``start()`` and ``process()``."
+msgstr ""
+"Les shaders de particules sont uniques car ils ne sont pas utilisés pour "
+"dessiner l'objet lui-même. Ils sont utilisés pour calculer les propriétés "
+"des particules, qui sont ensuite utilisées par le shader :ref:`CanvasItem "
+"<doc_canvas_item_shader>` ou du :ref:`Spatial <doc_spatial_shader>`. Ils "
+"contiennent deux fonctions de processeur : ``start()`` et ``process()``."
+
+msgid ""
+"Particle shaders are only available with GPU-based particle nodes "
+"(:ref:`class_GPUParticles2D` and :ref:`class_GPUParticles3D`)."
 msgstr ""
 "Les shaders de particules sont uniquement disponibles dans des nœuds de "
-"particules basées sur le GPU (:ref:`class_GPUParticles2D` et :ref:"
-"`class_GPUParticles3D`)."
+"particules basées sur le GPU (:ref:`class_GPUParticles2D` "
+"et :ref:`class_GPUParticles3D`)."
 
 msgid "Render modes"
 msgstr "Mode de rendu"
@@ -46,6 +59,9 @@ msgstr "Désactiver la force d'attracteur."
 msgid "**disable_velocity**"
 msgstr "**disable_velocity**"
 
+msgid "**collision_use_scale**"
+msgstr "**collision_use_scale**"
+
 msgid "Built-ins"
 msgstr "Variables intégrées"
 
@@ -62,6 +78,15 @@ msgstr "Intégré"
 
 msgid "in float **TIME**"
 msgstr "in float **TIME**"
+
+msgid "in float **PI**"
+msgstr "in float **PI**"
+
+msgid "in float **TAU**"
+msgstr "in float **TAU**"
+
+msgid "in float **E**"
+msgstr "in float **E**"
 
 msgid "Function"
 msgstr "Fonction"
@@ -126,5 +151,24 @@ msgstr "Transformation de particules."
 msgid "inout vec4 **CUSTOM**"
 msgstr "inout vec4 **CUSTOM**"
 
+msgid "inout float **MASS**"
+msgstr "inout float **MASS**"
+
+msgid "in float **INTERPOLATE_TO_END**"
+msgstr "in float **INTERPOLATE_TO_END**"
+
 msgid "in bool **RESTART**"
 msgstr "in bool **RESTART**"
+
+msgid "in float **COLLISION_DEPTH**"
+msgstr "in float **COLLISION_DEPTH**"
+
+msgid "Process functions"
+msgstr "Fonctions de traitement"
+
+msgid ""
+"bool **emit_subparticle** (mat4 xform, vec3 velocity, vec4 color, vec4 "
+"custom, uint flags)"
+msgstr ""
+"bool **emit_subparticle** (mat4 xform, vec3 velocite, vec4 couleur, vec4 "
+"personnalise, uint options)"

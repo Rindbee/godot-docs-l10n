@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "KDevelop"
+msgstr "KDevelop"
+
 msgid "Build Directory"
 msgstr "Zbuduj to"
 
+msgid "*blank*"
+msgstr "*blank*"
+
 msgid "Enable"
 msgstr "Włącz"
+
+msgid "**True**"
+msgstr "**True**"
+
+msgid "Executable"
+msgstr "Plik wykonywalny"
+
+msgid "**scons**"
+msgstr "**scons**"
+
+msgid "Arguments"
+msgstr "Argumenty"

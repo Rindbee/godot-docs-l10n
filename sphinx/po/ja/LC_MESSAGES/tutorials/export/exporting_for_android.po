@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -151,8 +151,11 @@ msgid ""
 "information."
 msgstr ""
 "必要な機能のみを使用してAndroidエクスポートテンプレートをコンパイルすることに"
-"より、サイズをさらに最適化できます。詳細については、\\ :ref:"
-"`doc_optimizing_for_size` を参照してください。"
+"より、サイズをさらに最適化できます。詳細については、"
+"\\ :ref:`doc_optimizing_for_size` を参照してください。"
 
 msgid "Environment variables"
 msgstr "環境変数"
+
+msgid "Export options"
+msgstr "エクスポートオプション"

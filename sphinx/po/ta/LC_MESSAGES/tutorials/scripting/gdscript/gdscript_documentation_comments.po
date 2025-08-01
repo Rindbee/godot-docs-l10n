@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -233,9 +233,9 @@ msgstr "பிபிகோட் மற்றும் வகுப்பு க
 
 msgid ""
 "Godot's class reference supports BBCode-like tags. They add nice formatting "
-"to the text which could also be used in the documentation. See also :ref:"
-"`class reference bbcode <doc_class_reference_bbcode>`. Note that this is "
-"slightly different from the ``RichTextLabel`` :ref:`BBCode "
+"to the text which could also be used in the documentation. See "
+"also :ref:`class reference bbcode <doc_class_reference_bbcode>`. Note that "
+"this is slightly different from the ``RichTextLabel`` :ref:`BBCode "
 "<doc_bbcode_in_richtextlabel>`."
 msgstr ""
 "கோடோட்டின் வகுப்பு குறிப்பு பிபிகோட் போன்ற குறிச்சொற்களை ஆதரிக்கிறது. அவை உரைக்கு நல்ல "

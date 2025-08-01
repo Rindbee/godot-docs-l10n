@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -82,6 +82,15 @@ msgstr ""
 "குறைந்தபட்சம், ஒரு சேவையகத்தில் ஒரு நிலையான நிகழ்வு, தூக்க நேரங்குறிகருவி, ஒரு நூல் "
 "வளையம், துவக்க நிலை மற்றும் தூய்மைப்படுத்தும் செயல்முறை இருக்க வேண்டும்."
 
+msgid "hilbert_hotel.h"
+msgstr "hilbert_hotel.h"
+
+msgid "hilbert_hotel.cpp"
+msgstr "hilbert_hotel.cpp"
+
+msgid "prime_255.h"
+msgstr "prime_255.h"
+
 msgid "Custom managed resource data"
 msgstr "தனிப்பயன் நிர்வகிக்கப்பட்ட வள தரவு"
 
@@ -96,6 +105,9 @@ msgstr ""
 "<mirid_data> `` பொருளை சொந்தமாக வைத்திருக்கிறது. பிழைத்திருத்த பயன்முறையின் போது, "
 "ரிட்_வ்லர் ரிட்சின் பட்டியலை பராமரிக்கிறார். நடைமுறையில், ரிட்ச் பொருள் சார்ந்த சி "
 "குறியீட்டை எழுதுவதற்கு ஒத்ததாகும்."
+
+msgid "infinite_bus.h"
+msgstr "எல்லையற்ற_பச்.எச்"
 
 msgid ":ref:`RID<class_rid>`"
 msgstr ": ref: `red <class_rid>`"
@@ -135,6 +147,12 @@ msgid ""
 msgstr ""
 "`` Regartion_server_types () ``, `` `இன்சின் :: get_singleton ()-> "
 "add_singleton`` இல் போலி வகுப்பை GDSCRIPT இல் பதிவு செய்யப் பயன்படுகிறது."
+
+msgid "register_types.h"
+msgstr "register_types.h"
+
+msgid "register_types.cpp"
+msgstr "register_types.cpp"
 
 msgid ""
 "`servers/register_server_types.cpp <https://github.com/godotengine/godot/"

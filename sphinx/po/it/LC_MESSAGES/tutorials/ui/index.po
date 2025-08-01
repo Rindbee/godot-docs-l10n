@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,27 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid ":ref:`Buttons <class_Button>`"
+msgstr ":ref:`Button <class_Button>`"
+
+msgid ":ref:`Labels <class_Label>`"
+msgstr ":ref:`Label <class_Label>`"
+
+msgid ":ref:`LineEdits <class_LineEdit>` and :ref:`TextEdits <class_TextEdit>`"
+msgstr ":ref:`LineEdit <class_LineEdit>` e :ref:`TextEdit <class_TextEdit>`"
+
+msgid ":ref:`BoxContainers <class_BoxContainer>`"
+msgstr ":ref:`BoxContainer <class_BoxContainer>`"
+
+msgid ":ref:`MarginContainers <class_MarginContainer>`"
+msgstr ":ref:`MarginContainer <class_MarginContainer>`"
+
+msgid ":ref:`ScrollContainers <class_ScrollContainer>`"
+msgstr ":ref:`ScrollContainer <class_ScrollContainer>`"
+
+msgid ":ref:`TabContainers <class_TabContainer>`"
+msgstr ":ref:`TabContainer <class_TabContainer>`"
+
+msgid ":ref:`Popups <class_Popup>`"
+msgstr ":ref:`Popup <class_Popup>`"

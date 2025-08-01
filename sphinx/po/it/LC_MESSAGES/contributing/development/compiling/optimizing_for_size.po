@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,362 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Optimizing a build for size"
+msgstr "Ottimizzare una compilazione per dimensioni"
+
+msgid "Rationale"
+msgstr "Razionale"
+
+msgid ""
+"This tutorial aims to give an overview on different methods to create a "
+"smaller binary. Before continuing, it is recommended to read the previous "
+"tutorials on compiling Godot for each platform."
+msgstr ""
+"Questo tutorial si propone di fornire una panoramica sui diversi metodi per "
+"creare un eseguibile più piccolo. Prima di continuare, si consiglia di "
+"leggere i tutorial precedenti sulla compilazione di Godot per ciascuna "
+"piattaforma."
+
+msgid ""
+"The options below are listed from the most important (greatest size savings) "
+"to the least important (lowest size savings)."
+msgstr ""
+"Le opzioni sottostanti sono elencate dalla più importante (maggiore "
+"risparmio sulle dimensioni) alla meno importante (minore risparmio sulle "
+"dimensioni)."
+
+msgid "**Space savings:** Very high"
+msgstr "**Risparmio di spazio:** Molto alto"
+
+msgid "**Difficulty:** Easy"
+msgstr "**Difficoltà:** Facile"
+
+msgid "**Performed in official builds:** Yes"
+msgstr "**Effettuato in compilazioni ufficiali:** Sì"
+
+msgid ""
+"If you build Windows (MinGW), Linux or macOS binaries from source, remember "
+"to strip debug symbols from binaries by installing the ``strip`` package "
+"from your distribution then running:"
+msgstr ""
+"Se si compilano eseguibili per Windows (MinGW), Linux o macOS da sorgente, "
+"non dimenticare di rimuovere i simboli di debug dagli eseguibili installando "
+"il pacchetto ``strip`` dalla propria distribuzione, quindi eseguendo:"
+
+msgid "On Windows, ``strip.exe`` is included in most MinGW toolchain setups."
+msgstr ""
+"Su Windows, ``strip.exe`` è incluso nella maggior parte delle configurazioni "
+"della toolchain MinGW."
+
+msgid ""
+"This will reduce the size of compiled binaries by a factor between 5× and "
+"10×. The downside is that crash backtraces will no longer provide accurate "
+"information (which is useful for troubleshooting the cause of a "
+"crash). :ref:`C++ profilers <doc_using_cpp_profilers>` will also no longer "
+"be able to display function names (this does not affect the built-in "
+"GDScript profiler)."
+msgstr ""
+"Questo ridurrà le dimensioni degli eseguibili compilati di un fattore "
+"compreso tra 5 e 10. Lo svantaggio è che i backtrace dei crash non "
+"forniranno più informazioni accurate (le quali sono utili per risolvere "
+"problemi riguardo la causa di un crash). :ref:`I profiler di C++ "
+"<doc_using_cpp_profilers>` non saranno nemmeno più in grado di visualizzare "
+"i nomi delle funzioni (ciò non influisce sul profiler integrato di GDScript)."
+
+msgid ""
+"The above command will not work on Windows binaries compiled with MSVC and "
+"platforms such as Android and Web. Instead, pass ``debug_symbols=no`` on the "
+"SCons command line when compiling."
+msgstr ""
+"Il comando sopra riportato non funziona sugli eseguibili di Windows "
+"compilati con MSVC e piattaforme come Android e Web. In alternativa, passare "
+"``debug_symbols=no`` sulla riga di comando di SCons durante la compilazione."
+
+msgid "**Space savings:** High"
+msgstr "**Risparmio di spazio:** Alto"
+
+msgid "Optimizing for size instead of speed"
+msgstr "Ottimizzare per dimensione anziché per velocità"
+
+msgid "**Performed in official builds:** Yes, but only for web builds"
+msgstr ""
+"**Effettuato in compilazioni ufficiali:** Sì, ma solo per le compilazioni web"
+
+msgid ""
+"Godot 3.1 onwards allows compiling using size optimizations (instead of "
+"speed). To enable this, set the ``optimize`` flag to ``size``:"
+msgstr ""
+"Da Godot 3.1 in poi, è possibile compilare utilizzando un ottimizzazione di "
+"dimensione (anziché di velocità). Per abilitare questa funzionalità, "
+"impostare il flag ``optimize`` su ``size``:"
+
+msgid "Some platforms such as WebAssembly already use this mode by default."
+msgstr ""
+"Alcune piattaforme, come WebAssembly, utilizzano già questa modalità come "
+"predefinito."
+
+msgid "Disabling advanced text server"
+msgstr "Disabilitare il server di testo avanzato"
+
+msgid "**Performed in official builds:** No"
+msgstr "**Effettuato in compilazioni ufficiali:** No"
+
+msgid ""
+"By default, Godot uses an advanced text server with the support for the "
+"following features:"
+msgstr ""
+"Come predefinito, Godot utilizza un server di testo avanzato con supporto "
+"per le seguenti funzionalità:"
+
+msgid "Disabling 3D"
+msgstr "Disabilitare il 3D"
+
+msgid "**Space savings:** Moderate"
+msgstr "**Risparmio di spazio:** Moderato"
+
+msgid ""
+"For 2D games, having the whole 3D engine available usually makes no sense. "
+"Because of this, there is a build flag to disable it:"
+msgstr ""
+"Per i giochi 2D, avere a disposizione l'intero motore 3D di solito non ha "
+"senso. Per questa ragione, esiste un flag di compilazione per disabilitarlo:"
+
+msgid ""
+"Tools must be disabled in order to use this flag, as the editor is not "
+"designed to operate without 3D support. Without it, the binary size can be "
+"reduced by about 15%."
+msgstr ""
+"Gli strumenti (Tools) si devono disabilitare per utilizzare questo flag, "
+"poiché l'editor non è progettato per funzionare senza il supporto 3D. Senza "
+"di esso, la dimensione dell'eseguibile si può ridurre di circa il 15%."
+
+msgid ""
+"Disabling 3D support also disables all navigation. This includes 2D "
+"navigation, as it uses the 3D navigation system internally."
+msgstr ""
+"Disabilitando il supporto 3D si disabilita anche tutta la navigazione. Ciò "
+"include anche la navigazione 2D, poiché utilizza internamente il sistema di "
+"navigazione 3D."
+
+msgid "Disabling advanced GUI objects"
+msgstr "Disabilitare gli oggetti della GUI avanzati"
+
+msgid ""
+"Most small games don't require complex GUI controls such as Tree, ItemList, "
+"TextEdit or GraphEdit. They can be disabled using a build flag:"
+msgstr ""
+"La maggior parte dei piccoli giochi non richiedono controlli complessi per "
+"l'interfaccia grafica, tra i quali Tree, ItemList, TextEdit o GraphEdit. Si "
+"possono disabilitare utilizzando un flag di compilazione:"
+
+msgid "This is everything that will be disabled:"
+msgstr "Questo è tutto ciò che sarà disabilitato:"
+
+msgid ":ref:`class_AcceptDialog`"
+msgstr ":ref:`class_AcceptDialog`"
+
+msgid ":ref:`class_CharFXTransform`"
+msgstr ":ref:`class_CharFXTransform`"
+
+msgid ":ref:`class_CodeEdit`"
+msgstr ":ref:`class_CodeEdit`"
+
+msgid ":ref:`class_CodeHighlighter`"
+msgstr ":ref:`class_CodeHighlighter`"
+
+msgid ":ref:`class_ColorPickerButton`"
+msgstr ":ref:`class_ColorPickerButton`"
+
+msgid ":ref:`class_ColorPicker`"
+msgstr ":ref:`class_ColorPicker`"
+
+msgid ":ref:`class_ConfirmationDialog`"
+msgstr ":ref:`class_ConfirmationDialog`"
+
+msgid ":ref:`class_FileDialog`"
+msgstr ":ref:`class_FileDialog`"
+
+msgid ":ref:`class_GraphEdit`"
+msgstr ":ref:`class_GraphEdit`"
+
+msgid ":ref:`class_GraphElement`"
+msgstr ":ref:`class_GraphElement`"
+
+msgid ":ref:`class_GraphFrame`"
+msgstr ":ref:`class_GraphFrame`"
+
+msgid ":ref:`class_GraphNode`"
+msgstr ":ref:`class_GraphNode`"
+
+msgid ":ref:`class_HSplitContainer`"
+msgstr ":ref:`class_HSplitContainer`"
+
+msgid ":ref:`class_MenuBar`"
+msgstr ":ref:`class_MenuBar`"
+
+msgid ":ref:`class_MenuButton`"
+msgstr ":ref:`class_MenuButton`"
+
+msgid ":ref:`class_OptionButton`"
+msgstr ":ref:`class_OptionButton`"
+
+msgid ""
+":ref:`class_PopupMenu` (will make all popup menus unavailable in code for "
+"classes that use them, like :ref:`class_LineEdit`, even though those classes "
+"are still available)"
+msgstr ""
+":ref:`class_PopupMenu` (renderà tutti i menu popup non disponibili nel "
+"codice per le classi che li utilizzano, come :ref:`class_LineEdit`, anche se "
+"tali classi sono comunque disponibili)"
+
+msgid ":ref:`class_RichTextEffect`"
+msgstr ":ref:`class_RichTextEffect`"
+
+msgid ":ref:`class_RichTextLabel`"
+msgstr ":ref:`class_RichTextLabel`"
+
+msgid ":ref:`class_SpinBox`"
+msgstr ":ref:`class_SpinBox`"
+
+msgid ":ref:`class_SplitContainer`"
+msgstr ":ref:`class_SplitContainer`"
+
+msgid ":ref:`class_SubViewportContainer`"
+msgstr ":ref:`class_SubViewportContainer`"
+
+msgid ":ref:`class_SyntaxHighlighter`"
+msgstr ":ref:`class_SyntaxHighlighter`"
+
+msgid ":ref:`class_TextEdit`"
+msgstr ":ref:`class_TextEdit`"
+
+msgid ":ref:`class_TreeItem`"
+msgstr ":ref:`class_TreeItem`"
+
+msgid ":ref:`class_Tree`"
+msgstr ":ref:`class_Tree`"
+
+msgid ":ref:`class_VSplitContainer`"
+msgstr ":ref:`class_VSplitContainer`"
+
+msgid "Disabling unwanted modules"
+msgstr "Disabilitare i moduli indesiderati"
+
+msgid "**Space savings:** Very low to moderate depending on modules"
+msgstr ""
+"**Risparmio di spazio:** Da molto basso a moderato a seconda dei moduli"
+
+msgid "**Difficulty:** Medium to hard depending on modules"
+msgstr "**Difficoltà:** Da media a difficile a seconda dei moduli"
+
+msgid ""
+"A lot of Godot's functions are offered as modules. You can see a list of "
+"modules with the following command:"
+msgstr ""
+"Molte funzioni di Godot sono offerte come moduli. È possibile visualizzare "
+"un elenco dei moduli con il seguente comando:"
+
+msgid ""
+"The list of modules that can be disabled will appear, together with all "
+"build options. If you are working on a simple 2D game, you could disable a "
+"lot of them:"
+msgstr ""
+"Apparirà l'elenco dei moduli che si possono disabilitare, insieme a tutte le "
+"opzioni di compilazione. Se si sta lavorando a un semplice gioco in 2D, "
+"molti di questi si potrebbero disabilitare:"
+
+msgid ""
+"Alternatively, you can supply a list of disabled modules by creating "
+"``custom.py`` at the root of the source, with the contents similar to the "
+"following:"
+msgstr ""
+"In alternativa, è possibile fornire un elenco di moduli disabilitati creando "
+"``custom.py`` alla radice del codice sorgente, con un contenuto simile al "
+"seguente:"
+
+msgid "custom.py"
+msgstr "custom.py"
+
 msgid ":ref:`doc_overriding_build_options`."
 msgstr ":ref:`doc_overriding_build_options`."
 
+msgid "Optimizing the distribution of your project"
+msgstr "Ottimizzare la distribuzione del proprio progetto"
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid ""
+"This section is only relevant when distributing the files on a desktop "
+"platform that doesn't perform its own compression or packing. As such, this "
+"advice is relevant when you distribute ZIP archives on itch.io or GitHub "
+"Releases."
+msgstr ""
+"Questa sezione è rilevante solo quando si distribuiscono file su una "
+"piattaforma desktop che non effettua una compressione o un impacchettamento "
+"da sola. Pertanto, questo consiglio è pertinente quando si distribuiscono "
+"archivi ZIP su itch.io o su GitHub Releases."
+
+msgid ""
+"Platforms like Steam already apply their own compression scheme, so you "
+"don't need to create a ZIP archive to distribute files in the first place."
+msgstr ""
+"Piattaforme come Steam applicano già il proprio schema di compressione, "
+"quindi non è necessario affatto creare un archivio ZIP per distribuire i "
+"file."
+
+msgid ""
+"`7-Zip <https://7-zip.org/>`__ can be used to create ZIP archives that are "
+"more efficient than usual, while remaining compatible with every ZIP "
+"extractor (including Windows' own built-in extractor). ZIP size reduction in "
+"a large project can reach dozens of megabytes compared to a typical ZIP "
+"compressor, although average savings are in the 1-5 MB range. Creating this "
+"ZIP archive will take longer than usual, but it will extract just as fast as "
+"any other ZIP archive."
+msgstr ""
+"`7-Zip <https://7-zip.org/>`__ si può utilizzare per creare archivi ZIP più "
+"efficienti del solito, pur rimanendo compatibile con qualsiasi estrattore "
+"ZIP (incluso quello integrato di Windows). La riduzione della dimensione di "
+"un file ZIP in un grande progetto può raggiungere decine di megabyte "
+"rispetto a un tipico compressore ZIP, anche se il risparmio nella media sia "
+"tra 1 e 5 MB. La creazione di questo archivio ZIP richiederà più tempo del "
+"solito, ma l'estrazione sarà veloce quanto qualsiasi altro archivio ZIP."
+
+msgid ""
+"When using the 7-Zip GUI, this is done by creating a ZIP archive with the "
+"Ultra compression mode. When using the command line, this is done using the "
+"following command:"
+msgstr ""
+"Attraverso l'interfaccia utente grafica di 7-Zip, ciò si effettua creando un "
+"archivio ZIP con la modalità di compressione Ultra. Attraverso la riga di "
+"comando, ciò si effettua con il seguente comando:"
+
 msgid "Web"
 msgstr "Web"
+
+msgid ""
+"Enabling gzip or Brotli compression for all file types from the web export "
+"(especially the ``.wasm`` and ``.pck``) can reduce the download size "
+"significantly, leading to faster loading times, especially on slow "
+"connections."
+msgstr ""
+"Abilitando la compressione gzip o Brotli per tutti i tipi di file "
+"dall'esportazione web (in particolare ``.wasm`` e ``.pck``) è possibile "
+"ridurre notevolmente le dimensioni del download, con conseguenti tempi di "
+"caricamento più rapidi, in particolare su connessioni lente."
+
+msgid ""
+"Creating precompressed gzip or Brotli files with a high compression level "
+"can be even more efficient, as long as the web server is configured to serve "
+"those files when they exist. When supported, Brotli should be preferred over "
+"gzip as it has a greater potential for file size reduction."
+msgstr ""
+"Creare file gzip o Brotli precompressi con un alto livello di compressione "
+"può essere ancora più efficiente, purché il server web sia configurato per "
+"gestire tali file quando esistono. Se supportato, Brotli dovrebbe essere "
+"preferito a gzip in quanto ha maggiore potenziale di ridurre le dimensioni "
+"dei file."
+
+msgid "See :ref:`doc_exporting_for_web_serving_the_files` for instructions."
+msgstr ""
+"Consultare :ref:`doc_exporting_for_web_serving_the_files` per istruzioni."

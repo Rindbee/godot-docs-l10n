@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -159,6 +159,9 @@ msgid "Compatibility between single-precision and double-precision builds"
 msgstr ""
 "Compatibilité entre une compilation en simple précision et en double "
 "précision"
+
+msgid "Known incompatibilities"
+msgstr "Incompatibilités connues"
 
 msgid "Limitations"
 msgstr "Limites"

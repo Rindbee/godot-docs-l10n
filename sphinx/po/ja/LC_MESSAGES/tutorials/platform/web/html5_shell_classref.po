@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -44,8 +44,14 @@ msgstr "プロパティ"
 msgid "string"
 msgstr "\\ string"
 
+msgid "``const MyConfig = { executable: 'godot', unloadAfterInit: false }``"
+msgstr "``const MyConfig = { executable: 'godot', unloadAfterInit: false }``"
+
 msgid "value"
 msgstr "値"
+
+msgid "``2``"
+msgstr "``2``"
 
 msgid "Files are delivered with server-side chunked compression"
 msgstr "ファイルは、サーバー側のチャンク圧縮で配信されます"

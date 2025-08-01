@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -151,6 +151,10 @@ msgstr "粒子变换。"
 msgid "inout vec4 **CUSTOM**"
 msgstr "inout vec4 **CUSTOM**"
 
+msgid ""
+"Custom particle data. Accessible from shader of mesh as ``INSTANCE_CUSTOM``."
+msgstr "自定义粒子数据。网格的着色器可以使用 ``INSTANCE_CUSTOM`` 访问。"
+
 msgid "inout float **MASS**"
 msgstr "inout float **MASS**"
 
@@ -179,6 +183,13 @@ msgstr "in uint **FLAG_EMIT_CUSTOM**"
 
 msgid "in vec3 **EMITTER_VELOCITY**"
 msgstr "in vec3 **EMITTER_VELOCITY**"
+
+msgid ""
+"Velocity of the :ref:`Particles2D<class_GPUParticles2D>` "
+"(:ref:`3D<class_GPUParticles3D>`) node."
+msgstr ""
+":ref:`Particles2D<class_GPUParticles2D>`\\ "
+"（\\ :ref:`3D<class_GPUParticles3D>`\\ ）节点的速度。"
 
 msgid "in float **INTERPOLATE_TO_END**"
 msgstr "in float **INTERPOLATE_TO_END**"

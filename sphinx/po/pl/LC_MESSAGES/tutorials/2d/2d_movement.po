@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -56,6 +56,9 @@ msgstr "Obrót i ruch"
 
 msgid "Rotation + movement (mouse)"
 msgstr "Obrót i ruch (myszka)"
+
+msgid "Click-and-move"
+msgstr "Kliknij i pójdź"
 
 msgid "Summary"
 msgstr "Podsumowanie"

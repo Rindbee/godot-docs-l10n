@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,3 +16,12 @@ msgstr "예제"
 
 msgid "Result"
 msgstr "결과"
+
+msgid "Horizontal centering"
+msgstr "가로 센터링"
+
+msgid "Formatting notes and warnings"
+msgstr "서식 참고 및 경고"
+
+msgid "Marking API as deprecated/experimental"
+msgstr "API를 사용되지 않음/실험적으로 표시하기"

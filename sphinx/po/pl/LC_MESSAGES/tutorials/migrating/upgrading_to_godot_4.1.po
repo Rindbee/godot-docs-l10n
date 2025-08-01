@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,20 +11,203 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Core"
+msgstr "Jądro"
+
+msgid "Change"
+msgstr "Zmiana"
+
+msgid "Introduced"
+msgstr "Wprowadzona"
+
+msgid "**Basis**"
+msgstr "**Basis**"
+
+msgid "|✔️|"
+msgstr "|✔️|"
+
+msgid "`GH-76082`_"
+msgstr "`GH-76082`_"
+
+msgid "**Object**"
+msgstr "**Object**"
+
+msgid "|❌|"
+msgstr "|❌|"
+
+msgid "`GH-76418`_"
+msgstr "`GH-76418`_"
+
+msgid "**Transform3D**"
+msgstr "**Transform3D**"
+
+msgid "**UndoRedo**"
+msgstr "**UndoRedo**"
+
+msgid "`GH-76688`_"
+msgstr "`GH-76688`_"
+
+msgid "**WorkerThreadPool**"
+msgstr "**WorkerThreadPool**"
+
+msgid "`GH-77143`_"
+msgstr "`GH-77143`_"
+
 msgid "Animation"
 msgstr "Animacja"
+
+msgid "**AnimationNode**"
+msgstr "**AnimationNode**"
+
+msgid "`GH-75759`_"
+msgstr "`GH-75759`_"
+
+msgid "**AnimationNodeStateMachinePlayback**"
+msgstr "**AnimationNodeStateMachinePlayback**"
+
+msgid "**PathFollow2D**"
+msgstr "**PathFollow2D**"
+
+msgid "`GH-72842`_"
+msgstr "`GH-72842`_"
+
+msgid "**Geometry3D**"
+msgstr "**Geometry3D**"
+
+msgid "**MeshInstance3D**"
+msgstr "**MeshInstance3D**"
+
+msgid "`GH-72152`_"
+msgstr "`GH-72152`_"
+
+msgid "**Node3D**"
+msgstr "**Node3D**"
+
+msgid "**CodeEdit**"
+msgstr "**CodeEdit**"
+
+msgid "`GH-75746`_"
+msgstr "`GH-75746`_"
+
+msgid "**RichTextLabel**"
+msgstr "**RichTextLabel**"
+
+msgid "`GH-75017`_"
+msgstr "`GH-75017`_"
+
+msgid "`GH-75250`_"
+msgstr "`GH-75250`_"
+
+msgid "`GH-76401`_"
+msgstr "`GH-76401`_"
+
+msgid "**Tree**"
+msgstr "**Tree**"
+
+msgid "`GH-76794`_"
+msgstr "`GH-76794`_"
 
 msgid "Physics"
 msgstr "Fizyka"
 
+msgid "**Area2D**"
+msgstr "**Area2D**"
+
+msgid "`GH-72749`_"
+msgstr "`GH-72749`_"
+
+msgid "**Area3D**"
+msgstr "**Area3D**"
+
+msgid "**PhysicsDirectSpaceState2D**"
+msgstr "**PhysicsDirectSpaceState2D**"
+
+msgid "`GH-75260`_"
+msgstr "`GH-75260`_"
+
+msgid "**PhysicsDirectSpaceState3D**"
+msgstr "**PhysicsDirectSpaceState3D**"
+
 msgid "Rendering"
 msgstr "Renderowanie"
+
+msgid "**RDShaderFile**"
+msgstr "**RDShaderFile**"
+
+msgid "**RenderingDevice**"
+msgstr "**RenderingDevice**"
+
+msgid "**RenderingServer**"
+msgstr "**RenderingServer**"
+
+msgid "**SurfaceTool**"
+msgstr "**SurfaceTool**"
 
 msgid "Navigation"
 msgstr "Nawigacja"
 
+msgid "**NavigationAgent2D**"
+msgstr "**NavigationAgent2D**"
+
+msgid "`GH-69988`_"
+msgstr "`GH-69988`_"
+
+msgid "**NavigationAgent3D**"
+msgstr "**NavigationAgent3D**"
+
+msgid "**NavigationObstacle2D**"
+msgstr "**NavigationObstacle2D**"
+
+msgid "**NavigationObstacle3D**"
+msgstr "**NavigationObstacle3D**"
+
+msgid "**NavigationServer2D**"
+msgstr "**NavigationServer2D**"
+
+msgid "**NavigationServer3D**"
+msgstr "**NavigationServer3D**"
+
 msgid "Networking"
 msgstr "Sieć"
 
+msgid "**WebRTCPeerConnectionExtension**"
+msgstr "**WebRTCPeerConnectionExtension**"
+
+msgid "`GH-78237`_"
+msgstr "`GH-78237`_"
+
 msgid "Editor plugins"
 msgstr "Wtyczki edytora"
+
+msgid "**AnimationTrackEditPlugin**"
+msgstr "**AnimationTrackEditPlugin**"
+
+msgid "`GH-76413`_"
+msgstr "`GH-76413`_"
+
+msgid "**EditorInterface**"
+msgstr "**EditorInterface**"
+
+msgid "`GH-76176`_"
+msgstr "`GH-76176`_"
+
+msgid "**EditorResourcePreviewGenerator**"
+msgstr "**EditorResourcePreviewGenerator**"
+
+msgid "`GH-64628`_"
+msgstr "`GH-64628`_"
+
+msgid "**EditorUndoRedoManager**"
+msgstr "**EditorUndoRedoManager**"
+
+msgid "**SubViewportContainer**"
+msgstr "**SubViewportContainer**"
+
+msgid "`GH-57894`_"
+msgstr "`GH-57894`_"
+
+msgid "**Viewport**"
+msgstr "**Viewport**"
+
+msgid "`GH-77595`_"
+msgstr "`GH-77595`_"

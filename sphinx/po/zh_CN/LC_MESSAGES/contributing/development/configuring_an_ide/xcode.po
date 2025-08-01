@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -86,8 +86,8 @@ msgid "Add a new script run action"
 msgstr "增加一个新的脚本运行操作"
 
 msgid ""
-"Create a script that will give the binary a name that Xcode can recognize, e."
-"g.:"
+"Create a script that will give the binary a name that Xcode can recognize, "
+"e.g.:"
 msgstr "创建一个脚本, 给二进制文件起一个Xcode可以识别的名字, 例如:"
 
 msgid "Build the external build target."

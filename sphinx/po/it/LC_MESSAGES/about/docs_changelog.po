@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,37 +12,155 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Documentation changelog"
-msgstr "Cambiamento della documentazione"
+msgstr "Changelog della documentazione"
+
+msgid ""
+"The documentation is continually being improved. New releases include new "
+"pages, fixes and updates to existing pages, and many updates to "
+"the :ref:`class reference <doc_class_reference>`. Below is a list of new "
+"pages added since version 3.0."
+msgstr ""
+"La documentazione viene continuamente migliorata. Nuove versioni includono "
+"nuove pagine, correzioni e aggiornamenti per pagine esistenti, e molti "
+"aggiornamenti al :ref:`riferimento classi <doc_class_reference>`. Di seguito "
+"è riportato un elenco di nuove pagine aggiunte dalla versione 3.0."
+
+msgid ""
+"This document only contains new pages so not all changes are reflected, many "
+"pages have been substantially updated but are not reflected in this document."
+msgstr ""
+"Questo documento contiene solo nuove pagine, quindi non tutti i cambiamenti "
+"sono riportati. Molte pagine sono state sostanzialmente aggiornate ma non "
+"sono riportate in questo documento."
+
+msgid "New pages since version 4.3"
+msgstr "Nuove pagine dalla versione 4.3"
 
 msgid "2D"
 msgstr "2D"
 
+msgid ":ref:`doc_introduction_to_2d`"
+msgstr ":ref:`doc_introduction_to_2d`"
+
 msgid "3D"
 msgstr "3D"
+
+msgid ":ref:`doc_spring_arm`"
+msgstr ":ref:`doc_spring_arm`"
 
 msgid "Debug"
 msgstr "Debug"
 
+msgid ":ref:`doc_output_panel`"
+msgstr ":ref:`doc_output_panel`"
+
 msgid "Editor"
 msgstr "Editor"
+
+msgid ":ref:`doc_using_the_xr_editor`"
+msgstr ":ref:`doc_using_the_xr_editor`"
 
 msgid "Performance"
 msgstr "Prestazioni"
 
+msgid ":ref:`doc_pipeline_compilations`"
+msgstr ":ref:`doc_pipeline_compilations`"
+
 msgid "Physics"
 msgstr "Fisica"
+
+msgid ":ref:`doc_physics_interpolation`"
+msgstr ":ref:`doc_physics_interpolation`"
+
+msgid ":ref:`doc_physics_interpolation_quick_start_guide`"
+msgstr ":ref:`doc_physics_interpolation_quick_start_guide`"
+
+msgid ":ref:`doc_physics_interpolation_introduction`"
+msgstr ":ref:`doc_physics_interpolation_introduction`"
+
+msgid ":ref:`doc_using_physics_interpolation`"
+msgstr ":ref:`doc_using_physics_interpolation`"
+
+msgid ":ref:`doc_advanced_physics_interpolation`"
+msgstr ":ref:`doc_advanced_physics_interpolation`"
+
+msgid ":ref:`doc_2d_and_3d_physics_interpolation`"
+msgstr ":ref:`doc_2d_and_3d_physics_interpolation`"
 
 msgid "Rendering"
 msgstr "Renderer"
 
+msgid ":ref:`doc_renderers`"
+msgstr ":ref:`doc_renderers`"
+
 msgid "Shaders"
-msgstr "Shaders"
+msgstr "Shader"
+
+msgid ":ref:`doc_shader_functions`"
+msgstr ":ref:`doc_shader_functions`"
+
+msgid "New pages since version 4.2"
+msgstr "Nuove pagine dalla versione 4.2"
 
 msgid "About"
 msgstr "Informazioni su Godot"
 
+msgid ":ref:`doc_system_requirements`"
+msgstr ":ref:`doc_system_requirements`"
+
+msgid ":ref:`doc_2d_parallax`"
+msgstr ":ref:`doc_2d_parallax`"
+
 msgid "Contributing"
 msgstr "Contribuire"
+
+msgid ":ref:`doc_handling_compatibility_breakages`"
+msgstr ":ref:`doc_handling_compatibility_breakages`"
+
+msgid ":ref:`doc_ways_to_contribute`"
+msgstr ":ref:`doc_ways_to_contribute`"
+
+msgid "GDExtension"
+msgstr "GDExtension"
+
+msgid ":ref:`doc_gdextension_file`"
+msgstr ":ref:`doc_gdextension_file`"
+
+msgid ":ref:`doc_gdextension_docs_system`"
+msgstr ":ref:`doc_gdextension_docs_system`"
+
+msgid "Migrating"
+msgstr "Migrazione"
+
+msgid ":ref:`doc_upgrading_to_godot_4.3`"
+msgstr ":ref:`doc_upgrading_to_godot_4.3`"
+
+msgid ":ref:`doc_compositor`"
+msgstr ":ref:`doc_compositor`"
+
+msgid "XR"
+msgstr "XR"
+
+msgid ":ref:`doc_a_better_xr_start_script`"
+msgstr ":ref:`doc_a_better_xr_start_script`"
+
+msgid ":ref:`doc_openxr_passthrough`"
+msgstr ":ref:`doc_openxr_passthrough`"
+
+msgid ":ref:`doc_xr_next_steps`"
+msgstr ":ref:`doc_xr_next_steps`"
+
+msgid ":ref:`doc_openxr_settings`"
+msgstr ":ref:`doc_openxr_settings`"
+
+msgid ":ref:`doc_openxr_composition_layers`"
+msgstr ":ref:`doc_openxr_composition_layers`"
+
+msgid ":ref:`doc_openxr_body_tracking`"
+msgstr ":ref:`doc_openxr_body_tracking`"
+
+msgid "New pages since version 4.1"
+msgstr "Nuove pagine dalla versione 4.1"
 
 msgid "C#"
 msgstr "C#"
@@ -59,6 +177,9 @@ msgstr ":ref:`doc_2d_coordinate_systems`"
 msgid ":ref:`doc_upgrading_to_godot_4.2`"
 msgstr ":ref:`doc_upgrading_to_godot_4.2`"
 
+msgid "I/O"
+msgstr "I/O"
+
 msgid ":ref:`doc_runtime_loading_and_saving`"
 msgstr ":ref:`doc_runtime_loading_and_saving`"
 
@@ -67,6 +188,9 @@ msgstr "Specifico per la piattaforma"
 
 msgid ":ref:`doc_android_library`"
 msgstr ":ref:`doc_android_library`"
+
+msgid "New pages since version 4.0"
+msgstr "Nuove pagine dalla versione 4.0"
 
 msgid ":ref:`doc_internal_rendering_architecture`"
 msgstr ":ref:`doc_internal_rendering_architecture`"
@@ -79,6 +203,9 @@ msgstr ":ref:`doc_upgrading_to_godot_4.1`"
 
 msgid ":ref:`doc_troubleshooting_physics_issues`"
 msgstr ":ref:`doc_troubleshooting_physics_issues`"
+
+msgid "New pages since version 3.6"
+msgstr "Nuove pagine dalla versione 3.6"
 
 msgid ":ref:`doc_2d_antialiasing`"
 msgstr ":ref:`doc_2d_antialiasing`"
@@ -122,6 +249,9 @@ msgstr "Animazione"
 msgid ":ref:`doc_creating_movies`"
 msgstr ":ref:`doc_creating_movies`"
 
+msgid "Assets pipeline"
+msgstr "Pipeline di risorse"
+
 msgid ":ref:`doc_retargeting_3d_skeletons`"
 msgstr ":ref:`doc_retargeting_3d_skeletons`"
 
@@ -152,6 +282,9 @@ msgstr ":ref:`doc_c_sharp_variant`"
 msgid ":ref:`doc_compute_shaders`"
 msgstr ":ref:`doc_compute_shaders`"
 
+msgid "Workflow"
+msgstr "Flusso di lavoro"
+
 msgid ":ref:`doc_pr_review_guidelines`"
 msgstr ":ref:`doc_pr_review_guidelines`"
 
@@ -164,6 +297,15 @@ msgstr ":ref:`doc_xr_action_map`"
 msgid ":ref:`doc_deploying_to_android`"
 msgstr ":ref:`doc_deploying_to_android`"
 
+msgid "New pages since version 3.5"
+msgstr "Nuove pagine dalla versione 3.5"
+
+msgid "None."
+msgstr "Nessuna."
+
+msgid "New pages since version 3.4"
+msgstr "Nuove pagine dalla versione 3.4"
+
 msgid ":ref:`doc_3d_text`"
 msgstr ":ref:`doc_3d_text`"
 
@@ -172,6 +314,9 @@ msgstr ":ref:`doc_playing_videos`"
 
 msgid ":ref:`doc_managing_editor_features`"
 msgstr ":ref:`doc_managing_editor_features`"
+
+msgid "New pages since version 3.3"
+msgstr "Nuove pagine dalla versione 3.3"
 
 msgid "C++"
 msgstr "C++"
@@ -185,6 +330,9 @@ msgstr "GDScript"
 msgid ":ref:`doc_gdscript_documentation_comments`"
 msgstr ":ref:`doc_gdscript_documentation_comments`"
 
+msgid "New pages since version 3.2"
+msgstr "Nuove pagine dalla versione 3.2"
+
 msgid ":ref:`doc_3d_rendering_limitations`"
 msgstr ":ref:`doc_3d_rendering_limitations`"
 
@@ -196,6 +344,9 @@ msgstr ":ref:`doc_list_of_features`"
 
 msgid ":ref:`doc_release_policy`"
 msgstr ":ref:`doc_release_policy`"
+
+msgid "Best practices"
+msgstr "Le migliori pratiche"
 
 msgid ":ref:`doc_version_control_systems`"
 msgstr ":ref:`doc_version_control_systems`"
@@ -226,6 +377,9 @@ msgstr ":ref:`doc_vulkan_validation_layers`"
 
 msgid ":ref:`doc_gdscript_grammar`"
 msgstr ":ref:`doc_gdscript_grammar`"
+
+msgid "Configuring an IDE: :ref:`doc_configuring_an_ide_code_blocks`"
+msgstr "Configurare un IDE: :ref:`doc_configuring_an_ide_code_blocks`"
 
 msgid ":ref:`doc_default_key_mapping`"
 msgstr ":ref:`doc_default_key_mapping`"
@@ -281,11 +435,21 @@ msgstr ":ref:`doc_evaluating_expressions`"
 msgid ":ref:`doc_what_is_gdextension`"
 msgstr ":ref:`doc_what_is_gdextension`"
 
+msgid ""
+":ref:`doc_gdscript_warning_system` (split "
+"from :ref:`doc_gdscript_static_typing`)"
+msgstr ""
+":ref:`doc_gdscript_warning_system` (separata "
+"da :ref:`doc_gdscript_static_typing`)"
+
 msgid "User Interface (UI)"
 msgstr "Interfaccia Utente (UI)"
 
 msgid ":ref:`doc_control_node_gallery`"
 msgstr ":ref:`doc_control_node_gallery`"
+
+msgid "New pages since version 3.1"
+msgstr "Nuove pagine dalla versione 3.1"
 
 msgid "Project workflow"
 msgstr "Flusso di lavoro del progetto"
@@ -318,7 +482,7 @@ msgid ":ref:`doc_input_examples`"
 msgstr ":ref:`doc_input_examples`"
 
 msgid "Internationalization"
-msgstr "Lingue"
+msgstr "Internazionalizzazione"
 
 msgid ":ref:`doc_localization_using_gettext`"
 msgstr ":ref:`doc_localization_using_gettext`"
@@ -403,6 +567,9 @@ msgstr "Legale"
 
 msgid ":ref:`doc_complying_with_licenses`"
 msgstr ":ref:`doc_complying_with_licenses`"
+
+msgid "New pages since version 3.0"
+msgstr "Nuove pagine dalla versione 3.0"
 
 msgid "Step by step"
 msgstr "Passo dopo passo"

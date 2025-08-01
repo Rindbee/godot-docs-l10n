@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,14 +12,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "The Inspector"
-msgstr "遠端屬性面板。"
+msgstr "屬性檢視器"
 
 msgid ""
 "This page explains how the Inspector dock works in-depth. You will learn how "
 "to edit properties, fold and unfold areas, use the search bar, and more."
 msgstr ""
-"本頁詳細介紹了屬性面板面板的工作原理。 你將學習如何編輯屬性、折疊和展開區域、"
-"使用搜索欄等等。"
+"本頁詳細介紹了屬性檢視器面板的工作原理。 你將學習如何編輯屬性、折疊和展開區"
+"域、使用搜索欄等等。"
 
 msgid "This page is a work-in-progress."
 msgstr "本頁面仍在製作中。"

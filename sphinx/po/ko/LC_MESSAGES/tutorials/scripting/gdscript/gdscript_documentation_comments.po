@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,17 +11,80 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Tags"
+msgstr "태그"
+
+msgid "Brief description"
+msgstr "간략한 설명"
+
 msgid "Description"
 msgstr "설명"
 
+msgid "Tutorial"
+msgstr "튜토리얼"
+
+msgid "``@tutorial: https://example.com``"
+msgstr "``@tutorial: https://example.com``"
+
+msgid "``@tutorial(The Title Here): https://example.com``"
+msgstr "``@tutorial(제목은 여기에): https://example.com``"
+
+msgid "Deprecated"
+msgstr "사용되지 않음"
+
+msgid "``@deprecated``"
+msgstr "``@deprecated``"
+
+msgid "``@deprecated: Use [AnotherClass] instead.``"
+msgstr "``@deprecated: 대신 [AnotherClass]를 사용하세요.``"
+
+msgid "Experimental"
+msgstr "실험적"
+
+msgid "``@experimental``"
+msgstr "``@experimental``"
+
+msgid "``@experimental: This class is unstable.``"
+msgstr "``@experimental: 이 클래스는 불안정합니다.``"
+
+msgid "For example::"
+msgstr "예를 들어::"
+
+msgid "Members that are applicable for documentation:"
+msgstr "문서화에 해당되는 멤버:"
+
 msgid "Signal"
 msgstr "시그널"
+
+msgid "Enum"
+msgstr "열거형"
 
 msgid "Variable"
 msgstr "변수"
 
 msgid "Function"
 msgstr "함수"
+
+msgid "Inner class"
+msgstr "내부 클래스"
+
+msgid "No tag."
+msgstr "태그가 없습니다."
+
+msgid "``@deprecated: Use [member another] instead.``"
+msgstr "``@deprecated: 대신 [member another]를 사용하세요.``"
+
+msgid "``@experimental: This method is incomplete.``"
+msgstr "``@experimental: 이 메서드는 불완전합니다.``"
+
+msgid "Complete script example"
+msgstr "완전한 스크립트 예제"
+
+msgid "``@deprecated`` and ``@experimental`` tags"
+msgstr "``@deprecated`` 및 ``@experimental`` 태그"
+
+msgid "BBCode and class reference"
+msgstr "BBCode와 클래스 참조"
 
 msgid "Example"
 msgstr "예제"
@@ -31,3 +94,6 @@ msgstr "결과"
 
 msgid "Color"
 msgstr "색상"
+
+msgid "Horizontal centering"
+msgstr "가로 센터링"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,23 @@ msgstr ""
 
 msgid "Creating instances"
 msgstr "Criando instâncias"
+
+msgid ""
+"This tutorial refers to instancing scenes in the editor. To learn how to "
+"instance scenes from code, see :ref:`doc_nodes_and_scene_instances`."
+msgstr ""
+"Este tutorial se refere à instanciação de cenas no editor. Para aprender "
+"como instanciar cenas via código, veja :ref:`doc_nodes_and_scene_instances`."
+
+msgid ""
+"Godot's approach to *instancing* described below should not be confused with "
+"hardware instancing that can be used to render large amounts of similar "
+"objects quickly. See :ref:`doc_using_multimesh` instead."
+msgstr ""
+"A abordagem de *instanciação* do Godot descrita abaixo não deve ser "
+"confundida com a instanciação por hardware, que pode ser usada para "
+"renderizar rapidamente múltiplos objetos semelhantes. "
+"Veja :ref:`doc_using_multimesh` em vez disso."
 
 msgid ""
 "In the previous part, we saw that a scene is a collection of nodes organized "
@@ -51,6 +68,14 @@ msgstr ""
 
 msgid "Finally, click the Import & Edit button."
 msgstr "Por fim, clique no botão Importar e Editar."
+
+msgid ""
+"A window notifying you that the project was last opened in an older Godot "
+"version may appear, that's not an issue. Click *Ok* to open the project."
+msgstr ""
+"Uma janela notificando que o projeto foi aberto pela última vez em uma "
+"versão anterior do Godot pode aparecer — isso não é um problema. Clique em "
+"*Ok* para abrir o projeto."
 
 msgid ""
 "Let's add a ball as a child of the Main node. In the Scene dock, select the "

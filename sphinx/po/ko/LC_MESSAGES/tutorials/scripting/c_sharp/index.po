@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"See :ref:`doc_system_requirements` for hardware and software version "
+"requirements for the Godot engine."
+msgstr ""
+"Godot 엔진에 대한 하드웨어 및 소프트웨어 버전 요구 사항"
+"은 :ref:`doc_system_requirements`\\ 를 참고하세요."
+
+msgid "Android support is currently experimental."
+msgstr "Android 지원은 현재 실험적입니다."
+
+msgid "iOS support is currently experimental and has a few limitations."
+msgstr "iOS 지원은 현재 실험적이며 몇 가지 제한 사항이 있습니다."

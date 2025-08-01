@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,3 +16,12 @@ msgstr "Threads"
 
 msgid "Creating a Thread"
 msgstr "Creare un Thread"
+
+msgid "To create a thread, use the following code:"
+msgstr "Per creare un thread, usa il seguente codice:"
+
+msgid "Mutexes"
+msgstr "Mutex"
+
+msgid "Semaphores"
+msgstr "Semafori"

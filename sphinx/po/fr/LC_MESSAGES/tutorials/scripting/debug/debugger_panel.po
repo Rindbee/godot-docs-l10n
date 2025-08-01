@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,6 +28,9 @@ msgid ""
 msgstr ""
 "Le débogueur est divisé en plusieurs onglets, chacun se concentrant sur une "
 "tâche spécifique."
+
+msgid "Stack Trace"
+msgstr "Trace d'appels"
 
 msgid "You can use the buttons in the top-right corner to:"
 msgstr "Vous pouvez utiliser les boutons en haut à droite pour :"

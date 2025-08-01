@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -33,8 +33,8 @@ msgid ""
 "types. If not, refer to this guide: :ref:`doc_custom_modules_in_cpp`"
 msgstr ""
 "Цей посібник передбачає, що читач знає, як створювати модулі C++ і типи "
-"даних Godot. Якщо ні, зверніться до цього посібника: :ref:"
-"`doc_custom_modules_in_cpp`"
+"даних Godot. Якщо ні, зверніться до цього "
+"посібника: :ref:`doc_custom_modules_in_cpp`"
 
 msgid "References"
 msgstr "Посилання"
@@ -106,6 +106,12 @@ msgstr ""
 "ресурси за допомогою функції ``load``. Щоб завантажити ресурс, ``load`` має "
 "прочитати та обробити серіалізацію даних."
 
+msgid "resource_loader_json.h"
+msgstr "resource_loader_json.h"
+
+msgid "resource_loader_json.cpp"
+msgstr "resource_loader_json.cpp"
+
 msgid "Creating a ResourceFormatSaver"
 msgstr "Створення ResourceFormatSaver"
 
@@ -115,6 +121,12 @@ msgid ""
 msgstr ""
 "Якщо ви хочете мати можливість редагувати та зберігати ресурс, ви можете "
 "реалізувати ``ResourceFormatSaver``:"
+
+msgid "resource_saver_json.h"
+msgstr "resource_saver_json.h"
+
+msgid "resource_saver_json.cpp"
+msgstr "resource_saver_json.cpp"
 
 msgid "Creating custom data types"
 msgstr "Створення власних типів даних"
@@ -131,6 +143,12 @@ msgstr ""
 msgid "Here is an example of creating a custom datatype:"
 msgstr "Ось приклад створення спеціального типу даних:"
 
+msgid "resource_json.h"
+msgstr "resource_json.h"
+
+msgid "resource_json.cpp"
+msgstr "resource_json.cpp"
+
 msgid "Considerations"
 msgstr "міркування"
 
@@ -139,14 +157,14 @@ msgid ""
 "Therefore, Godot call translations are required."
 msgstr ""
 "Деякі бібліотеки можуть не визначати певні загальні процедури, такі як "
-"обробка вводу-виводу. Тому потрібні переклади викликів Годо."
+"обробка вводу-виводу. Тому потрібні переклади викликів Godot."
 
 msgid ""
 "For example, here is the code for translating ``FileAccess`` calls into "
 "``std::istream``."
 msgstr ""
-"Наприклад, ось код для перетворення викликів ``FileAccess`` у ``std::"
-"istream``."
+"Наприклад, ось код для перетворення викликів ``FileAccess`` у "
+"``std::istream``."
 
 msgid "`istream <https://cplusplus.com/reference/istream/istream/>`_"
 msgstr "`Istream <https://cplusplus.com/reference/istream/istream/>`_"
@@ -158,6 +176,13 @@ msgstr ""
 "`Streambuf <https://cplusplus.com/reference/streambuf/streambuf/?"
 "kw=streambuf>`_"
 
+msgid ""
+"`core/io/file_access.h <https://github.com/godotengine/godot/blob/master/"
+"core/io/file_access.h>`_"
+msgstr ""
+"`core/io/file_access.h <https://github.com/godotengine/godot/blob/master/"
+"core/io/file_access.h>`_"
+
 msgid "Registering the new file format"
 msgstr "Реєстрація нового формату файлу"
 
@@ -168,6 +193,12 @@ msgstr ""
 "Godot реєструє ``ResourcesFormatLoader`` за допомогою обробника "
 "``ResourceLoader``. Обробник автоматично вибирає відповідний завантажувач "
 "під час виклику ``load``."
+
+msgid "register_types.h"
+msgstr "register_types.h"
+
+msgid "register_types.cpp"
+msgstr "register_types.cpp"
 
 msgid "Loading it on GDScript"
 msgstr "Завантаження на GDScript"

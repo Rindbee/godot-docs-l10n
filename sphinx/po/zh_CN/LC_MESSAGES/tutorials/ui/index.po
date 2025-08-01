@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,9 +29,9 @@ msgid ""
 "types of controls which are useful for creating specific types of GUIs. For "
 "simplicity we can separate them into two groups: content and layout."
 msgstr ""
-"像 Godot 中的其他所有内容一样，用户界面是使用节点构建的，特别是 :ref:"
-"`Control <class_Control>` 节点。有许多不同类型的控件对于创建特定类型的 GUI 非"
-"常有用。为了简化，我们可以将它们分为两组：内容和布局。"
+"像 Godot 中的其他所有内容一样，用户界面是使用节点构建的，特别"
+"是 :ref:`Control <class_Control>` 节点。有许多不同类型的控件对于创建特定类型"
+"的 GUI 非常有用。为了简化，我们可以将它们分为两组：内容和布局。"
 
 msgid "Typical content controls include:"
 msgstr "典型的内容控件有："
@@ -63,6 +63,9 @@ msgstr ":ref:`选项卡容器 <class_TabContainer>`"
 
 msgid ":ref:`Popups <class_Popup>`"
 msgstr ":ref:`弹框 <class_Popup>`"
+
+msgid "The following pages explain the basics of using such controls."
+msgstr "下面的页面介绍了这些控件的基本用法。"
 
 msgid "GUI skinning and themes"
 msgstr "GUI 外观与主题"

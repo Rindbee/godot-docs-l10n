@@ -1,0 +1,48 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 4.4\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "**Rule ID**"
+msgstr "**Ідентифікатор правила**"
+
+msgid "**Category**"
+msgstr "**Категорія**"
+
+msgid "Usage"
+msgstr "Використання"
+
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Виправлення ламається або не ламається**"
+
+msgid "Non-breaking"
+msgstr "Не б'ється"
+
+msgid "**Enabled by default**"
+msgstr "**Увімкнено за замовчуванням**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "Причина"
+
+msgid "Rule description"
+msgstr "Опис правила"
+
+msgid "How to fix violations"
+msgstr "Як усунути порушення"
+
+msgid "To fix a violation of this rule, remove the ``[Export]`` attribute."
+msgstr "Щоб виправити порушення цього правила, видаліть атрибут ``[Export]``."
+
+msgid "When to suppress warnings"
+msgstr "Коли придушувати попередження"

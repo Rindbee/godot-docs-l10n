@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,7 +27,16 @@ msgid "Worlds"
 msgstr "Миры"
 
 msgid "Capture"
-msgstr "Захват"
+msgstr "Capture (Захват)"
 
 msgid "Rendering"
 msgstr "Отрисовка"
+
+msgid ""
+"Make sure to check the Viewport demos. They are available in the viewport "
+"folder of the demos archive, or at https://github.com/godotengine/godot-demo-"
+"projects/tree/master/viewport."
+msgstr ""
+"Обязательно ознакомьтесь с демонстрациями Viewport. Они доступны в папке "
+"viewport архива демонстраций или по адресу https://github.com/godotengine/"
+"godot-demo-projects/tree/master/viewport."

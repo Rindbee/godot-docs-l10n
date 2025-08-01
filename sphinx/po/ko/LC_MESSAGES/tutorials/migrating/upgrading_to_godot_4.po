@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,92 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GradientTexture"
+msgstr "GradientTexture"
+
+msgid "GradientTexture1D"
+msgstr "GradientTexture1D"
+
+msgid "KinematicBody"
+msgstr "KinematicBody"
+
+msgid "Light2D"
+msgstr "Light2D"
+
+msgid "PointLight2D"
+msgstr "PointLight2D"
+
 msgid "Particles"
-msgstr "파티클"
+msgstr "Particles"
+
+msgid "GPUParticles3D"
+msgstr "GPUParticles3D"
+
+msgid "Particles2D"
+msgstr "Particles2D"
+
+msgid "GPUParticles2D"
+msgstr "GPUParticles2D"
+
+msgid "ParticleProcessMaterial"
+msgstr "ParticleProcessMaterial"
+
+msgid "Spatial"
+msgstr "공간"
+
+msgid "VideoPlayer"
+msgstr "VideoPlayer"
+
+msgid "ViewportContainer"
+msgstr "ViewportContainer"
+
+msgid "SubViewportContainer"
+msgstr "SubViewportContainer"
+
+msgid "Viewport"
+msgstr "Viewport"
+
+msgid "SubViewport"
+msgstr "SubViewport"
+
+msgid "VisibilityEnabler"
+msgstr "VisibilityEnabler"
+
+msgid "VisibilityNotifier"
+msgstr "VisibilityNotifier"
+
+msgid "VisibilityNotifier2D"
+msgstr "VisibilityNotifier2D"
+
+msgid "VisibilityNotifier3D"
+msgstr "VisibilityNotifier3D"
+
+msgid "VisualServer"
+msgstr "VisualServer"
+
+msgid "**Enums**"
+msgstr "**열거형**"
+
+msgid "**Signals**"
+msgstr "**시그널**"
+
+msgid "Updating shaders"
+msgstr "셰이더 업데이트"
+
+msgid "Removed node"
+msgstr "제거된 노드"
 
 msgid "Comment"
 msgstr "주석"
 
 msgid "LightmapGI"
 msgstr "라이트맵GI"
+
+msgid "ClippedCamera"
+msgstr "ClippedCamera"
+
+msgid "OccluderShapeSphere"
+msgstr "OccluderShapeSphere"
+
+msgid "Porting editor settings"
+msgstr "편집기 설정을 이관하기"

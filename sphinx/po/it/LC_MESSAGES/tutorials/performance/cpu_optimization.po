@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Measuring performance"
+msgstr "Misurare le prestazioni"
+
+msgid "CPU profilers"
+msgstr "Profiler di CPU"
+
+msgid "Screenshot of the Godot profiler"
+msgstr "Screenshot del profiler di Godot"
+
+msgid ""
+"For more info about using Godot's built-in profiler, "
+"see :ref:`doc_debugger_panel`."
+msgstr ""
+"Per ulteriori informazioni su come utilizzare il profiler integrato di "
+"Godot, consultare :ref:`doc_debugger_panel`."
+
+msgid "External profilers"
+msgstr "Profiler esterni"
+
+msgid "Manually timing functions"
+msgstr "Cronometraggio manuale delle funzioni"
+
 msgid "Caches"
-msgstr "Caches"
+msgstr "Cache"
 
 msgid ""
 "CPU caches are something else to be particularly aware of, especially when "
@@ -59,8 +81,16 @@ msgstr "C++"
 msgid "Threads"
 msgstr "Threads"
 
+msgid "For more information on threads, see :ref:`doc_using_multiple_threads`."
+msgstr ""
+"Per più informazioni sui thread, "
+"consultare :ref:`doc_using_multiple_threads`."
+
 msgid "SceneTree"
 msgstr "SceneTree"
 
 msgid "Physics"
 msgstr "Fisica"
+
+msgid "Here are some techniques to speed up physics:"
+msgstr "Ecco alcune tecniche per velocizzare la fisica:"

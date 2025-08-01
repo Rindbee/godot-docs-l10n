@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Audio effects"
+msgstr "Effets audio"
 
 msgid ""
 "Try them all out to get a sense of how they alter sound. Here follows a "
@@ -94,6 +97,9 @@ msgstr ""
 "Filter (filtre) est ce dont héritent tous les autres filtres et ne doit pas "
 "être utilisé directement."
 
+msgid "HardLimiter"
+msgstr "HardLimiter"
+
 msgid "HighPassFilter"
 msgstr "HighPassFilter"
 
@@ -166,6 +172,20 @@ msgstr ""
 
 msgid "Reverb"
 msgstr "Réverbération (Reverb)"
+
+msgid ""
+"Reverb simulates rooms of different sizes. It has adjustable parameters that "
+"can be tweaked to obtain the sound of a specific room. Reverb is commonly "
+"outputted from :ref:`Area3Ds <class_Area3D>` (see :ref:`Reverb buses "
+"<doc_audio_streams_reverb_buses>`), or to apply a \"chamber\" feel to all "
+"sounds."
+msgstr ""
+"Reverb simule des pièces de différentes tailles. Il possède des paramètres "
+"réglables qui peuvent être ajustés pour obtenir le son d'une pièce "
+"spécifique. La réverbération est généralement émise à partir "
+"de :ref:`Area3Ds <class_Area3D>` (voir :ref:`Bus de réverbération "
+"<doc_audio_streams_reverb_buses>`), ou pour appliquer un effet \"chambre\" à "
+"tous les sons."
 
 msgid "SpectrumAnalyzer"
 msgstr "SpectrumAnalyzer"

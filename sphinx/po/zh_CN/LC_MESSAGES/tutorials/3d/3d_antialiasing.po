@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -15,8 +15,8 @@ msgid "3D antialiasing"
 msgstr "3D 抗锯齿"
 
 msgid ""
-"Godot also supports antialiasing in 2D rendering. This is covered on the :"
-"ref:`doc_2d_antialiasing` page."
+"Godot also supports antialiasing in 2D rendering. This is covered on "
+"the :ref:`doc_2d_antialiasing` page."
 msgstr ""
 "Godot 还支持在 2D 渲染中的抗锯齿。这部分在 :ref:`doc_2d_antialiasing` 页面中"
 "进行了介绍。"
@@ -55,14 +55,17 @@ msgstr ""
 
 msgid ""
 "You can compare antialiasing algorithms in action using the `3D Antialiasing "
-"demo project <https://github.com/godotengine/godot-demo-projects/tree/"
-"master/3d/antialiasing>`__."
+"demo project <https://github.com/godotengine/godot-demo-projects/tree/master/"
+"3d/antialiasing>`__."
 msgstr ""
 "你可以使用 `3D 抗锯齿演示项目 <https://github.com/godotengine/godot-demo-"
 "projects/tree/master/3d/antialiasing>`__ 比较实际的抗锯齿算法。"
 
 msgid "Multisample antialiasing (MSAA)"
 msgstr "多重采样抗锯齿（MSAA）"
+
+msgid "*This is available in all renderers.*"
+msgstr "*此功能适用于全部渲染器。*"
 
 msgid ""
 "This technique is the \"historical\" way of dealing with aliasing. MSAA is "
@@ -111,6 +114,24 @@ msgstr ""
 "而且不会引入任何模糊。"
 
 msgid ""
+"To make specular aliasing less noticeable, use the `Screen-space roughness "
+"limiter`_, which is enabled by default."
+msgstr ""
+"为了减少镜面反射锯齿的可见性，请使用默认启用的\\ `屏幕空间粗糙度限制器`_。"
+
+msgid ""
+"MSAA can be enabled in the Project Settings by changing the value of "
+"the :ref:`Rendering > Anti Aliasing > Quality > MSAA "
+"3D<class_ProjectSettings_property_rendering/anti_aliasing/quality/msaa_3d>` "
+"setting. It's important to change the value of the **MSAA 3D** setting and "
+"not **MSAA 2D**, as these are entirely separate settings."
+msgstr ""
+"通过更改 :ref:`渲染 > 抗锯齿 > 质量 > MSAA 3D "
+"<class_ProjectSettings_property_rendering/anti_aliasing/quality/msaa_3d>` 设"
+"置的值，可以在项目设置中启用 MSAA。 更改 **MSAA 3D** 设置的值而不是 **MSAA "
+"2D** 非常重要，因为这些是完全独立的设置。"
+
+msgid ""
 "Comparison between no antialiasing (left) and various MSAA levels (right). "
 "Note that alpha antialiasing is not used here:"
 msgstr ""
@@ -119,6 +140,12 @@ msgstr ""
 
 msgid "Temporal antialiasing (TAA)"
 msgstr "时间抗锯齿（TAA）"
+
+msgid ""
+"*This is only available in the Forward+ renderer, not the Mobile or "
+"Compatibility renderers.*"
+msgstr ""
+"*该功能仅适用于 Forward+ 渲染器，不适用于 Mobile 或 Compatibility 渲染器。*"
 
 msgid ""
 "Temporal antialiasing works by *converging* the result of previously "
@@ -150,6 +177,16 @@ msgstr ""
 "在静止场景中启用 TAA 会产生少量模糊，而当相机移动时，这种模糊效果会变得更加明"
 "显。 TAA 的另一个缺点是它可能会在移动物体后面呈现 *重影（ghosting）* 伪影。 "
 "以更高的帧速率进行渲染将使 TAA 收敛得更快，从而使这些重影伪像变得不那么明显。"
+
+msgid ""
+"Temporal antialiasing can be enabled in the Project Settings by changing the "
+"value of the :ref:`Rendering > Anti Aliasing > Quality > "
+"TAA<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_taa>` "
+"setting."
+msgstr ""
+"通过在项目设置中更改 :ref:`渲染 > 抗锯齿 > 质量 > 使用 TAA "
+"<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_taa>` 的"
+"配置，可以启用时间抗锯齿功能。"
 
 msgid "Comparison between no antialiasing (left) and TAA (right):"
 msgstr "无抗锯齿（左）和 TAA（右）之间的比较："
@@ -211,6 +248,12 @@ msgid "Fast approximate antialiasing (FXAA)"
 msgstr "快速近似抗锯齿（FXAA）"
 
 msgid ""
+"*This is only available in the Forward+ and Mobile renderers, not the "
+"Compatibility renderer.*"
+msgstr ""
+"*该功能仅适用于集群 Forward+ 和 Forward 移动后端，不适用于兼容性渲染器。*"
+
+msgid ""
 "Fast approximate antialiasing is a post-processing antialiasing solution. It "
 "is faster to run than any other antialiasing technique and also supports "
 "antialiasing transparency. However, since it lacks temporal information, it "
@@ -237,6 +280,16 @@ msgid ""
 msgstr ""
 "FXAA 启用后会产生适度的模糊（静止时比 TAA 多，但相机移动时比 TAA 少）。"
 
+msgid ""
+"FXAA can be enabled in the Project Settings by changing the value of "
+"the :ref:`Rendering > Anti Aliasing > Quality > Screen Space "
+"AA<class_ProjectSettings_property_rendering/anti_aliasing/quality/"
+"screen_space_aa>` setting to ``FXAA``."
+msgstr ""
+"可以在项目设置中启用 FXAA，方法是将 :ref:`渲染 > 抗锯齿 > 质量 > 屏幕空间 AA "
+"<class_ProjectSettings_property_rendering/anti_aliasing/quality/"
+"screen_space_aa>` 设置的值更改为 ``FXAA`` 。"
+
 msgid "Comparison between no antialiasing (left) and FXAA (right):"
 msgstr "无抗锯齿（左）和 FXAA（右）之间的对比："
 
@@ -261,6 +314,26 @@ msgid ""
 msgstr ""
 "SSAA 的缺点是其 *极高* 的成本。 这种成本通常会使 SSAA 难以用于游戏目的，但你"
 "可能仍会发现超采样对于 :ref:`离线渲染 <doc_creating_movies>` 很有用。"
+
+msgid ""
+"Supersample antialiasing is performed by increasing the :ref:`Rendering > "
+"Scaling 3D > Scale<class_ProjectSettings_property_rendering/scaling_3d/"
+"scale>` advanced project setting above ``1.0`` while "
+"ensuring :ref:`Rendering > Scaling 3D > "
+"Mode<class_ProjectSettings_property_rendering/scaling_3d/mode>` is set to "
+"``Bilinear`` (the default). Since the scale factor is defined per-axis, a "
+"scale factor of ``1.5`` will result in 2.25× SSAA while a scale factor of "
+"``2.0`` will result in 4× SSAA. Since Godot uses the hardware's own bilinear "
+"filtering to perform the downsampling, the result will look crisper at "
+"integer scale factors (namely, ``2.0``)."
+msgstr ""
+"超采样抗锯齿是通过将高级项目设置中 :ref:`渲染 > 缩放 3D > 缩放 "
+"<class_ProjectSettings_property_rendering/scaling_3d/scale>` 的设置增加到 "
+"``1.0`` 以上来执行的，同时确保 :ref:`渲染 > 缩放 3D > 模式 "
+"<class_ProjectSettings_property_rendering/scaling_3d/mode>` 设置为 "
+"``Bilinear`` （默认） 。 由于比例因子是按轴定义的，比例因子 ``1.5`` 将导致 "
+"2.25× SSAA，而比例因子 ``2.0`` 将导致 4× SSAA。由于 Godot 使用硬件自身的双线"
+"性过滤来执行降采样，因此结果在整数的比例因子（即 ``2.0`` ）下看起来会更清晰。"
 
 msgid ""
 "Comparison between no antialiasing (left) and various SSAA levels (right):"
@@ -384,15 +457,119 @@ msgid ""
 "make moving edges look better when TAA is enabled, you can also enable MSAA "
 "at the same time."
 msgstr ""
-"Godot 允许同时使用多种抗锯齿技术。这通常是不必要的，但在高端 GPU 上或在 :ref:"
-"`非实时渲染 <doc_creating_movies>` 中可以提供更好的视觉效果。例如，为了在启"
-"用 TAA 时让移动边缘看起来更好，还可以同时启用 MSAA。"
+"Godot 允许同时使用多种抗锯齿技术。这通常是不必要的，但在高端 GPU 上或"
+"在 :ref:`非实时渲染 <doc_creating_movies>` 中可以提供更好的视觉效果。例如，为"
+"了在启用 TAA 时让移动边缘看起来更好，还可以同时启用 MSAA。"
+
+msgid "Antialiasing comparison"
+msgstr "抗锯齿技术比较"
+
+msgid "Feature"
+msgstr "特性"
+
+msgid "MSAA"
+msgstr "MSAA"
+
+msgid "TAA"
+msgstr "TAA"
+
+msgid "FSR2"
+msgstr "FSR2"
+
+msgid "FXAA"
+msgstr "FXAA"
+
+msgid "SSAA"
+msgstr "SSAA"
+
+msgid "SSRL"
+msgstr "SSRL"
+
+msgid "Edge antialiasing"
+msgstr "**边缘抗锯齿**"
+
+msgid "🟢 Yes"
+msgstr "🟢 是"
+
+msgid "🔴 No"
+msgstr "🔴 否"
+
+msgid "Specular antialiasing"
+msgstr "镜面反射抗锯齿"
+
+msgid "🟡 Some"
+msgstr "🟡 一些"
+
+msgid "Transparency antialiasing"
+msgstr "透明度抗锯齿"
+
+msgid "🟡 Some [1]_"
+msgstr "🟡 某些 [1]_"
+
+msgid "🟢 Yes [2]_"
+msgstr "🟢 是 [2]_"
+
+msgid "Added blur"
+msgstr "添加了模糊效果"
+
+msgid "🟢 None"
+msgstr "🟢 无"
+
+msgid "🟡 Some [3]_"
+msgstr "🟡 某些 [3]_"
+
+msgid "Ghosting artifacts"
+msgstr "残影"
+
+msgid "🔴 Yes"
+msgstr "🔴 是"
+
+msgid "Performance cost"
+msgstr "性能开销"
+
+msgid "🟡 Medium"
+msgstr "🟡 中等"
+
+msgid "🔴 High"
+msgstr "🔴 高"
+
+msgid "🟢 Low"
+msgstr "🟢 低"
+
+msgid "🔴 Very High"
+msgstr "🔴 非常高"
 
 msgid "Forward+"
 msgstr "Forward+"
 
+msgid "✔️ Yes"
+msgstr "✔️ 是"
+
 msgid "Mobile"
 msgstr "移动端"
 
+msgid "❌ No"
+msgstr "❌ 否"
+
 msgid "Compatibility"
 msgstr "兼容"
+
+msgid ""
+"MSAA does not work well with materials with Alpha Scissor (1-bit "
+"transparency). This can be mitigated by enabling ``alpha antialiasing`` on "
+"the material."
+msgstr ""
+"MSAA 对于使用 Alpha Scissor（1 位透明度）的材质效果不佳。可以通过在材质上启"
+"用 ``alpha antialiasing`` 来缓解此问题。"
+
+msgid ""
+"TAA/FSR2 transparency antialiasing is most effective when using Alpha "
+"Scissor."
+msgstr "当使用 Alpha Scissor 时，TAA/FSR2 透明度抗锯齿效果最佳。"
+
+msgid ""
+"SSAA has some blur from bilinear downscaling. This can be mitigated by using "
+"an integer scaling factor of ``2.0``."
+msgstr ""
+"SSAA 会因双线性下采样而产生一定的模糊。可以通过使用 ``2.0`` 这样的整数缩放因"
+"子来缓解此问题。"

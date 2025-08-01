@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ParticleProcessMaterial properties"
+msgstr "ParticleProcessMaterial 속성"
+
+msgid "Min, max, and curve properties"
+msgstr "최소, 최대 및 곡선 속성"
+
+msgid "Particle flags"
+msgstr "입자 플래그"
+
+msgid "Spawn"
+msgstr "소환"
+
+msgid "Emission shape"
+msgstr "방출 모양"
+
+msgid "Simple particle emission shapes"
+msgstr "단순한 입자 방출 모양"
+
 msgid "Angle"
-msgstr "각도"
+msgstr "각"
 
 msgid "Direction"
 msgstr "방향"
@@ -20,14 +38,29 @@ msgstr "방향"
 msgid "Gravity"
 msgstr "중력"
 
+msgid "Angular velocity"
+msgstr "각속도"
+
 msgid "Damping"
 msgstr "댐핑"
 
 msgid "Scale"
-msgstr "크기"
+msgstr "스케일"
 
 msgid "Color"
 msgstr "색상"
 
 msgid "Animation"
 msgstr "애니메이션"
+
+msgid "Collision"
+msgstr "콜리전"
+
+msgid "Sub-emitter"
+msgstr "하위 방출기"
+
+msgid "Sub-emitter modes"
+msgstr "하위 방출기 모드"
+
+msgid "The available sub-emitter modes"
+msgstr "사용 가능한 하위 방출기 모드"

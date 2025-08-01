@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -31,6 +31,14 @@ msgstr ""
 "données pour le moteur et les autres modules. De plus, le serveur revendique "
 "la propriété de ses allocations RID."
 
+msgid ""
+"This guide assumes the reader knows how to create C++ modules and Godot data "
+"types. If not, refer to :ref:`doc_custom_modules_in_cpp`."
+msgstr ""
+"Ce guide part du principe que le lecteur sait comment créer des modules C++ "
+"et des types de données Godot. Si ce n'est pas le cas, "
+"voir :ref:`doc_custom_modules_in_cpp`."
+
 msgid "References"
 msgstr "References"
 
@@ -38,8 +46,8 @@ msgid ""
 "`Why does Godot use servers and RIDs? <https://godotengine.org/article/why-"
 "does-godot-use-servers-and-rids>`__"
 msgstr ""
-"`Pourquoi Godot utilise-t-il des serveurs et des RID ? <https://godotengine."
-"org/article/why-does-godot-use-servers-and-rids>`__"
+"`Pourquoi Godot utilise-t-il des serveurs et des RID ? <https://"
+"godotengine.org/article/why-does-godot-use-servers-and-rids>`__"
 
 msgid "`Singleton pattern <https://en.wikipedia.org/wiki/Singleton_pattern>`__"
 msgstr ""
@@ -79,6 +87,15 @@ msgstr ""
 "Au minimum, un serveur doit avoir une instance statique, un minuteur de "
 "sommeil, une boucle d’exécution, un état d'initialisation et une procédure "
 "de nettoyage."
+
+msgid "hilbert_hotel.h"
+msgstr "hilbert_hotel.h"
+
+msgid "hilbert_hotel.cpp"
+msgstr "hilbert_hotel.cpp"
+
+msgid "prime_255.h"
+msgstr "prime_255.h"
 
 msgid "Custom managed resource data"
 msgstr "Données de ressources gérées sur mesure"
@@ -135,6 +152,12 @@ msgstr ""
 "Dans ``register_server_types()``, ``Engine::get_singleton()->add_singleton`` "
 "est utilisé pour enregistrer la classe factice dans GDScript."
 
+msgid "register_types.h"
+msgstr "register_types.h"
+
+msgid "register_types.cpp"
+msgstr "register_types.cpp"
+
 msgid ""
 "`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
 "blob/master/servers/register_server_types.cpp>`__"
@@ -183,6 +206,13 @@ msgstr ""
 
 msgid "References:"
 msgstr "Références :"
+
+msgid ""
+"`core/object/message_queue.cpp <https://github.com/godotengine/godot/blob/"
+"master/core/object/message_queue.cpp>`__"
+msgstr ""
+"`core/object/message_queue.cpp <https://github.com/godotengine/godot/blob/"
+"master/core/object/message_queue.cpp>`__"
 
 msgid "Summing it up"
 msgstr "En résumé"

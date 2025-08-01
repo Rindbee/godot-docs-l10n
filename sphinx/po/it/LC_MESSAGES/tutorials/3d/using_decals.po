@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,55 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using decals"
+msgstr "Utilizzo delle decalcomanie"
+
+msgid "On this page, you'll learn:"
+msgstr "In questa pagina imparerai:"
+
+msgid ""
+"The Godot demo projects repository contains a `3D decals demo <https://"
+"github.com/godotengine/godot-demo-projects/tree/master/3d/decals>`__."
+msgstr ""
+"Il repository dei progetti demo di Godot contiene una `demo per le "
+"decalcomanie 3D <https://github.com/godotengine/godot-demo-projects/tree/"
+"master/3d/decals>`__."
+
+msgid "Use cases"
+msgstr "Casi d'uso"
+
+msgid "Static decoration"
+msgstr "Decorazioni statiche"
+
+msgid "Blob shadows"
+msgstr "Ombre a chiazze"
+
+msgid "Creating decals in the editor"
+msgstr "Creare le decalcomanie nell'editor"
+
+msgid "Create a Decal node in the 3D editor."
+msgstr "Crea un nodo Decal nell'editor 3D."
+
+msgid "Decal node properties"
+msgstr "Proprietà del nodo Decal"
+
+msgid "Textures"
+msgstr "Texture"
+
 msgid "Parameters"
 msgstr "Parametri"
+
+msgid "Vertical Fade"
+msgstr "Dissolvenza verticale"
+
+msgid "Distance Fade"
+msgstr "Distanza dissolvenza"
+
+msgid "Cull Mask"
+msgstr "Maschera di culling"
+
+msgid "Decal rendering order"
+msgstr "Ordine di rendering della decalcomania"
 
 msgid "Limitations"
 msgstr "Limitazioni"

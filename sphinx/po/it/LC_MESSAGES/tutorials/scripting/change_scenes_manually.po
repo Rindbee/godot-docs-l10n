@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Change scenes manually"
+msgstr "Cambiare le scene manualmente"
+
+msgid "Unloads memory."
+msgstr "Libera la memoria."
+
+msgid "Processing stops."
+msgstr "L'elaborazione si interrompe."
+
+msgid "Memory still exists."
+msgstr "La memoria esiste ancora."
+
 msgid "Processing continues."
 msgstr "L'elaborazione continua."
+
+msgid "Memory still exists (similar pros/cons as hiding it from view)."
+msgstr "La memoria esiste ancora (pro/contro simili a nasconderla alla vista)."
+
+msgid "Processing stops (similar pros/cons as deleting it completely)."
+msgstr ""
+"L'elaborazione si interrompe (pro/contro simili a eliminarla completamente)."

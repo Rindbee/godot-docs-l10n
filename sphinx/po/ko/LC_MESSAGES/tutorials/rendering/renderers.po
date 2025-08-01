@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,45 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Renderers"
+msgstr "렌더러"
+
 msgid "Introduction"
 msgstr "소개"
+
+msgid "Godot 4 includes three renderers:"
+msgstr "Godot 4에는 세 가지 렌더러가 포함되어 있습니다:"
+
+msgid ""
+"**Forward+**. The most advanced renderer, suited for desktop platforms only. "
+"Used by default on desktop platforms. This renderer uses **Vulkan**, "
+"**Direct3D 12**, or **Metal** as the rendering driver, and it uses the "
+"**RenderingDevice** backend."
+msgstr ""
+"**Forward+**. 데스크톱 플랫폼에만 적합한 가장 고급 렌더러입니다. 데스크톱 플"
+"랫폼에서는 기본으로 사용됩니다. 이 렌더러는 **Vulkan**, **Direct3D 12**, 또"
+"는 **Metal**\\ 을 렌더링 드라이버로 사용하며, **RenderingDevice** 백엔드를 사"
+"용합니다."
+
+msgid ""
+"**Mobile**. Fewer features, but renders simple scenes faster. Suited for "
+"mobile and desktop platforms. Used by default on mobile platforms. This "
+"renderer uses **Vulkan**, **Direct3D 12**, or **Metal** as the rendering "
+"driver, and it uses the **RenderingDevice** backend."
+msgstr ""
+"**Mobile**. 기능은 적지만 단순한 씬을 더 빠르게 렌더링합니다. 모바일 및 데스"
+"크톱 플랫폼에 적합합니다. 모바일 플랫폼에서는 기본으로 사용됩니다. 이 렌더러"
+"는 **Vulkan**, **Direct3D 12**, 또는 **Metal**\\ 을 렌더링 드라이버로 사용하"
+"며, **RenderingDevice** 백엔드를 사용합니다."
+
+msgid ""
+"**Compatibility**, sometimes called **GL Compatibility**. The least advanced "
+"renderer, suited for low-end desktop and mobile platforms. Used by default "
+"on the web platform. This renderer uses **OpenGL** as the rendering driver."
+msgstr ""
+"**호환성**, 때때로 **GL 호환성**\\ 이라고도 불립니다. 가장 덜 발전된 렌더러"
+"로, 저사양 데스크톱 및 모바일 플랫폼에 적합합니다. 웹 플랫폼에서는 기본으로 "
+"사용됩니다. 이 렌더러는 **OpenGL**\\ 을 렌더링 드라이버로 사용합니다."
 
 msgid "Mobile"
 msgstr "모바일"
@@ -23,6 +60,9 @@ msgstr "Forward+"
 msgid "Web"
 msgstr "웹"
 
+msgid "Lights and shadows"
+msgstr "빛과 그림자"
+
 msgid "LightmapGI"
 msgstr "라이트맵GI"
 
@@ -31,3 +71,6 @@ msgstr "빛번짐"
 
 msgid "Adjustments"
 msgstr "조정"
+
+msgid "Variable rate shading"
+msgstr "가변 비율 셰이딩"

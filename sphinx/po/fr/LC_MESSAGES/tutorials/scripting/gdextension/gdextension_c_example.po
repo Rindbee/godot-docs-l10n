@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,8 +20,20 @@ msgstr "Mise en place du projet"
 msgid "There are a few prerequisites you'll need:"
 msgstr "Il y a quelques prérequis dont vous aurez besoin :"
 
+msgid "SCons as a build tool."
+msgstr "SCons comme outil de compilation."
+
 msgid "File structure"
 msgstr "Structure de fichier"
+
+msgid "A basic class"
+msgstr "Une classe basique"
+
+msgid "A wrapper API"
+msgstr "Un wrapper d'API"
+
+msgid "Custom properties"
+msgstr "Propriétés personnalisées"
 
 msgid "Conclusion"
 msgstr "Conclusion"

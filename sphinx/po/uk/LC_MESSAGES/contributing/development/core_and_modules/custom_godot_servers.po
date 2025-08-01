@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -85,6 +85,15 @@ msgstr ""
 "Як мінімум сервер повинен мати статичний екземпляр, таймер сну, цикл потоку, "
 "стан ініціалізації та процедуру очищення."
 
+msgid "hilbert_hotel.h"
+msgstr "hilbert_hotel.h"
+
+msgid "hilbert_hotel.cpp"
+msgstr "hilbert_hotel.cpp"
+
+msgid "prime_255.h"
+msgstr "prime_255.h"
+
 msgid "Custom managed resource data"
 msgstr "Настроювані керовані дані ресурсів"
 
@@ -98,6 +107,9 @@ msgstr ""
 "``RID_Data``. ``RID_Owner<MyRID_Data>`` володіє об’єктом під час виклику "
 "``make_rid``. Лише в режимі налагодження RID_Owner підтримує список RID. На "
 "практиці RID подібні до написання об'єктно-орієнтованого коду на C."
+
+msgid "infinite_bus.h"
+msgstr "infinite_bus.h"
 
 msgid ":ref:`RID<class_rid>`"
 msgstr ":ref:`RID<class_rid>`"
@@ -138,6 +150,12 @@ msgid ""
 msgstr ""
 "У ``register_server_types()`` ``Engine::get_singleton()->add_singleton`` "
 "використовується для реєстрації фіктивного класу в GDScript."
+
+msgid "register_types.h"
+msgstr "register_types.h"
+
+msgid "register_types.cpp"
+msgstr "register_types.cpp"
 
 msgid ""
 "`servers/register_server_types.cpp <https://github.com/godotengine/godot/"

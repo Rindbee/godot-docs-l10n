@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -39,8 +39,8 @@ msgstr ""
 "надсилання push-сповіщень у браузери, а також використовувався для "
 "реалізації чатів, покрокових ігор тощо. Він все ще використовує з’єднання "
 "TCP, що добре для надійності, але не для затримки, тому не підходить для "
-"додатків у реальному часі, таких як VoIP та швидких ігор (перегляньте :ref:"
-"`WebRTC <doc_webrtc>` для таких випадків використання)."
+"додатків у реальному часі, таких як VoIP та швидких ігор "
+"(перегляньте :ref:`WebRTC <doc_webrtc>` для таких випадків використання)."
 
 msgid ""
 "Due to its simplicity, its wide compatibility, and being easier to use than "
@@ -57,6 +57,17 @@ msgstr "Godot підтримує WebSocket як в рідному, так і в 
 
 msgid "Using WebSocket in Godot"
 msgstr "Використання WebSocket в Godot"
+
+msgid ""
+"WebSocket is implemented in Godot via :ref:`WebSocketPeer "
+"<class_WebSocketPeer>`. The WebSocket implementation is compatible with the "
+"High-Level Multiplayer. See section on :ref:`high-level multiplayer "
+"<doc_high_level_multiplayer>` for more details."
+msgstr ""
+"WebSocket реалізовано в Godot через :ref:`WebSocketPeer "
+"<class_WebSocketPeer>`. Реалізація WebSocket сумісна з багатокористувацькою "
+"іграшкою високого рівня. Перегляньте розділ про :ref:`high-level multiplayer "
+"<doc_high_level_multiplayer>` для отримання додаткової інформації."
 
 msgid ""
 "When exporting to Android, make sure to enable the ``INTERNET`` permission "
@@ -97,3 +108,15 @@ msgstr "Буде виведено (коли клієнт підключитьс�
 
 msgid "Advanced chat demo"
 msgstr "Розширена демонстрація чату"
+
+msgid ""
+"A more advanced chat demo which optionally uses the multiplayer mid-level "
+"abstraction and a high-level multiplayer demo are available in the `godot "
+"demo projects <https://github.com/godotengine/godot-demo-projects>`_ under "
+"`networking/websocket_chat` and `networking/websocket_multiplayer`."
+msgstr ""
+"Досконаліша демонстрація чату, яка додатково використовує абстракцію "
+"середнього рівня для кількох гравців, і демонстраційна версія для кількох "
+"гравців високого рівня доступні в `демо-проектах godot <https://github.com/"
+"godotengine/godot-demo-projects>`_ у розділі `networking/websocket_chat` і "
+"`networking/websocket_multiplayer`."

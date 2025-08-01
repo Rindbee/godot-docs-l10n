@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -34,8 +34,23 @@ msgid ""
 msgstr ""
 "`core/rid.h <https://github.com/godotengine/godot/blob/master/core/rid.h>`__."
 
+msgid "``purchase``"
+msgstr "``purchase``"
+
 msgid "Parameters"
 msgstr "Parametry"
+
+msgid "``request_product_info``"
+msgstr "``request_product_info``"
+
+msgid "``restore_purchases``"
+msgstr "``restore_purchases``"
+
+msgid "``set_auto_finish_transaction``"
+msgstr "``set_auto_finish_transaction``"
+
+msgid "``finish_transaction``"
+msgstr "``finish_transaction``"
 
 msgid "Game Center"
 msgstr "Centrum Gier"
@@ -46,6 +61,12 @@ msgid ""
 msgstr ""
 "`core/rid.h <https://github.com/godotengine/godot/blob/master/core/rid.h>`__."
 
+msgid "``authenticate``"
+msgstr "``authenticate``"
+
+msgid "``post_score``"
+msgstr "``post_score``"
+
 msgid "``score`` a float number"
 msgstr "``score`` liczba zmiennoprzecinkowa"
 
@@ -54,6 +75,21 @@ msgstr "``category`` string z nazwą kategorii"
 
 msgid "Example:"
 msgstr "Na przykład:"
+
+msgid "``award_achievement``"
+msgstr "``award_achievement``"
+
+msgid "``reset_achievements``"
+msgstr "``reset_achievements``"
+
+msgid "``request_achievements``"
+msgstr "``request_achievements``"
+
+msgid "``request_achievement_descriptions``"
+msgstr "``request_achievement_descriptions``"
+
+msgid "``show_game_center``"
+msgstr "``show_game_center``"
 
 msgid "Examples:"
 msgstr "Przykłady:"

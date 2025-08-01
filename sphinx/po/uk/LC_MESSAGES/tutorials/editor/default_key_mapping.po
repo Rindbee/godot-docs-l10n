@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,19 @@ msgstr "шпаргалка, шпар галка, ярлик"
 
 msgid "Default editor shortcuts"
 msgstr "Гарячі клавіші редактора"
+
+msgid ""
+"Many Godot editor functions can be executed with keyboard shortcuts. This "
+"page lists functions which have associated shortcuts by default, but many "
+"others are available for customization in editor settings as well. To change "
+"keys associated with these and other actions navigate to **Editor > Editor "
+"Settings > Shortcuts**."
+msgstr ""
+"Багато функцій редактора Godot можна виконувати за допомогою комбінацій "
+"клавіш. На цій сторінці наведено список функцій, які за замовчуванням мають "
+"пов’язані ярлики, але багато інших також доступні для налаштування в "
+"налаштуваннях редактора. Щоб змінити клавіші, пов’язані з цими та іншими "
+"діями, перейдіть до **Редактор > Параметри редактора > Комбінації клавіш**."
 
 msgid ""
 "While some actions are universal, a lot of shortcuts are specific to "
@@ -41,6 +54,9 @@ msgstr ""
 "на операційній системі, можуть інтуїтивно зрозуміти карту клавіш для "
 "редактора Godot."
 
+msgid "General editor actions"
+msgstr "Загальні дії редактора"
+
 msgid "Action name"
 msgstr "Назва дії"
 
@@ -59,6 +75,9 @@ msgstr "Відкрити 2D редактор"
 msgid ":kbd:`Ctrl + F1`"
 msgstr ":kbd:`Ctrl + F1`"
 
+msgid ":kbd:`Cmd + Ctrl + 1`"
+msgstr ":kbd:`Cmd + Ctrl + 1`"
+
 msgid "``editor/editor_2d``"
 msgstr "``editor/editor_2d``"
 
@@ -68,6 +87,9 @@ msgstr "Відкрити 3D редактор"
 msgid ":kbd:`Ctrl + F2`"
 msgstr ":kbd:`Ctrl + F2`"
 
+msgid ":kbd:`Cmd + Ctrl + 2`"
+msgstr ":kbd:`Cmd + Ctrl + 2`"
+
 msgid "``editor/editor_3d``"
 msgstr "``editor/editor_3d``"
 
@@ -76,6 +98,9 @@ msgstr "Відкрити редактор скриптів"
 
 msgid ":kbd:`Ctrl + F3`"
 msgstr ":kbd:`Ctrl + F3`"
+
+msgid ":kbd:`Cmd + Ctrl + 3`"
+msgstr ":kbd:`Cmd + Ctrl + 3`"
 
 msgid "``editor/editor_script``"
 msgstr "``editor/editor_script``"
@@ -104,11 +129,17 @@ msgstr ":kbd:`Cmd + Ctrl + D`"
 msgid "``editor/distraction_free_mode``"
 msgstr "``editor/distraction_free_mode``"
 
+msgid "Next Scene Tab"
+msgstr "Наступна вкладка сцени"
+
 msgid ":kbd:`Ctrl + Tab`"
 msgstr ":kbd:`Ctrl + Tab`"
 
 msgid "``editor/next_tab``"
 msgstr "``editor/next_tab``"
+
+msgid "Previous Scene Tab"
+msgstr "Попередня вкладка сцена"
 
 msgid ":kbd:`Ctrl + Shift + Tab`"
 msgstr ":kbd:`Ctrl + Shift + Tab`"
@@ -205,6 +236,9 @@ msgstr "Швидке відкриття"
 
 msgid ":kbd:`Shift + Alt + O`"
 msgstr ":kbd:`Shift + Alt + O`"
+
+msgid ":kbd:`Cmd + Ctrl + O`"
+msgstr ":kbd:`Cmd + Ctrl + O`"
 
 msgid "``editor/quick_open``"
 msgstr "``editor/quick_open``"
@@ -374,14 +408,93 @@ msgstr ":kbd:`Shift + F12`"
 msgid "``editor/bottom_panel_expand``"
 msgstr "``editor/bottom_panel_expand``"
 
+msgid "Command Palette"
+msgstr "Палітра команд"
+
 msgid ":kbd:`Ctrl + Shift + P`"
 msgstr ":kbd:`Ctrl + Shift + P`"
 
 msgid ":kbd:`Cmd + Shift + P`"
 msgstr ":kbd:`Cmd + Shift + P`"
 
+msgid "``editor/command_palette``"
+msgstr "``editor/command_palette``"
+
+msgid "Bottom panels"
+msgstr "Нижні панелі"
+
+msgid ""
+"Only bottom panels that are always available have a default shortcut "
+"assigned. Others must be manually bound in the Editor Settings if desired."
+msgstr ""
+"Лише нижні панелі, які завжди доступні, мають стандартний ярлик. За потреби "
+"інші потрібно зв’язати вручну в налаштуваннях редактора."
+
+msgid "Toggle Last Opened Panel"
+msgstr "Перемкнути останню відкриту панель"
+
+msgid ":kbd:`Ctrl + J`"
+msgstr ":kbd:`Ctrl + J`"
+
+msgid "``editor/toggle_last_opened_bottom_panel``"
+msgstr "``editor/toggle_last_opened_bottom_panel``"
+
+msgid "Toggle Animation Bottom Panel"
+msgstr "Перемкнути нижню панель анімації"
+
+msgid ":kbd:`Alt + N`"
+msgstr ":kbd:`Alt + N`"
+
+msgid "``bottom_panels/toggle_animation_bottom_panel``"
+msgstr "``bottom_panels/toggle_animation_bottom_panel``"
+
+msgid "Toggle Audio Bottom Panel"
+msgstr "Перемкнути нижню панель звуку"
+
+msgid ":kbd:`Alt + A`"
+msgstr ":kbd:`Alt + A`"
+
+msgid "``bottom_panels/toggle_audio_bottom_panel``"
+msgstr "``bottom_panels/toggle_audio_bottom_panel``"
+
+msgid "Toggle Debugger Bottom Panel"
+msgstr "Перемкнути нижню панель налагоджувача"
+
+msgid ":kbd:`Alt + D`"
+msgstr ":kbd:`Alt + D`"
+
+msgid "``bottom_panels/toggle_debugger_bottom_panel``"
+msgstr "``bottom_panels/toggle_debugger_bottom_panel``"
+
+msgid "Toggle FileSystem Bottom Panel"
+msgstr "Перемкнути нижню панель FileSystem"
+
 msgid ":kbd:`Alt + F`"
 msgstr ":kbd:`Alt + F`"
+
+msgid "``bottom_panels/toggle_filesystem_bottom_panel``"
+msgstr "``bottom_panels/toggle_filesystem_bottom_panel``"
+
+msgid "Toggle Output Bottom Panel"
+msgstr "Перемкнути нижню панель виведення"
+
+msgid ":kbd:`Alt + O`"
+msgstr ":kbd:`Alt + O`"
+
+msgid "``bottom_panels/toggle_output_bottom_panel``"
+msgstr "``bottom_panels/toggle_output_bottom_panel``"
+
+msgid "Toggle Shader Editor Bottom Panel"
+msgstr "Перемкнути нижню панель редактора шейдерів"
+
+msgid ":kbd:`Alt + S`"
+msgstr ":kbd:`Alt + S`"
+
+msgid "``bottom_panels/toggle_shader_editor_bottom_panel``"
+msgstr "``bottom_panels/toggle_shader_editor_bottom_panel``"
+
+msgid "2D / CanvasItem editor"
+msgstr "Редактор 2D / CanvasItem"
 
 msgid "Zoom In"
 msgstr "Збільшувати"
@@ -601,6 +714,9 @@ msgstr ":kbd:`Shift + K`"
 
 msgid "``canvas_item_editor/anim_clear_pose``"
 msgstr "``canvas_item_editor/anim_clear_pose``"
+
+msgid "3D / Spatial editor"
+msgstr "3D / Просторовий редактор"
 
 msgid "Toggle Freelook"
 msgstr "Перемикання огляду"
@@ -899,6 +1015,9 @@ msgstr ":kbd:`Cmd + 4`"
 msgid "``spatial_editor/4_viewports``"
 msgstr "``spatial_editor/4_viewports``"
 
+msgid "Text editor"
+msgstr "Текстовий редактор"
+
 msgid "Cut"
 msgstr "Вирізати"
 
@@ -1032,7 +1151,7 @@ msgid ":kbd:`Alt + Up Arrow`"
 msgstr ":kbd:`Alt + Up Arrow`"
 
 msgid ":kbd:`Opt + Up Arrow`"
-msgstr ":kbd:`Opt + стрілка вгору`"
+msgstr ":kbd:`Opt + Up Arrow`"
 
 msgid "``script_text_editor/move_up``"
 msgstr "``script_text_editor/move_up``"
@@ -1044,7 +1163,7 @@ msgid ":kbd:`Alt + Down Arrow`"
 msgstr ":kbd:`Alt + Down Arrow`"
 
 msgid ":kbd:`Opt + Down Arrow`"
-msgstr ":kbd:`Opt + стрілка вниз`"
+msgstr ":kbd:`Opt + Down Arrow`"
 
 msgid "``script_text_editor/move_down``"
 msgstr "``script_text_editor/move_down``"
@@ -1081,6 +1200,18 @@ msgstr ":kbd:`Ctrl + Cmd + F`"
 
 msgid "``script_text_editor/toggle_fold_line``"
 msgstr "``script_text_editor/toggle_fold_line``"
+
+msgid "Duplicate Lines"
+msgstr "Дубльовані рядки"
+
+msgid ":kbd:`Ctrl + Alt + Down Arrow`"
+msgstr ":kbd:`Ctrl + Alt + Down Arrow`"
+
+msgid ":kbd:`Cmd + Shift + Down Arrow`"
+msgstr ":kbd:`Cmd + Shift + Down Arrow`"
+
+msgid "``script_text_editor/duplicate_lines``"
+msgstr "``script_text_editor/duplicate_lines``"
 
 msgid "Duplicate Selection"
 msgstr "Дублювати позначене"
@@ -1128,7 +1259,7 @@ msgid "``script_text_editor/trim_trailing_whitespace``"
 msgstr "``script_text_editor/trim_trailing_whitespace``"
 
 msgid "Uppercase"
-msgstr "ВЕРХНІЙ РЕГІСТР"
+msgstr "Великі літери"
 
 msgid ":kbd:`Shift + F4`"
 msgstr ":kbd:`Shift + F4`"
@@ -1292,6 +1423,9 @@ msgstr ":kbd:`Opt + Shift + пробіл`"
 msgid "``script_text_editor/contextual_help``"
 msgstr "``script_text_editor/contextual_help``"
 
+msgid "Script editor"
+msgstr "Редактор сценаріїв"
+
 msgid "``script_editor/find``"
 msgstr "``script_editor/find``"
 
@@ -1308,7 +1442,7 @@ msgid ":kbd:`Shift + Alt + Up Arrow`"
 msgstr ":kbd:`Shift + Alt + Up Arrow`"
 
 msgid ":kbd:`Shift + Opt + Up Arrow`"
-msgstr ":kbd:`Shift + Opt + стрілка вгору`"
+msgstr ":kbd:`Shift + Opt + Up Arrow`"
 
 msgid "``script_editor/window_move_up``"
 msgstr "``script_editor/window_move_up``"
@@ -1317,7 +1451,7 @@ msgid ":kbd:`Shift + Alt + Down Arrow`"
 msgstr ":kbd:`Shift + Alt + Down Arrow`"
 
 msgid ":kbd:`Shift + Opt + Down Arrow`"
-msgstr ":kbd:`Shift + Opt + стрілка вниз`"
+msgstr ":kbd:`Shift + Opt + Down Arrow`"
 
 msgid "``script_editor/window_move_down``"
 msgstr "``script_editor/window_move_down``"
@@ -1445,6 +1579,9 @@ msgstr "Скинути масштаб"
 msgid "``script_editor/reset_zoom``"
 msgstr "``script_editor/reset_zoom``"
 
+msgid "Editor output"
+msgstr "Вихід редактора"
+
 msgid "Copy Selection"
 msgstr "Копіювати позначене"
 
@@ -1486,6 +1623,9 @@ msgstr ":kbd:`F12`"
 
 msgid "``debugger/continue``"
 msgstr "``debugger/continue``"
+
+msgid "File dialog"
+msgstr "Діалог файлу"
 
 msgid "Go Back"
 msgstr "Перейти назад"
@@ -1598,6 +1738,9 @@ msgstr ":kbd:`Cmd + Down Arrow`"
 msgid "``file_dialog/move_favorite_down``"
 msgstr "``file_dialog/move_favorite_down``"
 
+msgid "FileSystem dock"
+msgstr "Док-станція FileSystem"
+
 msgid "Copy Path"
 msgstr "Копіювати шлях"
 
@@ -1618,6 +1761,9 @@ msgstr "``filesystem_dock/duplicate``"
 
 msgid "``filesystem_dock/delete``"
 msgstr "``filesystem_dock/delete``"
+
+msgid "Scene tree dock"
+msgstr "Дерево сцени док"
 
 msgid "Add Child Node"
 msgstr "Додати дочірній вузол"
@@ -1667,6 +1813,9 @@ msgstr "``scene_tree/move_up``"
 msgid "``scene_tree/move_down``"
 msgstr "``scene_tree/move_down``"
 
+msgid "Animation track editor"
+msgstr "Редактор анімаційних треків"
+
 msgid "``animation_editor/duplicate_selection``"
 msgstr "``animation_editor/duplicate_selection``"
 
@@ -1708,6 +1857,9 @@ msgstr ":kbd:`Cmd + Left Arrow`"
 
 msgid "``animation_editor/goto_prev_step``"
 msgstr "``animation_editor/goto_prev_step``"
+
+msgid "TileMap editor"
+msgstr "Редактор TileMap"
 
 msgid "Select"
 msgstr "Виділити"
@@ -1823,6 +1975,9 @@ msgstr ":kbd:`X`"
 msgid "``tiles_editor/rotate_tile_right``"
 msgstr "``tiles_editor/rotate_tile_right``"
 
+msgid "TileSet Editor"
+msgstr "Редактор TileSet"
+
 msgid "Next Coordinate"
 msgstr "Наступна координата"
 
@@ -1909,3 +2064,63 @@ msgstr ":kbd:`8`"
 
 msgid "``tileset_editor/editmode_z_index``"
 msgstr "``tileset_editor/editmode_z_index``"
+
+msgid "Project manager"
+msgstr "Керівник проекту"
+
+msgid "New Project"
+msgstr "Новий проект"
+
+msgid "``project_manager/new_project``"
+msgstr "``project_manager/new_project``"
+
+msgid "Import Project"
+msgstr "Імпорт проекту"
+
+msgid "``project_manager/import_project``"
+msgstr "``project_manager/import_project``"
+
+msgid "Scan for Projects"
+msgstr "Сканування проектів"
+
+msgid "``project_manager/scan_projects``"
+msgstr "``project_manager/scan_projects``"
+
+msgid "Edit Project"
+msgstr "Редагувати проект"
+
+msgid ":kbd:`Ctrl + E`"
+msgstr ":kbd:`Ctrl + E`"
+
+msgid ":kbd:`Cmd + E`"
+msgstr ":kbd:`Cmd + E`"
+
+msgid "``project_manager/edit_project``"
+msgstr "``project_manager/edit_project``"
+
+msgid "Run Project"
+msgstr "Запустіть проект"
+
+msgid "``project_manager/run_project``"
+msgstr "``project_manager/run_project``"
+
+msgid "Rename Project"
+msgstr "Перейменувати проект"
+
+msgid ":kbd:`F2`"
+msgstr ":kbd:`F2`"
+
+msgid ":kbd:`Enter`"
+msgstr ":kbd:`Enter`"
+
+msgid "``project_manager/rename_project``"
+msgstr "``project_manager/rename_project``"
+
+msgid "Remove Project"
+msgstr "Видалити проект"
+
+msgid ":kbd:`Delete`"
+msgstr ":kbd:`Delete`"
+
+msgid "``project_manager/remove_project``"
+msgstr "``project_manager/remove_project``"

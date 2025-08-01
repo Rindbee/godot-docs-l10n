@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -25,8 +25,8 @@ msgid "Create an AnimationPlayer node"
 msgstr "AnimationPlayer 노드 만들기"
 
 msgid ""
-"To use the animation tools we first have to create an :ref:"
-"`class_AnimationPlayer` node."
+"To use the animation tools we first have to create "
+"an :ref:`class_AnimationPlayer` node."
 msgstr ""
 "애니메이션 툴을 사용하기 위해서는 먼저 :ref:`class_AnimationPlayer` 노드를 만"
 "들어야 합니다."
@@ -51,3 +51,21 @@ msgstr "애니메이션 패널에서의 타임라인"
 
 msgid "Scene setup"
 msgstr "씬 설정"
+
+msgid "Adding an animation"
+msgstr "애니메이션 추가하기"
+
+msgid "Add Animation"
+msgstr "애니메이션 추가"
+
+msgid "Add a new animation"
+msgstr "새 애니메이션 추가"
+
+msgid "Managing animation libraries"
+msgstr "애니메이션 라이브러리 관리하기"
+
+msgid "Manage animations"
+msgstr "애니메이션 관리"
+
+msgid "Autoplay on load"
+msgstr "불러오면 자동재생"

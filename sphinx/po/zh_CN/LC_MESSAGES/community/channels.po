@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,15 +12,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Community channels"
-msgstr "社区渠道"
+msgstr "社区频道"
 
 msgid ""
 "So, where is the Godot community and where can you ask questions and get "
 "help?"
-msgstr "那么,Godot社区在哪里？在哪里可以提出问题并获得帮助？"
+msgstr "所以，Godot 社区在哪儿，应该去哪里问问题、寻求帮助？"
+
+msgid ""
+"This page used to list the various official and user-supported Godot "
+"communities. That list is now available on the `Godot website <https://"
+"godotengine.org/community>`_."
+msgstr ""
+"本页面原先列出了各个官方 Godot 社区以及用户支持的 Godot 社区。该列表现已移至 "
+"`Godot 网站 <https://godotengine.org/community>`_\\ 。"
 
 msgid "Language-based communities"
-msgstr "基于语言的社区"
+msgstr "不同语言的社区"
 
 msgid ""
 "See the `User groups <https://godotengine.org/community/user-groups>`_ page "

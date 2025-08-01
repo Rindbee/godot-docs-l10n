@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -49,3 +49,10 @@ msgstr "``[img]{path}[/img]``"
 
 msgid "**color**"
 msgstr "**color**"
+
+msgid ""
+"Add `godot-docs <https://github.com/godotengine/godot-docs>`_ as a submodule "
+"to your ``docs/`` folder."
+msgstr ""
+"Añada el `repositorio de la documentación <https://github.com/godotengine/"
+"godot-docs>`_ como un submódulo de su carpeta ``docs/``."

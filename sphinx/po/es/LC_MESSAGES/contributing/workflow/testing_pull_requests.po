@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -55,12 +55,12 @@ msgid ""
 msgstr ""
 "Debido a una limitación de GitHub Actions, las compilaciones solo están "
 "disponibles durante 90 días después de la última actualización de la pull "
-"request. Si aún deseas probar una pull request localmente, puedes :ref:"
-"`compilar la rama de la pull request desde el código fuente "
+"request. Si aún deseas probar una pull request localmente, "
+"puedes :ref:`compilar la rama de la pull request desde el código fuente "
 "<doc_testing_pull_requests_compile>` en su lugar."
 
 msgid "If you have a GitHub account"
-msgstr "Si usted tiene una cuenta de GitHub"
+msgstr "Si tienes una cuenta de GitHub"
 
 msgid ""
 "Open the pull request page. Click the **Checks** tab near the top of the "
@@ -70,7 +70,7 @@ msgstr ""
 "está cerca de la parte superior de la página:"
 
 msgid "If you don't have a GitHub account"
-msgstr "Si usted NO tiene una cuenta de GitHub"
+msgstr "Si no tienes una cuenta de GitHub"
 
 msgid ""
 "If you don't have a GitHub account and can't sign up for one, you can use "

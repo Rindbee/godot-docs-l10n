@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,9 +13,6 @@ msgstr ""
 
 msgid "Why use resolution scaling?"
 msgstr "Pourquoi utiliser la mise à l'échelle de résolution ?"
-
-msgid "**Bilinear:** Standard bilinear filtering (default)."
-msgstr "**Bilinéaire :** Filtrage bilinéaire standard (par défaut)."
 
 msgid "**1920×1080 (Full HD)**"
 msgstr "**1920×1080 (Full HD)**"
@@ -44,6 +41,9 @@ msgstr "``0.75``"
 msgid "1440×810"
 msgstr "1440×810"
 
+msgid "1.17 MPix"
+msgstr "1.17 MPix"
+
 msgid "``0.85``"
 msgstr "``0.85``"
 
@@ -62,11 +62,17 @@ msgstr "**1920×1080**"
 msgid "**2.07 MPix**"
 msgstr "**2.07 MPix**"
 
+msgid "``1.33`` (supersampling)"
+msgstr "``1.33`` (super-échantillonnage)"
+
 msgid "2553×1436"
 msgstr "2553×1436"
 
 msgid "3.67 MPix"
 msgstr "3.67 MPix"
+
+msgid "``1.50`` (supersampling)"
+msgstr "``1.50`` (super-échantillonnage)"
 
 msgid "2880×1620"
 msgstr "2880×1620"
@@ -74,11 +80,17 @@ msgstr "2880×1620"
 msgid "4.67 MPix"
 msgstr "4.67 MPix"
 
+msgid "``2.00`` (supersampling)"
+msgstr "``2.00`` (super-échantillonnage)"
+
 msgid "3840×2160"
 msgstr "3840×2160"
 
 msgid "8.29 MPix"
 msgstr "8.29 MPix"
+
+msgid "**2560×1440 (QHD)**"
+msgstr "**2560×1440 (QHD)**"
 
 msgid "1280×720"
 msgstr "1280×720"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -39,6 +39,9 @@ msgstr ""
 msgid "Creation and usage"
 msgstr "படைப்பு மற்றும் பயன்பாடு"
 
+msgid "There are two ways to create a scene unique node."
+msgstr "ஒரு காட்சி தனித்துவமான முனையை உருவாக்க இரண்டு வழிகள் உள்ளன."
+
 msgid ""
 "In the Scene tree dock, right-click on a node and select **Access as Unique "
 "Name** in the context menu."
@@ -52,6 +55,14 @@ msgid ""
 msgstr ""
 "விருப்பத்தைத் தேர்ந்தெடுத்த பிறகு, முனை இப்போது காட்சி மரத்தில் அதன் பெயருக்கு அடுத்ததாக "
 "ஒரு விழுக்காடு அடையாளம் (**%**) இருக்கும்:"
+
+msgid ""
+"You can also do this while renaming the node by adding \"%\" to the "
+"beginning of the name. Once you confirm, the percent symbol will appear next "
+"to its name."
+msgstr ""
+"பெயரின் தொடக்கத்தில் \"%\" ஐ சேர்ப்பதன் மூலம் முனையை மறுபெயரிடும்போது இதைச் செய்யலாம். "
+"நீங்கள் உறுதிப்படுத்தியதும், விழுக்காடு அடையாளம் அதன் பெயருக்கு அடுத்ததாக தோன்றும்."
 
 msgid ""
 "You can now use the node in your script. For example, you can reference it "

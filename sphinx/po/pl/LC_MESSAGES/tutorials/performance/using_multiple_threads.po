@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,5 +17,11 @@ msgstr "Użyj wielowątkowości"
 msgid "Threads"
 msgstr "Wątki"
 
+msgid "Mutexes"
+msgstr "Muteksy"
+
 msgid "Here is an example of using a Mutex:"
 msgstr "Poniżej znajduje się przykładowy plik klasy:"
+
+msgid "Semaphores"
+msgstr "Semafory"

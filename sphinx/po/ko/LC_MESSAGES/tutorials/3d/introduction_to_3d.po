@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,41 @@ msgstr ""
 
 msgid "Introduction to 3D"
 msgstr "3D 소개"
+
+msgid "View menu of viewport"
+msgstr "뷰포트의 보기 메뉴"
+
+msgid ""
+"When working with 3D assets, it's always best to work in the correct scale "
+"(set the unit to metric in your 3D modeling software). Godot allows scaling "
+"post-import and, while this works in most cases, in rare situations it may "
+"introduce floating-point precision issues (and thus, glitches or artifacts) "
+"in delicate areas such as rendering or physics. Make sure your artists "
+"always work in the right scale!"
+msgstr ""
+"3D 애셋 작업 시에는 항상 올바른 스케일로 작업하는 것이 가장 좋습니다 (3D 모델"
+"링 소프트웨어에서 단위를 미터법으로 설정하세요). Godot에서는 사후 가져오기의 "
+"스케일링을 허용하며, 대부분의 경우 작동하지만 드문 상황에서 렌더링이나 물리 "
+"연산과 같은 섬세한 영역에서 부동 소수점 정밀도 문제(즉, 글리치나 아티팩트)가 "
+"발생할 수 있습니다. 아티스트가 항상 올바른 스케일로 작업하도록 하세요!"
+
+msgid "**X** is sides"
+msgstr "**X**\\ 는 옆입니다"
+
+msgid "**Y** is up/down"
+msgstr "**Y**\\ 는 위아래입니다"
+
+msgid "**Z** is front/back"
+msgstr "**Z**\\ 는 앞뒤입니다"
+
+msgid "See this chart for comparison with other 3D software:"
+msgstr "다른 3D 소프트웨어와 비교에 대한 이 차트를 참조하세요:"
+
+msgid "3D coordinate systems comparison chart"
+msgstr "3D 좌표계 비교 차트"
+
+msgid "Image by `Freya Holmér <https://twitter.com/FreyaHolmer>`__"
+msgstr "`Freya Holmér <https://twitter.com/FreyaHolmer>`__\\ 의 이미지"
 
 msgid ""
 "In any case, this method is meant for generating static geometry (models "
@@ -29,8 +64,11 @@ msgstr "즉각적인 지오메트리(Immediate geometry)"
 msgid "Environment"
 msgstr "환경"
 
+msgid "Preview environment and light"
+msgstr "미리보기 환경과 조명"
+
 msgid "Cameras"
 msgstr "카메라"
 
 msgid "Lights"
-msgstr "빛"
+msgstr "조명"

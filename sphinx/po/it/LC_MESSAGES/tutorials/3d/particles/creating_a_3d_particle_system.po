@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,36 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "``Amount Ratio``"
+msgstr "``Rapporto di quantità``"
+
+msgid "``Interp to End``"
+msgstr "``Interpola fino alla fine``"
+
+msgid "``Damping as Friction``"
+msgstr "``Smorzamento come frizione``"
+
+msgid "``Emission Shape Offset``"
+msgstr "``Scostamento di forma d'emissione``"
+
+msgid "``Emission Shape Scale``"
+msgstr "``Scala forma d'emissione``"
+
+msgid "``Inherit Velocity Ratio``"
+msgstr "``Rapporto di velocità ereditata``"
+
+msgid "``Velocity Pivot``"
+msgstr "``Fulcro della velocità``"
+
+msgid "``Directional Velocity``"
+msgstr "``Velocità direzionale``"
+
+msgid "``Radial Velocity``"
+msgstr "``Velocità radiale``"
+
+msgid "``Velocity Limit``"
+msgstr "``Limite velocità``"
+
+msgid "``Scale Over Velocity``"
+msgstr "``Scala relativa alla velocità``"

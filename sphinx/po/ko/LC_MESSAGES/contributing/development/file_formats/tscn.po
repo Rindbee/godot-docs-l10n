@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -22,6 +22,9 @@ msgstr "연결(Connections)"
 
 msgid "The scene tree"
 msgstr "씬 트리"
+
+msgid "BoneAttachment3D"
+msgstr "BoneAttachment3D"
 
 msgid "AnimationPlayer"
 msgstr "AnimationPlayer"

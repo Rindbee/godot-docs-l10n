@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,6 +20,13 @@ msgid ""
 msgstr ""
 "இந்த வழிகாட்டி முனைகளை எவ்வாறு பெறுவது, முனைகளை உருவாக்குவது, குழந்தையாகச் சேர்ப்பது "
 "மற்றும் குறியீட்டிலிருந்து காட்சிகளை உடனடிப்படுத்துவது ஆகியவற்றை விளக்குகிறது."
+
+msgid ""
+"Check the :ref:`doc_instancing` tutorial to learn about Godot's approach to "
+"scene instancing."
+msgstr ""
+"சரிபார்க்கவும்: ref: `Doc_instancing` டுடோரியல் காட்சி நிறுவலுக்கான கோடோட்டின் "
+"அணுகுமுறையைப் பற்றி அறிய."
 
 msgid "Getting nodes"
 msgstr "முனைகளைப் பெறுதல்"

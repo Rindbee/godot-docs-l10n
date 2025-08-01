@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,27 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Remove Tracks"
+msgstr "Rimuovi tracce"
+
+msgid "Except Bone Transform"
+msgstr "Tranne trasformazione d'ossa"
+
+msgid "Unimportant Positions"
+msgstr "Posizioni non importanti"
+
+msgid "Bone Renamer"
+msgstr "Rinominatore di ossa"
+
+msgid "Rename Bones"
+msgstr "Rinomina ossa"
+
+msgid "Unique Node"
+msgstr "Nodo univoco"
+
+msgid "Apply Node Transform"
+msgstr "Applica trasformazione del nodo"
+
+msgid "Normalize Position Tracks"
+msgstr "Normalizza le tracce di posizione"

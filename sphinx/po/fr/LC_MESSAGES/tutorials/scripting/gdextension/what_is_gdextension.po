@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -43,6 +43,12 @@ msgstr "C++ :ref:`(tutoriel) <doc_gdextension_cpp_example>`"
 
 msgid "The bindings below are developed and maintained by the community:"
 msgstr "Ces liaisons sont développées et gérées par la communauté :"
+
+msgid "`Go <https://github.com/grow-graphics/gd>`__"
+msgstr "`Go <https://github.com/grow-graphics/gd>`__"
+
+msgid "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
+msgstr "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
 
 msgid ""
 "Not all bindings mentioned here may be production-ready. Make sure to "

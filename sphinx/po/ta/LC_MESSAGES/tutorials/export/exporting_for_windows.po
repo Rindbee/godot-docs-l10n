@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,6 +47,21 @@ msgstr ""
 
 msgid "Code signing"
 msgstr "குறியீடு கையொப்பமிடுதல்"
+
+msgid ""
+"Godot is capable of automatic code signing on export. To do this you must "
+"have the ``Windows SDK`` (on Windows) or `osslsigncode <https://github.com/"
+"mtrojnar/osslsigncode>`__ (on any other OS) installed. You will also need a "
+"package signing certificate, information on creating one can be found `here "
+"<https://learn.microsoft.com/en-us/windows/msix/package/create-certificate-"
+"package-signing>`__."
+msgstr ""
+"கோடோட் ஏற்றுமதியில் தானியங்கி குறியீடு கையொப்பமிடும் திறன் கொண்டது. இதைச் செய்ய நீங்கள் `` "
+"சாளரங்கள் எச்.டி.கே`` (விண்டோசில்) அல்லது `osslsigncode <https://github.com/"
+"mtrojnar/osslsigncode> __ (வேறு எந்த OS இல்) நிறுவப்பட்டிருக்க வேண்டும். உங்களுக்கு "
+"ஒரு தொகுப்பு கையொப்பமிடும் சான்றிதழ் தேவைப்படும், ஒன்றை உருவாக்குவது குறித்த தகவல்களை "
+"இங்கே <https://learn.microsoft.com/en-us/windows/msix/package/create-certer-"
+"certificate-package-signing> ____."
 
 msgid ""
 "If you export for Windows with embedded PCK files, you will not be able to "
@@ -142,3 +157,6 @@ msgstr "விருப்பங்கள் / குறியீட்டு / 
 
 msgid "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
 msgstr "`` Kudot_windows_codesign_password``"
+
+msgid "Export options"
+msgstr "ஏற்றுமதி விருப்பங்கள்"

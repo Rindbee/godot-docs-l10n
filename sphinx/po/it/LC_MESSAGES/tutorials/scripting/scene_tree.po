@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,42 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using SceneTree"
+msgstr "Utilizzo dello SceneTree"
+
 msgid "Introduction"
 msgstr "Introduzione"
+
+msgid ""
+"In previous tutorials, everything revolved around the concept of nodes. "
+"Scenes are collections of nodes. They become active once they enter the "
+"*scene tree*."
+msgstr ""
+"Nei tutorial precedenti, tutto ruotava intorno al concetto dei nodi. Le "
+"scene sono raccolte di nodi. Diventano attivi una volta entrati nell'*albero "
+"di scene*."
 
 msgid "MainLoop"
 msgstr "MainLoop"
 
 msgid "SceneTree"
 msgstr "SceneTree"
+
+msgid ""
+"It's important to know that this class exists because it has a few important "
+"uses:"
+msgstr ""
+"È importante sapere che questa classe esiste perché ha alcuni utilizzi "
+"importanti:"
+
+msgid "Root viewport"
+msgstr "Viewport radice"
+
+msgid "Scene tree"
+msgstr "Albero di scene"
+
+msgid "Tree order"
+msgstr "Ordine d'albero"
+
+msgid "Changing current scene"
+msgstr "Cambiare la scena attuale"

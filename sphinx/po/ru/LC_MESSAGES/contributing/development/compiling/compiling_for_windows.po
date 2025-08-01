@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,12 +20,15 @@ msgstr "Требования"
 msgid "For compiling under Windows, the following is required:"
 msgstr "Для компиляции под Windows, необходимо следующее:"
 
+msgid "A C++ compiler. Use one of the following:"
+msgstr "Компилятор C++. Используйте один из следующих вариантов:"
+
 msgid ""
-"For a general overview of SCons usage for Godot, see :ref:"
-"`doc_introduction_to_the_buildsystem`."
+"For a general overview of SCons usage for Godot, "
+"see :ref:`doc_introduction_to_the_buildsystem`."
 msgstr ""
-"Для общего обзора использования SCons в Godot, смотрите :ref:"
-"`doc_introduction_to_the_buildsystem`."
+"Для общего обзора использования SCons в Godot, "
+"смотрите :ref:`doc_introduction_to_the_buildsystem`."
 
 msgid "Setting up SCons"
 msgstr "Настройка SCons"
@@ -35,6 +38,9 @@ msgstr "Загрузка исходного кода Godot"
 
 msgid "Compiling"
 msgstr "Компиляция"
+
+msgid "**Arch Linux**"
+msgstr "**Arch Linux**"
 
 msgid "**Debian** / **Ubuntu**"
 msgstr "**Debian** / **Ubuntu**"

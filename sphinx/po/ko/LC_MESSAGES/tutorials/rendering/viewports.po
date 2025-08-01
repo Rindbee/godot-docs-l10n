@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,19 @@ msgstr "소개"
 
 msgid "Input"
 msgstr "입력"
+
+msgid ""
+":ref:`SubViewports <class_SubViewport>` have "
+"a :ref:`size<class_SubViewport_property_size>` property, which represents "
+"the size of the SubViewport in pixels. For SubViewports which are children "
+"of :ref:`SubViewportContainers <class_SubViewportContainer>`, these values "
+"are overridden, but for all others, this sets their resolution."
+msgstr ""
+":ref:`SubViewports <class_SubViewport>`\\ 에는 SubViewport의 크기를 픽셀 단위"
+"로 나타내는 :ref:`size<class_SubViewport_property_size>` 속성이 있습니"
+"다. :ref:`SubViewportContainers <class_SubViewportContainer>`\\ 의 자식인 "
+"SubViewports의 경우 이러한 값은 오버라이드되지만 다른 모든 속성의 경우 해상도"
+"가 직접 설정됩니다."
 
 msgid "Capture"
 msgstr "캡처"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -40,8 +40,8 @@ msgid ""
 "which returns a registered singleton."
 msgstr ""
 "Щоб отримати доступ до функцій плагіна, вам спочатку потрібно перевірити, чи "
-"плагін експортовано та доступний, викликавши функцію `Engine."
-"has_singleton()`, яка повертає зареєстрований синглтон."
+"плагін експортовано та доступний, викликавши функцію "
+"`Engine.has_singleton()`, яка повертає зареєстрований синглтон."
 
 msgid "Here's an example of how to do this in GDScript:"
 msgstr "Ось приклад того, як це зробити в GDScript:"
@@ -311,6 +311,13 @@ msgstr ""
 
 msgid "``show_game_center``"
 msgstr "``show_game_center``"
+
+msgid ""
+"Displays the built-in Game Center overlay showing leaderboards, "
+"achievements, and challenges."
+msgstr ""
+"Відображає вбудовану накладку Game Center із таблицями лідерів, досягненнями "
+"та завданнями."
 
 msgid "Takes a Dictionary as a parameter, with two fields:"
 msgstr "Приймає словник як параметр із двома полями:"

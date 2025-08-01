@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,14 +14,23 @@ msgstr ""
 msgid "Environment"
 msgstr "환경"
 
+msgid "Camera3D node (high priority)"
+msgstr "Camera3D 노드 (높은 우선순위)"
+
+msgid "Preview environment and sun (low priority)"
+msgstr "미리보기 환경과 태양 (낮은 우선순위)"
+
 msgid "Environment options"
 msgstr "환경 옵션"
 
 msgid "Background"
 msgstr "배경(Background)"
 
+msgid "Ambient light"
+msgstr "앰비언트 조명"
+
 msgid "Fog"
-msgstr "포그"
+msgstr "안개"
 
 msgid "Tonemap"
 msgstr "톤맵"
@@ -31,3 +40,9 @@ msgstr "빛번짐"
 
 msgid "Adjustments"
 msgstr "조정"
+
+msgid "**Color correction using a 1D gradient**"
+msgstr "**1D 그라디언트를 사용한 색 교정**"
+
+msgid "**Color correction using a 3D LUT**"
+msgstr "**3D LUT를 사용한 색 교정**"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using Viewports"
+msgstr "Utilizzo delle Viewport"
+
 msgid "Introduction"
 msgstr "Introduzione"
 
 msgid "Input"
 msgstr "Input"
+
+msgid ""
+"For more information on how Godot handles input, please read the :ref:`Input "
+"Event Tutorial <doc_inputevent>`."
+msgstr ""
+"Per ulteriori informazioni su come Godot gestisce gli input, leggere "
+"il :ref:`Tutorial sugli eventi di input <doc_inputevent>`."
 
 msgid "Listener"
 msgstr "Ascoltatore"
@@ -24,7 +34,22 @@ msgid "Worlds"
 msgstr "Worlds"
 
 msgid "Capture"
-msgstr "Cattura"
+msgstr "Cattura (Capture)"
+
+msgid "Viewport Container"
+msgstr "Contenitore di Viewport"
 
 msgid "Rendering"
 msgstr "Renderer"
+
+msgid "Render target"
+msgstr "Obiettivo di rendering"
+
+msgid ""
+"Make sure to check the Viewport demos. They are available in the viewport "
+"folder of the demos archive, or at https://github.com/godotengine/godot-demo-"
+"projects/tree/master/viewport."
+msgstr ""
+"Assicurati di dare un'occhiata alle demo di Viewport. Sono disponibili nella "
+"cartella viewport dell'archivio demo o all'indirizzo https://github.com/"
+"godotengine/godot-demo-projects/tree/master/viewport."

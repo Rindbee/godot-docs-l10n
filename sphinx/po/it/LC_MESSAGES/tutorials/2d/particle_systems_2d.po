@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,74 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "2D particle systems"
+msgstr "Sistemi di particelle 2D"
+
 msgid "Intro"
 msgstr "Introduzione"
 
+msgid "Particle nodes"
+msgstr "Nodi di particelle"
+
+msgid ""
+"Godot provides two different nodes for 2D "
+"particles, :ref:`class_GPUParticles2D` and :ref:`class_CPUParticles2D`. "
+"GPUParticles2D is more advanced and uses the GPU to process particle "
+"effects. CPUParticles2D is a CPU-driven option with near-feature parity with "
+"GPUParticles2D, but lower performance when using large amounts of particles. "
+"On the other hand, CPUParticles2D may perform better on low-end systems or "
+"in GPU-bottlenecked situations."
+msgstr ""
+"Godot fornisce due diversi nodi per particelle "
+"2D, :ref:`class_GPUParticles2D` e :ref:`class_CPUParticles2D`. "
+"GPUParticles2D è più avanzato e utilizza la GPU per elaborare gli effetti "
+"delle particelle. CPUParticles2D è un'opzione gestita dalla CPU con parità "
+"di funzionalità vicina a GPUParticles2D, ma con prestazioni inferiori con "
+"una grande quantità di particelle. D'altra parte, CPUParticles2D potrebbe "
+"funzionare meglio su sistemi di fascia bassa o in situazioni con colli di "
+"bottiglia dovuti alla GPU."
+
+msgid ""
+"While GPUParticles2D is configured via "
+"a :ref:`class_ParticleProcessMaterial` (and optionally with a custom "
+"shader), the matching options are provided via node properties in "
+"CPUParticles2D (with the exception of the trail settings)."
+msgstr ""
+"Mentre GPUParticles2D è configurato tramite "
+"un :ref:`class_ParticleProcessMaterial` (e facoltativamente con uno shader "
+"personalizzato), le opzioni corrispondenti sono fornite tramite le proprietà "
+"del nodo stesso in CPUParticles2D (ad eccezione delle impostazioni della "
+"scia)."
+
+msgid ""
+"You can convert a CPUParticles2D node into a GPUParticles2D node by clicking "
+"on the node in the scene tree, selecting the 2D workspace, and selecting "
+"**CPUParticles2D > Convert to GPUParticles2D** in the toolbar."
+msgstr ""
+"Puoi convertire un nodo GPUParticles2D in un nodo CPUParticles2D cliccando "
+"sul nodo nell'albero di scene, selezionando lo spazio di lavoro 2D e "
+"selezionando **CPUParticles2D > Converti in CPUParticles2D** nella barra "
+"degli strumenti."
+
+msgid ""
+"It is also possible to convert a GPUParticles2D node to a CPUParticles2D "
+"node, however there may be issues if you use GPU-only features."
+msgstr ""
+"È anche possibile convertire un nodo GPUParticles2D in un nodo "
+"CPUParticles2D, ma potrebbero esserci problemi se utilizzi funzionalità "
+"esclusive per la GPU."
+
+msgid "ParticleProcessMaterial"
+msgstr "ParticleProcessMaterial"
+
 msgid "Texture"
 msgstr "Texture"
+
+msgid "Using an animation flipbook"
+msgstr "Utilizzo di un flipbook di animazione"
+
+msgid "Particle flipbook texture example"
+msgstr "Esempio di texture flipbook di particelle"
 
 msgid "Lifetime"
 msgstr "Durata di vita"
@@ -32,8 +95,17 @@ msgstr "Colpo singolo"
 msgid "Preprocess"
 msgstr "Preprocesso"
 
+msgid "Speed Scale"
+msgstr "Scala di velocità"
+
 msgid "Explosiveness"
 msgstr "Esplosività"
+
+msgid "0: Emit particles at regular intervals (default value)."
+msgstr "0: emette particelle a intervalli regolari (valore predefinito)."
+
+msgid "1: Emit all particles simultaneously."
+msgstr "1: emette tutte le particelle simultaneamente."
 
 msgid "Randomness"
 msgstr "Casualità"
@@ -41,5 +113,17 @@ msgstr "Casualità"
 msgid "Fixed FPS"
 msgstr "FPS fisso"
 
+msgid "Fract Delta"
+msgstr "Delta frazionario"
+
+msgid "Drawing parameters"
+msgstr "Parametri di disegno"
+
+msgid "Visibility Rect"
+msgstr "Rettangolo di visibilità"
+
 msgid "Local Coords"
 msgstr "Coordinate locali"
+
+msgid "Draw Order"
+msgstr "Ordine di disegno"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,6 +17,12 @@ msgstr "Utilizzo di TileMaps"
 msgid "Introduction"
 msgstr "Introduzione"
 
+msgid "Specifying the TileSet in the TileMapLayer"
+msgstr "Specificare il TileSet nel TileMapLayer"
+
+msgid "Multiple TileMapLayers and settings"
+msgstr "Più di un TileMapLayer e impostazioni"
+
 msgid "Rendering"
 msgstr "Renderer"
 
@@ -26,5 +32,34 @@ msgstr "Fisica"
 msgid "Navigation"
 msgstr "Navigazione"
 
+msgid "Reordering layers"
+msgstr "Riordinare i livelli"
+
+msgid "Opening the TileMap editor"
+msgstr "Aprire l'editor di TileMap"
+
+msgid "Selecting an alternative tile in the TileMap editor"
+msgstr "Selezione di un tassello alternativo nell'editor di TileMap"
+
+msgid "Painting modes and tools"
+msgstr "Strumenti e modalità di disegno"
+
+msgid "Selection"
+msgstr "Selezione"
+
+msgid "Rectangle"
+msgstr "Rettangolo"
+
 msgid "Bucket Fill"
 msgstr "Riempimento"
+
+msgid "Using the Bucket Fill tool"
+msgstr "Utilizzo dello strumento Riempimento tasselli"
+
+msgid "There are 3 kinds of painting modes available for terrain connections:"
+msgstr ""
+"Sono disponibili 3 tipi di modalità di pittura per i collegamenti del "
+"terreno:"
+
+msgid "Handling missing tiles"
+msgstr "Gestione dei tasselli mancati"

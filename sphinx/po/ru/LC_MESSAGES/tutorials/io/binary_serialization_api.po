@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,44 @@ msgstr "API двоичной сериализации"
 
 msgid "Introduction"
 msgstr "Введение"
+
+msgid ""
+"Godot has a serialization API based on Variant. It's used for converting "
+"data types to an array of bytes efficiently. This API is exposed via the "
+"global :ref:`bytes_to_var() <class_@GlobalScope_method_bytes_to_var>` "
+"and :ref:`var_to_bytes() <class_@GlobalScope_method_var_to_bytes>` "
+"functions, but it is also used in the ``get_var`` and ``store_var`` methods "
+"of :ref:`class_FileAccess` as well as the packet APIs "
+"for :ref:`class_PacketPeer`. This format is *not* used for binary scenes and "
+"resources."
+msgstr ""
+"Godot имеет API сериализации, основанный на Variant. Он используется для "
+"эффективного преобразования типов данных в массив байтов. Этот API доступен "
+"через глобальные функции :ref:`bytes_to_var() "
+"<class_@GlobalScope_method_bytes_to_var>` и :ref:`var_to_bytes() "
+"<class_@GlobalScope_method_var_to_bytes>`, а также в методах ``get_var`` и "
+"``store_var`` класса :ref:`class_FileAccess`, а также в пакетных API "
+"для :ref:`class_PacketPeer`. Этот формат *не* используется для двоичных сцен "
+"и ресурсов."
+
+msgid "Full Objects vs Object instance IDs"
+msgstr "Полные Objects vs Object instance IDs"
+
+msgid ""
+"If a variable is serialized with ``full_objects = true``, then any Objects "
+"contained in the variable will be serialized and included in the result. "
+"This is recursive."
+msgstr ""
+"Если переменная сериализована с ``full_objects = true``, то все объекты, "
+"содержащиеся в этой переменной, будут сериализованы и включены в результат. "
+"Это рекурсивно."
+
+msgid ""
+"If ``full_objects = false``, then only the instance IDs will be serialized "
+"for any Objects contained in the variable."
+msgstr ""
+"Если ``full_objects = false``, то для всех объектов, содержащихся в "
+"переменной, будут сериализованы только идентификаторы экземпляров."
 
 msgid "Packet specification"
 msgstr "Пакетная сериализация"
@@ -34,7 +72,7 @@ msgid ""
 "value two bytes contain flags::"
 msgstr ""
 "Два байта с наименьшим значением используются для определения типа, а два "
-"байта с наибольшим значением содержат флаги::"
+"байта с наибольшим значением содержат флаги:"
 
 msgid "Type"
 msgstr "Тип"
@@ -105,6 +143,9 @@ msgstr "plаne"
 msgid "10"
 msgstr "10"
 
+msgid "quaternion"
+msgstr "quaternion (кватернион)"
+
 msgid "11"
 msgstr "11"
 
@@ -120,17 +161,20 @@ msgstr "bаsis"
 msgid "13"
 msgstr "13"
 
+msgid "transform3d"
+msgstr "transform3d"
+
 msgid "14"
 msgstr "14"
 
 msgid "color"
-msgstr "цвет"
+msgstr "color (цвет)"
 
 msgid "15"
 msgstr "15"
 
 msgid "node path"
-msgstr "путь к узлу"
+msgstr "node path (путь к узлу)"
 
 msgid "16"
 msgstr "16"
@@ -142,37 +186,49 @@ msgid "17"
 msgstr "17"
 
 msgid "object"
-msgstr "объект"
+msgstr "object (объект)"
 
 msgid "18"
 msgstr "18"
 
 msgid "dictionary"
-msgstr "словарь"
+msgstr "dictionary (словарь)"
 
 msgid "19"
 msgstr "19"
 
 msgid "array"
-msgstr "array"
+msgstr "array (массив)"
 
 msgid "20"
 msgstr "20"
 
 msgid "raw array"
-msgstr "необработанный массив"
+msgstr "raw array (необработанный массив)"
 
 msgid "21"
 msgstr "21"
 
+msgid "int32 array"
+msgstr "int32 array"
+
 msgid "22"
 msgstr "22"
+
+msgid "int64 array"
+msgstr "int64 array"
 
 msgid "23"
 msgstr "23"
 
+msgid "float32 array"
+msgstr "float32 array"
+
 msgid "24"
 msgstr "24"
+
+msgid "float64 array"
+msgstr "float64 array"
 
 msgid "25"
 msgstr "25"
@@ -197,6 +253,9 @@ msgstr "28"
 
 msgid "color array"
 msgstr "цветовая матрица"
+
+msgid "29"
+msgstr "29"
 
 msgid "max"
 msgstr "max"
@@ -260,6 +319,9 @@ msgstr ""
 msgid "64-bit signed integer"
 msgstr "64-битное знаковое целое число"
 
+msgid "3: :ref:`float<class_float>`"
+msgstr "3: :ref:`float<class_float>`"
+
 msgid ""
 "If no flags are set (flags == 0), the float is sent as a 32 bit single "
 "precision:"
@@ -286,17 +348,29 @@ msgstr "IЕEE 754 32-Битное Число с плавающей точкой"
 msgid "4: :ref:`String<class_string>`"
 msgstr "4: :ref:`String<class_string>`"
 
+msgid "String length (in bytes)"
+msgstr "Длина строки (в Байтах)"
+
 msgid "X"
 msgstr "X"
 
 msgid "Bytes"
 msgstr "Байт"
 
+msgid "UTF-8 encoded string"
+msgstr "Строка в кодировке UTF-8"
+
 msgid "This field is padded to 4 bytes."
 msgstr "Это поле укладывается в 4 байта."
 
 msgid "5: :ref:`Vector2<class_vector2>`"
 msgstr "5: :ref:`Vector2<class_vector2>`"
+
+msgid "X coordinate"
+msgstr "Координата по оси X"
+
+msgid "Y coordinate"
+msgstr "Координата по оси Y"
 
 msgid "6: :ref:`Rect2<class_rect2>`"
 msgstr "6: :ref:`Rect2<class_rect2>`"
@@ -309,6 +383,9 @@ msgstr "Размер Y"
 
 msgid "7: :ref:`Vector3<class_vector3>`"
 msgstr "7: :ref:`Vector3<class_vector3>`"
+
+msgid "Z coordinate"
+msgstr "Координата по оси Z"
 
 msgid "8: :ref:`Transform2D<class_transform2d>`"
 msgstr "8: :ref:`Transform2D<class_transform2d>`"
@@ -351,6 +428,9 @@ msgstr "Нормаль по оси Z"
 
 msgid "Distance"
 msgstr "Расстояние"
+
+msgid "10: :ref:`Quaternion<class_quaternion>`"
+msgstr "10: :ref:`Quaternion<class_quaternion>`"
 
 msgid "Imaginary X"
 msgstr "Воображаемое значение по оси X"
@@ -399,6 +479,9 @@ msgid "The Z component of the Z column vector, accessed via [2][2]"
 msgstr ""
 "Компонент Z вектора столбца Z, доступ к которому осуществляется через [2][2]"
 
+msgid "13: :ref:`Transform3D<class_transform3d>`"
+msgstr "13: :ref:`Transform3D<class_transform3d>`"
+
 msgid "40"
 msgstr "40"
 
@@ -438,6 +521,11 @@ msgstr "Альфа (0..1)"
 msgid "15: :ref:`NodePath<class_nodepath>`"
 msgstr "15: :ref:`NodePath<class_nodepath>`"
 
+msgid ""
+"String length, or new format (val&0x80000000!=0 and NameCount=val&0x7FFFFFFF)"
+msgstr ""
+"Длина строки или новый формат (val&0x80000000!=0 и NameCount=val&0x7FFFFFFF)"
+
 msgid "For old format:"
 msgstr "Для старого формата:"
 
@@ -446,6 +534,9 @@ msgstr "Укладывается в 4 байта."
 
 msgid "For new format:"
 msgstr "Для нового формата:"
+
+msgid "Sub-name count"
+msgstr "Количество Под-Имён"
 
 msgid "Flags (absolute: val&1 != 0 )"
 msgstr "Флаги (абсолютные: val&1 != 0 )"
@@ -456,6 +547,9 @@ msgstr "Для каждого Имени и Под-Имени"
 msgid "X+0"
 msgstr "X+0"
 
+msgid "String length"
+msgstr "Длина строки"
+
 msgid "X+4"
 msgstr "X+4"
 
@@ -464,6 +558,94 @@ msgstr "Каждая строка имени уложена в 4 байта."
 
 msgid "16: :ref:`RID<class_rid>` (unsupported)"
 msgstr "16: :ref:`RID<class_rid>` (Не поддерживается)"
+
+msgid "17: :ref:`Object<class_object>`"
+msgstr "17: :ref:`Object<class_object>`"
+
+msgid ""
+"An Object could be serialized in three different ways: as a null value, with "
+"``full_objects = false``, or with ``full_objects = true``."
+msgstr ""
+"Объект может быть сериализован тремя различными способами: как нулевое "
+"значение, с ``full_objects = false`` или с ``full_objects = true``."
+
+msgid "A null value"
+msgstr "A null value (Нулевое значение)"
+
+msgid "Zero (32-bit signed integer)"
+msgstr "Zero (32-битное знаковое целое число)"
+
+msgid "``full_objects`` disabled"
+msgstr "``full_objects`` отключены"
+
+msgid "The Object instance ID (64-bit signed integer)"
+msgstr "ID экземпляра объекта (64-битное знаковое целое число)"
+
+msgid "``full_objects`` enabled"
+msgstr "``full_objects`` включен"
+
+msgid "Class name (String length)"
+msgstr "Имя класса (Длина строки)"
+
+msgid "Class name (UTF-8 encoded string)"
+msgstr "Class name (строка в кодировке UTF-8)"
+
+msgid "X+8"
+msgstr "X+8"
+
+msgid "The number of properties that are serialized"
+msgstr "Количество сериализованных свойств"
+
+msgid "For each property:"
+msgstr "Для каждого объекта недвижимости:"
+
+msgid "Y"
+msgstr "Y"
+
+msgid "Property name (String length)"
+msgstr "Имя свойства (Длина строки)"
+
+msgid "Y+4"
+msgstr "Y+4"
+
+msgid "Z"
+msgstr "Z"
+
+msgid "Property name (UTF-8 encoded string)"
+msgstr "Имя свойства (Строка в кодировке UTF-8)"
+
+msgid "Y+4+Z"
+msgstr "Y+4+Z"
+
+msgid "W"
+msgstr "W"
+
+msgid "<variable>"
+msgstr "<variable>"
+
+msgid "Property value, using this same format"
+msgstr "Стоимость недвижимости, используя тот же формат"
+
+msgid ""
+"Not all properties are included. Only properties that are configured with "
+"the :ref:`PROPERTY_USAGE_STORAGE<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>` "
+"flag set will be serialized. You can add a new usage flag to a property by "
+"overriding "
+"the :ref:`_get_property_list<class_Object_private_method__get_property_list>` "
+"method in your class. You can also check how property usage is configured by "
+"calling ``Object._get_property_list`` "
+"See :ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>` for the "
+"possible usage flags."
+msgstr ""
+"Включены не все свойства. Сериализуются только свойства, настроенные с "
+"установленным "
+"флагом :ref:`PROPERTY_USAGE_STORAGE<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>`. "
+"Вы можете добавить новый флаг использования к свойству, переопределив "
+"метод :ref:`_get_property_list<class_Object_private_method__get_property_list>` "
+"в вашем классе. Вы также можете проверить, как настроено использование "
+"свойства, вызвав ``Object._get_property_list``. "
+"См. :ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>` для "
+"получения информации о возможных флагах использования."
 
 msgid "18: :ref:`Dictionary<class_dictionary>`"
 msgstr "18: :ref:`Dictionary<class_dictionary>`"
@@ -488,6 +670,12 @@ msgstr ""
 "Из этого следует, что количество \"elements\", значений одним за другим, "
 "использует тот же формат."
 
+msgid "20: :ref:`PackedByteArray<class_PackedByteArray>`"
+msgstr "20: :ref:`PackedByteArray<class_PackedByteArray>`"
+
+msgid "Array length (Bytes)"
+msgstr "Длина Массива (в Байтах)"
+
 msgid "8..8+length"
 msgstr "8..8+длина"
 
@@ -500,11 +688,41 @@ msgstr "Байт (0..255)"
 msgid "The array data is padded to 4 bytes."
 msgstr "Данные массива укладываются в 4 байта."
 
+msgid "21: :ref:`PackedInt32Array<class_PackedInt32Array>`"
+msgstr "21: :ref:`PackedInt32Array<class_PackedInt32Array>`"
+
+msgid "Array length (Integers)"
+msgstr "Длина Массива (Целые числа)"
+
 msgid "8..8+length\\*4"
 msgstr "8..8+длина\\*4"
 
+msgid "22: :ref:`PackedInt64Array<class_PackedInt64Array>`"
+msgstr "22: :ref:`PackedInt64Array<class_PackedInt64Array>`"
+
 msgid "8..8+length\\*8"
 msgstr "8..8+длина\\*8"
+
+msgid "23: :ref:`PackedFloat32Array<class_PackedFloat32Array>`"
+msgstr "23: :ref:`PackedFloat32Array<class_PackedFloat32Array>`"
+
+msgid "Array length (Floats)"
+msgstr "Длина массива (Floats)"
+
+msgid "32-bit IEEE 754 single-precision float"
+msgstr "32-bit IEEE 754 одинарной точности float"
+
+msgid "24: :ref:`PackedFloat64Array<class_PackedFloat64Array>`"
+msgstr "24: :ref:`PackedFloat64Array<class_PackedFloat64Array>`"
+
+msgid "64-bit IEEE 754 double-precision float"
+msgstr "64-bit IEEE 754 двойной точности float"
+
+msgid "25: :ref:`PackedStringArray<class_PackedStringArray>`"
+msgstr "25: :ref:`PackedStringArray<class_PackedStringArray>`"
+
+msgid "Array length (Strings)"
+msgstr "Длина массива (Strings)"
 
 msgid "For each String:"
 msgstr "Для каждой Строки:"
@@ -512,8 +730,17 @@ msgstr "Для каждой Строки:"
 msgid "Every string is padded to 4 bytes."
 msgstr "Каждая строка укладывается в 4 байта."
 
+msgid "26: :ref:`PackedVector2Array<class_PackedVector2Array>`"
+msgstr "26: :ref:`PackedVector2Array<class_PackedVector2Array>`"
+
+msgid "Array length"
+msgstr "Array length (Длина Массива)"
+
 msgid "8..12+length\\*8"
 msgstr "8..12+длина\\*8"
+
+msgid "27: :ref:`PackedVector3Array<class_PackedVector3Array>`"
+msgstr "27: :ref:`PackedVector3Array<class_PackedVector3Array>`"
 
 msgid "8..8+length\\*12"
 msgstr "8..8+длина\\*12"
@@ -523,6 +750,9 @@ msgstr "8..12+длина\\*12"
 
 msgid "8..16+length\\*12"
 msgstr "8..16+длина\\*12"
+
+msgid "28: :ref:`PackedColorArray<class_PackedColorArray>`"
+msgstr "28: :ref:`PackedColorArray<class_PackedColorArray>`"
 
 msgid "8..8+length\\*16"
 msgstr "8..8+длина\\*16"

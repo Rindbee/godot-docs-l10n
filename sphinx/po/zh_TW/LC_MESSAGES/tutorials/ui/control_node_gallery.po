@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Control node gallery"
-msgstr "控制項節點一覽"
+msgstr "控制節點圖鑑"
 
 msgid "Here is a list of common Control nodes with their name next to them:"
-msgstr "這裡有一個常見控制節點的列表，旁邊有它們的名字:"
+msgstr "以下列出常用的控制節點，以及它們的名稱："
 
 msgid ""
 "The Control Gallery demo pictured above can be found `on GitHub <https://"
 "github.com/godotengine/godot-demo-projects/tree/master/gui/"
 "control_gallery>`__."
 msgstr ""
-"除了這份說明文件，你可能也會想看看 `Godot Demo 專案 <https://github.com/"
-"godotengine/godot-demo-projects>`_ 。"
+"上方所示的控制節點圖鑑範例，可於 `GitHub <https://github.com/godotengine/"
+"godot-demo-projects/tree/master/gui/control_gallery>`__ 找到。"

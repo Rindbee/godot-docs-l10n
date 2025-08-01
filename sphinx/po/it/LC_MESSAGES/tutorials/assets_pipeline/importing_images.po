@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,8 +14,137 @@ msgstr ""
 msgid "Importing images"
 msgstr "Importazione di immagini"
 
+msgid "Godot can import the following image formats:"
+msgstr "Godot può importare i seguenti formati di immagine:"
+
+msgid "Importing textures"
+msgstr "Importazione di texture"
+
+msgid "Changing import type"
+msgstr "Cambiare il tipo da importare"
+
 msgid "Detect 3D"
 msgstr "Rileva 3D"
 
+msgid "Import options"
+msgstr "Opzioni di importazione"
+
+msgid "good"
+msgstr "good"
+
+msgid "bad"
+msgstr "bad"
+
+msgid "Compress mode"
+msgstr "Modalità di compressione"
+
+msgid "Lossless"
+msgstr "Senza perdita"
+
+msgid "VRAM Compressed"
+msgstr "Compresso per VRAM"
+
+msgid "VRAM Uncompressed"
+msgstr "Non compresso per VRAM"
+
 msgid "**Description**"
 msgstr "**Descrizione**"
+
+msgid "**Size on disk**"
+msgstr "**Dimensione sul disco**"
+
+msgid "|regular| Small"
+msgstr "|regular| Piccolo"
+
+msgid "regular"
+msgstr "regular"
+
+msgid "|good| Very small"
+msgstr "|good| Molto piccolo"
+
+msgid "|bad| Large"
+msgstr "|bad| Largo"
+
+msgid "**Memory usage**"
+msgstr "**Utilizzo di memoria**"
+
+msgid "|good| Small"
+msgstr "|good| Piccolo"
+
+msgid "**Performance**"
+msgstr "**Prestazioni**"
+
+msgid "|regular| Normal"
+msgstr "|regular| Normale"
+
+msgid "|good| Fast"
+msgstr "|good| Veloce"
+
+msgid "**Quality loss**"
+msgstr "**Perdita di qualità**"
+
+msgid "|good| None"
+msgstr "|good| Nessuna"
+
+msgid "|regular| Slight"
+msgstr "|regular| Leggera"
+
+msgid "|bad| Moderate"
+msgstr "|bad| Moderata"
+
+msgid "**Load time**"
+msgstr "**Tempo di caricamento**"
+
+msgid "|bad| Slow"
+msgstr "|bad| Lento"
+
+msgid "Texture size"
+msgstr "Dimensioni della texture"
+
+msgid "**128×128**"
+msgstr "**128×128**"
+
+msgid "**256×256**"
+msgstr "**256×256**"
+
+msgid "**512×512**"
+msgstr "**512×512**"
+
+msgid "**1024×1024**"
+msgstr "**1024×1024**"
+
+msgid "|regular| 5.33 MiB"
+msgstr "|regular| 5.33 MiB"
+
+msgid "**2048×2048**"
+msgstr "**2048×2048**"
+
+msgid "**4096×4096**"
+msgstr "**4096×4096**"
+
+msgid "Compress > HDR Compression"
+msgstr "Comprimi > Compressione HDR"
+
+msgid "Compress > Normal Map"
+msgstr "Comprimi > Mappa di normali"
+
+msgid "Mipmaps > Generate"
+msgstr "Mipmap > Genera"
+
+msgid "Mipmaps > Limit"
+msgstr "Mipmap > Limite"
+
+msgid "Roughness > Mode"
+msgstr "Rugosità > Modalità"
+
+msgid "SVG > Scale"
+msgstr "SVG > Scala"
+
+msgid "Importing SVG images with text"
+msgstr "Importare immagini SVG con testo"
+
+msgid "Best practices"
+msgstr "Le migliori pratiche"
+
+msgid "There are 2 ways to proceed:"
+msgstr "Ci sono due modi per procedere:"

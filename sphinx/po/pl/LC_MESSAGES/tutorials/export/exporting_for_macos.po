@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,8 +17,26 @@ msgstr "Eksportowanie na macOS"
 msgid "Requirements"
 msgstr "Wymagania"
 
+msgid "Option"
+msgstr "Opcja"
+
 msgid "Description"
 msgstr "Opis"
+
+msgid "Codesign"
+msgstr "Podpisywanie"
+
+msgid "Identity"
+msgstr "Tożsamość"
+
+msgid "Notarization"
+msgstr "Notaryzacja"
+
+msgid "Entitlements"
+msgstr "Uprawnienia"
+
+msgid "Entitlement"
+msgstr "Uprawnienie"
 
 msgid "Camera"
 msgstr "Kamera"
@@ -26,8 +44,41 @@ msgstr "Kamera"
 msgid "Location"
 msgstr "Lokalizacja"
 
+msgid "Calendars"
+msgstr "Kalendarze"
+
 msgid "Debugging"
 msgstr "Debugowanie"
 
 msgid "Enabled"
 msgstr "Włączony"
+
+msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "``GODOT_MACOS_CODESIGN_CERTIFICATE_FILE``"
+msgstr "``GODOT_MACOS_CODESIGN_CERTIFICATE_FILE``"
+
+msgid "``GODOT_MACOS_CODESIGN_CERTIFICATE_PASSWORD``"
+msgstr "``GODOT_MACOS_CODESIGN_CERTIFICATE_PASSWORD``"
+
+msgid "``GODOT_MACOS_CODESIGN_PROVISIONING_PROFILE``"
+msgstr "``GODOT_MACOS_CODESIGN_PROVISIONING_PROFILE``"
+
+msgid "``GODOT_MACOS_NOTARIZATION_API_UUID``"
+msgstr "``GODOT_MACOS_NOTARIZATION_API_UUID``"
+
+msgid "``GODOT_MACOS_NOTARIZATION_API_KEY``"
+msgstr "``GODOT_MACOS_NOTARIZATION_API_KEY``"
+
+msgid "``GODOT_MACOS_NOTARIZATION_API_KEY_ID``"
+msgstr "``GODOT_MACOS_NOTARIZATION_API_KEY_ID``"
+
+msgid "``GODOT_MACOS_NOTARIZATION_APPLE_ID_NAME``"
+msgstr "``GODOT_MACOS_NOTARIZATION_APPLE_ID_NAME``"
+
+msgid "``GODOT_MACOS_NOTARIZATION_APPLE_ID_PASSWORD``"
+msgstr "``GODOT_MACOS_NOTARIZATION_APPLE_ID_PASSWORD``"
+
+msgid "Export options"
+msgstr "Opcje Eksportu"

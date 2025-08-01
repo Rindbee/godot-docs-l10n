@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -36,12 +36,14 @@ msgstr ""
 
 msgid ""
 "The GDExtension API completely breaks compatibility in 4.1, so it's not "
-"included in the table below. See the :ref:"
-"`updating_your_gdextension_for_godot_4_1` section for more information."
+"included in the table below. See "
+"the :ref:`updating_your_gdextension_for_godot_4_1` section for more "
+"information."
 msgstr ""
 "GDExtension API полностью ломает совместимость с 4.1, так что оно не "
-"включено в таблицу, расположенную ниже. Смотрите секцию :ref:"
-"`updating_your_gdextension_for_godot_4_1` для более подробной информации."
+"включено в таблицу, расположенную ниже. Смотрите "
+"секцию :ref:`updating_your_gdextension_for_godot_4_1` для более подробной "
+"информации."
 
 msgid ""
 "This article indicates whether each breaking change affects GDScript and "
@@ -50,6 +52,14 @@ msgstr ""
 "Эта статья показывает, где каждое изменение обратной совместимости влияет на "
 "GDScript и где изменение обратной совместимости C# *бинарно совместимо* или "
 "*совместимо на уровне кода*:"
+
+msgid ""
+"**Binary compatible** - Existing binaries will load and execute successfully "
+"without recompilation, and the runtime behavior won't change."
+msgstr ""
+"**Binary compatible (Совместимость на уровне двоичных файлов)** — "
+"существующие двоичные файлы будут успешно загружены и выполнены без "
+"перекомпиляции, а поведение среды выполнения не изменится."
 
 msgid ""
 "**Source compatible** - Source code will compile successfully without "
@@ -117,6 +127,9 @@ msgid ""
 msgstr ""
 "Метод ``create_action`` создаёт новый опциональный параметр "
 "``backward_undo_ops``"
+
+msgid "|✔️ with compat|"
+msgstr "|✔️ with compat|"
 
 msgid "`GH-76688`_"
 msgstr "`GH-76688`_"
@@ -287,11 +300,25 @@ msgstr "**Area3D**"
 msgid "**PhysicsDirectSpaceState2D**"
 msgstr "**PhysicsDirectSpaceState2D**"
 
+msgid ""
+"Method ``collide_shape`` changes return type from "
+"``Array[PackedVector2Array]`` to ``Array[Vector2]``"
+msgstr ""
+"Метод ``collide_shape`` изменяет тип возвращаемого значения с "
+"``Array[PackedVector2Array]`` на ``Array[Vector2]``"
+
 msgid "`GH-75260`_"
 msgstr "`GH-75260`_"
 
 msgid "**PhysicsDirectSpaceState3D**"
 msgstr "**PhysicsDirectSpaceState3D**"
+
+msgid ""
+"Method ``collide_shape`` changes return type from "
+"``Array[PackedVector3Array]`` to ``Array[Vector3]``"
+msgstr ""
+"Метод ``collide_shape`` изменяет тип возвращаемого значения с "
+"``Array[PackedVector3Array]`` на ``Array[Vector3]``"
 
 msgid "Rendering"
 msgstr "Отрисовка"
@@ -299,14 +326,42 @@ msgstr "Отрисовка"
 msgid "**RDShaderFile**"
 msgstr "**RDShaderFile**"
 
+msgid ""
+"Method ``get_version_list`` changes return type from ``PackedStringArray`` "
+"to ``Array[StringName]``"
+msgstr ""
+"Метод ``get_version_list`` изменяет тип возвращаемого значения с "
+"``PackedStringArray`` на ``Array[StringName]``"
+
 msgid "**RenderingDevice**"
 msgstr "**RenderingDevice**"
+
+msgid ""
+"Method ``draw_list_begin`` changes ``storage_textures`` parameter type from "
+"untyped ``Array`` to ``Array[RID]``"
+msgstr ""
+"Метод ``draw_list_begin`` изменяет тип параметра ``storage_textures`` с "
+"нетипизированного ``Array`` на ``Array[RID]``"
 
 msgid "**RenderingServer**"
 msgstr "**RenderingServer**"
 
+msgid ""
+"Method ``global_shader_parameter_get_list`` changes return type from "
+"``PackedStringArray`` to ``Array[StringName]``"
+msgstr ""
+"Метод ``global_shader_parameter_get_list`` изменяет тип возвращаемого "
+"значения с ``PackedStringArray`` на ``Array[StringName]``"
+
 msgid "**SurfaceTool**"
 msgstr "**SurfaceTool**"
+
+msgid ""
+"Method ``add_triangle_fan`` changes ``tangents`` parameter type from untyped "
+"``Array`` to ``Array[Plane]``"
+msgstr ""
+"Метод ``add_triangle_fan`` изменяет тип параметра ``tangents`` с "
+"нетипизированного ``Array`` на ``Array[Plane]``"
 
 msgid "Navigation"
 msgstr "Навигация"
@@ -320,17 +375,45 @@ msgstr "Метод `set_velocity` заменен свойством `velocity`"
 msgid "`GH-69988`_"
 msgstr "`GH-69988`_"
 
+msgid ""
+"Property ``time_horizon`` split into ``time_horizon_agents`` and "
+"``time_horizon_obstacles``"
+msgstr ""
+"Свойство ``time_horizon`` разделено на ``time_horizon_agents`` и "
+"``time_horizon_obstacles``"
+
 msgid "**NavigationAgent3D**"
 msgstr "**NavigationAgent3D**"
 
+msgid "Property ``agent_height_offset`` renamed to ``path_height_offset``"
+msgstr ""
+"Свойство ``agent_height_offset`` переименовано в ``path_height_offset``"
+
+msgid "Property ``ignore_y`` removed"
+msgstr "Свойство ``ignore_y`` удалено"
+
 msgid "**NavigationObstacle2D**"
 msgstr "**NavigationObstacle2D**"
+
+msgid "Property ``estimate_radius`` removed"
+msgstr "Свойство ``estimate_radius`` удалено"
+
+msgid "Method ``get_rid`` renamed to ``get_agent_rid``"
+msgstr "Метод ``get_rid`` переименован в ``get_agent_rid``"
 
 msgid "**NavigationObstacle3D**"
 msgstr "**NavigationObstacle3D**"
 
 msgid "**NavigationServer2D**"
 msgstr "**NavigationServer2D**"
+
+msgid ""
+"Method ``agent_set_callback`` renamed to ``agent_set_avoidance_callback``"
+msgstr ""
+"Метод ``agent_set_callback`` переименован в ``agent_set_avoidance_callback``"
+
+msgid "Method ``agent_set_target_velocity`` removed"
+msgstr "Метод ``agent_set_target_velocity`` удален"
 
 msgid ""
 "Method ``agent_set_time_horizon`` split into "
@@ -407,6 +490,9 @@ msgstr "У метода ``_generate_from_path`` добавлен новый па
 msgid "**EditorUndoRedoManager**"
 msgstr "**EditorUndoRedoManager**"
 
+msgid "Behavior changes"
+msgstr "Изменения в поведении"
+
 msgid ""
 "In 4.1 some behavior changes have been introduced, which might require you "
 "to adjust your project."
@@ -446,7 +532,7 @@ msgid ""
 "``Viewport`` nodes, that have Physics Picking enabled, now automatically set "
 "InputEvents as handled. See `GH-79897`_ for workarounds."
 msgstr ""
-"``Viewport`` ноды, у которых включено Выборка Физических Объектов, теперь "
+"``Viewport`` узлы, у которых включено Выборка Физических Объектов, теперь "
 "автоматически устанавливают InputEvents как перехваченные. Смотрите "
 "`GH-79897`_ для обходного пути."
 
@@ -485,6 +571,9 @@ msgstr "В Godot 4.0, ваша функция \"entry_symbol\" выглядит 
 msgid "However, for Godot 4.1, it should look like:"
 msgstr "В любом случае для Godot 4.1, это должно выглядеть примерно так:"
 
+msgid "There are two small changes:"
+msgstr "Есть два небольших изменения:"
+
 msgid ""
 "The first argument changes from ``const GDExtensionInterface *p_interface`` "
 "to ``GDExtensionInterfaceGetProcAddress p_get_proc_address``"
@@ -500,8 +589,8 @@ msgstr ""
 "``p_get_proc_address`` в качестве первого параметра"
 
 msgid ""
-"You also need to add an extra ``compatibility_minimum`` line to your ``."
-"gdextension`` file, so that it looks something like::"
+"You also need to add an extra ``compatibility_minimum`` line to your "
+"``.gdextension`` file, so that it looks something like::"
 msgstr ""
 "Вам также нужно добавить дополнительную строчку ``compatibility_minimum`` в "
 "ваш файл ``.gdextension``, так чтобы он выглядел так:"

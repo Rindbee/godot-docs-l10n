@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,8 +14,20 @@ msgstr ""
 msgid "Text to speech"
 msgstr "Sintetizzatore vocale"
 
+msgid "Basic Usage"
+msgstr "Utilizzo di base"
+
+msgid "Go to **Project > Project Settings**"
+msgstr "Vai a **Progetto > Impostazioni del progetto**"
+
+msgid "Requirements for functionality"
+msgstr "Requisiti per funzionalità"
+
 msgid "**Arch Linux**"
 msgstr "**Arch Linux**"
 
 msgid "Troubleshooting"
 msgstr "Risoluzione dei problemi"
+
+msgid "Best practices"
+msgstr "Le migliori pratiche"

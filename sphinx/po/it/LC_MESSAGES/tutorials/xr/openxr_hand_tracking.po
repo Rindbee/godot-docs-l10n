@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,62 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "OpenXR hand tracking"
+msgstr "Tracciamento delle mani in OpenXR"
+
 msgid "Introduction"
 msgstr "Introduzione"
+
+msgid "Demo project"
+msgstr "Progetto di dimostrazione"
+
+msgid ""
+"The information presented on this page was used to create a demo project "
+"that can be found `here <https://github.com/godotengine/godot-demo-projects/"
+"tree/master/xr/openxr_hand_tracking_demo>`_."
+msgstr ""
+"Le informazioni presentate in questa pagina sono state utilizzate per creare "
+"un progetto di dimostrazione che si trova `qui <https://github.com/"
+"godotengine/godot-demo-projects/tree/master/xr/openxr_hand_tracking_demo>`_."
+
+msgid "The Hand Tracking API"
+msgstr "L'API di tracciamento delle mani"
+
+msgid "Hand tracking node"
+msgstr "Nodo di tracciamento delle mani"
+
+msgid "This information has been separated out for the following use cases:"
+msgstr "Queste informazioni sono state separate per i seguenti casi d'uso:"
+
+msgid "Rigged hand mesh"
+msgstr "Mesh di mano con rig"
+
+msgid ""
+"The `OpenXR hand tracking demo <https://github.com/godotengine/godot-demo-"
+"projects/tree/master/xr/openxr_hand_tracking_demo>`_ contains example glTF "
+"files of properly rigged hands."
+msgstr ""
+"La demo di `tracciamento delle mani di OpenXR <https://github.com/"
+"godotengine/godot-demo-projects/tree/master/xr/openxr_hand_tracking_demo>`_ "
+"contiene file glTF di esempio di mani con rigging correttamente applicato."
+
+msgid "The hand skeleton modifier"
+msgstr "Il modificatore di scheletro di mani"
+
+msgid "The hand tracking data source"
+msgstr "La sorgente dei dati di tracciamento della mano"
+
+msgid "This example logs the state for the left hand."
+msgstr "Questo esempio registra lo stato della mano sinistra."
+
+msgid "Handling user input"
+msgstr "Gestione degli input dell'utente"
+
+msgid "The hand interaction profile"
+msgstr "Il profilo di interazione della mano"
+
+msgid "HTC hand interaction profile"
+msgstr "Profilo di interazione della mano HTC"
+
+msgid "Simple controller profile"
+msgstr "Profilo di controller semplice"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,8 +23,14 @@ msgstr "Su PC"
 msgid "On mobile"
 msgstr "Su dispositivi mobili"
 
+msgid "Export menu"
+msgstr "Menu di esportazione"
+
 msgid "Export templates"
 msgstr "Modelli di esportazione"
+
+msgid "Resource options"
+msgstr "Opzioni di risorse"
 
 msgid "Export all resources in the project"
 msgstr "Esporta tutte le risorse nel progetto"
@@ -35,5 +41,14 @@ msgstr "Esporta le scene selezionate (incluse le dipendenze)"
 msgid "Export selected resources (and dependencies)"
 msgstr "Esporta le risorse selezionate (incluse le dipendenze)"
 
+msgid "Configuration files"
+msgstr "File di conﬁgurazione"
+
 msgid "Windows: ``.exe``"
 msgstr "Windows: ``.exe``"
+
+msgid "**PCK format:**"
+msgstr "**Formato PCK:**"
+
+msgid "**ZIP format:**"
+msgstr "**Formato ZIP:**"

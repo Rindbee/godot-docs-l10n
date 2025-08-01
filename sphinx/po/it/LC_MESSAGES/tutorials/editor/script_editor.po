@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,59 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Script Editor"
+msgstr "Editor di script"
+
 msgid "Introduction"
 msgstr "Introduzione"
 
+msgid "Features"
+msgstr "Funzionalità"
+
+msgid "Syntax highlighting support for GDScript and JSON files."
+msgstr "Supporto di evidenziazione della sintassi per GDScript e file JSON."
+
+msgid "Bookmark and breakpoint support."
+msgstr "Supporto per segnalibri e punti d'interruzione."
+
+msgid "Automatic indentation."
+msgstr "Indentazione automatica."
+
+msgid "Code folding."
+msgstr "Riduzione del codice."
+
 msgid "Usage"
 msgstr "Utilizzo"
+
+msgid "Script Panel"
+msgstr "Pannello di script"
+
+msgid "script"
+msgstr "script"
+
+msgid "scriptcsharp"
+msgstr "scriptcsharp"
+
+msgid "documentation"
+msgstr "documentation"
+
+msgid "toolscript"
+msgstr "toolscript"
+
+msgid "The **File** menu provides the following options:"
+msgstr "Il menu **File** offre le seguenti opzioni:"
+
+msgid "**Select All***: Selects the all code in the text editor."
+msgstr "**Seleziona tutto***: seleziona tutto il codice nell'editor di testo."
+
+msgid "The **Search** menu provides the following options:"
+msgstr "Il menu **Cerca** offre le seguenti opzioni:"
+
+msgid "Coding area"
+msgstr "Area di programmazione"
+
+msgid "override"
+msgstr "override"
+
+msgid "foldable"
+msgstr "foldable"

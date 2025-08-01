@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -132,6 +132,61 @@ msgstr ""
 
 msgid "Custom meshes"
 msgstr "自定义网格"
+
+msgid ""
+"Custom meshes can be used for :ref:`CSGMesh3D <class_CSGMesh3D>` as long as "
+"the mesh is *manifold*. The mesh can be modeled in other software and "
+"imported into Godot. Multiple materials are supported."
+msgstr ""
+"只要是\\ *流形*\\ （manifold）的自定义网格都可以用于 :ref:`CSGMesh3D "
+"<class_CSGMesh3D>`\\ 。可以在其他软件中建模并导入 Godot。支持多种材质。"
+
+msgid "For a mesh to be used as a CSG mesh, it is required to:"
+msgstr "网格用作 CSG 网格需要满足以下条件："
+
+msgid "be closed"
+msgstr "闭合"
+
+msgid "have each edge connect to only two faces"
+msgstr "每条边都只连接到两个面"
+
+msgid "have volume"
+msgstr "有体积"
+
+msgid "And it is recommended to avoid:"
+msgstr "并且建议避免："
+
+msgid "negative volume"
+msgstr "负体积"
+
+msgid "self-intersection"
+msgstr "自相交"
+
+msgid "interior faces"
+msgstr "内部面"
+
+msgid "Making an existing mesh manifold with Blender"
+msgstr "使用 Blender 使现有网格成为流形"
+
+msgid ""
+"If you have an existing mesh that is not already manifold, you can make it "
+"manifold using Blender."
+msgstr "如果你当前有一个非流形网格，可以使用 Blender 将其转换为流形网格。"
+
+msgid ""
+"In Blender, install and enable the `3D Print Toolbox <https://"
+"extensions.blender.org/add-ons/print3d-toolbox/>`_ addon."
+msgstr ""
+"在 Blender 中，安装并启用 `3D Print Toolbox <https://extensions.blender.org/"
+"add-ons/print3d-toolbox/>`_ 插件。"
+
+msgid ""
+"Select the mesh you want to make manifold. Open the sidebar by clicking on "
+"the arrow:"
+msgstr "选中需要转换为流形的网格。点击界面右侧箭头展开侧边栏："
+
+msgid "The mesh should now be manifold, and can be used as a custom mesh."
+msgstr "现在网格应该是流形的，可以作为自定义网格使用了。"
 
 msgid "CSGCombiner3D"
 msgstr "CSGCombiner3D"
@@ -369,8 +424,8 @@ msgid ""
 "If you need some textures for prototyping, Kenney made a `set of CC0-"
 "licensed prototype textures <https://kenney.nl/assets/prototype-textures>`__."
 msgstr ""
-"如果你需要一些原型的图片,Kenney做了一套 `CC0授权的原型图片 <https://kenney."
-"nl/assets/prototype-textures>`__."
+"如果你需要一些原型的图片,Kenney做了一套 `CC0授权的原型图片 <https://"
+"kenney.nl/assets/prototype-textures>`__."
 
 msgid "There are two ways to apply a material to a CSG node:"
 msgstr "有两种方法可以将材质应用到CSG节点:"
@@ -421,6 +476,68 @@ msgstr ""
 "你可以复制一个 SpatialMaterial3D，以便在 CSG 节点中重复使用它。要做到这一点，"
 "在（属性）检查器中点击材质属性旁边的下拉箭头，然后选择 **复制** 。 要粘贴它，"
 "请选择要应用该材质的节点，单击其材质属性旁边的下拉箭头，然后选择 **粘贴** 。"
+
+msgid "Converting to MeshInstance3D"
+msgstr "转换为 MeshInstance3D"
+
+msgid ""
+"Since Godot 4.4, you can convert a CSG node and its children to "
+"a :ref:`class_MeshInstance3D` node."
+msgstr ""
+"自 Godot 4.4 起，你可以将 CSG 节点及其子节点转换"
+"为 :ref:`class_MeshInstance3D` 节点。"
+
+msgid "This has several benefits:"
+msgstr "这样做的好处有："
+
+msgid "Bake lightmaps, since UV2 can be generated on a MeshInstance3D."
+msgstr "烘焙光照贴图，因为可以在 MeshInstance3D 上生成 UV2。"
+
+msgid ""
+"Bake occlusion culling, since the occlusion culling bake process only takes "
+"MeshInstance3D into account."
+msgstr "烘焙遮挡剔除，因为遮挡剔除烘焙过程仅考虑 MeshInstance3D。"
+
+msgid ""
+"Faster loading times, since the CSG mesh no longer needs to be rebuilt when "
+"the scene loads."
+msgstr "加载速度更快，因为场景加载时不再需要重建 CSG 网格。"
+
+msgid ""
+"Better performance when updating the node's transform if using the mesh "
+"within another CSG node."
+msgstr "在其他 CSG 节点中使用该网格时，更新节点变换的性能更好。"
+
+msgid ""
+"To convert a CSG node to a MeshInstance3D node, select it, then choose **CSG "
+"> Bake Mesh Instance** in the toolbar. The MeshInstance3D node will be "
+"created as a sibling. Note that the CSG node that was used for baking is "
+"**not** hidden automatically, so remember to hide it to prevent its geometry "
+"from overlapping with the newly created MeshInstance3D."
+msgstr ""
+"要将 CSG 节点转换为 MeshInstance3D 节点，请先将其选中，然后在工具栏中选择 "
+"**CSG > 烘焙网格实例**\\ 。MeshInstance3D 节点将作为同级节点创建。请注意，用"
+"于烘焙的 CSG 节点\\ **不会**\\ 自动隐藏，因此请记得将其隐藏，防止其几何体与新"
+"创建的 MeshInstance3D 重叠。"
+
+msgid ""
+"You can also create a trimesh collision shape using **CSG > Bake Collision "
+"Shape**. The generated :ref:`class_CollisionShape3D` node must be a child of "
+"a :ref:`class_StaticBody3D` or :ref:`class_AnimatableBody3D` node to be "
+"effective."
+msgstr ""
+"你也可以使用 **CSG > 烘焙碰撞形状**\\ 来创建三角网格碰撞形状。生成"
+"的 :ref:`class_CollisionShape3D` 节点必须是 :ref:`class_StaticBody3D` "
+"或 :ref:`class_AnimatableBody3D` 节点的子节点才能生效。"
+
+msgid ""
+"Remember to keep the original CSG node in the scene tree, so that you can "
+"perform changes to the geometry later if needed. To make changes to the "
+"geometry, remove the MeshInstance3D node and make the root CSG node visible "
+"again."
+msgstr ""
+"别忘了在场景树中保留原始的 CSG 节点，这样你就可以在需要时对几何体进行修改。如"
+"果要修改几何形状，请移除 MeshInstance3D 节点并重新使根 CSG 节点可见。"
 
 msgid "Exporting as glTF"
 msgstr "导出为 glTF"

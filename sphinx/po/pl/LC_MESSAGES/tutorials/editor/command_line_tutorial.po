@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,11 +14,98 @@ msgstr ""
 msgid "Command line tutorial"
 msgstr "Samouczek wiersza poleceń"
 
+msgid "**Legend**"
+msgstr "**Legenda**"
+
+msgid "release"
+msgstr "wydanie"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "editor"
+msgstr "edytor"
+
 msgid "Command"
 msgstr "Command"
 
 msgid "Description"
 msgstr "Opis"
+
+msgid "``--version``"
+msgstr "``--version``"
+
+msgid "``--quit``"
+msgstr "``--quit``"
+
+msgid "``--quit-after``"
+msgstr "``--quit-after``"
+
+msgid "``--headless``"
+msgstr "``--headless``"
+
+msgid "``--single-window``"
+msgstr "``--single-window``"
+
+msgid "``--profiling``"
+msgstr "``--profiling``"
+
+msgid "``--gpu-profile``"
+msgstr "``--gpu-profile``"
+
+msgid "``--gpu-validation``"
+msgstr "``--gpu-validation``"
+
+msgid "``--gpu-abort``"
+msgstr "``--gpu-abort``"
+
+msgid "``--single-threaded-scene``"
+msgstr "``--single-threaded-scene``"
+
+msgid "``--debug-collisions``"
+msgstr "``--debug-collisions``"
+
+msgid "``--debug-paths``"
+msgstr "``--debug-paths``"
+
+msgid "``--debug-navigation``"
+msgstr "``--debug-navigation``"
+
+msgid "``--debug-avoidance``"
+msgstr "``--debug-avoidance``"
+
+msgid "``--debug-stringnames``"
+msgstr "``--debug-stringnames``"
+
+msgid "``--disable-vsync``"
+msgstr "``--disable-vsync``"
+
+msgid "``--disable-render-loop``"
+msgstr "``--disable-render-loop``"
+
+msgid "``--disable-crash-handler``"
+msgstr "``--disable-crash-handler``"
+
+msgid "``--print-fps``"
+msgstr "``--print-fps``"
+
+msgid "``--check-only``"
+msgstr "``--check-only``"
+
+msgid "``--no-docbase``"
+msgstr "``--no-docbase``"
+
+msgid "``--build-solutions``"
+msgstr "``--build-solutions``"
+
+msgid "``--dump-gdextension-interface``"
+msgstr "``--dump-gdextension-interface``"
+
+msgid "``--dump-extension-api``"
+msgstr "``--dump-extension-api``"
+
+msgid "``--benchmark``"
+msgstr "``--benchmark``"
 
 msgid "Path"
 msgstr "Ścieżka"

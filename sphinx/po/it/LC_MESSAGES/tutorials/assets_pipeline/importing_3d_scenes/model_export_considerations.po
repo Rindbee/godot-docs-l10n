@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,19 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "3D asset direction conventions"
+msgstr "Convenzioni di direzione dei contenuti 3D"
+
+msgid "Exporting textures separately"
+msgstr "Esportare le texture separatamente"
+
+msgid ""
+"For more information on Godot's materials, "
+"see :ref:`doc_standard_material_3d`."
+msgstr ""
+"Per maggiori informazioni sui materiali di Godot, "
+"consultare :ref:`doc_standard_material_3d`."
+
+msgid "Lighting considerations"
+msgstr "Considerazioni sull'illuminazione"

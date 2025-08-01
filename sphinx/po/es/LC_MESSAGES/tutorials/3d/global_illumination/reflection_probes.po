@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -22,3 +22,12 @@ msgstr "Sonda de reflexión habilitada."
 
 msgid "Limitations"
 msgstr "Limitaciones"
+
+msgid ""
+"Similarly, when using the Compatibility renderer, up to 2 reflection probes "
+"can be applied per mesh. If more than 2 reflection probes affect a single "
+"mesh, additional probes will not be rendered."
+msgstr ""
+"De igual forma, al usar el renderizador de compatibilidad, se pueden aplicar "
+"hasta dos sondas de reflexión por modelo. Si más de dos sondas de reflexión "
+"afectan a un mismo modelo, no se renderizarán sondas adicionales."

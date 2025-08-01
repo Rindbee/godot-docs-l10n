@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,30 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Writing documentation"
+msgstr "Scrivere la documentazione"
+
+msgid ""
+"Be sure to also check the :ref:`workflow guidelines "
+"<doc_contributing_workflow>`, especially if you're new to using Git or "
+"GitHub."
+msgstr ""
+"Assicurarsi di consultare anche le :ref:`linee guida sul flusso di lavoro "
+"<doc_contributing_workflow>`, soprattutto se non si ha familiarità con Git o "
+"GitHub."
+
+msgid "Guidelines"
+msgstr "Linee guida"
+
+msgid "Writing the manual"
+msgstr "Scrivere il manuale"
+
+msgid "Class reference guides"
+msgstr "Guide di riferimento classi"
+
+msgid "The pages below focus on the class reference."
+msgstr "Le pagine seguenti si concentrano sul riferimento classi."
+
+msgid "Translating the documentation"
+msgstr "Traduzione della documentazione"

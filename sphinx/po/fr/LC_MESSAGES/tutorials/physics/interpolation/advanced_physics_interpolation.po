@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,5 +14,23 @@ msgstr ""
 msgid "Cameras"
 msgstr "Caméras"
 
+msgid "Ensure the camera is using global coordinate space"
+msgstr "S'assurer que la caméra utilise l'espace de coordonnées global"
+
+msgid "get_global_transform_interpolated()"
+msgstr "get_global_transform_interpolated()"
+
 msgid "MultiMeshes"
 msgstr "MultiMeshes"
+
+msgid ":ref:`MultiMesh.reset_instance_physics_interpolation<class_MultiMesh_method_reset_instance_physics_interpolation>`"
+msgstr ":ref:`MultiMesh.reset_instance_physics_interpolation<class_MultiMesh_method_reset_instance_physics_interpolation>`"
+
+msgid ":ref:`MultiMesh.set_buffer_interpolated<class_MultiMesh_method_set_buffer_interpolated>`"
+msgstr ":ref:`MultiMesh.set_buffer_interpolated<class_MultiMesh_method_set_buffer_interpolated>`"
+
+msgid ""
+"Full details are in the :ref:`MultiMesh<class_MultiMesh>` documentation."
+msgstr ""
+"Les détails complets sont dans la "
+"documentation :ref:`MultiMesh<class_MultiMesh>`."

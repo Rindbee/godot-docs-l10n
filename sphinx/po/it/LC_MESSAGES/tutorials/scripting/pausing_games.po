@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,5 +11,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Pausing games and process mode"
+msgstr "Mettere in pausa i giochi e la modalità di processo"
+
 msgid "Introduction"
 msgstr "Introduzione"
+
+msgid "Process Modes"
+msgstr "Modalità di processo"
+
+msgid "You can also alter the property with code:"
+msgstr "È anche possibile cambiare la proprietà tramite codice:"
+
+msgid "Pause menu example"
+msgstr "Esempio di menu di pausa"
+
+msgid "You should now have a working pause menu."
+msgstr "Ora dovresti avere un menu di pausa funzionante."

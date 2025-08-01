@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -37,11 +37,11 @@ msgid "Create an AnimationPlayer node"
 msgstr "Vytvoření uzlu AnimationPlayer"
 
 msgid ""
-"To use the animation tools we first have to create an :ref:"
-"`class_AnimationPlayer` node."
+"To use the animation tools we first have to create "
+"an :ref:`class_AnimationPlayer` node."
 msgstr ""
-"Pro použití animačních nástrojů musíme nejprve vytvořit uzel :ref:"
-"`class_AnimationPlayer`."
+"Pro použití animačních nástrojů musíme nejprve vytvořit "
+"uzel :ref:`class_AnimationPlayer`."
 
 msgid "The AnimationPlayer node"
 msgstr "Uzel AnimationPlayer"
@@ -83,7 +83,7 @@ msgid "Tutorial: Creating a simple animation"
 msgstr "Tutoriál: Vytvoření jednoduché animace"
 
 msgid "Scene setup"
-msgstr "Nastavení scény"
+msgstr "Příprava scény"
 
 msgid ""
 "For this tutorial, we'll create a Sprite node with an AnimationPlayer as its "

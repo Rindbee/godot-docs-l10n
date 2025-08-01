@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -41,9 +41,9 @@ msgid ""
 msgstr ""
 "Godot propose une approche plus élégante pour la distribution sur PC en "
 "utilisant le système d'exportation. Lors de l'exportation pour Windows, "
-"l'exportateur prend tous les fichiers du projet et crée un fichier ``data."
-"pck``. Ce fichier est empaqueté à l'aide d'un binaire spécialement optimisé, "
-"plus petit, plus rapide et ne contenant ni éditeur ni débogueur."
+"l'exportateur prend tous les fichiers du projet et crée un fichier "
+"``data.pck``. Ce fichier est empaqueté à l'aide d'un binaire spécialement "
+"optimisé, plus petit, plus rapide et ne contenant ni éditeur ni débogueur."
 
 msgid "Code signing"
 msgstr "Signature du code"
@@ -72,6 +72,12 @@ msgstr "Configuration"
 msgid "Environment variables"
 msgstr "Variables d'environnement"
 
+msgid "Export option"
+msgstr "Options d'exportation"
+
+msgid "Environment variable"
+msgstr "Variable d'environnement"
+
 msgid "Encryption / Encryption Key"
 msgstr "Cryptage / Clé de cryptage"
 
@@ -86,3 +92,6 @@ msgstr "``GODOT_WINDOWS_CODESIGN_IDENTITY``"
 
 msgid "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
 msgstr "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
+
+msgid "Export options"
+msgstr "Options d'exportation"

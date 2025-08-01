@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,11 +17,20 @@ msgstr "Che cos'è?"
 msgid "And much more!"
 msgstr "E molto altro!"
 
+msgid "Making of GBot"
+msgstr "Creazione di GBot"
+
+msgid "RemoteTransform2D node"
+msgstr "Nodo RemoteTransform2D"
+
 msgid "Skeletons"
 msgstr "Scheletri"
 
 msgid "Your final skeleton should look something like this:"
 msgstr "Il tuo scheletro finale dovrebbe assomigliare a questo:"
+
+msgid "IK chains"
+msgstr "Catene IK"
 
 msgid "Animation tips"
 msgstr "Suggerimenti per l'animazione"

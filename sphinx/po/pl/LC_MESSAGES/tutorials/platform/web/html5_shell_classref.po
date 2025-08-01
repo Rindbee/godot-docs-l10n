@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Engine"
+msgstr "Engine"
+
+msgid "Promise"
+msgstr "Promise"
+
+msgid "void"
+msgstr "void"
+
+msgid "boolean"
+msgstr "boolean"
+
 msgid "Create a new Engine instance with the given configuration."
 msgstr "Tworzenie własnych typów danych."
+
+msgid "Arguments"
+msgstr "Argumenty"
+
+msgid "Returns"
+msgstr "Zwraca"
 
 msgid "If the given major version of WebGL is available."
 msgstr "``true`` jeśli debuguje, ``false`` w przeciwnym wypadku."
@@ -32,14 +50,80 @@ msgstr "Uruchom konfigurację silnika"
 msgid "Properties"
 msgstr "Właściwości"
 
+msgid "type"
+msgstr "typ"
+
+msgid "name"
+msgstr "nazwa"
+
+msgid ":js:attr:`unloadAfterInit`"
+msgstr ":js:attr:`unloadAfterInit`"
+
+msgid "HTMLCanvasElement"
+msgstr "HTMLCanvasElement"
+
+msgid ":js:attr:`canvas`"
+msgstr ":js:attr:`canvas`"
+
 msgid "string"
 msgstr "string"
+
+msgid ":js:attr:`executable`"
+msgstr ":js:attr:`executable`"
+
+msgid ":js:attr:`mainPack`"
+msgstr ":js:attr:`mainPack`"
+
+msgid ":js:attr:`locale`"
+msgstr ":js:attr:`locale`"
+
+msgid "number"
+msgstr "number"
+
+msgid ":js:attr:`canvasResizePolicy`"
+msgstr ":js:attr:`canvasResizePolicy`"
+
+msgid "Array.<string>"
+msgstr "Array.<string>"
+
+msgid ":js:attr:`args`"
+msgstr ":js:attr:`args`"
 
 msgid "function"
 msgstr "funkcja"
 
+msgid ":js:attr:`onExecute`"
+msgstr ":js:attr:`onExecute`"
+
+msgid ":js:attr:`onExit`"
+msgstr ":js:attr:`onExit`"
+
+msgid ":js:attr:`onProgress`"
+msgstr ":js:attr:`onProgress`"
+
+msgid ":js:attr:`onPrint`"
+msgstr ":js:attr:`onPrint`"
+
+msgid ":js:attr:`onPrintError`"
+msgstr ":js:attr:`onPrintError`"
+
 msgid "value"
 msgstr "wartość"
+
+msgid "``true``"
+msgstr "``true``"
+
+msgid "``null``"
+msgstr "``null``"
+
+msgid "``\"\"``"
+msgstr "``\"\"``"
+
+msgid "``2``"
+msgstr "``2``"
+
+msgid "``[]``"
+msgstr "``[]``"
 
 msgid "Files are delivered with server-side chunked compression"
 msgstr ""

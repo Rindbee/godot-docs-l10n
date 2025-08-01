@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -42,12 +42,6 @@ msgstr "Konfiguracja sceny"
 
 msgid "Your scene tree and viewport should look like this."
 msgstr "Drzewo sceny i jej podgląd powinny wyglądać tak jak tu."
-
-msgid ""
-"Run the scene now and click the button to see the sprite start and stop."
-msgstr ""
-"Uruchom teraz scenę i kliknij przycisk, aby zobaczyć, jak duszek rusza się "
-"i zatrzymuje."
 
 msgid "Custom signals"
 msgstr "Niestandardowe sygnały"

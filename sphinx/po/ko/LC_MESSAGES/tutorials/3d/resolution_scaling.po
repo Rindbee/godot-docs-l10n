@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,21 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Resolution scaling"
+msgstr "해상도 스케일링"
+
+msgid "Why use resolution scaling?"
+msgstr "왜 해상도 스케일링을 사용합니까?"
+
+msgid "Resolution scaling options"
+msgstr "해상도 스케일링 옵션"
+
+msgid "Scaling mode"
+msgstr "스케일링 모드"
+
+msgid "3D rendering resolution"
+msgstr "3D 렌더링 해상도"
 
 msgid "Troubleshooting"
 msgstr "문제 해결"

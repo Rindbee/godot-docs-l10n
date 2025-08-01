@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,11 +14,75 @@ msgstr ""
 msgid "Environment"
 msgstr "Ambiente"
 
+msgid "Camera3D node (high priority)"
+msgstr "Nodo Camera3D (massima priorità)"
+
+msgid "Preview environment and sun (low priority)"
+msgstr "Ambiente e sole in anteprima (minima priorità)"
+
+msgid "There are two kinds of CameraAttribute resources available:"
+msgstr "Sono disponibili due tipi di risorse CameraAttribute:"
+
+msgid "Environment options"
+msgstr "Opzioni di ambiente"
+
 msgid "Background"
 msgstr "Sfondo"
+
+msgid "There are several background modes available:"
+msgstr "Sono disponibili diverse modalità di sfondo:"
+
+msgid "Sky materials"
+msgstr "Materiali di cielo"
+
+msgid "There are several types of ambient light to choose from:"
+msgstr "Esistono diversi tipi di luce ambientale tra cui scegliere:"
+
+msgid "Reflected light"
+msgstr "Luce riflessa"
 
 msgid "Fog"
 msgstr "Nebbia"
 
+msgid "Tonemap"
+msgstr "Mappa dei toni"
+
+msgid "The tone mapping options are:"
+msgstr "Le opzioni di mappatura dei toni sono:"
+
 msgid "Glow"
 msgstr "Bagliore"
+
+msgid "Using glow in 2D"
+msgstr "Utilizzo di bagliore in 2D"
+
+msgid "There are 2 ways to use glow in 2D:"
+msgstr "Esistono due modi per utilizzare il bagliore in 2D:"
+
+msgid "Adjustments"
+msgstr "Aggiustamenti"
+
+msgid "**Basic BCS adjustments**"
+msgstr "**Aggiustamenti BCS basilari**"
+
+msgid "**Color correction using a 1D gradient**"
+msgstr "**Correzione del colore tramite una gradiente unidimensionale**"
+
+msgid "**Color correction using a 3D LUT**"
+msgstr "**Correzione del colore tramite un LUT 3D**"
+
+msgid ""
+"You can use this neutral 33×33×33 LUT template as a base (right-click and "
+"choose **Save as…**):"
+msgstr ""
+"Puoi usare questo modello LUT neutro 33×33×33 come base (fai clic destro e "
+"scegli **Salva come…**):"
+
+msgid "Camera attribute options"
+msgstr "Opzioni di attributi della telecamera"
+
+msgid "Exposure"
+msgstr "Esposizione"
+
+msgid "Auto Exposure"
+msgstr "Esposizione automatica"

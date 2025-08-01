@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "C# Variant"
+msgstr "Variant C#"
+
+msgid "An exception may be thrown."
+msgstr "Une exception peut être levée."
+
 msgid "``string``."
 msgstr "``chaînes de caractères``."
 
 msgid "Classes derived from :ref:`GodotObject <class_Object>`."
 msgstr "Classes dérivées de :ref:`GodotObject <class_Object>`."
+
+msgid "Variant.Type"
+msgstr "Variant.Type"
+
+msgid "C# Type"
+msgstr "Type C#"
 
 msgid "``Nil``"
 msgstr "``Nil``"
@@ -26,23 +38,95 @@ msgstr "``null`` (N'est pas un type)"
 msgid "``Bool``"
 msgstr "``Bool``"
 
+msgid "``bool``"
+msgstr "``bool``"
+
 msgid "``Int``"
 msgstr "``Int``"
 
 msgid "``Float``"
 msgstr "``Float``"
 
+msgid "``String``"
+msgstr "``String``"
+
 msgid "``string``"
 msgstr "``string``"
 
+msgid "``Vector2``"
+msgstr "``Vector2``"
+
+msgid "``Godot.Vector2``"
+msgstr "``Godot.Vector2``"
+
+msgid "``Vector2I``"
+msgstr "``Vector2I``"
+
+msgid "``Godot.Vector2I``"
+msgstr "``Godot.Vector2I``"
+
+msgid "``Rect2``"
+msgstr "``Rect2``"
+
+msgid "``Godot.Rect2``"
+msgstr "``Godot.Rect2``"
+
+msgid "``Rect2I``"
+msgstr "``Rect2I``"
+
+msgid "``Godot.Rect2I``"
+msgstr "``Godot.Rect2I``"
+
+msgid "``Vector3``"
+msgstr "``Vector3``"
+
+msgid "``Godot.Vector3``"
+msgstr "``Godot.Vector3``"
+
+msgid "``Vector3I``"
+msgstr "``Vector3I``"
+
+msgid "``Godot.Vector3I``"
+msgstr "``Godot.Vector3I``"
+
+msgid "``Transform2D``"
+msgstr "``Transform2D``"
+
+msgid "``Godot.Transform2D``"
+msgstr "``Godot.Transform2D``"
+
+msgid "``Vector4``"
+msgstr "``Vector4``"
+
+msgid "``Godot.Vector4``"
+msgstr "``Godot.Vector4``"
+
+msgid "``Vector4I``"
+msgstr "``Vector4I``"
+
+msgid "``Godot.Vector4I``"
+msgstr "``Godot.Vector4I``"
+
+msgid "``Plane``"
+msgstr "``Plane``"
+
 msgid "``Godot.Plane``"
 msgstr "``Godot.Plane``"
+
+msgid "``Quaternion``"
+msgstr "``Quaternion``"
+
+msgid "``Godot.Quaternion``"
+msgstr "``Godot.Quaternion``"
 
 msgid "``Aabb``"
 msgstr "``Aabb``"
 
 msgid "``Godot.Aabb``"
 msgstr "``Godot.Aabb``"
+
+msgid "``Basis``"
+msgstr "``Basis``"
 
 msgid "``Godot.Basis``"
 msgstr "``Godot.Basis``"
@@ -53,11 +137,56 @@ msgstr "``Transform3D``"
 msgid "``Godot.Transform3D``"
 msgstr "``Godot.Transform3D``"
 
+msgid "``Projection``"
+msgstr "``Projection``"
+
+msgid "``Godot.Projection``"
+msgstr "``Godot.Projection``"
+
+msgid "``Color``"
+msgstr "``Color``"
+
+msgid "``Godot.Color``"
+msgstr "``Godot.Color``"
+
+msgid "``StringName``"
+msgstr "``StringName``"
+
+msgid "``Godot.StringName``"
+msgstr "``Godot.StringName``"
+
+msgid "``NodePath``"
+msgstr "``NodePath``"
+
+msgid "``Godot.NodePath``"
+msgstr "``Godot.NodePath``"
+
+msgid "``Rid``"
+msgstr "``Rid``"
+
 msgid "``Godot.Rid``"
 msgstr "``Godot.Rid``"
 
+msgid "``Object``"
+msgstr "``Object``"
+
 msgid "``Godot.GodotObject`` or any derived type."
 msgstr "``Godot.GodotObject`` ou n'importe quel type dérivé."
+
+msgid "``Callable``"
+msgstr "``Callable``"
+
+msgid "``Godot.Callable``"
+msgstr "``Godot.Callable``"
+
+msgid "``Signal``"
+msgstr "``Signal``"
+
+msgid "``Godot.Signal``"
+msgstr "``Godot.Signal``"
+
+msgid "``Dictionary``"
+msgstr "``Dictionary``"
 
 msgid "``Godot.Collections.Dictionary``"
 msgstr "``Godot.Collections.Dictionary``"
@@ -83,6 +212,9 @@ msgstr "``int[]``"
 msgid "``PackedInt64Array``"
 msgstr "``PackedInt64Array``"
 
+msgid "``long[]``"
+msgstr "``long[]``"
+
 msgid "``PackedFloat32Array``"
 msgstr "``PackedFloat32Array``"
 
@@ -92,17 +224,38 @@ msgstr "``float[]``"
 msgid "``PackedFloat64Array``"
 msgstr "``PackedFloat64Array``"
 
+msgid "``double[]``"
+msgstr "``double[]``"
+
 msgid "``PackedStringArray``"
 msgstr "``PackedStringArray``"
+
+msgid "``string[]``"
+msgstr "``string[]``"
 
 msgid "``PackedVector2Array``"
 msgstr "``PackedVector2Array``"
 
+msgid "``Godot.Vector2[]``"
+msgstr "``Godot.Vector2[]``"
+
 msgid "``PackedVector3Array``"
 msgstr "``PackedVector3Array``"
 
+msgid "``Godot.Vector3[]``"
+msgstr "``Godot.Vector3[]``"
+
+msgid "``PackedVector4Array``"
+msgstr "``PackedVector4Array``"
+
+msgid "``Godot.Vector4[]``"
+msgstr "``Godot.Vector4[]``"
+
 msgid "``PackedColorArray``"
 msgstr "``PackedColorArray``"
+
+msgid "``Godot.Color[]``"
+msgstr "``Godot.Color[]``"
 
 msgid "Using Variant in a generic context"
 msgstr "Utiliser Variant dans un contexte générique"

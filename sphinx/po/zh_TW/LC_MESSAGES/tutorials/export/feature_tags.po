@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,13 +47,17 @@ msgstr "專案是在編輯器中執行還是以「獨立」二進位檔執行。
 msgid "Many more things."
 msgstr "許多其他功能。"
 
+msgid "Features can be queried at runtime from the singleton API by calling:"
+msgstr "可以在執行階段透過單例 API 查詢功能標籤："
+
 msgid ""
 "OS feature tags are used by GDExtension to determine which libraries to "
 "load. For example, a library for ``linux.debug.editor.x86_64`` will be "
 "loaded only on a debug editor build for Linux x86_64."
 msgstr ""
-"GDExtension 使用作業系統功能標籤來決定要載入的庫。例如，「linux.debug.editor."
-"x86_64」的程式庫將僅在 Linux x86_64 的偵錯編輯器版本上載入。"
+"GDExtension 使用作業系統功能標籤來決定要載入的庫。例如，"
+"「linux.debug.editor.x86_64」的程式庫將僅在 Linux x86_64 的偵錯編輯器版本上載"
+"入。"
 
 msgid "Default features"
 msgstr "預設功能"
@@ -68,7 +72,7 @@ msgid "**Feature tag**"
 msgstr "**功能標籤**"
 
 msgid "**Description**"
-msgstr "**描述**"
+msgstr "**說明**"
 
 msgid "**android**"
 msgstr "**android**"
@@ -110,7 +114,7 @@ msgid "**linuxbsd**"
 msgstr "**linuxbsd**"
 
 msgid "Running on Linux or \\*BSD"
-msgstr "在 iOS 上執行"
+msgstr "在 Linux 或 \\*BSD 上運作"
 
 msgid "**debug**"
 msgstr "**debug**"
@@ -140,13 +144,13 @@ msgid "**double**"
 msgstr "**double**"
 
 msgid "Running on a double-precision build"
-msgstr "在非編輯器建置中執行"
+msgstr "在雙精度版本建置上執行"
 
 msgid "**single**"
 msgstr "**single**"
 
 msgid "Running on a single-precision build"
-msgstr "在非編輯器建置中執行"
+msgstr "在單精度版本建置上執行"
 
 msgid "**64**"
 msgstr "**64**"
@@ -176,7 +180,7 @@ msgid "**x86**"
 msgstr "**x86**"
 
 msgid "Running on an x86 build (any bitness)"
-msgstr "在 64 位元建置上執行 (不限架構)"
+msgstr "在 x86 架構建置上執行（不限位元數）"
 
 msgid "**arm64**"
 msgstr "**arm64**"
@@ -194,55 +198,55 @@ msgid "**arm**"
 msgstr "**arm**"
 
 msgid "Running on an ARM build (any bitness)"
-msgstr "在 64 位元建置上執行 (不限架構)"
+msgstr "在 ARM 架構建置上執行（不限位元數）"
 
 msgid "**rv64**"
 msgstr "**rv64**"
 
 msgid "Running on a 64-bit RISC-V build"
-msgstr "在 64 位元 ARM 建置上執行"
+msgstr "在 64 位元 RISC-V 建置上執行"
 
 msgid "**riscv**"
 msgstr "**riscv**"
 
 msgid "Running on a RISC-V build (any bitness)"
-msgstr "在 64 位元建置上執行 (不限架構)"
+msgstr "在 RISC-V 架構建置上執行（不限位元數）"
 
 msgid "**ppc64**"
 msgstr "**ppc64**"
 
 msgid "Running on a 64-bit PowerPC build"
-msgstr "在 64 位元 x86 建置上執行"
+msgstr "在 64 位元 PowerPC 建置上執行"
 
 msgid "**ppc32**"
 msgstr "**ppc32**"
 
 msgid "Running on a 32-bit PowerPC build"
-msgstr "在 32 位元 x86 建置上執行"
+msgstr "在 32 位元 PowerPC 建置上執行"
 
 msgid "**ppc**"
 msgstr "**ppc**"
 
 msgid "Running on a PowerPC build (any bitness)"
-msgstr "在 64 位元建置上執行 (不限架構)"
+msgstr "在 PowerPC 架構建置上執行（不限位元數）"
 
 msgid "**wasm64**"
 msgstr "**wasm64**"
 
 msgid "Running on a 64-bit WebAssembly build (not yet possible)"
-msgstr "在 64 位元建置上執行 (不限架構)"
+msgstr "在 64 位元 WebAssembly 建置上執行（目前尚不支援）"
 
 msgid "**wasm32**"
 msgstr "**wasm32**"
 
 msgid "Running on a 32-bit WebAssembly build"
-msgstr "在 32 位元 ARM 建置上執行"
+msgstr "在 32 位元 WebAssembly 建置上執行"
 
 msgid "**wasm**"
 msgstr "**wasm**"
 
 msgid "Running on a WebAssembly build (any bitness)"
-msgstr "在 64 位元建置上執行 (不限架構)"
+msgstr "在 WebAssembly 架構建置上執行（不限位元數）"
 
 msgid "**mobile**"
 msgstr "**mobile**"
@@ -266,31 +270,31 @@ msgid "**web_android**"
 msgstr "**web_android**"
 
 msgid "Host OS is a Web browser running on Android"
-msgstr "主機作業系統為網頁瀏覽器"
+msgstr "主機作業系統為執行於 Android 的網頁瀏覽器"
 
 msgid "**web_ios**"
 msgstr "**web_ios**"
 
 msgid "Host OS is a Web browser running on iOS"
-msgstr "主機作業系統為網頁瀏覽器"
+msgstr "主機作業系統為執行於 iOS 的網頁瀏覽器"
 
 msgid "**web_linuxbsd**"
 msgstr "**web_linuxbsd**"
 
 msgid "Host OS is a Web browser running on Linux or \\*BSD"
-msgstr "主機作業系統為網頁瀏覽器"
+msgstr "主機作業系統為執行於 Linux 或 \\*BSD 的網頁瀏覽器"
 
 msgid "**web_macos**"
 msgstr "**web_macos**"
 
 msgid "Host OS is a Web browser running on macOS"
-msgstr "主機作業系統為網頁瀏覽器"
+msgstr "主機作業系統為執行於 macOS 的網頁瀏覽器"
 
 msgid "**web_windows**"
 msgstr "**web_windows**"
 
 msgid "Host OS is a Web browser running on Windows"
-msgstr "主機作業系統為網頁瀏覽器"
+msgstr "主機作業系統為執行於 Windows 的網頁瀏覽器"
 
 msgid "**etc**"
 msgstr "**etc**"
@@ -315,6 +319,25 @@ msgstr "**movie**"
 
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ":ref:`Movie Maker 模式 <doc_creating_movies>` 已啟用"
+
+msgid ""
+"With the exception of texture compression, ``web_<platform>`` and ``movie`` "
+"feature tags, default feature tags are **immutable**. This means that they "
+"will *not* change depending on runtime conditions. For example, "
+"``OS.has_feature(\"mobile\")`` will return ``false`` when running a project "
+"exported to Web on a mobile device."
+msgstr ""
+"除了紋理壓縮、``web_<platform>`` 以及 ``movie`` 這些功能標籤外，預設功能標籤"
+"皆為**不可變動**。這表示它們*不會*依據執行時條件而改變。例如，當專案被匯出到 "
+"Web 並在行動裝置上執行時，``OS.has_feature(\"mobile\")`` 會返回 ``false``。"
+
+msgid ""
+"To check whether a project exported to Web is running on a mobile device, "
+"use ``OS.has_feature(\"web_android\") or OS.has_feature(\"web_ios\")``."
+msgstr ""
+"要判斷匯出為 Web 的專案是否在行動裝置上執行，請使用 "
+"``OS.has_feature(\"web_android\") or OS.has_feature(\"web_ios\")`` 來進行檢"
+"查。"
 
 msgid "Custom features"
 msgstr "自定功能"
@@ -354,6 +377,20 @@ msgstr ""
 "在下列範例中，Demo 版的遊戲使用不同的圖示 (圖示在林一個匯出預設設定中自定，並"
 "只會包含 Demo 關卡)。"
 
+msgid "The Project Settings panel"
+msgstr "專案設定面板"
+
+msgid ""
+"The desired configuration is selected, which effectively copies its "
+"properties to the panel above (1). The \"demo_build\" feature tag is "
+"selected (2). The configuration is added to the project settings (3)."
+msgstr ""
+"所需的組態已選取，這實際上會將其屬性複製到上方的面板 (1)。「demo_build」功能"
+"標籤已選取 (2)。組態會被新增到專案設定 (3)。"
+
+msgid "After overriding, a new field is added for this specific configuration."
+msgstr "覆寫後，會針對該設定新增一個專用欄位。"
+
 msgid ""
 "When using the :ref:`project settings \"override.cfg\" functionality "
 "<class_ProjectSettings>` (which is unrelated to feature tags), remember that "
@@ -361,9 +398,9 @@ msgid ""
 "setting with the desired feature tag(s) if you want them to override base "
 "project settings on all platforms and configurations."
 msgstr ""
-"當使用:ref:`專案設定的“override.cfg”功能 <class_ProjectSettings>`時（與功能標"
-"籤無關），記住功能標籤仍然適用。因此，如果你想讓它們覆蓋所有平臺和配置上的基"
-"本專案設定，請確保*同時*用所需的功能標籤覆蓋設定。"
+"當使用 :ref:`專案設定的「override.cfg」功能 <class_ProjectSettings>` 時 (這與"
+"功能標記無關)，請記住功能標記仍然適用。因此，如果您希望它們在所有平台和配置上"
+"覆寫基礎專案設定，請務必也使用所需的功能標記來覆寫該設定。"
 
 msgid "Default overrides"
 msgstr "預設覆寫"

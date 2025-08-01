@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -15,22 +15,38 @@ msgid "gl_Position"
 msgstr "gl_Position"
 
 msgid "Variables"
-msgstr "변수(Variable)"
+msgstr "변수"
 
 msgid "Variable"
 msgstr "변수"
 
 msgid "Type"
-msgstr "타입"
+msgstr "유형"
 
 msgid "Description"
 msgstr "설명"
 
+msgid "For full screen quads. For smaller quads, use UV."
+msgstr ""
+"전체 화면 사변형에 대한 것입니다. 더 작은 사변형에 대해서는, UV를 사용하세요."
+
+msgid "Position of Vertex, output from Vertex Shader."
+msgstr "버텍스의 위치, 버텍스 셰이더에서 출력."
+
 msgid "float"
 msgstr "float"
 
+msgid "Size of Point primitive."
+msgstr "점 프리미티브의 크기."
+
+msgid "Position on point when drawing Point primitives."
+msgstr "점 프리미티브를 그릴 때 점의 위치."
+
 msgid "bool"
 msgstr "bool"
+
+msgid "True if front face of primitive."
+msgstr "프리미티브의 앞면이면 True입니다."
 
 msgid "Precision"
 msgstr "정밀도"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -18,14 +18,32 @@ msgid "Modules"
 msgstr "Modules"
 
 msgid ""
+"The Summator example in :ref:`doc_custom_modules_in_cpp` is great for small, "
+"custom modules, but what if you want to use a larger, external library? "
+"Let's look at an example using `Festival <https://www.cstr.ed.ac.uk/projects/"
+"festival/>`_, a speech synthesis (text-to-speech) library written in C++."
+msgstr ""
+"L'exemple Summator dans :ref:`doc_custom_modules_in_cpp` est bien pour les "
+"modules personnalisés de petite taille, mais si vous souhaitez utiliser une "
+"bibliothèque externe plus grande ? Regardons un exemple en utilisant "
+"`Festival <http://www.cstr.ed.ac.uk/projects/festival/>`_, une bibliothèque "
+"de synthétisation de parole (text-to-speech) écrite en C++."
+
+msgid ""
 "To bind to an external library, set up a module directory similar to the "
 "Summator example:"
 msgstr ""
 "Pour lier une bibliothèque externe, configurez un module similaire à "
 "l'exemple Summator :"
 
+msgid "godot/modules/tts/tts.h"
+msgstr "godot/modules/tts/tts.h"
+
 msgid "And then you'll add the cpp file."
 msgstr "Et puis vous ajouterez le fichier cpp."
+
+msgid "godot/modules/tts/tts.cpp"
+msgstr "godot/modules/tts/tts.cpp"
 
 msgid ""
 "Just as before, the new class needs to be registered somehow, so two more "
@@ -44,6 +62,15 @@ msgstr ""
 
 msgid "These files should contain the following:"
 msgstr "Ces fichiers doivent contenir les éléments suivants :"
+
+msgid "godot/modules/tts/register_types.h"
+msgstr "godot/modules/tts/register_types.h"
+
+msgid "godot/modules/tts/register_types.cpp"
+msgstr "godot/modules/tts/register_types.cpp"
+
+msgid "godot/modules/tts/SCsub"
+msgstr "godot/modules/tts/SCsub"
 
 msgid ""
 "You'll need to install the external library on your machine to get the .a "

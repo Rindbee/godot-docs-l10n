@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -73,3 +73,13 @@ msgstr "BPM"
 
 msgid "Best practices"
 msgstr "Boas práticas"
+
+msgid ""
+"Godot has an :ref:`extensive bus system <doc_audio_buses>` with built-in "
+"effects. This saves SFX artists the need to add reverb to the sound effects, "
+"reducing their size greatly and ensuring correct trimming."
+msgstr ""
+"O Godot tem um :ref:`sistema de barramentos extenso <doc_audio_buses>` com "
+"efeitos integrados. Isto evita aos artistas de SFX a necessidade de "
+"adicionar reverberação aos efeitos sonoros, reduzindo consideravelmente o "
+"tamanho e garantindo um ajuste correto."

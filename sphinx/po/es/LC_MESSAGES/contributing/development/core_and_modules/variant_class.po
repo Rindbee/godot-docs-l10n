@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,12 +20,29 @@ msgstr "Acerca de"
 msgid "A Variant can:"
 msgstr "Una variante puede:"
 
+msgid "Store almost any datatype."
+msgstr "Almacenar casi cualquier tipo de datos."
+
 msgid ""
 "Perform operations between many variants (GDScript uses Variant as its "
 "atomic/native datatype)."
 msgstr ""
 "Realiza operaciones entre muchas variantes (GDScript utiliza Variant como su "
 "tipo de dato atómico/nativo)."
+
+msgid "Be hashed, so it can be compared quickly to other variants."
+msgstr ""
+"Ser hasheado, de modo que pueda compararse rápidamente con otras variantes."
+
+msgid "Be used to convert safely between datatypes."
+msgstr "Es utilizado para convertir de forma segura entre tipos de datos."
+
+msgid ""
+"Be used to abstract calling methods and their arguments (Godot exports all "
+"its functions through variants)."
+msgstr ""
+"Es utilizado para abstraer métodos de llamada y sus argumentos (Godot "
+"exporta todas sus funciones a través de variantes)."
 
 msgid "Be used to defer calls or move data between threads."
 msgstr "Se usa para aplazar llamadas o mover datos entre hilos."

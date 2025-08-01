@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,76 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Rendering methods"
+msgstr "렌더링 메서드"
+
 msgid "Forward+"
 msgstr "Forward+"
 
 msgid "Mobile"
 msgstr "모바일"
+
+msgid "Rendering drivers"
+msgstr "렌더링 드라이버"
+
+msgid "Godot 4 supports the following graphics APIs:"
+msgstr "Godot 4는 다음의 그래픽 API를 지원합니다:"
+
+msgid "Summary of rendering drivers/methods"
+msgstr "렌더링 드라이버/메서드의 요약"
+
+msgid ""
+"The following rendering API + rendering method combinations are currently "
+"possible:"
+msgstr "현재 가능한 렌더링 API + 렌더링 메서드 조합은 다음과 같습니다:"
+
+msgid "Vulkan + Forward+ (optionally through MoltenVK on macOS and iOS)"
+msgstr "Vulkan + Forward+ (선택적으로 macOS 및 iOS에서 MoltenVK를 통해)"
+
+msgid "Vulkan + Mobile (optionally through MoltenVK on macOS and iOS)"
+msgstr "Vulkan + 모바일 (선택적으로 macOS 및 iOS에서 MoltenVK를 통해)"
+
+msgid "Direct3D 12 + Forward+"
+msgstr "Direct3D 12 + Forward+"
+
+msgid "Direct3D 12 + Mobile"
+msgstr "Direct3D 12 + 모바일"
+
+msgid "Metal + Forward+"
+msgstr "Metal + Forward+"
+
+msgid "Metal + Mobile"
+msgstr "Metal + 모바일"
+
+msgid "OpenGL + Compatibility (optionally through ANGLE on Windows and macOS)"
+msgstr "OpenGL + 호환성 (선택적으로 Windows 및 macOS에서 ANGLE을 통해)"
+
+msgid "Light, decal and reflection probe rendering"
+msgstr "조명, 데칼 및 반사 프로브 렌더링"
+
+msgid ""
+"Clustering is also used for reflection probes and decal rendering in the "
+"Forward+ renderer."
+msgstr ""
+"클러스터링은 Forward+ 렌더러에서 반사 프로브와 데칼 렌더링에도 사용됩니다."
+
+msgid "Sky rendering"
+msgstr "하늘 렌더링"
+
+msgid ":ref:`doc_sky_shader`"
+msgstr ":ref:`doc_sky_shader`"
+
+msgid "Occlusion culling"
+msgstr "오클루전 컬링"
+
+msgid "**Occlusion culling C++ code:**"
+msgstr "**오클루전 컬링 C++ 코드:**"
+
+msgid "Visibility range (LOD)"
+msgstr "가시성 범위 (LOD)"
+
+msgid "**Visibility range C++ code:**"
+msgstr "**가시성 범위 C++ 코드:**"
+
+msgid "Automatic mesh LOD"
+msgstr "자동 메시 LOD"

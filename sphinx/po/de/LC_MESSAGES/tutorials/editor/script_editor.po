@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,3 +16,12 @@ msgstr "Einführung"
 
 msgid "Usage"
 msgstr "Verwendung"
+
+msgid ""
+"An asterisk (*) next to an action means that this operation is also "
+"available in the context menu, which can be opened by right-clicking in the "
+"code editor."
+msgstr ""
+"Ein Sternchen (*) neben einer Aktion bedeutet, dass diese Operation auch im "
+"Kontextmenü verfügbar ist, das durch einen Rechtsklick im Code-Editor "
+"geöffnet werden kann."

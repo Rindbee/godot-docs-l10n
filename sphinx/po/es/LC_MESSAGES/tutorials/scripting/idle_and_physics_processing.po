@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -15,7 +15,7 @@ msgid "Idle and Physics Processing"
 msgstr "**Procesamiento en Reposo y Físico**"
 
 msgid "There are two types of processing available to you:"
-msgstr "Existen dos tipos de procesamiento disponibles para usted:"
+msgstr "Existen dos tipos de procesamiento disponibles para ti:"
 
 msgid ""
 "**Idle processing** allows you to run code that updates a node every frame, "

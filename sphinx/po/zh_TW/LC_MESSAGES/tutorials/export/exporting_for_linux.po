@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,7 +20,7 @@ msgid ""
 "read :ref:`doc_compiling_for_linuxbsd`."
 msgstr ""
 "這個頁面描述的是如何將 Godot 專案匯出到 Linux。如果你想要找的是從源碼編譯編輯"
-"器或匯出範本二進位檔案，請閱讀 :ref:`doc_compiling_for_x11`。"
+"器或匯出範本二進位檔案，請閱讀 :ref:`doc_compiling_for_linuxbsd` 。"
 
 msgid ""
 "The simplest way to distribute a game for PC is to copy the executable "
@@ -54,7 +54,7 @@ msgstr ""
 "在匯出選單中設定的值。"
 
 msgid "Linux export environment variables"
-msgstr "環境變數"
+msgstr "Linux 匯出環境變數"
 
 msgid "Export option"
 msgstr "匯出選項"
@@ -63,4 +63,10 @@ msgid "Environment variable"
 msgstr "環境變數"
 
 msgid "Encryption / Encryption Key"
-msgstr "加密/加密金鑰"
+msgstr "加密／加密金鑰"
+
+msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "Export options"
+msgstr "匯出選項"

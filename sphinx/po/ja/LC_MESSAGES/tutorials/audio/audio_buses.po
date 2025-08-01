@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -50,8 +50,8 @@ msgstr "それに不慣れな人のために、いくつかの事実で説明で
 
 msgid ""
 "The decibel (dB) scale is a relative scale. It represents the ratio of sound "
-"power by using 20 times the base 10 logarithm of the ratio (20 × log\\ :sub:"
-"`10`\\ (P/P\\ :sub:`0`\\ ))."
+"power by using 20 times the base 10 logarithm of the ratio (20 × "
+"log\\ :sub:`10`\\ (P/P\\ :sub:`0`\\ ))."
 msgstr ""
 "デシベル(dB)スケールは相対スケールです。これは、比率の常用対数に20を掛けて"
 "(20 × log\\ :sub:`10`\\ (P/P\\ :sub:`0`\\ ))、音響パワーの比を表します。"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,61 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Available in Clang and GCC."
+msgstr "Disponibile in Clang e GCC."
+
+msgid ""
+"`Clang ASAN documentation <https://clang.llvm.org/docs/"
+"AddressSanitizer.html>`__"
+msgstr ""
+"`Documentazione di Clang ASAN <https://clang.llvm.org/docs/"
+"AddressSanitizer.html>`__"
+
+msgid "**Supported platforms:** Linux, Web"
+msgstr "**Piattaforme supportate:** Linux, Web"
+
+msgid ""
+"`Clang LSAN documentation <https://clang.llvm.org/docs/LeakSanitizer.html>`__"
+msgstr ""
+"`Documentazione di Clang LSAN <https://clang.llvm.org/docs/"
+"LeakSanitizer.html>`__"
+
+msgid "**Supported platforms:** Linux"
+msgstr "**Piattaforme supportate:** Linux"
+
+msgid ""
+"`Clang MSAN documentation <https://clang.llvm.org/docs/"
+"MemorySanitizer.html>`__"
+msgstr ""
+"`Documentazione di Clang MSAN <https://clang.llvm.org/docs/"
+"MemorySanitizer.html>`__"
+
+msgid "**Supported platforms:** Linux, macOS"
+msgstr "**Piattaforme supportate:** Linux, macOS"
+
+msgid ""
+"`Clang TSAN documentation <https://clang.llvm.org/docs/"
+"ThreadSanitizer.html>`__"
+msgstr ""
+"`Documentazione di Clang TSAN <https://clang.llvm.org/docs/"
+"ThreadSanitizer.html>`__"
+
+msgid "``FATAL: ThreadSanitizer: unexpected memory mapping``"
+msgstr "``FATAL: ThreadSanitizer: unexpected memory mapping``"
+
+msgid "**Supported platforms:** Linux, macOS, Web"
+msgstr "**Piattaforme supportate:** Linux, macOS, Web"
+
+msgid ""
+"`Clang UBSAN documentation <https://clang.llvm.org/docs/"
+"UndefinedBehaviorSanitizer.html>`__"
+msgstr ""
+"`Documentazione di Clang UBSAN <https://clang.llvm.org/docs/"
+"UndefinedBehaviorSanitizer.html>`__"
+
+msgid "Platform-specific sanitizers"
+msgstr "Sanitizer specifici per piattaforma"
 
 msgid "Web"
 msgstr "Web"

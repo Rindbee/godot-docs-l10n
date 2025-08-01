@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,44 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Advantages of physical units"
+msgstr "Vantaggi di unità fisiche"
+
+msgid "Setting up physical light units"
+msgstr "Configurare le unità di illuminazione fisica"
+
+msgid "Enable the project setting."
+msgstr "Abilita l'impostazione del progetto."
+
+msgid "Configure the camera."
+msgstr "Configura la telecamera."
+
 msgid "Configure the environment."
 msgstr "Configurare l'ambiente."
 
+msgid "Configure Light3D nodes."
+msgstr "Configura i nodi Light3D."
+
+msgid "Enable the project setting"
+msgstr "Abilita l'impostazione del progetto"
+
+msgid "Configure the camera"
+msgstr "Configura la telecamera"
+
 msgid "Configure the environment"
 msgstr "Configurazione dell'ambiente"
+
+msgid "Configure the light nodes"
+msgstr "Configura i nodi di luce"
+
+msgid "**OmniLight3D/SpotLight3D intensity**"
+msgstr "**Intensità di OmniLight3D/SpotLight3D**"
+
+msgid "**DirectionalLight3D intensity**"
+msgstr "**Intensità di DirectionalLight3D**"
+
+msgid "**Color temperature**"
+msgstr "**Temperatura di colore**"
+
+msgid "Setting up physical camera units"
+msgstr "Configurare le unità di telecamera fisica"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,19 +13,6 @@ msgstr ""
 
 msgid "Unit testing"
 msgstr "单元测试"
-
-msgid ""
-"Godot Engine allows to write unit tests directly in C++. The engine "
-"integrates the `doctest <https://github.com/onqtam/doctest>`_ unit testing "
-"framework which gives ability to write test suites and test cases next to "
-"production code, but since the tests in Godot go through a different "
-"``main`` entry point, the tests reside in a dedicated ``tests/`` directory "
-"instead, which is located at the root of the engine source code."
-msgstr ""
-"Godot 引擎允许直接用 C++ 编写单元测试。引擎集成了 `doctest <https://github."
-"com/onqtam/doctest>`_ 单元测试框架，该框架允许在生产代码旁边编写测试套件和测"
-"试用例，但由于 Godot 中的测试通过不同的 ``main`` 入口点，因此测试在专用的 "
-"``tests/`` 目录中，该目录位于引擎源代码的根目录中。"
 
 msgid "Platform and target support"
 msgstr "平台及目标支持"
@@ -211,8 +198,8 @@ msgid ""
 "Godot supports writing tests per C++ module. For instructions on how to "
 "write module tests, refer to :ref:`doc_custom_module_unit_tests`."
 msgstr ""
-"Godot 支持为每个 C++ 模块编写测试。有关如何编写模块测试的说明，请参阅 :ref:"
-"`doc_custom_module_unit_tests`\\ 。"
+"Godot 支持为每个 C++ 模块编写测试。有关如何编写模块测试的说明，请参"
+"阅 :ref:`doc_custom_module_unit_tests`\\ 。"
 
 msgid "Assertions"
 msgstr "断言"
@@ -292,13 +279,6 @@ msgstr ""
 "对于能够自我说明的断言请尽量使用 ``CHECK``\\ ，如果你认为相对复杂的断言需要更"
 "好的解释再使用 ``CHECK_MESSAGE``\\ 。"
 
-msgid ""
-"`doctest: Assertion macros <https://github.com/onqtam/doctest/blob/master/"
-"doc/markdown/assertions.md>`_."
-msgstr ""
-"`doctest: 断言宏 <https://github.com/onqtam/doctest/blob/master/doc/markdown/"
-"assertions.md>`_\\ 。"
-
 msgid "Logging"
 msgstr "日志"
 
@@ -336,13 +316,6 @@ msgid ""
 "checks."
 msgstr "立即使测试失败。可以包含在条件语句中以进行复杂的检查。"
 
-msgid ""
-"`doctest: Logging macros <https://github.com/onqtam/doctest/blob/master/doc/"
-"markdown/logging.md>`_."
-msgstr ""
-"`doctest：日志宏 <https://github.com/onqtam/doctest/blob/master/doc/markdown/"
-"logging.md>`_\\ 。"
-
 msgid "Testing failure paths"
 msgstr "测试故障路径"
 
@@ -375,8 +348,47 @@ msgstr ""
 "为了缓解这个问题，请在测试用例中直接使用 ``ERR_PRINT_OFF`` 和 "
 "``ERR_PRINT_ON`` 宏来暂时禁用来自引擎的错误输出，例如："
 
+msgid "**Tag**"
+msgstr "**标签**"
+
+msgid "``[SceneTree]``"
+msgstr "``[SceneTree]``"
+
+msgid "``[Editor]``"
+msgstr "``[Editor]``"
+
+msgid "``[Audio]``"
+msgstr "``[Audio]``"
+
+msgid "``[Navigation]``"
+msgstr "``[Navigation]``"
+
+msgid "Testing signals"
+msgstr "测试信号"
+
+msgid "The following macros can be use to test signals:"
+msgstr "可以使用以下宏来测试信号："
+
+msgid "Macro"
+msgstr "宏"
+
 msgid "Description"
 msgstr "描述"
+
+msgid "``SIGNAL_WATCH(object, \"signal_name\")``"
+msgstr "``SIGNAL_WATCH(object, \"signal_name\")``"
+
+msgid "``SIGNAL_UNWATCH(object, \"signal_name\")``"
+msgstr "``SIGNAL_UNWATCH(object, \"signal_name\")``"
+
+msgid "``SIGNAL_CHECK(\"signal_name\", Vector<Vector<Variant>>)``"
+msgstr "``SIGNAL_CHECK(\"signal_name\", Vector<Vector<Variant>>)``"
+
+msgid "``SIGNAL_CHECK_FALSE(\"signal_name\")``"
+msgstr "``SIGNAL_CHECK_FALSE(\"signal_name\")``"
+
+msgid "``SIGNAL_DISCARD(\"signal_name\")``"
+msgstr "``SIGNAL_DISCARD(\"signal_name\")``"
 
 msgid "Test tools"
 msgstr "测试工具"
@@ -425,9 +437,9 @@ msgid ""
 "the help of OS :ref:`get_cmdline_args<class_OS_method_get_cmdline_args>` "
 "method."
 msgstr ""
-"自定义命令行解析可以在 OS 的 :ref:"
-"`get_cmdline_args<class_OS_method_get_cmdline_args>` 方法的帮助下由测试工具本"
-"身执行。"
+"自定义命令行解析可以在 OS "
+"的 :ref:`get_cmdline_args<class_OS_method_get_cmdline_args>` 方法的帮助下由测"
+"试工具本身执行。"
 
 msgid "Integration tests for GDScript"
 msgstr "GDScript 的集成测试"
@@ -520,8 +532,8 @@ msgid ""
 "currently working features."
 msgstr ""
 "GDScript 测试运行器用于测试 GDScript 实现，而不是用于测试用户脚本或测试引擎使"
-"用脚本。我们建议为已解决的 `GitHub 上与 GDScript 相关的问题 <https://github."
-"com/godotengine/godot/issues?"
+"用脚本。我们建议为已解决的 `GitHub 上与 GDScript 相关的问题 <https://"
+"github.com/godotengine/godot/issues?"
 "q=is%3Aissue+label%3Atopic%3Agdscript+is%3Aclosed>`_\\ 编写新测试，或为当前正"
 "在工作的功能编写测试。"
 

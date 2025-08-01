@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -15,7 +15,7 @@ msgid "Introduction"
 msgstr "소개"
 
 msgid "Type"
-msgstr "타입"
+msgstr "유형"
 
 msgid "Description"
 msgstr "설명"
@@ -24,7 +24,7 @@ msgid "Comments"
 msgstr "주석"
 
 msgid "Casting"
-msgstr "캐스팅(Casting)"
+msgstr "캐스트하기"
 
 msgid "Example:"
 msgstr "예시:"
@@ -50,11 +50,20 @@ msgstr "클래스"
 msgid "Operator"
 msgstr "연산자"
 
+msgid "1 (highest)"
+msgstr "1 (최고)"
+
+msgid "parenthetical grouping"
+msgstr "괄호 묶기"
+
 msgid "**()**"
 msgstr "**()**"
 
 msgid "2"
 msgstr "2"
+
+msgid "unary"
+msgstr "단항"
 
 msgid "**+, -, !, ~**"
 msgstr "**+, -, !, ~**"
@@ -62,11 +71,17 @@ msgstr "**+, -, !, ~**"
 msgid "3"
 msgstr "3"
 
+msgid "multiplicative"
+msgstr "곱나눗셈"
+
 msgid "**/, \\*, %**"
 msgstr "**/, \\*, %**"
 
 msgid "4"
 msgstr "4"
+
+msgid "additive"
+msgstr "덧뺄셈"
 
 msgid "**+, -**"
 msgstr "**+, -**"
@@ -74,11 +89,17 @@ msgstr "**+, -**"
 msgid "5"
 msgstr "5"
 
+msgid "bit-wise shift"
+msgstr "비트 단위 이동"
+
 msgid "**<<, >>**"
 msgstr "**<<, >>**"
 
 msgid "6"
 msgstr "6"
+
+msgid "relational"
+msgstr "부등호"
 
 msgid "**<, >, <=, >=**"
 msgstr "**<, >, <=, >=**"
@@ -86,20 +107,47 @@ msgstr "**<, >, <=, >=**"
 msgid "7"
 msgstr "7"
 
+msgid "equality"
+msgstr "등호"
+
 msgid "**==, !=**"
 msgstr "**==, !=**"
+
+msgid "bit-wise AND"
+msgstr "비트 단위 AND"
 
 msgid "**&**"
 msgstr "**&**"
 
+msgid "bit-wise exclusive OR"
+msgstr "비트 단위 제외 OR"
+
 msgid "**^**"
 msgstr "**^**"
+
+msgid "bit-wise inclusive OR"
+msgstr "비트 단위 포함 OR"
 
 msgid "**|**"
 msgstr "**|**"
 
+msgid "logical AND"
+msgstr "논리 AND"
+
 msgid "**&&**"
 msgstr "**&&**"
 
+msgid "12 (lowest)"
+msgstr "12 (최저)"
+
+msgid "logical inclusive OR"
+msgstr "논리 포함 OR"
+
+msgid "**||**"
+msgstr "**||**"
+
+msgid "Operation"
+msgstr "연산자"
+
 msgid "Functions"
-msgstr "함수(Function)"
+msgstr "함수"

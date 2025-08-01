@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -214,6 +214,13 @@ msgstr ""
 "** ஆரம்ப மதிப்பு ஒதுக்கீடு: ** சொத்து அதன் துவக்க மதிப்பு அல்லது ஒன்று "
 "குறிப்பிடப்படாவிட்டால் அதன் இயல்புநிலை மதிப்பு ஒதுக்கப்படுகிறது. ஒரு செட்டர் இருந்தால், "
 "அது பயன்படுத்தப்படாது."
+
+msgid ""
+"``_init()`` **assignment:** the property's value is replaced by any "
+"assignments made in ``_init()``, triggering the setter."
+msgstr ""
+"`` _init () `` ** ஒதுக்கீடு: ** சொத்தின் மதிப்பு `_init ()` `இல் செய்யப்பட்ட எந்தவொரு "
+"பணிகளாலும் மாற்றப்படுகிறது, இது செட்டரைத் தூண்டுகிறது."
 
 msgid ""
 "**Exported value assignment:** an exported property's value is again "

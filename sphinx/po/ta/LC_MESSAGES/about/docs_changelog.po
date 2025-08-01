@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,9 +16,9 @@ msgstr "ஆவணமாக்கல் சேஞ்ச்லாக்"
 
 msgid ""
 "The documentation is continually being improved. New releases include new "
-"pages, fixes and updates to existing pages, and many updates to the :ref:"
-"`class reference <doc_class_reference>`. Below is a list of new pages added "
-"since version 3.0."
+"pages, fixes and updates to existing pages, and many updates to "
+"the :ref:`class reference <doc_class_reference>`. Below is a list of new "
+"pages added since version 3.0."
 msgstr ""
 "ஆவணங்கள் தொடர்ந்து மேம்படுத்தப்பட்டு வருகின்றன. புதிய வெளியீடுகளில் புதிய பக்கங்கள், "
 "திருத்தங்கள் மற்றும் இருக்கும் பக்கங்களுக்கான புதுப்பிப்புகள் மற்றும் பல புதுப்பிப்புகள் "
@@ -32,44 +32,131 @@ msgstr ""
 "இந்த ஆவணத்தில் புதிய பக்கங்கள் மட்டுமே உள்ளன, எனவே எல்லா மாற்றங்களும் பிரதிபலிக்கவில்லை, "
 "பல பக்கங்கள் கணிசமாக புதுப்பிக்கப்பட்டுள்ளன, ஆனால் அவை இந்த ஆவணத்தில் பிரதிபலிக்கவில்லை."
 
+msgid "New pages since version 4.3"
+msgstr "பதிப்பு 4.3 முதல் புதிய பக்கங்கள்"
+
 msgid "2D"
 msgstr "மே"
+
+msgid ":ref:`doc_introduction_to_2d`"
+msgstr ": Ref: `doc_introduction_to_2d`"
 
 msgid "3D"
 msgstr "ZD"
 
+msgid ":ref:`doc_spring_arm`"
+msgstr ": குறிப்பு: `doc_spring_arm`"
+
 msgid "Debug"
 msgstr "பிழைத்திருத்தம்"
+
+msgid ":ref:`doc_output_panel`"
+msgstr ": குறிப்பு: `doc_output_panel`"
 
 msgid "Editor"
 msgstr "திருத்தி"
 
+msgid ":ref:`doc_using_the_xr_editor`"
+msgstr ": ref: `doc_using_the_xr_editor`"
+
 msgid "Performance"
 msgstr "செயல்திறன்"
+
+msgid ":ref:`doc_pipeline_compilations`"
+msgstr ": Ref: `doc_pipeline_compilations`"
 
 msgid "Physics"
 msgstr "இயற்பியல்"
 
+msgid ":ref:`doc_physics_interpolation`"
+msgstr ": குறிப்பு: `doc_physics_interpolation`"
+
+msgid ":ref:`doc_physics_interpolation_quick_start_guide`"
+msgstr ": Ref: `doc_physics_interpolation_quick_start_guide`"
+
+msgid ":ref:`doc_physics_interpolation_introduction`"
+msgstr ":ref:`doc_physics_interpolation_introduction`"
+
+msgid ":ref:`doc_using_physics_interpolation`"
+msgstr ": Ref: `doc_using_physics_interpolation`"
+
+msgid ":ref:`doc_advanced_physics_interpolation`"
+msgstr ": Ref: `doc_advanced_physics_interpolation`"
+
+msgid ":ref:`doc_2d_and_3d_physics_interpolation`"
+msgstr ": Ref: `doc_2d_and_3d_physics_interpolation`"
+
 msgid "Rendering"
 msgstr "வழங்குதல்"
+
+msgid ":ref:`doc_renderers`"
+msgstr ": Ref: `doc_renderers`"
 
 msgid "Shaders"
 msgstr "சேடர்ச்"
 
+msgid ":ref:`doc_shader_functions`"
+msgstr ": குறிப்பு: `doc_shader_functions`"
+
+msgid "New pages since version 4.2"
+msgstr "பதிப்பு 4.2 முதல் புதிய பக்கங்கள்"
+
 msgid "About"
 msgstr "பற்றி"
+
+msgid ":ref:`doc_system_requirements`"
+msgstr ": Ref: `doc_system_requirments`"
+
+msgid ":ref:`doc_2d_parallax`"
+msgstr ": Ref: `doc_2d_parallax`"
 
 msgid "Contributing"
 msgstr "பங்களிப்பு"
 
+msgid ":ref:`doc_handling_compatibility_breakages`"
+msgstr ": Ref: `doc_handling_compatibility_breakages`"
+
+msgid ":ref:`doc_ways_to_contribute`"
+msgstr ": குறிப்பு: `doc_ways_to_contribute`"
+
 msgid "GDExtension"
 msgstr "Gdextension"
+
+msgid ":ref:`doc_gdextension_file`"
+msgstr ": Ref: `doc_gdextension_file`"
+
+msgid ":ref:`doc_gdextension_docs_system`"
+msgstr ": Ref: `doc_gdextension_docs_system`"
 
 msgid "Migrating"
 msgstr "இடம்பெயர்வு"
 
+msgid ":ref:`doc_upgrading_to_godot_4.3`"
+msgstr ": ref: `doc_uprading_to_godot_4.3`"
+
+msgid ":ref:`doc_compositor`"
+msgstr ": Ref: `doc_compositor`"
+
 msgid "XR"
 msgstr "எக்ச்ஆர்"
+
+msgid ":ref:`doc_a_better_xr_start_script`"
+msgstr ": Ref: `Doc_a_better_xr_start_script`"
+
+msgid ":ref:`doc_openxr_passthrough`"
+msgstr ": குறிப்பு: `doc_openxr_passthrough`"
+
+msgid ":ref:`doc_xr_next_steps`"
+msgstr ": குறிப்பு: `doc_xr_next_steps`"
+
+msgid ":ref:`doc_openxr_settings`"
+msgstr ": குறிப்பு: `doc_openxr_settings`"
+
+msgid ":ref:`doc_openxr_composition_layers`"
+msgstr ": Ref: `doc_openxr_composition_layers`"
+
+msgid ":ref:`doc_openxr_body_tracking`"
+msgstr ": குறிப்பு: `doc_openxr_body_tracking`"
 
 msgid "New pages since version 4.1"
 msgstr "பதிப்பு 4.1 முதல் புதிய பக்கங்கள்"
@@ -348,11 +435,11 @@ msgid ":ref:`doc_what_is_gdextension`"
 msgstr ": ref: `doc_what_is_gdextension`"
 
 msgid ""
-":ref:`doc_gdscript_warning_system` (split from :ref:"
-"`doc_gdscript_static_typing`)"
+":ref:`doc_gdscript_warning_system` (split "
+"from :ref:`doc_gdscript_static_typing`)"
 msgstr ""
-":ref:`doc_gdscript_warning_system` (split இருந்து :ref:"
-"`doc_gdscript_static_typing`)"
+":ref:`doc_gdscript_warning_system` (split "
+"இருந்து :ref:`doc_gdscript_static_typing`)"
 
 msgid "User Interface (UI)"
 msgstr "பயனர் இடைமுகம் (UI)"

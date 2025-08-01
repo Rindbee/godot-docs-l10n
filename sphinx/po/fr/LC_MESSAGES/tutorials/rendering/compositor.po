@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,6 +13,23 @@ msgstr ""
 
 msgid "The Compositor"
 msgstr "Le compositeur"
+
+msgid "post_process_shader.gd"
+msgstr "shader_post_traitement.gd"
+
+msgid ""
+"For more information on how compute shaders work, please check :ref:`Using "
+"compute shaders <doc_compute_shaders>`."
+msgstr ""
+"Pour plus d'informations sur la façon sur le fonctionnement des shaders de "
+"calcul, veuillez lire :ref:`Utiliser les shaders de calcul "
+"<doc_compute_shaders>`."
+
+msgid "``#COMPUTE_CODE`` gets replaced by our user code."
+msgstr "``#COMPUTE_CODE`` devient remplacé par notre code utilisateur."
+
+msgid "Next we initialize our effect."
+msgstr "Ensuite nous initialisons notre effet."
 
 msgid ""
 "Now we loop through our views, this is in case we're using multiview "

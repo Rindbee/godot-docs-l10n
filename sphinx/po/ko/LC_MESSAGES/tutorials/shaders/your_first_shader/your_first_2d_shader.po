@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,8 +17,15 @@ msgstr "소개"
 msgid "Setup"
 msgstr "설정"
 
+msgid "Your first fragment function"
+msgstr "당신의 첫 프래그먼트 함수"
+
 msgid "Uniform input"
 msgstr "Uniform 입력"
+
+msgid "Now that we have a fragment function, let's write a vertex function."
+msgstr ""
+"이제 우리에게 프래그먼트 함수가 있으니 버텍스 함수를 작성해 보겠습니다."
 
 msgid "Conclusion"
 msgstr "결론"

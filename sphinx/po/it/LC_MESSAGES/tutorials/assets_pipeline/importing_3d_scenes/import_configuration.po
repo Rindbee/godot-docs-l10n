@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,6 +11,52 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Import configuration"
+msgstr "Configurazione di importazione"
+
+msgid "Import workflows"
+msgstr "Procedure di importazione"
+
+msgid "Using the Import dock"
+msgstr "Utilizzo del pannello di Importazione"
+
+msgid "**Meshes**"
+msgstr "**Mesh**"
+
+msgid "**Skins**"
+msgstr "**Skin**"
+
+msgid "**Animation**"
+msgstr "**Animation**"
+
+msgid "**Import Script**"
+msgstr "**Script di importazione**"
+
+msgid "**glTF**"
+msgstr "**glTF**"
+
+msgid "**FBX**"
+msgstr "**FBX**"
+
+msgid ""
+"Switch to the **Meshes** or **Materials** tab in the top-left corner of the "
+"dialog."
+msgstr ""
+"Passa alla scheda **Mesh** o **Materiali** nell'angolo in alto a sinistra "
+"della finestra di dialogo."
+
+msgid "The options are as follows:"
+msgstr "Le opzioni sono le seguenti:"
+
+msgid "Extracting materials to separate files"
+msgstr "Esportare i materiali su file separatati"
+
+msgid "Using animation libraries"
+msgstr "Utilizzo di librerie di animazione"
+
+msgid "Filter script"
+msgstr "Filtra script"
+
 msgid "Storage"
 msgstr "Memorizzazione"
 
@@ -19,3 +65,26 @@ msgstr "Ottimizzatore"
 
 msgid "Clips"
 msgstr "Clip"
+
+msgid "Scene inheritance"
+msgstr "Ereditarietà di scene"
+
+msgid "Dialog when opening an imported 3D scene in the editor"
+msgstr "Finestra di dialogo all'apertura di una scena 3D importata nell'editor"
+
+msgid ""
+"Nodes from the base scene can't be removed, but additional nodes can be "
+"added anywhere."
+msgstr ""
+"I nodi della scena base non possono essere rimossi, ma è possibile "
+"aggiungerne altri ovunque."
+
+msgid ""
+"Subresources can't be edited. Instead, you need to save them externally as "
+"described above."
+msgstr ""
+"Le sotto-risorse non possono essere modificate. È necessario salvarle "
+"esternamente come descritto in precedenza."
+
+msgid "Other than that, everything is allowed."
+msgstr "A parte questo, tutto è permesso."

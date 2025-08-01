@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Singletons (Autoload)"
+msgstr "Singleton (Autoload)"
+
 msgid "Introduction"
 msgstr "Introduzione"
+
+msgid "Autoload"
+msgstr "Autoload"
+
+msgid "Creating the script"
+msgstr "Creare lo script"
 
 msgid "and"
 msgstr "e"

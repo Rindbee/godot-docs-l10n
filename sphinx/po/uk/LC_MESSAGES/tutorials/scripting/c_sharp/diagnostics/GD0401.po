@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -42,7 +42,7 @@ msgid "Yes"
 msgstr "Да"
 
 msgid "Cause"
-msgstr "причина"
+msgstr "Причина"
 
 msgid ""
 "A type annotated with the ``[GlobalClass]`` attribute does not derive from "
@@ -60,7 +60,7 @@ msgid ""
 "ultimately derive from ``GodotObject`` so it can be marshalled."
 msgstr ""
 "``[GlobalClass]`` не впливає на типи, які не є похідними від "
-"``GodotObject``. Кожен :ref:`глобальний клас <doc_c_sharp_global_classes>` "
+"``GodotObject``. Кожен :ref:`global class <doc_c_sharp_global_classes>` "
 "повинен остаточно походити від ``GodotObject``, щоб його можна було "
 "сортувати."
 

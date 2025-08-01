@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -192,6 +192,13 @@ msgstr ""
 "memnew/memdelete utilise aussi un peu de lmagie du C++ pour notifier les "
 "Objets juste après leur création et juste avant leur destruction."
 
+msgid ""
+"`core/os/memory.h <https://github.com/godotengine/godot/blob/master/core/os/"
+"memory.h>`__"
+msgstr ""
+"`core/os/memory.h <https://github.com/godotengine/godot/blob/master/core/os/"
+"memory.h>`__"
+
 msgid "Containers"
 msgstr "Conteneurs"
 
@@ -313,6 +320,11 @@ msgid ""
 msgstr ""
 "Il existe plusieurs types de mathématiques linéaires disponibles dans le "
 "répertoire core/math."
+
+msgid ""
+"`core/math <https://github.com/godotengine/godot/tree/master/core/math>`__"
+msgstr ""
+"`core/math <https://github.com/godotengine/godot/tree/master/core/math>`__"
 
 msgid "NodePath"
 msgstr "NodePath"

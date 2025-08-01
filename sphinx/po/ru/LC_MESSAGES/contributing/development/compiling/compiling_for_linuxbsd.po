@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,12 +14,18 @@ msgstr ""
 msgid "Requirements"
 msgstr "Требования"
 
+msgid "Development libraries:"
+msgstr "Библиотеки разработки:"
+
 msgid ""
-"For a general overview of SCons usage for Godot, see :ref:"
-"`doc_introduction_to_the_buildsystem`."
+"For a general overview of SCons usage for Godot, "
+"see :ref:`doc_introduction_to_the_buildsystem`."
 msgstr ""
-"Для общего обзора использования SCons в Godot, смотрите :ref:"
-"`doc_introduction_to_the_buildsystem`."
+"Для общего обзора использования SCons в Godot, "
+"смотрите :ref:`doc_introduction_to_the_buildsystem`."
+
+msgid "Distro-specific one-liners"
+msgstr "Оne-liners, специфичные для дистрибутива"
 
 msgid "Compiling"
 msgstr "Компиляция"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "C# platform support"
+msgstr "Supporto C# per piattaforma"
+
+msgid ""
+"See :ref:`doc_system_requirements` for hardware and software version "
+"requirements for the Godot engine."
+msgstr ""
+"Consultare :ref:`doc_system_requirements` per i requisiti hardware e "
+"software del motore Godot."
+
+msgid "Android support is currently experimental."
+msgstr "Il supporto per Android è attualmente sperimentale."

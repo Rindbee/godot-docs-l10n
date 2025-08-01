@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -84,6 +84,9 @@ msgstr ""
 msgid "|image0|"
 msgstr "|image0|"
 
+msgid "image0"
+msgstr "image0"
+
 msgid ""
 "Also note that Godot offers many different types of objects called nodes, "
 "each with a specific purpose. Nodes are part of a tree and always inherit "
@@ -99,6 +102,9 @@ msgstr ""
 
 msgid "|image1|"
 msgstr "|image1|"
+
+msgid "image1"
+msgstr "image1"
 
 msgid "All-inclusive package"
 msgstr "Pakiet all-inclusive"
@@ -116,6 +122,9 @@ msgstr ""
 
 msgid "|image2|"
 msgstr "|image2|"
+
+msgid "image2"
+msgstr "image2"
 
 msgid ""
 "GDScript lets you write code using an indentation-based syntax, yet it "
@@ -141,28 +150,8 @@ msgstr ""
 "API rozszerzające funkcjonalność edytora za pomocą kodu gry. Zobacz `Edytor "
 "Godot jest również grą Godot`_ poniżej."
 
-msgid "|image4|"
-msgstr "|image4|"
-
-msgid ""
-"*A State Machine editor plugin in Godot 2 by kubecz3k. It lets you manage "
-"states and transitions visually.*"
-msgstr ""
-"*Dodatek do Godot'a 2 stworzony przez kubecz3k. Umożliwia wizualne "
-"zarządzanie stanami i przejściami*"
-
 msgid "Open source"
 msgstr "Otwartoźródłowy"
-
-msgid ""
-"Godot offers a fully open source codebase under the **MIT license**. This "
-"means all the technologies that ship with it have to be Free (as in freedom) "
-"as well. For the most part, they're developed from the ground up by "
-"contributors."
-msgstr ""
-"Godot oferuje w pełni otwartą bazę kodu źródłowego na licencji **MIT**. "
-"Oznacza to, że wszystkie technologie, które są z nią dostarczane muszą być "
-"również otwarte. W większości są one stworzone od podstaw przez deweloperów."
 
 msgid ""
 "Anyone can plug in proprietary tools for the needs of their projects — they "
@@ -219,9 +208,6 @@ msgstr ""
 "ładować na bieżąco kod i sceny podczas testowania projektów lub uruchamiać "
 "kod gry w edytorze. Oznacza to, że możesz **używać tego samego kodu** i scen "
 "dla swoich gier, lub **budować wtyczki i rozszerzać możliwości edytora.**"
-
-msgid "|image5|"
-msgstr "|image5|"
 
 msgid "Separate 2D and 3D engines"
 msgstr "Osobny silnik 2D i 3D"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,3 +13,14 @@ msgstr ""
 
 msgid "Setup"
 msgstr "Organización"
+
+msgid ""
+"While the Mobile Vulkan renderer has many optimizations targeted at mobile "
+"devices, we're still working out the kinks. It is highly advisable to use "
+"the compatibility renderer (OpenGL) for the time being when targeting "
+"Android based XR devices."
+msgstr ""
+"Si bien el renderizador Mobile Vulkan cuenta con numerosas optimizaciones "
+"para dispositivos móviles, aún estamos perfeccionando los detalles. Por el "
+"momento, se recomienda usar el renderizador Compatibilidad (OpenGL) para "
+"dispositivos XR basados en Android."

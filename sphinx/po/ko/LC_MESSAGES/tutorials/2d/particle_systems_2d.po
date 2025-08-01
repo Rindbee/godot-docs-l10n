@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "2D particle systems"
+msgstr "2D 입자 시스템"
+
 msgid "Intro"
 msgstr "소개"
+
+msgid "Particle nodes"
+msgstr "입자 노드"
+
+msgid "ParticleProcessMaterial"
+msgstr "ParticleProcessMaterial"
 
 msgid "Texture"
 msgstr "텍스처"
@@ -31,6 +40,18 @@ msgstr "원샷"
 
 msgid "Preprocess"
 msgstr "전처리"
+
+msgid ""
+"Particle systems begin with zero particles emitted, then start emitting. "
+"This can be an inconvenience when loading a scene and systems like a torch, "
+"mist, etc. begin emitting the moment you enter. Preprocess is used to let "
+"the system process a given number of seconds before it is actually drawn the "
+"first time."
+msgstr ""
+"입자 시스템은 0개의 입자를 방출된 채로 시작해서 방출합니다. 이 방식은 씬을 불"
+"러오고 당신이 들어온 순간부터 방출하기 시작하는 횃불, 안개 등과 같은 시스템"
+"은 불편할 수 있습니다. 사전프로세스는 시스템이 실제로 처음 그려지기 전에 주어"
+"진 시간(초)를 처리하도록 하는데 사용됩니다."
 
 msgid "Speed Scale"
 msgstr "속도 배수"
@@ -61,3 +82,6 @@ msgstr "로컬 좌표"
 
 msgid "Draw Order"
 msgstr "그리기 순서"
+
+msgid "Particle Process Material Settings"
+msgstr "입자 프로세스 머티리얼 설정"

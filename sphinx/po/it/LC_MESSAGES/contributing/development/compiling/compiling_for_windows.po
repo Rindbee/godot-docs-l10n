@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,11 +14,78 @@ msgstr ""
 msgid "Requirements"
 msgstr "Requisiti"
 
+msgid "A C++ compiler. Use one of the following:"
+msgstr "Un compilatore per C++. Usa uno dei seguenti:"
+
+msgid ""
+"To get the Godot source code for compiling, see :ref:`doc_getting_source`."
+msgstr ""
+"Per ottenere il codice sorgente di Godot per la compilazione, "
+"consultare :ref:`doc_getting_source`."
+
+msgid ""
+"For a general overview of SCons usage for Godot, "
+"see :ref:`doc_introduction_to_the_buildsystem`."
+msgstr ""
+"Per una panoramica generale sull'utilizzo di SCons per Godot, "
+"consultare :ref:`doc_introduction_to_the_buildsystem`."
+
+msgid ""
+"To install SCons, open the command prompt and run the following command::"
+msgstr ""
+"Per installare SCons, aprire il prompt dei comandi ed eseguire il seguente "
+"comando::"
+
+msgid "Refer to :ref:`doc_getting_source` for detailed instructions."
+msgstr "Consultare :ref:`doc_getting_source` per istruzioni dettagliate."
+
+msgid ""
+"To prevent slowdowns caused by continuous virus scanning during compilation, "
+"add the Godot source folder to the list of exceptions in your antivirus "
+"software."
+msgstr ""
+"Per evitare rallentamenti causati dalla continua scansione di virus durante "
+"la compilazione, aggiungere la cartella sorgente di Godot alla lista di "
+"eccezioni del proprio software antivirus."
+
 msgid "Compiling"
 msgstr "Compilazione"
 
 msgid "Selecting a compiler"
 msgstr "Selezionare un compilatore"
+
+msgid "Running SCons"
+msgstr "Eseguire SCons"
+
+msgid ""
+"Clone the `godot-nir-static <https://github.com/godotengine/godot-nir-"
+"static>`_ directory and navigate to it."
+msgstr ""
+"Clonare la cartella `godot-nir-static <https://github.com/godotengine/godot-"
+"nir-static>`_ e accedervi."
+
+msgid "Run the following::"
+msgstr "Eseguire il seguente::"
+
+msgid "Compiling with ANGLE support"
+msgstr "Compilare con supporto ANGLE"
+
+msgid ""
+"Clone the `godot-angle-static <https://github.com/godotengine/godot-angle-"
+"static>`_ directory and navigate to it."
+msgstr ""
+"Clonare la cartella `godot-angle-static <https://github.com/godotengine/"
+"godot-angle-static>`_ e accedervi."
+
+msgid "Run the following command::"
+msgstr "Eseguire il seguente comando::"
+
+msgid "Development in Visual Studio"
+msgstr "Sviluppo in Visual Studio"
+
+msgid "See :ref:`doc_configuring_an_ide_vs` for further details."
+msgstr ""
+"Consultare :ref:`doc_configuring_an_ide_vs` per istruzioni dettagliate."
 
 msgid "**Arch Linux**"
 msgstr "**Arch Linux**"
@@ -37,3 +104,6 @@ msgstr "**Mageia**"
 
 msgid "Troubleshooting"
 msgstr "Risoluzione dei problemi"
+
+msgid "And for 32-bit::"
+msgstr "E per 32 bit::"

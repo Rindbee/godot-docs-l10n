@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,8 +17,17 @@ msgstr "Pannello di debug"
 msgid "Errors"
 msgstr "Errori"
 
+msgid "Evaluator"
+msgstr "Valutatore"
+
+msgid "Consider the following script:"
+msgstr "Considera lo script seguente:"
+
 msgid "Profiler"
 msgstr "Profilatore"
+
+msgid "Visual Profiler"
+msgstr "Profiler visuale"
 
 msgid "Network Profiler"
 msgstr "Profiler di Rete"

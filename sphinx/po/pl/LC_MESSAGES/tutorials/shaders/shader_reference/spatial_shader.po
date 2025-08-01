@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,8 +17,92 @@ msgstr "Tryb renderowania"
 msgid "Description"
 msgstr "Opis"
 
+msgid "**blend_mix**"
+msgstr "**blend_mix**"
+
+msgid "**blend_add**"
+msgstr "**blend_add**"
+
+msgid "**blend_sub**"
+msgstr "**blend_sub**"
+
+msgid "**blend_mul**"
+msgstr "**blend_mul**"
+
+msgid "**blend_premul_alpha**"
+msgstr "**blend_premul_alpha**"
+
+msgid "**depth_draw_opaque**"
+msgstr "**depth_draw_opaque**"
+
+msgid "**depth_draw_always**"
+msgstr "**depth_draw_always**"
+
+msgid "**depth_draw_never**"
+msgstr "**depth_draw_never**"
+
+msgid "**cull_back**"
+msgstr "**cull_back**"
+
+msgid "**cull_front**"
+msgstr "**cull_front**"
+
+msgid "**cull_disabled**"
+msgstr "**cull_disabled**"
+
+msgid "**unshaded**"
+msgstr "**unshaded**"
+
+msgid "**diffuse_burley**"
+msgstr "**diffuse_burley**"
+
+msgid "**diffuse_lambert**"
+msgstr "**diffuse_lambert**"
+
+msgid "**diffuse_lambert_wrap**"
+msgstr "**diffuse_lambert_wrap**"
+
+msgid "**diffuse_toon**"
+msgstr "**diffuse_toon**"
+
+msgid "**specular_schlick_ggx**"
+msgstr "**specular_schlick_ggx**"
+
+msgid "**specular_toon**"
+msgstr "**specular_toon**"
+
+msgid "**specular_disabled**"
+msgstr "**specular_disabled**"
+
+msgid "**skip_vertex_transform**"
+msgstr "**skip_vertex_transform**"
+
+msgid "**world_vertex_coords**"
+msgstr "**world_vertex_coords**"
+
+msgid "**ensure_correct_normals**"
+msgstr "**ensure_correct_normals**"
+
+msgid "**shadows_disabled**"
+msgstr "**shadows_disabled**"
+
+msgid "**ambient_light_disabled**"
+msgstr "**ambient_light_disabled**"
+
+msgid "**shadow_to_opacity**"
+msgstr "**shadow_to_opacity**"
+
+msgid "**vertex_lighting**"
+msgstr "**vertex_lighting**"
+
+msgid "Built-ins"
+msgstr "Wbudowane"
+
 msgid "Built-in"
 msgstr "Wbudowany"
 
 msgid "**z**: Animation frame."
 msgstr "**z**: Klatki animacji."
+
+msgid "Roughness."
+msgstr "Chropowatość."

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,20 +14,44 @@ msgstr ""
 msgid "**Shorthand**"
 msgstr "**Sténographie**"
 
+msgid "**Examples**"
+msgstr "**Exemples**"
+
+msgid "``--test-suite``"
+msgstr "``--test-suite``"
+
 msgid "``-ts``"
 msgstr "``-ts``"
 
 msgid "``-ts=\"*[GDScript]*\"``"
 msgstr "``-ts=\"*[GDScript]*\"``"
 
+msgid "``--test-case``"
+msgstr "``--test-case``"
+
 msgid "``-tc``"
 msgstr "``-tc``"
+
+msgid "``-tc=\"*[String]*\"``"
+msgstr "``-tc=\"*[String]*\"``"
+
+msgid "``--source-file``"
+msgstr "``--source-file``"
 
 msgid "``-sf``"
 msgstr "``-sf``"
 
 msgid "``-sf=\"*test_color*\"``"
 msgstr "``-sf=\"*test_color*\"``"
+
+msgid "Subcases"
+msgstr "Sous-cas"
+
+msgid "Assertions"
+msgstr "Assertions"
+
+msgid "**Assertion**"
+msgstr "**Assertion**"
 
 msgid "**Description**"
 msgstr "**Description**"
@@ -50,12 +74,8 @@ msgstr "``WARN``"
 msgid "``WARN_FALSE``"
 msgstr "``WARN_FALSE``"
 
-msgid ""
-"`doctest: Assertion macros <https://github.com/onqtam/doctest/blob/master/"
-"doc/markdown/assertions.md>`_."
-msgstr ""
-"`doctest : insertion de macros <https://github.com/onqtam/doctest/blob/"
-"master/doc/markdown/assertions.md>`_."
+msgid "**Macro**"
+msgstr "**Macro**"
 
 msgid "``MESSAGE``"
 msgstr "``MESSAGE``"
@@ -69,15 +89,48 @@ msgstr "``FAIL_CHECK``"
 msgid "``FAIL``"
 msgstr "``FAIL``"
 
+msgid "**Tag**"
+msgstr "**Tag**"
+
+msgid "``[SceneTree]``"
+msgstr "``[SceneTree]``"
+
+msgid "``[Editor]``"
+msgstr "``[Editor]``"
+
+msgid "``[Audio]``"
+msgstr "``[Audio]``"
+
+msgid "``[Navigation]``"
+msgstr "``[Navigation]``"
+
 msgid ""
-"`doctest: Logging macros <https://github.com/onqtam/doctest/blob/master/doc/"
-"markdown/logging.md>`_."
+"Creates the default 2D/3D navigation servers and makes them available for "
+"testing."
 msgstr ""
-"`doctest : macros de connexion <https://github.com/onqtam/doctest/blob/"
-"master/doc/markdown/logging.md>`_."
+"Crée les serveurs de navigation 2D/3D par défaut et les rend disponibles "
+"pour les tests."
+
+msgid "Macro"
+msgstr "Macro"
 
 msgid "Description"
 msgstr "Description"
+
+msgid "``SIGNAL_WATCH(object, \"signal_name\")``"
+msgstr "``SIGNAL_WATCH(objet, \"nom_du_signal\")``"
+
+msgid "``SIGNAL_UNWATCH(object, \"signal_name\")``"
+msgstr "``SIGNAL_UNWATCH(objet, \"nom_du_signal\")``"
+
+msgid "``SIGNAL_CHECK(\"signal_name\", Vector<Vector<Variant>>)``"
+msgstr "``SIGNAL_CHECK(\"nom_du_signal\", Vector<Vector<Variant>>)``"
+
+msgid "``SIGNAL_CHECK_FALSE(\"signal_name\")``"
+msgstr "``SIGNAL_CHECK_FALSE(\"nom_du_signal\")``"
+
+msgid "``SIGNAL_DISCARD(\"signal_name\")``"
+msgstr "``SIGNAL_DISCARD(\"nom_du_signal\")``"
 
 msgid "tests for expected errors;"
 msgstr "Tests pour les erreurs attendues ;"

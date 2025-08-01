@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -535,5 +535,64 @@ msgstr "按 ``:kbd:`Space``` 并按住鼠标左键在2D编辑器中平移."
 msgid "Press ``:kbd:`Shift + Up Arrow``` to move the node upwards by 8 pixels."
 msgstr "按 ``:kbd:`Shift+Up Arrow``` 可将节点向上移动8像素."
 
+msgid "Manual style guidelines"
+msgstr "手册风格规范"
+
+msgid "``text``"
+msgstr "``text``"
+
+msgid "``*text*``"
+msgstr "``*text*``"
+
+msgid "``**text**``"
+msgstr "``**text**``"
+
+msgid "``Code``"
+msgstr "``Code``"
+
+msgid "`` text ``"
+msgstr "`` text ``"
+
+msgid "``\"text\"``"
+msgstr "``\"text\"``"
+
 msgid "Literals"
 msgstr "字面量"
+
+msgid "Classes, properties, and methods"
+msgstr "类、属性、方法"
+
+msgid "In **Project > Project Settings > Input Map**, add a new input action."
+msgstr "在\\ **项目 > 项目设置 > 按键映射**\\ 中添加一个新的输入动作。"
+
+msgid "Select **Scene > Export As... > MeshLibrary...**."
+msgstr "选择\\ **场景 > 导出为.. > MeshLibrary...**\\ 。"
+
+msgid "Select **Scene > Export As > MeshLibrary**."
+msgstr "选择\\ **场景 > 导出为 > MeshLibrary...**\\ 。"
+
+msgid "Project settings"
+msgstr "项目设置"
+
+msgid ""
+"Link to individual project settings. Either include the section and "
+"subsection in the link itself, or include the section and subsection "
+"separately from the link. Since long links are not split into multiple lines "
+"when the page is rendered, prefer splitting the setting name and the section "
+"when the link is long."
+msgstr ""
+"链接到单独的项目设置。可以在链接中包含章节和子章节，也可以将章节和子章节与链"
+"接分开。由于长链接在页面渲染时不会分成多行，因此当链接较长时，建议将设置名称"
+"与章节分开。"
+
+msgid "**Best:** Lines are wrapped to under 80 characters:"
+msgstr "**最佳实践：** 每行代码不超过 80 个字符："
+
+msgid "Section header syntax"
+msgstr "章节标题语法"
+
+msgid "Use the following syntax for section headers:"
+msgstr "章节标题使用以下语法："
+
+msgid "When to refer to a specific Godot version"
+msgstr "何时指定特定的 Godot 版本"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -30,7 +30,7 @@ msgid ""
 "<doc_contributing_workflow>`, especially if you're new to using Git or "
 "GitHub."
 msgstr ""
-"Обов’язково також ознайомтеся з :ref:`вказівками щодо робочого процесу "
+"Обов’язково також ознайомтеся з :ref:`workflow guidelines "
 "<doc_contributing_workflow>`, особливо якщо ви новачок у використанні Git "
 "або GitHub."
 

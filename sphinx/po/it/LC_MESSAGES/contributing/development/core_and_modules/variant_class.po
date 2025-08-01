@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,254 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Variant class"
+msgstr "Classe Variant"
+
 msgid "About"
 msgstr "Informazioni su Godot"
+
+msgid ""
+"Variant is the most important datatype in Godot. A Variant takes up only 24 "
+"bytes on 64-bit platforms (20 bytes on 32-bit platforms) and can store "
+"almost any engine datatype inside of it. Variants are rarely used to hold "
+"information for long periods of time, instead they are used mainly for "
+"communication, editing, serialization and generally moving data around."
+msgstr ""
+"Variant è il tipo di dati più importante in Godot. Un Variant occupa solo 24 "
+"byte sulle piattaforme a 64 bit (20 byte sulle piattaforme a 32 bit) e può "
+"contenere quasi tutti i tipi di dati del motore al suo interno. I Variant "
+"sono raramente utilizzati per conservare informazioni per lunghi periodi di "
+"tempo, ma sono utilizzati principalmente per la comunicazione, la modifica, "
+"la serializzazione e, in generale, lo spostamento dei dati."
+
+msgid "A Variant can:"
+msgstr "Un Variant può:"
+
+msgid "Store almost any datatype."
+msgstr "Memorizzare quasi qualunque tipo di dati."
+
+msgid ""
+"Perform operations between many variants (GDScript uses Variant as its "
+"atomic/native datatype)."
+msgstr ""
+"Eseguire operazioni tra molte varianti (GDScript utilizza Variant come tipo "
+"di dati atomico/nativo)."
+
+msgid "Be used to convert safely between datatypes."
+msgstr ""
+"Essere utilizzato per convertire in modo sicuro tra diversi tipi di dati."
+
+msgid "Be used to defer calls or move data between threads."
+msgstr ""
+"Essere utilizzato per rimandare le chiamate o spostare dati tra thread."
+
+msgid "Be serialized as binary and stored to disk, or transferred via network."
+msgstr ""
+"Essere serializzato come binario e memorizzato su disco, oppure trasferito "
+"tramite rete."
+
+msgid ""
+"Be serialized to text and use it for printing values and editable settings."
+msgstr ""
+"Essere serializzato in testo e utilizzato per stampare valori e impostazioni "
+"modificabili."
+
+msgid "Work as an exported property, so the editor can edit it universally."
+msgstr ""
+"Funzionare come una proprietà esportata, affinché l'editor possa modificarla "
+"universalmente."
+
+msgid "Be used for dictionaries, arrays, parsers, etc."
+msgstr "Essere utilizzata per dizionari, array, parser, ecc."
+
+msgid ""
+"All types within Variant except Nil and Object **cannot** be ``null`` and "
+"must always store a valid value. These types within Variant are therefore "
+"called *non-nullable* types."
+msgstr ""
+"Tutti i tipi in Variant, ad eccezione di Nil e Object, **non possono** "
+"essere ``null`` e devono sempre memorizzare un valore valido. Questi tipi in "
+"Variant sono quindi chiamati tipi *non-nullable*."
+
+msgid ""
+"One of the Variant types is *Nil* which can only store the value ``null``. "
+"Therefore, it is possible for a Variant to contain the value ``null``, even "
+"though all Variant types excluding Nil and Object are non-nullable."
+msgstr ""
+"Uno dei tipi Variant è *Nil*, che può memorizzare solo il valore ``null``. "
+"Pertanto, è possibile che un Variant contenga il valore ``null``, sebbene "
+"tutti i tipi Variant, ad eccezione di Nil e Object, non siano nullabili."
+
+msgid "References"
+msgstr "Riferimenti"
+
+msgid ""
+"`core/variant/variant.h <https://github.com/godotengine/godot/blob/master/"
+"core/variant/variant.h>`__"
+msgstr ""
+"`core/variant/variant.h <https://github.com/godotengine/godot/blob/master/"
+"core/variant/variant.h>`__"
+
+msgid "List of variant types"
+msgstr "Elenco dei tipi variant"
+
+msgid "These types are available in Variant:"
+msgstr "In Variant sono disponibili i seguenti tipi:"
 
 msgid "Type"
 msgstr "Tipo"
 
 msgid "Notes"
 msgstr "Note"
+
+msgid "Nil (can only store ``null``)"
+msgstr "Nil (può memorizzare solo ``null``)"
+
+msgid "Nullable type"
+msgstr "Tipo nullable"
+
+msgid ":ref:`class_bool`"
+msgstr ":ref:`class_bool`"
+
+msgid ":ref:`class_int`"
+msgstr ":ref:`class_int`"
+
+msgid ":ref:`class_float`"
+msgstr ":ref:`class_float`"
+
+msgid ":ref:`class_string`"
+msgstr ":ref:`class_string`"
+
+msgid ":ref:`class_vector2`"
+msgstr ":ref:`class_vector2`"
+
+msgid ":ref:`class_vector2i`"
+msgstr ":ref:`class_vector2i`"
+
+msgid ":ref:`class_rect2`"
+msgstr ":ref:`class_rect2`"
+
+msgid "2D counterpart of AABB"
+msgstr "Controparte 2D di AABB"
+
+msgid ":ref:`class_rect2i`"
+msgstr ":ref:`class_rect2i`"
+
+msgid ":ref:`class_vector3`"
+msgstr ":ref:`class_vector3`"
+
+msgid ":ref:`class_vector3i`"
+msgstr ":ref:`class_vector3i`"
+
+msgid ":ref:`class_transform2d`"
+msgstr ":ref:`class_transform2d`"
+
+msgid ":ref:`class_vector4`"
+msgstr ":ref:`class_vector4`"
+
+msgid ":ref:`class_vector4i`"
+msgstr ":ref:`class_vector4i`"
+
+msgid ":ref:`class_plane`"
+msgstr ":ref:`class_plane`"
+
+msgid ":ref:`class_quaternion`"
+msgstr ":ref:`class_quaternion`"
+
+msgid ":ref:`class_aabb`"
+msgstr ":ref:`class_aabb`"
+
+msgid "3D counterpart of Rect2"
+msgstr "Controparte 3D di Rect2"
+
+msgid ":ref:`class_basis`"
+msgstr ":ref:`class_basis`"
+
+msgid ":ref:`class_transform3d`"
+msgstr ":ref:`class_transform3d`"
+
+msgid ":ref:`class_projection`"
+msgstr ":ref:`class_projection`"
+
+msgid ":ref:`class_color`"
+msgstr ":ref:`class_color`"
+
+msgid ":ref:`class_stringname`"
+msgstr ":ref:`class_stringname`"
+
+msgid ":ref:`class_nodepath`"
+msgstr ":ref:`class_nodepath`"
+
+msgid ":ref:`class_rid`"
+msgstr ":ref:`class_rid`"
+
+msgid ":ref:`class_object`"
+msgstr ":ref:`class_object`"
+
+msgid ":ref:`class_callable`"
+msgstr ":ref:`class_callable`"
+
+msgid ":ref:`class_signal`"
+msgstr ":ref:`class_signal`"
+
+msgid ":ref:`class_dictionary`"
+msgstr ":ref:`class_dictionary`"
+
+msgid ":ref:`class_array`"
+msgstr ":ref:`class_array`"
+
+msgid ":ref:`class_packedbytearray`"
+msgstr ":ref:`class_packedbytearray`"
+
+msgid ":ref:`class_packedint32array`"
+msgstr ":ref:`class_packedint32array`"
+
+msgid ":ref:`class_packedint64array`"
+msgstr ":ref:`class_packedint64array`"
+
+msgid ":ref:`class_packedfloat32array`"
+msgstr ":ref:`class_packedfloat32array`"
+
+msgid ":ref:`class_packedfloat64array`"
+msgstr ":ref:`class_packedfloat64array`"
+
+msgid ":ref:`class_packedstringarray`"
+msgstr ":ref:`class_packedstringarray`"
+
+msgid ":ref:`class_packedvector2array`"
+msgstr ":ref:`class_packedvector2array`"
+
+msgid ":ref:`class_packedvector3array`"
+msgstr ":ref:`class_packedvector3array`"
+
+msgid ":ref:`class_packedcolorarray`"
+msgstr ":ref:`class_packedcolorarray`"
+
+msgid ":ref:`class_packedvector4array`"
+msgstr ":ref:`class_packedvector4array`"
+
+msgid "Containers: Array and Dictionary"
+msgstr "Contenitori: Array e Dictionary"
+
+msgid ""
+"Modifications to a container will modify all references to it. A Mutex "
+"should be created to lock it if :ref:`multi-threaded access "
+"<doc_using_multiple_threads>` is desired."
+msgstr ""
+"Le modifiche a un contenitore modificheranno tutti i riferimenti ad esso. È "
+"necessario creare un Mutex per bloccarlo se si desidera un :ref:`accesso su "
+"più thread <doc_using_multiple_threads>`."
+
+msgid ""
+"`core/variant/dictionary.h <https://github.com/godotengine/godot/blob/master/"
+"core/variant/dictionary.h>`__"
+msgstr ""
+"`core/variant/dictionary.h <https://github.com/godotengine/godot/blob/master/"
+"core/variant/dictionary.h>`__"
+
+msgid ""
+"`core/variant/array.h <https://github.com/godotengine/godot/blob/master/core/"
+"variant/array.h>`__"
+msgstr ""
+"`core/variant/array.h <https://github.com/godotengine/godot/blob/master/core/"
+"variant/array.h>`__"

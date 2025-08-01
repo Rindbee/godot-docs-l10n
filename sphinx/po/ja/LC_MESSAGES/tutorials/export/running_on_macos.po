@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,39 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"By default, macOS will run only applications that are signed and notarized."
+msgstr ""
+"デフォルトでは、macOSは署名かつ公証されたアプリケーションのみを実行します。"
+
+msgid "App is signed, notarized and distributed via App Store"
+msgstr "App Storeで配布された署名かつ公証されたアプリ"
+
+msgid "App is signed, notarized and distributed outside App Store"
+msgstr "App Store外で配布された署名かつ公証されたアプリ"
+
+msgid ""
+"If you see the following warning dialog, your Mac is set up to allow apps "
+"only from the App Store."
+msgstr ""
+"以下の警告ダイアログが表示された場合、お使いのMacはApp Storeからのアプリのみ"
+"を許可するように設定されています。"
+
+msgid "App is signed (including ad-hoc signatures) but not notarized"
+msgstr "署名はされているが（アドホック署名を含む）、公証されていないアプリ"
+
+msgid "Enter your password if you're prompted."
+msgstr "プロンプトが表示されたら、パスワードを入力してください。"
+
+msgid "App is built using official export templates, but it is not signed."
+msgstr ""
+"公式のエクスポートテンプレートを使って作られているが、署名はされていないアプ"
+"リ"
+
+msgid ""
+"Install ``Xcode`` for the App Store, start it and confirm command line tools "
+"installation."
+msgstr ""
+"App Storeの``Xcode``をインストールし、起動して、コマンドラインツールのインス"
+"トールを確認する。"

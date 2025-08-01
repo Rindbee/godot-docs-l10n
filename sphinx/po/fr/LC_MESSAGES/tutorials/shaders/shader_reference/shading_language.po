@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -31,10 +31,10 @@ msgid ""
 "Guide<doc_converting_glsl_to_godot_shaders>` is a resource that will help "
 "you transition from regular GLSL to Godot's shading language."
 msgstr ""
-"Si vous êtes déjà familier avec GLSL, le :ref:`Godot Shader Migration "
-"Guide<doc_migrating_to_godot_shader_language>` est une ressource qui vous "
-"aidera à faire la transition entre GLSL normal et le langage de shading de "
-"Godot."
+"Si vous êtes déjà familier avec le GLSL, le :ref:`guide de migration de "
+"shader Godot <doc_converting_glsl_to_godot_shaders>` est une ressource qui "
+"vous aidera à faire la transition entre le GLSL normal et le langage de "
+"shading de Godot."
 
 msgid "Data types"
 msgstr "types"
@@ -242,6 +242,17 @@ msgstr ""
 msgid "**samplerCube**"
 msgstr "**samplerCube**"
 
+msgid "Sampler type for binding Cubemaps, which are read as float."
+msgstr ""
+"Type d'échantillonneur pour lier des Cubemaps, qui sont lus comme des "
+"flottants."
+
+msgid "**samplerCubeArray**"
+msgstr "**samplerCubeArray**"
+
+msgid "**samplerExternalOES**"
+msgstr "**samplerExternalOES**"
+
 msgid "Comments"
 msgstr "Commentaires"
 
@@ -287,6 +298,25 @@ msgstr "Construction"
 
 msgid "Construction of vector types must always pass:"
 msgstr "La construction de vecteurs doit toujours passer :"
+
+msgid ""
+"Matrices can also be built from a matrix of another dimension. There are two "
+"rules:"
+msgstr ""
+"Les matrices peuvent aussi être construites depuis une matrice d'une autre "
+"dimension. Il y a deux règles :"
+
+msgid ""
+"1. If a larger matrix is constructed from a smaller matrix, the additional "
+"rows and columns are set to the values they would have in an identity "
+"matrix. 2. If a smaller matrix is constructed from a larger matrix, the top, "
+"left submatrix of the larger matrix is used."
+msgstr ""
+"1. Si une matrice plus grande est construite à partir d'une matrice plus "
+"petite, les lignes et colonnes supplémentaires prennent les valeurs qu'elles "
+"auraient dans une matrice identité. 2. Si une matrice plus petite est "
+"construite à partir d'une matrice plus grande, la sous-matrice supérieure "
+"gauche de la matrice plus grande est utilisée."
 
 msgid "Swizzling"
 msgstr "Mélange"
@@ -342,6 +372,11 @@ msgstr ""
 msgid "Arrays"
 msgstr "Les tableaux"
 
+msgid "Arrays are containers for multiple variables of a similar type."
+msgstr ""
+"Les tableaux sont des conteneurs pour plusieurs variables d'un type "
+"similaire."
+
 msgid "Local arrays"
 msgstr "Tableaux locaux"
 
@@ -377,6 +412,24 @@ msgstr ""
 "Les tableaux ont aussi une fonction intégrée ``.length()`` (à ne pas "
 "confondre avec la fonction intégrée ``length()``). Il n'accepte aucun "
 "paramètre et retourne la taille du tableau."
+
+msgid ""
+"If you use an index either below 0 or greater than array size - the shader "
+"will crash and break rendering. To prevent this, use ``length()``, ``if``, "
+"or ``clamp()`` functions to ensure the index is between 0 and the array's "
+"length. Always carefully test and check your code. If you pass a constant "
+"expression or a number, the editor will check its bounds to prevent this "
+"crash."
+msgstr ""
+"Si vous utilisez un indice inférieur à 0 ou supérieur à la taille du tableau "
+"- le shader va planter et casser le rendu. Pour éviter cela, utilisez les "
+"fonctions ``length()``, ``if``, ou ``clamp()`` pour vous assurer que l'index "
+"est compris entre 0 et la longueur du tableau. Testez et vérifiez toujours "
+"soigneusement votre code. Si vous passez une expression constante ou un "
+"simple nombre, l'éditeur vérifiera ses limites pour éviter ce plantage."
+
+msgid "Global arrays"
+msgstr "Tableaux globaux"
 
 msgid "Constants"
 msgstr "Constantes"
@@ -421,6 +474,53 @@ msgstr ""
 "votre shader qui n'a pas besoin d'être modifiée. Comme les uniformes, les "
 "constantes globales sont partagées entre tous les étages de shaders, mais "
 "elles ne sont pas accessibles en dehors du shader."
+
+msgid ""
+"Constants of the ``float`` type must be initialized using ``.`` notation "
+"after the decimal part or by using the scientific notation. The optional "
+"``f`` post-suffix is also supported."
+msgstr ""
+"Les constantes du type ``float`` doivent être initialisées en utilisant la "
+"notation ``.`` après la partie décimale ou en utilisant la notation "
+"scientifique. Le post-suffix ``f`` optionnel est également supporté."
+
+msgid ""
+"Constants of the ``uint`` (unsigned int) type must have a ``u`` suffix to "
+"differentiate them from signed integers. Alternatively, this can be done by "
+"using the ``uint(x)`` built-in conversion function."
+msgstr ""
+"Les constantes du type ``uint`` (entier non signé) doivent avoir un suffixe "
+"``u`` pour les différencier des entiers signés. Sinon, cela peut être fait "
+"en utilisant la fonction de conversion intégrée ``uint(x)``."
+
+msgid "Structs"
+msgstr "Structs"
+
+msgid ""
+"Structs are compound types which can be used for better abstraction of "
+"shader code. You can declare them at the global scope like:"
+msgstr ""
+"Les structures sont des types composés qui peuvent être utilisés pour une "
+"meilleure abstraction du code du shader. Vous pouvez les déclarer à la "
+"portée globale comme ceci :"
+
+msgid "After declaration, you can instantiate and initialize them like:"
+msgstr ""
+"Après la déclaration, vous pouvez les instancier et les initialiser comme "
+"ceci :"
+
+msgid "Or use struct constructor for same purpose:"
+msgstr "Ou utiliser le constructeur de struct à la même fin :"
+
+msgid ""
+"Structs may contain other struct or array, you can also instance them as "
+"global constant:"
+msgstr ""
+"Les structures peuvent contenir d'autres structures ou tableaux, vous pouvez "
+"également les considérer comme une constante globale :"
+
+msgid "You can also pass them to functions:"
+msgstr "Vous pouvez aussi les passer à des fonctions :"
 
 msgid "Operators"
 msgstr "Opérateurs"
@@ -550,6 +650,30 @@ msgstr "OU inclusif logique"
 msgid "**||**"
 msgstr "**||**"
 
+msgid "Operation"
+msgstr "Opération"
+
+msgid "Equivalent Scalar Operation"
+msgstr "Opération scalaire équivalente"
+
+msgid "``vec3(4, 5, 6) + 2``"
+msgstr "``vec3(4, 5, 6) + 2``"
+
+msgid "``vec3(4 + 2, 5 + 2, 6 + 2)``"
+msgstr "``vec3(4 + 2, 5 + 2, 6 + 2)``"
+
+msgid "``vec2(3, 4) * vec2(10, 20)``"
+msgstr "``vec2(3, 4) * vec2(10, 20)``"
+
+msgid "``vec2(3 * 10, 4 * 20)``"
+msgstr "``vec2(3 * 10, 4 * 20)``"
+
+msgid "``mat2(vec2(1, 2), vec2(3, 4)) + 10``"
+msgstr "``mat2(vec2(1, 2), vec2(3, 4)) + 10``"
+
+msgid "``mat2(vec2(1 + 10, 2 + 10), vec2(3 + 10, 4 + 10))``"
+msgstr "``mat2(vec2(1 + 10, 2 + 10), vec2(3 + 10, 4 + 10))``"
+
 msgid "Flow control"
 msgstr "Contrôle de flux"
 
@@ -558,8 +682,43 @@ msgstr ""
 "Le langage de Shading de Godot prend en charge les types de contrôle de flux "
 "les plus courants :"
 
+msgid ""
+"Keep in mind that in modern GPUs, an infinite loop can exist and can freeze "
+"your application (including editor). Godot can't protect you from this, so "
+"be careful not to make this mistake!"
+msgstr ""
+"Gardez à l'esprit que, dans les GPU modernes, une boucle infinie peut "
+"exister et peut geler votre application (y compris l'éditeur). Godot ne peut "
+"pas vous protéger de ça, alors faites attention à ne pas faire cette erreur !"
+
+msgid ""
+"Also, when comparing floating-point values against a number, make sure to "
+"compare them against a *range* instead of an exact number."
+msgstr ""
+"De plus, en comparant les valeurs flottantes par rapport à un nombre, "
+"assurez-vous de les comparer à une *plage* au lieu d'un nombre exact."
+
+msgid ""
+"A comparison like ``if (value == 0.3)`` may not evaluate to ``true``. "
+"Floating-point math is often approximate and can defy expectations. It can "
+"also behave differently depending on the hardware."
+msgstr ""
+"Une comparaison comme ``if (valeur == 0,3)`` peut ne pas être évaluée à "
+"``true``. Les mathématiques des flottants sont souvent approximatifs et "
+"peuvent défier les attentes. Ils peuvent également se comporter différemment "
+"selon le matériel."
+
 msgid "**Don't** do this."
 msgstr "**Ne faites pas** ceci."
+
+msgid ""
+"Instead, always perform a range comparison with an epsilon value. The larger "
+"the floating-point number (and the less precise the floating-point number), "
+"the larger the epsilon value should be."
+msgstr ""
+"Au lieu de cela, effectuez toujours une comparaison de plage avec une valeur "
+"epsilon. Plus large est le nombre à virgule flottante (et moins précis est "
+"le nombre à virgule flottante), plus la valeur d’epsilon devrait être grande."
 
 msgid ""
 "See `floating-point-gui.de <https://floating-point-gui.de/>`__ for more "
@@ -675,6 +834,15 @@ msgstr ""
 msgid "Uniforms"
 msgstr "Uniforms"
 
+msgid ""
+"You can set uniforms in the editor in the material's inspector. Alternately, "
+"you can set them :ref:`from code "
+"<doc_shading_language_setting_uniforms_from_code>`."
+msgstr ""
+"Vous pouvez mettre des uniforms dans l'éditeur dans l'inspecteur du "
+"matériau. Sinon, vous pouvez les définir :ref:`depuis le code "
+"<doc_shading_language_setting_uniforms_from_code>`."
+
 msgid "Uniforms can also be assigned default values:"
 msgstr ""
 "Des valeurs par défaut peuvent également être attribuées aux uniforms :"
@@ -682,11 +850,17 @@ msgstr ""
 msgid "Hint"
 msgstr "Suggestion"
 
+msgid "**vec3, vec4**"
+msgstr "**vec3, vec4**"
+
 msgid "source_color"
 msgstr "source_color"
 
 msgid "Used as color."
 msgstr "Utilisé comme couleur."
+
+msgid "hint_enum(\"String1\", \"String2\")"
+msgstr "hint_enum(\"Chaîne1\", \"Chaîne2\")"
 
 msgid "**int, float**"
 msgstr "**int, float**"
@@ -703,8 +877,17 @@ msgstr "hint_normal"
 msgid "Used as normalmap."
 msgstr "Utilisé comme une NormalMap."
 
+msgid "hint_default_white"
+msgstr "hint_default_white"
+
+msgid "hint_default_black"
+msgstr "hint_default_black"
+
 msgid "hint_default_transparent"
 msgstr "hint_default_transparent"
+
+msgid "hint_anisotropy"
+msgstr "hint_anisotropy"
 
 msgid "As flowmap, default to right."
 msgstr "Comme flowmap, par défaut à droite."
@@ -727,11 +910,23 @@ msgstr "hint_screen_texture"
 msgid "Texture is the screen texture."
 msgstr "La texture est la texture de l'écran."
 
+msgid "hint_depth_texture"
+msgstr "hint_depth_texture"
+
 msgid "Texture is the depth texture."
 msgstr "La texture est la texture de profondeur."
 
 msgid "hint_normal_roughness_texture"
 msgstr "hint_normal_roughness_texture"
+
+msgid "Using ``hint_enum``"
+msgstr "Utiliser ``hint_enum``"
+
+msgid "Using ``source_color``"
+msgstr "Utiliser ``source_color``"
+
+msgid "Per-instance uniforms"
+msgstr "Uniforms par instance"
 
 msgid ""
 "GDScript uses different variable types than GLSL does, so when passing "
@@ -752,8 +947,20 @@ msgstr "Type GDScript"
 msgid "Notes"
 msgstr "Notes"
 
+msgid "**Vector2i**"
+msgstr "**Vector2i**"
+
+msgid "**Vector3i**"
+msgstr "**Vector3i**"
+
+msgid "**Vector4i**"
+msgstr "**Vector4i**"
+
 msgid "**Vector2**"
 msgstr "**Vector2**"
+
+msgid "**Vector3**, **Color**"
+msgstr "**Vector3**, **Color**"
 
 msgid "**Vector4**, **Color**, **Rect2**, **Plane**, **Quaternion**"
 msgstr "**Vector4**, **Color**, **Rect2**, **Plane**, **Quaternion**"
@@ -766,6 +973,24 @@ msgstr "**Basis**"
 
 msgid "**Projection**, **Transform3D**"
 msgstr "**Projection**, **Transform3D**"
+
+msgid "**Texture2D**"
+msgstr "**Texture2D**"
+
+msgid "**Texture2DArray**"
+msgstr "**Texture2DArray**"
+
+msgid "**Texture3D**"
+msgstr "**Texture3D**"
+
+msgid "**Cubemap**"
+msgstr "**Cubemap**"
+
+msgid "**CubemapArray**"
+msgstr "**CubemapArray**"
+
+msgid "**ExternalTexture**"
+msgstr "**ExternalTexture**"
 
 msgid "Built-in variables"
 msgstr "Variables intégrées"
@@ -787,3 +1012,12 @@ msgstr ":ref:`Shaders de brouillard <doc_fog_shader>`"
 
 msgid "Built-in functions"
 msgstr "Fonctions intégrées"
+
+msgid ""
+"A large number of built-in functions are supported, conforming to GLSL ES "
+"3.0. See the :ref:`Built-in functions <doc_shader_functions>` page for "
+"details."
+msgstr ""
+"Un grand nombre de fonctions intégrées sont prises en charge, conformément à "
+"GLSL ES 3.0. Voir la page :ref:`Fonctions intégrées <doc_shader_functions>` "
+"pour plus de détails."

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,21 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "The XR action map"
+msgstr "La mappa di azioni XR"
+
+msgid "The default action map"
+msgstr "La mappa di azioni predefinita"
+
+msgid "Action sets"
+msgstr "Insiemi di azioni"
+
+msgid "The columns in our table are as follows:"
+msgstr "Le colonne della nostra tabella sono le seguenti:"
+
+msgid "Col"
+msgstr "Colonna"
 
 msgid "Value"
 msgstr "Valore"
@@ -20,6 +35,9 @@ msgstr "Descrizione"
 msgid "1"
 msgstr "1"
 
+msgid "my_first_action_set"
+msgstr "my_first_action_set"
+
 msgid "2"
 msgstr "2"
 
@@ -28,3 +46,71 @@ msgstr "3"
 
 msgid "0"
 msgstr "0"
+
+msgid "Actions"
+msgstr "Azioni"
+
+msgid "Pose"
+msgstr "Posa"
+
+msgid "The type of this action."
+msgstr "Il tipo di questa azione."
+
+msgid "The actions we have added are:"
+msgstr "Le azioni che abbiamo aggiunto sono:"
+
+msgid "grab, which detects that the user wants to hold something."
+msgstr "grab, che rileva quando l'utente vuole impugnare qualcosa."
+
+msgid ""
+"shoot, which detects that the user wants to fire the weapon they are holding."
+msgstr "shoot, che rileva che l'utente vuole sparare con l'arma che impugna."
+
+msgid "haptic, which allows us to output haptic feedback."
+msgstr "haptic, che ci consente di trasmettere un feedback tattile."
+
+msgid ""
+"For buttons like A/B/X/Y and similar where there is no analogue option, the "
+"``Bool`` type works fine."
+msgstr ""
+"Per pulsanti come A/B/X/Y e simili in cui non è disponibile un'opzione "
+"analogica, il tipo ``Bool`` funziona bene."
+
+msgid ""
+"For ``Bool`` inputs, this will perform an ``OR`` operation between the "
+"buttons."
+msgstr ""
+"Per gli input ``Bool``, sarà effettuata un'operazione ``OR`` tra i pulsanti."
+
+msgid "Profiles"
+msgstr "Profili"
+
+msgid "Let's finish our configuration:"
+msgstr "Finiamo la nostra configurazione:"
+
+msgid "The simple controller"
+msgstr "Il semplice controller"
+
+msgid "Binding Modifiers"
+msgstr "Modificatori di associazioni"
+
+msgid "Binding modifiers on an interaction profile"
+msgstr "Modificatori di associazioni su un profilo di interazione"
+
+msgid "Dpad Binding modifier"
+msgstr "Modificatore dell'associazione del d-pad"
+
+msgid "These settings are used as follows:"
+msgstr "Queste impostazioni sono utilizzate come segue:"
+
+msgid "Analog threshold modifier"
+msgstr "Modificatore di soglia analogica"
+
+msgid "The analog threshold modifier has the following settings:"
+msgstr "Il modificatore di soglia analogica ha le seguenti impostazioni:"
+
+msgid "These are defined as follows:"
+msgstr "Queste sono definite come segue:"
+
+msgid "It has the following options:"
+msgstr "Ha le seguenti opzioni:"

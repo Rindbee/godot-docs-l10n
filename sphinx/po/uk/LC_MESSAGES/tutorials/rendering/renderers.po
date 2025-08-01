@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,8 +11,278 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Renderers"
+msgstr "Рендерери"
+
+msgid ""
+"This page gives an overview of Godot's renderers, focusing on the "
+"differences between their rendering features. For more technical details on "
+"the renderers, see :ref:`doc_internal_rendering_architecture`."
+msgstr ""
+"На цій сторінці наведено огляд засобів візуалізації Godot, зосереджуючись на "
+"відмінностях між їхніми функціями візуалізації. Щоб отримати додаткові "
+"технічні відомості про рендерери, "
+"перегляньте :ref:`doc_internal_rendering_architecture`."
+
 msgid "Introduction"
 msgstr "Вступ"
+
+msgid "Godot 4 includes three renderers:"
+msgstr "Godot 4 містить три рендерери:"
+
+msgid ""
+"**Forward+**. The most advanced renderer, suited for desktop platforms only. "
+"Used by default on desktop platforms. This renderer uses **Vulkan**, "
+"**Direct3D 12**, or **Metal** as the rendering driver, and it uses the "
+"**RenderingDevice** backend."
+msgstr ""
+"**Вперед+**. Найдосконаліший рендерер, який підходить лише для настільних "
+"платформ. Використовується за умовчанням на настільних платформах. Цей засіб "
+"візуалізації використовує **Vulkan**, **Direct3D 12** або **Metal** як "
+"драйвер візуалізації, а також використовує серверну частину "
+"**RenderingDevice**."
+
+msgid ""
+"**Mobile**. Fewer features, but renders simple scenes faster. Suited for "
+"mobile and desktop platforms. Used by default on mobile platforms. This "
+"renderer uses **Vulkan**, **Direct3D 12**, or **Metal** as the rendering "
+"driver, and it uses the **RenderingDevice** backend."
+msgstr ""
+"**Мобільний**. Менше функцій, але швидше рендерить прості сцени. Підходить "
+"для мобільних і настільних платформ. Використовується за умовчанням на "
+"мобільних платформах. Цей засіб візуалізації використовує **Vulkan**, "
+"**Direct3D 12** або **Metal** як драйвер візуалізації, а також використовує "
+"серверну частину **RenderingDevice**."
+
+msgid ""
+"**Compatibility**, sometimes called **GL Compatibility**. The least advanced "
+"renderer, suited for low-end desktop and mobile platforms. Used by default "
+"on the web platform. This renderer uses **OpenGL** as the rendering driver."
+msgstr ""
+"**Сумісність**, яку іноді називають **GL Compatibility**. Найменш просунутий "
+"рендерер, підходить для недорогих настільних і мобільних платформ. "
+"Використовується за умовчанням на веб-платформі. Цей рендерер використовує "
+"**OpenGL** як драйвер візуалізації."
+
+msgid "Renderers, rendering drivers, and RenderingDevice"
+msgstr "Рендеринги, драйвери візуалізації та RenderingDevice"
+
+msgid ""
+"Diagram of rendering layers. The Compatibility renderer runs on the OpenGL\n"
+"driver. The Forward+ and Mobile renderers run on RenderingDevice, which can "
+"use\n"
+"Vulkan, Direct3D 12, or Metal as a rendering driver."
+msgstr ""
+"Схема шарів візуалізації. Рендерер сумісності працює на OpenGL \n"
+"водій. Рендерери Forward+ і Mobile працюють на RenderingDevice, який може "
+"використовувати \n"
+"Vulkan, Direct3D 12 або Metal як драйвер візуалізації."
+
+msgid "Godot's rendering abstraction layers."
+msgstr "Відтворення шарів абстракції Godot."
+
+msgid ""
+"The *renderer*, or *rendering method*, determines which features are "
+"available. Most of the time, this is the only thing you need to think about. "
+"Godot's renderers are **Forward+**, **Mobile**, and **Compatibility**."
+msgstr ""
+"*Рендеринг*, або *метод візуалізації*, визначає, які функції доступні. У "
+"більшості випадків це єдине, про що вам потрібно думати. Рендерерами Godot є "
+"**Forward+**, **Mobile** і **Compatibility**."
+
+msgid ""
+"The *rendering driver* tells the GPU what to do, using a graphics API. Godot "
+"can use the **OpenGL**, **Vulkan**, **Direct3D 12**, and **Metal** rendering "
+"drivers. Not every GPU supports every rendering driver, and therefore not "
+"every GPU supports all renderers. Vulkan, Direct3D 12, and Metal are modern, "
+"low-level graphics APIs, and requires newer hardware. OpenGL is an older "
+"graphics API that runs on most hardware."
+msgstr ""
+"*Драйвер візуалізації* повідомляє графічному процесору, що робити, "
+"використовуючи графічний API. Godot може використовувати драйвери "
+"візуалізації **OpenGL**, **Vulkan**, **Direct3D 12** і **Metal**. Не кожен "
+"графічний процесор підтримує всі драйвери візуалізації, а тому не кожен "
+"графічний процесор підтримує всі рендерери. Vulkan, Direct3D 12 і Metal — це "
+"сучасні низькорівневі графічні API, які потребують новішого апаратного "
+"забезпечення. OpenGL — це старіший графічний API, який працює на більшості "
+"апаратних засобів."
+
+msgid ""
+"RenderingDevice is a *rendering backend*, an abstraction layer between the "
+"renderer and the rendering driver. It is used by the Forward+ and Mobile "
+"renderers, and these renderers are sometimes called \"RenderingDevice-based "
+"renderers\"."
+msgstr ""
+"RenderingDevice — це *сервер рендерингу*, рівень абстракції між рендерером і "
+"драйвером рендерингу. Він використовується засобами візуалізації Forward+ і "
+"Mobile, і ці засоби обробки іноді називають «системами обробки на основі "
+"RenderingDevice»."
+
+msgid "Choosing a renderer"
+msgstr "Вибір рендерера"
+
+msgid ""
+"Choosing a renderer is a complex question, and depends on your hardware and "
+"the which platforms you are developing for. As a starting point:"
+msgstr ""
+"Вибір рендерера є складним питанням і залежить від вашого апаратного "
+"забезпечення та платформ, для яких ви розробляєте. Як відправна точка:"
+
+msgid "Choose **Forward+** if:"
+msgstr "Виберіть **Вперед+**, якщо:"
+
+msgid "You are developing for desktop."
+msgstr "Ви розробляєте для комп’ютера."
+
+msgid ""
+"You have relatively new hardware which supports Vulkan, Direct3D 12, or "
+"Metal."
+msgstr ""
+"У вас відносно нове обладнання, яке підтримує Vulkan, Direct3D 12 або Metal."
+
+msgid "You are developing a 3D game."
+msgstr "Ви розробляєте 3D-гру."
+
+msgid "You want to use the most advanced rendering features."
+msgstr "Ви хочете використовувати найдосконаліші функції візуалізації."
+
+msgid "Choose **Mobile** if:"
+msgstr "Виберіть **Мобільний**, якщо:"
+
+msgid "You are developing for newer mobile devices, desktop XR, or desktop."
+msgstr ""
+"Ви розробляєте для новіших мобільних пристроїв, настільного ПК XR або "
+"настільного комп’ютера."
+
+msgid ""
+"You want to use advanced rendering features, subject to the limitations of "
+"mobile hardware."
+msgstr ""
+"Ви хочете використовувати розширені функції візуалізації з урахуванням "
+"обмежень мобільного обладнання."
+
+msgid "Choose **Compatibility** if:"
+msgstr "Виберіть **Сумісність**, якщо:"
+
+msgid ""
+"You are developing for older mobile devices, older desktop devices, or "
+"standalone XR. The Compatibility renderer supports the widest range of "
+"hardware."
+msgstr ""
+"Ви розробляєте для старих мобільних пристроїв, старих настільних пристроїв "
+"або автономних XR. Рендерер сумісності підтримує найширший діапазон "
+"обладнання."
+
+msgid ""
+"You are developing for web. In this case, Compatibility is the only choice."
+msgstr ""
+"Ви розробляєте для Інтернету. У цьому випадку єдиним вибором є сумісність."
+
+msgid ""
+"You have older hardware which does not support Vulkan. In this case, "
+"Compatibility is the only choice."
+msgstr ""
+"У вас старе обладнання, яке не підтримує Vulkan. У цьому випадку єдиним "
+"вибором є сумісність."
+
+msgid ""
+"You are developing a 2D game, or a 3D game which does not need advanced "
+"rendering features."
+msgstr ""
+"Ви розробляєте 2D-гру або 3D-гру, яка не потребує розширених функцій "
+"візуалізації."
+
+msgid ""
+"You want the best performance possible on all devices and don't need "
+"advanced rendering features."
+msgstr ""
+"Вам потрібна найкраща продуктивність на всіх пристроях і вам не потрібні "
+"розширені функції візуалізації."
+
+msgid ""
+"Keep in mind every game is unique, and this is only a starting point. For "
+"example, you might choose to use the Compatibility renderer even though you "
+"have the latest GPU, so you can support the widest range of hardware. Or you "
+"might want to use the Forward+ renderer for a 2D game, so you can advanced "
+"features like compute shaders."
+msgstr ""
+"Майте на увазі, що кожна гра унікальна, і це лише початкова точка. "
+"Наприклад, ви можете використовувати рендерер сумісності, навіть якщо у вас "
+"найновіший графічний процесор, щоб ви могли підтримувати найширший спектр "
+"обладнання. Або ви можете використати Forward+ Renderer для 2D-ігор, щоб ви "
+"могли розширені функції, такі як обчислювальні шейдери."
+
+msgid "Switching between renderers"
+msgstr "Перемикання між рендерерами"
+
+msgid ""
+"In the editor, you can always switch between renderers by clicking on the "
+"renderer name in the upper-right corner of the editor."
+msgstr ""
+"У редакторі ви завжди можете перемикатися між засобами візуалізації, "
+"клацаючи назву засобу візуалізації у верхньому правому куті редактора."
+
+msgid ""
+"Switching between renderers may require some manual tweaks to your scene, "
+"lighting, and environment, since each renderer is different. In general, "
+"switching between the Mobile and Forward+ renderers will require fewer "
+"adjustments than switching between the Compatibility renderer and the "
+"Forward+ or Mobile renderers."
+msgstr ""
+"Перемикання між рендерерами може вимагати деяких ручних налаштувань вашої "
+"сцени, освітлення та середовища, оскільки кожен рендерер відрізняється. "
+"Загалом перемикання між засобами візуалізації Mobile і Forward+ вимагатиме "
+"менше налаштувань, ніж перемикання між рендерером сумісності та засобами "
+"візуалізації Forward+ або Mobile."
+
+msgid ""
+"Since Godot 4.4, when using Forward+ or Mobile, if Vulkan is not supported, "
+"the engine will fall back to Direct3D 12 and vice versa. If the attempted "
+"fallback driver is not supported either, the engine will then fall back to "
+"Compatibility when the RenderingDevice backend is not supported. This allows "
+"the project to run anyway, but it may look different than the intended "
+"appearance due to the more limited renderer. This behavior can be disabled "
+"in the project settings by unchecking :ref:`Rendering > Rendering Device > "
+"Fallback to OpenGL 3<class_ProjectSettings_property_rendering/"
+"rendering_device/fallback_to_opengl3>`."
+msgstr ""
+"Починаючи з Godot 4.4, під час використання Forward+ або Mobile, якщо Vulkan "
+"не підтримується, механізм повернеться до Direct3D 12 і навпаки. Якщо спроба "
+"резервного драйвера також не підтримується, механізм повернеться до режиму "
+"сумісності, коли серверний пристрій RenderingDevice не підтримується. Це "
+"дозволяє проекту працювати в будь-якому випадку, але він може виглядати "
+"інакше, ніж запланований, через більш обмежений рендерер. Цю поведінку можна "
+"вимкнути в налаштуваннях проекту, знявши прапорець :ref:`Rendering > "
+"Rendering Device > Fallback to OpenGL "
+"3<class_ProjectSettings_property_rendering/rendering_device/"
+"fallback_to_opengl3>`."
+
+msgid "Feature comparison"
+msgstr "Порівняння ознак"
+
+msgid ""
+"This is not a complete list of the features of each renderer. If a feature "
+"is not listed here, it is available in all renderers, though it may be much "
+"faster on some renderers. For a list of *all* features in Godot, "
+"see :ref:`doc_list_of_features`."
+msgstr ""
+"Це не повний список функцій кожного рендерера. Якщо функція не вказана тут, "
+"вона доступна в усіх рендерерах, хоча на деяких рендерерах вона може "
+"працювати набагато швидше. Щоб переглянути список *усіх* функцій у Godot, "
+"перегляньте :ref:`doc_list_of_features`."
+
+msgid ""
+"Hardware with RenderingDevice support is hardware which can run Vulkan, "
+"Direct3D 12, or Metal."
+msgstr ""
+"Обладнання з підтримкою RenderingDevice — це обладнання, яке може працювати "
+"з Vulkan, Direct3D 12 або Metal."
+
+msgid "Overall comparison"
+msgstr "Загальне порівняння"
+
+msgid "Feature"
+msgstr "Особливість"
 
 msgid "Compatibility"
 msgstr "Сумісність"
@@ -23,23 +293,245 @@ msgstr "Мобільний"
 msgid "Forward+"
 msgstr "вперед+"
 
+msgid "**Required** **hardware**"
+msgstr "**Потрібне** **апаратне забезпечення**"
+
+msgid "Older or low-end."
+msgstr "Старіший або недорогий."
+
+msgid "Newer or high-end. Requires Vulkan, Direct3D 12, or Metal support."
+msgstr ""
+"Новіший або висококласний. Потрібна підтримка Vulkan, Direct3D 12 або Metal."
+
+msgid "Runs on new hardware"
+msgstr "Працює на новому обладнанні"
+
+msgid "✔️ Yes."
+msgstr "✔️ Так."
+
+msgid "Runs on old and low-end hardware"
+msgstr "Працює на старому та недорогому обладнанні"
+
+msgid "✔️ Yes, but slower than Compatibility."
+msgstr "✔️ Так, але повільніше, ніж сумісність."
+
+msgid "✔️ Yes, but slowest of all renderers."
+msgstr "✔️ Так, але найповільніший із усіх рендерів."
+
+msgid "Runs on hardware without RenderingDevice support"
+msgstr "Працює на апаратному забезпеченні без підтримки RenderingDevice"
+
+msgid "❌ No."
+msgstr "❌ Ні."
+
+msgid "**Target platforms**"
+msgstr "**Цільові платформи**"
+
+msgid "Mobile, low-end desktop, web."
+msgstr "Мобільний, недорогий комп’ютер, Інтернет."
+
+msgid "Mobile, desktop."
+msgstr "Мобільний, настільний."
+
+msgid "Desktop."
+msgstr "Настільні."
+
 msgid "Desktop"
 msgstr "Робочий стіл"
+
+msgid "✔️ Yes (low-end)."
+msgstr "✔️ Так (низький рівень)."
+
+msgid "✔️ Yes (high-end)."
+msgstr "✔️ Так (висококласний)."
+
+msgid "⚠️ Supported, but poorly optimized. Use Mobile or Compatibility instead."
+msgstr ""
+"⚠️ Підтримується, але погано оптимізовано. Замість цього використовуйте "
+"мобільний телефон або сумісність."
 
 msgid "XR"
 msgstr "ИКСР"
 
+msgid "✔️ Yes. Recommended for standalone headsets."
+msgstr "✔️ Так Рекомендовано для автономних гарнітур."
+
+msgid "✔️ Yes. Recommended for"
+msgstr "✔️ Так Рекомендовано для"
+
+msgid "desktop headsets."
+msgstr "настільні гарнітури."
+
 msgid "Web"
 msgstr "Інтернет"
+
+msgid "2D Games"
+msgstr "2D ігри"
+
+msgid "✔️ Yes, but Compatibility is usually good enough for 2D."
+msgstr "✔️ Так, але сумісності зазвичай достатньо для 2D."
+
+msgid "3D Games"
+msgstr "3D ігри"
+
+msgid "**Feature set**"
+msgstr "**Набір функцій**"
+
+msgid "2D and core 3D features."
+msgstr "2D і основні 3D функції."
+
+msgid "Most rendering features."
+msgstr "Більшість функцій візуалізації."
+
+msgid "All rendering features."
+msgstr "Усі функції візуалізації."
+
+msgid "2D rendering features"
+msgstr "Функції 2D візуалізації"
+
+msgid "Core 3D rendering features"
+msgstr "Основні функції 3D-рендерінгу"
+
+msgid "Advanced rendering features"
+msgstr "Розширені функції візуалізації"
+
+msgid "⚠️ Yes, limited by mobile hardware."
+msgstr "⚠️ Так, обмежено мобільним обладнанням."
+
+msgid "✔️ Yes. All rendering features are supported."
+msgstr "✔️ Так Підтримуються всі функції візуалізації."
+
+msgid "New features"
+msgstr "Нові функції"
+
+msgid ""
+"⚠️ Some new rendering features are added to Compatibility. Features are added "
+"after Mobile and Forward+."
+msgstr ""
+"⚠️ До сумісності додано деякі нові функції візуалізації. Функції додаються "
+"після Mobile і Forward+."
+
+msgid ""
+"✔️ Most new rendering features are added to Mobile. Mobile usually gets new "
+"features as Forward+ does."
+msgstr ""
+"✔️ Більшість нових функцій візуалізації додано до Mobile. Mobile зазвичай "
+"отримує нові функції, як Forward+."
+
+msgid ""
+"✔️ All new features are added to Forward+. As the focus of new development, "
+"Forward+ gets features first."
+msgstr ""
+"✔️ Усі нові функції додано до Forward+. Як центр нової розробки, Forward+ "
+"отримує функції першими."
+
+msgid "Rendering cost"
+msgstr "Вартість візуалізації"
+
+msgid "Low base cost, but high scaling cost."
+msgstr "Низька базова вартість, але висока вартість масштабування."
+
+msgid "Medium base cost, and medium scaling cost."
+msgstr "Середня базова вартість і середня вартість масштабування."
+
+msgid "Highest base cost, and low scaling cost."
+msgstr "Найвища базова вартість і низька вартість масштабування."
+
+msgid "Rendering driver"
+msgstr "Драйвер візуалізації"
+
+msgid "OpenGL."
+msgstr "OpenGL."
+
+msgid "Vulkan, Direct3D 12, or Metal."
+msgstr "Vulkan, Direct3D 12, або Metal."
+
+msgid "Lights and shadows"
+msgstr "Світло і тіні"
+
+msgid "See :ref:`doc_lights_and_shadows` for more information."
+msgstr ""
+"Перегляньте :ref:`doc_lights_and_shadows` для отримання додаткової "
+"інформації."
+
+msgid "Lighting approach"
+msgstr "Підхід до освітлення"
+
+msgid "Forward"
+msgstr "Вперед"
+
+msgid "Clustered Forward"
+msgstr "Кластерний вперед"
+
+msgid "Maximum OmniLights"
+msgstr "Максимальний OmniLights"
+
+msgid "8 per mesh. Can be increased."
+msgstr "8 на сітку. Можна збільшити."
+
+msgid "8 per mesh, 256 per view."
+msgstr "8 на сітку, 256 на перегляд."
+
+msgid "512 per cluster. Can be increased."
+msgstr "512 на кластер. Можна збільшити."
+
+msgid "Maximum SpotLights"
+msgstr "Максимум точкових світильників"
+
+msgid "Maximum DirectionalLights"
+msgstr "Максимальна спрямованість світла"
 
 msgid "8"
 msgstr "8"
 
+msgid "PCSS for OmniLight and SpotLight"
+msgstr "PCSS для OmniLight і SpotLight"
+
+msgid "❌ Not supported."
+msgstr "❌ Не підтримується."
+
+msgid "✔️ Supported."
+msgstr "✔️ Підтримується."
+
+msgid "PCSS for DirectionalLight"
+msgstr "PCSS для DirectionalLight"
+
+msgid "Light projector textures"
+msgstr "Легкі текстури проектора"
+
+msgid "Global Illumination"
+msgstr "Глобальне освітлення"
+
+msgid ""
+"See :ref:`doc_introduction_to_global_illumination` for more information."
+msgstr ""
+"Перегляньте :ref:`doc_introduction_to_global_illumination` для отримання "
+"додаткової інформації."
+
+msgid "ReflectionProbe"
+msgstr "ReflectionProbe"
+
+msgid "✔️ Supported, 2 per mesh."
+msgstr "✔️ Підтримується, 2 на сітку."
+
+msgid "✔️ Supported, 8 per mesh."
+msgstr "✔️ Підтримується, 8 на сітку."
+
+msgid "✔️ Supported, unlimited."
+msgstr "✔️ Підтримується, без обмежень."
+
 msgid "LightmapGI"
 msgstr "LightmapGI"
 
+msgid ""
+"⚠️ Rendering of baked lightmaps is supported. Baking requires hardware with "
+"RenderingDevice support."
+msgstr ""
+"⚠️ Підтримується рендеринг запечених карт світла. Для запікання потрібне "
+"обладнання з підтримкою RenderingDevice."
+
 msgid "VoxelGI"
-msgstr "Воксель Г.І"
+msgstr "VoxelGI"
 
 msgid "Screen-Space Indirect Lighting (SSIL)"
 msgstr "Непряме освітлення екранного простору (SSIL)"
@@ -50,8 +542,22 @@ msgstr "Глобальне освітлення поля відстаней зі
 msgid "Environment and post-processing"
 msgstr "Середовище та пост-обробка"
 
+msgid "See :ref:`doc_environment_and_post_processing` for more information."
+msgstr ""
+"Перегляньте :ref:`doc_environment_and_post_processing` для отримання "
+"додаткової інформації."
+
+msgid "Fog (Depth and Height)"
+msgstr "Туман (глибина і висота)"
+
 msgid "Volumetric Fog"
 msgstr "Об'ємний туман"
+
+msgid "Tonemapping"
+msgstr "Тональність"
+
+msgid "Screen-Space Reflections"
+msgstr "Рефлексії екранного простору"
 
 msgid "Screen-Space Ambient Occlusion (SSAO)"
 msgstr ""
@@ -64,11 +570,57 @@ msgstr "Сяйво"
 msgid "Adjustments"
 msgstr "Коригування"
 
+msgid "Custom post-processing with fullscreen quad"
+msgstr "Спеціальна постобробка з повноекранним квадроциклом"
+
+msgid "Custom post-processing with CompositorEffects"
+msgstr "Спеціальна постобробка за допомогою CompositorEffects"
+
 msgid "Antialiasing"
 msgstr "Згладжування"
 
+msgid "See :ref:`doc_3d_antialiasing` for more information."
+msgstr ""
+"Перегляньте :ref:`doc_3d_antialiasing` для отримання додаткової інформації."
+
+msgid "MSAA 3D"
+msgstr "MSAA 3D"
+
+msgid "MSAA 2D"
+msgstr "MSAA 2D"
+
+msgid "TAA"
+msgstr "TAA"
+
+msgid "FSR2"
+msgstr "FSR2"
+
+msgid "FXAA"
+msgstr "FXAA"
+
+msgid "SSAA"
+msgstr "SSAA"
+
 msgid "Screen-space roughness limiter"
 msgstr "Обмежувач шорсткості екранного простору"
+
+msgid "StandardMaterial features"
+msgstr "Особливості StandardMaterial"
+
+msgid "See :ref:`doc_standard_material_3d` for more information."
+msgstr ""
+"Перегляньте :ref:`doc_standard_material_3d` для отримання додаткової "
+"інформації."
+
+msgid "Sub-surface scattering"
+msgstr "Підповерхневе розсіювання"
+
+msgid "Shader features"
+msgstr "Особливості шейдера"
+
+msgid "See :ref:`doc_shading_reference` for more information."
+msgstr ""
+"Перегляньте :ref:`doc_shading_reference` для отримання додаткової інформації."
 
 msgid "Screen texture"
 msgstr "Текстура екрану"
@@ -76,5 +628,33 @@ msgstr "Текстура екрану"
 msgid "Depth texture"
 msgstr "Глибина текстури"
 
+msgid "Normal/Roughness texture"
+msgstr "Нормальна/Шорстка текстура"
+
+msgid "Compute shaders"
+msgstr "Обчислювальні шейдери"
+
+msgid "⚠️ Supported, but comes with a performance penalty on older devices."
+msgstr ""
+"⚠️ Підтримується, але має погіршення продуктивності на старіших пристроях."
+
+msgid "Other features"
+msgstr "Інші особливості"
+
 msgid "Variable rate shading"
 msgstr "Затінення зі змінною швидкістю"
+
+msgid "Decals"
+msgstr "Декалі"
+
+msgid "Depth of field blur"
+msgstr "Розмиття глибини різкості"
+
+msgid "Adaptive and Mailbox VSync modes"
+msgstr "Режими Adaptive і Mailbox VSync"
+
+msgid "2D HDR Viewport"
+msgstr "Вікно перегляду 2D HDR"
+
+msgid "RenderingDevice access"
+msgstr "Доступ RenderingDevice"

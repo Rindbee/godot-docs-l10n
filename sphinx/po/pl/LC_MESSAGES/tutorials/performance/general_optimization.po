@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,9 +17,18 @@ msgstr "Wprowadzenie"
 msgid "Limitations"
 msgstr "Ograniczenia"
 
+msgid "Profilers"
+msgstr "Profilery"
+
+msgid "Principles"
+msgstr "Zasady"
+
 msgid "`Donald Knuth <https://en.wikipedia.org/wiki/Donald_Knuth>`__ said:"
 msgstr ""
 "`Donald Knuth <https://en.wikipedia.org/wiki/Donald_Knuth>`__ powiedział:"
 
 msgid "Return to step 1."
 msgstr "Wróć do kroku 1."
+
+msgid "Appendix"
+msgstr "Suplement"

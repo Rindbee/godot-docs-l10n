@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,708 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Upgrading from Godot 4.1 to Godot 4.2"
+msgstr "Passare da Godot 4.1 a Godot 4.2"
+
+msgid ""
+"For most games and apps made with 4.1 it should be relatively safe to "
+"migrate to 4.2. This page intends to cover everything you need to pay "
+"attention to when migrating your project."
+msgstr ""
+"Per la maggior parte dei giochi e delle applicazioni creati in 4.1, dovrebbe "
+"essere relativamente sicuro migrare a 4.2. Questa pagina intende illustrare "
+"tutti gli aspetti a cui prestare attenzione durante la migrazione del "
+"proprio progetto."
+
+msgid "Breaking changes"
+msgstr "Cambiamenti distruttivi"
+
+msgid ""
+"If you are migrating from 4.1 to 4.2, the breaking changes listed here might "
+"affect you. Changes are grouped by areas/systems."
+msgstr ""
+"Se stai migrando dalla versione 4.1 alla 4.2, i cambiamenti distruttivi "
+"elencati qui potrebbero interessarti. I cambiamenti sono raggruppate per "
+"aree/sistemi."
+
+msgid ""
+"The :ref:`class_Mesh` resource format has changed in 4.2 to allow for "
+"`vertex and attribute compression <https://github.com/godotengine/godot/pull/"
+"81138>`__. This allows for improved rendering performance, especially on "
+"platforms constrained by memory bandwidth such as mobile."
+msgstr ""
+"Il formato delle risorse :ref:`class_Mesh` è stato modificato nella versione "
+"4.2 per permettere la `compressione di vertici e attributi <https://"
+"github.com/godotengine/godot/pull/81138>`__. Ciò porta a migliori "
+"prestazioni di rendering, soprattutto su piattaforme limitate dalla banda di "
+"memoria, come i dispositivi mobili."
+
+msgid ""
+"It is still possible to load the Godot 4.0-4.1 Mesh formats, but it is "
+"**not** possible to load the Godot 4.2 Mesh format in prior Godot versions. "
+"When opening a Godot project made with a version prior to 4.2, you may be "
+"presented with an upgrade dialog that offers two options:"
+msgstr ""
+"È ancora possibile caricare i formati Mesh di Godot 4.0-4.1, ma **non** è "
+"possibile caricare il formato Mesh di Godot 4.2 nelle versioni precedenti di "
+"Godot. Quando si apre un progetto Godot creato con una versione precedente "
+"alla 4.2, potrebbe apparire una finestra di dialogo di aggiornamento con due "
+"opzioni:"
+
+msgid ""
+"**Restart & Upgrade:** Upgrades the mesh format for all meshes in the "
+"project and saves the result to disk. Once chosen, this option prevents "
+"downgrading the project to a Godot version prior to 4.2. Set up a version "
+"control system and push your changes *before* choosing this option!"
+msgstr ""
+"**Riavvia e aggiorna:** Aggiorna il formato mesh per tutte le mesh del "
+"progetto e salva il risultato su disco. Una volta selezionata, questa "
+"opzione impedisce al progetto di tornare a una versione di Godot precedente "
+"alla 4.2. Impostare un sistema di controllo versione e inviare le modifiche "
+"*prima* di scegliere questa opzione!"
+
+msgid ""
+"**Upgrade Only:** Upgrades the mesh format in-memory without writing it to "
+"disk. This allows downgrading the project to a Godot version older than 4.2 "
+"if you need to do so in the future. The downside is that loading the project "
+"will be slower every time as the mesh format needs to be upgraded every time "
+"the project is loaded. These increased loading times will also affect the "
+"exported project. The number and complexity of Mesh resources determines how "
+"much loading times are affected."
+msgstr ""
+"**Solo aggiornamento:** Aggiorna il formato mesh in memoria senza scriverlo "
+"su disco. Questo consente di tornare a una versione di Godot precedente alla "
+"4.2, se necessario, in futuro. Lo svantaggio è caricare il progetto "
+"richiederà più tempo ogni volta, poiché il formato mesh deve essere "
+"aggiornato a ogni caricamento del progetto. Questi tempi di caricamento più "
+"lunghi influiranno anche sul progetto esportato. Il numero e la complessità "
+"delle risorse mesh determinano l'impatto sui tempi di caricamento."
+
+msgid ""
+"If this dialog doesn't appear, use **Project > Tools > Upgrade Mesh Surfaces…"
+"** at the top of the editor."
+msgstr ""
+"Se questa finestra di dialogo non viene visualizzata, utilizzare **Progetto "
+"> Strumenti > Aggiorna superfici mesh…** nella parte superiore dell'editor."
+
+msgid ""
+"This article indicates whether each breaking change affects GDScript and "
+"whether the C# breaking change is *binary compatible* or *source compatible*:"
+msgstr ""
+"Questo articolo indica se ogni cambiamento distruttivo influisce su GDScript "
+"e se un cambiamento distruttivo in C# è *compatibile con il binario* o "
+"*compatibile con il codice sorgente*:"
+
+msgid ""
+"**Binary compatible** - Existing binaries will load and execute successfully "
+"without recompilation, and the runtime behavior won't change."
+msgstr ""
+"**Compatibile con gli eseguibili** - Gli eseguibili esistenti saranno "
+"caricati ed eseguiti correttamente senza necessità di ricompilazione e il "
+"comportamento in fase di esecuzione non cambierà."
+
+msgid ""
+"**Source compatible** - Source code will compile successfully without "
+"changes when upgrading Godot."
+msgstr ""
+"**Compatibile con il codice sorgente** - Il codice sorgente sarà compilato "
+"correttamente senza cambiamenti all'aggiornamento di Godot."
+
+msgid "Core"
+msgstr "Fondamentali"
+
+msgid "Change"
+msgstr "Cambiamento"
+
+msgid "GDScript Compatible"
+msgstr "Compatibili con GDScript"
+
+msgid "C# Binary Compatible"
+msgstr "Compatibili con eseguibili C#"
+
+msgid "C# Source Compatible"
+msgstr "Compatibili con codice sorgente C#"
+
+msgid "Introduced"
+msgstr "Introdotti"
+
+msgid "**Node**"
+msgstr "**Node**"
+
+msgid "Constant ``NOTIFICATION_NODE_RECACHE_REQUESTED`` removed"
+msgstr "Costante ``NOTIFICATION_NODE_RECACHE_REQUESTED`` rimossa"
+
+msgid "|❌|"
+msgstr "|❌|"
+
+msgid "|✔️|"
+msgstr "|✔️|"
+
+msgid "`GH-84419`_"
+msgstr "`GH-84419`_"
+
 msgid "Animation"
 msgstr "Animazione"
+
+msgid "**AnimationPlayer**"
+msgstr "**AnimationPlayer**"
+
+msgid ""
+"Method ``_post_process_key_value`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``_post_process_key_value`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid "`GH-80813`_"
+msgstr "`GH-80813`_"
+
+msgid "Method ``add_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``add_animation_library`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid "Method ``advance`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``advance`` è stato spostato nella classe base ``AnimationMixer``"
+
+msgid "Signal ``animation_finished`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il segnale ``animation_finished`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid "Signal ``animation_started`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il segnale ``animation_started`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid ""
+"Signal ``animation_libraries_updated`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il segnale ``animation_libraries_updated`` è stato spostato nella classe "
+"base ``AnimationMixer``"
+
+msgid ""
+"Signal ``animation_list_changed`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il segnale ``animation_list_changed`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid "Property ``audio_max_polyphony`` moved to base class ``AnimationMixer``"
+msgstr ""
+"La proprietà ``audio_max_polyphony`` è stata spostata nella classe base "
+"``AnimationMixer``"
+
+msgid "Signal ``caches_cleared`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il segnale ``caches_cleared`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid "Method ``clear_caches`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``clear_caches`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid "Method ``find_animation`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``find_animation`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid ""
+"Method ``find_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``find_animation_library`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid "Method ``get_animation`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``get_animation`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid "Method ``get_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``get_animation_library`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid ""
+"Method ``get_animation_library_list`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``get_animation_library_list`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid "Method ``get_animation_list`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``get_animation_list`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid "Method ``has_animation`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``has_animation`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid "Method ``has_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``has_animation_library`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid ""
+"Property ``method_call_mode`` renamed to ``callback_mode_method`` and moved "
+"to base class ``AnimationMixer``"
+msgstr ""
+"La proprietà ``method_call_mode`` è stata spostata nella classe base "
+"``AnimationMixer``"
+
+msgid "|✔️ with compat|"
+msgstr "|✔️ with compat|"
+
+msgid ""
+"Property ``playback_active`` renamed to ``active`` and moved to base class "
+"``AnimationMixer``"
+msgstr ""
+"La proprietà ``playback_active`` è stata rinominata in ``active`` e spostato "
+"nella classe base ``AnimationMixer``"
+
+msgid ""
+"Property ``playback_process_mode`` renamed to ``callback_mode_process`` and "
+"moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``playback_process_mode`` è stato rinominato in "
+"``callback_mode_process`` e spostato nella classe base ``AnimationMixer``"
+
+msgid ""
+"Method ``remove_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``remove_animation_library`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid ""
+"Method ``rename_animation_library`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``rename_animation_library`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid "Property ``reset_on_save`` moved to base class ``AnimationMixer``"
+msgstr ""
+"La proprietà ``reset_on_save`` è stata spostata nella classe base "
+"``AnimationMixer``"
+
+msgid "Property ``root_node`` moved to base class ``AnimationMixer``"
+msgstr ""
+"La proprietà ``root_node`` è stata spostata nella classe base "
+"``AnimationMixer``"
+
+msgid ""
+"Method ``set_reset_on_save_enabled`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``set_reset_on_save_enabled`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid "Method ``seek`` adds a new ``update_only`` optional parameter"
+msgstr ""
+"Il metodo ``seek`` aggiunge un nuovo parametro facoltativo ``update_only``"
+
+msgid "**AnimationTree**"
+msgstr "**AnimationTree**"
+
+msgid "Property ``active`` moved to base class ``AnimationMixer``"
+msgstr ""
+"La proprietà ``active`` è stata spostata nella classe base ``AnimationMixer``"
+
+msgid ""
+"Method ``get_root_motion_position`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``get_root_motion_position`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid ""
+"Method ``get_root_motion_position_accumulator`` moved to base class "
+"``AnimationMixer``"
+msgstr ""
+"Il metodo ``get_root_motion_position_accumulator`` è stato spostato nella "
+"classe base ``AnimationMixer``"
+
+msgid ""
+"Method ``get_root_motion_rotation`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``get_root_motion_rotation`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid ""
+"Method ``get_root_motion_rotation_accumulator`` moved to base class "
+"``AnimationMixer``"
+msgstr ""
+"Il metodo ``get_root_motion_rotation_accumulator`` è stato spostato nella "
+"classe base ``AnimationMixer``"
+
+msgid "Method ``get_root_motion_scale`` moved to base class ``AnimationMixer``"
+msgstr ""
+"Il metodo ``get_root_motion_scale`` è stato spostato nella classe base "
+"``AnimationMixer``"
+
+msgid ""
+"Method ``get_root_motion_scale_accumulator`` moved to base class "
+"``AnimationMixer``"
+msgstr ""
+"Il metodo ``get_root_motion_scale_accumulator`` è stato spostato nella "
+"classe base ``AnimationMixer``"
+
+msgid ""
+"Property ``process_callback`` renamed to ``callback_mode_process`` and moved "
+"to base class ``AnimationMixer``"
+msgstr ""
+"La proprietà ``process_callback`` è stata rinominata in "
+"``callback_mode_process`` e spostata nella classe base ``AnimationMixer``"
+
+msgid "Property ``root_motion_track``  moved to base class ``AnimationMixer``"
+msgstr ""
+"La proprietà ``root_motion_track`` è stata spostata nella classe base "
+"``AnimationMixer``"
+
+msgid ""
+"Property ``tree_root`` changes type from ``AnimationNode`` to "
+"``AnimationRootNode``"
+msgstr ""
+"La proprietà ``tree_root`` cambia tipo da ``AnimationNode`` a "
+"``AnimationRootNode``"
+
+msgid "GUI nodes"
+msgstr "Nodi GUI"
+
+msgid "**PopupMenu**"
+msgstr "**PopupMenu**"
+
+msgid ""
+"Method ``add_icon_shortcut`` adds a new ``allow_echo`` optional parameter"
+msgstr ""
+"Il metodo ``add_icon_shortcut`` aggiunge un nuovo parametro facoltativo "
+"``allow_echo``"
+
+msgid "`GH-36493`_"
+msgstr "`GH-36493`_"
+
+msgid "Method ``add_shortcut`` adds a new ``allow_echo`` optional parameter"
+msgstr ""
+"Il metodo ``add_shortcut`` aggiunge un nuovo parametro facoltativo "
+"``allow_echo``"
+
+msgid "Method ``clear`` adds a new ``free_submenus`` optional parameter"
+msgstr ""
+"Il metodo ``clear`` aggiunge un nuovo parametro facoltativo ``free_submenus``"
+
+msgid "`GH-79965`_"
+msgstr "`GH-79965`_"
+
+msgid "**RichTextLabel**"
+msgstr "**RichTextLabel**"
+
+msgid ""
+"Method ``add_image`` adds new ``key``, ``pad``, ``tooltip``, and "
+"``size_in_percent`` optional parameters"
+msgstr ""
+"Il metodo ``add_image`` aggiunge nuovi parametri facoltativi ``key``, "
+"``pad``, ``tooltip`` e ``size_in_percent``"
+
+msgid "`GH-80410`_"
+msgstr "`GH-80410`_"
 
 msgid "Rendering"
 msgstr "Renderer"
 
+msgid "**ImporterMesh**"
+msgstr "**ImporterMesh**"
+
+msgid ""
+"Method ``add_surface`` changes ``flags`` parameter type from ``uint32`` to "
+"``uint64``"
+msgstr ""
+"Il metodo ``add_surface`` cambia il tipo del parametro ``flags`` da "
+"``uint32`` a ``uint64``"
+
+msgid "`GH-81138`_"
+msgstr "`GH-81138`_"
+
+msgid ""
+"Method ``get_surface_format`` changes return type from ``uint32`` to "
+"``uint64``"
+msgstr ""
+"Il metodo ``get_surface_format`` cambia il tipo restituito da ``uint32`` a "
+"``uint64``"
+
+msgid "**MeshDataTool**"
+msgstr "**MeshDataTool**"
+
+msgid ""
+"Method ``commit_to_surface`` adds a new ``compression_flags`` optional "
+"parameter"
+msgstr ""
+"Il metodo ``commit_to_surface`` aggiunge un nuovo parametro facoltativo "
+"``compression_flags``"
+
+msgid "Method ``get_format`` changes return type from ``uint32`` to ``uint64``"
+msgstr ""
+"Il metodo ``get_format`` cambia il tipo restituito da ``uint32`` a ``uint64``"
+
+msgid "**RenderingDevice**"
+msgstr "**RenderingDevice**"
+
+msgid ""
+"Enum field ``BarrierMask.BARRIER_MASK_RASTER`` changes value from ``1`` to "
+"``9``"
+msgstr ""
+"Il campo di enumerazione ``BarrierMask.BARRIER_MASK_RASTER`` cambia il suo "
+"valore da ``1`` a ``9``"
+
+msgid "`GH-79911`_"
+msgstr "`GH-79911`_"
+
+msgid ""
+"Enum field ``BarrierMask.BARRIER_MASK_ALL_BARRIERS`` changes value from "
+"``7`` to ``32767``"
+msgstr ""
+"Il campo di enumerazione ``BarrierMask.BARRIER_MASK_ALL_BARRIERS`` cambia il "
+"suo valore da ``7`` a ``32767``"
+
+msgid ""
+"Enum field ``BarrierMask.BARRIER_MASK_NO_BARRIER`` changes value from ``8`` "
+"to ``32768``"
+msgstr ""
+"Il campo di enumerazione ``BarrierMask.BARRIER_MASK_NO_BARRIER`` cambia il "
+"suo valore da ``8`` a ``32768``"
+
+msgid ""
+"Method ``shader_create_from_bytecode`` adds a new ``placeholder_rid`` "
+"optional parameter"
+msgstr ""
+"Il metodo ``shader_create_from_bytecode`` aggiunge un nuovo parametro "
+"facoltativo ``placeholder_rid``"
+
+msgid "`GH-79606`_"
+msgstr "`GH-79606`_"
+
+msgid ""
+"Method ``shader_get_vertex_input_attribute_ask`` changes return type from "
+"``uint32`` to ``uint64``"
+msgstr ""
+"Il metodo ``shader_get_vertex_input_attribute_ask`` cambia il tipo "
+"restituito da ``uint32`` a ``uint64``"
+
+msgid "**SurfaceTool**"
+msgstr "**SurfaceTool**"
+
+msgid ""
+"Method ``commit`` changes ``flags`` parameter type from ``uint32`` to "
+"``uint64``"
+msgstr ""
+"Il metodo ``commit`` cambia il tipo del parametro ``flags`` da ``uint32`` a "
+"``uint64``"
+
+msgid "Text"
+msgstr "Testo"
+
+msgid "**Font**"
+msgstr "**Font**"
+
+msgid "Method ``set_fallbacks`` replaced with ``fallbacks`` property"
+msgstr ""
+"Il metodo ``set_fallbacks`` è stato sostituito dalla proprietà ``fallbacks``"
+
+msgid "`GH-78266`_"
+msgstr "`GH-78266`_"
+
+msgid "Method ``get_fallbacks`` replaced with ``fallbacks`` property"
+msgstr ""
+"Il metodo ``get_fallbacks`` è stato sostituito dalla proprietà ``fallbacks``"
+
+msgid ""
+"Method ``find_variation`` adds new ``spacing_top``, ``spacing_bottom``, "
+"``spacing_space``, and ``spacing_glyph`` optional parameters"
+msgstr ""
+"Il metodo ``find_variation`` aggiunge nuovi parametri facoltativi "
+"``spacing_top``, ``spacing_bottom``, ``spacing_space`` e ``spacing_glyph``"
+
+msgid "`GH-80954`_"
+msgstr "`GH-80954`_"
+
 msgid "GraphEdit"
 msgstr "GraphEdit"
+
+msgid "**GraphEdit**"
+msgstr "**GraphEdit**"
+
+msgid ""
+"Property ``arrange_nodes_button_hidden`` renamed to ``show_arrange_button``"
+msgstr ""
+"La proprietà ``arrange_nodes_button_hidden`` è stata rinominata in "
+"``show_arrange_button``"
+
+msgid "`GH-81582`_"
+msgstr "`GH-81582`_"
+
+msgid "Method ``get_zoom_hbox`` renamed to ``get_menu_hbox``"
+msgstr "La proprietà ``get_zoom_hbox`` è stata rinominata in ``get_menu_hbox``"
+
+msgid "`GH-79308`_"
+msgstr "`GH-79308`_"
+
+msgid "Property ``snap_distance`` renamed to ``snapping_distance``"
+msgstr ""
+"La proprietà ``snap_distance`` è stata rinominata in ``snapping_distance``"
+
+msgid "Property ``use_snap`` renamed to ``snapping_enabled``"
+msgstr "La proprietà ``use_snap`` è stata rinominata in ``snapping_enabled``"
+
+msgid "**GraphNode**"
+msgstr "**GraphNode**"
+
+msgid "Property ``comment`` removed"
+msgstr "Proprietà ``comment`` rimossa"
+
+msgid "`GH-79307`_"
+msgstr "`GH-79307`_"
+
+msgid ""
+"Signal ``close_request`` renamed to ``delete_request`` and moved to base "
+"class ``GraphElement``"
+msgstr ""
+"Il segnale ``close_request`` è stato rinominato in ``delete_request`` e "
+"spostato nella classe base ``GraphElement``"
+
+msgid "`GH-79311`_"
+msgstr "`GH-79311`_"
+
+msgid "Property ``draggable`` moved to base class ``GraphElement``"
+msgstr ""
+"La proprietà ``draggable`` è stata spostata nella classe base "
+"``GraphElement``"
+
+msgid "Signal ``dragged`` moved to base class ``GraphElement``"
+msgstr ""
+"Il segnale ``dragged`` è stato spostato nella classe base ``GraphElement``"
+
+msgid "Method ``get_connection_input_color`` removed"
+msgstr "Metodo ``get_connection_input_color`` rimosso"
+
+msgid "Method ``get_connection_input_count`` removed"
+msgstr "Metodo ``get_connection_input_count`` rimosso"
+
+msgid "Method ``get_connection_input_height`` removed"
+msgstr "Metodo ``get_connection_input_height`` rimosso"
+
+msgid "Method ``get_connection_input_position`` removed"
+msgstr "Metodo ``get_connection_input_position`` rimosso"
+
+msgid "Method ``get_connection_input_slot`` removed"
+msgstr "Metodo ``get_connection_input_slot`` rimosso"
+
+msgid "Method ``get_connection_input_type`` removed"
+msgstr "Metodo ``get_connection_input_type`` rimosso"
+
+msgid "Method ``get_connection_output_color`` removed"
+msgstr "Metodo ``get_connection_output_color`` rimosso"
+
+msgid "Method ``get_connection_output_count`` removed"
+msgstr "Metodo ``get_connection_output_count`` rimosso"
+
+msgid "Method ``get_connection_output_height`` removed"
+msgstr "Metodo ``get_connection_output_height`` rimosso"
+
+msgid "Method ``get_connection_output_position`` removed"
+msgstr "Metodo ``get_connection_output_position`` rimosso"
+
+msgid "Method ``get_connection_output_slot`` removed"
+msgstr "Metodo ``get_connection_output_slot`` rimosso"
+
+msgid "Method ``get_connection_output_type`` removed"
+msgstr "Metodo ``get_connection_output_type`` rimosso"
+
+msgid "Property ``language`` removed"
+msgstr "Proprietà ``language`` rimossa"
+
+msgid "Signal ``node_deselected`` moved to base class ``GraphElement``"
+msgstr ""
+"Il segnale ``node_deselected`` è stato spostato nella classe base "
+"``GraphElement``"
+
+msgid "Signal ``node_selected`` moved to base class ``GraphElement``"
+msgstr ""
+"Il segnale ``node_selected`` è stato spostato nella classe base "
+"``GraphElement``"
+
+msgid "Property ``overlay`` removed"
+msgstr "Proprietà ``overlay`` rimossa"
+
+msgid "Property ``position_offset`` moved to base class ``GraphElement``"
+msgstr ""
+"La proprietà ``position_offset`` è stata spostata nella classe base "
+"``GraphElement``"
+
+msgid "Signal ``position_offset_changed`` moved to base class ``GraphElement``"
+msgstr ""
+"Il segnale ``position_offset_changed`` è stato spostato nella classe base "
+"``GraphElement``"
+
+msgid "Signal ``raise_request`` moved to base class ``GraphElement``"
+msgstr ""
+"Il segnale ``raise_request`` è stato spostato nella classe base "
+"``GraphElement``"
+
+msgid "Property ``resizable`` moved to base class ``GraphElement``"
+msgstr ""
+"La proprietà ``resizable`` è stata spostata nella classe base "
+"``GraphElement``"
+
+msgid "Signal ``resize_request`` moved to base class ``GraphElement``"
+msgstr ""
+"Il segnale ``resize_requested`` è stato spostato nella classe base "
+"``GraphElement``"
+
+msgid "Property ``selectable`` moved to base class ``GraphElement``"
+msgstr ""
+"La proprietà ``selectable`` è stata spostata nella classe base "
+"``GraphElement``"
+
+msgid "Property ``selected`` moved to base class ``GraphElement``"
+msgstr ""
+"La proprietà ``selected`` è stata spostata nella classe base ``GraphElement``"
+
+msgid "Property ``show_close`` removed"
+msgstr "Proprietà ``show_close`` rimossa"
+
+msgid "Property ``text_direction`` removed"
+msgstr "Proprietà ``text_direciton`` rimossa"
+
+msgid "TileMap"
+msgstr "TileMap"
+
+msgid "**TileMap**"
+msgstr "**TileMap**"
+
+msgid "Property ``cell_quadrant_size`` renamed to ``rendering_quadrant_size``"
+msgstr ""
+"La proprietà ``cell_quadrant_size`` è stata rinominata in "
+"``rendering_quadrant_size``"
+
+msgid "`GH-81070`_"
+msgstr "`GH-81070`_"
+
+msgid "XR"
+msgstr "XR"
+
+msgid "**XRInterface**"
+msgstr "**XRInterface**"
+
+msgid "Property ``environment_blend_mode`` added"
+msgstr "La proprietà ``environment_blend_mode`` è stata aggiunta"
+
+msgid "`GH-81561`_"
+msgstr "`GH-81561`_"
+
+msgid ""
+"This change breaks compatibility in C# because the new property conflicts "
+"with the name of an existing enum and the C# bindings generator gives "
+"priority to properties, so the enum type was renamed from "
+"``EnvironmentBlendMode`` to ``EnvironmentBlendModeEnum``."
+msgstr ""
+"Questo cambiamento interrompe la compatibilità in C# perché la nuova "
+"proprietà è in conflitto con il nome di un enumerazione esistente e il "
+"generatore di binding C# dà priorità alle proprietà, quindi l'enumerazione è "
+"stata rinominata da ``EnvironmentBlendMode`` a ``EnvironmentBlendModeEnum``."

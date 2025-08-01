@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,14 +16,17 @@ msgstr "为 iOS 平台编译"
 
 msgid ""
 "This page describes how to compile iOS export template binaries from source. "
-"If you're looking to export your project to iOS instead, read :ref:"
-"`doc_exporting_for_ios`."
+"If you're looking to export your project to iOS instead, "
+"read :ref:`doc_exporting_for_ios`."
 msgstr ""
 "本页面描述的是如何从源码编译 iOS 编辑器和导出模板二进制文件。如果你想要将项目"
 "导出到 iOS，请移步《\\ :ref:`doc_exporting_for_ios`\\ 》。"
 
 msgid "Requirements"
 msgstr "需求"
+
+msgid "`Xcode <https://apps.apple.com/us/app/xcode/id497799835>`_."
+msgstr "`Xcode <https://apps.apple.com/us/app/xcode/id497799835>`_\\ 。"
 
 msgid ""
 "Launch Xcode once and install iOS support. If you have already launched "
@@ -48,11 +51,17 @@ msgstr "如果你还没有 Xcode 命令行工具，安装 Homebrew 也会自动�
 msgid "Compiling"
 msgstr "编译"
 
+msgid "To compile a release build:"
+msgstr "编译发布构建："
+
 msgid "Run"
 msgstr "运行"
 
 msgid ""
-"To run on a device or simulator, follow these instructions: :ref:"
-"`doc_exporting_for_ios`."
+"To run on a device or simulator, follow these "
+"instructions: :ref:`doc_exporting_for_ios`."
 msgstr ""
 "要在设备或模拟器上运行, 请按照以下说明操作: :ref:`doc_exporting_for_ios`."
+
+msgid "Troubleshooting"
+msgstr "故障排除"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -26,8 +26,29 @@ msgstr "Domyślne funkcje"
 msgid "**Description**"
 msgstr "**Opis**"
 
+msgid "**android**"
+msgstr "**android**"
+
+msgid "**bsd**"
+msgstr "**bsd**"
+
+msgid "**linux**"
+msgstr "**linux**"
+
+msgid "**macos**"
+msgstr "**macos**"
+
+msgid "**ios**"
+msgstr "**ios**"
+
+msgid "**windows**"
+msgstr "**windows**"
+
 msgid "Running on Windows"
 msgstr "Uruchamiany na Windowsie"
+
+msgid "**linuxbsd**"
+msgstr "**linuxbsd**"
 
 msgid "**debug**"
 msgstr "**debug**"
@@ -35,11 +56,65 @@ msgstr "**debug**"
 msgid "**release**"
 msgstr "**release**"
 
+msgid "**editor**"
+msgstr "**editor**"
+
+msgid "**template**"
+msgstr "**template**"
+
+msgid "**double**"
+msgstr "**double**"
+
+msgid "**single**"
+msgstr "**single**"
+
 msgid "**64**"
 msgstr "**64**"
 
 msgid "**32**"
 msgstr "**32**"
+
+msgid "**x86_64**"
+msgstr "**x86_64**"
+
+msgid "**x86_32**"
+msgstr "**x86_32**"
+
+msgid "**x86**"
+msgstr "**x86**"
+
+msgid "**arm64**"
+msgstr "**arm64**"
+
+msgid "**arm32**"
+msgstr "**arm32**"
+
+msgid "**arm**"
+msgstr "**arm**"
+
+msgid "**rv64**"
+msgstr "**rv64**"
+
+msgid "**riscv**"
+msgstr "**riscv**"
+
+msgid "**ppc64**"
+msgstr "**ppc64**"
+
+msgid "**ppc32**"
+msgstr "**ppc32**"
+
+msgid "**ppc**"
+msgstr "**ppc**"
+
+msgid "**wasm64**"
+msgstr "**wasm64**"
+
+msgid "**wasm32**"
+msgstr "**wasm32**"
+
+msgid "**wasm**"
+msgstr "**wasm**"
 
 msgid "**mobile**"
 msgstr "**mobile**"
@@ -59,6 +134,21 @@ msgstr "**web**"
 msgid "Host OS is a Web browser"
 msgstr "Gospodarzem jest przeglądarka"
 
+msgid "**web_android**"
+msgstr "**web_android**"
+
+msgid "**web_ios**"
+msgstr "**web_ios**"
+
+msgid "**web_linuxbsd**"
+msgstr "**web_linuxbsd**"
+
+msgid "**web_macos**"
+msgstr "**web_macos**"
+
+msgid "**web_windows**"
+msgstr "**web_windows**"
+
 msgid "**etc**"
 msgstr "**etc**"
 
@@ -73,6 +163,9 @@ msgstr "Tekstury używające ETC2 są wspierane"
 
 msgid "**s3tc**"
 msgstr "**s3tc**"
+
+msgid "**movie**"
+msgstr "**movie**"
 
 msgid "Overriding project settings"
 msgstr "Nadpisz ustawienia projektu"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -82,12 +82,12 @@ msgstr ""
 
 msgid ""
 "In the above example, tracks like ``\"Skeleton:Leg_Control\"`` would be "
-"discarded, while tracks such as ``\"Skeleton:Head\"`` or ``\"Skeleton:"
-"Arm_Left_Control\"`` would be retained."
+"discarded, while tracks such as ``\"Skeleton:Head\"`` or "
+"``\"Skeleton:Arm_Left_Control\"`` would be retained."
 msgstr ""
 "No exemplo acima, faixas como ``''Skeleton:Leg_Control''`` seriam "
-"descartadas, enquanto faixas como ``''Skeleton:Head''`` ou ``''Skeleton:"
-"Arm_Left_Control''`` seriam retidas."
+"descartadas, enquanto faixas como ``''Skeleton:Head''`` ou "
+"``''Skeleton:Arm_Left_Control''`` seriam retidas."
 
 msgid ""
 "Any track filter lines that do not begin with a ``+`` or ``-`` are ignored."
@@ -138,3 +138,6 @@ msgstr ""
 
 msgid "Scene inheritance"
 msgstr "Herança de cena"
+
+msgid "Other than that, everything is allowed."
+msgstr "Fora isso, tudo é permitido."

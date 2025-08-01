@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,39 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"You can look at a number of `XR demos here <https://github.com/godotengine/"
+"godot-demo-projects/tree/master/xr>`_."
+msgstr ""
+"Puoi trovare diverse `demo di XR qui <https://github.com/godotengine/godot-"
+"demo-projects/tree/master/xr>`_."
+
+msgid ""
+"You can find 3rd party tutorials on our :ref:`Tutorials and resources "
+"<doc_community_tutorials>` page."
+msgstr ""
+"Puoi trovare tutorial di terze parti nella nostra pagina :ref:`Tutorial e "
+"risorse <doc_community_tutorials>`."
+
+msgid "XR Toolkits"
+msgstr "Toolkit XR"
+
+msgid "There are more toolkits available for Godot:"
+msgstr "Sono disponibili altri toolkit per Godot:"
+
+msgid ""
+"`Godot XR handtracking toolkit <https://github.com/RevolNoom/"
+"godot_xr_handtracking>`_ (GDScript)"
+msgstr ""
+"`Toolkit per il tracciamento di mani XR di Godot <https://github.com/"
+"RevolNoom/godot_xr_handtracking>`_ (GDScript)"
+
+msgid ""
+"`Godot XR Tools <https://github.com/godotvr/godot-xr-tools>`_ (GDScript)"
+msgstr ""
+"`Strumenti XR di Godot <https://github.com/godotvr/godot-xr-tools>`_ "
+"(GDScript)"
+
+msgid "`NXR <https://github.com/stumpynub/NXR>`_ (C#)"
+msgstr "`NXR <https://github.com/stumpynub/NXR>`_ (C#)"

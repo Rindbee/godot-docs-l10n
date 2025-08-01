@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,21 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Animation Track types"
+msgstr "Tipi di tracce d'animazione"
+
+msgid "**Key**"
+msgstr "**Chiave**"
+
+msgid "**Value**"
+msgstr "**Valore**"
+
+msgid "``\"method\"``"
+msgstr "``\"method\"``"
+
+msgid "The name of the method as a ``String``"
+msgstr "Il nome del metodo sotto forma di ``String``"
+
+msgid "``\"args\"``"
+msgstr "``\"args\"``"

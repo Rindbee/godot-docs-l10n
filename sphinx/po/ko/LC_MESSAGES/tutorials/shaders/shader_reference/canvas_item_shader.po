@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,11 +11,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Render modes"
+msgstr "렌더러 모드"
+
 msgid "Description"
 msgstr "설명"
 
+msgid "Additive blend mode."
+msgstr "덧셈 블렌드 모드."
+
 msgid "Built-in"
 msgstr "내장"
+
+msgid "Fragment built-ins"
+msgstr "프래그먼트 내장"
+
+msgid "SDF functions"
+msgstr "SDF 함수"
 
 msgid "Function"
 msgstr "함수"
