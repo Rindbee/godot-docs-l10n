@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -209,33 +209,37 @@ msgid "Scripts that extend EditorScript must be ``@tool`` scripts to function."
 msgstr ""
 
 #: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:514
+msgid "EditorScripts can only be run from the Godot script editor. If you are using an external editor, open the script inside the Godot script editor to run it."
+msgstr ""
+
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:519
 msgid "EditorScripts have no undo/redo functionality, so **make sure to save your scene before running one** if the script is designed to modify any data."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:517
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:522
 msgid "To access nodes in the currently edited scene, use the :ref:`EditorScript.get_scene <class_EditorScript_method_get_scene>` method which returns the root Node of the currently edited scene. Here's an example that recursively gets all nodes in the currently edited scene and doubles the range of all OmniLight3D nodes:"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:550
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:555
 msgid "You can change the currently edited scene at the top of the editor even while the Script view is open. This will affect the return value of :ref:`EditorScript.get_scene <class_EditorScript_method_get_scene>`, so make sure you've selected the scene you intend to iterate upon before running the script."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:557
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:562
 msgid "Instancing scenes"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:559
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:564
 msgid "You can instantiate packed scenes normally and add them to the scene currently opened in the editor. By default, nodes or scenes added with :ref:`Node.add_child(node) <class_Node_method_add_child>` are **not** visible in the Scene tree dock and are **not** persisted to disk. If you wish the node or scene to be visible in the scene tree dock and persisted to disk when saving the scene, you need to set the child node's :ref:`owner <class_Node_property_owner>` property to the currently edited scene root."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:567
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:572
 msgid "If you are using ``@tool``:"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:592
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:597
 msgid "If you are using :ref:`EditorScript<class_EditorScript>`:"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:623
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:628
 msgid "Using ``@tool`` improperly can yield many errors. It is advised to first write the code how you want it, and only then add the ``@tool`` annotation to the top. Also, make sure to separate code that runs in-editor from code that runs in-game. This way, you can find bugs more easily."
 msgstr ""

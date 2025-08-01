@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -144,7 +144,7 @@ msgid "Projects written in C# using Godot 4 currently cannot be exported to the 
 msgstr ""
 
 #: ../../docs/getting_started/step_by_step/scripting_languages.rst:136
-msgid "To learn more about C#, head to the :ref:`C# basics <doc_c_sharp>` page."
+msgid "To learn more about C#, head to the :ref:`doc_c_sharp` section."
 msgstr ""
 
 #: ../../docs/getting_started/step_by_step/scripting_languages.rst:139

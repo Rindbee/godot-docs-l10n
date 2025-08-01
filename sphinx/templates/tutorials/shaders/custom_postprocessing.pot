@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -36,54 +36,59 @@ msgid "Single pass post-processing"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/custom_postprocessing.rst:22
-msgid "Post-processing effects are shaders applied to a frame after Godot has rendered it. To apply a shader to a frame, create a :ref:`CanvasLayer <class_CanvasLayer>`, and give it a :ref:`ColorRect <class_ColorRect>`. Assign a new :ref:`ShaderMaterial <class_ShaderMaterial>` to the newly created ``ColorRect``, and set the ``ColorRect``'s layout to \"Full Rect\"."
+msgid "Post-processing effects are shaders applied to a frame after Godot has rendered it. To apply a shader to a frame, create a :ref:`CanvasLayer <class_CanvasLayer>`, and give it a :ref:`ColorRect <class_ColorRect>`. Assign a new :ref:`ShaderMaterial <class_ShaderMaterial>` to the newly created ``ColorRect``, and set the ``ColorRect``'s anchor preset to Full Rect:"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/custom_postprocessing.rst:28
-#: ../../docs/tutorials/shaders/custom_postprocessing.rst:105
-msgid "Your scene tree will look something like this:"
+#: ../../docs/tutorials/shaders/custom_postprocessing.rst:32
+msgid "Setting the anchor preset to Full Rect on the ColorRect node"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/custom_postprocessing.rst:34
+#: ../../docs/tutorials/shaders/custom_postprocessing.rst:111
+msgid "Your scene tree will look something like this:"
+msgstr ""
+
+#: ../../docs/tutorials/shaders/custom_postprocessing.rst:40
 msgid "Another more efficient method is to use a :ref:`BackBufferCopy <class_BackBufferCopy>` to copy a region of the screen to a buffer and to access it in a shader script through a ``sampler2D`` using ``hint_screen_texture``."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/custom_postprocessing.rst:41
+#: ../../docs/tutorials/shaders/custom_postprocessing.rst:47
 msgid "As of the time of writing, Godot does not support rendering to multiple buffers at the same time. Your post-processing shader will not have access to other render passes and buffers not exposed by Godot (such as depth or normal/roughness). You only have access to the rendered frame and buffers exposed by Godot as samplers."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/custom_postprocessing.rst:47
+#: ../../docs/tutorials/shaders/custom_postprocessing.rst:53
 msgid "For this demo, we will use this :ref:`Sprite <class_Sprite2D>` of a sheep."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/custom_postprocessing.rst:51
+#: ../../docs/tutorials/shaders/custom_postprocessing.rst:57
 msgid "Assign a new :ref:`Shader <class_Shader>` to the ``ColorRect``'s ``ShaderMaterial``. You can access the frame's texture and UV with a ``sampler2D`` using ``hint_screen_texture`` and the built-in ``SCREEN_UV`` uniforms."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/custom_postprocessing.rst:56
+#: ../../docs/tutorials/shaders/custom_postprocessing.rst:62
 msgid "Copy the following code to your shader. The code below is a hex pixelization shader by `arlez80 <https://bitbucket.org/arlez80/hex-mosaic/src/master/>`_,"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/custom_postprocessing.rst:87
+#: ../../docs/tutorials/shaders/custom_postprocessing.rst:93
 msgid "The sheep will look something like this:"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/custom_postprocessing.rst:92
+#: ../../docs/tutorials/shaders/custom_postprocessing.rst:98
 msgid "Multi-pass post-processing"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/custom_postprocessing.rst:94
+#: ../../docs/tutorials/shaders/custom_postprocessing.rst:100
 msgid "Some post-processing effects like blurs are resource intensive. You can make them run a lot faster if you break them down in multiple passes. In a multipass material, each pass takes the result from the previous pass as an input and processes it."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/custom_postprocessing.rst:99
+#: ../../docs/tutorials/shaders/custom_postprocessing.rst:105
 msgid "To produce a multi-pass post-processing shader, you stack ``CanvasLayer`` and ``ColorRect`` nodes. In the example above, you use a ``CanvasLayer`` object to render a shader using the frame on the layer below. Apart from the node structure, the steps are the same as with the single-pass post-processing shader."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/custom_postprocessing.rst:109
+#: ../../docs/tutorials/shaders/custom_postprocessing.rst:115
 msgid "As an example, you could write a full screen Gaussian blur effect by attaching the following pieces of code to each of the ``ColorRect`` nodes. The order in which you apply the shaders depends on the position of the ``CanvasLayer`` in the scene tree, higher means sooner. For this blur shader, the order does not matter."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/custom_postprocessing.rst:155
+#: ../../docs/tutorials/shaders/custom_postprocessing.rst:161
 msgid "Using the above code, you should end up with a full screen blur effect like below."
 msgstr ""

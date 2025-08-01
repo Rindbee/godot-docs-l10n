@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -196,7 +196,7 @@ msgid "For example, you could break down a shooter game like so:"
 msgstr ""
 
 #: ../../docs/getting_started/step_by_step/instancing.rst:196
-msgid "You can come up with a diagram like this for almost any type of game. Each rectangle represents an entity that's visible in the game from the player's perspective. The arrows point towards the insantiator of each scene."
+msgid "You can come up with a diagram like this for almost any type of game. Each rectangle represents an entity that's visible in the game from the player's perspective. The arrows point towards the instantiator of each scene."
 msgstr ""
 
 #: ../../docs/getting_started/step_by_step/instancing.rst:200

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -39,7 +39,7 @@ msgstr ""
 msgid "|image0|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:512
+#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:514
 msgid "image0"
 msgstr ""
 
@@ -51,7 +51,7 @@ msgstr ""
 msgid "|image1|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:513
+#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:515
 msgid "image1"
 msgstr ""
 
@@ -63,7 +63,7 @@ msgstr ""
 msgid "|image2|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:514
+#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:516
 msgid "image2"
 msgstr ""
 
@@ -83,7 +83,7 @@ msgstr ""
 msgid "|image3|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:515
+#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:517
 msgid "image3"
 msgstr ""
 
@@ -95,7 +95,7 @@ msgstr ""
 msgid "|image4|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:516
+#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:518
 msgid "image4"
 msgstr ""
 
@@ -123,7 +123,7 @@ msgstr ""
 msgid "|image5|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:517
+#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:519
 msgid "image5"
 msgstr ""
 
@@ -171,6 +171,6 @@ msgstr ""
 msgid "Finally, the longest script, ``player.gd``:"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:510
+#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:512
 msgid "See you in the next lesson to add the score and the retry option."
 msgstr ""

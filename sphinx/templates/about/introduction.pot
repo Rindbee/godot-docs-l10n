@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -68,7 +68,7 @@ msgid "**About** contains this introduction as well as information about the eng
 msgstr ""
 
 #: ../../docs/about/introduction.rst:74
-msgid "**Getting Started** contains all necessary information on using the engine to make games. It starts with the :ref:`Step by step <toc-learn-step_by_step>` tutorial which should be the entry point for all new users. **This is the best place to start if you're new!**"
+msgid "**Getting Started** contains all necessary information on using the engine to make games. It starts with the :ref:`doc_getting_started_intro` section which should be the entry point for all new users. **This is the best place to start if you're new!**"
 msgstr ""
 
 #: ../../docs/about/introduction.rst:78

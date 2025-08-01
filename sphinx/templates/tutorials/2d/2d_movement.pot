@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -51,82 +51,82 @@ msgstr ""
 msgid "In this scenario, you want the user to press the four directional keys (up/left/down/right or W/A/S/D) and move in the selected direction. The name \"8-way movement\" comes from the fact that the player can move diagonally by pressing two keys at the same time."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:39
+#: ../../docs/tutorials/2d/2d_movement.rst:45
 msgid "Add a script to the character body and add the following code:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:79
+#: ../../docs/tutorials/2d/2d_movement.rst:85
 msgid "In the ``get_input()`` function, we use :ref:`Input <class_Input>` ``get_vector()`` to check for the four key events and sum return a direction vector."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:82
+#: ../../docs/tutorials/2d/2d_movement.rst:88
 msgid "We can then set our velocity by multiplying this direction vector, which has a length of ``1``, by our desired speed."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:85
+#: ../../docs/tutorials/2d/2d_movement.rst:91
 msgid "If you've never used vector math before, or need a refresher, you can see an explanation of vector usage in Godot at :ref:`doc_vector_math`."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:90
+#: ../../docs/tutorials/2d/2d_movement.rst:96
 msgid "If the code above does nothing when you press the keys, double-check that you've set up input actions correctly as described in the :ref:`doc_2d_movement_setup` part of this tutorial."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:95
+#: ../../docs/tutorials/2d/2d_movement.rst:101
 msgid "Rotation + movement"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:97
+#: ../../docs/tutorials/2d/2d_movement.rst:103
 msgid "This type of movement is sometimes called \"Asteroids-style\" because it resembles how that classic arcade game worked. Pressing left/right rotates the character, while up/down moves it forward or backward in whatever direction it's facing."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:150
+#: ../../docs/tutorials/2d/2d_movement.rst:162
 msgid "Here we've added two variables to track our rotation direction and speed. The rotation is applied directly to the body's ``rotation`` property."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:153
+#: ../../docs/tutorials/2d/2d_movement.rst:165
 msgid "To set the velocity, we use the body's ``transform.x`` which is a vector pointing in the body's \"forward\" direction, and multiply that by the speed."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:157
+#: ../../docs/tutorials/2d/2d_movement.rst:169
 msgid "Rotation + movement (mouse)"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:159
+#: ../../docs/tutorials/2d/2d_movement.rst:171
 msgid "This style of movement is a variation of the previous one. This time, the direction is set by the mouse position instead of the keyboard. The character will always \"look at\" the mouse pointer. The forward/back inputs remain the same, however."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:202
+#: ../../docs/tutorials/2d/2d_movement.rst:220
 msgid "Here we're using the :ref:`Node2D <class_Node2D>` ``look_at()`` method to point the player towards the mouse's position. Without this function, you could get the same effect by setting the angle like this:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:217
+#: ../../docs/tutorials/2d/2d_movement.rst:235
 msgid "Click-and-move"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:219
+#: ../../docs/tutorials/2d/2d_movement.rst:237
 msgid "This last example uses only the mouse to control the character. Clicking on the screen will cause the player to move to the target location."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:276
+#: ../../docs/tutorials/2d/2d_movement.rst:300
 msgid "Note the ``distance_to()`` check we make prior to movement. Without this test, the body would \"jitter\" upon reaching the target position, as it moves slightly past the position and tries to move back, only to move too far and repeat."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:281
+#: ../../docs/tutorials/2d/2d_movement.rst:305
 msgid "Uncommenting the ``look_at()`` line will also turn the body to point in its direction of motion if you prefer."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:284
+#: ../../docs/tutorials/2d/2d_movement.rst:308
 msgid "This technique can also be used as the basis of a \"following\" character. The ``target`` position can be that of any object you want to move to."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:288
+#: ../../docs/tutorials/2d/2d_movement.rst:312
 msgid "Summary"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:290
+#: ../../docs/tutorials/2d/2d_movement.rst:314
 msgid "You may find these code samples useful as starting points for your own projects. Feel free to use them and experiment with them to see what you can make."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_movement.rst:293
+#: ../../docs/tutorials/2d/2d_movement.rst:317
 msgid "You can download this sample project here: `2d_movement_starter.zip <https://github.com/godotengine/godot-docs-project-starters/releases/download/latest-4.x/2d_movement_starter.zip>`_"
 msgstr ""

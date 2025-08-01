@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -128,37 +128,33 @@ msgid "``GODOT_REAL_T_IS_DOUBLE`` is defined when the ``GodotFloat64`` property 
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_features.rst:160
-msgid "One of ``GODOT_64`` or ``GODOT_32`` is defined depending on if the architecture is 64-bit or 32-bit."
-msgstr ""
-
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_features.rst:162
 msgid "One of ``GODOT_LINUXBSD``, ``GODOT_WINDOWS``, ``GODOT_OSX``, ``GODOT_ANDROID``, ``GODOT_IOS``, ``GODOT_WEB`` depending on the OS. These names may change in the future. These are created from the ``get_name()`` method of the :ref:`OS <class_OS>` singleton, but not every possible OS the method returns is an OS that Godot with .NET runs on."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_features.rst:169
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_features.rst:167
 msgid "``GODOTX``, ``GODOTX_Y``, ``GODOTX_Y_Z``, ``GODOTx_OR_GREATER``, ``GODOTX_y_OR_GREATER``, and ``GODOTX_Y_z_OR_GREATER``, where ``X``, ``Y``, and ``Z`` are replaced by the current major, minor and patch version of Godot. ``x``, ``y``, and ``z`` are replaced by all values from 0 to the current version number for that component."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_features.rst:177
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_features.rst:175
 msgid "These defines were first added in Godot 4.0.4 and 4.1. Version defines for prior versions do not exist, regardless of the current Godot version."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_features.rst:180
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_features.rst:178
 msgid "For example: Godot 4.0.5 defines ``GODOT4``, ``GODOT4_OR_GREATER``, ``GODOT4_0``, ``GODOT4_0_OR_GREATER``, ``GODOT4_0_5``, ``GODOT4_0_4_OR_GREATER``, and ``GODOT4_0_5_OR_GREATER``. Godot 4.3.2 defines ``GODOT4``, ``GODOT4_OR_GREATER``, ``GODOT4_3``, ``GODOT4_0_OR_GREATER``, ``GODOT4_1_OR_GREATER``, ``GODOT4_2_OR_GREATER``, ``GODOT4_3_OR_GREATER``, ``GODOT4_3_2``, ``GODOT4_3_0_OR_GREATER``, ``GODOT4_3_1_OR_GREATER``, and ``GODOT4_3_2_OR_GREATER``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_features.rst:188
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_features.rst:186
 msgid "When **exporting**, the following may also be defined depending on the export features:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_features.rst:190
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_features.rst:188
 msgid "One of ``GODOT_PC``, ``GODOT_MOBILE``, or ``GODOT_WEB`` depending on the platform type."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_features.rst:192
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_features.rst:190
 msgid "One of ``GODOT_WINDOWS``, ``GODOT_LINUXBSD``, ``GODOT_MACOS``, ``GODOT_ANDROID``, ``GODOT_IOS``, or ``GODOT_WEB`` depending on the platform."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_features.rst:194
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_features.rst:192
 msgid "To see an example project, see the OS testing demo: https://github.com/godotengine/godot-demo-projects/tree/master/misc/os_test"
 msgstr ""

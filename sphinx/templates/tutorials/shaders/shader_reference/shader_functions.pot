@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -3614,7 +3614,11 @@ msgid "Calculates derivatives using local differencing based on the value of ``p
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:2914
-msgid "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/dFdxCoarse.xhtml"
+#: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:2949
+#: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:2984
+#: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:3019
+#: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:3052
+msgid "https://registry.khronos.org/OpenGL-Refpages/gl4/html/dFdx.xhtml"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:2927
@@ -3624,10 +3628,6 @@ msgstr ""
 #: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:2935
 #: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:3040
 msgid "Calculates derivatives using local differencing based on the value of ``p`` for the current fragment and its immediate neighbor(s)."
-msgstr ""
-
-#: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:2949
-msgid "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/dFdxFine.xhtml"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:2962
@@ -3640,10 +3640,6 @@ msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:2968
 msgid "Returns either :ref:`dFdyCoarse<shader_func_dFdyCoarse>` or :ref:`dFdyFine<shader_func_dfdyFine>`. The implementation may choose which calculation to perform based upon factors such as performance or the value of the API ``GL_FRAGMENT_SHADER_DERIVATIVE_HINT`` hint."
-msgstr ""
-
-#: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:2984
-msgid "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/dFdy.xhtml"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:2997
@@ -3659,16 +3655,8 @@ msgstr ""
 msgid "Calculates derivatives using local differencing based on the value of ``p`` for the current fragment's neighbors, and will possibly, but not necessarily, include the value for the current fragment. That is, over a given area, the implementation can compute derivatives in fewer unique locations than would be allowed for the corresponding dFdyFine and dFdyFine functions."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:3019
-msgid "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/dFdyCoarse.xhtml"
-msgstr ""
-
 #: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:3032
 msgid "|vec_type| **dFdyFine**\\ (\\ |vec_type| p) :ref:`🔗<shader_func_dFdyFine>`"
-msgstr ""
-
-#: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:3052
-msgid "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/dFdyFine.xhtml"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:3065
@@ -3696,6 +3684,7 @@ msgid "The partial derivative."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:3079
+#: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:3110
 msgid "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/fwidth.xhtml"
 msgstr ""
 
@@ -3712,10 +3701,6 @@ msgstr ""
 msgid "Equivalent  to ``abs(dFdxCoarse(p)) + abs(dFdyCoarse(p))``."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:3110
-msgid "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/fwidthCoarse.xhtml"
-msgstr ""
-
 #: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:3123
 msgid "|vec_type| **fwidthFine**\\ (\\ |vec_type| p) :ref:`🔗<shader_func_fwidthFine>`"
 msgstr ""
@@ -3725,7 +3710,7 @@ msgid "Equivalent to ``abs(dFdxFine(p)) + abs(dFdyFine(p))``."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:3141
-msgid "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/fwidthFine.xhtml"
+msgid "https://registry.khronos.org/OpenGL-Refpages/gl4/html/fwidth.xhtml"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:3163

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,7 +20,7 @@ msgid "Unit testing"
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/unit_testing.rst:6
-msgid "Godot Engine allows to write unit tests directly in C++. The engine integrates the `doctest <https://github.com/onqtam/doctest>`_ unit testing framework which gives ability to write test suites and test cases next to production code, but since the tests in Godot go through a different ``main`` entry point, the tests reside in a dedicated ``tests/`` directory instead, which is located at the root of the engine source code."
+msgid "Godot Engine allows to write unit tests directly in C++. The engine integrates the `doctest <https://github.com/doctest/doctest>`_ unit testing framework which gives ability to write test suites and test cases next to production code, but since the tests in Godot go through a different ``main`` entry point, the tests reside in a dedicated ``tests/`` directory instead, which is located at the root of the engine source code."
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/unit_testing.rst:14
@@ -258,7 +258,7 @@ msgid "Prefer to use ``CHECK`` for self-explanatory assertions and ``CHECK_MESSA
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/unit_testing.rst:211
-msgid "`doctest: Assertion macros <https://github.com/onqtam/doctest/blob/master/doc/markdown/assertions.md>`_."
+msgid "`doctest: Assertion macros <https://github.com/doctest/doctest/blob/master/doc/markdown/assertions.md>`_."
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/unit_testing.rst:214
@@ -302,7 +302,7 @@ msgid "Different reporters can be chosen at runtime. For instance, here's how th
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/unit_testing.rst:239
-msgid "`doctest: Logging macros <https://github.com/onqtam/doctest/blob/master/doc/markdown/logging.md>`_."
+msgid "`doctest: Logging macros <https://github.com/doctest/doctest/blob/master/doc/markdown/logging.md>`_."
 msgstr ""
 
 #: ../../docs/contributing/development/core_and_modules/unit_testing.rst:242

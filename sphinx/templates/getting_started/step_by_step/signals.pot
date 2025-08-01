@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -176,145 +176,145 @@ msgid "Your complete ``sprite_2d.gd`` code should look like the following."
 msgstr ""
 
 #: ../../docs/getting_started/step_by_step/signals.rst:255
-msgid "Run the scene now and click the button to see the sprite start and stop."
+msgid "Run the current scene by pressing :kbd:`F6` (:kbd:`Cmd + R` on macOS), and click the button to see the sprite start and stop."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:258
+#: ../../docs/getting_started/step_by_step/signals.rst:259
 msgid "Connecting a signal via code"
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:260
+#: ../../docs/getting_started/step_by_step/signals.rst:261
 msgid "You can connect signals via code instead of using the editor. This is necessary when you create nodes or instantiate scenes inside of a script."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:263
+#: ../../docs/getting_started/step_by_step/signals.rst:264
 msgid "Let's use a different node here. Godot has a :ref:`Timer <class_Timer>` node that's useful to implement skill cooldown times, weapon reloading, and more."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:266
+#: ../../docs/getting_started/step_by_step/signals.rst:267
 msgid "Head back to the 2D workspace. You can either click the \"2D\" text at the top of the window or press :kbd:`Ctrl + F1` (:kbd:`Ctrl + Cmd + 1` on macOS)."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:269
+#: ../../docs/getting_started/step_by_step/signals.rst:270
 msgid "In the Scene dock, right-click on the Sprite2D node and add a new child node. Search for Timer and add the corresponding node. Your scene should now look like this."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:275
+#: ../../docs/getting_started/step_by_step/signals.rst:276
 msgid "With the Timer node selected, go to the Inspector and enable the **Autostart** property."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:280
+#: ../../docs/getting_started/step_by_step/signals.rst:281
 msgid "Click the script icon next to Sprite2D to jump back to the scripting workspace."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:284
+#: ../../docs/getting_started/step_by_step/signals.rst:285
 msgid "We need to do two operations to connect the nodes via code:"
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:286
+#: ../../docs/getting_started/step_by_step/signals.rst:287
 msgid "Get a reference to the Timer from the Sprite2D."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:287
+#: ../../docs/getting_started/step_by_step/signals.rst:288
 msgid "Call the ``connect()`` method on the Timer's \"timeout\" signal."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:289
+#: ../../docs/getting_started/step_by_step/signals.rst:290
 msgid "To connect to a signal via code, you need to call the ``connect()`` method of the signal you want to listen to. In this case, we want to listen to the Timer's \"timeout\" signal."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:293
+#: ../../docs/getting_started/step_by_step/signals.rst:294
 msgid "We want to connect the signal when the scene is instantiated, and we can do that using the :ref:`Node._ready() <class_Node_private_method__ready>` built-in function, which is called automatically by the engine when a node is fully instantiated."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:297
+#: ../../docs/getting_started/step_by_step/signals.rst:298
 msgid "To get a reference to a node relative to the current one, we use the method :ref:`Node.get_node() <class_Node_method_get_node>`. We can store the reference in a variable."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:314
+#: ../../docs/getting_started/step_by_step/signals.rst:315
 msgid "The function ``get_node()`` looks at the Sprite2D's children and gets nodes by their name. For example, if you renamed the Timer node to \"BlinkingTimer\" in the editor, you would have to change the call to ``get_node(\"BlinkingTimer\")``."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:320
+#: ../../docs/getting_started/step_by_step/signals.rst:321
 msgid "We can now connect the Timer to the Sprite2D in the ``_ready()`` function."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:337
+#: ../../docs/getting_started/step_by_step/signals.rst:338
 msgid "The line reads like so: we connect the Timer's \"timeout\" signal to the node to which the script is attached. When the Timer emits ``timeout``, we want to call the function ``_on_timer_timeout()``, that we need to define. Let's add it at the bottom of our script and use it to toggle our sprite's visibility."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:342
+#: ../../docs/getting_started/step_by_step/signals.rst:343
 msgid "By convention, we name these callback methods in GDScript as \"_on_node_name_signal_name\" and in C# as \"OnNodeNameSignalName\". Here, it'll be \"_on_timer_timeout\" for GDScript and OnTimerTimeout() for C#."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:359
+#: ../../docs/getting_started/step_by_step/signals.rst:360
 msgid "The ``visible`` property is a boolean that controls the visibility of our node. The line ``visible = not visible`` toggles the value. If ``visible`` is ``true``, it becomes ``false``, and vice-versa."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:363
+#: ../../docs/getting_started/step_by_step/signals.rst:364
 msgid "If you run the Node2D scene now, you will see that the sprite blinks on and off, at one second intervals."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:367
+#: ../../docs/getting_started/step_by_step/signals.rst:368
 msgid "Complete script"
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:369
+#: ../../docs/getting_started/step_by_step/signals.rst:370
 msgid "That's it for our little moving and blinking Godot icon demo! Here is the complete ``sprite_2d.gd`` file for reference."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:434
+#: ../../docs/getting_started/step_by_step/signals.rst:435
 msgid "Custom signals"
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:436
+#: ../../docs/getting_started/step_by_step/signals.rst:437
 msgid "This section is a reference on how to define and use your own signals, and does not build upon the project created in previous lessons."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:439
+#: ../../docs/getting_started/step_by_step/signals.rst:440
 msgid "You can define custom signals in a script. Say, for example, that you want to show a game over screen when the player's health reaches zero. To do so, you could define a signal named \"died\" or \"health_depleted\" when their health reaches 0."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:465
+#: ../../docs/getting_started/step_by_step/signals.rst:466
 msgid "As signals represent events that just occurred, we generally use an action verb in the past tense in their names."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:468
+#: ../../docs/getting_started/step_by_step/signals.rst:469
 msgid "Your signals work the same way as built-in ones: they appear in the Node tab and you can connect to them like any other."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:473
+#: ../../docs/getting_started/step_by_step/signals.rst:474
 msgid "To emit a signal in your scripts, call ``emit()`` on the signal."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:495
+#: ../../docs/getting_started/step_by_step/signals.rst:496
 msgid "A signal can optionally declare one or more arguments. Specify the argument names between parentheses:"
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:521
+#: ../../docs/getting_started/step_by_step/signals.rst:522
 msgid "The signal arguments show up in the editor's node dock, and Godot can use them to generate callback functions for you. However, you can still emit any number of arguments when you emit signals. So it's up to you to emit the correct values."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:526
+#: ../../docs/getting_started/step_by_step/signals.rst:527
 msgid "To emit values along with the signal, add them as extra arguments to the ``emit()`` function:"
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:547
+#: ../../docs/getting_started/step_by_step/signals.rst:548
 msgid "Summary"
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:549
+#: ../../docs/getting_started/step_by_step/signals.rst:550
 msgid "Any node in Godot emits signals when something specific happens to them, like a button being pressed. Other nodes can connect to individual signals and react to selected events."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:553
+#: ../../docs/getting_started/step_by_step/signals.rst:554
 msgid "Signals have many uses. With them, you can react to a node entering or exiting the game world, to a collision, to a character entering or leaving an area, to an element of the interface changing size, and much more."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:557
+#: ../../docs/getting_started/step_by_step/signals.rst:558
 msgid "For example, an :ref:`Area2D <class_Area2D>` representing a coin emits a ``body_entered`` signal whenever the player's physics body enters its collision shape, allowing you to know when the player collected it."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/signals.rst:561
+#: ../../docs/getting_started/step_by_step/signals.rst:562
 msgid "In the next section, :ref:`doc_your_first_2d_game`, you'll create a complete 2D game and put everything you learned so far into practice."
 msgstr ""

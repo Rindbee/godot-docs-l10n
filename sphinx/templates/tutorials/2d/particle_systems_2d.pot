@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -44,7 +44,7 @@ msgid "While GPUParticles2D is configured via a :ref:`class_ParticleProcessMater
 msgstr ""
 
 #: ../../docs/tutorials/2d/particle_systems_2d.rst:35
-msgid "Going forward there are no plans to add new features to CPUParticles2D, though pull requests to add features already in GPUParticles2D will be accepted. For that reason we recommend using GPUParticles3D unless you have an explicit reason not to."
+msgid "Going forward there are no plans to add new features to CPUParticles2D, though pull requests to add features already in GPUParticles2D will be accepted. For that reason we recommend using GPUParticles2D unless you have an explicit reason not to."
 msgstr ""
 
 #: ../../docs/tutorials/2d/particle_systems_2d.rst:40

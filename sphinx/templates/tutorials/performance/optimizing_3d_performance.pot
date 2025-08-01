@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -112,61 +112,77 @@ msgid "You can make imposters by pre-rendering views of an object at different a
 msgstr ""
 
 #: ../../docs/tutorials/performance/optimizing_3d_performance.rst:108
-msgid "Use instancing (MultiMesh)"
+msgid "Use automatic instancing"
 msgstr ""
 
 #: ../../docs/tutorials/performance/optimizing_3d_performance.rst:110
-msgid "If several identical objects have to be drawn in the same place or nearby, try using :ref:`MultiMesh <class_MultiMesh>` instead. MultiMesh allows the drawing of many thousands of objects at very little performance cost, making it ideal for flocks, grass, particles, and anything else where you have thousands of identical objects."
+msgid "*This is only implemented in the Forward+ renderer, not Mobile or Compatibility.*"
+msgstr ""
+
+#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:112
+msgid "If you have many identical objects in your scene, you can use automatic instancing to reduce the number of draw calls. This automatically happens for MeshInstance3D nodes that use the same mesh and material: no manual setup is required."
 msgstr ""
 
 #: ../../docs/tutorials/performance/optimizing_3d_performance.rst:116
-msgid "See also the :ref:`Using MultiMesh <doc_using_multimesh>` documentation."
+msgid "For automatic instancing to be effective, the material must be opaque or alpha-tested (alpha scissor or alpha hash). Alpha-blended or depth pre-pass materials are never instanced this way. Instead, you must use MultiMesh as described below."
 msgstr ""
 
-#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:119
-msgid "Bake lighting"
+#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:122
+msgid "Use manual instancing (MultiMesh)"
 msgstr ""
 
-#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:121
-msgid "Lighting objects is one of the most costly rendering operations. Realtime lighting, shadows (especially multiple lights), and :ref:`global illumination <doc_introduction_to_global_illumination>` are especially expensive. They may simply be too much for lower power mobile devices to handle."
-msgstr ""
-
-#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:126
-msgid "**Consider using baked lighting**, especially for mobile. This can look fantastic, but has the downside that it will not be dynamic. Sometimes, this is a tradeoff worth making."
+#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:124
+msgid "If several identical objects have to be drawn in the same place or nearby, try using :ref:`MultiMesh <class_MultiMesh>` instead. MultiMesh allows the drawing of many thousands of objects at very little performance cost, making it ideal for flocks, grass, particles, and anything else where you have thousands of identical objects."
 msgstr ""
 
 #: ../../docs/tutorials/performance/optimizing_3d_performance.rst:130
-msgid "See :ref:`doc_using_lightmap_gi` for instructions on using baked lightmaps. For best performance, you should set lights' bake mode to **Static** as opposed to the default **Dynamic**, as this will skip real-time lighting on meshes that have baked lighting."
+msgid "See also the :ref:`Using MultiMesh <doc_using_multimesh>` documentation."
+msgstr ""
+
+#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:133
+msgid "Bake lighting"
 msgstr ""
 
 #: ../../docs/tutorials/performance/optimizing_3d_performance.rst:135
-msgid "The downside of lights with the **Static** bake mode is that they can't cast shadows onto meshes with baked lighting. This can make scenes with outdoor environments and dynamic objects look flat. A good balance between performance and quality is to keep **Dynamic** for the :ref:`class_DirectionalLight3D` node, and use **Static** for most (if not all) omni and spot lights."
+msgid "Lighting objects is one of the most costly rendering operations. Realtime lighting, shadows (especially multiple lights), and :ref:`global illumination <doc_introduction_to_global_illumination>` are especially expensive. They may simply be too much for lower power mobile devices to handle."
 msgstr ""
 
-#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:142
-msgid "Animation and skinning"
+#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:140
+msgid "**Consider using baked lighting**, especially for mobile. This can look fantastic, but has the downside that it will not be dynamic. Sometimes, this is a tradeoff worth making."
 msgstr ""
 
 #: ../../docs/tutorials/performance/optimizing_3d_performance.rst:144
+msgid "See :ref:`doc_using_lightmap_gi` for instructions on using baked lightmaps. For best performance, you should set lights' bake mode to **Static** as opposed to the default **Dynamic**, as this will skip real-time lighting on meshes that have baked lighting."
+msgstr ""
+
+#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:149
+msgid "The downside of lights with the **Static** bake mode is that they can't cast shadows onto meshes with baked lighting. This can make scenes with outdoor environments and dynamic objects look flat. A good balance between performance and quality is to keep **Dynamic** for the :ref:`class_DirectionalLight3D` node, and use **Static** for most (if not all) omni and spot lights."
+msgstr ""
+
+#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:156
+msgid "Animation and skinning"
+msgstr ""
+
+#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:158
 msgid "Animation and vertex animation such as skinning and morphing can be very expensive on some platforms. You may need to lower the polycount considerably for animated models, or limit the number of them on screen at any given time. You can also reduce the animation rate for distant or occluded meshes, or pause the animation entirely if the player is unlikely to notice the animation being stopped."
 msgstr ""
 
-#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:151
+#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:165
 msgid "The :ref:`class_VisibleOnScreenEnabler3D` and :ref:`class_VisibleOnScreenNotifier3D` nodes can be useful for this purpose."
 msgstr ""
 
-#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:155
+#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:169
 msgid "Large worlds"
 msgstr ""
 
-#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:157
+#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:171
 msgid "If you are making large worlds, there are different considerations than what you may be familiar with from smaller games."
 msgstr ""
 
-#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:160
+#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:174
 msgid "Large worlds may need to be built in tiles that can be loaded on demand as you move around the world. This can prevent memory use from getting out of hand, and also limit the processing needed to the local area."
 msgstr ""
 
-#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:164
+#: ../../docs/tutorials/performance/optimizing_3d_performance.rst:178
 msgid "There may also be rendering and physics glitches due to floating point error in large worlds. This can be resolved using :ref:`doc_large_world_coordinates`. If using large world coordinates is not an option, you may be able to use techniques such as orienting the world around the player (rather than the other way around), or shifting the origin periodically to keep things centred around ``Vector3(0, 0, 0)``."
 msgstr ""

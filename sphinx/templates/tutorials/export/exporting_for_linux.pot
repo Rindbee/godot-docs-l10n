@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -57,4 +57,12 @@ msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_linux.rst:34
 msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_linux.rst:37
+msgid "Export options"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_linux.rst:39
+msgid "You can find a full list of export options available in the :ref:`class_EditorExportPlatformLinuxBSD` class reference."
 msgstr ""

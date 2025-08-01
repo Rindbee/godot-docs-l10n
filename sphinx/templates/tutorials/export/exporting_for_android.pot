@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -313,4 +313,12 @@ msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_android.rst:188
 msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_android.rst:191
+msgid "Export options"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_android.rst:193
+msgid "You can find a full list of export options available in the :ref:`class_EditorExportPlatformAndroid` class reference."
 msgstr ""

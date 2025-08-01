@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -264,7 +264,7 @@ msgid "**shadows_disabled**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/spatial_shader.rst:74
-msgid "Disable computing shadows in shader. The shader will not cast shadows, but can still receive them."
+msgid "Disable computing shadows in shader. The shader will not receive shadows, but can still cast them."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/spatial_shader.rst:76

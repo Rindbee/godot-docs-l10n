@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -215,10 +215,18 @@ msgstr ""
 msgid "You may have noticed that, in the example shader, we modified the contents of the storage buffer. In other words, the shader read from our array and stored the data in the same array again so our results are already there. Let's retrieve the data and print the results to our console."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/compute_shaders.rst:369
+#: ../../docs/tutorials/shaders/compute_shaders.rst:370
+msgid "Freeing memory"
+msgstr ""
+
+#: ../../docs/tutorials/shaders/compute_shaders.rst:372
+msgid "The ``buffer``, ``pipeline``, and ``uniform_set`` variables we've been using are each an :ref:`class_RID`. Because RenderingDevice is meant to be a lower-level API, RIDs aren't freed automatically. This means that once you're done using ``buffer`` or any other RID, you are responsible for freeing its memory manually using the RenderingDevice's :ref:`free_rid()<class_RenderingDevice_method_free_rid>` method."
+msgstr ""
+
+#: ../../docs/tutorials/shaders/compute_shaders.rst:379
 msgid "With that, you have everything you need to get started working with compute shaders."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/compute_shaders.rst:374
+#: ../../docs/tutorials/shaders/compute_shaders.rst:384
 msgid "The demo projects repository contains a `Compute Shader Heightmap demo <https://github.com/godotengine/godot-demo-projects/tree/master/misc/compute_shader_heightmap>`__ This project performs heightmap image generation on the CPU and GPU separately, which lets you compare how a similar algorithm can be implemented in two different ways (with the GPU implementation being faster in most cases)."
 msgstr ""

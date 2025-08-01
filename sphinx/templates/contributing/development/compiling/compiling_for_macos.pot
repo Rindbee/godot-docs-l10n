@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -209,4 +209,24 @@ msgstr ""
 
 #: ../../docs/contributing/development/compiling/compiling_for_macos.rst:215
 msgid "If you have an OSXCross SDK version different from the one expected by the SCons buildsystem, you can specify a custom one with the ``osxcross_sdk`` argument::"
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/compiling_for_macos.rst:220
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/compiling_for_macos.rst:223
+msgid "Fatal error: 'cstdint' file not found"
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/compiling_for_macos.rst:225
+msgid "If you get a compilation error of this form early on, it's likely because the Xcode command line tools installation needs to be repaired after a macOS or Xcode update:"
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/compiling_for_macos.rst:235
+msgid "Run these two commands to reinstall Xcode command line tools (enter your administrator password as needed):"
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/compiling_for_macos.rst:243
+msgid "If it still does not work, try updating Xcode from the Mac App Store and try again."
 msgstr ""

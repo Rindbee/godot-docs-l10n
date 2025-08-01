@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -76,25 +76,29 @@ msgid "`Godot Tutorials by SomethingLikeGames <https://www.somethinglikegames.de
 msgstr ""
 
 #: ../../docs/community/tutorials.rst:36
-msgid "`Game Dev Artisan website <https://gamedevartisan.com/>`__"
+msgid "`GameDev Academy by Zenva <https://gamedevacademy.org/category/godot-tutorials/godot-4/>`__"
 msgstr ""
 
 #: ../../docs/community/tutorials.rst:37
+msgid "`Game Dev Artisan website <https://gamedevartisan.com/>`__"
+msgstr ""
+
+#: ../../docs/community/tutorials.rst:38
 msgid "`Night Quest Games Blog <https://www.nightquestgames.com/blog-articles/>`__"
 msgstr ""
 
-#: ../../docs/community/tutorials.rst:40
+#: ../../docs/community/tutorials.rst:41
 msgid "Resources"
 msgstr ""
 
-#: ../../docs/community/tutorials.rst:42
+#: ../../docs/community/tutorials.rst:43
 msgid "`awesome-godot: A curated list of free/libre plugins, scripts and add-ons <https://github.com/godotengine/awesome-godot>`_"
 msgstr ""
 
-#: ../../docs/community/tutorials.rst:43
+#: ../../docs/community/tutorials.rst:44
 msgid "`Godot Asset Library <https://godotengine.org/asset-library/asset>`_"
 msgstr ""
 
-#: ../../docs/community/tutorials.rst:44
+#: ../../docs/community/tutorials.rst:45
 msgid "`Godot Shaders: A community-driven shader library <https://godotshaders.com/>`_"
 msgstr ""

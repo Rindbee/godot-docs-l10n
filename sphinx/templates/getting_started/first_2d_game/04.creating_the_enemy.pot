@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -103,26 +103,30 @@ msgstr ""
 msgid "Now let's look at the rest of the script. In ``_ready()`` we play the animation and randomly choose one of the three animation types:"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:100
+#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:101
 msgid "First, we get the list of animation names from the AnimatedSprite2D's ``sprite_frames`` property. This returns an Array containing all three animation names: ``[\"walk\", \"swim\", \"fly\"]``."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:104
+#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:105
 msgid "In the GDScript code, we use the :ref:`Array.pick_random <class_Array_method_pick_random>` method to select one of these animation names at random. Meanwhile, in the C# code, we pick a random number between ``0`` and ``2`` to select one of these names from the list (array indices start at ``0``). The expression ``GD.Randi() % n`` selects a random integer between ``0`` and ``n-1``."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:109
+#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:110
+msgid "Finally, we call ``play()`` to start playing the chosen animation."
+msgstr ""
+
+#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:112
 msgid "The last piece is to make the mobs delete themselves when they leave the screen. Connect the ``screen_exited()`` signal of the ``VisibleOnScreenNotifier2D`` node to the ``Mob`` and add this code:"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:127
+#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:130
 msgid "``queue_free()`` is a function that essentially 'frees', or deletes, the node at the end of the frame."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:129
+#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:132
 msgid "This completes the `Mob` scene."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:131
+#: ../../docs/getting_started/first_2d_game/04.creating_the_enemy.rst:134
 msgid "With the player and enemies ready, in the next part, we'll bring them together in a new scene. We'll make enemies spawn randomly around the game board and move forward, turning our project into a playable game."
 msgstr ""

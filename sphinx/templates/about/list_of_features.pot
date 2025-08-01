@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -959,11 +959,11 @@ msgid "Many 2D, 3D and 4D linear algebra data types such as vectors and transfor
 msgstr ""
 
 #: ../../docs/about/list_of_features.rst:454
-msgid ":ref:`GDScript: <toc-learn-scripting-gdscript>`"
+msgid ":ref:`GDScript: <doc_gdscript>`"
 msgstr ""
 
 #: ../../docs/about/list_of_features.rst:456
-msgid ":ref:`High-level interpreted language <doc_gdscript>` with :ref:`optional static typing <doc_gdscript_static_typing>`."
+msgid ":ref:`High-level interpreted language <doc_gdscript_reference>` with :ref:`optional static typing <doc_gdscript_static_typing>`."
 msgstr ""
 
 #: ../../docs/about/list_of_features.rst:458
@@ -979,7 +979,7 @@ msgid ":ref:`Use threads <doc_using_multiple_threads>` to perform asynchronous a
 msgstr ""
 
 #: ../../docs/about/list_of_features.rst:463
-msgid ":ref:`C#: <toc-learn-scripting-C#>`"
+msgid ":ref:`C#: <doc_c_sharp>`"
 msgstr ""
 
 #: ../../docs/about/list_of_features.rst:465

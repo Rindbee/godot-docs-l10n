@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -223,50 +223,54 @@ msgstr ""
 msgid "Notice how in the 3D example, several of the categories have **(Parallel)** appended to their name. This hints that multiple tasks are being performed in parallel on the GPU. This generally means that disabling only one of the features involved won't improve performance as much as anticipated, as the other task still needs to be performed sequentially."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:201
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:202
+msgid "The Visual Profiler is not supported when using the Compatibility renderer on macOS, due to platform limitations."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:206
 msgid "Network Profiler"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:203
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:208
 msgid "The Network Profiler contains a list of all the nodes that communicate over the multiplayer API and, for each one, some counters on the amount of incoming and outgoing network interactions. It also features a bandwidth meter that displays the total bandwidth usage at any given moment."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:210
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:215
 msgid "The bandwidth meter does **not** take the :ref:`doc_high_level_multiplayer` API's own compression system into account. This means that changing the compression algorithm used will not change the metrics reported by the bandwidth meter."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:216
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:221
 msgid "Monitors"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:218
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:223
 msgid "The monitors are graphs of several aspects of the game while its running such as FPS, memory usage, how many nodes are in a scene and more. All monitors keep track of stats automatically, so even if one monitor isn't open while the game is running, you can open it later and see how the values changed."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:225
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:230
 msgid "In addition to the default performance monitors, you can also create :ref:`custom performance monitors <doc_custom_performance_monitors>` to track arbitrary values in your project."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:230
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:235
 msgid "Video RAM"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:232
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:237
 msgid "The **Video RAM** tab shows the video RAM usage of the game while it is running. It provides a list of every resource using video RAM by resource path, the type of resource it is, what format it is in, and how much Video RAM that resource is using. There is also a total video RAM usage number at the top right of the panel."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:240
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:245
 msgid "Misc"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:242
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:247
 msgid "The **Misc** tab contains tools to identify the control nodes you are clicking at runtime:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:245
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:250
 msgid "**Clicked Control** tells you where the clicked node is in the scene tree."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:246
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:251
 msgid "**Clicked Control Type** tells you the type of the node you clicked is."
 msgstr ""

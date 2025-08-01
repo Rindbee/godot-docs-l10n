@@ -72,6 +72,7 @@ tutorials/migrating/upgrading_to_godot_4.pot
 tutorials/migrating/upgrading_to_godot_4.1.pot
 tutorials/migrating/upgrading_to_godot_4.2.pot
 tutorials/migrating/upgrading_to_godot_4.3.pot
+tutorials/migrating/upgrading_to_godot_4.4.pot
 tutorials/2d/index.pot
 tutorials/2d/introduction_to_2d.pot
 tutorials/2d/canvas_layers.pot
@@ -240,6 +241,7 @@ tutorials/performance/using_multiple_threads.pot
 tutorials/performance/thread_safe_apis.pot
 tutorials/physics/index.pot
 tutorials/physics/physics_introduction.pot
+tutorials/physics/using_jolt_physics.pot
 tutorials/physics/rigid_body.pot
 tutorials/physics/using_area_2d.pot
 tutorials/physics/using_character_body_2d.pot
@@ -317,6 +319,10 @@ tutorials/scripting/c_sharp/diagnostics/GD0104.pot
 tutorials/scripting/c_sharp/diagnostics/GD0105.pot
 tutorials/scripting/c_sharp/diagnostics/GD0106.pot
 tutorials/scripting/c_sharp/diagnostics/GD0107.pot
+tutorials/scripting/c_sharp/diagnostics/GD0108.pot
+tutorials/scripting/c_sharp/diagnostics/GD0109.pot
+tutorials/scripting/c_sharp/diagnostics/GD0110.pot
+tutorials/scripting/c_sharp/diagnostics/GD0111.pot
 tutorials/scripting/c_sharp/diagnostics/GD0201.pot
 tutorials/scripting/c_sharp/diagnostics/GD0202.pot
 tutorials/scripting/c_sharp/diagnostics/GD0203.pot
@@ -397,6 +403,7 @@ tutorials/xr/xr_next_steps.pot
 tutorials/xr/openxr_settings.pot
 tutorials/xr/xr_action_map.pot
 tutorials/xr/xr_room_scale.pot
+tutorials/xr/xr_full_screen_effects.pot
 tutorials/xr/openxr_composition_layers.pot
 tutorials/xr/openxr_hand_tracking.pot
 tutorials/xr/openxr_body_tracking.pot
@@ -472,6 +479,7 @@ contributing/documentation/index.pot
 contributing/documentation/content_guidelines.pot
 contributing/documentation/docs_writing_guidelines.pot
 contributing/documentation/docs_image_guidelines.pot
+contributing/documentation/docs_contribution_checklist.pot
 contributing/documentation/contributing_to_the_documentation.pot
 contributing/documentation/building_the_manual.pot
 contributing/documentation/updating_the_class_reference.pot

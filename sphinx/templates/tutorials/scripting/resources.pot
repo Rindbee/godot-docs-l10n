@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -200,7 +200,7 @@ msgid "Godot makes it easy to create custom Resources in the Inspector."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/resources.rst:192
-msgid "Create a plain Resource object in the Inspector. This can even be a type that derives Resource, so long as your script is extending that type."
+msgid "Create a new Resource object in the Inspector. This can even be a type that derives Resource, so long as your script is extending that type."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/resources.rst:193
@@ -208,7 +208,7 @@ msgid "Set the ``script`` property in the Inspector to be your script."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/resources.rst:195
-msgid "The Inspector will now display your Resource script's custom properties. If one edits those values and saves the resource, the Inspector serializes the custom properties too! To save a resource from the Inspector, click the Inspector's tools menu (top right), and select \"Save\" or \"Save As...\"."
+msgid "The Inspector will now display your Resource script's custom properties. If one edits those values and saves the resource, the Inspector serializes the custom properties too! To save a resource from the Inspector, click the save icon at the top of the Inspector, and select \"Save\" or \"Save As...\"."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/resources.rst:200
@@ -220,7 +220,7 @@ msgid "Let's see some examples. Create a :ref:`Resource <class_Resource>` and na
 msgstr ""
 
 #: ../../docs/tutorials/scripting/resources.rst:212
-msgid "If you're using C#, you need to annotate your Resource class with the ``[GlobalClass]`` attribute for it to show up in the create resource GUI."
+msgid "To make the new resource class appear in the Create Resource GUI you need to provide a class name for GDScript, or use the [GlobalClass] attribute in C#."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/resources.rst:266

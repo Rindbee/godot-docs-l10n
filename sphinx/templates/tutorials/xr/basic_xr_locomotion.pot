@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -48,73 +48,73 @@ msgid "We start by adding a :ref:`StaticBody3D <class_staticbody3d>` node to our
 msgstr ""
 
 #: ../../docs/tutorials/xr/basic_xr_locomotion.rst:34
-msgid "To make it easier to see that we're actually moving around our world, a white floor isn't going to do it. For this we add a material to our PlaneMesh and set the albedo to a grid texture we've created with `Wahooneys excellent free texture generator <https://wahooney.itch.io/texture-grid-generator>`_."
+msgid "To make it easier to see that we're actually moving around our world, a white floor isn't going to do it. Create a texture using `Wahooneys excellent free texture generator <https://wahooney.itch.io/texture-grid-generator>`_. Once you've created the texture add it to your project. Then create a new material for the MeshInstance3D node, add your texture as the albedo, and enable **Triplaner** under **UV1** in the material properties."
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:40
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:43
 msgid "Direct movement"
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:42
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:45
 msgid "We're going to start adding some basic direct movement to our setup. This allows the user to move through the virtual world using joystick input."
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:46
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:49
 msgid "It is important to note that moving through the virtual world while the player is standing still in the real world, can be nausea inducing especially for players who are new to VR. The default settings on our movement functions are fairly conservative. We advise you to stick to these defaults but offer features in game to enable less comfortable settings for more experienced users who are used to playing VR games."
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:50
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:53
 msgid "We want to enable this on the right hand controller. We do this by adding a subscene to the right hand :ref:`XRController3D <class_xrcontroller3d>` node. Select ``addons/godot-xr-tools/functions/movement_direct.tscn`` as the scene to add."
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:54
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:57
 msgid "This function adds forward and backwards movement to the player by using the joystick on the right hand controller. It has an option to also add left/right strafe but by default this is disabled."
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:57
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:60
 msgid "Instead, we are going to add the ability for the player to also turn with this joystick. We will add another subscene to our controller node, select ``addons/godot-xr-tools/functions/movement_turn.tscn`` for this."
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:60
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:63
 msgid "The turn system by default uses a snap turn approach. This means that turning happens in steps. This may seem jarring however it is a tried and tested method of combating motion sickness. You can easily switch to a mode that offers smooth turning by changing the ``mode`` property on the turn node."
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:65
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:68
 msgid "If you run your game at this point in time you will find that you can move through the world freely using the right hand joystick."
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:68
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:71
 msgid "Teleport"
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:70
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:73
 msgid "An alternative to direct movement that some users find more pleasant is the ability to teleport to another location within your game world. Godot XR Tools supports this through the teleport function and we will be adding this to our left hand controller."
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:73
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:76
 msgid "Add a new child scene to your left hand :ref:`XRController3D <class_xrcontroller3d>` node by selecting the ``addons/godot-xr-tools/functions/function_teleport.tscn`` scene."
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:75
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:78
 msgid "With this scene added the player will be able to teleport around the world by pressing the trigger on the left hand controller, pointing where they want to go, and then releasing the trigger. The player can also adjust the orientation by using the left hand controllers joystick."
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:78
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:81
 msgid "If you've followed all instructions correctly your scene should now look something like this:"
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:83
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:86
 msgid "More advanced movement features"
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:85
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:88
 msgid "Godot XR Tools adds many more movement features such as gliding, a grapple hook implementation, a jetpack, climbing mechanics, etc."
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:87
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:90
 msgid "Most work similarly to the basic movement features we've handled so far, simply add the relevant subscene from the plugin to the controller that implements it."
 msgstr ""
 
-#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:89
+#: ../../docs/tutorials/xr/basic_xr_locomotion.rst:92
 msgid "We'll look at some of these in more detail later on in this tutorial where additional setup is required (such as climbing) but for others please look at Godot XR Tools own help pages for details."
 msgstr ""

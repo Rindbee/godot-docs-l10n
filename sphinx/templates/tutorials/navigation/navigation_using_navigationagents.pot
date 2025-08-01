@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -80,7 +80,7 @@ msgid "After a ``target_position`` has been set for the agent, the next position
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:43
-msgid "Once the next path position is received move the parent actor node of the agent towards this path position with your own movement code."
+msgid "Once the next path position is received, move the parent actor node of the agent towards this path position with your own movement code."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:48

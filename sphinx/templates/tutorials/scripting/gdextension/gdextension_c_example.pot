@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -360,7 +360,7 @@ msgid "In the same file, add the declaration for the getters and setters, right 
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdextension/gdextension_c_example.rst:763
-msgid "In the ``gdexample.cpp`` file, we will initialize these values in the constructor and add the implementations for those new functions, which are quite trivial:"
+msgid "In the ``gdexample.c`` file, we will initialize these values in the constructor and add the implementations for those new functions, which are quite trivial:"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdextension/gdextension_c_example.rst:794

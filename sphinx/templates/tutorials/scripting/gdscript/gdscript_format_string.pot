@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,7 +28,7 @@ msgid "Format strings: ``var string = \"I have %s cats.\" % \"3\"``"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_format_string.rst:9
-msgid "The ``String.format()`` method: ``var string = \"I have {} cats.\".format([3])``"
+msgid "The ``String.format()`` method: ``var string = \"I have {0} cats.\".format([3])``"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_format_string.rst:10

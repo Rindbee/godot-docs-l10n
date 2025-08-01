@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -44,11 +44,11 @@ msgid "**Log:** Standard messages printed by the project. Displayed in white or 
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/output_panel.rst:26
-msgid "**Error:** Messages printed by the project or editor that report important information, but do not indicate a failure. Displayed in yellow."
+msgid "**Error:** Messages printed by the project or editor that indicate a failure of some kind. Displayed in red."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/output_panel.rst:28
-msgid "**Warning:** Messages printed by the project or editor that indicate a failure of some kind. Displayed in red."
+msgid "**Warning:** Messages printed by the project or editor that report important information, but do not indicate a failure. Displayed in yellow."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/output_panel.rst:30

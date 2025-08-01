@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -156,7 +156,7 @@ msgid "GDScript"
 msgstr ""
 
 #: ../../docs/tutorials/performance/cpu_optimization.rst:173
-msgid ":ref:`GDScript <toc-learn-scripting-gdscript>` is designed to be easy to use and iterate, and is ideal for making many types of games. However, in this language, ease of use is considered more important than performance. If you need to make heavy calculations, consider moving some of your project to one of the other languages."
+msgid ":ref:`GDScript <doc_gdscript>` is designed to be easy to use and iterate, and is ideal for making many types of games. However, in this language, ease of use is considered more important than performance. If you need to make heavy calculations, consider moving some of your project to one of the other languages."
 msgstr ""
 
 #: ../../docs/tutorials/performance/cpu_optimization.rst:180
@@ -164,7 +164,7 @@ msgid "C#"
 msgstr ""
 
 #: ../../docs/tutorials/performance/cpu_optimization.rst:182
-msgid ":ref:`C# <toc-learn-scripting-C#>` is popular and has first-class support in Godot. It offers a good compromise between speed and ease of use. Beware of possible garbage collection pauses and leaks that can occur during gameplay, though. A common approach to workaround issues with garbage collection is to use *object pooling*, which is outside the scope of this guide."
+msgid ":ref:`C# <doc_c_sharp>` is popular and has first-class support in Godot. It offers a good compromise between speed and ease of use. Beware of possible garbage collection pauses and leaks that can occur during gameplay, though. A common approach to workaround issues with garbage collection is to use *object pooling*, which is outside the scope of this guide."
 msgstr ""
 
 #: ../../docs/tutorials/performance/cpu_optimization.rst:189

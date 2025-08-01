@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 4.4\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:2
+msgid "GD0109: The '[ExportToolButton]' attribute cannot be used with another '[Export]' attribute"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:7
+msgid "**Rule ID**"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:7
+msgid "GD0109"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:8
+msgid "**Category**"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:8
+msgid "Usage"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:9
+msgid "**Fix is breaking or non-breaking**"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:9
+msgid "Non-breaking"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:10
+msgid "**Enabled by default**"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:10
+msgid "Yes"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:14
+msgid "Cause"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:16
+msgid "A property is annotated with both the ``[ExportToolButton]`` and the ``[Export]`` attributes."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:20
+msgid "Rule description"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:22
+msgid "The ``[ExportToolButton]`` attribute already implies exporting the member, so the ``[Export]`` is unnecessary."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:26
+msgid "How to fix violations"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:28
+msgid "To fix a violation of this rule, remove the ``[Export]`` attribute."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:31
+msgid "When to suppress warnings"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0109.rst:33
+msgid "Do not suppress a warning from this rule. Multiple export attributes may lead to duplicated members, resulting in unexpected runtime errors."
+msgstr ""

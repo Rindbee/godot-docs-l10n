@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -477,4 +477,36 @@ msgstr ""
 
 #: ../../docs/tutorials/animation/introduction.rst:391
 msgid "The three dots button next to the onion skinning button opens a dropdown menu that lets you adjust how it works, including the ability to use onion skinning for future frames."
+msgstr ""
+
+#: ../../docs/tutorials/animation/introduction.rst:396
+msgid "Animation Markers"
+msgstr ""
+
+#: ../../docs/tutorials/animation/introduction.rst:398
+msgid "Animation markers can be used to play a specific part of an animation rather than the whole thing. Here is a use case example, there's an animation file that has a character doing two distinct actions, and the project requires the whole animation, as well as both actions individually. Instead of making two additional animations, markers can be placed on the timeline, and both actions can now be played individually."
+msgstr ""
+
+#: ../../docs/tutorials/animation/introduction.rst:405
+msgid "To add a marker to an animation right click the space above the timeline and select **Insert Marker...**."
+msgstr ""
+
+#: ../../docs/tutorials/animation/introduction.rst:410
+msgid "All markers require a unique name within the animation. You can also set the color of the markers for improved organization."
+msgstr ""
+
+#: ../../docs/tutorials/animation/introduction.rst:413
+msgid "To play the part of the animation between two markers use the :ref:`play_section_with_markers()<class_AnimationPlayer_method_play_section_with_markers>` and :ref:`play_section_with_markers_backwards()<class_AnimationPlayer_method_play_section_with_markers_backwards>` methods. If no start marker is specified then the beginning of the animation is used, and if no end marker is specified, then the end of the animation is used."
+msgstr ""
+
+#: ../../docs/tutorials/animation/introduction.rst:418
+msgid "If the end marker is after the end of the animation then the ``AnimationPlayer`` will clamp the end of the section so it does not go past the end of the animation."
+msgstr ""
+
+#: ../../docs/tutorials/animation/introduction.rst:421
+msgid "To preview the animation between two markers use :kbd:`Shift + Click` to select the markers. When two are selected the space between them should be highlighted in red."
+msgstr ""
+
+#: ../../docs/tutorials/animation/introduction.rst:427
+msgid "Now all of the play animation buttons will act as if the selected area is the whole animation. **Play Animation from Start** will treat the first marker as the start of the animation, **Play Animation Backwards from End** will treat the second marker as the end, and so on."
 msgstr ""

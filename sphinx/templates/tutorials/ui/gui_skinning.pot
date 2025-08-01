@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -128,7 +128,7 @@ msgid "It is important to remember that for child classes that process is automa
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_skinning.rst:124
-msgid "You can also define your own theme types, and additionally customize both built-in controls and your own controls. Because built-in controls have no knowledge of your custom theme types, you must utilize scripts to access those items. All control nodes have several methods that allow to fetch theme items from the theme that is applied to them. Those methods accept the theme type as one of the arguments."
+msgid "You can also define your own theme types, and additionally customize both built-in controls and your own controls. Because built-in controls have no knowledge of your custom theme types, you must utilize scripts to access those items. All control nodes have several methods that allow you to fetch theme items from the theme that is applied to them. Those methods accept the theme type as one of the arguments."
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_skinning.rst:141

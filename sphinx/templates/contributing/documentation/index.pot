@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -35,30 +35,30 @@ msgstr ""
 msgid "Here are the principles and guidelines we strive to follow to write accessible documentation."
 msgstr ""
 
-#: ../../docs/contributing/documentation/index.rst:30
+#: ../../docs/contributing/documentation/index.rst:31
 msgid "Writing the manual"
 msgstr ""
 
-#: ../../docs/contributing/documentation/index.rst:32
+#: ../../docs/contributing/documentation/index.rst:33
 msgid "These articles explain how to contribute to this very documentation, and how to build the online version locally for testing."
 msgstr ""
 
-#: ../../docs/contributing/documentation/index.rst:43
+#: ../../docs/contributing/documentation/index.rst:44
 msgid "Class reference guides"
 msgstr ""
 
-#: ../../docs/contributing/documentation/index.rst:45
+#: ../../docs/contributing/documentation/index.rst:46
 msgid "The pages below focus on the class reference."
 msgstr ""
 
-#: ../../docs/contributing/documentation/index.rst:47
+#: ../../docs/contributing/documentation/index.rst:48
 msgid "As the reference is included in the Godot editor, its source files are part of the `godot repository <https://github.com/godotengine/godot>`_. We use XML files to write it, so the process to contribute to the class reference differs from writing the online manual."
 msgstr ""
 
-#: ../../docs/contributing/documentation/index.rst:60
+#: ../../docs/contributing/documentation/index.rst:61
 msgid "Translating the documentation"
 msgstr ""
 
-#: ../../docs/contributing/documentation/index.rst:62
+#: ../../docs/contributing/documentation/index.rst:63
 msgid "The community is always working hard on making Godot and its documentation available to more people. Localizing the documentation is a colossal and ongoing effort you can be part of."
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -272,7 +272,7 @@ msgid "This file lets Godot know what dynamic libraries should be loaded for eac
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:419
-msgid "This file contains a ``configuration`` section that controls the entry function of the module. You should also set the minimum compatible Godot version with ``compatability_minimum``, which prevents older version of Godot from trying to load your extension. The ``reloadable`` flag enables automatic reloading of your extension by the editor every time you recompile it, without needing to restart the editor. This only works if you compile your extension in debug mode (default)."
+msgid "This file contains a ``configuration`` section that controls the entry function of the module. You should also set the minimum compatible Godot version with ``compatibility_minimum``, which prevents older version of Godot from trying to load your extension. The ``reloadable`` flag enables automatic reloading of your extension by the editor every time you recompile it, without needing to restart the editor. This only works if you compile your extension in debug mode (default)."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:425

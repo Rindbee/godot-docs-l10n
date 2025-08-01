@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -92,53 +92,53 @@ msgid "As C# is statically typed, accessing GDScript from C# is a bit more convo
 msgstr ""
 
 #: ../../docs/tutorials/scripting/cross_language_scripting.rst:167
-msgid "Keep in mind that when setting a field value you should only use types the GDScript side knows about. Essentially, you want to work with built-in types as described in :ref:`doc_gdscript` or classes extending :ref:`class_Object`."
+msgid "Keep in mind that when setting a field value you should only use types the GDScript side knows about. Essentially, you want to work with built-in types as described in :ref:`doc_gdscript_builtin_types` or classes extending :ref:`class_Object`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/cross_language_scripting.rst:172
+#: ../../docs/tutorials/scripting/cross_language_scripting.rst:173
 msgid "Calling methods"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/cross_language_scripting.rst:175
+#: ../../docs/tutorials/scripting/cross_language_scripting.rst:176
 msgid "Calling C# methods from GDScript"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/cross_language_scripting.rst:177
+#: ../../docs/tutorials/scripting/cross_language_scripting.rst:178
 msgid "Again, calling C# methods from GDScript should be straightforward. The marshalling process will do its best to cast the arguments to match function signatures. If that's impossible, you'll see the following error: ``Invalid call. Nonexistent function `FunctionName```."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/cross_language_scripting.rst:198
+#: ../../docs/tutorials/scripting/cross_language_scripting.rst:199
 msgid "Calling GDScript methods from C#"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/cross_language_scripting.rst:200
+#: ../../docs/tutorials/scripting/cross_language_scripting.rst:201
 msgid "To call GDScript methods from C# you'll need to use :ref:`GodotObject.Call() <class_Object_method_call>`. The first argument is the name of the method you want to call. The following arguments will be passed to said method."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/cross_language_scripting.rst:226
+#: ../../docs/tutorials/scripting/cross_language_scripting.rst:227
 msgid "Connecting to signals"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/cross_language_scripting.rst:229
+#: ../../docs/tutorials/scripting/cross_language_scripting.rst:230
 msgid "Connecting to C# signals from GDScript"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/cross_language_scripting.rst:231
+#: ../../docs/tutorials/scripting/cross_language_scripting.rst:232
 msgid "Connecting to a C# signal from GDScript is the same as connecting to a signal defined in GDScript:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/cross_language_scripting.rst:241
+#: ../../docs/tutorials/scripting/cross_language_scripting.rst:242
 msgid "Connecting to GDScript signals from C#"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/cross_language_scripting.rst:243
+#: ../../docs/tutorials/scripting/cross_language_scripting.rst:244
 msgid "Connecting to a GDScript signal from C# only works with the ``Connect`` method because no C# static types exist for signals defined by GDScript:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/cross_language_scripting.rst:253
+#: ../../docs/tutorials/scripting/cross_language_scripting.rst:254
 msgid "Inheritance"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/cross_language_scripting.rst:255
+#: ../../docs/tutorials/scripting/cross_language_scripting.rst:256
 msgid "A GDScript file may not inherit from a C# script. Likewise, a C# script may not inherit from a GDScript file. Due to how complex this would be to implement, this limitation is unlikely to be lifted in the future. See `this GitHub issue <https://github.com/godotengine/godot/issues/38352>`__ for more information."
 msgstr ""
