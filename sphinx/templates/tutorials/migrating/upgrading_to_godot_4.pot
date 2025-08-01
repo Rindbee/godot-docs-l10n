@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1675,4 +1675,12 @@ msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:784
 msgid "Many settings' names and categories have changed since Godot 3.x. Editor settings whose name or category has changed won't carry over to Godot 4.0; you will have to set their values again."
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:790
+msgid "Updating version control settings"
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:792
+msgid "Godot 3.x and 4.x have entirely different lists of files and folders that should be ignored by your :ref:`version control system<doc_version_control_systems>`."
 msgstr ""

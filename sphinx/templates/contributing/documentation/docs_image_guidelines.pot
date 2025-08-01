@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -44,7 +44,7 @@ msgid "On macOS, pressing :kbd:`Shift + Command + 3` does the same. To take a pi
 msgstr ""
 
 #: ../../docs/contributing/documentation/docs_image_guidelines.rst:28
-msgid "Each Linux desktop environment has it's own screenshot tool. For example, on KDE Plasma the program Spectacle is used for taking screenshots. If your distribution doesn't come with one by default try searching its package repository, or Flathub if that's supported."
+msgid "Each Linux desktop environment has its own screenshot tool. For example, on KDE Plasma the program Spectacle is used for taking screenshots. If your distribution doesn't come with one by default try searching its package repository, or Flathub if that's supported."
 msgstr ""
 
 #: ../../docs/contributing/documentation/docs_image_guidelines.rst:33
@@ -140,81 +140,81 @@ msgid "Once you've finished working on your image, it can be added to the docume
 msgstr ""
 
 #: ../../docs/contributing/documentation/docs_image_guidelines.rst:161
-msgid "To add your image, add it to the ``img`` folder that's in the same folder as the ``.rst`` file for the page (create it if it doesn't exist). In the ``.rst`` page, images should be included with the following code snippet::"
+msgid "To add your image, add it to the ``img`` folder that's in the same folder as the ``.rst`` file for the page (create it if it doesn't exist). In the ``.rst`` page, images should be included with the following code snippet:"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:167
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:169
 msgid "Where ``documentation_image.webp`` would be changed to the name of the image you created. Name your images in a way that makes their meaning clear, possibly with a prefix that makes their relationship to a documentation page explicit."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:174
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:176
 msgid "Videos"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:177
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:179
 msgid "Capturing a video"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:179
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:181
 msgid "To record a video of something in Godot, a screen capture tool can be used. Operating systems generally don't come with tools that are flexible enough for this, so you'll need to install a third-party utility."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:183
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:185
 msgid "`OBS Studio <https://obsproject.com/>`__ is the most popular option, but `SimpleScreenRecorder <https://www.maartenbaert.be/simplescreenrecorder/>`__ can be used as an alternative on Linux. `ShareX <https://getsharex.com/>`__ can be used as an alternative on Windows. All these tools can be configured to record the entire screen, a specific window or a predetermined rectangle."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:189
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:191
 msgid "The recommended framerate for video recordings is 60 FPS, although you can use 30 FPS for longer videos to reduce their file size. For fullscreen videos, use a resolution of 1280×720."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:195
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:197
 msgid "Godot's :ref:`Movie Maker mode <doc_creating_movies>` can be used to record the output of a running project, including its audio. This doesn't require installing any third-party software and avoids any frame drops (even when recording on a slow device), but it's less flexible."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:201
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:203
 msgid "Compressing the captured video"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:203
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:205
 msgid "The recommendation is to record your video in the highest quality possible (without dropping frames due to excessive CPU/GPU utilization), then re-encode it later to reduce its file size. This results in more efficient compression than directly aiming for a small file size, as real-time compression methods are less efficient than slower compression methods."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:209
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:211
 msgid "To re-encode videos for a smaller file size, use `HandBrake <https://handbrake.fr/>`__ or the `FFmpeg <https://ffmpeg.org/>` command line below:"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:216
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:218
 msgid "The number after ``-crf`` adjusts the video quality, with higher numbers resulting in *lower* quality (and smaller file sizes). A CRF of ``23`` is a good starting point, but you may need to use a higher value for longer videos to ensure the file size remains reasonable. Try to aim for a file size under 2 MB if possible."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:222
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:224
 msgid "If the video was recorded in a higher resolution or framerate, you can adjust its output resolution and framerate as follows:"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:229
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:231
 msgid "This results in a video resolution around 1280×720 at 30 FPS. The exact video resolution will vary depending on the source's aspect ratio."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:234
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:236
 msgid "If the video was recorded with an audio track but this audio track is not necessary, consider stripping it by adding the ``-an`` option to the FFmpeg command line (before the output file name). This will reduce file size and also ensure audio controls don't show up on the video when played in a browser."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:241
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:243
 msgid "Adding a video to a documentation page"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:243
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:245
 msgid "Once you've finished working on your video, it can be added to the documentation. All videos are stored in folders named ``video`` next to the page they are used in."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:246
-msgid "To add your video, add it to the ``video`` folder that's in the same folder as the ``.rst`` file for the page (create it if it doesn't exist). In the ``.rst`` page, videos should be included with the following code snippet::"
-msgstr ""
-
-#: ../../docs/contributing/documentation/docs_image_guidelines.rst:257
-msgid "Where ``documentation_video.webp`` would be changed to the name of the video you created. Name your videos in a way that makes their meaning clear, possibly with a prefix that makes their relationship to a documentation page explicit."
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:248
+msgid "To add your video, add it to the ``video`` folder that's in the same folder as the ``.rst`` file for the page (create it if it doesn't exist). In the ``.rst`` page, videos should be included with the following code snippet:"
 msgstr ""
 
 #: ../../docs/contributing/documentation/docs_image_guidelines.rst:261
+msgid "Where ``documentation_video.webp`` would be changed to the name of the video you created. Name your videos in a way that makes their meaning clear, possibly with a prefix that makes their relationship to a documentation page explicit."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_image_guidelines.rst:265
 msgid "The ``:autoplay:``, ``:loop:`` and ``:muted:`` flags should always be specified unless the video needs to play audio. In this case, do not specify *any* of these flags. The ``:align: default`` flag should always be specified."
 msgstr ""

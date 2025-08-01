@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -120,7 +120,7 @@ msgid "Also, please don't take a picture with your phone, the low quality and sc
 msgstr ""
 
 #: ../../docs/getting_started/introduction/learning_new_features.rst:127
-msgid "Alternatively, you can use a program like `ShareX <https://getsharex.com/>`_ on Windows, or `FlameShot <https://flameshot.org/>`_ on Linux."
+msgid "Alternatively, you can use a program like `ShareX <https://getsharex.com/>`_ on Windows, or `Flameshot <https://flameshot.org/>`_ on Windows/macOS/Linux."
 msgstr ""
 
 #: ../../docs/getting_started/introduction/learning_new_features.rst:130

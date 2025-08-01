@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -604,66 +604,70 @@ msgstr ""
 msgid "We use our custom String type, as the one provided by STL is too basic and lacks proper internationalization support."
 msgstr ""
 
-#: ../../docs/about/faq.rst:583
-msgid "Why does Godot not use exceptions?"
+#: ../../docs/about/faq.rst:582
+msgid "Check out :ref:`Godot's container types <doc_core_types>` for alternatives."
 msgstr ""
 
 #: ../../docs/about/faq.rst:585
+msgid "Why does Godot not use exceptions?"
+msgstr ""
+
+#: ../../docs/about/faq.rst:587
 msgid "We believe games should not crash, no matter what. If an unexpected situation happens, Godot will print an error (which can be traced even to script), but then it will try to recover as gracefully as possible and keep going."
 msgstr ""
 
-#: ../../docs/about/faq.rst:590
+#: ../../docs/about/faq.rst:592
 msgid "Additionally, exceptions significantly increase the binary size for the executable and result in increased compile times."
 msgstr ""
 
-#: ../../docs/about/faq.rst:594
+#: ../../docs/about/faq.rst:596
 msgid "Does Godot use an ECS (Entity Component System)?"
 msgstr ""
 
-#: ../../docs/about/faq.rst:596
+#: ../../docs/about/faq.rst:598
 msgid "Godot does **not** use an ECS and relies on inheritance instead. While there is no universally better approach, we found that using an inheritance-based approach resulted in better usability while still being fast enough for most use cases."
 msgstr ""
 
-#: ../../docs/about/faq.rst:600
+#: ../../docs/about/faq.rst:602
 msgid "That said, nothing prevents you from making use of composition in your project by creating child Nodes with individual scripts. These nodes can then be added and removed at runtime to dynamically add and remove behaviors."
 msgstr ""
 
-#: ../../docs/about/faq.rst:604
+#: ../../docs/about/faq.rst:606
 msgid "More information about Godot's design choices can be found in `this article <https://godotengine.org/article/why-isnt-godot-ecs-based-game-engine>`__."
 msgstr ""
 
-#: ../../docs/about/faq.rst:608
+#: ../../docs/about/faq.rst:610
 msgid "Why does Godot not force users to implement DOD (Data-Oriented Design)?"
 msgstr ""
 
-#: ../../docs/about/faq.rst:610
+#: ../../docs/about/faq.rst:612
 msgid "While Godot internally attempts to use cache coherency as much as possible, we believe users don't need to be forced to use DOD practices."
 msgstr ""
 
-#: ../../docs/about/faq.rst:613
+#: ../../docs/about/faq.rst:615
 msgid "DOD is mostly a cache coherency optimization that can only provide significant performance improvements when dealing with dozens of thousands of objects which are processed every frame with little modification. That is, if you are moving a few hundred sprites or enemies per frame, DOD won't result in a meaningful improvement in performance. In such a case, you should consider a different approach to optimization."
 msgstr ""
 
-#: ../../docs/about/faq.rst:620
+#: ../../docs/about/faq.rst:622
 msgid "The vast majority of games do not need this and Godot provides handy helpers to do the job for most cases when you do."
 msgstr ""
 
-#: ../../docs/about/faq.rst:623
+#: ../../docs/about/faq.rst:625
 msgid "If a game needs to process such a large amount of objects, our recommendation is to use C++ and GDExtensions for performance-heavy tasks and GDScript (or C#) for the rest of the game."
 msgstr ""
 
-#: ../../docs/about/faq.rst:628
+#: ../../docs/about/faq.rst:630
 msgid "How can I support Godot development or contribute?"
 msgstr ""
 
-#: ../../docs/about/faq.rst:630
+#: ../../docs/about/faq.rst:632
 msgid "See :ref:`doc_ways_to_contribute`."
 msgstr ""
 
-#: ../../docs/about/faq.rst:633
+#: ../../docs/about/faq.rst:635
 msgid "Who is working on Godot? How can I contact you?"
 msgstr ""
 
-#: ../../docs/about/faq.rst:635
+#: ../../docs/about/faq.rst:637
 msgid "See the corresponding page on the `Godot website <https://godotengine.org/contact>`_."
 msgstr ""

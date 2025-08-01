@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -64,11 +64,11 @@ msgid "Adapt the tick rate?"
 msgstr ""
 
 #: ../../docs/tutorials/physics/interpolation/physics_interpolation_introduction.rst:62
-msgid "Instead of designing the game at a fixed physics tick rate, we could allow the tick rate to scale according to the end users hardware. We could for example use a fixed tick rate that works for that hardware, or even vary the duration of each physics tick to match a particular frame duration."
+msgid "Instead of designing the game at a fixed physics tick rate, we could allow the tick rate to scale according to the end user's hardware. We could for example use a fixed tick rate that works for that hardware, or even vary the duration of each physics tick to match a particular frame duration."
 msgstr ""
 
 #: ../../docs/tutorials/physics/interpolation/physics_interpolation_introduction.rst:67
-msgid "This works, but there is a problem. Physics (*and game logic*, which is often also run in the ``_physics_process``) work best and most consistently when run at a **fixed**, predetermined tick rate. If you attempt to run a racing game physics that has been designed for 60 TPS (ticks per second) at e.g. 10 TPS, the physics will behave completely differently. Controls may be less responsive, collisions / trajectories can be completely different. You may test your game thoroughly at 60 TPS, then find it breaks on end users machines when it runs at a different tick rate."
+msgid "This works, but there is a problem. Physics (*and game logic*, which is often also run in the ``_physics_process``) work best and most consistently when run at a **fixed**, predetermined tick rate. If you attempt to run a racing game physics that has been designed for 60 TPS (ticks per second) at e.g. 10 TPS, the physics will behave completely differently. Controls may be less responsive, collisions / trajectories can be completely different. You may test your game thoroughly at 60 TPS, then find it breaks on end users' machines when it runs at a different tick rate."
 msgstr ""
 
 #: ../../docs/tutorials/physics/interpolation/physics_interpolation_introduction.rst:76

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -283,10 +283,10 @@ msgstr ""
 msgid "Here's the code for the player body:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/using_character_body_2d.rst:524
+#: ../../docs/tutorials/physics/using_character_body_2d.rst:526
 msgid "In this code we're using ``move_and_slide()`` as described above - to move the body along its velocity vector, sliding along any collision surfaces such as the ground or a platform. We're also using ``is_on_floor()`` to check if a jump should be allowed. Without this, you'd be able to \"jump\" in midair; great if you're making Flappy Bird, but not for a platformer game."
 msgstr ""
 
-#: ../../docs/tutorials/physics/using_character_body_2d.rst:530
+#: ../../docs/tutorials/physics/using_character_body_2d.rst:532
 msgid "There is a lot more that goes into a complete platformer character: acceleration, double-jumps, coyote-time, and many more. The code above is just a starting point. You can use it as a base to expand into whatever movement behavior you need for your own projects."
 msgstr ""

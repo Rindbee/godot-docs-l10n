@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -48,7 +48,7 @@ msgid "OBJ (Wavefront) format + their MTL material files. This is also supported
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:21
-msgid "FBX, supported via the `ufbx <https://github.com/ufbx/ufbx>`__ library. The previous import workflow used `FBX2glTF <https://github.com/godotengine/FBX2glTF>`__ integration. This requires installing an external program that links against the proprietary FBX SDK, so we recommend using the default ubfx method or other formats listed above (if suitable for your workflow)."
+msgid "FBX, supported via the `ufbx <https://github.com/ufbx/ufbx>`__ library. The previous import workflow used `FBX2glTF <https://github.com/godotengine/FBX2glTF>`__ integration. This requires installing an external program that links against the proprietary FBX SDK, so we recommend using the default ufbx method or other formats listed above (if suitable for your workflow)."
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:27

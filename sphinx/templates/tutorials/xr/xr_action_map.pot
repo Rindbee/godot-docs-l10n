@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -211,7 +211,7 @@ msgid "0"
 msgstr ""
 
 #: ../../docs/tutorials/xr/xr_action_map.rst:152
-msgid "This is the priority of the action set. If multiple active action sets have actions bound to the same controllers inputs or outputs, the action set with the highest priority value will determine the action that is updated."
+msgid "This is the priority of the action set. If multiple active action sets have actions bound to the same controller's inputs or outputs, the action set with the highest priority value will determine the action that is updated."
 msgstr ""
 
 #: ../../docs/tutorials/xr/xr_action_map.rst:158
@@ -550,191 +550,191 @@ msgstr ""
 msgid "This is our advice as well: limit your action map to the interaction profiles for devices you have actually tested your game with. The Oculus Touch controller is widely used as a fallback controller by many runtimes. If you are able to test your game using a Meta Rift or Quest and add this profile there is a high probability your game will work with other headsets."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:484
+#: ../../docs/tutorials/xr/xr_action_map.rst:486
 msgid "Binding Modifiers"
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:486
+#: ../../docs/tutorials/xr/xr_action_map.rst:488
 msgid "One of the main goals of the action map is to remove the need for the application to know the hardware used. However, sometimes the hardware has physical differences that require inputs to be altered in ways other than how they are bound to actions. This need ranges from setting thresholds, to altering the inputs available on a controller."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:493
+#: ../../docs/tutorials/xr/xr_action_map.rst:495
 msgid "Binding modifiers are not enabled by default and require enabling in the OpenXR project settings. Also there is no guarantee that these modifiers are supported by every runtime. You will need to consult the support for the runtimes you are targeting and decide whether to rely on the modifiers or implement some form of fallback mechanism."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:499
+#: ../../docs/tutorials/xr/xr_action_map.rst:501
 msgid "If you are targeting multiple runtimes that have support for the same controllers, you may need to create separate action maps for each runtime. You can control which action map Godot uses by using different export templates for each runtime and using a custom :ref:`feature tag <doc_feature_tags>` to set the action map."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:505
+#: ../../docs/tutorials/xr/xr_action_map.rst:507
 msgid "In Godot, binding modifiers are divided into two groups: modifiers that work on the interaction profile level, and modifiers that work on individual bindings."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:510
+#: ../../docs/tutorials/xr/xr_action_map.rst:512
 msgid "Binding modifiers on an interaction profile"
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:512
+#: ../../docs/tutorials/xr/xr_action_map.rst:514
 msgid "Binding modifiers that are applied to the whole interaction profile can be accessed through the modifier button on the right side of the interaction profile editor."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:517
-#: ../../docs/tutorials/xr/xr_action_map.rst:584
+#: ../../docs/tutorials/xr/xr_action_map.rst:519
+#: ../../docs/tutorials/xr/xr_action_map.rst:586
 msgid "You can add a new modifier by pressing the ``Add binding modifier`` button."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:520
+#: ../../docs/tutorials/xr/xr_action_map.rst:522
 msgid "As Godot doesn't know which controllers and runtimes support a modifier, there is no restriction to adding modifiers. Unsupported modifiers will be ignored."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:525
+#: ../../docs/tutorials/xr/xr_action_map.rst:527
 msgid "Dpad Binding modifier"
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:527
+#: ../../docs/tutorials/xr/xr_action_map.rst:529
 msgid "The dpad binding modifier adds new inputs to an interaction profile for each joystick and thumbpad input on this controller. It turns the input into a dpad with separate up, down, left and right inputs that are exposed as buttons:"
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:535
+#: ../../docs/tutorials/xr/xr_action_map.rst:537
 msgid "Inputs related to extensions are denoted with an asterix."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:537
+#: ../../docs/tutorials/xr/xr_action_map.rst:539
 msgid "In order to use the dpad binding modifier you need to enable the dpad binding modifier extension in project settings:"
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:542
+#: ../../docs/tutorials/xr/xr_action_map.rst:544
 msgid "Enabling the extension is enough to make this functionality work using default settings."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:544
+#: ../../docs/tutorials/xr/xr_action_map.rst:546
 msgid "Adding the modifier is optional and allows you to fine tune the way the dpad functionality behaves. You can add the modifier multiple times to set different settings for different inputs."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:550
+#: ../../docs/tutorials/xr/xr_action_map.rst:552
 msgid "These settings are used as follows:"
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:552
+#: ../../docs/tutorials/xr/xr_action_map.rst:554
 msgid "``Action Set`` defines the action set to which these settings are applied."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:553
+#: ../../docs/tutorials/xr/xr_action_map.rst:555
 msgid "``Input Path`` defines the original input that is mapped to the new dpad inputs."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:554
+#: ../../docs/tutorials/xr/xr_action_map.rst:556
 msgid "``Threshold`` specifies the threshold value that will enable a dpad action, e.g. a value of ``0.6`` means that if the distance from center goes above ``0.6`` the dpad action is pressed."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:557
+#: ../../docs/tutorials/xr/xr_action_map.rst:559
 msgid "``Threshold Released`` specifies the threshold value that will disable a dpad action, e.g. a value of ``0.4`` means that if the distance from center goes below ``0.4`` the dpad action is released."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:560
+#: ../../docs/tutorials/xr/xr_action_map.rst:562
 msgid "``Center Region`` specifies the distance from center that enabled the center action, this is only supported for trackpads."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:562
+#: ../../docs/tutorials/xr/xr_action_map.rst:564
 msgid "``Wedge Angle`` specifies the angle of each wedge. A value of ``90 degrees`` or lower means that up, down, left and right each have a separate slice in which they are in the pressed state. A value above ``90 degrees`` means that the slices overlap and that multiple actions can be in the pressed state."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:567
+#: ../../docs/tutorials/xr/xr_action_map.rst:569
 msgid "``Is Sticky``, when enabled means that an action stays in the pressed state until the thumbstick or trackpad moves into another wedge even if it has left the wedge for that action."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:570
+#: ../../docs/tutorials/xr/xr_action_map.rst:572
 msgid "``On Haptic`` lets us define a haptic output that is automatically activated when an action becomes pressed."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:572
-msgid "``Off Haptic`` lets us define a haptic output that is automatically activated when a action is released."
-msgstr ""
-
-#: ../../docs/tutorials/xr/xr_action_map.rst:577
-msgid "Binding modifiers on individual bindings"
+#: ../../docs/tutorials/xr/xr_action_map.rst:574
+msgid "``Off Haptic`` lets us define a haptic output that is automatically activated when an action is released."
 msgstr ""
 
 #: ../../docs/tutorials/xr/xr_action_map.rst:579
+msgid "Binding modifiers on individual bindings"
+msgstr ""
+
+#: ../../docs/tutorials/xr/xr_action_map.rst:581
 msgid "Binding modifiers that are applied to individual bindings can be accessed through the binding modifier button next to action attached to an input:"
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:587
+#: ../../docs/tutorials/xr/xr_action_map.rst:589
 msgid "As Godot doesn't know which inputs on each runtime support a modifier, there is no restriction to adding modifiers. If the modifier extension is unsupported, modifiers will be filtered out at runtime. Modifiers added to the wrong input may result in a runtime error."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:592
+#: ../../docs/tutorials/xr/xr_action_map.rst:594
 msgid "You should test your action map on the actual hardware and runtime to verify the proper setup."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:596
+#: ../../docs/tutorials/xr/xr_action_map.rst:598
 msgid "Analog threshold modifier"
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:598
+#: ../../docs/tutorials/xr/xr_action_map.rst:600
 msgid "The analog threshold modifier allows you to specify the thresholds used for any analog input, like the trigger, that has a boolean input. This controls when the input is in the pressed state."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:602
+#: ../../docs/tutorials/xr/xr_action_map.rst:604
 msgid "In order to use this modifier you must enable the analog threshold extension in the project settings:"
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:607
+#: ../../docs/tutorials/xr/xr_action_map.rst:609
 msgid "The analog threshold modifier has the following settings:"
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:611
+#: ../../docs/tutorials/xr/xr_action_map.rst:613
 msgid "These are defined as follows:"
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:613
+#: ../../docs/tutorials/xr/xr_action_map.rst:615
 msgid "``On Threshold`` specifies the threshold value that will enable the action, e.g. a value of ``0.6`` means that when the analog value gets above ``0.6`` the action is set to the pressed state."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:616
+#: ../../docs/tutorials/xr/xr_action_map.rst:618
 msgid "``Off Threshold`` specifies the threshold value that will disable the action, e.g. a value of ``0.4`` means that when the analog value goes below ``0.4`` the action is set in to the released state."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:619
+#: ../../docs/tutorials/xr/xr_action_map.rst:621
 msgid "``On Haptic`` lets us define a haptic output that is automatically activated when the input is pressed."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:621
+#: ../../docs/tutorials/xr/xr_action_map.rst:623
 msgid "``Off Haptic`` lets us define a haptic output that is automatically activated when the input is released."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:625
+#: ../../docs/tutorials/xr/xr_action_map.rst:627
 msgid "Haptics on modifiers"
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:627
+#: ../../docs/tutorials/xr/xr_action_map.rst:629
 msgid "Modifiers can support automatic haptic output that is triggered when thresholds are reached."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:631
+#: ../../docs/tutorials/xr/xr_action_map.rst:633
 msgid "Currently both available modifiers support this feature however there is no rule future modifiers also have this capability. Only one type of haptic feedback is supported but in the future other options may become available."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:637
+#: ../../docs/tutorials/xr/xr_action_map.rst:639
 msgid "Haptic vibration"
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:639
+#: ../../docs/tutorials/xr/xr_action_map.rst:641
 msgid "The haptic vibration allows us to specify a simple haptic pulse:"
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:643
+#: ../../docs/tutorials/xr/xr_action_map.rst:645
 msgid "It has the following options:"
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:645
+#: ../../docs/tutorials/xr/xr_action_map.rst:647
 msgid "``Duration`` is the duration of the pulse in nanoseconds. ``-1`` lets the runtime choose an optimal value for a short pulse suitable for the current hardware."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:647
+#: ../../docs/tutorials/xr/xr_action_map.rst:649
 msgid "``Frequency`` is the frequency of the pulse in Hz. ``0`` lets the runtime choose an optimal frequency for a short pulse suitable for the current hardware."
 msgstr ""
 
-#: ../../docs/tutorials/xr/xr_action_map.rst:649
+#: ../../docs/tutorials/xr/xr_action_map.rst:651
 msgid "``Amplitude`` is the amplitude of the pulse."
 msgstr ""

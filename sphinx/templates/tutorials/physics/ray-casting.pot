@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -83,62 +83,62 @@ msgstr ""
 msgid "The result is a dictionary. If the ray didn't hit anything, the dictionary will be empty. If it did hit something, it will contain collision information:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:139
+#: ../../docs/tutorials/physics/ray-casting.rst:141
 msgid "The ``result`` dictionary when a collision occurs contains the following data:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:154
+#: ../../docs/tutorials/physics/ray-casting.rst:156
 msgid "The data is similar in 3D space, using Vector3 coordinates. Note that to enable collisions with Area3D, the boolean parameter ``collide_with_areas`` must be set to ``true``."
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:193
+#: ../../docs/tutorials/physics/ray-casting.rst:195
 msgid "Collision exceptions"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:195
+#: ../../docs/tutorials/physics/ray-casting.rst:197
 msgid "A common use case for ray casting is to enable a character to gather data about the world around it. One problem with this is that the same character has a collider, so the ray will only detect its parent's collider, as shown in the following image:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:202
+#: ../../docs/tutorials/physics/ray-casting.rst:204
 msgid "To avoid self-intersection, the ``intersect_ray()`` parameters object can take an array of exceptions via its ``exclude`` property. This is an example of how to use it from a CharacterBody2D or any other collision object node:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:232
+#: ../../docs/tutorials/physics/ray-casting.rst:234
 msgid "The exceptions array can contain objects or RIDs."
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:235
+#: ../../docs/tutorials/physics/ray-casting.rst:237
 msgid "Collision Mask"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:237
+#: ../../docs/tutorials/physics/ray-casting.rst:239
 msgid "While the exceptions method works fine for excluding the parent body, it becomes very inconvenient if you need a large and/or dynamic list of exceptions. In this case, it is much more efficient to use the collision layer/mask system."
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:241
+#: ../../docs/tutorials/physics/ray-casting.rst:243
 msgid "The ``intersect_ray()`` parameters object can also be supplied a collision mask. For example, to use the same mask as the parent body, use the ``collision_mask`` member variable. The array of exceptions can be supplied as the last argument as well:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:271
+#: ../../docs/tutorials/physics/ray-casting.rst:273
 msgid "See :ref:`doc_physics_introduction_collision_layer_code_example` for details on how to set the collision mask."
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:274
+#: ../../docs/tutorials/physics/ray-casting.rst:276
 msgid "3D ray casting from screen"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:276
+#: ../../docs/tutorials/physics/ray-casting.rst:278
 msgid "Casting a ray from screen to 3D physics space is useful for object picking. There is not much need to do this because :ref:`CollisionObject3D <class_CollisionObject3D>` has an \"input_event\" signal that will let you know when it was clicked, but in case there is any desire to do it manually, here's how."
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:282
+#: ../../docs/tutorials/physics/ray-casting.rst:284
 msgid "To cast a ray from the screen, you need a :ref:`Camera3D <class_Camera3D>` node. A ``Camera3D`` can be in two projection modes: perspective and orthogonal. Because of this, both the ray origin and direction must be obtained. This is because ``origin`` changes in orthogonal mode, while ``normal`` changes in perspective mode:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:290
+#: ../../docs/tutorials/physics/ray-casting.rst:292
 msgid "To obtain it using a camera, the following code can be used:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ray-casting.rst:317
+#: ../../docs/tutorials/physics/ray-casting.rst:319
 msgid "Remember that during ``_input()``, the space may be locked, so in practice this query should be run in ``_physics_process()``."
 msgstr ""

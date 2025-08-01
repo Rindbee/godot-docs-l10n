@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -120,385 +120,429 @@ msgid "Running on iOS (but not within a Web browser)"
 msgstr ""
 
 #: ../../docs/tutorials/export/feature_tags.rst:53
-msgid "**windows**"
+msgid "**visionos**"
 msgstr ""
 
 #: ../../docs/tutorials/export/feature_tags.rst:53
+msgid "Running on visionOS (but not within a Web browser)"
+msgstr ""
+
+#: ../../docs/tutorials/export/feature_tags.rst:55
+msgid "**windows**"
+msgstr ""
+
+#: ../../docs/tutorials/export/feature_tags.rst:55
 msgid "Running on Windows"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:55
+#: ../../docs/tutorials/export/feature_tags.rst:57
 msgid "**linuxbsd**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:55
+#: ../../docs/tutorials/export/feature_tags.rst:57
 msgid "Running on Linux or \\*BSD"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:57
+#: ../../docs/tutorials/export/feature_tags.rst:59
 msgid "**debug**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:57
+#: ../../docs/tutorials/export/feature_tags.rst:59
 msgid "Running on a debug build (including the editor)"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:59
+#: ../../docs/tutorials/export/feature_tags.rst:61
 msgid "**release**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:59
+#: ../../docs/tutorials/export/feature_tags.rst:61
 msgid "Running on a release build"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:61
+#: ../../docs/tutorials/export/feature_tags.rst:63
 msgid "**editor**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:61
+#: ../../docs/tutorials/export/feature_tags.rst:63
 msgid "Running on an editor build"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:63
+#: ../../docs/tutorials/export/feature_tags.rst:65
 msgid "**editor_hint**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:63
+#: ../../docs/tutorials/export/feature_tags.rst:65
 msgid "Running on an editor build, and inside the editor"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:65
+#: ../../docs/tutorials/export/feature_tags.rst:67
 msgid "**editor_runtime**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:65
+#: ../../docs/tutorials/export/feature_tags.rst:67
 msgid "Running on an editor build, and running the project"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:67
+#: ../../docs/tutorials/export/feature_tags.rst:69
 msgid "**template**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:67
+#: ../../docs/tutorials/export/feature_tags.rst:69
 msgid "Running on a non-editor (export template) build"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:69
+#: ../../docs/tutorials/export/feature_tags.rst:71
 msgid "**double**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:69
+#: ../../docs/tutorials/export/feature_tags.rst:71
 msgid "Running on a double-precision build"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:71
+#: ../../docs/tutorials/export/feature_tags.rst:73
 msgid "**single**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:71
+#: ../../docs/tutorials/export/feature_tags.rst:73
 msgid "Running on a single-precision build"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:73
+#: ../../docs/tutorials/export/feature_tags.rst:75
 msgid "**64**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:73
+#: ../../docs/tutorials/export/feature_tags.rst:75
 msgid "Running on a 64-bit build (any architecture)"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:75
+#: ../../docs/tutorials/export/feature_tags.rst:77
 msgid "**32**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:75
+#: ../../docs/tutorials/export/feature_tags.rst:77
 msgid "Running on a 32-bit build (any architecture)"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:77
+#: ../../docs/tutorials/export/feature_tags.rst:79
 msgid "**x86_64**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:77
+#: ../../docs/tutorials/export/feature_tags.rst:79
 msgid "Running on a 64-bit x86 build"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:79
+#: ../../docs/tutorials/export/feature_tags.rst:81
 msgid "**x86_32**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:79
+#: ../../docs/tutorials/export/feature_tags.rst:81
 msgid "Running on a 32-bit x86 build"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:81
+#: ../../docs/tutorials/export/feature_tags.rst:83
 msgid "**x86**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:81
+#: ../../docs/tutorials/export/feature_tags.rst:83
 msgid "Running on an x86 build (any bitness)"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:83
+#: ../../docs/tutorials/export/feature_tags.rst:85
 msgid "**arm64**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:83
+#: ../../docs/tutorials/export/feature_tags.rst:85
 msgid "Running on a 64-bit ARM build"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:85
+#: ../../docs/tutorials/export/feature_tags.rst:87
 msgid "**arm32**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:85
+#: ../../docs/tutorials/export/feature_tags.rst:87
 msgid "Running on a 32-bit ARM build"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:87
+#: ../../docs/tutorials/export/feature_tags.rst:89
 msgid "**arm**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:87
+#: ../../docs/tutorials/export/feature_tags.rst:89
 msgid "Running on an ARM build (any bitness)"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:89
+#: ../../docs/tutorials/export/feature_tags.rst:91
 msgid "**rv64**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:89
+#: ../../docs/tutorials/export/feature_tags.rst:91
 msgid "Running on a 64-bit RISC-V build"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:91
+#: ../../docs/tutorials/export/feature_tags.rst:93
 msgid "**riscv**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:91
+#: ../../docs/tutorials/export/feature_tags.rst:93
 msgid "Running on a RISC-V build (any bitness)"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:93
+#: ../../docs/tutorials/export/feature_tags.rst:95
 msgid "**ppc64**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:93
+#: ../../docs/tutorials/export/feature_tags.rst:95
 msgid "Running on a 64-bit PowerPC build"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:95
+#: ../../docs/tutorials/export/feature_tags.rst:97
 msgid "**ppc32**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:95
+#: ../../docs/tutorials/export/feature_tags.rst:97
 msgid "Running on a 32-bit PowerPC build"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:97
+#: ../../docs/tutorials/export/feature_tags.rst:99
 msgid "**ppc**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:97
+#: ../../docs/tutorials/export/feature_tags.rst:99
 msgid "Running on a PowerPC build (any bitness)"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:99
+#: ../../docs/tutorials/export/feature_tags.rst:101
 msgid "**wasm64**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:99
+#: ../../docs/tutorials/export/feature_tags.rst:101
 msgid "Running on a 64-bit WebAssembly build (not yet possible)"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:101
+#: ../../docs/tutorials/export/feature_tags.rst:103
 msgid "**wasm32**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:101
+#: ../../docs/tutorials/export/feature_tags.rst:103
 msgid "Running on a 32-bit WebAssembly build"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:103
+#: ../../docs/tutorials/export/feature_tags.rst:105
 msgid "**wasm**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:103
+#: ../../docs/tutorials/export/feature_tags.rst:105
 msgid "Running on a WebAssembly build (any bitness)"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:105
+#: ../../docs/tutorials/export/feature_tags.rst:107
 msgid "**mobile**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:105
+#: ../../docs/tutorials/export/feature_tags.rst:107
 msgid "Host OS is a mobile platform"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:107
+#: ../../docs/tutorials/export/feature_tags.rst:109
 msgid "**pc**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:107
+#: ../../docs/tutorials/export/feature_tags.rst:109
 msgid "Host OS is a PC platform (desktop/laptop)"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:109
+#: ../../docs/tutorials/export/feature_tags.rst:111
 msgid "**web**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:109
+#: ../../docs/tutorials/export/feature_tags.rst:111
 msgid "Host OS is a Web browser"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:111
+#: ../../docs/tutorials/export/feature_tags.rst:113
+msgid "**nothreads**"
+msgstr ""
+
+#: ../../docs/tutorials/export/feature_tags.rst:113
+msgid "Running without threading support"
+msgstr ""
+
+#: ../../docs/tutorials/export/feature_tags.rst:115
+msgid "**threads**"
+msgstr ""
+
+#: ../../docs/tutorials/export/feature_tags.rst:115
+msgid "Running with threading support"
+msgstr ""
+
+#: ../../docs/tutorials/export/feature_tags.rst:117
 msgid "**web_android**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:111
+#: ../../docs/tutorials/export/feature_tags.rst:117
 msgid "Host OS is a Web browser running on Android"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:113
+#: ../../docs/tutorials/export/feature_tags.rst:119
 msgid "**web_ios**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:113
+#: ../../docs/tutorials/export/feature_tags.rst:119
 msgid "Host OS is a Web browser running on iOS"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:115
+#: ../../docs/tutorials/export/feature_tags.rst:121
 msgid "**web_linuxbsd**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:115
+#: ../../docs/tutorials/export/feature_tags.rst:121
 msgid "Host OS is a Web browser running on Linux or \\*BSD"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:117
+#: ../../docs/tutorials/export/feature_tags.rst:123
 msgid "**web_macos**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:117
+#: ../../docs/tutorials/export/feature_tags.rst:123
 msgid "Host OS is a Web browser running on macOS"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:119
+#: ../../docs/tutorials/export/feature_tags.rst:125
 msgid "**web_windows**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:119
+#: ../../docs/tutorials/export/feature_tags.rst:125
 msgid "Host OS is a Web browser running on Windows"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:121
+#: ../../docs/tutorials/export/feature_tags.rst:127
 msgid "**etc**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:121
+#: ../../docs/tutorials/export/feature_tags.rst:127
 msgid "Textures using ETC1 compression are supported"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:123
+#: ../../docs/tutorials/export/feature_tags.rst:129
 msgid "**etc2**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:123
+#: ../../docs/tutorials/export/feature_tags.rst:129
 msgid "Textures using ETC2 compression are supported"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:125
+#: ../../docs/tutorials/export/feature_tags.rst:131
 msgid "**s3tc**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:125
+#: ../../docs/tutorials/export/feature_tags.rst:131
 msgid "Textures using S3TC (DXT/BC) compression are supported"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:127
+#: ../../docs/tutorials/export/feature_tags.rst:133
 msgid "**movie**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:127
+#: ../../docs/tutorials/export/feature_tags.rst:133
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:132
-msgid "With the exception of texture compression, ``web_<platform>`` and ``movie`` feature tags, default feature tags are **immutable**. This means that they will *not* change depending on runtime conditions. For example, ``OS.has_feature(\"mobile\")`` will return ``false`` when running a project exported to Web on a mobile device."
+#: ../../docs/tutorials/export/feature_tags.rst:135
+msgid "**shader_baker**"
+msgstr ""
+
+#: ../../docs/tutorials/export/feature_tags.rst:135
+msgid "Project was exported with shader baking enabled (only applies to the exported project, not when running in the editor)"
 msgstr ""
 
 #: ../../docs/tutorials/export/feature_tags.rst:138
-msgid "To check whether a project exported to Web is running on a mobile device, use ``OS.has_feature(\"web_android\") or OS.has_feature(\"web_ios\")``."
+msgid "**dedicated_server**"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:142
-msgid "Custom features"
+#: ../../docs/tutorials/export/feature_tags.rst:138
+msgid "Project was exported as a :ref:`dedicated server <doc_exporting_for_dedicated_servers>` (only applies to the exported project, not when running in the editor)"
 msgstr ""
 
 #: ../../docs/tutorials/export/feature_tags.rst:144
+msgid "With the exception of texture compression, ``web_<platform>`` and ``movie`` feature tags, default feature tags are **immutable**. This means that they will *not* change depending on runtime conditions. For example, ``OS.has_feature(\"mobile\")`` will return ``false`` when running a project exported to Web on a mobile device."
+msgstr ""
+
+#: ../../docs/tutorials/export/feature_tags.rst:150
+msgid "To check whether a project exported to Web is running on a mobile device, use ``OS.has_feature(\"web_android\") or OS.has_feature(\"web_ios\")``."
+msgstr ""
+
+#: ../../docs/tutorials/export/feature_tags.rst:154
+msgid "Custom features"
+msgstr ""
+
+#: ../../docs/tutorials/export/feature_tags.rst:156
 msgid "It is possible to add custom features to a build; use the relevant field in the *export preset* used to generate it:"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:151
+#: ../../docs/tutorials/export/feature_tags.rst:163
 msgid "Custom feature tags are only used when running the exported project (including with :ref:`doc_one-click_deploy`). They are **not used** when running the project from the editor, even if the export preset marked as **Runnable** for your current platform has custom feature tags defined."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:157
+#: ../../docs/tutorials/export/feature_tags.rst:168
+msgid "Custom feature tags are also not used in :ref:`class_EditorExportPlugin` scripts. Instead, feature tags in :ref:`class_EditorExportPlugin` will reflect the device the editor is currently running on."
+msgstr ""
+
+#: ../../docs/tutorials/export/feature_tags.rst:173
 msgid "Overriding project settings"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:159
+#: ../../docs/tutorials/export/feature_tags.rst:175
 msgid "Features can be used to override specific configuration values in the *Project Settings*. This allows you to better customize any configuration when doing a build."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:162
+#: ../../docs/tutorials/export/feature_tags.rst:178
 msgid "In the following example, a different icon is added for the demo build of the game (which was customized in a special export preset, which, in turn, includes only demo levels)."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:165
+#: ../../docs/tutorials/export/feature_tags.rst:181
 msgid "The Project Settings panel"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:168
+#: ../../docs/tutorials/export/feature_tags.rst:184
 msgid "The desired configuration is selected, which effectively copies its properties to the panel above (1). The \"demo_build\" feature tag is selected (2). The configuration is added to the project settings (3)."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:170
+#: ../../docs/tutorials/export/feature_tags.rst:186
 msgid "After overriding, a new field is added for this specific configuration."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:176
+#: ../../docs/tutorials/export/feature_tags.rst:192
 msgid "When using the :ref:`project settings \"override.cfg\" functionality <class_ProjectSettings>` (which is unrelated to feature tags), remember that feature tags still apply. Therefore, make sure to *also* override the setting with the desired feature tag(s) if you want them to override base project settings on all platforms and configurations."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:184
+#: ../../docs/tutorials/export/feature_tags.rst:200
 msgid "Default overrides"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:186
+#: ../../docs/tutorials/export/feature_tags.rst:202
 msgid "There are already a lot of settings that come with overrides by default; they can be found in many sections of the project settings."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:192
+#: ../../docs/tutorials/export/feature_tags.rst:208
 msgid "Taking feature tags into account when reading project settings"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:194
+#: ../../docs/tutorials/export/feature_tags.rst:210
 msgid "By default, feature tags are **not** taken into account when reading project settings using the typical approaches (:ref:`ProjectSettings.get_setting<class_ProjectSettings_method_get_setting>` or :ref:`ProjectSettings.get <class_Object_private_method__get>`). Instead, you must use :ref:`ProjectSettings.get_setting_with_override <class_ProjectSettings_method_get_setting>`."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:199
+#: ../../docs/tutorials/export/feature_tags.rst:215
 msgid "For example, with the following project settings:"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:208
+#: ../../docs/tutorials/export/feature_tags.rst:224
 msgid "Using ``ProjectSettings.get_setting(\"section/subsection/example\")`` will return ``\"Release\"`` regardless of whether a debug build is currently running. On the other hand, ``ProjectSettings.get_setting_with_override(\"section/subsection/example\")`` will obey feature tags and will return ``\"Debug\"`` if using a debug build."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:214
+#: ../../docs/tutorials/export/feature_tags.rst:230
 msgid "Customizing the build"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:216
+#: ../../docs/tutorials/export/feature_tags.rst:232
 msgid "Feature tags can be used to customize a build process too, by writing a custom **ExportPlugin**. They are also used to specify which shared library is loaded and exported in **GDExtension**."
 msgstr ""

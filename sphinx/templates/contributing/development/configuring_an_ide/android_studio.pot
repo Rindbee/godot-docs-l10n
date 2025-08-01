@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -117,16 +117,16 @@ msgid "To debug the ``editor`` module:"
 msgstr ""
 
 #: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:58
-#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:91
+#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:92
 msgid "Open the **Build Variants** window using **View > Tools Windows > Build Variants** from the top menu."
 msgstr ""
 
 #: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:59
-msgid "In the **Build Variants** window, make sure that in the **Active Build Variant** column, the ``:editor`` entry is set to **dev**."
+msgid "In the **Build Variants** window, make sure that in the **Active Build Variant** column, the ``:editor`` entry is set to one of the **Dev** variants."
 msgstr ""
 
 #: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:65
-#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:98
+#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:99
 msgid "Open the **Run/Debug Configurations** window by clicking on **Run > Edit Configurations...** on the top menu."
 msgstr ""
 
@@ -134,46 +134,51 @@ msgstr ""
 msgid "In the **Run/Debug Configurations** window, select the ``editor`` entry, and under **Debugger** make sure the **Debug Type** is set to ``Dual (Java + Native)``"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:72
+#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:67
+#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:101
+msgid "Click the ``+`` sign under the **Symbol Directories** section, and add the ``lib`` module directory: ``platform/android/java/lib``"
+msgstr ""
+
+#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:73
 msgid "Select **Run > Debug 'editor'** from the top menu or `click the Debug icon <https://developer.android.com/studio/run/rundebugconfig#running>`_."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:75
+#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:76
 msgid "Building & debugging the app module"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:77
+#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:78
 msgid "The ``app`` module requires the presence of a Godot project in its ``assets`` directory (``<Godot root directory>/platform/android/java/app/assets``) to run. This is usually handled by the Godot Editor during the export process. While developing in Android Studio, it's necessary to manually add a Godot project under that directory to replicate the export process. Once that's done, you can follow the instructions below to run/debug the ``app`` module:"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:82
+#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:83
 msgid "To build the ``app`` module:"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:83
+#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:84
 msgid "Select the `Run/Debug Configurations drop down <https://developer.android.com/studio/run/rundebugconfig#running>`_ and select ``app``."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:89
+#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:90
 msgid "Select **Run > Run 'app'** from the top menu or `click the Run icon <https://developer.android.com/studio/run/rundebugconfig#running>`_."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:90
+#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:91
 msgid "To debug the ``app`` module:"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:92
-msgid "In the **Build Variants** window, make sure that in the **Active Build Variant** column, the ``:app`` entry is set to **dev**."
+#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:93
+msgid "In the **Build Variants** window, make sure that in the **Active Build Variant** column, the ``:app`` entry is set to one of the **Dev** variants."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:99
+#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:100
 msgid "In the **Run/Debug Configurations** window, select the ``app`` entry, and under **Debugger** make sure the **Debug Type** is set to ``Dual (Java + Native)``"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:105
+#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:107
 msgid "Select **Run > Debug 'app'** from the top menu or `click the Debug icon <https://developer.android.com/studio/run/rundebugconfig#running>`_."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:108
+#: ../../docs/contributing/development/configuring_an_ide/android_studio.rst:110
 msgid "If you run into any issues, ask for help in `Godot's Android dev channel <https://chat.godotengine.org/channel/android>`__."
 msgstr ""

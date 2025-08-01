@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -40,7 +40,7 @@ msgid "Applying this model to the XR setup, we add an :ref:`XROrigin3D <class_xr
 msgstr ""
 
 #: ../../docs/tutorials/xr/xr_room_scale.rst:29
-msgid "As a result, the origin node does not represent the position of the player. It represents the center, or start of, the tracking space in which the player can physically move. As the player moves around their room this movement is represented through the tracking of the players headset. In game this translates to the camera node's position being updated accordingly. For all intents and purposes, we are tracking a disembodied head. Unless body tracking is available, we have no knowledge of the position or orientation of the player's body."
+msgid "As a result, the origin node does not represent the position of the player. It represents the center, or start of, the tracking space in which the player can physically move. As the player moves around their room this movement is represented through the tracking of the player's headset. In game this translates to the camera node's position being updated accordingly. For all intents and purposes, we are tracking a disembodied head. Unless body tracking is available, we have no knowledge of the position or orientation of the player's body."
 msgstr ""
 
 #: ../../docs/tutorials/xr/xr_room_scale.rst:38
@@ -161,7 +161,7 @@ msgid "In this approach step 1 is where all the magic happens. Just like with ou
 msgstr ""
 
 #: ../../docs/tutorials/xr/xr_room_scale.rst:232
-msgid "This will ensure that the players location stays in sync with the character body's location."
+msgid "This will ensure that the player's location stays in sync with the character body's location."
 msgstr ""
 
 #: ../../docs/tutorials/xr/xr_room_scale.rst:281
@@ -221,7 +221,7 @@ msgid "The problem with this approach is that physical movement is now not repli
 msgstr ""
 
 #: ../../docs/tutorials/xr/xr_room_scale.rst:379
-msgid "What many XR games do instead, is to measure the distance between where the player physically is, and where the players virtual body has been left behind. As this distance increases, usually to a distance of a few centimeters, the screen slowly blacks out."
+msgid "What many XR games do instead, is to measure the distance between where the player physically is, and where the player's virtual body has been left behind. As this distance increases, usually to a distance of a few centimeters, the screen slowly blacks out."
 msgstr ""
 
 #: ../../docs/tutorials/xr/xr_room_scale.rst:383

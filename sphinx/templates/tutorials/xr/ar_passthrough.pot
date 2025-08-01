@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -169,7 +169,7 @@ msgstr ""
 
 #: ../../docs/tutorials/xr/ar_passthrough.rst:164
 #: ../../docs/tutorials/xr/ar_passthrough.rst:167
-msgid "Image showing shadow to opacity being used to show the users desk."
+msgid "Image showing shadow to opacity being used to show the user's desk."
 msgstr ""
 
 #: ../../docs/tutorials/xr/ar_passthrough.rst:169

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -220,7 +220,7 @@ msgid "Sets the foveation level used when rendering provided this feature is sup
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_settings.rst:178
-msgid "The higher the level, the better the performance gains, but also the more reduction in quality there is in the users peripheral vision."
+msgid "The higher the level, the better the performance gains, but also the more reduction in quality there is in the user's peripheral vision."
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_settings.rst:181
@@ -316,7 +316,7 @@ msgid "If your game only supports controllers this should be turned off."
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_settings.rst:249
-msgid "See the chapter on :ref:`hand tracking <doc_openxr_hand_tracking>` for additional details."
+msgid "See the page on :ref:`hand tracking <doc_openxr_hand_tracking>` for additional details."
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_settings.rst:252
@@ -384,21 +384,21 @@ msgid "Binding Modifiers"
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_settings.rst:305
-msgid "These control whether or not binding modifiers can be used. Binding modifiers are used to apply thresholds or offset values."
+msgid "These control whether or not binding modifiers can be used. Binding modifiers are used to apply thresholds or offset values. You can find information on how to use and set them up on the XR action map page :ref:`here <doc_binding_modifiers>`."
 msgstr ""
 
-#: ../../docs/tutorials/xr/openxr_settings.rst:309
+#: ../../docs/tutorials/xr/openxr_settings.rst:310
 msgid "Analog Threshold"
 msgstr ""
 
-#: ../../docs/tutorials/xr/openxr_settings.rst:311
+#: ../../docs/tutorials/xr/openxr_settings.rst:312
 msgid "Allow analog threshold binding modifiers."
 msgstr ""
 
-#: ../../docs/tutorials/xr/openxr_settings.rst:314
+#: ../../docs/tutorials/xr/openxr_settings.rst:315
 msgid "Dpad Binding"
 msgstr ""
 
-#: ../../docs/tutorials/xr/openxr_settings.rst:316
+#: ../../docs/tutorials/xr/openxr_settings.rst:317
 msgid "Allow D-pad binding modifiers."
 msgstr ""

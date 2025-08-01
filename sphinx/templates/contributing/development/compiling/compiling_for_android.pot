@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -168,181 +168,186 @@ msgid "``bin/android_source.zip`` for the Gradle build template"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/compiling_for_android.rst:132
-msgid "If you are changing the list of architectures you're building, remember to add ``generate_apk=yes`` to the *last* architecture you're building, so that the template files are generated after the build."
+msgid "If you are changing the list of architectures you're building, remember to add ``generate_android_binaries=yes`` to the *last* architecture you're building, so that the template files are generated after the build."
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/compiling_for_android.rst:134
-msgid "To include debug symbols in the generated templates, add the ``debug_symbols=yes`` parameter to the SCons command."
+msgid "To include debug symbols in the generated templates, add the ``debug_symbols=yes`` parameters to the SCons command."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:138
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:136
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:233
+msgid "Note that you can include ``separate_debug_symbols=yes`` to generate the debug symbols in a separate ``*-native-debug-symbols.zip`` file."
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:140
 msgid "If you want to enable Vulkan validation layers, see :ref:`Vulkan validation layers on Android <doc_vulkan_validation_layers_android>`."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:142
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:144
 msgid "Adding support for x86 devices"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:144
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:146
 msgid "If you also want to include support for x86 and x86_64 devices, run the SCons command a third and fourth time with the ``arch=x86_32``, and ``arch=x86_64`` arguments before building the APK with Gradle. For example, for the release template:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:156
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:158
 msgid "This will create template binaries that works on all platforms. The final binary size of exported projects will depend on the platforms you choose to support when exporting; in other words, unused platforms will be removed from the binary."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:162
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:164
 msgid "Cleaning the generated export templates"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:164
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:166
 msgid "You can use the following commands to remove the generated export templates:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:176
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:178
 msgid "Using the export templates"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:178
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:180
 msgid "Godot needs release and debug binaries that were compiled against the same version/commit as the editor. If you are using official binaries for the editor, make sure to install the matching export templates, or build your own from the same version."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:183
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:185
 msgid "When exporting your game, Godot uses the templates as a base, and updates their content as needed."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:186
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:188
 msgid "Installing the templates"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:188
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:190
 msgid "The newly-compiled templates (``android_debug.apk`` , ``android_release.apk``, and ``android_source.zip``) must be copied to Godot's templates folder with their respective names. The templates folder can be located in:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:192
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:194
 msgid "Windows: ``%APPDATA%\\Godot\\export_templates\\<version>\\``"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:193
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:195
 msgid "Linux: ``$HOME/.local/share/godot/export_templates/<version>/``"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:194
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:196
 msgid "macOS: ``$HOME/Library/Application Support/Godot/export_templates/<version>/``"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:196
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:198
 msgid "``<version>`` is of the form ``major.minor[.patch].status`` using values from ``version.py`` in your Godot source repository (e.g. ``4.1.3.stable`` or ``4.2.dev``). You also need to write this same version string to a ``version.txt`` file located next to your export templates."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:203
-msgid "However, if you are writing your custom modules or custom C++ code, you might instead want to configure your template binaries as custom export templates here:"
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:205
+msgid "However, if you are writing your custom modules or custom C++ code, you might instead want to configure your template binaries as custom export templates in the project export menu. You must have **Advanced Options** enabled to set this."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:209
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:211
 msgid "You don't even need to copy them, you can just reference the resulting file in the ``bin\\`` directory of your Godot source folder, so that the next time you build you will automatically have the custom templates referenced."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:215
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:217
 msgid "Building the Godot editor"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:217
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:219
 msgid "Compiling the editor is done by calling SCons from the Godot root directory with the following arguments:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:227
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:229
 msgid "You can add the ``dev_build=yes`` parameter to generate a dev build of the Godot editor."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:229
-msgid "You can add the ``debug_symbols=yes`` parameter to include the debug symbols in the generated build."
-msgstr ""
-
 #: ../../docs/contributing/development/compiling/compiling_for_android.rst:231
-msgid "You can skip certain architectures depending on your target device to speed up compilation."
-msgstr ""
-
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:233
-msgid "Remember to add ``generate_apk=yes`` to the *last* architecture you're building, so that binaries are generated after the build."
+msgid "You can add the ``debug_symbols=yes`` parameters to include the debug symbols in the generated build."
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/compiling_for_android.rst:235
+msgid "You can skip certain architectures depending on your target device to speed up compilation."
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:237
+msgid "Remember to add ``generate_android_binaries=yes`` to the *last* architecture you're building, so that binaries are generated after the build."
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:239
 msgid "The resulting binaries will be located under ``bin/android_editor_builds/``."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:238
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:242
 msgid "Removing the Editor binaries"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:240
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:244
 msgid "You can use the following commands to remove the generated editor binaries:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:251
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:255
 msgid "Installing the Godot editor APK"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:253
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:257
 msgid "With an Android device with Developer Options enabled, connect the Android device to your computer via its charging cable to a USB/USB-C port. Open up a Terminal/Command Prompt and run the following commands from the root directory with the following arguments:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:261
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:265
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:264
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:268
 msgid "Platform doesn't appear in SCons"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:266
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:270
 msgid "Double-check that you've set the ``ANDROID_HOME`` environment variable. This is required for the platform to appear in SCons' list of detected platforms. See :ref:`Setting up the buildsystem <doc_android_setting_up_the_buildsystem>` for more information."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:273
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:277
 msgid "Application not installed"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:275
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:279
 msgid "Android might complain the application is not correctly installed. If so:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:278
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:282
 msgid "Check that the debug keystore is properly generated."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:279
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:283
 msgid "Check that the jarsigner executable is from JDK 8."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:281
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:285
 msgid "If it still fails, open a command line and run `logcat <https://developer.android.com/studio/command-line/logcat>`_:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:287
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:291
 msgid "Then check the output while the application is installed; the error message should be presented there. Seek assistance if you can't figure it out."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:292
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:296
 msgid "Application exits immediately"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:294
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:298
 msgid "If the application runs but exits immediately, this might be due to one of the following reasons:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:297
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:301
 msgid "Make sure to use export templates that match your editor version; if you use a new Godot version, you *have* to update the templates too."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:299
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:303
 msgid "``libgodot_android.so`` is not in ``libs/<arch>/`` where ``<arch>`` is the device's architecture."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:301
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:305
 msgid "The device's architecture does not match the exported one(s). Make sure your templates were built for that device's architecture, and that the export settings included support for that architecture."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_android.rst:305
+#: ../../docs/contributing/development/compiling/compiling_for_android.rst:309
 msgid "In any case, ``adb logcat`` should also show the cause of the error."
 msgstr ""

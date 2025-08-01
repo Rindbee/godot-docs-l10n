@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -44,7 +44,7 @@ msgid "This meant adding new compatibility method bindings to the file, which sh
 msgstr ""
 
 #: ../../docs/contributing/development/handling_compatibility_breakages.rst:47
-msgid "They should start with a ``_`` to indicate that they are internal, and end with ``_bind_compat_`` followed by the PR number that introduced the change (``88047`` in this example). These compatibility methods need to be implemented in a dedicated file, like ``core/math/a_star_grid_2d.compat.inc`` in this case:"
+msgid "They should start with an ``_`` to indicate that they are internal, and end with ``_bind_compat_`` followed by the PR number that introduced the change (``88047`` in this example). These compatibility methods need to be implemented in a dedicated file, like ``core/math/a_star_grid_2d.compat.inc`` in this case:"
 msgstr ""
 
 #: ../../docs/contributing/development/handling_compatibility_breakages.rst:51

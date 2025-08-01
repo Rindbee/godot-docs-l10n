@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -44,7 +44,7 @@ msgid "This node governs the in game movement of your character and will immedia
 msgstr ""
 
 #: ../../docs/tutorials/xr/basic_xr_locomotion.rst:25
-msgid "We start by adding a :ref:`StaticBody3D <class_staticbody3d>` node to our root node and we rename this to ``Floor``. We add a :ref:`MeshInstance3D <class_meshinstance3d>` node as a child node for our ``Floor``. Then create a new :ref:`PlaneMesh <class_planemesh>` as it's mesh. For now we set the size of the mesh to 100 x 100 meters. Next we add a :ref:`CollisionShape3D <class_collisionshape3d>` node as a child node for our ``Floor``. Then create a ``BoxShape`` as our shape. We set the size of this box shape to 100 x 1 x 100 meters. We also need to move our collision shape down by 0.5 meters so the top of our box is flush with the floor."
+msgid "We start by adding a :ref:`StaticBody3D <class_staticbody3d>` node to our root node and we rename this to ``Floor``. We add a :ref:`MeshInstance3D <class_meshinstance3d>` node as a child node for our ``Floor``. Then create a new :ref:`PlaneMesh <class_planemesh>` as its mesh. For now we set the size of the mesh to 100 x 100 meters. Next we add a :ref:`CollisionShape3D <class_collisionshape3d>` node as a child node for our ``Floor``. Then create a ``BoxShape`` as our shape. We set the size of this box shape to 100 x 1 x 100 meters. We also need to move our collision shape down by 0.5 meters so the top of our box is flush with the floor."
 msgstr ""
 
 #: ../../docs/tutorials/xr/basic_xr_locomotion.rst:34
@@ -96,7 +96,7 @@ msgid "Add a new child scene to your left hand :ref:`XRController3D <class_xrcon
 msgstr ""
 
 #: ../../docs/tutorials/xr/basic_xr_locomotion.rst:78
-msgid "With this scene added the player will be able to teleport around the world by pressing the trigger on the left hand controller, pointing where they want to go, and then releasing the trigger. The player can also adjust the orientation by using the left hand controllers joystick."
+msgid "With this scene added the player will be able to teleport around the world by pressing the trigger on the left hand controller, pointing where they want to go, and then releasing the trigger. The player can also adjust the orientation by using the left hand controller's joystick."
 msgstr ""
 
 #: ../../docs/tutorials/xr/basic_xr_locomotion.rst:81

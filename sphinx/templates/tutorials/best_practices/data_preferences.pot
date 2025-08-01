@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -152,7 +152,7 @@ msgid "If kept ordered, custom search operations can bring it to logarithmic tim
 msgstr ""
 
 #: ../../docs/tutorials/best_practices/data_preferences.rst:108
-msgid "Godot implements Dictionary as an ``HashMap<Variant, Variant, VariantHasher, StringLikeVariantComparator>``. The engine stores a small array (initialized to 2^3 or 8 records) of key-value pairs. When one attempts to access a value, they provide it a key. It then *hashes* the key, i.e. converts it into a number. The \"hash\" is used to calculate the index into the array. As an array, the HM then has a quick lookup within the \"table\" of keys mapped to values. When the HashMap becomes too full, it increases to the next power of 2 (so, 16 records, then 32, etc.) and rebuilds the structure."
+msgid "Godot implements Dictionary as a ``HashMap<Variant, Variant, VariantHasher, StringLikeVariantComparator>``. The engine stores a small array (initialized to 2^3 or 8 records) of key-value pairs. When one attempts to access a value, they provide it a key. It then *hashes* the key, i.e. converts it into a number. The \"hash\" is used to calculate the index into the array. As an array, the HM then has a quick lookup within the \"table\" of keys mapped to values. When the HashMap becomes too full, it increases to the next power of 2 (so, 16 records, then 32, etc.) and rebuilds the structure."
 msgstr ""
 
 #: ../../docs/tutorials/best_practices/data_preferences.rst:116

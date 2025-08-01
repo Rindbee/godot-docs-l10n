@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -45,10 +45,11 @@ msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:27
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:56
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:80
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:96
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:133
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:156
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:78
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:100
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:137
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:155
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:202
 msgid "**Difficulty:** Easy"
 msgstr ""
 
@@ -78,8 +79,8 @@ msgid "Compiling with link-time optimization"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:55
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:79
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:95
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:77
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:99
 msgid "**Space savings:** High"
 msgstr ""
 
@@ -88,119 +89,116 @@ msgid "Enabling link-time optimization produces more efficient binaries, both in
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:68
-msgid "Linking becomes much slower and more RAM-consuming with this option, so it should be used only for release builds:"
+msgid "Linking becomes much slower and more RAM-consuming with this option, so it should be used only for release builds. You need to have at least 8 GB of RAM available for successful linking with LTO enabled. Since the operating system and programs will take up some RAM, in practice, you need 12 GB of RAM installed in your system (preferably 16 GB) to compile Godot with LTO enabled."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:71
-msgid "When compiling the ``master`` branch, you need to have at least 8 GB of RAM available for successful linking with LTO enabled."
-msgstr ""
-
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:73
-msgid "When compiling the ``3.x`` branch, you need to have at least 6 GB of RAM available for successful linking with LTO enabled."
-msgstr ""
-
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:77
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:75
 msgid "Optimizing for size instead of speed"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:81
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:79
 msgid "**Performed in official builds:** Yes, but only for web builds"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:83
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:81
 msgid "Godot 3.1 onwards allows compiling using size optimizations (instead of speed). To enable this, set the ``optimize`` flag to ``size``:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:90
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:88
 msgid "Some platforms such as WebAssembly already use this mode by default."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:93
-msgid "Disabling advanced text server"
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:90
+msgid "Godot 4.5 introduced the ``size_extra`` option, which can further reduce size."
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:97
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:134
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:157
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:202
+msgid "Disabling advanced text server"
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:101
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:138
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:156
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:203
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:235
 msgid "**Performed in official builds:** No"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:99
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:103
 msgid "By default, Godot uses an advanced text server with the support for the following features:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:102
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:106
 msgid "Right-to-left typesetting and complex scripts, required to write languages such as Arabic and Hebrew."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:104
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:108
 msgid "Font ligatures and OpenType features (such as small capitals, fractions and slashed zero)."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:107
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:111
 msgid "Godot provides a fallback text server that isn't compiled by default. This text server can be used as a lightweight alternative to the default advanced text server:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:115
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:119
 msgid "If you only intend on supporting Latin, Greek and Cyrillic-based languages in your project, the fallback text server should suffice."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:118
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:122
 msgid "This fallback text server can also process large amounts of text more quickly than the advanced text server. This makes the fallback text server a good fit for mobile/web projects."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:124
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:128
 msgid "Remember to always pass ``module_text_server_fb_enabled=yes`` when using ``module_text_server_adv_enabled=no``. Otherwise, the compiled binary won't contain any text server, which means no text will be displayed at all when running the project."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:130
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:134
 msgid "Disabling 3D"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:132
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:155
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:136
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:154
 msgid "**Space savings:** Moderate"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:136
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:140
 msgid "For 2D games, having the whole 3D engine available usually makes no sense. Because of this, there is a build flag to disable it:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:143
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:147
 msgid "Tools must be disabled in order to use this flag, as the editor is not designed to operate without 3D support. Without it, the binary size can be reduced by about 15%."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:149
-msgid "Disabling 3D support also disables all navigation. This includes 2D navigation, as it uses the 3D navigation system internally."
-msgstr ""
-
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:153
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:152
 msgid "Disabling advanced GUI objects"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:159
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:158
 msgid "Most small games don't require complex GUI controls such as Tree, ItemList, TextEdit or GraphEdit. They can be disabled using a build flag:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:166
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:165
 msgid "This is everything that will be disabled:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:168
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:167
 msgid ":ref:`class_AcceptDialog`"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:169
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:168
 msgid ":ref:`class_CharFXTransform`"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:170
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:169
 msgid ":ref:`class_CodeEdit`"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:171
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:170
 msgid ":ref:`class_CodeHighlighter`"
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:171
+msgid ":ref:`class_ColorPicker`"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:172
@@ -208,83 +206,83 @@ msgid ":ref:`class_ColorPickerButton`"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:173
-msgid ":ref:`class_ColorPicker`"
-msgstr ""
-
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:174
 msgid ":ref:`class_ConfirmationDialog`"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:175
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:174
 msgid ":ref:`class_FileDialog`"
 msgstr ""
 
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:175
+msgid ":ref:`class_FoldableContainer`"
+msgstr ""
+
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:176
-msgid ":ref:`class_GraphEdit`"
+msgid ":ref:`class_FoldableGroup`"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:177
-msgid ":ref:`class_GraphElement`"
+msgid ":ref:`class_GraphEdit`"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:178
-msgid ":ref:`class_GraphFrame`"
+msgid ":ref:`class_GraphElement`"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:179
-msgid ":ref:`class_GraphNode`"
+msgid ":ref:`class_GraphFrame`"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:180
-msgid ":ref:`class_HSplitContainer`"
+msgid ":ref:`class_GraphNode`"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:181
-msgid ":ref:`class_MenuBar`"
+msgid ":ref:`class_HSplitContainer`"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:182
-msgid ":ref:`class_MenuButton`"
+msgid ":ref:`class_MenuBar`"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:183
-msgid ":ref:`class_OptionButton`"
+msgid ":ref:`class_MenuButton`"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:184
+msgid ":ref:`class_OptionButton`"
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:185
 msgid ":ref:`class_PopupMenu` (will make all popup menus unavailable in code for classes that use them, like :ref:`class_LineEdit`, even though those classes are still available)"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:186
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:187
 msgid ":ref:`class_RichTextEffect`"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:187
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:188
 msgid ":ref:`class_RichTextLabel`"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:188
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:189
 msgid ":ref:`class_SpinBox`"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:189
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:190
 msgid ":ref:`class_SplitContainer`"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:190
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:191
 msgid ":ref:`class_SubViewportContainer`"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:191
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:192
 msgid ":ref:`class_SyntaxHighlighter`"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:192
-msgid ":ref:`class_TextEdit`"
-msgstr ""
-
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:193
-msgid ":ref:`class_TreeItem`"
+msgid ":ref:`class_TextEdit`"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:194
@@ -292,85 +290,109 @@ msgid ":ref:`class_Tree`"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:195
+msgid ":ref:`class_TreeItem`"
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:196
 msgid ":ref:`class_VSplitContainer`"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:198
-msgid "Disabling unwanted modules"
-msgstr ""
-
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:200
-msgid "**Space savings:** Very low to moderate depending on modules"
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:199
+msgid "Disabling physics engines"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/optimizing_for_size.rst:201
+msgid "**Space savings:** Low to moderate"
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:205
+msgid "If your 3D project uses Jolt Physics, you can disable GodotPhysics3D at compile-time as it will never be used:"
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:212
+msgid "Inversely, if your 3D project uses GodotPhysics3D, you can disable Jolt Physics at compile-time:"
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:218
+msgid "If your project uses 3D rendering but not physics (or 2D rendering but not physics), you can also disable 2D or 3D physics entirely. Most 3D projects can take advantage of this, as they don't make use of 2D physics:"
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:231
+msgid "Disabling unwanted modules"
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:233
+msgid "**Space savings:** Very low to moderate depending on modules"
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:234
 msgid "**Difficulty:** Medium to hard depending on modules"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:204
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:237
 msgid "A lot of Godot's functions are offered as modules. You can see a list of modules with the following command:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:211
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:244
 msgid "The list of modules that can be disabled will appear, together with all build options. If you are working on a simple 2D game, you could disable a lot of them:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:219
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:252
 msgid "If this proves not to work for your use case, you should review the list of modules and see which ones you actually still need for your game (e.g. you might want to keep networking-related modules, regex support, ``minimp3``/``ogg``/``vorbis`` to play music, or ``theora`` to play videos)."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:224
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:257
 msgid "Alternatively, you can supply a list of disabled modules by creating ``custom.py`` at the root of the source, with the contents similar to the following:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:228
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:261
 msgid "custom.py"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:268
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:307
 msgid ":ref:`doc_overriding_build_options`."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:271
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:310
 msgid "Optimizing the distribution of your project"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:274
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:313
 msgid "Desktop"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:278
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:317
 msgid "This section is only relevant when distributing the files on a desktop platform that doesn't perform its own compression or packing. As such, this advice is relevant when you distribute ZIP archives on itch.io or GitHub Releases."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:283
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:322
 msgid "Platforms like Steam already apply their own compression scheme, so you don't need to create a ZIP archive to distribute files in the first place."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:286
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:325
 msgid "As an aside, you can look into optimizing the distribution of your project itself. This can be done even without recompiling the export template."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:289
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:328
 msgid "`7-Zip <https://7-zip.org/>`__ can be used to create ZIP archives that are more efficient than usual, while remaining compatible with every ZIP extractor (including Windows' own built-in extractor). ZIP size reduction in a large project can reach dozens of megabytes compared to a typical ZIP compressor, although average savings are in the 1-5 MB range. Creating this ZIP archive will take longer than usual, but it will extract just as fast as any other ZIP archive."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:297
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:336
 msgid "When using the 7-Zip GUI, this is done by creating a ZIP archive with the Ultra compression mode. When using the command line, this is done using the following command:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:306
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:345
 msgid "Web"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:308
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:347
 msgid "Enabling gzip or Brotli compression for all file types from the web export (especially the ``.wasm`` and ``.pck``) can reduce the download size significantly, leading to faster loading times, especially on slow connections."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:312
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:351
 msgid "Creating precompressed gzip or Brotli files with a high compression level can be even more efficient, as long as the web server is configured to serve those files when they exist. When supported, Brotli should be preferred over gzip as it has a greater potential for file size reduction."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:317
+#: ../../docs/contributing/development/compiling/optimizing_for_size.rst:356
 msgid "See :ref:`doc_exporting_for_web_serving_the_files` for instructions."
 msgstr ""

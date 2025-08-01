@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,7 +24,7 @@ msgid "We've already covered how scenes and scripts are different. Scripts defin
 msgstr ""
 
 #: ../../docs/tutorials/best_practices/scenes_versus_scripts.rst:10
-msgid "Each system's capabilities are different as a result. Scenes can define how an extended class initializes, but not what its behavior actually is. Scenes are often used in conjunction with a script, the scene declaring a composition of nodes, and the script adding behaviour with imperative code."
+msgid "Each system's capabilities are different as a result. Scenes can define how an extended class initializes, but not what its behavior actually is. Scenes are often used in conjunction with a script, the scene declaring a composition of nodes, and the script adding behavior with imperative code."
 msgstr ""
 
 #: ../../docs/tutorials/best_practices/scenes_versus_scripts.rst:16

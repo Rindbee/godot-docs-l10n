@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -116,11 +116,11 @@ msgid "The ``#if`` directive checks whether the ``condition`` passed. If it eval
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_preprocessor.rst:148
-msgid "To evaluate correctly, the condition must be an expression giving a simple floating-point, integer or boolean result. There may be multiple condition blocks connected by ``&&`` (AND) or ``||`` (OR) operators. It may be continued by a ``#else`` block, but **must** be ended with the ``#endif`` directive."
+msgid "To evaluate correctly, the condition must be an expression giving a simple floating-point, integer or boolean result. There may be multiple condition blocks connected by ``&&`` (AND) or ``||`` (OR) operators. It may be continued by an ``#else`` block, but **must** be ended with the ``#endif`` directive."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_preprocessor.rst:163
-msgid "Using the ``defined()`` *preprocessor function*, you can check whether the passed identifier is defined a by ``#define`` placed above that directive. This is useful for creating multiple shader versions in the same file. It may be continued by a ``#else`` block, but must be ended with the ``#endif`` directive."
+msgid "Using the ``defined()`` *preprocessor function*, you can check whether the passed identifier is defined a by ``#define`` placed above that directive. This is useful for creating multiple shader versions in the same file. It may be continued by an ``#else`` block, but must be ended with the ``#endif`` directive."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_preprocessor.rst:168
@@ -176,7 +176,7 @@ msgid "**Syntax:** ``#ifdef <identifier>``"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_preprocessor.rst:274
-msgid "This is a shorthand for ``#if defined(...)``. Checks whether the passed identifier is defined by ``#define`` placed above that directive. This is useful for creating multiple shader versions in the same file. It may be continued by a ``#else`` block, but must be ended with the ``#endif`` directive."
+msgid "This is a shorthand for ``#if defined(...)``. Checks whether the passed identifier is defined by ``#define`` placed above that directive. This is useful for creating multiple shader versions in the same file. It may be continued by an ``#else`` block, but must be ended with the ``#endif`` directive."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_preprocessor.rst:287

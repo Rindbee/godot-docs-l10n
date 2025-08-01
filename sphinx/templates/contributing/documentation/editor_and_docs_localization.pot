@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -180,121 +180,121 @@ msgid "The editor translations originate from C++ strings, and may use:"
 msgstr ""
 
 #: ../../docs/contributing/documentation/editor_and_docs_localization.rst:215
-msgid "**C format specifiers** such as ``%s`` (a string) or ``%d`` (a number). These specifiers are replaced by content at runtime, and should be preserved and placed in your translation where necessary for it to be meaningful after substitution. You may need to refer to the source string location to understand what kind of content will be substituted if it's not clear from the sentence. Example (``%s``  will be substituted with a file name or path)::"
+msgid "**C format specifiers** such as ``%s`` (a string) or ``%d`` (a number). These specifiers are replaced by content at runtime, and should be preserved and placed in your translation where necessary for it to be meaningful after substitution. You may need to refer to the source string location to understand what kind of content will be substituted if it's not clear from the sentence. Example (``%s``  will be substituted with a file name or path):"
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:228
-msgid "**C escape characters** such as ``\\n`` (line break) or ``\\t`` (tabulation). In the Weblate editor, the ``\\n`` characters are replaced by ``↵`` (return) and ``\\t`` by ``↹``. Tabs are not used much, but you should make sure to use line breaks in the same way as the original English string (Weblate will issue a warning if you don't). Line breaks might sometimes be used for vertical spacing, or manual wrapping of long lines which would otherwise be too long especially in the editor translation). Example::"
-msgstr ""
-
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:245
-msgid "Only logical order of the characters matters, in the right-to-left text, format specifiers may be displayed as ``s%``."
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:230
+msgid "**C escape characters** such as ``\\n`` (line break) or ``\\t`` (tabulation). In the Weblate editor, the ``\\n`` characters are replaced by ``↵`` (return) and ``\\t`` by ``↹``. Tabs are not used much, but you should make sure to use line breaks in the same way as the original English string (Weblate will issue a warning if you don't). Line breaks might sometimes be used for vertical spacing, or manual wrapping of long lines which would otherwise be too long especially in the editor translation). Example:"
 msgstr ""
 
 #: ../../docs/contributing/documentation/editor_and_docs_localization.rst:249
+msgid "Only logical order of the characters matters, in the right-to-left text, format specifiers may be displayed as ``s%``."
+msgstr ""
+
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:253
 msgid "Online documentation (RST)"
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:251
-msgid "The documentation translations originate from reStructuredText (RST) files, which also use their own markup syntax to style text, create internal and external links, etc. Here are some examples::"
-msgstr ""
-
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:293
-msgid "See Sphinx's `reStructured Text primer <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`__ for a quick overview of the markup language you may find in source strings. You may encounter especially the inline markup (bold, italics, inline code) and the internal and external hyperlink markup."
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:255
+msgid "The documentation translations originate from reStructuredText (RST) files, which also use their own markup syntax to style text, create internal and external links, etc. Here are some examples:"
 msgstr ""
 
 #: ../../docs/contributing/documentation/editor_and_docs_localization.rst:299
+msgid "See Sphinx's `reStructured Text primer <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`__ for a quick overview of the markup language you may find in source strings. You may encounter especially the inline markup (bold, italics, inline code) and the internal and external hyperlink markup."
+msgstr ""
+
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:305
 msgid "Class reference (BBCode)"
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:301
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:307
 msgid "The class reference is documented in the main Godot repository using XML files, and with BBCode-like markup for styling and internal references."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:304
-msgid "Some of the tags used are from the original BBCode (e.g. ``[b]Bold[/b]`` and ``[i]Italics[/i]``), while others are Godot-specific and used for advanced features such as inline code (e.g. ``[code]true[/code]``), linking to another class (e.g. ``[Node2D]``) or to a property in a given class (e.g. ``[member Node2D.position]``), or for multiline code blocks. Example::"
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:310
+msgid "Some of the tags used are from the original BBCode (e.g. ``[b]Bold[/b]`` and ``[i]Italics[/i]``), while others are Godot-specific and used for advanced features such as inline code (e.g. ``[code]true[/code]``), linking to another class (e.g. ``[Node2D]``) or to a property in a given class (e.g. ``[member Node2D.position]``), or for multiline code blocks. Example:"
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:316
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:324
 msgid "In the above example, ``[code]name[/code]``, ``[code]alpha[/code]``, and ``[Color]`` should *not* be translated, as they refer respectively to argument names and a class of the Godot API. Similarly, the contents of the ``[codeblock]`` should not be translated, as ``ColorN`` is a function of the Godot API and ``\"red\"`` is one of the named colors it supports. At most, you can translate the name of the variable which holds the result (``red = ...``)."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:323
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:331
 msgid "Note also that in the XML, each line is a paragraph, so you should not add line breaks if they are not part of the original translation."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:328
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:336
 msgid "See our documentation for class reference writers for the :ref:`list of BBCode-like tags <doc_class_reference_bbcode>` which are used throughout the class reference."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:333
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:341
 msgid "Offline translation and testing"
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:335
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:343
 msgid "While we advise using the Weblate interface to write translations, you also have the possibility to download the PO file locally to translate it with your preferred PO editing application, such as `Poedit <https://poedit.net/>`__ or `Lokalize <https://userbase.kde.org/Lokalize>`__."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:340
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:348
 msgid "To download the PO file locally, browse to the translation overview for your language, and select the first item in the \"Files\" menu:"
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:345
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:353
 msgid "Once you are done with a series of edits, use the \"Upload translation\" item in that same menu and select your file. Choose \"Add as translation\" for the file upload mode."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:351
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:359
 msgid "If a significant amount of time has passed between your download of the PO file and the upload of the edited version, there is a risk to overwrite the translations authored by other contributors in the meantime. This is why we advise to use the online interface so that you always work on the latest version."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:357
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:365
 msgid "If you want to test changes locally (especially for the editor translation), you can use the downloaded PO file and :ref:`compile Godot from source <toc-devel-compiling>`."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:360
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:368
 msgid "Rename the editor translation PO file to ``<lang>.po`` (e.g. ``eo.po`` for Esperanto) and place it in the ``editor/translations/`` folder (`GitHub <https://github.com/godotengine/godot/tree/master/editor/translations>`__)."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:364
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:372
 msgid "You can also test class reference changes the same way by renaming the PO file similarly and placing it in the ``doc/translations/`` folder (`GitHub <https://github.com/godotengine/godot/tree/master/doc/translations>`__)."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:369
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:377
 msgid "Localizing documentation images"
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:371
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:379
 msgid "The online documentation includes many images, which can be screenshots of the Godot editor, custom-made graphs, of any other kind of visual content. Some of it includes text and might thus be relevant to localize in your language."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:375
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:383
 msgid "This part is not handled via Weblate, but directly on the `godot-docs-l10n <https://github.com/godotengine/godot-docs-l10n>`_ Git repository where the documentation translations are synced from Weblate."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:381
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:389
 msgid "The workflow is not the most straightforward and requires some knowledge of Git. We plan to work on a simplified Web tool which could be used to manage image localization in a convenient way, abstracting away these steps."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:385
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:393
 msgid "To translate an image, you should first locate it in the original English documentation. To do so, browse the relevant page in the docs, e.g. :ref:`doc_intro_to_the_editor_interface`. Click the \"Edit on GitHub\" link in the top right corner:"
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:392
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:400
 msgid "On GitHub, click on the image you want to translate. If relevant, click on \"Download\" to download it locally and edit it with an image edition tool. Note the full path to the image as it will be needed further down (here ``getting_started/step_by_step/img/project_manager_first_open.png``)."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:399
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:407
 msgid "Create your localized version of the image, either by editing the English one, or by taking a screenshot of the editor with your language, if it's an editor screenshot. Some images may also have source files available in SVG format, so you can browse the ``img/`` folder which contains them to check for that."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:404
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:412
 msgid "Name your localized image like the original one, but with the language code added before the extension, e.g. ``project_manager_first_open.png`` would become ``project_manager_first_open.fr.png`` for the French localization."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:408
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:416
 msgid "Finally, on godot-docs-l10n_, recreate the same folder structure as for the original image in the ``images`` subfolder (`GitHub <https://github.com/godotengine/godot-docs-l10n/tree/master/images>`_), and place your translated image there. In our example, the end result should be ``images/getting_started/step_by_step/img/project_manager_first_open.fr.png``."
 msgstr ""
 
-#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:414
+#: ../../docs/contributing/documentation/editor_and_docs_localization.rst:422
 msgid "Repeat this for other images and :ref:`make a Pull Request <doc_pr_workflow>`."
 msgstr ""

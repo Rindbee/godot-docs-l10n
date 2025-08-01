@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -43,10 +43,10 @@ msgstr ""
 msgid "Godot uses viewports to display content, and viewports can be scaled by several options (see :ref:`doc_multiple_resolutions` tutorial). Use, then, the functions in nodes to obtain the mouse coordinates and viewport size, for example:"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/mouse_and_input_coordinates.rst:55
+#: ../../docs/tutorials/inputs/mouse_and_input_coordinates.rst:59
 msgid "Alternatively, it's possible to ask the viewport for the mouse position:"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/mouse_and_input_coordinates.rst:66
+#: ../../docs/tutorials/inputs/mouse_and_input_coordinates.rst:70
 msgid "When the mouse mode is set to ``Input.MOUSE_MODE_CAPTURED``, the ``event.position`` value from ``InputEventMouseMotion`` is the center of the screen. Use ``event.relative`` instead of ``event.position`` and ``event.velocity`` to process mouse movement and position changes."
 msgstr ""

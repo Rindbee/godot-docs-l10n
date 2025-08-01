@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/physics/soft_body.rst:6
-msgid "Using SoftBody"
+msgid "Using SoftBody3D"
 msgstr ""
 
 #: ../../docs/tutorials/physics/soft_body.rst:8
@@ -36,7 +36,7 @@ msgid "We will create a bouncy cube to demonstrate the setup of a soft body."
 msgstr ""
 
 #: ../../docs/tutorials/physics/soft_body.rst:18
-msgid "Create a new scene with a ``Node3D`` node as root. Then, create a ``Softbody`` node. Add a ``CubeMesh`` in the ``mesh`` property of the node in the inspector and increase the subdivision of the mesh for simulation."
+msgid "Create a new scene with a ``Node3D`` node as root. Then, create a ``SoftBody3D`` node. Add a ``CubeMesh`` in the ``mesh`` property of the node in the inspector and increase the subdivision of the mesh for simulation."
 msgstr ""
 
 #: ../../docs/tutorials/physics/soft_body.rst:22
@@ -68,11 +68,11 @@ msgid "You can download the Platformer3D demo on `GitHub <https://github.com/god
 msgstr ""
 
 #: ../../docs/tutorials/physics/soft_body.rst:39
-msgid "Open the ``Player`` scene, add a ``SoftBody`` node and assign a ``PlaneMesh`` to it."
+msgid "Open the ``Player`` scene, add a ``SoftBody3D`` node and assign a ``PlaneMesh`` to it."
 msgstr ""
 
 #: ../../docs/tutorials/physics/soft_body.rst:41
-msgid "Open the ``PlaneMesh`` properties and set the size(x: 0.5 y: 1) then set ``Subdivide Width`` and ``Subdivide Depth`` to 5. Adjust the ``SoftBody``'s position. You should end up with something like this:"
+msgid "Open the ``PlaneMesh`` properties and set the size(x: 0.5 y: 1) then set ``Subdivide Width`` and ``Subdivide Depth`` to 5. Adjust the ``SoftBody3D``'s position. You should end up with something like this:"
 msgstr ""
 
 #: ../../docs/tutorials/physics/soft_body.rst:45
@@ -88,15 +88,15 @@ msgid "``BoneAttachment3D`` node is to attach objects to a bone of an armature. 
 msgstr ""
 
 #: ../../docs/tutorials/physics/soft_body.rst:53
-msgid "To create pinned joints, select the upper vertices in the ``SoftBody`` node:"
+msgid "To create pinned joints, select the upper vertices in the ``SoftBody3D`` node:"
 msgstr ""
 
 #: ../../docs/tutorials/physics/soft_body.rst:57
-msgid "The pinned joints can be found in ``SoftBody``'s ``Attachments`` property, choose the ``BoneAttachment`` as the ``SpatialAttachment`` for each pinned joints, the pinned joints are now attached to the neck."
+msgid "The pinned joints can be found in ``SoftBody3D``'s ``Attachments`` property, choose the ``BoneAttachment`` as the ``SpatialAttachment`` for each pinned joints, the pinned joints are now attached to the neck."
 msgstr ""
 
 #: ../../docs/tutorials/physics/soft_body.rst:61
-msgid "Last step is to avoid clipping by adding the Kinematic Body `Player` to ``Parent Collision Ignore`` of the ``SoftBody``."
+msgid "Last step is to avoid clipping by adding the Kinematic Body `Player` to ``Parent Collision Ignore`` of the ``SoftBody3D``."
 msgstr ""
 
 #: ../../docs/tutorials/physics/soft_body.rst:65
@@ -105,4 +105,20 @@ msgstr ""
 
 #: ../../docs/tutorials/physics/soft_body.rst:69
 msgid "This covers the basic settings of softbody, experiment with the parameters to achieve the effect you are aiming for when making your game."
+msgstr ""
+
+#: ../../docs/tutorials/physics/soft_body.rst:72
+msgid "Using Imported Meshes"
+msgstr ""
+
+#: ../../docs/tutorials/physics/soft_body.rst:74
+msgid "The **Save to File** option in the Advanced Import Settings dialog allows you to save a mesh to a standalone resource file that you can then attach to ``SoftBody3D`` nodes."
+msgstr ""
+
+#: ../../docs/tutorials/physics/soft_body.rst:78
+msgid "You may also want to disable LOD generation or change the LOD generation options when importing a mesh for use with ``SoftBody3D``. The default import settings will produce an LOD that merges adjacent faces that are nearly flat with respect to each other, even at very close render distances. This works well for static meshes, but is often undesirable for use with ``SoftBody3D`` if you want these faces to be able to bend and move with respect to each other, instead of being rendered as a single plane."
+msgstr ""
+
+#: ../../docs/tutorials/physics/soft_body.rst:86
+msgid "See :ref:`doc_importing_3d_scenes_import_configuration` and :ref:`doc_mesh_lod` for more details."
 msgstr ""

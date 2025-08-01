@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -157,17 +157,17 @@ msgid "Copy libraries from ``Vulkan-ValidationLayers/build-android/libs`` to ``g
 msgstr ""
 
 #: ../../docs/contributing/development/debugging/vulkan/vulkan_validation_layers.rst:167
-msgid "Your Godot source directory tree should look like on the example below::"
+msgid "Your Godot source directory tree should look like on the example below:"
 msgstr ""
 
-#: ../../docs/contributing/development/debugging/vulkan/vulkan_validation_layers.rst:182
+#: ../../docs/contributing/development/debugging/vulkan/vulkan_validation_layers.rst:184
 msgid "If the subdirectory ``libs/debug/vulkan_validation_layers`` doesn't exist, create it."
 msgstr ""
 
-#: ../../docs/contributing/development/debugging/vulkan/vulkan_validation_layers.rst:185
+#: ../../docs/contributing/development/debugging/vulkan/vulkan_validation_layers.rst:187
 msgid "Compile and run the Android app"
 msgstr ""
 
-#: ../../docs/contributing/development/debugging/vulkan/vulkan_validation_layers.rst:187
+#: ../../docs/contributing/development/debugging/vulkan/vulkan_validation_layers.rst:189
 msgid "Linked validation layers are automatically loaded and enabled in Android debug builds. You can use Godot's :ref:`doc_one-click_deploy` feature to quickly test your project with the validation layers enabled."
 msgstr ""

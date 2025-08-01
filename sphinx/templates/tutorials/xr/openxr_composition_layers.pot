@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -132,7 +132,7 @@ msgid "Next we define a helper function that takes the value returned from ``int
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_composition_layers.rst:144
-msgid "We also define a helper function that takes our ``intersect`` value and returns our location in the viewports local coordinate system:"
+msgid "We also define a helper function that takes our ``intersect`` value and returns our location in the viewport's local coordinate system:"
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_composition_layers.rst:160
@@ -144,15 +144,15 @@ msgid "Next we check if we're intersecting with our viewport. If so, we check if
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_composition_layers.rst:197
-msgid "If we were intersecting in our previous process call and our pointer has moved, we prepare a :ref:`InputEventMouseMotion <class_InputEventMouseMotion>` object to simulate our mouse moving and send that to our viewport for further processing."
+msgid "If we were intersecting in our previous process call and our pointer has moved, we prepare an :ref:`InputEventMouseMotion <class_InputEventMouseMotion>` object to simulate our mouse moving and send that to our viewport for further processing."
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_composition_layers.rst:218
-msgid "If we've just released our button we also prepare a :ref:`InputEventMouseButton <class_InputEventMouseButton>` object to simulate a button release and send that to our viewport for further processing."
+msgid "If we've just released our button we also prepare an :ref:`InputEventMouseButton <class_InputEventMouseButton>` object to simulate a button release and send that to our viewport for further processing."
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_composition_layers.rst:236
-msgid "Or if we've just pressed our button we prepare a :ref:`InputEventMouseButton <class_InputEventMouseButton>` object to simulate a button press and send that to our viewport for further processing."
+msgid "Or if we've just pressed our button we prepare an :ref:`InputEventMouseButton <class_InputEventMouseButton>` object to simulate a button press and send that to our viewport for further processing."
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_composition_layers.rst:255
@@ -180,5 +180,5 @@ msgid "You also need to set ``Sort Order`` to a negative value, the XR composito
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_composition_layers.rst:295
-msgid "Use case showing how the users hand is incorrectly obscured by a composition layer when hole punching is not used."
+msgid "Use case showing how the user's hand is incorrectly obscured by a composition layer when hole punching is not used."
 msgstr ""

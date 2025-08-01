@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -108,7 +108,7 @@ msgid "``c``"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_format_string.rst:89
-msgid "A single **Unicode character**. Expects an unsigned 8-bit integer (0-255) for a code point or a single-character string."
+msgid "A single **Unicode character**. Accepts a Unicode code point (integer) or a single-character string. Supports values beyond 255."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_format_string.rst:92

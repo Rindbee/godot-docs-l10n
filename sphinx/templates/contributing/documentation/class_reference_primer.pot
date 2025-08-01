@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -528,7 +528,7 @@ msgid "``[codeblock]`` disables BBCode until the parser encounters ``[/codeblock
 msgstr ""
 
 #: ../../docs/contributing/documentation/class_reference_primer.rst:245
-msgid "Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, always use **four spaces** for indentation. The parser will delete tabs."
+msgid "Use ``[codeblock]`` for pre-formatted code blocks. Since Godot 4.5, **tabs** should be used for indentation."
 msgstr ""
 
 #: ../../docs/contributing/documentation/class_reference_primer.rst:248

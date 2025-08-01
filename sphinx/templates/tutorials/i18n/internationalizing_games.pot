@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -296,69 +296,81 @@ msgid "Adding break iterator data to exported project"
 msgstr ""
 
 #: ../../docs/tutorials/i18n/internationalizing_games.rst:314
-msgid "Some languages are written without spaces, and word and line breaking requires more than rules over character sequences. Godot includes ICU rule and dictionary based, break iterator data, but this data is not included into exported projects by default. To include it go to **Project → Project Settings → Localization → Text Server Data** and click **Install support data...**. Break iterator data is about 4 MB large."
+msgid "Some languages are written without spaces. In those languages, word and line breaking require more than rules over character sequences. Godot includes ICU rule and dictionary-based break iterator data, but this data is not included in exported projects by default."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:321
-msgid "Structured text BiDi override"
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:319
+msgid "To include it, go to **Project → Project Settings**, enable **Internationalization → Locale → Include Text Server Data**, then export the project. Break iterator data is about 4 MB in size."
 msgstr ""
 
 #: ../../docs/tutorials/i18n/internationalizing_games.rst:323
+msgid "Structured text BiDi override"
+msgstr ""
+
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:325
 msgid "Unicode BiDi algorithm is designed to work with natural text and it's incapable of handling text with the higher level order, like file names, URIs, email addresses, regular expressions or source code."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:329
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:331
 msgid "For example, the path for this shown directory structure will be displayed incorrectly (top \"LineEdit\" control). \"File\" type structured text override splits text into segments, then BiDi algorithm is applied to each of them individually to correctly display directory names in any language and preserve correct order of the folders (bottom \"LineEdit\" control)."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:334
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:336
 msgid "Custom callbacks provide a way to override BiDi for the other types of structured text."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:337
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:339
 msgid "Localizing numbers"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:339
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:341
 msgid "Controls specifically designed for number input or output (e.g. ProgressBar, SpinBox) will use localized numbering system automatically, for the other control :ref:`TextServer.format_number(string, language) <class_TextServer_method_format_number>` can be used to convert Western Arabic numbers (0..9) to the localized numbering system and :ref:`TextServer.parse_number(string, language) <class_TextServer_method_parse_number>` to convert it back."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:347
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:349
 msgid "Localizing icons and images"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:349
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:351
 msgid "Icons with left and right pointing arrows which may need to be reversed for Arabic and Hebrew locales, in case they indicate movement or direction (e.g. back/forward buttons). Otherwise, they can remain the same."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:354
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:356
 msgid "Testing translations"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:356
-msgid "You may want to test a project's translation before releasing it. Godot provides two ways to do this."
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:358
+msgid "You may want to test a project's translation before releasing it. Godot provides three ways to do this."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:359
-msgid "First, in the Project Settings, under **Internationalization > Locale** (with advanced settings enabled), there is a **Test** property. Set this property to the locale code of the language you want to test. Godot will run the project with that locale when the project is run (either from the editor or when exported)."
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:361
+msgid "First, in the Project Settings, under :menu:`Internationalization > Locale` (with advanced settings enabled), there is a **Test** property. Set this property to the locale code of the language you want to test. Godot will run the project with that locale when the project is run (either from the editor or when exported)."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:366
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:368
 msgid "Keep in mind that since this is a project setting, it will show up in version control when it is set to a non-empty value. Therefore, it should be set back to an empty value before committing changes to version control."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:370
-msgid "Translations can also be tested when :ref:`running Godot from the command line <doc_command_line_tutorial>`. For example, to test a game in French, the following argument can be supplied:"
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:372
+msgid "Second, from within the editor go to the top bar and click on :button:`View` on the top bar, then go down to :ui:`Preview Translation` and select the language you want to preview."
+msgstr ""
+
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:377
+msgid "All text in scenes in the editor should now be displayed using the selected language."
 msgstr ""
 
 #: ../../docs/tutorials/i18n/internationalizing_games.rst:379
+msgid "Translations can also be tested when :ref:`running Godot from the command line <doc_command_line_tutorial>`. For example, to test a game in French, the following argument can be supplied:"
+msgstr ""
+
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:388
 msgid "Translating the project name"
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:381
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:390
 msgid "The project name becomes the app name when exporting to different operating systems and platforms. To specify the project name in more than one language go to **Project > Project Settings> Application > Config**. From here click on the button that says ``Localizable String (Size 0)``. Now there should be a button below that which says ``Add Translation``. Click on that and it will take you to a page where you can choose the language (and country if needed) for your project name translation. After doing that you can now type in the localized name."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:392
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:401
 msgid "If you are unsure about the language code to use, refer to the :ref:`list of locale codes <doc_locales>`."
 msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -180,7 +180,7 @@ msgid "The resulting file can be viewed in most video players, but it must be co
 msgstr ""
 
 #: ../../docs/tutorials/animation/creating_movies.rst:172
-msgid "To use AVI, specify a path to an ``.avi`` file to be created in the **Editor > Movie Writer > Movie File** project setting."
+msgid "To use AVI, specify a path to a ``.avi`` file to be created in the **Editor > Movie Writer > Movie File** project setting."
 msgstr ""
 
 #: ../../docs/tutorials/animation/creating_movies.rst:176

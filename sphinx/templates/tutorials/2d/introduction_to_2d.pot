@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -84,7 +84,7 @@ msgid "**Show list of selectable nodes at position clicked**: As the description
 msgstr ""
 
 #: ../../docs/tutorials/2d/introduction_to_2d.rst:79
-msgid "**Rotation pivot**: Sets the rotation pivot to rotate node(s) around. An added node has its rotation pivot at ``x: 0``, ``y: 0``, by default, with exceptions. For example, the default pivot for a :ref:`Sprite2D <class_Sprite2D>` is its center if the ``centered`` property is set to ``true``. If you would like to change the rotation pivot of a node, click this button and choose a new location by left clicking. The node rotates considering this point. If you have multiple nodes selected, this icon will add a temporary pivot to be used commonly by all selected nodes. Pressing :kbd:`Shift` and clicking this button will create the pivot at the center of selected nodes. If any of the snap options are enabled, the pivot will also snap to them it when dragged."
+msgid "**Rotation pivot**: Sets the rotation pivot to rotate node(s) around. An added node has its rotation pivot at ``x: 0``, ``y: 0``, by default, with exceptions. For example, the default pivot for a :ref:`Sprite2D <class_Sprite2D>` is its center if the ``centered`` property is set to ``true``. If you would like to change the rotation pivot of a node, click this button and choose a new location by left clicking. The node rotates considering this point. If you have multiple nodes selected, this icon will add a temporary pivot to be used commonly by all selected nodes. Pressing :kbd:`Shift` and clicking this button will create the pivot at the center of selected nodes. If any of the snap options are enabled, the pivot will also snap to them when dragged."
 msgstr ""
 
 #: ../../docs/tutorials/2d/introduction_to_2d.rst:88

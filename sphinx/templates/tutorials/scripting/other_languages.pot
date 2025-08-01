@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/tutorials/scripting/other_languages.rst:4
+msgid "Other languages"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/other_languages.rst:6
+msgid "The Godot developers officially support the following languages for Godot:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/other_languages.rst:8
+msgid ":ref:`GDScript (all versions)<doc_gdscript>`"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/other_languages.rst:9
+msgid ":ref:`C# (.NET version)<doc_c_sharp>`"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/other_languages.rst:10
+msgid ":ref:`C++ (via GDExtension) <doc_godot_cpp>`"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/other_languages.rst:14
+msgid "There are no plans to support additional languages officially. That said, the community offers several bindings for other languages (see below)."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/other_languages.rst:19
+msgid "The bindings below are developed and maintained by the community:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/other_languages.rst:24
+msgid "`D <https://github.com/godot-dlang/godot-dlang>`__"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/other_languages.rst:25
+msgid "`Go <https://github.com/grow-graphics/gd>`__"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/other_languages.rst:26
+msgid "`Nim <https://github.com/godot-nim/gdext-nim>`__"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/other_languages.rst:27
+msgid "`Rust <https://github.com/godot-rust/gdext>`__"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/other_languages.rst:28
+msgid "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/other_languages.rst:29
+msgid "`Odin <https://github.com/dresswithpockets/odin-godot>`__"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/other_languages.rst:33
+msgid "Not all bindings mentioned here may be production-ready. Make sure to research options thoroughly before starting a project with one of those. Also, double-check whether the binding is compatible with the Godot version you're using."
+msgstr ""

@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -76,7 +76,7 @@ msgid "Godot includes text-to-speech functionality. You can find these under the
 msgstr ""
 
 #: ../../docs/tutorials/audio/text_to_speech.rst:72
-msgid "Godot depends on system libraries for text-to-speech functionality. These libraries are installed by default on Windows and macOS, but not on all Linux distributions. If they are not present, text-to-speech functionality will not work. Specifically, the ``tts_get_voices()`` method will return an empty list, indicating that there are no usable voices."
+msgid "Godot depends on system libraries for text-to-speech functionality. These libraries are installed by default on Windows, macOS, Web, Android and iOS, but not on all Linux distributions. If they are not present, text-to-speech functionality will not work. Specifically, the ``tts_get_voices()`` method will return an empty list, indicating that there are no usable voices."
 msgstr ""
 
 #: ../../docs/tutorials/audio/text_to_speech.rst:74

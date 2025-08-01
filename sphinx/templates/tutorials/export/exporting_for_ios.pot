@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -144,105 +144,121 @@ msgid "In Finder, drag the Godot project folder into the Xcode file browser."
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_ios.rst:88
-msgid "3. In the dialog, make sure **Create folder references** is selected. This means you will be able to continue to edit your Godot project in its current location."
+msgid "In the dialog, make sure to select Action: **Reference files in place** and Groups: **Create folders**. Uncheck Targets: **exported_xcode_project_name**."
 msgstr ""
 
-#: ../../docs/tutorials/export/exporting_for_ios.rst:93
+#: ../../docs/tutorials/export/exporting_for_ios.rst:92
 msgid "See the **godot_project_to_export** folder in the Xcode file browser."
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_ios.rst:94
-msgid "Delete **exported_xcode_project_name.pck** from the Xcode project."
+msgid "Select the godot project in the Project navigator. Then on the other side of the XCode window, in the File Inspector, make these selections:"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_ios.rst:96
+msgid "**Location**: Relative to Project"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_ios.rst:97
+msgid "**Build Rules**: Apply Once to Folder"
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_ios.rst:98
-msgid "6. Open **exported_xcode_project_name-Info.plist** and add a string property named **godot_path** (this is the real key name) with a value **godot_project_to_export** (this is the name of your project)"
+msgid "add your project to **Target Membership**"
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_ios.rst:104
-msgid "That's it! You can now edit your project in the Godot editor and build it in Xcode when you want to run it on a device."
+msgid "Delete **exported_xcode_project_name.pck** from the Xcode project in the project navigator."
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_ios.rst:108
-msgid "Plugins for iOS"
-msgstr ""
-
-#: ../../docs/tutorials/export/exporting_for_ios.rst:110
-msgid "Special iOS plugins can be used in Godot. Check out the :ref:`doc_plugins_for_ios` page."
+msgid "8. Open **exported_xcode_project_name-Info.plist** and add a string property named **godot_path** (this is the real key name) with a value **godot_project_to_export** (this is the name of your project)"
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_ios.rst:114
-msgid "Environment variables"
+msgid "That's it! You can now edit your project in the Godot editor and build it in Xcode when you want to run it on a device."
 msgstr ""
 
-#: ../../docs/tutorials/export/exporting_for_ios.rst:116
-msgid "You can use the following environment variables to set export options outside of the editor. During the export process, these override the values that you set in the export menu."
+#: ../../docs/tutorials/export/exporting_for_ios.rst:118
+msgid "Plugins for iOS"
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_ios.rst:120
-msgid "iOS export environment variables"
-msgstr ""
-
-#: ../../docs/tutorials/export/exporting_for_ios.rst:123
-msgid "Export option"
+msgid "Special iOS plugins can be used in Godot. Check out the :ref:`doc_plugins_for_ios` page."
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_ios.rst:124
-msgid "Environment variable"
-msgstr ""
-
-#: ../../docs/tutorials/export/exporting_for_ios.rst:125
-msgid "Encryption / Encryption Key"
+msgid "Environment variables"
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_ios.rst:126
-msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
-msgstr ""
-
-#: ../../docs/tutorials/export/exporting_for_ios.rst:127
-msgid "Options / Application / Provisioning Profile UUID Debug"
-msgstr ""
-
-#: ../../docs/tutorials/export/exporting_for_ios.rst:128
-msgid "``GODOT_IOS_PROVISIONING_PROFILE_UUID_DEBUG``"
-msgstr ""
-
-#: ../../docs/tutorials/export/exporting_for_ios.rst:129
-msgid "Options / Application / Provisioning Profile UUID Release"
+msgid "You can use the following environment variables to set export options outside of the editor. During the export process, these override the values that you set in the export menu."
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_ios.rst:130
-msgid "``GODOT_IOS_PROVISIONING_PROFILE_UUID_RELEASE``"
+msgid "iOS export environment variables"
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_ios.rst:133
-msgid "Troubleshooting"
+msgid "Export option"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_ios.rst:134
+msgid "Environment variable"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_ios.rst:135
+msgid "Encryption / Encryption Key"
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_ios.rst:136
-msgid "xcode-select points at wrong SDK location"
+msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_ios.rst:137
+msgid "Options / Application / Provisioning Profile UUID Debug"
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_ios.rst:138
-msgid "xcode-select is a tool that comes with Xcode and among other things points at iOS SDKs on your Mac. If you have Xcode installed, opened it, agreed to the license agreement, and installed the command line tools, xcode-select should point at the right location for the iPhone SDK. If it somehow doesn't, Godot will fail exporting to iOS with an error that may look like this:"
+msgid "``GODOT_IOS_PROVISIONING_PROFILE_UUID_DEBUG``"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_ios.rst:139
+msgid "Options / Application / Provisioning Profile UUID Release"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_ios.rst:140
+msgid "``GODOT_IOS_PROVISIONING_PROFILE_UUID_RELEASE``"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_ios.rst:143
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_ios.rst:146
+msgid "xcode-select points at wrong SDK location"
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_ios.rst:148
+msgid "xcode-select is a tool that comes with Xcode and among other things points at iOS SDKs on your Mac. If you have Xcode installed, opened it, agreed to the license agreement, and installed the command line tools, xcode-select should point at the right location for the iPhone SDK. If it somehow doesn't, Godot will fail exporting to iOS with an error that may look like this:"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_ios.rst:158
 msgid "In this case, Godot is trying to find the ``Platforms`` folder containing the iPhone SDK inside the ``/Library/Developer/CommandLineTools/`` folder, but the ``Platforms`` folder with the iPhone SDK is actually located under ``/Applications/Xcode.app/Contents/Developer``. To verify this, you can open up Terminal and run the following command to see what xcode-select points at:"
 msgstr ""
 
-#: ../../docs/tutorials/export/exporting_for_ios.rst:157
+#: ../../docs/tutorials/export/exporting_for_ios.rst:167
 msgid "To fix xcode-select pointing at a wrong location, enter this command in Terminal:"
 msgstr ""
 
-#: ../../docs/tutorials/export/exporting_for_ios.rst:163
+#: ../../docs/tutorials/export/exporting_for_ios.rst:173
 msgid "After running this command, Godot should be able to successfully export to iOS."
 msgstr ""
 
-#: ../../docs/tutorials/export/exporting_for_ios.rst:166
+#: ../../docs/tutorials/export/exporting_for_ios.rst:176
 msgid "Export options"
 msgstr ""
 
-#: ../../docs/tutorials/export/exporting_for_ios.rst:168
+#: ../../docs/tutorials/export/exporting_for_ios.rst:178
 msgid "You can find a full list of export options available in the :ref:`class_EditorExportPlatformIOS` class reference."
 msgstr ""

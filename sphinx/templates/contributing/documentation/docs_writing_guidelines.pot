@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -701,86 +701,201 @@ msgstr ""
 msgid "In **Project Settings > Application > Run**, set :ref:`Max FPS<class_ProjectSettings_property_application/run/max_fps>` to ``60``."
 msgstr ""
 
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:647
+msgid "Code blocks and adominitions"
+msgstr ""
+
 #: ../../docs/contributing/documentation/docs_writing_guidelines.rst:649
+msgid "Code blocks should use the ``::`` syntax on its own line. Do not use the short form where it's at the end of a paragraph, as the trailing ``::`` would be included in the localizable string otherwise. Weblate would show a warning due to the trailing ``::``, and if the localized string does not end with ``::``, it would break the code block entirely in the translated manual."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:656
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:678
+msgid "**Bad:**"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:664
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:687
+msgid "**Good:**"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:674
+msgid "As for admonitions (note, warning, etc. blocks), you should write the admonition tag on its own line, then the admonition's contents indented by 4 spaces. Do not write the first line of the contents on the same line as the admonition tag."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:701
 msgid "Manually wrapping lines"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:651
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:703
 msgid "In the manual, lines must be manually wrapped to no more than 80-100 characters per line. However, links must not be split into multiple lines, and can exceed 100 characters. Tables can also exceed 100 characters."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:655
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:707
 msgid "When making small changes, you don't need to manually re-wrap the whole paragraph, as long as the lines don't exceed 100 characters."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:658
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:710
 msgid "**Bad:** Line length exceeds 100 characters:"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:665
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:717
 msgid "**Good:** Lines are wrapped to 80-90 characters:"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:673
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:725
 msgid "**Best:** Lines are wrapped to under 80 characters:"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:682
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:734
 msgid "In most text editors, you can add a vertical guide or \"ruler\" at 80 characters. For example, in Visual Studio Code, you can add the following to your ``settings.json`` to add rulers at 80 and 100 characters:"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:691
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:743
 msgid "Section header syntax"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:693
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:745
 msgid "Use the following syntax for section headers:"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:721
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:773
 msgid "Currently, there are no cases of deeper header nesting than this. Avoid introducing any deeper nesting."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:724
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:776
 msgid "Note that headers have no inherent meaning. In reStructuredText, headers are parsed based on the order that they initially appear within a page. Make sure that if you use an ``h3`` section header (``~~~``), you include an ``h2`` sub-section header (``---``) first."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:729
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:781
 msgid "See the `Sphinx documentation <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#sections>`__ and the `reStructuredText documentation <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#sections>`__ for more information."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:736
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:788
 msgid "When to refer to a specific Godot version"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:738
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:790
 msgid "Most of the time, the class reference and the manual should not specify the first version in which a feature is added. This is because the documentation describes the *current* features of the engine. Documentation will be read and maintained for many versions after it is initially written, and a reference to a first supported version is only relevant for a few versions after a feature is added. After that, it becomes historical trivia best left to a dedicated changelog."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:745
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:797
 msgid "Follow these guidelines for when to refer to a specific Godot version:"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:747
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:799
 msgid "If a feature was added in the current major version (4.x), **you can specify** the feature is new in 4.x."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:749
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:801
 msgid "If a feature or default approach to a problem was changed between major versions (3.x -> 4.x), describe the current feature in the main body of the page, and optionally add a brief sentence or note block to compare 3.x and 4.x."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:752
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:804
 msgid "If a large feature is added in a 4.x minor version, **you can specify** the minor version when it was added. Large features have a whole page or large section of documentation. In many cases it should still be avoided, since it's only relevant for the next few minor versions."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:756
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:808
 msgid "If a small feature is added in a 4.x minor version, **do not specify** the minor version when it was added. Small features have only a short section of documentation, or are minor additions to existing features."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:759
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:811
 msgid "If the default approach to a problem is changed in a 4.x minor version, **do specify** the minor version in which a new default approach was added. For example, the change from ``TileMap`` to ``TileMapLayer`` in 4.3."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:762
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:814
 msgid "If a feature was added in a 3.x major or minor version, **do not specify** when the feature was added. These features are old enough that the exact version in which they were added is not relevant."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:819
+msgid "Use roles for editor UI"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:821
+msgid "Much of the manual involves describing a sequence of UI actions in the editor, like clicking a button, opening a menu, or setting a property in the inspector. To keep formatting standardized, we use custom Sphinx roles for UI elements."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:825
+msgid "The following roles are defined:"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:827
+msgid "``:button:``  A button, toggle, or other clickable UI element. If the reader is meant to click on it, and it's not a menu, use this. Renders as :button:`bold, with a background`."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:830
+msgid "``:menu:``  A series of menus to click through. When listing a series of menus, separate them with ``>``.  Renders as :menu:`bold, with a background`."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:832
+msgid "``:inspector:`` A property *in the inspector*. When describing a property in *code*, instead either use ``code style`` or link to the property, as described earlier. Renders as :inspector:`bold`."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:835
+msgid "``:ui:`` A role for any other editor UI elements. Use this if you would have otherwise just used **bold style**. Use this for input fields, docks, tabs, windows, bottom panels, etc. Also used for nested project settings or inspector sections. Renders as :ui:`bold`."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:840
+msgid "The first two roles, ``:button:`` and ``:menu:`` are used for editor UI that the reader is meant to click on, and they use an attention-grabbing visual style. The other roles, ``:inspector:`` and ``:ui:``, are used for other UI and show up often in text, so they just use bold text to be less distracting."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:845
+msgid "Our custom roles are inspired by the Sphinx `guilabel <https://www.sphinx-doc.org/en/master/usage/restructuredtext/roles.html#role-guilabel>`_ and `menuselection <https://www.sphinx-doc.org/en/master/usage/restructuredtext/roles.html#role-menuselection>`_ roles. However, we use our own implementation to better match the specific needs of Godot's documentation, using `custom RST roles <https://docutils.sourceforge.io/docs/ref/rst/directives.html#custom-interpreted-text-roles>`_ and some custom CSS."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:852
+msgid "Examples"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:854
+msgid "These are some example sections that use the roles, in context. Check the source of this page to see which roles are used."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:858
+msgid "Adding a sprite and setting some properties"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:860
+msgid "In the :ui:`Scene` dock, click :button:`2D Scene` to create a new scene."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:862
+msgid "Add a new :ref:`Sprite2D <class_Sprite2D>` to the scene by right-clicking on the root node and choosing :button:`Add Child Node...`. In the :ui:`Create New Node` window, search for \"Sprite2D\", select it, and then click :button:`Create`."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:866
+msgid "On the sprite, under :ui:`Offset`, set :inspector:`Offset` to ``(16, 32)`` and enable :inspector:`Flip H`. Set :inspector:`Animation > HFrames` to ``10``. In :ui:`CanvasItem > Visibility`, set the :inspector:`Modulate` color to ``ff0000``."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:873
+msgid "Don't forget to save your scene in :menu:`Scene > Save Scene...`. When the :ui:`Save Scene As...` window pops up, enter \"my_scene.tscn\" in the :ui:`File` field, then click :button:`Save`."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:878
+msgid "Setting project settings"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:880
+msgid "Go to :menu:`Project > Project Settings`, then select the :ref:`Max FPS <class_ProjectSettings_property_application/run/max_fps>` setting under :ui:`Application > Run`. Don't forget to click the :button:`Advanced Settings` toggle. Then, in :ui:`Filter Settings`, search for \"physics\". Under :ui:`Physics > 3D > Solver`, set :inspector:`Solver Iterations` to ``16``."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:888
+msgid "All styles in context"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:890
+msgid "Use this section to see how the custom roles look, particularly within admonitions."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:892
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:896
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:900
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:904
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:908
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:912
+msgid "|styleroles|"
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:910
+msgid "Custom admonition"
 msgstr ""

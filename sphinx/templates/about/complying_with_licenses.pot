@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -52,113 +52,113 @@ msgid "In the case of the MIT license, the only requirement is to include the li
 msgstr ""
 
 #: ../../docs/about/complying_with_licenses.rst:45
-msgid "This text reads as follows::"
+msgid "This text reads as follows:"
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:70
+#: ../../docs/about/complying_with_licenses.rst:72
 msgid "Beside its own MIT license, Godot includes code from a number of third-party libraries. See :ref:`doc_complying_with_licenses_thirdparty` for details."
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:75
+#: ../../docs/about/complying_with_licenses.rst:77
 msgid "Your games do not need to be under the same license. You are free to release your Godot projects under any license and to create commercial games with the engine."
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:80
+#: ../../docs/about/complying_with_licenses.rst:82
 msgid "Inclusion"
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:82
+#: ../../docs/about/complying_with_licenses.rst:84
 msgid "The license text must be made available to the user. The license doesn't specify how the text has to be included, but here are the most common approaches (you only need to implement one of them, not all)."
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:87
+#: ../../docs/about/complying_with_licenses.rst:89
 msgid "Credits screen"
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:89
+#: ../../docs/about/complying_with_licenses.rst:91
 msgid "Include the above license text somewhere in the credits screen. It can be at the bottom after showing the rest of the credits. Most large studios use this approach with open source licenses."
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:94
+#: ../../docs/about/complying_with_licenses.rst:96
 msgid "Licenses screen"
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:96
+#: ../../docs/about/complying_with_licenses.rst:98
 msgid "Some games have a special menu (often in the settings) to display licenses. This menu is typically accessed with a button called **Third-party Licenses** or **Open Source Licenses**."
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:101
+#: ../../docs/about/complying_with_licenses.rst:103
 msgid "Output log"
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:103
+#: ../../docs/about/complying_with_licenses.rst:105
 msgid "Printing the license text using the :ref:`print() <class_@GlobalScope_method_print>` function may be enough on platforms where a global output log is readable. This is the case on desktop platforms, Android and HTML5 (but not iOS)."
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:108
+#: ../../docs/about/complying_with_licenses.rst:110
 msgid "Accompanying file"
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:110
+#: ../../docs/about/complying_with_licenses.rst:112
 msgid "If the game is distributed on desktop platforms, a file containing the license text can be added to the software that is installed to the user PC."
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:114
+#: ../../docs/about/complying_with_licenses.rst:116
 msgid "Printed manual"
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:116
+#: ../../docs/about/complying_with_licenses.rst:118
 msgid "If the game includes a printed manual, the license text can be included there."
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:119
+#: ../../docs/about/complying_with_licenses.rst:121
 msgid "Link to the license"
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:121
+#: ../../docs/about/complying_with_licenses.rst:123
 msgid "The Godot Engine developers consider that a link to ``godotengine.org/license`` in your game documentation or credits would be an acceptable way to satisfy the license terms."
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:127
+#: ../../docs/about/complying_with_licenses.rst:129
 msgid "Godot provides several methods to get license information in the :ref:`Engine <class_Engine>` singleton. This allows you to source the license information directly from the engine binary, which prevents the information from becoming outdated if you update engine versions."
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:132
+#: ../../docs/about/complying_with_licenses.rst:134
 msgid "For the engine itself:"
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:134
+#: ../../docs/about/complying_with_licenses.rst:136
 msgid ":ref:`Engine.get_license_text<class_Engine_method_get_license_text>`"
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:136
+#: ../../docs/about/complying_with_licenses.rst:138
 msgid "For third-party components used by the engine:"
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:138
+#: ../../docs/about/complying_with_licenses.rst:140
 msgid ":ref:`Engine.get_license_info<class_Engine_method_get_license_info>`"
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:139
+#: ../../docs/about/complying_with_licenses.rst:141
 msgid ":ref:`Engine.get_copyright_info<class_Engine_method_get_copyright_info>`"
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:144
+#: ../../docs/about/complying_with_licenses.rst:146
 msgid "Third-party licenses"
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:146
+#: ../../docs/about/complying_with_licenses.rst:148
 msgid "Godot itself contains software written by `third parties <https://github.com/godotengine/godot/blob/master/thirdparty/README.md>`_, which is compatible with, but not covered by Godot's MIT license."
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:150
+#: ../../docs/about/complying_with_licenses.rst:152
 msgid "Many of these dependencies are distributed under permissive open source licenses which require attribution by explicitly citing their copyright statement and license text in the final product's documentation."
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:154
+#: ../../docs/about/complying_with_licenses.rst:156
 msgid "Given the scope of the Godot project, this is fairly difficult to do thoroughly. For the Godot editor, the full documentation of third-party copyrights and licenses is provided in the `COPYRIGHT.txt <https://github.com/godotengine/godot/blob/master/COPYRIGHT.txt>`_ file."
 msgstr ""
 
-#: ../../docs/about/complying_with_licenses.rst:159
+#: ../../docs/about/complying_with_licenses.rst:161
 msgid "A good option for end users to document third-party licenses is to include this file in your project's distribution, which you can e.g. rename to ``GODOT_COPYRIGHT.txt`` to prevent any confusion with your own code and assets."
 msgstr ""

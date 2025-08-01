@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -176,7 +176,7 @@ msgid "The hand skeleton modifier"
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_hand_tracking.rst:138
-msgid "Finally we need to add a :ref:`XRHandModifier3D <class_xrhandmodifier3d>` node as a child to our ``Skeleton3D`` node. This node will obtain the finger tracking data from OpenXR and apply it the hand model."
+msgid "Finally we need to add an :ref:`XRHandModifier3D <class_xrhandmodifier3d>` node as a child to our ``Skeleton3D`` node. This node will obtain the finger tracking data from OpenXR and apply it the hand model."
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_hand_tracking.rst:141

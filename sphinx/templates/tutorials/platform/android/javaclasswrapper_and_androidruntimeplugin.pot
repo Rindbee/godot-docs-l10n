@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:4
+msgid "Integrating with Android APIs"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:6
+msgid "The Android platform has numerous APIs as well as a rich ecosystem of third-party libraries with wide and diverse functionality, like push notifications, analytics, authentication, ads, etc..."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:9
+msgid "These don't make sense in Godot core itself so Godot has long provided an :ref:`Android plugin system <doc_android_plugin>`. The :ref:`Android plugin system <doc_android_plugin>` enables developers to create Godot Android plugins using Java or Kotlin code, which provides an interface to access and use Android APIs or third-party libraries in Godot projects from GDScript, C# or GDExtension."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:23
+msgid "Writing an Android plugin however requires knowledge of Java or Kotlin code, which most Godot developers do not have. As such there are many Android APIs and third-party libraries that don't have a Godot plugin that developers can interface with. In fact, this is one of the main reasons that developers cite for not being able to switch to Godot from other game engines."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:27
+msgid "To address this, we've introduced a couple of tools in **Godot 4.4** to simplify the process for developers to access Android APIs and third-party libraries."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:30
+msgid "JavaClassWrapper (Godot singleton)"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:32
+msgid "``JavaClassWrapper`` is a :ref:`Godot singleton <class_JavaClassWrapper>` which allows creating instances of Java / Kotlin classes and calling methods on them using only GDScript, C# or GDExtension."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:45
+msgid "In the code snippet above, ``JavaClassWrapper`` is used from GDScript to access the Java ``LocalDateTime`` and ``DateTimeFormatter`` classes. Through ``JavaClassWrapper``, we can call the Java classes methods directly from GDScript as if they were GDScript methods."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:49
+msgid "AndroidRuntime plugin"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:51
+msgid "``JavaClassWrapper`` is great, but to do many things on Android, you need access to various Android lifecycle / runtime objects. ``AndroidRuntime`` plugin is a `built-in Godot Android plugin <https://javadoc.io/doc/org.godotengine/godot/latest/org/godotengine/godot/plugin/AndroidRuntimePlugin.html>`_ that allows you to do this."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:54
+msgid "Combining ``JavaClassWrapper`` and ``AndroidRuntime`` plugin allows developers to access and use Android APIs without switching away from GDScript, or using any tools aside from Godot itself. This is **huge** for the adoption of Godot for Android development:"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:57
+msgid "If you need to do something simple, or only use a small part of a third-party library, you don't have to make a plugin"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:58
+msgid "It allows developers to quickly integrate Android functionality"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:59
+msgid "It allows developers to create Godot addons using only GDScript and ``JavaClassWrapper`` (no Java or Kotlin needed)"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:63
+msgid "For exports using ``gradle``, Godot will automatically include ``.jar`` or ``.aar`` files it find in the project ``addons`` directory. So to use a third-party library, you can just drop its ``.jar`` or ``.aar`` file in the ``addons`` directory, and call its method directly from GDScript using ``JavaClassWrapper``."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:67
+msgid "Example: Show an Android toast"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:87
+msgid "Example: Vibrate the device"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:103
+msgid "Example: Accessing inner classes"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:105
+msgid "Java inner classes can be accessed using the ``$`` sign:"
+msgstr ""

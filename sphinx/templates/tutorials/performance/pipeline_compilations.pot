@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -112,7 +112,7 @@ msgid "Godot offers a lot of rendering features that are not necessarily used by
 msgstr ""
 
 #: ../../docs/tutorials/performance/pipeline_compilations.rst:137
-msgid "If your game makes use of these features, **make sure to have an scene that uses them as early as possible** before loading the majority of the assets. This scene can be very simple and will do the job as long as it uses the features the game plans to use. It can even be rendered off-screen for at least one frame if necessary, e.g. by covering it with a :ref:`class_ColorRect` node or using a :ref:`class_SubViewport` located outside the window bounds."
+msgid "If your game makes use of these features, **make sure to have a scene that uses them as early as possible** before loading the majority of the assets. This scene can be very simple and will do the job as long as it uses the features the game plans to use. It can even be rendered off-screen for at least one frame if necessary, e.g. by covering it with a :ref:`class_ColorRect` node or using a :ref:`class_SubViewport` located outside the window bounds."
 msgstr ""
 
 #: ../../docs/tutorials/performance/pipeline_compilations.rst:144

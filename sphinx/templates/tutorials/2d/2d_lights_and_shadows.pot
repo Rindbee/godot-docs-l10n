@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -299,118 +299,102 @@ msgid "Soft shadows with streaking artifacts due to Filter Smooth being too high
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:259
-msgid "Occluder draw order"
-msgstr ""
-
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:261
-msgid "**LightOccluder2Ds follows the usual 2D drawing order.** This is important for 2D lighting, as this is how you control whether the occluder should occlude the sprite itself or not."
-msgstr ""
-
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:265
-msgid "If the LightOccluder2D node is a *sibling* of the sprite, the occluder will occlude the sprite itself if it's placed *below* the sprite in the scene tree."
-msgstr ""
-
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:268
-msgid "If the LightOccluder2D node is a *child* of the sprite, the occluder will occlude the sprite itself if **Show Behind Parent** is disabled on the LightOccluder2D node (which is the default)."
-msgstr ""
-
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:273
 msgid "Normal and specular maps"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:275
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:261
 msgid "Normal maps and specular maps can greatly enhance the sense of depth of your 2D lighting. Similar to how these work in 3D rendering, normal maps can help make lighting look less flat by varying its intensity depending on the direction of the surface receiving light (on a per-pixel basis). Specular maps further help improve visuals by making some of the light reflect back to the viewer."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:281
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:267
 msgid "Both PointLight2D and DirectionalLight2D support normal mapping and specular mapping. Since Godot 4.0, normal and specular maps can be assigned to any 2D element, including nodes that inherit from Node2D or Control."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:285
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:271
 msgid "A normal map represents the direction in which each pixel is \"pointing\" towards. This information is then used by the engine to correctly apply lighting to 2D surfaces in a physically plausible way. Normal maps are typically created from hand-painted height maps, but they can also be automatically generated from other textures."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:291
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:277
 msgid "A specular map defines how much each pixel should reflect light (and in which color, if the specular map contains color). Brighter values will result in a brighter reflection at that given spot on the texture. Specular maps are typically created with manual editing, using the diffuse texture as a base."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:298
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:284
 msgid "If you don't have normal or specular maps for your sprites, you can generate them using the free and open source `Laigter <https://azagaya.itch.io/laigter>`__ tool."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:302
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:288
 msgid "To set up normal maps and/or specular maps on a 2D node, create a new CanvasTexture resource for the property that draws the node's texture. For example, on a Sprite2D:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:306
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:310
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:292
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:296
 msgid "Creating a CanvasTexture resource for a Sprite2D node"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:312
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:298
 msgid "Expand the newly created resource. You can find several properties you will need to adjust:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:315
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:301
 msgid "**Diffuse > Texture:** The base color texture. In this property, load the texture you're using for the sprite itself."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:317
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:303
 msgid "**Normal Map > Texture:** The normal map texture. In this property, load a normal map texture you've generated from a height map (see the tip above)."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:319
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:305
 msgid "**Specular > Texture:** The specular map texture, which controls the specular intensity of each pixel on the diffuse texture. The specular map is usually grayscale, but it can also contain color to multiply the color of reflections accordingly. In this property, load a specular map texture you've created (see the tip above)."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:324
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:310
 msgid "**Specular > Color:** The color multiplier for specular reflections."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:325
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:311
 msgid "**Specular > Shininess:** The specular exponent to use for reflections. Lower values will increase the brightness of reflections and make them more diffuse, while higher values will make reflections more localized. High values are more suited for wet-looking surfaces."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:329
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:315
 msgid "**Texture > Filter:** Can be set to override the texture filtering mode, regardless of what the node's property is set to (or the **Rendering > Textures > Canvas Textures > Default Texture Filter** project setting)."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:333
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:319
 msgid "**Texture > Repeat:** Can be set to override the texture filtering mode, regardless of what the node's property is set to (or the **Rendering > Textures > Canvas Textures > Default Texture Repeat** project setting)."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:338
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:324
 msgid "After enabling normal mapping, you may notice that your lights appear to be weaker. To resolve this, increase the **Height** property on your PointLight2D and DirectionalLight2D nodes. You may also want to increase the lights's **Energy** property slightly to get closer to how your lighting's intensity looked prior to enabling normal mapping."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:345
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:331
 msgid "Using additive sprites as a faster alternative to 2D lights"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:347
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:333
 msgid "If you run into performance issues when using 2D lights, it may be worth replacing some of them with Sprite2D nodes that use additive blending. This is particularly suited for short-lived dynamic effects, such as bullets or explosions."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:351
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:337
 msgid "Additive sprites are much faster to render, since they don't need to go through a separate rendering pipeline. Additionally, it is possible to use this approach with AnimatedSprite2D (or Sprite2D + AnimationPlayer), which allows for animated 2D \"lights\" to be created."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:356
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:342
 msgid "However, additive sprites have a few downsides compared to 2D lights:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:358
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:344
 msgid "The blending formula is inaccurate compared to \"actual\" 2D lighting. This is usually not a problem in sufficiently lit areas, but this prevents additive sprites from correctly lighting up areas that are fully dark."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:361
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:347
 msgid "Additive sprites cannot cast shadows, since they are not lights."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:362
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:348
 msgid "Additive sprites ignore normal and specular maps used on other sprites."
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:364
+#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:350
 msgid "To display a sprite with additive blending, create a Sprite2D node and assign a texture to it. In the inspector, scroll down to the **CanvasItem > Material** section, unfold it and click the dropdown next to the **Material** property. Choose **New CanvasItemMaterial**, click the newly created material to edit it, then set **Blend Mode** to **Add**."
 msgstr ""
