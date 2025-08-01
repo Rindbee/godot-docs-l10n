@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -522,14 +522,6 @@ msgid ""
 msgstr ""
 "``[codeblock]``, ayrıştırıcı ``[/codeblock]`` ile karşılaşana kadar BBCode'u "
 "devre dışı bırakır."
-
-msgid ""
-"Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, "
-"always use **four spaces** for indentation. The parser will delete tabs."
-msgstr ""
-"Ön-biçimli kod parçaları için ``[codeblock]`` kullanın. ``[codeblock]`` "
-"içerisinde, girinti için her zaman **4 boşluk** kullanın. Çözümleyici sekme "
-"karakterlerini silecektir."
 
 msgid "For example:"
 msgstr "Örneğin:"

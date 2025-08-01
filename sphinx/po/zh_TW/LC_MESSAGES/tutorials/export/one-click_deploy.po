@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -68,11 +68,6 @@ msgid ""
 "If you have more than one device connected, Godot will ask you which device "
 "the project should be exported to."
 msgstr "如果你連接的裝置超過一台，Godot會詢問你想匯出專案到哪台裝置。"
-
-msgid ""
-"**iOS:** Exports the project with debugging enabled and runs it on the "
-"connected device or simulator."
-msgstr "**iOS：** 匯出專案並啟用除錯，然後在連接的裝置或模擬器上執行。"
 
 msgid ""
 "Make sure to follow the steps described in :ref:`doc_exporting_for_ios`. "
@@ -160,12 +155,6 @@ msgid ""
 msgstr ""
 "請確保裝置與電腦在同一區域網路，並於編輯器設定中選擇正確的網路介面（請見「網"
 "路 ⇾ 除錯 ⇾ 遠端主機」）。預設情況下，編輯器僅監聽 `localhost` 連線。"
-
-msgid "For running in simulator:"
-msgstr "如要在模擬器中執行："
-
-msgid "Install and start simulator from the Xcode."
-msgstr "請於 Xcode 安裝並啟動模擬器。"
 
 msgid "Device screen should be unlocked."
 msgstr "請確保裝置螢幕已解鎖。"

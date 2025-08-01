@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -412,19 +412,6 @@ msgstr ""
 
 msgid "Monitors"
 msgstr "Монітори"
-
-msgid ""
-"The monitors are graphs of several aspects of the game while its running "
-"such as FPS, memory usage, how many nodes are in a scene and more. All "
-"monitors keep track of stats automatically, so even if one monitor isn't "
-"open while the game is running, you can open it later and see how the values "
-"changed."
-msgstr ""
-"Монітори — це графіки кількох аспектів гри під час її роботи, таких як FPS, "
-"використання пам’яті, кількість вузлів у сцені тощо. Усі монітори "
-"автоматично відстежують статистику, тож навіть якщо один монітор не "
-"відкритий під час гри, ви можете відкрити його пізніше та побачити, як "
-"змінилися значення."
 
 msgid ""
 "In addition to the default performance monitors, you can also "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,13 +32,6 @@ msgstr ""
 "pour Android. Les étapes suivantes détaillent ce qui est nécessaire pour "
 "configurer le SDK Android et le moteur."
 
-msgid ""
-"Download and install `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
-"variant=openjdk17>`__."
-msgstr ""
-"Téléchargez et installez `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
-"variant=openjdk17>`__."
-
 msgid "Download the Android SDK"
 msgstr "Télécharger le SDK Android"
 
@@ -58,9 +51,6 @@ msgstr "Outils en ligne de commande du SDK Android (dernière version)"
 
 msgid "CMake version 3.10.2.4988404"
 msgstr "CMake version 3.10.2.4988404"
-
-msgid "NDK version r23c (23.2.8568313)"
-msgstr "Version NDK r23c (23.2.8568313)"
 
 msgid ""
 "If you are using Linux, **do not use an Android SDK provided by your "

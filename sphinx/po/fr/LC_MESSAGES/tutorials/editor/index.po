@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,17 +23,6 @@ msgstr ""
 
 msgid "Editor's interface"
 msgstr "Interface de l'éditeur"
-
-msgid ""
-"The following pages explain how to use the various windows, workspaces, and "
-"docks that make up the Godot editor. We cover some specific editors' "
-"interface in other sections where appropriate. For example, "
-"the :ref:`animation editor <doc_introduction_animation>`."
-msgstr ""
-"Dans cette section, nous couvrons les différentes fenêtres, espaces de "
-"travail et docks qui constituent l'éditeur Godot. Nous couvrons l'interface "
-"de certains éditeurs spécifiques dans d'autres sections, le cas échéant. Par "
-"exemple, :ref:`l'éditeur d'animation <doc_introduction_animation>`."
 
 msgid "XR editor"
 msgstr "Éditeur XR"

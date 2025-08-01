@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -31,9 +31,6 @@ msgstr ""
 msgid ""
 "Create an ``editor.entitlements`` text file with the following contents:"
 msgstr "创建包含如下内容的 ``editor.entitlements`` 文本文件："
-
-msgid "Then use the following command to re-sign the editor::"
-msgstr "然后使用以下命令对编辑器进行重新签名： ::"
 
 msgid "Debugging exported project"
 msgstr "调试导出的项目"

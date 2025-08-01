@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,13 +13,6 @@ msgstr ""
 
 msgid "CLion"
 msgstr "CLion"
-
-msgid ""
-"`CLion <https://www.jetbrains.com/clion/>`_ is a commercial `JetBrains "
-"<https://www.jetbrains.com/>`_ IDE for C++."
-msgstr ""
-"`CLion <https://www.jetbrains.com/clion/>`_ 是 `JetBrains <https://"
-"www.jetbrains.com/>`_ 推出的商業 C++ IDE。"
 
 msgid "Importing the project"
 msgstr "匯入專案"
@@ -33,14 +26,6 @@ msgstr ""
 "CLion 可以匯入專案的 `編譯資料庫檔 <https://clang.llvm.org/docs/"
 "JSONCompilationDatabase.html>`_，通常檔名為 ``compile_commands.json``。要產生"
 "此編譯資料庫，請打開終端機，切換到 Godot 根目錄，然後執行："
-
-msgid ""
-"Then, open the Godot root directory with CLion. CLion will import the "
-"compilation database, index the codebase, and provide autocompletion and "
-"other advanced code navigation and refactoring functionality."
-msgstr ""
-"接著，以 CLion 開啟 Godot 根目錄。CLion 會自動匯入編譯資料庫、索引程式碼庫，"
-"並提供自動補全、程式碼導覽、重構等進階功能。"
 
 msgid "Compiling and debugging the project"
 msgstr "編譯與除錯專案"

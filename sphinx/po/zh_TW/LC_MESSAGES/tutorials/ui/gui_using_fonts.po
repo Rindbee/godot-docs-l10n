@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -127,23 +127,6 @@ msgstr ""
 "www.angelcode.com/products/bmfont/>`__ 所建立的格式。也有其他相容工具，如 "
 "`BMGlyph <https://www.bmglyph.com/>`__ 或線上 `fontcutter <https://"
 "github.com/fabienbk/fontcutter>`__。"
-
-msgid ""
-"Alternatively, you can import any image to be used as a bitmap font. This is "
-"only supported for **monospaced** fonts (fonts where each character has the "
-"same width). To do so, select the image in the FileSystem dock, go to the "
-"Import dock, change its import type to **Font Data (Monospace Image Font)** "
-"then click **Reimport**:"
-msgstr ""
-"你也可以匯入任何圖像作為點陣字型，但只支援**等寬字型**（每個字元寬度相同）。"
-"作法是在檔案系統面板選取圖像，切到匯入面板，將匯入類型設為 **字型資料（等寬圖"
-"像字型）**，然後點選 **重新匯入**："
-
-msgid "Changing import type to Font Data (Monospace Image Font)"
-msgstr "將匯入類型設為字型資料（等寬圖像字型）"
-
-msgid "Changing import type to **Font Data (Monospace Image Font)**"
-msgstr "將匯入類型設為 **字型資料（等寬圖像字型）**"
 
 msgid ""
 "The font's character set layout can be in any order, but orders that match "

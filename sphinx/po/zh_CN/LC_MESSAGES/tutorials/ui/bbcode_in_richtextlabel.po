@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -139,6 +139,9 @@ msgstr "``[p]{text}[/p]``"
 msgid "``[p {options}]{text}[/p]``"
 msgstr "``[p {options}]{text}[/p]``"
 
+msgid "``[br]``"
+msgstr "``[br]``"
+
 msgid "**center**"
 msgstr "**center**"
 
@@ -215,17 +218,6 @@ msgstr "``[url={link}]{text}[/url]``"
 
 msgid "**hint**"
 msgstr "**hint**"
-
-msgid ""
-"Creates a tooltip hint that is displayed when hovering the text with the "
-"mouse. Tooltip text should not be quoted (quotes will appear as-is in the "
-"tooltip otherwise)."
-msgstr ""
-"创建工具提示，鼠标在文本上悬停时显示。工具提示文本不需要引号包裹（否则会原样"
-"显示在工具提示中）。"
-
-msgid "``[hint={tooltip text displayed on hover}]{text}[/hint]``"
-msgstr "``[hint={悬停时显示的工具提示文本}]{text}[/hint]``"
 
 msgid "**img**"
 msgstr "**img**"
@@ -547,29 +539,8 @@ msgstr ""
 "默认情况下，\\ ``[url]`` 标签在单击时不执行任何操作.这是为了允许灵活使用 "
 "``[url]`` 标签，而不是限制它们在Web浏览器中打开URL."
 
-msgid ""
-"For example, the following method can be connected to ``meta_clicked`` to "
-"open clicked URLs using the user's default web browser::"
-msgstr ""
-"例如，将如下方法连接到 ``meta_clicked`` 上即可在用户的默认网页浏览器中打开被"
-"点击的 URL： ::"
-
-msgid ""
-"For more advanced use cases, it's also possible to store JSON in an "
-"``[url]`` tag's option and parse it in the function that handles the "
-"``meta_clicked`` signal. For example:"
-msgstr ""
-"要支持更高级的用法，也可以在 ``[url]`` 标签的选项中存储 JSON，然后在处理 "
-"``meta_clicked`` 信号的函数中解析。例如："
-
-msgid "Image options"
-msgstr "图像选项"
-
 msgid "Color name or color in HEX format"
 msgstr "颜色名称或十六进制格式的颜色"
-
-msgid "Color tint of the image (modulation)."
-msgstr "图像的着色颜色（调制）。"
 
 msgid "**height**"
 msgstr "**height**"
@@ -577,8 +548,17 @@ msgstr "**height**"
 msgid "Integer number"
 msgstr "整数"
 
+msgid "``2``"
+msgstr "``2``"
+
 msgid "**width**"
 msgstr "**width**"
+
+msgid "Image options"
+msgstr "图像选项"
+
+msgid "Color tint of the image (modulation)."
+msgstr "图像的着色颜色（调制）。"
 
 msgid "**region**"
 msgstr "**region**"

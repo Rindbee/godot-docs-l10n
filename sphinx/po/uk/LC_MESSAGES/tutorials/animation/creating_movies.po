@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -328,13 +328,6 @@ msgstr ""
 "потрібно конвертувати в інший формат для перегляду в Інтернеті або Godot за "
 "допомогою вузла VideoStreamPlayer. MJPEG не підтримує прозорість. Вихід AVI "
 "наразі обмежений розміром файлу не більше 4 ГБ."
-
-msgid ""
-"To use AVI, specify a path to an ``.avi`` file to be created in the **Editor "
-"> Movie Writer > Movie File** project setting."
-msgstr ""
-"Щоб використовувати AVI, укажіть шлях до файлу ``.avi``, який буде створено, "
-"у налаштуваннях проекту **Редактор > Сценарист фільму > Файл фільму**."
 
 msgid "PNG"
 msgstr "PNG"

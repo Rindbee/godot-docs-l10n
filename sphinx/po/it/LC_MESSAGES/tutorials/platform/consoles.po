@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,14 +47,6 @@ msgid ""
 msgstr ""
 "`Lone Wolf Technology <https://www.lonewolftechnology.com/>`_ offre il "
 "porting e la pubblicazione dei giochi di Godot per Switch e Playstation 4."
-
-msgid ""
-"`Pineapple Works <https://pineapple.works/>`_ offers Switch, Xbox One & Xbox "
-"Series X/S (GDK) porting and publishing of Godot games (GDScript/C#)."
-msgstr ""
-"`Pineapple Works <https://pineapple.works/>`_ offre il porting e la "
-"pubblicazione di giochi Godot (GDScript/C#) su Switch, Xbox One e Xbox "
-"Series X/S (GDK)."
 
 msgid ""
 "`RAWRLAB games <https://www.rawrlab.com/>`_ offers Switch porting of Godot "

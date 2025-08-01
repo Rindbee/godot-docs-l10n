@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -71,22 +71,6 @@ msgstr ""
 
 msgid "Two properties can be tweaked to make the fog effect more interesting:"
 msgstr "霧の効果をさらに面白くするために、2つのプロパティを調整できます:"
-
-msgid ""
-"The first is **Sun Amount**, which makes use of the Sun Color property of "
-"the fog. When looking towards a directional light (usually a sun), the color "
-"of the fog will be changed, simulating the sunlight passing through the fog."
-msgstr ""
-"1つ目は **Sun Amount** で、霧のSun Colorプロパティを使用します。指向性ライト"
-"(通常は太陽)を見ると、フォグの色が変わり、フォグを通過する日光をシミュレート"
-"します。"
-
-msgid ""
-"The second is **Transmit Enabled** which simulates more realistic light "
-"transmittance. In practice, it makes light stand out more across the fog."
-msgstr ""
-"2つ目は **Transmit Enabled** で、より現実的な光透過率をシミュレートします。実"
-"際には、霧の中で光をより際立たせます。"
 
 msgid "Tonemap"
 msgstr "トーンマップ"

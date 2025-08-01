@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -380,6 +380,9 @@ msgstr ""
 "godotengine/godot/GodotHost.java#L45>`_ 将 ``--main-pack "
 "<pck_or_zip_filepath_relative_too_assets_dir>`` 参数传递给托管的 Godot 引擎实"
 "例。"
+
+msgid "Example:"
+msgstr "示例："
 
 msgid ""
 "The instructions below and the sample app follow the first approach of "

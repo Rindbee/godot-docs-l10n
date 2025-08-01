@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,13 +13,6 @@ msgstr ""
 
 msgid "CLion"
 msgstr "CLion"
-
-msgid ""
-"`CLion <https://www.jetbrains.com/clion/>`_ is a commercial `JetBrains "
-"<https://www.jetbrains.com/>`_ IDE for C++."
-msgstr ""
-"`CLion <https://www.jetbrains.com/clion/>`_ ist eine kommerzielle `JetBrains "
-"<https://www.jetbrains.com/>`_-IDE für C++."
 
 msgid "Importing the project"
 msgstr "Projekt importieren"
@@ -35,15 +28,6 @@ msgstr ""
 "üblicherweise ``compile_commands.json`` heißt. Um die "
 "Kompilierungsdatenbankdatei zu erzeugen, öffnen Sie das Terminal, wechseln "
 "Sie in das Godot-Stammverzeichnis und führen Sie aus:"
-
-msgid ""
-"Then, open the Godot root directory with CLion. CLion will import the "
-"compilation database, index the codebase, and provide autocompletion and "
-"other advanced code navigation and refactoring functionality."
-msgstr ""
-"Öffnen Sie dann das Godot-Stammverzeichnis mit CLion. CLion importiert die "
-"Kompilierungsdatenbank, indiziert die Codebasis und bietet Autocompletion "
-"und andere fortschrittliche Code-Navigations- und Refactoring-Funktionen."
 
 msgid "Compiling and debugging the project"
 msgstr "Kompilieren und Debuggen des Projekts"

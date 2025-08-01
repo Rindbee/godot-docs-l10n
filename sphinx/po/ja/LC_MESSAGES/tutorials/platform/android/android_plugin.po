@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -43,6 +43,9 @@ msgid ""
 msgstr ""
 "`Godot Androidプラグインテンプレート <https://github.com/m4gr3d/Godot-"
 "Android-Plugin-Template>`_"
+
+msgid "For example:"
+msgstr "例:"
 
 msgid "Godot crashes upon load"
 msgstr "ロード時にGodotがクラッシュする"

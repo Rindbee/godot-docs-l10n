@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -125,12 +125,6 @@ msgid ""
 msgstr ""
 "Ceci imprimera le temps passé entre la déclaration ``begin`` et la "
 "déclaration ``end``."
-
-msgid ""
-"You may have to ``#include \"core/os/os.h\"`` if it's not present already."
-msgstr ""
-"Vous devrez peut-être inclure ``#include \"core/os/os.h\"`` s'il n'est pas "
-"déjà présent."
 
 msgid ""
 "When opening a pull request, make sure to remove this snippet as well as the "

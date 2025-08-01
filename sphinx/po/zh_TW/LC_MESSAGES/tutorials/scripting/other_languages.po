@@ -1,0 +1,42 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Other languages"
+msgstr "其他語言"
+
+msgid "The bindings below are developed and maintained by the community:"
+msgstr "以下語言綁定由社群開發並維護："
+
+msgid "`D <https://github.com/godot-dlang/godot-dlang>`__"
+msgstr "`D <https://github.com/godot-dlang/godot-dlang>`__"
+
+msgid "`Go <https://github.com/grow-graphics/gd>`__"
+msgstr "`Go <https://github.com/grow-graphics/gd>`__"
+
+msgid "`Nim <https://github.com/godot-nim/gdext-nim>`__"
+msgstr "`Nim <https://github.com/godot-nim/gdext-nim>`__"
+
+msgid "`Rust <https://github.com/godot-rust/gdext>`__"
+msgstr "`Rust <https://github.com/godot-rust/gdext>`__"
+
+msgid "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
+msgstr "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
+
+msgid ""
+"Not all bindings mentioned here may be production-ready. Make sure to "
+"research options thoroughly before starting a project with one of those. "
+"Also, double-check whether the binding is compatible with the Godot version "
+"you're using."
+msgstr ""
+"本頁所列的語言綁定未必都適合正式專案使用。建議你在專案開始前先仔細評估每個選"
+"項，也請再次確認該綁定是否與你目前使用的 Godot 版本相容。"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -39,13 +39,6 @@ msgid ""
 "Loading user-provided audio tracks and playing them back in an in-game radio "
 "station."
 msgstr "載入玩家提供的音樂檔並於遊戲內廣播電台播放。"
-
-msgid ""
-"Loading custom levels or 3D models that can be designed with any 3D DCC that "
-"can export to glTF (including glTF scenes saved by Godot at runtime)."
-msgstr ""
-"載入自訂關卡或 3D 模型，這些可以使用任何支援匯出 glTF 的 3D DCC 工具製作（包"
-"含於執行時由 Godot 儲存的 glTF 場景）。"
 
 msgid "Using user-provided fonts for menus and HUD."
 msgstr "在選單和 HUD 上使用玩家自備的字型。"

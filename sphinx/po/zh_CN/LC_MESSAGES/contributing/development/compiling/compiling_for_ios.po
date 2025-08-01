@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -56,12 +56,6 @@ msgstr "编译发布构建："
 
 msgid "Run"
 msgstr "运行"
-
-msgid ""
-"To run on a device or simulator, follow these "
-"instructions: :ref:`doc_exporting_for_ios`."
-msgstr ""
-"要在设备或模拟器上运行, 请按照以下说明操作: :ref:`doc_exporting_for_ios`."
 
 msgid "Troubleshooting"
 msgstr "故障排除"

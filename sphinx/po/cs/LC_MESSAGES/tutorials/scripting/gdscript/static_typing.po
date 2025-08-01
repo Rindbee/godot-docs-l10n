@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -65,8 +65,8 @@ msgstr "Jak používat statické typování"
 msgid "What can be a type hint"
 msgstr "Jaký může být tip na typy"
 
-msgid "Example::"
-msgstr "Příklad::"
+msgid "Example:"
+msgstr "Příklad:"
 
 msgid ""
 "If you try to cast with a built-in type and it fails, Godot will throw an "
@@ -116,11 +116,11 @@ msgstr ""
 "všechny je snazší spolupracovat, pokud dodržujete stejné zásady, rychleji se "
 "pak čte a chápe cizí kód."
 
+msgid "pass"
+msgstr "pass"
+
 msgid "Warning system"
 msgstr "Systém varování"
-
-msgid "Nested types are not currently supported::"
-msgstr "Vnořené typy nejsou v současné době podporovány::"
 
 msgid "Summary"
 msgstr "Shrnutí"

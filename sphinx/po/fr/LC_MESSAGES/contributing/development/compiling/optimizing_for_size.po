@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -106,28 +106,6 @@ msgstr ""
 "(templates) en double et le code inutilisé. Il peut actuellement être "
 "utilisé avec les compilateurs GCC et MSVC :"
 
-msgid ""
-"Linking becomes much slower and more RAM-consuming with this option, so it "
-"should be used only for release builds:"
-msgstr ""
-"L'établissement de liens(linking) devient beaucoup plus lent et consomme "
-"plus de RAM avec cette option, elle ne doit donc être utilisée que pour les "
-"compilation release :"
-
-msgid ""
-"When compiling the ``master`` branch, you need to have at least 8 GB of RAM "
-"available for successful linking with LTO enabled."
-msgstr ""
-"Lors de la compilation de la branche ``master``, vous devez disposer d'au "
-"moins 8 Go de mémoire vive pour réussir la liaison avec LTO activé."
-
-msgid ""
-"When compiling the ``3.x`` branch, you need to have at least 6 GB of RAM "
-"available for successful linking with LTO enabled."
-msgstr ""
-"Lors de la compilation de la branche ``3.x``, vous devez disposer d'au moins "
-"6 Go de RAM pour réussir la liaison avec LTO activé."
-
 msgid "Optimizing for size instead of speed"
 msgstr "Optimiser pour la taille plutôt que pour la vitesse"
 
@@ -196,11 +174,11 @@ msgstr ":ref:`class_CodeEdit`"
 msgid ":ref:`class_CodeHighlighter`"
 msgstr ":ref:`class_CodeHighlighter`"
 
-msgid ":ref:`class_ColorPickerButton`"
-msgstr ":ref:`class_ColorPickerButton`"
-
 msgid ":ref:`class_ColorPicker`"
 msgstr ":ref:`class_ColorPicker`"
+
+msgid ":ref:`class_ColorPickerButton`"
+msgstr ":ref:`class_ColorPickerButton`"
 
 msgid ":ref:`class_ConfirmationDialog`"
 msgstr ":ref:`class_ConfirmationDialog`"
@@ -253,11 +231,11 @@ msgstr ":ref:`class_SyntaxHighlighter`"
 msgid ":ref:`class_TextEdit`"
 msgstr ":ref:`class_TextEdit`"
 
-msgid ":ref:`class_TreeItem`"
-msgstr ":ref:`class_TreeItem`"
-
 msgid ":ref:`class_Tree`"
 msgstr ":ref:`class_Tree`"
+
+msgid ":ref:`class_TreeItem`"
+msgstr ":ref:`class_TreeItem`"
 
 msgid ":ref:`class_VSplitContainer`"
 msgstr ":ref:`class_VSplitContainer`"

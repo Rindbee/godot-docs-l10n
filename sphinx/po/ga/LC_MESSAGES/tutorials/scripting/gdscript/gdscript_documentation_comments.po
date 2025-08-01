@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -107,8 +107,8 @@ msgstr "''@experimental''"
 msgid "``@experimental: This class is unstable.``"
 msgstr "''@experimental: Tá an rang seo éagobhsaí.''"
 
-msgid "For example::"
-msgstr "Mar shampla::"
+msgid "For example:"
+msgstr "Mar shampla:"
 
 msgid ""
 "If there is any space in between the tag name and colon, for example "
@@ -174,10 +174,6 @@ msgstr "''@deprecated: Úsáid [ball eile] ina ionad.''"
 
 msgid "``@experimental: This method is incomplete.``"
 msgstr "''@experimental: Tá an modh seo neamhiomlán.''"
-
-msgid "Alternatively, you can use inline documentation comments::"
-msgstr ""
-"De rogha air sin, is féidir leat tuairimí doiciméadaithe inlíne a úsáid::"
 
 msgid ""
 "The script documentation will update in the editor help window every time "

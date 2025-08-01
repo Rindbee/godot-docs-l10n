@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -74,8 +74,8 @@ msgid ""
 msgstr ""
 "`Chargeurs Godot OpenXR <https://github.com/GodotVR/godot_openxr_loaders>`_"
 
-msgid "For example::"
-msgstr "Par exemple ::"
+msgid "For example:"
+msgstr "Par exemple :"
 
 msgid "Godot crashes upon load"
 msgstr "Godot crashes lors du chargement"

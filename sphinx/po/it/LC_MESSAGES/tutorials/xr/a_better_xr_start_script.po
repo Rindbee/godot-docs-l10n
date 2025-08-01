@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -19,13 +19,3 @@ msgstr "La nostra funzione ready aggiornata"
 
 msgid "We add a few things to the ready function."
 msgstr "Aggiungiamo alcune cose alla funzione ready."
-
-msgid ""
-"On receiving this signal we'll update our focussed state, we'll change the "
-"process mode of our node to disabled which will pause processing on this "
-"node and it's children, and emit our ``focus_lost`` signal."
-msgstr ""
-"Dopo aver ricevuto questo segnale aggiorneremo il nostro stato di focus, "
-"cambieremo la modalità di elaborazione del nostro nodo in disabilitato, il "
-"che metterà in pausa l'elaborazione su questo nodo e sui suoi figli, ed "
-"emetteremo il nostro segnale ``focus_lost``."

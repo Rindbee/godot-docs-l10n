@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -37,13 +37,6 @@ msgstr ""
 "Godot 3.x 核心中支持 WebM，但是会在 4.0 中移除支持，因为 bug 很多且难以维护。"
 
 msgid ""
-"You may find videos with an ``.ogg`` or ``.ogx`` extensions, which are "
-"generic extensions for data within an Ogg container."
-msgstr ""
-"你的视频可能使用的是 ``.ogg`` 或者 ``.ogx`` 扩展名，这是带有数据的 Ogg 容器的"
-"通用扩展名。"
-
-msgid ""
 "Renaming these file extensions to ``.ogv`` *may* allow the videos to be "
 "imported in Godot. However, not all files with ``.ogg`` or ``.ogx`` "
 "extensions are videos - some of them may only contain audio."
@@ -56,13 +49,6 @@ msgstr "设置 VideoStreamPlayer"
 
 msgid "Create a VideoStreamPlayer node using the Create New Node dialog."
 msgstr "使用“新建 Node”对话框创建 VideoStreamPlayer 节点。"
-
-msgid ""
-"Select the VideoStreamPlayer node in the scene tree dock, go to the "
-"inspector and load an ``.ogv`` file in the Stream property."
-msgstr ""
-"在场景树面板上选中 VideoStreamPlayer 节点，到检查器中为 Stream 属性加载 "
-"``.ogv`` 文件。"
 
 msgid ""
 "If you don't have your video in Ogg Theora format yet, jump "
@@ -289,21 +275,6 @@ msgstr ""
 
 msgid "Playback limitations"
 msgstr "播放限制"
-
-msgid ""
-"There are several limitations with the current implementation of video "
-"playback in Godot:"
-msgstr "Godot 中目前的视频播放实现有一些限制："
-
-msgid "Seeking a video to a certain point is not supported."
-msgstr "不支持将视频跳跃到特定的时间点。"
-
-msgid ""
-"Changing playback speed is not supported. VideoStreamPlayer also won't "
-"follow :ref:`Engine.time_scale<class_Engine_property_time_scale>`."
-msgstr ""
-"不支持修改播放速度。VideoStreamPlayer 也不会遵"
-"循 :ref:`Engine.time_scale<class_Engine_property_time_scale>`\\ 。"
 
 msgid "Streaming a video from a URL is not supported."
 msgstr "不支持从 URL 播放视频流。"

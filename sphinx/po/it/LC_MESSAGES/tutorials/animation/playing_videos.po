@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -34,13 +34,6 @@ msgstr ""
 
 msgid "Playback limitations"
 msgstr "Limitazioni della riproduzione"
-
-msgid ""
-"There are several limitations with the current implementation of video "
-"playback in Godot:"
-msgstr ""
-"L'implementazione attuale della riproduzione di video in Godot presenta "
-"diverse limitazioni:"
 
 msgid "Scene Setup"
 msgstr "Configurazione della scena"

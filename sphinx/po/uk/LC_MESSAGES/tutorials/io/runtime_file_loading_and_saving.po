@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,14 +47,6 @@ msgid ""
 msgstr ""
 "Завантаження звукових доріжок, наданих користувачем, і їх відтворення на "
 "ігровій радіостанції."
-
-msgid ""
-"Loading custom levels or 3D models that can be designed with any 3D DCC that "
-"can export to glTF (including glTF scenes saved by Godot at runtime)."
-msgstr ""
-"Завантаження користувацьких рівнів або 3D-моделей, які можна спроектувати за "
-"допомогою будь-якого 3D DCC, який можна експортувати в glTF (включаючи сцени "
-"glTF, збережені Godot під час виконання)."
 
 msgid "Using user-provided fonts for menus and HUD."
 msgstr "Використання наданих користувачами шрифтів для меню та HUD."

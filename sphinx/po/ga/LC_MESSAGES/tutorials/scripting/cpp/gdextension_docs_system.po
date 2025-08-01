@@ -1,0 +1,174 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Tag"
+msgstr "Clib"
+
+msgid "Example"
+msgstr "Sampla"
+
+msgid "**b**"
+msgstr "**b**"
+
+msgid ""
+"Makes ``{text}`` use the bold (or bold italics) font of ``RichTextLabel``."
+msgstr ""
+"Déanann ``{text}`` úsáid an cló trom (nó iodálacha trom) de `RichTextLabel``."
+
+msgid "``[b]{text}[/b]``"
+msgstr "``[b] {téacs} [/b]``"
+
+msgid "**i**"
+msgstr "**i**"
+
+msgid ""
+"Makes ``{text}`` use the italics (or bold italics) font of ``RichTextLabel``."
+msgstr ""
+"Déanann ``{text}`` úsáid an cló iodálacha (nó iodálacha trom) "
+"``RichTextLabel``."
+
+msgid "``[i]{text}[/i]``"
+msgstr "``[i] {téacs} [/i]``"
+
+msgid "**u**"
+msgstr "**u**"
+
+msgid "Makes ``{text}`` underlined."
+msgstr "Déanann sé ``{text}`` béim ar ``."
+
+msgid "``[u]{text}[/u]``"
+msgstr "``[u] {téacs} [/u]``"
+
+msgid "**s**"
+msgstr "**s**"
+
+msgid "Makes ``{text}`` strikethrough."
+msgstr "Déanann sé ``{text}`` strikethrough."
+
+msgid "``[s]{text}[/s]``"
+msgstr "``[s] {téacs} [/s]``"
+
+msgid "**code**"
+msgstr "**cód**"
+
+msgid "``[code]{text}[/code]``"
+msgstr "``[code]{text}[/code]``"
+
+msgid "``{text}``"
+msgstr "``{téacs}``"
+
+msgid "**center**"
+msgstr "**ionad**"
+
+msgid "Makes ``{text}`` horizontally centered."
+msgstr "Déanann sé ``{text}`` dírithe go cothrománach."
+
+msgid "Same as ``[p align=center]``."
+msgstr "Mar an gcéanna le ``[p align=center]``."
+
+msgid "``[center]{text}[/center]``"
+msgstr "``[center]{text}[/center]``"
+
+msgid "**url**"
+msgstr "**url**"
+
+msgid ""
+"Creates a hyperlink (underlined and clickable text). Can contain optional "
+"``{text}`` or display ``{link}`` as is."
+msgstr ""
+"Cruthaíonn sé hipearnasc (téacs béim agus inchliceáilte). Is féidir le "
+"``{text}`` roghnach a bheith ann nó ``{link}`` a thaispeáint mar atá."
+
+msgid "``[url]{link}[/url]``"
+msgstr "``[url] {nasc} [/url]``"
+
+msgid "``[url={link}]{text}[/url]``"
+msgstr "``[url = {nasc}] {text} [/url]``"
+
+msgid "**img**"
+msgstr "**img**"
+
+msgid ""
+"Inserts an image from the ``{path}`` (can be any "
+"valid :ref:`class_Texture2D` resource)."
+msgstr ""
+"Cuireann sé íomhá isteach ón ``{path}`` (is féidir a bheith ar aon acmhainn "
+"bailí:ref: `Class_texture2D`)."
+
+msgid ""
+"If ``{width}`` is provided, the image will try to fit that width maintaining "
+"the aspect ratio."
+msgstr ""
+"Má chuirtear ``{leithead}`` ar fáil, déanfaidh an íomhá iarracht an leithead "
+"sin a fheistiú agus an cóimheas gné á choinneáil."
+
+msgid ""
+"If both ``{width}`` and ``{height}`` are provided, the image will be scaled "
+"to that size."
+msgstr ""
+"Má chuirtear ``{width}`` agus ``{height}`` araon ar fáil, scálfar an íomhá "
+"go dtí an méid sin."
+
+msgid ""
+"Add ``%`` to the end of ``{width}`` or ``{height}`` value to specify it as "
+"percentages of the control width instead of pixels."
+msgstr ""
+"Cuir ``%`` le deireadh luach ``{width}`` nó ``{height}`` chun é a shonrú mar "
+"chéatadáin den leithead rialaithe in ionad picteilíní."
+
+msgid ""
+"If ``{valign}`` configuration is provided, the image will try to align to "
+"the surrounding text, "
+"see :ref:`doc_bbcode_in_richtextlabel_image_and_table_alignment`."
+msgstr ""
+"Má chuirtear cumraíocht ``{valign}`` ar fáil, déanfaidh an íomhá iarracht "
+"ailíniú leis an téacs máguaird, féach:ref: "
+"`doc_bbcode_in_richtextlabel_image_and_table_alignment`."
+
+msgid ""
+"Supports configuration options, "
+"see :ref:`doc_bbcode_in_richtextlabel_image_options`."
+msgstr ""
+"Tacaíonn sé le roghanna cumraíochta, féach:ref: "
+"`doc_bbcode_in_richtextlabel_image_options`."
+
+msgid "``[img]{path}[/img]``"
+msgstr "``[img] {cosán} [/img]``"
+
+msgid "``[img={width}]{path}[/img]``"
+msgstr "``[img = {leithead}] {cosán} [/img]``"
+
+msgid "``[img={width}x{height}]{path}[/img]``"
+msgstr "``[img = {leithead} x {airde}] {cosán} [/img]``"
+
+msgid "``[img={valign}]{path}[/img]``"
+msgstr "``[img = {valign}] {cosán} [/img]``"
+
+msgid "``[img {options}]{path}[/img]``"
+msgstr "``[img {roghanna}] {cosán} [/img]``"
+
+msgid "**color**"
+msgstr "**dath**"
+
+msgid ""
+"Changes the color of ``{text}``. Color must be provided by a common name "
+"(see :ref:`doc_bbcode_in_richtextlabel_named_colors`) or using the HEX "
+"format (e.g. ``#ff00ff``, see :ref:`doc_bbcode_in_richtextlabel_hex_colors`)."
+msgstr ""
+"Athraíonn dath ``{text}``. Ní mór dath a sholáthar le hainm coiteann (féach: "
+"`doc_bbcode_in_richtextlabel_named_colors`) nó ag baint úsáide as an "
+"bhformáid HEX (m.sh. ``#ff00ff``, féach:ref: "
+"`doc_bbcode_in_richtextlabel_hex_colors`)."
+
+msgid "``[color={code/name}]{text}[/color]``"
+msgstr "``[dath = {cód/ainm}] {téacs} [/dath]``"

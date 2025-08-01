@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,13 +13,6 @@ msgstr ""
 
 msgid "CLion"
 msgstr "cLion"
-
-msgid ""
-"`CLion <https://www.jetbrains.com/clion/>`_ is a commercial `JetBrains "
-"<https://www.jetbrains.com/>`_ IDE for C++."
-msgstr ""
-"`CLion <https://www.jetbrains.com/clion/>`_ є комерційним `JetBrains "
-"<https://www.jetbrains.com/>`_ IDE для C++."
 
 msgid "Importing the project"
 msgstr "Імпорт проекту"
@@ -34,15 +27,6 @@ msgstr ""
 "docs/JSONCompilationDatabase.html>`_, який зазвичай називається "
 "``compile_commands.json``. Щоб створити файл бази даних компіляції, "
 "відкрийте термінал, перейдіть до кореневого каталогу Godot і виконайте:"
-
-msgid ""
-"Then, open the Godot root directory with CLion. CLion will import the "
-"compilation database, index the codebase, and provide autocompletion and "
-"other advanced code navigation and refactoring functionality."
-msgstr ""
-"Потім відкрийте кореневий каталог Godot за допомогою CLion. CLion імпортує "
-"базу даних компіляції, індексує кодову базу та забезпечить автозавершення та "
-"інші розширені функції навігації та рефакторингу коду."
 
 msgid "Compiling and debugging the project"
 msgstr "Компіляція та налагодження проекту"

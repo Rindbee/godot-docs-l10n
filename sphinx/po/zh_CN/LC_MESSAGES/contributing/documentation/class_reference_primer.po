@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -489,13 +489,6 @@ msgstr "``[codeblock lang=csharp]`` 高亮 C# 语法（仅.NET版本有效）。
 msgid ""
 "``[codeblock]`` disables BBCode until the parser encounters ``[/codeblock]``."
 msgstr "``[codeblock]`` 与 ``[/codeblock]`` 之间的 BBCode 代码均无效。"
-
-msgid ""
-"Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, "
-"always use **four spaces** for indentation. The parser will delete tabs."
-msgstr ""
-"对预格式化的代码块使用 ``[codeblock]``\\ 。在 ``[codeblock]`` 中，请始终使用"
-"\\ **四个空格**\\ 进行缩进。解析器将删除制表符。"
 
 msgid "For example:"
 msgstr "例如："

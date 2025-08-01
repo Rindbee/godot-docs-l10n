@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -265,12 +265,6 @@ msgstr ""
 "Якщо доступний робочий шаблон вебекспорту, у редакторі з’являється кнопка "
 "між кнопками *Зупинити сцену* та *Відтворити відредаговану сцену*, щоб "
 "швидко відкрити гру у браузері за замовчуванням для тестування."
-
-msgid ""
-"If your project uses GDExtension **Extension Support** needs to be enabled."
-msgstr ""
-"Якщо ваш проект використовує GDExtension, потрібно ввімкнути **Підтримку "
-"розширень**."
 
 msgid ""
 "If you plan to use :ref:`VRAM compression <doc_importing_images>` make sure "

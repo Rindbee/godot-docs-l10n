@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -373,13 +373,6 @@ msgstr "Comharthaí"
 
 msgid "Constants"
 msgstr "Coimeádanna"
-
-msgid ""
-"Use snake_case for file names. For named classes, convert the PascalCase "
-"class name to snake_case::"
-msgstr ""
-"Úsáid snake_case le haghaidh ainmneacha comhaid. Maidir le ranganna "
-"ainmnithe, tiontaigh ainm ranga PascalCase go snake_case:"
 
 msgid ""
 "This is consistent with how C++ files are named in Godot's source code. This "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -58,22 +58,9 @@ msgstr ""
 "MoltenVK#fetching-moltenvk-source-code>`__ 建置靜態 ``.xcframework``。"
 
 msgid ""
-"If you have `Homebrew <https://brew.sh/>`_ installed, you can easily install "
-"SCons using the following command::"
-msgstr ""
-"若已安裝 `Homebrew <https://brew.sh/>`_，可以用以下指令輕鬆安裝 SCons："
-
-msgid ""
 "Installing Homebrew will also fetch the Command Line Tools for Xcode "
 "automatically if you don't have them already."
 msgstr "安裝 Homebrew 時，若尚未安裝 Xcode 命令列工具，會自動下載安裝。"
-
-msgid ""
-"Similarly, if you have `MacPorts <https://www.macports.org/>`_ installed, "
-"you can easily install SCons using the following command::"
-msgstr ""
-"同樣地，若已安裝 `MacPorts <https://www.macports.org/>`_，可使用以下指令安裝 "
-"SCons："
 
 msgid ""
 "To get the Godot source code for compiling, see :ref:`doc_getting_source`."
@@ -96,19 +83,6 @@ msgstr "開啟終端機，前往引擎原始碼的根目錄，並輸入下列指
 
 msgid "To compile a release build:"
 msgstr "要編譯發行版本："
-
-msgid ""
-"Alternatively, you can run the following command for Xcode simulator "
-"libraries (optional):"
-msgstr "另外，你也可以執行下列指令，以編譯用於 Xcode 模擬器的函式庫（選用）："
-
-msgid ""
-"These simulator libraries cannot be used to run the exported project on the "
-"target device. Instead, they can be used to run the exported project "
-"directly on your Mac while still testing iOS platform-specific functionality."
-msgstr ""
-"這些模擬器函式庫無法用於在目標裝置上執行匯出專案。但你可以用它們直接在 Mac 上"
-"執行匯出專案，同時測試 iOS 特定功能。"
 
 msgid ""
 "To create an Xcode project like in the official builds, you need to use the "
@@ -135,12 +109,6 @@ msgstr ""
 
 msgid "Run"
 msgstr "執行"
-
-msgid ""
-"To run on a device or simulator, follow these "
-"instructions: :ref:`doc_exporting_for_ios`."
-msgstr ""
-"如需在裝置或模擬器執行，請依照這些指示操作：:ref:`doc_exporting_for_ios`。"
 
 msgid "Troubleshooting"
 msgstr "疑難排解"

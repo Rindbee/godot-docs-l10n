@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,9 +16,6 @@ msgstr "Debug su macOS"
 
 msgid "Debugging Godot editor"
 msgstr "Debug dell'editor di Godot"
-
-msgid "Then use the following command to re-sign the editor::"
-msgstr "Quindi utilizza il seguente comando per firmare nuovamente l'editor::"
 
 msgid "Debugging exported project"
 msgstr "Debug di un progetto esportato"

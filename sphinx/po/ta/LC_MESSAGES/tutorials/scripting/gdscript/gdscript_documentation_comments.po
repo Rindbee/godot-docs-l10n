@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -103,8 +103,8 @@ msgstr "``@சோதனை``"
 msgid "``@experimental: This class is unstable.``"
 msgstr "`` exexeperimal: இந்த வகுப்பு நிலையற்றது .``"
 
-msgid "For example::"
-msgstr "உதாரணமாக ::"
+msgid "For example:"
+msgstr "உதாரணமாக:"
 
 msgid ""
 "If there is any space in between the tag name and colon, for example "
@@ -168,9 +168,6 @@ msgstr "`` @deprecated: அதற்கு பதிலாக [உறுப்�
 
 msgid "``@experimental: This method is incomplete.``"
 msgstr "`` exexeperimal: இந்த முறை முழுமையடையாது .``"
-
-msgid "Alternatively, you can use inline documentation comments::"
-msgstr "மாற்றாக, நீங்கள் இன்லைன் ஆவணங்கள் கருத்துகளைப் பயன்படுத்தலாம் ::"
 
 msgid ""
 "The script documentation will update in the editor help window every time "

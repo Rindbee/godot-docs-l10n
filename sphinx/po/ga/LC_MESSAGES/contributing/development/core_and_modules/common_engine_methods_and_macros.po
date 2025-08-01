@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -132,12 +132,6 @@ msgid ""
 msgstr ""
 "Priontóidh sé seo an t-am a chaitear idir an dearbhú ``tosa`` agus an "
 "dearbhú ``deireadh ``."
-
-msgid ""
-"You may have to ``#include \"core/os/os.h\"`` if it's not present already."
-msgstr ""
-"B'fhéidir go mbeidh ort ``#include “core/os/os.h\"` mura bhfuil sé i láthair "
-"cheana féin."
 
 msgid ""
 "When opening a pull request, make sure to remove this snippet as well as the "

@@ -1,0 +1,28 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"They also both allow you to integrate third-party libraries into Godot. The "
+"one you should choose depends on your needs."
+msgstr ""
+"Они также позволяют интегрировать в Godot библиотеки сторонних "
+"разработчиков. Выбор того или иного варианта зависит от ваших потребностей."
+
+msgid "Also:"
+msgstr "А также:"
+
+msgid "Advantages of C++ modules"
+msgstr "Преимущества модулей C++"
+
+msgid "Version compatibility"
+msgstr "Совместимость версий"

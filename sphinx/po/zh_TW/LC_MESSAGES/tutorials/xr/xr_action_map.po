@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -264,14 +264,6 @@ msgstr "3"
 
 msgid "0"
 msgstr "0"
-
-msgid ""
-"This is the priority of the action set. If multiple active action sets have "
-"actions bound to the same controllers inputs or outputs, the action set with "
-"the highest priority value will determine the action that is updated."
-msgstr ""
-"這是動作集的優先權。若多組動作集同時啟用且綁定相同控制器輸入/輸出，則優先權最"
-"高者會決定啟用哪個動作。"
 
 msgid "Actions"
 msgstr "動作"
@@ -975,11 +967,6 @@ msgid ""
 "``On Haptic`` lets us define a haptic output that is automatically activated "
 "when an action becomes pressed."
 msgstr "``On Haptic``：當動作觸發時自動啟動的觸覺回饋。"
-
-msgid ""
-"``Off Haptic`` lets us define a haptic output that is automatically "
-"activated when a action is released."
-msgstr "``Off Haptic``：當動作解除時自動啟動的觸覺回饋。"
 
 msgid "Binding modifiers on individual bindings"
 msgstr "單一綁定層級的綁定修飾器"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -786,18 +786,18 @@ msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_type| a, |vec_type| b)"
 msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_type| a, float b)"
 msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_type| a, float b)"
 
+msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
+msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
+
+msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
+msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
+
 msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, |vec_uint_type| b)"
 msgstr ""
 ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, |vec_uint_type| b)"
 
 msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, uint b)"
 msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, uint b)"
-
-msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
-msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
-
-msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
-msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
 
 msgid "Highest value between ``a`` and ``b``."
 msgstr "Найвище значення між ``a`` і ``b``."
@@ -820,11 +820,6 @@ msgid ""
 msgstr ""
 ":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, |vec_int_type| min, |"
 "vec_int_type| max)"
-
-msgid ""
-":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, float min, float max)"
-msgstr ""
-":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, float min, float max)"
 
 msgid "Clamps ``x`` between ``min`` and ``max`` (inclusive)."
 msgstr "Затискає ``x`` між ``min`` і ``max`` (включно)."
@@ -1418,27 +1413,6 @@ msgstr ""
 "maxVal) :ref:`🔗<shader_func_clamp>`"
 
 msgid ""
-"|vec_uint_type| **clamp**\\ (\\ |vec_int_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-msgstr ""
-"|vec_uint_type| **clamp**\\ (\\ |vec_int_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-
-msgid ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, |vec_type| minVal, |vec_type| "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-msgstr ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, |vec_type| minVal, |vec_type| "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-
-msgid ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-msgstr ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-
-msgid ""
 "Returns the value of ``x`` constrained to the range ``minVal`` to ``maxVal``."
 msgstr "Повертає значення ``x``, обмежене діапазоном ``minVal`` до ``maxVal``."
 
@@ -1671,9 +1645,6 @@ msgid ""
 msgstr ""
 "Виконує плавну інтерполяцію Ерміта між ``0`` і ``1``, коли a < c < b. Це "
 "корисно у випадках, коли потрібна порогова функція з плавним переходом."
-
-msgid "Smoothstep is equivalent to::"
-msgstr "Smoothstep еквівалентний::"
 
 msgid "Results are undefined if ``a >= b``."
 msgstr "Результати не визначені, якщо ``a >= b``."
@@ -2003,9 +1974,6 @@ msgstr "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/dot.xhtml"
 msgid "vec3 **cross**\\ (\\ vec3 a, vec3 b) :ref:`🔗<shader_func_cross>`"
 msgstr "vec3 **cross**\\ (\\ vec3 a, vec3 b) :ref:`🔗<shader_func_cross>`"
 
-msgid "Returns the cross product of two vectors. i.e.::"
-msgstr "Повертає перехресний добуток двох векторів. тобто::"
-
 msgid "The cross product of ``a`` and ``b``."
 msgstr "Перехресний добуток ``a`` і ``b``."
 
@@ -2085,9 +2053,6 @@ msgstr ""
 "Для заданого вектора падіння ``I``, нормалі до поверхні ``N`` і "
 "співвідношення показників заломлення ``eta``, refract повертає вектор "
 "заломлення ``R``."
-
-msgid "``R`` is calculated as::"
-msgstr "``R`` обчислюється як:"
 
 msgid ""
 "The input parameters I and N should be normalized in order to achieve the "
@@ -2534,9 +2499,6 @@ msgid ""
 msgstr ""
 "Повертає ``true``, якщо будь-який елемент булевого вектора ``true``, "
 "``false`` інакше."
-
-msgid "Functionally equivalent to::"
-msgstr "Функціонально еквівалентно:"
 
 msgid "The vector to be tested for truth."
 msgstr "Вектор, який потрібно перевірити на істинність."
@@ -3361,15 +3323,6 @@ msgstr ""
 "vec4 **textureLod**\\ (\\ samplerCubeArray s, vec4 p, float "
 "lod) :ref:`🔗<shader_func_textureLod>`"
 
-msgid ""
-"Performs a texture lookup at coordinate ``p`` from the texture bound to "
-"sampler with an explicit level-of-detail as specified in ``lod``. ``lod`` "
-"specifies λbase and sets the partial derivatives as follows::"
-msgstr ""
-"Виконує пошук текстури за координатою ``p`` з текстури, прив’язаної до "
-"семплера з явним рівнем деталізації, як зазначено в ``lod``. ``lod`` "
-"визначає λbase і встановлює часткові похідні таким чином:"
-
 msgid "The explicit level-of-detail."
 msgstr "Явний рівень деталізації."
 
@@ -3629,9 +3582,6 @@ msgstr ""
 "vec4 **textureGather**\\ (\\ samplerCube s, vec3 p [, int "
 "comps] ) :ref:`🔗<shader_func_textureGather>`"
 
-msgid "Returns the value::"
-msgstr "Повертає значення::"
-
 msgid "param comps"
 msgstr "param comps"
 
@@ -3870,25 +3820,11 @@ msgstr ":ref:`packUnorm2x16<shader_func_packUnorm2x16>`\\ (\\ vec2 v)"
 msgid ":ref:`unpackUnorm2x16<shader_func_unpackUnorm2x16>`\\ (\\ uint v)"
 msgstr ":ref:`unpackUnorm2x16<shader_func_unpackUnorm2x16>`\\ (\\ uint v)"
 
-msgid ""
-"Convert two normalized (range 0..1) 32-bit floats to 16-bit floats and pack "
-"them."
-msgstr ""
-"Перетворіть два нормалізовані (діапазон 0..1) 32-бітні числа з плаваючою "
-"точкою на 16-бітні числа з плаваючою точкою та запакуйте їх."
-
 msgid ":ref:`packSnorm2x16<shader_func_packSnorm2x16>`\\ (\\ vec2 v)"
 msgstr ":ref:`packSnorm2x16<shader_func_packSnorm2x16>`\\ (\\ vec2 v)"
 
 msgid ":ref:`unpackSnorm2x16<shader_func_unpackSnorm2x16>`\\ (\\ uint v)"
 msgstr ":ref:`unpackSnorm2x16<shader_func_unpackSnorm2x16>`\\ (\\ uint v)"
-
-msgid ""
-"Convert two signed normalized (range -1..1) 32-bit floats to 16-bit floats "
-"and pack them."
-msgstr ""
-"Перетворіть два нормалізованих зі знаком (діапазон -1..1) 32-розрядних чисел "
-"з плаваючою точкою в 16-розрядні числа з плаваючою точкою та запакуйте їх."
 
 msgid ":ref:`packUnorm4x8<shader_func_packUnorm4x8>`\\ (\\ vec4 v)"
 msgstr ":ref:`packUnorm4x8<shader_func_packUnorm4x8>`\\ (\\ vec4 v)"
@@ -3896,25 +3832,11 @@ msgstr ":ref:`packUnorm4x8<shader_func_packUnorm4x8>`\\ (\\ vec4 v)"
 msgid ":ref:`unpackUnorm4x8<shader_func_unpackUnorm4x8>`\\ (\\ uint v)"
 msgstr ":ref:`unpackUnorm4x8<shader_func_unpackUnorm4x8>`\\ (\\ uint v)"
 
-msgid ""
-"Convert four normalized (range 0..1) 32-bit floats into 8-bit floats and "
-"pack them."
-msgstr ""
-"Перетворіть чотири нормалізовані (діапазон 0..1) 32-бітні числа з плаваючою "
-"точкою у 8-бітні числа з плаваючою точкою та запакуйте їх."
-
 msgid ":ref:`packSnorm4x8<shader_func_packSnorm4x8>`\\ (\\ vec4 v)"
 msgstr ":ref:`packSnorm4x8<shader_func_packSnorm4x8>`\\ (\\ vec4 v)"
 
 msgid ":ref:`unpackSnorm4x8<shader_func_unpackSnorm4x8>`\\ (\\ uint v)"
 msgstr ":ref:`unpackSnorm4x8<shader_func_unpackSnorm4x8>`\\ (\\ uint v)"
-
-msgid ""
-"Convert four signed normalized (range -1..1) 32-bit floats into 8-bit floats "
-"and pack them."
-msgstr ""
-"Перетворіть чотири знакові нормалізовані (діапазон -1..1) 32-розрядні числа "
-"з плаваючою точкою у 8-розрядні числа з плаваючою точкою та запакуйте їх."
 
 msgid "Packing and unpacking function descriptions"
 msgstr "Опис функцій пакування та розпакування"
@@ -4015,13 +3937,6 @@ msgstr ""
 "Перетворює кожен компонент нормалізованого значення з плаваючою комою v на "
 "16-розрядне ціле число, а потім упаковує результати в 32-розрядне ціле число "
 "без знака."
-
-msgid ""
-"The conversion for component c of ``v`` to fixed-point is performed as "
-"follows::"
-msgstr ""
-"Перетворення для компонента c ``v`` у фіксовану точку виконується таким "
-"чином:"
 
 msgid ""
 "The first component of the vector will be written to the least significant "
@@ -4767,13 +4682,6 @@ msgid ""
 msgstr ""
 "|vec_type| **frexp**\\ (\\ |vec_type| x, out |vec_int_type| "
 "exp) :ref:`🔗<shader_func_frexp>`"
-
-msgid ""
-"Extracts ``x`` into a floating-point significand in the range ``[0.5, 1.0)`` "
-"and in integral exponent of two, such that::"
-msgstr ""
-"Виділяє ``x`` у значуще число з плаваючою комою в діапазоні ``[0,5, 1,0)`` і "
-"в інтегральному показнику двох, так що:"
 
 msgid ""
 "For a floating-point value of zero, the significand and exponent are both "

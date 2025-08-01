@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -267,11 +267,6 @@ msgstr ""
 "Оскільки ми робимо поверхню непрозорою, якщо вона перебуває в тіні, ми "
 "можемо дозволити віртуальним об’єктам відкидати тіні на об’єкти реального "
 "світу [#]_."
-
-msgid "Image showing shadow to opacity being used to show the users desk."
-msgstr ""
-"Зображення, на якому показано тінь до непрозорості, що використовується для "
-"демонстрації робочого столу користувача."
 
 msgid "This enabled the following use cases:"
 msgstr "Це дозволило наступні випадки використання:"

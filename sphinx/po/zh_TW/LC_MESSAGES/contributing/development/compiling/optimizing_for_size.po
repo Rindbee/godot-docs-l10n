@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -99,23 +99,6 @@ msgstr ""
 "啟用連結時期最佳化（LTO）能讓二進位檔效能與檔案大小更有效率。LTO 會消除重複的"
 "樣板函式與未使用的程式碼。目前可於 GCC 與 MSVC 編譯器使用："
 
-msgid ""
-"Linking becomes much slower and more RAM-consuming with this option, so it "
-"should be used only for release builds:"
-msgstr ""
-"啟用此選項會導致連結過程更慢，且消耗更多記憶體，因此建議僅用於正式釋出版本："
-
-msgid ""
-"When compiling the ``master`` branch, you need to have at least 8 GB of RAM "
-"available for successful linking with LTO enabled."
-msgstr ""
-"編譯 ``master`` 分支時，若啟用 LTO，需至少 8 GB 可用記憶體才能成功連結。"
-
-msgid ""
-"When compiling the ``3.x`` branch, you need to have at least 6 GB of RAM "
-"available for successful linking with LTO enabled."
-msgstr "編譯 ``3.x`` 分支時，若啟用 LTO，需至少 6 GB 可用記憶體才能成功連結。"
-
 msgid "Optimizing for size instead of speed"
 msgstr "優先最佳化大小而非速度"
 
@@ -205,13 +188,6 @@ msgstr ""
 "必須同時停用 Tools 功能才能啟用此旗標，因為 Godot 編輯器設計上必須支援 3D。停"
 "用 3D 支援後，二進位檔大小約可減少 15%。"
 
-msgid ""
-"Disabling 3D support also disables all navigation. This includes 2D "
-"navigation, as it uses the 3D navigation system internally."
-msgstr ""
-"停用 3D 支援會一併停用所有導航功能。這也包含 2D 導航，因為 2D 導航系統底層實"
-"作依賴 3D 導航系統。"
-
 msgid "Disabling advanced GUI objects"
 msgstr "停用進階 GUI 元件"
 
@@ -237,11 +213,11 @@ msgstr ":ref:`class_CodeEdit`"
 msgid ":ref:`class_CodeHighlighter`"
 msgstr ":ref:`class_CodeHighlighter`"
 
-msgid ":ref:`class_ColorPickerButton`"
-msgstr ":ref:`class_ColorPickerButton`"
-
 msgid ":ref:`class_ColorPicker`"
 msgstr ":ref:`class_ColorPicker`"
+
+msgid ":ref:`class_ColorPickerButton`"
+msgstr ":ref:`class_ColorPickerButton`"
 
 msgid ":ref:`class_ConfirmationDialog`"
 msgstr ":ref:`class_ConfirmationDialog`"
@@ -302,11 +278,11 @@ msgstr ":ref:`class_SyntaxHighlighter`"
 msgid ":ref:`class_TextEdit`"
 msgstr ":ref:`class_TextEdit`"
 
-msgid ":ref:`class_TreeItem`"
-msgstr ":ref:`class_TreeItem`"
-
 msgid ":ref:`class_Tree`"
 msgstr ":ref:`class_Tree`"
+
+msgid ":ref:`class_TreeItem`"
+msgstr ":ref:`class_TreeItem`"
 
 msgid ":ref:`class_VSplitContainer`"
 msgstr ":ref:`class_VSplitContainer`"

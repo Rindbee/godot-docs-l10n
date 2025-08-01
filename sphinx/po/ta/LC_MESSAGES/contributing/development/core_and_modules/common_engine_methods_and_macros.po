@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -138,10 +138,6 @@ msgid ""
 msgstr ""
 "இது `` தொடக்க` அறிவிப்பு மற்றும் `` முடிவு`` அறிவிப்புக்கு இடையில் செலவழித்த நேரத்தை "
 "அச்சிடும்."
-
-msgid ""
-"You may have to ``#include \"core/os/os.h\"`` if it's not present already."
-msgstr "நீங்கள் ஏற்கனவே இல்லையென்றால் `` கோர்/ஓஎச்/ஓஎச்எச் \"` `#அடங்கும்."
 
 msgid ""
 "When opening a pull request, make sure to remove this snippet as well as the "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,9 +13,6 @@ msgstr ""
 
 msgid "Definitions"
 msgstr "Definicje"
-
-msgid "References:"
-msgstr "Odniesienia:"
 
 msgid "Memory model"
 msgstr "Model pamięci"
@@ -29,29 +26,11 @@ msgstr "Dla stylu alokacji jak w C, Godot zapewnia kilka makr:"
 msgid "For C++-style allocation, special macros are provided:"
 msgstr "Dla alokacji w stylu C++, stworzone zostały następujące makra:"
 
-msgid "which are equivalent to new, delete, new[] and delete[]."
-msgstr "które są odpowiednikiem dla new, delete, new[] i delete[]."
-
 msgid "Containers"
 msgstr "Zbiorniki"
 
-msgid "Vector"
-msgstr "Wektor"
-
-msgid "List"
-msgstr "List"
-
-msgid "Set"
-msgstr "Ustaw"
-
-msgid "Map"
-msgstr "Mapa"
-
-msgid "String"
-msgstr "String"
-
-msgid "StringName"
-msgstr "StringName"
+msgid "Comment"
+msgstr "Komentarz"
 
 msgid "Math types"
 msgstr "Typy Matematyczne"

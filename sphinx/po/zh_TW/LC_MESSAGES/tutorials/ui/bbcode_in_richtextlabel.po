@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -378,6 +378,9 @@ msgstr "``[p]{text}[/p]``"
 msgid "``[p {options}]{text}[/p]``"
 msgstr "``[p {options}]{text}[/p]``"
 
+msgid "``[br]``"
+msgstr "``[br]``"
+
 msgid "**center**"
 msgstr "**center**"
 
@@ -464,17 +467,6 @@ msgstr "``[url={link}]{text}[/url]``"
 
 msgid "**hint**"
 msgstr "**霧：**"
-
-msgid ""
-"Creates a tooltip hint that is displayed when hovering the text with the "
-"mouse. Tooltip text should not be quoted (quotes will appear as-is in the "
-"tooltip otherwise)."
-msgstr ""
-"建立當滑鼠游標懸停於文字上時顯示的提示。工具提示內容不應加引號，否則引號會如"
-"實出現在提示中。"
-
-msgid "``[hint={tooltip text displayed on hover}]{text}[/hint]``"
-msgstr "``[hint={懸停時顯示的提示文字}]{text}[/hint]``"
 
 msgid "**img**"
 msgstr "**img**"
@@ -957,29 +949,8 @@ msgstr ""
 "的 :ref:`meta_clicked <class_RichTextLabel_signal_meta_clicked>` 訊號連接到腳"
 "本函式。"
 
-msgid ""
-"For example, the following method can be connected to ``meta_clicked`` to "
-"open clicked URLs using the user's default web browser::"
-msgstr ""
-"例如，以下方法可連接到 ``meta_clicked``，用來開啟被點擊的 URL（用使用者的預設"
-"瀏覽器）："
-
-msgid ""
-"For more advanced use cases, it's also possible to store JSON in an "
-"``[url]`` tag's option and parse it in the function that handles the "
-"``meta_clicked`` signal. For example:"
-msgstr ""
-"進階用法：你也可以把 JSON 放在 ``[url]`` 標籤的參數裡，再於 ``meta_clicked`` "
-"處理函式中解析。例如："
-
-msgid "Image options"
-msgstr "圖片選項"
-
 msgid "Color name or color in HEX format"
 msgstr "顏色名稱或 HEX 格式"
-
-msgid "Color tint of the image (modulation)."
-msgstr "圖片的色彩調整（調變）。"
 
 msgid "**height**"
 msgstr "**height**"
@@ -987,20 +958,24 @@ msgstr "**height**"
 msgid "Integer number"
 msgstr "整數"
 
+msgid "``2``"
+msgstr "``2``"
+
+msgid "**width**"
+msgstr "**width**"
+
+msgid "Image options"
+msgstr "圖片選項"
+
+msgid "Color tint of the image (modulation)."
+msgstr "圖片的色彩調整（調變）。"
+
 msgid ""
 "Target height of the image in pixels, add ``%`` to the end of value to "
 "specify it as percentages of the control width instead of pixels."
 msgstr ""
 "以像素為單位設定圖片目標高度，若於數值後加 ``%``，則該值為控制元件寬度的百分"
 "比。"
-
-msgid "**width**"
-msgstr "**width**"
-
-msgid ""
-"Target width of the image, add ``%`` to the end of value to specify it as "
-"percentages of the control width instead of pixels."
-msgstr "設定圖片的目標寬度，若於數值後加 ``%``，則該值為控制元件寬度的百分比。"
 
 msgid "**region**"
 msgstr "**region**"
@@ -1317,11 +1292,6 @@ msgid ""
 "All examples below mention the default values for options in the listed tag "
 "format."
 msgstr "以下範例都會列出標籤格式的預設選項值。"
-
-msgid ""
-"Text effects that move characters' position may result in characters being "
-"clipped by the RichTextLabel node bounds."
-msgstr "會移動字元位置的特效可能導致文字被 RichTextLabel 控制元件裁切。"
 
 msgid ""
 "You can resolve this by disabling **Control > Layout > Clip Contents** in "

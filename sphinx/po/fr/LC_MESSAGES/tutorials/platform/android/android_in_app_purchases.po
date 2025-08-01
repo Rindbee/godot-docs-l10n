@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,37 +29,14 @@ msgstr "Utilisation"
 msgid "Getting started"
 msgstr "Pour commencer"
 
-msgid ""
-"Make sure you have enabled and successfully set up :ref:`Android Gradle "
-"Builds <doc_android_gradle_build>`. Follow the compiling instructions on the "
-"``GodotGooglePlayBilling`` `github page <https://github.com/godotengine/"
-"godot-google-play-billing>`__."
-msgstr ""
-"Assurez-vous que vous avez activé et configuré avec "
-"succès :ref:`Compilations Gradle Android <doc_android_gradle_build>`. Suivez "
-"les instructions de compilation sur la `page github <https://github.com/"
-"godotengine/godot-google-play-billing>`__ de ``GodotGooglePlayBilling``."
-
 msgid "To use the ``GodotGooglePlayBilling`` API:"
 msgstr "Pour utiliser l'API ``GodotGooglePlayBilling`` :"
-
-msgid "Call ``startConnection``"
-msgstr "Appellez ``startConnection``"
 
 msgid "Initialization example:"
 msgstr "Exemple d'initialisation :"
 
-msgid "Return values for ``getConnectionState()``:"
-msgstr "Retourne les valeurs pour ``getConnectionState()``:"
-
 msgid "Query user purchases"
 msgstr "Interroger les achats utilisateur"
-
-msgid "Example use of ``queryPurchases()``:"
-msgstr "Exemple d'usage de ``queryPurchases()``:"
-
-msgid "Example use of ``billing_resume``:"
-msgstr "Exemple d'usage de ``billing_resume`` :"
 
 msgid "Purchase an item"
 msgstr "Acheter un article"
@@ -73,14 +50,5 @@ msgstr "Valeurs PurchaseState :"
 msgid "Consumables"
 msgstr "Consommables"
 
-msgid "Example use of ``consumePurchase()``:"
-msgstr "Exemple d'usage de ``consumePurchase()`` :"
-
 msgid "Subscriptions"
 msgstr "Abonnements"
-
-msgid "Default behavior is ``IMMEDIATE_WITH_TIME_PRORATION``."
-msgstr "Le comportement par défaut est ``IMMEDIATE_WITH_TIME_PRORATION``."
-
-msgid "Example use of ``confirmPriceChange()``:"
-msgstr "Exemple d'usage de ``confirmPriceChange()`` :"

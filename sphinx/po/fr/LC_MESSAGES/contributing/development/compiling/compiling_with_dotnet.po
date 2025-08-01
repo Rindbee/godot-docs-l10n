@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -64,9 +64,6 @@ msgstr "Sur Windows, ``C:\\Users\\<username>\\MyLocalNugetSource``"
 
 msgid "On Linux, \\*BSD, etc., ``~/MyLocalNugetSource``"
 msgstr "Sur Linux, \\*BSD, etc., ``~/MyLocalNugetSource``"
-
-msgid "::"
-msgstr "::"
 
 msgid "Double Precision Support (REAL_T_IS_DOUBLE)"
 msgstr "Double support de précision (REAL_T_IS_DOUBLE)"

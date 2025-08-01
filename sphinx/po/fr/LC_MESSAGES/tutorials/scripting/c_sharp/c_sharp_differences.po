@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,11 +13,6 @@ msgstr ""
 
 msgid "C# API differences to GDScript"
 msgstr "Différences de l'API C# par rapport à GDScript"
-
-msgid "This is a (incomplete) list of API differences between C# and GDScript."
-msgstr ""
-"Il s'agit d'une liste (incomplète) des différences d'API entre C# et "
-"GDScript."
 
 msgid "General differences"
 msgstr "Différences générales"

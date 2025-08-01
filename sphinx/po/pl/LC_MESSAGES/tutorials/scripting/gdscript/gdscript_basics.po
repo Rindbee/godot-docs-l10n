@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -571,13 +571,6 @@ msgstr ":ref:`Array <class_Array>`"
 msgid ":ref:`Dictionary <class_Dictionary>`"
 msgstr ":ref:`Słownik <class_Dictionary>`"
 
-msgid ""
-"To add a key to an existing dictionary, access it like an existing key and "
-"assign to it::"
-msgstr ""
-"Aby dodać klucz do istniejącego słownika, otwórz go jakby istniał i przypisz "
-"do niego wartość::"
-
 msgid "Variables"
 msgstr "Zmienne"
 
@@ -629,9 +622,6 @@ msgstr "Wyrażenia"
 
 msgid "if/else/elif"
 msgstr "if/else/elif"
-
-msgid "Short statements can be written on the same line as the condition::"
-msgstr "Krótkie instrukcje mogą być napisane w tym samym wierszu co warunek::"
 
 msgid "Basic syntax"
 msgstr "Podstawowa składnia"
@@ -693,8 +683,8 @@ msgstr "Klasy jako zasoby"
 msgid "Exports"
 msgstr "Eksport"
 
-msgid "Example::"
-msgstr "Na przykład::"
+msgid "Example:"
+msgstr "Na przykład:"
 
 msgid "Tool mode"
 msgstr "Tryb narzędziowy"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -126,14 +126,6 @@ msgstr "3"
 
 msgid "0"
 msgstr "0"
-
-msgid ""
-"This is the priority of the action set. If multiple active action sets have "
-"actions bound to the same controllers inputs or outputs, the action set with "
-"the highest priority value will determine the action that is updated."
-msgstr ""
-"这是动作集的优先级。如果多个活动动作集具有绑定到相同控制器输入或输出的动作，"
-"则具有最高优先级值的动作集将确定被更新的动作。"
 
 msgid "Actions"
 msgstr "动作"

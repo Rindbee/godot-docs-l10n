@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -41,13 +41,6 @@ msgstr ""
 msgid "Install OpenJDK 17"
 msgstr "安裝 OpenJDK 17"
 
-msgid ""
-"Download and install `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
-"variant=openjdk17>`__."
-msgstr ""
-"下載並安裝 `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
-"variant=openjdk17>`__。"
-
 msgid "Download the Android SDK"
 msgstr "下載 Android SDK"
 
@@ -75,15 +68,6 @@ msgstr ""
 "請確認也已安裝所有 `必要套件 <https://developer.android.com/studio/intro/"
 "update#required>`__。"
 
-msgid "Android SDK Platform-Tools version 34.0.0 or later"
-msgstr "Android SDK Platform-Tools 34.0.0 版或更新版本"
-
-msgid "Android SDK Build-Tools version 34.0.0"
-msgstr "Android SDK Build-Tools 34.0.0 版"
-
-msgid "Android SDK Platform 34"
-msgstr "Android SDK Platform 34"
-
 msgid "Android SDK Command-line Tools (latest)"
 msgstr "安裝 Android SDK (命令列版本)"
 
@@ -96,9 +80,6 @@ msgstr ""
 
 msgid "CMake version 3.10.2.4988404"
 msgstr "CMake 版本 3.10.2.4988404"
-
-msgid "NDK version r23c (23.2.8568313)"
-msgstr "NDK 版本 r23c（23.2.8568313）"
 
 msgid ""
 "Alternatively, you can install the Android SDK with the `sdkmanager` command "

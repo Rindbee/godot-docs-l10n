@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -37,13 +37,6 @@ msgstr "Sinyaller"
 
 msgid "Constants"
 msgstr "Sabitler"
-
-msgid ""
-"Use snake_case for file names. For named classes, convert the PascalCase "
-"class name to snake_case::"
-msgstr ""
-"Dosya adları için yılan_tarzı kullanın. Adlandırılmış sınıflar için "
-"PascalTarzı sınıf adını yılan_tarzı'na dönüştürün::"
 
 msgid "Use PascalCase for class and node names:"
 msgstr "Sınıf ve düğüm adları için PascalTarzı kullanın:"

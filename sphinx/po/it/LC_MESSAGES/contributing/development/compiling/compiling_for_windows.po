@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,12 +29,6 @@ msgid ""
 msgstr ""
 "Per una panoramica generale sull'utilizzo di SCons per Godot, "
 "consultare :ref:`doc_introduction_to_the_buildsystem`."
-
-msgid ""
-"To install SCons, open the command prompt and run the following command::"
-msgstr ""
-"Per installare SCons, aprire il prompt dei comandi ed eseguire il seguente "
-"comando::"
 
 msgid "Refer to :ref:`doc_getting_source` for detailed instructions."
 msgstr "Consultare :ref:`doc_getting_source` per istruzioni dettagliate."
@@ -64,9 +58,6 @@ msgstr ""
 "Clonare la cartella `godot-nir-static <https://github.com/godotengine/godot-"
 "nir-static>`_ e accedervi."
 
-msgid "Run the following::"
-msgstr "Eseguire il seguente::"
-
 msgid "Compiling with ANGLE support"
 msgstr "Compilare con supporto ANGLE"
 
@@ -76,9 +67,6 @@ msgid ""
 msgstr ""
 "Clonare la cartella `godot-angle-static <https://github.com/godotengine/"
 "godot-angle-static>`_ e accedervi."
-
-msgid "Run the following command::"
-msgstr "Eseguire il seguente comando::"
 
 msgid "Development in Visual Studio"
 msgstr "Sviluppo in Visual Studio"
@@ -104,6 +92,3 @@ msgstr "**Mageia**"
 
 msgid "Troubleshooting"
 msgstr "Risoluzione dei problemi"
-
-msgid "And for 32-bit::"
-msgstr "E per 32 bit::"

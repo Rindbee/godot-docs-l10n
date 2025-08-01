@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,17 +23,6 @@ msgstr ""
 
 msgid "Editor's interface"
 msgstr "ஆசிரியரின் இடைமுகம்"
-
-msgid ""
-"The following pages explain how to use the various windows, workspaces, and "
-"docks that make up the Godot editor. We cover some specific editors' "
-"interface in other sections where appropriate. For example, "
-"the :ref:`animation editor <doc_introduction_animation>`."
-msgstr ""
-"கோடோட் எடிட்டரை உருவாக்கும் பல்வேறு சன்னல்கள், பணியிடங்கள் மற்றும் கப்பல்துறைகளை எவ்வாறு "
-"பயன்படுத்துவது என்பதை பின்வரும் பக்கங்கள் விளக்குகின்றன. சில குறிப்பிட்ட எடிட்டர்களின் "
-"இடைமுகத்தை மற்ற பிரிவுகளில் பொருத்தமான இடங்களில் உள்ளடக்குகிறோம். எடுத்துக்காட்டாக, தி: "
-"ரெஃப்: `அனிமேசன் எடிட்டர் <doc_introduction_animation>`."
 
 msgid "XR editor"
 msgstr "எக்ச்ஆர் ஆசிரியர்"

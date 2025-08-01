@@ -1,0 +1,40 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"They also both allow you to integrate third-party libraries into Godot. The "
+"one you should choose depends on your needs."
+msgstr "它们都可以用来将第三方库集成进 Godot。选用哪一个取决于你的需求。"
+
+msgid "Also:"
+msgstr "并且："
+
+msgid "Advantages of C++ modules"
+msgstr "C++ 模块的优点"
+
+msgid ""
+"C++ modules provide deeper integration into the engine. GDExtension's access "
+"is not as deep as static modules."
+msgstr ""
+"C++ 模块提供了与引擎更深层次的集成。GDExtension 的访问能力不如静态模块那般深"
+"入。"
+
+msgid ""
+"You can use C++ modules to provide additional features in a project without "
+"carrying native library files around. This extends to exported projects."
+msgstr ""
+"使用 C++ 模块为项目提供额外功能，就可以免去携带原生库文件的麻烦。同样也适用于"
+"导出的项目。"
+
+msgid "Version compatibility"
+msgstr "版本兼容性"

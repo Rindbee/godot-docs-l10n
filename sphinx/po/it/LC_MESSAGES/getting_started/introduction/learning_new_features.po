@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -233,14 +233,6 @@ msgstr ""
 "schermo con il tasto :kdb:`PrtSc` (Stampa Schermo) (macOS: usa :kbd:`Cmd + "
 "Shift + 3` per una cattura a schermo intero, `maggiori informazioni qui "
 "<https://support.apple.com/guide/mac-help/take-a-screenshot-mh26782/mac>`_)."
-
-msgid ""
-"Alternatively, you can use a program like `ShareX <https://getsharex.com/>`_ "
-"on Windows, or `FlameShot <https://flameshot.org/>`_ on Linux."
-msgstr ""
-"Alternativamente, puoi usare un programma come `ShareX <https://"
-"getsharex.com/>`_ su Windows oppure `FlameShot <https://flameshot.org/>`_ su "
-"Linux."
 
 msgid ""
 "Sharing a video of your running game can also be really **useful to "

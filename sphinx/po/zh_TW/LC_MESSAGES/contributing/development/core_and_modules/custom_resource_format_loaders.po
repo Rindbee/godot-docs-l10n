@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -196,6 +196,3 @@ msgid ""
 "Save a file called ``demo.json`` with the following contents and place it in "
 "the project's root folder:"
 msgstr "建立一個名為 ``demo.json`` 的檔案，填入以下內容，並放在專案根目錄下："
-
-msgid "Then attach the following script to any node::"
-msgstr "然後將下列腳本附加到任意節點："

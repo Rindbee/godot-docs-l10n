@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -42,13 +42,6 @@ msgstr ""
 "Godot와 같은 최신 렌더링 엔진들은 셰이더를 통해 무엇이든 그릴 수 있습니다: 그"
 "래픽 카드는 수천개의 명령어를 동시에 처리할 수 있기 때문에 렌더링 속도가 빠릅"
 "니다."
-
-msgid ""
-"Suppose you want to update all the pixels in a texture to a given color. In "
-"GDScript, your code would use ``for`` loops::"
-msgstr ""
-"텍스처의 모든 픽셀을 주어진 색상으로 업데이트하고 싶다고 가정합니다. GDScript"
-"에서 코드는 ``for`` 루프를 사용합니다:"
 
 msgid "Render modes"
 msgstr "렌더러 모드"

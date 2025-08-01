@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,9 +16,6 @@ msgstr "Utilizzo di AnimationTree"
 
 msgid "Introduction"
 msgstr "Introduzione"
-
-msgid "Creating an AnimationTree"
-msgstr "Creazione di un AnimationTree"
 
 msgid "Creating a tree"
 msgstr "Creazione di un albero"
@@ -38,17 +35,8 @@ msgstr "TimeScale"
 msgid "Transition"
 msgstr "Transizione"
 
-msgid "BlendSpace2D"
-msgstr "BlendSpace2D"
-
-msgid "BlendSpace1D"
-msgstr "BlendSpace1D"
-
 msgid "StateMachine"
 msgstr "StateMachine"
-
-msgid "There are many types of transition:"
-msgstr "Esistono molti tipi di transizioni:"
 
 msgid "Root motion"
 msgstr "Movimento della radice"

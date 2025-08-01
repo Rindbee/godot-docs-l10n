@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -87,10 +87,6 @@ msgid ""
 msgstr ""
 "如果可以使用可运行的Web导出模板, 则编辑器中的 *停止场景* 和 *播放编辑的场景* "
 "按钮之间会出现一个按钮, 可以在默认浏览器中快速打开游戏进行测试."
-
-msgid ""
-"If your project uses GDExtension **Extension Support** needs to be enabled."
-msgstr "如果你的项目使用 GDExtension，则需要启用 **Extension Support**\\ 。"
 
 msgid ""
 "If a path to a **Custom HTML shell** file is given, it will be used instead "

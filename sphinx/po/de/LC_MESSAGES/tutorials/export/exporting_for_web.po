@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -50,12 +50,6 @@ msgstr ""
 "Button zwischen den Buttons *Szene stoppen* und *Bearbeitete Szene "
 "abspielen* angezeigt, um das Spiel schnell im Default-Browser zum Testen zu "
 "öffnen."
-
-msgid ""
-"If your project uses GDExtension **Extension Support** needs to be enabled."
-msgstr ""
-"Wenn Ihr Projekt GDExtension verwendet, muss **Extension-Unterstützung** "
-"aktiviert sein."
 
 msgid ""
 "If a path to a **Custom HTML shell** file is given, it will be used instead "

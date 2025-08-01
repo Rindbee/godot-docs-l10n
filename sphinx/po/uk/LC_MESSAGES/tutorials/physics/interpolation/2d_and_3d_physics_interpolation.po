@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -81,13 +81,6 @@ msgstr ""
 "перетворення дочірнього елемента є неінтерпольованим.* Контроль увімкнення/"
 "вимкнення поведінки 2D-вузлів, отже, вимагає трохи більше обдумування та "
 "планування."
-
-msgid ""
-"On the positive side, pivot behavior in the scene tree is perfectly "
-"preserved during interpolation in 2D, which gives super smooth behaviour."
-msgstr ""
-"Позитивним є те, що поворотна поведінка в дереві сцени ідеально зберігається "
-"під час інтерполяції у 2D, що забезпечує надзвичайно плавну поведінку."
 
 msgid "Resetting physics interpolation"
 msgstr "Скидання фізичної інтерполяції"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -847,9 +847,6 @@ msgstr "支援手動發射的自訂粒子著色器。"
 
 msgid "**Post-processing:**"
 msgstr "**後處理：**"
-
-msgid "Tonemapping (Linear, Reinhard, Filmic, ACES)."
-msgstr "色調對應 (線性, Reinhard, Filmic, ACES)。"
 
 msgid ""
 "Automatic exposure adjustments based on viewport brightness (and manual "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,16 +23,6 @@ msgstr "Ajout de détection de collision aux objets."
 
 msgid "Setting objects as navigation meshes."
 msgstr "Réglage des objets comme maillages de navigation."
-
-msgid "Remove nodes (-noimp)"
-msgstr "Supprimer les nœuds (-noimp)"
-
-msgid ""
-"Objects that have the ``-noimp`` suffix will be removed at import-time no "
-"matter what their type is. They will not appear in the imported scene."
-msgstr ""
-"Les objets qui ont le suffixe ``-noimp`` seront supprimés à l'importation, "
-"quel que soit leur type. Ils n'apparaîtront pas dans la scène importée."
 
 msgid "Create collisions (-col, -convcol, -colonly, -convcolonly)"
 msgstr "Créer des collisions (-col, -convcol, -colonly, -convcolonly)"

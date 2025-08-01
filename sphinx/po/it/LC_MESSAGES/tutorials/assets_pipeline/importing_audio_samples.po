@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,14 +32,8 @@ msgstr "WAV a 16 bit, 44 kHz, mono"
 msgid "88 KB"
 msgstr "88 KB"
 
-msgid "WAV IMA-ADPCM, 44 kHz, mono"
-msgstr "WAV IMA-ADPCM, 44 kHz, mono"
-
 msgid "22 KB"
 msgstr "22 KB"
-
-msgid "WAV QOA, 44 kHz, mono"
-msgstr "WAV QOA, 44 kHz, mono"
 
 msgid "MP3 192 Kb/s, stereo"
 msgstr "MP3 192 Kb/s, stereo"

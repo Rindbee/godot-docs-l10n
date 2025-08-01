@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,17 +23,6 @@ msgstr ""
 
 msgid "Editor's interface"
 msgstr "エディタのインターフェース"
-
-msgid ""
-"The following pages explain how to use the various windows, workspaces, and "
-"docks that make up the Godot editor. We cover some specific editors' "
-"interface in other sections where appropriate. For example, "
-"the :ref:`animation editor <doc_introduction_animation>`."
-msgstr ""
-"以下のページではGodotエディタを構成するさまざまなウィンドウ、ワークスペース、"
-"およびドックの使用方法を説明します。特定のエディタのインターフェイスについて"
-"は、必要に応じて他のセクションで説明します。たとえば :ref:`アニメーション エ"
-"ディタ <doc_introduction_animation>` などです。"
 
 msgid ""
 "Godot offers a port of the editor designed to run natively on Meta Quest "

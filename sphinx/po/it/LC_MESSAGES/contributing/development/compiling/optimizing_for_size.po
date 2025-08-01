@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -140,14 +140,6 @@ msgstr ""
 "poiché l'editor non è progettato per funzionare senza il supporto 3D. Senza "
 "di esso, la dimensione dell'eseguibile si può ridurre di circa il 15%."
 
-msgid ""
-"Disabling 3D support also disables all navigation. This includes 2D "
-"navigation, as it uses the 3D navigation system internally."
-msgstr ""
-"Disabilitando il supporto 3D si disabilita anche tutta la navigazione. Ciò "
-"include anche la navigazione 2D, poiché utilizza internamente il sistema di "
-"navigazione 3D."
-
 msgid "Disabling advanced GUI objects"
 msgstr "Disabilitare gli oggetti della GUI avanzati"
 
@@ -174,11 +166,11 @@ msgstr ":ref:`class_CodeEdit`"
 msgid ":ref:`class_CodeHighlighter`"
 msgstr ":ref:`class_CodeHighlighter`"
 
-msgid ":ref:`class_ColorPickerButton`"
-msgstr ":ref:`class_ColorPickerButton`"
-
 msgid ":ref:`class_ColorPicker`"
 msgstr ":ref:`class_ColorPicker`"
+
+msgid ":ref:`class_ColorPickerButton`"
+msgstr ":ref:`class_ColorPickerButton`"
 
 msgid ":ref:`class_ConfirmationDialog`"
 msgstr ":ref:`class_ConfirmationDialog`"
@@ -240,11 +232,11 @@ msgstr ":ref:`class_SyntaxHighlighter`"
 msgid ":ref:`class_TextEdit`"
 msgstr ":ref:`class_TextEdit`"
 
-msgid ":ref:`class_TreeItem`"
-msgstr ":ref:`class_TreeItem`"
-
 msgid ":ref:`class_Tree`"
 msgstr ":ref:`class_Tree`"
+
+msgid ":ref:`class_TreeItem`"
+msgstr ":ref:`class_TreeItem`"
 
 msgid ":ref:`class_VSplitContainer`"
 msgstr ":ref:`class_VSplitContainer`"

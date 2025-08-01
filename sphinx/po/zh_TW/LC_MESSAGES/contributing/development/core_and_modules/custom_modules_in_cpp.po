@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -179,14 +179,6 @@ msgid ""
 msgstr ""
 "你可以將模組壓縮打包，分享給其他人。當編譯所有平台版本時（詳見前面說明），你"
 "的模組也會被包含進去。"
-
-msgid ""
-"There is a parameter limit of 5 in C++ modules for things such as "
-"subclasses. This can be raised to 13 by including the header file ``core/"
-"method_bind_ext.gen.inc``."
-msgstr ""
-"C++ 模組（例如子類別）預設最多支援 5 個參數。若要提升上限至 13 個，只要引入標"
-"頭檔 ``core/method_bind_ext.gen.inc`` 即可。"
 
 msgid "Using the module"
 msgstr "使用模組"
@@ -457,14 +449,6 @@ msgid ""
 msgstr ""
 "``get_doc_classes()`` 必須列出所有要註冊為此模組的類別，讓建置系統知道這些類"
 "別屬於你的模組。沒列出的類別會被放到主 ``doc/classes`` 目錄。"
-
-msgid ""
-"You can use Git to check if you have missed some of your classes by checking "
-"the untracked files with ``git status``. For example::"
-msgstr "你可以用 ``git status`` 檢查未追蹤檔案，確認有無遺漏類別。例如："
-
-msgid "Example output::"
-msgstr "範例輸出："
 
 msgid "Now we can generate the documentation:"
 msgstr "現在可以產生說明文件："

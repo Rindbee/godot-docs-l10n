@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -216,9 +216,6 @@ msgid ""
 msgstr ""
 "由于我们使表面在阴影中变得不透明，因此我们可以让虚拟物体在现实世界物体上投射"
 "阴影 [#]_。"
-
-msgid "Image showing shadow to opacity being used to show the users desk."
-msgstr "“阴影到不透明”效果在用户桌面上的应用。"
 
 msgid "This enabled the following use cases:"
 msgstr "这使得以下应用场景成为可能："

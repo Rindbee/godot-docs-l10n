@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -80,9 +80,6 @@ msgid ""
 msgstr ""
 "I gcás ceadúnais MIT, is é an t-aon cheanglas téacs an cheadúnais a áireamh "
 "áit éigin i do chluiche nó i do thionscadal díorthach."
-
-msgid "This text reads as follows::"
-msgstr "Léann an téacs seo mar seo a leanas:"
 
 msgid ""
 "Beside its own MIT license, Godot includes code from a number of third-party "

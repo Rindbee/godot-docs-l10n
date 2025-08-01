@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -83,13 +83,6 @@ msgid ""
 msgstr ""
 "Falls mehr als ein Gerät angeschlossen ist, fragt Godot auf welches Gerät "
 "das Projekt exportiert werden soll."
-
-msgid ""
-"**iOS:** Exports the project with debugging enabled and runs it on the "
-"connected device or simulator."
-msgstr ""
-"**iOS:** Exportiert das Projekt mit aktiviertem Debugging und startet es auf "
-"dem verbundenen Gerät oder Simulator."
 
 msgid ""
 "Make sure to follow the steps described in :ref:`doc_exporting_for_ios`. "
@@ -195,12 +188,6 @@ msgstr ""
 "befindet und dass in den Editoreinstellungen die richtige "
 "Netzwerkschnittstelle ausgewählt ist (siehe `Netzwerk ⇾ Debug ⇾ Remote "
 "Host`). Standardmäßig lauscht der Editor nur auf `localhost`-Verbindungen."
-
-msgid "For running in simulator:"
-msgstr "Für den Betrieb im Simulator:"
-
-msgid "Install and start simulator from the Xcode."
-msgstr "Installieren und starten Sie den Simulator über Xcode."
 
 msgid "Device screen should be unlocked."
 msgstr "Der Bildschirm des Geräts sollte entsperrt sein."

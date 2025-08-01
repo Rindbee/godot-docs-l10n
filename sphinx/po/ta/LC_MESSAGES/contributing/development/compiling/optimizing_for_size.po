@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -108,27 +108,6 @@ msgstr ""
 "மற்றும் பயன்படுத்தப்படாத குறியீட்டை அகற்றுவதன் மூலம் இது செயல்படுகிறது. இது தற்போது "
 "சி.சி.சி மற்றும் எம்.எச்.வி.சி கம்பைலர்களுடன் பயன்படுத்தப்படலாம்:"
 
-msgid ""
-"Linking becomes much slower and more RAM-consuming with this option, so it "
-"should be used only for release builds:"
-msgstr ""
-"இந்த விருப்பத்துடன் இணைப்பது மிகவும் மெதுவாகவும், ராம்-நுகர்வாகவும் மாறும், எனவே இது "
-"வெளியீட்டு கட்டடங்களுக்கு மட்டுமே பயன்படுத்தப்பட வேண்டும்:"
-
-msgid ""
-"When compiling the ``master`` branch, you need to have at least 8 GB of RAM "
-"available for successful linking with LTO enabled."
-msgstr ""
-"`` மாச்டர்` கிளையைத் தொகுக்கும்போது, எல்.டி.ஓ இயக்கப்பட்டவருடன் வெற்றிகரமாக இணைப்பதற்கு "
-"குறைந்தபட்சம் 8 சிபி ரேம் கிடைக்க வேண்டும்."
-
-msgid ""
-"When compiling the ``3.x`` branch, you need to have at least 6 GB of RAM "
-"available for successful linking with LTO enabled."
-msgstr ""
-"`` 3.x`` கிளையைத் தொகுக்கும்போது, எல்.டி.ஓ இயக்கப்பட்டதாக வெற்றிகரமாக இணைப்பதற்கு "
-"குறைந்தபட்சம் 6 சிபி ரேம் கிடைக்க வேண்டும்."
-
 msgid "Optimizing for size instead of speed"
 msgstr "வேகத்திற்கு பதிலாக அளவை மேம்படுத்துதல்"
 
@@ -230,13 +209,6 @@ msgstr ""
 "இந்த கொடியைப் பயன்படுத்த கருவிகள் முடக்கப்பட வேண்டும், ஏனெனில் ஆசிரியர் 3D உதவி இல்லாமல் "
 "செயல்பட வடிவமைக்கப்படவில்லை. இது இல்லாமல், பைனரி அளவை சுமார் 15%குறைக்க முடியும்."
 
-msgid ""
-"Disabling 3D support also disables all navigation. This includes 2D "
-"navigation, as it uses the 3D navigation system internally."
-msgstr ""
-"3D ஆதரவை முடக்குவது அனைத்து வழிசெலுத்தலையும் முடக்குகிறது. இதில் 2 டி வழிசெலுத்தல் "
-"அடங்கும், ஏனெனில் இது 3D வழிசெலுத்தல் முறையை உள்நாட்டில் பயன்படுத்துகிறது."
-
 msgid "Disabling advanced GUI objects"
 msgstr "மேம்பட்ட GUI பொருள்களை முடக்குதல்"
 
@@ -263,11 +235,11 @@ msgstr ": குறிப்பு: `class_codeedit`"
 msgid ":ref:`class_CodeHighlighter`"
 msgstr ": குறிப்பு: `class_codehighlither`"
 
-msgid ":ref:`class_ColorPickerButton`"
-msgstr ": குறிப்பு: `class_colorpickerbutton`"
-
 msgid ":ref:`class_ColorPicker`"
 msgstr ": Ref: `class_colorpicker`"
+
+msgid ":ref:`class_ColorPickerButton`"
+msgstr ": குறிப்பு: `class_colorpickerbutton`"
 
 msgid ":ref:`class_ConfirmationDialog`"
 msgstr ": குறிப்பு: `class_confirmationDialog`"
@@ -329,11 +301,11 @@ msgstr ": Ref: `வகுப்பு தொடரியல்`"
 msgid ":ref:`class_TextEdit`"
 msgstr ": ref: `class_textedit`"
 
-msgid ":ref:`class_TreeItem`"
-msgstr ": குறிப்பு: `class_treitem`"
-
 msgid ":ref:`class_Tree`"
 msgstr ": குறிப்பு: `class_tree`"
+
+msgid ":ref:`class_TreeItem`"
+msgstr ": குறிப்பு: `class_treitem`"
 
 msgid ":ref:`class_VSplitContainer`"
 msgstr ": குறிப்பு: `class_vsplitcontainer`"

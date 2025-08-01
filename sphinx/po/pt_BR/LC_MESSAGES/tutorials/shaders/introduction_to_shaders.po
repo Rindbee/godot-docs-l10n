@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -57,13 +57,6 @@ msgstr ""
 "armazenar dados entre quadros. Como resultado, ao trabalhar com shaders, "
 "você precisa programar e pensar de forma diferente de outras linguagens de "
 "programação."
-
-msgid ""
-"Suppose you want to update all the pixels in a texture to a given color. In "
-"GDScript, your code would use ``for`` loops::"
-msgstr ""
-"Suponha que você queira atualizar todos os pixels em uma textura para uma "
-"determinada cor. Em GDScript, seu código utilizaria loops ``for``::"
 
 msgid ""
 "Your code is already part of a loop in a shader, so the corresponding code "

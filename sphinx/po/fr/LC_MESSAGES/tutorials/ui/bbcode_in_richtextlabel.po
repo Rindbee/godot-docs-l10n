@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -115,6 +115,9 @@ msgstr "``[p]{text}[/p]``"
 msgid "``[p {options}]{text}[/p]``"
 msgstr "``[p {options}]{texet}[/p]``"
 
+msgid "``[br]``"
+msgstr "``[br]``"
+
 msgid "**center**"
 msgstr "**centré**"
 
@@ -168,9 +171,6 @@ msgstr "``[url={lien}]{texte}[/url]``"
 
 msgid "**hint**"
 msgstr "**hint**"
-
-msgid "``[hint={tooltip text displayed on hover}]{text}[/hint]``"
-msgstr "``[hint={texte info-bulle affiché lors du survol}]{text}[/hint]``"
 
 msgid "**img**"
 msgstr "**img**"
@@ -408,34 +408,20 @@ msgstr ""
 "afin de permettre une utilisation flexible des balises ``[url]`` plutôt que "
 "de les limiter à l'ouverture des URL dans un navigateur Web."
 
-msgid ""
-"For example, the following method can be connected to ``meta_clicked`` to "
-"open clicked URLs using the user's default web browser::"
-msgstr ""
-"Par exemple, la méthode suivante peut être connectée à ``meta_clicked`` pour "
-"ouvrir les URL cliquées à l'aide du navigateur web par défaut de "
-"l'utilisateur :"
-
-msgid ""
-"For more advanced use cases, it's also possible to store JSON in an "
-"``[url]`` tag's option and parse it in the function that handles the "
-"``meta_clicked`` signal. For example:"
-msgstr ""
-"Pour des cas d'utilisation plus avancés, il est également possible de "
-"stocker JSON dans l'option d'une balise ``[url]`` et de l'analyser dans la "
-"fonction qui gère le signal ``meta_clicked``. Par exemple :"
-
-msgid "Image options"
-msgstr "Options d'image"
-
 msgid "**height**"
 msgstr "**height**"
 
 msgid "Integer number"
 msgstr "Nombre entier"
 
+msgid "``2``"
+msgstr "``2``"
+
 msgid "**width**"
 msgstr "**width**"
+
+msgid "Image options"
+msgstr "Options d'image"
 
 msgid "**region**"
 msgstr "**region**"

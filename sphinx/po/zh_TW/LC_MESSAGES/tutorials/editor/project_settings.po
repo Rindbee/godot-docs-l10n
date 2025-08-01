@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -141,17 +141,6 @@ msgstr ""
 
 msgid "Manually editing project.godot"
 msgstr "手動編輯 project.godot"
-
-msgid ""
-"You can open the ``project.godot`` file using a text editor and manually "
-"change project settings. Note that if the ``project.godot`` file does not "
-"have a stored value for a particular setting, it is implicitly the default "
-"value of that setting. This means that if you are are manually editing the "
-"file, you may have to write in both the setting name *and* the value."
-msgstr ""
-"您可以使用文字編輯器開啟 ``project.godot`` 檔案，並手動更改專案設定。請注意，"
-"如果 ``project.godot`` 檔案中特定設定沒有儲存值，則會隱含地使用該設定的預設"
-"值。這表示如果您正在手動編輯該檔案，您可能需要同時寫入設定名稱 *和* 值。"
 
 msgid ""
 "In general, it is recommended to use the Project Settings window rather than "

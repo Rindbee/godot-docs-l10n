@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,46 +28,11 @@ msgstr "Esta referência tentará listá-los para melhor compreensão."
 msgid "Definitions"
 msgstr "Definições"
 
-msgid ""
-"In general, care is not taken to use the most efficient datatype for a given "
-"task unless using large structures or arrays. ``int`` is used through most "
-"of the code unless necessary. This is done because nowadays every device has "
-"at least a 32 bits bus and can do such operations in one cycle. It makes "
-"code more readable too."
-msgstr ""
-"Em geral, não se toma cuidado para usar o tipo de dado mais eficiente para "
-"uma determinada tarefa, a menos que se use grandes estruturas ou matrizes. "
-"Um `int` é usado na maior parte do código. Isso é feito porque hoje em dia "
-"todo dispositivo tem pelo menos um barramento de 32 bits e pode fazer essas "
-"operações em um ciclo. Também torna o código mais legível."
-
-msgid ""
-"For files or memory sizes, ``size_t`` is used, which is warranted to be 64 "
-"bits."
-msgstr ""
-"Para arquivos ou tamanhos de memória, ` size_t` é usado, que é garantido "
-"para ter 64 bits."
-
-msgid "References:"
-msgstr "Referências:"
-
 msgid "Allocating memory"
 msgstr "Alocando memória"
 
-msgid "Vector"
-msgstr "Vetor"
-
-msgid "List"
-msgstr "Lista"
-
-msgid "Set"
-msgstr "Definir"
-
-msgid "Map"
-msgstr "Mapa"
-
-msgid "String"
-msgstr "String"
+msgid "Comment"
+msgstr "Comente"
 
 msgid "RID"
 msgstr "RID"

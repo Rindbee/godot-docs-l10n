@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -111,10 +111,6 @@ msgid ""
 "This will print the time spent between the ``begin`` declaration and the "
 "``end`` declaration."
 msgstr "这将打印从 ``begin`` 执行到 ``end`` 声明之间的花费时间."
-
-msgid ""
-"You may have to ``#include \"core/os/os.h\"`` if it's not present already."
-msgstr "如果还不存在, 则可能需要 ``#include \"core/os/os.h\"`` ."
 
 msgid ""
 "When opening a pull request, make sure to remove this snippet as well as the "

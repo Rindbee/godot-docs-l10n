@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,9 +16,6 @@ msgstr "Używaj czasu przeszłego"
 
 msgid "**Advantages:**"
 msgstr "**Zalety:**"
-
-msgid "PCK files usually contain, but are not limited to:"
-msgstr "Pliki PCK zwykle zawierają, ale nie ograniczają się do:"
 
 msgid "scripts"
 msgstr "skrypty"
@@ -37,6 +34,9 @@ msgstr "tekstury"
 
 msgid "music"
 msgstr "muzykę"
+
+msgid "Troubleshooting"
+msgstr "Rozwiązywanie problemów"
 
 msgid "Summary"
 msgstr "Podsumowanie"

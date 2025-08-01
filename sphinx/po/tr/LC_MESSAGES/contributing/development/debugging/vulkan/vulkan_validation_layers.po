@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -214,10 +214,6 @@ msgstr ""
 "Kütüphaneleri ``Vulkan-ValidationLayers/build-android/libs`` klasöründen "
 "``godot/platform/android/java/app/libs/debug/vulkan_validation_layers`` "
 "klasörüne kopyalayın."
-
-msgid ""
-"Your Godot source directory tree should look like on the example below::"
-msgstr "Godot kaynak dizin ağacınız aşağıdaki örnekteki gibi görünmelidir::"
 
 msgid ""
 "If the subdirectory ``libs/debug/vulkan_validation_layers`` doesn't exist, "

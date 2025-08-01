@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -76,9 +76,6 @@ msgid ""
 msgstr ""
 "எம்ஐடி உரிமத்தைப் பொறுத்தவரை, உங்கள் விளையாட்டு அல்லது வழித்தோன்றல் திட்டத்தில் எங்காவது "
 "உரிம உரையை சேர்ப்பதே ஒரே தேவை."
-
-msgid "This text reads as follows::"
-msgstr "இந்த உரை பின்வருமாறு கூறுகிறது ::"
 
 msgid ""
 "Beside its own MIT license, Godot includes code from a number of third-party "

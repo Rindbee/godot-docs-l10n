@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -375,13 +375,6 @@ msgstr "Signale"
 
 msgid "Constants"
 msgstr "Konstanten"
-
-msgid ""
-"Use snake_case for file names. For named classes, convert the PascalCase "
-"class name to snake_case::"
-msgstr ""
-"Verwenden Sie snake_case für Dateinamen. Für benannte Klassen konvertieren "
-"Sie den PascalCase-Klassennamen in snake_case::"
 
 msgid ""
 "This is consistent with how C++ files are named in Godot's source code. This "

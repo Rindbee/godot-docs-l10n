@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -146,14 +146,6 @@ msgstr ""
 "மாறுபாடுகள் ** சாளரத்தைத் திறக்கவும்."
 
 msgid ""
-"In the **Build Variants** window, make sure that in the **Active Build "
-"Variant** column, the ``:editor`` entry is set to **dev**."
-msgstr ""
-"** உருவாக்கு மாறுபாடுகள் ** சாளரத்தில், ** செயலில் உள்ள உருவாக்க மாறுபாடு ** "
-"நெடுவரிசையில், ``: எடிட்டர்`` நுழைவு ** தேவ் ** என அமைக்கப்பட்டுள்ளது என்பதை "
-"உறுதிப்படுத்திக் கொள்ளுங்கள்."
-
-msgid ""
 "Open the **Run/Debug Configurations** window by clicking on **Run > Edit "
 "Configurations...** on the top menu."
 msgstr ""
@@ -217,14 +209,6 @@ msgstr ""
 
 msgid "To debug the ``app`` module:"
 msgstr "`` App`` தொகுதியை பிழைத்திருத்த:"
-
-msgid ""
-"In the **Build Variants** window, make sure that in the **Active Build "
-"Variant** column, the ``:app`` entry is set to **dev**."
-msgstr ""
-"** உருவாக்கு மாறுபாடுகள் ** சாளரத்தில், ** செயலில் உள்ள உருவாக்க மாறுபாடு ** "
-"நெடுவரிசையில், ``: App`` நுழைவு ** dev ** என அமைக்கப்பட்டுள்ளது என்பதை "
-"உறுதிப்படுத்திக் கொள்ளுங்கள்."
 
 msgid ""
 "In the **Run/Debug Configurations** window, select the ``app`` entry, and "

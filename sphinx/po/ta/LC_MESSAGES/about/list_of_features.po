@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -926,9 +926,6 @@ msgstr "கையேடு உமிழ்வுடன் தனிப்பய�
 
 msgid "**Post-processing:**"
 msgstr "** பிந்தைய செயலாக்கம்: **"
-
-msgid "Tonemapping (Linear, Reinhard, Filmic, ACES)."
-msgstr "டோன்மாப்பிங் (லீனியர், ரெய்ன்ஆர்ட், ஃபிலிமிக், ஏசச்)."
 
 msgid ""
 "Automatic exposure adjustments based on viewport brightness (and manual "

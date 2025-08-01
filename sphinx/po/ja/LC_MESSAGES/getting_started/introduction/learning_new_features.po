@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -223,13 +223,6 @@ msgstr ""
 "組み込まれているはずです (macOSの場合には :kbd:`Cmd + Shift + 3` で画面全体を"
 "撮影できます。詳しくは `こちら <https://support.apple.com/guide/mac-help/"
 "take-a-screenshot-mh26782/mac>`_ を参照してください)。"
-
-msgid ""
-"Alternatively, you can use a program like `ShareX <https://getsharex.com/>`_ "
-"on Windows, or `FlameShot <https://flameshot.org/>`_ on Linux."
-msgstr ""
-"あるいは、Windowsでは `ShareX <https://getsharex.com/>`_ 、Linuxでは "
-"`FlameShot <https://flameshot.org/>`_ のようなツールを使うこともできます。"
 
 msgid ""
 "Sharing a video of your running game can also be really **useful to "

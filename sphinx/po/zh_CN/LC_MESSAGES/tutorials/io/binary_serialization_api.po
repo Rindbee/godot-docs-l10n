@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -63,11 +63,6 @@ msgid ""
 msgstr ""
 "根据设计，数据包总是会被填充到 4 个字节。所有的值都是小端编码的。所有数据包都"
 "有一个 4 字节的头，代表一个整数，指定数据的类型。"
-
-msgid ""
-"The lowest value two bytes are used to determine the type, while the highest "
-"value two bytes contain flags::"
-msgstr "两个低字节用于确定类型，而两个高字节则包含标志： ::"
 
 msgid "Type"
 msgstr "类型"

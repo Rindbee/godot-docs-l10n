@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -458,12 +458,6 @@ msgstr ""
 msgid "``--frame-delay <ms>``"
 msgstr "``--frame-delay <ms>``"
 
-msgid ""
-"|release| Simulate high CPU load (delay each frame by <ms> milliseconds)."
-msgstr ""
-"|release| Simula un carico elevato sulla CPU (ritarda ogni frame di <ms> "
-"millisecondi)."
-
 msgid "``--time-scale <scale>``"
 msgstr "``--time-scale <scale>``"
 
@@ -563,20 +557,6 @@ msgstr ""
 
 msgid "``--export-release <preset> <path>``"
 msgstr "``--export-release <preset> <path>``"
-
-msgid ""
-"|editor| Export the project using the given preset and matching release "
-"template. The preset name should match one defined in export_presets.cfg. "
-"``<path>`` should be absolute or relative to the project directory, and "
-"include the filename for the binary (e.g. 'builds/game.exe'). The target "
-"directory should exist. Implies ``--import``."
-msgstr ""
-"|editor| Esporta il progetto utilizzando la preimpostazione fornita e il "
-"modello di rilascio corrispondente. Il nome della preimpostazione deve "
-"corrispondere a quella definita in export_presets.cfg. Il percorso "
-"``<path>`` deve essere assoluto o relativo alla cartella del progetto e "
-"includere il nome dell'eseguibile (ad esempio, \"builds/game.exe\"). La "
-"cartella di destinazione deve esistere. Implica ``--import``."
 
 msgid "``--export-debug <preset> <path>``"
 msgstr "``--export-debug <preset> <path>``"

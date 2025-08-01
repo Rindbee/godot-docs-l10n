@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -72,9 +72,6 @@ msgid ""
 "license text somewhere in your game or derivative project."
 msgstr ""
 "对于 MIT 许可证，唯一的要求是将许可证文本包含在你的游戏或衍生项目的某处。"
-
-msgid "This text reads as follows::"
-msgstr "文本内容如下："
 
 msgid ""
 "Beside its own MIT license, Godot includes code from a number of third-party "

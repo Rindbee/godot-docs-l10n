@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -57,20 +57,8 @@ msgstr ""
 "fonction de la plate-forme hôte. Il commencera alors immédiatement à "
 "construire pour la plate-forme cible."
 
-msgid "To list the available target platforms, use ``scons platform=list``::"
-msgstr ""
-"Pour lister les plates-formes cibles disponibles, utilisez ``scons "
-"platform=list`` :"
-
 msgid "Resulting binary"
 msgstr "Binaire résultant"
-
-msgid ""
-"The resulting binaries will be placed in the ``bin/`` subdirectory, "
-"generally with this naming convention::"
-msgstr ""
-"Les binaires résultants seront placés dans le sous-répertoire ``bin/``, "
-"généralement avec cette convention de nommage :"
 
 msgid "A Windows binary with the same configuration will look like this:"
 msgstr "Un binaire Windows avec la même configuration ressemblera à ceci :"

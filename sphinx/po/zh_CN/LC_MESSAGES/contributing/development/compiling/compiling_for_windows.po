@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,20 +29,6 @@ msgid "For compiling under Windows, the following is required:"
 msgstr "要在Windows下进行编译, 需要以下内容:"
 
 msgid ""
-"If you have `Scoop <https://scoop.sh/>`_ installed, you can easily install "
-"MinGW and other dependencies using the following command::"
-msgstr ""
-"如果你已安装 `Scoop <https://scoop.sh/>`_\\ ，则可以使用以下命令轻松安装 "
-"MinGW 和其他依赖项： ::"
-
-msgid ""
-"If you have `MSYS2 <https://www.msys2.org/>`_ installed, you can easily "
-"install MinGW and other dependencies using the following command::"
-msgstr ""
-"如果你已经安装了 `MSYS2 <https://www.msys2.org/>`_\\ ，你可以使用以下命令轻松"
-"安装 MinGW 和其他依赖项： ::"
-
-msgid ""
 "For each MSYS2 MinGW subsystem, you should then run `pip3 install scons` in "
 "its shell."
 msgstr ""
@@ -51,10 +37,6 @@ msgstr ""
 
 msgid "Setting up SCons"
 msgstr "设置 SCons"
-
-msgid ""
-"To install SCons, open the command prompt and run the following command::"
-msgstr "要安装 SCons，请打开命令提示符并运行以下命令： ::"
 
 msgid ""
 "If you are prompted with the message ``Defaulting to user installation "
@@ -180,9 +162,6 @@ msgstr ""
 "克隆 `godot-nir-static <https://github.com/godotengine/godot-nir-static>`_ 目"
 "录并打开。"
 
-msgid "Run the following::"
-msgstr "执行： ::"
-
 msgid "Optionally, you can compile with the following for additional features:"
 msgstr "另外你还可以在编译时启用以下附加功能："
 
@@ -197,9 +176,6 @@ msgstr "或者启用所有选项："
 
 msgid "Compiling with ANGLE support"
 msgstr "编译时启用 ANGLE 支持"
-
-msgid "Run the following command::"
-msgstr "运行以下命令： ::"
 
 msgid "Development in Visual Studio"
 msgstr "在 Visual Studio 中进行开发"
@@ -220,13 +196,6 @@ msgid ""
 msgstr ""
 "基于文件夹的编辑器不需要任何特殊的设置就可以开始使用 Godot 的代码库。要使用 "
 "Visual Studio 来编辑项目，需要先设置解决方案。"
-
-msgid ""
-"You can create a Visual Studio solution via SCons by running SCons with the "
-"``vsproj=yes`` parameter, like this::"
-msgstr ""
-"你可以通过使用 ``vsproj=yes`` 参数运行 SCons 来创建 Visual Studio 解决方案，"
-"如下所示： ::"
 
 msgid ""
 "You will be able to open Godot's source in a Visual Studio solution now, and "
@@ -256,19 +225,6 @@ msgstr "**macOS**"
 msgid "**Mageia**"
 msgstr "**Mageia**"
 
-msgid ""
-"Before attempting the compilation, SCons will check for the following "
-"binaries in your ``PATH`` environment variable::"
-msgstr "在尝试编译之前，SCons 将在 ``PATH`` 环境变量中检查以下二进制文件： ::"
-
-msgid ""
-"To make sure you are doing things correctly, executing the following in the "
-"shell should result in a working compiler (the version output may differ "
-"based on your system)::"
-msgstr ""
-"为了确保你做的事正确，在 shell 中执行以下操作将导致编译器正常工作（版本输出可"
-"能因你的系统而异）： ::"
-
 msgid "Troubleshooting"
 msgstr "故障排除"
 
@@ -280,25 +236,8 @@ msgstr ""
 "由于默认配置不支持POSIX线程, 因此从某些Ubuntu版本进行交叉编译可能会导致 `此"
 "bug <https://github.com/godotengine/godot/issues/9258>`_ ."
 
-msgid ""
-"You can change that configuration following those instructions, for 64-bit::"
-msgstr "你可以按照以下说明针对 64 位更改该配置： ::"
-
-msgid "And for 32-bit::"
-msgstr "对于 32 位： ::"
-
 msgid "Creating Windows export templates"
 msgstr "创建 Windows 导出模板"
-
-msgid "With the following names::"
-msgstr "使用以下名称： ::"
-
-msgid ""
-"However, if you are using custom modules or custom engine code, you may "
-"instead want to configure your binaries as custom export templates here:"
-msgstr ""
-"此外, 如果你使用的是自定义模块或自定义引擎代码, 则可能需要在此处将二进制文件"
-"配置为自定义导出模板:"
 
 msgid ""
 "You don't need to copy them in this case, just reference the resulting files "

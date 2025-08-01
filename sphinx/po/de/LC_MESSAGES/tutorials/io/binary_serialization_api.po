@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -67,13 +67,6 @@ msgstr ""
 "Das Paket ist so konzipiert, dass es immer auf 4 Bytes aufgefüllt wird. Alle "
 "Werte sind Little-Endian-codiert. Alle Pakete haben einen 4-Byte-Header, der "
 "eine Ganzzahl darstellt und den Datentyp angibt."
-
-msgid ""
-"The lowest value two bytes are used to determine the type, while the highest "
-"value two bytes contain flags::"
-msgstr ""
-"Die zwei Bytes mit dem niedrigsten Wert werden zur Bestimmung des Typs "
-"verwendet, während die zwei Bytes mit dem höchsten Wert Flags enthalten::"
 
 msgid "Type"
 msgstr "Typ"

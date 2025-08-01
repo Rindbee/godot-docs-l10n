@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -397,6 +397,9 @@ msgstr "``[p] {téacs} [/p]``"
 msgid "``[p {options}]{text}[/p]``"
 msgstr "``[p {roghanna}] {téacs} [/p]``"
 
+msgid "``[br]``"
+msgstr "''[br]''"
+
 msgid "**center**"
 msgstr "**ionad**"
 
@@ -484,18 +487,6 @@ msgstr "``[url = {nasc}] {text} [/url]``"
 
 msgid "**hint**"
 msgstr "**leath**"
-
-msgid ""
-"Creates a tooltip hint that is displayed when hovering the text with the "
-"mouse. Tooltip text should not be quoted (quotes will appear as-is in the "
-"tooltip otherwise)."
-msgstr ""
-"Cruthaíonn sé leid uirlisí a thaispeántar agus an téacs á choinneáil leis an "
-"luch. Níor chóir téacs uirlisí a lua (beidh luachana le feiceáil mar atá sa "
-"chomhairle uirlisí ar shlí eile)."
-
-msgid "``[hint={tooltip text displayed on hover}]{text}[/hint]``"
-msgstr "``[hint= {téacs uirlisí a thaispeántar ar hover}] {téacs} [/leid]``"
 
 msgid "**img**"
 msgstr "**img**"
@@ -1024,31 +1015,8 @@ msgstr ""
 "``RichTextLabel`` nód :ref:`meta_clicked "
 "<class_RichTextLabel_signal_meta_clicked>` le feidhm scripte."
 
-msgid ""
-"For example, the following method can be connected to ``meta_clicked`` to "
-"open clicked URLs using the user's default web browser::"
-msgstr ""
-"Mar shampla, is féidir an modh seo a leanas a nascadh le ``meta_clicked`` "
-"chun URLanna cliceáilte a oscailt ag baint úsáide as brabhsálaí gréasáin "
-"réamhshocraithe an úsáideora:"
-
-msgid ""
-"For more advanced use cases, it's also possible to store JSON in an "
-"``[url]`` tag's option and parse it in the function that handles the "
-"``meta_clicked`` signal. For example:"
-msgstr ""
-"Maidir le cásanna úsáide níos airde, is féidir freisin JSON a stóráil i "
-"rogha chlib ``[url]`` agus é a pháirseáil sa fheidhm a láimhseálann an "
-"comhartha ``meta_clicked`. Mar shampla:"
-
-msgid "Image options"
-msgstr "Roghanna íomhá"
-
 msgid "Color name or color in HEX format"
 msgstr "Ainm dath nó dath i bhformáid HEX"
-
-msgid "Color tint of the image (modulation)."
-msgstr "Tint datha na híomhá (modhnú)."
 
 msgid "**height**"
 msgstr "**airde**"
@@ -1056,22 +1024,24 @@ msgstr "**airde**"
 msgid "Integer number"
 msgstr "Uimhir Sláimhir"
 
+msgid "``2``"
+msgstr "''2''"
+
+msgid "**width**"
+msgstr "**leithead**"
+
+msgid "Image options"
+msgstr "Roghanna íomhá"
+
+msgid "Color tint of the image (modulation)."
+msgstr "Tint datha na híomhá (modhnú)."
+
 msgid ""
 "Target height of the image in pixels, add ``%`` to the end of value to "
 "specify it as percentages of the control width instead of pixels."
 msgstr ""
 "Spriocairde na híomhá i bpicteilíní, cuir `%`` le deireadh an luacha chun é "
 "a shonrú mar chéatadáin den leithead rialaithe in ionad picteilíní."
-
-msgid "**width**"
-msgstr "**leithead**"
-
-msgid ""
-"Target width of the image, add ``%`` to the end of value to specify it as "
-"percentages of the control width instead of pixels."
-msgstr ""
-"Leithead sprioc na híomhá, cuir `%`` le deireadh an luacha chun é a shonrú "
-"mar chéatadáin den leithead rialaithe in ionad picteilíní."
 
 msgid "**region**"
 msgstr "**réigiún**"
@@ -1386,13 +1356,6 @@ msgid ""
 msgstr ""
 "Luann gach sampla thíos na luachanna réamhshocraithe do roghanna san "
 "fhormáid clibeanna liostaithe."
-
-msgid ""
-"Text effects that move characters' position may result in characters being "
-"clipped by the RichTextLabel node bounds."
-msgstr ""
-"D'fhéadfadh go mbeadh carachtair a ghearradh ag teorainneacha nód "
-"RichTextLabel mar thoradh ar éifeachtaí téacs a bhogann seasamh carachtair."
 
 msgid ""
 "You can resolve this by disabling **Control > Layout > Clip Contents** in "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -229,15 +229,6 @@ msgstr ""
 
 msgid "My controller isn't recognized by Godot."
 msgstr "Mon contrôleur n'est pas reconnu par Godot."
-
-msgid ""
-"First, check that your controller is recognized by other applications. You "
-"can use the `Gamepad Tester <https://gamepad-tester.com/>`__ website to "
-"confirm that your controller is recognized."
-msgstr ""
-"Tout d'abord, vérifiez que votre contrôleur est reconnu par les autres "
-"applications. Vous pouvez utiliser le site `Gamepad Tester <https://gamepad-"
-"tester.com/>`__ pour confirmer que votre contrôleur est reconnu."
 
 msgid "My controller has incorrectly mapped buttons or axes."
 msgstr "Les boutons ou les axes de ma manette sont mal affectés."

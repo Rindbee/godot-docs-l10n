@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,13 +28,6 @@ msgstr ""
 "es lento para decodificar en la CPU y el soporte de decodificación de "
 "hardware no está ampliamente disponible en todas las GPU que se utilizan "
 "actualmente."
-
-msgid ""
-"You may find videos with an ``.ogg`` or ``.ogx`` extensions, which are "
-"generic extensions for data within an Ogg container."
-msgstr ""
-"Puedes encontrar videos con extensiones ``.ogg`` o ``.ogx``, que son "
-"extensiones genéricas para datos dentro de un contenedor Ogg."
 
 msgid ""
 "Renaming these file extensions to ``.ogv`` *may* allow the videos to be "
@@ -151,17 +144,6 @@ msgstr ""
 
 msgid "Playback limitations"
 msgstr "Limitaciones de reproducción"
-
-msgid ""
-"There are several limitations with the current implementation of video "
-"playback in Godot:"
-msgstr ""
-"La actual implementación de la reproducción de vídeo en Godot presenta "
-"varias limitaciones:"
-
-msgid "Seeking a video to a certain point is not supported."
-msgstr ""
-"No se admite buscar (hacer un salto) en un video hasta un punto específico."
 
 msgid "Streaming a video from a URL is not supported."
 msgstr "No se admite la transmisión de un video desde una URL."

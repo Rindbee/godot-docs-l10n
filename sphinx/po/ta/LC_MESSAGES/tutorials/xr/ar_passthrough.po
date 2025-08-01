@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -257,9 +257,6 @@ msgid ""
 msgstr ""
 "நிழலில் இருந்தால் நாம் மேற்பரப்பு ஒளிபுகாநிலையை உருவாக்குவதால், உண்மையான உலகப் "
 "பொருள்களில் [#] _ _ நிழல்களைக் கொண்ட மெய்நிகர் பொருள்கள் இருக்க முடியும்."
-
-msgid "Image showing shadow to opacity being used to show the users desk."
-msgstr "பயனர்களின் மேசையைக் காட்ட ஒளிபுகாநிலைக்கு நிழலைக் காட்டும் படம்."
 
 msgid "This enabled the following use cases:"
 msgstr "இது பின்வரும் பயன்பாட்டு நிகழ்வுகளை செயல்படுத்தியது:"

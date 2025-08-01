@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -22,9 +22,6 @@ msgstr "Eksportuj projekt Godota do Xcode"
 
 msgid "See the **godot_project_to_export** folder in the Xcode file browser."
 msgstr "Wejdź w folder **godot_project_to_export** w menedżerze plików Xcode."
-
-msgid "Delete **exported_xcode_project_name.pck** from the Xcode project."
-msgstr "Usuń **exported_xcode_project_name.pck** z projektu Xcode."
 
 msgid "Plugins for iOS"
 msgstr "Pluginy dla iOS"

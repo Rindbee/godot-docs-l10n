@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -48,12 +48,6 @@ msgid "Start a terminal, go to the root directory of the engine source code."
 msgstr ""
 "ターミナルを起動し、エンジンのソースコードのルートディレクトリに移動します。"
 
-msgid "To compile for Intel (x86-64) powered Macs, use::"
-msgstr "Intel (x86-64)のMac用にコンパイルするには、以下のようにします::"
-
-msgid "To compile for Apple Silicon (ARM64) powered Macs, use::"
-msgstr "Apple Silicon (ARM64)のMac用にコンパイルするには、以下のようにします::"
-
 msgid "Building export templates"
 msgstr "エクスポートテンプレートの構築"
 
@@ -73,15 +67,6 @@ msgstr ""
 "します:"
 
 msgid ""
-"Clone the `OSXCross repository <https://github.com/tpoechtrager/osxcross>`__ "
-"somewhere on your machine (or download a ZIP file and extract it somewhere), "
-"e.g.::"
-msgstr ""
-"`OSXCross repository <https://github.com/tpoechtrager/osxcross>`_ をマシン上"
-"のどこかにクローンします(またはzipファイルをダウンロードしてどこかに解凍しま"
-"す)。例:"
-
-msgid ""
 "Follow the instructions to package the SDK: https://github.com/tpoechtrager/"
 "osxcross#packaging-the-sdk"
 msgstr ""
@@ -94,25 +79,6 @@ msgid ""
 msgstr ""
 "OSXCrossをインストールするには、以下の手順に従ってください:https://"
 "github.com/tpoechtrager/osxcross#installation"
-
-msgid ""
-"After that, you will need to define the ``OSXCROSS_ROOT`` as the path to the "
-"OSXCross installation (the same place where you cloned the repository/"
-"extracted the zip), e.g.::"
-msgstr ""
-"その後、\\ ``OSXCROSS_ROOT`` をOSXCrossインストールへのパス(リポジトリをク"
-"ローンした、またはzipを抽出したのと同じ場所)として定義する必要があります。例:"
-
-msgid "Now you can compile with SCons like you normally would::"
-msgstr "これで、通常のようにSConsでコンパイルできます:"
-
-msgid ""
-"If you have an OSXCross SDK version different from the one expected by the "
-"SCons buildsystem, you can specify a custom one with the ``osxcross_sdk`` "
-"argument::"
-msgstr ""
-"SConsビルドシステムで予期されているものとは異なるOSXCross SDKバージョンがある"
-"場合は、\\ ``osxcross_sdk`` 引数でカスタムバージョンを指定できます:"
 
 msgid "Troubleshooting"
 msgstr "トラブルシューティング"

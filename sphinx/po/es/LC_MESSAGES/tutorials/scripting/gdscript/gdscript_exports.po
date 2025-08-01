@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,15 +28,6 @@ msgstr "Nodos"
 
 msgid "Resources"
 msgstr "Recursos"
-
-msgid ""
-"It must be noted that even if the script is not being run while in the "
-"editor, the exported properties are still editable. This can be used in "
-"conjunction with a :ref:`script in \"tool\" mode <doc_gdscript_tool_mode>`."
-msgstr ""
-"Nótese que incluso si el script no se ejecuta junto en el editor, las "
-"propiedades exportadas siguen siendo editables. Esto se puede utilizar en "
-"conjunto con un :ref:`script en modo \"tool\" <doc_gdscript_tool_mode>`."
 
 msgid "Exporting bit flags"
 msgstr "Exportando \"bit flags\""

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -37,9 +37,6 @@ msgid ""
 msgstr ""
 "Per una panoramica generale sull'utilizzo di SCons per Godot, "
 "consultare :ref:`doc_introduction_to_the_buildsystem`."
-
-msgid "And ``web_debug.zip`` for the debug template::"
-msgstr "E ``web_debug.zip`` per il modello di debug::"
 
 msgid "GDExtension"
 msgstr "GDExtension"

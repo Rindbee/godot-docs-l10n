@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -416,6 +416,9 @@ msgstr ""
 "கோப்பகத்திற்கு -சிப்-பேக்-கோப்பு-வடிவங்கள்> `_. இந்த அணுகுமுறையைப் பயன்படுத்தி ``--மெய்ன்-"
 "பேக் <pck_or_zip_filepath_to_assets_dir> `` `godothost#getCommandline () "
 "<https://godotegn/godotengine ஐப் பயன்படுத்தி உரையாடல் 99B983D78DB07/இயங்குதளம் ."
+
+msgid "Example:"
+msgstr "எடுத்துக்காட்டு:"
 
 msgid ""
 "The instructions below and the sample app follow the first approach of "

@@ -1,0 +1,40 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Getting started"
+msgstr "Per iniziare"
+
+msgid "Example project"
+msgstr "Progetto d'esempio"
+
+msgid "Setting up the project"
+msgstr "Configurare il progetto"
+
+msgid ""
+"You should now have ``demo``, ``godot-cpp``, and ``src`` directories in your "
+"GDExtension module."
+msgstr ""
+"Ora dovresti avere le cartelle ``demo``, ``godot-cpp`` e ``src`` nel tuo "
+"modulo GDExtension."
+
+msgid "Your folder structure should now look like this:"
+msgstr "La tua struttura di cartelle dovrebbe assomigliare a questa:"
+
+msgid "Using the GDExtension module"
+msgstr "Utilizzo del modulo GDExtension"
+
+msgid "Adding properties"
+msgstr "Aggiungere proprietà"
+
+msgid "Signals"
+msgstr "Segnali"

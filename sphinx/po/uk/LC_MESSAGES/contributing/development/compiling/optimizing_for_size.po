@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -111,27 +111,6 @@ msgstr ""
 "усуваючи повторювані функції шаблону та невикористаний код. Зараз його можна "
 "використовувати з компіляторами GCC і MSVC:"
 
-msgid ""
-"Linking becomes much slower and more RAM-consuming with this option, so it "
-"should be used only for release builds:"
-msgstr ""
-"З цим параметром зв’язування стає набагато повільнішим і споживає більше "
-"оперативної пам’яті, тому його слід використовувати лише для збірок випусків:"
-
-msgid ""
-"When compiling the ``master`` branch, you need to have at least 8 GB of RAM "
-"available for successful linking with LTO enabled."
-msgstr ""
-"Під час компіляції гілки ``master`` вам потрібно мати принаймні 8 ГБ "
-"оперативної пам’яті для успішного зв’язування з увімкненим LTO."
-
-msgid ""
-"When compiling the ``3.x`` branch, you need to have at least 6 GB of RAM "
-"available for successful linking with LTO enabled."
-msgstr ""
-"Під час компіляції гілки ``3.x`` вам потрібно мати принаймні 6 ГБ "
-"оперативної пам’яті для успішного зв’язування з увімкненим LTO."
-
 msgid "Optimizing for size instead of speed"
 msgstr "Оптимізація за розміром замість швидкості"
 
@@ -236,13 +215,6 @@ msgstr ""
 "редактор не призначений для роботи без підтримки 3D. Без цього двійковий "
 "розмір можна зменшити приблизно на 15%."
 
-msgid ""
-"Disabling 3D support also disables all navigation. This includes 2D "
-"navigation, as it uses the 3D navigation system internally."
-msgstr ""
-"Вимкнення підтримки 3D також вимикає всю навігацію. Це включає 2D-навігацію, "
-"оскільки вона використовує внутрішню 3D-навігаційну систему."
-
 msgid "Disabling advanced GUI objects"
 msgstr "Вимкнення розширених об’єктів GUI"
 
@@ -269,11 +241,11 @@ msgstr ":ref:`class_CodeEdit`"
 msgid ":ref:`class_CodeHighlighter`"
 msgstr ":ref:`class_CodeHighlighter`"
 
-msgid ":ref:`class_ColorPickerButton`"
-msgstr ":ref:`class_ColorPickerButton`"
-
 msgid ":ref:`class_ColorPicker`"
 msgstr ":ref:`class_ColorPicker`"
+
+msgid ":ref:`class_ColorPickerButton`"
+msgstr ":ref:`class_ColorPickerButton`"
 
 msgid ":ref:`class_ConfirmationDialog`"
 msgstr ":ref:`class_ConfirmationDialog`"
@@ -335,11 +307,11 @@ msgstr ":ref:`class_SyntaxHighlighter`"
 msgid ":ref:`class_TextEdit`"
 msgstr ":ref:`class_TextEdit`"
 
-msgid ":ref:`class_TreeItem`"
-msgstr ":ref:`class_TreeItem`"
-
 msgid ":ref:`class_Tree`"
 msgstr ":ref:`class_Tree`"
+
+msgid ":ref:`class_TreeItem`"
+msgstr ":ref:`class_TreeItem`"
 
 msgid ":ref:`class_VSplitContainer`"
 msgstr ":ref:`class_VSplitContainer`"

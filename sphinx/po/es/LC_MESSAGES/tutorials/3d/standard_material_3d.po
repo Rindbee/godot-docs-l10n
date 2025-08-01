@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -867,9 +867,6 @@ msgstr "Point Size (Tamaño de puntos)"
 msgid "When drawing points, specify the point size in pixels."
 msgstr ""
 "Cuando se dibujen puntos, hay que especificar el tamaño del punto en píxeles."
-
-msgid "Transmission"
-msgstr "Transmisión"
 
 msgid "Proximity and Distance Fade"
 msgstr "Desvanecimiento de proximidad y distancia"

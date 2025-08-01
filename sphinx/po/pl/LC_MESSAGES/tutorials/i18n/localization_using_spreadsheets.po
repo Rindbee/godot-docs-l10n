@@ -1,0 +1,116 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Formatting"
+msgstr "Formatowanie"
+
+msgid "CSV files must be formatted as follows:"
+msgstr "Pliki CSV muszą być sformatowane w ten sposób:"
+
+msgid "keys"
+msgstr "klucze"
+
+msgid "<lang1>"
+msgstr "<lang1>"
+
+msgid "<lang2>"
+msgstr "<lang2>"
+
+msgid "<langN>"
+msgstr "<langN>"
+
+msgid "KEY1"
+msgstr "KEY1"
+
+msgid "string"
+msgstr "string"
+
+msgid "KEY2"
+msgstr "KEY2"
+
+msgid "KEYN"
+msgstr "KEYN"
+
+msgid "en"
+msgstr "en"
+
+msgid "es"
+msgstr "pl"
+
+msgid "ja"
+msgstr "ja"
+
+msgid "GREET"
+msgstr "GREET"
+
+msgid "Hello, friend!"
+msgstr "Hello, friend!"
+
+msgid "Hola, amigo!"
+msgstr "Cześć kolego!"
+
+msgid "こんにちは"
+msgstr "こんにちは"
+
+msgid "ASK"
+msgstr "ASK"
+
+msgid "How are you?"
+msgstr "How are you?"
+
+msgid "Cómo está?"
+msgstr "Jak się masz?"
+
+msgid "元気ですか"
+msgstr "元気ですか"
+
+msgid "BYE"
+msgstr "BYE"
+
+msgid "Goodbye"
+msgstr "Goodbye"
+
+msgid "Adiós"
+msgstr "Żegnaj"
+
+msgid "さようなら"
+msgstr "さようなら"
+
+msgid "QUOTE"
+msgstr "QUOTE"
+
+msgid "\"Hello\" said the man."
+msgstr "\"Hello\" said the man."
+
+msgid "\"Hola\" dijo el hombre."
+msgstr "\"Cześć\" powiedział mężczyzna."
+
+msgid "「こんにちは」男は言いました"
+msgstr "「こんにちは」男は言いました"
+
+msgid ""
+"Godot will treat CSV files as translations by default. It will import them "
+"and generate one or more compressed translation resource files next to it."
+msgstr ""
+"Godot domyślnie będzie traktował pliki CSV jako tłumaczenia. Zaimportuje je "
+"i wygeneruje jedną lub więcej skompresowanych plików źródłowych tłumaczenia "
+"obok tego."
+
+msgid ""
+"Importing will also add the translation to the list of translations to load "
+"when the game runs, specified in project.godot (or the project settings). "
+"Godot allows loading and removing translations at runtime as well."
+msgstr ""
+"Importowanie doda także tłumaczenie do listy tłumaczeń w chwili wczytywania "
+"gry, ustalonych w project.godot (lub ustawieniach projektu). Godot pozwala "
+"także na wczytywanie i usuwanie tłumaczeń w czasie działania programu."

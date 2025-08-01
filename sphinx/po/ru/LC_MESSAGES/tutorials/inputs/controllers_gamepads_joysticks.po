@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -377,15 +377,6 @@ msgstr ""
 
 msgid "My controller isn't recognized by Godot."
 msgstr "Мой контроллер не распознается Годо."
-
-msgid ""
-"First, check that your controller is recognized by other applications. You "
-"can use the `Gamepad Tester <https://gamepad-tester.com/>`__ website to "
-"confirm that your controller is recognized."
-msgstr ""
-"Сначала убедитесь, что ваш контроллер распознается другими приложениями. Вы "
-"можете использовать веб-сайт `Gamepad Tester <https://gamepad-tester.com/"
-">`__, чтобы убедиться, что ваш контроллер распознан."
 
 msgid ""
 "On Windows Godot only supports up to 4 controllers at a time. This is "

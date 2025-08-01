@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -203,6 +203,9 @@ msgstr "Apri la finestra **Impostazioni dell'editor**."
 msgid "Project settings"
 msgstr "Impostazioni del progetto"
 
+msgid "**Bad:**"
+msgstr "**Male:**"
+
 msgid "Manually wrapping lines"
 msgstr "Avvolgere manualmente le righe"
 
@@ -211,3 +214,6 @@ msgstr "Sintassi dell'intestazione di sezione"
 
 msgid "Use the following syntax for section headers:"
 msgstr "Per le intestazioni di sezione utilizzare la seguente sintassi:"
+
+msgid "Examples"
+msgstr "Esempi"

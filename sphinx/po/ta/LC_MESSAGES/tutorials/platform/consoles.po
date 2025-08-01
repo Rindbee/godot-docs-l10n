@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -128,14 +128,6 @@ msgid ""
 msgstr ""
 "`தனி ஓநாய் தொழில்நுட்பம் <https://www.lonewolftechnology.com/>` _ கோடோட் கேம்களை "
 "சுவிட்ச் மற்றும் பிளேச்டேசன் 4 போர்ட்டிங் மற்றும் வெளியீட்டை வழங்குகிறது."
-
-msgid ""
-"`Pineapple Works <https://pineapple.works/>`_ offers Switch, Xbox One & Xbox "
-"Series X/S (GDK) porting and publishing of Godot games (GDScript/C#)."
-msgstr ""
-"`அன்னாசி படைப்புகள் <https://pineapple.works/>` _ _ _ _ சுவிட்ச், எக்ச்பாக்ச் ஒன் & "
-"எக்ச்பாக்ச் தொடர் எக்ச்/எச் (சி.டி.கே) போர்ட்டிங் மற்றும் கோடோட் கேம்களை வெளியிடுகிறது "
-"(சி.டி.எச்ச்கிரிப்ட்/சி#)."
 
 msgid ""
 "`RAWRLAB games <https://www.rawrlab.com/>`_ offers Switch porting of Godot "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -425,13 +425,6 @@ msgstr "Enum உறுப்பினர்கள்"
 
 msgid "``{EARTH, WATER, AIR, FIRE}``"
 msgstr "`` {பூமி, நீர், காற்று, நெருப்பு} ``"
-
-msgid ""
-"Use snake_case for file names. For named classes, convert the PascalCase "
-"class name to snake_case::"
-msgstr ""
-"கோப்பு பெயர்களுக்கு பாம்பு_கேசைப் பயன்படுத்தவும். பெயரிடப்பட்ட வகுப்புகளுக்கு, பாச்கல்கேச் "
-"வகுப்பு பெயரை பாம்பாக மாற்றவும் ::"
 
 msgid ""
 "This is consistent with how C++ files are named in Godot's source code. This "

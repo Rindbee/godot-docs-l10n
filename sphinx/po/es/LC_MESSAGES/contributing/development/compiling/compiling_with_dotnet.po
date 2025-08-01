@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -53,13 +53,6 @@ msgstr ""
 "API de scripting o cuando uno de los parámetros de dicho método cambia. "
 "Godot mostrará un error al iniciarse si hay una discrepancia de API entre "
 "ClassDB y las fuentes de glue."
-
-msgid ""
-"Once you have generated the .NET glue, you can build the managed libraries "
-"with the ``build_assemblies.py`` script::"
-msgstr ""
-"Una vez generado el enlace .NET, puede compilar las bibliotecas "
-"administradas con el script ``build_assemblies.py``:"
 
 msgid ""
 "If everything went well, the ``GodotSharp`` directory, containing the "

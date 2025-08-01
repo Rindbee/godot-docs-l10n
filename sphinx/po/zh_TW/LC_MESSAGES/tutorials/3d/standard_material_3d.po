@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1147,9 +1147,6 @@ msgstr "點大小"
 
 msgid "When drawing points, specify the point size in pixels."
 msgstr "繪製點時，指定點的大小，單位為像素。"
-
-msgid "Transmission"
-msgstr "轉場"
 
 msgid "Proximity and Distance Fade"
 msgstr "Proximity and distance fade(接近和距離漸隱)"

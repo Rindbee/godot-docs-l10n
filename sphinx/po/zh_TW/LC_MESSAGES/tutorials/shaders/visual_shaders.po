@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -56,15 +56,6 @@ msgstr ""
 "點擊新的 ``Shader`` 資源，將會自動開啟建立著色器的對話框。請在下拉選單中將類"
 "型改為 :ref:`class_VisualShader`，然後為它命名。"
 
-msgid ""
-"Click on the visual shader you just created to open the Shader Editor. The "
-"layout of the Shader Editor comprises four parts, a file list on the right, "
-"the upper toolbar, the graph itself, and a material preview on the right "
-"that can be toggled off"
-msgstr ""
-"點擊你剛建立的 VisualShader 資源，會開啟著色器編輯器。編輯器介面包含四個部"
-"分：右側檔案清單、上方工具列、圖形視窗本體，以及可開關的右側材質預覽"
-
 msgid "From left to right in the toolbar:"
 msgstr "工具列由左至右功能如下："
 
@@ -104,9 +95,6 @@ msgstr "「管理 varying」按鈕會開啟下拉選單，讓你新增或移除 
 msgid ""
 "The show generated code button shows shader code corresponding to your graph."
 msgstr "「顯示產生程式碼」按鈕會顯示與圖形對應的著色器程式碼。"
-
-msgid "The last icon toggles the material preview on or off."
-msgstr "最後一個圖示為材質預覽的顯示開關。"
 
 msgid ""
 "Although VisualShaders do not require coding, they share the same logic with "
@@ -412,14 +400,6 @@ msgid ""
 msgstr ""
 "Mesh Emitter 節點用於從網格頂點發射粒子。此節點僅適用於「粒子」模式下的著色"
 "器。"
-
-msgid ""
-"Keep in mind that not all 3D objects are mesh files. a glTF file can't be "
-"dragged and dropped into the graph. However, you can create an inherited "
-"scene from it, save the mesh in that scene as it's own file, and use that."
-msgstr ""
-"請注意，並非所有 3D 物件都是網格檔案。glTF 檔無法直接拖曳到圖形中。你可以從 "
-"glTF 建立繼承場景，將該場景中的網格另存為獨立檔案後再使用。"
 
 msgid ""
 "You can also drag and drop obj files into the graph editor to add the node "

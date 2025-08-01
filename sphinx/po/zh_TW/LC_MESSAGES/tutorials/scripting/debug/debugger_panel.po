@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -339,17 +339,6 @@ msgstr ""
 
 msgid "Monitors"
 msgstr "效能監控"
-
-msgid ""
-"The monitors are graphs of several aspects of the game while its running "
-"such as FPS, memory usage, how many nodes are in a scene and more. All "
-"monitors keep track of stats automatically, so even if one monitor isn't "
-"open while the game is running, you can open it later and see how the values "
-"changed."
-msgstr ""
-"效能監控分頁提供遊戲執行時各項指標（如 FPS、記憶體用量、場景節點數等）的即時"
-"圖表。所有監控圖皆自動記錄歷程，就算遊戲執行時未開啟，也可隨時切換檢視過去的"
-"數值變化。"
 
 msgid ""
 "In addition to the default performance monitors, you can also "

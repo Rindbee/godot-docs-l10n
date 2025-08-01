@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -69,13 +69,6 @@ msgstr ""
 "``physics_interpolation_mode`` 設為 On，但子節點設為 Off，只要父節點移動，子"
 "節點依舊會顯示插值效果。*只有子節點本身的區域變換不插值*。因此，2D 節點的插值"
 "開關需要額外規劃。"
-
-msgid ""
-"On the positive side, pivot behavior in the scene tree is perfectly "
-"preserved during interpolation in 2D, which gives super smooth behaviour."
-msgstr ""
-"好處是，在 2D 中，SceneTree 裡的樞軸行為在插值下可以完美保留，帶來極為流暢的"
-"效果。"
 
 msgid "Resetting physics interpolation"
 msgstr "重設物理插值"

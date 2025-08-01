@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -110,18 +110,6 @@ msgstr "使用 :ref:`Godot 分析器 <doc_the_profiler>` 。"
 
 msgid "Using :ref:`external CPU profilers <doc_using_cpp_profilers>`."
 msgstr "使用 :ref:`外部 CPU 分析器 <doc_using_cpp_profilers>` 。"
-
-msgid ""
-"Checking the frame rate (with V-Sync disabled). Third-party utilities such "
-"as `RivaTuner Statistics Server <https://www.guru3d.com/files-details/rtss-"
-"rivatuner-statistics-server-download.html>`__ (Windows) or `MangoHud "
-"<https://github.com/flightlessmango/MangoHud>`__ (Linux) can also be useful "
-"here."
-msgstr ""
-"查看帧率（禁用 V-Sync ）。也可以用第三方工具，如 `RivaTuner Statistics "
-"Server <https://www.guru3d.com/files-details/rtss-rivatuner-statistics-"
-"server-download.html>`__ （Windows）or `MangoHud <https://github.com/"
-"flightlessmango/MangoHud>`__ （Linux）。"
 
 msgid ""
 "Using an unofficial `debug menu add-on <https://github.com/godot-extended-"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,17 +13,6 @@ msgstr ""
 
 msgid "Building from source"
 msgstr "Kompilieren des Quellcodes"
-
-msgid ""
-"Godot prides itself on being very easy to build, by C++ projects' "
-"standards. :ref:`Godot uses the SCons build system <doc_faq_why_scons>`, and "
-"after the initial setup compiling the engine for your current platform "
-"should be as easy as running::"
-msgstr ""
-"Godot ist stolz darauf, dass es für C++-Projekte sehr einfach zu bauen "
-"ist. :ref:`Godot verwendet das SCons-Build-System <doc_faq_why_scons>`, und "
-"nach der anfänglichen Einrichtung sollte das Kompilieren der Engine für Ihre "
-"aktuelle Plattform so einfach sein wie das Ausführen von::"
 
 msgid ""
 "But you will probably need to use at least some of the available options to "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -317,13 +317,6 @@ msgstr ""
 "பார்க்க அல்லது கிட்ச்ட்ராம்ப்ளேயர் முனையுடன் கோடோட் மூலம் மற்றொரு வடிவமாக மாற்றப்பட வேண்டும். "
 "MJPEG வெளிப்படைத்தன்மையை ஆதரிக்கவில்லை. ஏ.வி.ஐ வெளியீடு தற்போது 4 சிபி கோப்புக்கு "
 "மட்டுப்படுத்தப்பட்டுள்ளது."
-
-msgid ""
-"To use AVI, specify a path to an ``.avi`` file to be created in the **Editor "
-"> Movie Writer > Movie File** project setting."
-msgstr ""
-"AVI ஐப் பயன்படுத்த, ** எடிட்டர்> திரைப்பட எழுத்தாளர்> மூவி கோப்பு ** திட்ட அமைப்பில் "
-"உருவாக்கப்பட வேண்டிய `` .avi`` கோப்புக்கான பாதையை குறிப்பிடவும்."
 
 msgid "PNG"
 msgstr "பி.என்.சி."

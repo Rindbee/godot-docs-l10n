@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -42,14 +42,6 @@ msgid ""
 msgstr ""
 "若你使用官方預編譯的匯出樣板，此功能**無法**運作。要使用 PCK 加密，必須**自行"
 "編譯**匯出樣板。"
-
-msgid ""
-"By default, Android exports store assets directly in the APK file and aren't "
-"affected by PCK encryption. To use PCK encryption on Android, enable **APK "
-"expansion** in the export options."
-msgstr ""
-"預設情況下，Android 匯出會將資源直接儲存在 APK 檔案內，不受 PCK 加密影響。若"
-"要在 Android 使用 PCK 加密，請在匯出選項啟用 **APK 擴充**。"
 
 msgid "Step by step"
 msgstr "步驟說明"

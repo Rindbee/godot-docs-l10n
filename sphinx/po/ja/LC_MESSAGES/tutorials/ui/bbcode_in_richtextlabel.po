@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -387,6 +387,9 @@ msgstr "``[p]{text}[/p]``"
 msgid "``[p {options}]{text}[/p]``"
 msgstr "``[p {options}]{text}[/p]``"
 
+msgid "``[br]``"
+msgstr "``[br]``"
+
 msgid "**center**"
 msgstr "**center**"
 
@@ -474,18 +477,6 @@ msgstr "``[url={link}]{text}[/url]``"
 
 msgid "**hint**"
 msgstr "**hint**"
-
-msgid ""
-"Creates a tooltip hint that is displayed when hovering the text with the "
-"mouse. Tooltip text should not be quoted (quotes will appear as-is in the "
-"tooltip otherwise)."
-msgstr ""
-"マウスカーソルをテキストに移動したときに表示されるツールヒントを作成します。"
-"ツールヒントのテキストは引用符で囲むべきではありません (そうでない場合、引用"
-"符はツールヒントにそのまま表示されます)。"
-
-msgid "``[hint={tooltip text displayed on hover}]{text}[/hint]``"
-msgstr "``[hint={tooltip text displayed on hover}]{text}[/hint]``"
 
 msgid "**img**"
 msgstr "**img**"
@@ -1008,29 +999,8 @@ msgstr ""
 "の :ref:`meta_clicked <class_RichTextLabel_signal_meta_clicked>` シグナルをス"
 "クリプト関数に接続します。"
 
-msgid ""
-"For example, the following method can be connected to ``meta_clicked`` to "
-"open clicked URLs using the user's default web browser::"
-msgstr ""
-"たとえば、次のメソッドを ``meta_clicked`` に接続すると、ユーザーのデフォルト"
-"のWebブラウザを使用してクリックされたURLを開くことができます。"
-
-msgid ""
-"For more advanced use cases, it's also possible to store JSON in an "
-"``[url]`` tag's option and parse it in the function that handles the "
-"``meta_clicked`` signal. For example:"
-msgstr ""
-"より高度な使用例では、JSONを ``[url]`` タグのオプションに保存し、それを "
-"``meta_clicked`` シグナルを処理する関数で解析することもできます。例えば:"
-
-msgid "Image options"
-msgstr "画像オプション"
-
 msgid "Color name or color in HEX format"
 msgstr "色の名前またはHEX形式の色"
-
-msgid "Color tint of the image (modulation)."
-msgstr "画像の色合い (modulation)。"
 
 msgid "**height**"
 msgstr "\\ **height**"
@@ -1038,22 +1008,24 @@ msgstr "\\ **height**"
 msgid "Integer number"
 msgstr "整数"
 
+msgid "``2``"
+msgstr "``2``"
+
+msgid "**width**"
+msgstr "\\ **width**"
+
+msgid "Image options"
+msgstr "画像オプション"
+
+msgid "Color tint of the image (modulation)."
+msgstr "画像の色合い (modulation)。"
+
 msgid ""
 "Target height of the image in pixels, add ``%`` to the end of value to "
 "specify it as percentages of the control width instead of pixels."
 msgstr ""
 "画像のターゲット縦幅をピクセル単位で指定します。値の末尾に ``%`` を追加して、"
 "ピクセルではなく比率でも指定できます。"
-
-msgid "**width**"
-msgstr "\\ **width**"
-
-msgid ""
-"Target width of the image, add ``%`` to the end of value to specify it as "
-"percentages of the control width instead of pixels."
-msgstr ""
-"画像のターゲット横幅。値の末尾に ``%`` を追加して、ピクセルではなく比率として"
-"も指定できます。"
 
 msgid "**region**"
 msgstr "\\ **region**"
@@ -1360,13 +1332,6 @@ msgid ""
 "format."
 msgstr ""
 "以下のすべての例では、タグのオプションのデフォルト値について言及しています。"
-
-msgid ""
-"Text effects that move characters' position may result in characters being "
-"clipped by the RichTextLabel node bounds."
-msgstr ""
-"文字の位置を移動するテキストエフェクトは、RichTextLabel ノードの境界によって"
-"文字がクリップされる場合があります。"
 
 msgid ""
 "You can resolve this by disabling **Control > Layout > Clip Contents** in "

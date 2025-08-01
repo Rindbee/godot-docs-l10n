@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -507,21 +507,6 @@ msgstr "這兩種霧型別都可以調整它們的曲線, 使它們的過渡或�
 
 msgid "Two properties can be tweaked to make the fog effect more interesting:"
 msgstr "可以調整兩個屬性以使霧效果更有趣:"
-
-msgid ""
-"The first is **Sun Amount**, which makes use of the Sun Color property of "
-"the fog. When looking towards a directional light (usually a sun), the color "
-"of the fog will be changed, simulating the sunlight passing through the fog."
-msgstr ""
-"第一個是 **Sun Amount**，它利用霧的太陽顏色屬性。當朝向平行光（通常是太陽）"
-"時，霧的顏色將會改變，模擬穿過霧的陽光。"
-
-msgid ""
-"The second is **Transmit Enabled** which simulates more realistic light "
-"transmittance. In practice, it makes light stand out more across the fog."
-msgstr ""
-"第二個是 **Transmit Enabled**，可以模擬更逼真的透射率。實踐中會使光線在霧中更"
-"加突出。"
 
 msgid ""
 "Fog can cause banding to appear on the viewport, especially at higher "

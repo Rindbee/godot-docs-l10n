@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -204,10 +204,6 @@ msgid ""
 msgstr ""
 "`` வல்கன்-சரிபார்ப்பு லேயர்கள்/பில்ட்-ஆண்ட்ராய்டு/லிப்கள்`` இலிருந்து `` கோடோட்/இயங்குதளம்/"
 "ஆண்ட்ராய்டு/சாவா/ஆப்/லிப்ச்/பிழைத்திருத்தம்/பிழைத்திருத்தம்/வல்கன்_வலேசன்_லேயர்கள்`."
-
-msgid ""
-"Your Godot source directory tree should look like on the example below::"
-msgstr "உங்கள் கோடோட் மூல அடைவு மரம் கீழே உள்ள எடுத்துக்காட்டில் இருக்க வேண்டும் ::"
 
 msgid ""
 "If the subdirectory ``libs/debug/vulkan_validation_layers`` doesn't exist, "

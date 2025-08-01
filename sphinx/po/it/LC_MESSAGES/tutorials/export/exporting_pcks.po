@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,9 +16,6 @@ msgstr "Esportazione di pacchetti, patch e mod"
 
 msgid "Use cases"
 msgstr "Casi d'uso"
-
-msgid "Overview of PCK files"
-msgstr "Panoramica dei file PCK"
 
 msgid "**Advantages:**"
 msgstr "**Vantaggi:**"
@@ -52,6 +49,9 @@ msgstr "effetti sonori"
 
 msgid "music"
 msgstr "musica"
+
+msgid "Troubleshooting"
+msgstr "Risoluzione dei problemi"
 
 msgid "Summary"
 msgstr "Sommario"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -51,9 +51,6 @@ msgstr ""
 
 msgid "Basic usage"
 msgstr "அடிப்படை பயன்பாடு"
-
-msgid "To evaluate a mathematical expression, use::"
-msgstr "கணித வெளிப்பாட்டை மதிப்பீடு செய்ய, பயன்படுத்த ::"
 
 msgid "The following operators are available:"
 msgstr "பின்வரும் ஆபரேட்டர்கள் கிடைக்கின்றன:"
@@ -133,19 +130,8 @@ msgstr ""
 "கோடோட்டில் ஆதரிக்கப்படும் அனைத்து மாறுபட்ட வகைகளையும் பயன்படுத்தலாம்: உள், மிதக்கும்-புள்ளி "
 "எண்கள், சரங்கள், வரிசைகள், அகராதிகள், வண்ணங்கள், திசையன்கள்,…"
 
-msgid "Arrays and dictionaries can be indexed like in GDScript::"
-msgstr "Gdscript :: இல் வரிசைகள் மற்றும் அகராதிகளை குறியிடலாம்"
-
 msgid "Passing variables to an expression"
 msgstr "மாறிகள் ஒரு வெளிப்பாட்டிற்கு அனுப்பும்"
-
-msgid ""
-"You can pass variables to an expression. These variables will then become "
-"available in the expression's \"context\" and will be substituted when used "
-"in the expression::"
-msgstr ""
-"நீங்கள் ஒரு வெளிப்பாட்டிற்கு மாறிகளை அனுப்பலாம். இந்த மாறிகள் பின்னர் வெளிப்பாட்டின் "
-"\"சூழலில்\" கிடைக்கும் மற்றும் வெளிப்பாட்டில் பயன்படுத்தப்படும்போது மாற்றாக இருக்கும் ::"
 
 msgid ""
 "Both the variable names and variable values **must** be specified as an "
@@ -165,17 +151,6 @@ msgid ""
 msgstr ""
 "இயல்பாக, ஒரு வெளிப்பாடு `` null`` இன் அடிப்படை நிகழ்வைக் கொண்டுள்ளது. இதன் பொருள் "
 "வெளிப்பாடு அதனுடன் தொடர்புடைய அடிப்படை நிகழ்வைக் கொண்டிருக்கவில்லை."
-
-msgid ""
-"When calling :ref:`Expression.execute() <class_Expression_method_execute>`, "
-"you can set the value of the ``base_instance`` parameter to a specific "
-"object instance such as ``self``, another script instance or even a "
-"singleton::"
-msgstr ""
-"அழைக்கும்போது: ref: `Expression.execute () <class_expression_method_execute>`, "
-"`` அடிப்படை_இன்ச்டன்ச்`` அளவுருவின் மதிப்பை `` சுய` போன்ற ஒரு குறிப்பிட்ட பொருள் "
-"உதாரணத்திற்கு, மற்றொரு ச்கிரிப்ட் நிகழ்வு அல்லது ஒரு சிங்கிளேட்டன் போன்றவற்றுக்கு "
-"அமைக்கலாம்: :"
 
 msgid "Associating a base instance allows doing the following:"
 msgstr "ஒரு அடிப்படை நிகழ்வை இணைப்பது பின்வருவனவற்றைச் செய்ய அனுமதிக்கிறது:"
@@ -209,13 +184,6 @@ msgstr ""
 
 msgid "Example script"
 msgstr "எடுத்துக்காட்டு ச்கிரிப்ட்"
-
-msgid "The script below demonstrates what the Expression class is capable of::"
-msgstr ""
-"கீழேயுள்ள ச்கிரிப்ட் வெளிப்பாடு வகுப்பு என்ன செய்யக்கூடியது என்பதை நிரூபிக்கிறது ::"
-
-msgid "The output from the script will be::"
-msgstr "ச்கிரிப்டிலிருந்து வெளியீடு ::"
 
 msgid "Built-in functions"
 msgstr "உள்ளமைக்கப்பட்ட செயல்பாடுகள்"

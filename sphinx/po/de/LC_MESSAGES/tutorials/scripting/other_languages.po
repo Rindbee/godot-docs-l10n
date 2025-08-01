@@ -1,0 +1,42 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Other languages"
+msgstr "Andere Sprachen"
+
+msgid "The bindings below are developed and maintained by the community:"
+msgstr ""
+"Die folgenden Bindings werden von der Community entwickelt und gepflegt:"
+
+msgid "`D <https://github.com/godot-dlang/godot-dlang>`__"
+msgstr "`D <https://github.com/godot-dlang/godot-dlang>`__"
+
+msgid "`Go <https://github.com/grow-graphics/gd>`__"
+msgstr "`Go <https://github.com/grow-graphics/gd>`__"
+
+msgid "`Rust <https://github.com/godot-rust/gdext>`__"
+msgstr "`Rust <https://github.com/godot-rust/gdext>`__"
+
+msgid "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
+msgstr "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
+
+msgid ""
+"Not all bindings mentioned here may be production-ready. Make sure to "
+"research options thoroughly before starting a project with one of those. "
+"Also, double-check whether the binding is compatible with the Godot version "
+"you're using."
+msgstr ""
+"Nicht alle hier erwähnten Bindings sind für den produktiven Einsatz "
+"geeignet. Informieren Sie sich gründlich über die Optionen, bevor Sie ein "
+"Projekt mit einer dieser Bindings beginnen. Prüfen Sie auch, ob das Binding "
+"mit der von Ihnen verwendeten Godot-Version kompatibel ist."

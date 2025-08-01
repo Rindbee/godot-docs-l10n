@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -43,13 +43,6 @@ msgstr ""
 "в 4.0, оскільки він був надто глюковим і важким у підтримці."
 
 msgid ""
-"You may find videos with an ``.ogg`` or ``.ogx`` extensions, which are "
-"generic extensions for data within an Ogg container."
-msgstr ""
-"Ви можете знайти відео з розширеннями ``.ogg`` або ``.ogx``, які є "
-"загальними розширеннями даних у контейнері Ogg."
-
-msgid ""
 "Renaming these file extensions to ``.ogv`` *may* allow the videos to be "
 "imported in Godot. However, not all files with ``.ogg`` or ``.ogx`` "
 "extensions are videos - some of them may only contain audio."
@@ -65,13 +58,6 @@ msgid "Create a VideoStreamPlayer node using the Create New Node dialog."
 msgstr ""
 "Створіть вузол VideoStreamPlayer за допомогою діалогового вікна «Створити "
 "новий вузол»."
-
-msgid ""
-"Select the VideoStreamPlayer node in the scene tree dock, go to the "
-"inspector and load an ``.ogv`` file in the Stream property."
-msgstr ""
-"Виберіть вузол VideoStreamPlayer у доці дерева сцен, перейдіть до інспектора "
-"та завантажте файл ``.ogv`` у властивості Stream."
 
 msgid ""
 "If you don't have your video in Ogg Theora format yet, jump "
@@ -325,21 +311,6 @@ msgstr ""
 
 msgid "Playback limitations"
 msgstr "Обмеження відтворення"
-
-msgid ""
-"There are several limitations with the current implementation of video "
-"playback in Godot:"
-msgstr "Існує кілька обмежень у поточній реалізації відтворення відео в Godot:"
-
-msgid "Seeking a video to a certain point is not supported."
-msgstr "Перегляд відео з певної точки не підтримується."
-
-msgid ""
-"Changing playback speed is not supported. VideoStreamPlayer also won't "
-"follow :ref:`Engine.time_scale<class_Engine_property_time_scale>`."
-msgstr ""
-"Зміна швидкості відтворення не підтримується. VideoStreamPlayer також не "
-"слідуватиме :ref:`Engine.time_scale<class_Engine_property_time_scale>`."
 
 msgid "Streaming a video from a URL is not supported."
 msgstr "Потокове відео з URL-адреси не підтримується."

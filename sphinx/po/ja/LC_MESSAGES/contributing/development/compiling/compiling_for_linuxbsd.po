@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -75,14 +75,6 @@ msgstr ""
 "ンパイルは、簡単にいくとは限らず、chroot環境が必要になるかもしれません。"
 
 msgid ""
-"However, if you are writing your custom modules or custom C++ code, you "
-"might instead want to configure your binaries as custom export templates "
-"here:"
-msgstr ""
-"ただし、カスタムモジュールまたはカスタムC++ コードを作成する場合は、ここでカ"
-"スタムエクスポート テンプレートとしてバイナリを構成する必要があります:"
-
-msgid ""
 "You don't even need to copy them, you can just reference the resulting files "
 "in the ``bin/`` directory of your Godot source folder, so the next time you "
 "build, you automatically have the custom templates referenced."
@@ -110,13 +102,6 @@ msgstr ""
 
 msgid "Clang tends to give more useful error messages compared to GCC."
 msgstr "Clangは、GCCよりも有用なエラーメッセージを提供する傾向があります。"
-
-msgid ""
-"To do so, install Clang and the ``lld`` package from your distribution's "
-"package manager then use the following SCons command::"
-msgstr ""
-"これを行うには、ディストリビューションのパッケージマネージャーからClangと "
-"``lld`` パッケージをインストールし、次のSConsコマンドを使用します:"
 
 msgid ""
 "It's still recommended to use GCC for production builds as they can be "

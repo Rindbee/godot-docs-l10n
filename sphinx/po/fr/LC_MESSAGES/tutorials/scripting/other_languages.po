@@ -1,0 +1,35 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Other languages"
+msgstr "Autres langages"
+
+msgid "The bindings below are developed and maintained by the community:"
+msgstr "Ces liaisons sont développées et gérées par la communauté :"
+
+msgid "`Go <https://github.com/grow-graphics/gd>`__"
+msgstr "`Go <https://github.com/grow-graphics/gd>`__"
+
+msgid "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
+msgstr "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
+
+msgid ""
+"Not all bindings mentioned here may be production-ready. Make sure to "
+"research options thoroughly before starting a project with one of those. "
+"Also, double-check whether the binding is compatible with the Godot version "
+"you're using."
+msgstr ""
+"Toutes les reliures mentionnées ici ne sont pas forcément prêtes pour la "
+"production. Veillez à bien étudier les options avant de commencer un projet "
+"avec l'une d'entre elles. Vérifiez également si la reliure est compatible "
+"avec la version de Godot que vous utilisez."

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -237,14 +237,6 @@ msgstr ""
 "utilisez :kbd:`Cmd + Maj + 3` pour une capture d'écran complète, `plus "
 "d'informations ici <https://support.apple.com/guide/mac-help/take-a-"
 "screenshot-mh26782/mac>`_)."
-
-msgid ""
-"Alternatively, you can use a program like `ShareX <https://getsharex.com/>`_ "
-"on Windows, or `FlameShot <https://flameshot.org/>`_ on Linux."
-msgstr ""
-"Vous pouvez également utiliser un programme comme `ShareX <https://"
-"getsharex.com/>`_ sous Windows ou `FlameShot <https://flameshot.org/>`_ sous "
-"Linux."
 
 msgid ""
 "Sharing a video of your running game can also be really **useful to "

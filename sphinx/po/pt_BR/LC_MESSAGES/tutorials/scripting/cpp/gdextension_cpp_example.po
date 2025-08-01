@@ -1,0 +1,46 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Getting started"
+msgstr "Primeiros passos"
+
+msgid "Example project"
+msgstr "Exemplo de projeto"
+
+msgid "Setting up the project"
+msgstr "Configurando o projeto"
+
+msgid "There are a few prerequisites you'll need:"
+msgstr "Existem alguns pré-requisitos que você precisará:"
+
+msgid "Creating a simple plugin"
+msgstr "Criando um plugin simples"
+
+msgid "After that, we declare a single member variable called ``time_passed``."
+msgstr ""
+"Depois disso, declaramos uma única variável membro chamada `` time_passed``."
+
+msgid "Compiling the plugin"
+msgstr "Compilando o plugin"
+
+msgid "Adding properties"
+msgstr "Adicionando propriedades"
+
+msgid "Signals"
+msgstr "Sinais"
+
+msgid "This is the required syntax:"
+msgstr "Esta é a sintaxe necessária:"
+
+msgid "Next steps"
+msgstr "Próximos passos"

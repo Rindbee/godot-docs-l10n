@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -303,15 +303,6 @@ msgstr "3"
 
 msgid "0"
 msgstr "0"
-
-msgid ""
-"This is the priority of the action set. If multiple active action sets have "
-"actions bound to the same controllers inputs or outputs, the action set with "
-"the highest priority value will determine the action that is updated."
-msgstr ""
-"இது செயல் தொகுப்பின் முன்னுரிமை. பல செயலில் உள்ள செயல் தொகுப்புகள் ஒரே கட்டுப்பாட்டு "
-"உள்ளீடுகள் அல்லது வெளியீடுகளுடன் பிணைக்கப்பட்ட செயல்களைக் கொண்டிருந்தால், அதிக முன்னுரிமை "
-"மதிப்பைக் கொண்ட செயல் புதுப்பிக்கப்பட்ட செயலை தீர்மானிக்கும்."
 
 msgid "Actions"
 msgstr "செயல்கள்"
@@ -1134,13 +1125,6 @@ msgid ""
 msgstr ""
 "`` இல் ஆப்டிக்`` ஒரு செயல் அழுத்தும்போது தானாகவே செயல்படுத்தப்படும் ஒரு ஆப்டிக் வெளியீட்டை "
 "வரையறுக்க உதவுகிறது."
-
-msgid ""
-"``Off Haptic`` lets us define a haptic output that is automatically "
-"activated when a action is released."
-msgstr ""
-"`` ஆஃப் ஆப்டிக்`` ஒரு செயல் வெளியிடப்படும் போது தானாகவே செயல்படுத்தப்படும் ஒரு ஆப்டிக் "
-"வெளியீட்டை வரையறுக்க அனுமதிக்கிறது."
 
 msgid "Binding modifiers on individual bindings"
 msgstr "தனிப்பட்ட பிணைப்புகளில் பிணைப்பு மாற்றிகள்"

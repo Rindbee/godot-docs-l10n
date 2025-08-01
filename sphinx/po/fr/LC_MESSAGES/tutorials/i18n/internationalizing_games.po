@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -162,13 +162,6 @@ msgstr "Localisation des nombres"
 
 msgid "Testing translations"
 msgstr "Tester les traductions"
-
-msgid ""
-"You may want to test a project's translation before releasing it. Godot "
-"provides two ways to do this."
-msgstr ""
-"Vous souhaiterez tester les traductions d'un projet avant de le mettre en "
-"ligne. Godot propose deux façons de le faire."
 
 msgid ""
 "Keep in mind that since this is a project setting, it will show up in "

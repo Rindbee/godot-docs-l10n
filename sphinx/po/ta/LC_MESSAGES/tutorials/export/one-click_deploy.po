@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -79,13 +79,6 @@ msgid ""
 msgstr ""
 "உங்களிடம் ஒன்றுக்கு மேற்பட்ட சாதனங்கள் இணைக்கப்பட்டிருந்தால், திட்டத்தை எந்த சாதனத்திற்கு "
 "ஏற்றுமதி செய்ய வேண்டும் என்று கோடோட் உங்களிடம் கேட்கும்."
-
-msgid ""
-"**iOS:** Exports the project with debugging enabled and runs it on the "
-"connected device or simulator."
-msgstr ""
-"** iOS: ** பிழைத்திருத்தத்துடன் திட்டத்தை ஏற்றுமதி செய்து இணைக்கப்பட்ட சாதனம் அல்லது "
-"சிமுலேட்டரில் இயக்குகிறது."
 
 msgid ""
 "Make sure to follow the steps described in :ref:`doc_exporting_for_ios`. "
@@ -186,12 +179,6 @@ msgstr ""
 "சாதனம் ஒரே உள்ளக நெட்வொர்க்கில் இருப்பதை உறுதிசெய்து, எடிட்டர் அமைப்புகளில் சரியான பிணைய "
 "இடைமுகம் தேர்ந்தெடுக்கப்பட்டுள்ளது (`நெட்வொர்க் ⇾ பிழைத்திருத்தம் ⇾ ரிமோட் ஓச்ட்` ஐப் "
 "பார்க்கவும்). இயல்பாக, ஆசிரியர் `லோக்கல் ஓச்ட்` இணைப்புகளை மட்டுமே கேட்கிறார்."
-
-msgid "For running in simulator:"
-msgstr "சிமுலேட்டரில் இயங்குவதற்கு:"
-
-msgid "Install and start simulator from the Xcode."
-msgstr "Xcode இலிருந்து சிமுலேட்டரை நிறுவி தொடங்கவும்."
 
 msgid "Device screen should be unlocked."
 msgstr "சாதனத் திரை திறக்கப்பட வேண்டும்."

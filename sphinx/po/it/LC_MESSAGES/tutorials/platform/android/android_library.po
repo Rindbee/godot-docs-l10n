@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,6 +28,9 @@ msgstr "1. Creare l'applicazione Android"
 
 msgid "2. Create the Godot project"
 msgstr "2. Creare il progetto Godot"
+
+msgid "Example:"
+msgstr "Esempio:"
 
 msgid "Configure the Godot project as desired"
 msgstr "Configurare il progetto Godot come desiderato"

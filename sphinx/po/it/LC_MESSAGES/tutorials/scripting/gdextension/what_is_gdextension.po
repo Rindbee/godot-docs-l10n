@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,51 +13,6 @@ msgstr ""
 
 msgid "What is GDExtension?"
 msgstr "Che cos'è GDExtension?"
-
-msgid "Introduction"
-msgstr "Introduzione"
-
-msgid ""
-"You can use both GDExtension and :ref:`C++ modules "
-"<doc_custom_modules_in_cpp>` to run C or C++ code in a Godot project."
-msgstr ""
-"È possibile utilizzare sia GDExtension sia i :ref:`moduli C++ "
-"<doc_custom_modules_in_cpp>` per eseguire codice C o C++ in un progetto "
-"Godot."
-
-msgid "Advantages of GDExtension"
-msgstr "Vantaggi di GDExtension"
-
-msgid "Also:"
-msgstr "Inoltre:"
-
-msgid ""
-"We recommend :ref:`C++ modules <doc_custom_modules_in_cpp>` in cases where "
-"GDExtension isn't enough:"
-msgstr ""
-"Consigliamo i :ref:`moduli C++ <doc_custom_modules_in_cpp>` nei casi in cui "
-"GDExtension non sia sufficiente:"
-
-msgid "Supported languages"
-msgstr "Linguaggi supportati"
-
-msgid "C++ :ref:`(tutorial) <doc_gdextension_cpp_example>`"
-msgstr "C++ :ref:`(tutorial) <doc_gdextension_cpp_example>`"
-
-msgid "`D <https://github.com/godot-dlang/godot-dlang>`__"
-msgstr "`D <https://github.com/godot-dlang/godot-dlang>`__"
-
-msgid "`Go <https://github.com/grow-graphics/gd>`__"
-msgstr "`Go <https://github.com/grow-graphics/gd>`__"
-
-msgid "`Nim <https://github.com/godot-nim/gdext-nim>`__"
-msgstr "`Nim <https://github.com/godot-nim/gdext-nim>`__"
-
-msgid "`Rust <https://github.com/godot-rust/gdext>`__"
-msgstr "`Rust <https://github.com/godot-rust/gdext>`__"
-
-msgid "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
-msgstr "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
 
 msgid "Version compatibility"
 msgstr "Compatibilità di versioni"

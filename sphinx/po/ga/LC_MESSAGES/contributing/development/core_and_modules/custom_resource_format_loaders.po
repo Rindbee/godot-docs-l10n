@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -180,6 +180,3 @@ msgid ""
 msgstr ""
 "Sábháil comhad darb ainm `demo.json`` leis an ábhar seo a leanas agus cuir é "
 "i bhfillteán fréimhe an tionscadail:"
-
-msgid "Then attach the following script to any node::"
-msgstr "Ansin ceangail an script seo a leanas le haon nód::"

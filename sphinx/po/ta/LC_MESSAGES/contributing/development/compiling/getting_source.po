@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -81,13 +81,6 @@ msgstr ""
 "godotengine/godot/relaess> __ __ ஐப் பார்வையிடவும், நீங்கள் விரும்பும் வெளியீட்டிற்கான "
 "இணைப்பைக் சொடுக்கு செய்யவும். பக்கத்தில் உள்ள பதிவிறக்க இணைப்பிலிருந்து மூலத்தை பதிவிறக்கம் "
 "செய்து பிரித்தெடுக்கலாம்."
-
-msgid ""
-"With ``git``, you can also clone a stable release by specifying its branch "
-"or tag after the ``--branch`` (or just ``-b``) argument::"
-msgstr ""
-"`` Git`` உடன், `` --branch`` (அல்லது `` -B``) வாதத்திற்குப் பிறகு அதன் கிளை அல்லது "
-"குறிச்சொல்லைக் குறிப்பிடுவதன் மூலம் நிலையான வெளியீட்டை நகலி செய்யலாம் ::"
 
 msgid ""
 "The `maintenance branches <https://github.com/godotengine/godot/branches/"

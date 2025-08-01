@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -51,17 +51,6 @@ msgid ""
 msgstr ""
 "Is féidir na hiarmhíreanna go léir a bhfuil cur síos orthu thíos a úsáid le "
 "''-'', ''$'', agus ''_'' agus tá siad **case-insensitive**."
-
-msgid "Remove nodes (-noimp)"
-msgstr "Bain nóid (-noimp)"
-
-msgid ""
-"Objects that have the ``-noimp`` suffix will be removed at import-time no "
-"matter what their type is. They will not appear in the imported scene."
-msgstr ""
-"Bainfear réada a bhfuil an iarmhír ''-noimp'' orthu ag am na hiompórtála is "
-"cuma cén cineál atá iontu. Ní bheidh siad le feiceáil sa radharc "
-"iompórtáilte."
 
 msgid ""
 "This is equivalent to enabling **Skip Import** for a node in the Advanced "

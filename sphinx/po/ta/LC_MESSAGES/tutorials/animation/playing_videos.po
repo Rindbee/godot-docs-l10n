@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -41,13 +41,6 @@ msgstr ""
 "இது மிகவும் தரமற்றது மற்றும் பராமரிப்பது கடினம்."
 
 msgid ""
-"You may find videos with an ``.ogg`` or ``.ogx`` extensions, which are "
-"generic extensions for data within an Ogg container."
-msgstr ""
-"ஒரு `` .ogg`` அல்லது `` .ogx`` நீட்டிப்புகளுடன் வீடியோக்களைக் காணலாம், அவை OGG "
-"கொள்கலனுக்குள் தரவுகளுக்கான பொதுவான நீட்டிப்புகளாகும்."
-
-msgid ""
 "Renaming these file extensions to ``.ogv`` *may* allow the videos to be "
 "imported in Godot. However, not all files with ``.ogg`` or ``.ogx`` "
 "extensions are videos - some of them may only contain audio."
@@ -61,13 +54,6 @@ msgstr "வீடியோச்ட்ராம்ப்ளேயரை அம�
 
 msgid "Create a VideoStreamPlayer node using the Create New Node dialog."
 msgstr "புதிய முனை உரையாடலைப் பயன்படுத்தி வீடியோச்ட்ரீஆம்ப்ளேயர் முனையை உருவாக்கவும்."
-
-msgid ""
-"Select the VideoStreamPlayer node in the scene tree dock, go to the "
-"inspector and load an ``.ogv`` file in the Stream property."
-msgstr ""
-"காட்சி மரக் கப்பல்துறையில் வீடியோச்ட்ரீஆம்ப்ளேயர் முனையைத் தேர்ந்தெடுத்து, இன்ச்பெக்டரிடம் சென்று "
-"ச்ட்ரீம் சொத்தில் `` .ogv`` கோப்பை ஏற்றவும்."
 
 msgid ""
 "If you don't have your video in Ogg Theora format yet, jump "
@@ -315,21 +301,6 @@ msgstr ""
 
 msgid "Playback limitations"
 msgstr "பின்னணி வரம்புகள்"
-
-msgid ""
-"There are several limitations with the current implementation of video "
-"playback in Godot:"
-msgstr "கோடோட்டில் வீடியோ பிளேபேக்கின் தற்போதைய செயல்பாட்டில் பல வரம்புகள் உள்ளன:"
-
-msgid "Seeking a video to a certain point is not supported."
-msgstr "ஒரு குறிப்பிட்ட கட்டத்திற்கு வீடியோவைத் தேடுவது ஆதரிக்கப்படவில்லை."
-
-msgid ""
-"Changing playback speed is not supported. VideoStreamPlayer also won't "
-"follow :ref:`Engine.time_scale<class_Engine_property_time_scale>`."
-msgstr ""
-"பிளேபேக் வேகத்தை மாற்றுவது ஆதரிக்கப்படவில்லை. வீடியோச்ட்ரீஆம்ப்ளேயரும் பின்பற்றாது: "
-"குறிப்பு: `எஞ்சின்."
 
 msgid "Streaming a video from a URL is not supported."
 msgstr "முகவரி இலிருந்து வீடியோவை ச்ட்ரீமிங் செய்வது ஆதரிக்கப்படவில்லை."

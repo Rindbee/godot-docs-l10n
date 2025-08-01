@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -96,36 +96,6 @@ msgstr ""
 "Standard_Template_Library>`__，因為 Godot 有自行提供的資料型別（及其他工"
 "具）。詳見 :ref:`doc_faq_why_not_stl`。"
 
-msgid ""
-"This means that pull requests should **not** use ``std::string``, "
-"``std::vector`` and the like. Instead, use Godot's datatypes as described "
-"below:"
-msgstr ""
-"這代表拉取請求中**不得**使用 ``std::string``、``std::vector`` 等。請改用下列 "
-"Godot 資料型別："
-
-msgid "Use ``String`` instead of ``std::string``."
-msgstr "請使用 ``String`` 取代 ``std::string``。"
-
-msgid ""
-"Use ``Vector`` instead of ``std::vector``. In some cases, ``LocalVector`` "
-"can be used as an alternative (ask core developers first)."
-msgstr ""
-"請使用 ``Vector`` 取代 ``std::vector``。某些情況下也可用 ``LocalVector``，請"
-"先詢問核心開發者。"
-
-msgid "Use ``Array`` instead of ``std::array``."
-msgstr "請使用 ``Array`` 取代 ``std::array``。"
-
-msgid ""
-"Godot also has a List datatype (which is a linked list). While List is "
-"already used in the codebase, it typically performs worse than other "
-"datatypes like Vector and Array. Therefore, List should be avoided in new "
-"code unless necessary."
-msgstr ""
-"Godot 也有 List 資料型別（即鏈結串列）。儘管在程式碼庫中已經有用到 List，但其"
-"效能通常不及 Vector 與 Array。因此，除非必要，否則新程式碼應避免使用 List。"
-
 msgid "``auto`` keyword"
 msgstr "``auto`` 關鍵字"
 
@@ -144,14 +114,6 @@ msgstr ""
 "請記住，拉取請求的審查者大多無法即時取得 hover 文件。通常審查者是用 GitHub 線"
 "上檢視器來審查拉取請求。"
 
-msgid ""
-"We chose to forbid ``auto`` instead of allowing it on a case-by-case basis "
-"to avoid having to decide on difficult edge cases. Thank you for your "
-"understanding."
-msgstr ""
-"我們選擇全面禁止 ``auto``，而不是視情況允許，以免遇到難以界定的極端案例。感謝"
-"您的理解。"
-
 msgid "Lambdas"
 msgstr "Lambda 函式"
 
@@ -162,16 +124,6 @@ msgid ""
 msgstr ""
 "Lambda 僅應在確實能讓程式碼更快或更簡潔，且不影響可讀性的情況下保守使用。若要"
 "在拉取請求中用 lambda，請先徵詢意見。"
-
-msgid "``#pragma once`` directive"
-msgstr "``#pragma once`` 指令"
-
-msgid ""
-"To follow the existing style, please use standard ``#ifdef``-based include "
-"guards instead of ``#pragma once`` in new files."
-msgstr ""
-"為了遵循現有風格，請於新檔案使用標準的 ``#ifdef`` 方式作為包含保護，不要使用 "
-"``#pragma once``。"
 
 msgid "``try``-``catch`` blocks"
 msgstr "``try``-``catch`` 區塊"

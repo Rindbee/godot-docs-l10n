@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,9 +13,6 @@ msgstr ""
 
 msgid "C# API differences to GDScript"
 msgstr "C# API와 GDScript의 차이점"
-
-msgid "This is a (incomplete) list of API differences between C# and GDScript."
-msgstr "이것은 C#과 GDScript간의 (불완전한) API 차이점 목록입니다."
 
 msgid "General differences"
 msgstr "일반적인 차이점"

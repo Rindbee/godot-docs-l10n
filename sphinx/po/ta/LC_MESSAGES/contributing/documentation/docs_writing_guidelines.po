@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -886,6 +886,9 @@ msgstr ""
 "** திட்ட அமைப்புகள்> பயன்பாடு> ரன் **, செட்: ref: `அதிகபட்சம் fps "
 "<class_projectsettings_property_application/run/max_fps>` முதல் `60`` வரை."
 
+msgid "**Bad:**"
+msgstr "** மோசமானது: **"
+
 msgid "Manually wrapping lines"
 msgstr "கைமுறையாக கோடுகள்"
 
@@ -1037,3 +1040,6 @@ msgstr ""
 "3.x பெரிய அல்லது சிறிய பதிப்பில் ஒரு நற்பொருத்தம் சேர்க்கப்பட்டால், ** நற்பொருத்தம் "
 "சேர்க்கப்பட்டபோது ** குறிப்பிட வேண்டாம். இந்த நற்பொருத்தங்கள் பழையவை, அவை சேர்க்கப்பட்ட "
 "சரியான பதிப்பு பொருந்தாது."
+
+msgid "Examples"
+msgstr "எடுத்துக்காட்டுகள்"

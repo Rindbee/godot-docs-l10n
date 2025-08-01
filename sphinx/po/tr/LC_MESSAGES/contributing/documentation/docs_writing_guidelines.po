@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -605,3 +605,9 @@ msgstr ""
 msgid "Press ``:kbd:`Shift + Up Arrow``` to move the node upwards by 8 pixels."
 msgstr ""
 "Press ``:kbd:`Shift + Up Arrow``` to move the node upwards by 8 pixels."
+
+msgid "**Bad:**"
+msgstr "**Kötü Örnek:**"
+
+msgid "Examples"
+msgstr "Örnekler"

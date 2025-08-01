@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -148,13 +148,6 @@ msgstr ""
 "**Build Variants** penceresini açın."
 
 msgid ""
-"In the **Build Variants** window, make sure that in the **Active Build "
-"Variant** column, the ``:editor`` entry is set to **dev**."
-msgstr ""
-"**Build Variants** penceresinde, **Active Build Variant** sütununda "
-"``:editor`` girişinin **dev** olarak ayarlandığından emin olun."
-
-msgid ""
 "Open the **Run/Debug Configurations** window by clicking on **Run > Edit "
 "Configurations...** on the top menu."
 msgstr ""
@@ -220,13 +213,6 @@ msgstr ""
 
 msgid "To debug the ``app`` module:"
 msgstr "``app`` modülünde hata ayıklama için:"
-
-msgid ""
-"In the **Build Variants** window, make sure that in the **Active Build "
-"Variant** column, the ``:app`` entry is set to **dev**."
-msgstr ""
-"**Build Variants** penceresinde, **Active Build Variant** sütununda ``:app`` "
-"girişinin **dev** olarak ayarlandığından emin olun."
 
 msgid ""
 "In the **Run/Debug Configurations** window, select the ``app`` entry, and "

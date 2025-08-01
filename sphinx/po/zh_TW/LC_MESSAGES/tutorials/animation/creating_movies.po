@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -280,13 +280,6 @@ msgstr ""
 "產生的檔案可以在大多數視訊播放器中查看，但必須將其轉換為另一種格式才能在 Web "
 "上查看或由 Godot 使用 VideoStreamPlayer 節點查看。 MJPEG 不支援透明度。 AVI "
 "輸出目前限制為最大 4 GB 的檔案大小。"
-
-msgid ""
-"To use AVI, specify a path to an ``.avi`` file to be created in the **Editor "
-"> Movie Writer > Movie File** project setting."
-msgstr ""
-"若要使用 AVI，請指定要在 **Editor > Movie Writer > Movie File** 專案設定中建"
-"立的 ``.avi`` 檔案的路徑。"
 
 msgid "PNG"
 msgstr "PNG"

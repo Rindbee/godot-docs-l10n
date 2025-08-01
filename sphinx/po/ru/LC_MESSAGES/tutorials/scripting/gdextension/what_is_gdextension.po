@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,46 +13,6 @@ msgstr ""
 
 msgid "What is GDExtension?"
 msgstr "Что такое GDExtension?"
-
-msgid "Introduction"
-msgstr "Введение"
-
-msgid ""
-"GDExtension is *not* a scripting language and has no relation "
-"to :ref:`GDScript <doc_gdscript>`."
-msgstr ""
-"GDExtension не является скриптовым языком и не имеет никакого отношения "
-"к :ref:`GDScript <doc_gdscript>`."
-
-msgid ""
-"They also both allow you to integrate third-party libraries into Godot. The "
-"one you should choose depends on your needs."
-msgstr ""
-"Они также позволяют интегрировать в Godot библиотеки сторонних "
-"разработчиков. Выбор того или иного варианта зависит от ваших потребностей."
-
-msgid "Also:"
-msgstr "А также:"
-
-msgid "Advantages of C++ modules"
-msgstr "Преимущества модулей C++"
-
-msgid "Supported languages"
-msgstr "Поддерживаемые языки"
-
-msgid "The bindings below are developed and maintained by the community:"
-msgstr "Приведенные ниже привязки разработаны и поддерживаются сообществом:"
-
-msgid ""
-"Not all bindings mentioned here may be production-ready. Make sure to "
-"research options thoroughly before starting a project with one of those. "
-"Also, double-check whether the binding is compatible with the Godot version "
-"you're using."
-msgstr ""
-"Не все упомянутые здесь привязки могут быть готовыми для использования в "
-"продакшене. Прежде чем начинать проект с одним из них, тщательно изучите "
-"возможные варианты. Также проверьте, совместима ли привязка с версией Godot, "
-"которую вы используете."
 
 msgid "Version compatibility"
 msgstr "Совместимость версий"

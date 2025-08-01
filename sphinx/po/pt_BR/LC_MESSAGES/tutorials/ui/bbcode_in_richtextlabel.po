@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -111,12 +111,8 @@ msgstr ""
 "permitir o uso flexível de tags ``[url]`` em vez de limitá-los a abrir URLs "
 "em um navegador da web."
 
-msgid ""
-"For example, the following method can be connected to ``meta_clicked`` to "
-"open clicked URLs using the user's default web browser::"
-msgstr ""
-"Por exemplo, o seguinte método pode ser conectado a ``meta_clicked`` para "
-"abrir URLs clicados usando o navegador padrão do usuário::"
+msgid "``2``"
+msgstr "``2``"
 
 msgid "String"
 msgstr "String"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,16 +13,6 @@ msgstr ""
 
 msgid "Introduction to the buildsystem"
 msgstr "构建系统介绍"
-
-msgid ""
-"Godot is a primarily C++ project and it :ref:`uses the SCons build system. "
-"<doc_faq_why_scons>` We love SCons for how maintainable and easy to set up "
-"it makes our buildsystem. And thanks to that compiling Godot from source can "
-"be as simple as running::"
-msgstr ""
-"Godot 是一个主要使用 C++ 的项目，它 :ref:`使用 SCons 构建系统 "
-"<doc_faq_why_scons>`。我们喜欢 SCons，因为它使我们的构建系统易于维护和设置。"
-"正因如此，从源代码编译 Godot 可以像运行以下命令一样简单：::"
 
 msgid ":ref:`doc_compiling_for_android`"
 msgstr ":ref:`doc_compiling_for_android`"
@@ -62,17 +52,8 @@ msgstr ""
 "仅通过调用 ``scons`` 即可调用SCons. 如果未指定平台,SCons将基于主机平台自动检"
 "测目标平台. 然后它将立即开始为目标平台构建."
 
-msgid "To list the available target platforms, use ``scons platform=list``::"
-msgstr "要列出可用的目标平台，请使用 ``scons platform=list``\\ ： ::"
-
 msgid "Resulting binary"
 msgstr "生成的二进制文件"
-
-msgid ""
-"The resulting binaries will be placed in the ``bin/`` subdirectory, "
-"generally with this naming convention::"
-msgstr ""
-"生成的二进制文件将被放置在 ``bin/`` 子目录中，通常使用这种命名约定： ::"
 
 msgid "A Windows binary with the same configuration will look like this:"
 msgstr "一个具有相同配置的Windows二进制文件将如下所示:"

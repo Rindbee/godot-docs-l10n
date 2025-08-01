@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -38,33 +38,11 @@ msgstr "**glTF**"
 msgid "**FBX**"
 msgstr "**FBX**"
 
-msgid ""
-"Switch to the **Meshes** or **Materials** tab in the top-left corner of the "
-"dialog."
-msgstr ""
-"Passa alla scheda **Mesh** o **Materiali** nell'angolo in alto a sinistra "
-"della finestra di dialogo."
-
-msgid "The options are as follows:"
-msgstr "Le opzioni sono le seguenti:"
-
-msgid "Extracting materials to separate files"
-msgstr "Esportare i materiali su file separatati"
-
 msgid "Using animation libraries"
 msgstr "Utilizzo di librerie di animazione"
 
 msgid "Filter script"
 msgstr "Filtra script"
-
-msgid "Storage"
-msgstr "Memorizzazione"
-
-msgid "Optimizer"
-msgstr "Ottimizzatore"
-
-msgid "Clips"
-msgstr "Clip"
 
 msgid "Scene inheritance"
 msgstr "Ereditarietà di scene"

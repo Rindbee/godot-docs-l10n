@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -342,6 +342,9 @@ msgstr "``[p]{testo}[/p]``"
 msgid "``[p {options}]{text}[/p]``"
 msgstr "``[p {opzioni}]{testo}[/p]``"
 
+msgid "``[br]``"
+msgstr "``[br]``"
+
 msgid "**center**"
 msgstr "**center**"
 
@@ -429,19 +432,6 @@ msgstr "``[url=<link>]{testo}[/url]``"
 
 msgid "**hint**"
 msgstr "**hint**"
-
-msgid ""
-"Creates a tooltip hint that is displayed when hovering the text with the "
-"mouse. Tooltip text should not be quoted (quotes will appear as-is in the "
-"tooltip otherwise)."
-msgstr ""
-"Crea un suggerimento che viene visualizzato quando si passa il mouse sul "
-"testo. Il testo del suggerimento non deve essere racchiuso tra virgolette "
-"(altrimenti, le virgolette appariranno così come sono nel tooltip)."
-
-msgid "``[hint={tooltip text displayed on hover}]{text}[/hint]``"
-msgstr ""
-"``[hint={suggerimento visualizzato al passaggio del mouse}]{testo}[/hint]``"
 
 msgid "**img**"
 msgstr "**img**"
@@ -958,30 +948,8 @@ msgstr ""
 "<class_RichTextLabel_signal_meta_clicked>` del nodo ``RichTextLabel`` a una "
 "funzione di script."
 
-msgid ""
-"For example, the following method can be connected to ``meta_clicked`` to "
-"open clicked URLs using the user's default web browser::"
-msgstr ""
-"Ad esempio, il seguente metodo può essere collegato a ``meta_clicked`` per "
-"aprire gli URL cliccati usando browser web predefinito dell'utente:"
-
-msgid ""
-"For more advanced use cases, it's also possible to store JSON in an "
-"``[url]`` tag's option and parse it in the function that handles the "
-"``meta_clicked`` signal. For example:"
-msgstr ""
-"Per casi d'uso più avanzati, è anche possibile memorizzare JSON nell'opzione "
-"di un tag ``[url]`` e analizzarlo nella funzione che gestisce il segnale "
-"``meta_clicked``. Ad esempio:"
-
-msgid "Image options"
-msgstr "Opzioni di immagine"
-
 msgid "Color name or color in HEX format"
 msgstr "Nome del colore o colore in formato HEX"
-
-msgid "Color tint of the image (modulation)."
-msgstr "Tinta di colore dell'immagine (modulazione)."
 
 msgid "**height**"
 msgstr "**height**"
@@ -989,23 +957,24 @@ msgstr "**height**"
 msgid "Integer number"
 msgstr "Numero intero"
 
+msgid "``2``"
+msgstr "``2``"
+
+msgid "**width**"
+msgstr "**width**"
+
+msgid "Image options"
+msgstr "Opzioni di immagine"
+
+msgid "Color tint of the image (modulation)."
+msgstr "Tinta di colore dell'immagine (modulazione)."
+
 msgid ""
 "Target height of the image in pixels, add ``%`` to the end of value to "
 "specify it as percentages of the control width instead of pixels."
 msgstr ""
 "Altezza di destinazione dell'immagine in pixel, aggiungi ``%`` alla fine del "
 "valore per specificarlo come percentuale della larghezza del controllo "
-"anziché in pixel."
-
-msgid "**width**"
-msgstr "**width**"
-
-msgid ""
-"Target width of the image, add ``%`` to the end of value to specify it as "
-"percentages of the control width instead of pixels."
-msgstr ""
-"Larghezza di destinazione dell'immagine in pixel, aggiungi ``%`` alla fine "
-"del valore per specificarlo come percentuale della larghezza del controllo "
 "anziché in pixel."
 
 msgid "**region**"
@@ -1364,13 +1333,6 @@ msgid ""
 msgstr ""
 "Tutti gli esempi riportati di seguito menzionano i valori predefiniti per le "
 "loro opzioni nel formato dei tag elencati."
-
-msgid ""
-"Text effects that move characters' position may result in characters being "
-"clipped by the RichTextLabel node bounds."
-msgstr ""
-"Gli effetti di testo che spostano la posizione dei caratteri potrebbero "
-"risultare in caratteri ritagliati dai limiti del nodo RichTextLabel."
 
 msgid ""
 "You can resolve this by disabling **Control > Layout > Clip Contents** in "

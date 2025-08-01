@@ -1,0 +1,43 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"They also both allow you to integrate third-party libraries into Godot. The "
+"one you should choose depends on your needs."
+msgstr ""
+"Ambos también te permiten integrar bibliotecas de terceros en Godot. La "
+"elección entre ellos depende de tus necesidades específicas."
+
+msgid "Also:"
+msgstr "Tambien:"
+
+msgid "Advantages of C++ modules"
+msgstr "Ventajas de los módulos de C++"
+
+msgid ""
+"C++ modules provide deeper integration into the engine. GDExtension's access "
+"is not as deep as static modules."
+msgstr ""
+"Los módulos de C++ proporcionan una integración más profunda con el motor. "
+"El acceso de GDExtension no es tan profundo como módulos estáticos."
+
+msgid ""
+"You can use C++ modules to provide additional features in a project without "
+"carrying native library files around. This extends to exported projects."
+msgstr ""
+"Puedes utilizar módulos de C++ para proporcionar características adicionales "
+"en un proyecto sin tener que llevar archivos de bibliotecas nativas. Esto se "
+"extiende también a los proyectos exportados."
+
+msgid "Version compatibility"
+msgstr "Compatibilidad de versiones"

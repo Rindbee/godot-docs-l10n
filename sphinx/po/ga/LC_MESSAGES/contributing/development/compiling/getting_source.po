@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -83,14 +83,6 @@ msgstr ""
 "scaoileadh <https://github.com/godotengine/godot/releases>`__ agus cliceáil "
 "ar an nasc don scaoileadh atá uait. Is féidir leat an fhoinse a íoslódáil "
 "agus a bhaint as an nasc íoslódála ar an leathanach."
-
-msgid ""
-"With ``git``, you can also clone a stable release by specifying its branch "
-"or tag after the ``--branch`` (or just ``-b``) argument::"
-msgstr ""
-"Le `git``, is féidir leat scaoileadh cobhsaí a chlónú freisin tríd a "
-"bhrainse nó a chlib a shonrú tar éis an argóint ``--branch`` (nó díreach ``-"
-"b``):"
 
 msgid ""
 "After downloading the Godot source code, you can :ref:`continue to compiling "

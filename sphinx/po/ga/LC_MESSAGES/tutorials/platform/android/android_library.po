@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -391,6 +391,9 @@ msgstr ""
 "`GodotHost#getCommandLine() <https://github.com/godotenginine/godot/blob/"
 "69163496997a43 /ardán /android/java/lib/src/org/godotengine/godot/"
 "GodotHost.java#L45>`_."
+
+msgid "Example:"
+msgstr "Sampla:"
 
 msgid ""
 "The instructions below and the sample app follow the first approach of "

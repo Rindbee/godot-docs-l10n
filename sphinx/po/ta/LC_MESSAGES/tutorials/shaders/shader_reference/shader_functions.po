@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -784,18 +784,18 @@ msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_type| a, |vec_type| b)"
 msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_type| a, float b)"
 msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_type| a, float b)"
 
+msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
+msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
+
+msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
+msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
+
 msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, |vec_uint_type| b)"
 msgstr ""
 ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, |vec_uint_type| b)"
 
 msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, uint b)"
 msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, uint b)"
-
-msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
-msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
-
-msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
-msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
 
 msgid "Highest value between ``a`` and ``b``."
 msgstr "`` A`` மற்றும் `b`` க்கு இடையில் அதிக மதிப்பு."
@@ -818,11 +818,6 @@ msgid ""
 msgstr ""
 ":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, |vec_int_type| min, |"
 "vec_int_type| max)"
-
-msgid ""
-":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, float min, float max)"
-msgstr ""
-":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, float min, float max)"
 
 msgid "Clamps ``x`` between ``min`` and ``max`` (inclusive)."
 msgstr "`` நிமிடம்` மற்றும் `` மேக்ச்`` (உள்ளடக்கிய) இடையே `` x`` கவ்விகளும்."
@@ -1424,25 +1419,6 @@ msgstr ""
 "maxVal) :ref:`🔗<shader_func_clamp>`"
 
 msgid ""
-"|vec_uint_type| **clamp**\\ (\\ |vec_int_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-msgstr ""
-"| vec_uint_type | **clamp**\\ (\\ |vec_int_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-
-msgid ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, |vec_type| minVal, |vec_type| "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-msgstr "| Vec_int_type | ."
-
-msgid ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-msgstr ""
-"| vec_int_type | **clamp**\\ (\\ |vec_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-
-msgid ""
 "Returns the value of ``x`` constrained to the range ``minVal`` to ``maxVal``."
 msgstr "`` X`` இன் மதிப்பை `` minval`` வரம்பிற்கு `` maxval`` க்கு வழங்குகிறது."
 
@@ -1681,9 +1657,6 @@ msgstr ""
 "ஒரு <c <b போது `` 0`` மற்றும் `1`` இடையே மென்மையான எர்மைட் இடைக்கணிப்பை செய்கிறது. "
 "மென்மையான மாற்றத்துடன் ஒரு வாசல் செயல்பாடு விரும்பப்படும் சந்தர்ப்பங்களில் இது பயனுள்ளதாக "
 "இருக்கும்."
-
-msgid "Smoothstep is equivalent to::"
-msgstr "மென்மையானது :: க்கு சமம்"
 
 msgid "Results are undefined if ``a >= b``."
 msgstr "`` A> = b`` என்றால் முடிவுகள் வரையறுக்கப்படவில்லை."
@@ -2016,9 +1989,6 @@ msgid "vec3 **cross**\\ (\\ vec3 a, vec3 b) :ref:`🔗<shader_func_cross>`"
 msgstr ""
 "VEC3 ** குறுக்கு ** \\ (\\ vec3 a, vec3 b): ref: `🔗 <shader_func_cross>`"
 
-msgid "Returns the cross product of two vectors. i.e.::"
-msgstr "இரண்டு திசையன்களின் குறுக்கு உற்பத்தியை வழங்குகிறது. அதாவது ::"
-
 msgid "The cross product of ``a`` and ``b``."
 msgstr "`` A`` மற்றும் `b`` ஆகியவற்றின் குறுக்கு தயாரிப்பு."
 
@@ -2100,9 +2070,6 @@ msgstr ""
 "கொடுக்கப்பட்ட சம்பவ திசையன் `` நான்`, மேற்பரப்பு இயல்பான `` n`` மற்றும் ஒளிவிலகல் "
 "குறியீடுகளின் விகிதத்திற்கு, `` எட்டா``, refr ரிசிவ் ஆக்டிவாக்ட் ஒளிவிலகல் திசையனை "
 "வழங்குகிறது, `` r``."
-
-msgid "``R`` is calculated as::"
-msgstr "`` R`` என கணக்கிடப்படுகிறது ::"
 
 msgid ""
 "The input parameters I and N should be normalized in order to achieve the "
@@ -2548,9 +2515,6 @@ msgid ""
 msgstr ""
 "பூலியன் திசையனின் ஏதேனும் ஒரு உறுப்பு `` உண்மை``, இல்லையெனில் இல்லையெனில் `` உண்மை`` "
 "ஐத் தருகிறது."
-
-msgid "Functionally equivalent to::"
-msgstr "செயல்பாட்டு ரீதியாக சமம் ::"
 
 msgid "The vector to be tested for truth."
 msgstr "சத்தியத்திற்காக சோதிக்கப்பட வேண்டிய திசையன்."
@@ -3357,15 +3321,6 @@ msgstr ""
 "VEC4 ** TextureLod ** \\ (\\ samplercubearray s, vec4 p, float lod): ref: "
 "`🔗 <shader_func_texturelod>`"
 
-msgid ""
-"Performs a texture lookup at coordinate ``p`` from the texture bound to "
-"sampler with an explicit level-of-detail as specified in ``lod``. ``lod`` "
-"specifies λbase and sets the partial derivatives as follows::"
-msgstr ""
-"`` லாட்`` இல் குறிப்பிடப்பட்டுள்ளபடி வெளிப்படையான நிலை-விரிவான மாதிரியுடன் "
-"பிணைக்கப்பட்ட அமைப்பிலிருந்து `` பி`` ஒருங்கிணைப்பில் ஒரு அமைப்பு தேடலைச் செய்கிறது. `` "
-"லாட்`` λ பேசைக் குறிப்பிடுகிறது மற்றும் பகுதி வழித்தோன்றல்களை பின்வருமாறு அமைக்கிறது ::"
-
 msgid "The explicit level-of-detail."
 msgstr "வெளிப்படையான நிலை-விரிவான நிலை."
 
@@ -3609,9 +3564,6 @@ msgstr ""
 "VEC4 ** SextureGather ** \\ (\\ Samplercube S, VEC3 P [, int comps]): ref: "
 "`🔗 <shader_func_texturegather>`"
 
-msgid "Returns the value::"
-msgstr "மதிப்பைத் தருகிறது ::"
-
 msgid "param comps"
 msgstr "பரம் காம்ப்ச்"
 
@@ -3846,25 +3798,11 @@ msgstr ":ref:`packUnorm2x16<shader_func_packUnorm2x16>`\\ (\\ vec2 v)"
 msgid ":ref:`unpackUnorm2x16<shader_func_unpackUnorm2x16>`\\ (\\ uint v)"
 msgstr ":ref:`unpackUnorm2x16<shader_func_unpackUnorm2x16>`\\ (\\ uint v)"
 
-msgid ""
-"Convert two normalized (range 0..1) 32-bit floats to 16-bit floats and pack "
-"them."
-msgstr ""
-"இரண்டு இயல்பாக்கப்பட்ட (வரம்பு 0..1) 32-பிட் மிதவைகளை 16-பிட் மிதவைகளாக மாற்றி அவற்றைக் "
-"கட்டவும்."
-
 msgid ":ref:`packSnorm2x16<shader_func_packSnorm2x16>`\\ (\\ vec2 v)"
 msgstr ":ref:`packSnorm2x16<shader_func_packSnorm2x16>`\\ (\\ vec2 v)"
 
 msgid ":ref:`unpackSnorm2x16<shader_func_unpackSnorm2x16>`\\ (\\ uint v)"
 msgstr ":ref:`unpackSnorm2x16<shader_func_unpackSnorm2x16>`\\ (\\ uint v)"
-
-msgid ""
-"Convert two signed normalized (range -1..1) 32-bit floats to 16-bit floats "
-"and pack them."
-msgstr ""
-"கையொப்பமிடப்பட்ட இரண்டு இயல்பாக்கப்பட்ட (வரம்பு -1..1) 32-பிட் மிதவைகளை 16-பிட் "
-"மிதவைகளாக மாற்றி அவற்றை மூடுங்கள்."
 
 msgid ":ref:`packUnorm4x8<shader_func_packUnorm4x8>`\\ (\\ vec4 v)"
 msgstr ":ref:`packUnorm4x8<shader_func_packUnorm4x8>`\\ (\\ vec4 v)"
@@ -3872,25 +3810,11 @@ msgstr ":ref:`packUnorm4x8<shader_func_packUnorm4x8>`\\ (\\ vec4 v)"
 msgid ":ref:`unpackUnorm4x8<shader_func_unpackUnorm4x8>`\\ (\\ uint v)"
 msgstr ":ref:`unpackUnorm4x8<shader_func_unpackUnorm4x8>`\\ (\\ uint v)"
 
-msgid ""
-"Convert four normalized (range 0..1) 32-bit floats into 8-bit floats and "
-"pack them."
-msgstr ""
-"நான்கு இயல்பாக்கப்பட்ட (வரம்பு 0..1) 32-பிட் மிதவைகளை 8-பிட் மிதவைகளாக மாற்றி அவற்றைக் "
-"கட்டவும்."
-
 msgid ":ref:`packSnorm4x8<shader_func_packSnorm4x8>`\\ (\\ vec4 v)"
 msgstr ":ref:`packSnorm4x8<shader_func_packSnorm4x8>`\\ (\\ vec4 v)"
 
 msgid ":ref:`unpackSnorm4x8<shader_func_unpackSnorm4x8>`\\ (\\ uint v)"
 msgstr ":ref:`unpackSnorm4x8<shader_func_unpackSnorm4x8>`\\ (\\ uint v)"
-
-msgid ""
-"Convert four signed normalized (range -1..1) 32-bit floats into 8-bit floats "
-"and pack them."
-msgstr ""
-"கையொப்பமிடப்பட்ட நான்கு இயல்பாக்கப்பட்ட (வரம்பு -1..1) 32-பிட் மிதவைகளை 8-பிட் "
-"மிதவைகளாக மாற்றி அவற்றை மூடுங்கள்."
 
 msgid "Packing and unpacking function descriptions"
 msgstr "செயல்பாட்டு விளக்கங்களை பொதி செய்தல் மற்றும் திறத்தல்"
@@ -3991,13 +3915,6 @@ msgid ""
 msgstr ""
 "இயல்பாக்கப்பட்ட மிதக்கும்-புள்ளி மதிப்பு V இன் ஒவ்வொரு கூறுகளையும் 16-பிட் முழு எண் "
 "மதிப்புகளாக மாற்றி, பின்னர் முடிவுகளை 32-பிட் கையொப்பமிடாத முழு எண்ணாக மாற்றுகிறது."
-
-msgid ""
-"The conversion for component c of ``v`` to fixed-point is performed as "
-"follows::"
-msgstr ""
-"`` V`` இன் நிலையான புள்ளிக்கான CORMENT CORMENT க்கான மாற்றம் பின்வருமாறு "
-"செய்யப்படுகிறது ::"
 
 msgid ""
 "The first component of the vector will be written to the least significant "
@@ -4726,13 +4643,6 @@ msgid ""
 msgstr ""
 "| vec_type | **frexp**\\ (\\ |vec_type| x, out |vec_int_type| "
 "exp) :ref:`🔗<shader_func_frexp>`"
-
-msgid ""
-"Extracts ``x`` into a floating-point significand in the range ``[0.5, 1.0)`` "
-"and in integral exponent of two, such that::"
-msgstr ""
-"`` X`` ஒரு மிதக்கும்-புள்ளி முக்கிய மற்றும் வரம்பில் `` [0.5, 1.0) `` மற்றும் இரண்டின் "
-"ஒருங்கிணைந்த தலைவர் ஆகியவற்றில் பிரித்தெடுக்கிறது, அதாவது :: போன்றவை ::"
 
 msgid ""
 "For a floating-point value of zero, the significand and exponent are both "

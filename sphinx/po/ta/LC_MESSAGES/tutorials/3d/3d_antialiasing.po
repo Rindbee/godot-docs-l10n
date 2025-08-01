@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -586,6 +586,9 @@ msgstr "மங்கலானது சேர்க்கப்பட்டத�
 msgid "🟢 None"
 msgstr "🟢 எதுவுமில்லை"
 
+msgid "🟢 Low"
+msgstr "குறைந்த"
+
 msgid "🟡 Some [3]_"
 msgstr "🟡 சில [3] _"
 
@@ -603,9 +606,6 @@ msgstr "🟡 நடுத்தர"
 
 msgid "🔴 High"
 msgstr "உயர்"
-
-msgid "🟢 Low"
-msgstr "குறைந்த"
 
 msgid "🔴 Very High"
 msgstr "🔴 மிக உயர்ந்தது"

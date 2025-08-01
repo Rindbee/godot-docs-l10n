@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -33,15 +33,6 @@ msgstr "노드"
 
 msgid "Resources"
 msgstr "리소스"
-
-msgid ""
-"It must be noted that even if the script is not being run while in the "
-"editor, the exported properties are still editable. This can be used in "
-"conjunction with a :ref:`script in \"tool\" mode <doc_gdscript_tool_mode>`."
-msgstr ""
-"편집기에서 스크립트가 실행되지 않더라도 내보낸 속성은 계속 편집할 수 있습니"
-"다. 속성은 :ref:`\"툴\" 모드 <doc_gdscript_tool_mode>`\\ 의 스크립트와 함께 "
-"사용할 수 있습니다."
 
 msgid "Exporting bit flags"
 msgstr "비트 플래그(bit flags) 내보내기"

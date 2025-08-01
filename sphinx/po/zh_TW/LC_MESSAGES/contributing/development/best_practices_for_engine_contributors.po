@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -102,14 +102,6 @@ msgstr ""
 "這個問題的答案是，只有「確實存在」的問題才值得解決。問題不能只是臆測或想像。"
 "使用者必須以預期方式操作軟體、產生需求，在過程中遇到阻礙或為了提升效率產生問"
 "題，這時才真正需要解決方案。"
-
-msgid ""
-"Believing that problems may arise in the future and that the software needs "
-"to be ready to solve them by the time they appear is called *\"Future "
-"proofing\"* and its characterized by lines of thought such as:"
-msgstr ""
-"認為未來可能出現的問題必須預先因應，這種想法稱為「未雨綢繆（Future "
-"proofing）」，常見表現如下："
 
 msgid "I think it would be useful for users to..."
 msgstr "我認為如果讓使用者可以…會很實用…"

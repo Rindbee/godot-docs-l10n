@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -73,13 +73,6 @@ msgid ""
 msgstr ""
 "若要取得穩定版本，請前往 `Release 頁面 <https://github.com/godotengine/godot/"
 "releases>`__ 並點擊你想要的版本，然後從該頁面下載並解壓縮原始碼。"
-
-msgid ""
-"With ``git``, you can also clone a stable release by specifying its branch "
-"or tag after the ``--branch`` (or just ``-b``) argument::"
-msgstr ""
-"使用 ``git`` 時，也可以在 ``--branch`` （或 ``-b``）參數後指定分支或標籤來複"
-"製穩定版本："
 
 msgid ""
 "The `maintenance branches <https://github.com/godotengine/godot/branches/"

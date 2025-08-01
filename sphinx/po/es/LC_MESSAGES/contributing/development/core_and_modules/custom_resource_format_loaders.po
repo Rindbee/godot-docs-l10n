@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -163,6 +163,3 @@ msgid ""
 msgstr ""
 "Guarda un archivo llamado ``demo.json`` con el siguiente contenido y "
 "ubiquelo en la carpeta raiz del proyecto:"
-
-msgid "Then attach the following script to any node::"
-msgstr "Posteriormente adjunte el siguiente script a cualquier nodo::"

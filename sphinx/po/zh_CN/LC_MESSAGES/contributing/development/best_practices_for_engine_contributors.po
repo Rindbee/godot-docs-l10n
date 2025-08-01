@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -84,14 +84,6 @@ msgstr ""
 "正常使用软件，才能创造出他们\\ *需要*\\ 的东西。在这个过程中，用户可能会遇到"
 "一些问题，需要有解决方案才能继续，或者达到更高的生产力。这种情况下就\\ *需要"
 "解决方案*\\ 。"
-
-msgid ""
-"Believing that problems may arise in the future and that the software needs "
-"to be ready to solve them by the time they appear is called *\"Future "
-"proofing\"* and its characterized by lines of thought such as:"
-msgstr ""
-"坚信将来可能会出现问题，并且软件需要在问题出现时就已准备好解决它们，这被称为"
-"\\ *“保护未来”*\\ ，其特点是思路如下："
 
 msgid "I think it would be useful for users to..."
 msgstr "我想这对于用户来说是有用的...."

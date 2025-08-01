@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -208,13 +208,6 @@ msgstr ""
 
 msgid "PanelContainer"
 msgstr "Panel Container"
-
-msgid ""
-"This container is useful as top-level, or just to add custom backgrounds to "
-"sections of a layout."
-msgstr ""
-"Este contenedor es útil como nivel superior, o simplemente para añadir "
-"fondos personalizados a secciones de un diseño."
 
 msgid "ScrollContainer"
 msgstr "Scroll Container"

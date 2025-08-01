@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -682,6 +682,9 @@ msgstr ""
 "Dans **Projet > Paramètres du projet > Contrôles**, ajoutez une nouvelle "
 "action d'entrée."
 
+msgid "**Bad:**"
+msgstr "**Mauvais :**"
+
 msgid "**Bad:** Line length exceeds 100 characters:"
 msgstr "**Mauvais :** La longueur de la ligne dépasse les 100 caractères :"
 
@@ -758,3 +761,6 @@ msgstr ""
 "**ne spécifiez pas** quand la fonctionnalité a été ajoutée. Ces "
 "fonctionnalités sont assez anciennes pour que la version exacte dans "
 "laquelle elles ont été ajoutées ne soit pas pertinente."
+
+msgid "Examples"
+msgstr "Exemples"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -474,6 +474,12 @@ msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_type| a, |vec_type| b)"
 msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_type| a, float b)"
 msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_type| a, float b)"
 
+msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
+msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
+
+msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
+msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
+
 msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, |vec_uint_type| b)"
 msgstr ""
 ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, |vec_uint_type| b)"
@@ -481,12 +487,6 @@ msgstr ""
 msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, uint b)"
 msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, uint b)"
 
-msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
-msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
-
-msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
-msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
-
 msgid ""
 ":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_type| x, |vec_type| min, |"
 "vec_type| max)"
@@ -505,11 +505,6 @@ msgid ""
 msgstr ""
 ":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, |vec_int_type| min, |"
 "vec_int_type| max)"
-
-msgid ""
-":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, float min, float max)"
-msgstr ""
-":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, float min, float max)"
 
 msgid ""
 ":ref:`mix<shader_func_mix>`\\ (\\ |vec_type| a, |vec_type| b, |vec_type| c)"
@@ -868,27 +863,6 @@ msgid ""
 "maxVal) :ref:`🔗<shader_func_clamp>`"
 msgstr ""
 "|vec_type| **clamp**\\ (\\ |vec_type| x, float valMin, float "
-"valMax) :ref:`🔗<shader_func_clamp>`"
-
-msgid ""
-"|vec_uint_type| **clamp**\\ (\\ |vec_int_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-msgstr ""
-"|vec_uint_type| **clamp**\\ (\\ |vec_int_type| x, float valMi', float "
-"valMax) :ref:`🔗<shader_func_clamp>`"
-
-msgid ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, |vec_type| minVal, |vec_type| "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-msgstr ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, |vec_type| valMin, |vec_type| "
-"valMax) :ref:`🔗<shader_func_clamp>`"
-
-msgid ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-msgstr ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, float valMin, float "
 "valMax) :ref:`🔗<shader_func_clamp>`"
 
 msgid "param minVal"
@@ -1497,9 +1471,6 @@ msgstr ""
 
 msgid "bool **any**\\ (\\ |vec_bool_type| x) :ref:`🔗<shader_func_any>`"
 msgstr "bool **any**\\ (\\ |vec_bool_type| x) :ref:`🔗<shader_func_any>`"
-
-msgid "Functionally equivalent to::"
-msgstr "Équivalent fonctionnement à ::"
 
 msgid "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/any.xhtml"
 msgstr "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/any.xhtml"
@@ -2319,9 +2290,6 @@ msgid ""
 msgstr ""
 "vec4 **textureGather**\\ (\\ samplerCube s, vec3 p [, int "
 "comps] ) :ref:`🔗<shader_func_textureGather>`"
-
-msgid "Returns the value::"
-msgstr "Renvoie la valeur ::"
 
 msgid "param comps"
 msgstr "param comps"

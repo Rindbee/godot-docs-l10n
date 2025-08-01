@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,13 +16,6 @@ msgstr "JetBrains Rider"
 
 msgid "Importing the project"
 msgstr "Importation du projet"
-
-msgid ""
-"Navigate to the Godot root folder and open a Command Prompt or PowerShell "
-"window."
-msgstr ""
-"Naviguez jusqu'au dossier racine de Godot et ouvrez une fenêtre d'invite de "
-"commande ou une fenêtre PowerShell."
 
 msgid "Working Directory: ``$(LocalDebuggerWorkingDirectory)``"
 msgstr "Répertoire de travail : ``$(LocalDebuggerWorkingDirectory)``"

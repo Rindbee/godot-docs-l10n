@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -193,13 +193,6 @@ msgstr ""
 "Godot 提供了幾個虛函式，您可以定義這些函式來將類與引擎連接起來。其中包括 "
 "``_process()`` ，用於每影格將更改應用於節點，以及 ``_unhandled_input()`` ，用"
 "於接收使用者的輸入事件，如按鍵和按鈕。還有很多。"
-
-msgid ""
-"The ``Input`` singleton allows you to react to the players' input anywhere "
-"in your code. In particular, you'll get to use it in the ``_process()`` loop."
-msgstr ""
-"``Input`` 單例允許您在程式碼中的任何位置對玩家的輸入做出反應。 尤其是，你在 "
-"``_process()`` 迴圈中使用它。"
 
 msgid ""
 "In the next lesson, :ref:`doc_signals`, we'll build upon the relationship "

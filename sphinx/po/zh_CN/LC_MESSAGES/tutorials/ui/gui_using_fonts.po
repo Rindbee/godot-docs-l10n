@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -130,24 +130,6 @@ msgstr ""
 "<https://www.angelcode.com/products/bmfont/>`__ 程序创造的。与 BMFont 兼容的"
 "程序也有很多，比如 `BMGlyph <https://www.bmglyph.com/>`__ 和 Web 版的 "
 "`fontcutter <https://github.com/fabienbk/fontcutter>`__\\ 。"
-
-msgid ""
-"Alternatively, you can import any image to be used as a bitmap font. This is "
-"only supported for **monospaced** fonts (fonts where each character has the "
-"same width). To do so, select the image in the FileSystem dock, go to the "
-"Import dock, change its import type to **Font Data (Monospace Image Font)** "
-"then click **Reimport**:"
-msgstr ""
-"你还可以将任意图像作为位图字体导入。这种做法仅支持\\ **等宽**\\ 字体（每个字"
-"符都一样宽的字体）。使用方法是在“文件系统”面板中选中图像，然后切换到“导入”面"
-"板，将导入类型切换为 **Font Data (Monospace Image Font)** 然后点击\\ **重新导"
-"入**\\ ："
-
-msgid "Changing import type to Font Data (Monospace Image Font)"
-msgstr "将导入类型修改为 Font Data (Monospace Image Font)"
-
-msgid "Changing import type to **Font Data (Monospace Image Font)**"
-msgstr "将导入类型修改为 **Font Data (Monospace Image Font)**"
 
 msgid ""
 "The font's character set layout can be in any order, but orders that match "

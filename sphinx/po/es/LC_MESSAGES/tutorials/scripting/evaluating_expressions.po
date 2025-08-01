@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -36,9 +36,6 @@ msgstr ""
 
 msgid "Basic usage"
 msgstr "Uso básico"
-
-msgid "To evaluate a mathematical expression, use::"
-msgstr "Para evaluar una expresión matemática, utiliza::"
 
 msgid "The following operators are available:"
 msgstr "Los siguientes operadores estan disponibles:"
@@ -94,20 +91,8 @@ msgstr ""
 "números de punto flotante, cadenas, arreglos, diccionarios, colores, "
 "vectores, entre otros…"
 
-msgid "Arrays and dictionaries can be indexed like in GDScript::"
-msgstr "Los arreglos y diccionarios se pueden indexar igual que en GDScript::"
-
 msgid "Passing variables to an expression"
 msgstr "Pasando variables a una expresión"
-
-msgid ""
-"You can pass variables to an expression. These variables will then become "
-"available in the expression's \"context\" and will be substituted when used "
-"in the expression::"
-msgstr ""
-"Puedes pasar variables a una expresión. Estas variables estarán disponibles "
-"en el \"contexto\" de la expresión y se sustituirán cuando se utilicen en la "
-"expresión:"
 
 msgid ""
 "Both the variable names and variable values **must** be specified as an "
@@ -128,17 +113,6 @@ msgid ""
 msgstr ""
 "Por defecto, una expresión tiene una instancia base de ``null``. Esto "
 "significa que la expresión no tiene ninguna instancia base asociada a ella."
-
-msgid ""
-"When calling :ref:`Expression.execute() <class_Expression_method_execute>`, "
-"you can set the value of the ``base_instance`` parameter to a specific "
-"object instance such as ``self``, another script instance or even a "
-"singleton::"
-msgstr ""
-"Cuando llamas a :ref:`Expression.execute() "
-"<class_Expression_method_execute>`, puedes establecer el valor del parámetro "
-"``base_instance`` en una instancia específica de objeto, como ``self``, otra "
-"instancia de script o incluso un singleton::"
 
 msgid "Associating a base instance allows doing the following:"
 msgstr "Asociar una instancia base permite hacer lo siguiente:"
@@ -177,13 +151,6 @@ msgstr ""
 
 msgid "Example script"
 msgstr "Script de ejemplo"
-
-msgid "The script below demonstrates what the Expression class is capable of::"
-msgstr ""
-"El siguiente script demuestra lo que la clase Expression es capaz de hacer:"
-
-msgid "The output from the script will be::"
-msgstr "La salida de tu script será::"
 
 msgid "Built-in functions"
 msgstr "Funciones integradas"

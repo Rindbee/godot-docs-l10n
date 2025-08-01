@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -93,26 +93,6 @@ msgstr ""
 "启用链接时优化可以在性能和文件大小方面生成更高效的二进制文件. 它通过消除重复"
 "的模板功能和未使用的代码来工作. 目前, 它可以与GCC和MSVC编译器一起使用:"
 
-msgid ""
-"Linking becomes much slower and more RAM-consuming with this option, so it "
-"should be used only for release builds:"
-msgstr ""
-"使用此选项时，链接会变得特别慢、消耗更多的内存，所以应该仅用于构建发布版本："
-
-msgid ""
-"When compiling the ``master`` branch, you need to have at least 8 GB of RAM "
-"available for successful linking with LTO enabled."
-msgstr ""
-"编译 ``master`` 分支时，如果启用了 LTO，那么你需要至少 8 GB 可用内存才能成功"
-"链接。"
-
-msgid ""
-"When compiling the ``3.x`` branch, you need to have at least 6 GB of RAM "
-"available for successful linking with LTO enabled."
-msgstr ""
-"编译 ``3.x`` 分支时，如果启用了 LTO，那么你需要至少 6 GB 可用内存才能成功链"
-"接。"
-
 msgid "Optimizing for size instead of speed"
 msgstr "针对大小而不是速度优化"
 
@@ -164,12 +144,6 @@ msgid ""
 msgstr ""
 "必须禁用工具才能使用此标志, 因为编辑器不能在没有3D支持的情况下运行. 没有它, "
 "二进制大小可以减少大约15％."
-
-msgid ""
-"Disabling 3D support also disables all navigation. This includes 2D "
-"navigation, as it uses the 3D navigation system internally."
-msgstr ""
-"禁用 3D 支持也会禁用所有导航。这包括 2D 导航，因为它在内部使用 3D 导航系统。"
 
 msgid "Disabling advanced GUI objects"
 msgstr "禁用高级 GUI 对象"

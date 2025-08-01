@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -292,18 +292,6 @@ msgstr ""
 
 msgid "Next steps"
 msgstr "下一步"
-
-msgid ""
-"On Linux, to make your dedicated server restart after a crash or system "
-"reboot, you can `create a systemd service <https://medium.com/@benmorel/"
-"creating-a-linux-service-with-systemd-611b5c8b91d6>`__. This also lets you "
-"view server logs in a more convenient fashion, with automatic log rotation "
-"provided by systemd."
-msgstr ""
-"在Linux上, 为了让你的专用服务在崩溃或系统重启后重新启动, 你可以 `创建一个系统"
-"服务 <https://medium.com/@benmorel/creating-a-linux-servicewith-"
-"systemd-611b5c8b91d6>`__ . 这也可以更方便的查看服务器日志, 系统提供的日志自动"
-"轮询功能."
 
 msgid ""
 "If you have experience with containers, you could also look into wrapping "

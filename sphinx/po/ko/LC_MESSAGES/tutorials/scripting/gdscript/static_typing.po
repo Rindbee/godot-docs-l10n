@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -51,8 +51,8 @@ msgstr "정적 타입 사용법"
 msgid "What can be a type hint"
 msgstr "유형 힌트가 될 수 있는 것"
 
-msgid "Example::"
-msgstr "예시::"
+msgid "Example:"
+msgstr "예시:"
 
 msgid ""
 "If you try to cast with a built-in type and it fails, Godot will throw an "
@@ -98,6 +98,9 @@ msgstr ""
 "코드베이스의 일관성과 동료들을 위해, 둘 중 하나의 스타일을 고수하는 것을 권장"
 "합니다. 같은 가이드라인을 따른다면 모두가 함께 일하기 더 쉬워지고, 다른 사람"
 "의 코드를 더 빠르게 읽고 이해하게 될 것입니다."
+
+msgid "pass"
+msgstr "pass"
 
 msgid "Warning system"
 msgstr "경고 시스템(Warning system)"

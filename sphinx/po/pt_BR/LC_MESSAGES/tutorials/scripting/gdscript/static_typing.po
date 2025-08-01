@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -65,6 +65,9 @@ msgstr "Como usar a tipagem estática"
 msgid "What can be a type hint"
 msgstr "O que pode ser uma dica de tipo"
 
+msgid "Example:"
+msgstr "Exemplo:"
+
 msgid ""
 "If you try to cast with a built-in type and it fails, Godot will throw an "
 "error."
@@ -116,6 +119,9 @@ msgstr ""
 "código base. Facilita para todos trabalharem juntos se vocês seguirem as "
 "mesmas diretrizes, e acelera a leitura e o entendimento do código de outras "
 "pessoas."
+
+msgid "pass"
+msgstr "pass"
 
 msgid "Warning system"
 msgstr "Sistema de alertas"

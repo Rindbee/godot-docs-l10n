@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -424,17 +424,6 @@ msgstr ""
 
 msgid "Editor integration"
 msgstr "ஆசிரியர் ஒருங்கிணைப்பு"
-
-msgid ""
-"Many IDEs or code editors have beautifier plugins that can be configured to "
-"run ruff automatically, for example, each time you save a file. For details, "
-"you can check `Ruff Integrations <https://docs.astral.sh/ruff/integrations/"
-">`__."
-msgstr ""
-"பல IDE கள் அல்லது குறியீடு எடிட்டர்கள் அழகுபடுத்தும் செருகுநிரல்களைக் கொண்டுள்ளன, அவை "
-"தானாகவே ரஃப் இயக்க கட்டமைக்கப்படலாம், எடுத்துக்காட்டாக, ஒவ்வொரு முறையும் நீங்கள் ஒரு "
-"கோப்பைச் சேமிக்கிறீர்கள். விவரங்களுக்கு, நீங்கள் `ரஃப் ஒருங்கிணைப்புகளை <https://"
-"docs.astral.sh/ruff/integrations/> ____."
 
 msgid "Comment style guide"
 msgstr "கருத்து நடை வழிகாட்டி"

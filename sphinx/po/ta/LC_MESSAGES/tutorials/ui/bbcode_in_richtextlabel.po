@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -412,6 +412,9 @@ msgstr "`` [p] {text} [/p] ``"
 msgid "``[p {options}]{text}[/p]``"
 msgstr "`` [p {options}] {text} [/p] ``"
 
+msgid "``[br]``"
+msgstr "`` [br] ``"
+
 msgid "**center**"
 msgstr "** நடுவண் **"
 
@@ -498,18 +501,6 @@ msgstr "`` [url = {link}] {text} [/url] ``"
 
 msgid "**hint**"
 msgstr "** குறிப்பு **"
-
-msgid ""
-"Creates a tooltip hint that is displayed when hovering the text with the "
-"mouse. Tooltip text should not be quoted (quotes will appear as-is in the "
-"tooltip otherwise)."
-msgstr ""
-"சுட்டியுடன் உரையை வட்டமிடும்போது காண்பிக்கப்படும் ஒரு உதவிக்குறிப்பு குறிப்பை "
-"உருவாக்குகிறது. உதவிக்குறிப்பு உரை மேற்கோள் காட்டப்படக்கூடாது (மேற்கோள்கள் வக்கிரம் "
-"இல்லையெனில் தோன்றும்)."
-
-msgid "``[hint={tooltip text displayed on hover}]{text}[/hint]``"
-msgstr "`` [குறிப்பு = {tooltip text displayed on hover}] {text} [/குறிப்பு] ``"
 
 msgid "**img**"
 msgstr "** img **"
@@ -1018,30 +1009,8 @@ msgstr ""
 "இணைக்கவும்: குறிப்பு: `மெட்டா_பிரிக்டெக்ச்ட்லேபிள்_சிக்னல்_மெட்டா_கிளிக்>` ஒரு ச்கிரிப்ட் "
 "செயல்பாட்டிற்கு சமிக்ஞை."
 
-msgid ""
-"For example, the following method can be connected to ``meta_clicked`` to "
-"open clicked URLs using the user's default web browser::"
-msgstr ""
-"எடுத்துக்காட்டாக, பயனரின் இயல்புநிலை வலை உலாவியைப் பயன்படுத்தி சொடுக்கு செய்யப்பட்ட "
-"முகவரி களைத் திறக்க பின்வரும் முறையை `` மெட்டா_கிக்கெட்`` உடன் இணைக்க முடியும் ::"
-
-msgid ""
-"For more advanced use cases, it's also possible to store JSON in an "
-"``[url]`` tag's option and parse it in the function that handles the "
-"``meta_clicked`` signal. For example:"
-msgstr ""
-"மேலும் மேம்பட்ட பயன்பாட்டு நிகழ்வுகளுக்கு, சாதொபொகு ஐ `` [url] `` `குறிச்சொல்லின் "
-"விருப்பத்தில் சேமித்து,` `meta_clicked`` சமிக்ஞையை கையாளும் செயல்பாட்டில் அதை அலசவும் "
-"முடியும். உதாரணமாக:"
-
-msgid "Image options"
-msgstr "பட விருப்பங்கள்"
-
 msgid "Color name or color in HEX format"
 msgstr "ஃச் வடிவத்தில் வண்ண பெயர் அல்லது வண்ணம்"
-
-msgid "Color tint of the image (modulation)."
-msgstr "படத்தின் வண்ண நிறம் (பண்பேற்றம்)."
 
 msgid "**height**"
 msgstr "** உயரம் **"
@@ -1049,22 +1018,24 @@ msgstr "** உயரம் **"
 msgid "Integer number"
 msgstr "முழு எண் எண்"
 
+msgid "``2``"
+msgstr "`` 2``"
+
+msgid "**width**"
+msgstr "** அகலம் **"
+
+msgid "Image options"
+msgstr "பட விருப்பங்கள்"
+
+msgid "Color tint of the image (modulation)."
+msgstr "படத்தின் வண்ண நிறம் (பண்பேற்றம்)."
+
 msgid ""
 "Target height of the image in pixels, add ``%`` to the end of value to "
 "specify it as percentages of the control width instead of pixels."
 msgstr ""
 "படத்தின் இலக்கு உயரம் பிக்சல்களில், பிக்சல்களுக்கு பதிலாக கட்டுப்பாட்டு அகலத்தின் "
 "சதவீதங்களாகக் குறிப்பிட மதிப்பின் முடிவில் ``%`` சேர்க்கவும்."
-
-msgid "**width**"
-msgstr "** அகலம் **"
-
-msgid ""
-"Target width of the image, add ``%`` to the end of value to specify it as "
-"percentages of the control width instead of pixels."
-msgstr ""
-"படத்தின் இலக்கு அகலத்தை, பிக்சல்களுக்கு பதிலாக கட்டுப்பாட்டு அகலத்தின் சதவீதங்களாகக் "
-"குறிப்பிட மதிப்பின் முடிவில் ``%`` சேர்க்கவும்."
 
 msgid "**region**"
 msgstr "** பகுதி **"
@@ -1413,13 +1384,6 @@ msgid ""
 msgstr ""
 "கீழே உள்ள அனைத்து எடுத்துக்காட்டுகளும் பட்டியலிடப்பட்ட குறிச்சொல் வடிவத்தில் உள்ள "
 "விருப்பங்களுக்கான இயல்புநிலை மதிப்புகளைக் குறிப்பிடுகின்றன."
-
-msgid ""
-"Text effects that move characters' position may result in characters being "
-"clipped by the RichTextLabel node bounds."
-msgstr ""
-"எழுத்துக்களின் நிலையை நகர்த்தும் உரை விளைவுகள், எழுத்துக்கள் ரிச்ச்டெக்ச்ட்லேபிள் முனை "
-"எல்லைகளால் கிளிப் செய்யப்படலாம்."
 
 msgid ""
 "You can resolve this by disabling **Control > Layout > Clip Contents** in "

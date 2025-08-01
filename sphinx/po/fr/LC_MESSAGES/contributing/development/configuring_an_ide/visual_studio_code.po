@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -111,17 +111,6 @@ msgstr ""
 
 msgid "An example of a filled out ``launch.json``."
 msgstr "Un exemple de ``launch.json`` rempli."
-
-msgid ""
-"Due to sporadic performance issues, it is recommended to use LLDB over GDB "
-"on Unix-based systems. Make sure that the `CodeLLDB extension <https://"
-"marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb>`_ is "
-"installed."
-msgstr ""
-"En raison de problèmes de performances sporadiques, il est recommandé "
-"d'utiliser LLDB plutôt que GDB sur les systèmes basés sur Unix. Assurez-vous "
-"que l'extension `CodeLLDB <https://marketplace.visualstudio.com/items?"
-"itemName=vadimcn.vscode-lldb>`_ est installée."
 
 msgid ""
 "Do note that lldb may work better with LLVM-based builds. "

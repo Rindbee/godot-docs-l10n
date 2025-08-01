@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -321,19 +321,6 @@ msgstr ""
 
 msgid "Monitors"
 msgstr "Monatóirí"
-
-msgid ""
-"The monitors are graphs of several aspects of the game while its running "
-"such as FPS, memory usage, how many nodes are in a scene and more. All "
-"monitors keep track of stats automatically, so even if one monitor isn't "
-"open while the game is running, you can open it later and see how the values "
-"changed."
-msgstr ""
-"Is graif iad na monatóirí de roinnt gnéithe den chluiche agus é ag rith, mar "
-"shampla FPS, úsáid cuimhne, cé mhéad nóid atá i radharc agus níos mó. "
-"Coinníonn gach monatóir súil ar stats go huathoibríoch, mar sin fiú mura "
-"bhfuil monatóireacht amháin oscailte agus an cluiche ag rith, is féidir leat "
-"é a oscailt níos déanaí agus a fheiceáil conas a d'athraigh na luachanna."
 
 msgid ""
 "In addition to the default performance monitors, you can also "

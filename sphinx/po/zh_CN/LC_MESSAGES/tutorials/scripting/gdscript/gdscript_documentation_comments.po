@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -99,8 +99,8 @@ msgstr "``@experimental``"
 msgid "``@experimental: This class is unstable.``"
 msgstr "``@experimental: 该类不稳定``"
 
-msgid "For example::"
-msgstr "例如： ::"
+msgid "For example:"
+msgstr "例如："
 
 msgid ""
 "If there is any space in between the tag name and colon, for example "
@@ -163,9 +163,6 @@ msgstr "``@deprecated: 请改用 [member another]。``"
 
 msgid "``@experimental: This method is incomplete.``"
 msgstr "``@experimental: 该方法尚未完善。``"
-
-msgid "Alternatively, you can use inline documentation comments::"
-msgstr "或者你也可以使用内联的文档注释： ::"
 
 msgid ""
 "The script documentation will update in the editor help window every time "

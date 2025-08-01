@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -429,14 +429,6 @@ msgstr "Enum members"
 
 msgid "``{EARTH, WATER, AIR, FIRE}``"
 msgstr "``{EARTH, WATER, AIR, FIRE}``"
-
-msgid ""
-"Use snake_case for file names. For named classes, convert the PascalCase "
-"class name to snake_case::"
-msgstr ""
-"Використовуйте snake_case (слова маленькими буквами через підкреслення) для "
-"імен файлів. Для іменованих класів перетворіть ім’я класу PascalCase "
-"(нерозділені слова з великої букви) в snake_case:"
 
 msgid ""
 "This is consistent with how C++ files are named in Godot's source code. This "

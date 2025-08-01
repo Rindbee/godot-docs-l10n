@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -483,16 +483,6 @@ msgid ""
 msgstr ""
 "துவக்குகிறது: ref: `ஆடியோசர்வர் <class_audioserver>` ஒரு போலி ஆடியோ இயக்கியைப் "
 "பயன்படுத்துதல்."
-
-msgid "``[Navigation]``"
-msgstr "`` [வழிசெலுத்தல்] ``"
-
-msgid ""
-"Creates the default 2D/3D navigation servers and makes them available for "
-"testing."
-msgstr ""
-"இயல்புநிலை 2D/3D வழிசெலுத்தல் சேவையகங்களை உருவாக்கி அவற்றை சோதனைக்கு கிடைக்கச் "
-"செய்கிறது."
 
 msgid ""
 "You can use them together to combine multiple test environment extensions."

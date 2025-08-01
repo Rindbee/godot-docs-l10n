@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1295,9 +1295,6 @@ msgstr "புள்ளி அளவு"
 
 msgid "When drawing points, specify the point size in pixels."
 msgstr "புள்ளிகளை வரையும்போது, புள்ளி அளவைக் பிக்சல்களில் குறிப்பிடவும்."
-
-msgid "Transmission"
-msgstr "பரவும் முறை"
 
 msgid "Proximity and Distance Fade"
 msgstr "அருகாமையும் தூர மங்கலும்"

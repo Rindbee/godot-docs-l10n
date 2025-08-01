@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -49,12 +49,6 @@ msgstr ""
 "Má tá teimpléad easpórtála gréasáin ar fáil, tá cnaipe le feiceáil idir na "
 "cnaipí *Stop scene *agus *Play edited Scene *san eagarthóir chun an cluiche "
 "a oscailt go tapa sa bhrabhsálaí réamhshocraithe le haghaidh tástála."
-
-msgid ""
-"If your project uses GDExtension **Extension Support** needs to be enabled."
-msgstr ""
-"Má úsáideann do thionscadal GDExtension **Tacaíocht Síneadh** ní mór é a "
-"chumasú."
 
 msgid ""
 "If a path to a **Custom HTML shell** file is given, it will be used instead "

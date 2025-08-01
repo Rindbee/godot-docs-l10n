@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -810,9 +810,6 @@ msgstr "**Cząsteczki:**"
 
 msgid "**Post-processing:**"
 msgstr "**Post-processing:***"
-
-msgid "Tonemapping (Linear, Reinhard, Filmic, ACES)."
-msgstr "Mapowanie tonów (liniowe, Reinharda, filmowe, ACES)."
 
 msgid ""
 "Glow/bloom with optional bicubic upscaling and several blend modes "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -319,16 +319,6 @@ msgstr ""
 
 msgid "The hand skeleton modifier"
 msgstr "Модифікатор скелета руки"
-
-msgid ""
-"Finally we need to add a :ref:`XRHandModifier3D <class_xrhandmodifier3d>` "
-"node as a child to our ``Skeleton3D`` node. This node will obtain the finger "
-"tracking data from OpenXR and apply it the hand model."
-msgstr ""
-"Нарешті нам потрібно додати вузол :ref:`XRHandModifier3D "
-"<class_xrhandmodifier3d>` як дочірній вузол до нашого вузла ``Skeleton3D``. "
-"Цей вузол отримуватиме дані відстеження пальців із OpenXR і застосовуватиме "
-"їх до моделі руки."
 
 msgid ""
 "You need to set the ``Hand Tracker`` property to either ``/user/hand_tracker/"

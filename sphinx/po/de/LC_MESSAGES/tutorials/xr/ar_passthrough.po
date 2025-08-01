@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -254,11 +254,6 @@ msgid ""
 msgstr ""
 "Da wir die Oberfläche undurchsichtig machen, wenn sie im Schatten liegt, "
 "können wir virtuelle Objekte Schatten auf reale Objekte werfen lassen [#]_."
-
-msgid "Image showing shadow to opacity being used to show the users desk."
-msgstr ""
-"Das Bild zeigt Shadow to Opacity, das verwendet wird, um den Schreibtisch "
-"des Benutzers anzuzeigen."
 
 msgid "This enabled the following use cases:"
 msgstr "Dies ermöglichte die folgenden Anwendungsfälle:"

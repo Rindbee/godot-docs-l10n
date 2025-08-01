@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -97,9 +97,6 @@ msgstr "``template_scripts/Node/smooth_camera.gd``"
 msgid "``template_scripts/CharacterBody3D/platformer_movement.gd``"
 msgstr "``template_scripts/CharacterBody3D/platformer_movement.gd``"
 
-msgid "Default behaviour and overriding it"
-msgstr "默认行为与覆盖"
-
 msgid "By default:"
 msgstr "默认情况下："
 
@@ -116,11 +113,6 @@ msgstr "空格缩进为 4"
 
 msgid "the template will not be set as the default for the given node"
 msgstr "不会将该模板设为给定节点的默认模板"
-
-msgid ""
-"It is possible to customize this behaviour by adding meta headers at the "
-"start of your file, like this:"
-msgstr "在文件的开头添加元数据报头即可自定义该行为，类似于："
 
 msgid ""
 "In this case, the name will be set to \"Platformer movement\", with the "

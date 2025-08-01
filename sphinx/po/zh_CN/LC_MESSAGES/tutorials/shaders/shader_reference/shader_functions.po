@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -489,18 +489,18 @@ msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_type| a, |vec_type| b)"
 msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_type| a, float b)"
 msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_type| a, float b)"
 
+msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
+msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
+
+msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
+msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
+
 msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, |vec_uint_type| b)"
 msgstr ""
 ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, |vec_uint_type| b)"
 
 msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, uint b)"
 msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, uint b)"
-
-msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
-msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
-
-msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
-msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
 
 msgid "Highest value between ``a`` and ``b``."
 msgstr "``a`` 和 ``b`` 之间的较大值。"
@@ -523,11 +523,6 @@ msgid ""
 msgstr ""
 ":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, |vec_int_type| min, |"
 "vec_int_type| max)"
-
-msgid ""
-":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, float min, float max)"
-msgstr ""
-":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, float min, float max)"
 
 msgid ""
 ":ref:`mix<shader_func_mix>`\\ (\\ |vec_type| a, |vec_type| b, |vec_type| c)"
@@ -838,27 +833,6 @@ msgid ""
 "maxVal) :ref:`🔗<shader_func_clamp>`"
 msgstr ""
 "|vec_type| **clamp**\\ (\\ |vec_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-
-msgid ""
-"|vec_uint_type| **clamp**\\ (\\ |vec_int_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-msgstr ""
-"|vec_uint_type| **clamp**\\ (\\ |vec_int_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-
-msgid ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, |vec_type| minVal, |vec_type| "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-msgstr ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, |vec_type| minVal, |vec_type| "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-
-msgid ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-msgstr ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, float minVal, float "
 "maxVal) :ref:`🔗<shader_func_clamp>`"
 
 msgid ""
@@ -1240,9 +1214,6 @@ msgstr "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/dot.xhtml"
 msgid "vec3 **cross**\\ (\\ vec3 a, vec3 b) :ref:`🔗<shader_func_cross>`"
 msgstr "vec3 **cross**\\ (\\ vec3 a, vec3 b) :ref:`🔗<shader_func_cross>`"
 
-msgid "Returns the cross product of two vectors. i.e.::"
-msgstr "返回两个向量的叉积，即： ::"
-
 msgid "The cross product of ``a`` and ``b``."
 msgstr "``a`` 和 ``b`` 的叉积。"
 
@@ -1284,9 +1255,6 @@ msgstr "法向量。"
 msgid "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/reflect.xhtml"
 msgstr ""
 "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/reflect.xhtml"
-
-msgid "``R`` is calculated as::"
-msgstr "``R`` 的计算方法是： ::"
 
 msgid "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/refract.xhtml"
 msgstr ""
@@ -1618,9 +1586,6 @@ msgid ""
 msgstr ""
 "如果布尔向量中的任意分量为 ``true`` 则返回 ``true``\\ ，否则返回 "
 "``false``\\ 。"
-
-msgid "Functionally equivalent to::"
-msgstr "功能上等价于： ::"
 
 msgid "The vector to be tested for truth."
 msgstr "要检查真假的向量。"
@@ -2283,15 +2248,6 @@ msgstr ""
 "lod) :ref:`🔗<shader_func_textureLod>`"
 
 msgid ""
-"Performs a texture lookup at coordinate ``p`` from the texture bound to "
-"sampler with an explicit level-of-detail as specified in ``lod``. ``lod`` "
-"specifies λbase and sets the partial derivatives as follows::"
-msgstr ""
-"在绑定的采样器纹理上，使用显式细节层级（LOD）``lod`` 指定的坐标 ``p`` 处执行"
-"纹理查找。``lod`` 指定了 λbase 并设置偏导数如下：::\\ `lod` 指定了 λbase 并设"
-"置偏导数如下：::"
-
-msgid ""
 "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/textureLod.xhtml"
 msgstr ""
 "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/textureLod.xhtml"
@@ -2458,9 +2414,6 @@ msgid ""
 msgstr ""
 "vec4 **textureGather**\\ (\\ samplerCube s, vec3 p [, int "
 "comps] ) :ref:`🔗<shader_func_textureGather>`"
-
-msgid "Returns the value::"
-msgstr "返回值： ::"
 
 msgid ""
 "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/textureGather.xhtml"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -137,13 +137,6 @@ msgstr "** எளிய ** மறைமுகமான சரம் மாற்
 
 msgid "``c``"
 msgstr "`` சி``"
-
-msgid ""
-"A single **Unicode character**. Expects an unsigned 8-bit integer (0-255) "
-"for a code point or a single-character string."
-msgstr ""
-"ஒற்றை ** யூனிகோட் எழுத்து **. ஒரு குறியீடு புள்ளி அல்லது ஒற்றை-எழுத்து சரத்திற்கு "
-"கையொப்பமிடப்படாத 8-பிட் முழு எண் (0-255) எதிர்பார்க்கிறது."
 
 msgid "``d``"
 msgstr "`` டி``"

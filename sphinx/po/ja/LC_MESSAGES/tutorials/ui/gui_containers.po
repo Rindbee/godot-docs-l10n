@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -201,13 +201,6 @@ msgstr "分割線をドラッグして、両方の子のサイズ関係を変更
 msgid "PanelContainer"
 msgstr "パネルコンテナ"
 
-msgid ""
-"This container is useful as top-level, or just to add custom backgrounds to "
-"sections of a layout."
-msgstr ""
-"このコンテナは、トップレベルとして、またはレイアウトのセクションにカスタムの"
-"背景を追加する場合に便利です。"
-
 msgid "ScrollContainer"
 msgstr "スクロールコンテナ"
 
@@ -230,10 +223,3 @@ msgstr "SubViewportContainer"
 
 msgid "Creating custom Containers"
 msgstr "カスタムコンテナの作成"
-
-msgid ""
-"It is possible to create a custom container using a script. Here is an "
-"example of a container that fits children to its rect size:"
-msgstr ""
-"スクリプトを使用してカスタムコンテナを簡単に作成することができます。以下は、"
-"子をその長方形サイズに合わせるコンテナの例です:"

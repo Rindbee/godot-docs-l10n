@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -107,9 +107,6 @@ msgstr "Pour s'exécuter sur un appareil :"
 
 msgid "Enable developer mode on your device."
 msgstr "Activez le mode développeur sur votre appareil."
-
-msgid "For running in simulator:"
-msgstr "Pour s'exécuter dans un simulateur :"
 
 msgid "Device screen should be unlocked."
 msgstr "L'écran du périphérique doit être déverrouillé."

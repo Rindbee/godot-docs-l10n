@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -512,14 +512,6 @@ msgid ""
 "``[codeblock]`` disables BBCode until the parser encounters ``[/codeblock]``."
 msgstr ""
 "``[codeblock]`` вимикає BBCode, доки аналізатор не зустріне ``[/codeblock]``."
-
-msgid ""
-"Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, "
-"always use **four spaces** for indentation. The parser will delete tabs."
-msgstr ""
-"Використовуйте ``[codeblock]`` для попередньо відформатованих блоків коду. "
-"Усередині ``[codeblock]`` завжди використовуйте **чотири пробіли** для "
-"відступу. Синтаксичний аналізатор видалить вкладки."
 
 msgid "For example:"
 msgstr "Приклад:"

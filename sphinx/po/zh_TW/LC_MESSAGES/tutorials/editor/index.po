@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -22,16 +22,6 @@ msgstr ""
 
 msgid "Editor's interface"
 msgstr "編輯器界面 (C++)"
-
-msgid ""
-"The following pages explain how to use the various windows, workspaces, and "
-"docks that make up the Godot editor. We cover some specific editors' "
-"interface in other sections where appropriate. For example, "
-"the :ref:`animation editor <doc_introduction_animation>`."
-msgstr ""
-"在這一部分中，我們將介紹 Godot 編輯器的大體情況，從介面到如何在命令列中使用。"
-"我們也會在合適的時候在其他章節中介紹特定的編輯器介面。例如 :ref:`動畫編輯器 "
-"<doc_introduction_animation>`。"
 
 msgid "XR editor"
 msgstr "XR 編輯器"

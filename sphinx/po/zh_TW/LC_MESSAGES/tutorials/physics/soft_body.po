@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,9 +10,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid "Using SoftBody"
-msgstr "使用模組"
 
 msgid ""
 "Soft bodies (or *soft-body dynamics*) simulate movement, changing shape and "
@@ -32,15 +29,6 @@ msgstr "可用 :ref:`SoftBody3D <class_SoftBody3D>` 節點來進行柔體模擬�
 
 msgid "We will create a bouncy cube to demonstrate the setup of a soft body."
 msgstr "我們將建立一個彈性立方體來演示柔體的設定。"
-
-msgid ""
-"Create a new scene with a ``Node3D`` node as root. Then, create a "
-"``Softbody`` node. Add a ``CubeMesh`` in the ``mesh`` property of the node "
-"in the inspector and increase the subdivision of the mesh for simulation."
-msgstr ""
-"建立一個以 ``Spatial`` 節點為根節點的新場景。然後再建立一個 ``Softbody`` 節"
-"點。之後在 ``Softbody`` 節點的屬性檢視器面板中的 ``mesh`` 中新增 "
-"``CubeMesh`` 並增加網格的細分以進行模擬。"
 
 msgid ""
 "Set the parameters to obtain the type of soft body you aim for. Try to keep "
@@ -83,22 +71,6 @@ msgstr ""
 "master/3d/platformer>`_ 或 `素材庫 <https://godotengine.org/asset-library/"
 "asset/2748>`_ 下載 Platformer3D 範例專案。"
 
-msgid ""
-"Open the ``Player`` scene, add a ``SoftBody`` node and assign a "
-"``PlaneMesh`` to it."
-msgstr ""
-"打開 ``Player`` 場景，新增一個 ``SoftBody`` 節點並為其指定一個 "
-"``PlaneMesh``。"
-
-msgid ""
-"Open the ``PlaneMesh`` properties and set the size(x: 0.5 y: 1) then set "
-"``Subdivide Width`` and ``Subdivide Depth`` to 5. Adjust the ``SoftBody``'s "
-"position. You should end up with something like this:"
-msgstr ""
-"打開 ``PlaneMesh`` 屬性並設定大小（x:0.5 y:1），然後將 ``Subdivide Width``"
-"（寬度細分）和 ``Subdivide Depth``（深度細分）設定為 5。調整 ``SoftBody`` 的"
-"位置。您應該看到如下所示："
-
 msgid "Subdivision generates a more tessellated mesh for better simulations."
 msgstr "細分會生成更細密的網格，以便更好地進行模擬。"
 
@@ -117,25 +89,6 @@ msgid ""
 msgstr ""
 "``BoneAttachment`` 節點的作用是將物體附著到骨架的某根骨骼上。附著的物體會隨著"
 "骨骼運動，角色的武器可以通過這種方式附加。"
-
-msgid ""
-"To create pinned joints, select the upper vertices in the ``SoftBody`` node:"
-msgstr "要建立固定的關節，選擇 ``SoftBody`` 節點上方的頂點："
-
-msgid ""
-"The pinned joints can be found in ``SoftBody``'s ``Attachments`` property, "
-"choose the ``BoneAttachment`` as the ``SpatialAttachment`` for each pinned "
-"joints, the pinned joints are now attached to the neck."
-msgstr ""
-"在 ``SoftBody`` 的 ``Attachments`` 屬性中可以找到圖釘關節，為每個被圖釘關節選"
-"擇 ``BoneAttachment`` 作為 ``SpatialAttachment``，被圖釘關節連接到頸部。"
-
-msgid ""
-"Last step is to avoid clipping by adding the Kinematic Body `Player` to "
-"``Parent Collision Ignore`` of the ``SoftBody``."
-msgstr ""
-"最後一步，通過在 ``SoftBody`` 的 ``Parent Collision Ignore`` 中新增動力學物"
-"體 `Player` 來避免裁切。"
 
 msgid "Play the scene and the cloak should simulate correctly."
 msgstr "播放場景，應該已經正確模擬了斗篷。"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -129,12 +129,6 @@ msgstr "`` emacs +{line}: {col} {file} ``"
 
 msgid "Sublime Text"
 msgstr "விழுமிய உரை"
-
-msgid "``{project} {file}:{line}:{column}``"
-msgstr "`{project} {file}: {line}: {column}` `"
-
-msgid "Visual Studio"
-msgstr "விசுவல் ச்டுடியோ"
 
 msgid "``/edit \"file\"``"
 msgstr "``/\"கோப்பைத் திருத்து\" ``"

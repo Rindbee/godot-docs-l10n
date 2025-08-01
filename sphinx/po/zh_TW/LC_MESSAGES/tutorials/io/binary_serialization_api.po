@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -62,11 +62,6 @@ msgid ""
 msgstr ""
 "根據設計，封包總是會被填充到 4 個位元組。所有的值都是小端編碼的。所有封包都有"
 "一個 4 位元組的頭，代表一個整數，指定資料的型別。"
-
-msgid ""
-"The lowest value two bytes are used to determine the type, while the highest "
-"value two bytes contain flags::"
-msgstr "兩個低位元組用於確定型別，而兩個高位元組則包含旗標："
 
 msgid "Type"
 msgstr "型別"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -22,15 +22,3 @@ msgstr "Nazwę."
 
 msgid "Scenes"
 msgstr "Sceny"
-
-msgid "The Create Node dialog opens, showing the long list of available nodes."
-msgstr ""
-"Otworzy się okno dialogowe „Utwórz Węzeł”, pokazujące długą listę dostępnych "
-"węzłów."
-
-msgid ""
-"The next step is to change the Label's \"Text\" property. Let's change it to "
-"\"Hello World\"."
-msgstr ""
-"Następnym krokiem będzie zmiana właściwości \"Text\" etykiety. Zmieńmy ją na "
-"\"Witaj Świecie\"."

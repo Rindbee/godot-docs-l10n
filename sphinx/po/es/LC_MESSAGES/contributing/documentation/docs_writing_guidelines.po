@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -601,3 +601,9 @@ msgid "In **Project > Project Settings > Input Map**, add a new input action."
 msgstr ""
 "En **Proyecto > Ajustes del Proyecto > Mapa de Entradas**, añada una nueva "
 "acción de entrada."
+
+msgid "**Bad:**"
+msgstr "**Mal:**"
+
+msgid "Examples"
+msgstr "Ejemplos"

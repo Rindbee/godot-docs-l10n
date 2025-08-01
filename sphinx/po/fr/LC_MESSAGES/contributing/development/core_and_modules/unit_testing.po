@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -100,16 +100,6 @@ msgstr "``[Editor]``"
 
 msgid "``[Audio]``"
 msgstr "``[Audio]``"
-
-msgid "``[Navigation]``"
-msgstr "``[Navigation]``"
-
-msgid ""
-"Creates the default 2D/3D navigation servers and makes them available for "
-"testing."
-msgstr ""
-"Crée les serveurs de navigation 2D/3D par défaut et les rend disponibles "
-"pour les tests."
 
 msgid "Macro"
 msgstr "Macro"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -133,6 +133,3 @@ msgstr ""
 
 msgid "Loading it on GDScript"
 msgstr "Carregando no GDScript"
-
-msgid "Then attach the following script to any node::"
-msgstr "Em seguida, anexe o seguinte script a qualquer nó:"

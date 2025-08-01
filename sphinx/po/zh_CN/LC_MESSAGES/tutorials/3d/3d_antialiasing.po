@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -515,6 +515,9 @@ msgstr "添加了模糊效果"
 msgid "🟢 None"
 msgstr "🟢 无"
 
+msgid "🟢 Low"
+msgstr "🟢 低"
+
 msgid "🟡 Some [3]_"
 msgstr "🟡 某些 [3]_"
 
@@ -532,9 +535,6 @@ msgstr "🟡 中等"
 
 msgid "🔴 High"
 msgstr "🔴 高"
-
-msgid "🟢 Low"
-msgstr "🟢 低"
 
 msgid "🔴 Very High"
 msgstr "🔴 非常高"

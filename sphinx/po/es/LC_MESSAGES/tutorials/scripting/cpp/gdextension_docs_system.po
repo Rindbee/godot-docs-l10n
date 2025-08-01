@@ -1,0 +1,58 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Tag"
+msgstr "Etiqueta"
+
+msgid "Example"
+msgstr "Ejemplo"
+
+msgid "``[b]{text}[/b]``"
+msgstr "``[b]{text}[/b]``"
+
+msgid "``[i]{text}[/i]``"
+msgstr "``[i]{text}[/i]``"
+
+msgid "``[u]{text}[/u]``"
+msgstr "``[u]{text}[/u]``"
+
+msgid "``[s]{text}[/s]``"
+msgstr "``[s]{text}[/s]``"
+
+msgid "**code**"
+msgstr "**codigo**"
+
+msgid "``[code]{text}[/code]``"
+msgstr "``[code]{text}[/code]``"
+
+msgid "**center**"
+msgstr "**centrado**"
+
+msgid "``[center]{text}[/center]``"
+msgstr "``[center]{text}[/center]``"
+
+msgid "**url**"
+msgstr "**url**"
+
+msgid "``[img]{path}[/img]``"
+msgstr "``[img]{path}[/img]``"
+
+msgid "**color**"
+msgstr "**color**"
+
+msgid ""
+"Add `godot-docs <https://github.com/godotengine/godot-docs>`_ as a submodule "
+"to your ``docs/`` folder."
+msgstr ""
+"Añada el `repositorio de la documentación <https://github.com/godotengine/"
+"godot-docs>`_ como un submódulo de su carpeta ``docs/``."

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -82,13 +82,6 @@ msgid ""
 msgstr ""
 "Má tá níos mó ná gléas amháin ceangailte agat, iarrfaidh Godot ort cén gléas "
 "ba chóir an tionscadal a onnmhairiú chuig."
-
-msgid ""
-"**iOS:** Exports the project with debugging enabled and runs it on the "
-"connected device or simulator."
-msgstr ""
-"**iOS: ** Onnmhairíonn an tionscadal le dífhabhtú cumasaithe agus ritheann "
-"sé é ar an bhfeiste nó ar an insamhlóir nasctha."
 
 msgid ""
 "Make sure to follow the steps described in :ref:`doc_exporting_for_ios`. "
@@ -192,12 +185,6 @@ msgstr ""
 "roghnaítear comhéadan líonra ceart i socruithe an eagarthóra (féach `Líonra "
 "Dífhabhtú、Óstach iargúlta `). De réir réamhshocraithe, tá an t-eagarthóir "
 "ag éisteacht le naisc `localhost` amháin."
-
-msgid "For running in simulator:"
-msgstr "Le haghaidh rith in insamhlóir:"
-
-msgid "Install and start simulator from the Xcode."
-msgstr "Suiteáil agus tosú insamhlóir ón Xcode."
 
 msgid "Device screen should be unlocked."
 msgstr "Ba chóir scáileán gléas a dhíghlasáil."

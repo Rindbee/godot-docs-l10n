@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -518,14 +518,6 @@ msgid ""
 msgstr ""
 "Díchumasaíonn ''[codeblock]'' BBCode go dtí go dtagann an parsálaí ar ''[/"
 "codeblock]''."
-
-msgid ""
-"Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, "
-"always use **four spaces** for indentation. The parser will delete tabs."
-msgstr ""
-"Úsáid ''[codeblock]'' le haghaidh bloic chóid réamhfhormáidithe. Taobh "
-"istigh de ''[codeblock]'', bain úsáid as **ceithre spás** i gcónaí le "
-"haghaidh eangú. Scriosfaidh an parsálaí cluaisíní."
 
 msgid "For example:"
 msgstr "Mar shampla:"

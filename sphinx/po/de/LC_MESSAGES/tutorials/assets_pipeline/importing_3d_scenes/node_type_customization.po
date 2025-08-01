@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -52,17 +52,6 @@ msgid ""
 msgstr ""
 "Alle unten beschriebenen Suffixe können mit ``-``, ``$`` und ``_`` verwendet "
 "werden und unterscheiden **Groß/Kleinschreibung**."
-
-msgid "Remove nodes (-noimp)"
-msgstr "Nodes entfernen (-noimp)"
-
-msgid ""
-"Objects that have the ``-noimp`` suffix will be removed at import-time no "
-"matter what their type is. They will not appear in the imported scene."
-msgstr ""
-"Objekte, die das Suffix ``-noimp`` haben, werden beim Import entfernt, "
-"unabhängig von ihrem Typ. Sie werden in der importierten Szene nicht "
-"erscheinen."
 
 msgid ""
 "This is equivalent to enabling **Skip Import** for a node in the Advanced "

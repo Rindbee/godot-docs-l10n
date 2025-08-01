@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -34,9 +34,6 @@ msgstr ""
 
 msgid "Basic usage"
 msgstr "基本用法"
-
-msgid "To evaluate a mathematical expression, use::"
-msgstr "要对数学表达式求值，请使用： ::"
 
 msgid "The following operators are available:"
 msgstr "可以使用以下运算符："
@@ -88,19 +85,8 @@ msgstr ""
 "Godot 所支持的所有 Variant 类型都可以使用：整数、浮点数、字符串、数组、字典、"
 "颜色、向量……"
 
-msgid "Arrays and dictionaries can be indexed like in GDScript::"
-msgstr "数组与字典的索引方法与 GDScript 一致： ::"
-
 msgid "Passing variables to an expression"
 msgstr "向表达式传递变量"
-
-msgid ""
-"You can pass variables to an expression. These variables will then become "
-"available in the expression's \"context\" and will be substituted when used "
-"in the expression::"
-msgstr ""
-"你可以将变量传入表达式。这些变量就会进入这个表达式的“上下文”，在表达式中使用"
-"就会被替换： ::"
 
 msgid ""
 "Both the variable names and variable values **must** be specified as an "
@@ -117,16 +103,6 @@ msgid ""
 "By default, an expression has a base instance of ``null``. This means the "
 "expression has no base instance associated to it."
 msgstr "表达式默认的基础实例是 ``null``\\ 。这意味着该表达式没有关联基础实例。"
-
-msgid ""
-"When calling :ref:`Expression.execute() <class_Expression_method_execute>`, "
-"you can set the value of the ``base_instance`` parameter to a specific "
-"object instance such as ``self``, another script instance or even a "
-"singleton::"
-msgstr ""
-"调用 :ref:`Expression.execute() <class_Expression_method_execute>` 时，你可以"
-"将参数 ``base_instance`` 的值设为 ``self``\\ 、另一个脚本实例、单例等特定对象"
-"的实例： ::"
 
 msgid "Associating a base instance allows doing the following:"
 msgstr "关联基础实例可以实现以下功能："
@@ -155,12 +131,6 @@ msgstr ""
 
 msgid "Example script"
 msgstr "示例脚本"
-
-msgid "The script below demonstrates what the Expression class is capable of::"
-msgstr "下面的脚本演示的是 Expression 类的功能： ::"
-
-msgid "The output from the script will be::"
-msgstr "脚本的输出将会是： ::"
 
 msgid "Built-in functions"
 msgstr "内置函数"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -894,6 +894,9 @@ msgstr ""
 "У **Налаштуваннях проекту > Програма > Виконати** встановіть :ref:`Max "
 "FPS<class_ProjectSettings_property_application/run/max_fps>` на ``60``."
 
+msgid "**Bad:**"
+msgstr "**Неправильно:**"
+
 msgid "Manually wrapping lines"
 msgstr "Ручне перенесення ліній"
 
@@ -1046,3 +1049,6 @@ msgstr ""
 "Якщо функція була додана в основній або проміжній версії 3.x, **не "
 "вказуйте**, коли цю функцію було додано. Ці функції достатньо старі, тому "
 "точна версія, у якій вони були додані, не має значення."
+
+msgid "Examples"
+msgstr "Приклади"

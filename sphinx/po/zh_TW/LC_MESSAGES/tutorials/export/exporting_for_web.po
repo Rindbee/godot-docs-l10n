@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -229,11 +229,6 @@ msgid ""
 msgstr ""
 "若有可執行的網頁匯出樣板，則在編輯器上 **[停止場景]** 與 **[執行編輯的場"
 "景]** 按鈕中間會多一個按鈕，可以用來在預設瀏覽器中快速開啟遊戲來測試。"
-
-msgid ""
-"If your project uses GDExtension **Extension Support** needs to be enabled."
-msgstr ""
-"若專案有用到 GDExtension，請務必啟用 **Extension Support** （擴充套件支援）。"
 
 msgid ""
 "If you plan to use :ref:`VRAM compression <doc_importing_images>` make sure "

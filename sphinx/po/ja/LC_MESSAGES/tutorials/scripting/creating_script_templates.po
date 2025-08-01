@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -112,9 +112,6 @@ msgstr "``template_scripts/Node/smooth_camera.gd``"
 msgid "``template_scripts/CharacterBody3D/platformer_movement.gd``"
 msgstr "``template_scripts/CharacterBody3D/platformer_movement.gd``"
 
-msgid "Default behaviour and overriding it"
-msgstr "デフォルトの動作とオーバーライド"
-
 msgid "By default:"
 msgstr "デフォルトの設定:"
 
@@ -131,13 +128,6 @@ msgstr "インデントのスペースは4に設定"
 
 msgid "the template will not be set as the default for the given node"
 msgstr "テンプレートは、指定されたノードのデフォルトとして適用されない"
-
-msgid ""
-"It is possible to customize this behaviour by adding meta headers at the "
-"start of your file, like this:"
-msgstr ""
-"次のようにファイルの先頭にメタヘッダーを追加することで、動作をカスタマイズで"
-"きます。"
 
 msgid ""
 "In this case, the name will be set to \"Platformer movement\", with the "

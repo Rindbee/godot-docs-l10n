@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -21,16 +21,6 @@ msgstr "오브젝트에 콜리전 감지를 추가하기."
 
 msgid "Setting objects as navigation meshes."
 msgstr "오브젝트를 내비게이션 메시로 설정하기."
-
-msgid "Remove nodes (-noimp)"
-msgstr "노드 제거 (-noimp)"
-
-msgid ""
-"Objects that have the ``-noimp`` suffix will be removed at import-time no "
-"matter what their type is. They will not appear in the imported scene."
-msgstr ""
-"``-noimp`` 접미사를 갖고 있는 오브젝트가 어떤 타입이든지 가져올 때 제거될 것"
-"입니다. 가져온 씬에서 나타나지 않습니다."
 
 msgid "Create collisions (-col, -convcol, -colonly, -convcolonly)"
 msgstr "콜리전 생성 (-col, -convcol, -colonly, -convcolonly)"

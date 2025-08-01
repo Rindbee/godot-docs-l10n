@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -56,25 +56,11 @@ msgstr ""
 "und folgen Sie den README-Anweisungen, um es zu bauen."
 
 msgid ""
-"If you have `Homebrew <https://brew.sh/>`_ installed, you can easily install "
-"SCons using the following command::"
-msgstr ""
-"Wenn Sie `Homebrew <https://brew.sh/>`_ installiert haben, können Sie SCons "
-"einfach mit dem folgenden Befehl installieren::"
-
-msgid ""
 "Installing Homebrew will also fetch the Command Line Tools for Xcode "
 "automatically if you don't have them already."
 msgstr ""
 "Bei der Installation von Homebrew werden auch automatisch die Kommandozeilen-"
 "Tools für Xcode installiert, falls Sie diese noch nicht haben."
-
-msgid ""
-"Similarly, if you have `MacPorts <https://www.macports.org/>`_ installed, "
-"you can easily install SCons using the following command::"
-msgstr ""
-"Wenn Sie `MacPorts <https://www.macports.org/>`_ installiert haben, können "
-"Sie SCons einfach mit dem folgenden Befehl installieren::"
 
 msgid ""
 "To get the Godot source code for compiling, see :ref:`doc_getting_source`."
@@ -94,13 +80,6 @@ msgstr "Kompilieren"
 
 msgid "Run"
 msgstr "Ausführen"
-
-msgid ""
-"To run on a device or simulator, follow these "
-"instructions: :ref:`doc_exporting_for_ios`."
-msgstr ""
-"Um auf einem Gerät oder Simulator ausgeführt zu werden, befolgen Sie die "
-"folgenden Anweisungen: :ref:`doc_exporting_for_ios`."
 
 msgid "Troubleshooting"
 msgstr "Fehlersuche"

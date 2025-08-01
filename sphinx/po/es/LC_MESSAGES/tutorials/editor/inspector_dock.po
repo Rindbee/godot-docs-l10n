@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,9 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "The Inspector"
-msgstr "El Inspector"
-
 msgid ""
 "This page explains how the Inspector dock works in-depth. You will learn how "
 "to edit properties, fold and unfold areas, use the search bar, and more."
@@ -22,36 +19,5 @@ msgstr ""
 "Aprenderás cómo editar propiedades, plegar y desplegar áreas, usar la barra "
 "de búsqueda y más."
 
-msgid "This page is a work-in-progress."
-msgstr "Esta página está en proceso de desarrollo."
-
-msgid "Overview of the interface"
-msgstr "Reseña de la interfaz"
-
-msgid "Let's start by looking at the dock's main parts."
-msgstr "Comencemos por examinar las partes principales del panel."
-
-msgid "At the top are the file and navigation buttons."
-msgstr ""
-"En la parte superior se encuentran los botones de archivo y navegación."
-
-msgid ""
-"Below it, you can find the selected node's name, its type, and the tools "
-"menu on the right side."
-msgstr ""
-"Justo debajo, puedes encontrar el nombre del nodo seleccionado, su tipo y el "
-"menú de herramientas en el lado derecho."
-
-msgid ""
-"If you click the tool menu icon, a drop-down menu offers some view and edit "
-"options."
-msgstr ""
-"Si haces clic en el icono del menú de herramientas, se abre un menú "
-"desplegable que ofrece algunas opciones de vista y edición."
-
-msgid ""
-"Then comes the search bar. Type anything in it to filter displayed "
-"properties. Delete the text to clear the search."
-msgstr ""
-"Luego viene la barra de búsqueda. Escribe cualquier cosa en ella para "
-"filtrar las propiedades mostradas. Borra el texto para limpiar la búsqueda."
+msgid "Usage"
+msgstr "Uso"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -513,14 +513,6 @@ msgid ""
 msgstr ""
 "`` [குறியீடு தொகுதிகள்] `` பார்சர் `` [/குறியீடு தொகுதி] `` ஐ எதிர்கொள்ளும் வரை `` "
 "முடக்கப்பட்டது."
-
-msgid ""
-"Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, "
-"always use **four spaces** for indentation. The parser will delete tabs."
-msgstr ""
-"முன்பே வடிவமைக்கப்பட்ட குறியீடு தொகுதிகளுக்கு `` [கோட் பிளாக்] `` பயன்படுத்தவும். `` "
-"[கோட் பிளாக்] ``, இன்டெண்டேசனுக்கு எப்போதும் ** நான்கு இடங்களை ** பயன்படுத்தவும். "
-"பாகுபடுத்தி தாவல்களை நீக்கும்."
 
 msgid "For example:"
 msgstr "உதாரணமாக:"

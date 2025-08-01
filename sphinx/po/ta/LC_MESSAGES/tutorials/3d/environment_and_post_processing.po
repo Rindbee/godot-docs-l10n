@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -573,22 +573,6 @@ msgstr ""
 
 msgid "Two properties can be tweaked to make the fog effect more interesting:"
 msgstr "மூடுபனி விளைவை மிகவும் சுவாரச்யமாக்க இரண்டு பண்புகளை மாற்றலாம்:"
-
-msgid ""
-"The first is **Sun Amount**, which makes use of the Sun Color property of "
-"the fog. When looking towards a directional light (usually a sun), the color "
-"of the fog will be changed, simulating the sunlight passing through the fog."
-msgstr ""
-"முதலாவது ** சூரிய அளவு **, இது மூடுபனியின் சூரிய வண்ண சொத்தை பயன்படுத்துகிறது. "
-"ஒரு திசை ஒளியை (பொதுவாக ஒரு சூரியன்) நோக்கிப் பார்க்கும்போது, மூடுபனியின் நிறம் "
-"மாற்றப்பட்டு, மூடுபனி வழியாக செல்லும் சூரிய ஒளியை உருவகப்படுத்துகிறது."
-
-msgid ""
-"The second is **Transmit Enabled** which simulates more realistic light "
-"transmittance. In practice, it makes light stand out more across the fog."
-msgstr ""
-"இரண்டாவது ** டிரான்ச்மிட் இயக்கப்பட்ட ** ஆகும், இது மிகவும் யதார்த்தமான ஒளி பரிமாற்றத்தை "
-"உருவகப்படுத்துகிறது. நடைமுறையில், இது மூடுபனி முழுவதும் ஒளி நிற்க வைக்கிறது."
 
 msgid ""
 "Fog can cause banding to appear on the viewport, especially at higher "

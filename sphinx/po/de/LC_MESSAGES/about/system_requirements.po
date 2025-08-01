@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -42,27 +42,11 @@ msgstr "Desktop- oder Laptop-PC - Minimum"
 msgid "**CPU**"
 msgstr "**CPU**"
 
-msgid "**Windows:** x86_32 CPU with SSE2 instructions, x86_64 CPU, ARMv8 CPU"
-msgstr ""
-"**Windows:** x86_32 CPU mit SSE2-Instruktionen, x86_64 CPU, ARMv8 oder ARMv8 "
-"CPU"
-
 msgid "**macOS:** x86_64 or ARM CPU (Apple Silicon)"
 msgstr "**macOS:** x86_64 oder ARM CPU (Apple Silicon)"
 
 msgid "*Example: Intel Core 2 Duo SU9400, Apple M1*"
 msgstr "*Beispiel: Intel Core 2 Duo SU9400, Apple M1*"
-
-msgid ""
-"**Linux:** x86_32 CPU with SSE2 instructions, x86_64 CPU, ARMv7 or ARMv8 CPU"
-msgstr ""
-"**Linux:** x86_32 CPU mit SSE2-Instruktionen, x86_64 CPU, ARMv7 oder ARMv8 "
-"CPU"
-
-msgid ""
-"*Example: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300, Raspberry Pi 4*"
-msgstr ""
-"*Beispiel: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300, Raspberry Pi 4*"
 
 msgid "**GPU**"
 msgstr "**GPU**"
@@ -105,30 +89,6 @@ msgstr ""
 msgid "**Operating system**"
 msgstr "**Betriebssystem**"
 
-msgid ""
-"**Native editor:** Windows 7, macOS 10.13 (Compatibility) or macOS 10.15 "
-"(Forward+/Mobile), Linux distribution released after 2016"
-msgstr ""
-"**Nativer Editor:** Windows 7, macOS 10.13 (Kompatibilität) oder macOS 10.15 "
-"(Forward+/Mobile), Linux-Distributionen, die nach 2016 veröffentlicht wurden"
-
-msgid "**Web editor:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
-msgstr "**Web-Editor:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
-
-msgid ""
-"Windows 7/8/8.1 are supported on a best-effort basis. These versions are not "
-"regularly tested and some features may be missing (such as "
-"colored :ref:`print_rich <class_@GlobalScope_method_print_rich>` console "
-"output). Support for Windows 7/8/8.1 may be removed in a :ref:`future Godot "
-"4.x release <doc_release_policy>`."
-msgstr ""
-"Windows 7/8/8.1 werden nach bestem Bemühen unterstützt. Diese Versionen "
-"werden nicht regelmäßig getestet und einige Funktionen können fehlen (z.B. "
-"die farbige Konsolenausgabe :ref:`print_rich "
-"<class_@GlobalScope_method_print_rich>`). Die Unterstützung für Windows "
-"7/8/8.1 könnte in einer :ref:`zukünftigen Godot 4.x-Version "
-"<doc_release_policy>` entfernt werden."
-
 msgid "Mobile device (smartphone/tablet) - Minimum"
 msgstr "Mobiles Gerät (Smartphone/Tablet) - Minimum"
 
@@ -162,13 +122,6 @@ msgstr ""
 "werden (1,3 GB nach der Installation)."
 
 msgid ""
-"**Web editor:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
-"Samsung Internet 15"
-msgstr ""
-"**Web-Editor:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
-"Samsung Internet 15"
-
-msgid ""
 "These are the **recommended** specifications to get a smooth experience with "
 "the Godot editor on a simple 2D or 3D project:"
 msgstr ""
@@ -177,13 +130,6 @@ msgstr ""
 
 msgid "Desktop or laptop PC - Recommended"
 msgstr "Desktop- oder Laptop-PC - Empfohlen"
-
-msgid ""
-"**Windows:** x86_64 CPU with SSE4.2 instructions, with 4 physical cores or "
-"more, ARMv8 CPU"
-msgstr ""
-"**Windows:** x86_64 CPU mit SSE4.2-Instruktionen, mit 4 physischen Kernen "
-"oder mehr, ARMv8 CPU"
 
 msgid "*Example: Intel Core i5-6600K, AMD Ryzen 5 1600, Snapdragon X Elite*"
 msgstr "*Beispiel: Intel Core i5-6600K, AMD Ryzen 5 1600, Snapdragon X Elite*"
@@ -307,11 +253,6 @@ msgstr "**Für Web-Exporte:** 4 GB"
 msgid "150 MB (used for the executable, project files and cache)"
 msgstr "150 MB (für die ausführbare Datei, die Projektdateien und den Cache)"
 
-msgid ""
-"**For web exports:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
-msgstr ""
-"**Für Web-Exporte:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
-
 msgid "**iOS:** SoC with any 64-bit ARM CPU"
 msgstr "**iOS:** SoC mit beliebiger 64-Bit-ARM-CPU"
 
@@ -323,13 +264,6 @@ msgstr "**Für native Exporte:** 1 GB"
 
 msgid "**For web exports:** 2 GB"
 msgstr "**Für Web-Exporte:** 2 GB"
-
-msgid ""
-"**For web exports:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
-"Samsung Internet 15"
-msgstr ""
-"**Für Web-Exporte:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
-"Samsung Internet 15"
 
 msgid ""
 "These are the **recommended** specifications to get a smooth experience with "

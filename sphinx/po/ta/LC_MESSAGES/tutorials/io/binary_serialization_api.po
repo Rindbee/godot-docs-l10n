@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -64,13 +64,6 @@ msgstr ""
 "பாக்கெட் எப்போதும் 4 பைட்டுகளாக வடிவமைக்கப்பட்டுள்ளது. அனைத்து மதிப்புகளும் சிறிய-எண்டியன்-"
 "குறியிடப்பட்டவை. அனைத்து பாக்கெட்டுகளும் 4-பைட் தலைப்பு ஒரு முழு எண்ணைக் குறிக்கும், "
 "தரவுகளின் வகையைக் குறிப்பிடுகின்றன."
-
-msgid ""
-"The lowest value two bytes are used to determine the type, while the highest "
-"value two bytes contain flags::"
-msgstr ""
-"வகையைத் தீர்மானிக்க மிகக் குறைந்த மதிப்பு இரண்டு பைட்டுகள் பயன்படுத்தப்படுகின்றன, அதே "
-"நேரத்தில் மிக உயர்ந்த மதிப்பில் இரண்டு பைட்டுகள் கொடிகள் உள்ளன ::"
 
 msgid "Type"
 msgstr "வகை"

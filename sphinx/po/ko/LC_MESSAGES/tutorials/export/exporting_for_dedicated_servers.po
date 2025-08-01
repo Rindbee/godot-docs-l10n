@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -41,19 +41,6 @@ msgstr ""
 
 msgid "Next steps"
 msgstr "고급 단계"
-
-msgid ""
-"On Linux, to make your dedicated server restart after a crash or system "
-"reboot, you can `create a systemd service <https://medium.com/@benmorel/"
-"creating-a-linux-service-with-systemd-611b5c8b91d6>`__. This also lets you "
-"view server logs in a more convenient fashion, with automatic log rotation "
-"provided by systemd."
-msgstr ""
-"Linux에서 시스템 오류 및 재부팅 이후 데디케이티드 서버가 자동으로 재시작되도"
-"록 하려면 `systemd service <https://medium.com/@benmorel/creating-a-linux-"
-"service-with-systemd-611b5c8b91d6>`__ 를 생성하면 됩니다. 이렇게 하면 systemd"
-"가 automatic log rotation을 지원하므로 서버 로그를 더 편하게 확인할 수 있습니"
-"다."
 
 msgid ""
 "If you have experience with containers, you could also look into wrapping "

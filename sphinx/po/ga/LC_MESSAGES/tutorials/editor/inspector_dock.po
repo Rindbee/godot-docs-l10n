@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,9 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "The Inspector"
-msgstr "An Cigire"
-
 msgid ""
 "This page explains how the Inspector dock works in-depth. You will learn how "
 "to edit properties, fold and unfold areas, use the search bar, and more."
@@ -22,35 +19,5 @@ msgstr ""
 "Foghlaimeoidh tú conas airíonna a chur in eagar, limistéir a fhilleadh agus "
 "a oscailt, an barra cuardaigh a úsáid, agus go leor eile."
 
-msgid "This page is a work-in-progress."
-msgstr "Is obair atá ar siúl é an leathanach seo."
-
-msgid "Overview of the interface"
-msgstr "Forbhreathnú ar an gcomhéadan"
-
-msgid "Let's start by looking at the dock's main parts."
-msgstr "Tosaímid trí fhéachaint ar phríomhchodanna an duga."
-
-msgid "At the top are the file and navigation buttons."
-msgstr "Ag an mbarr tá na cnaipí comhad agus nascleanúna."
-
-msgid ""
-"Below it, you can find the selected node's name, its type, and the tools "
-"menu on the right side."
-msgstr ""
-"Faoi thíos, is féidir leat ainm an nód roghnaithe, a chineál, agus roghchlár "
-"na n-uirlisí a fháil ar an taobh dheis."
-
-msgid ""
-"If you click the tool menu icon, a drop-down menu offers some view and edit "
-"options."
-msgstr ""
-"Má chliceálann tú deilbhín an roghchláir uirlisí, cuireann roghchlár anuas "
-"roinnt roghanna amhairc agus eagarthóireachta ar fáil."
-
-msgid ""
-"Then comes the search bar. Type anything in it to filter displayed "
-"properties. Delete the text to clear the search."
-msgstr ""
-"Ansin tagann an barra cuardaigh. Clóscríobh aon rud ann chun airíonna "
-"taispeána a scagadh. Scrios an téacs chun an cuardach a ghlanadh."
+msgid "Usage"
+msgstr "Úsáid"

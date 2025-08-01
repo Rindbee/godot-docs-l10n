@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -34,15 +34,6 @@ msgstr "ベストプラクティス"
 
 msgid "#1: The problem always comes first"
 msgstr "#1: 問題は常に最初に来る"
-
-msgid ""
-"Believing that problems may arise in the future and that the software needs "
-"to be ready to solve them by the time they appear is called *\"Future "
-"proofing\"* and its characterized by lines of thought such as:"
-msgstr ""
-"将来問題が発生する可能性があり、ソフトウェアが表示されるまでに問題を解決する"
-"準備が必要であると信じることは、\\ *将来の校正* と呼ばれ、次のような考え方に"
-"よって特徴付けられます:"
 
 msgid "I think it would be useful for users to..."
 msgstr "私はそれがユーザーのために有用であると思います..."

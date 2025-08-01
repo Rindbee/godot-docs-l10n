@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -148,29 +148,8 @@ msgstr "내보낸 iOS 프로젝트에서 시작합니다 (앞의 단계를 따�
 msgid "In Finder, drag the Godot project folder into the Xcode file browser."
 msgstr "Finder에서, Godot 프로젝트 폴더를 Xcode 파일 브라우저로 드래그합니다."
 
-msgid ""
-"3. In the dialog, make sure **Create folder references** is selected. This "
-"means you will be able to continue to edit your Godot project in its current "
-"location."
-msgstr ""
-"3. 대화 상자에서, **폴더 참조 만들기**\\ 가 선택되어야 합니다. 이게 있어야 "
-"Godot 프로젝트를 현재 위치에서 계속 편집할 수 있습니다."
-
 msgid "See the **godot_project_to_export** folder in the Xcode file browser."
 msgstr "Xcode 파일 브라우저에서 **godot_project_to_export** 폴더를 봅니다."
-
-msgid "Delete **exported_xcode_project_name.pck** from the Xcode project."
-msgstr ""
-"Xcode 프로젝트에서 **exported_xcode_project_name.pck**\\ 를 삭제합니다."
-
-msgid ""
-"6. Open **exported_xcode_project_name-Info.plist** and add a string property "
-"named **godot_path** (this is the real key name) with a value "
-"**godot_project_to_export** (this is the name of your project)"
-msgstr ""
-"6. **exported_xcode_project_name-Info.plist**\\ 를 열고 **godot_path**\\ 라"
-"는 문자열 속성을 추가하고 (이것이 진짜 키 이름입니다) "
-"**godot_project_to_export** 값을 줍니다 (이것이 프로젝트의 이름입니다)"
 
 msgid ""
 "That's it! You can now edit your project in the Godot editor and build it in "

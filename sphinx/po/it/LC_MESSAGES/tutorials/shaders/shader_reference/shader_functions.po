@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -785,18 +785,18 @@ msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_type| a, |vec_type| b)"
 msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_type| a, float b)"
 msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_type| a, float b)"
 
+msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
+msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
+
+msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
+msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
+
 msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, |vec_uint_type| b)"
 msgstr ""
 ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, |vec_uint_type| b)"
 
 msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, uint b)"
 msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_uint_type| a, uint b)"
-
-msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
-msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, |vec_int_type| b)"
-
-msgid ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
-msgstr ":ref:`max<shader_func_max>`\\ (\\ |vec_int_type| a, int b)"
 
 msgid "Highest value between ``a`` and ``b``."
 msgstr "Valore più grande tra ``a`` e ``b``."
@@ -819,11 +819,6 @@ msgid ""
 msgstr ""
 ":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, |vec_int_type| min, |"
 "vec_int_type| max)"
-
-msgid ""
-":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, float min, float max)"
-msgstr ""
-":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, float min, float max)"
 
 msgid "Clamps ``x`` between ``min`` and ``max`` (inclusive)."
 msgstr "Limita ``x`` tra ``min`` e ``max`` (incluso)."
@@ -1423,27 +1418,6 @@ msgstr ""
 "maxVal) :ref:`🔗<shader_func_clamp>`"
 
 msgid ""
-"|vec_uint_type| **clamp**\\ (\\ |vec_int_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-msgstr ""
-"|vec_uint_type| **clamp**\\ (\\ |vec_int_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-
-msgid ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, |vec_type| minVal, |vec_type| "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-msgstr ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, |vec_type| minVal, |vec_type| "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-
-msgid ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-msgstr ""
-"|vec_int_type| **clamp**\\ (\\ |vec_type| x, float minVal, float "
-"maxVal) :ref:`🔗<shader_func_clamp>`"
-
-msgid ""
 "Returns the value of ``x`` constrained to the range ``minVal`` to ``maxVal``."
 msgstr ""
 "Restituisce il valore di ``x`` limitato all'intervallo ``minVal`` e "
@@ -1684,9 +1658,6 @@ msgstr ""
 "Effettua un'interpolazione uniforme con la formula di Hermite tra ``0`` e "
 "``1`` quando a < c < b. Questa è utile nei casi in cui si desidera una "
 "funzione soglia con una transizione uniforme."
-
-msgid "Smoothstep is equivalent to::"
-msgstr "Smoothstep è equivalente a::"
 
 msgid "Results are undefined if ``a >= b``."
 msgstr "I risultati sono indefiniti se ``a >= b``."
@@ -2018,9 +1989,6 @@ msgstr "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/dot.xhtml"
 msgid "vec3 **cross**\\ (\\ vec3 a, vec3 b) :ref:`🔗<shader_func_cross>`"
 msgstr "vec3 **cross**\\ (\\ vec3 a, vec3 b) :ref:`🔗<shader_func_cross>`"
 
-msgid "Returns the cross product of two vectors. i.e.::"
-msgstr "Restituisce il prodotto vettoriale di due vettori. Ovvero::"
-
 msgid "The cross product of ``a`` and ``b``."
 msgstr "Il prodotto vettoriale di ``a`` e ``b``."
 
@@ -2102,9 +2070,6 @@ msgstr ""
 "Per un determinato vettore incidente ``I``, normale alla superficie ``N`` e "
 "rapporto degli indici di rifrazione, ``eta``, restituisce il vettore di "
 "rifrazione, ``R``."
-
-msgid "``R`` is calculated as::"
-msgstr "``R`` è calcolato come::"
 
 msgid ""
 "The input parameters I and N should be normalized in order to achieve the "
@@ -2551,9 +2516,6 @@ msgid ""
 msgstr ""
 "Restituisce ``true`` se un qualsiasi elemento di un vettore booleano è "
 "``true``, altrimenti ``false``."
-
-msgid "Functionally equivalent to::"
-msgstr "Funzionalmente equivalente a:"
 
 msgid "The vector to be tested for truth."
 msgstr "Il vettore da testare per verità."
@@ -3400,15 +3362,6 @@ msgstr ""
 "vec4 **textureLod**\\ (\\ samplerCubeArray s, vec4 p, float "
 "lod) :ref:`🔗<shader_func_textureLod>`"
 
-msgid ""
-"Performs a texture lookup at coordinate ``p`` from the texture bound to "
-"sampler with an explicit level-of-detail as specified in ``lod``. ``lod`` "
-"specifies λbase and sets the partial derivatives as follows::"
-msgstr ""
-"Esegue una ricerca di texture alle coordinate ``p`` dalla texture associata "
-"al campionatore con un livello di dettaglio esplicito come specificato in "
-"``lod``. ``lod`` specifica λbase e imposta le derivate parziali come segue::"
-
 msgid "The explicit level-of-detail."
 msgstr "Il livello di dettaglio esplicito."
 
@@ -3672,9 +3625,6 @@ msgstr ""
 "vec4 **textureGather**\\ (\\ samplerCube s, vec3 p [, int "
 "comps] ) :ref:`🔗<shader_func_textureGather>`"
 
-msgid "Returns the value::"
-msgstr "Restituisce il valore::"
-
 msgid "param comps"
 msgstr "param comps"
 
@@ -3920,25 +3870,11 @@ msgstr ":ref:`packUnorm2x16<shader_func_packUnorm2x16>`\\ (\\ vec2 v)"
 msgid ":ref:`unpackUnorm2x16<shader_func_unpackUnorm2x16>`\\ (\\ uint v)"
 msgstr ":ref:`unpackUnorm2x16<shader_func_unpackUnorm2x16>`\\ (\\ uint v)"
 
-msgid ""
-"Convert two normalized (range 0..1) 32-bit floats to 16-bit floats and pack "
-"them."
-msgstr ""
-"Converte due numeri in virgola mobile normalizzati (intervallo 0..1) a 32 "
-"bit in numeri in virgola mobile a 16 bit e li comprime."
-
 msgid ":ref:`packSnorm2x16<shader_func_packSnorm2x16>`\\ (\\ vec2 v)"
 msgstr ":ref:`packSnorm2x16<shader_func_packSnorm2x16>`\\ (\\ vec2 v)"
 
 msgid ":ref:`unpackSnorm2x16<shader_func_unpackSnorm2x16>`\\ (\\ uint v)"
 msgstr ":ref:`unpackSnorm2x16<shader_func_unpackSnorm2x16>`\\ (\\ uint v)"
-
-msgid ""
-"Convert two signed normalized (range -1..1) 32-bit floats to 16-bit floats "
-"and pack them."
-msgstr ""
-"Converti due numeri in virgola mobile normalizzati con segno (intervallo "
-"-1..1) a 32 bit in numeri in virgola mobile a 16 bit e li comprime."
 
 msgid ":ref:`packUnorm4x8<shader_func_packUnorm4x8>`\\ (\\ vec4 v)"
 msgstr ":ref:`packUnorm4x8<shader_func_packUnorm4x8>`\\ (\\ vec4 v)"
@@ -3946,25 +3882,11 @@ msgstr ":ref:`packUnorm4x8<shader_func_packUnorm4x8>`\\ (\\ vec4 v)"
 msgid ":ref:`unpackUnorm4x8<shader_func_unpackUnorm4x8>`\\ (\\ uint v)"
 msgstr ":ref:`unpackUnorm4x8<shader_func_unpackUnorm4x8>`\\ (\\ uint v)"
 
-msgid ""
-"Convert four normalized (range 0..1) 32-bit floats into 8-bit floats and "
-"pack them."
-msgstr ""
-"Convertire quattro numeri in virgola mobile a 32 bit normalizzati "
-"(intervallo 0..1) in numeri in virgola mobile a 8 bit e li comprime."
-
 msgid ":ref:`packSnorm4x8<shader_func_packSnorm4x8>`\\ (\\ vec4 v)"
 msgstr ":ref:`packSnorm4x8<shader_func_packSnorm4x8>`\\ (\\ vec4 v)"
 
 msgid ":ref:`unpackSnorm4x8<shader_func_unpackSnorm4x8>`\\ (\\ uint v)"
 msgstr ":ref:`unpackSnorm4x8<shader_func_unpackSnorm4x8>`\\ (\\ uint v)"
-
-msgid ""
-"Convert four signed normalized (range -1..1) 32-bit floats into 8-bit floats "
-"and pack them."
-msgstr ""
-"Converti quattro numeri in virgola mobile normalizzati con segno (intervallo "
-"-1..1) a 32 bit in numeri in virgola mobile a 8 bit e li comprime."
 
 msgid "Packing and unpacking function descriptions"
 msgstr "Descrizioni delle funzioni di compressione e decompressione"
@@ -4066,13 +3988,6 @@ msgstr ""
 "Converte ogni componente del valore in virgola mobile normalizzato v in "
 "valori interi a 16 bit e poi comprime i risultati in un intero senza segno a "
 "32 bit."
-
-msgid ""
-"The conversion for component c of ``v`` to fixed-point is performed as "
-"follows::"
-msgstr ""
-"La conversione della componente c di ``v`` in virgola fissa viene eseguita "
-"come segue::"
 
 msgid ""
 "The first component of the vector will be written to the least significant "
@@ -4825,13 +4740,6 @@ msgid ""
 msgstr ""
 "|vec_type| **frexp**\\ (\\ |vec_type| x, out |vec_int_type| "
 "exp) :ref:`🔗<shader_func_frexp>`"
-
-msgid ""
-"Extracts ``x`` into a floating-point significand in the range ``[0.5, 1.0)`` "
-"and in integral exponent of two, such that::"
-msgstr ""
-"Estrae ``x`` in una mantissa in virgola mobile compresa nell'intervallo "
-"``[0.5, 1.0)`` e con esponente intero di due, in modo che:"
 
 msgid ""
 "For a floating-point value of zero, the significand and exponent are both "

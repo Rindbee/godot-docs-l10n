@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.4\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -201,13 +201,6 @@ msgstr ""
 "內建工具可以使用 :kbd:`PrtSc` (Print Screen) 鍵來截圖（macOS：全螢幕截圖請使"
 "用 :kbd:`Cmd + Shift + 3`，`更多資訊請參考這裡 <https://support.apple.com/"
 "guide/mac-help/take-a-screenshot-mh26782/mac>`_ ）。"
-
-msgid ""
-"Alternatively, you can use a program like `ShareX <https://getsharex.com/>`_ "
-"on Windows, or `FlameShot <https://flameshot.org/>`_ on Linux."
-msgstr ""
-"或者，您可以在 Windows 上使用像是 `ShareX <https://getsharex.com/>`_ 這樣的程"
-"式，或在 Linux 上使用 `FlameShot <https://flameshot.org/>`_ 這樣的程式。"
 
 msgid ""
 "Sharing a video of your running game can also be really **useful to "
