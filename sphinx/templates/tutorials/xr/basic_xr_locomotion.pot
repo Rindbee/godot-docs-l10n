@@ -32,7 +32,7 @@ msgid "The first step we need to do is to add a helper node to our :ref:`XROrigi
 msgstr ""
 
 #: ../../docs/tutorials/xr/basic_xr_locomotion.rst:16
-msgid "Select your :ref:`XROrigin3D <class_xrorigin3d>` node and click on the ``instantiate Child Scene`` button to add a child scene. Select ``addons/godot-xr-tools/player/player_body.tscn`` and add this node."
+msgid "Select your :ref:`XROrigin3D <class_xrorigin3d>` node and click on the :button:`Instantiate Child Scene` button to add a child scene. Select ``addons/godot-xr-tools/player/player_body.tscn`` and add this node."
 msgstr ""
 
 #: ../../docs/tutorials/xr/basic_xr_locomotion.rst:20

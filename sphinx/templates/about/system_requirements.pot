@@ -98,7 +98,7 @@ msgstr ""
 #: ../../docs/about/system_requirements.rst:45
 #: ../../docs/about/system_requirements.rst:228
 #: ../../docs/about/system_requirements.rst:233
-msgid "*Example: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics (Kaveri)*"
+msgid "*Example: Intel HD Graphics 510 (Skylake), AMD Radeon R5 Graphics (Kaveri)*"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:43

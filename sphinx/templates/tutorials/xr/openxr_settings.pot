@@ -380,25 +380,33 @@ msgid "Now you can add things to this controller node such as a raycast, and con
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_settings.rst:303
-msgid "Binding Modifiers"
+msgid "Render Models"
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_settings.rst:305
-msgid "These control whether or not binding modifiers can be used. Binding modifiers are used to apply thresholds or offset values. You can find information on how to use and set them up on the XR action map page :ref:`here <doc_binding_modifiers>`."
+msgid "This extension is used to query the XR runtime for 3D assets of the hardware being used, usually a controller, as well as the position of that hardware. You can find a detailed guide on how to use it :ref:`here <doc_openxr_render_models>`."
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_settings.rst:310
-msgid "Analog Threshold"
+msgid "Binding Modifiers"
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_settings.rst:312
-msgid "Allow analog threshold binding modifiers."
-msgstr ""
-
-#: ../../docs/tutorials/xr/openxr_settings.rst:315
-msgid "Dpad Binding"
+msgid "These control whether or not binding modifiers can be used. Binding modifiers are used to apply thresholds or offset values. You can find information on how to use and set them up on the XR action map page :ref:`here <doc_binding_modifiers>`."
 msgstr ""
 
 #: ../../docs/tutorials/xr/openxr_settings.rst:317
+msgid "Analog Threshold"
+msgstr ""
+
+#: ../../docs/tutorials/xr/openxr_settings.rst:319
+msgid "Allow analog threshold binding modifiers."
+msgstr ""
+
+#: ../../docs/tutorials/xr/openxr_settings.rst:322
+msgid "Dpad Binding"
+msgstr ""
+
+#: ../../docs/tutorials/xr/openxr_settings.rst:324
 msgid "Allow D-pad binding modifiers."
 msgstr ""

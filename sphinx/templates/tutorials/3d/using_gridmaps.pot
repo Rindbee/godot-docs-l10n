@@ -104,165 +104,177 @@ msgid "The baked cell size of the NavigationMesh must match the NavigationServer
 msgstr ""
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:93
-msgid "MeshLibrary format"
+msgid "Lightmaps"
 msgstr ""
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:95
-msgid "To summarize the specific constraints of the MeshLibrary format, a MeshLibrary scene has a Node3D as the root node, and several child nodes which will become MeshLibrary items. Each child of the root node should:"
+msgid "It is possible to bake lightmaps onto a GridMap. Lightmap UV2 data will be reused from meshes if already present. If UV2 data is not present, then it will be automatically generated on bake with a lightmap texel size of 0.1 units. To generate UV2 data with a different lightmap texel size, you can set the global illumination mode in the Import dock to **Static Lightmaps** and specify the texel size there. This option must be changed *before* the scene is converted to a MeshLibrary, as changing it later on will not affect the existing MeshLibrary data."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:99
-msgid "Be a :ref:`class_MeshInstance3D`, which will become the MeshLibrary item. Only this visual mesh will be exported."
+#: ../../docs/tutorials/3d/using_gridmaps.rst:104
+msgid "Aside from this peculiarity, the lightmap baking process is the same as for any other 3D scene. See :ref:`doc_using_lightmap_gi` for more information about lightmap baking."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:101
-msgid "Have a material, in the mesh's material slot, *not* the MeshInstance3D's material slots."
-msgstr ""
-
-#: ../../docs/tutorials/3d/using_gridmaps.rst:103
-msgid "Have up to one :ref:`class_StaticBody3D` child, for collision. The StaticBody3D should have one or more :ref:`class_CollisionShape3D` children."
-msgstr ""
-
-#: ../../docs/tutorials/3d/using_gridmaps.rst:105
-msgid "Have up to one :ref:`class_NavigationRegion3D` child, for navigation. The NavigationRegion3D can have one or more additional :ref:`class_MeshInstance3D` children, which can be baked for navigation, but won't be exported as a visual mesh."
+#: ../../docs/tutorials/3d/using_gridmaps.rst:108
+msgid "MeshLibrary format"
 msgstr ""
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:110
-msgid "Only this specific format is recognized. Other node types placed as children will not be recognized and exported. GridMap is not a general-purpose system for placing *nodes* on a grid, but rather a specific, optimized system, designed to place *meshes* with collisions and navigation."
+msgid "To summarize the specific constraints of the MeshLibrary format, a MeshLibrary scene has a Node3D as the root node, and several child nodes which will become MeshLibrary items. Each child of the root node should:"
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_gridmaps.rst:114
+msgid "Be a :ref:`class_MeshInstance3D`, which will become the MeshLibrary item. Only this visual mesh will be exported."
 msgstr ""
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:116
-msgid "Exporting the MeshLibrary"
+msgid "Have a material, in the mesh's material slot, *not* the MeshInstance3D's material slots."
 msgstr ""
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:118
+msgid "Have up to one :ref:`class_StaticBody3D` child, for collision. The StaticBody3D should have one or more :ref:`class_CollisionShape3D` children."
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_gridmaps.rst:120
+msgid "Have up to one :ref:`class_NavigationRegion3D` child, for navigation. The NavigationRegion3D can have one or more additional :ref:`class_MeshInstance3D` children, which can be baked for navigation, but won't be exported as a visual mesh."
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_gridmaps.rst:125
+msgid "Only this specific format is recognized. Other node types placed as children will not be recognized and exported. GridMap is not a general-purpose system for placing *nodes* on a grid, but rather a specific, optimized system, designed to place *meshes* with collisions and navigation."
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_gridmaps.rst:131
+msgid "Exporting the MeshLibrary"
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_gridmaps.rst:133
 msgid "To export the library, click on **Scene > Export As... > MeshLibrary...**, and save it as a resource."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:123
-msgid "You can find an already exported MeshLibrary in the project named \"MeshLibrary.tres\"."
+#: ../../docs/tutorials/3d/using_gridmaps.rst:138
+msgid "You can find an already exported MeshLibrary in the project named ``MeshLibrary.tres``."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:126
+#: ../../docs/tutorials/3d/using_gridmaps.rst:141
 msgid "Using GridMap"
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:128
+#: ../../docs/tutorials/3d/using_gridmaps.rst:143
 msgid "Create a new scene and add a GridMap node. Add the mesh library by dragging the resource file from the FileSystem dock and dropping it in the **Mesh Library** property in the Inspector."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:135
+#: ../../docs/tutorials/3d/using_gridmaps.rst:150
 msgid "Inspector properties"
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:137
+#: ../../docs/tutorials/3d/using_gridmaps.rst:152
 msgid "The **Physics Material** setting allows you to override the physics material for every mesh in the NavigationMesh."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:140
+#: ../../docs/tutorials/3d/using_gridmaps.rst:155
 msgid "Under **Cells**, the **Size** property should be set to the size of your meshes. You can leave it at the default value for the demo. Uncheck the **Center Y** property."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:143
+#: ../../docs/tutorials/3d/using_gridmaps.rst:158
 msgid "The **Collision** options allow you to set the collision layer, collision mask, and priority for the entire grid. For more information on how those work see the :ref:`doc_physics_index` section."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:147
+#: ../../docs/tutorials/3d/using_gridmaps.rst:162
 msgid "Under **Navigation** is the \"Bake Navigation\" option. If enabled it creates a navigation region for each cell that uses a mesh library item with a navigation mesh."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:151
+#: ../../docs/tutorials/3d/using_gridmaps.rst:166
 msgid "If you click on the MeshLibrary itself in the inspector you can adjust settings for individual meshes, such as their navigation mesh, navigation layers, or if the mesh casts shadows."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:158
+#: ../../docs/tutorials/3d/using_gridmaps.rst:173
 msgid "GridMap panel"
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:160
+#: ../../docs/tutorials/3d/using_gridmaps.rst:175
 msgid "At the bottom of the editor is the GridMap panel, which should have opened automatically when you added the GridMap node."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:165
+#: ../../docs/tutorials/3d/using_gridmaps.rst:180
 msgid "From left to right in the toolbar:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:167
+#: ../../docs/tutorials/3d/using_gridmaps.rst:182
 msgid "**Transform**: Adds a gizmo to the scene that allows you to change the relative position and rotation of the gridmap in the scene."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:169
+#: ../../docs/tutorials/3d/using_gridmaps.rst:184
 msgid "**Selection**: While active you can select an area in the viewport, click and drag to select more than one space on the grid."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:171
+#: ../../docs/tutorials/3d/using_gridmaps.rst:186
 msgid "**Erase**: While active, click in the viewport and delete meshes."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:172
+#: ../../docs/tutorials/3d/using_gridmaps.rst:187
 msgid "**Paint**: While active, click in the viewport and add whatever mesh is currently selected in the GridMap panel to the scene."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:174
+#: ../../docs/tutorials/3d/using_gridmaps.rst:189
 msgid "**Pick**: While active, clicking on a gridmap mesh in the viewport will cause it to be selected in the GridMap panel."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:176
+#: ../../docs/tutorials/3d/using_gridmaps.rst:191
 msgid "**Fill**: Fill the area that has been selected in the viewport with whatever mesh is selected in the GridMap bottom panel."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:178
+#: ../../docs/tutorials/3d/using_gridmaps.rst:193
 msgid "**Move**: Move whatever mesh or meshes are currently selected in the viewport."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:179
+#: ../../docs/tutorials/3d/using_gridmaps.rst:194
 msgid "**Duplicate**: Create a copy of whatever the selected mesh or meshes in the GridMap are."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:181
+#: ../../docs/tutorials/3d/using_gridmaps.rst:196
 msgid "**Delete**: Similar to erase, but for the entire selected area."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:182
+#: ../../docs/tutorials/3d/using_gridmaps.rst:197
 msgid "**Cursor Rotate X**: While the paint tool is selected, this will rotate the mesh that will be painted on the X-axis. This will also rotate selected areas if they are being moved."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:185
+#: ../../docs/tutorials/3d/using_gridmaps.rst:200
 msgid "**Cursor Rotate Y**: While the paint tool is selected, this will rotate the mesh that will be painted on the Y-axis. This will also rotate selected areas if they are being moved."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:188
+#: ../../docs/tutorials/3d/using_gridmaps.rst:203
 msgid "**Cursor Rotate Z**: While the paint tool is selected, this will rotate the mesh that will be painted on the Z-axis. This will also rotate selected areas if they are being moved."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:191
+#: ../../docs/tutorials/3d/using_gridmaps.rst:206
 msgid "**Change Grid Floor**: Adjusts what floor is currently being worked on, can be changed with the arrows or typing"
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:193
+#: ../../docs/tutorials/3d/using_gridmaps.rst:208
 msgid "**Filter Meshes**: Used to search for a specific mesh in the bottom panel."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:194
+#: ../../docs/tutorials/3d/using_gridmaps.rst:209
 msgid "**Zoom**: Controls the zoom level on meshes in the bottom panel."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:195
+#: ../../docs/tutorials/3d/using_gridmaps.rst:210
 msgid "**Layout toggles**: These two buttons toggle between different layouts for meshes in the bottom panel."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:197
+#: ../../docs/tutorials/3d/using_gridmaps.rst:212
 msgid "**Tools dropdown**: This button opens a dropdown menu with a few more options."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:201
+#: ../../docs/tutorials/3d/using_gridmaps.rst:216
 msgid "Clicking on **Settings** in that dropdown brings up a window that allows you to change the **Pick Distance**, which is the maximum distance at which tiles can be placed on a GridMap, relative to the camera position (in meters)."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:206
+#: ../../docs/tutorials/3d/using_gridmaps.rst:221
 msgid "Using GridMap in code"
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_gridmaps.rst:208
+#: ../../docs/tutorials/3d/using_gridmaps.rst:223
 msgid "See :ref:`class_GridMap` for details on the node's methods and member variables."
 msgstr ""

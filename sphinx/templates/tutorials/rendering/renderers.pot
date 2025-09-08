@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/rendering/renderers.rst:4
-msgid "Renderers"
+msgid "Overview of renderers"
 msgstr ""
 
 #: ../../docs/tutorials/rendering/renderers.rst:8
@@ -308,11 +308,7 @@ msgid "✔️ Yes. Recommended for standalone headsets."
 msgstr ""
 
 #: ../../docs/tutorials/rendering/renderers.rst:154
-msgid "✔️ Yes. Recommended for"
-msgstr ""
-
-#: ../../docs/tutorials/rendering/renderers.rst:155
-msgid "desktop headsets."
+msgid "✔️ Yes. Recommended for desktop headsets."
 msgstr ""
 
 #: ../../docs/tutorials/rendering/renderers.rst:158

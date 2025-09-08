@@ -85,6 +85,7 @@ msgid "**Apply Root Scale:** If enabled, **Root Scale** will be *applied* on the
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:75
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:201
 msgid "**Meshes**"
 msgstr ""
 
@@ -133,6 +134,7 @@ msgid "Together, this information is enough to tell Godot how to use the bone po
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:129
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:232
 msgid "**Animation**"
 msgstr ""
 
@@ -184,120 +186,208 @@ msgstr ""
 msgid "**Embedded Texture Handling:** Controls how textures embedded within fbx scenes should be handled. **Discard All Textures** will not import any textures, which is useful if you wish to manually set up materials in Godot instead. **Extract Textures** extracts textures to external images, resulting in smaller file sizes and more control over import options. **Embed as Basis Universal** and **Embed as Uncompressed** keeps the textures embedded in the imported scene, with and without VRAM compression respectively."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:180
-msgid "Using import scripts for automation"
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:177
+msgid "**Blender-specific options**"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:182
-msgid "A special script to process the whole scene after import can be provided. This is great for post-processing, changing materials, doing funny stuff with the geometry, and more."
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:179
+msgid "Only visible for ``.blend`` files."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:186
-msgid "Create a script that is not attached to any node by right-clicking in the FileSystem dock and choosing **New > Script…**. In the script editor, write the following:"
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:181
+msgid "**Nodes**"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:212
-msgid "The ``_post_import(scene: Node)`` function takes the imported scene as argument (the parameter is actually the root node of the scene). The scene that will finally be used **must** be returned (even if the scene can be entirely different)."
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:183
+msgid "**Visible:** **All** imports everything, even invisible objects. **Visible Only** only imports visible objects. **Renderable** only imports objects that are marked as renderable in Blender, regardless of whether they are actually visible. In Blender, renderability is toggled by clicking the camera icon next to each object in the Outliner, while visibility is toggled by the eye icon."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:216
-msgid "To use your script, locate the script in the import tab's \"Path\" option under the \"Import Script\" category."
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:188
+msgid "**Active Collection Only:** If checked, only imports nodes that are in the active collection in Blender."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:190
+msgid "**Punctual Lights:** If checked, imports lights (directional, omni, and spot) from Blender. \"Punctual\" is not to be confused with \"positional\", which is why directional lights are also included."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:193
+msgid "**Cameras:** If checked, imports cameras from Blender."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:194
+msgid "**Custom Properties:** If checked, imports custom properties from Blender as glTF extras. This data can then be used from an editor plugin that uses :ref:`GLTFDocument.register_gltf_document_extension() <class_GLTFDocument_method_register_gltf_document_extension>`, which can set node metadata on import (among other use cases)."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:198
+msgid "**Modifiers:** If set to **No Modifiers**, object modifiers are ignored on import. If set to **All Modifiers**, applies modifiers to objects on import."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:203
+msgid "**Colors:** If checked, imports vertex colors from Blender."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:204
+msgid "**UVs:** If checked, imports vertex UV1 and UV2 from Blender."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:205
+msgid "**Normals:** If checked, imports vertex normals from Blender."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:206
+msgid "**Export Geometry Nodes Instances:** If checked, imports `geometry node <https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html>`__ instances from Blender."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:209
+msgid "**Tangents:** If checked, imports vertex tangents from Blender."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:210
+msgid "**Skins:** **None** skips skeleton skin data import from Blender. **4 Influences (Compatible)** imports skin data to be compatible with all renderers, at the cost of lower precision for certain rigs. **All Influences** imports skin data with all influences (up to 8 in Godot), which is more precise but may not be compatible with all renderers."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:214
+msgid "**Export Bones Deforming Mesh Only:** If checked, only imports bones that deform the mesh from Blender."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:217
+msgid "**Materials**"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:219
-msgid "Using animation libraries"
+msgid "**Unpack Enabled:** If checked, unpacks the original images to the Godot filesystem and uses them. This allows changing image import settings like VRAM compression. If unchecked, allows Blender to convert the original images, such as repacking roughness and metallic into one roughness + metallic texture. In most cases, this option should be left checked, but if the ``.blend`` file's images aren't in the correct format, this must be disabled for correct behavior."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:221
-msgid "As of Godot 4.0, you can choose to import **only** animations from a glTF file and nothing else. This is used in some asset pipelines to distribute animations separately from models. For example, this allows you to use one set of animations for several characters, without having to duplicate animation data in every character."
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:225
+msgid "**Export Materials:** If set to **Placeholder**, does not import materials, but keeps surface slots so that separate materials can be assigned to different surfaces. If set to **Export**, imports materials as-is (note that procedural Blender materials may not work correctly). If set to **Named Placeholder**, imports materials, but doesn't import images that are packed into the ``.blend`` file. Textures will have to be reassigned manually in the imported materials."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:227
-msgid "To do so, select the glTF file in the FileSystem dock, then change the import mode to Animation Library in the Import dock:"
-msgstr ""
-
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:230
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:234
-msgid "Changing the import type to Animation Library in the Import dock"
+msgid "**Limit Playback:** If checked, limits animation import to the playback range defined in Blender (the **Start** and **End** options at the right of the animation timeline in Blender). This can avoid including unused animation data, making the imported scene smaller and faster to load. However, this can also result in missing animation data if the playback range is not set correctly in Blender."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:236
-msgid "Click **Reimport** and restart the editor when prompted. After restarting, the glTF file will be imported as an :ref:`class_AnimationLibrary` instead of a :ref:`class_PackedScene`. This animation library can then be referenced in an :ref:`class_AnimationPlayer` node."
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:239
+msgid "**Always Sample:** If checked, forces animation sampling on import to ensure consistency between how Blender and glTF perform animation interpolation, at the cost of larger file sizes. If unchecked, there may be differences in how animations are interpolated between what you see in Blender and the imported scene in Godot, due to different interpolation semantics between both."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:241
-msgid "The import options that are visible after changing the import mode to Animation Library act the same as when using the Scene import mode. See :ref:`doc_importing_3d_scenes_using_the_import_dock` for more information."
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:244
+msgid "**Group Tracks:** If checked, imports animations (actives and on NLA tracks) as separate tracks. If unchecked, all the currently assigned actions become one glTF animation."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:246
-msgid "Filter script"
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:250
+msgid "Using import scripts for automation"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:248
-msgid "It is possible to specify a filter script in a special syntax to decide which tracks from which animations should be kept."
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:252
+msgid "A special script to process the whole scene after import can be provided. This is great for post-processing, changing materials, doing funny stuff with the geometry, and more."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:251
-msgid "The filter script is executed against each imported animation. The syntax consists of two types of statements, the first for choosing which animations to filter, and the second for filtering individual tracks within the matched animation. All name patterns are performed using a case-insensitive expression match, with support for ``?`` and ``*`` wildcards (using :ref:`String.matchn() <class_String_method_matchn>` under the hood)."
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:256
+msgid "Create a script that is not attached to any node by right-clicking in the FileSystem dock and choosing **New > Script…**. In the script editor, write the following:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:258
-msgid "The script must start with an animation filter statement (as denoted by the line beginning with an ``@``). For example, if we would like to apply filters to all imported animations which have a name ending in ``\"_Loop\"``:"
-msgstr ""
-
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:266
-msgid "Similarly, additional patterns can be added to the same line, separated by commas. Here is a modified example to additionally *include* all animations with names that begin with ``\"Arm_Left\"``, but also *exclude* all animations which have names ending in ``\"Attack\"``:"
-msgstr ""
-
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:275
-msgid "Following the animation selection filter statement, we add track filtering patterns to indicate which animation tracks should be kept or discarded. If no track filter patterns are specified, then all tracks within the matched animations will be discarded!"
-msgstr ""
-
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:280
-msgid "It's important to note that track filter statements are applied in order for each track within the animation, this means that one line may include a track, a later rule can still discard it. Similarly, a track excluded by an early rule may then be re-included once again by a filter rule further down in the filter script."
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:282
+msgid "The ``_post_import(scene: Node)`` function takes the imported scene as argument (the parameter is actually the root node of the scene). The scene that will finally be used **must** be returned (even if the scene can be entirely different)."
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:286
-msgid "For example: include all tracks in animations with names ending in ``\"_Loop\"``, but discard any tracks affecting a ``\"Skeleton\"`` which end in ``\"Control\"``, unless they have ``\"Arm\"`` in their name:"
+msgid "To use your script, locate the script in the import tab's \"Path\" option under the \"Import Script\" category."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:289
+msgid "Using animation libraries"
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:291
+msgid "As of Godot 4.0, you can choose to import **only** animations from a glTF file and nothing else. This is used in some asset pipelines to distribute animations separately from models. For example, this allows you to use one set of animations for several characters, without having to duplicate animation data in every character."
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:297
-msgid "In the above example, tracks like ``\"Skeleton:Leg_Control\"`` would be discarded, while tracks such as ``\"Skeleton:Head\"`` or ``\"Skeleton:Arm_Left_Control\"`` would be retained."
+msgid "To do so, select the glTF file in the FileSystem dock, then change the import mode to Animation Library in the Import dock:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:301
-msgid "Any track filter lines that do not begin with a ``+`` or ``-`` are ignored."
-msgstr ""
-
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:300
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:304
-msgid "Scene inheritance"
+msgid "Changing the import type to Animation Library in the Import dock"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:306
+msgid "Click **Reimport** and restart the editor when prompted. After restarting, the glTF file will be imported as an :ref:`class_AnimationLibrary` instead of a :ref:`class_PackedScene`. This animation library can then be referenced in an :ref:`class_AnimationPlayer` node."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:311
+msgid "The import options that are visible after changing the import mode to Animation Library act the same as when using the Scene import mode. See :ref:`doc_importing_3d_scenes_using_the_import_dock` for more information."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:316
+msgid "Filter script"
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:318
+msgid "It is possible to specify a filter script in a special syntax to decide which tracks from which animations should be kept."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:321
+msgid "The filter script is executed against each imported animation. The syntax consists of two types of statements, the first for choosing which animations to filter, and the second for filtering individual tracks within the matched animation. All name patterns are performed using a case-insensitive expression match, with support for ``?`` and ``*`` wildcards (using :ref:`String.matchn() <class_String_method_matchn>` under the hood)."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:328
+msgid "The script must start with an animation filter statement (as denoted by the line beginning with an ``@``). For example, if we would like to apply filters to all imported animations which have a name ending in ``\"_Loop\"``:"
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:336
+msgid "Similarly, additional patterns can be added to the same line, separated by commas. Here is a modified example to additionally *include* all animations with names that begin with ``\"Arm_Left\"``, but also *exclude* all animations which have names ending in ``\"Attack\"``:"
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:345
+msgid "Following the animation selection filter statement, we add track filtering patterns to indicate which animation tracks should be kept or discarded. If no track filter patterns are specified, then all tracks within the matched animations will be discarded!"
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:350
+msgid "It's important to note that track filter statements are applied in order for each track within the animation, this means that one line may include a track, a later rule can still discard it. Similarly, a track excluded by an early rule may then be re-included once again by a filter rule further down in the filter script."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:356
+msgid "For example: include all tracks in animations with names ending in ``\"_Loop\"``, but discard any tracks affecting a ``\"Skeleton\"`` which end in ``\"Control\"``, unless they have ``\"Arm\"`` in their name:"
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:367
+msgid "In the above example, tracks like ``\"Skeleton:Leg_Control\"`` would be discarded, while tracks such as ``\"Skeleton:Head\"`` or ``\"Skeleton:Arm_Left_Control\"`` would be retained."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:371
+msgid "Any track filter lines that do not begin with a ``+`` or ``-`` are ignored."
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:374
+msgid "Scene inheritance"
+msgstr ""
+
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:376
 msgid "In many cases, it may be desired to make manual modifications to the imported scene. By default, this is not possible because if the source 3D asset changes, Godot will re-import the *whole* scene."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:310
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:380
 msgid "However, it is possible to make local modifications by using *scene inheritance*. If you try to open the imported scene using **Scene > Open Scene…** or **Scene > Quick Open Scene…**, the following dialog will appear:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:314
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:318
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:384
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:388
 msgid "Dialog when opening an imported 3D scene in the editor"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:320
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:390
 msgid "In inherited scenes, the only limitations for modification are:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:322
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:392
 msgid "Nodes from the base scene can't be removed, but additional nodes can be added anywhere."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:324
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:394
 msgid "Subresources can't be edited. Instead, you need to save them externally as described above."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:327
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/import_configuration.rst:397
 msgid "Other than that, everything is allowed."
 msgstr ""

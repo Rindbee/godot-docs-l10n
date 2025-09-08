@@ -151,99 +151,99 @@ msgstr ""
 msgid "You then want to connect the signal when a new resource is set:"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:405
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:409
 msgid "Lastly, remember to disconnect the signal as the old resource being used and changed somewhere else would cause unneeded updates."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:438
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:446
 msgid "Reporting node configuration warnings"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:440
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:448
 msgid "Godot uses a *node configuration warning* system to warn users about incorrectly configured nodes. When a node isn't configured correctly, a yellow warning sign appears next to the node's name in the Scene dock. When you hover or click on the icon, a warning message pops up. You can use this feature in your scripts to help you and your team avoid mistakes when setting up scenes."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:446
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:454
 msgid "When using node configuration warnings, when any value that should affect or remove the warning changes, you need to call :ref:`update_configuration_warnings<class_Node_method_update_configuration_warnings>` . By default, the warning only updates when closing and reopening the scene."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:483
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:491
 msgid "Running one-off scripts using EditorScript"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:485
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:493
 msgid "Sometimes, you need to run code just one time to automate a certain task that is not available in the editor out of the box. Some examples might be:"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:488
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:496
 msgid "Use as a playground for GDScript or C# scripting without having to run a project. ``print()`` output is displayed in the editor Output panel."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:490
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:498
 msgid "Scale all light nodes in the currently edited scene, as you noticed your level ends up looking too dark or too bright after placing lights where desired."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:492
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:500
 msgid "Replace nodes that were copy-pasted with scene instances to make them easier to modify later."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:495
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:503
 msgid "This is available in Godot by extending :ref:`class_EditorScript` in a script. This provides a way to run individual scripts in the editor without having to create an editor plugin."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:499
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:507
 msgid "To create an EditorScript, right-click a folder or empty space in the FileSystem dock then choose **New > Script...**. In the script creation dialog, click the tree icon to choose an object to extend from (or enter ``EditorScript`` directly in the field on the left, though note this is case-sensitive):"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:504
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:508
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:512
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:516
 msgid "Creating an editor script in the script editor creation dialog"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:510
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:518
 msgid "This will automatically select a script template that is suited for EditorScripts, with a ``_run()`` method already inserted:"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:522
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:530
 msgid "This ``_run()`` method is executed when you use **File > Run** or the keyboard shortcut :kbd:`Ctrl + Shift + X` while the EditorScript is the currently open script in the script editor. This keyboard shortcut is only effective when currently focused on the script editor."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:527
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:535
 msgid "Scripts that extend EditorScript must be ``@tool`` scripts to function."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:531
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:539
 msgid "EditorScripts can only be run from the Godot script editor. If you are using an external editor, open the script inside the Godot script editor to run it."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:536
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:544
 msgid "EditorScripts have no undo/redo functionality, so **make sure to save your scene before running one** if the script is designed to modify any data."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:539
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:547
 msgid "To access nodes in the currently edited scene, use the :ref:`EditorScript.get_scene <class_EditorScript_method_get_scene>` method which returns the root Node of the currently edited scene. Here's an example that recursively gets all nodes in the currently edited scene and doubles the range of all OmniLight3D nodes:"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:572
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:580
 msgid "You can change the currently edited scene at the top of the editor even while the Script view is open. This will affect the return value of :ref:`EditorScript.get_scene <class_EditorScript_method_get_scene>`, so make sure you've selected the scene you intend to iterate upon before running the script."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:579
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:587
 msgid "Instancing scenes"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:581
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:589
 msgid "You can instantiate packed scenes normally and add them to the scene currently opened in the editor. By default, nodes or scenes added with :ref:`Node.add_child(node) <class_Node_method_add_child>` are **not** visible in the Scene tree dock and are **not** persisted to disk. If you wish the node or scene to be visible in the scene tree dock and persisted to disk when saving the scene, you need to set the child node's :ref:`owner <class_Node_property_owner>` property to the currently edited scene root."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:589
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:597
 msgid "If you are using ``@tool``:"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:614
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:622
 msgid "If you are using :ref:`EditorScript<class_EditorScript>`:"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:645
+#: ../../docs/tutorials/plugins/running_code_in_the_editor.rst:653
 msgid "Using ``@tool`` improperly can yield many errors. It is advised to first write the code how you want it, and only then add the ``@tool`` annotation to the top. Also, make sure to separate code that runs in-editor from code that runs in-game. This way, you can find bugs more easily."
 msgstr ""

@@ -100,7 +100,7 @@ msgid "Let's create our first scene with a single node. To do so, you will need 
 msgstr ""
 
 #: ../../docs/getting_started/step_by_step/nodes_and_scenes.rst:75
-msgid "In an empty scene, the Scene dock on the left shows several options to add a root node quickly. :button:`2D Scene` adds a :ref:`Node2D <class_Node2D>` node, :button:`3D Scene` adds a :ref:`Node3D <class_Node3D>` node, and :button:`User Interface` adds a :ref:`Control <class_Control>` node. These presets are here for convenience; they are not mandatory. :button:`Other Node` lets you select any node to be the root node. In an empty scene, :button:`Other Node` is equivalent to pressing the :button:`Add Child Node` button at the top-left of the Scene dock, which usually adds a new node as a child of the currently selected node."
+msgid "In an empty scene, the :ui:`Scene` dock on the left shows several options to add a root node quickly. :button:`2D Scene` adds a :ref:`Node2D <class_Node2D>` node, :button:`3D Scene` adds a :ref:`Node3D <class_Node3D>` node, and :button:`User Interface` adds a :ref:`Control <class_Control>` node. These presets are here for convenience; they are not mandatory. :button:`Other Node` lets you select any node to be the root node. In an empty scene, :button:`Other Node` is equivalent to pressing the :button:`Add Child Node` button at the top-left of the Scene dock, which usually adds a new node as a child of the currently selected node."
 msgstr ""
 
 #: ../../docs/getting_started/step_by_step/nodes_and_scenes.rst:85

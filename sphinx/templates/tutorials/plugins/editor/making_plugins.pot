@@ -44,7 +44,7 @@ msgid "The first thing you need for the editor to identify a new plugin is to cr
 msgstr ""
 
 #: ../../docs/tutorials/plugins/editor/making_plugins.rst:33
-msgid "In the main toolbar, click the ``Project`` dropdown. Then click ``Project Settings...``. Go to the ``Plugins`` tab and then click on the ``Create New Plugin`` button in the top-right."
+msgid "In the main toolbar, click the ``Project`` dropdown. Then click ``Project Settings...``. Go to the ``Plugins`` tab and then click on the :button:`Create New Plugin` button in the top-right."
 msgstr ""
 
 #: ../../docs/tutorials/plugins/editor/making_plugins.rst:37

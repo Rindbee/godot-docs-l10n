@@ -51,10 +51,10 @@ msgstr ""
 msgid "Other compilation targets and options"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/index.rst:61
+#: ../../docs/contributing/development/compiling/index.rst:62
 msgid "Some additional universal compilation options require further setup. Namely, while Godot does have C#/.NET support as a part of its main codebase, it does not get compiled by default to reduce the executable size for users who don't need C# for their projects."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/index.rst:65
+#: ../../docs/contributing/development/compiling/index.rst:66
 msgid "Articles below explain how to configure the buildsystem for cases like this, and also cover some optimization techniques."
 msgstr ""

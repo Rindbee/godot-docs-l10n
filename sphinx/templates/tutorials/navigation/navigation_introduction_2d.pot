@@ -217,7 +217,7 @@ msgid "Click on the region node and add a new NavigationPolygon Resource to the 
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:102
-msgid "Define the movable navigation area with the NavigationPolygon draw tool. Then click the `Bake NavigationPolygon`` button on the toolbar."
+msgid "Define the movable navigation area with the NavigationPolygon draw tool. Then click the :button:`Bake NavigationPolygon` button on the toolbar."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:109

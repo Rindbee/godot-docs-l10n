@@ -44,52 +44,52 @@ msgid "**Source compatible** - Source code will compile successfully without cha
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:25
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:157
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:176
 msgid "Core"
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:28
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:64
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:78
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:88
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:124
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:136
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:83
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:97
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:107
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:143
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:155
 msgid "Change"
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:28
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:64
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:78
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:88
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:124
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:136
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:83
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:97
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:107
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:143
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:155
 msgid "GDScript Compatible"
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:28
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:64
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:78
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:88
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:124
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:136
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:83
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:97
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:107
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:143
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:155
 msgid "C# Binary Compatible"
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:28
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:64
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:78
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:88
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:124
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:136
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:83
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:97
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:107
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:143
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:155
 msgid "C# Source Compatible"
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:28
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:64
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:78
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:88
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:124
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:136
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:83
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:97
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:107
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:143
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:155
 msgid "Introduced"
 msgstr ""
 
@@ -121,28 +121,28 @@ msgstr ""
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:51
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:53
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:55
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:67
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:68
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:70
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:81
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:91
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:93
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:95
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:97
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:99
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:101
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:102
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:103
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:105
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:107
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:108
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:86
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:87
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:89
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:100
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:110
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:112
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:114
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:116
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:118
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:120
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:121
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:122
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:124
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:126
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:127
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:129
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:139
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:140
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:141
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:131
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:146
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:148
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:158
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:159
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:160
 msgid "|✔️|"
 msgstr ""
 
@@ -153,25 +153,25 @@ msgstr ""
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:51
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:53
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:55
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:67
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:68
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:70
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:81
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:91
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:93
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:95
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:97
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:99
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:86
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:87
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:89
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:100
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:101
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:102
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:103
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:105
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:127
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:129
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:139
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:140
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:141
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:110
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:112
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:114
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:116
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:118
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:119
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:120
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:121
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:122
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:124
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:146
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:148
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:158
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:159
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:160
 msgid "|✔️ with compat|"
 msgstr ""
 
@@ -198,14 +198,14 @@ msgstr ""
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:44
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:45
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:48
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:71
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:100
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:107
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:108
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:110
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:112
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:143
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:145
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:90
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:119
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:126
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:127
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:129
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:131
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:162
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:164
 msgid "|❌|"
 msgstr ""
 
@@ -340,296 +340,312 @@ msgid "`GH-98972`_"
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:58
+msgid "**Export annotations**"
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:62
+msgid "The behavior of ``@export_file`` changed in Godot 4.4. When assigning a new value from the Inspector, the path is now stored and returned as a ``uid://`` reference instead of the traditional ``res://`` path(`GH-97912`_). This is a **breaking change** and may cause issues if you're expecting ``res://``-based paths in scripts or serialized files."
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:68
+msgid "For example, exported arrays of files may now contain a mix of ``uid://`` and ``res://`` paths, especially if they were partially edited in the Inspector."
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:71
+msgid "In 4.4, the only way to retain the ``res://`` format is to **manually edit** the `.tscn` or `.tres` files in a text editor. Starting in Godot 4.5, a new annotation ``@export_file_path`` can be used to explicitly retain the old behavior and export raw ``res://`` paths."
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:76
 msgid "Default buffer size in 4.3 is ``1024``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:61
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:80
 msgid "GUI nodes"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:66
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:85
 msgid "**RichTextLabel**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:67
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:86
 msgid "Method ``push_meta`` adds a new ``tooltip`` optional parameter"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:67
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:86
 msgid "`GH-99481`_"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:68
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:87
 msgid "Method ``set_table_column_expand`` adds a new ``shrink`` optional parameter"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:68
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:87
 msgid "`GH-101482`_"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:69
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:88
 msgid "**GraphEdit**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:70
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:89
 msgid "Method ``connect_node`` adds a new ``keep_alive`` optional parameter"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:70
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:89
 msgid "`GH-97449`_"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:71
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:90
 msgid "Signal ``frame_rect_changed`` changes ``new_rect`` parameter type from ``Vector2`` to ``Rect2``"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:71
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:90
 msgid "`GH-102796`_"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:75
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:94
 msgid "Physics"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:80
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:99
 msgid "**SoftBody3D**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:81
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:100
 msgid "Method ``set_point_pinned`` adds a new ``insert_at`` optional parameter"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:81
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:100
 msgid "`GH-94684`_"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:85
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:165
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:104
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:184
 msgid "Rendering"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:90
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:109
 msgid "**CPUParticles2D**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:91
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:93
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:95
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:97
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:110
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:112
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:114
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:116
 msgid "Method ``restart`` adds a new ``keep_seed`` optional parameter"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:91
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:93
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:95
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:97
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:110
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:112
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:114
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:116
 msgid "`GH-92089`_"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:92
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:111
 msgid "**CPUParticles3D**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:94
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:113
 msgid "**GPUParticles2D**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:96
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:115
 msgid "**GPUParticles3D**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:98
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:117
 msgid "**RenderingDevice**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:99
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:118
 msgid "Method ``draw_list_begin`` adds a new ``breadcrumb`` optional parameter"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:99
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:118
 msgid "`GH-90993`_"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:100
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:119
 msgid "Method ``draw_list_begin`` removes many parameters"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:100
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:119
 msgid "`GH-98670`_"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:101
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:120
 msgid "Method ``index_buffer_create`` adds a new ``enable_device_address`` optional parameter"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:101
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:102
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:103
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:120
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:121
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:122
 msgid "`GH-100062`_"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:102
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:121
 msgid "Method ``uniform_buffer_create`` adds a new ``enable_device_address`` optional parameter"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:103
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:122
 msgid "Method ``vertex_buffer_create`` adds a new ``enable_device_address`` optional parameter"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:104
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:123
 msgid "**RenderingServer**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:105
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:124
 msgid "Method ``multimesh_allocate_data`` adds a new ``use_indirect`` optional parameter"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:105
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:124
 msgid "`GH-99455`_"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:106
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:125
 msgid "**Shader**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:107
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:126
 msgid "Method ``get_default_texture_parameter`` changes return type from ``Texture2D`` to ``Texture``"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:107
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:108
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:110
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:112
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:126
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:127
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:129
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:131
 msgid "`GH-95126`_"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:108
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:127
 msgid "Method ``set_default_texture_parameter`` changes ``texture`` parameter type from ``Texture2D`` to ``Texture``"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:109
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:128
 msgid "**VisualShaderNodeCubemap**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:110
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:129
 msgid "Property ``cube_map`` changes type from ``Cubemap`` to ``TextureLayered``"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:111
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:130
 msgid "**VisualShaderNodeTexture2DArray**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:112
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:131
 msgid "Property ``texture_array`` changes type from ``Texture2DArray`` to ``TextureLayered``"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:117
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:136
 msgid "In C#, the enum ``RenderingDevice.StorageBufferUsage`` breaks compatibility because of the way the bindings generator detects the enum prefix. New members where added in `GH-100062`_ to the enum that caused the enum members to be renamed."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:121
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:140
 msgid "Navigation"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:126
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:145
 msgid "**NavigationServer2D**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:127
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:129
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:146
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:148
 msgid "Method ``query_path`` adds a new ``callback`` optional parameter"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:127
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:129
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:146
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:148
 msgid "`GH-100129`_"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:128
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:147
 msgid "**NavigationServer3D**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:133
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:152
 msgid "Editor plugins"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:138
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:157
 msgid "**EditorInterface**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:139
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:158
 msgid "Method ``open_scene_from_path`` adds a new ``set_inherited`` optional parameter"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:139
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:158
 msgid "`GH-90057`_"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:140
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:159
 msgid "Method ``popup_node_selector`` adds a new ``current_value`` optional parameter"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:140
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:141
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:159
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:160
 msgid "`GH-94323`_"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:141
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:160
 msgid "Method ``popup_property_selector`` adds a new ``current_value`` optional parameter"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:142
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:161
 msgid "**EditorSceneFormatImporter**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:143
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:162
 msgid "Method ``_get_import_flags`` removed"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:143
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:162
 msgid "`GH-101531`_"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:144
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:163
 msgid "**EditorTranslationParserPlugin**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:145
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:164
 msgid "Method ``_parse_file`` changes return type to ``Array`` and removes ``msgids`` and ``msgids_context_plural`` parameters"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:145
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:164
 msgid "`GH-99297`_"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:150
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:169
 msgid "The method ``_get_import_flags`` was never used by the engine. It was removed despite the compatibility breakage as there's no way for users to rely on this affecting engine behavior."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:154
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:173
 msgid "Behavior changes"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:161
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:180
 msgid "The ``Curve`` resource now enforces its value range, so ``min_value`` and ``max_value`` need to be changed if any of the points fall outside of the default ``[0, 1]`` range."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:169
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:188
 msgid "The ``VisualShaderNodeVec4Constant`` shader node had its input type changed to ``Vector4``. Users need to recreate the values in their constants."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:173
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:192
 msgid "CSG"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:177
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:196
 msgid "The CSG implementation now uses Emmett Lalish's `Manifold <https://github.com/elalish/manifold>`_ library (`GH-94321`_). The new implementation is more consistent with manifold definitions and fixes a number of bugs and stability issues. As a result, non-manifold meshes are no longer supported. You can use ``MeshInstance3D`` for rendering non-manifold geometry, such as quads or planes."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:183
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:202
 msgid "Android"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:187
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.4.rst:206
 msgid "Android sensor events are no longer enabled by default (`GH-94799`_). Projects that use sensor events can enable them as needed in Project Settings under **Input Devices > Sensors**."
 msgstr ""

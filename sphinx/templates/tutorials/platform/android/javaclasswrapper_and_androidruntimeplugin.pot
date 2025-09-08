@@ -90,3 +90,15 @@ msgstr ""
 #: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:105
 msgid "Java inner classes can be accessed using the ``$`` sign:"
 msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:118
+msgid "Example: Calling a constructor"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:120
+msgid "A constructor is invoked by calling a method with the same name as the class."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:122
+msgid "This example creates an intent to send a text:"
+msgstr ""

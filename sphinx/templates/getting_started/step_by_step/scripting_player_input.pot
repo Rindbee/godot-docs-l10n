@@ -60,7 +60,7 @@ msgid "The two actions we use above, \"ui_left\" and \"ui_right\", are predefine
 msgstr ""
 
 #: ../../docs/getting_started/step_by_step/scripting_player_input.rst:77
-msgid "You can see and edit input actions in your project by going to Project -> Project Settings and clicking on the Input Map tab."
+msgid "You can see and edit input actions in your project by going to :menu:`Project > Project Settings` and clicking on the :ui:`Input Map` tab."
 msgstr ""
 
 #: ../../docs/getting_started/step_by_step/scripting_player_input.rst:80

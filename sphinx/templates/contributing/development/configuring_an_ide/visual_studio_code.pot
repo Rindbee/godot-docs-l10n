@@ -20,157 +20,157 @@ msgid "Visual Studio Code"
 msgstr ""
 
 #: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:8
-msgid "This documentation is for contributions to the game engine, and not using Visual Studio Code as a C# or GDScript editor. To code C# or GDScript in an external editor, see :ref:`the C# guide to configure an external editor <doc_c_sharp_setup_external_editor>`."
+msgid "This documentation is for contributions to the game engine, and not using Visual Studio Code as a C# or GDScript editor. To code C# or GDScript in an external editor, see :ref:`the C# guide to configure an external editor <doc_c_sharp_setup_external_editor>` or :ref:`the GDScript guide to using an external text editor <doc_external_editor>`."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:12
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:13
 msgid "`Visual Studio Code <https://code.visualstudio.com>`_ is a free cross-platform code editor by `Microsoft <https://microsoft.com>`_ (not to be confused with :ref:`doc_configuring_an_ide_vs`)."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:16
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:17
 msgid "Importing the project"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:18
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:19
 msgid "Make sure the C/C++ extension is installed. You can find instructions in the `official documentation <https://code.visualstudio.com/docs/languages/cpp>`_. Alternatively, `clangd <https://open-vsx.org/extension/llvm-vs-code-extensions/vscode-clangd>`_ can be used instead."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:22
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:23
 msgid "When using the clangd extension, run ``scons compiledb=yes``."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:23
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:24
 msgid "From the Visual Studio Code's main screen open the Godot root folder with **File > Open Folder...**."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:25
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:26
 msgid "Press :kbd:`Ctrl + Shift + P` to open the command prompt window and enter *Configure Task*."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:30
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:31
 msgid "Select the **Create tasks.json file from template** option."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:35
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:36
 msgid "Then select **Others**."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:40
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:41
 msgid "If there is no such option as **Create tasks.json file from template** available, either delete the file if it already exists in your folder or create a ``.vscode/tasks.json`` file manually. See `Tasks in Visual Studio Code <https://code.visualstudio.com/docs/editor/tasks#_custom-tasks>`_ for more details on tasks."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:42
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:43
 msgid "Within the ``tasks.json`` file find the ``\"tasks\"`` array and add a new section to it:"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:44
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:45
 msgid ".vscode/tasks.json"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:63
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:64
 msgid "An example of a filled out ``tasks.json``."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:65
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:66
 msgid "Arguments can be different based on your own setup and needs. See :ref:`doc_introduction_to_the_buildsystem` for a full list of arguments."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:69
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:70
 msgid "Debugging the project"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:71
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:72
 msgid "To run and debug the project you need to create a new configuration in the ``launch.json`` file."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:73
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:74
 msgid "Press :kbd:`Ctrl + Shift + D` to open the Run panel."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:74
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:75
 msgid "If ``launch.json`` file is missing you will be prompted to create a new one."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:79
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:80
 msgid "Select **C++ (GDB/LLDB)**. There may be another platform-specific option here. If selected, adjust the configuration example provided accordingly."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:81
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:82
 msgid "Within the ``launch.json`` file find the ``\"configurations\"`` array and add a new section to it:"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:181
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:182
 msgid "An example of a filled out ``launch.json``."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:186
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:187
 msgid "Due to sporadic performance issues, it is recommended to use LLDB over GDB on Unix-based systems. Make sure that the `CodeLLDB extension <https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb>`_ is installed for configurations using `lldb`."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:190
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:191
 msgid "If you encounter issues with lldb, you may consider using gdb (see the LinuxBSD_gdb configuration)."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:192
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:193
 msgid "Do note that lldb may work better with LLVM-based builds. See :ref:`doc_compiling_for_linuxbsd` for further information."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:194
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:195
 msgid "The name under ``program`` depends on your build configuration, e.g. ``godot.linuxbsd.editor.dev.x86_64`` for 64-bit LinuxBSD platform with ``target=editor`` and ``dev_build=yes``."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:199
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:200
 msgid "Configuring Intellisense"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:201
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:202
 msgid "For the C/C++ extension:"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:203
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:204
 msgid "To fix include errors you may be having, you need to configure some settings in the ``c_cpp_properties.json`` file."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:205
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:206
 msgid "First, make sure to build the project since some files need to be generated."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:207
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:208
 msgid "Edit the C/C++ Configuration file either with the UI or with text:"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:212
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:213
 msgid "Add an include path for your platform, for example, ``${workspaceFolder}/platform/windows``."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:214
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:215
 msgid "Add defines for the editor ``TOOLS_ENABLED``, debug builds ``DEBUG_ENABLED``, and tests ``TESTS_ENABLED``."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:216
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:217
 msgid "Make sure the compiler path is configured correctly to the compiler you are using. See :ref:`doc_introduction_to_the_buildsystem` for further information on your platform."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:218
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:219
 msgid "The ``c_cpp_properties.json`` file should look similar to this for Windows:"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:220
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:221
 msgid ".vscode/c_cpp_properties.json"
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:249
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:250
 msgid "Alternatively, you can use the scons argument ``compiledb=yes`` and set the compile commands setting ``compileCommands`` to ``compile_commands.json``, found in the advanced section of the C/C++ Configuration UI."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:251
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:252
 msgid "This argument can be added to your build task in ``tasks.json`` since it will need to be run whenever files are added or moved."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:253
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:254
 msgid "If you run into any issues, ask for help in one of `Godot's community channels <https://godotengine.org/community>`__."
 msgstr ""
 
-#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:258
+#: ../../docs/contributing/development/configuring_an_ide/visual_studio_code.rst:259
 msgid "To get linting on class reference XML files, install the `vscode-xml extension <https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml>`__."
 msgstr ""

@@ -76,5 +76,5 @@ msgid "The default values are good enough for many cases, but you can change gro
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_meshes.rst:52
-msgid "Finally, push the ``Convert 2D Mesh`` button and your Sprite2D will be replaced:"
+msgid "Finally, push the :button:`Convert 2D Mesh` button and your Sprite2D will be replaced:"
 msgstr ""

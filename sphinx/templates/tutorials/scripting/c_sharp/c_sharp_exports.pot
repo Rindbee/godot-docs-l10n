@@ -336,50 +336,46 @@ msgstr ""
 msgid "Using the generic ``Godot.Collections.Dictionary<TKey, TValue>`` allows specifying the types of the key and value elements of the dictionary."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:585
-msgid "Typed dictionaries are currently unsupported in the Godot editor, so the Inspector will not restrict the types that can be assigned, potentially resulting in runtime exceptions."
-msgstr ""
-
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:594
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:588
 msgid "The default value of Godot dictionaries is null. A different default can be specified:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:607
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:601
 msgid "Exporting C# arrays"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:609
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:603
 msgid "C# arrays can exported as long as the element type is a :ref:`Variant-compatible type <c_sharp_variant_compatible_types>`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:619
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:613
 msgid "The default value of C# arrays is null. A different default can be specified:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:631
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:625
 msgid "Setting exported variables from a tool script"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:633
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:627
 msgid "When changing an exported variable's value from a script in :ref:`doc_gdscript_tool_mode`, the value in the inspector won't be updated automatically. To update it, call :ref:`NotifyPropertyListChanged() <class_Object_method_notify_property_list_changed>` after setting the exported variable's value."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:640
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:634
 msgid "Advanced exports"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:642
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:636
 msgid "Not every type of export can be provided on the level of the language itself to avoid unnecessary design complexity. The following describes some more or less common exporting features which can be implemented with a low-level API."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:646
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:640
 msgid "Before reading further, you should get familiar with the way properties are handled and how they can be customized with :ref:`_Set() <class_Object_private_method__set>`, :ref:`_Get() <class_Object_private_method__get>`, and :ref:`_GetPropertyList() <class_Object_private_method__get_property_list>` methods as described in :ref:`doc_accessing_data_or_logic_from_object`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:653
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:647
 msgid "For binding properties using the above methods in C++, see :ref:`doc_binding_properties_using_set_get_property_list`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:656
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:650
 msgid "The script must operate in the ``tool`` mode so the above methods can work from within the editor."
 msgstr ""

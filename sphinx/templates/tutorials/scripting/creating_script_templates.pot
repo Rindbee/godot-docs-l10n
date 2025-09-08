@@ -108,11 +108,11 @@ msgid "For example:"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/creating_script_templates.rst:75
-msgid "``template_scripts/Node/smooth_camera.gd``"
+msgid "``script_templates/Node/smooth_camera.gd``"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/creating_script_templates.rst:76
-msgid "``template_scripts/CharacterBody3D/platformer_movement.gd``"
+msgid "``script_templates/CharacterBody3D/platformer_movement.gd``"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/creating_script_templates.rst:79

@@ -108,7 +108,7 @@ msgid "Click **Add** to create a new launch configuration."
 msgstr ""
 
 #: ../../docs/contributing/development/configuring_an_ide/kdevelop.rst:78
-msgid "Select **Executable** option and specify the path to your executable located in the ``<Godot root directory>/bin`` folder. The name depends on your build configuration, e.g. ``godot.linuxbsd.editor.dev.x86_64`` for 64-bit LinuxBSD platform with ``platform=editor`` and ``dev_build=yes``."
+msgid "Select **Executable** option and specify the path to your executable located in the ``<Godot root directory>/bin`` folder. The name depends on your build configuration, e.g. ``godot.linuxbsd.editor.dev.x86_64`` for 64-bit LinuxBSD platform with ``platform=linuxbsd``, ``target=editor``, and ``dev_build=yes``."
 msgstr ""
 
 #: ../../docs/contributing/development/configuring_an_ide/kdevelop.rst:87
