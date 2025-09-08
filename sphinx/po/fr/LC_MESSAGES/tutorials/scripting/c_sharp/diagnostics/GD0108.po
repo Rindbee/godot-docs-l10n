@@ -14,6 +14,9 @@ msgstr ""
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 
+msgid "GD0108"
+msgstr "GD0108"
+
 msgid "**Category**"
 msgstr "**Catégorie**"
 

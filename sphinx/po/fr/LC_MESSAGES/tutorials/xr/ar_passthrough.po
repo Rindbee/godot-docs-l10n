@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Passthrough is implemented very differently across platforms."
+msgstr "Le passthrough est implémenté très différemment selon les plateformes."
+
 msgid ""
 "For headsets such as the Meta Quest and HTC Elite you will need to use the "
 "`OpenXR vendors plugin v3.0.0 <https://github.com/GodotVR/"
@@ -65,8 +68,17 @@ msgstr ""
 "application à travers la propriété ``environment_blend_mode`` de "
 "l'instance :ref:`XRInterface <class_xrinterface>`."
 
+msgid "Configuring your background"
+msgstr "Configurer votre arrière-plan"
+
 msgid "OpenXR specific"
 msgstr "Spécifique OpenXR"
+
+msgid "For example, these are the settings required on Meta Quest:"
+msgstr "Par exemple, ceux-ci sont les paramètres requis sur Meta Quest :"
+
+msgid "Putting it together"
+msgstr "Mettre tout cela ensemble"
 
 msgid ""
 "As both the depth buffer and color buffer are written to, we occlude any "

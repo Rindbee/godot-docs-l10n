@@ -313,29 +313,23 @@ msgstr ""
 "différencier des collisions avec le sol. Pour ça, nous pouvons utiliser la "
 "fonctionnalité de tags de :ref:`groupe <doc_groups>` de Godot."
 
-msgid ""
-"Open the scene ``mob.tscn`` again and select the *Mob* node. Go to the "
-"*Node* dock on the right to see a list of signals. The *Node* dock has two "
-"tabs: *Signals*, which you've already used, and *Groups*, which allows you "
-"to assign tags to nodes."
-msgstr ""
-"Ouvrez à nouveau la scène ``mob.tscn`` et sélectionnez le nœud *Mob*. Allez "
-"dans le dock *Nœud* sur la droite pour voir une liste de signaux. Le dock "
-"*Nœud* possède deux onglets : *Signaux*, que vous avez déjà utilisé, et "
-"*Groupes*, qui nous permet d'assigner des tags aux nœuds."
-
-msgid ""
-"Click on it to reveal a field where you can write a tag name. Enter \"mob\" "
-"in the field and click the *Add* button."
-msgstr ""
-"Cliquez dessus pour faire apparaître un champ où vous pouvez écrire un nom "
-"de tag. Entrez \"mob\" dans le champ et cliquez sur le bouton \"Ajouter\"."
-
 msgid "|image7|"
 msgstr "|image7|"
 
 msgid "image7"
 msgstr "image7"
+
+msgid "|image8|"
+msgstr "|image8|"
+
+msgid "image8"
+msgstr "image8"
+
+msgid "|image9|"
+msgstr "|image9|"
+
+msgid "image9"
+msgstr "image9"
 
 msgid ""
 "An icon appears in the *Scene* dock to indicate the node is part of at least "
@@ -344,11 +338,11 @@ msgstr ""
 "Une icône apparaît dans le dock *Scène* pour indiquer que le nœud fait "
 "partie d'au moins un groupe."
 
-msgid "|image8|"
-msgstr "|image8|"
+msgid "|image10|"
+msgstr "|image10|"
 
-msgid "image8"
-msgstr "image8"
+msgid "image10"
+msgstr "image10"
 
 msgid ""
 "We can now use the group from the code to distinguish collisions with "

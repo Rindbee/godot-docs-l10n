@@ -475,9 +475,6 @@ msgstr "Колір дзеркального блиску, взятий із те
 msgid "in vec2 **UV**"
 msgstr "In vec2 **UV**"
 
-msgid "UV from the ``vertex()`` function."
-msgstr "UV з функції ``vertex()``."
-
 msgid "in vec2 **SCREEN_UV**"
 msgstr "In vec2 **SCREEN_UV**"
 

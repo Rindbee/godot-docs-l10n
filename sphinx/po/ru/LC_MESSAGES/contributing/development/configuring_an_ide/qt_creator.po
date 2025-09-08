@@ -33,6 +33,12 @@ msgstr "Command"
 msgid "Arguments"
 msgstr "Аргументы"
 
+msgid ""
+"See :ref:`doc_introduction_to_the_buildsystem` for a full list of arguments."
+msgstr ""
+"Полный список аргументов см. в "
+"документе :ref:`doc_introduction_to_the_buildsystem`."
+
 msgid "Code style configuration"
 msgstr "Конфигурация стилей кода"
 

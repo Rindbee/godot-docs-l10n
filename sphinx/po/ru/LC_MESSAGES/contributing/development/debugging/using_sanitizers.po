@@ -11,5 +11,32 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using sanitizers"
+msgstr "Использование дезинфицирующих средств (sanitizers)"
+
+msgid "What are sanitizers?"
+msgstr "Что такое дезинфицирующие средства?"
+
+msgid "Using sanitizers on Godot"
+msgstr "Использование дезинфицирующих средств на Godot"
+
+msgid "Available in Clang and GCC."
+msgstr "Доступно в Clang и GCC."
+
+msgid "**Supported platforms:** Linux, Web"
+msgstr "**Поддерживаемые платформы:** Linux, Web"
+
+msgid "**Supported platforms:** Linux"
+msgstr "**Поддерживаемые платформы:** Linux"
+
+msgid "**Supported platforms:** Linux, macOS"
+msgstr "**Поддерживаемые платформы:** Linux, macOS"
+
+msgid "**Supported platforms:** Linux, macOS, Web"
+msgstr "**Поддерживаемые платформы:** Linux, macOS, Web"
+
+msgid "Platform-specific sanitizers"
+msgstr "Дезинфицирующие средства для конкретных платформ"
+
 msgid "Web"
 msgstr "Web"

@@ -125,6 +125,9 @@ msgstr "GDеxtension"
 msgid ":ref:`doc_gdextension_file`"
 msgstr ":ref:`doc_gdextension_file`"
 
+msgid ":ref:`doc_godot_cpp_docs_system`"
+msgstr ":ref:`doc_godot_cpp_docs_system`"
+
 msgid "Migrating"
 msgstr "Міграція"
 
@@ -135,7 +138,7 @@ msgid ":ref:`doc_compositor`"
 msgstr ":ref:`doc_compositor`"
 
 msgid "XR"
-msgstr "ИКСР"
+msgstr "XR"
 
 msgid ":ref:`doc_a_better_xr_start_script`"
 msgstr ":ref:`doc_a_better_xr_start_script`"
@@ -266,7 +269,7 @@ msgid ":ref:`doc_large_world_coordinates`"
 msgstr ":ref:`doc_large_world_coordinates`"
 
 msgid "Scripting"
-msgstr "Скриптинґ"
+msgstr "Скрипти"
 
 msgid ":ref:`doc_custom_performance_monitors`"
 msgstr ":ref:`doc_custom_performance_monitors`"

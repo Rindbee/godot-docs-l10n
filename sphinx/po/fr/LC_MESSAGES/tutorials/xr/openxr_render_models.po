@@ -11,8 +11,54 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "OpenXR Render Models"
+msgstr "Modèles de rendu OpenXR"
+
 msgid "Function"
 msgstr "Fonction"
 
 msgid "Description"
 msgstr "Description"
+
+msgid "render_model_get_all"
+msgstr "render_model_get_all"
+
+msgid "render_model_new_scene_instance"
+msgstr "render_model_new_scene_instance"
+
+msgid ""
+"Provides a new scene that contains all meshes needed to display the render "
+"model."
+msgstr ""
+"Fournit une nouvelle scène qui contient tous les maillages nécessaires pour "
+"afficher le modèle de rendu."
+
+msgid "render_model_get_subaction_paths"
+msgstr "render_model_get_subaction_paths"
+
+msgid "render_model_get_top_level_path"
+msgstr "render_model_get_top_level_path"
+
+msgid "render_model_get_confidence"
+msgstr "render_model_get_confidence"
+
+msgid "render_model_get_root_transform"
+msgstr "render_model_get_root_transform"
+
+msgid "render_model_get_animatable_node_count"
+msgstr "render_model_get_animatable_node_count"
+
+msgid ""
+"Returns the number of nodes in our render model scene that can be animated"
+msgstr ""
+"Renvoie le nombre de nœuds dans notre scène de modèle de rendu qui peuvent "
+"être animés"
+
+msgid "render_model_get_animatable_node_name"
+msgstr "render_model_get_animatable_node_name"
+
+msgid "render_model_is_animatable_node_visible"
+msgstr "render_model_is_animatable_node_visible"
+
+msgid "render_model_get_animatable_node_transform"
+msgstr "render_model_get_animatable_node_transform"

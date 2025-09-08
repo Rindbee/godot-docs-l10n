@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "GDScript warning system"
-msgstr "GDScript 경고 시스템(Warning system)"
+msgstr "GDScript 경고 시스템"
 
 msgid ""
 "The GDScript warning system complements :ref:`static typing "
@@ -23,3 +23,8 @@ msgstr ""
 "경고 시스템은 :ref:`정적 타이핑 GDScript <doc_gdscript_static_typing>`\\ 을 "
 "보완해줍니다(정적 타이핑 없이도 동작할 수 있습니다). 개발 중에 발견하기 어렵"
 "고 실행 시간 오류로 이어질 수 있는 실수를 방지하는 데 도움이 됩니다."
+
+msgid ""
+"You can configure warnings in the Project Settings under the section called "
+"**GDScript**:"
+msgstr "프로젝트 설정 아래에 **GDScript** 섹션에서 경고를 구성할 수 있습니다:"

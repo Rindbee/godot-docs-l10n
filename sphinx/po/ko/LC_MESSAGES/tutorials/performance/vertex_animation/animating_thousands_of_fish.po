@@ -10,3 +10,19 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Animating thousands of fish with MultiMeshInstance3D"
+msgstr "MultiMeshInstance3D로 수천 개의 물고기 애니메이션화하기"
+
+msgid "Animating one Fish"
+msgstr "물고기 한 마리 애니메이션화하기"
+
+msgid "The resulting animation should look something like this:"
+msgstr "애니메이션 결과물은 이것과 같게 보여야 합니다:"
+
+msgid ""
+"Godot makes it easy to render thousands of the same object using a "
+"MultiMeshInstance3D node."
+msgstr ""
+"Godot에서는 MultiMeshInstance3D 노드를 사용하여 수천 개의 같은 오브젝트를 쉽"
+"게 렌더링할 수 있습니다."

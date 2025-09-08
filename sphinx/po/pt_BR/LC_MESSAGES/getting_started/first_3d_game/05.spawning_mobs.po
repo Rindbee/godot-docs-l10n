@@ -40,13 +40,6 @@ msgid "If you still have *Input Map* open, switch to the *General* tab."
 msgstr ""
 "Se você ainda estiver com a aba *Input Map* aberta, mude para a aba *Geral*."
 
-msgid ""
-"In the left menu, navigate down to *Display -> Window*. On the right, set "
-"the *Width* to ``720`` and the *Height* to ``540``."
-msgstr ""
-"No menu à esquerda, navegue até *Exibir -> janela*. À direita, defina a "
-"*Largura* como ''720'' e a *Altura* como ''540''."
-
 msgid "|image2|"
 msgstr "|image2|"
 

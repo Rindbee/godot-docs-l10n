@@ -21,6 +21,14 @@ msgstr ""
 "Это краткое руководство о том, как создавать деревья и другие виды "
 "растительности с нуля."
 
+msgid ""
+"The aim is to not focus on the modeling techniques (there are plenty of "
+"tutorials about that), but how to make them look good in Godot."
+msgstr ""
+"Цель — сосредоточиться не на методах моделирования (есть множество обучающих "
+"программ на эту тему), а на том, как сделать так, чтобы они хорошо "
+"смотрелись в Godot."
+
 msgid "Start with a tree"
 msgstr "Начните с дерева"
 
@@ -35,6 +43,17 @@ msgstr "и открыл его в Blender."
 
 msgid "Paint with vertex colors"
 msgstr "Рисование цветами вершин"
+
+msgid ""
+"The first thing you may want to do is to use the vertex colors to paint how "
+"much the tree will sway when there is wind. Just use the vertex color "
+"painting tool of your favorite 3D modeling program and paint something like "
+"this:"
+msgstr ""
+"Первое, что вам, возможно, захочется сделать, — это использовать цвета "
+"вершин, чтобы нарисовать, насколько сильно дерево будет качаться на ветру. "
+"Просто используйте инструмент рисования цветов вершин в вашей любимой "
+"программе для 3D-моделирования и нарисуйте что-то вроде этого:"
 
 msgid ""
 "This is a bit exaggerated, but the idea is that color indicates how much "

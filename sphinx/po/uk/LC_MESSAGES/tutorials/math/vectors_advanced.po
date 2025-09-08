@@ -372,3 +372,12 @@ msgstr ""
 
 msgid ":ref:`doc_matrices_and_transforms`"
 msgstr ":ref:`doc_matrices_and_transforms`"
+
+msgid ""
+"If you would like additional explanation, you should check out 3Blue1Brown's "
+"excellent video series `Essence of Linear Algebra <https://www.youtube.com/"
+"watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>`_."
+msgstr ""
+"Якщо вам потрібні додаткові пояснення, вам слід переглянути чудову серію "
+"відео 3Blue1Brown «Суть лінійної алгебри» <https://www.youtube.com/watch?"
+"v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>`_."

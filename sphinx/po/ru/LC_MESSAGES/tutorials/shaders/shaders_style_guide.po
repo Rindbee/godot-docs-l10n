@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Shaders style guide"
+msgstr "Руководство по стилю шейдеров"
+
 msgid ""
 "Style guides aren't meant as hard rulebooks. At times, you may not be able "
 "to apply some of the guidelines below. When that happens, use your best "
@@ -118,6 +121,15 @@ msgstr ""
 "комментируете. Это помогает отличить текстовые комментарии от отключенного "
 "кода."
 
+msgid ""
+"In the shader editor, to make the selected code a comment (or uncomment it), "
+"press :kbd:`Ctrl + K`. This feature adds or removes ``//`` at the start of "
+"the selected lines."
+msgstr ""
+"В редакторе шейдеров, чтобы сделать выделенный код комментарием (или "
+"раскомментировать его), нажмите :kbd:`Ctrl + K`. Эта функция добавляет или "
+"удаляет ``//`` в начале выделенных строк."
+
 msgid "Whitespace"
 msgstr "Пробел"
 
@@ -151,6 +163,9 @@ msgid ""
 msgstr ""
 "Пишите константы с CONSTANT\\_CASE, все большими буквами, с нижним "
 "подчеркиванием (\\_) в качестве разделителя слов:"
+
+msgid "Preprocessor directives"
+msgstr "Директивы препроцессора"
 
 msgid "Code order"
 msgstr "Порядок кода"

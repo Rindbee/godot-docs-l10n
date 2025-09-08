@@ -55,7 +55,7 @@ msgstr ""
 msgid ""
 "Be serialized to text and use it for printing values and editable settings."
 msgstr ""
-"Puede ser serializado a texto y utilizado para imprimir valores y "
+"Puedes ser serializado a texto y utilizado para imprimir valores y "
 "configuraciones editables."
 
 msgid "Work as an exported property, so the editor can edit it universally."
@@ -64,7 +64,7 @@ msgstr ""
 "universalmente."
 
 msgid "Be used for dictionaries, arrays, parsers, etc."
-msgstr "Puede ser utilizado para diccionarios, arreglos, analizadores, etc."
+msgstr "Puedes ser utilizado para diccionarios, arreglos, analizadores, etc."
 
 msgid ""
 "Basically, thanks to the Variant class, writing Godot itself was a much, "

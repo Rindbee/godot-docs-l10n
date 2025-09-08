@@ -118,7 +118,7 @@ msgid ""
 "Or, right-click (Control-click) on the app icon in the Finder window and "
 "select ``Open`` from the menu."
 msgstr ""
-"O, haz clic derecho (Control-clic) en el ícono de la aplicación en la "
+"O, haz clic derecho (Control-clic) en el icono de la aplicación en la "
 "ventana del Finder y selecciona ``Abrir`` en el menú."
 
 msgid "Then click ``Open`` in the confirmation dialog."

@@ -40,15 +40,6 @@ msgstr ""
 "再站在房間中心時，這將導致問題。Godot XR Tools 已將所需邏輯封裝於一個名為 "
 "``PlayerBody`` 的輔助節點。"
 
-msgid ""
-"Select your :ref:`XROrigin3D <class_xrorigin3d>` node and click on the "
-"``instantiate Child Scene`` button to add a child scene. Select ``addons/"
-"godot-xr-tools/player/player_body.tscn`` and add this node."
-msgstr ""
-"選取 :ref:`XROrigin3D <class_xrorigin3d>` 節點，點擊「實例化子場景」按鈕來加"
-"入子場景。選擇 ``addons/godot-xr-tools/player/player_body.tscn``，並將此節點"
-"新增進來。"
-
 msgid "Adding a floor"
 msgstr "新增地板"
 

@@ -29,6 +29,15 @@ msgstr "요구 사항"
 msgid "Code signing and notarization"
 msgstr "코드 서명과 공증"
 
+msgid ""
+"You can use the ``xcrun notarytool history`` command to check notarization "
+"status and use the ``xcrun notarytool log {ID}`` command to download the "
+"notarization log."
+msgstr ""
+"``xcrun notarytool history`` 명령을 사용하여 공증 상태를 확인할 수 있고 "
+"``xcrun notarytool log {ID}`` 명령을 사용하여 공증 로그를 다운로드할 수 있습"
+"니다."
+
 msgid "Description"
 msgstr "설명"
 

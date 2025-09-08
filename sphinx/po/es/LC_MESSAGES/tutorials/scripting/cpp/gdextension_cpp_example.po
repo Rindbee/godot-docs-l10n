@@ -113,7 +113,7 @@ msgid ""
 msgstr ""
 "Una vez que compiles el módulo con estos cambios implementados, verás que se "
 "ha agregado una propiedad a nuestra interfaz. Ahora puedes cambiar esta "
-"propiedad y, cuando ejecutes tu proyecto, notarás que el ícono de Godot se "
+"propiedad y, cuando ejecutes tu proyecto, notarás que el icono de Godot se "
 "desplaza a lo largo de una figura más grande."
 
 msgid ""

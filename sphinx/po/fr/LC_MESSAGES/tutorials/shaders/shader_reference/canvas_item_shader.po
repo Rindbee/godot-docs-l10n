@@ -133,6 +133,9 @@ msgstr "in mat4 **CANVAS_MATRIX**"
 msgid "in mat4 **SCREEN_MATRIX**"
 msgstr "in mat4 **SCREEN_MATRIX**"
 
+msgid "in int  **INSTANCE_ID**"
+msgstr "in int  **INSTANCE_ID**"
+
 msgid "Instance ID for instancing."
 msgstr "Identifiant de l'instance pour l'instanciation."
 
@@ -161,6 +164,9 @@ msgstr ""
 msgid "inout vec2 **VERTEX**"
 msgstr "inout vec2 **VERTEX**"
 
+msgid "in int **VERTEX_ID**"
+msgstr "in int **VERTEX_ID**"
+
 msgid "inout vec2 **UV**"
 msgstr "inout vec2 **UV**"
 
@@ -172,6 +178,12 @@ msgstr "inout float **POINT_SIZE**"
 
 msgid "Point size for point drawing."
 msgstr "Taille des points pour le dessin de point."
+
+msgid "in vec4 **CUSTOM0**"
+msgstr "in vec4 **CUSTOM0**"
+
+msgid "in vec4 **CUSTOM1**"
+msgstr "in vec4 **CUSTOM1**"
 
 msgid "Fragment built-ins"
 msgstr "Variables intégrées de fragment"
@@ -209,6 +221,9 @@ msgstr "sampler2D **SPECULAR_SHININESS_TEXTURE**"
 msgid "Specular shininess texture of this object."
 msgstr "Texture de brillance spéculaire pour cet objet."
 
+msgid "in vec4 **SPECULAR_SHININESS**"
+msgstr "in vec4 **SPECULAR_SHININESS**"
+
 msgid "in vec2 **UV**"
 msgstr "in vec2 **UV**"
 
@@ -230,8 +245,17 @@ msgstr "sampler2D **NORMAL_TEXTURE**"
 msgid "Default 2D normal texture."
 msgstr "Texture 2D des normales par défaut."
 
+msgid "out vec3 **NORMAL_MAP**"
+msgstr "out vec3 **NORMAL_MAP**"
+
 msgid "out float **NORMAL_MAP_DEPTH**"
 msgstr "out float **NORMAL_MAP_DEPTH**"
+
+msgid "inout vec2 **SHADOW_VERTEX**"
+msgstr "inout vec2 **SHADOW_VERTEX**"
+
+msgid "inout vec3 **LIGHT_VERTEX**"
+msgstr "inout vec3 **LIGHT_VERTEX**"
 
 msgid "Light built-ins"
 msgstr "Variables intégrées de lumière"
@@ -248,20 +272,38 @@ msgstr "Texture actuelle utilisée pour le CanvasItem."
 msgid "UV for Point Sprite."
 msgstr "UV pour Point Sprite."
 
+msgid "in vec4 **LIGHT_COLOR**"
+msgstr "in vec4 **LIGHT_COLOR**"
+
 msgid "in float **LIGHT_ENERGY**"
 msgstr "in float **LIGHT_ENERGY**"
+
+msgid "in vec3 **LIGHT_POSITION**"
+msgstr "in vec3 **LIGHT_POSITION**"
+
+msgid "in vec3 **LIGHT_DIRECTION**"
+msgstr "in vec3 **LIGHT_DIRECTION**"
 
 msgid "Direction of the :ref:`class_Light2D` in screen space."
 msgstr "Direction de la :ref:`class_Light2D` dans le repère de l'écran."
 
+msgid "in bool **LIGHT_IS_DIRECTIONAL**"
+msgstr "in bool **LIGHT_IS_DIRECTIONAL**"
+
 msgid "``true`` if this pass is a :ref:`class_DirectionalLight2D`."
 msgstr "``true`` s'il cette passe est une :ref:`class_DirectionalLight2D`."
+
+msgid "in vec3 **LIGHT_VERTEX**"
+msgstr "in vec3 **LIGHT_VERTEX**"
 
 msgid "inout vec4 **LIGHT**"
 msgstr "inout vec4 **LIGHT**"
 
 msgid "Output color for this :ref:`class_Light2D`."
 msgstr "Couleur de sortie pour cette :ref:`class_Light2D`."
+
+msgid "out vec4 **SHADOW_MODULATE**"
+msgstr "out vec4 **SHADOW_MODULATE**"
 
 msgid "SDF functions"
 msgstr "Fonctions CDS"

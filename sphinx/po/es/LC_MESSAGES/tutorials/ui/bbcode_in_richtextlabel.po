@@ -153,7 +153,7 @@ msgid "Custom font size."
 msgstr "Tamaño de fuente personalizado."
 
 msgid "Floating-point number."
-msgstr "Número de coma flotante."
+msgstr "Número de punto flotante."
 
 msgid "Integer number."
 msgstr "Número entero."
@@ -216,13 +216,6 @@ msgstr ""
 
 msgid "``_process_custom_fx``"
 msgstr "``_process_custom_fx``"
-
-msgid ""
-"``identity`` specifies which custom effect is being processed. You should "
-"use that for code flow control."
-msgstr ""
-"``identity`` especifica qué efecto personalizado se está procesando. "
-"Deberías usar eso para el control del flujo de códigos."
 
 msgid ""
 "``elapsed_time`` is the total amount of time the text effect has been "

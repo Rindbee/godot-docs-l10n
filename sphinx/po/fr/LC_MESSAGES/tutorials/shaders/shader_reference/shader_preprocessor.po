@@ -68,6 +68,9 @@ msgstr "**Syntax:** ``#endif``"
 msgid "#error"
 msgstr "#error"
 
+msgid "**Syntax:** ``#error <message>``"
+msgstr "**Syntaxe :** ``#error <message>``"
+
 msgid "#include"
 msgstr "#include"
 

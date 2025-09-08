@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Scripting"
-msgstr "Скриптинґ"
+msgstr "Скрипти"
 
 msgid ""
 "This section covers programming languages and core features to code your "

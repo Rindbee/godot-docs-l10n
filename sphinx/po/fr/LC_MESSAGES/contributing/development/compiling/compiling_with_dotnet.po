@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Compiling with .NET"
+msgstr "Compiler avec .NET"
+
 msgid "Requirements"
 msgstr "Pré-requis"
 
@@ -73,6 +76,9 @@ msgstr "Exemples"
 
 msgid "Example (Windows)"
 msgstr "Exemple (Windows)"
+
+msgid "Example (Linux, \\*BSD)"
+msgstr "Exemple (Linux, \\*BSD)"
 
 msgid "Data directory"
 msgstr "Répertoire de données"

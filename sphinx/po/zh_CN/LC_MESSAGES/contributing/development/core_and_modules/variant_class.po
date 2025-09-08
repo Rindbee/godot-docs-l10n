@@ -26,6 +26,11 @@ msgid ""
 msgstr ""
 "针对若干 variant 执行操作（GDScript 使用 Variant 作为原子/原生数据类型）。"
 
+msgid ""
+"Be used to abstract calling methods and their arguments (Godot exports all "
+"its functions through variants)."
+msgstr "用于抽象调用方法及其参数（Godot 通过 variant 导出所有函数）。"
+
 msgid "Be used to defer calls or move data between threads."
 msgstr "用于推迟调用或在线程之间交换数据."
 

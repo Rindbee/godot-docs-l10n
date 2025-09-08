@@ -84,7 +84,7 @@ msgid ""
 "Each setting has a default value. Settings can be reset to their default "
 "values by clicking the circular arrow **Reset** button next to each property."
 msgstr ""
-"Cada configuración tiene un valor predeterminado. Puede restablecer los "
+"Cada configuración tiene un valor predeterminado. Puedes restablecer los "
 "valores predeterminados haciendo clic en el botón **Restablecer** junto a "
 "cada propiedad."
 

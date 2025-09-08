@@ -14,15 +14,6 @@ msgstr ""
 msgid "Android in-app purchases"
 msgstr "Android 应用内购买"
 
-msgid ""
-"Godot offers a first-party ``GodotGooglePlayBilling`` Android plugin "
-"compatible with Godot 4 which uses the `Google Play Billing library <https://"
-"developer.android.com/google/play/billing>`_."
-msgstr ""
-"Godot 提供与 Godot 4 兼容的第一方 ``GodotGooglePlayBilling`` Android 插件，该"
-"插件使用 `Google Play 结算系统库 <https://developer.android.com/google/play/"
-"billing>`_\\ 。"
-
 msgid "Usage"
 msgstr "用法"
 
@@ -35,6 +26,9 @@ msgstr "初始化插件"
 msgid "To use the ``GodotGooglePlayBilling`` API:"
 msgstr "要使用 ``GodotGooglePlayBilling`` API："
 
+msgid "Call ``start_connection``."
+msgstr "调用 ``start_connection``。"
+
 msgid "Initialization example:"
 msgstr "初始化示例："
 
@@ -46,6 +40,15 @@ msgstr "查询用户购买记录"
 
 msgid "Purchase an item"
 msgstr "购买项目"
+
+msgid ""
+"For both ``purchase()`` and ``purchase_subscription()``, you can optionally "
+"pass a boolean to indicate whether offers are `personallised <https://"
+"developer.android.com/google/play/billing/integrate#personalized-price>`_"
+msgstr ""
+"对于 ``purchase()`` 和 ``purchase_subscription()`` 方法，你可选择传入布尔值参"
+"数以指示是否启用`个性化定价 <https://developer.android.com/google/play/"
+"billing/integrate#personalized-price>`_"
 
 msgid "Example use of ``purchase()``:"
 msgstr "``purchase()`` 的示例用法："

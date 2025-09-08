@@ -131,8 +131,33 @@ msgstr "``emacs +{line}:{col} {file}``"
 msgid "Sublime Text"
 msgstr "Піднесений текст"
 
+msgid "``{project} {file}:{line}:{col}``"
+msgstr "``{project} {file}:{line}:{col}``"
+
+msgid "Visual Studio*"
+msgstr "Visual Studio*"
+
 msgid "``/edit \"file\"``"
 msgstr "``/edit \"file\"``"
+
+msgid ""
+"\\*: Arguments are not automatically detected, so you must fill them in "
+"manually."
+msgstr ""
+"\\*: Аргументи не виявляються автоматично, тому їх потрібно заповнювати "
+"вручну."
+
+msgid ""
+"Since Godot 4.5, **Exec Flags** are automatically detected for all editors "
+"listed above (unless denoted with an asterisk). You don't need to paste them "
+"from this page for it to work, unless your editor has an executable name not "
+"recognized automatically (e.g. a fork of an editor listed here)."
+msgstr ""
+"Починаючи з Godot 4.5, **Прапорці виконання** автоматично виявляються для "
+"всіх перелічених вище редакторів (якщо не позначено зірочкою). Вам не "
+"потрібно вставляти їх з цієї сторінки, щоб це працювало, якщо ваш редактор "
+"не має виконуваного файлу, який не розпізнається автоматично (наприклад, "
+"форк редактора, переліченого тут)."
 
 msgid ""
 "For Visual Studio Code on Windows, you will have to point to the "

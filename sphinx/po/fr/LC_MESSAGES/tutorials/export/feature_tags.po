@@ -83,6 +83,9 @@ msgstr "**macOS**"
 msgid "**ios**"
 msgstr "**ios**"
 
+msgid "**visionos**"
+msgstr "**visionos**"
+
 msgid "**windows**"
 msgstr "**Windows**"
 
@@ -109,6 +112,12 @@ msgstr "**editor**"
 
 msgid "Running on an editor build"
 msgstr "Exécuter sur une compilation éditeur"
+
+msgid "**editor_hint**"
+msgstr "**editor_hint**"
+
+msgid "**editor_runtime**"
+msgstr "**editor_runtime**"
 
 msgid "**template**"
 msgstr "**template**"
@@ -203,6 +212,12 @@ msgstr "**web**"
 msgid "Host OS is a Web browser"
 msgstr "L’OS hôte est un serveur web"
 
+msgid "**nothreads**"
+msgstr "**nothreads**"
+
+msgid "**threads**"
+msgstr "**threads**"
+
 msgid "**web_android**"
 msgstr "**web_android**"
 
@@ -241,6 +256,12 @@ msgstr "**movie**"
 
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ":ref:`Le mode Création de film <doc_creating_movies>` est actif"
+
+msgid "**shader_baker**"
+msgstr "**shader_baker**"
+
+msgid "**dedicated_server**"
+msgstr "**dedicated_server**"
 
 msgid "Custom features"
 msgstr "Fonctionnalités personnalisées"

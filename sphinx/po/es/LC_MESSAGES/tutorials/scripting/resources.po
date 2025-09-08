@@ -202,7 +202,7 @@ msgid ""
 msgstr ""
 "El inspector de Godot procesa y edita los archivos de recursos de forma "
 "inmediata. Como tal, los usuarios a menudo no necesitan implementar una "
-"lógica personalizada para ver o editar sus datos. Para hacerlo, haga doble "
+"lógica personalizada para ver o editar sus datos. Para hacerlo, haz doble "
 "clic en el archivo de recursos en el panel FileSystem o haz clic en el icono "
 "de carpeta en el Inspector y abra el archivo en el cuadro de diálogo."
 

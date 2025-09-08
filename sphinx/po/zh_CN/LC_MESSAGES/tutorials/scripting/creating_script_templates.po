@@ -88,14 +88,27 @@ msgstr "编辑器和项目定义的模板使用的都是以下组织方式："
 msgid "where:"
 msgstr "其中："
 
+msgid ""
+"``template_path`` is one of the 2 locations discussed in the previous two "
+"sections."
+msgstr "``template_path`` 是前文所述两个路径位置之一。"
+
+msgid ""
+"``file`` is the custom name you can chose for the template (for example, "
+"``platformer_movement`` or ``smooth_camera``)."
+msgstr ""
+"``file`` 是你为模板选择的自定义名称（例如：\\ ``platformer_movement`` 和 "
+"``smooth_camera``\\ ）。"
+
+msgid ""
+"``extension`` indicates which language the template will apply to (it should "
+"be ``gd`` for GDScript or ``cs`` for C#)."
+msgstr ""
+"``extension``\\ ：表示应用该模板的语言（GDScript 应使用 ``gd``\\ 、C# 应使用 "
+"``cs``\\ ）。"
+
 msgid "For example:"
 msgstr "例如："
-
-msgid "``template_scripts/Node/smooth_camera.gd``"
-msgstr "``template_scripts/Node/smooth_camera.gd``"
-
-msgid "``template_scripts/CharacterBody3D/platformer_movement.gd``"
-msgstr "``template_scripts/CharacterBody3D/platformer_movement.gd``"
 
 msgid "By default:"
 msgstr "默认情况下："

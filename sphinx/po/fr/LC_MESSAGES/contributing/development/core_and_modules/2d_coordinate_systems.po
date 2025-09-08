@@ -16,3 +16,6 @@ msgstr "Introduction"
 
 msgid "Click graphic to enlarge."
 msgstr "Cliquez sur le graphique pour l'élargir."
+
+msgid "**Viewport Coordinates**"
+msgstr "**Coordonnées du viewport**"

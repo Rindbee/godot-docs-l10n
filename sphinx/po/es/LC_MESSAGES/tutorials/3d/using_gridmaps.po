@@ -111,13 +111,6 @@ msgstr ""
 msgid "Exporting the MeshLibrary"
 msgstr "Exportación de MeshLibrary"
 
-msgid ""
-"You can find an already exported MeshLibrary in the project named "
-"\"MeshLibrary.tres\"."
-msgstr ""
-"Puedes encontrar una MeshLibrary ya exportada en el proyecto llamado "
-"\"MeshLibrary.tres\"."
-
 msgid "Using GridMap"
 msgstr "Usando GridMap"
 

@@ -69,7 +69,7 @@ msgid "**Needless double reviews.**"
 msgstr "**Double révisions inutiles.**"
 
 msgid "**Being overly nitpicky.**"
-msgstr "**Être bien trop pointilleux**"
+msgstr "**Être bien trop pointilleux.**"
 
 msgid "**Expanding the scope of a pull request.**"
 msgstr "**Élargissement de la portée d'une pull request.**"
@@ -96,8 +96,14 @@ msgstr ""
 "garantit pas que le code sera fusionné, d'autres personnes l'examineront "
 "encore, donc ne soyez pas timide."
 
+msgid "Merging pull requests"
+msgstr "Fusionner des pull requests"
+
 msgid "2. Get feedback from the community"
 msgstr "2. Obtenez des retours de la communauté"
+
+msgid "3. Git checklist"
+msgstr "3. Checklist Git"
 
 msgid "**Check for proper commit attribution.**"
 msgstr "** Vérifiez l'attribution correcte du commit. **"

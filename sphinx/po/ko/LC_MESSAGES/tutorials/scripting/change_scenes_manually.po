@@ -10,3 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Change scenes manually"
+msgstr "수동으로 씬 바꾸기"
+
+msgid "Unloads memory."
+msgstr "메모리를 언로드합니다."

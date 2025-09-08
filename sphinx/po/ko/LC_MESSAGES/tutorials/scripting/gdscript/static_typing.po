@@ -18,7 +18,10 @@ msgid "In this guide, you will learn:"
 msgstr "이 가이드에서 다음 내용을 배울 것입니다:"
 
 msgid "how to use static typing in GDScript;"
-msgstr "GDScript에서 정적 타이핑 사용법"
+msgstr "GDScript에서 정적 타이핑 사용법;"
+
+msgid "that static types can help you avoid bugs;"
+msgstr "이 정적 타입은 버그를 방지하는 데 도움이 될 수 있습니다;"
 
 msgid ""
 "Static types can be used on variables, constants, functions, parameters, and "

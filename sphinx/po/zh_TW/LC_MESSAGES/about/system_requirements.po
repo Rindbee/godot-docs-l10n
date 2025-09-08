@@ -49,12 +49,6 @@ msgstr "**GPU**"
 msgid "**Forward+ renderer:** Integrated graphics with full Vulkan 1.0 support"
 msgstr "**Forward+ 算繪器：** 內建顯示晶片，完整支援 Vulkan 1.0"
 
-msgid ""
-"*Example: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics "
-"(Kaveri)*"
-msgstr ""
-"*範例： Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics (Kaveri)*"
-
 msgid "**Mobile renderer:** Integrated graphics with full Vulkan 1.0 support"
 msgstr "**行動裝置算繪器：** 具備完整 Vulkan 1.0 支援的內建顯示晶片"
 

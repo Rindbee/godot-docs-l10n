@@ -13,3 +13,6 @@ msgstr ""
 
 msgid "JetBrains Rider"
 msgstr "JetBrains Rider"
+
+msgid "Compiling and debugging the project"
+msgstr "프로젝트 컴파일하기 및 디버깅"

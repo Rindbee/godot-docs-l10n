@@ -56,14 +56,35 @@ msgstr "Position de la caméra, dans le repère du monde."
 msgid "samplerCube **RADIANCE**"
 msgstr "samplerCube **RADIANCE**"
 
+msgid "in bool **AT_HALF_RES_PASS**"
+msgstr "in bool **AT_HALF_RES_PASS**"
+
+msgid "in bool **AT_QUARTER_RES_PASS**"
+msgstr "in bool **AT_QUARTER_RES_PASS**"
+
+msgid "in bool **AT_CUBEMAP_PASS**"
+msgstr "in bool **AT_CUBEMAP_PASS**"
+
+msgid "in bool **LIGHTX_ENABLED**"
+msgstr "in bool **LIGHTX_ENABLED**"
+
 msgid "in float **LIGHTX_ENERGY**"
 msgstr "in float **LIGHTX_ENERGY**"
 
 msgid "Energy multiplier for ``LIGHTX``."
 msgstr "Multiplicateur d'énergie pour ``LIGHTX``."
 
+msgid "in vec3 **LIGHTX_DIRECTION**"
+msgstr "in vec3 **LIGHTX_DIRECTION**"
+
 msgid "Direction that ``LIGHTX`` is facing."
 msgstr "Direction vers laquelle ``LIGHTX`` fait face."
+
+msgid "in vec3 **LIGHTX_COLOR**"
+msgstr "in vec3 **LIGHTX_COLOR**"
+
+msgid "Color of ``LIGHTX``."
+msgstr "Couleur de ``LIGHTX``."
 
 msgid "in float **LIGHTX_SIZE**"
 msgstr "in float **LIGHTX_SIZE**"
@@ -77,11 +98,29 @@ msgstr "in float **TAU**"
 msgid "in float **E**"
 msgstr "in float **E**"
 
+msgid "in vec3 **EYEDIR**"
+msgstr "in vec3 **EYEDIR**"
+
 msgid "in vec2 **SCREEN_UV**"
 msgstr "in vec2 **SCREEN_UV**"
+
+msgid "in vec2 **SKY_COORDS**"
+msgstr "in vec2 **SKY_COORDS**"
+
+msgid "in vec4 **HALF_RES_COLOR**"
+msgstr "in vec4 **HALF_RES_COLOR**"
+
+msgid "in vec4 **QUARTER_RES_COLOR**"
+msgstr "in vec4 **QUARTER_RES_COLOR**"
+
+msgid "out vec3 **COLOR**"
+msgstr "out vec3 **COLOR**"
 
 msgid "Output color."
 msgstr "couleur de sortie."
 
 msgid "out float **ALPHA**"
 msgstr "out float **ALPHA**"
+
+msgid "out vec4 **FOG**"
+msgstr "out vec4 **FOG**"

@@ -1332,6 +1332,12 @@ msgstr ""
 "de supporter l'internationalisation (i18n pour l'abbréviation), nous "
 "utilisons notre propre type de String (chaîne de caractère)."
 
+msgid ""
+"Check out :ref:`Godot's container types <doc_core_types>` for alternatives."
+msgstr ""
+"Allez voir les :ref:`types de conteneur de Godot <doc_core_types>` pour des "
+"alternatives."
+
 msgid "Why does Godot not use exceptions?"
 msgstr "Pourquoi n'y a-t-il pas de gestion d'exceptions dans Godot ?"
 

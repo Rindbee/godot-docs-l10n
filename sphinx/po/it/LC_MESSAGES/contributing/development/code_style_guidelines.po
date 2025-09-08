@@ -292,13 +292,6 @@ msgstr ""
 "comando:"
 
 msgid ""
-"``-l 120`` means that the allowed number of characters per line is 120. This "
-"number was agreed upon by the developers."
-msgstr ""
-"``-l 120`` significa che il numero consentito di caratteri per riga è 120. "
-"Questo numero è stato concordato dagli sviluppatori."
-
-msgid ""
 "The path can point to several files, either one after the other or using "
 "wildcards like in a typical Unix shell."
 msgstr ""

@@ -21,6 +21,15 @@ msgstr ""
 "Godot предоставляет способ использования сценарных шаблонов, как показано в "
 "``Script Create Dialog``, при создании нового скрипта:"
 
+msgid ""
+"A set of built-in script templates are provided with the editor, but it is "
+"also possible to create new ones and set them by default, both per project "
+"and at editor scope."
+msgstr ""
+"В редакторе предусмотрен набор встроенных шаблонов скриптов, но также можно "
+"создавать новые и устанавливать их по умолчанию как для проекта, так и для "
+"редактора."
+
 msgid "Locating the templates"
 msgstr "Расположение шаблонов"
 
@@ -50,17 +59,38 @@ msgid "Project-defined templates"
 msgstr "Шаблоны, определенные проектом"
 
 msgid ""
+"The default path to search for templates is the ``res://script_templates/`` "
+"directory. The path can be changed by configuring the project "
+"setting :ref:`Editor > Script > Templates Search "
+"Path<class_ProjectSettings_property_editor/script/templates_search_path>`, "
+"both via code and the editor."
+msgstr ""
+"Путь поиска шаблонов по умолчанию — каталог ``res://script_templates/``. "
+"Этот путь можно изменить, настроив параметр проекта :ref:`Editor > Script > "
+"Templates Search Path<class_ProjectSettings_property_editor/script/"
+"templates_search_path>` как через код, так и через редактор."
+
+msgid ""
 "If no ``script_templates`` directory is found within a project, it is simply "
 "ignored."
 msgstr ""
 "Если в проекте не найден каталог ``script_templates``, он просто "
 "игнорируется."
 
+msgid "Template organization and naming"
+msgstr "Организация и наименование шаблонов"
+
 msgid "For example:"
 msgstr "Например:"
 
 msgid "By default:"
 msgstr "По умолчанию:"
+
+msgid "the description is empty"
+msgstr "описание пустое"
+
+msgid "the template will not be set as the default for the given node"
+msgstr "шаблон не будет установлен как шаблон по умолчанию для данного узла"
 
 msgid ""
 "The script templates have the same extension as the regular script files. "
@@ -107,8 +137,45 @@ msgstr "Заполнитель"
 msgid "Description"
 msgstr "Описание"
 
+msgid "The name of the Godot namespace (used in C# only)."
+msgstr "Имя пространства имен Godot (используется только в C#)."
+
+msgid "``_CLASS_``"
+msgstr "``_CLASS_``"
+
+msgid "``_BASE_``"
+msgstr "``_BASE_``"
+
 msgid "The base type a new script inherits from."
 msgstr "Базовый тип, от которого наследуется новый сценарий."
 
+msgid ""
+"Indentation placeholder. The exact type and number of whitespace characters "
+"used for indentation is determined by the ``text_editor/indent/type`` and "
+"``text_editor/indent/size`` settings in the :ref:`EditorSettings "
+"<class_EditorSettings>` respectively. Can be overridden by the ``meta-space-"
+"indent`` header on the template."
+msgstr ""
+"Заполнитель отступа. Точный тип и количество пробелов, используемых для "
+"отступа, определяются настройками ``text_editor/indent/type`` и "
+"``text_editor/indent/size`` в :ref:`EditorSettings <class_EditorSettings>` "
+"соответственно. Может быть переопределено заголовком ``meta-space-indent`` в "
+"шаблоне."
+
 msgid "Type placeholders"
 msgstr "Типы заполнителей"
+
+msgid "``int``"
+msgstr "``int``"
+
+msgid "``String``"
+msgstr "``String``"
+
+msgid "``Array[String]``"
+msgstr "``Array[String]``"
+
+msgid "``float``"
+msgstr "``float``"
+
+msgid "``void``"
+msgstr "``void``"

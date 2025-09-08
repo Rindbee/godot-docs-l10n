@@ -14,15 +14,6 @@ msgstr ""
 msgid "Android in-app purchases"
 msgstr "Android 應用程式內購"
 
-msgid ""
-"Godot offers a first-party ``GodotGooglePlayBilling`` Android plugin "
-"compatible with Godot 4 which uses the `Google Play Billing library <https://"
-"developer.android.com/google/play/billing>`_."
-msgstr ""
-"Godot 提供官方的 ``GodotGooglePlayBilling`` Android 外掛程式，支援 Godot 4，"
-"並使用 `Google Play Billing 函式庫 <https://developer.android.com/google/"
-"play/billing>`_。"
-
 msgid "Usage"
 msgstr "用法"
 

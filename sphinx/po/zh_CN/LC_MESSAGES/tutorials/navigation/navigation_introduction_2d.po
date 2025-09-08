@@ -270,13 +270,6 @@ msgid ""
 msgstr "单击该区块节点，向该节点添加一个新的 NavigationPolygon 资源。"
 
 msgid ""
-"Define the movable navigation area with the NavigationPolygon draw tool. "
-"Then click the `Bake NavigationPolygon`` button on the toolbar."
-msgstr ""
-"使用 NavigationPolygon 绘制工具定义可移动导航区域。然后点击工具栏上的 ``烘焙 "
-"NavigationPolygon`` 按钮。"
-
-msgid ""
 "The navigation mesh defines the area where an actor can stand and move with "
 "its center. Leave enough margin between the navigation polygon edges and "
 "collision objects to not get path following actors repeatedly stuck on "

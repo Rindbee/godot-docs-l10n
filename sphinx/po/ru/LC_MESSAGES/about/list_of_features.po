@@ -77,6 +77,18 @@ msgstr ""
 ":ref:`Web браузеры <doc_using_the_web_editor>`. Экспериментальная поддержка "
 "в версии 4.0. Для HTML5 рекомендуется использовать Godot 3.x."
 
+msgid ""
+"Linux supports rv64 (RISC-V), ppc64 & ppc32 (PowerPC), and loongarch64. "
+"However you must compile the editor for that platform (as well as export "
+"templates) yourself, no official downloads are currently provided. RISC-V "
+"compiling instructions can be found on the :ref:`doc_compiling_for_linuxbsd` "
+"page."
+msgstr ""
+"Linux supports rv64 (RISC-V), ppc64 & ppc32 (PowerPC), и loongarch64. Однако "
+"вы должны составить редактор для этой платформы (а также шаблоны экспорта), "
+"в настоящее время официальные загрузки не предоставляются. Компилирование "
+"RISC-V инструкций можно найти на странице :ref:`doc_compiling_for_linuxbsd`."
+
 msgid "**Runs exported projects:**"
 msgstr "**Запускает экспортированные проекты:**"
 
@@ -975,6 +987,9 @@ msgstr "Поддержка пользовательских шейдеров ч�
 msgid "**Post-processing:**"
 msgstr "**Постобработка:**"
 
+msgid "Tonemapping (Linear, Reinhard, Filmic, ACES, AgX)."
+msgstr "Тоновое преобразование (Linear, Reinhard, Filmic, ACES, AgX)."
+
 msgid ""
 "Automatic exposure adjustments based on viewport brightness (and manual "
 "exposure override)."
@@ -1255,6 +1270,16 @@ msgstr ""
 "Многие типы данных 2D, 3D и 4D линейной алгебры, такие как векторы и "
 "трансформации."
 
+msgid ":ref:`GDScript: <doc_gdscript>`"
+msgstr ":ref:`GDScript: <doc_gdscript>`"
+
+msgid ""
+":ref:`High-level interpreted language <doc_gdscript_reference>` "
+"with :ref:`optional static typing <doc_gdscript_static_typing>`."
+msgstr ""
+":ref:`High-level interpreted language <doc_gdscript_reference>` "
+"с :ref:`optional static typing <doc_gdscript_static_typing>`."
+
 msgid ""
 "Syntax inspired by Python. However, GDScript is **not** based on Python."
 msgstr "Синтаксис вдохновлен Python. Однако GDScript **не** основан на Python."
@@ -1268,6 +1293,9 @@ msgid ""
 msgstr ""
 ":ref:`Применение потоков <doc_using_multiple_threads>` для выполнения "
 "асинхронных действий или использования нескольких процессорных ядер."
+
+msgid ":ref:`C#: <doc_c_sharp>`"
+msgstr ":ref:`C#: <doc_c_sharp>`"
 
 msgid "Packaged in a separate binary to keep file sizes and dependencies down."
 msgstr ""

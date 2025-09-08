@@ -22,3 +22,6 @@ msgstr "블렌드 모드"
 
 msgid "Description"
 msgstr "설명"
+
+msgid "Configuring your background"
+msgstr "백그라운드 구성하기"

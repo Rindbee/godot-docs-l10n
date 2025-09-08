@@ -16,3 +16,17 @@ msgstr "JetBrains rider"
 
 msgid "Importing the project"
 msgstr "Импортирование проекта"
+
+msgid "Install all the dependencies."
+msgstr "Установите все зависимости."
+
+msgid "Compiling and debugging the project"
+msgstr "Компиляция и отладка проекта"
+
+msgid ""
+"Click on the **Godot > Edit Configurations** option at the top of the screen."
+msgstr ""
+"Нажмите на опцию **Godot > Edit Configurations** в верхней части экрана."
+
+msgid "Unit testing"
+msgstr "Модульное тестирование"

@@ -14,6 +14,12 @@ msgstr ""
 msgid "Images"
 msgstr "Images (Изображения)"
 
+msgid "Capturing an image"
+msgstr "Захват изображения"
+
+msgid "Format conversion"
+msgstr "Преобразование формата"
+
 msgid ""
 "The current format for images in Godot's documentation is WebP (``.webp``). "
 "While some Linux programs will support saving screenshots in this format, "
@@ -39,6 +45,12 @@ msgstr ""
 "к заметным артефактам сжатия, то можно использовать меньшее сжатие, даже "
 "если размер файла больше."
 
+msgid "Cropping"
+msgstr "Обрезка"
+
+msgid "Scaling down an image"
+msgstr "Уменьшение масштаба изображения"
+
 msgid ""
 "As explained earlier on this page, all images taken on a screen that is a "
 "higher resolution than 1080p should be scaled down. To do this in Krita "
@@ -60,6 +72,12 @@ msgstr ""
 "значений, а для изображений с разрешением 1440p умножьте ширину и высоту на "
 "0,75. Убедитесь, что внизу меню отмечен параметр **Сохранять пропорции**, "
 "чтобы вам нужно было изменить только одно значение."
+
+msgid "Saving as WebP in Krita"
+msgstr "Сохранение в формате WebP в Krita"
+
+msgid "Adding an image to a documentation page"
+msgstr "Добавление изображения на страницу документации"
 
 msgid "Videos"
 msgstr "Видео"

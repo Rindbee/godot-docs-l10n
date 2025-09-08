@@ -14,5 +14,8 @@ msgstr ""
 msgid "XR"
 msgstr "XR"
 
+msgid "Basic Tutorial"
+msgstr "Базовый учебник"
+
 msgid "Advanced topics"
 msgstr "Расширенные темы"

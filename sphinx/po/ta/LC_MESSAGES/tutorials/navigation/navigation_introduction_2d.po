@@ -307,13 +307,6 @@ msgstr ""
 "வளத்தைச் சேர்க்கவும்."
 
 msgid ""
-"Define the movable navigation area with the NavigationPolygon draw tool. "
-"Then click the `Bake NavigationPolygon`` button on the toolbar."
-msgstr ""
-"நகரக்கூடிய வழிசெலுத்தல் பகுதியை நேவிகேசன் பேலிகோன் டிரா கருவியுடன் வரையறுக்கவும். "
-"கருவிப்பட்டியில் `பேக் நேவிகேசன் போலிகான்`` பொத்தானைக் சொடுக்கு செய்க."
-
-msgid ""
 "The navigation mesh defines the area where an actor can stand and move with "
 "its center. Leave enough margin between the navigation polygon edges and "
 "collision objects to not get path following actors repeatedly stuck on "

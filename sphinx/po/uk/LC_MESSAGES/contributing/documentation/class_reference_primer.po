@@ -513,6 +513,13 @@ msgid ""
 msgstr ""
 "``[codeblock]`` вимикає BBCode, доки аналізатор не зустріне ``[/codeblock]``."
 
+msgid ""
+"Use ``[codeblock]`` for pre-formatted code blocks. Since Godot 4.5, **tabs** "
+"should be used for indentation."
+msgstr ""
+"Використовуйте ``[codeblock]`` для попередньо відформатованих блоків коду. "
+"Починаючи з Godot 4.5, для відступів слід використовувати **табуляцію**."
+
 msgid "For example:"
 msgstr "Приклад:"
 

@@ -76,6 +76,19 @@ msgstr ""
 ":ref:`Web browsers <doc_using_the_web_editor>`. Експериментальна в 4.0, "
 "рекомендується використовувати Godot 3.x для HTML5."
 
+msgid ""
+"Linux supports rv64 (RISC-V), ppc64 & ppc32 (PowerPC), and loongarch64. "
+"However you must compile the editor for that platform (as well as export "
+"templates) yourself, no official downloads are currently provided. RISC-V "
+"compiling instructions can be found on the :ref:`doc_compiling_for_linuxbsd` "
+"page."
+msgstr ""
+"Linux підтримує rv64 (RISC-V), ppc64 та ppc32 (PowerPC), а також "
+"loongarch64. Однак вам доведеться самостійно скомпілювати редактор для цієї "
+"платформи (а також експортувати шаблони), офіційних завантажень наразі "
+"немає. Інструкції з компіляції RISC-V можна знайти на "
+"сторінці :ref:`doc_compiling_for_linuxbsd`."
+
 msgid "**Runs exported projects:**"
 msgstr "**Запускає експортовані проєкти:**"
 
@@ -965,6 +978,9 @@ msgstr "Підтримка користувацьких шейдерів час�
 msgid "**Post-processing:**"
 msgstr "**Пост-обробка:**"
 
+msgid "Tonemapping (Linear, Reinhard, Filmic, ACES, AgX)."
+msgstr "Тональне відображення (Linear, Reinhard, Filmic, ACES, AgX)."
+
 msgid ""
 "Automatic exposure adjustments based on viewport brightness (and manual "
 "exposure override)."
@@ -1213,7 +1229,7 @@ msgid "Support for visual shader plugins."
 msgstr "Підтримка плагінів візуальних шейдерів."
 
 msgid "Scripting"
-msgstr "Скриптинґ"
+msgstr "Скрипти"
 
 msgid "**General:**"
 msgstr "**Загальне:**"
@@ -1236,6 +1252,16 @@ msgstr ""
 "Багато типів даних 2D, 3D і 4D лінійної алгебри, таких як вектори і "
 "перетворення."
 
+msgid ":ref:`GDScript: <doc_gdscript>`"
+msgstr ":ref:`GDScript: <doc_gdscript>`"
+
+msgid ""
+":ref:`High-level interpreted language <doc_gdscript_reference>` "
+"with :ref:`optional static typing <doc_gdscript_static_typing>`."
+msgstr ""
+":ref:`High-level interpreted language <doc_gdscript_reference>` "
+"з :ref:`optional static typing <doc_gdscript_static_typing>`."
+
 msgid ""
 "Syntax inspired by Python. However, GDScript is **not** based on Python."
 msgstr ""
@@ -1251,6 +1277,9 @@ msgid ""
 msgstr ""
 ":ref:`Use threads <doc_using_multiple_threads>` для виконання асинхронних "
 "дій, або використання декількох ядер процесора."
+
+msgid ":ref:`C#: <doc_c_sharp>`"
+msgstr ":ref:`C#: <doc_c_sharp>`"
 
 msgid "Packaged in a separate binary to keep file sizes and dependencies down."
 msgstr ""

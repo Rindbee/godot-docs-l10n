@@ -116,7 +116,7 @@ msgid ""
 "This can take a bit getting used to, but it's friendlier in the end and will "
 "allow you to communicate better with audio professionals."
 msgstr ""
-"Puede llevar un poco de tiempo acostumbrarse, pero al final es más amigable "
+"Puedes llevar un poco de tiempo acostumbrarse, pero al final es más amigable "
 "y te permitirá comunicarte mejor con los profesionales del audio."
 
 msgid "Audio buses can be found in the bottom panel of the Godot editor:"

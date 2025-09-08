@@ -133,12 +133,6 @@ msgid ""
 "Set the animation duration to ``1.2`` seconds in the top-right of the dock."
 msgstr "在面板右上角将动画的时长设为 ``1.2`` 秒。"
 
-msgid "|image7|"
-msgstr "|image7|"
-
-msgid "image7"
-msgstr "image7"
-
 msgid ""
 "You should see the gray ribbon widen a bit. It shows you the start and end "
 "of your animation and the vertical blue line is your time cursor."
@@ -146,22 +140,22 @@ msgstr ""
 "你应该看到灰色带子变宽了一点。它显示动画的开始和结束，垂直蓝线是你的时间光"
 "标。"
 
-msgid "|image8|"
-msgstr "|image8|"
+msgid "|image7|"
+msgstr "|image7|"
 
-msgid "image8"
-msgstr "image8"
+msgid "image7"
+msgstr "image7"
 
 msgid ""
 "You can click and drag the slider in the bottom-right to zoom in and out of "
 "the timeline."
 msgstr "单击并拖拽右下角的滑动条，即可将时间线进行缩放。"
 
-msgid "|image9|"
-msgstr "|image9|"
+msgid "|image8|"
+msgstr "|image8|"
 
-msgid "image9"
-msgstr "image9"
+msgid "image8"
+msgstr "image8"
 
 msgid "The float animation"
 msgstr "漂浮动画"
@@ -191,11 +185,11 @@ msgstr ""
 "选中 ``Character`` 并在\\ *检查器*\\ 中展开 *Transform* 栏。单击 *Position* "
 "和 *Rotation* 旁的钥匙图标。"
 
-msgid "|image10|"
-msgstr "|image10|"
+msgid "|image9|"
+msgstr "|image9|"
 
-msgid "image10"
-msgstr "image10"
+msgid "image9"
+msgstr "image9"
 
 msgid ""
 "For this tutorial, just create RESET Track(s) which is the default choice"
@@ -206,11 +200,11 @@ msgid ""
 "keyframe."
 msgstr "编辑器中会出现两个轨道，各有一个代表关键帧的菱形图标。"
 
-msgid "|image11|"
-msgstr "|image11|"
+msgid "|image10|"
+msgstr "|image10|"
 
-msgid "image11"
-msgstr "image11"
+msgid "image10"
+msgstr "image10"
 
 msgid ""
 "You can click and drag on the diamonds to move them in time. Move the "
@@ -219,16 +213,11 @@ msgstr ""
 "你可以在菱形滑块上单击并拖动，以移动它们的时间。将位置（position ）帧移动到 "
 "``0.3`` 秒处，将旋转（rotation ）帧移动到 ``0.1`` 秒处。"
 
-msgid "|image12|"
-msgstr "|image12|"
+msgid "|image11|"
+msgstr "|image11|"
 
-msgid "image12"
-msgstr "image12"
-
-msgid ""
-"Move the time cursor to ``0.5`` seconds by clicking and dragging on the gray "
-"timeline."
-msgstr "在灰色的时间线上单击并拖拽，将时间光标移动至 ``0.5`` 秒位置。"
+msgid "image11"
+msgstr "image11"
 
 msgid "|timeline_05_click|"
 msgstr "|timeline_05_click|"
@@ -250,11 +239,11 @@ msgstr ""
 "如果你在\\ *检查器*\\ 面板中没有看到属性，请在\\ *场景*\\ 面板中再次点击 "
 "``Character`` 节点。"
 
-msgid "|image13|"
-msgstr "|image13|"
+msgid "|image12|"
+msgstr "|image12|"
 
-msgid "image13"
-msgstr "image13"
+msgid "image12"
+msgstr "image12"
 
 msgid "Create a keyframe for both properties"
 msgstr "为这两个属性分别创建一个关键帧"
@@ -270,11 +259,11 @@ msgid ""
 "timeline."
 msgstr "现在开始在时间线上拖动，将位置（position）的关键帧移动到 ``0.7`` 秒。"
 
-msgid "|image14|"
-msgstr "|image14|"
+msgid "|image13|"
+msgstr "|image13|"
 
-msgid "image14"
-msgstr "image14"
+msgid "image13"
+msgstr "image13"
 
 msgid ""
 "A lecture on the principles of animation is beyond the scope of this "
@@ -309,11 +298,11 @@ msgstr ""
 "单击播放按钮或者按 :kbd:`Shift + D` 即可预览结果。单击停止按钮或者"
 "按 :kbd:`S` 即可停止播放。"
 
-msgid "|image15|"
-msgstr "|image15|"
+msgid "|image14|"
+msgstr "|image14|"
 
-msgid "image15"
-msgstr "image15"
+msgid "image14"
+msgstr "image14"
 
 msgid ""
 "You can see that the engine interpolates between your keyframes to produce a "
@@ -332,11 +321,11 @@ msgid ""
 "Click and drag around the first two keys in the timeline to box select them."
 msgstr "单击并拖拽，框选时间线上的前两个帧。"
 
-msgid "|image16|"
-msgstr "|image16|"
+msgid "|image15|"
+msgstr "|image15|"
 
-msgid "image16"
-msgstr "image16"
+msgid "image15"
+msgstr "image15"
 
 msgid ""
 "You can edit the properties of both keys simultaneously in the *Inspector*, "
@@ -345,11 +334,11 @@ msgstr ""
 "可以在\\ *检查器*\\ 中同时编辑这两个帧的属性，其中就有一个属性叫做 "
 "*Easing*\\ （缓动）。"
 
-msgid "|image17|"
-msgstr "|image17|"
+msgid "|image16|"
+msgstr "|image16|"
 
-msgid "image17"
-msgstr "image17"
+msgid "image16"
+msgstr "image16"
 
 msgid ""
 "Click and drag on the curve, pulling it towards the left. This will make it "
@@ -359,11 +348,11 @@ msgstr ""
 "单击并拖动曲线，把它往左拉。这样就会让他实现缓出，也就是说，一开始变得快，然"
 "后时间光标越接近下一个关键帧就变得越慢。"
 
-msgid "|image18|"
-msgstr "|image18|"
+msgid "|image17|"
+msgstr "|image17|"
 
-msgid "image18"
-msgstr "image18"
+msgid "image17"
+msgstr "image17"
 
 msgid ""
 "Play the animation again to see the difference. The first half should "
@@ -373,30 +362,30 @@ msgstr "再次播放动画以查看差异。前半部分应该已经感觉有点
 msgid "Apply an ease-out to the second keyframe in the rotation track."
 msgstr "将缓动效果应用于旋转轨迹中的第二个关键帧。"
 
+msgid "|image18|"
+msgstr "|image18|"
+
+msgid "image18"
+msgstr "image18"
+
+msgid ""
+"Do the opposite for the second position keyframe, dragging it to the right."
+msgstr "对第二个平移关键帧执行相反操作，将其拖动到右侧。"
+
 msgid "|image19|"
 msgstr "|image19|"
 
 msgid "image19"
 msgstr "image19"
 
-msgid ""
-"Do the opposite for the second position keyframe, dragging it to the right."
-msgstr "对第二个平移关键帧执行相反操作，将其拖动到右侧。"
+msgid "Your animation should look something like this."
+msgstr "你的动画应该类似这样。"
 
 msgid "|image20|"
 msgstr "|image20|"
 
 msgid "image20"
 msgstr "image20"
-
-msgid "Your animation should look something like this."
-msgstr "你的动画应该类似这样。"
-
-msgid "|image21|"
-msgstr "|image21|"
-
-msgid "image21"
-msgstr "image21"
 
 msgid ""
 "Animations update the properties of the animated nodes every frame, "
@@ -432,11 +421,11 @@ msgstr ""
 msgid "Open the ``Player``'s script by clicking the script icon next to it."
 msgstr "点击 ``Player`` 旁的脚本图标打开其脚本。"
 
-msgid "|image22|"
-msgstr "|image22|"
+msgid "|image21|"
+msgstr "|image21|"
 
-msgid "image22"
-msgstr "image22"
+msgid "image21"
+msgstr "image21"
 
 msgid ""
 "In ``_physics_process()``, after the line where we check the ``direction`` "

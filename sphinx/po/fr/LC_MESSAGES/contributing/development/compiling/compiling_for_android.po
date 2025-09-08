@@ -158,6 +158,13 @@ msgid "Linux: ``$HOME/.local/share/godot/export_templates/<version>/``"
 msgstr "Linux : ``$HOME/.local/share/godot/export_templates/<version>/``"
 
 msgid ""
+"macOS: ``$HOME/Library/Application Support/Godot/export_templates/<version>/"
+"``"
+msgstr ""
+"macOS : ``$HOME/Library/Application Support/Godot/export_templates/<version>/"
+"``"
+
+msgid ""
 "You don't even need to copy them, you can just reference the resulting file "
 "in the ``bin\\`` directory of your Godot source folder, so that the next "
 "time you build you will automatically have the custom templates referenced."

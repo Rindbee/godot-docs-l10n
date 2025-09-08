@@ -154,13 +154,6 @@ msgstr "Le format MeshLibrary"
 msgid "Exporting the MeshLibrary"
 msgstr "Exportation de la MeshLibrary"
 
-msgid ""
-"You can find an already exported MeshLibrary in the project named "
-"\"MeshLibrary.tres\"."
-msgstr ""
-"Vous pouvez trouver une MeshLibrary déjà exportée dans le projet nommé "
-"\"MeshLibrary.tres\"."
-
 msgid "Using GridMap"
 msgstr "Utilisation de GridMap"
 

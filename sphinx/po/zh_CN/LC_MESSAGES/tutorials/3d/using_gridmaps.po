@@ -162,11 +162,6 @@ msgid ""
 msgstr ""
 "要导出库，点击 **场景 > 导出为.. > MeshLibrary...** ，并将其保存为资源。"
 
-msgid ""
-"You can find an already exported MeshLibrary in the project named "
-"\"MeshLibrary.tres\"."
-msgstr "可以在项目中找到已导出的名为“MeshLibrary.tres”的 MeshLibrary。"
-
 msgid "Using GridMap"
 msgstr "使用 GridMap"
 

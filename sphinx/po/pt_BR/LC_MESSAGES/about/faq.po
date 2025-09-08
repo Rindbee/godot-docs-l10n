@@ -1150,6 +1150,12 @@ msgstr ""
 "Usamos nosso tipo de String personalizado, pois o fornecido pela STL é muito "
 "básico e carece de suporte adequado à internacionalização."
 
+msgid ""
+"Check out :ref:`Godot's container types <doc_core_types>` for alternatives."
+msgstr ""
+"Confira os :ref:`tipos de Container do Godot <doc_core_types>` para "
+"alternativas."
+
 msgid "Why does Godot not use exceptions?"
 msgstr "Por que Godot não usa exceções?"
 

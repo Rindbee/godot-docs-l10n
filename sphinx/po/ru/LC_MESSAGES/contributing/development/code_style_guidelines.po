@@ -14,6 +14,13 @@ msgstr ""
 msgid "Installation"
 msgstr "Установка"
 
+msgid ""
+"Visual Studio: `Clang Power Tools 2022 <https://marketplace.visualstudio.com/"
+"items?itemName=caphyon.ClangPowerTools2022>`__"
+msgstr ""
+"Visual Studio: `Clang Power Tools 2022 <https://marketplace.visualstudio.com/"
+"items?itemName=caphyon.ClangPowerTools2022>`__"
+
 msgid "Example:"
 msgstr "Пример:"
 

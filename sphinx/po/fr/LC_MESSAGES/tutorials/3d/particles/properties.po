@@ -23,3 +23,6 @@ msgstr ""
 
 msgid "Particle trails"
 msgstr "Traînées des particules"
+
+msgid "Particle trail properties"
+msgstr "Propriétés d'une traînée de particule"

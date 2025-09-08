@@ -279,39 +279,34 @@ msgstr ""
 "我們需要偵測與怪物的碰撞，並將其與地板的碰撞區分開來。為了做到這一點，我們可"
 "以利用 Godot 的 :ref:`群組 <doc_groups>` 標籤功能。"
 
-msgid ""
-"Open the scene ``mob.tscn`` again and select the *Mob* node. Go to the "
-"*Node* dock on the right to see a list of signals. The *Node* dock has two "
-"tabs: *Signals*, which you've already used, and *Groups*, which allows you "
-"to assign tags to nodes."
-msgstr ""
-"再次打開 ``mob.tscn`` 場景，選中 *Mob* 節點，就能在右側的*Node*面板中看到訊號"
-"的列表。*Node*面板有兩個分頁：你已經使用過的*Signals*，以及*Groups*它允許您為"
-"節點新增標籤。"
-
-msgid ""
-"Click on it to reveal a field where you can write a tag name. Enter \"mob\" "
-"in the field and click the *Add* button."
-msgstr ""
-"按一下這個分頁就會出現一個輸入框，可以填寫標籤的名稱。在這個輸入框中輸"
-"入“mob”（小怪）並按一下*新增*按鈕。"
-
 msgid "|image7|"
 msgstr "|image7|"
 
 msgid "image7"
 msgstr "image7"
 
-msgid ""
-"An icon appears in the *Scene* dock to indicate the node is part of at least "
-"one group."
-msgstr "一個圖示會出現在「場景」停靠視窗中，表示該節點至少屬於一個群組。"
-
 msgid "|image8|"
 msgstr "|image8|"
 
 msgid "image8"
 msgstr "image8"
+
+msgid "|image9|"
+msgstr "|image9|"
+
+msgid "image9"
+msgstr "image9"
+
+msgid ""
+"An icon appears in the *Scene* dock to indicate the node is part of at least "
+"one group."
+msgstr "一個圖示會出現在「場景」停靠視窗中，表示該節點至少屬於一個群組。"
+
+msgid "|image10|"
+msgstr "|image10|"
+
+msgid "image10"
+msgstr "image10"
 
 msgid ""
 "We can now use the group from the code to distinguish collisions with "

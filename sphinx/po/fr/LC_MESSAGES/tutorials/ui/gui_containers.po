@@ -210,6 +210,9 @@ msgstr ""
 msgid "PanelContainer"
 msgstr "PanelContainer"
 
+msgid "FoldableContainer"
+msgstr "FoldableContainer"
+
 msgid "ScrollContainer"
 msgstr "ScrollContainer"
 

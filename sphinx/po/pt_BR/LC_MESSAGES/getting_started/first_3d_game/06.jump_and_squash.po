@@ -237,29 +237,23 @@ msgstr ""
 "com o chão. Para fazer isso, podemos usar a recurso de coleção :ref:`group "
 "<doc_groups>` do Godot."
 
-msgid ""
-"Open the scene ``mob.tscn`` again and select the *Mob* node. Go to the "
-"*Node* dock on the right to see a list of signals. The *Node* dock has two "
-"tabs: *Signals*, which you've already used, and *Groups*, which allows you "
-"to assign tags to nodes."
-msgstr ""
-"Abra a cena ``mob.tscn`` novamente e selecione o nó *Mob*. Vá para o *Nó* "
-"painel-de-encaixe à direita para ver uma lista de sinais. O *Nó* painel-de-"
-"encaixe tem duas guias: *Sinais*, que você já usou, e *Grupos*, que permite "
-"atribuir etiquetas aos nós."
-
-msgid ""
-"Click on it to reveal a field where you can write a tag name. Enter \"mob\" "
-"in the field and click the *Add* button."
-msgstr ""
-"Clique nele para abrir um campo onde você pode escrever um nome de tag. "
-"Digite \"inimigo\" no campo e clique no botão *Adicionar*."
-
 msgid "|image7|"
 msgstr "|image7|"
 
 msgid "image7"
 msgstr "image7"
+
+msgid "|image8|"
+msgstr "|image8|"
+
+msgid "image8"
+msgstr "image8"
+
+msgid "|image9|"
+msgstr "|image9|"
+
+msgid "image9"
+msgstr "image9"
 
 msgid ""
 "An icon appears in the *Scene* dock to indicate the node is part of at least "
@@ -268,11 +262,11 @@ msgstr ""
 "Um ícone aparece no painel *Cena* para indicar que o nó faz parte de pelo "
 "menos um grupo."
 
-msgid "|image8|"
-msgstr "|image8|"
+msgid "|image10|"
+msgstr "|image10|"
 
-msgid "image8"
-msgstr "image8"
+msgid "image10"
+msgstr "image10"
 
 msgid ""
 "We can now use the group from the code to distinguish collisions with "

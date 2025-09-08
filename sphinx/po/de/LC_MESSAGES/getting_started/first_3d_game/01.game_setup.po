@@ -239,12 +239,6 @@ msgstr ""
 "auf den roten Bogen, um ihn um die X-Achse zu drehen, bis der Boden "
 "beleuchtet ist."
 
-msgid ""
-"In the *Inspector*, turn on *Shadow -> Enabled* by clicking the checkbox."
-msgstr ""
-"Schalten Sie *Schatten-> An* im *Inspektor* ein, indem sie die Checkbox "
-"anklicken."
-
 msgid "At this point, your project should look like this."
 msgstr "Zu diesem Zeitpunkt sollte Ihr Projekt wie folgt aussehen."
 

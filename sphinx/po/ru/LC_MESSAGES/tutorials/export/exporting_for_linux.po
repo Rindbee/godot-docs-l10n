@@ -74,3 +74,10 @@ msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 
 msgid "Export options"
 msgstr "Опции экспорта"
+
+msgid ""
+"You can find a full list of export options available in "
+"the :ref:`class_EditorExportPlatformLinuxBSD` class reference."
+msgstr ""
+"Полный список доступных параметров экспорта можно найти в справочнике "
+"классов :ref:`class_EditorExportPlatformLinuxBSD`."

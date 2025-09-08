@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "User interface (UI)"
+msgstr "Interface utilisateur (IU)"
+
 msgid "UI building blocks"
 msgstr "Blocs de construction d'interface utilisateur"
 
@@ -18,10 +21,10 @@ msgid "Typical content controls include:"
 msgstr "Les contrôles de contenu typiques comprennent :"
 
 msgid ":ref:`Buttons <class_Button>`"
-msgstr ":ref:`Boutons <class_Button>`"
+msgstr ":ref:`Button <class_Button>` (Boutons)"
 
 msgid ":ref:`Labels <class_Label>`"
-msgstr ":ref:`Labels <class_Label>`"
+msgstr ":ref:`Labels <class_Label>` (Texte)"
 
 msgid ":ref:`LineEdits <class_LineEdit>` and :ref:`TextEdits <class_TextEdit>`"
 msgstr ":ref:`LineEdits <class_LineEdit>` et :ref:`TextEdits <class_TextEdit>`"
@@ -30,19 +33,25 @@ msgid "Typical layout controls include:"
 msgstr "Les contrôles de mise en page typiques comprennent :"
 
 msgid ":ref:`BoxContainers <class_BoxContainer>`"
-msgstr ":ref:`BoxContainers <class_BoxContainer>`"
+msgstr ""
+":ref:`BoxContainers <class_BoxContainer>` (Conteneur en forme de boîte)"
 
 msgid ":ref:`MarginContainers <class_MarginContainer>`"
-msgstr ":ref:`Conteneurs de marge <class_MarginContainer>`"
+msgstr ":ref:`MarginContainer <class_MarginContainer>` (Conteneur avec marges)"
 
 msgid ":ref:`ScrollContainers <class_ScrollContainer>`"
-msgstr ":ref:`ScrollContainers <class_ScrollContainer>`"
+msgstr ""
+":ref:`ScrollContainer <class_ScrollContainer>` (Conteneur avec défilement)"
 
 msgid ":ref:`TabContainers <class_TabContainer>`"
-msgstr ":ref:`Conteneurs d'onglet <class_TabContainer>`"
+msgstr ":ref:`TabContainer <class_TabContainer>` (Conteneur avec onglets)"
 
 msgid ":ref:`Popups <class_Popup>`"
-msgstr ":ref:`Fenêtres contextuelles <class_Popup>`"
+msgstr ":ref:`Popups <class_Popup>`"
+
+msgid "The following pages explain the basics of using such controls."
+msgstr ""
+"Les pages suivantes expliquent les bases de l'utilisation de ces contrôles."
 
 msgid "GUI skinning and themes"
 msgstr "Habillage et thèmes de l'interface graphique"

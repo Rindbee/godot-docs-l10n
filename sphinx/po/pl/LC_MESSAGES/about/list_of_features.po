@@ -766,6 +766,13 @@ msgstr ""
 "Niebo generowane proceduralnie i niebo oparte na fizyce, które reaguje na "
 "DirectionalLight umieszczone w scenie."
 
+msgid ""
+"Support for :ref:`custom sky shaders <doc_sky_shader>`, which can be "
+"animated."
+msgstr ""
+"Wsparcie dla :ref:`custom sky shaders <doc_sky_shader>`, które może być "
+"animowane."
+
 msgid "**Fog:**"
 msgstr "**Mgła:**"
 

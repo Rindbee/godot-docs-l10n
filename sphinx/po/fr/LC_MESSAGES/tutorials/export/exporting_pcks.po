@@ -69,7 +69,7 @@ msgid "scenes"
 msgstr "des scènes"
 
 msgid "shaders"
-msgstr "nuanceurs"
+msgstr "shaders"
 
 msgid "models"
 msgstr "des modèles"

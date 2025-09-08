@@ -109,7 +109,7 @@ msgid ""
 "wrench and screwdriver icon."
 msgstr ""
 "Debajo del menú desplegable **Tipo** se encuentran las pestañas de "
-"propiedades. Cambia a la pestaña con el ícono de llave inglesa y "
+"propiedades. Cambia a la pestaña con el icono de llave inglesa y "
 "destornillador."
 
 msgid ""

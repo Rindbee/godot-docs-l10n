@@ -54,4 +54,4 @@ msgstr ""
 
 msgid ""
 "Alternatively, it's possible to ask the viewport for the mouse position:"
-msgstr "También es posible preguntar al viewport por la posición del mouse:"
+msgstr "También es posible preguntar al viewport por la posición del ratón:"

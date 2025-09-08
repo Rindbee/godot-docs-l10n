@@ -44,16 +44,6 @@ msgstr ""
 "Mitte des Raumes steht. Godot XR Tools bettet die benötigte Logik in einen "
 "Hilfs-Node namens ``PlayerBody`` ein."
 
-msgid ""
-"Select your :ref:`XROrigin3D <class_xrorigin3d>` node and click on the "
-"``instantiate Child Scene`` button to add a child scene. Select ``addons/"
-"godot-xr-tools/player/player_body.tscn`` and add this node."
-msgstr ""
-"Wählen Sie Ihren :ref:`XROrigin3D <class_xrorigin3d>`-Node und klicken Sie "
-"auf den ``Child-Szene instanziieren``-Button um eine Child-Szene "
-"hinzuzufügen. Wählen Sie ``addons/godot-xr-tools/player/player_body.tscn`` "
-"und fügen Sie diesen Node hinzu."
-
 msgid "Adding a floor"
 msgstr "Hinzufügen eines Bodens"
 

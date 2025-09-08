@@ -13,3 +13,10 @@ msgstr ""
 
 msgid "Rendering"
 msgstr "Отрисовка"
+
+msgid ""
+"Most rendering topics are covered in :ref:`2D rendering <doc_2d_rendering>` "
+"and :ref:`3D rendering <doc_3d_rendering>`."
+msgstr ""
+"Большинство тем рендеринга рассматриваются в разделах :ref:`2D rendering "
+"<doc_2d_rendering>` и :ref:`3D rendering <doc_3d_rendering>`."

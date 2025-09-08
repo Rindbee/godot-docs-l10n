@@ -119,6 +119,13 @@ msgid "2D and 3D NavigationServer differences"
 msgstr "Відмінності 2D і 3D NavigationServer"
 
 msgid ""
+"NavigationServer2D and NavigationServer3D are equivalent in functionality "
+"for their dimension."
+msgstr ""
+"NavigationServer2D та NavigationServer3D еквівалентні за функціональністю "
+"для своїх розмірів."
+
+msgid ""
 "Technically it is possible to use the tools for creating navigation meshes "
 "in one dimension for the other dimension, e.g. baking a 2D navigation mesh "
 "with the 3D NavigationMesh when using flat 3D source geometry or creating 3D "
@@ -198,7 +205,7 @@ msgid "physics frame starts."
 msgstr "Починається фізичний кадр."
 
 msgid "``_physics_process(delta)``."
-msgstr "``_фізичні_процеси(delta)``."
+msgstr "``_physics_process(delta)``."
 
 msgid "``velocity`` property is set on NavigationAgent Node."
 msgstr "Властивість ``velocity`` встановлено на вузлі NavigationAgent."

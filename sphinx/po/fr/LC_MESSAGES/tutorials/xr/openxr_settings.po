@@ -25,6 +25,9 @@ msgstr ""
 "par les plugins Godot d'ajouter des paramètres supplémentaires, nous ne "
 "discuterons que des paramètres du noyau de Godot ici."
 
+msgid "General settings"
+msgstr "Paramètres généraux"
+
 msgid "Enabled"
 msgstr "Activé"
 
@@ -496,6 +499,9 @@ msgstr ""
 msgid "Extensions"
 msgstr "Extensions"
 
+msgid "Debug Message Types"
+msgstr "Types de message de débogage"
+
 msgid "Hand Tracking"
 msgstr "Suivi des mains"
 
@@ -520,6 +526,9 @@ msgid "If your game only supports controllers this should be turned off."
 msgstr ""
 "Si votre jeu supporte uniquement les contrôleurs, cela devrait être "
 "désactivé."
+
+msgid "Hand Interaction Profile"
+msgstr "Profil d'interaction de main"
 
 msgid "Eye Gaze Interaction"
 msgstr "Interaction avec le regard"
@@ -564,3 +573,6 @@ msgid ""
 msgstr ""
 "Maintenant, vous pouvez ajouter des choses à ce nœud de contrôleur comme un "
 "raycast, et contrôler des choses avec vos yeux."
+
+msgid "Binding Modifiers"
+msgstr "Modificateurs de liaison"

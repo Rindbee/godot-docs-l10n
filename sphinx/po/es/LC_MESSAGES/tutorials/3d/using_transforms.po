@@ -114,7 +114,7 @@ msgstr ""
 msgid ""
 "You may be wondering how this affects you. Let's look at a practical example:"
 msgstr ""
-"Puede que te preguntes cómo te afecta esto. Veamos un ejemplo práctico:"
+"Puedes que te preguntes cómo te afecta esto. Veamos un ejemplo práctico:"
 
 msgid ""
 "Imagine you are working on a first-person controller (e.g. an FPS game). "

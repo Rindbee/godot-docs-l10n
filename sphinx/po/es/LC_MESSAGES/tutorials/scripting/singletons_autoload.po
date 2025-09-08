@@ -63,7 +63,7 @@ msgstr ""
 "mientras posean nombres distintos."
 
 msgid "Using this concept, you can create objects that:"
-msgstr "Usando este concepto, puede crear objetos que:"
+msgstr "Usando este concepto, puedes crear objetos que:"
 
 msgid "Are always loaded, no matter which scene is currently running."
 msgstr "Siempre están cargados, no importa qué escena esté en ejecución."
@@ -142,7 +142,7 @@ msgid ""
 "A window notifying you that the project was last opened in an older Godot "
 "version may appear, that's not an issue. Click *Ok* to open the project."
 msgstr ""
-"Puede aparecer una ventana que le notifique que el proyecto se abrió por "
+"Puedes aparecer una ventana que le notifique que el proyecto se abrió por "
 "última vez en una versión anterior de Godot; no hay problema. Haz clic en "
 "*Aceptar* para abrir el proyecto."
 

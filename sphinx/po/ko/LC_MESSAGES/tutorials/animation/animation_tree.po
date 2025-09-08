@@ -20,5 +20,8 @@ msgstr "블렌드 트리"
 msgid "TimeSeek"
 msgstr "시간탐색"
 
+msgid "There are 3 types of transitions:"
+msgstr "3개의 전환 유형이 있습니다:"
+
 msgid "Root motion"
 msgstr "루트 모션"

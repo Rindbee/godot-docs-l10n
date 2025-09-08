@@ -11,27 +11,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Internationalizing games"
+msgstr "게임 국제화하기"
+
 msgid "Introduction"
 msgstr "소개"
 
+msgid ""
+"We will be using the official demo as an example; you can `download it from "
+"the Asset Library <https://godotengine.org/asset-library/asset/2776>`_."
+msgstr ""
+"우리는 예제로써 공식 데모를 사용합니다. `애셋 라이브러리에서 다운로드 "
+"<https://godotengine.org/asset-library/asset/2776>`_\\ 할 수 있습니다."
+
 msgid "Configuring the imported translation"
-msgstr "번역을 가져와서 구성하기"
+msgstr "가져온 번역 구성하기"
 
 msgid ""
 "Translations can get updated and re-imported when they change, but they "
 "still have to be added to the project. This is done in **Project → Project "
 "Settings → Localization**:"
 msgstr ""
-"번역들은 바뀌었을때 업데이트 되고 다시 임포트 될수 있습니다. 하지만 여전히 프"
-"로젝트에 추가해야합니다. 이것은 다음 경로에서 완수됩니다 **Project → Project "
-"Settings → Localization**:"
+"번역은 변경될 때 업데이트되고 다시 가져올 수 있지만 여전히 프로젝트에 추가해"
+"야 합니다. **프로젝트 → 프로젝트 설정 → 지역화**\\ 에서 완료합니다:"
 
 msgid "The above dialog is used to add or remove translations project-wide."
 msgstr ""
 "위의 대화 상자는 프로젝트 전체적으로 번역을 추가 혹은 제거에 사용합니다."
 
 msgid "Localizing resources"
-msgstr "리소스 현지화"
+msgstr "리소스 현지화하기"
+
+msgid "The **Remaps** tab can be used for this:"
+msgstr "**리맵** 탭이 이를 위해 사용됩니다:"
 
 msgid "Automatically setting a language"
 msgstr "자동으로 언어 설정하기"

@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "XR"
-msgstr "ИКСР"
+msgstr "XR"
 
 msgid ""
 "This section of the manual covers everything related to XR ( Virtual Reality "

@@ -257,7 +257,7 @@ msgstr ""
 
 msgid "Overriding physics parameters (such as gravity) in a given region."
 msgstr ""
-"Sobreescribir los parámetros físicos (como la gravedad) en una región "
+"Sobrescribir los parámetros físicos (como la gravedad) en una región "
 "determinada."
 
 msgid ""

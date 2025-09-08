@@ -13,3 +13,10 @@ msgstr ""
 
 msgid "Introduction"
 msgstr "Введение"
+
+msgid ""
+"See the `GUI in 3D <https://github.com/godotengine/godot-demo-projects/tree/"
+"master/viewport/gui_in_3d>`_ example project for an example of this approach."
+msgstr ""
+"Пример такого подхода см. в примере проекта `GUI in 3D <https://github.com/"
+"godotengine/godot-demo-projects/tree/master/viewport/gui_in_3d>`_."

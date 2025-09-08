@@ -304,7 +304,7 @@ msgid ""
 "name, or built-in variable in the script editor."
 msgstr ""
 "スクリプトエディター内で、クラス名、関数名、組み込み変数の上で :kbd:`Ctrl + "
-"Click` (macOS では :kbd:`Cmd + Click` ) する。"
+"クリック` (macOS では :kbd:`Cmd + クリック` ) する。"
 
 msgid ""
 "When you do any of these, a window pops up. Type to search for any item. You "

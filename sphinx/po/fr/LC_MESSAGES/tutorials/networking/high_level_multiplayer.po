@@ -290,6 +290,13 @@ msgstr "``transfer_mode`` :"
 msgid "``transfer_channel`` is the channel index."
 msgstr "``transfer_channel`` est l'index du canal."
 
+msgid ""
+"The first 3 can be passed in any order, but ``transfer_channel`` must always "
+"be last."
+msgstr ""
+"Les 3 premiers peuvent être passés dans n'importe quel ordre, mais "
+"``transfer_canal`` doit toujours être le dernier."
+
 msgid "Channels"
 msgstr "Canaux"
 

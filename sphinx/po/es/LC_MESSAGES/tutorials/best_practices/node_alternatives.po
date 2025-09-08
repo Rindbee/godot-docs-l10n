@@ -64,7 +64,7 @@ msgid ""
 msgstr ""
 "**Ventajas:** Simplificando la API propia para objetos de poco alcance, "
 "ayuda a mejorar la accesibilidad y el tiempo de iteración. En lugar de "
-"trabajar con la librería de Node completa, se crea un conjunto reducido de "
+"trabajar con la biblioteca de Node completa, se crea un conjunto reducido de "
 "Objects desde donde un nodo puede generar y administrar los sub-nodos "
 "apropiados."
 

@@ -11,8 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Import configuration"
+msgstr "가져오기 구성"
+
 msgid "Import workflows"
-msgstr "워크플로 가져오기"
+msgstr "가져오기 워크플로"
+
+msgid "Import dock after selecting a 3D scene in the FileSystem dock"
+msgstr "파일시스템 독에서 3D 씬을 선택하고 나서 가져오기 독"
 
 msgid "Using the Import dock"
 msgstr "가져오기 독 사용하기"

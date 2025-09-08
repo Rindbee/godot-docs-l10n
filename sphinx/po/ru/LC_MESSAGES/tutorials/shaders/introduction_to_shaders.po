@@ -58,6 +58,13 @@ msgstr ""
 "чем в других языках программирования."
 
 msgid ""
+"Suppose you want to update all the pixels in a texture to a given color. In "
+"GDScript, your code would use ``for`` loops:"
+msgstr ""
+"Предположим, вы хотите обновить все пиксели текстуры до заданного цвета. В "
+"GDScript ваш код будет использовать циклы ``for``:"
+
+msgid ""
 "Your code is already part of a loop in a shader, so the corresponding code "
 "would look like this."
 msgstr ""

@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Unit testing"
+msgstr "Tests unitaires"
+
 msgid "**Shorthand**"
 msgstr "**Sténographie**"
 
@@ -100,6 +103,12 @@ msgstr "``[Editor]``"
 
 msgid "``[Audio]``"
 msgstr "``[Audio]``"
+
+msgid "``[Navigation2D]``"
+msgstr "``[Navigation2D]``"
+
+msgid "``[Navigation3D]``"
+msgstr "``[Navigation3D]``"
 
 msgid "Macro"
 msgstr "Macro"

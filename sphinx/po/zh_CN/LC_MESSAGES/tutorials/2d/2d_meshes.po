@@ -97,8 +97,3 @@ msgid ""
 "The default values are good enough for many cases, but you can change growth "
 "and simplification according to your needs:"
 msgstr "默认值对于许多情况来说已经足够好了，但你可以根据需要更改扩展和简化："
-
-msgid ""
-"Finally, push the ``Convert 2D Mesh`` button and your Sprite2D will be "
-"replaced:"
-msgstr "最后，按下 ``转换 2D 网格`` 按钮，你的 Sprite2D 将被替换："

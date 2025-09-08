@@ -13,3 +13,9 @@ msgstr ""
 
 msgid "Importing the project"
 msgstr "Импортирование проекта"
+
+msgid "Click the **+** button and select  ``Visual Studio``"
+msgstr "Нажмите кнопку **+** и выберите ``Visual Studio``"
+
+msgid "Compiling and debugging the project"
+msgstr "Компиляция и отладка проекта"

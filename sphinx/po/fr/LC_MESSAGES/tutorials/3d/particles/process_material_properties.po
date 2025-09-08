@@ -11,8 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ParticleProcessMaterial properties"
+msgstr "Propriétés de ParticleProcessMaterial"
+
 msgid "Time"
 msgstr "Temps"
+
+msgid "Emission shape"
+msgstr "Forme d'émission"
 
 msgid "Angle"
 msgstr "Angle"
@@ -35,6 +41,9 @@ msgstr ""
 "quelques valeurs pour les propriétés de vitesse et d'accélération en "
 "dessous, donc jetons maintenant un coup d'œil à celles-ci."
 
+msgid "Initial velocity"
+msgstr "Vélocité initiale"
+
 msgid "Accelerations"
 msgstr "Accélérations"
 
@@ -43,6 +52,18 @@ msgstr "Gravité"
 
 msgid "Different values for particle gravity"
 msgstr "Valeurs différentes pour la gravité des particules"
+
+msgid "Angular velocity"
+msgstr "Vélocité angulaire"
+
+msgid "Linear acceleration"
+msgstr "Accélération linéaire"
+
+msgid "Radial acceleration"
+msgstr "Accélération radiale"
+
+msgid "Tangential acceleration"
+msgstr "Accélération tangentielle"
 
 msgid "Tangents on a circle"
 msgstr "Tangentes sur un cercle"
@@ -59,11 +80,17 @@ msgstr "Mode mise à l'échelle"
 msgid "Color"
 msgstr "Couleur"
 
+msgid "Hue variation"
+msgstr "Variation de la teinte"
+
 msgid "Different values for hue variation"
 msgstr "Valeurs différentes pour la variation de la teinte"
 
 msgid "Animation"
 msgstr "Animation"
+
+msgid "Animated particles"
+msgstr "Particules animées"
 
 msgid ""
 "Depending on how many images your sprite sheet contains and for how long "

@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Writing guidelines"
+msgstr "Руководства по написанию"
+
 msgid ""
 "The Godot community is rich and international. Users come from all around "
 "the world. Some of them are young, and many aren't native English speakers. "
@@ -160,15 +163,44 @@ msgstr ""
 msgid "**Do** write functions using dynamic typing:"
 msgstr "**Записывайте** функции с помощью динамической типизации:"
 
+msgid "``Code``"
+msgstr "``Code``"
+
 msgid "Literals"
 msgstr "Литералы"
+
+msgid "Classes, properties, and methods"
+msgstr "Классы, свойства и методы"
+
+msgid "Open the **Editor Settings** window."
+msgstr "Откройте окно **Editor Settings**."
 
 msgid "In **Project > Project Settings > Input Map**, add a new input action."
 msgstr ""
 "В **Project > Project Settings > Input Map** добавьте новое действие ввода."
 
+msgid "Project settings"
+msgstr "Настройки проекта"
+
+msgid ""
+"Code blocks should use the ``::`` syntax on its own line. Do not use the "
+"short form where it's at the end of a paragraph, as the trailing ``::`` "
+"would be included in the localizable string otherwise. Weblate would show a "
+"warning due to the trailing ``::``, and if the localized string does not end "
+"with ``::``, it would break the code block entirely in the translated manual."
+msgstr ""
+"Блоки кода должны использовать синтаксис ``::`` на отдельной строке. Не "
+"используйте краткую форму в конце абзаца, так как в противном случае "
+"завершающий ``::`` будет включён в локализуемую строку. Weblate выдаст "
+"предупреждение из-за завершающего ``::``, и если локализованная строка не "
+"заканчивается ``::``, это полностью нарушит блок кода в переведённом "
+"руководстве."
+
 msgid "**Bad:**"
 msgstr "**Плохо:**"
+
+msgid "**Good:**"
+msgstr "**Хорошо:**"
 
 msgid "Examples"
 msgstr "Примеры"

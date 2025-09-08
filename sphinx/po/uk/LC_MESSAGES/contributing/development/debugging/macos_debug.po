@@ -34,6 +34,9 @@ msgid ""
 "Create an ``editor.entitlements`` text file with the following contents:"
 msgstr "Створіть текстовий файл ``editor.entitlements`` з таким вмістом:"
 
+msgid "Then use the following command to re-sign the editor:"
+msgstr "Потім скористайтеся такою командою, щоб повторно підписати редактор:"
+
 msgid "Debugging exported project"
 msgstr "Налагодження експортованого проекту"
 

@@ -11,8 +11,69 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0402: The class must not be generic"
+msgstr "GD0402: Класс не должен быть универсальным"
+
+msgid "**Rule ID**"
+msgstr "**Идентификатор правила**"
+
+msgid "GD0402"
+msgstr "GD0402"
+
 msgid "**Category**"
 msgstr "**Категория**"
 
 msgid "Usage"
 msgstr "Использование"
+
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Исправление может быть как ломающим, так и не ломающим**"
+
+msgid "Breaking"
+msgstr "Breaking (Прерывание)"
+
+msgid "**Enabled by default**"
+msgstr "**Включено по умолчанию**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "Причина"
+
+msgid "A generic type is annotated with the ``[GlobalClass]`` attribute."
+msgstr "Универсальный тип аннотируется атрибутом ``[GlobalClass]``."
+
+msgid "Rule description"
+msgstr "Описание правила"
+
+msgid ""
+"The Godot editor assumes every :ref:`global class "
+"<doc_c_sharp_global_classes>` is instantiable, but generic types can't be "
+"instantiated because the type parameters are unbound."
+msgstr ""
+"Редактор Godot предполагает, что каждый :ref:`global class "
+"<doc_c_sharp_global_classes>` может быть инстанцирован, но универсальные "
+"типы не могут быть инстанцированы, поскольку параметры типа не связаны."
+
+msgid "How to fix violations"
+msgstr "Как устранить нарушения"
+
+msgid ""
+"To fix a violation of this rule, change the type to remove the generic type "
+"parameters or remove the ``[GlobalClass]`` attribute."
+msgstr ""
+"Чтобы устранить нарушение этого правила, измените тип, удалив параметры "
+"универсального типа, или удалите атрибут ``[GlobalClass]``."
+
+msgid "When to suppress warnings"
+msgstr "Когда следует подавлять предупреждения"
+
+msgid ""
+"Do not suppress a warning from this rule. Adding the ``[GlobalClass]`` to a "
+"generic type is an easy mistake to make and this warning helps users realize "
+"that it may result in unexpected errors."
+msgstr ""
+"Не подавляйте предупреждение из этого правила. Добавление ``[GlobalClass]`` "
+"к универсальному типу — простая ошибка, и это предупреждение помогает "
+"пользователям понять, что это может привести к непредвиденным ошибкам."

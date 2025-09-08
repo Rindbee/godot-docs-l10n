@@ -17,5 +17,8 @@ msgstr "Pseudolocalisation"
 msgid "Introduction"
 msgstr "Introduction"
 
+msgid "Enabling and configuring pseudolocalization"
+msgstr "Activer et configurer la pseudo-localisation"
+
 msgid "Configuring pseudolocalization at runtime"
 msgstr "Configuration de pseudo-localisation à l'exécution"

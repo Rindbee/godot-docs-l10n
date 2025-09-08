@@ -456,15 +456,14 @@ msgstr ""
 "correspondiente. Podemos lograrlo haciendo lo siguiente:"
 
 msgid "Do the same for the second SubViewport but use layers 1 and 3."
-msgstr ""
-"Haga lo mismo para el segundo SubViewport pero utilice las capas 1 y 3."
+msgstr "Haz lo mismo para el segundo SubViewport pero utiliza las capas 1 y 3."
 
 msgid ""
 "Do the same for the second SubViewport's parallax nodes, but use a layer of "
 "3."
 msgstr ""
-"Haga lo mismo para los nodos de paralaje del segundo SubViewport, pero "
-"utilice una capa de 3."
+"Haz lo mismo para los nodos de paralaje del segundo SubViewport, pero "
+"utiliza una capa de 3."
 
 msgid ""
 "How does this work? If a canvas item has "

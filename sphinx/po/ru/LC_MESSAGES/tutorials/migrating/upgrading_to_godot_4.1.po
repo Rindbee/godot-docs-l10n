@@ -582,6 +582,13 @@ msgstr ""
 "``p_get_proc_address`` в качестве первого параметра"
 
 msgid ""
+"You also need to add an extra ``compatibility_minimum`` line to your "
+"``.gdextension`` file, so that it looks something like:"
+msgstr ""
+"Вам также нужно добавить дополнительную строчку ``compatibility_minimum`` в "
+"ваш файл ``.gdextension``, так чтобы он выглядел так:"
+
+msgid ""
 "This lets Godot know that your GDExtension has been updated and is safe to "
 "load in Godot 4.1."
 msgstr ""

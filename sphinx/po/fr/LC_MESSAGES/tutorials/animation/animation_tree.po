@@ -17,6 +17,17 @@ msgstr "Utiliser les AnimationTree"
 msgid "Introduction"
 msgstr "Introduction"
 
+msgid ""
+"However, the support for blending those animations via ``AnimationPlayer`` "
+"is limited, as you can only set a fixed cross-fade transition time."
+msgstr ""
+"Cependant, la prise en charge du mélange de ces animations via "
+"``AnimationPlayer`` est limitée, car seul un temps fixe de transition de "
+"fondu enchainé peut être défini."
+
+msgid "AnimationTree and AnimationPlayer"
+msgstr "AnimationTree et AnimationPlayer"
+
 msgid "Creating a tree"
 msgstr "Création d'une arborescence"
 
@@ -32,6 +43,12 @@ msgid ""
 msgstr ""
 "Ces nœuds se mélangent entre deux ou trois entrées par une valeur de mélange "
 "spécifiée par l'utilisateur :"
+
+msgid ""
+"For more complex blending, it is recommended to use blend spaces instead."
+msgstr ""
+"Pour des mélanges plus complexes, il est conseillé d'utiliser des espaces de "
+"mélange à la place."
 
 msgid "OneShot"
 msgstr "OneShot"
@@ -74,6 +91,12 @@ msgstr ""
 "*Priority* est utilisé avec la fonction ``travel()`` depuis le code (plus "
 "d'informations plus tard). Les transitions à basse priorité sont préférées "
 "lors du parcours de l'arbre."
+
+msgid "``is_walking``"
+msgstr "``is_walking``"
+
+msgid "``player.is_on_floor()``"
+msgstr "``player.is_on_floor()``"
 
 msgid "For better blending"
 msgstr "Pour un meilleur mélange"

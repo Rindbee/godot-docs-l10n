@@ -212,14 +212,6 @@ msgid ""
 "single action set and to not over-engineer things."
 msgstr "建議您的第一個 XR 專案僅設計一組動作集，避免過度設計。"
 
-msgid ""
-"For our walkthrough in this document we will thus create a single action set "
-"called ``my_first_action_set``. We do this by pressing the ``Add action "
-"set`` button:"
-msgstr ""
-"本教學將建立一組名為 ``my_first_action_set`` 的動作集，請點選「新增動作集」按"
-"鈕："
-
 msgid "The columns in our table are as follows:"
 msgstr "表格中的欄位意義如下："
 
@@ -864,10 +856,6 @@ msgid ""
 msgstr ""
 "若要在整個互動設定檔套用修飾器，可於互動設定檔編輯器右側找到修飾器按鈕進行管"
 "理。"
-
-msgid ""
-"You can add a new modifier by pressing the ``Add binding modifier`` button."
-msgstr "點選「新增綁定修飾器」按鈕，即可加入新的修飾器。"
 
 msgid ""
 "As Godot doesn't know which controllers and runtimes support a modifier, "

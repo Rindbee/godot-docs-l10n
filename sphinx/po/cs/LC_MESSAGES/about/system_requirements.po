@@ -55,13 +55,6 @@ msgstr ""
 "**Vykreslovací nástroj Forward+:** Integrovaná grafika s plnou podporou "
 "Vulkan 1.0"
 
-msgid ""
-"*Example: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics "
-"(Kaveri)*"
-msgstr ""
-"*Příklady: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics "
-"(Kaveri)*"
-
 msgid "**Mobile renderer:** Integrated graphics with full Vulkan 1.0 support"
 msgstr ""
 "**Vykreslovací nástroj Mobile:** Integrovaná grafika s plnou podporou Vulkan "

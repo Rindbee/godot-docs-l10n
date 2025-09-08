@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Callbacks"
+msgstr "Callbacks"
+
 msgid ""
 "The value of the last JavaScript statement is converted to a GDScript value "
 "and returned by ``eval()`` under certain circumstances:"
@@ -44,3 +47,9 @@ msgstr ""
 "Les chaînes multi-lignes de GDScript, entourées de 3 guillemets ``\"\"\"`` "
 "comme dans ``my_func3()`` ci-dessus, sont utiles pour garder le code "
 "JavaScript lisible."
+
+msgid "Downloading files"
+msgstr "Télécharger des fichiers"
+
+msgid "extends Node"
+msgstr "extends Node"

@@ -268,6 +268,11 @@ msgstr ""
 "можемо дозволити віртуальним об’єктам відкидати тіні на об’єкти реального "
 "світу [#]_."
 
+msgid "Image showing shadow to opacity being used to show the user's desk."
+msgstr ""
+"Зображення, що показує зміну тіні та непрозорості, що використовується для "
+"відображення робочого столу користувача."
+
 msgid "This enabled the following use cases:"
 msgstr "Це дозволило наступні випадки використання:"
 

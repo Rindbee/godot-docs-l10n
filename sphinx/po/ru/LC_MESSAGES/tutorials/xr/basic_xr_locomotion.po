@@ -10,3 +10,25 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Basic XR Locomotion"
+msgstr "Базовая XR-передвижка"
+
+msgid "Adding our player body"
+msgstr "Добавляем тело игрока"
+
+msgid "Adding a floor"
+msgstr "Добавление этажа"
+
+msgid "Direct movement"
+msgstr "Прямое движение"
+
+msgid "Teleport"
+msgstr "Телепорт"
+
+msgid ""
+"If you've followed all instructions correctly your scene should now look "
+"something like this:"
+msgstr ""
+"Если вы правильно выполнили все инструкции, ваша сцена должна выглядеть "
+"примерно так:"

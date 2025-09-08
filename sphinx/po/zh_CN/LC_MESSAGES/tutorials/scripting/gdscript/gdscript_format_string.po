@@ -22,6 +22,12 @@ msgid "Format strings: ``var string = \"I have %s cats.\" % \"3\"``"
 msgstr "格式化字符串：\\ ``var string = \"我有 %s 只猫。\" % \"3\"``"
 
 msgid ""
+"The ``String.format()`` method: ``var string = \"I have {0} cats."
+"\".format([3])``"
+msgstr ""
+"``String.format()`` 方法：\\ ``var string = \"我有 {0} 只猫。\".format([3])``"
+
+msgid ""
 "String concatenation: ``var string = \"I have \" + str(3) + \" cats.\"``"
 msgstr "字符串连接：\\ ``var string = \"我有 \" + str(3) + \" 只猫。\"``"
 
@@ -132,6 +138,13 @@ msgstr ""
 
 msgid "``c``"
 msgstr "``c``"
+
+msgid ""
+"A single **Unicode character**. Accepts a Unicode code point (integer) or a "
+"single-character string. Supports values beyond 255."
+msgstr ""
+"单个 **Unicode 字符**\\ 。需要一个 Unicode 码位（整数）或者单字符的字符串。支"
+"持超过 255 的值。"
 
 msgid "``d``"
 msgstr "``d``"

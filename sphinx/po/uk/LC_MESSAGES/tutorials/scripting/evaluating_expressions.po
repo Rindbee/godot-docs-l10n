@@ -52,6 +52,9 @@ msgstr ""
 msgid "Basic usage"
 msgstr "Базове використання"
 
+msgid "To evaluate a mathematical expression, use:"
+msgstr "Щоб обчислити математичний вираз, використовуйте:"
+
 msgid "The following operators are available:"
 msgstr "Доступні такі оператори:"
 
@@ -132,8 +135,19 @@ msgstr ""
 "Можна використовувати всі типи Variant, які підтримуються Godot: цілі числа, "
 "числа з плаваючою комою, рядки, масиви, словники, кольори, вектори, …"
 
+msgid "Arrays and dictionaries can be indexed like in GDScript:"
+msgstr "Масиви та словники можна індексувати, як у GDScript:"
+
 msgid "Passing variables to an expression"
 msgstr "Передача змінних у вираз"
+
+msgid ""
+"You can pass variables to an expression. These variables will then become "
+"available in the expression's \"context\" and will be substituted when used "
+"in the expression:"
+msgstr ""
+"Ви можете передавати змінні до виразу. Ці змінні стануть доступними в "
+"\"контексті\" виразу та будуть підставлені під час використання у виразі:"
 
 msgid ""
 "Both the variable names and variable values **must** be specified as an "
@@ -153,6 +167,17 @@ msgid ""
 msgstr ""
 "За замовчуванням вираз має базовий екземпляр ``null``. Це означає, що вираз "
 "не має пов’язаного з ним базового екземпляра."
+
+msgid ""
+"When calling :ref:`Expression.execute() <class_Expression_method_execute>`, "
+"you can set the value of the ``base_instance`` parameter to a specific "
+"object instance such as ``self``, another script instance or even a "
+"singleton:"
+msgstr ""
+"Під час виклику :ref:`Expression.execute() "
+"<class_Expression_method_execute>` ви можете встановити значення параметра "
+"``base_instance`` для певного екземпляра об'єкта, такого як ``self``, інший "
+"екземпляр скрипта або навіть синглтон:"
 
 msgid "Associating a base instance allows doing the following:"
 msgstr "Зв’язування базового екземпляра дозволяє виконувати такі дії:"
@@ -186,6 +211,12 @@ msgstr ""
 
 msgid "Example script"
 msgstr "Приклад сценарію"
+
+msgid "The script below demonstrates what the Expression class is capable of:"
+msgstr "Наведений нижче скрипт демонструє можливості класу Expression:"
+
+msgid "The output from the script will be:"
+msgstr "Вивід скрипта буде таким:"
 
 msgid "Built-in functions"
 msgstr "Вбудовані функції"

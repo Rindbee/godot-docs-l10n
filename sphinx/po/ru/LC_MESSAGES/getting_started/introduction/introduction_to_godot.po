@@ -76,6 +76,31 @@ msgstr ""
 "началась в 2001 году, а движок был переписан и значительно улучшен с момента "
 "его выпуска с открытым исходным кодом в 2014 году."
 
+msgid ""
+"Some examples of games created with Godot include Cassette Beasts, PVKK, and "
+"Usagi Shima. As for applications, the open source pixel art drawing program "
+"Pixelorama is powered by Godot, and so is the voxel RPG creator RPG in a "
+"Box. You can find many more examples in the `Official Showcase <https://"
+"godotengine.org/showcase/>`_."
+msgstr ""
+"Некоторые примеры игр, созданных с Godot, включают Cassette Beasts, PVKK и "
+"USAGI Shima. Что касается приложений, то программа рисования пикселей с "
+"открытым исходным кодом Pixelorama оснащена Godot, как и Voxel RPG creator "
+"RPG в Box. Вы можете найти еще много примеров в `Official Showcase <https://"
+"godotengine.org/showcase/>`_."
+
+msgid "Usagi Shima"
+msgstr "Usagi Shima"
+
+msgid "Cassette Beasts"
+msgstr "Cassette Beasts (Кассетные звери)"
+
+msgid "PVKK: Planetenverteidigungskanonenkommandant"
+msgstr "PVKK: Planetenverteidigungskanonenkommandant"
+
+msgid "RPG in a Box"
+msgstr "RPG in a Box"
+
 msgid "How does it work and look?"
 msgstr "Как это работает и выглядит?"
 
@@ -114,6 +139,17 @@ msgstr "Языки программирования"
 
 msgid "Let's talk about the available programming languages."
 msgstr "Давайте поговорим о поддерживаемых языках программирования."
+
+msgid ""
+"You can code your games using :ref:`GDScript <doc_gdscript>`, a Godot-"
+"specific and tightly integrated language with a lightweight syntax, "
+"or :ref:`C# <doc_c_sharp>`, which is popular in the games industry. These "
+"are the two main scripting languages we support."
+msgstr ""
+"Вы можете программировать свои игры используя :ref:`GDScript "
+"<doc_gdscript>`, специально созданный и встроенный в Godot язык с легким "
+"синтаксисом, или :ref:`C# <doc_c_sharp>`, который популярен в игровой "
+"индустрии. Это два основных поддерживаемых языка написания скриптов."
 
 msgid ""
 "With the GDExtension technology, you can also write gameplay or high-"

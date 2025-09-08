@@ -11,5 +11,61 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Deploying to Android"
+msgstr "Развертывание на Android"
+
 msgid "Setup"
 msgstr "Настройка"
+
+msgid "Installing OpenJDK 17"
+msgstr "Установка OpenJDK 17"
+
+msgid "Installing Android Studio"
+msgstr "Установка Android Studio"
+
+msgid "Gradle Android build"
+msgstr "Сборка Gradle Android"
+
+msgid ""
+"You can read more about gradle builds here: :ref:`doc_android_gradle_build`."
+msgstr ""
+"Подробнее о сборках Gradle можно прочитать "
+"здесь: :ref:`doc_android_gradle_build`."
+
+msgid "Installing the vendors plugin"
+msgstr "Установка плагина поставщиков"
+
+msgid ""
+"The vendors plugin can be downloaded from the asset library, search for "
+"\"OpenXR vendors\" and install the one named \"Godot OpenXR Vendors plugin "
+"v4\"."
+msgstr ""
+"Плагин поставщиков можно загрузить из библиотеки ресурсов, найдите \"OpenXR "
+"Vendors\" и установите плагин под названием \"Godot OpenXR Vendors plugin "
+"v4\"."
+
+msgid ""
+"You will find the installed files inside the **addons** folder. "
+"Alternatively you can manually install the vendors plugin by downloading it "
+"`from the release page here <https://github.com/GodotVR/godot_openxr_vendors/"
+"releases>`__. You will need to copy the `assets/addons/godotopenxrvendors` "
+"folder from the zip file into your projects `addons` folder."
+msgstr ""
+"Установленные файлы находятся в папке **addons**. Вы также можете установить "
+"плагин Vendors вручную, скачав его со страницы релиза здесь: <https://"
+"github.com/GodotVR/godot_openxr_vendors/releases>. Вам нужно будет "
+"скопировать папку `assets/addons/godotopenxrvendors` из ZIP-архива в папку "
+"`addons` вашего проекта."
+
+msgid ""
+"You can find the main repository of the vendors plugin `here <https://"
+"github.com/GodotVR/godot_openxr_vendors>`__."
+msgstr ""
+"Основной репозиторий плагина vendors вы можете найти `здесь <https://"
+"github.com/GodotVR/godot_openxr_vendors>`__."
+
+msgid "Creating the export presets"
+msgstr "Создание предустановок экспорта"
+
+msgid "Running on your device from the Godot editor"
+msgstr "Запуск на вашем устройстве из редактора Godot"

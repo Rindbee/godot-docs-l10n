@@ -38,7 +38,7 @@ msgstr ""
 "``get_node(\"Hand/Sword\").get_node(\"%Hilt\")`` renvoie le nœud **Hilt**."
 
 msgid "``get_node(\"Hand/Sword/%Hilt\")`` also returns the **Hilt** node."
-msgstr "``get_node(\"Hand/Sword/%Hilt\")`` renvoie aussi un noeud **Hilt**."
+msgstr "``get_node(\"Hand/Sword/%Hilt\")`` renvoie aussi le nœud **Hilt**."
 
 msgid "``get_node(\"%Sword/%Hilt\")`` returns the **Hilt** node."
 msgstr "``get_node(\"%Sword/%Hilt\")`` renvoie le nœud **Hilt**."

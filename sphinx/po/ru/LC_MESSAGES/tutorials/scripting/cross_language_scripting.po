@@ -68,6 +68,13 @@ msgid "For example, MyCoolNode.cs should contain a class named MyCoolNode."
 msgstr "Например, MyCoolNode.cs должен содержать класс с именем MyCoolNode."
 
 msgid ""
+"The C# class needs to derive a Godot class, for example ``GodotObject``. "
+"Otherwise, the same error will occur."
+msgstr ""
+"Класс C# должен быть производным от класса Godot, например, ``GodotObject``. "
+"В противном случае возникнет та же ошибка."
+
+msgid ""
 "You also need to check your ``.cs`` file is referenced in the project's "
 "``.csproj`` file. Otherwise, the same error will occur."
 msgstr ""
@@ -106,6 +113,17 @@ msgstr "Доступ к полям C# из GDScript прост, вам не о �
 msgid "Accessing GDScript fields from C#"
 msgstr "Доступ к полям GDScript из C#"
 
+msgid ""
+"Keep in mind that when setting a field value you should only use types the "
+"GDScript side knows about. Essentially, you want to work with built-in types "
+"as described in :ref:`doc_gdscript_builtin_types` or classes "
+"extending :ref:`class_Object`."
+msgstr ""
+"Имейте в виду, что при установке значения поля следует использовать только "
+"типы, известные GDScript. По сути, вам следует работать со встроенными "
+"типами, описанными в :ref:`doc_gdscript_builtin_types`, или классами, "
+"расширяющими :ref:`class_Object`."
+
 msgid "Calling methods"
 msgstr "Методы вызова"
 
@@ -125,6 +143,16 @@ msgstr ""
 
 msgid "Calling GDScript methods from C#"
 msgstr "Вызов методов GDScript из C#"
+
+msgid ""
+"To call GDScript methods from C# you'll need to use :ref:`GodotObject.Call() "
+"<class_Object_method_call>`. The first argument is the name of the method "
+"you want to call. The following arguments will be passed to said method."
+msgstr ""
+"Для вызова методов GDScript из C# необходимо "
+"использовать :ref:`GodotObject.Call() <class_Object_method_call>`. Первый "
+"аргумент — это имя вызываемого метода. Следующие аргументы будут переданы "
+"этому методу."
 
 msgid "Inheritance"
 msgstr "Наследование"

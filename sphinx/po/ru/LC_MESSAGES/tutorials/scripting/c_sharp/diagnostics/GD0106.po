@@ -11,8 +11,81 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0106: The exported property is an explicit interface implementation"
+msgstr ""
+"GD0106: Экспортированное свойство является явной реализацией интерфейса"
+
+msgid "**Rule ID**"
+msgstr "**Идентификатор правила**"
+
+msgid "GD0106"
+msgstr "GD0106"
+
 msgid "**Category**"
 msgstr "**Категория**"
 
 msgid "Usage"
 msgstr "Использование"
+
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Исправление может быть как ломающим, так и не ломающим**"
+
+msgid "Non-breaking"
+msgstr "Неразрушающий"
+
+msgid "**Enabled by default**"
+msgstr "**Включено по умолчанию**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "Причина"
+
+msgid ""
+"An explicit interface property implementation is annotated with the "
+"``[Export]`` attribute. Properties that implement an interface explicitly "
+"can't be exported."
+msgstr ""
+"Явная реализация свойства интерфейса аннотируется атрибутом ``[Export]``. "
+"Свойства, явно реализующие интерфейс, не могут быть экспортированы."
+
+msgid "Rule description"
+msgstr "Описание правила"
+
+msgid ""
+"Godot doesn't allow exporting explicit interface property implementations. "
+"When an interface member is implemented explicitly, the member is hidden and "
+"consumers can't access them unless the type is converted to the interface "
+"first. Explicitly implemented members can also share the same name of other "
+"members in the type, so it could create naming conflicts with other exported "
+"members."
+msgstr ""
+"Godot не позволяет экспортировать явные реализации свойств интерфейса. При "
+"явной реализации члена интерфейса он скрыт, и потребители не могут получить "
+"к нему доступ, пока тип не будет предварительно преобразован в интерфейс. "
+"Явно реализованные члены также могут иметь те же имена, что и другие члены "
+"типа, что может привести к конфликтам имён с другими экспортированными "
+"членами."
+
+msgid "How to fix violations"
+msgstr "Как устранить нарушения"
+
+msgid ""
+"To fix a violation of this rule, implement the interface implicitly or "
+"remove the ``[Export]`` attribute."
+msgstr ""
+"Чтобы устранить нарушение этого правила, реализуйте интерфейс неявно или "
+"удалите атрибут ``[Export]``."
+
+msgid "When to suppress warnings"
+msgstr "Когда следует подавлять предупреждения"
+
+msgid ""
+"Do not suppress a warning from this rule. Explicit interface property "
+"implementations can't be exported so they will be ignored by Godot, "
+"resulting in runtime errors."
+msgstr ""
+"Не подавляйте предупреждение из этого правила. Явные реализации свойств "
+"интерфейса не могут быть экспортированы, поэтому Godot будет их "
+"игнорировать, что приведёт к ошибкам во время выполнения."

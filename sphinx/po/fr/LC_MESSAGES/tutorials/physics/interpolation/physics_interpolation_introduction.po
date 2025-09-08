@@ -14,5 +14,8 @@ msgstr ""
 msgid "Introduction"
 msgstr "Introduction"
 
+msgid "Linear interpolation"
+msgstr "Interpolation linéaire"
+
 msgid "Let's break that down:"
 msgstr "Décomposons ça :"

@@ -11,8 +11,82 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0111: The exported tool button must be an expression-bodied property"
+msgstr ""
+"GD0111: Экспортированная кнопка инструмента должна быть свойством с телом "
+"выражения"
+
+msgid "**Rule ID**"
+msgstr "**Идентификатор правила**"
+
+msgid "GD0111"
+msgstr "GD0111"
+
 msgid "**Category**"
 msgstr "**Категория**"
 
 msgid "Usage"
 msgstr "Использование"
+
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Исправление может быть как ломающим, так и не ломающим**"
+
+msgid "Non-breaking"
+msgstr "Неразрушающий"
+
+msgid "**Enabled by default**"
+msgstr "**Включено по умолчанию**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "Причина"
+
+msgid ""
+"A property is annotated with the ``[ExportToolButton]`` attribute but it's "
+"not an `expression-bodied property`_."
+msgstr ""
+"Свойство аннотируется атрибутом ``[ExportToolButton]``, но оно не является "
+"`свойством с телом выражения`_."
+
+msgid "Rule description"
+msgstr "Описание правила"
+
+msgid ""
+"When reloading the .NET assembly, Godot will attempt to serialize exported "
+"members to preserve their values. A field or a property with a backing field "
+"that stores a ``Callable`` may prevent the unloading of the assembly."
+msgstr ""
+"При перезагрузке сборки .NET Godot попытается сериализовать экспортированные "
+"члены для сохранения их значений. Поле или свойство с резервным полем, "
+"которое хранит ``Callable``, может препятствовать выгрузке сборки."
+
+msgid ""
+"An expression-bodied property doesn't have a backing field and won't store "
+"the ``Callable``, so Godot won't attempt to serialize it, which should "
+"result in the successful reloading of the .NET assembly."
+msgstr ""
+"Свойство с телом выражения не имеет резервного поля и не будет хранить "
+"``Callable``, поэтому Godot не будет пытаться сериализовать его, что должно "
+"привести к успешной перезагрузке сборки .NET."
+
+msgid "How to fix violations"
+msgstr "Как устранить нарушения"
+
+msgid ""
+"To fix a violation of this rule, replace the property implementation with an "
+"`expression-bodied property`_."
+msgstr ""
+"Чтобы устранить нарушение этого правила, замените реализацию свойства на "
+"`свойство с телом выражения`_."
+
+msgid "When to suppress warnings"
+msgstr "Когда следует подавлять предупреждения"
+
+msgid ""
+"Do not suppress a warning from this rule. ``Callable`` instances may prevent "
+"the .NET assembly from unloading."
+msgstr ""
+"Не подавляйте предупреждение из этого правила. Экземпляры ``Callable`` могут "
+"помешать выгрузке сборки .NET."

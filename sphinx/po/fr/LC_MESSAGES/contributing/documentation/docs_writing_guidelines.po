@@ -682,6 +682,9 @@ msgstr ""
 "Dans **Projet > Paramètres du projet > Contrôles**, ajoutez une nouvelle "
 "action d'entrée."
 
+msgid "Project settings"
+msgstr "Paramètres du projet"
+
 msgid "**Bad:**"
 msgstr "**Mauvais :**"
 
@@ -764,3 +767,6 @@ msgstr ""
 
 msgid "Examples"
 msgstr "Exemples"
+
+msgid "|styleroles|"
+msgstr "|styleroles|"

@@ -56,13 +56,6 @@ msgid "If you still have *Input Map* open, switch to the *General* tab."
 msgstr ""
 "Si todavía tienes abierto \"Mapa de Entradas\", abra la pestaña \"General\"."
 
-msgid ""
-"In the left menu, navigate down to *Display -> Window*. On the right, set "
-"the *Width* to ``720`` and the *Height* to ``540``."
-msgstr ""
-"En el menú de la izquierda, ve hacia abajo hasta *Display -> Window*. En el "
-"lado derecho, establece el *Ancho* en \"720\" y el *Alto* en \"540\"."
-
 msgid "|image2|"
 msgstr "|image2|"
 
@@ -282,7 +275,7 @@ msgid ""
 msgstr ""
 "Haz clic en el icono esfera para abrir el recurso material. Obtiene una "
 "vista previa por el material y una lista larga de secciones con propiedades. "
-"Puede usarlos para crear todos tipos de superficies, como metal, roca, y "
+"Puedes usarlos para crear todos tipos de superficies, como metal, roca, y "
 "agua."
 
 msgid "Expand the *Albedo* section."
@@ -334,7 +327,7 @@ msgstr "image16"
 
 msgid "You can hover any icon to see a tooltip describing the tool."
 msgstr ""
-"Puede pasar el ratón por encima de cualquier icono para ver una descripción "
+"Puedes pasar el ratón por encima de cualquier icono para ver una descripción "
 "de la herramienta."
 
 msgid ""

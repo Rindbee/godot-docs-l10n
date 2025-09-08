@@ -141,12 +141,6 @@ msgid ""
 "Set the animation duration to ``1.2`` seconds in the top-right of the dock."
 msgstr "Socraigh fad na beochana go ``1.2`` soicind ar dheis barr an duga."
 
-msgid "|image7|"
-msgstr "|íomhá7|"
-
-msgid "image7"
-msgstr "íomhá 7"
-
 msgid ""
 "You should see the gray ribbon widen a bit. It shows you the start and end "
 "of your animation and the vertical blue line is your time cursor."
@@ -155,11 +149,11 @@ msgstr ""
 "duit tús agus deireadh do bheochana agus is é an líne gorm ingearach do "
 "chúrsóir ama."
 
-msgid "|image8|"
-msgstr "|íomhá8|"
+msgid "|image7|"
+msgstr "|íomhá7|"
 
-msgid "image8"
-msgstr "íomhá8"
+msgid "image7"
+msgstr "íomhá 7"
 
 msgid ""
 "You can click and drag the slider in the bottom-right to zoom in and out of "
@@ -168,11 +162,11 @@ msgstr ""
 "Is féidir leat an sleamhnán a chliceáil agus a tharraingt ag bun ar dheis "
 "chun súmáil isteach agus amach as an amlíne."
 
-msgid "|image9|"
-msgstr "|íomhá9|"
+msgid "|image8|"
+msgstr "|íomhá8|"
 
-msgid "image9"
-msgstr "íomhá9"
+msgid "image8"
+msgstr "íomhá8"
 
 msgid "The float animation"
 msgstr "An beochan snámhphointe"
@@ -206,11 +200,11 @@ msgstr ""
 "rannát*Transform*. Cliceáil ar an eochair deilbhín in aice la*Suíomh*, agus "
 "*Rotation*."
 
-msgid "|image10|"
-msgstr "|íomhá10|"
+msgid "|image9|"
+msgstr "|íomhá9|"
 
-msgid "image10"
-msgstr "íomhá10"
+msgid "image9"
+msgstr "íomhá9"
 
 msgid ""
 "For this tutorial, just create RESET Track(s) which is the default choice"
@@ -225,11 +219,11 @@ msgstr ""
 "Tá dhá rian le feiceáil san eagarthóir le deilbhín diamaint a léiríonn gach "
 "eochrfráma."
 
-msgid "|image11|"
-msgstr "|íomhá11|"
+msgid "|image10|"
+msgstr "|íomhá10|"
 
-msgid "image11"
-msgstr "íomhá11"
+msgid "image10"
+msgstr "íomhá10"
 
 msgid ""
 "You can click and drag on the diamonds to move them in time. Move the "
@@ -239,18 +233,11 @@ msgstr ""
 "am. Bog an eochair suímh go soicind ``0.3 ``agus an eochair rothlú go "
 "``0.1`` soicind."
 
-msgid "|image12|"
-msgstr "|íomhá12|"
+msgid "|image11|"
+msgstr "|íomhá11|"
 
-msgid "image12"
-msgstr "íomhá12"
-
-msgid ""
-"Move the time cursor to ``0.5`` seconds by clicking and dragging on the gray "
-"timeline."
-msgstr ""
-"Bog an cúrsóir ama go soicind ``0.5`` trí chliceáil agus tarraingt ar an "
-"amlíne liath."
+msgid "image11"
+msgstr "íomhá11"
 
 msgid "|timeline_05_click|"
 msgstr "|timeline_05_click|"
@@ -272,11 +259,11 @@ msgstr ""
 "Mura bhfeiceann tú na hairíonna sa phainéal*Cigireoir*, cliceáil ar an nód "
 "``Carachtar ``arís sa duga*Radhair*."
 
-msgid "|image13|"
-msgstr "|íomh13|"
+msgid "|image12|"
+msgstr "|íomhá12|"
 
-msgid "image13"
-msgstr "íomh13"
+msgid "image12"
+msgstr "íomhá12"
 
 msgid "Create a keyframe for both properties"
 msgstr "Cruthaigh eochrfráma don dá airíonna"
@@ -294,11 +281,11 @@ msgstr ""
 "Anois, bog an eochrfráma suímh go ``0.7`` soicind tríd é a tharraingt ar an "
 "amlíne."
 
-msgid "|image14|"
-msgstr "|íomh14|"
+msgid "|image13|"
+msgstr "|íomh13|"
 
-msgid "image14"
-msgstr "íomh14"
+msgid "image13"
+msgstr "íomh13"
 
 msgid ""
 "A lecture on the principles of animation is beyond the scope of this "
@@ -338,11 +325,11 @@ msgstr ""
 "gcnaipe imirt nó brúite:kbd: `Shift + D`. Cliceáil ar an gcnaipe stad nó "
 "brúigh: kbd: `S` chun athsheinm a stopadh."
 
-msgid "|image15|"
-msgstr "|íomhá15|"
+msgid "|image14|"
+msgstr "|íomh14|"
 
-msgid "image15"
-msgstr "íomhá15"
+msgid "image14"
+msgstr "íomh14"
 
 msgid ""
 "You can see that the engine interpolates between your keyframes to produce a "
@@ -367,11 +354,11 @@ msgstr ""
 "Cliceáil agus tarraing timpeall na chéad dá eochair san amlíne chun iad a "
 "roghnú sa bhosca."
 
-msgid "|image16|"
-msgstr "|íomhá16|"
+msgid "|image15|"
+msgstr "|íomhá15|"
 
-msgid "image16"
-msgstr "íomhá16"
+msgid "image15"
+msgstr "íomhá15"
 
 msgid ""
 "You can edit the properties of both keys simultaneously in the *Inspector*, "
@@ -380,11 +367,11 @@ msgstr ""
 "Is féidir leat airíonna an dá eochracha a chur in eagar ag an am céanna san "
 "*Cigireoir*, áit ar féidir leat maoin *Éasúcháin* a fheiceáil."
 
-msgid "|image17|"
-msgstr "|íomh17|"
+msgid "|image16|"
+msgstr "|íomhá16|"
 
-msgid "image17"
-msgstr "íomhá17"
+msgid "image16"
+msgstr "íomhá16"
 
 msgid ""
 "Click and drag on the curve, pulling it towards the left. This will make it "
@@ -396,11 +383,11 @@ msgstr ""
 "agus moilliú de réir mar a shroicheann an cúrsóir ama an chéad eochrfráma "
 "eile."
 
-msgid "|image18|"
-msgstr "|íomhá18|"
+msgid "|image17|"
+msgstr "|íomh17|"
 
-msgid "image18"
-msgstr "íomhá18"
+msgid "image17"
+msgstr "íomhá17"
 
 msgid ""
 "Play the animation again to see the difference. The first half should "
@@ -412,31 +399,31 @@ msgstr ""
 msgid "Apply an ease-out to the second keyframe in the rotation track."
 msgstr "Cuir éasca amach i bhfeidhm ar an dara eochrfráma sa rian rothlú."
 
-msgid "|image19|"
-msgstr "|íomh19|"
+msgid "|image18|"
+msgstr "|íomhá18|"
 
-msgid "image19"
-msgstr "íomh19"
+msgid "image18"
+msgstr "íomhá18"
 
 msgid ""
 "Do the opposite for the second position keyframe, dragging it to the right."
 msgstr ""
 "Déan a mhalairt don eochrfráma dara suíomh, agus é a tharraingt ar dheis."
 
+msgid "|image19|"
+msgstr "|íomh19|"
+
+msgid "image19"
+msgstr "íomh19"
+
+msgid "Your animation should look something like this."
+msgstr "Ba chóir go mbeadh cuma mar seo ar do bheochan."
+
 msgid "|image20|"
 msgstr "|íomh20|"
 
 msgid "image20"
 msgstr "íomh20"
-
-msgid "Your animation should look something like this."
-msgstr "Ba chóir go mbeadh cuma mar seo ar do bheochan."
-
-msgid "|image21|"
-msgstr "|íomh21|"
-
-msgid "image21"
-msgstr "íomh21"
 
 msgid ""
 "Animations update the properties of the animated nodes every frame, "
@@ -477,11 +464,11 @@ msgid "Open the ``Player``'s script by clicking the script icon next to it."
 msgstr ""
 "Oscail script an ``Player`` trí chliceáil ar an deilbhín script in aice leis."
 
-msgid "|image22|"
-msgstr "|íomh22|"
+msgid "|image21|"
+msgstr "|íomh21|"
 
-msgid "image22"
-msgstr "íomh22"
+msgid "image21"
+msgstr "íomh21"
 
 msgid ""
 "In ``_physics_process()``, after the line where we check the ``direction`` "

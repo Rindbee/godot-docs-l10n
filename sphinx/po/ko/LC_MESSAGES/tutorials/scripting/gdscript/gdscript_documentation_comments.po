@@ -89,6 +89,12 @@ msgstr "예제"
 msgid "Result"
 msgstr "결과"
 
+msgid "Bold"
+msgstr "굵게"
+
+msgid "Italic"
+msgstr "기울임꼴"
+
 msgid "Color"
 msgstr "색상"
 

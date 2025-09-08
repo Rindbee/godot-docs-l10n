@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Compiling with PCK encryption key"
+msgstr "Компиляция с ключом шифрования PCK"
+
 msgid "Step by step"
 msgstr "Шаг за шагом"
 
@@ -29,6 +32,10 @@ msgid ""
 msgstr ""
 "Кроме того, вы можете сгенерировать его самостоятельно, используя `OpenSSL "
 "<https://www.openssl.org/>`__ инструменты командной строки:"
+
+msgid "Set the encryption key in the **Encryption** tab of the export preset:"
+msgstr ""
+"Установите ключ шифрования на вкладке **Encryption** предустановки экспорта:"
 
 msgid "Troubleshooting"
 msgstr "Устранение неполадок"

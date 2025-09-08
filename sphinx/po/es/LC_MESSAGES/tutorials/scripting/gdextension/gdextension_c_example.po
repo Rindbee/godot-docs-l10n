@@ -71,7 +71,7 @@ msgstr ""
 "solicitado, incluso si en una versión futura esta firma cambia, al "
 "proporcionar un método de compatibilidad que coincide con lo solicitado. "
 "Este es uno de los sistemas que permiten al motor cargar extensiones creadas "
-"para versiones anteriores. Puede obtener el valor de este hash del archivo "
+"para versiones anteriores. Puedes obtener el valor de este hash del archivo "
 "``extension_api.json``."
 
 msgid "Conclusion"

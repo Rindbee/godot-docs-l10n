@@ -108,12 +108,6 @@ msgstr "áit a bhfuil:"
 msgid "For example:"
 msgstr "Mar shampla:"
 
-msgid "``template_scripts/Node/smooth_camera.gd``"
-msgstr "``Teimpléad_scripts/Nód/Smooth_Camera.gd``"
-
-msgid "``template_scripts/CharacterBody3D/platformer_movement.gd``"
-msgstr "``Teimpléad_scripts/CharacterBody3D/Platformer_Movement.GD ``"
-
 msgid "By default:"
 msgstr "De réir réamhshocraithe:"
 

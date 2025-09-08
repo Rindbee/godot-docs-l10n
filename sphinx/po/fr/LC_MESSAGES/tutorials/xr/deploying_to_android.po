@@ -31,6 +31,9 @@ msgstr ""
 "Avant de suivre les instructions spécifiques OpenXR ici, vous devrez d'abord "
 "configurer votre système pour exporter vers Android en général, y compris :"
 
+msgid "Installing OpenJDK 17"
+msgstr "Installer OpenJDK 17"
+
 msgid "Installing Android Studio"
 msgstr "Installer Android Studio"
 
@@ -95,6 +98,18 @@ msgstr ""
 
 msgid "Creating the export presets"
 msgstr "Créer les modèles d'exportation"
+
+msgid ""
+"If the vendors plugins were installed correctly you should find entries for "
+"the different headsets under **XR Features**. Change the **XR Mode** to "
+"**OpenXR**, then select the entry for your headset if you see one. If you "
+"don't see one enable the Khronos plugin."
+msgstr ""
+"Si les plugins vendeurs ont été installés correctement, vous devriez trouver "
+"des entrées pour les différents headsets sous **Fonctionnalités XR**. "
+"Changez le **Mode XR** en **OpenXR**, puis sélectionnez l'entrée pour votre "
+"casque si vous en voyez une. Si vous n'en voyez pas, activez le plugin "
+"Khronos."
 
 msgid "Running on your device from the Godot editor"
 msgstr "Exécuter sur votre appareil depuis l'éditeur Godot"

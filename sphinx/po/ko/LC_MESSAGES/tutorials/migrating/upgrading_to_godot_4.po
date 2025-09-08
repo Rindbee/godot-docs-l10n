@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "To use the project upgrade tool:"
+msgstr "프로젝트 업그레이드 도구 사용하기:"
+
 msgid "GradientTexture"
 msgstr "GradientTexture"
 
@@ -44,6 +47,9 @@ msgstr "ParticleProcessMaterial"
 msgid "Spatial"
 msgstr "공간"
 
+msgid "StandardMaterial3D"
+msgstr "StandardMaterial3D"
+
 msgid "VideoPlayer"
 msgstr "VideoPlayer"
 
@@ -73,6 +79,9 @@ msgstr "VisibilityNotifier3D"
 
 msgid "VisualServer"
 msgstr "VisualServer"
+
+msgid "**Methods**"
+msgstr "**메서드**"
 
 msgid "**Enums**"
 msgstr "**열거형**"

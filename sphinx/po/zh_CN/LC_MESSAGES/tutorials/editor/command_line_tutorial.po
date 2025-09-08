@@ -99,6 +99,13 @@ msgid ""
 "|release| Quiet mode, silences stdout messages. Errors are still displayed."
 msgstr "|release| 安静模式，静默标准输出的信息。但错误仍然会显示。"
 
+msgid "``--no-header``"
+msgstr "``--no-header``"
+
+msgid ""
+"|release| Do not print engine version and rendering method header on startup."
+msgstr "|release| 启动时不打印引擎版本与渲染方法标头。"
+
 msgid "**Run options**"
 msgstr "**运行选项**"
 
@@ -124,6 +131,17 @@ msgstr "``-p``, ``--project-manager``"
 msgid "|editor| Start the Project Manager, even if a project is auto-detected."
 msgstr "|editor| 即使已经自动检测到项目，仍然启动项目管理器。"
 
+msgid "``--recovery-mode``"
+msgstr "``--recovery-mode``"
+
+msgid ""
+"|editor| \"Start the editor in recovery mode, which disables features that "
+"can typically cause startup crashes, such as tool scripts, editor plugins, "
+"GDExtension addons, and others."
+msgstr ""
+"|editor| \"在恢复模式下启动编辑器，该模式将禁用可能导致启动崩溃的功能，如工具"
+"脚本、编辑器插件、GDExtension 扩展等。"
+
 msgid "``--debug-server <uri>``"
 msgstr "``--debug-server <uri>``"
 
@@ -133,6 +151,12 @@ msgid ""
 msgstr ""
 "|editor| 启动编辑器调试服务器（\\ ``<协议>://<主机/IP>[:<端口>]``\\ ，例如 "
 "``tcp://127.0.0.1:6007``\\ ）"
+
+msgid "``--dap-port <port>``"
+msgstr "``--dap-port <port>``"
+
+msgid "``--lsp-port <port>``"
+msgstr "``--lsp-port <port>``"
 
 msgid "``--quit``"
 msgstr "``--quit``"
@@ -168,6 +192,12 @@ msgid ""
 "file)."
 msgstr ""
 "|release| 项目的路径（\\ ``<directory>`` 必须包含“project.godot”文件）。"
+
+msgid "``scene <path>``"
+msgstr "``scene <path>``"
+
+msgid "|release| Path or UID of a scene in the project that should be started."
+msgstr "|release| 指定启动时应加载的项目场景路径或UID。"
 
 msgid "``-u``, ``--upwards``"
 msgstr "``-u``, ``--upwards``"
@@ -221,6 +251,9 @@ msgid ""
 "display the list of available drivers."
 msgstr "视频驱动。使用 ``--help`` 来显示可用驱动列表。"
 
+msgid "``--audio-output-latency`` <ms>"
+msgstr "``--audio-output-latency`` <毫秒>"
+
 msgid "``--rendering-method <renderer>``"
 msgstr "``--rendering-method <renderer>``"
 
@@ -264,6 +297,17 @@ msgid ""
 msgstr ""
 "|release| 启用无头模式（\\ `--display-driver headless --audio-driver "
 "Dummy`\\ ）。适用于服务器和 ``--script``\\ 。"
+
+msgid "``--log-file``"
+msgstr "``--log-file``"
+
+msgid ""
+"|release| Write output/error log to the specified path instead of the "
+"default location defined by the project. <file> path should be absolute or "
+"relative to the project directory."
+msgstr ""
+"|release| 将输出/错误日志写入指定路径（替代项目定义的默认位置）。<file> 路径"
+"需为绝对路径或相对于项目目录的路径。"
 
 msgid "``--write-movie <file>``"
 msgstr "``--write-movie <file>``"
@@ -337,6 +381,12 @@ msgstr "``--xr-mode <mode>``"
 msgid "|release| Select XR mode ('default', 'off', 'on')."
 msgstr "|release| 选择 XR 模式（“default”默认、“off”关闭、“on”打开）。"
 
+msgid "``--wid <window_id>``"
+msgstr "``--wid <window_id>``"
+
+msgid "``--accessibility <mode>``"
+msgstr "``--accessibility <mode>``"
+
 msgid "**Debug options**"
 msgstr "**调试选项**"
 
@@ -355,6 +405,12 @@ msgid ""
 msgstr ""
 "|release| 断点列表，形式为英文逗号分隔的“源文件::行号”，不带空格（空格用 "
 "``%20`` 代替）。"
+
+msgid "``--ignore-error-breaks``"
+msgstr "``--ignore-error-breaks``"
+
+msgid "|release| If debugger is connected, prevents sending error breakpoints."
+msgstr "|release| 调试器连接时禁用错误断点发送。"
 
 msgid "``--profiling``"
 msgstr "``--profiling``"
@@ -388,6 +444,32 @@ msgid ""
 "the problem if your system freezes."
 msgstr ""
 "|debug| 在 GPU 出错时终止（通常是验证层错误），这有助于在系统冻结时发现问题。"
+
+msgid "``--generate-spirv-debug-info``"
+msgstr "``--generate-spirv-debug-info``"
+
+msgid ""
+"|debug| Generate SPIR-V debug information. This allows source-level shader "
+"debugging with RenderDoc."
+msgstr "|debug| 生成SPIR-V调试信息（支持通过RenderDoc进行着色器源码级调试）。"
+
+msgid "``--extra-gpu-memory-tracking``"
+msgstr "``--extra-gpu-memory-tracking``"
+
+msgid ""
+"|debug| Enables additional memory tracking (see class reference for "
+"`RenderingDevice.get_driver_and_device_memory_report()` and linked methods). "
+"Currently only implemented for Vulkan. Enabling this feature may cause "
+"crashes on some systems due to buggy drivers or bugs in the Vulkan Loader. "
+"See https://github.com/godotengine/godot/issues/95967"
+msgstr ""
+"|debug| 启用额外内存追踪（参见 "
+"`RenderingDevice.get_driver_and_device_memory_report()` 及相关方法的类参"
+"考）。当前仅Vulkan后端支持。由于驱动或Vulkan加载器的潜在缺陷，启用此功能可能"
+"导致部分系统崩溃。详见 https://github.com/godotengine/godot/issues/95967"
+
+msgid "``--accurate-breadcrumbs``"
+msgstr "``--accurate-breadcrumbs``"
 
 msgid "``--remote-debug <uri>``"
 msgstr "``--remote-debug <uri>``"
@@ -441,6 +523,13 @@ msgstr "|debug| 当引擎退出时，将所有 StringName 分配打印到标准�
 msgid "``--frame-delay <ms>``"
 msgstr "``--frame-delay <ms>``"
 
+msgid ""
+"|release| Simulate high CPU load (delay each frame by <ms> milliseconds). Do "
+"not use as a FPS limiter; use --max-fps instead."
+msgstr ""
+"|release| 模拟高 CPU 负载（每帧延迟 <ms> 毫秒。不要把它当作FPS限制器，使用--"
+"max-fps代替它。"
+
 msgid "``--time-scale <scale>``"
 msgstr "``--time-scale <缩放>``"
 
@@ -450,13 +539,6 @@ msgstr "|release| 强制时间缩放（值越大速度越快，1.0 是正常速�
 
 msgid "``--disable-vsync``"
 msgstr "``--disable-vsync``"
-
-msgid ""
-"|release| Forces disabling of vertical synchronization, even if enabled in "
-"the project settings. Does not override driver-level V-Sync enforcement."
-msgstr ""
-"|release| 即使在项目设置中启用，也会强制禁用垂直同步。不会覆盖驱动程序级的 V-"
-"Sync 执行。"
 
 msgid "``--disable-render-loop``"
 msgstr "``--disable-render-loop``"
@@ -546,6 +628,12 @@ msgid ""
 msgstr ""
 "|editor| 与 ``--export-release`` 类似，但只会以预设参数导出游戏包。\\ "
 "``<path>`` 的扩展名决定它是 PCK 还是 ZIP 格式。隐含 ``--import``\\ 。"
+
+msgid "``--export-patch <preset> <path>``"
+msgstr "``--export-patch <预设> <路径>``"
+
+msgid "``--install-android-build-template``"
+msgstr "``--install-android-build-template``"
 
 msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
 msgstr "``--convert-3to4 [<最大文件kb值>] [<最大行数>]``"

@@ -401,6 +401,9 @@ msgstr ""
 "Nous pouvons même faire glisser la lumière et l'éclairage se mettra "
 "automatiquement à jour."
 
+msgid "Full code"
+msgstr "Code complet"
+
 msgid ""
 "Here is the full code for this tutorial. You can see it is not very long as "
 "Godot handles most of the difficult stuff for you."

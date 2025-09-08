@@ -11,26 +11,107 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "C# collections"
+msgstr "Коллекции C#"
+
+msgid ""
+"The .NET base class library contains multiple collection types that can be "
+"used to store and manipulate data. Godot also provide some collection types "
+"that are tightly integrated with the rest of the engine."
+msgstr ""
+"Библиотека базовых классов .NET содержит несколько типов коллекций, которые "
+"можно использовать для хранения и обработки данных. Godot также "
+"предоставляет несколько типов коллекций, тесно интегрированных с остальной "
+"частью движка."
+
+msgid "Choose a collection"
+msgstr "Выберите коллекцию"
+
+msgid ""
+"The main difference between the `.NET collections <https://"
+"learn.microsoft.com/en-us/dotnet/standard/collections/>`_ and the Godot "
+"collections is that the .NET collections are implemented in C# while the "
+"Godot collections are implemented in C++ and the Godot C# API is a wrapper "
+"over it, this is an important distinction since it means every operation on "
+"a Godot collection requires marshaling which can be expensive especially "
+"inside a loop."
+msgstr ""
+"Главное различие между `коллекциями .NET <https://learn.microsoft.com/en-us/"
+"dotnet/standard/collections/>`_ и коллекциями Godot заключается в том, что "
+"коллекции .NET реализованы на языке C#, тогда как коллекции Godot "
+"реализованы на языке C++, а API Godot C# является оболочкой над ними. Это "
+"важное различие, поскольку оно означает, что каждая операция над коллекцией "
+"Godot требует маршалинга, который может быть затратным, особенно внутри "
+"цикла."
+
+msgid "Godot collections"
+msgstr "Коллекции Godot"
+
+msgid "PackedArray"
+msgstr "PackedArray"
+
 msgid "GDScript"
 msgstr "GDScript_"
 
 msgid "C#"
 msgstr "C#"
 
+msgid "``PackedByteArray``"
+msgstr "``PackedByteArray``"
+
 msgid "``byte[]``"
 msgstr "``byte[]``"
+
+msgid "``PackedInt32Array``"
+msgstr "``PackedInt32Array``"
 
 msgid "``int[]``"
 msgstr "``int[]``"
 
+msgid "``PackedInt64Array``"
+msgstr "``PackedInt64Array``"
+
+msgid "``long[]``"
+msgstr "``long[]``"
+
+msgid "``PackedFloat32Array``"
+msgstr "``PackedFloat32Array``"
+
 msgid "``float[]``"
 msgstr "``float[]``"
+
+msgid "``PackedFloat64Array``"
+msgstr "``PackedFloat64Array``"
+
+msgid "``double[]``"
+msgstr "``double[]``"
+
+msgid "``PackedStringArray``"
+msgstr "``PackedStringArray``"
+
+msgid "``string[]``"
+msgstr "``string[]``"
+
+msgid "``PackedVector2Array``"
+msgstr "``PackedVector2Array``"
 
 msgid "``Vector2[]``"
 msgstr "``Vector2[]``"
 
+msgid "``PackedVector3Array``"
+msgstr "``PackedVector3Array``"
+
 msgid "``Vector3[]``"
 msgstr "``Vector3[]``"
+
+msgid "``PackedVector4Array``"
+msgstr "``PackedVector4Array``"
+
+msgid "``Vector4[]``"
+msgstr "``Vector4[]``"
+
+msgid "``PackedColorArray``"
+msgstr "``PackedColorArray``"
 
 msgid "``Color[]``"
 msgstr "``Color[]``"
@@ -38,20 +119,212 @@ msgstr "``Color[]``"
 msgid "Array"
 msgstr "Массив"
 
+msgid ""
+"An untyped ``Godot.Collections.Array`` can be converted to a typed array "
+"using the ``Godot.Collections.Array<T>(Godot.Collections.Array)`` "
+"constructor."
+msgstr ""
+"Нетипизированный ``Godot.Collections.Array`` можно преобразовать в "
+"типизированный массив с помощью конструктора "
+"``Godot.Collections.Array<T>(Godot.Collections.Array)``."
+
+msgid "all"
+msgstr "all )все("
+
+msgid "`System.Linq.Enumerable.All`_"
+msgstr "`System.Linq.Enumerable.All`_"
+
+msgid "any"
+msgstr "any (любой)"
+
+msgid "`System.Linq.Enumerable.Any`_"
+msgstr "`System.Linq.Enumerable.Any`_"
+
+msgid "append"
+msgstr "append"
+
+msgid "Add"
+msgstr "Add"
+
+msgid "append_array"
+msgstr "append_array"
+
+msgid "AddRange"
+msgstr "AddRange"
+
+msgid "assign"
+msgstr "assign"
+
+msgid "back"
+msgstr "back"
+
+msgid "bsearch"
+msgstr "bsearch"
+
+msgid "BinarySearch"
+msgstr "BinarySearch"
+
+msgid "bsearch_custom"
+msgstr "bsearch_custom"
+
+msgid "N/A"
+msgstr "N/A"
+
 msgid "clear"
 msgstr "чисто"
+
+msgid "Clear"
+msgstr "Clear"
+
+msgid "count"
+msgstr "count"
+
+msgid "`System.Linq.Enumerable.Count`_"
+msgstr "`System.Linq.Enumerable.Count`_"
+
+msgid "duplicate"
+msgstr "duplicate"
 
 msgid "Duplicate"
 msgstr "Дублировать"
 
+msgid "erase"
+msgstr "erase"
+
+msgid "filter"
+msgstr "filter"
+
+msgid "Use `System.Linq.Enumerable.Where`_"
+msgstr "Используйте `System.Linq.Enumerable.Where`_"
+
+msgid "find"
+msgstr "find"
+
+msgid "IndexOf"
+msgstr "IndexOf"
+
+msgid "get_typed_builtin"
+msgstr "get_typed_builtin"
+
+msgid "get_typed_class_name"
+msgstr "get_typed_class_name"
+
+msgid "get_typed_script"
+msgstr "get_typed_script"
+
+msgid "has"
+msgstr "has (имеет)"
+
+msgid "Contains"
+msgstr "Contains (Содержит)"
+
+msgid "hash"
+msgstr "hash"
+
+msgid "GD.Hash"
+msgstr "GD.Hash"
+
+msgid "insert"
+msgstr "insert"
+
+msgid "Insert"
+msgstr "Insert"
+
+msgid "is_empty"
+msgstr "is_empty"
+
+msgid "is_typed"
+msgstr "is_typed"
+
+msgid "map"
+msgstr "map (карта)"
+
+msgid "`System.Linq.Enumerable.Select`_"
+msgstr "`System.Linq.Enumerable.Select`_"
+
 msgid "max"
 msgstr "max"
+
+msgid "Max"
+msgstr "Max"
 
 msgid "min"
 msgstr "min"
 
+msgid "Min"
+msgstr "Min"
+
+msgid "remove_at"
+msgstr "remove_at"
+
+msgid "Resize"
+msgstr "Resize"
+
+msgid "reverse"
+msgstr "reverse"
+
+msgid "Reverse"
+msgstr "Reverse"
+
+msgid "rfind"
+msgstr "rfind"
+
+msgid "LastIndexOf"
+msgstr "LastIndexOf"
+
+msgid "Count"
+msgstr "Count"
+
+msgid "Sort"
+msgstr "Sort (Сортировать)"
+
+msgid "operator !="
+msgstr "operator !="
+
+msgid "operator +"
+msgstr "operator +"
+
+msgid "operator <"
+msgstr "operator <"
+
+msgid "operator <="
+msgstr "operator <="
+
+msgid "operator =="
+msgstr "operator =="
+
+msgid "operator >"
+msgstr "operator >"
+
+msgid "operator >="
+msgstr "operator >="
+
+msgid "operator []"
+msgstr "operator []"
+
 msgid "Dictionary"
 msgstr "Словарь"
 
+msgid ""
+"An untyped ``Godot.Collections.Dictionary`` can be converted to a typed "
+"dictionary using the ``Godot.Collections.Dictionary<TKey, "
+"TValue>(Godot.Collections.Dictionary)`` constructor."
+msgstr ""
+"Нетипизированный ``Godot.Collections.Dictionary`` можно преобразовать в "
+"типизированный словарь с помощью конструктора "
+"``Godot.Collections.Dictionary<TKey, TValue>(Godot.Collections.Dictionary)``."
+
+msgid "get"
+msgstr "get"
+
+msgid "ContainsKey"
+msgstr "ContainsKey (Содержит ключ)"
+
 msgid "keys"
 msgstr "ключи"
+
+msgid "values"
+msgstr "values (ценности)"
+
+msgid "Values"
+msgstr "Values"

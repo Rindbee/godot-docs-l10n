@@ -32,11 +32,17 @@ msgstr "``[i]{texte}[/i]``"
 msgid "**u**"
 msgstr "**u**"
 
+msgid "Makes ``{text}`` underlined."
+msgstr "Souligne le ``{texte}``."
+
 msgid "``[u]{text}[/u]``"
 msgstr "``[u]{texte}[/u]``"
 
 msgid "**s**"
 msgstr "**s**"
+
+msgid "Makes ``{text}`` strikethrough."
+msgstr "Barre le ``{texte}``."
 
 msgid "``[s]{text}[/s]``"
 msgstr "``[s]{texte}[/s]``"

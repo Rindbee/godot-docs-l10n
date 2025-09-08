@@ -11,9 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Renderers"
-msgstr "渲染器"
-
 msgid "Introduction"
 msgstr "前言"
 
@@ -26,9 +23,9 @@ msgid ""
 "**Direct3D 12**, or **Metal** as the rendering driver, and it uses the "
 "**RenderingDevice** backend."
 msgstr ""
-"**Forward+**\\ 。这是最先进的渲染器，仅适用于桌面端。桌面端默认使用该渲染器。"
-"该渲染器使用 **Vulkan**\\ 、\\ **Direct3D 12** 或 **Metal** 作为渲染驱动，使"
-"用 **RenderingDevice** 后端。"
+"**Forward+**\\ 。最先进的渲染器，仅适合桌面平台，桌面平台默认使用。该渲染器使"
+"用 **Vulkan**\\ 、\\ **Direct3D 12** 或 **Metal** 作为渲染驱动，使用 "
+"**RenderingDevice** 后端。"
 
 msgid ""
 "**Mobile**. Fewer features, but renders simple scenes faster. Suited for "
@@ -229,12 +226,6 @@ msgstr "XR"
 msgid "✔️ Yes. Recommended for standalone headsets."
 msgstr "✔️ 是。推荐用于独立头戴设备。"
 
-msgid "✔️ Yes. Recommended for"
-msgstr "✔️ 是。推荐用于"
-
-msgid "desktop headsets."
-msgstr "桌面头戴式设备。"
-
 msgid "Web"
 msgstr "Web"
 
@@ -344,9 +335,6 @@ msgstr "每个网格 8 个，每个视图 256 个。"
 
 msgid "512 per cluster. Can be increased."
 msgstr "每个集群 512 个。可以增加。"
-
-msgid "Maximum SpotLights"
-msgstr "最大 SpotLight 数"
 
 msgid "Maximum DirectionalLights"
 msgstr "最大 DirectionalLight 数"

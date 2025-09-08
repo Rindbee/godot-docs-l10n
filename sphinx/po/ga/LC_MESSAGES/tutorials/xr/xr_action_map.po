@@ -245,15 +245,6 @@ msgstr ""
 "Maidir le do chéad chluiche / iarratas XR molaimid go mór tosú le sraith "
 "gníomhaíochta amháin agus gan rudaí ró-innealtóireachta."
 
-msgid ""
-"For our walkthrough in this document we will thus create a single action set "
-"called ``my_first_action_set``. We do this by pressing the ``Add action "
-"set`` button:"
-msgstr ""
-"Dá bhrí sin, cruthóimid tacar gníomhaíochta amháin ar a dtugtar "
-"''my_first_action_set''. Déanaimid é seo tríd an gcnaipe ''Cuir tacar "
-"gníomhaíochta leis'' a bhrú:"
-
 msgid "The columns in our table are as follows:"
 msgstr "Is iad seo a leanas na colúin inár dtábla:"
 

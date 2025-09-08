@@ -56,11 +56,3 @@ msgstr "Suporte a hiDPI"
 
 msgid "Handling aspect ratios"
 msgstr "Trabalhando com proporções de tela"
-
-msgid ""
-"See the `3D viewport scaling demo <https://github.com/godotengine/godot-demo-"
-"projects/tree/master/viewport/3d_scaling>`__ for examples."
-msgstr ""
-"Veja a `demonstração de escalonamento da janela de exibição 3D <https://"
-"github.com/godotengine/godot-demo-projects/tree/master/viewport/"
-"3d_scaling>`__ para exemplos."

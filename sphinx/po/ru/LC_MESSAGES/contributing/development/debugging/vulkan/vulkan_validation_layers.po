@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Validation layers"
+msgstr "Уровни проверки"
+
 msgid "Windows"
 msgstr "Windows"
 
@@ -20,11 +23,53 @@ msgstr "macOS"
 msgid "Linux, \\*BSD"
 msgstr "Linux, \\*BSD"
 
+msgid "Alpine Linux"
+msgstr "Alpine Linux (Альпийский Линукс)"
+
+msgid "Arch Linux"
+msgstr "Arch Linux"
+
+msgid "Debian/Ubuntu"
+msgstr "Debian/Ubuntu"
+
+msgid "Fedora"
+msgstr "Fedora"
+
+msgid "FreeBSD"
+msgstr "FreeBSD"
+
+msgid "Gentoo"
+msgstr "Gentoo"
+
+msgid "Mageia"
+msgstr "Mageia"
+
+msgid "OpenBSD"
+msgstr "OpenBSD"
+
+msgid "openSUSE"
+msgstr "openSUSE"
+
+msgid "Solus"
+msgstr "Solus"
+
 msgid "Android"
 msgstr "Android"
 
 msgid "iOS"
 msgstr "iOS"
 
+msgid "Validation layers are currently **not** supported on iOS."
+msgstr "Слои проверки в настоящее время **не** поддерживаются в iOS."
+
 msgid "Web"
 msgstr "Web"
+
+msgid "Enabling validation layers"
+msgstr "Включение уровней проверки"
+
+msgid "Copy libraries"
+msgstr "Копировать библиотеки"
+
+msgid "Compile and run the Android app"
+msgstr "Скомпилируйте и запустите приложение (app) для Android"

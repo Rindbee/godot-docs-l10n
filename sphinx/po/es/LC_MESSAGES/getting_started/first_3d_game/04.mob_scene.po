@@ -163,7 +163,7 @@ msgstr ""
 "Cuando trabajas con GDScript, no necesitas preocuparte por esto. La "
 "principal razón para usar \"pools\" es evitar bloqueos en lenguajes con "
 "recolección de basura como C# o Lua. GDScript utiliza una técnica diferente "
-"para gestionar la memoria, el recuento de referencias, que no tiene esa "
+"para gestionar la memoria, el conteo de referencias, que no tiene esa "
 "limitación. Puedes obtener más información al respecto "
 "aquí: :ref:`doc_gdscript_basics_memory_management`."
 

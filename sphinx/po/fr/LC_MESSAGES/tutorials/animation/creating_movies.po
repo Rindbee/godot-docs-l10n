@@ -35,13 +35,6 @@ msgstr ""
 "film\" pour l'activer"
 
 msgid ""
-"The icon gets a background matching the accent color when Movie Maker mode "
-"is enabled:"
-msgstr ""
-"L'icône obtient un fond correspondant à la couleur d'accent lorsque le mode "
-"Création de film est activé :"
-
-msgid ""
 "Movie Maker mode is enabled, click the \"movie reel\" icon again to disable"
 msgstr ""
 "Le Mode Création de film est activé, cliquez à nouveau sur l'icône \"Bobine "
@@ -105,9 +98,6 @@ msgstr ""
 "utiliser la méthode :ref:`OS.execute() <class_OS_method_execute>` pour "
 "exécuter une deuxième instance du projet exporté qui enregistrera un fichier "
 "vidéo."
-
-msgid "AVI (recommended)"
-msgstr "AVI (recommandé)"
 
 msgid "PNG"
 msgstr "PNG"

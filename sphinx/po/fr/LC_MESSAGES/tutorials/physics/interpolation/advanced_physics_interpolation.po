@@ -11,6 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"The most common situation where you may want to perform your own "
+"interpolation is Cameras."
+msgstr ""
+"La situation la plus courante où vous pouvez vouloir effectuer votre propre "
+"interpolation est pour les caméras."
+
 msgid "Cameras"
 msgstr "Caméras"
 

@@ -445,9 +445,6 @@ msgstr "Colore di lucidità speculare, come campionato dalla texture."
 msgid "in vec2 **UV**"
 msgstr "in vec2 **UV**"
 
-msgid "UV from the ``vertex()`` function."
-msgstr "UV dalla funzione ``vertex()``."
-
 msgid "in vec2 **SCREEN_UV**"
 msgstr "in vec2 **SCREEN_UV**"
 

@@ -14,6 +14,9 @@ msgstr ""
 msgid "Running code in the editor"
 msgstr "Exécuter le code dans l'éditeur"
 
+msgid "What is ``@tool``?"
+msgstr "Qu'est-ce que ``@tool`` ?"
+
 msgid ""
 "You can use it for doing many things, but it is mostly useful in level "
 "design for visually presenting things that are hard to predict ourselves. "

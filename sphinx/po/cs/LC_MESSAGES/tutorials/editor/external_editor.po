@@ -66,6 +66,9 @@ msgstr "``{file}:{line}``"
 msgid "JetBrains Rider"
 msgstr "JetBrains Rider"
 
+msgid "``{project} --line {line} {file}``"
+msgstr "``{project} --line {line} {file}``"
+
 msgid "Visual Studio Code"
 msgstr "Visual Studio Code"
 

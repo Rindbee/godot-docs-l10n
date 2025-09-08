@@ -174,6 +174,12 @@ msgstr "**Дата выпуска**"
 msgid "**Support level**"
 msgstr "**Уровень поддержки**"
 
+msgid "Godot 4.5 (`master`)"
+msgstr "Godot 4.5 (`master`)"
+
+msgid "Q3 2025 (estimate)"
+msgstr "Q3 2025 (приблизительно)"
+
 msgid ""
 "|unstable| *Development.* Receives new features, usability and performance "
 "improvements, as well as bug fixes, while under development."
@@ -184,6 +190,12 @@ msgstr ""
 
 msgid "unstable"
 msgstr "не стабильный"
+
+msgid "Godot 4.4"
+msgstr "Godot 4.4"
+
+msgid "March 2025"
+msgstr "Март 2025"
 
 msgid ""
 "|supported| Receives fixes for bugs and security issues, as well as patches "
@@ -207,6 +219,11 @@ msgstr "Godot 4.2"
 msgid "November 2023"
 msgstr "Ноябрь 2023"
 
+msgid "|partial| Receives fixes for security and platform support issues only."
+msgstr ""
+"|partial| Получает исправления только для проблем безопасности и поддержки "
+"платформы."
+
 msgid "partial"
 msgstr "частичный"
 
@@ -215,6 +232,9 @@ msgstr "Godot 4.1"
 
 msgid "July 2023"
 msgstr "Июль 2023"
+
+msgid "|eol| No longer supported (last update: 4.1.4)."
+msgstr "|eol| Больше не поддерживается (последнее обновление: 4.1.4)."
 
 msgid "eol"
 msgstr "Конец поддержки"
@@ -468,6 +488,15 @@ msgid ""
 msgstr ""
 "Хотя разработчики Godot не работают по каким-либо срокам, мы стараемся "
 "публиковать небольшие релизы относительно часто."
+
+msgid ""
+"In particular, after the very long release cycle for 4.0, we are pivoting to "
+"a faster-paced development workflow, 4.1 released 4 months after 4.0, and "
+"4.2 released 4 months after 4.1."
+msgstr ""
+"В частности, после очень длинного цикла релиза для 4.0, мы переходим к более "
+"быстрому темпу разработки: 4.1 выпущен уже через 4 месяца после 4.0, и 4.2 "
+"еще через 4 месяца после 4.1."
 
 msgid ""
 "Frequent minor releases will enable us to ship new features faster (possibly "

@@ -11,8 +11,73 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0107: Types not derived from Node should not export Node members"
+msgstr ""
+"GD0107: Типы, не производные от Node, не должны экспортировать элементы Node"
+
+msgid "**Rule ID**"
+msgstr "**Идентификатор правила**"
+
+msgid "GD0107"
+msgstr "GD0107"
+
 msgid "**Category**"
 msgstr "**Категория**"
 
 msgid "Usage"
 msgstr "Использование"
+
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Исправление может быть как ломающим, так и не ломающим**"
+
+msgid "Breaking"
+msgstr "Breaking (Прерывание)"
+
+msgid "**Enabled by default**"
+msgstr "**Включено по умолчанию**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "Причина"
+
+msgid ""
+"A type that doesn't derive from ``Node`` contains an exported field or "
+"property of a type that derives from ``Node``."
+msgstr ""
+"Тип, который не является производным от ``Node``, содержит экспортированное "
+"поле или свойство типа, который является производным от ``Node``."
+
+msgid "Rule description"
+msgstr "Описание правила"
+
+msgid ""
+"Exported nodes are serialized as ``NodePath``. Only types derived from "
+"``Node`` are able to get the node instance from the ``NodePath``."
+msgstr ""
+"Экспортированные узлы сериализуются как ``NodePath``. Только типы, "
+"производные от ``Node``, могут получить экземпляр узла из ``NodePath``."
+
+msgid "How to fix violations"
+msgstr "Как устранить нарушения"
+
+msgid ""
+"To fix a violation of this rule, avoid exporting ``Node`` members on a type "
+"that doesn't derive from ``Node``, or consider exporting a ``NodePath``."
+msgstr ""
+"Чтобы устранить нарушение этого правила, избегайте экспорта членов ``Node`` "
+"в типе, который не является производным от ``Node``, или рассмотрите "
+"возможность экспорта ``NodePath``."
+
+msgid "When to suppress warnings"
+msgstr "Когда следует подавлять предупреждения"
+
+msgid ""
+"Do not suppress a warning from this rule. Types that don't derive from "
+"``Node`` will be unable to retrieve the right node instance for exported "
+"``Node`` members, resulting in unexpected runtime errors."
+msgstr ""
+"Не подавляйте предупреждение из этого правила. Типы, не производные от "
+"``Node``, не смогут получить нужный экземпляр узла для экспортированных "
+"членов ``Node``, что приведёт к непредвиденным ошибкам во время выполнения."

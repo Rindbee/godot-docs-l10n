@@ -67,5 +67,17 @@ msgstr ""
 "либо игнорируются, либо сбрасываются при следующем изменении размера "
 "родителя."
 
+msgid "Sizing options"
+msgstr "Варианты размеров"
+
+msgid "AspectRatioContainer"
+msgstr "AspectRatioContainer"
+
+msgid "FlowContainer"
+msgstr "FlowContainer"
+
+msgid "CenterContainer"
+msgstr "CenterContainer"
+
 msgid "SubViewportContainer"
 msgstr "SubViewportContainer"

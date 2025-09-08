@@ -78,6 +78,9 @@ msgstr ""
 "У випадку ліцензії MIT єдиною вимогою є включення тексту ліцензії десь у "
 "вашій грі, або похідному проекті."
 
+msgid "This text reads as follows:"
+msgstr "Цей текст звучить так:"
+
 msgid ""
 "Beside its own MIT license, Godot includes code from a number of third-party "
 "libraries. See :ref:`doc_complying_with_licenses_thirdparty` for details."

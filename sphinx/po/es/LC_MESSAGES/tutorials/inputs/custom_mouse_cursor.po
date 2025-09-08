@@ -12,14 +12,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Customizing the mouse cursor"
-msgstr "Personalizando el puntero del mouse"
+msgstr "Personalizando el puntero del ratón"
 
 msgid ""
 "You might want to change the appearance of the mouse cursor in your game in "
 "order to suit the overall design. There are two ways to customize the mouse "
 "cursor:"
 msgstr ""
-"Puedes querer cambiar la apariencia del puntero del mouse en tu juego para "
+"Puedes querer cambiar la apariencia del puntero del ratón en tu juego para "
 "ajustarse al diseño. Hay dos modos de hacer esto:"
 
 msgid ""

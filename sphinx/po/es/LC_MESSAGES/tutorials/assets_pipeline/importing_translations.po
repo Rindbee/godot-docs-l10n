@@ -52,7 +52,7 @@ msgid ""
 "number (it's just a unique string anyway)."
 msgstr ""
 "En general, los juegos utilizan el segundo método y se utiliza un ID único "
-"para cada cadena. Esto le permite revisar el texto mientras se está "
+"para cada cadena. Esto te permite revisar el texto mientras se está "
 "traduciendo a otros idiomas. El ID único puede ser un número, una cadena o "
 "una cadena con un número (de todos modos es sólo una cadena única)."
 

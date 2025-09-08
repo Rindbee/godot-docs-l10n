@@ -107,6 +107,13 @@ msgid "Prerequisites"
 msgstr "Prérequis"
 
 msgid ""
+"This step-by-step tutorial is intended for beginners who followed the "
+"complete :ref:`doc_step_by_step`."
+msgstr ""
+"Ce tutoriel pas à pas est destiné aux débutants qui ont suivi le tutoriel "
+"complet :ref:`doc_step_by_step`."
+
+msgid ""
 "If you're an experienced programmer, you can find the complete demo's source "
 "code here: `Dodge the Creeps source code <https://github.com/godotengine/"
 "godot-demo-projects/tree/master/2d/dodge_the_creeps>`__."

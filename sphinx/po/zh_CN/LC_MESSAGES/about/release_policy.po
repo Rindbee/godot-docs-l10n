@@ -154,6 +154,12 @@ msgstr "**发布日期**"
 msgid "**Support level**"
 msgstr "**支持级别**"
 
+msgid "Godot 4.5 (`master`)"
+msgstr "Godot 4.5（`master`）"
+
+msgid "Q3 2025 (estimate)"
+msgstr "2025 年第三季度（预计）"
+
 msgid ""
 "|unstable| *Development.* Receives new features, usability and performance "
 "improvements, as well as bug fixes, while under development."
@@ -163,6 +169,12 @@ msgstr ""
 
 msgid "unstable"
 msgstr "不稳定版"
+
+msgid "Godot 4.4"
+msgstr "Godot 4.4"
+
+msgid "March 2025"
+msgstr "2025 年 3 月"
 
 msgid ""
 "|supported| Receives fixes for bugs and security issues, as well as patches "
@@ -184,6 +196,9 @@ msgstr "Godot 4.2"
 msgid "November 2023"
 msgstr "2023 年 11 月"
 
+msgid "|partial| Receives fixes for security and platform support issues only."
+msgstr "|partial| 仅接受针对安全问题和平台支持问题的修复。"
+
 msgid "partial"
 msgstr "partial"
 
@@ -192,6 +207,9 @@ msgstr "Godot 4.1"
 
 msgid "July 2023"
 msgstr "2023 年 7 月"
+
+msgid "|eol| No longer supported (last update: 4.1.4)."
+msgstr "|eol| 不再支持（最后更新：4.1.4）。"
 
 msgid "eol"
 msgstr "生命结束"
@@ -421,6 +439,14 @@ msgid ""
 "publish minor releases relatively frequently."
 msgstr ""
 "虽然 Godot 贡献者的工作没有设置截止日期，但我们会努力相对频繁地发布次要版本。"
+
+msgid ""
+"In particular, after the very long release cycle for 4.0, we are pivoting to "
+"a faster-paced development workflow, 4.1 released 4 months after 4.0, and "
+"4.2 released 4 months after 4.1."
+msgstr ""
+"尤其是在 4.0 经历了漫长的发布周期之后，我们正在转向更快节奏的开发工作流程，"
+"4.1 在 4.0 发布 4 个月后发布，4.2 在 4.1 发布 4 个月后发布。"
 
 msgid ""
 "Frequent minor releases will enable us to ship new features faster (possibly "

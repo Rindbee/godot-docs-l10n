@@ -68,16 +68,6 @@ msgstr ""
 "கோப்புகளை உருவாக்குவதற்கும் அவை இருக்க வேண்டிய இடத்தில் அவற்றை வைப்பதற்கும் ஒரு உரையாடலை "
 "வழங்குகிறது."
 
-msgid ""
-"In the main toolbar, click the ``Project`` dropdown. Then click ``Project "
-"Settings...``. Go to the ``Plugins`` tab and then click on the ``Create New "
-"Plugin`` button in the top-right."
-msgstr ""
-"முதன்மையான கருவிப்பட்டியில், `` திட்டம்` கீழ்தோன்றலைக் சொடுக்கு செய்க. பின்னர் `` திட்ட "
-"அமைப்புகள் ... `` என்பதைக் சொடுக்கு செய்க. `` செருகுநிரல்கள்`` தாவலுக்குச் சென்று, "
-"பின்னர் `` புதிய சொருகி`` பொத்தானை மேலே வலதுபுறத்தில் உருவாக்கு என்பதைக் சொடுக்கு "
-"செய்க."
-
 msgid "You will see the dialog appear, like so:"
 msgstr "உரையாடல் தோன்றுவதை நீங்கள் காண்பீர்கள்:"
 

@@ -55,13 +55,6 @@ msgstr "image1"
 msgid "If you still have *Input Map* open, switch to the *General* tab."
 msgstr "Hala *Girdi Haritası* açıksa, *Genel* sekmesine geçin."
 
-msgid ""
-"In the left menu, navigate down to *Display -> Window*. On the right, set "
-"the *Width* to ``720`` and the *Height* to ``540``."
-msgstr ""
-"Soldaki menüden *Görüntü -> Pencere* seçeneğine gidin. Sağ tarafta "
-"*Genişlik* değerini ``720`` ve *Yükseklik* değerini ``540`` olarak ayarlayın."
-
 msgid "|image2|"
 msgstr "|image2|"
 

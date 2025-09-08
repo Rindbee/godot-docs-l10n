@@ -37,38 +37,77 @@ msgstr ""
 msgid "2D"
 msgstr "2D"
 
+msgid ":ref:`doc_introduction_to_2d`"
+msgstr ":ref:`doc_introduction_to_2d`"
+
 msgid "3D"
 msgstr "3D"
+
+msgid ":ref:`doc_spring_arm`"
+msgstr ":ref:`doc_spring_arm`"
 
 msgid "Debug"
 msgstr "Debugging"
 
+msgid ":ref:`doc_output_panel`"
+msgstr ":ref:`doc_output_panel`"
+
 msgid "Editor"
 msgstr "Editor"
+
+msgid ":ref:`doc_using_the_xr_editor`"
+msgstr ":ref:`doc_using_the_xr_editor`"
 
 msgid "Performance"
 msgstr "Performance"
 
+msgid ":ref:`doc_pipeline_compilations`"
+msgstr ":ref:`doc_pipeline_compilations`"
+
 msgid "Physics"
 msgstr "Physik"
+
+msgid ":ref:`doc_physics_interpolation`"
+msgstr ":ref:`doc_physics_interpolation`"
+
+msgid ":ref:`doc_physics_interpolation_quick_start_guide`"
+msgstr ":ref:`doc_physics_interpolation_quick_start_guide`"
 
 msgid "Rendering"
 msgstr "Rendern"
 
+msgid ":ref:`doc_renderers`"
+msgstr ":ref:`doc_renderers`"
+
 msgid "Shaders"
 msgstr "Shader"
+
+msgid ":ref:`doc_shader_functions`"
+msgstr ":ref:`doc_shader_functions`"
 
 msgid "About"
 msgstr "Über"
 
+msgid ":ref:`doc_system_requirements`"
+msgstr ":ref:`doc_system_requirements`"
+
+msgid ":ref:`doc_2d_parallax`"
+msgstr ":ref:`doc_2d_parallax`"
+
 msgid "Contributing"
 msgstr "Mitwirken"
+
+msgid ":ref:`doc_ways_to_contribute`"
+msgstr "Siehe :ref:`doc_ways_to_contribute`."
 
 msgid "GDExtension"
 msgstr "GDExtension"
 
 msgid "Migrating"
 msgstr "Auf neue Version umziehen"
+
+msgid ":ref:`doc_upgrading_to_godot_4.3`"
+msgstr ":ref:`doc_upgrading_to_godot_4.3`"
 
 msgid "XR"
 msgstr "XR"

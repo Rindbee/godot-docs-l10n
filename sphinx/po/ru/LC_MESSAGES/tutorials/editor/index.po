@@ -24,6 +24,17 @@ msgstr ""
 msgid "Editor's interface"
 msgstr "Интерфейс редактора"
 
+msgid ""
+"The following pages explain how to use the various windows, workspaces, and "
+"docks that make up the Godot editor. We cover some specific editors' "
+"interfaces in other sections where appropriate. For example, "
+"the :ref:`animation editor <doc_introduction_animation>`."
+msgstr ""
+"Следующие страницы объяснят вам как использовать различные окна, рабочие "
+"пространства и панели из которых состоит редактор Godot. Мы расскажем о "
+"некоторых конкретных интерфейсах редактора в других разделах, там где это "
+"необходимо. Например, :ref:`animation editor <doc_introduction_animation>`."
+
 msgid "XR editor"
 msgstr "XR-редактор"
 

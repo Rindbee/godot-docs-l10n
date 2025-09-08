@@ -72,15 +72,6 @@ msgstr ""
 "Godot dialóg chun na comhaid sin a ghiniúint agus iad a chur san áit ar gá "
 "dóibh a bheith."
 
-msgid ""
-"In the main toolbar, click the ``Project`` dropdown. Then click ``Project "
-"Settings...``. Go to the ``Plugins`` tab and then click on the ``Create New "
-"Plugin`` button in the top-right."
-msgstr ""
-"Sa phríomh-uirlisí uirlisí, cliceáil ar an “Tionscadal” anuas. Ansin "
-"cliceáil ``Socruithe Tionscadail... ``. Téigh go dtí an cluaisín ``Plugins` "
-"agus ansin cliceáil ar an gcnaipe `Cruthaigh Breiseán Nua ``sa barr ar dheis."
-
 msgid "You will see the dialog appear, like so:"
 msgstr "Feicfidh tú an dialóg le feiceáil, mar sin:"
 

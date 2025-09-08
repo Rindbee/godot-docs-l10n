@@ -117,7 +117,7 @@ msgstr ""
 "datos que sólo funciona cuando:"
 
 msgid "The mouse pointer is over the control."
-msgstr "El puntero del mouse está sobre el control."
+msgstr "El puntero del ratón está sobre el control."
 
 msgid ""
 "The button was pressed over this control (control always captures input "

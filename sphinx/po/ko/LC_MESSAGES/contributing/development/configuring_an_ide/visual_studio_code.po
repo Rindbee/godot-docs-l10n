@@ -13,3 +13,6 @@ msgstr ""
 
 msgid "Visual Studio Code"
 msgstr "Visual Studio Code"
+
+msgid "Configuring Intellisense"
+msgstr "Intellisense 구성하기"

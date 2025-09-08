@@ -172,13 +172,6 @@ msgstr ""
 "ライブラリをエクスポートするには、 **シーン → エクスポート... → メッシュライ"
 "ブラリ...** をクリックして、リソースとして保存します。"
 
-msgid ""
-"You can find an already exported MeshLibrary in the project named "
-"\"MeshLibrary.tres\"."
-msgstr ""
-"\"MeshLibrary.tres\" という名前のプロジェクトで、既にエクスポートされた"
-"MeshLibraryを見つけることができます。"
-
 msgid "Using GridMap"
 msgstr "GridMap(グリッドマップ)の使用"
 

@@ -10,3 +10,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Building navigation mesh chunks"
+msgstr "내비게이션 메시 청크 빌드하기"
+
+msgid "Navigation mesh chunks with gaps"
+msgstr "틈이 있는 내비게이션 메시 청크"
+
+msgid "Navigation mesh chunks without gaps"
+msgstr "틈이 없는 내비게이션 메시 청크"

@@ -19,3 +19,9 @@ msgstr "오클루전 컬링"
 
 msgid "Bake lighting"
 msgstr "조명 굽기"
+
+msgid "Animation and skinning"
+msgstr "애니메이션 및 스키닝"
+
+msgid "Large worlds"
+msgstr "커다란 세계"

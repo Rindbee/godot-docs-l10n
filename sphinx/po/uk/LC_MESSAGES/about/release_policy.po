@@ -172,6 +172,12 @@ msgstr "** Дата виходу **"
 msgid "**Support level**"
 msgstr "** Рівень підтримки **"
 
+msgid "Godot 4.5 (`master`)"
+msgstr "Godot 4.5 (`master`)"
+
+msgid "Q3 2025 (estimate)"
+msgstr "3-й квартал 2025 року (орієнтовно)"
+
 msgid ""
 "|unstable| *Development.* Receives new features, usability and performance "
 "improvements, as well as bug fixes, while under development."
@@ -182,6 +188,12 @@ msgstr ""
 
 msgid "unstable"
 msgstr "нестабільний"
+
+msgid "Godot 4.4"
+msgstr "Godot 4.4"
+
+msgid "March 2025"
+msgstr "Березень 2025 року"
 
 msgid ""
 "|supported| Receives fixes for bugs and security issues, as well as patches "
@@ -205,6 +217,11 @@ msgstr "Godot 4.2"
 msgid "November 2023"
 msgstr "Листопад 2023"
 
+msgid "|partial| Receives fixes for security and platform support issues only."
+msgstr ""
+"|partial| Отримує виправлення лише для проблем безпеки та підтримки "
+"платформи."
+
 msgid "partial"
 msgstr "Часткова"
 
@@ -213,6 +230,9 @@ msgstr "Godot 4.1"
 
 msgid "July 2023"
 msgstr "Липень 2023 року"
+
+msgid "|eol| No longer supported (last update: 4.1.4)."
+msgstr "|eol| Більше не підтримується (останнє оновлення: 4.1.4)."
 
 msgid "eol"
 msgstr "не підтримується"
@@ -462,6 +482,15 @@ msgid ""
 msgstr ""
 "Хоча дописувачі Godot не працюють в умовах дедлайнів, ми намагаємося "
 "публікувати невеликі релізи відносно часто."
+
+msgid ""
+"In particular, after the very long release cycle for 4.0, we are pivoting to "
+"a faster-paced development workflow, 4.1 released 4 months after 4.0, and "
+"4.2 released 4 months after 4.1."
+msgstr ""
+"Зокрема, після дуже довгого циклу випуску версії 4.0, ми переходимо до "
+"швидшого робочого процесу розробки: версія 4.1 вийшла через 4 місяці після "
+"4.0, а 4.2 — через 4 місяці після 4.1."
 
 msgid ""
 "Frequent minor releases will enable us to ship new features faster (possibly "

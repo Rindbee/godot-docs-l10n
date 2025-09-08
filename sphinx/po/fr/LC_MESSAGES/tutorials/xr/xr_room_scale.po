@@ -11,6 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Processing our character movement is now done in three steps."
+msgstr ""
+"Le traitemement du mouvement de notre personnage est maintenant fait en "
+"trois étapes."
+
 msgid "Step 1"
 msgstr "Étape 1"
 

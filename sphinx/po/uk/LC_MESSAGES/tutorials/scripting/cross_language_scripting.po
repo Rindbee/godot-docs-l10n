@@ -126,6 +126,17 @@ msgstr ""
 "<class_Object_method_set>`. Перший аргумент — це ім’я поля, до якого "
 "потрібно отримати доступ."
 
+msgid ""
+"Keep in mind that when setting a field value you should only use types the "
+"GDScript side knows about. Essentially, you want to work with built-in types "
+"as described in :ref:`doc_gdscript_builtin_types` or classes "
+"extending :ref:`class_Object`."
+msgstr ""
+"Майте на увазі, що під час встановлення значення поля слід використовувати "
+"лише типи, відомі стороні GDScript. По суті, вам потрібно працювати з "
+"вбудованими типами, як описано в :ref:`doc_gdscript_builtin_types`, або з "
+"класами, що розширюють :ref:`class_Object`."
+
 msgid "Calling methods"
 msgstr "Методи виклику"
 

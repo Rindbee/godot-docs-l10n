@@ -802,7 +802,7 @@ msgid ""
 msgstr ""
 "¡Pero cuidado! Has reescrito la historia y ahora tus ramas locales y remotas "
 "han divergido. De hecho, el commit 1b4aad7 en el ejemplo anterior habrá "
-"cambiado y, por lo tanto, obtendrá un nuevo hash de commit. Si intentas "
+"cambiado y, por lo tanto, obtendrás un nuevo hash de commit. Si intentas "
 "hacer push a tu rama remota, surgirá un error:"
 
 msgid ""

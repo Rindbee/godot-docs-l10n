@@ -11,8 +11,75 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"GD0001: Missing partial modifier on declaration of type that derives from "
+"GodotObject"
+msgstr ""
+"GD0001: Отсутствует частичный модификатор в объявлении типа, производного от "
+"GodotObject"
+
+msgid "**Rule ID**"
+msgstr "**Идентификатор правила**"
+
+msgid "GD0001"
+msgstr "GD0001"
+
 msgid "**Category**"
 msgstr "**Категория**"
 
 msgid "Usage"
 msgstr "Использование"
+
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Исправление может быть как ломающим, так и не ломающим**"
+
+msgid "Non-breaking"
+msgstr "Неразрушающий"
+
+msgid "**Enabled by default**"
+msgstr "**Включено по умолчанию**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "Причина"
+
+msgid "A type that derives from ``GodotObject`` is not declared partial."
+msgstr "Тип, производный от ``GodotObject``, не объявляется частичным."
+
+msgid "Rule description"
+msgstr "Описание правила"
+
+msgid ""
+"Godot source generators add generated code to user-defined types to "
+"implement the integration with the engine. Source generators can't add "
+"generated code to types that aren't declared partial."
+msgstr ""
+"Генераторы исходного кода Godot добавляют сгенерированный код к "
+"пользовательским типам для реализации интеграции с движком. Генераторы "
+"исходного кода не могут добавлять сгенерированный код к типам, которые не "
+"объявлены как частичные."
+
+msgid "How to fix violations"
+msgstr "Как устранить нарушения"
+
+msgid ""
+"To fix a violation of this rule, add the ``partial`` keyword to the type "
+"declaration."
+msgstr ""
+"Чтобы исправить нарушение этого правила, добавьте ключевое слово ``partial`` "
+"к объявлению типа."
+
+msgid "When to suppress warnings"
+msgstr "Когда следует подавлять предупреждения"
+
+msgid ""
+"Do not suppress a warning from this rule. Types that derive from "
+"``GodotObject`` but aren't partial can't be enhanced by the source "
+"generators, resulting in unexpected runtime errors."
+msgstr ""
+"Не подавляйте предупреждение из этого правила. Типы, производные от "
+"``GodotObject``, но не являющиеся частичными, не могут быть улучшены "
+"исходными генераторами, что приводит к непредвиденным ошибкам во время "
+"выполнения."

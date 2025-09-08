@@ -125,7 +125,7 @@ msgstr ""
 "podamos pasar directamente al código."
 
 msgid "You can download them by clicking the link below."
-msgstr "Puede descargarlos haciendo clic en el siguiente enlace."
+msgstr "Puedes descargarlos haciendo clic en el siguiente enlace."
 
 msgid ""
 "`dodge_the_creeps_2d_assets.zip <https://github.com/godotengine/godot-docs-"

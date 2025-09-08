@@ -26,6 +26,9 @@ msgstr ""
 "d'être dérivés de la `bibliothèque d'archives Android <https://"
 "developer.android.com/studio/projects/android-library#aar-contents>`_."
 
+msgid "Android libraries"
+msgstr "Bibliothèques Android"
+
 msgid "Native libraries (via JNI)"
 msgstr "Librairies natives (via JNI)"
 
@@ -34,6 +37,13 @@ msgstr "Bibliothèques GDExtension"
 
 msgid "Where:"
 msgstr "Où :"
+
+msgid ""
+"The created script must be a ``@tool`` script, or else it will not work "
+"properly"
+msgstr ""
+"Le script créé doit être un script ``@tool```, ou sinon il ne fonctionnera "
+"pas correctement"
 
 msgid ""
 "Navigate to ``Project`` -> ``Project Settings...`` -> ``Plugins``, and "

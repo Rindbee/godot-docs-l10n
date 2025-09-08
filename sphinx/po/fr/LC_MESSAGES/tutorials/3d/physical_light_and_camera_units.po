@@ -12,7 +12,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Physical light and camera units"
-msgstr "Unités de lumière et de caméra physiques"
+msgstr "Unités physiques de caméra et de lumière"
+
+msgid "Advantages of physical units"
+msgstr "Avantages des unités physiques"
 
 msgid "Disadvantages of physical units"
 msgstr "Désavantages des unités physiques"
@@ -29,6 +32,9 @@ msgstr "Configurez l'environnement."
 msgid "Configure Light3D nodes."
 msgstr "Configurez les nœuds Light3D."
 
+msgid "Configure the camera"
+msgstr "Configurer la caméra"
+
 msgid ""
 "When physical light units are enabled, the following additional properties "
 "become available in CameraAttributesPhysical's **Exposure** section:"
@@ -36,6 +42,9 @@ msgstr ""
 "Lorsque les unités de lumière physique sont activées, les propriétés "
 "supplémentaires suivantes sont disponibles dans la section **Exposure** de "
 "CameraAttributesPhysical :"
+
+msgid "Configure the environment"
+msgstr "Configurer l'environnement"
 
 msgid ""
 "**Intensity:** The light's intensity in `lux <https://en.wikipedia.org/wiki/"

@@ -17,6 +17,9 @@ msgstr "Použití ArrayMesh"
 msgid "Index"
 msgstr "Index"
 
+msgid "Array type"
+msgstr "Typ pole"
+
 msgid "0"
 msgstr "0"
 

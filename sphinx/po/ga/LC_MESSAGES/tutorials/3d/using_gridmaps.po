@@ -174,13 +174,6 @@ msgstr ""
 "Chun an leabharlann a easpórtáil, cliceáil ar **Radharc > Easpórtáil Mar... "
 "> MeshLibrary...**, agus sábháil mar acmhainn í."
 
-msgid ""
-"You can find an already exported MeshLibrary in the project named "
-"\"MeshLibrary.tres\"."
-msgstr ""
-"Is féidir leat MeshLibrary onnmhairithe cheana féin a fháil sa tionscadal "
-"darb ainm “MeshLibrary.tres”."
-
 msgid "Using GridMap"
 msgstr "Ag baint úsáide as GridMap"
 

@@ -175,6 +175,9 @@ msgstr ""
 "需要将观察者移动相当长的距离, 视角才会发生显著变化. 这可能是复杂的工作, 但可"
 "能是值得的, 这取决于你正在制作的项目类型."
 
+msgid "Use automatic instancing"
+msgstr "自动缩进"
+
 msgid ""
 "If several identical objects have to be drawn in the same place or nearby, "
 "try using :ref:`MultiMesh <class_MultiMesh>` instead. MultiMesh allows the "

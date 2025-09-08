@@ -59,6 +59,9 @@ msgstr "|image7|"
 msgid "|image14|"
 msgstr "|image14|"
 
+msgid "image14"
+msgstr "image14"
+
 msgid "|image8|"
 msgstr "|image8|"
 
@@ -74,5 +77,11 @@ msgstr "|image11|"
 msgid "|image12|"
 msgstr "|image12|"
 
+msgid "image12"
+msgstr "image12"
+
 msgid "|image13|"
 msgstr "|image13|"
+
+msgid "image13"
+msgstr "image13"

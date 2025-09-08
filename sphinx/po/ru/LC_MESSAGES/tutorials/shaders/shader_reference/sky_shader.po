@@ -11,6 +11,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Sky shaders"
+msgstr "Sky shaders"
+
+msgid "There are three places the sky shader is used."
+msgstr "Шейдер неба используется в трех местах."
+
 msgid "Render modes"
 msgstr "Режимы визуализации"
 
@@ -19,6 +25,12 @@ msgstr "Режим рендеринга"
 
 msgid "Description"
 msgstr "Описание"
+
+msgid "**use_half_res_pass**"
+msgstr "**use_half_res_pass**"
+
+msgid "**disable_fog**"
+msgstr "**disable_fog**"
 
 msgid "Built-ins"
 msgstr "Встроенные функции"
@@ -29,8 +41,29 @@ msgstr "Глобальные встроенные функции"
 msgid "Built-in"
 msgstr "Встроенный"
 
+msgid "in vec3 **POSITION**"
+msgstr "in vec3 **POSITION**"
+
 msgid "Camera position, in world space."
 msgstr "Положение камеры в мировом пространстве."
+
+msgid "samplerCube **RADIANCE**"
+msgstr "samplerCube **RADIANCE**"
+
+msgid "in bool **LIGHTX_ENABLED**"
+msgstr "in bool **LIGHTX_ENABLED**"
+
+msgid "in float **LIGHTX_ENERGY**"
+msgstr "in float **LIGHTX_ENERGY**"
+
+msgid "in vec3 **LIGHTX_DIRECTION**"
+msgstr "in vec3 **LIGHTX_DIRECTION**"
+
+msgid "in vec3 **LIGHTX_COLOR**"
+msgstr "in vec3 **LIGHTX_COLOR**"
+
+msgid "in float **LIGHTX_SIZE**"
+msgstr "in float **LIGHTX_SIZE**"
 
 msgid ""
 "A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
@@ -39,5 +72,20 @@ msgstr ""
 "Константа ``TAU`` (``6.283185``). Эквивалент ``PI * 2`` и количество "
 "радианов в полном обороте."
 
+msgid "in float **E**"
+msgstr "В float **E**"
+
+msgid "Sky built-ins"
+msgstr "Встроенные модули Sky"
+
+msgid "in vec3 **EYEDIR**"
+msgstr "in vec3 **EYEDIR**"
+
 msgid "in vec2 **SCREEN_UV**"
 msgstr "vec2 **SCREEN_UV**"
+
+msgid "in vec2 **SKY_COORDS**"
+msgstr "in vec2 **SKY_COORDS**"
+
+msgid "Output color."
+msgstr "Цвет на выходе."

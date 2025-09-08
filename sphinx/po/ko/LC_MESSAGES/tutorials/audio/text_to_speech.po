@@ -11,8 +11,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Go to **Project > Project Settings**"
+msgstr "**프로젝트 -> 프로젝트 설정**\\ 으로 이동하세요"
+
+msgid "Make sure the **Advanced Settings** toggle is enabled"
+msgstr "**고급 설정** 토글이 활성화되어 있는지 확인하세요"
+
+msgid "Click on **Audio > General**"
+msgstr "**오디오 > 일반**\\ 을 클릭하세요"
+
+msgid "Ensure the **Text to Speech** option is checked"
+msgstr "**텍스트 음성 변환** 옵션이 체크되어 있는지 확인하세요"
+
 msgid "Restart Godot if prompted to do so."
-msgstr "메시지가 나타나면 Godot를 다시 시작합니다."
+msgstr "메시지가 나타나면 Godot를 다시 시작하세요."
 
 msgid "Requirements for functionality"
 msgstr "기능에 대한 요구 사항"

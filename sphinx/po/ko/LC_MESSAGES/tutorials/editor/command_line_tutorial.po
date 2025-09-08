@@ -86,11 +86,20 @@ msgstr "``--render-thread <mode>``"
 msgid "``--remote-fs <address>``"
 msgstr "``--remote-fs <address>``"
 
+msgid "|release| Remote filesystem (``<host/IP>[:<port>]`` address)."
+msgstr "|release| 원격 파일시스템 (``<host/IP>[:<port>]`` 주소)."
+
+msgid "``--remote-fs-password <password>``"
+msgstr "``--remote-fs-password <암호>``"
+
+msgid "|release| Password for remote filesystem."
+msgstr "|release| 원격 파일시스템에 대한 암호."
+
 msgid "``--audio-driver <driver>``"
 msgstr "``--audio-driver <driver>``"
 
 msgid "**Display options**"
-msgstr "**디스플레이 옵션**"
+msgstr "**표시 옵션**"
 
 msgid "``-f``, ``--fullscreen``"
 msgstr "``-f``, ``--fullscreen``"
@@ -114,10 +123,10 @@ msgid "``-t``, ``--always-on-top``"
 msgstr "``-t``, ``--always-on-top``"
 
 msgid "|release| Request an always-on-top window."
-msgstr "|release| 항상 위 창을 요청합니다."
+msgstr "|release| 창을 항상 위에 요청합니다."
 
 msgid "``--resolution <W>x<H>``"
-msgstr "``--resolution <W>x<H>``"
+msgstr "``--resolution <너비>x<높이>``"
 
 msgid "|release| Request window resolution."
 msgstr "|release| 창 해상도를 요청합니다."
@@ -128,14 +137,39 @@ msgstr "``--position <X>,<Y>``"
 msgid "|release| Request window position."
 msgstr "|release| 창 위치를 요청합니다."
 
+msgid "``--screen <N>``"
+msgstr "``--screen <N>``"
+
 msgid "|release| Request window screen."
 msgstr "|release| 창 화면을 요청합니다."
+
+msgid "``--single-window``"
+msgstr "``--single-window``"
 
 msgid "|release| Use a single window (no separate subwindows)."
 msgstr "|release| 단일 창을 사용합니다 (별도의 하위 창 없음)."
 
+msgid "``--xr-mode <mode>``"
+msgstr "``--xr-mode <모드>``"
+
 msgid "|release| Select XR mode ('default', 'off', 'on')."
 msgstr "|release| XR 모드를 선택합니다 ('default', 'off', 'on')."
+
+msgid "``--wid <window_id>``"
+msgstr "``--wid <창_id>``"
+
+msgid "|release| Request parented to window."
+msgstr "|release| 창에 부모로 지정되도록 요청합니다."
+
+msgid "``--accessibility <mode>``"
+msgstr "``--accessibility <모드>``"
+
+msgid ""
+"|release| Select accessibility mode ['auto' (when screen reader is running, "
+"default), 'always', 'disabled']."
+msgstr ""
+"|release| 접근성 모드를 선택합니다 ['auto' (스크린 리더가 실행 중일 때, 디폴"
+"트), 'always', 'disabled']."
 
 msgid "**Debug options**"
 msgstr "**디버그 옵션**"
@@ -149,11 +183,112 @@ msgstr "|release| 디버그 (로컬 표준 출력 디버거)."
 msgid "``-b``, ``--breakpoints``"
 msgstr "``-b``, ``--breakpoints``"
 
+msgid ""
+"|release| Breakpoint list as source::line comma-separated pairs, no spaces "
+"(use ``%20`` instead)."
+msgstr ""
+"|release| 중단점은 소스::줄의 쉼표로 구분된 쌍으로 나열하며 공백이 없습니다 "
+"(대신 ``%20``\\ 을 사용합니다)."
+
+msgid "``--ignore-error-breaks``"
+msgstr "``--ignore-error-breaks``"
+
+msgid "|release| If debugger is connected, prevents sending error breakpoints."
+msgstr ""
+"|release| 디버거가 연결되어 있으면 오류 중단점을 보내는 것을 방지합니다."
+
 msgid "``--profiling``"
 msgstr "``--profiling``"
 
 msgid "|release| Enable profiling in the script debugger."
 msgstr "|release| 스크립트 디버거에서 프로파일링을 활성화합니다."
+
+msgid "``--gpu-profile``"
+msgstr "``--gpu-profile``"
+
+msgid ""
+"|release| Show a GPU profile of the tasks that took the most time during "
+"frame rendering."
+msgstr ""
+"|release| 프레임 렌더링 중 가장 많은 시간이 소요된 작업의 GPU 프로필을 보여줍"
+"니다."
+
+msgid "``--gpu-validation``"
+msgstr "``--gpu-validation``"
+
+msgid ""
+"|release| Enable graphics API :ref:`validation layers "
+"<doc_vulkan_validation_layers>` for debugging."
+msgstr ""
+"|release| 디버깅을 위해 그래픽 API :ref:`검증 레이어 "
+"<doc_vulkan_validation_layers>`\\ 를 활성화합니다."
+
+msgid "``--gpu-abort``"
+msgstr "``--gpu-abort``"
+
+msgid ""
+"|debug| Abort on GPU errors (usually validation layer errors), may help see "
+"the problem if your system freezes."
+msgstr ""
+"|debug| GPU 오류(일반적으로 검증 계층 오류)로 인해 중단하면 시스템이 정지될 "
+"때 문제를 보는 데 도움이 될 수 있습니다."
+
+msgid "``--generate-spirv-debug-info``"
+msgstr "``--generate-spirv-debug-info``"
+
+msgid ""
+"|debug| Generate SPIR-V debug information. This allows source-level shader "
+"debugging with RenderDoc."
+msgstr ""
+"|debug| SPIR-V 디버그 정보를 생성합니다. 이를 통해 RenderDoc로 소스 수준 셰이"
+"더 디버깅을 허용합니다."
+
+msgid "``--extra-gpu-memory-tracking``"
+msgstr "``--extra-gpu-memory-tracking``"
+
+msgid ""
+"|debug| Enables additional memory tracking (see class reference for "
+"`RenderingDevice.get_driver_and_device_memory_report()` and linked methods). "
+"Currently only implemented for Vulkan. Enabling this feature may cause "
+"crashes on some systems due to buggy drivers or bugs in the Vulkan Loader. "
+"See https://github.com/godotengine/godot/issues/95967"
+msgstr ""
+"|debug| 추가 메모리 추적을 활성화합니다 "
+"(`RenderingDevice.get_driver_and_device_memory_report()` 및 연결된 메서드에 "
+"대한 클래스 참조를 참조하세요). 현재는 Vulkan에만 구현되어 있습니다. 이 기능"
+"을 활성화하면 버그가 있는 드라이버나 Vulkan 로도의 버그로 인해 일부 시스템에"
+"서 충돌이 발생할 수 있습니다. https://github.com/godotengine/godot/issues/"
+"95967\\ 을 참조하세요."
+
+msgid "``--accurate-breadcrumbs``"
+msgstr "``--accurate-breadcrumbs``"
+
+msgid ""
+"|debug| Force barriers between breadcrumbs. Useful for narrowing down a "
+"command causing GPU resets. Currently only implemented for Vulkan."
+msgstr ""
+"|debug| 빵가루 사이에 강제 장벽을 생성합니다. GPU 재설정을 일으키는 명령을 좁"
+"히는 데 유용합니다. 현재 Vulkan에만 구현되어 있습니다."
+
+msgid "``--remote-debug <uri>``"
+msgstr "``--remote-debug <uri>``"
+
+msgid ""
+"|release| Remote debug (``<protocol>://<host/IP>[:<port>]``, e.g. ``tcp://"
+"127.0.0.1:6007``)."
+msgstr ""
+"|release| 원격 디버깅 (``<프로토콜>://<호스트/IP>[:<포트>]``, 예: ``tcp://"
+"127.0.0.1:6007``)."
+
+msgid "``--single-threaded-scene``"
+msgstr "``--single-threaded-scene``"
+
+msgid ""
+"|release| Scene tree runs in single-threaded mode. Sub-thread groups are "
+"disabled and run on the main thread."
+msgstr ""
+"|release| 씬 트리는 단일 스레드 모드로 실행됩니다. 하위 스레드 그룹은 비활성"
+"화되고 메인 스레드에서 실행됩니다."
 
 msgid "``--debug-collisions``"
 msgstr "``--debug-collisions``"
@@ -161,32 +296,137 @@ msgstr "``--debug-collisions``"
 msgid "|debug| Show collision shapes when running the scene."
 msgstr "|debug| 씬을 실행할 때 콜리전 모양을 보여줍니다."
 
+msgid "``--debug-paths``"
+msgstr "``--debug-paths``"
+
 msgid "|debug| Show path lines when running the scene."
 msgstr "|debug| 씬을 실행할 때 경로 줄을 보여줍니다."
 
 msgid "``--debug-navigation``"
 msgstr "``--debug-navigation``"
 
+msgid "|debug| Show navigation polygons when running the scene."
+msgstr "|debug| 씬을 실행할 때 내비게이션 폴리곤을 보여줍니다."
+
+msgid "``--debug-avoidance``"
+msgstr "``--debug-avoidance``"
+
+msgid "|debug| Show navigation avoidance debug visuals when running the scene."
+msgstr ""
+"|debug| 씬을 실행할 때 내비게이션 어보이던스 디버그 비주얼을 보여줍니다."
+
+msgid "``--debug-stringnames``"
+msgstr "``--debug-stringnames``"
+
+msgid ""
+"|debug| Print all StringName allocations to stdout when the engine quits."
+msgstr ""
+"|debug| 엔진이 종료될 때 모든 StringName 할당을 포준 출력에 출력합니다."
+
+msgid "``--debug-canvas-item-redraw``"
+msgstr "``--debug-canvas-item-redraw``"
+
+msgid ""
+"|debug| Display a rectangle each time a canvas item requests a redraw "
+"(useful to troubleshoot low processor mode)."
+msgstr ""
+"|debug| 캔버스 항목에서 다시 그리기를 요청할 때마다 사각형을 표시합니다 (저사"
+"양 모드 문제를 해결하는 데 유용함)."
+
+msgid "``--max-fps <fps>``"
+msgstr "``--max-fps <fps>``"
+
+msgid ""
+"|release| Set a maximum number of frames per second rendered (can be used to "
+"limit power usage). A value of 0 results in unlimited framerate."
+msgstr ""
+"|release| 초당 렌더링되는 최대 프레임의 수를 설정합니다 (전력 사용량을 제한하"
+"는 데 사용 가능). 값이 0이면 프레임 속도가 제한이 없게 됩니다."
+
 msgid "``--frame-delay <ms>``"
 msgstr "``--frame-delay <ms>``"
+
+msgid ""
+"|release| Simulate high CPU load (delay each frame by <ms> milliseconds). Do "
+"not use as a FPS limiter; use --max-fps instead."
+msgstr ""
+"|release| 높은 CPU 점유률을 시뮬레이션합니다 (각 프레임을 <ms>밀리초씩 지"
+"연). FPS 제한으로 사용하지 마세요. 대신 --max-fps를 사용하세요."
 
 msgid "``--time-scale <scale>``"
 msgstr "``--time-scale <scale>``"
 
+msgid ""
+"|release| Force time scale (higher values are faster, 1.0 is normal speed)."
+msgstr ""
+"|release| 시간 규모를 강제합니다 (값이 높을수록 더 빠르고, 1.0은 보통 속도)."
+
+msgid "``--disable-vsync``"
+msgstr "``--disable-vsync``"
+
+msgid ""
+"|release| Forces disabling of vertical synchronization, even if enabled in "
+"the project settings. Does not override driver-level V-Sync enforcement."
+msgstr ""
+"|release| 프로젝트 설정에서 활성화된 경우에도 수직 동기화를 강제로 비활성화합"
+"니다. 드라이버 수준의 수직 동기화 시행을 오버라이드하지 않습니다."
+
 msgid "``--disable-render-loop``"
 msgstr "``--disable-render-loop``"
+
+msgid ""
+"|release| Disable render loop so rendering only occurs when called "
+"explicitly from script."
+msgstr ""
+"|release| 렌더 루프를 비활성화하여 스크립트에서 명시적으로 호출될 때만 렌더링"
+"이 발생하도록 합니다."
 
 msgid "``--disable-crash-handler``"
 msgstr "``--disable-crash-handler``"
 
+msgid "|release| Disable crash handler when supported by the platform code."
+msgstr "|release| 플랫폼 코드에서 지원하는 경우 충돌 핸들러를 비활성화합니다."
+
 msgid "``--fixed-fps <fps>``"
 msgstr "``--fixed-fps <fps>``"
+
+msgid ""
+"|release| Force a fixed number of frames per second. This setting disables "
+"real-time synchronization."
+msgstr ""
+"|release| 초당 프레임 수를 고정된 숫자로 강제합니다. 이 설정은 실시간 동기화"
+"가 비활성화됩니다."
+
+msgid "``--delta-smoothing <enable>``"
+msgstr "``--delta-smoothing <enable>``"
+
+msgid ""
+"|release| Enable or disable frame delta smoothing ('enable', 'disable')."
+msgstr ""
+"|release| 프레임 델타 스무딩을 활성화하거나 비활성화합니다 ('enable', "
+"'disable')."
 
 msgid "``--print-fps``"
 msgstr "``--print-fps``"
 
+msgid "|release| Print the frames per second to the stdout."
+msgstr "|release| 초당 프레임을 표준 출력에 출력합니다."
+
+msgid "``--editor-pseudolocalization``"
+msgstr "``--editor-pseudolocalization``"
+
+msgid ""
+"|editor| Enable pseudolocalization for the editor and the project manager."
+msgstr "|editor| 편집기와 프로젝트 매니저에 대한 의사 현지화를 활성화합니다."
+
 msgid "**Standalone tools**"
 msgstr "**독립형 툴**"
+
+msgid "``-s``, ``--script <script>``"
+msgstr "``-s``, ``--script <스크립트>``"
+
+msgid "``--main-loop <main_loop_name>``"
+msgstr "``--main-loop <메인_루프_이름>``"
 
 msgid "``--check-only``"
 msgstr "``--check-only``"
@@ -211,7 +451,7 @@ msgid ""
 "working directory is, you may need to set the path to your project for any "
 "of the following commands to work correctly."
 msgstr ""
-"Godot 바이너리의 위치와 현재 작업 디렉토리의 위치에 따라, 다음 명령이 올바르"
+"Godot 바이너리의 위치와 현재 작업 디렉터리의 위치에 따라, 다음 명령이 올바르"
 "게 작동하려면 프로젝트의 경로를 설정해야 합니다."
 
 msgid ""
@@ -278,7 +518,7 @@ msgid ""
 "the current working directory (unless ``--path`` is specified)."
 msgstr ""
 "``project.godot``\\ 가 경로에 존재하지 않으면, 현재 경로는 (``-path``\\ 가 지"
-"정되지 않는 한) 현재 작업 디렉토리로 가정합니다."
+"정되지 않는 한) 현재 작업 디렉터리로 가정합니다."
 
 msgid ""
 "The first line of ``sayhello.gd`` above is commonly referred to as a "

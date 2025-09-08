@@ -16,3 +16,6 @@ msgstr "KDevelop"
 
 msgid "Enable"
 msgstr "활성화"
+
+msgid "Arguments"
+msgstr "인수"

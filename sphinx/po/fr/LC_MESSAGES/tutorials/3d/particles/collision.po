@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Common properties"
+msgstr "Propriétés communes"
+
 msgid ""
 "To create a sphere collision node, add a new child node to your scene and "
 "select ``GPUParticlesCollisionSphere3D`` from the list of available nodes. "

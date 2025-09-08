@@ -61,6 +61,13 @@ msgstr "L'image ci-dessus a été créée à l'aide du script suivant :"
 msgid "Performance"
 msgstr "Performance"
 
+msgid ""
+"The following script will result in the same visual output as using ``BBCode "
+"[color=green]test [i]example[/i][/color]``:"
+msgstr ""
+"Le script suivant produira la même sortie visuelle que celle obtenue en "
+"utilisant ``BBCode [color=green]test [i]example[/i][/color]`` :"
+
 msgid "Reference"
 msgstr "Référence"
 
@@ -85,11 +92,17 @@ msgstr "``[i]{texte}[/i]``"
 msgid "**u**"
 msgstr "**u**"
 
+msgid "Makes ``{text}`` underlined."
+msgstr "Souligne le ``{texte}``."
+
 msgid "``[u]{text}[/u]``"
 msgstr "``[u]{texte}[/u]``"
 
 msgid "**s**"
 msgstr "**s**"
+
+msgid "Makes ``{text}`` strikethrough."
+msgstr "Barre le ``{texte}``."
 
 msgid "``[s]{text}[/s]``"
 msgstr "``[s]{texte}[/s]``"
@@ -115,8 +128,17 @@ msgstr "``[p]{text}[/p]``"
 msgid "``[p {options}]{text}[/p]``"
 msgstr "``[p {options}]{texet}[/p]``"
 
+msgid "**br**"
+msgstr "**br**"
+
 msgid "``[br]``"
 msgstr "``[br]``"
+
+msgid "**hr**"
+msgstr "**hr**"
+
+msgid "``[hr]``"
+msgstr "``[hr]``"
 
 msgid "**center**"
 msgstr "**centré**"
@@ -408,6 +430,18 @@ msgstr ""
 "afin de permettre une utilisation flexible des balises ``[url]`` plutôt que "
 "de les limiter à l'ouverture des URL dans un navigateur Web."
 
+msgid ""
+"To handle clicked ``[url]`` tags, connect the ``RichTextLabel`` "
+"node's :ref:`meta_clicked <class_RichTextLabel_signal_meta_clicked>` signal "
+"to a script function."
+msgstr ""
+"Pour gérer les balises ``[url]`` cliquées, connectez le "
+"signal :ref:`meta_clicked <class_RichTextLabel_signal_meta_clicked>` du nœud "
+"``RichTextLabel`` à une fonction de script."
+
+msgid "``Color(1, 1, 1, 1)``"
+msgstr "``Color(1, 1, 1, 1)``"
+
 msgid "**height**"
 msgstr "**height**"
 
@@ -419,6 +453,9 @@ msgstr "``2``"
 
 msgid "**width**"
 msgstr "**width**"
+
+msgid "``90%``"
+msgstr "``90%``"
 
 msgid "Image options"
 msgstr "Options d'image"
@@ -437,6 +474,9 @@ msgstr "``false``, ``true``"
 
 msgid "``false``"
 msgstr "``false``"
+
+msgid "**tooltip**"
+msgstr "**tooltip**"
 
 msgid "String"
 msgstr "Chaîne de caractères"
@@ -535,6 +575,9 @@ msgstr "**bg**"
 msgid "**padding**"
 msgstr "**padding**"
 
+msgid "``0,0,0,0``"
+msgstr "``0,0,0,0``"
+
 msgid "Unordered list bullet"
 msgstr "Puce de liste non ordonnée"
 
@@ -588,13 +631,6 @@ msgstr ""
 
 msgid "``_process_custom_fx``"
 msgstr "``_process_custom_fx``"
-
-msgid ""
-"``identity`` specifies which custom effect is being processed. You should "
-"use that for code flow control."
-msgstr ""
-"``identity`` indique quel effet personnalisé est traité. Vous devriez "
-"utiliser cela pour le contrôle de flux de code."
 
 msgid ""
 "``elapsed_time`` is the total amount of time the text effect has been "

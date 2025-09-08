@@ -143,6 +143,9 @@ msgstr "지정하는 것을 조정하기 위한, 부모 노드와 같은, 신뢰
 msgid "Add a \"player\" node to a \"room\"."
 msgstr "\"플레이어\" 노드를 \"방\"에 추가합니다."
 
+msgid "If memory is not a concern, you can..."
+msgstr "만약 메모리가 걱정되지 않는다면, 당신은..."
+
 msgid "Move the player somewhere else in the tree."
 msgstr "플레이어를 트리 어딘가로 이동시킵니다."
 
@@ -184,3 +187,14 @@ msgstr ""
 "다. 노드가 부모의 존재에 의존적인가요? 그렇지 않다면, 그들은 다른 어딘가에서 "
 "스스로 잘 있을 수 있을 겁니다. 의존적이라면, 그들은 부모의 자식으로 (그리고 "
 "부모의 씬의 일부로) 존재해야 할 것입니다."
+
+msgid ""
+"Does this mean nodes themselves are components? Not at all. Godot's node "
+"trees form an aggregation relationship, not one of composition. But while "
+"you still have the flexibility to move nodes around, it is still best when "
+"such moves are unnecessary by default."
+msgstr ""
+"이것이 노드가 구성 요소라는 뜻일까요? 전혀 아닙니다. Godot의 노드 트리는 집"
+"합 관계를 형성하는 것이지 구성 관계를 형성하는 것이 아닙니다. 그러나 노드를 "
+"유연하게 이동할 수 있긴 하지만, 기본적으로 노드에는 그러한 이동이 필요하지 않"
+"은 것이 가장 좋습니다."

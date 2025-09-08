@@ -17,8 +17,26 @@ msgstr "**필터 옵션**"
 msgid "**Description**"
 msgstr "**설명**"
 
+msgid "**Tag**"
+msgstr "**태그**"
+
 msgid "``[Editor]``"
 msgstr "``[Editor]``"
+
+msgid "``[Audio]``"
+msgstr "``[Audio]``"
+
+msgid "``[Navigation2D]``"
+msgstr "``[Navigation2D]``"
+
+msgid "``[Navigation3D]``"
+msgstr "``[Navigation3D]``"
+
+msgid "Testing signals"
+msgstr "시그널 테스트하기"
+
+msgid "Macro"
+msgstr "매크로"
 
 msgid "Description"
 msgstr "설명"

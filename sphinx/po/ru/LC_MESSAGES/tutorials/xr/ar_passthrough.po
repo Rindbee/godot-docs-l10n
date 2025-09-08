@@ -13,3 +13,11 @@ msgstr ""
 
 msgid "Description"
 msgstr "Описание"
+
+msgid "Putting it together"
+msgstr "Собираем всё вместе"
+
+msgid "Putting the above together we can use the following code as a base:"
+msgstr ""
+"Объединяя все вышесказанное, мы можем использовать следующий код в качестве "
+"основы:"

@@ -17,6 +17,9 @@ msgstr "변경"
 msgid "Animation"
 msgstr "애니메이션"
 
+msgid "**Node3D**"
+msgstr "**Node3D**"
+
 msgid "Physics"
 msgstr "물리"
 
@@ -24,7 +27,7 @@ msgid "Rendering"
 msgstr "렌더링"
 
 msgid "Navigation"
-msgstr "네비게이션"
+msgstr "내비게이션"
 
 msgid "Networking"
 msgstr "네트워킹"

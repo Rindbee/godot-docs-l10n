@@ -43,6 +43,14 @@ msgstr "MP3 192 Kb/s, 스테레오"
 msgid "Ogg Vorbis 128 Kb/s, stereo"
 msgstr "Ogg Vorbis 128 Kb/s, 스테레오"
 
+msgid ""
+"Import options in the Import dock after selecting an MP3 file in the "
+"FileSystem dock"
+msgstr "파일시스템 독에서 MP3 파일을 선택한 후 가져오기 독에서 가져오기 옵션"
+
+msgid "Import options (WAV)"
+msgstr "가져오기 옵션 (WAV)"
+
 msgid "Edit > Trim"
 msgstr "편집 > 다듬기"
 

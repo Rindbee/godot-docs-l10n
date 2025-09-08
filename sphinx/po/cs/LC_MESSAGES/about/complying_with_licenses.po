@@ -131,6 +131,9 @@ msgstr ":ref:`Engine.get_license_info<class_Engine_method_get_license_info>`"
 msgid ":ref:`Engine.get_copyright_info<class_Engine_method_get_copyright_info>`"
 msgstr ":ref:`Engine.get_copyright_info<class_Engine_method_get_copyright_info>`"
 
+msgid "Third-party licenses"
+msgstr "Licence třetích stran"
+
 msgid ""
 "Godot itself contains software written by `third parties <https://github.com/"
 "godotengine/godot/blob/master/thirdparty/README.md>`_, which is compatible "

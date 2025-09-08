@@ -14,11 +14,60 @@ msgstr ""
 msgid "Engine"
 msgstr "엔진"
 
+msgid "Static Methods"
+msgstr "정적 메서드"
+
+msgid "Create a new Engine instance with the given configuration."
+msgstr "주어진 구성으로 새 엔진 인스턴스를 만듭니다."
+
+msgid "Arguments"
+msgstr "인수"
+
+msgid "The initial config for this instance."
+msgstr "이 인스턴스에 대한 초기 구성입니다."
+
+msgid "**Static Methods**"
+msgstr "**정적 메서드**"
+
+msgid "Load the engine from the specified base path."
+msgstr "지정된 기본 경로에서 엔진을 불러옵니다."
+
+msgid "Base path of the engine to load."
+msgstr "불러올 엔진의 기본 경로입니다."
+
+msgid "Returns"
+msgstr "반환"
+
+msgid "A Promise that resolves once the engine is loaded."
+msgstr "엔진이 불러오면 해결되는 약속입니다."
+
+msgid "Return type"
+msgstr "반환 유형"
+
+msgid "Unload the engine to free memory."
+msgstr "엔진을 언로드하여 메모리를 확보합니다."
+
+msgid ""
+"This method will be called automatically depending on the configuration. "
+"See :js:attr:`unloadAfterInit`."
+msgstr ""
+"이 메서드는 구성에 따라 자동으로 호출됩니다. :js:attr:`unloadAfterInit`\\ 를 "
+"참조하세요."
+
+msgid "The file to preload."
+msgstr "미리 불러올 파일."
+
+msgid "The content of the file."
+msgstr "파일의 내용입니다."
+
 msgid "Engine configuration"
 msgstr "엔진 구성"
 
+msgid "Properties"
+msgstr "속성"
+
 msgid "type"
-msgstr "타입"
+msgstr "유형"
 
 msgid "string"
 msgstr "문자열"

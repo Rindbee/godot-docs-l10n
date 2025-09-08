@@ -53,32 +53,144 @@ msgstr "|✔️ with compat|"
 msgid "|❌|"
 msgstr "|❌|"
 
+msgid "**OS**"
+msgstr "**OS**"
+
+msgid "`GH-94434`_"
+msgstr "`GH-94434`_"
+
+msgid ""
+"Method ``read_string_from_stdin`` adds a new ``buffer_size`` parameter [#f1]_"
+msgstr "``read_string_from_stdin`` 方法添加了 ``buffer_size`` 参数 [#f1]_"
+
+msgid "`GH-91201`_"
+msgstr "`GH-91201`_"
+
+msgid "**RegEx**"
+msgstr "**RegEx**"
+
+msgid "`GH-95212`_"
+msgstr "`GH-95212`_"
+
+msgid "**Semaphore**"
+msgstr "**Semaphore**"
+
+msgid "`GH-93605`_"
+msgstr "`GH-93605`_"
+
+msgid "**TranslationServer**"
+msgstr "**TranslationServer**"
+
+msgid "`GH-98972`_"
+msgstr "`GH-98972`_"
+
+msgid "Default buffer size in 4.3 is ``1024``."
+msgstr "4.3 版本默认缓冲区大小为 ``1024``\\ 。"
+
 msgid "GUI nodes"
 msgstr "GUI 节点"
 
 msgid "**RichTextLabel**"
 msgstr "**RichTextLabel**"
 
+msgid "`GH-99481`_"
+msgstr "`GH-99481`_"
+
+msgid "`GH-101482`_"
+msgstr "`GH-101482`_"
+
 msgid "**GraphEdit**"
 msgstr "**GraphEdit**"
+
+msgid "`GH-97449`_"
+msgstr "`GH-97449`_"
+
+msgid "`GH-102796`_"
+msgstr "`GH-102796`_"
 
 msgid "Physics"
 msgstr "物理"
 
+msgid "**SoftBody3D**"
+msgstr "**SoftBody3D**"
+
+msgid "Method ``set_point_pinned`` adds a new ``insert_at`` optional parameter"
+msgstr "``set_point_pinned`` 方法增加了一个新的 ``insert_at`` 可选参数"
+
+msgid "`GH-94684`_"
+msgstr "`GH-94684`_"
+
 msgid "Rendering"
 msgstr "渲染"
+
+msgid "**CPUParticles2D**"
+msgstr "**CPUParticles2D**"
+
+msgid "Method ``restart`` adds a new ``keep_seed`` optional parameter"
+msgstr "方法 ``restart`` 添加了一个新的 ``keep_seed`` 可选参数"
+
+msgid "`GH-92089`_"
+msgstr "`GH-92089`_"
+
+msgid "**CPUParticles3D**"
+msgstr "**CPUParticles3D**"
+
+msgid "**GPUParticles2D**"
+msgstr "**GPUParticles2D**"
+
+msgid "**GPUParticles3D**"
+msgstr "**GPUParticles3D**"
 
 msgid "**RenderingDevice**"
 msgstr "**RenderingDevice**"
 
+msgid "Method ``draw_list_begin`` adds a new ``breadcrumb`` optional parameter"
+msgstr "方法 ``draw_list_begin`` 添加了新的 ``breadcrumb`` 可选参数"
+
+msgid "`GH-90993`_"
+msgstr "`GH-90993`_"
+
+msgid "Method ``draw_list_begin`` removes many parameters"
+msgstr "``draw_list_begin`` 方法移除了许多参数"
+
+msgid "`GH-98670`_"
+msgstr "`GH-98670`_"
+
+msgid ""
+"Method ``index_buffer_create`` adds a new ``enable_device_address`` optional "
+"parameter"
+msgstr ""
+"``index_buffer_create`` 方法增加了新的 ``enable_device_address`` 可选参数"
+
+msgid "`GH-100062`_"
+msgstr "`GH-100062`_"
+
 msgid "**RenderingServer**"
 msgstr "**RenderingServer**"
+
+msgid "`GH-99455`_"
+msgstr "`GH-99455`_"
+
+msgid "**Shader**"
+msgstr "**Shader**"
+
+msgid "`GH-95126`_"
+msgstr "`GH-95126`_"
+
+msgid "**VisualShaderNodeCubemap**"
+msgstr "**VisualShaderNodeCubemap**"
+
+msgid "**VisualShaderNodeTexture2DArray**"
+msgstr "**VisualShaderNodeTexture2DArray**"
 
 msgid "Navigation"
 msgstr "导航"
 
 msgid "**NavigationServer2D**"
 msgstr "**NavigationServer2D**"
+
+msgid "`GH-100129`_"
+msgstr "`GH-100129`_"
 
 msgid "**NavigationServer3D**"
 msgstr "**NavigationServer3D**"
@@ -88,6 +200,15 @@ msgstr "编辑器插件"
 
 msgid "**EditorInterface**"
 msgstr "**EditorInterface**"
+
+msgid "`GH-90057`_"
+msgstr "`GH-90057`_"
+
+msgid "`GH-94323`_"
+msgstr "`GH-94323`_"
+
+msgid "**EditorSceneFormatImporter**"
+msgstr "**EditorSceneFormatImporter**"
 
 msgid "Behavior changes"
 msgstr "行为更改"

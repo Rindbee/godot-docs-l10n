@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Localization using spreadsheets"
+msgstr "스프레드시트를 사용한 현지화"
+
 msgid "Formatting"
 msgstr "서식(Formatting)"
 

@@ -228,8 +228,29 @@ msgstr "用于绑定被读取为浮点数的立方体贴图的采样器类型。
 msgid "**samplerCubeArray**"
 msgstr "**samplerCubeArray**"
 
+msgid ""
+"Sampler type for binding Cubemap arrays, which are read as float. Only "
+"supported in Forward+ and Mobile, not Compatibility."
+msgstr ""
+"用于绑定被读取为浮点数的立方体贴图数组的采样器类型。仅在 Forward+ 和移动中支"
+"持，兼容不支持。"
+
+msgid "**samplerExternalOES**"
+msgstr "**samplerExternalOES**"
+
+msgid ""
+"External sampler type. Only supported in Compatibility/Android platform."
+msgstr "外部采样器类型。仅在兼容/ Android 平台中支持。"
+
 msgid "Comments"
 msgstr "注释"
+
+msgid ""
+"The shading language supports the same comment syntax as used in C# and C++, "
+"using ``//`` for single-line comments and ``/* */`` for multi-line comments:"
+msgstr ""
+"着色语言支持与 C# 和 C++ 相同的注释语法，使用 ``//`` 进行单行注释和 ``/* */"
+"`` 进行多行注释："
 
 msgid ""
 "Additionally, you can use documentation comments that are displayed in the "
@@ -282,6 +303,16 @@ msgid ""
 msgstr ""
 "向量类型的单个标量成员可通过“x”、“y”、“z”和“w”成员访问。或者，使"
 "用“r”、“g”、“b”和“a”也行且效果相同。使用最适合你需求的方式。"
+
+msgid ""
+"For matrices, use the ``m[column][row]`` indexing syntax to access each "
+"scalar, or ``m[column]`` to access a vector by column index. For example, "
+"for accessing the y-component of the translation from a mat4 transform "
+"matrix (4th column, 2nd line) you use ``m[3][1]`` or ``m[3].y``."
+msgstr ""
+"对于矩阵，使用 ``m[column][row]`` 索引语法来访问每个标量，或使用 "
+"``m[column]`` 按列索引来访问一个向量。例如，要从 mat4 变换矩阵中访问它的 y 分"
+"量（第 4 列，第 2 行），可使用 ``m[3][1]`` 或 ``m[3].y``\\ 。"
 
 msgid "Constructing"
 msgstr "构造"
@@ -397,6 +428,18 @@ msgstr ""
 
 msgid "Global arrays"
 msgstr "全局数组"
+
+msgid ""
+"You can declare arrays in global space as either ``const`` or ``uniform``:"
+msgstr "你可以在全局作用域中将数组声明为 ``const`` 或 ``uniform``\\："
+
+msgid ""
+"Global arrays use the same syntax as local arrays, except with a ``const`` "
+"or ``uniform`` added to their declaration. Note that uniform arrays can't "
+"have a default value."
+msgstr ""
+"全局数组的语法与局部数组相同，只是在声明时需要添加 ``const`` 或 "
+"``uniform``\\。注意，uniform 数组不能有默认值。"
 
 msgid "Constants"
 msgstr "常量"
@@ -676,6 +719,14 @@ msgid "Discarding"
 msgstr "丢弃"
 
 msgid ""
+"Fragment, light, and custom functions (called from fragment or light) can "
+"use the ``discard`` keyword. If used, the fragment is discarded and nothing "
+"is written."
+msgstr ""
+"片段函数、光照函数以及自定义函数（从片段或光照中调用）可使用 ``discard`` 关键"
+"字。若使用该关键字，则丢弃当前片段且不写入任何数据。"
+
+msgid ""
 "Beware that ``discard`` has a performance cost when used, as it will prevent "
 "the depth prepass from being effective on any surfaces using the shader. "
 "Also, a discarded pixel still needs to be rendered in the vertex shader, "
@@ -792,6 +843,16 @@ msgstr "该值以透视校正方式进行插值。这是默认值。"
 msgid "Uniforms"
 msgstr "Uniform"
 
+msgid "Uniform hints"
+msgstr "Uniform 提示"
+
+msgid ""
+"Godot provides optional uniform hints to make the compiler understand what "
+"the uniform is used for, and how the editor should allow users to modify it."
+msgstr ""
+"Godot 提供了可选的 uniform 提示，用于让编译器理解 uniform 的用途，以及编辑器"
+"应如何允许用户修改它。"
+
 msgid "Uniforms can also be assigned default values:"
 msgstr "Uniform 也可以分配默认值："
 
@@ -799,6 +860,9 @@ msgid ""
 "Note that when adding a default value and a hint, the default value goes "
 "after the hint."
 msgstr "请注意，同时添加默认值和提示时，默认值应该写在提示的后面。"
+
+msgid "Full list of uniform hints below:"
+msgstr "以下是完整的提示列表："
 
 msgid "Hint"
 msgstr "提示"

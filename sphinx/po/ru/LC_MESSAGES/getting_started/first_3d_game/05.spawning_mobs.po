@@ -56,14 +56,6 @@ msgstr ""
 "Если у вас все еще открыт *Список действий*, переключитесь на вкладку "
 "*General*."
 
-msgid ""
-"In the left menu, navigate down to *Display -> Window*. On the right, set "
-"the *Width* to ``720`` and the *Height* to ``540``."
-msgstr ""
-"В левом меню перейдите вниз к *Дисплей -> Окно*. Справа установите значение "
-"*Ширина окна просмотра* на ``720`` и значение *Высота окна просмотра* на "
-"``540``."
-
 msgid "|image2|"
 msgstr "|image2|"
 

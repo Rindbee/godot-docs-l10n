@@ -202,8 +202,48 @@ msgstr "Почніть з експортованого проєкту iOS (ви�
 msgid "In Finder, drag the Godot project folder into the Xcode file browser."
 msgstr "У Finder перетягніть папку проєкту Godot у браузер файлів Xcode."
 
+msgid ""
+"In the dialog, make sure to select Action: **Reference files in place** and "
+"Groups: **Create folders**. Uncheck Targets: **exported_xcode_project_name**."
+msgstr ""
+"У діалоговому вікні обов’язково виберіть Дія: **Файли посилання на місці** "
+"та Групи: **Створити папки**. Зніміть позначку з Цілі: "
+"**експортовано_назва_проєкту_xcode**."
+
 msgid "See the **godot_project_to_export** folder in the Xcode file browser."
 msgstr "Дивіться папку **godot_project_to_export** в браузері файлів Xcode."
+
+msgid ""
+"Select the godot project in the Project navigator. Then on the other side of "
+"the XCode window, in the File Inspector, make these selections:"
+msgstr ""
+"Виберіть проект godot у навігаторі проектів. Потім, з іншого боку вікна "
+"XCode, в Інспекторі файлів, зробіть такі вибірки:"
+
+msgid "**Location**: Relative to Project"
+msgstr "**Розташування**: Відносно до проекту"
+
+msgid "**Build Rules**: Apply Once to Folder"
+msgstr "**Правила побудови**: Застосувати один раз до папки"
+
+msgid "add your project to **Target Membership**"
+msgstr "додайте свій проєкт до **Target Membership**"
+
+msgid ""
+"Delete **exported_xcode_project_name.pck** from the Xcode project in the "
+"project navigator."
+msgstr ""
+"Видаліть **exported_xcode_project_name.pck** з проекту Xcode в навігаторі "
+"проектів."
+
+msgid ""
+"8. Open **exported_xcode_project_name-Info.plist** and add a string property "
+"named **godot_path** (this is the real key name) with a value "
+"**godot_project_to_export** (this is the name of your project)"
+msgstr ""
+"8. Відкрийте **exported_xcode_project_name-Info.plist** та додайте рядкову "
+"властивість з назвою **godot_path** (це справжня назва ключа) зі значенням "
+"**godot_project_to_export** (це назва вашого проекту)"
 
 msgid ""
 "That's it! You can now edit your project in the Godot editor and build it in "
@@ -309,3 +349,10 @@ msgstr "Після виконання цієї команди Godot зможе �
 
 msgid "Export options"
 msgstr "Параметри експортування"
+
+msgid ""
+"You can find a full list of export options available in "
+"the :ref:`class_EditorExportPlatformIOS` class reference."
+msgstr ""
+"Повний список доступних опцій експорту можна знайти в довіднику "
+"класу :ref:`class_EditorExportPlatformIOS`."

@@ -248,7 +248,7 @@ msgid ":ref:`doc_creating_movies`"
 msgstr ":ref:`doc_creating_movies`"
 
 msgid "Assets pipeline"
-msgstr "Assets pipeline"
+msgstr "Pipeline de activos"
 
 msgid ":ref:`doc_retargeting_3d_skeletons`"
 msgstr ":ref:`doc_retargeting_3d_skeletons`"

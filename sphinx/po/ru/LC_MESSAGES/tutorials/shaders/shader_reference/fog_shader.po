@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Fog shaders"
+msgstr "Шейдеры тумана"
+
 msgid "Built-ins"
 msgstr "Встроенные функции"
 
@@ -29,3 +32,31 @@ msgid ""
 msgstr ""
 "Константа ``TAU`` (``6.283185``). Эквивалент ``PI * 2`` и количество "
 "радианов в полном обороте."
+
+msgid "in float **E**"
+msgstr "В float **E**"
+
+msgid "Fog built-ins"
+msgstr "Встроенные противотуманные фары"
+
+msgid "in vec3 **WORLD_POSITION**"
+msgstr "in vec3 **WORLD_POSITION**"
+
+msgid "in vec3 **OBJECT_POSITION**"
+msgstr "in vec3 **OBJECT_POSITION**"
+
+msgid "in vec3 **UVW**"
+msgstr "in vec3 **UVW**"
+
+msgid ""
+"3-dimensional UV, used to map a 3D texture to the current :ref:`FogVolume "
+"<class_FogVolume>`."
+msgstr ""
+"3-мерный UV, используемый для наложения 3D-текстуры на "
+"текущий :ref:`FogVolume <class_FogVolume>`."
+
+msgid "in vec3 **SIZE**"
+msgstr "in vec3 **SIZE**"
+
+msgid "in vec3 **SDF**"
+msgstr "in vec3 **SDF**"

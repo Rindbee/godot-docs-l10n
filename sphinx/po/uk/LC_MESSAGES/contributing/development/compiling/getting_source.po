@@ -82,6 +82,13 @@ msgstr ""
 "завантаження на сторінці."
 
 msgid ""
+"With ``git``, you can also clone a stable release by specifying its branch "
+"or tag after the ``--branch`` (or just ``-b``) argument:"
+msgstr ""
+"За допомогою ``git`` ви також можете клонувати стабільний реліз, вказавши "
+"його гілку або тег після аргументу ``--branch`` (або просто ``-b``):"
+
+msgid ""
 "The `maintenance branches <https://github.com/godotengine/godot/branches/"
 "all>`__ are used to release further patches on each minor version."
 msgstr ""

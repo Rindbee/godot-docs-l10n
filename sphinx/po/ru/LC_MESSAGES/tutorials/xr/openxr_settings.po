@@ -13,3 +13,9 @@ msgstr ""
 
 msgid "Enabled"
 msgstr "Enabled"
+
+msgid "Allow analog threshold binding modifiers."
+msgstr "Разрешить модификаторы привязки аналоговых порогов."
+
+msgid "Dpad Binding"
+msgstr "Привязка Dpad"

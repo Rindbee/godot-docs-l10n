@@ -36,6 +36,9 @@ msgstr "OpenJDK 11 설치"
 msgid "Installing Android Studio"
 msgstr "Android Studio 설치"
 
+msgid "Configuring the location of the Android SDK in Godot"
+msgstr "Godot에서 Android SDK의 위치 구성하기"
+
 msgid ""
 "See :ref:`doc_exporting_for_android` for the full details, and return here "
 "when you've finished these steps."

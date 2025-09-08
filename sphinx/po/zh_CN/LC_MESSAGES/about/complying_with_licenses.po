@@ -73,6 +73,9 @@ msgid ""
 msgstr ""
 "对于 MIT 许可证，唯一的要求是将许可证文本包含在你的游戏或衍生项目的某处。"
 
+msgid "This text reads as follows:"
+msgstr "文本内容如下："
+
 msgid ""
 "Beside its own MIT license, Godot includes code from a number of third-party "
 "libraries. See :ref:`doc_complying_with_licenses_thirdparty` for details."

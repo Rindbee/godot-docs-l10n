@@ -305,29 +305,23 @@ msgstr ""
 "полом. Для этого мы можем использовать функцию тегов Godot :ref:`group "
 "<doc_groups>`."
 
-msgid ""
-"Open the scene ``mob.tscn`` again and select the *Mob* node. Go to the "
-"*Node* dock on the right to see a list of signals. The *Node* dock has two "
-"tabs: *Signals*, which you've already used, and *Groups*, which allows you "
-"to assign tags to nodes."
-msgstr ""
-"Снова откройте сцену ``mob.tscn`` и выберите узел *Mob*. Перейдите в панель "
-"*Узел* справа, чтобы увидеть список сигналов. В панели *Узел* есть две "
-"вкладки: *Сигналы*, которую вы уже использовали, и *Группы*, которая "
-"позволяет присваивать узлам теги."
-
-msgid ""
-"Click on it to reveal a field where you can write a tag name. Enter \"mob\" "
-"in the field and click the *Add* button."
-msgstr ""
-"Щёлкните по нему, чтобы открыть поле, в котором можно написать имя тега. "
-"Введите в поле \"mob\" и нажмите кнопку *Добавить новую группу*."
-
 msgid "|image7|"
 msgstr "|image7|"
 
 msgid "image7"
 msgstr "изображение7"
+
+msgid "|image8|"
+msgstr "|image8|"
+
+msgid "image8"
+msgstr "изображение8"
+
+msgid "|image9|"
+msgstr "|image9|"
+
+msgid "image9"
+msgstr "изображение9"
 
 msgid ""
 "An icon appears in the *Scene* dock to indicate the node is part of at least "
@@ -336,11 +330,11 @@ msgstr ""
 "В панели *Сцена* появится иконка, указывающая на то, что узел является "
 "частью по крайней мере одной группы."
 
-msgid "|image8|"
-msgstr "|image8|"
+msgid "|image10|"
+msgstr "|image10|"
 
-msgid "image8"
-msgstr "изображение8"
+msgid "image10"
+msgstr "изображение10"
 
 msgid ""
 "We can now use the group from the code to distinguish collisions with "

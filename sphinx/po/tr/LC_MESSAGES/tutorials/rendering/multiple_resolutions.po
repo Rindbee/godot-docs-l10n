@@ -29,10 +29,3 @@ msgstr "Oyun-olmayan uygulama"
 
 msgid "hiDPI support"
 msgstr "hiDPI desteği"
-
-msgid ""
-"See the `3D viewport scaling demo <https://github.com/godotengine/godot-demo-"
-"projects/tree/master/viewport/3d_scaling>`__ for examples."
-msgstr ""
-"Örnekler için `3B çerçeve ölçekleme demosu <https://github.com/godotengine/"
-"godot-demo-projects/tree/master/viewport/3d_scaling>`__ 'na bakın."

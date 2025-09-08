@@ -13,3 +13,6 @@ msgstr ""
 
 msgid "Xcode"
 msgstr "XCode"
+
+msgid "Arguments"
+msgstr "인수"

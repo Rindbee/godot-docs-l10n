@@ -16,3 +16,6 @@ msgstr "소개"
 
 msgid "Setup"
 msgstr "설정"
+
+msgid "Creating the skeleton"
+msgstr "스켈레톤 만들기"

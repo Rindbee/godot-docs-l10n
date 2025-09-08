@@ -40,3 +40,10 @@ msgstr ""
 
 msgid "Uniforms"
 msgstr "Uniform-переменные"
+
+msgid ""
+"First, we will add an :ref:`OmniLight3D<class_OmniLight3D>` to the scene, "
+"and drag it up so it is above the terrain."
+msgstr ""
+"Сначала мы добавим :ref:`OmniLight3D<class_OmniLight3D>` к сцене и перетащим "
+"его так, чтобы он оказался над ландшафтом."

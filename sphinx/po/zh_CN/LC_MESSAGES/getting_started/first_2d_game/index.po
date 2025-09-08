@@ -100,6 +100,11 @@ msgid "Prerequisites"
 msgstr "前置需求"
 
 msgid ""
+"This step-by-step tutorial is intended for beginners who followed the "
+"complete :ref:`doc_step_by_step`."
+msgstr "这个分步教程是为那些已完成 :ref:`doc_step_by_step` 的初学者准备的。"
+
+msgid ""
 "If you're an experienced programmer, you can find the complete demo's source "
 "code here: `Dodge the Creeps source code <https://github.com/godotengine/"
 "godot-demo-projects/tree/master/2d/dodge_the_creeps>`__."

@@ -49,7 +49,7 @@ msgid ""
 "When you add the ``Area2D`` node, Godot will display the following **warning "
 "icon** next to it in the scene tree:"
 msgstr ""
-"Cuando agrega el nodo ``Area2D``, Godot mostrará el siguiente **ícono de "
+"Cuando agrega el nodo ``Area2D``, Godot mostrará el siguiente **icono de "
 "advertencia** junto a él en el árbol de escena:"
 
 msgid ""

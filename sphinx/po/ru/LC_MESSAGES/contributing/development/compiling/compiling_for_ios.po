@@ -14,6 +14,12 @@ msgstr ""
 msgid "Requirements"
 msgstr "Требования"
 
+msgid "`Python 3.8+ <https://www.python.org/downloads/macos/>`_."
+msgstr "`Python 3.8+ <https://www.python.org/downloads/macos/>`_."
+
+msgid "`SCons 4.0+ <https://scons.org/pages/download.html>`_ build system."
+msgstr "`SCons 4.0+ <https://scons.org/pages/download.html>`_ система сборки."
+
 msgid ""
 "For a general overview of SCons usage for Godot, "
 "see :ref:`doc_introduction_to_the_buildsystem`."

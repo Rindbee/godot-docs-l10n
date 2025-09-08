@@ -11,5 +11,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "What is GDExtension?"
+msgstr "Qu'est-ce que GDExtension ?"
+
 msgid "Version compatibility"
 msgstr "Compatibilité des versions"

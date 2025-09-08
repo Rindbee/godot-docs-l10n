@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ParticleProcessMaterial properties"
+msgstr "Propriétés de ParticleProcessMaterial"
+
 msgid "Angle"
 msgstr "Angle"
 
@@ -147,11 +150,17 @@ msgstr "Mode mise à l'échelle"
 msgid "Determines the initial scale of the particles."
 msgstr "Détermine l’échelle initiale des particules."
 
+msgid "Color Curves"
+msgstr "Courbes de couleur"
+
 msgid "Color"
 msgstr "Couleur"
 
 msgid "Used to change the color of the particles being emitted."
 msgstr "Utilisé pour changer la couleur des particules émises."
+
+msgid "Hue Variation"
+msgstr "Variation de teinte"
 
 msgid ""
 "The ``Variation`` value sets the initial hue variation applied to each "

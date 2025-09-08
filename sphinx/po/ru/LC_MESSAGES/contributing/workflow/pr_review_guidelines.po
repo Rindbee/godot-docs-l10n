@@ -11,6 +11,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Pull request review process"
+msgstr "Процесс проверки запроса на извлечение"
+
+msgid "Code review and testing"
+msgstr "Проверка кода и тестирование"
+
 msgid ""
 "Code reviews are usually done by people who are already experienced in a "
 "given area. They may be able to provide ideas to make code faster, more "
@@ -33,3 +39,18 @@ msgstr ""
 "лучше ознакомиться с данной частью кода и увидеть, как другие решают задачи. "
 "На самом деле, рецензирование кода опытных поддерживающих движок "
 "специалистов — отличный способ познакомиться с кодовой базой."
+
+msgid "**Expanding the scope of a pull request.**"
+msgstr "**Расширение области действия запроса на извлечение.**"
+
+msgid "5. Approve the pull request"
+msgstr "5. Одобрите запрос на извлечение"
+
+msgid "Code style review"
+msgstr "Обзор стиля кода"
+
+msgid "Merging pull requests"
+msgstr "Объединение запросов на извлечение"
+
+msgid "5. Merge the pull request"
+msgstr "5. Объедините запрос на извлечение"

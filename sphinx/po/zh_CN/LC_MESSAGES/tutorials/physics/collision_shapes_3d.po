@@ -170,6 +170,13 @@ msgstr ""
 "生成一个凹形碰撞形状。编辑器提供了两个选项："
 
 msgid ""
+"**Create Trimesh Static Body** is a convenient option. It creates a "
+"StaticBody containing a concave shape matching the mesh's geometry."
+msgstr ""
+"创建三角网格网格静态体是个方便的选择. 它创建一个包含与网格几何学匹配的凹形的"
+"静态体."
+
+msgid ""
 "See :ref:`doc_importing_3d_scenes` for information on how to export models "
 "for Godot and automatically generate collision shapes on import."
 msgstr ""

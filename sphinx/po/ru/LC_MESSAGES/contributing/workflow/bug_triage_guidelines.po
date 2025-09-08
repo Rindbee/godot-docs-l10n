@@ -21,6 +21,9 @@ msgstr ""
 "В настоящее время в репозитории Godot определены следующие метки <https://"
 "github.com/godotengine/godot/labels>`__:"
 
+msgid "Categories:"
+msgstr "Категории:"
+
 msgid ""
 "*Confirmed*: has been confirmed by at least one other contributor than the "
 "bug reporter (typically for *Bug* reports). The purpose of this label is to "
@@ -38,6 +41,12 @@ msgstr ""
 "коммите Godot проблема может быть воспроизведена; если разработчик посмотрит "
 "на проблему год спустя, метка *Confirmed* может быть уже неактуальной."
 
+msgid "Topics:"
+msgstr "Темы:"
+
+msgid "*Animation*: relates to the Animation system, editors and importers."
+msgstr "*Animation*: относится к системе анимации, редакторам и импортерам."
+
 msgid "*Assetlib*: relates to issues with the asset library."
 msgstr "*Assetlib*: относится к проблемам с библиотекой активов."
 
@@ -48,13 +57,39 @@ msgstr ""
 "*Buildsystem*: относится к вопросам сборки, связанным либо с системой сборки "
 "SCons, либо с особенностями компилятора."
 
+msgid ""
+"*Core*: anything related to the core engine. Specific topics are split off "
+"separately as they crop up."
+msgstr ""
+"*Core*: всё, что связано с ядром движка. Конкретные темы рассматриваются "
+"отдельно по мере их возникновения."
+
 msgid "*Editor*: relates to issues in the editor (mainly UI)."
 msgstr ""
 "*Editor*: относится к проблемам в редакторе (в основном к пользовательскому "
 "интерфейсу)."
 
+msgid "*Export*: relates to the export system and templates."
+msgstr "*Export*: относится к системе экспорта и шаблонам."
+
 msgid "*GDScript*: relates to GDScript."
 msgstr "*GDScript*: относится к GDScript."
+
+msgid ""
+"*GUI*: relates to GUI (Control) nodes or to Nodes that compose user "
+"interfaces."
+msgstr ""
+"*GUI*: относится к узлам GUI (управления) или к узлам, составляющим "
+"пользовательские интерфейсы."
+
+msgid "*Input*: relates to the input system."
+msgstr "*Input*: относится к системе ввода."
+
+msgid "*I18n*: relates to internationalization."
+msgstr "*I18n*: относится к интернационализации."
+
+msgid "*Particles*: particles, particle systems and their editors."
+msgstr "*Particles*: частицы, системы частиц и их редакторы."
 
 msgid "*Physics*: relates to the physics engine (2D/3D)."
 msgstr "*Physics*: относится к физическому движку (2D/3D)."
@@ -76,6 +111,9 @@ msgstr ""
 "за всеми темами будут стоять специализированные команды авторов, и они "
 "смогут сосредоточиться на вопросах, помеченных темой их команды."
 
+msgid "Platforms:"
+msgstr "Платформы:"
+
 msgid ""
 "By default, it is assumed that a given issue applies to all platforms. If "
 "one of the platform labels is used, it is then exclusive and the previous "
@@ -88,5 +126,21 @@ msgstr ""
 "это ошибка, например, только для Android и Linux, выберите эти две "
 "платформы)."
 
+msgid "Area:"
+msgstr "Area (Область):"
+
+msgid "Content:"
+msgstr "Содержание:"
+
+msgid "Topic:"
+msgstr "Тема:"
+
 msgid "Milestones"
 msgstr "Основные этапы"
+
+msgid ""
+"`Milestones <https://github.com/godotengine/godot/milestones>`_ are used for "
+"some issues and all PRs."
+msgstr ""
+"`Milestones <https://github.com/godotengine/godot/milestones>`_ используются "
+"для некоторых проблем и всех PR-ов."

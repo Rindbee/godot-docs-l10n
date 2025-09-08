@@ -44,16 +44,6 @@ msgstr ""
 "XR Tools an loighic atá ag teastáil isteach i nód cabhrach ar a dtugtar "
 "``PlayerBody``."
 
-msgid ""
-"Select your :ref:`XROrigin3D <class_xrorigin3d>` node and click on the "
-"``instantiate Child Scene`` button to add a child scene. Select ``addons/"
-"godot-xr-tools/player/player_body.tscn`` and add this node."
-msgstr ""
-"Roghnaigh do nód :ref:`XROrigin3D <class_xrorigin3d>` agus cliceáil ar an "
-"gcnaipe ``Instantiate Child Scene`` chun radharc linbh a chur leis. "
-"Roghnaigh ``addons/godot-xr-tools/player/player_body.tscn`` agus cuir an nód "
-"seo leis."
-
 msgid "Adding a floor"
 msgstr "Urlár a chur leis"
 

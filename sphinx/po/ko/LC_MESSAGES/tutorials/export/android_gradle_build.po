@@ -14,6 +14,12 @@ msgstr ""
 msgid "There are some reasons why you may want to do this:"
 msgstr "이렇게 하고 싶어하는 몇 가지 이유가 있습니다:"
 
+msgid "Set up the gradle build environment"
+msgstr "Gradle 빌드 환경 설정하기"
+
+msgid "Go to the Project menu, and install the *Gradle Build* template:"
+msgstr "프로젝트 메뉴로 이동하고 *Gradle 빌드* 템플릿을 설치합니다:"
+
 msgid ""
 "When setting up the Android project in the **Project > Export** dialog, "
 "**Gradle Build** needs to be enabled:"

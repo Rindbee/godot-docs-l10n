@@ -650,7 +650,7 @@ msgid "`GH-81070`_"
 msgstr "`GH-81070`_"
 
 msgid "XR"
-msgstr "ИКСР"
+msgstr "XR"
 
 msgid "**XRInterface**"
 msgstr "**XRIінтерфейс**"

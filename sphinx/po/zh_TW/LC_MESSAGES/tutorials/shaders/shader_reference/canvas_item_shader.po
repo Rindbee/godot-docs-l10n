@@ -442,9 +442,6 @@ msgstr "鏡面光澤顏色，從紋理取樣。"
 msgid "in vec2 **UV**"
 msgstr "in vec2 **UV**"
 
-msgid "UV from the ``vertex()`` function."
-msgstr "來自頂點功能的UV."
-
 msgid "in vec2 **SCREEN_UV**"
 msgstr "in vec2 **SCREEN_UV**"
 

@@ -14,6 +14,14 @@ msgstr ""
 msgid "Getting started"
 msgstr "入门"
 
+msgid ""
+"Create builds for all platforms you want to support (e.g. using `GitHub "
+"Actions <https://github.com/godotengine/godot-cpp-template/blob/main/.github/"
+"workflows/builds.yml>`__)."
+msgstr ""
+"为你想要支持的所有平台创建构建（例如使用 `GitHub Actions <https://github.com/"
+"godotengine/godot-cpp-template/blob/main/.github/workflows/builds.yml>`__）。"
+
 msgid "Example project"
 msgstr "示例项目"
 

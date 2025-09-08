@@ -42,15 +42,6 @@ msgstr ""
 "சிக்கிக் கொள்வீர்கள், இனி அவர்களின் அறையின் மையத்தில் நிற்க மாட்டீர்கள். கோடோட் எக்ச்ஆர் கருவிகள் "
 "தேவையான தர்க்கத்தை `` பிளேயர் பாடி`` எனப்படும் உதவி முனையில் உட்பொதிக்கின்றன."
 
-msgid ""
-"Select your :ref:`XROrigin3D <class_xrorigin3d>` node and click on the "
-"``instantiate Child Scene`` button to add a child scene. Select ``addons/"
-"godot-xr-tools/player/player_body.tscn`` and add this node."
-msgstr ""
-"உங்கள்: ref: `xrorigin3d <class_xrorigin3d>` முனை மற்றும் குழந்தை காட்சியைச் சேர்க்க "
-"`` இன்ச்டன்ட் குழந்தை காட்சியை` பொத்தானைக் சொடுக்கு செய்க. `` Addons/kodot-xr-tools/"
-"player/player_body.tscn`` ஐத் தேர்ந்தெடுத்து இந்த முனையைச் சேர்க்கவும்."
-
 msgid "Adding a floor"
 msgstr "ஒரு தளத்தைச் சேர்ப்பது"
 

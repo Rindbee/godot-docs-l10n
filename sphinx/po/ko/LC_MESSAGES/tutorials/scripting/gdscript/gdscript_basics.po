@@ -180,6 +180,9 @@ msgstr "const"
 msgid "enum"
 msgstr "enum"
 
+msgid "Defines an enum. See `Enums`_."
+msgstr "열거형을 정의합니다. `Enums`_\\ 를 참조하세요."
+
 msgid "var"
 msgstr "var"
 
@@ -192,6 +195,9 @@ msgstr "preload"
 msgid "Preloads a class or variable. See `Classes as resources`_."
 msgstr ""
 "클래스나 변수를 미리 불러옵니다. `리소스로 취급되는 클래스`_\\ 를 참고하세요."
+
+msgid "await"
+msgstr "await"
 
 msgid "yield"
 msgstr "yield"
@@ -307,6 +313,12 @@ msgstr "``3.14``, ``58.1e-10``"
 
 msgid "Floating-point number (real)"
 msgstr "부동 소수점 숫자 (실수)"
+
+msgid "Raw strings"
+msgstr "원시 문자열"
+
+msgid "Triple-quoted raw strings"
+msgstr "세 번 따옴표로 묶인 원시 문자열"
 
 msgid ":ref:`NodePath <class_NodePath>`"
 msgstr ":ref:`NodePath <class_NodePath>`"
@@ -716,15 +728,13 @@ msgid ""
 "Casting between object types results in the same object if the value is of "
 "the same type or a subtype of the cast type."
 msgstr ""
-"오브젝트 타입 간 캐스팅에서 오브젝트의 값 타입이 캐스팅할 타입과 같거나 캐스"
-"팅할 타입의 서브타입인 경우 캐스팅하면 동일한 오브젝트가 생성됩니다."
+"오브젝트 유형 간 캐스팅은 값이 캐스팅할 유형과 같거나 캐스팅할 유형의 하위 유"
+"형인 경우 캐스팅하면 동일한 오브젝트가 생성됩니다."
 
 msgid ""
 "If the value is not a subtype, the casting operation will result in a "
 "``null`` value."
-msgstr ""
-"값이 캐스팅 타입의 서브타입이 아니라면 캐스팅 연산 결과값은 ``null``\\ 이 됩"
-"니다."
+msgstr "값이 하위 유형이 아닌 경우 캐스팅 연산 결과는 ``null`` 값입니다."
 
 msgid ""
 "For built-in types, they will be forcibly converted if possible, otherwise "
@@ -803,14 +813,14 @@ msgstr ""
 "void가 아닌 함수는 **항상** 값을 반환해야 하므로 코드에 분기 문이 있는 경우"
 "(예: ``if``/``else`` 구조) 가능한 모든 경로에서 반환해야 합니다. 예를 들어, "
 "``if`` 블록 안에 ``return``\\ 이 있지만 그 이후에는 없는 경우 블록이 실행되"
-"지 않으면 함수가 반환할 유효한 값을 가지지 않기 때문에 편집기에서 오류가 발생"
+"지 않으면 함수가 반환할 올바른 값을 가지지 않기 때문에 편집기에서 오류가 발생"
 "합니다."
 
 msgid "Referencing functions"
 msgstr "함수 참조하기(Referencing functions)"
 
 msgid "Static functions"
-msgstr "정적 함수(Static functions)"
+msgstr "정적 함수"
 
 msgid "Statements and control flow"
 msgstr "명령문(Statement)과 제어 흐름(Control Flow)"
@@ -865,17 +875,26 @@ msgstr "``case``\\ 를 제거하세요."
 msgid "Change ``default`` to a single underscore."
 msgstr "``default``\\ 를 하나의 밑줄로 변경하세요."
 
+msgid "Control flow"
+msgstr "제어 흐름"
+
+msgid "Literal pattern"
+msgstr "리터럴 패턴"
+
+msgid "Expression pattern"
+msgstr "표현식 패턴"
+
 msgid "Wildcard pattern"
-msgstr "와일드카드 패턴(Wildcard pattern)"
+msgstr "와일드카드 패턴"
 
 msgid "This pattern matches everything. It's written as a single underscore."
 msgstr "이 패턴은 모든 것에 매치됩니다. 하나의 밑줄로 쓸 수 있습니다."
 
 msgid "Binding pattern"
-msgstr "바인딩 패턴(Binding pattern)"
+msgstr "바인딩 패턴"
 
 msgid "Array pattern"
-msgstr "배열 패턴(Array pattern)"
+msgstr "배열 패턴"
 
 msgid ""
 "Matches an array. Every single element of the array pattern is a pattern "
@@ -894,14 +913,14 @@ msgid ""
 "**Open-ended array**: An array can be bigger than the pattern by making the "
 "last subpattern ``..``."
 msgstr ""
-"**개방형 배열(Open-ended array)**: 배열의 마지막 서브패턴을 ``..``\\ 으로 만"
-"들어서 패턴보다 배열이 더 커질 수 있습니다."
+"**개방형 배열**: 배열의 마지막 서브패턴을 ``..``\\ 으로 만들어서 패턴보다 배"
+"열이 더 커질 수 있습니다."
 
 msgid "Every subpattern has to be comma-separated."
 msgstr "각 서브패턴은 쉼표로 구분해야 합니다."
 
 msgid "Dictionary pattern"
-msgstr "딕셔너리 패턴(Dictionary pattern)"
+msgstr "딕셔너리 패턴"
 
 msgid ""
 "Works in the same way as the array pattern. Every key has to be a constant "
@@ -920,8 +939,8 @@ msgid ""
 "**Open-ended dictionary**: A dictionary can be bigger than the pattern by "
 "making the last subpattern ``..``."
 msgstr ""
-"**개방형 딕셔너리(Open-ended dictionary)**: 딕셔너리의 마지막 서브패턴을 "
-"``..``\\ 으로 만들어서 패턴보다 딕셔너리가 더 커질 수 있습니다."
+"**개방형 딕셔너리**: 딕셔너리의 마지막 서브패턴을 ``..``\\ 으로 만들어서 패턴"
+"보다 딕셔너리가 더 커질 수 있습니다."
 
 msgid "Every subpattern has to be comma separated."
 msgstr "모든 서브패턴은 쉼표로 구분되어야 합니다."
@@ -934,7 +953,7 @@ msgid "A value pattern is separated from the key pattern with a ``:``."
 msgstr "값 패턴과 키 패턴은 ``:``\\ 로 분리됩니다."
 
 msgid "Multiple patterns"
-msgstr "다중 패턴(Multiple patterns)"
+msgstr "다중 패턴"
 
 msgid ""
 "You can also specify multiple patterns separated by a comma. These patterns "
@@ -942,6 +961,9 @@ msgid ""
 msgstr ""
 "여러 패턴을 쉼표로 구분해서 지정할 수 있습니다. 이 패턴들 사이에서 바인딩은 "
 "허용되지 않습니다."
+
+msgid "Pattern guards"
+msgstr "패턴 가드"
 
 msgid "Classes"
 msgstr "클래스"

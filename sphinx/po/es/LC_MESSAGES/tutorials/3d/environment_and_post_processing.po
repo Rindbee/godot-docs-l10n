@@ -97,7 +97,7 @@ msgid ""
 "or Compatibility.*"
 msgstr ""
 "*Esta función solo está disponible cuando se usa el renderizador Forward+, "
-"no Mobile ni Compatibilidad.*"
+"no Mobile ni Compatibility.*"
 
 msgid ""
 "A few user-controlled parameters are available to better tweak the technique:"

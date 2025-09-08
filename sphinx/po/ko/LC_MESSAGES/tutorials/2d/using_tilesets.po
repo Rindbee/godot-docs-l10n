@@ -29,6 +29,12 @@ msgstr "TileMapLayer 노드 안에 새 타일셋 리소스 만들기"
 msgid "Creating a scenes collection in the TileSet editor"
 msgstr "타일셋 편집기에서 씬 컬렉션 만들기"
 
+msgid "Creating terrain sets (autotiling)"
+msgstr "지형 세트 만들기 (자동타일링)"
+
+msgid "Creating a terrain within the terrain set"
+msgstr "지형 세트 안에 지형 만들기"
+
 msgid "Using tile property painting"
 msgstr "타일 속성 칠하기 사용하기"
 

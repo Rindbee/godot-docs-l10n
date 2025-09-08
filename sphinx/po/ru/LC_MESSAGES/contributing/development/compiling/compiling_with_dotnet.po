@@ -11,14 +11,41 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Compiling with .NET"
+msgstr "Компиляция с помощью .NET"
+
 msgid "Requirements"
 msgstr "Требования"
+
+msgid "Enable the .NET module"
+msgstr "Включить модуль .NET"
+
+msgid ""
+"By default, the .NET module is disabled when building. To enable it, add the "
+"option ``module_mono_enabled=yes`` to the SCons command line, while "
+"otherwise following the instructions for building the desired Godot binaries."
+msgstr ""
+"По умолчанию модуль .NET отключен при сборке. Чтобы включить его, добавьте "
+"параметр ``module_mono_enabled=yes`` в командную строку SCons, в остальном "
+"следуя инструкциям по сборке нужных исполняемых файлов Godot."
+
+msgid "Building the managed libraries"
+msgstr "Создание управляемых библиотек"
+
+msgid "Build Platform"
+msgstr "Платформа сборки"
+
+msgid "NuGet packages"
+msgstr "Пакеты NuGet"
 
 msgid "Examples"
 msgstr "Примеры"
 
 msgid "Example (Windows)"
 msgstr "Пример (Windows)"
+
+msgid "Example (Linux, \\*BSD)"
+msgstr "Пример (Linux, \\*BSD)"
 
 msgid "Editor"
 msgstr "Редактор"

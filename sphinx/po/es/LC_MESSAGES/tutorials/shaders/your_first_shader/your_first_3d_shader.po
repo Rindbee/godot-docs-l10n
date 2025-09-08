@@ -73,7 +73,7 @@ msgid "Setting up"
 msgstr "Configurando"
 
 msgid "This will allow you to see the triangles making up the plane."
-msgstr "Esto te permitirá ver los triángulos que componen el avión."
+msgstr "Esto te permitirá ver los triángulos que componen el plano."
 
 msgid "Shader magic"
 msgstr "Magia Shader"

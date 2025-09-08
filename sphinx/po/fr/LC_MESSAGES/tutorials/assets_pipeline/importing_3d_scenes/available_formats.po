@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Available 3D formats"
+msgstr "Formats 3D disponibles"
+
 msgid ""
 "When dealing with 3D assets, Godot has a flexible and configurable importer."
 msgstr ""
@@ -55,3 +58,10 @@ msgstr "Importer des fichiers ``.blend`` directement dans Godot"
 
 msgid "Exporting DAE files from Blender"
 msgstr "Exportation de fichiers DAE de Blender"
+
+msgid ""
+"For complex scenes or scenes that contain animations it is highly recommend "
+"to use glTF instead."
+msgstr ""
+"Pour des scènes complexes ou des scènes qui contiennent des animations, il "
+"est fortement recommandé d'utiliser du glTF à la place."

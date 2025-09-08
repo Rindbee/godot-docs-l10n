@@ -162,7 +162,7 @@ msgstr ""
 "``Mob`` en el Inspector bajo \"Script Variables\"."
 
 msgid "You can assign this property's value in two ways:"
-msgstr "Puede asignar el valor de esta propiedad de dos maneras:"
+msgstr "Puedes asignar el valor de esta propiedad de dos maneras:"
 
 msgid ""
 "Drag ``mob.tscn`` from the \"FileSystem\" dock and drop it in the **Mob "
@@ -267,7 +267,7 @@ msgid ""
 "If you had already set another scene as the \"Main Scene\", you can right "
 "click ``main.tscn`` in the FileSystem dock and select \"Set As Main Scene\"."
 msgstr ""
-"Si ya había establecido otra escena como \"Escena Principal\", puede hacer "
+"Si ya había establecido otra escena como \"Escena Principal\", puedes hacer "
 "clic derecho a ``main.tscn`` en el dock del Sistema de Archivos y "
 "seleccionar \"Establecer Como Escena Principal\"."
 

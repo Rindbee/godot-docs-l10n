@@ -50,6 +50,12 @@ msgid "For compiling under Windows, Linux or macOS, the following is required:"
 msgstr ""
 "Для компиляции на системах Windows, Linux или macOS необходимо следующее:"
 
+msgid "`Python 3.8+ <https://www.python.org/downloads/>`_."
+msgstr "`Python 3.8+ <https://www.python.org/downloads/>`_."
+
+msgid "`SCons 4.0+ <https://scons.org/pages/download.html>`_ build system."
+msgstr "`SCons 4.0+ <https://scons.org/pages/download.html>`_ система сборки."
+
 msgid ""
 "`Android SDK <https://developer.android.com/studio/#command-tools>`_ "
 "(command-line tools are sufficient)."
@@ -98,6 +104,22 @@ msgstr ""
 
 msgid "Adding support for x86 devices"
 msgstr "Добавление поддержки систем x86"
+
+msgid "Windows: ``%APPDATA%\\Godot\\export_templates\\<version>\\``"
+msgstr "Windows: ``%APPDATA%\\Godot\\export_templates\\<version>\\``"
+
+msgid "Linux: ``$HOME/.local/share/godot/export_templates/<version>/``"
+msgstr "Linux: ``$HOME/.local/share/godot/export_templates/<version>/``"
+
+msgid ""
+"macOS: ``$HOME/Library/Application Support/Godot/export_templates/<version>/"
+"``"
+msgstr ""
+"macOS: ``$HOME/Library/Application Support/Godot/export_templates/<version>/"
+"``"
+
+msgid "Building the Godot editor"
+msgstr "Создание редактора Godot"
 
 msgid "Troubleshooting"
 msgstr "Устранение неполадок"

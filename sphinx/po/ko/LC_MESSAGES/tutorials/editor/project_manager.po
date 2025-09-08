@@ -11,6 +11,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Creating and importing projects"
+msgstr "프로젝트 만들고 가져오기"
+
+msgid "To create a new project:"
+msgstr "새 프로젝트를 만들려면:"
+
+msgid "Click the **Create** button on the top-left of the window."
+msgstr "창의 왼쪽 상단에 있는 **만들기** 버튼을 클릭하세요."
+
 msgid ""
 "Click the **Create & Edit** button to create the project folder and open it "
 "in the editor."

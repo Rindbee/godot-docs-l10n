@@ -16,3 +16,10 @@ msgstr "소개"
 
 msgid "What is a spring arm?"
 msgstr "스프링 암이 무엇입니까?"
+
+msgid ""
+"Leave the **Shape** of the spring arm as ``<empty>``. This way, it will use "
+"the camera's pyramid shape."
+msgstr ""
+"스프링 암의 **모양**\\ 을 ``<비었음>``\\ 으로 두세요. 이 방법은 카메라의 피라"
+"미드 모양을 사용합니다."

@@ -233,7 +233,7 @@ msgid "Fetches a single texel using integer coordinates."
 msgstr "Obtiene un solo texel usando coordenadas enteras."
 
 msgid "Not available when using the Compatibility renderer."
-msgstr "No disponible cuando se utiliza el renderizador Compatibilidad."
+msgstr "No disponible cuando se utiliza el renderizador Compatibility."
 
 msgid "Available only in the fragment shader."
 msgstr "Solo disponible en el fragment shader."
@@ -249,7 +249,7 @@ msgid ""
 "Compatibility renderer."
 msgstr ""
 "Disponible solo en el shader de fragmentos. No disponible al usar el "
-"renderizador Compatibilidad."
+"renderizador Compatibility."
 
 msgid "The number of bits to extract."
 msgstr "El número de bits a extraer."

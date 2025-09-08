@@ -292,8 +292,20 @@ msgstr "in mat4 **INV_PROJECTION_MATRIX**"
 msgid "Clip space to view space transform."
 msgstr "Transformation de l'espace de découpage à l'espace de vue."
 
+msgid "in vec3 **NODE_POSITION_VIEW**"
+msgstr "in vec3 **NODE_POSITION_VIEW**"
+
+msgid "in vec3 **CAMERA_POSITION_WORLD**"
+msgstr "in vec3 **CAMERA_POSITION_WORLD**"
+
 msgid "Camera position, in world space."
 msgstr "Position de la caméra, dans le repère du monde."
+
+msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
+msgstr "in vec3 **CAMERA_DIRECTION_WORLD**"
+
+msgid "in uint **CAMERA_VISIBLE_LAYERS**"
+msgstr "in uint **CAMERA_VISIBLE_LAYERS**"
 
 msgid "in int **INSTANCE_ID**"
 msgstr "in int **INSTANCE_ID**"
@@ -308,11 +320,26 @@ msgid "Instance custom data (for particles, mostly)."
 msgstr ""
 "Données personnalisées de l'instance (pour les particules, principalement)."
 
+msgid "in int **VIEW_INDEX**"
+msgstr "in int **VIEW_INDEX**"
+
+msgid "in int **VIEW_MONO_LEFT**"
+msgstr "in int **VIEW_MONO_LEFT**"
+
+msgid "in int **VIEW_RIGHT**"
+msgstr "in int **VIEW_RIGHT**"
+
 msgid "Constant for right eye, always ``1``."
 msgstr "Constante pour l’œil droit, toujours ``1``."
 
+msgid "in vec3 **EYE_OFFSET**"
+msgstr "in vec3 **EYE_OFFSET**"
+
 msgid "inout vec3 **VERTEX**"
 msgstr "inout vec3 **VERTEX**"
+
+msgid "in int **VERTEX_ID**"
+msgstr "in int **VERTEX_ID**"
 
 msgid "inout vec3 **NORMAL**"
 msgstr "inout vec3 **NORMAL**"
@@ -374,6 +401,24 @@ msgstr "inout mat4 **PROJECTION_MATRIX**"
 msgid "View space to clip space transform."
 msgstr "Transformation de l'espace de vue à l'espace de découpage."
 
+msgid "in uvec4 **BONE_INDICES**"
+msgstr "in uvec4 **BONE_INDICES**"
+
+msgid "in vec4 **BONE_WEIGHTS**"
+msgstr "in vec4 **BONE_WEIGHTS**"
+
+msgid "in vec4 **CUSTOM0**"
+msgstr "in vec4 **CUSTOM0**"
+
+msgid "in vec4 **CUSTOM1**"
+msgstr "in vec4 **CUSTOM1**"
+
+msgid "in vec4 **CUSTOM2**"
+msgstr "in vec4 **CUSTOM2**"
+
+msgid "in vec4 **CUSTOM3**"
+msgstr "in vec4 **CUSTOM3**"
+
 msgid "Fragment built-ins"
 msgstr "Variables intégrées de fragment"
 
@@ -417,6 +462,9 @@ msgstr "in mat4 **PROJECTION_MATRIX**"
 msgid "in vec3 **VERTEX**"
 msgstr "in vec3 **VERTEX**"
 
+msgid "inout vec3 **LIGHT_VERTEX**"
+msgstr "inout vec3 **LIGHT_VERTEX**"
+
 msgid "sampler2D **SCREEN_TEXTURE**"
 msgstr "sampler2D **SCREEN_TEXTURE**"
 
@@ -431,6 +479,9 @@ msgstr "sampler2D **DEPTH_TEXTURE**"
 
 msgid "out float **DEPTH**"
 msgstr "out float **DEPTH**"
+
+msgid "out vec3 **NORMAL_MAP**"
+msgstr "out vec3 **NORMAL_MAP**"
 
 msgid "out float **NORMAL_MAP_DEPTH**"
 msgstr "out float **NORMAL_MAP_DEPTH**"
@@ -454,6 +505,9 @@ msgstr "out float **ALPHA_HASH_SCALE**"
 
 msgid "out float **ALPHA_ANTIALIASING_EDGE**"
 msgstr "out float **ALPHA_ANTIALIASING_EDGE**"
+
+msgid "out vec2 **ALPHA_TEXTURE_COORDINATE**"
+msgstr "out vec2 **ALPHA_TEXTURE_COORDINATE**"
 
 msgid "out float **PREMUL_ALPHA_FACTOR**"
 msgstr "out float **PREMUL_ALPHA_FACTOR**"
@@ -492,11 +546,17 @@ msgstr "Direction de la distorsion, à utiliser avec les flowmaps."
 msgid "out float **SSS_STRENGTH**"
 msgstr "out float **SSS_STRENGTH**"
 
+msgid "out vec4 **SSS_TRANSMITTANCE_COLOR**"
+msgstr "out vec4 **SSS_TRANSMITTANCE_COLOR**"
+
 msgid "out float **SSS_TRANSMITTANCE_DEPTH**"
 msgstr "out float **SSS_TRANSMITTANCE_DEPTH**"
 
 msgid "out float **SSS_TRANSMITTANCE_BOOST**"
 msgstr "out float **SSS_TRANSMITTANCE_BOOST**"
+
+msgid "inout vec3 **BACKLIGHT**"
+msgstr "inout vec3 **BACKLIGHT**"
 
 msgid "out float **AO**"
 msgstr "out float **AO**"
@@ -506,6 +566,9 @@ msgstr "out float **AO_LIGHT_AFFECT**"
 
 msgid "out vec3 **EMISSION**"
 msgstr "out vec3 **EMISSION**"
+
+msgid "out vec4 **FOG**"
+msgstr "out vec4 **FOG**"
 
 msgid "out vec4 **RADIANCE**"
 msgstr "out vec4 **RADIANCE**"
@@ -563,6 +626,9 @@ msgstr "in vec3 **LIGHT_COLOR**"
 msgid "in float **SPECULAR_AMOUNT**"
 msgstr "in float **SPECULAR_AMOUNT**"
 
+msgid "in bool **LIGHT_IS_DIRECTIONAL**"
+msgstr "in bool **LIGHT_IS_DIRECTIONAL**"
+
 msgid "``true`` if this pass is a :ref:`class_DirectionalLight3D`."
 msgstr "``true`` cette passe est une :ref:`class_DirectionalLight3D`."
 
@@ -577,6 +643,9 @@ msgstr "in vec3 **ALBEDO**"
 
 msgid "Base albedo."
 msgstr "Albédo de base."
+
+msgid "in vec3 **BACKLIGHT**"
+msgstr "in vec3 **BACKLIGHT**"
 
 msgid "in float **METALLIC**"
 msgstr "in float **METALLIC**"
@@ -601,3 +670,10 @@ msgstr "out vec3 **SPECULAR_LIGHT**"
 
 msgid "Specular light result."
 msgstr "Résultat de la lumière spéculaire."
+
+msgid ""
+"Alpha (range of ``[0.0, 1.0]``). If written to, the material will go to the "
+"transparent pipeline."
+msgstr ""
+"Alpha (dans l'intervalle ``[0.0,1.0]``). En cas d'écriture, le matériau "
+"passera dans la pipeline de transparence."

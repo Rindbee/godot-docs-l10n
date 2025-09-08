@@ -104,7 +104,7 @@ msgstr ""
 
 msgid "`Godot Asset Library <https://godotengine.org/asset-library/asset>`_"
 msgstr ""
-"`Biblioteca de activos de Godot <https://godotengine.org/asset-library/"
+"`Biblioteca de Recursos de Godot <https://godotengine.org/asset-library/"
 "asset>`_"
 
 msgid ""

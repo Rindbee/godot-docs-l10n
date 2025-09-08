@@ -51,12 +51,27 @@ msgstr "in float **TAU**"
 msgid "in float **E**"
 msgstr "in float **E**"
 
+msgid "in vec3 **WORLD_POSITION**"
+msgstr "in vec3 **WORLD_POSITION**"
+
+msgid "in vec3 **OBJECT_POSITION**"
+msgstr "in vec3 **OBJECT_POSITION**"
+
+msgid "in vec3 **UVW**"
+msgstr "in vec3 **UVW**"
+
 msgid ""
 "3-dimensional UV, used to map a 3D texture to the current :ref:`FogVolume "
 "<class_FogVolume>`."
 msgstr ""
 "UV 3-dimentionnels, utilisé pour cartographier une texture 3D "
 "au :ref:`FogVolume <class_FogVolume>` actuel."
+
+msgid "in vec3 **SIZE**"
+msgstr "in vec3 **SIZE**"
+
+msgid "in vec3 **SDF**"
+msgstr "in vec3 **SDF**"
 
 msgid "out vec3 **ALBEDO**"
 msgstr "out vec3 **ALBEDO**"

@@ -44,6 +44,20 @@ msgstr ""
 msgid "Install OpenJDK 17"
 msgstr "Установка OpenJDK 17"
 
+msgid ""
+"Download and install `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
+"variant=openjdk17&version=17&os=any&arch=any>`__."
+msgstr ""
+"Скачайте и установите `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
+"variant=openjdk17&version=17&os=any&arch=any>`__."
+
+msgid ""
+"Higher versions of the JDK are also supported, but we recommend using JDK 17 "
+"for optimal compatibility and stability."
+msgstr ""
+"Более высокие версии JDK также поддерживаются, но мы рекомендуем "
+"использовать JDK 17 для оптимальной совместимости и стабильности."
+
 msgid "Download the Android SDK"
 msgstr "Загрузите Android SDK"
 
@@ -72,6 +86,15 @@ msgstr ""
 "Убедитесь, что также установлены `необходимые пакеты <https://"
 "developer.android.com/studio/intro/update#required>`__."
 
+msgid "Android SDK Platform-Tools version 35.0.0 or later"
+msgstr "Android SDK Platform-Tools версии 35.0.0 или новее"
+
+msgid "Android SDK Build-Tools version 35.0.0"
+msgstr "Android SDK Build-Tools версии 35.0.0"
+
+msgid "Android SDK Platform 35"
+msgstr "Android SDK Platform 35"
+
 msgid "Android SDK Command-line Tools (latest)"
 msgstr "Android SDK Command-line Tools"
 
@@ -84,6 +107,9 @@ msgstr ""
 
 msgid "CMake version 3.10.2.4988404"
 msgstr "CMake version 3.10.2.4988404"
+
+msgid "NDK version r28b (28.1.13356709)"
+msgstr "NDK версии r28b (28.1.13356709)"
 
 msgid ""
 "Alternatively, you can install the Android SDK with the `sdkmanager` command "
@@ -432,3 +458,10 @@ msgstr "``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``"
 
 msgid "Export options"
 msgstr "Опции экспорта"
+
+msgid ""
+"You can find a full list of export options available in "
+"the :ref:`class_EditorExportPlatformAndroid` class reference."
+msgstr ""
+"Полный список доступных параметров экспорта можно найти в справочнике "
+"классов :ref:`class_EditorExportPlatformAndroid`."

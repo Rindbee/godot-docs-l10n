@@ -32,6 +32,16 @@ msgstr ""
 "В этом руководстве мы будем использовать пример Platformer3D для настройки "
 "ragdoll'ов."
 
+msgid ""
+"You can download the Platformer3D demo on `GitHub <https://github.com/"
+"godotengine/godot-demo-projects/tree/master/3d/platformer>`_ or using the "
+"`Asset Library <https://godotengine.org/asset-library/asset/2748>`_."
+msgstr ""
+"Демонстрационную версию Platformer3D можно загрузить на GitHub <https://"
+"github.com/godotengine/godot-demo-projects/tree/master/3d/platformer> или с "
+"помощью библиотеки Asset Library <https://godotengine.org/asset-library/"
+"asset/2748>."
+
 msgid "Setting up the ragdoll"
 msgstr "Настройка ragdoll'а"
 

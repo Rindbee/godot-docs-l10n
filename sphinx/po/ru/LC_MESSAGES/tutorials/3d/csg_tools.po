@@ -230,7 +230,7 @@ msgid ""
 "extensions.blender.org/add-ons/print3d-toolbox/>`_ addon."
 msgstr ""
 "В Blender установите и включите addon`3D Print Toolbox <https://"
-"extensions.blender.org/add-ons/print3d-toolbox/>`_ ."
+"extensions.blender.org/add-ons/print3d-toolbox/>`_."
 
 msgid ""
 "Select the mesh you want to make manifold. Open the sidebar by clicking on "

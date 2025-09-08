@@ -24,6 +24,13 @@ msgstr ""
 "final, você terá um personagem jogável que se move em oito direções."
 
 msgid ""
+"Click the **Other Node** button and select the ``CharacterBody3D`` node type "
+"to create a :ref:`CharacterBody3D <class_CharacterBody3D>` as the root node."
+msgstr ""
+"Clique no botão **Outro Nó** e selecione o tipo de nó ``CharacterBody3D`` "
+"para criar um :ref:`CharacterBody3D <class_CharacterBody3D>` como nó raiz."
+
+msgid ""
 "To learn more about the different physics node types, see "
 "the :ref:`doc_physics_introduction`."
 msgstr ""

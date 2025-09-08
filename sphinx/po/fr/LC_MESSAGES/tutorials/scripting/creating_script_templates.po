@@ -64,12 +64,6 @@ msgstr "où :"
 msgid "For example:"
 msgstr "Par exemple :"
 
-msgid "``template_scripts/Node/smooth_camera.gd``"
-msgstr "``template_scripts/Node/smooth_camera.gd``"
-
-msgid "``template_scripts/CharacterBody3D/platformer_movement.gd``"
-msgstr "``template_scripts/CharacterBody3D/platformer_movement.gd``"
-
 msgid "By default:"
 msgstr "Par défaut :"
 
@@ -127,6 +121,9 @@ msgstr "``_BINDINGS_NAMESPACE_``"
 
 msgid "``_CLASS_``"
 msgstr "``_CLASS_``"
+
+msgid "``_CLASS_SNAKE_CASE_``"
+msgstr "``_CLASS_SNAKE_CASE_``"
 
 msgid "``_BASE_``"
 msgstr "``_BASE_``"

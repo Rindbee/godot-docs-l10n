@@ -77,14 +77,14 @@ msgstr "|obrázek8|"
 msgid "image8"
 msgstr "image8"
 
+msgid "The float animation"
+msgstr "Plovoucí animace"
+
 msgid "|image9|"
 msgstr "|obrázek9|"
 
 msgid "image9"
 msgstr "image9"
-
-msgid "The float animation"
-msgstr "Plovoucí animace"
 
 msgid "|image10|"
 msgstr "|obrázek10|"
@@ -146,29 +146,23 @@ msgstr "| image19|"
 msgid "image19"
 msgstr "image19"
 
+msgid "Your animation should look something like this."
+msgstr "Vaše animace by měla vypadat přibližně takto."
+
 msgid "|image20|"
 msgstr "| image20 |"
 
 msgid "image20"
 msgstr "image20"
 
-msgid "Your animation should look something like this."
-msgstr "Vaše animace by měla vypadat přibližně takto."
+msgid "Controlling the animation in code"
+msgstr "Ovládání animace kódem"
 
 msgid "|image21|"
 msgstr "| image21 |"
 
 msgid "image21"
 msgstr "image21"
-
-msgid "Controlling the animation in code"
-msgstr "Ovládání animace kódem"
-
-msgid "|image22|"
-msgstr "| image22 |"
-
-msgid "image22"
-msgstr "image22"
 
 msgid "Animating the mobs"
 msgstr "Animování nepřátel"

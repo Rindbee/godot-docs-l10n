@@ -349,4 +349,4 @@ msgstr ""
 "los huesos correctos."
 
 msgid "Once you are all set, you will get much better results:"
-msgstr "Una vez que esté todo listo, obtendrá resultados mucho mejores:"
+msgstr "Una vez que esté todo listo, obtendrás resultados mucho mejores:"

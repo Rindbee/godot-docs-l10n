@@ -89,7 +89,7 @@ msgid ""
 "depending on what it needs to save."
 msgstr ""
 "Ahora podemos guardar y cargar un número arbitrario de objetos dispuestos "
-"casi en cualquier lugar del árbol de la escena. Cada objeto puede almacenar "
+"casi en cualquier lugar del árbol de escenas. Cada objeto puede almacenar "
 "diferentes datos dependiendo de lo que necesite guardar."
 
 msgid "Some notes"

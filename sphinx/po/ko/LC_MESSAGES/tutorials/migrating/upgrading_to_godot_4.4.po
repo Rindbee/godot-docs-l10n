@@ -14,6 +14,9 @@ msgstr ""
 msgid "Change"
 msgstr "변경"
 
+msgid "**TranslationServer**"
+msgstr "**번역서버**"
+
 msgid "Physics"
 msgstr "물리"
 
@@ -21,7 +24,7 @@ msgid "Rendering"
 msgstr "렌더링"
 
 msgid "Navigation"
-msgstr "네비게이션"
+msgstr "내비게이션"
 
 msgid "Android"
 msgstr "Android"

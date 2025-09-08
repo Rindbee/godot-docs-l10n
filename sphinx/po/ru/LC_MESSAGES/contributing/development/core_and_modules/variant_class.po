@@ -20,12 +20,29 @@ msgstr "О Godot Engine"
 msgid "A Variant can:"
 msgstr "Variant может:"
 
+msgid "Store almost any datatype."
+msgstr "Храните практически любые типы данных."
+
 msgid ""
 "Perform operations between many variants (GDScript uses Variant as its "
 "atomic/native datatype)."
 msgstr ""
 "Выполнять операции между различными variants (GDScript использует Variant "
 "как атомарный/нативный тип данных)."
+
+msgid "Be hashed, so it can be compared quickly to other variants."
+msgstr ""
+"Быть хешированным, чтобы его можно было быстро сравнить с другими вариантами."
+
+msgid "Be used to convert safely between datatypes."
+msgstr "Использовать для безопасного преобразования типов данных."
+
+msgid ""
+"Be used to abstract calling methods and their arguments (Godot exports all "
+"its functions through variants)."
+msgstr ""
+"Используется для абстрагирования вызывающих методов и их аргументов (Godot "
+"экспортирует все свои функции через варианты)."
 
 msgid "Be used to defer calls or move data between threads."
 msgstr ""
@@ -63,8 +80,128 @@ msgstr ""
 msgid "References"
 msgstr "Ссылки"
 
+msgid ""
+"`core/variant/variant.h <https://github.com/godotengine/godot/blob/master/"
+"core/variant/variant.h>`__"
+msgstr ""
+"`core/variant/variant.h <https://github.com/godotengine/godot/blob/master/"
+"core/variant/variant.h>`__"
+
 msgid "Type"
 msgstr "Тип"
 
 msgid "Notes"
 msgstr "Примечания"
+
+msgid ":ref:`class_vector2i`"
+msgstr ":ref:`class_vector2i`"
+
+msgid ":ref:`class_rect2i`"
+msgstr ":ref:`class_rect2i`"
+
+msgid ":ref:`class_vector3i`"
+msgstr ":ref:`class_vector3i`"
+
+msgid ":ref:`class_vector4`"
+msgstr ":ref:`class_vector4`"
+
+msgid ":ref:`class_vector4i`"
+msgstr ":ref:`class_vector4i`"
+
+msgid ":ref:`class_quaternion`"
+msgstr ":ref:`class_quaternion`"
+
+msgid ":ref:`class_basis`"
+msgstr ":ref:`class_basis`"
+
+msgid ":ref:`class_transform3d`"
+msgstr ":ref:`class_transform3d`"
+
+msgid ":ref:`class_projection`"
+msgstr ":ref:`class_projection`"
+
+msgid ":ref:`class_color`"
+msgstr ":ref:`class_color`"
+
+msgid ":ref:`class_stringname`"
+msgstr ":ref:`class_stringname`"
+
+msgid ":ref:`class_object`"
+msgstr ":ref:`class_object`"
+
+msgid ":ref:`class_callable`"
+msgstr ":ref:`class_callable`"
+
+msgid ":ref:`class_signal`"
+msgstr ":ref:`class_signal`"
+
+msgid ":ref:`class_dictionary`"
+msgstr ":ref:`class_dictionary`"
+
+msgid ":ref:`class_array`"
+msgstr ":ref:`class_array`"
+
+msgid ":ref:`class_packedbytearray`"
+msgstr ":ref:`class_packedbytearray`"
+
+msgid ":ref:`class_packedint32array`"
+msgstr ":ref:`class_packedint32array`"
+
+msgid ":ref:`class_packedint64array`"
+msgstr ":ref:`class_packedint64array`"
+
+msgid ":ref:`class_packedfloat32array`"
+msgstr ":ref:`class_packedfloat32array`"
+
+msgid ":ref:`class_packedfloat64array`"
+msgstr ":ref:`class_packedfloat64array`"
+
+msgid ":ref:`class_packedstringarray`"
+msgstr ":ref:`class_packedstringarray`"
+
+msgid ":ref:`class_packedvector2array`"
+msgstr ":ref:`class_packedvector2array`"
+
+msgid ":ref:`class_packedvector3array`"
+msgstr ":ref:`class_packedvector3array`"
+
+msgid ":ref:`class_packedcolorarray`"
+msgstr ":ref:`class_packedcolorarray`"
+
+msgid ":ref:`class_packedvector4array`"
+msgstr ":ref:`class_packedvector4array`"
+
+msgid ""
+"Both :ref:`class_array` and :ref:`class_dictionary` are implemented using "
+"variants. A Dictionary can match any datatype used as key to any other "
+"datatype. An Array just holds an array of Variants. Of course, a Variant can "
+"also hold a Dictionary or an Array inside, making it even more flexible."
+msgstr ""
+"Оба класса :ref:`class_array` и :ref:`class_dictionary` реализованы с "
+"использованием вариантов. Словарь может сопоставить любой тип данных, "
+"используемый в качестве ключа, с любым другим типом данных. Массив просто "
+"содержит массив вариантов. Конечно, вариант также может содержать словарь "
+"или массив внутри, что делает его ещё более гибким."
+
+msgid ""
+"Modifications to a container will modify all references to it. A Mutex "
+"should be created to lock it if :ref:`multi-threaded access "
+"<doc_using_multiple_threads>` is desired."
+msgstr ""
+"Изменения в контейнере приведут к изменению всех ссылок на него. Если "
+"требуется :ref:`multi-threaded access <doc_using_multiple_threads>`, следует "
+"создать мьютекс для его блокировки."
+
+msgid ""
+"`core/variant/dictionary.h <https://github.com/godotengine/godot/blob/master/"
+"core/variant/dictionary.h>`__"
+msgstr ""
+"`core/variant/dictionary.h <https://github.com/godotengine/godot/blob/master/"
+"core/variant/dictionary.h>`__"
+
+msgid ""
+"`core/variant/array.h <https://github.com/godotengine/godot/blob/master/core/"
+"variant/array.h>`__"
+msgstr ""
+"`core/variant/array.h <https://github.com/godotengine/godot/blob/master/core/"
+"variant/array.h>`__"

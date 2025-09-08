@@ -106,6 +106,9 @@ msgstr ""
 "numéro de GitHub afin qu'un autre contributeur puisse continuer à bissecter "
 "à partir de là."
 
+msgid "Build the engine"
+msgstr "Compiler le moteur"
+
 msgid ""
 ":ref:`Get Godot's source code using Git <doc_getting_source>`. Once this is "
 "done, in the terminal window, use ``cd`` to reach the Godot repository "
@@ -119,6 +122,9 @@ msgid "Compile Godot. This assumes you've set up a build environment:"
 msgstr ""
 "Compiler Godot. Cela suppose que vous avez mis en place un environnement de "
 "compilation :"
+
+msgid "Run the engine"
+msgstr "Exécuter le moteur"
 
 msgid ""
 "Run the binary located in the ``bin/`` folder and try to reproduce the bug."

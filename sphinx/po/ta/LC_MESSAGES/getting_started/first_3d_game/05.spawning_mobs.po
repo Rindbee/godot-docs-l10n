@@ -56,13 +56,6 @@ msgid "If you still have *Input Map* open, switch to the *General* tab."
 msgstr ""
 "உங்களிடம் இன்னும் * உள்ளீட்டு வரைபடம் * திறந்திருந்தால், * பொது * தாவலுக்கு மாறவும்."
 
-msgid ""
-"In the left menu, navigate down to *Display -> Window*. On the right, set "
-"the *Width* to ``720`` and the *Height* to ``540``."
-msgstr ""
-"இடது பட்டியலில், *காட்சி -> சாளரம் *க்கு கீழே செல்லவும். வலதுபுறத்தில், * அகலத்தை * "
-"`720`` ஆகவும், * உயரத்தை *` `540`` ஆகவும் அமைக்கவும்."
-
 msgid "|image2|"
 msgstr "| படம் 2 |"
 

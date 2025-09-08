@@ -38,7 +38,7 @@ msgstr ""
 "성하여 서로 연결합니다."
 
 msgid "Cleaning up the skeleton"
-msgstr "스켈레톤(Skeleton) 정리하기"
+msgstr "스켈레톤 정리하기"
 
 msgid "Collision shape adjustment"
 msgstr "콜리전 모양 조정"

@@ -14,6 +14,9 @@ msgstr ""
 msgid "Particle attractors"
 msgstr "Attracteurs de particules"
 
+msgid "Common properties"
+msgstr "Propriétés communes"
+
 msgid "Different attractor attenuation curves"
 msgstr "Différentes courbes d'atténuation d'attracteur"
 

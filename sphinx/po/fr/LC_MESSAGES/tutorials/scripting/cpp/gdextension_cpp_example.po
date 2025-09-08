@@ -122,6 +122,9 @@ msgstr ""
 "Vous devriez maintenant être en mesure de trouver le module dans ``demo/bin/"
 "<platform>``."
 
+msgid "Using the GDExtension module"
+msgstr "Utilisation du module GDExtension"
+
 msgid "We're finally ready to run the project:"
 msgstr "Nous sommes prêts à lancer le projet :"
 
@@ -223,3 +226,11 @@ msgstr "Chaque seconde, on envoie notre position à la console."
 
 msgid "Next steps"
 msgstr "La suite"
+
+msgid ""
+"We hope the above example showed you the basics. You can build upon this "
+"example to create full-fledged scripts to control nodes in Godot using C++!"
+msgstr ""
+"Nous espérons que l'exemple ci-dessus vous ait montré les bases. Vous pouvez "
+"partir de celui-ci pour créer des scripts complets afin de contrôler des "
+"nœuds dans Godot, en utilisant le C++ !"

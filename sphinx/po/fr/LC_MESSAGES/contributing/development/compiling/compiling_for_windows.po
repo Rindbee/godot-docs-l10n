@@ -164,6 +164,13 @@ msgstr ""
 "activer :ref:`doc_data_paths_self_contained_mode` en créant un fichier "
 "appelé ``._sc_`` ou ``_sc_`` dans le dossier ``bin/``."
 
+msgid ""
+"By default, builds of Godot do not contain support for the Direct3D 12 "
+"graphics API."
+msgstr ""
+"Par défaut, les compilations de Godot ne contiennent pas de support pour "
+"l'API graphique Direct3D 12."
+
 msgid "Or, with all options enabled:"
 msgstr "Ou, avec toutes les options activées :"
 

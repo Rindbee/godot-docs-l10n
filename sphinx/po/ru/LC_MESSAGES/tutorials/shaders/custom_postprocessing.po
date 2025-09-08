@@ -14,8 +14,14 @@ msgstr ""
 msgid "Introduction"
 msgstr "Введение"
 
+msgid "Your scene tree will look something like this:"
+msgstr "Ваше дерево сцен будет выглядеть примерно так:"
+
 msgid ""
 "For this demo, we will use this :ref:`Sprite <class_Sprite2D>` of a sheep."
 msgstr ""
 "Для этой демонстрации мы будем использовать :ref:`Sprite <class_Sprite2D>` "
 "овцы."
+
+msgid "The sheep will look something like this:"
+msgstr "Овца будет выглядеть примерно так:"

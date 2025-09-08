@@ -14,5 +14,98 @@ msgstr ""
 msgid "Writing style"
 msgstr "写作风格"
 
+msgid ":ref:`See here. <doc_docs_writing_guidelines_clear_english_rules>`"
+msgstr ":ref:`见此处。 <doc_docs_writing_guidelines_clear_english_rules>`"
+
+msgid "Use the active voice."
+msgstr "使用陈述句型。"
+
+msgid "Use precise action verbs."
+msgstr "使用精确的动作动词。"
+
+msgid "Avoid verbs that end in -ing."
+msgstr "避免以 -ing 结尾的动词。"
+
 msgid "Remove unnecessary adverbs and adjectives."
 msgstr "删除不必要的副词和形容词。"
+
+msgid ""
+"Ban these 8 words: obvious, simple, basic, easy, actual, just, clear, and "
+"however."
+msgstr ""
+"禁止这 8 个词：obvious（显然）、simple（简单）、basic（基本）、easy（容易）、"
+"actual（实际）、just（仅仅）、clear（明显）、however（然而）。"
+
+msgid "Use explicit references."
+msgstr "使用显式引用。"
+
+msgid "Use 's to show possession."
+msgstr "使用“'s”表示所有权。"
+
+msgid "Use the Oxford comma."
+msgstr "使用牛津逗号。"
+
+msgid "Code examples"
+msgstr "代码示例"
+
+msgid ""
+"Use dynamic typing. :ref:`See here. "
+"<doc_docs_writing_guidelines_dynamic_typing>`"
+msgstr ""
+"使用动态类型。:ref:`See here. <doc_docs_writing_guidelines_dynamic_typing>`"
+
+msgid ""
+"Use real, practical examples. Avoid ``foo`` / ``bar`` examples. :ref:`See "
+"here. <doc_docs_writing_guidelines_real_world_code_example>`"
+msgstr ""
+"使用真实可行的示例。避免使用 ``foo`` / ``bar`` 这类示例。:ref:`See here. "
+"<doc_docs_writing_guidelines_real_world_code_example>`"
+
+msgid ""
+"Use common vocabulary for the editor interface. :ref:`See here. "
+"<doc_docs_writing_guidelines_common_vocabulary>`"
+msgstr ""
+"使用编辑器界面的通用术语。:ref:`See here. "
+"<doc_docs_writing_guidelines_common_vocabulary>`"
+
+msgid ""
+"Use ``:kbd:`` for keyboard shortcuts. :ref:`See here. "
+"<doc_docs_writing_guidelines_keyboard_shortcuts>`"
+msgstr ""
+"使用 ``:kbd:`` 标记键盘快捷键。:ref:`See here. "
+"<doc_docs_writing_guidelines_keyboard_shortcuts>`"
+
+msgid ""
+"Literals use ``code style``. :ref:`See here. "
+"<doc_docs_writing_guidelines_literals>`"
+msgstr ""
+"字面量使用 ``代码样式`` 标记。:ref:`See here. "
+"<doc_docs_writing_guidelines_literals>`"
+
+msgid "GitHub"
+msgstr "GitHub"
+
+msgid ""
+"The PR title starts with a word like ``Fix``, ``Add``, ``Update``, "
+"``Clarify``, or ``Improve``."
+msgstr ""
+"PR 标题需以 ``Fix``\\ 、\\ ``Add``\\ 、\\ ``Update``\\ 、\\ ``Clarify``\\ 、"
+"\\ ``Improve`` 等单词开头。"
+
+msgid ""
+"If the PR closes an issue, link to the issue with one of GitHub's `keywords "
+"<https://docs.github.com/en/get-started/writing-on-github/working-with-"
+"advanced-formatting/using-keywords-in-issues-and-pull-requests>`__: "
+"``closes``, ``fixes``, or ``resolves``, in the text of the PR."
+msgstr ""
+"如果 PR 能够关闭 Issue，请在 PR 的文本中使用 GitHub 的 ``closes``\\ 、\\ "
+"``fixes``\\ 、\\ ``resolves`` 等\\ `关键字 <https://docs.github.com/en/get-"
+"started/writing-on-github/working-with-advanced-formatting/using-keywords-in-"
+"issues-and-pull-requests>`__\\ 链接到该 Issue。"
+
+msgid ""
+"Ideally, PR contains a single commit. However, multiple commits can "
+"be :ref:`squashed <doc_pr_workflow_rebase>` later."
+msgstr ""
+"理想情况下一个 PR 只应包含一个提交。不过多个提交可以后续再\\ :ref:`压缩成一"
+"个 <doc_pr_workflow_rebase>`\\ 。"

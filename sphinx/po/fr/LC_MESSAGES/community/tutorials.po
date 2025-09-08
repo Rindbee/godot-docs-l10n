@@ -103,6 +103,13 @@ msgstr ""
 "`Tutoriels Godot de SomethingLikeGames <https://www.somethinglikegames.de/en/"
 "tags/godot-engine/>`__"
 
+msgid ""
+"`GameDev Academy by Zenva <https://gamedevacademy.org/category/godot-"
+"tutorials/godot-4/>`__"
+msgstr ""
+"`GameDev Academy par Zenva <https://gamedevacademy.org/category/godot-"
+"tutorials/godot-4/>`__"
+
 msgid "`Game Dev Artisan website <https://gamedevartisan.com/>`__"
 msgstr "`Site web de Game Dev Artisan <https://gamedevartisan.com/>`__"
 

@@ -93,6 +93,10 @@ msgstr ""
 "Agora, vamos ver o resto do script. Em ``_ready () ``, rodamos a animação e "
 "escolhemos aleatoriamente um dos três tipos de animação:"
 
+msgid "Finally, we call ``play()`` to start playing the chosen animation."
+msgstr ""
+"Por fim, chamamos ``play()`` para começar a reproduzir a animação escolhida."
+
 msgid ""
 "``queue_free()`` is a function that essentially 'frees', or deletes, the "
 "node at the end of the frame."

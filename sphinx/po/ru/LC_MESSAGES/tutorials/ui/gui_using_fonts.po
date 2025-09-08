@@ -11,8 +11,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using Fonts"
+msgstr "Использование Шрифтов"
+
+msgid ""
+"You can see how fonts work in action using the `BiDI and Font Features demo "
+"project <https://github.com/godotengine/godot-demo-projects/tree/master/gui/"
+"bidi_and_font_features>`__."
+msgstr ""
+"Увидеть, как работают шрифты в действии, можно с помощью демонстрационного "
+"проекта `BiDI and Font Features <https://github.com/godotengine/godot-demo-"
+"projects/tree/master/gui/bidi_and_font_features>`__."
+
 msgid "Dynamic fonts"
 msgstr "Динамические шрифты"
+
+msgid "Godot supports the following dynamic font formats:"
+msgstr "Godot поддерживает следующие динамические форматы шрифтов:"
 
 msgid "Web Open Font Format 1 (``.woff``)"
 msgstr "Web Open Font Format 1 (``.woff``)"
@@ -20,17 +35,120 @@ msgstr "Web Open Font Format 1 (``.woff``)"
 msgid "Web Open Font Format 2 (``.woff2``, since Godot 3.5)"
 msgstr "Web Open Font Format 2 (``.woff2``, начиная с Godot 3.5)"
 
+msgid "Bitmap font example"
+msgstr "Пример растрового шрифта"
+
+msgid "Loading a font file"
+msgstr "Загрузка файла шрифта"
+
+msgid "Font outlines and shadows"
+msgstr "Контуры и тени шрифта"
+
+msgid "Font outline example"
+msgstr "Пример контура шрифта"
+
+msgid "Configuring font shadow in a Label node"
+msgstr "Настройка тени шрифта в узле Label"
+
+msgid "The result should look like this:"
+msgstr "Результат должен выглядеть так:"
+
 msgid "Font shadow example"
 msgstr "Пример тени шрифта"
+
+msgid "Advanced font features"
+msgstr "Расширенные возможности шрифтов"
+
+msgid "Antialiasing"
+msgstr "Сглаживание"
+
+msgid "Font antialiasing comparison"
+msgstr "Сравнение сглаживания шрифтов"
+
+msgid "Hinting"
+msgstr "Hinting (сглаживание контура шрифта)"
+
+msgid "Font hinting comparison"
+msgstr "Сравнение hinting шрифтов"
 
 msgid "Mipmaps"
 msgstr "Мип-карты"
 
+msgid "MSDF font rendering"
+msgstr "Рендеринг шрифтов MSDF"
+
+msgid "The downsides of MSDF font rendering are:"
+msgstr "Недостатки рендеринга шрифтов MSDF:"
+
+msgid "Import dock"
+msgstr "Импортный док"
+
+msgid "Adding font fallback"
+msgstr "Добавление резервного шрифта"
+
+msgid "Creating a FontVariation resource"
+msgstr "Создание ресурса FontVariation"
+
+msgid "List of variation axes"
+msgstr "Список осей вариаций"
+
+msgid "**Regular (Normal)**"
+msgstr "**Regular (Нормаль)**"
+
+msgid "Adjusting font spacing"
+msgstr "Регулировка интервала шрифта"
+
+msgid "OpenType font features"
+msgstr "Возможности шрифтов OpenType"
+
+msgid "There are 2 ways to use OpenType font features:"
+msgstr "Существует 2 способа использования возможностей шрифтов OpenType:"
+
+msgid ""
+"Loading system fonts is only supported on Windows, macOS, Linux, Android and "
+"iOS."
+msgstr ""
+"Загрузка системных шрифтов поддерживается только в Windows, macOS, Linux, "
+"Android и iOS."
+
+msgid "Creating a SystemFont resource"
+msgstr "Создание ресурса SystemFont"
+
+msgid "Font alias"
+msgstr "Псевдоним шрифта"
+
 msgid "Windows"
 msgstr "Windows"
+
+msgid "macOS/iOS"
+msgstr "macOS/iOS"
 
 msgid "Linux"
 msgstr "Linux"
 
 msgid "Android"
 msgstr "Android"
+
+msgid "``monospace``"
+msgstr "``monospace``"
+
+msgid "Apple Chancery"
+msgstr "Apple Chancery"
+
+msgid "Dancing Script"
+msgstr "Dancing Script (Сценарий танца)"
+
+msgid "``fantasy``"
+msgstr "``fantasy``"
+
+msgid "Font prerendering"
+msgstr "Предварительная визуализация шрифтов"
+
+msgid "**Using text from translations**"
+msgstr "**Использование текста из переводов**"
+
+msgid "**Using custom text**"
+msgstr "**Использование пользовательского текста**"
+
+msgid "Default project font properties"
+msgstr "Свойства шрифта проекта по умолчанию"

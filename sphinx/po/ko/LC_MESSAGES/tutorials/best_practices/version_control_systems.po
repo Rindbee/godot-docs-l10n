@@ -36,3 +36,16 @@ msgstr "버전 관리 시스템에서 제외해야 하는 파일"
 
 msgid "Working with Git on Windows"
 msgstr "Windows에서 Git 사용하기"
+
+msgid ""
+"Most Git for Windows clients are configured with the ``core.autocrlf`` set "
+"to ``true``. This can lead to files unnecessarily being marked as modified "
+"by Git due to their line endings being converted from LF to CRLF "
+"automatically."
+msgstr ""
+"대부분의 Windows용 Git 클라이언트는 ``core.autocrlf`` 설정이 ``true``\\ 로 구"
+"성됩니다. 이 경우 줄바꿈 문자가 LF에서 CRLF로 자동으로 변환되어 Git에서 불필"
+"요하게 파일이 수정되었다고 표시될 수 있습니다."
+
+msgid "It is better to set this option as:"
+msgstr "이 옵션을 다음과 같이 설정하는 게 좋습니다:"

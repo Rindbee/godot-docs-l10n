@@ -109,6 +109,13 @@ msgstr ""
 msgid "Other functions"
 msgstr "Autres fonctions"
 
+msgid ""
+"Many other global functions like ``print`` and ``var_to_str`` are located "
+"under ``GD``. Example: ``GD.Print`` and ``GD.VarToStr``."
+msgstr ""
+"Beaucoup d'autres fonctions globales comme ``print`` et ``var_to_str`` se "
+"trouvent sous ``GD``. Exemple : ``GD.Print`` et ``GD.VarToStr``."
+
 msgid "Exceptions:"
 msgstr "Exceptions :"
 
@@ -1209,11 +1216,17 @@ msgstr "`float.ToString`_ or `double.ToString`_"
 msgid "num_int64"
 msgstr "num_int64"
 
+msgid "`int.ToString`_ or `long.ToString`_"
+msgstr "`int.ToString`_ or `long.ToString`_"
+
 msgid "num_scientific"
 msgstr "num_scientific"
 
 msgid "num_uint64"
 msgstr "num_uint64"
+
+msgid "`uint.ToString`_ or `ulong.ToString`_"
+msgstr "`uint.ToString`_ ou `ulong.ToString`_"
 
 msgid "pad_decimals"
 msgstr "pad_decimals"

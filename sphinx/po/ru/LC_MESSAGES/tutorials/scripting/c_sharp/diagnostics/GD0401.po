@@ -11,8 +11,80 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0401: The class must derive from Godot.GodotObject or a derived class"
+msgstr ""
+"GD0401: Класс должен быть производным от Godot.GodotObject или производного "
+"класса"
+
+msgid "**Rule ID**"
+msgstr "**Идентификатор правила**"
+
+msgid "GD0401"
+msgstr "GD0401"
+
 msgid "**Category**"
 msgstr "**Категория**"
 
 msgid "Usage"
 msgstr "Использование"
+
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Исправление может быть как ломающим, так и не ломающим**"
+
+msgid "Breaking - If changing the inheritance chain"
+msgstr "Нарушение - при изменении цепочки наследования"
+
+msgid "Non-breaking - If removing the ``[GlobalClass]`` attribute"
+msgstr "Неразрушающий — при удалении атрибута ``[GlobalClass]``"
+
+msgid "**Enabled by default**"
+msgstr "**Включено по умолчанию**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "Причина"
+
+msgid ""
+"A type annotated with the ``[GlobalClass]`` attribute does not derive from "
+"``GodotObject``."
+msgstr ""
+"Тип, аннотированный атрибутом ``[GlobalClass]``, не является производным от "
+"``GodotObject``."
+
+msgid "Rule description"
+msgstr "Описание правила"
+
+msgid ""
+"The ``[GlobalClass]`` has no effect for types that don't derive from "
+"``GodotObject``. Every :ref:`global class <doc_c_sharp_global_classes>` must "
+"ultimately derive from ``GodotObject`` so it can be marshalled."
+msgstr ""
+"``[GlobalClass]`` не действует на типы, не производные от ``GodotObject``. "
+"Каждый :ref:`global class <doc_c_sharp_global_classes>` должен в конечном "
+"итоге быть производным от ``GodotObject``, чтобы его можно было "
+"маршаллировать."
+
+msgid "How to fix violations"
+msgstr "Как устранить нарушения"
+
+msgid ""
+"To fix a violation of this rule, change the type to derive from "
+"``GodotObject`` or remove the ``[GlobalClass]`` attribute."
+msgstr ""
+"Чтобы устранить нарушение этого правила, измените тип на производный от "
+"``GodotObject`` или удалите атрибут ``[GlobalClass]``."
+
+msgid "When to suppress warnings"
+msgstr "Когда следует подавлять предупреждения"
+
+msgid ""
+"Do not suppress a warning from this rule. Adding the ``[GlobalClass]`` to a "
+"type that doesn't derive from ``GodotObject`` is an easy mistake to make and "
+"this warning helps users realize that it may result in unexpected errors."
+msgstr ""
+"Не подавляйте предупреждение из этого правила. Добавление ``[GlobalClass]`` "
+"к типу, который не является производным от ``GodotObject``, — лёгкая ошибка, "
+"и это предупреждение помогает пользователям понять, что это может привести к "
+"непредвиденным ошибкам."

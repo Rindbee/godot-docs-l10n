@@ -393,6 +393,9 @@ msgstr "PascalCase"
 msgid "``class_name YAMLParser``"
 msgstr "``class_name YAMLParser``"
 
+msgid "``Camera3D``, ``Player``"
+msgstr "``Camera3D``, ``Player``"
+
 msgid "Functions"
 msgstr "Fonctions"
 
@@ -407,6 +410,9 @@ msgstr "``var effet_de_particule``"
 
 msgid "Signals"
 msgstr "Signaux"
+
+msgid "``signal door_opened``"
+msgstr "``signal door_opened``"
 
 msgid "Constants"
 msgstr "Constantes"
@@ -623,6 +629,12 @@ msgstr ""
 
 msgid "Static typing"
 msgstr "Typage statique"
+
+msgid ""
+"GDScript supports :ref:`optional static typing<doc_gdscript_static_typing>`."
+msgstr ""
+"GDScript supporte le :ref:`typage statique "
+"optionnel<doc_gdscript_static_typing>`."
 
 msgid "Declared types"
 msgstr "Types déclarés"

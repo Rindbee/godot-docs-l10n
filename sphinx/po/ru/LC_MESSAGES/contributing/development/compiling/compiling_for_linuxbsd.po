@@ -11,11 +11,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Compiling for Linux, \\*BSD"
+msgstr "Компиляция для Linux, \\*BSD"
+
 msgid "Requirements"
 msgstr "Требования"
 
+msgid "`Python 3.8+ <https://www.python.org/downloads/>`_."
+msgstr "`Python 3.8+ <https://www.python.org/downloads/>`_."
+
+msgid "`SCons 4.0+ <https://scons.org/pages/download.html>`_ build system."
+msgstr "`SCons 4.0+ <https://scons.org/pages/download.html>`_ система сборки."
+
 msgid "Development libraries:"
 msgstr "Библиотеки разработки:"
+
+msgid "PulseAudio."
+msgstr "PulseAudio."
 
 msgid ""
 "For a general overview of SCons usage for Godot, "
@@ -26,6 +38,39 @@ msgstr ""
 
 msgid "Distro-specific one-liners"
 msgstr "Оne-liners, специфичные для дистрибутива"
+
+msgid "Alpine Linux"
+msgstr "Alpine Linux (Альпийский Линукс)"
+
+msgid "Arch Linux"
+msgstr "Arch Linux"
+
+msgid "Debian/Ubuntu"
+msgstr "Debian/Ubuntu"
+
+msgid "Fedora"
+msgstr "Fedora"
+
+msgid "FreeBSD"
+msgstr "FreeBSD"
+
+msgid "Gentoo"
+msgstr "Gentoo"
+
+msgid "Mageia"
+msgstr "Mageia"
+
+msgid "NetBSD"
+msgstr "NetBSD"
+
+msgid "OpenBSD"
+msgstr "OpenBSD"
+
+msgid "openSUSE"
+msgstr "openSUSE"
+
+msgid "Solus"
+msgstr "Solus"
 
 msgid "Compiling"
 msgstr "Компиляция"
@@ -41,8 +86,44 @@ msgstr ""
 "Если вы хотите компилировать с использованием Clang, а не GCC, используйте "
 "эту команду:"
 
+msgid "Running a headless/server build"
+msgstr "Запуск headless/серверной сборки"
+
+msgid "And then use the ``--headless`` command line argument:"
+msgstr "А затем используйте аргумент коммандной строки ``--headless``:"
+
+msgid ""
+"To build Linux or \\*BSD export templates, run the build system with the "
+"following parameters:"
+msgstr ""
+"Для сборки шаблонов экспорта Linux или \\*BSD запустите систему сборки со "
+"следующими параметрами:"
+
 msgid "(32 bits)"
 msgstr "(32 бита)"
 
 msgid "(64 bits)"
 msgstr "(64 бита)"
+
+msgid ""
+"To do so, install Clang and the ``lld`` package from your distribution's "
+"package manager then use the following SCons command:"
+msgstr ""
+"Для этого установите Clang и пакет ``lld`` из менеджера пакетов вашего "
+"дистрибутива, а затем используйте следующую команду SCons:"
+
+msgid "There are two solutions:"
+msgstr "Есть два решения:"
+
+msgid "Using mold for faster development"
+msgstr "Использование формы (mold) для более быстрого развития"
+
+msgid ""
+"Download mold binaries from its `releases page <https://github.com/rui314/"
+"mold/releases/latest>`__."
+msgstr ""
+"Загрузите двоичные файлы формы со страницы релизов <https://github.com/"
+"rui314/mold/releases/latest>`__."
+
+msgid "Using system libraries for faster development"
+msgstr "Использование системных библиотек для более быстрой разработки"

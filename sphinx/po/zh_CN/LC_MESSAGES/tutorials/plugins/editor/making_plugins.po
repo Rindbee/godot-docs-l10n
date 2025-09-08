@@ -62,14 +62,6 @@ msgstr ""
 "置和具有此功能的工具脚本. 插件在项目文件夹里面有一个标准路径, 比如 ``addons/"
 "plugin_name``.Godot提供了一个属性框, 用于生成这些文件并将它们放在需要的位置."
 
-msgid ""
-"In the main toolbar, click the ``Project`` dropdown. Then click ``Project "
-"Settings...``. Go to the ``Plugins`` tab and then click on the ``Create New "
-"Plugin`` button in the top-right."
-msgstr ""
-"在主工具栏中，点击\\ ``项目``\\ 下拉菜单，然后点击\\ ``项目设置...``\\ 。然后"
-"转到\\ ``插件``\\ 选项卡，点击右上角的\\ ``创建新插件``\\ 按钮。"
-
 msgid "You will see the dialog appear, like so:"
 msgstr "你会看到出现了一个对话框，类似这样："
 

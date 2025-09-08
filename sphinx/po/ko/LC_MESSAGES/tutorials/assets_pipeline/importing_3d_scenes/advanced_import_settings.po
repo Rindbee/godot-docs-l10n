@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Animation options"
+msgstr "애니메이션 옵션"
+
 msgid "Optimizer"
 msgstr "최적화 도구"
 

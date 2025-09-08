@@ -249,15 +249,6 @@ msgstr ""
 "உங்கள் முதல் எக்ச்ஆர் விளையாட்டு/பயன்பாட்டிற்காக, ஒரு செயல் தொகுப்பிலிருந்து தொடங்கவும், "
 "அதிக பொறியியலாளர் விசயங்களை அல்ல என்றும் நாங்கள் மிகவும் பரிந்துரைக்கிறோம்."
 
-msgid ""
-"For our walkthrough in this document we will thus create a single action set "
-"called ``my_first_action_set``. We do this by pressing the ``Add action "
-"set`` button:"
-msgstr ""
-"இந்த ஆவணத்தில் எங்கள் ஒத்திகைக்கு, இதனால் `` my_first_action_set`` என்ற ஒற்றை செயல் "
-"தொகுப்பை உருவாக்குவோம். `` செயல் தொகுப்பு` பொத்தானைச் சேர்: பொத்தானை அழுத்துவதன் மூலம் "
-"இதைச் செய்கிறோம்:"
-
 msgid "The columns in our table are as follows:"
 msgstr "எங்கள் அட்டவணையில் உள்ள நெடுவரிசைகள் பின்வருமாறு:"
 
@@ -1005,11 +996,6 @@ msgid ""
 msgstr ""
 "முழு தொடர்பு சுயவிவரத்திற்கும் பயன்படுத்தப்படும் பிணைப்பு மாற்றியமைப்பாளர்களை தொடர்பு "
 "சுயவிவர எடிட்டரின் வலது பக்கத்தில் மாற்றியமைக்கும் பொத்தானை அணுகலாம்."
-
-msgid ""
-"You can add a new modifier by pressing the ``Add binding modifier`` button."
-msgstr ""
-"`` பிணைப்பு மாற்றியமைப்பை சேர் `பொத்தானை அழுத்துவதன் மூலம் புதிய மாற்றியைச் சேர்க்கலாம்."
 
 msgid ""
 "As Godot doesn't know which controllers and runtimes support a modifier, "

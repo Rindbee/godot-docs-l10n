@@ -11,8 +11,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Upgrading from Godot 4.3 to Godot 4.4"
+msgstr "Обновление с Godot 4.3 на Godot 4.4"
+
+msgid ""
+"For most games and apps made with 4.3 it should be relatively safe to "
+"migrate to 4.4. This page intends to cover everything you need to pay "
+"attention to when migrating your project."
+msgstr ""
+"Для большинства игр и приложений, созданных с 4.3, миграция на 4.4 должна "
+"быть относительно безопасной. На этой странице вы найдете все, на что "
+"следует обратить внимание при миграции вашего проекта."
+
 msgid "Breaking changes"
 msgstr "Изменения ломающие обратную совместимость"
+
+msgid ""
+"If you are migrating from 4.3 to 4.4, the breaking changes listed here might "
+"affect you. Changes are grouped by areas/systems."
+msgstr ""
+"Если вы переходите с 4.3 на 4.4, изменения нарушающие обратную совместимость "
+"перечисленные здесь могут затронуть вас. Изменения сгруппированы по областям/"
+"системам."
 
 msgid ""
 "This article indicates whether each breaking change affects GDScript and "
@@ -21,6 +41,14 @@ msgstr ""
 "Эта статья показывает, где каждое изменение обратной совместимости влияет на "
 "GDScript и где изменение обратной совместимости C# *бинарно совместимо* или "
 "*совместимо на уровне кода*:"
+
+msgid ""
+"**Binary compatible** - Existing binaries will load and execute successfully "
+"without recompilation, and the run-time behavior won't change."
+msgstr ""
+"**Binary compatible (Совместимость на уровне двоичных файлов)** — "
+"Существующие двоичные файлы будут успешно загружены и выполнены без "
+"перекомпиляции, а поведение среды выполнения не изменится."
 
 msgid ""
 "**Source compatible** - Source code will compile successfully without "
@@ -47,14 +75,154 @@ msgstr "Совместимо с исходным кодом C#"
 msgid "Introduced"
 msgstr "Введено в"
 
+msgid "**FileAccess**"
+msgstr "**FileAccess** (Доступ к файлам)"
+
+msgid "Method ``open_encrypted`` adds a new ``iv`` optional parameter"
+msgstr ""
+"Метод ``open_encrypted`` добавляет новый необязательный параметр ``iv``"
+
 msgid "|✔️|"
 msgstr "|✔️|"
 
 msgid "|✔️ with compat|"
 msgstr "|✔️ with compat|"
 
+msgid "`GH-98918`_"
+msgstr "`GH-98918`_"
+
+msgid "Method ``store_8`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"Метод ``store_8`` изменяет тип возвращаемого значения с ``void`` на ``bool``"
+
 msgid "|❌|"
 msgstr "|❌|"
+
+msgid "`GH-78289`_"
+msgstr "`GH-78289`_"
+
+msgid "Method ``store_16`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"Метод ``store_16`` изменяет тип возвращаемого значения с ``void`` на ``bool``"
+
+msgid "Method ``store_32`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"Метод ``store_32`` изменяет тип возвращаемого значения с ``void`` на ``bool``"
+
+msgid "Method ``store_64`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"Метод ``store_64`` изменяет тип возвращаемого значения с ``void`` на ``bool``"
+
+msgid "Method ``store_buffer`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"Метод ``store_buffer`` изменяет тип возвращаемого значения с ``void`` на "
+"``bool``"
+
+msgid "Method ``store_csv_line`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"Метод ``store_csv_line`` изменяет тип возвращаемого значения с ``void`` на "
+"``bool``"
+
+msgid "Method ``store_double`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"Метод ``store_double`` изменяет тип возвращаемого значения с ``void`` на "
+"``bool``"
+
+msgid "Method ``store_float`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"Метод ``store_float`` изменяет тип возвращаемого значения с ``void`` на "
+"``bool``"
+
+msgid "Method ``store_half`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"Метод ``store_half`` изменяет тип возвращаемого значения с ``void`` на "
+"``bool``"
+
+msgid "Method ``store_line`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"Метод ``store_line`` изменяет тип возвращаемого значения с ``void`` на "
+"``bool``"
+
+msgid ""
+"Method ``store_pascal_string`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"Метод ``store_pascal_string`` изменяет тип возвращаемого значения с ``void`` "
+"на ``bool``"
+
+msgid "Method ``store_real`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"Метод ``store_real`` изменяет тип возвращаемого значения с ``void`` на "
+"``bool``"
+
+msgid "Method ``store_string`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"Метод ``store_string`` изменяет тип возвращаемого значения с ``void`` на "
+"``bool``"
+
+msgid "Method ``store_var`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"Метод ``store_var`` изменяет тип возвращаемого значения с ``void`` на "
+"``bool``"
+
+msgid "**OS**"
+msgstr "**OS**"
+
+msgid "Method ``execute_with_pipe`` adds a new ``blocking`` optional parameter"
+msgstr ""
+"Метод ``execute_with_pipe`` добавляет новый необязательный параметр "
+"``blocking``"
+
+msgid "`GH-94434`_"
+msgstr "`GH-94434`_"
+
+msgid ""
+"Method ``read_string_from_stdin`` adds a new ``buffer_size`` parameter [#f1]_"
+msgstr ""
+"Метод ``read_string_from_stdin`` добавляет новый параметр ``buffer_size`` "
+"[#f1]_"
+
+msgid "`GH-91201`_"
+msgstr "`GH-91201`_"
+
+msgid "**RegEx**"
+msgstr "**RegEx (Регулярное выражение)**"
+
+msgid "Method ``compile`` adds a new ``show_error`` optional parameter"
+msgstr ""
+"Метод ``compile`` добавляет новый необязательный параметр ``show_error``"
+
+msgid "`GH-95212`_"
+msgstr "`GH-95212`_"
+
+msgid ""
+"Method ``create_from_string`` adds a new ``show_error`` optional parameter"
+msgstr ""
+"Метод ``create_from_string`` добавляет новый необязательный параметр "
+"``show_error``"
+
+msgid "**Semaphore**"
+msgstr "**Semaphore (Семафор)**"
+
+msgid "Method ``post`` adds a new ``count`` optional parameter"
+msgstr "Метод ``post`` добавляет новый необязательный параметр ``count``"
+
+msgid "`GH-93605`_"
+msgstr "`GH-93605`_"
+
+msgid "**TranslationServer**"
+msgstr "**TranslationServer (Сервер переводов)**"
+
+msgid ""
+"Method ``standardize_locale`` adds a new ``add_defaults`` optional parameter"
+msgstr ""
+"Метод ``standardize_locale`` добавляет новый необязательный параметр "
+"``add_defaults``"
+
+msgid "`GH-98972`_"
+msgstr "`GH-98972`_"
+
+msgid "Default buffer size in 4.3 is ``1024``."
+msgstr "Размер буфера по умолчанию в версии 4.3 составляет ``1024``."
 
 msgid "GUI nodes"
 msgstr "GUI узлы"
@@ -62,26 +230,195 @@ msgstr "GUI узлы"
 msgid "**RichTextLabel**"
 msgstr "**RichTextLabel**"
 
+msgid "Method ``push_meta`` adds a new ``tooltip`` optional parameter"
+msgstr ""
+"Метод ``push_meta`` добавляет новый необязательный параметр ``tooltip``"
+
+msgid "`GH-99481`_"
+msgstr "`GH-99481`_"
+
+msgid ""
+"Method ``set_table_column_expand`` adds a new ``shrink`` optional parameter"
+msgstr ""
+"Метод ``set_table_column_expand`` добавляет новый необязательный параметр "
+"``shrink``"
+
+msgid "`GH-101482`_"
+msgstr "`GH-101482`_"
+
 msgid "**GraphEdit**"
 msgstr "**GraphEdit**"
+
+msgid "Method ``connect_node`` adds a new ``keep_alive`` optional parameter"
+msgstr ""
+"Метод ``connect_node`` добавляет новый необязательный параметр ``keep_alive``"
+
+msgid "`GH-97449`_"
+msgstr "`GH-97449`_"
+
+msgid ""
+"Signal ``frame_rect_changed`` changes ``new_rect`` parameter type from "
+"``Vector2`` to ``Rect2``"
+msgstr ""
+"Сигнал ``frame_rect_changed`` изменяет тип параметра ``new_rect`` с "
+"``Vector2`` на ``Rect2``"
+
+msgid "`GH-102796`_"
+msgstr "`GH-102796`_"
 
 msgid "Physics"
 msgstr "Физика"
 
+msgid "**SoftBody3D**"
+msgstr "**SoftBody3D (Мягкое тело 3D)**"
+
+msgid "Method ``set_point_pinned`` adds a new ``insert_at`` optional parameter"
+msgstr ""
+"Метод ``set_point_pinned`` добавляет новый необязательный параметр "
+"``insert_at``"
+
+msgid "`GH-94684`_"
+msgstr "`GH-94684`_"
+
 msgid "Rendering"
 msgstr "Отрисовка"
+
+msgid "**CPUParticles2D**"
+msgstr "**CPUParticles2D (CPU Частицы 2D)**"
+
+msgid "Method ``restart`` adds a new ``keep_seed`` optional parameter"
+msgstr ""
+"Метод ``restart`` добавляет новый необязательный параметр ``keep_seed``"
+
+msgid "`GH-92089`_"
+msgstr "`GH-92089`_"
+
+msgid "**CPUParticles3D**"
+msgstr "**CPUParticles3D )CPU Частицы 3D (**"
+
+msgid "**GPUParticles2D**"
+msgstr "**GPUParticles2D (GPU Частицы 2D)**"
+
+msgid "**GPUParticles3D**"
+msgstr "**GPUParticles3D (GPU Частицы 3d)**"
 
 msgid "**RenderingDevice**"
 msgstr "**RenderingDevice**"
 
+msgid "Method ``draw_list_begin`` adds a new ``breadcrumb`` optional parameter"
+msgstr ""
+"Метод ``draw_list_begin`` добавляет новый необязательный параметр "
+"``breadcrumb``"
+
+msgid "`GH-90993`_"
+msgstr "`GH-90993`_"
+
+msgid "Method ``draw_list_begin`` removes many parameters"
+msgstr "Метод ``draw_list_begin`` удаляет много параметров"
+
+msgid "`GH-98670`_"
+msgstr "`GH-98670`_"
+
+msgid ""
+"Method ``index_buffer_create`` adds a new ``enable_device_address`` optional "
+"parameter"
+msgstr ""
+"Метод ``index_buffer_create`` добавляет новый необязательный параметр "
+"``enable_device_address``"
+
+msgid "`GH-100062`_"
+msgstr "`GH-100062`_"
+
+msgid ""
+"Method ``uniform_buffer_create`` adds a new ``enable_device_address`` "
+"optional parameter"
+msgstr ""
+"Метод ``uniform_buffer_create`` добавляет новый необязательный параметр "
+"``enable_device_address``"
+
+msgid ""
+"Method ``vertex_buffer_create`` adds a new ``enable_device_address`` "
+"optional parameter"
+msgstr ""
+"Метод ``vertex_buffer_create`` добавляет новый необязательный параметр "
+"``enable_device_address``"
+
 msgid "**RenderingServer**"
 msgstr "**RenderingServer**"
+
+msgid ""
+"Method ``multimesh_allocate_data`` adds a new ``use_indirect`` optional "
+"parameter"
+msgstr ""
+"Метод ``multimesh_allocate_data`` добавляет новый необязательный параметр "
+"``use_indirect``"
+
+msgid "`GH-99455`_"
+msgstr "`GH-99455`_"
+
+msgid "**Shader**"
+msgstr "**Shader (Шейдер)**"
+
+msgid ""
+"Method ``get_default_texture_parameter`` changes return type from "
+"``Texture2D`` to ``Texture``"
+msgstr ""
+"Метод ``get_default_texture_parameter`` изменяет тип возвращаемого значения "
+"с ``Texture2D`` на ``Texture``"
+
+msgid "`GH-95126`_"
+msgstr "`GH-95126`_"
+
+msgid ""
+"Method ``set_default_texture_parameter`` changes ``texture`` parameter type "
+"from ``Texture2D`` to ``Texture``"
+msgstr ""
+"Метод ``set_default_texture_parameter`` изменяет тип параметра ``texture`` с "
+"``Texture2D`` на ``Texture``"
+
+msgid "**VisualShaderNodeCubemap**"
+msgstr ""
+"**VisualShaderNodeCubemap (Кубическая карта узла визуального шейдера)**"
+
+msgid ""
+"Property ``cube_map`` changes type from ``Cubemap`` to ``TextureLayered``"
+msgstr "Свойство ``cube_map`` меняет тип с ``Cubemap`` на ``TextureLayered``"
+
+msgid "**VisualShaderNodeTexture2DArray**"
+msgstr ""
+"**VisualShaderNodeTexture2DArray (2D-массив текстур узла визуального "
+"шейдера)**"
+
+msgid ""
+"Property ``texture_array`` changes type from ``Texture2DArray`` to "
+"``TextureLayered``"
+msgstr ""
+"Свойство ``texture_array`` меняет тип с ``Texture2DArray`` на "
+"``TextureLayered``"
+
+msgid ""
+"In C#, the enum ``RenderingDevice.StorageBufferUsage`` breaks compatibility "
+"because of the way the bindings generator detects the enum prefix. New "
+"members where added in `GH-100062`_ to the enum that caused the enum members "
+"to be renamed."
+msgstr ""
+"В C# перечисление ``RenderingDevice.StorageBufferUsage`` нарушает "
+"совместимость из-за способа, которым генератор привязок определяет префикс "
+"перечисления. В `GH-100062`_ были добавлены новые члены перечисления, что "
+"привело к переименованию членов перечисления."
 
 msgid "Navigation"
 msgstr "Навигация"
 
 msgid "**NavigationServer2D**"
 msgstr "**NavigationServer2D**"
+
+msgid "Method ``query_path`` adds a new ``callback`` optional parameter"
+msgstr ""
+"Метод ``query_path`` добавляет новый необязательный параметр ``callback``"
+
+msgid "`GH-100129`_"
+msgstr "`GH-100129`_"
 
 msgid "**NavigationServer3D**"
 msgstr "**NavigationServer3D**"
@@ -92,8 +429,110 @@ msgstr "Плагины редактора"
 msgid "**EditorInterface**"
 msgstr "**EditorInterface**"
 
+msgid ""
+"Method ``open_scene_from_path`` adds a new ``set_inherited`` optional "
+"parameter"
+msgstr ""
+"Метод ``open_scene_from_path`` добавляет новый необязательный параметр "
+"``set_inherited``"
+
+msgid "`GH-90057`_"
+msgstr "`GH-90057`_"
+
+msgid ""
+"Method ``popup_node_selector`` adds a new ``current_value`` optional "
+"parameter"
+msgstr ""
+"Метод ``popup_node_selector`` добавляет новый необязательный параметр "
+"``current_value``"
+
+msgid "`GH-94323`_"
+msgstr "`GH-94323`_"
+
+msgid ""
+"Method ``popup_property_selector`` adds a new ``current_value`` optional "
+"parameter"
+msgstr ""
+"Метод ``popup_property_selector`` добавляет новый необязательный параметр "
+"``current_value``"
+
+msgid "**EditorSceneFormatImporter**"
+msgstr "**EditorSceneFormatImporter (Импортер форматов сцен редактора)**"
+
+msgid "Method ``_get_import_flags`` removed"
+msgstr "Метод ``_get_import_flags`` удален"
+
+msgid "`GH-101531`_"
+msgstr "`GH-101531`_"
+
+msgid "**EditorTranslationParserPlugin**"
+msgstr "**EditorTranslationParserPlugin (Плагин парсера перевода редактора)**"
+
+msgid ""
+"Method ``_parse_file`` changes return type to ``Array`` and removes "
+"``msgids`` and ``msgids_context_plural`` parameters"
+msgstr ""
+"Метод ``_parse_file`` изменяет тип возвращаемого значения на ``Array`` и "
+"удаляет параметры ``msgids`` и ``msgids_context_plural``"
+
+msgid "`GH-99297`_"
+msgstr "`GH-99297`_"
+
+msgid ""
+"The method ``_get_import_flags`` was never used by the engine. It was "
+"removed despite the compatibility breakage as there's no way for users to "
+"rely on this affecting engine behavior."
+msgstr ""
+"Метод ``_get_import_flags`` никогда не использовался движком. Он был удалён, "
+"несмотря на нарушение совместимости, поскольку пользователи не могли "
+"полагаться на него из-за того, что это влияло на поведение движка."
+
 msgid "Behavior changes"
 msgstr "Изменения в поведении"
 
+msgid ""
+"The ``Curve`` resource now enforces its value range, so ``min_value`` and "
+"``max_value`` need to be changed if any of the points fall outside of the "
+"default ``[0, 1]`` range."
+msgstr ""
+"Ресурс ``Curve`` теперь принудительно устанавливает свой диапазон значений, "
+"поэтому ``min_value`` и ``max_value`` необходимо изменить, если какая-либо "
+"из точек выходит за пределы диапазона по умолчанию ``[0, 1]``."
+
+msgid ""
+"The ``VisualShaderNodeVec4Constant`` shader node had its input type changed "
+"to ``Vector4``. Users need to recreate the values in their constants."
+msgstr ""
+"Тип входных данных узла шейдера ``VisualShaderNodeVec4Constant`` изменён на "
+"``Vector4``. Пользователям необходимо пересоздать значения в своих "
+"константах."
+
+msgid "CSG"
+msgstr "CSG"
+
+msgid ""
+"The CSG implementation now uses Emmett Lalish's `Manifold <https://"
+"github.com/elalish/manifold>`_ library (`GH-94321`_). The new implementation "
+"is more consistent with manifold definitions and fixes a number of bugs and "
+"stability issues. As a result, non-manifold meshes are no longer supported. "
+"You can use ``MeshInstance3D`` for rendering non-manifold geometry, such as "
+"quads or planes."
+msgstr ""
+"Реализация CSG теперь использует библиотеку `Manifold <https://github.com/"
+"elalish/manifold>`_ Эммета Лалиша (`GH-94321`_). Новая реализация лучше "
+"соответствует определениям многообразий и исправляет ряд ошибок и проблем со "
+"стабильностью. В результате этого неманифолдные сетки больше не "
+"поддерживаются. Для рендеринга неманифолдной геометрии, такой как "
+"четырёхугольники или плоскости, можно использовать ``MeshInstance3D``."
+
 msgid "Android"
 msgstr "Android"
+
+msgid ""
+"Android sensor events are no longer enabled by default (`GH-94799`_). "
+"Projects that use sensor events can enable them as needed in Project "
+"Settings under **Input Devices > Sensors**."
+msgstr ""
+"События датчиков Android больше не включены по умолчанию (`GH-94799`_). "
+"Проекты, использующие события датчиков, могут включать их при необходимости "
+"в настройках проекта в разделе **Input Devices > Sensors**."

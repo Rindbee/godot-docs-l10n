@@ -146,12 +146,6 @@ msgstr ""
 "Imposta la durata dell'animazione su ``1.2`` secondi nell'angolo in alto a "
 "destra del pannello."
 
-msgid "|image7|"
-msgstr "|image7|"
-
-msgid "image7"
-msgstr "image7"
-
 msgid ""
 "You should see the gray ribbon widen a bit. It shows you the start and end "
 "of your animation and the vertical blue line is your time cursor."
@@ -159,11 +153,11 @@ msgstr ""
 "Dovresti vedere il nastro grigio allargarsi leggermente. Ti mostra l'inizio "
 "e la fine dell'animazione e la linea blu verticale è il cursore del tempo."
 
-msgid "|image8|"
-msgstr "|image8|"
+msgid "|image7|"
+msgstr "|image7|"
 
-msgid "image8"
-msgstr "image8"
+msgid "image7"
+msgstr "image7"
 
 msgid ""
 "You can click and drag the slider in the bottom-right to zoom in and out of "
@@ -172,11 +166,11 @@ msgstr ""
 "È possibile cliccare e trascinare lo slider in basso a destra per ingrandire "
 "o rimpicciolire la linea del tempo."
 
-msgid "|image9|"
-msgstr "|image9|"
+msgid "|image8|"
+msgstr "|image8|"
 
-msgid "image9"
-msgstr "image9"
+msgid "image8"
+msgstr "image8"
 
 msgid "The float animation"
 msgstr "L'animazione fluttuante"
@@ -209,11 +203,11 @@ msgstr ""
 "Seleziona ``Character`` e nell'*Ispettore* espandi la sezione *Transform*. "
 "Clicca sull'icona a forma di chiave accanto a *Position* e *Rotation*."
 
-msgid "|image10|"
-msgstr "|image10|"
+msgid "|image9|"
+msgstr "|image9|"
 
-msgid "image10"
-msgstr "image10"
+msgid "image9"
+msgstr "image9"
 
 msgid ""
 "For this tutorial, just create RESET Track(s) which is the default choice"
@@ -228,11 +222,11 @@ msgstr ""
 "Due tracce sono visualizzate nell'editor, ciascuna delle quali è "
 "rappresentata da un'icona a forma di diamante."
 
-msgid "|image11|"
-msgstr "|image11|"
+msgid "|image10|"
+msgstr "|image10|"
 
-msgid "image11"
-msgstr "image11"
+msgid "image10"
+msgstr "image10"
 
 msgid ""
 "You can click and drag on the diamonds to move them in time. Move the "
@@ -242,18 +236,11 @@ msgstr ""
 "chiave della posizione a ``0.3`` secondi e la chiave della rotazione a "
 "``0.1`` secondi."
 
-msgid "|image12|"
-msgstr "|image12|"
+msgid "|image11|"
+msgstr "|image11|"
 
-msgid "image12"
-msgstr "image12"
-
-msgid ""
-"Move the time cursor to ``0.5`` seconds by clicking and dragging on the gray "
-"timeline."
-msgstr ""
-"Spostare il cursore del tempo su ``0.5`` secondi cliccando e trascinando "
-"sulla linea del tempo grigia."
+msgid "image11"
+msgstr "image11"
 
 msgid "|timeline_05_click|"
 msgstr "|timeline_05_click|"
@@ -275,11 +262,11 @@ msgstr ""
 "Se non vedi le proprietà nel pannello *Ispettore*, clicca prima nuovamente "
 "sul nodo ``Character`` nel pannello *Scena*."
 
-msgid "|image13|"
-msgstr "|image13|"
+msgid "|image12|"
+msgstr "|image12|"
 
-msgid "image13"
-msgstr "image13"
+msgid "image12"
+msgstr "image12"
 
 msgid "Create a keyframe for both properties"
 msgstr "Crea un fotogramma chiave per entrambe le proprietà"
@@ -297,11 +284,11 @@ msgstr ""
 "Ora, sposta il fotogramma chiave di posizione a ``0.7`` secondi "
 "trascinandolo sulla linea del tempo."
 
-msgid "|image14|"
-msgstr "|image14|"
+msgid "|image13|"
+msgstr "|image13|"
 
-msgid "image14"
-msgstr "image14"
+msgid "image13"
+msgstr "image13"
 
 msgid ""
 "A lecture on the principles of animation is beyond the scope of this "
@@ -340,11 +327,11 @@ msgstr ""
 "riproduzione o premendo :kbd:`Maiusc + D`. Clicca sul pulsante di arresto o "
 "premi :kbd:`S` per interrompere la riproduzione."
 
-msgid "|image15|"
-msgstr "|image15|"
+msgid "|image14|"
+msgstr "|image14|"
 
-msgid "image15"
-msgstr "image15"
+msgid "image14"
+msgstr "image14"
 
 msgid ""
 "You can see that the engine interpolates between your keyframes to produce a "
@@ -369,11 +356,11 @@ msgstr ""
 "Clicca e trascina attorno alle prime due chiavi nella linea del tempo per "
 "selezionarle."
 
-msgid "|image16|"
-msgstr "|image16|"
+msgid "|image15|"
+msgstr "|image15|"
 
-msgid "image16"
-msgstr "image16"
+msgid "image15"
+msgstr "image15"
 
 msgid ""
 "You can edit the properties of both keys simultaneously in the *Inspector*, "
@@ -382,11 +369,11 @@ msgstr ""
 "Puoi modificare contemporaneamente le proprietà di entrambe le chiavi "
 "nell'*Ispettore*, dove è possibile vedere una proprietà *Easing*."
 
-msgid "|image17|"
-msgstr "|image17|"
+msgid "|image16|"
+msgstr "|image16|"
 
-msgid "image17"
-msgstr "image17"
+msgid "image16"
+msgstr "image16"
 
 msgid ""
 "Click and drag on the curve, pulling it towards the left. This will make it "
@@ -397,11 +384,11 @@ msgstr ""
 "ease-out, ovvero la transizione sarà inizialmente rapida e rallenterà man "
 "mano che il cursore del tempo raggiunge il fotogramma chiave successivo."
 
-msgid "|image18|"
-msgstr "|image18|"
+msgid "|image17|"
+msgstr "|image17|"
 
-msgid "image18"
-msgstr "image18"
+msgid "image17"
+msgstr "image17"
 
 msgid ""
 "Play the animation again to see the difference. The first half should "
@@ -414,11 +401,11 @@ msgid "Apply an ease-out to the second keyframe in the rotation track."
 msgstr ""
 "Applica un ease-out al secondo fotogramma chiave nella traccia di rotazione."
 
-msgid "|image19|"
-msgstr "|image19|"
+msgid "|image18|"
+msgstr "|image18|"
 
-msgid "image19"
-msgstr "image19"
+msgid "image18"
+msgstr "image18"
 
 msgid ""
 "Do the opposite for the second position keyframe, dragging it to the right."
@@ -426,20 +413,20 @@ msgstr ""
 "Fai l'opposto per il secondo fotogramma chiave di posizione, trascinandolo "
 "verso destra."
 
+msgid "|image19|"
+msgstr "|image19|"
+
+msgid "image19"
+msgstr "image19"
+
+msgid "Your animation should look something like this."
+msgstr "La tua animazione dovrebbe assomigliare a questa."
+
 msgid "|image20|"
 msgstr "|image20|"
 
 msgid "image20"
 msgstr "image20"
-
-msgid "Your animation should look something like this."
-msgstr "La tua animazione dovrebbe assomigliare a questa."
-
-msgid "|image21|"
-msgstr "|image21|"
-
-msgid "image21"
-msgstr "image21"
 
 msgid ""
 "Animations update the properties of the animated nodes every frame, "
@@ -479,11 +466,11 @@ msgid "Open the ``Player``'s script by clicking the script icon next to it."
 msgstr ""
 "Apri lo script ``Player`` cliccando sull'icona dello script accanto ad esso."
 
-msgid "|image22|"
-msgstr "|image22|"
+msgid "|image21|"
+msgstr "|image21|"
 
-msgid "image22"
-msgstr "image22"
+msgid "image21"
+msgstr "image21"
 
 msgid ""
 "In ``_physics_process()``, after the line where we check the ``direction`` "

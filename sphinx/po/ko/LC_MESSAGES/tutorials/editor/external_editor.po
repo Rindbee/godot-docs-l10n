@@ -37,7 +37,7 @@ msgid "``{project}``"
 msgstr "``{project}``"
 
 msgid "The absolute path to the project directory"
-msgstr "프로젝트 디렉토리의 절대 경로"
+msgstr "프로젝트 디렉터리의 절대 경로"
 
 msgid "``{file}``"
 msgstr "``{file}``"

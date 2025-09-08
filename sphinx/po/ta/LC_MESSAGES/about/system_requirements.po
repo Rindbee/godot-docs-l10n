@@ -53,13 +53,6 @@ msgstr "** சி.பீ.யூ **"
 msgid "**Forward+ renderer:** Integrated graphics with full Vulkan 1.0 support"
 msgstr "** முன்னோக்கி+ ரெண்டரர்: ** முழு வல்கன் 1.0 ஆதரவுடன் ஒருங்கிணைந்த கிராபிக்ச்"
 
-msgid ""
-"*Example: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics "
-"(Kaveri)*"
-msgstr ""
-"*எடுத்துக்காட்டு: இன்டெல் எச்டி கிராபிக்ச் 5500 (பிராட்வெல்), ஏஎம்டி ரேடியான் ஆர் 5 "
-"கிராபிக்ச் (காவேரி)*"
-
 msgid "**Mobile renderer:** Integrated graphics with full Vulkan 1.0 support"
 msgstr "** மொபைல் ரெண்டரர்: ** முழு வல்கன் 1.0 ஆதரவுடன் ஒருங்கிணைந்த கிராபிக்ச்"
 

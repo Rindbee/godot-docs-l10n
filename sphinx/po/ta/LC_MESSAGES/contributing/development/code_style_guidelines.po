@@ -400,13 +400,6 @@ msgstr ""
 "பயன்படுத்தலாம்:"
 
 msgid ""
-"``-l 120`` means that the allowed number of characters per line is 120. This "
-"number was agreed upon by the developers."
-msgstr ""
-"`` -l 120`` என்பது ஒரு வரிக்கு அனுமதிக்கப்பட்ட எழுத்துக்கள் 120 ஆகும். இந்த எண்ணை "
-"டெவலப்பர்களால் ஒப்புக் கொள்ளப்பட்டது."
-
-msgid ""
 "The path can point to several files, either one after the other or using "
 "wildcards like in a typical Unix shell."
 msgstr ""

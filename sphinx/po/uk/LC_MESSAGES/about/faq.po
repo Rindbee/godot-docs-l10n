@@ -1274,6 +1274,11 @@ msgstr ""
 "Ми використовуємо наш власний тип String, так як надається STL є занадто "
 "простим і не має належної підтримки інтернаціоналізації."
 
+msgid ""
+"Check out :ref:`Godot's container types <doc_core_types>` for alternatives."
+msgstr ""
+"Перегляньте :ref:`Godot's container types <doc_core_types>` для альтернатив."
+
 msgid "Why does Godot not use exceptions?"
 msgstr "Чому Godot не використовує винятки?"
 

@@ -11,6 +11,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Room scale in XR"
+msgstr "Масштаб помещения в XR"
+
+msgid ""
+"The `Origin centric movement demo <https://github.com/godotengine/godot-demo-"
+"projects/tree/master/xr/openxr_origin_centric_movement>`__ contains a more "
+"elaborate example of the technique described below."
+msgstr ""
+"`Демонстрация движения, ориентированного на Origin <https://github.com/"
+"godotengine/godot-demo-projects/tree/master/xr/"
+"openxr_origin_centric_movement>`__ содержит более подробный пример техники, "
+"описанной ниже."
+
 msgid "Step 1"
 msgstr "Шаг 1"
 
@@ -19,3 +32,19 @@ msgstr "Шаг 2"
 
 msgid "Step 3"
 msgstr "Шаг 3"
+
+msgid "Character body centric solution"
+msgstr "Решение, ориентированное на тело персонажа"
+
+msgid ""
+"The `Character centric movement demo <https://github.com/godotengine/godot-"
+"demo-projects/tree/master/xr/openxr_character_centric_movement>`__ contains "
+"a more elaborate example of the technique described below."
+msgstr ""
+"`Демонстрация движения, ориентированного на персонажа <https://github.com/"
+"godotengine/godot-demo-projects/tree/master/xr/"
+"openxr_character_centric_movement>`__ содержит более подробный пример "
+"техники, описанной ниже."
+
+msgid "When the player walks to somewhere they shouldn't"
+msgstr "Когда игрок идет туда, куда ему не следует идти"

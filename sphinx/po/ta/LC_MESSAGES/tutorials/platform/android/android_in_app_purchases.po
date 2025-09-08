@@ -14,15 +14,6 @@ msgstr ""
 msgid "Android in-app purchases"
 msgstr "ஆண்ட்ராய்டு இன்-பயன்பாட்டு கொள்முதல்"
 
-msgid ""
-"Godot offers a first-party ``GodotGooglePlayBilling`` Android plugin "
-"compatible with Godot 4 which uses the `Google Play Billing library <https://"
-"developer.android.com/google/play/billing>`_."
-msgstr ""
-"கோடோட் `` கோடோட்கோஎல்ப்ளே பிளேில்லிங்`` ஆண்ட்ராய்டு சொருகி கோடோட் 4 உடன் இணக்கமான `கூகிள் "
-"பிளே பட்டியலிடல் நூலகத்தைப் <https://developer.android.com/google/play/billing>` "
-"_ ஆகியவற்றைப் பயன்படுத்துகிறது."
-
 msgid "Usage"
 msgstr "பயன்பாடு"
 

@@ -14,6 +14,10 @@ msgstr ""
 msgid "C# API differences to GDScript"
 msgstr "Відмінності API C# в GDScript"
 
+msgid ""
+"This is an (incomplete) list of API differences between C# and GDScript."
+msgstr "Це (неповний) список відмінностей API між C# та GDScript."
+
 msgid "General differences"
 msgstr "Загальні відмінності"
 
@@ -1011,6 +1015,13 @@ msgstr ""
 "Використовуйте ``System.String`` (``рядок``). Більшість методів Godot String "
 "мають еквівалент у ``System.String`` або надаються класом "
 "``StringExtensions`` як методи розширення."
+
+msgid ""
+"Note that C# strings use UTF-16 encoding, while Godot Strings use UTF-32 "
+"encoding."
+msgstr ""
+"Зверніть увагу, що рядки C# використовують кодування UTF-16, тоді як рядки "
+"Godot використовують кодування UTF-32."
 
 msgid ""
 "Strings are immutable in .NET, so all methods that manipulate a string don't "

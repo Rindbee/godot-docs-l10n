@@ -24,6 +24,9 @@ msgstr ""
 "ce dont vous avez besoin de faire attention à lors de la migration de votre "
 "projet."
 
+msgid "Breaking changes"
+msgstr "Changements incompatibles"
+
 msgid ""
 "If you are migrating from 4.1 to 4.2, the breaking changes listed here might "
 "affect you. Changes are grouped by areas/systems."

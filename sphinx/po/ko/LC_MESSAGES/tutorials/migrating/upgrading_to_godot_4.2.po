@@ -14,11 +14,17 @@ msgstr ""
 msgid "Change"
 msgstr "변경"
 
+msgid "**Node**"
+msgstr "**노드**"
+
 msgid "Animation"
 msgstr "애니메이션"
 
 msgid "Rendering"
 msgstr "렌더링"
+
+msgid "**GraphNode**"
+msgstr "**GraphNode**"
 
 msgid "TileMap"
 msgstr "타일맵"

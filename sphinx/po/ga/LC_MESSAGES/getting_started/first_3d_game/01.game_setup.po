@@ -238,11 +238,6 @@ msgstr ""
 "glas an láimhseála agus cliceáil agus tarraing ar an stua dearg chun é a "
 "rothlú timpeall an X-ais, go dtí go bhfuil an talamh soilsithe."
 
-msgid ""
-"In the *Inspector*, turn on *Shadow -> Enabled* by clicking the checkbox."
-msgstr ""
-"Sa *Cigire*, cas ar * Scáth -> Cumasaithe * trí chliceáil ar an ticbhosca."
-
 msgid "At this point, your project should look like this."
 msgstr "Ag an bpointe seo, ba chóir go mbeadh cuma mar seo ar do thionscadal."
 

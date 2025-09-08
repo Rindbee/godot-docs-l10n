@@ -21,10 +21,16 @@ msgid "Small Deploy with Network Filesystem"
 msgstr "네트워크 파일시스템으로 작게 배포"
 
 msgid "Visible Collision Shapes"
-msgstr "콜리전 모양 보이기"
+msgstr "보여줄 콜리전 모양"
+
+msgid "Visible Paths"
+msgstr "보여줄 경로"
 
 msgid "Visible Navigation"
-msgstr "네비게이션 보이기"
+msgstr "보여줄 내비게이션"
+
+msgid "Visible Avoidance"
+msgstr "보여줄 어보이던스"
 
 msgid "Debug CanvasItem Redraws"
 msgstr "CanvasItem 리드로우를 디버깅"

@@ -100,6 +100,31 @@ msgstr ""
 "트 없이 애셋을 보여주며 디스크 압축률도 훌륭합니다. 하지만 VRAM 압축보다 비디"
 "오 메모리 량이 훨씬 많이 사용합니다. 픽셀 아트에도 권장되는 설정입니다."
 
+msgid ""
+"In this table, each of the 5 options are described together with their "
+"advantages and disadvantages (|good| = best, |bad| = worst):"
+msgstr ""
+"이 표에는 5가지 옵션 각각의 장점과 단점을 함께 설명합니다 (|good| = 최고, |"
+"bad| = 최악):"
+
+msgid "Compress mode"
+msgstr "압축 모드"
+
+msgid "Lossless"
+msgstr "무손실"
+
+msgid "Lossy"
+msgstr "손실"
+
+msgid "VRAM Compressed"
+msgstr "VRAM 압축"
+
+msgid "VRAM Uncompressed"
+msgstr "VRAM 비압축"
+
+msgid "Basis Universal"
+msgstr "Basis Universal"
+
 msgid "**Description**"
 msgstr "**설명**"
 
@@ -107,25 +132,49 @@ msgid "Stored as Lossless WebP / PNG"
 msgstr "무손실 WebP / PNG로 저장됨"
 
 msgid "Stored as Lossy WebP"
-msgstr "손실 압축된 WebP로 저장됨"
+msgstr "손실 WebP로 저장됨"
+
+msgid "Stored as S3TC, BPTC or ETC2 depending on platform"
+msgstr "플랫폼에 따라 S3TC, BPTC 또는 ETC2로 저장됨"
 
 msgid "Stored as raw pixels"
 msgstr "압축되지 않은 픽셀로 저장됨"
 
+msgid "Transcoded to VRAM Compressed format"
+msgstr "VRAM 압축 형식으로 변환됨"
+
+msgid "**Size on disk**"
+msgstr "**디스크의 크기**"
+
 msgid "|regular| Small"
 msgstr "|regular| 작음"
 
+msgid "regular"
+msgstr "보통"
+
+msgid "|good| Very small"
+msgstr "|good| 매우 작음"
+
 msgid "|bad| Large"
-msgstr "|bad| 거대함"
+msgstr "|bad| 큼"
+
+msgid "**Memory usage**"
+msgstr "**메모리 사용량**"
 
 msgid "|good| Small"
 msgstr "|good| 작음"
+
+msgid "**Performance**"
+msgstr "**성능**"
 
 msgid "|regular| Normal"
 msgstr "|regular| 보통"
 
 msgid "|good| Fast"
 msgstr "|good| 빠름"
+
+msgid "**Quality loss**"
+msgstr "**품질 손실**"
 
 msgid "|good| None"
 msgstr "|good| 없음"
@@ -142,6 +191,79 @@ msgstr "**불러오기 시간**"
 msgid "|bad| Slow"
 msgstr "|bad| 느림"
 
+msgid "Estimated memory usage for a single RGBA8 texture with mipmaps enabled:"
+msgstr "밉맵이 활성화된 단일 RGBA8 텍스처에 대한 예상 메모리 사용량:"
+
+msgid "Texture size"
+msgstr "텍스처 크기"
+
+msgid "**128×128**"
+msgstr "**128×128**"
+
+msgid "|good| 85 KiB"
+msgstr "|good| 85 KiB"
+
+msgid "|good| 21 KiB"
+msgstr "|good| 21 KiB"
+
+msgid "**256×256**"
+msgstr "**256×256**"
+
+msgid "|good| 341 KiB"
+msgstr "|good| 341 KiB"
+
+msgid "**512×512**"
+msgstr "**512×512**"
+
+msgid "|good| 1.33 MiB"
+msgstr "|good| 1.33 MiB"
+
+msgid "**1024×1024**"
+msgstr "**1024×1024**"
+
+msgid "|regular| 5.33 MiB"
+msgstr "|regular| 5.33 MiB"
+
+msgid "**2048×2048**"
+msgstr "**2048×2048**"
+
+msgid "|bad| 21.33 MiB"
+msgstr "|bad| 21.33 MiB"
+
+msgid "**4096×4096**"
+msgstr "**4096×4096**"
+
+msgid "|bad| 85.33 MiB"
+msgstr "|bad| 85.33 MiB"
+
+msgid ""
+"In the above table, memory usage will be reduced by 25% for images that do "
+"not have an alpha channel (RGB8). Memory usage will be further decreased by "
+"25% for images that have mipmaps disabled."
+msgstr ""
+"위 표에서 알파 채널을 가지고 있지 않은 이미지(RGB8)에 대한 메모리 사용량이 "
+"25%로 감소합니다. 밉맵이 비활성화된 이미지에 대한 메모리 사용량은 25%로 더욱 "
+"감소됩니다."
+
+msgid ""
+"When using a texture as normal map, only the red and green channels are "
+"required. Given regular texture compression algorithms produce artifacts "
+"that don't look that nice in normal maps, the :abbr:`RGTC (Red-Green Texture "
+"Compression)` compression format is the best fit for this data. Forcing this "
+"option to **Enable** will make Godot import the image as :abbr:`RGTC (Red-"
+"Green Texture Compression)` compressed. By default, it's set to **Detect**. "
+"This means that if the texture is ever detected to be used as a normal map, "
+"it will be changed to **Enable** and reimported automatically."
+msgstr ""
+"텍스처를 노멀 맵으로 사용할 때는 빨강과 초록 채널만 필요합니다. 일반적인 텍스"
+"처 압축 알고리즘은 노멀 맵에서 보기 흉한 아티팩트를 일으키므"
+"로, :abbr:`RGTC(Red-Green Texture Compression)` 압축 형식이 이 데이터에는 가"
+"장 적합합니다. 이 옵션을 **활성화**\\ 로 강제하면 Godot는 이미지"
+"를 :abbr:`RGTC(Red-Green Texture Compression)` 압축 형식으로 가져오게 됩니"
+"다. 기본적으로는 **감지**\\ 로 설정되어 있습니다. 즉, 텍스처가 노멀 맵으로 사"
+"용되는 것으로 감지되면 자동으로 **활성화**\\ 로 변경되어 다시 가져온다는 것"
+"을 뜻합니다."
+
 msgid ""
 "More information about normal maps (including a coordinate order table for "
 "popular engines) can be found `here <http://wiki.polycount.com/wiki/"
@@ -150,6 +272,23 @@ msgstr ""
 "노멀맵에 관한 추가적인 정보(유명 엔진 등의 좌표 순서가 정리된 테이블 등)는 `"
 "이 곳 <http://wiki.polycount.com/wiki/Normal_Map_Technical_Details>`__ 에서 "
 "찾을 수 있습니다."
+
+msgid "Process > Fix Alpha Border"
+msgstr "프로세스 > 알파 테두리 고치기"
+
+msgid "Process > Premult Alpha"
+msgstr "프로세스 > 프리멀트 알파"
+
+msgid ""
+"An alternative to fixing darkened borders with **Fix Alpha Border** is to "
+"use premultiplied alpha. By enabling this option, the texture will be "
+"converted to this format. A premultiplied alpha texture requires specific "
+"materials to be displayed correctly:"
+msgstr ""
+"**알파 테두리 고치기**\\ 를 사용하여 어두워진 테두리를 고치는 대신, 프리멀티"
+"플라이드 알파를 사용할 수 있습니다. 이 옵션을 활성화하면 텍스처가 이 형식으"
+"로 변환됩니다. 프리멀티플라이드 알파 텍스처를 올바르게 표시하려면 특정 머티리"
+"얼이 필요합니다."
 
 msgid "Best practices"
 msgstr "모범 사례"

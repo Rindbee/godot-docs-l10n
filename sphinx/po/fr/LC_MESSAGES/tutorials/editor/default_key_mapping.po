@@ -410,6 +410,9 @@ msgstr ":kbd:`Shift + F12`"
 msgid "``editor/bottom_panel_expand``"
 msgstr "``editor/bottom_panel_expand``"
 
+msgid "Command Palette"
+msgstr "Palette de commandes"
+
 msgid ":kbd:`Ctrl + Shift + P`"
 msgstr ":kbd:`Ctrl + Shift + P`"
 

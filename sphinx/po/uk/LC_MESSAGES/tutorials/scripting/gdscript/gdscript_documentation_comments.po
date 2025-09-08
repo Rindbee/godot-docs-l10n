@@ -171,6 +171,9 @@ msgstr "``@deprecated: замість цього використовуйте [m
 msgid "``@experimental: This method is incomplete.``"
 msgstr "``@experimental: Цей метод є неповним.``"
 
+msgid "Alternatively, you can use inline documentation comments:"
+msgstr "Або ж ви можете використовувати вбудовані коментарі в документації:"
+
 msgid ""
 "The script documentation will update in the editor help window every time "
 "the script is updated. If any member variable or function name starts with "

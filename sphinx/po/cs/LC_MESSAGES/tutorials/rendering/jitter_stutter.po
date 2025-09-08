@@ -11,6 +11,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"*Jitter* and *stutter* are two different alterations to visible motion of "
+"objects on screen that may affect a game, even when running at full speed. "
+"These effects are mostly visible in games where the world moves at a "
+"constant speed in a fixed direction, like runners or platformers."
+msgstr ""
+"*Trhání(jitter)* a *zadrhávání(stutter)* jsou dvě různé změny viditelného "
+"pohybu objektů na obrazovce, které mohou ovlivnit hru, i když běží na plnou "
+"rychlost. Tyto efekty jsou nejvíce viditelné ve hrách, kde se svět pohybuje "
+"konstantní rychlostí v pevném směru, jako jsou běžecké hry nebo plošinovky."
+
 msgid "Windows"
 msgstr "Windows"
 

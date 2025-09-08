@@ -14,6 +14,13 @@ msgstr ""
 msgid "Built-in functions"
 msgstr "Fonctions intégrées"
 
+msgid ""
+"Godot supports a large number of built-in functions, conforming roughly to "
+"the GLSL ES 3.0 specification."
+msgstr ""
+"Godot prend en charge un grand nombre de fonctions intégrées, se conformant "
+"globalement à la spécification GLSL ES 3.0."
+
 msgid "alias"
 msgstr "alias"
 
@@ -203,11 +210,23 @@ msgstr "Tangente hyperbolique."
 msgid ":ref:`asinh<shader_func_asinh>`\\ (\\ |vec_type| x)"
 msgstr ":ref:`asinh<shader_func_asinh>`\\ (\\ |vec_type| x)"
 
+msgid "Arc hyperbolic sine."
+msgstr "Sinus hyperbolique inverse."
+
 msgid ":ref:`acosh<shader_func_acosh>`\\ (\\ |vec_type| x)"
 msgstr ":ref:`acosh<shader_func_acosh>`\\ (\\ |vec_type| x)"
 
+msgid "Arc hyperbolic cosine."
+msgstr "Cosinus hyperbolique inverse."
+
 msgid ":ref:`atanh<shader_func_atanh>`\\ (\\ |vec_type| x)"
 msgstr ":ref:`atanh<shader_func_atanh>`\\ (\\ |vec_type| x)"
+
+msgid "Arc hyperbolic tangent."
+msgstr "Tangente hyperbolique inverse."
+
+msgid "Trigonometric function descriptions"
+msgstr "Description des fonctions trigonométriques"
 
 msgid ""
 "|vec_type| **radians**\\ (\\ |vec_type| "
@@ -374,6 +393,9 @@ msgstr "Exponentielle de base 2."
 msgid ":ref:`log<shader_func_log>`\\ (\\ |vec_type| x)"
 msgstr ":ref:`log<shader_func_log>`\\ (\\ |vec_type| x)"
 
+msgid "Natural (base-e) logarithm."
+msgstr "Logarithme naturel (en base e)."
+
 msgid ":ref:`log2<shader_func_log2>`\\ (\\ |vec_type| x)"
 msgstr ":ref:`log2<shader_func_log2>`\\ (\\ |vec_type| x)"
 
@@ -505,6 +527,18 @@ msgid ""
 msgstr ""
 ":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, |vec_int_type| min, |"
 "vec_int_type| max)"
+
+msgid ""
+":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_uint_type| x, |vec_uint_type| "
+"min, |vec_uint_type| max)"
+msgstr ""
+":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_uint_type| x, |vec_uint_type| "
+"min, |vec_uint_type| max)"
+
+msgid ""
+":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_uint_type| x, uint min, uint max)"
+msgstr ""
+":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_uint_type| x, uint min, uint max)"
 
 msgid ""
 ":ref:`mix<shader_func_mix>`\\ (\\ |vec_type| a, |vec_type| b, |vec_type| c)"
@@ -1918,6 +1952,9 @@ msgid ""
 "p) :ref:`🔗<shader_func_textureQueryLod>`"
 msgstr "vec4 **textureLod** (samplerCube s, vec3 uv, float lod)"
 
+msgid "Available only in the fragment shader."
+msgstr "Disponible seulement dans le fragment shader."
+
 msgid ""
 "The mipmap array(s) that would be accessed is returned in the x component of "
 "the return value. The computed level-of-detail relative to the base level is "
@@ -2318,6 +2355,9 @@ msgstr ""
 "|vec_type| **dFdxCoarse**\\ (\\ |vec_type| "
 "p) :ref:`🔗<shader_func_dFdxCoarse>`"
 
+msgid "https://registry.khronos.org/OpenGL-Refpages/gl4/html/dFdx.xhtml"
+msgstr "https://registry.khronos.org/OpenGL-Refpages/gl4/html/dFdx.xhtml"
+
 msgid ""
 "|vec_type| **dFdxFine**\\ (\\ |vec_type| p) :ref:`🔗<shader_func_dFdxFine>`"
 msgstr ""
@@ -2370,6 +2410,9 @@ msgstr ""
 
 msgid "Equivalent to ``abs(dFdxFine(p)) + abs(dFdyFine(p))``."
 msgstr "Équivalent à ``abs(dFdxFine(p)) + abs(dFdyFine(p))``."
+
+msgid "https://registry.khronos.org/OpenGL-Refpages/gl4/html/fwidth.xhtml"
+msgstr "https://registry.khronos.org/OpenGL-Refpages/gl4/html/fwidth.xhtml"
 
 msgid "uint"
 msgstr "uint"
@@ -2599,6 +2642,15 @@ msgstr ""
 "|vec_int_type| **bitfieldExtract**\\ (\\ |vec_int_type| value, int decalage, "
 "int bits) :ref:`🔗<shader_func_bitfieldExtract>`"
 
+msgid "param value"
+msgstr "param value"
+
+msgid "param offset"
+msgstr "param offset"
+
+msgid "param bits"
+msgstr "param bits"
+
 msgid "The number of bits to extract."
 msgstr "Le nombre de bits à extraire."
 
@@ -2631,6 +2683,12 @@ msgstr ""
 "|vec_uint_type| **bitfieldInsert**\\ (\\ |vec_uint_type| base, |"
 "vec_uint_type| insert, int offset, int "
 "bits) :ref:`🔗<shader_func_bitfieldInsert>`"
+
+msgid "param base"
+msgstr "param base"
+
+msgid "param insert"
+msgstr "param insert"
 
 msgid "The number of bits to insert."
 msgstr "Le nombre de bits à insérer."
@@ -2726,6 +2784,12 @@ msgstr ""
 "|void| **imulExtended**\\ (\\ |vec_int_type| x, |vec_int_type| y, out |"
 "vec_int_type| msb, out |vec_int_type| "
 "lsb) :ref:`🔗<shader_func_imulExtended>`"
+
+msgid "param msb"
+msgstr "param msb"
+
+msgid "param lsb"
+msgstr "param lsb"
 
 msgid ""
 "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/umulExtended.xhtml"

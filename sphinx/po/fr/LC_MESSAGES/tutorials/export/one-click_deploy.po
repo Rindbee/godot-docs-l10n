@@ -111,6 +111,9 @@ msgstr "Activez le mode développeur sur votre appareil."
 msgid "Device screen should be unlocked."
 msgstr "L'écran du périphérique doit être déverrouillé."
 
+msgid "**Desktop platforms:**"
+msgstr "**Plateformes de bureau :**"
+
 msgid ""
 "If everything is configured correctly and with no errors, platform-specific "
 "icons will appear in the top-right corner of the editor."

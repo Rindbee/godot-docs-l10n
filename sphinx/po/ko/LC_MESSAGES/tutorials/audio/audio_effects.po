@@ -14,8 +14,17 @@ msgstr ""
 msgid "Capture"
 msgstr "캡처"
 
+msgid "Chorus"
+msgstr "코러스"
+
+msgid "Compressor"
+msgstr "컴프레셔"
+
 msgid "Delay"
 msgstr "지연"
+
+msgid "Distortion"
+msgstr "뒤틀림"
 
 msgid "Filter"
 msgstr "필터"

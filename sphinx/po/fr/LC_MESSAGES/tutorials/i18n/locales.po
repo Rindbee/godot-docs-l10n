@@ -4781,6 +4781,9 @@ msgstr "Aerbaijan"
 msgid "BA"
 msgstr "BA"
 
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnie-Herzégovine"
+
 msgid "BB"
 msgstr "BB"
 

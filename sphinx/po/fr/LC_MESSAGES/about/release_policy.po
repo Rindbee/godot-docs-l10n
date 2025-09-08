@@ -179,6 +179,12 @@ msgstr "**Date de publication**"
 msgid "**Support level**"
 msgstr "**Niveau de support**"
 
+msgid "Godot 4.5 (`master`)"
+msgstr "Godot 4.5 (`master`)"
+
+msgid "Q3 2025 (estimate)"
+msgstr "Q3 2025 (estimation)"
+
 msgid ""
 "|unstable| *Development.* Receives new features, usability and performance "
 "improvements, as well as bug fixes, while under development."
@@ -189,6 +195,12 @@ msgstr ""
 
 msgid "unstable"
 msgstr "instable"
+
+msgid "Godot 4.4"
+msgstr "Godot 4.4"
+
+msgid "March 2025"
+msgstr "Mars 2025"
 
 msgid ""
 "|supported| Receives fixes for bugs and security issues, as well as patches "
@@ -213,6 +225,11 @@ msgstr "Godot 4.2"
 msgid "November 2023"
 msgstr "Novembre 2023"
 
+msgid "|partial| Receives fixes for security and platform support issues only."
+msgstr ""
+"|partial| Reçoit des correctifs de sécurité et de support de plate-forme "
+"seulement."
+
 msgid "partial"
 msgstr "partiel"
 
@@ -221,6 +238,9 @@ msgstr "Godot 4.1"
 
 msgid "July 2023"
 msgstr "Juillet 2023"
+
+msgid "|eol| No longer supported (last update: 4.1.4)."
+msgstr "|eol| N’est plus supporté (dernière version : 4.1.4)."
 
 msgid "eol"
 msgstr "fin de vie"
@@ -236,6 +256,9 @@ msgstr "|eol| N’est plus supporté (dernière version : 4.0.4)."
 
 msgid "Godot 3.7 (`3.x`)"
 msgstr "Godot 3.7 ( `3.x`)"
+
+msgid "No ETA for now"
+msgstr "Pas d'échéance estimée pour le moment"
 
 msgid ""
 "|supported| *Beta.* Receives new features, usability and performance "
@@ -479,6 +502,16 @@ msgstr ""
 "relativement fréquemment."
 
 msgid ""
+"In particular, after the very long release cycle for 4.0, we are pivoting to "
+"a faster-paced development workflow, 4.1 released 4 months after 4.0, and "
+"4.2 released 4 months after 4.1."
+msgstr ""
+"En particulier, après le très long cycle de publication de la version 4.0, "
+"nous évoluons vers un flux de travail de développement plus rapide, la "
+"version 4.1 étant publiée 4 mois après la version 4.0 et la version 4.2 4 "
+"mois après la version 4.1."
+
+msgid ""
 "Frequent minor releases will enable us to ship new features faster (possibly "
 "as experimental), get user feedback quickly, and iterate to improve those "
 "features and their usability. Likewise, the general user experience will be "
@@ -500,6 +533,17 @@ msgstr ""
 "avec des cycles de développement très courts, afin de fournir aux "
 "utilisateurs de la branche stable actuelle les dernières corrections de "
 "bogues pour leurs besoins de production."
+
+msgid ""
+"There is currently no planned release date for the next 3.x minor version, "
+"3.7. The current stable release, 3.6, may be the last stable branch of Godot "
+"3.x. Godot 3.x is supported on a best-effort basis, as long as contributors "
+"continue to maintain it."
+msgstr ""
+"Il n'y a actuellement aucune date de sortie prévue pour la prochaine version "
+"mineure 3.x, la 3.7. La version stable actuelle, 3.6, pourrait être la "
+"dernière branche stable de Godot 3.x. Godot 3.x est soutenu au meilleur des "
+"possibilités, tant que les contributeurs continuent à le maintenir."
 
 msgid "What are the criteria for compatibility across engine versions?"
 msgstr ""

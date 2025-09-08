@@ -35,7 +35,7 @@ msgid ""
 "removed."
 msgstr ""
 "**Unión:** La geometría de ambas primitivas se fusiona, la geometría que se "
-"intersecta se elimina."
+"interseca se elimina."
 
 msgid ""
 "**Intersection:** Only intersecting geometry remains, the rest is removed."

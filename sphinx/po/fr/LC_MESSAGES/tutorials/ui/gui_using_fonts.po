@@ -29,6 +29,9 @@ msgstr "Polices de bitmap"
 msgid "Font shadow example"
 msgstr "Exemple d'ombre de police"
 
+msgid "Advanced font features"
+msgstr "Fonctionnalités de police avancées"
+
 msgid "Antialiasing"
 msgstr "Anticrénelage"
 
@@ -204,6 +207,9 @@ msgstr "Papyrus"
 
 msgid "Font prerendering"
 msgstr "Pré-rendu de la police"
+
+msgid "**Using custom text**"
+msgstr "**Utiliser du texte personnalisé**"
 
 msgid "**By enabling character sets**"
 msgstr "**En activant des jeux de caractères**"

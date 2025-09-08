@@ -12,4 +12,4 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Assets pipeline"
-msgstr "Assets pipeline"
+msgstr "Pipeline de activos"

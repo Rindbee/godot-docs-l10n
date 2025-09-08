@@ -96,7 +96,7 @@ msgid "Community"
 msgstr "커뮤니티"
 
 msgid "Configuring an IDE: :ref:`doc_configuring_an_ide_code_blocks`"
-msgstr "IDE 설정: :ref:`doc_configuring_an_ide_code_blocks`"
+msgstr "IDE 구성: :ref:`doc_configuring_an_ide_code_blocks`"
 
 msgid "Export"
 msgstr "내보내기"

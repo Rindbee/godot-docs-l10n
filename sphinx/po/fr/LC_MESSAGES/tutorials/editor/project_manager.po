@@ -82,6 +82,11 @@ msgstr ""
 "sélectionnée dans les paramètres. Si le dossier est vide, une coche verte "
 "apparaitra sur la droite."
 
+msgid "Select one of the renderers (this can also be changed later)."
+msgstr ""
+"Sélectionnez l'un des moteurs de rendu (ceci peut également être changé plus "
+"tard)."
+
 msgid ""
 "Click the **Create & Edit** button to create the project folder and open it "
 "in the editor."
@@ -318,6 +323,10 @@ msgstr ""
 "dans le Gestionnaire de projets. Pour faire cela, cliquez sur le bouton "
 "déroulant à côté du nœud édition, et sélectionnez ``Éditer en mode "
 "récupération``."
+
+msgid "While in recovery mode the following are disabled:"
+msgstr ""
+"Lors du mode récupération, les fonctionnalités suivantes sont désactivées :"
 
 msgid "Tool scripts"
 msgstr "Scripts d'outil"

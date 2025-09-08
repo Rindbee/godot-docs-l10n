@@ -324,7 +324,7 @@ msgid ""
 "can safely be removed when Godot is closed."
 msgstr ""
 "**Caché** contiene datos generados por el editor o almacenados "
-"temporalmente. Puede eliminarse de forma segura cuando Godot se cierra."
+"temporalmente. Puedes eliminarse de forma segura cuando Godot se cierra."
 
 msgid ""
 "If you use `Godot packaged as a Flatpak <https://flathub.org/apps/details/"

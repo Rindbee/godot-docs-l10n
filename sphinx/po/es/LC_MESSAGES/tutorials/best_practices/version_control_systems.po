@@ -157,7 +157,7 @@ msgid ""
 "automatically."
 msgstr ""
 "La mayoría de los clientes de Git para Windows están configurados con el "
-"``core.autocrlf`` en ``true`. Esto puede llevar a que los archivos sean "
+"``core.autocrlf`` en ``true``. Esto puede llevar a que los archivos sean "
 "marcados innecesariamente como modificados por Git debido a que sus "
 "terminaciones de línea se convierten automáticamente de LF a CRLF."
 

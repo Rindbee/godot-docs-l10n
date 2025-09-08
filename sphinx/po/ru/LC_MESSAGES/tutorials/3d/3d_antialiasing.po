@@ -328,6 +328,51 @@ msgstr ""
 msgid "Comparison between no antialiasing (left) and FXAA (right):"
 msgstr "Сравнение без сглаживания (слева) и с FXAA (справа):"
 
+msgid "Sub-pixel Morphological Antialiasing (SMAA 1x)"
+msgstr "Субпиксельное морфологическое сглаживание (SMAA 1x)"
+
+msgid ""
+"Sub-pixel Morphological Antialiasing is a post-processing antialiasing "
+"solution. It runs slightly slower than FXAA, but produces less blurriness. "
+"This is very helpful when the screen resolution is 1080p or below. Just like "
+"FXAA, SMAA 1x lacks temporal information and will therefore not do much "
+"against specular aliasing."
+msgstr ""
+"Субпиксельное морфологическое сглаживание — это метод постобработки "
+"сглаживания. Он работает немного медленнее, чем FXAA, но создаёт меньше "
+"размытия. Это очень полезно при разрешении экрана 1080p или ниже. Как и "
+"FXAA, SMAA 1x не обладает временной информацией и поэтому неэффективен "
+"против зеркального сглаживания."
+
+msgid "Use SMAA 1x if you can't afford MSAA, but find FXAA too blurry."
+msgstr ""
+"Используйте SMAA 1x, если вы не можете позволить себе MSAA, но считаете, что "
+"FXAA слишком размыто."
+
+msgid ""
+"Combine it with TAA, or even FSR2, to maximize antialiasing at a higher GPU "
+"cost and some added blurriness. This is most beneficial in fast-moving "
+"scenes or just after a camera cut, especially at lower FPS."
+msgstr ""
+"Сочетайте его с TAA или даже FSR2, чтобы максимально эффективно сглаживать "
+"изображение, увеличивая нагрузку на графический процессор и добавляя "
+"размытость. Это особенно полезно в динамичных сценах или сразу после смены "
+"кадров, особенно при низкой частоте кадров."
+
+msgid ""
+"SMAA 1x can be enabled in the Project Settings by changing the value of "
+"the :ref:`Rendering > Anti Aliasing > Quality > Screen Space "
+"AA<class_ProjectSettings_property_rendering/anti_aliasing/quality/"
+"screen_space_aa>` setting to ``SMAA``."
+msgstr ""
+"SMAA 1x можно включить в настройках проекта, изменив значение "
+"параметра :ref:`Rendering > Anti Aliasing > Quality > Screen Space "
+"AA<class_ProjectSettings_property_rendering/anti_aliasing/quality/"
+"screen_space_aa>` на ``SMAA``."
+
+msgid "Comparison between no antialiasing (left) and SMAA 1x (right):"
+msgstr "Сравнение без сглаживания (слева) и SMAA 1x (справа):"
+
 msgid "Supersample antialiasing (SSAA)"
 msgstr "Суперсэмплинг (SSAA)"
 
@@ -553,6 +598,9 @@ msgstr "FSR2"
 msgid "FXAA"
 msgstr "FXAA"
 
+msgid "SMAA 1x"
+msgstr "SMAA 1x"
+
 msgid "SSAA"
 msgstr "SSAA"
 
@@ -609,6 +657,9 @@ msgstr "🟡 Средние"
 
 msgid "🔴 High"
 msgstr "🔴 Высокие"
+
+msgid "🟢 Very Low"
+msgstr "🟢 Очень низкий"
 
 msgid "🔴 Very High"
 msgstr "🔴 Очень высокие"

@@ -51,7 +51,7 @@ msgid ""
 "Use kinematic bodies to move 3D characters and detect when and how they "
 "collide."
 msgstr ""
-"Utilice cuerpos cinemáticos para mover personajes 3D y detectar cuándo y "
+"Utiliza cuerpos cinemáticos para mover personajes 3D y detectar cuándo y "
 "cómo chocan."
 
 msgid ""

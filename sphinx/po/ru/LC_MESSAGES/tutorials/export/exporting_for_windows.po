@@ -43,6 +43,22 @@ msgstr ""
 "data.pck. Этот файл связан со специально оптимизированным двоичным файлом, "
 "который меньше по размеру, быстрее и не содержит редактора и отладчика."
 
+msgid "Changing the executable icon"
+msgstr "Изменение значка исполняемого файла"
+
+msgid ""
+"Godot will automatically use whatever image is set as your project's icon in "
+"the project settings, and convert it to an ICO file for the exported "
+"project. If you want to manually create an ICO file for greater control over "
+"how the icon looks at different resolutions then see "
+"the :ref:`doc_changing_application_icon_for_windows` page."
+msgstr ""
+"Godot автоматически использует любое изображение, установленное в качестве "
+"значка вашего проекта в настройках проекта, и преобразует его в файл ICO для "
+"экспортированного проекта. Если вы хотите вручную создать файл ICO для "
+"большего контроля над тем, как выглядит значок при разных разрешениях, см. "
+"страницу :ref:`doc_changing_application_icon_for_windows`."
+
 msgid "Code signing"
 msgstr "Подписание кода"
 
@@ -159,3 +175,10 @@ msgstr "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
 
 msgid "Export options"
 msgstr "Опции экспорта"
+
+msgid ""
+"You can find a full list of export options available in "
+"the :ref:`class_EditorExportPlatformWindows` class reference."
+msgstr ""
+"Полный список доступных параметров экспорта можно найти в справочнике "
+"классов :ref:`class_EditorExportPlatformWindows`."

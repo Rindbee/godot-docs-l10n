@@ -11,8 +11,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"GD0109: The '[ExportToolButton]' attribute cannot be used with another "
+"'[Export]' attribute"
+msgstr ""
+"GD0109: Атрибут '[ExportToolButton]' не можна використовувати з іншим "
+"атрибутом '[Export]'"
+
 msgid "**Rule ID**"
 msgstr "**Ідентифікатор правила**"
+
+msgid "GD0109"
+msgstr "GD0109"
 
 msgid "**Category**"
 msgstr "**Категорія**"
@@ -35,8 +45,21 @@ msgstr "Да"
 msgid "Cause"
 msgstr "Причина"
 
+msgid ""
+"A property is annotated with both the ``[ExportToolButton]`` and the "
+"``[Export]`` attributes."
+msgstr ""
+"Властивість анотується атрибутами ``[ExportToolButton]`` та ``[Export]``."
+
 msgid "Rule description"
 msgstr "Опис правила"
+
+msgid ""
+"The ``[ExportToolButton]`` attribute already implies exporting the member, "
+"so the ``[Export]`` is unnecessary."
+msgstr ""
+"Атрибут ``[ExportToolButton]`` вже передбачає експорт члена, тому "
+"``[Export]`` не потрібен."
 
 msgid "How to fix violations"
 msgstr "Як усунути порушення"
@@ -46,3 +69,11 @@ msgstr "Щоб виправити порушення цього правила, 
 
 msgid "When to suppress warnings"
 msgstr "Коли придушувати попередження"
+
+msgid ""
+"Do not suppress a warning from this rule. Multiple export attributes may "
+"lead to duplicated members, resulting in unexpected runtime errors."
+msgstr ""
+"Не приховуйте попередження від цього правила. Кілька атрибутів експорту "
+"можуть призвести до дублювання членів, що спричинятиме неочікувані помилки "
+"під час виконання."

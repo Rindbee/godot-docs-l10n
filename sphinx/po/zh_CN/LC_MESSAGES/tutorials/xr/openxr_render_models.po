@@ -11,6 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"It will create child nodes for each active render model resulting in that "
+"render model being displayed."
+msgstr "该节点会为每个活跃渲染模型创建子节点，从而显示对应的渲染模型。"
+
 msgid "Function"
 msgstr "函数"
 

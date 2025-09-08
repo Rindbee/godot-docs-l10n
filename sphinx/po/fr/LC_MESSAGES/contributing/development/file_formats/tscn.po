@@ -104,6 +104,9 @@ msgstr "Skeleton3D"
 msgid "``position``: Vector3"
 msgstr "``position`` : Vector3"
 
+msgid "``rotation``: Quaternion"
+msgstr "``rotation`` : Quaternion"
+
 msgid "``scale``: Vector3"
 msgstr "``scale`` : Vector3"
 
@@ -195,3 +198,10 @@ msgstr "``vertex_data`` : Les données de position des sommets."
 
 msgid "Animation"
 msgstr "Animation"
+
+msgid ""
+"``enabled``: ``true`` if the track is effective, ``false`` if it was "
+"disabled in the editor."
+msgstr ""
+"``enabled`` : ``true`` si la piste est effective, ``false`` si elle était "
+"désactivée dans l'éditeur."

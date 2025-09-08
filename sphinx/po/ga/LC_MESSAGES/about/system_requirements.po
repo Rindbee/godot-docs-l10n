@@ -51,13 +51,6 @@ msgid "**GPU**"
 msgstr "**GPU**"
 
 msgid ""
-"*Example: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics "
-"(Kaveri)*"
-msgstr ""
-"* Sampla: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics "
-"(Kaveri)*"
-
-msgid ""
 "*Example: Intel HD Graphics 2500 (Ivy Bridge), AMD Radeon R5 Graphics "
 "(Kaveri)*"
 msgstr ""

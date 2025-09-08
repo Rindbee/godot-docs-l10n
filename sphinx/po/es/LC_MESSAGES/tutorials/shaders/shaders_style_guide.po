@@ -176,7 +176,7 @@ msgstr ""
 msgid ""
 "Don't use multiline comment syntax if your comment can fit on a single line:"
 msgstr ""
-"No utilice la sintaxis de comentarios de varias líneas si su comentario "
+"No utilices la sintaxis de comentarios de varias líneas si su comentario "
 "puede caber en una sola línea:"
 
 msgid ""
@@ -202,7 +202,7 @@ msgid "Don't use spaces to align expressions vertically:"
 msgstr "No uses espacios para alinear la verticalidad de las expresiones:"
 
 msgid "Floating-point numbers"
-msgstr "Números de coma flotante"
+msgstr "Números de punto flotante"
 
 msgid ""
 "Always specify at least one digit for both the integer and fractional part. "

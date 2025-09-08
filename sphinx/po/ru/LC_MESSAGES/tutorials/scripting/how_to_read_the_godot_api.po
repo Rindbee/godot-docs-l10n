@@ -14,6 +14,9 @@ msgstr ""
 msgid "Inheritance"
 msgstr "Наследование"
 
+msgid "Brief Description"
+msgstr "Краткое описание"
+
 msgid "Description"
 msgstr "Описание"
 
@@ -23,8 +26,26 @@ msgstr "Уроки"
 msgid "Properties"
 msgstr "Свойства"
 
+msgid "Methods"
+msgstr "Методы"
+
+msgid "``vararg``: the method can accept an arbitrary number of arguments."
+msgstr "``vararg``: метод может принимать произвольное количество аргументов."
+
 msgid "Signals"
 msgstr "Сигналы"
 
+msgid "Enumerations"
+msgstr "Enumerations (Перечисления)"
+
 msgid "Constants"
 msgstr "Константы"
+
+msgid "Property Descriptions"
+msgstr "Property Descriptions (Описания недвижимости)"
+
+msgid "It restates the data type and name of the property."
+msgstr "В нем повторно указывается тип данных и название свойства."
+
+msgid "Method Descriptions"
+msgstr "Method Descriptions (Описания методов)"

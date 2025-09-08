@@ -76,6 +76,31 @@ msgstr ""
 "argentino. Il suo sviluppo è iniziato nel 2001, e il motore è stato "
 "riscritto e migliorato enormemente dal suo rilascio open-source nel 2014."
 
+msgid ""
+"Some examples of games created with Godot include Cassette Beasts, PVKK, and "
+"Usagi Shima. As for applications, the open source pixel art drawing program "
+"Pixelorama is powered by Godot, and so is the voxel RPG creator RPG in a "
+"Box. You can find many more examples in the `Official Showcase <https://"
+"godotengine.org/showcase/>`_."
+msgstr ""
+"Alcuni esempi di giochi creati con Godot includono Cassette Beasts, PVKK e "
+"Usagi Shima. Per quanto riguarda le applicazioni, il programma di disegno "
+"pixel art open source Pixelorama è basato su Godot, così come il creatore di "
+"giochi di ruolo voxel RPG in a Box. È possibile trovare molti altri esempi "
+"nella `Vetrina ufficiale <https://godotengine.org/showcase/>`_."
+
+msgid "Usagi Shima"
+msgstr "Usagi Shima"
+
+msgid "Cassette Beasts"
+msgstr "Cassette Beasts"
+
+msgid "PVKK: Planetenverteidigungskanonenkommandant"
+msgstr "PVKK: Planetenverteidigungskanonenkommandant"
+
+msgid "RPG in a Box"
+msgstr "RPG in a Box"
+
 msgid "How does it work and look?"
 msgstr "Come funziona e come appare?"
 

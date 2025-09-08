@@ -150,8 +150,8 @@ msgstr ""
 
 msgid "*Assetlib*: relates to issues with the asset library."
 msgstr ""
-"*Assetlib*: se refiere a problemas relacionados con la biblioteca de activos "
-"(asset library)."
+"*Assetlib*: se refiere a problemas relacionados con la Biblioteca de "
+"Recursos (asset library)."
 
 msgid ""
 "*Buildsystem*: relates to building issues, either linked to the SCons "

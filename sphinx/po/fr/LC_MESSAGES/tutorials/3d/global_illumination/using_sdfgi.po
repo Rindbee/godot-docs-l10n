@@ -23,6 +23,9 @@ msgstr "SDFGI désactivé."
 msgid "SDFGI enabled."
 msgstr "SDFGI activé."
 
+msgid "Setting up SDFGI"
+msgstr "Configurer la SDFGI"
+
 msgid ""
 "See :ref:`doc_introduction_to_global_illumination_gi_mode_recommendations` "
 "for general usage recommendations."

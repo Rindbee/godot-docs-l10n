@@ -53,6 +53,9 @@ msgstr ""
 msgid "Godot's rendering abstraction layers."
 msgstr "Les couches d'abstraction de rendu de Godot."
 
+msgid "Choosing a renderer"
+msgstr "Choisir un moteur de rendu"
+
 msgid "Choose **Forward+** if:"
 msgstr "Choisissez **Forward+** si :"
 
@@ -119,6 +122,9 @@ msgstr "✔️ Oui."
 msgid "❌ No."
 msgstr "❌ Non."
 
+msgid "**Target platforms**"
+msgstr "**Plateformes cibles**"
+
 msgid "Mobile, desktop."
 msgstr "Mobile, bureau."
 
@@ -137,17 +143,23 @@ msgstr "✔️ Oui (haut de gamme)."
 msgid "XR"
 msgstr "XR"
 
-msgid "desktop headsets."
-msgstr "casques de bureau."
-
 msgid "Web"
 msgstr "Web"
+
+msgid "2D Games"
+msgstr "Jeux 2D"
+
+msgid "3D Games"
+msgstr "Jeux 3D"
 
 msgid "2D and core 3D features."
 msgstr "Fonctionnalités 2D, et 3D de base."
 
 msgid "All rendering features."
 msgstr "Toutes les fonctionnalités de rendu."
+
+msgid "2D rendering features"
+msgstr "Fonctionnalités du rendu 2D"
 
 msgid "OpenGL."
 msgstr "OpenGL."
@@ -175,6 +187,9 @@ msgstr "❌ Non supporté."
 
 msgid "✔️ Supported."
 msgstr "✔️ Supporté."
+
+msgid "Global Illumination"
+msgstr "Illumination globale"
 
 msgid ""
 "See :ref:`doc_introduction_to_global_illumination` for more information."
@@ -236,8 +251,14 @@ msgstr "FXAA"
 msgid "SSAA"
 msgstr "SSAA"
 
+msgid "StandardMaterial features"
+msgstr "Fonctionnalités de StandardMaterial"
+
 msgid "See :ref:`doc_standard_material_3d` for more information."
 msgstr "Voir :ref:`doc_standard_material_3d` pour plus d'informations."
+
+msgid "Sub-surface scattering"
+msgstr "Transluminescence"
 
 msgid "See :ref:`doc_shading_reference` for more information."
 msgstr "Voir :ref:`doc_shading_reference` pour plus d'informations."

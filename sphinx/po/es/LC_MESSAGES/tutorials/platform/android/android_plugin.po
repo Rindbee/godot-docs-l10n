@@ -27,13 +27,13 @@ msgstr ""
 "developer.android.com/studio/projects/android-library#aar-contents>`_."
 
 msgid "GDExtension libraries"
-msgstr "Librerías de GDExtension"
+msgstr "Bibliotecas de GDExtensions"
 
 msgid ""
 "Create an Android library module using `these instructions <https://"
 "developer.android.com/studio/projects/android-library>`_"
 msgstr ""
-"Crea un módulo librería de Android siguiendo `estas instrucciones <https://"
+"Crea un módulo biblioteca de Android siguiendo `estas instrucciones <https://"
 "developer.android.com/studio/projects/android-library>`_"
 
 msgid ""

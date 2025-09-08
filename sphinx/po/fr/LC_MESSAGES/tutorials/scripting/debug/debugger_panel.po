@@ -82,6 +82,9 @@ msgstr ""
 "Vous pouvez désactiver des avertissements spécifiques dans **Paramètres du "
 "projet > Debug > GDScript**."
 
+msgid "Evaluator"
+msgstr "Évaluateur"
+
 msgid "Profiler"
 msgstr "Profileur"
 

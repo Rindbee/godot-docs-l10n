@@ -11,6 +11,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "The XR action map"
+msgstr "Карта действий XR"
+
+msgid "The default action map"
+msgstr "Карта действий по умолчанию"
+
+msgid "Action sets"
+msgstr "Наборы действий"
+
+msgid "The columns in our table are as follows:"
+msgstr "Столбцы в нашей таблице следующие:"
+
+msgid "Col"
+msgstr "Col"
+
 msgid "Value"
 msgstr "Значение"
 
@@ -19,6 +34,9 @@ msgstr "Описание"
 
 msgid "1"
 msgstr "1"
+
+msgid "my_first_action_set"
+msgstr "my_first_action_set"
 
 msgid "2"
 msgstr "2"
@@ -32,5 +50,26 @@ msgstr "0"
 msgid "Actions"
 msgstr "Действия"
 
+msgid "The type of this action."
+msgstr "Тип этого действия."
+
+msgid "Profiles"
+msgstr "Profiles"
+
+msgid "we could be using a Quest 1 controller,"
+msgstr "мы могли бы использовать контроллер Quest 1,"
+
+msgid "we could be using a Quest 2 controller,"
+msgstr "мы могли бы использовать контроллер Quest 2,"
+
+msgid "Our first controller binding"
+msgstr "Наша первая привязка контроллера"
+
 msgid "Let's finish our configuration:"
 msgstr "Давайте завершим нашу настройку:"
+
+msgid "The simple controller"
+msgstr "Простой контроллер"
+
+msgid "Dpad Binding modifier"
+msgstr "Модификатор привязки Dpad"

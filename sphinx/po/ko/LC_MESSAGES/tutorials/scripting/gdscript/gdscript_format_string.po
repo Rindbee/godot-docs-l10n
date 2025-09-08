@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "GDScript format strings"
-msgstr "GDScript 형식 문자열(format strings)"
+msgstr "GDScript 형식 문자열"
 
 msgid "Examine this concrete GDScript example:"
 msgstr "구체적인 GDScript 예시를 참고해보세요:"

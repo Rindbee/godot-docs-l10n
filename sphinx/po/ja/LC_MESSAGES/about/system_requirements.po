@@ -53,12 +53,6 @@ msgid "**Forward+ renderer:** Integrated graphics with full Vulkan 1.0 support"
 msgstr ""
 "**Forward+ レンダラー:** Vulkan 1.0 を完全にサポートする統合グラフィックス"
 
-msgid ""
-"*Example: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics "
-"(Kaveri)*"
-msgstr ""
-"*例: Intel HD Graphics 5500 (Broadwell)、AMD Radeon R5 Graphics (Kaveri)*"
-
 msgid "**Mobile renderer:** Integrated graphics with full Vulkan 1.0 support"
 msgstr ""
 "**モバイルレンダラー:** Vulkan 1.0 を完全にサポートする統合グラフィックス"

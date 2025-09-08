@@ -28,3 +28,9 @@ msgstr "4"
 
 msgid "5"
 msgstr "5"
+
+msgid "Generating geometry"
+msgstr "지오메트리 생성하기"
+
+msgid "Saving"
+msgstr "저장하기"

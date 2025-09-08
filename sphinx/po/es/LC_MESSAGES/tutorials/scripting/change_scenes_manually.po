@@ -41,7 +41,7 @@ msgid ""
 "re-attaching one or more of its nodes to a different scene, or even directly "
 "to the :ref:`SceneTree <class_SceneTree>`."
 msgstr ""
-"Nota: Puede ser útil preservar los datos en una escena que pronto será "
+"Nota: Puedes ser útil preservar los datos en una escena que pronto será "
 "eliminada, volviendo a adjuntar uno o varios de sus nodos a una escena "
 "diferente, o incluso directamente al :ref:`SceneTree <class_SceneTree>`."
 

@@ -40,7 +40,7 @@ msgstr ""
 "интерфейс (UI)."
 
 msgid "Add a :ref:`Label <class_Label>` node and name it ``ScoreLabel``"
-msgstr "Добавьте узел :ref:`Label <class_Label>` с именем ``ScoreLabel``."
+msgstr "Добавьте узел :ref:`Label <class_Label>` и назовите его ``ScoreLabel``"
 
 msgid "|image1|"
 msgstr "|image1|"
@@ -74,7 +74,7 @@ msgid ""
 "white 3D scene)"
 msgstr ""
 "Прокрутите вниз до *Theme Overrides*, разверните *Colors* и включите *Font "
-"Color*, чтобы оттенить текст (который хорошо контрастирует с 3D сценой)."
+"Color*, чтобы оттенить текст (который хорошо контрастирует с 3D сценой)"
 
 msgid "|image3|"
 msgstr "|image3|"

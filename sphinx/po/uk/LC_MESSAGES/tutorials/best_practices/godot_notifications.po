@@ -50,7 +50,7 @@ msgid "``_process(delta)``: ``NOTIFICATION_PROCESS``"
 msgstr "``_process(delta)`` : ПРОЦЕС_ПОВІДОМЛЕННЯ"
 
 msgid "``_physics_process(delta)``: ``NOTIFICATION_PHYSICS_PROCESS``"
-msgstr "``_physics_process(delta)``: ``ПОВІДОМЛЕННЯ_ФІЗИЧНОГО_ПРОЦЕСУ``"
+msgstr "``_physics_process(delta)``: ``NOTIFICATION_PHYSICS_PROCESS``"
 
 msgid "``_draw()``: ``NOTIFICATION_DRAW``"
 msgstr "``_draw()`` : ПОВІДОМЛЕННЯ"

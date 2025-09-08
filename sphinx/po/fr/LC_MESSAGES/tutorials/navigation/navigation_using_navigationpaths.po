@@ -13,3 +13,6 @@ msgstr ""
 
 msgid "Using NavigationPaths"
 msgstr "Utiliser des NavigationPaths"
+
+msgid "Obtaining a NavigationPath"
+msgstr "Obtenir un NavigationPath"

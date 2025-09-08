@@ -36,6 +36,13 @@ msgstr "动画节点，从链接的 ``AnimationTree`` 中引用动画。"
 msgid "Blend tree"
 msgstr "混合树"
 
+msgid ""
+"The simplest connection to make is to connect an ``Animation`` node to the "
+"output directly, which will just play back the animation."
+msgstr ""
+"最简单的连接方式是将 ``Animation`` \\ （动画）节点直接连接到输出端口，这样即"
+"可直接播放动画。"
+
 msgid "Blend2 / Blend3"
 msgstr "混合2/混合3"
 

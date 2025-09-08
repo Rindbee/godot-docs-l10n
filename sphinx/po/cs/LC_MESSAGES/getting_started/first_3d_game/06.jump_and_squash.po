@@ -88,3 +88,15 @@ msgstr "|obrázek8|"
 
 msgid "image8"
 msgstr "image8"
+
+msgid "|image9|"
+msgstr "|obrázek9|"
+
+msgid "image9"
+msgstr "image9"
+
+msgid "|image10|"
+msgstr "|obrázek10|"
+
+msgid "image10"
+msgstr "image10"

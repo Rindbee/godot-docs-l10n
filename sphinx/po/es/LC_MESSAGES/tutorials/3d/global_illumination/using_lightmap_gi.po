@@ -61,7 +61,7 @@ msgstr ""
 "el tamaño de la textura en la malla después de la importación."
 
 msgid "Bake lightmaps."
-msgstr "Hornear lightmaps."
+msgstr "Procesar lightmaps."
 
 msgid "Checking UV2"
 msgstr "Comprobando el UV2"
@@ -117,7 +117,7 @@ msgid ""
 msgstr ""
 "Este modo permite realizar cambios *sutiles* en el color, la energía y la "
 "posición de una luz sin dejar de parecer aproximadamente correcta. Por "
-"ejemplo, puede usar esto para crear antorchas estáticas parpadeantes que "
+"ejemplo, puedes usar esto para crear antorchas estáticas parpadeantes que "
 "tienen su luz indirecta horneada."
 
 msgid "Static"

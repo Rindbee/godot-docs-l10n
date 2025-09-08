@@ -173,13 +173,6 @@ msgstr ""
 "Um die Library zu exportieren, klicken Sie auf Szene -> Exportieren als... "
 "-> MeshLibrary... und speichern Sie sie als Ressource."
 
-msgid ""
-"You can find an already exported MeshLibrary in the project named "
-"\"MeshLibrary.tres\"."
-msgstr ""
-"Sie finden eine bereits exportierte MeshLibrary im Projekt mit dem Namen "
-"\"MeshLibrary.tres\"."
-
 msgid "Using GridMap"
 msgstr "Verwenden von GridMap"
 

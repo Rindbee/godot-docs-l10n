@@ -78,6 +78,31 @@ msgstr ""
 "développement a commencé en 2001, et le moteur a été réécrit et amélioré "
 "énormément depuis sa sortie open-source en 2014."
 
+msgid ""
+"Some examples of games created with Godot include Cassette Beasts, PVKK, and "
+"Usagi Shima. As for applications, the open source pixel art drawing program "
+"Pixelorama is powered by Godot, and so is the voxel RPG creator RPG in a "
+"Box. You can find many more examples in the `Official Showcase <https://"
+"godotengine.org/showcase/>`_."
+msgstr ""
+"Quelques exemples de jeux créés avec Godot comprennent Cassette Beasts, PVKK "
+"et Usagi Shima. Quant aux applications, le programme de dessin de pixel art "
+"open source Pixelorama est propulsé par Godot, et ainsi est le créateur de "
+"voxel RPG \"RPG in a Box\". Vous pouvez trouver beaucoup d'autres exemples "
+"dans le `Showcase officiel <https://godotengine.org/showcase/>`_."
+
+msgid "Usagi Shima"
+msgstr "Usagi Shima"
+
+msgid "Cassette Beasts"
+msgstr "Cassette Beasts"
+
+msgid "PVKK: Planetenverteidigungskanonenkommandant"
+msgstr "PVKK: Planetenverteidigungskanonenkommandant"
+
+msgid "RPG in a Box"
+msgstr "RPG in a Box"
+
 msgid "How does it work and look?"
 msgstr "Comment ça marche et à quoi ça ressemble ?"
 
@@ -118,6 +143,18 @@ msgstr "Langages de programmation"
 
 msgid "Let's talk about the available programming languages."
 msgstr "Commençons par examiner les langages de programmation disponibles."
+
+msgid ""
+"You can code your games using :ref:`GDScript <doc_gdscript>`, a Godot-"
+"specific and tightly integrated language with a lightweight syntax, "
+"or :ref:`C# <doc_c_sharp>`, which is popular in the games industry. These "
+"are the two main scripting languages we support."
+msgstr ""
+"Vous pouvez coder votre jeu en utilisant du :ref:`GDScript <doc_gdscript>`, "
+"un langage spécifiquement développé et intégré à Godot avec une syntaxe "
+"simple, ou du :ref:`C# <doc_c_sharp>`, qui est populaire dans l'industrie du "
+"jeu vidéo. Ce sont les deux principaux langages de script que nous "
+"supportons."
 
 msgid ""
 "With the GDExtension technology, you can also write gameplay or high-"

@@ -140,6 +140,9 @@ msgstr ""
 "godotengine/godot-demo-projects/tree/master/viewport/gui_in_3d>`__ pour plus "
 "d'informations sur la mise en place."
 
+msgid "Looping a video"
+msgstr "Faire boucler une vidéo"
+
 msgid "Video decoding conditions and recommended resolutions"
 msgstr "Conditions de décodage vidéo et résolutions recommandées"
 
@@ -329,3 +332,6 @@ msgstr ""
 
 msgid "Chroma Key Videos"
 msgstr "Clé Chroma de vidéos"
+
+msgid "Scene Setup"
+msgstr "Configuration de la scène"

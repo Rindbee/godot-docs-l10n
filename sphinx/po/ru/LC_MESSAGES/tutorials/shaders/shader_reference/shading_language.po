@@ -846,6 +846,21 @@ msgid "Uniforms"
 msgstr "Uniform-переменные"
 
 msgid ""
+"Passing values to shaders is possible with *uniforms*, which are defined in "
+"the global scope of the shader, outside of functions. When a shader is later "
+"assigned to a material, the uniforms will appear as editable parameters in "
+"the material's inspector. Uniforms can't be written from within the shader. "
+"Any :ref:`data type <doc_shading_language_data_types>` except for ``void`` "
+"can be a uniform."
+msgstr ""
+"Передача значений в шейдеры возможна с помощью *uniforms*, которые "
+"определены в глобальной области видимости шейдера, вне функций. При "
+"последующем назначении шейдера материалу, uniforms появятся как "
+"редактируемые параметры в инспекторе материала. Uniforms нельзя записывать "
+"из шейдера. Uniforms может быть любым :ref:`data type "
+"<doc_shading_language_data_types>`, кроме ``void``."
+
+msgid ""
 "You can set uniforms in the editor in the material's inspector. Alternately, "
 "you can set them :ref:`from code "
 "<doc_shading_language_setting_uniforms_from_code>`."
@@ -930,6 +945,9 @@ msgstr "Включает повтор текстуры."
 
 msgid "Texture is the screen texture."
 msgstr "Texture - это текстура экрана."
+
+msgid "hint_depth_texture"
+msgstr "hint_depth_texture"
 
 msgid "Texture is the depth texture."
 msgstr "Текстура глубины."
@@ -1083,6 +1101,17 @@ msgstr ""
 "инспектора GeometryInstance3D"
 
 msgid ""
+"Per-instance uniform values can also be set at runtime "
+"using :ref:`set_instance_shader_parameter "
+"<class_GeometryInstance3D_method_set_instance_shader_parameter>` method on a "
+"node that inherits from :ref:`class_GeometryInstance3D`:"
+msgstr ""
+"Единые значения для каждого экземпляра также можно задать во время "
+"выполнения с помощью метода :ref:`set_instance_shader_parameter "
+"<class_GeometryInstance3D_method_set_instance_shader_parameter>` на узле, "
+"который наследует от :ref:`class_GeometryInstance3D`:"
+
+msgid ""
 "When using per-instance uniforms, there are some restrictions you should be "
 "aware of:"
 msgstr ""
@@ -1126,6 +1155,14 @@ msgstr ""
 "помощью подсказки ``instance_index``:"
 
 msgid ""
+"You can set uniforms from GDScript using the :ref:`set_shader_parameter() "
+"<class_ShaderMaterial_method_set_shader_parameter>` method:"
+msgstr ""
+"Вы можете задать униформы из GDScript, используя "
+"метод :ref:`set_shader_parameter() "
+"<class_ShaderMaterial_method_set_shader_parameter>`:"
+
+msgid ""
 "GDScript uses different variable types than GLSL does, so when passing "
 "variables from GDScript to shaders, Godot converts the type automatically. "
 "Below is a table of the corresponding types:"
@@ -1148,6 +1185,15 @@ msgstr "Побитовая упаковка int, где бит 0 (LSB) соот�
 
 msgid "For example, a bvec2 of (bx, by) could be created in the following way:"
 msgstr "Например, bvec2 из (bx, by) можно создать следующим образом:"
+
+msgid "**Vector2i**"
+msgstr "**Vector2i**"
+
+msgid "**Vector3i**"
+msgstr "**Vector3i**"
+
+msgid "**Vector4i**"
+msgstr "**Vector4i**"
 
 msgid "**Vector2**"
 msgstr "**Vector2**"
@@ -1178,9 +1224,34 @@ msgstr "**Transform2D**"
 msgid "**Basis**"
 msgstr "**Basis**"
 
+msgid "**Projection**, **Transform3D**"
+msgstr "**Projection**, **Transform3D**"
+
 msgid "When a Transform3D is used, the w Vector is set to the identity."
 msgstr ""
 "При использовании Transform3D вектор w устанавливается на идентичность."
+
+msgid "**Texture2D**"
+msgstr "**Texture2D**"
+
+msgid "**Texture2DArray**"
+msgstr "**Texture2DArray**"
+
+msgid "**Texture3D**"
+msgstr "**Texture3D**"
+
+msgid "**Cubemap**"
+msgstr "**Cubemap**"
+
+msgid ""
+"See :ref:`doc_importing_images_changing_import_type` for instructions on "
+"importing cubemaps for use in Godot."
+msgstr ""
+"Инструкции по импорту кубических карт для использования в Godot см. "
+"в :ref:`doc_importing_images_changing_import_type`."
+
+msgid "**CubemapArray**"
+msgstr "**CubemapArray**"
 
 msgid "Built-in variables"
 msgstr "Встроенные переменные"
@@ -1203,3 +1274,12 @@ msgstr ":ref:`Шейдеры тумана <doc_fog_shader>`"
 
 msgid "Built-in functions"
 msgstr "Встроенные функции"
+
+msgid ""
+"A large number of built-in functions are supported, conforming to GLSL ES "
+"3.0. See the :ref:`Built-in functions <doc_shader_functions>` page for "
+"details."
+msgstr ""
+"Поддерживается большое количество встроенных функций, соответствующих GLSL "
+"ES 3.0. Подробности см. на странице :ref:`Built-in functions "
+"<doc_shader_functions>`."

@@ -263,6 +263,9 @@ msgstr ""
 "Підтримка платформ Android та iOS доступна з Godot 4.2, але є "
 "експериментальною та :ref:`some limitations apply <doc_c_sharp_platforms>`."
 
+msgid "To learn more about C#, head to the :ref:`doc_c_sharp` section."
+msgstr "Щоб дізнатися більше про C#, перейдіть до розділу :ref:`doc_c_sharp`."
+
 msgid "C++ via GDExtension"
 msgstr "C++ через GDExtension"
 

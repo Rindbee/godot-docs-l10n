@@ -13,3 +13,6 @@ msgstr ""
 
 msgid "Introduction"
 msgstr "소개"
+
+msgid "The unsupported properties are:"
+msgstr "지원되지 않는 속성은 다음과 같습니다:"

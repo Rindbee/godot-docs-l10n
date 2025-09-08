@@ -52,13 +52,6 @@ msgstr "image1"
 msgid "If you still have *Input Map* open, switch to the *General* tab."
 msgstr "如果你仍然打开着\\ *输入映射*\\ ，请切换到\\ *通用*\\ 选项卡。"
 
-msgid ""
-"In the left menu, navigate down to *Display -> Window*. On the right, set "
-"the *Width* to ``720`` and the *Height* to ``540``."
-msgstr ""
-"在左侧菜单中，找到 *Display -> Window*\\ （显示 -> 窗口）。在右侧将 "
-"*Width*\\ （宽度）设为 ``720``\\ 、\\ *Height*\\ （高度）设为 ``540``\\ 。"
-
 msgid "|image2|"
 msgstr "|image2|"
 

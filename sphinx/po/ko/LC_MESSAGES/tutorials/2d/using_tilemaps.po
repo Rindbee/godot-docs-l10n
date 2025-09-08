@@ -27,7 +27,7 @@ msgid "Physics"
 msgstr "물리"
 
 msgid "Navigation"
-msgstr "네비게이션"
+msgstr "내비게이션"
 
 msgid "Opening the TileMap editor"
 msgstr "타일맵 편집기 열기"

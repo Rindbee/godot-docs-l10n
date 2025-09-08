@@ -222,13 +222,6 @@ msgstr ""
 "நூலகத்தை ஏற்றுமதி செய்ய, ** காட்சி> ஏற்றுமதி என ...> மெச்லிபிரரி ... ** என்பதைக் "
 "சொடுக்கு செய்து, அதை ஒரு வளமாக சேமிக்கவும்."
 
-msgid ""
-"You can find an already exported MeshLibrary in the project named "
-"\"MeshLibrary.tres\"."
-msgstr ""
-"\"Meshlibrary.tres\" என்ற திட்டத்தில் ஏற்கனவே ஏற்றுமதி செய்யப்பட்ட மெச்லிபிரரியைக் "
-"காணலாம்."
-
 msgid "Using GridMap"
 msgstr "கிரிட்மேப்பைப் பயன்படுத்துதல்"
 

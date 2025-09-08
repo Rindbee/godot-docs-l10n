@@ -11,11 +11,94 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Unit testing"
+msgstr "Модульное тестирование"
+
+msgid "Platform and target support"
+msgstr "Поддержка платформы и цели"
+
+msgid "Running tests"
+msgstr "Проведение тестов"
+
+msgid "Filtering tests"
+msgstr "Фильтрационные тесты"
+
+msgid "**Filter options**"
+msgstr "**Параметры фильтра**"
+
+msgid "**Examples**"
+msgstr "**Примеры**"
+
+msgid "``--test-suite``"
+msgstr "``--test-suite``"
+
+msgid "``--test-case``"
+msgstr "``--test-case``"
+
+msgid "``-tc=\"*[String]*\"``"
+msgstr "``-tc=\"*[String]*\"``"
+
+msgid "``--source-file``"
+msgstr "``--source-file``"
+
+msgid "Writing tests"
+msgstr "Написание тестов"
+
+msgid ""
+"`tests/test_macros.h <https://github.com/godotengine/godot/blob/master/tests/"
+"test_macros.h>`_ source code for currently implemented macros and aliases "
+"for them."
+msgstr ""
+"`tests/test_macros.h <https://github.com/godotengine/godot/blob/master/tests/"
+"test_macros.h>`_ исходный код для текущих реализованных макросов и "
+"псевдонимов для них."
+
+msgid "Assertions"
+msgstr "Assertions (Утверждения)"
+
+msgid "**Assertion**"
+msgstr "**Assertion**"
+
 msgid "**Description**"
 msgstr "**Описание**"
 
+msgid ""
+"`doctest: Assertion macros <https://github.com/doctest/doctest/blob/master/"
+"doc/markdown/assertions.md>`_."
+msgstr ""
+"`doctest: макросы утверждений <https://github.com/doctest/doctest/blob/"
+"master/doc/markdown/assertions.md>`_."
+
+msgid "Logging"
+msgstr "Ведение журнала"
+
+msgid "**Macro**"
+msgstr "**Macro**"
+
+msgid ""
+"`doctest: Logging macros <https://github.com/doctest/doctest/blob/master/doc/"
+"markdown/logging.md>`_."
+msgstr ""
+"`doctest: Ведение журнала макросов <https://github.com/doctest/doctest/blob/"
+"master/doc/markdown/logging.md>`_."
+
+msgid "Testing failure paths"
+msgstr "Тестирование путей отказа"
+
 msgid "Description"
 msgstr "Описание"
+
+msgid "Test tools"
+msgstr "Инструменты для тестирования"
+
+msgid "Integration tests for GDScript"
+msgstr "Интеграционные тесты для GDScript"
+
+msgid "tests for features."
+msgstr "тесты на характеристики."
+
+msgid "Here's an example test script:"
+msgstr "Вот пример тестового сценария:"
 
 msgid "Run GDScript tests with:"
 msgstr "Запустите тесты GDScript с помощью:"

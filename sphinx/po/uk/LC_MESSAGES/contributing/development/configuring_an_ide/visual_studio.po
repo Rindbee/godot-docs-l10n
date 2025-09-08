@@ -27,6 +27,17 @@ msgstr ""
 "організаціях. Він має багато корисних функцій, таких як перегляд пам’яті, "
 "перегляд продуктивності, керування джерелом тощо."
 
+msgid ""
+"This documentation is for contributions to the game engine, and not using "
+"Visual Studio as a C# editor. To code C# in an external editor, "
+"see :ref:`the C# guide to configure an external editor "
+"<doc_c_sharp_setup_external_editor>`."
+msgstr ""
+"Ця документація призначена для внеску в ігровий рушій, а не для використання "
+"Visual Studio як редактора C#. Щоб написати код на C# у зовнішньому "
+"редакторі, див. :ref:`the C# guide to configure an external editor "
+"<doc_c_sharp_setup_external_editor>`."
+
 msgid "Importing the project"
 msgstr "Імпорт проекту"
 

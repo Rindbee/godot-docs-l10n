@@ -164,6 +164,9 @@ msgstr ""
 "Если бы в приведённом выше примере не было ``#undef``, то возникла бы ошибка "
 "переопределения макроса."
 
+msgid "#if"
+msgstr "#if"
+
 msgid "**Syntax:** ``#if <condition>``"
 msgstr "**Синтаксис:** ``#if <условие>``"
 
@@ -190,6 +193,16 @@ msgid ""
 msgstr ""
 "Будьте осторожны, так как ``defined()`` должен заключать в круглые скобки "
 "только один идентификатор, и никогда больше:"
+
+msgid ""
+"In the shader editor, preprocessor branches that evaluate to ``false`` (and "
+"are therefore excluded from the final compiled shader) will appear grayed "
+"out. This does not apply to runtime ``if`` statements."
+msgstr ""
+"В редакторе шейдеров ветви препроцессора, дающие результат ``false`` (и, "
+"следовательно, исключаемые из окончательно скомпилированного шейдера), будут "
+"отображаться серым цветом. Это не относится к операторам ``if`` во время "
+"выполнения."
 
 msgid "**#if preprocessor versus if statement: Performance caveats**"
 msgstr ""
@@ -220,6 +233,9 @@ msgstr ""
 "General-Purpose Register)` (которое может быть вызвано слишком большим "
 "количеством ветвлений) всё ещё может значительно замедлить выполнение "
 "шейдера."
+
+msgid "#elif"
+msgstr "#elif"
 
 msgid ""
 "The ``#elif`` directive stands for \"else if\" and checks the condition "
@@ -267,6 +283,9 @@ msgid ""
 msgstr ""
 "Это полная противоположность ``#ifdef``; он всегда будет соответствовать в "
 "ситуациях, в которых ``#ifdef`` никогда не будет соответствовать, и наоборот."
+
+msgid "#else"
+msgstr "#else"
 
 msgid "**Syntax:** ``#else``"
 msgstr "**Синтаксис:** ``#else``"

@@ -16,3 +16,13 @@ msgstr "Пользовательские мониторы производите
 
 msgid "Introduction"
 msgstr "Введение"
+
+msgid "Creating a custom performance monitor"
+msgstr "Создание собственного монитора производительности"
+
+msgid "Example editor graph from a custom performance monitor"
+msgstr ""
+"Пример графика редактора из пользовательского монитора производительности"
+
+msgid "Querying a performance monitor in a project"
+msgstr "Запрос к монитору производительности в проекте"

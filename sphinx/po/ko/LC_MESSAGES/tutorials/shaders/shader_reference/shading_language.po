@@ -151,3 +151,6 @@ msgstr "연산자"
 
 msgid "Functions"
 msgstr "함수"
+
+msgid "Built-in functions"
+msgstr "내장 함수"

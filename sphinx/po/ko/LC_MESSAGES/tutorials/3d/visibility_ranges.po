@@ -29,6 +29,9 @@ msgstr "페이드 모드"
 msgid "Visibility parent"
 msgstr "가시성 부모"
 
+msgid "Configuration tips"
+msgstr "구성 팁"
+
 msgid "Rim"
 msgstr "림"
 

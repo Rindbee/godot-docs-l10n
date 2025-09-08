@@ -42,6 +42,9 @@ msgstr ""
 msgid "Configuring an external editor"
 msgstr "Configuration d'un éditeur externe"
 
+msgid "Visual Studio 2022"
+msgstr "Visual Studio 2022"
+
 msgid "Visual Studio Code"
 msgstr "Visual Studio Code"
 
@@ -271,6 +274,9 @@ msgstr "Profilage de votre code C#"
 
 msgid "JetBrains Rider with dotTrace/dotMemory plugin."
 msgstr "JetBrains Rider avec le plugin dotTrace/dotMemory."
+
+msgid "Standalone JetBrains dotTrace/dotMemory."
+msgstr "Extension autonome JetBrains dotTrace/dotMemory."
 
 msgid "Visual Studio."
 msgstr "Visual Studio."

@@ -13,3 +13,6 @@ msgstr ""
 
 msgid "Engine development"
 msgstr "Développement du moteur"
+
+msgid "Engine architecture"
+msgstr "Architecture du moteur"

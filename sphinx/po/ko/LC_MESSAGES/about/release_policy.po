@@ -98,6 +98,11 @@ msgstr "Godot 4.2"
 msgid "November 2023"
 msgstr "2023년 11월"
 
+msgid "|partial| Receives fixes for security and platform support issues only."
+msgstr ""
+"|partial| 버그, 보안 및 플랫폼 지원 문제에 대한 수정 사항과 이전 버전과의 호"
+"환성 향상 지원을 받습니다."
+
 msgid "partial"
 msgstr "부분적"
 
@@ -370,7 +375,7 @@ msgstr ""
 "것, 예를 들어 시각적 버그나 물리적 버그를 수정하는 것. Godot의 물리 엔진은 비"
 "결정적이므로, 물리 버그 수정은 호환성을 깨뜨리는 것으로 간주되지 않습니다. 버"
 "그 수정이 많은 프로젝트에 부정적인 영향을 미칠 수 있는 경우, 이를 선택적으로 "
-"만들 필요가 있습니다(예: 프로젝트 설정이나 별도의 메서드를 사용하는 방식)."
+"만들 필요가 있습니다 (예: 프로젝트 설정이나 별도의 메서드를 사용하는 방식)."
 
 msgid "Adding a new optional parameter to a method."
 msgstr "메서드에 새로운 선택적 매개변수를 추가하기."

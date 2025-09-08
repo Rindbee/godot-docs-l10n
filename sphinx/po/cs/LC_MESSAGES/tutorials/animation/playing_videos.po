@@ -10,3 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Supported playback formats"
+msgstr "Formáty s podporovaným přehráváním"
+
+msgid "This can be done with the following steps:"
+msgstr "Toho může být docíleno následujícími kroky:"

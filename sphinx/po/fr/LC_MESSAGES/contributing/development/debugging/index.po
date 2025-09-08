@@ -13,3 +13,6 @@ msgstr ""
 
 msgid "Debugging and profiling"
 msgstr "Débogage et profilage"
+
+msgid "Debugging the editor"
+msgstr "Déboguer l'éditeur"

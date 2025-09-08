@@ -11,8 +11,74 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0108: The exported tool button is not in a tool class"
+msgstr ""
+"GD0108: Экспортированная кнопка инструмента не принадлежит классу "
+"инструментов"
+
+msgid "**Rule ID**"
+msgstr "**Идентификатор правила**"
+
+msgid "GD0108"
+msgstr "GD0108"
+
 msgid "**Category**"
 msgstr "**Категория**"
 
 msgid "Usage"
 msgstr "Использование"
+
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Исправление может быть как ломающим, так и не ломающим**"
+
+msgid "Non-breaking"
+msgstr "Неразрушающий"
+
+msgid "**Enabled by default**"
+msgstr "**Включено по умолчанию**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "Причина"
+
+msgid ""
+"A property is annotated with the ``[ExportToolButton]`` attribute in a class "
+"that is **not** annotated with the ``[Tool]`` attribute."
+msgstr ""
+"Свойство аннотируется атрибутом ``[ExportToolButton]`` в классе, который "
+"**не** аннотируется атрибутом ``[Tool]``."
+
+msgid "Rule description"
+msgstr "Описание правила"
+
+msgid ""
+"The ``[ExportToolButton]`` is used to create clickable buttons in the "
+"inspector so, like every other script that runs in the editor, it needs to "
+"be annotated with the ``[Tool]`` attribute."
+msgstr ""
+"``[ExportToolButton]`` используется для создания нажимаемых кнопок в "
+"инспекторе, поэтому, как и любой другой скрипт, запускаемый в редакторе, его "
+"необходимо аннотировать атрибутом ``[Tool]``."
+
+msgid "How to fix violations"
+msgstr "Как устранить нарушения"
+
+msgid ""
+"To fix a violation of this rule, add the ``[Tool]`` attribute to the class "
+"that contains the member annotated with the ``[ExportToolButton]`` attribute."
+msgstr ""
+"Чтобы устранить нарушение этого правила, добавьте атрибут ``[Tool]`` к "
+"классу, содержащему член, аннотированный атрибутом ``[ExportToolButton]``."
+
+msgid "When to suppress warnings"
+msgstr "Когда следует подавлять предупреждения"
+
+msgid ""
+"Do not suppress a warning from this rule. The clickable buttons in the "
+"inspector won't be functional if their script is not annotated with the "
+"``[Tool]`` attribute."
+msgstr ""
+"Не подавляйте предупреждение из этого правила. Кнопки в инспекторе не будут "
+"работать, если их скрипт не аннотирован атрибутом ``[Tool]``."

@@ -67,6 +67,13 @@ msgstr ""
 "закодовані у форматі little-endian. Всі пакети мають 4-байтовий заголовок, "
 "що представляє собою ціле число, яке вказує тип даних."
 
+msgid ""
+"The lowest value two bytes are used to determine the type, while the highest "
+"value two bytes contain flags:"
+msgstr ""
+"Два байти з найменшим значенням використовуються для визначення типу, тоді "
+"як два байти з найвищим значенням містять прапорці:"
+
 msgid "Type"
 msgstr "Тип"
 

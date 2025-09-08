@@ -106,6 +106,12 @@ msgstr "**ios**"
 msgid "Running on iOS (but not within a Web browser)"
 msgstr "Працює на iOS (але не в веб-браузері)"
 
+msgid "**visionos**"
+msgstr "**visionos**"
+
+msgid "Running on visionOS (but not within a Web browser)"
+msgstr "Працює на visionOS (але не у веббраузері)"
+
 msgid "**windows**"
 msgstr "**вікна**"
 
@@ -135,6 +141,18 @@ msgstr "**editor**"
 
 msgid "Running on an editor build"
 msgstr "Працює в збірці редактора"
+
+msgid "**editor_hint**"
+msgstr "**editor_hint**"
+
+msgid "Running on an editor build, and inside the editor"
+msgstr "Запуск на збірці редактора та всередині редактора"
+
+msgid "**editor_runtime**"
+msgstr "**editor_runtime**"
+
+msgid "Running on an editor build, and running the project"
+msgstr "Запуск на збірці редактора та запуск проекту"
 
 msgid "**template**"
 msgstr "**шаблон**"
@@ -269,6 +287,18 @@ msgstr "**web**"
 msgid "Host OS is a Web browser"
 msgstr "Основна операційна система є переглядачем інтернету"
 
+msgid "**nothreads**"
+msgstr "**nothreads**"
+
+msgid "Running without threading support"
+msgstr "Запуск без підтримки потоків"
+
+msgid "**threads**"
+msgstr "**threads**"
+
+msgid "Running with threading support"
+msgstr "Запуск з підтримкою потоків"
+
 msgid "**web_android**"
 msgstr "**web_android**"
 
@@ -323,6 +353,21 @@ msgstr "**фільм**"
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ":ref:`Movie Maker mode <doc_creating_movies>` активний"
 
+msgid "**shader_baker**"
+msgstr "**shader_baker**"
+
+msgid "**dedicated_server**"
+msgstr "**dedicated_server**"
+
+msgid ""
+"Project was exported as a :ref:`dedicated server "
+"<doc_exporting_for_dedicated_servers>` (only applies to the exported "
+"project, not when running in the editor)"
+msgstr ""
+"Проект було експортовано як :ref:`dedicated server "
+"<doc_exporting_for_dedicated_servers>` (стосується лише експортованого "
+"проекту, а не запуску в редакторі)"
+
 msgid ""
 "With the exception of texture compression, ``web_<platform>`` and ``movie`` "
 "feature tags, default feature tags are **immutable**. This means that they "
@@ -365,6 +410,16 @@ msgstr ""
 "час запуску проекту з редактора, навіть якщо пресет експорту позначено як "
 "**Runnable** *(Запускається)* для вашої поточної платформи з визначені "
 "спеціальні теги."
+
+msgid ""
+"Custom feature tags are also not used in :ref:`class_EditorExportPlugin` "
+"scripts. Instead, feature tags in :ref:`class_EditorExportPlugin` will "
+"reflect the device the editor is currently running on."
+msgstr ""
+"Теги користувацьких функцій також не використовуються у "
+"скриптах :ref:`class_EditorExportPlugin`. Натомість теги функцій "
+"у :ref:`class_EditorExportPlugin` відображатимуть пристрій, на якому наразі "
+"працює редактор."
 
 msgid "Overriding project settings"
 msgstr "Заміна параметрів проєкту"
@@ -425,6 +480,42 @@ msgid ""
 msgstr ""
 "Вже існує багато параметрів, які за замовчуванням мають заміни; їх можна "
 "знайти в багатьох розділах параметрів проєкту."
+
+msgid "Taking feature tags into account when reading project settings"
+msgstr "Врахування тегів функцій під час читання налаштувань проекту"
+
+msgid ""
+"By default, feature tags are **not** taken into account when reading project "
+"settings using the typical approaches "
+"(:ref:`ProjectSettings.get_setting<class_ProjectSettings_method_get_setting>` "
+"or :ref:`ProjectSettings.get <class_Object_private_method__get>`). Instead, "
+"you must use :ref:`ProjectSettings.get_setting_with_override "
+"<class_ProjectSettings_method_get_setting>`."
+msgstr ""
+"За замовчуванням теги функцій **не** враховуються під час зчитування "
+"налаштувань проекту за допомогою типових підходів "
+"(:ref:`ProjectSettings.get_setting<class_ProjectSettings_method_get_setting>` "
+"або :ref:`ProjectSettings.get <class_Object_private_method__get>`). "
+"Натомість необхідно "
+"використовувати :ref:`ProjectSettings.get_setting_with_override "
+"<class_ProjectSettings_method_get_setting>`."
+
+msgid "For example, with the following project settings:"
+msgstr "Наприклад, з такими налаштуваннями проекту:"
+
+msgid ""
+"Using ``ProjectSettings.get_setting(\"section/subsection/example\")`` will "
+"return ``\"Release\"`` regardless of whether a debug build is currently "
+"running. On the other hand, "
+"``ProjectSettings.get_setting_with_override(\"section/subsection/"
+"example\")`` will obey feature tags and will return ``\"Debug\"`` if using a "
+"debug build."
+msgstr ""
+"Використання ``ProjectSettings.get_setting(\"section/subsection/example\")`` "
+"поверне ``\"Release\"`` незалежно від того, чи запущено налагоджувальну "
+"збірку. З іншого боку, ``ProjectSettings.get_setting_with_override(\"section/"
+"subsection/example\")`` керуватиметься тегами функцій та поверне "
+"``\"Debug\"``, якщо використовується налагоджувальна збірка."
 
 msgid "Customizing the build"
 msgstr "Налаштування збірки"

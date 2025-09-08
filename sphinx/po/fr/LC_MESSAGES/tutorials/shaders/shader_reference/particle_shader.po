@@ -59,6 +59,9 @@ msgstr "Désactiver la force d'attracteur."
 msgid "**disable_velocity**"
 msgstr "**disable_velocity**"
 
+msgid "Ignore ``VELOCITY`` value."
+msgstr "Ignorer la valeur de ``VELOCITY``."
+
 msgid "**collision_use_scale**"
 msgstr "**collision_use_scale**"
 
@@ -109,6 +112,9 @@ msgstr "in uint **NUMBER**"
 msgid "Unique number since emission start."
 msgstr "Numéro unique depuis le début de l'émission."
 
+msgid "in uint **INDEX**"
+msgstr "in uint **INDEX**"
+
 msgid "Particle index (from total particles)."
 msgstr "Indice de particule (sur le nombre total de particules)."
 
@@ -154,14 +160,62 @@ msgstr "inout vec4 **CUSTOM**"
 msgid "inout float **MASS**"
 msgstr "inout float **MASS**"
 
+msgid "in vec4 **USERDATAX**"
+msgstr "in vec4 **USERDATAX**"
+
+msgid "in uint **FLAG_EMIT_POSITION**"
+msgstr "in uint **FLAG_EMIT_POSITION**"
+
+msgid "in uint **FLAG_EMIT_ROT_SCALE**"
+msgstr "in uint **FLAG_EMIT_ROT_SCALE**"
+
+msgid "in uint **FLAG_EMIT_VELOCITY**"
+msgstr "in uint **FLAG_EMIT_VELOCITY**"
+
+msgid "in uint **FLAG_EMIT_COLOR**"
+msgstr "in uint **FLAG_EMIT_COLOR**"
+
+msgid "in uint **FLAG_EMIT_CUSTOM**"
+msgstr "in uint **FLAG_EMIT_CUSTOM**"
+
+msgid "in vec3 **EMITTER_VELOCITY**"
+msgstr "in vec3 **EMITTER_VELOCITY**"
+
 msgid "in float **INTERPOLATE_TO_END**"
 msgstr "in float **INTERPOLATE_TO_END**"
+
+msgid "in uint **AMOUNT_RATIO**"
+msgstr "in uint **AMOUNT_RATIO**"
+
+msgid "in bool **RESTART_POSITION**"
+msgstr "in bool **RESTART_POSITION**"
+
+msgid "in bool **RESTART_ROT_SCALE**"
+msgstr "in bool **RESTART_ROT_SCALE**"
+
+msgid "in bool **RESTART_VELOCITY**"
+msgstr "in bool **RESTART_VELOCITY**"
+
+msgid "in bool **RESTART_COLOR**"
+msgstr "in bool **RESTART_COLOR**"
+
+msgid "in bool **RESTART_CUSTOM**"
+msgstr "in bool **RESTART_CUSTOM**"
 
 msgid "in bool **RESTART**"
 msgstr "in bool **RESTART**"
 
+msgid "in bool **COLLIDED**"
+msgstr "in bool **COLLIDED**"
+
+msgid "in vec3 **COLLISION_NORMAL**"
+msgstr "in vec3 **COLLISION_NORMAL**"
+
 msgid "in float **COLLISION_DEPTH**"
 msgstr "in float **COLLISION_DEPTH**"
+
+msgid "in vec3 **ATTRACTOR_FORCE**"
+msgstr "in vec3 **ATTRACTOR_FORCE**"
 
 msgid "Process functions"
 msgstr "Fonctions de traitement"

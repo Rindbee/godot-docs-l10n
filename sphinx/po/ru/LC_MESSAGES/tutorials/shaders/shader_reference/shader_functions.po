@@ -47,6 +47,9 @@ msgstr "Гиперболический тангенс."
 msgid "return"
 msgstr "return"
 
+msgid "Exponential and math functions"
+msgstr "Экспоненциальные и математические функции"
+
 msgid "Base-e exponential."
 msgstr "Экспонента."
 
@@ -87,6 +90,9 @@ msgstr "Наибольшее значение между ``a`` и ``b``."
 msgid "Linear interpolate between ``a`` and ``b`` by ``c``."
 msgstr "Линейная интерполяция между ``a`` и ``b`` по ``c``."
 
+msgid "Fused multiply-add operation: ``(a * b + c)``"
+msgstr "Объединенная операция умножения-сложения: ``(a * b + c)``"
+
 msgid "Hermite interpolate between ``a`` and ``b`` by ``c``."
 msgstr "Эрмитова интерполяция между ``a`` и ``b`` по ``c``."
 
@@ -99,14 +105,54 @@ msgid "Returns ``true`` if scalar or vector component is ``INF``."
 msgstr ""
 "Возвращает ``true``, если скалярный или векторный компонент является ``INF``."
 
+msgid "|vec_type| **floor**\\ (\\ |vec_type| x) :ref:`🔗<shader_func_floor>`"
+msgstr "|vec_type| **floor**\\ (\\ |vec_type| x) :ref:`🔗<shader_func_floor>`"
+
 msgid "The rounded value."
 msgstr "Округленное значение."
+
+msgid ""
+"|vec_int_type| **clamp**\\ (\\ |vec_int_type| x, |vec_int_type| minVal, |"
+"vec_int_type| maxVal) :ref:`🔗<shader_func_clamp>`"
+msgstr ""
+"|vec_int_type| **clamp**\\ (\\ |vec_int_type| x, |vec_int_type| minVal, |"
+"vec_int_type| maxVal) :ref:`🔗<shader_func_clamp>`"
+
+msgid ""
+"|vec_int_type| **clamp**\\ (\\ |vec_int_type| x, int minVal, int "
+"maxVal) :ref:`🔗<shader_func_clamp>`"
+msgstr ""
+"|vec_int_type| **clamp**\\ (\\ |vec_int_type| x, int minVal, int "
+"maxVal) :ref:`🔗<shader_func_clamp>`"
+
+msgid ""
+"|vec_uint_type| **clamp**\\ (\\ |vec_uint_type| x, |vec_uint_type| minVal, |"
+"vec_uint_type| maxVal) :ref:`🔗<shader_func_clamp>`"
+msgstr ""
+"|vec_uint_type| **clamp**\\ (\\ |vec_uint_type| x, |vec_uint_type| minVal, |"
+"vec_uint_type| maxVal) :ref:`🔗<shader_func_clamp>`"
+
+msgid ""
+"|vec_uint_type| **clamp**\\ (\\ |vec_uint_type| x, uint minVal, uint "
+"maxVal) :ref:`🔗<shader_func_clamp>`"
+msgstr ""
+"|vec_uint_type| **clamp**\\ (\\ |vec_uint_type| x, uint minVal, uint "
+"maxVal) :ref:`🔗<shader_func_clamp>`"
+
+msgid "The interpolated value."
+msgstr "Интерполированное значение."
+
+msgid "The value to be added to the result."
+msgstr "Значение, которое необходимо добавить к результату."
 
 msgid "The location of the edge of the step function."
 msgstr "Местоположение края ступенчатой функции."
 
 msgid "The value to test for infinity."
 msgstr "Значение для проверки на бесконечность."
+
+msgid "A floating-point value."
+msgstr "Значение с плавающей точкой."
 
 msgid "float"
 msgstr "float"
@@ -150,6 +196,39 @@ msgstr "Матричный определитель."
 msgid "Inverse matrix."
 msgstr "Обратная матрица."
 
+msgid "The second point."
+msgstr "Второй пункт."
+
+msgid "The first vector."
+msgstr "Первый вектор."
+
+msgid "The second vector."
+msgstr "Второй вектор."
+
+msgid "The incident vector."
+msgstr "Вектор инцидента."
+
+msgid "The normal vector."
+msgstr "Нормальный вектор."
+
+msgid "The ratio of indices of refraction."
+msgstr "Отношение показателей преломления."
+
+msgid "The refraction vector."
+msgstr "Вектор рефракции."
+
+msgid "The vector to orient."
+msgstr "Вектор для ориентации."
+
+msgid "The reference vector."
+msgstr "Опорный вектор."
+
+msgid "The resultant matrix."
+msgstr "Результирующая матрица."
+
+msgid "Calculate the transpose of a matrix."
+msgstr "Вычислить транспонирование матрицы."
+
 msgid "Bool vector comparison on < int/uint/float vectors."
 msgstr "Логическое сравнение векторов < int/uint/float."
 
@@ -180,6 +259,9 @@ msgstr "``true`` если все компоненты являются ``true``,
 msgid "Invert boolean vector."
 msgstr "Обратный логический вектор."
 
+msgid "The second vector to compare."
+msgstr "Второй вектор для сравнения."
+
 msgid "Get the size of a texture."
 msgstr "Получает размер текстуры."
 
@@ -198,11 +280,34 @@ msgstr "Выполняет чтение текстуры с проекцией/L
 msgid "Performs a texture read with explicit gradients."
 msgstr "Выполняет чтение текстуры с явными градиентами."
 
+msgid "Performs a texture read with projection/LOD and with explicit"
+msgstr "Выполняет чтение текстуры с проекцией/LOD и с явным"
+
 msgid "Fetches a single texel using integer coordinates."
 msgstr "Получает один тексель, используя целочисленные координаты."
 
 msgid "Available only in the fragment shader."
 msgstr "Доступно только во фрагментном шейдере."
+
+msgid "See description."
+msgstr "См. описание."
+
+msgid "The gathered texel."
+msgstr "Собранный тексель."
+
+msgid ""
+"Calculates derivatives using local differencing based on the value of ``p`` "
+"for the current fragment's neighbors, and will possibly, but not "
+"necessarily, include the value for the current fragment. That is, over a "
+"given area, the implementation can compute derivatives in fewer unique "
+"locations than would be allowed for the "
+"corresponding :ref:`dFdxFine<shader_func_dFdxFine>` function."
+msgstr ""
+"Вычисляет производные, используя локальную разность на основе значения ``p`` "
+"для соседей текущего фрагмента, и, возможно, но не обязательно, включает "
+"значение для текущего фрагмента. То есть, для заданной области реализация "
+"может вычислять производные в меньшем количестве уникальных точек, чем это "
+"разрешено для соответствующей функции :ref:`dFdxFine<shader_func_dFdxFine>`."
 
 msgid "Extracts a range of bits from an integer."
 msgstr "Извлечение диапазона битов из целого числа."
@@ -231,3 +336,13 @@ msgstr "Вычитает два беззнаковых целых числа и 
 
 msgid "Assemble a floating-point number from a value and exponent."
 msgstr "Сборка числа с плавающей точкой из значения и экспоненты."
+
+msgid ""
+"Splits a floating-point number (``x``) into significand integral components"
+msgstr "Разбивает число с плавающей точкой (``x``) на значимую и целую части"
+
+msgid "The number of bits to extract."
+msgstr "Количество извлекаемых битов."
+
+msgid "The second operand."
+msgstr "Второй операнд."

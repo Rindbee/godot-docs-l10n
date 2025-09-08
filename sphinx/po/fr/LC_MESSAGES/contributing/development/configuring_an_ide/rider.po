@@ -19,3 +19,6 @@ msgstr "Importation du projet"
 
 msgid "Working Directory: ``$(LocalDebuggerWorkingDirectory)``"
 msgstr "Répertoire de travail : ``$(LocalDebuggerWorkingDirectory)``"
+
+msgid "Unit testing"
+msgstr "Tests unitaires"

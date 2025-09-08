@@ -11,14 +11,33 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Available 3D formats"
+msgstr "사용 가능한 3D 형식"
+
 msgid ""
 "When dealing with 3D assets, Godot has a flexible and configurable importer."
 msgstr ""
-"3D 애셋을 다룰 때, Godot는 유연하면서 설정할 수 있는 임포터를 가지고 있습니"
+"3D 애셋을 다룰 때, Godot는 유연하면서 구성할 수 있는 임포터를 가지고 있습니"
 "다."
 
 msgid "Godot supports the following 3D *scene file formats*:"
-msgstr "Godot는 아래와 같은 3D *씬 파일 형식* 을 지원합니다:"
+msgstr "Godot는 다음 3D *씬 파일 형식*\\ 을 지원합니다:"
+
+msgid "DAE (COLLADA), an older format that is supported."
+msgstr "DAE(COLLADA)는 지원되는 오래된 형식입니다."
+
+msgid "Exporting glTF 2.0 files from Blender (recommended)"
+msgstr "Blender에서 glTF 2.0 파일 내보내기 (권장)"
+
+msgid ""
+"Diagram explaining the runtime import and export process for glTF files in "
+"Godot"
+msgstr ""
+"Godot에서 glTF 파일에 대한 런타임 가져오기 및 내보내기 처리를 설명하는 다이어"
+"그램"
+
+msgid "Diagram explaining the editor import process for glTF files in Godot"
+msgstr "Godot에서 glTF 파일에 대한 편집기 가져오기 처리를 설명하는 다이어그램"
 
 msgid ""
 "By default, Blender has backface culling disabled on materials and will "
@@ -34,5 +53,27 @@ msgstr ""
 "려질 때에도 뒷면이 렌더링되므로 성능을 떨어뜨릴 수 있습니다. 이를 해결하려면 "
 "Blender의 머티리얼 탭에서 **뒷면 컬링** 옵션을 활성화하세요."
 
+msgid "Importing ``.blend`` files directly within Godot"
+msgstr "Godot 안에서 ``.blend`` 파일을 직접 가져오기"
+
+msgid ""
+"The editor can directly import ``.blend`` files by calling `Blender <https://"
+"www.blender.org/>`__'s glTF export functionality in a transparent manner."
+msgstr ""
+"편집기는 `Blender <https://www.blender.org/>`__\\ 의 glTF 내보내기 기능을 투"
+"명한 방식으로 호출하여 ``.blend`` 파일을 직접 가져올 수 있습니다."
+
+msgid "Diagram explaining the import process for Blender files in Godot"
+msgstr "Godot에서 Blender 파일에 대한 가져오기 처리를 설명하는 다이어그램"
+
 msgid "Exporting DAE files from Blender"
 msgstr "블렌더에서 DAE 파일 내보내기"
+
+msgid "Importing OBJ files in Godot"
+msgstr "Godot에서 OBJ 파일 가져오기"
+
+msgid "There are 2 ways to use OBJ meshes in Godot:"
+msgstr "Godot에서 OBJ 메시를 사용하는 방법은 2가지가 있습니다:"
+
+msgid "Importing FBX files in Godot"
+msgstr "Godot에서 FBX 파일 가져오기"

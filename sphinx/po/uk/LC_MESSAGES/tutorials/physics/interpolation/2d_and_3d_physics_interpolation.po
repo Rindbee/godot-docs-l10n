@@ -82,6 +82,13 @@ msgstr ""
 "вимкнення поведінки 2D-вузлів, отже, вимагає трохи більше обдумування та "
 "планування."
 
+msgid ""
+"On the positive side, pivot behavior in the scene tree is perfectly "
+"preserved during interpolation in 2D, which gives super smooth behavior."
+msgstr ""
+"З позитивного боку, поведінка повороту в дереві сцени ідеально зберігається "
+"під час інтерполяції в 2D, що забезпечує надзвичайно плавну поведінку."
+
 msgid "Resetting physics interpolation"
 msgstr "Скидання фізичної інтерполяції"
 

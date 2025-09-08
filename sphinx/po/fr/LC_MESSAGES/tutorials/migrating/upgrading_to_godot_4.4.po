@@ -11,6 +11,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Upgrading from Godot 4.3 to Godot 4.4"
+msgstr "Mise à niveau de Godot 4.3 vers Godot 4.4"
+
+msgid ""
+"For most games and apps made with 4.3 it should be relatively safe to "
+"migrate to 4.4. This page intends to cover everything you need to pay "
+"attention to when migrating your project."
+msgstr ""
+"Pour la plupart des jeux et applications fabriqués en 4.3, il devrait être "
+"relativement sûr de migrer en 4.4. Cette page a l'intention de couvrir tout "
+"ce dont vous avez besoin de faire attention à lors de la migration de votre "
+"projet."
+
+msgid "Breaking changes"
+msgstr "Changements incompatibles"
+
+msgid ""
+"If you are migrating from 4.3 to 4.4, the breaking changes listed here might "
+"affect you. Changes are grouped by areas/systems."
+msgstr ""
+"Si vous migrez de la 4.3 à la 4.4, les changements cassants énumérés ici "
+"pourraient vous affecter. Les changements sont regroupés par zones/systèmes."
+
 msgid ""
 "**Source compatible** - Source code will compile successfully without "
 "changes when upgrading Godot."
@@ -36,14 +59,143 @@ msgstr "Compatible source C#"
 msgid "Introduced"
 msgstr "Intégré"
 
+msgid "**FileAccess**"
+msgstr "**FileAccess**"
+
+msgid "Method ``open_encrypted`` adds a new ``iv`` optional parameter"
+msgstr ""
+"La méthode ``open_encrypted`` ajoute un nouveau paramètre optionnel ``iv``"
+
 msgid "|✔️|"
 msgstr "|✔️|"
 
 msgid "|✔️ with compat|"
 msgstr "|✔️ avec compatibilité|"
 
+msgid "`GH-98918`_"
+msgstr "`GH-98918`_"
+
+msgid "Method ``store_8`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"La méthode ``store_8`` change de type de retour de ``void`` en ``bool``"
+
 msgid "|❌|"
 msgstr "|❌|"
+
+msgid "`GH-78289`_"
+msgstr "`GH-78289`_"
+
+msgid "Method ``store_16`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"La méthode ``store_16`` change de type de retour de ``void`` en ``bool``"
+
+msgid "Method ``store_32`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"La méthode ``store_32`` change de type de retour de ``void`` en ``bool``"
+
+msgid "Method ``store_64`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"La méthode ``store_64`` change de type de retour de ``void`` en ``bool``"
+
+msgid "Method ``store_buffer`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"La méthode ``store_buffer`` change de type de retour de ``void`` en ``bool``"
+
+msgid "Method ``store_csv_line`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"La méthode ``store_csv_line`` change de type de renvoi de ``void`` en "
+"``bool``"
+
+msgid "Method ``store_double`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"La méthode ``store_double`` change de type de retour de ``void`` en ``bool``"
+
+msgid "Method ``store_float`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"La méthode ``store_float`` change de type de retour de ``void`` en ``bool``"
+
+msgid "Method ``store_half`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"La méthode ``store_half`` change de type de retour de ``void`` en ``bool``"
+
+msgid "Method ``store_line`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"La méthode ``store_line`` change de type de retour de ``void`` en ``bool``"
+
+msgid ""
+"Method ``store_pascal_string`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"La méthode ``store_pascal_string`` change de type de renvoi de ``void`` en "
+"``bool``"
+
+msgid "Method ``store_real`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"La méthode ``store_real`` change de type de retour de ``void`` en ``bool``"
+
+msgid "Method ``store_string`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"La méthode ``store_string`` change de type de renvoi de ``void`` en ``bool``"
+
+msgid "Method ``store_var`` changes return type from ``void`` to ``bool``"
+msgstr ""
+"La méthode ``store_var`` change de type de retour de ``void`` en ``bool``"
+
+msgid "**OS**"
+msgstr "**OS**"
+
+msgid "Method ``execute_with_pipe`` adds a new ``blocking`` optional parameter"
+msgstr ""
+"La méthode ``execute_with_pipe`` ajoute un nouveau paramètre optionnel "
+"``blocking``"
+
+msgid "`GH-94434`_"
+msgstr "`GH-94434`_"
+
+msgid ""
+"Method ``read_string_from_stdin`` adds a new ``buffer_size`` parameter [#f1]_"
+msgstr ""
+"La méthode ``read_string_from_stdin`` ajoute un nouveau paramètre "
+"``buffer_size`` [#f1]_"
+
+msgid "`GH-91201`_"
+msgstr "`GH-91201`_"
+
+msgid "**RegEx**"
+msgstr "**RegEx**"
+
+msgid "Method ``compile`` adds a new ``show_error`` optional parameter"
+msgstr ""
+"La méthode ``compile`` ajoute un nouveau paramètre optionnel ``show_error``"
+
+msgid "`GH-95212`_"
+msgstr "`GH-95212`_"
+
+msgid ""
+"Method ``create_from_string`` adds a new ``show_error`` optional parameter"
+msgstr ""
+"La méthode ``create_from_string`` ajoute un nouveau paramètre optionnel "
+"``show_error``"
+
+msgid "Method ``post`` adds a new ``count`` optional parameter"
+msgstr "La méthode ``post`` ajoute un nouveau paramètre optionnel ``count``"
+
+msgid "`GH-93605`_"
+msgstr "`GH-93605`_"
+
+msgid "**TranslationServer**"
+msgstr "**TranslationServer**"
+
+msgid ""
+"Method ``standardize_locale`` adds a new ``add_defaults`` optional parameter"
+msgstr ""
+"La méthode ``standardize_locale`` ajoute un nouveau paramètre optionnel "
+"``add_defaults``"
+
+msgid "`GH-98972`_"
+msgstr "`GH-98972`_"
+
+msgid "Default buffer size in 4.3 is ``1024``."
+msgstr "La taille de buffer par défaut en 4.3 est de ``1024``."
 
 msgid "GUI nodes"
 msgstr "Nœuds GUI"
@@ -51,26 +203,195 @@ msgstr "Nœuds GUI"
 msgid "**RichTextLabel**"
 msgstr "**RichTextLabel**"
 
+msgid "Method ``push_meta`` adds a new ``tooltip`` optional parameter"
+msgstr ""
+"La méthode ``push_meta`` ajoute un nouveau paramètre optionnel ``tooltip``"
+
+msgid "`GH-99481`_"
+msgstr "`GH-99481`_"
+
+msgid ""
+"Method ``set_table_column_expand`` adds a new ``shrink`` optional parameter"
+msgstr ""
+"La méthode ``set_table_column_expand`` ajoute un nouveau paramètre optionnel "
+"``shrink``"
+
+msgid "`GH-101482`_"
+msgstr "`GH-101482`_"
+
 msgid "**GraphEdit**"
 msgstr "**GraphEdit**"
+
+msgid "Method ``connect_node`` adds a new ``keep_alive`` optional parameter"
+msgstr ""
+"La méthode ``connect_node`` ajoute un nouveau paramètre optionnel "
+"``keep_alive``"
+
+msgid "`GH-97449`_"
+msgstr "`GH-97449`_"
+
+msgid ""
+"Signal ``frame_rect_changed`` changes ``new_rect`` parameter type from "
+"``Vector2`` to ``Rect2``"
+msgstr ""
+"Le signal ``frame_rect_changed`` change le type du paramètre de ``new_rect`` "
+"de ``Vector2`` en ``Rect2``"
+
+msgid "`GH-102796`_"
+msgstr "`GH-102796`_"
 
 msgid "Physics"
 msgstr "Physique"
 
+msgid "**SoftBody3D**"
+msgstr "**SoftBody3D**"
+
+msgid "Method ``set_point_pinned`` adds a new ``insert_at`` optional parameter"
+msgstr ""
+"La méthode ``set_point_pinned`` ajoute un nouveau paramètre optionnel "
+"``insert_at``"
+
+msgid "`GH-94684`_"
+msgstr "`GH-94684`_"
+
 msgid "Rendering"
 msgstr "Rendu"
+
+msgid "**CPUParticles2D**"
+msgstr "**CPUParticles2D**"
+
+msgid "Method ``restart`` adds a new ``keep_seed`` optional parameter"
+msgstr ""
+"La méthode ``restart`` ajoute un nouveau paramètre optionnel ``keep_seed``"
+
+msgid "`GH-92089`_"
+msgstr "`GH-92089`_"
+
+msgid "**CPUParticles3D**"
+msgstr "**CPUParticles3D**"
+
+msgid "**GPUParticles2D**"
+msgstr "**GPUParticles2D**"
+
+msgid "**GPUParticles3D**"
+msgstr "**GPUParticles3D**"
 
 msgid "**RenderingDevice**"
 msgstr "**RenderingDevice**"
 
+msgid "Method ``draw_list_begin`` adds a new ``breadcrumb`` optional parameter"
+msgstr ""
+"La méthode ``draw_list_begin`` ajoute un nouveau paramètre optionnel "
+"``breadcrumb``"
+
+msgid "`GH-90993`_"
+msgstr "`GH-90993`_"
+
+msgid "Method ``draw_list_begin`` removes many parameters"
+msgstr "La méthode ``draw_list_begin`` retire de nombreux paramètres"
+
+msgid "`GH-98670`_"
+msgstr "`GH-98670`_"
+
+msgid ""
+"Method ``index_buffer_create`` adds a new ``enable_device_address`` optional "
+"parameter"
+msgstr ""
+"La méthode ``index_buffer_create`` ajoute un nouveau paramètre optionnel "
+"``enable_device_address``"
+
+msgid "`GH-100062`_"
+msgstr "`GH-100062`_"
+
+msgid ""
+"Method ``uniform_buffer_create`` adds a new ``enable_device_address`` "
+"optional parameter"
+msgstr ""
+"La méthode ``uniform_buffer_create`` ajoute un nouveau paramètre optionnel "
+"``enable_device_address``"
+
+msgid ""
+"Method ``vertex_buffer_create`` adds a new ``enable_device_address`` "
+"optional parameter"
+msgstr ""
+"La méthode ``vertex_buffer_create`` ajoute un nouveau paramètre optionnel "
+"``enable_device_address``"
+
 msgid "**RenderingServer**"
 msgstr "**RenderingServer**"
+
+msgid ""
+"Method ``multimesh_allocate_data`` adds a new ``use_indirect`` optional "
+"parameter"
+msgstr ""
+"La méthode ``multimesh_allocate_data`` ajoute un nouveau paramètre optionnel "
+"``use_indirect``"
+
+msgid "`GH-99455`_"
+msgstr "`GH-99455`_"
+
+msgid "**Shader**"
+msgstr "**Shader**"
+
+msgid ""
+"Method ``get_default_texture_parameter`` changes return type from "
+"``Texture2D`` to ``Texture``"
+msgstr ""
+"La méthode ``get_default_texture_parameter`` change de type de retour de "
+"``Texture2D`` en ``Texture``"
+
+msgid "`GH-95126`_"
+msgstr "`GH-95126`_"
+
+msgid ""
+"Method ``set_default_texture_parameter`` changes ``texture`` parameter type "
+"from ``Texture2D`` to ``Texture``"
+msgstr ""
+"La méthode ``set_default_texture_parameter`` change le type du paramètre "
+"``texture`` de ``Texture2D`` en ``Texture``"
+
+msgid "**VisualShaderNodeCubemap**"
+msgstr "**VisualShaderNodeCubemap**"
+
+msgid ""
+"Property ``cube_map`` changes type from ``Cubemap`` to ``TextureLayered``"
+msgstr ""
+"La propriété ``cube_map`` change de type, de ``Cubemap``` à "
+"``TextureLayered``"
+
+msgid "**VisualShaderNodeTexture2DArray**"
+msgstr "**VisualShaderNodeTexture2DArray**"
+
+msgid ""
+"Property ``texture_array`` changes type from ``Texture2DArray`` to "
+"``TextureLayered``"
+msgstr ""
+"La propriété ``texture_array`` change de type, de ``Texture2DArray``` à "
+"``TextureLayered``"
+
+msgid ""
+"In C#, the enum ``RenderingDevice.StorageBufferUsage`` breaks compatibility "
+"because of the way the bindings generator detects the enum prefix. New "
+"members where added in `GH-100062`_ to the enum that caused the enum members "
+"to be renamed."
+msgstr ""
+"En C#, l'énumération ``RenderingDevice.StorageBufferUsage`` casse la "
+"compatibilité en raison de la façon dont le générateur de liaisons détecte "
+"le préfixe enum. De nouveaux membres ont été ajoutés dans `GH-100062`_ à "
+"l’énumération, ce qui a forcé les membres de l'énumération à être renommés."
 
 msgid "Navigation"
 msgstr "Navigation"
 
 msgid "**NavigationServer2D**"
 msgstr "**NavigationServer2D**"
+
+msgid "Method ``query_path`` adds a new ``callback`` optional parameter"
+msgstr ""
+"La méthode ``query_path`` ajoute un nouveau paramètre optionnel ``callback``"
+
+msgid "`GH-100129`_"
+msgstr "`GH-100129`_"
 
 msgid "**NavigationServer3D**"
 msgstr "**NavigationServer3D**"
@@ -81,8 +402,53 @@ msgstr "Extensions pour l'éditeur"
 msgid "**EditorInterface**"
 msgstr "**EditorInterface**"
 
+msgid ""
+"Method ``open_scene_from_path`` adds a new ``set_inherited`` optional "
+"parameter"
+msgstr ""
+"La méthode ``open_scene_from_path`` ajoute un nouveau paramètre optionnel "
+"``set_inherited``"
+
+msgid "`GH-90057`_"
+msgstr "`GH-90057`_"
+
+msgid ""
+"Method ``popup_node_selector`` adds a new ``current_value`` optional "
+"parameter"
+msgstr ""
+"La méthode ``popup_node_selector`` ajoute un nouveau paramètre optionnel "
+"``current_value``"
+
+msgid "`GH-94323`_"
+msgstr "`GH-94323`_"
+
+msgid ""
+"Method ``popup_property_selector`` adds a new ``current_value`` optional "
+"parameter"
+msgstr ""
+"La méthode ``popup_property_selector`` ajoute un nouveau paramètre optionnel "
+"``current_value``"
+
+msgid "**EditorSceneFormatImporter**"
+msgstr "**EditorSceneFormatImporter**"
+
+msgid "Method ``_get_import_flags`` removed"
+msgstr "Méthode ``_get_import_flags`` supprimée"
+
+msgid "`GH-101531`_"
+msgstr "`GH-101531`_"
+
+msgid "**EditorTranslationParserPlugin**"
+msgstr "**EditorTranslationParserPlugin**"
+
+msgid "`GH-99297`_"
+msgstr "`GH-99297`_"
+
 msgid "Behavior changes"
 msgstr "Changements de comportement"
+
+msgid "CSG"
+msgstr "CSG"
 
 msgid "Android"
 msgstr "Android"

@@ -17,5 +17,26 @@ msgstr "물리적 단위의 이점"
 msgid "Setting up physical light units"
 msgstr "물리적 조명 단위 설정하기"
 
+msgid "Enable the project setting."
+msgstr "프로젝트 설정을 활성화합니다."
+
+msgid "Configure the camera."
+msgstr "카메라를 구성합니다."
+
+msgid "Configure the environment."
+msgstr "환경을 구성합니다."
+
+msgid "Configure Light3D nodes."
+msgstr "Light3D 노드를 구성합니다."
+
+msgid "Enable the project setting"
+msgstr "프로젝트 설정 활성화"
+
+msgid "Configure the camera"
+msgstr "카메라 구성"
+
+msgid "Configure the environment"
+msgstr "환경 구성"
+
 msgid "Setting up physical camera units"
 msgstr "물리적 카메라 단위 설정하기"

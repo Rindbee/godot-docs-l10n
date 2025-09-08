@@ -11,8 +11,74 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0102: The type of the exported member is not supported"
+msgstr "GD0102: Тип экспортируемого элемента не поддерживается"
+
+msgid "**Rule ID**"
+msgstr "**Идентификатор правила**"
+
+msgid "GD0102"
+msgstr "GD0102"
+
 msgid "**Category**"
 msgstr "**Категория**"
 
 msgid "Usage"
 msgstr "Использование"
+
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Исправление может быть как ломающим, так и не ломающим**"
+
+msgid "Breaking - If the member type is changed"
+msgstr "Нарушение - если тип члена изменен"
+
+msgid "Non-breaking - If the ``[Export]`` attribute is removed"
+msgstr "Неразрушающий — если атрибут ``[Export]`` удален"
+
+msgid "**Enabled by default**"
+msgstr "**Включено по умолчанию**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "Причина"
+
+msgid ""
+"An unsupported type is specified for a member annotated with the "
+"``[Export]`` attribute when a :ref:`Variant-compatible type "
+"<c_sharp_variant_compatible_types>` is expected."
+msgstr ""
+"Указан неподдерживаемый тип для члена, аннотированного атрибутом "
+"``[Export]``, хотя ожидается :ref:`Variant-compatible type "
+"<c_sharp_variant_compatible_types>`."
+
+msgid "Rule description"
+msgstr "Описание правила"
+
+msgid ""
+"Every exported member must be Variant-compatible so it can be marshalled by "
+"the engine."
+msgstr ""
+"Каждый экспортируемый элемент должен быть совместим с вариантами, чтобы "
+"движок мог его упорядочить."
+
+msgid "How to fix violations"
+msgstr "Как устранить нарушения"
+
+msgid ""
+"To fix a violation of this rule, change the member's type to be Variant-"
+"compatible or remove the ``[Export]`` attribute."
+msgstr ""
+"Чтобы устранить нарушение этого правила, измените тип элемента на "
+"совместимый с вариантами или удалите атрибут ``[Export]``."
+
+msgid "When to suppress warnings"
+msgstr "Когда следует подавлять предупреждения"
+
+msgid ""
+"Do not suppress a warning from this rule. Members with types that can't be "
+"marshalled will result in runtime errors."
+msgstr ""
+"Не подавляйте предупреждение из этого правила. Члены с типами, которые "
+"невозможно маршаллировать, приведут к ошибкам во время выполнения."

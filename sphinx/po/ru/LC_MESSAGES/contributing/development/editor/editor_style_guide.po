@@ -13,3 +13,9 @@ msgstr ""
 
 msgid "Introduction"
 msgstr "Введение"
+
+msgid "Inspector sections"
+msgstr "Инспекторские разделы"
+
+msgid "Inspector performance hints"
+msgstr "Советы по работе инспектора"

@@ -14,5 +14,11 @@ msgstr ""
 msgid "Introduction"
 msgstr "Introduction"
 
+msgid "Joint properties"
+msgstr "Propriétés des liaisons"
+
 msgid "WorldBoundaryShape3D"
 msgstr "WorldBoundaryShape3D"
+
+msgid "Project settings"
+msgstr "Paramètres du projet"

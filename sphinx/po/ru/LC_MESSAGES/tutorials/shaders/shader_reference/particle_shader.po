@@ -26,6 +26,19 @@ msgstr ""
 "CanvasItem или Spatial, в зависимости от того, являются ли они 2D или 3D."
 
 msgid ""
+"Particle shaders are unique because they are not used to draw the object "
+"itself; they are used to calculate particle properties, which are then used "
+"by a :ref:`CanvasItem<doc_canvas_item_shader>` "
+"or :ref:`Spatial<doc_spatial_shader>` shader. They contain two processor "
+"functions: ``start()`` and ``process()``."
+msgstr ""
+"Шейдеры частиц уникальны тем, что они не используются для отрисовки самого "
+"объекта, а служат для расчета свойств частиц, которые затем используются "
+"шейдером :ref:`CanvasItem<doc_canvas_item_shader>` "
+"или :ref:`Spatial<doc_spatial_shader>`. Они содержат две функции процессора: "
+"``start()`` и ``process()``."
+
+msgid ""
 "Unlike other shader types, particle shaders keep the data that was output "
 "the previous frame. Therefore, particle shaders can be used for complex "
 "effects that take place over multiple frames."
@@ -73,6 +86,9 @@ msgstr "**disаble_force**"
 msgid "**disable_velocity**"
 msgstr "**disаble_velocity**"
 
+msgid "**collision_use_scale**"
+msgstr "**collision_use_scale**"
+
 msgid "Scale the particle's size for collisions."
 msgstr "Масштабирует размер частицы для столкновений."
 
@@ -96,6 +112,9 @@ msgid ""
 msgstr ""
 "Константа ``TAU`` (``6.283185``). Эквивалент ``PI * 2`` и количество "
 "радианов в полном обороте."
+
+msgid "in float **E**"
+msgstr "В float **E**"
 
 msgid "Start and Process built-ins"
 msgstr "Встроенные Start и Process"
@@ -152,6 +171,18 @@ msgstr ""
 "Масса частицы, предназначенная для использования с аттракторами. По "
 "умолчанию равна ``1.0``."
 
+msgid "in uint **FLAG_EMIT_POSITION**"
+msgstr "in uint **FLAG_EMIT_POSITION**"
+
+msgid "in vec3 **EMITTER_VELOCITY**"
+msgstr "in vec3 **EMITTER_VELOCITY**"
+
+msgid "in float **INTERPOLATE_TO_END**"
+msgstr "in float **INTERPOLATE_TO_END**"
+
+msgid "in uint **AMOUNT_RATIO**"
+msgstr "in uint **AMOUNT_RATIO**"
+
 msgid ""
 "In order to use the ``COLOR`` variable in a StandardMaterial3D, set "
 "``vertex_color_use_as_albedo`` to ``true``. In a ShaderMaterial, access it "
@@ -163,6 +194,9 @@ msgstr ""
 
 msgid "Start built-ins"
 msgstr "Встроенные константы функции Start"
+
+msgid "in bool **RESTART_POSITION**"
+msgstr "in bool **RESTART_POSITION**"
 
 msgid ""
 "``true`` if particle is restarted, or emitted without a custom position "
@@ -211,3 +245,9 @@ msgstr ""
 
 msgid "Process built-ins"
 msgstr "Встроенные константы функции Process"
+
+msgid "in vec3 **COLLISION_NORMAL**"
+msgstr "in vec3 **COLLISION_NORMAL**"
+
+msgid "Process functions"
+msgstr "Функции процесса"

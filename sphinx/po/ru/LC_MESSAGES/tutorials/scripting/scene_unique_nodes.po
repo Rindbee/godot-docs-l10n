@@ -11,8 +11,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Scene Unique Nodes"
+msgstr "Уникальные Узлы Сцены"
+
 msgid "Introduction"
 msgstr "Введение"
 
+msgid "Creation and usage"
+msgstr "Создание и использование"
+
 msgid "There are two ways to create a scene unique node."
 msgstr "Создать уникальный узел сцены можно двумя способами."
+
+msgid "Same-scene limitation"
+msgstr "Ограничение одной сцены"
+
+msgid "Alternatives"
+msgstr "Альтернативы"

@@ -244,6 +244,13 @@ msgstr ""
 msgid "**shadows_disabled**"
 msgstr "**Shadows_disabled**"
 
+msgid ""
+"Disable computing shadows in shader. The shader will not receive shadows, "
+"but can still cast them."
+msgstr ""
+"Вимкнути обчислення тіней у шейдері. Шейдер не отримуватиме тіні, але все "
+"одно зможе їх відкидати."
+
 msgid "**ambient_light_disabled**"
 msgstr "**Ambient_light_disabled**"
 

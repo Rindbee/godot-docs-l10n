@@ -81,5 +81,32 @@ msgstr ""
 "``android_sdk_path``\\ 는 Android SDK의 경로이고, 모든 프롬프트에 ``y``\\ 로 "
 "답합니다:"
 
+msgid "Adding support for x86 devices"
+msgstr "x86 기기에 대한 지원 추가하기"
+
+msgid "Cleaning the generated export templates"
+msgstr "생성된 내보내기 템플릿 정리하기"
+
+msgid "Using the export templates"
+msgstr "내보내기 템플릿 사용하기"
+
+msgid "Installing the templates"
+msgstr "템플릿 설치하기"
+
+msgid "Windows: ``%APPDATA%\\Godot\\export_templates\\<version>\\``"
+msgstr "Windows: ``%APPDATA%\\Godot\\export_templates\\<버전>\\``"
+
+msgid "Linux: ``$HOME/.local/share/godot/export_templates/<version>/``"
+msgstr "Linux: ``$HOME/.local/share/godot/export_templates/<버전>/``"
+
+msgid ""
+"macOS: ``$HOME/Library/Application Support/Godot/export_templates/<version>/"
+"``"
+msgstr ""
+"macOS: ``$HOME/Library/Application Support/Godot/export_templates/<버전>/``"
+
+msgid "Building the Godot editor"
+msgstr "Godot 편집기 빌드하기"
+
 msgid "Troubleshooting"
 msgstr "문제 해결"

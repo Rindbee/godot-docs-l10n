@@ -74,6 +74,16 @@ msgstr ""
 "assets/abstract-platformer>`__"
 
 msgid ""
+"Create a new **TileMapLayer** node, then select it and create a new TileSet "
+"resource in the inspector:"
+msgstr ""
+"Créez un nouveau nœud **TileMapLayer**, puis sélectionnez le et créez une "
+"nouvelle ressource TileSet dans l'inspecteur :"
+
+msgid "Creating a new TileSet resource within the TileMapLayer node"
+msgstr "Créer une nouvelle ressource TileSet dans le nœud TileMapLayer"
+
+msgid ""
 "After creating the TileSet resource, click the value to unfold it in the "
 "inspector. The default tile shape is Square, but you can also choose "
 "Isometric, Half-Offset Square or Hexagon (depending on the shape of your "

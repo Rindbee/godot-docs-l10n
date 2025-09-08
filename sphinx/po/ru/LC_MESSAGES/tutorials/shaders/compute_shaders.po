@@ -16,3 +16,15 @@ msgstr "Применение вычислительных шейдеров"
 
 msgid "Let's take a look at this compute shader code:"
 msgstr "Давайте посмотрим на этот код вычислительного шейдера:"
+
+msgid "Create a local RenderingDevice"
+msgstr "Создайте локальное RenderingDevice"
+
+msgid "Create a new pipeline."
+msgstr "Создайте новый pipeline."
+
+msgid "End the list of instructions"
+msgstr "Завершить список инструкций"
+
+msgid "Retrieving results"
+msgstr "Получение результатов"

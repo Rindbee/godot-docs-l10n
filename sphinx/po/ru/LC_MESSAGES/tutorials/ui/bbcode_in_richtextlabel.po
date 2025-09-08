@@ -17,11 +17,26 @@ msgstr "BBCode в RichTextLabel"
 msgid "Introduction"
 msgstr "Введение"
 
+msgid ""
+"You can see how BBCode in RichTextLabel works in action using the `Rich Text "
+"Label with BBCode demo project <https://github.com/godotengine/godot-demo-"
+"projects/tree/master/gui/rich_text_bbcode>`__."
+msgstr ""
+"Вы можете увидеть, как работает BBCode в RichTextLabel, используя "
+"демонстрационный проект `Rich Text Label with BBCode <https://github.com/"
+"godotengine/godot-demo-projects/tree/master/gui/rich_text_bbcode>`__."
+
 msgid "The above image was created using the following script:"
 msgstr "Изображение выше было создано с помощью следующего скрипта:"
 
+msgid "Stripping BBCode tags"
+msgstr "Удаление тегов BBCode"
+
 msgid "Performance"
 msgstr "Производительность"
+
+msgid "There are several ways to alleviate this:"
+msgstr "Есть несколько способов облегчить эту ситуацию:"
 
 msgid "Reference"
 msgstr "Rеference"
@@ -50,6 +65,9 @@ msgstr "**code**"
 msgid "``[code]{text}[/code]``"
 msgstr "``[code]{text}[/code]``"
 
+msgid "``[br]``"
+msgstr "``[br]``"
+
 msgid "**center**"
 msgstr "**center**"
 
@@ -62,20 +80,131 @@ msgstr "**right**"
 msgid "``[right]{text}[/right]``"
 msgstr "``[right]{text}[/right]``"
 
+msgid "**hint**"
+msgstr "**hint**"
+
+msgid "**opentype_features**"
+msgstr "**opentype_features**"
+
+msgid "``{text}``"
+msgstr "``{text}``"
+
+msgid "**lang**"
+msgstr "**lang**"
+
+msgid "**bgcolor**"
+msgstr "**bgcolor**"
+
+msgid "**fgcolor**"
+msgstr "**fgcolor**"
+
+msgid "**outline_color**"
+msgstr "**outline_color**"
+
+msgid "**ul**"
+msgstr "**ul**"
+
+msgid "**ol**"
+msgstr "**ol**"
+
+msgid "`Values`"
+msgstr "`Values`"
+
+msgid "`Default`"
+msgstr "`Default`"
+
+msgid "``left``"
+msgstr "``left``"
+
+msgid "``default``"
+msgstr "``default``"
+
+msgid "Inherit"
+msgstr "Inherit (Наследовать)"
+
+msgid "Base BiDi direction."
+msgstr "Базовое направление BiDi."
+
+msgid "ISO language codes. See :ref:`doc_locales`"
+msgstr "Коды языков ISO. См. :ref:`doc_locales`"
+
+msgid "**tab_stops**"
+msgstr "**tab_stops**"
+
+msgid "**height**"
+msgstr "**lіght_only**"
+
+msgid "Integer number"
+msgstr "Integer number (Целое число)"
+
 msgid "``2``"
 msgstr "``2``"
+
+msgid "**width**"
+msgstr "**width**"
+
+msgid "Horizontal alignment."
+msgstr "Горизонтальное выравнивание."
+
+msgid "Image options"
+msgstr "Image options"
+
+msgid "**region**"
+msgstr "**region**"
 
 msgid "**pad**"
 msgstr "**pad**"
 
+msgid "``false``, ``true``"
+msgstr "``false``, ``true``"
+
 msgid "String"
 msgstr "Строка"
+
+msgid "Image tooltip."
+msgstr "Подсказка к изображению."
+
+msgid "Font options"
+msgstr "Параметры шрифта"
+
+msgid "A valid Font resource path."
+msgstr "Допустимый путь к ресурсу шрифта."
+
+msgid "Font resource path."
+msgstr "Путь к ресурсам шрифта."
+
+msgid "Custom font size."
+msgstr "Пользовательский размер шрифта."
+
+msgid "Floating-point number."
+msgstr "Число с плавающей точкой."
+
+msgid "Integer number."
+msgstr "Целое число."
+
+msgid "Named colors"
+msgstr "Именованные цвета"
+
+msgid "Cell options"
+msgstr "Параметры ячеек"
+
+msgid "**expand**"
+msgstr "**expand**"
 
 msgid "1"
 msgstr "1"
 
+msgid "**border**"
+msgstr "**border**"
+
 msgid "Unordered list bullet"
 msgstr "Маркер неупорядоченного списка"
+
+msgid "Ordered list types"
+msgstr "Типы упорядоченных списков"
+
+msgid "Text effects"
+msgstr "Текстовые эффекты"
 
 msgid ""
 "You can extend the :ref:`class_RichTextEffect` resource type to create your "

@@ -34,6 +34,12 @@ msgid "Arguments"
 msgstr "Аргументы"
 
 msgid ""
+"See :ref:`doc_introduction_to_the_buildsystem` for a full list of arguments."
+msgstr ""
+"Полный список аргументов см. в "
+"документе :ref:`doc_introduction_to_the_buildsystem`."
+
+msgid ""
 "If you run into any issues, ask for help in one of `Godot's community "
 "channels <https://godotengine.org/community>`__."
 msgstr ""

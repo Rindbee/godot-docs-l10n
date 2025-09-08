@@ -94,7 +94,7 @@ msgstr ""
 "Este enfoque puede ser útil para hacer que la generación de números "
 "aleatorios se sienta menos repetitiva. Aún así, no evita que los resultados "
 "\"hagan ping-pong\" entre un conjunto limitado de valores. Para evitar esto, "
-"use el patrón :ref:`shuffle bag <doc_random_number_generation_shuffle_bags>` "
+"usa el patrón :ref:`shuffle bag <doc_random_number_generation_shuffle_bags>` "
 "en su lugar."
 
 msgid "Get a random dictionary value"

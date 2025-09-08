@@ -11,8 +11,74 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0103: The exported member is read-only"
+msgstr "GD0103: Экспортированный элемент доступен только для чтения"
+
+msgid "**Rule ID**"
+msgstr "**Идентификатор правила**"
+
+msgid "GD0103"
+msgstr "GD0103"
+
 msgid "**Category**"
 msgstr "**Категория**"
 
 msgid "Usage"
 msgstr "Использование"
+
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Исправление может быть как ломающим, так и не ломающим**"
+
+msgid "Non-breaking"
+msgstr "Неразрушающий"
+
+msgid "**Enabled by default**"
+msgstr "**Включено по умолчанию**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "Причина"
+
+msgid ""
+"A read-only member is annotated with the ``[Export]`` attribute. Read-only "
+"members can't be exported."
+msgstr ""
+"Элемент, доступный только для чтения, аннотируется атрибутом ``[Export]``. "
+"Элементы, доступные только для чтения, не могут быть экспортированы."
+
+msgid "Rule description"
+msgstr "Описание правила"
+
+msgid "Godot doesn't allow exporting read-only members."
+msgstr ""
+"Godot не позволяет экспортировать элементы, доступные только для чтения."
+
+msgid "How to fix violations"
+msgstr "Как устранить нарушения"
+
+msgid ""
+"To fix a violation of this rule for fields, remove the ``readonly`` keyword "
+"or remove the ``[Export]`` attribute."
+msgstr ""
+"Чтобы исправить нарушение этого правила для полей, удалите ключевое слово "
+"``readonly`` или удалите атрибут ``[Export]``."
+
+msgid ""
+"To fix a violation of this rule for properties, make sure the property "
+"declares both a getter and a setter, or remove the ``[Export]`` attribute."
+msgstr ""
+"Чтобы исправить нарушение этого правила для свойств, убедитесь, что свойство "
+"объявляет как геттер, так и сеттер, или удалите атрибут ``[Export]``."
+
+msgid "When to suppress warnings"
+msgstr "Когда следует подавлять предупреждения"
+
+msgid ""
+"Do not suppress a warning from this rule. Read-only members can't be "
+"exported so they will be ignored by Godot, resulting in runtime errors."
+msgstr ""
+"Не отключайте предупреждение из этого правила. Элементы, доступные только "
+"для чтения, не могут быть экспортированы, поэтому Godot будет их "
+"игнорировать, что приведёт к ошибкам во время выполнения."

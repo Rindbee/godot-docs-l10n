@@ -10,3 +10,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Building from source"
+msgstr "Создание из источника"
+
+msgid "Basics of building Godot"
+msgstr "Основы построения Godot"
+
+msgid "Building for target platforms"
+msgstr "Разработка для целевых платформ"
+
+msgid "Other compilation targets and options"
+msgstr "Другие цели и параметры компиляции"

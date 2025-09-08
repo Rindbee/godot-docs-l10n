@@ -209,6 +209,11 @@ msgstr ""
 "Скопіюйте бібліотеки з ``Vulkan-ValidationLayers/build-android/libs`` до "
 "``godot/platform/android/java/app/libs/debug/vulkan_validation_layers``."
 
+msgid "Your Godot source directory tree should look like on the example below:"
+msgstr ""
+"Дерево каталогів вашого вихідного коду Godot має виглядати, як у прикладі "
+"нижче:"
+
 msgid ""
 "If the subdirectory ``libs/debug/vulkan_validation_layers`` doesn't exist, "
 "create it."

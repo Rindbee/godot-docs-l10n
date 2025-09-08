@@ -102,6 +102,13 @@ msgstr ""
 "`Навчальні посібники Godot від SomethingLikeGames <https://"
 "www.somethinglikegames.de/en/tags/godot-engine/>`__"
 
+msgid ""
+"`GameDev Academy by Zenva <https://gamedevacademy.org/category/godot-"
+"tutorials/godot-4/>`__"
+msgstr ""
+"`Академія розробки ігор від Zenva <https://gamedevacademy.org/category/godot-"
+"tutorials/godot-4/>`__"
+
 msgid "`Game Dev Artisan website <https://gamedevartisan.com/>`__"
 msgstr "`Веб-сайт Game Dev Artisan <https://gamedevartisan.com/>`__"
 

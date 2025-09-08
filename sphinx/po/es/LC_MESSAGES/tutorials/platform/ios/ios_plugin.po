@@ -84,7 +84,7 @@ msgstr ""
 "Godot."
 
 msgid "The library must come with a ``.gdip`` configuration file."
-msgstr "La biblioteca debe venir con un archivo de configuración ``.gdip``."
+msgstr "La biblioteca debe incluir un archivo de configuración ``.gdip``."
 
 msgid ""
 "An iOS plugin can have the same functionality as a Godot module but provides "

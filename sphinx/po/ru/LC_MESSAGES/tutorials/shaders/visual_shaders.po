@@ -12,6 +12,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid ""
+"If you are not familiar with shaders, start by "
+"reading :ref:`doc_introduction_to_shaders`."
+msgstr ""
+"Если вы не знакомы с шейдерами, начните с "
+"прочтения :ref:`doc_introduction_to_shaders`."
+
+msgid "Then assign a :ref:`class_Shader` resource to the ``Shader`` property."
+msgstr "Затем назначьте ресурс :ref:`class_Shader` свойству ``Shader``."
+
+msgid "From left to right in the toolbar:"
+msgstr "Слева направо на панели инструментов:"
+
+msgid ""
 "The ``Add Node`` button displays a popup menu to let you add nodes to the "
 "shader graph."
 msgstr ""
@@ -44,6 +57,12 @@ msgstr ""
 "может показаться чрезмерно сложным. Попробуйте добавить несколько узлов, "
 "подключите их к выходному разъему и понаблюдайте, что произойдет."
 
+msgid "Visual Shader node interface"
+msgstr "Интерфейс узла Visual Shader"
+
+msgid "Port types"
+msgstr "Типы портов"
+
 msgid "Type"
 msgstr "Тип"
 
@@ -56,11 +75,14 @@ msgstr "Описание"
 msgid "Example"
 msgstr "Пример"
 
+msgid "Scalar"
+msgstr "Scalar"
+
 msgid "Scalar is a single value."
 msgstr "Скаляр - это единственное значение."
 
 msgid "|scalar|"
-msgstr "|скаляр|"
+msgstr "|scalar|"
 
 msgid "Vector"
 msgstr "Вектор"
@@ -68,8 +90,47 @@ msgstr "Вектор"
 msgid "Vector is a set of values."
 msgstr "Вектор - это набор значений."
 
+msgid "|vector|"
+msgstr "|vector|"
+
+msgid "vector"
+msgstr "vector"
+
+msgid "Boolean"
+msgstr "Boolean"
+
+msgid "|boolean|"
+msgstr "|boolean|"
+
+msgid "boolean"
+msgstr "boolean"
+
 msgid "Transform"
 msgstr "Преобразование"
+
+msgid "A matrix, usually used to transform vertices."
+msgstr "Матрица, обычно используемая для преобразования вершин."
+
+msgid "|transform|"
+msgstr "|transform|"
+
+msgid "transform"
+msgstr "transform"
+
+msgid "Sampler"
+msgstr "Sampler"
+
+msgid "Orange"
+msgstr "Orange"
+
+msgid "|sampler|"
+msgstr "|sampler|"
+
+msgid "sampler"
+msgstr "sampler"
+
+msgid "There are other types but these are the main ones."
+msgstr "Существуют и другие типы, но это основные."
 
 msgid ""
 "The ``Expression`` node allows you to write Godot Shading Language (GLSL-"

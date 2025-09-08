@@ -54,6 +54,19 @@ msgstr "Sélection de tuiles à utiliser pour peindre"
 msgid "Selection"
 msgstr "Sélection"
 
+msgid ""
+"You can remove the selected tiles from the TileMap by pressing :kbd:`Del`."
+msgstr ""
+"Vous pouvez supprimer les tuiles sélectionnées dans la TileMap en appuyant "
+"sur :kbd:`Suppr`."
+
+msgid ""
+"You can toggle this mode temporarily while in Paint mode by "
+"holding :kbd:`Ctrl` then performing a selection."
+msgstr ""
+"Vous pouvez activer ce mode temporairement en mode Peinture en "
+"maintenant :kbd:`Ctrl` puis en effectuant une sélection."
+
 msgid "Paint"
 msgstr "Peindre"
 

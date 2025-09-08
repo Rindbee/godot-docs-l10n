@@ -203,8 +203,48 @@ msgstr "Начните с экспортированного проекта iOS 
 msgid "In Finder, drag the Godot project folder into the Xcode file browser."
 msgstr "В Finder перетащите папку проекта Godot в браузер файлов Xcode."
 
+msgid ""
+"In the dialog, make sure to select Action: **Reference files in place** and "
+"Groups: **Create folders**. Uncheck Targets: **exported_xcode_project_name**."
+msgstr ""
+"В диалоговом окне обязательно выберите Действие: **Reference files in "
+"place** и Группы: **Create folders**. Снимите отметку с Целей: "
+"**exported_xcode_project_name**."
+
 msgid "See the **godot_project_to_export** folder in the Xcode file browser."
 msgstr "См. папку **godot_project_to_export** в браузере файлов Xcode."
+
+msgid ""
+"Select the godot project in the Project navigator. Then on the other side of "
+"the XCode window, in the File Inspector, make these selections:"
+msgstr ""
+"Выберите проект Godot в Навигаторе проектов. Затем на другой стороне окна "
+"XCode, в инспекторе файлов, выберите следующие параметры:"
+
+msgid "**Location**: Relative to Project"
+msgstr "**Location**: Относительно Проекта"
+
+msgid "**Build Rules**: Apply Once to Folder"
+msgstr "**Build Rules**: Применить Один раз к Папке"
+
+msgid "add your project to **Target Membership**"
+msgstr "добавьте свой проект в **Target Membership**"
+
+msgid ""
+"Delete **exported_xcode_project_name.pck** from the Xcode project in the "
+"project navigator."
+msgstr ""
+"Удалите **exported_xcode_project_name.pck** из проекта Xcode в навигаторе "
+"проектов."
+
+msgid ""
+"8. Open **exported_xcode_project_name-Info.plist** and add a string property "
+"named **godot_path** (this is the real key name) with a value "
+"**godot_project_to_export** (this is the name of your project)"
+msgstr ""
+"8. Открыть **exported_xcode_project_name-Info.plist** и добавьте строковое "
+"свойство с именем **godot_path** (это настоящее имя ключа) со значением "
+"**godot_project_to_export** (это название вашего проекта)"
 
 msgid ""
 "That's it! You can now edit your project in the Godot editor and build it in "
@@ -221,7 +261,7 @@ msgid ""
 "the :ref:`doc_plugins_for_ios` page."
 msgstr ""
 "В Godot можно использовать специальные iOS плагины. Посетите "
-"страницу :ref:`doc_services_for_ios`."
+"страницу :ref:`doc_plugins_for_ios`."
 
 msgid "Environment variables"
 msgstr "Переменные среды"
@@ -311,3 +351,10 @@ msgstr ""
 
 msgid "Export options"
 msgstr "Опции экспорта"
+
+msgid ""
+"You can find a full list of export options available in "
+"the :ref:`class_EditorExportPlatformIOS` class reference."
+msgstr ""
+"Полный список доступных параметров экспорта можно найти в справочнике "
+"классов :ref:`class_EditorExportPlatformIOS`."

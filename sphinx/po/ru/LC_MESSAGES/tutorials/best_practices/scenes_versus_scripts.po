@@ -21,6 +21,17 @@ msgstr ""
 "Мы уже рассмотрели, чем отличаются сцены и скрипты. Скрипты определяют "
 "расширение класса движка с императивным кодом, сцены - с декларативным кодом."
 
+msgid ""
+"Each system's capabilities are different as a result. Scenes can define how "
+"an extended class initializes, but not what its behavior actually is. Scenes "
+"are often used in conjunction with a script, the scene declaring a "
+"composition of nodes, and the script adding behavior with imperative code."
+msgstr ""
+"В результате возможности каждой системы различаются. Сцены могут определять "
+"способ инициализации расширенного класса, но не его фактическое поведение. "
+"Сцены часто используются вместе со скриптом: сцена объявляет композицию "
+"узлов, а скрипт добавляет поведение с помощью императивного кода."
+
 msgid "Anonymous types"
 msgstr "Анонимные типы"
 

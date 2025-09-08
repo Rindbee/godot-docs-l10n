@@ -13,3 +13,6 @@ msgstr ""
 
 msgid "C++ usage guidelines"
 msgstr "C++ 사용 가이드라인"
+
+msgid "Standard Template Library"
+msgstr "표준 템플릿 라이브러리"

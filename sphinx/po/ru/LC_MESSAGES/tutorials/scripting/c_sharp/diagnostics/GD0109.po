@@ -11,8 +11,69 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"GD0109: The '[ExportToolButton]' attribute cannot be used with another "
+"'[Export]' attribute"
+msgstr ""
+"GD0109: Атрибут '[ExportToolButton]' нельзя использовать с другим атрибутом "
+"'[Export]'"
+
+msgid "**Rule ID**"
+msgstr "**Идентификатор правила**"
+
+msgid "GD0109"
+msgstr "GD0109"
+
 msgid "**Category**"
 msgstr "**Категория**"
 
 msgid "Usage"
 msgstr "Использование"
+
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Исправление может быть как ломающим, так и не ломающим**"
+
+msgid "Non-breaking"
+msgstr "Неразрушающий"
+
+msgid "**Enabled by default**"
+msgstr "**Включено по умолчанию**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "Причина"
+
+msgid ""
+"A property is annotated with both the ``[ExportToolButton]`` and the "
+"``[Export]`` attributes."
+msgstr ""
+"Свойство аннотируется атрибутами ``[ExportToolButton]`` и ``[Export]``."
+
+msgid "Rule description"
+msgstr "Описание правила"
+
+msgid ""
+"The ``[ExportToolButton]`` attribute already implies exporting the member, "
+"so the ``[Export]`` is unnecessary."
+msgstr ""
+"Атрибут ``[ExportToolButton]`` уже подразумевает экспорт элемента, поэтому "
+"``[Export]`` не нужен."
+
+msgid "How to fix violations"
+msgstr "Как устранить нарушения"
+
+msgid "To fix a violation of this rule, remove the ``[Export]`` attribute."
+msgstr "Чтобы устранить нарушение этого правила, удалите атрибут ``[Export]``."
+
+msgid "When to suppress warnings"
+msgstr "Когда следует подавлять предупреждения"
+
+msgid ""
+"Do not suppress a warning from this rule. Multiple export attributes may "
+"lead to duplicated members, resulting in unexpected runtime errors."
+msgstr ""
+"Не подавляйте предупреждение из этого правила. Наличие нескольких "
+"экспортируемых атрибутов может привести к дублированию элементов и "
+"непредвиденным ошибкам во время выполнения."

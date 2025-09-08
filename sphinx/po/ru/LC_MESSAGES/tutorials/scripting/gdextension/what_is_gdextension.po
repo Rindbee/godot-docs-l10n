@@ -14,5 +14,8 @@ msgstr ""
 msgid "What is GDExtension?"
 msgstr "Что такое GDExtension?"
 
+msgid "There are three primary methods with which this is achieved:"
+msgstr "Существует три основных метода достижения этой цели:"
+
 msgid "Version compatibility"
 msgstr "Совместимость версий"

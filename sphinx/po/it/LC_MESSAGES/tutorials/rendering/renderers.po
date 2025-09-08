@@ -11,9 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Renderers"
-msgstr "Renderer"
-
 msgid "Introduction"
 msgstr "Introduzione"
 
@@ -136,12 +133,6 @@ msgstr "XR"
 
 msgid "✔️ Yes. Recommended for standalone headsets."
 msgstr "✔️ Sì. Consigliato per visori autonomi."
-
-msgid "✔️ Yes. Recommended for"
-msgstr "✔️ Si. Consigliato per"
-
-msgid "desktop headsets."
-msgstr "visori da desktop."
 
 msgid "Web"
 msgstr "Web"

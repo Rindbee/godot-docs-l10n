@@ -11,8 +11,82 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0301: The generic type argument must be a Variant compatible type"
+msgstr ""
+"GD0301: Аргумент универсального типа должен быть типом, совместимым с "
+"вариантом"
+
+msgid "**Rule ID**"
+msgstr "**Идентификатор правила**"
+
+msgid "GD0301"
+msgstr "GD0301"
+
 msgid "**Category**"
 msgstr "**Категория**"
 
 msgid "Usage"
 msgstr "Использование"
+
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Исправление может быть как ломающим, так и не ломающим**"
+
+msgid "Breaking"
+msgstr "Breaking (Прерывание)"
+
+msgid "**Enabled by default**"
+msgstr "**Включено по умолчанию**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "Причина"
+
+msgid ""
+"An unsupported type is specified for a generic type argument when "
+"a :ref:`Variant-compatible type <c_sharp_variant_compatible_types>` is "
+"expected."
+msgstr ""
+"Для аргумента универсального типа указан неподдерживаемый тип, хотя "
+"ожидается ::ref:`Variant-compatible type <c_sharp_variant_compatible_types>`."
+
+msgid "Rule description"
+msgstr "Описание правила"
+
+msgid ""
+"When a generic type parameter is annotated with the ``[MustBeVariant]`` "
+"attribute, the generic type is required to be a Variant-compatible type. For "
+"example, the generic ``Godot.Collections.Array<T>`` type only supports items "
+"of a type that can be converted to Variant."
+msgstr ""
+"Если параметр универсального типа аннотирован атрибутом ``[MustBeVariant]``, "
+"универсальный тип должен быть совместимым с Variant. Например, универсальный "
+"тип ``Godot.Collections.Array<T>`` поддерживает только элементы типа, "
+"который можно преобразовать в Variant."
+
+msgid "How to fix violations"
+msgstr "Как устранить нарушения"
+
+msgid ""
+"To fix a violation of this rule, change the generic type argument to be a "
+"Variant-compatible type or use a different API that doesn't require the "
+"generic type argument to be a Variant-compatible type."
+msgstr ""
+"Чтобы устранить нарушение этого правила, измените аргумент универсального "
+"типа на тип, совместимый с Variant, или используйте другой API, который не "
+"требует, чтобы аргумент универсального типа был типом, совместимым с Variant."
+
+msgid "When to suppress warnings"
+msgstr "Когда следует подавлять предупреждения"
+
+msgid ""
+"Do not suppress a warning from this rule. API that contains generic type "
+"arguments annotated with the ``[MustBeVariant]`` attribute usually has this "
+"requirement because the values will be passed to the engine, if the type "
+"can't be marshalled it will result in runtime errors."
+msgstr ""
+"Не подавляйте предупреждение из этого правила. API, содержащие аргументы "
+"универсального типа, аннотированные атрибутом ``[MustBeVariant]``, обычно "
+"предъявляет это требование, поскольку значения будут переданы движку. Если "
+"тип не может быть преобразован, это приведет к ошибкам во время выполнения."

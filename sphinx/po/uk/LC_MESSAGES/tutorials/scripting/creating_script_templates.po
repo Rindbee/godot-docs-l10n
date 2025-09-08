@@ -150,11 +150,8 @@ msgstr ""
 msgid "For example:"
 msgstr "Приклад:"
 
-msgid "``template_scripts/Node/smooth_camera.gd``"
-msgstr "``template_scripts/Node/smooth_camera.gd``"
-
-msgid "``template_scripts/CharacterBody3D/platformer_movement.gd``"
-msgstr "``template_scripts/CharacterBody3D/platformer_movement.gd``"
+msgid "Default behavior and overriding it"
+msgstr "Поведінка за замовчуванням та її заміна"
 
 msgid "By default:"
 msgstr "За замовчуванням:"
@@ -172,6 +169,13 @@ msgstr "відступ пробілу встановлено на 4"
 
 msgid "the template will not be set as the default for the given node"
 msgstr "шаблон не буде встановлено за замовчуванням для даного вузла"
+
+msgid ""
+"It is possible to customize this behavior by adding meta headers at the "
+"start of your file, like this:"
+msgstr ""
+"Цю поведінку можна налаштувати, додавши метазаголовки на початку файлу, ось "
+"так:"
 
 msgid ""
 "In this case, the name will be set to \"Platformer movement\", with the "
@@ -294,6 +298,13 @@ msgstr "``_CLASS_``"
 
 msgid "The name of the new class."
 msgstr "Назва нового класу."
+
+msgid "``_CLASS_SNAKE_CASE_``"
+msgstr "``_CLASS_SNAKE_CASE_``"
+
+msgid "The name of the new class as ``snake_case`` (used in GDScript only)."
+msgstr ""
+"Назва нового класу як ``snake_case`` (використовується лише в GDScript)."
 
 msgid "``_BASE_``"
 msgstr "``_BASE_``"

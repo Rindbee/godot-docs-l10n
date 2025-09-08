@@ -56,6 +56,31 @@ msgstr ""
 msgid "What can the engine do?"
 msgstr "O que a Engine é capaz de fazer?"
 
+msgid ""
+"Some examples of games created with Godot include Cassette Beasts, PVKK, and "
+"Usagi Shima. As for applications, the open source pixel art drawing program "
+"Pixelorama is powered by Godot, and so is the voxel RPG creator RPG in a "
+"Box. You can find many more examples in the `Official Showcase <https://"
+"godotengine.org/showcase/>`_."
+msgstr ""
+"Alguns exemplos de jogos criados com o Godot incluem Cassette Beasts, PVKK e "
+"Usagi Shima. Quanto a aplicativos, o programa de desenho em pixel art de "
+"código aberto Pixelorama é desenvolvido com o Godot, assim como o criador de "
+"RPG voxel RPG in a Box. Você pode encontrar muitos outros exemplos na "
+"`Showcase Oficial <https://godotengine.org/showcase/>`_."
+
+msgid "Usagi Shima"
+msgstr "Usagi Shima"
+
+msgid "Cassette Beasts"
+msgstr "Cassette Beasts"
+
+msgid "PVKK: Planetenverteidigungskanonenkommandant"
+msgstr "PVKK: Planetenverteidigungskanonenkommandant"
+
+msgid "RPG in a Box"
+msgstr "RPG in a Box"
+
 msgid "How does it work and look?"
 msgstr "Como funciona e se parece?"
 

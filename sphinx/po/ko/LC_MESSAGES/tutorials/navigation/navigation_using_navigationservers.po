@@ -10,3 +10,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "physics frame starts."
+msgstr "물리 프레임 시작."
+
+msgid "``_physics_process(delta)``."
+msgstr "``_physics_process(delta)``."
+
+msgid "``velocity`` property is set on NavigationAgent Node."
+msgstr "``속도`` 속성은 NavigationAgent 노드에 설정됩니다."

@@ -13,3 +13,10 @@ msgstr ""
 
 msgid "Using NavigationMaps"
 msgstr "Utiliser des NavigationMaps"
+
+msgid ""
+"There is no difference between navigation maps created with the "
+"NavigationServer2D API or the NavigationServer3D API."
+msgstr ""
+"Il n'y a aucune différence entre les cartes de navigation créées avec l'API "
+"NavigationServer2D ou l'API NavigationServer3D."

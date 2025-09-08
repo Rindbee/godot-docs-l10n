@@ -26,6 +26,9 @@ msgstr "BoxOccluder3D (un cuboïde)"
 msgid "SphereOccluder3D (a sphere-shaped occluder)"
 msgstr "SphereOccluder3D (un occluder avec une forme sphérique)"
 
+msgid "Previewing occlusion culling"
+msgstr "Prévisualiser l'occlusion culling"
+
 msgid "Avoid moving OccluderInstance3D nodes during gameplay"
 msgstr "Évitez de déplacer des nœuds OccluderInstance3D pendant le gameplay"
 

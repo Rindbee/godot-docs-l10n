@@ -22,6 +22,13 @@ msgid "Format strings: ``var string = \"I have %s cats.\" % \"3\"``"
 msgstr "Формат рядків: ``var string = \"I have %s cats.\" % \"3\"``"
 
 msgid ""
+"The ``String.format()`` method: ``var string = \"I have {0} cats."
+"\".format([3])``"
+msgstr ""
+"Метод ``String.format()``: ``var string = \"У мене є {0} котів."
+"\".format([3])``"
+
+msgid ""
 "String concatenation: ``var string = \"I have \" + str(3) + \" cats.\"``"
 msgstr ""
 "Конкатенація рядків: ``var string = \"I have \" + str(3) + \" cats.\"``"
@@ -140,6 +147,13 @@ msgstr ""
 
 msgid "``c``"
 msgstr "``c``"
+
+msgid ""
+"A single **Unicode character**. Accepts a Unicode code point (integer) or a "
+"single-character string. Supports values beyond 255."
+msgstr ""
+"Один **символ Юнікоду**. Приймає кодову точку Юнікоду (ціле число) або "
+"односимвольний рядок. Підтримує значення понад 255."
 
 msgid "``d``"
 msgstr "``d``"

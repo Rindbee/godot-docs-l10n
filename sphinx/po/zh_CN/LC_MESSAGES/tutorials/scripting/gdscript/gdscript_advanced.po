@@ -384,3 +384,6 @@ msgstr ""
 "不过，被击中的对象可能并没有 smash() 函数。虽然一些动态类型语言在被调用方法不"
 "存在时会直接忽略该方法的调用，但GDScript在这方面更为严格，因此有必要检查目标"
 "函数是否存在："
+
+msgid "Then, define that method and anything the rock touches can be smashed."
+msgstr "接下来定义下这个方法，大石块所触碰的任何东西就都可以被大石块砸碎了。"

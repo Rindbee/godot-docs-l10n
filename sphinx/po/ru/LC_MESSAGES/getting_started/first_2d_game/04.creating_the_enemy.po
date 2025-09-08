@@ -164,6 +164,10 @@ msgstr ""
 "``0``). Выражение ``GD.Randi() % n`` выбирает случайное целое число между "
 "``0`` и ``n-1``."
 
+msgid "Finally, we call ``play()`` to start playing the chosen animation."
+msgstr ""
+"Наконец, мы называем ``play ()``, чтобы начать играть в выбранную анимацию."
+
 msgid ""
 "The last piece is to make the mobs delete themselves when they leave the "
 "screen. Connect the ``screen_exited()`` signal of the "

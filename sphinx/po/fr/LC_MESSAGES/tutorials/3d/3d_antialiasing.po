@@ -108,6 +108,9 @@ msgstr "FSR2"
 msgid "FXAA"
 msgstr "FXAA"
 
+msgid "SMAA 1x"
+msgstr "SMAA 1x"
+
 msgid "SSAA"
 msgstr "SSAA"
 
@@ -131,6 +134,9 @@ msgstr "Flou ajouté"
 
 msgid "🟡 Some [3]_"
 msgstr "🟡 En partie [3]_"
+
+msgid "Ghosting artifacts"
+msgstr "Artéfacts fantomatiques"
 
 msgid "🔴 Yes"
 msgstr "🔴 Oui"

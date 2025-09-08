@@ -258,6 +258,15 @@ msgstr ""
 "стесняетесь задавать вопросы поисковым системам, но на всякий случай мы "
 "собрали здесь основные команды, которые вам понадобятся при работе в Git."
 
+msgid ""
+"In the following, we will assume as an example that you want to implement a "
+"feature in Godot's Project Manager, which is coded in the ``editor/"
+"project_manager.cpp`` file."
+msgstr ""
+"Далее в качестве примера мы предположим, что вы хотите реализовать функцию в "
+"менеджере проектов Godot, которая закодирована в файле ``editor/"
+"project_manager.cpp``."
+
 msgid "Branching"
 msgstr "Ветвление"
 
@@ -581,6 +590,15 @@ msgstr ""
 "можно опустить, если вы хотите, чтобы удалённая ветка имела то же имя, что и "
 "локальная; в нашем примере мы так и сделаем:"
 
+msgid ""
+"After you have successfully verified your account using your PAT, the "
+"changes will be sent to your remote repository. If you check the fork's page "
+"on GitHub, you should see a new branch with your added commits."
+msgstr ""
+"После успешной верификации вашей учётной записи с помощью PAT изменения "
+"будут отправлены в ваш удалённый репозиторий. На странице форка на GitHub вы "
+"увидите новую ветку с добавленными вами коммитами."
+
 msgid "Issuing a pull request"
 msgstr "Запрос на принятие изменений"
 
@@ -818,6 +836,11 @@ msgstr ""
 "будет ошибкой, но поддерживать свой репозиторий в порядке и не захламлять "
 "его - хорошая практика. Вам нужно будет сделать это дважды: для локального и "
 "для удалённого репозиториев."
+
+msgid "To delete our better Project Manager branch locally, use this command:"
+msgstr ""
+"Чтобы локально удалить нашу лучшую ветку Project Manager, используйте эту "
+"команду:"
 
 msgid ""
 "Alternatively, if the branch hadn't been merged yet and we wanted to delete "

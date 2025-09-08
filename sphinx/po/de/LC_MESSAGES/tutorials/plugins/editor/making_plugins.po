@@ -70,15 +70,6 @@ msgstr ""
 "innerhalb des Projektverzeichnisses. Godot stellt einen Dialog zur Verfügung "
 "um diese Dateien zu erzeugen und sie an der richtigen Stelle zu speichern."
 
-msgid ""
-"In the main toolbar, click the ``Project`` dropdown. Then click ``Project "
-"Settings...``. Go to the ``Plugins`` tab and then click on the ``Create New "
-"Plugin`` button in the top-right."
-msgstr ""
-"Klicken Sie in der Haupt-Toolbar auf das Dropdown-Menü ``Projekt``. Klicken "
-"Sie dann auf ``Projekteinstellungen...``. Gehen Sie auf das ``Plugins``-Tab "
-"und klicken Sie dann auf den Button ``Neues Plugin erstellen`` oben rechts."
-
 msgid "You will see the dialog appear, like so:"
 msgstr "Der Dialog wird wie folgt angezeigt:"
 

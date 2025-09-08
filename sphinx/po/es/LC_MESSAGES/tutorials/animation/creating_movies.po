@@ -18,9 +18,6 @@ msgstr ""
 "El Fabricante de Películas puede ser habilitado desde la `línea de comandos "
 "<doc_command_line_tutorial>`:"
 
-msgid "AVI (recommended)"
-msgstr "AVI (recomendado)"
-
 msgid "PNG"
 msgstr "PNG"
 

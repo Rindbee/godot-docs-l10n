@@ -55,6 +55,9 @@ msgstr ""
 msgid "**Font**"
 msgstr "**Font**"
 
+msgid "**Font size**"
+msgstr "**Font size**"
+
 msgid ""
 "It is important to remember that for child classes that process is "
 "automated. Whenever a built-in control requests a theme item from the theme "

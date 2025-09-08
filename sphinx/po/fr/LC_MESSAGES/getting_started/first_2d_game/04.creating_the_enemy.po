@@ -168,6 +168,10 @@ msgstr ""
 "la liste (les indices de tableau commençant à ``0``). L'expression "
 "``GD.Randi() % n`` désigne un entier aléatoire entre ``0`` et ``n-1``."
 
+msgid "Finally, we call ``play()`` to start playing the chosen animation."
+msgstr ""
+"Enfin, nous appelons ``play()`` pour commencer à jouer l'animation choisie."
+
 msgid ""
 "The last piece is to make the mobs delete themselves when they leave the "
 "screen. Connect the ``screen_exited()`` signal of the "

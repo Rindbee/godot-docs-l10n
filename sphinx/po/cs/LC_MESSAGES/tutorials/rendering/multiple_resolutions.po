@@ -23,11 +23,3 @@ msgstr "**Pixel art:**"
 
 msgid "hiDPI support"
 msgstr "Podpora hiDPI"
-
-msgid ""
-"See the `3D viewport scaling demo <https://github.com/godotengine/godot-demo-"
-"projects/tree/master/viewport/3d_scaling>`__ for examples."
-msgstr ""
-"Podívejte se na __příklady zde `Ukázka úpravy měřítka 3D výřezu <https://"
-"github.com/godotengine/godot-demo-projects/tree/master/viewport/3d_scaling> "
-"`."

@@ -20,8 +20,20 @@ msgstr ""
 "хотя мы обычно отдаем предпочтение небольшим библиотекам вместо более "
 "крупных решений. См. также :ref:`doc_best_practices_for_engine_contributors`."
 
+msgid "See :ref:`doc_code_style_guidelines` for formatting guidelines."
+msgstr "Инструкции по форматированию см. в :ref:`doc_code_style_guidelines`."
+
 msgid "Disallowed features"
 msgstr "Запрещенные возможности"
 
 msgid "Standard Template Library"
 msgstr "Стандартная Библиотека Шаблонов (STL)"
+
+msgid ""
+"This means that pull requests should **not** use ``std::string``, "
+"``std::vector`` and the like. Instead, use Godot's datatypes as described in "
+"the :ref:`doc_core_types` documentation."
+msgstr ""
+"Это означает, что запросы на извлечение **не** должны использовать "
+"``std::string``, ``std::vector`` и т. п. Вместо этого используйте типы "
+"данных Godot, описанные в документации :ref:`doc_core_types`."

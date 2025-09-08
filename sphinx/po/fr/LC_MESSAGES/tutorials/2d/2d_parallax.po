@@ -282,6 +282,10 @@ msgstr ""
 "le :ref:`canvas_cull_mask<class_viewport_property_canvas_cull_mask>` du "
 "premier SubViewport à seulement la couche 1 et 2."
 
+msgid "Do the same for the second SubViewport but use layers 1 and 3."
+msgstr ""
+"Faites de même pour le second SubViewport mais utilisez les couches 1 et 3."
+
 msgid "Previewing in the editor"
 msgstr "Prévisualiser dans l'éditeur"
 

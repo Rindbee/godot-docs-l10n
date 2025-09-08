@@ -42,13 +42,6 @@ msgstr "Malhas de Navegação"
 msgid "Exporting the MeshLibrary"
 msgstr "Exportando a MeshLibrary"
 
-msgid ""
-"You can find an already exported MeshLibrary in the project named "
-"\"MeshLibrary.tres\"."
-msgstr ""
-"Você encontra uma MeshLibrary já exportada no projeto chamado "
-"\"MeshLibrary.tres\"."
-
 msgid "Using GridMap"
 msgstr "Usando GridMap"
 

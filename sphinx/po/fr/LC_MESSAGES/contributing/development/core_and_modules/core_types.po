@@ -153,8 +153,74 @@ msgstr "Conteneurs"
 msgid "Comment"
 msgstr "Commentaire"
 
+msgid "``std::string``"
+msgstr "``std::string``"
+
 msgid "|vector|"
 msgstr "|vector|"
+
+msgid "``std::vector``"
+msgstr "``std::vector``"
+
+msgid "|hash_set|"
+msgstr "|hash_set|"
+
+msgid "``std::unordered_set``"
+msgstr "``std::unordered_set``"
+
+msgid "|a_hash_map|"
+msgstr "|a_hash_map|"
+
+msgid "``std::unordered_map``"
+msgstr "``std::unordered_map``"
+
+msgid "|local_vector|"
+msgstr "|local_vector|"
+
+msgid "|list|"
+msgstr "|list|"
+
+msgid "``std::list``"
+msgstr "``std::list``"
+
+msgid "|fixed_vector|"
+msgstr "|fixed_vector|"
+
+msgid "``std::array``"
+msgstr "``std::array``"
+
+msgid "|span|"
+msgstr "|span|"
+
+msgid "``std::span``"
+msgstr "``std::span``"
+
+msgid "|rb_set|"
+msgstr "|rb_set|"
+
+msgid "``std::set``"
+msgstr "``std::set``"
+
+msgid "|v_set|"
+msgstr "|v_set|"
+
+msgid "``std::flat_set``"
+msgstr "``std::flat_set``"
+
+msgid "|hash_map|"
+msgstr "|hash_map|"
+
+msgid "|rb_map|"
+msgstr "|rb_map|"
+
+msgid "``std::map``"
+msgstr "``std::map``"
+
+msgid "|pair|"
+msgstr "|pair|"
+
+msgid "``std::pair``"
+msgstr "``std::pair``"
 
 msgid "Math types"
 msgstr "Types mathématiques"

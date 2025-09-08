@@ -14,6 +14,12 @@ msgstr ""
 msgid "What is bisecting?"
 msgstr "Что такое рассечение?"
 
+msgid "Build the engine"
+msgstr "Сборка двигателя"
+
+msgid "Run the engine"
+msgstr "Запуск двигателя"
+
 msgid ""
 "After entering one of the commands above, Git will switch to a different "
 "commit. You should now build Godot again, try to reproduce the bug, then "

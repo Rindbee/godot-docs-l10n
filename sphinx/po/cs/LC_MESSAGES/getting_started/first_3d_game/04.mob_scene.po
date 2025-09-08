@@ -14,6 +14,13 @@ msgstr ""
 msgid "Designing the mob scene"
 msgstr "Navrhování scény nepřítele"
 
+msgid ""
+"In this part, you're going to code the monsters, which we'll call mobs. In "
+"the next lesson, we'll spawn them randomly around the playable area."
+msgstr ""
+"V této části naprogramujete monstra, kterým budeme říkat mobové. V další "
+"lekci vytvoříme kód, díky kterému se budou náhodně objevovat na hrací ploše."
+
 msgid "|image0|"
 msgstr "| image0 |"
 

@@ -13,3 +13,6 @@ msgstr ""
 
 msgid "Creating a new project"
 msgstr "새 프로젝트 만들기"
+
+msgid "Configuring the run"
+msgstr "실행 구성하기"

@@ -28,3 +28,6 @@ msgstr "**düzenleyici**"
 
 msgid "**mobile**"
 msgstr "**mobil**"
+
+msgid "**shader_baker**"
+msgstr "**shader_baker**"

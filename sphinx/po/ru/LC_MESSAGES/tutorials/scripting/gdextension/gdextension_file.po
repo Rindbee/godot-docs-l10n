@@ -23,6 +23,9 @@ msgstr "Описание"
 msgid "String"
 msgstr "Строка"
 
+msgid "Boolean"
+msgstr "Boolean"
+
 msgid "**windows**"
 msgstr "**windows**"
 
@@ -55,6 +58,9 @@ msgstr "**release**"
 
 msgid "**editor**"
 msgstr "**editor**"
+
+msgid "Architecture"
+msgstr "Архитектура"
 
 msgid "**double**"
 msgstr "**double (двойной)**"

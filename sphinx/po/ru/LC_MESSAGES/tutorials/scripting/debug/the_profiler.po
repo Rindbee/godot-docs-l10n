@@ -10,3 +10,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "The Profiler"
+msgstr "The Profiler"
+
+msgid "An overview of the profiler"
+msgstr "Обзор профилировщика"
+
+msgid "The measured data"
+msgstr "Измеренные данные"
+
+msgid "Debugging slow code with the profiler"
+msgstr "Отладка медленного кода с помощью профайлера"

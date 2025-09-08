@@ -97,13 +97,6 @@ msgstr ""
 "அழுத்தும்போது அவை முறையே தூண்டுகின்றன."
 
 msgid ""
-"You can see and edit input actions in your project by going to Project -> "
-"Project Settings and clicking on the Input Map tab."
-msgstr ""
-"திட்ட -> திட்ட அமைப்புகளுக்குச் சென்று உள்ளீட்டு வரைபட தாவலில் சொடுக்கு செய்வதன் மூலம் "
-"உங்கள் திட்டத்தில் உள்ளீட்டு செயல்களை நீங்கள் காணலாம் மற்றும் திருத்தலாம்."
-
-msgid ""
 "Finally, we use the ``direction`` as a multiplier when we update the node's "
 "``rotation``: ``rotation += angular_speed * direction * delta``."
 msgstr ""

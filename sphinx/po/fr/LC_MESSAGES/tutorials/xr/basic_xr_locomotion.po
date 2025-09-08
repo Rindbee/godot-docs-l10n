@@ -44,16 +44,6 @@ msgstr ""
 "physique et n'est plus debout au centre de sa pièce. Godot XR Tools "
 "incorpore la logique nécessaire dans un nœud d'aide appelé ``PlayerBody``."
 
-msgid ""
-"Select your :ref:`XROrigin3D <class_xrorigin3d>` node and click on the "
-"``instantiate Child Scene`` button to add a child scene. Select ``addons/"
-"godot-xr-tools/player/player_body.tscn`` and add this node."
-msgstr ""
-"Sélectionnez votre nœud :ref:`XROrigin3D <class_xrorigin3d>` et cliquez sur "
-"le bouton ``Instancier scène enfant`` pour ajouter une scène enfant. "
-"Sélectionnez ``addons/godot-xr-tools/joueur/joueur_body.tscn`` et ajoutez ce "
-"nœud."
-
 msgid "Adding a floor"
 msgstr "Ajouter un sol"
 

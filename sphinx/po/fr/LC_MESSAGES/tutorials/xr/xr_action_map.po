@@ -33,6 +33,9 @@ msgstr "pour Steam il s'agit de SteamVR,"
 msgid "for Meta on Quest this is the Quest's native OpenXR client,"
 msgstr "pour Meta sur Quest, il s'agit du client OpenXR natif du Quest,"
 
+msgid "on Linux this could be Monado, etc."
+msgstr "sur Linux cela pourrait être Monado, etc..."
+
 msgid ""
 "For your first XR game/application we highly recommend starting with just a "
 "single action set and to not over-engineer things."
@@ -93,6 +96,13 @@ msgid "The type of this action."
 msgstr "Le type de cette action."
 
 msgid ""
+"For buttons like A/B/X/Y and similar where there is no analogue option, the "
+"``Bool`` type works fine."
+msgstr ""
+"Pour les boutons comme A/B/X/Y/etc... où il n'y a pas d'option analogique, "
+"le type ``Bool`` fonctionne bien."
+
+msgid ""
 "You can bind the same action to multiple inputs for the same controller on "
 "the same profile. In this case the XR runtime will attempt to combine the "
 "inputs."
@@ -130,6 +140,12 @@ msgstr ""
 "qu'en dernier recours et tenteront d'utiliser les liaisons d'un des systèmes "
 "les plus populaires comme un repli d'abord."
 
+msgid "Binding Modifiers"
+msgstr "Modificateurs de liaison"
+
+msgid "Binding modifiers on an interaction profile"
+msgstr "Modificateurs de liaison sur un profil d'interaction"
+
 msgid ""
 "In order to use the dpad binding modifier you need to enable the dpad "
 "binding modifier extension in project settings:"
@@ -137,12 +153,21 @@ msgstr ""
 "Afin d'utiliser le modificateur de lien dpad, vous devez activer l'extension "
 "de modificateur de lien dpad dans les paramètres du projet :"
 
+msgid "These settings are used as follows:"
+msgstr "Ces paramètres sont utilisés comme suit :"
+
+msgid "Analog threshold modifier"
+msgstr "Modificateur de seuil analogique"
+
 msgid ""
 "In order to use this modifier you must enable the analog threshold extension "
 "in the project settings:"
 msgstr ""
 "Pour utiliser ce modificateur, vous devez activer l'extension de seuil "
 "analogique dans les paramètres du projet :"
+
+msgid "Haptic vibration"
+msgstr "Vibration haptique"
 
 msgid "``Amplitude`` is the amplitude of the pulse."
 msgstr "``Amplitude`` est l'amplitude de l'impulsion."

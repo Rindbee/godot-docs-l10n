@@ -71,6 +71,9 @@ msgstr "**ios**"
 msgid "**web**"
 msgstr "**web**"
 
+msgid "Web browser"
+msgstr "Navigateur web"
+
 msgid "Build"
 msgstr "Compilation"
 
@@ -112,6 +115,9 @@ msgstr "**riscv**"
 
 msgid "**wasm32**"
 msgstr "**wasm32**"
+
+msgid "32-bit WebAssembly build"
+msgstr "Compilation WebAssembly 32-bits"
 
 msgid "For example:"
 msgstr "Par exemple :"

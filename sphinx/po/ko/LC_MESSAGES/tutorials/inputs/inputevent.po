@@ -32,3 +32,6 @@ msgstr "설명"
 
 msgid "Input actions"
 msgstr "입력 액션"
+
+msgid "This allows for:"
+msgstr "이것은 다음을 허용합니다:"

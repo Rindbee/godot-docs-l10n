@@ -148,12 +148,6 @@ msgstr ""
 msgid "For example:"
 msgstr "உதாரணமாக:"
 
-msgid "``template_scripts/Node/smooth_camera.gd``"
-msgstr "`` template_scripts/node/selfor_camera.gd``"
-
-msgid "``template_scripts/CharacterBody3D/platformer_movement.gd``"
-msgstr "`` template_scripts/reatobody3d/platurmer_movement.gd``"
-
 msgid "By default:"
 msgstr "இயல்பாக:"
 

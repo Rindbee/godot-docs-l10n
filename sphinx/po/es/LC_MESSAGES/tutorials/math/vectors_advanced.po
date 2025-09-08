@@ -232,7 +232,7 @@ msgstr ""
 "seguir el ritmo de este largo tutorial. Aquí hay otro pedazo de sabiduría. "
 "Esto podría no ser algo con un caso de uso directo (Godot ya hace detección "
 "de colisiones bastante bien) pero es usado por casi todos los motores de "
-"física y librerías de detección de colisiones :)"
+"física y bibliotecas de detección de colisiones :)"
 
 msgid ""
 "Remember that converting a convex shape in 2D to an array of 2D planes was "

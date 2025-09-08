@@ -11,8 +11,67 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0104: The exported property is write-only"
+msgstr "GD0104: Экспортированное свойство доступно только для записи"
+
+msgid "**Rule ID**"
+msgstr "**Идентификатор правила**"
+
+msgid "GD0104"
+msgstr "GD0104"
+
 msgid "**Category**"
 msgstr "**Категория**"
 
 msgid "Usage"
 msgstr "Использование"
+
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Исправление может быть как ломающим, так и не ломающим**"
+
+msgid "Non-breaking"
+msgstr "Неразрушающий"
+
+msgid "**Enabled by default**"
+msgstr "**Включено по умолчанию**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "Причина"
+
+msgid ""
+"A write-only property is annotated with the ``[Export]`` attribute. Write-"
+"only properties can't be exported."
+msgstr ""
+"Свойство, доступное только для записи, аннотируется атрибутом ``[Export]``. "
+"Свойства, доступные только для записи, не могут быть экспортированы."
+
+msgid "Rule description"
+msgstr "Описание правила"
+
+msgid "Godot doesn't allow exporting write-only properties."
+msgstr ""
+"Godot не позволяет экспортировать свойства, доступные только для записи."
+
+msgid "How to fix violations"
+msgstr "Как устранить нарушения"
+
+msgid ""
+"To fix a violation of this rule, make sure the property declares both a "
+"getter and a setter, or remove the ``[Export]`` attribute."
+msgstr ""
+"Чтобы устранить нарушение этого правила, убедитесь, что свойство объявляет "
+"как геттер, так и сеттер, или удалите атрибут ``[Export]``."
+
+msgid "When to suppress warnings"
+msgstr "Когда следует подавлять предупреждения"
+
+msgid ""
+"Do not suppress a warning from this rule. Write-only members can't be "
+"exported so they will be ignored by Godot, resulting in runtime errors."
+msgstr ""
+"Не отключайте предупреждение из этого правила. Элементы, доступные только "
+"для записи, не могут быть экспортированы, поэтому Godot будет их "
+"игнорировать, что приведёт к ошибкам во время выполнения."

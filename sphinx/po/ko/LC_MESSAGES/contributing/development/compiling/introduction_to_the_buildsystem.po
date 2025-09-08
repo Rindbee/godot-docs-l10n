@@ -35,6 +35,9 @@ msgstr "이전 빌드 시도의 결과는 다음과 같습니다:"
 msgid "Target"
 msgstr "대상"
 
+msgid "Cleaning generated files"
+msgstr "생성된 파일 정리하기"
+
 msgid ""
 "Build options set from the file can be overridden by the command line "
 "options."

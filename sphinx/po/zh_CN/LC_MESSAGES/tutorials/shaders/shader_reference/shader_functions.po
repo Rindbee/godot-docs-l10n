@@ -639,6 +639,9 @@ msgstr "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/sign.xhtml"
 msgid "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/floor.xhtml"
 msgstr "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/floor.xhtml"
 
+msgid "The rounded value."
+msgstr "绑定值。"
+
 msgid "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/round.xhtml"
 msgstr "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/round.xhtml"
 

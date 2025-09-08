@@ -47,13 +47,6 @@ msgstr "**Karta graficzna**"
 msgid "**Forward+ renderer:** Integrated graphics with full Vulkan 1.0 support"
 msgstr "**forward+ renderer:** Zintegrowana grafika z pełną obsługą Vulkan 1.0"
 
-msgid ""
-"*Example: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics "
-"(Kaveri)*"
-msgstr ""
-"*przykład: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics "
-"(Kaveri)*"
-
 msgid "**Mobile renderer:** Integrated graphics with full Vulkan 1.0 support"
 msgstr "**renderer mobilny:** Zintegrowana grafika z pełną obsługą Vulkan 1.0"
 

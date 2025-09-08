@@ -151,6 +151,9 @@ msgstr ""
 "一个名称（数组索引从 ``0`` 开始）。 表达式 ``GD.Randi() % n`` 选择一个介于 "
 "``0`` 和 ``n-1`` 之间的随机整数。"
 
+msgid "Finally, we call ``play()`` to start playing the chosen animation."
+msgstr "最后，我们调用 ``play()`` 来播放选中的动画。"
+
 msgid ""
 "The last piece is to make the mobs delete themselves when they leave the "
 "screen. Connect the ``screen_exited()`` signal of the "

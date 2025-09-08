@@ -14,11 +14,20 @@ msgstr ""
 msgid "Other languages"
 msgstr "Autres langages"
 
+msgid ":ref:`C++ (via GDExtension) <doc_godot_cpp>`"
+msgstr ":ref:`C++ (via GDExtension) <doc_godot_cpp>`"
+
 msgid "The bindings below are developed and maintained by the community:"
 msgstr "Ces liaisons sont développées et gérées par la communauté :"
 
+msgid "`D <https://github.com/godot-dlang/godot-dlang>`__"
+msgstr "`D <https://github.com/godot-dlang/godot-dlang>`__"
+
 msgid "`Go <https://github.com/grow-graphics/gd>`__"
 msgstr "`Go <https://github.com/grow-graphics/gd>`__"
+
+msgid "`Nim <https://github.com/godot-nim/gdext-nim>`__"
+msgstr "`Nim <https://github.com/godot-nim/gdext-nim>`__"
 
 msgid "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
 msgstr "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"

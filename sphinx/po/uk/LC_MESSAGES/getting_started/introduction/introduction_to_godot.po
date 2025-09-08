@@ -77,6 +77,32 @@ msgstr ""
 "Його розробка розпочалася у 2001 році, а з моменту випуску відкритого коду у "
 "2014 році рушій був переписаний і значно вдосконалений."
 
+msgid ""
+"Some examples of games created with Godot include Cassette Beasts, PVKK, and "
+"Usagi Shima. As for applications, the open source pixel art drawing program "
+"Pixelorama is powered by Godot, and so is the voxel RPG creator RPG in a "
+"Box. You can find many more examples in the `Official Showcase <https://"
+"godotengine.org/showcase/>`_."
+msgstr ""
+"Деякі приклади ігор, створених за допомогою Godot, включають Cassette "
+"Beasts, PVKK та Usagi Shima. Що стосується програм, то програма для "
+"малювання піксельної графіки з відкритим кодом Pixelorama, а також програма "
+"для створення воксельних RPG in a Box працюють на Godot. Ви можете знайти "
+"багато інших прикладів в `Офіційній вітрині <https://godotengine.org/"
+"showcase/>`_."
+
+msgid "Usagi Shima"
+msgstr "Usagi Shima"
+
+msgid "Cassette Beasts"
+msgstr "Cassette Beasts"
+
+msgid "PVKK: Planetenverteidigungskanonenkommandant"
+msgstr "PVKK: Planetenverteidigungskanonenkommandant"
+
+msgid "RPG in a Box"
+msgstr "RPG in a Box"
+
 msgid "How does it work and look?"
 msgstr "Як це працює і виглядає?"
 
@@ -115,6 +141,17 @@ msgstr "Мови програмування"
 
 msgid "Let's talk about the available programming languages."
 msgstr "Давайте поговоримо про доступні мови програмування."
+
+msgid ""
+"You can code your games using :ref:`GDScript <doc_gdscript>`, a Godot-"
+"specific and tightly integrated language with a lightweight syntax, "
+"or :ref:`C# <doc_c_sharp>`, which is popular in the games industry. These "
+"are the two main scripting languages we support."
+msgstr ""
+"Ви можете писати код для своїх ігор, використовуючи :ref:`GDScript "
+"<doc_gdscript>`, мову програмування, що специфічною для Godot та тісно "
+"інтегрована з легким синтаксисом, або :ref:`C# <doc_c_sharp>`, яка популярна "
+"в ігровій індустрії. Це дві основні мови сценаріїв, які ми підтримуємо."
 
 msgid ""
 "With the GDExtension technology, you can also write gameplay or high-"

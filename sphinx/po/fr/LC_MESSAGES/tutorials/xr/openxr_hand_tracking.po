@@ -26,6 +26,9 @@ msgstr ""
 "OpenXR. Une partie des fonctionnalités présentées ici s'appliquent également "
 "à WebXR et peuvent être fournies par d'autres interfaces XR."
 
+msgid "Demo project"
+msgstr "Projet de démo"
+
 msgid ""
 "Tracking happens in the local space of the :ref:`XROrigin3D "
 "<class_xrorigin3d>` node. This node must be a child of the `XROrigin3D` node "

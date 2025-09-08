@@ -16,3 +16,6 @@ msgstr "Qt Creator"
 
 msgid "Command"
 msgstr "명령"
+
+msgid "Arguments"
+msgstr "인수"

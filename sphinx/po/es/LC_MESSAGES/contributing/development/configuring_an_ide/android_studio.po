@@ -42,7 +42,7 @@ msgid ""
 "a **library module** that organizes"
 msgstr ""
 "Ubicado en el ``<Directorio raíz de Godot>/platform/android/java/lib``, este "
-"es un **módulo de librería** que organiza"
+"es un **módulo de biblioteca** que organiza"
 
 msgid "``editor`` module:"
 msgstr "módulo ``editor``:"

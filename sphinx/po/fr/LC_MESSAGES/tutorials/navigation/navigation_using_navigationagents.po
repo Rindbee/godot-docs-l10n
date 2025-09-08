@@ -30,8 +30,14 @@ msgstr "Le chemin est renvoyé vide"
 msgid "The agent is backtracking sometimes"
 msgstr "L'agent fait parfois demi-tour"
 
+msgid "2D GDScript"
+msgstr "GDScript 2D"
+
 msgid "2D C#"
 msgstr "C# 2D"
+
+msgid "3D GDScript"
+msgstr "GDScript 3D"
 
 msgid "3D C#"
 msgstr "C# 3D"

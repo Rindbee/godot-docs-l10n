@@ -11,6 +11,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"To add a process material to your particles node, go to ``Process Material`` "
+"in the inspector panel. Click on the box next to ``Process Material`` and "
+"from the dropdown menu select ``New ParticleProcessMaterial``."
+msgstr ""
+"입자 노드에 프로세스 머티리얼을 추가하러면 인스펙터 패널에서 ``프로세스 머티"
+"리얼``\\ 로 이동합니다. ``프로세스 머티리얼`` 옆에 박스를 클릭한 다음 드롭다"
+"운 메뉴에서 ``새 ParticleProcessMaterial``\\ 을 선택하세요."
+
+msgid "Creating a process material"
+msgstr "프로세스 머티리얼 만들기"
+
 msgid "Particle conversion"
 msgstr "입자 변환"
 

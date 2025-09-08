@@ -11,5 +11,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Introducing XR tools"
+msgstr "Представляем инструменты XR"
+
+msgid "Installing XR Tools"
+msgstr "Установка XR-инструментов"
+
+msgid "Basic hands"
+msgstr "Базовые руки"
+
+msgid "We repeat the same for the right hand."
+msgstr "Повторяем то же самое для правой руки."
+
 msgid "More information"
 msgstr "Дополнительная информация"

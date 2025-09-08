@@ -118,6 +118,16 @@ msgstr ""
 "продовження або для досягнення більшої продуктивності. У цьому випадку "
 "*потрібне рішення*."
 
+msgid ""
+"Believing that problems may arise in the future and that the software needs "
+"to be ready to solve them by the time they appear is called *\"Future "
+"proofing\"* and it's characterized by lines of thought such as:"
+msgstr ""
+"Вважання, що проблеми можуть виникнути в майбутньому, і що програмне "
+"забезпечення має бути готовим до їх вирішення до моменту їх появи, "
+"називається *«Перевірка на майбутнє»* і характеризується такими напрямками "
+"мислення, як:"
+
 msgid "I think it would be useful for users to..."
 msgstr "Я думаю, що користувачам було б корисно..."
 

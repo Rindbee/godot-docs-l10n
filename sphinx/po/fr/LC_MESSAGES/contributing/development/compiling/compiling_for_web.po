@@ -65,6 +65,9 @@ msgstr ""
 msgid "GDExtension"
 msgstr "GDExtension"
 
+msgid "Building the editor"
+msgstr "Compiler l'éditeur"
+
 msgid ""
 "Refer to the :ref:`export page <doc_javascript_export_options>` for the web "
 "server requirements."

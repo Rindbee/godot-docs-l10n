@@ -12,4 +12,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Debug edge connections"
-msgstr "엣지 연결 디버깅"
+msgstr "에지 연결 디버깅"
+
+msgid "Edge connections are only visible when the NavigationServer is active."
+msgstr "에지 연결은 NavigationServer가 활성 상태일 때만 보여집니다."
+
+msgid "Debug performance"
+msgstr "성능 다버깅"

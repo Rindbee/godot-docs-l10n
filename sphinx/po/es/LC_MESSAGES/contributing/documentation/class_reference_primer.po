@@ -239,7 +239,7 @@ msgid "Keyboard/mouse shortcut"
 msgstr "Atajo del teclado/ratón"
 
 msgid "Press :kbd:`Ctrl + C`."
-msgstr "Presione :kbd:`Ctrl + C`."
+msgstr "Presiona :kbd:`Ctrl + C`."
 
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"

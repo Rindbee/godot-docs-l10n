@@ -45,6 +45,22 @@ msgstr ""
 "оптимізованим бінарним файлом, який є меншим, швидшим та не містить "
 "редактора і налагоджувача."
 
+msgid "Changing the executable icon"
+msgstr "Зміна піктограми виконуваного файлу"
+
+msgid ""
+"Godot will automatically use whatever image is set as your project's icon in "
+"the project settings, and convert it to an ICO file for the exported "
+"project. If you want to manually create an ICO file for greater control over "
+"how the icon looks at different resolutions then see "
+"the :ref:`doc_changing_application_icon_for_windows` page."
+msgstr ""
+"Godot автоматично використовуватиме будь-яке зображення, встановлене як "
+"значок вашого проєкту в налаштуваннях проєкту, та конвертуватиме його у файл "
+"ICO для експортованого проєкту. Якщо ви хочете вручну створити файл ICO для "
+"кращого контролю над тим, як значок виглядає в різних роздільних здатностях, "
+"дивіться сторінку :ref:`doc_changing_application_icon_for_windows`."
+
 msgid "Code signing"
 msgstr "Підписання коду"
 
@@ -161,3 +177,10 @@ msgstr "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
 
 msgid "Export options"
 msgstr "Параметри експортування"
+
+msgid ""
+"You can find a full list of export options available in "
+"the :ref:`class_EditorExportPlatformWindows` class reference."
+msgstr ""
+"Повний список доступних опцій експорту можна знайти в довіднику "
+"класу :ref:`class_EditorExportPlatformWindows`."

@@ -32,7 +32,7 @@ msgid ""
 "Platforms*."
 msgstr ""
 "Ejecuta Xcode una vez e instale la compatibilidad con iOS. Si ya ha "
-"ejecutado Xcode y necesita instalar la compatibilidad con iOS, vaya a *Xcode "
+"ejecutado Xcode y necesita instalar la compatibilidad con iOS, ve a *Xcode "
 "-> Configuración... -> Plataformas*."
 
 msgid ""

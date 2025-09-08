@@ -317,6 +317,12 @@ msgstr "**movie**"
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ":ref:`Movie Maker 模式 <doc_creating_movies>`\\ 已激活"
 
+msgid "**shader_baker**"
+msgstr "**shader_baker**"
+
+msgid "**dedicated_server**"
+msgstr "**dedicated_server**"
+
 msgid ""
 "To check whether a project exported to Web is running on a mobile device, "
 "use ``OS.has_feature(\"web_android\") or OS.has_feature(\"web_ios\")``."

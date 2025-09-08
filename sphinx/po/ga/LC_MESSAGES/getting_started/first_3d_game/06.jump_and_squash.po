@@ -315,29 +315,23 @@ msgstr ""
 "imbhuailtí leis an urlár. Chun é sin a dhéanamh, is féidir linn gné "
 "chlibeála Godot :ref:`group <doc_groups>` a úsáid."
 
-msgid ""
-"Open the scene ``mob.tscn`` again and select the *Mob* node. Go to the "
-"*Node* dock on the right to see a list of signals. The *Node* dock has two "
-"tabs: *Signals*, which you've already used, and *Groups*, which allows you "
-"to assign tags to nodes."
-msgstr ""
-"Oscail an radharc ``mob.tscn`` arís agus roghnaigh an nód*Mob*. Téigh go dtí "
-"an duga* Node* ar dheis chun liosta comharthaí a fheiceáil. Tá dhá chluaisín "
-"ag an duga*Nod*: *Comharthaí*, a d'úsáid tú cheana féin, agus *Grúpaí*, a "
-"ligeann duit clibeanna a shannadh do nóid."
-
-msgid ""
-"Click on it to reveal a field where you can write a tag name. Enter \"mob\" "
-"in the field and click the *Add* button."
-msgstr ""
-"Cliceáil air chun réimse a nochtadh inar féidir leat ainm clib a scríobh. "
-"Cuir isteach “mob” sa réimse agus cliceáil ar an gcnaipe*Cuir*."
-
 msgid "|image7|"
 msgstr "|íomhá7|"
 
 msgid "image7"
 msgstr "íomhá 7"
+
+msgid "|image8|"
+msgstr "|íomhá8|"
+
+msgid "image8"
+msgstr "íomhá8"
+
+msgid "|image9|"
+msgstr "|íomhá9|"
+
+msgid "image9"
+msgstr "íomhá9"
 
 msgid ""
 "An icon appears in the *Scene* dock to indicate the node is part of at least "
@@ -346,11 +340,11 @@ msgstr ""
 "Tá deilbhín le feiceáil sa duga*Radhair* chun a léiriú go bhfuil an nód mar "
 "chuid de ghrúpa amháin ar a laghad."
 
-msgid "|image8|"
-msgstr "|íomhá8|"
+msgid "|image10|"
+msgstr "|íomhá10|"
 
-msgid "image8"
-msgstr "íomhá8"
+msgid "image10"
+msgstr "íomhá10"
 
 msgid ""
 "We can now use the group from the code to distinguish collisions with "

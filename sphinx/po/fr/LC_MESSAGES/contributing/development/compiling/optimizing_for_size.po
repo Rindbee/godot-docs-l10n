@@ -186,6 +186,12 @@ msgstr ":ref:`class_ConfirmationDialog`"
 msgid ":ref:`class_FileDialog`"
 msgstr ":ref:`class_FileDialog`"
 
+msgid ":ref:`class_FoldableContainer`"
+msgstr ":ref:`class_FoldableContainer`"
+
+msgid ":ref:`class_FoldableGroup`"
+msgstr ":ref:`class_FoldableGroup`"
+
 msgid ":ref:`class_GraphEdit`"
 msgstr ":ref:`class_GraphEdit`"
 

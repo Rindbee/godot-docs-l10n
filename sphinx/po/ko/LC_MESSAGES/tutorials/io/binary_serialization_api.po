@@ -59,6 +59,38 @@ msgstr "색"
 msgid "object"
 msgstr "오브젝트"
 
+msgid "array"
+msgstr "배열"
+
+msgid "int32 array"
+msgstr "int32 배열"
+
+msgid "24"
+msgstr "24"
+
+msgid "float64 array"
+msgstr "float64 배열"
+
+msgid "25"
+msgstr "25"
+
+msgid "26"
+msgstr "26"
+
+msgid ""
+"Following this is the actual packet contents, which varies for each type of "
+"packet. Note that this assumes Godot is compiled with single-precision "
+"floats, which is the default. If Godot was compiled with double-precision "
+"floats, the length of \"Float\" fields within data structures should be 8, "
+"and the offset should be ``(offset - 4) * 2 + 4``. The \"float\" type itself "
+"always uses double precision."
+msgstr ""
+"아래는 실제 패킷 내용으로, 각 패킷의 타입에 따라 다릅니다. 이는 Godot가 디폴"
+"트로 단정밀도(single-precision) 실수형으로 컴파일되었음을 가정합니다. 만약 "
+"Godot가 배정밀도(double-precision) 실수형으로 컴파일되었다면, 자료 구조 내 "
+"\"Float\" 필드의 길이는 8이 되어야 하며, 오프셋은 ``(offset - 4) * 2 + 4``\\ "
+"가 되어야 합니다. \"float\" 타입 자체는 항상 배정밀도를 사용합니다."
+
 msgid "Offset"
 msgstr "오프셋"
 
@@ -71,8 +103,32 @@ msgstr "정수"
 msgid "Float"
 msgstr "Float"
 
+msgid "String length (in bytes)"
+msgstr "문자열 길이 (바이트 단위)"
+
 msgid "X"
 msgstr "X"
 
+msgid "Bytes"
+msgstr "바이트"
+
+msgid "UTF-8 encoded string"
+msgstr "UTF-8 인코딩된 문자열"
+
+msgid "This field is padded to 4 bytes."
+msgstr "이 필드는 4바이트로 채워져 있습니다."
+
+msgid "X size"
+msgstr "X 크기"
+
+msgid "Y size"
+msgstr "Y 크기"
+
+msgid "Z coordinate"
+msgstr "Z 좌표"
+
 msgid "Distance"
 msgstr "거리"
+
+msgid "For each property:"
+msgstr "각각의 속성:"

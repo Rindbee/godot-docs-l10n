@@ -23,11 +23,20 @@ msgstr ""
 "с помощью движка Sphinx docs. Это позволяет вам иметь локальные HTML файлы и "
 "создавать документацию, например, в виде PDF, EPUB или LaTeX файла."
 
+msgid "`Git <https://git-scm.com/>`_"
+msgstr "`Git <https://git-scm.com/>`_"
+
+msgid "`Python <https://www.python.org/>`_ 3"
+msgstr "`Python <https://www.python.org/>`_ 3"
+
 msgid "Create the virtual environment:"
 msgstr "Создайте виртуальную среду:"
 
 msgid "Windows"
 msgstr "Windows"
+
+msgid "Other platforms"
+msgstr "Другие платформы"
 
 msgid "Activate the virtual environment:"
 msgstr "Активируйте виртуальную среду:"
@@ -49,11 +58,21 @@ msgstr ""
 "вручную:"
 
 msgid ""
+"The compilation will take some time as the ``classes/`` folder contains "
+"hundreds of files. See :ref:`doc_building_the_manual:performance`."
+msgstr ""
+"Компиляция займёт некоторое время, поскольку папка ``classes/`` содержит "
+"сотни файлов. См. :ref:`doc_building_the_manual:performance`."
+
+msgid ""
 "You can then browse the documentation by opening ``_build/html/index.html`` "
 "in your web browser."
 msgstr ""
 "Затем вы можете просмотреть документацию, открыв ``_build/html/index.html`` "
 "в своем веб-браузере."
+
+msgid "Dealing with errors"
+msgstr "Работа с ошибками"
 
 msgid ""
 "If you delete the ``classes/`` folder, do not use ``git add .`` when working "
@@ -66,6 +85,12 @@ msgstr ""
 "коммите. Более подробную информацию смотрите `#3157 <https://github.com/"
 "godotengine/godot-docs/issues/3157>`__ здесь."
 
+msgid "Hints for performance"
+msgstr "Советы по повышению производительности"
+
+msgid "RAM usage"
+msgstr "Использование оперативной памяти"
+
 msgid ""
 "Building the documentation requires at least 8 GB of RAM to run without disk "
 "swapping, which slows it down. If you have at least 16 GB of RAM, you can "
@@ -74,3 +99,6 @@ msgstr ""
 "Сборка документации требует не менее 8 ГБ оперативной памяти для работы без "
 "подкачки дисков, что замедляет ее. Если у вас не менее 16 ГБ оперативной "
 "памяти, вы можете ускорить компиляцию, выполнив:"
+
+msgid "Specifying a list of files"
+msgstr "Указание списка файлов"

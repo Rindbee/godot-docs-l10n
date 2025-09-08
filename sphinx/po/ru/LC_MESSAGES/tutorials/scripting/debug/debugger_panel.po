@@ -23,6 +23,9 @@ msgstr ""
 msgid "Profiler"
 msgstr "Профилировщик"
 
+msgid "Visual Profiler"
+msgstr "Visual Profiler"
+
 msgid "Network Profiler"
 msgstr "Сетевой профайлер"
 

@@ -208,11 +208,6 @@ msgid ""
 "and save it as a resource."
 msgstr "要匯出庫，點擊場景 -> 轉換為.. -> 網格庫...，並將其保存為資源。"
 
-msgid ""
-"You can find an already exported MeshLibrary in the project named "
-"\"MeshLibrary.tres\"."
-msgstr "可以在專案中找到已匯出的名為“MeshLibrary.tres”的 MeshLibrary。"
-
 msgid "Using GridMap"
 msgstr "使用 GridMap"
 

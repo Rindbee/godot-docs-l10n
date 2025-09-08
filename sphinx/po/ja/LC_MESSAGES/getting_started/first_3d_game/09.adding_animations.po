@@ -142,12 +142,6 @@ msgid ""
 "Set the animation duration to ``1.2`` seconds in the top-right of the dock."
 msgstr "ドック右上のアニメーションの長さを ``1.2`` 秒に設定します。"
 
-msgid "|image7|"
-msgstr "\\ |image7|"
-
-msgid "image7"
-msgstr "\\ image7"
-
 msgid ""
 "You should see the gray ribbon widen a bit. It shows you the start and end "
 "of your animation and the vertical blue line is your time cursor."
@@ -155,11 +149,11 @@ msgstr ""
 "灰色のリボンが少し広がっているのが見えるはずです。これはアニメーションの開始"
 "と終了を表し、青い縦線がタイムカーソルになります。"
 
-msgid "|image8|"
-msgstr "\\ |image8|"
+msgid "|image7|"
+msgstr "\\ |image7|"
 
-msgid "image8"
-msgstr "\\ image8"
+msgid "image7"
+msgstr "\\ image7"
 
 msgid ""
 "You can click and drag the slider in the bottom-right to zoom in and out of "
@@ -168,11 +162,11 @@ msgstr ""
 "右下のスライダーをクリックし、左右にドラッグすることで、タイムラインの拡大・"
 "縮小が可能です。"
 
-msgid "|image9|"
-msgstr "\\ |image9|"
+msgid "|image8|"
+msgstr "\\ |image8|"
 
-msgid "image9"
-msgstr "\\ image9"
+msgid "image8"
+msgstr "\\ image8"
 
 msgid "The float animation"
 msgstr "浮遊アニメーション"
@@ -205,11 +199,11 @@ msgstr ""
 "ンを展開します。 *Position（位置）* と *Rotation（回転）* の横にある鍵のアイ"
 "コンをクリックします。"
 
-msgid "|image10|"
-msgstr "\\ |image10|"
+msgid "|image9|"
+msgstr "\\ |image9|"
 
-msgid "image10"
-msgstr "\\ image10"
+msgid "image9"
+msgstr "\\ image9"
 
 msgid ""
 "For this tutorial, just create RESET Track(s) which is the default choice"
@@ -223,11 +217,11 @@ msgstr ""
 "エディタに2つのトラックが表示され、それぞれのキーフレームを表すひし形のアイコ"
 "ン（◆）が表示されます。"
 
-msgid "|image11|"
-msgstr "\\ |image11|"
+msgid "|image10|"
+msgstr "\\ |image10|"
 
-msgid "image11"
-msgstr "\\ image11"
+msgid "image10"
+msgstr "\\ image10"
 
 msgid ""
 "You can click and drag on the diamonds to move them in time. Move the "
@@ -237,18 +231,11 @@ msgstr ""
 "ます。position のキーを ``0.3`` 秒、rotation のキーを ``0.1`` 秒に合わせてく"
 "ださい。"
 
-msgid "|image12|"
-msgstr "\\ |image12|"
+msgid "|image11|"
+msgstr "\\ |image11|"
 
-msgid "image12"
-msgstr "\\ image12"
-
-msgid ""
-"Move the time cursor to ``0.5`` seconds by clicking and dragging on the gray "
-"timeline."
-msgstr ""
-"灰色のタイムライン上をクリック＆ドラッグして、タイムカーソル（青い縦線）を "
-"``0.5`` 秒に移動してください。"
+msgid "image11"
+msgstr "\\ image11"
 
 msgid "|timeline_05_click|"
 msgstr "\\ |timeline_05_click|"
@@ -271,11 +258,11 @@ msgstr ""
 "*シーン* (Scene)ドックにある ``Character`` ノードをもう一度クリックしてくださ"
 "い。"
 
-msgid "|image13|"
-msgstr "\\ |image13|"
+msgid "|image12|"
+msgstr "\\ |image12|"
 
-msgid "image13"
-msgstr "\\ image13"
+msgid "image12"
+msgstr "\\ image12"
 
 msgid "Create a keyframe for both properties"
 msgstr "両方のプロパティのキーフレームを作成します"
@@ -293,11 +280,11 @@ msgstr ""
 "次に、position のキーフレームをタイムライン上でドラッグして、 ``0.7`` 秒まで"
 "移動させてください。"
 
-msgid "|image14|"
-msgstr "\\ |image14|"
+msgid "|image13|"
+msgstr "\\ |image13|"
 
-msgid "image14"
-msgstr "\\ image14"
+msgid "image13"
+msgstr "\\ image13"
 
 msgid ""
 "A lecture on the principles of animation is beyond the scope of this "
@@ -337,11 +324,11 @@ msgstr ""
 "ことができます。停止ボタンをクリックするか :kbd:`S` を押すと再生が停止しま"
 "す。"
 
-msgid "|image15|"
-msgstr "\\ |image15|"
+msgid "|image14|"
+msgstr "\\ |image14|"
 
-msgid "image15"
-msgstr "\\ image15"
+msgid "image14"
+msgstr "\\ image14"
 
 msgid ""
 "You can see that the engine interpolates between your keyframes to produce a "
@@ -365,11 +352,11 @@ msgstr ""
 "タイムライン上の最初の2つのキー周辺をクリックしてドラッグし、ボックス選択しま"
 "す。"
 
-msgid "|image16|"
-msgstr "\\ |image16|"
+msgid "|image15|"
+msgstr "\\ |image15|"
 
-msgid "image16"
-msgstr "\\ image16"
+msgid "image15"
+msgstr "\\ image15"
 
 msgid ""
 "You can edit the properties of both keys simultaneously in the *Inspector*, "
@@ -378,11 +365,11 @@ msgstr ""
 "*インスペクター* (Inspector) では、両方のキーのプロパティを同時に編集できま"
 "す。そこに *Easing* のプロパティが表示されています。"
 
-msgid "|image17|"
-msgstr "\\ |image17|"
+msgid "|image16|"
+msgstr "\\ |image16|"
 
-msgid "image17"
-msgstr "\\ image17"
+msgid "image16"
+msgstr "\\ image16"
 
 msgid ""
 "Click and drag on the curve, pulling it towards the left. This will make it "
@@ -393,11 +380,11 @@ msgstr ""
 "out)、つまり最初は速く移行し、タイムカーソルが次のキーフレームに近づくにつれ"
 "て遅くなるようにします。"
 
-msgid "|image18|"
-msgstr "\\ |image18|"
+msgid "|image17|"
+msgstr "\\ |image17|"
 
-msgid "image18"
-msgstr "image18"
+msgid "image17"
+msgstr "\\ image17"
 
 msgid ""
 "Play the animation again to see the difference. The first half should "
@@ -411,30 +398,30 @@ msgstr ""
 "回転(rotation_degrees)トラックの2番目のキーフレームにイーズアウトを適用してみ"
 "てください。"
 
+msgid "|image18|"
+msgstr "\\ |image18|"
+
+msgid "image18"
+msgstr "image18"
+
+msgid ""
+"Do the opposite for the second position keyframe, dragging it to the right."
+msgstr "2つ目の位置にあるキーフレームは逆に右にドラッグしてください。"
+
 msgid "|image19|"
 msgstr "\\ |image19|"
 
 msgid "image19"
 msgstr "\\ image19"
 
-msgid ""
-"Do the opposite for the second position keyframe, dragging it to the right."
-msgstr "2つ目の位置にあるキーフレームは逆に右にドラッグしてください。"
+msgid "Your animation should look something like this."
+msgstr "アニメーションはこのような感じになります。"
 
 msgid "|image20|"
 msgstr "\\ |image20|"
 
 msgid "image20"
 msgstr "\\ image20"
-
-msgid "Your animation should look something like this."
-msgstr "アニメーションはこのような感じになります。"
-
-msgid "|image21|"
-msgstr "\\ |image21|"
-
-msgid "image21"
-msgstr "\\ image21"
 
 msgid ""
 "Animations update the properties of the animated nodes every frame, "
@@ -477,11 +464,11 @@ msgstr ""
 "``Player`` ノードの横にあるスクリプトアイコンをクリックして ``Player`` のスク"
 "リプトを開きます。"
 
-msgid "|image22|"
-msgstr "\\ |image22|"
+msgid "|image21|"
+msgstr "\\ |image21|"
 
-msgid "image22"
-msgstr "\\ image22"
+msgid "image21"
+msgstr "\\ image21"
 
 msgid ""
 "In ``_physics_process()``, after the line where we check the ``direction`` "

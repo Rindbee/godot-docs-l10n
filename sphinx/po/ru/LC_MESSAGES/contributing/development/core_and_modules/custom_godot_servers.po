@@ -14,6 +14,13 @@ msgstr ""
 msgid "Introduction"
 msgstr "Введение"
 
+msgid ""
+"This guide assumes the reader knows how to create C++ modules and Godot data "
+"types. If not, refer to :ref:`doc_custom_modules_in_cpp`."
+msgstr ""
+"В этом руководстве предполагается, что читатель умеет создавать модули C++ и "
+"типы данных Godot. Если нет, обратитесь к :ref:`doc_custom_modules_in_cpp`."
+
 msgid "References"
 msgstr "Ссылки"
 
@@ -29,8 +36,22 @@ msgstr "Кастомно управляемая информация о ресу
 msgid ":ref:`RID<class_rid>`"
 msgstr ":ref:`RID<class_rid>`"
 
+msgid ""
+"`core/templates/rid.h <https://github.com/godotengine/godot/blob/master/core/"
+"templates/rid.h>`__"
+msgstr ""
+"`core/templates/rid.h <https://github.com/godotengine/godot/blob/master/core/"
+"templates/rid.h>`__"
+
 msgid "Registering the class in GDScript"
 msgstr "Регистрация класса в GDScript"
+
+msgid ""
+"In ``register_server_types()``, ``Engine::get_singleton()->add_singleton`` "
+"is used to register the dummy class in GDScript."
+msgstr ""
+"В ``register_server_types()``, ``Engine::get_singleton()->add_singleton`` "
+"используется для регистрации фиктивного класса в GDScript."
 
 msgid ""
 "`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
@@ -47,6 +68,21 @@ msgstr "Привязка сигналов"
 
 msgid "MessageQueue"
 msgstr "MessageQueue"
+
+msgid ""
+"In order to send commands into SceneTree, MessageQueue is a thread-safe "
+"buffer to queue set and call methods for other threads. To queue a command, "
+"obtain the target object RID and use either ``push_call``, ``push_set``, or "
+"``push_notification`` to execute the desired behavior. The queue will be "
+"flushed whenever either ``SceneTree::idle`` or ``SceneTree::iteration`` is "
+"executed."
+msgstr ""
+"Для отправки команд в SceneTree используется потокобезопасный буфер "
+"MessageQueue, который позволяет ставить команды в очередь и вызывать их для "
+"других потоков. Чтобы поставить команду в очередь, получите RID целевого "
+"объекта и используйте ``push_call``, ``push_set`` или ``push_notification`` "
+"для выполнения требуемого действия. Очередь будет очищаться при каждом "
+"выполнении ``SceneTree::idle`` или ``SceneTree::iteration``."
 
 msgid "References:"
 msgstr "Источники:"

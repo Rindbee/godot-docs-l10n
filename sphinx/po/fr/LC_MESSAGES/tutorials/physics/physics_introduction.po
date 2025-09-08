@@ -181,7 +181,7 @@ msgstr ""
 "l'appareil du joueur ne peut pas suivre."
 
 msgid "Collision layers and masks"
-msgstr "Niveaux et masques de collisions"
+msgstr "Couches et masques de collisions"
 
 msgid "Let's look at each of the properties in turn:"
 msgstr "Examinons chacune des propriétés à tour de rôle :"

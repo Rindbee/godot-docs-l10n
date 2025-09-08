@@ -241,7 +241,7 @@ msgid "Toggle Fullscreen"
 msgstr "전체 화면 토글"
 
 msgid "Play"
-msgstr "실행"
+msgstr "플레이"
 
 msgid "Pause Scene"
 msgstr "씬 일시정지"
@@ -550,7 +550,7 @@ msgid "Save All"
 msgstr "모두 저장"
 
 msgid "Soft Reload Script"
-msgstr "스크립트 부드러운 새로 고침"
+msgstr "스크립트 소프트 다시 불러옴"
 
 msgid "History Previous"
 msgstr "이전 기록"

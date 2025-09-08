@@ -34,6 +34,23 @@ msgstr ""
 "Sur Windows et Linux, vous pouvez executer un binaire Godot dans un terminal "
 "en spécifiant son chemin relatif ou absolu."
 
+msgid ""
+"On macOS, the process is different due to Godot being contained within a "
+"``.app`` bundle (which is a *folder*, not a file). To run a Godot binary "
+"from a terminal on macOS, you have to ``cd`` to the folder where the Godot "
+"application bundle is located, then run ``Godot.app/Contents/MacOS/Godot`` "
+"followed by any command line arguments. If you've renamed the application "
+"bundle from ``Godot`` to another name, make sure to edit this command line "
+"accordingly."
+msgstr ""
+"Sur macOS, le processus est différent parce que Godot est intégré dans un "
+"paquet ``.app`` (qui est un *répertoire* et pas un fichier). Pour exécuter "
+"un binaire Godot depuis un terminal macOS, vous devez ``cd`` dans le "
+"répertoire du paquet et puis exécuter ``Godot.app/Contents/MacOS/Godot`` "
+"suivi par les arguments de ligne de commande. Si vous avez renommé le paquet "
+"``Godot`` en un autre nom, assurez-vous de remplacer ``Godot`` dans la "
+"commande par ce nom."
+
 msgid "Command line reference"
 msgstr "Référence de ligne de commande"
 
@@ -109,6 +126,9 @@ msgstr ""
 "|release| Mode silencieux qui désactive les messages de stdout. Les erreurs "
 "sont quand même affichées."
 
+msgid "``--no-header``"
+msgstr "``--no-header``"
+
 msgid "**Run options**"
 msgstr "**Options d'exécution**"
 
@@ -137,6 +157,9 @@ msgstr ""
 "|editor| Démarrer le gestionnaire de projet, même si un projet est "
 "autodétecté."
 
+msgid "``--recovery-mode``"
+msgstr "``--recovery-mode``"
+
 msgid "``--debug-server <uri>``"
 msgstr "``--debug-server <uri>``"
 
@@ -146,6 +169,12 @@ msgid ""
 msgstr ""
 "|editor| Démarrer le serveur de débogage de l'éditeur ( ``<protocol>://<host/"
 "IP>[:<port>]``, par ex. ``tcp://127.0.0.1:6007``)"
+
+msgid "``--dap-port <port>``"
+msgstr "``--dap-port <port>``"
+
+msgid "``--lsp-port <port>``"
+msgstr "``--lsp-port <port>``"
 
 msgid "``--quit``"
 msgstr "``--quit``"
@@ -185,6 +214,13 @@ msgid ""
 msgstr ""
 "|release| Chemin vers un projet (``<directory>`` doit contenir un fichier "
 "'project.godot')."
+
+msgid "``scene <path>``"
+msgstr "``scene <chemin>``"
+
+msgid "|release| Path or UID of a scene in the project that should be started."
+msgstr ""
+"|release| Chemin ou UID d'une scène dans le projet qui devrait être démarrée."
 
 msgid "``-u``, ``--upwards``"
 msgstr "``-u``, ``--upwards``"
@@ -245,6 +281,19 @@ msgstr ""
 "|release| Pilote vidéo (et pilote de rendu). Utilisez d'abord la commande "
 "``--help`` pour afficher la liste des pilotes disponibles."
 
+msgid "``--audio-output-latency`` <ms>"
+msgstr "``--audio-output-latency`` <ms>"
+
+msgid ""
+"|release| Override audio output latency in milliseconds (default is 15 ms). "
+"Lower values make sound playback more reactive but increase CPU usage, and "
+"may result in audio cracking if the CPU can't keep up"
+msgstr ""
+"|release| Redéfinit la latence de sortie audio en millisecondes (par défaut, "
+"15 ms). Les valeurs inférieures rendent la lecture sonore plus réactive, "
+"mais augmentent l'utilisation du processeur, et peuvent entraîner des "
+"fissures sonores si le processeur ne peut pas suivre"
+
 msgid "``--rendering-method <renderer>``"
 msgstr "``--rendering-method <renderer>``"
 
@@ -292,6 +341,9 @@ msgid ""
 msgstr ""
 "|release| Activer le mode sans tête (``--display-driver headless --audio-"
 "driver Dummy``). Utile pour des serveurs et avec ``-script``."
+
+msgid "``--log-file``"
+msgstr "``--log-file``"
 
 msgid "``--write-movie <file>``"
 msgstr "``--write-movie <file>``"
@@ -367,6 +419,12 @@ msgstr "``--xr-mode <mode>``"
 msgid "|release| Select XR mode ('default', 'off', 'on')."
 msgstr "|release| Sélectionner le mode XR ('default', 'off', 'on')."
 
+msgid "``--wid <window_id>``"
+msgstr "``--wid <id_fenetre>``"
+
+msgid "``--accessibility <mode>``"
+msgstr "``--accessibility <mode>``"
+
 msgid "**Debug options**"
 msgstr "**Options de débogage**"
 
@@ -385,6 +443,9 @@ msgid ""
 msgstr ""
 "|release| Liste de points d'arrêt comme paires source::ligne séparées par "
 "des virgules, sans espace (utilisez ``%20`` à la place)."
+
+msgid "``--ignore-error-breaks``"
+msgstr "``--ignore-error-breaks``"
 
 msgid "``--profiling``"
 msgstr "``--profiling``"
@@ -421,6 +482,15 @@ msgid ""
 msgstr ""
 "|debug| Avorter sur les erreurs GPU (généralement les erreurs de couche de "
 "validation), peut aider à voir le problème si votre système freeze."
+
+msgid "``--generate-spirv-debug-info``"
+msgstr "``--generate-spirv-debug-info``"
+
+msgid "``--extra-gpu-memory-tracking``"
+msgstr "``--extra-gpu-memory-tracking``"
+
+msgid "``--accurate-breadcrumbs``"
+msgstr "``--accurate-breadcrumbs``"
 
 msgid "``--remote-debug <uri>``"
 msgstr "``--remote-debug <uri>``"
@@ -478,6 +548,12 @@ msgid ""
 msgstr ""
 "|debug| Affiche tous les allocations de StringName vers stdout quand le "
 "moteur quitte."
+
+msgid "``--debug-canvas-item-redraw``"
+msgstr "``--debug-canvas-item-redraw``"
+
+msgid "``--max-fps <fps>``"
+msgstr "``--max-fps <fps>``"
 
 msgid "``--frame-delay <ms>``"
 msgstr "``--frame-delay <ms>``"
@@ -545,6 +621,9 @@ msgstr "``--print-fps``"
 msgid "|release| Print the frames per second to the stdout."
 msgstr "|release| Affiche les images par second à la sortie standard stdout."
 
+msgid "``--editor-pseudolocalization``"
+msgstr "``--editor-pseudolocalization``"
+
 msgid "**Standalone tools**"
 msgstr "**Outils autonomes**"
 
@@ -560,6 +639,9 @@ msgstr ""
 "par rapport au projet ( ``myscript.gd`` sera interprété comme ``res://"
 "myscript.gd``) ou un chemin de système de fichier absolu (par exemple sur "
 "Windows ``C:/tmp/myscript.gd``)"
+
+msgid "``--main-loop <main_loop_name>``"
+msgstr "``--main-loop <nom_boucle_principale>``"
 
 msgid "``--check-only``"
 msgstr "``--check-only``"
@@ -604,6 +686,26 @@ msgstr ""
 "le préréglage donné. L'extension ``<path>`` détermine s'il sera au format "
 "PCK ou ZIP. Implique ``--import``."
 
+msgid "``--patches <paths>``"
+msgstr "``--patches <chemin>``"
+
+msgid ""
+"|editor| List of patches to use with --export-patch. The list is comma-"
+"separated."
+msgstr ""
+"|editor| Liste des correctifs à utiliser avec --export-patch. La liste est "
+"séparée par des virgules."
+
+msgid "``--install-android-build-template``"
+msgstr "``--install-android-build-template``"
+
+msgid ""
+"|editor| Install the Android build template. Used in conjunction with --"
+"export-release or --export-debug."
+msgstr ""
+"|editor| Installe le modèle de compilation Android. Utilisé conjointement "
+"avec --export-release ou --export-debug."
+
 msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
 msgstr "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
 
@@ -633,8 +735,21 @@ msgstr ""
 msgid "``--no-docbase``"
 msgstr "``--no-docbase``"
 
+msgid "|editor| Disallow dumping the base types (used with ``--doctool``)."
+msgstr ""
+"|editor| Interdit de dump les types de base (utilisé avec ``--doctool``)."
+
 msgid "``--gdscript-docs <path>``"
 msgstr "``--gdscript-docs <path>``"
+
+msgid ""
+"|editor| Rather than dumping the engine API, generate API reference from the "
+"inline documentation in the GDScript files found in <path> (used with ``--"
+"doctool``)."
+msgstr ""
+"|editor| Plutôt que de dump l'API du moteur, génère la référence de l'API à "
+"partir de la documentation intégrée dans les fichiers GDScript trouvés dans "
+"<path> (utilisé avec ``--doctool```)."
 
 msgid "``--build-solutions``"
 msgstr "``--build-solutions``"
@@ -660,6 +775,13 @@ msgstr ""
 
 msgid "``--dump-extension-api``"
 msgstr "``--dump-extension-api``"
+
+msgid ""
+"|editor| Generate JSON dump of the Godot API for GDExtension bindings named "
+"'extension_api.json' in the current folder."
+msgstr ""
+"|editor| Génère le dump JSON de l'API Godot pour les liaisons GDExtension, "
+"appelé 'extension_api.json', dans le dossier actuel."
 
 msgid "``--validate-extension-api <path>``"
 msgstr "``--validate-extension-api <path>``"

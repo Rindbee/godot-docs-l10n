@@ -17,6 +17,9 @@ msgstr "Pourquoi utiliser la mise à l'échelle de résolution ?"
 msgid "**1920×1080 (Full HD)**"
 msgstr "**1920×1080 (Full HD)**"
 
+msgid "3D rendering resolution"
+msgstr "Résolution du rendu 3D"
+
 msgid "``0.50``"
 msgstr "``0.50``"
 
@@ -172,6 +175,12 @@ msgstr "7680×4320"
 
 msgid "33.18 MPix"
 msgstr "33.18 MPix"
+
+msgid "FSR Sharpness"
+msgstr "Netteté FSR"
+
+msgid "Mipmap bias"
+msgstr "Bias de mipmap"
 
 msgid "Troubleshooting"
 msgstr "Dépannage"

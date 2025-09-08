@@ -14,6 +14,17 @@ msgstr ""
 msgid "Introduction"
 msgstr "Введение"
 
+msgid ""
+"Shaders are special programs that execute on the GPU and are used for "
+"rendering graphics. All modern rendering is done with shaders. For a more "
+"detailed description of what shaders are please see :ref:`What are shaders "
+"<doc_introduction_to_shaders>`."
+msgstr ""
+"Шейдеры — это специальные программы, выполняемые на графическом процессоре и "
+"используемые для рендеринга графики. Весь современный рендеринг выполняется "
+"с помощью шейдеров. Более подробное описание шейдеров см. в "
+"разделе :ref:`What are shaders <doc_introduction_to_shaders>`."
+
 msgid "Setup"
 msgstr "Настройка"
 
@@ -22,6 +33,13 @@ msgstr "Ваш первый шейдер CanvasItem"
 
 msgid "Uniform input"
 msgstr "Проверка ввода"
+
+msgid ""
+"For more information about usage see the :ref:`Shading Language doc "
+"<doc_shading_language>`."
+msgstr ""
+"Дополнительную информацию об использовании см. в документе :ref:`Shading "
+"Language doc <doc_shading_language>`."
 
 msgid "Conclusion"
 msgstr "Заключение"

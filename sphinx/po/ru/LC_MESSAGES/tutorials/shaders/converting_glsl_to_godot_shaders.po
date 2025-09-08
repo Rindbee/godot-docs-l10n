@@ -154,6 +154,35 @@ msgstr ""
 msgid "Macros"
 msgstr "Макросы"
 
+msgid ""
+"The :ref:`Godot shader preprocessor<doc_shader_preprocessor>` supports the "
+"following macros:"
+msgstr ""
+":ref:`Godot shader preprocessor<doc_shader_preprocessor>` поддерживает "
+"следующие макросы:"
+
+msgid "``#define`` / ``#undef``"
+msgstr "``#define`` / ``#undef``"
+
+msgid ""
+"``#if``, ``#elif``, ``#else``, ``#endif``, ``defined()``, ``#ifdef``, "
+"``#ifndef``"
+msgstr ""
+"``#if``, ``#elif``, ``#else``, ``#endif``, ``defined()``, ``#ifdef``, "
+"``#ifndef``"
+
+msgid ""
+"``#include`` (only ``.gdshaderinc`` files and with a maximum depth of 25)"
+msgstr ""
+"``#include`` (только файлы ``.gdshaderinc`` и с максимальной глубиной 25)"
+
+msgid ""
+"``#pragma disable_preprocessor``, which disables preprocessing for the rest "
+"of the file"
+msgstr ""
+"``#pragma disable_preprocessor``, что отключает предварительную обработку "
+"оставшейся части файла"
+
 msgid "Variables"
 msgstr "Переменные"
 
@@ -180,8 +209,14 @@ msgstr "Описание"
 msgid "gl_FragColor"
 msgstr "gl_FragColor"
 
+msgid "out vec4"
+msgstr "из vec4"
+
 msgid "COLOR"
 msgstr "ЦВЕТ"
+
+msgid "Output color for each pixel."
+msgstr "Выходной цвет для каждого пикселя."
 
 msgid "gl_FragCoord"
 msgstr "gl_FragCoord"
@@ -192,8 +227,14 @@ msgstr "vec4"
 msgid "FRAGCOORD"
 msgstr "FRAGCOORD"
 
+msgid "For full screen quads. For smaller quads, use UV."
+msgstr "Для полноэкранных квадратов. Для меньших квадратов используйте UV."
+
 msgid "VERTEX"
 msgstr "ВЕРШИНА"
+
+msgid "Position of Vertex, output from Vertex Shader."
+msgstr "Положение Vertex (вершины), выход Vertex Shader."
 
 msgid "gl_PointSize"
 msgstr "gl_PointSize"
@@ -204,6 +245,9 @@ msgstr "float"
 msgid "POINT_SIZE"
 msgstr "РАЗМЕР_ТОЧКИ"
 
+msgid "Size of Point primitive."
+msgstr "Размер примитива Point (точка)."
+
 msgid "gl_PointCoord"
 msgstr "gl_PointCoord"
 
@@ -213,6 +257,9 @@ msgstr "vec2"
 msgid "POINT_COORD"
 msgstr "МЕСТОПОЛОЖЕНИЕ_ТОЧКИ"
 
+msgid "Position on point when drawing Point primitives."
+msgstr "Положение относительно точки при рисовании Точечных примитивов."
+
 msgid "gl_FrontFacing"
 msgstr "gl_FrontFаcing"
 
@@ -221,6 +268,9 @@ msgstr "bool"
 
 msgid "FRONT_FACING"
 msgstr "FRONT_FACING"
+
+msgid "True if front face of primitive."
+msgstr "Истина, если это передняя грань примитива."
 
 msgid "Coordinates"
 msgstr "Координаты"
@@ -271,29 +321,62 @@ msgstr "iRеsolution"
 msgid "vec3"
 msgstr "vec3"
 
+msgid "1.0 / SCREEN_PIXEL_SIZE"
+msgstr "1.0 / SCREEN_PIXEL_SIZE"
+
+msgid "Can also pass in manually."
+msgstr "Также можно передать вручную."
+
 msgid "iTime"
 msgstr "iTime"
 
 msgid "TIME"
 msgstr "TIME"
 
+msgid "Time since shader started."
+msgstr "Время с момента запуска шейдера."
+
 msgid "iTimeDelta"
 msgstr "iTimeDelta"
+
+msgid "Provide with Uniform"
+msgstr "Обеспечение Uniform"
+
+msgid "Time to render previous frame."
+msgstr "Время рендеринга предыдущего кадра."
 
 msgid "iFrame"
 msgstr "iFrame"
 
+msgid "Frame number."
+msgstr "Номер кадра."
+
 msgid "iChannelTime[4]"
 msgstr "iChannelTime[4]"
+
+msgid "Time since that particular texture started."
+msgstr "Прошло время с момента появления этой конкретной текстуры."
 
 msgid "iMouse"
 msgstr "iMouse"
 
+msgid "Mouse position in pixel coordinates."
+msgstr "Положение мыши в пиксельных координатах."
+
 msgid "iDate"
 msgstr "iDate"
 
+msgid "Current date, expressed in seconds."
+msgstr "Текущая дата, выраженная в секундах."
+
 msgid "iChannelResolution[4]"
 msgstr "iChannelResolution[4]"
+
+msgid "1.0 / TEXTURE_PIXEL_SIZE"
+msgstr "1.0 / TEXTURE_PIXEL_SIZE"
+
+msgid "Resolution of particular texture."
+msgstr "Разрешение конкретной текстуры."
 
 msgid "iChanneli"
 msgstr "iChanneli"
@@ -312,3 +395,10 @@ msgstr "u_time"
 
 msgid "u_mouse"
 msgstr "u_mouse"
+
+msgid ""
+"The Book of Shaders uses the same coordinate system as :ref:`GLSL "
+"<glsl_coordinates>`."
+msgstr ""
+"Book of Shaders использует ту же систему координат, что и :ref:`GLSL "
+"<glsl_coordinates>`."

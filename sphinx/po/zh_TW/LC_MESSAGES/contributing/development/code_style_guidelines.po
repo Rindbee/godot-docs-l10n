@@ -362,12 +362,6 @@ msgid ""
 msgstr "你可以用下列指令手動將 ``ruff`` 套用到一個或多個檔案："
 
 msgid ""
-"``-l 120`` means that the allowed number of characters per line is 120. This "
-"number was agreed upon by the developers."
-msgstr ""
-"``-l 120`` 表示每行最多允許 120 個字元。這個數字是由多位開發人員公認的。"
-
-msgid ""
 "The path can point to several files, either one after the other or using "
 "wildcards like in a typical Unix shell."
 msgstr ""

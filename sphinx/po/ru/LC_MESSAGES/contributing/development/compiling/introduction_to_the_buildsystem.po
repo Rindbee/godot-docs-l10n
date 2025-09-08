@@ -14,6 +14,27 @@ msgstr ""
 msgid "Introduction to the buildsystem"
 msgstr "Введение в систему сборки"
 
+msgid ":ref:`doc_compiling_for_android`"
+msgstr ":ref:`doc_compiling_for_android`"
+
+msgid ":ref:`doc_compiling_for_ios`"
+msgstr ":ref:`doc_compiling_for_ios`"
+
+msgid ":ref:`doc_compiling_for_linuxbsd`"
+msgstr ":ref:`doc_compiling_for_linuxbsd`"
+
+msgid ":ref:`doc_compiling_for_macos`"
+msgstr ":ref:`doc_compiling_for_macos`"
+
+msgid ":ref:`doc_compiling_for_web`"
+msgstr ":ref:`doc_compiling_for_web`"
+
+msgid ":ref:`doc_compiling_for_windows`"
+msgstr ":ref:`doc_compiling_for_windows`"
+
+msgid "Using multi-threading"
+msgstr "Использование многопоточности"
+
 msgid "Platform selection"
 msgstr "Выбор платформы"
 
@@ -28,13 +49,41 @@ msgstr ""
 "доступных платформ. Требования сборки для каждой из платформ будут описаны в "
 "оставшейся части руководства."
 
+msgid ""
+"To build for a platform (for example, ``linuxbsd``), run with the "
+"``platform=`` (or ``p=`` to make it short) argument:"
+msgstr ""
+"Чтобы выполнить сборку для платформы (например, ``linuxbsd``), запустите с "
+"аргументом ``platform=`` (или ``p=`` для краткости):"
+
 msgid "Resulting binary"
 msgstr "Полученный бинарный файл"
+
+msgid ""
+"This means that the binary is for Linux *or* \\*BSD (*not* both), is not "
+"optimized, has the whole editor compiled in, and is meant for 64 bits."
+msgstr ""
+"Это означает, что двоичный файл предназначен для Linux *или* \\*BSD (*не* "
+"обоих), не оптимизирован, содержит весь редактор, скомпилированный в нем, и "
+"предназначен для 64-битной системы."
 
 msgid "A Windows binary with the same configuration will look like this:"
 msgstr ""
 "Бинарный файл для Windows с такой же конфигурацией будет выглядеть следующим "
 "образом:"
+
+msgid ""
+"Copy that binary to any location you like, as it contains the Project "
+"Manager, editor and all means to execute the game. However, it lacks the "
+"data to export it to the different platforms. For that the export templates "
+"are needed (which can be either downloaded from `godotengine.org <https://"
+"godotengine.org/>`__, or you can build them yourself)."
+msgstr ""
+"Скопируйте этот исполняемый файл в любое удобное место, так как он содержит "
+"менеджер проектов, редактор и всё необходимое для запуска игры. Однако в нём "
+"отсутствуют данные для экспорта на различные платформы. Для этого необходимы "
+"шаблоны экспорта (которые можно скачать с сайта `godotengine.org <https://"
+"godotengine.org/>`__ или создать самостоятельно)."
 
 msgid ""
 "Aside from that, there are a few standard options that can be set in all "
@@ -45,6 +94,51 @@ msgstr ""
 
 msgid "Target"
 msgstr "Цель"
+
+msgid ""
+"The editor is enabled by default in all PC targets (Linux, Windows, macOS), "
+"disabled for everything else. Disabling the editor produces a binary that "
+"can run projects but does not include the editor or the Project Manager."
+msgstr ""
+"Редактор включён по умолчанию на всех ПК (Linux, Windows, macOS) и отключён "
+"для всех остальных. Отключение редактора создаёт исполняемый файл, который "
+"может запускать проекты, но не включает в себя редактор и менеджер проектов."
+
+msgid "Development and production aliases"
+msgstr "Псевдонимы разработки и производства"
+
+msgid "Godot provides two aliases for this purpose:"
+msgstr "Для этой цели Godot предлагает два псевдонима:"
+
+msgid "Debugging symbols"
+msgstr "Отладочные символы"
+
+msgid "Optimization level"
+msgstr "Уровень оптимизации"
+
+msgid "Architecture"
+msgstr "Архитектура"
+
+msgid ""
+"The ``arch`` option is meant to control the CPU or OS version intended to "
+"run the binaries. It is focused mostly on desktop platforms and ignored "
+"everywhere else."
+msgstr ""
+"Параметр ``arch`` предназначен для управления версией CPU или ОС, на которой "
+"будут запускаться исполняемые файлы. Он ориентирован в основном на "
+"настольные платформы и игнорируется во всех остальных случаях."
+
+msgid ""
+"This flag appends the value of ``arch`` to resulting binaries when "
+"relevant.  The default value ``arch=auto`` detects the architecture that "
+"matches the host platform."
+msgstr ""
+"Этот флаг добавляет значение ``arch`` к результирующим двоичным файлам, "
+"когда это необходимо. Значение по умолчанию ``arch=auto`` определяет "
+"архитектуру, соответствующую платформе хоста."
+
+msgid ":ref:`doc_custom_modules_in_cpp`"
+msgstr ":ref:`doc_custom_modules_in_cpp`"
 
 msgid "Other build options"
 msgstr "Другие параметры сборки"
@@ -78,3 +172,15 @@ msgstr ""
 "`godotengine.org <https://godotengine.org/>`__. Однако, вы можете захотеть "
 "собрать их самостоятельно (в случае если вы хотите более свежих, или вы "
 "хотите подключить свои модули, или просто не доверяете собственной тени)."
+
+msgid ""
+"If you are developing for multiple platforms, macOS is definitely the most "
+"convenient host platform for cross-compilation, since you can cross-compile "
+"for every target. Linux and Windows come in second place, but Linux has the "
+"advantage of being the easier platform to set this up."
+msgstr ""
+"Если вы разрабатываете для нескольких платформ, macOS, безусловно, самая "
+"удобная платформа для кросс-компиляции, поскольку позволяет выполнять кросс-"
+"компиляцию для любой целевой платформы. Linux и Windows идут на втором "
+"месте, но у Linux есть преимущество: это более простая платформа для "
+"настройки."

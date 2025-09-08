@@ -139,6 +139,14 @@ msgstr "注释"
 msgid "|vector|"
 msgstr "|vector|"
 
+msgid ""
+"Linked list type. Generally slower than other array/vector types. Prefer "
+"using other types in new code, unless using ``List`` avoids the need for "
+"type conversions."
+msgstr ""
+"链表类型。通常比其他数组/向量类型更慢。在新代码中建议优先使用其他类型，除非使"
+"用 ``List`` 能避免类型转换需求。"
+
 msgid "Math types"
 msgstr "数学类型"
 

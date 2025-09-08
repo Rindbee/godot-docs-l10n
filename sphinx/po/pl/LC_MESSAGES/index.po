@@ -29,6 +29,9 @@ msgstr "Społeczność"
 msgid "Class reference"
 msgstr "Referencja klas"
 
+msgid "Godot Docs – *master* branch"
+msgstr "Dokumentacja Godot – gałąź *master*"
+
 msgid ""
 "Godot's documentation is available in various languages and versions. Expand "
 "the \"Read the Docs\" panel at the bottom of the sidebar to see the list."

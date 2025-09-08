@@ -167,7 +167,7 @@ msgid ""
 "The scene is *always an extension of the script attached to its root node*, "
 "so you can interpret it as part of a class."
 msgstr ""
-"La scène est *toujours une extension du script attaché à son noeud racine*, "
+"La scène est *toujours une extension du script attaché à son nœud racine*, "
 "vous pouvez donc l'interpréter comme faisant partie d'une classe."
 
 msgid ""

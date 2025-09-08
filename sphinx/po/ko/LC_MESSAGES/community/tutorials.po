@@ -34,7 +34,7 @@ msgstr ""
 "제출하세요."
 
 msgid "Where to start"
-msgstr "어디서부터 시작할까"
+msgstr "어디서부터 시작할까요"
 
 msgid ""
 "The Godot video tutorials by `GDQuest <https://www.youtube.com/channel/"
@@ -46,10 +46,21 @@ msgstr ""
 "며, 초보자를 위한 쉬운 소개 자료로 자주 추천됩니다."
 
 msgid "Video tutorials"
-msgstr "동영상 튜토리얼"
+msgstr "비디오 튜토리얼"
+
+msgid ""
+"For video tutorials we recommend looking on `YouTube <https://"
+"www.youtube.com/>`_. There are many great channels covering a wide array of "
+"subjects."
+msgstr ""
+"비디오 튜토리얼은 `YouTube <https://www.youtube.com/>`__\\ 에서 시청하시는 것"
+"을 추천합니다. 다양한 주제를 다루는 훌륭한 채널들이 많이 있습니다."
 
 msgid "Text tutorials"
 msgstr "텍스트 튜토리얼"
+
+msgid "`FinePointCGI website by Mitch <https://finepointcgi.io/>`__"
+msgstr "`Mitch 가 만든 FinePointCGI 웹사이트 <http://finepointcgi.io/>`__"
 
 msgid "`Catlike Coding by Jasper Flick <https://catlikecoding.com/godot/>`__"
 msgstr ""
@@ -70,6 +81,13 @@ msgid ""
 msgstr ""
 "`SomethingLikeGames가 만든 Godot 튜토리얼 <https://www.somethinglikegames.de/"
 "en/tags/godot-engine/>`__"
+
+msgid ""
+"`GameDev Academy by Zenva <https://gamedevacademy.org/category/godot-"
+"tutorials/godot-4/>`__"
+msgstr ""
+"`Zenva의 GameDev 아카데미 <https://gamedevacademy.org/category/godot-"
+"tutorials/godot-4/>`__"
 
 msgid "`Game Dev Artisan website <https://gamedevartisan.com/>`__"
 msgstr "`Game Dev Artisan 웹사이트 <https://gamedevartisan.com/>`__"

@@ -527,7 +527,7 @@ msgstr ""
 "і ``transpose``"
 
 msgid "XR"
-msgstr "ИКСР"
+msgstr "XR"
 
 msgid "**WebXRInterface**"
 msgstr "**WebXRInterface**"

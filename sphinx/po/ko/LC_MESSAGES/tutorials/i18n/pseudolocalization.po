@@ -13,3 +13,13 @@ msgstr ""
 
 msgid "Introduction"
 msgstr "소개"
+
+msgid ""
+"All of these properties can be toggled as needed according to the project's "
+"use case."
+msgstr ""
+"이러한 모든 속성은 프로젝트의 사용 사례에 따라 필요에 따라 토글할 수 있습니"
+"다."
+
+msgid "Configuring pseudolocalization at runtime"
+msgstr "런타임 시 의사 현지화 구성하기"

@@ -14,8 +14,24 @@ msgstr ""
 msgid "Setting up XR"
 msgstr "Настройка XR"
 
+msgid "Introduction to the XR system in Godot"
+msgstr "Введение в систему XR в Godot"
+
 msgid "Which Renderer to use"
 msgstr "Какой рендерер использовать"
 
+msgid "OpenXR"
+msgstr "OpenXR"
+
+msgid "Setting up the XR scene"
+msgstr "Подготовка сцены XR"
+
 msgid "And the right hand:"
 msgstr "И правая рука:"
+
+msgid ""
+"Next we need to add a script to our root node. Add the following code into "
+"this script:"
+msgstr ""
+"Далее нам нужно добавить скрипт к нашему корневому узлу. Добавьте в него "
+"следующий код:"

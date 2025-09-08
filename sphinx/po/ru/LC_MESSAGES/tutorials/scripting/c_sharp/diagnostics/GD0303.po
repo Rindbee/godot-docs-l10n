@@ -11,8 +11,73 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"GD0303: The parent symbol of a type argument that must be Variant compatible "
+"was not handled"
+msgstr ""
+"GD0303: Родительский символ аргумента типа, который должен быть совместим с "
+"вариантами, не был обработан"
+
+msgid "**Rule ID**"
+msgstr "**Идентификатор правила**"
+
+msgid "GD0303"
+msgstr "GD0303"
+
 msgid "**Category**"
 msgstr "**Категория**"
 
 msgid "Usage"
 msgstr "Использование"
+
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Исправление может быть как ломающим, так и не ломающим**"
+
+msgid "Not fixable"
+msgstr "Не подлежит исправлению"
+
+msgid "**Enabled by default**"
+msgstr "**Включено по умолчанию**"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "Cause"
+msgstr "Причина"
+
+msgid "This is a bug in the engine and must be reported."
+msgstr "Это ошибка в движке, о которой необходимо сообщить."
+
+msgid "Rule description"
+msgstr "Описание правила"
+
+msgid ""
+"The ``MustBeVariantAnalyzer`` has found an unhandled case in the user source "
+"code. Please, open an `issue <https://github.com/godotengine/godot/issues>`_ "
+"and attach a minimal reproduction project so it can be fixed."
+msgstr ""
+"``MustBeVariantAnalyzer`` обнаружил необработанный случай в исходном коде "
+"пользователя. Пожалуйста, откройте `issue <https://github.com/godotengine/"
+"godot/issues>`_ и приложите минимальный проект для воспроизведения ошибки, "
+"чтобы её можно было исправить."
+
+msgid "How to fix violations"
+msgstr "Как устранить нарушения"
+
+msgid "Violations of this rule can't be fixed."
+msgstr "Нарушения этого правила не подлежат исправлению."
+
+msgid "When to suppress warnings"
+msgstr "Когда следует подавлять предупреждения"
+
+msgid ""
+"Suppressing a warning from this rule may result in unexpected errors, since "
+"the case found by the analyzer may need to be handled by the user to prevent "
+"types that are not Variant-compatible from reaching the engine. Attempting "
+"to marshal incompatible types will result in runtime errors."
+msgstr ""
+"Подавление предупреждения из этого правила может привести к непредвиденным "
+"ошибкам, поскольку случай, обнаруженный анализатором, может потребовать "
+"обработки пользователем, чтобы предотвратить попадание в движок типов, "
+"несовместимых с Variant. Попытка маршалинга несовместимых типов приведёт к "
+"ошибкам во время выполнения."

@@ -52,13 +52,6 @@ msgstr "image1"
 msgid "If you still have *Input Map* open, switch to the *General* tab."
 msgstr "如果您還開著「輸入對應」，請切換到「通用」分頁。"
 
-msgid ""
-"In the left menu, navigate down to *Display -> Window*. On the right, set "
-"the *Width* to ``720`` and the *Height* to ``540``."
-msgstr ""
-"在左側選單中，向下找到 *顯示 -> 視窗*。在右側，將 *寬度* 設定為 ``720``，並"
-"將 *高度* 設定為 ``540``。"
-
 msgid "|image2|"
 msgstr "\\ |image2|"
 

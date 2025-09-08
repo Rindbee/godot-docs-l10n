@@ -13,3 +13,6 @@ msgstr ""
 
 msgid "Operator"
 msgstr "연산자"
+
+msgid "Built-in functions"
+msgstr "내장 함수"

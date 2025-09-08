@@ -61,8 +61,3 @@ msgid ""
 msgstr ""
 "大体の場合はデフォルト値で十分ですが、必要に応じて拡大(growth)や単純化"
 "(simplification)を変更できます:"
-
-msgid ""
-"Finally, push the ``Convert 2D Mesh`` button and your Sprite2D will be "
-"replaced:"
-msgstr "最後に、 ``Convert 2D Mesh`` ボタンを押すとSprite2Dが置き換えられます:"

@@ -27,3 +27,6 @@ msgid ""
 "Position your furniture in your room as you like and your scene should look "
 "this:"
 msgstr "방에 가구를 원하는 장소에 배치하고 씬은 다음과 같이 보여야 합니다:"
+
+msgid "Converting to MeshInstance3D"
+msgstr "MeshInstance3D로 변환하기"

@@ -141,6 +141,12 @@ msgstr ""
 "Це надрукує час, витрачений між оголошенням ``begin`` і ``end`` декларацією."
 
 msgid ""
+"You may have to ``#include \"core/os/time.h\"`` if it's not present already."
+msgstr ""
+"Можливо, вам доведеться додати ``#include \"core/os/time.h\"``, якщо його ще "
+"немає."
+
+msgid ""
 "When opening a pull request, make sure to remove this snippet as well as the "
 "include if it wasn't there previously."
 msgstr "Можливо, вам такий ``#include \"core/os/os.h\"``, якщо його ще немає."

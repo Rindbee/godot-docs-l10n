@@ -16,3 +16,6 @@ msgstr "소개"
 
 msgid "Visual comparison"
 msgstr "시각적 비교"
+
+msgid "Generating mesh LOD"
+msgstr "메시 LOD 생성하기"

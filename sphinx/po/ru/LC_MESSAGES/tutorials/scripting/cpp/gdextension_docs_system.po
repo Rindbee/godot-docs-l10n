@@ -35,6 +35,9 @@ msgstr "**code**"
 msgid "``[code]{text}[/code]``"
 msgstr "``[code]{text}[/code]``"
 
+msgid "``{text}``"
+msgstr "``{text}``"
+
 msgid "**center**"
 msgstr "**center**"
 

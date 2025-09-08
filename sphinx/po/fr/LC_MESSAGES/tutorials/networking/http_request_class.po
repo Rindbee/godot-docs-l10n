@@ -17,6 +17,9 @@ msgstr "Faire des requêtes HTTP"
 msgid "Why use HTTP?"
 msgstr "Pourquoi utiliser HTTP ?"
 
+msgid "HTTP requests in Godot"
+msgstr "Requêtes HTTP dans Godot"
+
 msgid ""
 "The :ref:`HTTPRequest <class_HTTPRequest>` node is the easiest way to make "
 "HTTP requests in Godot. It is backed by the more low-level :ref:`HTTPClient "

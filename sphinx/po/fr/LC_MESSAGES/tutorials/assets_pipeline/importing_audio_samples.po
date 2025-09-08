@@ -75,6 +75,13 @@ msgid "12 KB"
 msgstr "12 Ko"
 
 msgid ""
+"Several options are available in the Import dock after selecting a WAV file "
+"in the FileSystem dock:"
+msgstr ""
+"Plusieurs options sont disponibles dans le dock Import après avoir "
+"sélectionné un fichier WAV dans le dock Système de fichiers :"
+
+msgid ""
 "Import options in the Import dock after selecting an MP3 file in the "
 "FileSystem dock"
 msgstr ""
@@ -82,7 +89,7 @@ msgstr ""
 "fichier MP3 dans le dock Système de fichier"
 
 msgid "Force > 8 Bit"
-msgstr "Force > 8 Bit"
+msgstr "Forcer > 8 Bit"
 
 msgid "Force > Mono"
 msgstr "Force > Mono"

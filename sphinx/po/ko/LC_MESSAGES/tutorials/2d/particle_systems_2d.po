@@ -23,6 +23,19 @@ msgstr "입자 노드"
 msgid "ParticleProcessMaterial"
 msgstr "ParticleProcessMaterial"
 
+msgid ""
+"To add a process material to your particles node, go to ``Process Material`` "
+"in your inspector panel. Click on the box next to ``Material``, and from the "
+"dropdown menu select ``New ParticleProcessMaterial``."
+msgstr ""
+"입자 노드에 프로세스 머티리얼을 추가하러면 인스펙터 패널에서 ``프로세스 머티"
+"리얼``\\ 로 이동합니다. ``머티리얼`` 옆에 박스를 클릭한 다음 드롭다운 메뉴에"
+"서 ``새 ParticlsMaterial``\\ 을 선택하세요."
+
+msgid "Your GPUParticles2D node should now be emitting white points downward."
+msgstr ""
+"이제 GPUParticles2D 노드는 아래쪽으로 내려가는 흰 점이 방출되어야 합니다."
+
 msgid "Texture"
 msgstr "텍스처"
 
@@ -67,6 +80,13 @@ msgstr "1: 동시에 모든 입자를 방출합니다."
 
 msgid "Randomness"
 msgstr "무작위성"
+
+msgid ""
+"All physics parameters can be randomized. Random values range from ``0`` to "
+"``1``. The formula to randomize a parameter is:"
+msgstr ""
+"모든 물리 매개변수는 무작위화될 수 있습니다. 무작위 값의 범위는 ``0``\\ 부터 "
+"``1``\\ 까지입니다. 매개변수를 무작위화하는 공식은 다음과 같습니다."
 
 msgid "Fixed FPS"
 msgstr "고정 FPS"

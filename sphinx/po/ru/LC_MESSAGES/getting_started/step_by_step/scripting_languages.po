@@ -273,6 +273,9 @@ msgstr ""
 "Godot 4.2, но в экспериментальном формате и :ref:`с ограничениями "
 "<doc_c_sharp_platforms>`."
 
+msgid "To learn more about C#, head to the :ref:`doc_c_sharp` section."
+msgstr "Чтобы узнать больше о C#, перейдите в раздел :ref:`doc_c_sharp`."
+
 msgid "C++ via GDExtension"
 msgstr "C++ через GDExtension"
 

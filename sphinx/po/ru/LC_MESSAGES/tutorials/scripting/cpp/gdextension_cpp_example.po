@@ -14,6 +14,13 @@ msgstr ""
 msgid "Getting started"
 msgstr "Начало работы"
 
+msgid ""
+"Optional: Publish on the `Godot Asset Library <https://godotengine.org/asset-"
+"library/asset>`__."
+msgstr ""
+"Необязательно: Опубликовать на `Godot Asset Library <https://godotengine.org/"
+"asset-library/asset>`__."
+
 msgid "Example project"
 msgstr "Пример проекта"
 
@@ -22,6 +29,12 @@ msgstr "Настройка проекта"
 
 msgid "There are a few prerequisites you'll need:"
 msgstr "Вам необходимо выполнить несколько условий:"
+
+msgid "A Godot 4 executable."
+msgstr "Исполняемый файл Godot 4."
+
+msgid "A C++ compiler."
+msgstr "Компилятор C++."
 
 msgid "SCons as a build tool."
 msgstr "SCons в качестве инструмента сборки."
@@ -657,3 +670,11 @@ msgstr "Каждую секунду мы выводим нашу позицию 
 
 msgid "Next steps"
 msgstr "Следующие шаги"
+
+msgid ""
+"We hope the above example showed you the basics. You can build upon this "
+"example to create full-fledged scripts to control nodes in Godot using C++!"
+msgstr ""
+"Мы надеемся, что приведённый пример показал вам основы. Вы можете расширить "
+"этот пример для создания полноценных скриптов управления узлами в Godot с "
+"использованием C++!"

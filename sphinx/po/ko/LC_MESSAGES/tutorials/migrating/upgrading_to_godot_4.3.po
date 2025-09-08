@@ -33,7 +33,10 @@ msgid "Audio"
 msgstr "오디오"
 
 msgid "Navigation"
-msgstr "네비게이션"
+msgstr "내비게이션"
+
+msgid "**NavigationRegion2D**"
+msgstr "**NavigationRegion2D**"
 
 msgid "TileMap"
 msgstr "타일맵"

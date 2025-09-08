@@ -19,7 +19,7 @@ msgstr ""
 "트를 내보내지 않았으면 먼저 :ref:`doc_exporting_for_macos`\\ 를 읽으세요."
 
 msgid "Then click ``Open`` in the confirmation dialog."
-msgstr "그런 다음 확인 대화 상자에서 ``열기``를 클릭합니다."
+msgstr "그런 다음 확인 대화 상자에서 ``열기``\\ 를 클릭합니다."
 
 msgid "Enter your password if you're prompted."
 msgstr "메시지가 나타나면 비밀번호를 입력합니다."

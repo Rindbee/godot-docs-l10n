@@ -127,6 +127,9 @@ msgstr "GDExtension"
 msgid ":ref:`doc_gdextension_file`"
 msgstr ":ref:`doc_gdextension_file`"
 
+msgid ":ref:`doc_godot_cpp_docs_system`"
+msgstr ":ref:`doc_godot_cpp_docs_system`"
+
 msgid "Migrating"
 msgstr "Migration"
 

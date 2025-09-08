@@ -33,6 +33,13 @@ msgstr ""
 msgid "Render modes"
 msgstr "Режимы визуализации"
 
+msgid ""
+"For visual examples of these render modes, see :ref:`Standard Material 3D "
+"and ORM Material 3D<doc_standard_material_3d>`."
+msgstr ""
+"Визуальные примеры этих режимов рендеринга см. в разделе :ref:`Standard "
+"Material 3D and ORM Material 3D<doc_standard_material_3d>`."
+
 msgid "Render mode"
 msgstr "Режим рендеринга"
 
@@ -84,10 +91,16 @@ msgstr "**dеpth_draw_never**"
 msgid "Never draw depth."
 msgstr "Никогда не отрисовывать глубину."
 
+msgid "**depth_prepass_alpha**"
+msgstr "**depth_prepass_alpha**"
+
 msgid "Do opaque depth pre-pass for transparent geometry."
 msgstr ""
 "Выполнение предварительного прохождения непрозрачной глубины для прозрачной "
 "геометрии."
+
+msgid "**depth_test_disabled**"
+msgstr "**depth_test_disabled**"
 
 msgid "Disable depth testing."
 msgstr "Отключение проверки глубины."
@@ -173,6 +186,19 @@ msgstr ""
 msgid "**vertex_lighting**"
 msgstr "**vеrtex_lighting**"
 
+msgid "**particle_trails**"
+msgstr "**particle_trails**"
+
+msgid ""
+"Alpha antialiasing mode, see `here <https://github.com/godotengine/godot/"
+"pull/40364>`_ for more."
+msgstr ""
+"Режим альфа-сглаживания, более подробную информацию см. `здесь <https://"
+"github.com/godotengine/godot/pull/40364>`_."
+
+msgid "**fog_disabled**"
+msgstr "**fog_disabled**"
+
 msgid "Built-ins"
 msgstr "Встроенные функции"
 
@@ -193,6 +219,9 @@ msgid ""
 msgstr ""
 "Константа ``TAU`` (``6.283185``). Эквивалент ``PI * 2`` и количество "
 "радианов в полном обороте."
+
+msgid "in float **E**"
+msgstr "В float **E**"
 
 msgid "Vertex built-ins"
 msgstr "Вершинные встроенные константы"
@@ -228,6 +257,9 @@ msgstr "Мировое пространство для просмотра тра
 msgid "Node position, in world space."
 msgstr "Положение узла в мировом пространстве."
 
+msgid "in vec3 **NODE_POSITION_VIEW**"
+msgstr "в vec3 **NODE_POSITION_VIEW**"
+
 msgid "Node position, in view space."
 msgstr "Положение узла в пространстве обзора."
 
@@ -249,6 +281,9 @@ msgstr "Постоянная для Mono или левого глаза, все�
 
 msgid "Constant for right eye, always ``1``."
 msgstr "Константа для правого глаза, всегда ``1``."
+
+msgid "in vec3 **EYE_OFFSET**"
+msgstr "in vec3 **EYE_OFFSET**"
 
 msgid ""
 "Position offset for the eye being rendered. Only applicable for multiview "
@@ -277,6 +312,18 @@ msgstr "mat3 **MODEL_NORMAL_MATRIX**"
 
 msgid "View space to clip space transform."
 msgstr "Преобразование пространства просмотра для обрезки пространства."
+
+msgid "in vec4 **CUSTOM0**"
+msgstr "in vec4 **CUSTOM0**"
+
+msgid "in vec4 **CUSTOM1**"
+msgstr "in vec4 **CUSTOM1**"
+
+msgid "in vec4 **CUSTOM2**"
+msgstr "in vec4 **CUSTOM2**"
+
+msgid "in vec4 **CUSTOM3**"
+msgstr "in vec4 **CUSTOM3**"
 
 msgid ""
 "``MODELVIEW_MATRIX`` combines both the ``MODEL_MATRIX`` and ``VIEW_MATRIX`` "
@@ -333,6 +380,9 @@ msgstr "mat4 **PROJECTION_MATRIX**"
 msgid "in vec3 **VERTEX**"
 msgstr "vec3 **VERTEX**"
 
+msgid "inout vec3 **LIGHT_VERTEX**"
+msgstr "inout vec3 **LIGHT_VERTEX**"
+
 msgid ""
 "Removed in Godot 4. Use a ``sampler2D`` with ``hint_screen_texture`` instead."
 msgstr ""
@@ -356,6 +406,9 @@ msgstr "При записи значения ниже определенного
 
 msgid "Distortion direction, use with flowmaps."
 msgstr "Направление искажения, используйте с flowmaps."
+
+msgid "inout vec3 **BACKLIGHT**"
+msgstr "inout vec3 **BACKLIGHT**"
 
 msgid ""
 "Shaders going through the transparent pipeline when ``ALPHA`` is written to "
@@ -381,6 +434,19 @@ msgstr ""
 "``DIFFUSE_LIGHT``, используя ``+=``, а не перезаписывайте его."
 
 msgid ""
+"The ``light()`` function won't be run if the ``vertex_lighting`` render mode "
+"is enabled, or if :ref:`Rendering > Quality > Shading > Force Vertex "
+"Shading<class_ProjectSettings_property_rendering/shading/overrides/"
+"force_vertex_shading>` is enabled in the Project Settings. (It's enabled by "
+"default on mobile platforms.)"
+msgstr ""
+"Функция ``light()`` не будет запущена, если включен режим рендеринга "
+"``vertex_lighting`` или если в настройках проекта включен "
+"параметр :ref:`Rendering > Quality > Shading > Force Vertex "
+"Shading<class_ProjectSettings_property_rendering/shading/overrides/"
+"force_vertex_shading>`. (На мобильных платформах он включен по умолчанию.)"
+
+msgid ""
 "Coordinate of pixel center in screen space. ``xy`` specifies position in "
 "window, ``z`` specifies fragment depth if ``DEPTH`` is not used. Origin is "
 "lower-left."
@@ -388,6 +454,15 @@ msgstr ""
 "Координата центра пикселя в пространстве экрана. ``xy`` задаёт позицию в "
 "окне, ``z`` задает глубину фрагмента, если ``DEPTH`` не используется. "
 "Ориентир - левый нижний угол."
+
+msgid "``true`` if this pass is a :ref:`class_DirectionalLight3D`."
+msgstr "``true``, если этот проход является :ref:`class_DirectionalLight3D`."
+
+msgid "in vec3 **BACKLIGHT**"
+msgstr "in vec3 **BACKLIGHT**"
+
+msgid "Metallic."
+msgstr "Металлический."
 
 msgid "Roughness."
 msgstr "Шероховатость."

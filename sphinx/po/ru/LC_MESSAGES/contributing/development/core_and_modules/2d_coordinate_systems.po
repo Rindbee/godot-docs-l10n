@@ -11,5 +11,65 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "2D coordinate systems and 2D transforms"
+msgstr "Двумерные системы координат и двумерные преобразования"
+
 msgid "Introduction"
 msgstr "Введение"
+
+msgid "Godot 2D coordinate systems"
+msgstr "Двумерные системы координат Godot"
+
+msgid "**Item Coordinates**"
+msgstr "**Координаты предмета**"
+
+msgid "**Parent Item Coordinates**"
+msgstr "**Координаты Родительского Предмета**"
+
+msgid "**Canvas Coordinates**"
+msgstr "**Координаты Холста**"
+
+msgid "**Viewport Coordinates**"
+msgstr "**Координаты Viewport**"
+
+msgid "**Camera Coordinates**"
+msgstr "**Координаты камеры**"
+
+msgid "Node transforms"
+msgstr "Преобразования узлов"
+
+msgid "**CanvasItem transform**"
+msgstr "**Преобразование CanvasItem**"
+
+msgid "**CanvasLayer transform**"
+msgstr "**Преобразование CanvasLayer**"
+
+msgid "**Viewport canvas transform**"
+msgstr "**Преобразование холста области просмотра**"
+
+msgid "**Viewport global canvas transform**"
+msgstr "**Глобальное преобразование холста области просмотра**"
+
+msgid ""
+"*Viewports* also have a :ref:`global canvas transform "
+"<class_Viewport_property_global_canvas_transform>`. This is the master "
+"transform and affects all individual *Canvas Layer* and embedded *Window* "
+"transforms. This is primarily used in Godot's CanvasItem Editor."
+msgstr ""
+"У *Viewports (видовых областей)* также есть :ref:`global canvas transform "
+"<class_Viewport_property_global_canvas_transform>`. Это главное "
+"преобразование, которое влияет на все отдельные преобразования *слоя холста* "
+"и встроенные преобразования *окна*. Оно в основном используется в редакторе "
+"CanvasItem в Godot."
+
+msgid "**Viewport stretch transform**"
+msgstr "**Трансформация растяжения области просмотра**"
+
+msgid "**Window transform**"
+msgstr "**Преобразование окна**"
+
+msgid "**Window position**"
+msgstr "**Положение окна**"
+
+msgid "**SubViewportContainer shrink transform**"
+msgstr "**Преобразование сжатия SubViewportContainer**"

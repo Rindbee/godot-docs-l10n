@@ -100,8 +100,3 @@ msgid ""
 msgstr ""
 "很多情況下, 預設值已經足夠好, 但是你可以根據需要改變growth(增長)和"
 "simplication(簡化):"
-
-msgid ""
-"Finally, push the ``Convert 2D Mesh`` button and your Sprite2D will be "
-"replaced:"
-msgstr "最後，按下 ``轉換 2D 網格`` 按鈕，你的 Sprite2D 將被替換："

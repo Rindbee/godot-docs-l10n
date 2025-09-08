@@ -81,6 +81,13 @@ msgstr ""
 "слід експортувати проект."
 
 msgid ""
+"**iOS:** Exports the project with debugging enabled and runs it on the "
+"connected device."
+msgstr ""
+"**iOS:** Експортує проєкт із увімкненим налагодженням та запускає його на "
+"підключеному пристрої."
+
+msgid ""
 "Make sure to follow the steps described in :ref:`doc_exporting_for_ios`. "
 "Otherwise, the one-click deploy button won't appear."
 msgstr ""

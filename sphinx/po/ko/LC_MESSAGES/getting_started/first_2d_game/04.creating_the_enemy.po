@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Creating the enemy"
+msgstr "적 만들기"
+
 msgid ""
 "Now it's time to make the enemies our player will have to dodge. Their "
 "behavior will not be very complex: mobs will spawn randomly at the edges of "
@@ -31,13 +34,19 @@ msgid "Node setup"
 msgstr "노드 설정하기"
 
 msgid "Click Scene -> New Scene from the top menu and add the following nodes:"
-msgstr "씬(Scene) -> 새 씬(New Scene)을 클릭 후 다음 노드들을 추가하세요:"
+msgstr "상단 메뉴에서 씬 -> 새 씬을 클릭하고 다음 노드을 추가하세요:"
 
 msgid ":ref:`RigidBody2D <class_RigidBody2D>` (named ``Mob``)"
-msgstr ":ref:`RigidBody2D <class_RigidBody2D>` ( ``Mob``\\ 으로 이름지음)"
+msgstr ":ref:`RigidBody2D <class_RigidBody2D>` (``Mob``\\ 로 이름지음)"
+
+msgid ":ref:`AnimatedSprite2D <class_AnimatedSprite2D>`"
+msgstr ":ref:`AnimatedSprite2D <class_AnimatedSprite2D>`"
 
 msgid ":ref:`CollisionShape2D <class_CollisionShape2D>`"
 msgstr ":ref:`CollisionShape2D <class_CollisionShape2D>`"
+
+msgid ":ref:`VisibleOnScreenNotifier2D <class_VisibleOnScreenNotifier2D>`"
+msgstr ":ref:`VisibleOnScreenNotifier2D <class_VisibleOnScreenNotifier2D>`"
 
 msgid ""
 "Don't forget to set the children so they can't be selected, like you did "

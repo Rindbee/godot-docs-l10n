@@ -62,23 +62,29 @@ msgid "JetBrains Rider"
 msgstr "JetBrains Rider"
 
 msgid "See the following sections for how to configure an external editor:"
-msgstr "외부 편집기를 설정하는 방법은 아래 구획들을 확인하십시오:"
+msgstr "외부 편집기를 구성하는 방법은 아래 섹션을 참고하세요:"
 
 msgid ""
 "After reading the \"Prerequisites\" section, you can download and install "
 "`JetBrains Rider <https://www.jetbrains.com/rider/download>`__."
 msgstr ""
-"\"준비사항\" 구획을 읽은 후, `JetBrains Rider <https://www.jetbrains.com/"
+"\"준비사항\" 섹션을 읽은 후, `JetBrains Rider <https://www.jetbrains.com/"
 "rider/download>`__ 를 설치할 수 있습니다."
 
 msgid "In Godot's **Editor → Editor Settings** menu:"
 msgstr "Godot의 **편집기 → 편집기 설정** 메뉴에서:"
 
+msgid ""
+"Set **Dotnet** -> **Editor** -> **External Editor** to **JetBrains Rider**."
+msgstr ""
+"**Dotnet** -> **편집기** -> **외부 편집기**\\ 를 **JetBrains Rider**\\ 로 설"
+"정합니다."
+
 msgid "In Rider:"
 msgstr "Rider 에서:"
 
 msgid "Set **MSBuild version** to **.NET Core**."
-msgstr "**MSBuild version** 을 **.NET Core** 로 설정."
+msgstr "**MSBuild version** 을 **.NET Core** 로 설정합니다."
 
 msgid ""
 "After reading the \"Prerequisites\" section, you can download and install "
@@ -132,8 +138,8 @@ msgid ""
 "option when selecting **Attach Script** in the context menu of a node in "
 "your scene:"
 msgstr ""
-"Godot용 C# 을 성공적으로 설정한 후, 씬의 노드 메뉴에서 **스크립트 붙이기**\\ "
-"를 선택할 때, 다음 설정이 표시되어야 합니다:"
+"Godot용 C#을 성공적으로 설정한 후, 씬에서 노드의 컨텍스트 메뉴에서 **스크립"
+"트 붙이기**\\ 를 선택할 때 다음 옵션이 표시되어야 합니다:"
 
 msgid "Project setup and workflow"
 msgstr "프로젝트 설정과 작업 흐름"

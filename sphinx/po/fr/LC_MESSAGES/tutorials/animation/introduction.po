@@ -213,6 +213,13 @@ msgstr ""
 msgid "Track interpolation"
 msgstr "Interpolation de piste"
 
+msgid ""
+"Godot supports two loop modes, which affect the animation when it's set to "
+"loop:"
+msgstr ""
+"Godot prend en charge deux modes de boucle, qui affectent l'animation si "
+"elle est réglée pour boucler :"
+
 msgid "Loop modes"
 msgstr "Modes de boucle"
 
@@ -237,6 +244,18 @@ msgstr ""
 
 msgid "Keyframes for other properties"
 msgstr "Clés d'animation pour d'autres propriétés"
+
+msgid ""
+"If you select your sprite while the animation panel is visible, Godot will "
+"display a small keyframe button in the *Inspector* for each of the sprite's "
+"properties. Click on one of these buttons to add a track and keyframe to the "
+"current animation."
+msgstr ""
+"Si vous sélectionnez votre sprite pendant que le panneau d'animation est "
+"visible, Godot affichera un petit bouton de clé d'animation dans "
+"l'*Inspecteur* pour chacune des propriétés du sprite. Cliquez sur un des "
+"boutons pour ajouter une piste et une clé d'animation à votre animation "
+"actuelle."
 
 msgid "Edit keyframes"
 msgstr "Modifier les clés d'animation"

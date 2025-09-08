@@ -239,11 +239,6 @@ msgstr ""
 "taşıyın ve zemin aydınlanana kadar X ekseni etrafında döndürmek için kırmızı "
 "yay parçasına tıklayıp sürükleyin."
 
-msgid ""
-"In the *Inspector*, turn on *Shadow -> Enabled* by clicking the checkbox."
-msgstr ""
-"*Denetleyici* 'de, *Gölge -> Etkin* seçeneğini kutucuğu işaretleyip açın."
-
 msgid "At this point, your project should look like this."
 msgstr "Bu noktada, projeniz bunun gibi görünmelidir."
 

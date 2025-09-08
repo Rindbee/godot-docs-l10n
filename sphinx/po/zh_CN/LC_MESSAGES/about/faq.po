@@ -1123,6 +1123,10 @@ msgstr ""
 "我们使用自定义字符串类型，因为 STL 提供的版本过于基础，并且缺乏适当的国际化支"
 "持。"
 
+msgid ""
+"Check out :ref:`Godot's container types <doc_core_types>` for alternatives."
+msgstr "为了更多方案查找 :ref:`Godot's container types <doc_core_types>`。"
+
 msgid "Why does Godot not use exceptions?"
 msgstr "为什么 Godot 不使用异常？"
 

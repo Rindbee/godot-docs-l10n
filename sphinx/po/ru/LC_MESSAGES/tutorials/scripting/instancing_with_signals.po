@@ -93,6 +93,13 @@ msgid "Here is the code for the player using signals to emit the bullet:"
 msgstr "Вот код для игрока с использованием сигналов для испускания пуль:"
 
 msgid ""
+"In the main scene, we then connect the player's signal (it will appear in "
+"the \"Node\" tab of the Inspector)"
+msgstr ""
+"В основной сцене мы затем подключаем сигнал проигрывателя (он появится на "
+"вкладке \"Node\" в Инспекторе)"
+
+msgid ""
 "Now the bullets will maintain their own movement independent of the player's "
 "rotation:"
 msgstr ""

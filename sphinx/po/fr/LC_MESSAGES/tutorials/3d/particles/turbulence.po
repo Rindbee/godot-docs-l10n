@@ -25,3 +25,6 @@ msgstr "Mise à l'échelle du bruit de la turbulence"
 
 msgid "Turbulence noise speed"
 msgstr "Vitesse du bruit de la turbulence"
+
+msgid "Turbulence influence"
+msgstr "Influence de la turbulence"

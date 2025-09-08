@@ -248,7 +248,7 @@ msgid "Mouse buttons"
 msgstr "Botones de mouse"
 
 msgid "Mouse motion"
-msgstr "Movimiento del mouse"
+msgstr "Movimiento del ratón"
 
 msgid ""
 ":ref:`InputEventMouseMotion <class_InputEventMouseMotion>` events occur "
