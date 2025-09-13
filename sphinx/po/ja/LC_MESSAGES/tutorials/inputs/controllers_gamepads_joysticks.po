@@ -379,3 +379,6 @@ msgstr "コントローラーにボタンまたは軸が正しくマッピング
 
 msgid "Linux"
 msgstr "Linux"
+
+msgid "Web"
+msgstr "Web"

@@ -3004,9 +3004,9 @@ Zstandard 的默认压缩级别。影响压缩的场景和资源。较高的级�
 
 :ref:`int<class_int>` **debug/gdscript/warnings/inferred_declaration** = ``0`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/inferred_declaration>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when a variable, constant, or parameter has an implicitly inferred static type. In GDScript, type inference is performed by declaring a variable with ``:=`` instead of ``=`` and leaving out the type specifier. For example, ``var x := 1`` will *infer* the :ref:`int<class_int>` type, while ``var x: int = 1`` explicitly declares the variable as :ref:`int<class_int>`.
+设置为 ``warn`` 或 ``error`` 时，当变量、常量或参数具有隐式推断的静态类型时，分别产生警告或错误。在 GDScript 中，类型推断的执行是通过使用 ``:=`` 而不是 ``=`` 声明变量，并且省略类型说明符。例如，\ ``var x := 1`` 将\ *推断*\ 为 :ref:`int<class_int>` 类型，而 ``var x: int = 1`` 则明确将变量声明为 :ref:`int<class_int>`\ 。
 
-\ **Note:** This warning is recommended *in addition* to :ref:`debug/gdscript/warnings/untyped_declaration<class_ProjectSettings_property_debug/gdscript/warnings/untyped_declaration>` if you want to always specify the type explicitly. Having ``INFERRED_DECLARATION`` warning level higher than ``UNTYPED_DECLARATION`` warning level makes little sense and is not recommended.
+\ **注意：**\ 如果你希望始终显式指定类型，则推荐该警告，\ *除了* :ref:`debug/gdscript/warnings/untyped_declaration<class_ProjectSettings_property_debug/gdscript/warnings/untyped_declaration>`\ 。使 ``INFERRED_DECLARATION`` 警告级别高于 ``UNTYPED_DECLARATION`` 警告级别意义不大，且不被推荐。
 
 .. rst-class:: classref-item-separator
 
@@ -4860,7 +4860,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -5026,7 +5026,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -5296,7 +5296,7 @@ Godot 内置的 :ref:`MovieWriter<class_MovieWriter>` 有 3 个：
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -5310,7 +5310,7 @@ Godot 内置的 :ref:`MovieWriter<class_MovieWriter>` 有 3 个：
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -5454,7 +5454,7 @@ Godot 内置的 :ref:`MovieWriter<class_MovieWriter>` 有 3 个：
 
 :ref:`bool<class_bool>` **gui/fonts/dynamic_fonts/use_oversampling** = ``true`` :ref:`🔗<class_ProjectSettings_property_gui/fonts/dynamic_fonts/use_oversampling>`
 
-If set to ``true`` and :ref:`display/window/stretch/mode<class_ProjectSettings_property_display/window/stretch/mode>` is set to **"canvas_items"**, font and :ref:`DPITexture<class_DPITexture>` oversampling is enabled in the main window. Use :ref:`Viewport.oversampling<class_Viewport_property_oversampling>` to control oversampling in other viewports and windows.
+如果为 ``true`` 且 :ref:`display/window/stretch/mode<class_ProjectSettings_property_display/window/stretch/mode>` 为 **"canvas_items"**\ ，则会在主窗口启用字体和 :ref:`DPITexture<class_DPITexture>` 的过采样。其他视口和窗口中请使用 :ref:`Viewport.oversampling<class_Viewport_property_oversampling>` 来控制过采样。
 
 .. rst-class:: classref-item-separator
 
@@ -12398,7 +12398,7 @@ OIDN 将在可用时使用 GPU 加速。与使用计算着色器进行加速的 
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -13100,7 +13100,7 @@ Direct3D 12 渲染驱动每帧所使用的采样器描述符堆中的条目数�
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -13126,7 +13126,7 @@ Direct3D 12 渲染驱动每帧所使用的采样器描述符堆中的条目数�
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -13140,7 +13140,7 @@ Direct3D 12 渲染驱动每帧所使用的采样器描述符堆中的条目数�
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -13154,7 +13154,7 @@ Direct3D 12 渲染驱动每帧所使用的采样器描述符堆中的条目数�
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -13436,13 +13436,13 @@ WebP 的默认压缩方法。影响有损和无损 WebP。较高的值会以压�
 
 :ref:`bool<class_bool>` **rendering/viewport/hdr_2d** = ``false`` :ref:`🔗<class_ProjectSettings_property_rendering/viewport/hdr_2d>`
 
-If ``true``, enables :ref:`Viewport.use_hdr_2d<class_Viewport_property_use_hdr_2d>` on the root viewport. 2D rendering will use a high dynamic range (HDR) format framebuffer matching the bit depth of the 3D framebuffer. When using the Forward+ or Compatibility renderer, this will be an ``RGBA16`` framebuffer. When using the Mobile renderer, it will be an ``RGB10_A2`` framebuffer.
+如果为 ``true``\ ，则在根视口上启用 :ref:`Viewport.use_hdr_2d<class_Viewport_property_use_hdr_2d>`\ 。2D 渲染将使用与 3D 帧缓冲的位深度相匹配的高动态范围（HDR）格式的帧缓冲。使用 Forward+ 或 Compatibility 渲染器时为 ``RGBA16`` 帧缓冲。使用 Mobile 渲染器时为 ``RGB10_A2`` 帧缓冲。
 
-Additionally, 2D rendering will take place in linear color space and will be converted to sRGB space immediately before blitting to the screen (if the Viewport is attached to the screen).
+此外，2D 渲染将在线性色彩空间中进行，并将在传输到屏幕之前立即转换到 sRGB 空间（如果视口已连接到屏幕）。
 
-Practically speaking, this means that the end result of the Viewport will not be clamped to the ``0-1`` range and can be used in 3D rendering without color space adjustments. This allows 2D rendering to take advantage of effects requiring high dynamic range (e.g. 2D glow) as well as substantially improves the appearance of effects requiring highly detailed gradients.
+实际上，这意味着 Viewport 的最终结果不会被限制在 ``0-1`` 范围内，无需调整色彩空间即可在 3D 渲染中使用。这使得 2D 渲染能够利用需要高动态范围的效果（例如 2D 辉光），并显著改善需要高度详细渐变的效果的外观。
 
-\ **Note:** This property is only read when the project starts. To toggle HDR 2D at runtime, set :ref:`Viewport.use_hdr_2d<class_Viewport_property_use_hdr_2d>` on the root :ref:`Viewport<class_Viewport>`.
+\ **注意：**\ 该属性仅在项目启动时读取。要在运行时开关 HDR 2D，请在根 :ref:`Viewport<class_Viewport>` 上设置 :ref:`Viewport.use_hdr_2d<class_Viewport_property_use_hdr_2d>`\ 。
 
 .. rst-class:: classref-item-separator
 

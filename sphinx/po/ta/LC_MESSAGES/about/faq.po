@@ -939,15 +939,6 @@ msgstr ""
 "உருவாக்குவது என்பதை நீங்கள் கற்றுக் கொள்ள வேண்டும். கோடோட் உருவாக்குபவர்கள் பயன்படுத்தும் "
 "பதிப்பு கட்டுப்பாட்டு அமைப்பான அறிவிலி பற்றி நீங்கள் தெரிந்திருக்க வேண்டும்."
 
-msgid ""
-"We explain how to work with the engine source, how to edit the "
-"documentation, and what other ways to contribute are there in "
-"our :ref:`documentation for contributors <doc_ways_to_contribute>`."
-msgstr ""
-"எஞ்சின் மூலத்துடன் எவ்வாறு செயல்படுவது, ஆவணங்களை எவ்வாறு திருத்துவது, பங்களிக்க வேறு "
-"என்ன வழிகள் உள்ளன என்பதை நாங்கள் விளக்குகிறோம்: ref: `பங்களிப்பாளர்களுக்கான ஆவணங்கள் "
-"<doc_ways_to_contribute>`."
-
 msgid "I have a great idea for Godot. How can I share it?"
 msgstr ""
 "கோடோட்டுக்கு எனக்கு ஒரு சிறந்த சிந்தனை இருக்கிறது. நான் அதை எவ்வாறு பகிர்ந்து கொள்ள "
@@ -1326,9 +1317,6 @@ msgstr ""
 
 msgid "How can I support Godot development or contribute?"
 msgstr "கோடோட் வளர்ச்சியை நான் எவ்வாறு ஆதரிக்க முடியும் அல்லது பங்களிக்க முடியும்?"
-
-msgid "See :ref:`doc_ways_to_contribute`."
-msgstr "காண்க: குறிப்பு: `doc_ways_to_contribute`."
 
 msgid "Who is working on Godot? How can I contact you?"
 msgstr "கோடோட்டில் யார் வேலை செய்கிறார்கள்? நான் உங்களை எவ்வாறு தொடர்பு கொள்ள முடியும்?"

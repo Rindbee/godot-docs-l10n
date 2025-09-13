@@ -677,13 +677,13 @@ enum **Flags**: :ref:`🔗<enum_Window_Flags>`
 
 :ref:`Flags<enum_Window_Flags>` **FLAG_EXCLUDE_FROM_CAPTURE** = ``9``
 
-Windows is excluded from screenshots taken by :ref:`DisplayServer.screen_get_image()<class_DisplayServer_method_screen_get_image>`, :ref:`DisplayServer.screen_get_image_rect()<class_DisplayServer_method_screen_get_image_rect>`, and :ref:`DisplayServer.screen_get_pixel()<class_DisplayServer_method_screen_get_pixel>`.
+在 :ref:`DisplayServer.screen_get_image()<class_DisplayServer_method_screen_get_image>`\ 、\ :ref:`DisplayServer.screen_get_image_rect()<class_DisplayServer_method_screen_get_image_rect>` 和 :ref:`DisplayServer.screen_get_pixel()<class_DisplayServer_method_screen_get_pixel>` 的截图中排除该窗口。
 
-\ **Note:** This flag has no effect in embedded windows.
+\ **注意：**\ 该标志对嵌入式窗口无效。
 
-\ **Note:** This flag is implemented on macOS and Windows (10, 20H1).
+\ **注意：**\ 该标志在 macOS 和 Windows（10、20H1）上实现。
 
-\ **Note:** Setting this flag will prevent standard screenshot methods from capturing a window image, but does **NOT** guarantee that other apps won't be able to capture an image. It should not be used as a DRM or security measure.
+\ **注意：**\ 设置该标志会阻止标准截屏方法捕获到窗口图像，但\ **无法**\ 保证其他应用无法捕获图像。不应用作 DRM 和安全措施。
 
 .. _class_Window_constant_FLAG_POPUP_WM_HINT:
 

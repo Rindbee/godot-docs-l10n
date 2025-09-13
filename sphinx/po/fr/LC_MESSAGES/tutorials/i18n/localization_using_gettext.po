@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Localization using gettext (PO files)"
+msgstr "Localisation à l'aide de gettext (Fichiers PO)"
+
 msgid ""
 "For an introduction to gettext, check out `A Quick Gettext Tutorial <https://"
 "www.labri.fr/perso/fleury/posts/programming/a-quick-gettext-"

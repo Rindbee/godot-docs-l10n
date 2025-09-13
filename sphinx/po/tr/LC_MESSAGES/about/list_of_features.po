@@ -1948,13 +1948,6 @@ msgid "Licensed under the permissive MIT license."
 msgstr "Hoşgörülü MIT lisansı altında lisanslanmıştır."
 
 msgid ""
-"Open development process with :ref:`contributions welcome "
-"<doc_ways_to_contribute>`."
-msgstr ""
-":ref:`Katkılarınızın hoş karşılandığı <doc_ways_to_contribute>` açık "
-"geliştirme süreci."
-
-msgid ""
 "The `Godot proposals repository <https://github.com/godotengine/godot-"
 "proposals>`__ lists features that have been requested by the community and "
 "may be implemented in future Godot releases."

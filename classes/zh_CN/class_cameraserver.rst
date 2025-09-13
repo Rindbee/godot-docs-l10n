@@ -96,7 +96,7 @@ CameraServer
 
 **camera_feeds_updated**\ (\ ) :ref:`🔗<class_CameraServer_signal_camera_feeds_updated>`
 
-Emitted when camera feeds are updated.
+更新相机源时发出。
 
 .. rst-class:: classref-section-separator
 
@@ -165,11 +165,11 @@ CbCr 分量相机图像。
 - |void| **set_monitoring_feeds**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_monitoring_feeds**\ (\ )
 
-If ``true``, the server is actively monitoring available camera feeds.
+如果为 ``true``\ ，则服务器会主动监听可用的相机源。
 
-This has a performance cost, so only set it to ``true`` when you're actively accessing the camera.
+这样做存在性能开销，因此请只在主动访问相机时将其设为 ``true``\ 。
 
-\ **Note:** After setting it to ``true``, you can receive updated camera feeds through the :ref:`camera_feeds_updated<class_CameraServer_signal_camera_feeds_updated>` signal.
+\ **注意：**\ 设为 ``true`` 后，你可以通过 :ref:`camera_feeds_updated<class_CameraServer_signal_camera_feeds_updated>` 信号获取更新后的相机源。
 
 
 .. tabs::

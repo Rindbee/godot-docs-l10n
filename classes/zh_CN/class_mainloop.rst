@@ -262,13 +262,13 @@ MainLoop
 
 :ref:`bool<class_bool>` **_physics_process**\ (\ delta\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_MainLoop_private_method__physics_process>`
 
-Called each physics tick. ``delta`` is the logical time between physics ticks in seconds and is equal to :ref:`Engine.time_scale<class_Engine_property_time_scale>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`. Equivalent to :ref:`Node._physics_process()<class_Node_private_method__physics_process>`.
+每个物理周期调用一次。\ ``delta`` 是物理周期之间的逻辑时间，单位为秒，等于 :ref:`Engine.time_scale<class_Engine_property_time_scale>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`\ 。等价于 :ref:`Node._physics_process()<class_Node_private_method__physics_process>`\ 。
 
-If implemented, the method must return a boolean value. ``true`` ends the main loop, while ``false`` lets it proceed to the next step.
+实现后，该方法必须返回布尔值。\ ``true`` 会终止主循环，而 ``false`` 则会允许其进入下一步。
 
-\ **Note:** :ref:`_physics_process()<class_MainLoop_private_method__physics_process>` may be called up to :ref:`Engine.max_physics_steps_per_frame<class_Engine_property_max_physics_steps_per_frame>` times per (idle) frame. This step limit may be reached when the engine is suffering performance issues.
+\ **注意：**\ :ref:`_physics_process()<class_MainLoop_private_method__physics_process>` 每（空闲）帧最多只能调用 :ref:`Engine.max_physics_steps_per_frame<class_Engine_property_max_physics_steps_per_frame>` 次。引擎遭遇性能问题时可能触及该限制。
 
-\ **Note:** Accumulated ``delta`` may diverge from real world seconds.
+\ **注意：**\ 对 ``delta`` 进行累加可能与现实世界的秒数存在偏差。
 
 .. rst-class:: classref-item-separator
 
@@ -280,15 +280,15 @@ If implemented, the method must return a boolean value. ``true`` ends the main l
 
 :ref:`bool<class_bool>` **_process**\ (\ delta\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_MainLoop_private_method__process>`
 
-Called on each idle frame, prior to rendering, and after physics ticks have been processed. ``delta`` is the time between frames in seconds. Equivalent to :ref:`Node._process()<class_Node_private_method__process>`.
+每个空闲帧调用一次，调用时机在渲染之前、所有物理帧处理完毕之后。\ ``delta`` 是帧与帧之间的时间，单位为秒。等价于 :ref:`Node._process()<class_Node_private_method__process>`\ 。
 
-If implemented, the method must return a boolean value. ``true`` ends the main loop, while ``false`` lets it proceed to the next frame.
+实现后，该方法必须返回布尔值。\ ``true`` 会终止主循环，而 ``false`` 则会允许其进入下一帧。
 
-\ **Note:** When the engine is struggling and the frame rate is lowered, ``delta`` will increase. When ``delta`` is increased, it's capped at a maximum of :ref:`Engine.time_scale<class_Engine_property_time_scale>` \* :ref:`Engine.max_physics_steps_per_frame<class_Engine_property_max_physics_steps_per_frame>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`. As a result, accumulated ``delta`` may not represent real world time.
+\ **注意：**\ 引擎遭遇帧率下降时，\ ``delta`` 会增大。\ ``delta`` 增大时，最大值为 :ref:`Engine.time_scale<class_Engine_property_time_scale>` \* :ref:`Engine.max_physics_steps_per_frame<class_Engine_property_max_physics_steps_per_frame>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`\ 。因此，对 ``delta`` 进行累加可能与现实世界的秒数存在偏差。
 
-\ **Note:** When ``--fixed-fps`` is enabled or the engine is running in Movie Maker mode (see :ref:`MovieWriter<class_MovieWriter>`), process ``delta`` will always be the same for every frame, regardless of how much time the frame took to render.
+\ **注意：**\ 如果启用了 ``--fixed-fps`` 或者在 Movie Maker 模式下运行（见 :ref:`MovieWriter<class_MovieWriter>`\ ），每帧的处理 ``delta`` 都相同，与该帧的渲染耗时无关。
 
-\ **Note:** Frame delta may be post-processed by :ref:`OS.delta_smoothing<class_OS_property_delta_smoothing>` if this is enabled for the project.
+\ **注意：**\ 如果项目启用了 :ref:`OS.delta_smoothing<class_OS_property_delta_smoothing>`\ ，则帧间隔可能经过后期处理。
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要用户覆盖才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

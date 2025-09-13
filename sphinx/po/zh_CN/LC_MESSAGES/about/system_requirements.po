@@ -66,6 +66,11 @@ msgstr "**GPU**"
 msgid "**Forward+ renderer:** Integrated graphics with full Vulkan 1.0 support"
 msgstr "**Forward+ 渲染器：**\\ 完整支持 Vulkan 1.0 的集成显卡"
 
+msgid ""
+"*Example: Intel HD Graphics 510 (Skylake), AMD Radeon R5 Graphics (Kaveri)*"
+msgstr ""
+"*示例：Intel HD Graphics 510 (Skylake)、AMD Radeon R5 Graphics (Kaveri)*"
+
 msgid "**Mobile renderer:** Integrated graphics with full Vulkan 1.0 support"
 msgstr "**移动渲染器：**\\ 完整支持 Vulkan 1.0 的集成显卡"
 

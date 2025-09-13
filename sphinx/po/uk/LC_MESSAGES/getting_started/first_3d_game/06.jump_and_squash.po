@@ -305,17 +305,36 @@ msgstr ""
 "підлогою. Для цього ми можемо використовувати функцію тегування :ref:`group "
 "<doc_groups>` Godot."
 
+msgid ""
+"Open the scene ``mob.tscn`` again and select the *Mob* node. Go to the "
+"*Node* dock on the right to see a list of signals. The *Node* dock has two "
+"tabs: *Signals*, which you've already used, and *Groups*, which allows you "
+"to assign tags to nodes. Click on the *+* button to open the *Create new "
+"Group* dialog."
+msgstr ""
+"Відкрийте сцену ``mob.tscn`` знову і виберіть вузол *Mob*. Перейдіть до дока "
+"*Node* праворуч, щоб переглянути список сигналів. Док *Node* має дві "
+"вкладки: *Signals*, яку ви вже використовували, та *Groups*, яка дозволяє "
+"присвоювати теги вузлам. Натисніть кнопку *+*, щоб відкрити діалогове вікно "
+"*Create new Group*."
+
 msgid "|image7|"
 msgstr "|image7|"
 
 msgid "image7"
 msgstr "image7"
 
+msgid "Enter \"mob\" in the *Name* field and click the *Ok* button."
+msgstr "Введіть «mob» у поле *Ім’я* та натисніть кнопку *Ок*."
+
 msgid "|image8|"
 msgstr "|image8|"
 
 msgid "image8"
 msgstr "image8"
+
+msgid "The \"mob\" group is now shown under the *Scene Groups* section."
+msgstr "Група «mob» тепер відображається в розділі *Групи сцен*."
 
 msgid "|image9|"
 msgstr "|image9|"

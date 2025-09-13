@@ -11,5 +11,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "There are three primary methods with which this is achieved:"
+msgstr "Hay tres métodos principales con los que se logra esto:"
+
 msgid "Version compatibility"
 msgstr "Compatibilidad de versiones"

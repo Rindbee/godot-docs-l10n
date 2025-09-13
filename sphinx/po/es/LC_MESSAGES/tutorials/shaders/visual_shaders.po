@@ -36,7 +36,7 @@ msgstr ""
 "leyendo :ref:`doc_introduction_to_shaders`."
 
 msgid "Creating a VisualShader"
-msgstr "Creando un VisualShader"
+msgstr "Crear un VisualShader"
 
 msgid ""
 "VisualShaders can be created in any :ref:`class_ShaderMaterial`. To begin "

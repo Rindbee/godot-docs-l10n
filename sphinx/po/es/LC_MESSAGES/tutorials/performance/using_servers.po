@@ -166,7 +166,7 @@ msgstr ""
 "crear y controlar nuevas e interactuar con las existentes."
 
 msgid "Creating a sprite"
-msgstr "Creando un sprite"
+msgstr "Crear un sprite"
 
 msgid ""
 "The Canvas Item API in the server allows you to add draw primitives to it. "
@@ -193,7 +193,7 @@ msgstr ""
 "instanciación."
 
 msgid "Creating a 2D RigidBody and moving a sprite with it"
-msgstr "Creando un RigidBody 2D y moviendo un sprite con este"
+msgstr "Crear un RigidBody 2D y moviendo un sprite con este"
 
 msgid "Getting data from the servers"
 msgstr "Obteniendo datos de servidores"

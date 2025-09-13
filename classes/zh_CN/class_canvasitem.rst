@@ -836,11 +836,11 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_arc**\ (\ center\: :ref:`Vector2<class_Vector2>`, radius\: :ref:`float<class_float>`, start_angle\: :ref:`float<class_float>`, end_angle\: :ref:`float<class_float>`, point_count\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`, width\: :ref:`float<class_float>` = -1.0, antialiased\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CanvasItem_method_draw_arc>`
 
-使用一个 uniform ``color`` 和 ``width`` 以及可选的抗锯齿（仅支持正 ``width`` ），在给定的角度之间绘制一条未填充的弧线。\ ``point_count`` 的值越大，该曲线越平滑。另见 :ref:`draw_circle()<class_CanvasItem_method_draw_circle>`\ 。
+Draws an unfilled arc between the given angles with a uniform ``color`` and ``width`` and optional antialiasing (supported only for positive ``width``). The larger the value of ``point_count``, the smoother the curve. ``center`` is defined in local space. See also :ref:`draw_circle()<class_CanvasItem_method_draw_circle>`.
 
-如果 ``width`` 为负，则它将被忽略，并使用 :ref:`RenderingServer.PRIMITIVE_LINE_STRIP<class_RenderingServer_constant_PRIMITIVE_LINE_STRIP>` 绘制该弧线。这意味着当缩放 CanvasItem 时，弧线将保持细长。如果不需要此行为，请传递一个正的 ``width``\ ，如 ``1.0``\ 。
+If ``width`` is negative, it will be ignored and the arc will be drawn using :ref:`RenderingServer.PRIMITIVE_LINE_STRIP<class_RenderingServer_constant_PRIMITIVE_LINE_STRIP>`. This means that when the CanvasItem is scaled, the arc will remain thin. If this behavior is not desired, then pass a positive ``width`` like ``1.0``.
 
-如果 ``start_angle < end_angle`` ，则圆弧是从 ``start_angle`` 朝向 ``end_angle`` 的值绘制的，即是顺时针方向；否则为逆时针方向。以相反的顺序传递相同的角度，将产生相同的弧线。如果 ``start_angle`` 和 ``end_angle`` 的差的绝对值大于 :ref:`@GDScript.TAU<class_@GDScript_constant_TAU>` 弧度，则绘制一个完整的圆弧（即弧线不会与自身重叠）。
+The arc is drawn from ``start_angle`` towards the value of ``end_angle`` so in clockwise direction if ``start_angle < end_angle`` and counter-clockwise otherwise. Passing the same angles but in reversed order will produce the same arc. If absolute difference of ``start_angle`` and ``end_angle`` is greater than :ref:`@GDScript.TAU<class_@GDScript_constant_TAU>` radians, then a full circle arc is drawn (i.e. arc will not overlap itself).
 
 .. rst-class:: classref-item-separator
 
@@ -852,7 +852,7 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_char**\ (\ font\: :ref:`Font<class_Font>`, pos\: :ref:`Vector2<class_Vector2>`, char\: :ref:`String<class_String>`, font_size\: :ref:`int<class_int>` = 16, modulate\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), oversampling\: :ref:`float<class_float>` = 0.0\ ) |const| :ref:`🔗<class_CanvasItem_method_draw_char>`
 
-使用自定义字体绘制字符串中的第一个字符。如果 ``oversampling`` 大于零则会用作字体过采样系数，否则使用视口的过采样设置。
+Draws a string first character using a custom font. If ``oversampling`` is greater than zero, it is used as font oversampling factor, otherwise viewport oversampling settings are used. ``pos`` is defined in local space.
 
 .. rst-class:: classref-item-separator
 
@@ -864,7 +864,7 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_char_outline**\ (\ font\: :ref:`Font<class_Font>`, pos\: :ref:`Vector2<class_Vector2>`, char\: :ref:`String<class_String>`, font_size\: :ref:`int<class_int>` = 16, size\: :ref:`int<class_int>` = -1, modulate\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), oversampling\: :ref:`float<class_float>` = 0.0\ ) |const| :ref:`🔗<class_CanvasItem_method_draw_char_outline>`
 
-使用自定义字体绘制字符串中第一个字符的轮廓。如果 ``oversampling`` 大于零则会用作字体过采样系数，否则使用视口的过采样设置。
+Draws a string first character outline using a custom font. If ``oversampling`` is greater than zero, it is used as font oversampling factor, otherwise viewport oversampling settings are used. ``pos`` is defined in local space.
 
 .. rst-class:: classref-item-separator
 
@@ -876,15 +876,15 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_circle**\ (\ position\: :ref:`Vector2<class_Vector2>`, radius\: :ref:`float<class_float>`, color\: :ref:`Color<class_Color>`, filled\: :ref:`bool<class_bool>` = true, width\: :ref:`float<class_float>` = -1.0, antialiased\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CanvasItem_method_draw_circle>`
 
-绘制圆形。另见 :ref:`draw_arc()<class_CanvasItem_method_draw_arc>`\ 、\ :ref:`draw_polyline()<class_CanvasItem_method_draw_polyline>`\ 、\ :ref:`draw_polygon()<class_CanvasItem_method_draw_polygon>`\ 。
+Draws a circle, with ``position`` defined in local space. See also :ref:`draw_arc()<class_CanvasItem_method_draw_arc>`, :ref:`draw_polyline()<class_CanvasItem_method_draw_polyline>`, and :ref:`draw_polygon()<class_CanvasItem_method_draw_polygon>`.
 
-如果 ``filled`` 为 ``true``\ ，则圆形将使用指定的 ``color`` 填充。如果 ``filled`` 为 ``false``\ ，则圆形将被绘制为具有指定的 ``color`` 和 ``width`` 的笔划。
+If ``filled`` is ``true``, the circle will be filled with the ``color`` specified. If ``filled`` is ``false``, the circle will be drawn as a stroke with the ``color`` and ``width`` specified.
 
-如果 ``width`` 为负，则将绘制两点图元而不是四点图元。这意味着当缩放 CanvasItem 时，线条将保持细长。如果不需要此行为，请传递一个正的 ``width``\ ，如 ``1.0``\ 。
+If ``width`` is negative, then two-point primitives will be drawn instead of a four-point ones. This means that when the CanvasItem is scaled, the lines will remain thin. If this behavior is not desired, then pass a positive ``width`` like ``1.0``.
 
-如果 ``antialiased`` 为 ``true``\ ，则半透明的“羽毛”将附加到边界，使轮廓变得平滑。
+If ``antialiased`` is ``true``, half transparent "feathers" will be attached to the boundary, making outlines smooth.
 
-\ **注意：**\ ``width`` 只有在 ``filled`` 为 ``false`` 时才有效。
+\ **Note:** ``width`` is only effective if ``filled`` is ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -896,9 +896,9 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_colored_polygon**\ (\ points\: :ref:`PackedVector2Array<class_PackedVector2Array>`, color\: :ref:`Color<class_Color>`, uvs\: :ref:`PackedVector2Array<class_PackedVector2Array>` = PackedVector2Array(), texture\: :ref:`Texture2D<class_Texture2D>` = null\ ) :ref:`🔗<class_CanvasItem_method_draw_colored_polygon>`
 
-绘制一个由任意数量的点构成的实心多边形，凹凸均可。与 :ref:`draw_polygon()<class_CanvasItem_method_draw_polygon>` 不同，必须为整个多边形制定单一颜色。
+Draws a colored polygon of any number of points, convex or concave. The points in the ``points`` array are defined in local space. Unlike :ref:`draw_polygon()<class_CanvasItem_method_draw_polygon>`, a single color must be specified for the whole polygon.
 
-\ **注意：**\ 如果你需要频繁重绘同样的多边形，包含大量顶点，请考虑预先使用 :ref:`Geometry2D.triangulate_polygon()<class_Geometry2D_method_triangulate_polygon>` 进行三角剖分计算，并使用 :ref:`draw_mesh()<class_CanvasItem_method_draw_mesh>`\ 、\ :ref:`draw_multimesh()<class_CanvasItem_method_draw_multimesh>` 或 :ref:`RenderingServer.canvas_item_add_triangle_array()<class_RenderingServer_method_canvas_item_add_triangle_array>`\ 。
+\ **Note:** If you frequently redraw the same polygon with a large number of vertices, consider pre-calculating the triangulation with :ref:`Geometry2D.triangulate_polygon()<class_Geometry2D_method_triangulate_polygon>` and using :ref:`draw_mesh()<class_CanvasItem_method_draw_mesh>`, :ref:`draw_multimesh()<class_CanvasItem_method_draw_multimesh>`, or :ref:`RenderingServer.canvas_item_add_triangle_array()<class_RenderingServer_method_canvas_item_add_triangle_array>`.
 
 .. rst-class:: classref-item-separator
 
@@ -910,15 +910,15 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_dashed_line**\ (\ from\: :ref:`Vector2<class_Vector2>`, to\: :ref:`Vector2<class_Vector2>`, color\: :ref:`Color<class_Color>`, width\: :ref:`float<class_float>` = -1.0, dash\: :ref:`float<class_float>` = 2.0, aligned\: :ref:`bool<class_bool>` = true, antialiased\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CanvasItem_method_draw_dashed_line>`
 
-使用给定的颜色和宽度，从一个 2D 点到另一个点绘制一条虚线。另见 :ref:`draw_line()<class_CanvasItem_method_draw_line>`\ 、\ :ref:`draw_multiline()<class_CanvasItem_method_draw_multiline>` 和 :ref:`draw_polyline()<class_CanvasItem_method_draw_polyline>`\ 。
+Draws a dashed line from a 2D point to another, with a given color and width. The ``from`` and ``to`` positions are defined in local space. See also :ref:`draw_line()<class_CanvasItem_method_draw_line>`, :ref:`draw_multiline()<class_CanvasItem_method_draw_multiline>`, and :ref:`draw_polyline()<class_CanvasItem_method_draw_polyline>`.
 
-如果 ``width`` 为负，则将绘制一个两点图元而不是一个四点图元。这意味着当缩放 CanvasItem 时，线条部分将保持细长。如果不需要此行为，请传递一个正的 ``width``\ ，如 ``1.0``\ 。
+If ``width`` is negative, then a two-point primitives will be drawn instead of a four-point ones. This means that when the CanvasItem is scaled, the line parts will remain thin. If this behavior is not desired, then pass a positive ``width`` like ``1.0``.
 
-\ ``dash`` 是每一段的长度，单位为像素，段与段之间的留空使用相同的长度。如果 ``aligned`` 为 ``true``\ ，则可能会缩短第一段和最后一段的长度，使得虚线的两端精确地落在 ``from`` 和 ``to`` 所定义的位置。\ ``aligned`` 为 ``true`` 时虚线两端始终是对称的。如果 ``aligned`` 为 ``false``\ ，则每一段的长度都相同，但是虚线长度无法被段长度整除时，末尾可能看上去不完整。\ ``aligned`` 为 ``false`` 时只会绘制完整的段。
+\ ``dash`` is the length of each dash in pixels, with the gap between each dash being the same length. If ``aligned`` is ``true``, the length of the first and last dashes may be shortened or lengthened to allow the line to begin and end at the precise points defined by ``from`` and ``to``. Both ends are always symmetrical when ``aligned`` is ``true``. If ``aligned`` is ``false``, all dashes will have the same length, but the line may appear incomplete at the end due to the dash length not dividing evenly into the line length. Only full dashes are drawn when ``aligned`` is ``false``.
 
-如果 ``antialiased`` 为 ``true``\ ，则半透明的“羽毛”将附加到边界，使轮廓变得平滑。
+If ``antialiased`` is ``true``, half transparent "feathers" will be attached to the boundary, making outlines smooth.
 
-\ **注意：**\ 仅当 ``width`` 大于 ``0.0`` 时，\ ``antialiased`` 才有效。
+\ **Note:** ``antialiased`` is only effective if ``width`` is greater than ``0.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -942,9 +942,9 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_lcd_texture_rect_region**\ (\ texture\: :ref:`Texture2D<class_Texture2D>`, rect\: :ref:`Rect2<class_Rect2>`, src_rect\: :ref:`Rect2<class_Rect2>`, modulate\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1)\ ) :ref:`🔗<class_CanvasItem_method_draw_lcd_texture_rect_region>`
 
-在给定的位置绘制一个带有 LCD 子像素抗锯齿的字体纹理的矩形区域，可以选择用一种颜色来调制。
+Draws a textured rectangle region of the font texture with LCD subpixel anti-aliasing at a given position, optionally modulated by a color. The ``rect`` is defined in local space.
 
-纹理是通过以下混合操作绘制的，\ :ref:`CanvasItemMaterial<class_CanvasItemMaterial>` 的混合模式被忽略：
+Texture is drawn using the following blend operation, blend mode of the :ref:`CanvasItemMaterial<class_CanvasItemMaterial>` is ignored:
 
 ::
 
@@ -963,9 +963,9 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_line**\ (\ from\: :ref:`Vector2<class_Vector2>`, to\: :ref:`Vector2<class_Vector2>`, color\: :ref:`Color<class_Color>`, width\: :ref:`float<class_float>` = -1.0, antialiased\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CanvasItem_method_draw_line>`
 
-使用给定的颜色和宽度，从一个 2D 点到另一个点绘制一条直线。它可以选择抗锯齿。另见 :ref:`draw_dashed_line()<class_CanvasItem_method_draw_dashed_line>`\ 、\ :ref:`draw_multiline()<class_CanvasItem_method_draw_multiline>` 和 :ref:`draw_polyline()<class_CanvasItem_method_draw_polyline>`\ 。
+Draws a line from a 2D point to another, with a given color and width. It can be optionally antialiased. The ``from`` and ``to`` positions are defined in local space. See also :ref:`draw_dashed_line()<class_CanvasItem_method_draw_dashed_line>`, :ref:`draw_multiline()<class_CanvasItem_method_draw_multiline>`, and :ref:`draw_polyline()<class_CanvasItem_method_draw_polyline>`.
 
-如果 ``width`` 为负，则将绘制一个两点图元而不是一个四点图元。这意味着当缩放 CanvasItem 时，线条将保持细长。如果不需要此行为，请传递一个正的 ``width``\ ，如 ``1.0``\ 。
+If ``width`` is negative, then a two-point primitive will be drawn instead of a four-point one. This means that when the CanvasItem is scaled, the line will remain thin. If this behavior is not desired, then pass a positive ``width`` like ``1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -977,7 +977,7 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_mesh**\ (\ mesh\: :ref:`Mesh<class_Mesh>`, texture\: :ref:`Texture2D<class_Texture2D>`, transform\: :ref:`Transform2D<class_Transform2D>` = Transform2D(1, 0, 0, 1, 0, 0), modulate\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1)\ ) :ref:`🔗<class_CanvasItem_method_draw_mesh>`
 
-使用所提供的纹理以 2D 方式绘制一个 :ref:`Mesh<class_Mesh>`\ 。相关文档请参阅 :ref:`MeshInstance2D<class_MeshInstance2D>`\ 。
+Draws a :ref:`Mesh<class_Mesh>` in 2D, using the provided texture. See :ref:`MeshInstance2D<class_MeshInstance2D>` for related documentation. The ``transform`` is defined in local space.
 
 .. rst-class:: classref-item-separator
 
@@ -989,11 +989,11 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_msdf_texture_rect_region**\ (\ texture\: :ref:`Texture2D<class_Texture2D>`, rect\: :ref:`Rect2<class_Rect2>`, src_rect\: :ref:`Rect2<class_Rect2>`, modulate\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), outline\: :ref:`float<class_float>` = 0.0, pixel_range\: :ref:`float<class_float>` = 4.0, scale\: :ref:`float<class_float>` = 1.0\ ) :ref:`🔗<class_CanvasItem_method_draw_msdf_texture_rect_region>`
 
-在给定位置，绘制一条多通道有符号距离场纹理的纹理矩形区域，可以选择用一种颜色来调制。有关 MSDF 字体渲染的更多信息和注意事项，请参阅 :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>`\ 。
+Draws a textured rectangle region of the multichannel signed distance field texture at a given position, optionally modulated by a color. The ``rect`` is defined in local space. See :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` for more information and caveats about MSDF font rendering.
 
-如果 ``outline`` 为正，则区域中像素的每个 Alpha 通道值都被设置为 ``outline`` 半径内真实距离的最大值。
+If ``outline`` is positive, each alpha channel value of pixel in region is set to maximum value of true distance in the ``outline`` radius.
 
-\ ``pixel_range`` 的值应该与距离场纹理生成期间使用的值相同。
+Value of the ``pixel_range`` should the same that was used during distance field texture generation.
 
 .. rst-class:: classref-item-separator
 
@@ -1005,11 +1005,11 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_multiline**\ (\ points\: :ref:`PackedVector2Array<class_PackedVector2Array>`, color\: :ref:`Color<class_Color>`, width\: :ref:`float<class_float>` = -1.0, antialiased\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CanvasItem_method_draw_multiline>`
 
-使用一致的宽度 ``width`` 和颜色 ``color`` 绘制多条断开的线段。\ ``points`` 数组中相邻的两个点定义一条线段，即第 i 条线段由端点 ``points[2 * i]`` 和 ``points[2 * i + 1]`` 组成。绘制大量线段时，这种方法比使用 :ref:`draw_line()<class_CanvasItem_method_draw_line>` 一条条画要快。要绘制相连的线段，请改用 :ref:`draw_polyline()<class_CanvasItem_method_draw_polyline>`\ 。
+Draws multiple disconnected lines with a uniform ``width`` and ``color``. Each line is defined by two consecutive points from ``points`` array in local space, i.e. i-th segment consists of ``points[2 * i]``, ``points[2 * i + 1]`` endpoints. When drawing large amounts of lines, this is faster than using individual :ref:`draw_line()<class_CanvasItem_method_draw_line>` calls. To draw interconnected lines, use :ref:`draw_polyline()<class_CanvasItem_method_draw_polyline>` instead.
 
-如果 ``width`` 为负数，则会绘制由两个点组成的图元，不使用四个点组成的图元。此时如果 CanvasItem 发生缩放，则线段仍然会很细。如果不想要这样的行为，请传入 ``1.0`` 等正数 ``width``\ 。
+If ``width`` is negative, then two-point primitives will be drawn instead of a four-point ones. This means that when the CanvasItem is scaled, the lines will remain thin. If this behavior is not desired, then pass a positive ``width`` like ``1.0``.
 
-\ **注意：**\ 仅当 ``width`` 大于 ``0.0`` 时，\ ``antialiased`` 才有效。
+\ **Note:** ``antialiased`` is only effective if ``width`` is greater than ``0.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -1021,11 +1021,11 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_multiline_colors**\ (\ points\: :ref:`PackedVector2Array<class_PackedVector2Array>`, colors\: :ref:`PackedColorArray<class_PackedColorArray>`, width\: :ref:`float<class_float>` = -1.0, antialiased\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CanvasItem_method_draw_multiline_colors>`
 
-使用一致的宽度 ``width`` 分段颜色绘制多条断开的线段。\ ``points`` 数组中相邻的两个点定义一条线段，即第 i 条线段由端点 ``points[2 * i]`` 和 ``points[2 * i + 1]`` 组成，使用的颜色为 ``colors[i]``\ 。绘制大量线段时，这种方法比使用 :ref:`draw_line()<class_CanvasItem_method_draw_line>` 一条条画要快。要绘制相连的线段，请改用 :ref:`draw_polyline_colors()<class_CanvasItem_method_draw_polyline_colors>`\ 。
+Draws multiple disconnected lines with a uniform ``width`` and segment-by-segment coloring. Each segment is defined by two consecutive points from ``points`` array in local space and a corresponding color from ``colors`` array, i.e. i-th segment consists of ``points[2 * i]``, ``points[2 * i + 1]`` endpoints and has ``colors[i]`` color. When drawing large amounts of lines, this is faster than using individual :ref:`draw_line()<class_CanvasItem_method_draw_line>` calls. To draw interconnected lines, use :ref:`draw_polyline_colors()<class_CanvasItem_method_draw_polyline_colors>` instead.
 
-如果 ``width`` 为负数，则会绘制由两个点组成的图元，不使用四个点组成的图元。此时如果 CanvasItem 发生缩放，则线段仍然会很细。如果不想要这样的行为，请传入 ``1.0`` 等正数 ``width``\ 。
+If ``width`` is negative, then two-point primitives will be drawn instead of a four-point ones. This means that when the CanvasItem is scaled, the lines will remain thin. If this behavior is not desired, then pass a positive ``width`` like ``1.0``.
 
-\ **注意：**\ 仅当 ``width`` 大于 ``0.0`` 时，\ ``antialiased`` 才有效。
+\ **Note:** ``antialiased`` is only effective if ``width`` is greater than ``0.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -1037,7 +1037,7 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_multiline_string**\ (\ font\: :ref:`Font<class_Font>`, pos\: :ref:`Vector2<class_Vector2>`, text\: :ref:`String<class_String>`, alignment\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` = 0, width\: :ref:`float<class_float>` = -1, font_size\: :ref:`int<class_int>` = 16, max_lines\: :ref:`int<class_int>` = -1, modulate\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), brk_flags\: |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\] = 3, justification_flags\: |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\] = 3, direction\: :ref:`Direction<enum_TextServer_Direction>` = 0, orientation\: :ref:`Orientation<enum_TextServer_Orientation>` = 0, oversampling\: :ref:`float<class_float>` = 0.0\ ) |const| :ref:`🔗<class_CanvasItem_method_draw_multiline_string>`
 
-使用 ``font`` 字体分若干行绘制 ``text`` 文本，以 ``pos`` 作为左上角。文本颜色会与 ``modulate`` 相乘。如果 ``width`` 大于等于 0，则文本超出该宽度的部分会被裁剪。如果 ``oversampling`` 大于零则会用作字体过采样系数，否则使用视口的过采样设置。
+Breaks ``text`` into lines and draws it using the specified ``font`` at the ``pos`` in local space (top-left corner). The text will have its color multiplied by ``modulate``. If ``width`` is greater than or equal to 0, the text will be clipped if it exceeds the specified width. If ``oversampling`` is greater than zero, it is used as font oversampling factor, otherwise viewport oversampling settings are used.
 
 .. rst-class:: classref-item-separator
 
@@ -1049,7 +1049,7 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_multiline_string_outline**\ (\ font\: :ref:`Font<class_Font>`, pos\: :ref:`Vector2<class_Vector2>`, text\: :ref:`String<class_String>`, alignment\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` = 0, width\: :ref:`float<class_float>` = -1, font_size\: :ref:`int<class_int>` = 16, max_lines\: :ref:`int<class_int>` = -1, size\: :ref:`int<class_int>` = 1, modulate\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), brk_flags\: |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\] = 3, justification_flags\: |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\] = 3, direction\: :ref:`Direction<enum_TextServer_Direction>` = 0, orientation\: :ref:`Orientation<enum_TextServer_Orientation>` = 0, oversampling\: :ref:`float<class_float>` = 0.0\ ) |const| :ref:`🔗<class_CanvasItem_method_draw_multiline_string_outline>`
 
-使用 ``font`` 字体分若干行绘制 ``text`` 文本的轮廓，以 ``pos`` 作为左上角。文本颜色会与 ``modulate`` 相乘。如果 ``width`` 大于等于 0，则文本超出该宽度的部分会被裁剪。如果 ``oversampling`` 大于零则会用作字体过采样系数，否则使用视口的过采样设置。
+Breaks ``text`` to the lines and draws text outline using the specified ``font`` at the ``pos`` in local space (top-left corner). The text will have its color multiplied by ``modulate``. If ``width`` is greater than or equal to 0, the text will be clipped if it exceeds the specified width. If ``oversampling`` is greater than zero, it is used as font oversampling factor, otherwise viewport oversampling settings are used.
 
 .. rst-class:: classref-item-separator
 
@@ -1073,9 +1073,9 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_polygon**\ (\ points\: :ref:`PackedVector2Array<class_PackedVector2Array>`, colors\: :ref:`PackedColorArray<class_PackedColorArray>`, uvs\: :ref:`PackedVector2Array<class_PackedVector2Array>` = PackedVector2Array(), texture\: :ref:`Texture2D<class_Texture2D>` = null\ ) :ref:`🔗<class_CanvasItem_method_draw_polygon>`
 
-绘制一个由任意数量的点构成的实心多边形，凹凸均可。与 :ref:`draw_colored_polygon()<class_CanvasItem_method_draw_colored_polygon>` 不同，每个点的颜色都可以单独修改。另见 :ref:`draw_polyline()<class_CanvasItem_method_draw_polyline>` 和 :ref:`draw_polyline_colors()<class_CanvasItem_method_draw_polyline_colors>`\ 。如果需要更高的灵活度（例如能够用到骨骼），请改用 :ref:`RenderingServer.canvas_item_add_triangle_array()<class_RenderingServer_method_canvas_item_add_triangle_array>`\ 。
+Draws a solid polygon of any number of points, convex or concave. Unlike :ref:`draw_colored_polygon()<class_CanvasItem_method_draw_colored_polygon>`, each point's color can be changed individually. The ``points`` array is defined in local space. See also :ref:`draw_polyline()<class_CanvasItem_method_draw_polyline>` and :ref:`draw_polyline_colors()<class_CanvasItem_method_draw_polyline_colors>`. If you need more flexibility (such as being able to use bones), use :ref:`RenderingServer.canvas_item_add_triangle_array()<class_RenderingServer_method_canvas_item_add_triangle_array>` instead.
 
-\ **注意：**\ 如果你需要频繁重绘同样的多边形，包含大量顶点，请考虑预先使用 :ref:`Geometry2D.triangulate_polygon()<class_Geometry2D_method_triangulate_polygon>` 进行三角剖分计算，并使用 :ref:`draw_mesh()<class_CanvasItem_method_draw_mesh>`\ 、\ :ref:`draw_multimesh()<class_CanvasItem_method_draw_multimesh>` 或 :ref:`RenderingServer.canvas_item_add_triangle_array()<class_RenderingServer_method_canvas_item_add_triangle_array>`\ 。
+\ **Note:** If you frequently redraw the same polygon with a large number of vertices, consider pre-calculating the triangulation with :ref:`Geometry2D.triangulate_polygon()<class_Geometry2D_method_triangulate_polygon>` and using :ref:`draw_mesh()<class_CanvasItem_method_draw_mesh>`, :ref:`draw_multimesh()<class_CanvasItem_method_draw_multimesh>`, or :ref:`RenderingServer.canvas_item_add_triangle_array()<class_RenderingServer_method_canvas_item_add_triangle_array>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1087,9 +1087,9 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_polyline**\ (\ points\: :ref:`PackedVector2Array<class_PackedVector2Array>`, color\: :ref:`Color<class_Color>`, width\: :ref:`float<class_float>` = -1.0, antialiased\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CanvasItem_method_draw_polyline>`
 
-使用一致的 ``color`` 和 ``width`` 以及可选的抗锯齿（仅支持正 ``width`` ），绘制相互连接的线段。绘制大量线条时，这比使用单独的 :ref:`draw_line()<class_CanvasItem_method_draw_line>` 调用更快。要绘制不相连的的线段，请改用 :ref:`draw_multiline()<class_CanvasItem_method_draw_multiline>`\ 。另见 :ref:`draw_polygon()<class_CanvasItem_method_draw_polygon>`\ 。
+Draws interconnected line segments with a uniform ``color`` and ``width`` and optional antialiasing (supported only for positive ``width``). The ``points`` array is defined in local space. When drawing large amounts of lines, this is faster than using individual :ref:`draw_line()<class_CanvasItem_method_draw_line>` calls. To draw disconnected lines, use :ref:`draw_multiline()<class_CanvasItem_method_draw_multiline>` instead. See also :ref:`draw_polygon()<class_CanvasItem_method_draw_polygon>`.
 
-如果 ``width`` 为负，则它将被忽略，并使用 :ref:`RenderingServer.PRIMITIVE_LINE_STRIP<class_RenderingServer_constant_PRIMITIVE_LINE_STRIP>` 绘制该折线。这意味着当 CanvasItem 被缩放时，折线将保持为细线。如果不需要该行为，请传入一个正的 ``width``\ ，如 ``1.0``\ 。
+If ``width`` is negative, it will be ignored and the polyline will be drawn using :ref:`RenderingServer.PRIMITIVE_LINE_STRIP<class_RenderingServer_constant_PRIMITIVE_LINE_STRIP>`. This means that when the CanvasItem is scaled, the polyline will remain thin. If this behavior is not desired, then pass a positive ``width`` like ``1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -1101,9 +1101,9 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_polyline_colors**\ (\ points\: :ref:`PackedVector2Array<class_PackedVector2Array>`, colors\: :ref:`PackedColorArray<class_PackedColorArray>`, width\: :ref:`float<class_float>` = -1.0, antialiased\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CanvasItem_method_draw_polyline_colors>`
 
-绘制相连的线段，使用一致的宽度 ``width``\ ，按点指定颜色，还可以开启抗锯齿（仅支持正的 ``width``\ ）。将颜色与线段上的点匹配时，使用的是 ``points`` 和 ``colors`` 的索引，即每条线段填充的都是在两个端点之间颜色的渐变色。绘制大量线段时，这种方法比使用 :ref:`draw_line()<class_CanvasItem_method_draw_line>` 一条条画要快。要绘制不相连的线段，请改用 :ref:`draw_multiline_colors()<class_CanvasItem_method_draw_multiline_colors>`\ 。另见 :ref:`draw_polygon()<class_CanvasItem_method_draw_polygon>`\ 。
+Draws interconnected line segments with a uniform ``width``, point-by-point coloring, and optional antialiasing (supported only for positive ``width``). Colors assigned to line points match by index between ``points`` and ``colors``, i.e. each line segment is filled with a gradient between the colors of the endpoints. The ``points`` array is defined in local space. When drawing large amounts of lines, this is faster than using individual :ref:`draw_line()<class_CanvasItem_method_draw_line>` calls. To draw disconnected lines, use :ref:`draw_multiline_colors()<class_CanvasItem_method_draw_multiline_colors>` instead. See also :ref:`draw_polygon()<class_CanvasItem_method_draw_polygon>`.
 
-如果 ``width`` 为负，则它将被忽略，并使用 :ref:`RenderingServer.PRIMITIVE_LINE_STRIP<class_RenderingServer_constant_PRIMITIVE_LINE_STRIP>` 绘制该折线。这意味着当 CanvasItem 被缩放时，折线将保持为细线。如果不需要该行为，请传入一个正的 ``width``\ ，如 ``1.0``\ 。
+If ``width`` is negative, it will be ignored and the polyline will be drawn using :ref:`RenderingServer.PRIMITIVE_LINE_STRIP<class_RenderingServer_constant_PRIMITIVE_LINE_STRIP>`. This means that when the CanvasItem is scaled, the polyline will remain thin. If this behavior is not desired, then pass a positive ``width`` like ``1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -1115,7 +1115,7 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_primitive**\ (\ points\: :ref:`PackedVector2Array<class_PackedVector2Array>`, colors\: :ref:`PackedColorArray<class_PackedColorArray>`, uvs\: :ref:`PackedVector2Array<class_PackedVector2Array>`, texture\: :ref:`Texture2D<class_Texture2D>` = null\ ) :ref:`🔗<class_CanvasItem_method_draw_primitive>`
 
-绘制自定义图元。1 个点的是个点，2 个点的是线段，3 个点的是三角形，4 个点的是四边形。如果没有指定点或者指定了超过 4 个点，则不会绘制任何东西，只会输出错误消息。另见 :ref:`draw_line()<class_CanvasItem_method_draw_line>`\ 、\ :ref:`draw_polyline()<class_CanvasItem_method_draw_polyline>`\ 、\ :ref:`draw_polygon()<class_CanvasItem_method_draw_polygon>`\ 、\ :ref:`draw_rect()<class_CanvasItem_method_draw_rect>`\ 。
+Draws a custom primitive. 1 point for a point, 2 points for a line, 3 points for a triangle, and 4 points for a quad. If 0 points or more than 4 points are specified, nothing will be drawn and an error message will be printed. The ``points`` array is defined in local space. See also :ref:`draw_line()<class_CanvasItem_method_draw_line>`, :ref:`draw_polyline()<class_CanvasItem_method_draw_polyline>`, :ref:`draw_polygon()<class_CanvasItem_method_draw_polygon>`, and :ref:`draw_rect()<class_CanvasItem_method_draw_rect>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1127,15 +1127,15 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_rect**\ (\ rect\: :ref:`Rect2<class_Rect2>`, color\: :ref:`Color<class_Color>`, filled\: :ref:`bool<class_bool>` = true, width\: :ref:`float<class_float>` = -1.0, antialiased\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CanvasItem_method_draw_rect>`
 
-绘制一个矩形。如果 ``filled`` 为 ``true``\ ，则矩形将使用指定的 ``color`` 填充。如果 ``filled`` 为 ``false``\ ，则矩形将被绘制为具有指定的 ``color`` 和 ``width`` 的笔划。另见 :ref:`draw_texture_rect()<class_CanvasItem_method_draw_texture_rect>`\ 。
+Draws a rectangle. If ``filled`` is ``true``, the rectangle will be filled with the ``color`` specified. If ``filled`` is ``false``, the rectangle will be drawn as a stroke with the ``color`` and ``width`` specified. The ``rect`` is specified in local space. See also :ref:`draw_texture_rect()<class_CanvasItem_method_draw_texture_rect>`.
 
-如果 ``width`` 为负，则将绘制一个两点图元而不是一个四点图元。这意味着当缩放 CanvasItem 时，线条将保持细长。如果不需要此行为，请传递一个正的 ``width``\ ，如 ``1.0``\ 。
+If ``width`` is negative, then two-point primitives will be drawn instead of a four-point ones. This means that when the CanvasItem is scaled, the lines will remain thin. If this behavior is not desired, then pass a positive ``width`` like ``1.0``.
 
-如果 ``antialiased`` 为 ``true``\ ，则半透明的“羽毛”将附加到边界，使轮廓变得平滑。
+If ``antialiased`` is ``true``, half transparent "feathers" will be attached to the boundary, making outlines smooth.
 
-\ **注意：**\ ``width`` 只有在 ``filled`` 为 ``false`` 时才有效。
+\ **Note:** ``width`` is only effective if ``filled`` is ``false``.
 
-\ **注意：**\ 使用负 ``width`` 绘制的未填充矩形可能不会完美显示。例如，由于线条的重叠，角可能会缺失或变亮（对于半透明的 ``color``\ ）。
+\ **Note:** Unfilled rectangles drawn with a negative ``width`` may not display perfectly. For example, corners may be missing or brighter due to overlapping lines (for a translucent ``color``).
 
 .. rst-class:: classref-item-separator
 
@@ -1147,9 +1147,9 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_set_transform**\ (\ position\: :ref:`Vector2<class_Vector2>`, rotation\: :ref:`float<class_float>` = 0.0, scale\: :ref:`Vector2<class_Vector2>` = Vector2(1, 1)\ ) :ref:`🔗<class_CanvasItem_method_draw_set_transform>`
 
-使用分量设置用于绘图的自定义变换。后续的绘制都会使用这个变换。
+Sets a custom local transform for drawing via components. Anything drawn afterwards will be transformed by this.
 
-\ **注意：**\ :ref:`FontFile.oversampling<class_FontFile_property_oversampling>` *不会*\ 考虑 ``scale``\ 。这意味着将位图字体及栅格化（非 MSDF）动态字体放大/缩小会产生模糊或像素化的结果。要让文本无论如何缩放都保持清晰，可以启用 MSDF 字体渲染，方法是启用 :ref:`ProjectSettings.gui/theme/default_font_multichannel_signed_distance_field<class_ProjectSettings_property_gui/theme/default_font_multichannel_signed_distance_field>`\ （仅应用于默认项目字体），或者启用自定义 DynamicFont 的\ **多通道带符号距离场**\ 导入选项。对于系统字体，可以在检查器中启用 :ref:`SystemFont.multichannel_signed_distance_field<class_SystemFont_property_multichannel_signed_distance_field>`\ 。
+\ **Note:** :ref:`FontFile.oversampling<class_FontFile_property_oversampling>` does *not* take ``scale`` into account. This means that scaling up/down will cause bitmap fonts and rasterized (non-MSDF) dynamic fonts to appear blurry or pixelated. To ensure text remains crisp regardless of scale, you can enable MSDF font rendering by enabling :ref:`ProjectSettings.gui/theme/default_font_multichannel_signed_distance_field<class_ProjectSettings_property_gui/theme/default_font_multichannel_signed_distance_field>` (applies to the default project font only), or enabling **Multichannel Signed Distance Field** in the import options of a DynamicFont for custom fonts. On system fonts, :ref:`SystemFont.multichannel_signed_distance_field<class_SystemFont_property_multichannel_signed_distance_field>` can be enabled in the inspector.
 
 .. rst-class:: classref-item-separator
 
@@ -1161,7 +1161,7 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_set_transform_matrix**\ (\ xform\: :ref:`Transform2D<class_Transform2D>`\ ) :ref:`🔗<class_CanvasItem_method_draw_set_transform_matrix>`
 
-设置通过矩阵绘制时的自定义变换。此后绘制的任何东西都将被它变换。
+Sets a custom local transform for drawing via matrix. Anything drawn afterwards will be transformed by this.
 
 .. rst-class:: classref-item-separator
 
@@ -1173,34 +1173,34 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_string**\ (\ font\: :ref:`Font<class_Font>`, pos\: :ref:`Vector2<class_Vector2>`, text\: :ref:`String<class_String>`, alignment\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` = 0, width\: :ref:`float<class_float>` = -1, font_size\: :ref:`int<class_int>` = 16, modulate\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), justification_flags\: |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\] = 3, direction\: :ref:`Direction<enum_TextServer_Direction>` = 0, orientation\: :ref:`Orientation<enum_TextServer_Orientation>` = 0, oversampling\: :ref:`float<class_float>` = 0.0\ ) |const| :ref:`🔗<class_CanvasItem_method_draw_string>`
 
-使用 ``font`` 字体绘制 ``text`` 文本，以 ``pos`` 作为左下角，对齐字体基线。文本颜色会与 ``modulate`` 相乘。如果 ``width`` 大于等于 0，则文本超出该宽度的部分会被裁剪。如果 ``oversampling`` 大于零则会用作字体过采样系数，否则使用视口的过采样设置。
+Draws ``text`` using the specified ``font`` at the ``pos`` in local space (bottom-left corner using the baseline of the font). The text will have its color multiplied by ``modulate``. If ``width`` is greater than or equal to 0, the text will be clipped if it exceeds the specified width. If ``oversampling`` is greater than zero, it is used as font oversampling factor, otherwise viewport oversampling settings are used.
 
-\ **示例：**\ 使用项目默认字体绘制“Hello world”：
+\ **Example:** Draw "Hello world", using the project's default font:
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    # 如果在不断重绘的脚本中使用此方法，
-    # 则将 `default_font` 声明移动到在 `_ready()` 中赋值的成员变量中
-    # 这样 Control 只创建一次。
+    # If using this method in a script that redraws constantly, move the
+    # `default_font` declaration to a member variable assigned in `_ready()`
+    # so the Control is only created once.
     var default_font = ThemeDB.fallback_font
     var default_font_size = ThemeDB.fallback_font_size
     draw_string(default_font, Vector2(64, 64), "Hello world", HORIZONTAL_ALIGNMENT_LEFT, -1, default_font_size)
 
  .. code-tab:: csharp
 
-    // 如果在不断重绘的脚本中使用此方法，
-    // 则将 `default_font` 声明移动到在 `_ready()` 中赋值的成员变量中
-    // 这样 Control 只创建一次。
+    // If using this method in a script that redraws constantly, move the
+    // `default_font` declaration to a member variable assigned in `_Ready()`
+    // so the Control is only created once.
     Font defaultFont = ThemeDB.FallbackFont;
     int defaultFontSize = ThemeDB.FallbackFontSize;
     DrawString(defaultFont, new Vector2(64, 64), "Hello world", HORIZONTAL_ALIGNMENT_LEFT, -1, defaultFontSize);
 
 
 
-另见 :ref:`Font.draw_string()<class_Font_method_draw_string>`\ 。
+See also :ref:`Font.draw_string()<class_Font_method_draw_string>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1212,7 +1212,7 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_string_outline**\ (\ font\: :ref:`Font<class_Font>`, pos\: :ref:`Vector2<class_Vector2>`, text\: :ref:`String<class_String>`, alignment\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` = 0, width\: :ref:`float<class_float>` = -1, font_size\: :ref:`int<class_int>` = 16, size\: :ref:`int<class_int>` = 1, modulate\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), justification_flags\: |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\] = 3, direction\: :ref:`Direction<enum_TextServer_Direction>` = 0, orientation\: :ref:`Orientation<enum_TextServer_Orientation>` = 0, oversampling\: :ref:`float<class_float>` = 0.0\ ) |const| :ref:`🔗<class_CanvasItem_method_draw_string_outline>`
 
-使用 ``font`` 字体绘制 ``text`` 文本的轮廓，以 ``pos`` 作为左下角，对齐字体基线。文本颜色会与 ``modulate`` 相乘。如果 ``width`` 大于等于 0，则文本超出该宽度的部分会被裁剪。如果 ``oversampling`` 大于零则会用作字体过采样系数，否则使用视口的过采样设置。
+Draws ``text`` outline using the specified ``font`` at the ``pos`` in local space (bottom-left corner using the baseline of the font). The text will have its color multiplied by ``modulate``. If ``width`` is greater than or equal to 0, the text will be clipped if it exceeds the specified width. If ``oversampling`` is greater than zero, it is used as font oversampling factor, otherwise viewport oversampling settings are used.
 
 .. rst-class:: classref-item-separator
 
@@ -1224,7 +1224,7 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_style_box**\ (\ style_box\: :ref:`StyleBox<class_StyleBox>`, rect\: :ref:`Rect2<class_Rect2>`\ ) :ref:`🔗<class_CanvasItem_method_draw_style_box>`
 
-绘制一个样式矩形。
+Draws a styled rectangle. The ``rect`` is defined in local space.
 
 .. rst-class:: classref-item-separator
 
@@ -1236,7 +1236,7 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_texture**\ (\ texture\: :ref:`Texture2D<class_Texture2D>`, position\: :ref:`Vector2<class_Vector2>`, modulate\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1)\ ) :ref:`🔗<class_CanvasItem_method_draw_texture>`
 
-在给定的位置绘制纹理。
+Draws a texture at a given position. The ``position`` is defined in local space.
 
 .. rst-class:: classref-item-separator
 
@@ -1248,7 +1248,7 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_texture_rect**\ (\ texture\: :ref:`Texture2D<class_Texture2D>`, rect\: :ref:`Rect2<class_Rect2>`, tile\: :ref:`bool<class_bool>`, modulate\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), transpose\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CanvasItem_method_draw_texture_rect>`
 
-在给定位置绘制一个带纹理的矩形，可以选择用颜色调制。如果 ``transpose`` 为 ``true``\ ，则纹理将交换其 X 和 Y 坐标。另见 :ref:`draw_rect()<class_CanvasItem_method_draw_rect>` 和 :ref:`draw_texture_rect_region()<class_CanvasItem_method_draw_texture_rect_region>`\ 。
+Draws a textured rectangle at a given position, optionally modulated by a color. The ``rect`` is defined in local space. If ``transpose`` is ``true``, the texture will have its X and Y coordinates swapped. See also :ref:`draw_rect()<class_CanvasItem_method_draw_rect>` and :ref:`draw_texture_rect_region()<class_CanvasItem_method_draw_texture_rect_region>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1260,7 +1260,7 @@ enum **ClipChildrenMode**: :ref:`🔗<enum_CanvasItem_ClipChildrenMode>`
 
 |void| **draw_texture_rect_region**\ (\ texture\: :ref:`Texture2D<class_Texture2D>`, rect\: :ref:`Rect2<class_Rect2>`, src_rect\: :ref:`Rect2<class_Rect2>`, modulate\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), transpose\: :ref:`bool<class_bool>` = false, clip_uv\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_CanvasItem_method_draw_texture_rect_region>`
 
-在给定的位置绘制具有纹理的矩形，可以指定所使用的纹理区域（由 ``src_rect`` 指定），可选择用颜色调制。如果 ``transpose`` 为 ``true``\ ，则纹理将交换其 X 和 Y 坐标。另见 :ref:`draw_texture_rect()<class_CanvasItem_method_draw_texture_rect>`\ 。
+Draws a textured rectangle from a texture's region (specified by ``src_rect``) at a given position in local space, optionally modulated by a color. If ``transpose`` is ``true``, the texture will have its X and Y coordinates swapped. See also :ref:`draw_texture_rect()<class_CanvasItem_method_draw_texture_rect>`.
 
 .. rst-class:: classref-item-separator
 

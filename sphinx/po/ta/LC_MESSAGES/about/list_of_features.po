@@ -2005,13 +2005,6 @@ msgid "Licensed under the permissive MIT license."
 msgstr "அனுமதிக்கப்பட்ட எம்ஐடி உரிமத்தின் கீழ் உரிமம் பெற்றது."
 
 msgid ""
-"Open development process with :ref:`contributions welcome "
-"<doc_ways_to_contribute>`."
-msgstr ""
-"இதனுடன் திறந்த மேம்பாட்டு செயல்முறை: ref: `பங்களிப்புகள் வரவேற்கின்றன "
-"<doc_ways_to_contribute>`."
-
-msgid ""
 "The `Godot proposals repository <https://github.com/godotengine/godot-"
 "proposals>`__ lists features that have been requested by the community and "
 "may be implemented in future Godot releases."

@@ -20,14 +20,14 @@ msgstr "入門"
 msgid "Manual"
 msgstr "マニュアル"
 
-msgid "Contributing"
-msgstr "貢献"
-
 msgid "Community"
 msgstr "コミュニティ"
 
 msgid "Class reference"
 msgstr "クラス リファレンス"
+
+msgid "Godot Docs – *master* branch"
+msgstr "Godot Docs - *master* ブランチ"
 
 msgid ""
 "Godot's documentation is available in various languages and versions. Expand "

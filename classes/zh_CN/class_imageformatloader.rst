@@ -46,7 +46,7 @@ flags **LoaderFlags**: :ref:`🔗<enum_ImageFormatLoader_LoaderFlags>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -58,7 +58,7 @@ flags **LoaderFlags**: :ref:`🔗<enum_ImageFormatLoader_LoaderFlags>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -70,7 +70,7 @@ flags **LoaderFlags**: :ref:`🔗<enum_ImageFormatLoader_LoaderFlags>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 

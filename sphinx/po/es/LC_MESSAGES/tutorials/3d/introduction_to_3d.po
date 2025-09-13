@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 "Demo del juego de disparos en tercera persona (TPS) Godot, disponible en el "
 "`repositorio de Github <https://github.com/godotengine/tps-demo>`__ o en "
-"la :ref:`Biblioteca de Recursos <doc_project_manager_downloading_demos>`."
+"la :ref:`Librería de Assets <doc_project_manager_downloading_demos>`."
 
 msgid "3D workspace"
 msgstr "Espacio de trabajo 3D"

@@ -1283,16 +1283,6 @@ msgid ""
 "aware of:"
 msgstr "使用 per-instance uniform 時，請注意以下限制："
 
-msgid ""
-"**Per-instance uniforms do not support textures**, only regular scalar and "
-"vector types. As a workaround, you can pass a texture array as a regular "
-"uniform, then pass the index of the texture to be drawn using a per-instance "
-"uniform."
-msgstr ""
-"**per-instance uniform 不支援紋理貼圖**，僅支援標量與向量型別。若需為每個實例"
-"指定不同紋理，可將紋理陣列作為一般 uniform，然後用 per-instance uniform 傳遞"
-"要顯示的紋理索引。"
-
 msgid "There is a practical maximum limit of 16 instance uniforms per shader."
 msgstr "每個著色器最多允許 16 個 per-instance uniform。"
 

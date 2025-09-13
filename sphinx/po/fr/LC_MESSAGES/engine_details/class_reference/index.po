@@ -1,0 +1,577 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"This page explains how to write the class reference. You will learn where to "
+"write new descriptions for the classes, methods, and properties for Godot's "
+"built-in node types."
+msgstr ""
+"Cette page explique comment écrire la référence de la classe. Vous "
+"apprendrez où écrire de nouvelles descriptions pour les classes, les "
+"méthodes et les propriétés des types de nœuds intégrés de Godot."
+
+msgid ""
+"The reference for each class is contained in an XML file like the one below:"
+msgstr ""
+"La référence de chaque classe est contenue dans un fichier XML comme celui "
+"ci-dessous :"
+
+msgid ""
+"It starts with brief and long descriptions. In the generated docs, the brief "
+"description is always at the top of the page, while the long description "
+"lies below the list of methods, variables, and constants. You can find "
+"methods, member variables, constants, and signals in separate XML nodes."
+msgstr ""
+"Cela commence par des descriptions brèves et longues. Dans la documentation "
+"générée, la description brève se trouve toujours en haut de la page, tandis "
+"que la description longue se trouve sous la liste des méthodes, des "
+"variables et des constantes. Vous pouvez trouver les méthodes, les variables "
+"membres, les constantes et les signaux dans des nœuds XML distincts."
+
+msgid ""
+"For each, you want to learn how they work in Godot's source code. Then, fill "
+"their documentation by completing or improving the text in these tags:"
+msgstr ""
+"Pour chacun, vous voulez apprendre comment ils fonctionnent dans le code "
+"source de Godot. Ensuite, remplissez leur documentation en complétant ou en "
+"améliorant le texte de ces balises :"
+
+msgid "`<brief_description>`"
+msgstr "`<brief_description>`"
+
+msgid "`<description>`"
+msgstr "`<description>`"
+
+msgid "`<constant>`"
+msgstr "`<constant>`"
+
+msgid ""
+"`<method>` (in its `<description>` tag; return types and arguments don't "
+"take separate documentation strings)"
+msgstr ""
+"`<method>` (dans sa balise `<description>` ; les types de retour et les "
+"arguments ne prennent pas de chaînes de documentation séparées)"
+
+msgid "`<member>`"
+msgstr "`<member>`"
+
+msgid ""
+"`<signal>` (in its `<description>` tag; arguments don't take separate "
+"documentation strings)"
+msgstr ""
+"`<signal>` (dans sa balise `<description>` ; les arguments ne prennent pas "
+"de chaînes de documentation séparées)"
+
+msgid "How to edit class XML"
+msgstr "Comment modifier la classe XML"
+
+msgid ""
+"Edit the file for your chosen class in ``doc/classes/`` to update the class "
+"reference. The folder contains an XML file for each class. The XML lists the "
+"constants and methods you will find in the class reference. Godot generates "
+"and updates the XML automatically."
+msgstr ""
+"Modifiez le fichier de la classe choisie dans ``doc/classes/`` pour mettre à "
+"jour la référence de la classe. Le dossier contient un fichier XML pour "
+"chaque classe. Le XML liste les constantes et les méthodes que vous "
+"trouverez dans la référence de la classe. Godot génère et met à jour le XML "
+"automatiquement."
+
+msgid ""
+"For some modules in the engine's source code, you'll find the XML files in "
+"the ``modules/<module_name>/doc_classes/`` directory instead."
+msgstr ""
+"Pour certains modules du code source du moteur, vous trouverez les fichiers "
+"XML dans le répertoire ``modules/<module_name>/doc_classes/`` à la place."
+
+msgid ""
+"Edit it using your favorite text editor. If you use a code editor, make sure "
+"that it doesn't change the indent style: you should use tabs for the XML and "
+"four spaces inside BBCode-style blocks. More on that below."
+msgstr ""
+"Modifiez-le en utilisant votre éditeur de texte préféré. Si vous utilisez un "
+"éditeur de code, assurez-vous qu'il ne modifie pas le style d'indentation : "
+"vous devez utiliser des tabulations pour le XML et quatre espaces à "
+"l'intérieur des blocs de style BBCode. Plus d'informations à ce sujet ci-"
+"dessous."
+
+msgid ""
+"To check that the modifications you've made are correct in the generated "
+"documentation, navigate to the ``doc/`` folder and run the command ``make "
+"rst``. This will convert the XML files to the online documentation's format "
+"and output errors if anything's wrong."
+msgstr ""
+"Pour vérifier que les modifications que vous avez faites sont correctes dans "
+"la documentation générée, naviguez dans le dossier ``doc/`` et exécutez la "
+"commande ``make rst``. Cela convertira les fichiers XML au format de la "
+"documentation en ligne et affichera des erreurs si quelque chose ne va pas."
+
+msgid ""
+"Alternatively, you can build Godot and open the modified page in the built-"
+"in code reference. To learn how to compile the engine, read "
+"the :ref:`compilation guide <toc-devel-compiling>`."
+msgstr ""
+"Alternativement, vous pouvez construire Godot et ouvrir la page modifiée "
+"dans la référence de code intégrée. Pour savoir comment compiler le moteur, "
+"lisez le :ref:`guide de compilation <toc-devel-compiling>`."
+
+msgid ""
+"We recommend using a code editor that supports XML files like Vim, Atom, "
+"Visual Studio Code, Notepad++, or another to comfortably edit the file. You "
+"can also use their search feature to find classes and properties quickly."
+msgstr ""
+"Nous vous recommandons d'utiliser un éditeur de code prenant en charge les "
+"fichiers XML comme Vim, Atom, Visual Studio Code, Notepad++ ou autre pour "
+"éditer confortablement le fichier. Vous pouvez également utiliser leur "
+"fonction de recherche pour trouver rapidement les classes et les propriétés."
+
+msgid ""
+"If you use Visual Studio Code, you can install the `vscode-xml extension "
+"<https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml>`__ "
+"to get linting for class reference XML files."
+msgstr ""
+"Si vous utilisez Visual Studio Code, vous pouvez installer l'`extension "
+"vscode-xml <https://marketplace.visualstudio.com/items?"
+"itemName=redhat.vscode-xml>`__ pour obtenir du linting pour les fichiers XML "
+"de références de classes."
+
+msgid "Improve formatting with BBCode style tags"
+msgstr "Améliorez le formatage avec les balises de style BBcode"
+
+msgid ""
+"Godot's XML class reference supports BBCode-like tags for linking as well as "
+"formatting text and code. In the tables below you can find the available "
+"tags, usage examples and the results after conversion to reStructuredText."
+msgstr ""
+"La référence de classe XML de Godot prend en charge les balises BBCode pour "
+"lier et formater le texte et le code. Dans les tableaux ci-dessous vous "
+"pouvez trouver les étiquettes disponibles, les exemples d'utilisation et les "
+"résultats après conversion en reStructuredText."
+
+msgid "Linking"
+msgstr "Lier"
+
+msgid ""
+"Whenever you link to a member of another class, you need to specify the "
+"class name. For links to the same class, the class name is optional and can "
+"be omitted."
+msgstr ""
+"Chaque fois que vous créez un lien vers un membre d'une autre classe, vous "
+"devez spécifier le nom de la classe. Pour les liens vers la même classe, le "
+"nom de la classe est facultatif et peut être omis."
+
+msgid "Tag and Description"
+msgstr "Étiquettes et Description"
+
+msgid "Example"
+msgstr "Exemple"
+
+msgid "Result"
+msgstr "Résultat"
+
+msgid "``[Class]``"
+msgstr "``[Class]``"
+
+msgid "Link to class"
+msgstr "Lien vers une classe"
+
+msgid "``Move the [Sprite2D].``"
+msgstr "``Déplacer le [Sprite2D].``"
+
+msgid "Move the :ref:`class_Sprite2D`."
+msgstr "Déplacez le :ref:`class_Sprite2D`."
+
+msgid "``[annotation Class.name]``"
+msgstr "``[annotation Class.name]``"
+
+msgid "Link to annotation"
+msgstr "Lien vers l'annotation"
+
+msgid "``See [annotation @GDScript.@rpc].``"
+msgstr "``Voir [annotation @GDScript.@rpc].``"
+
+msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+msgstr "Voir :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+
+msgid "``[constant Class.name]``"
+msgstr "``[constant Class.name]``"
+
+msgid "Link to constant"
+msgstr "Lien vers une constante"
+
+msgid "``See [constant Color.RED].``"
+msgstr "``Voir [constant Color.RED].``"
+
+msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
+msgstr "Voir :ref:`Color.RED <class_Color_constant_RED>`."
+
+msgid "``[enum Class.name]``"
+msgstr "``[enum Class.name]``"
+
+msgid "Link to enum"
+msgstr "Lien vers l'énumération"
+
+msgid "``See [enum Mesh.ArrayType].``"
+msgstr "``Voir [enum Mesh.ArrayType].``"
+
+msgid "See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
+msgstr "Voir :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
+
+msgid "``[member Class.name]``"
+msgstr "``[member Class.name]``"
+
+msgid "Link to member"
+msgstr "Lier à un membre"
+
+msgid "``Get [member Node2D.scale].``"
+msgstr "``Obtenir [member Node2D.scale].``"
+
+msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
+msgstr "Obtenir :ref:`Node2D.scale <class_Node2D_property_scale>`."
+
+msgid "``[method Class.name]``"
+msgstr "``[method Class.name]``"
+
+msgid "Link to method"
+msgstr "Lien vers une méthode"
+
+msgid "``Call [method Node3D.hide].``"
+msgstr "``Appelle [method Node3D.hide].``"
+
+msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
+msgstr "Appelle :ref:`Node3D.hide() <class_Node3D_method_hide>`."
+
+msgid "``[constructor Class.name]``"
+msgstr "``[constructor Class.name]``"
+
+msgid "Link to built-in constructor"
+msgstr "Lien vers le constructeur intégré"
+
+msgid "``Use [constructor Color.Color].``"
+msgstr "``Utilise [constructor Color.Color].``"
+
+msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
+msgstr "Utilise  :ref:`Color.Color <class_Color_constructor_Color>`."
+
+msgid "``[operator Class.name]``"
+msgstr "``[operator Class.name]``"
+
+msgid "Link to built-in operator"
+msgstr "Lien vers un opérateur intégré"
+
+msgid "``Use [operator Color.operator *].``"
+msgstr "``Utilise [operator Color.operator *].``"
+
+msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+msgstr "Utilise  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+
+msgid "``[signal Class.name]``"
+msgstr "``[signal Class.name]``"
+
+msgid "Link to signal"
+msgstr "Lien vers un signal"
+
+msgid "``Emit [signal Node.renamed].``"
+msgstr "``Émet [signal Node.renamed].``"
+
+msgid "Emit :ref:`Node.renamed <class_Node_signal_renamed>`."
+msgstr "Émet :ref:`Node.renamed <class_Node_signal_renamed>`."
+
+msgid "``[theme_item Class.name]``"
+msgstr "``[theme_item Class.name]``"
+
+msgid "Link to theme item"
+msgstr "Lien vers un objet du thème"
+
+msgid "``See [theme_item Label.font].``"
+msgstr "``Voir [theme_item Label.font].``"
+
+msgid "See :ref:`Label.font <class_Label_theme_font_font>`."
+msgstr "Voir :ref:`Label.font <class_Label_theme_font_font>`."
+
+msgid "``[param name]``"
+msgstr "``[param name]``"
+
+msgid "Parameter name (as code)"
+msgstr "Nom de paramètre (comme code)"
+
+msgid "``Takes [param size] for the size.``"
+msgstr "``Prends [param size] pour la taille.``"
+
+msgid "Takes ``size`` for the size."
+msgstr "Prends ``size`` pour la taille."
+
+msgid "Currently only :ref:`class_@GDScript` has annotations."
+msgstr "Actuellement, seul :ref:`class_@GDScript` contient des annotations."
+
+msgid "Formatting text"
+msgstr "Formater du texte"
+
+msgid "``[br]``"
+msgstr "``[br]``"
+
+msgid "Line break"
+msgstr "Saut de ligne"
+
+msgid "``Line 1.[br]``"
+msgstr "``Ligne 1.[br]``"
+
+msgid "``Line 2.``"
+msgstr "``Ligne 2.``"
+
+msgid "Line 1."
+msgstr "Ligne 1."
+
+msgid "Line 2."
+msgstr "Ligne 2."
+
+msgid "``[lb]`` ``[rb]``"
+msgstr "``[lb]`` ``[rb]``"
+
+msgid "``[`` and ``]`` respectively"
+msgstr "``[`` et ``]`` respectivement"
+
+msgid "``[lb]b[rb]text[lb]/b[rb]``"
+msgstr "``[lb]b[rb]texte[lb]/b[rb]``"
+
+msgid "[b]text[/b]"
+msgstr "[b]texte[/b]"
+
+msgid "``[b]`` ``[/b]``"
+msgstr "``[b]`` ``[/b]``"
+
+msgid "Bold"
+msgstr "Gras"
+
+msgid "``Do [b]not[/b] call this method.``"
+msgstr "``[b]Ne pas[/b] appeler cette méthode.``"
+
+msgid "Do **not** call this method."
+msgstr "**Ne pas** appeler cette méthode."
+
+msgid "``[i]`` ``[/i]``"
+msgstr "``[i]`` ``[/i]``"
+
+msgid "Italic"
+msgstr "Italique"
+
+msgid "``Returns the [i]global[/i] position.``"
+msgstr "``Renvoie la position [i]globale[/i].``"
+
+msgid "Returns the *global* position."
+msgstr "Retourne la position *globale*."
+
+msgid "``[u]`` ``[/u]``"
+msgstr "``[u]`` ``[/u]``"
+
+msgid "Underline"
+msgstr "Souligné"
+
+msgid "``[u]Always[/u] use this method.``"
+msgstr "``[u]Toujours[/u] utiliser cette méthode.``"
+
+msgid "``[s]`` ``[/s]``"
+msgstr "``[s]`` ``[/s]``"
+
+msgid "Strikethrough"
+msgstr "Barré"
+
+msgid "``[s]Outdated information.[/s]``"
+msgstr "``[s]Information plus à jour.[/s]``"
+
+msgid "``[url]`` ``[/url]``"
+msgstr "``[url]`` ``[/url]``"
+
+msgid "Hyperlink"
+msgstr "Lien web"
+
+msgid "``[url]https://example.com[/url]``"
+msgstr "``[url]https://example.com[/url]``"
+
+msgid "``[url=https://example.com]Website[/url]``"
+msgstr "``[url=https://example.com]site Web[/url]``"
+
+msgid "https://example.com"
+msgstr "https://example.com"
+
+msgid "`Website <https://example.com>`_"
+msgstr "`site Web <https://example.com>`_"
+
+msgid "``[center]`` ``[/center]``"
+msgstr "``[center]`` ``[/center]``"
+
+msgid "Horizontal centering"
+msgstr "Centrage horizontal"
+
+msgid "``[center]2 + 2 = 4[/center]``"
+msgstr "``[center]2 + 2 = 4[/center]``"
+
+msgid "``[kbd]`` ``[/kbd]``"
+msgstr "``[kbd]`` ``[/kbd]``"
+
+msgid "Keyboard/mouse shortcut"
+msgstr "Raccourci clavier/souris"
+
+msgid "``Press [kbd]Ctrl + C[/kbd].``"
+msgstr "``Appuyez sur [kbd]Ctrl + C[/kbd].``"
+
+msgid "Press :kbd:`Ctrl + C`."
+msgstr "Appuyez sur :kbd:`Ctrl + C`."
+
+msgid "``[code]`` ``[/code]``"
+msgstr "``[code]`` ``[/code]``"
+
+msgid "Inline code fragment"
+msgstr "Fragment de code inline"
+
+msgid "``Returns [code]true[/code].``"
+msgstr "``Renvoie [code]true[/code].``"
+
+msgid "Returns ``true``."
+msgstr "Renvoie ``true``."
+
+msgid ""
+"Some supported tags like ``[color]`` and ``[font]`` are not listed here "
+"because they are not recommended in the engine documentation."
+msgstr ""
+"Certaines balises prises en charge telles que ``[color]`` et ``[font]`` ne "
+"sont pas listées ici car elles ne sont pas recommandées dans la "
+"documentation du moteur de jeu."
+
+msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
+msgstr ""
+"``[kbd]`` désactive le BBCode jusqu'à ce que l'analyseur rencontre ``[/"
+"kbd]``."
+
+msgid "``[code]`` disables BBCode until the parser encounters ``[/code]``."
+msgstr ""
+"``[code]`` désactive le BBCode jusqu'à ce que l'analyseur rencontre ``[/"
+"code]``."
+
+msgid "Formatting code blocks"
+msgstr "Formater des blocs de code"
+
+msgid "There are two options for formatting code blocks:"
+msgstr "Il existe deux options pour formater les blocs de code :"
+
+msgid ""
+"Use ``[codeblock]`` if you want to add an example for a specific language."
+msgstr ""
+"Utiliser ``[codeblock]`` si vous voulez ajouter un exemple pour un langage "
+"spécifique."
+
+msgid ""
+"Use ``[codeblocks]``, ``[gdscript]``, and ``[csharp]`` if you want to add "
+"the same example for both languages, GDScript and C#."
+msgstr ""
+"Utilisez ``[codeblocks]``, ``[gdscript]``, et ``[csharp]`` si vous voulez "
+"ajouter le même exemple pour chacun des langages, GDScript and C#."
+
+msgid ""
+"By default, ``[codeblock]`` highlights GDScript syntax. You can change it "
+"using the ``lang`` attribute. Currently supported options are:"
+msgstr ""
+"Par défaut, ``[codeblock]`` met en surbrillance la syntaxe GDScript. Vous "
+"pouvez la modifier à l'aide de l'attribut ``lang``. Les options actuellement "
+"prises en charge sont :"
+
+msgid "``[codeblock lang=text]`` disables syntax highlighting;"
+msgstr "``[codeblock lang=text]`` désactive la coloration syntaxique ;"
+
+msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
+msgstr "``[codeblock lang=gdscript]`` met en évidence la syntaxe GDScript ;"
+
+msgid ""
+"``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
+msgstr ""
+"``[codeblock lang=csharp]`` met en évidence la syntaxe C# (uniquement dans "
+"la version .NET)."
+
+msgid ""
+"``[codeblock]`` disables BBCode until the parser encounters ``[/codeblock]``."
+msgstr ""
+"``[codeblock]`` désactive le BBCode jusqu'à ce que l'analyseur rencontre ``[/"
+"codeblock]``."
+
+msgid "For example:"
+msgstr "Par exemple :"
+
+msgid "Will display as:"
+msgstr "S'affichera comme cela :"
+
+msgid ""
+"If you need to have different code version in GDScript and C#, use "
+"``[codeblocks]`` instead. If you use ``[codeblocks]``, you also need to have "
+"at least one of the language-specific tags, ``[gdscript]`` and ``[csharp]``."
+msgstr ""
+"Si vous avez besoin d'avoir une version de code différente en GDScript et en "
+"C#, utilisez plutôt ``[codeblocks]``. Si vous utilisez ``[codeblocks]``, "
+"vous devez aussi avoir au moins une des balises spécifiques au langage, "
+"``[gdscript]`` et ``[csharp]``."
+
+msgid ""
+"Always write GDScript code examples first! You can use this `experimental "
+"code translation tool <https://github.com/HaSa1002/codetranslator>`_ to "
+"speed up your workflow."
+msgstr ""
+"Commencez toujours par écrire des exemples de code GDScript ! Vous pouvez "
+"utiliser cet `outil expérimental de traduction de code <https://github.com/"
+"HaSa1002/codetranslator>`_ pour accélérer votre flux de travail."
+
+msgid "The above will display as:"
+msgstr "Ce qui précède s'affichera comme suit :"
+
+msgid "Formatting notes and warnings"
+msgstr "Formatage des notes et des avertissements"
+
+msgid ""
+"To denote important information, add a paragraph starting with \"[b]Note:[/b]"
+"\" at the end of the description:"
+msgstr ""
+"Pour signaler des informations importantes, ajoutez un paragraphe commençant "
+"par \"[b]Note :[/b]\" à la fin de la description :"
+
+msgid ""
+"To denote crucial information that could cause security issues or loss of "
+"data if not followed carefully, add a paragraph starting with \"[b]Warning:[/"
+"b]\" at the end of the description:"
+msgstr ""
+"Pour indiquer les informations cruciales qui pourraient entraîner des "
+"problèmes de sécurité ou la perte de données si elles ne sont pas suivies "
+"attentivement, ajoutez un paragraphe commençant par \"[b]Warning:[/b]\" à la "
+"fin de la description :"
+
+msgid ""
+"In all the paragraphs described above, make sure the punctuation is part of "
+"the BBCode tags for consistency."
+msgstr ""
+"Dans tous les paragraphes décrits ci-dessus, assurez-vous que la ponctuation "
+"fait partie des balises BBCode pour des raisons de cohérence."
+
+msgid "Marking API as deprecated/experimental"
+msgstr "Marque l'API comme expérimentale/Dépréciée"
+
+msgid ""
+"To mark an API as deprecated or experimental, you need to add the "
+"corresponding XML attribute. The attribute value must be a message "
+"explaining why the API is not recommended (BBCode markup is supported) or an "
+"empty string (the default message will be used). If an API element is marked "
+"as deprecated/experimental, then it is considered documented even if the "
+"description is empty."
+msgstr ""
+"Pour marquer une API comme obsolète ou expérimentale, vous devez ajouter "
+"l'attribut XML correspondant. La valeur de l'attribut doit être un message "
+"expliquant pourquoi l'API n'est pas recommandée (le balisage BBCode est pris "
+"en charge) ou une chaîne vide (le message par défaut sera utilisé). Si un "
+"élément d'API est marqué comme obsolète/expérimental, il est alors considéré "
+"comme documenté même si la description est vide."

@@ -600,7 +600,7 @@ msgstr ""
 "nodo. Por ejemplo, en un Sprite2D:"
 
 msgid "Creating a CanvasTexture resource for a Sprite2D node"
-msgstr "Creando un recurso CanvasTexture para un nodo Sprite2D"
+msgstr "Crear un recurso CanvasTexture para un nodo Sprite2D"
 
 msgid ""
 "Expand the newly created resource. You can find several properties you will "

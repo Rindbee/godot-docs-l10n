@@ -83,7 +83,7 @@ msgstr ""
 "necesitamos definir algunas acciones de entrada."
 
 msgid "Creating input actions"
-msgstr "Creando acciones de entrada"
+msgstr "Crear acciones de entrada"
 
 msgid ""
 "To move the character, we will listen to the player's input, like pressing "

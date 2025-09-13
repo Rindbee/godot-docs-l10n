@@ -34,7 +34,7 @@ msgstr ""
 "trapo."
 
 msgid "Setting up the ragdoll"
-msgstr "Creando el ragdoll"
+msgstr "Crear el ragdoll"
 
 msgid "Creating physical bones"
 msgstr "Creación de huesos físicos"

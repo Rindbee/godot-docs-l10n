@@ -161,7 +161,7 @@ msgstr ""
 "예를 들어 Meta Quest 2의 경우 헤드셋에서 개발자 모드를 활성화 해야 하고, "
 "Windows에서는 특정 ADB 드라이버를 설치해야 합니다. `공식 Meta Quest 개발자 문"
 "서<https://developer.oculus.com/documentation/native/android/mobile-device-"
-"setup/>`_\\ 에서 보다 자세한 사항을 확인하십시오."
+"setup/>`_\\ 에서 보다 자세한 사항을 확인하세요."
 
 msgid ""
 "If you're having any issues with one-click deploy, check "

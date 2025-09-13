@@ -36,7 +36,7 @@ msgstr ""
 "siguientes comandos:"
 
 msgid "Building the C++ bindings"
-msgstr "Compilando las ligaduras de C++"
+msgstr "Compilar las ligaduras de C++"
 
 msgid ""
 "Now that we've downloaded our prerequisites, it is time to build the C++ "
@@ -59,7 +59,7 @@ msgstr ""
 "Es posible que necesites agregar ``bits=64`` al comando en Windows o Linux."
 
 msgid "Creating a simple plugin"
-msgstr "Creación de un simple plugin"
+msgstr "Creación de un plugin simple"
 
 msgid ""
 "Now it's time to build an actual plugin. We'll start by creating an empty "
@@ -85,7 +85,7 @@ msgstr ""
 "Implementemos nuestras funciones creando nuestro archivo `gdexample.cpp``:"
 
 msgid "Compiling the plugin"
-msgstr "Compilando el plugin"
+msgstr "Compilar el plugin"
 
 msgid "You should now be able to find the module in ``demo/bin/<platform>``."
 msgstr "Ahora deberías poder encontrar el módulo en ``demo/bin/<platform>``."
@@ -184,3 +184,11 @@ msgstr "Cada segundo, mostramos nuestra posición en la consola."
 
 msgid "Next steps"
 msgstr "Siguientes pasos"
+
+msgid ""
+"We hope the above example showed you the basics. You can build upon this "
+"example to create full-fledged scripts to control nodes in Godot using C++!"
+msgstr ""
+"Esperamos que el ejemplo anterior te haya mostrado los conceptos básicos. "
+"¡Puedes usar este ejemplo para crear scripts completos que controlen nodos "
+"en Godot usando C++!"

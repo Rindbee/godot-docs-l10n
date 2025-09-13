@@ -200,6 +200,9 @@ msgstr ""
 msgid "Checking the validity of a PO file or template"
 msgstr "Comprobación de la validez de un archivo PO o plantilla"
 
+msgid "It is possible to check whether a gettext file's syntax is valid."
+msgstr "Es posible comprobar si la sintaxis de un archivo gettext es válida."
+
 msgid ""
 "If there are syntax errors or warnings, they will be displayed in the "
 "console. Otherwise, ``msgfmt`` won't output anything."

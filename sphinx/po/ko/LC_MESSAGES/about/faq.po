@@ -789,14 +789,6 @@ msgstr ""
 "수정하는 데 도움이 됩니다. 또한 `온라인 문서 <https://github.com/godotengine/"
 "godot-docs/issues>`_\\ 에서 찾은 문제를 보고할 수도 있습니다."
 
-msgid ""
-"We explain how to work with the engine source, how to edit the "
-"documentation, and what other ways to contribute are there in "
-"our :ref:`documentation for contributors <doc_ways_to_contribute>`."
-msgstr ""
-"엔진 소스 작업 방법, 문서 편집 방법 및 기여 방법에 대한 설명은 :ref:`기여자"
-"를 위한 문서 <doc_ways_to_contribute>`에 수록되어 있습니다."
-
 msgid "I have a great idea for Godot. How can I share it?"
 msgstr "Godot에 대한 좋은 아이디어가 있습니다. 어떻게 이것을 공유할 수 있나요?"
 
@@ -1077,9 +1069,6 @@ msgstr ""
 
 msgid "How can I support Godot development or contribute?"
 msgstr "어떻게 Godot 개발을 돕거나 후원할 수 있나요?"
-
-msgid "See :ref:`doc_ways_to_contribute`."
-msgstr ":ref:`doc_ways_to_contribute`\\ 를 참고하세요."
 
 msgid "Who is working on Godot? How can I contact you?"
 msgstr "Godot는 누가 만드나요? 어떻게 연락할 수 있나요?"

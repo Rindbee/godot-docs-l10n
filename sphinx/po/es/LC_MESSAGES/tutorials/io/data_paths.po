@@ -90,7 +90,7 @@ msgstr ""
 "del proyecto en el código con la siguiente ruta: ``res://character.png``."
 
 msgid "Accessing persistent user data (``user://``)"
-msgstr "Accediendo a los datos persistentes del usuario (``user://``)"
+msgstr "Acceder a los datos persistentes del usuario (``user://``)"
 
 msgid ""
 "To store persistent data files, like the player's save or settings, you want "

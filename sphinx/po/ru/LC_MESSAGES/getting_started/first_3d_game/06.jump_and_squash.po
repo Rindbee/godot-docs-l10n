@@ -305,17 +305,36 @@ msgstr ""
 "полом. Для этого мы можем использовать функцию тегов Godot :ref:`group "
 "<doc_groups>`."
 
+msgid ""
+"Open the scene ``mob.tscn`` again and select the *Mob* node. Go to the "
+"*Node* dock on the right to see a list of signals. The *Node* dock has two "
+"tabs: *Signals*, which you've already used, and *Groups*, which allows you "
+"to assign tags to nodes. Click on the *+* button to open the *Create new "
+"Group* dialog."
+msgstr ""
+"Снова откройте сцену ``mob.tscn`` и выберите узел *Mob*. Перейдите в панель "
+"*Node* справа, чтобы увидеть список сигналов. Панель *Node* содержит две "
+"вкладки: *Signals* , которую вы уже использовали, и *Groups*, где можно "
+"назначать теги узлам. Нажмите кнопку *+*, чтобы открыть диалоговое окно "
+"*Create new Group*."
+
 msgid "|image7|"
 msgstr "|image7|"
 
 msgid "image7"
 msgstr "изображение7"
 
+msgid "Enter \"mob\" in the *Name* field and click the *Ok* button."
+msgstr "Введите \"mob\" в поле *Name* и нажмите на кнопку *Ok*."
+
 msgid "|image8|"
 msgstr "|image8|"
 
 msgid "image8"
 msgstr "изображение8"
+
+msgid "The \"mob\" group is now shown under the *Scene Groups* section."
+msgstr "Группа \"mob\" теперь отображается в разделе *Scene Groups*."
 
 msgid "|image9|"
 msgstr "|image9|"

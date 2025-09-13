@@ -133,7 +133,7 @@ msgid "Freeing resources"
 msgstr "Liberando recursos"
 
 msgid "Creating your own resources"
-msgstr "Creando tus propios Resources"
+msgstr "Crear tus propios Resources"
 
 msgid ""
 "They can define constants, so constants from other data fields or objects "

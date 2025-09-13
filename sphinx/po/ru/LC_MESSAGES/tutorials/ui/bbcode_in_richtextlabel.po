@@ -47,14 +47,44 @@ msgstr "Тег"
 msgid "Example"
 msgstr "Пример"
 
+msgid "**b**"
+msgstr "**b**"
+
+msgid ""
+"Makes ``{text}`` use the bold (or bold italics) font of ``RichTextLabel``."
+msgstr ""
+"Заставляет ``{text}`` использовать жирный (или жирный курсив) шрифт "
+"``RichTextLabel``."
+
 msgid "``[b]{text}[/b]``"
 msgstr "``[b]{text}[/b]``"
+
+msgid "**i**"
+msgstr "**i**"
+
+msgid ""
+"Makes ``{text}`` use the italics (or bold italics) font of ``RichTextLabel``."
+msgstr ""
+"Заставляет ``{text}`` использовать курсив (или полужирный курсив) шрифта "
+"``RichTextLabel``."
 
 msgid "``[i]{text}[/i]``"
 msgstr "``[i]{text}[/i]``"
 
+msgid "**u**"
+msgstr "**u**"
+
+msgid "Makes ``{text}`` underlined."
+msgstr "Делает ``{text}`` подчеркнутым."
+
 msgid "``[u]{text}[/u]``"
 msgstr "``[u]{text}[/u]``"
+
+msgid "**s**"
+msgstr "**s**"
+
+msgid "Makes ``{text}`` strikethrough."
+msgstr "Делает ``{text}`` зачеркнутым."
 
 msgid "``[s]{text}[/s]``"
 msgstr "``[s]{text}[/s]``"
@@ -71,6 +101,12 @@ msgstr "``[br]``"
 msgid "**center**"
 msgstr "**center**"
 
+msgid "Makes ``{text}`` horizontally centered."
+msgstr "Выравнивает ``{text}`` по горизонтали и центрирует."
+
+msgid "Same as ``[p align=center]``."
+msgstr "То же, что и ``[p align=center]``."
+
 msgid "``[center]{text}[/center]``"
 msgstr "``[center]{text}[/center]``"
 
@@ -80,8 +116,86 @@ msgstr "**right**"
 msgid "``[right]{text}[/right]``"
 msgstr "``[right]{text}[/right]``"
 
+msgid "**url**"
+msgstr "**url**"
+
+msgid ""
+"Creates a hyperlink (underlined and clickable text). Can contain optional "
+"``{text}`` or display ``{link}`` as is."
+msgstr ""
+"Создаёт гиперссылку (подчёркнутый и интерактивный текст). Может содержать "
+"необязательный ``{text}`` или отображать ``{link}`` как есть."
+
+msgid "``[url]{link}[/url]``"
+msgstr "``[url]{link}[/url]``"
+
+msgid "``[url={link}]{text}[/url]``"
+msgstr "``[url={link}]{text}[/url]``"
+
 msgid "**hint**"
 msgstr "**hint**"
+
+msgid "**img**"
+msgstr "**img**"
+
+msgid ""
+"Inserts an image from the ``{path}`` (can be any "
+"valid :ref:`class_Texture2D` resource)."
+msgstr ""
+"Вставляет изображение из ``{path}`` (может быть любой допустимый "
+"ресурс :ref:`class_Texture2D`)."
+
+msgid ""
+"If ``{width}`` is provided, the image will try to fit that width maintaining "
+"the aspect ratio."
+msgstr ""
+"Если указано ``{width}``, изображение попытается соответствовать этой "
+"ширине, сохраняя соотношение сторон."
+
+msgid ""
+"If both ``{width}`` and ``{height}`` are provided, the image will be scaled "
+"to that size."
+msgstr ""
+"Если указаны оба параметра ``{width}`` и ``{height}``, изображение будет "
+"масштабировано до этого размера."
+
+msgid ""
+"Add ``%`` to the end of ``{width}`` or ``{height}`` value to specify it as "
+"percentages of the control width instead of pixels."
+msgstr ""
+"Добавьте ``%`` в конец значения ``{width}`` или ``{height}``, чтобы указать "
+"его в процентах от ширины элемента управления, а не в пикселях."
+
+msgid ""
+"If ``{valign}`` configuration is provided, the image will try to align to "
+"the surrounding text, "
+"see :ref:`doc_bbcode_in_richtextlabel_image_and_table_alignment`."
+msgstr ""
+"Если указана конфигурация ``{valign}``, изображение попытается выровняться "
+"по окружающему тексту, "
+"см. :ref:`doc_bbcode_in_richtextlabel_image_and_table_alignment`."
+
+msgid ""
+"Supports configuration options, "
+"see :ref:`doc_bbcode_in_richtextlabel_image_options`."
+msgstr ""
+"Поддерживает параметры конфигурации, "
+"см. :ref:`doc_bbcode_in_richtextlabel_image_options`."
+
+msgid "``[img]{path}[/img]``"
+msgstr "``[img]{path}[/img]``"
+
+msgid "``[img={width}]{path}[/img]``"
+msgstr "``[img={width}]{path}[/img]``"
+
+msgid "``[img={width}x{height}]{path}[/img]``"
+msgstr "``[img={width}x{height}]{path}[/img]``"
+
+msgid "``[img={valign}]{path}[/img]``"
+msgstr "``[img={valign}]{path}[/img]``"
+
+msgid "``[img {options}]{path}[/img]``"
+msgstr "``[img {options}]{path}[/img]``"
 
 msgid "**opentype_features**"
 msgstr "**opentype_features**"
@@ -91,6 +205,21 @@ msgstr "``{text}``"
 
 msgid "**lang**"
 msgstr "**lang**"
+
+msgid "**color**"
+msgstr "**color**"
+
+msgid ""
+"Changes the color of ``{text}``. Color must be provided by a common name "
+"(see :ref:`doc_bbcode_in_richtextlabel_named_colors`) or using the HEX "
+"format (e.g. ``#ff00ff``, see :ref:`doc_bbcode_in_richtextlabel_hex_colors`)."
+msgstr ""
+"Изменяет цвет ``{text}``. Цвет должен быть задан общим именем "
+"(см. :ref:`doc_bbcode_in_richtextlabel_named_colors`) или в HEX формате "
+"(например, ``#ff00ff``, см. :ref:`doc_bbcode_in_richtextlabel_hex_colors`)."
+
+msgid "``[color={code/name}]{text}[/color]``"
+msgstr "``[color={code/name}]{text}[/color]``"
 
 msgid "**bgcolor**"
 msgstr "**bgcolor**"

@@ -922,15 +922,6 @@ msgstr ""
 "sistemi olan Git'e de aşina olmanız gerekir. (Ve bir de bunları anlayacak "
 "derecede İngilizce)."
 
-msgid ""
-"We explain how to work with the engine source, how to edit the "
-"documentation, and what other ways to contribute are there in "
-"our :ref:`documentation for contributors <doc_ways_to_contribute>`."
-msgstr ""
-"Motor kaynak dosyaları ile nasıl çalışılacağını, belgelerin nasıl "
-"düzenleneceğini ve katkıda bulunmanın diğer yollarını :ref:`katkıda "
-"bulunanlar için belgeler<doc_ways_to_contribute>` bölümünde açıklıyoruz."
-
 msgid "I have a great idea for Godot. How can I share it?"
 msgstr "Godot için harika bir fikrim var. Nasıl paylaşabilirim?"
 
@@ -1315,9 +1306,6 @@ msgstr ""
 msgid "How can I support Godot development or contribute?"
 msgstr ""
 "Godot'nun geliştirilmesini nasıl destekleyebilir veya katkıda bulunabilirim?"
-
-msgid "See :ref:`doc_ways_to_contribute`."
-msgstr "Bakınız :ref:`doc_ways_to_contribute`."
 
 msgid "Who is working on Godot? How can I contact you?"
 msgstr ""

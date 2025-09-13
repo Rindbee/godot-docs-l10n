@@ -1789,6 +1789,16 @@ msgstr ""
 "Включаючи підтримку популярних автономних гарнітур, таких як Meta Quest "
 "1/2/3 і Pro, Pico 4, Magic Leap 2 і Lynx R1."
 
+msgid "Out of the box limited support for visionOS Apple headsets."
+msgstr "Обмежена підтримка гарнітур Apple з visionOS \"з коробки\"."
+
+msgid ""
+"Currently only exporting an application for use on a flat plane within the "
+"headset is supported. Immersive experiences are not supported."
+msgstr ""
+"Наразі підтримується лише експорт програми для використання на плоскій "
+"поверхні всередині гарнітури. Імерсивні враження не підтримуються."
+
 msgid "Other devices supported through an XR plugin structure."
 msgstr "Інші пристрої підтримуються через структуру плагінів XR."
 
@@ -2100,13 +2110,6 @@ msgstr ""
 
 msgid "Licensed under the permissive MIT license."
 msgstr "Ліцензовано відповідно до дозволу MIT."
-
-msgid ""
-"Open development process with :ref:`contributions welcome "
-"<doc_ways_to_contribute>`."
-msgstr ""
-"Відкритий процес розробки з :ref:`contributions welcome "
-"<doc_ways_to_contribute>`."
 
 msgid ""
 "The `Godot proposals repository <https://github.com/godotengine/godot-"

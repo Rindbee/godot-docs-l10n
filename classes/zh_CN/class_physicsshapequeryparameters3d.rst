@@ -190,7 +190,7 @@ PhysicsShapeQueryParameters3D
 - |void| **set_shape_rid**\ (\ value\: :ref:`RID<class_RID>`\ )
 - :ref:`RID<class_RID>` **get_shape_rid**\ (\ )
 
-The queried shape's :ref:`RID<class_RID>` that will be used for collision/intersection queries. Use this over :ref:`shape<class_PhysicsShapeQueryParameters3D_property_shape>` if you want to optimize for performance using the Servers API:
+将用于碰撞/相交查询的形状的 :ref:`RID<class_RID>`\ 。如果你想要使用服务器 API 优化性能，请使用这个属性而不是 :ref:`shape<class_PhysicsShapeQueryParameters3D_property_shape>`\ ：
 
 
 .. tabs::
@@ -204,9 +204,9 @@ The queried shape's :ref:`RID<class_RID>` that will be used for collision/inters
     var params = PhysicsShapeQueryParameters3D.new()
     params.shape_rid = shape_rid
 
-    # Execute physics queries here...
+    # 在此处执行物理查询...
 
-    # Release the shape when done with physics queries.
+    # 完成物理查询后释放形状。
     PhysicsServer3D.free_rid(shape_rid)
 
  .. code-tab:: csharp
@@ -218,9 +218,9 @@ The queried shape's :ref:`RID<class_RID>` that will be used for collision/inters
     var params = new PhysicsShapeQueryParameters3D();
     params.ShapeRid = shapeRid;
 
-    // Execute physics queries here...
+    // 在此处执行物理查询...
 
-    // Release the shape when done with physics queries.
+    // 完成物理查询后释放形状。
     PhysicsServer3D.FreeRid(shapeRid);
 
 

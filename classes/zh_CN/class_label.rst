@@ -490,11 +490,11 @@ Label
 - |void| **set_visible_characters**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_visible_characters**\ (\ )
 
-The number of characters to display. If set to ``-1``, all characters are displayed. This can be useful when animating the text appearing in a dialog box.
+要显示的字符数。如果设置为 ``-1``\ ，则显示所有字符。这用于在对话框中为显示的文本设置动画。
 
-\ **Note:** Setting this property updates :ref:`visible_ratio<class_Label_property_visible_ratio>` accordingly.
+\ **注意：**\ 设置该属性会相应地更新 :ref:`visible_ratio<class_Label_property_visible_ratio>`\ 。
 
-\ **Note:** Characters are counted as Unicode codepoints. A single visible grapheme may contain multiple codepoints (e.g. certain emoji use three codepoints). A single codepoint may contain two UTF-16 characters, which are used in C# strings.
+\ **注意：**\ 字符按照 Unicode 码位计算。一个可见的字素可能包含多个码位（例如部分 Emoji 会使用三个码位）。一个码位可能包含两个 UTF-16 字符，C# 字符串中会用到。
 
 .. rst-class:: classref-item-separator
 

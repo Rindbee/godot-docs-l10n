@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Creating the player scene"
-msgstr "Creando la escena del jugador"
+msgstr "Crear la escena del jugador"
 
 msgid ""
 "With the project settings in place, we can start working on the player-"

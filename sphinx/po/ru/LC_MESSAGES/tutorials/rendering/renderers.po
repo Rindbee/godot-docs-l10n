@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Overview of renderers"
+msgstr "Обзор рендереров"
+
 msgid ""
 "This page gives an overview of Godot's renderers, focusing on the "
 "differences between their rendering features. For more technical details on "
@@ -352,6 +355,9 @@ msgstr "XR"
 
 msgid "✔️ Yes. Recommended for standalone headsets."
 msgstr "✔️ Да. Рекомендуется для автономных гарнитур."
+
+msgid "✔️ Yes. Recommended for desktop headsets."
+msgstr "✔️ Да. Рекомендуется для настольных гарнитур."
 
 msgid "Web"
 msgstr "Web"

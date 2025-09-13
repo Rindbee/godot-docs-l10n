@@ -43,6 +43,15 @@ msgstr ""
 "фізичним простором і більше не стоїть у центрі своєї кімнати. Godot XR Tools "
 "вбудовує необхідну логіку в допоміжний вузол під назвою ``PlayerBody``."
 
+msgid ""
+"Select your :ref:`XROrigin3D <class_xrorigin3d>` node and click on "
+"the :button:`Instantiate Child Scene` button to add a child scene. Select "
+"``addons/godot-xr-tools/player/player_body.tscn`` and add this node."
+msgstr ""
+"Виберіть вузол :ref:`XROrigin3D <class_xrorigin3d>` і натисніть "
+"кнопку :button:`Instantiate Child Scene`, щоб додати дочірню сцену. Виберіть "
+"``addons/godot-xr-tools/player/player_body.tscn`` і додайте цей вузол."
+
 msgid "Adding a floor"
 msgstr "Додавання поверху"
 

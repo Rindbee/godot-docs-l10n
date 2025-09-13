@@ -20,9 +20,6 @@ msgstr "தொடங்குதல்"
 msgid "Manual"
 msgstr "கையேடு"
 
-msgid "Contributing"
-msgstr "பங்களிப்பு"
-
 msgid "Community"
 msgstr "சமூகம்"
 

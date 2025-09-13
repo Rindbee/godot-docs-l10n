@@ -2385,7 +2385,7 @@ Alpha、红、绿、蓝通道数据格式，Alpha 占 1 位、红占 5 位、绿
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -2397,7 +2397,7 @@ Alpha、红、绿、蓝通道数据格式，Alpha 占 1 位、红占 5 位、绿
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -2409,7 +2409,7 @@ Alpha、红、绿、蓝通道数据格式，Alpha 占 1 位、红占 5 位、绿
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -2421,7 +2421,7 @@ Alpha、红、绿、蓝通道数据格式，Alpha 占 1 位、红占 5 位、绿
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -2433,7 +2433,7 @@ Alpha、红、绿、蓝通道数据格式，Alpha 占 1 位、红占 5 位、绿
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -2445,7 +2445,7 @@ Alpha、红、绿、蓝通道数据格式，Alpha 占 1 位、红占 5 位、绿
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -2457,7 +2457,7 @@ Alpha、红、绿、蓝通道数据格式，Alpha 占 1 位、红占 5 位、绿
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -2469,7 +2469,7 @@ Alpha、红、绿、蓝通道数据格式，Alpha 占 1 位、红占 5 位、绿
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -2481,7 +2481,7 @@ Alpha、红、绿、蓝通道数据格式，Alpha 占 1 位、红占 5 位、绿
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -2493,7 +2493,7 @@ Alpha、红、绿、蓝通道数据格式，Alpha 占 1 位、红占 5 位、绿
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -2505,7 +2505,7 @@ Alpha、红、绿、蓝通道数据格式，Alpha 占 1 位、红占 5 位、绿
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -2517,7 +2517,7 @@ Alpha、红、绿、蓝通道数据格式，Alpha 占 1 位、红占 5 位、绿
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -2529,7 +2529,7 @@ Alpha、红、绿、蓝通道数据格式，Alpha 占 1 位、红占 5 位、绿
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -2541,7 +2541,7 @@ Alpha、红、绿、蓝通道数据格式，Alpha 占 1 位、红占 5 位、绿
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -3185,7 +3185,7 @@ flags **StorageBufferUsage**: :ref:`🔗<enum_RenderingDevice_StorageBufferUsage
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -4074,7 +4074,7 @@ flags **PipelineDynamicStateFlags**: :ref:`🔗<enum_RenderingDevice_PipelineDyn
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -4086,7 +4086,7 @@ flags **PipelineDynamicStateFlags**: :ref:`🔗<enum_RenderingDevice_PipelineDyn
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -4098,7 +4098,7 @@ flags **PipelineDynamicStateFlags**: :ref:`🔗<enum_RenderingDevice_PipelineDyn
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -4110,7 +4110,7 @@ flags **PipelineDynamicStateFlags**: :ref:`🔗<enum_RenderingDevice_PipelineDyn
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -4122,7 +4122,7 @@ flags **PipelineDynamicStateFlags**: :ref:`🔗<enum_RenderingDevice_PipelineDyn
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 

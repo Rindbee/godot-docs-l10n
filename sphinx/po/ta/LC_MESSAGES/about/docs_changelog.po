@@ -116,9 +116,6 @@ msgstr "பங்களிப்பு"
 msgid ":ref:`doc_handling_compatibility_breakages`"
 msgstr ": Ref: `doc_handling_compatibility_breakages`"
 
-msgid ":ref:`doc_ways_to_contribute`"
-msgstr ": குறிப்பு: `doc_ways_to_contribute`"
-
 msgid "GDExtension"
 msgstr "Gdextension"
 
@@ -278,12 +275,6 @@ msgstr ": Ref: `doc_c_sharp_variant`"
 msgid ":ref:`doc_compute_shaders`"
 msgstr ": குறிப்பு: `doc_compute_shaders`"
 
-msgid "Workflow"
-msgstr "பணிப்பாய்வு"
-
-msgid ":ref:`doc_pr_review_guidelines`"
-msgstr ": ref: `doc_pr_review_guidleins`"
-
 msgid ":ref:`doc_introducing_xr_tools`"
 msgstr ": ref: `doc_introducing_xr_tools`"
 
@@ -314,12 +305,6 @@ msgstr ": Ref: `doc_managing_editor_features`"
 msgid "New pages since version 3.3"
 msgstr "பதிப்பு 3.3 முதல் புதிய பக்கங்கள்"
 
-msgid "C++"
-msgstr "சி ++"
-
-msgid ":ref:`doc_cpp_usage_guidelines`"
-msgstr ": Ref: `doc_cpp_usage_guidelines`"
-
 msgid "GDScript"
 msgstr "GDSCRIPT"
 
@@ -346,27 +331,6 @@ msgstr "சிறந்த நடைமுறைகள்"
 
 msgid ":ref:`doc_version_control_systems`"
 msgstr ": Ref: `doc_version_control_systems`"
-
-msgid "Community"
-msgstr "சமூகம்"
-
-msgid ":ref:`doc_best_practices_for_engine_contributors`"
-msgstr ": ref: `doc_best_practices_for_engine_contributors`"
-
-msgid ":ref:`doc_bisecting_regressions`"
-msgstr ":ref:`doc_bisecting_regressions`"
-
-msgid ":ref:`doc_editor_and_docs_localization`"
-msgstr ": ref: `doc_editor_and_docs_localization`"
-
-msgid ":ref:`doc_introduction_to_editor_development`"
-msgstr ":ref:`doc_introduction_to_editor_development`"
-
-msgid ":ref:`doc_editor_style_guide`"
-msgstr ": குறிப்பு: `doc_editor_style_guide`"
-
-msgid ":ref:`doc_common_engine_methods_and_macros`"
-msgstr ": Ref: `doc_common_engine_methods_and_macros`"
 
 msgid ":ref:`doc_vulkan_validation_layers`"
 msgstr ": Ref: `doc_vulkan_validation_layers`"

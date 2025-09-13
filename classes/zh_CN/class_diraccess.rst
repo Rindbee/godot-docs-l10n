@@ -444,13 +444,13 @@ DirAccess
 
 :ref:`int<class_int>` **get_drive_count**\ (\ ) |static| :ref:`🔗<class_DirAccess_method_get_drive_count>`
 
-On Windows, returns the number of drives (partitions) mounted on the current filesystem.
+在 Windows 上，返回挂载在当前文件系统上的驱动器（分区）数量。
 
-On macOS and Android, returns the number of mounted volumes.
+在 macOS 和 Android 上，返回挂载卷的数量。
 
-On Linux, returns the number of mounted volumes and GTK 3 bookmarks.
+在 Linux 上，返回挂载卷与 GTK 3 书签的数量。
 
-On other platforms, the method returns 0.
+在其他平台上，该方法返回 0。
 
 .. rst-class:: classref-item-separator
 
@@ -462,15 +462,15 @@ On other platforms, the method returns 0.
 
 :ref:`String<class_String>` **get_drive_name**\ (\ idx\: :ref:`int<class_int>`\ ) |static| :ref:`🔗<class_DirAccess_method_get_drive_name>`
 
-On Windows, returns the name of the drive (partition) passed as an argument (e.g. ``C:``).
+在 Windows 上，返回作为参数传递的驱动器（分区）的名称（例如 ``C:``\ ）。
 
-On macOS, returns the path to the mounted volume passed as an argument.
+在 macOS 上，返回作为参数传递的挂载卷的路径。
 
-On Linux, returns the path to the mounted volume or GTK 3 bookmark passed as an argument.
+在 Linux 上，返回作为参数传递的挂载卷或 GTK 3 书签的路径。
 
-On Android (API level 30+), returns the path to the mounted volume as an argument.
+在 Android（API 等级 30+）上，返回作为参数的挂载卷的路径。
 
-On other platforms, or if the requested drive does not exist, the method returns an empty String.
+在其他平台上，或者当请求的驱动器不存在时，该方法会返回空的 String。
 
 .. rst-class:: classref-item-separator
 

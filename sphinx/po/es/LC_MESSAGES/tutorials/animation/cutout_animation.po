@@ -116,7 +116,7 @@ msgid "And much more!"
 msgstr "¡Y mucho más!"
 
 msgid "Making of GBot"
-msgstr "Creando a GBot"
+msgstr "Crear a GBot"
 
 msgid ""
 "For this tutorial, we will use as demo content the pieces of the `GBot "
@@ -446,7 +446,7 @@ msgstr ""
 "deseados que podrían interrumpir la animación de escala existente."
 
 msgid "Creating a rest pose"
-msgstr "Creando una posición de descanso"
+msgstr "Crear una posición de descanso"
 
 msgid ""
 "Think of a rest pose as a default pose that your cutout rig should be set to "

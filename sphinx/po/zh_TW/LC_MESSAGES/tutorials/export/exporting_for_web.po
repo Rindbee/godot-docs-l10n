@@ -742,3 +742,6 @@ msgstr "加密／加密金鑰"
 
 msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "Troubleshooting"
+msgstr "疑難排解"

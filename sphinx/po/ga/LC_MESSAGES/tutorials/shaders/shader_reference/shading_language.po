@@ -1127,17 +1127,6 @@ msgstr ""
 "Agus éidí in aghaidh an cháis á n-úsáid agat, tá roinnt srianta ann ar chóir "
 "duit a bheith ar an eolas fúthu:"
 
-msgid ""
-"**Per-instance uniforms do not support textures**, only regular scalar and "
-"vector types. As a workaround, you can pass a texture array as a regular "
-"uniform, then pass the index of the texture to be drawn using a per-instance "
-"uniform."
-msgstr ""
-"** Ní thacaíonn éide in aghaidh an ásc le huigeachtaí **, ach cineálacha "
-"rialta scalar agus veicteoirí. Mar workaround, is féidir leat pas a fháil "
-"sraith uigeachta mar éide rialta, ansin pas a fháil ar an innéacs an "
-"uigeacht a tharraingt ag baint úsáide as éide in aghaidh an ásc."
-
 msgid "There is a practical maximum limit of 16 instance uniforms per shader."
 msgstr "Tá uasteorainn phraiticiúil d'éide 16 shampla in aghaidh an shader."
 

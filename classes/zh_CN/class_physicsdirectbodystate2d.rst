@@ -205,7 +205,7 @@ PhysicsDirectBodyState2D
 - |void| **set_collision_layer**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_collision_layer**\ (\ )
 
-The body's collision layer.
+物体的碰撞层。
 
 .. rst-class:: classref-item-separator
 
@@ -222,7 +222,7 @@ The body's collision layer.
 - |void| **set_collision_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_collision_mask**\ (\ )
 
-The body's collision mask.
+物体的碰撞遮罩。
 
 .. rst-class:: classref-item-separator
 

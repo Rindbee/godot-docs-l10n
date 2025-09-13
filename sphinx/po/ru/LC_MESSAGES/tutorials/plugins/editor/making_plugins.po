@@ -69,6 +69,15 @@ msgstr ""
 "внутри папки проекта. Godot предоставляет диалоговое окно для генерации этих "
 "файлов и их размещения в нужном месте."
 
+msgid ""
+"In the main toolbar, click the ``Project`` dropdown. Then click ``Project "
+"Settings...``. Go to the ``Plugins`` tab and then click on "
+"the :button:`Create New Plugin` button in the top-right."
+msgstr ""
+"На главной панели инструментов нажмите раскрывающийся список ``Project``. "
+"Затем нажмите ``Project Settings...``. Перейдите на вкладку ``Plugins`` и "
+"нажмите кнопку :button:`Create New Plugin` в правом верхнем углу."
+
 msgid "You will see the dialog appear, like so:"
 msgstr "Появится диалоговое окно, похожее на это:"
 

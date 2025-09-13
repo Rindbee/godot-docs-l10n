@@ -963,16 +963,6 @@ msgstr ""
 "müssen sich auch mit Git vertraut machen, einem Versionskontrollsystem, das "
 "Godot-Entwickler verwenden."
 
-msgid ""
-"We explain how to work with the engine source, how to edit the "
-"documentation, and what other ways to contribute are there in "
-"our :ref:`documentation for contributors <doc_ways_to_contribute>`."
-msgstr ""
-"Wir erklären in unserer :ref:`Dokumentation für Mitwirkende "
-"<doc_ways_to_contribute>`, wie man mit dem Quellcode der Engine arbeitet, "
-"wie man die Dokumentation bearbeitet und welche anderen Möglichkeiten es "
-"gibt, einen Beitrag zu leisten."
-
 msgid "I have a great idea for Godot. How can I share it?"
 msgstr "Ich habe eine tolle Idee für Godot. Wie kann ich sie teilen?"
 
@@ -1366,9 +1356,6 @@ msgid "How can I support Godot development or contribute?"
 msgstr ""
 "Wie kann ich die Entwicklung von Godot unterstützen oder einen Beitrag "
 "leisten?"
-
-msgid "See :ref:`doc_ways_to_contribute`."
-msgstr "Siehe :ref:`doc_ways_to_contribute`."
 
 msgid "Who is working on Godot? How can I contact you?"
 msgstr "Wer arbeitet an Godot? Wie kann ich euch kontaktieren?"

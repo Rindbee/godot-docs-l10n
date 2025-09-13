@@ -14,6 +14,10 @@ msgstr ""
 msgid "Other languages"
 msgstr "Другие языки"
 
+msgid ""
+"The Godot developers officially support the following languages for Godot:"
+msgstr "Разработчики Godot официально поддерживают следующие языки для Godot:"
+
 msgid ":ref:`GDScript (all versions)<doc_gdscript>`"
 msgstr ":ref:`GDScript (all versions)<doc_gdscript>`"
 
@@ -23,6 +27,14 @@ msgstr ":ref:`C# (.NET version)<doc_c_sharp>`"
 msgid ":ref:`C++ (via GDExtension) <doc_godot_cpp>`"
 msgstr ":ref:`C++ (via GDExtension) <doc_godot_cpp>`"
 
+msgid ""
+"There are no plans to support additional languages officially. That said, "
+"the community offers several bindings for other languages (see below)."
+msgstr ""
+"Официальной поддержки дополнительных языков не планируется. Тем не менее, "
+"сообщество предлагает несколько вариантов привязок для других языков (см. "
+"ниже)."
+
 msgid "The bindings below are developed and maintained by the community:"
 msgstr "Приведенные ниже привязки разработаны и поддерживаются сообществом:"
 
@@ -31,6 +43,12 @@ msgstr "`Rust <https://github.com/godot-rust/godоt-rust>`__"
 
 msgid "`Go <https://github.com/grow-graphics/gd>`__"
 msgstr "`Go <https://github.com/grow-graphics/gd>`__"
+
+msgid "`Nim <https://github.com/godot-nim/gdext-nim>`__"
+msgstr "`Nim <https://github.com/godot-nim/gdext-nim>`__"
+
+msgid "`Rust <https://github.com/godot-rust/gdext>`__"
+msgstr "`Rust <https://github.com/godot-rust/gdext>`__"
 
 msgid "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
 msgstr "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"

@@ -1549,17 +1549,17 @@ enum **AutoTranslateMode**: :ref:`🔗<enum_Node_AutoTranslateMode>`
 
 |void| **_physics_process**\ (\ delta\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_Node_private_method__physics_process>`
 
-Called once on each physics tick, and allows Nodes to synchronize their logic with physics ticks. ``delta`` is the logical time between physics ticks in seconds and is equal to :ref:`Engine.time_scale<class_Engine_property_time_scale>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`.
+每个物理周期调用一次，允许节点将其逻辑与物理周期同步。\ ``delta`` 是物理周期之间的逻辑时间（单位为秒），等于 :ref:`Engine.time_scale<class_Engine_property_time_scale>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`\ 。
 
-It is only called if physics processing is enabled for this Node, which is done automatically if this method is overridden, and can be toggled with :ref:`set_physics_process()<class_Node_method_set_physics_process>`.
+启用该节点的物理处理后才会调用该方法，覆盖该方法后会自动启用，可以使用 :ref:`set_physics_process()<class_Node_method_set_physics_process>` 开关。
 
-Processing happens in order of :ref:`process_physics_priority<class_Node_property_process_physics_priority>`, lower priority values are called first. Nodes with the same priority are processed in tree order, or top to bottom as seen in the editor (also known as pre-order traversal).
+处理按照 :ref:`process_physics_priority<class_Node_property_process_physics_priority>` 的顺序进行，优先级取值越低越先调用。优先级相同的节点按照树顺序处理，即编辑器中从上到下的顺序（也叫前序遍历）。
 
-Corresponds to the :ref:`NOTIFICATION_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>` notification in :ref:`Object._notification()<class_Object_private_method__notification>`.
+对应 :ref:`Object._notification()<class_Object_private_method__notification>` 中的 :ref:`NOTIFICATION_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>` 通知。
 
-\ **Note:** This method is only called if the node is present in the scene tree (i.e. if it's not an orphan).
+\ **注意：**\ 节点位于场景树中才会调用该方法（即不能是孤立节点）。
 
-\ **Note:** Accumulated ``delta`` may diverge from real world seconds.
+\ **注意：**\ 累计的 ``delta`` 可能与现实世界的秒数有所不同。
 
 .. rst-class:: classref-item-separator
 
@@ -1571,21 +1571,21 @@ Corresponds to the :ref:`NOTIFICATION_PHYSICS_PROCESS<class_Node_constant_NOTIFI
 
 |void| **_process**\ (\ delta\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_Node_private_method__process>`
 
-Called on each idle frame, prior to rendering, and after physics ticks have been processed. ``delta`` is the time between frames in seconds.
+在渲染之前以及物理周期处理完之后，在每个空闲帧上调用。\ ``delta`` 是帧之间的时间（单位为秒）。
 
-It is only called if processing is enabled for this Node, which is done automatically if this method is overridden, and can be toggled with :ref:`set_process()<class_Node_method_set_process>`.
+启用该节点的处理后才会调用该方法，覆盖该方法后会自动启用，可以使用 :ref:`set_process()<class_Node_method_set_process>` 开关。
 
-Processing happens in order of :ref:`process_priority<class_Node_property_process_priority>`, lower priority values are called first. Nodes with the same priority are processed in tree order, or top to bottom as seen in the editor (also known as pre-order traversal).
+处理按照 :ref:`process_priority<class_Node_property_process_priority>` 的顺序进行，优先级取值越低越先调用。优先级相同的节点按照树顺序处理，即编辑器中从上到下的顺序（也叫前序遍历）。
 
-Corresponds to the :ref:`NOTIFICATION_PROCESS<class_Node_constant_NOTIFICATION_PROCESS>` notification in :ref:`Object._notification()<class_Object_private_method__notification>`.
+对应 :ref:`Object._notification()<class_Object_private_method__notification>` 中的 :ref:`NOTIFICATION_PROCESS<class_Node_constant_NOTIFICATION_PROCESS>` 通知。
 
-\ **Note:** This method is only called if the node is present in the scene tree (i.e. if it's not an orphan).
+\ **注意：**\ 节点位于场景树中才会调用该方法（即不能是孤立节点）。
 
-\ **Note:** When the engine is struggling and the frame rate is lowered, ``delta`` will increase. When ``delta`` is increased, it's capped at a maximum of :ref:`Engine.time_scale<class_Engine_property_time_scale>` \* :ref:`Engine.max_physics_steps_per_frame<class_Engine_property_max_physics_steps_per_frame>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`. As a result, accumulated ``delta`` may not represent real world time.
+\ **注意：**\ 当引擎运行困难且帧率降低时，\ ``delta`` 会增加。当 ``delta`` 增加时，其最大值为 :ref:`Engine.time_scale<class_Engine_property_time_scale>` \* :ref:`Engine.max_physics_steps_per_frame<class_Engine_property_max_physics_steps_per_frame>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`\ 。因此，累积的 ``delta`` 可能无法代表真实世界时间。
 
-\ **Note:** When ``--fixed-fps`` is enabled or the engine is running in Movie Maker mode (see :ref:`MovieWriter<class_MovieWriter>`), process ``delta`` will always be the same for every frame, regardless of how much time the frame took to render.
+\ **注意：**\ 当启用 ``--fixed-fps`` 或引擎在 Movie Maker 模式（参见 :ref:`MovieWriter<class_MovieWriter>`\ ）下运行时，无论渲染该帧花费了多少时间，处理 ``delta`` 对每一帧来说始终都是相同的。
 
-\ **Note:** Frame delta may be post-processed by :ref:`OS.delta_smoothing<class_OS_property_delta_smoothing>` if this is enabled for the project.
+\ **注意：**\ 如果项目启用了 :ref:`OS.delta_smoothing<class_OS_property_delta_smoothing>` 功能，则帧增量可能会通过它进行后期处理。
 
 .. rst-class:: classref-item-separator
 

@@ -11,5 +11,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"The Godot developers officially support the following languages for Godot:"
+msgstr "Godot 개발자는 공식적으로 다음 언어를 Godot에서 지원합니다:"
+
+msgid ":ref:`GDScript (all versions)<doc_gdscript>`"
+msgstr ":ref:`GDScript (모든 버전)<doc_gdscript>`"
+
+msgid ":ref:`C# (.NET version)<doc_c_sharp>`"
+msgstr ":ref:`C# (.NET 버전)<doc_c_sharp>`"
+
+msgid ":ref:`C++ (via GDExtension) <doc_godot_cpp>`"
+msgstr ":ref:`C++ (GDExtension을 통해) <doc_godot_cpp>`"
+
 msgid "`Go <https://github.com/grow-graphics/gd>`__"
 msgstr "`Go <https://github.com/grow-graphics/gd>`__"

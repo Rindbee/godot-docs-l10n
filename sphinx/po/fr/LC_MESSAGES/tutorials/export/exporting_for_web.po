@@ -366,3 +366,6 @@ msgstr "Cryptage / Clé de cryptage"
 
 msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "Troubleshooting"
+msgstr "Dépannage"

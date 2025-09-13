@@ -40,13 +40,6 @@ msgid ":ref:`CollisionShape2D <class_CollisionShape2D>`"
 msgstr ":ref:`CollisionShape2D <class_CollisionShape2D>`"
 
 msgid ""
-"Don't forget to set the children so they can't be selected, like you did "
-"with the Player scene."
-msgstr ""
-"Nie zapomnij ustawić dzieci tak, aby nie mogły być wybierane, tak jak "
-"zrobiliśmy to w przypadku sceny z graczem."
-
-msgid ""
 "We'll select one of these animations randomly so that the mobs will have "
 "some variety."
 msgstr ""

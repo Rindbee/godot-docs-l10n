@@ -1576,6 +1576,11 @@ msgstr ""
 "包括对流行的独立头显的支持，例如 Meta Quest 1/2/3 和 Pro、Pico 4、Magic Leap "
 "2 和 Lynx R1。"
 
+msgid ""
+"Currently only exporting an application for use on a flat plane within the "
+"headset is supported. Immersive experiences are not supported."
+msgstr "目前仅支持导出一个在头显内部的平面上使用的应用程序，不支持沉浸式体验。"
+
 msgid "Other devices supported through an XR plugin structure."
 msgstr "通过 XR 插件结构支持的其他设备。"
 
@@ -1851,11 +1856,6 @@ msgstr ""
 
 msgid "Licensed under the permissive MIT license."
 msgstr "使用宽松的 MIT 许可。"
-
-msgid ""
-"Open development process with :ref:`contributions welcome "
-"<doc_ways_to_contribute>`."
-msgstr "开放的开发过程，\\ :ref:`欢迎贡献 <doc_ways_to_contribute>`\\ 。"
 
 msgid ""
 "The `Godot proposals repository <https://github.com/godotengine/godot-"

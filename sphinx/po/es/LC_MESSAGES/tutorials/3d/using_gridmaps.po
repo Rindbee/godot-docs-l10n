@@ -42,7 +42,7 @@ msgid "Example project"
 msgstr "Proyecto ejemplo"
 
 msgid "Creating a MeshLibrary"
-msgstr "Creando una MeshLibrary"
+msgstr "Crear una MeshLibrary"
 
 msgid ""
 "If you don't need any physics in your scene, then you're done. However, in "

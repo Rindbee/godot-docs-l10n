@@ -152,7 +152,7 @@ enum **ShadowMode**: :ref:`🔗<enum_OmniLight3D_ShadowMode>`
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要用户覆盖才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

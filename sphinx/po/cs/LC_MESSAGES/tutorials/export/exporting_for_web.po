@@ -28,3 +28,6 @@ msgstr "Síťování"
 
 msgid "Clipboard"
 msgstr "Schránka"
+
+msgid "Troubleshooting"
+msgstr "Odstraňování problémů"

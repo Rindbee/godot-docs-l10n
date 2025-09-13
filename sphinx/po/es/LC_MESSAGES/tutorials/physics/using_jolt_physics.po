@@ -14,5 +14,8 @@ msgstr ""
 msgid "Introduction"
 msgstr "Introducción"
 
+msgid "The unsupported properties are:"
+msgstr "Las propiedades no admitidas son:"
+
 msgid "WorldBoundaryShape3D"
 msgstr "WorldBoundaryShape3D"

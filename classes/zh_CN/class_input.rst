@@ -676,23 +676,23 @@ I 形光标。通常用于指示点击鼠标后文本光标的位置。
 
 :ref:`Dictionary<class_Dictionary>` **get_joy_info**\ (\ device\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Input_method_get_joy_info>`
 
-Returns a dictionary with extra platform-specific information about the device, e.g. the raw gamepad name from the OS or the Steam Input index.
+返回关于设备的额外平台相关信息字典，例如操作系统的原始游戏手柄名称，或者 Steam Input 索引。
 
-On Windows, Linux, and macOS, the dictionary contains the following fields:
+在 Windows、Linux、macOS 上，该字典包含如下字段：
 
-\ ``raw_name``: The name of the controller as it came from the OS, before getting renamed by the controller database.
+\ ``raw_name``\ ：操作系统汇报的控制器名称，未经过控制器数据库的重命名。
 
-\ ``vendor_id``: The USB vendor ID of the device.
+\ ``vendor_id``\ ：设备的 USB 供应商 ID。
 
-\ ``product_id``: The USB product ID of the device.
+\ ``product_id``\ ：设备的 USB 产品 ID。
 
-\ ``steam_input_index``: The Steam Input gamepad index, if the device is not a Steam Input device this key won't be present.
+\ ``steam_input_index``\ ：Steam Input 游戏手柄索引，如果该设备不是 Steam Input 设备则该字段不存在。
 
-On Windows, the dictionary can have an additional field:
+在 Windows 上，字典中还会包含一个额外的字段：
 
-\ ``xinput_index``: The index of the controller in the XInput system. This key won't be present for devices not handled by XInput.
+\ ``xinput_index``\ ：控制器在 XInput 系统中的索引。未经 XInput 处理的设备不存在该键。
 
-\ **Note:** The returned dictionary is always empty on Android, iOS, visionOS, and Web.
+\ **注意：**\ 在 Android、iOS、visionOS、Web 平台上，返回的字典始终为空。
 
 .. rst-class:: classref-item-separator
 
@@ -808,17 +808,17 @@ On Windows, the dictionary can have an additional field:
 
 :ref:`bool<class_bool>` **is_action_just_pressed**\ (\ action\: :ref:`StringName<class_StringName>`, exact_match\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Input_method_is_action_just_pressed>`
 
-Returns ``true`` when the user has *started* pressing the action event in the current frame or physics tick. It will only return ``true`` on the frame or tick that the user pressed down the button.
+当用户在当前帧或物理周期中\ *开始*\ 按下动作事件时返回 ``true``\ 。只在用户按下按钮的那一帧或周期中为 ``true``\ 。
 
-This is useful for code that needs to run only once when an action is pressed, instead of every frame while it's pressed.
+如果代码只需要在动作按下时执行一次，而不是只要处于按下状态就每帧都需要执行，那么这个方法就很有用。
 
-If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:`InputEventKey<class_InputEventKey>` and :ref:`InputEventMouseButton<class_InputEventMouseButton>` events, and the direction for :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` events.
+如果 ``exact_match`` 为 ``false``\ ，则会忽略 :ref:`InputEventKey<class_InputEventKey>` 和 :ref:`InputEventMouseButton<class_InputEventMouseButton>` 事件的额外输入修饰键，以及 :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` 事件的方向。
 
-\ **Note:** Returning ``true`` does not imply that the action is *still* pressed. An action can be pressed and released again rapidly, and ``true`` will still be returned so as not to miss input.
+\ **注意：**\ 返回 ``true`` 并不意味着该动作\ *仍然*\ 处于按下状态。动作在按下后是可以很快再释放的，为了不丢失输入，这种情况下仍然会返回 ``true``\ 。
 
-\ **Note:** Due to keyboard ghosting, :ref:`is_action_just_pressed()<class_Input_method_is_action_just_pressed>` may return ``false`` even if one of the action's keys is pressed. See `Input examples <../tutorials/inputs/input_examples.html#keyboard-events>`__ in the documentation for more information.
+\ **注意：**\ 由于键盘重影，即便该动作的某个键处于按下状态，\ :ref:`is_action_just_pressed()<class_Input_method_is_action_just_pressed>` 仍可能会返回 ``false``\ 。详见文档中的\ `《输入示例》 <../tutorials/inputs/input_examples.html#keyboard-events>`__\ 。
 
-\ **Note:** During input handling (e.g. :ref:`Node._input()<class_Node_private_method__input>`), use :ref:`InputEvent.is_action_pressed()<class_InputEvent_method_is_action_pressed>` instead to query the action state of the current event. See also :ref:`is_action_just_pressed_by_event()<class_Input_method_is_action_just_pressed_by_event>`.
+\ **注意：**\ 在输入处理期间（例如 :ref:`Node._input()<class_Node_private_method__input>`\ ），请使用 :ref:`InputEvent.is_action_pressed()<class_InputEvent_method_is_action_pressed>` 来查询当前事件的动作状态。另见 :ref:`is_action_just_pressed_by_event()<class_Input_method_is_action_just_pressed_by_event>`\ 。
 
 .. rst-class:: classref-item-separator
 
@@ -830,15 +830,15 @@ If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:
 
 :ref:`bool<class_bool>` **is_action_just_pressed_by_event**\ (\ action\: :ref:`StringName<class_StringName>`, event\: :ref:`InputEvent<class_InputEvent>`, exact_match\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Input_method_is_action_just_pressed_by_event>`
 
-Returns ``true`` when the user has *started* pressing the action event in the current frame or physics tick, and the first event that triggered action press in the current frame/physics tick was ``event``. It will only return ``true`` on the frame or tick that the user pressed down the button.
+当用户在当前帧或物理周期中\ *开始*\ 按下动作事件，并且在当前帧/物理周期中触发动作按下的第一个事件是 ``event`` 时，返回 ``true``\ 。只在用户按下按钮的那一帧或周期中为 ``true``\ 。
 
-This is useful for code that needs to run only once when an action is pressed, and the action is processed during input handling (e.g. :ref:`Node._input()<class_Node_private_method__input>`).
+如果代码只需要在动作按下时执行一次，并且该动作在输入处理期间（例如 :ref:`Node._input()<class_Node_private_method__input>`\ ）进行处理，那么这个方法就很有用。
 
-If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:`InputEventKey<class_InputEventKey>` and :ref:`InputEventMouseButton<class_InputEventMouseButton>` events, and the direction for :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` events.
+如果 ``exact_match`` 为 ``false``\ ，则会忽略 :ref:`InputEventKey<class_InputEventKey>` 和 :ref:`InputEventMouseButton<class_InputEventMouseButton>` 事件的额外输入修饰键，以及 :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` 事件的方向。
 
-\ **Note:** Returning ``true`` does not imply that the action is *still* pressed. An action can be pressed and released again rapidly, and ``true`` will still be returned so as not to miss input.
+\ **注意：**\ 返回 ``true`` 并不意味着该动作\ *仍然*\ 处于按下状态。动作在按下后是可以很快再释放的，为了不丢失输入，这种情况下仍然会返回 ``true``\ 。
 
-\ **Note:** Due to keyboard ghosting, :ref:`is_action_just_pressed()<class_Input_method_is_action_just_pressed>` may return ``false`` even if one of the action's keys is pressed. See `Input examples <../tutorials/inputs/input_examples.html#keyboard-events>`__ in the documentation for more information.
+\ **注意：**\ 由于键盘重影，即便该动作的某个键处于按下状态，\ :ref:`is_action_just_pressed()<class_Input_method_is_action_just_pressed>` 仍可能会返回 ``false``\ 。详见文档中的\ `《输入示例》 <../tutorials/inputs/input_examples.html#keyboard-events>`__\ 。
 
 .. rst-class:: classref-item-separator
 
@@ -850,13 +850,13 @@ If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:
 
 :ref:`bool<class_bool>` **is_action_just_released**\ (\ action\: :ref:`StringName<class_StringName>`, exact_match\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Input_method_is_action_just_released>`
 
-Returns ``true`` when the user *stops* pressing the action event in the current frame or physics tick. It will only return ``true`` on the frame or tick that the user releases the button.
+当用户在当前帧或物理周期中\ *停止*\ 按下动作事件时返回 ``true``\ 。只在用户松开按钮的那一帧或周期中为 ``true``\ 。
 
-\ **Note:** Returning ``true`` does not imply that the action is *still* not pressed. An action can be released and pressed again rapidly, and ``true`` will still be returned so as not to miss input.
+\ **注意：**\ 返回 ``true`` 并不意味着该动作\ *仍然*\ 处于松开状态。动作在松开后是可以很快再按下的，为了不丢失输入，这种情况下仍然会返回 ``true``\ 。
 
-If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:`InputEventKey<class_InputEventKey>` and :ref:`InputEventMouseButton<class_InputEventMouseButton>` events, and the direction for :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` events.
+如果 ``exact_match`` 为 ``false``\ ，则会忽略 :ref:`InputEventKey<class_InputEventKey>` 和 :ref:`InputEventMouseButton<class_InputEventMouseButton>` 事件的额外输入修饰键，以及 :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` 事件的方向。
 
-\ **Note:** During input handling (e.g. :ref:`Node._input()<class_Node_private_method__input>`), use :ref:`InputEvent.is_action_released()<class_InputEvent_method_is_action_released>` instead to query the action state of the current event. See also :ref:`is_action_just_released_by_event()<class_Input_method_is_action_just_released_by_event>`.
+\ **注意：**\ 在输入处理期间（例如 :ref:`Node._input()<class_Node_private_method__input>`\ ），请使用 :ref:`InputEvent.is_action_released()<class_InputEvent_method_is_action_released>` 来查询当前事件的动作状态。另见 :ref:`is_action_just_released_by_event()<class_Input_method_is_action_just_released_by_event>`\ 。
 
 .. rst-class:: classref-item-separator
 
@@ -868,13 +868,13 @@ If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:
 
 :ref:`bool<class_bool>` **is_action_just_released_by_event**\ (\ action\: :ref:`StringName<class_StringName>`, event\: :ref:`InputEvent<class_InputEvent>`, exact_match\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Input_method_is_action_just_released_by_event>`
 
-Returns ``true`` when the user *stops* pressing the action event in the current frame or physics tick, and the first event that triggered action release in the current frame/physics tick was ``event``. It will only return ``true`` on the frame or tick that the user releases the button.
+当用户在当前帧或物理周期中\ *停止*\ 按下动作事件，并且在当前帧/物理周期中触发动作松开的第一个事件是 ``event`` 时，返回 ``true``\ 。只在用户松开按钮的那一帧或周期中为 ``true``\ 。
 
-This is useful when an action is processed during input handling (e.g. :ref:`Node._input()<class_Node_private_method__input>`).
+当在输入处理期间（例如 :ref:`Node._input()<class_Node_private_method__input>`\ ）处理动作时这很有用。
 
-\ **Note:** Returning ``true`` does not imply that the action is *still* not pressed. An action can be released and pressed again rapidly, and ``true`` will still be returned so as not to miss input.
+\ **注意：**\ 返回 ``true`` 并不意味着该动作\ *仍然*\ 处于松开状态。动作在松开后是可以很快再按下的，为了不丢失输入，这种情况下仍然会返回 ``true``\ 。
 
-If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:`InputEventKey<class_InputEventKey>` and :ref:`InputEventMouseButton<class_InputEventMouseButton>` events, and the direction for :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` events.
+如果 ``exact_match`` 为 ``false``\ ，则会忽略 :ref:`InputEventKey<class_InputEventKey>` 和 :ref:`InputEventMouseButton<class_InputEventMouseButton>` 事件的额外输入修饰键，以及 :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` 事件的方向。
 
 .. rst-class:: classref-item-separator
 

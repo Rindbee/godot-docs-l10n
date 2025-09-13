@@ -94,7 +94,7 @@ msgstr ""
 "프로젝트는 항상 각자의 HTML를 생성해야 합니다. 내보내기 과정에서, 내보내기 옵"
 "션에 따라 생성된 HTML의 text placeholders들이 대체됩니다. HTML을 직접 수정한 "
 "부분은 이후 내보내기 과정에서 사라지게 됩니다. 생성된 파일을 수정하려면 "
-"**Custom HTML shell** 옵션을 사용하십시오."
+"**Custom HTML shell** 옵션을 사용하세요."
 
 msgid "Limitations"
 msgstr "제한 사항"
@@ -307,3 +307,6 @@ msgstr "암호화 / 암호화 키"
 
 msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "Troubleshooting"
+msgstr "문제 해결"

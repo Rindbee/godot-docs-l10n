@@ -58,3 +58,6 @@ msgstr "썰기"
 
 msgid "Dictionary"
 msgstr "딕셔너리"
+
+msgid "keys"
+msgstr "키"

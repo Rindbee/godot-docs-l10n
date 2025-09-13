@@ -450,3 +450,6 @@ msgstr "Eochair Chriptithe / Chriptithe"
 
 msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 msgstr "''GODOT_SCRIPT_ENCRYPTION_KEY''"
+
+msgid "Troubleshooting"
+msgstr "Fabhtcheartú"

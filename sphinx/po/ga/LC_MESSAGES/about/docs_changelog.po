@@ -196,12 +196,6 @@ msgstr ":ref:'doc_c_sharp_variant'"
 msgid ":ref:`doc_compute_shaders`"
 msgstr ":tag:'doc_compute_shaders'"
 
-msgid "Workflow"
-msgstr "Sreabhadh oibre"
-
-msgid ":ref:`doc_pr_review_guidelines`"
-msgstr ":ref:'doc_pr_review_guidelines'"
-
 msgid ":ref:`doc_introducing_xr_tools`"
 msgstr ":tag:'doc_introducing_xr_tools'"
 
@@ -232,12 +226,6 @@ msgstr ":ref:'doc_managing_editor_features'"
 msgid "New pages since version 3.3"
 msgstr "Leathanaigh nua ó leagan 3.3"
 
-msgid "C++"
-msgstr "C ++"
-
-msgid ":ref:`doc_cpp_usage_guidelines`"
-msgstr ":ref:'doc_cpp_usage_guidelines'"
-
 msgid "GDScript"
 msgstr "GDScriptName"
 
@@ -264,27 +252,6 @@ msgstr "Dea-chleachtais"
 
 msgid ":ref:`doc_version_control_systems`"
 msgstr ":tag:'doc_version_control_systems'"
-
-msgid "Community"
-msgstr "Pobal"
-
-msgid ":ref:`doc_best_practices_for_engine_contributors`"
-msgstr ":ref:'doc_best_practices_for_engine_contributors'"
-
-msgid ":ref:`doc_bisecting_regressions`"
-msgstr ":ref:'doc_bisecting_regressions'"
-
-msgid ":ref:`doc_editor_and_docs_localization`"
-msgstr ":ref:'doc_editor_and_docs_localization'"
-
-msgid ":ref:`doc_introduction_to_editor_development`"
-msgstr ":ref:'doc_introduction_to_editor_development'"
-
-msgid ":ref:`doc_editor_style_guide`"
-msgstr ":ref:'doc_editor_style_guide'"
-
-msgid ":ref:`doc_common_engine_methods_and_macros`"
-msgstr ":tag:'doc_common_engine_methods_and_macros'"
 
 msgid ":ref:`doc_vulkan_validation_layers`"
 msgstr ":tag:'doc_vulkan_validation_layers'"

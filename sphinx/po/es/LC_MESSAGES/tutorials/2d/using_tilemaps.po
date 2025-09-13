@@ -545,7 +545,7 @@ msgstr ""
 "modo dándole a click derecho en lugar de click izquierdo."
 
 msgid "Painting randomly using scattering"
-msgstr "Creando y usando nodos únicos"
+msgstr "Crear y usando nodos únicos"
 
 msgid ""
 "While painting, you can optionally enable *randomization*. When enabled, a "
@@ -627,8 +627,7 @@ msgstr ""
 "espacio vacío), luego pulsa :kbd:`Ctrl+V`:"
 
 msgid "Creating a new pattern from a selection in the TileMap editor"
-msgstr ""
-"Creando un nuevo patrón a partir de la selección en el editor de TileMap"
+msgstr "Crear un nuevo patrón a partir de la selección en el editor de TileMap"
 
 msgid ""
 "To use an existing pattern, click its image in the **Patterns** tab, switch "

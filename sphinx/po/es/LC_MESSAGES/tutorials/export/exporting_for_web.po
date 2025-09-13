@@ -308,3 +308,6 @@ msgstr "**Host que proveen compresión sobre la marcha:** GitHub Pages (gzip)"
 
 msgid "Environment variables"
 msgstr "Variables de entorno"
+
+msgid "Troubleshooting"
+msgstr "Solución De Problemas"

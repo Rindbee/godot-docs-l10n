@@ -224,7 +224,7 @@ InputEvent
 
 :ref:`bool<class_bool>` **is_action_type**\ (\ ) |const| :ref:`🔗<class_InputEvent_method_is_action_type>`
 
-Returns ``true`` if this input event's type is one that can be assigned to an input action: :ref:`InputEventKey<class_InputEventKey>`, :ref:`InputEventMouseButton<class_InputEventMouseButton>`, :ref:`InputEventJoypadButton<class_InputEventJoypadButton>`, :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`, :ref:`InputEventAction<class_InputEventAction>`. Returns ``false`` for all other input event types.
+如果该输入事件的类型可以分配给输入事件则返回 ``true``\ ，这些类型包括：\ :ref:`InputEventKey<class_InputEventKey>`\ 、\ :ref:`InputEventMouseButton<class_InputEventMouseButton>`\ 、\ :ref:`InputEventJoypadButton<class_InputEventJoypadButton>`\ 、\ :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\ 、\ :ref:`InputEventAction<class_InputEventAction>`\ 。其他所有输入事件类型都会返回 ``false``\ 。
 
 .. rst-class:: classref-item-separator
 

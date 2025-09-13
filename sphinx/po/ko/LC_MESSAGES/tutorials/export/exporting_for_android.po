@@ -303,7 +303,7 @@ msgid ""
 msgstr ""
 "그 밖에서 Android 내보내기 템플릿의 필요한 기능만을 활성화 해 컴파일하는 등으"
 "로 용량을 더 줄일 수 있습니다. :ref:`doc_optimizing_for_size`에서 추가 정보"
-"를 확인하십시오."
+"를 확인하세요."
 
 msgid "Export option"
 msgstr "내보내기 옵션"

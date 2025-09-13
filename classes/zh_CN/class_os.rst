@@ -1473,15 +1473,15 @@ enum **StdHandleType**: :ref:`🔗<enum_OS_StdHandleType>`
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_video_adapter_driver_info**\ (\ ) |const| :ref:`🔗<class_OS_method_get_video_adapter_driver_info>`
 
-Returns the video adapter driver name and version for the user's currently active graphics card, as a :ref:`PackedStringArray<class_PackedStringArray>`. See also :ref:`RenderingServer.get_video_adapter_api_version()<class_RenderingServer_method_get_video_adapter_api_version>`.
+返回用户当前激活的显卡的视频适配器驱动程序名称和版本，返回为一个 :ref:`PackedStringArray<class_PackedStringArray>`\ 。另见 :ref:`RenderingServer.get_video_adapter_api_version()<class_RenderingServer_method_get_video_adapter_api_version>`\ 。
 
-The first element holds the driver name, such as ``nvidia``, ``amdgpu``, etc.
+第一个元素保存驱动程序的名称，如 ``nvidia``\ 、\ ``amdgpu`` 等。
 
-The second element holds the driver version. For example, on the ``nvidia`` driver on a Linux/BSD platform, the version is in the format ``510.85.02``. For Windows, the driver's format is ``31.0.15.1659``.
+第二个元素保存驱动程序的版本。例如 Linux/BSD 平台上的 ``nvidia`` 驱动程序，其版本格式为 ``510.85.02``\ 。对于 Windows，其驱动程序的格式是 ``31.0.15.1659``\ 。
 
-\ **Note:** This method is only supported on Linux/BSD and Windows when not running in headless mode. On other platforms, it returns an empty array.
+\ **注意：**\ 该方法仅在 Linux/BSD 和 Windows 上不以无头模式运行时才受支持。在其他平台上，它返回一个空数组。
 
-\ **Note:** This method will run slowly the first time it is called in a session; it can take several seconds depending on the operating system and hardware. It is blocking if called on the main thread, so it's recommended to call it on a separate thread using :ref:`Thread<class_Thread>`. This allows the engine to keep running while the information is being retrieved. However, :ref:`get_video_adapter_driver_info()<class_OS_method_get_video_adapter_driver_info>` is *not* thread-safe, so it should not be called from multiple threads at the same time.
+\ **注意：**\ 会话中首次调用该方法时会比较慢，可能会花费好几秒，具体取决于操作系统和硬件。在主线程上调用时会阻塞，因此建议使用 :ref:`Thread<class_Thread>` 在独立线程中调用。这样引擎就可以一边收集信息一边运行了。不过 :ref:`get_video_adapter_driver_info()<class_OS_method_get_video_adapter_driver_info>` *不是*\ 线程安全的，因此不应该在同一时间使用多个线程调用。
 
 
 .. tabs::
@@ -1495,9 +1495,9 @@ The second element holds the driver version. For example, on the ``nvidia`` driv
             func():
                 var driver_info = OS.get_video_adapter_driver_info()
                 if not driver_info.is_empty():
-                    print("Driver: %s %s" % [driver_info[0], driver_info[1]])
+                    print("驱动： %s %s" % [driver_info[0], driver_info[1]])
                 else:
-                    print("Driver: (unknown)")
+                    print("驱动：（未知）")
         )
 
     func _exit_tree():

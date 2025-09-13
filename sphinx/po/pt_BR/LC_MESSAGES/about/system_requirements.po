@@ -41,6 +41,16 @@ msgstr "PC Desktop ou Notebook - Mínimo"
 msgid "**CPU**"
 msgstr "**CPU**"
 
+msgid ""
+"**Windows:** x86_32 CPU with SSE2 support, x86_64 CPU with SSE4.2 support, "
+"ARMv8 CPU"
+msgstr ""
+"**Windows:** CPU x86_32 com suporte a SSE2, CPU x86_64 com suporte a SSE4.2, "
+"CPU ARMv8"
+
+msgid "*Example: Intel Core 2 Duo E8200, AMD FX-4100, Snapdragon X Elite*"
+msgstr "*Exemplo: Intel Core 2 Duo E8200, AMD FX-4100, Snapdragon X Elite*"
+
 msgid "**macOS:** x86_64 or ARM CPU (Apple Silicon)"
 msgstr "**macOS**: x86_64 ou ARM (Apple Silicon)"
 

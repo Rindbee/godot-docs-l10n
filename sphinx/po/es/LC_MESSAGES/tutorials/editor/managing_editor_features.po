@@ -34,7 +34,7 @@ msgstr ""
 "Godot, consulta :ref:`doc_performance`."
 
 msgid "Creating a profile"
-msgstr "Creando un perfil"
+msgstr "Crear un perfil"
 
 msgid ""
 "To manage editor features go to **Editor > Manage Editor Features**. This "

@@ -63,7 +63,7 @@ msgid "image2"
 msgstr "image2"
 
 msgid "Creating the spawn path"
-msgstr "Creando la ruta de generación"
+msgstr "Crear la ruta de generación"
 
 msgid ""
 "Like you did in the 2D game tutorial, you're going to design a path and use "

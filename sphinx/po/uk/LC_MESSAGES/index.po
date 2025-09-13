@@ -20,9 +20,6 @@ msgstr "Перші кроки"
 msgid "Manual"
 msgstr "Посібник"
 
-msgid "Contributing"
-msgstr "Участь у розробці"
-
 msgid "Community"
 msgstr "Спільнота"
 

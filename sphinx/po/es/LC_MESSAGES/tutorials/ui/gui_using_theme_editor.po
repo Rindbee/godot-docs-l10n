@@ -29,7 +29,7 @@ msgstr ""
 "diálogo para realizar operaciones masivas de elementos del tema."
 
 msgid "Creating a theme"
-msgstr "Creando un tema"
+msgstr "Crear un tema"
 
 msgid ""
 "Like any other resources, themes can be created directly in the file system "

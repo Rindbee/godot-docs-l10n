@@ -461,3 +461,6 @@ msgstr "加密 / 密钥"
 
 msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "Troubleshooting"
+msgstr "故障排除"

@@ -68,32 +68,14 @@ msgstr "Pipeline de assets"
 msgid "Scripting"
 msgstr "Scripting"
 
-msgid "Workflow"
-msgstr "Fluxo de trabalho"
-
-msgid ":ref:`doc_pr_review_guidelines`"
-msgstr ":ref:`doc_pr_review_guidelines`"
-
 msgid "None."
 msgstr "Nenhum."
-
-msgid "C++"
-msgstr "C++"
 
 msgid "GDScript"
 msgstr "GDScript"
 
 msgid "Best practices"
 msgstr "Boas práticas"
-
-msgid "Community"
-msgstr "Comunidade"
-
-msgid ":ref:`doc_best_practices_for_engine_contributors`"
-msgstr ":ref:`doc_best_practices_for_engine_contributors`"
-
-msgid ":ref:`doc_editor_and_docs_localization`"
-msgstr ":ref:`doc_editor_and_docs_localization`"
 
 msgid "Configuring an IDE: :ref:`doc_configuring_an_ide_code_blocks`"
 msgstr "Configurando um IDE: :ref:`doc_configuring_an_ide_code_blocks`"

@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Creating script templates"
-msgstr "Creando plantillas de scripts"
+msgstr "Crear plantillas de scripts"
 
 msgid ""
 "Godot provides a way to use script templates as seen in the ``Script Create "

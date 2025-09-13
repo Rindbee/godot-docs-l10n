@@ -180,13 +180,13 @@ msgstr ""
 "compilarlo en Xcode cuando quieras ejecutarlo en un dispositivo."
 
 msgid "Plugins for iOS"
-msgstr "Complementos para iOS"
+msgstr "Plugins para iOS"
 
 msgid ""
 "Special iOS plugins can be used in Godot. Check out "
 "the :ref:`doc_plugins_for_ios` page."
 msgstr ""
-"Se pueden utilizar complementos especiales de iOS en Godot. Consulta la "
+"Se pueden utilizar plugins especiales de iOS en Godot. Consulta la "
 "página :ref:`doc_plugins_for_ios` para obtener más información."
 
 msgid "Environment variables"

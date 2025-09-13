@@ -945,15 +945,6 @@ msgstr ""
 "築する方法を学ぶ必要があります。また、Godot 開発者が使用するバージョン管理シ"
 "ステムである Git についても理解しておく必要があります。"
 
-msgid ""
-"We explain how to work with the engine source, how to edit the "
-"documentation, and what other ways to contribute are there in "
-"our :ref:`documentation for contributors <doc_ways_to_contribute>`."
-msgstr ""
-"エンジンソースの扱い方、ドキュメントの編集方法、その他の貢献方法について"
-"は :ref:`documentation for contributors <doc_ways_to_contribute>` で説明して"
-"います。"
-
 msgid "I have a great idea for Godot. How can I share it?"
 msgstr "Godotについていいアイデアがあるのですが、どこで共有すればいいですか？"
 
@@ -1234,6 +1225,12 @@ msgstr ""
 "私たちはカスタムString型を使用しています。STLが提供するものは基本的すぎて、適"
 "切な国際化サポートが不足しているためです。"
 
+msgid ""
+"Check out :ref:`Godot's container types <doc_core_types>` for alternatives."
+msgstr ""
+"代替については、 :ref:`Godot のコンテナ タイプ <doc_core_types>` を参照してく"
+"ださい。"
+
 msgid "Why does Godot not use exceptions?"
 msgstr "なぜGodotは例外処理を使わないのですか？"
 
@@ -1327,9 +1324,6 @@ msgstr ""
 
 msgid "How can I support Godot development or contribute?"
 msgstr "Godotの開発をサポートしたり、貢献したりするにはどうすればいいですか?"
-
-msgid "See :ref:`doc_ways_to_contribute`."
-msgstr ":ref:`doc_ways_to_contribute` をご覧ください。"
 
 msgid "Who is working on Godot? How can I contact you?"
 msgstr "Godotには誰が関わっているのですか？どうしたら連絡が取れますか？"

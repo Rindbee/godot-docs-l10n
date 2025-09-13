@@ -2074,13 +2074,6 @@ msgid "Licensed under the permissive MIT license."
 msgstr "Lizenz mit Zustimmung vom MIT."
 
 msgid ""
-"Open development process with :ref:`contributions welcome "
-"<doc_ways_to_contribute>`."
-msgstr ""
-"Offener Entwicklungsprozess, bei dem :ref:`Beiträge willkommen "
-"<doc_ways_to_contribute>` sind."
-
-msgid ""
 "The `Godot proposals repository <https://github.com/godotengine/godot-"
 "proposals>`__ lists features that have been requested by the community and "
 "may be implemented in future Godot releases."

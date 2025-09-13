@@ -79,7 +79,7 @@ msgstr ""
 "buena referencia para juntar las diferentes piezas."
 
 msgid "Creating the polygons"
-msgstr "Creando los polígonos"
+msgstr "Crear los polígonos"
 
 msgid ""
 "Begin with a ``Polygon2D`` node. There is no need to place it anywhere in "
@@ -162,7 +162,7 @@ msgstr ""
 "recortes."
 
 msgid "Creating the skeleton"
-msgstr "Creando el esqueleto"
+msgstr "Crear el esqueleto"
 
 msgid ""
 "Create a ``Skeleton2D`` node as a child of the root node. This will be the "

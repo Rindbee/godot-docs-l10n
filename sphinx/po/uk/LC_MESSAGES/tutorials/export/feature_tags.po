@@ -356,6 +356,15 @@ msgstr ":ref:`Movie Maker mode <doc_creating_movies>` активний"
 msgid "**shader_baker**"
 msgstr "**shader_baker**"
 
+msgid ""
+"Project was exported with :ref:`shader baking "
+"<doc_pipeline_compilations_shader_baker>` enabled (only applies to the "
+"exported project, not when running in the editor)"
+msgstr ""
+"Проєкт було експортовано з увімкненим :ref:`shader baking "
+"<doc_pipeline_compilations_shader_baker>` (стосується лише експортованого "
+"проєкту, а не під час запуску в редакторі)"
+
 msgid "**dedicated_server**"
 msgstr "**dedicated_server**"
 

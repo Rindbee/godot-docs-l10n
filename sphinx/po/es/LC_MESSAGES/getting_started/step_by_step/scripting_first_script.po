@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Creating your first script"
-msgstr "Creando tu primer script"
+msgstr "Crear tu primer script"
 
 msgid "Project setup"
 msgstr "Configuración del proyecto"
@@ -47,7 +47,7 @@ msgstr ""
 "vista del juego."
 
 msgid "Creating a new script"
-msgstr "Creando un nuevo script"
+msgstr "Crear un nuevo script"
 
 msgid ""
 "C# script names need to match their class name. In this case, you should "

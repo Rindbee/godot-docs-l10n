@@ -746,8 +746,8 @@ msgid ""
 "is advanced artificial intelligence functionality."
 msgstr ""
 "Godot no incluye intencionadamente características que puedan ser "
-"implementadas por complementos, a menos que se utilicen muy a menudo. Un "
-"ejemplo de esto sería la funcionalidad de inteligencia artificial avanzada."
+"implementadas por addons, a menos que se utilicen muy a menudo. Un ejemplo "
+"de esto sería la funcionalidad de inteligencia artificial avanzada."
 
 msgid "There are several reasons for this:"
 msgstr "Hay varias razones para esto:"
@@ -1000,15 +1000,6 @@ msgstr ""
 "la documentación. También necesitas familiarizarte con Git, un sistema de "
 "control de versiones que usan los desarrolladores de Godot."
 
-msgid ""
-"We explain how to work with the engine source, how to edit the "
-"documentation, and what other ways to contribute are there in "
-"our :ref:`documentation for contributors <doc_ways_to_contribute>`."
-msgstr ""
-"Explicamos cómo trabajar con el Core del motor, cómo editar la "
-"documentación, y otras alternativas para contribuir puede encontrarlas "
-"en :ref:`documentation for contributors <doc_ways_to_contribute>`."
-
 msgid "I have a great idea for Godot. How can I share it?"
 msgstr "Tengo una idea genial para Godot. ¿Cómo puedo compartirla?"
 
@@ -1107,7 +1098,7 @@ msgstr ""
 "ejemplos de aplicaciones de código abierto hechas con Godot."
 
 msgid "Is it possible to use Godot as a library?"
-msgstr "Es posible usar Godot como biblioteca/biblioteca?"
+msgstr "¿Es posible usar Godot como una biblioteca?"
 
 msgid ""
 "Godot is meant to be used with its editor. We recommend you give it a try, "
@@ -1396,9 +1387,6 @@ msgstr ""
 
 msgid "How can I support Godot development or contribute?"
 msgstr "¿Cómo puedo apoyar el desarrollo de Godot o contribuir?"
-
-msgid "See :ref:`doc_ways_to_contribute`."
-msgstr "Mira :ref:`doc_ways_to_contribute`."
 
 msgid "Who is working on Godot? How can I contact you?"
 msgstr "¿Quien esta trabajando en Godot? ¿Como puedo ponerme en contacto?"

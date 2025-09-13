@@ -1,0 +1,411 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Class reference primer"
+msgstr "Справочник по классам"
+
+msgid ""
+"This page explains how to write the class reference. You will learn where to "
+"write new descriptions for the classes, methods, and properties for Godot's "
+"built-in node types."
+msgstr ""
+"Эта страница объясняет, как написать ссылку на класс. Вы узнаете, где писать "
+"новые описания для классов, методов и свойств встроенных узлов Godot."
+
+msgid "`<brief_description>`"
+msgstr "`<brief_description>`"
+
+msgid "`<description>`"
+msgstr "`<description>`"
+
+msgid "`<constant>`"
+msgstr "`<constant>`"
+
+msgid "`<member>`"
+msgstr "`<member>`"
+
+msgid "How to edit class XML"
+msgstr "Как отредактировать класс XML"
+
+msgid "Improve formatting with BBCode style tags"
+msgstr "Улучши форматирование с тегами стиля BBCode"
+
+msgid "Linking"
+msgstr "Связывание"
+
+msgid ""
+"Whenever you link to a member of another class, you need to specify the "
+"class name. For links to the same class, the class name is optional and can "
+"be omitted."
+msgstr ""
+"При ссылке на член другого класса необходимо указывать имя класса. Для "
+"ссылок на тот же класс имя класса необязательно и может быть опущено."
+
+msgid "Tag and Description"
+msgstr "Тег и Описание"
+
+msgid "Example"
+msgstr "Пример"
+
+msgid "Result"
+msgstr "Результат"
+
+msgid "``[Class]``"
+msgstr "``[Class]``"
+
+msgid "Link to class"
+msgstr "Ссылка на класс"
+
+msgid "``Move the [Sprite2D].``"
+msgstr "``Переместите [Sprite2D].``"
+
+msgid "Move the :ref:`class_Sprite2D`."
+msgstr "Переместите :ref:`class_Sprite2D`."
+
+msgid "``[annotation Class.name]``"
+msgstr "``[annotation Class.name]``"
+
+msgid "Link to annotation"
+msgstr "Ссылка на аннотацию"
+
+msgid "``See [annotation @GDScript.@rpc].``"
+msgstr "``См. [annotation @GDScript.@rpc].``"
+
+msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+msgstr "См. :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+
+msgid "``[constant Class.name]``"
+msgstr "``[constant Class.name]``"
+
+msgid "Link to constant"
+msgstr "Ссылка на константу"
+
+msgid "``See [constant Color.RED].``"
+msgstr "``См. [constant Color.RED].``"
+
+msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
+msgstr "См. :ref:`Color.RED <class_Color_constant_RED>`."
+
+msgid "``[enum Class.name]``"
+msgstr "``[enum Class.name]``"
+
+msgid "Link to enum"
+msgstr "Ссылка на перечисление"
+
+msgid "``See [enum Mesh.ArrayType].``"
+msgstr "``См. [enum Mesh.ArrayType].``"
+
+msgid "See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
+msgstr "См. :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
+
+msgid "``[member Class.name]``"
+msgstr "``[member Class.name]``"
+
+msgid "Link to member"
+msgstr "Ссылка на участника"
+
+msgid "``Get [member Node2D.scale].``"
+msgstr "``Получить[member Node2D.scale].``"
+
+msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
+msgstr "Получите :ref:`Node2D.scale <class_Node2D_property_scale>`."
+
+msgid "``[method Class.name]``"
+msgstr "``[method Class.name]``"
+
+msgid "Link to method"
+msgstr "Ссылка на метод"
+
+msgid "``Call [method Node3D.hide].``"
+msgstr "``Вызов [method Node3D.hide].``"
+
+msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
+msgstr "Вызов :ref:`Node3D.hide() <class_Node3D_method_hide>`."
+
+msgid "``[constructor Class.name]``"
+msgstr "``[constructor Class.name]``"
+
+msgid "Link to built-in constructor"
+msgstr "Ссылка на встроенный конструктор"
+
+msgid "``Use [constructor Color.Color].``"
+msgstr "``Использовать [constructor Color.Color].``"
+
+msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
+msgstr "Используйте :ref:`Color.Color <class_Color_constructor_Color>`."
+
+msgid "``[operator Class.name]``"
+msgstr "``[operator Class.name]``"
+
+msgid "Link to built-in operator"
+msgstr "Ссылка на встроенный оператор"
+
+msgid "``Use [operator Color.operator *].``"
+msgstr "``Использовать [operator Color.operator *].``"
+
+msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+msgstr "Используйте  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+
+msgid "``[signal Class.name]``"
+msgstr "``[signal Class.name]``"
+
+msgid "Link to signal"
+msgstr "Ссылка на сигнал"
+
+msgid "``Emit [signal Node.renamed].``"
+msgstr "``Выдать [signal Node.renamed].``"
+
+msgid "Emit :ref:`Node.renamed <class_Node_signal_renamed>`."
+msgstr "Передать :ref:`Node.renamed <class_Node_signal_renamed>`."
+
+msgid "``[theme_item Class.name]``"
+msgstr "``[theme_item Class.name]``"
+
+msgid "Link to theme item"
+msgstr "Ссылка на тему"
+
+msgid "``See [theme_item Label.font].``"
+msgstr "``См. [theme_item Label.font].``"
+
+msgid "See :ref:`Label.font <class_Label_theme_font_font>`."
+msgstr "См. :ref:`Label.font <class_Label_theme_font_font>`."
+
+msgid "``[param name]``"
+msgstr "``[param name]``"
+
+msgid "Parameter name (as code)"
+msgstr "Имя параметра (в виде кода)"
+
+msgid "``Takes [param size] for the size.``"
+msgstr "``Принимает [param size] в качестве размера.``"
+
+msgid "Takes ``size`` for the size."
+msgstr "Принимает ``size`` в качестве размера."
+
+msgid "Currently only :ref:`class_@GDScript` has annotations."
+msgstr "В настоящее время аннотации имеются только у :ref:`class_@GDScript`."
+
+msgid "Formatting text"
+msgstr "Форматирование текста"
+
+msgid "``[br]``"
+msgstr "``[br]``"
+
+msgid "Line break"
+msgstr "Перенос строки"
+
+msgid "``Line 1.[br]``"
+msgstr "``Line 1.[br]``"
+
+msgid "``Line 2.``"
+msgstr "``Line 2.``"
+
+msgid "Line 1."
+msgstr "Строка 1."
+
+msgid "Line 2."
+msgstr "Строка 2."
+
+msgid "``[lb]`` ``[rb]``"
+msgstr "``[lb]`` ``[rb]``"
+
+msgid "``[`` and ``]`` respectively"
+msgstr "``[`` and ``]`` соответственно"
+
+msgid "``[lb]b[rb]text[lb]/b[rb]``"
+msgstr "``[lb]b[rb]text[lb]/b[rb]``"
+
+msgid "[b]text[/b]"
+msgstr "[b]text[/b]"
+
+msgid "``[b]`` ``[/b]``"
+msgstr "``[b]`` ``[/b]``"
+
+msgid "Bold"
+msgstr "Жирный"
+
+msgid "``Do [b]not[/b] call this method.``"
+msgstr "``[b]Не[/b] вызывайте этот метод.``"
+
+msgid "Do **not** call this method."
+msgstr "**Не** вызывайте этот метод."
+
+msgid "``[i]`` ``[/i]``"
+msgstr "``[i]`` ``[/i]``"
+
+msgid "Italic"
+msgstr "Italic"
+
+msgid "``Returns the [i]global[/i] position.``"
+msgstr "``Возвращает [i]глобальную[/i] позицию.``"
+
+msgid "Returns the *global* position."
+msgstr "Возвращает *глобальную* позицию."
+
+msgid "``[u]`` ``[/u]``"
+msgstr "``[u]`` ``[/u]``"
+
+msgid "Underline"
+msgstr "Подчеркнуть"
+
+msgid "``[u]Always[/u] use this method.``"
+msgstr "``[u]Всегда[/u] используйте этот метод.``"
+
+msgid "``[s]`` ``[/s]``"
+msgstr "``[s]`` ``[/s]``"
+
+msgid "Strikethrough"
+msgstr "Зачеркивание"
+
+msgid "``[s]Outdated information.[/s]``"
+msgstr "``[s]Устаревшая информация.[/s]``"
+
+msgid "``[url]`` ``[/url]``"
+msgstr "``[url]`` ``[/url]``"
+
+msgid "Hyperlink"
+msgstr "Гиперссылка"
+
+msgid "``[url]https://example.com[/url]``"
+msgstr "``[url]https://example.com[/url]``"
+
+msgid "``[url=https://example.com]Website[/url]``"
+msgstr "``[url=https://example.com]Website[/url]``"
+
+msgid "https://example.com"
+msgstr "https://example.com"
+
+msgid "`Website <https://example.com>`_"
+msgstr "`Website <https://example.com>`_"
+
+msgid "``[center]`` ``[/center]``"
+msgstr "``[center]`` ``[/center]``"
+
+msgid "Horizontal centering"
+msgstr "Горизонтальное центрирование"
+
+msgid "``[center]2 + 2 = 4[/center]``"
+msgstr "``[center]2 + 2 = 4[/center]``"
+
+msgid "``[kbd]`` ``[/kbd]``"
+msgstr "``[kbd]`` ``[/kbd]``"
+
+msgid "Keyboard/mouse shortcut"
+msgstr "Сочетание клавиш/мыши"
+
+msgid "``Press [kbd]Ctrl + C[/kbd].``"
+msgstr "``Press [kbd]Ctrl + C[/kbd].``"
+
+msgid "Press :kbd:`Ctrl + C`."
+msgstr "Нажмите :kbd:`Ctrl + C`."
+
+msgid "``[code]`` ``[/code]``"
+msgstr "``[code]`` ``[/code]``"
+
+msgid "Inline code fragment"
+msgstr "Фрагмент встроенного кода"
+
+msgid "``Returns [code]true[/code].``"
+msgstr "``Возвращает [code]true[/code].``"
+
+msgid "Returns ``true``."
+msgstr "Возвращает ``true``."
+
+msgid ""
+"Some supported tags like ``[color]`` and ``[font]`` are not listed here "
+"because they are not recommended in the engine documentation."
+msgstr ""
+"Некоторые поддерживаемые теги как ``[color]`` and ``[font]`` не приведены "
+"здесь, потому что не рекомендованы в документации движка."
+
+msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
+msgstr ""
+"``[kbd]`` отключает BBCode до тех пор, пока анализатор не встретит ``[/"
+"kbd]``."
+
+msgid "``[code]`` disables BBCode until the parser encounters ``[/code]``."
+msgstr ""
+"``[code]`` отключает BBCode до тех пор, пока анализатор не встретит ``[/"
+"code]``."
+
+msgid "Formatting code blocks"
+msgstr "Блоки форматирования"
+
+msgid "There are two options for formatting code blocks:"
+msgstr "Существует два варианта форматирования блоков:"
+
+msgid ""
+"Use ``[codeblock]`` if you want to add an example for a specific language."
+msgstr ""
+"Используйте ``[codeblock]`` если вы хотите добавить пример для определенного "
+"языка."
+
+msgid ""
+"Use ``[codeblocks]``, ``[gdscript]``, and ``[csharp]`` if you want to add "
+"the same example for both languages, GDScript and C#."
+msgstr ""
+"Используйте ``[codeblocks]``, ``[gdscript]``,и ``[csharp]`` если вы хотите "
+"добавить такой же пример для обоих языков, GDScript и C#."
+
+msgid ""
+"By default, ``[codeblock]`` highlights GDScript syntax. You can change it "
+"using the ``lang`` attribute. Currently supported options are:"
+msgstr ""
+"По умолчанию ``[codeblock]`` подсвечивает синтаксис GDScript. Вы можете "
+"изменить это с помощью атрибута ``lang``. В настоящее время поддерживаются "
+"следующие параметры:"
+
+msgid "``[codeblock lang=text]`` disables syntax highlighting;"
+msgstr "``[codeblock lang=text]`` отключает подсветку синтаксиса;"
+
+msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
+msgstr "``[codeblock lang=gdscript]`` освещает синтаксис GDScript;"
+
+msgid ""
+"``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
+msgstr ""
+"``[codeblock lang=csharp]`` подсвечивает синтаксис C# (только в версии .NET)."
+
+msgid ""
+"``[codeblock]`` disables BBCode until the parser encounters ``[/codeblock]``."
+msgstr ""
+"``[codeblock]`` отключает BBCode до тех пор, пока анализатор не встретит ``[/"
+"codeblock]``."
+
+msgid ""
+"Use ``[codeblock]`` for pre-formatted code blocks. Since Godot 4.5, **tabs** "
+"should be used for indentation."
+msgstr ""
+"Используйте ``[codeblock]`` для предварительно отформатированных блоков "
+"кода. Начиная с Godot 4.5, для разделения должны использоваться **отступы**."
+
+msgid "For example:"
+msgstr "Например:"
+
+msgid "Will display as:"
+msgstr "Будет показано как:"
+
+msgid ""
+"If you need to have different code version in GDScript and C#, use "
+"``[codeblocks]`` instead. If you use ``[codeblocks]``, you also need to have "
+"at least one of the language-specific tags, ``[gdscript]`` and ``[csharp]``."
+msgstr ""
+"Если нужно одновременно иметь код в GDScript и C#, заключайте его в "
+"``[codeblock]``, а также используйте специфические теги, такие как "
+"``[gdscript]`` и ``[csharp]``."
+
+msgid "The above will display as:"
+msgstr "Снизу будет отображено как:"
+
+msgid "Formatting notes and warnings"
+msgstr "Форматирование заметок и предупреждений"

@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Creating instances"
-msgstr "Creando instancias"
+msgstr "Crear instancias"
 
 msgid ""
 "This tutorial refers to instancing scenes in the editor. To learn how to "

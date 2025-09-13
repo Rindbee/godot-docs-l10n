@@ -20,5 +20,5 @@ msgstr "Rozwiązywanie problemów"
 msgid "Linux"
 msgstr "Linuks"
 
-msgid "HTML5"
-msgstr "HTML5"
+msgid "Web"
+msgstr "Przeglądarka (HTML5)"

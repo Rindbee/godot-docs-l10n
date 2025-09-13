@@ -19,3 +19,6 @@ msgstr "Sorun giderme"
 
 msgid "Linux"
 msgstr "Linux"
+
+msgid "Web"
+msgstr "Web"

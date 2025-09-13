@@ -91,7 +91,7 @@ msgstr ""
 "personalización de la interfaz gráfica\" (Introduction to GUI skinning)."
 
 msgid "Creating a type variation"
-msgstr "Creando una variación de tipo"
+msgstr "Crear una variación de tipo"
 
 msgid ""
 "To create a type variation open the theme editor, then click the plus icon "

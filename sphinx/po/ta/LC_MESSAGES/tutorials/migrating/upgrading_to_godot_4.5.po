@@ -1,0 +1,98 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Breaking changes"
+msgstr "மாற்றங்களை உடைத்தல்"
+
+msgid ""
+"This article indicates whether each breaking change affects GDScript and "
+"whether the C# breaking change is *binary compatible* or *source compatible*:"
+msgstr ""
+"இந்த கட்டுரை ஒவ்வொரு முறிவு மாற்றமும் gdscript ஐ பாதிக்கிறதா என்பதையும், சி# முறிவு "
+"மாற்றம் *பைனரி இணக்கமானதா *அல்லது *மூல இணக்கமானதா *:"
+
+msgid ""
+"**Source compatible** - Source code will compile successfully without "
+"changes when upgrading Godot."
+msgstr ""
+"** மூல இணக்கமான ** - கோடோட்டை மேம்படுத்தும்போது மாற்றங்கள் இல்லாமல் மூலக் குறியீடு "
+"வெற்றிகரமாக தொகுக்கும்."
+
+msgid "Core"
+msgstr "வயிரம்"
+
+msgid "Change"
+msgstr "மாற்றம்"
+
+msgid "GDScript Compatible"
+msgstr "GDSCRIPT இணக்கமானது"
+
+msgid "C# Binary Compatible"
+msgstr "சி# பைனரி இணக்கமானது"
+
+msgid "C# Source Compatible"
+msgstr "சி# மூல இணக்கமானது"
+
+msgid "Introduced"
+msgstr "அறிமுகப்படுத்தப்பட்டது"
+
+msgid "|❌|"
+msgstr "| ❌ |"
+
+msgid "|✔️ with compat|"
+msgstr "| இணக்கத்துடன் |"
+
+msgid "**Node**"
+msgstr "** முனை **"
+
+msgid "|✔️|"
+msgstr "| ✔ அழைத்துச் செல்லுங்கள்"
+
+msgid "Rendering"
+msgstr "வழங்குதல்"
+
+msgid "**RenderingDevice**"
+msgstr "** வழங்குதல் டெவிச் **"
+
+msgid "**RenderingServer**"
+msgstr "** வழங்குதல் சேவையகம் **"
+
+msgid "Text"
+msgstr "உரை"
+
+msgid "**Font**"
+msgstr "** எழுத்துரு **"
+
+msgid "**RichTextLabel**"
+msgstr "** ரிச்ச்டெக்ச்ட்லேபிள் **"
+
+msgid "**TextServer**"
+msgstr "** டெக்ச்டர்வர் **"
+
+msgid "**TextServerExtension**"
+msgstr "** TEXSERVERVEREXTENSION **"
+
+msgid "XR"
+msgstr "எக்ச்ஆர்"
+
+msgid "Editor plugins"
+msgstr "ஆசிரியர் செருகுநிரல்கள்"
+
+msgid "**EditorUndoRedoManager**"
+msgstr "** atitorunderderamanager **"
+
+msgid "Behavior changes"
+msgstr "நடத்தை மாற்றங்கள்"
+
+msgid "Physics"
+msgstr "இயற்பியல்"

@@ -20,9 +20,6 @@ msgstr "Per iniziare"
 msgid "Manual"
 msgstr "Manuale"
 
-msgid "Contributing"
-msgstr "Contribuire"
-
 msgid "Community"
 msgstr "Comunità"
 

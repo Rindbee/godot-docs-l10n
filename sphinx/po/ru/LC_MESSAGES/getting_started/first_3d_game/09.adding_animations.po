@@ -241,6 +241,13 @@ msgstr "|image11|"
 msgid "image11"
 msgstr "изображение11"
 
+msgid ""
+"Move the time cursor to ``0.5`` seconds by clicking and dragging on the gray "
+"timeline, or by entering it into the input field."
+msgstr ""
+"Переместите курсор времени на ``0.5`` секунды, щелкнув и перетащив его на "
+"серую шкалу времени или введя его в поле ввода."
+
 msgid "|timeline_05_click|"
 msgstr "|timeline_05_click|"
 

@@ -150,6 +150,12 @@ msgstr ""
 msgid "For example:"
 msgstr "Приклад:"
 
+msgid "``script_templates/Node/smooth_camera.gd``"
+msgstr "``script_templates/Node/smooth_camera.gd``"
+
+msgid "``script_templates/CharacterBody3D/platformer_movement.gd``"
+msgstr "``script_templates/CharacterBody3D/platformer_movement.gd``"
+
 msgid "Default behavior and overriding it"
 msgstr "Поведінка за замовчуванням та її заміна"
 

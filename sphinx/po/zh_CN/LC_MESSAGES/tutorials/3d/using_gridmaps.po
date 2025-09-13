@@ -150,6 +150,14 @@ msgstr ""
 "烘焙 NavigationMesh 的单元格大小必须与 NavigationServer 地图的单元格大小一"
 "致，才能把不同 Grid 单元格的导航网格合并起来。"
 
+msgid ""
+"Aside from this peculiarity, the lightmap baking process is the same as for "
+"any other 3D scene. See :ref:`doc_using_lightmap_gi` for more information "
+"about lightmap baking."
+msgstr ""
+"除了这个特性之外，光照贴图烘焙过程与其他 3D 场景相同。有关光照贴图烘焙的更多"
+"信息，请参阅 :ref:`doc_using_lightmap_gi`。"
+
 msgid "MeshLibrary format"
 msgstr "MeshLibrary 格式"
 

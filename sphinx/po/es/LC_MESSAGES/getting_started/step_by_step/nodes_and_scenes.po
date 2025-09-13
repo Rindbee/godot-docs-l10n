@@ -129,7 +129,7 @@ msgstr ""
 "cinco o diez personajes en tu juego, creados a partir de tu escena Character."
 
 msgid "Creating your first scene"
-msgstr "Creando tu primera escena"
+msgstr "Crear tu primera escena"
 
 msgid ""
 "Let's create our first scene with a single node. To do so, you will need "

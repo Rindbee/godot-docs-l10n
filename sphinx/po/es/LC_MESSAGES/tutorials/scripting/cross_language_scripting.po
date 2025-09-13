@@ -95,10 +95,10 @@ msgstr ""
 "en :ref:`doc_c_sharp_features_type_conversion_and_casting`."
 
 msgid "Accessing fields"
-msgstr "Accediendo campos"
+msgstr "Acceder campos"
 
 msgid "Accessing C# fields from GDScript"
-msgstr "Accediendo campos C# desde GDScript"
+msgstr "Acceder campos de C# desde GDScript"
 
 msgid ""
 "Accessing C# fields from GDScript is straightforward, you shouldn't have "
@@ -108,7 +108,7 @@ msgstr ""
 "de qué preocuparte."
 
 msgid "Accessing GDScript fields from C#"
-msgstr "Accediendo a los campos de GDScript desde C#"
+msgstr "Acceder a los campos de GDScript desde C#"
 
 msgid "Calling methods"
 msgstr "Llamando métodos"

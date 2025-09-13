@@ -428,6 +428,15 @@ msgstr "``[p {options}]{text}[/p]``"
 msgid "**br**"
 msgstr "**br**"
 
+msgid ""
+"Adds line break in a text, without adding a new paragraph. If used within a "
+"list, this won't create a new list item, but will add a line break within "
+"the current item instead."
+msgstr ""
+"Додає розрив рядка в тексті без додавання нового абзацу. Якщо "
+"використовується всередині списку, це не створить новий елемент списку, а "
+"натомість додасть розрив рядка всередині поточного елемента."
+
 msgid "``[br]``"
 msgstr "``[br]``"
 
@@ -1526,6 +1535,21 @@ msgstr "Заповнення лівої, верхньої, правої та н�
 
 msgid "Unordered list bullet"
 msgstr "Наведене вище зображення було створено за допомогою наступного скрипта"
+
+msgid ""
+"By default, the ``[ul]`` tag uses the ``U+2022`` \"Bullet\" Unicode glyph as "
+"the bullet character. This behavior is similar to web browsers. The bullet "
+"character can be customized using ``[ul bullet={bullet}]``. If provided, "
+"this ``{bullet}`` parameter must be a string with no enclosing quotes (for "
+"example, ``[bullet=*]``). You can add trailing spaces after the bullet "
+"character to increase the spacing between the bullet and the list item text."
+msgstr ""
+"За замовчуванням тег ``[ul]`` використовує символ ``U+2022`` «Bullet» "
+"Unicode як символ маркеру. Ця поведінка схожа на поведінку веб-браузерів. "
+"Символ маркеру можна налаштувати за допомогою ``[ul bullet={bullet}]``. Якщо "
+"вказано, цей параметр ``{bullet}`` повинен бути рядком без лапок (наприклад, "
+"``[bullet=*]``). Ви можете додати пробіли після символу маркеру, щоб "
+"збільшити відстань між маркером і текстом елемента списку."
 
 msgid ""
 "See `Bullet (typography) on Wikipedia <https://en.wikipedia.org/wiki/"

@@ -56,7 +56,7 @@ Godot 是非常动态的。一个对象的脚本，以及它的属性、方法�
 教程
 ----
 
-- :doc:`Object 类介绍 <../contributing/development/core_and_modules/object_class>`
+- :doc:`Object 类介绍 <../engine_details/architecture/object_class>`
 
 - :doc:`何时以及如何避免为任何事情使用节点 <../tutorials/best_practices/node_alternatives>`
 

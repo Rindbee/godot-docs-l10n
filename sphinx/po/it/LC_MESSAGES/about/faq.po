@@ -937,15 +937,6 @@ msgstr ""
 "Stupendo! Essendo un progetto open source, Godot prospera attraverso "
 "l'innovazione e l'ambizione di sviluppatori come te."
 
-msgid ""
-"We explain how to work with the engine source, how to edit the "
-"documentation, and what other ways to contribute are there in "
-"our :ref:`documentation for contributors <doc_ways_to_contribute>`."
-msgstr ""
-"Spieghiamo come lavorare con il codice sorgente del motore, come modificare "
-"la documentazione e quali altri modi ci sono per contribuire nella "
-"nostra :ref:`documentazione per i collaboratori <doc_ways_to_contribute>` ."
-
 msgid "I have a great idea for Godot. How can I share it?"
 msgstr "Ho una grande idea per Godot. Come posso condividerla?"
 
@@ -1282,9 +1273,6 @@ msgstr ""
 
 msgid "How can I support Godot development or contribute?"
 msgstr "Come posso supportare lo sviluppo o contribuire a Godot?"
-
-msgid "See :ref:`doc_ways_to_contribute`."
-msgstr "Vedi :ref:`doc_ways_to_contribute`."
 
 msgid "Who is working on Godot? How can I contact you?"
 msgstr "Chi sta lavorando su Godot? Come posso contattarvi?"

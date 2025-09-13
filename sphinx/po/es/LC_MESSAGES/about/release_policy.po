@@ -165,6 +165,9 @@ msgstr "**Fecha de lanzamiento**"
 msgid "**Support level**"
 msgstr "**Nivel de soporte**"
 
+msgid "Q3 2025 (estimate)"
+msgstr "El tercer trimestre de 2025 (estimado)"
+
 msgid ""
 "|unstable| *Development.* Receives new features, usability and performance "
 "improvements, as well as bug fixes, while under development."

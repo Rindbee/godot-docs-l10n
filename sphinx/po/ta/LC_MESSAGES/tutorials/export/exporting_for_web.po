@@ -817,3 +817,6 @@ msgstr "குறியாக்க / குறியாக்க விசை"
 
 msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 msgstr "`` கோடோட் ச்கிரிப்ட் குறியாக்கம்_கி``"
+
+msgid "Troubleshooting"
+msgstr "சரிசெய்தல்"

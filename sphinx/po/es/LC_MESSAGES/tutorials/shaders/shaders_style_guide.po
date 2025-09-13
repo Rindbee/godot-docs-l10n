@@ -215,7 +215,7 @@ msgstr ""
 "menores de 1."
 
 msgid "Accessing vector members"
-msgstr "Accediendo a miembros de vectores"
+msgstr "Acceder a miembros de vectores"
 
 msgid ""
 "Use ``r``, ``g``, ``b``, and ``a`` when accessing a vector's members if it "

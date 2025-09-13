@@ -168,6 +168,12 @@ msgstr "**リリース日**"
 msgid "**Support level**"
 msgstr "**サポートレベル**"
 
+msgid "Godot 4.5 (`master`)"
+msgstr "Godot 4.5 (`master`)"
+
+msgid "Q3 2025 (estimate)"
+msgstr "2025年 第3四半期 (予定)"
+
 msgid ""
 "|unstable| *Development.* Receives new features, usability and performance "
 "improvements, as well as bug fixes, while under development."
@@ -177,6 +183,12 @@ msgstr ""
 
 msgid "unstable"
 msgstr "不安定"
+
+msgid "Godot 4.4"
+msgstr "Godot 4.4"
+
+msgid "March 2025"
+msgstr "2025年3月"
 
 msgid ""
 "|supported| Receives fixes for bugs and security issues, as well as patches "
@@ -200,6 +212,11 @@ msgstr "Godot 4.2"
 msgid "November 2023"
 msgstr "2023年11月"
 
+msgid "|partial| Receives fixes for security and platform support issues only."
+msgstr ""
+"|partial| セキュリティおよびプラットフォーム サポートの問題に対する修正パッチ"
+"のみが提供されます。"
+
 msgid "partial"
 msgstr "一部サポート"
 
@@ -208,6 +225,9 @@ msgstr "Godot 4.1"
 
 msgid "July 2023"
 msgstr "2023年7月"
+
+msgid "|eol| No longer supported (last update: 4.1.4)."
+msgstr "|eol| サポート終了 (最後のアップデート: 4.1.4)。"
 
 msgid "eol"
 msgstr "サポート終了"
@@ -455,6 +475,15 @@ msgid ""
 msgstr ""
 "Godotのコントリビュータはデッドラインに基づいて作業しているわけではありません"
 "が、私たちは比較的頻繁にマイナーリリースを公開するよう努めています。"
+
+msgid ""
+"In particular, after the very long release cycle for 4.0, we are pivoting to "
+"a faster-paced development workflow, 4.1 released 4 months after 4.0, and "
+"4.2 released 4 months after 4.1."
+msgstr ""
+"特に 4.0 の非常に長いリリース サイクルの後、私たちはより速いペースの開発ワー"
+"クフローに軸足を移しており、4.1 は 4.0 の 4 か月後にリリースされ、4.2 は 4.1 "
+"の 4 か月後にリリースされています。"
 
 msgid ""
 "Frequent minor releases will enable us to ship new features faster (possibly "

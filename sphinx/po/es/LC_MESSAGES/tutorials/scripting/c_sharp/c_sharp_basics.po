@@ -157,7 +157,7 @@ msgstr ""
 "en modo de depuración."
 
 msgid "Creating a C# script"
-msgstr "Creando un script de C#"
+msgstr "Crear un script de C#"
 
 msgid ""
 "After you successfully set up C# for Godot, you should see the following "

@@ -92,16 +92,6 @@ msgstr "프로그래밍 언어"
 msgid "Let's talk about the available programming languages."
 msgstr "사용 가능한 프로그래밍 언어에 대해 이야기해 봅시다."
 
-msgid ""
-"With the GDExtension technology, you can also write gameplay or high-"
-"performance algorithms in C or C++ without recompiling the engine. You can "
-"use this technology to integrate third-party libraries and other Software "
-"Development Kits (SDK) in the engine."
-msgstr ""
-"GDExtension 기술을 사용하여 엔진을 다시 컴파일하지 않고도 C 또는 C++로 게임플"
-"레이 또는 고성능 알고리즘을 작성할 수 있습니다. 이 기술을 사용하여 서드 파티 "
-"라이브러리 및 다른 소프트웨어 개발 키트(SDK)를 엔진에 통합할 수 있습니다."
-
 msgid "What do I need to know to use Godot?"
 msgstr "Godot를 사용하려면 무엇을 알아야 하나요?"
 

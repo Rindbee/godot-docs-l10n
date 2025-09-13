@@ -194,17 +194,6 @@ msgstr ""
 "圓柱體是支援難度最高的碰撞形狀之一，因此許多其他物理引擎也不支援。目前圓柱體"
 "碰撞形狀仍有若干已知錯誤。"
 
-msgid ""
-"We recommend using box or capsule collision shapes for characters for now. "
-"Boxes generally provide the best reliability, but have the downside of "
-"making the character take more space diagonally. Capsule collision shapes do "
-"not have this downside, but their shape can make precision platforming more "
-"difficult."
-msgstr ""
-"目前建議角色使用盒形（Box）或膠囊形（Capsule）碰撞形狀。盒形通常最穩定，但角"
-"色在斜角方向占用空間較大。膠囊形則沒有這個問題，但形狀特性會讓精細跳台（平"
-"台）玩法較難掌控。"
-
 msgid "VehicleBody simulation is unstable, especially at high speeds"
 msgstr "VehicleBody 模擬不穩定，特別在高速下更明顯"
 

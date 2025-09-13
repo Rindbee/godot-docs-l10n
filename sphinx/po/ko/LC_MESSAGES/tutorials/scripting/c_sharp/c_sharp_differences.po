@@ -121,7 +121,7 @@ msgstr ""
 "``GD.Load`` 또는 ``ResourceLoader.Load``\\ 를 사용합니다."
 
 msgid "See also: :ref:`doc_c_sharp_signals`."
-msgstr "다음 또한 확인하십시오: :ref:`c_sharp_signals`."
+msgstr "다음 또한 확인하세요: :ref:`c_sharp_signals`."
 
 msgid ""
 "However C# does not have this ability. To achieve the same effect you need "
@@ -216,6 +216,9 @@ msgstr "``get_area()``"
 
 msgid "``Area``"
 msgstr "``Area``"
+
+msgid "Projection"
+msgstr "투영"
 
 msgid "Color"
 msgstr "색상"

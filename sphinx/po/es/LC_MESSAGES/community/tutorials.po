@@ -48,6 +48,13 @@ msgstr ""
 "<https://gdquest.itch.io/learn-godot-gdscript>`_ o en el navegador <https://"
 "gdquest.github.io/learn-gdscript>`_."
 
+msgid ""
+"Some tutorials mentioned below cover more advanced subjects, e.g. on 3D or "
+"shaders."
+msgstr ""
+"Algunos de los tutoriales mencionados a continuación proporcionan temas más "
+"avanzados, pj.: en 3D o shaders."
+
 msgid "Video tutorials"
 msgstr "Vídeo tutoriales"
 
@@ -62,6 +69,9 @@ msgstr ""
 
 msgid "Text tutorials"
 msgstr "Tutoriales en texto"
+
+msgid "`FinePointCGI website by Mitch <https://finepointcgi.io/>`__"
+msgstr "`Sitio web de FinepointCGI por Mitch <http://finepointcgi.io/>`__"
 
 msgid "`Catlike Coding by Jasper Flick <https://catlikecoding.com/godot/>`__"
 msgstr "`Catlike Coding de Jasper Flick <https://catlikecoding.com/godot/>`__"
@@ -99,13 +109,12 @@ msgid ""
 "`awesome-godot: A curated list of free/libre plugins, scripts and add-ons "
 "<https://github.com/godotengine/awesome-godot>`_"
 msgstr ""
-"`awesome-godot: Una lista curada de plugins, scripts y complementos "
-"gratuitos/libre <https://github.com/godotengine/awesome-godot>`_"
+"`awesome-godot: Una lista curada de plugins, scripts y addons gratuitos/"
+"libre <https://github.com/godotengine/awesome-godot>`_"
 
 msgid "`Godot Asset Library <https://godotengine.org/asset-library/asset>`_"
 msgstr ""
-"`Biblioteca de Recursos de Godot <https://godotengine.org/asset-library/"
-"asset>`_"
+"`Librería de Assets de Godot <https://godotengine.org/asset-library/asset>`_"
 
 msgid ""
 "`Godot Shaders: A community-driven shader library <https://godotshaders.com/"

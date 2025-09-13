@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "3D antialiasing"
-msgstr "**Anticrénelage 3D**"
+msgstr "Anticrénelage 3D"
 
 msgid "Introduction"
 msgstr "Introduction"

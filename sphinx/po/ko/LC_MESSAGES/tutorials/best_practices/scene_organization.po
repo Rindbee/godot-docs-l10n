@@ -103,14 +103,14 @@ msgstr ""
 
 msgid "`SOLID <https://en.wikipedia.org/wiki/SOLID>`_"
 msgstr ""
-"`SOLID (객체 지향 설계) <https://ko.wikipedia.org/wiki/"
-"SOLID_(%EA%B0%9D%EC%B2%B4_%EC%A7%80%ED%96%A5_%EC%84%A4%EA%B3%84)>`_"
+"`SOLID (객체 지향 설계) <https://ko.wikipedia.org/wiki/SOLID_(객체_지향_설"
+"계)>`_"
 
 msgid "`DRY <https://en.wikipedia.org/wiki/Don%27t_repeat_yourself>`_"
 msgstr "`DRY <https://en.wikipedia.org/wiki/Don%27t_repeat_yourself>`_"
 
 msgid "`KISS <https://en.wikipedia.org/wiki/KISS_principle>`_"
-msgstr "`KISS 원칙 <https://ko.wikipedia.org/wiki/KISS_%EC%9B%90%EC%B9%99>`_"
+msgstr "`KISS 원칙 <https://ko.wikipedia.org/wiki/KISS_원칙>`_"
 
 msgid "`YAGNI <https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it>`_"
 msgstr "`YAGNI <https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it>`_"

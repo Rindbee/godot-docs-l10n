@@ -80,7 +80,7 @@ msgid ""
 msgstr ""
 "노드 이름은 2D 씬이기 때문에 \"2D\"로 끝납니다. 해당하는 3D 노드들은 이름이 "
 "\"3D\"로 끝납니다. Godot 4부터 \"Spatial\" 노드가 \"Node3D\"로 불린다는 점에 "
-"유의하십시오."
+"유의하세요."
 
 msgid ""
 "Notice how nodes and scenes look the same in the editor. When you save a "

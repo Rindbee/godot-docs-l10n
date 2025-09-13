@@ -612,11 +612,11 @@ Android 导出器。
 
 :ref:`bool<class_bool>` **gradle_build/compress_native_libraries** :ref:`🔗<class_EditorExportPlatformAndroid_property_gradle_build/compress_native_libraries>`
 
-If ``true``, native libraries are compressed when performing a Gradle build.
+如果为 ``true``\ ，则执行 Gradle 构建时会压缩原生库。
 
-\ **Note:** While enabling compression can reduce the size of the binary, it may result in slower application startup because the native libraries must be extracted before use, rather than being loaded directly.
+\ **注意：**\ 启用压缩能够减小二进制文件的体积，但是可能导致应用程序启动变慢，因为原生库必须先要解压才能使用，无法直接加载。
 
-If you're distributing your app via the Play Store, it's generally recommended to keep this option ``false``, see `official documentation <https://developer.android.com/build/releases/past-releases/agp-3-6-0-release-notes#extractNativeLibs>`__.
+如果通过 Play Store 分发应用，通常建议将该选项保持为 ``false``\ ，见\ `官方文档 <https://developer.android.com/build/releases/past-releases/agp-3-6-0-release-notes#extractNativeLibs>`__\ 。
 
 .. rst-class:: classref-item-separator
 

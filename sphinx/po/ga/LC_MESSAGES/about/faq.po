@@ -872,15 +872,6 @@ msgstr ""
 "fhoinsí, nó conas an doiciméadú a thógáil. Ní mór duit dul i dtaithí freisin "
 "ar Git, córas rialaithe leagan a úsáideann forbróirí Godot."
 
-msgid ""
-"We explain how to work with the engine source, how to edit the "
-"documentation, and what other ways to contribute are there in "
-"our :ref:`documentation for contributors <doc_ways_to_contribute>`."
-msgstr ""
-"Mínímid conas oibriú le foinse an innill, conas na doiciméid a chur in "
-"eagar, agus cad iad na bealaí eile le cur leis atá inár :ref:`doiciméadú do "
-"ranníocóirí <doc_ways_to_contribute>`."
-
 msgid "I have a great idea for Godot. How can I share it?"
 msgstr "Tá smaoineamh iontach agam do Godot. Conas is féidir liom é a roinnt?"
 
@@ -1264,9 +1255,6 @@ msgstr ""
 
 msgid "How can I support Godot development or contribute?"
 msgstr "Conas is féidir liom tacú le forbairt Godot nó cur leis?"
-
-msgid "See :ref:`doc_ways_to_contribute`."
-msgstr "Féach:ref: `doc_ways_to_contribute`."
 
 msgid "Who is working on Godot? How can I contact you?"
 msgstr ""

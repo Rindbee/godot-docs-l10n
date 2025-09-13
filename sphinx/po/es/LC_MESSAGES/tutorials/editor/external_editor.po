@@ -174,7 +174,7 @@ msgid "Official editor plugins"
 msgstr "Plugins oficiales del editor"
 
 msgid "We have official plugins for the following code editors:"
-msgstr "Tenemos complementos oficiales para los siguientes editores de código:"
+msgstr "Tenemos plugins oficiales para los siguientes editores de código:"
 
 msgid ""
 "`Visual Studio Code <https://github.com/godotengine/godot-vscode-plugin>`_"

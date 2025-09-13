@@ -224,18 +224,6 @@ msgstr ""
 "движків не надають жодної підтримки для них. Наразі існує кілька відомих "
 "помилок із формами зіткнення циліндрів."
 
-msgid ""
-"We recommend using box or capsule collision shapes for characters for now. "
-"Boxes generally provide the best reliability, but have the downside of "
-"making the character take more space diagonally. Capsule collision shapes do "
-"not have this downside, but their shape can make precision platforming more "
-"difficult."
-msgstr ""
-"Наразі ми рекомендуємо використовувати форми зіткнень коробок або капсул для "
-"персонажів. Ящики, як правило, забезпечують найкращу надійність, але мають "
-"недолік: персонаж займає більше місця по діагоналі. Форми зіткнення капсули "
-"не мають цього недоліку, але їх форма може ускладнити точне платформерування."
-
 msgid "VehicleBody simulation is unstable, especially at high speeds"
 msgstr "Симуляція VehicleBody нестабільна, особливо на високих швидкостях"
 

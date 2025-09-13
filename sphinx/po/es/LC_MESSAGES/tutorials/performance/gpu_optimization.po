@@ -210,7 +210,7 @@ msgstr ""
 "En resumen, no se preocupe por el conteo de vértices en dispositivos "
 "móviles, pero **evite la concentración de vértices en partes pequeñas de la "
 "pantalla**. Si un personaje, NPC, vehículo, etc.está lejos (lo que significa "
-"que parece pequeño), use un modelo de menor nivel de detalle (LOD). Incluso "
+"que parece pequeño), usa un modelo de menor nivel de detalle (LOD). Incluso "
 "en las GPU de escritorio, es preferible evitar tener triángulos más pequeños "
 "que el tamaño de un píxel en la pantalla."
 

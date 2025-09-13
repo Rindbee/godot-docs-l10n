@@ -106,7 +106,7 @@ msgstr ""
 "hijos. Lo utilizaremos para establecer la fuente de nuestro juego."
 
 msgid "Creating a UI theme"
-msgstr "Creando un tema de interfaz de usuario"
+msgstr "Crear un tema de interfaz de usuario"
 
 msgid ""
 "Once again, select the ``UserInterface`` node. In the *Inspector*, create a "

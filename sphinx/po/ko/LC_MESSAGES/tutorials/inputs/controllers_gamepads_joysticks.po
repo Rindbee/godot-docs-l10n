@@ -20,5 +20,5 @@ msgstr "문제 해결"
 msgid "Linux"
 msgstr "Linux"
 
-msgid "HTML5"
-msgstr "HTML5"
+msgid "Web"
+msgstr "웹"

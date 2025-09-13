@@ -80,9 +80,6 @@ msgstr ":ref:`doc_retargeting_3d_skeletons`"
 msgid "Scripting"
 msgstr "스크립팅"
 
-msgid "Workflow"
-msgstr "워크플로"
-
 msgid "New pages since version 3.3"
 msgstr "3.3 버전 이후의 새로운 튜토리얼"
 
@@ -92,11 +89,11 @@ msgstr "GDScript"
 msgid "Best practices"
 msgstr "모범 사례"
 
-msgid "Community"
-msgstr "커뮤니티"
-
 msgid "Configuring an IDE: :ref:`doc_configuring_an_ide_code_blocks`"
 msgstr "IDE 구성: :ref:`doc_configuring_an_ide_code_blocks`"
+
+msgid ":ref:`doc_default_key_mapping`"
+msgstr ":ref:`doc_default_key_mapping`"
 
 msgid "Export"
 msgstr "내보내기"

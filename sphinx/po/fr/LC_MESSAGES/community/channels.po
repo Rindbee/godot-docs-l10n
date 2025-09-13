@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Cette page a servi à lister les différentes communautés Godot officielles et "
 "soutenues par les utilisateurs. Cette liste est maintenant disponible sur le "
-"`site Web de Godot <https://godotengine.org/community> `_."
+"`site Web de Godot <https://godotengine.org/community>`_."
 
 msgid "Language-based communities"
 msgstr "Communautés linguistiques"

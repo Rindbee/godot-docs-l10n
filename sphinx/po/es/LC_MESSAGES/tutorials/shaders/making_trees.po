@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Making trees"
-msgstr "Creando árboles"
+msgstr "Crear árboles"
 
 msgid ""
 "This is a short tutorial on how to make trees and other types of vegetation "

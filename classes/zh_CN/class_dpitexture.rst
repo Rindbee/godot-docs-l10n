@@ -14,14 +14,14 @@ DPITexture
 
 **继承：** :ref:`Texture2D<class_Texture2D>` **<** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-An automatically scalable :ref:`Texture2D<class_Texture2D>` based on an SVG image.
+可自动缩放的 :ref:`Texture2D<class_Texture2D>`\ ，基于 SVG 图像。
 
 .. rst-class:: classref-introduction-group
 
 描述
 ----
 
-An automatically scalable :ref:`Texture2D<class_Texture2D>` based on an SVG image. **DPITexture**\ s are used to automatically re-rasterize icons and other texture based UI theme elements to match viewport scale and font oversampling. See also :ref:`ProjectSettings.display/window/stretch/mode<class_ProjectSettings_property_display/window/stretch/mode>` ("canvas_items" mode) and :ref:`Viewport.oversampling_override<class_Viewport_property_oversampling_override>`.
+可自动缩放的 :ref:`Texture2D<class_Texture2D>`\ ，基于 SVG 图像。\ **DPITexture** 可以对图标及其他基于纹理的 UI 主题元素自动重新进行栅格化，从而匹配视口的缩放和字体过采样设置。另见 :ref:`ProjectSettings.display/window/stretch/mode<class_ProjectSettings_property_display/window/stretch/mode>`\ （“canvas_items”模式）和 :ref:`Viewport.oversampling_override<class_Viewport_property_oversampling_override>`\ 。
 
 .. rst-class:: classref-reftable-group
 
@@ -81,7 +81,7 @@ An automatically scalable :ref:`Texture2D<class_Texture2D>` based on an SVG imag
 - |void| **set_base_scale**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_base_scale**\ (\ )
 
-Texture scale. ``1.0`` is the original SVG size. Higher values result in a larger image.
+纹理缩放。\ ``1.0`` 是原始 SVG 大小。值越大得到的图像越大。
 
 .. rst-class:: classref-item-separator
 
@@ -98,7 +98,7 @@ Texture scale. ``1.0`` is the original SVG size. Higher values result in a large
 - |void| **set_color_map**\ (\ value\: :ref:`Dictionary<class_Dictionary>`\ )
 - :ref:`Dictionary<class_Dictionary>` **get_color_map**\ (\ )
 
-If set, remaps texture colors according to :ref:`Color<class_Color>`-:ref:`Color<class_Color>` map.
+设置后，会根据 :ref:`Color<class_Color>`-:ref:`Color<class_Color>` 映射对纹理中的颜色进行重映射。
 
 .. rst-class:: classref-item-separator
 
@@ -132,7 +132,7 @@ If set, remaps texture colors according to :ref:`Color<class_Color>`-:ref:`Color
 
 :ref:`DPITexture<class_DPITexture>` **create_from_string**\ (\ source\: :ref:`String<class_String>`, scale\: :ref:`float<class_float>` = 1.0, saturation\: :ref:`float<class_float>` = 1.0, color_map\: :ref:`Dictionary<class_Dictionary>` = {}\ ) |static| :ref:`🔗<class_DPITexture_method_create_from_string>`
 
-Creates a new **DPITexture** and initializes it by allocating and setting the SVG data from string.
+新建 **DPITexture**\ ，初始化时会根据字符串分配并设置 SVG 数据。
 
 .. rst-class:: classref-item-separator
 
@@ -144,7 +144,7 @@ Creates a new **DPITexture** and initializes it by allocating and setting the SV
 
 :ref:`RID<class_RID>` **get_scaled_rid**\ (\ ) |const| :ref:`🔗<class_DPITexture_method_get_scaled_rid>`
 
-Returns the :ref:`RID<class_RID>` of the texture rasterized to match the oversampling of the currently drawn canvas item.
+返回栅格化后的纹理 :ref:`RID<class_RID>`\ ，与当前绘制的画布项的过采样匹配。
 
 .. rst-class:: classref-item-separator
 

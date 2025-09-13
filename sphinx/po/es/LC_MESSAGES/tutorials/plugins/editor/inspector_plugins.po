@@ -48,7 +48,7 @@ msgstr ""
 "derecha."
 
 msgid "Setting up your plugin"
-msgstr "Configurando su plugin"
+msgstr "Configurando tu plugin"
 
 msgid "Create a new empty plugin to get started."
 msgstr "Crea un nuevo plugin vacío para comenzar."
@@ -62,7 +62,7 @@ msgid ""
 "so, you should end up with a new ``addons/my_inspector_plugin`` folder that "
 "contains two files: ``plugin.cfg`` and ``plugin.gd``."
 msgstr ""
-"Supongamos que has llamado a tu carpeta de plugin ``my_inspector_plugin``. "
+"Supongamos que has llamado a tu carpeta de plugins ``my_inspector_plugin``. "
 "Si es así, deberías obtener una nueva carpeta ``addons/my_inspector_plugin`` "
 "que contiene dos archivos: ``plugin.cfg`` y ``plugin.gd``."
 

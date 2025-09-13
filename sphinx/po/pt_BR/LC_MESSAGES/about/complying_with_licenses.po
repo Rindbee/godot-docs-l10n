@@ -36,17 +36,6 @@ msgstr ""
 "ou projeto pode ter uma licença diferente, mas ainda precisa cumprir com a "
 "original."
 
-msgid ""
-"This section covers compliance with licenses from a user perspective. If you "
-"are interested in licence compliance as a contributor, you can find "
-"guidelines :ref:`here "
-"<doc_best_practices_for_engine_contributors_license_compliance>`."
-msgstr ""
-"Esta seção aborda a conformidade com licenças do ponto de vista do usuário. "
-"Se você está interessado em conformidade de licença como contribuidor, pode "
-"encontrar diretrizes :ref:`aqui "
-"<doc_best_practices_for_engine_contributors_license_compliance>`."
-
 msgid "Requirements"
 msgstr "Requisitos"
 

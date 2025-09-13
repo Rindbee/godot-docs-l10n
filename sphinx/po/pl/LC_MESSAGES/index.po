@@ -20,9 +20,6 @@ msgstr "Jak rozpocząć"
 msgid "Manual"
 msgstr "Instrukcja obsługi"
 
-msgid "Contributing"
-msgstr "Wkład w rozwój Godota"
-
 msgid "Community"
 msgstr "Społeczność"
 

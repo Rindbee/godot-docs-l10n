@@ -20,9 +20,6 @@ msgstr "시작하기"
 msgid "Manual"
 msgstr "설명서"
 
-msgid "Contributing"
-msgstr "기여하기"
-
 msgid "Community"
 msgstr "커뮤니티"
 

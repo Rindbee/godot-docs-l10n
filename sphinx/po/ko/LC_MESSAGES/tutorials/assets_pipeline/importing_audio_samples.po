@@ -14,6 +14,9 @@ msgstr ""
 msgid "Importing audio samples"
 msgstr "오디오 샘플 가져오기"
 
+msgid "Supported audio formats"
+msgstr "지원되는 오디오 형식"
+
 msgid ""
 "Ogg Vorbis files use a stronger compression that results in much smaller "
 "file size, but require significantly more processing power to play back."

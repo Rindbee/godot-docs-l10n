@@ -76,6 +76,19 @@ msgstr ""
 ":ref:`Webブラウザ <doc_using_the_web_editor>` 4.0では実験的です。HTML5をター"
 "ゲットにする場合は、代わりにGodot 3.xを使うことが推奨されます。"
 
+msgid ""
+"Linux supports rv64 (RISC-V), ppc64 & ppc32 (PowerPC), and loongarch64. "
+"However you must compile the editor for that platform (as well as export "
+"templates) yourself, no official downloads are currently provided. RISC-V "
+"compiling instructions can be found on the :ref:`doc_compiling_for_linuxbsd` "
+"page."
+msgstr ""
+"Linux は rv64 (RISC-V), ppc64, ppc32 (PowerPC), loongarch64 をサポートしてい"
+"ます。ただしこれらのプラットフォーム向けにエディタ（およびテンプレートのエク"
+"スポート）は自分でコンパイルする必要があります。現在、公式ダウンロードでは提"
+"供されていません。RISC-Vのコンパイル手順について"
+"は、 :ref:`doc_compiling_for_linuxbsd` ページをご覧ください。"
+
 msgid "**Runs exported projects:**"
 msgstr "**エクスポートされたプロジェクトの実行:**"
 
@@ -936,6 +949,9 @@ msgstr "手動放出ができるカスタムのパーティクルシェーダー
 msgid "**Post-processing:**"
 msgstr "**ポストプロセッシング:**"
 
+msgid "Tonemapping (Linear, Reinhard, Filmic, ACES, AgX)."
+msgstr "トーンマッピング (Linear、Reinhard、Filmic、ACES、AgX)。"
+
 msgid ""
 "Automatic exposure adjustments based on viewport brightness (and manual "
 "exposure override)."
@@ -1197,6 +1213,16 @@ msgid ""
 msgstr ""
 "ベクトルやトランスフォームといった、多くの2Dや3D、4Dの線形代数データ型。"
 
+msgid ":ref:`GDScript: <doc_gdscript>`"
+msgstr ":ref:`GDScript: <doc_gdscript>`"
+
+msgid ""
+":ref:`High-level interpreted language <doc_gdscript_reference>` "
+"with :ref:`optional static typing <doc_gdscript_static_typing>`."
+msgstr ""
+":ref:`任意で静的型付け <doc_gdscript_static_typing>` ができる :ref:`高水準イ"
+"ンタープリタ言語 <doc_gdscript_reference>` 。"
+
 msgid ""
 "Syntax inspired by Python. However, GDScript is **not** based on Python."
 msgstr ""
@@ -1212,6 +1238,9 @@ msgid ""
 msgstr ""
 ":ref:`スレッドの使用 <doc_using_multiple_threads>`\\ で非同期処理を行ったり、"
 "複数のプロセッサコアを利用したりできます。"
+
+msgid ":ref:`C#: <doc_c_sharp>`"
+msgstr ":ref:`C#: <doc_c_sharp>`"
 
 msgid "Packaged in a separate binary to keep file sizes and dependencies down."
 msgstr ""
@@ -1712,6 +1741,17 @@ msgstr ""
 "Meta Quest 1/2/3/Pro、Pico 4、Magic Leap 2 及び Lynx R1 のような主要なスタン"
 "ドアローンヘッドセットに対応。"
 
+msgid "Out of the box limited support for visionOS Apple headsets."
+msgstr "Appleヘッドセット(visionOS)の限定的なサポート。"
+
+msgid ""
+"Currently only exporting an application for use on a flat plane within the "
+"headset is supported. Immersive experiences are not supported."
+msgstr ""
+"現在、ヘッドセット内のFlat Planeで使用するためのアプリケーションのエクスポー"
+"トのみがサポートされています。Immersiveエクスペリエンスはサポートされていませ"
+"ん。"
+
 msgid "Other devices supported through an XR plugin structure."
 msgstr "XRプラグイン機構を介してその他のデバイスに対応。"
 
@@ -2019,13 +2059,6 @@ msgstr ""
 
 msgid "Licensed under the permissive MIT license."
 msgstr "ライセンスは、寛容な MIT ライセンスです。"
-
-msgid ""
-"Open development process with :ref:`contributions welcome "
-"<doc_ways_to_contribute>`."
-msgstr ""
-"オープンな開発プロセスで、 :ref:`あらゆる貢献を歓迎します "
-"<doc_ways_to_contribute>`\\ 。"
 
 msgid ""
 "The `Godot proposals repository <https://github.com/godotengine/godot-"

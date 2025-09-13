@@ -12,14 +12,14 @@ ResourceImporterSVG
 
 **继承：** :ref:`ResourceImporter<class_ResourceImporter>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Imports an SVG file as an automatically scalable texture for use in UI elements and 2D rendering.
+将 SVG 文件作为自动缩放纹理导入，用于 UI 元素和 2D 渲染。
 
 .. rst-class:: classref-introduction-group
 
 描述
 ----
 
-This importer imports :ref:`DPITexture<class_DPITexture>` resources. See also :ref:`ResourceImporterTexture<class_ResourceImporterTexture>` and :ref:`ResourceImporterImage<class_ResourceImporterImage>`.
+该导入器导入 :ref:`DPITexture<class_DPITexture>` 资源。另见 :ref:`ResourceImporterTexture<class_ResourceImporterTexture>` 和 :ref:`ResourceImporterImage<class_ResourceImporterImage>`\ 。
 
 .. rst-class:: classref-reftable-group
 
@@ -54,7 +54,7 @@ This importer imports :ref:`DPITexture<class_DPITexture>` resources. See also :r
 
 :ref:`float<class_float>` **base_scale** = ``1.0`` :ref:`🔗<class_ResourceImporterSVG_property_base_scale>`
 
-Texture scale. ``1.0`` is the original SVG size. Higher values result in a larger image.
+纹理缩放。\ ``1.0`` 是原始 SVG 大小。值越大得到的图像越大。
 
 .. rst-class:: classref-item-separator
 
@@ -66,7 +66,7 @@ Texture scale. ``1.0`` is the original SVG size. Higher values result in a large
 
 :ref:`Dictionary<class_Dictionary>` **color_map** = ``{}`` :ref:`🔗<class_ResourceImporterSVG_property_color_map>`
 
-If set, remaps texture colors according to :ref:`Color<class_Color>`-:ref:`Color<class_Color>` map.
+设置后，会根据 :ref:`Color<class_Color>`-:ref:`Color<class_Color>` 映射对纹理中的颜色进行重映射。
 
 .. rst-class:: classref-item-separator
 

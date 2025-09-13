@@ -248,9 +248,9 @@ Sprite2D
 - |void| **set_region_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_region_enabled**\ (\ )
 
-If ``true``, texture is cut from a larger atlas texture. See :ref:`region_rect<class_Sprite2D_property_region_rect>`.
+如果为 ``true``\ ，则会从更大的图集纹理上裁剪出纹理。见 :ref:`region_rect<class_Sprite2D_property_region_rect>`\ 。
 
-\ **Note:** When using a custom :ref:`Shader<class_Shader>` on a **Sprite2D**, the ``UV`` shader built-in will refer to the entire texture space. Use the ``REGION_RECT`` built-in to get the currently visible region defined in :ref:`region_rect<class_Sprite2D_property_region_rect>` instead. See :doc:`CanvasItem shaders <../tutorials/shaders/shader_reference/canvas_item_shader>` for details.
+\ **注意：**\ 对 **Sprite2D** 使用自定义 :ref:`Shader<class_Shader>` 时，着色器内置的 ``UV`` 指的是完整纹理空间。请使用内置的 ``REGION_RECT`` 获取 :ref:`region_rect<class_Sprite2D_property_region_rect>` 中定义的当前可见区域。详见《\ :doc:`CanvasItem 着色器 <../tutorials/shaders/shader_reference/canvas_item_shader>`\ 》。
 
 .. rst-class:: classref-item-separator
 

@@ -4105,7 +4105,7 @@ flags **PropertyUsageFlags**: :ref:`🔗<enum_@GlobalScope_PropertyUsageFlags>`
 
 :ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>` **PROPERTY_USAGE_HIGH_END_GFX** = ``2097152``
 
-只有在支持现代渲染器（不包含 GLES3）的情况下该属性才会在编辑器中显示。
+仅当支持现代渲染器（不包括 Compatibility 渲染方式）时，该属性才会显示在编辑器中。
 
 .. _class_@GlobalScope_constant_PROPERTY_USAGE_NODE_PATH_FROM_SCENE_ROOT:
 

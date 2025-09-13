@@ -188,17 +188,6 @@ msgstr ""
 "新实现。然而，圆柱体碰撞形状是最难支持的形状之一，这就是为什么许多其他物理引"
 "擎不提供对它们的支持。目前已知圆柱体碰撞形状存在一些问题。"
 
-msgid ""
-"We recommend using box or capsule collision shapes for characters for now. "
-"Boxes generally provide the best reliability, but have the downside of "
-"making the character take more space diagonally. Capsule collision shapes do "
-"not have this downside, but their shape can make precision platforming more "
-"difficult."
-msgstr ""
-"我们建议目前使用盒或胶囊形状的碰撞体来模拟角色。盒形状通常提供最佳的可靠性，"
-"但缺点是使角色在对角线上占用更多的空间。胶囊碰撞形状没有这个缺点，但它们的形"
-"状可能会使精确的平台跳跃更加困难。"
-
 msgid "VehicleBody simulation is unstable, especially at high speeds"
 msgstr "VehicleBody 仿真不稳定，尤其是在速度较大的时候"
 

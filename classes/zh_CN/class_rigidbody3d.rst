@@ -400,9 +400,9 @@ enum **DampMode**: :ref:`🔗<enum_RigidBody3D_DampMode>`
 - |void| **set_center_of_mass**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_center_of_mass**\ (\ )
 
-The body's custom center of mass, relative to the body's origin position, when :ref:`center_of_mass_mode<class_RigidBody3D_property_center_of_mass_mode>` is set to :ref:`CENTER_OF_MASS_MODE_CUSTOM<class_RigidBody3D_constant_CENTER_OF_MASS_MODE_CUSTOM>`. This is the balanced point of the body, where applied forces only cause linear acceleration. Applying forces outside of the center of mass causes angular acceleration.
+当 :ref:`center_of_mass_mode<class_RigidBody3D_property_center_of_mass_mode>` 设置为 :ref:`CENTER_OF_MASS_MODE_CUSTOM<class_RigidBody3D_constant_CENTER_OF_MASS_MODE_CUSTOM>` 时，物体的自定义质心相对于物体原点位置的位置。这是物体的平衡点，只有施加在质心内的力才会引起线性加速度。施加在质心之外的力会引起角加速度。
 
-When :ref:`center_of_mass_mode<class_RigidBody3D_property_center_of_mass_mode>` is set to :ref:`CENTER_OF_MASS_MODE_AUTO<class_RigidBody3D_constant_CENTER_OF_MASS_MODE_AUTO>` (default value), the center of mass is automatically determined, but this does not update the value of :ref:`center_of_mass<class_RigidBody3D_property_center_of_mass>`.
+当 :ref:`center_of_mass_mode<class_RigidBody3D_property_center_of_mass_mode>` 设置为 :ref:`CENTER_OF_MASS_MODE_AUTO<class_RigidBody3D_constant_CENTER_OF_MASS_MODE_AUTO>`\ （默认值）时，会自动确定质心，但这不会更新 :ref:`center_of_mass<class_RigidBody3D_property_center_of_mass>` 的值。
 
 .. rst-class:: classref-item-separator
 

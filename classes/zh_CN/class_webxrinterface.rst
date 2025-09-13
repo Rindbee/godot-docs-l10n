@@ -442,13 +442,13 @@ enum **TargetRayMode**: :ref:`🔗<enum_WebXRInterface_TargetRayMode>`
 - |void| **set_optional_features**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_optional_features**\ (\ )
 
-:ref:`XRInterface.initialize()<class_XRInterface_method_initialize>` 在设置 WebXR 会话时使用的以逗号分隔的可选功能列表。
+A comma-seperated list of optional features used by :ref:`XRInterface.initialize()<class_XRInterface_method_initialize>` when setting up the WebXR session.
 
-如果用户的浏览器或设备，不支持给定的任一功能，初始化将继续，但将无法使用所请求的功能。
+If a user's browser or device doesn't support one of the given features, initialization will continue, but you won't be able to use the requested feature.
 
-这对已经初始化的接口没有任何影响。
+This doesn't have any effect on the interface when already initialized.
 
-可能的值来自 `WebXR 的 XRReferenceSpaceType <https://developer.mozilla.org/en-US/docs/Web/API/XRReferenceSpaceType>`__\ ，或包含其他功能，如 ``"hand-tracking"`` 以启用手部跟踪。
+See the MDN documentation on `WebXR's session features <https://developer.mozilla.org/en-US/docs/Web/API/XRSystem/requestSession#session_features>`__ for a list of possible values.
 
 .. rst-class:: classref-item-separator
 
@@ -506,13 +506,13 @@ enum **TargetRayMode**: :ref:`🔗<enum_WebXRInterface_TargetRayMode>`
 - |void| **set_required_features**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_required_features**\ (\ )
 
-:ref:`XRInterface.initialize()<class_XRInterface_method_initialize>` 在设置 WebXR 会话时使用的以逗号分隔的所需功能列表。
+A comma-seperated list of required features used by :ref:`XRInterface.initialize()<class_XRInterface_method_initialize>` when setting up the WebXR session.
 
-如果用户的浏览器或设备不支持给定的任一功能，则初始化将失败并发出 :ref:`session_failed<class_WebXRInterface_signal_session_failed>` 。
+If a user's browser or device doesn't support one of the given features, initialization will fail and :ref:`session_failed<class_WebXRInterface_signal_session_failed>` will be emitted.
 
-这对已经初始化的接口没有任何影响。
+This doesn't have any effect on the interface when already initialized.
 
-可能的值来自 `WebXR 的 XRReferenceSpaceType <https://developer.mozilla.org/en-US/docs/Web/API/XRReferenceSpaceType>`__\ ，或包含其他功能，如 ``"hand-tracking"`` 以启用手部跟踪。
+See the MDN documentation on `WebXR's session features <https://developer.mozilla.org/en-US/docs/Web/API/XRSystem/requestSession#session_features>`__ for a list of possible values.
 
 .. rst-class:: classref-item-separator
 

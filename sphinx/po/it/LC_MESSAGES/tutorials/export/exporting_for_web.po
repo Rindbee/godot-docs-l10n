@@ -61,3 +61,6 @@ msgstr "Variabile d'ambiente"
 
 msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "Troubleshooting"
+msgstr "Risoluzione dei problemi"

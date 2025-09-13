@@ -908,6 +908,9 @@ msgstr "Шифрування / ключ шифрування"
 msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 
+msgid "Troubleshooting"
+msgstr "Вирішення проблем"
+
 msgid ""
 "You can find a full list of export options available in "
 "the :ref:`class_EditorExportPlatformWeb` class reference."

@@ -659,6 +659,20 @@ msgstr ""
 "Тепер ви можете додавати речі до цього вузла контролера, наприклад raycast, "
 "і контролювати речі очима."
 
+msgid "Render Models"
+msgstr "Рендеринг моделей"
+
+msgid ""
+"This extension is used to query the XR runtime for 3D assets of the hardware "
+"being used, usually a controller, as well as the position of that hardware. "
+"You can find a detailed guide on how to use it :ref:`here "
+"<doc_openxr_render_models>`."
+msgstr ""
+"Це розширення використовується для запиту середовища виконання XR щодо 3D-"
+"ресурсів використовуваного обладнання, зазвичай контролера, а також "
+"положення цього обладнання. Ви можете знайти детальний посібник з його "
+"використання :ref:`here <doc_openxr_render_models>`."
+
 msgid "Binding Modifiers"
 msgstr "Модифікатори прив'язки"
 

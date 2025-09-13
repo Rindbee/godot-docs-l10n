@@ -212,18 +212,6 @@ msgstr ""
 "அவர்களுக்கு எந்த ஆதரவையும் வழங்கவில்லை. தற்போது சிலிண்டர் மோதல் வடிவங்களுடன் அறியப்பட்ட பல "
 "பிழைகள் உள்ளன."
 
-msgid ""
-"We recommend using box or capsule collision shapes for characters for now. "
-"Boxes generally provide the best reliability, but have the downside of "
-"making the character take more space diagonally. Capsule collision shapes do "
-"not have this downside, but their shape can make precision platforming more "
-"difficult."
-msgstr ""
-"இப்போது எழுத்துக்களுக்கான பெட்டி அல்லது காப்ச்யூல் மோதல் வடிவங்களைப் பயன்படுத்த "
-"பரிந்துரைக்கிறோம். பெட்டிகள் பொதுவாக சிறந்த நம்பகத்தன்மையை வழங்குகின்றன, ஆனால் பாத்திரத்தை "
-"அதிக இடத்தை குறுக்காக எடுக்கச் செய்வதன் தீங்கு உள்ளது. காப்ச்யூல் மோதல் வடிவங்களுக்கு இந்த "
-"தீங்கு இல்லை, ஆனால் அவற்றின் வடிவம் துல்லியமான இயங்குதளத்தை மிகவும் கடினமாக்கும்."
-
 msgid "VehicleBody simulation is unstable, especially at high speeds"
 msgstr "வாகன பாடி உருவகப்படுத்துதல் நிலையற்றது, குறிப்பாக அதிக வேகத்தில்"
 

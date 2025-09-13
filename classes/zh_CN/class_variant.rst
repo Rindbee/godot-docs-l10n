@@ -130,7 +130,7 @@ Variant：
 教程
 ----
 
-- :doc:`Variant 类简介 <../contributing/development/core_and_modules/variant_class>`
+- :doc:`Variant 类简介 <../engine_details/architecture/variant_class>`
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要用户覆盖才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

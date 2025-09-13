@@ -44,7 +44,7 @@ msgstr ""
 "de forma segura en un hilo."
 
 msgid "Creating a Thread"
-msgstr "Creando un hilo"
+msgstr "Crear un hilo"
 
 msgid ""
 "Your function will, then, run in a separate thread until it returns. Even if "

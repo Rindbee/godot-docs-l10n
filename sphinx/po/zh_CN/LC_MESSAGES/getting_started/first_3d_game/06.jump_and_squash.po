@@ -279,17 +279,34 @@ msgstr ""
 "我们需要检测与怪物的碰撞，并和与地板的碰撞相区分。要这么做，我们可以使用 "
 "Godot 的\\ :ref:`分组 <doc_groups>`\\ 标签功能。"
 
+msgid ""
+"Open the scene ``mob.tscn`` again and select the *Mob* node. Go to the "
+"*Node* dock on the right to see a list of signals. The *Node* dock has two "
+"tabs: *Signals*, which you've already used, and *Groups*, which allows you "
+"to assign tags to nodes. Click on the *+* button to open the *Create new "
+"Group* dialog."
+msgstr ""
+"再次打开 ``mob.tscn`` 场景，然后选中 *Mob* 节点。在右侧的\\ *节点*\\ 面板中可"
+"以看到信号列表。\\ *节点*\\ 面板有两个选项卡：你已经使用过的\\ *信号*\\ ，以"
+"及用来为节点添加标签的\\ *分组*\\ 。点击 *+* 按钮打开\\ *新建分组*\\ 对话框。"
+
 msgid "|image7|"
 msgstr "|image7|"
 
 msgid "image7"
 msgstr "image7"
 
+msgid "Enter \"mob\" in the *Name* field and click the *Ok* button."
+msgstr "在 *名称* 一栏中输入“怪物”，然后点击 *确定* 按钮。"
+
 msgid "|image8|"
 msgstr "|image8|"
 
 msgid "image8"
 msgstr "image8"
+
+msgid "The \"mob\" group is now shown under the *Scene Groups* section."
+msgstr "现在“怪物”分组显示在 *场景分组* 部分。"
 
 msgid "|image9|"
 msgstr "|image9|"

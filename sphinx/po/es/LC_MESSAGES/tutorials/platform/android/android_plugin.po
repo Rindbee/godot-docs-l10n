@@ -36,6 +36,18 @@ msgstr ""
 "Crea un módulo biblioteca de Android siguiendo `estas instrucciones <https://"
 "developer.android.com/studio/projects/android-library>`_"
 
+msgid "Where:"
+msgstr "Dónde:"
+
+msgid "``PluginName`` is the name of the plugin"
+msgstr "``PluginName`` es el nombre del plugin"
+
+msgid "Packaging a v2 Android plugin"
+msgstr "Empacar un plugin v2 de Android"
+
+msgid "Using a v2 Android plugin"
+msgstr "Usar un plugin v2 de Android"
+
 msgid ""
 "Navigate to ``Project`` -> ``Project Settings...`` -> ``Plugins``, and "
 "ensure the plugin is enabled"
@@ -81,10 +93,10 @@ msgid ""
 "``org.godotengine.godot.Dictionary``, ``int[]``, ``byte[]``, ``float[]``, "
 "``java.lang.String[]``."
 msgstr ""
-"Verifica que los métodos expuestos por el complemento utilicen los "
-"siguientes tipos de datos en Java: ``void``, ``boolean``, ``int``, "
-"``float``, ``java.lang.String``, ``org.godotengine.godot.Dictionary``, "
-"``int[]``, ``byte[]``, ``float[]``, ``java.lang.String[]``."
+"Verifica que los métodos expuestos por el plugin utilicen los siguientes "
+"tipos de datos en Java: ``void``, ``boolean``, ``int``, ``float``, "
+"``java.lang.String``, ``org.godotengine.godot.Dictionary``, ``int[]``, "
+"``byte[]``, ``float[]``, ``java.lang.String[]``."
 
 msgid "More complex datatypes are not supported for now."
 msgstr ""

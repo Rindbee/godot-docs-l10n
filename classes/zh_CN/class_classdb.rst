@@ -19,9 +19,9 @@ ClassDB
 描述
 ----
 
-Provides access to metadata stored for every available engine class.
+提供对引擎中所有可用类的元数据的访问。
 
-\ **Note:** Script-defined classes with ``class_name`` are not part of **ClassDB**, so they will not return reflection data such as a method or property list. However, :ref:`GDExtension<class_GDExtension>`-defined classes *are* part of **ClassDB**, so they will return reflection data.
+\ **注意：**\ 脚本使用 ``class_name`` 定义的类并不属于 **ClassDB**\ ，因此不会返回方法列表、属性列表等反射数据。不过 :ref:`GDExtension<class_GDExtension>` 定义的类\ *属于* **ClassDB**\ ，因此会返回反射数据。
 
 .. rst-class:: classref-reftable-group
 
@@ -441,9 +441,9 @@ GDExtension 编辑器类型。
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_class_list**\ (\ ) |const| :ref:`🔗<class_ClassDB_method_get_class_list>`
 
-Returns the names of all engine classes available.
+返回引擎中所有可用类的名称。
 
-\ **Note:** Script-defined classes with ``class_name`` are not included in this list. Use :ref:`ProjectSettings.get_global_class_list()<class_ProjectSettings_method_get_global_class_list>` to get a list of script-defined classes instead.
+\ **注意：**\ 列表中不包含脚本使用 ``class_name`` 定义的类。请使用 :ref:`ProjectSettings.get_global_class_list()<class_ProjectSettings_method_get_global_class_list>` 获取脚本定义的类的列表。
 
 .. rst-class:: classref-item-separator
 
@@ -455,7 +455,7 @@ Returns the names of all engine classes available.
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_inheriters_from_class**\ (\ class\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_ClassDB_method_get_inheriters_from_class>`
 
-Returns the names of all engine classes that directly or indirectly inherit from ``class``.
+返回引擎中所有直接或间接继承自 ``class`` 的类的名称。
 
 .. rst-class:: classref-item-separator
 

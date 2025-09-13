@@ -20,5 +20,10 @@ msgstr "제한 사항"
 msgid "Detective work"
 msgstr "조사 작업"
 
+msgid "`Donald Knuth <https://en.wikipedia.org/wiki/Donald_Knuth>`__ said:"
+msgstr ""
+"`도널드 커누스 <https://ko.wikipedia.org/wiki/도널드_커누스>`__\\ 는 말했습니"
+"다:"
+
 msgid "Performant design"
 msgstr "성능이 뛰어난 디자인"

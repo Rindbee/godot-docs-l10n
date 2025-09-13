@@ -154,3 +154,15 @@ msgstr "Приклад: Доступ до внутрішніх класів"
 msgid "Java inner classes can be accessed using the ``$`` sign:"
 msgstr ""
 "До внутрішніх класів Java можна отримати доступ за допомогою знака ``$``:"
+
+msgid "Example: Calling a constructor"
+msgstr "Приклад: Виклик конструктора"
+
+msgid ""
+"A constructor is invoked by calling a method with the same name as the class."
+msgstr ""
+"Конструктор викликається шляхом виклику методу з тим самим ім'ям, що й у "
+"класу."
+
+msgid "This example creates an intent to send a text:"
+msgstr "Цей приклад створює намір надіслати текстове повідомлення:"

@@ -230,4 +230,4 @@ msgid "SubViewportContainer"
 msgstr "SubViewportContainer"
 
 msgid "Creating custom Containers"
-msgstr "Creando contenedores personalizados"
+msgstr "Crear contenedores personalizados"

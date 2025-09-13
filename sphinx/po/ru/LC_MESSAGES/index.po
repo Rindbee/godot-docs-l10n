@@ -20,9 +20,6 @@ msgstr "Начало работы"
 msgid "Manual"
 msgstr "Руководство"
 
-msgid "Contributing"
-msgstr "Вклад в развитие"
-
 msgid "Community"
 msgstr "Сообщество"
 

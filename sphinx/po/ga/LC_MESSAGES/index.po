@@ -20,9 +20,6 @@ msgstr "Ag tosú"
 msgid "Manual"
 msgstr "Lámhleabhar"
 
-msgid "Contributing"
-msgstr "Ag cur leis an"
-
 msgid "Community"
 msgstr "Pobal"
 

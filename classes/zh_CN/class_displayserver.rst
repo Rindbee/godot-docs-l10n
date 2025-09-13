@@ -808,7 +808,7 @@ enum **Feature**: :ref:`🔗<enum_DisplayServer_Feature>`
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_SCREEN_EXCLUDE_FROM_CAPTURE** = ``28``
 
-Display server supports :ref:`WINDOW_FLAG_EXCLUDE_FROM_CAPTURE<class_DisplayServer_constant_WINDOW_FLAG_EXCLUDE_FROM_CAPTURE>` window flag. **Windows, macOS**
+显示服务器支持窗口标志 :ref:`WINDOW_FLAG_EXCLUDE_FROM_CAPTURE<class_DisplayServer_constant_WINDOW_FLAG_EXCLUDE_FROM_CAPTURE>`\ 。\ **Windows、macOS**
 
 .. _class_DisplayServer_constant_FEATURE_WINDOW_EMBEDDING:
 
@@ -816,7 +816,7 @@ Display server supports :ref:`WINDOW_FLAG_EXCLUDE_FROM_CAPTURE<class_DisplayServ
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_WINDOW_EMBEDDING** = ``29``
 
-Display server supports embedding a window from another process. **Windows, Linux (X11), macOS**
+显示服务器支持嵌入其他进程的窗口。\ **Windows、Linux（X11）、macOS**
 
 .. _class_DisplayServer_constant_FEATURE_NATIVE_DIALOG_FILE_MIME:
 
@@ -2270,11 +2270,11 @@ enum **WindowFlags**: :ref:`🔗<enum_DisplayServer_WindowFlags>`
 
 :ref:`WindowFlags<enum_DisplayServer_WindowFlags>` **WINDOW_FLAG_EXCLUDE_FROM_CAPTURE** = ``9``
 
-Window is excluded from screenshots taken by :ref:`screen_get_image()<class_DisplayServer_method_screen_get_image>`, :ref:`screen_get_image_rect()<class_DisplayServer_method_screen_get_image_rect>`, and :ref:`screen_get_pixel()<class_DisplayServer_method_screen_get_pixel>`.
+在 :ref:`screen_get_image()<class_DisplayServer_method_screen_get_image>`\ 、\ :ref:`screen_get_image_rect()<class_DisplayServer_method_screen_get_image_rect>` 和 :ref:`screen_get_pixel()<class_DisplayServer_method_screen_get_pixel>` 的截图中排除该窗口。
 
-\ **Note:** This flag is implemented on macOS and Windows (10, 20H1).
+\ **注意：**\ 该标志在 macOS 和 Windows（10、20H1）上实现。
 
-\ **Note:** Setting this flag will prevent standard screenshot methods from capturing a window image, but does **NOT** guarantee that other apps won't be able to capture an image. It should not be used as a DRM or security measure.
+\ **注意：**\ 设置该标志将阻止标准屏幕截图方法截取窗口图像，但\ **不**\ 保证其他应用无法截取图像。它不应用作 DRM 或安全措施。
 
 .. _class_DisplayServer_constant_WINDOW_FLAG_POPUP_WM_HINT:
 

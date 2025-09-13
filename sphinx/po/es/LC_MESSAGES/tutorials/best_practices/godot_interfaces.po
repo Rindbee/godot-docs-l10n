@@ -27,7 +27,7 @@ msgstr ""
 "características."
 
 msgid "Accessing the data or logic from the object."
-msgstr "Accediendo a los datos o lógica desde el objeto."
+msgstr "Acceder a los datos o lógica desde el objeto."
 
 msgid "The rest of this tutorial outlines the various ways of doing all this."
 msgstr "El resto de este tutorial describe las distintas formas de hacer esto."

@@ -645,9 +645,9 @@ App Store 的应用程序分类。
 
 :ref:`String<class_String>` **application/short_version** :ref:`🔗<class_EditorExportPlatformMacOS_property_application/short_version>`
 
-Application version visible to the user. Can only contain numeric characters (``0-9``) and periods (``.``). Falls back to :ref:`ProjectSettings.application/config/version<class_ProjectSettings_property_application/config/version>` if left empty.
+用户可见的应用程序版本，只能包含数字字符（\ ``0-9``\ ）和句点（\ ``.``\ ）。如果留空，则回退到 :ref:`ProjectSettings.application/config/version<class_ProjectSettings_property_application/config/version>`\ 。
 
-\ **Note:** This value is used for the *Identity > Version* value in the generated Xcode project.
+\ **注意：**\ 生成的 Xcode 项目的 *Identity > Version* 会使用这个值。
 
 .. rst-class:: classref-item-separator
 
@@ -671,9 +671,9 @@ Application version visible to the user. Can only contain numeric characters (``
 
 :ref:`String<class_String>` **application/version** :ref:`🔗<class_EditorExportPlatformMacOS_property_application/version>`
 
-Machine-readable application version in the ``major.minor.patch`` format. Can only contain numeric characters (``0-9``) and periods (``.``). This must be incremented with every new release pushed to the App Store. Falls back to :ref:`ProjectSettings.application/config/version<class_ProjectSettings_property_application/config/version>` if left empty.
+机器可读的应用程序版本，采用 ``major.minor.patch`` 格式，只能包含数字字符（\ ``0-9``\ ）和句点（\ ``.``\ ）。该值必须在被推送到 App Store 的每个新版本中递增。如果留空，则回退到 :ref:`ProjectSettings.application/config/version<class_ProjectSettings_property_application/config/version>`\ 。
 
-\ **Note:** This value is used for the *Identity > Build* value in the generated Xcode project.
+\ **注意：**\ 生成的 Xcode 项目的 *Identity > Build* 会使用这个值。
 
 .. rst-class:: classref-item-separator
 

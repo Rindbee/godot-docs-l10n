@@ -40,7 +40,7 @@ msgid "Space"
 msgstr "Espacio"
 
 msgid "Accessing space"
-msgstr "Accediendo al espacio"
+msgstr "Acceder al espacio"
 
 msgid "Use the following code in 2D:"
 msgstr "Usa el siguiente código en 2D:"

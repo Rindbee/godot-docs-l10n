@@ -34,3 +34,6 @@ msgstr ""
 "Yayınlamalık kullanım durumları için, bu Python-tabanlı web sunucusunun "
 "kullanılmaması gerektiğini unutmayın. Bunun yerine, Apache veya nginx gibi "
 "yerleşik bir web sunucusu kullanmalısınız."
+
+msgid "Troubleshooting"
+msgstr "Sorun giderme"

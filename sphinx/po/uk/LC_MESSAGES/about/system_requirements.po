@@ -74,6 +74,11 @@ msgid "**Forward+ renderer:** Integrated graphics with full Vulkan 1.0 support"
 msgstr ""
 "**Forward+ Renderer:** Інтегрована графіка з повною підтримкою Vulkan 1.0"
 
+msgid ""
+"*Example: Intel HD Graphics 510 (Skylake), AMD Radeon R5 Graphics (Kaveri)*"
+msgstr ""
+"*Приклад: Intel HD Graphics 510 (Skylake), AMD Radeon R5 Graphics (Kaveri)*"
+
 msgid "**Mobile renderer:** Integrated graphics with full Vulkan 1.0 support"
 msgstr ""
 "**Мобільний рендерер:** Інтегрована графіка з повною підтримкою Vulkan 1.0"

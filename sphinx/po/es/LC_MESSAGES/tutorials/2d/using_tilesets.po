@@ -30,7 +30,7 @@ msgstr ""
 "(perspectiva pseudo-3D)."
 
 msgid "Creating a new TileSet"
-msgstr "Creando un nuevo Tileset"
+msgstr "Crear un nuevo Tileset"
 
 msgid "Using a tilesheet"
 msgstr "Usando un tilesheet"
@@ -257,7 +257,7 @@ msgstr ""
 "cada tile colocado."
 
 msgid "Creating a scenes collection in the TileSet editor"
-msgstr "Creando colecciones de escenas en el editor de TileSet"
+msgstr "Crear colecciones de escenas en el editor de TileSet"
 
 msgid ""
 "After creating a scenes collection, you can enter a descriptive name for the "
@@ -403,7 +403,7 @@ msgid ""
 "the TileSet."
 msgstr ""
 "Por último, si utiliza :ref:`doc_2d_lights_and_shadows` o GPUParticles2D, es "
-"posible que también desee que su TileSet pueda proyectar sombras y "
+"posible que también desees que tu TileSet pueda proyectar sombras y "
 "colisionar con partículas. Esto requiere definir polígonos oclusores para "
 "los tiles \"sólidos\" en el TileSet."
 
@@ -513,7 +513,7 @@ msgid ""
 "Creating a triangle collision shape by right-clicking one of the corners to "
 "remove it"
 msgstr ""
-"Creando una forma de colisión triangular haciendo clic derecho en una de las "
+"Crear una forma de colisión triangular haciendo clic derecho en una de las "
 "esquinas para eliminarla"
 
 msgid ""
@@ -604,7 +604,7 @@ msgstr ""
 "de propiedades de tile"
 
 msgid "Creating terrain sets (autotiling)"
-msgstr "Creando sets de terreno (autotilling)"
+msgstr "Crear sets de terreno (autotilling)"
 
 msgid ""
 "This functionality was implemented in a different form as *autotiling* in "
@@ -674,7 +674,7 @@ msgstr ""
 "*dentro* del conjunto de terrenos:"
 
 msgid "Creating a terrain within the terrain set"
-msgstr "Creando un terreno dentro del set de terreno"
+msgstr "Crear un terreno dentro del set de terreno"
 
 msgid ""
 "In the TileSet editor, switch to Select mode and click a tile. In the middle "
@@ -840,7 +840,7 @@ msgstr ""
 "para aplicarlo"
 
 msgid "Creating alternative tiles"
-msgstr "Creando tiles alternativos"
+msgstr "Crear tiles alternativos"
 
 msgid ""
 "Sometimes, you want to use a single tile image (found only once within the "

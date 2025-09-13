@@ -2457,7 +2457,7 @@ CSG 节点（例如 :ref:`CSGShape3D<class_CSGShape3D>` 和 :ref:`CSGBox3D<class
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -2471,7 +2471,7 @@ CSG 节点（例如 :ref:`CSGShape3D<class_CSGShape3D>` 和 :ref:`CSGBox3D<class
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -2485,7 +2485,7 @@ CSG 节点（例如 :ref:`CSGShape3D<class_CSGShape3D>` 和 :ref:`CSGBox3D<class
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -2499,7 +2499,7 @@ CSG 节点（例如 :ref:`CSGShape3D<class_CSGShape3D>` 和 :ref:`CSGBox3D<class
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -3604,9 +3604,9 @@ Blender 进程的最大空闲运行时间（单位为秒）。
 
 :ref:`String<class_String>` **interface/editor/editor_language** :ref:`🔗<class_EditorSettings_property_interface/editor/editor_language>`
 
-用于编辑器界面的语言。
+The language to use for the editor interface.
 
-翻译由社区提供。如果发现错误，\ :doc:`请在 Weblate 上为编辑器翻译作出贡献！ <../contributing/documentation/editor_and_docs_localization>`
+Translations are provided by the community. If you spot a mistake, `contribute to editor translations on Weblate! <https://contributing.godotengine.org/en/latest/documentation/translation/index.html>`__
 
 .. rst-class:: classref-item-separator
 
@@ -6278,7 +6278,7 @@ GDScript 语法高亮器对节点引用字面量所使用的文本颜色（例�
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/gdscript/string_name_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/string_name_color>`
 
-The GDScript syntax highlighter text color for :ref:`StringName<class_StringName>` literals (e.g. ``&"example"``).
+GDScript 语法高亮器对 :ref:`StringName<class_StringName>` 字面量所使用的文本颜色（例如 ``&"example"``\ ）。
 
 .. rst-class:: classref-item-separator
 

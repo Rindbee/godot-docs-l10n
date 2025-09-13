@@ -1560,7 +1560,7 @@ enum **VRSUpdateMode**: :ref:`🔗<enum_Viewport_VRSUpdateMode>`
 - |void| **set_use_oversampling**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_using_oversampling**\ (\ )
 
-If ``true`` and one of the following conditions are true: :ref:`SubViewport.size_2d_override_stretch<class_SubViewport_property_size_2d_override_stretch>` and :ref:`SubViewport.size_2d_override<class_SubViewport_property_size_2d_override>` are set, :ref:`Window.content_scale_factor<class_Window_property_content_scale_factor>` is set and scaling is enabled, :ref:`oversampling_override<class_Viewport_property_oversampling_override>` is set, font and :ref:`DPITexture<class_DPITexture>` oversampling are enabled.
+如果为 ``true`` 且以下条件之一为真：设置了 :ref:`SubViewport.size_2d_override_stretch<class_SubViewport_property_size_2d_override_stretch>` 和 :ref:`SubViewport.size_2d_override<class_SubViewport_property_size_2d_override>`\ ，设置了 :ref:`Window.content_scale_factor<class_Window_property_content_scale_factor>` 且启用了缩放，设置了 :ref:`oversampling_override<class_Viewport_property_oversampling_override>`\ ，则会启用字体和 :ref:`DPITexture<class_DPITexture>` 的过采样。
 
 .. rst-class:: classref-item-separator
 
@@ -1966,11 +1966,11 @@ If ``true`` and one of the following conditions are true: :ref:`SubViewport.size
 - |void| **set_use_hdr_2d**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_using_hdr_2d**\ (\ )
 
-If ``true``, 2D rendering will use a high dynamic range (HDR) format framebuffer matching the bit depth of the 3D framebuffer. When using the Forward+ or Compatibility renderer, this will be an ``RGBA16`` framebuffer. When using the Mobile renderer, it will be an ``RGB10_A2`` framebuffer.
+如果为 ``true``\ ，则 2D 渲染会使用与 3D 帧缓冲的位深度相匹配的高动态范围（HDR）格式的帧缓冲。使用 Forward+ 或 Compatibility 渲染器时是 ``RGBA16`` 帧缓冲。而使用 Mobile 渲染器时则是 ``RGB10_A2`` 帧缓冲。
 
-Additionally, 2D rendering will take place in linear color space and will be converted to sRGB space immediately before blitting to the screen (if the Viewport is attached to the screen).
+此外，2D 渲染将在线性色彩空间中进行，会在即将传输到屏幕之前转换到 sRGB 空间（如果视口已连接到屏幕）。
 
-Practically speaking, this means that the end result of the Viewport will not be clamped to the ``0-1`` range and can be used in 3D rendering without color space adjustments. This allows 2D rendering to take advantage of effects requiring high dynamic range (e.g. 2D glow) as well as substantially improves the appearance of effects requiring highly detailed gradients.
+实际上，这意味着视口的最终结果不会限制在 ``0-1`` 范围内，无需调整色彩空间即可在 3D 渲染中使用。这使得 2D 渲染能够利用需要高动态范围的效果（例如 2D 辉光），并显著改善需要高度详细渐变的效果的外观。
 
 .. rst-class:: classref-item-separator
 
@@ -2330,9 +2330,9 @@ Practically speaking, this means that the end result of the Viewport will not be
 
 :ref:`ViewportTexture<class_ViewportTexture>` **get_texture**\ (\ ) |const| :ref:`🔗<class_Viewport_method_get_texture>`
 
-Returns the viewport's texture.
+返回该视口的纹理
 
-\ **Note:** When trying to store the current texture (e.g. in a file), it might be completely black or outdated if used too early, especially when used in e.g. :ref:`Node._ready()<class_Node_private_method__ready>`. To make sure the texture you get is correct, you can await :ref:`RenderingServer.frame_post_draw<class_RenderingServer_signal_frame_post_draw>` signal.
+\ **注意：**\ 保存当前纹理时（例如保存到文件中），如果时机过早则可能是全黑或过时的图片，尤其是在 :ref:`Node._ready()<class_Node_private_method__ready>` 等函数中使用时。要确保获得正确的纹理，你可以等待 :ref:`RenderingServer.frame_post_draw<class_RenderingServer_signal_frame_post_draw>` 信号。
 
 
 .. tabs::
@@ -2354,7 +2354,7 @@ Returns the viewport's texture.
 
 
 
-\ **Note:** When :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` is ``true`` the returned texture will be an HDR image encoded in linear space.
+\ **注意：**\ :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` 为 ``true`` 时，返回的纹理是使用线性色彩空间编码的 HDR 图像。
 
 .. rst-class:: classref-item-separator
 

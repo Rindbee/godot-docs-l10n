@@ -443,9 +443,9 @@ Tree
 
 **item_collapsed**\ (\ item\: :ref:`TreeItem<class_TreeItem>`\ ) :ref:`🔗<class_Tree_signal_item_collapsed>`
 
-Emitted when an item is expanded or collapsed by clicking on the folding arrow or through code.
+点击折叠箭头或通过代码对某一项进行展开或折叠操作时发出。
 
-\ **Note:** Despite its name, this signal is also emitted when an item is expanded.
+\ **注意：**\ 虽然命名如此，展开项目时也会发出该信号。
 
 .. rst-class:: classref-item-separator
 

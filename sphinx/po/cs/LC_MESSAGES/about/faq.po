@@ -956,15 +956,6 @@ msgstr ""
 "Také by jste měli být obeznámeni s Git, verzovacim nástrojem který vývojáři "
 "Godot používají."
 
-msgid ""
-"We explain how to work with the engine source, how to edit the "
-"documentation, and what other ways to contribute are there in "
-"our :ref:`documentation for contributors <doc_ways_to_contribute>`."
-msgstr ""
-"Jak pracovat s enginem, jak upravovat dokumentaci a také jaké další možnosti "
-"přispívat máte vysvětlujeme v :ref:`dokumentaci pro přispěvatele "
-"<doc_ways_to_contributr>`."
-
 msgid "I have a great idea for Godot. How can I share it?"
 msgstr "Mám skvělý nápad pro Godot. Jak se o něj mohu podělit?"
 
@@ -1327,9 +1318,6 @@ msgstr ""
 
 msgid "How can I support Godot development or contribute?"
 msgstr "Jak mohu podpořit rozvoj Godot nebo přispět?"
-
-msgid "See :ref:`doc_ways_to_contribute`."
-msgstr "Čtěte :ref:`doc_ways_to_contribute`."
 
 msgid "Who is working on Godot? How can I contact you?"
 msgstr "Kdo pracuje na Godot? Jak vás mohu kontaktovat?"

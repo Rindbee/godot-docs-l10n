@@ -440,6 +440,16 @@ msgstr "In vec2 **SCREEN_PIXEL_SIZE**"
 msgid "Size of individual pixels. Equal to inverse of resolution."
 msgstr "Розмір окремих пікселів. Дорівнює оберненій роздільній здатності."
 
+msgid "in vec4 **REGION_RECT**"
+msgstr "in vec4 **REGION_RECT**"
+
+msgid ""
+"Visible area of the sprite region in format ``(x, y, width, height)``. "
+"Varies according to Sprite2D's ``region_enabled`` property."
+msgstr ""
+"Видима область спрайтової області у форматі ``(x, y, ширина, висота)``. "
+"Змінюється залежно від властивості ``region_enabled`` Sprite2D."
+
 msgid "in vec2 **POINT_COORD**"
 msgstr "In vec2 **POINT_COORD**"
 
@@ -474,6 +484,15 @@ msgstr "Колір дзеркального блиску, взятий із те
 
 msgid "in vec2 **UV**"
 msgstr "In vec2 **UV**"
+
+msgid ""
+"UV from the ``vertex()`` function. For Sprite2D with region enabled, this "
+"will sample the entire texture. Use ``REGION_RECT`` instead to sample only "
+"the region defined in the Sprite2D's properties."
+msgstr ""
+"UV з функції ``vertex()``. Для Sprite2D з увімкненою областю це призведе до "
+"вибірки всієї текстури. Використовуйте ``REGION_RECT`` для вибірки лише "
+"області, визначеної у властивостях Sprite2D."
 
 msgid "in vec2 **SCREEN_UV**"
 msgstr "In vec2 **SCREEN_UV**"

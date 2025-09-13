@@ -343,6 +343,9 @@ msgstr ""
 "Universal** （嵌入为基础通用）和 **Embed as Uncompressed** （嵌入为未压缩）分"
 "别将纹理嵌入已导入的场景中，并对 VRAM 进行压缩和不压缩。"
 
+msgid "Only visible for ``.blend`` files."
+msgstr "仅对 ``.blend`` 文件可见。"
+
 msgid "Using import scripts for automation"
 msgstr "使用导入脚本实现自动化"
 

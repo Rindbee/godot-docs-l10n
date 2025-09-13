@@ -34,7 +34,7 @@ msgstr ""
 "juegos 2D atractivos."
 
 msgid "2D Platformer Demo available on the Asset Library."
-msgstr "Demostración de plataforma 2D disponible en la Biblioteca de Recursos."
+msgstr "Demostración de plataforma 2D disponible en la Librería de Assets."
 
 msgid ""
 "This page will show you the 2D workspace and how you can get to know it."

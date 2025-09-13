@@ -1409,17 +1409,6 @@ msgstr ""
 "ஒவ்வொரு-நிலை சீருடைகளைப் பயன்படுத்தும் போது, நீங்கள் அறிந்திருக்க வேண்டிய சில "
 "கட்டுப்பாடுகள் உள்ளன:"
 
-msgid ""
-"**Per-instance uniforms do not support textures**, only regular scalar and "
-"vector types. As a workaround, you can pass a texture array as a regular "
-"uniform, then pass the index of the texture to be drawn using a per-instance "
-"uniform."
-msgstr ""
-"** ஒவ்வொரு-நிலை சீருடைகள் அமைப்புகளை ஆதரிக்காது **, வழக்கமான அளவிடுதல் மற்றும் திசையன் "
-"வகைகள் மட்டுமே. ஒரு பணித்தொகுப்பாக, நீங்கள் ஒரு அமைப்பு வரிசையை ஒரு வழக்கமான சீருடையாக "
-"அனுப்பலாம், பின்னர் ஒரு முன் சீருடையைப் பயன்படுத்தி வரையப்பட்ட அமைப்பின் குறியீட்டை "
-"அனுப்பலாம்."
-
 msgid "There is a practical maximum limit of 16 instance uniforms per shader."
 msgstr "ஒரு சேடருக்கு 16 நிகழ்வு சீருடைகள் நடைமுறை அதிகபட்ச வரம்பு உள்ளது."
 

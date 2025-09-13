@@ -314,7 +314,7 @@ enum **Param**: :ref:`🔗<enum_Generic6DOFJoint3D_Param>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -326,7 +326,7 @@ enum **Param**: :ref:`🔗<enum_Generic6DOFJoint3D_Param>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -338,7 +338,7 @@ enum **Param**: :ref:`🔗<enum_Generic6DOFJoint3D_Param>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -422,7 +422,7 @@ enum **Param**: :ref:`🔗<enum_Generic6DOFJoint3D_Param>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -434,7 +434,7 @@ enum **Param**: :ref:`🔗<enum_Generic6DOFJoint3D_Param>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -446,7 +446,7 @@ enum **Param**: :ref:`🔗<enum_Generic6DOFJoint3D_Param>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -492,7 +492,7 @@ enum **Flag**: :ref:`🔗<enum_Generic6DOFJoint3D_Flag>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -504,7 +504,7 @@ enum **Flag**: :ref:`🔗<enum_Generic6DOFJoint3D_Flag>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 
 
@@ -1117,7 +1117,7 @@ Z 轴上电机的目标速度。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1136,7 +1136,7 @@ Z 轴上电机的目标速度。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1155,7 +1155,7 @@ Z 轴上电机的目标速度。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1174,7 +1174,7 @@ Z 轴上电机的目标速度。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1193,7 +1193,7 @@ Z 轴上电机的目标速度。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1212,7 +1212,7 @@ Z 轴上电机的目标速度。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1231,7 +1231,7 @@ Z 轴上电机的目标速度。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1250,7 +1250,7 @@ Z 轴上电机的目标速度。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1269,7 +1269,7 @@ Z 轴上电机的目标速度。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1288,7 +1288,7 @@ Z 轴上电机的目标速度。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1307,7 +1307,7 @@ Z 轴上电机的目标速度。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1326,7 +1326,7 @@ Z 轴上电机的目标速度。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1804,7 +1804,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1823,7 +1823,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1842,7 +1842,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1861,7 +1861,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1880,7 +1880,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1899,7 +1899,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1918,7 +1918,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1937,7 +1937,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1956,7 +1956,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1975,7 +1975,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -1994,7 +1994,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -2013,7 +2013,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-section-separator
 
@@ -2032,7 +2032,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -2046,7 +2046,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -2060,7 +2060,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -2074,7 +2074,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -2088,7 +2088,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -2102,7 +2102,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -2116,7 +2116,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -2130,7 +2130,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -2144,7 +2144,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -2158,7 +2158,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -2172,7 +2172,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. rst-class:: classref-item-separator
 
@@ -2186,7 +2186,7 @@ Y 轴运动的恢复量。越低，动量损失越大。
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ :ref:`贡献一个 <doc_updating_the_class_reference>`\ 吧！
+	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要用户覆盖才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

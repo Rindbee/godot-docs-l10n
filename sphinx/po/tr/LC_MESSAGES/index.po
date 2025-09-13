@@ -20,9 +20,6 @@ msgstr "Başlarken"
 msgid "Manual"
 msgstr "El Kitabı"
 
-msgid "Contributing"
-msgstr "Katkıda Bulunma"
-
 msgid "Community"
 msgstr "Topluluk"
 

@@ -199,7 +199,7 @@ msgid ""
 "In ``new_game()``, update the score display and show the \"Get Ready\" "
 "message:"
 msgstr ""
-"``new_game()``\\ 에서, 점수 화면을 업데이트하고 \"Get Ready\" 메시지를 보이"
+"``new_game()``\\ 에서, 점수 표시를 업데이트하고 \"Get Ready\" 메시지를 보이"
 "게 합니다:"
 
 msgid "In ``game_over()`` we need to call the corresponding ``HUD`` function:"

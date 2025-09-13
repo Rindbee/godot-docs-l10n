@@ -127,3 +127,12 @@ msgstr ""
 
 msgid "Necessary code"
 msgstr "Código necesario"
+
+msgid ""
+"For keyboard and controller navigation to work correctly, any node must be "
+"focused by using code when the scene starts. Without doing this, pressing "
+"buttons or keys won't do anything."
+msgstr ""
+"Para que la navegación por el teclado y el controlador funcione "
+"correctamente, cualquier nodo debe enfocarse mediante código cuando se "
+"inicia la escena. Sin hacer esto, presionar botones o teclas no hará nada."

@@ -20,9 +20,6 @@ msgstr "入门"
 msgid "Manual"
 msgstr "手册"
 
-msgid "Contributing"
-msgstr "贡献"
-
 msgid "Community"
 msgstr "社区"
 

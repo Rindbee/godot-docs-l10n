@@ -194,3 +194,6 @@ msgstr ""
 
 msgid "Environment variables"
 msgstr "Variáveis de ambiente"
+
+msgid "Troubleshooting"
+msgstr "Solução de problemas"

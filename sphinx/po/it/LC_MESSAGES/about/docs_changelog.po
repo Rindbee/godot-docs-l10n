@@ -117,9 +117,6 @@ msgstr "Contribuire"
 msgid ":ref:`doc_handling_compatibility_breakages`"
 msgstr ":ref:`doc_handling_compatibility_breakages`"
 
-msgid ":ref:`doc_ways_to_contribute`"
-msgstr ":ref:`doc_ways_to_contribute`"
-
 msgid "GDExtension"
 msgstr "GDExtension"
 
@@ -279,12 +276,6 @@ msgstr ":ref:`doc_c_sharp_variant`"
 msgid ":ref:`doc_compute_shaders`"
 msgstr ":ref:`doc_compute_shaders`"
 
-msgid "Workflow"
-msgstr "Flusso di lavoro"
-
-msgid ":ref:`doc_pr_review_guidelines`"
-msgstr ":ref:`doc_pr_review_guidelines`"
-
 msgid ":ref:`doc_introducing_xr_tools`"
 msgstr ":ref:`doc_introducing_xr_tools`"
 
@@ -315,12 +306,6 @@ msgstr ":ref:`doc_managing_editor_features`"
 msgid "New pages since version 3.3"
 msgstr "Nuove pagine dalla versione 3.3"
 
-msgid "C++"
-msgstr "C++"
-
-msgid ":ref:`doc_cpp_usage_guidelines`"
-msgstr ":ref:`doc_cpp_usage_guidelines`"
-
 msgid "GDScript"
 msgstr "GDScript"
 
@@ -347,27 +332,6 @@ msgstr "Le migliori pratiche"
 
 msgid ":ref:`doc_version_control_systems`"
 msgstr ":ref:`doc_version_control_systems`"
-
-msgid "Community"
-msgstr "Comunità"
-
-msgid ":ref:`doc_best_practices_for_engine_contributors`"
-msgstr ":ref:`doc_best_practices_for_engine_contributors`"
-
-msgid ":ref:`doc_bisecting_regressions`"
-msgstr ":ref:`doc_bisecting_regressions`"
-
-msgid ":ref:`doc_editor_and_docs_localization`"
-msgstr ":ref:`doc_editor_and_docs_localization`"
-
-msgid ":ref:`doc_introduction_to_editor_development`"
-msgstr ":ref:`doc_introduction_to_editor_development`"
-
-msgid ":ref:`doc_editor_style_guide`"
-msgstr ":ref:`doc_editor_style_guide`"
-
-msgid ":ref:`doc_common_engine_methods_and_macros`"
-msgstr ":ref:`doc_common_engine_methods_and_macros`"
 
 msgid ":ref:`doc_vulkan_validation_layers`"
 msgstr ":ref:`doc_vulkan_validation_layers`"
