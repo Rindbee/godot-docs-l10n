@@ -20,229 +20,253 @@ msgid "Controllers, gamepads, and joysticks"
 msgstr ""
 
 #: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:6
-msgid "Godot supports hundreds of controller models out of the box. Controllers are supported on Windows, macOS, Linux, Android, iOS, and HTML5."
+msgid "Godot supports hundreds of controller models out of the box. Controllers are supported on Windows, macOS, Linux, Android, iOS, and Web."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:9
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:11
+msgid "Since Godot 4.5, the engine relies on `SDL 3 <https://www.libsdl.org/index.php>`__ for controller support on Windows, macOS, and Linux. This means the list of supported controllers and their behavior should closely match what is available in other games and engines using SDL 3. Note that SDL is only used for input, not for windowing or sound."
+msgstr ""
+
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:17
+msgid "Prior to Godot 4.5, the engine used its own controller support code. This can cause certain controllers to behave incorrectly. This custom code is still used to support controllers on Android, iOS, and Web, so it may result in issues appearing only on those platforms."
+msgstr ""
+
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:22
 msgid "Note that more specialized devices such as steering wheels, rudder pedals and `HOTAS <https://en.wikipedia.org/wiki/HOTAS>`__ are less tested and may not always work as expected. Overriding force feedback for those devices is also not implemented yet. If you have access to one of those devices, don't hesitate to `report bugs on GitHub <https://github.com/godotengine/godot/blob/master/CONTRIBUTING.md#reporting-bugs>`__."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:16
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:29
 msgid "In this guide, you will learn:"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:18
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:31
 msgid "**How to write your input logic to support both keyboard and controller inputs.**"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:19
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:32
 msgid "**How controllers can behave differently from keyboard/mouse input.**"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:20
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:33
 msgid "**Troubleshooting issues with controllers in Godot.**"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:23
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:36
 msgid "Supporting universal input"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:25
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:38
 msgid "Thanks to Godot's input action system, Godot makes it possible to support both keyboard and controller input without having to write separate code paths. Instead of hardcoding keys or controller buttons in your scripts, you should create *input actions* in the Project Settings which will then refer to specified key and controller inputs."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:31
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:44
 msgid "Input actions are explained in detail on the :ref:`doc_inputevent` page."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:35
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:48
 msgid "Unlike keyboard input, supporting both mouse and controller input for an action (such as looking around in a first-person game) will require different code paths since these have to be handled separately."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:40
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:53
 msgid "Which Input singleton method should I use?"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:42
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:55
 msgid "There are 3 ways to get input in an analog-aware way:"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:44
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:57
 msgid "When you have two axes (such as joystick or WASD movement) and want both axes to behave as a single input, use ``Input.get_vector()``:"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:78
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:91
 msgid "When you have one axis that can go both ways (such as a throttle on a flight stick), or when you want to handle separate axes individually, use ``Input.get_axis()``:"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:99
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:112
 msgid "For other types of analog input, such as handling a trigger or handling one direction at a time, use ``Input.get_action_strength()``:"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:113
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:126
 msgid "For non-analog digital/boolean input (only \"pressed\" or \"not pressed\" values), such as controller buttons, mouse buttons or keyboard keys, use ``Input.is_action_pressed()``:"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:130
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:143
 msgid "If you need to know whether an input was *just* pressed in the previous frame, use ``Input.is_action_just_pressed()`` instead of ``Input.is_action_pressed()``. Unlike ``Input.is_action_pressed()`` which returns ``true`` as long as the input is held, ``Input.is_action_just_pressed()`` will only return ``true`` for one frame after the button has been pressed."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:138
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:151
 msgid "Vibration"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:140
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:153
 msgid "Vibration (also called *haptic feedback*) can be used to enhance the feel of a game. For instance, in a racing game, you can convey the surface the car is currently driving on through vibration, or create a sudden vibration on a crash."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:144
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:157
 msgid "Use the Input singleton's :ref:`start_joy_vibration<class_Input_method_start_joy_vibration>` method to start vibrating a gamepad. Use :ref:`stop_joy_vibration<class_Input_method_stop_joy_vibration>` to stop vibration early (useful if no duration was specified when starting)."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:150
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:163
 msgid "On mobile devices, you can also use :ref:`vibrate_handheld<class_Input_method_vibrate_handheld>` to vibrate the device itself (independently from the gamepad). On Android, this requires the ``VIBRATE`` permission to be enabled in the Android export preset before exporting the project."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:158
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:171
 msgid "Vibration can be uncomfortable for certain players. Make sure to provide an in-game slider to disable vibration or reduce its intensity."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:162
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:175
 msgid "Differences between keyboard/mouse and controller input"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:164
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:177
 msgid "If you're used to handling keyboard and mouse input, you may be surprised by how controllers handle specific situations."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:168
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:181
 msgid "Dead zone"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:170
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:183
 msgid "Unlike keyboards and mice, controllers offer axes with *analog* inputs. The upside of analog inputs is that they offer additional flexibility for actions. Unlike digital inputs which can only provide strengths of ``0.0`` and ``1.0``, an analog input can provide *any* strength between ``0.0`` and ``1.0``. The downside is that without a deadzone system, an analog axis' strength will never be equal to ``0.0`` due to how the controller is physically built. Instead, it will linger at a low value such as ``0.062``. This phenomenon is known as *drifting* and can be more noticeable on old or faulty controllers."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:179
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:192
 msgid "Let's take a racing game as a real-world example. Thanks to analog inputs, we can steer the car slowly in one direction or another. However, without a deadzone system, the car would slowly steer by itself even if the player isn't touching the joystick. This is because the directional axis strength won't be equal to ``0.0`` when we expect it to. Since we don't want our car to steer by itself in this case, we define a \"dead zone\" value of ``0.2`` which will ignore all input whose strength is lower than ``0.2``. An ideal dead zone value is high enough to ignore the input caused by joystick drifting, but is low enough to not ignore actual input from the player."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:189
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:202
 msgid "Godot features a built-in deadzone system to tackle this problem. The default value is ``0.5``, but you can adjust it on a per-action basis in the Project Settings' Input Map tab. For ``Input.get_vector()``, the deadzone can be specified as an optional 5th parameter. If not specified, it will calculate the average deadzone value from all of the actions in the vector."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:196
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:209
 msgid "\"Echo\" events"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:198
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:211
 msgid "Unlike keyboard input, holding down a controller button such as a D-pad direction will **not** generate repeated input events at fixed intervals (also known as \"echo\" events). This is because the operating system never sends \"echo\" events for controller input in the first place."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:203
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:216
 msgid "If you want controller buttons to send echo events, you will have to generate :ref:`class_InputEvent` objects by code and parse them using :ref:`Input.parse_input_event() <class_Input_method_parse_input_event>` at regular intervals. This can be accomplished with the help of a :ref:`class_Timer` node."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:210
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:223
 msgid "Window focus"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:212
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:225
 msgid "Unlike keyboard input, controller inputs can be seen by **all** windows on the operating system, including unfocused windows."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:215
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:228
 msgid "While this is useful for `third-party split screen functionality <https://nucleus-coop.github.io/>`__, it can also have adverse effects. Players may accidentally send controller inputs to the running project while interacting with another window."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:220
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:233
 msgid "If you wish to ignore events when the project window isn't focused, you will need to create an :ref:`autoload <doc_singletons_autoload>` called ``Focus`` with the following script and use it to check all your inputs:"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:252
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:265
 msgid "Then, instead of using ``Input.is_action_pressed(action)``, use ``Focus.input_is_action_pressed(action)`` where ``action`` is the name of the input action. Also, instead of using ``event.is_action_pressed(action)``, use ``Focus.event_is_action_pressed(event, action)`` where ``event`` is an InputEvent reference and ``action`` is the name of the input action."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:259
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:272
 msgid "Power saving prevention"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:261
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:274
 msgid "Unlike keyboard and mouse input, controller inputs do **not** inhibit sleep and power saving measures (such as turning off the screen after a certain amount of time has passed)."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:265
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:278
 msgid "To combat this, Godot enables power saving prevention by default when a project is running. If you notice the system is turning off its display when playing with a gamepad, check the value of **Display > Window > Energy Saving > Keep Screen On** in the Project Settings."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:270
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:283
 msgid "On Linux, power saving prevention requires the engine to be able to use D-Bus. Check whether D-Bus is installed and reachable if running the project within a Flatpak, as sandboxing restrictions may make this impossible by default."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:275
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:288
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:279
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:292
 msgid "You can view a list of `known issues with controller support <https://github.com/godotengine/godot/issues?q=is%3Aopen+is%3Aissue+label%3Atopic%3Ainput+gamepad>`__ on GitHub."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:284
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:297
 msgid "My controller isn't recognized by Godot."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:286
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:299
 msgid "First, check that your controller is recognized by other applications. You can use the `Gamepad Tester <https://hardwaretester.com/gamepad>`__ website to confirm that your controller is recognized."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:290
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:303
 msgid "On Windows Godot only supports up to 4 controllers at a time. This is because Godot uses the XInput API, which is limited to supporting 4 controllers at once. Additional controllers above this limit are ignored by Godot."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:295
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:308
 msgid "My controller has incorrectly mapped buttons or axes."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:297
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:310
 msgid "First, if your controller provides some kind of firmware update utility, make sure to run it to get the latest fixes from the manufacturer. For instance, Xbox One and Xbox Series controllers can have their firmware updated using the `Xbox Accessories app <https://www.microsoft.com/en-us/p/xbox-accessories/9nblggh30xj3>`__. (This application only runs on Windows, so you have to use a Windows machine or a Windows virtual machine with USB support to update the controller's firmware.) After updating the controller's firmware, unpair the controller and pair it again with your PC if you are using the controller in wireless mode."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:306
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:319
 msgid "If buttons are incorrectly mapped, this may be due to an erroneous mapping from the SDL game controller database used by Godot or the `Godot game controller database <https://github.com/godotengine/godot/blob/master/core/input/godotcontrollerdb.txt>`__. In this case, you will need to create a custom mapping for your controller."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:311
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:324
 msgid "There are many ways to create mappings. One option is to use the mapping wizard in the `official Joypads demo <https://godotengine.org/asset-library/asset/2785>`__. Once you have a working mapping for your controller, you can test it by defining the ``SDL_GAMECONTROLLERCONFIG`` environment variable before running Godot:"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:332
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:345
 msgid "To test mappings on non-desktop platforms or to distribute your project with additional controller mappings, you can add them by calling :ref:`Input.add_joy_mapping() <class_Input_method_add_joy_mapping>` as early as possible in a script's ``_ready()`` function."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:337
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:350
 msgid "Once you are satisfied with the custom mapping, you can contribute it for the next Godot version by opening a pull request on the `Godot game controller database <https://github.com/godotengine/godot/blob/master/core/input/godotcontrollerdb.txt>`__."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:342
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:355
 msgid "My controller works on a given platform, but not on another platform."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:345
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:358
 msgid "Linux"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:347
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:360
 msgid "If you're using a self-compiled engine binary, make sure it was compiled with udev support. This is enabled by default, but it is possible to disable udev support by specifying ``udev=no`` on the SCons command line. If you're using an engine binary supplied by a Linux distribution, double-check whether it was compiled with udev support."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:353
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:366
 msgid "Controllers can still work without udev support, but it is less reliable as regular polling must be used to check for controllers being connected or disconnected during gameplay (hotplugging)."
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:358
-msgid "HTML5"
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:371
+msgid "Android/iOS"
 msgstr ""
 
-#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:360
-msgid "HTML5 controller support is often less reliable compared to \"native\" platforms. The quality of controller support tends to vary wildly across browsers. As a result, you may have to instruct your players to use a different browser if they can't get their controller to work."
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:373
+msgid "As described at the top of the page, controller support on mobile platforms relies on a custom implementation instead of using SDL for input. This means controller support may be less reliable than on desktop platforms."
+msgstr ""
+
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:377
+msgid "Support for SDL-based controller input on mobile platforms is `planned <https://github.com/godotengine/godot/pull/109645>`__ in a future release."
+msgstr ""
+
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:382
+msgid "Web"
+msgstr ""
+
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:384
+msgid "Web controller support is often less reliable compared to \"native\" platforms. The quality of controller support tends to vary wildly across browsers. As a result, you may have to instruct your players to use a different browser if they can't get their controller to work."
+msgstr ""
+
+#: ../../docs/tutorials/inputs/controllers_gamepads_joysticks.rst:389
+msgid "Like for mobile platforms, support for SDL-based controller input on the web platform is `planned <https://github.com/godotengine/godot/pull/109645>`__ in a future release."
 msgstr ""

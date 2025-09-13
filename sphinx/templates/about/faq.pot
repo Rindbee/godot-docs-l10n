@@ -473,7 +473,7 @@ msgid "If you feel ready to submit your first PR, pick any issue that resonates 
 msgstr ""
 
 #: ../../docs/about/faq.rst:450
-msgid "We explain how to work with the engine source, how to edit the documentation, and what other ways to contribute are there in our :ref:`documentation for contributors <doc_ways_to_contribute>`."
+msgid "We explain how to work with the engine source, how to edit the documentation, and what other ways to contribute are there in our `documentation for contributors <https://contributing.godotengine.org/en/latest/organization/how_to_contribute.html>`__."
 msgstr ""
 
 #: ../../docs/about/faq.rst:454
@@ -661,7 +661,7 @@ msgid "How can I support Godot development or contribute?"
 msgstr ""
 
 #: ../../docs/about/faq.rst:632
-msgid "See :ref:`doc_ways_to_contribute`."
+msgid "See `How to contribute <https://contributing.godotengine.org/en/latest/organization/how_to_contribute.html>`__."
 msgstr ""
 
 #: ../../docs/about/faq.rst:635

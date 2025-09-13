@@ -199,3 +199,7 @@ msgstr ""
 #: ../../docs/tutorials/export/one-click_deploy.rst:156
 msgid "If you have an SSL/TLS certificate that is trusted by browsers, you can specify the paths to the key and certificate files in the **Export > Web > TLS Key** and **Export > Web > TLS Certificate**. This will only work if the project is accessed through a domain name that is part of the TLS certificate."
 msgstr ""
+
+#: ../../docs/tutorials/export/one-click_deploy.rst:163
+msgid "When using one-click deploy on different projects, it's possible that a previously edited project is being shown instead. This is due to service worker caching not being cleared automatically. See :ref:`doc_exporting_for_web_troubleshooting` for instructions on unregistering the service worker, which will effectively clear the cache and resolve the issue."
+msgstr ""

@@ -132,7 +132,7 @@ msgid "To use Godot's own audio playback system on the web platform, you can cha
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_web.rst:133
-#: ../../docs/tutorials/export/exporting_for_web.rst:457
+#: ../../docs/tutorials/export/exporting_for_web.rst:497
 msgid "Export options"
 msgstr ""
 
@@ -458,5 +458,35 @@ msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_web.rst:459
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_web.rst:462
+msgid "Running the export locally shows another project instead"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_web.rst:464
+msgid "If you use one-click deploy in multiple projects, you may notice that one of the projects you've previously deployed is shown instead of the project you're currently working on. This is due to service worker caching which currently lacks an automated cache busting mechanism."
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_web.rst:469
+msgid "As a workaround, you can manually unregister the current service worker so that the cache is reset. This also allows a new service worker to be registered. In Chromium-based browsers, open the Developer Tools by pressing :kbd:`F12` or :kbd:`Ctrl + Shift + I` (:kbd:`Cmd + Option + I` on macOS), then click on the Application tab in DevTools (it may be hidden behind a chevron icon if the devtools pane is narrow). You can either check :button:`Update on reload` and reload the page, or click :button:`Unregister` next to the service worker that is currently registered, then reload the page."
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_web.rst:478
+#: ../../docs/tutorials/export/exporting_for_web.rst:482
+msgid "Unregistering the service worker in Chromium-based browsers' DevTools"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_web.rst:484
+msgid "The procedure is similar in Firefox. Open developer tools by pressing :kbd:`F12` or :kbd:`Ctrl + Shift + I` (:kbd:`Cmd + Option + I` on macOS), click on the Application tab in DevTools (it may be hidden behind a chevron icon if the devtools pane is narrow). Click :button:`Unregister` next to the service worker that is currently registered, then reload the page."
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_web.rst:490
+#: ../../docs/tutorials/export/exporting_for_web.rst:494
+msgid "Unregistering the service worker in Firefox's DevTools"
+msgstr ""
+
+#: ../../docs/tutorials/export/exporting_for_web.rst:499
 msgid "You can find a full list of export options available in the :ref:`class_EditorExportPlatformWeb` class reference."
 msgstr ""

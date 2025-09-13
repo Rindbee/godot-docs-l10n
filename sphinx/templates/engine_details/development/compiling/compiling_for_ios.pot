@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:4
+msgid "Compiling for iOS"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:10
+msgid "This page describes how to compile iOS export template binaries from source. If you're looking to export your project to iOS instead, read :ref:`doc_exporting_for_ios`."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:14
+msgid "Requirements"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:16
+msgid "`Python 3.8+ <https://www.python.org/downloads/macos/>`_."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:17
+msgid "`SCons 4.0+ <https://scons.org/pages/download.html>`_ build system."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:18
+msgid "`Xcode <https://apps.apple.com/us/app/xcode/id497799835>`_."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:19
+msgid "Launch Xcode once and install iOS support. If you have already launched Xcode and need to install iOS support, go to *Xcode -> Settings... -> Platforms*."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:21
+msgid "Go to *Xcode -> Settings... -> Locations -> Command Line Tools* and select an installed version. Even if one is already selected, re-select it."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:23
+msgid "Download and follow README instructions to build a static ``.xcframework`` from the `MoltenVK SDK <https://github.com/KhronosGroup/MoltenVK#fetching-moltenvk-source-code>`__."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:26
+msgid "If you have `Homebrew <https://brew.sh/>`_ installed, you can easily install SCons using the following command:"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:33
+msgid "Installing Homebrew will also fetch the Command Line Tools for Xcode automatically if you don't have them already."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:36
+msgid "Similarly, if you have `MacPorts <https://www.macports.org/>`_ installed, you can easily install SCons using the following command:"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:44
+msgid "To get the Godot source code for compiling, see :ref:`doc_getting_source`."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:47
+msgid "For a general overview of SCons usage for Godot, see :ref:`doc_introduction_to_the_buildsystem`."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:51
+msgid "Compiling"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:53
+msgid "Open a Terminal, go to the root folder of the engine source code and type the following to compile a debug build:"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:60
+msgid "To compile a release build:"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:66
+msgid "To create an Xcode project like in the official builds, you need to use the template located in ``misc/dist/ios_xcode``. The release and debug libraries should be placed in ``libgodot.ios.debug.xcframework`` and ``libgodot.ios.release.xcframework`` respectively. This process can be automated by using the ``generate_bundle=yes`` option on the *last* SCons command used to build export templates (so that all binaries can be included)."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:73
+msgid "The MoltenVK static ``.xcframework`` folder must also be placed in the ``ios_xcode`` folder once it has been created. MoltenVK is always statically linked on iOS; there is no dynamic linking option available, unlike macOS."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:78
+msgid "Run"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:80
+msgid "To run on a device, follow these instructions: :ref:`doc_exporting_for_ios`."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:83
+msgid "iOS exports can run directly on an Apple Silicon Mac. To run exported iOS project on Mac, open exported project in Xcode and select ``My Mac`` in the ``Run Destinations`` dropdown."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:88
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:91
+msgid "Fatal error: 'cstdint' file not found"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:93
+msgid "If you get a compilation error of this form early on, it's likely because the Xcode command line tools installation needs to be repaired after a macOS or Xcode update:"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:103
+msgid "Run these two commands to reinstall Xcode command line tools (enter your administrator password as needed):"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:111
+msgid "If it still does not work, try updating Xcode from the Mac App Store and try again."
+msgstr ""

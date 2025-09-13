@@ -76,33 +76,33 @@ msgid "The **Manual** can be read or referenced as needed, in any order. It cont
 msgstr ""
 
 #: ../../docs/about/introduction.rst:80
-msgid "**Contributing** gives information related to contributing to Godot, whether to the core engine, documentation, demos or other parts. It describes how to report bugs, how contributor workflows are organized, etc. It also contains sections intended for advanced users and contributors, with information on compiling the engine, contributing to the editor, or developing C++ modules."
+msgid "**Engine details** contains sections intended for advanced users and contributors, with information on compiling the engine, working on the editor, or developing C++ modules."
 msgstr ""
 
-#: ../../docs/about/introduction.rst:86
+#: ../../docs/about/introduction.rst:83
 msgid "**Community** is dedicated to the life of Godot's community and contains a list of recommended third-party tutorials and materials outside of this documentation. It also provides details on the Asset Library. It also used to list Godot communities, which are now listed on the `Godot website <https://godotengine.org/community/>`_."
 msgstr ""
 
-#: ../../docs/about/introduction.rst:90
+#: ../../docs/about/introduction.rst:87
 msgid "Finally, the **Class reference** documents the full Godot API, also available directly within the engine's script editor. You can find information on all classes, functions, signals and so on here."
 msgstr ""
 
-#: ../../docs/about/introduction.rst:94
+#: ../../docs/about/introduction.rst:91
 msgid "In addition to this documentation, you may also want to take a look at the various `Godot demo projects <https://github.com/godotengine/godot-demo-projects>`_."
 msgstr ""
 
-#: ../../docs/about/introduction.rst:98
+#: ../../docs/about/introduction.rst:95
 msgid "About this documentation"
 msgstr ""
 
-#: ../../docs/about/introduction.rst:100
-msgid "Members of the Godot Engine community continuously write, correct, edit, and improve this documentation. We are always looking for more help. You can also contribute by opening Github issues or translating the documentation into your language. If you are interested in helping, see :ref:`Ways to contribute <doc_ways_to_contribute>` and :ref:`Writing documentation <doc_contributing_writing_documentation>`, or get in touch with the `Documentation team <https://godotengine.org/teams/#documentation>`_ on `Godot Contributors Chat <https://chat.godotengine.org/>`_."
+#: ../../docs/about/introduction.rst:97
+msgid "Members of the Godot Engine community continuously write, correct, edit, and improve this documentation. We are always looking for more help. You can also contribute by opening Github issues or translating the documentation into your language. If you are interested in helping, see `How to contribute <https://contributing.godotengine.org/en/latest/organization/how_to_contribute.html>`__ and `Writing documentation <https://contributing.godotengine.org/en/latest/documentation/manual/index.html>`__, or get in touch with the `Documentation team <https://godotengine.org/teams/#documentation>`_ on `Godot Contributors Chat <https://chat.godotengine.org/>`_."
 msgstr ""
 
-#: ../../docs/about/introduction.rst:108
+#: ../../docs/about/introduction.rst:105
 msgid "All documentation content is licensed under the permissive Creative Commons Attribution 3.0 (`CC BY 3.0 <https://creativecommons.org/licenses/by/3.0/>`_) license, with attribution to \"*Juan Linietsky, Ariel Manzur, and the Godot Engine community*\" unless otherwise noted."
 msgstr ""
 
-#: ../../docs/about/introduction.rst:113
+#: ../../docs/about/introduction.rst:110
 msgid "*Have fun reading and making games with Godot Engine!*"
 msgstr ""

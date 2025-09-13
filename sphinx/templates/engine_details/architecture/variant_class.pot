@@ -1,0 +1,298 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/engine_details/architecture/variant_class.rst:4
+msgid "Variant class"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:7
+msgid "About"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:9
+msgid "Variant is the most important datatype in Godot. A Variant takes up only 24 bytes on 64-bit platforms (20 bytes on 32-bit platforms) and can store almost any engine datatype inside of it. Variants are rarely used to hold information for long periods of time, instead they are used mainly for communication, editing, serialization and generally moving data around."
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:15
+msgid "A Variant can:"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:17
+msgid "Store almost any datatype."
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:18
+msgid "Perform operations between many variants (GDScript uses Variant as its atomic/native datatype)."
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:20
+msgid "Be hashed, so it can be compared quickly to other variants."
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:21
+msgid "Be used to convert safely between datatypes."
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:22
+msgid "Be used to abstract calling methods and their arguments (Godot exports all its functions through variants)."
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:24
+msgid "Be used to defer calls or move data between threads."
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:25
+msgid "Be serialized as binary and stored to disk, or transferred via network."
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:27
+msgid "Be serialized to text and use it for printing values and editable settings."
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:29
+msgid "Work as an exported property, so the editor can edit it universally."
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:30
+msgid "Be used for dictionaries, arrays, parsers, etc."
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:32
+msgid "Basically, thanks to the Variant class, writing Godot itself was a much, much easier task, as it allows for highly dynamic constructs not common of C++ with little effort. Become a friend of Variant today."
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:38
+msgid "All types within Variant except Nil and Object **cannot** be ``null`` and must always store a valid value. These types within Variant are therefore called *non-nullable* types."
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:42
+msgid "One of the Variant types is *Nil* which can only store the value ``null``. Therefore, it is possible for a Variant to contain the value ``null``, even though all Variant types excluding Nil and Object are non-nullable."
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:47
+#: ../../docs/engine_details/architecture/variant_class.rst:151
+msgid "References"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:49
+msgid "`core/variant/variant.h <https://github.com/godotengine/godot/blob/master/core/variant/variant.h>`__"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:52
+msgid "List of variant types"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:54
+msgid "These types are available in Variant:"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:57
+msgid "Type"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:57
+msgid "Notes"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:59
+msgid "Nil (can only store ``null``)"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:59
+#: ../../docs/engine_details/architecture/variant_class.rst:107
+msgid "Nullable type"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:61
+msgid ":ref:`class_bool`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:63
+msgid ":ref:`class_int`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:65
+msgid ":ref:`class_float`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:67
+msgid ":ref:`class_string`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:69
+msgid ":ref:`class_vector2`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:71
+msgid ":ref:`class_vector2i`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:73
+msgid ":ref:`class_rect2`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:73
+msgid "2D counterpart of AABB"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:75
+msgid ":ref:`class_rect2i`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:77
+msgid ":ref:`class_vector3`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:79
+msgid ":ref:`class_vector3i`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:81
+msgid ":ref:`class_transform2d`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:83
+msgid ":ref:`class_vector4`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:85
+msgid ":ref:`class_vector4i`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:87
+msgid ":ref:`class_plane`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:89
+msgid ":ref:`class_quaternion`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:91
+msgid ":ref:`class_aabb`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:91
+msgid "3D counterpart of Rect2"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:93
+msgid ":ref:`class_basis`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:95
+msgid ":ref:`class_transform3d`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:97
+msgid ":ref:`class_projection`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:99
+msgid ":ref:`class_color`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:101
+msgid ":ref:`class_stringname`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:103
+msgid ":ref:`class_nodepath`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:105
+msgid ":ref:`class_rid`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:107
+msgid ":ref:`class_object`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:109
+msgid ":ref:`class_callable`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:111
+msgid ":ref:`class_signal`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:113
+msgid ":ref:`class_dictionary`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:115
+msgid ":ref:`class_array`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:117
+msgid ":ref:`class_packedbytearray`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:119
+msgid ":ref:`class_packedint32array`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:121
+msgid ":ref:`class_packedint64array`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:123
+msgid ":ref:`class_packedfloat32array`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:125
+msgid ":ref:`class_packedfloat64array`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:127
+msgid ":ref:`class_packedstringarray`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:129
+msgid ":ref:`class_packedvector2array`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:131
+msgid ":ref:`class_packedvector3array`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:133
+msgid ":ref:`class_packedcolorarray`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:135
+msgid ":ref:`class_packedvector4array`"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:139
+msgid "Containers: Array and Dictionary"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:141
+msgid "Both :ref:`class_array` and :ref:`class_dictionary` are implemented using variants. A Dictionary can match any datatype used as key to any other datatype. An Array just holds an array of Variants. Of course, a Variant can also hold a Dictionary or an Array inside, making it even more flexible."
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:146
+msgid "Modifications to a container will modify all references to it. A Mutex should be created to lock it if :ref:`multi-threaded access <doc_using_multiple_threads>` is desired."
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:153
+msgid "`core/variant/dictionary.h <https://github.com/godotengine/godot/blob/master/core/variant/dictionary.h>`__"
+msgstr ""
+
+#: ../../docs/engine_details/architecture/variant_class.rst:154
+msgid "`core/variant/array.h <https://github.com/godotengine/godot/blob/master/core/variant/array.h>`__"
+msgstr ""

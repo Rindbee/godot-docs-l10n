@@ -1671,7 +1671,7 @@ msgid "Licensed under the permissive MIT license."
 msgstr ""
 
 #: ../../docs/about/list_of_features.rst:791
-msgid "Open development process with :ref:`contributions welcome <doc_ways_to_contribute>`."
+msgid "Open development process with `contributions welcome <https://contributing.godotengine.org/en/latest/organization/how_to_contribute.html>`__."
 msgstr ""
 
 #: ../../docs/about/list_of_features.rst:795

@@ -28,14 +28,14 @@ msgid "Manual"
 msgstr ""
 
 #: ../../docs/index.rst:128
-msgid "Contributing"
+msgid "Engine details"
 msgstr ""
 
-#: ../../docs/index.rst:140
+#: ../../docs/index.rst:141
 msgid "Community"
 msgstr ""
 
-#: ../../docs/index.rst:151
+#: ../../docs/index.rst:152
 msgid "Class reference"
 msgstr ""
 
