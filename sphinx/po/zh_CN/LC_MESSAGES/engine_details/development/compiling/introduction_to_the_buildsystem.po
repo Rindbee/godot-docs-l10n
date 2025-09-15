@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,6 +32,12 @@ msgstr ":ref:`doc_compiling_for_web`"
 msgid ":ref:`doc_compiling_for_windows`"
 msgstr ":ref:`doc_compiling_for_windows`"
 
+msgid "Using multi-threading"
+msgstr "使用多线程"
+
+msgid "Example for using 12 threads:"
+msgstr "使用 12 个线程的示例："
+
 msgid "Platform selection"
 msgstr "选择平台"
 
@@ -51,6 +57,16 @@ msgid ""
 msgstr ""
 "仅通过调用 ``scons`` 即可调用SCons. 如果未指定平台,SCons将基于主机平台自动检"
 "测目标平台. 然后它将立即开始为目标平台构建."
+
+msgid "To list the available target platforms, use ``scons platform=list``:"
+msgstr "要列出可用的目标平台，请使用 ``scons platform=list``\\ ："
+
+msgid ""
+"To build for a platform (for example, ``linuxbsd``), run with the "
+"``platform=`` (or ``p=`` to make it short) argument:"
+msgstr ""
+"要针对特定平台构建（例如 ``linuxbsd``\\ ），请在运行时使用 ``platform=``\\ "
+"（或者简写为 ``p=``\\ ）参数："
 
 msgid "Resulting binary"
 msgstr "生成的二进制文件"

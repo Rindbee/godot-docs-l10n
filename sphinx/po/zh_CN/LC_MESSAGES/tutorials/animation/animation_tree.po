@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,9 @@ msgstr "使用 AnimationTree"
 
 msgid "Introduction"
 msgstr "前言"
+
+msgid "AnimationTree and AnimationPlayer"
+msgstr "AnimationTree 与 AnimationPlayer"
 
 msgid ""
 "A new scene was created for the player with a ``CharacterBody3D`` as root. "
@@ -44,7 +47,7 @@ msgstr ""
 "可直接播放动画。"
 
 msgid "Blend2 / Blend3"
-msgstr "混合2/混合3"
+msgstr "Blend2 / Blend3"
 
 msgid ""
 "These nodes will blend between two or three inputs by a user-specified blend "
@@ -55,10 +58,10 @@ msgid "OneShot"
 msgstr "OneShot"
 
 msgid "TimeSeek"
-msgstr "时间缩放"
+msgstr "TimeSeek"
 
 msgid "TimeScale"
-msgstr "时间缩放"
+msgstr "TimeScale"
 
 msgid "Transition"
 msgstr "转换"

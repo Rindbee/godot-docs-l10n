@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1201,6 +1201,13 @@ msgstr ""
 
 msgid "How can I support Godot development or contribute?"
 msgstr "Como eu posso ajudar no desenvolvimento do Godot ou contribuir?"
+
+msgid ""
+"See `How to contribute <https://contributing.godotengine.org/en/latest/"
+"organization/how_to_contribute.html>`__."
+msgstr ""
+"Consulte `How to contribute <https://contributing.godotengine.org/en/latest/"
+"organization/how_to_contribute.html>`__."
 
 msgid "Who is working on Godot? How can I contact you?"
 msgstr "Quem está trabalhando no Godot? Como entro em contato com vocês?"

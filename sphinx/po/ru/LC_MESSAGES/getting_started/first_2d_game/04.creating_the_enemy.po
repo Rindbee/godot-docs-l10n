@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -48,6 +48,17 @@ msgstr ":ref:`CollisionShape2D <class_CollisionShape2D>`"
 
 msgid ":ref:`VisibleOnScreenNotifier2D <class_VisibleOnScreenNotifier2D>`"
 msgstr ":ref:`VisibleOnScreenNotifier2D <class_VisibleOnScreenNotifier2D>`"
+
+msgid ""
+"Don't forget to set the children so they can't be selected, like you did "
+"with the Player scene. This is done by selecting the parent node "
+"(``RigidBody2D``) in the Scene tree dock, then using the :button:`Group` "
+"button at the top of the 2D editor (or pressing :kbd:`Ctrl + G`)."
+msgstr ""
+"Не забудьте сделать дочерние элементы недоступными для выбора, как это было "
+"сделано со сценой Player. Для этого выберите родительский узел "
+"(``RigidBody2D``) в дереве сцены, а затем нажмите кнопку :button:`Group` в "
+"верхней части 2D-редактора (или нажмите :kbd:`Ctrl + G`)."
 
 msgid ""
 "Select the ``Mob`` node and set its ``Gravity Scale`` property in "

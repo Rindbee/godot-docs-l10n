@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1080,7 +1080,7 @@ msgid "Support for visual shader plugins."
 msgstr "支持可视化着色器插件。"
 
 msgid "Scripting"
-msgstr "编写脚本"
+msgstr "脚本"
 
 msgid "**General:**"
 msgstr "**常规：**"
@@ -1576,6 +1576,9 @@ msgstr ""
 "包括对流行的独立头显的支持，例如 Meta Quest 1/2/3 和 Pro、Pico 4、Magic Leap "
 "2 和 Lynx R1。"
 
+msgid "Out of the box limited support for visionOS Apple headsets."
+msgstr "对 Apple visionOS 头戴式设备的开箱即用支持有限。"
+
 msgid ""
 "Currently only exporting an application for use on a flat plane within the "
 "headset is supported. Immersive experiences are not supported."
@@ -1856,6 +1859,14 @@ msgstr ""
 
 msgid "Licensed under the permissive MIT license."
 msgstr "使用宽松的 MIT 许可。"
+
+msgid ""
+"Open development process with `contributions welcome <https://"
+"contributing.godotengine.org/en/latest/organization/"
+"how_to_contribute.html>`__."
+msgstr ""
+"开放的开发过程，\\ `欢迎贡献 <https://contributing.godotengine.org/en/latest/"
+"organization/how_to_contribute.html>`__\\ 。"
 
 msgid ""
 "The `Godot proposals repository <https://github.com/godotengine/godot-"

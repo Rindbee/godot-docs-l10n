@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -22,6 +22,9 @@ msgid ""
 msgstr ""
 "OpenXR 有一套自己的设置，这些设置会在 OpenXR 启动时应用。尽管能通过插件实现"
 "的 OpenXR 扩展以添加额外设置，但在这里我们只讨论 Godot 核心中的设置。"
+
+msgid "General settings"
+msgstr "通用设置"
 
 msgid "Enabled"
 msgstr "Enabled"

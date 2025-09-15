@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,3 +28,6 @@ msgstr "管道预编译功能"
 
 msgid "Pipeline precompilation instancing"
 msgstr "管线预编译实例化"
+
+msgid "Shader baker"
+msgstr "着色器烘焙器"

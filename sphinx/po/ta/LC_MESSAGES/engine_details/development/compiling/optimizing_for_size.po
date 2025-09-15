@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -126,11 +126,11 @@ msgid "Some platforms such as WebAssembly already use this mode by default."
 msgstr ""
 "வெபாசெம்பிளி போன்ற சில தளங்கள் ஏற்கனவே இந்த பயன்முறையை இயல்பாகவே பயன்படுத்துகின்றன."
 
-msgid "Disabling advanced text server"
-msgstr "மேம்பட்ட உரை சேவையகத்தை முடக்குதல்"
-
 msgid "**Performed in official builds:** No"
 msgstr "** உத்தியோகபூர்வ கட்டடங்களில் நிகழ்த்தப்பட்டது: ** இல்லை"
+
+msgid "Disabling advanced text server"
+msgstr "மேம்பட்ட உரை சேவையகத்தை முடக்குதல்"
 
 msgid ""
 "By default, Godot uses an advanced text server with the support for the "

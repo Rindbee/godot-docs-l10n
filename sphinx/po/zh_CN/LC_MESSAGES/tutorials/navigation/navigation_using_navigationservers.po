@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -107,6 +107,11 @@ msgstr "Setter 和删除函数都需要同步。"
 
 msgid "2D and 3D NavigationServer differences"
 msgstr "2D 和 3D NavigationServer 的区别"
+
+msgid ""
+"NavigationServer2D and NavigationServer3D are equivalent in functionality "
+"for their dimension."
+msgstr "NavigationServer2D 和 NavigationServer3D 在各自维度中的功能是等价的。"
 
 msgid ""
 "Technically it is possible to use the tools for creating navigation meshes "

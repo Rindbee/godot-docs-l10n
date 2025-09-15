@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,19 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Localization using gettext (PO files)"
+msgstr "使用 gettext（PO 文件）进行本地化"
+
+msgid ""
+"In addition to importing translations in :ref:`CSV format "
+"<doc_localization_using_spreadsheets>`, Godot also supports loading "
+"translation files written in the GNU gettext format (text-based ``.po`` and "
+"compiled ``.mo`` since Godot 4.0)."
+msgstr ""
+"除了导入 :ref:`CSV 格式 <doc_localization_using_spreadsheets>`\\ 的翻译之外，"
+"Godot 还支持加载使用 GNU gettext 格式的翻译文件（基于文本的 ``.po`` 文件，"
+"Godot 4.0 开始还支持编译后的 ``.mo`` 文件）。"
 
 msgid ""
 "For an introduction to gettext, check out `A Quick Gettext Tutorial <https://"
@@ -21,8 +34,18 @@ msgstr ""
 "fleury/posts/programming/a-quick-gettext-tutorial.html>`_\\ 。它是针对 C 项目"
 "编写的，但其中许多建议也适用于 Godot（\\ ``xgettext``\\ 除外）。"
 
+msgid ""
+"For the complete documentation, see `GNU Gettext <https://www.gnu.org/"
+"software/gettext/manual/gettext.html>`_."
+msgstr ""
+"完整文档见 `GNU Gettext <https://www.gnu.org/software/gettext/manual/"
+"gettext.html>`_\\ 。"
+
 msgid "Advantages"
 msgstr "优势"
+
+msgid "gettext supports plurals and context."
+msgstr "gettext 支持复数和上下文。"
 
 msgid ""
 "gettext is supported by translation platforms such as `Transifex <https://"
@@ -353,5 +376,29 @@ msgstr ""
 "以使用 ``TRANSLATORS:`` 注释为翻译人员提供额外信息。这些注释必须放在与识别模"
 "式相同的行上，或者放在前一行。"
 
+msgid "Using context"
+msgstr "使用上下文"
+
+msgid ""
+"The ``context`` parameter can be used to differentiate the situation where a "
+"translation is used, or to differentiate polysemic words (words with "
+"multiple meanings)."
+msgstr "``context`` 参数可用于区分翻译的使用场景或处理多义词。"
+
 msgid "For example:"
 msgstr "例如："
+
+msgid "Updating PO files"
+msgstr "更新 PO 文件"
+
+msgid ""
+"Use a gettext editor, and it should have an option to update a PO file from "
+"a POT file."
+msgstr ""
+"使用 gettext 编辑器，这种编辑器中通常提供通过 POT 文件更新 PO 文件的选项。"
+
+msgid "Use the gettext ``msgmerge`` tool:"
+msgstr "使用 gettext 的 ``msgmerge`` 工具："
+
+msgid "POT generation custom plugin"
+msgstr "自定义 POT 生成插件"

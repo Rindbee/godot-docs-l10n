@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -157,6 +157,11 @@ msgstr ""
 "número aleatorio entre ``0`` y ``2`` para seleccionar uno de estos nombres "
 "de la lista (los índices de matriz empiezan en ``0``). La expresión "
 "``GD.Randi() % n`` selecciona un entero aleatorio entre ``0`` y ``n-1``."
+
+msgid "Finally, we call ``play()`` to start playing the chosen animation."
+msgstr ""
+"Finalmente, ejecutamos ``play()`` para empezar a reproducir la animación "
+"seleccionada."
 
 msgid ""
 "The last piece is to make the mobs delete themselves when they leave the "

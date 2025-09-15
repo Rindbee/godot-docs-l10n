@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -2127,6 +2127,15 @@ msgstr ""
 
 msgid "Licensed under the permissive MIT license."
 msgstr "Имеет лицензию MIT."
+
+msgid ""
+"Open development process with `contributions welcome <https://"
+"contributing.godotengine.org/en/latest/organization/"
+"how_to_contribute.html>`__."
+msgstr ""
+"Откройте процесс разработки с пометкой `приветствуется вклад <https://"
+"contributing.godotengine.org/en/latest/organization/"
+"how_to_contribute.html>`__."
 
 msgid ""
 "The `Godot proposals repository <https://github.com/godotengine/godot-"

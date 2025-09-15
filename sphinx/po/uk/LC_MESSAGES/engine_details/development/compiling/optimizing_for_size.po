@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -153,11 +153,11 @@ msgstr ""
 "У Godot 4.5 було запроваджено опцію ``size_extra``, яка може ще більше "
 "зменшити розмір."
 
-msgid "Disabling advanced text server"
-msgstr "Вимкнення розширеного текстового сервера"
-
 msgid "**Performed in official builds:** No"
 msgstr "**Виконується в офіційних збірках:** Ні"
+
+msgid "Disabling advanced text server"
+msgstr "Вимкнення розширеного текстового сервера"
 
 msgid ""
 "By default, Godot uses an advanced text server with the support for the "

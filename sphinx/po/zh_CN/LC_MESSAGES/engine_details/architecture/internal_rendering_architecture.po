@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -480,6 +480,21 @@ msgid "Shadow mapping"
 msgstr "阴影贴图"
 
 msgid ""
+"The Compatibility renderer supports shadow mapping for DirectionalLight3D, "
+"OmniLight3D, and SpotLight3D lights."
+msgstr ""
+"Compatibility 渲染器支持 DirectionalLight3D、OmniLight3D、SpotLight3D 的阴影"
+"贴图。"
+
+msgid "Temporal antialiasing"
+msgstr "时间抗锯齿"
+
+msgid ""
+"Only available in the Forward+ renderer, not the Mobile or Compatibility "
+"renderers."
+msgstr "仅在 Forward+ 渲染器中可用，Mobile 和 Compatibility 渲染器中不可用。"
+
+msgid ""
 "Godot uses a custom TAA implementation based on the old TAA implementation "
 "from `Spartan Engine <https://github.com/PanosK92/SpartanEngine>`__."
 msgstr ""
@@ -885,6 +900,9 @@ msgstr ""
 "godotengine/godot/blob/4.2/servers/rendering/"
 "renderer_scene_occlusion_cull.cpp>`__"
 
+msgid "Visibility range (LOD)"
+msgstr "可见范围（LOD）"
+
 msgid ""
 "Godot supports manually authored hierarchical level of detail (HLOD), with "
 "distances specified by the user in the inspector."
@@ -908,9 +926,15 @@ msgstr ""
 "为了提高性能，阴影渲染和反射探测渲染也选择自己的网格LOD阈值(可以不同于主场景"
 "渲染)。"
 
+msgid "**Mesh LOD generation on import C++ code:**"
+msgstr "**导入时的网格 LOD 生成（C++ 代码）：**"
+
 msgid ""
 "`scene/resources/importer_mesh.cpp <https://github.com/godotengine/godot/"
 "blob/4.2/scene/resources/importer_mesh.cpp>`__"
 msgstr ""
 "`scene/resources/importer_mesh.cpp <https://github.com/godotengine/godot/"
 "blob/4.2/scene/resources/importer_mesh.cpp>`__"
+
+msgid "**Mesh LOD determination C++ code:**"
+msgstr "**网格 LOD 确定的 C++ 代码：**"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -134,11 +134,11 @@ msgstr ""
 "Úsáideann roinnt ardáin mar WebAssembly an modh seo cheana féin de réir "
 "réamhshocraithe."
 
-msgid "Disabling advanced text server"
-msgstr "Freastalaí téacs casta á dhíchumasú"
-
 msgid "**Performed in official builds:** No"
 msgstr "**Léirithe i dtógáil oifigiúil:** Uimh"
+
+msgid "Disabling advanced text server"
+msgstr "Freastalaí téacs casta á dhíchumasú"
 
 msgid ""
 "By default, Godot uses an advanced text server with the support for the "

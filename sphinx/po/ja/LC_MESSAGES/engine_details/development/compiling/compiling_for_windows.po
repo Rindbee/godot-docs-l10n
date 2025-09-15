@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -90,6 +90,9 @@ msgstr ""
 "これでGodotのソースをVisual Studioのソリューションとして開けるようになり、"
 "Visual Studioの\\ **ビルド (Build)**\\ ボタンでビルドできます。"
 
+msgid "Troubleshooting"
+msgstr "トラブルシューティング"
+
 msgid "Cross-compiling for Windows from other operating systems"
 msgstr "他のオペレーティングシステムからのWindowsのクロスコンパイル"
 
@@ -107,9 +110,6 @@ msgstr "**macOS**"
 
 msgid "**Mageia**"
 msgstr "\\ **Mageia**"
-
-msgid "Troubleshooting"
-msgstr "トラブルシューティング"
 
 msgid ""
 "Cross-compiling from some Ubuntu versions may lead to `this bug <https://"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -144,6 +144,20 @@ msgstr ""
 
 msgid "Building the Godot editor"
 msgstr "构建 Godot 编辑器"
+
+msgid ""
+"The resulting binaries will be located under ``bin/android_editor_builds/``."
+msgstr "得到的二进制文件在 ``bin/android_editor_builds/`` 中。"
+
+msgid "Removing the Editor binaries"
+msgstr "移除编辑器二进制文件"
+
+msgid ""
+"You can use the following commands to remove the generated editor binaries:"
+msgstr "可以使用以下命令移除生成的编辑器二进制文件："
+
+msgid "Installing the Godot editor APK"
+msgstr "安装 Godot 编辑器 APK"
 
 msgid ""
 "With an Android device with Developer Options enabled, connect the Android "

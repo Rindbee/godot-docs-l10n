@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,3 +10,24 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Integrating with Android APIs"
+msgstr "与 Android API 集成"
+
+msgid "JavaClassWrapper (Godot singleton)"
+msgstr "JavaClassWrapper（Godot 单例）"
+
+msgid "AndroidRuntime plugin"
+msgstr "AndroidRuntime 插件"
+
+msgid "Example: Show an Android toast"
+msgstr "示例：显示 Android Toast 提示"
+
+msgid "Example: Vibrate the device"
+msgstr "示例：触发设备震动"
+
+msgid "Example: Accessing inner classes"
+msgstr "示例：访问内部类"
+
+msgid "Example: Calling a constructor"
+msgstr "示例：调用构造函数"

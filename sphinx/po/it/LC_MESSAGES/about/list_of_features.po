@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -498,6 +498,13 @@ msgstr ""
 
 msgid "Follows the Disney PBR model."
 msgstr "Segue il modello Disney PBR."
+
+msgid ""
+"Supports Burley, Lambert, Lambert Wrap (half-Lambert) and Toon diffuse "
+"shading modes."
+msgstr ""
+"Supporta le modalità di ombreggiatura Burley, Lambert, Lambert Wrap (mezzo-"
+"Lambert) e Toon."
 
 msgid "Uses a roughness-metallic workflow with support for ORM textures."
 msgstr ""

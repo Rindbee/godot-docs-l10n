@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -149,6 +149,9 @@ msgid ""
 msgstr ""
 "烘焙 NavigationMesh 的单元格大小必须与 NavigationServer 地图的单元格大小一"
 "致，才能把不同 Grid 单元格的导航网格合并起来。"
+
+msgid "Lightmaps"
+msgstr "光照贴图"
 
 msgid ""
 "Aside from this peculiarity, the lightmap baking process is the same as for "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -75,6 +75,9 @@ msgid "See :ref:`doc_configuring_an_ide_vs` for further details."
 msgstr ""
 "Consultare :ref:`doc_configuring_an_ide_vs` per istruzioni dettagliate."
 
+msgid "Troubleshooting"
+msgstr "Risoluzione dei problemi"
+
 msgid "**Arch Linux**"
 msgstr "**Arch Linux**"
 
@@ -89,6 +92,3 @@ msgstr "**macOS**"
 
 msgid "**Mageia**"
 msgstr "**Mageia**"
-
-msgid "Troubleshooting"
-msgstr "Risoluzione dei problemi"

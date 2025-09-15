@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -464,3 +464,6 @@ msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 
 msgid "Troubleshooting"
 msgstr "故障排除"
+
+msgid "Running the export locally shows another project instead"
+msgstr "本地运行导出却显示了其他项目"

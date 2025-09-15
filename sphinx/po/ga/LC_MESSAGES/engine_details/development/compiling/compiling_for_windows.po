@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -414,6 +414,9 @@ msgstr ""
 msgid "See :ref:`doc_configuring_an_ide_vs` for further details."
 msgstr "Féach:ref: `doc_configuring_an_ide_vs` le haghaidh tuilleadh sonraí."
 
+msgid "Troubleshooting"
+msgstr "Fabhtcheartú"
+
 msgid "Cross-compiling for Windows from other operating systems"
 msgstr "Tras-thiomsú do Windows ó chórais oibriúcháin eile"
 
@@ -440,9 +443,6 @@ msgstr ""
 "Sa chás gurb é ``/path/to/mingw`` an cosán ina bhfuil an eolaire ``bin`` ina "
 "bhfuil ``i686-w64-mingw32-gcc`` agus ``x86_64-w64-mingw32-gcc`` lonnaithe "
 "(m.sh. `/opt/mingw-w64`` má tá na dénártha suite i ``/opt/mingw-64/wbin``)."
-
-msgid "Troubleshooting"
-msgstr "Fabhtcheartú"
 
 msgid ""
 "Cross-compiling from some Ubuntu versions may lead to `this bug <https://"

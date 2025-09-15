@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -12,31 +12,76 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Documentation changelog"
-msgstr "문서 변경 내역"
+msgstr "문서 변경이력"
+
+msgid "New pages since version 4.3"
+msgstr "버전 4.3 이후 새로운 페이지"
 
 msgid "2D"
 msgstr "2D"
 
+msgid ":ref:`doc_introduction_to_2d`"
+msgstr ":ref:`doc_introduction_to_2d`"
+
 msgid "3D"
 msgstr "3D"
+
+msgid ":ref:`doc_spring_arm`"
+msgstr ":ref:`doc_spring_arm`"
 
 msgid "Debug"
 msgstr "디버그"
 
+msgid ":ref:`doc_output_panel`"
+msgstr ":ref:`doc_output_panel`"
+
 msgid "Editor"
 msgstr "편집기"
+
+msgid ":ref:`doc_using_the_xr_editor`"
+msgstr ":ref:`doc_using_the_xr_editor`"
 
 msgid "Performance"
 msgstr "성능"
 
+msgid ":ref:`doc_pipeline_compilations`"
+msgstr ":ref:`doc_pipeline_compilations`"
+
 msgid "Physics"
 msgstr "물리"
+
+msgid ":ref:`doc_physics_interpolation`"
+msgstr ":ref:`doc_physics_interpolation`"
+
+msgid ":ref:`doc_physics_interpolation_quick_start_guide`"
+msgstr ":ref:`doc_physics_interpolation_quick_start_guide`"
+
+msgid ":ref:`doc_physics_interpolation_introduction`"
+msgstr ":ref:`doc_physics_interpolation_introduction`"
+
+msgid ":ref:`doc_using_physics_interpolation`"
+msgstr ":ref:`doc_using_physics_interpolation`"
+
+msgid ":ref:`doc_advanced_physics_interpolation`"
+msgstr ":ref:`doc_advanced_physics_interpolation`"
+
+msgid ":ref:`doc_2d_and_3d_physics_interpolation`"
+msgstr ":ref:`doc_2d_and_3d_physics_interpolation`"
 
 msgid "Rendering"
 msgstr "렌더링"
 
+msgid ":ref:`doc_renderers`"
+msgstr ":ref:`doc_renderers`"
+
 msgid "Shaders"
 msgstr "셰이더"
+
+msgid ":ref:`doc_shader_functions`"
+msgstr ":ref:`doc_shader_functions`"
+
+msgid "New pages since version 4.2"
+msgstr "버전 4.2 이후 새로운 페이지"
 
 msgid "About"
 msgstr "대하여"
@@ -44,32 +89,143 @@ msgstr "대하여"
 msgid ":ref:`doc_system_requirements`"
 msgstr ":ref:`doc_system_requirements`"
 
+msgid ":ref:`doc_2d_parallax`"
+msgstr ":ref:`doc_2d_parallax`"
+
 msgid "Contributing"
 msgstr "기여하기"
 
+msgid ":ref:`doc_handling_compatibility_breakages`"
+msgstr ":ref:`doc_handling_compatibility_breakages`"
+
 msgid "GDExtension"
-msgstr "고도 엔진 기능 확장(GDExtension)"
+msgstr "GDExtension"
+
+msgid ":ref:`doc_gdextension_file`"
+msgstr ":ref:`doc_gdextension_file`"
+
+msgid ":ref:`doc_godot_cpp_docs_system`"
+msgstr ":ref:`doc_godot_cpp_docs_system`"
+
+msgid "Migrating"
+msgstr "마이그레이션하기"
+
+msgid ":ref:`doc_upgrading_to_godot_4.3`"
+msgstr ":ref:`doc_upgrading_to_godot_4.3`"
+
+msgid ":ref:`doc_compositor`"
+msgstr ":ref:`doc_compositor`"
+
+msgid "XR"
+msgstr "XR"
+
+msgid ":ref:`doc_a_better_xr_start_script`"
+msgstr ":ref:`doc_a_better_xr_start_script`"
+
+msgid ":ref:`doc_openxr_passthrough`"
+msgstr ":ref:`doc_openxr_passthrough`"
+
+msgid ":ref:`doc_xr_next_steps`"
+msgstr ":ref:`doc_xr_next_steps`"
+
+msgid ":ref:`doc_openxr_settings`"
+msgstr ":ref:`doc_openxr_settings`"
+
+msgid ":ref:`doc_openxr_composition_layers`"
+msgstr ":ref:`doc_openxr_composition_layers`"
+
+msgid ":ref:`doc_openxr_body_tracking`"
+msgstr ":ref:`doc_openxr_body_tracking`"
+
+msgid "New pages since version 4.1"
+msgstr "버전 4.1 이후 새로운 페이지"
 
 msgid "C#"
 msgstr "C#"
 
+msgid ":ref:`doc_c_sharp_diagnostics`"
+msgstr ":ref:`doc_c_sharp_diagnostics`"
+
 msgid "Development"
 msgstr "개발"
+
+msgid ":ref:`doc_2d_coordinate_systems`"
+msgstr ":ref:`doc_2d_coordinate_systems`"
+
+msgid ":ref:`doc_upgrading_to_godot_4.2`"
+msgstr ":ref:`doc_upgrading_to_godot_4.2`"
 
 msgid "I/O"
 msgstr "입출력 (I/O)"
 
+msgid ":ref:`doc_runtime_loading_and_saving`"
+msgstr ":ref:`doc_runtime_loading_and_saving`"
+
 msgid "Platform-specific"
-msgstr "플랫폼 특화(Platform-specific)"
+msgstr "플랫폼 특정"
+
+msgid ":ref:`doc_android_library`"
+msgstr ":ref:`doc_android_library`"
+
+msgid "New pages since version 4.0"
+msgstr "버전 4.0 이후 새로운 페이지"
+
+msgid ":ref:`doc_internal_rendering_architecture`"
+msgstr ":ref:`doc_internal_rendering_architecture`"
+
+msgid ":ref:`doc_using_sanitizers`"
+msgstr ":ref:`doc_using_sanitizers`"
+
+msgid ":ref:`doc_upgrading_to_godot_4.1`"
+msgstr ":ref:`doc_upgrading_to_godot_4.1`"
+
+msgid ":ref:`doc_troubleshooting_physics_issues`"
+msgstr ":ref:`doc_troubleshooting_physics_issues`"
+
+msgid "New pages since version 3.6"
+msgstr "버전 3.6 이후 새로운 페이지"
+
+msgid ":ref:`doc_2d_antialiasing`"
+msgstr ":ref:`doc_2d_antialiasing`"
+
+msgid ":ref:`doc_3d_antialiasing`"
+msgstr ":ref:`doc_3d_antialiasing`"
+
+msgid ":ref:`doc_faking_global_illumination`"
+msgstr ":ref:`doc_faking_global_illumination`"
+
+msgid ":ref:`doc_introduction_to_global_illumination`"
+msgstr ":ref:`doc_introduction_to_global_illumination`"
+
+msgid ":ref:`doc_mesh_lod`"
+msgstr ":ref:`doc_mesh_lod`"
 
 msgid ":ref:`doc_occlusion_culling`"
 msgstr ":ref:`doc_occlusion_culling`"
 
+msgid ":ref:`doc_using_sdfgi`"
+msgstr ":ref:`doc_using_sdfgi`"
+
+msgid ":ref:`doc_using_decals`"
+msgstr ":ref:`doc_using_decals`"
+
 msgid ":ref:`doc_visibility_ranges`"
 msgstr ":ref:`doc_visibility_ranges`"
 
+msgid ":ref:`doc_volumetric_fog`"
+msgstr ":ref:`doc_volumetric_fog`"
+
+msgid ":ref:`doc_variable_rate_shading`"
+msgstr ":ref:`doc_variable_rate_shading`"
+
+msgid ":ref:`doc_physical_light_and_camera_units`"
+msgstr ":ref:`doc_physical_light_and_camera_units`"
+
 msgid "Animation"
 msgstr "애니메이션"
+
+msgid ":ref:`doc_creating_movies`"
+msgstr ":ref:`doc_creating_movies`"
 
 msgid "Assets pipeline"
 msgstr "애셋 파이프라인"
@@ -77,29 +233,119 @@ msgstr "애셋 파이프라인"
 msgid ":ref:`doc_retargeting_3d_skeletons`"
 msgstr ":ref:`doc_retargeting_3d_skeletons`"
 
+msgid ":ref:`doc_custom_platform_ports`"
+msgstr ":ref:`doc_custom_platform_ports`"
+
+msgid ":ref:`doc_upgrading_to_godot_4`"
+msgstr ":ref:`doc_upgrading_to_godot_4`"
+
+msgid ":ref:`doc_large_world_coordinates`"
+msgstr ":ref:`doc_large_world_coordinates`"
+
 msgid "Scripting"
 msgstr "스크립팅"
 
+msgid ":ref:`doc_custom_performance_monitors`"
+msgstr ":ref:`doc_custom_performance_monitors`"
+
+msgid ":ref:`doc_c_sharp_collections`"
+msgstr ":ref:`doc_c_sharp_collections`"
+
+msgid ":ref:`doc_c_sharp_global_classes`"
+msgstr ":ref:`doc_c_sharp_global_classes`"
+
+msgid ":ref:`doc_c_sharp_variant`"
+msgstr ":ref:`doc_c_sharp_variant`"
+
+msgid ":ref:`doc_compute_shaders`"
+msgstr ":ref:`doc_compute_shaders`"
+
+msgid ":ref:`doc_introducing_xr_tools`"
+msgstr ":ref:`doc_introducing_xr_tools`"
+
+msgid ":ref:`doc_xr_action_map`"
+msgstr ":ref:`doc_xr_action_map`"
+
+msgid ":ref:`doc_deploying_to_android`"
+msgstr ":ref:`doc_deploying_to_android`"
+
+msgid "New pages since version 3.5"
+msgstr "버전 3.5 이후 새로운 페이지"
+
+msgid "None."
+msgstr "없음."
+
+msgid "New pages since version 3.4"
+msgstr "버전 3.4 이후 새로운 페이지"
+
+msgid ":ref:`doc_3d_text`"
+msgstr ":ref:`doc_3d_text`"
+
+msgid ":ref:`doc_playing_videos`"
+msgstr ":ref:`doc_playing_videos`"
+
+msgid ":ref:`doc_managing_editor_features`"
+msgstr ":ref:`doc_managing_editor_features`"
+
 msgid "New pages since version 3.3"
-msgstr "3.3 버전 이후의 새로운 튜토리얼"
+msgstr "버전 3.3 이후 새로운 페이지"
 
 msgid "GDScript"
 msgstr "GDScript"
 
+msgid ":ref:`doc_gdscript_documentation_comments`"
+msgstr ":ref:`doc_gdscript_documentation_comments`"
+
+msgid "New pages since version 3.2"
+msgstr "버전 3.2 이후 새로운 페이지"
+
+msgid ":ref:`doc_3d_rendering_limitations`"
+msgstr ":ref:`doc_3d_rendering_limitations`"
+
+msgid ":ref:`doc_troubleshooting`"
+msgstr ":ref:`doc_troubleshooting`"
+
+msgid ":ref:`doc_list_of_features`"
+msgstr ":ref:`doc_list_of_features`"
+
+msgid ":ref:`doc_release_policy`"
+msgstr ":ref:`doc_release_policy`"
+
 msgid "Best practices"
 msgstr "모범 사례"
 
+msgid ":ref:`doc_version_control_systems`"
+msgstr ":ref:`doc_version_control_systems`"
+
+msgid ":ref:`doc_common_engine_methods_and_macros_error_macros`"
+msgstr ":ref:`doc_common_engine_methods_and_macros_error_macros`"
+
+msgid ":ref:`doc_vulkan_validation_layers`"
+msgstr ":ref:`doc_vulkan_validation_layers`"
+
+msgid ":ref:`doc_gdscript_grammar`"
+msgstr ":ref:`doc_gdscript_grammar`"
+
 msgid "Configuring an IDE: :ref:`doc_configuring_an_ide_code_blocks`"
-msgstr "IDE 구성: :ref:`doc_configuring_an_ide_code_blocks`"
+msgstr "IDE 구성하기: :ref:`doc_configuring_an_ide_code_blocks`"
 
 msgid ":ref:`doc_default_key_mapping`"
 msgstr ":ref:`doc_default_key_mapping`"
 
+msgid ":ref:`doc_using_the_web_editor`"
+msgstr ":ref:`doc_using_the_web_editor`"
+
 msgid "Export"
 msgstr "내보내기"
 
+msgid ":ref:`doc_exporting_for_dedicated_servers`"
+msgstr ":ref:`doc_exporting_for_dedicated_servers`"
+
 msgid "Input"
 msgstr "입력"
+
+msgid ":ref:`doc_controllers_gamepads_joysticks`"
+msgstr ":ref:`doc_controllers_gamepads_joysticks`"
 
 msgid "Math"
 msgstr "수학"
@@ -107,8 +353,57 @@ msgstr "수학"
 msgid ":ref:`doc_random_number_generation`"
 msgstr ":ref:`doc_random_number_generation`"
 
+msgid ":ref:`doc_plugins_for_ios`"
+msgstr ":ref:`doc_plugins_for_ios`"
+
+msgid ":ref:`doc_ios_plugin`"
+msgstr ":ref:`doc_ios_plugin`"
+
+msgid ":ref:`doc_html5_shell_classref`"
+msgstr ":ref:`doc_html5_shell_classref`"
+
+msgid ":ref:`doc_collision_shapes_2d`"
+msgstr ":ref:`doc_collision_shapes_2d`"
+
+msgid ":ref:`doc_collision_shapes_3d`"
+msgstr ":ref:`doc_collision_shapes_3d`"
+
+msgid ":ref:`doc_shaders_style_guide`"
+msgstr ":ref:`doc_shaders_style_guide`"
+
+msgid ":ref:`doc_debugger_panel`"
+msgstr ":ref:`doc_debugger_panel`"
+
+msgid ":ref:`doc_creating_script_templates`"
+msgstr ":ref:`doc_creating_script_templates`"
+
+msgid ":ref:`doc_evaluating_expressions`"
+msgstr ":ref:`doc_evaluating_expressions`"
+
+msgid ":ref:`doc_what_is_gdextension`"
+msgstr ":ref:`doc_what_is_gdextension`"
+
+msgid ""
+":ref:`doc_gdscript_warning_system` (split "
+"from :ref:`doc_gdscript_static_typing`)"
+msgstr ""
+":ref:`doc_gdscript_warning_system` (:ref:`doc_gdscript_static_typing`\\ 에서 "
+"분할)"
+
+msgid "User Interface (UI)"
+msgstr "사용자 인터페이스 (UI)"
+
+msgid ":ref:`doc_control_node_gallery`"
+msgstr ":ref:`doc_control_node_gallery`"
+
+msgid "New pages since version 3.1"
+msgstr "버전 3.1 이후 새로운 페이지"
+
 msgid "Project workflow"
 msgstr "프로젝트 워크플로"
+
+msgid ":ref:`doc_android_gradle_build`"
+msgstr ":ref:`doc_android_gradle_build`"
 
 msgid ":ref:`doc_2d_sprite_animation`"
 msgstr ":ref:`doc_2d_sprite_animation`"
@@ -129,7 +424,7 @@ msgid ":ref:`doc_interpolation`"
 msgstr ":ref:`doc_interpolation`"
 
 msgid "Inputs"
-msgstr "입력(Input)"
+msgstr "입력"
 
 msgid ":ref:`doc_input_examples`"
 msgstr ":ref:`doc_input_examples`"
@@ -180,7 +475,7 @@ msgid ":ref:`doc_visual_shader_plugins`"
 msgstr ":ref:`doc_visual_shader_plugins`"
 
 msgid "Multi-threading"
-msgstr "멀티 스레딩(Multi-threading)"
+msgstr "멀티 스레딩"
 
 msgid ":ref:`doc_using_multiple_threads`"
 msgstr ":ref:`doc_using_multiple_threads`"
@@ -203,8 +498,11 @@ msgstr ":ref:`doc_surfacetool`"
 msgid ":ref:`doc_meshdatatool`"
 msgstr ":ref:`doc_meshdatatool`"
 
+msgid ":ref:`doc_immediatemesh`"
+msgstr ":ref:`doc_immediatemesh`"
+
 msgid "Optimization"
-msgstr "최적화(Optimization)"
+msgstr "최적화"
 
 msgid ":ref:`doc_using_multimesh`"
 msgstr ":ref:`doc_using_multimesh`"
@@ -213,7 +511,7 @@ msgid ":ref:`doc_using_servers`"
 msgstr ":ref:`doc_using_servers`"
 
 msgid "Legal"
-msgstr "법률(Legal)"
+msgstr "법률"
 
 msgid ":ref:`doc_complying_with_licenses`"
 msgstr ":ref:`doc_complying_with_licenses`"
@@ -332,6 +630,9 @@ msgstr ":ref:`doc_particle_shader`"
 msgid ":ref:`doc_making_main_screen_plugins`"
 msgstr ":ref:`doc_making_main_screen_plugins`"
 
+msgid ":ref:`doc_3d_gizmo_plugins`"
+msgstr ":ref:`doc_3d_gizmo_plugins`"
+
 msgid ":ref:`doc_customizing_html5_shell`"
 msgstr ":ref:`doc_customizing_html5_shell`"
 
@@ -354,7 +655,7 @@ msgid ":ref:`doc_change_scenes_manually`"
 msgstr ":ref:`doc_change_scenes_manually`"
 
 msgid "Compiling"
-msgstr "컴파일링(Compiling)"
+msgstr "컴파일링"
 
 msgid ":ref:`doc_optimizing_for_size`"
 msgstr ":ref:`doc_optimizing_for_size`"
@@ -363,7 +664,7 @@ msgid ":ref:`doc_compiling_with_script_encryption_key`"
 msgstr ":ref:`doc_compiling_with_script_encryption_key`"
 
 msgid "Engine development"
-msgstr "엔진 개발(Engine development)"
+msgstr "엔진 개발"
 
 msgid ":ref:`doc_binding_to_external_libraries`"
 msgstr ":ref:`doc_binding_to_external_libraries`"

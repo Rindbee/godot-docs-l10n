@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,6 +16,11 @@ msgstr "导出包、补丁、Mod"
 
 msgid "Use cases"
 msgstr "使用案例"
+
+msgid ""
+"Oftentimes, one would like to add functionality to one's game after it has "
+"been deployed."
+msgstr "通常，人们希望在游戏部署后为它添加功能。"
 
 msgid "Examples of this include..."
 msgstr "这样的例子包括……"
@@ -34,6 +39,16 @@ msgid ""
 "These tools help developers to extend their development beyond the initial "
 "release."
 msgstr "这些工具可帮助开发人员基于初始版本进行扩展开发。"
+
+msgid "Overview of PCK/ZIP files"
+msgstr "PCK/ZIP 文件概述"
+
+msgid ""
+"Godot enables this via a feature called **resource packs** (PCK files, with "
+"the ``.pck`` extension, or ZIP files)."
+msgstr ""
+"Godot 通过\\ **资源包**\\ 实现此功能（扩展名为 ``.pck`` 的 PCK 文件或 ZIP 文"
+"件）。"
 
 msgid "**Advantages:**"
 msgstr "**优势：**"
@@ -55,6 +70,9 @@ msgstr "更加模块化的项目结构"
 
 msgid "users don't have to replace the entire game"
 msgstr "用户无需替换整个游戏"
+
+msgid "PCK/ZIP files usually contain, but are not limited to:"
+msgstr "PCK/ZIP 文件通常包含但不限于："
 
 msgid "scripts"
 msgstr "脚本"
@@ -119,6 +137,19 @@ msgstr ""
 "用 :ref:`OS.execute() <class_OS_method_execute>` 通过命令行使用 Godot 可执行"
 "文件来导出 PCK 文件。游戏本体不应该使用工具构建的引擎（出于安全考虑），所以最"
 "好将 mod 工具和游戏分开。"
+
+msgid "Opening PCK or ZIP files at runtime"
+msgstr "在运行时打开 PCK 或 ZIP 文件"
+
+msgid ""
+"To load a PCK or ZIP file, one uses the ProjectSettings singleton. The "
+"following example expects a ``mod.pck`` file in the directory of the game's "
+"executable. The PCK or ZIP file contains a ``mod_scene.tscn`` test scene in "
+"its root."
+msgstr ""
+"PCK 和 ZIP 文件的加载需要用到 ProjectSettings 单例。下面的例子需要在游戏可执"
+"行文件所在目录中存在 ``mod.pck`` 文件。该 PCK 或 ZIP 文件的根目录中包含一个 "
+"``mod_scene.tscn`` 测试场景。"
 
 msgid ""
 "To opt out of this behavior, pass ``false`` as the second argument "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -471,6 +471,9 @@ msgstr ""
 msgid "See :ref:`doc_configuring_an_ide_vs` for further details."
 msgstr "詳情請參閱 :ref:`doc_configuring_an_ide_vs`。"
 
+msgid "Troubleshooting"
+msgstr "疑難排解"
+
 msgid "Cross-compiling for Windows from other operating systems"
 msgstr "在其他作業系統上交叉編譯 Windows 版本"
 
@@ -523,9 +526,6 @@ msgid ""
 msgstr ""
 "使用 MinGW-w64 交叉編譯 Windows 時，僅支援 ``x86_64`` 與 ``x86_32`` 架構。若"
 "用 MinGW-LLVM，亦支援 ``arm64``。如交叉編譯，請用 ``arch=`` 指定正確架構。"
-
-msgid "Troubleshooting"
-msgstr "疑難排解"
 
 msgid ""
 "Cross-compiling from some Ubuntu versions may lead to `this bug <https://"

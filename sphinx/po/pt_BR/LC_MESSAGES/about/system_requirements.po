@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -56,6 +56,16 @@ msgstr "**macOS**: x86_64 ou ARM (Apple Silicon)"
 
 msgid "*Example: Intel Core 2 Duo SU9400, Apple M1*"
 msgstr "*Exemplo: Intel Core 2 Duo SU9400, Apple M1*"
+
+msgid ""
+"**Linux:** x86_32 CPU with SSE2 support, x86_64 CPU with SSE4.2 support, "
+"ARMv7 or ARMv8 CPU"
+msgstr ""
+"**Linux:** CPU x86_32 com suporte a SSE2, CPU x86_64 com suporte a SSE4.2, "
+"CPU ARMv7 ou ARMv8"
+
+msgid "*Example: Intel Core 2 Duo E8200, AMD FX-4100, Raspberry Pi 4*"
+msgstr "*Exemplo: Intel Core 2 Duo E8200, AMD FX-4100, Raspberry Pi 4*"
 
 msgid "**GPU**"
 msgstr "**GPU**"

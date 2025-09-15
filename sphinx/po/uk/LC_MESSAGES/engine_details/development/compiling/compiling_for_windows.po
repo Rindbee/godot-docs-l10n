@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -587,6 +587,9 @@ msgstr ""
 "Перегляньте :ref:`doc_configuring_an_ide_vs` для отримання додаткової "
 "інформації."
 
+msgid "Troubleshooting"
+msgstr "Вирішення проблем"
+
 msgid "Cross-compiling for Windows from other operating systems"
 msgstr "Крос-компіляція для Windows з інших операційних систем"
 
@@ -669,9 +672,6 @@ msgstr ""
 "що підтримуються лише архітектури ``x86_64`` і ``x86_32``. MinGW-LLVM також "
 "підтримує ``arm64``. Обов’язково вкажіть правильний параметр ``arch=`` під "
 "час виклику SCons, якщо будуєте з іншої архітектури."
-
-msgid "Troubleshooting"
-msgstr "Вирішення проблем"
 
 msgid ""
 "Cross-compiling from some Ubuntu versions may lead to `this bug <https://"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Upgrading from Godot 4.3 to Godot 4.4"
+msgstr "从 Godot 4.3 升级到 Godot 4.4"
 
 msgid "Breaking changes"
 msgstr "破坏性更改"
@@ -240,8 +243,20 @@ msgstr "`GH-94323`_"
 msgid "**EditorSceneFormatImporter**"
 msgstr "**EditorSceneFormatImporter**"
 
+msgid "`GH-101531`_"
+msgstr "`GH-101531`_"
+
+msgid "**EditorTranslationParserPlugin**"
+msgstr "**EditorTranslationParserPlugin**"
+
+msgid "`GH-99297`_"
+msgstr "`GH-99297`_"
+
 msgid "Behavior changes"
 msgstr "行为更改"
+
+msgid "CSG"
+msgstr "CSG"
 
 msgid "Android"
 msgstr "Android"

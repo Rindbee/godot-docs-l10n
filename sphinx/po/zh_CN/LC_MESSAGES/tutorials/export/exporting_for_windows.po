@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -41,8 +41,22 @@ msgstr ""
 "时，导出器将提取所有项目文件并创建一个 ``data.pck`` 文件。该文件与特别优化的"
 "二进制文件捆绑在一起，更小、更快，并且不包含编辑器和调试器。"
 
+msgid "Changing the executable icon"
+msgstr "更改可执行文件图标"
+
+msgid ""
+"Godot will automatically use whatever image is set as your project's icon in "
+"the project settings, and convert it to an ICO file for the exported "
+"project. If you want to manually create an ICO file for greater control over "
+"how the icon looks at different resolutions then see "
+"the :ref:`doc_changing_application_icon_for_windows` page."
+msgstr ""
+"Godot 会自动使用在项目设置中指定为项目图标的图像，将其转换为 ICO 文件以供导出"
+"后的项目使用。如果想要手动创建 ICO 文件，针对不同分辨率设置不同的图标外观，请"
+"查看 :ref:`doc_changing_application_icon_for_windows` 页面。"
+
 msgid "Code signing"
-msgstr "启用代码签名"
+msgstr "代码签名"
 
 msgid ""
 "If you export for Windows with embedded PCK files, you will not be able to "

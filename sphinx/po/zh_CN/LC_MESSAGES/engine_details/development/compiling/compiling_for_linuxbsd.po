@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -162,6 +162,14 @@ msgid ""
 msgstr ""
 "你甚至不需要复制它们, 只需引用在Godot源文件夹的 ``bin/`` 目录中生成的文件, 因"
 "此下次构建时, 将自动引用自定义模板."
+
+msgid "Cross-compiling for RISC-V devices"
+msgstr "针对 RISC-V 设备的交叉编译"
+
+msgid ""
+"To cross-compile Godot for RISC-V devices, we need to setup the following "
+"items:"
+msgstr "要针对 RISC-V 设备交叉编译 Godot，我们需要设备以下内容："
 
 msgid "Using Clang and LLD for faster development"
 msgstr "使用 Clang 和 LLD 可以加快开发速度"

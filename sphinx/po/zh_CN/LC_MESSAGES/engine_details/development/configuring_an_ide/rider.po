@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -37,5 +37,14 @@ msgid ""
 msgstr ""
 "或者，你也可以使用 **运行 > 附加到进程** 将调试器附加到运行中的 Godot 实例。"
 
+msgid "Debug visualizers"
+msgstr "调试观察器"
+
 msgid "Unit testing"
 msgstr "单元测试"
+
+msgid "Profiling"
+msgstr "性能分析"
+
+msgid "Known issues"
+msgstr "已知问题"

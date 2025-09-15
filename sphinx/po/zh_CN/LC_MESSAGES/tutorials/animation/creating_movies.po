@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -247,6 +247,20 @@ msgstr ""
 
 msgid "Choosing an output format"
 msgstr "选择输出格式"
+
+msgid ""
+"Output formats are provided by the :ref:`MovieWriter <class_MovieWriter>` "
+"class. Godot has 3 built-in :ref:`MovieWriters <class_MovieWriter>`, and "
+"more can be implemented by extensions:"
+msgstr ""
+"输出格式由 :ref:`MovieWriter <class_MovieWriter>` 类提供。Godot 有 3 个内置"
+"的 :ref:`MovieWriter <class_MovieWriter>`\\ ，更多格式可以通过扩展来实现："
+
+msgid "OGV (recommended)"
+msgstr "OGV（推荐）"
+
+msgid "AVI"
+msgstr "AVI"
 
 msgid ""
 "The resulting file can be viewed in most video players, but it must be "
@@ -532,6 +546,9 @@ msgid ""
 msgstr ""
 "当使用多步后处理时，请尝试在单一 FFmpeg命令中执行所有这些步骤。这将避免掉多个"
 "有损的编码步骤从而节省编码时间并提高品质。"
+
+msgid "Converting OGV/AVI video to MP4"
+msgstr "将 OGV/AVI 视频转换为 MP4"
 
 msgid ""
 "While some platforms such as YouTube support uploading the AVI file "

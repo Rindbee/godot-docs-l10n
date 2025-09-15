@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -524,6 +524,9 @@ msgstr ""
 msgid "See :ref:`doc_configuring_an_ide_vs` for further details."
 msgstr "காண்க: குறிப்பு: மேலும் விவரங்களுக்கு `doc_configuring_an_ide_vs`."
 
+msgid "Troubleshooting"
+msgstr "சரிசெய்தல்"
+
 msgid "Cross-compiling for Windows from other operating systems"
 msgstr "பிற இயக்க முறைமைகளிலிருந்து விண்டோசுக்கு குறுக்கு ஒப்பந்தம்"
 
@@ -581,9 +584,6 @@ msgstr ""
 "மற்றும் `` x86_32`` கட்டமைப்புகள் மட்டுமே ஆதரிக்கப்படுகின்றன என்பதை நினைவில் கொள்ளுங்கள். "
 "Mingw-llvm `` ARM64`` ஐ ஆதரிக்கிறது. வேறு கட்டிடக்கலையிலிருந்து கட்டினால் ச்கான்களைத் "
 "தொடங்கும்போது சரியான `` வளைவு = `` விருப்பத்தை குறிப்பிட மறக்காதீர்கள்."
-
-msgid "Troubleshooting"
-msgstr "சரிசெய்தல்"
 
 msgid ""
 "Cross-compiling from some Ubuntu versions may lead to `this bug <https://"

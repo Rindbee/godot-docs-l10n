@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Advanced Import Settings"
+msgstr "高级导入设置"
 
 msgid "Using the Advanced Import Settings dialog"
 msgstr "使用高级导入设置对话框"
@@ -33,6 +36,9 @@ msgid ""
 msgstr ""
 "高级导入设置对话框（场景选项卡）。作者：\\ `Modern Arm Chair 01 - Poly Haven "
 "<https://polyhaven.com/a/modern_arm_chair_01>`__"
+
+msgid "Configuring node import options"
+msgstr "配置节点导入选项"
 
 msgid ""
 "You can select individual nodes that compose the scene while in the "
@@ -370,6 +376,9 @@ msgstr ""
 "**保存为文件** ，然后使用启用 **保存为文件** 后出现的 **路径** 选项指定保存路"
 "径。"
 
+msgid "Animation options"
+msgstr "动画选项"
+
 msgid "Optimizer"
 msgstr "优化"
 
@@ -381,6 +390,9 @@ msgstr ""
 "导入动画时, 会运行优化程序, 从而大大减少动画的大小. 一般情况下, 除非你怀疑动"
 "画可能因启用而被破坏, 否则应始终启用此功能."
 
+msgid "Save to file"
+msgstr "保存到文件"
+
 msgid ""
 "By default, animations are saved as built-in. It is possible to save them to "
 "a file instead. This allows adding custom tracks to the animations and "
@@ -388,3 +400,17 @@ msgid ""
 msgstr ""
 "默认情况下, 动画保存为内置. 可以将它们保存到一个文件中. 这允许向动画添加自定"
 "义轨道并在重新导入后保留它们."
+
+msgid "Slices"
+msgstr "切片"
+
+msgid ""
+"It is possible to specify multiple animations from a single timeline as "
+"slices. For this to work, the model must have only one animation that is "
+"named ``default``. To create slices, change the slice amount to something "
+"greater than zero. You can then name a slice, specify which frames it starts "
+"and stops on, and choose whether the animation loops or not."
+msgstr ""
+"可以将单个时间线上的切片指定为多个动画。这样做的前提是模型上仅存在一个名叫 "
+"``default`` 的动画。要创建切片，请先将切片数量改为大于零的值。之后就可以对切"
+"片进行命名、指定起讫帧、选择动画是否循环。"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -977,6 +977,17 @@ msgstr ""
 "створювати документацію. Вам також потрібно ознайомитися з Git'ом, системою "
 "контролю версій, яку використовують розробники Godot."
 
+msgid ""
+"We explain how to work with the engine source, how to edit the "
+"documentation, and what other ways to contribute are there in our "
+"`documentation for contributors <https://contributing.godotengine.org/en/"
+"latest/organization/how_to_contribute.html>`__."
+msgstr ""
+"Ми пояснюємо, як працювати з вихідним кодом движка, як редагувати "
+"документацію та які інші способи зробити свій внесок є в нашому "
+"`документація для учасників <https://contributing.godotengine.org/en/latest/"
+"organization/how_to_contribute.html>`__."
+
 msgid "I have a great idea for Godot. How can I share it?"
 msgstr "У мене є чудова ідея для Godot. Як я можу поділитися нею?"
 
@@ -1366,6 +1377,13 @@ msgstr ""
 
 msgid "How can I support Godot development or contribute?"
 msgstr "Як я можу підтримати розвиток Godot, або зробити свій внесок?"
+
+msgid ""
+"See `How to contribute <https://contributing.godotengine.org/en/latest/"
+"organization/how_to_contribute.html>`__."
+msgstr ""
+"Див. `Як зробити внесок <https://contributing.godotengine.org/en/latest/"
+"organization/how_to_contribute.html>`__."
 
 msgid "Who is working on Godot? How can I contact you?"
 msgstr "Хто працює над Godot? Як я можу зв'язатися з вами?"

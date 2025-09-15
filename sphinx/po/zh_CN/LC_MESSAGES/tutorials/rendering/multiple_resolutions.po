@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -775,3 +775,6 @@ msgstr ""
 "然而, 如果你的3D游戏打算使用纵向模式, 那么使用 **Keep Width保持宽度** 称为"
 "( *Vert-* )可能会更有意义. 这样, 宽高比大于16:9(例如19:9)的智能手机将使用 *更"
 "高* 的视野, 这在这里更符合逻辑."
+
+msgid "Scaling 2D and 3D elements differently"
+msgstr "2D 和 3D 元素使用不同的缩放"

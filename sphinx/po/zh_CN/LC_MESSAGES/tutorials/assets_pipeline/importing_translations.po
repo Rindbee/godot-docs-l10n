@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -60,6 +60,9 @@ msgstr ""
 "一般来说, 游戏使用第二种方法, 并为每个字符串使用唯一的ID. 这允许你在翻译为其"
 "他语言时修改文本. 唯一ID可以是数字, 字符串, 或带有数字的字符串(无论如何, 它只"
 "是一个唯一的字符串)."
+
+msgid "Supported formats"
+msgstr "支持的格式"
 
 msgid ""
 "If you need a more powerful file format, Godot also supports loading "

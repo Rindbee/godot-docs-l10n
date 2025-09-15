@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -201,6 +201,9 @@ msgstr ""
 "Godot 支持为每个 C++ 模块编写测试。有关如何编写模块测试的说明，请参"
 "阅 :ref:`doc_custom_module_unit_tests`\\ 。"
 
+msgid "Subcases"
+msgstr "子用例"
+
 msgid "Assertions"
 msgstr "断言"
 
@@ -347,6 +350,9 @@ msgid ""
 msgstr ""
 "为了缓解这个问题，请在测试用例中直接使用 ``ERR_PRINT_OFF`` 和 "
 "``ERR_PRINT_ON`` 宏来暂时禁用来自引擎的错误输出，例如："
+
+msgid "Special tags in test case names"
+msgstr "测试用例名称中的特殊标签"
 
 msgid "**Tag**"
 msgstr "**标签**"

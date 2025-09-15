@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -228,3 +228,6 @@ msgstr "执行计算着色器"
 
 msgid "Retrieving results"
 msgstr "获取结果"
+
+msgid "Freeing memory"
+msgstr "释放内存"

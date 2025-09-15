@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -364,6 +364,9 @@ msgstr ""
 msgid "See :ref:`doc_configuring_an_ide_vs` for further details."
 msgstr "Consulta :ref:`doc_configuring_an_ide_vs` para obtener más detalles."
 
+msgid "Troubleshooting"
+msgstr "Solución De Problemas"
+
 msgid "Cross-compiling for Windows from other operating systems"
 msgstr "Compilar para Windows desde otros sistemas operativos"
 
@@ -391,9 +394,6 @@ msgstr ""
 "se encuentran ``i686-w64-mingw32-gcc`` y ``x86_64-w64-mingw32-gcc`` (por "
 "ejemplo, ``/opt/mingw-w64`` si los binarios se encuentran en ``/opt/mingw-"
 "w64/bin``)."
-
-msgid "Troubleshooting"
-msgstr "Solución De Problemas"
 
 msgid ""
 "Cross-compiling from some Ubuntu versions may lead to `this bug <https://"

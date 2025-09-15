@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -11,10 +11,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "OpenXR Render Models"
+msgstr "OpenXR 渲染模型"
+
+msgid "OpenXR Render models node"
+msgstr "OpenXR 渲染模型节点"
+
 msgid ""
 "It will create child nodes for each active render model resulting in that "
 "render model being displayed."
 msgstr "该节点会为每个活跃渲染模型创建子节点，从而显示对应的渲染模型。"
+
+msgid "Render model manager example"
+msgstr "渲染模型管理器示例"
+
+msgid "Render model node"
+msgstr "渲染模型节点"
+
+msgid "Backend access"
+msgstr "后端访问"
 
 msgid "Function"
 msgstr "函数"

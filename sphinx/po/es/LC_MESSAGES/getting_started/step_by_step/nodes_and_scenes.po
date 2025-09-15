@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -214,6 +214,15 @@ msgstr ""
 
 msgid "Setting the main scene"
 msgstr "Configurando la escena principal"
+
+msgid ""
+"Running the project's *main scene* is distinct from running the *current "
+"scene*. If you encounter unexpected behavior, check to ensure you are "
+"running the correct scene."
+msgstr ""
+"Ejecutar la *escena principal* del proyecto es diferente a ejecutar la "
+"*escena actual*. Si encuentras algún comportamiento inesperado, asegúrate de "
+"estar ejecutando la escena correcta."
 
 msgid "A popup window appears and invites you to select the main scene."
 msgstr ""

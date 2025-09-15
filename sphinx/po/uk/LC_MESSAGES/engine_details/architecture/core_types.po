@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -299,6 +299,17 @@ msgstr "|vector|"
 msgid "``std::vector``"
 msgstr "``std::vector``"
 
+msgid ""
+"**Use this as the \"default\" vector type.** Uses copy-on-write (COW) "
+"semantics. This means it's generally slower but can be copied around almost "
+"for free. Use ``LocalVector`` instead where COW isn't needed and performance "
+"matters."
+msgstr ""
+"**Використовуйте це як «типовий» тип вектора.** Використовує семантику "
+"копіювання при записі (COW). Це означає, що він, як правило, повільніший, "
+"але його можна копіювати майже безкоштовно. Використовуйте ``LocalVector``, "
+"якщо COW не потрібний і важлива продуктивність."
+
 msgid "|hash_set|"
 msgstr "|hash_set|"
 
@@ -338,6 +349,15 @@ msgstr ""
 
 msgid "|local_vector|"
 msgstr "|local_vector|"
+
+msgid ""
+"Closer to ``std::vector`` in semantics, doesn't use copy-on-write (COW) thus "
+"it's faster than ``Vector``. Prefer it over ``Vector`` when copying it "
+"cheaply is not needed."
+msgstr ""
+"Ближчий до ``std::vector`` за семантикою, не використовує копіювання під час "
+"запису (COW), тому швидший за ``Vector``. Віддавайте перевагу йому над "
+"``Vector``, коли не потрібне дешеве копіювання."
 
 msgid "|array| 📜"
 msgstr "|array| 📜"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -101,10 +101,18 @@ msgstr ""
 "instancing_starter.zip>`_\\ 。"
 
 msgid ""
+"In the Project Manager, click the :button:`Import` button to import the "
+"project."
+msgstr "在项目管理器中点击 :button:`导入` 按钮来导入这个项目。"
+
+msgid ""
 "In the pop-up that appears navigate to the folder you extracted. Double-"
 "click the ``project.godot`` file to open it."
 msgstr ""
 "在弹出的窗口中，导航至你提取的文件夹。双击 ``project.godot`` 文件打开它。"
+
+msgid "Finally, click the :button:`Import` button."
+msgstr "最后点击 :button:`导入` 按钮。"
 
 msgid ""
 "The project contains two packed scenes: ``main.tscn``, containing walls "

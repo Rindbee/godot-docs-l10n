@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -146,6 +146,15 @@ msgstr ""
 
 msgid "Setting up"
 msgstr "Налаштування"
+
+msgid ""
+"Baking lightmaps in the web editors is not supported due to graphics API "
+"limitations. On the web platform, only *rendering* lightmaps that were baked "
+"on a different platform is supported."
+msgstr ""
+"Запікання карт світла у веб-редакторах не підтримується через обмеження "
+"графічного API. На веб-платформі підтримується лише *рендеринг* карт світла, "
+"які були запечені на іншій платформі."
 
 msgid ""
 "The LightmapGI node only bakes nodes that are on the same level as the "

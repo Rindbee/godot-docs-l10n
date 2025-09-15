@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -68,11 +68,29 @@ msgstr ""
 msgid "Color conversion for light editor themes"
 msgstr "为浅色编辑器主题转换颜色"
 
+msgid "To enable color conversion for light editor themes:"
+msgstr "为浅色编辑器主题启用颜色转换："
+
+msgid ":ui:`Import > Import As > Texture2D`"
+msgstr ":ui:`导入 > 导入为 > Texture2D`"
+
 msgid "Set ``editor/convert_colors_with_editor_theme`` to ``true``"
 msgstr "设置 ``editor/convert_colors_with_editor_theme`` 为 ``true``"
 
 msgid "Icon optimization"
 msgstr "图标优化"
+
+msgid ""
+"Because the editor renders SVGs once at load time, they need to be small in "
+"size so they can be efficiently parsed. When the `pre-commit hook <https://"
+"contributing.godotengine.org/en/latest/engine/guidelines/code_style.html#pre-"
+"commit-hook>`__ runs, it automatically optimizes the SVG using `svgo "
+"<https://github.com/svg/svgo>`_."
+msgstr ""
+"编辑器会在加载时渲染一次 SVG 文件，因此 SVG 文件需要很小，才能够高效地解析。"
+"运行 `pre-commit 钩子 <https://contributing.godotengine.org/en/latest/engine/"
+"guidelines/code_style.html#pre-commit-hook>`__\\ 时，会自动使用 `svgo "
+"<https://github.com/svg/svgo>`_ 对 SVG 进行优化。"
 
 msgid ""
 "While this optimization step won't impact the icon's quality noticeably, it "

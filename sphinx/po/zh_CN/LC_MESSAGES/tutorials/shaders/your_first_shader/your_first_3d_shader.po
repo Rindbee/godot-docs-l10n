@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -199,6 +199,9 @@ msgstr "法线就位后, 光线就会对网格的高度做出动态反应."
 msgid ""
 "We can even drag the light around and the lighting will update automatically."
 msgstr "我们甚至可以把灯拖来拖去, 灯光会自动更新."
+
+msgid "Full code"
+msgstr "完整代码"
 
 msgid ""
 "Here is the full code for this tutorial. You can see it is not very long as "

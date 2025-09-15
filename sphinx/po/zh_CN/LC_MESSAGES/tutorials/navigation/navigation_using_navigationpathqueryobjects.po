@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -42,10 +42,16 @@ msgstr ""
 "为 :ref:`NavigationPathQueryResult2D<class_NavigationPathQueryResult2D>` "
 "和 :ref:`NavigationPathQueryResult3D<class_NavigationPathQueryResult3D>`\\ 。"
 
+msgid "Creating a basic path query"
+msgstr "创建基础路径查询"
+
 msgid ""
 "Both parameters and result are used as a pair with the "
 "``NavigationServer.query_path()`` function."
 msgstr "参数和结果都与 ``NavigationServer.query_path()`` 函数成对使用。"
+
+msgid "Path postprocessing options"
+msgstr "路径后期处理选项"
 
 msgid ""
 "Path post-processing differences depending on navigation mesh polygon layout"
@@ -88,8 +94,14 @@ msgstr ""
 "``PATH_POSTPROCESSING_EDGECENTERED`` 后处理强制所有路径点位于**可用多边形走廊"
 "内**被跨越多边形边缘的中点。"
 
+msgid "Path simplification"
+msgstr "路径简化"
+
 msgid "Path point difference with or without path simplification"
 msgstr "路径简化前后的路径点差异对比"
+
+msgid "Path metadata"
+msgstr "路径元数据"
 
 msgid ""
 "Disabling unneeded path metadata options can improve performance and lower "
@@ -106,6 +118,9 @@ msgid ""
 msgstr ""
 "基础路径功能通常无需元数据。可选择禁用元数据收集以提升性能并降低内存消耗。"
 
+msgid "Excluding or including regions"
+msgstr "区块的排除与包含"
+
 msgid ""
 "If a large navigation map is well partitioned into smaller regions this can "
 "greatly help with performance as the query can skip a large number of "
@@ -113,3 +128,6 @@ msgid ""
 msgstr ""
 "若大型导航地图被合理分区为较小区域，可大幅提升性能（路径搜索初期即可跳过大量"
 "多边形检查）。"
+
+msgid "Path clipping and limits"
+msgstr "路径的裁剪与限制"

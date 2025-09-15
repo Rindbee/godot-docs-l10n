@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -268,6 +268,13 @@ msgid ""
 "Click on the region node and add a new NavigationPolygon Resource to the "
 "region node."
 msgstr "单击该区块节点，向该节点添加一个新的 NavigationPolygon 资源。"
+
+msgid ""
+"Define the movable navigation area with the NavigationPolygon draw tool. "
+"Then click the :button:`Bake NavigationPolygon` button on the toolbar."
+msgstr ""
+"使用 NavigationPolygon 绘制工具定义可移动的导航区域。然后点击工具栏上"
+"的 :button:`烘焙 NavigationPolygon` 按钮。"
 
 msgid ""
 "The navigation mesh defines the area where an actor can stand and move with "

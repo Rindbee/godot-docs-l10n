@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -242,12 +242,32 @@ msgstr ""
 msgid "|componentwise|"
 msgstr "|componentwise|"
 
+msgid ""
+"Converts a quantity specified in degrees into radians, with the formula "
+"``degrees * (PI / 180)``."
+msgstr "将指定的角度值转换为弧度值，使用公式 ``度 * (PI / 180)``\\ 。"
+
+msgid "The quantity, in degrees, to be converted to radians."
+msgstr "要转换为弧度的角度值。"
+
 msgid "return"
 msgstr "return"
 
 msgid "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/radians.xhtml"
 msgstr ""
 "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/radians.xhtml"
+
+msgid ""
+"|vec_type| **degrees**\\ (\\ |vec_type| "
+"radians) :ref:`🔗<shader_func_degrees>`"
+msgstr ""
+"|vec_type| **degrees**\\ (\\ |vec_type| "
+"radians) :ref:`🔗<shader_func_degrees>`"
+
+msgid ""
+"Converts a quantity specified in radians into degrees, with the formula "
+"``radians * (180 / PI)``"
+msgstr "将弧度值转换为角度值，使用公式 ``弧度 * (180 / PI)``"
 
 msgid "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/degrees.xhtml"
 msgstr ""

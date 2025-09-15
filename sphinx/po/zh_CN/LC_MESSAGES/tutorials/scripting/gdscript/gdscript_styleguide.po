@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -500,6 +500,9 @@ msgstr ""
 "<doc_gdscript_documentation_comments>`\\ 。例如，你可以用它来向你的队友解释你"
 "的类的作用、它是如何工作的、以及其他开发人员应该如何使用它。"
 
+msgid "For inner classes, use single-line declarations:"
+msgstr "内部类采用单行形式声明："
+
 msgid "Signals and properties"
 msgstr "信号和属性"
 
@@ -588,6 +591,11 @@ msgstr "类的其余接口、公共和私有方法，均按照这个顺序呈现
 msgid "Static typing"
 msgstr "静态类型"
 
+msgid ""
+"GDScript supports :ref:`optional static typing<doc_gdscript_static_typing>`."
+msgstr ""
+"GDScript 支持\\ :ref:`可选的静态类型 <doc_gdscript_static_typing>`\\ 。"
+
 msgid "Declared types"
 msgstr "声明类型"
 
@@ -599,6 +607,14 @@ msgstr "要声明函数的返回类型，请使用 ``-> <type>`` ："
 
 msgid "Inferred types"
 msgstr "推断类型"
+
+msgid ""
+"In most cases, you can let the compiler infer the type using ``:=``. Prefer "
+"``:=`` when the type is written on the same line as the assignment, "
+"otherwise prefer writing the type explicitly."
+msgstr ""
+"大部分情况下可以用 ``:=`` 让编译器自行推断变量类型。类型和赋值出现在同一行时"
+"请优先使用 ``:=``\\ ，否则请优先显式写出类型。"
 
 msgid ""
 "Include the type hint when the type is ambiguous, and omit the type hint "
@@ -620,3 +636,13 @@ msgid ""
 "Alternatively, you can use the ``as`` keyword to cast the return type, and "
 "that type will be used to infer the type of the var."
 msgstr "也可以使用 ``as`` 关键字来转换返回类型，该类型会用于推导变量类型。"
+
+msgid ""
+"This option is considered more :ref:`type-"
+"safe<doc_gdscript_static_typing_safe_lines>` than type hints, but also less "
+"null-safe as it silently casts the variable to ``null`` in case of a type "
+"mismatch at runtime, without an error/warning."
+msgstr ""
+"这种做法比类型提示更\\ :ref:`类型安全"
+"<doc_gdscript_static_typing_safe_lines>`\\ ，但空值安全性较低，因为运行时出现"
+"类型不匹配的情况时会静默将变量转为 ``null``\\ ，而不报错或报警告。"
