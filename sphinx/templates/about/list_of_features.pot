@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1651,29 +1651,37 @@ msgid "Print colored text to standard output on all platforms using :ref:`print_
 msgstr ""
 
 #: ../../docs/about/list_of_features.rst:779
-msgid "Support for :ref:`C++ modules <doc_custom_modules_in_cpp>` statically linked into the engine binary."
-msgstr ""
-
-#: ../../docs/about/list_of_features.rst:781
-msgid "Engine and editor written in C++17."
+msgid "The editor can :ref:`detect features used in a project and create a compilation profile <doc_engine_compilation_configuration_editor>`, which can be used to create smaller export template binaries with unneeded features disabled."
 msgstr ""
 
 #: ../../docs/about/list_of_features.rst:783
-msgid "Can be :ref:`compiled <doc_introduction_to_the_buildsystem>` using GCC, Clang and MSVC. MinGW is also supported."
+msgid "Support for :ref:`C++ modules <doc_custom_modules_in_cpp>` statically linked into the engine binary."
 msgstr ""
 
-#: ../../docs/about/list_of_features.rst:785
-msgid "Friendly towards packagers. In most cases, system libraries can be used instead of the ones provided by Godot. The build system doesn't download anything. Builds can be fully reproducible."
+#: ../../docs/about/list_of_features.rst:786
+msgid "Most built-in modules can be disabled at compile-time to reduce binary size in custom builds. See :ref:`doc_optimizing_for_size` for details."
 msgstr ""
 
 #: ../../docs/about/list_of_features.rst:789
-msgid "Licensed under the permissive MIT license."
+msgid "Engine and editor written in C++17."
 msgstr ""
 
 #: ../../docs/about/list_of_features.rst:791
+msgid "Can be :ref:`compiled <doc_introduction_to_the_buildsystem>` using GCC, Clang and MSVC. MinGW is also supported."
+msgstr ""
+
+#: ../../docs/about/list_of_features.rst:793
+msgid "Friendly towards packagers. In most cases, system libraries can be used instead of the ones provided by Godot. The build system doesn't download anything. Builds can be fully reproducible."
+msgstr ""
+
+#: ../../docs/about/list_of_features.rst:797
+msgid "Licensed under the permissive MIT license."
+msgstr ""
+
+#: ../../docs/about/list_of_features.rst:799
 msgid "Open development process with `contributions welcome <https://contributing.godotengine.org/en/latest/organization/how_to_contribute.html>`__."
 msgstr ""
 
-#: ../../docs/about/list_of_features.rst:795
+#: ../../docs/about/list_of_features.rst:803
 msgid "The `Godot proposals repository <https://github.com/godotengine/godot-proposals>`__ lists features that have been requested by the community and may be implemented in future Godot releases."
 msgstr ""

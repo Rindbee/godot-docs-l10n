@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -312,93 +312,98 @@ msgid "See :ref:`doc_configuring_an_ide_vs` for further details."
 msgstr ""
 
 #: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:358
-msgid "Cross-compiling for Windows from other operating systems"
-msgstr ""
-
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:360
-msgid "If you are a Linux or macOS user, you need to install `MinGW-w64 <https://www.mingw-w64.org/>`__, which typically comes in 32-bit and 64-bit variants, or `MinGW-LLVM <https://github.com/mstorsjo/llvm-mingw/releases>`_, which comes as a single archive for all target architectures. The package names may differ based on your distribution, here are some known ones:"
-msgstr ""
-
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:367
-msgid "**Arch Linux**"
-msgstr ""
-
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:371
-msgid "**Debian** / **Ubuntu**"
-msgstr ""
-
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:375
-msgid "**Fedora**"
-msgstr ""
-
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:380
-msgid "**macOS**"
-msgstr ""
-
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:384
-msgid "**Mageia**"
-msgstr ""
-
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:390
-msgid "Before attempting the compilation, SCons will check for the following binaries in your ``PATH`` environment variable:"
-msgstr ""
-
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:404
-msgid "If the binaries are not located in the ``PATH`` (e.g. ``/usr/bin``), you can define the following environment variable to give a hint to the build system:"
-msgstr ""
-
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:412
-msgid "Where ``/path/to/mingw`` is the path containing the ``bin`` directory where ``i686-w64-mingw32-gcc`` and ``x86_64-w64-mingw32-gcc`` are located (e.g. ``/opt/mingw-w64`` if the binaries are located in ``/opt/mingw-w64/bin``)."
-msgstr ""
-
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:416
-msgid "To make sure you are doing things correctly, executing the following in the shell should result in a working compiler (the version output may differ based on your system):"
-msgstr ""
-
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:425
-msgid "If you are building with MinGW-LLVM, add ``use_llvm=yes`` to the ``scons`` command."
-msgstr ""
-
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:426
-msgid "When cross-compiling for Windows using MinGW-w64, keep in mind only ``x86_64`` and ``x86_32`` architectures are supported. MinGW-LLVM supports ``arm64`` as well. Be sure to specify the right ``arch=`` option when invoking SCons if building from a different architecture."
-msgstr ""
-
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:432
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:440
 msgid "Troubleshooting"
 msgstr ""
 
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:360
+msgid "If you get a compilation failure when using MSVC, make sure to apply the latest updates. You can do so by starting the Visual Studio IDE and using :button:`Continue without code`, then :menu:`Help > Check for Updates` in the menu bar at the top. Install all updates, then try compiling again."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:366
+msgid "Cross-compiling for Windows from other operating systems"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:368
+msgid "If you are a Linux or macOS user, you need to install `MinGW-w64 <https://www.mingw-w64.org/>`__, which typically comes in 32-bit and 64-bit variants, or `MinGW-LLVM <https://github.com/mstorsjo/llvm-mingw/releases>`_, which comes as a single archive for all target architectures. The package names may differ based on your distribution, here are some known ones:"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:375
+msgid "**Arch Linux**"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:379
+msgid "**Debian** / **Ubuntu**"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:383
+msgid "**Fedora**"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:388
+msgid "**macOS**"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:392
+msgid "**Mageia**"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:398
+msgid "Before attempting the compilation, SCons will check for the following binaries in your ``PATH`` environment variable:"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:412
+msgid "If the binaries are not located in the ``PATH`` (e.g. ``/usr/bin``), you can define the following environment variable to give a hint to the build system:"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:420
+msgid "Where ``/path/to/mingw`` is the path containing the ``bin`` directory where ``i686-w64-mingw32-gcc`` and ``x86_64-w64-mingw32-gcc`` are located (e.g. ``/opt/mingw-w64`` if the binaries are located in ``/opt/mingw-w64/bin``)."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:424
+msgid "To make sure you are doing things correctly, executing the following in the shell should result in a working compiler (the version output may differ based on your system):"
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:433
+msgid "If you are building with MinGW-LLVM, add ``use_llvm=yes`` to the ``scons`` command."
+msgstr ""
+
 #: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:434
+msgid "When cross-compiling for Windows using MinGW-w64, keep in mind only ``x86_64`` and ``x86_32`` architectures are supported. MinGW-LLVM supports ``arm64`` as well. Be sure to specify the right ``arch=`` option when invoking SCons if building from a different architecture."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:442
 msgid "Cross-compiling from some Ubuntu versions may lead to `this bug <https://github.com/godotengine/godot/issues/9258>`_, due to a default configuration lacking support for POSIX threading."
 msgstr ""
 
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:438
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:446
 msgid "You can change that configuration following those instructions, for 64-bit:"
 msgstr ""
 
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:447
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:455
 msgid "And for 32-bit:"
 msgstr ""
 
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:457
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:465
 msgid "Creating Windows export templates"
 msgstr ""
 
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:459
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:467
 msgid "Windows export templates are created by compiling Godot without the editor, with the following flags:"
 msgstr ""
 
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:471
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:479
 msgid "If you plan on replacing the standard export templates, copy these to the following location, replacing ``<version>`` with the version identifier (such as ``4.2.1.stable`` or ``4.3.dev``):"
 msgstr ""
 
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:479
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:487
 msgid "With the following names:"
 msgstr ""
 
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:496
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:504
 msgid "However, if you are using custom modules or custom engine code, you may instead want to configure your binaries as custom export templates in the project export menu. You must have **Advanced Options** enabled to set this."
 msgstr ""
 
-#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:503
+#: ../../docs/engine_details/development/compiling/compiling_for_windows.rst:511
 msgid "You don't need to copy them in this case, just reference the resulting files in the ``bin\\`` directory of your Godot source folder, so the next time you build, you will automatically have the custom templates referenced."
 msgstr ""

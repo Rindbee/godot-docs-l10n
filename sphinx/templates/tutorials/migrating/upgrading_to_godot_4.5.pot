@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine latest\n"
+"Project-Id-Version: Godot Engine 4.5\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -52,7 +52,7 @@ msgid "**Source compatible** - Source code will compile successfully without cha
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:36
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:194
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:205
 msgid "Core"
 msgstr ""
 
@@ -382,7 +382,7 @@ msgid "As a result of changing the type metadata, the C# bindings changed the ty
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:95
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:223
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:234
 msgid "Text"
 msgstr ""
 
@@ -702,26 +702,34 @@ msgstr ""
 msgid "In 4.5 some behavior changes have been introduced, which might require you to adjust your project."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:198
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:194
+msgid "3D Model Import"
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:196
+msgid "A fix has been made to the 3D model importers to correctly handle non-joint nodes within a skeleton hierarchy (`GH-104184`_). To preserve compatibility, the default behavior is to import existing files with the same behavior as before (`GH-107352`_). New ``.gltf``, ``.glb``, ``.blend``, and ``.fbx`` files (without a corresponding ``.import`` file) will be imported with the new behavior. However, for existing files, if you want to use the new behavior, you must change the \"Naming Version\" option at the bottom of the Import dock:"
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:209
 msgid "In C#, ``StringExtensions.PathJoin`` now avoids adding an extra path separator when the original string is empty, or when the appended path starts with a path separator (`GH-105281`_)."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:203
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:214
 msgid "In C#, ``StringExtensions.GetExtension`` now returns an empty string instead of the original string when the original string does not contain an extension (`GH-108041`_)."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:208
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:219
 msgid "In C#, the ``Quaternion(Vector3, Vector3)`` constructor now correctly creates a quaternion representing the shortest arc between the two input vectors. Previously, it would return incorrect values for certain inputs (`GH-107618`_)."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:213
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:224
 msgid "Physics"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:217
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:228
 msgid "When the 3D physics engine is set to Jolt Physics, you will now always have overlaps between ``Area3D`` and static bodies reported by default, as the ``physics/jolt_physics_3d/simulation/areas_detect_static_bodies`` project setting has been removed (`GH-105746`_). If you still want such overlaps to be ignored, you will need to change the collision mask or layer of either the ``Area3D`` or the static body instead."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:227
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:238
 msgid "In GDScript, calls to functions ``RichTextLabel::add_image`` and ``RichTextLabel::update_image`` will continue to work, but the ``size_in_percent`` argument will now be used as the value for ``width_in_percent`` and ``height_in_percent`` will default to ``false`` (`GH-107347`_). To restore the previous behavior, you can explicitly set ``height_in_percent`` to the same value you were passing as ``size_in_percent``."
 msgstr ""

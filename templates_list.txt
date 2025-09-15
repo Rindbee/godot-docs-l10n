@@ -67,6 +67,7 @@ tutorials/editor/using_the_android_editor.pot
 tutorials/editor/using_the_web_editor.pot
 tutorials/editor/command_line_tutorial.pot
 tutorials/editor/external_editor.pot
+tutorials/editor/using_engine_compilation_configuration_editor.pot
 tutorials/editor/managing_editor_features.pot
 tutorials/migrating/index.pot
 tutorials/migrating/upgrading_to_godot_4.pot
@@ -368,6 +369,7 @@ tutorials/scripting/resources.pot
 tutorials/scripting/singletons_autoload.pot
 tutorials/scripting/scene_tree.pot
 tutorials/scripting/scene_unique_nodes.pot
+tutorials/scripting/logging.pot
 tutorials/shaders/index.pot
 tutorials/shaders/introduction_to_shaders.pot
 tutorials/shaders/shader_reference/index.pot
