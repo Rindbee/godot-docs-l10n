@@ -188,3 +188,6 @@ msgstr "register_types.h"
 
 msgid "register_types.cpp"
 msgstr "register_types.cpp"
+
+msgid "Then attach the following script to any node:"
+msgstr "Poi allega il seguente script a qualsiasi nodo:"

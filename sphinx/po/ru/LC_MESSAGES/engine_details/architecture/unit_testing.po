@@ -85,6 +85,37 @@ msgstr ""
 msgid "Testing failure paths"
 msgstr "Тестирование путей отказа"
 
+msgid "``[SceneTree]``"
+msgstr "``[SceneTree]``"
+
+msgid "``[Editor]``"
+msgstr "``[Editor]``"
+
+msgid "``[Audio]``"
+msgstr "``[Audio]``"
+
+msgid ""
+"Initializes the :ref:`AudioServer<class_AudioServer>` using a mock audio "
+"driver."
+msgstr ""
+"Инициализирует :ref:`AudioServer<class_AudioServer>`, используя фиктивный "
+"аудиодрайвер."
+
+msgid "``[Navigation2D]``"
+msgstr "``[Navigation2D]``"
+
+msgid "``[Navigation3D]``"
+msgstr "``[Navigation3D]``"
+
+msgid "Testing signals"
+msgstr "Тестовые сигналы"
+
+msgid "The following macros can be use to test signals:"
+msgstr "Для проверки сигналов можно использовать следующие макросы:"
+
+msgid "Macro"
+msgstr "Macro (Макрос)"
+
 msgid "Description"
 msgstr "Описание"
 

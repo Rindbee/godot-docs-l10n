@@ -10,3 +10,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Debugging on macOS"
+msgstr "Отладка на macOS"
+
+msgid "Debugging Godot editor"
+msgstr "Отладка редактора Godot"
+
+msgid "Then use the following command to re-sign the editor:"
+msgstr "Затем используйте следующую команду для повторной подписи редактора:"
+
+msgid "Debugging exported project"
+msgstr "Отладка экспортированного проекта"

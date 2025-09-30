@@ -24,4 +24,4 @@ msgid "Controlling an AnimationPlayer animation"
 msgstr "Controllare un'animazione dell'AnimationPlayer"
 
 msgid "Summary"
-msgstr "Sommario"
+msgstr "Riepilogo"

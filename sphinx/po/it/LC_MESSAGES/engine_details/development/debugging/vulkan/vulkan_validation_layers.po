@@ -59,5 +59,10 @@ msgstr "iOS"
 msgid "Web"
 msgstr "Web"
 
+msgid "Your Godot source directory tree should look like on the example below:"
+msgstr ""
+"L'albero delle cartella sorgente di Godot dovrebbe apparire come "
+"nell'esempio seguente:"
+
 msgid "Compile and run the Android app"
 msgstr "Compilare ed eseguire l'app Android"

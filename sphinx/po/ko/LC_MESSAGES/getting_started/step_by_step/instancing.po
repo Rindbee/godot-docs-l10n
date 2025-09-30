@@ -39,7 +39,7 @@ msgid ""
 msgstr ""
 "이전 파트에서는 씬이 하나의 루트 노드를 가진 트리 구조로 구성된 노드 모음임"
 "을 알아보았습니다. 프로젝트를 여러 씬으로 분할할 수 있습니다. 이 기능은 게임"
-"의 다양한 구성 요소를 분리하고 조직하는 데 도움이 됩니다."
+"의 다양한 컴포넌트를 분리하고 조직하는 데 도움이 됩니다."
 
 msgid ""
 "As we mentioned in the previous part, instanced scenes behave like a node: "

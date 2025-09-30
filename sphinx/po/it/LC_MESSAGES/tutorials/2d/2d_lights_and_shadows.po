@@ -17,11 +17,52 @@ msgstr "Luci e ombre 2D"
 msgid "Introduction"
 msgstr "Introduzione"
 
+msgid "2D lights enabled (without shadows)"
+msgstr "Luci 2D abilitate (senza ombre)"
+
+msgid "2D lights and shadows enabled"
+msgstr "Luci e ombre 2D abilitate"
+
 msgid "Nodes"
 msgstr "Nodi"
 
+msgid ""
+":ref:`CanvasModulate <class_CanvasModulate>` (to darken the rest of the "
+"scene)"
+msgstr ""
+":ref:`CanvasModulate <class_CanvasModulate>` (per oscurare il resto della "
+"scena)"
+
+msgid ""
+":ref:`LightOccluder2D <class_LightOccluder2D>` (for light shadow casters)"
+msgstr ":ref:`LightOccluder2D <class_LightOccluder2D>` (per proiettare ombre)"
+
+msgid "Point lights"
+msgstr "Luci puntiforme"
+
+msgid "Neutral point light texture"
+msgstr "Texture di luce puntiforme neutra"
+
 msgid "Directional light"
 msgstr "Luce direzionale"
+
+msgid "DirectionalLight2D offers the following properties:"
+msgstr "DirectionalLight2D offre le seguenti proprietà:"
+
+msgid "Common light properties"
+msgstr "Proprietà comuni di luci"
+
+msgid "Setting up shadows"
+msgstr "Configurare ombre"
+
+msgid "There are two ways to create light occluders:"
+msgstr "Ci sono due modi per creare occlusori di luce:"
+
+msgid ""
+"The following properties can be adjusted on 2D lights that have shadows "
+"enabled:"
+msgstr ""
+"Le seguenti proprietà si possono regolare sulle luci 2D con ombre abilitate:"
 
 msgid "Hard shadows"
 msgstr "Ombre nitide"

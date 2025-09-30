@@ -11,5 +11,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"The buildsystem will use this to disable unused classes and reduce binary "
+"size as a result."
+msgstr ""
+"Il sistema di compilazione lo userà per disabilitare le classi non "
+"utilizzate e pertanto ridurre la dimensione dell'eseguibile."
+
 msgid "Limitations"
 msgstr "Limitazioni"
+
+msgid ""
+"Features that are used in :ref:`expressions <doc_evaluating_expressions>`."
+msgstr ""
+"Funzionalità utilizzate nelle :ref:`espressioni "
+"<doc_evaluating_expressions>`."

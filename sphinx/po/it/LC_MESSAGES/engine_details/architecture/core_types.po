@@ -40,11 +40,103 @@ msgstr ""
 msgid "Containers"
 msgstr "Contenitori"
 
+msgid "Godot datatype"
+msgstr "Tipo di dato di Godot"
+
 msgid "Comment"
 msgstr "Commento"
 
+msgid "|string| 📜"
+msgstr "|string| 📜"
+
+msgid "``std::string``"
+msgstr "``std::string``"
+
+msgid "|vector|"
+msgstr "|vector|"
+
+msgid "``std::vector``"
+msgstr "``std::vector``"
+
+msgid "``std::unordered_set``"
+msgstr "``std::unordered_set``"
+
+msgid "**Use this as the \"default\" set type.**"
+msgstr "**Utilizzare questo come il tipo di set \"predefinito\".**"
+
+msgid "``std::unordered_map``"
+msgstr "``std::unordered_map``"
+
+msgid "|local_vector|"
+msgstr "|local_vector|"
+
+msgid "|typed_array| 📜"
+msgstr "|typed_array| 📜"
+
+msgid "|packed_array| 📜"
+msgstr "|packed_array| 📜"
+
+msgid "``std::list``"
+msgstr "``std::list``"
+
+msgid "|fixed_vector|"
+msgstr "|fixed_vector|"
+
+msgid "``std::array``"
+msgstr "``std::array``"
+
+msgid "``std::span``"
+msgstr "``std::span``"
+
+msgid ""
+"Represents read-only access to a contiguous array without needing to copy "
+"any data. See `pull request description <https://github.com/godotengine/"
+"godot/pull/100293>`__ for details."
+msgstr ""
+"Rappresenta l'accesso in sola lettura a un array contiguo senza dover "
+"copiare alcun dato. Per maggiori dettagli, consultare `descrizione nella "
+"pull request <https://github.com/godotengine/godot/pull/100293>`__."
+
+msgid "``std::set``"
+msgstr "``std::set``"
+
+msgid ""
+"Uses a `red-black tree <https://en.wikipedia.org/wiki/Red-black_tree>`__ for "
+"faster access."
+msgstr ""
+"Utilizza un `RB-Albero <https://it.wikipedia.org/wiki/RB-Albero>`__ per un "
+"accesso più rapido."
+
+msgid "``std::flat_set``"
+msgstr "``std::flat_set``"
+
+msgid "``std::map``"
+msgstr "``std::map``"
+
+msgid ""
+"Uses a `red-black tree <https://en.wikipedia.org/wiki/Red-black-tree>`__ for "
+"faster access."
+msgstr ""
+"Utilizza un `RB-Albero <https://it.wikipedia.org/wiki/RB-Albero>`__ per un "
+"accesso più rapido."
+
+msgid "|dictionary| 📜"
+msgstr "|dictionary| 📜"
+
+msgid "|typed_dictionary| 📜"
+msgstr "|typed_dictionary| 📜"
+
+msgid "``std::pair``"
+msgstr "``std::pair``"
+
 msgid "Math types"
 msgstr "Tipi matematici"
+
+msgid ""
+"There are several linear math types available in the ``core/math`` directory:"
+msgstr ""
+"Sono disponibili diversi tipi di matematica lineare nella cartella ``core/"
+"math``:"
 
 msgid ""
 "`core/math <https://github.com/godotengine/godot/tree/master/core/math>`__"

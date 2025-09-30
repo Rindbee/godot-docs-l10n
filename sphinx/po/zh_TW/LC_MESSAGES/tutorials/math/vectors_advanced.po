@@ -329,3 +329,12 @@ msgstr "想了解更多在 Godot 中使用向量運算的資訊，請參考下�
 
 msgid ":ref:`doc_matrices_and_transforms`"
 msgstr ":ref:`doc_matrices_and_transforms`"
+
+msgid ""
+"If you would like additional explanation, you should check out 3Blue1Brown's "
+"excellent video series `Essence of Linear Algebra <https://www.youtube.com/"
+"watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>`_."
+msgstr ""
+"如果你想要更深入的說明, 建議觀看 3Blue1Brown 的優質影片系列 `Essence of "
+"Linear Algebra <https://www.youtube.com/watch?"
+"v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>`_."

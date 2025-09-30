@@ -103,7 +103,7 @@ msgid "New pages since version 4.2"
 msgstr "Nuove pagine dalla versione 4.2"
 
 msgid "About"
-msgstr "Informazioni su Godot"
+msgstr "Informazioni"
 
 msgid ":ref:`doc_system_requirements`"
 msgstr ":ref:`doc_system_requirements`"
@@ -122,6 +122,9 @@ msgstr "GDExtension"
 
 msgid ":ref:`doc_gdextension_file`"
 msgstr ":ref:`doc_gdextension_file`"
+
+msgid ":ref:`doc_godot_cpp_docs_system`"
+msgstr ":ref:`doc_godot_cpp_docs_system`"
 
 msgid "Migrating"
 msgstr "Migrazione"
@@ -332,6 +335,9 @@ msgstr "Le migliori pratiche"
 
 msgid ":ref:`doc_version_control_systems`"
 msgstr ":ref:`doc_version_control_systems`"
+
+msgid ":ref:`doc_common_engine_methods_and_macros_error_macros`"
+msgstr ":ref:`doc_common_engine_methods_and_macros_error_macros`"
 
 msgid ":ref:`doc_vulkan_validation_layers`"
 msgstr ":ref:`doc_vulkan_validation_layers`"

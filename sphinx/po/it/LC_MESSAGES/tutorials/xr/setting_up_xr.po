@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Setting up XR"
+msgstr "Configurazione del XR"
+
 msgid "Introduction to the XR system in Godot"
 msgstr "Introduzione al sistema XR in Godot"
 
@@ -27,3 +30,15 @@ msgstr ""
 
 msgid "And the right hand:"
 msgstr "E la mano destra:"
+
+msgid "XR interfaces like OpenXR perform their own sync."
+msgstr "Le interfacce XR come OpenXR effettuano la propria sincronizzazione."
+
+msgid ""
+"Also note that by default the physics engine runs at 60Hz as well and this "
+"can result in choppy physics. You should set "
+"``Engine.physics_ticks_per_second`` to a higher value."
+msgstr ""
+"Nota inoltre che, normalmente, il motore di fisica funziona a 60 Hz e questo "
+"può causare una fisica instabile. Si consiglia di impostare "
+"``Engine.physics_ticks_per_second`` su un valore più alto."

@@ -672,13 +672,13 @@ msgid "3D / Spatial editor"
 msgstr "Editor 3D / Spatial"
 
 msgid "Toggle Freelook"
-msgstr "Commuta la vista libera"
+msgstr "Commuta visuale libera"
 
 msgid "``spatial_editor/freelook_toggle``"
 msgstr "``spatial_editor/freelook_toggle``"
 
 msgid "Freelook Left"
-msgstr "Vista Libera Sinistra"
+msgstr "Visuale libera sinistra"
 
 msgid ":kbd:`A`"
 msgstr ":kbd:`A`"
@@ -687,7 +687,7 @@ msgid "``spatial_editor/freelook_left``"
 msgstr "``spatial_editor/freelook_left``"
 
 msgid "Freelook Right"
-msgstr "Vista Libera Destra"
+msgstr "Visuale libera destra"
 
 msgid ":kbd:`D`"
 msgstr ":kbd:`D`"
@@ -696,31 +696,31 @@ msgid "``spatial_editor/freelook_right``"
 msgstr "``spatial_editor/freelook_right``"
 
 msgid "Freelook Forward"
-msgstr "Vista Libera Avanti"
+msgstr "Visuale libera avanti"
 
 msgid "``spatial_editor/freelook_forward``"
 msgstr "``spatial_editor/freelook_forward``"
 
 msgid "Freelook Backwards"
-msgstr "Vista Libera Indietro"
+msgstr "Visuale libera indietro"
 
 msgid "``spatial_editor/freelook_backwards``"
 msgstr "``spatial_editor/freelook_backwards``"
 
 msgid "Freelook Up"
-msgstr "Vista Libera Su"
+msgstr "Visuale libera su"
 
 msgid "``spatial_editor/freelook_up``"
 msgstr "``spatial_editor/freelook_up``"
 
 msgid "Freelook Down"
-msgstr "Vista Libera Giù"
+msgstr "Visuale libera giù"
 
 msgid "``spatial_editor/freelook_down``"
 msgstr "``spatial_editor/freelook_down``"
 
 msgid "Freelook Speed Modifier"
-msgstr "Modificatore Velocità Vista Libera"
+msgstr "Modificatore per velocizzare la visuale libera"
 
 msgid ":kbd:`Shift`"
 msgstr ":kbd:`Shift`"
@@ -729,7 +729,7 @@ msgid "``spatial_editor/freelook_speed_modifier``"
 msgstr "``spatial_editor/freelook_speed_modifier``"
 
 msgid "Freelook Slow Modifier"
-msgstr "Modificatore Velocità Lenta Vista Libera"
+msgstr "Modificatore per rallentare la visuale libera"
 
 msgid ":kbd:`Alt`"
 msgstr ":kbd:`Alt`"
@@ -768,7 +768,7 @@ msgid "``spatial_editor/snap``"
 msgstr "``spatial_editor/snap``"
 
 msgid "Snap Object to Floor"
-msgstr "Scatta l'oggetto sul suolo"
+msgstr "Scatta oggetto sul suolo"
 
 msgid ":kbd:`PgDown`"
 msgstr ":kbd:`Pagina giù`"
@@ -1182,7 +1182,7 @@ msgid "Complete Symbol"
 msgstr "Completa il simbolo"
 
 msgid ":kbd:`Ctrl + Space`"
-msgstr ":kbd: `Ctrl + Spazio`"
+msgstr ":kbd:`Ctrl + Spazio`"
 
 msgid "``script_text_editor/complete_symbol``"
 msgstr "``script_text_editor/complete_symbol``"
@@ -1532,6 +1532,9 @@ msgstr "Reimposta l'ingrandimento"
 msgid "``script_editor/reset_zoom``"
 msgstr "``script_editor/reset_zoom``"
 
+msgid "Editor output"
+msgstr "Output nell'editor"
+
 msgid "Copy Selection"
 msgstr "Copia selezione"
 
@@ -1573,6 +1576,9 @@ msgstr ":kbd:`F12`"
 
 msgid "``debugger/continue``"
 msgstr "``debugger/continue``"
+
+msgid "File dialog"
+msgstr "Finestra di dialogo dei file"
 
 msgid "Go Back"
 msgstr "Torna indietro"
@@ -1685,6 +1691,9 @@ msgstr ":kbd:`Cmd + Freccia giù`"
 msgid "``file_dialog/move_favorite_down``"
 msgstr "``file_dialog/move_favorite_down``"
 
+msgid "FileSystem dock"
+msgstr "Pannello File system"
+
 msgid "Copy Path"
 msgstr "Copia il percorso"
 
@@ -1705,6 +1714,9 @@ msgstr "``filesystem_dock/duplicate``"
 
 msgid "``filesystem_dock/delete``"
 msgstr "``filesystem_dock/delete``"
+
+msgid "Scene tree dock"
+msgstr "Pannello Albero di scene"
 
 msgid "Add Child Node"
 msgstr "Aggiungi un nodo figlio"
@@ -1754,6 +1766,9 @@ msgstr "``scene_tree/move_up``"
 msgid "``scene_tree/move_down``"
 msgstr "``scene_tree/move_down``"
 
+msgid "Animation track editor"
+msgstr "Editor di tracce di animazione"
+
 msgid "``animation_editor/duplicate_selection``"
 msgstr "``animation_editor/duplicate_selection``"
 
@@ -1796,6 +1811,9 @@ msgstr ":kbd:`Cmd + Freccia sinistra`"
 msgid "``animation_editor/goto_prev_step``"
 msgstr "``animation_editor/goto_prev_step``"
 
+msgid "TileMap editor"
+msgstr "Editor di TileMap"
+
 msgid "Select"
 msgstr "Seleziona"
 
@@ -1811,6 +1829,9 @@ msgstr "``tiles_editor/cut``"
 msgid "``tiles_editor/copy``"
 msgstr "``tiles_editor/copy``"
 
+msgid "Paste Selection"
+msgstr "Incolla selezione"
+
 msgid "``tiles_editor/paste``"
 msgstr "``tiles_editor/paste``"
 
@@ -1823,6 +1844,9 @@ msgstr ":kbd:`Esc`"
 msgid "``tiles_editor/cancel``"
 msgstr "``tiles_editor/cancel``"
 
+msgid "Paint"
+msgstr "Disegna"
+
 msgid "``tiles_editor/paint_tool``"
 msgstr "``tiles_editor/paint_tool``"
 
@@ -1832,6 +1856,9 @@ msgstr ":kbd:`L`"
 msgid "``tiles_editor/line_tool``"
 msgstr "``tiles_editor/line_tool``"
 
+msgid "Rect"
+msgstr "Rettangolo"
+
 msgid "``tiles_editor/rect_tool``"
 msgstr "``tiles_editor/rect_tool``"
 
@@ -1840,6 +1867,9 @@ msgstr ":kbd:`B`"
 
 msgid "``tiles_editor/bucket_tool``"
 msgstr "``tiles_editor/bucket_tool``"
+
+msgid "Picker"
+msgstr "Selettore"
 
 msgid ":kbd:`P`"
 msgstr ":kbd:`P`"

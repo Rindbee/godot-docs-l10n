@@ -11,8 +11,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"GD0109: The '[ExportToolButton]' attribute cannot be used with another "
+"'[Export]' attribute"
+msgstr ""
+"GD0109: L'attributo '[ExportToolButton]' non si può utilizzare con un altro "
+"attributo '[Export]'"
+
 msgid "**Rule ID**"
 msgstr "**ID regola**"
+
+msgid "GD0109"
+msgstr "GD0109"
 
 msgid "**Category**"
 msgstr "**Categoria**"
@@ -20,11 +30,53 @@ msgstr "**Categoria**"
 msgid "Usage"
 msgstr "Utilizzo"
 
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Soluzione è distruttiva o non-distruttiva**"
+
+msgid "Non-breaking"
+msgstr "Non-distruttiva"
+
 msgid "**Enabled by default**"
 msgstr "**Abilitato per predefinito**"
 
 msgid "Yes"
 msgstr "Si"
 
+msgid "Cause"
+msgstr "Causa"
+
+msgid ""
+"A property is annotated with both the ``[ExportToolButton]`` and the "
+"``[Export]`` attributes."
+msgstr ""
+"Una proprietà è annotata con entrambi gli attributi ``[ExportToolButton]`` e "
+"``[Export]``."
+
 msgid "Rule description"
 msgstr "Descrizione della regola"
+
+msgid ""
+"The ``[ExportToolButton]`` attribute already implies exporting the member, "
+"so the ``[Export]`` is unnecessary."
+msgstr ""
+"L'attributo ``[ExportToolButton]`` implica già l'esportazione del membro, "
+"quindi ``[Export]`` non è necessario."
+
+msgid "How to fix violations"
+msgstr "Come risolvere le violazioni"
+
+msgid "To fix a violation of this rule, remove the ``[Export]`` attribute."
+msgstr ""
+"Per correggere una violazione di questa regola, rimuovere l'attributo "
+"``[Export]``."
+
+msgid "When to suppress warnings"
+msgstr "Quando sopprimere gli avvertimenti"
+
+msgid ""
+"Do not suppress a warning from this rule. Multiple export attributes may "
+"lead to duplicated members, resulting in unexpected runtime errors."
+msgstr ""
+"Non sopprimere un avviso da questa regola. Molteplici attributi di "
+"esportazione potrebbero portare a membri duplicati, causando errori "
+"imprevisti in fase di esecuzione."

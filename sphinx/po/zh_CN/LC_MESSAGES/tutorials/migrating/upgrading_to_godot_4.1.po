@@ -549,6 +549,13 @@ msgstr ""
 "`init_obj` 变量的构造函数现在会接收 ``p_get_proc_address`` 作为第一个参数"
 
 msgid ""
+"You also need to add an extra ``compatibility_minimum`` line to your "
+"``.gdextension`` file, so that it looks something like:"
+msgstr ""
+"你还需要在你的 ``.gdextension`` 文件中额外添加一行 "
+"``compatibility_minimum``，使其看起来类似于："
+
+msgid ""
 "This lets Godot know that your GDExtension has been updated and is safe to "
 "load in Godot 4.1."
 msgstr ""

@@ -160,6 +160,9 @@ msgstr "``@deprecated: 請改用 [member another]。``"
 msgid "``@experimental: This method is incomplete.``"
 msgstr "``@experimental: 此方法尚未完成。``"
 
+msgid "Alternatively, you can use inline documentation comments:"
+msgstr "另外，你也可以使用行內說明註解："
+
 msgid ""
 "The script documentation will update in the editor help window every time "
 "the script is updated. If any member variable or function name starts with "

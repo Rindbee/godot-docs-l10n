@@ -76,13 +76,13 @@ msgid "Limitations & known issues"
 msgstr "제한 사항 및 알려진 문제"
 
 msgid "No gradle build support."
-msgstr "Gradle 빌드 지원 없음."
+msgstr "Gradle 빌드 지원이 없습니다."
 
 msgid "No C#/Mono support."
-msgstr "C#/Mono 지원 없음."
+msgstr "C#/Mono 지원이 없습니다."
 
 msgid "No support for external script editors."
-msgstr "외부 스크립트 편집기를 위한 지원 없음."
+msgstr "외부 스크립트 편집기를 위한 지원이 없습니다."
 
 msgid ""
 "While available, the *Vulkan Forward+* renderer is not recommended due to "

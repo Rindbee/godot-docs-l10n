@@ -75,6 +75,11 @@ msgstr ""
 "** Moteur de rendu Forward+ :** Graphiques intégrés avec prise en charge "
 "complète de Vulkan 1.0"
 
+msgid ""
+"*Example: Intel HD Graphics 510 (Skylake), AMD Radeon R5 Graphics (Kaveri)*"
+msgstr ""
+"*Exemple : Intel HD Graphics 510 (Skylake), AMD Radeon R5 Graphics (Kaveri)*"
+
 msgid "**Mobile renderer:** Integrated graphics with full Vulkan 1.0 support"
 msgstr ""
 "** Moteur de rendu Mobile :** Processeurs graphiques intégrés avec prise en "

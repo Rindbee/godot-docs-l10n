@@ -228,6 +228,11 @@ msgstr "當網格有非均勻縮放時使用（*註：目前尚未實作*）。"
 msgid "**shadows_disabled**"
 msgstr "**shadows_disabled**"
 
+msgid ""
+"Disable computing shadows in shader. The shader will not receive shadows, "
+"but can still cast them."
+msgstr "停用著色器中的陰影運算。該著色器不會接收陰影，但仍可投射陰影。"
+
 msgid "**ambient_light_disabled**"
 msgstr "**ambient_light_disabled**"
 

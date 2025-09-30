@@ -11,6 +11,33 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "User interface (UI)"
+msgstr "Interfaccia utente (UI)"
+
+msgid ""
+"In this section of the tutorial we explain the basics of creating a "
+"graphical user interface (GUI) in Godot."
+msgstr ""
+"In questa sezione del tutorial spieghiamo le basi per creare un'interfaccia "
+"utente grafica (GUI) in Godot."
+
+msgid "UI building blocks"
+msgstr "Blocchi di costruzione dell'interfaccia utente"
+
+msgid ""
+"Like everything else in Godot the user interface is built using nodes, "
+"specifically :ref:`Control <class_Control>` nodes. There are many different "
+"types of controls which are useful for creating specific types of GUIs. For "
+"simplicity we can separate them into two groups: content and layout."
+msgstr ""
+"Come tutto il resto in Godot, l'interfaccia utente è costruita utilizzando "
+"nodi, in particolare nodi :ref:`Control <class_Control>`. Esistono molti "
+"tipi diversi di controlli, utili per creare specifiche tipologie di GUI. Per "
+"semplicità, possiamo separarli in due gruppi: contenuto e layout."
+
+msgid "Typical content controls include:"
+msgstr "I controlli tipici di contenuto includono:"
+
 msgid ":ref:`Buttons <class_Button>`"
 msgstr ":ref:`Button <class_Button>`"
 
@@ -19,6 +46,9 @@ msgstr ":ref:`Label <class_Label>`"
 
 msgid ":ref:`LineEdits <class_LineEdit>` and :ref:`TextEdits <class_TextEdit>`"
 msgstr ":ref:`LineEdit <class_LineEdit>` e :ref:`TextEdit <class_TextEdit>`"
+
+msgid "Typical layout controls include:"
+msgstr "I controlli tipici di layout includono:"
 
 msgid ":ref:`BoxContainers <class_BoxContainer>`"
 msgstr ":ref:`BoxContainer <class_BoxContainer>`"
@@ -34,3 +64,9 @@ msgstr ":ref:`TabContainer <class_TabContainer>`"
 
 msgid ":ref:`Popups <class_Popup>`"
 msgstr ":ref:`Popup <class_Popup>`"
+
+msgid "The following pages explain the basics of using such controls."
+msgstr "Le pagine seguenti spiegano le basi sull'utilizzo di tali controlli."
+
+msgid "GUI skinning and themes"
+msgstr "GUI skinning e temi"

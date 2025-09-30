@@ -64,6 +64,11 @@ msgstr ""
 "塊，即可看到並啟用已偵測到的外掛程式。"
 
 msgid ""
+"When a plugin is active, you can access it in your code using "
+"``Engine.get_singleton()``:"
+msgstr "當外掛啟用時，你可以透過 ``Engine.get_singleton()`` 在程式中存取它："
+
+msgid ""
 "The plugin's files have to be in the ``res://ios/plugins/`` directory or a "
 "subdirectory, otherwise the Godot editor will not automatically detect them."
 msgstr ""
@@ -185,3 +190,6 @@ msgstr "建立 Godot iOS 外掛程式的設定檔，讓系統可偵測並載入�
 msgid ""
 "The configuration file extension must be ``gdip`` (e.g.: ``MyPlugin.gdip``)."
 msgstr "設定檔副檔名必須為 ``gdip``（例如：``MyPlugin.gdip``）。"
+
+msgid "The configuration file format is as follow:"
+msgstr "設定檔格式如下："

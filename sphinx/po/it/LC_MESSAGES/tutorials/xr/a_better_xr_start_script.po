@@ -19,3 +19,6 @@ msgstr "La nostra funzione ready aggiornata"
 
 msgid "We add a few things to the ready function."
 msgstr "Aggiungiamo alcune cose alla funzione ready."
+
+msgid "On stopping state"
+msgstr "On stopping state"

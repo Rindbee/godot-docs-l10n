@@ -35,6 +35,9 @@ msgstr ":ref:`doc_compiling_for_windows`"
 msgid "Using multi-threading"
 msgstr "Использование многопоточности"
 
+msgid "Example for using 12 threads:"
+msgstr "Пример использования 12 потоков:"
+
 msgid "Platform selection"
 msgstr "Выбор платформы"
 
@@ -58,6 +61,16 @@ msgstr ""
 
 msgid "Resulting binary"
 msgstr "Полученный бинарный файл"
+
+msgid ""
+"The resulting binaries will be placed in the ``bin/`` subdirectory, "
+"generally with this naming convention:"
+msgstr ""
+"Полученные двоичные файлы будут помещены в подкаталог ``bin/``, обычно в "
+"соответствии со следующим соглашением об именовании:"
+
+msgid "For the previous build attempt, the result would look like this:"
+msgstr "Для предыдущей попытки сборки результат выглядел бы так:"
 
 msgid ""
 "This means that the binary is for Linux *or* \\*BSD (*not* both), is not "
@@ -137,8 +150,14 @@ msgstr ""
 "когда это необходимо. Значение по умолчанию ``arch=auto`` определяет "
 "архитектуру, соответствующую платформе хоста."
 
+msgid "Custom modules"
+msgstr "Пользовательские модули"
+
 msgid ":ref:`doc_custom_modules_in_cpp`"
 msgstr ":ref:`doc_custom_modules_in_cpp`"
+
+msgid "Cleaning generated files"
+msgstr "Очистка сгенерированных файлов"
 
 msgid "Other build options"
 msgstr "Другие параметры сборки"
@@ -159,6 +178,24 @@ msgstr ""
 "Посмотрите вывод ``scons --help`` для подробностей по этим командам для "
 "версии которую вы хотите скомпилировать."
 
+msgid "Overriding the build options"
+msgstr "Переопределение параметров сборки"
+
+msgid "Using a file"
+msgstr "Использование файла"
+
+msgid "custom.py"
+msgstr "custom.py"
+
+msgid ""
+"You can also disable some of the built-in modules before compiling, saving "
+"some time it takes to build the engine. See :ref:`doc_optimizing_for_size` "
+"page for more details."
+msgstr ""
+"Вы также можете отключить некоторые встроенные модули перед компиляцией, что "
+"сэкономит время на сборку движка. Подробнее см. на "
+"странице :ref:`doc_optimizing_for_size`."
+
 msgid "Export templates"
 msgstr "Экспорт шаблонов"
 
@@ -172,6 +209,23 @@ msgstr ""
 "`godotengine.org <https://godotengine.org/>`__. Однако, вы можете захотеть "
 "собрать их самостоятельно (в случае если вы хотите более свежих, или вы "
 "хотите подключить свои модули, или просто не доверяете собственной тени)."
+
+msgid ""
+"If you download the official export templates package and unzip it, you will "
+"notice that most files are optimized binaries or packages for each platform:"
+msgstr ""
+"Если вы загрузите официальный пакет шаблонов экспорта и распакуете его, вы "
+"заметите, что большинство файлов представляют собой оптимизированные "
+"двоичные файлы или пакеты для каждой платформы:"
+
+msgid ""
+"To create those yourself, follow the instructions detailed for each platform "
+"in this same tutorial section. Each platform explains how to create its own "
+"template."
+msgstr ""
+"Чтобы создать их самостоятельно, следуйте инструкциям для каждой платформы в "
+"этом же разделе руководства. Для каждой платформы объясняется, как создать "
+"свой собственный шаблон."
 
 msgid ""
 "If you are developing for multiple platforms, macOS is definitely the most "

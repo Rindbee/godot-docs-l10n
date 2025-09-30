@@ -46,6 +46,16 @@ msgstr ""
 "(recursos) dependiendo del idioma actual. Esto puede usarse para imágenes "
 "como anuncios o voces localizadas."
 
+msgid ""
+"The upside of the DynamicFont fallback system is that it works regardless of "
+"the current language, making it ideal for things like multiplayer chat where "
+"the text language may not match the client's language."
+msgstr ""
+"La ventaja del sistema de respaldo DynamicFont es que funciona "
+"independientemente del idioma actual, lo que lo hace ideal para cosas como "
+"el chat multijugador donde el idioma del texto puede no coincidir con el "
+"idioma del cliente."
+
 msgid "Examples:"
 msgstr "Ejemplos:"
 

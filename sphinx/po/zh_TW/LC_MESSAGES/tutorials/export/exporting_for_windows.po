@@ -42,6 +42,20 @@ msgstr ""
 "案。該檔案會內涵一個特別最佳化過的二進位，這個二進位檔更小、更快，而且不包含"
 "編輯器與除錯工具。"
 
+msgid "Changing the executable icon"
+msgstr "更改可執行檔圖示"
+
+msgid ""
+"Godot will automatically use whatever image is set as your project's icon in "
+"the project settings, and convert it to an ICO file for the exported "
+"project. If you want to manually create an ICO file for greater control over "
+"how the icon looks at different resolutions then see "
+"the :ref:`doc_changing_application_icon_for_windows` page."
+msgstr ""
+"Godot 會自動使用專案設定中設為專案圖示的影像，並在匯出專案時轉換為 ICO 檔案。"
+"若你想手動建立 ICO 檔，以便更精細地控制各種解析度下的顯示效果，請參"
+"考 :ref:`doc_changing_application_icon_for_windows`。"
+
 msgid "Code signing"
 msgstr "程式碼簽章"
 
@@ -150,3 +164,10 @@ msgstr "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
 
 msgid "Export options"
 msgstr "匯出選項"
+
+msgid ""
+"You can find a full list of export options available in "
+"the :ref:`class_EditorExportPlatformWindows` class reference."
+msgstr ""
+"完整的可用匯出選項列表請見 :ref:`class_EditorExportPlatformWindows` 類別參"
+"考。"

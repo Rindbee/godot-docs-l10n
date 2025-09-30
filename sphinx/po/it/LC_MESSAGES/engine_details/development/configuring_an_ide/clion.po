@@ -29,6 +29,9 @@ msgstr ""
 "database di compilazione, aprire il terminale, navigare alla cartella "
 "principale di Godot ed eseguire:"
 
+msgid "Click the **+** button and select  ``Visual Studio``"
+msgstr "Clicca sul pulsante **+** e seleziona  ``Visual Studio``"
+
 msgid "Compiling and debugging the project"
 msgstr "Compilazione e debug del progetto"
 

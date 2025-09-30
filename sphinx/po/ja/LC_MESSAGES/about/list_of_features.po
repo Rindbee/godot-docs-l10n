@@ -607,7 +607,7 @@ msgstr ""
 "正確)。パノラマの形でカラープロジェクターテクスチャに対応。"
 
 msgid "*SpotLight:* Single texture. Supports colored projector textures."
-msgstr "*スポットライト:* 単一テクスチャ。色付き投影テクスチャに対応。"
+msgstr "*SpotLight:* 単一テクスチャ。色付き投影テクスチャに対応。"
 
 msgid ""
 "Shadow normal offset bias and shadow pancaking to decrease the amount of "

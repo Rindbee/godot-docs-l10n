@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Adding collision detection to objects."
+msgstr "Aggiungere il rilevamento delle collisioni agli oggetti."
+
 msgid "Setting objects as navigation meshes."
 msgstr "Impostare gli oggetti come mesh di navigazione."
 

@@ -17,6 +17,19 @@ msgstr ".gdextension 檔案"
 msgid "Introduction"
 msgstr "前言"
 
+msgid ""
+"The ``.gdextension`` file in your project contains the instructions for how "
+"to load the GDExtension. The instructions are separated into specific "
+"sections. This page should give you a quick overview of the different "
+"options available to you. For an introduction how to get started with C++ "
+"(godot-cpp), take a look at the :ref:`GDExtension C++ Example "
+"<doc_godot_cpp_getting_started>`."
+msgstr ""
+"專案中的 ``.gdextension`` 檔案包含如何載入 GDExtension 的指示。這些指示被分成"
+"多個特定區段。本頁會快速總覽你可用的不同選項。若要了解如何開始使用 C++"
+"（godot-cpp），請參閱 :ref:`GDExtension C++ 範例 "
+"<doc_godot_cpp_getting_started>`。"
+
 msgid "Configuration section"
 msgstr "設定區段"
 
@@ -112,6 +125,13 @@ msgstr ""
 
 msgid "Here is an example of what that can look like:"
 msgstr "範例："
+
+msgid ""
+"Entries are matched in order, so if two sets of feature tags could match the "
+"same system, be sure to put the more specific ones first:"
+msgstr ""
+"項目會依序匹配；因此若兩組功能標籤都可能符合同一系統，請將較具體的組合放在前"
+"面："
 
 msgid ""
 "Here are lists of some of the available built-in options (for more look at "

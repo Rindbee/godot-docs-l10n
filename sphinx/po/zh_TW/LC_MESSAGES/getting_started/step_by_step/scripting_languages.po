@@ -239,6 +239,9 @@ msgstr ""
 "使用Godot 3。從Godot 4.2開始，提供Android與iOS平台的支援，但其仍處於實驗階"
 "段，且 :ref:`存在一些限制 <doc_c_sharp_platforms>`。"
 
+msgid "To learn more about C#, head to the :ref:`doc_c_sharp` section."
+msgstr "想進一步了解 C#，請參閱 :ref:`doc_c_sharp` 區段。"
+
 msgid "C++ via GDExtension"
 msgstr "通過 GDExtension 使用 C++"
 

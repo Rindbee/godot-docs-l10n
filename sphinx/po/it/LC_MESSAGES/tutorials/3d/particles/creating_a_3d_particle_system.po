@@ -11,6 +11,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Creating a 3D particle system"
+msgstr "Creazione di un sistema di particelle 3D"
+
+msgid "Required particle node properties"
+msgstr "Proprietà richieste dei nodi di particelle"
+
+msgid "Draw passes"
+msgstr "Passaggi di disegno"
+
+msgid "Particle conversion"
+msgstr "Conversione di particelle"
+
+msgid "multiple draw passes"
+msgstr "molteplici passaggi di disegno"
+
+msgid "turbulence"
+msgstr "turbolenza"
+
+msgid "sub-emitters"
+msgstr "sotto-emettitori"
+
+msgid "trails"
+msgstr "scie"
+
+msgid "attractors"
+msgstr "attrattori"
+
+msgid "collision"
+msgstr "collisioni"
+
+msgid "You also lose the following properties:"
+msgstr "Si perdono anche le seguenti proprietà:"
+
 msgid "``Amount Ratio``"
 msgstr "``Rapporto di quantità``"
 

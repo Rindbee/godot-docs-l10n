@@ -48,14 +48,79 @@ msgstr ""
 msgid "Setting up SCons"
 msgstr "Настройка SCons"
 
+msgid ""
+"To install SCons, open the command prompt and run the following command:"
+msgstr ""
+"Чтобы установить SCons, откройте командную строку и выполните следующую "
+"команду:"
+
+msgid ""
+"To check whether you have installed Python and SCons correctly, you can type "
+"``python --version`` and ``scons --version`` into a command prompt "
+"(``cmd.exe``)."
+msgstr ""
+"Чтобы проверить, правильно ли вы установили Python и SCons, вы можете ввести "
+"``python --version`` и ``scons --version`` в командной строке (``cmd.exe``)."
+
+msgid ""
+"If the commands above don't work, make sure to add Python to your ``PATH`` "
+"environment variable after installing it, then check again. You can do so by "
+"running the Python installer again and enabling the option to add Python to "
+"the ``PATH``."
+msgstr ""
+"Если команды выше не работают, обязательно добавьте Python в переменную "
+"окружения ``PATH`` после установки, а затем проверьте ещё раз. Это можно "
+"сделать, повторно запустив установщик Python и включив опцию добавления "
+"Python в ``PATH``."
+
 msgid "Downloading Godot's source"
 msgstr "Загрузка исходного кода Godot"
 
 msgid "Refer to :ref:`doc_getting_source` for detailed instructions."
 msgstr "Подробные инструкции см. в :ref:`doc_getting_source`."
 
+msgid ""
+"The tutorial will assume from now on that you placed the source code in ``C:"
+"\\godot``."
+msgstr ""
+"С этого момента в руководстве предполагается, что вы поместили исходный код "
+"в ``C:\\godot``."
+
 msgid "Compiling"
 msgstr "Компиляция"
+
+msgid "Selecting a compiler"
+msgstr "Выбор компилятора"
+
+msgid ""
+"After opening a command prompt, change to the root directory of the engine "
+"source code (using ``cd``) and type:"
+msgstr ""
+"После открытия командной строки перейдите в корневой каталог исходного кода "
+"движка (используя ``cd``) и введите:"
+
+msgid ""
+"Clone the `godot-nir-static <https://github.com/godotengine/godot-nir-"
+"static>`_ directory and navigate to it."
+msgstr ""
+"Клонируйте каталог `godot-nir-static <https://github.com/godotengine/godot-"
+"nir-static>`_ и перейдите в него."
+
+msgid "Run the following:"
+msgstr "Выполните следующее:"
+
+msgid "Compiling with ANGLE support"
+msgstr "Компиляция с поддержкой ANGLE"
+
+msgid ""
+"Clone the `godot-angle-static <https://github.com/godotengine/godot-angle-"
+"static>`_ directory and navigate to it."
+msgstr ""
+"Клонируйте каталог `godot-angle-static <https://github.com/godotengine/godot-"
+"angle-static>`_ и перейдите в него."
+
+msgid "Run the following command:"
+msgstr "Выполните следующую команду:"
 
 msgid "Development in Visual Studio"
 msgstr "Разработка в Visual Studio"
@@ -80,3 +145,9 @@ msgstr "**macOS**"
 
 msgid "**Mageia**"
 msgstr "**Mageiа**"
+
+msgid "And for 32-bit:"
+msgstr "А для 32-бит:"
+
+msgid "With the following names:"
+msgstr "Со следующими именами:"

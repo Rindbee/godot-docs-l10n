@@ -11,8 +11,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "3D Particle system properties"
+msgstr "Proprietà del sistema di particelle 3D"
+
 msgid "Emitter properties"
 msgstr "Proprietà di un emettitore"
 
+msgid "Time properties"
+msgstr "Proprietà del tempo"
+
+msgid "Collision properties"
+msgstr "Proprietà di collisione"
+
+msgid "Drawing properties"
+msgstr "Proprietà di disegno"
+
+msgid "Particle drawing properties"
+msgstr "Proprietà di disegno di particelle"
+
+msgid "Trail properties"
+msgstr "Proprietà di scie"
+
 msgid "Particle trails"
 msgstr "Scie di particelle"
+
+msgid "Particle trail properties"
+msgstr "Proprietà di scie di particelle"

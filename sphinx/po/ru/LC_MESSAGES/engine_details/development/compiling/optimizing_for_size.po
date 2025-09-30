@@ -128,6 +128,9 @@ msgstr ""
 "Некоторые платформы, такие как WebAssembly, уже используют этот режим по "
 "умолчанию."
 
+msgid "**Space savings:** Moderate to high depending on project"
+msgstr "**Экономия места:** От умеренной до высокой в зависимости от проекта"
+
 msgid "**Performed in official builds:** No"
 msgstr "**Применяется в официальных сборках:** Нет"
 
@@ -220,6 +223,15 @@ msgstr ":ref:`class_TreeItem`"
 
 msgid ":ref:`class_VSplitContainer`"
 msgstr ":ref:`class_VSplitContainer`"
+
+msgid "Disabling physics engines"
+msgstr "Отключение физических движков"
+
+msgid "**Space savings:** Low to moderate"
+msgstr "**Экономия места:** От низкой до умеренной"
+
+msgid "custom.py"
+msgstr "custom.py"
 
 msgid ":ref:`doc_overriding_build_options`."
 msgstr ":ref:`doc_overriding_build_options`."

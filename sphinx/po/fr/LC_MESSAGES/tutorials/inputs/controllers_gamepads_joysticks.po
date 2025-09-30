@@ -253,5 +253,8 @@ msgstr ""
 msgid "Linux"
 msgstr "Linux"
 
+msgid "Android/iOS"
+msgstr "Android/iOS"
+
 msgid "Web"
 msgstr "Web"

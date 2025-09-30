@@ -70,3 +70,10 @@ msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 
 msgid "Export options"
 msgstr "匯出選項"
+
+msgid ""
+"You can find a full list of export options available in "
+"the :ref:`class_EditorExportPlatformLinuxBSD` class reference."
+msgstr ""
+"完整的可用匯出選項列表請見 :ref:`class_EditorExportPlatformLinuxBSD` 類別參"
+"考。"

@@ -38,6 +38,16 @@ msgstr ""
 "Per una panoramica generale sull'utilizzo di SCons per Godot, "
 "consultare :ref:`doc_introduction_to_the_buildsystem`."
 
+msgid ""
+"Finally, rename the zip archive to ``web_release.zip`` for the release "
+"template:"
+msgstr ""
+"Infine, rinomina l'archivio zip in ``web_release.zip`` per il modello di "
+"rilascio:"
+
+msgid "And ``web_debug.zip`` for the debug template:"
+msgstr "E ``web_debug.zip`` per il modello di debug:"
+
 msgid "GDExtension"
 msgstr "GDExtension"
 

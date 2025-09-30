@@ -41,6 +41,23 @@ msgstr ""
 msgid "Single pass post-processing"
 msgstr "單通道後期處理"
 
+msgid ""
+"Post-processing effects are shaders applied to a frame after Godot has "
+"rendered it. To apply a shader to a frame, create a :ref:`CanvasLayer "
+"<class_CanvasLayer>`, and give it a :ref:`ColorRect <class_ColorRect>`. "
+"Assign a new :ref:`ShaderMaterial <class_ShaderMaterial>` to the newly "
+"created ``ColorRect``, and set the ``ColorRect``'s anchor preset to Full "
+"Rect:"
+msgstr ""
+"後期處理效果是 Godot 將影格算繪完成後套用到該影格的著色器。要將著色器套用到影"
+"格，請建立一個 :ref:`CanvasLayer <class_CanvasLayer>`，並新增一"
+"個 :ref:`ColorRect <class_ColorRect>`。將新的 :ref:`ShaderMaterial "
+"<class_ShaderMaterial>` 指派給新建的 ``ColorRect``，並將 ``ColorRect`` 的錨點"
+"預設設為 Full Rect："
+
+msgid "Setting the anchor preset to Full Rect on the ColorRect node"
+msgstr "在 ColorRect 節點上將錨點預設設為 Full Rect"
+
 msgid "Your scene tree will look something like this:"
 msgstr "你的場景樹大致會長這樣："
 

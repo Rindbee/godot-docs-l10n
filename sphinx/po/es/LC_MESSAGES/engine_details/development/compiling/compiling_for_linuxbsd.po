@@ -91,7 +91,7 @@ msgid ""
 "development/compiling/compiling_for_x11.html>`__."
 msgstr ""
 "Antes de Godot 4.0, el destino Linux/\\*BSD se llamaba ``x11`` en lugar de "
-"``linuxbsd``. Si deseas compilar Godot 3.x, asegúrese de utilizar la `rama "
+"``linuxbsd``. Si quieres compilar Godot 3.x, asegúrate de utilizar la `rama "
 "3.x de esta documentación <https://docs.godotengine.org/en/3.6/development/"
 "compiling/compiling_for_x11.html>`__."
 

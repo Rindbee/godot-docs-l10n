@@ -178,7 +178,7 @@ msgid "25"
 msgstr "25"
 
 msgid "string array"
-msgstr "array de cadenas"
+msgstr "array de strings"
 
 msgid "26"
 msgstr "26"
@@ -293,7 +293,7 @@ msgid "4: :ref:`String<class_string>`"
 msgstr "4: :ref:`String<class_string>`"
 
 msgid "String length (in bytes)"
-msgstr "Longitud de cadenas (en bytes)"
+msgstr "Longitud de strings (en bytes)"
 
 msgid "X"
 msgstr "X"

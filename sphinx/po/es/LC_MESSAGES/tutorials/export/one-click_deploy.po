@@ -97,7 +97,7 @@ msgstr ""
 "iconos de dichas plataformas en la esquina superior derecha del editor."
 
 msgid "Click the button to export to the desired platform in one click."
-msgstr "Clica en un icono para exportar a esa plataforma."
+msgstr "Haz clic en el botón para exportar a la plataforma deseada en un clic."
 
 msgid "Troubleshooting"
 msgstr "Solución De Problemas"

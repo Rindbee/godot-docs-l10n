@@ -26,6 +26,11 @@ msgstr "Occlusion culling"
 msgid "Transparent objects"
 msgstr "Oggetti trasparenti"
 
+msgid ""
+"*This is only implemented in the Forward+ renderer, not Mobile or "
+"Compatibility.*"
+msgstr "*Implementato solo nel renderer Forward+, non Mobile o Compatibilità.*"
+
 msgid "Bake lighting"
 msgstr "Preparazione dell'illuminazione"
 

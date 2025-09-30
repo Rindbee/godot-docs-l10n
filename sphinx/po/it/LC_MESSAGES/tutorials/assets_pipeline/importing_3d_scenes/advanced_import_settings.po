@@ -11,6 +11,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Advanced Import Settings"
+msgstr "Impostazioni avanzate del progetto"
+
+msgid "Configuring node import options"
+msgstr "Configurare le opzioni di importazione dei nodi"
+
+msgid "Configuring mesh and material import options"
+msgstr "Configurare le opzioni di importazione di mesh e materiali"
+
 msgid ""
 "Switch to the **Meshes** or **Materials** tab in the top-left corner of the "
 "dialog."
@@ -24,5 +33,14 @@ msgstr "Le opzioni sono le seguenti:"
 msgid "Extracting materials to separate files"
 msgstr "Esportare i materiali su file separatati"
 
+msgid "Animation options"
+msgstr "Opzioni di animazione"
+
 msgid "Optimizer"
 msgstr "Ottimizzatore"
+
+msgid "Save to file"
+msgstr "Salva su file"
+
+msgid "Slices"
+msgstr "Suddivisioni"

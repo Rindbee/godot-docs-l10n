@@ -77,7 +77,7 @@ msgid ""
 "``android_sdk_path`` is the path to the Android SDK, then answering all the "
 "prompts with ``y``:"
 msgstr ""
-"다음 명령을 실행하여 SDK 구성 요소 라이선스에 동의합니다. 여기서 "
+"다음 명령을 실행하여 SDK 컴포넌트 라이선스에 동의합니다. 여기서 "
 "``android_sdk_path``\\ 는 Android SDK의 경로이고, 모든 프롬프트에 ``y``\\ 로 "
 "답합니다:"
 

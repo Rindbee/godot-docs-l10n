@@ -53,6 +53,20 @@ msgstr "将现有的游戏移植到 Godot。"
 msgid "Write a whole, new game in C++ because you can't live without C++."
 msgstr "使用 C++ 编写整个新游戏，因为你离不开 C++。"
 
+msgid ""
+"While it is possible to use modules for custom game logic, :ref:`GDExtension "
+"<doc_gdextension>` is generally more suited as it doesn't require "
+"recompiling the engine after every code change."
+msgstr ""
+"虽然可以使用模块来实现自定义游戏逻辑，但通常更推荐使用 :ref:`GDExtension "
+"<doc_gdextension>`，因为它无需在每次代码修改后重新编译引擎。"
+
+msgid ""
+"C++ modules are mainly needed when GDExtension doesn't suffice and deeper "
+"engine integration is required."
+msgstr ""
+"C++ 模块主要在 GDExtension 无法满足需求、且需要更深层次引擎集成时使用。"
+
 msgid "Creating a new module"
 msgstr "创建新模块"
 

@@ -14,6 +14,9 @@ msgstr ""
 msgid "Signal"
 msgstr "Сигнал"
 
+msgid "Instancing with signals"
+msgstr "Создание экземпляра класса с помощью сигналов"
+
 msgid ""
 "Signals provide a way to decouple game objects, allowing you to avoid "
 "forcing a fixed arrangement of nodes. One sign that a signal might be called "
@@ -31,8 +34,20 @@ msgstr ""
 "проблематично, если вы создаете объекты во время выполнения и хотите "
 "поместить их в произвольное место в дереве сцены."
 
+msgid "Below we'll consider an example of such a situation: firing bullets."
+msgstr "Ниже мы рассмотрим пример такой ситуации: стрельба пулями."
+
 msgid "Shooting example"
 msgstr "Пример стрельбы"
+
+msgid ""
+"Consider a player character that can rotate and shoot towards the mouse. "
+"Every time the mouse button is clicked, we create an instance of the bullet "
+"at the player's location. See :ref:`doc_instancing` for details."
+msgstr ""
+"Рассмотрим персонажа игрока, который может вращаться и стрелять в "
+"направлении мыши. Каждый раз при нажатии кнопки мыши мы создаём экземпляр "
+"пули в позиции игрока. Подробнее см. :ref:`doc_instancing`."
 
 msgid ""
 "We'll use an ``Area2D`` for the bullet, which moves in a straight line at a "
@@ -62,6 +77,9 @@ msgstr ""
 "сцены в качестве ребенка игрока, имеет больше смысла добавить пулю в "
 "качестве дочернего элемента \"основной\" игровой сцены, которая может быть "
 "родителем игрока или даже дальше выше по дереву сцен."
+
+msgid "You could do this by adding the bullet to the main scene directly:"
+msgstr "Это можно сделать, добавив маркер непосредственно в основную сцену:"
 
 msgid ""
 "However, this will lead to a different problem. Now if you try to test your "

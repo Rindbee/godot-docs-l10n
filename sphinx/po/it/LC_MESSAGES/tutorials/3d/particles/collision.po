@@ -11,5 +11,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "3D Particle collisions"
+msgstr "Collisioni di particelle 3D"
+
+msgid "Particle collisions"
+msgstr "Collisioni di particelle"
+
+msgid "Common properties"
+msgstr "Proprietà comuni"
+
+msgid "Common particle collision properties"
+msgstr "Proprietà comuni di collisione di particelle"
+
+msgid "Common collision properties"
+msgstr "Proprietà comuni di collisione"
+
 msgid "Troubleshooting"
 msgstr "Risoluzione dei problemi"

@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "About"
-msgstr "Informazioni su Godot"
+msgstr "Informazioni"
 
 msgid "Getting started"
 msgstr "Per iniziare"
@@ -20,11 +20,17 @@ msgstr "Per iniziare"
 msgid "Manual"
 msgstr "Manuale"
 
+msgid "Engine details"
+msgstr "Dettagli del motore"
+
 msgid "Community"
 msgstr "Comunità"
 
 msgid "Class reference"
 msgstr "Riferimenti alle classi"
+
+msgid "Godot Docs – *4.5* branch"
+msgstr "Documentazione di Godot – ramo *4.5*"
 
 msgid ""
 "Godot's documentation is available in various languages and versions. Expand "

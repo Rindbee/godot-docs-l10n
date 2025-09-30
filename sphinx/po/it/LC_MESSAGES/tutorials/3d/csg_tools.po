@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Prototyping levels with CSG"
+msgstr "Prototipazione dei livelli con CSG"
+
 msgid ""
 "You can check how to use CSG nodes to build various shapes (such as stairs "
 "or roads) using the `Constructive Solid Geometry demo project <https://"

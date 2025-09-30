@@ -34,6 +34,12 @@ msgstr "**glTF**"
 msgid "**FBX**"
 msgstr "**FBX**"
 
+msgid "**Nodes**"
+msgstr "**Nœuds**"
+
+msgid "**Materials**"
+msgstr "**Matériaux**"
+
 msgid "Using import scripts for automation"
 msgstr "Utiliser des scripts d'importation pour l'automatisation"
 

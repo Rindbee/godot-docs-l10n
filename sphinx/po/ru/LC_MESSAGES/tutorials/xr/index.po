@@ -14,8 +14,18 @@ msgstr ""
 msgid "XR"
 msgstr "XR"
 
+msgid ""
+"This section of the manual covers everything related to XR ( Virtual Reality "
+"and Augmented Reality)."
+msgstr ""
+"В этом разделе руководства рассматривается все, что касается XR (виртуальной "
+"реальности и дополненной реальности)."
+
 msgid "Basic Tutorial"
 msgstr "Базовый учебник"
 
 msgid "Advanced topics"
 msgstr "Расширенные темы"
+
+msgid "Godot XR Tools"
+msgstr "Инструменты Godot XR"

@@ -860,6 +860,16 @@ msgstr ""
 "並嘗試解決它。您將需要學習如何從原始程式碼編譯引擎，或如何建構文件。您還需要"
 "熟悉 Git，這是 Godot 開發人員使用的版本控制系統。"
 
+msgid ""
+"We explain how to work with the engine source, how to edit the "
+"documentation, and what other ways to contribute are there in our "
+"`documentation for contributors <https://contributing.godotengine.org/en/"
+"latest/organization/how_to_contribute.html>`__."
+msgstr ""
+"我們在 `貢獻者文件 <https://contributing.godotengine.org/en/latest/"
+"organization/how_to_contribute.html>`__ 中說明了如何使用引擎原始碼、如何編輯"
+"文件，以及還有哪些其他貢獻方式。"
+
 msgid "I have a great idea for Godot. How can I share it?"
 msgstr "我有個大膽的想法可以給 Godot。該分享去哪裡？"
 
@@ -1116,6 +1126,10 @@ msgid ""
 "lacks proper internationalization support."
 msgstr "使用自定字串型別，而 STL 提供的字串太簡陋且缺乏完善的在地化支援。"
 
+msgid ""
+"Check out :ref:`Godot's container types <doc_core_types>` for alternatives."
+msgstr "請參考 :ref:`Godot 的容器型別 <doc_core_types>` 以尋找替代方案。"
+
 msgid "Why does Godot not use exceptions?"
 msgstr "Godot 怎麼不用例外 (Exception)？"
 
@@ -1200,6 +1214,13 @@ msgstr ""
 
 msgid "How can I support Godot development or contribute?"
 msgstr "要怎麼參與貢獻或支援 Godot 的開發呢？"
+
+msgid ""
+"See `How to contribute <https://contributing.godotengine.org/en/latest/"
+"organization/how_to_contribute.html>`__."
+msgstr ""
+"請參閱 `如何貢獻 <https://contributing.godotengine.org/en/latest/"
+"organization/how_to_contribute.html>`__。"
 
 msgid "Who is working on Godot? How can I contact you?"
 msgstr "有誰在為 Godot 工作？如何聯路？"

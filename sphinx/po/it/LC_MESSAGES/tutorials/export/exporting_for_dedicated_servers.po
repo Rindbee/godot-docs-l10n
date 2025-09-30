@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Editor versus export template"
+msgstr "Editor contro modello di esportazione"
+
 msgid "Export approaches"
 msgstr "Approcci all'esportazione"
 

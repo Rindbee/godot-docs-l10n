@@ -1418,6 +1418,20 @@ msgstr ""
 "maxVal) :ref:`🔗<shader_func_clamp>`"
 
 msgid ""
+"|vec_uint_type| **clamp**\\ (\\ |vec_uint_type| x, |vec_uint_type| minVal, |"
+"vec_uint_type| maxVal) :ref:`🔗<shader_func_clamp>`"
+msgstr ""
+"|vec_uint_type| **clamp**\\ (\\ |vec_uint_type| x, |vec_uint_type| minVal, |"
+"vec_uint_type| maxVal) :ref:`🔗<shader_func_clamp>`"
+
+msgid ""
+"|vec_uint_type| **clamp**\\ (\\ |vec_uint_type| x, uint minVal, uint "
+"maxVal) :ref:`🔗<shader_func_clamp>`"
+msgstr ""
+"|vec_uint_type| **clamp**\\ (\\ |vec_uint_type| x, uint minVal, uint "
+"maxVal) :ref:`🔗<shader_func_clamp>`"
+
+msgid ""
 "Returns the value of ``x`` constrained to the range ``minVal`` to ``maxVal``."
 msgstr ""
 "Restituisce il valore di ``x`` limitato all'intervallo ``minVal`` e "
@@ -1658,6 +1672,9 @@ msgstr ""
 "Effettua un'interpolazione uniforme con la formula di Hermite tra ``0`` e "
 "``1`` quando a < c < b. Questa è utile nei casi in cui si desidera una "
 "funzione soglia con una transizione uniforme."
+
+msgid "Smoothstep is equivalent to:"
+msgstr "Smoothstep è equivalente a:"
 
 msgid "Results are undefined if ``a >= b``."
 msgstr "I risultati sono indefiniti se ``a >= b``."
@@ -1989,6 +2006,9 @@ msgstr "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/dot.xhtml"
 msgid "vec3 **cross**\\ (\\ vec3 a, vec3 b) :ref:`🔗<shader_func_cross>`"
 msgstr "vec3 **cross**\\ (\\ vec3 a, vec3 b) :ref:`🔗<shader_func_cross>`"
 
+msgid "Returns the cross product of two vectors. i.e.:"
+msgstr "Restituisce il prodotto vettoriale di due vettori. Ovvero:"
+
 msgid "The cross product of ``a`` and ``b``."
 msgstr "Il prodotto vettoriale di ``a`` e ``b``."
 
@@ -2070,6 +2090,9 @@ msgstr ""
 "Per un determinato vettore incidente ``I``, normale alla superficie ``N`` e "
 "rapporto degli indici di rifrazione, ``eta``, restituisce il vettore di "
 "rifrazione, ``R``."
+
+msgid "``R`` is calculated as:"
+msgstr "``R`` è calcolato come:"
 
 msgid ""
 "The input parameters I and N should be normalized in order to achieve the "
@@ -3362,6 +3385,15 @@ msgstr ""
 "vec4 **textureLod**\\ (\\ samplerCubeArray s, vec4 p, float "
 "lod) :ref:`🔗<shader_func_textureLod>`"
 
+msgid ""
+"Performs a texture lookup at coordinate ``p`` from the texture bound to "
+"sampler with an explicit level-of-detail as specified in ``lod``. ``lod`` "
+"specifies λbase and sets the partial derivatives as follows:"
+msgstr ""
+"Esegue una ricerca di texture alle coordinate ``p`` dalla texture associata "
+"al campionatore con un livello di dettaglio esplicito come specificato in "
+"``lod``. ``lod`` specifica λbase e imposta le derivate parziali come segue:"
+
 msgid "The explicit level-of-detail."
 msgstr "Il livello di dettaglio esplicito."
 
@@ -3625,6 +3657,9 @@ msgstr ""
 "vec4 **textureGather**\\ (\\ samplerCube s, vec3 p [, int "
 "comps] ) :ref:`🔗<shader_func_textureGather>`"
 
+msgid "Returns the value:"
+msgstr "Restituisce il valore:"
+
 msgid "param comps"
 msgstr "param comps"
 
@@ -3836,6 +3871,9 @@ msgstr ""
 msgid "Equivalent to ``abs(dFdxFine(p)) + abs(dFdyFine(p))``."
 msgstr "Equivalente a ``abs(dFdxFine(p)) + abs(dFdyFine(p))``."
 
+msgid "https://registry.khronos.org/OpenGL-Refpages/gl4/html/fwidth.xhtml"
+msgstr "https://registry.khronos.org/OpenGL-Refpages/gl4/html/fwidth.xhtml"
+
 msgid "Packing and unpacking functions"
 msgstr "Funzioni di compressione e decompressione"
 
@@ -3870,11 +3908,25 @@ msgstr ":ref:`packUnorm2x16<shader_func_packUnorm2x16>`\\ (\\ vec2 v)"
 msgid ":ref:`unpackUnorm2x16<shader_func_unpackUnorm2x16>`\\ (\\ uint v)"
 msgstr ":ref:`unpackUnorm2x16<shader_func_unpackUnorm2x16>`\\ (\\ uint v)"
 
+msgid ""
+"Convert two normalized (range 0..1) 32-bit floats to 16-bit unsigned ints "
+"and pack them."
+msgstr ""
+"Converte due numeri in virgola mobile normalizzati (intervallo 0..1) a 32 "
+"bit in numeri interi senza segno a 16 bit e li comprime."
+
 msgid ":ref:`packSnorm2x16<shader_func_packSnorm2x16>`\\ (\\ vec2 v)"
 msgstr ":ref:`packSnorm2x16<shader_func_packSnorm2x16>`\\ (\\ vec2 v)"
 
 msgid ":ref:`unpackSnorm2x16<shader_func_unpackSnorm2x16>`\\ (\\ uint v)"
 msgstr ":ref:`unpackSnorm2x16<shader_func_unpackSnorm2x16>`\\ (\\ uint v)"
+
+msgid ""
+"Convert two signed normalized (range -1..1) 32-bit floats to 16-bit signed "
+"ints and pack them."
+msgstr ""
+"Converte due numeri in virgola mobile normalizzati con segno (intervallo "
+"-1..1) a 16 bit in numeri interi con segno a 16 bit e li comprime."
 
 msgid ":ref:`packUnorm4x8<shader_func_packUnorm4x8>`\\ (\\ vec4 v)"
 msgstr ":ref:`packUnorm4x8<shader_func_packUnorm4x8>`\\ (\\ vec4 v)"
@@ -3882,11 +3934,25 @@ msgstr ":ref:`packUnorm4x8<shader_func_packUnorm4x8>`\\ (\\ vec4 v)"
 msgid ":ref:`unpackUnorm4x8<shader_func_unpackUnorm4x8>`\\ (\\ uint v)"
 msgstr ":ref:`unpackUnorm4x8<shader_func_unpackUnorm4x8>`\\ (\\ uint v)"
 
+msgid ""
+"Convert four normalized (range 0..1) 32-bit floats into 8-bit unsigned ints "
+"and pack them."
+msgstr ""
+"Converte quattro numeri in virgola mobile a 32 bit normalizzati (intervallo "
+"0..1) in numeri interi senza segno a 8 bit e li comprime."
+
 msgid ":ref:`packSnorm4x8<shader_func_packSnorm4x8>`\\ (\\ vec4 v)"
 msgstr ":ref:`packSnorm4x8<shader_func_packSnorm4x8>`\\ (\\ vec4 v)"
 
 msgid ":ref:`unpackSnorm4x8<shader_func_unpackSnorm4x8>`\\ (\\ uint v)"
 msgstr ":ref:`unpackSnorm4x8<shader_func_unpackSnorm4x8>`\\ (\\ uint v)"
+
+msgid ""
+"Convert four signed normalized (range -1..1) 32-bit floats into 8-bit signed "
+"ints and pack them."
+msgstr ""
+"Converti quattro numeri in virgola mobile normalizzati con segno (intervallo "
+"-1..1) a 32 bit in numeri interi con segno a 8 bit e li comprime."
 
 msgid "Packing and unpacking function descriptions"
 msgstr "Descrizioni delle funzioni di compressione e decompressione"
@@ -3988,6 +4054,13 @@ msgstr ""
 "Converte ogni componente del valore in virgola mobile normalizzato v in "
 "valori interi a 16 bit e poi comprime i risultati in un intero senza segno a "
 "32 bit."
+
+msgid ""
+"The conversion for component c of ``v`` to fixed-point is performed as "
+"follows:"
+msgstr ""
+"La conversione della componente c di ``v`` in virgola fissa viene eseguita "
+"come segue:"
 
 msgid ""
 "The first component of the vector will be written to the least significant "

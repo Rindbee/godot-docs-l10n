@@ -11,8 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "This popup has the following properties:"
+msgstr "Questo popup contiene le seguenti proprietà:"
+
 msgid "Visual Shader node interface"
 msgstr "Interfaccia di un nodo in Visual Shader"
+
+msgid "Port types"
+msgstr "Tipi di porta"
 
 msgid "Type"
 msgstr "Tipo"
@@ -26,11 +32,47 @@ msgstr "Descrizione"
 msgid "Example"
 msgstr "Esempio"
 
+msgid "Scalar"
+msgstr "Scalare"
+
+msgid "Gray"
+msgstr "Grigio"
+
+msgid "Scalar is a single value."
+msgstr "Uno scalare è un valore singolo."
+
+msgid "|scalar|"
+msgstr "|scalar|"
+
+msgid "scalar"
+msgstr "scalar"
+
 msgid "Vector"
 msgstr "Vettore"
 
+msgid "Purple"
+msgstr "Viola"
+
+msgid "Vector is a set of values."
+msgstr "Un vettore è una serie di valori."
+
+msgid "|vector|"
+msgstr "|vector|"
+
+msgid "vector"
+msgstr "vector"
+
 msgid "Boolean"
 msgstr "Booleano"
+
+msgid "Green"
+msgstr "Verde"
+
+msgid "On or off, true or false."
+msgstr "On o off, true o false."
+
+msgid "|boolean|"
+msgstr "|boolean|"
 
 msgid "boolean"
 msgstr "boolean"
@@ -38,8 +80,63 @@ msgstr "boolean"
 msgid "Transform"
 msgstr "Trasformazione"
 
+msgid "Pink"
+msgstr "Rosa"
+
+msgid "A matrix, usually used to transform vertices."
+msgstr "Una matrice, solitamente usata per trasformare vertici."
+
+msgid "|transform|"
+msgstr "|transform|"
+
+msgid "transform"
+msgstr "transform"
+
+msgid "Sampler"
+msgstr "Campionatore"
+
+msgid "Orange"
+msgstr "Arancione"
+
+msgid "A texture sampler. It can be used to sample textures."
+msgstr "Un campionatore di texture. Serve per campionare le texture."
+
+msgid "|sampler|"
+msgstr "|sampler|"
+
+msgid "sampler"
+msgstr "sampler"
+
+msgid ""
+"All of the types are used in the calculations of vertices, fragments, and "
+"lights in the shader. For example: matrix multiplication, vector addition, "
+"or scalar division."
+msgstr ""
+"Tutti i tipi sono utilizzati nei calcoli di vertici, frammenti e luci nello "
+"shader. Ad esempio: moltiplicazione di matrici, addizione di vettori o "
+"divisione scalare."
+
+msgid "There are other types but these are the main ones."
+msgstr "Sono disponibili altri tipi ma questi sono quelli principali."
+
 msgid "Visual Shader nodes"
 msgstr "Nodi di Visual Shader"
 
+msgid ""
+"Below are some special nodes that are worth knowing about. The list is not "
+"exhaustive and might be expanded with more nodes and examples."
+msgstr ""
+"Di seguito sono riportati alcuni nodi speciali che vale la pena conoscere. "
+"L'elenco non è esaustivo e potrebbe essere ampliato con altri nodi ed esempi."
+
+msgid "Expression node"
+msgstr "Nodo Espressione"
+
 msgid "Fresnel node"
 msgstr "Nodo Fresnel"
+
+msgid "If node"
+msgstr "Nodo If"
+
+msgid "Switch node"
+msgstr "Nodo Switch"

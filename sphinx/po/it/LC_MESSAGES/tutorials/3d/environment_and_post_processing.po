@@ -50,6 +50,9 @@ msgstr "Mappa dei toni"
 msgid "The tone mapping options are:"
 msgstr "Le opzioni di mappatura dei toni sono:"
 
+msgid "**Mode:** The tonemapping mode to use."
+msgstr "**Mode:** La modalità di mappatura dei toni da utilizzare."
+
 msgid "Glow"
 msgstr "Bagliore"
 

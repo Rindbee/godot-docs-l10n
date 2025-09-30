@@ -349,7 +349,7 @@ msgid ""
 "requires scripted takeover."
 msgstr ""
 "Наприклад, щоб дізнатися, чи є точка шляху початком чи кінцем навігаційного "
-"посилання, яке потребує сценарійного захоплення."
+"посилання, яке потребує скрипта захоплення."
 
 msgid ""
 "For the most basic path uses metadata is not always needed. Path metadata "

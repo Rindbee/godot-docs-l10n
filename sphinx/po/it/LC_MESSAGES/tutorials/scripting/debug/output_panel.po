@@ -32,5 +32,8 @@ msgstr "Stampare i messaggi"
 msgid "Several methods are available to print messages:"
 msgstr "Sono disponibili vari metodi per stampare messaggi:"
 
+msgid "For more complex use cases, these can be used:"
+msgstr "Per casi d'uso più complessi, si possono usare i seguenti:"
+
 msgid "Printing rich text"
 msgstr "Stampare testo ricco"

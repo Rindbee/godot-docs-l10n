@@ -11,8 +11,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using C++ profilers"
+msgstr "Использование профилировщиков C++"
+
+msgid "Recommended profilers"
+msgstr "Рекомендуемые профилировщики"
+
 msgid "Setting up Godot"
 msgstr "Настройка Godot"
+
+msgid "Your results window should now look something like this:"
+msgstr "Теперь окно с результатами должно выглядеть примерно так:"
+
+msgid ""
+"Click **Start Recording** and perform the actions you wish to profile in the "
+"editor/project."
+msgstr ""
+"Нажмите **Начать запись** и выполните действия, которые вы хотите "
+"профилировать в редакторе/проекте."
 
 msgid "Xcode Instruments"
 msgstr "Инструменты Xcode"

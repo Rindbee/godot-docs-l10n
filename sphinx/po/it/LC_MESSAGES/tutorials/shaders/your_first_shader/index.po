@@ -13,3 +13,17 @@ msgstr ""
 
 msgid "Your first shader"
 msgstr "Il tuo primo shader"
+
+msgid ""
+"The \"your first shader\" tutorials walk you through the process of writing "
+"a shader step-by-step."
+msgstr ""
+"I tutorial \"Il tuo primo shader\" ti guidano passo dopo passo attraverso il "
+"processo di scrittura di uno shader."
+
+msgid ""
+"For a more general introduction into shaders and the OpenGL Shading "
+"Language, use `The Book of Shaders <https://thebookofshaders.com>`_."
+msgstr ""
+"Per un'introduzione più generale agli shader e al linguaggio di shading "
+"OpenGL, visita `The Book of Shaders <https://thebookofshaders.com>`_."

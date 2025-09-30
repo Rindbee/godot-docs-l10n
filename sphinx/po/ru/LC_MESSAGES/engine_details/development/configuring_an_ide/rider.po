@@ -14,6 +14,18 @@ msgstr ""
 msgid "JetBrains Rider"
 msgstr "JetBrains rider"
 
+msgid ""
+"This documentation is for contributing to the game engine, not for using "
+"JetBrains Rider as a C# or GDScript editor. To code C# or GDScript in an "
+"external editor, see :ref:`the C# guide to configure an external editor "
+"<doc_c_sharp_setup_external_editor>`."
+msgstr ""
+"Эта документация предназначена для участия в разработке игрового движка, а "
+"не для использования JetBrains Rider в качестве редактора C# или GDScript. "
+"Чтобы писать код на C# или GDScript во внешнем редакторе, "
+"см. :ref:`руководство по настройке внешнего редактора на C# "
+"<doc_c_sharp_setup_external_editor>`."
+
 msgid "Importing the project"
 msgstr "Импортирование проекта"
 
@@ -28,5 +40,11 @@ msgid ""
 msgstr ""
 "Нажмите на опцию **Godot > Edit Configurations** в верхней части экрана."
 
+msgid "Debug visualizers"
+msgstr "Отладка визуализаторов"
+
 msgid "Unit testing"
 msgstr "Модульное тестирование"
+
+msgid "Profiling"
+msgstr "Профилирование"

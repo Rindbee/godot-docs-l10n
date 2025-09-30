@@ -106,6 +106,12 @@ msgstr ""
 "ресурсы с помощью функции ``загрузки``. Чтобы загрузить ресурс, ``загрузка`` "
 "должна читать и записывать сериализацию данных."
 
+msgid "resource_loader_json.h"
+msgstr "resource_loader_json.h"
+
+msgid "resource_loader_json.cpp"
+msgstr "resource_loader_json.cpp"
+
 msgid "Creating a ResourceFormatSaver"
 msgstr "Создание ResourceFormatSaver"
 
@@ -115,6 +121,9 @@ msgid ""
 msgstr ""
 "Если вы хотите иметь возможность изменять и сохранять ресурс, то вы можете "
 "реализовать ``ResourceFormatSaver``:"
+
+msgid "resource_saver_json.h"
+msgstr "resource_saver_json.h"
 
 msgid "Creating custom data types"
 msgstr "Создание кастомных типов данных"
@@ -130,6 +139,12 @@ msgstr ""
 
 msgid "Here is an example of creating a custom datatype:"
 msgstr "Вот простой пример создания кастомного типа данных:"
+
+msgid "resource_json.h"
+msgstr "resource_json.h"
+
+msgid "resource_json.cpp"
+msgstr "resource_json.cpp"
 
 msgid "Considerations"
 msgstr "Соображения"
@@ -149,6 +164,13 @@ msgid ""
 msgstr ""
 "`streambuf <https://cplusplus.com/reference/streambuf/streambuf/?"
 "kw=streambuf>`_"
+
+msgid ""
+"`core/io/file_access.h <https://github.com/godotengine/godot/blob/master/"
+"core/io/file_access.h>`_"
+msgstr ""
+"`core/io/file_access.h <https://github.com/godotengine/godot/blob/master/"
+"core/io/file_access.h>`_"
 
 msgid "Registering the new file format"
 msgstr "Регистрация нового формата файлов"

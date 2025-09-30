@@ -35,3 +35,6 @@ msgid ""
 msgstr ""
 "Scarica il codice sorgente del motore Godot dalla `pagina GitHub di Godot "
 "<https://github.com/godotengine/godot>`_."
+
+msgid "The configuration file format is as follow:"
+msgstr "Il file di configurazione è quanto segue:"

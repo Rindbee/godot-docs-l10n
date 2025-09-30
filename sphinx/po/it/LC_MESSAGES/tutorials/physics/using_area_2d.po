@@ -11,8 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using Area2D"
+msgstr "Utilizzare gli Area2D"
+
 msgid "Introduction"
 msgstr "Introduzione"
+
+msgid "What is an area?"
+msgstr "Cos'è un'area?"
 
 msgid "Area properties"
 msgstr "Proprietà dell'area"

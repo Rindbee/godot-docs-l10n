@@ -15,6 +15,13 @@ msgid "Killing the player"
 msgstr "Uccidere il giocatore"
 
 msgid ""
+"We can kill enemies by jumping on them, but the player still can't die. "
+"Let's fix this."
+msgstr ""
+"Possiamo uccidere i nemici saltandoci addosso, ma il giocatore non può "
+"ancora morire. Risolviamolo."
+
+msgid ""
 "We want to detect being hit by an enemy differently from squashing them. We "
 "want the player to die when they're moving on the floor, but not if they're "
 "in the air. We could use vector math to distinguish the two kinds of "

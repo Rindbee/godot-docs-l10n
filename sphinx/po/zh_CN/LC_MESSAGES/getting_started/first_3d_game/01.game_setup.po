@@ -252,6 +252,9 @@ msgstr ""
 "点。通过单击并拖动操作器的绿色箭头将该节点往上移动，然后单击并拖动红色弧线以"
 "围绕 X 轴旋转它，直到地面被照亮。"
 
+msgid "In the *Inspector*, turn on *Shadow* by clicking the checkbox."
+msgstr "在*检查器*中，点击复选框以启用*阴影*功能。"
+
 msgid "At this point, your project should look like this."
 msgstr "项目此时看起来是这个样子。"
 

@@ -34,8 +34,14 @@ msgstr ""
 "`scene/audio/audio_stream_player.cpp <https://github.com/godotengine/godot/"
 "blob/master/scene/audio/audio_stream_player.cpp>`__"
 
+msgid "Create an AudioStream"
+msgstr "Creare un AudioStream"
+
 msgid "audiostream_mytone.h"
 msgstr "audiostream_mytone.h"
+
+msgid "Create an AudioStreamPlayback"
+msgstr "Creare un AudioStreamPlayback"
 
 msgid "audiostreamplayer_mytone.h"
 msgstr "audiostreamplayer_mytone.h"

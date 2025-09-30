@@ -238,6 +238,9 @@ msgstr ""
 "當表面處於陰影區域時變為不透明，因此虛擬物件可以將陰影投射到現實世界中的物件"
 "上 [#]_。"
 
+msgid "Image showing shadow to opacity being used to show the user's desk."
+msgstr "下圖示範以「陰影轉不透明度」來顯示使用者的桌面。"
+
 msgid "This enabled the following use cases:"
 msgstr "這種模式可實現以下應用場景："
 

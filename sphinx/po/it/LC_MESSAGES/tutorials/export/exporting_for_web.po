@@ -11,6 +11,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Exporting for the Web"
+msgstr "Esportazione per il Web"
+
+msgid "WebGL version"
+msgstr "Versione di WebGL"
+
 msgid "Mobile considerations"
 msgstr "Considerazioni per mobile"
 

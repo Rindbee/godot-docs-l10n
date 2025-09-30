@@ -24,6 +24,12 @@ msgid "Format strings: ``var string = \"I have %s cats.\" % \"3\"``"
 msgstr "Stringhe di formato: ``var string = \"Ho %s gatti.\" % \"3\"``"
 
 msgid ""
+"The ``String.format()`` method: ``var string = \"I have {0} cats."
+"\".format([3])``"
+msgstr ""
+"Il metodo ``String.format()``: ``var string = \"Ho {0} gatti.\".format([3])``"
+
+msgid ""
 "String concatenation: ``var string = \"I have \" + str(3) + \" cats.\"``"
 msgstr ""
 "Concatenazione di stringhe: ``var string = \"Ho \" + str(3) + \" gatti.\"``"
@@ -99,6 +105,14 @@ msgstr ""
 "meno che non si utilizzi un'indentificatore di formato con ``*``, consultare "
 "`dynamic padding`_):"
 
+msgid ""
+"Note the values are inserted in order. Remember all placeholders must be "
+"replaced at once, so there must be an appropriate number of values."
+msgstr ""
+"Da notare che i valori sono inseriti in ordine. Da ricordare che tutti i "
+"segnaposto si devono sostituire allo stesso tempo, quindi deve esserci un "
+"numero appropriato di valori."
+
 msgid "Format specifiers"
 msgstr "Identificatori di formato"
 
@@ -137,6 +151,13 @@ msgstr ""
 
 msgid "``c``"
 msgstr "``c``"
+
+msgid ""
+"A single **Unicode character**. Accepts a Unicode code point (integer) or a "
+"single-character string. Supports values beyond 255."
+msgstr ""
+"Un singolo **carattere Unicode**. Accenta un punto di codice Unicode "
+"(intero) una stringa di un solo carattere. Supporta valori oltre 255."
 
 msgid "``d``"
 msgstr "``d``"

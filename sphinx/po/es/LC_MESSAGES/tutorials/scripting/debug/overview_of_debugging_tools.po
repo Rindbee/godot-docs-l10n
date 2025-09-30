@@ -91,6 +91,17 @@ msgstr "Ver Formas de Colisión"
 msgid "Visible Navigation"
 msgstr "Navegación Visible"
 
+msgid ""
+"This opens a dialog allowing you to tell Godot to run multiple instances of "
+"the game at once, and to specify the command line arguments for each "
+"instance. This is especially useful when building and debugging multiplayer "
+"games."
+msgstr ""
+"Esto abre un cuadro de diálogo que permite indicarle a Godot que ejecute "
+"varias instancias del juego a la vez y especificar los argumentos de la "
+"línea de comandos para cada instancia. Esto es especialmente útil al crear y "
+"depurar partidas multijugador."
+
 msgid "Script editor debug tools and options"
 msgstr "Herramientas y opciones de depuración del editor de scripts"
 

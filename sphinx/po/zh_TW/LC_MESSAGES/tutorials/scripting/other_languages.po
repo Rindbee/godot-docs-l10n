@@ -14,6 +14,25 @@ msgstr ""
 msgid "Other languages"
 msgstr "其他語言"
 
+msgid ""
+"The Godot developers officially support the following languages for Godot:"
+msgstr "Godot 開發團隊官方支援以下 Godot 腳本語言："
+
+msgid ":ref:`GDScript (all versions)<doc_gdscript>`"
+msgstr ":ref:`GDScript（所有版本） <doc_gdscript>`"
+
+msgid ":ref:`C# (.NET version)<doc_c_sharp>`"
+msgstr ":ref:`C#（.NET 版本） <doc_c_sharp>`"
+
+msgid ":ref:`C++ (via GDExtension) <doc_godot_cpp>`"
+msgstr ":ref:`C++（透過 GDExtension） <doc_godot_cpp>`"
+
+msgid ""
+"There are no plans to support additional languages officially. That said, "
+"the community offers several bindings for other languages (see below)."
+msgstr ""
+"目前沒有計畫再正式支援更多語言。不過社群提供了數個其他語言的綁定（見下方）。"
+
 msgid "The bindings below are developed and maintained by the community:"
 msgstr "以下語言綁定由社群開發並維護："
 
@@ -31,6 +50,9 @@ msgstr "`Rust <https://github.com/godot-rust/gdext>`__"
 
 msgid "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
 msgstr "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
+
+msgid "`Odin <https://github.com/dresswithpockets/odin-godot>`__"
+msgstr "`Odin <https://github.com/dresswithpockets/odin-godot>`__"
 
 msgid ""
 "Not all bindings mentioned here may be production-ready. Make sure to "

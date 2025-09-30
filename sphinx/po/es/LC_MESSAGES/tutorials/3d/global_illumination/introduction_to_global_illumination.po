@@ -78,3 +78,6 @@ msgstr "mal"
 
 msgid "Summary"
 msgstr "Sumario"
+
+msgid "Alternatives to GI techniques"
+msgstr "Aternativas a técnicas Gl"

@@ -17,6 +17,9 @@ msgstr "Stampare testo"
 msgid "Format a string"
 msgstr "Formattare una stringa"
 
+msgid "Convert an integer or float to a string"
+msgstr "Convertire un intero o float in una stringa"
+
 msgid "Internationalize a string"
 msgstr "Internazionalizzare una stringa"
 
@@ -26,8 +29,20 @@ msgstr "Ci sono due tipi di internazionalizzazione nei sorgenti di Godot:"
 msgid "Microbenchmarking"
 msgstr "Microbenchmarking"
 
+msgid "Get project/editor settings"
+msgstr "Ottenere le impostazioni del progetto/editor"
+
 msgid "There are four macros available for this:"
 msgstr "Ci sono quattro macro disponibili per questo:"
 
 msgid "Error macros"
 msgstr "Macro di errore"
+
+msgid ""
+"See `core/error/error_macros.h <https://github.com/godotengine/godot/blob/"
+"master/core/error/error_macros.h>`__ in Godot's codebase for more "
+"information about each error macro."
+msgstr ""
+"Vedere <https://github.com/godotengine/godot/blob/master/core/error/"
+"error_macros.h> nel codice di Godot per più informazioni riguardo ogni macro "
+"di errore."

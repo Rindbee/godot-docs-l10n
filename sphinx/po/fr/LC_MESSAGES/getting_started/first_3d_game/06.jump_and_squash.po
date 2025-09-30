@@ -319,11 +319,18 @@ msgstr "|image7|"
 msgid "image7"
 msgstr "image7"
 
+msgid "Enter \"mob\" in the *Name* field and click the *Ok* button."
+msgstr "Entrez \"mob\" dans le champ *Nom* et cliquez sur le bouton *Ok*."
+
 msgid "|image8|"
 msgstr "|image8|"
 
 msgid "image8"
 msgstr "image8"
+
+msgid "The \"mob\" group is now shown under the *Scene Groups* section."
+msgstr ""
+"Le groupe \"mob\" apparaît maintenant dans la section *Groupes de la scène*."
 
 msgid "|image9|"
 msgstr "|image9|"

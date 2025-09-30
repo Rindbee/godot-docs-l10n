@@ -408,6 +408,16 @@ msgstr "in vec2 **SCREEN_PIXEL_SIZE**"
 msgid "Size of individual pixels. Equal to inverse of resolution."
 msgstr "單個像素的大小. 等於解析度的倒數."
 
+msgid "in vec4 **REGION_RECT**"
+msgstr "in vec4 **REGION_RECT**"
+
+msgid ""
+"Visible area of the sprite region in format ``(x, y, width, height)``. "
+"Varies according to Sprite2D's ``region_enabled`` property."
+msgstr ""
+"精靈區域的可見範圍，格式為 ``(x, y, width, height)``。會依據 Sprite2D 的 "
+"``region_enabled`` 屬性而變動。"
+
 msgid "in vec2 **POINT_COORD**"
 msgstr "in vec2 **POINT_COORD**"
 
@@ -441,6 +451,14 @@ msgstr "鏡面光澤顏色，從紋理取樣。"
 
 msgid "in vec2 **UV**"
 msgstr "in vec2 **UV**"
+
+msgid ""
+"UV from the ``vertex()`` function. For Sprite2D with region enabled, this "
+"will sample the entire texture. Use ``REGION_RECT`` instead to sample only "
+"the region defined in the Sprite2D's properties."
+msgstr ""
+"來自 ``vertex()`` 函式的 UV。對啟用區域的 Sprite2D 而言，這會取樣整張紋理。請"
+"改用 ``REGION_RECT`` 僅取樣 Sprite2D 屬性中所定義的區域。"
 
 msgid "in vec2 **SCREEN_UV**"
 msgstr "in vec2 **SCREEN_UV**"

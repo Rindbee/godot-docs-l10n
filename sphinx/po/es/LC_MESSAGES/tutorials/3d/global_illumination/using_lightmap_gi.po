@@ -137,7 +137,7 @@ msgid "Tweaks"
 msgstr "Tweaks (ajustes)"
 
 msgid "Balancing bake times with quality"
-msgstr "Equilibrar los tiempos de horneado (bake) con la calidad"
+msgstr "Equilibrar los tiempos de procesado con la calidad"
 
 msgid "Dynamic objects"
 msgstr "Objetos dinámicos"

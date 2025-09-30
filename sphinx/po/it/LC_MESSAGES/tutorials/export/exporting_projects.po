@@ -47,6 +47,15 @@ msgstr "File di conﬁgurazione"
 msgid "Windows: ``.exe``"
 msgstr "Windows: ``.exe``"
 
+msgid "HTML5: ``.zip``"
+msgstr "HTML5: ``.zip``"
+
+msgid "Android: ``.apk``"
+msgstr "Android: ``.apk``"
+
+msgid "iOS: ``.zip``"
+msgstr "iOS: ``.zip``"
+
 msgid "**PCK format:**"
 msgstr "**Formato PCK:**"
 

@@ -11,8 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0402: The class must not be generic"
+msgstr "GD0402: La classe non deve essere generica"
+
 msgid "**Rule ID**"
 msgstr "**ID regola**"
+
+msgid "GD0402"
+msgstr "GD0402"
 
 msgid "**Category**"
 msgstr "**Categoria**"
@@ -20,11 +26,55 @@ msgstr "**Categoria**"
 msgid "Usage"
 msgstr "Utilizzo"
 
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Soluzione è distruttiva o non-distruttiva**"
+
+msgid "Breaking"
+msgstr "Distruttiva"
+
 msgid "**Enabled by default**"
 msgstr "**Abilitato per predefinito**"
 
 msgid "Yes"
 msgstr "Si"
 
+msgid "Cause"
+msgstr "Causa"
+
+msgid "A generic type is annotated with the ``[GlobalClass]`` attribute."
+msgstr "Un tipo generico è annotato con l'attributo ``[GlobalClass]``."
+
 msgid "Rule description"
 msgstr "Descrizione della regola"
+
+msgid ""
+"The Godot editor assumes every :ref:`global class "
+"<doc_c_sharp_global_classes>` is instantiable, but generic types can't be "
+"instantiated because the type parameters are unbound."
+msgstr ""
+"L'editor Godot presuppone che ogni :ref:`classe globale "
+"<doc_c_sharp_global_classes>` sia istanziabile, ma non è possibile "
+"istanziare i tipi generici perché i parametri di tipo non sono associati."
+
+msgid "How to fix violations"
+msgstr "Come risolvere le violazioni"
+
+msgid ""
+"To fix a violation of this rule, change the type to remove the generic type "
+"parameters or remove the ``[GlobalClass]`` attribute."
+msgstr ""
+"Per correggere una violazione di questa regola, modificare il tipo per "
+"rimuovere i parametri di tipo generico o rimuovere l'attributo "
+"``[GlobalClass]``."
+
+msgid "When to suppress warnings"
+msgstr "Quando sopprimere gli avvertimenti"
+
+msgid ""
+"Do not suppress a warning from this rule. Adding the ``[GlobalClass]`` to a "
+"generic type is an easy mistake to make and this warning helps users realize "
+"that it may result in unexpected errors."
+msgstr ""
+"Non sopprimere un avviso da questa regola. Aggiungere ``[GlobalClass]`` a un "
+"tipo generico è un errore comune e questo avviso aiuta gli utenti a capire "
+"che potrebbe causare errori imprevisti."

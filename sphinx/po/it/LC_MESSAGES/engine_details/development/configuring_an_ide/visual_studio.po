@@ -51,6 +51,14 @@ msgstr ""
 "Il parametro ``vsproj`` segnala che si desidera che venga generata una "
 "soluzione di Visual Studio."
 
+msgid ""
+"The ``dev_build`` parameter makes sure the debug symbols are included, "
+"allowing to e.g. step through code using breakpoints."
+msgstr ""
+"Il parametro ``dev_build`` assicura che i simboli di debug siano inclusi, "
+"consentendo ad esempio di analizzare il codice attraverso punti di "
+"interruzione."
+
 msgid "Use the **Build** top menu to build the project."
 msgstr "Utilizzare il menu superiore **Build** per compilare il progetto."
 

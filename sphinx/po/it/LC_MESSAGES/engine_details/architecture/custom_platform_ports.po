@@ -11,6 +11,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Custom platform ports"
+msgstr "Port su piattaforme personalizzate"
+
+msgid "Official platform ports"
+msgstr "Port su piattaforme ufficiali"
+
 msgid ""
 "`Windows <https://github.com/godotengine/godot/tree/master/platform/"
 "windows>`__"
@@ -44,6 +50,9 @@ msgstr ""
 msgid "`Web <https://github.com/godotengine/godot/tree/master/platform/web>`__"
 msgstr ""
 "`Web <https://github.com/godotengine/godot/tree/master/platform/web>`__"
+
+msgid "Creating a custom platform port"
+msgstr "Creare un port su piattaforma personalizzata"
 
 msgid ""
 "If the platform is not UNIX-like, you might use the `Windows port <https://"

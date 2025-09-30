@@ -30,6 +30,9 @@ msgstr ""
 "senza dover ricostruire il file di soluzione. Le configurazioni di debug si "
 "devono cambiare quando si passa da un IDE all'altro."
 
+msgid "Install all the dependencies."
+msgstr "Installa tutte le dipendenze."
+
 msgid "Compiling and debugging the project"
 msgstr "Compilazione e debug del progetto"
 

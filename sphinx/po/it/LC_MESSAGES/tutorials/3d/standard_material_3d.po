@@ -71,6 +71,9 @@ msgstr "Emissione"
 msgid "Normal map"
 msgstr "Mappa di normali"
 
+msgid "Bent normal map"
+msgstr "Mappa di normali piegate"
+
 msgid "Rim"
 msgstr "Rim"
 
@@ -114,6 +117,15 @@ msgstr "Ripeti"
 msgid "Shadows"
 msgstr "Ombre"
 
+msgid ""
+"Lighting modifies the alpha so shadowed areas are opaque and non-shadowed "
+"areas are transparent. Useful for overlaying shadows onto a camera feed in "
+"AR."
+msgstr ""
+"L'illuminazione modifica il canale alfa, rendendo le zone ombreggiate opache "
+"e quelle non ombreggiate trasparenti. Utile per sovrapporre le ombre al feed "
+"fornito da una telecamera in AR."
+
 msgid "Billboard"
 msgstr "Billboard"
 
@@ -128,6 +140,12 @@ msgstr "Trasformazione"
 
 msgid "Fixed Size"
 msgstr "Dimensioni fisse"
+
+msgid "Point Size"
+msgstr "Dimensioni dei punti"
+
+msgid "Use Particle Trails"
+msgstr "Usa scie di particelle"
 
 msgid "Material Settings"
 msgstr "Impostazioni di materiale"

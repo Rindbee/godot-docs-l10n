@@ -622,7 +622,7 @@ msgid ""
 "seems to not allow this."
 msgstr ""
 "Ми все ще вивчаємо обмеження щодо прив’язки кількох дій до одного "
-"результату, оскільки цей сценарій має сенс. Здається, специфікація OpenXR не "
+"результату, оскільки цей скрипт має сенс. Здається, специфікація OpenXR не "
 "дозволяє цього."
 
 msgid "Now that we have our basic actions defined, it's time to hook them up."

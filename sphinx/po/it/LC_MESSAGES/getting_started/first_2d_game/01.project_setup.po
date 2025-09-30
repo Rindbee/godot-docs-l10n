@@ -21,6 +21,13 @@ msgstr ""
 msgid "Launch Godot and create a new project."
 msgstr "Avvia Godot e crea un nuovo progetto."
 
+msgid ""
+"When creating the new project, you only need to choose a valid *Project "
+"Path*. You can leave the other default settings alone."
+msgstr ""
+"Alla creazione di un nuovo progetto, è sufficiente scegliere un *Percorso di "
+"progetto* valido. Puoi lasciare invariate le altre impostazioni predefinite."
+
 msgid "GDScript"
 msgstr "GDScript"
 
@@ -40,8 +47,24 @@ msgstr ""
 msgid "C#"
 msgstr "C#"
 
+msgid ""
+"Ensure that you have the required dependencies to use C# in Godot. You need "
+"the latest stable .NET SDK, and an editor such as VS Code. "
+"See :ref:`doc_c_sharp_setup`."
+msgstr ""
+"Assicurati di avere le dipendenze necessarie per usare C# in Godot. È "
+"necessaria l'ultima versione stabile di .NET SDK, e un editor come VS Code. "
+"Vedi :ref:`doc_c_sharp_setup`."
+
 msgid "C++"
 msgstr "C++"
+
+msgid ""
+"The C++ part of this tutorial wasn't rewritten for the new GDExtension "
+"system yet."
+msgstr ""
+"La parte C++ di questo tutorial non è ancora stata riscritta per il nuovo "
+"sistema di GDExtension."
 
 msgid "Your project folder should look like this."
 msgstr "La cartella del tuo progetto dovrebbe essere simile a questa."

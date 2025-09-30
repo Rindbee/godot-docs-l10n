@@ -23,7 +23,7 @@ msgid "``language`` - 2 or 3-letter language code, in lower case."
 msgstr "``мова`` - 2 або 3-літерний код мови, у нижньому регістрі."
 
 msgid "``Script`` - optional, 4-letter script code, in title case."
-msgstr "``Сценарій`` - необов'язковий, 4-літерний код сценарію, у заголовку."
+msgstr "``Script`` - необов'язковий, 4-літерний код скрипт, у заголовку."
 
 msgid "``COUNTRY`` - optional, 2-letter country code, in upper case."
 msgstr ""

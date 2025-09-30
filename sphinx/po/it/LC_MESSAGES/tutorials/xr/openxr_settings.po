@@ -14,6 +14,9 @@ msgstr ""
 msgid "OpenXR Settings"
 msgstr "Impostazioni OpenXR"
 
+msgid "General settings"
+msgstr "Impostazioni generali"
+
 msgid "Enabled"
 msgstr "Abilitato"
 
@@ -47,11 +50,32 @@ msgstr "**Solo per il renderer Compatibilità**"
 msgid "Extensions"
 msgstr "Estensioni"
 
+msgid "Debug Utils"
+msgstr "Utilità di debug"
+
+msgid "Debug Message Types"
+msgstr "Tipi di messaggi di debug"
+
+msgid "This allows you to choose which debug messages are logged."
+msgstr "Questo permette di scegliere quali messaggi di debug sono registrati."
+
 msgid "Hand Tracking"
 msgstr "Tracciamento delle mani"
+
+msgid "Hand Interaction Profile"
+msgstr "Profilo di interazione della mano"
 
 msgid "Eye Gaze Interaction"
 msgstr "Interazione con lo sguardo degli occhi"
 
+msgid "Render Models"
+msgstr "Modelli di rendering"
+
 msgid "Binding Modifiers"
 msgstr "Modificatori di associazioni"
+
+msgid "Analog Threshold"
+msgstr "Soglia analogica"
+
+msgid "Dpad Binding"
+msgstr "Associazione del d-pad"

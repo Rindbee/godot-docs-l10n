@@ -783,7 +783,7 @@ msgstr ""
 
 msgid "Note that \"Replace in Files\" operation cannot be undone!"
 msgstr ""
-"¡Tenga en cuenta que la operación \"Reemplazar en archivos\" no se puede "
+"¡Ten en cuenta que la operación \"Reemplazar en archivos\" no se puede "
 "deshacer!"
 
 msgid ""

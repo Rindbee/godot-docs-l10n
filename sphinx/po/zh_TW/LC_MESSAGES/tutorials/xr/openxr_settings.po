@@ -23,6 +23,9 @@ msgstr ""
 "OpenXR 有其專屬的一組設定，會在 OpenXR 啟動時套用。雖然透過 Godot 外掛實作的 "
 "OpenXR 擴充功能可以額外加入設定，本章僅說明 Godot 核心中的設定。"
 
+msgid "General settings"
+msgstr "一般設定"
+
 msgid "Enabled"
 msgstr "已啟用"
 
@@ -203,6 +206,15 @@ msgstr ""
 "``center_on_hmd`` 方法來達成此目的："
 
 msgid ""
+"Calling ``XRServer.center_on_hmd(XRServer.RESET_BUT_KEEP_TILT, false)`` will "
+"move the :ref:`XRCamera3D <class_xrcamera3d>` node to the :ref:`XROrigin3D "
+"<class_xrorigin3d>` node similar to the ``Local`` reference space."
+msgstr ""
+"呼叫 ``XRServer.center_on_hmd(XRServer.RESET_BUT_KEEP_TILT, false)`` 會"
+"將 :ref:`XRCamera3D <class_xrcamera3d>` 節點移動到 :ref:`XROrigin3D "
+"<class_xrorigin3d>` 節點，類似於 ``Local`` 參考空間。"
+
+msgid ""
 "Calling ``XRServer.center_on_hmd(XRServer.RESET_BUT_KEEP_TILT, true)`` will "
 "move the :ref:`XRCamera3D <class_xrcamera3d>` node above "
 "the :ref:`XROrigin3D <class_xrorigin3d>` node keeping the player's height, "
@@ -329,6 +341,11 @@ msgstr ""
 "點，也有部分能配合眼動追蹤，以視覺焦點調整效果。"
 
 msgid ""
+"The higher the level, the better the performance gains, but also the more "
+"reduction in quality there is in the user's peripheral vision."
+msgstr "等級越高，效能提升越顯著，但使用者周邊視覺的畫質降低也會更明顯。"
+
+msgid ""
 "**Compatibility renderer only**, for Mobile and Forward+ renderer, set the "
 "``vrs_mode`` property on :ref:`Viewport <class_viewport>` to ``VRS_XR``."
 msgstr ""
@@ -410,6 +427,26 @@ msgstr ""
 msgid "Extensions"
 msgstr "擴充功能"
 
+msgid ""
+"This subsection allows you to enable to various optional OpenXR extensions. "
+"Keep in mind that the extensions will only work if the OpenXR runtime "
+"(SteamVR, Oculus, etc) the project is ran with supports them."
+msgstr ""
+"本小節可啟用各種選用的 OpenXR 擴充功能。請注意，只有在執行此專案的 OpenXR 執"
+"行階段（SteamVR、Oculus 等）支援這些擴充功能時，它們才會生效。"
+
+msgid "Debug Utils"
+msgstr "偵錯工具"
+
+msgid "Enabling this will log debug messages from the XR runtime."
+msgstr "啟用後會記錄來自 XR 執行階段的偵錯訊息。"
+
+msgid "Debug Message Types"
+msgstr "偵錯訊息類型"
+
+msgid "This allows you to choose which debug messages are logged."
+msgstr "可選擇要記錄哪些偵錯訊息。"
+
 msgid "Hand Tracking"
 msgstr "手部追蹤"
 
@@ -427,6 +464,62 @@ msgstr ""
 
 msgid "If your game only supports controllers this should be turned off."
 msgstr "若你的遊戲僅支援控制器，建議關閉此功能。"
+
+msgid ""
+"See the page on :ref:`hand tracking <doc_openxr_hand_tracking>` for "
+"additional details."
+msgstr "更多細節請參見 :ref:`手部追蹤 <doc_openxr_hand_tracking>` 頁面。"
+
+msgid "Hand Tracking Unobstructed Data Source"
+msgstr "手部追蹤無遮蔽資料來源"
+
+msgid ""
+"Enabling this means hand tracking may use the exact position of fingers, "
+"usually what a headset camera sees."
+msgstr "啟用後，手部追蹤可使用手指的精確位置，通常是頭戴裝置相機所看到的位置。"
+
+msgid "Hand Tracking Controller Data Source"
+msgstr "手部追蹤控制器資料來源"
+
+msgid ""
+"Enabling this means hand tracking may use the controller itself, and infer "
+"where fingers are based on controller input or sensors on the controller."
+msgstr ""
+"啟用後，手部追蹤可使用控制器本身，並根據控制器的輸入或其感測器來推估手指的位"
+"置。"
+
+msgid "Hand Interaction Profile"
+msgstr "手部互動設定檔"
+
+msgid ""
+"Enabling this extension allows the use of two new hand tracking poses. Pinch "
+"pose which is the location between the thumb and index finger pointing "
+"forward, and poke pose which is at the tip of the index finger."
+msgstr ""
+"啟用此擴充功能後，可使用兩種新的手部追蹤姿勢：Pinch（拇指與食指朝前並以兩指之"
+"間的位置為準），以及 Poke（以食指指尖為準）。"
+
+msgid ""
+"This also allows 3 more gesture based inputs. Pinch, when the user pinches "
+"their thumb and index finger together. Aim activation, when the index finger "
+"is fully extended. And Grasps, when the user makes a fist."
+msgstr ""
+"同時還新增 3 種基於手勢的輸入：Pinch，當使用者將拇指與食指捏合時；Aim "
+"activation，當食指完全伸直時；以及 Grasps，當使用者握拳時。"
+
+msgid ""
+"When a hand interaction profile and controller interaction profile are "
+"supplied, the runtime will switch between profiles depending on if optical "
+"tracking is used or if the user is holding a controller."
+msgstr ""
+"同時提供手部互動與控制器互動設定檔時，執行階段會視是否使用光學追蹤、或使用者"
+"是否手持控制器，在設定檔之間切換。"
+
+msgid ""
+"If only a hand interaction profile is supplied any runtime should use hand "
+"interaction even if a controller is being held."
+msgstr ""
+"若只提供手部互動設定檔，無論是否手持控制器，各種執行階段都應使用手部互動。"
 
 msgid "Eye Gaze Interaction"
 msgstr "視線互動"
@@ -468,5 +561,38 @@ msgstr ""
 "現在你可以在這個控制器節點下新增射線（Raycast）等元件，實現以眼睛控制互動的功"
 "能。"
 
+msgid "Render Models"
+msgstr "算繪模型"
+
+msgid ""
+"This extension is used to query the XR runtime for 3D assets of the hardware "
+"being used, usually a controller, as well as the position of that hardware. "
+"You can find a detailed guide on how to use it :ref:`here "
+"<doc_openxr_render_models>`."
+msgstr ""
+"此擴充功能可向 XR 執行階段查詢正在使用之硬體（通常是控制器）的 3D 資產，以及"
+"該硬體的位置。詳細的使用指南可參考 :ref:`此處 <doc_openxr_render_models>`。"
+
 msgid "Binding Modifiers"
 msgstr "綁定修飾器"
+
+msgid ""
+"These control whether or not binding modifiers can be used. Binding "
+"modifiers are used to apply thresholds or offset values. You can find "
+"information on how to use and set them up on the XR action map "
+"page :ref:`here <doc_binding_modifiers>`."
+msgstr ""
+"這些選項控制是否允許使用綁定修飾器。綁定修飾器可用來套用臨界值或位移。如何使"
+"用與設定，請見 XR 動作對應頁面：:ref:`此處 <doc_binding_modifiers>`。"
+
+msgid "Analog Threshold"
+msgstr "類比閾值"
+
+msgid "Allow analog threshold binding modifiers."
+msgstr "允許使用類比閾值綁定修飾器。"
+
+msgid "Dpad Binding"
+msgstr "方向鍵綁定"
+
+msgid "Allow D-pad binding modifiers."
+msgstr "允許使用方向鍵綁定修飾器。"

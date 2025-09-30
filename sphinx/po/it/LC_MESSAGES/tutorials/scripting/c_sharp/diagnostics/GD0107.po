@@ -11,8 +11,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0107: Types not derived from Node should not export Node members"
+msgstr ""
+"GD0107: I tipi non derivati da Node non dovrebbero esportare membri di Node"
+
 msgid "**Rule ID**"
 msgstr "**ID regola**"
+
+msgid "GD0107"
+msgstr "GD0107"
 
 msgid "**Category**"
 msgstr "**Categoria**"
@@ -20,11 +27,58 @@ msgstr "**Categoria**"
 msgid "Usage"
 msgstr "Utilizzo"
 
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Soluzione è distruttiva o non-distruttiva**"
+
+msgid "Breaking"
+msgstr "Distruttiva"
+
 msgid "**Enabled by default**"
 msgstr "**Abilitato per predefinito**"
 
 msgid "Yes"
 msgstr "Si"
 
+msgid "Cause"
+msgstr "Causa"
+
+msgid ""
+"A type that doesn't derive from ``Node`` contains an exported field or "
+"property of a type that derives from ``Node``."
+msgstr ""
+"Un tipo che non deriva da ``Node`` contiene un campo o una proprietà "
+"esportata di un tipo che deriva da ``Node``."
+
 msgid "Rule description"
 msgstr "Descrizione della regola"
+
+msgid ""
+"Exported nodes are serialized as ``NodePath``. Only types derived from "
+"``Node`` are able to get the node instance from the ``NodePath``."
+msgstr ""
+"I nodi esportati sono serializzati come ``NodePath``. Solo i tipi derivati "
+"da ``Node`` sono in grado di ottenere l'istanza del nodo da ``NodePath``."
+
+msgid "How to fix violations"
+msgstr "Come risolvere le violazioni"
+
+msgid ""
+"To fix a violation of this rule, avoid exporting ``Node`` members on a type "
+"that doesn't derive from ``Node``, or consider exporting a ``NodePath``."
+msgstr ""
+"Per correggere una violazione di questa regola, evitare di esportare membri "
+"``Node`` su un tipo che non deriva da ``Node`` oppure considerare "
+"l'esportazione di un ``NodePath``."
+
+msgid "When to suppress warnings"
+msgstr "Quando sopprimere gli avvertimenti"
+
+msgid ""
+"Do not suppress a warning from this rule. Types that don't derive from "
+"``Node`` will be unable to retrieve the right node instance for exported "
+"``Node`` members, resulting in unexpected runtime errors."
+msgstr ""
+"Non sopprimere un avviso da questa regola. I tipi che non derivano da "
+"``Node`` non saranno in grado di recuperare l'istanza del nodo corretta per "
+"i membri ``Node`` esportati, causando errori imprevisti in fase di "
+"esecuzione."

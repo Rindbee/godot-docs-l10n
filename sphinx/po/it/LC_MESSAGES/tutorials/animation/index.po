@@ -13,3 +13,17 @@ msgstr ""
 
 msgid "Animation"
 msgstr "Animazione"
+
+msgid ""
+"This section of the tutorial covers using the two animation nodes in Godot "
+"and the animation editor."
+msgstr ""
+"Questa sezione del tutorial tratta l'utilizzo dei due nodi di animazione in "
+"Godot e dell'editor di animazione."
+
+msgid ""
+"See :ref:`doc_importing_3d_scenes` for information on importing animations "
+"from a 3D model."
+msgstr ""
+"Consulta :ref:`doc_importing_3d_scenes` per informazioni su come importare "
+"animazioni da un modello 3D."

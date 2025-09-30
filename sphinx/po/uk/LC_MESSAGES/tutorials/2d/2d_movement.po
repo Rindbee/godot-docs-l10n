@@ -75,7 +75,7 @@ msgstr ""
 "по діагоналі, натискаючи дві клавіші одночасно."
 
 msgid "Add a script to the character body and add the following code:"
-msgstr "Додайте сценарій до тіла символу та додайте такий код:"
+msgstr "Додайте скрипт до тіла символу та додайте такий код:"
 
 msgid ""
 "In the ``get_input()`` function, we use :ref:`Input <class_Input>` "

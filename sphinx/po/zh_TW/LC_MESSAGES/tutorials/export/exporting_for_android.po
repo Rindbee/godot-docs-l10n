@@ -41,6 +41,18 @@ msgstr ""
 msgid "Install OpenJDK 17"
 msgstr "安裝 OpenJDK 17"
 
+msgid ""
+"Download and install `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
+"variant=openjdk17&version=17&os=any&arch=any>`__."
+msgstr ""
+"下載並安裝 `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
+"variant=openjdk17&version=17&os=any&arch=any>`__。"
+
+msgid ""
+"Higher versions of the JDK are also supported, but we recommend using JDK 17 "
+"for optimal compatibility and stability."
+msgstr "也支援更高版本的 JDK，但建議使用 JDK 17 以獲得最佳相容性與穩定性。"
+
 msgid "Download the Android SDK"
 msgstr "下載 Android SDK"
 
@@ -68,6 +80,15 @@ msgstr ""
 "請確認也已安裝所有 `必要套件 <https://developer.android.com/studio/intro/"
 "update#required>`__。"
 
+msgid "Android SDK Platform-Tools version 35.0.0 or later"
+msgstr "Android SDK Platform-Tools 35.0.0 版或更新版本"
+
+msgid "Android SDK Build-Tools version 35.0.0"
+msgstr "Android SDK Build-Tools 35.0.0 版"
+
+msgid "Android SDK Platform 35"
+msgstr "Android SDK Platform 35"
+
 msgid "Android SDK Command-line Tools (latest)"
 msgstr "安裝 Android SDK (命令列版本)"
 
@@ -80,6 +101,9 @@ msgstr ""
 
 msgid "CMake version 3.10.2.4988404"
 msgstr "CMake 版本 3.10.2.4988404"
+
+msgid "NDK version r28b (28.1.13356709)"
+msgstr "NDK 版本 r28b（28.1.13356709）"
 
 msgid ""
 "Alternatively, you can install the Android SDK with the `sdkmanager` command "
@@ -393,3 +417,10 @@ msgstr "``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``"
 
 msgid "Export options"
 msgstr "匯出選項"
+
+msgid ""
+"You can find a full list of export options available in "
+"the :ref:`class_EditorExportPlatformAndroid` class reference."
+msgstr ""
+"完整的可用匯出選項列表請見 :ref:`class_EditorExportPlatformAndroid` 類別參"
+"考。"

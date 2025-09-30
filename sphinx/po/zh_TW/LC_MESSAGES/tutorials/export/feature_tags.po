@@ -104,6 +104,12 @@ msgstr "**ios**"
 msgid "Running on iOS (but not within a Web browser)"
 msgstr "在 iOS 上運作（非 Web 瀏覽器）"
 
+msgid "**visionos**"
+msgstr "**visionos**"
+
+msgid "Running on visionOS (but not within a Web browser)"
+msgstr "在 visionOS 上運作（非 Web 瀏覽器）"
+
 msgid "**windows**"
 msgstr "**Windows**"
 
@@ -133,6 +139,18 @@ msgstr "**editor**"
 
 msgid "Running on an editor build"
 msgstr "在編輯器建置中執行"
+
+msgid "**editor_hint**"
+msgstr "**editor_hint**"
+
+msgid "Running on an editor build, and inside the editor"
+msgstr "在編輯器建置中執行，且於編輯器內部執行"
+
+msgid "**editor_runtime**"
+msgstr "**editor_runtime**"
+
+msgid "Running on an editor build, and running the project"
+msgstr "在編輯器建置中執行，且執行專案"
 
 msgid "**template**"
 msgstr "**template**"
@@ -266,6 +284,18 @@ msgstr "**web**"
 msgid "Host OS is a Web browser"
 msgstr "主機作業系統為網頁瀏覽器"
 
+msgid "**nothreads**"
+msgstr "**nothreads**"
+
+msgid "Running without threading support"
+msgstr "在無執行緒支援的環境中執行"
+
+msgid "**threads**"
+msgstr "**threads**"
+
+msgid "Running with threading support"
+msgstr "在有執行緒支援的環境中執行"
+
 msgid "**web_android**"
 msgstr "**web_android**"
 
@@ -320,6 +350,28 @@ msgstr "**movie**"
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ":ref:`Movie Maker 模式 <doc_creating_movies>` 已啟用"
 
+msgid "**shader_baker**"
+msgstr "**shader_baker**"
+
+msgid ""
+"Project was exported with :ref:`shader baking "
+"<doc_pipeline_compilations_shader_baker>` enabled (only applies to the "
+"exported project, not when running in the editor)"
+msgstr ""
+"專案已在啟用 :ref:`shader baking <doc_pipeline_compilations_shader_baker>` 的"
+"情況下匯出（僅適用於已匯出的專案，不適用於在編輯器中執行時）"
+
+msgid "**dedicated_server**"
+msgstr "**dedicated_server**"
+
+msgid ""
+"Project was exported as a :ref:`dedicated server "
+"<doc_exporting_for_dedicated_servers>` (only applies to the exported "
+"project, not when running in the editor)"
+msgstr ""
+"專案已匯出為 :ref:`dedicated server <doc_exporting_for_dedicated_servers>` "
+"(僅適用於已匯出的專案, 不適用於在編輯器中執行時)"
+
 msgid ""
 "With the exception of texture compression, ``web_<platform>`` and ``movie`` "
 "feature tags, default feature tags are **immutable**. This means that they "
@@ -357,6 +409,15 @@ msgstr ""
 "自訂功能標籤只會在運作匯出後的專案中使用（包括 :ref:`doc_one-"
 "click_deploy`）。從編輯器中運作專案時**不會使用**，即便標記為**可執行**的匯出"
 "預設對應的平臺上存在自訂功能標籤。"
+
+msgid ""
+"Custom feature tags are also not used in :ref:`class_EditorExportPlugin` "
+"scripts. Instead, feature tags in :ref:`class_EditorExportPlugin` will "
+"reflect the device the editor is currently running on."
+msgstr ""
+"自訂功能標籤在 :ref:`class_EditorExportPlugin` 指令碼中同樣不會被使用。相對"
+"地，:ref:`class_EditorExportPlugin` 中的功能標籤會反映編輯器目前執行所在的裝"
+"置。"
 
 msgid "Overriding project settings"
 msgstr "覆寫專案設定"
@@ -409,6 +470,39 @@ msgid ""
 "There are already a lot of settings that come with overrides by default; "
 "they can be found in many sections of the project settings."
 msgstr "預設已經有許多設定會被覆蓋。專案設定中各個地方都有。"
+
+msgid "Taking feature tags into account when reading project settings"
+msgstr "在讀取專案設定時考量功能標籤"
+
+msgid ""
+"By default, feature tags are **not** taken into account when reading project "
+"settings using the typical approaches "
+"(:ref:`ProjectSettings.get_setting<class_ProjectSettings_method_get_setting>` "
+"or :ref:`ProjectSettings.get <class_Object_private_method__get>`). Instead, "
+"you must use :ref:`ProjectSettings.get_setting_with_override "
+"<class_ProjectSettings_method_get_setting>`."
+msgstr ""
+"預設情況下, 使用一般方式讀取專案設定時 (:ref:`ProjectSettings.get_setting "
+"<class_ProjectSettings_method_get_setting>` 或 :ref:`ProjectSettings.get "
+"<class_Object_private_method__get>`), **不會** 考量功能標籤。相對地, 必須使"
+"用 :ref:`ProjectSettings.get_setting_with_override "
+"<class_ProjectSettings_method_get_setting>`."
+
+msgid "For example, with the following project settings:"
+msgstr "例如，以下列專案設定為例："
+
+msgid ""
+"Using ``ProjectSettings.get_setting(\"section/subsection/example\")`` will "
+"return ``\"Release\"`` regardless of whether a debug build is currently "
+"running. On the other hand, "
+"``ProjectSettings.get_setting_with_override(\"section/subsection/"
+"example\")`` will obey feature tags and will return ``\"Debug\"`` if using a "
+"debug build."
+msgstr ""
+"使用 ``ProjectSettings.get_setting(\"section/subsection/example\")`` 時，不論"
+"目前是否為除錯建置都會回傳 ``\"Release\"``。相對地，"
+"``ProjectSettings.get_setting_with_override(\"section/subsection/"
+"example\")`` 會遵循功能標籤，若為除錯建置則會回傳 ``\"Debug\"``。"
 
 msgid "Customizing the build"
 msgstr "自定建置"

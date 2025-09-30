@@ -11,6 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"Godot supports hundreds of controller models out of the box. Controllers are "
+"supported on Windows, macOS, Linux, Android, iOS, and Web."
+msgstr ""
+"Godot supporta centinaia di modelli di controller pronto all'uso. I "
+"controller sono supportati su Windows, macOS, Linux, Android, iOS e Web."
+
 msgid "In this guide, you will learn:"
 msgstr "In questa guida imparerai:"
 
@@ -38,6 +45,20 @@ msgstr "Vibrazione"
 msgid "Dead zone"
 msgstr "Zona morta"
 
+msgid ""
+"Godot features a built-in deadzone system to tackle this problem. The "
+"default value is ``0.5``, but you can adjust it on a per-action basis in the "
+"Project Settings' Input Map tab. For ``Input.get_vector()``, the deadzone "
+"can be specified as an optional 5th parameter. If not specified, it will "
+"calculate the average deadzone value from all of the actions in the vector."
+msgstr ""
+"Godot integra un sistema di zone morte per affrontare questo problema. Il "
+"valore predefinito è ``0.5``, ma è possibile modificarlo per ogni azione "
+"nella scheda Mappa di input delle Impostazioni del progetto. Per "
+"``Input.get_vector()``, la zona morta si può specificare come 5° parametro "
+"facoltativo. Se non specificata, sarà calcolata la media delle zone morte da "
+"tutte le azioni nel vettore."
+
 msgid "\"Echo\" events"
 msgstr "Eventi \"Echo\""
 
@@ -49,6 +70,17 @@ msgstr "Risoluzione dei problemi"
 
 msgid "Linux"
 msgstr "Linux"
+
+msgid "Android/iOS"
+msgstr "Android/iOS"
+
+msgid ""
+"Support for SDL-based controller input on mobile platforms is `planned "
+"<https://github.com/godotengine/godot/pull/109645>`__ in a future release."
+msgstr ""
+"Il supporto per gli input di controller basato su SDL sulle piattaforme "
+"mobili è `previsto <https://github.com/godotengine/godot/pull/109645>`__ in "
+"una versione futura."
 
 msgid "Web"
 msgstr "Web"

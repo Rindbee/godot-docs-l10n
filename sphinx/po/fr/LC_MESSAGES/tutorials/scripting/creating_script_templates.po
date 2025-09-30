@@ -64,6 +64,12 @@ msgstr "où :"
 msgid "For example:"
 msgstr "Par exemple :"
 
+msgid "``script_templates/Node/smooth_camera.gd``"
+msgstr "``script_templates/Node/smooth_camera.gd``"
+
+msgid "``script_templates/CharacterBody3D/platformer_movement.gd``"
+msgstr "``script_templates/CharacterBody3D/platformer_movement.gd``"
+
 msgid "By default:"
 msgstr "Par défaut :"
 

@@ -251,8 +251,22 @@ msgstr "UV di sfera . Utilizzata per mappare una texture panoramica sul cielo."
 msgid "in vec4 **HALF_RES_COLOR**"
 msgstr "in vec4 **HALF_RES_COLOR**"
 
+msgid ""
+"Color value of corresponding pixel from half resolution pass. Uses linear "
+"filter."
+msgstr ""
+"Valore di colore del pixel corrispondente da un passaggio a metà "
+"risoluzione. Utilizza un filtro lineare."
+
 msgid "in vec4 **QUARTER_RES_COLOR**"
 msgstr "in vec4 **QUARTER_RES_COLOR**"
+
+msgid ""
+"Color value of corresponding pixel from quarter resolution pass. Uses linear "
+"filter."
+msgstr ""
+"Valore di colore del pixel corrispondente da un passaggio a un quarto della "
+"risoluzione. Utilizza un filtro lineare."
 
 msgid "out vec3 **COLOR**"
 msgstr "out vec3 **COLOR**"

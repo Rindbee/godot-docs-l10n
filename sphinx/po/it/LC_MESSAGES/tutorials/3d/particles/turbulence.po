@@ -11,5 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Particle turbulence"
+msgstr "Turbolenza di particelle"
+
+msgid "Turbulence properties"
+msgstr "Proprietà della turbolenza"
+
 msgid "Particle turbulence properties"
 msgstr "Proprietà di turbolenza per particelle"

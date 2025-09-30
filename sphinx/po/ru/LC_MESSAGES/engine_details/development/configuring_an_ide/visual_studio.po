@@ -27,8 +27,22 @@ msgstr ""
 "множество полезных функций, таких как просмотр памяти, просмотр "
 "производительности, контроль исходных текстов и многое другое."
 
+msgid ""
+"This documentation is for contributions to the game engine, and not using "
+"Visual Studio as a C# editor. To code C# in an external editor, "
+"see :ref:`the C# guide to configure an external editor "
+"<doc_c_sharp_setup_external_editor>`."
+msgstr ""
+"Эта документация предназначена для разработчиков игрового движка, а не для "
+"пользователей Visual Studio в качестве редактора C#. Чтобы писать код на C# "
+"во внешнем редакторе, см. :ref:`руководство по настройке внешнего редактора "
+"на C# <doc_c_sharp_setup_external_editor>`."
+
 msgid "Importing the project"
 msgstr "Импортирование проекта"
+
+msgid "Debugging the project"
+msgstr "Отладка проекта"
 
 msgid ""
 "If you run into any issues, ask for help in one of `Godot's community "

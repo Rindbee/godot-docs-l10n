@@ -14,6 +14,10 @@ msgstr ""
 msgid "C# API differences to GDScript"
 msgstr "C# API 與 GDScript 的不同"
 
+msgid ""
+"This is an (incomplete) list of API differences between C# and GDScript."
+msgstr "以下是 C# 與 GDScript 之間的 API 差異清單（不完整）."
+
 msgid "General differences"
 msgstr "一般差異"
 
@@ -992,6 +996,12 @@ msgid ""
 msgstr ""
 "使用 ``System.String`` (``string``) 。大多數 Godot 的字串方法都由 "
 "``StringExtensions`` 類別作為擴充方法提供。"
+
+msgid ""
+"Note that C# strings use UTF-16 encoding, while Godot Strings use UTF-32 "
+"encoding."
+msgstr ""
+"請注意，C# 的字串使用 UTF-16 編碼，而 Godot 的 String 使用 UTF-32 編碼。"
 
 msgid ""
 "Strings are immutable in .NET, so all methods that manipulate a string don't "

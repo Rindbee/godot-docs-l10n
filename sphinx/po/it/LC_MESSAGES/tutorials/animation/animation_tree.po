@@ -17,8 +17,17 @@ msgstr "Utilizzo di AnimationTree"
 msgid "Introduction"
 msgstr "Introduzione"
 
+msgid "AnimationTree and AnimationPlayer"
+msgstr "AnimationTree e AnimationPlayer"
+
 msgid "Creating a tree"
 msgstr "Creazione di un albero"
+
+msgid "A few types of root nodes are available:"
+msgstr "Sono disponibili alcuni tipi di nodi radice:"
+
+msgid "Following is a description of the other available nodes:"
+msgstr "A seguire è riportata una descrizione degli altri nodi disponibili:"
 
 msgid "Blend2 / Blend3"
 msgstr "Blend2 / Blend3"
@@ -37,6 +46,21 @@ msgstr "Transizione"
 
 msgid "StateMachine"
 msgstr "StateMachine"
+
+msgid "There are 3 types of transitions:"
+msgstr "Esistono 3 tipi di transizioni:"
+
+msgid "``is_walking``"
+msgstr "``is_walking``"
+
+msgid "``is_walking && !is_idle``"
+msgstr "``is_walking && !is_idle``"
+
+msgid "``velocity > 0``"
+msgstr "``velocity > 0``"
+
+msgid "``player.is_on_floor()``"
+msgstr "``player.is_on_floor()``"
 
 msgid "Root motion"
 msgstr "Movimento della radice"

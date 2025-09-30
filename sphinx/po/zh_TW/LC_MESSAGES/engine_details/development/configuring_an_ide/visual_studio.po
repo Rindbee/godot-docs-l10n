@@ -25,6 +25,16 @@ msgstr ""
 "`Microsoft <https://microsoft.com>`_ 推出的僅限 Windows 的 IDE，個人或組織非"
 "商業用途可免費使用。它具備許多實用功能，如記憶體檢視、效能檢視、版本控制等。"
 
+msgid ""
+"This documentation is for contributions to the game engine, and not using "
+"Visual Studio as a C# editor. To code C# in an external editor, "
+"see :ref:`the C# guide to configure an external editor "
+"<doc_c_sharp_setup_external_editor>`."
+msgstr ""
+"本文檔用於說明如何貢獻遊戲引擎，而不是教你把 Visual Studio 當作 C# 編輯器使"
+"用。若要在外部編輯器撰寫 C#，請見 :ref:`C# 外部編輯器設定指南 "
+"<doc_c_sharp_setup_external_editor>`。"
+
 msgid "Importing the project"
 msgstr "匯入專案"
 

@@ -10,3 +10,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Integrating with Android APIs"
+msgstr "Integrazione con le API di Android"
+
+msgid "AndroidRuntime plugin"
+msgstr "Plugin AndroidRuntime"
+
+msgid "Example: Calling a constructor"
+msgstr "Esempio: chiamare un costruttore"

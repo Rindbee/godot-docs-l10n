@@ -63,6 +63,11 @@ msgstr ""
 "根據設計，封包總是會被填充到 4 個位元組。所有的值都是小端編碼的。所有封包都有"
 "一個 4 位元組的頭，代表一個整數，指定資料的型別。"
 
+msgid ""
+"The lowest value two bytes are used to determine the type, while the highest "
+"value two bytes contain flags:"
+msgstr "較低的兩個位元組用於判定型別，而較高的兩個位元組包含旗標："
+
 msgid "Type"
 msgstr "型別"
 

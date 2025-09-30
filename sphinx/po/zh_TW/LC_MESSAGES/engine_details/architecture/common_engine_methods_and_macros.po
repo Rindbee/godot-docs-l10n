@@ -128,6 +128,10 @@ msgid ""
 msgstr "這會印出從 ``begin`` 宣告到 ``end`` 宣告之間所花費的時間。"
 
 msgid ""
+"You may have to ``#include \"core/os/time.h\"`` if it's not present already."
+msgstr "若尚未包含 ``#include \"core/os/time.h\"``，請記得加上。"
+
+msgid ""
 "When opening a pull request, make sure to remove this snippet as well as the "
 "include if it wasn't there previously."
 msgstr ""

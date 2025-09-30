@@ -14,8 +14,41 @@ msgstr ""
 msgid "Importing images"
 msgstr "Importazione di immagini"
 
+msgid "Supported image formats"
+msgstr "Formati di immagine supportati"
+
 msgid "Godot can import the following image formats:"
 msgstr "Godot può importare i seguenti formati di immagine:"
+
+msgid ""
+"OpenEXR (``.exr``) - Supports HDR (highly recommended for panorama skies)."
+msgstr ""
+"OpenEXR (``.exr``) - Supporta HDR (altamente consigliato per i cieli "
+"panoramici)."
+
+msgid ""
+"Radiance HDR (``.hdr``) - Supports HDR (highly recommended for panorama "
+"skies)."
+msgstr ""
+"Radiance HDR (``.hdr``) - Supporta HDR (altamente consigliato per cieli "
+"panoramici)."
+
+msgid ""
+"JPEG (``.jpg``, ``.jpeg``) - Doesn't support transparency per the format's "
+"limitations."
+msgstr ""
+"JPEG (``.jpg``, ``.jpeg``) - Non supporta la trasparenza a causa delle "
+"limitazioni del formato."
+
+msgid ""
+"PNG (``.png``) - Precision is limited to 8 bits per channel upon importing "
+"(no HDR images)."
+msgstr ""
+"PNG (``.png``) - La precisione è limitata a 8 bit per canale "
+"all'importazione (niente immagini HDR)."
+
+msgid "Truevision Targa (``.tga``)"
+msgstr "Truevision Targa (``.tga``)"
 
 msgid "Importing textures"
 msgstr "Importazione di texture"
@@ -23,11 +56,27 @@ msgstr "Importazione di texture"
 msgid "Changing import type"
 msgstr "Cambiare il tipo da importare"
 
+msgid ""
+"It is possible to choose other types of imported resources in the Import "
+"dock:"
+msgstr ""
+"È possibile scegliere altri tipi di risorse importate nel pannello "
+"Importazione:"
+
 msgid "Detect 3D"
 msgstr "Rileva 3D"
 
 msgid "Import options"
 msgstr "Opzioni di importazione"
+
+msgid ""
+"Images are one of the largest assets in a game. To handle them efficiently, "
+"they need to be compressed. Godot offers several compression methods, "
+"depending on the use case."
+msgstr ""
+"Le immagini sono una delle risorse più importanti di un gioco. Per gestirle "
+"in modo efficiente, devono essere compresse. Godot offre diversi metodi di "
+"compressione, a seconda del caso d'uso."
 
 msgid "good"
 msgstr "good"
@@ -47,8 +96,26 @@ msgstr "Compresso per VRAM"
 msgid "VRAM Uncompressed"
 msgstr "Non compresso per VRAM"
 
+msgid "Basis Universal"
+msgstr "Basis Universal"
+
 msgid "**Description**"
 msgstr "**Descrizione**"
+
+msgid "Stored as Lossless WebP / PNG"
+msgstr "Memorizzato come WebP/PNG senza perdita (lossless)"
+
+msgid "Stored as Lossy WebP"
+msgstr "Memorizzato come WebP con perdita (Lossy)"
+
+msgid "Stored as S3TC, BPTC or ETC2 depending on platform"
+msgstr "Memorizzato come S3TC, BPTC o ETC2 a seconda della piattaforma"
+
+msgid "Stored as raw pixels"
+msgstr "Memorizzati come pixel grezzi"
+
+msgid "Transcoded to VRAM Compressed format"
+msgstr "Transcodificato in formato compresso per VRAM"
 
 msgid "**Size on disk**"
 msgstr "**Dimensione sul disco**"

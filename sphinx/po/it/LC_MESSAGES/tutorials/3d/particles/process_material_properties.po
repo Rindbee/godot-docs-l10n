@@ -20,11 +20,29 @@ msgstr "Proprietà di ParticleProcessMaterial"
 msgid "Min, max, and curve properties"
 msgstr "Proprietà di minimo, massimo e curva"
 
+msgid "Particle flags"
+msgstr "Flag di particelle"
+
+msgid "Emission shape"
+msgstr "Forma d'emissione"
+
+msgid "Simple particle emission shapes"
+msgstr "Forme semplici di emissione di particelle"
+
+msgid "Ring-shaped particle system"
+msgstr "Sistema di particelle ad anello"
+
+msgid "A ring-shaped particle system"
+msgstr "Un sistema di particelle a forma di anello"
+
 msgid "Angle"
 msgstr "Angolo"
 
 msgid "Direction"
 msgstr "Direzione"
+
+msgid "Initial velocity"
+msgstr "Velocità iniziale"
 
 msgid "Accelerations"
 msgstr "Accelerazioni"
@@ -32,8 +50,23 @@ msgstr "Accelerazioni"
 msgid "Gravity"
 msgstr "Gravità"
 
+msgid "Angular velocity"
+msgstr "Velocità angolare"
+
+msgid "Linear acceleration"
+msgstr "Accelerazione lineare"
+
+msgid "Radial acceleration"
+msgstr "Accelerazione radiale"
+
+msgid "Tangential acceleration"
+msgstr "Accelerazione tangenziale"
+
 msgid "Damping"
 msgstr "Smorzamento"
+
+msgid "Attractor interaction"
+msgstr "Interazione con attrattore"
 
 msgid "Scale"
 msgstr "Scala"
@@ -44,8 +77,26 @@ msgstr "Colore"
 msgid "Particle color ramp"
 msgstr "Rampa di colore delle particelle"
 
+msgid "Setting up a color ramp"
+msgstr "Configurazione di una rampa di colori"
+
+msgid "Hue variation"
+msgstr "Variazione di tonalità"
+
 msgid "Animation"
 msgstr "Animazione"
+
+msgid "Animated particles"
+msgstr "Particelle animate"
+
+msgid "Collision"
+msgstr "Collisione"
+
+msgid "Sub-emitter"
+msgstr "Sotto-emettitore"
+
+msgid "Sub-emitter modes"
+msgstr "Modalità di sotto-emettitore"
 
 msgid "The available sub-emitter modes"
 msgstr "Le modalità di sotto-emettitori disponibili"

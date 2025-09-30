@@ -19,3 +19,6 @@ msgstr "Scie di particelle"
 
 msgid "Particle trail params"
 msgstr "Parametri per scie di particelle"
+
+msgid "Important ribbon mesh parameters"
+msgstr "Parametri importanti di mesh a nastro"

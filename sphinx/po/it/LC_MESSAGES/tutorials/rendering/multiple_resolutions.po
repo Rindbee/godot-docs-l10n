@@ -37,6 +37,15 @@ msgstr "Impostazioni di allungamento"
 msgid "Stretch Mode"
 msgstr "Modo di allungamento"
 
+msgid "Stretch Aspect"
+msgstr "Aspetto di stiramento"
+
+msgid "Stretch Scale"
+msgstr "Scala di stiramento"
+
+msgid "Stretch Scale Mode"
+msgstr "Modalità di scala di stiramento"
+
 msgid ""
 "The following settings are recommended to support multiple resolutions and "
 "aspect ratios well."

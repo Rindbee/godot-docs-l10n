@@ -390,7 +390,7 @@ msgstr ""
 "руху."
 
 msgid "Attach a script to the CharacterBody2D and add the following code:"
-msgstr "Додайте сценарій до CharacterBody2D і додайте такий код:"
+msgstr "Додайте скрипт до CharacterBody2D і додайте такий код:"
 
 msgid ""
 "Run this scene and you'll see that ``move_and_collide()`` works as expected, "

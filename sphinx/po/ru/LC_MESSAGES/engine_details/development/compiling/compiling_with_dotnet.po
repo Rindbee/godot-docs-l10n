@@ -52,3 +52,6 @@ msgstr "Редактор"
 
 msgid "Export templates"
 msgstr "Экспорт шаблонов"
+
+msgid "Command-line options"
+msgstr "Параметры командной строки"

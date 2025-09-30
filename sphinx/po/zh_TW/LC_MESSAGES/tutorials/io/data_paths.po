@@ -260,6 +260,12 @@ msgstr ""
 "統。(與主要檔案系統的互動仍可透過 :ref:`JavaScriptBridge "
 "<class_JavaScriptBridge>` 單例執行。)"
 
+msgid "File logging"
+msgstr "檔案記錄"
+
+msgid "Documentation on file logging has been moved to :ref:`doc_logging`."
+msgstr "關於檔案記錄的文件已移至 :ref:`doc_logging`。"
+
 msgid "Converting paths to absolute paths or \"local\" paths"
 msgstr "將路徑轉換為絕對路徑或“本地”路徑"
 

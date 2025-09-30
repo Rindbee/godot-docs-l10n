@@ -17,6 +17,12 @@ msgstr "Esportazione di pacchetti, patch e mod"
 msgid "Use cases"
 msgstr "Casi d'uso"
 
+msgid "Examples of this include..."
+msgstr "Esempi di questo includono..."
+
+msgid "Overview of PCK/ZIP files"
+msgstr "Panoramica dei file PCK/ZIP"
+
 msgid "**Advantages:**"
 msgstr "**Vantaggi:**"
 
@@ -24,10 +30,16 @@ msgid "incremental updates/patches"
 msgstr "aggiornamenti/patch incrementali"
 
 msgid "offer DLCs"
-msgstr "offre DLCs"
+msgstr "offre DLC"
 
 msgid "offer mod support"
 msgstr "offre supporto alle mod"
+
+msgid "no source code disclosure needed for mods"
+msgstr "nessuna divulgazione del codice sorgente necessaria per le mod"
+
+msgid "more modular project structure"
+msgstr "struttura del progetto più modulare"
 
 msgid "scripts"
 msgstr "script"
@@ -54,4 +66,4 @@ msgid "Troubleshooting"
 msgstr "Risoluzione dei problemi"
 
 msgid "Summary"
-msgstr "Sommario"
+msgstr "Riepilogo"

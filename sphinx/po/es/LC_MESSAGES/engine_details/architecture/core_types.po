@@ -141,6 +141,9 @@ msgstr "Contenedores"
 msgid "Comment"
 msgstr "Comentario"
 
+msgid "``std::unordered_set``"
+msgstr "``std::unordered_set``"
+
 msgid "Math types"
 msgstr "Tipos Matemáticos"
 

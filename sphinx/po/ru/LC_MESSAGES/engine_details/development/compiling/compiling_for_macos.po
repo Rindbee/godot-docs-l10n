@@ -14,6 +14,9 @@ msgstr ""
 msgid "Requirements"
 msgstr "Требования"
 
+msgid "For compiling under macOS, the following is required:"
+msgstr "Для компиляции под macOS необходимо следующее:"
+
 msgid "`Python 3.8+ <https://www.python.org/downloads/macos/>`_."
 msgstr "`Python 3.8+ <https://www.python.org/downloads/macos/>`_."
 
@@ -29,6 +32,9 @@ msgstr ""
 
 msgid "Compiling"
 msgstr "Компиляция"
+
+msgid "Manual ``.app`` bundle creation"
+msgstr "Создание пакета ``.app`` вручную"
 
 msgid "Running a headless/server build"
 msgstr "Запуск headless/серверной сборки"

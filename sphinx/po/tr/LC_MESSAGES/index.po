@@ -20,11 +20,17 @@ msgstr "Başlarken"
 msgid "Manual"
 msgstr "El Kitabı"
 
+msgid "Engine details"
+msgstr "Motor detayları"
+
 msgid "Community"
 msgstr "Topluluk"
 
 msgid "Class reference"
 msgstr "Sınıf referansı"
+
+msgid "Godot Docs – *4.5* branch"
+msgstr "Godot Belgeleri - *master* dalı"
 
 msgid ""
 "Godot's documentation is available in various languages and versions. Expand "

@@ -70,6 +70,10 @@ msgstr ""
 msgid "**unshaded**"
 msgstr "**unshaded**"
 
+msgid "Result is just albedo. No lighting/shading happens in material."
+msgstr ""
+"Il risultato è solo l'albedo. Il materiale non riceve né luci né ombre."
+
 msgid "**light_only**"
 msgstr "**light_only**"
 

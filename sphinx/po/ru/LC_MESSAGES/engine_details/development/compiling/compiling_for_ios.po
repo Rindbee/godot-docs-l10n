@@ -30,6 +30,13 @@ msgstr ""
 msgid "Compiling"
 msgstr "Компиляция"
 
+msgid ""
+"Open a Terminal, go to the root folder of the engine source code and type "
+"the following to compile a debug build:"
+msgstr ""
+"Откройте Терминал, перейдите в корневую папку исходного кода движка и "
+"введите следующее, чтобы скомпилировать отладочную сборку:"
+
 msgid "To compile a release build:"
 msgstr "Чтобы скомпилировать сборку релиза:"
 

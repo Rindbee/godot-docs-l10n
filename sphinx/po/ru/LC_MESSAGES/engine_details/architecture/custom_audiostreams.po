@@ -89,6 +89,9 @@ msgstr ""
 "множественными способами как внутренний счётчик или же генератором тона, "
 "внешним/внутренним буфером, или же при помощи указателя на файл."
 
+msgid "audiostream_mytone.h"
+msgstr "audiostream_mytone.h"
+
 msgid "Create an AudioStreamPlayback"
 msgstr "Создайте AudioStreamPlayback"
 
@@ -106,6 +109,12 @@ msgid ""
 msgstr ""
 "Поскольку AudioStreamPlayback контролируется аудиопотоком, то ввод/вывод и "
 "динамическое выделение памяти запрещены."
+
+msgid "audiostreamplayer_mytone.h"
+msgstr "audiostreamplayer_mytone.h"
+
+msgid "audiostreamplayer_mytone.cpp"
+msgstr "audiostreamplayer_mytone.cpp"
 
 msgid "Resampling"
 msgstr "Передискретизация"

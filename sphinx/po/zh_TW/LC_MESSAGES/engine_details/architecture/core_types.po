@@ -37,6 +37,22 @@ msgstr ""
 "因此沒有必要。"
 
 msgid ""
+"In general, care is not taken to use the most efficient datatype for a given "
+"task unless using large structures or arrays. ``int`` is used through most "
+"of the code unless necessary. This is done because nowadays every device has "
+"at least a 32-bit bus and can do such operations in one cycle. It makes code "
+"more readable too."
+msgstr ""
+"通常情況下，除非處理大型結構或陣列，否則並不特別挑選最有效率的資料型別。除非"
+"必要，大多數程式碼都直接使用 ``int``。這是因為現今裝置至少都有 32 位元匯流"
+"排，運算可於一個週期內完成，同時也提升程式碼可讀性。"
+
+msgid ""
+"For files or memory sizes, ``size_t`` is used, which is guaranteed to be 64-"
+"bit."
+msgstr "處理檔案或記憶體大小時會使用 ``size_t``，其保證為 64 位元。"
+
+msgid ""
 "For Unicode characters, CharType instead of wchar_t is used, because many "
 "architectures have 4 bytes long wchar_t, where 2 bytes might be desired. "
 "However, by default, this has not been forced and CharType maps directly to "
@@ -99,6 +115,20 @@ msgstr ""
 "未使用記憶體的一定比例，分段問題將會維持在穩定狀態。換句話說，如果保留 10–"
 "20% 記憶體未使用，就算進行多次小型分配也不會有太大問題。"
 
+msgid ""
+"Godot ensures that all objects that can be allocated dynamically are small "
+"(less than a few kB at most). But what happens if an allocation is too large "
+"(like an image or mesh geometry or large array)? In this case Godot has the "
+"option to use a dynamic memory pool. This memory needs to be locked to be "
+"accessed, and if an allocation runs out of memory, the pool will be "
+"rearranged and compacted on demand. Depending on the need of the game, the "
+"programmer can configure the dynamic memory pool size."
+msgstr ""
+"Godot 保證所有可動態分配的物件都很小（通常不超過幾 KB）。但若分配過大（如圖"
+"片、網格幾何或大型陣列）時，Godot 可選擇使用動態記憶體池。這類記憶體存取時需"
+"要鎖定，若分配時記憶體不足，記憶體池會按需重新整理與壓縮。依遊戲需求，開發者"
+"可調整動態記憶體池大小。"
+
 msgid "Allocating memory"
 msgstr "記憶體分配"
 
@@ -113,8 +143,19 @@ msgstr ""
 msgid "For C-style allocation, Godot provides a few macros:"
 msgstr "對於 C 風格分配，Godot 提供了一些巨集："
 
+msgid ""
+"These are equivalent to the usual ``malloc()``, ``realloc()``, and "
+"``free()`` of the C standard library."
+msgstr ""
+"這些巨集等同於標準 C 函式庫的 ``malloc()``、``realloc()``、``free()`` 功能。"
+
 msgid "For C++-style allocation, special macros are provided:"
 msgstr "C++ 風格則提供了特殊巨集："
+
+msgid ""
+"These are equivalent to ``new``, ``delete``, ``new[]``, and ``delete[]`` "
+"respectively."
+msgstr "這些巨集分別對應於 ``new``、``delete``、``new[]`` 與 ``delete[]``。"
 
 msgid ""
 "memnew/memdelete also use a little C++ magic and notify Objects right after "
@@ -180,14 +221,263 @@ msgstr ""
 msgid "Containers"
 msgstr "容器"
 
+msgid ""
+"Godot provides its own set of containers, which means STL containers like "
+"``std::string`` and ``std::vector`` are generally not used in the codebase. "
+"See :ref:`doc_faq_why_not_stl` for more information."
+msgstr ""
+"Godot 提供自有的一套容器，表示在程式碼庫中一般不使用 STL 容器，如 "
+"``std::string`` 與 ``std::vector``。詳見 :ref:`doc_faq_why_not_stl`。"
+
+msgid ""
+"A 📜 icon denotes the type is part of :ref:`Variant <doc_variant_class>`. "
+"This means it can be used as a parameter or return value of a method exposed "
+"to the scripting API."
+msgstr ""
+"📜 圖示表示該型別屬於 :ref:`Variant <doc_variant_class>` 的一部分。這代表它可"
+"以用於公開給腳本 API 的方法之參數或回傳值。"
+
+msgid "Godot datatype"
+msgstr "Godot 資料型別"
+
+msgid "Closest C++ STL datatype"
+msgstr "最接近的 C++ STL 資料型別"
+
 msgid "Comment"
 msgstr "註解"
+
+msgid "|string| 📜"
+msgstr "|string| 📜"
+
+msgid "``std::string``"
+msgstr "``std::string``"
+
+msgid ""
+"**Use this as the \"default\" string type.** ``String`` uses UTF-32 encoding "
+"to improve performance thanks to its fixed character size."
+msgstr ""
+"**將此作為「預設」字串型別使用。** ``String`` 採用 UTF-32 編碼，因其字元大小"
+"固定而具有較佳效能。"
 
 msgid "|vector|"
 msgstr "|vector|"
 
+msgid "``std::vector``"
+msgstr "``std::vector``"
+
+msgid ""
+"**Use this as the \"default\" vector type.** Uses copy-on-write (COW) "
+"semantics. This means it's generally slower but can be copied around almost "
+"for free. Use ``LocalVector`` instead where COW isn't needed and performance "
+"matters."
+msgstr ""
+"**將此作為「預設」向量容器使用。** 採用寫入複製（COW）語意，因此一般較慢，但"
+"幾乎可以零成本地被複製。若不需要 COW 又重視效能，請改用 ``LocalVector``。"
+
+msgid "|hash_set|"
+msgstr "|hash_set|"
+
+msgid "``std::unordered_set``"
+msgstr "``std::unordered_set``"
+
+msgid "**Use this as the \"default\" set type.**"
+msgstr "**將此作為「預設」集合型別使用。**"
+
+msgid "|a_hash_map|"
+msgstr "|a_hash_map|"
+
+msgid "``std::unordered_map``"
+msgstr "``std::unordered_map``"
+
+msgid ""
+"**Use this as the \"default\" map type.** Does not preserve insertion order. "
+"Note that pointers into the map, as well as iterators, are not stable under "
+"mutations. If either of these affordances are needed, use ``HashMap`` "
+"instead."
+msgstr ""
+"**將此作為「預設」對映（map）型別使用。** 不保留插入順序。請注意，映射中的指"
+"標以及反覆運算器在變異時都不是穩定的。若需要這些特性，請改用 ``HashMap``。"
+
+msgid "|string_name| 📜"
+msgstr "|string_name| 📜"
+
+msgid ""
+"Uses string interning for fast comparisons. Use this for static strings that "
+"are referenced frequently and used in multiple locations in the engine."
+msgstr ""
+"使用字串駐留以加速比較。適合用在經常被引用、且在引擎多處使用的靜態字串。"
+
+msgid "|local_vector|"
+msgstr "|local_vector|"
+
+msgid ""
+"Closer to ``std::vector`` in semantics, doesn't use copy-on-write (COW) thus "
+"it's faster than ``Vector``. Prefer it over ``Vector`` when copying it "
+"cheaply is not needed."
+msgstr ""
+"語意更接近 ``std::vector``，不使用 COW，因此比 ``Vector`` 更快。當不需要低成"
+"本複製時，優先於 ``Vector`` 使用它。"
+
+msgid "|array| 📜"
+msgstr "|array| 📜"
+
+msgid ""
+"Values can be of any Variant type. No static typing is imposed. Uses shared "
+"reference counting, similar to ``std::shared_ptr``. Uses Vector<Variant> "
+"internally."
+msgstr ""
+"元素可為任意 Variant 型別，不強制靜態型別。使用共享參考計數，類似 "
+"``std::shared_ptr``。內部以 ``Vector<Variant>`` 實作。"
+
+msgid "|typed_array| 📜"
+msgstr "|typed_array| 📜"
+
+msgid ""
+"Subclass of ``Array`` but with static typing for its elements. Not to be "
+"confused with ``Packed*Array``, which is internally a ``Vector``."
+msgstr ""
+"``Array`` 的子類別，但其元素具靜態型別。不要與 ``Packed*Array`` 混淆，後者在"
+"內部其實是 ``Vector``。"
+
+msgid "|packed_array| 📜"
+msgstr "|packed_array| 📜"
+
+msgid ""
+"Alias of ``Vector``, e.g. ``PackedColorArray = Vector<Color>``. Only a "
+"limited list of packed array types are available (use ``TypedArray`` "
+"otherwise)."
+msgstr ""
+"``Vector`` 的別名，例如 ``PackedColorArray = Vector<Color>``。僅提供有限幾種"
+"封包陣列型別（否則請使用 ``TypedArray``）。"
+
+msgid "|list|"
+msgstr "|list|"
+
+msgid "``std::list``"
+msgstr "``std::list``"
+
+msgid ""
+"Linked list type. Generally slower than other array/vector types. Prefer "
+"using other types in new code, unless using ``List`` avoids the need for "
+"type conversions."
+msgstr ""
+"連結串列型別。一般比其他陣列/向量型別慢。除非能藉由使用 ``List`` 省去型別轉"
+"換，否則在新程式碼中應優先使用其它型別。"
+
+msgid "|fixed_vector|"
+msgstr "|fixed_vector|"
+
+msgid "``std::array``"
+msgstr "``std::array``"
+
+msgid ""
+"Vector with a fixed capacity (more similar to "
+"``boost::container::static_vector``). This container type is more efficient "
+"than other vector-like types because it makes no heap allocations."
+msgstr ""
+"具有固定容量的向量（更接近 ``boost::container::static_vector``）。由於不會進"
+"行堆積配置，這種容器比其他類向量型別更有效率。"
+
+msgid "|span|"
+msgstr "|span|"
+
+msgid "``std::span``"
+msgstr "``std::span``"
+
+msgid ""
+"Represents read-only access to a contiguous array without needing to copy "
+"any data. See `pull request description <https://github.com/godotengine/"
+"godot/pull/100293>`__ for details."
+msgstr ""
+"表示對連續陣列的唯讀存取，而且不需要複製任何資料。詳情請參見 `pull request 描"
+"述 <https://github.com/godotengine/godot/pull/100293>`__。"
+
+msgid "|rb_set|"
+msgstr "|rb_set|"
+
+msgid "``std::set``"
+msgstr "``std::set``"
+
+msgid ""
+"Uses a `red-black tree <https://en.wikipedia.org/wiki/Red-black_tree>`__ for "
+"faster access."
+msgstr ""
+"使用 `紅黑樹 <https://en.wikipedia.org/wiki/Red-black_tree>`__ 以獲得更快的存"
+"取。"
+
+msgid "|v_set|"
+msgstr "|v_set|"
+
+msgid "``std::flat_set``"
+msgstr "``std::flat_set``"
+
+msgid ""
+"Uses copy-on-write (COW) semantics. This means it's generally slower but can "
+"be copied around almost for free. The performance benefits of ``VSet`` "
+"aren't established, so prefer using other types."
+msgstr ""
+"使用 COW 語意。因此一般較慢，但幾乎可以零成本地被複製。``VSet`` 的效能優勢尚"
+"未明確，建議優先使用其他型別。"
+
+msgid "|hash_map|"
+msgstr "|hash_map|"
+
+msgid ""
+"Defensive (robust but slow) map type. Preserves insertion order. Pointers to "
+"keys and values, as well as iterators, are stable under mutation. Use this "
+"map type when either of these affordances are needed. Use ``AHashMap`` "
+"otherwise."
+msgstr ""
+"具防禦性（穩健但較慢）的映射型別。保留插入順序。對鍵與值的指標，以及反覆運算"
+"器，在變異下皆是穩定的。當需要其中任一特性時請使用此型別。否則請使用 "
+"``AHashMap``。"
+
+msgid "|rb_map|"
+msgstr "|rb_map|"
+
+msgid "``std::map``"
+msgstr "``std::map``"
+
+msgid ""
+"Uses a `red-black tree <https://en.wikipedia.org/wiki/Red-black-tree>`__ for "
+"faster access."
+msgstr ""
+"使用 `紅黑樹 <https://en.wikipedia.org/wiki/Red-black-tree>`__ 以獲得更快的存"
+"取。"
+
+msgid "|dictionary| 📜"
+msgstr "|dictionary| 📜"
+
+msgid ""
+"Keys and values can be of any Variant type. No static typing is imposed. "
+"Uses shared reference counting, similar to ``std::shared_ptr``. Preserves "
+"insertion order. Uses ``HashMap<Variant>`` internally."
+msgstr ""
+"鍵與值可為任意 Variant 型別，不強制靜態型別。使用共享參考計數，類似 "
+"``std::shared_ptr``。保留插入順序。內部使用 ``HashMap<Variant>``。"
+
+msgid "|typed_dictionary| 📜"
+msgstr "|typed_dictionary| 📜"
+
+msgid ""
+"Subclass of ``Dictionary`` but with static typing for its keys and values."
+msgstr "``Dictionary`` 的子類別，但其鍵與值具靜態型別。"
+
+msgid "|pair|"
+msgstr "|pair|"
+
+msgid "``std::pair``"
+msgstr "``std::pair``"
+
+msgid "Stores a single key-value pair."
+msgstr "儲存一組鍵值配對。"
+
 msgid "Math types"
 msgstr "數學型別"
+
+msgid ""
+"There are several linear math types available in the ``core/math`` directory:"
+msgstr "``core/math`` 目錄中有多種線性數學型別可用："
 
 msgid ""
 "`core/math <https://github.com/godotengine/godot/tree/master/core/math>`__"
@@ -198,6 +488,11 @@ msgid "NodePath"
 msgstr "NodePath"
 
 msgid ""
+"This is a special datatype used for storing paths in a scene tree and "
+"referencing them in an optimized manner:"
+msgstr "這是一種特殊型別，用於在場景樹中儲存路徑，並以最佳化的方式進行參照："
+
+msgid ""
 "`core/string/node_path.h <https://github.com/godotengine/godot/blob/master/"
 "core/string/node_path.h>`__"
 msgstr ""
@@ -206,6 +501,15 @@ msgstr ""
 
 msgid "RID"
 msgstr "RID"
+
+msgid ""
+"RIDs are *Resource IDs*. Servers use these to reference data stored in them. "
+"RIDs are opaque, meaning that the data they reference can't be accessed "
+"directly. RIDs are unique, even for different types of referenced data:"
+msgstr ""
+"RID 是 *Resource ID*（資源識別碼）。伺服器使用這些 ID 來參照其內部儲存的資"
+"料。RID 為不透明型別，無法直接存取其所參照的資料。即使對應的資料型別不同，"
+"RID 也保持唯一："
 
 msgid ""
 "`core/templates/rid.h <https://github.com/godotengine/godot/blob/master/core/"

@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Model export considerations"
+msgstr "Considerazioni sull'esportazione di modelli"
+
 msgid "3D asset direction conventions"
 msgstr "Convenzioni di direzione dei contenuti 3D"
 
@@ -23,6 +26,9 @@ msgid ""
 msgstr ""
 "Per maggiori informazioni sui materiali di Godot, "
 "consultare :ref:`doc_standard_material_3d`."
+
+msgid "Exporting considerations"
+msgstr "Considerazioni sull'esportazione"
 
 msgid "Lighting considerations"
 msgstr "Considerazioni sull'illuminazione"

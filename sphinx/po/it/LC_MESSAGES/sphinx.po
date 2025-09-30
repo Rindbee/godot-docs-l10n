@@ -30,7 +30,7 @@ msgid "Project Home"
 msgstr "Progetto Home"
 
 msgid "Builds"
-msgstr "Costruzioni"
+msgstr "Compilazioni"
 
 msgid "Downloads"
-msgstr "Download disponibili"
+msgstr "Download"

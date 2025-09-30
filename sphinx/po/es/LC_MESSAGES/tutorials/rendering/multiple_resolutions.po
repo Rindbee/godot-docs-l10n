@@ -455,7 +455,7 @@ msgid ""
 "<doc_gui_containers>`."
 msgstr ""
 "Una vez que se tiene en cuenta el escalado para diferentes resoluciones, "
-"asegúrese de que su *interfaz de usuario* también escala para diferentes "
+"asegúrate de que *tu interfaz de usuario* también escala para diferentes "
 "relaciones de aspecto. Esto puede hacerse usando :ref:`anchors "
 "<doc_size_and_anchors>` y/o :ref:`containers <doc_gui_containers>`."
 

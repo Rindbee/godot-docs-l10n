@@ -117,6 +117,17 @@ msgstr ""
 "con un medidor de ancho de banda que muestra el uso total de ancho de banda "
 "en cualquier momento dado."
 
+msgid ""
+"The bandwidth meter does **not** take the :ref:`doc_high_level_multiplayer` "
+"API's own compression system into account. This means that changing the "
+"compression algorithm used will not change the metrics reported by the "
+"bandwidth meter."
+msgstr ""
+"El medidor de ancho de banda **no** tiene en cuenta el sistema de compresión "
+"propio de la API :ref:`doc_high_level_multiplayer`. Esto significa que "
+"cambiar el algoritmo de compresión utilizado no modificará las métricas que "
+"reporta el medidor de ancho de banda."
+
 msgid "Monitors"
 msgstr "Monitores"
 

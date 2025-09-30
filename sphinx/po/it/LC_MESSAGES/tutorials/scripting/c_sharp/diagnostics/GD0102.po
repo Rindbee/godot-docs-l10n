@@ -11,8 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0102: The type of the exported member is not supported"
+msgstr "GD0102: Il tipo di membro esportato non è supportato"
+
 msgid "**Rule ID**"
 msgstr "**ID regola**"
+
+msgid "GD0102"
+msgstr "GD0102"
 
 msgid "**Category**"
 msgstr "**Categoria**"
@@ -20,11 +26,53 @@ msgstr "**Categoria**"
 msgid "Usage"
 msgstr "Utilizzo"
 
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Soluzione è distruttiva o non-distruttiva**"
+
+msgid "Breaking - If the member type is changed"
+msgstr "Distruttiva - Se il tipo del membro viene cambiato"
+
+msgid "Non-breaking - If the ``[Export]`` attribute is removed"
+msgstr "Non-distruttiva - Se l'attributo ``[Export]`` viene rimosso"
+
 msgid "**Enabled by default**"
 msgstr "**Abilitato per predefinito**"
 
 msgid "Yes"
 msgstr "Si"
 
+msgid "Cause"
+msgstr "Causa"
+
+msgid ""
+"An unsupported type is specified for a member annotated with the "
+"``[Export]`` attribute when a :ref:`Variant-compatible type "
+"<c_sharp_variant_compatible_types>` is expected."
+msgstr ""
+"È specificato un tipo non supportato per un membro annotato con l'attributo "
+"``[Export]`` quando è previsto un tipo :ref:`compatibile con Variant "
+"<c_sharp_variant_compatible_types>`."
+
 msgid "Rule description"
 msgstr "Descrizione della regola"
+
+msgid "How to fix violations"
+msgstr "Come risolvere le violazioni"
+
+msgid ""
+"To fix a violation of this rule, change the member's type to be Variant-"
+"compatible or remove the ``[Export]`` attribute."
+msgstr ""
+"Per correggere una violazione di questa regola, cambiare il tipo del membro "
+"in modo che sia compatibile con Variant oppure rimuovere l'attributo "
+"``[Export]``."
+
+msgid "When to suppress warnings"
+msgstr "Quando sopprimere gli avvertimenti"
+
+msgid ""
+"Do not suppress a warning from this rule. Members with types that can't be "
+"marshalled will result in runtime errors."
+msgstr ""
+"Non sopprimere un avviso da questa regola. I membri con tipi che non è "
+"possibile convertire e serializzare causeranno errori in fase di esecuzione."

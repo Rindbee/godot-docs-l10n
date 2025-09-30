@@ -315,7 +315,7 @@ msgid ""
 "The following script will result in the same visual output as using ``BBCode "
 "[color=green]test [i]example[/i][/color]``:"
 msgstr ""
-"Наступний сценарій призведе до такого ж візуального результату, як і "
+"Наступний скрипт призведе до такого ж візуального результату, як і "
 "використання ``BBCode [color=green]test [i]example[/i][/color]``:"
 
 msgid ""

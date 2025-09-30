@@ -10,3 +10,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Theme type variations"
+msgstr "Variazioni di tipi del tema"
+
+msgid "Creating a type variation"
+msgstr "Creare una variazione di tipo"
+
+msgid "Using a type variation"
+msgstr "Utilizzare una variazione di tipo"

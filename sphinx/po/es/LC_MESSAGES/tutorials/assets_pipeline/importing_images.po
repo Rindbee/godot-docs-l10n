@@ -130,7 +130,7 @@ msgid "Stored as Lossy WebP"
 msgstr "Almacenado como WebP con pérdidas"
 
 msgid "Stored as raw pixels"
-msgstr "Guardado como pixeles sin procesar"
+msgstr "Guardado como píxeles sin procesar"
 
 msgid "|regular| Small"
 msgstr "|regular| Pequeño"

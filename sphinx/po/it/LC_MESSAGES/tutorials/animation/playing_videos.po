@@ -17,6 +17,13 @@ msgstr "Formati di riproduzione supportati"
 msgid "Setting up VideoStreamPlayer"
 msgstr "Configurazione di VideoStreamPlayer"
 
+msgid ""
+"Select the VideoStreamPlayer node in the scene tree dock, go to the "
+"inspector and load a ``.ogv`` file in the Stream property."
+msgstr ""
+"Selezionare il nodo VideoStreamPlayer nel pannello dell'albero di scene, "
+"andare nell'Ispettore e caricare un file ``.ogv`` nella proprietà Stream."
+
 msgid "Handling resizing and different aspect ratios"
 msgstr "Gestire il ridimensionamento e i diverse rapporti di aspetto"
 
@@ -31,6 +38,9 @@ msgstr ""
 "Consultare :ref:`doc_viewports` e la demo `GUI in 3D <https://github.com/"
 "godotengine/godot-demo-projects/tree/master/viewport/gui_in_3d>`__ per "
 "ulteriori informazioni sulla configurazione."
+
+msgid "Looping a video"
+msgstr "Far ripetere un video"
 
 msgid "Playback limitations"
 msgstr "Limitazioni della riproduzione"

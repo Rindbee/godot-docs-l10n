@@ -104,6 +104,14 @@ msgstr "macOS: ``~/Library/Application Support/[custom_user_dir_name]``"
 msgid "Linux: ``~/.local/share/[custom_user_dir_name]``"
 msgstr "Linux: ``~/.local/share/[custom_user_dir_name]``"
 
+msgid "File logging"
+msgstr "Logging su file"
+
+msgid "Documentation on file logging has been moved to :ref:`doc_logging`."
+msgstr ""
+"La documentazione riguardo il logging su file è stata spostata "
+"in :ref:`doc_logging`."
+
 msgid "Editor data"
 msgstr "Dati dell'editor"
 

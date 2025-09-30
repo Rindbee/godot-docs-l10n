@@ -11,6 +11,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Exporting for Windows"
+msgstr "Esportazione per Windows"
+
+msgid "Changing the executable icon"
+msgstr "Cambiare l'icona dell'eseguibile"
+
+msgid "Code signing"
+msgstr "Firma del codice"
+
 msgid "Setup"
 msgstr "Configura"
 

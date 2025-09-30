@@ -567,6 +567,9 @@ msgid ""
 msgstr ""
 ":ref:`fma<shader_func_fma>`\\ (\\ |vec_type| a, |vec_type| b, |vec_type| c)"
 
+msgid "Fused multiply-add operation: ``(a * b + c)``"
+msgstr "融合乘加运算：``(a * b + c)``"
+
 msgid ":ref:`step<shader_func_step>`\\ (\\ |vec_type| a, |vec_type| b)"
 msgstr ":ref:`step<shader_func_step>`\\ (\\ |vec_type| a, |vec_type| b)"
 
@@ -1023,6 +1026,18 @@ msgstr ""
 "|vec_int_type| **floatBitsToInt**\\ (\\ |vec_type| "
 "x) :ref:`🔗<shader_func_floatBitsToInt>`"
 
+msgid "Returns the encoding of the floating-point parameters as ``int``."
+msgstr "返回浮点参数的编码值，类型为 ``int``。"
+
+msgid "The floating-point bit-level representation is preserved."
+msgstr "浮点数的位级表示被保留。"
+
+msgid "The value whose floating-point encoding to return."
+msgstr "要返回其浮点编码的值。"
+
+msgid "The floating-point encoding of ``x``."
+msgstr "``x`` 的浮点编码。"
+
 msgid ""
 "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/"
 "floatBitsToInt.xhtml"
@@ -1037,12 +1052,22 @@ msgstr ""
 "|vec_uint_type| **floatBitsToUint**\\ (\\ |vec_type| "
 "x) :ref:`🔗<shader_func_floatBitsToUint>`"
 
+msgid "Returns the encoding of the floating-point parameters as ``uint``."
+msgstr "返回浮点参数的编码值，类型为 ``uint``。"
+
 msgid ""
 "|vec_type| **intBitsToFloat**\\ (\\ |vec_int_type| "
 "x) :ref:`🔗<shader_func_intBitsToFloat>`"
 msgstr ""
 "|vec_type| **intBitsToFloat**\\ (\\ |vec_int_type| "
 "x) :ref:`🔗<shader_func_intBitsToFloat>`"
+
+msgid ""
+"Converts a bit encoding to a floating-point value. Opposite of "
+"`floatBitsToInt<shader_func_floatBitsToInt>`"
+msgstr ""
+"将位编码转换为浮点数值。与 `floatBitsToInt<shader_func_floatBitsToInt>` 相"
+"反。"
 
 msgid "A floating-point value."
 msgstr "浮点值。"

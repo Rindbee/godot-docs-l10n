@@ -95,6 +95,16 @@ msgstr "**中斷**：暫停遊戲執行。"
 msgid "**Continue**. This button resumes the game after a breakpoint or pause."
 msgstr "**繼續**：於中斷點或暫停後繼續執行遊戲。"
 
+msgid ""
+"Using the debugger and breakpoints on :ref:`tool scripts "
+"<doc_running_code_in_the_editor>` is not currently supported. Breakpoints "
+"placed in the script editor or using the ``breakpoint`` keyword are ignored. "
+"You can use print statements to display the contents of variables instead."
+msgstr ""
+"目前不支援在 :ref:`工具腳本 <doc_running_code_in_the_editor>` 上使用偵錯器與"
+"中斷點。無論在腳本編輯器中設置的中斷點，或使用 ``breakpoint`` 關鍵字，皆會被"
+"忽略。你可以改用列印語句來顯示變數內容。"
+
 msgid "Errors"
 msgstr "錯誤"
 
@@ -316,6 +326,11 @@ msgstr ""
 "注意在 3D 範例中，部份分類名稱會標記 **(Parallel)**，代表 GPU 正同時執行多項"
 "任務。這通常意味著僅關閉單一功能未必大幅提升效能，因其他任務仍需序列執行。"
 
+msgid ""
+"The Visual Profiler is not supported when using the Compatibility renderer "
+"on macOS, due to platform limitations."
+msgstr "由於平台限制，在 macOS 上使用相容性轉譯器時不支援視覺效能分析器。"
+
 msgid "Network Profiler"
 msgstr "網路分析器"
 
@@ -339,6 +354,17 @@ msgstr ""
 
 msgid "Monitors"
 msgstr "效能監控"
+
+msgid ""
+"The monitors are graphs of several aspects of the game while it's running "
+"such as FPS, memory usage, how many nodes are in a scene and more. All "
+"monitors keep track of stats automatically, so even if one monitor isn't "
+"open while the game is running, you can open it later and see how the values "
+"changed."
+msgstr ""
+"監視器會在遊戲執行時以圖表顯示多項指標，例如 FPS、記憶體用量、場景中的節點數"
+"量等。所有監視器都會自動追蹤統計資料，因此就算遊戲執行時沒有開啟某個監視器，"
+"你之後仍可開啟並查看數值如何變化。"
 
 msgid ""
 "In addition to the default performance monitors, you can also "

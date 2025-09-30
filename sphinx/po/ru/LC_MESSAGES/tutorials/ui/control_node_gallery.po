@@ -11,6 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Control node gallery"
+msgstr "Галерея узлов управления"
+
+msgid "Here is a list of common Control nodes with their name next to them:"
+msgstr ""
+"Вот список распространенных узлов управления с их названиями рядом с ними:"
+
 msgid ""
 "The Control Gallery demo pictured above can be found `on GitHub <https://"
 "github.com/godotengine/godot-demo-projects/tree/master/gui/"

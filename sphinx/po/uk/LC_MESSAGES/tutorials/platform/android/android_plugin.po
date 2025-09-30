@@ -408,7 +408,7 @@ msgid ""
 "The created script must be a ``@tool`` script, or else it will not work "
 "properly"
 msgstr ""
-"Створений сценарій має бути сценарієм ``@tool``, інакше він не працюватиме "
+"Створений скрипта має бути скриптою ``@tool``, інакше він не працюватиме "
 "належним чином"
 
 msgid ""

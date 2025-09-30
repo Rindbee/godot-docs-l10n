@@ -14,6 +14,14 @@ msgstr ""
 msgid "Introduction"
 msgstr "Introduzione"
 
+msgid ""
+"See the `GUI in 3D <https://github.com/godotengine/godot-demo-projects/tree/"
+"master/viewport/gui_in_3d>`_ example project for an example of this approach."
+msgstr ""
+"Consulta il progetto di esempio `GUI in 3D <https://github.com/godotengine/"
+"godot-demo-projects/tree/master/viewport/gui_in_3d>`_ per un esempio di "
+"questo approccio."
+
 msgid "Adding a composition layer"
 msgstr "Aggiunta di uno strato di composizione"
 

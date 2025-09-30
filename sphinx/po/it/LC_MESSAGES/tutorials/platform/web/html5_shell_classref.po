@@ -165,6 +165,16 @@ msgstr ""
 msgid "The file to preload."
 msgstr "Il file da precaricare."
 
+msgid "If a ``string`` the file will be loaded from that path."
+msgstr "Se è fornita una ``string``, il file sarà caricato da quel percorso."
+
+msgid ""
+"If an ``ArrayBuffer`` or a view on one, the buffer will used as the content "
+"of the file."
+msgstr ""
+"Se è fornito un ``ArrayBuffer`` o una vista su di esso, il buffer sarà "
+"utilizzato come contenuto del file."
+
 msgid ""
 "Path by which the file will be accessible. Required, if ``file`` is not a "
 "string."

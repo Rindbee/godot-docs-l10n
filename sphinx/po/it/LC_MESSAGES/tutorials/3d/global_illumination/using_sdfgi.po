@@ -28,3 +28,6 @@ msgstr "Interazione di SDFGI con luci e oggetti"
 
 msgid "There are 3 global illumination modes available for meshes:"
 msgstr "Sono disponibili 3 modalità di illuminazione globale per le mesh:"
+
+msgid "SDFGI caveats"
+msgstr "Svantaggi di SDFGI"

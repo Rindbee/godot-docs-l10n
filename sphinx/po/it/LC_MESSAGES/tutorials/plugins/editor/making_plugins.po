@@ -14,6 +14,9 @@ msgstr ""
 msgid "Making plugins"
 msgstr "Creare estenzioni"
 
+msgid "About plugins"
+msgstr "Informazioni sulle estensioni"
+
 msgid "To continue with the example, use the following values:"
 msgstr "Per continuare con l'esempio, utilizzare i seguenti valori:"
 

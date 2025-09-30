@@ -18,11 +18,36 @@ msgid "Breaking changes"
 msgstr "破坏性更改"
 
 msgid ""
+"In order to support `new Google Play requirements`_ Android now requires "
+"targeting .NET 9 when exporting C# projects to Android, other platforms "
+"continue to use .NET 8 as the minimum required version but newer versions "
+"are supported and encouraged."
+msgstr ""
+"为支持 `新的 Google Play 要求`_，现在在将 C# 项目导出到 Android 平台时，必须"
+"以 .NET 9 为目标框架；其他平台仍以 .NET 8 作为最低要求版本，但鼓励使用并支持"
+"更新的版本。"
+
+msgid ""
+"If you are using C# in your project and want to export to Android, you will "
+"need to upgrade your project to .NET 9 (see `Upgrading to a new .NET "
+"version`_ for instructions)."
+msgstr ""
+"如果您在项目中使用了 C# 并希望导出到 Android 平台，则需要将项目升级至 .NET 9"
+"（升级方法请参阅 `Upgrading to a new .NET version`）。"
+
+msgid ""
 "This article indicates whether each breaking change affects GDScript and "
 "whether the C# breaking change is *binary compatible* or *source compatible*:"
 msgstr ""
 "这篇文章指出了每项破坏性改动是否会影响 GDScript，以及 C# 的破坏性改动是 *二进"
 "制兼容* 还是 *源代码兼容*\\ ："
+
+msgid ""
+"**Binary compatible** - Existing binaries will load and execute successfully "
+"without recompilation, and the run-time behavior won't change."
+msgstr ""
+"**二进制兼容** — 现有可执行文件无需重新编译即可成功加载和执行，且运行时行为不"
+"会发生变化。"
 
 msgid ""
 "**Source compatible** - Source code will compile successfully without "
@@ -47,29 +72,88 @@ msgstr "C# 源代码兼容"
 msgid "Introduced"
 msgstr "引入"
 
+msgid "**JSONRPC**"
+msgstr "**JSONRPC**"
+
 msgid "|❌|"
 msgstr "|❌|"
 
 msgid "|✔️ with compat|"
 msgstr "|✔️ with compat|"
 
+msgid "`GH-104890`_"
+msgstr "`GH-104890`_"
+
 msgid "**Node**"
 msgstr "**节点**"
+
+msgid "`GH-106848`_"
+msgstr "`GH-106848`_"
 
 msgid "|✔️|"
 msgstr "|✔️|"
 
+msgid "`GH-76560`_"
+msgstr "`GH-76560`_"
+
 msgid "Rendering"
 msgstr "渲染"
+
+msgid "**DisplayServer**"
+msgstr "**DisplayServer**"
+
+msgid "`GH-98194`_"
+msgstr "`GH-98194`_"
 
 msgid "**RenderingDevice**"
 msgstr "**RenderingDevice**"
 
+msgid "`GH-105570`_"
+msgstr "`GH-105570`_"
+
 msgid "**RenderingServer**"
 msgstr "**RenderingServer**"
 
+msgid "`GH-104269`_"
+msgstr "`GH-104269`_"
+
+msgid ""
+"In C#, the enum ``RenderingDevice.Features`` breaks compatibility because of "
+"the way the bindings generator detects the enum prefix. New members where "
+"added to the enum in `GH-103941`_ that caused the enum member ``Address`` to "
+"be renamed to ``BufferDeviceAddress``."
+msgstr ""
+"在 C# 中，枚举 ``RenderingDevice.Features`` 由于绑定生成器检测枚举前缀的方式"
+"而破坏了兼容性。在 `GH-103941`_ 中为该枚举新增了成员，导致枚举项 ``Address`` "
+"被重命名为 ``BufferDeviceAddress``。"
+
+msgid "GLTF"
+msgstr "GLTF"
+
+msgid "**GLTFAccessor**"
+msgstr "**GLTFAccessor**"
+
+msgid "`GH-106220`_"
+msgstr "`GH-106220`_"
+
+msgid "**GLTFBufferView**"
+msgstr "**GLTFBufferView**"
+
+msgid ""
+"As a result of changing the type metadata, the C# bindings changed the type "
+"from ``int`` (32-bytes) to ``long`` (64-bytes)."
+msgstr ""
+"由于类型元数据的变更，C# 绑定将该类型从 ``int``（32 位）已更改为 ``long``"
+"（64 位）。"
+
 msgid "Text"
 msgstr "文本"
+
+msgid "**CanvasItem**"
+msgstr "**CanvasItem**"
+
+msgid "`GH-104872`_"
+msgstr "`GH-104872`_"
 
 msgid "**Font**"
 msgstr "**字体**"
@@ -77,14 +161,172 @@ msgstr "**字体**"
 msgid "**RichTextLabel**"
 msgstr "**RichTextLabel**"
 
+msgid "`GH-76829`_"
+msgstr "`GH-76829`_"
+
+msgid ""
+"Method ``add_image`` replaced ``size_in_percent`` parameter by "
+"``width_in_percent`` and ``height_in_percent``"
+msgstr ""
+"方法 ``add_image`` 将参数 ``size_in_percent`` 替换为 ``width_in_percent`` 和 "
+"``height_in_percent``"
+
+msgid "`GH-107347`_"
+msgstr "`GH-107347`_"
+
+msgid "`GH-106300`_"
+msgstr "`GH-106300`_"
+
+msgid ""
+"Method ``update_image`` replaced ``size_in_percent`` parameter by "
+"``width_in_percent`` and ``height_in_percent``"
+msgstr ""
+"方法 ``update_image`` 将参数 ``size_in_percent`` 替换为 ``width_in_percent`` "
+"和 ``height_in_percent``"
+
+msgid "**TextLine**"
+msgstr "**TextLine**"
+
+msgid "Method ``draw`` adds a new ``oversampling`` optional parameter"
+msgstr "方法 ``draw`` 新增了一个可选参数 ``过采样``"
+
+msgid "Method ``draw_outline`` adds a new ``oversampling`` optional parameter"
+msgstr "方法 ``draw_outline`` 新增了一个参数``过采样``"
+
+msgid "**TextParagraph**"
+msgstr "**TextParagraph**"
+
+msgid "Method ``draw_dropcap`` adds a new ``oversampling`` optional parameter"
+msgstr "方法 ``draw_dropcap`` 新增了一个可选参数 ``过采样``"
+
+msgid ""
+"Method ``draw_dropcap_outline`` adds a new ``oversampling`` optional "
+"parameter"
+msgstr "方法 ``draw_dropcap_outline`` 新增了一个可选参数 ``过采样``"
+
+msgid "Method ``draw_line`` adds a new ``oversampling`` optional parameter"
+msgstr "方法 ``draw_line`` 新增了一个可选参数 ``过采样``"
+
+msgid ""
+"Method ``draw_line_outline`` adds a new ``oversampling`` optional parameter"
+msgstr "方法 ``draw_line_outline`` 新增了一个可选参数 ``过采样``"
+
 msgid "**TextServer**"
 msgstr "**TextServer**"
+
+msgid ""
+"Method ``font_draw_glyph`` adds a new ``oversampling`` optional parameter"
+msgstr "方法 ``font_draw_glyph`` 新增了一个可选参数 ``过采样``"
+
+msgid ""
+"Method ``font_draw_glyph_outline`` adds a new ``oversampling`` optional "
+"parameter"
+msgstr "方法 ``font_draw_glyph_outline`` 新增了一个可选参数 ``过采样``"
+
+msgid ""
+"Method ``shaped_text_draw`` adds a new ``oversampling`` optional parameter"
+msgstr "方法 ``shaped_text_draw`` 新增了一个可选参数 ``过采样``"
+
+msgid ""
+"Method ``shaped_text_draw_outline`` adds a new ``oversampling`` optional "
+"parameter"
+msgstr "方法 ``shaped_text_draw_outline`` 新增了一个可选参数 ``过采样``"
+
+msgid "**TreeItem**"
+msgstr "**TreeItem**"
+
+msgid "Method ``add_button`` adds a new ``alt_text`` optional parameter"
+msgstr "方法 ``add_button`` 新增了一个可选参数 ``alt_text``"
 
 msgid "**TextServerExtension**"
 msgstr "**TextServerExtension**"
 
+msgid ""
+"Method ``_font_draw_glyph`` adds a new ``oversampling`` optional parameter"
+msgstr "方法 ``_font_draw_glyph`` 新增了一个可选参数 ``过采样``"
+
+msgid ""
+"Method ``_font_draw_glyph_outline`` adds a new ``oversampling`` optional "
+"parameter"
+msgstr "方法 ``_font_draw_glyph_outline`` 新增了一个可选参数 ``过采样``"
+
+msgid ""
+"Method ``_shaped_text_draw`` adds a new ``oversampling`` optional parameter"
+msgstr "方法 ``_shaped_text_draw`` 新增了一个可选参数 ``过采样``"
+
+msgid ""
+"Method ``_shaped_text_draw_outline`` adds a new ``oversampling`` optional "
+"parameter"
+msgstr "方法 ``_shaped_text_draw_outline`` 新增了一个可选参数 ``过采样``"
+
 msgid "XR"
 msgstr "XR"
+
+msgid "**OpenXRAPIExtension**"
+msgstr "**OpenXRAPIExtension**"
+
+msgid ""
+"Method ``register_composition_layer_provider`` changes ``extension`` "
+"parameter type from ``OpenXRExtensionWrapperExtension`` to "
+"``OpenXRExtensionWrapper``"
+msgstr ""
+"方法 ``register_composition_layer_provider`` 将参数 ``extension`` 的类型从 "
+"``OpenXRExtensionWrapperExtension`` 更改为 ``OpenXRExtensionWrapper``"
+
+msgid ""
+"Method ``register_projection_views_extension`` changes ``extension`` "
+"parameter type from ``OpenXRExtensionWrapperExtension`` to "
+"``OpenXRExtensionWrapper``"
+msgstr ""
+"方法 ``register_projection_views_extension`` 将参数 ``extension`` 的类型从 "
+"``OpenXRExtensionWrapperExtension`` 更改为 ``OpenXRExtensionWrapper``"
+
+msgid ""
+"Method ``unregister_composition_layer_provider`` changes ``extension`` "
+"parameter type from ``OpenXRExtensionWrapperExtension`` to "
+"``OpenXRExtensionWrapper``"
+msgstr ""
+"方法 ``unregister_composition_layer_provider`` 将参数 ``extension`` 的类型从 "
+"``OpenXRExtensionWrapperExtension`` 更改为 ``OpenXRExtensionWrapper``"
+
+msgid ""
+"Type ``OpenXRBindingModifierEditor`` changed API type from Core to Editor"
+msgstr ""
+"类型 ``OpenXRBindingModifierEditor`` 的 API 类型从 Core 已更改为 Editor"
+
+msgid ""
+"Type ``OpenXRInteractionProfileEditor`` changed API type from Core to Editor"
+msgstr ""
+"类型 ``OpenXRInteractionProfileEditor`` 的 API 类型从 Core 已更改为 Editor"
+
+msgid ""
+"Type ``OpenXRInteractionProfileEditorBase`` changed API type from Core to "
+"Editor"
+msgstr ""
+"类型 ``OpenXRInteractionProfileEditorBase`` 的 API 类型从 Core 已更改为 "
+"Editor"
+
+msgid ""
+"Classes ``OpenXRBindingModifierEditor``, ``OpenXRInteractionProfileEditor``, "
+"and ``OpenXRInteractionProfileEditorBase`` are only available in the editor. "
+"Using them outside of the editor will result in a compilation error."
+msgstr ""
+"类 ``OpenXRBindingModifierEditor``、``OpenXRInteractionProfileEditor`` 和 "
+"``OpenXRInteractionProfileEditorBase`` 仅在编辑器中可用。在编辑器外部使用这些"
+"类将导致编译错误。"
+
+msgid ""
+"In C#, this means the types are moved from the ``GodotSharp`` assembly to "
+"the ``GodotSharpEditor`` assembly. Make sure to wrap code that uses these "
+"types in a ``#if TOOLS`` block to ensure they are not included in an "
+"exported game."
+msgstr ""
+"在 C# 中，这意味着这些类型已从 ``GodotSharp`` 程序集移至 "
+"``GodotSharpEditor`` 程序集。请确保将使用这些类型的代码包裹在 ``#if TOOLS`` "
+"块中，以确保它们不会被包含在导出的游戏内。"
+
+msgid "**This change was also backported to 4.4.1.**"
+msgstr "**此更改也已向后移植到 4.4.1 版本。**"
 
 msgid "Editor plugins"
 msgstr "编辑器插件"
@@ -92,8 +334,85 @@ msgstr "编辑器插件"
 msgid "**EditorUndoRedoManager**"
 msgstr "**EditorUndoRedoManager**"
 
+msgid "**EditorExportPlatformExtension**"
+msgstr "**EditorExportPlatformExtension**"
+
 msgid "Behavior changes"
 msgstr "行为更改"
 
+msgid "3D Model Import"
+msgstr "3D 模型导入"
+
+msgid ""
+"A fix has been made to the 3D model importers to correctly handle non-joint "
+"nodes within a skeleton hierarchy (`GH-104184`_). To preserve compatibility, "
+"the default behavior is to import existing files with the same behavior as "
+"before (`GH-107352`_). New ``.gltf``, ``.glb``, ``.blend``, and ``.fbx`` "
+"files (without a corresponding ``.import`` file) will be imported with the "
+"new behavior. However, for existing files, if you want to use the new "
+"behavior, you must change the \"Naming Version\" option at the bottom of the "
+"Import dock:"
+msgstr ""
+"3D 模型导入器已进行修复，以正确处理骨骼层级结构中的非关节节点"
+"（`GH-104184`_）。为保持兼容性，默认行为是沿用旧版方式导入现有文件"
+"（`GH-107352`_）。对于新的 ``.gltf``、``.glb``、``.blend`` 和 ``.fbx`` 文件"
+"（无对应的 ``.import`` 文件），将使用新行为进行导入。但如果您希望对现有文件启"
+"用新行为，则必须在导入面板底部修改“命名版本”（Naming Version）选项："
+
+msgid ""
+"In C#, ``StringExtensions.PathJoin`` now avoids adding an extra path "
+"separator when the original string is empty, or when the appended path "
+"starts with a path separator (`GH-105281`_)."
+msgstr ""
+"在 C# 中，``StringExtensions.PathJoin`` 现在会在原始字符串为空，或追加的路径"
+"以路径分隔符开头时，避免添加多余的路径分隔符（`GH-105281`_）。"
+
+msgid ""
+"In C#, ``StringExtensions.GetExtension`` now returns an empty string instead "
+"of the original string when the original string does not contain an "
+"extension (`GH-108041`_)."
+msgstr ""
+"在 C# 中，当原始字符串不包含扩展名时，``StringExtensions.GetExtension`` 现在"
+"将返回空字符串，而不是返回原始字符串（`GH-108041`_）。"
+
+msgid ""
+"In C#, the ``Quaternion(Vector3, Vector3)`` constructor now correctly "
+"creates a quaternion representing the shortest arc between the two input "
+"vectors. Previously, it would return incorrect values for certain inputs "
+"(`GH-107618`_)."
+msgstr ""
+"在 C# 中，``Quaternion(Vector3, Vector3)`` 构造函数现在能正确创建表示两个输入"
+"向量之间最短弧的四元数。此前，对于某些输入值，该构造函数会返回错误的结果"
+"（`GH-107618`_）。"
+
 msgid "Physics"
 msgstr "物理"
+
+msgid ""
+"When the 3D physics engine is set to Jolt Physics, you will now always have "
+"overlaps between ``Area3D`` and static bodies reported by default, as the "
+"``physics/jolt_physics_3d/simulation/areas_detect_static_bodies`` project "
+"setting has been removed (`GH-105746`_). If you still want such overlaps to "
+"be ignored, you will need to change the collision mask or layer of either "
+"the ``Area3D`` or the static body instead."
+msgstr ""
+"当 3D 物理引擎设置为 Jolt Physics 时，现在默认情况下将始终报告 ``Area3D`` 与"
+"静态物体之间的重叠，因为项目设置项 ``physics/jolt_physics_3d/simulation/"
+"areas_detect_static_bodies`` 已被移除（`GH-105746`_）。如果您仍希望忽略此类重"
+"叠，则需要改为调整 ``Area3D`` 或静态物体的碰撞掩码（collision mask）或碰撞层"
+"（collision layer）。"
+
+msgid ""
+"In GDScript, calls to functions ``RichTextLabel::add_image`` and "
+"``RichTextLabel::update_image`` will continue to work, but the "
+"``size_in_percent`` argument will now be used as the value for "
+"``width_in_percent`` and ``height_in_percent`` will default to ``false`` "
+"(`GH-107347`_). To restore the previous behavior, you can explicitly set "
+"``height_in_percent`` to the same value you were passing as "
+"``size_in_percent``."
+msgstr ""
+"在 GDScript 中，对函数 ``RichTextLabel::add_image`` 和 "
+"``RichTextLabel::update_image`` 的调用将继续有效，但 ``size_in_percent`` 参数"
+"现在将被用作 ``width_in_percent`` 的值，而 ``height_in_percent`` 将默认为 "
+"``false``（`GH-107347`_）。若要恢复之前的行为，您可以显式地将 "
+"``height_in_percent`` 设置为您之前传递给 ``size_in_percent`` 的相同值。"

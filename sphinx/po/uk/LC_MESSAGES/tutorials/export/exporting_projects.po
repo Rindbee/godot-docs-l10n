@@ -80,7 +80,7 @@ msgid ""
 "project on those devices, a binary for each of those platforms is built, "
 "then added to a native project together with the game data."
 msgstr ""
-"Той самий сценарій для мобільних платформ трохи не підходить. Для "
+"Той самий скрипт для мобільних платформ трохи не підходить. Для "
 "розповсюдження проєкту на цих пристроях компілюється бінарник для кожної з "
 "цих платформ, а потім додається до проєкту разом із даними гри."
 

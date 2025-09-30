@@ -117,6 +117,16 @@ msgstr ""
 "及 :ref:`GodotObject.Set() <class_Object_method_set>`。第一個參數為欲存取的欄"
 "位名稱。"
 
+msgid ""
+"Keep in mind that when setting a field value you should only use types the "
+"GDScript side knows about. Essentially, you want to work with built-in types "
+"as described in :ref:`doc_gdscript_builtin_types` or classes "
+"extending :ref:`class_Object`."
+msgstr ""
+"請記得，在設定欄位值時只能使用 GDScript 端所認得的型別。基本上，你應使"
+"用 :ref:`doc_gdscript_builtin_types` 中描述的內建型別，或是繼承"
+"自 :ref:`class_Object` 的類別。"
+
 msgid "Calling methods"
 msgstr "呼叫方法"
 

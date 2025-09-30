@@ -177,6 +177,9 @@ msgstr ""
 "правом верхнем углу также находится счётчик кадров, где можно вручную "
 "настроить более детальную информацию о рассматриваемом кадре."
 
+msgid "Scope of measurement and measurement windows"
+msgstr "Область измерения и окна измерений"
+
 msgid ""
 "You can change what measurement you are looking at using the **Measure** "
 "drop-down menu. By default, it starts with Frame Time and lists the time it "

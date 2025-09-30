@@ -41,6 +41,9 @@ msgstr "my_first_action_set"
 msgid "2"
 msgstr "2"
 
+msgid "My first action set"
+msgstr "My first action set"
+
 msgid "3"
 msgstr "3"
 
@@ -49,6 +52,12 @@ msgstr "0"
 
 msgid "Actions"
 msgstr "Azioni"
+
+msgid "The ``Bool`` type is used for discrete input like buttons."
+msgstr "Il tipo ``Bool`` serve per input discreti come i pulsanti."
+
+msgid "The ``Float`` type is used for analogue input like triggers."
+msgstr "Il tipo ``Float`` serve per input analogici come le levette."
 
 msgid "Pose"
 msgstr "Posa"

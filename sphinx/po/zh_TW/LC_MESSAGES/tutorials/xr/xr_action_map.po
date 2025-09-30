@@ -212,6 +212,14 @@ msgid ""
 "single action set and to not over-engineer things."
 msgstr "建議您的第一個 XR 專案僅設計一組動作集，避免過度設計。"
 
+msgid ""
+"For our walkthrough in this document we will thus create a single action set "
+"called ``my_first_action_set``. We do this by pressing the :button:`Add "
+"action set` button:"
+msgstr ""
+"在本文件的示範中，我們將建立一組名為 ``my_first_action_set`` 的動作集。請按"
+"下 :button:`Add action set` 按鈕："
+
 msgid "The columns in our table are as follows:"
 msgstr "表格中的欄位意義如下："
 
@@ -256,6 +264,14 @@ msgstr "3"
 
 msgid "0"
 msgstr "0"
+
+msgid ""
+"This is the priority of the action set. If multiple active action sets have "
+"actions bound to the same controller's inputs or outputs, the action set "
+"with the highest priority value will determine the action that is updated."
+msgstr ""
+"這是動作集的優先順序。若多個啟用中的動作集將動作綁定到相同控制器的輸入或輸"
+"出，則優先值最高的動作集會決定要更新的動作。"
 
 msgid "Actions"
 msgstr "動作"
@@ -858,6 +874,11 @@ msgstr ""
 "理。"
 
 msgid ""
+"You can add a new modifier by pressing the :button:`Add binding modifier` "
+"button."
+msgstr "按下 :button:`Add binding modifier` 按鈕即可新增修飾器。"
+
+msgid ""
 "As Godot doesn't know which controllers and runtimes support a modifier, "
 "there is no restriction to adding modifiers. Unsupported modifiers will be "
 "ignored."
@@ -955,6 +976,11 @@ msgid ""
 "``On Haptic`` lets us define a haptic output that is automatically activated "
 "when an action becomes pressed."
 msgstr "``On Haptic``：當動作觸發時自動啟動的觸覺回饋。"
+
+msgid ""
+"``Off Haptic`` lets us define a haptic output that is automatically "
+"activated when an action is released."
+msgstr "``Off Haptic`` 可讓我們定義在動作被釋放時自動啟動的觸覺輸出。"
 
 msgid "Binding modifiers on individual bindings"
 msgstr "單一綁定層級的綁定修飾器"

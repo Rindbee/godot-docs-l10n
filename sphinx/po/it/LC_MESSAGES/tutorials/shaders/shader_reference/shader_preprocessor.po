@@ -17,9 +17,54 @@ msgstr "Preprocessore di shader"
 msgid "Why use a shader preprocessor?"
 msgstr "Perché utilizzare un preprocessore di shader?"
 
+msgid "Directives"
+msgstr "Direttive"
+
+msgid "General syntax"
+msgstr "Sintassi generale"
+
+msgid "**Syntax:** ``#undef identifier``"
+msgstr "**Sintassi:** ``#undef identifier``"
+
+msgid "#if"
+msgstr "#if"
+
+msgid "**Syntax:** ``#if <condition>``"
+msgstr "**Sintassi:** ``#if <condition>``"
+
 msgid "**#if preprocessor versus if statement: Performance caveats**"
 msgstr ""
 "**Preprocessore #if contro istruzione if: avvertenze sulle prestazioni**"
 
+msgid "#elif"
+msgstr "#elif"
+
+msgid "**Syntax:** ``#ifdef <identifier>``"
+msgstr "**Sintassi:** ``#ifdef <identifier>``"
+
+msgid "**Syntax:** ``#ifndef <identifier>``"
+msgstr "**Sintassi:** ``#ifndef <identifier>``"
+
+msgid "#else"
+msgstr "#else"
+
+msgid "**Syntax:** ``#else``"
+msgstr "**Sintassi:** ``#else``"
+
+msgid "**Syntax:** ``#endif``"
+msgstr "**Sintassi:** ``#endif``"
+
 msgid "#error"
 msgstr "#error"
+
+msgid "**Syntax:** ``#error <message>``"
+msgstr "**Sintassi:** ``#error <message>``"
+
+msgid "#include"
+msgstr "#include"
+
+msgid "**Syntax:** ``#include \"path\"``"
+msgstr "**Sintassi:** ``#include \"path\"``"
+
+msgid "**Syntax:** ``#pragma value``"
+msgstr "**Sintassi:** ``#pragma value``"

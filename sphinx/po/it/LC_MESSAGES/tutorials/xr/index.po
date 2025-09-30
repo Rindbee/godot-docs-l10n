@@ -20,3 +20,9 @@ msgid ""
 msgstr ""
 "Questa sezione del manuale tratta di tutto ciò che riguarda la XR (realtà "
 "virtuale e realtà aumentata)."
+
+msgid "Basic Tutorial"
+msgstr "Tutorial basilare"
+
+msgid "Advanced topics"
+msgstr "Argomenti avanzati"

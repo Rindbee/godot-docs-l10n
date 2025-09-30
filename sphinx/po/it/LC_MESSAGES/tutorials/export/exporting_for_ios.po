@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Exporting for iOS"
+msgstr "Esportazione per iOS"
+
 msgid "Requirements"
 msgstr "Requisiti"
 
@@ -20,6 +23,12 @@ msgid ""
 msgstr ""
 "``JSON text did not start with array or object and option to allow fragments "
 "not set``"
+
+msgid "In the following example:"
+msgstr "Nell'esempio seguente:"
+
+msgid "Plugins for iOS"
+msgstr "Plugin per iOS"
 
 msgid "Environment variables"
 msgstr "Variabili d'ambiente"

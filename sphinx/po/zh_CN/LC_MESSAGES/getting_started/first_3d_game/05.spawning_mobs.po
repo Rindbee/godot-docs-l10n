@@ -52,6 +52,14 @@ msgstr "image1"
 msgid "If you still have *Input Map* open, switch to the *General* tab."
 msgstr "如果你仍然打开着\\ *输入映射*\\ ，请切换到\\ *通用*\\ 选项卡。"
 
+msgid ""
+"In the left menu, navigate down to *Display -> Window*. On the right, set "
+"the *Viewport Width* to ``720`` and the *Viewport Height* to ``540``."
+msgstr ""
+"在左侧菜单中，导航至 *显示（Display）-> 窗口（Window）*。在右侧，将 *视口宽度"
+"（Viewport Width）* 设置为 ``720``，*视口高度（Viewport Height）* 设置为 "
+"``540``。"
+
 msgid "|image2|"
 msgstr "|image2|"
 

@@ -523,7 +523,7 @@ msgstr ""
 
 msgid "``aabb``: The computed axis-aligned bounding box for visibility."
 msgstr ""
-"``aabb``: il bounding box allineato agli assi calcolato per la visibilità."
+"``aabb``: La bounding box allineata agli assi calcolata per la visibilità."
 
 msgid ""
 "``attribute_data``: Vertex attribute data, such as normals, tangents, vertex "
@@ -535,7 +535,7 @@ msgstr ""
 msgid ""
 "``bone_aabbs``: The axis-aligned bounding box of each bone for visibility."
 msgstr ""
-"``bone_aabbs``: il bounding box allineato agli assi di ogni osso per la "
+"``bone_aabbs``: La bounding box allineata agli assi di ogni osso per la "
 "visibilità."
 
 msgid "``format``: The surface's buffer format."

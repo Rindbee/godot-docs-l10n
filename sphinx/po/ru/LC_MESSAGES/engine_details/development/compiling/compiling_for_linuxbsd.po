@@ -106,6 +106,11 @@ msgid "(64 bits)"
 msgstr "(64 бита)"
 
 msgid ""
+"Go to the root of the source code, and execute the following build command:"
+msgstr ""
+"Перейдите в корень исходного кода и выполните следующую команду сборки:"
+
+msgid ""
 "To do so, install Clang and the ``lld`` package from your distribution's "
 "package manager then use the following SCons command:"
 msgstr ""

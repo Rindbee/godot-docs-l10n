@@ -13,3 +13,13 @@ msgstr ""
 
 msgid "Importing 3D scenes"
 msgstr "Importare Scene 3D"
+
+msgid ""
+"3D scenes can be loaded at runtime using :ref:`runtime file loading and "
+"saving <doc_runtime_file_loading_and_saving_3d_scenes>`, including from an "
+"exported project."
+msgstr ""
+"È possibile caricare le scene 3D in fase di esecuzione "
+"attraverso :ref:`caricamento e salvataggio dei file in fase di esecuzione "
+"<doc_runtime_file_loading_and_saving_3d_scenes>`, anche da un progetto "
+"esportato."

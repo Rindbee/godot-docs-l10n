@@ -13,3 +13,6 @@ msgstr ""
 
 msgid "Importing translations"
 msgstr "Importazione delle traduzioni"
+
+msgid "Supported formats"
+msgstr "Formati supportati"

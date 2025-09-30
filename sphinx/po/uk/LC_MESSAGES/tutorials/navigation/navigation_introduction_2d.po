@@ -342,7 +342,7 @@ msgid ""
 "movement target after the scene has fully loaded and the NavigationServer "
 "had time to sync."
 msgstr ""
-"Додайте наступний сценарій до вузла CharacterBody2D. Ми обов’язково "
+"Додайте наступний скрипт до вузла CharacterBody2D. Ми обов’язково "
 "встановлюємо ціль переміщення після того, як сцена повністю завантажилась і "
 "NavigationServer мав час для синхронізації."
 

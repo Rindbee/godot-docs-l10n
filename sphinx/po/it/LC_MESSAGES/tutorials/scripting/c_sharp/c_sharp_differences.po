@@ -14,6 +14,11 @@ msgstr ""
 msgid "C# API differences to GDScript"
 msgstr "Differenze dell'API C# rispetto a GDScript"
 
+msgid ""
+"This is an (incomplete) list of API differences between C# and GDScript."
+msgstr ""
+"Questa è un elenco (incompleta) di differenze di API tra C# e GDScript."
+
 msgid "General differences"
 msgstr "Differenze generali"
 
@@ -54,6 +59,9 @@ msgstr ""
 "IntelliSense per C#, e non fornisce molti altri strumenti di sviluppo per C# "
 "che sono considerati essenziali. "
 "Consulta :ref:`doc_c_sharp_setup_external_editor`."
+
+msgid "Global scope"
+msgstr "Ambito globale"
 
 msgid ""
 "Global functions and some constants had to be moved to classes, since C# "
@@ -753,6 +761,9 @@ msgstr "Mathf.StepDecimals"
 msgid "str"
 msgstr "str"
 
+msgid "Use `$ string interpolation`_"
+msgstr "Usare `$ string interpolation`_"
+
 msgid "str_to_var"
 msgstr "str_to_var"
 
@@ -1010,6 +1021,13 @@ msgstr ""
 "Usa ``System.String`` (``string``). La maggior parte dei metodi di String in "
 "Godot ha un equivalente in ``System.String`` o sono forniti dalla classe "
 "``StringExtensions`` come metodi di estensione."
+
+msgid ""
+"Note that C# strings use UTF-16 encoding, while Godot Strings use UTF-32 "
+"encoding."
+msgstr ""
+"Si noti che le stringhe in C# utilizzano la codifica UTF-16, mentre le "
+"stringhe in Godot utilizzano la codifica UTF-32."
 
 msgid ""
 "Strings are immutable in .NET, so all methods that manipulate a string don't "

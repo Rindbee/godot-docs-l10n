@@ -17,12 +17,15 @@ msgstr "프로젝트 설정하기"
 msgid "In this short first part, we'll set up and organize the project."
 msgstr "이 짧은 첫 번째 파트에서는 프로젝트를 설정하고 정리해 보겠습니다."
 
+msgid "Launch Godot and create a new project."
+msgstr "Godot를 실행하고 새로운 프로젝트를 만듭니다."
+
 msgid ""
 "When creating the new project, you only need to choose a valid *Project "
 "Path*. You can leave the other default settings alone."
 msgstr ""
-"새 프로젝트를 만들 때 올바른 *프로젝트 경로(Project Path)*만 선택하면 됩니"
-"다. 다른 기본 설정은 그대로 두셔도 됩니다."
+"새 프로젝트를 만들 때 올바른 *프로젝트 경로*\\ 만 선택하면 됩니다. 다른 디폴"
+"트 설정은 그대로 두셔도 됩니다."
 
 msgid "GDScript"
 msgstr "GDScript"

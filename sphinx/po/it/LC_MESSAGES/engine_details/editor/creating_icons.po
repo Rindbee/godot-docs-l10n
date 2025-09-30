@@ -17,6 +17,9 @@ msgstr "Icone dell'editor"
 msgid "Creating icons"
 msgstr "Creazione di icone"
 
+msgid "Set ``editor/convert_colors_with_editor_theme`` to ``true``"
+msgstr "Imposta ``editor/convert_colors_with_editor_theme`` su ``true``"
+
 msgid "Icon optimization"
 msgstr "Ottimizzazione delle icone"
 

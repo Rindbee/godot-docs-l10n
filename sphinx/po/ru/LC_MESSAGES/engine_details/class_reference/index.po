@@ -22,6 +22,22 @@ msgstr ""
 "Эта страница объясняет, как написать ссылку на класс. Вы узнаете, где писать "
 "новые описания для классов, методов и свойств встроенных узлов Godot."
 
+msgid ""
+"To learn to submit your changes to the Godot project using the Git version "
+"control system, see `Class reference contribution documentation <https://"
+"contributing.godotengine.org/en/latest/documentation/"
+"class_reference.html>`__."
+msgstr ""
+"Чтобы узнать, как отправлять изменения в проект Godot с помощью системы "
+"контроля версий Git, см. `Документацию по вкладу ссылок на классы <https://"
+"contributing.godotengine.org/en/latest/documentation/"
+"class_reference.html>`__."
+
+msgid ""
+"The reference for each class is contained in an XML file like the one below:"
+msgstr ""
+"Ссылка на каждый класс содержится в XML-файле, подобном приведенному ниже:"
+
 msgid "`<brief_description>`"
 msgstr "`<brief_description>`"
 
@@ -369,7 +385,7 @@ msgid "``[codeblock lang=text]`` disables syntax highlighting;"
 msgstr "``[codeblock lang=text]`` отключает подсветку синтаксиса;"
 
 msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
-msgstr "``[codeblock lang=gdscript]`` освещает синтаксис GDScript;"
+msgstr "``[codeblock lang=gdscript]`` подсвечивает синтаксис GDScript;"
 
 msgid ""
 "``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."

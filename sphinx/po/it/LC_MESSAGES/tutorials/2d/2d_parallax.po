@@ -20,8 +20,46 @@ msgstr "Per iniziare"
 msgid "Scroll scale"
 msgstr "Scala di scorrimento"
 
+msgid ""
+"The scene above is comprised of five layers. Some good :ref:`scroll_scale "
+"<class_parallax2d_property_scroll_scale>` values might be:"
+msgstr ""
+"La scena qui sopra è composta da cinque livelli. Alcuni buoni valori "
+"per :ref:`scroll_scale <class_parallax2d_property_scroll_scale>` potrebbero "
+"essere:"
+
+msgid "``(0.7, 1)`` - Forest"
+msgstr "``(0.7, 1)`` - Forest"
+
+msgid "``(0.5, 1)`` - Hills"
+msgstr "``(0.5, 1)`` - Hills"
+
+msgid "``(0.3, 1)`` - Lower Clouds"
+msgstr "``(0.3, 1)`` - Lower Clouds"
+
+msgid "``(0.2, 1)`` - Higher Clouds"
+msgstr "``(0.2, 1)`` - Higher Clouds"
+
+msgid "``(0.1, 1)`` - Sky"
+msgstr "``(0.1, 1)`` - Sky"
+
+msgid ""
+"The video below displays how these values affect scrolling while in-game:"
+msgstr ""
+"Il video qui sotto mostra come questi valori influiscono sullo scorrimento "
+"durante il gioco:"
+
+msgid "Infinite repeat"
+msgstr "Ripetizione infinita"
+
 msgid "Repeat the textures"
 msgstr "Ripetere le texture"
+
+msgid ""
+"set :ref:`region_enabled<class_sprite2d_property_region_enabled>` to ``true``"
+msgstr ""
+"imposta :ref:`region_enabled<class_sprite2d_property_region_enabled>` su "
+"``true``"
 
 msgid "Poor positioning"
 msgstr "Posizionamento inadeguato"

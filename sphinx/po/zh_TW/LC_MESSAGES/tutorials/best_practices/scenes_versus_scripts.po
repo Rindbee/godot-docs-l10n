@@ -21,6 +21,16 @@ msgstr ""
 "我們已經解釋了場景與腳本有什麼不同。腳本通過了指令式程式碼定義了引擎類別的延"
 "伸，而場景則是用宣告性程式碼定義。"
 
+msgid ""
+"Each system's capabilities are different as a result. Scenes can define how "
+"an extended class initializes, but not what its behavior actually is. Scenes "
+"are often used in conjunction with a script, the scene declaring a "
+"composition of nodes, and the script adding behavior with imperative code."
+msgstr ""
+"因此，每個系統的能力各不相同。場景可以定義擴充類別的初始化方式，但無法定義其"
+"實際行為。場景通常會與腳本搭配使用：場景負責宣告節點的組合，而腳本以命令式程"
+"式碼加入行為。"
+
 msgid "Anonymous types"
 msgstr "匿名型別"
 

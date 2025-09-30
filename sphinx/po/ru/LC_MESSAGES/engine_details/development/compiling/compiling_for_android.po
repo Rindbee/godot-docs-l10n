@@ -66,11 +66,32 @@ msgstr ""
 msgid "Required SDK components will be automatically installed."
 msgstr "Необходимые компоненты SDK будут установлены автоматически."
 
+msgid ""
+"On Linux, **do not use an Android SDK provided by your distribution's "
+"repositories** as it will often be outdated."
+msgstr ""
+"В Linux **не используйте Android SDK, предоставленный в репозиториях вашего "
+"дистрибутива**, так как он часто устаревает."
+
+msgid ""
+"On macOS, **do not use an Android SDK provided by Homebrew** as it will not "
+"be installed in a unified location."
+msgstr ""
+"На macOS **не используйте Android SDK, предоставленный Homebrew**, так как "
+"он не будет установлен в едином месте."
+
 msgid "Gradle (will be downloaded and installed automatically if missing)."
 msgstr "Gradle (будет загружен и установлен автоматически, если отсутствует)."
 
 msgid "JDK 17 (either OpenJDK or Oracle JDK)."
 msgstr "JDK 17 (либо OpenJDK, либо Oracle JDK)."
+
+msgid ""
+"You can download a build from `Adoptium <https://adoptium.net/temurin/"
+"releases/?variant=openjdk17>`_."
+msgstr ""
+"Вы можете загрузить сборку с сайта `Adoptium <https://adoptium.net/temurin/"
+"releases/?variant=openjdk17>`_."
 
 msgid ""
 "For a general overview of SCons usage for Godot, "
@@ -81,6 +102,9 @@ msgstr ""
 
 msgid "Setting up the buildsystem"
 msgstr "Настройка билда"
+
+msgid "The resulting templates will be located under the ``bin`` directory:"
+msgstr "Полученные шаблоны будут расположены в каталоге ``bin``:"
 
 msgid "``bin/android_release.apk`` for the release template"
 msgstr "``bin/android_release.apk`` для шаблона релиза"
@@ -105,6 +129,9 @@ msgstr ""
 msgid "Adding support for x86 devices"
 msgstr "Добавление поддержки систем x86"
 
+msgid "Cleaning the generated export templates"
+msgstr "Очистка созданных шаблонов экспорта"
+
 msgid "Windows: ``%APPDATA%\\Godot\\export_templates\\<version>\\``"
 msgstr "Windows: ``%APPDATA%\\Godot\\export_templates\\<version>\\``"
 
@@ -120,6 +147,24 @@ msgstr ""
 
 msgid "Building the Godot editor"
 msgstr "Создание редактора Godot"
+
+msgid ""
+"The resulting binaries will be located under ``bin/android_editor_builds/``."
+msgstr ""
+"Полученные двоичные файлы будут расположены в папке ``bin/"
+"android_editor_builds/``."
+
+msgid "Removing the Editor binaries"
+msgstr "Удаление двоичных файлов Редактора"
+
+msgid ""
+"You can use the following commands to remove the generated editor binaries:"
+msgstr ""
+"Для удаления сгенерированных двоичных файлов редактора можно использовать "
+"следующие команды:"
+
+msgid "Installing the Godot editor APK"
+msgstr "Установка APK-файла редактора Godot"
 
 msgid "Troubleshooting"
 msgstr "Устранение неполадок"

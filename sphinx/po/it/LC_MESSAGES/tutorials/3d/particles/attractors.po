@@ -17,6 +17,12 @@ msgstr "Attrattori di particelle 3D"
 msgid "Particle attractors"
 msgstr "Attrattori di particelle"
 
+msgid "Common properties"
+msgstr "Proprietà comuni"
+
+msgid "Common particle attractor properties"
+msgstr "Proprietà comuni di attrattori di particelle"
+
 msgid "Particle attractor box"
 msgstr "Riquadro di attrattore di particelle"
 

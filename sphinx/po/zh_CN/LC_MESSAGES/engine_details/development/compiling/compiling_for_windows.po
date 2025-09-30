@@ -210,6 +210,17 @@ msgstr "详见 :ref:`doc_configuring_an_ide_vs`\\ 。"
 msgid "Troubleshooting"
 msgstr "故障排除"
 
+msgid ""
+"If you get a compilation failure when using MSVC, make sure to apply the "
+"latest updates. You can do so by starting the Visual Studio IDE and "
+"using :button:`Continue without code`, then :menu:`Help > Check for Updates` "
+"in the menu bar at the top. Install all updates, then try compiling again."
+msgstr ""
+"如果使用 MSVC 时遇到编译失败，请确保已安装最新更新。您可以通过启动 Visual "
+"Studio IDE，点击 :button:`Continue without code`（无代码继续），然后在顶部菜"
+"单栏中选择 :menu:`Help > Check for Updates` （帮助 > 检查更新）来完成更新。安"
+"装所有更新后，再次尝试编译。"
+
 msgid "Cross-compiling for Windows from other operating systems"
 msgstr "从其他操作系统为 Windows 交叉编译"
 

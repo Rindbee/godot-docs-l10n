@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Mesh level of detail (LOD)"
+msgstr "Niveau de détail d'un maillage (LOD)"
+
 msgid "Introduction"
 msgstr "Introduction"
 

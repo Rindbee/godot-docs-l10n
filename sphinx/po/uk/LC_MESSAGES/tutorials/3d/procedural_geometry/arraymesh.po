@@ -233,7 +233,7 @@ msgstr ""
 "отримати доступ до ArrayMesh із коду, не створюючи його."
 
 msgid "Next, add a script to the MeshInstance3D."
-msgstr "Далі додайте сценарій до MeshInstance3D."
+msgstr "Далі додайте скрипт до MeshInstance3D."
 
 msgid "Under ``_ready()``, create a new Array."
 msgstr "Під ``_ready()`` створіть новий масив."

@@ -17,6 +17,9 @@ msgstr "API thread-safe"
 msgid "Threads"
 msgstr "Threads"
 
+msgid "Global scope"
+msgstr "Ambito globale"
+
 msgid "Scene tree"
 msgstr "Albero di scene"
 

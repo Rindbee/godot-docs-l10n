@@ -17,6 +17,9 @@ msgstr "Valutazione delle espressioni"
 msgid "An expression can be:"
 msgstr "Un'espressione può essere:"
 
+msgid "Basic usage"
+msgstr "Utilizzo di base"
+
 msgid "The following operators are available:"
 msgstr "Sono disponibili i seguenti operatori:"
 
@@ -28,6 +31,13 @@ msgstr "Note"
 
 msgid "Addition ``+``"
 msgstr "Addizione ``+``"
+
+msgid ""
+"Can also be used to concatenate strings and arrays: - ``\"hello\" + \" "
+"world\"`` = ``hello world`` - ``[1, 2] + [3, 4]`` = ``[1, 2, 3, 4]``"
+msgstr ""
+"Si può anche utilizzare per concatenare stringhe e array: - ``\"hello\" + \" "
+"world\"`` = ``hello world`` - ``[1, 2] + [3, 4]`` = ``[1, 2, 3, 4]``"
 
 msgid "Subtraction (``-``)"
 msgstr "Sottrazione (``-``)"
@@ -55,6 +65,9 @@ msgstr "Passare variabili a un'espressione"
 
 msgid "Example script"
 msgstr "Script di esempio"
+
+msgid "The output from the script will be:"
+msgstr "Il risultato dello script sarà:"
 
 msgid "Built-in functions"
 msgstr "Funzioni integrate"

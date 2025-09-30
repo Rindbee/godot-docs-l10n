@@ -67,6 +67,29 @@ msgstr ""
 "Godot 最初是由一家阿根廷遊戲工作室內部開發的。開發始於 2001 年，2014 年開源發"
 "行後經過了重寫和大量的改進。"
 
+msgid ""
+"Some examples of games created with Godot include Cassette Beasts, PVKK, and "
+"Usagi Shima. As for applications, the open source pixel art drawing program "
+"Pixelorama is powered by Godot, and so is the voxel RPG creator RPG in a "
+"Box. You can find many more examples in the `Official Showcase <https://"
+"godotengine.org/showcase/>`_."
+msgstr ""
+"以 Godot 製作的遊戲範例包含 Cassette Beasts、PVKK 與 Usagi Shima。應用程式方"
+"面，開源的像素繪圖軟體 Pixelorama 與體素 RPG 製作工具 RPG in a Box 也都是以 "
+"Godot 驅動。更多範例可見 `官方展示頁 <https://godotengine.org/showcase/>`_。"
+
+msgid "Usagi Shima"
+msgstr "Usagi Shima"
+
+msgid "Cassette Beasts"
+msgstr "Cassette Beasts"
+
+msgid "PVKK: Planetenverteidigungskanonenkommandant"
+msgstr "PVKK：Planetenverteidigungskanonenkommandant"
+
+msgid "RPG in a Box"
+msgstr "RPG in a Box"
+
 msgid "How does it work and look?"
 msgstr "如何擴充 Godot？"
 
@@ -102,6 +125,28 @@ msgstr "設計語言"
 
 msgid "Let's talk about the available programming languages."
 msgstr "我們來看看現有的程式設計語言。"
+
+msgid ""
+"You can code your games using :ref:`GDScript <doc_gdscript>`, a Godot-"
+"specific and tightly integrated language with a lightweight syntax, "
+"or :ref:`C# <doc_c_sharp>`, which is popular in the games industry. These "
+"are the two main scripting languages we support."
+msgstr ""
+"你可以使用 :ref:`GDScript <doc_gdscript>` （Godot 專屬且緊密整合、語法精簡的"
+"語言）或 :ref:`C# <doc_c_sharp>` （在遊戲業界相當流行）來撰寫遊戲。這兩者是我"
+"們支援的主要指令碼語言。"
+
+msgid ""
+"With the :ref:`GDExtension <doc_what_is_gdextension>` technology, you can "
+"also write gameplay or high-performance algorithms in :ref:`C++ "
+"<doc_godot_cpp>` or :ref:`other languages <doc_scripting_languages>` without "
+"recompiling the engine. You can use this technology to integrate third-party "
+"libraries and other Software Development Kits (SDK) in the engine."
+msgstr ""
+"透過 :ref:`GDExtension <doc_what_is_gdextension>` 技術，你也可以用 :ref:`C++ "
+"<doc_godot_cpp>` 或 :ref:`其他語言 <doc_scripting_languages>` 撰寫遊戲玩法或"
+"高效能演算法，而不必重新編譯引擎。你也能以此將第三方程式庫與各種 SDK 整合進引"
+"擎。"
 
 msgid ""
 "Of course, you can also directly add modules and features to the engine, as "

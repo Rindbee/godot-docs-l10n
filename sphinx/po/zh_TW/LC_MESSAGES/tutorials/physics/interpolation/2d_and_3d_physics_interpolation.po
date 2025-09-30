@@ -70,6 +70,13 @@ msgstr ""
 "節點依舊會顯示插值效果。*只有子節點本身的區域變換不插值*。因此，2D 節點的插值"
 "開關需要額外規劃。"
 
+msgid ""
+"On the positive side, pivot behavior in the scene tree is perfectly "
+"preserved during interpolation in 2D, which gives super smooth behavior."
+msgstr ""
+"好處是，在 2D 中，場景樹中的樞軸行為在插值期間能被完整保留，帶來極為流暢的表"
+"現。"
+
 msgid "Resetting physics interpolation"
 msgstr "重設物理插值"
 

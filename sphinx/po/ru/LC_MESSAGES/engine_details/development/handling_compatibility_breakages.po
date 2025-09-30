@@ -10,3 +10,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Handling compatibility breakages"
+msgstr "Устранение неполадок совместимости"
+
+msgid "A practical example"
+msgstr "Практический пример"
+
+msgid ""
+"For more information, see `pull request #76446 <https://github.com/"
+"godotengine/godot/pull/76446>`_."
+msgstr ""
+"Для получения дополнительной информации см. `pull request #76446 <https://"
+"github.com/godotengine/godot/pull/76446>`_."

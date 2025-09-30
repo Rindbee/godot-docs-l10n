@@ -87,7 +87,7 @@ msgid ""
 "Node2D has the following script attached:"
 msgstr ""
 "``enemy.tscn`` — це сцена з кореневим вузлом Node2D і дочірнім вузлом Timer. "
-"До Node2D додається такий сценарій:"
+"До Node2D додається такий скрипт:"
 
 msgid ""
 "In this example, since we spawn 20 enemies per second, and each enemy "

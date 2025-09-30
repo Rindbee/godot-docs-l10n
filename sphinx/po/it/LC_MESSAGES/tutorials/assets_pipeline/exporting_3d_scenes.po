@@ -20,5 +20,8 @@ msgstr "Panoramica"
 msgid "Limitations"
 msgstr "Limitazioni"
 
+msgid "There are several limitations with glTF export."
+msgstr "Esistono diverse limitazioni nell'esportazione glTF."
+
 msgid "No support for exporting 2D scenes."
 msgstr "Nessun supporto per l'esportazione di scene 2D."

@@ -190,7 +190,7 @@ msgid ""
 "Let's work on the score next. Attach a new script to the ``ScoreLabel`` and "
 "define the ``score`` variable."
 msgstr ""
-"Далі попрацюємо над рахунком. Додайте новий сценарій до ``ScoreLabel`` і "
+"Далі попрацюємо над рахунком. Додайте новий скрипт до ``ScoreLabel`` і "
 "визначте змінну ``score``."
 
 msgid ""

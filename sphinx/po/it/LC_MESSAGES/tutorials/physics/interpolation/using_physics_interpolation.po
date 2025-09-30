@@ -17,14 +17,49 @@ msgstr "Utilizzo dell'interpolazione fisica"
 msgid "Turn on the physics interpolation setting"
 msgstr "Attivare l'impostazione dell'interpolazione fisica"
 
+msgid "Move (almost) all game logic from _process to _physics_process"
+msgstr ""
+"Spostare (quasi) tutta la logica di gioco da _process a _physics_process"
+
+msgid "Ensure that all indirect movement happens during physics ticks"
+msgstr ""
+"Assicurarsi che tutti i movimenti indiretti avvengano durante i tick di "
+"fisica"
+
+msgid "Choose a physics tick rate"
+msgstr "Scegliere una frequenza di tick di fisica"
+
+msgid "Low tick rates (10-30)"
+msgstr "Frequenze di tick basse (10-30)"
+
+msgid "Medium tick rates (30-60)"
+msgstr "Frequenze di tick medie (30-60)"
+
+msgid "High tick rates (60+)"
+msgstr "Frequenze di tick alte (60+)"
+
 msgid "Better CPU performance"
 msgstr "Migliori prestazioni sulla CPU"
+
+msgid "Good physics behavior in complex scenes"
+msgstr "Buon comportamento fisico in scene complesse"
+
+msgid "Good with fast physics"
+msgstr "Buono con fisica rapida"
 
 msgid "Good for first person games"
 msgstr "Ideale per giochi in prima persona"
 
 msgid "Good for racing games"
 msgstr "Ideale per giochi da corsa"
+
+msgid "Call ``reset_physics_interpolation()`` when teleporting objects"
+msgstr ""
+"Chiamare ``reset_physics_interpolation()`` quando si teletrasportano oggetti"
+
+msgid "There are actually two ways to use ``reset_physics_interpolation()``:"
+msgstr ""
+"In realtà ci sono due modi per usare ``reset_physics_interpolation()``:"
 
 msgid "Set the initial transform"
 msgstr "Imposta la trasformazione iniziale"

@@ -31,6 +31,21 @@ msgstr ""
 "在 Windows 和 Linux 上，您可以通過指定其相對或絕對路徑在終端中運作 Godot 可執"
 "行檔。"
 
+msgid ""
+"On macOS, the process is different due to Godot being contained within a "
+"``.app`` bundle (which is a *folder*, not a file). To run a Godot binary "
+"from a terminal on macOS, you have to ``cd`` to the folder where the Godot "
+"application bundle is located, then run ``Godot.app/Contents/MacOS/Godot`` "
+"followed by any command line arguments. If you've renamed the application "
+"bundle from ``Godot`` to another name, make sure to edit this command line "
+"accordingly."
+msgstr ""
+"在 macOS 上，由於 Godot 被封裝在 ``.app`` 套件中（它是 *資料夾* ，不是單一檔"
+"案），流程有所不同。若要從終端機執行 Godot，可先切換（``cd``）到 Godot 應用程"
+"式套件所在的資料夾，然後執行 ``Godot.app/Contents/MacOS/Godot`` ，後面再接上"
+"命令列參數。若你已將應用程式套件從 ``Godot`` 重新命名為其他名稱，請相應調整這"
+"行指令。"
+
 msgid "Command line reference"
 msgstr "命令列參照說明"
 
@@ -99,6 +114,13 @@ msgid ""
 "|release| Quiet mode, silences stdout messages. Errors are still displayed."
 msgstr "靜默模式，不輸出任何標準輸出 (Stdout) 訊息。仍會顯示錯誤。"
 
+msgid "``--no-header``"
+msgstr "``--no-header``"
+
+msgid ""
+"|release| Do not print engine version and rendering method header on startup."
+msgstr "|release| 啟動時不要列印引擎版本與繪圖後端標頭 。"
+
 msgid "**Run options**"
 msgstr "**執行選項**"
 
@@ -124,6 +146,17 @@ msgstr "``-p``, ``--project-manager``"
 msgid "|editor| Start the Project Manager, even if a project is auto-detected."
 msgstr "|editor|即使自動偵測到專案，也要啟動專案管理器。"
 
+msgid "``--recovery-mode``"
+msgstr "``--recovery-mode``"
+
+msgid ""
+"|editor| \"Start the editor in recovery mode, which disables features that "
+"can typically cause startup crashes, such as tool scripts, editor plugins, "
+"GDExtension addons, and others."
+msgstr ""
+"|editor| 以復原模式啟動編輯器，此模式會停用可能導致啟動當機的功能，例如工具腳"
+"本、編輯器外掛、GDExtension 外掛等 。"
+
 msgid "``--debug-server <uri>``"
 msgstr "``--video-driver <driver>``"
 
@@ -133,6 +166,26 @@ msgid ""
 msgstr ""
 "|editor|啟動編輯器除錯伺服器（``<protocol>://<host/IP>[:<port>]``，例如"
 "``tcp://127.0.0.1:6007``）'"
+
+msgid "``--dap-port <port>``"
+msgstr "``--dap-port <port>``"
+
+msgid ""
+"|editor| Use the specified port for the GDScript Debug Adapter Protocol. "
+"Recommended port range ``[1024, 49151]``."
+msgstr ""
+"|editor| 指定 GDScript Debug Adapter Protocol 使用的連接埠。建議範圍為 "
+"``[1024, 49151]`` 。"
+
+msgid "``--lsp-port <port>``"
+msgstr "``--lsp-port <port>``"
+
+msgid ""
+"|editor| Use the specified port for the GDScript Language Server Protocol. "
+"Recommended port range ``[1024, 49151]``."
+msgstr ""
+"|editor| 指定 GDScript Language Server Protocol 使用的連接埠。建議範圍為 "
+"``[1024, 49151]`` 。"
 
 msgid "``--quit``"
 msgstr "``--quiet``"
@@ -167,6 +220,12 @@ msgid ""
 "|release| Path to a project (``<directory>`` must contain a 'project.godot' "
 "file)."
 msgstr "專案路徑（<directory> 內必須包含一個「project.godot」檔案）。"
+
+msgid "``scene <path>``"
+msgstr "``scene <path>``"
+
+msgid "|release| Path or UID of a scene in the project that should be started."
+msgstr "|release| 要啟動的專案場景之路徑或 UID 。"
 
 msgid "``-u``, ``--upwards``"
 msgstr "``-u``, ``--upwards``"
@@ -220,6 +279,17 @@ msgid ""
 "display the list of available drivers."
 msgstr "視訊驅動程式。先指定 ``--help`` 以顯示所有可用的驅動程式。"
 
+msgid "``--audio-output-latency`` <ms>"
+msgstr "``--audio-output-latency`` <ms>"
+
+msgid ""
+"|release| Override audio output latency in milliseconds (default is 15 ms). "
+"Lower values make sound playback more reactive but increase CPU usage, and "
+"may result in audio cracking if the CPU can't keep up"
+msgstr ""
+"|release| 覆寫音訊輸出延遲（毫秒，預設為 15 ms）。較低的數值可提升回應性，但"
+"會增加 CPU 使用率；若 CPU 無法負荷，可能導致聲音破音"
+
 msgid "``--rendering-method <renderer>``"
 msgstr "``--render-thread <mode>``"
 
@@ -263,6 +333,17 @@ msgid ""
 msgstr ""
 "|release|啟用無頭模式（``--display-driver headless --audio-driver Dummy``）。"
 "對於伺服器和“--script”很有用。"
+
+msgid "``--log-file``"
+msgstr "``--log-file``"
+
+msgid ""
+"|release| Write output/error log to the specified path instead of the "
+"default location defined by the project. <file> path should be absolute or "
+"relative to the project directory."
+msgstr ""
+"|release| 將輸出/錯誤日誌寫入指定路徑，而非專案預設位置。<file> 路徑可為絕對"
+"路徑或相對於專案目錄的路徑 。"
 
 msgid "``--write-movie <file>``"
 msgstr "``--main-pack <file>``"
@@ -336,6 +417,22 @@ msgstr "``--render-thread <mode>``"
 msgid "|release| Select XR mode ('default', 'off', 'on')."
 msgstr "|release|選擇 XR 模式（“預設”、“關閉”、“開啟”）。"
 
+msgid "``--wid <window_id>``"
+msgstr "``--wid <window_id>``"
+
+msgid "|release| Request parented to window."
+msgstr "|release| 要求將視窗隸屬於指定的父視窗 。"
+
+msgid "``--accessibility <mode>``"
+msgstr "``--accessibility <mode>``"
+
+msgid ""
+"|release| Select accessibility mode ['auto' (when screen reader is running, "
+"default), 'always', 'disabled']."
+msgstr ""
+"|release| 選擇無障礙模式 ['auto'（當螢幕報讀程式執行時，預"
+"設）、'always'、'disabled'] 。"
+
 msgid "**Debug options**"
 msgstr "**偵錯選項**"
 
@@ -352,6 +449,12 @@ msgid ""
 "|release| Breakpoint list as source::line comma-separated pairs, no spaces "
 "(use ``%20`` instead)."
 msgstr "以 source::line，逗號分隔配對，無空白（顯示 %%20）來列出中斷點。"
+
+msgid "``--ignore-error-breaks``"
+msgstr "``--ignore-error-breaks``"
+
+msgid "|release| If debugger is connected, prevents sending error breakpoints."
+msgstr "|release| 若偵錯器已連線，則避免傳送錯誤中斷點 。"
 
 msgid "``--profiling``"
 msgstr "``--profiling``"
@@ -385,6 +488,40 @@ msgid ""
 msgstr ""
 "|debug|在 GPU 錯誤（通常是驗證層錯誤）時中止，可能有助於在系統凍結時發現問"
 "題。"
+
+msgid "``--generate-spirv-debug-info``"
+msgstr "``--generate-spirv-debug-info``"
+
+msgid ""
+"|debug| Generate SPIR-V debug information. This allows source-level shader "
+"debugging with RenderDoc."
+msgstr ""
+"|debug| 產生 SPIR-V 除錯資訊。可配合 RenderDoc 進行著色器原始碼層級的除錯 。"
+
+msgid "``--extra-gpu-memory-tracking``"
+msgstr "``--extra-gpu-memory-tracking``"
+
+msgid ""
+"|debug| Enables additional memory tracking (see class reference for "
+"`RenderingDevice.get_driver_and_device_memory_report()` and linked methods). "
+"Currently only implemented for Vulkan. Enabling this feature may cause "
+"crashes on some systems due to buggy drivers or bugs in the Vulkan Loader. "
+"See https://github.com/godotengine/godot/issues/95967"
+msgstr ""
+"|debug| 啟用額外的記憶體追蹤（詳見類別參考中的 "
+"`RenderingDevice.get_driver_and_device_memory_report()` 及相關方法） 。目前僅"
+"在 Vulkan 上實作。由於驅動或 Vulkan Loader 的問題，在部分系統上啟用此功能可能"
+"導致當機。請參考 https://github.com/godotengine/godot/issues/95967"
+
+msgid "``--accurate-breadcrumbs``"
+msgstr "``--accurate-breadcrumbs``"
+
+msgid ""
+"|debug| Force barriers between breadcrumbs. Useful for narrowing down a "
+"command causing GPU resets. Currently only implemented for Vulkan."
+msgstr ""
+"|debug| 在 breadcrumbs 之間強制加入 barrier。 可用於縮小導致 GPU 重置的命令範"
+"圍。 目前僅在 Vulkan 上實作。"
 
 msgid "``--remote-debug <uri>``"
 msgstr "``--remote-debug <address>``"
@@ -435,8 +572,33 @@ msgid ""
 "|debug| Print all StringName allocations to stdout when the engine quits."
 msgstr "|debug|當引擎退出時，將所有 StringName 分配列印到標準輸出。"
 
+msgid "``--debug-canvas-item-redraw``"
+msgstr "``--debug-canvas-item-redraw``"
+
+msgid ""
+"|debug| Display a rectangle each time a canvas item requests a redraw "
+"(useful to troubleshoot low processor mode)."
+msgstr ""
+"|debug| 每當畫布項目請求重繪時顯示一個矩形 （在低處理器模式下除錯很有用）。"
+
+msgid "``--max-fps <fps>``"
+msgstr "``--max-fps <fps>``"
+
+msgid ""
+"|release| Set a maximum number of frames per second rendered (can be used to "
+"limit power usage). A value of 0 results in unlimited framerate."
+msgstr ""
+"|release| 設定最高每秒影格數（可用於限制耗電）。 數值為 0 代表不限制幀率。"
+
 msgid "``--frame-delay <ms>``"
 msgstr "``--frame-delay <ms>``"
+
+msgid ""
+"|release| Simulate high CPU load (delay each frame by <ms> milliseconds). Do "
+"not use as a FPS limiter; use --max-fps instead."
+msgstr ""
+"|release| 模擬高 CPU 負載（每個影格延遲 <ms> 毫秒）。 請勿用作 FPS 限制器；若"
+"要限制請使用 --max-fps。"
 
 msgid "``--time-scale <scale>``"
 msgstr "``--time-scale <scale>``"
@@ -490,6 +652,13 @@ msgstr "``--print-fps``"
 msgid "|release| Print the frames per second to the stdout."
 msgstr "在標準輸出上印出 FPS。"
 
+msgid "``--editor-pseudolocalization``"
+msgstr "``--editor-pseudolocalization``"
+
+msgid ""
+"|editor| Enable pseudolocalization for the editor and the project manager."
+msgstr "|editor| 為編輯器與專案管理員啟用偽本地化。"
+
 msgid "**Standalone tools**"
 msgstr "**獨立工具**"
 
@@ -504,6 +673,12 @@ msgstr ""
 "|release| 執行腳本。 ``<script>`` 必須是相對於專案的資源路徑 "
 "(``myscript.gd`` 將會被解釋為 ``res://myscript.gd``)，或是絕對檔案系統路徑 "
 "(例如在 Windows 上為 ``C:/tmp/myscript.gd``)"
+
+msgid "``--main-loop <main_loop_name>``"
+msgstr "``--main-loop <main_loop_name>``"
+
+msgid "|release| Run a MainLoop specified by its global class name."
+msgstr "|release| 以全域類別名稱執行指定的 MainLoop."
 
 msgid "``--check-only``"
 msgstr "``--check-only``"
@@ -523,6 +698,18 @@ msgstr ""
 
 msgid "``--export-release <preset> <path>``"
 msgstr "``--export-pack <preset> <path>``"
+
+msgid ""
+"|editor| Export the project in release mode using the given preset and "
+"output path. The preset name should match one defined in "
+"'export_presets.cfg'. ``<path>`` should be absolute or relative to the "
+"project directory, and include the filename for the binary (e.g. 'builds/"
+"game.exe'). The target directory must exist."
+msgstr ""
+"|editor| 使用指定的預設與輸出路徑，以 release 模式匯出專案。 預設名稱需與 "
+"'export_presets.cfg' 中定義的相符。 ``<path>`` 應為絕對路徑或相對於專案目錄的"
+"路徑，且需包含產出二進位的檔名（例如 'builds/game.exe'）。 目標目錄必須已存"
+"在。"
 
 msgid "``--export-debug <preset> <path>``"
 msgstr "``--export-pack <preset> <path>``"
@@ -544,6 +731,34 @@ msgid ""
 msgstr ""
 "|editor| 類似 ``--export-release``，但僅匯出指定預設的遊戲包。``<路徑>`` 的副"
 "檔名決定了格式為 PCK 或 ZIP。隱含 ``--import``。"
+
+msgid "``--export-patch <preset> <path>``"
+msgstr "``--export-patch <preset> <path>``"
+
+msgid ""
+"|editor| Export pack with changed files only. See --export-pack description "
+"for other considerations."
+msgstr ""
+"|editor| 只匯出變更過的檔案作為資料包。 其他注意事項請參考 --export-pack 的說"
+"明。"
+
+msgid "``--patches <paths>``"
+msgstr "``--patches <paths>``"
+
+msgid ""
+"|editor| List of patches to use with --export-patch. The list is comma-"
+"separated."
+msgstr "|editor| 與 --export-patch 一起使用的補丁列表，以逗號分隔."
+
+msgid "``--install-android-build-template``"
+msgstr "``--install-android-build-template``"
+
+msgid ""
+"|editor| Install the Android build template. Used in conjunction with --"
+"export-release or --export-debug."
+msgstr ""
+"|editor| 安裝 Android 建置範本。 可與 --export-release 或 --export-debug 搭配"
+"使用。"
 
 msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
 msgstr "``--convert-3to4 [<最大檔案kb值>] [<最大行數>]``"
@@ -643,6 +858,12 @@ msgid ""
 msgstr ""
 "|editor|對運作時間進行基準測試並將其以 JSON 格式儲存到給定檔案中。該路徑應該"
 "是絕對的。"
+
+msgid "``--test [--help]``"
+msgstr "``--test [--help]``"
+
+msgid "|editor| Run unit tests. Use --test --help for more information."
+msgstr "|editor| 執行單元測試。 使用 --test --help 以取得更多資訊。"
 
 msgid "Path"
 msgstr "路徑"

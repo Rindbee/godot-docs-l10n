@@ -20,6 +20,9 @@ msgstr "Jak rozpocząć"
 msgid "Manual"
 msgstr "Instrukcja obsługi"
 
+msgid "Engine details"
+msgstr "Szczegóły silnika"
+
 msgid "Community"
 msgstr "Społeczność"
 

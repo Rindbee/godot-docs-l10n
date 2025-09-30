@@ -39,29 +39,71 @@ msgstr "Compatible source C#"
 msgid "Introduced"
 msgstr "Intégré"
 
+msgid "**JSONRPC**"
+msgstr "**JSONRPC**"
+
 msgid "|❌|"
 msgstr "|❌|"
 
 msgid "|✔️ with compat|"
 msgstr "|✔️ avec compatibilité|"
 
+msgid "`GH-104890`_"
+msgstr "`GH-104890`_"
+
 msgid "**Node**"
 msgstr "**Nœuds :**"
+
+msgid "`GH-106848`_"
+msgstr "`GH-106848`_"
 
 msgid "|✔️|"
 msgstr "|✔️|"
 
+msgid "`GH-76560`_"
+msgstr "`GH-76560`_"
+
 msgid "Rendering"
 msgstr "Rendu"
+
+msgid "**DisplayServer**"
+msgstr "**DisplayServer**"
+
+msgid "`GH-98194`_"
+msgstr "`GH-98194`_"
 
 msgid "**RenderingDevice**"
 msgstr "**RenderingDevice**"
 
+msgid "`GH-105570`_"
+msgstr "`GH-105570`_"
+
 msgid "**RenderingServer**"
 msgstr "**RenderingServer**"
 
+msgid "`GH-104269`_"
+msgstr "`GH-104269`_"
+
+msgid "GLTF"
+msgstr "GLTF"
+
+msgid "**GLTFAccessor**"
+msgstr "**GLTFAccessor**"
+
+msgid "`GH-106220`_"
+msgstr "`GH-106220`_"
+
+msgid "**GLTFBufferView**"
+msgstr "**GLTFBufferView**"
+
 msgid "Text"
 msgstr "Texte"
+
+msgid "**CanvasItem**"
+msgstr "**CanvasItem**"
+
+msgid "`GH-104872`_"
+msgstr "`GH-104872`_"
 
 msgid "**Font**"
 msgstr "**Font**"
@@ -69,8 +111,26 @@ msgstr "**Font**"
 msgid "**RichTextLabel**"
 msgstr "**RichTextLabel**"
 
+msgid "`GH-76829`_"
+msgstr "`GH-76829`_"
+
+msgid "`GH-107347`_"
+msgstr "`GH-107347`_"
+
+msgid "`GH-106300`_"
+msgstr "`GH-106300`_"
+
+msgid "**TextLine**"
+msgstr "**TextLine**"
+
+msgid "**TextParagraph**"
+msgstr "**TextParagraph**"
+
 msgid "**TextServer**"
 msgstr "**TextServer**"
+
+msgid "**TreeItem**"
+msgstr "**TreeItem**"
 
 msgid "**TextServerExtension**"
 msgstr "**TextServerExtension**"
@@ -78,11 +138,44 @@ msgstr "**TextServerExtension**"
 msgid "XR"
 msgstr "XR"
 
+msgid "**OpenXRAPIExtension**"
+msgstr "**OpenXRAPIExtension**"
+
+msgid "`GH-104087`_"
+msgstr "`GH-104087`_"
+
+msgid "**OpenXRBindingModifierEditor**"
+msgstr "**OpenXRBindingModifierEditor**"
+
+msgid "`GH-103869`_"
+msgstr "`GH-103869`_"
+
+msgid "**OpenXRInteractionProfileEditor**"
+msgstr "**OpenXRInteractionProfileEditor**"
+
+msgid "**OpenXRInteractionProfileEditorBase**"
+msgstr "**OpenXRInteractionProfileEditorBase**"
+
 msgid "Editor plugins"
 msgstr "Extensions pour l'éditeur"
 
+msgid "**EditorExportPlatform**"
+msgstr "**EditorExportPlatform**"
+
+msgid "`GH-71542`_"
+msgstr "`GH-71542`_"
+
 msgid "**EditorUndoRedoManager**"
 msgstr "**EditorUndoRedoManager**"
+
+msgid "`GH-106121`_"
+msgstr "`GH-106121`_"
+
+msgid "**EditorExportPlatformExtension**"
+msgstr "**EditorExportPlatformExtension**"
+
+msgid "`GH-108825`_"
+msgstr "`GH-108825`_"
 
 msgid "Behavior changes"
 msgstr "Changements de comportement"

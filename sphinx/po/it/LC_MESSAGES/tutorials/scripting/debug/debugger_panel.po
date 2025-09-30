@@ -23,6 +23,26 @@ msgstr "Valutatore"
 msgid "Consider the following script:"
 msgstr "Considera lo script seguente:"
 
+msgid "**Constant expression:** ``2 * PI + 5``"
+msgstr "**Espressione costante:** ``2 * PI + 5``"
+
+msgid "**Member variable:** ``counter``, ``counter ** 2``, ``sqrt(counter)``"
+msgstr "**Variabile membro:** ``counter``, ``counter ** 2``, ``sqrt(counter)``"
+
+msgid ""
+"**Local variable or function parameter:** ``delta``, ``text``, "
+"``text.to_upper()``"
+msgstr ""
+"**Variabile locale o parametro di funzione:** ``delta``, ``text``, "
+"``text.to_upper()``"
+
+msgid ""
+"**Local variable or function parameter:** ``delta``, ``other_text``, "
+"``other_text.to_upper()``"
+msgstr ""
+"**Variabile locale o parametro di funzione:** ``delta``, ``other_text``, "
+"``other_text.to_upper()``"
+
 msgid "Profiler"
 msgstr "Profilatore"
 

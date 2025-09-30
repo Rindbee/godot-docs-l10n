@@ -17,6 +17,15 @@ msgstr "Così tanti controlli..."
 msgid "Drawing"
 msgstr "Disegnare"
 
+msgid "Checking focus"
+msgstr "Verifica del focus"
+
+msgid "Sizing"
+msgstr "Dimensionamento"
+
+msgid "Alternatively, set it using a function:"
+msgstr "Alternativamente, impostalo tramite una funzione:"
+
 msgid "Input"
 msgstr "Input"
 

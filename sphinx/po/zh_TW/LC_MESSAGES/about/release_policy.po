@@ -154,6 +154,12 @@ msgstr "**釋出日期**"
 msgid "**Support level**"
 msgstr "**支援等級**"
 
+msgid "Godot 4.5 (`master`)"
+msgstr "Godot 4.4( `master` )"
+
+msgid "Q3 2025 (estimate)"
+msgstr "Q3 2025（預計）"
+
 msgid ""
 "|unstable| *Development.* Receives new features, usability and performance "
 "improvements, as well as bug fixes, while under development."
@@ -162,6 +168,12 @@ msgstr ""
 
 msgid "unstable"
 msgstr "啟用"
+
+msgid "Godot 4.4"
+msgstr "Godot 4.4"
+
+msgid "March 2025"
+msgstr "2025年3月"
 
 msgid ""
 "|supported| Receives fixes for bugs and security issues, as well as patches "
@@ -183,6 +195,9 @@ msgstr "Godot 4.2"
 msgid "November 2023"
 msgstr "2023 年 11 月"
 
+msgid "|partial| Receives fixes for security and platform support issues only."
+msgstr "|partial| 僅接收安全性與平台支援相關問題的修補。"
+
 msgid "partial"
 msgstr "partial"
 
@@ -191,6 +206,9 @@ msgstr "Godot 4.0"
 
 msgid "July 2023"
 msgstr "2016 年 7 月"
+
+msgid "|eol| No longer supported (last update: 4.1.4)."
+msgstr "|eol| 不再支援（上次更新：4.1.4）。"
 
 msgid "eol"
 msgstr "eol"
@@ -419,6 +437,14 @@ msgid ""
 msgstr ""
 "雖然對於 Godot 的貢獻者來說並不需要趕專案截止期限，但通常 Godot 每年都會出新"
 "的主要或次要版本。按照這個趨勢來看，Godot 4.0 很可能會在 **2021** 年出。"
+
+msgid ""
+"In particular, after the very long release cycle for 4.0, we are pivoting to "
+"a faster-paced development workflow, 4.1 released 4 months after 4.0, and "
+"4.2 released 4 months after 4.1."
+msgstr ""
+"特別是，在 4.0 經歷非常漫長的發行週期後，我們正轉向步調更快的開發流程；4.1 "
+"於 4.0 發行後 4 個月推出，4.2 則於 4.1 發行後 4 個月推出。"
 
 msgid ""
 "Frequent minor releases will enable us to ship new features faster (possibly "

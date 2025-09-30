@@ -11,8 +11,62 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "OpenXR Render Models"
+msgstr "Modelli di rendering OpenXR"
+
+msgid "OpenXR Render models node"
+msgstr "Nodo di modelli di rendering OpenXR"
+
+msgid "This falls beyond the scope of this documentation."
+msgstr "Ciò va oltre lo scopo di questa documentazione."
+
+msgid ""
+"You can download `our render models demo <https://github.com/godotengine/"
+"godot-demo-projects/tree/master/xr/openxr_render_models>`_ which implements "
+"the setup described below."
+msgstr ""
+"Puoi scaricare la `nostra demo dei modelli di rendering <https://github.com/"
+"godotengine/godot-demo-projects/tree/master/xr/openxr_render_models>`_ che "
+"implementa la configurazione descritta di seguito."
+
+msgid "Render model node"
+msgstr "Nodo di modello di rendering"
+
+msgid "Backend access"
+msgstr "Accesso al backend"
+
 msgid "Function"
 msgstr "Funzione"
 
 msgid "Description"
 msgstr "Descrizione"
+
+msgid "render_model_get_all"
+msgstr "render_model_get_all"
+
+msgid "render_model_new_scene_instance"
+msgstr "render_model_new_scene_instance"
+
+msgid "render_model_get_subaction_paths"
+msgstr "render_model_get_subaction_paths"
+
+msgid "render_model_get_top_level_path"
+msgstr "render_model_get_top_level_path"
+
+msgid "render_model_get_confidence"
+msgstr "render_model_get_confidence"
+
+msgid "render_model_get_root_transform"
+msgstr "render_model_get_root_transform"
+
+msgid "render_model_get_animatable_node_count"
+msgstr "render_model_get_animatable_node_count"
+
+msgid "render_model_get_animatable_node_name"
+msgstr "render_model_get_animatable_node_name"
+
+msgid "render_model_is_animatable_node_visible"
+msgstr "render_model_is_animatable_node_visible"
+
+msgid "render_model_get_animatable_node_transform"
+msgstr "render_model_get_animatable_node_transform"

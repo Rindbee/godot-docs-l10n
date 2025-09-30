@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Overview of renderers"
+msgstr "Panoramica dei renderer"
+
 msgid "Introduction"
 msgstr "Introduzione"
 
@@ -134,6 +137,9 @@ msgstr "XR"
 msgid "✔️ Yes. Recommended for standalone headsets."
 msgstr "✔️ Sì. Consigliato per visori autonomi."
 
+msgid "✔️ Yes. Recommended for desktop headsets."
+msgstr "✔️ Sì. Consigliato per visori su desktop."
+
 msgid "Web"
 msgstr "Web"
 
@@ -227,6 +233,12 @@ msgstr "Consultare :ref:`doc_lights_and_shadows` per maggiori informazioni."
 
 msgid "Lighting approach"
 msgstr "Approccio di illuminazione"
+
+msgid "Forward"
+msgstr "Forward"
+
+msgid "Clustered Forward"
+msgstr "Clustered Forward"
 
 msgid "Maximum OmniLights"
 msgstr "Massimo di OmniLight"
@@ -353,6 +365,9 @@ msgstr "Funzionalità di StandardMaterial"
 
 msgid "See :ref:`doc_standard_material_3d` for more information."
 msgstr "Consultare :ref:`doc_standard_material_3d` per maggiori informazioni."
+
+msgid "Sub-surface scattering"
+msgstr "Subsurface scattering"
 
 msgid "Shader features"
 msgstr "Funzionalità di shader"

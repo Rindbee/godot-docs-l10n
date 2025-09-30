@@ -11,5 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Now let's get started by creating a short compute shader."
+msgstr "Ora cominciamo creando un breve shader di calcolo."
+
 msgid "Let's take a look at this compute shader code:"
 msgstr "Diamo un'occhiata a questo codice per uno shader di calcolo:"
+
+msgid "Freeing memory"
+msgstr "Liberare la memoria"

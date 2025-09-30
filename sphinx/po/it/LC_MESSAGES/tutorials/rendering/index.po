@@ -13,3 +13,11 @@ msgstr ""
 
 msgid "Rendering"
 msgstr "Renderer"
+
+msgid ""
+"Most rendering topics are covered in :ref:`2D rendering <doc_2d_rendering>` "
+"and :ref:`3D rendering <doc_3d_rendering>`."
+msgstr ""
+"La maggior parte degli argomenti relativi al rendering sono trattati "
+"in :ref:`rendering 2D <doc_2d_rendering>` e :ref:`rendering 3D "
+"<doc_3d_rendering>`."

@@ -11,8 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0101: The exported member is static"
+msgstr "GD0101: Il membro esportato è statico"
+
 msgid "**Rule ID**"
 msgstr "**ID regola**"
+
+msgid "GD0101"
+msgstr "GD0101"
 
 msgid "**Category**"
 msgstr "**Categoria**"
@@ -20,11 +26,54 @@ msgstr "**Categoria**"
 msgid "Usage"
 msgstr "Utilizzo"
 
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Soluzione è distruttiva o non-distruttiva**"
+
+msgid "Breaking - If the ``static`` keyword is removed"
+msgstr "Distruttiva - Se la parola chiave ``static`` viene rimossa"
+
+msgid "Non-breaking - If the ``[Export]`` attribute is removed"
+msgstr "Non-distruttiva - Se l'attributo ``[Export]`` viene rimosso"
+
 msgid "**Enabled by default**"
 msgstr "**Abilitato per predefinito**"
 
 msgid "Yes"
 msgstr "Si"
 
+msgid "Cause"
+msgstr "Causa"
+
+msgid ""
+"A static member is annotated with the ``[Export]`` attribute. Static members "
+"can't be exported."
+msgstr ""
+"Un membro statico è annotato con l'attributo ``[Export]``. Non è possibile "
+"esportare i membri statici."
+
 msgid "Rule description"
 msgstr "Descrizione della regola"
+
+msgid "Godot doesn't allow exporting static members."
+msgstr "Godot non permette di esportare i membri statici."
+
+msgid "How to fix violations"
+msgstr "Come risolvere le violazioni"
+
+msgid ""
+"To fix a violation of this rule, remove the ``[Export]`` attribute or remove "
+"the ``static`` keyword."
+msgstr ""
+"Per correggere una violazione di questa regola, rimuovere l'attributo "
+"``[Export]`` o rimuovere la parola chiave ``static``."
+
+msgid "When to suppress warnings"
+msgstr "Quando sopprimere gli avvertimenti"
+
+msgid ""
+"Do not suppress a warning from this rule. Static members can't be exported "
+"so they will be ignored by Godot, resulting in runtime errors."
+msgstr ""
+"Non sopprimere un avviso da questa regola. Non è possibile esportare i "
+"membri statici, quindi saranno ignorati da Godot, causando errori in fase di "
+"esecuzione."

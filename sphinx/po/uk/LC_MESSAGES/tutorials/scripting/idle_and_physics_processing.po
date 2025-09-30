@@ -119,7 +119,7 @@ msgid ""
 "single Label node, with the following script attached to it:"
 msgstr ""
 "Ви можете спостерігати за роботою функції ``_process()``, створивши сцену з "
-"одним вузлом Label, до якого додається наступний сценарій:"
+"одним вузлом Label, до якого додається наступний скрипт:"
 
 msgid "When you run the scene, you should see a counter increasing each frame."
 msgstr ""

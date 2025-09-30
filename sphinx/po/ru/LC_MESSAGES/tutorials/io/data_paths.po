@@ -285,6 +285,10 @@ msgstr ""
 msgid "File logging"
 msgstr "Ведение журнала файлов"
 
+msgid "Documentation on file logging has been moved to :ref:`doc_logging`."
+msgstr ""
+"Документация по ведению журнала файлов перенесена в :ref:`doc_logging`."
+
 msgid "Converting paths to absolute paths or \"local\" paths"
 msgstr "Преобразование путей в абсолютные или \"локальные\" пути"
 

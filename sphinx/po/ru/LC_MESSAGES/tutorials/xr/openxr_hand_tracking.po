@@ -11,8 +11,35 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "OpenXR hand tracking"
+msgstr "Отслеживание рук OpenXR"
+
 msgid "Introduction"
 msgstr "Введение"
+
+msgid "Demo project"
+msgstr "Демоycтрационный проект"
+
+msgid ""
+"The information presented on this page was used to create a demo project "
+"that can be found `here <https://github.com/godotengine/godot-demo-projects/"
+"tree/master/xr/openxr_hand_tracking_demo>`_."
+msgstr ""
+"Информация, представленная на этой странице, была использована для создания "
+"демонстрационного проекта, который можно найти `здесь <https://github.com/"
+"godotengine/godot-demo-projects/tree/master/xr/openxr_hand_tracking_demo>`_."
+
+msgid "The Hand Tracking API"
+msgstr "API отслеживания рук"
+
+msgid "Hand tracking node"
+msgstr "Узел отслеживания рук"
+
+msgid "This information has been separated out for the following use cases:"
+msgstr "Эта информация была разделена для следующих вариантов использования:"
+
+msgid "Rigged hand mesh"
+msgstr "Полигональная сетка для рук с Rigged"
 
 msgid ""
 "The `OpenXR hand tracking demo <https://github.com/godotengine/godot-demo-"
@@ -22,3 +49,31 @@ msgstr ""
 "Демонстрационная версия отслеживания рук OpenXR <https://github.com/"
 "godotengine/godot-demo-projects/tree/master/xr/openxr_hand_tracking_demo>`_ "
 "содержит примеры файлов glTF с правильно настроенными руками."
+
+msgid "The hand skeleton modifier"
+msgstr "Модификатор скелета руки"
+
+msgid "The hand tracking data source"
+msgstr "Источник данных отслеживания рук"
+
+msgid "This example logs the state for the left hand."
+msgstr "В этом примере регистрируется состояние левой руки."
+
+msgid "Handling user input"
+msgstr "Обработка пользовательского ввода"
+
+msgid "The hand interaction profile"
+msgstr "Профиль взаимодействия рук"
+
+msgid "HTC hand interaction profile"
+msgstr "Профиль взаимодействия рук HTC"
+
+msgid "Simple controller profile"
+msgstr "Простой профиль контроллера"
+
+msgid ""
+"`Malcolm Nixons Hand Pose Detector <https://github.com/Malcolmnixon/"
+"GodotXRHandPoseDetector>`_"
+msgstr ""
+"`Определитель положения рук Малкольма Никсонса <https://github.com/"
+"Malcolmnixon/GodotXRHandPoseDetector>`_"

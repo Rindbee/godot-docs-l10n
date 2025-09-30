@@ -79,7 +79,7 @@ msgstr ""
 msgid ""
 "Since Godot 4.1, you can split the script or shader editor to its own window."
 msgstr ""
-"Починаючи з Godot 4.1, ви можете розділити сценарій або редактор шейдерів на "
+"Починаючи з Godot 4.1, ви можете розділити скрипт або редактор шейдерів на "
 "окреме вікно."
 
 msgid ""

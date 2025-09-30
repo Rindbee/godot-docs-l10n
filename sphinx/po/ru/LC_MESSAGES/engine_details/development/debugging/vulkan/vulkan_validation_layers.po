@@ -71,5 +71,10 @@ msgstr "Включение уровней проверки"
 msgid "Copy libraries"
 msgstr "Копировать библиотеки"
 
+msgid "Your Godot source directory tree should look like on the example below:"
+msgstr ""
+"Дерево исходных каталогов Godot должно выглядеть так, как показано на "
+"примере ниже:"
+
 msgid "Compile and run the Android app"
 msgstr "Скомпилируйте и запустите приложение (app) для Android"

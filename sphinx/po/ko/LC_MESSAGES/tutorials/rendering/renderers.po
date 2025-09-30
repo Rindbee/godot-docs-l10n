@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Overview of renderers"
+msgstr "렌더러의 개요"
+
 msgid "Introduction"
 msgstr "소개"
 
@@ -47,6 +50,12 @@ msgstr ""
 "**호환성**, 때때로 **GL 호환성**\\ 이라고도 불립니다. 가장 덜 발전된 렌더러"
 "로, 저사양 데스크톱 및 모바일 플랫폼에 적합합니다. 웹 플랫폼에서는 기본으로 "
 "사용됩니다. 이 렌더러는 **OpenGL**\\ 을 렌더링 드라이버로 사용합니다."
+
+msgid "Godot's rendering abstraction layers."
+msgstr "Godot의 렌더링 추상화 계층."
+
+msgid "Choosing a renderer"
+msgstr "렌더러 선택하기"
 
 msgid "Choose **Compatibility** if:"
 msgstr "다음 요구 사항이 있는 경우 **호환성**\\ 을 선택하세요.:"

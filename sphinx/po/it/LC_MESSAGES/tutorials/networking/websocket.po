@@ -22,3 +22,6 @@ msgstr "Questo stamperà qualcosa di simile a :"
 
 msgid "Minimal server example"
 msgstr "Esempio di Server Minimale"
+
+msgid "When a client connects, this will print something similar to this:"
+msgstr "Quando un cliente si connette, questo stamperà qualcosa del genere:"

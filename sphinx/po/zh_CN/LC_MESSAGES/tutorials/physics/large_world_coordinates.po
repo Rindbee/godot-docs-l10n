@@ -391,7 +391,7 @@ msgid ""
 "usually **not** required for:"
 msgstr ""
 "从另一方面来看，只有在确实需要大世界坐标才启用它是至关重要的（从性能方面考"
-"虑）。以下情况通常**不**适合使用大世界坐标："
+"虑）。以下情况通常 **不** 适合使用大世界坐标："
 
 msgid "2D games, as precision issues are usually less noticeable."
 msgstr "2D 游戏，因为 2D 游戏中的精度问题通常不太明显。"

@@ -269,6 +269,10 @@ msgstr ""
 "disponibile a partire da Godot 4.2, ma tale supporto è sperimentale "
 "e :ref:`si applicano limitazioni <doc_c_sharp_platforms>`."
 
+msgid "To learn more about C#, head to the :ref:`doc_c_sharp` section."
+msgstr ""
+"Per saperne di più su C#, andare alla pagina :ref:`basi di C# <doc_c_sharp>`."
+
 msgid "C++ via GDExtension"
 msgstr "C++ mediante GDExtension"
 
@@ -304,7 +308,7 @@ msgstr ""
 "disponibili sono strettamente simili all'API vera e propria di Godot in C++."
 
 msgid "Summary"
-msgstr "Sommario"
+msgstr "Riepilogo"
 
 msgid ""
 "Scripts are files containing code that you attach to a node to extend its "

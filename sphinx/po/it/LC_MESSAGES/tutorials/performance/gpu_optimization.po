@@ -24,6 +24,14 @@ msgstr ""
 msgid "Reuse shaders and materials"
 msgstr "Riutilizza gli shader e i materiali"
 
+msgid ""
+"**When targeting mobile devices, consider using the simplest possible "
+"shaders you can reasonably afford to use.**"
+msgstr ""
+"**Quando scegli come destinazione i dispositivi mobili, pensa a utilizzare "
+"gli shader più semplici possibili che puoi ragionevolmente permetterti di "
+"utilizzare.**"
+
 msgid "Reading textures"
 msgstr "Lettura delle texture"
 

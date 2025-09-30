@@ -108,6 +108,11 @@ msgid "2D and 3D NavigationServer differences"
 msgstr "2D 與 3D NavigationServer 的差異"
 
 msgid ""
+"NavigationServer2D and NavigationServer3D are equivalent in functionality "
+"for their dimension."
+msgstr "NavigationServer2D 與 NavigationServer3D 在各自維度上的功能是等價的。"
+
+msgid ""
 "Technically it is possible to use the tools for creating navigation meshes "
 "in one dimension for the other dimension, e.g. baking a 2D navigation mesh "
 "with the 3D NavigationMesh when using flat 3D source geometry or creating 3D "

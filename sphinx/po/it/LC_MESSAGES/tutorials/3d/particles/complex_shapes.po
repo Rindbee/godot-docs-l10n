@@ -11,5 +11,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Complex emission shapes"
+msgstr "Forme complesse di emissione"
+
+msgid "Creating emission points"
+msgstr "Creazione di punti di emissione"
+
+msgid "Set emission density"
+msgstr "Impostare la densità di emissione"
+
+msgid "Emission shape textures"
+msgstr "Texture di forma di emissione"
+
 msgid "Emission textures"
 msgstr "Texture di emissione"

@@ -126,8 +126,29 @@ msgstr "``\"+call cursor({line}, {col})\" {file}``"
 msgid "Sublime Text"
 msgstr "Atom/Sublime Text"
 
+msgid "``{project} {file}:{line}:{col}``"
+msgstr "``{project} {file}:{line}:{col}``"
+
+msgid "Visual Studio*"
+msgstr "Visual Studio*"
+
 msgid "``/edit \"file\"``"
 msgstr "``/edit \"file\"``"
+
+msgid ""
+"\\*: Arguments are not automatically detected, so you must fill them in "
+"manually."
+msgstr "\\*：無法自動偵測參數，需手動填寫。"
+
+msgid ""
+"Since Godot 4.5, **Exec Flags** are automatically detected for all editors "
+"listed above (unless denoted with an asterisk). You don't need to paste them "
+"from this page for it to work, unless your editor has an executable name not "
+"recognized automatically (e.g. a fork of an editor listed here)."
+msgstr ""
+"自 Godot 4.5 起，以上列出的編輯器（除標註星號者外）會自動偵測 **Exec "
+"Flags**。通常不需從本頁貼上參數即可運作，除非你的編輯器可執行檔名稱無法自動辨"
+"識（例如上述編輯器的分支版本）。"
 
 msgid ""
 "For Visual Studio Code on Windows, you will have to point to the "

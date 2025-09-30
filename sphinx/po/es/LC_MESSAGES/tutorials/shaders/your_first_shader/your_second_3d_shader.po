@@ -255,7 +255,7 @@ msgid ""
 msgstr "Para usar ``TIME`` en la función ``height()``, necesitamos pasarla."
 
 msgid "And make sure to correctly pass it in inside the vertex function."
-msgstr "Y asegúrese de pasarlo correctamente dentro de la función de vértice."
+msgstr "Y asegúrate de pasarlo correctamente dentro de la función de vértice."
 
 msgid ""
 "Instead of using a normalmap to calculate normals. We are going to compute "

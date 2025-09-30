@@ -304,7 +304,7 @@ msgstr ""
 "для вершин, нормалей, кольорів тощо."
 
 msgid "Now, attach a script to the MeshInstance3D and use the following code:"
-msgstr "Тепер додайте сценарій до MeshInstance3D і використовуйте такий код:"
+msgstr "Тепер додайте скрипт до MeshInstance3D і використовуйте такий код:"
 
 msgid ""
 "The triangle is specified in normalized device coordinates. Recall, NDC run "

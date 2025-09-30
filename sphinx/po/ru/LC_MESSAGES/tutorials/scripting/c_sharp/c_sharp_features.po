@@ -22,7 +22,7 @@ msgstr ""
 "Godot, а также того, как они используются вместе."
 
 msgid "Type conversion and casting"
-msgstr "Превращение типов и кастинг"
+msgstr "Преобразование и приведение типов"
 
 msgid ""
 "C# is a statically typed language. Therefore, you can't do the following:"

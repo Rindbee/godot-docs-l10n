@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Compiling for visionOS"
+msgstr "Компиляция для visionOS"
+
 msgid ""
 "This page describes how to compile visionOS export template binaries from "
 "source. If you're looking to export your project to visionOS instead, "

@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Inspector Dock"
+msgstr "Il pannello Ispettore"
+
 msgid ""
 "This page explains how the Inspector dock works in-depth. You will learn how "
 "to edit properties, fold and unfold areas, use the search bar, and more."
@@ -21,3 +24,14 @@ msgstr ""
 
 msgid "Usage"
 msgstr "Utilizzo"
+
+msgid "At the top of the dock are the file and navigation buttons."
+msgstr "In cima al pannello si trovano i pulsanti di file e di navigazione."
+
+msgid "From left to right:"
+msgstr "Da sinistra a destra:"
+
+msgid "Refer to :ref:`doc_customizing_editor` for dock customization options."
+msgstr ""
+"Riferirsi a :ref:`doc_customizing_editor` per le opzioni di "
+"personalizzazione dei pannelli."

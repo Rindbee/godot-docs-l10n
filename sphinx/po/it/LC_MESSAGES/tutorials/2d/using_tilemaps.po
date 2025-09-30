@@ -47,14 +47,32 @@ msgstr "Strumenti e modalità di disegno"
 msgid "Selection"
 msgstr "Selezione"
 
+msgid "Paint"
+msgstr "Disegna"
+
 msgid "Rectangle"
 msgstr "Rettangolo"
 
 msgid "Bucket Fill"
 msgstr "Riempimento"
 
+msgid ""
+"If you disable **Contiguous**, all tiles with the same ID in the entire "
+"TileMap will be replaced by the currently selected tile. If selecting an "
+"empty tile with **Contiguous** unchecked, all tiles in the rectangle that "
+"encompasses the TileMap's effective area will be replaced instead."
+msgstr ""
+"Disattivando **Contiguous**, tutti i tasselli con lo stesso ID nell'intera "
+"TileMap saranno sostituiti dal tassello attualmente selezionato. "
+"Selezionando un tassello vuoto con **Contiguous** disattivato, saranno "
+"sostituiti tutti i tasselli nel rettangolo che racchiude l'area effettiva "
+"della TileMap."
+
 msgid "Using the Bucket Fill tool"
 msgstr "Utilizzo dello strumento Riempimento tasselli"
+
+msgid "Picker"
+msgstr "Selettore"
 
 msgid "There are 3 kinds of painting modes available for terrain connections:"
 msgstr ""

@@ -17,6 +17,19 @@ msgstr "Класс Variant"
 msgid "About"
 msgstr "О Godot Engine"
 
+msgid ""
+"Variant is the most important datatype in Godot. A Variant takes up only 24 "
+"bytes on 64-bit platforms (20 bytes on 32-bit platforms) and can store "
+"almost any engine datatype inside of it. Variants are rarely used to hold "
+"information for long periods of time, instead they are used mainly for "
+"communication, editing, serialization and generally moving data around."
+msgstr ""
+"Вариант — важнейший тип данных в Godot. Он занимает всего 24 байта на 64-"
+"битных платформах (20 байт на 32-битных) и может хранить практически любой "
+"тип данных движка. Варианты редко используются для длительного хранения "
+"информации, а в основном используются для связи, редактирования, "
+"сериализации и перемещения данных в целом."
+
 msgid "A Variant can:"
 msgstr "Variant может:"
 
@@ -87,20 +100,53 @@ msgstr ""
 "`core/variant/variant.h <https://github.com/godotengine/godot/blob/master/"
 "core/variant/variant.h>`__"
 
+msgid "List of variant types"
+msgstr "Список типов вариантов"
+
+msgid "These types are available in Variant:"
+msgstr "Эти типы доступны в Variant:"
+
 msgid "Type"
 msgstr "Тип"
 
 msgid "Notes"
 msgstr "Примечания"
 
+msgid "Nullable type"
+msgstr "Тип, допускающий значение NULL"
+
+msgid ":ref:`class_bool`"
+msgstr ":ref:`class_bool`"
+
+msgid ":ref:`class_int`"
+msgstr ":ref:`class_int`"
+
+msgid ":ref:`class_float`"
+msgstr ":ref:`class_float`"
+
+msgid ":ref:`class_string`"
+msgstr ":ref:`class_string`"
+
+msgid ":ref:`class_vector2`"
+msgstr ":ref:`class_vector2`"
+
 msgid ":ref:`class_vector2i`"
 msgstr ":ref:`class_vector2i`"
+
+msgid ":ref:`class_rect2`"
+msgstr ":ref:`class_rect2`"
 
 msgid ":ref:`class_rect2i`"
 msgstr ":ref:`class_rect2i`"
 
+msgid ":ref:`class_vector3`"
+msgstr ":ref:`class_vector3`"
+
 msgid ":ref:`class_vector3i`"
 msgstr ":ref:`class_vector3i`"
+
+msgid ":ref:`class_transform2d`"
+msgstr ":ref:`class_transform2d`"
 
 msgid ":ref:`class_vector4`"
 msgstr ":ref:`class_vector4`"
@@ -108,8 +154,14 @@ msgstr ":ref:`class_vector4`"
 msgid ":ref:`class_vector4i`"
 msgstr ":ref:`class_vector4i`"
 
+msgid ":ref:`class_plane`"
+msgstr ":ref:`class_plane`"
+
 msgid ":ref:`class_quaternion`"
 msgstr ":ref:`class_quaternion`"
+
+msgid ":ref:`class_aabb`"
+msgstr ":ref:`class_aabb`"
 
 msgid ":ref:`class_basis`"
 msgstr ":ref:`class_basis`"
@@ -125,6 +177,12 @@ msgstr ":ref:`class_color`"
 
 msgid ":ref:`class_stringname`"
 msgstr ":ref:`class_stringname`"
+
+msgid ":ref:`class_nodepath`"
+msgstr ":ref:`class_nodepath`"
+
+msgid ":ref:`class_rid`"
+msgstr ":ref:`class_rid`"
 
 msgid ":ref:`class_object`"
 msgstr ":ref:`class_object`"
@@ -170,6 +228,9 @@ msgstr ":ref:`class_packedcolorarray`"
 
 msgid ":ref:`class_packedvector4array`"
 msgstr ":ref:`class_packedvector4array`"
+
+msgid "Containers: Array and Dictionary"
+msgstr "Контейнеры: Array (массив) и Dictionary (словарь)"
 
 msgid ""
 "Both :ref:`class_array` and :ref:`class_dictionary` are implemented using "

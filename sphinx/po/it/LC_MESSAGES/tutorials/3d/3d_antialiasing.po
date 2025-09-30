@@ -49,6 +49,20 @@ msgstr ""
 "*Questo è disponibile solo nei renderer Forward+ e Mobile, non nel renderer "
 "Compatibilità.*"
 
+msgid "Sub-pixel Morphological Antialiasing (SMAA 1x)"
+msgstr "Antialiasing morfologico subpixel (SMAA 1x)"
+
+msgid ""
+"SMAA 1x can be enabled in the Project Settings by changing the value of "
+"the :ref:`Rendering > Anti Aliasing > Quality > Screen Space "
+"AA<class_ProjectSettings_property_rendering/anti_aliasing/quality/"
+"screen_space_aa>` setting to ``SMAA``."
+msgstr ""
+"Il SMAA 1x può essere abilitato nelle Impostazioni del progetto cambiando il "
+"valore dell'impostazione :ref:`Rendering > Anti Aliasing > Quality > Screen "
+"Space AA<class_ProjectSettings_property_rendering/anti_aliasing/quality/"
+"screen_space_aa>` su ``SMAA``."
+
 msgid "Supersample antialiasing (SSAA)"
 msgstr "Antialiasing supercampione (SSAA)"
 
@@ -73,11 +87,17 @@ msgstr "FSR2"
 msgid "FXAA"
 msgstr "FXAA"
 
+msgid "SMAA 1x"
+msgstr "SMAA 1x"
+
 msgid "SSAA"
 msgstr "SSAA"
 
 msgid "SSRL"
 msgstr "SSRL"
+
+msgid "Edge antialiasing"
+msgstr "Antialiasing sui bordi"
 
 msgid "🟢 Yes"
 msgstr "🟢 Sì"

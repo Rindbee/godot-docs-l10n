@@ -15,6 +15,13 @@ msgid "Downloading the Godot source code"
 msgstr "Scaricare il codice sorgente di Godot"
 
 msgid ""
+"The `maintenance branches <https://github.com/godotengine/godot/branches/"
+"all>`__ are used to release further patches on each minor version."
+msgstr ""
+"I `rami di manutenzione <https://github.com/godotengine/godot/branches/"
+"all>`__ servono per rilasciare ulteriori patch su ogni versione minore."
+
+msgid ""
 "After downloading the Godot source code, you can :ref:`continue to compiling "
 "Godot <doc_introduction_to_the_buildsystem>`."
 msgstr ""

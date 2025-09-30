@@ -38,6 +38,15 @@ msgstr "**glTF**"
 msgid "**FBX**"
 msgstr "**FBX**"
 
+msgid "**Blender-specific options**"
+msgstr "**Opzioni specifiche di Blender**"
+
+msgid "**Nodes**"
+msgstr "**Nodi**"
+
+msgid "**Materials**"
+msgstr "**Materiali**"
+
 msgid "Using animation libraries"
 msgstr "Utilizzo di librerie di animazione"
 
@@ -47,8 +56,30 @@ msgstr "Filtra script"
 msgid "Scene inheritance"
 msgstr "Ereditarietà di scene"
 
+msgid ""
+"In many cases, it may be desired to make manual modifications to the "
+"imported scene. By default, this is not possible because if the source 3D "
+"asset changes, Godot will re-import the *whole* scene."
+msgstr ""
+"In molti casi, potrebbe essere necessario apportare modifiche manuali alla "
+"scena importata. Normalmente, questo non è possibile perché, se la risorsa "
+"3D sorgente cambia, Godot reimporterà *l'intera* scena."
+
+msgid ""
+"However, it is possible to make local modifications by using *scene "
+"inheritance*. If you try to open the imported scene using **Scene > Open "
+"Scene…** or **Scene > Quick Open Scene…**, the following dialog will appear:"
+msgstr ""
+"Tuttavia, è possibile apportare modifiche locali attraverso l'*ereditarietà "
+"di scene*. Se si tenta di aprire la scena importata tramite **Scena > Apri "
+"scena…** o **Scena > Apri scena rapida…**, verrà visualizzata la seguente "
+"finestra di dialogo:"
+
 msgid "Dialog when opening an imported 3D scene in the editor"
 msgstr "Finestra di dialogo all'apertura di una scena 3D importata nell'editor"
+
+msgid "In inherited scenes, the only limitations for modification are:"
+msgstr "Nelle scene ereditate, le uniche restrizioni per la modifica sono:"
 
 msgid ""
 "Nodes from the base scene can't be removed, but additional nodes can be "

@@ -22,6 +22,18 @@ msgstr ""
 "definiscono un'estensione di classe del motore con codice imperativo, le "
 "scene con codice dichiarativo."
 
+msgid ""
+"Each system's capabilities are different as a result. Scenes can define how "
+"an extended class initializes, but not what its behavior actually is. Scenes "
+"are often used in conjunction with a script, the scene declaring a "
+"composition of nodes, and the script adding behavior with imperative code."
+msgstr ""
+"Pertanto le capacità di ogni sistema sono diverse. Le scene possono definire "
+"come una classe estesa viene inizializza , ma non quale sia il suo "
+"comportamento effettivo. Le scene sono spesso utilizzate insieme a uno "
+"script: la scena dichiara una composizione di nodi e lo script aggiunge un "
+"comportamento con codice imperativo."
+
 msgid "Anonymous types"
 msgstr "Tipi anonimi"
 

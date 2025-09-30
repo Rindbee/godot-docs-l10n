@@ -169,6 +169,13 @@ msgstr ""
 msgid "**shadows_disabled**"
 msgstr "**shadows_disabled**"
 
+msgid ""
+"Disable computing shadows in shader. The shader will not receive shadows, "
+"but can still cast them."
+msgstr ""
+"Disabilita il calcolo delle ombre nello shader. Lo shader non riceverà "
+"ombre, ma potrà comunque proiettarle."
+
 msgid "**ambient_light_disabled**"
 msgstr "**ambient_light_disabled**"
 
@@ -178,6 +185,15 @@ msgstr ""
 
 msgid "**shadow_to_opacity**"
 msgstr "**shadow_to_opacity**"
+
+msgid ""
+"Lighting modifies the alpha so shadowed areas are opaque and non-shadowed "
+"areas are transparent. Useful for overlaying shadows onto a camera feed in "
+"AR."
+msgstr ""
+"L'illuminazione modifica il canale alfa, rendendo le zone ombreggiate opache "
+"e quelle non ombreggiate trasparenti. Utile per sovrapporre le ombre al feed "
+"fornito da una telecamera in AR."
 
 msgid "**vertex_lighting**"
 msgstr "**vertex_lighting**"

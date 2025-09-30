@@ -133,6 +133,15 @@ msgstr ""
 msgid "For example:"
 msgstr "例如："
 
+msgid "``script_templates/Node/smooth_camera.gd``"
+msgstr "``script_templates/Node/smooth_camera.gd``"
+
+msgid "``script_templates/CharacterBody3D/platformer_movement.gd``"
+msgstr "``script_templates/CharacterBody3D/platformer_movement.gd``"
+
+msgid "Default behavior and overriding it"
+msgstr "預設行為與覆寫方式"
+
 msgid "By default:"
 msgstr "預設情況下："
 
@@ -149,6 +158,11 @@ msgstr "縮排為 4 個空白字元"
 
 msgid "the template will not be set as the default for the given node"
 msgstr "不會設定為該節點型別的預設範本"
+
+msgid ""
+"It is possible to customize this behavior by adding meta headers at the "
+"start of your file, like this:"
+msgstr "可以在檔案開頭加入中繼標頭來自訂此行為，例如："
 
 msgid ""
 "In this case, the name will be set to \"Platformer movement\", with the "
@@ -257,6 +271,12 @@ msgstr "``_CLASS_``"
 
 msgid "The name of the new class."
 msgstr "新類別名稱。"
+
+msgid "``_CLASS_SNAKE_CASE_``"
+msgstr "``_CLASS_SNAKE_CASE_``"
+
+msgid "The name of the new class as ``snake_case`` (used in GDScript only)."
+msgstr "新類別名稱的 ``snake_case`` 形式（僅用於 GDScript）。"
 
 msgid "``_BASE_``"
 msgstr "``_BASE_``"

@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Retargeting 3D Skeletons"
+msgstr "Reindirizzare gli scheletri 3D"
+
 msgid "Remove Tracks"
 msgstr "Rimuovi tracce"
 

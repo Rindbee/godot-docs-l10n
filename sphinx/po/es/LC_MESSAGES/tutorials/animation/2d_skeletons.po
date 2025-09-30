@@ -99,7 +99,7 @@ msgid ""
 "Drawing a polygon directly is not advised. Instead, open the \"UV\" dialog "
 "for the polygon:"
 msgstr ""
-"No se aconseja dibujar un polígono directamente. En su lugar, abra el cuadro "
+"No se aconseja dibujar un polígono directamente. En su lugar, abre el cuadro "
 "de diálogo \"UV\" para el polígono:"
 
 msgid ""

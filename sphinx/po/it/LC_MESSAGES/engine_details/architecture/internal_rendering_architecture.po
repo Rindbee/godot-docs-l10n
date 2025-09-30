@@ -18,6 +18,18 @@ msgstr ""
 "Questa pagina è una panoramica generale della progettazione del renderer "
 "interno di Godot 4. Non si applica alle versioni precedenti di Godot."
 
+msgid ""
+"The goal of this page is to document design decisions taken to best suit "
+"`Godot's design philosophy <https://contributing.godotengine.org/en/latest/"
+"engine/guidelines/best_practices.html>`__, while providing a starting point "
+"for new rendering contributors."
+msgstr ""
+"L'obiettivo di questa pagina è documentare le decisioni di progettazione "
+"prese per adattarsi al meglio alla `filosofia di progettazione di Godot "
+"<https://contributing.godotengine.org/en/latest/engine/guidelines/"
+"best_practices.html>`__, fornendo allo stesso tempo un punto di partenza per "
+"i nuovi contributori al rendering."
+
 msgid "Rendering methods"
 msgstr "Metodi di rendering"
 
@@ -105,6 +117,9 @@ msgstr "Driver di rendering"
 
 msgid "Godot 4 supports the following graphics APIs:"
 msgstr "Godot 4 supporta le seguenti API grafiche:"
+
+msgid "Vulkan"
+msgstr "Vulkan"
 
 msgid "**Vulkan context creation:**"
 msgstr "**Creazione di contesto in Vulkan:**"
@@ -270,6 +285,9 @@ msgstr ""
 "`drivers/gles3/shaders/ <https://github.com/godotengine/godot/blob/4.2/"
 "drivers/gles3/shaders/>`__"
 
+msgid "**2D and 3D rendering buffer configuration C++ code:**"
+msgstr "**Codice C++ per la configurazione del buffer di rendering 2D e 3D:**"
+
 msgid ""
 "`servers/rendering/renderer_rd/storage_rd/render_scene_buffers_rd.cpp "
 "<https://github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/"
@@ -278,6 +296,9 @@ msgstr ""
 "`servers/rendering/renderer_rd/storage_rd/render_scene_buffers_rd.cpp "
 "<https://github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/"
 "storage_rd/render_scene_buffers_rd.cpp>`__"
+
+msgid "**FSR 1.0:**"
+msgstr "**FSR 1.0:**"
 
 msgid ""
 "`servers/rendering/renderer_rd/effects/fsr.cpp <https://github.com/"
@@ -295,6 +316,9 @@ msgstr ""
 
 msgid "2D rendering techniques"
 msgstr "Tecniche di rendering 2D"
+
+msgid "**2D SDF generation GLSL shader:**"
+msgstr "**Shader GLSL di generazione SDF 2D:**"
 
 msgid ""
 "`servers/rendering/renderer_rd/shaders/canvas_sdf.glsl <https://github.com/"

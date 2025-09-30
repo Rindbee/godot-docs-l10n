@@ -100,6 +100,13 @@ msgstr ""
 "チします。 アタッチされたオブジェクトはボーンの動きに追従します。キャラクター"
 "の武器はこの方法でアタッチできます。"
 
+msgid ""
+"To create pinned joints, select the upper vertices in the ``SoftBody3D`` "
+"node:"
+msgstr ""
+"ピンジョイントを作成するには、\\ ``SoftBody3D`` ノードの上部の頂点を選択しま"
+"す:"
+
 msgid "Play the scene and the cloak should simulate correctly."
 msgstr "シーンを再生すると、マントは正しくシミュレートされます。"
 

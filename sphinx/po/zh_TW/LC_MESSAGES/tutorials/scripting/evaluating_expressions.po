@@ -50,6 +50,9 @@ msgstr ""
 msgid "Basic usage"
 msgstr "基本用法"
 
+msgid "To evaluate a mathematical expression, use:"
+msgstr "要計算數學運算式，請使用："
+
 msgid "The following operators are available:"
 msgstr "可用的運算子如下："
 
@@ -126,8 +129,19 @@ msgstr ""
 "Godot 支援的所有 Variant 型別皆可用於運算式，包括整數、浮點數、字串、陣列、字"
 "典、顏色、向量等。…"
 
+msgid "Arrays and dictionaries can be indexed like in GDScript:"
+msgstr "陣列與字典可如 GDScript 一樣使用索引："
+
 msgid "Passing variables to an expression"
 msgstr "傳遞變數給運算式"
+
+msgid ""
+"You can pass variables to an expression. These variables will then become "
+"available in the expression's \"context\" and will be substituted when used "
+"in the expression:"
+msgstr ""
+"你可以將變數傳入運算式。這些變數會在運算式的「環境」中可用，並在使用時被代"
+"入："
 
 msgid ""
 "Both the variable names and variable values **must** be specified as an "
@@ -144,6 +158,16 @@ msgid ""
 "By default, an expression has a base instance of ``null``. This means the "
 "expression has no base instance associated to it."
 msgstr "預設情況下，運算式的基礎實例為 ``null``，即沒有綁定任何基礎實例。"
+
+msgid ""
+"When calling :ref:`Expression.execute() <class_Expression_method_execute>`, "
+"you can set the value of the ``base_instance`` parameter to a specific "
+"object instance such as ``self``, another script instance or even a "
+"singleton:"
+msgstr ""
+"呼叫 :ref:`Expression.execute() <class_Expression_method_execute>` 時，你可以"
+"將 ``base_instance`` 參數設為特定物件實例，例如 ``self``、其他腳本實例，甚至"
+"單例："
 
 msgid "Associating a base instance allows doing the following:"
 msgstr "綁定基礎實例後可進行以下操作："
@@ -172,6 +196,12 @@ msgstr ""
 
 msgid "Example script"
 msgstr "範例腳本"
+
+msgid "The script below demonstrates what the Expression class is capable of:"
+msgstr "以下腳本示範 Expression 類別的能力："
+
+msgid "The output from the script will be:"
+msgstr "此腳本的輸出為："
 
 msgid "Built-in functions"
 msgstr "內建函式"

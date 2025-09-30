@@ -289,7 +289,7 @@ msgid ""
 "Remember to remove the call to ``new_game()`` from ``_ready()`` if you "
 "haven't already, otherwise your game will start automatically."
 msgstr ""
-"Не забудьте видалити виклик ``new_game()`` з ``_ready()``, якщо ви цього ще "
+"Не забудьте вилучити виклик ``new_game()`` з ``_ready()``, якщо ви цього ще "
 "не зробили, інакше ваша гра запуститься автоматично."
 
 msgid "Now you're ready to play! Click the \"Play the Project\" button."

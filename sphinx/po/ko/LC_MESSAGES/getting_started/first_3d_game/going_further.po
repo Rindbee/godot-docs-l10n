@@ -79,7 +79,7 @@ msgid ""
 ":ref:`Inputs <toc-learn-features-inputs>` is another important one for any "
 "game project."
 msgstr ""
-":ref:`Inputs <toc-learn-features-inputs>` 은(는) 모든 게임 프로젝트에서 또 다"
+":ref:`입력 <toc-learn-features-inputs>`\\ 은 모든 게임 프로젝트를 위한 또 다"
 "른 중요한 부분입니다."
 
 msgid ""

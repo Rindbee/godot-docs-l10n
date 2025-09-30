@@ -126,10 +126,10 @@ msgstr ""
 "используйте ``[br]``. См. также `BBCode и справочник классов`_ ниже."
 
 msgid "Documenting script members"
-msgstr "Документирование участников сценария"
+msgstr "Документирование элементов скрипта"
 
 msgid "Members that are applicable for documentation:"
-msgstr "Члены, имеющие отношение к документации:"
+msgstr "Элементы, имеющие отношение к документации:"
 
 msgid "Signal"
 msgstr "Сигнал"
@@ -164,7 +164,7 @@ msgstr ""
 "символов ``##``, чтобы считаться частью документации."
 
 msgid "No tag."
-msgstr "Нет бирки."
+msgstr "Нет тега."
 
 msgid "``@deprecated: Use [member another] instead.``"
 msgstr "``@deprecated: Вместо этого используйте [member another].``"
@@ -603,7 +603,7 @@ msgid "``[codeblock lang=text]`` disables syntax highlighting;"
 msgstr "``[codeblock lang=text]`` отключает подсветку синтаксиса;"
 
 msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
-msgstr "``[codeblock lang=gdscript]`` освещает синтаксис GDScript;"
+msgstr "``[codeblock lang=gdscript]`` подсвечивает синтаксис GDScript;"
 
 msgid ""
 "``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."

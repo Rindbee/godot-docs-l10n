@@ -31,6 +31,21 @@ msgstr ""
 "在 Windows 和 Linux 上，你可以通过指定其相对或绝对路径在终端中运行 Godot 可执"
 "行文件。"
 
+msgid ""
+"On macOS, the process is different due to Godot being contained within a "
+"``.app`` bundle (which is a *folder*, not a file). To run a Godot binary "
+"from a terminal on macOS, you have to ``cd`` to the folder where the Godot "
+"application bundle is located, then run ``Godot.app/Contents/MacOS/Godot`` "
+"followed by any command line arguments. If you've renamed the application "
+"bundle from ``Godot`` to another name, make sure to edit this command line "
+"accordingly."
+msgstr ""
+"在 macOS 上，由于 Godot 包含在 ``.app`` 包中（这是一个 *文件夹* ，而不是文"
+"件），因此运行过程有所不同。要从 macOS 的终端运行 Godot 可执行文件，你必须 "
+"``cd`` 到 Godot 应用程序包所在的文件夹，然后运行 ``Godot.app/Contents/MacOS/"
+"Godot`` ，并在后面加上相关命令行参数。如果你把应用包从 ``Godot`` 改名为其他名"
+"称，则需相应地编辑这个命令行。"
+
 msgid "Command line reference"
 msgstr "命令行参考"
 
@@ -104,7 +119,7 @@ msgstr "``--no-header``"
 
 msgid ""
 "|release| Do not print engine version and rendering method header on startup."
-msgstr "|release| 启动时不打印引擎版本与渲染方法标头。"
+msgstr "|release| 启动时不打印引擎版本和渲染方法的标题信息。"
 
 msgid "**Run options**"
 msgstr "**运行选项**"
@@ -155,8 +170,22 @@ msgstr ""
 msgid "``--dap-port <port>``"
 msgstr "``--dap-port <port>``"
 
+msgid ""
+"|editor| Use the specified port for the GDScript Debug Adapter Protocol. "
+"Recommended port range ``[1024, 49151]``."
+msgstr ""
+"|editor| 为 GDScript 调试适配器协议使用指定端口。推荐端口范围 ``[1024, "
+"49151]``。"
+
 msgid "``--lsp-port <port>``"
 msgstr "``--lsp-port <port>``"
+
+msgid ""
+"|editor| Use the specified port for the GDScript Language Server Protocol. "
+"Recommended port range ``[1024, 49151]``."
+msgstr ""
+"|editor| 为 GDScript 语言服务器协议使用指定端口。推荐端口范围 ``[1024, "
+"49151] ``。"
 
 msgid "``--quit``"
 msgstr "``--quit``"
@@ -253,6 +282,14 @@ msgstr "视频驱动。使用 ``--help`` 来显示可用驱动列表。"
 
 msgid "``--audio-output-latency`` <ms>"
 msgstr "``--audio-output-latency`` <毫秒>"
+
+msgid ""
+"|release| Override audio output latency in milliseconds (default is 15 ms). "
+"Lower values make sound playback more reactive but increase CPU usage, and "
+"may result in audio cracking if the CPU can't keep up"
+msgstr ""
+"|release| 覆盖音频输出延迟（毫秒，默认为15毫秒）。数值越低声音播放响应越快，"
+"但会增加CPU占用，若CPU性能不足可能导致音频爆音"
 
 msgid "``--rendering-method <renderer>``"
 msgstr "``--rendering-method <renderer>``"
@@ -384,8 +421,18 @@ msgstr "|release| 选择 XR 模式（“default”默认、“off”关闭、“
 msgid "``--wid <window_id>``"
 msgstr "``--wid <window_id>``"
 
+msgid "|release| Request parented to window."
+msgstr "|release|请求附加到窗口。"
+
 msgid "``--accessibility <mode>``"
 msgstr "``--accessibility <mode>``"
+
+msgid ""
+"|release| Select accessibility mode ['auto' (when screen reader is running, "
+"default), 'always', 'disabled']."
+msgstr ""
+"|release| 选择无障碍模式 ['auto'（当屏幕阅读器运行时，默认值）, 'always', "
+"'disabled']。"
 
 msgid "**Debug options**"
 msgstr "**调试选项**"
@@ -471,6 +518,13 @@ msgstr ""
 msgid "``--accurate-breadcrumbs``"
 msgstr "``--accurate-breadcrumbs``"
 
+msgid ""
+"|debug| Force barriers between breadcrumbs. Useful for narrowing down a "
+"command causing GPU resets. Currently only implemented for Vulkan."
+msgstr ""
+"|debug| 强制在breadcrumbs间插入屏障（用于定位导致GPU重置的具体指令，当前仅"
+"Vulkan实现）。"
+
 msgid "``--remote-debug <uri>``"
 msgstr "``--remote-debug <uri>``"
 
@@ -520,6 +574,25 @@ msgid ""
 "|debug| Print all StringName allocations to stdout when the engine quits."
 msgstr "|debug| 当引擎退出时，将所有 StringName 分配打印到标准输出。"
 
+msgid "``--debug-canvas-item-redraw``"
+msgstr "``--debug-canvas-item-redraw``"
+
+msgid ""
+"|debug| Display a rectangle each time a canvas item requests a redraw "
+"(useful to troubleshoot low processor mode)."
+msgstr ""
+"|debug| 每当画布项请求重绘时，显示一个矩形（有助于排查低处理器模式下的问"
+"题）。"
+
+msgid "``--max-fps <fps>``"
+msgstr "``--max-fps <fps>``"
+
+msgid ""
+"|release| Set a maximum number of frames per second rendered (can be used to "
+"limit power usage). A value of 0 results in unlimited framerate."
+msgstr ""
+"|release| 设置每秒渲染的最大帧数（可用于限制功耗）。值为 0 表示帧率无限制。"
+
 msgid "``--frame-delay <ms>``"
 msgstr "``--frame-delay <ms>``"
 
@@ -539,6 +612,13 @@ msgstr "|release| 强制时间缩放（值越大速度越快，1.0 是正常速�
 
 msgid "``--disable-vsync``"
 msgstr "``--disable-vsync``"
+
+msgid ""
+"|release| Forces disabling of vertical synchronization, even if enabled in "
+"the project settings. Does not override driver-level V-Sync enforcement."
+msgstr ""
+"|release| 强制禁用垂直同步，即使项目设置中已启用。但不会覆盖驱动程序级别的垂"
+"直同步强制设置。"
 
 msgid "``--disable-render-loop``"
 msgstr "``--disable-render-loop``"
@@ -575,6 +655,13 @@ msgstr "``--print-fps``"
 msgid "|release| Print the frames per second to the stdout."
 msgstr "|release| 将每秒帧数打印到标准输出上。"
 
+msgid "``--editor-pseudolocalization``"
+msgstr "``--editor-pseudolocalization``"
+
+msgid ""
+"|editor| Enable pseudolocalization for the editor and the project manager."
+msgstr "|editor| 为编辑器和项目管理器启用伪本地化。"
+
 msgid "**Standalone tools**"
 msgstr "**单独的工具**"
 
@@ -589,6 +676,9 @@ msgstr ""
 "|release| 运行脚本。\\ ``<script>`` 必须是相对于项目的资源路径（\\ "
 "``myscript.gd`` 会被解释为 ``res://myscript.gd``\\ ）或绝对文件系统路径（例"
 "如 Windows 上的 ``C:/tmp/myscript.gd``\\ ）"
+
+msgid "|release| Run a MainLoop specified by its global class name."
+msgstr "|release| 运行由其全局类名指定的 MainLoop。"
 
 msgid "``--check-only``"
 msgstr "``--check-only``"
@@ -608,6 +698,18 @@ msgstr ""
 
 msgid "``--export-release <preset> <path>``"
 msgstr "``--export-release <preset> <path>``"
+
+msgid ""
+"|editor| Export the project in release mode using the given preset and "
+"output path. The preset name should match one defined in "
+"'export_presets.cfg'. ``<path>`` should be absolute or relative to the "
+"project directory, and include the filename for the binary (e.g. 'builds/"
+"game.exe'). The target directory must exist."
+msgstr ""
+"|editor| 使用指定的预设和输出路径以发布模式导出项目。预设名称应与 "
+"'export_presets.cfg' 中定义的名称一致。``<path>`` 应为绝对路径或相对于项目目"
+"录的相对路径，并包含生成的可执行文件（例如 'builds/game.exe'）。目标目录必须"
+"存在。"
 
 msgid "``--export-debug <preset> <path>``"
 msgstr "``--export-debug <preset> <path>``"
@@ -632,8 +734,30 @@ msgstr ""
 msgid "``--export-patch <preset> <path>``"
 msgstr "``--export-patch <预设> <路径>``"
 
+msgid ""
+"|editor| Export pack with changed files only. See --export-pack description "
+"for other considerations."
+msgstr ""
+"|editor| 仅导出包含已更改文件的打包文件。其他注意事项请参见 --export-pack 的"
+"说明。"
+
+msgid "``--patches <paths>``"
+msgstr "``--patches <paths>``"
+
+msgid ""
+"|editor| List of patches to use with --export-patch. The list is comma-"
+"separated."
+msgstr "|editor| 与 --export-patch 配合使用的补丁列表，以逗号分隔。"
+
 msgid "``--install-android-build-template``"
 msgstr "``--install-android-build-template``"
+
+msgid ""
+"|editor| Install the Android build template. Used in conjunction with --"
+"export-release or --export-debug."
+msgstr ""
+"|editor| 安装 Android 构建模板。与 --export-release 或 --export-debug 配合使"
+"用。"
 
 msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
 msgstr "``--convert-3to4 [<最大文件kb值>] [<最大行数>]``"
@@ -733,6 +857,12 @@ msgid ""
 msgstr ""
 "|editor| 对运行时间进行基准测试，并以 JSON 格式保存到指定文件。路径应为绝对路"
 "径。"
+
+msgid "``--test [--help]``"
+msgstr "``--test [--help]``"
+
+msgid "|editor| Run unit tests. Use --test --help for more information."
+msgstr "|editor| 运行单元测试。使用 --test --help 获取更多信息。"
 
 msgid "Path"
 msgstr "路径"

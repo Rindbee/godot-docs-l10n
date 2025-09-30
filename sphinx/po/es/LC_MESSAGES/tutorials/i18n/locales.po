@@ -2130,7 +2130,7 @@ msgid "mus"
 msgstr "mus"
 
 msgid "Muscogee"
-msgstr "Muscogee"
+msgstr "Muscogui"
 
 msgid "mwl"
 msgstr "mwl"

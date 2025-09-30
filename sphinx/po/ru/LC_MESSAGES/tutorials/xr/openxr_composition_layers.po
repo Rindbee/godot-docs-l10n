@@ -20,3 +20,15 @@ msgid ""
 msgstr ""
 "Пример такого подхода см. в примере проекта `GUI in 3D <https://github.com/"
 "godotengine/godot-demo-projects/tree/master/viewport/gui_in_3d>`_."
+
+msgid "There are currently 3 nodes that expose this functionality:"
+msgstr "В настоящее время эту функциональность реализуют 3 узла:"
+
+msgid "Setting up the SubViewport"
+msgstr "Настройка SubViewport"
+
+msgid "Adding a composition layer"
+msgstr "Добавление композиционного слоя"
+
+msgid "Making the interface work"
+msgstr "Заставить интерфейс работать"

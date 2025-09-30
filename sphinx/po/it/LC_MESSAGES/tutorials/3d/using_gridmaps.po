@@ -35,5 +35,17 @@ msgstr "Collisioni"
 msgid "Materials"
 msgstr "Materiali"
 
+msgid "NavigationMeshes"
+msgstr "Mesh di navigazione"
+
+msgid "Lightmaps"
+msgstr "Lightmap"
+
 msgid "Using GridMap"
 msgstr "Utilizzo di GridMap"
+
+msgid "Inspector properties"
+msgstr "Proprietà nelll'Ispettore"
+
+msgid "GridMap panel"
+msgstr "Pannello GridMap"

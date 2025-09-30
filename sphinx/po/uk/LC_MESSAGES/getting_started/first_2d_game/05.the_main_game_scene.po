@@ -334,7 +334,7 @@ msgid ""
 "When you're sure everything is working, remove the call to ``new_game()`` "
 "from ``_ready()`` and replace it with ``pass``."
 msgstr ""
-"Переконавшись, що все працює видаліть виклик ``new_game()`` з ``_ready()`` і "
+"Переконавшись, що все працює вилучає виклик ``new_game()`` з ``_ready()`` і "
 "замініть його на ``pass``."
 
 msgid ""

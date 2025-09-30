@@ -11,11 +11,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using CharacterBody2D/3D"
+msgstr "Utilizzare i CharacterBody2D/3D"
+
 msgid "Introduction"
 msgstr "Introduzione"
 
+msgid "What is a character body?"
+msgstr "Cos'è un corpo di personaggio?"
+
 msgid "Movement and collision"
 msgstr "Movimento e collisione"
+
+msgid "move_and_collide"
+msgstr "move_and_collide"
+
+msgid "move_and_slide"
+msgstr "move_and_slide"
 
 msgid "``velocity`` - *default value:* ``Vector2( 0, 0 )``"
 msgstr "``velocity`` - *valore predefinito:* ``Vector2( 0, 0 )``"
@@ -29,5 +41,20 @@ msgstr "``up_direction`` - *valore predefinito:* ``Vector2( 0, -1 )``"
 msgid "``floor_stop_on_slope`` - *default value:* ``true``"
 msgstr "``floor_stop_on_slope`` - *valore predefinito:* ``true``"
 
+msgid "Detecting collisions"
+msgstr "Rilevare le collisioni"
+
+msgid "Which movement method to use?"
+msgstr "Quale metodo di movimento utilizzare?"
+
 msgid "Examples"
 msgstr "Esempi"
+
+msgid "Attach a script to the CharacterBody2D and add the following code:"
+msgstr "Allega uno script al CharacterBody2D e aggiungi il codice seguente:"
+
+msgid "Bouncing/reflecting"
+msgstr "Rimbalzo/riflessione"
+
+msgid "Platformer movement"
+msgstr "Movimento di gioco di piattaforme"

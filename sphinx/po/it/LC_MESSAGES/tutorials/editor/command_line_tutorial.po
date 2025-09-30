@@ -89,6 +89,9 @@ msgstr ""
 "|release| Modalità silenziosa, silenzia i messaggi di stdout. Gli errori "
 "sono comunque visualizzati."
 
+msgid "``--no-header``"
+msgstr "``--no-header``"
+
 msgid "**Run options**"
 msgstr "**Opzioni di esecuzione**"
 
@@ -117,6 +120,9 @@ msgstr ""
 "|editor| Avvia il Gestore dei progetti, anche se un progetto è rilevato "
 "automaticamente."
 
+msgid "``--recovery-mode``"
+msgstr "``--recovery-mode``"
+
 msgid "``--debug-server <uri>``"
 msgstr "``--debug-server <uri>``"
 
@@ -126,6 +132,12 @@ msgid ""
 msgstr ""
 "|editor| Avvia il server di debug dell'editor (``<protocollo>://<host/IP>[:"
 "<porta>]``, ad esempio ``tcp://127.0.0.1:6007``)"
+
+msgid "``--dap-port <port>``"
+msgstr "``--dap-port <port>``"
+
+msgid "``--lsp-port <port>``"
+msgstr "``--lsp-port <porta>``"
 
 msgid "``--quit``"
 msgstr "``--quit``"
@@ -166,6 +178,9 @@ msgid ""
 msgstr ""
 "|release| Percorso a un progetto (``<directory>`` deve contenere un file "
 "\"project.godot\")."
+
+msgid "``scene <path>``"
+msgstr "``scene <path>``"
 
 msgid "``-u``, ``--upwards``"
 msgstr "``-u``, ``--upwards``"
@@ -274,6 +289,9 @@ msgstr ""
 "|release| Abilita la modalità headless (``--display-driver headless --audio-"
 "driver Dummy``). Utile per i server e con ``--script``."
 
+msgid "``--log-file``"
+msgstr "``--log-file``"
+
 msgid "``--write-movie <file>``"
 msgstr "``--write-movie <file>``"
 
@@ -349,6 +367,12 @@ msgstr "``--xr-mode <mode>``"
 msgid "|release| Select XR mode ('default', 'off', 'on')."
 msgstr "|release| Seleziona la modalità XR (\"default\", \"off\", \"on\")."
 
+msgid "``--wid <window_id>``"
+msgstr "``--wid <id_finestra>``"
+
+msgid "``--accessibility <mode>``"
+msgstr "``--accessibility <modalità>``"
+
 msgid "**Debug options**"
 msgstr "**Opzioni di debug**"
 
@@ -368,11 +392,14 @@ msgstr ""
 "|release| Lista dei punti di interruzione come coppie separate da virgole "
 "``sorgente::riga``, senza spazi (utilizzare invece ``%20``)."
 
+msgid "``--ignore-error-breaks``"
+msgstr "``--ignore-error-breaks``"
+
 msgid "``--profiling``"
 msgstr "``--profiling``"
 
 msgid "|release| Enable profiling in the script debugger."
-msgstr "|release| Abilita la profilazione nello debugger di script."
+msgstr "|release| Abilita la profilazione nel debugger di script."
 
 msgid "``--gpu-profile``"
 msgstr "``--gpu-profile``"
@@ -396,6 +423,15 @@ msgstr ""
 
 msgid "``--gpu-abort``"
 msgstr "``--gpu-abort``"
+
+msgid "``--generate-spirv-debug-info``"
+msgstr "``--generate-spirv-debug-info``"
+
+msgid "``--extra-gpu-memory-tracking``"
+msgstr "``--extra-gpu-memory-tracking``"
+
+msgid "``--accurate-breadcrumbs``"
+msgstr "``--accurate-breadcrumbs``"
 
 msgid "``--remote-debug <uri>``"
 msgstr "``--remote-debug <uri>``"
@@ -455,8 +491,21 @@ msgstr ""
 "|debug| Stampa tutte le allocazioni di StringName su stdout quando il motore "
 "si chiude."
 
+msgid "``--debug-canvas-item-redraw``"
+msgstr "``--debug-canvas-item-redraw``"
+
+msgid "``--max-fps <fps>``"
+msgstr "``--max-fps <fps>``"
+
 msgid "``--frame-delay <ms>``"
 msgstr "``--frame-delay <ms>``"
+
+msgid ""
+"|release| Simulate high CPU load (delay each frame by <ms> milliseconds). Do "
+"not use as a FPS limiter; use --max-fps instead."
+msgstr ""
+"|release| Simula un carico elevato sulla CPU (ritarda ogni frame di <ms> "
+"millisecondi). Non usare un limitatore di FPS; usa invece --max-fps."
 
 msgid "``--time-scale <scale>``"
 msgstr "``--time-scale <scale>``"
@@ -521,6 +570,15 @@ msgstr "``--print-fps``"
 msgid "|release| Print the frames per second to the stdout."
 msgstr "|release| Stampa i frame al secondo sullo stdout."
 
+msgid "``--editor-pseudolocalization``"
+msgstr "``--editor-pseudolocalization``"
+
+msgid ""
+"|editor| Enable pseudolocalization for the editor and the project manager."
+msgstr ""
+"|editor| Abilita la pseudolocalizzazione per l'editor e il gestore dei "
+"progetti."
+
 msgid "**Standalone tools**"
 msgstr "**Strumenti autonomi**"
 
@@ -537,6 +595,9 @@ msgstr ""
 "myscript.gd``) o un percorso assoluto del file system (ad esempio su Windows "
 "``C:/tmp/myscript.gd``)"
 
+msgid "``--main-loop <main_loop_name>``"
+msgstr "``--main-loop <nome_loop_principale>``"
+
 msgid "``--check-only``"
 msgstr "``--check-only``"
 
@@ -552,7 +613,7 @@ msgid ""
 "|editor| Starts the editor, waits for any resources to be imported, and then "
 "quits. Implies ``--editor`` and ``--quit``."
 msgstr ""
-"|editore| Avvia l'editor, attende che tutte le risorse vengano importate, "
+"|editor| Avvia l'editor, attende che tutte le risorse siano importate, "
 "quindi esce. Implica ``--editor`` e ``--quit``."
 
 msgid "``--export-release <preset> <path>``"
@@ -579,6 +640,15 @@ msgstr ""
 "|editor| Come ``--export-release``, ma esporta solo il pacchetto di gioco "
 "per la preimpostazione specificata. L'estensione del percorso ``<path>`` "
 "determina se sarà in formato PCK o ZIP. Implica ``--import``."
+
+msgid "``--export-patch <preset> <path>``"
+msgstr "``--export-patch <preset> <percorso>``"
+
+msgid "``--patches <paths>``"
+msgstr "``--patches <percorsi>``"
+
+msgid "``--install-android-build-template``"
+msgstr "``--install-android-build-template``"
 
 msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
 msgstr "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
@@ -688,6 +758,9 @@ msgid ""
 msgstr ""
 "|editor| Esegue un benchmark del tempo di esecuzione e lo salva in un file "
 "specificato in formato JSON. Il percorso deve essere assoluto."
+
+msgid "``--test [--help]``"
+msgstr "``--test [--help]``"
 
 msgid "Path"
 msgstr "Percorso"

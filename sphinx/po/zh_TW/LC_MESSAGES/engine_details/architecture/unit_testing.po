@@ -14,6 +14,19 @@ msgstr ""
 msgid "Unit testing"
 msgstr "單元測試"
 
+msgid ""
+"Godot Engine allows to write unit tests directly in C++. The engine "
+"integrates the `doctest <https://github.com/doctest/doctest>`_ unit testing "
+"framework which gives ability to write test suites and test cases next to "
+"production code, but since the tests in Godot go through a different "
+"``main`` entry point, the tests reside in a dedicated ``tests/`` directory "
+"instead, which is located at the root of the engine source code."
+msgstr ""
+"Godot 引擎允許直接用 C++ 撰寫單元測試。引擎整合了 `doctest <https://"
+"github.com/doctest/doctest>`_ 單元測試框架，能讓你在生產程式碼旁撰寫測試套件"
+"與測試案例。不過由於 Godot 的測試經由不同的 ``main`` 進入點執行，因此測試改放"
+"在引擎原始碼根目錄下專用的 ``tests/`` 資料夾。"
+
 msgid "Platform and target support"
 msgstr "平台與目標支援"
 
@@ -318,6 +331,13 @@ msgstr ""
 "若判斷提示意義明確，建議用 ``CHECK``，較複雜且需補充說明之處則用 "
 "``CHECK_MESSAGE``。"
 
+msgid ""
+"`doctest: Assertion macros <https://github.com/doctest/doctest/blob/master/"
+"doc/markdown/assertions.md>`_."
+msgstr ""
+"`doctest：斷言巨集 <https://github.com/doctest/doctest/blob/master/doc/"
+"markdown/assertions.md>`_。"
+
 msgid "Logging"
 msgstr "記錄"
 
@@ -359,6 +379,13 @@ msgid ""
 "Different reporters can be chosen at runtime. For instance, here's how the "
 "output can be redirected to an XML file:"
 msgstr "執行時可指定不同輸出格式，舉例來說，以下指令可將輸出導向 XML 檔案："
+
+msgid ""
+"`doctest: Logging macros <https://github.com/doctest/doctest/blob/master/doc/"
+"markdown/logging.md>`_."
+msgstr ""
+"`doctest：記錄巨集 <https://github.com/doctest/doctest/blob/master/doc/"
+"markdown/logging.md>`_。"
 
 msgid "Testing failure paths"
 msgstr "測試失敗路徑"
@@ -430,6 +457,20 @@ msgid ""
 "Initializes the :ref:`AudioServer<class_AudioServer>` using a mock audio "
 "driver."
 msgstr "使用模擬音訊驅動程式初始化 :ref:`AudioServer<class_AudioServer>`。"
+
+msgid "``[Navigation2D]``"
+msgstr "``[Navigation2D]``"
+
+msgid ""
+"Creates the default 2D navigation server and makes it available for testing."
+msgstr "建立預設的 2D 導航伺服器，並讓其可供測試使用。"
+
+msgid "``[Navigation3D]``"
+msgstr "``[Navigation3D]``"
+
+msgid ""
+"Creates the default 3D navigation server and makes it available for testing."
+msgstr "建立預設的 3D 導航伺服器，並讓其可供測試使用。"
 
 msgid ""
 "You can use them together to combine multiple test environment extensions."

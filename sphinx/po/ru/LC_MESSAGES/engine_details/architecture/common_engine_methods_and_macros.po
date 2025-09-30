@@ -11,6 +11,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Format a string"
+msgstr "Форматировать строку"
+
+msgid "Internationalize a string"
+msgstr "Интернационализировать строку"
+
+msgid "There are two types of internationalization in Godot's codebase:"
+msgstr "В кодовой базе Godot существует 2 типа интернационализации:"
+
+msgid "Get project/editor settings"
+msgstr "Получить настройки проекта/редактора"
+
+msgid "There are four macros available for this:"
+msgstr "Для этого доступны четыре макроса:"
+
+msgid "Error macros"
+msgstr "Макросы ошибок"
+
 msgid ""
 "See `core/error/error_macros.h <https://github.com/godotengine/godot/blob/"
 "master/core/error/error_macros.h>`__ in Godot's codebase for more "

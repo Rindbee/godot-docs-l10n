@@ -26,6 +26,9 @@ msgstr "Windows: ``%APPDATA%\\Godot\\script_templates\\``"
 msgid "Linux: ``$HOME/.config/godot/script_templates/``"
 msgstr "Linux: ``$HOME/.config/godot/script_templates/``"
 
+msgid "macOS: ``$HOME/Library/Application Support/Godot/script_templates/``"
+msgstr "macOS: ``$HOME/Library/Application Support/Godot/script_templates/``"
+
 msgid "Project-defined templates"
 msgstr "Modelli definiti per il progetto"
 
@@ -34,6 +37,12 @@ msgstr "Organizzazione e denominazione dei modelli"
 
 msgid "For example:"
 msgstr "Per esempio:"
+
+msgid "``script_templates/Node/smooth_camera.gd``"
+msgstr "``script_templates/Node/smooth_camera.gd``"
+
+msgid "``script_templates/CharacterBody3D/platformer_movement.gd``"
+msgstr "``script_templates/CharacterBody3D/platformer_movement.gd``"
 
 msgid "By default:"
 msgstr "Come predefinito:"
@@ -55,6 +64,9 @@ msgstr "``_CLASS_``"
 
 msgid "The name of the new class."
 msgstr "Il nome della nuova classe."
+
+msgid "``_CLASS_SNAKE_CASE_``"
+msgstr "``_CLASS_SNAKE_CASE_``"
 
 msgid "``_BASE_``"
 msgstr "``_BASE_``"

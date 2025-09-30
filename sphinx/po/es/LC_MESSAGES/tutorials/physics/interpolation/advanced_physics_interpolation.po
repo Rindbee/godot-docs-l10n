@@ -16,7 +16,7 @@ msgstr "Cámaras"
 
 msgid "Ensure the camera is using global coordinate space"
 msgstr ""
-"Asegúrese de que la cámara esté utilizando el espacio de coordenadas global"
+"Asegúrate de que la cámara esté utilizando el espacio de coordenadas global"
 
 msgid "MultiMeshes"
 msgstr "MultiMeshes"

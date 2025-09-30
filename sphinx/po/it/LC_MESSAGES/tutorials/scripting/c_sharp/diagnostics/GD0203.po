@@ -11,8 +11,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0203: The delegate signature of the signal must return void"
+msgstr "GD0203: La firma delegata del segnale deve restituire void"
+
 msgid "**Rule ID**"
 msgstr "**ID regola**"
+
+msgid "GD0203"
+msgstr "GD0203"
 
 msgid "**Category**"
 msgstr "**Categoria**"
@@ -20,11 +26,79 @@ msgstr "**Categoria**"
 msgid "Usage"
 msgstr "Utilizzo"
 
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Soluzione è distruttiva o non-distruttiva**"
+
+msgid "Breaking - If the return type is changed"
+msgstr "Distruttiva - Se il tipo restituito viene cambiato"
+
+msgid "Non-breaking - If the ``[Signal]`` attribute is removed"
+msgstr "Non-distruttiva - Se l'attributo ``[Signal]`` viene rimosso"
+
 msgid "**Enabled by default**"
 msgstr "**Abilitato per predefinito**"
 
 msgid "Yes"
 msgstr "Si"
 
+msgid "Cause"
+msgstr "Causa"
+
+msgid ""
+"A delegate annotated with the ``[Signal]`` attribute has a return type when "
+"``void`` was expected."
+msgstr ""
+"Un delegato annotato con l'attributo ``[Signal]`` ha un tipo restituito "
+"quando era previsto ``void``."
+
 msgid "Rule description"
 msgstr "Descrizione della regola"
+
+msgid ""
+"Every signal must return ``void``. There can be multiple callbacks "
+"registered for each signal, if signal callbacks could return something it "
+"wouldn't be possible to determine which of the returned values to use."
+msgstr ""
+"Ogni segnale deve restituire ``void``. È possibile registrare più callback "
+"per ogni segnale; se i callback dei segnali potessero restituire qualcosa, "
+"non sarebbe possibile determinare quale dei valori restituiti utilizzare."
+
+msgid ""
+"Take a look at the :ref:`C# signals <doc_c_sharp_signals>` documentation for "
+"more information about how to declare and use signals."
+msgstr ""
+"Consultare la documentazione :ref:`Segnali in C# <doc_c_sharp_signals>` per "
+"più informazioni su come dichiarare e utilizzare i segnali."
+
+msgid "How to fix violations"
+msgstr "Come risolvere le violazioni"
+
+msgid ""
+"To fix a violation of this rule, change the delegate to return ``void`` or "
+"remove the ``[Signal]`` attribute from the delegate. Note that removing the "
+"attribute will mean the signal is not registered."
+msgstr ""
+"Per correggere una violazione di questa regola, modificare il delegato in "
+"modo che restituisca ``void`` o rimuovere l'attributo ``[Signal]`` dal "
+"delegato. Si noti che rimuovere l'attributo significherà che il segnale non "
+"sarà registrato."
+
+msgid ""
+"If the signal doesn't need to interact with Godot, consider using `C# events "
+"<https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/events/"
+">`_ directly. Pure C# events allow you to use any C# type for its parameters."
+msgstr ""
+"Se il segnale non deve interagire con Godot, si considerare l'utilizzo "
+"diretto degli `eventi in C# <https://learn.microsoft.com/en-us/dotnet/csharp/"
+"programming-guide/events/>`_. Gli eventi puri in C# permetto di utilizzare "
+"qualsiasi tipo di C# per i propri parametri."
+
+msgid "When to suppress warnings"
+msgstr "Quando sopprimere gli avvertimenti"
+
+msgid ""
+"Do not suppress a warning from this rule. Signal delegates that return "
+"something will result in unexpected runtime errors."
+msgstr ""
+"Non sopprimere un avviso da questa regola. I delegati di segnale che "
+"restituiscono qualcosa causeranno errori imprevisti in fase di esecuzione."

@@ -64,7 +64,7 @@ msgid ""
 "Create a script which derives from :ref:`class_VisualShaderNodeCustom`. This "
 "is all you need to initialize your plugin."
 msgstr ""
-"Створіть сценарій, який походить від :ref:`class_VisualShaderNodeCustom`. Це "
+"Створіть скрипт, який походить від :ref:`class_VisualShaderNodeCustom`. Це "
 "все, що вам потрібно для ініціалізації плагіна."
 
 msgid ""

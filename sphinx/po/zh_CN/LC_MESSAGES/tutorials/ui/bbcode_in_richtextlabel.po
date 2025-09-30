@@ -139,6 +139,14 @@ msgstr "``[p]{text}[/p]``"
 msgid "``[p {options}]{text}[/p]``"
 msgstr "``[p {options}]{text}[/p]``"
 
+msgid ""
+"Adds line break in a text, without adding a new paragraph. If used within a "
+"list, this won't create a new list item, but will add a line break within "
+"the current item instead."
+msgstr ""
+"在文本中添加换行符，但不创建新段落。若在列表中使用，不会生成新的列表项，而是"
+"在当前项内插入换行。"
+
 msgid "``[br]``"
 msgstr "``[br]``"
 

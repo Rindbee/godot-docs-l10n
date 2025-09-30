@@ -20,23 +20,56 @@ msgstr "Requisiti"
 msgid "Code signing and notarization"
 msgstr "Firma del codice e autorizzazione"
 
+msgid "Signing Options"
+msgstr "Opzioni di firma"
+
 msgid "Option"
 msgstr "Opzione"
 
 msgid "Description"
 msgstr "Descrizione"
 
+msgid "Codesign"
+msgstr "Codesign"
+
 msgid "Identity"
 msgstr "Identità"
 
+msgid "Certificate File"
+msgstr "File del certificato"
+
+msgid "Certificate Password"
+msgstr "Password del certificato"
+
+msgid "Custom Options"
+msgstr "Opzioni personalizzate"
+
+msgid "Notarization Options"
+msgstr "Opzioni di autenticazione"
+
+msgid "Notarization"
+msgstr "Autenticazione"
+
 msgid "Apple ID Name"
 msgstr "Nome Apple ID"
+
+msgid "Apple ID account name (email address). [3]_"
+msgstr "Nome dell'account Apple ID (indirizzo e-mail) [3]_"
+
+msgid "Apple ID Password"
+msgstr "Password Apple ID"
 
 msgid "Apple Team ID"
 msgstr "ID Apple Team"
 
 msgid "Entitlements"
 msgstr "Permessi"
+
+msgid "Entitlement"
+msgstr "Diritto"
+
+msgid "Allow DYLD Environment Variables [4]_"
+msgstr "Consenti variabili d'ambiente DYLD [4]_"
 
 msgid "Disable Library Validation"
 msgstr "Disabilita Convalida Libreria"
@@ -55,6 +88,9 @@ msgstr "Rubrica"
 
 msgid "Calendars"
 msgstr "Calendari"
+
+msgid "Photo Library"
+msgstr "Libreria di foto"
 
 msgid "Apple Events"
 msgstr "Eventi Apple"
@@ -76,6 +112,9 @@ msgstr "Dispositivo USB"
 
 msgid "Device Bluetooth"
 msgstr "Dispositivo Bluetooth"
+
+msgid "Helper Executable"
+msgstr "Eseguibile ausiliare"
 
 msgid "Environment variables"
 msgstr "Variabili d'ambiente"

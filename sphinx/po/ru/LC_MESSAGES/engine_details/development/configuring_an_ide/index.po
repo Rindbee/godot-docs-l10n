@@ -15,6 +15,13 @@ msgid "Configuring an IDE"
 msgstr "Настройка IDE"
 
 msgid ""
+"We assume that you have already `cloned <https://github.com/godotengine/"
+"godot>`_ and :ref:`compiled <toc-devel-compiling>` Godot."
+msgstr ""
+"Мы предполагаем, что вы уже `клонировали <https://github.com/godotengine/"
+"godot>`_ и :ref:`скомпилировали <toc-devel-compiling>` Godot."
+
+msgid ""
 "You can easily develop Godot with any text editor and by invoking ``scons`` "
 "on the command line, but if you want to work with an IDE (Integrated "
 "Development Environment), here are setup instructions for some popular ones:"

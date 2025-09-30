@@ -28,3 +28,6 @@ msgstr "Il nome del metodo sotto forma di ``String``"
 
 msgid "``\"args\"``"
 msgstr "``\"args\"``"
+
+msgid "The arguments to pass to the function as an ``Array``"
+msgstr "Gli argomenti da passare alla funzione sotto forma di un ``Array``"

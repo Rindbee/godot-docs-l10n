@@ -25,6 +25,13 @@ msgstr ""
 "리에 설정하세요:"
 
 msgid ""
+"Now select the ``AnimatedSprite2D`` and in its *SpriteFrames* property, "
+"select \"New SpriteFrames\"."
+msgstr ""
+"이제 ``AnimatedSprite2D``\\ 를 선택하고 노드의 *SpriteFrames* 속성에서 \"새 "
+"SpriteFrames\"를 선택하세요."
+
+msgid ""
 "Click on the new SpriteFrames resource and you'll see a new panel appear at "
 "the bottom of the editor window:"
 msgstr ""

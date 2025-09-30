@@ -15,7 +15,7 @@ msgid "GDScript: An introduction to dynamic languages"
 msgstr "GDScript: Un'introduzione ai linguaggi dinamici"
 
 msgid "About"
-msgstr "Informazioni su Godot"
+msgstr "Informazioni"
 
 msgid ""
 "This tutorial aims to be a quick reference for how to use GDScript more "

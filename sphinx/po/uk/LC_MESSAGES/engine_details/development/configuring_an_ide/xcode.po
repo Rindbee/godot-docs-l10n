@@ -153,7 +153,7 @@ msgid ""
 "Create a script that will give the binary a name that Xcode can recognize, "
 "e.g.:"
 msgstr ""
-"Створіть сценарій, який надасть двійковому файлу назву, яку може розпізнати "
+"Створіть скрипт, який надасть двійковому файлу назву, яку може розпізнати "
 "Xcode, наприклад:"
 
 msgid "Build the external build target."

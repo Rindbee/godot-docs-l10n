@@ -26,6 +26,9 @@ msgstr "Disegno con antialiasing"
 msgid "Tools"
 msgstr "Strumenti"
 
+msgid "Drawing a custom polygon shape"
+msgstr "Disegnare una forma poligonale personalizzata"
+
 msgid "When running it you should see something like this:"
 msgstr "Durante l'esecuzione, dovresti vedere qualcosa di simile a questo:"
 

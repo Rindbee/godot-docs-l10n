@@ -20,11 +20,17 @@ msgstr "Per iniziare"
 msgid "Initialize the plugin"
 msgstr "Inizializza il plugin"
 
+msgid "Call ``start_connection``."
+msgstr "Chiama ``start_connection``."
+
 msgid "Initialization example:"
 msgstr "Esempio di inizializzazione:"
 
 msgid "Purchase fields:"
 msgstr "Campi di acquisto:"
+
+msgid "Check purchase state"
+msgstr "Verificare lo stato dell'acquisto"
 
 msgid "Consumables"
 msgstr "Consumabili"

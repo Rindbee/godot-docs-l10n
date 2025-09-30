@@ -97,7 +97,7 @@ msgid ""
 "string list:"
 msgstr ""
 "Con múltiples fuentes, también puede agregar cada archivo individualmente a "
-"una lista de cadenas de Python:"
+"una lista de strings de Python:"
 
 msgid ""
 "This allows for powerful possibilities using Python to construct the file "

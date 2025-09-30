@@ -309,17 +309,36 @@ msgstr ""
 "collisioni con il pavimento. Per farlo, possiamo usare la funzionalità "
 "dei :ref:`gruppi <doc_groups>` di Godot."
 
+msgid ""
+"Open the scene ``mob.tscn`` again and select the *Mob* node. Go to the "
+"*Node* dock on the right to see a list of signals. The *Node* dock has two "
+"tabs: *Signals*, which you've already used, and *Groups*, which allows you "
+"to assign tags to nodes. Click on the *+* button to open the *Create new "
+"Group* dialog."
+msgstr ""
+"Apri di nuovo la scena ``mob.tscn`` e seleziona il nodo *Mob*. Vai al "
+"pannello *Nodo* sulla destra per visualizzare un elenco di segnali. Il "
+"pannello *Nodo* ha due schede: *Segnali*, che hai già utilizzato, e "
+"*Gruppi*, che ti permette di assegnare tag ai nodi. Clicca sul pulsante *+* "
+"per aprire la finestra di dialogo *Crea un nuovo gruppo*."
+
 msgid "|image7|"
 msgstr "|image7|"
 
 msgid "image7"
 msgstr "image7"
 
+msgid "Enter \"mob\" in the *Name* field and click the *Ok* button."
+msgstr "Inserisci \"mob\" nel campo *Nome* e clicca sul pulsante *Ok*."
+
 msgid "|image8|"
 msgstr "|image8|"
 
 msgid "image8"
 msgstr "image8"
+
+msgid "The \"mob\" group is now shown under the *Scene Groups* section."
+msgstr "Il gruppo \"mob\" è ora mostrato nella sezione *Gruppi della scena*."
 
 msgid "|image9|"
 msgstr "|image9|"

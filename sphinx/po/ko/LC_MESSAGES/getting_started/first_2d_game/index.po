@@ -79,3 +79,6 @@ msgstr ""
 "`dodge_the_creeps_2d_assets.zip <https://github.com/godotengine/godot-docs-"
 "project-starters/releases/download/latest-4.x/"
 "dodge_the_creeps_2d_assets.zip>`_."
+
+msgid "Contents"
+msgstr "내용"

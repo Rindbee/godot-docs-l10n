@@ -225,7 +225,7 @@ msgid ""
 "When you run the ``build_assemblies.py`` script, pass ``<my_local_source>`` "
 "to the ``--push-nupkgs-local`` option:"
 msgstr ""
-"Коли ви запускаєте сценарій ``build_assemblies.py``, передайте "
+"Коли ви запускаєте скрипт ``build_assemblies.py``, передайте "
 "``<my_local_source>`` параметру ``--push-nupkgs-local``:"
 
 msgid ""

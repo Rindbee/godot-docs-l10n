@@ -27,6 +27,12 @@ msgstr "Utilizzo tramite riga di comando"
 msgid "Choosing an output format"
 msgstr "Scegliere un formato di output"
 
+msgid "OGV (recommended)"
+msgstr "OGV (consigliato)"
+
+msgid "AVI"
+msgstr "AVI"
+
 msgid "Custom"
 msgstr "Personalizzato"
 
@@ -35,6 +41,9 @@ msgstr "Conﬁgurazione"
 
 msgid "Post-processing steps"
 msgstr "Passaggi di post-elaborazione"
+
+msgid "Converting OGV/AVI video to MP4"
+msgstr "Convertire un video OGV/AVI in MP4"
 
 msgid "Cutting video"
 msgstr "Ritagliare un video"

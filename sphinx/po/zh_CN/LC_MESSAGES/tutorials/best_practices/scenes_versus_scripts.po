@@ -21,6 +21,16 @@ msgstr ""
 "我们已经介绍了场景和脚本的不同之处. 脚本使用命令性代码定义引擎类扩展, 而场景"
 "使用声明性代码."
 
+msgid ""
+"Each system's capabilities are different as a result. Scenes can define how "
+"an extended class initializes, but not what its behavior actually is. Scenes "
+"are often used in conjunction with a script, the scene declaring a "
+"composition of nodes, and the script adding behavior with imperative code."
+msgstr ""
+"因此，每个系统的能力有所不同。场景可以定义扩展类的初始化方式，但无法定义其实"
+"际行为。场景通常与脚本配合使用：场景负责声明节点的组合结构，而脚本则通过命令"
+"式代码添加具体行为。"
+
 msgid "Anonymous types"
 msgstr "匿名类型"
 

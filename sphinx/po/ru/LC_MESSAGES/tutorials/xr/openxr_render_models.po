@@ -11,6 +11,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "OpenXR Render Models"
+msgstr "Модели рендеринга OpenXR"
+
+msgid "OpenXR Render models node"
+msgstr "Узел моделей рендеринга OpenXR"
+
 msgid ""
 "This node must have an :ref:`XROrigin3D<class_XROrigin3D>` node as an "
 "ancestor."
@@ -30,8 +36,20 @@ msgstr ""
 "<https://github.com/godotengine/godot-demo-projects/tree/master/xr/"
 "openxr_render_models>`_, которая реализует описанную ниже настройку."
 
+msgid "Render model node"
+msgstr "Узел модели рендеринга"
+
+msgid "Backend access"
+msgstr "Внутренний доступ"
+
+msgid "Render modele extension functions"
+msgstr "Функции расширения Render modele"
+
 msgid "Function"
 msgstr "Функция"
 
 msgid "Description"
 msgstr "Описание"
+
+msgid "render_model_new_scene_instance"
+msgstr "render_model_new_scene_instance"

@@ -17,6 +17,9 @@ msgstr "Xcоde"
 msgid "Importing the project"
 msgstr "Импортирование проекта"
 
+msgid "Fill out the form with the following settings:"
+msgstr "Заполните форму, указав следующие параметры:"
+
 msgid "Arguments"
 msgstr "Аргументы"
 
@@ -25,6 +28,9 @@ msgid ""
 msgstr ""
 "Полный список аргументов см. в "
 "документе :ref:`doc_introduction_to_the_buildsystem`."
+
+msgid "Directory"
+msgstr "Каталог"
 
 msgid ""
 "Name it something so you know not to compile with this target (e.g. "
@@ -51,6 +57,13 @@ msgstr ""
 "(``**``) в конец пути, например ``/Users/me/repos/godot-source/**``."
 
 msgid ""
+"Add the Godot source to the project by dragging and dropping it into the "
+"project file browser."
+msgstr ""
+"Добавьте исходный файл Godot в проект, перетащив его в обозреватель файлов "
+"проекта."
+
+msgid ""
 "Select **Create groups** for the **Added folders** option and check *only* "
 "your command line indexing target in the **Add to targets** section."
 msgstr ""
@@ -58,11 +71,27 @@ msgstr ""
 "*только* вашу цель индексирования командной строки в разделе **Add to "
 "targets**."
 
+msgid "Xcode will now index the files. This may take a few minutes."
+msgstr "Xcode сейчас проиндексирует файлы. Это может занять несколько минут."
+
+msgid ""
+"Once Xcode is done indexing, you should have jump-to-definition, "
+"autocompletion, and full syntax highlighting."
+msgstr ""
+"После того как Xcode завершит индексацию, у вас должны появиться переход к "
+"определению, автодополнение и полная подсветка синтаксиса."
+
+msgid "Debugging the project"
+msgstr "Отладка проекта"
+
 msgid "Open the scheme editor of the external build target."
 msgstr "Откройте редактор схемы внешней цели сборки."
 
 msgid "Locate the **Build > Post Actions** section."
 msgstr "Найдите раздел **Build > Post Actions**."
+
+msgid "Add a new script run action"
+msgstr "Добавить новое действие запуска скрипта"
 
 msgid ""
 "Create a script that will give the binary a name that Xcode can recognize, "

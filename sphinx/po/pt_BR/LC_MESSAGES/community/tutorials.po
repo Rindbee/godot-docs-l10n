@@ -51,7 +51,7 @@ msgstr ""
 "ou `no navegador <https://gdquest.github.io/learn-gdscript>`_."
 
 msgid "Video tutorials"
-msgstr "Vídeos tutoriais"
+msgstr "Tutoriais em vídeo"
 
 msgid ""
 "For video tutorials we recommend looking on `YouTube <https://"

@@ -208,6 +208,13 @@ msgstr ""
 "*Questo è disponibile solo nei renderer Forward+ e Mobile, non nel renderer "
 "Compatibilità.*"
 
+msgid ""
+"The formula used to determine the texture mipmap bias is: "
+"``log2f(min(scaling_3d_scale, 1.0)) + custom_texture_mipmap_bias``"
+msgstr ""
+"La formula utilizzata per determinare il bias delle mipmap delle texture è: "
+"``log2f(min(scaling_3d_scale, 1.0)) + custom_texture_mipmap_bias``"
+
 msgid "Troubleshooting"
 msgstr "Risoluzione dei problemi"
 

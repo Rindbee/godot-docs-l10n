@@ -22,6 +22,12 @@ msgid "Format strings: ``var string = \"I have %s cats.\" % \"3\"``"
 msgstr "格式化字串： ``var string = \"I have %s cats.\" % \"3\"``"
 
 msgid ""
+"The ``String.format()`` method: ``var string = \"I have {0} cats."
+"\".format([3])``"
+msgstr ""
+"``String.format()`` 方法： ``var string = \"I have {0} cats.\".format([3])``"
+
+msgid ""
 "String concatenation: ``var string = \"I have \" + str(3) + \" cats.\"``"
 msgstr "字串串接： ``var string = \"I have \" + str(3) + \" cats.\"``"
 
@@ -124,6 +130,13 @@ msgstr "**單純** 以隱式 String 轉型的方式轉換為字串。"
 
 msgid "``c``"
 msgstr "``c``"
+
+msgid ""
+"A single **Unicode character**. Accepts a Unicode code point (integer) or a "
+"single-character string. Supports values beyond 255."
+msgstr ""
+"單一的 **Unicode 字元**。接受 Unicode 碼位（整數）或單一字元的字串。支援超過 "
+"255 的值。"
 
 msgid "``d``"
 msgstr "``d``"

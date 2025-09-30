@@ -11,8 +11,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0111: The exported tool button must be an expression-bodied property"
+msgstr ""
+"GD0111: Il pulsante tool esportato deve essere una proprietà con corpo di "
+"espressione"
+
 msgid "**Rule ID**"
 msgstr "**ID regola**"
+
+msgid "GD0111"
+msgstr "GD0111"
 
 msgid "**Category**"
 msgstr "**Categoria**"
@@ -20,11 +28,40 @@ msgstr "**Categoria**"
 msgid "Usage"
 msgstr "Utilizzo"
 
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Soluzione è distruttiva o non-distruttiva**"
+
+msgid "Non-breaking"
+msgstr "Non-distruttiva"
+
 msgid "**Enabled by default**"
 msgstr "**Abilitato per predefinito**"
 
 msgid "Yes"
 msgstr "Si"
 
+msgid "Cause"
+msgstr "Causa"
+
+msgid ""
+"A property is annotated with the ``[ExportToolButton]`` attribute but it's "
+"not an `expression-bodied property`_."
+msgstr ""
+"Una proprietà è annotata con l'attributo ``[ExportToolButton]`` ma non è una "
+"`expression-bodied property`_."
+
 msgid "Rule description"
 msgstr "Descrizione della regola"
+
+msgid "How to fix violations"
+msgstr "Come risolvere le violazioni"
+
+msgid ""
+"To fix a violation of this rule, replace the property implementation with an "
+"`expression-bodied property`_."
+msgstr ""
+"Per correggere una violazione di questa regola, sostituire l'implementazione "
+"della proprietà con una `expression-bodied property`_."
+
+msgid "When to suppress warnings"
+msgstr "Quando sopprimere gli avvertimenti"

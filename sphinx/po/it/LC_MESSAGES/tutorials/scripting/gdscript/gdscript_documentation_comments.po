@@ -172,6 +172,10 @@ msgstr "``@deprecated: Usa invece [member altro].``"
 msgid "``@experimental: This method is incomplete.``"
 msgstr "``@experimental: Questo metodo è incompleto.``"
 
+msgid "Alternatively, you can use inline documentation comments:"
+msgstr ""
+"In alternativa, è possibile scrivere la documentazione sulla stessa riga:"
+
 msgid ""
 "The script documentation will update in the editor help window every time "
 "the script is updated. If any member variable or function name starts with "

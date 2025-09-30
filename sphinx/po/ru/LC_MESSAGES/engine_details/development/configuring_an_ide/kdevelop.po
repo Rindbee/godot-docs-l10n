@@ -24,6 +24,15 @@ msgstr ""
 msgid "Importing the project"
 msgstr "Импортирование проекта"
 
+msgid "From the KDevelop's main screen select **Open Project**."
+msgstr "На главном экране KDevelop выберите **Open Project**."
+
+msgid ""
+"On the next screen, choose **Custom Build System** for the **Project "
+"Manager**."
+msgstr ""
+"На следующем экране выберите **Custom Build System** для **Project Manager**."
+
 msgid "Apply the changes."
 msgstr "Примените изменения."
 
@@ -38,6 +47,9 @@ msgid ""
 msgstr ""
 "Полный список аргументов см. в "
 "документе :ref:`doc_introduction_to_the_buildsystem`."
+
+msgid "Debugging the project"
+msgstr "Отладка проекта"
 
 msgid ""
 "If you run into any issues, ask for help in one of `Godot's community "

@@ -32,8 +32,14 @@ msgstr "WAV a 16 bit, 44 kHz, mono"
 msgid "88 KB"
 msgstr "88 KB"
 
+msgid "WAV IMA ADPCM, 44 kHz, mono"
+msgstr "WAV IMA ADPCM, 44 kHz, mono"
+
 msgid "22 KB"
 msgstr "22 KB"
+
+msgid "Quite OK Audio, 44 kHz, mono"
+msgstr "Quite OK Audio, 44 kHz, mono"
 
 msgid "MP3 192 Kb/s, stereo"
 msgstr "MP3 192 Kb/s, stereo"

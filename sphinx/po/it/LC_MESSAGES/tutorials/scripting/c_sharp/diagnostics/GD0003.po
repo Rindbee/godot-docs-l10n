@@ -11,8 +11,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"GD0003: Found multiple classes with the same name in the same script file"
+msgstr ""
+"GD0003: Trovate più classi con lo stesso nome nello stesso file di script"
+
 msgid "**Rule ID**"
 msgstr "**ID regola**"
+
+msgid "GD0003"
+msgstr "GD0003"
 
 msgid "**Category**"
 msgstr "**Categoria**"
@@ -20,11 +28,60 @@ msgstr "**Categoria**"
 msgid "Usage"
 msgstr "Utilizzo"
 
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Soluzione è distruttiva o non-distruttiva**"
+
+msgid "Non-breaking"
+msgstr "Non-distruttiva"
+
 msgid "**Enabled by default**"
 msgstr "**Abilitato per predefinito**"
 
 msgid "Yes"
 msgstr "Si"
 
+msgid "Cause"
+msgstr "Causa"
+
+msgid ""
+"A script file contains multiple types that derives from ``GodotObject`` with "
+"a name that matches the script file. Only one type in the script file should "
+"match the file name."
+msgstr ""
+"Un file di script contiene più tipi derivati da ``GodotObject`` con un nome "
+"che corrisponde al file di script. Solo un tipo nel file di script deve "
+"corrispondere al nome del file."
+
 msgid "Rule description"
 msgstr "Descrizione della regola"
+
+msgid ""
+"Godot requires scripts to have a unique path so every type must be defined "
+"on its own file and the type name must match the file name."
+msgstr ""
+"Godot richiede che gli script abbiano un percorso univoco, quindi ogni tipo "
+"deve essere definito nel proprio file e il nome del tipo deve corrispondere "
+"al nome del file."
+
+msgid "How to fix violations"
+msgstr "Come risolvere le violazioni"
+
+msgid ""
+"To fix a violation of this rule, move each type declaration to a different "
+"file."
+msgstr ""
+"Per correggere una violazione di questa regola, spostare ogni dichiarazione "
+"di tipo in un file diverso."
+
+msgid "When to suppress warnings"
+msgstr "Quando sopprimere gli avvertimenti"
+
+msgid ""
+"Do not suppress a warning from this rule. Types that derive from "
+"``GodotObject`` must have a unique path otherwise the engine can't load the "
+"script by path, resulting in unexpected runtime errors."
+msgstr ""
+"Non sopprimere un avviso da questa regola. I tipi che derivano da "
+"``GodotObject`` devono avere un percorso univoco, altrimenti il motore non "
+"può caricare lo script in base al percorso, causando errori imprevisti in "
+"fase di esecuzione."

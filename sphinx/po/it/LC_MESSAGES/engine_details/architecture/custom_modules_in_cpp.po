@@ -14,6 +14,16 @@ msgstr ""
 msgid "Modules"
 msgstr "Moduli"
 
+msgid ""
+":ref:`Introduction to the buildsystem - Custom modules build option "
+"<doc_buildsystem_custom_modules>`."
+msgstr ""
+":ref:`Introduzione al sistema di compilazione - Opzione di compilazione di "
+"moduli personalizzati <doc_buildsystem_custom_modules>`."
+
+msgid "Example output:"
+msgstr "Esempio di output:"
+
 msgid "Now we can generate the documentation:"
 msgstr "Ora possiamo generare la documentazione:"
 

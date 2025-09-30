@@ -122,7 +122,7 @@ msgstr "멤버 접근"
 
 msgid ""
 "The individual components of the vector can be accessed directly by name."
-msgstr "벡터의 각각의 구성요소는 이름으로 직접 접근할 수 있다."
+msgstr "벡터의 각각의 컴포넌트는 이름으로 직접 접근할 수 있다."
 
 msgid "Adding vectors"
 msgstr "벡터의 합"
@@ -130,7 +130,7 @@ msgstr "벡터의 합"
 msgid ""
 "When adding or subtracting two vectors, the corresponding components are "
 "added:"
-msgstr "두 벡터를 더하거나 뺄 때, 해당하는 구성요소는 더해집니다:"
+msgstr "두 벡터를 더하거나 뺄 때, 해당하는 컴포넌트는 더해집니다:"
 
 msgid ""
 "We can also see this visually by adding the second vector at the end of the "

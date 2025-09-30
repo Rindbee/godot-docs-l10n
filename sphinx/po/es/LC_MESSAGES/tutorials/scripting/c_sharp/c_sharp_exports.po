@@ -32,7 +32,7 @@ msgstr ""
 "Uno de los beneficios fundamentales de exportar (exponer) variables miembro "
 "es poder verlas y modificarlas en el editor. De este modo los artistas y los "
 "diseñadores de juegos pueden modificar estos valores, que luego "
-"influenciarán en cómo el programa se ejecuta. Para ésto, se proporciona una "
+"influenciarán en cómo el programa se ejecuta. Para esto, se proporciona una "
 "sintaxis especial."
 
 msgid "String as a path to a file."

@@ -788,6 +788,23 @@ msgstr ""
 ":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, |vec_int_type| min, |"
 "vec_int_type| max)"
 
+msgid ""
+":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, int min, int max)"
+msgstr ""
+":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_int_type| x, int min, int max)"
+
+msgid ""
+":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_uint_type| x, |vec_uint_type| "
+"min, |vec_uint_type| max)"
+msgstr ""
+":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_uint_type| x, |vec_uint_type| "
+"min, |vec_uint_type| max)"
+
+msgid ""
+":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_uint_type| x, uint min, uint max)"
+msgstr ""
+":ref:`clamp<shader_func_clamp>`\\ (\\ |vec_uint_type| x, uint min, uint max)"
+
 msgid "Clamps ``x`` between ``min`` and ``max`` (inclusive)."
 msgstr "將 ``x`` 夾限在 ``min`` 與 ``max`` （包含端點）之間。"
 
@@ -1368,6 +1385,34 @@ msgstr ""
 "maxVal) :ref:`🔗<shader_func_clamp>`"
 
 msgid ""
+"|vec_int_type| **clamp**\\ (\\ |vec_int_type| x, |vec_int_type| minVal, |"
+"vec_int_type| maxVal) :ref:`🔗<shader_func_clamp>`"
+msgstr ""
+"|vec_int_type| **clamp**\\ (\\ |vec_int_type| x, |vec_int_type| minVal, |"
+"vec_int_type| maxVal) :ref:`🔗<shader_func_clamp>`"
+
+msgid ""
+"|vec_int_type| **clamp**\\ (\\ |vec_int_type| x, int minVal, int "
+"maxVal) :ref:`🔗<shader_func_clamp>`"
+msgstr ""
+"|vec_int_type| **clamp**\\ (\\ |vec_int_type| x, int minVal, int "
+"maxVal) :ref:`🔗<shader_func_clamp>`"
+
+msgid ""
+"|vec_uint_type| **clamp**\\ (\\ |vec_uint_type| x, |vec_uint_type| minVal, |"
+"vec_uint_type| maxVal) :ref:`🔗<shader_func_clamp>`"
+msgstr ""
+"|vec_uint_type| **clamp**\\ (\\ |vec_uint_type| x, |vec_uint_type| minVal, |"
+"vec_uint_type| maxVal) :ref:`🔗<shader_func_clamp>`"
+
+msgid ""
+"|vec_uint_type| **clamp**\\ (\\ |vec_uint_type| x, uint minVal, uint "
+"maxVal) :ref:`🔗<shader_func_clamp>`"
+msgstr ""
+"|vec_uint_type| **clamp**\\ (\\ |vec_uint_type| x, uint minVal, uint "
+"maxVal) :ref:`🔗<shader_func_clamp>`"
+
+msgid ""
 "Returns the value of ``x`` constrained to the range ``minVal`` to ``maxVal``."
 msgstr "將 ``x`` 夾制在 ``minVal`` 和 ``maxVal`` 之間（包含兩端點）。"
 
@@ -1590,6 +1635,9 @@ msgid ""
 msgstr ""
 "當 a < c < b 時，在 ``0`` 與 ``1`` 之間執行平滑 Hermite 插值。這在需平滑過渡"
 "閾值函式時非常有用。"
+
+msgid "Smoothstep is equivalent to:"
+msgstr "Smoothstep 等同於："
 
 msgid "Results are undefined if ``a >= b``."
 msgstr "若 ``a >= b`` ，結果未定義。"
@@ -1912,6 +1960,9 @@ msgstr "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/dot.xhtml"
 msgid "vec3 **cross**\\ (\\ vec3 a, vec3 b) :ref:`🔗<shader_func_cross>`"
 msgstr "vec3 **cross**\\ (\\ vec3 a, vec3 b) :ref:`🔗<shader_func_cross>`"
 
+msgid "Returns the cross product of two vectors. i.e.:"
+msgstr "回傳兩向量的外積（叉積）。例如："
+
 msgid "The cross product of ``a`` and ``b``."
 msgstr "``a`` 和 ``b`` 的外積。"
 
@@ -1989,6 +2040,9 @@ msgid ""
 msgstr ""
 "對於給定的入射向量 ``I`` 、表面法線 ``N`` 以及折射率比值 ``eta`` ，refract 會"
 "回傳折射向量 ``R``。"
+
+msgid "``R`` is calculated as:"
+msgstr "``R`` 計算方式如下："
 
 msgid ""
 "The input parameters I and N should be normalized in order to achieve the "
@@ -2400,6 +2454,9 @@ msgid ""
 "Returns ``true`` if any element of a boolean vector is ``true``, ``false`` "
 "otherwise."
 msgstr "若布林向量任一元素為 ``true`` 則回傳 ``true``，否則回傳 ``false``。"
+
+msgid "Functionally equivalent to:"
+msgstr "功能上等同於："
 
 msgid "The vector to be tested for truth."
 msgstr "要測試是否有 true 的布林向量。"
@@ -3204,6 +3261,14 @@ msgstr ""
 "vec4 **textureLod**\\ (\\ samplerCubeArray s, vec4 p, float "
 "lod) :ref:`🔗<shader_func_textureLod>`"
 
+msgid ""
+"Performs a texture lookup at coordinate ``p`` from the texture bound to "
+"sampler with an explicit level-of-detail as specified in ``lod``. ``lod`` "
+"specifies λbase and sets the partial derivatives as follows:"
+msgstr ""
+"在由取樣器綁定的紋理中，於座標 ``p`` 進行查詢，並使用 ``lod`` 指定的顯式細節"
+"層級。``lod`` 指定 λbase，並將偏導數設為："
+
 msgid "The explicit level-of-detail."
 msgstr "指定的細節層級（LOD）。"
 
@@ -3452,6 +3517,9 @@ msgstr ""
 "vec4 **textureGather**\\ (\\ samplerCube s, vec3 p [, int "
 "comps] ) :ref:`🔗<shader_func_textureGather>`"
 
+msgid "Returns the value:"
+msgstr "回傳下列值："
+
 msgid "param comps"
 msgstr "參數 comps"
 
@@ -3539,6 +3607,9 @@ msgstr ""
 "根據目前片段鄰近片段的 ``p`` 值，使用區域差分計算導數，可能但不一定包含目前片"
 "段本身的值。也就是說，在同一範圍內，實作可在"
 "比 :ref:`dFdxFine<shader_func_dFdxFine>` 更少的位置計算導數。"
+
+msgid "https://registry.khronos.org/OpenGL-Refpages/gl4/html/dFdx.xhtml"
+msgstr "https://registry.khronos.org/OpenGL-Refpages/gl4/html/dFdx.xhtml"
 
 msgid ""
 "|vec_type| **dFdxFine**\\ (\\ |vec_type| p) :ref:`🔗<shader_func_dFdxFine>`"
@@ -3639,6 +3710,9 @@ msgstr ""
 msgid "Equivalent to ``abs(dFdxFine(p)) + abs(dFdyFine(p))``."
 msgstr "等同於 ``abs(dFdxFine(p)) + abs(dFdyFine(p))``。"
 
+msgid "https://registry.khronos.org/OpenGL-Refpages/gl4/html/fwidth.xhtml"
+msgstr "https://registry.khronos.org/OpenGL-Refpages/gl4/html/fwidth.xhtml"
+
 msgid "Packing and unpacking functions"
 msgstr "打包與解包函式"
 
@@ -3669,11 +3743,24 @@ msgstr ":ref:`packUnorm2x16<shader_func_packUnorm2x16>`\\ (\\ vec2 v)"
 msgid ":ref:`unpackUnorm2x16<shader_func_unpackUnorm2x16>`\\ (\\ uint v)"
 msgstr ":ref:`unpackUnorm2x16<shader_func_unpackUnorm2x16>`\\ (\\ uint v)"
 
+msgid ""
+"Convert two normalized (range 0..1) 32-bit floats to 16-bit unsigned ints "
+"and pack them."
+msgstr ""
+"將兩個正規化（範圍 0..1）的 32 位元浮點數轉換為 16 位元無號整數並加以打包。"
+
 msgid ":ref:`packSnorm2x16<shader_func_packSnorm2x16>`\\ (\\ vec2 v)"
 msgstr ":ref:`packSnorm2x16<shader_func_packSnorm2x16>`\\ (\\ vec2 v)"
 
 msgid ":ref:`unpackSnorm2x16<shader_func_unpackSnorm2x16>`\\ (\\ uint v)"
 msgstr ":ref:`unpackSnorm2x16<shader_func_unpackSnorm2x16>`\\ (\\ uint v)"
+
+msgid ""
+"Convert two signed normalized (range -1..1) 32-bit floats to 16-bit signed "
+"ints and pack them."
+msgstr ""
+"將兩個有號正規化（範圍 -1..1）的 32 位元浮點數轉換為 16 位元有號整數並加以打"
+"包。"
 
 msgid ":ref:`packUnorm4x8<shader_func_packUnorm4x8>`\\ (\\ vec4 v)"
 msgstr ":ref:`packUnorm4x8<shader_func_packUnorm4x8>`\\ (\\ vec4 v)"
@@ -3681,11 +3768,24 @@ msgstr ":ref:`packUnorm4x8<shader_func_packUnorm4x8>`\\ (\\ vec4 v)"
 msgid ":ref:`unpackUnorm4x8<shader_func_unpackUnorm4x8>`\\ (\\ uint v)"
 msgstr ":ref:`unpackUnorm4x8<shader_func_unpackUnorm4x8>`\\ (\\ uint v)"
 
+msgid ""
+"Convert four normalized (range 0..1) 32-bit floats into 8-bit unsigned ints "
+"and pack them."
+msgstr ""
+"將四個正規化（範圍 0..1）的 32 位元浮點數轉換為 8 位元無號整數並加以打包。"
+
 msgid ":ref:`packSnorm4x8<shader_func_packSnorm4x8>`\\ (\\ vec4 v)"
 msgstr ":ref:`packSnorm4x8<shader_func_packSnorm4x8>`\\ (\\ vec4 v)"
 
 msgid ":ref:`unpackSnorm4x8<shader_func_unpackSnorm4x8>`\\ (\\ uint v)"
 msgstr ":ref:`unpackSnorm4x8<shader_func_unpackSnorm4x8>`\\ (\\ uint v)"
+
+msgid ""
+"Convert four signed normalized (range -1..1) 32-bit floats into 8-bit signed "
+"ints and pack them."
+msgstr ""
+"將四個有號正規化（範圍 -1..1）的 32 位元浮點數轉換為 8 位元有號整數並加以打"
+"包。"
 
 msgid "Packing and unpacking function descriptions"
 msgstr "打包與解包函式說明"
@@ -3774,6 +3874,11 @@ msgid ""
 msgstr ""
 "將每個分量的歸一化浮點數值 v 轉為 16 位元整數，然後打包為一個 32 位元無符號整"
 "數。"
+
+msgid ""
+"The conversion for component c of ``v`` to fixed-point is performed as "
+"follows:"
+msgstr "將 ``v`` 的分量 ``c`` 轉換為定點數的處理如下："
 
 msgid ""
 "The first component of the vector will be written to the least significant "
@@ -4477,6 +4582,12 @@ msgid ""
 msgstr ""
 "|vec_type| **frexp**\\ (\\ |vec_type| x, out |vec_int_type| "
 "exp) :ref:`🔗<shader_func_frexp>`"
+
+msgid ""
+"Extracts ``x`` into a floating-point significand in the range ``[0.5, 1.0)`` "
+"and in integral exponent of two, such that:"
+msgstr ""
+"將 ``x`` 分解為範圍為 ``[0.5, 1.0)`` 的浮點尾數與以 2 為底的整數指數，使得："
 
 msgid ""
 "For a floating-point value of zero, the significand and exponent are both "

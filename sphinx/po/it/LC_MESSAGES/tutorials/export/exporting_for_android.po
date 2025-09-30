@@ -14,6 +14,65 @@ msgstr ""
 msgid "Exporting for Android"
 msgstr "Esportazione per Android"
 
+msgid "Install OpenJDK 17"
+msgstr "Installare OpenJDK 17"
+
+msgid ""
+"Download and install `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
+"variant=openjdk17&version=17&os=any&arch=any>`__."
+msgstr ""
+"Scarica e installa `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
+"variant=openjdk17&version=17&os=any&arch=any>`__."
+
+msgid "Download the Android SDK"
+msgstr "Scaricare l'SDK di Android"
+
+msgid "Download and install the Android SDK."
+msgstr "Scarica e installa l'SDK di Android."
+
+msgid ""
+"You can install the Android SDK using `Android Studio Iguana (version "
+"2023.2.1) or later <https://developer.android.com/studio/>`__."
+msgstr ""
+"Puoi installarlo tramite `Android Studio Iguana (version 2023.2.1) o "
+"versioni successive <https://developer.android.com/studio/>`__."
+
+msgid "Android SDK Platform-Tools version 35.0.0 or later"
+msgstr "Android SDK Platform-Tools versione 35.0.0 or successiva"
+
+msgid "Android SDK Build-Tools version 35.0.0"
+msgstr "Android SDK Build-Tools versione 35.0.0"
+
+msgid "Android SDK Platform 35"
+msgstr "Android SDK Platform 35"
+
+msgid ""
+"Ensure that the `NDK and CMake are installed and configured <https://"
+"developer.android.com/studio/projects/install-ndk>`__."
+msgstr ""
+"Assicurarsi che `NDK e CMake siano installati e configurati <https://"
+"developer.android.com/studio/projects/install-ndk>`__."
+
+msgid ""
+"Alternatively, you can install the Android SDK with the `sdkmanager` command "
+"line tool."
+msgstr ""
+"Alternativamente, è possibile installare l'SDK di Android con lo strumento "
+"da riga di comando `sdkmanager`."
+
+msgid ""
+"Install the command line tools package using these `instructions <https://"
+"developer.android.com/tools/sdkmanager>`__."
+msgstr ""
+"Installare il pacchetto degli strumenti da riga di comando attraverso queste "
+"`istruzioni <https://developer.android.com/tools/sdkmanager>`__."
+
+msgid "In that screen, 2 paths need to be set:"
+msgstr "In questa schermata, è necessario impostare 2 percorsi:"
+
+msgid "There are three types of icons:"
+msgstr "Ci sono tre tipi di icone:"
+
 msgid "Environment variables"
 msgstr "Variabili d'ambiente"
 

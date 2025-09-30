@@ -11,6 +11,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Collision shapes (2D)"
+msgstr "Forme di collisione (2D)"
+
+msgid "Primitive collision shapes"
+msgstr "Forme primitive di collisione"
+
+msgid "Godot provides the following primitive collision shape types:"
+msgstr "Godot fornisce i seguenti tipi di forme primitive di collisione:"
+
 msgid ":ref:`class_RectangleShape2D`"
 msgstr ":ref:`class_RectangleShape2D`"
 
@@ -22,3 +31,6 @@ msgstr ":ref:`class_CapsuleShape2D`"
 
 msgid ":ref:`class_SegmentShape2D`"
 msgstr ":ref:`class_SegmentShape2D`"
+
+msgid "Convex collision shapes"
+msgstr "Forme convesse di collisione"

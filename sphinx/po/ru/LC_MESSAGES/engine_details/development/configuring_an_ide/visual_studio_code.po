@@ -63,12 +63,18 @@ msgstr ""
 "Полный список аргументов см. в "
 "документе :ref:`doc_introduction_to_the_buildsystem`."
 
+msgid "Debugging the project"
+msgstr "Отладка проекта"
+
 msgid ""
 "To run and debug the project you need to create a new configuration in the "
 "``launch.json`` file."
 msgstr ""
 "Для запуска и отладки проекта необходимо создать новую конфигурацию в файле "
 "``launch.json``."
+
+msgid "Configuring Intellisense"
+msgstr "Настройка Intellisense"
 
 msgid ""
 "If you run into any issues, ask for help in one of `Godot's community "

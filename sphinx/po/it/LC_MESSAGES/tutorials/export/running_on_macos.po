@@ -10,3 +10,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Click ``Open`` to start the app."
+msgstr "Clicca su ``Apri`` per avviare l'app."
+
+msgid "Enter your password if you're prompted."
+msgstr "Inserisci la tua password se ti viene richiesto."
+
+msgid "App is not signed, executable is linker-signed"
+msgstr "L'app non è firmata, l'eseguibile è firmato dal linker"
+
+msgid "Run the following commands:"
+msgstr "Esegui i seguenti comandi:"

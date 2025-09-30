@@ -196,6 +196,13 @@ msgstr ""
 "sono abilitati."
 
 msgid ""
+"See :ref:`Audio playback in the Exporting for the Web documentation "
+"<doc_exporting_for_web_audio_playback>` for details."
+msgstr ""
+"Consultare :ref:`Audio playback in the Exporting for the Web documentation "
+"<doc_exporting_for_web_audio_playback>` per i dettagli."
+
+msgid ""
 "Audio buses can contain all sorts of effects. These effects modify the sound "
 "in one way or another and are applied in order."
 msgstr ""

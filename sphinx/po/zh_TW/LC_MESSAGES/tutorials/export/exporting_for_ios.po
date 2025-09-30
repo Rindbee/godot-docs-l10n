@@ -176,8 +176,46 @@ msgstr "先從匯出的 iOS 專案開始 (依照上面的步驟)。"
 msgid "In Finder, drag the Godot project folder into the Xcode file browser."
 msgstr "在 Finder 中，將 Godot 專案資料夾拖曳到 Xcode 檔案瀏覽器中。"
 
+msgid ""
+"In the dialog, make sure to select Action: **Reference files in place** and "
+"Groups: **Create folders**. Uncheck Targets: **exported_xcode_project_name**."
+msgstr ""
+"在對話方塊中，請確保選擇 Action：**Reference files in place**，以及 Groups："
+"**Create folders**。取消勾選 Targets：**exported_xcode_project_name**。"
+
 msgid "See the **godot_project_to_export** folder in the Xcode file browser."
 msgstr "在 Xcode 檔案瀏覽器中檢視 **godot_project_to_export** 資料夾。"
+
+msgid ""
+"Select the godot project in the Project navigator. Then on the other side of "
+"the XCode window, in the File Inspector, make these selections:"
+msgstr ""
+"在 Project 導覽器中選取 godot 專案。接著在 Xcode 視窗右側的 File Inspector "
+"中，做以下選擇："
+
+msgid "**Location**: Relative to Project"
+msgstr "**Location**：Relative to Project"
+
+msgid "**Build Rules**: Apply Once to Folder"
+msgstr "**Build Rules**：Apply Once to Folder"
+
+msgid "add your project to **Target Membership**"
+msgstr "將你的專案加入 **Target Membership**"
+
+msgid ""
+"Delete **exported_xcode_project_name.pck** from the Xcode project in the "
+"project navigator."
+msgstr ""
+"從 Project 導覽器中的 Xcode 專案刪除 **exported_xcode_project_name.pck**。"
+
+msgid ""
+"8. Open **exported_xcode_project_name-Info.plist** and add a string property "
+"named **godot_path** (this is the real key name) with a value "
+"**godot_project_to_export** (this is the name of your project)"
+msgstr ""
+"8. 開啟 **exported_xcode_project_name-Info.plist**, 新增一個名為 "
+"**godot_path** (這是真正的鍵名) 的字串屬性, 值設為 "
+"**godot_project_to_export** (你的專案名稱)"
 
 msgid ""
 "That's it! You can now edit your project in the Godot editor and build it in "
@@ -277,3 +315,9 @@ msgstr "執行完上述指令後，Godot 應該就能順利匯出到 iOS。"
 
 msgid "Export options"
 msgstr "匯出選項"
+
+msgid ""
+"You can find a full list of export options available in "
+"the :ref:`class_EditorExportPlatformIOS` class reference."
+msgstr ""
+"完整的可用匯出選項列表請見 :ref:`class_EditorExportPlatformIOS` 類別參考。"

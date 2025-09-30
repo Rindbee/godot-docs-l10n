@@ -48,8 +48,18 @@ msgstr ""
 msgid "Migrating a v1 Android plugin to v2"
 msgstr "Migrazione di un'estensione Android v1 a v2"
 
+msgid ""
+"Change the ``org.godotengine.plugin.v1`` prefix to "
+"``org.godotengine.plugin.v2``"
+msgstr ""
+"Cambia il prefisso ``org.godotengine.plugin.v1`` in "
+"``org.godotengine.plugin.v2``"
+
 msgid "Using a v2 Android plugin"
 msgstr "Utilizzo di un'estensione Android v2"
+
+msgid "Navigate to ``Project`` -> ``Export...``"
+msgstr "Naviga su ``Project`` -> ``Export...``"
 
 msgid "Using a v2 Android plugin as an Android library"
 msgstr "Utilizzo di un'estensione Android v2 come libreria Android"

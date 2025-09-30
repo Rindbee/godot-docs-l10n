@@ -11,8 +11,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"GD0303: The parent symbol of a type argument that must be Variant compatible "
+"was not handled"
+msgstr ""
+"GD0303: Il simbolo padre di un argomento di un tipo che deve essere "
+"compatibile con Variant non è stato gestito"
+
 msgid "**Rule ID**"
 msgstr "**ID regola**"
+
+msgid "GD0303"
+msgstr "GD0303"
 
 msgid "**Category**"
 msgstr "**Categoria**"
@@ -20,11 +30,54 @@ msgstr "**Categoria**"
 msgid "Usage"
 msgstr "Utilizzo"
 
+msgid "**Fix is breaking or non-breaking**"
+msgstr "**Soluzione è distruttiva o non-distruttiva**"
+
+msgid "Not fixable"
+msgstr "Non risolvibile"
+
 msgid "**Enabled by default**"
 msgstr "**Abilitato per predefinito**"
 
 msgid "Yes"
 msgstr "Si"
 
+msgid "Cause"
+msgstr "Causa"
+
+msgid "This is a bug in the engine and must be reported."
+msgstr "Questo è un bug del motore e deve essere segnalato."
+
 msgid "Rule description"
 msgstr "Descrizione della regola"
+
+msgid ""
+"The ``MustBeVariantAnalyzer`` has found an unhandled case in the user source "
+"code. Please, open an `issue <https://github.com/godotengine/godot/issues>`_ "
+"and attach a minimal reproduction project so it can be fixed."
+msgstr ""
+"``MustBeVariantAnalyzer`` ha trovato un caso non gestito nel codice sorgente "
+"dell'utente. Apri un `issue <https://github.com/godotengine/godot/issues>`_ "
+"e allega un progetto di riproduzione minima affinché si possa risolvere il "
+"problema."
+
+msgid "How to fix violations"
+msgstr "Come risolvere le violazioni"
+
+msgid "Violations of this rule can't be fixed."
+msgstr "Non è possibile risolvere le violazioni di questa regola."
+
+msgid "When to suppress warnings"
+msgstr "Quando sopprimere gli avvertimenti"
+
+msgid ""
+"Suppressing a warning from this rule may result in unexpected errors, since "
+"the case found by the analyzer may need to be handled by the user to prevent "
+"types that are not Variant-compatible from reaching the engine. Attempting "
+"to marshal incompatible types will result in runtime errors."
+msgstr ""
+"Sopprimere un avviso da questa regola potrebbe causare errori imprevisti, "
+"poiché potrebbe essere necessario gestire il caso trovato dall'analizzatore "
+"per impedire che tipi non compatibili con Variant raggiungano il motore. "
+"Tentare di effettuare il marshalling di tipi incompatibili causerà errori in "
+"fase di esecuzione."

@@ -31,3 +31,10 @@ msgstr "示例：访问内部类"
 
 msgid "Example: Calling a constructor"
 msgstr "示例：调用构造函数"
+
+msgid ""
+"A constructor is invoked by calling a method with the same name as the class."
+msgstr "通过调用与类同名的方法来调用构造函数。"
+
+msgid "This example creates an intent to send a text:"
+msgstr "此示例创建了一个用于发送文本的 Intent："

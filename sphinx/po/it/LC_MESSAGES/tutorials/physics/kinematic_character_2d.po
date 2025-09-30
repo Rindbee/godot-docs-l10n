@@ -14,6 +14,12 @@ msgstr ""
 msgid "Introduction"
 msgstr "Introduzione"
 
+msgid "So, what is the difference?:"
+msgstr "Allora, qual è la differenza?:"
+
+msgid "Physics process"
+msgstr "Processo di fisica"
+
 msgid "Scene setup"
 msgstr "Impostazione della scena"
 

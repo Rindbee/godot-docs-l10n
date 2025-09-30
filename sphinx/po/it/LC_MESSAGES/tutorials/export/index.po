@@ -13,3 +13,12 @@ msgstr ""
 
 msgid "Export"
 msgstr "Esporta"
+
+msgid ""
+"This section is about exporting a build of your project. If you're trying to "
+"export properties from a script, see :ref:`doc_gdscript_exports` "
+"or :ref:`doc_c_sharp_exports`."
+msgstr ""
+"Questa sezione riguarda l'esportazione di una build del tuo progetto. Se "
+"stai cercando di esportare le proprietà da uno script, "
+"consulta :ref:`doc_gdscript_exports` o :ref:`doc_c_sharp_exports`."

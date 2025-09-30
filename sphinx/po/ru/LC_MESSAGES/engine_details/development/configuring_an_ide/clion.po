@@ -14,8 +14,14 @@ msgstr ""
 msgid "Importing the project"
 msgstr "Импортирование проекта"
 
+msgid "Windows Users:"
+msgstr "Пользователи Windows:"
+
 msgid "Click the **+** button and select  ``Visual Studio``"
 msgstr "Нажмите кнопку **+** и выберите ``Visual Studio``"
 
 msgid "Compiling and debugging the project"
 msgstr "Компиляция и отладка проекта"
+
+msgid "Ignoring object and library files"
+msgstr "Игнорирование объектных и библиотечных файлов"
