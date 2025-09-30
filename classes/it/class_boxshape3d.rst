@@ -14,7 +14,7 @@ Una forma di scatola 3D utilizzata per la collisione di fisica.
 Descrizione
 ----------------------
 
-Una forma cilindrica 3D, progettata per l'uso in fisica. Solitamente utilizzata per fornire una forma per un :ref:`CollisionShape3D<class_CollisionShape3D>`.
+Una forma a scatola 3D, progettata per l'uso in fisica. Solitamente utilizzata per fornire una forma per un :ref:`CollisionShape3D<class_CollisionShape3D>`.
 
 \ **Prestazioni:** **BoxShape3D** è veloce per verificare le collisioni. È più veloce di :ref:`CapsuleShape3D<class_CapsuleShape3D>` e :ref:`CylinderShape3D<class_CylinderShape3D>`, ma è più lenta di :ref:`SphereShape3D<class_SphereShape3D>`.
 

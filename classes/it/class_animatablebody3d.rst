@@ -25,7 +25,7 @@ Tutorial
 
 - :doc:`Introduzione alla fisica <../tutorials/physics/physics_introduction>`
 
-- :doc:`Troubleshooting physics issues <../tutorials/physics/troubleshooting_physics_issues>`
+- :doc:`Risolvere i problemi di fisica <../tutorials/physics/troubleshooting_physics_issues>`
 
 - `Demo dei test di fisica 3D <https://godotengine.org/asset-library/asset/2747>`__
 

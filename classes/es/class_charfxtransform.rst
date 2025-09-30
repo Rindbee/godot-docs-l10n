@@ -115,7 +115,7 @@ The time elapsed since the :ref:`RichTextLabel<class_RichTextLabel>` was added t
 - |void| **set_environment**\ (\ value\: :ref:`Dictionary<class_Dictionary>`\ )
 - :ref:`Dictionary<class_Dictionary>` **get_environment**\ (\ )
 
-Contiene los argumentos pasados en la etiqueta de apertura de BBCode. Por defecto, los argumentos son cadenas; si su contenido coincide con un tipo como :ref:`bool<class_bool>`, :ref:`int<class_int>` o :ref:`float<class_float>`, se convertirán automáticamente. Los códigos de color en la forma ``#rrggbb`` o ``#rgb`` se convertirán en un :ref:`Color<class_Color>` opaco. Los argumentos de string pueden no contener espacios, incluso si son citados. Si están presentes, las comillas también estarán presentes en la string final.
+Contiene los argumentos pasados en la etiqueta de apertura de BBCode. Por defecto, los argumentos son strings; si su contenido coincide con un tipo como :ref:`bool<class_bool>`, :ref:`int<class_int>` o :ref:`float<class_float>`, se convertirán automáticamente. Los códigos de color en la forma ``#rrggbb`` o ``#rgb`` se convertirán en un :ref:`Color<class_Color>` opaco. Los argumentos de string pueden no contener espacios, incluso si son citados. Si están presentes, las comillas también estarán presentes en la string final.
 
 Por ejemplo, la etiqueta de apertura de BBCode ``[example foo=hello bar=true baz=42 color=#ffffff]`` se asignará al siguiente :ref:`Dictionary<class_Dictionary>`:
 

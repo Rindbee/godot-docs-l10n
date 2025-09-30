@@ -99,7 +99,7 @@ If ``true``, project resources are embedded into the executable.
 
 :ref:`String<class_String>` **custom_template/debug** :ref:`🔗<class_EditorExportPlatformLinuxBSD_property_custom_template/debug>`
 
-Path to the custom export template. If left empty, default template is used.
+Ruta a la plantilla de exportación personalizada. Si se deja vacío, se utiliza la plantilla predeterminada.
 
 .. rst-class:: classref-item-separator
 
@@ -111,7 +111,7 @@ Path to the custom export template. If left empty, default template is used.
 
 :ref:`String<class_String>` **custom_template/release** :ref:`🔗<class_EditorExportPlatformLinuxBSD_property_custom_template/release>`
 
-Path to the custom export template. If left empty, default template is used.
+Ruta a la plantilla de exportación personalizada. Si se deja vacío, se utiliza la plantilla predeterminada.
 
 .. rst-class:: classref-item-separator
 
@@ -135,7 +135,7 @@ If ``true``, a console wrapper is exported alongside the main executable, which 
 
 :ref:`bool<class_bool>` **shader_baker/enabled** :ref:`🔗<class_EditorExportPlatformLinuxBSD_property_shader_baker/enabled>`
 
-If ``true``, shaders will be compiled and embedded in the application. This option is only supported when using the Forward+ or Mobile renderers.
+Si es ``true``, los shaders se compilarán e integrarán en la aplicación. Esta opción solo es compatible cuando se utilizan los renderizadores Forward+ o Mobile.
 
 .. rst-class:: classref-item-separator
 

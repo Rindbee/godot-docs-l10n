@@ -25,7 +25,7 @@ Tutorial
 
 - :doc:`Introduzione alla fisica <../tutorials/physics/physics_introduction>`
 
-- :doc:`Troubleshooting physics issues <../tutorials/physics/troubleshooting_physics_issues>`
+- :doc:`Risolvere i problemi di fisica <../tutorials/physics/troubleshooting_physics_issues>`
 
 - :doc:`Personaggio cinematico (2D) <../tutorials/physics/kinematic_character_2d>`
 
@@ -301,7 +301,7 @@ Se ``false``, il corpo scivolerà sulle pendenze sul pavimento quando :ref:`velo
 - |void| **set_max_slides**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_max_slides**\ (\ )
 
-Maximum number of times the body can change direction before it stops when calling :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Must be greater than zero.
+Numero massimo di volte in cui il corpo può cambiare direzione prima di fermarsi quando :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>` viene chiamato. Deve essere maggiore di zero.
 
 .. rst-class:: classref-item-separator
 
@@ -318,7 +318,7 @@ Maximum number of times the body can change direction before it stops when calli
 - |void| **set_motion_mode**\ (\ value\: :ref:`MotionMode<enum_CharacterBody3D_MotionMode>`\ )
 - :ref:`MotionMode<enum_CharacterBody3D_MotionMode>` **get_motion_mode**\ (\ )
 
-Sets the motion mode which defines the behavior of :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
+Imposta la modalità di movimento che definisce il comportamento di :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
 
 .. rst-class:: classref-item-separator
 
@@ -352,7 +352,7 @@ Gli strati di collisione che saranno inclusi per rilevare i corpi di pavimento c
 - |void| **set_platform_on_leave**\ (\ value\: :ref:`PlatformOnLeave<enum_CharacterBody3D_PlatformOnLeave>`\ )
 - :ref:`PlatformOnLeave<enum_CharacterBody3D_PlatformOnLeave>` **get_platform_on_leave**\ (\ )
 
-Sets the behavior to apply when you leave a moving platform. By default, to be physically accurate, when you leave the last platform velocity is applied.
+Imposta il comportamento da applicare quando si lascia una piattaforma in movimento. Come predefinito, per essere fisicamente corretti, quando si lascia una piattaforma viene applicata una velocità.
 
 .. rst-class:: classref-item-separator
 
@@ -443,7 +443,9 @@ Vettore che punta verso l'alto, utilizzato per determinare cosa è un muro e cos
 - |void| **set_velocity**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_velocity**\ (\ )
 
-Vettore di velocità attuale (solitamente in metri al secondo), utilizzato e modificato durante le chiamate a :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
+Current velocity vector (typically meters per second), used and modified during calls to :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
+
+This property should not be set to a value multiplied by ``delta``, because this happens internally in :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Otherwise, the simulation will run at an incorrect speed.
 
 .. rst-class:: classref-item-separator
 
@@ -460,7 +462,7 @@ Vettore di velocità attuale (solitamente in metri al secondo), utilizzato e mod
 - |void| **set_wall_min_slide_angle**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_wall_min_slide_angle**\ (\ )
 
-Minimum angle (in radians) where the body is allowed to slide when it encounters a wall. The default value equals 15 degrees. When :ref:`motion_mode<class_CharacterBody3D_property_motion_mode>` is :ref:`MOTION_MODE_GROUNDED<class_CharacterBody3D_constant_MOTION_MODE_GROUNDED>`, it only affects movement if :ref:`floor_block_on_wall<class_CharacterBody3D_property_floor_block_on_wall>` is ``true``.
+Angolo minimo (in radianti) a cui il corpo è permesso di scivolare quando incontra una pendenza. Il valore predefinito corrisponde a 15 gradi. Quando :ref:`motion_mode<class_CharacterBody3D_property_motion_mode>` è :ref:`MOTION_MODE_GROUNDED<class_CharacterBody3D_constant_MOTION_MODE_GROUNDED>`, questa proprietà influisce sul movimento solo se :ref:`floor_block_on_wall<class_CharacterBody3D_property_floor_block_on_wall>` è ``true``.
 
 .. rst-class:: classref-section-separator
 
@@ -697,13 +699,15 @@ Restituisce ``true`` se il corpo è entrato in collisione soltanto con un muro d
 
 :ref:`bool<class_bool>` **move_and_slide**\ (\ ) :ref:`🔗<class_CharacterBody3D_method_move_and_slide>`
 
-Sposta il corpo in base a :ref:`velocity<class_CharacterBody3D_property_velocity>`. Se il corpo entra in collisione con un altro, scivolerà lungo l'altro corpo (per impostazione predefinita solo sul pavimento) invece di fermarsi immediatamente. Se l'altro corpo è un **CharacterBody3D** o :ref:`RigidBody3D<class_RigidBody3D>`, sarà anche influenzato dal movimento dell'altro corpo. È possibile usarlo per creare piattaforme mobili e rotanti o per far in modo che i nodi spingano altri nodi.
+Moves the body based on :ref:`velocity<class_CharacterBody3D_property_velocity>`. If the body collides with another, it will slide along the other body rather than stop immediately. If the other body is a **CharacterBody3D** or :ref:`RigidBody3D<class_RigidBody3D>`, it will also be affected by the motion of the other body. You can use this to make moving and rotating platforms, or to make nodes push other nodes.
 
-Modifica :ref:`velocity<class_CharacterBody3D_property_velocity>` se si è verificata una collisione con scorrimento. Per ottenere l'ultima chiamata di collisione :ref:`get_last_slide_collision()<class_CharacterBody3D_method_get_last_slide_collision>`, per informazioni dettagliate sulle collisioni che si sono verificate, usa :ref:`get_slide_collision()<class_CharacterBody3D_method_get_slide_collision>`.
+This method should be used in :ref:`Node._physics_process()<class_Node_private_method__physics_process>` (or in a method called by :ref:`Node._physics_process()<class_Node_private_method__physics_process>`), as it uses the physics step's ``delta`` value automatically in calculations. Otherwise, the simulation will run at an incorrect speed.
 
-Quando il corpo tocca una piattaforma in movimento, la velocità della piattaforma viene automaticamente aggiunta al movimento del corpo. Se si verifica una collisione a causa del movimento della piattaforma, sarà sempre la prima nelle collisioni con scorrimento.
+Modifies :ref:`velocity<class_CharacterBody3D_property_velocity>` if a slide collision occurred. To get the latest collision call :ref:`get_last_slide_collision()<class_CharacterBody3D_method_get_last_slide_collision>`, for more detailed information about collisions that occurred, use :ref:`get_slide_collision()<class_CharacterBody3D_method_get_slide_collision>`.
 
-Restituisce ``true`` se il corpo è entrato in collisione, altrimenti restituisce ``false``.
+When the body touches a moving platform, the platform's velocity is automatically added to the body motion. If a collision occurs due to the platform's motion, it will always be first in the slide collisions.
+
+Returns ``true`` if the body collided, otherwise, returns ``false``.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -368,13 +368,13 @@ Basis
 
 :ref:`float<class_float>` **determinant**\ (\ ) |const| :ref:`🔗<class_Basis_method_determinant>`
 
-傳回此基矩陣的\ `行列式值（determinant） <https://en.wikipedia.org/wiki/Determinant>`__\ 。該值可用於判斷下列性質：
+Returns the `determinant <https://en.wikipedia.org/wiki/Determinant>`__ of this basis's matrix. For advanced math, this number can be used to determine a few attributes:
 
-- 行列式若為 ``0.0``\ ，代表矩陣無法取逆（參閱 :ref:`inverse()<class_Basis_method_inverse>`\ ）。
+- If the determinant is exactly ``0.0``, the basis is not invertible (see :ref:`inverse()<class_Basis_method_inverse>`).
 
-- 行列式若為負，代表基底包含負縮放。
+- If the determinant is a negative number, the basis represents a negative scale.
 
-\ **注意：** 若三軸縮放相同，行列式必為「縮放值的二次方」。
+\ **Note:** If the basis's scale is the same for every axis, its determinant is always that scale by the power of 3.
 
 .. rst-class:: classref-item-separator
 

@@ -12,40 +12,48 @@ Una struttura di dati integrata che contiene una sequenza di elementi.
 Descrizione
 ----------------------
 
-Una struttura dati che può contenere una sequenza di elementi di qualsiasi tipo di :ref:`Variant<class_Variant>`. Gli elementi sono accessibili da un indice numerico a partire da ``0``. Gli indici negativi sono utilizzati per contare dalla fine (``-1`` è l'ultimo elemento, ``-2`` è il penultimo, ecc.).
+An array data structure that can contain a sequence of elements of any :ref:`Variant<class_Variant>` type by default. Values can optionally be constrained to a specific type by creating a *typed array*. Elements are accessed by a numerical index starting at ``0``. Negative indices are used to count from the back (``-1`` is the last element, ``-2`` is the second to last, etc.).
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var array = ["Primo", 2, 3, "Ultimo"]
-    print(array[0])  # Stampa "Primo"
-    print(array[2])  # Stampa 3
-    print(array[-1]) # Stampa "Ultimo"
+    var array = ["First", 2, 3, "Last"]
+    print(array[0])  # Prints "First"
+    print(array[2])  # Prints 3
+    print(array[-1]) # Prints "Last"
 
-    array[1] = "Secondo"
-    print(array[1])  # Stampa "Secondo"
-    print(array[-3]) # Stampa "Secondo"
+    array[1] = "Second"
+    print(array[1])  # Prints "Second"
+    print(array[-3]) # Prints "Second"
+
+    # This typed array can only contain integers.
+    # Attempting to add any other type will result in an error.
+    var typed_array: Array[int] = [1, 2, 3]
 
  .. code-tab:: csharp
 
-    Godot.Collections.Array array = ["Primo", 2, 3, "Ultimo"];
-    GD.Print(array[0]); // Stampa "Primo"
-    GD.Print(array[2]); // Stampa 3
-    GD.Print(array[^1]);; // Stampa "Ultimo"
+    Godot.Collections.Array array = ["First", 2, 3, "Last"];
+    GD.Print(array[0]); // Prints "First"
+    GD.Print(array[2]); // Prints 3
+    GD.Print(array[^1]); // Prints "Last"
 
-    array[2] = "Secondo";
-    GD.Print(array[1]); // Stampa "Secondo"
-    GD.Print(array[^3]); // Stampa "Secondo"
+    array[1] = "Second";
+    GD.Print(array[1]); // Prints "Second"
+    GD.Print(array[^3]); // Prints "Second"
+
+    // This typed array can only contain integers.
+    // Attempting to add any other type will result in an error.
+    Godot.Collections.Array<int> typedArray = [1, 2, 3];
 
 
 
-\ **Nota:** Gli array sono sempre passati per **riferimento**. Per ottenere una copia di un array che può essere modificato indipendentemente dall'array originale, utilizza :ref:`duplicate()<class_Array_method_duplicate>`.
+\ **Note:** Arrays are always passed by **reference**. To get a copy of an array that can be modified independently of the original array, use :ref:`duplicate()<class_Array_method_duplicate>`.
 
-\ **Nota:** Rimuovere elementi durante un'iterazione su un array **non** è supportato e risulterà in comportamento imprevedibile.
+\ **Note:** Erasing elements while iterating over arrays is **not** supported and will result in unpredictable behavior.
 
-\ **Differenze tra gli array impacchettati, gli array tipizzati e gli array non tipizzati:** Gli array impacchettati sono generalmente più veloci da iterare e modificare rispetto a un array tipizzato dello stesso tipo (ad esempio :ref:`PackedInt64Array<class_PackedInt64Array>` in confronto a ``Array[int]``). Inoltre, gli array impacchettati consumano meno memoria. Come svantaggio, i array impacchettati sono meno flessibili in quanto non offrono molti metodi di convenienza come :ref:`map()<class_Array_method_map>`. Gli array tipizzati sono anche loro più veloci da iterare e modificare in confronto ad array non tipizzati.
+\ **Differences between packed arrays, typed arrays, and untyped arrays:** Packed arrays are generally faster to iterate on and modify compared to a typed array of the same type (e.g. :ref:`PackedInt64Array<class_PackedInt64Array>` versus ``Array[int]``). Also, packed arrays consume less memory. As a downside, packed arrays are less flexible as they don't offer as many convenience methods such as :ref:`map()<class_Array_method_map>`. Typed arrays are in turn faster to iterate on and modify than untyped arrays.
 
 .. note::
 
@@ -656,11 +664,11 @@ Per contare quanti elementi in un array soddisfano una condizione, vedi :ref:`re
 
 :ref:`Array<class_Array>` **duplicate**\ (\ deep\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Array_method_duplicate>`
 
-Returns a new copy of the array.
+Restituisce una nuova copia dell'array.
 
-By default, a **shallow** copy is returned: all nested **Array**, :ref:`Dictionary<class_Dictionary>`, and :ref:`Resource<class_Resource>` elements are shared with the original array. Modifying any of those in one array will also affect them in the other.
+Normalmente, viene restituita una copia **superficiale**: tutti gli elementi annidati di tipo **Array**, :ref:`Dictionary<class_Dictionary>` e :ref:`Resource<class_Resource>` sono condivisi con l'array originale. Modificarli in un array li influenzerà anche nell'altro.
 
-If ``deep`` is ``true``, a **deep** copy is returned: all nested arrays and dictionaries are also duplicated (recursively). Any :ref:`Resource<class_Resource>` is still shared with the original array, though.
+Se ``deep`` è ``true``, viene restituita una copia **profonda**: anche tutti gli array e i dizionari annidati sono duplicati (ricorsivamente). Tuttavia, qualsiasi oggetto :ref:`Resource<class_Resource>` rimane condiviso con l'array originale.
 
 .. rst-class:: classref-item-separator
 
@@ -672,9 +680,9 @@ If ``deep`` is ``true``, a **deep** copy is returned: all nested arrays and dict
 
 :ref:`Array<class_Array>` **duplicate_deep**\ (\ deep_subresources_mode\: :ref:`int<class_int>` = 1\ ) |const| :ref:`🔗<class_Array_method_duplicate_deep>`
 
-Duplicates this array, deeply, like :ref:`duplicate()<class_Array_method_duplicate>`\ ``(true)``, with extra control over how subresources are handled.
+Duplica questo array profondamente, come :ref:`duplicate()<class_Array_method_duplicate>`\ ``(true)``, con ulteriore controllo su come le sottorisorse sono gestite.
 
-\ ``deep_subresources_mode`` must be one of the values from :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. By default, only internal resources will be duplicated (recursively).
+\ ``deep_subresources_mode`` deve essere uno dei valori di :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. Come predefinito, solo le risorse interne saranno duplicate (ricorsivamente).
 
 .. rst-class:: classref-item-separator
 
@@ -823,9 +831,9 @@ Restituisce il primo elemento dell'array. Se l'array è vuoto, fallisce e restit
 
 :ref:`Variant<class_Variant>` **get**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Array_method_get>`
 
-Returns the element at the given ``index`` in the array. If ``index`` out-of-bounds or negative, this method fails and returns ``null``.
+Restituisce l'elemento all'indice ``index`` nell'array. Se ``index`` è fuori limite o negativo, questo metodo fallisce e restituisce ``null``.
 
-This method is similar (but not identical) to the ``[]`` operator. Most notably, when this method fails, it doesn't pause project execution if run from the editor.
+Questo metodo è simile (ma non identico) all'operatore ``[]``. In particolare, quando questo metodo fallisce, non interrompe l'esecuzione del progetto se eseguito dall'editor.
 
 .. rst-class:: classref-item-separator
 
@@ -929,11 +937,11 @@ Restituisce un valore intero di hash a 32 bit che rappresenta l'array e i sui co
 
 :ref:`int<class_int>` **insert**\ (\ position\: :ref:`int<class_int>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_Array_method_insert>`
 
-Inserts a new element (``value``) at a given index (``position``) in the array. ``position`` should be between ``0`` and the array's :ref:`size()<class_Array_method_size>`. If negative, ``position`` is considered relative to the end of the array.
+Inserisce un nuovo elemento (``value``) a un indice fornito (``position``) nell'array. ``position`` dovrebbe essere tra ``0`` e la dimensione dell'array (:ref:`size()<class_Array_method_size>`). Se negativo, ``position`` è considerato relativo alla fine dell'array.
 
-Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, or one of the other :ref:`Error<enum_@GlobalScope_Error>` constants if this method fails.
+Restituisce :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` al successo, o una delle altre costanti di :ref:`Error<enum_@GlobalScope_Error>` se questo metodo fallisce.
 
-\ **Note:** Every element's index after ``position`` needs to be shifted forward, which may have a noticeable performance cost, especially on larger arrays.
+\ **Nota:** Ogni indice degli elementi dopo l'indice ``position`` deve essere spostato in avanti, il che potrebbe avere un impatto notevole sulle prestazioni, soprattutto sugli array più grandi.
 
 .. rst-class:: classref-item-separator
 
@@ -1002,7 +1010,7 @@ In GDScript, è possibile definire un array tipizzato con la tipizzazione static
 
 |void| **make_read_only**\ (\ ) :ref:`🔗<class_Array_method_make_read_only>`
 
-Rende l'array di sola lettura. Gli elementi dell'array non possono essere sovrascritti con valori diversi, e il loro ordine non può cambiare. Non si applica agli elementi nidificati, come i dizionari.
+Rende l'array di sola lettura. Gli elementi dell'array non possono essere sovrascritti con valori diversi, e il loro ordine non può cambiare. Non si applica agli elementi annidati, come i dizionari.
 
 In GDScript, gli array diventano automaticamente di sola lettura se dichiarati con la parola chiave ``const``.
 
@@ -1218,13 +1226,13 @@ Vedi anche :ref:`map()<class_Array_method_map>`, :ref:`filter()<class_Array_meth
 
 |void| **remove_at**\ (\ position\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Array_method_remove_at>`
 
-Removes the element from the array at the given index (``position``). If the index is out of bounds, this method fails. If the index is negative, ``position`` is considered relative to the end of the array.
+Rimuove l'elemento dall'array all'indice ``position``. Se l'indice è fuori dai limiti, questo metodo fallisce. Se l'indice è negativo, ``position`` è considerato relativo alla fine dell'array.
 
-If you need to return the removed element, use :ref:`pop_at()<class_Array_method_pop_at>`. To remove an element by value, use :ref:`erase()<class_Array_method_erase>` instead.
+Se è necessario restituire l'elemento rimosso, usa :ref:`pop_at()<class_Array_method_pop_at>`. Per rimuovere un elemento per valore, usa invece :ref:`erase()<class_Array_method_erase>`.
 
-\ **Note:** This method shifts every element's index after ``position`` back, which may have a noticeable performance cost, especially on larger arrays.
+\ **Nota:** Questo metodo sposta indietro l'indice di ogni elemento dopo ``position``, il che potrebbe avere un notevole costo sulle prestazioni, soprattutto sugli array più grandi.
 
-\ **Note:** The ``position`` cannot be negative. To remove an element relative to the end of the array, use ``arr.remove_at(arr.size() - (i + 1))``. To remove the last element from the array, use ``arr.resize(arr.size() - 1)``.
+\ **Nota:** ``position`` non può essere negativo. Per rimuovere un elemento relativo alla fine dell'array, utilizza ``arr.remove_at(arr.size() - (i + 1))``. Per rimuovere l'ultimo elemento dall'array, utilizza ``arr.resize(arr.size() - 1)``.
 
 .. rst-class:: classref-item-separator
 
@@ -1236,11 +1244,11 @@ If you need to return the removed element, use :ref:`pop_at()<class_Array_method
 
 :ref:`int<class_int>` **resize**\ (\ size\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Array_method_resize>`
 
-Sets the array's number of elements to ``size``. If ``size`` is smaller than the array's current size, the elements at the end are removed. If ``size`` is greater, new default elements (usually ``null``) are added, depending on the array's type.
+Imposta il numero di elementi dell'array a ``size``. Se ``size`` è più piccolo della dimensione corrente dell'array, gli elementi alla fine sono rimossi. Se ``size`` è maggiore, sono aggiunti nuovi elementi predefiniti (di solito ``null``), a seconda del tipo dell'array.
 
-Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, or one of the following :ref:`Error<enum_@GlobalScope_Error>` constants if this method fails: :ref:`@GlobalScope.ERR_LOCKED<class_@GlobalScope_constant_ERR_LOCKED>` if the array is read-only, :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` if the size is negative, or :ref:`@GlobalScope.ERR_OUT_OF_MEMORY<class_@GlobalScope_constant_ERR_OUT_OF_MEMORY>` if allocations fail. Use :ref:`size()<class_Array_method_size>` to find the actual size of the array after resize.
+Restituisce :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` in caso di successo, o una delle seguenti costanti di :ref:`Error<enum_@GlobalScope_Error>` se questo metodo fallisce: :ref:`@GlobalScope.ERR_LOCKED<class_@GlobalScope_constant_ERR_LOCKED>` se l'array è di sola lettura, :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` se la dimensione è negativa o :ref:`@GlobalScope.ERR_OUT_OF_MEMORY<class_@GlobalScope_constant_ERR_OUT_OF_MEMORY>` se le allocazioni falliscono. Usare :ref:`size()<class_Array_method_size>` per trovare la dimensione effettiva dell'array dopo il ridimensionamento.
 
-\ **Note:** Calling this method once and assigning the new values is faster than calling :ref:`append()<class_Array_method_append>` for every new element.
+\ **Nota:** Chiamare questo metodo una volta e assegnare i nuovi valori è più veloce di chiamare :ref:`append()<class_Array_method_append>` per ogni nuovo elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -1328,11 +1336,11 @@ Restituisce il numero di elementi nell'array. Gli array vuoti (``[]``) restituis
 
 Restituisce un nuovo **Array** contenente gli elementi di questo array, dall'indice ``begin`` (inclusivo) a ``end`` (esclusivo), ogni numero di elementi (``step``).
 
-Se ``start`` o ``end`` sono negativi, il loro valore è relativo alla fine dell'array.
+Se ``begin`` o ``end`` sono negativi, il loro valore è relativo alla fine dell'array.
 
 Se ``step`` è negativo, questo metodo itera attraverso l'array al rovescio, restituendo una sezione ordinata all'indietro. Affinché funzioni, ``begin`` deve essere maggiore di ``end``.
 
-Se ``deep`` è ``true``, tutti gli elementi nidificati di tipo **Array** e :ref:`Dictionary<class_Dictionary>` nella sezione sono duplicati dall'originale, ricorsivamente. Vedi anche :ref:`duplicate()<class_Array_method_duplicate>`).
+Se ``deep`` è ``true``, tutti gli elementi annidati di tipo **Array** e :ref:`Dictionary<class_Dictionary>` nella sezione sono duplicati dall'originale, ricorsivamente. Vedi anche :ref:`duplicate()<class_Array_method_duplicate>`).
 
 ::
 

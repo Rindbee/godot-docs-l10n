@@ -88,7 +88,7 @@ Controla cómo se deben usar los canales de color en la textura importada.
 
 Controla cómo se debe realizar la compresión VRAM para las imágenes HDR.
 
-\ **Desactivado:** Nunca uses la compresión VRAM para texturas HDR, independientemente de si son opacas o transparentes. En su lugar, la textura se convierte a RGBE9995 (9 bits por canal + exponente de 5 bits = 32 bits por píxel) para reducir el uso de memoria en comparación con un formato de imagen de coma flotante de media precisión o de precisión simple.
+\ **Desactivado:** Nunca uses la compresión VRAM para texturas HDR, independientemente de si son opacas o transparentes. En su lugar, la textura se convierte a RGBE9995 (9 bits por canal + exponente de 5 bits = 32 bits por píxel) para reducir el uso de memoria en comparación con un formato de imagen de punto flotante de media precisión o de precisión simple.
 
 \ **Solo opaco:** Solo usa la compresión VRAM para texturas HDR opacas. Esto se debe a una limitación de los formatos HDR, ya que no hay un formato HDR comprimido en VRAM que admita la transparencia al mismo tiempo.
 
@@ -146,7 +146,7 @@ El modo de compresión a utilizar. Cada modo de compresión ofrece una compensac
 
 \ **Basis Universal:** Calidad reducida, bajo uso de memoria, menor tamaño en el disco, importación lenta. Solo usar para texturas en escenas 3D, no para elementos 2D.
 
-Ver `Modo de compresión <../tutorials/assets_pipeline/importing_images.html#compress-mode>`__ en el manual para más detalles.
+Véase `Modo de compresión <../tutorials/assets_pipeline/importing_images.html#compress-mode>`__ en el manual para más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -162,7 +162,7 @@ Si es mayor o igual que ``0.01``, activa la optimización de tasa-distorsión (R
 
 \ **Nota:** Habilitar RDO hace que los tiempos de codificación sean significativamente más largos, especialmente cuando la imagen es grande.
 
-Ver también :ref:`ProjectSettings.rendering/textures/basis_universal/rdo_dict_size<class_ProjectSettings_property_rendering/textures/basis_universal/rdo_dict_size>` y :ref:`ProjectSettings.rendering/textures/basis_universal/zstd_supercompression_level<class_ProjectSettings_property_rendering/textures/basis_universal/zstd_supercompression_level>` si quieres reducir aún más el tamaño del archivo.
+Véase también :ref:`ProjectSettings.rendering/textures/basis_universal/rdo_dict_size<class_ProjectSettings_property_rendering/textures/basis_universal/rdo_dict_size>` y :ref:`ProjectSettings.rendering/textures/basis_universal/zstd_supercompression_level<class_ProjectSettings_property_rendering/textures/basis_universal/zstd_supercompression_level>` si quieres reducir aún más el tamaño del archivo.
 
 .. rst-class:: classref-item-separator
 

@@ -12,19 +12,19 @@ Un tableau compacté de chaînes de caractères :ref:`String<class_String>`.
 Description
 -----------
 
-An array specifically designed to hold :ref:`String<class_String>`\ s. Packs data tightly, so it saves memory for large array sizes.
+Un tableau spécialement conçu pour contenir des chaînes :ref:`String<class_String>`. Compacte les données de manière serrée, il sauve de la mémoire pour les grandes tailles de tableaux.
 
-If you want to join the strings in the array, use :ref:`String.join()<class_String_method_join>`.
+Si vous voulez joindre des chaînes dans le tableau, utilisez :ref:`String.join()<class_String_method_join>`.
 
 ::
 
-    var string_array = PackedStringArray(["hello", "world"])
-    var string = " ".join(string_array)
-    print(string) # "hello world"
+    var tableau_string = PackedStringArray(["bonjour", "monde"])
+    var string = " ".join(tableau_string)
+    print(string) # "bonjour monde"
 
-\ **Differences between packed arrays, typed arrays, and untyped arrays:** Packed arrays are generally faster to iterate on and modify compared to a typed array of the same type (e.g. **PackedStringArray** versus ``Array[String]``). Also, packed arrays consume less memory. As a downside, packed arrays are less flexible as they don't offer as many convenience methods such as :ref:`Array.map()<class_Array_method_map>`. Typed arrays are in turn faster to iterate on and modify than untyped arrays.
+\ **Différences entre les tableaux compactés, les tableaux typés et les tableaux non typés :** Les tableaux compactés sont généralement plus rapides pour itérer et modifier par rapport à un tableau typé du même type (par exemple **PackedStringArray** contre ``Array[String]``). De plus, les tableaux compactés consomment moins de mémoire. À l'inverse, les tableaux compactés sont moins flexibles car ils ne proposent pas autant de méthodes de commodité comme :ref:`Array.map()<class_Array_method_map>`. Les tableaux typés sont à leur tour plus rapides pour itérer dessus et modifier que les tableaux non typés.
 
-\ **Note:** Packed arrays are always passed by reference. To get a copy of an array that can be modified independently of the original array, use :ref:`duplicate()<class_PackedStringArray_method_duplicate>`. This is *not* the case for built-in properties and methods. In these cases the returned packed array is a copy, and changing it will *not* affect the original value. To update a built-in property of this type, modify the returned array and then assign it to the property again.
+\ **Note :** Les tableaux compactés sont toujours passés par référence. Pour obtenir une copie d'un tableau qui peut être modifié indépendamment du tableau original, utilisez :ref:`duplicate()<class_PackedStringArray_method_duplicate>`. Ceci n'est *pas* le cas pour les propriétés et les méthodes intégrées. Le tableau compacté renvoyé de ceux-ci est une copie, et le changer n'affectera *pas* la valeur originale. Pour mettre à jour une propriété intégrée, vous devez modifier le tableau renvoyé, puis l'affecter à nouveau à la propriété.
 
 .. note::
 
@@ -289,9 +289,9 @@ Recherche dans le tableau pour une valeur et renvoie son index ou ``-1`` si elle
 
 :ref:`String<class_String>` **get**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedStringArray_method_get>`
 
-Returns the :ref:`String<class_String>` at the given ``index`` in the array. Returns an empty string and prints an error if the access is out of bounds. Negative indices are not supported; they will always consider the value to be out of bounds and return an empty string.
+Renvoie le :ref:`String<class_String>` à l'``index`` donné dans le tableau. Renvoie une chaîne vide et affiche une erreur si l'accès est hors limites. Les indices négatifs ne sont pas supportés, ils considéreront toujours la valeur hors limites et renvoient une chaîne vide.
 
-This is similar to using the ``[]`` operator (``array[index]``), except that operator supports negative indices and causes a debugger break if out-of-bounds access is performed.
+Ceci est similaire à l'utilisation de l'opérateur ``[]`` (``array[index]``), sauf que l'opérateur supporte les indices négatifs et provoque un stop du débogueur si un accès hors limites est effectué.
 
 .. rst-class:: classref-item-separator
 

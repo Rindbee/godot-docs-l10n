@@ -7,7 +7,7 @@ FileSystemDock
 
 **Hérite de :** :ref:`VBoxContainer<class_VBoxContainer>` **<** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Godot editor's dock for managing files in the project.
+Le dock de l'éditeur Godot pour gérer des fichiers dans le projet.
 
 .. rst-class:: classref-introduction-group
 
@@ -49,7 +49,7 @@ Signaux
 
 **display_mode_changed**\ (\ ) :ref:`🔗<class_FileSystemDock_signal_display_mode_changed>`
 
-Emitted when the user switches file display mode or split mode.
+Émis lorsque l'utilisateur change le mode d'affichage des fichiers ou le mode scindé.
 
 .. rst-class:: classref-item-separator
 
@@ -61,7 +61,7 @@ Emitted when the user switches file display mode or split mode.
 
 **file_removed**\ (\ file\: :ref:`String<class_String>`\ ) :ref:`🔗<class_FileSystemDock_signal_file_removed>`
 
-Emitted when the given ``file`` was removed.
+Émis lorsque le fichier ``file`` donné a été supprimé.
 
 .. rst-class:: classref-item-separator
 
@@ -73,7 +73,7 @@ Emitted when the given ``file`` was removed.
 
 **files_moved**\ (\ old_file\: :ref:`String<class_String>`, new_file\: :ref:`String<class_String>`\ ) :ref:`🔗<class_FileSystemDock_signal_files_moved>`
 
-Emitted when a file is moved from ``old_file`` path to ``new_file`` path.
+Émis quand un fichier est déplacé du chemin ``old_file`` vers le chemin ``new_file``.
 
 .. rst-class:: classref-item-separator
 
@@ -85,7 +85,7 @@ Emitted when a file is moved from ``old_file`` path to ``new_file`` path.
 
 **folder_color_changed**\ (\ ) :ref:`🔗<class_FileSystemDock_signal_folder_color_changed>`
 
-Emitted when folders change color.
+Émis lorsque les dossiers changent de couleur.
 
 .. rst-class:: classref-item-separator
 
@@ -97,7 +97,7 @@ Emitted when folders change color.
 
 **folder_moved**\ (\ old_folder\: :ref:`String<class_String>`, new_folder\: :ref:`String<class_String>`\ ) :ref:`🔗<class_FileSystemDock_signal_folder_moved>`
 
-Emitted when a folder is moved from ``old_folder`` path to ``new_folder`` path.
+Émis quand un dossier est déplacé du chemin ``old_folder`` vers le chemin ``new_folder``.
 
 .. rst-class:: classref-item-separator
 
@@ -109,7 +109,7 @@ Emitted when a folder is moved from ``old_folder`` path to ``new_folder`` path.
 
 **folder_removed**\ (\ folder\: :ref:`String<class_String>`\ ) :ref:`🔗<class_FileSystemDock_signal_folder_removed>`
 
-Emitted when the given ``folder`` was removed.
+Émis lorsque le dossier ``folder`` donné a été supprimé.
 
 .. rst-class:: classref-item-separator
 
@@ -121,7 +121,7 @@ Emitted when the given ``folder`` was removed.
 
 **inherit**\ (\ file\: :ref:`String<class_String>`\ ) :ref:`🔗<class_FileSystemDock_signal_inherit>`
 
-Emitted when a new scene is created that inherits the scene at ``file`` path.
+Émis quand une nouvelle scène est créée qui hérite de la scène au chemin ``file``.
 
 .. rst-class:: classref-item-separator
 
@@ -133,7 +133,7 @@ Emitted when a new scene is created that inherits the scene at ``file`` path.
 
 **instantiate**\ (\ files\: :ref:`PackedStringArray<class_PackedStringArray>`\ ) :ref:`🔗<class_FileSystemDock_signal_instantiate>`
 
-Emitted when the given scenes are being instantiated in the editor.
+Émis lorsque les scènes données sont instanciées dans l'éditeur.
 
 .. rst-class:: classref-item-separator
 
@@ -145,7 +145,7 @@ Emitted when the given scenes are being instantiated in the editor.
 
 **resource_removed**\ (\ resource\: :ref:`Resource<class_Resource>`\ ) :ref:`🔗<class_FileSystemDock_signal_resource_removed>`
 
-Emitted when an external ``resource`` had its file removed.
+Émis lorsque une ressource externe ``resource`` a eu son fichier supprimé.
 
 .. rst-class:: classref-section-separator
 
@@ -174,7 +174,7 @@ Enregistre un nouveau :ref:`EditorResourceTooltipPlugin<class_EditorResourceTool
 
 |void| **navigate_to_path**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_FileSystemDock_method_navigate_to_path>`
 
-Sets the given ``path`` as currently selected, ensuring that the selected file/directory is visible.
+Définit le chemin ``path`` donné comme actuellement sélectionné, en veillant à ce que le fichier / répertoire sélectionné soit visible.
 
 .. rst-class:: classref-item-separator
 
@@ -186,7 +186,7 @@ Sets the given ``path`` as currently selected, ensuring that the selected file/d
 
 |void| **remove_resource_tooltip_plugin**\ (\ plugin\: :ref:`EditorResourceTooltipPlugin<class_EditorResourceTooltipPlugin>`\ ) :ref:`🔗<class_FileSystemDock_method_remove_resource_tooltip_plugin>`
 
-Removes an :ref:`EditorResourceTooltipPlugin<class_EditorResourceTooltipPlugin>`. Fails if the plugin wasn't previously added.
+Retire un :ref:`EditorResourceTooltipPlugin<class_EditorResourceTooltipPlugin>`. Échoue si le plugin n'a pas été ajouté précédemment.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

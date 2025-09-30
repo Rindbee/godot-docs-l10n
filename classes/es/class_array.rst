@@ -12,7 +12,7 @@ Una estructura de datos incorporada que contiene una secuencia de elementos.
 Descripción
 ----------------------
 
-An array data structure that can contain a sequence of elements of any :ref:`Variant<class_Variant>` type. Elements are accessed by a numerical index starting at ``0``. Negative indices are used to count from the back (``-1`` is the last element, ``-2`` is the second to last, etc.).
+An array data structure that can contain a sequence of elements of any :ref:`Variant<class_Variant>` type by default. Values can optionally be constrained to a specific type by creating a *typed array*. Elements are accessed by a numerical index starting at ``0``. Negative indices are used to count from the back (``-1`` is the last element, ``-2`` is the second to last, etc.).
 
 
 .. tabs::
@@ -28,6 +28,10 @@ An array data structure that can contain a sequence of elements of any :ref:`Var
     print(array[1])  # Prints "Second"
     print(array[-3]) # Prints "Second"
 
+    # This typed array can only contain integers.
+    # Attempting to add any other type will result in an error.
+    var typed_array: Array[int] = [1, 2, 3]
+
  .. code-tab:: csharp
 
     Godot.Collections.Array array = ["First", 2, 3, "Last"];
@@ -38,6 +42,10 @@ An array data structure that can contain a sequence of elements of any :ref:`Var
     array[1] = "Second";
     GD.Print(array[1]); // Prints "Second"
     GD.Print(array[^3]); // Prints "Second"
+
+    // This typed array can only contain integers.
+    // Attempting to add any other type will result in an error.
+    Godot.Collections.Array<int> typedArray = [1, 2, 3];
 
 
 

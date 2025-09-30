@@ -888,7 +888,7 @@ Inserta una clave en una pista de la "blend shape" dada. Devuelve el índice de 
 
 :ref:`float<class_float>` **blend_shape_track_interpolate**\ (\ track_idx\: :ref:`int<class_int>`, time_sec\: :ref:`float<class_float>`, backward\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Animation_method_blend_shape_track_interpolate>`
 
-Devuelve el valor interpolado de la "blend shape" en el ``time`` dado (en segundos). El ``track_idx`` debe ser el índice de una pista de "blend shape".
+Devuelve el valor interpolado de la "blend shape" en el time dado (en segundos). El ``track_idx`` debe ser el índice de una pista de "blend shape".
 
 .. rst-class:: classref-item-separator
 
@@ -1070,7 +1070,7 @@ Devuelve los valores de los argumentos que se llamarán en una pista del método
 
 |void| **optimize**\ (\ allowed_velocity_err\: :ref:`float<class_float>` = 0.01, allowed_angular_err\: :ref:`float<class_float>` = 0.01, precision\: :ref:`int<class_int>` = 3\ ) :ref:`🔗<class_Animation_method_optimize>`
 
-Optimize the animation and all its tracks in-place. This will preserve only as many keys as are necessary to keep the animation within the specified bounds.
+Optimiza la animación y todas sus pistas en el lugar. Esto conservará solo las claves necesarias para mantener la animación dentro de los límites especificados.
 
 .. rst-class:: classref-item-separator
 
@@ -1082,7 +1082,7 @@ Optimize the animation and all its tracks in-place. This will preserve only as m
 
 :ref:`int<class_int>` **position_track_insert_key**\ (\ track_idx\: :ref:`int<class_int>`, time\: :ref:`float<class_float>`, position\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_Animation_method_position_track_insert_key>`
 
-Inserts a key in a given 3D position track. Returns the key index.
+Inserta una clave en una posición de la pista 3D dada. Devuelve el índice de la clave.
 
 .. rst-class:: classref-item-separator
 
@@ -1130,7 +1130,7 @@ Elimina una pista especificando el índice de la pista.
 
 :ref:`int<class_int>` **rotation_track_insert_key**\ (\ track_idx\: :ref:`int<class_int>`, time\: :ref:`float<class_float>`, rotation\: :ref:`Quaternion<class_Quaternion>`\ ) :ref:`🔗<class_Animation_method_rotation_track_insert_key>`
 
-Inserts a key in a given 3D rotation track. Returns the key index.
+Inserta una clave en una pista de rotación 3D determinada. Devuelve el índice de la clave.
 
 .. rst-class:: classref-item-separator
 
@@ -1154,7 +1154,7 @@ Returns the interpolated rotation value at the given time (in seconds). The ``tr
 
 :ref:`int<class_int>` **scale_track_insert_key**\ (\ track_idx\: :ref:`int<class_int>`, time\: :ref:`float<class_float>`, scale\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_Animation_method_scale_track_insert_key>`
 
-Inserts a key in a given 3D scale track. Returns the key index.
+Inserta una clave en una pista de escala 3D determinada. Devuelve el índice de la clave.
 
 .. rst-class:: classref-item-separator
 
@@ -1472,7 +1472,7 @@ Establece la hora de una clave existente.
 
 |void| **track_set_key_transition**\ (\ track_idx\: :ref:`int<class_int>`, key_idx\: :ref:`int<class_int>`, transition\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Animation_method_track_set_key_transition>`
 
-Establece la curva de transición (easing) para una clave específica (véase la función matemática incorporada :ref:`@GDScript.ease()<class_@GDScript_method_ease>`).
+Establece la curva de transición (easing) para una clave específica (véase la función matemática incorporada :ref:`@GlobalScope.ease()<class_@GlobalScope_method_ease>`).
 
 .. rst-class:: classref-item-separator
 

@@ -237,7 +237,7 @@ Gli FPS di elaborazione dell'animazione per l'importazione o l'esportazione.
 - |void| **set_base_path**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_base_path**\ (\ )
 
-Il percorso della cartella associato a questi dati glTF. È utilizzato per trovare altri file a cui fa riferimento il file glTF, come immagini o buffer binari. Sarà impostato durante l'importazione quando si aggiunge da un file e sarà impostato durante l'esportazione quando si scrive su un file.
+Il percorso della cartella associato a questi dati glTF. Serve per trovare altri file a cui fa riferimento il file glTF, come immagini o buffer binari. Sarà impostato durante l'importazione quando si aggiunge da un file e sarà impostato durante l'esportazione quando si scrive su un file.
 
 .. rst-class:: classref-item-separator
 

@@ -162,9 +162,9 @@ Informa quando viene modificata una lista di animazione.
 
 **animation_started**\ (\ anim_name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_AnimationMixer_signal_animation_started>`
 
-Notifies when an animation starts playing.
+Notifica quando inizia la riproduzione di un'animazione.
 
-\ **Note:** This signal is not emitted if an animation is looping.
+\ **Nota:** Questo segnale non viene emesso se un'animazione è in ripetizione.
 
 .. rst-class:: classref-item-separator
 

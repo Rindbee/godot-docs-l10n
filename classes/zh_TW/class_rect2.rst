@@ -474,7 +474,7 @@ Returns ``true`` if this rectangle has positive width and height. See also :ref:
 
 :ref:`bool<class_bool>` **is_equal_approx**\ (\ rect\: :ref:`Rect2<class_Rect2>`\ ) |const| :ref:`🔗<class_Rect2_method_is_equal_approx>`
 
-如果該 **Rect2** 和 ``rect`` 近似相等，則返回 ``true``\ ，判斷方法是通過在每個分量上呼叫 ``is_equal_approx``\ 。
+Returns ``true`` if this rectangle and ``rect`` are approximately equal, by calling :ref:`Vector2.is_equal_approx()<class_Vector2_method_is_equal_approx>` on the :ref:`position<class_Rect2_property_position>` and the :ref:`size<class_Rect2_property_size>`.
 
 .. rst-class:: classref-item-separator
 

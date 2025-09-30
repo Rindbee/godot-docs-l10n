@@ -14,7 +14,7 @@ Devuelve el vector que apunta en la dirección de refracción. Para usar en el g
 Descripción
 ----------------------
 
-Traducido a ``refract(I, N, eta)`` en el lenguaje de shader, donde ``I`` es el vector incidente, ``N`` es el vector normal y ``eta`` es la relación de los índices de la refracción.
+Traducido a ``refract(I, N, eta)`` en el lenguaje de shaders, donde ``I`` es el vector incidente, ``N`` es el vector normal y ``eta`` es la relación de los índices de la refracción.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

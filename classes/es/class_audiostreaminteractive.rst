@@ -14,7 +14,7 @@ Transmisión de audio que puede reproducir música de forma interactiva, combina
 Descripción
 ----------------------
 
-Este flujo de audio permite reproducir música interactivamente, combinando clips y una tabla de transiciones. Primero se deben agregar los clips y, a continuación, las reglas de transición mediante el método ``add_transition``. Además, este flujo exporta un parámetro de propiedad para controlar la reproducción mediante :ref:`AudioStreamPlayer<class_AudioStreamPlayer>`, :ref:`AudioStreamPlayer2D<class_AudioStreamPlayer2D>` o :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`.
+Este flujo de audio permite reproducir música interactivamente, combinando clips y una tabla de transiciones. Primero se deben agregar los clips y, a continuación, las reglas de transición mediante el método :ref:`add_transition()<class_AudioStreamInteractive_method_add_transition>`. Además, este flujo exporta un parámetro de propiedad para controlar la reproducción mediante :ref:`AudioStreamPlayer<class_AudioStreamPlayer>`, :ref:`AudioStreamPlayer2D<class_AudioStreamPlayer2D>` o :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`.
 
 Para ello, se completan varios clips y luego se configura la tabla de transiciones. A partir de ahí, se seleccionan los clips para su reproducción y la música se reproduce fluidamente del actual al nuevo, utilizando la regla de transición correspondiente definida en la tabla.
 

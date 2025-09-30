@@ -113,7 +113,7 @@ Lunghezza per cui la collisione risultante si estende in entrambe le direzioni p
 - |void| **set_disabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_disabled**\ (\ )
 
-If ``true``, no collision will be produced. This property should be changed with :ref:`Object.set_deferred()<class_Object_method_set_deferred>`.
+Se ``true``, nessuna collisione sarà generata. Questa proprietà dovrebbe essere modificata con :ref:`Object.set_deferred()<class_Object_method_set_deferred>`.
 
 .. rst-class:: classref-item-separator
 

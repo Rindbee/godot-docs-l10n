@@ -109,7 +109,7 @@ Guardar como big endian (véase :ref:`FileAccess.big_endian<class_FileAccess_pro
 
 :ref:`SaverFlags<enum_ResourceSaver_SaverFlags>` **FLAG_COMPRESS** = ``32``
 
-Comprime el recurso al guardarlo usando ``constante FileAccess.COMPRESSION_ZSTD``. Solo disponible para tipos de recursos binarios.
+Comprime el recurso al guardarlo usando :ref:`FileAccess.COMPRESSION_ZSTD<class_FileAccess_constant_COMPRESSION_ZSTD>`. Solo disponible para tipos de recursos binarios.
 
 .. _class_ResourceSaver_constant_FLAG_REPLACE_SUBRESOURCE_PATHS:
 

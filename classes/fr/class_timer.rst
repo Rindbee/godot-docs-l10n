@@ -14,20 +14,20 @@ Un compte à rebours.
 Description
 -----------
 
-The **Timer** node is a countdown timer and is the simplest way to handle time-based logic in the engine. When a timer reaches the end of its :ref:`wait_time<class_Timer_property_wait_time>`, it will emit the :ref:`timeout<class_Timer_signal_timeout>` signal.
+Le nœud **Timer** est un minuteur de compte à rebours et est le moyen le plus simple de gérer la logique basée sur le temps dans le moteur. Quand un minuteur atteint la fin de son temps d'attente :ref:`wait_time<class_Timer_property_wait_time>`, il émettra le signal :ref:`timeout<class_Timer_signal_timeout>`.
 
-After a timer enters the scene tree, it can be manually started with :ref:`start()<class_Timer_method_start>`. A timer node is also started automatically if :ref:`autostart<class_Timer_property_autostart>` is ``true``.
+Après qu'un minuteur entre dans l'arborescence de scène, il peut être démarré manuellement avec :ref:`start()<class_Timer_method_start>`. Un nœud minuteur est également démarré automatiquement si :ref:`autostart<class_Timer_property_autostart>` vaut ``true``.
 
-Without requiring much code, a timer node can be added and configured in the editor. The :ref:`timeout<class_Timer_signal_timeout>` signal it emits can also be connected through the Node dock in the editor:
+Sans nécessiter beaucoup de code, un nœud minuteur peut être ajouté et configuré dans l'éditeur. Le signal :ref:`timeout<class_Timer_signal_timeout>` qu'il émet peut également être connecté par le dock Nœud dans l'éditeur :
 
 ::
 
     func _on_timer_timeout():
-        print("Time to attack!")
+        print("C'est le moment d'attaquer !")
 
-\ **Note:** To create a one-shot timer without instantiating a node, use :ref:`SceneTree.create_timer()<class_SceneTree_method_create_timer>`.
+\ **Note :** Pour créer un minuteur à usage unique sans instancier un nœud, utilisez :ref:`SceneTree.create_timer()<class_SceneTree_method_create_timer>`.
 
-\ **Note:** Timers are affected by :ref:`Engine.time_scale<class_Engine_property_time_scale>` unless :ref:`ignore_time_scale<class_Timer_property_ignore_time_scale>` is ``true``. The higher the time scale, the sooner timers will end. How often a timer processes may depend on the framerate or :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`.
+\ **Note :** Les Timers sont affectés par :ref:`Engine.time_scale<class_Engine_property_time_scale>` à moins que :ref:`ignore_time_scale<class_Timer_property_ignore_time_scale>` ne vaille ``true``. Plus l'échelle du temps sera élevée, plus les minuteurs se termineront tôt. Combien de fois un minuteur effectue son traitement peut dépendre du framerate ou de :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -91,7 +91,7 @@ Signaux
 
 **timeout**\ (\ ) :ref:`🔗<class_Timer_signal_timeout>`
 
-Emitted when the timer reaches the end.
+Émis lorsque le minuteur atteint la fin.
 
 .. rst-class:: classref-section-separator
 
@@ -114,7 +114,7 @@ enum **TimerProcessCallback**: :ref:`🔗<enum_Timer_TimerProcessCallback>`
 
 :ref:`TimerProcessCallback<enum_Timer_TimerProcessCallback>` **TIMER_PROCESS_PHYSICS** = ``0``
 
-Update the timer every physics process frame (see :ref:`Node.NOTIFICATION_INTERNAL_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_INTERNAL_PHYSICS_PROCESS>`).
+Mettre à jour le minuteur à chaque trame de traitement de la physique (voir :ref:`Node.NOTIFICATION_INTERNAL_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_INTERNAL_PHYSICS_PROCESS>`).
 
 .. _class_Timer_constant_TIMER_PROCESS_IDLE:
 
@@ -122,7 +122,7 @@ Update the timer every physics process frame (see :ref:`Node.NOTIFICATION_INTERN
 
 :ref:`TimerProcessCallback<enum_Timer_TimerProcessCallback>` **TIMER_PROCESS_IDLE** = ``1``
 
-Update the timer every process (rendered) frame (see :ref:`Node.NOTIFICATION_INTERNAL_PROCESS<class_Node_constant_NOTIFICATION_INTERNAL_PROCESS>`).
+Mettre à jour le minuteur à chaque trame de traitement (de rendu) (voir :ref:`Node.NOTIFICATION_INTERNAL_PROCESS<class_Node_constant_NOTIFICATION_INTERNAL_PROCESS>`).
 
 .. rst-class:: classref-section-separator
 
@@ -144,11 +144,11 @@ Descriptions des propriétés
 - |void| **set_autostart**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **has_autostart**\ (\ )
 
-If ``true``, the timer will start immediately when it enters the scene tree.
+Si ``true``, le minuteur démarrera immédiatement lorsqu'il entre dans l'arborescence de scène.
 
-\ **Note:** After the timer enters the tree, this property is automatically set to ``false``.
+\ **Note :** Après que le minuteur entre dans l'arborescence, cette propriété est automatiquement définie à ``false``.
 
-\ **Note:** This property does nothing when the timer is running in the editor.
+\ **Note :** Cette propriété ne fait rien lorsque le minuteur s'exécute dans l'éditeur.
 
 .. rst-class:: classref-item-separator
 
@@ -165,7 +165,7 @@ If ``true``, the timer will start immediately when it enters the scene tree.
 - |void| **set_ignore_time_scale**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_ignoring_time_scale**\ (\ )
 
-If ``true``, the timer will ignore :ref:`Engine.time_scale<class_Engine_property_time_scale>` and update with the real, elapsed time.
+Si ``true``, le minuteur ignorera :ref:`Engine.time_scale<class_Engine_property_time_scale>` et se mettra à jour avec le temps écoulé réel.
 
 .. rst-class:: classref-item-separator
 
@@ -182,7 +182,7 @@ If ``true``, the timer will ignore :ref:`Engine.time_scale<class_Engine_property
 - |void| **set_one_shot**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_one_shot**\ (\ )
 
-If ``true``, the timer will stop after reaching the end. Otherwise, as by default, the timer will automatically restart.
+Si ``true``, le minuteur s'arrêtera après avoir atteint la fin. Sinon, comme par défaut, le minuteur redémarrera automatiquement.
 
 .. rst-class:: classref-item-separator
 
@@ -199,7 +199,7 @@ If ``true``, the timer will stop after reaching the end. Otherwise, as by defaul
 - |void| **set_paused**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_paused**\ (\ )
 
-If ``true``, the timer is paused. A paused timer does not process until this property is set back to ``false``, even when :ref:`start()<class_Timer_method_start>` is called. See also :ref:`stop()<class_Timer_method_stop>`.
+Si ``true``, le minuteur est mis en pause. Un minuteur en pause ne fait pas de traitement jusqu'à ce que cette propriété soit remise sur ``false``, même lorsque :ref:`start()<class_Timer_method_start>` est appelée. Voir aussi :ref:`stop()<class_Timer_method_stop>`.
 
 .. rst-class:: classref-item-separator
 
@@ -216,7 +216,7 @@ If ``true``, the timer is paused. A paused timer does not process until this pro
 - |void| **set_timer_process_callback**\ (\ value\: :ref:`TimerProcessCallback<enum_Timer_TimerProcessCallback>`\ )
 - :ref:`TimerProcessCallback<enum_Timer_TimerProcessCallback>` **get_timer_process_callback**\ (\ )
 
-Specifies when the timer is updated during the main loop.
+Spécifie quand le minuteur est mis à jour durant la boucle principale.
 
 .. rst-class:: classref-item-separator
 
@@ -232,9 +232,9 @@ Specifies when the timer is updated during the main loop.
 
 - :ref:`float<class_float>` **get_time_left**\ (\ )
 
-The timer's remaining time in seconds. This is always ``0`` if the timer is stopped.
+Le temps restant du minuteur en secondes. Il vaut toujours ``0`` si le minuteur est arrêté.
 
-\ **Note:** This property is read-only and cannot be modified. It is based on :ref:`wait_time<class_Timer_property_wait_time>`.
+\ **Note :** Cette propriété est en lecture seule et ne peut être modifiée. Elle est basée sur :ref:`wait_time<class_Timer_property_wait_time>`.
 
 .. rst-class:: classref-item-separator
 
@@ -251,9 +251,9 @@ The timer's remaining time in seconds. This is always ``0`` if the timer is stop
 - |void| **set_wait_time**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_wait_time**\ (\ )
 
-The time required for the timer to end, in seconds. This property can also be set every time :ref:`start()<class_Timer_method_start>` is called.
+Le temps nécessaire pour que le minuteur se termine, en secondes. Cette propriété peut également être définie à chaque fois que :ref:`start()<class_Timer_method_start>` est appelée.
 
-\ **Note:** Timers can only process once per physics or process frame (depending on the :ref:`process_callback<class_Timer_property_process_callback>`). An unstable framerate may cause the timer to end inconsistently, which is especially noticeable if the wait time is lower than roughly ``0.05`` seconds. For very short timers, it is recommended to write your own code instead of using a **Timer** node. Timers are also affected by :ref:`Engine.time_scale<class_Engine_property_time_scale>`.
+\ **Note :** Les minuteurs ne peuvent traiter qu'une fois par trame physique ou de traitement (selon :ref:`process_callback<class_Timer_property_process_callback>`). Un framerate instable peut entraîner une fin inconsistante du minuteur, ce qui est particulièrement visible si le temps d'attente est inférieur à environ ``0.05`` secondes. Pour les minuteurs très courts, il est recommandé d'écrire votre propre code au lieu d'utiliser un nœud **Timer**. Les minuteurs sont également affectés par :ref:`Engine.time_scale<class_Engine_property_time_scale>`.
 
 .. rst-class:: classref-section-separator
 
@@ -270,7 +270,7 @@ Descriptions des méthodes
 
 :ref:`bool<class_bool>` **is_stopped**\ (\ ) |const| :ref:`🔗<class_Timer_method_is_stopped>`
 
-Returns ``true`` if the timer is stopped or has not started.
+Renvoie ``true`` si le minuteur est arrêté ou n'a pas commencé.
 
 .. rst-class:: classref-item-separator
 
@@ -282,9 +282,9 @@ Returns ``true`` if the timer is stopped or has not started.
 
 |void| **start**\ (\ time_sec\: :ref:`float<class_float>` = -1\ ) :ref:`🔗<class_Timer_method_start>`
 
-Starts the timer, or resets the timer if it was started already. Fails if the timer is not inside the scene tree. If ``time_sec`` is greater than ``0``, this value is used for the :ref:`wait_time<class_Timer_property_wait_time>`.
+Démarre le minuteur, ou réinitialise le minuteur s'il a déjà commencé. Échoue si le minuteur n'est pas à l'intérieur de l'arborescence de scène. Si ``time_sec`` est supérieur à ``0``, cette valeur est utilisée pour le temps d'attente :ref:`wait_time<class_Timer_property_wait_time>`.
 
-\ **Note:** This method does not resume a paused timer. See :ref:`paused<class_Timer_property_paused>`.
+\ **Note :** Cette méthode ne reprend pas un minuteur en pause. Voir :ref:`paused<class_Timer_property_paused>`.
 
 .. rst-class:: classref-item-separator
 
@@ -296,9 +296,9 @@ Starts the timer, or resets the timer if it was started already. Fails if the ti
 
 |void| **stop**\ (\ ) :ref:`🔗<class_Timer_method_stop>`
 
-Stops the timer. See also :ref:`paused<class_Timer_property_paused>`. Unlike :ref:`start()<class_Timer_method_start>`, this can safely be called if the timer is not inside the scene tree.
+Arrête le minuteur. Voir aussi :ref:`paused<class_Timer_property_paused>`. Contrairement à :ref:`start()<class_Timer_method_start>`, cela peut être appelé en toute sécurité si le minuteur n'est pas à l'intérieur de l'arborescence de scène.
 
-\ **Note:** Calling :ref:`stop()<class_Timer_method_stop>` does not emit the :ref:`timeout<class_Timer_signal_timeout>` signal, as the timer is not considered to have timed out. If this is desired, use ``$Timer.timeout.emit()`` after calling :ref:`stop()<class_Timer_method_stop>` to manually emit the signal.
+\ **Note :** Appeler :ref:`stop()<class_Timer_method_stop>` n'émet pas le signal :ref:`timeout<class_Timer_signal_timeout>`, car le minuteur n'est pas considéré comme étant fini. Si cela est souhaité, utilisez ``$Timer.timeout.emit()`` après avoir appelé :ref:`stop()<class_Timer_method_stop>` pour émettre manuellement le signal.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

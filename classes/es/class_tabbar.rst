@@ -413,7 +413,7 @@ Descripciones de Propiedades
 - |void| **set_clip_tabs**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_clip_tabs**\ (\ )
 
-If ``true``, tabs overflowing this node's width will be hidden, displaying two navigation buttons instead. Otherwise, this node's minimum size is updated so that all tabs are visible.
+Si es ``true``, las pestañas que se desborden del ancho de este nodo se ocultarán, mostrando dos botones de navegación en su lugar. De lo contrario, el tamaño mínimo de este nodo se actualiza para que todas las pestañas sean visibles.
 
 .. rst-class:: classref-item-separator
 
@@ -447,7 +447,7 @@ If ``true``, middle clicking on the mouse will fire the :ref:`tab_close_pressed<
 - |void| **set_current_tab**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_current_tab**\ (\ )
 
-The index of the current selected tab. A value of ``-1`` means that no tab is selected and can only be set when :ref:`deselect_enabled<class_TabBar_property_deselect_enabled>` is ``true`` or if all tabs are hidden or disabled.
+El índice de la pestaña seleccionada actualmente. Un valor de ``-1`` significa que no hay ninguna pestaña seleccionada y sólo se puede establecer cuando :ref:`deselect_enabled<class_TabBar_property_deselect_enabled>` es ``true`` o si todas las pestañas están ocultas o desactivadas.
 
 .. rst-class:: classref-item-separator
 
@@ -464,7 +464,7 @@ The index of the current selected tab. A value of ``-1`` means that no tab is se
 - |void| **set_deselect_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_deselect_enabled**\ (\ )
 
-If ``true``, all tabs can be deselected so that no tab is selected. Click on the current tab to deselect it.
+Si es ``true``, todas las pestañas pueden ser deseleccionadas de modo que ninguna pestaña sea seleccionada. Haz clic en la pestaña actual para deseleccionarla.
 
 .. rst-class:: classref-item-separator
 
@@ -498,7 +498,7 @@ Si es ``true``, las pestañas se pueden reorganizar con el arrastre del ratón.
 - |void| **set_max_tab_width**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_max_tab_width**\ (\ )
 
-Sets the maximum width which all tabs should be limited to. Unlimited if set to ``0``.
+Establece el ancho máximo al que deben limitarse todas las pestañas. Ilimitado si se establece en ``0``.
 
 .. rst-class:: classref-item-separator
 
@@ -515,7 +515,7 @@ Sets the maximum width which all tabs should be limited to. Unlimited if set to 
 - |void| **set_scroll_to_selected**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_scroll_to_selected**\ (\ )
 
-If ``true``, the tab offset will be changed to keep the currently selected tab visible.
+Si es ``true``, el desplazamiento de la pestaña se cambiará para mantener visible la pestaña seleccionada actualmente.
 
 .. rst-class:: classref-item-separator
 
@@ -532,7 +532,7 @@ If ``true``, the tab offset will be changed to keep the currently selected tab v
 - |void| **set_scrolling_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_scrolling_enabled**\ (\ )
 
-if ``true``, the mouse's scroll wheel can be used to navigate the scroll view.
+Si es ``true``, la rueda de desplazamiento del ratón se puede usar para navegar por la vista de desplazamiento.
 
 .. rst-class:: classref-item-separator
 
@@ -566,7 +566,7 @@ Si es ``true``, permite seleccionar una pestaña con el botón derecho del rató
 - |void| **set_tab_alignment**\ (\ value\: :ref:`AlignmentMode<enum_TabBar_AlignmentMode>`\ )
 - :ref:`AlignmentMode<enum_TabBar_AlignmentMode>` **get_tab_alignment**\ (\ )
 
-The position at which tabs will be placed.
+La posición en la que se colocarán las pestañas.
 
 .. rst-class:: classref-item-separator
 
@@ -600,7 +600,7 @@ Cuando aparezca el botón cerrar en las pestañas.
 - |void| **set_tab_count**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_tab_count**\ (\ )
 
-The number of tabs currently in the bar.
+El número de pestañas que hay actualmente en la barra.
 
 .. rst-class:: classref-item-separator
 
@@ -732,7 +732,7 @@ Devuelve el ancho máximo permitido del icono para la pestaña en el índice ``t
 
 :ref:`int<class_int>` **get_tab_idx_at_point**\ (\ point\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_TabBar_method_get_tab_idx_at_point>`
 
-Returns the index of the tab at local coordinates ``point``. Returns ``-1`` if the point is outside the control boundaries or if there's no tab at the queried position.
+Devuelve el índice de la pestaña en las coordenadas locales ``point``. Devuelve ``-1`` si el punto está fuera de los límites del control o si no hay ninguna pestaña en la posición consultada.
 
 .. rst-class:: classref-item-separator
 
@@ -756,7 +756,7 @@ Devuelve el código de idioma del título de la pestaña.
 
 :ref:`Variant<class_Variant>` **get_tab_metadata**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabBar_method_get_tab_metadata>`
 
-Returns the metadata value set to the tab at index ``tab_idx`` using :ref:`set_tab_metadata()<class_TabBar_method_set_tab_metadata>`. If no metadata was previously set, returns ``null`` by default.
+Devuelve el valor de los metadatos establecidos en la pestaña en el índice ``tab_idx`` utilizando :ref:`set_tab_metadata()<class_TabBar_method_set_tab_metadata>`. Si no se han establecido metadatos previamente, devuelve ``null`` por defecto.
 
 .. rst-class:: classref-item-separator
 
@@ -804,7 +804,7 @@ Devuelve la dirección de escritura base del texto del título de la pestaña.
 
 :ref:`String<class_String>` **get_tab_title**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabBar_method_get_tab_title>`
 
-Returns the title of the tab at index ``tab_idx``.
+Devuelve el título de la pestaña en el índice ``tab_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -816,7 +816,7 @@ Returns the title of the tab at index ``tab_idx``.
 
 :ref:`String<class_String>` **get_tab_tooltip**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabBar_method_get_tab_tooltip>`
 
-Returns the tooltip text of the tab at index ``tab_idx``.
+Devuelve el texto de la información sobre herramientas de la pestaña en el índice ``tab_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -828,7 +828,7 @@ Returns the tooltip text of the tab at index ``tab_idx``.
 
 :ref:`bool<class_bool>` **is_tab_disabled**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabBar_method_is_tab_disabled>`
 
-Returns ``true`` if the tab at index ``tab_idx`` is disabled.
+Devuelve ``true`` si la pestaña en el índice ``tab_idx`` está desactivada.
 
 .. rst-class:: classref-item-separator
 
@@ -840,7 +840,7 @@ Returns ``true`` if the tab at index ``tab_idx`` is disabled.
 
 :ref:`bool<class_bool>` **is_tab_hidden**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabBar_method_is_tab_hidden>`
 
-Returns ``true`` if the tab at index ``tab_idx`` is hidden.
+Devuelve ``true`` si la pestaña en el índice ``tab_idx`` está oculta.
 
 .. rst-class:: classref-item-separator
 
@@ -852,7 +852,7 @@ Returns ``true`` if the tab at index ``tab_idx`` is hidden.
 
 |void| **move_tab**\ (\ from\: :ref:`int<class_int>`, to\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TabBar_method_move_tab>`
 
-Moves a tab from ``from`` to ``to``.
+Mueve una pestaña de ``from`` a ``to``.
 
 .. rst-class:: classref-item-separator
 
@@ -864,7 +864,7 @@ Moves a tab from ``from`` to ``to``.
 
 |void| **remove_tab**\ (\ tab_idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TabBar_method_remove_tab>`
 
-Removes the tab at index ``tab_idx``.
+Elimina la pestaña en el índice ``tab_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -876,7 +876,7 @@ Removes the tab at index ``tab_idx``.
 
 :ref:`bool<class_bool>` **select_next_available**\ (\ ) :ref:`🔗<class_TabBar_method_select_next_available>`
 
-Selects the first available tab with greater index than the currently selected. Returns ``true`` if tab selection changed.
+Selecciona la primera pestaña disponible con un índice mayor que la actualmente seleccionada. Devuelve ``true`` si la selección de la pestaña cambió.
 
 .. rst-class:: classref-item-separator
 
@@ -888,7 +888,7 @@ Selects the first available tab with greater index than the currently selected. 
 
 :ref:`bool<class_bool>` **select_previous_available**\ (\ ) :ref:`🔗<class_TabBar_method_select_previous_available>`
 
-Selects the first available tab with lower index than the currently selected. Returns ``true`` if tab selection changed.
+Selecciona la primera pestaña disponible con un índice menor que la actualmente seleccionada. Devuelve ``true`` si la selección de la pestaña cambió.
 
 .. rst-class:: classref-item-separator
 
@@ -900,7 +900,7 @@ Selects the first available tab with lower index than the currently selected. Re
 
 |void| **set_tab_button_icon**\ (\ tab_idx\: :ref:`int<class_int>`, icon\: :ref:`Texture2D<class_Texture2D>`\ ) :ref:`🔗<class_TabBar_method_set_tab_button_icon>`
 
-Sets an ``icon`` for the button of the tab at index ``tab_idx`` (located to the right, before the close button), making it visible and clickable (See :ref:`tab_button_pressed<class_TabBar_signal_tab_button_pressed>`). Giving it a ``null`` value will hide the button.
+Establece un ``icon`` para el botón de la pestaña en el índice ``tab_idx`` (ubicado a la derecha, antes del botón de cierre), haciéndolo visible y clickable (Ver :ref:`tab_button_pressed<class_TabBar_signal_tab_button_pressed>`). Darle un valor ``null`` ocultará el botón.
 
 .. rst-class:: classref-item-separator
 
@@ -912,7 +912,7 @@ Sets an ``icon`` for the button of the tab at index ``tab_idx`` (located to the 
 
 |void| **set_tab_disabled**\ (\ tab_idx\: :ref:`int<class_int>`, disabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_TabBar_method_set_tab_disabled>`
 
-If ``disabled`` is ``true``, disables the tab at index ``tab_idx``, making it non-interactable.
+Si ``disabled`` es ``true``, desactiva la pestaña en el índice ``tab_idx``, haciéndola no interactiva.
 
 .. rst-class:: classref-item-separator
 
@@ -924,7 +924,7 @@ If ``disabled`` is ``true``, disables the tab at index ``tab_idx``, making it no
 
 |void| **set_tab_hidden**\ (\ tab_idx\: :ref:`int<class_int>`, hidden\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_TabBar_method_set_tab_hidden>`
 
-If ``hidden`` is ``true``, hides the tab at index ``tab_idx``, making it disappear from the tab area.
+Si ``hidden`` es ``true``, oculta la pestaña en el índice ``tab_idx``, haciéndola desaparecer del área de pestañas.
 
 .. rst-class:: classref-item-separator
 
@@ -936,7 +936,7 @@ If ``hidden`` is ``true``, hides the tab at index ``tab_idx``, making it disappe
 
 |void| **set_tab_icon**\ (\ tab_idx\: :ref:`int<class_int>`, icon\: :ref:`Texture2D<class_Texture2D>`\ ) :ref:`🔗<class_TabBar_method_set_tab_icon>`
 
-Sets an ``icon`` for the tab at index ``tab_idx``.
+Establece un ``icon`` para la pestaña en el índice ``tab_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -948,7 +948,7 @@ Sets an ``icon`` for the tab at index ``tab_idx``.
 
 |void| **set_tab_icon_max_width**\ (\ tab_idx\: :ref:`int<class_int>`, width\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TabBar_method_set_tab_icon_max_width>`
 
-Sets the maximum allowed width of the icon for the tab at index ``tab_idx``. This limit is applied on top of the default size of the icon and on top of :ref:`icon_max_width<class_TabBar_theme_constant_icon_max_width>`. The height is adjusted according to the icon's ratio.
+Establece el ancho máximo permitido del icono para la pestaña en el índice ``tab_idx``. Este límite se aplica sobre el tamaño predeterminado del icono y sobre :ref:`icon_max_width<class_TabBar_theme_constant_icon_max_width>`. La altura se ajusta según la relación del icono.
 
 .. rst-class:: classref-item-separator
 
@@ -960,7 +960,7 @@ Sets the maximum allowed width of the icon for the tab at index ``tab_idx``. Thi
 
 |void| **set_tab_language**\ (\ tab_idx\: :ref:`int<class_int>`, language\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TabBar_method_set_tab_language>`
 
-Sets language code of tab title used for line-breaking and text shaping algorithms, if left empty current locale is used instead.
+Establece el código de idioma del título de la pestaña utilizado para los algoritmos de ajuste de línea y forma del texto, si se deja vacío se utiliza la configuración regional actual.
 
 .. rst-class:: classref-item-separator
 
@@ -972,7 +972,7 @@ Sets language code of tab title used for line-breaking and text shaping algorith
 
 |void| **set_tab_metadata**\ (\ tab_idx\: :ref:`int<class_int>`, metadata\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_TabBar_method_set_tab_metadata>`
 
-Sets the metadata value for the tab at index ``tab_idx``, which can be retrieved later using :ref:`get_tab_metadata()<class_TabBar_method_get_tab_metadata>`.
+Establece el valor de los metadatos para la pestaña en el índice ``tab_idx``, que se puede recuperar más tarde utilizando :ref:`get_tab_metadata()<class_TabBar_method_get_tab_metadata>`.
 
 .. rst-class:: classref-item-separator
 
@@ -996,7 +996,7 @@ Establece la dirección de escritura base del título de la pestaña.
 
 |void| **set_tab_title**\ (\ tab_idx\: :ref:`int<class_int>`, title\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TabBar_method_set_tab_title>`
 
-Sets a ``title`` for the tab at index ``tab_idx``.
+Establece un ``title`` para la pestaña en el índice ``tab_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -1008,9 +1008,9 @@ Sets a ``title`` for the tab at index ``tab_idx``.
 
 |void| **set_tab_tooltip**\ (\ tab_idx\: :ref:`int<class_int>`, tooltip\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TabBar_method_set_tab_tooltip>`
 
-Sets a ``tooltip`` for tab at index ``tab_idx``.
+Establece una ``tooltip`` para la pestaña en el índice ``tab_idx``.
 
-\ **Note:** By default, if the ``tooltip`` is empty and the tab text is truncated (not all characters fit into the tab), the title will be displayed as a tooltip. To hide the tooltip, assign ``" "`` as the ``tooltip`` text.
+\ **Nota:** De forma predeterminada, si el ``tooltip`` está vacío y el texto de la pestaña está truncado (no todos los caracteres caben en la pestaña), el título se mostrará como información sobre herramientas. Para ocultar la información sobre herramientas, asigna ``" "`` como el texto de la ``tooltip``.
 
 .. rst-class:: classref-section-separator
 

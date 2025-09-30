@@ -370,7 +370,7 @@ Restituisce la clip verso la quale avanzerà automaticamente la clip a cui fa ri
 
 :ref:`StringName<class_StringName>` **get_clip_name**\ (\ clip_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_AudioStreamInteractive_method_get_clip_name>`
 
-Return the name of a clip.
+Restituisce il nome di una clip.
 
 .. rst-class:: classref-item-separator
 
@@ -418,7 +418,7 @@ Restituisce la modalità per una transizione (vedi :ref:`add_transition()<class_
 
 :ref:`int<class_int>` **get_transition_filler_clip**\ (\ from_clip\: :ref:`int<class_int>`, to_clip\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_AudioStreamInteractive_method_get_transition_filler_clip>`
 
-Return the filler clip for a transition (see :ref:`add_transition()<class_AudioStreamInteractive_method_add_transition>`).
+Restituisce la clip di riempimento per una transizione (vedi :ref:`add_transition()<class_AudioStreamInteractive_method_add_transition>`).
 
 .. rst-class:: classref-item-separator
 
@@ -442,7 +442,7 @@ Restituisce la posizione del tempo di origine per una transizione (vedi :ref:`ad
 
 :ref:`PackedInt32Array<class_PackedInt32Array>` **get_transition_list**\ (\ ) |const| :ref:`🔗<class_AudioStreamInteractive_method_get_transition_list>`
 
-Return the list of transitions (from, to interleaved).
+Restituisce la lista delle transizioni (da, a interlacciato).
 
 .. rst-class:: classref-item-separator
 

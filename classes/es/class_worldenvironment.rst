@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/WorldEnvironment.xml.
+.. meta::
+	:keywords: background, sky
 
 .. _class_WorldEnvironment:
 
@@ -19,7 +19,7 @@ Descripción
 
 El nodo **WorldEnvironment** se utiliza para configurar el :ref:`Environment<class_Environment>` por defecto para la escena.
 
-Los parámetros definidos en **WorldEnvironment** pueden ser sobreescritos por un nodo :ref:`Environment<class_Environment>` establecido en la ``Camera`` actual. Además, solo se puede instanciar un **WorldEnvironment** en una escena dada a la vez.
+Los parámetros definidos en **WorldEnvironment** pueden ser sobreescritos por un nodo :ref:`Environment<class_Environment>` establecido en la :ref:`Camera3D<class_Camera3D>` actual. Además, solo se puede instanciar un **WorldEnvironment** en una escena dada a la vez.
 
 El **WorldEnvironment** permite al usuario especificar los parámetros de iluminación por defecto (p.ej. iluminación ambiental), varios efectos de post-procesamiento (p.ej. SSAO, DOF, Tonemapping), y cómo dibujar el fondo (p.ej. color sólido, skybox). Normalmente, estos se añaden para mejorar el realismo/equilibrio de color de la escena.
 

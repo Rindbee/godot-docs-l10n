@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/BoneAttachment3D.xml.
+.. meta::
+	:keywords: tag
 
 .. _class_BoneAttachment3D:
 
@@ -109,7 +109,7 @@ Il nome dell'osso attaccato.
 - |void| **set_external_skeleton**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_external_skeleton**\ (\ )
 
-The :ref:`NodePath<class_NodePath>` to the external :ref:`Skeleton3D<class_Skeleton3D>` node.
+Il :ref:`NodePath<class_NodePath>` al nodo :ref:`Skeleton3D<class_Skeleton3D>` esterno, se ne è stato impostato uno.
 
 .. rst-class:: classref-item-separator
 
@@ -126,9 +126,9 @@ The :ref:`NodePath<class_NodePath>` to the external :ref:`Skeleton3D<class_Skele
 - |void| **set_override_pose**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_override_pose**\ (\ )
 
-Whether the **BoneAttachment3D** node will override the bone pose of the bone it is attached to. When set to ``true``, the **BoneAttachment3D** node can change the pose of the bone. When set to ``false``, the **BoneAttachment3D** will always be set to the bone's transform.
+Se il nodo BoneAttachment3D sovrascriverà la posa dell'osso a cui è attaccato. Se impostato su ``true``, il nodo **BoneAttachment3D** può modificare la posa dell'osso. Se impostato su ``false``, il **BoneAttachment3D** sarà sempre impostato sulla trasformazione dell'osso.
 
-\ **Note:** This override performs interruptively in the skeleton update process using signals due to the old design. It may cause unintended behavior when used at the same time with :ref:`SkeletonModifier3D<class_SkeletonModifier3D>`.
+\ **Nota:** Questa sovrascrittura è effettuata in modo interruttivo nel processo di aggiornamento dello scheletro, attraverso segnali, a causa del vecchio design. Potrebbe causare comportamenti indesiderati se utilizzato con :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` allo stesso tempo.
 
 .. rst-class:: classref-item-separator
 
@@ -145,7 +145,7 @@ Whether the **BoneAttachment3D** node will override the bone pose of the bone it
 - |void| **set_use_external_skeleton**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_use_external_skeleton**\ (\ )
 
-Whether the **BoneAttachment3D** node will use an external :ref:`Skeleton3D<class_Skeleton3D>` node rather than attempting to use its parent node as the :ref:`Skeleton3D<class_Skeleton3D>`. When set to ``true``, the **BoneAttachment3D** node will use the external :ref:`Skeleton3D<class_Skeleton3D>` node set in :ref:`external_skeleton<class_BoneAttachment3D_property_external_skeleton>`.
+Imposta se il nodo BoneAttachment3D utilizzerà un nodo :ref:`Skeleton3D<class_Skeleton3D>` esterno anziché tentare di utilizzare il suo nodo padre come :ref:`Skeleton3D<class_Skeleton3D>`. Se impostato su ``true``, il nodo **BoneAttachment3D** utilizzerà il nodo :ref:`Skeleton3D<class_Skeleton3D>` esterno impostato in :ref:`external_skeleton<class_BoneAttachment3D_property_external_skeleton>`.
 
 .. rst-class:: classref-section-separator
 
@@ -162,7 +162,7 @@ Descrizioni dei metodi
 
 :ref:`Skeleton3D<class_Skeleton3D>` **get_skeleton**\ (\ ) :ref:`🔗<class_BoneAttachment3D_method_get_skeleton>`
 
-Returns the parent or external :ref:`Skeleton3D<class_Skeleton3D>` node if it exists, otherwise returns ``null``.
+Restituisce il nodo :ref:`Skeleton3D<class_Skeleton3D>` padre o esterno se esiste, altrimenti restituisce ``null``.
 
 .. rst-class:: classref-item-separator
 

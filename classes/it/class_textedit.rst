@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/TextEdit.xml.
+.. meta::
+	:keywords: textarea
 
 .. _class_TextEdit:
 
@@ -19,19 +19,19 @@ Un editor di testo multilinea.
 Descrizione
 ----------------------
 
-A multiline text editor. It also has limited facilities for editing code, such as syntax highlighting support. For more advanced facilities for editing code, see :ref:`CodeEdit<class_CodeEdit>`.
+Un editor di testo multilinea. Offre anche funzionalità limitate per la modifica del codice, come il supporto per l'evidenziazione della sintassi. Per funzionalità più avanzate per la modifica del codice, consultare :ref:`CodeEdit<class_CodeEdit>`.
 
-While entering text, it is possible to insert special characters using Unicode, OEM or Windows alt codes:
+Durante l'inserimento del testo, è possibile inserire caratteri speciali attraverso i codici alt Unicode, OEM o Windows:
 
-- To enter Unicode codepoints, hold :kbd:`Alt` and type the codepoint on the numpad. For example, to enter the character ``á`` (U+00E1), hold :kbd:`Alt` and type :kbd:`+E1` on the numpad (the leading zeroes can be omitted).
+- Per inserire codici Unicode, tenere premuto :kbd:`Alt` e digitare il codice sul tastierino numerico. Ad esempio, per inserire il carattere ``á`` (U+00E1), tenere premuto :kbd:`Alt` e digitare :kbd:`+E1` sul tastierino numerico (gli zeri iniziali si possono omettere).
 
-- To enter OEM codepoints, hold :kbd:`Alt` and type the code on the numpad. For example, to enter the character ``á`` (OEM 160), hold :kbd:`Alt` and type ``160`` on the numpad.
+- Per inserire codici OEM, tenere premuto :kbd:`Alt` e digitare il codice sul tastierino numerico. Ad esempio, per inserire il carattere ``á`` (OEM 160), tenere premuto :kbd:`Alt` e digitare ``160`` sul tastierino numerico.
 
-- To enter Windows codepoints, hold :kbd:`Alt` and type the code on the numpad. For example, to enter the character ``á`` (Windows 0225), hold :kbd:`Alt` and type :kbd:`0`, :kbd:`2`, :kbd:`2`, :kbd:`5` on the numpad. The leading zero here must **not** be omitted, as this is how Windows codepoints are distinguished from OEM codepoints.
+- Per inserire i codici Windows, tenere premuto :kbd:`Alt` e digitare il codice sul tastierino numerico. Ad esempio, per inserire il carattere ``á`` (Windows 0225), tenere premuto :kbd:`Alt` e digitare :kbd:`0`, :kbd:`2`, :kbd:`2`, :kbd:`5` sul tastierino numerico. Lo zero iniziale qui **non** si deve omettere, poiché è questo il modo in cui i codici di Windows si distinguono dai codici OEM.
 
-\ **Note:** Most viewport, caret, and edit methods contain a ``caret_index`` argument for :ref:`caret_multiple<class_TextEdit_property_caret_multiple>` support. The argument should be one of the following: ``-1`` for all carets, ``0`` for the main caret, or greater than ``0`` for secondary carets in the order they were created.
+\ **Nota:** La maggior parte dei metodi di viewport, cursori e modifica includono un argomento ``caret_index`` per il supporto di :ref:`caret_multiple<class_TextEdit_property_caret_multiple>`. L'argomento dovrebbe essere uno dei seguenti: ``-1`` per tutti i cursori, ``0`` per il cursore principale o maggiore di ``0`` per i cursori secondari nell'ordine in cui sono stati creati.
 
-\ **Note:** When holding down :kbd:`Alt`, the vertical scroll wheel will scroll 5 times as fast as it would normally do. This also works in the Godot script editor.
+\ **Nota:** Tenendo premuto :kbd:`Alt`, la rotellina di scorrimento verticale scorrerà 5 volte più velocemente del normale. Questo funziona anche nell'editor di script Godot.
 
 .. rst-class:: classref-reftable-group
 
@@ -1140,7 +1140,7 @@ Se :ref:`wrap_mode<class_TextEdit_property_wrap_mode>` è impostato su :ref:`LIN
 - |void| **set_backspace_deletes_composite_character_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_backspace_deletes_composite_character_enabled**\ (\ )
 
-If ``true`` and :ref:`caret_mid_grapheme<class_TextEdit_property_caret_mid_grapheme>` is ``false``, backspace deletes an entire composite character such as ❤️‍🩹, instead of deleting part of the composite character.
+Se ``true`` e :ref:`caret_mid_grapheme<class_TextEdit_property_caret_mid_grapheme>` è ``false``, il tasto backspace elimina un intero carattere composto, ad esempio ❤️‍🩹, anziché eliminare parte del carattere composto.
 
 .. rst-class:: classref-item-separator
 
@@ -1796,7 +1796,7 @@ L'evidenziatore di sintassi da usare.
 - |void| **set_tab_input_mode**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_tab_input_mode**\ (\ )
 
-If ``true``, :ref:`ProjectSettings.input/ui_text_indent<class_ProjectSettings_property_input/ui_text_indent>` input ``Tab`` character, otherwise it moves keyboard focus to the next :ref:`Control<class_Control>` in the scene.
+Se ``true``, l'input :ref:`ProjectSettings.input/ui_text_indent<class_ProjectSettings_property_input/ui_text_indent>` inserisce il carattere ``Tab``, altrimenti sposta il focus della tastiera sul :ref:`Control<class_Control>` successivo nella scena.
 
 .. rst-class:: classref-item-separator
 
@@ -1881,7 +1881,7 @@ Se ``false``, usando le combinazioni :kbd:`Ctrl + Sinistra` o :kbd:`Ctrl + Destr
 - |void| **set_virtual_keyboard_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_virtual_keyboard_enabled**\ (\ )
 
-If ``true``, the native virtual keyboard is enabled on platforms that support it.
+Se ``true``, la tastiera virtuale nativa è abilitata sulle piattaforme che la supportano.
 
 .. rst-class:: classref-item-separator
 
@@ -1898,7 +1898,7 @@ If ``true``, the native virtual keyboard is enabled on platforms that support it
 - |void| **set_virtual_keyboard_show_on_focus**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_virtual_keyboard_show_on_focus**\ (\ )
 
-If ``true``, the native virtual keyboard is shown on focus events on platforms that support it.
+Se ``true``, la tastiera virtuale nativa è mostrata dopo eventi di focus sulle piattaforme che la supportano.
 
 .. rst-class:: classref-item-separator
 
@@ -2778,7 +2778,7 @@ Restituisce il numero di righe che possono essere disegnate sulla minimappa.
 
 :ref:`int<class_int>` **get_next_composite_character_column**\ (\ line\: :ref:`int<class_int>`, column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextEdit_method_get_next_composite_character_column>`
 
-Returns the correct column at the end of a composite character like ❤️‍🩹 (mending heart; Unicode: ``U+2764 U+FE0F U+200D U+1FA79``) which is comprised of more than one Unicode code point, if the caret is at the start of the composite character. Also returns the correct column with the caret at mid grapheme and for non-composite characters.
+Restituisce la colonna corretta alla fine di un carattere composto come ❤️‍🩹 (cuore guarito; Unicode: ``U+2764 U+FE0F U+200D U+1FA79``) che è composto da più di un punto di codice Unicode, se il cursore si trova all'inizio del carattere composto. Restituisce anche la colonna corretta con il cursore a metà grafema e per i caratteri non composti.
 
 \ **Note:** To check at caret location use ``get_next_composite_character_column(get_caret_line(), get_caret_column())``
 
@@ -2830,7 +2830,7 @@ Restituisce la posizione locale per la riga ``line`` e la colonna ``column``. Se
 
 :ref:`int<class_int>` **get_previous_composite_character_column**\ (\ line\: :ref:`int<class_int>`, column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextEdit_method_get_previous_composite_character_column>`
 
-Returns the correct column at the start of a composite character like ❤️‍🩹 (mending heart; Unicode: ``U+2764 U+FE0F U+200D U+1FA79``) which is comprised of more than one Unicode code point, if the caret is at the end of the composite character. Also returns the correct column with the caret at mid grapheme and for non-composite characters.
+Restituisce la colonna corretta all'inizio di un carattere composto come ❤️‍🩹 (cuore guarito; Unicode: ``U+2764 U+FE0F U+200D U+1FA79``) che è composto da più di un punto di codice Unicode, se il cursore si trova alla fine del carattere composto. Restituisce anche la colonna corretta con il cursore a metà grafema e per i caratteri non composti.
 
 \ **Note:** To check at caret location use ``get_previous_composite_character_column(get_caret_line(), get_caret_column())``
 

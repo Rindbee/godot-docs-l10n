@@ -14,7 +14,7 @@ Strumento di supporto per la creazione di geometrie.
 Descrizione
 ----------------------
 
-**SurfaceTool** è utilizzato per costruire una :ref:`Mesh<class_Mesh>` specificando gli attributi dei vertici singolarmente. Può essere utilizzato per costruire una :ref:`Mesh<class_Mesh>` da uno script. È necessario aggiungere tutte le proprietà, eccetto gli indici, prima di chiamare :ref:`add_vertex()<class_SurfaceTool_method_add_vertex>`. Ad esempio, per aggiungere i colori dei vertici e gli UV:
+**SurfaceTool** serve per costruire una :ref:`Mesh<class_Mesh>` specificando gli attributi dei vertici singolarmente. Può essere utilizzato per costruire una :ref:`Mesh<class_Mesh>` da uno script. È necessario aggiungere tutte le proprietà, eccetto gli indici, prima di chiamare :ref:`add_vertex()<class_SurfaceTool_method_add_vertex>`. Ad esempio, per aggiungere i colori dei vertici e gli UV:
 
 
 .. tabs::

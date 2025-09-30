@@ -250,7 +250,7 @@ Se :ref:`autorestart<class_AnimationNodeOneShot_property_autorestart>` è ``true
 - |void| **set_break_loop_at_end**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_loop_broken_at_end**\ (\ )
 
-If ``true``, breaks the loop at the end of the loop cycle for transition, even if the animation is looping.
+Se ``true``, interrompe la ripetizione alla fine del ciclo per la transizione, anche se l'animazione è in ripetizione.
 
 .. rst-class:: classref-item-separator
 

@@ -14,13 +14,13 @@ Un faretto, come un riflettore di spettacolo o una lanterna.
 Descrizione
 ----------------------
 
-A Spotlight is a type of :ref:`Light3D<class_Light3D>` node that emits lights in a specific direction, in the shape of a cone. The light is attenuated through the distance. This attenuation can be configured by changing the energy, radius and attenuation parameters of :ref:`Light3D<class_Light3D>`.
+Uno Spotlight è un tipo di nodo :ref:`Light3D<class_Light3D>` che emette luci in una direzione specifica, a forma di cono. La luce è attenuata in base alla distanza. È possibile configurare questa attenuazione modificando i parametri di energia, raggio e attenuazione di :ref:`Light3D<class_Light3D>`.
 
-Light is emitted in the -Z direction of the node's global basis. For an unrotated light, this means that the light is emitted forwards, illuminating the front side of a 3D model (see :ref:`Vector3.FORWARD<class_Vector3_constant_FORWARD>` and :ref:`Vector3.MODEL_FRONT<class_Vector3_constant_MODEL_FRONT>`).
+La luce è emessa nella direzione -Z della base globale del nodo. Per una luce non ruotata, ciò significa che la luce è emessa in avanti, illuminando il lato frontale di un modello 3D (vedi :ref:`Vector3.FORWARD<class_Vector3_constant_FORWARD>` e :ref:`Vector3.MODEL_FRONT<class_Vector3_constant_MODEL_FRONT>`).
 
-\ **Note:** When using the Mobile rendering method, only 8 spot lights can be displayed on each mesh resource. Attempting to display more than 8 spot lights on a single mesh resource will result in spot lights flickering in and out as the camera moves. When using the Compatibility rendering method, only 8 spot lights can be displayed on each mesh resource by default, but this can be increased by adjusting :ref:`ProjectSettings.rendering/limits/opengl/max_lights_per_object<class_ProjectSettings_property_rendering/limits/opengl/max_lights_per_object>`.
+\ **Nota:** Quando si utilizza il metodo di rendering Mobile, solo 8 faretti possono essere visualizzati su ogni risorsa mesh. Tentare di visualizzare più di 8 faretti su una singola risorsa mesh provocherà uno sfarfallio dei faretti mentre la telecamera si muove. Quando si utilizza il metodo di rendering Compatibilità, solo 8 faretti possono essere visualizzati su ogni risorsa mesh per impostazione predefinita, ma questo limite può essere aumentato regolando :ref:`ProjectSettings.rendering/limits/opengl/max_lights_per_object<class_ProjectSettings_property_rendering/limits/opengl/max_lights_per_object>`.
 
-\ **Note:** When using the Mobile or Compatibility rendering methods, spot lights will only correctly affect meshes whose visibility AABB intersects with the light's AABB. If using a shader to deform the mesh in a way that makes it go outside its AABB, :ref:`GeometryInstance3D.extra_cull_margin<class_GeometryInstance3D_property_extra_cull_margin>` must be increased on the mesh. Otherwise, the light may not be visible on the mesh.
+\ **Nota:** Quando si utilizzano i metodi di rendering Mobile o Compatibilità, i faretti influenzeranno correttamente solo le mesh il cui AABB di visibilità interseca l'AABB della luce. Se si usa uno shader per deformare la mesh in modo che esca dal suo AABB, :ref:`GeometryInstance3D.extra_cull_margin<class_GeometryInstance3D_property_extra_cull_margin>` deve essere aumentato sulla mesh. Altrimenti, la luce potrebbe non essere visibile sulla mesh.
 
 .. rst-class:: classref-introduction-group
 
@@ -77,9 +77,9 @@ Descrizioni delle proprietà
 - |void| **set_param**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_param**\ (\ )
 
-The spotlight's angle in degrees. This is the angular radius, meaning the angle from the -Z axis, the cone's center, to the edge of the cone. The default angular radius of 45 degrees corresponds to a cone with an angular diameter of 90 degrees.
+L'angolo del faretto in gradi. Questo è il raggio angolare, ovvero l'angolo tra l'asse Z, il centro del cono, e il bordo del cono. Il raggio angolare predefinito di 45 gradi corrisponde a un cono con un diametro angolare di 90 gradi.
 
-\ **Note:** :ref:`spot_angle<class_SpotLight3D_property_spot_angle>` is not affected by :ref:`Node3D.scale<class_Node3D_property_scale>` (the light's scale or its parent's scale).
+\ **Nota:** :ref:`spot_angle<class_SpotLight3D_property_spot_angle>` non è influenzato da :ref:`Node3D.scale<class_Node3D_property_scale>` (la scala della luce o la scala del suo genitore).
 
 .. rst-class:: classref-item-separator
 

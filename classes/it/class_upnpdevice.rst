@@ -243,7 +243,7 @@ Tipo di servizio IGD.
 - |void| **set_igd_status**\ (\ value\: :ref:`IGDStatus<enum_UPNPDevice_IGDStatus>`\ )
 - :ref:`IGDStatus<enum_UPNPDevice_IGDStatus>` **get_igd_status**\ (\ )
 
-IGD status.
+Stato del IGD.
 
 .. rst-class:: classref-item-separator
 

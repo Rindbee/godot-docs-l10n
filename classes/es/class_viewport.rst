@@ -733,7 +733,7 @@ Los objetos se muestran sin información de iluminación y sus texturas son reem
 
 :ref:`DebugDraw<enum_Viewport_DebugDraw>` **DEBUG_DRAW_VOXEL_GI_ALBEDO** = ``6``
 
-Los objetos se muestran solo con el valor albedo de los :ref:`VoxelGI<class_VoxelGI>`. Requiere al menos un nodo :ref:`VoxelGI<class_VoxelGI>` visible que haya sido horneado para tener un efecto visible.
+Los objetos se muestran solo con el valor albedo de los :ref:`VoxelGI<class_VoxelGI>`. Requiere al menos un nodo :ref:`VoxelGI<class_VoxelGI>` visible que haya sido procesado para tener un efecto visible.
 
 \ **Nota:** Solo se admite cuando se utiliza el método de renderizado Forward+.
 
@@ -743,7 +743,7 @@ Los objetos se muestran solo con el valor albedo de los :ref:`VoxelGI<class_Voxe
 
 :ref:`DebugDraw<enum_Viewport_DebugDraw>` **DEBUG_DRAW_VOXEL_GI_LIGHTING** = ``7``
 
-Los objetos se muestran solo con el valor de iluminación de los :ref:`VoxelGI<class_VoxelGI>`. Requiere al menos un nodo :ref:`VoxelGI<class_VoxelGI>` visible que haya sido horneado para tener un efecto visible.
+Los objetos se muestran solo con el valor de iluminación de los :ref:`VoxelGI<class_VoxelGI>`. Requiere al menos un nodo :ref:`VoxelGI<class_VoxelGI>` visible que haya sido procesado para tener un efecto visible.
 
 \ **Nota:** Solo se admite cuando se utiliza el método de renderizado Forward+.
 
@@ -753,7 +753,7 @@ Los objetos se muestran solo con el valor de iluminación de los :ref:`VoxelGI<c
 
 :ref:`DebugDraw<enum_Viewport_DebugDraw>` **DEBUG_DRAW_VOXEL_GI_EMISSION** = ``8``
 
-Los objetos se muestran solo con el color de emisión de los :ref:`VoxelGI<class_VoxelGI>`. Requiere al menos un nodo :ref:`VoxelGI<class_VoxelGI>` visible que haya sido horneado para tener un efecto visible.
+Los objetos se muestran solo con el color de emisión de los :ref:`VoxelGI<class_VoxelGI>`. Requiere al menos un nodo :ref:`VoxelGI<class_VoxelGI>` visible que haya sido procesado para tener un efecto visible.
 
 \ **Nota:** Solo se admite cuando se utiliza el método de renderizado Forward+.
 
@@ -855,7 +855,7 @@ No hace nada si el :ref:`Environment.sdfgi_enabled<class_Environment_property_sd
 
 :ref:`DebugDraw<enum_Viewport_DebugDraw>` **DEBUG_DRAW_GI_BUFFER** = ``18``
 
-Dibuja el búfer utilizado para la iluminación global de :ref:`VoxelGI<class_VoxelGI>` o SDFGI. Requiere que :ref:`VoxelGI<class_VoxelGI>` (al menos un nodo VoxelGI horneado visible) o SDFGI (:ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>`) estén habilitados para tener un efecto visible.
+Dibuja el búfer utilizado para la iluminación global de :ref:`VoxelGI<class_VoxelGI>` o SDFGI. Requiere que :ref:`VoxelGI<class_VoxelGI>` (al menos un nodo VoxelGI procesado visible) o SDFGI (:ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>`) estén habilitados para tener un efecto visible.
 
 \ **Nota:** Sólo se admite cuando se utiliza el método de renderizado Forward+.
 
@@ -2373,7 +2373,7 @@ Devuelve el RID del viewport del :ref:`RenderingServer<class_RenderingServer>`.
 
 :ref:`Rect2<class_Rect2>` **get_visible_rect**\ (\ ) |const| :ref:`🔗<class_Viewport_method_get_visible_rect>`
 
-Devuelve el RID del viewport del ``VisualServer``.
+Returns the visible rectangle in global screen coordinates.
 
 .. rst-class:: classref-item-separator
 

@@ -128,7 +128,7 @@ Descrizioni dei metodi
 
 |void| **_breakpoint_set_in_tree**\ (\ script\: :ref:`Script<class_Script>`, line\: :ref:`int<class_int>`, enabled\: :ref:`bool<class_bool>`\ ) |virtual| :ref:`🔗<class_EditorDebuggerPlugin_private_method__breakpoint_set_in_tree>`
 
-Sostituisci questo metodo per essere notificato quando viene impostato un punto d'interruzione nell'editor.
+Sovrascrivi questo metodo per essere notificato quando viene impostato un punto d'interruzione nell'editor.
 
 .. rst-class:: classref-item-separator
 
@@ -140,7 +140,7 @@ Sostituisci questo metodo per essere notificato quando viene impostato un punto 
 
 |void| **_breakpoints_cleared_in_tree**\ (\ ) |virtual| :ref:`🔗<class_EditorDebuggerPlugin_private_method__breakpoints_cleared_in_tree>`
 
-Sostituisci questo metodo per essere notificato quando tutti i punti d'interruzione vengono cancellati nell'editor.
+Sovrascrivi questo metodo per essere notificato quando tutti i punti d'interruzione vengono cancellati nell'editor.
 
 .. rst-class:: classref-item-separator
 
@@ -152,7 +152,7 @@ Sostituisci questo metodo per essere notificato quando tutti i punti d'interruzi
 
 :ref:`bool<class_bool>` **_capture**\ (\ message\: :ref:`String<class_String>`, data\: :ref:`Array<class_Array>`, session_id\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_EditorDebuggerPlugin_private_method__capture>`
 
-Sostituisci questo metodo per elaborare i messaggi in arrivo. Il ``session_id`` è l'ID dell':ref:`EditorDebuggerSession<class_EditorDebuggerSession>` che ha ricevuto il messaggio. Usa :ref:`get_session()<class_EditorDebuggerPlugin_method_get_session>` per recuperare la sessione. Questo metodo dovrebbe restituire ``true`` se il messaggio viene riconosciuto.
+Sovrascrivi questo metodo per elaborare i messaggi in arrivo. Il ``session_id`` è l'ID dell':ref:`EditorDebuggerSession<class_EditorDebuggerSession>` che ha ricevuto il messaggio. Usa :ref:`get_session()<class_EditorDebuggerPlugin_method_get_session>` per recuperare la sessione. Questo metodo dovrebbe restituire ``true`` se il messaggio viene riconosciuto.
 
 .. rst-class:: classref-item-separator
 
@@ -164,7 +164,7 @@ Sostituisci questo metodo per elaborare i messaggi in arrivo. Il ``session_id`` 
 
 |void| **_goto_script_line**\ (\ script\: :ref:`Script<class_Script>`, line\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_EditorDebuggerPlugin_private_method__goto_script_line>`
 
-Sostituisci questo metodo per essere notificato quando viene cliccata una riga con un punto d'interruzione nel pannello dei punti d'interruzione del debugger.
+Sovrascrivi questo metodo per essere notificato quando viene cliccata una riga con un punto d'interruzione nel pannello dei punti d'interruzione del debugger.
 
 .. rst-class:: classref-item-separator
 
@@ -176,7 +176,7 @@ Sostituisci questo metodo per essere notificato quando viene cliccata una riga c
 
 :ref:`bool<class_bool>` **_has_capture**\ (\ capture\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_EditorDebuggerPlugin_private_method__has_capture>`
 
-Sostituisci questo metodo per abilitare la ricezione di messaggi dal debugger. Se ``capture`` è "my_message", i messaggi che iniziano con "my_message:" saranno passati al metodo :ref:`_capture()<class_EditorDebuggerPlugin_private_method__capture>`.
+Sovrascrivi questo metodo per abilitare la ricezione di messaggi dal debugger. Se ``capture`` è "my_message", i messaggi che iniziano con "my_message:" saranno passati al metodo :ref:`_capture()<class_EditorDebuggerPlugin_private_method__capture>`.
 
 .. rst-class:: classref-item-separator
 
@@ -188,7 +188,7 @@ Sostituisci questo metodo per abilitare la ricezione di messaggi dal debugger. S
 
 |void| **_setup_session**\ (\ session_id\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_EditorDebuggerPlugin_private_method__setup_session>`
 
-Sostituisci questo metodo per essere notificato ogni volta che viene creato un nuovo :ref:`EditorDebuggerSession<class_EditorDebuggerSession>`. Nota che la sessione potrebbe essere inattiva durante questa fase.
+Sovrascrivi questo metodo per essere notificato ogni volta che viene creato un nuovo :ref:`EditorDebuggerSession<class_EditorDebuggerSession>`. Nota che la sessione potrebbe essere inattiva durante questa fase.
 
 .. rst-class:: classref-item-separator
 

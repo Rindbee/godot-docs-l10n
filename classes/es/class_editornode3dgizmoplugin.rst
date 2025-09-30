@@ -7,7 +7,7 @@ EditorNode3DGizmoPlugin
 
 **Hereda:** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A class used by the editor to define Node3D gizmo types.
+Usado por el editor para definir los tipos de gizmo de Node3D.
 
 .. rst-class:: classref-introduction-group
 
@@ -23,7 +23,7 @@ To use **EditorNode3DGizmoPlugin**, register it using the :ref:`EditorPlugin.add
 Tutoriales
 --------------------
 
-- :doc:`Node3D gizmo plugins <../tutorials/plugins/editor/3d_gizmos>`
+- :doc:`Plugins de gizmos de Node3D <../tutorials/plugins/editor/3d_gizmos>`
 
 .. rst-class:: classref-reftable-group
 
@@ -232,7 +232,7 @@ Override this method to return the current transform of a subgizmo. As with all 
 
 :ref:`bool<class_bool>` **_has_gizmo**\ (\ for_node_3d\: :ref:`Node3D<class_Node3D>`\ ) |virtual| |const| :ref:`🔗<class_EditorNode3DGizmoPlugin_private_method__has_gizmo>`
 
-Override this method to define which Node3D nodes have a gizmo from this plugin. Whenever a :ref:`Node3D<class_Node3D>` node is added to a scene this method is called, if it returns ``true`` the node gets a generic :ref:`EditorNode3DGizmo<class_EditorNode3DGizmo>` assigned and is added to this plugin's list of active gizmos.
+Sobrescribe este método para definir qué nodos de Node3D tienen un gizmo de este plugin. Cada vez que se añade un nodo :ref:`Node3D<class_Node3D>` a una escena se llama a este método, si devuelve ``true`` el nodo obtiene un :ref:`EditorNode3DGizmo<class_EditorNode3DGizmo>` genérico asignado y se añade a la lista de gizmos activos de este plugin.
 
 .. rst-class:: classref-item-separator
 
@@ -358,7 +358,7 @@ You can optionally provide a texture to use instead of the default icon.
 
 |void| **create_icon_material**\ (\ name\: :ref:`String<class_String>`, texture\: :ref:`Texture2D<class_Texture2D>`, on_top\: :ref:`bool<class_bool>` = false, color\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1)\ ) :ref:`🔗<class_EditorNode3DGizmoPlugin_method_create_icon_material>`
 
-Crea un material de iconos con sus variantes (seleccionadas y/o editables) y las añade a la lista de material interno. Se puede acceder a ellas con :ref:`get_material()<class_EditorNode3DGizmoPlugin_method_get_material>` y utilizarlas en :ref:`EditorSpatialGizmo.add_unscaled_billboard()<class_EditorSpatialGizmo_method_add_unscaled_billboard>`. No debe sobrescribirse.
+Crea un material de iconos con sus variantes (seleccionadas y/o editables) y las añade a la lista de material interno. Se puede acceder a ellas con :ref:`get_material()<class_EditorNode3DGizmoPlugin_method_get_material>` y utilizarlas en :ref:`EditorNode3DGizmo.add_unscaled_billboard()<class_EditorNode3DGizmo_method_add_unscaled_billboard>`. No debe sobrescribirse.
 
 .. rst-class:: classref-item-separator
 
@@ -370,7 +370,7 @@ Crea un material de iconos con sus variantes (seleccionadas y/o editables) y las
 
 |void| **create_material**\ (\ name\: :ref:`String<class_String>`, color\: :ref:`Color<class_Color>`, billboard\: :ref:`bool<class_bool>` = false, on_top\: :ref:`bool<class_bool>` = false, use_vertex_color\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_EditorNode3DGizmoPlugin_method_create_material>`
 
-Crea un material sin sombreado con sus variantes (seleccionadas y/o editables) y las añade a la lista de material interno. Se puede acceder a ellas con :ref:`get_material()<class_EditorNode3DGizmoPlugin_method_get_material>` y utilizarlas en :ref:`EditorSpatialGizmo.add_mesh()<class_EditorSpatialGizmo_method_add_mesh>` y :ref:`EditorSpatialGizmo.add_lines()<class_EditorSpatialGizmo_method_add_lines>`. No debe sobrescribirse.
+Crea un material sin sombreado con sus variantes (seleccionadas y/o editables) y las añade a la lista de material interno. Se puede acceder a ellas con :ref:`get_material()<class_EditorNode3DGizmoPlugin_method_get_material>` y utilizarlas en :ref:`EditorNode3DGizmo.add_mesh()<class_EditorNode3DGizmo_method_add_mesh>` y :ref:`EditorNode3DGizmo.add_lines()<class_EditorNode3DGizmo_method_add_lines>`. No debe sobrescribirse.
 
 .. rst-class:: classref-item-separator
 
@@ -382,7 +382,7 @@ Crea un material sin sombreado con sus variantes (seleccionadas y/o editables) y
 
 :ref:`StandardMaterial3D<class_StandardMaterial3D>` **get_material**\ (\ name\: :ref:`String<class_String>`, gizmo\: :ref:`EditorNode3DGizmo<class_EditorNode3DGizmo>` = null\ ) :ref:`🔗<class_EditorNode3DGizmoPlugin_method_get_material>`
 
-Obtiene el material de la lista interna de materiales. Si se proporciona un ``EditorSpatialGizmo``, intentará obtener la variable correspondiente (seleccionada y/o editable).
+Obtiene el material de la lista interna de materiales. Si se proporciona un :ref:`EditorNode3DGizmo<class_EditorNode3DGizmo>`, intentará obtener la variable correspondiente (seleccionada y/o editable).
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

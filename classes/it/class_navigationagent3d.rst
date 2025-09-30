@@ -16,13 +16,13 @@ Un agente 3D utilizzato per individuare il percorso verso una posizione evitando
 Descrizione
 ----------------------
 
-A 3D agent used to pathfind to a position while avoiding static and dynamic obstacles. The calculation can be used by the parent node to dynamically move it along the path. Requires navigation data to work correctly.
+Un agente 3D utilizzato per trovare il percorso verso una posizione evitando ostacoli statici e dinamici. Il calcolo può essere utilizzato dal nodo genitore per spostarlo dinamicamente lungo il percorso. Richiede dati di navigazione per funzionare correttamente.
 
-Dynamic obstacles are avoided using RVO collision avoidance. Avoidance is computed before physics, so the pathfinding information can be used safely in the physics step.
+Gli ostacoli dinamici vengono evitati attraverso l'evasione delle collisioni RVO. L'evasione viene calcolata prima della fisica, quindi le informazioni di ricerca del percorso possono essere utilizzate in modo sicuro nella passaggio di fisica.
 
-\ **Note:** After setting the :ref:`target_position<class_NavigationAgent3D_property_target_position>` property, the :ref:`get_next_path_position()<class_NavigationAgent3D_method_get_next_path_position>` method must be used once every physics frame to update the internal path logic of the navigation agent. The vector position it returns should be used as the next movement position for the agent's parent node.
+\ **Nota:** Dopo aver impostato la proprietà :ref:`target_position<class_NavigationAgent3D_property_target_position>`, il metodo :ref:`get_next_path_position()<class_NavigationAgent3D_method_get_next_path_position>` deve essere utilizzato una volta per ogni frame di fisica per aggiornare la logica interna del percorso dell'agente di navigazione. La posizione del vettore che restituisce deve essere utilizzata come posizione successiva del movimento per il nodo genitore dell'agente.
 
-\ **Note:** Several methods of this class, such as :ref:`get_next_path_position()<class_NavigationAgent3D_method_get_next_path_position>`, can trigger a new path calculation. Calling these in your callback to an agent's signal, such as :ref:`waypoint_reached<class_NavigationAgent3D_signal_waypoint_reached>`, can cause infinite recursion. It is recommended to call these methods in the physics step or, alternatively, delay their call until the end of the frame (see :ref:`Object.call_deferred()<class_Object_method_call_deferred>` or :ref:`Object.CONNECT_DEFERRED<class_Object_constant_CONNECT_DEFERRED>`).
+\ **Nota:** Diversi metodi di questa classe, come :ref:`get_next_path_position()<class_NavigationAgent3D_method_get_next_path_position>`, possono attivare un nuovo calcolo del percorso. Chiamarli nel callback al segnale di un agente, come :ref:`waypoint_reached<class_NavigationAgent3D_signal_waypoint_reached>`, può causare una ricorsione infinita. Si consiglia di chiamare questi metodi nel processo di fisica o, in alternativa, ritardarne la chiamata fino alla fine del frame (vedi :ref:`Object.call_deferred()<class_Object_method_call_deferred>` o :ref:`Object.CONNECT_DEFERRED<class_Object_constant_CONNECT_DEFERRED>`).
 
 .. rst-class:: classref-introduction-group
 
@@ -613,7 +613,7 @@ Post-elaborazione del percorso applicata al corridoio del percorso grezzo trovat
 - |void| **set_path_return_max_length**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_path_return_max_length**\ (\ )
 
-The maximum allowed length of the returned path in world units. A path will be clipped when going over this length.
+La lunghezza massima consentita del percorso restituito in unità mondiali. Un percorso verrà troncato quando supera questa lunghezza.
 
 .. rst-class:: classref-item-separator
 
@@ -983,7 +983,7 @@ Restituisce la posizione successiva in coordinate globali in cui è possibile mu
 
 :ref:`float<class_float>` **get_path_length**\ (\ ) |const| :ref:`🔗<class_NavigationAgent3D_method_get_path_length>`
 
-Returns the length of the currently calculated path. The returned value is ``0.0``, if the path is still calculating or no calculation has been requested yet.
+Restituisce la lunghezza del percorso attualmente calcolato. Il valore restituito è ``0.0``, se il percorso è ancora in fase di calcolo o nessun calcolo è stato ancora richiesto.
 
 .. rst-class:: classref-item-separator
 

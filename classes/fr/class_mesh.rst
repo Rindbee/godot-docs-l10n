@@ -16,7 +16,7 @@ Une :ref:`Resource<class_Resource>` qui contient une géométrie à base d'un ta
 Description
 -----------
 
-Mesh is a type of :ref:`Resource<class_Resource>` that contains vertex array-based geometry, divided in *surfaces*. Each surface contains a completely separate array and a material used to draw it. Design wise, a mesh with multiple surfaces is preferred to a single surface, because objects created in 3D editing software commonly contain multiple materials. The maximum number of surfaces per mesh is :ref:`RenderingServer.MAX_MESH_SURFACES<class_RenderingServer_constant_MAX_MESH_SURFACES>`.
+Mesh (litt. "Maillage") est un type de :ref:`Resource<class_Resource>` qui contient de la géométrie à base de tableaux de sommets, divisé en *surfaces*. Chaque surface contient un tableau complètement séparé et un matériau utilisé pour le dessiner. Au niveau du design, un maillage avec plusieurs surfaces est préféré à une seule surface, car les objets créés dans des logiciels d'édition 3D contiennent généralement plusieurs matériaux. Le nombre maximal de surfaces par maillage vaut :ref:`RenderingServer.MAX_MESH_SURFACES<class_RenderingServer_constant_MAX_MESH_SURFACES>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -657,7 +657,7 @@ Descriptions des méthodes
 
 :ref:`AABB<class_AABB>` **_get_aabb**\ (\ ) |virtual| |required| |const| :ref:`🔗<class_Mesh_private_method__get_aabb>`
 
-Virtual method to override the :ref:`AABB<class_AABB>` for a custom class extending **Mesh**.
+Méthode virtuelle pour redéfinir la :ref:`AABB<class_AABB>` pour une classe personnalisée étendant **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -669,7 +669,7 @@ Virtual method to override the :ref:`AABB<class_AABB>` for a custom class extend
 
 :ref:`int<class_int>` **_get_blend_shape_count**\ (\ ) |virtual| |required| |const| :ref:`🔗<class_Mesh_private_method__get_blend_shape_count>`
 
-Virtual method to override the number of blend shapes for a custom class extending **Mesh**.
+Méthode virtuelle pour redéfinir le nombre de blend shapes pour une classe personnalisée étendant **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -681,7 +681,7 @@ Virtual method to override the number of blend shapes for a custom class extendi
 
 :ref:`StringName<class_StringName>` **_get_blend_shape_name**\ (\ index\: :ref:`int<class_int>`\ ) |virtual| |required| |const| :ref:`🔗<class_Mesh_private_method__get_blend_shape_name>`
 
-Virtual method to override the retrieval of blend shape names for a custom class extending **Mesh**.
+Méthode virtuelle pour redéfinir la récupération du nom des blend shapes pour une classe personnalisée étendant **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -693,7 +693,7 @@ Virtual method to override the retrieval of blend shape names for a custom class
 
 :ref:`int<class_int>` **_get_surface_count**\ (\ ) |virtual| |required| |const| :ref:`🔗<class_Mesh_private_method__get_surface_count>`
 
-Virtual method to override the surface count for a custom class extending **Mesh**.
+Méthode virtuelle pour redéfinir le nombre de surfaces pour une classe personnalisée étendant **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -705,7 +705,7 @@ Virtual method to override the surface count for a custom class extending **Mesh
 
 |void| **_set_blend_shape_name**\ (\ index\: :ref:`int<class_int>`, name\: :ref:`StringName<class_StringName>`\ ) |virtual| |required| :ref:`🔗<class_Mesh_private_method__set_blend_shape_name>`
 
-Virtual method to override the names of blend shapes for a custom class extending **Mesh**.
+Méthode virtuelle pour redéfinir les noms des blend shapes pour une classe personnalisée étendant **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -729,7 +729,7 @@ Virtual method to override the surface array index length for a custom class ext
 
 :ref:`int<class_int>` **_surface_get_array_len**\ (\ index\: :ref:`int<class_int>`\ ) |virtual| |required| |const| :ref:`🔗<class_Mesh_private_method__surface_get_array_len>`
 
-Virtual method to override the surface array length for a custom class extending **Mesh**.
+Méthode virtuelle pour redéfinir la longueur du tableau d'une surface pour une classe personnalisée étendant **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -741,7 +741,7 @@ Virtual method to override the surface array length for a custom class extending
 
 :ref:`Array<class_Array>` **_surface_get_arrays**\ (\ index\: :ref:`int<class_int>`\ ) |virtual| |required| |const| :ref:`🔗<class_Mesh_private_method__surface_get_arrays>`
 
-Virtual method to override the surface arrays for a custom class extending **Mesh**.
+Méthode virtuelle pour redéfinir le tableau des surfaces pour une classe personnalisée étendant **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -753,7 +753,7 @@ Virtual method to override the surface arrays for a custom class extending **Mes
 
 :ref:`Array<class_Array>`\[:ref:`Array<class_Array>`\] **_surface_get_blend_shape_arrays**\ (\ index\: :ref:`int<class_int>`\ ) |virtual| |required| |const| :ref:`🔗<class_Mesh_private_method__surface_get_blend_shape_arrays>`
 
-Virtual method to override the blend shape arrays for a custom class extending **Mesh**.
+Méthode virtuelle pour redéfinir les tableaux des blend shapes pour une classe personnalisée étendant **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -765,7 +765,7 @@ Virtual method to override the blend shape arrays for a custom class extending *
 
 :ref:`int<class_int>` **_surface_get_format**\ (\ index\: :ref:`int<class_int>`\ ) |virtual| |required| |const| :ref:`🔗<class_Mesh_private_method__surface_get_format>`
 
-Virtual method to override the surface format for a custom class extending **Mesh**.
+Méthode virtuelle pour redéfinir le format d'une surface pour une classe personnalisée étendant **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -777,7 +777,7 @@ Virtual method to override the surface format for a custom class extending **Mes
 
 :ref:`Dictionary<class_Dictionary>` **_surface_get_lods**\ (\ index\: :ref:`int<class_int>`\ ) |virtual| |required| |const| :ref:`🔗<class_Mesh_private_method__surface_get_lods>`
 
-Virtual method to override the surface LODs for a custom class extending **Mesh**.
+Méthode virtuelle pour redéfinir les LODs d'une surface pour une classe personnalisée étendant **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -789,7 +789,7 @@ Virtual method to override the surface LODs for a custom class extending **Mesh*
 
 :ref:`Material<class_Material>` **_surface_get_material**\ (\ index\: :ref:`int<class_int>`\ ) |virtual| |required| |const| :ref:`🔗<class_Mesh_private_method__surface_get_material>`
 
-Virtual method to override the surface material for a custom class extending **Mesh**.
+Méthode virtuelle pour redéfinir le matériau d'une surface pour une classe personnalisée étendant **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -801,7 +801,7 @@ Virtual method to override the surface material for a custom class extending **M
 
 :ref:`int<class_int>` **_surface_get_primitive_type**\ (\ index\: :ref:`int<class_int>`\ ) |virtual| |required| |const| :ref:`🔗<class_Mesh_private_method__surface_get_primitive_type>`
 
-Virtual method to override the surface primitive type for a custom class extending **Mesh**.
+Méthode virtuelle pour redéfinir le type de primitive d'une surface pour une classe personnalisée étendant **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -813,7 +813,7 @@ Virtual method to override the surface primitive type for a custom class extendi
 
 |void| **_surface_set_material**\ (\ index\: :ref:`int<class_int>`, material\: :ref:`Material<class_Material>`\ ) |virtual| |required| :ref:`🔗<class_Mesh_private_method__surface_set_material>`
 
-Virtual method to override the setting of a ``material`` at the given ``index`` for a custom class extending **Mesh**.
+Méthode virtuelle pour redéfinir le paramètre d'un matériau ``material`` à l'``index`` donné pour une classe personnalisée étendant **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -825,11 +825,11 @@ Virtual method to override the setting of a ``material`` at the given ``index`` 
 
 :ref:`ConvexPolygonShape3D<class_ConvexPolygonShape3D>` **create_convex_shape**\ (\ clean\: :ref:`bool<class_bool>` = true, simplify\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Mesh_method_create_convex_shape>`
 
-Calculate a :ref:`ConvexPolygonShape3D<class_ConvexPolygonShape3D>` from the mesh.
+Calcule un :ref:`ConvexPolygonShape3D<class_ConvexPolygonShape3D>` depuis le maillage.
 
-If ``clean`` is ``true`` (default), duplicate and interior vertices are removed automatically. You can set it to ``false`` to make the process faster if not needed.
+Si ``clean`` vaut ``true`` (par défaut), les sommets intérieurs et en double sont automatiquement supprimés. Vous pouvez le définir à ``false`` pour rendre le processus plus rapide si ce n'est pas nécessaire.
 
-If ``simplify`` is ``true``, the geometry can be further simplified to reduce the number of vertices. Disabled by default.
+Si ``simplify`` vaut ``true``, la géométrie peut être encore plus simplifiée pour réduire la quantité de sommets. Désactivé par défaut.
 
 .. rst-class:: classref-item-separator
 
@@ -855,7 +855,7 @@ Calcule un maillage de contour avec un décalage défini (marge) du maillage d'o
 
 :ref:`Resource<class_Resource>` **create_placeholder**\ (\ ) |const| :ref:`🔗<class_Mesh_method_create_placeholder>`
 
-Creates a placeholder version of this resource (:ref:`PlaceholderMesh<class_PlaceholderMesh>`).
+Crée une version placeholder de cette ressource (:ref:`PlaceholderMesh<class_PlaceholderMesh>`).
 
 .. rst-class:: classref-item-separator
 

@@ -14,7 +14,7 @@ Importa una colección de texturas de una imagen PNG en un :ref:`AtlasTexture<cl
 Descripción
 ----------------------
 
-Esto importa una colección de texturas de una imagen PNG en un :ref:`AtlasTexture<class_AtlasTexture>` o :ref:`ArrayMesh<class_ArrayMesh>` 2D. Esto se puede usar para ahorrar memoria al importar animaciones 2D desde hojas de sprites. Los atlas de texturas solo se admiten en renderizado 2D, no en 3D. Consulta también :ref:`ResourceImporterTexture<class_ResourceImporterTexture>` y :ref:`ResourceImporterLayeredTexture<class_ResourceImporterLayeredTexture>`.
+Esto importa una colección de texturas de una imagen PNG en un :ref:`AtlasTexture<class_AtlasTexture>` o :ref:`ArrayMesh<class_ArrayMesh>` 2D. Esto se puede usar para ahorrar memoria al importar animaciones 2D desde hojas de sprites. Los atlas de texturas solo se admiten en renderizado 2D, no en 3D. Véase también :ref:`ResourceImporterTexture<class_ResourceImporterTexture>` y :ref:`ResourceImporterLayeredTexture<class_ResourceImporterLayeredTexture>`.
 
 \ **Nota:** **ResourceImporterTextureAtlas** no se encarga de importar :ref:`TileSetAtlasSource<class_TileSetAtlasSource>`, que se crea utilizando el editor :ref:`TileSet<class_TileSet>` en su lugar.
 
@@ -91,7 +91,7 @@ Si es ``true``, descarta las áreas vacías del atlas. Esto solo afecta el posic
 
 :ref:`bool<class_bool>` **trim_alpha_border_from_region** = ``true`` :ref:`🔗<class_ResourceImporterTextureAtlas_property_trim_alpha_border_from_region>`
 
-Si es ``true``, recorta la región para excluir los píxeles totalmente transparentes utilizando un rectángulo de recorte (que nunca se rota). Esto se puede usar para ahorrar memoria. Consulta también :ref:`crop_to_region<class_ResourceImporterTextureAtlas_property_crop_to_region>`.
+Si es ``true``, recorta la región para excluir los píxeles totalmente transparentes utilizando un rectángulo de recorte (que nunca se rota). Esto se puede usar para ahorrar memoria. Véase también :ref:`crop_to_region<class_ResourceImporterTextureAtlas_property_crop_to_region>`.
 
 \ **Nota:** Solo es efectivo si :ref:`import_mode<class_ResourceImporterTextureAtlas_property_import_mode>` es **Region**.
 

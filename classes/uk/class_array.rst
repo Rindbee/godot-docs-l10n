@@ -12,40 +12,48 @@ Array
 Опис
 --------
 
-Структура даних масиву, яка може містити послідовність елементів будь-якого типу :ref:`Variant<class_Variant>`. Доступ до елементів здійснюється за числовим індексом, що починається з ``0``. Від’ємні індекси використовуються для підрахунку ззаду (``-1`` — останній елемент, ``-2`` — передостанній тощо). 
+An array data structure that can contain a sequence of elements of any :ref:`Variant<class_Variant>` type by default. Values can optionally be constrained to a specific type by creating a *typed array*. Elements are accessed by a numerical index starting at ``0``. Negative indices are used to count from the back (``-1`` is the last element, ``-2`` is the second to last, etc.).
 
 
-.. tabs:: 
+.. tabs::
 
  .. code-tab:: gdscript
- 
-    var array = ["Перший", 2, 3, "Останній"] 
-    print(array[0]) # Виводить "Перший" 
-    print(array[2]) # Виводить 3 
-    print(array[-1]) # Виводить "Останній" 
 
-    array[1] = "Другий" 
-    print(array[1]) # Виводить "Другий" 
-    print(array[-3]) # Виводить "Другий"  
+    var array = ["First", 2, 3, "Last"]
+    print(array[0])  # Prints "First"
+    print(array[2])  # Prints 3
+    print(array[-1]) # Prints "Last"
+
+    array[1] = "Second"
+    print(array[1])  # Prints "Second"
+    print(array[-3]) # Prints "Second"
+
+    # This typed array can only contain integers.
+    # Attempting to add any other type will result in an error.
+    var typed_array: Array[int] = [1, 2, 3]
 
  .. code-tab:: csharp
- 
-    Godot.Collections.Array array = ["Перший", 2, 3, "Останній"]; 
-    GD.Print(array[0]); // Виводить "Перший" 
-    GD.Print(array[2]); // Виводить 3 
-    GD.Print(array[^1]); // Виводить "Останній" 
 
-    array[1] = "Другий"; 
-    GD.Print(array[1]); // Виводить "Другий" 
-    GD.Print(array[^3]); // Виводить "Другий"  
+    Godot.Collections.Array array = ["First", 2, 3, "Last"];
+    GD.Print(array[0]); // Prints "First"
+    GD.Print(array[2]); // Prints 3
+    GD.Print(array[^1]); // Prints "Last"
 
- 
+    array[1] = "Second";
+    GD.Print(array[1]); // Prints "Second"
+    GD.Print(array[^3]); // Prints "Second"
 
-\ **Примітка:** Масиви завжди передаються за **посиланням**. Щоб отримати копію масиву, яку можна змінювати незалежно від вихідного масиву, використовуйте :ref:`duplicate()<class_Array_method_duplicate>`. 
+    // This typed array can only contain integers.
+    // Attempting to add any other type will result in an error.
+    Godot.Collections.Array<int> typedArray = [1, 2, 3];
 
-\ **Примітка:** Стирання елементів під час проходження по масиву **не** підтримується та призведе до непередбачуваної поведінки. 
 
-\ **Відмінності між упакованими масивами, типізованими масивами та нетипізованими масивами:** Упаковані масиви зазвичай швидше обробляються та змінюються порівняно з типізованими масивами того самого типу (наприклад, :ref:`PackedInt64Array<class_PackedInt64Array>` проти ``Array[int]``). Крім того, упаковані масиви споживають менше пам’яті. Недоліком є те, що упаковані масиви є менш гнучкими, оскільки вони не пропонують стільки зручних методів, як-от :ref:`map()<class_Array_method_map>`. Типізовані масиви, своєю чергою, швидше перебираються та змінюються, ніж нетипізовані масиви.
+
+\ **Note:** Arrays are always passed by **reference**. To get a copy of an array that can be modified independently of the original array, use :ref:`duplicate()<class_Array_method_duplicate>`.
+
+\ **Note:** Erasing elements while iterating over arrays is **not** supported and will result in unpredictable behavior.
+
+\ **Differences between packed arrays, typed arrays, and untyped arrays:** Packed arrays are generally faster to iterate on and modify compared to a typed array of the same type (e.g. :ref:`PackedInt64Array<class_PackedInt64Array>` versus ``Array[int]``). Also, packed arrays consume less memory. As a downside, packed arrays are less flexible as they don't offer as many convenience methods such as :ref:`map()<class_Array_method_map>`. Typed arrays are in turn faster to iterate on and modify than untyped arrays.
 
 .. note::
 
@@ -256,7 +264,7 @@ Array
 
  - ``class_name`` — вбудоване ім’я класу (див. :ref:`Object.get_class()<class_Object_method_get_class>`).
 
- - ``script`` пов’язаний сценарій. Це має бути екземпляр :ref:`Script<class_Script>` або ``null``.
+ - ``script`` пов’язаний скрипти. Це має бути екземпляр :ref:`Script<class_Script>` або ``null``.
 
  Якщо ``type`` не є :ref:`@GlobalScope.TYPE_OBJECT<class_@GlobalScope_constant_TYPE_OBJECT>`, ``class_name`` має бути порожнім :ref:`StringName<class_StringName>`, а ``script`` має мати значення ``null``.
 

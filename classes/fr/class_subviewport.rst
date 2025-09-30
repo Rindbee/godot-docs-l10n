@@ -7,18 +7,18 @@ SubViewport
 
 **Hérite de :** :ref:`Viewport<class_Viewport>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-An interface to a game world that doesn't create a window or draw to the screen directly.
+Une interface vers un monde de jeu qui ne crée pas de fenêtre ou ne dessine pas directement à l'écran.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-**SubViewport** Isolates a rectangular region of a scene to be displayed independently. This can be used, for example, to display UI in 3D space.
+**SubViewport** isole une région rectangulaire d'une scène à afficher indépendamment. Cela peut être utilisé, par exemple, pour afficher l'interface utilisateur dans l'espace 3D.
 
-\ **Note:** **SubViewport** is a :ref:`Viewport<class_Viewport>` that isn't a :ref:`Window<class_Window>`, i.e. it doesn't draw anything by itself. To display anything, **SubViewport** must have a non-zero size and be either put inside a :ref:`SubViewportContainer<class_SubViewportContainer>` or assigned to a :ref:`ViewportTexture<class_ViewportTexture>`.
+\ **Note :** **SubViewport** est un :ref:`Viewport<class_Viewport>` qui n'est pas une :ref:`Window<class_Window>`, c'est-à-dire qu'il ne dessine rien par lui-même. Pour afficher quoi que ce soit, **SubViewport** doit avoir une taille non nulle et être placé à l'intérieur d'un :ref:`SubViewportContainer<class_SubViewportContainer>` ou assigné à une :ref:`ViewportTexture<class_ViewportTexture>`.
 
-\ **Note:** :ref:`InputEvent<class_InputEvent>`\ s are not passed to a standalone **SubViewport** by default. To ensure :ref:`InputEvent<class_InputEvent>` propagation, a **SubViewport** can be placed inside of a :ref:`SubViewportContainer<class_SubViewportContainer>`.
+\ **Note :** Les :ref:`InputEvent<class_InputEvent>` ne sont pas transmis à un **SubViewport** autonome par défaut. Pour assurer la propagation des :ref:`InputEvent<class_InputEvent>`, un **SubViewport** peut être placé à l'intérieur d'un :ref:`SubViewportContainer<class_SubViewportContainer>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -39,7 +39,7 @@ Tutoriels
 
 - `Démo de l'écran partagé dynamique <https://godotengine.org/asset-library/asset/2806>`__
 
-- `3D Resolution Scaling Demo <https://godotengine.org/asset-library/asset/2805>`__
+- `Démo de redimensionnement de la résolution 3D <https://godotengine.org/asset-library/asset/2805>`__
 
 .. rst-class:: classref-reftable-group
 
@@ -98,7 +98,7 @@ Ne jamais nettoyer la cible de rendu.
 
 :ref:`ClearMode<enum_SubViewport_ClearMode>` **CLEAR_MODE_ONCE** = ``2``
 
-Clear the render target on the next frame, then switch to :ref:`CLEAR_MODE_NEVER<class_SubViewport_constant_CLEAR_MODE_NEVER>`.
+Vider la cible de rendu pour la trame suivante, puis passer en :ref:`CLEAR_MODE_NEVER<class_SubViewport_constant_CLEAR_MODE_NEVER>`.
 
 .. rst-class:: classref-item-separator
 
@@ -124,7 +124,7 @@ Ne pas mettre à jour la cible de rendu.
 
 :ref:`UpdateMode<enum_SubViewport_UpdateMode>` **UPDATE_ONCE** = ``1``
 
-Met à jour la cible de rendu une seule fois, puis passe en mode :ref:`UPDATE_DISABLED<class_SubViewport_constant_UPDATE_DISABLED>`.
+Mettre à jour la cible de rendu une seule fois, puis passer en mode :ref:`UPDATE_DISABLED<class_SubViewport_constant_UPDATE_DISABLED>`.
 
 .. _class_SubViewport_constant_UPDATE_WHEN_VISIBLE:
 
@@ -132,7 +132,7 @@ Met à jour la cible de rendu une seule fois, puis passe en mode :ref:`UPDATE_DI
 
 :ref:`UpdateMode<enum_SubViewport_UpdateMode>` **UPDATE_WHEN_VISIBLE** = ``2``
 
-Met à jour la cible de rendu seulement quand elle est visible. C'est la valeur par défaut.
+Mettre à jour la cible de rendu seulement quand elle est visible. Il s'agit de la valeur par défaut.
 
 .. _class_SubViewport_constant_UPDATE_WHEN_PARENT_VISIBLE:
 
@@ -140,7 +140,7 @@ Met à jour la cible de rendu seulement quand elle est visible. C'est la valeur 
 
 :ref:`UpdateMode<enum_SubViewport_UpdateMode>` **UPDATE_WHEN_PARENT_VISIBLE** = ``3``
 
-Update the render target only when its parent is visible.
+Mettre à jour la cible de rendu seulement quand son parent est visible.
 
 .. _class_SubViewport_constant_UPDATE_ALWAYS:
 
@@ -148,7 +148,7 @@ Update the render target only when its parent is visible.
 
 :ref:`UpdateMode<enum_SubViewport_UpdateMode>` **UPDATE_ALWAYS** = ``4``
 
-Met toujours à jour la cible de rendu.
+Mettre toujours à jour la cible de rendu.
 
 .. rst-class:: classref-section-separator
 
@@ -170,9 +170,9 @@ Descriptions des propriétés
 - |void| **set_clear_mode**\ (\ value\: :ref:`ClearMode<enum_SubViewport_ClearMode>`\ )
 - :ref:`ClearMode<enum_SubViewport_ClearMode>` **get_clear_mode**\ (\ )
 
-The clear mode when the sub-viewport is used as a render target.
+Le mode de nettoyage quand le sub-viewport est utilisé comme cible de rendu.
 
-\ **Note:** This property is intended for 2D usage.
+\ **Note :** Cette propriété est destinée à une utilisation 2D.
 
 .. rst-class:: classref-item-separator
 
@@ -189,7 +189,7 @@ The clear mode when the sub-viewport is used as a render target.
 - |void| **set_update_mode**\ (\ value\: :ref:`UpdateMode<enum_SubViewport_UpdateMode>`\ )
 - :ref:`UpdateMode<enum_SubViewport_UpdateMode>` **get_update_mode**\ (\ )
 
-The update mode when the sub-viewport is used as a render target.
+Le mode de mise à jour lorsque le sub-viewport est utilisé comme cible de rendu.
 
 .. rst-class:: classref-item-separator
 
@@ -206,9 +206,9 @@ The update mode when the sub-viewport is used as a render target.
 - |void| **set_size**\ (\ value\: :ref:`Vector2i<class_Vector2i>`\ )
 - :ref:`Vector2i<class_Vector2i>` **get_size**\ (\ )
 
-The width and height of the sub-viewport. Must be set to a value greater than or equal to 2 pixels on both dimensions. Otherwise, nothing will be displayed.
+La largeur et la hauteur du sub-viewport. Doit être défini à une valeur supérieure ou égale à 2 pixels dans les deux dimensions. Sinon, rien ne sera affiché.
 
-\ **Note:** If the parent node is a :ref:`SubViewportContainer<class_SubViewportContainer>` and its :ref:`SubViewportContainer.stretch<class_SubViewportContainer_property_stretch>` is ``true``, the viewport size cannot be changed manually.
+\ **Note :** Si le nœud parent est un :ref:`SubViewportContainer<class_SubViewportContainer>` et son :ref:`SubViewportContainer.stretch<class_SubViewportContainer_property_stretch>` vaut ``true``, la taille du viewport ne peut pas être modifiée manuellement.
 
 .. rst-class:: classref-item-separator
 
@@ -225,7 +225,7 @@ The width and height of the sub-viewport. Must be set to a value greater than or
 - |void| **set_size_2d_override**\ (\ value\: :ref:`Vector2i<class_Vector2i>`\ )
 - :ref:`Vector2i<class_Vector2i>` **get_size_2d_override**\ (\ )
 
-The 2D size override of the sub-viewport. If either the width or height is ``0``, the override is disabled.
+La redéfinition de la taille 2D du sub-viewport. Si la largeur ou la hauteur vaut ``0``, la redéfinition est désactivée.
 
 .. rst-class:: classref-item-separator
 
@@ -242,7 +242,7 @@ The 2D size override of the sub-viewport. If either the width or height is ``0``
 - |void| **set_size_2d_override_stretch**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_size_2d_override_stretch_enabled**\ (\ )
 
-If ``true``, the 2D size override affects stretch as well.
+Si ``true``, la redéfinition de la taille 2D affecte également l'étirement.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

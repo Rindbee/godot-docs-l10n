@@ -83,7 +83,7 @@ AudioStreamOggVorbis 类是专用于处理 Ogg Vorbis 文件格式的 :ref:`Audi
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this property. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -102,7 +102,7 @@ AudioStreamOggVorbis 类是专用于处理 Ogg Vorbis 文件格式的 :ref:`Audi
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this property. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -121,7 +121,7 @@ AudioStreamOggVorbis 类是专用于处理 Ogg Vorbis 文件格式的 :ref:`Audi
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this property. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 

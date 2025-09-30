@@ -129,7 +129,7 @@ To add a key to an existing dictionary, access it like an existing key and assig
 
 
 
-Finally, dictionaries can contain different types of keys and values in the same dictionary:
+Finally, untyped dictionaries can contain different types of keys and values in the same dictionary:
 
 
 .. tabs::
@@ -177,6 +177,45 @@ The keys of a dictionary can be iterated with the ``for`` keyword:
     {
         // `fruit` is the key, `amount` is the value.
     }
+
+
+
+To enforce a certain type for keys and values, you can create a *typed dictionary*. Typed dictionaries can only contain keys and values of the given types, or that inherit from the given classes:
+
+
+.. tabs::
+
+ .. code-tab:: gdscript
+
+    # Creates a typed dictionary with String keys and int values.
+    # Attempting to use any other type for keys or values will result in an error.
+    var typed_dict: Dictionary[String, int] = {
+        "some_key": 1,
+        "some_other_key": 2,
+    }
+
+    # Creates a typed dictionary with String keys and values of any type.
+    # Attempting to use any other type for keys will result in an error.
+    var typed_dict_key_only: Dictionary[String, Variant] = {
+        "some_key": 12.34,
+        "some_other_key": "string",
+    }
+
+ .. code-tab:: csharp
+
+    // Creates a typed dictionary with String keys and int values.
+    // Attempting to use any other type for keys or values will result in an error.
+    var typedDict = new Godot.Collections.Dictionary<String, int> {
+        {"some_key", 1},
+        {"some_other_key", 2},
+    };
+
+    // Creates a typed dictionary with String keys and values of any type.
+    // Attempting to use any other type for keys will result in an error.
+    var typedDictKeyOnly = new Godot.Collections.Dictionary<String, Variant> {
+        {"some_key", 12.34},
+        {"some_other_key", "string"},
+    };
 
 
 
@@ -539,7 +578,7 @@ Renvoie l'instance :ref:`Script<class_Script>` associée aux valeurs de ce dicti
 
 :ref:`bool<class_bool>` **has**\ (\ key\: :ref:`Variant<class_Variant>`\ ) |const| :ref:`🔗<class_Dictionary_method_has>`
 
-Returns ``true`` if the dictionary contains an entry with the given ``key``.
+Renvoie ``true`` si le dictionnaire contient une entrée avec la clé ``key`` donnée.
 
 
 .. tabs::
@@ -547,13 +586,13 @@ Returns ``true`` if the dictionary contains an entry with the given ``key``.
  .. code-tab:: gdscript
 
     var my_dict = {
-        "Godot" : 4,
-        210 : null,
+        "Godot" : 4,
+        210 : null,
     }
 
-    print(my_dict.has("Godot")) # Prints true
-    print(my_dict.has(210))     # Prints true
-    print(my_dict.has(4))       # Prints false
+    print(my_dict.has("Godot")) # Affiche true
+    print(my_dict.has(210))     # Affiche true
+    print(my_dict.has(4))       # Affiche false
 
  .. code-tab:: csharp
 
@@ -563,20 +602,20 @@ Returns ``true`` if the dictionary contains an entry with the given ``key``.
         { 210, default },
     };
 
-    GD.Print(myDict.ContainsKey("Godot")); // Prints True
-    GD.Print(myDict.ContainsKey(210));     // Prints True
-    GD.Print(myDict.ContainsKey(4));       // Prints False
+    GD.Print(myDict.ContainsKey("Godot")); // Affiche True
+    GD.Print(myDict.ContainsKey(210));     // Affiche True
+    GD.Print(myDict.ContainsKey(4));       // Affiche False
 
 
 
-In GDScript, this is equivalent to the ``in`` operator:
+En GDScript, cela équivaut à l'opérateur ``in``\  :
 
 ::
 
-    if "Godot" in { "Godot": 4 }:
-        print("The key is here!") # Will be printed.
+    if "Godot" in {"Godot": 4}:
+        print("La clé est ici !") # Sera affiché.
 
-\ **Note:** This method returns ``true`` as long as the ``key`` exists, even if its corresponding value is ``null``.
+\ **Note:** Cette méthode renvoie ``true`` tant que la ``key`` existe, même si sa valeur correspondante est ``null``.
 
 .. rst-class:: classref-item-separator
 
@@ -605,7 +644,7 @@ Returns ``true`` if the dictionary contains all keys in the given ``keys`` array
 
 :ref:`int<class_int>` **hash**\ (\ ) |const| :ref:`🔗<class_Dictionary_method_hash>`
 
-Returns a hashed 32-bit integer value representing the dictionary contents.
+Renvoie une valeur d'entier de 32 bits hachée représentant le contenu du dictionnaire.
 
 
 .. tabs::
@@ -615,21 +654,21 @@ Returns a hashed 32-bit integer value representing the dictionary contents.
     var dict1 = { "A": 10, "B": 2 }
     var dict2 = { "A": 10, "B": 2 }
 
-    print(dict1.hash() == dict2.hash()) # Prints true
+    print(dict1.hash() == dict2.hash()) # Affiche true
 
  .. code-tab:: csharp
 
     var dict1 = new Godot.Collections.Dictionary { { "A", 10 }, { "B", 2 } };
     var dict2 = new Godot.Collections.Dictionary { { "A", 10 }, { "B", 2 } };
 
-    // Godot.Collections.Dictionary has no Hash() method. Use GD.Hash() instead.
-    GD.Print(GD.Hash(dict1) == GD.Hash(dict2)); // Prints True
+    // Godot.Collections.Dictionary n'a pas de méthode Hash(). Utilisez GD.Hash() à la place.
+    GD.Print(GD.Hash(dict1) == GD.Hash(dict2)); // Affiche True
 
 
 
-\ **Note:** Dictionaries with the same entries but in a different order will not have the same hash.
+\ **Note :** Les dictionnaires avec les mêmes entrées mais dans un ordre différent n'auront pas le même hachage.
 
-\ **Note:** Dictionaries with equal hash values are *not* guaranteed to be the same, because of hash collisions. On the contrary, dictionaries with different hash values are guaranteed to be different.
+\ **Note :** Les dictionnaires avec des valeurs de hachage égales ne sont *pas* garantis d'être le même, en raison des collisions de hachage. Au contraire, les dictionnaires avec différentes valeurs de hachage sont garantis d'être différents.
 
 .. rst-class:: classref-item-separator
 

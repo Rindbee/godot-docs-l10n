@@ -23,7 +23,7 @@ The base class for the desktop platform exporters. These include Windows and Lin
 Tutoriales
 --------------------
 
-- :doc:`Exporting for Windows <../tutorials/export/exporting_for_windows>`
+- :doc:`Exportar a Windows <../tutorials/export/exporting_for_windows>`
 
 - :doc:`Exportando a Linux <../tutorials/export/exporting_for_linux>`
 

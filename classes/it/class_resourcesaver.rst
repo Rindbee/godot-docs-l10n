@@ -202,9 +202,9 @@ Restituisce :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` in caso di su
 
 :ref:`Error<enum_@GlobalScope_Error>` **set_uid**\ (\ resource\: :ref:`String<class_String>`, uid\: :ref:`int<class_int>`\ ) :ref:`🔗<class_ResourceSaver_method_set_uid>`
 
-Sets the UID of the given ``resource`` path to ``uid``. You can generate a new UID using :ref:`ResourceUID.create_id()<class_ResourceUID_method_create_id>`.
+Imposta l'UID del percorso ``resource`` di risorsa su ``uid``. È possibile generare un nuovo UID tramite :ref:`ResourceUID.create_id()<class_ResourceUID_method_create_id>`.
 
-Since resources will normally get a UID automatically, this method is only useful in very specific cases.
+Poiché le risorse normalmente ottengono un UID automaticamente, questo metodo è utile solo in casi molto specifici.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

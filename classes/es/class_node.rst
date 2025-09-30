@@ -725,7 +725,7 @@ Always automatically translate. This is the inverse of :ref:`AUTO_TRANSLATE_MODE
 
 Nunca traducir automáticamente. Esta es la inversa de :ref:`AUTO_TRANSLATE_MODE_ALWAYS<class_Node_constant_AUTO_TRANSLATE_MODE_ALWAYS>`.
 
-El análisis de cadenas para la generación de POT se omitirá para este nodo y los hijos que estén configurados como :ref:`AUTO_TRANSLATE_MODE_INHERIT<class_Node_constant_AUTO_TRANSLATE_MODE_INHERIT>`.
+El análisis de strings para la generación de POT se omitirá para este nodo y los hijos que estén configurados como :ref:`AUTO_TRANSLATE_MODE_INHERIT<class_Node_constant_AUTO_TRANSLATE_MODE_INHERIT>`.
 
 .. rst-class:: classref-section-separator
 
@@ -1469,7 +1469,7 @@ Corresponde a la notificación :ref:`NOTIFICATION_EXIT_TREE<class_Node_constant_
 
 :ref:`PackedStringArray<class_PackedStringArray>` **_get_accessibility_configuration_warnings**\ (\ ) |virtual| |const| :ref:`🔗<class_Node_private_method__get_accessibility_configuration_warnings>`
 
-Los elementos en el array devuelto por este método se muestran como advertencias en el dock de la escena si el script que lo anula es un script ``tool``, y las advertencias de accesibilidad están habilitadas en la configuración del editor.
+Los elementos en el array devuelto por este método se muestran como advertencias en el dock de la escena si el script que lo sobrescribe es un script ``tool``, y las advertencias de accesibilidad están habilitadas en la configuración del editor.
 
 Devolver un array vacío no produce advertencias.
 
@@ -1483,7 +1483,7 @@ Devolver un array vacío no produce advertencias.
 
 :ref:`PackedStringArray<class_PackedStringArray>` **_get_configuration_warnings**\ (\ ) |virtual| |const| :ref:`🔗<class_Node_private_method__get_configuration_warnings>`
 
-Los elementos del array devuelto por este método se muestran como advertencias en el dock Escena si el script que lo sobreescribe es un script ``tool``.
+Los elementos del array devuelto por este método se muestran como advertencias en el dock Escena si el script que lo sobrescribe es un script ``tool``.
 
 Devolver un array vacío no produce advertencias.
 
@@ -1526,7 +1526,7 @@ Se llama durante las actualizaciones de la información de accesibilidad para de
 
 Se llama cuando hay un evento de entrada. El evento de entrada se propaga a través del árbol de nodos hasta que un nodo lo consume.
 
-Solo se llama si el procesamiento de entrada está habilitado, lo que se hace automáticamente si se sobreescribe este método y se puede alternar con :ref:`set_process_input()<class_Node_method_set_process_input>`.
+Solo se llama si el procesamiento de entrada está habilitado, lo que se hace automáticamente si se sobrescribe este método y se puede alternar con :ref:`set_process_input()<class_Node_method_set_process_input>`.
 
 Para consumir el evento de entrada y evitar que se propague a otros nodos, se puede llamar a :ref:`Viewport.set_input_as_handled()<class_Viewport_method_set_input_as_handled>`.
 
@@ -1546,7 +1546,7 @@ Para la entrada de juego, :ref:`_unhandled_input()<class_Node_private_method__un
 
 Se llama una vez en cada ciclo de física y permite a los Nodos sincronizar su lógica con los ciclos de física. ``delta`` es el tiempo lógico entre ciclos de física en segundos y es igual a :ref:`Engine.time_scale<class_Engine_property_time_scale>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`.
 
-Solo se llama si el procesamiento de física está habilitado para este Nodo, lo que se hace automáticamente si se sobreescribe este método y se puede alternar con :ref:`set_physics_process()<class_Node_method_set_physics_process>`.
+Solo se llama si el procesamiento de física está habilitado para este Nodo, lo que se hace automáticamente si se sobrescribe este método y se puede alternar con :ref:`set_physics_process()<class_Node_method_set_physics_process>`.
 
 El procesamiento se realiza en orden de :ref:`process_physics_priority<class_Node_property_process_physics_priority>`, los valores de prioridad más bajos se llaman primero. Los nodos con la misma prioridad se procesan en orden de árbol, o de arriba a abajo como se ve en el editor (también conocido como recorrido de preorden).
 
@@ -1568,7 +1568,7 @@ Corresponde a la notificación :ref:`NOTIFICATION_PHYSICS_PROCESS<class_Node_con
 
 Se llama en cada fotograma inactivo, antes de la renderización y después de que se hayan procesado los ciclos de física. ``delta`` es el tiempo entre fotogramas en segundos.
 
-Solo se llama si el procesamiento está habilitado para este Nodo, lo que se hace automáticamente si se sobreescribe este método y se puede alternar con :ref:`set_process()<class_Node_method_set_process>`.
+Solo se llama si el procesamiento está habilitado para este Nodo, lo que se hace automáticamente si se sobrescribe este método y se puede alternar con :ref:`set_process()<class_Node_method_set_process>`.
 
 El procesamiento se realiza en orden de :ref:`process_priority<class_Node_property_process_priority>`, los valores de prioridad más bajos se llaman primero. Los nodos con la misma prioridad se procesan en orden de árbol, o de arriba a abajo como se ve en el editor (también conocido como recorrido de preorden).
 
@@ -1594,9 +1594,9 @@ Corresponde a la notificación :ref:`NOTIFICATION_PROCESS<class_Node_constant_NO
 
 Se llama cuando el nodo está "listo", es decir, cuando tanto el nodo como sus hijos han entrado en el árbol de escenas. Si el nodo tiene hijos, sus callbacks :ref:`_ready()<class_Node_private_method__ready>` se activan primero, y el nodo padre recibirá la notificación de listo después.
 
-Corresponde a la notificación :ref:`NOTIFICATION_READY<class_Node_constant_NOTIFICATION_READY>` en :ref:`Object._notification()<class_Object_private_method__notification>`. Vea también la anotación ``@onready`` para las variables.
+Corresponde a la notificación :ref:`NOTIFICATION_READY<class_Node_constant_NOTIFICATION_READY>` en :ref:`Object._notification()<class_Object_private_method__notification>`. Véase también la anotación ``@onready`` para las variables.
 
-Normalmente se usa para la inicialización. Para una inicialización aún más temprana, se puede usar :ref:`Object._init()<class_Object_private_method__init>`. Vea también :ref:`_enter_tree()<class_Node_private_method__enter_tree>`.
+Normalmente se usa para la inicialización. Para una inicialización aún más temprana, se puede usar :ref:`Object._init()<class_Object_private_method__init>`. Véase también :ref:`_enter_tree()<class_Node_private_method__enter_tree>`.
 
 \ **Nota:** Este método se puede llamar solo una vez para cada nodo. Después de eliminar un nodo del árbol de escenas y volver a agregarlo, :ref:`_ready()<class_Node_private_method__ready>` **no** se llamará una segunda vez. Esto se puede evitar solicitando otra llamada con :ref:`request_ready()<class_Node_method_request_ready>`, que se puede llamar en cualquier lugar antes de volver a agregar el nodo.
 
@@ -1612,7 +1612,7 @@ Normalmente se usa para la inicialización. Para una inicialización aún más t
 
 Se llama cuando un :ref:`InputEventKey<class_InputEventKey>`, :ref:`InputEventShortcut<class_InputEventShortcut>` o :ref:`InputEventJoypadButton<class_InputEventJoypadButton>` no ha sido consumido por :ref:`_input()<class_Node_private_method__input>` o cualquier elemento :ref:`Control<class_Control>` de la GUI. Se llama antes de :ref:`_unhandled_key_input()<class_Node_private_method__unhandled_key_input>` y :ref:`_unhandled_input()<class_Node_private_method__unhandled_input>`. El evento de entrada se propaga a través del árbol de nodos hasta que un nodo lo consume.
 
-Solo se llama si el procesamiento de atajos está habilitado, lo que se hace automáticamente si se sobreescribe este método y se puede alternar con :ref:`set_process_shortcut_input()<class_Node_method_set_process_shortcut_input>`.
+Solo se llama si el procesamiento de atajos está habilitado, lo que se hace automáticamente si se sobrescribe este método y se puede alternar con :ref:`set_process_shortcut_input()<class_Node_method_set_process_shortcut_input>`.
 
 Para consumir el evento de entrada y evitar que se propague a otros nodos, se puede llamar a :ref:`Viewport.set_input_as_handled()<class_Viewport_method_set_input_as_handled>`.
 

@@ -161,7 +161,7 @@ Il punto iniziale del raggio da interrogare, in coordinate globali.
 - |void| **set_hit_back_faces**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_hit_back_faces_enabled**\ (\ )
 
-Se ``true``, l'interrogazione colpirà le facce posteriori delle forme poligonali concave con faccia posteriore abilitata o forme dalle mappe di altezza.
+Se ``true``, l'interrogazione colpirà le facce posteriori delle forme poligonali concave con faccia posteriore abilitata o forme di heightmap.
 
 .. rst-class:: classref-item-separator
 
@@ -178,7 +178,7 @@ Se ``true``, l'interrogazione colpirà le facce posteriori delle forme poligonal
 - |void| **set_hit_from_inside**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_hit_from_inside_enabled**\ (\ )
 
-Se ``true``, l'interrogazione rileverà un riscontro se iniziata all'interno di una forma. In questo caso la normale di collisione sarà ``Vector3(0, 0, 0)``. Non influisce sulle forme poligonali concave o forme dalle mappe di altezza.
+Se ``true``, l'interrogazione rileverà un riscontro se iniziata all'interno di una forma. In questo caso la normale di collisione sarà ``Vector3(0, 0, 0)``. Non influisce sulle forme poligonali concave o forme di heightmap.
 
 .. rst-class:: classref-item-separator
 

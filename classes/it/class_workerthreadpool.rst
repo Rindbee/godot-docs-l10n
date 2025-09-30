@@ -147,7 +147,7 @@ Restituisce un ID attività che può essere utilizzato da altri metodi.
 
 :ref:`int<class_int>` **get_caller_group_id**\ (\ ) |const| :ref:`🔗<class_WorkerThreadPool_method_get_caller_group_id>`
 
-Returns the task group ID of the current thread calling this method, or ``-1`` if invalid or the current thread is not part of a task group.
+Restituisce l'ID del gruppo di attività del thread attuale che chiama questo metodo oppure ``-1`` se non è valido o se il thread attuale non fa parte di un gruppo di attività.
 
 .. rst-class:: classref-item-separator
 
@@ -159,11 +159,11 @@ Returns the task group ID of the current thread calling this method, or ``-1`` i
 
 :ref:`int<class_int>` **get_caller_task_id**\ (\ ) |const| :ref:`🔗<class_WorkerThreadPool_method_get_caller_task_id>`
 
-Returns the task ID of the current thread calling this method, or ``-1`` if the task is a group task, invalid or the current thread is not part of the thread pool (e.g. the main thread).
+Restituisce l'ID attività del thread attuale che chiama questo metodo, oppure ``-1`` se l'attività è un'attività di gruppo, non valida o se il thread attuale non fa parte del pool di thread (ad esempio, il thread principale).
 
-Can be used by a task to get its own task ID, or to determine whether the current code is running inside the worker thread pool.
+È possibile utilizzato da un'attività per ottenere il proprio ID attività o per determinare se il codice attuale è in esecuzione all'interno del pool di thread worker.
 
-\ **Note:** Group tasks have their own IDs, so this method will return ``-1`` for group tasks.
+\ **Nota:** Le attività di gruppo hanno i propri ID, quindi questo metodo restituirà ``-1`` per le attività di gruppo.
 
 .. rst-class:: classref-item-separator
 

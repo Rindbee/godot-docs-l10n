@@ -336,9 +336,9 @@ Orientamento da utilizzare quando l'applicazione web è eseguita attraverso un d
 
 :ref:`int<class_int>` **threads/emscripten_pool_size** :ref:`🔗<class_EditorExportPlatformWeb_property_threads/emscripten_pool_size>`
 
-The number of threads that emscripten will allocate at startup. A smaller value will allocate fewer threads and consume fewer system resources, but you may run the risk of running out of threads in the pool and needing to allocate more threads at run time which may cause a deadlock.
+Il numero di thread che emscripten allocherà all'avvio. Un valore inferiore allocherà meno thread e consumerà meno risorse di sistema, ma si corre il rischio di esaurire i thread nel pool e di dover allocare altri thread in fase di esecuzione, causando un deadlock.
 
-\ **Note:** Some browsers have a hard cap on the number of threads that can be allocated, so it is best to be cautious and keep this number low.
+\ **Nota:** Alcuni browser hanno un limite massimo al numero di thread che si possono allocare, quindi è meglio essere cauti e mantenere questo numero basso.
 
 .. rst-class:: classref-item-separator
 
@@ -350,9 +350,9 @@ The number of threads that emscripten will allocate at startup. A smaller value 
 
 :ref:`int<class_int>` **threads/godot_pool_size** :ref:`🔗<class_EditorExportPlatformWeb_property_threads/godot_pool_size>`
 
-Override for the default size of the :ref:`WorkerThreadPool<class_WorkerThreadPool>`. This setting is used when :ref:`ProjectSettings.threading/worker_pool/max_threads<class_ProjectSettings_property_threading/worker_pool/max_threads>` size is set to -1 (which it is by default). This size must be smaller than :ref:`threads/emscripten_pool_size<class_EditorExportPlatformWeb_property_threads/emscripten_pool_size>` otherwise deadlocks may occur.
+Sostituzione per la dimensione predefinita del :ref:`WorkerThreadPool<class_WorkerThreadPool>`. Questa impostazione è utilizzata quando la dimensione in :ref:`ProjectSettings.threading/worker_pool/max_threads<class_ProjectSettings_property_threading/worker_pool/max_threads>` è impostata su -1 (predefinito). Questa dimensione deve essere inferiore a :ref:`threads/emscripten_pool_size<class_EditorExportPlatformWeb_property_threads/emscripten_pool_size>`, altrimenti potrebbero verificarsi dei deadlock.
 
-When using threads this size needs to be large enough to accommodate features that rely on having a dedicated thread like :ref:`ProjectSettings.physics/2d/run_on_separate_thread<class_ProjectSettings_property_physics/2d/run_on_separate_thread>` or :ref:`ProjectSettings.rendering/driver/threads/thread_model<class_ProjectSettings_property_rendering/driver/threads/thread_model>`. In general, it is best to ensure that this is at least 4 and is at least 2 or 3 less than :ref:`threads/emscripten_pool_size<class_EditorExportPlatformWeb_property_threads/emscripten_pool_size>`.
+Quando si utilizzano i thread, questa dimensione deve essere grande abbastanza da supportare funzionalità che richiedono un thread dedicato, come :ref:`ProjectSettings.physics/2d/run_on_separate_thread<class_ProjectSettings_property_physics/2d/run_on_separate_thread>` o :ref:`ProjectSettings.rendering/driver/threads/thread_model<class_ProjectSettings_property_rendering/driver/threads/thread_model>`. In generale, è consigliabile assicurarsi che sia almeno 4 e almeno 2 o 3 in meno rispetto a :ref:`threads/emscripten_pool_size<class_EditorExportPlatformWeb_property_threads/emscripten_pool_size>`.
 
 .. rst-class:: classref-item-separator
 

@@ -185,7 +185,7 @@ Lo :ref:`Shape3D<class_Shape3D>` che sarà utilizzato per le interrogazioni di c
 - |void| **set_shape_rid**\ (\ value\: :ref:`RID<class_RID>`\ )
 - :ref:`RID<class_RID>` **get_shape_rid**\ (\ )
 
-The queried shape's :ref:`RID<class_RID>` that will be used for collision/intersection queries. Use this over :ref:`shape<class_PhysicsShapeQueryParameters3D_property_shape>` if you want to optimize for performance using the Servers API:
+Il :ref:`RID<class_RID>` della forma interrogata che sarà utilizzato per le interrogazioni di collisione o intersezione. Utilizza questo su :ref:`shape<class_PhysicsShapeQueryParameters3D_property_shape>` se vuoi ottimizzare le prestazioni attraverso l'API del server:
 
 
 .. tabs::
@@ -199,9 +199,9 @@ The queried shape's :ref:`RID<class_RID>` that will be used for collision/inters
     var params = PhysicsShapeQueryParameters3D.new()
     params.shape_rid = shape_rid
 
-    # Execute physics queries here...
+    # Esegui le interrogazioni di fisica qui...
 
-    # Release the shape when done with physics queries.
+    # Rilascia la forma quando hai finito con le interrogazioni di fisica.
     PhysicsServer3D.free_rid(shape_rid)
 
  .. code-tab:: csharp
@@ -213,9 +213,9 @@ The queried shape's :ref:`RID<class_RID>` that will be used for collision/inters
     var params = new PhysicsShapeQueryParameters3D();
     params.ShapeRid = shapeRid;
 
-    // Execute physics queries here...
+    // Esegui le interrogazioni di fisica qui...
 
-    // Release the shape when done with physics queries.
+    // Rilascia la forma quando hai finito con le interrogazioni di fisica.
     PhysicsServer3D.FreeRid(shapeRid);
 
 

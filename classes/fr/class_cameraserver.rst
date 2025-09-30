@@ -91,7 +91,7 @@ Signaux
 
 **camera_feeds_updated**\ (\ ) :ref:`🔗<class_CameraServer_signal_camera_feeds_updated>`
 
-Emitted when camera feeds are updated.
+Émis lorsque les flux de caméra sont mis à jour.
 
 .. rst-class:: classref-section-separator
 

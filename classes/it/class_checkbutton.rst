@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/CheckButton.xml.
+.. meta::
+	:keywords: switch, toggle
 
 .. _class_CheckButton:
 
@@ -82,7 +82,7 @@ Descrizioni delle proprietà del tema
 
 :ref:`Color<class_Color>` **button_checked_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_CheckButton_theme_color_button_checked_color>`
 
-The color of the checked icon when the checkbox is pressed.
+Il colore dell'icona di spunta quando la casella è premuta.
 
 .. rst-class:: classref-item-separator
 
@@ -94,7 +94,7 @@ The color of the checked icon when the checkbox is pressed.
 
 :ref:`Color<class_Color>` **button_unchecked_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_CheckButton_theme_color_button_unchecked_color>`
 
-The color of the unchecked icon when the checkbox is not pressed.
+Il colore dell'icona di spunta mancante quando la casella non è premuta.
 
 .. rst-class:: classref-item-separator
 

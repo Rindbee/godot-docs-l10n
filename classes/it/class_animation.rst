@@ -570,7 +570,7 @@ La lunghezza totale dell'animazione (in secondi).
 - |void| **set_loop_mode**\ (\ value\: :ref:`LoopMode<enum_Animation_LoopMode>`\ )
 - :ref:`LoopMode<enum_Animation_LoopMode>` **get_loop_mode**\ (\ )
 
-Determines the behavior of both ends of the animation timeline during animation playback. This indicates whether and how the animation should be restarted, and is also used to correctly interpolate animation cycles.
+Determina il comportamento di entrambe le estremità della timeline dell'animazione durante la riproduzione. Indica se e come riavviare l'animazione e serve anche per interpolare correttamente i cicli di animazione.
 
 .. rst-class:: classref-item-separator
 

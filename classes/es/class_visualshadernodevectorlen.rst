@@ -14,7 +14,7 @@ Devuelve la longitud de un :ref:`Vector3<class_Vector3>` dentro del gráfico sha
 Descripción
 ----------------------
 
-Traducido a ``length(p0)`` en el lenguaje de shader.
+Traducido a ``length(p0)`` en el lenguaje de shaders.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

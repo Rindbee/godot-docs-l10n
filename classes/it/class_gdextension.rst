@@ -70,7 +70,7 @@ La libreria è inizializzata allo stesso tempo delle funzionalità essenziali de
 
 :ref:`InitializationLevel<enum_GDExtension_InitializationLevel>` **INITIALIZATION_LEVEL_SERVERS** = ``1``
 
-La libreria è inizializzata allo stesso tempo dei server del motore (come il :ref:`RenderingServer<class_RenderingServer>` or il :ref:`PhysicsServer3D<class_PhysicsServer3D>`).
+La libreria è inizializzata allo stesso tempo dei server del motore (come il :ref:`RenderingServer<class_RenderingServer>` o il :ref:`PhysicsServer3D<class_PhysicsServer3D>`).
 
 .. _class_GDExtension_constant_INITIALIZATION_LEVEL_SCENE:
 

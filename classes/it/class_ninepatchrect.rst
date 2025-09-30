@@ -136,7 +136,7 @@ Descrizioni delle proprietà
 - |void| **set_h_axis_stretch_mode**\ (\ value\: :ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>`\ )
 - :ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>` **get_h_axis_stretch_mode**\ (\ )
 
-The stretch mode to use for horizontal stretching/tiling.
+La modalità di stiramento da usare per stirare/ripetere la texture orizzontalmente.
 
 .. rst-class:: classref-item-separator
 
@@ -153,7 +153,7 @@ The stretch mode to use for horizontal stretching/tiling.
 - |void| **set_v_axis_stretch_mode**\ (\ value\: :ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>`\ )
 - :ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>` **get_v_axis_stretch_mode**\ (\ )
 
-The stretch mode to use for vertical stretching/tiling.
+La modalità di stiramento da usare per stirare/ripetere la texture verticalmente.
 
 .. rst-class:: classref-item-separator
 

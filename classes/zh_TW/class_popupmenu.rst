@@ -501,7 +501,7 @@ If set to one of the values of :ref:`SystemMenus<enum_NativeMenu_SystemMenus>`, 
 
 :ref:`bool<class_bool>` **activate_item_by_event**\ (\ event\: :ref:`InputEvent<class_InputEvent>`, for_global_only\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_PopupMenu_method_activate_item_by_event>`
 
-根據 **PopupMenu** 的捷徑和加速器檢查提供的 ``event``\ ，並啟動具有配對事件的第一個專案。如果 ``for_global_only`` 為 ``true[/ code]，只有 [code]global`` 設定為 ``true`` 的捷徑和加速器才會被呼叫。
+根據 **PopupMenu** 的捷徑和加速器檢查提供的 ``event``\ ，並啟動具有配對事件的第一個專案。如果 ``for_global_only`` 為 ``true``\ ，只有 ``global`` 設定為 ``true`` 的捷徑和加速器才會被呼叫。
 
 如果專案已成功激活，則傳回 ``true``\ 。
 

@@ -96,9 +96,9 @@ Descrizioni dei metodi
 
 |void| **clear_docs_from_script**\ (\ script\: :ref:`Script<class_Script>`\ ) :ref:`🔗<class_ScriptEditor_method_clear_docs_from_script>`
 
-Removes the documentation for the given ``script``.
+Rimuove la documentazione per lo ``script`` specificato.
 
-\ **Note:** This should be called whenever the script is changed to keep the open documentation state up to date.
+\ **Nota:** Questo dovrebbe essere chiamato ogni volta che lo script viene modificato per mantenere aggiornato lo stato della documentazione aperta.
 
 .. rst-class:: classref-item-separator
 
@@ -257,9 +257,9 @@ Annulla la registrazione del :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHig
 
 |void| **update_docs_from_script**\ (\ script\: :ref:`Script<class_Script>`\ ) :ref:`🔗<class_ScriptEditor_method_update_docs_from_script>`
 
-Updates the documentation for the given ``script``.
+Aggiorna la documentazione per lo ``script`` specificato.
 
-\ **Note:** This should be called whenever the script is changed to keep the open documentation state up to date.
+\ **Nota:** Questo dovrebbe essere chiamato ogni volta che lo script viene modificato per mantenere aggiornato lo stato della documentazione aperta.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

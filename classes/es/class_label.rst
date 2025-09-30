@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/Label.xml.
+.. meta::
+	:keywords: text
 
 .. _class_Label:
 
@@ -611,7 +611,7 @@ Descripciones de las propiedades del tema
 
 :ref:`Color<class_Color>` **font_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_Label_theme_color_font_color>`
 
-Texto predeterminado :ref:`Color<class_Color>` de la ``Etiqueta``.
+Texto predeterminado :ref:`Color<class_Color>` de la **Label**.
 
 .. rst-class:: classref-item-separator
 

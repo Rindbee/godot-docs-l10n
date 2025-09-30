@@ -296,7 +296,7 @@ enum **DeviceType**: :ref:`🔗<enum_RenderingDevice_DeviceType>`
 
 :ref:`DeviceType<enum_RenderingDevice_DeviceType>` **DEVICE_TYPE_OTHER** = ``0``
 
-El tipo de dispositivo de renderizado no coincide con ninguno de los otros valores de la enumeración o es desconocido.
+El tipo de dispositivo de renderizado no coincide con ninguno de los otros valores del enum o es desconocido.
 
 .. _class_RenderingDevice_constant_DEVICE_TYPE_INTEGRATED_GPU:
 
@@ -1714,7 +1714,7 @@ Formato de datos de canal rojo/verde/azul/alfa sin signo comprimido en VRAM con 
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC2_SRGB_BLOCK** = ``135``
 
-VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and non-linear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. The format's precision is 5 bits of red channel, 6 bits of green channel, 5 bits of blue channel and 4 bits of alpha channel. Using BC2 texture compression (also known as S3TC DXT3).
+Formato de datos de canal rojo/verde/azul/alfa sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal. Los valores están en el rango ``[0.0, 1.0]``. La precisión del formato es de 5 bits del canal rojo, 6 bits del canal verde, 5 bits del canal azul y 4 bits del canal alfa. Utiliza la compresión de texturas BC2 (también conocida como S3TC DXT3).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC3_UNORM_BLOCK:
 
@@ -1722,7 +1722,7 @@ VRAM-compressed unsigned red/green/blue/alpha channel data format with normalize
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC3_UNORM_BLOCK** = ``136``
 
-VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value. Values are in the ``[0.0, 1.0]`` range. The format's precision is 5 bits of red channel, 6 bits of green channel, 5 bits of blue channel and 8 bits of alpha channel. Using BC3 texture compression (also known as S3TC DXT5).
+Formato de datos de canal rojo/verde/azul/alfa sin signo comprimido en VRAM con valor normalizado. Los valores están en el rango ``[0.0, 1.0]``. La precisión del formato es de 5 bits del canal rojo, 6 bits del canal verde, 5 bits del canal azul y 8 bits del canal alfa. Utiliza la compresión de texturas BC3 (también conocida como S3TC DXT5).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC3_SRGB_BLOCK:
 
@@ -1730,7 +1730,7 @@ VRAM-compressed unsigned red/green/blue/alpha channel data format with normalize
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC3_SRGB_BLOCK** = ``137``
 
-VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and non-linear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. The format's precision is 5 bits of red channel, 6 bits of green channel, 5 bits of blue channel and 8 bits of alpha channel. Using BC3 texture compression (also known as S3TC DXT5).
+Formato de datos de canal rojo/verde/azul/alfa sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal. Los valores están en el rango ``[0.0, 1.0]``. La precisión del formato es de 5 bits del canal rojo, 6 bits del canal verde, 5 bits del canal azul y 8 bits del canal alfa. Utiliza la compresión de texturas BC3 (también conocida como S3TC DXT5).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC4_UNORM_BLOCK:
 
@@ -1738,7 +1738,7 @@ VRAM-compressed unsigned red/green/blue/alpha channel data format with normalize
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC4_UNORM_BLOCK** = ``138``
 
-VRAM-compressed unsigned red channel data format with normalized value. Values are in the ``[0.0, 1.0]`` range. The format's precision is 8 bits of red channel. Using BC4 texture compression.
+Formato de datos de canal rojo sin signo comprimido en VRAM con valor normalizado. Los valores están en el rango ``[0.0, 1.0]``. La precisión del formato es de 8 bits del canal rojo. Utiliza la compresión de texturas BC4.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC4_SNORM_BLOCK:
 
@@ -1746,7 +1746,7 @@ VRAM-compressed unsigned red channel data format with normalized value. Values a
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC4_SNORM_BLOCK** = ``139``
 
-VRAM-compressed signed red channel data format with normalized value. Values are in the ``[-1.0, 1.0]`` range. The format's precision is 8 bits of red channel. Using BC4 texture compression.
+Formato de datos de canal rojo con signo comprimido en VRAM con valor normalizado. Los valores están en el rango ``[-1.0, 1.0]``. La precisión del formato es de 8 bits del canal rojo. Utiliza la compresión de texturas BC4.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC5_UNORM_BLOCK:
 
@@ -1754,7 +1754,7 @@ VRAM-compressed signed red channel data format with normalized value. Values are
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC5_UNORM_BLOCK** = ``140``
 
-VRAM-compressed unsigned red/green channel data format with normalized value. Values are in the ``[0.0, 1.0]`` range. The format's precision is 8 bits of red channel and 8 bits of green channel. Using BC5 texture compression (also known as S3TC RGTC).
+Formato de datos de canal rojo/verde sin signo comprimido en VRAM con valor normalizado. Los valores están en el rango ``[0.0, 1.0]``. La precisión del formato es de 8 bits del canal rojo y 8 bits del canal verde. Utiliza la compresión de texturas BC5 (también conocida como S3TC RGTC).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC5_SNORM_BLOCK:
 
@@ -1762,7 +1762,7 @@ VRAM-compressed unsigned red/green channel data format with normalized value. Va
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC5_SNORM_BLOCK** = ``141``
 
-VRAM-compressed signed red/green channel data format with normalized value. Values are in the ``[-1.0, 1.0]`` range. The format's precision is 8 bits of red channel and 8 bits of green channel. Using BC5 texture compression (also known as S3TC RGTC).
+Formato de datos de canal rojo/verde con signo comprimido en VRAM con valor normalizado. Los valores están en el rango ``[-1.0, 1.0]``. La precisión del formato es de 8 bits del canal rojo y 8 bits del canal verde. Utiliza la compresión de texturas BC5 (también conocida como S3TC RGTC).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC6H_UFLOAT_BLOCK:
 
@@ -1770,7 +1770,7 @@ VRAM-compressed signed red/green channel data format with normalized value. Valu
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC6H_UFLOAT_BLOCK** = ``142``
 
-VRAM-compressed unsigned red/green/blue channel data format with the floating-point value stored as-is. The format's precision is between 10 and 13 bits for the red/green/blue channels. Using BC6H texture compression (also known as BPTC HDR).
+Formato de datos de canal rojo/verde/azul sin signo comprimido en VRAM con el valor de punto flotante almacenado tal cual. La precisión del formato está entre 10 y 13 bits para los canales rojo/verde/azul. Utiliza la compresión de texturas BC6H (también conocida como BPTC HDR).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC6H_SFLOAT_BLOCK:
 
@@ -1778,7 +1778,7 @@ VRAM-compressed unsigned red/green/blue channel data format with the floating-po
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC6H_SFLOAT_BLOCK** = ``143``
 
-VRAM-compressed signed red/green/blue channel data format with the floating-point value stored as-is. The format's precision is between 10 and 13 bits for the red/green/blue channels. Using BC6H texture compression (also known as BPTC HDR).
+Formato de datos de canal rojo/verde/azul con signo comprimido en VRAM con el valor de punto flotante almacenado tal cual. La precisión del formato está entre 10 y 13 bits para los canales rojo/verde/azul. Utiliza la compresión de texturas BC6H (también conocida como BPTC HDR).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC7_UNORM_BLOCK:
 
@@ -1786,7 +1786,7 @@ VRAM-compressed signed red/green/blue channel data format with the floating-poin
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC7_UNORM_BLOCK** = ``144``
 
-VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value. Values are in the ``[0.0, 1.0]`` range. The format's precision is between 4 and 7 bits for the red/green/blue channels and between 0 and 8 bits for the alpha channel. Also known as BPTC LDR.
+Formato de datos de canal rojo/verde/azul/alfa sin signo comprimido en VRAM con valor normalizado. Los valores están en el rango ``[0.0, 1.0]``. La precisión del formato está entre 4 y 7 bits para los canales rojo/verde/azul y entre 0 y 8 bits para el canal alfa. También conocido como BPTC LDR.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC7_SRGB_BLOCK:
 
@@ -1794,7 +1794,7 @@ VRAM-compressed unsigned red/green/blue/alpha channel data format with normalize
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC7_SRGB_BLOCK** = ``145``
 
-VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and non-linear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. The format's precision is between 4 and 7 bits for the red/green/blue channels and between 0 and 8 bits for the alpha channel. Also known as BPTC LDR.
+Formato de datos de canal rojo/verde/azul/alfa sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal. Los valores están en el rango ``[0.0, 1.0]``. La precisión del formato está entre 4 y 7 bits para los canales rojo/verde/azul y entre 0 y 8 bits para el canal alfa. También conocido como BPTC LDR.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ETC2_R8G8B8_UNORM_BLOCK:
 
@@ -1802,7 +1802,7 @@ VRAM-compressed unsigned red/green/blue/alpha channel data format with normalize
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ETC2_R8G8B8_UNORM_BLOCK** = ``146``
 
-VRAM-compressed unsigned red/green/blue channel data format with normalized value. Values are in the ``[0.0, 1.0]`` range. Using ETC2 texture compression.
+Formato de datos de canal rojo/verde/azul sin signo comprimido en VRAM con valor normalizado. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión de texturas ETC2.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ETC2_R8G8B8_SRGB_BLOCK:
 
@@ -1818,7 +1818,7 @@ Formato de datos de canal rojo/verde/azul sin signo comprimido en VRAM con valor
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ETC2_R8G8B8A1_UNORM_BLOCK** = ``148``
 
-VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value. Values are in the ``[0.0, 1.0]`` range. Red/green/blue use 8 bit of precision each, with alpha using 1 bit of precision. Using ETC2 texture compression.
+Formato de datos de canal rojo/verde/azul/alfa sin signo comprimido en VRAM con valor normalizado. Los valores están en el rango ``[0.0, 1.0]``. Rojo/verde/azul utilizan 8 bits de precisión cada uno, con alfa utilizando 1 bit de precisión. Utiliza la compresión de texturas ETC2.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ETC2_R8G8B8A1_SRGB_BLOCK:
 
@@ -1826,7 +1826,7 @@ VRAM-compressed unsigned red/green/blue/alpha channel data format with normalize
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ETC2_R8G8B8A1_SRGB_BLOCK** = ``149``
 
-VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and non-linear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. Red/green/blue use 8 bit of precision each, with alpha using 1 bit of precision. Using ETC2 texture compression.
+Formato de datos de canal rojo/verde/azul/alfa sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal. Los valores están en el rango ``[0.0, 1.0]``. Rojo/verde/azul utilizan 8 bits de precisión cada uno, con alfa utilizando 1 bit de precisión. Utiliza la compresión de texturas ETC2.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ETC2_R8G8B8A8_UNORM_BLOCK:
 
@@ -1834,7 +1834,7 @@ VRAM-compressed unsigned red/green/blue/alpha channel data format with normalize
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ETC2_R8G8B8A8_UNORM_BLOCK** = ``150``
 
-VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value. Values are in the ``[0.0, 1.0]`` range. Red/green/blue use 8 bits of precision each, with alpha using 8 bits of precision. Using ETC2 texture compression.
+Formato de datos de canal rojo/verde/azul/alfa sin signo comprimido en VRAM con valor normalizado. Los valores están en el rango ``[0.0, 1.0]``. Rojo/verde/azul utilizan 8 bits de precisión cada uno, con alfa utilizando 8 bits de precisión. Utiliza la compresión de texturas ETC2.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ETC2_R8G8B8A8_SRGB_BLOCK:
 
@@ -1842,7 +1842,7 @@ VRAM-compressed unsigned red/green/blue/alpha channel data format with normalize
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ETC2_R8G8B8A8_SRGB_BLOCK** = ``151``
 
-VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and non-linear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. Red/green/blue use 8 bits of precision each, with alpha using 8 bits of precision. Using ETC2 texture compression.
+Formato de datos de canal rojo/verde/azul/alfa sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal. Los valores están en el rango ``[0.0, 1.0]``. Rojo/verde/azul utilizan 8 bits de precisión cada uno, con alfa utilizando 8 bits de precisión. Utiliza la compresión de texturas ETC2.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_EAC_R11_UNORM_BLOCK:
 
@@ -1850,7 +1850,7 @@ VRAM-compressed unsigned red/green/blue/alpha channel data format with normalize
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_EAC_R11_UNORM_BLOCK** = ``152``
 
-11-bit VRAM-compressed unsigned red channel data format with normalized value. Values are in the ``[0.0, 1.0]`` range. Using ETC2 texture compression.
+Formato de datos de canal rojo sin signo comprimido en VRAM de 11 bits con valor normalizado. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión de texturas ETC2.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_EAC_R11_SNORM_BLOCK:
 
@@ -1858,7 +1858,7 @@ VRAM-compressed unsigned red/green/blue/alpha channel data format with normalize
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_EAC_R11_SNORM_BLOCK** = ``153``
 
-11-bit VRAM-compressed signed red channel data format with normalized value. Values are in the ``[-1.0, 1.0]`` range. Using ETC2 texture compression.
+Formato de datos de canal rojo con signo comprimido en VRAM de 11 bits con valor normalizado. Los valores están en el rango ``[-1.0, 1.0]``. Utiliza la compresión de texturas ETC2.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_EAC_R11G11_UNORM_BLOCK:
 
@@ -1866,7 +1866,7 @@ VRAM-compressed unsigned red/green/blue/alpha channel data format with normalize
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_EAC_R11G11_UNORM_BLOCK** = ``154``
 
-11-bit VRAM-compressed unsigned red/green channel data format with normalized value. Values are in the ``[0.0, 1.0]`` range. Using ETC2 texture compression.
+Formato de datos de canal rojo/verde sin signo comprimido en VRAM de 11 bits con valor normalizado. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión de texturas ETC2.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_EAC_R11G11_SNORM_BLOCK:
 
@@ -1874,7 +1874,7 @@ VRAM-compressed unsigned red/green/blue/alpha channel data format with normalize
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_EAC_R11G11_SNORM_BLOCK** = ``155``
 
-11-bit VRAM-compressed signed red/green channel data format with normalized value. Values are in the ``[-1.0, 1.0]`` range. Using ETC2 texture compression.
+Formato de datos de canal rojo/verde con signo comprimido en VRAM de 11 bits con valor normalizado. Los valores están en el rango ``[-1.0, 1.0]``. Utiliza la compresión de texturas ETC2.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_4x4_UNORM_BLOCK:
 
@@ -1882,7 +1882,7 @@ VRAM-compressed unsigned red/green/blue/alpha channel data format with normalize
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_4x4_UNORM_BLOCK** = ``156``
 
-VRAM-compressed unsigned floating-point data format with normalized value, packed in 4×4 blocks (highest quality). Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado, empaquetado en bloques de 4×4 (máxima calidad). Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_4x4_SRGB_BLOCK:
 
@@ -1890,7 +1890,7 @@ VRAM-compressed unsigned floating-point data format with normalized value, packe
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_4x4_SRGB_BLOCK** = ``157``
 
-VRAM-compressed unsigned floating-point data format with normalized value and non-linear sRGB encoding, packed in 4×4 blocks (highest quality). Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal, empaquetado en bloques de 4×4 (máxima calidad). Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_5x4_UNORM_BLOCK:
 
@@ -1898,7 +1898,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_5x4_UNORM_BLOCK** = ``158``
 
-VRAM-compressed unsigned floating-point data format with normalized value, packed in 5×4 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado, empaquetado en bloques de 5×4. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_5x4_SRGB_BLOCK:
 
@@ -1906,7 +1906,7 @@ VRAM-compressed unsigned floating-point data format with normalized value, packe
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_5x4_SRGB_BLOCK** = ``159``
 
-VRAM-compressed unsigned floating-point data format with normalized value and non-linear sRGB encoding, packed in 5×4 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal, empaquetado en bloques de 5×4. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_5x5_UNORM_BLOCK:
 
@@ -1914,7 +1914,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_5x5_UNORM_BLOCK** = ``160``
 
-VRAM-compressed unsigned floating-point data format with normalized value, packed in 5×5 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado, empaquetado en bloques de 5×5. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_5x5_SRGB_BLOCK:
 
@@ -1922,7 +1922,7 @@ VRAM-compressed unsigned floating-point data format with normalized value, packe
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_5x5_SRGB_BLOCK** = ``161``
 
-VRAM-compressed unsigned floating-point data format with normalized value and non-linear sRGB encoding, packed in 5×5 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal, empaquetado en bloques de 5×5. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_6x5_UNORM_BLOCK:
 
@@ -1930,7 +1930,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_6x5_UNORM_BLOCK** = ``162``
 
-VRAM-compressed unsigned floating-point data format with normalized value, packed in 6×5 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado, empaquetado en bloques de 6×5. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_6x5_SRGB_BLOCK:
 
@@ -1938,7 +1938,7 @@ VRAM-compressed unsigned floating-point data format with normalized value, packe
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_6x5_SRGB_BLOCK** = ``163``
 
-VRAM-compressed unsigned floating-point data format with normalized value and non-linear sRGB encoding, packed in 6×5 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal, empaquetado en bloques de 6×5. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_6x6_UNORM_BLOCK:
 
@@ -1946,7 +1946,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_6x6_UNORM_BLOCK** = ``164``
 
-VRAM-compressed unsigned floating-point data format with normalized value, packed in 6×6 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado, empaquetado en bloques de 6×6. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_6x6_SRGB_BLOCK:
 
@@ -1954,7 +1954,7 @@ VRAM-compressed unsigned floating-point data format with normalized value, packe
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_6x6_SRGB_BLOCK** = ``165``
 
-VRAM-compressed unsigned floating-point data format with normalized value and non-linear sRGB encoding, packed in 6×6 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal, empaquetado en bloques de 6×6. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_8x5_UNORM_BLOCK:
 
@@ -1962,7 +1962,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_8x5_UNORM_BLOCK** = ``166``
 
-VRAM-compressed unsigned floating-point data format with normalized value, packed in 8×5 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado, empaquetado en bloques de 8×5. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_8x5_SRGB_BLOCK:
 
@@ -1970,7 +1970,7 @@ VRAM-compressed unsigned floating-point data format with normalized value, packe
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_8x5_SRGB_BLOCK** = ``167``
 
-VRAM-compressed unsigned floating-point data format with normalized value and non-linear sRGB encoding, packed in 8×5 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal, empaquetado en bloques de 8×5. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_8x6_UNORM_BLOCK:
 
@@ -1978,7 +1978,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_8x6_UNORM_BLOCK** = ``168``
 
-VRAM-compressed unsigned floating-point data format with normalized value, packed in 8×6 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado, empaquetado en bloques de 8×6. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_8x6_SRGB_BLOCK:
 
@@ -1986,7 +1986,7 @@ VRAM-compressed unsigned floating-point data format with normalized value, packe
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_8x6_SRGB_BLOCK** = ``169``
 
-VRAM-compressed unsigned floating-point data format with normalized value and non-linear sRGB encoding, packed in 8×6 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal, empaquetado en bloques de 8×6. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_8x8_UNORM_BLOCK:
 
@@ -1994,7 +1994,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_8x8_UNORM_BLOCK** = ``170``
 
-VRAM-compressed unsigned floating-point data format with normalized value, packed in 8×8 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado, empaquetado en bloques de 8×8. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_8x8_SRGB_BLOCK:
 
@@ -2002,7 +2002,7 @@ VRAM-compressed unsigned floating-point data format with normalized value, packe
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_8x8_SRGB_BLOCK** = ``171``
 
-VRAM-compressed unsigned floating-point data format with normalized value and non-linear sRGB encoding, packed in 8×8 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal, empaquetado en bloques de 8×8. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_10x5_UNORM_BLOCK:
 
@@ -2010,7 +2010,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_10x5_UNORM_BLOCK** = ``172``
 
-VRAM-compressed unsigned floating-point data format with normalized value, packed in 10×5 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado, empaquetado en bloques de 10×5. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_10x5_SRGB_BLOCK:
 
@@ -2018,7 +2018,7 @@ VRAM-compressed unsigned floating-point data format with normalized value, packe
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_10x5_SRGB_BLOCK** = ``173``
 
-VRAM-compressed unsigned floating-point data format with normalized value and non-linear sRGB encoding, packed in 10×5 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal, empaquetado en bloques de 10×5. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_10x6_UNORM_BLOCK:
 
@@ -2026,7 +2026,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_10x6_UNORM_BLOCK** = ``174``
 
-VRAM-compressed unsigned floating-point data format with normalized value, packed in 10×6 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado, empaquetado en bloques de 10×6. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_10x6_SRGB_BLOCK:
 
@@ -2034,7 +2034,7 @@ VRAM-compressed unsigned floating-point data format with normalized value, packe
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_10x6_SRGB_BLOCK** = ``175``
 
-VRAM-compressed unsigned floating-point data format with normalized value and non-linear sRGB encoding, packed in 10×6 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal, empaquetado en bloques de 10×6. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_10x8_UNORM_BLOCK:
 
@@ -2042,7 +2042,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_10x8_UNORM_BLOCK** = ``176``
 
-VRAM-compressed unsigned floating-point data format with normalized value, packed in 10×8 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado, empaquetado en bloques de 10×8. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_10x8_SRGB_BLOCK:
 
@@ -2050,7 +2050,7 @@ VRAM-compressed unsigned floating-point data format with normalized value, packe
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_10x8_SRGB_BLOCK** = ``177``
 
-VRAM-compressed unsigned floating-point data format with normalized value and non-linear sRGB encoding, packed in 10×8 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal, empaquetado en bloques de 10×8. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_10x10_UNORM_BLOCK:
 
@@ -2058,7 +2058,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_10x10_UNORM_BLOCK** = ``178``
 
-VRAM-compressed unsigned floating-point data format with normalized value, packed in 10×10 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado, empaquetado en bloques de 10×10. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_10x10_SRGB_BLOCK:
 
@@ -2066,7 +2066,7 @@ VRAM-compressed unsigned floating-point data format with normalized value, packe
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_10x10_SRGB_BLOCK** = ``179``
 
-VRAM-compressed unsigned floating-point data format with normalized value and non-linear sRGB encoding, packed in 10×10 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal, empaquetado en bloques de 10×10. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_12x10_UNORM_BLOCK:
 
@@ -2074,7 +2074,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_12x10_UNORM_BLOCK** = ``180``
 
-VRAM-compressed unsigned floating-point data format with normalized value, packed in 12×10 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado, empaquetado en bloques de 12×10. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_12x10_SRGB_BLOCK:
 
@@ -2082,7 +2082,7 @@ VRAM-compressed unsigned floating-point data format with normalized value, packe
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_12x10_SRGB_BLOCK** = ``181``
 
-VRAM-compressed unsigned floating-point data format with normalized value and non-linear sRGB encoding, packed in 12×10 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal, empaquetado en bloques de 12×10. Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_12x12_UNORM_BLOCK:
 
@@ -2090,7 +2090,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_12x12_UNORM_BLOCK** = ``182``
 
-VRAM-compressed unsigned floating-point data format with normalized value, packed in 12 blocks (lowest quality). Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado, empaquetado en bloques de 12 (calidad más baja). Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_12x12_SRGB_BLOCK:
 
@@ -2098,7 +2098,7 @@ VRAM-compressed unsigned floating-point data format with normalized value, packe
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_12x12_SRGB_BLOCK** = ``183``
 
-VRAM-compressed unsigned floating-point data format with normalized value and non-linear sRGB encoding, packed in 12 blocks (lowest quality). Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
+Formato de datos de punto flotante sin signo comprimido en VRAM con valor normalizado y codificación sRGB no lineal, empaquetado en bloques de 12 (calidad más baja). Los valores están en el rango ``[0.0, 1.0]``. Utiliza la compresión ASTC.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G8B8G8R8_422_UNORM:
 
@@ -2106,7 +2106,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G8B8G8R8_422_UNORM** = ``184``
 
-8-bit-per-channel unsigned floating-point green/blue/red channel data format with normalized value. Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal resolution (i.e. 2 horizontally adjacent pixels will share the same value for the blue/red channel).
+Formato de datos de canal verde/azul/rojo de punto flotante sin signo de 8 bits por canal con valor normalizado. Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal reducida a la mitad (es decir, 2 píxeles adyacentes horizontalmente compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_B8G8R8G8_422_UNORM:
 
@@ -2114,7 +2114,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_B8G8R8G8_422_UNORM** = ``185``
 
-8-bit-per-channel unsigned floating-point blue/green/red channel data format with normalized value. Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal resolution (i.e. 2 horizontally adjacent pixels will share the same value for the blue/red channel).
+Formato de datos de canal azul/verde/rojo de punto flotante sin signo de 8 bits por canal con valor normalizado. Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal reducida a la mitad (es decir, 2 píxeles adyacentes horizontalmente compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G8_B8_R8_3PLANE_420_UNORM:
 
@@ -2122,7 +2122,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G8_B8_R8_3PLANE_420_UNORM** = ``186``
 
-8-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, stored across 3 separate planes (green + blue + red). Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal and vertical resolution (i.e. 2×2 adjacent pixels will share the same value for the blue/red channel).
+Datos de canal verde/azul/rojo en punto flotante sin signo de 8 bits por canal con valor normalizado, almacenados en 3 planos separados (verde + azul+ rojo). Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal y vertical reducida a la mitad (es decir, 2×2 píxeles adyacentes compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G8_B8R8_2PLANE_420_UNORM:
 
@@ -2130,7 +2130,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G8_B8R8_2PLANE_420_UNORM** = ``187``
 
-8-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, stored across 2 separate planes (green + blue/red). Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal and vertical resolution (i.e. 2×2 adjacent pixels will share the same value for the blue/red channel).
+Datos de canal verde/azul/rojo en punto flotante sin signo de 8 bits por canal con valor normalizado, almacenados en 2 planos separados (verde + azul/rojo). Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal y vertical reducida a la mitad (es decir, 2×2 píxeles adyacentes compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G8_B8_R8_3PLANE_422_UNORM:
 
@@ -2138,7 +2138,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G8_B8_R8_3PLANE_422_UNORM** = ``188``
 
-8-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, stored across 2 separate planes (green + blue + red). Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal resolution (i.e. 2 horizontally adjacent pixels will share the same value for the blue/red channel).
+Datos de canal verde/azul/rojo en punto flotante sin signo de 8 bits por canal con valor normalizado, almacenados en 2 planos separados (verde + azul + rojo). Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal reducida a la mitad (es decir, 2 píxeles adyacentes horizontalmente compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G8_B8R8_2PLANE_422_UNORM:
 
@@ -2146,7 +2146,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G8_B8R8_2PLANE_422_UNORM** = ``189``
 
-8-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, stored across 2 separate planes (green + blue/red). Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal resolution (i.e. 2 horizontally adjacent pixels will share the same value for the blue/red channel).
+Datos de canal verde/azul/rojo en punto flotante sin signo de 8 bits por canal con valor normalizado, almacenados en 2 planos separados (verde + azul/rojo). Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal reducida a la mitad (es decir, 2 píxeles adyacentes horizontalmente compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G8_B8_R8_3PLANE_444_UNORM:
 
@@ -2154,7 +2154,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G8_B8_R8_3PLANE_444_UNORM** = ``190``
 
-8-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, stored across 3 separate planes. Values are in the ``[0.0, 1.0]`` range.
+Datos de canal verde/azul/rojo en punto flotante sin signo de 8 bits por canal con valor normalizado, almacenados en 3 planos separados. Los valores están en el rango ``[0.0, 1.0]``.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_R10X6_UNORM_PACK16:
 
@@ -2162,7 +2162,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_R10X6_UNORM_PACK16** = ``191``
 
-10-bit-per-channel unsigned floating-point red channel data with normalized value, plus 6 unused bits, packed in 16 bits. Values are in the ``[0.0, 1.0]`` range.
+Datos de canal rojo en punto flotante sin signo de 10 bits por canal con valor normalizado, más 6 bits no utilizados, empaquetados en 16 bits. Los valores están en el rango ``[0.0, 1.0]``.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_R10X6G10X6_UNORM_2PACK16:
 
@@ -2170,7 +2170,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_R10X6G10X6_UNORM_2PACK16** = ``192``
 
-10-bit-per-channel unsigned floating-point red/green channel data with normalized value, plus 6 unused bits after each channel, packed in 2×16 bits. Values are in the ``[0.0, 1.0]`` range.
+Datos de canal rojo/verde en punto flotante sin signo de 10 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal, empaquetados en 2×16 bits. Los valores están en el rango ``[0.0, 1.0]``.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_R10X6G10X6B10X6A10X6_UNORM_4PACK16:
 
@@ -2178,7 +2178,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_R10X6G10X6B10X6A10X6_UNORM_4PACK16** = ``193``
 
-10-bit-per-channel unsigned floating-point red/green/blue/alpha channel data with normalized value, plus 6 unused bits after each channel, packed in 4×16 bits. Values are in the ``[0.0, 1.0]`` range.
+Datos de canal rojo/verde/azul/alfa en punto flotante sin signo de 10 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal, empaquetados en 4×16 bits. Los valores están en el rango ``[0.0, 1.0]``.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G10X6B10X6G10X6R10X6_422_UNORM_4PACK16:
 
@@ -2186,7 +2186,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G10X6B10X6G10X6R10X6_422_UNORM_4PACK16** = ``194``
 
-10-bit-per-channel unsigned floating-point green/blue/green/red channel data with normalized value, plus 6 unused bits after each channel, packed in 4×16 bits. Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal resolution (i.e. 2 horizontally adjacent pixels will share the same value for the blue/red channel). The green channel is listed twice, but contains different values to allow it to be represented at full resolution.
+Datos de canal verde/azul/verde/rojo en punto flotante sin signo de 10 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal, empaquetados en 4×16 bits. Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal reducida a la mitad (es decir, 2 píxeles adyacentes horizontalmente compartirán el mismo valor para el canal azul/rojo). El canal verde se enumera dos veces, pero contiene valores diferentes para permitir que se represente a resolución completa.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_B10X6G10X6R10X6G10X6_422_UNORM_4PACK16:
 
@@ -2194,7 +2194,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_B10X6G10X6R10X6G10X6_422_UNORM_4PACK16** = ``195``
 
-10-bit-per-channel unsigned floating-point blue/green/red/green channel data with normalized value, plus 6 unused bits after each channel, packed in 4×16 bits. Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal resolution (i.e. 2 horizontally adjacent pixels will share the same value for the blue/red channel). The green channel is listed twice, but contains different values to allow it to be represented at full resolution.
+Datos de canal azul/verde/rojo/verde en punto flotante sin signo de 10 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal, empaquetados en 4×16 bits. Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal reducida a la mitad (es decir, 2 píxeles adyacentes horizontalmente compartirán el mismo valor para el canal azul/rojo). El canal verde se enumera dos veces, pero contiene valores diferentes para permitir que se represente a resolución completa.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G10X6_B10X6_R10X6_3PLANE_420_UNORM_3PACK16:
 
@@ -2202,7 +2202,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G10X6_B10X6_R10X6_3PLANE_420_UNORM_3PACK16** = ``196``
 
-10-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, plus 6 unused bits after each channel. Packed in 3×16 bits and stored across 2 separate planes (green + blue + red). Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal and vertical resolution (i.e. 2×2 adjacent pixels will share the same value for the blue/red channel).
+Datos de canal verde/azul/rojo en punto flotante sin signo de 10 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal. Empaquetado en 3×16 bits y almacenado en 2 planos separados (verde + azul + rojo). Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal y vertical reducida a la mitad (es decir, 2×2 píxeles adyacentes compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G10X6_B10X6R10X6_2PLANE_420_UNORM_3PACK16:
 
@@ -2210,7 +2210,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G10X6_B10X6R10X6_2PLANE_420_UNORM_3PACK16** = ``197``
 
-10-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, plus 6 unused bits after each channel. Packed in 3×16 bits and stored across 2 separate planes (green + blue/red). Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal and vertical resolution (i.e. 2×2 adjacent pixels will share the same value for the blue/red channel).
+Datos de canal verde/azul/rojo en punto flotante sin signo de 10 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal. Empaquetado en 3×16 bits y almacenado en 2 planos separados (verde + azul/rojo). Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal y vertical reducida a la mitad (es decir, 2×2 píxeles adyacentes compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G10X6_B10X6_R10X6_3PLANE_422_UNORM_3PACK16:
 
@@ -2218,7 +2218,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G10X6_B10X6_R10X6_3PLANE_422_UNORM_3PACK16** = ``198``
 
-10-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, plus 6 unused bits after each channel. Packed in 3×16 bits and stored across 3 separate planes (green + blue + red). Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal resolution (i.e. 2 horizontally adjacent pixels will share the same value for the blue/red channel).
+Datos de canal verde/azul/rojo en punto flotante sin signo de 10 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal. Empaquetado en 3×16 bits y almacenado en 3 planos separados (verde + azul + rojo). Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal reducida a la mitad (es decir, 2 píxeles adyacentes horizontalmente compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G10X6_B10X6R10X6_2PLANE_422_UNORM_3PACK16:
 
@@ -2226,7 +2226,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G10X6_B10X6R10X6_2PLANE_422_UNORM_3PACK16** = ``199``
 
-10-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, plus 6 unused bits after each channel. Packed in 3×16 bits and stored across 3 separate planes (green + blue/red). Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal resolution (i.e. 2 horizontally adjacent pixels will share the same value for the blue/red channel).
+Datos de canal verde/azul/rojo en punto flotante sin signo de 10 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal. Empaquetado en 3×16 bits y almacenado en 3 planos separados (verde + azul/rojo). Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal reducida a la mitad (es decir, 2 píxeles adyacentes horizontalmente compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G10X6_B10X6_R10X6_3PLANE_444_UNORM_3PACK16:
 
@@ -2234,7 +2234,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G10X6_B10X6_R10X6_3PLANE_444_UNORM_3PACK16** = ``200``
 
-10-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, plus 6 unused bits after each channel. Packed in 3×16 bits and stored across 3 separate planes (green + blue + red). Values are in the ``[0.0, 1.0]`` range.
+Datos de canal verde/azul/rojo en punto flotante sin signo de 10 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal. Empaquetado en 3×16 bits y almacenado en 3 planos separados (verde + azul + rojo). Los valores están en el rango ``[0.0, 1.0]``.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_R12X4_UNORM_PACK16:
 
@@ -2242,7 +2242,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_R12X4_UNORM_PACK16** = ``201``
 
-12-bit-per-channel unsigned floating-point red channel data with normalized value, plus 6 unused bits, packed in 16 bits. Values are in the ``[0.0, 1.0]`` range.
+Datos de canal rojo en punto flotante sin signo de 12 bits por canal con valor normalizado, más 6 bits no utilizados, empaquetados en 16 bits. Los valores están en el rango ``[0.0, 1.0]``.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_R12X4G12X4_UNORM_2PACK16:
 
@@ -2250,7 +2250,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_R12X4G12X4_UNORM_2PACK16** = ``202``
 
-12-bit-per-channel unsigned floating-point red/green channel data with normalized value, plus 6 unused bits after each channel, packed in 2×16 bits. Values are in the ``[0.0, 1.0]`` range.
+Datos de canal rojo/verde en punto flotante sin signo de 12 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal, empaquetados en 2×16 bits. Los valores están en el rango ``[0.0, 1.0]``.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_R12X4G12X4B12X4A12X4_UNORM_4PACK16:
 
@@ -2258,7 +2258,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_R12X4G12X4B12X4A12X4_UNORM_4PACK16** = ``203``
 
-12-bit-per-channel unsigned floating-point red/green/blue/alpha channel data with normalized value, plus 6 unused bits after each channel, packed in 4×16 bits. Values are in the ``[0.0, 1.0]`` range.
+Datos de canal rojo/verde/azul/alfa en punto flotante sin signo de 12 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal, empaquetados en 4×16 bits. Los valores están en el rango ``[0.0, 1.0]``.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G12X4B12X4G12X4R12X4_422_UNORM_4PACK16:
 
@@ -2266,7 +2266,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G12X4B12X4G12X4R12X4_422_UNORM_4PACK16** = ``204``
 
-12-bit-per-channel unsigned floating-point green/blue/green/red channel data with normalized value, plus 6 unused bits after each channel, packed in 4×16 bits. Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal resolution (i.e. 2 horizontally adjacent pixels will share the same value for the blue/red channel). The green channel is listed twice, but contains different values to allow it to be represented at full resolution.
+Datos de canal verde/azul/verde/rojo en punto flotante sin signo de 12 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal, empaquetados en 4×16 bits. Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal reducida a la mitad (es decir, 2 píxeles adyacentes horizontalmente compartirán el mismo valor para el canal azul/rojo). El canal verde se enumera dos veces, pero contiene valores diferentes para permitir que se represente a resolución completa.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_B12X4G12X4R12X4G12X4_422_UNORM_4PACK16:
 
@@ -2274,7 +2274,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_B12X4G12X4R12X4G12X4_422_UNORM_4PACK16** = ``205``
 
-12-bit-per-channel unsigned floating-point blue/green/red/green channel data with normalized value, plus 6 unused bits after each channel, packed in 4×16 bits. Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal resolution (i.e. 2 horizontally adjacent pixels will share the same value for the blue/red channel). The green channel is listed twice, but contains different values to allow it to be represented at full resolution.
+Datos de canal azul/verde/rojo/verde en punto flotante sin signo de 12 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal, empaquetados en 4×16 bits. Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal reducida a la mitad (es decir, 2 píxeles adyacentes horizontalmente compartirán el mismo valor para el canal azul/rojo). El canal verde se enumera dos veces, pero contiene valores diferentes para permitir que se represente a resolución completa.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G12X4_B12X4_R12X4_3PLANE_420_UNORM_3PACK16:
 
@@ -2282,7 +2282,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G12X4_B12X4_R12X4_3PLANE_420_UNORM_3PACK16** = ``206``
 
-12-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, plus 6 unused bits after each channel. Packed in 3×16 bits and stored across 2 separate planes (green + blue + red). Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal and vertical resolution (i.e. 2×2 adjacent pixels will share the same value for the blue/red channel).
+Datos de canal verde/azul/rojo en punto flotante sin signo de 12 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal. Empaquetado en 3×16 bits y almacenado en 2 planos separados (verde + azul + rojo). Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal y vertical reducida a la mitad (es decir, 2×2 píxeles adyacentes compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G12X4_B12X4R12X4_2PLANE_420_UNORM_3PACK16:
 
@@ -2290,7 +2290,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G12X4_B12X4R12X4_2PLANE_420_UNORM_3PACK16** = ``207``
 
-12-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, plus 6 unused bits after each channel. Packed in 3×16 bits and stored across 2 separate planes (green + blue/red). Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal and vertical resolution (i.e. 2×2 adjacent pixels will share the same value for the blue/red channel).
+Datos de canal verde/azul/rojo en punto flotante sin signo de 12 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal. Empaquetado en 3×16 bits y almacenado en 2 planos separados (verde + azul/rojo). Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal y vertical reducida a la mitad (es decir, 2×2 píxeles adyacentes compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G12X4_B12X4_R12X4_3PLANE_422_UNORM_3PACK16:
 
@@ -2298,7 +2298,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G12X4_B12X4_R12X4_3PLANE_422_UNORM_3PACK16** = ``208``
 
-12-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, plus 6 unused bits after each channel. Packed in 3×16 bits and stored across 3 separate planes (green + blue + red). Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal resolution (i.e. 2 horizontally adjacent pixels will share the same value for the blue/red channel).
+Datos de canal verde/azul/rojo en punto flotante sin signo de 12 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal. Empaquetado en 3×16 bits y almacenado en 3 planos separados (verde + azul + rojo). Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal reducida a la mitad (es decir, 2 píxeles adyacentes horizontalmente compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G12X4_B12X4R12X4_2PLANE_422_UNORM_3PACK16:
 
@@ -2306,7 +2306,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G12X4_B12X4R12X4_2PLANE_422_UNORM_3PACK16** = ``209``
 
-12-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, plus 6 unused bits after each channel. Packed in 3×16 bits and stored across 3 separate planes (green + blue/red). Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal resolution (i.e. 2 horizontally adjacent pixels will share the same value for the blue/red channel).
+Datos de canal verde/azul/rojo en punto flotante sin signo de 12 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal. Empaquetado en 3×16 bits y almacenado en 3 planos separados (verde + azul/rojo). Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal reducida a la mitad (es decir, 2 píxeles adyacentes horizontalmente compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G12X4_B12X4_R12X4_3PLANE_444_UNORM_3PACK16:
 
@@ -2314,7 +2314,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G12X4_B12X4_R12X4_3PLANE_444_UNORM_3PACK16** = ``210``
 
-12-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, plus 6 unused bits after each channel. Packed in 3×16 bits and stored across 3 separate planes (green + blue + red). Values are in the ``[0.0, 1.0]`` range.
+Datos de canal verde/azul/rojo en punto flotante sin signo de 12 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal. Empaquetado en 3×16 bits y almacenado en 3 planos separados (verde + azul + rojo). Los valores están en el rango ``[0.0, 1.0]``.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G16B16G16R16_422_UNORM:
 
@@ -2322,7 +2322,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G16B16G16R16_422_UNORM** = ``211``
 
-16-bit-per-channel unsigned floating-point green/blue/red channel data format with normalized value. Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal resolution (i.e. 2 horizontally adjacent pixels will share the same value for the blue/red channel).
+Formato de datos de canal verde/azul/rojo de punto flotante sin signo de 16 bits por canal con valor normalizado. Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal reducida a la mitad (es decir, 2 píxeles adyacentes horizontalmente compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_B16G16R16G16_422_UNORM:
 
@@ -2330,7 +2330,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_B16G16R16G16_422_UNORM** = ``212``
 
-16-bit-per-channel unsigned floating-point blue/green/red channel data format with normalized value. Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal resolution (i.e. 2 horizontally adjacent pixels will share the same value for the blue/red channel).
+Formato de datos de canal azul/verde/rojo de punto flotante sin signo de 16 bits por canal con valor normalizado. Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal reducida a la mitad (es decir, 2 píxeles adyacentes horizontalmente compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G16_B16_R16_3PLANE_420_UNORM:
 
@@ -2338,7 +2338,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G16_B16_R16_3PLANE_420_UNORM** = ``213``
 
-16-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, plus 6 unused bits after each channel. Stored across 2 separate planes (green + blue + red). Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal and vertical resolution (i.e. 2×2 adjacent pixels will share the same value for the blue/red channel).
+Datos de canal verde/azul/rojo en punto flotante sin signo de 16 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal. Almacenado en 2 planos separados (verde + azul + rojo). Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal y vertical reducida a la mitad (es decir, 2×2 píxeles adyacentes compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G16_B16R16_2PLANE_420_UNORM:
 
@@ -2346,7 +2346,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G16_B16R16_2PLANE_420_UNORM** = ``214``
 
-16-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, plus 6 unused bits after each channel. Stored across 2 separate planes (green + blue/red). Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal and vertical resolution (i.e. 2×2 adjacent pixels will share the same value for the blue/red channel).
+Datos de canal verde/azul/rojo en punto flotante sin signo de 16 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal. Almacenado en 2 planos separados (verde + azul/rojo). Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal y vertical reducida a la mitad (es decir, 2×2 píxeles adyacentes compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G16_B16_R16_3PLANE_422_UNORM:
 
@@ -2354,7 +2354,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G16_B16_R16_3PLANE_422_UNORM** = ``215``
 
-16-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, plus 6 unused bits after each channel. Stored across 3 separate planes (green + blue + red). Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal resolution (i.e. 2 horizontally adjacent pixels will share the same value for the blue/red channel).
+Datos de canal verde/azul/rojo en punto flotante sin signo de 16 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal. Almacenado en 3 planos separados (verde + azul + rojo). Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal reducida a la mitad (es decir, 2 píxeles adyacentes horizontalmente compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G16_B16R16_2PLANE_422_UNORM:
 
@@ -2362,7 +2362,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G16_B16R16_2PLANE_422_UNORM** = ``216``
 
-16-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, plus 6 unused bits after each channel. Stored across 3 separate planes (green + blue/red). Values are in the ``[0.0, 1.0]`` range. Blue and red channel data is stored at halved horizontal resolution (i.e. 2 horizontally adjacent pixels will share the same value for the blue/red channel).
+Datos de canal verde/azul/rojo en punto flotante sin signo de 16 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal. Almacenado en 3 planos separados (verde + azul/rojo). Los valores están en el rango ``[0.0, 1.0]``. Los datos de los canales azul y rojo se almacenan con una resolución horizontal reducida a la mitad (es decir, 2 píxeles adyacentes horizontalmente compartirán el mismo valor para el canal azul/rojo).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G16_B16_R16_3PLANE_444_UNORM:
 
@@ -2370,7 +2370,7 @@ VRAM-compressed unsigned floating-point data format with normalized value and no
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_G16_B16_R16_3PLANE_444_UNORM** = ``217``
 
-16-bit-per-channel unsigned floating-point green/blue/red channel data with normalized value, plus 6 unused bits after each channel. Stored across 3 separate planes (green + blue + red). Values are in the ``[0.0, 1.0]`` range.
+Datos de canal verde/azul/rojo en punto flotante sin signo de 16 bits por canal con valor normalizado, más 6 bits no utilizados después de cada canal. Almacenado en 3 planos separados (verde + azul + rojo). Los valores están en el rango ``[0.0, 1.0]``.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_4x4_SFLOAT_BLOCK:
 

@@ -144,7 +144,7 @@ La energía de la iluminación indirecta y los reflejos producidos por el nodo :
 - |void| **set_interior**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_interior**\ (\ )
 
-Si es ``true``, la iluminación :ref:`Environment<class_Environment>` es ignorada por el nodo :ref:`VoxelGI<class_VoxelGI>`. Si es ``false``, la iluminación :ref:`Environment<class_Environment>` es tomada en cuenta por el nodo :ref:`VoxelGI<class_VoxelGI>`. La iluminación :ref:`Environment<class_Environment>` se actualiza en tiempo real, lo que significa que se puede cambiar sin tener que volver a hornear el nodo :ref:`VoxelGI<class_VoxelGI>`.
+Si es ``true``, la iluminación :ref:`Environment<class_Environment>` es ignorada por el nodo :ref:`VoxelGI<class_VoxelGI>`. Si es ``false``, la iluminación :ref:`Environment<class_Environment>` es tomada en cuenta por el nodo :ref:`VoxelGI<class_VoxelGI>`. La iluminación :ref:`Environment<class_Environment>` se actualiza en tiempo real, lo que significa que se puede cambiar sin tener que volver a procesar el nodo :ref:`VoxelGI<class_VoxelGI>`.
 
 .. rst-class:: classref-item-separator
 

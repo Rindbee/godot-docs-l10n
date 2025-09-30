@@ -14,7 +14,7 @@ Calcula un producto escalar de dos vectores dentro del gráfico shader visual.
 Descripción
 ----------------------
 
-Se traduce a ``dot(a, b)`` en el lenguaje de shader.
+Se traduce a ``dot(a, b)`` en el lenguaje de shaders.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

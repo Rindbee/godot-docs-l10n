@@ -1347,7 +1347,7 @@ El array es un array normales.
 
 :ref:`ArrayType<enum_RenderingServer_ArrayType>` **ARRAY_TANGENT** = ``2``
 
-El Array es una array de tangentes.
+El Array es un array de tangentes.
 
 .. _class_RenderingServer_constant_ARRAY_COLOR:
 
@@ -1543,7 +1543,7 @@ Bandera usada para marcar un array de posiciones de vértice.
 
 :ref:`ArrayFormat<enum_RenderingServer_ArrayFormat>` **ARRAY_FORMAT_NORMAL** = ``2``
 
-Bandera usada para marcar una array de normales.
+Bandera usada para marcar un array de normales.
 
 .. _class_RenderingServer_constant_ARRAY_FORMAT_TANGENT:
 
@@ -3587,7 +3587,7 @@ El búfer normal se dibuja en lugar de la escena normal para que puedas ver las 
 
 :ref:`ViewportDebugDraw<enum_RenderingServer_ViewportDebugDraw>` **VIEWPORT_DEBUG_DRAW_VOXEL_GI_ALBEDO** = ``6``
 
-Los objetos se muestran solo con el valor albedo de los :ref:`VoxelGI<class_VoxelGI>`. Requiere al menos un nodo :ref:`VoxelGI<class_VoxelGI>` visible que haya sido horneado para tener un efecto visible.
+Los objetos se muestran solo con el valor albedo de los :ref:`VoxelGI<class_VoxelGI>`. Requiere al menos un nodo :ref:`VoxelGI<class_VoxelGI>` visible que haya sido procesado para tener un efecto visible.
 
 \ **Nota:** Solo se admite cuando se utiliza el método de renderizado Forward+.
 
@@ -3597,7 +3597,7 @@ Los objetos se muestran solo con el valor albedo de los :ref:`VoxelGI<class_Voxe
 
 :ref:`ViewportDebugDraw<enum_RenderingServer_ViewportDebugDraw>` **VIEWPORT_DEBUG_DRAW_VOXEL_GI_LIGHTING** = ``7``
 
-Los objetos se muestran solo con el valor de iluminación de los :ref:`VoxelGI<class_VoxelGI>`. Requiere al menos un nodo :ref:`VoxelGI<class_VoxelGI>` visible que haya sido horneado para tener un efecto visible.
+Los objetos se muestran solo con el valor de iluminación de los :ref:`VoxelGI<class_VoxelGI>`. Requiere al menos un nodo :ref:`VoxelGI<class_VoxelGI>` visible que haya sido procesado para tener un efecto visible.
 
 \ **Nota:** Solo se admite cuando se utiliza el método de renderizado Forward+.
 
@@ -3607,7 +3607,7 @@ Los objetos se muestran solo con el valor de iluminación de los :ref:`VoxelGI<c
 
 :ref:`ViewportDebugDraw<enum_RenderingServer_ViewportDebugDraw>` **VIEWPORT_DEBUG_DRAW_VOXEL_GI_EMISSION** = ``8``
 
-Los objetos se muestran solo con el color de emisión de los :ref:`VoxelGI<class_VoxelGI>`. Requiere al menos un nodo :ref:`VoxelGI<class_VoxelGI>` visible que haya sido horneado para tener un efecto visible.
+Los objetos se muestran solo con el color de emisión de los :ref:`VoxelGI<class_VoxelGI>`. Requiere al menos un nodo :ref:`VoxelGI<class_VoxelGI>` visible que haya sido procesado para tener un efecto visible.
 
 \ **Nota:** Solo se admite cuando se utiliza el método de renderizado Forward+.
 
@@ -3709,7 +3709,7 @@ Dibuja los datos de la sonda SDFGI. Esta es la estructura de datos que se utiliz
 
 :ref:`ViewportDebugDraw<enum_RenderingServer_ViewportDebugDraw>` **VIEWPORT_DEBUG_DRAW_GI_BUFFER** = ``18``
 
-Dibuja el búfer de iluminación global de :ref:`VoxelGI<class_VoxelGI>` o SDFGI. Requiere que :ref:`VoxelGI<class_VoxelGI>` (al menos un nodo VoxelGI horneado visible) o SDFGI (:ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>`) estén habilitados para tener un efecto visible.
+Dibuja el búfer de iluminación global de :ref:`VoxelGI<class_VoxelGI>` o SDFGI. Requiere que :ref:`VoxelGI<class_VoxelGI>` (al menos un nodo VoxelGI procesado visible) o SDFGI (:ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>`) estén habilitados para tener un efecto visible.
 
 \ **Nota:** Solo se admite cuando se utiliza el método de renderizado Forward+.
 
@@ -6125,7 +6125,7 @@ Descripciones de Métodos
 
 :ref:`Array<class_Array>`\[:ref:`Image<class_Image>`\] **bake_render_uv2**\ (\ base\: :ref:`RID<class_RID>`, material_overrides\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\], image_size\: :ref:`Vector2i<class_Vector2i>`\ ) :ref:`🔗<class_RenderingServer_method_bake_render_uv2>`
 
-Realiza un horneado de los datos del material de la :ref:`Mesh<class_Mesh>` pasada en el parámetro ``base`` con ``material_overrides`` opcionales a un conjunto de :ref:`Image<class_Image>`\ s del tamaño de ``image_size``. Devuelve un array de :ref:`Image<class_Image>`\ s que contienen las propiedades del material tal y como se especifica en :ref:`BakeChannels<enum_RenderingServer_BakeChannels>`.
+Realiza un procesado de los datos del material de la :ref:`Mesh<class_Mesh>` pasada en el parámetro ``base`` con ``material_overrides`` opcionales a un conjunto de :ref:`Image<class_Image>`\ s del tamaño de ``image_size``. Devuelve un array de :ref:`Image<class_Image>`\ s que contienen las propiedades del material tal y como se especifica en :ref:`BakeChannels<enum_RenderingServer_BakeChannels>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10076,7 +10076,7 @@ Devuelve los datos personalizados asociados a la instancia especificada.
 
 :ref:`Transform3D<class_Transform3D>` **multimesh_instance_get_transform**\ (\ multimesh\: :ref:`RID<class_RID>`, index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_RenderingServer_method_multimesh_instance_get_transform>`
 
-Returns the :ref:`Transform3D<class_Transform3D>` of the specified instance.
+Devuelve la :ref:`Transform3D<class_Transform3D>` de la instancia especificada.
 
 .. rst-class:: classref-item-separator
 
@@ -10138,7 +10138,7 @@ Establece los datos personalizados para este caso. Los datos personalizados se p
 
 |void| **multimesh_instance_set_transform**\ (\ multimesh\: :ref:`RID<class_RID>`, index\: :ref:`int<class_int>`, transform\: :ref:`Transform3D<class_Transform3D>`\ ) :ref:`🔗<class_RenderingServer_method_multimesh_instance_set_transform>`
 
-Sets the :ref:`Transform3D<class_Transform3D>` for this instance. Equivalent to :ref:`MultiMesh.set_instance_transform()<class_MultiMesh_method_set_instance_transform>`.
+Establece la :ref:`Transform3D<class_Transform3D>` para este caso. Equivalente a :ref:`MultiMesh.set_instance_transform()<class_MultiMesh_method_set_instance_transform>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10653,7 +10653,7 @@ Sets the number of draw passes to use. Equivalent to :ref:`GPUParticles3D.draw_p
 
 |void| **particles_set_emission_transform**\ (\ particles\: :ref:`RID<class_RID>`, transform\: :ref:`Transform3D<class_Transform3D>`\ ) :ref:`🔗<class_RenderingServer_method_particles_set_emission_transform>`
 
-Sets the :ref:`Transform3D<class_Transform3D>` that will be used by the particles when they first emit.
+Establece la :ref:`Transform3D<class_Transform3D>` que será utilizada por las partículas cuando emitan por primera vez.
 
 .. rst-class:: classref-item-separator
 
@@ -11357,7 +11357,7 @@ Sets the path hint for the specified shader. This should generally match the :re
 
 :ref:`Transform3D<class_Transform3D>` **skeleton_bone_get_transform**\ (\ skeleton\: :ref:`RID<class_RID>`, bone\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_RenderingServer_method_skeleton_bone_get_transform>`
 
-Returns the :ref:`Transform3D<class_Transform3D>` set for a specific bone of this skeleton.
+Devuelve el conjunto :ref:`Transform3D<class_Transform3D>` para un hueso específico de este esqueleto.
 
 .. rst-class:: classref-item-separator
 
@@ -11369,7 +11369,7 @@ Returns the :ref:`Transform3D<class_Transform3D>` set for a specific bone of thi
 
 :ref:`Transform2D<class_Transform2D>` **skeleton_bone_get_transform_2d**\ (\ skeleton\: :ref:`RID<class_RID>`, bone\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_RenderingServer_method_skeleton_bone_get_transform_2d>`
 
-Devuelve el conjunto ``Transform`` para un hueso específico de este esqueleto.
+Devuelve el conjunto :ref:`Transform3D<class_Transform3D>` para un hueso específico de este esqueleto.
 
 .. rst-class:: classref-item-separator
 
@@ -12300,7 +12300,7 @@ Establece el padre del viewport al viewport especificado por el ``parent_viewpor
 
 |void| **viewport_set_positional_shadow_atlas_quadrant_subdivision**\ (\ viewport\: :ref:`RID<class_RID>`, quadrant\: :ref:`int<class_int>`, subdivision\: :ref:`int<class_int>`\ ) :ref:`🔗<class_RenderingServer_method_viewport_set_positional_shadow_atlas_quadrant_subdivision>`
 
-Establece el número de subdivisiones a utilizar en el atlas de sombras especificado ``quadrant`` para sombras omnidireccionales y puntuales. Ver también :ref:`Viewport.set_positional_shadow_atlas_quadrant_subdiv()<class_Viewport_method_set_positional_shadow_atlas_quadrant_subdiv>`.
+Establece el número de subdivisiones a utilizar en el atlas de sombras especificado ``quadrant`` para sombras omnidireccionales y puntuales. Véase también :ref:`Viewport.set_positional_shadow_atlas_quadrant_subdiv()<class_Viewport_method_set_positional_shadow_atlas_quadrant_subdiv>`.
 
 .. rst-class:: classref-item-separator
 

@@ -234,7 +234,7 @@ Chemin auquel les matériaux extraits sont sauvegardés. Si vide, le chemin de l
 
 :ref:`bool<class_bool>` **meshes/create_shadow_meshes** = ``true`` :ref:`🔗<class_ResourceImporterScene_property_meshes/create_shadow_meshes>`
 
-If ``true``, enables the generation of shadow meshes on import. This optimizes shadow rendering without reducing quality by welding vertices together when possible. This in turn reduces the memory bandwidth required to render shadows. Shadow mesh generation currently doesn't support using a lower detail level than the source mesh (but shadow rendering will make use of LODs when relevant).
+Si ``true``, active la génération des maillages d'ombre lors de l'import. Cela optimise le rendu des ombres sans réduire la qualité en fusionnant des sommets si possible. Cela réduit à son tour la bande passante mémoire requise pour rendre les ombres. La génération de maillage d'ombre ne supporte actuellement pas un niveau de détail plus bas que le maillage source (mais le rendu des ombres fera usage des LODs lorsque cela est pertinent).
 
 .. rst-class:: classref-item-separator
 
@@ -272,7 +272,7 @@ Si ``true``, la compression du maillage ne sera pas utilisée. Envisagez d'activ
 
 :ref:`bool<class_bool>` **meshes/generate_lods** = ``true`` :ref:`🔗<class_ResourceImporterScene_property_meshes/generate_lods>`
 
-If ``true``, generates lower detail variants of the mesh which will be displayed in the distance to improve rendering performance. Not all meshes benefit from LOD, especially if they are never rendered from far away. Disabling this can reduce output file size and speed up importing. See `Mesh level of detail (LOD) <../tutorials/3d/mesh_lod.html#doc-mesh-lod>`__ for more information.
+Si ``true``, génère des variantes du maillage à plus faibles détails qui seront affichées à distance pour améliorer la performance de rendu. Tous les maillages ne bénéficient pas du niveau de détail (LOD), surtout s'ils ne sont jamais rendus de loin. Désactiver cela peut réduire la taille du fichier de sortie et accélérer l'import. Voir `Niveau de détail d'un maillage (LOD) <../tutorials/3d/mesh_lod.html#doc-mesh-lod>`__ pour plus d'informations.
 
 .. rst-class:: classref-item-separator
 

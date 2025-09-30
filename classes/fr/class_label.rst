@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/Label.xml.
+.. meta::
+	:keywords: text
 
 .. _class_Label:
 
@@ -17,7 +17,7 @@ Un contrôle pour afficher du texte brut.
 Description
 -----------
 
-A control for displaying plain text. It gives you control over the horizontal and vertical alignment and can wrap the text inside the node's bounding rectangle. It doesn't support bold, italics, or other rich text formatting. For that, use :ref:`RichTextLabel<class_RichTextLabel>` instead.
+Un contrôle pour afficher du texte brut. Il vous donne le contrôle de l'alignement horizontal et vertical et peut faire un retour à la ligne automatique du texte à l'intérieur du rectangle délimitant du noeud. Il ne supporte pas le gras, l'italique ou autre formatage de texte avancé. Pour cela, utilisez :ref:`RichTextLabel<class_RichTextLabel>` à la place.
 
 .. rst-class:: classref-introduction-group
 
@@ -542,7 +542,7 @@ Descriptions des méthodes
 
 :ref:`Rect2<class_Rect2>` **get_character_bounds**\ (\ pos\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Label_method_get_character_bounds>`
 
-Returns the bounding rectangle of the character at position ``pos`` in the label's local coordinate system. If the character is a non-visual character or ``pos`` is outside the valid range, an empty :ref:`Rect2<class_Rect2>` is returned. If the character is a part of a composite grapheme, the bounding rectangle of the whole grapheme is returned.
+Renvoie le rectangle délimitant du caractère en position ``pos`` dans le système de coordonnées local de l'étiquette. Si le caractère est un caractère non-visuel ou ``pos`` est hors de la plage valide, un :ref:`Rect2<class_Rect2>` vide est renvoyé. Si le caractère fait partie d'un graphème composite, le rectangle délimitant de l'ensemble du graphème est renvoyé.
 
 .. rst-class:: classref-item-separator
 
@@ -554,7 +554,7 @@ Returns the bounding rectangle of the character at position ``pos`` in the label
 
 :ref:`int<class_int>` **get_line_count**\ (\ ) |const| :ref:`🔗<class_Label_method_get_line_count>`
 
-Returns the number of lines of text the Label has.
+Renvoie le nombre de lignes de texte qu'a le Label.
 
 .. rst-class:: classref-item-separator
 

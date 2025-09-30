@@ -14,13 +14,13 @@ Nodo per mappe basate su tasselli 2D.
 Descrizione
 ----------------------
 
-Node for 2D tile-based maps. A **TileMapLayer** uses a :ref:`TileSet<class_TileSet>` which contain a list of tiles which are used to create grid-based maps. Unlike the :ref:`TileMap<class_TileMap>` node, which is deprecated, **TileMapLayer** has only one layer of tiles. You can use several **TileMapLayer** to achieve the same result as a :ref:`TileMap<class_TileMap>` node.
+Nodo per mappe basate su tasselli 2D. Un **TileMapLayer** utilizza un :ref:`TileSet<class_TileSet>` che contiene un elenco di tasselli che servono per creare mappe basate su griglia. A differenza del nodo :ref:`TileMap<class_TileMap>`, che è deprecato, **TileMapLayer** ha un solo livello di tasselli. È possibile utilizzare diversi **TileMapLayer** per ottenere lo stesso risultato di un nodo :ref:`TileMap<class_TileMap>`.
 
-For performance reasons, all TileMap updates are batched at the end of a frame. Notably, this means that scene tiles from a :ref:`TileSetScenesCollectionSource<class_TileSetScenesCollectionSource>` are initialized after their parent. This is only queued when inside the scene tree.
+Per motivi di prestazioni, tutti gli aggiornamenti di TileMap sono raggruppati alla fine di un frame. In particolare, ciò significa che i tasselli di scena da un :ref:`TileSetScenesCollectionSource<class_TileSetScenesCollectionSource>` sono inizializzati dopo il loro genitore. Ciò viene messo in coda solo quando ci si trova all'interno dell'albero di scene.
 
-To force an update earlier on, call :ref:`update_internals()<class_TileMapLayer_method_update_internals>`.
+Per forzare un aggiornamento in anticipo, chiamare :ref:`update_internals()<class_TileMapLayer_method_update_internals>`.
 
-\ **Note:** For performance and compatibility reasons, the coordinates serialized by **TileMapLayer** are limited to 16-bit signed integers, i.e. the range for X and Y coordinates is from ``-32768`` to ``32767``. When saving tile data, tiles outside this range are wrapped.
+\ **Nota:** Per motivi di prestazioni e compatibilità, le coordinate serializzate da **TileMapLayer** sono limitate a numeri interi con segno a 16 bit, ovvero l'intervallo per le coordinate X e Y è compreso tra ``-32768`` e ``32767``. Quando si salvano i dati dei tasselli, i tasselli al di fuori di questo intervallo sono avvolti.
 
 .. rst-class:: classref-introduction-group
 
@@ -333,11 +333,11 @@ Abilita o disabilita l'occlusione di luce.
 - |void| **set_physics_quadrant_size**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_physics_quadrant_size**\ (\ )
 
-The **TileMapLayer**'s physics quadrant size. Within a physics quadrant, cells with similar physics properties are grouped together and their collision shapes get merged. :ref:`physics_quadrant_size<class_TileMapLayer_property_physics_quadrant_size>` defines the length of a square's side, in the map's coordinate system, that forms the quadrant. Thus, the default quadrant size groups together ``16 * 16 = 256`` tiles.
+La dimensione del quadrante di fisica del **TileMapLayer**. All'interno di un quadrante di fisica, le celle con proprietà fisiche simili sono raggruppate assieme e le loro forme di collisione sono unite. :ref:`rendering_quadrant_size<class_TileMapLayer_property_rendering_quadrant_size>` definisce la lunghezza del lato di un quadrato, nel sistema di coordinate della mappa, che forma il quadrante. Quindi, la dimensione predefinita del quadrante raggruppa insieme ``16 * 16 = 256`` tasselli.
 
-\ **Note:** As quadrants are created according to the map's coordinate system, the quadrant's "square shape" might not look like square in the **TileMapLayer**'s local coordinate system.
+\ **Nota:** Poiché i quadranti sono creati secondo il sistema di coordinate della mappa, la "forma quadrata" del quadrante potrebbe non apparire quadrata nel sistema di coordinate locale del **TileMapLayer**.
 
-\ **Note:** This impacts the value returned by :ref:`get_coords_for_body_rid()<class_TileMapLayer_method_get_coords_for_body_rid>`.
+\ **Nota:** Ciò influisce sul valore restituito da :ref:`get_coords_for_body_rid()<class_TileMapLayer_method_get_coords_for_body_rid>`.
 
 .. rst-class:: classref-item-separator
 
@@ -354,11 +354,11 @@ The **TileMapLayer**'s physics quadrant size. Within a physics quadrant, cells w
 - |void| **set_rendering_quadrant_size**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_rendering_quadrant_size**\ (\ )
 
-The **TileMapLayer**'s rendering quadrant size. A quadrant is a group of tiles to be drawn together on a single canvas item, for optimization purposes. :ref:`rendering_quadrant_size<class_TileMapLayer_property_rendering_quadrant_size>` defines the length of a square's side, in the map's coordinate system, that forms the quadrant. Thus, the default quadrant size groups together ``16 * 16 = 256`` tiles.
+La dimensione del quadrante di rendering del **TileMapLayer**. Un quadrante è un gruppo di tasselli da disegnare insieme su un singolo elemento canvas, per scopi di ottimizzazione. :ref:`rendering_quadrant_size<class_TileMapLayer_property_rendering_quadrant_size>` definisce la lunghezza del lato di un quadrato, nel sistema di coordinate della mappa, che forma il quadrante. Quindi, la dimensione predefinita del quadrante raggruppa insieme ``16 * 16 = 256`` tasselli.
 
-The quadrant size does not apply on a Y-sorted **TileMapLayer**, as tiles are grouped by Y position instead in that case.
+La dimensione del quadrante non si applica a un **TileMapLayer** ordinato per Y, poiché in quel caso i tasselli sono raggruppati in base alla posizione Y.
 
-\ **Note:** As quadrants are created according to the map's coordinate system, the quadrant's "square shape" might not look like square in the **TileMapLayer**'s local coordinate system.
+\ **Nota:** Poiché i quadranti sono creati secondo il sistema di coordinate della mappa, la "forma quadrata" del quadrante potrebbe non apparire quadrata nel sistema di coordinate locale del **TileMapLayer**.
 
 .. rst-class:: classref-item-separator
 

@@ -226,7 +226,7 @@ Sovrascrivi la lista delle lingue supportate da questo font. Se lasciato vuoto, 
 
 :ref:`bool<class_bool>` **modulate_color_glyphs** = ``false`` :ref:`🔗<class_ResourceImporterDynamicFont_property_modulate_color_glyphs>`
 
-If set to ``true``, color modulation is applied when drawing colored glyphs, otherwise it's applied to the monochrome glyphs only.
+Se impostato su ``true``, la modulazione del colore è applicata quando si disegnano glifi colorati, altrimenti è applicata solo ai glifi monocromatici.
 
 .. rst-class:: classref-item-separator
 
@@ -288,7 +288,7 @@ Le funzionalità OpenType da abilitare, disabilitare o impostare un valore per q
 
 :ref:`float<class_float>` **oversampling** = ``0.0`` :ref:`🔗<class_ResourceImporterDynamicFont_property_oversampling>`
 
-If set to a positive value, overrides the oversampling factor of the viewport this font is used in. See :ref:`Viewport.oversampling<class_Viewport_property_oversampling>`. This value doesn't override the ``oversampling`` parameter of ``draw_*`` methods.
+Se impostato su un valore positivo, sostituisce il fattore di sovracampionamento della viewport in cui è utilizzato questo font. Vedi :ref:`Viewport.oversampling<class_Viewport_property_oversampling>`. Questo valore non sostituisce il parametro ``oversampling`` dei metodi ``draw_*``.
 
 .. rst-class:: classref-item-separator
 

@@ -7,16 +7,16 @@ RDShaderSPIRV
 
 **Eredita:** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-SPIR-V intermediate representation as part of an :ref:`RDShaderFile<class_RDShaderFile>` (used by :ref:`RenderingDevice<class_RenderingDevice>`).
+Rappresentazione intermedia in SPIR-V, come parte di un :ref:`RDShaderFile<class_RDShaderFile>` (utilizzato da :ref:`RenderingDevice<class_RenderingDevice>`).
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-**RDShaderSPIRV** represents an :ref:`RDShaderFile<class_RDShaderFile>`'s `SPIR-V <https://www.khronos.org/spir/>`__ code for various shader stages, as well as possible compilation error messages. SPIR-V is a low-level intermediate shader representation. This intermediate representation is not used directly by GPUs for rendering, but it can be compiled into binary shaders that GPUs can understand. Unlike compiled shaders, SPIR-V is portable across GPU models and driver versions.
+**RDShaderSPIRV** rappresenta il codice `SPIR-V <https://www.khronos.org/spir/>`__ di un :ref:`RDShaderFile<class_RDShaderFile>` per le varie fasi di uno shader, nonché possibili messaggi di errore di compilazione. SPIR-V è una rappresentazione intermedia di basso livello per gli shader. Questa rappresentazione intermedia non è utilizzata direttamente dalle GPU per il rendering, ma è possibile compilarla in shader binari che le GPU possono comprendere. A differenza degli shader compilati, SPIR-V è portabile tra modelli di GPU e versioni di driver.
 
-This object is used by :ref:`RenderingDevice<class_RenderingDevice>`.
+Questo oggetto è utilizzato da :ref:`RenderingDevice<class_RenderingDevice>`.
 
 .. rst-class:: classref-reftable-group
 

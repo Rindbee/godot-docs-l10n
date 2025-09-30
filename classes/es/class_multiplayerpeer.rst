@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/MultiplayerPeer.xml.
+.. meta::
+	:keywords: network
 
 .. _class_MultiplayerPeer:
 
@@ -130,7 +130,7 @@ enum **ConnectionStatus**: :ref:`🔗<enum_MultiplayerPeer_ConnectionStatus>`
 
 :ref:`ConnectionStatus<enum_MultiplayerPeer_ConnectionStatus>` **CONNECTION_DISCONNECTED** = ``0``
 
-The MultiplayerPeer is disconnected.
+El MultiplayerPeer está desconectado.
 
 .. _class_MultiplayerPeer_constant_CONNECTION_CONNECTING:
 
@@ -146,7 +146,7 @@ El MultiplayerPeer se está conectando actualmente a un servidor.
 
 :ref:`ConnectionStatus<enum_MultiplayerPeer_ConnectionStatus>` **CONNECTION_CONNECTED** = ``2``
 
-This MultiplayerPeer is connected.
+El MultiplayerPeer está conectado.
 
 .. rst-class:: classref-item-separator
 

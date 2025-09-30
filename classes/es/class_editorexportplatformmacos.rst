@@ -544,7 +544,7 @@ Categoría de aplicaciones para la App Store.
 
 :ref:`String<class_String>` **application/bundle_identifier** :ref:`🔗<class_EditorExportPlatformMacOS_property_application/bundle_identifier>`
 
-Unique application identifier in a reverse-DNS format, can only contain alphanumeric characters (``A-Z``, ``a-z``, and ``0-9``), hyphens (``-``), and periods (``.``).
+Identificador único de la aplicación en formato DNS inverso, solo puede contener caracteres alfanuméricos (``A-Z``, ``a-z`` y ``0-9``), guiones (``-``) y puntos (``.``).
 
 .. rst-class:: classref-item-separator
 
@@ -604,7 +604,7 @@ Application icon file. If left empty, it will fallback to :ref:`ProjectSettings.
 
 :ref:`int<class_int>` **application/icon_interpolation** :ref:`🔗<class_EditorExportPlatformMacOS_property_application/icon_interpolation>`
 
-Interpolation method used to resize application icon.
+Método de interpolación utilizado para redimensionar el icono de la aplicación.
 
 .. rst-class:: classref-item-separator
 
@@ -654,7 +654,7 @@ Application version visible to the user. Can only contain numeric characters (``
 
 :ref:`String<class_String>` **application/signature** :ref:`🔗<class_EditorExportPlatformMacOS_property_application/signature>`
 
-A four-character creator code that is specific to the bundle. Optional.
+Un código de creador de cuatro caracteres que es específico del paquete. Opcional.
 
 .. rst-class:: classref-item-separator
 
@@ -762,7 +762,7 @@ Array of the additional command line arguments passed to the code signing tool.
 
 :ref:`String<class_String>` **codesign/entitlements/additional** :ref:`🔗<class_EditorExportPlatformMacOS_property_codesign/entitlements/additional>`
 
-Additional data added to the root ``<dict>`` section of the `.entitlements <https://developer.apple.com/documentation/bundleresources/entitlements>`__ file. The value should be an XML section with pairs of key-value elements, for example:
+Datos adicionales añadidos a la sección raíz ``<dict>`` del archivo `.entitlements <https://developer.apple.com/documentation/bundleresources/entitlements>`__. El valor debe ser una sección XML con pares de elementos clave-valor, por ejemplo:
 
 .. code:: text
 
@@ -1107,7 +1107,7 @@ Can be overridden with the environment variable ``GODOT_MACOS_CODESIGN_PROVISION
 
 :ref:`String<class_String>` **custom_template/debug** :ref:`🔗<class_EditorExportPlatformMacOS_property_custom_template/debug>`
 
-Path to the custom export template. If left empty, default template is used.
+Ruta a la plantilla de exportación personalizada. Si se deja vacío, se utiliza la plantilla predeterminada.
 
 .. rst-class:: classref-item-separator
 
@@ -1119,7 +1119,7 @@ Path to the custom export template. If left empty, default template is used.
 
 :ref:`String<class_String>` **custom_template/release** :ref:`🔗<class_EditorExportPlatformMacOS_property_custom_template/release>`
 
-Path to the custom export template. If left empty, default template is used.
+Ruta a la plantilla de exportación personalizada. Si se deja vacío, se utiliza la plantilla predeterminada.
 
 .. rst-class:: classref-item-separator
 
@@ -1155,7 +1155,7 @@ If ``true``, the application is rendered at native display resolution, otherwise
 
 :ref:`int<class_int>` **export/distribution_type** :ref:`🔗<class_EditorExportPlatformMacOS_property_export/distribution_type>`
 
-Application distribution target.
+Destino de distribución de aplicaciones.
 
 .. rst-class:: classref-item-separator
 
@@ -3219,7 +3219,7 @@ Indicates whether your app uses data for tracking. See `Privacy manifest files <
 
 :ref:`bool<class_bool>` **shader_baker/enabled** :ref:`🔗<class_EditorExportPlatformMacOS_property_shader_baker/enabled>`
 
-If ``true``, shaders will be compiled and embedded in the application. This option is only supported when using the Forward+ or Mobile renderers.
+Si es ``true``, los shaders se compilarán e integrarán en la aplicación. Esta opción solo es compatible cuando se utilizan los renderizadores Forward+ o Mobile.
 
 .. rst-class:: classref-item-separator
 

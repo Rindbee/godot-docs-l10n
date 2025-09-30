@@ -244,9 +244,9 @@ When running in the editor, returns a generated item preview (a 3D rendering in 
 
 :ref:`Array<class_Array>` **get_item_shapes**\ (\ id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MeshLibrary_method_get_item_shapes>`
 
-Returns an item's collision shapes.
+Devuelve las formas de colisión de un objeto.
 
-The array consists of each :ref:`Shape3D<class_Shape3D>` followed by its :ref:`Transform3D<class_Transform3D>`.
+El array consiste en cada :ref:`Shape3D<class_Shape3D>` seguido de su :ref:`Transform3D<class_Transform3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -380,9 +380,9 @@ Establece una textura para usar como el icono de vista previa del objeto en el e
 
 |void| **set_item_shapes**\ (\ id\: :ref:`int<class_int>`, shapes\: :ref:`Array<class_Array>`\ ) :ref:`🔗<class_MeshLibrary_method_set_item_shapes>`
 
-Sets an item's collision shapes.
+Establece las formas de colisión de un objeto.
 
-The array should consist of :ref:`Shape3D<class_Shape3D>` objects, each followed by a :ref:`Transform3D<class_Transform3D>` that will be applied to it. For shapes that should not have a transform, use :ref:`Transform3D.IDENTITY<class_Transform3D_constant_IDENTITY>`.
+El array debe consistir en objetos :ref:`Shape3D<class_Shape3D>`, cada uno seguido de una :ref:`Transform3D<class_Transform3D>` que se le aplicará. Para las formas que no deben tener una transformación, usa :ref:`Transform3D.IDENTITY<class_Transform3D_constant_IDENTITY>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -14,7 +14,7 @@ Richiama il metodo specificato dopo un ritardo facoltativo.
 Descrizione
 ----------------------
 
-**CallbackTweener** è utilizzato per chiamare un metodo in una sequenza di tweening. Vedi :ref:`Tween.tween_callback()<class_Tween_method_tween_callback>` per maggiori informazioni sull'utilizzo.
+**CallbackTweener** serve per chiamare un metodo in una sequenza di tweening. Vedi :ref:`Tween.tween_callback()<class_Tween_method_tween_callback>` per maggiori informazioni sull'utilizzo.
 
 Il tweener terminerà automaticamente se l'oggetto di destinazione del callback viene liberato.
 

@@ -16,7 +16,7 @@ Il padre di tutti i nodi visivi 3D.
 Descrizione
 ----------------------
 
-**VisualInstance3D** viene utilizzato per connettere una risorsa a una rappresentazione visiva. Tutti i nodi visuali 3D ereditano da **VisualInstance3D**. In generale, non dovresti accedere direttamente alle proprietà di **VisualInstance3D** poiché sono accessibili e gestite dai nodi che ereditano da **VisualInstance3D**. **VisualInstance3D** è la rappresentazione nodo dell'istanza :ref:`RenderingServer<class_RenderingServer>`.
+**VisualInstance3D** serve per connettere una risorsa a una rappresentazione visiva. Tutti i nodi visuali 3D ereditano da **VisualInstance3D**. In generale, non dovresti accedere direttamente alle proprietà di **VisualInstance3D** poiché sono accessibili e gestite dai nodi che ereditano da **VisualInstance3D**. **VisualInstance3D** è la rappresentazione nodo dell'istanza :ref:`RenderingServer<class_RenderingServer>`.
 
 .. rst-class:: classref-reftable-group
 

@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/Label3D.xml.
+.. meta::
+	:keywords: text
 
 .. _class_Label3D:
 
@@ -223,7 +223,7 @@ Ce mode dessine des pixels entièrement opaques lors de la pré-passe de profond
 
 :ref:`AlphaCutMode<enum_Label3D_AlphaCutMode>` **ALPHA_CUT_HASH** = ``3``
 
-This mode draws cuts off all values below a spatially-deterministic threshold, the rest will remain opaque.
+Ce mode coupe toutes les valeurs en dessous d'un seuil dépendant de la position, le reste restera opaque.
 
 .. rst-class:: classref-section-separator
 

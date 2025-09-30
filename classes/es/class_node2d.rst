@@ -25,7 +25,7 @@ Un objeto de juego 2D, con una transformación (posición, rotación y escala). 
 Tutoriales
 --------------------
 
-- :doc:`Custom drawing in 2D <../tutorials/2d/custom_drawing_in_2d>`
+- :doc:`Dibujo personalizado en 2D <../tutorials/2d/custom_drawing_in_2d>`
 
 - `Todos los Demos 2D <https://github.com/godotengine/godot-demo-projects/tree/master/2d>`__
 

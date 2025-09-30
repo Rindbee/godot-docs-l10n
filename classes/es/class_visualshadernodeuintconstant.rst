@@ -14,7 +14,7 @@ Una constante entera escalar sin signo para ser usada dentro del grafo de shader
 Descripción
 ----------------------
 
-Traducido a ``uint`` en el lenguaje de shader.
+Traducido a ``uint`` en el lenguaje de shaders.
 
 .. rst-class:: classref-reftable-group
 

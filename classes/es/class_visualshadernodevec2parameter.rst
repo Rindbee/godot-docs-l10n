@@ -14,7 +14,7 @@ Un parámetro :ref:`Vector2<class_Vector2>` que se utilizará dentro del gráfic
 Descripción
 ----------------------
 
-Traducido a ``uniform vec2`` en el lenguaje de shader.
+Traducido a ``uniform vec2`` en el lenguaje de shaders.
 
 .. rst-class:: classref-reftable-group
 

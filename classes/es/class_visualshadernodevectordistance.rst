@@ -16,7 +16,7 @@ Descripción
 
 Calcula la distancia desde el punto representado por el vector ``p0`` hasta el vector ``p1``.
 
-Traducido a ``distance(p0, p1)`` en el lenguaje de shader.
+Traducido a ``distance(p0, p1)`` en el lenguaje de shaders.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

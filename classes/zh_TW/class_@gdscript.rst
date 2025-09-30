@@ -249,7 +249,7 @@ Inheriting classes must either provide implementations for all abstract methods,
 
     @export_custom(PROPERTY_HINT_NONE, "suffix:m") var suffix: Vector3
 
-\ **注意：**\ 無論 ``usage`` 的值如何， ``常數 PROPERTY_USAGE_SCRIPT_VARIABLE`` 標誌總是會被添加，就像任何顯式聲明的腳本變量一樣。
+\ **注意：**\ 無論 ``usage`` 的值如何， :ref:`@GlobalScope.PROPERTY_USAGE_SCRIPT_VARIABLE<class_@GlobalScope_constant_PROPERTY_USAGE_SCRIPT_VARIABLE>` 標誌總是會被添加，就像任何顯式聲明的腳本變量一樣。
 
 .. rst-class:: classref-item-separator
 

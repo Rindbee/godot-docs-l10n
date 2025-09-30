@@ -153,7 +153,7 @@ enum **TileAnimationMode**: :ref:`🔗<enum_TileSetAtlasSource_TileAnimationMode
 
 :ref:`TileAnimationMode<enum_TileSetAtlasSource_TileAnimationMode>` **TILE_ANIMATION_MODE_MAX** = ``2``
 
-代表 CollisionMode 列舉的大小。
+代表 :ref:`TileAnimationMode<enum_TileSetAtlasSource_TileAnimationMode>` 列舉的大小。
 
 .. rst-class:: classref-section-separator
 

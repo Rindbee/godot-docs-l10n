@@ -14,7 +14,7 @@ Calcula el determinante de una :ref:`Transform3D<class_Transform3D>` dentro del 
 Descripción
 ----------------------
 
-Se traduce a ``determinant(x)`` en el lenguaje de shader.
+Se traduce a ``determinant(x)`` en el lenguaje de shaders.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

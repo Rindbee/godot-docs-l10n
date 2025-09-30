@@ -1270,7 +1270,7 @@ Si es ``true``, el nuevo nodo creado al cambiar el padre de los nodos se colocar
 
 :ref:`bool<class_bool>` **docks/scene_tree/hide_filtered_out_parents** :ref:`🔗<class_EditorSettings_property_docks/scene_tree/hide_filtered_out_parents>`
 
-Si es ``true``, el dock del árbol de la escena sólo mostrará los nodos que coincidan con el filtro, sin mostrar los padres que no lo hagan. Esta configuración también se puede cambiar en el menú superior del dock de la Escena.
+Si es ``true``, el dock del árbol de escenas sólo mostrará los nodos que coincidan con el filtro, sin mostrar los padres que no lo hagan. Esta configuración también se puede cambiar en el menú superior del dock de la Escena.
 
 .. rst-class:: classref-item-separator
 
@@ -1882,7 +1882,7 @@ La inercia a usar al orbitar en el editor 3D. Valores más altos hacen que la c�
 
 :ref:`float<class_float>` **editors/3d/navigation_feel/orbit_sensitivity** :ref:`🔗<class_EditorSettings_property_editors/3d/navigation_feel/orbit_sensitivity>`
 
-La sensibilidad del ratón a usar al orbitar en el editor 3D. Ver también :ref:`editors/3d/freelook/freelook_sensitivity<class_EditorSettings_property_editors/3d/freelook/freelook_sensitivity>`.
+La sensibilidad del ratón a usar al orbitar en el editor 3D. Véase también :ref:`editors/3d/freelook/freelook_sensitivity<class_EditorSettings_property_editors/3d/freelook/freelook_sensitivity>`.
 
 .. rst-class:: classref-item-separator
 

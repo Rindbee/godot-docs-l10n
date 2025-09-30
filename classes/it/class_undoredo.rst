@@ -14,11 +14,11 @@ Fornisce un'interfaccia di alto livello per implementare le operazioni di annull
 Descrizione
 ----------------------
 
-UndoRedo works by registering methods and property changes inside "actions". You can create an action, then provide ways to do and undo this action using function calls and property changes, then commit the action.
+UndoRedo funziona registrando metodi e modifiche di proprietà all'interno di "azioni". È possibile creare un'azione, quindi fornire modi per eseguire e annullare l'azione attraverso le chiamate di funzione e modifiche di proprietà, quindi confermare l'azione.
 
-When an action is committed, all of the ``do_*`` methods will run. If the :ref:`undo()<class_UndoRedo_method_undo>` method is used, the ``undo_*`` methods will run. If the :ref:`redo()<class_UndoRedo_method_redo>` method is used, once again, all of the ``do_*`` methods will run.
+Quando un'azione è eseguita, tutti i metodi ``do_*`` saranno eseguiti. Se è usato il metodo :ref:`undo()<class_UndoRedo_method_undo>`, i metodi ``undo_*`` saranno eseguiti. Se è usato il metodo :ref:`redo()<class_UndoRedo_method_redo>`, ancora una volta, tutti i metodi ``do_*`` saranno eseguiti.
 
-Here's an example on how to add an action:
+Ecco un esempio su come aggiungere un'azione:
 
 
 .. tabs::
@@ -28,10 +28,10 @@ Here's an example on how to add an action:
     var undo_redo = UndoRedo.new()
 
     func do_something():
-        pass # Put your code here.
+        pass # Inserisci qui il codice.
 
     func undo_something():
-        pass # Put here the code that reverts what's done by "do_something()".
+        pass # Inserisci qui il codice che annulla quanto eseguito da "do_something()".
 
     func _on_my_button_pressed():
         var node = get_node("MyNode2D")
@@ -53,12 +53,12 @@ Here's an example on how to add an action:
 
     public void DoSomething()
     {
-        // Put your code here.
+        // Inserisci qui il codice.
     }
 
     public void UndoSomething()
     {
-        // Put here the code that reverts what's done by "DoSomething()".
+        // Inserisci qui il codice che annulla quanto eseguito da "DoSomething()".
     }
 
     private void OnMyButtonPressed()
@@ -74,13 +74,13 @@ Here's an example on how to add an action:
 
 
 
-Before calling any of the ``add_(un)do_*`` methods, you need to first call :ref:`create_action()<class_UndoRedo_method_create_action>`. Afterwards you need to call :ref:`commit_action()<class_UndoRedo_method_commit_action>`.
+Prima di chiamare uno qualsiasi dei metodi ``add_(un)do_*``, bisogna prima chiamare :ref:`create_action()<class_UndoRedo_method_create_action>`. Dopodiché bisogna chiamare :ref:`commit_action()<class_UndoRedo_method_commit_action>`.
 
-If you don't need to register a method, you can leave :ref:`add_do_method()<class_UndoRedo_method_add_do_method>` and :ref:`add_undo_method()<class_UndoRedo_method_add_undo_method>` out; the same goes for properties. You can also register more than one method/property.
+Se non c'è bisogno di registrare un metodo, è possibile omettere :ref:`add_do_method()<class_UndoRedo_method_add_do_method>` e :ref:`add_undo_method()<class_UndoRedo_method_add_undo_method>`; lo stesso vale per le proprietà. È possibile anche registrare più di un metodo/proprietà.
 
-If you are making an :ref:`EditorPlugin<class_EditorPlugin>` and want to integrate into the editor's undo history, use :ref:`EditorUndoRedoManager<class_EditorUndoRedoManager>` instead.
+Se stai creando un :ref:`EditorPlugin<class_EditorPlugin>` e vuoi integrarlo nella cronologia degli annullamenti dell'editor, usa invece :ref:`EditorUndoRedoManager<class_EditorUndoRedoManager>`.
 
-If you are registering multiple properties/method which depend on one another, be aware that by default undo operation are called in the same order they have been added. Therefore instead of grouping do operation with their undo operations it is better to group do on one side and undo on the other as shown below.
+Se stai registrando più proprietà/metodi che dipendono l'uno dall'altro, tieni presente che per impostazione predefinita le operazioni di annullamento sono chiamate nello stesso ordine in cui sono state aggiunte. Pertanto, invece di raggruppare le operazioni di ripetizione con le relative operazioni di annullamento, è meglio raggruppare le ripetizioni da un lato e gli annullamenti dall'altro come mostrato di seguito.
 
 
 .. tabs::
@@ -89,11 +89,11 @@ If you are registering multiple properties/method which depend on one another, b
 
     undo_redo.create_action("Add object")
 
-    # DO
+    # DO (Esegui/Ripeti)
     undo_redo.add_do_method(_create_object)
     undo_redo.add_do_method(_add_object_to_singleton)
 
-    # UNDO
+    # UNDO (Annulla)
     undo_redo.add_undo_method(_remove_object_from_singleton)
     undo_redo.add_undo_method(_destroy_that_object)
 
@@ -103,11 +103,11 @@ If you are registering multiple properties/method which depend on one another, b
 
     _undo_redo.CreateAction("Add object");
 
-    // DO
+    // DO (Esegui/Ripeti)
     _undo_redo.AddDoMethod(new Callable(this, MethodName.CreateObject));
     _undo_redo.AddDoMethod(new Callable(this, MethodName.AddObjectToSingleton));
 
-    // UNDO
+    // UNDO (Annulla)
     _undo_redo.AddUndoMethod(new Callable(this, MethodName.RemoveObjectFromSingleton));
     _undo_redo.AddUndoMethod(new Callable(this, MethodName.DestroyThatObject));
 

@@ -7,7 +7,7 @@ ConvertTransformModifier3D
 
 **Eredita:** :ref:`BoneConstraint3D<class_BoneConstraint3D>` **<** :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` that apply transform to the bone which converted from reference.
+Uno :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` per applicare una trasformazione all'osso che è convertito dal riferimento.
 
 .. rst-class:: classref-introduction-group
 
@@ -117,7 +117,7 @@ enum **TransformMode**: :ref:`🔗<enum_ConvertTransformModifier3D_TransformMode
 
 :ref:`TransformMode<enum_ConvertTransformModifier3D_TransformMode>` **TRANSFORM_MODE_POSITION** = ``0``
 
-Convert with position. Transfer the difference.
+Converte con la posizione. Trasferisce la differenza.
 
 .. _class_ConvertTransformModifier3D_constant_TRANSFORM_MODE_ROTATION:
 
@@ -125,7 +125,7 @@ Convert with position. Transfer the difference.
 
 :ref:`TransformMode<enum_ConvertTransformModifier3D_TransformMode>` **TRANSFORM_MODE_ROTATION** = ``1``
 
-Convert with rotation. The angle is the roll for the specified axis.
+Converti con la rotazione. L'angolo è il rollio dell'asse specificato.
 
 .. _class_ConvertTransformModifier3D_constant_TRANSFORM_MODE_SCALE:
 
@@ -133,7 +133,7 @@ Convert with rotation. The angle is the roll for the specified axis.
 
 :ref:`TransformMode<enum_ConvertTransformModifier3D_TransformMode>` **TRANSFORM_MODE_SCALE** = ``2``
 
-Convert with scale. Transfers the ratio, not the difference.
+Converti con la scala. Trasferisci il rapporto, non la differenza.
 
 .. rst-class:: classref-section-separator
 
@@ -172,7 +172,7 @@ Descrizioni dei metodi
 
 :ref:`Axis<enum_Vector3_Axis>` **get_apply_axis**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ConvertTransformModifier3D_method_get_apply_axis>`
 
-Returns the axis of the remapping destination transform.
+Restituisce l'asse della trasformazione di destinazione di rimappatura.
 
 .. rst-class:: classref-item-separator
 
@@ -184,7 +184,7 @@ Returns the axis of the remapping destination transform.
 
 :ref:`float<class_float>` **get_apply_range_max**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ConvertTransformModifier3D_method_get_apply_range_max>`
 
-Returns the maximum value of the remapping destination range.
+Restituisce il valore massimo dell'intervallo di destinazione di rimappatura.
 
 .. rst-class:: classref-item-separator
 
@@ -196,7 +196,7 @@ Returns the maximum value of the remapping destination range.
 
 :ref:`float<class_float>` **get_apply_range_min**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ConvertTransformModifier3D_method_get_apply_range_min>`
 
-Returns the minimum value of the remapping destination range.
+Restituisce il valore minimo dell'intervallo di destinazione di rimappatura.
 
 .. rst-class:: classref-item-separator
 
@@ -208,7 +208,7 @@ Returns the minimum value of the remapping destination range.
 
 :ref:`TransformMode<enum_ConvertTransformModifier3D_TransformMode>` **get_apply_transform_mode**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ConvertTransformModifier3D_method_get_apply_transform_mode>`
 
-Returns the operation of the remapping destination transform.
+Restituisce l'operazione della trasformazione di destinazione di rimappatura.
 
 .. rst-class:: classref-item-separator
 
@@ -220,7 +220,7 @@ Returns the operation of the remapping destination transform.
 
 :ref:`Axis<enum_Vector3_Axis>` **get_reference_axis**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ConvertTransformModifier3D_method_get_reference_axis>`
 
-Returns the axis of the remapping source transform.
+Restituisce l'asse della trasformazione di origine di rimappatura.
 
 .. rst-class:: classref-item-separator
 
@@ -232,7 +232,7 @@ Returns the axis of the remapping source transform.
 
 :ref:`float<class_float>` **get_reference_range_max**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ConvertTransformModifier3D_method_get_reference_range_max>`
 
-Returns the maximum value of the remapping source range.
+Restituisce il valore massimo dell'intervallo di origine di rimappatura.
 
 .. rst-class:: classref-item-separator
 
@@ -244,7 +244,7 @@ Returns the maximum value of the remapping source range.
 
 :ref:`float<class_float>` **get_reference_range_min**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ConvertTransformModifier3D_method_get_reference_range_min>`
 
-Returns the minimum value of the remapping source range.
+Restituisce il valore minimo dell'intervallo di origine di rimappatura.
 
 .. rst-class:: classref-item-separator
 
@@ -268,7 +268,7 @@ Returns the operation of the remapping source transform.
 
 :ref:`bool<class_bool>` **is_additive**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ConvertTransformModifier3D_method_is_additive>`
 
-Returns ``true`` if the additive option is enabled in the setting at ``index``.
+Restituisce ``true`` se l'opzione "additiva" è abilitata nell'impostazione all'indice ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -280,7 +280,7 @@ Returns ``true`` if the additive option is enabled in the setting at ``index``.
 
 :ref:`bool<class_bool>` **is_relative**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ConvertTransformModifier3D_method_is_relative>`
 
-Returns ``true`` if the relative option is enabled in the setting at ``index``.
+Restituisce ``true`` se l'opzione "relativa" è abilitata nell'impostazione all'indice ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -308,7 +308,7 @@ If sets ``enabled`` to ``false``, the pose of the current apply bone is replaced
 
 |void| **set_apply_axis**\ (\ index\: :ref:`int<class_int>`, axis\: :ref:`Axis<enum_Vector3_Axis>`\ ) :ref:`🔗<class_ConvertTransformModifier3D_method_set_apply_axis>`
 
-Sets the axis of the remapping destination transform.
+Imposta l'asse della trasformazione di destinazione di rimappatura.
 
 .. rst-class:: classref-item-separator
 
@@ -320,7 +320,7 @@ Sets the axis of the remapping destination transform.
 
 |void| **set_apply_range_max**\ (\ index\: :ref:`int<class_int>`, range_max\: :ref:`float<class_float>`\ ) :ref:`🔗<class_ConvertTransformModifier3D_method_set_apply_range_max>`
 
-Sets the maximum value of the remapping destination range.
+Imposta il valore massimo dell'intervallo di destinazione di rimappatura.
 
 .. rst-class:: classref-item-separator
 
@@ -332,7 +332,7 @@ Sets the maximum value of the remapping destination range.
 
 |void| **set_apply_range_min**\ (\ index\: :ref:`int<class_int>`, range_min\: :ref:`float<class_float>`\ ) :ref:`🔗<class_ConvertTransformModifier3D_method_set_apply_range_min>`
 
-Sets the minimum value of the remapping destination range.
+Imposta il valore minimo dell'intervallo di destinazione di rimappatura.
 
 .. rst-class:: classref-item-separator
 
@@ -344,7 +344,7 @@ Sets the minimum value of the remapping destination range.
 
 |void| **set_apply_transform_mode**\ (\ index\: :ref:`int<class_int>`, transform_mode\: :ref:`TransformMode<enum_ConvertTransformModifier3D_TransformMode>`\ ) :ref:`🔗<class_ConvertTransformModifier3D_method_set_apply_transform_mode>`
 
-Sets the operation of the remapping destination transform.
+Imposta l'operazione dell'intervallo di destinazione di rimappatura.
 
 .. rst-class:: classref-item-separator
 
@@ -356,7 +356,7 @@ Sets the operation of the remapping destination transform.
 
 |void| **set_reference_axis**\ (\ index\: :ref:`int<class_int>`, axis\: :ref:`Axis<enum_Vector3_Axis>`\ ) :ref:`🔗<class_ConvertTransformModifier3D_method_set_reference_axis>`
 
-Sets the axis of the remapping source transform.
+Imposta l'asse dell'intervallo di origine di rimappatura.
 
 .. rst-class:: classref-item-separator
 
@@ -368,7 +368,7 @@ Sets the axis of the remapping source transform.
 
 |void| **set_reference_range_max**\ (\ index\: :ref:`int<class_int>`, range_max\: :ref:`float<class_float>`\ ) :ref:`🔗<class_ConvertTransformModifier3D_method_set_reference_range_max>`
 
-Sets the maximum value of the remapping source range.
+Imposta il valore massimo della trasformazione di origine di rimappatura.
 
 .. rst-class:: classref-item-separator
 
@@ -380,7 +380,7 @@ Sets the maximum value of the remapping source range.
 
 |void| **set_reference_range_min**\ (\ index\: :ref:`int<class_int>`, range_min\: :ref:`float<class_float>`\ ) :ref:`🔗<class_ConvertTransformModifier3D_method_set_reference_range_min>`
 
-Sets the minimum value of the remapping source range.
+Imposta il valore minimo della trasformazione di origine di rimappatura.
 
 .. rst-class:: classref-item-separator
 
@@ -392,7 +392,7 @@ Sets the minimum value of the remapping source range.
 
 |void| **set_reference_transform_mode**\ (\ index\: :ref:`int<class_int>`, transform_mode\: :ref:`TransformMode<enum_ConvertTransformModifier3D_TransformMode>`\ ) :ref:`🔗<class_ConvertTransformModifier3D_method_set_reference_transform_mode>`
 
-Sets the operation of the remapping source transform.
+Imposta l'operazione della trasformazione di origine di rimappatura.
 
 .. rst-class:: classref-item-separator
 
@@ -404,11 +404,11 @@ Sets the operation of the remapping source transform.
 
 |void| **set_relative**\ (\ index\: :ref:`int<class_int>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_ConvertTransformModifier3D_method_set_relative>`
 
-Sets relative option in the setting at ``index`` to ``enabled``.
+Imposta l'opzione relativa nell'impostazione all'indice ``index`` su ``enabled``.
 
-If sets ``enabled`` to ``true``, the extracted and applying transform is relative to the rest.
+Se ``enabled`` è impostato su ``true``, la trasformazione estratta e applicata è relativa al riposo.
 
-If sets ``enabled`` to ``false``, the extracted transform is absolute.
+Se ``enabled`` è impostato su ``false``, la trasformazione estratta è assoluta.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

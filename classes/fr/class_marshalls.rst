@@ -7,7 +7,7 @@ Marshalls
 
 **Hérite de :** :ref:`Object<class_Object>`
 
-Data transformation (marshaling) and encoding helpers.
+Transformation de données ("marshalling") et assistants d'encodage.
 
 .. rst-class:: classref-introduction-group
 
@@ -53,7 +53,7 @@ Descriptions des méthodes
 
 :ref:`PackedByteArray<class_PackedByteArray>` **base64_to_raw**\ (\ base64_str\: :ref:`String<class_String>`\ ) :ref:`🔗<class_Marshalls_method_base64_to_raw>`
 
-Returns a decoded :ref:`PackedByteArray<class_PackedByteArray>` corresponding to the Base64-encoded string ``base64_str``.
+Renvoie un :ref:`PackedByteArray<class_PackedByteArray>` décodé correspondant à la chaîne de caractères ``base64_str`` encodée en Base64.
 
 .. rst-class:: classref-item-separator
 
@@ -65,7 +65,7 @@ Returns a decoded :ref:`PackedByteArray<class_PackedByteArray>` corresponding to
 
 :ref:`String<class_String>` **base64_to_utf8**\ (\ base64_str\: :ref:`String<class_String>`\ ) :ref:`🔗<class_Marshalls_method_base64_to_utf8>`
 
-Returns a decoded string corresponding to the Base64-encoded string ``base64_str``.
+Renvoie une chaîne de caractères décodée qui correspond à la chaîne de caractères encodée en Base64 ``base64_str``.
 
 .. rst-class:: classref-item-separator
 
@@ -77,11 +77,11 @@ Returns a decoded string corresponding to the Base64-encoded string ``base64_str
 
 :ref:`Variant<class_Variant>` **base64_to_variant**\ (\ base64_str\: :ref:`String<class_String>`, allow_objects\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Marshalls_method_base64_to_variant>`
 
-Returns a decoded :ref:`Variant<class_Variant>` corresponding to the Base64-encoded string ``base64_str``. If ``allow_objects`` is ``true``, decoding objects is allowed.
+Renvoie un :ref:`Variant<class_Variant>` décodé correspondant à la chaîne encodée en Base64 ``base64_str``. Si ``allow_objects`` vaut ``true``, le décodage d'objets est autorisé.
 
-Internally, this uses the same decoding mechanism as the :ref:`@GlobalScope.bytes_to_var()<class_@GlobalScope_method_bytes_to_var>` method.
+En interne, cela utilise le même mécanisme de décodage que la méthode :ref:`@GlobalScope.bytes_to_var()<class_@GlobalScope_method_bytes_to_var>`.
 
-\ **Warning:** Deserialized objects can contain code which gets executed. Do not use this option if the serialized object comes from untrusted sources to avoid potential security threats such as remote code execution.
+\ **Attention :** Les objets désérialisés peuvent contenir du code qui va être exécuté. N'utilisez pas cette option si l'objet sérialisé provient de sources non approuvées pour éviter les menaces potentielles de sécurité telles que l'exécution de code à distance.
 
 .. rst-class:: classref-item-separator
 
@@ -105,7 +105,7 @@ Renvoie une chaine de caractères encodée en Base64 d'un :ref:`PackedByteArray<
 
 :ref:`String<class_String>` **utf8_to_base64**\ (\ utf8_str\: :ref:`String<class_String>`\ ) :ref:`🔗<class_Marshalls_method_utf8_to_base64>`
 
-Returns a Base64-encoded string of the UTF-8 string ``utf8_str``.
+Renvoie une chaîne de caractères encodée en Base64 de la chaîne UTF-8 ``utf8_str``.
 
 .. rst-class:: classref-item-separator
 
@@ -117,9 +117,9 @@ Returns a Base64-encoded string of the UTF-8 string ``utf8_str``.
 
 :ref:`String<class_String>` **variant_to_base64**\ (\ variant\: :ref:`Variant<class_Variant>`, full_objects\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Marshalls_method_variant_to_base64>`
 
-Returns a Base64-encoded string of the :ref:`Variant<class_Variant>` ``variant``. If ``full_objects`` is ``true``, encoding objects is allowed (and can potentially include code).
+Renvoie une chaîne de caractères encodée en Base64 du :ref:`Variant<class_Variant>` ``variant``. Si ``full_objects`` vaut ``true``, l'encodage d'objets est autorisé (et ils peuvent alors éventuellement inclure du code).
 
-Internally, this uses the same encoding mechanism as the :ref:`@GlobalScope.var_to_bytes()<class_@GlobalScope_method_var_to_bytes>` method.
+En interne, cela utilise le même mécanisme d'encodage que la méthode :ref:`@GlobalScope.var_to_bytes()<class_@GlobalScope_method_var_to_bytes>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

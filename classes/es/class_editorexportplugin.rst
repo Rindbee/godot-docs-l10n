@@ -23,7 +23,7 @@ To use **EditorExportPlugin**, register it using the :ref:`EditorPlugin.add_expo
 Tutoriales
 --------------------
 
-- :doc:`Export Android plugins <../tutorials/platform/android/android_plugin>`
+- :doc:`Exportar plugins de Android <../tutorials/platform/android/android_plugin>`
 
 .. rst-class:: classref-reftable-group
 

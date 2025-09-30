@@ -792,7 +792,7 @@ Imposta la distanza massima da altri agenti che questo agente prende in consider
 
 |void| **agent_set_paused**\ (\ agent\: :ref:`RID<class_RID>`, paused\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_NavigationServer2D_method_agent_set_paused>`
 
-If ``paused`` is ``true`` the specified ``agent`` will not be processed. For example, it will not calculate avoidance velocities or receive avoidance callbacks.
+Se ``paused`` è ``true``, l'agente ``agent`` non sarà elaborato. Ad esempio, non calcolerà le velocità di evasione o riceverà i callback di evasione.
 
 .. rst-class:: classref-item-separator
 
@@ -936,7 +936,7 @@ Restituisce tutti i :ref:`RID<class_RID>` delle mappe di navigazione create sul 
 
 :ref:`int<class_int>` **get_process_info**\ (\ process_info\: :ref:`ProcessInfo<enum_NavigationServer2D_ProcessInfo>`\ ) |const| :ref:`🔗<class_NavigationServer2D_method_get_process_info>`
 
-Returns information about the current state of the NavigationServer.
+Restituisce informazioni sullo stato attuale del NavigationServer.
 
 .. rst-class:: classref-item-separator
 
@@ -1008,9 +1008,9 @@ Restituisce il costo di entrata di questo collegamento ``link``.
 
 :ref:`int<class_int>` **link_get_iteration_id**\ (\ link\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_NavigationServer2D_method_link_get_iteration_id>`
 
-Returns the current iteration ID of the navigation link. Every time the navigation link changes and synchronizes, the iteration ID increases. An iteration ID of ``0`` means the navigation link has never synchronized.
+Restituisce l'ID d'iterazione attuale del collegamento di navigazione. Ogni volta che il collegamento di navigazione cambia e si sincronizza, l'ID d'iterazione aumenta. Un ID d'iterazione pari a ``0`` significa che il collegamento di navigazione non si è mai sincronizzato.
 
-\ **Note:** The iteration ID will wrap around to ``1`` after reaching its range limit.
+\ **Nota:** L'ID d'iterazione ritornerà a ``1`` dopo aver raggiunto il suo limite di intervallo.
 
 .. rst-class:: classref-item-separator
 
@@ -1660,7 +1660,7 @@ Imposta il :ref:`RID<class_RID>` della mappa di navigazione per l'ostacolo.
 
 |void| **obstacle_set_paused**\ (\ obstacle\: :ref:`RID<class_RID>`, paused\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_NavigationServer2D_method_obstacle_set_paused>`
 
-If ``paused`` is ``true`` the specified ``obstacle`` will not be processed. For example, it will no longer affect avoidance velocities.
+Se ``paused`` è ``true`` l'ostacolo ``obstacle`` non sarà elaborato. Ad esempio, non influirà più sulle velocità di evasione.
 
 .. rst-class:: classref-item-separator
 
@@ -1844,9 +1844,9 @@ Restituisce il costo di entrata di questa regione ``region``.
 
 :ref:`int<class_int>` **region_get_iteration_id**\ (\ region\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_NavigationServer2D_method_region_get_iteration_id>`
 
-Returns the current iteration ID of the navigation region. Every time the navigation region changes and synchronizes, the iteration ID increases. An iteration ID of ``0`` means the navigation region has never synchronized.
+Restituisce l'ID d'iterazione attuale della regione di navigazione. Ogni volta che la regione di navigazione cambia e si sincronizza, l'ID d'iterazione aumenta. Un ID d'iterazione pari a ``0`` significa che la regione di navigazione non si è mai sincronizzata.
 
-\ **Note:** The iteration ID will wrap around to ``1`` after reaching its range limit.
+\ **Nota:** L'ID d'iterazione ritornerà a ``1`` dopo aver raggiunto il suo limite di intervallo.
 
 .. rst-class:: classref-item-separator
 

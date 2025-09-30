@@ -205,7 +205,7 @@ enum **ColorModeType**: :ref:`🔗<enum_ColorPicker_ColorModeType>`
 
 :ref:`ColorModeType<enum_ColorPicker_ColorModeType>` **MODE_RGB** = ``0``
 
-Allows editing the color with Red/Green/Blue sliders in sRGB color space.
+Consente di modificare il colore con gli slider del rosso, verde e blu nello spazio colore sRGB.
 
 .. _class_ColorPicker_constant_MODE_HSV:
 
@@ -231,7 +231,7 @@ Consente di modificare il colore con i cursori della tonalità , saturazione e v
 
 :ref:`ColorModeType<enum_ColorPicker_ColorModeType>` **MODE_LINEAR** = ``2``
 
-Allows editing the color with Red/Green/Blue sliders in linear color space.
+Consente di modificare il colore con gli slider del rosso, verde e blu nello spazio colore lineare.
 
 .. _class_ColorPicker_constant_MODE_OKHSL:
 
@@ -301,7 +301,7 @@ La forma dello spazio colore e il pulsante di selezione della forma sono nascost
 
 :ref:`PickerShapeType<enum_ColorPicker_PickerShapeType>` **SHAPE_OK_HS_RECTANGLE** = ``5``
 
-OKHSL Color Model rectangle with constant lightness.
+Modello di colore OKHSL rettangolare con luminosità costante.
 
 .. _class_ColorPicker_constant_SHAPE_OK_HL_RECTANGLE:
 
@@ -309,7 +309,7 @@ OKHSL Color Model rectangle with constant lightness.
 
 :ref:`PickerShapeType<enum_ColorPicker_PickerShapeType>` **SHAPE_OK_HL_RECTANGLE** = ``6``
 
-OKHSL Color Model rectangle with constant saturation.
+Modello di colore OKHSL rettangolare con saturazione costante.
 
 .. rst-class:: classref-section-separator
 
@@ -433,7 +433,7 @@ Se ``true``, mostra uno slider per il canale alfa (opacità).
 - |void| **set_edit_intensity**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_editing_intensity**\ (\ )
 
-If ``true``, shows an intensity slider. The intensity is applied as follows: multiply the color by ``2 ** intensity`` in linear RGB space, and then convert it back to sRGB.
+Se ``true``, mostra un cursore di intensità. L'intensità è applicata come segue: moltiplica il colore per ``2 ** intensità`` nello spazio RGB lineare, quindi lo converte nuovamente in sRGB.
 
 .. rst-class:: classref-item-separator
 
@@ -616,7 +616,7 @@ Descrizioni delle proprietà del tema
 
 :ref:`Color<class_Color>` **focused_not_editing_cursor_color** = ``Color(1, 1, 1, 0.275)`` :ref:`🔗<class_ColorPicker_theme_color_focused_not_editing_cursor_color>`
 
-Color of rectangle or circle drawn when a picker shape part is focused but not editable via keyboard or joypad. Displayed *over* the picker shape, so a partially transparent color should be used to ensure the picker shape remains visible.
+Colore del rettangolo o del cerchio disegnato quando una parte della forma del selettore è evidenziata ma non modificabile tramite tastiera o joypad. È visualizzato *sopra* la forma del selettore, quindi è consigliabile utilizzare un colore parzialmente trasparente per garantire che la forma del selettore rimanga visibile.
 
 .. rst-class:: classref-item-separator
 
@@ -736,7 +736,7 @@ Texture personalizzata per lo slider di selezione della tonalità sulla destra.
 
 :ref:`Texture2D<class_Texture2D>` **color_script** :ref:`🔗<class_ColorPicker_theme_icon_color_script>`
 
-The icon for the button that switches color text to hexadecimal.
+L'icona per il pulsante che cambia il colore da testo a esadecimale.
 
 .. rst-class:: classref-item-separator
 
@@ -892,7 +892,7 @@ L'icona per le forme rettangolari della ruota di selezione.
 
 :ref:`StyleBox<class_StyleBox>` **picker_focus_circle** :ref:`🔗<class_ColorPicker_theme_style_picker_focus_circle>`
 
-The :ref:`StyleBox<class_StyleBox>` used when the circle-shaped part of the picker is focused. Displayed *over* the picker shape, so a partially transparent :ref:`StyleBox<class_StyleBox>` should be used to ensure the picker shape remains visible. A :ref:`StyleBox<class_StyleBox>` that represents an outline or an underline works well for this purpose. To disable the focus visual effect, assign a :ref:`StyleBoxEmpty<class_StyleBoxEmpty>` resource. Note that disabling the focus visual effect will harm keyboard/controller navigation usability, so this is not recommended for accessibility reasons.
+Lo :ref:`StyleBox<class_StyleBox>` utilizzato quando la parte circolare del selettore è evidenziata. È visualizzato *sopra* la forma del selettore, quindi è necessario utilizzare uno :ref:`StyleBox<class_StyleBox>` parzialmente trasparente per garantire che la forma del selettore rimanga visibile. Uno :ref:`StyleBox<class_StyleBox>` che rappresenta un contorno o una sottolineatura funziona bene per questo scopo. Per disabilitare l'effetto visivo del focus, assegna una risorsa :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`. Tieni presente che disattivare l'effetto visivo di focus ridurrà l'usabilità della navigazione tramite tastiera o controller, perciò non è consigliato per motivi di accessibilità.
 
 .. rst-class:: classref-item-separator
 
@@ -904,7 +904,7 @@ The :ref:`StyleBox<class_StyleBox>` used when the circle-shaped part of the pick
 
 :ref:`StyleBox<class_StyleBox>` **picker_focus_rectangle** :ref:`🔗<class_ColorPicker_theme_style_picker_focus_rectangle>`
 
-The :ref:`StyleBox<class_StyleBox>` used when the rectangle-shaped part of the picker is focused. Displayed *over* the picker shape, so a partially transparent :ref:`StyleBox<class_StyleBox>` should be used to ensure the picker shape remains visible. A :ref:`StyleBox<class_StyleBox>` that represents an outline or an underline works well for this purpose. To disable the focus visual effect, assign a :ref:`StyleBoxEmpty<class_StyleBoxEmpty>` resource. Note that disabling the focus visual effect will harm keyboard/controller navigation usability, so this is not recommended for accessibility reasons.
+Lo :ref:`StyleBox<class_StyleBox>` utilizzato quando la parte rettangolare del selettore è evidenziata. È visualizzato *sopra* la forma del selettore, quindi è necessario utilizzare uno :ref:`StyleBox<class_StyleBox>` parzialmente trasparente per garantire che la forma del selettore rimanga visibile. Uno :ref:`StyleBox<class_StyleBox>` che rappresenta un contorno o una sottolineatura funziona bene per questo scopo. Per disabilitare l'effetto visivo del focus, assegna una risorsa :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`. Tieni presente che disattivare l'effetto visivo di focus ridurrà l'usabilità della navigazione tramite tastiera o controller, perciò non è consigliato per motivi di accessibilità.
 
 .. rst-class:: classref-item-separator
 
@@ -916,7 +916,7 @@ The :ref:`StyleBox<class_StyleBox>` used when the rectangle-shaped part of the p
 
 :ref:`StyleBox<class_StyleBox>` **sample_focus** :ref:`🔗<class_ColorPicker_theme_style_sample_focus>`
 
-The :ref:`StyleBox<class_StyleBox>` used for the old color sample part when it is focused. Displayed *over* the sample, so a partially transparent :ref:`StyleBox<class_StyleBox>` should be used to ensure the picker shape remains visible. A :ref:`StyleBox<class_StyleBox>` that represents an outline or an underline works well for this purpose. To disable the focus visual effect, assign a :ref:`StyleBoxEmpty<class_StyleBoxEmpty>` resource. Note that disabling the focus visual effect will harm keyboard/controller navigation usability, so this is not recommended for accessibility reasons.
+Lo :ref:`StyleBox<class_StyleBox>` utilizzato per la parte del campione del colore precedente quando è evidenziato. È visualizzato *sopra* il campione, quindi è necessario utilizzare uno :ref:`StyleBox<class_StyleBox>` parzialmente trasparente per garantire che la forma del selettore rimanga visibile. Uno :ref:`StyleBox<class_StyleBox>` che rappresenta un contorno o una sottolineatura funziona bene per questo scopo. Per disabilitare l'effetto visivo del focus, assegna una risorsa :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`. Tieni presente che disattivare l'effetto visivo di focus ridurrà l'usabilità della navigazione tramite tastiera o controller, perciò non è consigliato per motivi di accessibilità.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

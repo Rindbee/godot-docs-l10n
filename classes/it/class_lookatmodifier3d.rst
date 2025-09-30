@@ -686,9 +686,9 @@ Restituisce i secondi rimanenti dell'interpolazione basata sul tempo.
 
 :ref:`bool<class_bool>` **is_interpolating**\ (\ ) |const| :ref:`🔗<class_LookAtModifier3D_method_is_interpolating>`
 
-Returns ``true`` if time-based interpolation is running. If ``true``, it is equivalent to :ref:`get_interpolation_remaining()<class_LookAtModifier3D_method_get_interpolation_remaining>` returning ``0.0``.
+Restituisce ``true`` se l'interpolazione basata sul tempo è in esecuzione. Se ``true``, è equivalente a :ref:`get_interpolation_remaining()<class_LookAtModifier3D_method_get_interpolation_remaining>` quando restituisce ``0.0``.
 
-This is useful to determine whether a **LookAtModifier3D** can be removed safely.
+Questo metodo è utile per determinare se è possibile rimuovere un **LookAtModifier3D** in modo sicuro.
 
 .. rst-class:: classref-item-separator
 

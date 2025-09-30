@@ -14,7 +14,7 @@ Crea pacchetti che possono essere caricati in un progetto in esecuzione.
 Descrizione
 ----------------------
 
-**PCKPacker** è utilizzato per creare pacchetti che è possibile caricare in un progetto in esecuzione attraverso :ref:`ProjectSettings.load_resource_pack()<class_ProjectSettings_method_load_resource_pack>`.
+**PCKPacker** serve per creare pacchetti che è possibile caricare in un progetto in esecuzione attraverso :ref:`ProjectSettings.load_resource_pack()<class_ProjectSettings_method_load_resource_pack>`.
 
 
 .. tabs::
@@ -72,7 +72,7 @@ Descrizioni dei metodi
 
 :ref:`Error<enum_@GlobalScope_Error>` **add_file**\ (\ target_path\: :ref:`String<class_String>`, source_path\: :ref:`String<class_String>`, encrypt\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_PCKPacker_method_add_file>`
 
-Adds the ``source_path`` file to the current PCK package at the ``target_path`` internal path. The ``res://`` prefix for ``target_path`` is optional and stripped internally. File content is immediately written to the PCK.
+Aggiunge il file nel percorso ``source_path`` al pacchetto PCK attuale nel percorso interno ``target_path``. Il prefisso ``res://`` per ``target_path`` è facoltativo e rimosso internamente. Il contenuto del file viene scritto immediatamente sul PCK.
 
 .. rst-class:: classref-item-separator
 
@@ -96,9 +96,9 @@ Registra una rimozione di file del percorso interno ``target_path`` al PCK. Ques
 
 :ref:`Error<enum_@GlobalScope_Error>` **flush**\ (\ verbose\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_PCKPacker_method_flush>`
 
-Writes the file directory and closes the PCK. If ``verbose`` is ``true``, a list of files added will be printed to the console for easier debugging.
+Scrive la cartella dei file e chiude il PCK. Se ``verbose`` è ``true``, sarà visualizzato un elenco dei file aggiunti sulla console per facilitare il debug.
 
-\ **Note:** **PCKPacker** will automatically flush when it's freed, which happens when it goes out of scope or when it gets assigned with ``null``. In C# the reference must be disposed after use, either with the ``using`` statement or by calling the ``Dispose`` method directly.
+\ **Nota:** :ref:`FileAccess<class_FileAccess>` si chiuderà automaticamente quando viene liberato, il che accade quando esce dall'ambito o quando gli viene assegnato ``null``. In C# il riferimento deve essere eliminato manualmente, il che può essere fatto con l'istruzione ``using`` o chiamando direttamente il metodo ``Dispose``.
 
 .. rst-class:: classref-item-separator
 

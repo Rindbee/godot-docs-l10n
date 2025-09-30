@@ -204,7 +204,7 @@ Posizione del centro di massa del corpo nel sistema di coordinate locale del cor
 - |void| **set_collision_layer**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_collision_layer**\ (\ )
 
-The body's collision layer.
+Lo strato di collisione del corpo.
 
 .. rst-class:: classref-item-separator
 
@@ -221,7 +221,7 @@ The body's collision layer.
 - |void| **set_collision_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_collision_mask**\ (\ )
 
-The body's collision mask.
+La maschera di collisione del corpo.
 
 .. rst-class:: classref-item-separator
 

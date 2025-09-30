@@ -994,7 +994,7 @@ Devuelve ``true`` si el menú global es un menú especial del sistema.
 
 |void| **popup**\ (\ rid\: :ref:`RID<class_RID>`, position\: :ref:`Vector2i<class_Vector2i>`\ ) :ref:`🔗<class_NativeMenu_method_popup>`
 
-Muestra el menú global en la ``posición`` en coordenadas de pantalla.
+Muestra el menú global en la ``position`` en coordenadas de pantalla.
 
 \ **Nota:** Este método está implementado en macOS y Windows.
 

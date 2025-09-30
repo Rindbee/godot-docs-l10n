@@ -9,7 +9,7 @@ Translation
 
 **Heredado por:** :ref:`OptimizedTranslation<class_OptimizedTranslation>`
 
-Una traducción de idioma que asigna una colección de cadenas a sus traducciones individuales.
+Una traducción de idioma que asigna una colección de strings a sus traducciones individuales.
 
 .. rst-class:: classref-introduction-group
 

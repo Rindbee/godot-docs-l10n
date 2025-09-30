@@ -41,7 +41,7 @@ Stampa:
     lock (0, 0)
     another_key 123
 
-I contenitori nidificati saranno impacchettati ricorsivamente. Durante un iterazione, saranno restituiti come :ref:`PackedDataContainerRef<class_PackedDataContainerRef>`.
+I contenitori innestati saranno impacchettati ricorsivamente. Durante un iterazione, saranno restituiti come :ref:`PackedDataContainerRef<class_PackedDataContainerRef>`.
 
 .. rst-class:: classref-reftable-group
 

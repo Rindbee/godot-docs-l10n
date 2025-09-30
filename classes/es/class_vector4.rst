@@ -16,7 +16,7 @@ Una estructura de 4 elementos que se puede usar para representar coordenadas 4D 
 
 Utiliza coordenadas de punto flotante. De forma predeterminada, estos valores de punto flotante utilizan una precisión de 32 bits, a diferencia de :ref:`float<class_float>`, que siempre tiene 64 bits. Si se necesita precisión doble, compila el motor con la opción ``precision=double``.
 
-Consulta :ref:`Vector4i<class_Vector4i>` para su contraparte entera.
+Véase :ref:`Vector4i<class_Vector4i>` para su contraparte entera.
 
 \ **Nota:** En un contexto booleano, un Vector4 se evaluará como ``false`` si es igual a ``Vector4(0, 0, 0, 0)``. De lo contrario, un Vector4 siempre se evaluará como ``true``.
 

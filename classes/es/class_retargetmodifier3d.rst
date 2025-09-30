@@ -159,11 +159,11 @@ Banderas para controlar el proceso de los elementos de transformación individua
 - |void| **set_use_global_pose**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_using_global_pose**\ (\ )
 
-Si ``false``, en caso de que el esqueleto de destino tenga menos huesos que el esqueleto de origen, la transformación del padre del hueso de origen se ignorará.
+Si es ``false``, en caso de que el esqueleto de destino tenga menos huesos que el esqueleto de origen, la transformación del padre del hueso de origen se ignorará.
 
 En su lugar, es posible reasignar entre modelos con diferentes formas de cuerpo, y la posición, la rotación y la escala se pueden reasignar por separado.
 
-Si ``true``, la reasignación se realiza teniendo en cuenta la pose global.
+Si es ``true``, la reasignación se realiza teniendo en cuenta la pose global.
 
 En caso de que el esqueleto de destino tenga menos huesos que el esqueleto de origen, el transformación del padre del hueso de origen se tiene en cuenta. Sin embargo, la longitud del hueso entre esqueletos debe coincidir exactamente, si no, los huesos se verán obligados a expandirse o encogerse.
 

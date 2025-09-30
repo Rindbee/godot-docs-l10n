@@ -178,7 +178,7 @@ Il flag è impostato se il progetto sottoposto a debug remoto è in esecuzione s
 
 :ref:`DebugFlags<enum_EditorExportPlatform_DebugFlags>` **DEBUG_FLAG_VIEW_COLLISIONS** = ``8``
 
-Flag is set if the "Visible Collision Shapes" remote debug option is enabled. If set, :ref:`gen_export_flags()<class_EditorExportPlatform_method_gen_export_flags>` will append the ``--debug-collisions`` command line argument to the returned list.
+Il flag è impostato se l'opzione di debug remoto "Forme di collisione visibili" è abilitata. Se impostato, :ref:`gen_export_flags()<class_EditorExportPlatform_method_gen_export_flags>` aggiungerà l'argomento della riga di comando ``--debug-collisions`` alla lista restituita.
 
 .. _class_EditorExportPlatform_constant_DEBUG_FLAG_VIEW_NAVIGATION:
 
@@ -186,7 +186,7 @@ Flag is set if the "Visible Collision Shapes" remote debug option is enabled. If
 
 :ref:`DebugFlags<enum_EditorExportPlatform_DebugFlags>` **DEBUG_FLAG_VIEW_NAVIGATION** = ``16``
 
-Flag is set if the "Visible Navigation" remote debug option is enabled. If set, :ref:`gen_export_flags()<class_EditorExportPlatform_method_gen_export_flags>` will append the ``--debug-navigation`` command line argument to the returned list.
+Il flag è impostato se l'opzione di debug remoto "Navigazione visibile" è abilitata. Se impostato, :ref:`gen_export_flags()<class_EditorExportPlatform_method_gen_export_flags>` aggiungerà l'argomento della riga di comando ``--debug-navigation`` alla lista restituita.
 
 .. rst-class:: classref-section-separator
 

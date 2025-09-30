@@ -80,7 +80,7 @@ Descriptions des propriétés
 - |void| **set_handshake_headers**\ (\ value\: :ref:`PackedStringArray<class_PackedStringArray>`\ )
 - :ref:`PackedStringArray<class_PackedStringArray>` **get_handshake_headers**\ (\ )
 
-The extra headers to use during handshake. See :ref:`WebSocketPeer.handshake_headers<class_WebSocketPeer_property_handshake_headers>` for more details.
+Les en-têtes supplémentaires à utiliser pendant la poignée de main. Voir :ref:`WebSocketPeer.handshake_headers<class_WebSocketPeer_property_handshake_headers>` pour plus de détails.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedStringArray<class_PackedStringArray>` for more details.
 

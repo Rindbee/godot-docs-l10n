@@ -300,9 +300,9 @@ Se ``true``, lo stato del pulsante è premuto. Significa che il pulsante è prem
 - |void| **set_disabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_disabled**\ (\ )
 
-If ``true``, the button is in disabled state and can't be clicked or toggled.
+Se ``true``, il pulsante è disabilitato e non può essere cliccato o commutato.
 
-\ **Note:** If the button is disabled while held down, :ref:`button_up<class_BaseButton_signal_button_up>` will be emitted.
+\ **Nota:** Se il pulsante viene disattivato mentre è tenuto premuto, verrà emesso :ref:`button_up<class_BaseButton_signal_button_up>` .
 
 .. rst-class:: classref-item-separator
 

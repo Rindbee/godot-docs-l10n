@@ -275,7 +275,7 @@ Returns the corresponding ``XRHandTrackerEXT`` handle for the given hand index v
 
 :ref:`int<class_int>` **get_instance**\ (\ ) :ref:`🔗<class_OpenXRAPIExtension_method_get_instance>`
 
-傳回OpenXR API 的初始化。
+Returns the `XrInstance <https://registry.khronos.org/OpenXR/specs/1.0/man/html/XrInstance.html>`__ created during the initialization of the OpenXR API.
 
 .. rst-class:: classref-item-separator
 
@@ -313,7 +313,7 @@ Returns the predicted display timing for the next frame.
 
 :ref:`int<class_int>` **get_play_space**\ (\ ) :ref:`🔗<class_OpenXRAPIExtension_method_get_play_space>`
 
-回傳播放空間，這是一個 [url=https://registry.khronos.org/OpenXR/specs/1.0/man/html/XrSpace.html]XrSpace[/ url] 轉換為整數。
+回傳播放空間，這是一個 `XrSpace <https://registry.khronos.org/OpenXR/specs/1.0/man/html/XrSpace.html>`__ 轉換為整數。
 
 .. rst-class:: classref-item-separator
 
@@ -379,7 +379,7 @@ Returns the near boundary value of the camera frustum.
 
 :ref:`int<class_int>` **get_session**\ (\ ) :ref:`🔗<class_OpenXRAPIExtension_method_get_session>`
 
-回傳 OpenXR 會話，它是一個 [url=https://registry.khronos.org/OpenXR/specs/1.0/man/html/XrSession.html]XrSession[/ url] 轉換為整數。
+回傳 OpenXR 會話，它是一個 `XrSession <https://registry.khronos.org/OpenXR/specs/1.0/man/html/XrSession.html>`__ 轉換為整數。
 
 .. rst-class:: classref-item-separator
 

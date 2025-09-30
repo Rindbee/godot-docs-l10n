@@ -105,7 +105,7 @@ Descrizioni dei metodi
 
 :ref:`int<class_int>` **_get_bar_beats**\ (\ ) |virtual| |const| :ref:`🔗<class_AudioStream_private_method__get_bar_beats>`
 
-Sostituisci questo metodo restituire i battiti per battuta di questo flusso.
+Sovrascrivi questo metodo per restituire i battiti per battuta di questo flusso.
 
 .. rst-class:: classref-item-separator
 
@@ -181,9 +181,9 @@ Sovrascrivi questo metodo per personalizzare il nome assegnato a questo flusso a
 
 :ref:`Dictionary<class_Dictionary>` **_get_tags**\ (\ ) |virtual| |const| :ref:`🔗<class_AudioStream_private_method__get_tags>`
 
-Override this method to customize the tags for this audio stream. Should return a :ref:`Dictionary<class_Dictionary>` of strings with the tag as the key and its content as the value.
+Sovrascrivi questo metodo per personalizzare i tag per questo flusso audio. Dovrebbe restituire un :ref:`Dictionary<class_Dictionary>` di stringhe con il tag come chiave e il suo contenuto come valore.
 
-Commonly used tags include ``title``, ``artist``, ``album``, ``tracknumber``, and ``date``.
+I tag comunemente utilizzati includono ``title``, ``artist``, ``album``, ``tracknumber`` e ``date``.
 
 .. rst-class:: classref-item-separator
 
@@ -195,7 +195,7 @@ Commonly used tags include ``title``, ``artist``, ``album``, ``tracknumber``, an
 
 :ref:`bool<class_bool>` **_has_loop**\ (\ ) |virtual| |const| :ref:`🔗<class_AudioStream_private_method__has_loop>`
 
-Sostituisci questo metodo restituire ``true`` se questo flusso si ripete.
+Sovrascrivi questo metodo per restituire ``true`` se questo flusso si ripete.
 
 .. rst-class:: classref-item-separator
 
@@ -259,7 +259,7 @@ Genera un :ref:`AudioSample<class_AudioSample>` basato sul flusso attuale.
 
 :ref:`float<class_float>` **get_length**\ (\ ) |const| :ref:`🔗<class_AudioStream_method_get_length>`
 
-Returns the length of the audio stream in seconds. If this stream is an :ref:`AudioStreamRandomizer<class_AudioStreamRandomizer>`, returns the length of the last played stream. If this stream has an indefinite length (such as for :ref:`AudioStreamGenerator<class_AudioStreamGenerator>` and :ref:`AudioStreamMicrophone<class_AudioStreamMicrophone>`), returns ``0.0``.
+Restituisce la durata del flusso audio in secondi. Se questo flusso è un :ref:`AudioStreamRandomizer<class_AudioStreamRandomizer>`, restituisce la durata dell'ultimo flusso riprodotto. Se questo flusso ha una lunghezza indefinita (ad esempio per :ref:`AudioStreamGenerator<class_AudioStreamGenerator>` e :ref:`AudioStreamMicrophone<class_AudioStreamMicrophone>`), restituisce ``0.0``.
 
 .. rst-class:: classref-item-separator
 

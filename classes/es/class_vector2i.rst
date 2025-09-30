@@ -14,7 +14,7 @@ Descripción
 
 Una estructura de 2 elementos que se puede utilizar para representar coordenadas de cuadrícula 2D o cualquier otro par de enteros.
 
-Utiliza coordenadas enteras y, por lo tanto, es preferible a :ref:`Vector2<class_Vector2>` cuando se requiere una precisión exacta. Tenga en cuenta que los valores están limitados a 32 bits y, a diferencia de :ref:`Vector2<class_Vector2>`, esto no se puede configurar con una opción de compilación del motor. Utilice :ref:`int<class_int>` o :ref:`PackedInt64Array<class_PackedInt64Array>` si se necesitan valores de 64 bits.
+Utiliza coordenadas enteras y, por lo tanto, es preferible a :ref:`Vector2<class_Vector2>` cuando se requiere una precisión exacta. Ten en cuenta que los valores están limitados a 32 bits y, a diferencia de :ref:`Vector2<class_Vector2>`, esto no se puede configurar con una opción de compilación del motor. Utiliza :ref:`int<class_int>` o :ref:`PackedInt64Array<class_PackedInt64Array>` si se necesitan valores de 64 bits.
 
 \ **Nota:** En un contexto booleano, un Vector2i se evaluará como ``false`` si es igual a ``Vector2i(0, 0)``. De lo contrario, un Vector2i siempre se evaluará como ``true``.
 
@@ -321,7 +321,7 @@ Construye un **Vector2i** como una copia del **Vector2i** dado.
 
 :ref:`Vector2i<class_Vector2i>` **Vector2i**\ (\ from\: :ref:`Vector2<class_Vector2>`\ )
 
-Construye un nuevo **Vector2i** a partir del :ref:`Vector2<class_Vector2>` dado truncando las partes fraccionarias de los componentes (redondeando hacia cero). Para un comportamiento diferente, considere pasar el resultado de :ref:`Vector2.ceil()<class_Vector2_method_ceil>`, :ref:`Vector2.floor()<class_Vector2_method_floor>` o :ref:`Vector2.round()<class_Vector2_method_round>` a este constructor en su lugar.
+Construye un nuevo **Vector2i** a partir del :ref:`Vector2<class_Vector2>` dado truncando las partes fraccionarias de los componentes (redondeando hacia cero). Para un comportamiento diferente, considera pasar el resultado de :ref:`Vector2.ceil()<class_Vector2_method_ceil>`, :ref:`Vector2.floor()<class_Vector2_method_floor>` o :ref:`Vector2.round()<class_Vector2_method_round>` a este constructor en su lugar.
 
 .. rst-class:: classref-item-separator
 

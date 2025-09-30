@@ -617,7 +617,7 @@ Rimuove tutte le dimensioni del font dalla voce nella cache.
 
 |void| **_font_clear_system_fallback_cache**\ (\ ) |virtual| :ref:`🔗<class_TextServerExtension_private_method__font_clear_system_fallback_cache>`
 
-Frees all automatically loaded system fonts.
+Libera tutti i font di sistema caricati automaticamente.
 
 .. rst-class:: classref-item-separator
 
@@ -641,7 +641,7 @@ Rimuove tutte le texture dalla voce nella cache di un font.
 
 |void| **_font_draw_glyph**\ (\ font_rid\: :ref:`RID<class_RID>`, canvas\: :ref:`RID<class_RID>`, size\: :ref:`int<class_int>`, pos\: :ref:`Vector2<class_Vector2>`, index\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`, oversampling\: :ref:`float<class_float>`\ ) |virtual| |required| |const| :ref:`🔗<class_TextServerExtension_private_method__font_draw_glyph>`
 
-Draws single glyph into a canvas item at the position, using ``font_rid`` at the size ``size``. If ``oversampling`` is greater than zero, it is used as font oversampling factor, otherwise viewport oversampling settings are used.
+Disegna un singolo glifo in un elemento canvas nella posizione, utilizzando il font ``font_rid`` alla dimensione ``size``. Se ``oversampling`` è maggiore di zero, è utilizzato come fattore di sovracampionamento del font, altrimenti sono utilizzate le impostazioni di sovracampionamento della viewport.
 
 .. rst-class:: classref-item-separator
 
@@ -1073,7 +1073,7 @@ Restituisce un :ref:`Dictionary<class_Dictionary>` con le stringhe di nomi di fo
 
 :ref:`float<class_float>` **_font_get_oversampling**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__font_get_oversampling>`
 
-Returns oversampling factor override. If set to a positive value, overrides the oversampling factor of the viewport this font is used in. See :ref:`Viewport.oversampling<class_Viewport_property_oversampling>`. This value doesn't override the ``oversampling`` parameter of ``draw_*`` methods. Used by dynamic fonts only.
+Restituisce la sostituzione del fattore di sovracampionamento. Se impostato su un valore positivo, sostituisce il fattore di sovracampionamento della viewport in cui è utilizzato questo font. Vedi :ref:`Viewport.oversampling<class_Viewport_property_oversampling>`. Questo valore non sostituisce il parametro ``oversampling`` dei metodi ``draw_*``. Utilizzato solo dai font dinamici.
 
 .. rst-class:: classref-item-separator
 
@@ -1121,7 +1121,7 @@ Restituisce la lista delle sostituzioni di supporto d'alfabeto.
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **_font_get_size_cache_info**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__font_get_size_cache_info>`
 
-Returns font cache information, each entry contains the following fields: ``Vector2i size_px`` - font size in pixels, ``float viewport_oversampling`` - viewport oversampling factor, ``int glyphs`` - number of rendered glyphs, ``int textures`` - number of used textures, ``int textures_size`` - size of texture data in bytes.
+Restituisce informazioni sulla cache del font, ogni voce contiene i seguenti campi: ``Vector2i size_px`` - dimensione del font in pixel, ``float viewport_oversampling`` - fattore di sovracampionamento della viewport, ``int glyphs`` - numero di glifi renderizzati, ``int textures`` - numero di texture utilizzate, ``int textures_size`` - dimensione dei dati della texture in byte.
 
 .. rst-class:: classref-item-separator
 
@@ -1793,7 +1793,7 @@ Aggiunge una sostituzione per :ref:`_font_is_language_supported()<class_TextServ
 
 |void| **_font_set_modulate_color_glyphs**\ (\ font_rid\: :ref:`RID<class_RID>`, modulate\: :ref:`bool<class_bool>`\ ) |virtual| :ref:`🔗<class_TextServerExtension_private_method__font_set_modulate_color_glyphs>`
 
-If set to ``true``, color modulation is applied when drawing colored glyphs, otherwise it's applied to the monochrome glyphs only.
+Se impostato su ``true``, la modulazione del colore è applicata quando si disegnano glifi colorati, altrimenti è applicata solo ai glifi monocromatici.
 
 .. rst-class:: classref-item-separator
 
@@ -1865,7 +1865,7 @@ Imposta la sostituzione dell'insieme di funzionalità OpenType del font.
 
 |void| **_font_set_oversampling**\ (\ font_rid\: :ref:`RID<class_RID>`, oversampling\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_TextServerExtension_private_method__font_set_oversampling>`
 
-If set to a positive value, overrides the oversampling factor of the viewport this font is used in. See :ref:`Viewport.oversampling<class_Viewport_property_oversampling>`. This value doesn't override the ``oversampling`` parameter of ``draw_*`` methods. Used by dynamic fonts only.
+Se impostato su un valore positivo, sostituisce il fattore di sovracampionamento della viewport in cui è utilizzato questo font. Vedi :ref:`Viewport.oversampling<class_Viewport_property_oversampling>`. Questo valore non sostituisce il parametro ``oversampling`` dei metodi ``draw_*``. Utilizzato solo dai font dinamici.
 
 .. rst-class:: classref-item-separator
 
@@ -2323,7 +2323,7 @@ Salva il database facoltativo (ad esempio, iteratori di interruzione ICU e dizio
 
 :ref:`int<class_int>` **_shaped_get_run_count**\ (\ shaped\: :ref:`RID<class_RID>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__shaped_get_run_count>`
 
-Returns the number of uniform text runs in the buffer.
+Restituisce il numero di sequenze di testo uniformi nel buffer.
 
 .. rst-class:: classref-item-separator
 
@@ -2335,7 +2335,7 @@ Returns the number of uniform text runs in the buffer.
 
 :ref:`Direction<enum_TextServer_Direction>` **_shaped_get_run_direction**\ (\ shaped\: :ref:`RID<class_RID>`, index\: :ref:`int<class_int>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__shaped_get_run_direction>`
 
-Returns the direction of the ``index`` text run (in visual order).
+Restituisce la direzione della sequenza di testo all'indice ``index`` (in ordine visuale).
 
 .. rst-class:: classref-item-separator
 
@@ -2347,7 +2347,7 @@ Returns the direction of the ``index`` text run (in visual order).
 
 :ref:`RID<class_RID>` **_shaped_get_run_font_rid**\ (\ shaped\: :ref:`RID<class_RID>`, index\: :ref:`int<class_int>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__shaped_get_run_font_rid>`
 
-Returns the font RID of the ``index`` text run (in visual order).
+Restituisce il RID del font della sequenza di testo all'indice ``index`` (in ordine visuale).
 
 .. rst-class:: classref-item-separator
 
@@ -2359,7 +2359,7 @@ Returns the font RID of the ``index`` text run (in visual order).
 
 :ref:`int<class_int>` **_shaped_get_run_font_size**\ (\ shaped\: :ref:`RID<class_RID>`, index\: :ref:`int<class_int>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__shaped_get_run_font_size>`
 
-Returns the font size of the ``index`` text run (in visual order).
+Restituisce la dimensione del font della sequenza di testo all'indice ``index`` (in ordine visuale).
 
 .. rst-class:: classref-item-separator
 
@@ -2371,7 +2371,7 @@ Returns the font size of the ``index`` text run (in visual order).
 
 :ref:`String<class_String>` **_shaped_get_run_language**\ (\ shaped\: :ref:`RID<class_RID>`, index\: :ref:`int<class_int>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__shaped_get_run_language>`
 
-Returns the language of the ``index`` text run (in visual order).
+Restituisce la lingua della sequenza di testo all'indice ``index`` (in ordine visuale).
 
 .. rst-class:: classref-item-separator
 
@@ -2383,7 +2383,7 @@ Returns the language of the ``index`` text run (in visual order).
 
 :ref:`Variant<class_Variant>` **_shaped_get_run_object**\ (\ shaped\: :ref:`RID<class_RID>`, index\: :ref:`int<class_int>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__shaped_get_run_object>`
 
-Returns the embedded object of the ``index`` text run (in visual order).
+Restituisce l'oggetto incorporato della sequenza di testo all'indice ``index`` (in ordine visuale).
 
 .. rst-class:: classref-item-separator
 
@@ -2395,7 +2395,7 @@ Returns the embedded object of the ``index`` text run (in visual order).
 
 :ref:`Vector2i<class_Vector2i>` **_shaped_get_run_range**\ (\ shaped\: :ref:`RID<class_RID>`, index\: :ref:`int<class_int>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__shaped_get_run_range>`
 
-Returns the source text range of the ``index`` text run (in visual order).
+Restituisce l'intervallo di testo sorgente della sequenza di testo all'indice ``index`` (in ordine visuale).
 
 .. rst-class:: classref-item-separator
 
@@ -2407,7 +2407,7 @@ Returns the source text range of the ``index`` text run (in visual order).
 
 :ref:`String<class_String>` **_shaped_get_run_text**\ (\ shaped\: :ref:`RID<class_RID>`, index\: :ref:`int<class_int>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__shaped_get_run_text>`
 
-Returns the source text of the ``index`` text run (in visual order).
+Restituisce il testo sorgente della sequenza di testo all'indice ``index`` (in ordine visuale).
 
 .. rst-class:: classref-item-separator
 
@@ -2551,7 +2551,7 @@ Restituisce la posizione del carattere composito più vicina a ``pos``.
 
 |void| **_shaped_text_draw**\ (\ shaped\: :ref:`RID<class_RID>`, canvas\: :ref:`RID<class_RID>`, pos\: :ref:`Vector2<class_Vector2>`, clip_l\: :ref:`float<class_float>`, clip_r\: :ref:`float<class_float>`, color\: :ref:`Color<class_Color>`, oversampling\: :ref:`float<class_float>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__shaped_text_draw>`
 
-Disegna un testo modellato su un elemento canvas in una posizione specificata, con il colore ``color``. ``pos`` specifica il punto più a sinistra della linea di base (per un layout orizzontale) o il punto più in alto della linea di base (per un layout verticale). Se ``oversampling`` è maggiore di zero, è utilizzato come fattore di sovracampionamento del font, altrimenti sono utilizzate le impostazioni di sovracampionamento della viewport.
+Disegna un testo sagomato su un elemento canvas in una posizione specificata, con il colore ``color``. ``pos`` specifica il punto più a sinistra della linea di base (per un layout orizzontale) o il punto più in alto della linea di base (per un layout verticale). Se ``oversampling`` è maggiore di zero, è utilizzato come fattore di sovracampionamento del font, altrimenti sono utilizzate le impostazioni di sovracampionamento della viewport.
 
 .. rst-class:: classref-item-separator
 
@@ -2563,7 +2563,7 @@ Disegna un testo modellato su un elemento canvas in una posizione specificata, c
 
 |void| **_shaped_text_draw_outline**\ (\ shaped\: :ref:`RID<class_RID>`, canvas\: :ref:`RID<class_RID>`, pos\: :ref:`Vector2<class_Vector2>`, clip_l\: :ref:`float<class_float>`, clip_r\: :ref:`float<class_float>`, outline_size\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`, oversampling\: :ref:`float<class_float>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__shaped_text_draw_outline>`
 
-Disegna il contorno di un testo modellato su un elemento canvas in una posizione specificata, con il colore ``color``. ``pos`` specifica il punto più a sinistra della linea di base (per un layout orizzontale) o il punto più in alto della linea di base (per un layout verticale). Se ``oversampling`` è maggiore di zero, è utilizzato come fattore di sovracampionamento del font, altrimenti sono utilizzate le impostazioni di sovracampionamento della viewport.
+Disegna il contorno di un testo sagomato su un elemento canvas in una posizione specificata, con il colore ``color``. ``pos`` specifica il punto più a sinistra della linea di base (per un layout orizzontale) o il punto più in alto della linea di base (per un layout verticale). Se ``oversampling`` è maggiore di zero, è utilizzato come fattore di sovracampionamento del font, altrimenti sono utilizzate le impostazioni di sovracampionamento della viewport.
 
 .. rst-class:: classref-item-separator
 
@@ -3007,7 +3007,7 @@ Restituisce l'indice del grafema allo scostamento specificato in pixel sulla lin
 
 :ref:`int<class_int>` **_shaped_text_hit_test_position**\ (\ shaped\: :ref:`RID<class_RID>`, coord\: :ref:`float<class_float>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__shaped_text_hit_test_position>`
 
-Returns caret character offset at the specified pixel offset at the baseline. This function always returns a valid position.
+Restituisce l'offset per il cursore nel pixel specificato sulla linea di base. Questa funzione restituisce sempre una posizione valida.
 
 .. rst-class:: classref-item-separator
 
@@ -3223,7 +3223,7 @@ Restituisce glifi di testo nell'ordine logico.
 
 :ref:`RID<class_RID>` **_shaped_text_substr**\ (\ shaped\: :ref:`RID<class_RID>`, start\: :ref:`int<class_int>`, length\: :ref:`int<class_int>`\ ) |virtual| |required| |const| :ref:`🔗<class_TextServerExtension_private_method__shaped_text_substr>`
 
-Restituisce il buffer di testo per la sottostringa del testo nel buffer di testo modellato ``shaped`` (includendo gli oggetti in riga).
+Restituisce il buffer di testo per la sottostringa del testo nel buffer di testo sagomato ``shaped`` (includendo gli oggetti in riga).
 
 .. rst-class:: classref-item-separator
 
@@ -3235,7 +3235,7 @@ Restituisce il buffer di testo per la sottostringa del testo nel buffer di testo
 
 :ref:`float<class_float>` **_shaped_text_tab_align**\ (\ shaped\: :ref:`RID<class_RID>`, tab_stops\: :ref:`PackedFloat32Array<class_PackedFloat32Array>`\ ) |virtual| :ref:`🔗<class_TextServerExtension_private_method__shaped_text_tab_align>`
 
-Allinea il testo modellato alle tabulazioni specificate.
+Allinea il testo sagomato alle tabulazioni specificate.
 
 .. rst-class:: classref-item-separator
 
@@ -3247,7 +3247,7 @@ Allinea il testo modellato alle tabulazioni specificate.
 
 :ref:`bool<class_bool>` **_shaped_text_update_breaks**\ (\ shaped\: :ref:`RID<class_RID>`\ ) |virtual| :ref:`🔗<class_TextServerExtension_private_method__shaped_text_update_breaks>`
 
-Aggiorna i punti di interruzione nel testo modellato. Questo metodo è chiamato dall'implementazione predefinita delle funzioni di interruzione del testo.
+Aggiorna i punti di interruzione nel testo sagomato. Questo metodo è chiamato dall'implementazione predefinita delle funzioni di interruzione del testo.
 
 .. rst-class:: classref-item-separator
 
@@ -3259,7 +3259,7 @@ Aggiorna i punti di interruzione nel testo modellato. Questo metodo è chiamato 
 
 :ref:`bool<class_bool>` **_shaped_text_update_justification_ops**\ (\ shaped\: :ref:`RID<class_RID>`\ ) |virtual| :ref:`🔗<class_TextServerExtension_private_method__shaped_text_update_justification_ops>`
 
-Aggiorna i punti di giustificazione nel testo modellato. Questo metodo è chiamato dall'implementazione predefinita delle funzioni di giustificazione del testo.
+Aggiorna i punti di giustificazione nel testo sagomato. Questo metodo è chiamato dall'implementazione predefinita delle funzioni di giustificazione del testo.
 
 .. rst-class:: classref-item-separator
 
@@ -3367,7 +3367,7 @@ Converte il tag OpenType in un nome leggibile in chiaro di funzionalità, variaz
 
 |void| **_unreference_oversampling_level**\ (\ oversampling\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_TextServerExtension_private_method__unreference_oversampling_level>`
 
-Decreases the reference count of the specified oversampling level, and frees the font cache for oversampling level when the reference count reaches zero. This method is called by :ref:`Viewport<class_Viewport>`, and should not be used directly.
+Riduce il conteggio dei riferimenti del livello di sovracampionamento specificato e libera la cache dei font per il livello di sovracampionamento quando il conteggio dei riferimenti raggiunge zero. Questo metodo è chiamato da :ref:`Viewport<class_Viewport>` e non si dovrebbe utilizzare direttamente.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

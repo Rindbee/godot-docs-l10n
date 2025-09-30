@@ -567,7 +567,7 @@ Usa un antialiasing approssimativo veloce. FXAA è un metodo di antialiasing spa
 
 :ref:`ScreenSpaceAA<enum_Viewport_ScreenSpaceAA>` **SCREEN_SPACE_AA_SMAA** = ``2``
 
-Use subpixel morphological antialiasing. SMAA may produce clearer results than FXAA, but at a slightly higher performance cost.
+Utilizza l'antialiasing morfologico subpixel. SMAA può produrre risultati più nitidi di FXAA, ma con un costo in termini di prestazioni leggermente superiore.
 
 .. _class_Viewport_constant_SCREEN_SPACE_AA_MAX:
 
@@ -733,9 +733,9 @@ Gli oggetti sono visualizzati senza informazioni sull'illuminazione e le loro te
 
 :ref:`DebugDraw<enum_Viewport_DebugDraw>` **DEBUG_DRAW_VOXEL_GI_ALBEDO** = ``6``
 
-Objects are displayed with only the albedo value from :ref:`VoxelGI<class_VoxelGI>`\ s. Requires at least one visible :ref:`VoxelGI<class_VoxelGI>` node that has been baked to have a visible effect.
+Gli oggetti sono visualizzati solo con il valore di albedo dai :ref:`VoxelGI<class_VoxelGI>`. Richiede almeno un nodo :ref:`VoxelGI<class_VoxelGI>` visibile che è stato elaborato affinché abbia un effetto tangibile.
 
-\ **Note:** Only supported when using the Forward+ rendering method.
+\ **Nota:** Supportato solo quando si utilizza il metodo di rendering Forward+.
 
 .. _class_Viewport_constant_DEBUG_DRAW_VOXEL_GI_LIGHTING:
 
@@ -743,9 +743,9 @@ Objects are displayed with only the albedo value from :ref:`VoxelGI<class_VoxelG
 
 :ref:`DebugDraw<enum_Viewport_DebugDraw>` **DEBUG_DRAW_VOXEL_GI_LIGHTING** = ``7``
 
-Objects are displayed with only the lighting value from :ref:`VoxelGI<class_VoxelGI>`\ s. Requires at least one visible :ref:`VoxelGI<class_VoxelGI>` node that has been baked to have a visible effect.
+Gli oggetti sono visualizzati solo con il valore di illuminazione dai :ref:`VoxelGI<class_VoxelGI>`. Richiede almeno un nodo :ref:`VoxelGI<class_VoxelGI>` visibile che è stato elaborato affinché abbia un effetto tangibile.
 
-\ **Note:** Only supported when using the Forward+ rendering method.
+\ **Nota:** Supportato solo quando si utilizza il metodo di rendering Forward+.
 
 .. _class_Viewport_constant_DEBUG_DRAW_VOXEL_GI_EMISSION:
 
@@ -753,9 +753,9 @@ Objects are displayed with only the lighting value from :ref:`VoxelGI<class_Voxe
 
 :ref:`DebugDraw<enum_Viewport_DebugDraw>` **DEBUG_DRAW_VOXEL_GI_EMISSION** = ``8``
 
-Objects are displayed with only the emission color from :ref:`VoxelGI<class_VoxelGI>`\ s. Requires at least one visible :ref:`VoxelGI<class_VoxelGI>` node that has been baked to have a visible effect.
+Gli oggetti sono visualizzati solo con il colore di emissione dai :ref:`VoxelGI<class_VoxelGI>`. Richiede almeno un nodo :ref:`VoxelGI<class_VoxelGI>` visibile che è stato elaborato affinché abbia un effetto tangibile.
 
-\ **Note:** Only supported when using the Forward+ rendering method.
+\ **Nota:** Supportato solo quando si utilizza il metodo di rendering Forward+.
 
 .. _class_Viewport_constant_DEBUG_DRAW_SHADOW_ATLAS:
 
@@ -855,9 +855,9 @@ Non fa nulla se :ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi
 
 :ref:`DebugDraw<enum_Viewport_DebugDraw>` **DEBUG_DRAW_GI_BUFFER** = ``18``
 
-Draws the buffer used for global illumination from :ref:`VoxelGI<class_VoxelGI>` or SDFGI. Requires :ref:`VoxelGI<class_VoxelGI>` (at least one visible baked VoxelGI node) or SDFGI (:ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>`) to be enabled to have a visible effect.
+Disegna il buffer utilizzato per l'illuminazione globale da :ref:`VoxelGI<class_VoxelGI>` o SDFGI. Richiede che :ref:`VoxelGI<class_VoxelGI>` (almeno un nodo VoxelGI elaborato visibile) o SDFGI (:ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>`) sia abilitato affinché abbia un effetto tangibile.
 
-\ **Note:** Only supported when using the Forward+ rendering method.
+\ **Nota:** Supportato solo quando si utilizza il metodo di rendering Forward+.
 
 .. _class_Viewport_constant_DEBUG_DRAW_DISABLE_LOD:
 
@@ -913,9 +913,9 @@ Disegna il cluster utilizzato dai nodi :ref:`ReflectionProbe<class_ReflectionPro
 
 :ref:`DebugDraw<enum_Viewport_DebugDraw>` **DEBUG_DRAW_OCCLUDERS** = ``24``
 
-Draws the buffer used for occlusion culling.
+Disegna il buffer utilizzato per l'occlusion culling.
 
-\ **Note:** Only supported when using the Forward+ or Mobile rendering methods.
+\ **Nota:** Supportato solo quando si utilizzano i metodi di rendering Forward+ o Mobile.
 
 .. _class_Viewport_constant_DEBUG_DRAW_MOTION_VECTORS:
 
@@ -969,9 +969,9 @@ Il filtro della texture fonde tra i 4 pixel più vicini. Ciò rende la texture l
 
 :ref:`DefaultCanvasItemTextureFilter<enum_Viewport_DefaultCanvasItemTextureFilter>` **DEFAULT_CANVAS_ITEM_TEXTURE_FILTER_LINEAR_WITH_MIPMAPS** = ``2``
 
-The texture filter blends between the nearest 4 pixels and between the nearest 2 mipmaps (or uses the nearest mipmap if :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` is ``true``). This makes the texture look smooth from up close, and smooth from a distance.
+Il filtro della texture fonde tra i 4 pixel più vicini e tra le 2 mipmap più vicine (o usa la mipmap più vicina se :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` è ``true``). Ciò rende la texture liscia da vicino, e liscia da lontano.
 
-Use this for non-pixel art textures that may be viewed at a low scale (e.g. due to :ref:`Camera2D<class_Camera2D>` zoom or sprite scaling), as mipmaps are important to smooth out pixels that are smaller than on-screen pixels.
+Usa questo filtro per texture non pixel art che potrebbero visualizzarsi a bassa scala (ad esempio a causa dello zoom :ref:`Camera2D<class_Camera2D>` o del ridimensionamento degli sprite), poiché le mipmap sono importanti per smussare i pixel più piccoli dei pixel sullo schermo.
 
 .. _class_Viewport_constant_DEFAULT_CANVAS_ITEM_TEXTURE_FILTER_NEAREST_WITH_MIPMAPS:
 
@@ -979,9 +979,9 @@ Use this for non-pixel art textures that may be viewed at a low scale (e.g. due 
 
 :ref:`DefaultCanvasItemTextureFilter<enum_Viewport_DefaultCanvasItemTextureFilter>` **DEFAULT_CANVAS_ITEM_TEXTURE_FILTER_NEAREST_WITH_MIPMAPS** = ``3``
 
-The texture filter reads from the nearest pixel and blends between the nearest 2 mipmaps (or uses the nearest mipmap if :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` is ``true``). This makes the texture look pixelated from up close, and smooth from a distance.
+Il filtro della texture legge dal pixel più vicino e lo fonde tra le 2 mipmap più vicine (o usa la mipmap più vicina se :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` è ``true``). Ciò rende la texture pixelata da vicino, e liscia da lontano.
 
-Use this for non-pixel art textures that may be viewed at a low scale (e.g. due to :ref:`Camera2D<class_Camera2D>` zoom or sprite scaling), as mipmaps are important to smooth out pixels that are smaller than on-screen pixels.
+Usa questo filtro per texture non pixel art che potrebbero visualizzarsi a bassa scala (ad esempio a causa dello zoom :ref:`Camera2D<class_Camera2D>` o del ridimensionamento degli sprite), poiché le mipmap sono importanti per smussare i pixel più piccoli dei pixel sullo schermo.
 
 .. _class_Viewport_constant_DEFAULT_CANVAS_ITEM_TEXTURE_FILTER_MAX:
 
@@ -1517,7 +1517,7 @@ Per controllare questa proprietà sulla viewport radice, cambia l'impostazione d
 - |void| **set_msaa_2d**\ (\ value\: :ref:`MSAA<enum_Viewport_MSAA>`\ )
 - :ref:`MSAA<enum_Viewport_MSAA>` **get_msaa_2d**\ (\ )
 
-La modalità antialiasing multicampione per il rendering 2D/Canvas. Un numero più alto produce bordi più smussati a scapito di prestazioni notevolmente peggiori. Un valore di :ref:`MSAA_2X<class_Viewport_constant_MSAA_2X>` or :ref:`MSAA_4X<class_Viewport_constant_MSAA_4X>` è il migliore, a meno che non si punti a sistemi di fascia molto alta. Questo non ha alcun effetto sull'aliasing indotto da uno shader o sull'aliasing delle texture.
+La modalità antialiasing multicampione per il rendering 2D/Canvas. Un numero più alto produce bordi più smussati a scapito di prestazioni notevolmente peggiori. Un valore di :ref:`MSAA_2X<class_Viewport_constant_MSAA_2X>` o :ref:`MSAA_4X<class_Viewport_constant_MSAA_4X>` è il migliore, a meno che non si punti a sistemi di fascia molto alta. Questo non ha alcun effetto sull'aliasing indotto da uno shader o sull'aliasing delle texture.
 
 Vedi anche :ref:`ProjectSettings.rendering/anti_aliasing/quality/msaa_2d<class_ProjectSettings_property_rendering/anti_aliasing/quality/msaa_2d>` e :ref:`RenderingServer.viewport_set_msaa_2d()<class_RenderingServer_method_viewport_set_msaa_2d>`.
 
@@ -1536,7 +1536,7 @@ Vedi anche :ref:`ProjectSettings.rendering/anti_aliasing/quality/msaa_2d<class_P
 - |void| **set_msaa_3d**\ (\ value\: :ref:`MSAA<enum_Viewport_MSAA>`\ )
 - :ref:`MSAA<enum_Viewport_MSAA>` **get_msaa_3d**\ (\ )
 
-La modalità antialiasing multicampione per il rendering 3D. Un numero più alto produce bordi più smussati a scapito di prestazioni notevolmente peggiori. Un valore di :ref:`MSAA_2X<class_Viewport_constant_MSAA_2X>` or :ref:`MSAA_4X<class_Viewport_constant_MSAA_4X>` è il migliore, a meno che non si punti a sistemi di fascia molto alta. Vedi anche bilinear scaling 3D :ref:`scaling_3d_mode<class_Viewport_property_scaling_3d_mode>` per il sovracampionamento, che fornisce una qualità superiore ma è molto più costoso. Questo non ha alcun effetto sull'aliasing indotto da uno shader o sull'aliasing delle texture.
+La modalità antialiasing multicampione per il rendering 3D. Un numero più alto produce bordi più smussati a scapito di prestazioni notevolmente peggiori. Un valore di :ref:`MSAA_2X<class_Viewport_constant_MSAA_2X>` o :ref:`MSAA_4X<class_Viewport_constant_MSAA_4X>` è il migliore, a meno che non si punti a sistemi di fascia molto alta. Vedi anche bilinear scaling 3D :ref:`scaling_3d_mode<class_Viewport_property_scaling_3d_mode>` per il sovracampionamento, che fornisce una qualità superiore ma è molto più costoso. Questo non ha alcun effetto sull'aliasing indotto da uno shader o sull'aliasing delle texture.
 
 Vedi anche :ref:`ProjectSettings.rendering/anti_aliasing/quality/msaa_3d<class_ProjectSettings_property_rendering/anti_aliasing/quality/msaa_3d>` e :ref:`RenderingServer.viewport_set_msaa_3d()<class_RenderingServer_method_viewport_set_msaa_3d>`.
 
@@ -1555,7 +1555,7 @@ Vedi anche :ref:`ProjectSettings.rendering/anti_aliasing/quality/msaa_3d<class_P
 - |void| **set_use_oversampling**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_using_oversampling**\ (\ )
 
-If ``true`` and one of the following conditions are true: :ref:`SubViewport.size_2d_override_stretch<class_SubViewport_property_size_2d_override_stretch>` and :ref:`SubViewport.size_2d_override<class_SubViewport_property_size_2d_override>` are set, :ref:`Window.content_scale_factor<class_Window_property_content_scale_factor>` is set and scaling is enabled, :ref:`oversampling_override<class_Viewport_property_oversampling_override>` is set, font and :ref:`DPITexture<class_DPITexture>` oversampling are enabled.
+Se ``true`` e una delle seguenti condizioni sono vere: :ref:`SubViewport.size_2d_override_stretch<class_SubViewport_property_size_2d_override_stretch>` e :ref:`SubViewport.size_2d_override<class_SubViewport_property_size_2d_override>` sono impostati, :ref:`Window.content_scale_factor<class_Window_property_content_scale_factor>` è impostato e il ridimensionamento è abilitato, :ref:`oversampling_override<class_Viewport_property_oversampling_override>` è impostato, il sovracampionamento dei font e di :ref:`DPITexture<class_DPITexture>` sono abilitati.
 
 .. rst-class:: classref-item-separator
 
@@ -1572,7 +1572,7 @@ If ``true`` and one of the following conditions are true: :ref:`SubViewport.size
 - |void| **set_oversampling_override**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_oversampling_override**\ (\ )
 
-If greater than zero, this value is used as the font oversampling factor, otherwise oversampling is equal to viewport scale.
+Se maggiore di zero, questo valore è utilizzato come fattore di sovracampionamento dei font, altrimenti il sovracampionamento è uguale alla scala della viewport.
 
 .. rst-class:: classref-item-separator
 
@@ -1940,11 +1940,11 @@ Se ``true``, la viewport dovrebbe renderizzare il suo sfondo in modo trasparente
 - |void| **set_use_debanding**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_using_debanding**\ (\ )
 
-If ``true``, uses a fast post-processing filter to make banding significantly less visible. If :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` is ``false``, 2D rendering is *not* affected by debanding unless the :ref:`Environment.background_mode<class_Environment_property_background_mode>` is :ref:`Environment.BG_CANVAS<class_Environment_constant_BG_CANVAS>`. If :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` is ``true``, debanding will only be applied if this is the root **Viewport** and will affect all 2D and 3D rendering, including canvas items.
+Se ``true``, utilizza un filtro di post-elaborazione veloce per ridurre notevolmente la visibiltà del banding. Se :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` è ``false``, il rendering 2D *non* è influenzato dal debanding a meno che :ref:`Environment.background_mode<class_Environment_property_background_mode>` non sia :ref:`Environment.BG_CANVAS<class_Environment_constant_BG_CANVAS>`. Se :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` è ``true``, il debanding sarà applicato solo se questa è la **Viewport** radice e influenzerà tutto i rendering 2D e 3D, inclusi gli elementi canvas.
 
-In some cases, debanding may introduce a slightly noticeable dithering pattern. It's recommended to enable debanding only when actually needed since the dithering pattern will make lossless-compressed screenshots larger.
+In alcuni casi, il debanding potrebbe introdurre un leggero motivo di dithering. Si consiglia di abilitare il debanding solo quando è effettivamente necessario, poiché il motivo di dithering renderà più grandi gli screenshot compressi senza perdita di dati.
 
-See also :ref:`ProjectSettings.rendering/anti_aliasing/quality/use_debanding<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_debanding>` and :ref:`RenderingServer.viewport_set_use_debanding()<class_RenderingServer_method_viewport_set_use_debanding>`.
+Vedi anche :ref:`ProjectSettings.rendering/anti_aliasing/quality/use_debanding<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_debanding>` e :ref:`RenderingServer.viewport_set_use_debanding()<class_RenderingServer_method_viewport_set_use_debanding>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1961,11 +1961,11 @@ See also :ref:`ProjectSettings.rendering/anti_aliasing/quality/use_debanding<cla
 - |void| **set_use_hdr_2d**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_using_hdr_2d**\ (\ )
 
-If ``true``, 2D rendering will use a high dynamic range (HDR) format framebuffer matching the bit depth of the 3D framebuffer. When using the Forward+ or Compatibility renderer, this will be an ``RGBA16`` framebuffer. When using the Mobile renderer, it will be an ``RGB10_A2`` framebuffer.
+Se ``true``, il rendering 2D utilizzerà un framebuffer in formato HDR (High Dynamic Range, o "alta gamma dinamica") corrispondente alla profondità di bit del framebuffer 3D. Quando si utilizza il renderer Forward+ o Compatibilità, questo sarà un framebuffer ``RGBA16``. Quando si utilizza il renderer Mobile, sarà un framebuffer ``RGB10_A2``.
 
-Additionally, 2D rendering will take place in linear color space and will be converted to sRGB space immediately before blitting to the screen (if the Viewport is attached to the screen).
+Inoltre, il rendering 2D avverrà nello spazio colore lineare e sarà convertito nello spazio sRGB subito prima di essere visualizzato sullo schermo (se la Viewport è collegata allo schermo).
 
-Practically speaking, this means that the end result of the Viewport will not be clamped to the ``0-1`` range and can be used in 3D rendering without color space adjustments. This allows 2D rendering to take advantage of effects requiring high dynamic range (e.g. 2D glow) as well as substantially improves the appearance of effects requiring highly detailed gradients.
+In pratica, ciò significa che il risultato finale della Viewport non sarà limitato nell'intervallo ``0-1`` e si potrà utilizzare nel rendering 3D senza aggiustare lo spazio colore. Ciò consente al rendering 2D di sfruttare gli effetti che richiedono un'elevata gamma dinamica (ad esempio, il bagliore 2D) e migliora sostanzialmente l'aspetto degli effetti che richiedono gradienti molto dettagliati.
 
 .. rst-class:: classref-item-separator
 
@@ -2325,9 +2325,9 @@ Restituisce la trasformazione di allungamento 2D calcolata automaticamente, tene
 
 :ref:`ViewportTexture<class_ViewportTexture>` **get_texture**\ (\ ) |const| :ref:`🔗<class_Viewport_method_get_texture>`
 
-Returns the viewport's texture.
+Restituisce la texture della viewport.
 
-\ **Note:** When trying to store the current texture (e.g. in a file), it might be completely black or outdated if used too early, especially when used in e.g. :ref:`Node._ready()<class_Node_private_method__ready>`. To make sure the texture you get is correct, you can await :ref:`RenderingServer.frame_post_draw<class_RenderingServer_signal_frame_post_draw>` signal.
+\ **Nota:** Quando si tenta di memorizzare la texture attuale (ad esempio in un file), potrebbe essere completamente nera o obsoleta se questo metodo è chiamato troppo presto, specialmente se chiamato ad esempio in :ref:`Node._ready()<class_Node_private_method__ready>`. Per assicurarti che la texture ottenuta sia corretta, puoi attendere il segnale :ref:`RenderingServer.frame_post_draw<class_RenderingServer_signal_frame_post_draw>`.
 
 
 .. tabs::
@@ -2349,7 +2349,7 @@ Returns the viewport's texture.
 
 
 
-\ **Note:** When :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` is ``true`` the returned texture will be an HDR image encoded in linear space.
+\ **Nota:** Quando :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` è ``true`` la texture restituita sarà un'immagine HDR codificata nello spazio lineare.
 
 .. rst-class:: classref-item-separator
 

@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/MultiplayerAPI.xml.
+.. meta::
+	:keywords: network
 
 .. _class_MultiplayerAPI:
 
@@ -88,7 +88,7 @@ Señales
 
 **connected_to_server**\ (\ ) :ref:`🔗<class_MultiplayerAPI_signal_connected_to_server>`
 
-Emitida cuando :ref:`network_peer<class_MultiplayerAPI_property_network_peer>` de esta MultiplayerAPI se conecta con éxito a un servidor. Solo se emite en los clientes.
+Emitida cuando :ref:`multiplayer_peer<class_MultiplayerAPI_property_multiplayer_peer>` de esta MultiplayerAPI se conecta con éxito a un servidor. Solo se emite en los clientes.
 
 .. rst-class:: classref-item-separator
 
@@ -100,7 +100,7 @@ Emitida cuando :ref:`network_peer<class_MultiplayerAPI_property_network_peer>` d
 
 **connection_failed**\ (\ ) :ref:`🔗<class_MultiplayerAPI_signal_connection_failed>`
 
-Emitida cuando el :ref:`network_peer<class_MultiplayerAPI_property_network_peer>` de esta MultiplayerAPI falla al establecer una conexión con un servidor. Solo se emite en los clientes.
+Emitida cuando el :ref:`multiplayer_peer<class_MultiplayerAPI_property_multiplayer_peer>` de esta MultiplayerAPI falla al establecer una conexión con un servidor. Solo se emite en los clientes.
 
 .. rst-class:: classref-item-separator
 
@@ -238,7 +238,7 @@ Devuelve el nombre de la clase de implementación predeterminada de MultiplayerA
 
 :ref:`PackedInt32Array<class_PackedInt32Array>` **get_peers**\ (\ ) :ref:`🔗<class_MultiplayerAPI_method_get_peers>`
 
-Devuelve los IDs de todos los pares conectados del :ref:`multiplayer_peer<class_MultiplayerAPI_property_multiplayer_peer>` de este MultiplayerAPI.
+Devuelve los ID de todos los pares conectados del :ref:`multiplayer_peer<class_MultiplayerAPI_property_multiplayer_peer>` de este MultiplayerAPI.
 
 .. rst-class:: classref-item-separator
 
@@ -302,7 +302,7 @@ Devuelve ``true`` si el :ref:`multiplayer_peer<class_MultiplayerAPI_property_mul
 
 Notifica a la MultiplayerAPI de una nueva ``configuration`` para el ``object`` dado. Este método es usado internamente por :ref:`SceneTree<class_SceneTree>` para configurar la ruta raíz para esta MultiplayerAPI (pasando ``null`` y un :ref:`NodePath<class_NodePath>` válido como ``configuration``). Este método puede ser usado además por implementaciones de MultiplayerAPI para proveer funcionalidades adicionales, consulta la implementación específica (ej. :ref:`SceneMultiplayer<class_SceneMultiplayer>`) para detalles de cómo lo usan.
 
-\ **Nota:** Este método es principalmente relevante cuando se extiende o se anula el comportamiento de la MultiplayerAPI mediante :ref:`MultiplayerAPIExtension<class_MultiplayerAPIExtension>`.
+\ **Nota:** Este método es principalmente relevante cuando se extiende o se sobrescribe el comportamiento de la MultiplayerAPI mediante :ref:`MultiplayerAPIExtension<class_MultiplayerAPIExtension>`.
 
 .. rst-class:: classref-item-separator
 
@@ -316,7 +316,7 @@ Notifica a la MultiplayerAPI de una nueva ``configuration`` para el ``object`` d
 
 Notifica a la MultiplayerAPI que debe eliminar una ``configuration`` para el ``object`` dado. Este método es usado internamente por :ref:`SceneTree<class_SceneTree>` para configurar la ruta raíz para esta MultiplayerAPI (pasando ``null`` y un :ref:`NodePath<class_NodePath>` vacío como ``configuration``). Este método puede ser usado además por implementaciones de MultiplayerAPI para proveer funcionalidades adicionales, consulta la implementación específica (ej. :ref:`SceneMultiplayer<class_SceneMultiplayer>`) para detalles de cómo lo usan.
 
-\ **Nota:** Este método es principalmente relevante cuando se extiende o se anula el comportamiento de la MultiplayerAPI mediante :ref:`MultiplayerAPIExtension<class_MultiplayerAPIExtension>`.
+\ **Nota:** Este método es principalmente relevante cuando se extiende o se sobrescribe el comportamiento de la MultiplayerAPI mediante :ref:`MultiplayerAPIExtension<class_MultiplayerAPIExtension>`.
 
 .. rst-class:: classref-item-separator
 

@@ -347,7 +347,7 @@ L'offset iniziale della separazione tra i due :ref:`Control<class_Control>`, dov
 - |void| **set_touch_dragger_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_touch_dragger_enabled**\ (\ )
 
-If ``true``, a touch-friendly drag handle will be enabled for better usability on smaller screens. Unlike the standard grabber, this drag handle overlaps the **SplitContainer**'s children and does not affect their minimum separation. The standard grabber will no longer be drawn when this option is enabled.
+Se ``true``, sarà abilitato un trascinatore ottimizzato per il tocco per migliorare l'usabilità su schermi più piccoli. A differenza del grabber standard, questo trascinatore si sovrappone agli elementi figlio del **SplitContainer** e non influisce sulla loro separazione minima. Il grabber standard non sarà più visualizzato quando questa opzione è abilitata.
 
 .. rst-class:: classref-item-separator
 
@@ -494,7 +494,7 @@ Spessore della barra di divisione, ovvero lo spazio tra i due elementi figlio de
 
 :ref:`Texture2D<class_Texture2D>` **grabber** :ref:`🔗<class_SplitContainer_theme_icon_grabber>`
 
-The icon used for the grabber drawn in the middle area. This is only used in :ref:`HSplitContainer<class_HSplitContainer>` and :ref:`VSplitContainer<class_VSplitContainer>`. For **SplitContainer**, see :ref:`h_grabber<class_SplitContainer_theme_icon_h_grabber>` and :ref:`v_grabber<class_SplitContainer_theme_icon_v_grabber>` instead.
+L'icona utilizzata per il grabber è disegnata nell'area centrale. È utilizzata solo in :ref:`HSplitContainer<class_HSplitContainer>` e :ref:`VSplitContainer<class_VSplitContainer>`. Per **SplitContainer**, vedi invece :ref:`h_grabber<class_SplitContainer_theme_icon_h_grabber>` e :ref:`v_grabber<class_SplitContainer_theme_icon_v_grabber>`.
 
 .. rst-class:: classref-item-separator
 
@@ -530,7 +530,7 @@ L'icona utilizzata per il trascinatore quando :ref:`touch_dragger_enabled<class_
 
 :ref:`Texture2D<class_Texture2D>` **touch_dragger** :ref:`🔗<class_SplitContainer_theme_icon_touch_dragger>`
 
-The icon used for the drag handle when :ref:`touch_dragger_enabled<class_SplitContainer_property_touch_dragger_enabled>` is ``true``. This is only used in :ref:`HSplitContainer<class_HSplitContainer>` and :ref:`VSplitContainer<class_VSplitContainer>`. For **SplitContainer**, see :ref:`h_touch_dragger<class_SplitContainer_theme_icon_h_touch_dragger>` and :ref:`v_touch_dragger<class_SplitContainer_theme_icon_v_touch_dragger>` instead.
+L'icona utilizzata per il trascinatore quando :ref:`touch_dragger_enabled<class_SplitContainer_property_touch_dragger_enabled>` è ``true``. Questa è utilizzata solo in :ref:`HSplitContainer<class_HSplitContainer>` e :ref:`VSplitContainer<class_VSplitContainer>`. Per **SplitContainer**, vedi invece :ref:`h_touch_dragger<class_SplitContainer_theme_icon_h_touch_dragger>` e :ref:`v_touch_dragger<class_SplitContainer_theme_icon_v_touch_dragger>`.
 
 .. rst-class:: classref-item-separator
 

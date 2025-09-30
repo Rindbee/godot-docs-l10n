@@ -9,14 +9,14 @@ InputEvent
 
 **Hérité de:** :ref:`InputEventAction<class_InputEventAction>`, :ref:`InputEventFromWindow<class_InputEventFromWindow>`, :ref:`InputEventJoypadButton<class_InputEventJoypadButton>`, :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`, :ref:`InputEventMIDI<class_InputEventMIDI>`, :ref:`InputEventShortcut<class_InputEventShortcut>`
 
-Abstract base class for input events.
+Classe de base abstraite pour les événements d'entrée.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Abstract base class of all types of input events. See :ref:`Node._input()<class_Node_private_method__input>`.
+Classe de base abstraite de tous les types d'événements d'entrée. Voir :ref:`Node._input()<class_Node_private_method__input>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -135,9 +135,9 @@ Descriptions des méthodes
 
 :ref:`bool<class_bool>` **accumulate**\ (\ with_event\: :ref:`InputEvent<class_InputEvent>`\ ) :ref:`🔗<class_InputEvent_method_accumulate>`
 
-Returns ``true`` if the given input event and this input event can be added together (only for events of type :ref:`InputEventMouseMotion<class_InputEventMouseMotion>`).
+Renvoie ``true`` si l'événement d'entrée donné et cet événement d'entrée peuvent être ajoutés ensemble (seulement pour les événements de type :ref:`InputEventMouseMotion<class_InputEventMouseMotion>`).
 
-The given input event's position, global position and speed will be copied. The resulting ``relative`` is a sum of both events. Both events' modifiers have to be identical.
+La position, la position globale et la vitesse de l'événement d'entrée donné seront copiées. La propriété ``relative`` résultante est une somme des deux événements. Les modificateurs des deux événements doivent être identiques.
 
 .. rst-class:: classref-item-separator
 
@@ -161,9 +161,9 @@ Renvoie une représentation :ref:`String<class_String>` de l'évènement.
 
 :ref:`float<class_float>` **get_action_strength**\ (\ action\: :ref:`StringName<class_StringName>`, exact_match\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_InputEvent_method_get_action_strength>`
 
-Returns a value between 0.0 and 1.0 depending on the given actions' state. Useful for getting the value of events of type :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`.
+Renvoie une valeur entre 0,0 et 1,0 selon l'état de l'action donnée. Utile pour obtenir la valeur des événements du type :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`.
 
-If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:`InputEventKey<class_InputEventKey>` and :ref:`InputEventMouseButton<class_InputEventMouseButton>` events, and the direction for :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` events.
+Si ``exact_match`` vaut ``false``, ignore les modificateurs d'entrée supplémentaires pour les évènements :ref:`InputEventKey<class_InputEventKey>` et :ref:`InputEventMouseButton<class_InputEventMouseButton>`, et la direction pour les évènements :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`.
 
 .. rst-class:: classref-item-separator
 
@@ -175,9 +175,9 @@ If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:
 
 :ref:`bool<class_bool>` **is_action**\ (\ action\: :ref:`StringName<class_StringName>`, exact_match\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_InputEvent_method_is_action>`
 
-Returns ``true`` if this input event matches a pre-defined action of any type.
+Renvoie ``true`` si cet événement d'entrée correspond à une action prédéfinie de n'importe quel type.
 
-If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:`InputEventKey<class_InputEventKey>` and :ref:`InputEventMouseButton<class_InputEventMouseButton>` events, and the direction for :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` events.
+Si ``exact_match`` vaut ``false``, ignore les modificateurs d'entrée supplémentaires pour les évènements :ref:`InputEventKey<class_InputEventKey>` et :ref:`InputEventMouseButton<class_InputEventMouseButton>`, et la direction pour les évènements :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`.
 
 .. rst-class:: classref-item-separator
 

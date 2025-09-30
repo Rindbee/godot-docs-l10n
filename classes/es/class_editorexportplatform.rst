@@ -112,7 +112,7 @@ enum **ExportMessageType**: :ref:`🔗<enum_EditorExportPlatform_ExportMessageTy
 
 :ref:`ExportMessageType<enum_EditorExportPlatform_ExportMessageType>` **EXPORT_MESSAGE_NONE** = ``0``
 
-Invalid message type used as the default value when no type is specified.
+Tipo de mensaje inválido utilizado como valor por defecto cuando no se especifica un tipo.
 
 .. _class_EditorExportPlatform_constant_EXPORT_MESSAGE_INFO:
 
@@ -120,7 +120,7 @@ Invalid message type used as the default value when no type is specified.
 
 :ref:`ExportMessageType<enum_EditorExportPlatform_ExportMessageType>` **EXPORT_MESSAGE_INFO** = ``1``
 
-Message type for informational messages that have no effect on the export.
+Tipo de mensaje para mensajes informativos que no tienen ningún efecto en la exportación.
 
 .. _class_EditorExportPlatform_constant_EXPORT_MESSAGE_WARNING:
 
@@ -128,7 +128,7 @@ Message type for informational messages that have no effect on the export.
 
 :ref:`ExportMessageType<enum_EditorExportPlatform_ExportMessageType>` **EXPORT_MESSAGE_WARNING** = ``2``
 
-Message type for warning messages that should be addressed but still allow to complete the export.
+Tipo de mensaje para mensajes de advertencia que deben abordarse pero que aún permiten completar la exportación.
 
 .. _class_EditorExportPlatform_constant_EXPORT_MESSAGE_ERROR:
 
@@ -136,7 +136,7 @@ Message type for warning messages that should be addressed but still allow to co
 
 :ref:`ExportMessageType<enum_EditorExportPlatform_ExportMessageType>` **EXPORT_MESSAGE_ERROR** = ``3``
 
-Message type for error messages that must be addressed and fail the export.
+Tipo de mensaje para mensajes de error que deben abordarse y fallan en la exportación.
 
 .. rst-class:: classref-item-separator
 
@@ -491,7 +491,7 @@ Saves ZIP archive and returns :ref:`Dictionary<class_Dictionary>` with the follo
 
 :ref:`Dictionary<class_Dictionary>` **save_zip_patch**\ (\ preset\: :ref:`EditorExportPreset<class_EditorExportPreset>`, debug\: :ref:`bool<class_bool>`, path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorExportPlatform_method_save_zip_patch>`
 
-Saves patch ZIP archive and returns :ref:`Dictionary<class_Dictionary>` with the following keys: ``result: Error``, ``so_files: Array`` (array of the shared/static objects which contains dictionaries with the following keys: ``path: String``, ``tags: PackedStringArray``, and ``target_folder: String``).
+Guarda el archivo ZIP del parche y devuelve un :ref:`Dictionary<class_Dictionary>` con las siguientes claves: ``result: Error``, ``so_files: Array`` (array de objetos compartidos/estáticos que contiene diccionarios con las siguientes claves: ``path: String``, ``tags: PackedStringArray`` y ``target_folder: String``).
 
 .. rst-class:: classref-item-separator
 
@@ -503,7 +503,7 @@ Saves patch ZIP archive and returns :ref:`Dictionary<class_Dictionary>` with the
 
 :ref:`Error<enum_@GlobalScope_Error>` **ssh_push_to_remote**\ (\ host\: :ref:`String<class_String>`, port\: :ref:`String<class_String>`, scp_args\: :ref:`PackedStringArray<class_PackedStringArray>`, src_file\: :ref:`String<class_String>`, dst_file\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_EditorExportPlatform_method_ssh_push_to_remote>`
 
-Uploads specified file over SCP protocol to the remote host.
+Sube el archivo especificado a través del protocolo SCP al host remoto.
 
 .. rst-class:: classref-item-separator
 
@@ -515,7 +515,7 @@ Uploads specified file over SCP protocol to the remote host.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ssh_run_on_remote**\ (\ host\: :ref:`String<class_String>`, port\: :ref:`String<class_String>`, ssh_arg\: :ref:`PackedStringArray<class_PackedStringArray>`, cmd_args\: :ref:`String<class_String>`, output\: :ref:`Array<class_Array>` = [], port_fwd\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_EditorExportPlatform_method_ssh_run_on_remote>`
 
-Executes specified command on the remote host via SSH protocol and returns command output in the ``output``.
+Ejecuta el comando especificado en el host remoto a través del protocolo SSH y devuelve la salida del comando en ``output``.
 
 .. rst-class:: classref-item-separator
 
@@ -527,7 +527,7 @@ Executes specified command on the remote host via SSH protocol and returns comma
 
 :ref:`int<class_int>` **ssh_run_on_remote_no_wait**\ (\ host\: :ref:`String<class_String>`, port\: :ref:`String<class_String>`, ssh_args\: :ref:`PackedStringArray<class_PackedStringArray>`, cmd_args\: :ref:`String<class_String>`, port_fwd\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_EditorExportPlatform_method_ssh_run_on_remote_no_wait>`
 
-Executes specified command on the remote host via SSH protocol and returns process ID (on the remote host) without waiting for command to finish.
+Ejecuta el comando especificado en el host remoto a través del protocolo SSH y devuelve el ID del proceso (en el host remoto) sin esperar a que el comando finalice.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

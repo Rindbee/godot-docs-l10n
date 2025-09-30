@@ -98,7 +98,7 @@ Descrizioni delle proprietà
 - |void| **set_copy_mode**\ (\ value\: :ref:`CopyMode<enum_BackBufferCopy_CopyMode>`\ )
 - :ref:`CopyMode<enum_BackBufferCopy_CopyMode>` **get_copy_mode**\ (\ )
 
-Buffer mode.
+Modalità di buffer.
 
 .. rst-class:: classref-item-separator
 

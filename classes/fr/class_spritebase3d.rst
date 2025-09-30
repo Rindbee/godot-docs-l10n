@@ -16,7 +16,7 @@ Nœud sprite 2D dans l’environnement 3D.
 Description
 -----------
 
-A node that displays 2D texture information in a 3D environment. See also :ref:`Sprite3D<class_Sprite3D>` where many other properties are defined.
+Un nœud qui affiche des informations de texture 2D dans un environnement 3D. Voir aussi :ref:`Sprite3D<class_Sprite3D>` où de nombreuses autres propriétés sont définies.
 
 .. rst-class:: classref-reftable-group
 
@@ -173,7 +173,7 @@ Ce mode réalise un mélange l'opacité standard. Il peut afficher des zones tra
 
 :ref:`AlphaCutMode<enum_SpriteBase3D_AlphaCutMode>` **ALPHA_CUT_DISCARD** = ``1``
 
-This mode only allows fully transparent or fully opaque pixels. Harsh edges will be visible unless some form of screen-space antialiasing is enabled (see :ref:`ProjectSettings.rendering/anti_aliasing/quality/screen_space_aa<class_ProjectSettings_property_rendering/anti_aliasing/quality/screen_space_aa>`). On the bright side, this mode doesn't suffer from transparency sorting issues when multiple transparent materials are overlapping. This mode is also known as *alpha testing* or *1-bit transparency*.
+Ce mode n'autorise uniquement que les pixels entièrement transparents ou entièrement opaques. Des bords nets seront visibles à moins qu'une certaine forme d'anti-crénelage dans l'espace-écran ne soit activée (voir :ref:`ProjectSettings.rendering/anti_aliasing/quality/screen_space_aa<class_ProjectSettings_property_rendering/anti_aliasing/quality/screen_space_aa>`). Ce mode a cependant l'avantage de ne pas souffrir de problèmes de tri de transparence lorsque plusieurs matériaux transparents se chevauchent. Ce mode est également connu sous le nom d'*alpha testing* ou *1-bit transparency*.
 
 .. _class_SpriteBase3D_constant_ALPHA_CUT_OPAQUE_PREPASS:
 
@@ -181,7 +181,7 @@ This mode only allows fully transparent or fully opaque pixels. Harsh edges will
 
 :ref:`AlphaCutMode<enum_SpriteBase3D_AlphaCutMode>` **ALPHA_CUT_OPAQUE_PREPASS** = ``2``
 
-This mode draws fully opaque pixels in the depth prepass. This is slower than :ref:`ALPHA_CUT_DISABLED<class_SpriteBase3D_constant_ALPHA_CUT_DISABLED>` or :ref:`ALPHA_CUT_DISCARD<class_SpriteBase3D_constant_ALPHA_CUT_DISCARD>`, but it allows displaying translucent areas and smooth edges while using proper sorting.
+Ce mode dessine des pixels entièrement opaques lors de la pré-passe de profondeur. Ceci est plus lent que :ref:`ALPHA_CUT_DISABLED<class_SpriteBase3D_constant_ALPHA_CUT_DISABLED>` ou :ref:`ALPHA_CUT_DISCARD<class_SpriteBase3D_constant_ALPHA_CUT_DISCARD>`, mais il permet d'afficher des zones translucides et des bords lisses tout en utilisant un tri approprié.
 
 .. _class_SpriteBase3D_constant_ALPHA_CUT_HASH:
 
@@ -189,7 +189,7 @@ This mode draws fully opaque pixels in the depth prepass. This is slower than :r
 
 :ref:`AlphaCutMode<enum_SpriteBase3D_AlphaCutMode>` **ALPHA_CUT_HASH** = ``3``
 
-This mode draws cuts off all values below a spatially-deterministic threshold, the rest will remain opaque.
+Ce mode coupe toutes les valeurs en dessous d'un seuil dépendant de la position, le reste restera opaque.
 
 .. rst-class:: classref-section-separator
 
@@ -313,9 +313,9 @@ La direction que pointe la face avant de cette texture.
 - |void| **set_billboard_mode**\ (\ value\: :ref:`BillboardMode<enum_BaseMaterial3D_BillboardMode>`\ )
 - :ref:`BillboardMode<enum_BaseMaterial3D_BillboardMode>` **get_billboard_mode**\ (\ )
 
-The billboard mode to use for the sprite.
+Le mode de billboard à utiliser pour le sprite.
 
-\ **Note:** When billboarding is enabled and the material also casts shadows, billboards will face **the** camera in the scene when rendering shadows. In scenes with multiple cameras, the intended shadow cannot be determined and this will result in undefined behavior. See `GitHub Pull Request #72638 <https://github.com/godotengine/godot/pull/72638>`__ for details.
+\ **Note :** Lorsque la mode de billboard est activé et que le matériau projette également des ombres, les billboards feront face à **la** caméra dans la scène lors du rendu des ombres. Dans les scènes avec plusieurs caméras, l'ombre prévue ne peut pas être déterminée et cela résultera en un comportement indéfini. Voir la `Pull Request GitHub #72638 <https://github.com/godotengine/godot/pull/72638>`__ pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -366,7 +366,7 @@ Si ``true``, la texture est aussi affichée de dos, si ``false``, elle est invis
 - |void| **set_draw_flag**\ (\ flag\: :ref:`DrawFlags<enum_SpriteBase3D_DrawFlags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_draw_flag**\ (\ flag\: :ref:`DrawFlags<enum_SpriteBase3D_DrawFlags>`\ ) |const|
 
-If ``true``, the texture is rendered at the same size regardless of distance. The texture's size on screen is the same as if the camera was ``1.0`` units away from the texture's origin, regardless of the actual distance from the camera. The :ref:`Camera3D<class_Camera3D>`'s field of view (or :ref:`Camera3D.size<class_Camera3D_property_size>` when in orthogonal/frustum mode) still affects the size the sprite is drawn at.
+Si ``true``, la texture est rendue à la même taille indépendamment de la distance. La taille de la texture à l'écran est la même que si la caméra était à ``1.0`` unités de l'origine de la texture, peu importe la distance réelle à la caméra. Le champ de vision de la :ref:`Camera3D<class_Camera3D>` (ou :ref:`Camera3D.size<class_Camera3D_property_size>` en mode orthogonal/frustum) affecte toujours la taille à laquelle le sprite est dessiné.
 
 .. rst-class:: classref-item-separator
 
@@ -417,11 +417,11 @@ Si ``true``, la texture est inversée verticalement.
 - |void| **set_modulate**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_modulate**\ (\ )
 
-A color value used to *multiply* the texture's colors. Can be used for mood-coloring or to simulate the color of ambient light.
+Une valeur de couleur utilisée pour *multiplier* les couleurs de la texture. Peut être utilisé pour la coloration d'ambiance ou pour simuler la couleur de la lumière ambiante.
 
-\ **Note:** Unlike :ref:`CanvasItem.modulate<class_CanvasItem_property_modulate>` for 2D, colors with values above ``1.0`` (overbright) are not supported.
+\ **Note :** Contrairement à :ref:`CanvasItem.modulate<class_CanvasItem_property_modulate>` pour 2D, les couleurs avec des valeurs supérieures à ``1.0`` (overbright) ne sont pas supportées.
 
-\ **Note:** If a :ref:`GeometryInstance3D.material_override<class_GeometryInstance3D_property_material_override>` is defined on the **SpriteBase3D**, the material override must be configured to take vertex colors into account for albedo. Otherwise, the color defined in :ref:`modulate<class_SpriteBase3D_property_modulate>` will be ignored. For a :ref:`BaseMaterial3D<class_BaseMaterial3D>`, :ref:`BaseMaterial3D.vertex_color_use_as_albedo<class_BaseMaterial3D_property_vertex_color_use_as_albedo>` must be ``true``. For a :ref:`ShaderMaterial<class_ShaderMaterial>`, ``ALBEDO *= COLOR.rgb;`` must be inserted in the shader's ``fragment()`` function.
+\ **Note :** Si un :ref:`GeometryInstance3D.material_override<class_GeometryInstance3D_property_material_override>` est défini sur le **SpriteBase3D**, la redéfinition du matériau doit être configurée pour prendre en compte les couleurs des sommets pour l'albédo. Sinon, la couleur définie dans :ref:`modulate<class_SpriteBase3D_property_modulate>` sera ignorée. Pour un :ref:`BaseMaterial3D<class_BaseMaterial3D>`, :ref:`BaseMaterial3D.vertex_color_use_as_albedo<class_BaseMaterial3D_property_vertex_color_use_as_albedo>` doit valoir ``true``. Pour un :ref:`ShaderMaterial<class_ShaderMaterial>`, ``ALBEDO *= COLOR.rgb;`` doit être inséré dans la fonction ``fragment()`` du shader.
 
 .. rst-class:: classref-item-separator
 
@@ -455,9 +455,9 @@ Si ``true``, les tests de profondeur sont désactivés et l'objet sera dessiné 
 - |void| **set_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_offset**\ (\ )
 
-The texture's drawing offset.
+Le décalage du dessin de la texture.
 
-\ **Note:** When you increase :ref:`offset<class_SpriteBase3D_property_offset>`.y in Sprite3D, the sprite moves upward in world space (i.e., +Y is up).
+\ **Note :** Lorsque vous augmentez :ref:`offset<class_SpriteBase3D_property_offset>`.y dans Sprite3D, le sprite se déplace vers le haut dans l'espace global (c.-à-d. +Y est le haut).
 
 .. rst-class:: classref-item-separator
 
@@ -512,7 +512,7 @@ Définit la priorité de rendu pour le texte. Les objets plus prioritaires seron
 - |void| **set_draw_flag**\ (\ flag\: :ref:`DrawFlags<enum_SpriteBase3D_DrawFlags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_draw_flag**\ (\ flag\: :ref:`DrawFlags<enum_SpriteBase3D_DrawFlags>`\ ) |const|
 
-If ``true``, the :ref:`Light3D<class_Light3D>` in the :ref:`Environment<class_Environment>` has effects on the sprite.
+Si ``true``, la :ref:`Light3D<class_Light3D>` dans l':ref:`Environment<class_Environment>` a un effet sur le sprite.
 
 .. rst-class:: classref-item-separator
 
@@ -529,9 +529,9 @@ If ``true``, the :ref:`Light3D<class_Light3D>` in the :ref:`Environment<class_En
 - |void| **set_texture_filter**\ (\ value\: :ref:`TextureFilter<enum_BaseMaterial3D_TextureFilter>`\ )
 - :ref:`TextureFilter<enum_BaseMaterial3D_TextureFilter>` **get_texture_filter**\ (\ )
 
-Filter flags for the texture.
+Drapeaux de filtrage pour la texture.
 
-\ **Note:** Linear filtering may cause artifacts around the edges, which are especially noticeable on opaque textures. To prevent this, use textures with transparent or identical colors around the edges.
+\ **Note :** Le filtrage linéaire peut provoquer des artéfacts autour des bords, qui sont particulièrement visibles sur les textures opaques. Pour éviter cela, utilisez des textures avec des couleurs transparentes ou identiques autour des bords.
 
 .. rst-class:: classref-item-separator
 
@@ -565,7 +565,7 @@ Descriptions des méthodes
 
 :ref:`TriangleMesh<class_TriangleMesh>` **generate_triangle_mesh**\ (\ ) |const| :ref:`🔗<class_SpriteBase3D_method_generate_triangle_mesh>`
 
-Returns a :ref:`TriangleMesh<class_TriangleMesh>` with the sprite's vertices following its current configuration (such as its :ref:`axis<class_SpriteBase3D_property_axis>` and :ref:`pixel_size<class_SpriteBase3D_property_pixel_size>`).
+Renvoie un :ref:`TriangleMesh<class_TriangleMesh>` avec les sommets du sprite suivant sa configuration actuelle (comme :ref:`axis<class_SpriteBase3D_property_axis>` et :ref:`pixel_size<class_SpriteBase3D_property_pixel_size>`).
 
 .. rst-class:: classref-item-separator
 
@@ -601,7 +601,7 @@ Renvoie le rectangle représentant ce sprite.
 
 |void| **set_draw_flag**\ (\ flag\: :ref:`DrawFlags<enum_SpriteBase3D_DrawFlags>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_SpriteBase3D_method_set_draw_flag>`
 
-If ``true``, the specified flag will be enabled.
+Si ``true``, le drapeau spécifié sera activé.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

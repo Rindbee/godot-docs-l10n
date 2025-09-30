@@ -14,7 +14,7 @@ Stato multicampione della pipeline (utilizzato da :ref:`RenderingDevice<class_Re
 Descrizione
 ----------------------
 
-**RDPipelineMultisampleState** è utilizzato per controllare il modo in cui è effettuato l'antialiasing multicampione o supercampione durante il rendering tramite :ref:`RenderingDevice<class_RenderingDevice>`.
+**RDPipelineMultisampleState** serve per controllare il modo in cui è effettuato l'antialiasing multicampione o supercampione durante il rendering tramite :ref:`RenderingDevice<class_RenderingDevice>`.
 
 .. rst-class:: classref-reftable-group
 

@@ -259,7 +259,7 @@ Las capas de físicas en las que se encuentra este CollisionObject2D. Los objeto
 - |void| **set_collision_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_collision_mask**\ (\ )
 
-Las capas de físicas que este CollisionObject2D escanea. Los objetos de colisión pueden escanear una o más de 32 capas diferentes. Ver también :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>`.
+Las capas de físicas que este CollisionObject2D escanea. Los objetos de colisión pueden escanear una o más de 32 capas diferentes. Véase también :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>`.
 
 \ **Nota:** Un objeto A puede detectar un contacto con un objeto B solo si el objeto B está en alguna de las capas que el objeto A escanea. Para más información, Véase `Capas y máscaras de colisión <../tutorials/physics/physics_introduction.html#collision-layers-and-masks>`__ en la documentación.
 

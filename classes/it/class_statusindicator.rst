@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/StatusIndicator.xml.
+.. meta::
+	:keywords: tray
 
 .. _class_StatusIndicator:
 
@@ -12,7 +12,7 @@ StatusIndicator
 
 L'indicatore di stato dell'applicazione (cioè l'icona nell'area di notifica)
 
-\ **Nota:** Questa proprietà è implementata su macOS and Windows.
+\ **Nota:** Questa proprietà è implementata su macOS e Windows.
 
 .. rst-class:: classref-reftable-group
 

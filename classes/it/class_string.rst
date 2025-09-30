@@ -499,11 +499,11 @@ Cambia l'aspetto della stringa: sostituisce i trattini bassi (``_``) con spazi, 
 
 :ref:`int<class_int>` **casecmp_to**\ (\ to\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_String_method_casecmp_to>`
 
-Performs a case-sensitive comparison to another string. Returns ``-1`` if less than, ``1`` if greater than, or ``0`` if equal. "Less than" and "greater than" are determined by the `Unicode code points <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__ of each string, which roughly matches the alphabetical order.
+Esegue un confronto con distinzione tra maiuscole e minuscole con un'altra stringa. Restituisce ``-1`` se minore di, ``1`` se maggiore di, o ``0`` se uguale. "Minore di" e "maggiore di" sono determinati dai `codici Unicode <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__ di ogni stringa, che corrispondono approssimativamente all'ordine alfabetico.
 
-If the character comparison reaches the end of one string, but the other string contains more characters, then it will use length as the deciding factor: ``1`` will be returned if this string is longer than the ``to`` string, or ``-1`` if shorter. Note that the length of empty strings is always ``0``.
+Se il confronto tra caratteri raggiunge la fine di una stringa, ma l'altra stringa contiene più caratteri, utilizzerà la lunghezza come fattore decisivo: sarà restituito ``1`` se questa stringa è più lunga della stringa ``to``, oppure ``-1`` se è più corta. Si noti che la lunghezza delle stringhe vuote è sempre ``0``.
 
-To get a :ref:`bool<class_bool>` result from a string comparison, use the ``==`` operator instead. See also :ref:`nocasecmp_to()<class_String_method_nocasecmp_to>`, :ref:`filecasecmp_to()<class_String_method_filecasecmp_to>`, and :ref:`naturalcasecmp_to()<class_String_method_naturalcasecmp_to>`.
+Per ottenere un risultato :ref:`bool<class_bool>` da un confronto di stringhe, utilizzare invece l'operatore ``==``. Vedi anche :ref:`nocasecmp_to()<class_String_method_nocasecmp_to>`, :ref:`filecasecmp_to()<class_String_method_filecasecmp_to>` e :ref:`naturalcasecmp_to()<class_String_method_naturalcasecmp_to>`.
 
 .. rst-class:: classref-item-separator
 
@@ -515,14 +515,14 @@ To get a :ref:`bool<class_bool>` result from a string comparison, use the ``==``
 
 :ref:`String<class_String>` **chr**\ (\ code\: :ref:`int<class_int>`\ ) |static| :ref:`🔗<class_String_method_chr>`
 
-Returns a single Unicode character from the integer ``code``. You may use `unicodelookup.com <https://unicodelookup.com/>`__ or `unicode.org <https://www.unicode.org/charts/>`__ as points of reference.
+Restituisce un singolo carattere Unicode dall'intero ``code``. Puoi usare `unicodelookup.com <https://unicodelookup.com/>`__ o `unicode.org <https://www.unicode.org/charts/>`__ come punti di riferimento.
 
 ::
 
-    print(String.chr(65))     # Prints "A"
-    print(String.chr(129302)) # Prints "🤖" (robot face emoji)
+    print(String.chr(65))     # Stampa "A"
+    print(String.chr(129302)) # Stampa "🤖" (emoji faccia di robot)
 
-See also :ref:`unicode_at()<class_String_method_unicode_at>`, :ref:`@GDScript.char()<class_@GDScript_method_char>`, and :ref:`@GDScript.ord()<class_@GDScript_method_ord>`.
+Vedi anche :ref:`unicode_at()<class_String_method_unicode_at>`, :ref:`@GDScript.char()<class_@GDScript_method_char>` e :ref:`@GDScript.ord()<class_@GDScript_method_ord>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1375,13 +1375,13 @@ Restituisce l'`hash MD5 <https://it.wikipedia.org/wiki/MD5>`__ della stringa sot
 
 :ref:`int<class_int>` **naturalcasecmp_to**\ (\ to\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_String_method_naturalcasecmp_to>`
 
-Performs a **case-sensitive**, *natural order* comparison to another string. Returns ``-1`` if less than, ``1`` if greater than, or ``0`` if equal. "Less than" or "greater than" are determined by the `Unicode code points <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__ of each string, which roughly matches the alphabetical order.
+Esegue un confronto **con distinzione** tra maiuscole e minuscole e in *ordine naturale* con un'altra stringa. Restituisce ``-1`` se minore di, ``1`` se maggiore di, o ``0`` se uguale. "Minore di" e "maggiore di" sono determinati dai `punti di codice Unicode <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__ di ogni stringa, che corrispondono approssimativamente all'ordine alfabetico.
 
-When used for sorting, natural order comparison orders sequences of numbers by the combined value of each digit as is often expected, instead of the single digit's value. A sorted sequence of numbered strings will be ``["1", "2", "3", ...]``, not ``["1", "10", "2", "3", ...]``.
+Quando viene utilizzato per l'ordinamento, il confronto con l'ordine naturale ordina sequenze di numeri in base al valore combinato di ciascuna cifra, come spesso previsto, anziché al valore della singola cifra. Una sequenza ordinata di stringhe numerate sarà ``["1", "2", "3", ...]``, non ``["1", "10", "2", "3", ...]``.
 
-If the character comparison reaches the end of one string, but the other string contains more characters, then it will use length as the deciding factor: ``1`` will be returned if this string is longer than the ``to`` string, or ``-1`` if shorter. Note that the length of empty strings is always ``0``.
+Se il confronto tra caratteri raggiunge la fine di una stringa, ma l'altra stringa contiene più caratteri, utilizzerà la lunghezza come fattore decisivo: sarà restituito ``1`` se questa stringa è più lunga della stringa ``to``, oppure ``-1`` se è più corta. Si noti che la lunghezza delle stringhe vuote è sempre ``0``.
 
-To get a :ref:`bool<class_bool>` result from a string comparison, use the ``==`` operator instead. See also :ref:`naturalnocasecmp_to()<class_String_method_naturalnocasecmp_to>`, :ref:`filecasecmp_to()<class_String_method_filecasecmp_to>`, and :ref:`nocasecmp_to()<class_String_method_nocasecmp_to>`.
+Per ottenere un risultato :ref:`bool<class_bool>` da un confronto di stringhe, utilizzare invece l'operatore ``==``. Vedi anche :ref:`naturalnocasecmp_to()<class_String_method_naturalnocasecmp_to>`, :ref:`filecasecmp_to()<class_String_method_filecasecmp_to>` e :ref:`nocasecmp_to()<class_String_method_nocasecmp_to>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1393,13 +1393,13 @@ To get a :ref:`bool<class_bool>` result from a string comparison, use the ``==``
 
 :ref:`int<class_int>` **naturalnocasecmp_to**\ (\ to\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_String_method_naturalnocasecmp_to>`
 
-Performs a **case-insensitive**, *natural order* comparison to another string. Returns ``-1`` if less than, ``1`` if greater than, or ``0`` if equal. "Less than" or "greater than" are determined by the `Unicode code points <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__ of each string, which roughly matches the alphabetical order. Internally, lowercase characters are converted to uppercase for the comparison.
+Esegue un confronto **senza distinzione** tra maiuscole e minuscole e in *ordine naturale* con un'altra stringa. Restituisce ``-1`` se minore di, ``1`` se maggiore di, o ``0`` se uguale. "Minore di" e "maggiore di" sono determinati dai `punti di codice Unicode <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__ di ogni stringa, che corrispondono approssimativamente all'ordine alfabetico.
 
-When used for sorting, natural order comparison orders sequences of numbers by the combined value of each digit as is often expected, instead of the single digit's value. A sorted sequence of numbered strings will be ``["1", "2", "3", ...]``, not ``["1", "10", "2", "3", ...]``.
+Quando viene utilizzato per l'ordinamento, il confronto con l'ordine naturale ordina sequenze di numeri in base al valore combinato di ciascuna cifra, come spesso previsto, anziché al valore della singola cifra. Una sequenza ordinata di stringhe numerate sarà ``["1", "2", "3", ...]``, non ``["1", "10", "2", "3", ...]``.
 
-If the character comparison reaches the end of one string, but the other string contains more characters, then it will use length as the deciding factor: ``1`` will be returned if this string is longer than the ``to`` string, or ``-1`` if shorter. Note that the length of empty strings is always ``0``.
+Se il confronto tra caratteri raggiunge la fine di una stringa, ma l'altra stringa contiene più caratteri, utilizzerà la lunghezza come fattore decisivo: sarà restituito ``1`` se questa stringa è più lunga della stringa ``to``, oppure ``-1`` se è più corta. Si noti che la lunghezza delle stringhe vuote è sempre ``0``.
 
-To get a :ref:`bool<class_bool>` result from a string comparison, use the ``==`` operator instead. See also :ref:`naturalcasecmp_to()<class_String_method_naturalcasecmp_to>`, :ref:`filenocasecmp_to()<class_String_method_filenocasecmp_to>`, and :ref:`casecmp_to()<class_String_method_casecmp_to>`.
+Per ottenere un risultato :ref:`bool<class_bool>` da un confronto di stringhe, utilizzare invece l'operatore ``==``. Vedi anche :ref:`naturalcasecmp_to()<class_String_method_naturalcasecmp_to>`, :ref:`filenocasecmp_to()<class_String_method_filenocasecmp_to>` e :ref:`casecmp_to()<class_String_method_casecmp_to>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1411,11 +1411,11 @@ To get a :ref:`bool<class_bool>` result from a string comparison, use the ``==``
 
 :ref:`int<class_int>` **nocasecmp_to**\ (\ to\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_String_method_nocasecmp_to>`
 
-Performs a **case-insensitive** comparison to another string. Returns ``-1`` if less than, ``1`` if greater than, or ``0`` if equal. "Less than" or "greater than" are determined by the `Unicode code points <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__ of each string, which roughly matches the alphabetical order. Internally, lowercase characters are converted to uppercase for the comparison.
+Esegue un confronto **senza distinzione tra maiuscole e minuscole** con un'altra stringa. Restituisce ``-1`` se minore di, ``1`` se maggiore di, o ``0`` se uguale. "Minore di" e "maggiore di" sono determinati dai `punti di codice Unicode <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__ di ogni stringa, che corrispondono approssimativamente all'ordine alfabetico.
 
-If the character comparison reaches the end of one string, but the other string contains more characters, then it will use length as the deciding factor: ``1`` will be returned if this string is longer than the ``to`` string, or ``-1`` if shorter. Note that the length of empty strings is always ``0``.
+Se il confronto tra caratteri raggiunge la fine di una stringa, ma l'altra stringa contiene più caratteri, utilizzerà la lunghezza come fattore decisivo: sarà restituito ``1`` se questa stringa è più lunga della stringa ``to``, oppure ``-1`` se è più corta. Si noti che la lunghezza delle stringhe vuote è sempre ``0``.
 
-To get a :ref:`bool<class_bool>` result from a string comparison, use the ``==`` operator instead. See also :ref:`casecmp_to()<class_String_method_casecmp_to>`, :ref:`filenocasecmp_to()<class_String_method_filenocasecmp_to>`, and :ref:`naturalnocasecmp_to()<class_String_method_naturalnocasecmp_to>`.
+Per ottenere un risultato :ref:`bool<class_bool>` da un confronto di stringhe, utilizzare invece l'operatore ``==``. Vedi anche :ref:`casecmp_to()<class_String_method_casecmp_to>`, :ref:`filenocasecmp_to()<class_String_method_filenocasecmp_to>` e :ref:`naturalnocasecmp_to()<class_String_method_naturalnocasecmp_to>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1560,7 +1560,7 @@ Concatena ``path`` alla fine della stringa come sotto-percorso, aggiungendo ``/`
 
 :ref:`String<class_String>` **remove_char**\ (\ what\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_String_method_remove_char>`
 
-Removes all occurrences of the Unicode character with code ``what``. Faster version of :ref:`replace()<class_String_method_replace>` when the key is only one character long and the replacement is ``""``.
+Rimuove tutte le occorrenze del carattere Unicode con il codice ``what``. Versione più veloce di :ref:`replace()<class_String_method_replace>` quando la chiave è lunga un solo carattere e la sostituzione è ``""``.
 
 .. rst-class:: classref-item-separator
 
@@ -1608,7 +1608,7 @@ Sostituisce tutte le occorrenze di ``what`` all'interno della stringa con il ``f
 
 :ref:`String<class_String>` **replace_char**\ (\ key\: :ref:`int<class_int>`, with\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_String_method_replace_char>`
 
-Replaces all occurrences of the Unicode character with code ``key`` with the Unicode character with code ``with``. Faster version of :ref:`replace()<class_String_method_replace>` when the key is only one character long. To get a single character use ``"X".unicode_at(0)`` (note that some strings, like compound letters and emoji, can be composed of multiple unicode codepoints, and will not work with this method, use :ref:`length()<class_String_method_length>` to make sure).
+Sostituisce tutte le occorrenze del carattere Unicode con codice ``key`` con il carattere Unicode con codice ``with``. Versione più veloce di :ref:`replace()<class_String_method_replace>` quando la chiave è lunga un solo carattere. Per ottenere un singolo carattere, utilizzare ``"X".unicode_at(0)`` (si noti che alcune stringhe, come lettere composte ed emoji, possono essere composte da più codici Unicode e non funzioneranno con questo metodo; utilizzare :ref:`length()<class_String_method_length>` per esserne sicuri).
 
 .. rst-class:: classref-item-separator
 
@@ -1620,7 +1620,7 @@ Replaces all occurrences of the Unicode character with code ``key`` with the Uni
 
 :ref:`String<class_String>` **replace_chars**\ (\ keys\: :ref:`String<class_String>`, with\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_String_method_replace_chars>`
 
-Replaces any occurrence of the characters in ``keys`` with the Unicode character with code ``with``. See also :ref:`replace_char()<class_String_method_replace_char>`.
+Sostituisce qualsiasi occorrenza dei caratteri in ``keys`` con il carattere Unicode con codice ``with``. Vedi anche :ref:`replace_char()<class_String_method_replace_char>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1644,7 +1644,7 @@ Sostituisce tutte le occorrenze **senza distinzione tra maiuscole e minuscole** 
 
 :ref:`String<class_String>` **reverse**\ (\ ) |const| :ref:`🔗<class_String_method_reverse>`
 
-Restituisce la copia di questa stringa in ordine inverso. Questa operazione funziona su punti di codice Unicode, piuttosto che su sequenze di punti di codice, e potrebbe spezzare elementi come lettere composte o emoji.
+Restituisce la copia di questa stringa in ordine inverso. Questa operazione funziona su codici Unicode, piuttosto che su sequenze di codici, e potrebbe spezzare elementi come lettere composte o emoji.
 
 .. rst-class:: classref-item-separator
 
@@ -2046,13 +2046,13 @@ Restituisce la stringa convertita in ``lowercase``.
 
 :ref:`PackedByteArray<class_PackedByteArray>` **to_multibyte_char_buffer**\ (\ encoding\: :ref:`String<class_String>` = ""\ ) |const| :ref:`🔗<class_String_method_to_multibyte_char_buffer>`
 
-Converts the string to system multibyte code page encoded :ref:`PackedByteArray<class_PackedByteArray>`. If conversion fails, empty array is returned.
+Converte la stringa in un :ref:`PackedByteArray<class_PackedByteArray>` codificato con code page multibyte di sistema. Se la conversione fallisce, viene restituito un array vuoto.
 
-The values permitted for ``encoding`` are system dependent. If ``encoding`` is empty string, system default encoding is used.
+I valori consentiti per ``encoding`` dipendono dal sistema. Se ``encoding`` è una stringa vuota, viene utilizzata la codifica predefinita del sistema.
 
-- For Windows, see `Code Page Identifiers <https://learn.microsoft.com/en-us/windows/win32/Intl/code-page-identifiers>`__ .NET names.
+- Per Windows, consultare i nomi .NET per i `Code Page Identifiers <https://learn.microsoft.com/en-us/windows/win32/Intl/code-page-identifiers>`__.
 
-- For macOS and Linux/BSD, see ``libiconv`` library documentation and ``iconv --list`` for a list of supported encodings.
+- Per macOS e Linux/BSD, consultare la documentazione della libreria ``libiconv`` e ``iconv --list`` per un elenco delle codifiche supportate.
 
 .. rst-class:: classref-item-separator
 
@@ -2191,9 +2191,9 @@ Rimuove il suffisso ``suffix`` dalla fine della stringa o restituisce la stringa
 
 :ref:`int<class_int>` **unicode_at**\ (\ at\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_String_method_unicode_at>`
 
-Returns the character code at position ``at``.
+Restituisce il codice carattere alla posizione ``at``.
 
-See also :ref:`chr()<class_String_method_chr>`, :ref:`@GDScript.char()<class_@GDScript_method_char>`, and :ref:`@GDScript.ord()<class_@GDScript_method_ord>`.
+Vedi anche :ref:`chr()<class_String_method_chr>`, :ref:`@GDScript.char()<class_@GDScript_method_char>` e :ref:`@GDScript.ord()<class_@GDScript_method_ord>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2265,7 +2265,7 @@ Codifica la stringa in un formato compatibile con URL. Questo metodo è pensato 
 
 :ref:`String<class_String>` **uri_file_decode**\ (\ ) |const| :ref:`🔗<class_String_method_uri_file_decode>`
 
-Decodes the file path from its URL-encoded format. Unlike :ref:`uri_decode()<class_String_method_uri_decode>` this method leaves ``+`` as is.
+Decodifica il percorso di file dal suo formato codificato URL. A differenza di :ref:`uri_decode()<class_String_method_uri_decode>`, questo metodo lascia ``+`` invariati.
 
 .. rst-class:: classref-item-separator
 

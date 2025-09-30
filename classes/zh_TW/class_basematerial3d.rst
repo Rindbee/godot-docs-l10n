@@ -2934,9 +2934,9 @@ Determines which comparison operator is used when testing depth. See :ref:`Depth
 
 \ **注意：**\ 網格頂點必須同時具有法線與切線，否則法線貼圖只會使表面變暗而無法正常顯示。若使用 :ref:`SurfaceTool<class_SurfaceTool>` 產生幾何，可呼叫 :ref:`SurfaceTool.generate_normals()<class_SurfaceTool_method_generate_normals>` 與 :ref:`SurfaceTool.generate_tangents()<class_SurfaceTool_method_generate_tangents>` 自動生成。
 
-\ **注意：**\ Godot 預期法線貼圖使用 X+、Y+、Z+ 座標；可參考此頁比較各引擎要求：[url=http://wiki.polycount.com/wiki/Normal_Map_Technical_Details#Common_Swizzle_Coordinates]。
+\ **注意：** Godot 期望使用 X+、Y+、Z+ 座標系，可參考 `此頁 <http://wiki.polycount.com/wiki/Normal_Map_Technical_Details#Common_Swizzle_Coordinates>`__ 了解各引擎差異。
 
-[b]注意：[/b]若 [member detail_enabled] 為 [code]true[/code]，[member detail_albedo] 會繪製在 [member normal_texture][i]之下[/i]；如需相反效果，請改用 [member detail_normal]。
+\ **注意：**\ 若 :ref:`detail_enabled<class_BaseMaterial3D_property_detail_enabled>` 為 ``true``\ ，\ :ref:`detail_albedo<class_BaseMaterial3D_property_detail_albedo>` 會繪製在 :ref:`normal_texture<class_BaseMaterial3D_property_normal_texture>`\ *之下*\ ；如需相反效果，請改用 :ref:`detail_normal<class_BaseMaterial3D_property_detail_normal>`\ 。
 
 .. rst-class:: classref-item-separator
 

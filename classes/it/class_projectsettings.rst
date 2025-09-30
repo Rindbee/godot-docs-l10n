@@ -1929,15 +1929,15 @@ Descrizioni delle proprietà
 
 :ref:`int<class_int>` **accessibility/general/accessibility_support** = ``0`` :ref:`🔗<class_ProjectSettings_property_accessibility/general/accessibility_support>`
 
-Accessibility support mode:
+Modalità di supporto per l'accessibilità:
 
-- **Auto** (``0``): Accessibility support is enabled, but updates to the accessibility information are processed only if an assistive app (such as a screen reader or a Braille display) is active (default).
+- **Auto** (``0``): il supporto per l'accessibilità è abilitato, ma gli aggiornamenti alle informazioni di accessibilità sono elaborati solo se è attiva un'applicazione assistiva (come un lettore dello schermo o un display Braille) (predefinito).
 
-- **Always Active** (``1``): Accessibility support is enabled, and updates to the accessibility information are always processed, regardless of the status of assistive apps.
+- **Always active** (``1``): il supporto per l'accessibilità è abilitato e gli aggiornamenti alle informazioni di accessibilità sono sempre elaborati, a prescindere dallo stato delle app assistive.
 
-- **Disabled** (``2``): Accessibility support is fully disabled.
+- **Disabled** (``2``): il supporto per l'accessibilità è completamente disabilitato.
 
-\ **Note:** Accessibility debugging tools, such as Accessibility Insights for Windows, Accessibility Inspector (macOS), or AT-SPI Browser (Linux/BSD) do not count as assistive apps. To test your project with these tools, use **Always Active**.
+\ **Nota:** Gli strumenti di debug per l'accessibilità, come Accessibility Insights per Windows, Accessibility Inspector (macOS) o AT-SPI Browser (Linux/BSD), non contano come applicazioni assistive. Per testare il tuo progetto con questi strumenti, usa **Always Active**.
 
 .. rst-class:: classref-item-separator
 
@@ -2341,9 +2341,9 @@ Questa impostazione può essere sovrascritta usando l'argomento della riga di co
 
 :ref:`bool<class_bool>` **application/run/load_shell_environment** = ``false`` :ref:`🔗<class_ProjectSettings_property_application/run/load_shell_environment>`
 
-If ``true``, loads the default shell and copies environment variables set by the shell startup scripts to the app environment.
+Se ``true``, carica la shell predefinita e copia le variabili d'ambiente impostate dagli script di avvio della shell nell'ambiente dell'applicazione.
 
-\ **Note:** This setting is implemented on macOS for non-sandboxed applications only.
+\ **Nota:** Questa impostazione è implementata su macOS solo per le applicazioni non sandbox.
 
 .. rst-class:: classref-item-separator
 
@@ -2655,9 +2655,9 @@ Imposta `AVAudioSessionCategory <https://developer.apple.com/documentation/avfau
 
 :ref:`bool<class_bool>` **audio/general/text_to_speech** = ``false`` :ref:`🔗<class_ProjectSettings_property_audio/general/text_to_speech>`
 
-If ``true``, text-to-speech support is enabled on startup, otherwise it is enabled first time TTS method is used, see :ref:`DisplayServer.tts_get_voices()<class_DisplayServer_method_tts_get_voices>` and :ref:`DisplayServer.tts_speak()<class_DisplayServer_method_tts_speak>`.
+Se ``true``, il supporto per text-to-speech è abilitato all'avvio, altrimenti è abilitato la prima volta che un metodo per TTS è utilizzato, vedi :ref:`DisplayServer.tts_get_voices()<class_DisplayServer_method_tts_get_voices>` e :ref:`DisplayServer.tts_speak()<class_DisplayServer_method_tts_speak>`.
 
-\ **Note:** Enabling TTS can cause addition idle CPU usage and interfere with the sleep mode, so consider disabling it if TTS is not used.
+\ **Nota:** Abilitare il TTS può causare un ulteriore utilizzo inattivo della CPU e interferire con la modalità di riposo, quindi considera di disabilitarla se il TTS non è utilizzato.
 
 .. rst-class:: classref-item-separator
 
@@ -2999,9 +2999,9 @@ Se impostato su ``warn`` o ``error``, produce rispettivamente un avviso o un err
 
 :ref:`int<class_int>` **debug/gdscript/warnings/inferred_declaration** = ``0`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/inferred_declaration>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when a variable, constant, or parameter has an implicitly inferred static type. In GDScript, type inference is performed by declaring a variable with ``:=`` instead of ``=`` and leaving out the type specifier. For example, ``var x := 1`` will *infer* the :ref:`int<class_int>` type, while ``var x: int = 1`` explicitly declares the variable as :ref:`int<class_int>`.
+Se impostato su ``warn`` o ``error``, produce rispettivamente un avviso o un errore quando una variabile, una costante o un parametro ha un tipo statico inferito implicitamente. In GDScript, per inferire il tipo si dichiara una variabile con ``:=`` anziché ``=`` e si omette lo specificatore del tipo. Ad esempio, ``var x := 1`` *inferirà* il tipo :ref:`int<class_int>`, mentre ``var x: int = 1`` dichiara esplicitamente la variabile come :ref:`int<class_int>`.
 
-\ **Note:** This warning is recommended *in addition* to :ref:`debug/gdscript/warnings/untyped_declaration<class_ProjectSettings_property_debug/gdscript/warnings/untyped_declaration>` if you want to always specify the type explicitly. Having ``INFERRED_DECLARATION`` warning level higher than ``UNTYPED_DECLARATION`` warning level makes little sense and is not recommended.
+\ **Nota:** Questo avviso è consigliato *in aggiunta* a :ref:`debug/gdscript/warnings/untyped_declaration<class_ProjectSettings_property_debug/gdscript/warnings/untyped_declaration>` se si desidera specificare sempre il tipo in modo esplicito. Avere un livello di avviso per ``INFERRED_DECLARATION`` più alto del livello di avviso per ``UNTYPED_DECLARATION`` ha poco senso e non è consigliato.
 
 .. rst-class:: classref-item-separator
 
@@ -3423,9 +3423,9 @@ Sostituzione solo per l'editor per :ref:`debug/settings/crash_handler/message<cl
 
 :ref:`bool<class_bool>` **debug/settings/gdscript/always_track_call_stacks** = ``false`` :ref:`🔗<class_ProjectSettings_property_debug/settings/gdscript/always_track_call_stacks>`
 
-Whether GDScript call stacks will be tracked in release builds, thus allowing :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>` to function.
+Se gli stack di chiamate GDScript saranno tracciati nelle build di rilascio, consentendo a :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>` di funzionare.
 
-\ **Note:** This setting has no effect on editor builds or debug builds, where GDScript call stacks are tracked regardless.
+\ **Nota:** Questa impostazione non ha alcun effetto sulle build dell'editor o sulle build di debug, in cui gli stack di chiamate GDScript sono comunque tracciati.
 
 .. rst-class:: classref-item-separator
 
@@ -3437,11 +3437,11 @@ Whether GDScript call stacks will be tracked in release builds, thus allowing :r
 
 :ref:`bool<class_bool>` **debug/settings/gdscript/always_track_local_variables** = ``false`` :ref:`🔗<class_ProjectSettings_property_debug/settings/gdscript/always_track_local_variables>`
 
-Whether GDScript local variables will be tracked in all builds, including export builds, thus allowing :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>` to capture them when enabling its ``include_variables`` parameter.
+Se le variabili locali in GDScript saranno tracciate in tutte le build, incluse quelle di esportazione, consentendo così a :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>` di catturarle quando si abilita il parametro ``include_variables``.
 
-Enabling this comes at the cost of roughly 50 bytes of memory per local variable, for every compiled class in the entire project, so can be several MiB in larger projects.
+Abilitare questa impostazione comporta un costo di circa 50 byte di memoria per ogni variabile locale, per ogni classe compilata nell'intero progetto, quindi può trattarsi di diversi MiB nei progetti più grandi.
 
-\ **Note:** This setting has no effect when running the game from the editor, where GDScript local variables are tracked regardless.
+\ **Nota:** Questa impostazione non ha alcun effetto quando si esegue il gioco dall'editor, dove le variabili locali in GDScript sono tracciate comunque.
 
 .. rst-class:: classref-item-separator
 
@@ -4515,15 +4515,15 @@ Abilita Swappy per una frequenza di frame stabile su Android. Altamente consigli
 
 :ref:`int<class_int>` **display/window/frame_pacing/android/swappy_mode** = ``2`` :ref:`🔗<class_ProjectSettings_property_display/window/frame_pacing/android/swappy_mode>`
 
-Swappy mode to use. The options are:
+Modalità Swappy da utilizzare. Le opzioni sono:
 
-- ``pipeline_forced_on``: Try to honor :ref:`Engine.max_fps<class_Engine_property_max_fps>`. Pipelining is always on. This is the same behavior as a desktop PC.
+- ``pipeline_forced_on``: cerca di rispettare :ref:`Engine.max_fps<class_Engine_property_max_fps>`. Il pipelining è sempre attivo. È lo stesso comportamento di un PC desktop.
 
-- ``auto_fps_pipeline_forced_on``: Calculate the max FPS automatically. The actual max FPS will be between ``0`` and :ref:`Engine.max_fps<class_Engine_property_max_fps>`. While this sounds convenient, beware that Swappy will often downgrade the max FPS until it finds a value that can be maintained. That means, if your game runs between 40fps and 60fps on a 60hz screen, after some time Swappy will downgrade the max FPS so that the game renders at a perfect 30fps.
+- ``auto_fps_pipeline_forced_on``: calcola automaticamente gli FPS massimi. Gli FPS massimi effettivi saranno compresi tra ``0`` e :ref:`Engine.max_fps<class_Engine_property_max_fps>`. Anche se può sembrare comodo, è da tener presente che Swappy spesso riduce gli FPS massimi finché non trova un valore che si può mantenere. Ciò significa che, se il gioco gira tra 40 fps e 60 fps su uno schermo a 60 Hz, dopo un po' di tempo Swappy ridurrà gli FPS massimi in modo che il gioco sia renderizzato a 30 fps netti.
 
-- ``auto_fps_auto_pipeline``: Same as ``auto_fps_pipeline_forced_on``, but if Swappy detects that rendering is very fast (for example it takes less than 8ms to render on a 60hz screen), Swappy will disable pipelining to minimize input latency. This is the default.
+- ``auto_fps_auto_pipeline``: uguale a ``auto_fps_pipeline_forced_on``, ma se Swappy rileva che il rendering è molto veloce (ad esempio, impiega meno di 8 ms per renderizzare su uno schermo a 60 Hz), Swappy disabiliterà il pipelining per ridurre al minimo la latenza di input. Questo è l'opzione predefinita.
 
-\ **Note:** If :ref:`Engine.max_fps<class_Engine_property_max_fps>` is ``0``, the actual max FPS will be considered to be the screen's refresh rate (often 60hz, 90hz, or 120hz, depending on device model and OS settings).
+\ **Nota:** Se :ref:`Engine.max_fps<class_Engine_property_max_fps>` è ``0``, l'FPS massimo effettivo sarà considerato la frequenza di aggiornamento dello schermo (spesso 60 Hz, 90 Hz o 120 Hz, a seconda del modello del dispositivo e delle impostazioni del sistema operativo).
 
 .. rst-class:: classref-item-separator
 
@@ -4783,13 +4783,13 @@ Se ``true``, la finestra principale usa angoli acuti per impostazione predefinit
 
 :ref:`bool<class_bool>` **display/window/size/transparent** = ``false`` :ref:`🔗<class_ProjectSettings_property_display/window/size/transparent>`
 
-If ``true``, enables a window manager hint that the main window background *can* be transparent. This does not make the background actually transparent. For the background to be transparent, the root viewport must also be made transparent by enabling :ref:`rendering/viewport/transparent_background<class_ProjectSettings_property_rendering/viewport/transparent_background>`.
+Se ``true``, suggerisce al gestore delle finestre che lo sfondo della finestra principale *può* essere trasparente. Questo non rende lo sfondo effettivamente trasparente. Affinché lo sfondo sia trasparente, anche la viewport radice si deve rendere trasparente abilitando :ref:`rendering/viewport/transparent_background<class_ProjectSettings_property_rendering/viewport/transparent_background>`.
 
-\ **Note:** To use a transparent splash screen, set :ref:`application/boot_splash/bg_color<class_ProjectSettings_property_application/boot_splash/bg_color>` to ``Color(0, 0, 0, 0)``.
+\ **Nota:** Per usare una schermata iniziale trasparente, imposta :ref:`application/boot_splash/bg_color<class_ProjectSettings_property_application/boot_splash/bg_color>` su ``Color(0, 0, 0, 0)``.
 
-\ **Note:** This setting has no effect if :ref:`display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>` is set to ``false``.
+\ **Nota:** Questa impostazione non ha effetto se :ref:`display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>` è impostato su ``false``.
 
-\ **Note:** This setting has no effect on Android as transparency is controlled only via :ref:`display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>`.
+\ **Nota:** Questa impostazione non ha effetto su Android poiché la trasparenza è controllata solo tramite :ref:`display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5085,19 +5085,19 @@ La frequenza di mixaggio audio da utilizzare nell'audio registrato durante la sc
 
 :ref:`String<class_String>` **editor/movie_writer/movie_file** = ``""`` :ref:`🔗<class_ProjectSettings_property_editor/movie_writer/movie_file>`
 
-The output path for the movie. The file extension determines the :ref:`MovieWriter<class_MovieWriter>` that will be used.
+Percorso di output per il filmato. L'estensione del file determina il :ref:`MovieWriter<class_MovieWriter>` che sarà utilizzato.
 
-Godot has 3 built-in :ref:`MovieWriter<class_MovieWriter>`\ s:
+Godot ha 3 :ref:`MovieWriter<class_MovieWriter>` integrati:
 
-- OGV container with Theora for video and Vorbis for audio (``.ogv`` file extension). Lossy compression, medium file sizes, fast encoding. The lossy compression quality can be adjusted by changing :ref:`editor/movie_writer/video_quality<class_ProjectSettings_property_editor/movie_writer/video_quality>` and :ref:`editor/movie_writer/ogv/audio_quality<class_ProjectSettings_property_editor/movie_writer/ogv/audio_quality>`. The resulting file can be viewed in Godot with :ref:`VideoStreamPlayer<class_VideoStreamPlayer>` and most video players, but not web browsers as they don't support Theora.
+- Contenitore OGV con Theora per il video e Vorbis per l'audio (estensione file ``.ogv``). Compressione con perdita di dati, dimensioni file medie, codifica veloce. La qualità della compressione può essere regolata modificando :ref:`editor/movie_writer/video_quality<class_ProjectSettings_property_editor/movie_writer/video_quality>` e :ref:`editor/movie_writer/ogv/audio_quality<class_ProjectSettings_property_editor/movie_writer/ogv/audio_quality>`. È possibile visualizzare il file risultante in Godot con :ref:`VideoStreamPlayer<class_VideoStreamPlayer>` e la maggior parte dei lettori video, ma non con i browser web, poiché non supportano Theora.
 
-- AVI container with MJPEG for video and uncompressed audio (``.avi`` file extension). Lossy compression, medium file sizes, fast encoding. The lossy compression quality can be adjusted by changing :ref:`editor/movie_writer/video_quality<class_ProjectSettings_property_editor/movie_writer/video_quality>`. The resulting file can be viewed in most video players, but it must be converted to another format for viewing on the web or by Godot with :ref:`VideoStreamPlayer<class_VideoStreamPlayer>`. MJPEG does not support transparency. AVI output is currently limited to a file of 4 GB in size at most.
+- Contenitore AVI con MJPEG per video e audio non compresso (estensione file ``.avi``). Compressione con perdita di dati, dimensioni file medie, codifica veloce. La qualità della compressione può essere regolata modificando :ref:`editor/movie_writer/video_quality<class_ProjectSettings_property_editor/movie_writer/video_quality>`. È possibile visualizzare il file risultante nella maggior parte dei lettori video, ma è necessario convertirlo in un altro formato per poterlo visualizzare sul Web o da Godot con :ref:`VideoStreamPlayer<class_VideoStreamPlayer>`. MJPEG non supporta la trasparenza. Il file in AVI risultante può attualmente essere di dimensioni fino a 4 GB.
 
-- PNG image sequence for video and WAV for audio (``.png`` file extension). Lossless compression, large file sizes, slow encoding. Designed to be encoded to a video file with another tool such as `FFmpeg <https://ffmpeg.org/>`__ after recording. Transparency is currently not supported, even if the root viewport is set to be transparent.
+- Sequenza di immagini PNG per video e WAV per audio (estensione file ``.png``). Compressione senza perdita di dati, dimensioni file grandi, codifica lenta. Progettato per essere codificato in un file video con un altro strumento come `FFmpeg <https://ffmpeg.org/>`__ dopo la registrazione. La trasparenza non è attualmente supportata, anche se la viewport radice è impostata per essere trasparente.
 
-If you need to encode to a different format or pipe a stream through third-party software, you can extend this :ref:`MovieWriter<class_MovieWriter>` class to create your own movie writers.
+Se c'è bisogno di codificare in un formato diverso o di trasmettere un flusso tramite software di terze parti, è possibile estendere questa classe :ref:`MovieWriter<class_MovieWriter>` per creare i propri movie writer.
 
-When using PNG output, the frame number will be appended at the end of the file name. It starts from 0 and is padded with 8 digits to ensure correct sorting and easier processing. For example, if the output path is ``/tmp/hello.png``, the first two frames will be ``/tmp/hello00000000.png`` and ``/tmp/hello00000001.png``. The audio will be saved at ``/tmp/hello.wav``.
+Quando si utilizza l'output PNG, il numero del fotogramma sarà aggiunto alla fine del nome del file. Inizia da 0 e viene imbottito con 8 cifre per garantire un ordinamento corretto e un'elaborazione più facile. Ad esempio, se il percorso di output è ``/tmp/hello.png``, i primi due fotogrammi saranno ``/tmp/hello00000000.png`` e ``/tmp/hello00000001.png``. L'audio sarà salvato in ``/tmp/hello.wav``.
 
 .. rst-class:: classref-item-separator
 
@@ -5109,9 +5109,9 @@ When using PNG output, the frame number will be appended at the end of the file 
 
 :ref:`float<class_float>` **editor/movie_writer/ogv/audio_quality** = ``0.5`` :ref:`🔗<class_ProjectSettings_property_editor/movie_writer/ogv/audio_quality>`
 
-The audio encoding quality to use when writing Vorbis audio to a file, between ``-0.1`` and ``1.0`` (inclusive). Higher ``quality`` values result in better-sounding output at the cost of larger file sizes. Even at quality ``1.0``, compression remains lossy.
+La qualità di codifica audio da usare per la scrittura di audio Vorbis in un file, tra ``-0.1`` e ``1.0`` (inclusi). Valori di ``quality`` più alti producono un suono migliore, a scapito di dimensioni più grandi di file. Anche a qualità ``1.0``, la compressione rimane con perdite di dati.
 
-\ **Note:** This does not affect video quality, which is controlled by :ref:`editor/movie_writer/video_quality<class_ProjectSettings_property_editor/movie_writer/video_quality>` instead.
+\ **Nota:** Questo non influisce sulla qualità video, che è invece controllata da :ref:`editor/movie_writer/video_quality<class_ProjectSettings_property_editor/movie_writer/video_quality>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5123,7 +5123,7 @@ The audio encoding quality to use when writing Vorbis audio to a file, between `
 
 :ref:`int<class_int>` **editor/movie_writer/ogv/encoding_speed** = ``4`` :ref:`🔗<class_ProjectSettings_property_editor/movie_writer/ogv/encoding_speed>`
 
-The tradeoff between encoding speed and compression efficiency. Speed ``1`` is the slowest but provides the best compression. Speed ``4`` is the fastest but provides the worst compression. Video quality is generally not affected significantly by this setting.
+Il compromesso tra velocità di codifica ed efficienza di compressione. La velocità ``1`` è la più lenta ma offre la migliore compressione. La velocità ``4`` è la più veloce ma offre la peggiore compressione. La qualità video generalmente non è influenzata notevolmente da questa impostazione.
 
 .. rst-class:: classref-item-separator
 
@@ -5135,7 +5135,7 @@ The tradeoff between encoding speed and compression efficiency. Speed ``1`` is t
 
 :ref:`int<class_int>` **editor/movie_writer/ogv/keyframe_interval** = ``64`` :ref:`🔗<class_ProjectSettings_property_editor/movie_writer/ogv/keyframe_interval>`
 
-Forces keyframes at the specified interval (in frame count). Higher values can improve compression up to a certain level at the expense of higher latency when seeking.
+Forza i fotogrammi chiave all'intervallo specificato (in numero di fotogrammi). Valori più elevati possono migliorare la compressione fino a un certo livello, a scapito di una maggiore latenza durante la ricerca.
 
 .. rst-class:: classref-item-separator
 
@@ -5159,7 +5159,7 @@ La modalità altoparlante da utilizzare nell'audio registrato durante la scrittu
 
 :ref:`float<class_float>` **editor/movie_writer/video_quality** = ``0.75`` :ref:`🔗<class_ProjectSettings_property_editor/movie_writer/video_quality>`
 
-The video encoding quality to use when writing a Theora or AVI (MJPEG) video to a file, between ``0.0`` and ``1.0`` (inclusive). Higher ``quality`` values result in better-looking output at the cost of larger file sizes. Recommended ``quality`` values are between ``0.75`` and ``0.9``. Even at quality ``1.0``, compression remains lossy.
+La qualità di codifica video da usare per la scrittura di un video Theora o AVI (MJPEG) in un file, tra ``0.0`` e ``1.0`` (inclusi). Valori di ``quality`` più alti producono un aspetto migliore, a scapito di dimensioni più grandi di file. I valori di ``quality`` consigliati sono tra ``0.75`` e ``0.9``. Anche a qualità ``1.0``, la compressione rimane con perdite di dati.
 
 .. rst-class:: classref-item-separator
 
@@ -5419,11 +5419,11 @@ Se ``true``, aggancia i vertici dei nodi :ref:`Control<class_Control>` al pixel 
 
 Come posizionare i pulsanti Annulla e OK negli :ref:`AcceptDialog<class_AcceptDialog>` dell'editor. Le diverse piattaforme hanno diversi comportamenti standard per questo, che si possono sovrascrivere attraverso questa impostazione. Ciò è utile se si utilizza Godot sia su Windows sia su macOS/Linux e la memoria muscolare di Godot è più forte di quella specifica del proprio sistema operativo.
 
-- **Auto** segue la convenzione della piattaforma: prima Annulla su macOS e Linux, prima OK su Windows.
+- **Auto** (``0``) segue la convenzione della piattaforma: prima OK su Windows, KDE e LXQt, prima Annulla su macOS e altri ambienti desktop Linux. È possibile usare :ref:`DisplayServer.get_swap_cancel_ok()<class_DisplayServer_method_get_swap_cancel_ok>` per verificare se i pulsanti sono scambiati in fase di esecuzione.
 
-- **Cancel First** Forza l'ordinamento Annulla/OK.
+- **Cancel First** (``1``) Forza l'ordinamento Annulla/OK.
 
-- **OK First** Forza l'ordinamento OK/Annulla.
+- **OK First** (``2``) Forza l'ordinamento OK/Annulla.
 
 \ **Nota:** Questo non ha effetto sulle finestre di dialogo native come quelle generate da :ref:`DisplayServer.dialog_show()<class_DisplayServer_method_dialog_show>`.
 
@@ -5449,7 +5449,7 @@ Dimensione massima della cronologia annulla/ripristina per i campi di :ref:`Text
 
 :ref:`bool<class_bool>` **gui/fonts/dynamic_fonts/use_oversampling** = ``true`` :ref:`🔗<class_ProjectSettings_property_gui/fonts/dynamic_fonts/use_oversampling>`
 
-If set to ``true`` and :ref:`display/window/stretch/mode<class_ProjectSettings_property_display/window/stretch/mode>` is set to **"canvas_items"**, font and :ref:`DPITexture<class_DPITexture>` oversampling is enabled in the main window. Use :ref:`Viewport.oversampling<class_Viewport_property_oversampling>` to control oversampling in other viewports and windows.
+Se impostato su ``true`` e :ref:`display/window/stretch/mode<class_ProjectSettings_property_display/window/stretch/mode>` è impostato su **"canvas_items"**, il sovracampionamento dei font e di :ref:`DPITexture<class_DPITexture>` è abilitato nella finestra principale. Usa :ref:`Viewport.oversampling<class_Viewport_property_oversampling>` per controllare il sovracampionamento in altre finestre e viewport.
 
 .. rst-class:: classref-item-separator
 
@@ -6877,7 +6877,7 @@ Sostituizione per :ref:`input_devices/pen_tablet/driver<class_ProjectSettings_pr
 
 :ref:`bool<class_bool>` **input_devices/pointing/android/disable_scroll_deadzone** = ``false`` :ref:`🔗<class_ProjectSettings_property_input_devices/pointing/android/disable_scroll_deadzone>`
 
-If ``true``, disables the scroll deadzone on Android, allowing even very small scroll movements to be registered. This may increase scroll sensitivity but can also lead to unintended scrolling from slight finger movements.
+Se ``true``, disabilita la zona morta di scorrimento su Android, consentendo il rilevamento anche di movimenti molto lievi di scorrimento. Ciò può aumentare la sensibilità allo scorrimento, ma può anche causare scorrimenti indesiderati dovuto a lievi movimenti delle dita.
 
 .. rst-class:: classref-item-separator
 
@@ -7039,17 +7039,17 @@ Se ``true``, la serie di regole di iterazione di interruzione, i dizionari e alt
 
 :ref:`int<class_int>` **internationalization/locale/line_breaking_strictness** = ``0`` :ref:`🔗<class_ProjectSettings_property_internationalization/locale/line_breaking_strictness>`
 
-Default strictness of line-breaking rules. Can be overridden by adding ``@lb={auto,loose,normal,strict}`` to the language code.
+Rigidità predefinita delle regole di interruzione di riga. La si può sovrascrivere aggiungendo ``@lb={auto,loose,normal,strict}`` al codice della lingua.
 
-- **Auto** (``0``) - strictness is based on the length of the line.
+- **Auto** (``0``) - la rigidità si basa sulla lunghezza della riga.
 
-- **Loose** (``1``) - the least restrictive set of line-breaking rules. Typically used for short lines.
+- **Loose** (``1``) - l'insieme di regole di interruzione di riga meno restrittivo. Tipicamente usato per righe brevi.
 
-- **Normal** (``2``) - the most common set of line-breaking rules.
+- **Normal** (``2``) - l'insieme di regole di interruzione di riga più comune.
 
-- **Strict** (``3``) - the most stringent set of line-breaking rules.
+- **Strict** (``3``) - l'insieme di regole di interruzione di riga più restrittivo.
 
-See `Line Breaking Strictness: the line-break property <https://www.w3.org/TR/css-text-3/#line-break-property>`__ for more info.
+Per ulteriori informazioni, consultare `Line Breaking Strictness: the line-break property <https://www.w3.org/TR/css-text-3/#line-break-property>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -7099,7 +7099,7 @@ Il rapporto di espansione da usare durante la pseudolocalizzazione. In pratica, 
 
 :ref:`bool<class_bool>` **internationalization/pseudolocalization/fake_bidi** = ``false`` :ref:`🔗<class_ProjectSettings_property_internationalization/pseudolocalization/fake_bidi>`
 
-Se ``true``, emula il testo bidirezionale (da destra a sinistra) quando è abilitata la pseudolocalizzazione. Questo può essere utilizzato per individuare problemi con il layout RTL e il rispecchiamento dell'interfaccia utente, che si presenteranno se il progetto è localizzato in lingue RTL come l'arabo o l'ebraico. Vedi anche :ref:`internationalization/rendering/force_right_to_left_layout_direction<class_ProjectSettings_property_internationalization/rendering/force_right_to_left_layout_direction>`.
+Se ``true``, emula il testo bidirezionale (da destra a sinistra) quando è abilitata la pseudolocalizzazione. Ciò serve per individuare problemi con il layout RTL e il rispecchiamento dell'interfaccia utente, i quali si presenteranno se il progetto è localizzato in lingue RTL come l'arabo o l'ebraico. Vedi anche :ref:`internationalization/rendering/force_right_to_left_layout_direction<class_ProjectSettings_property_internationalization/rendering/force_right_to_left_layout_direction>`.
 
 .. rst-class:: classref-item-separator
 
@@ -9689,7 +9689,7 @@ Il raggio predefinito di connessione del collegamento per le mappe di navigazion
 
 :ref:`float<class_float>` **navigation/2d/merge_rasterizer_cell_scale** = ``1.0`` :ref:`🔗<class_ProjectSettings_property_navigation/2d/merge_rasterizer_cell_scale>`
 
-Default merge rasterizer cell scale for 2D navigation maps. See :ref:`NavigationServer2D.map_set_merge_rasterizer_cell_scale()<class_NavigationServer2D_method_map_set_merge_rasterizer_cell_scale>`.
+La scala predefinita del rasterizzatore di unione celle per le mappe di navigazione 2D. Vedi :ref:`NavigationServer2D.map_set_merge_rasterizer_cell_scale()<class_NavigationServer2D_method_map_set_merge_rasterizer_cell_scale>`.
 
 .. rst-class:: classref-item-separator
 
@@ -9881,7 +9881,7 @@ Se abilitata, la sincronizzazione della mappa di navigazione utilizza un process
 
 :ref:`bool<class_bool>` **navigation/world/region_use_async_iterations** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/world/region_use_async_iterations>`
 
-If enabled, navigation region synchronization uses an async process that runs on a background thread. This avoids stalling the main thread but adds an additional delay to any navigation region change.
+Se abilitata, la sincronizzazione delle regioni di navigazione utilizza un processo asincrono che viene eseguito su un thread in background. Ciò evita di bloccare il thread principale ma aggiunge un ulteriore ritardo a qualsiasi cambio delle regioni di navigazione.
 
 .. rst-class:: classref-item-separator
 
@@ -10367,13 +10367,13 @@ Le estensioni e i moduli di terze parti possono aggiungere altri motori di fisic
 
 :ref:`String<class_String>` **physics/3d/physics_interpolation/scene_traversal** = ``"DEFAULT"`` :ref:`🔗<class_ProjectSettings_property_physics/3d/physics_interpolation/scene_traversal>`
 
-The approach used for 3D scene traversal when physics interpolation is enabled.
+L'approccio utilizzato per attraversare la scena 3D quando l'interpolazione fisica è abilitata.
 
-- ``DEFAULT``: The default optimized method.
+- ``DEFAULT``: Il metodo ottimizzato predefinito.
 
-- ``Legacy``: The previous reference method used for scene tree traversal, which is slower.
+- ``Legacy``: Il precedente metodo di riferimento usato per attraversare l'albero di scene, che è più lento.
 
-- ``Debug``: Swaps between ``DEFAULT`` and ``Legacy`` methods on alternating frames, and provides logging information (which in turn makes it slower). Intended for debugging only; you should use the ``DEFAULT`` method in most cases.
+- ``Debug``: Passa dal metodo ``DEFAULT`` a quello ``Legacy`` su frame alternati e fornisce informazioni di log (che a loro volta lo rendono più lento). Pensato solamente per il debug; si consiglia di utilizzare il metodo ``DEFAULT`` nella maggior parte dei casi.
 
 .. rst-class:: classref-item-separator
 
@@ -10509,11 +10509,11 @@ Abilita :ref:`Viewport.physics_object_picking<class_Viewport_property_physics_ob
 
 :ref:`int<class_int>` **physics/common/max_physics_steps_per_frame** = ``8`` :ref:`🔗<class_ProjectSettings_property_physics/common/max_physics_steps_per_frame>`
 
-Controls the maximum number of physics steps that can be simulated each rendered frame. The default value is tuned to avoid situations where the framerate suddenly drops to a very low value beyond a certain amount of physics simulation. This occurs because the physics engine can't keep up with the expected simulation rate. In this case, the framerate will start dropping, but the engine is only allowed to simulate a certain number of physics steps per rendered frame. This snowballs into a situation where framerate keeps dropping until it reaches a very low framerate (typically 1-2 FPS) and is called the *physics spiral of death*.
+Controlla il numero massimo di passaggi fisici che si possono simulare per ogni frame renderizzato. Il valore predefinito è regolato per evitare situazioni dove la frequenza dei frame cali improvvisamente a un valore bassissimo, oltre un certo punto per la simulazione fisica. Ciò avviene perché il motore di fisica non riesce a mantenere la frequenza prevista di simulazione. In questo caso, la frequenza dei frame inizierà a calare, ma al motore è consentito simulare solo un certo numero di passaggi fisici per un frame renderizzato. Questa si trasforma in una situazione dove la frequenza continua a calare fino a raggiungere una frequenza molto bassa (in genere 1-2 FPS) ed è chiamata *spirale di morte della fisica*.
 
-However, the game will appear to slow down if the rendering FPS is less than ``1 / max_physics_steps_per_frame`` of :ref:`physics/common/physics_ticks_per_second<class_ProjectSettings_property_physics/common/physics_ticks_per_second>`. This occurs even if ``delta`` is consistently used in physics calculations. To avoid this, increase :ref:`physics/common/max_physics_steps_per_frame<class_ProjectSettings_property_physics/common/max_physics_steps_per_frame>` if you have increased :ref:`physics/common/physics_ticks_per_second<class_ProjectSettings_property_physics/common/physics_ticks_per_second>` significantly above its default value.
+Tuttavia, il gioco sembrerà rallentare se l'FPS di rendering è inferiore a ``1 / max_physics_steps_per_frame`` di :ref:`physics/common/physics_ticks_per_second<class_ProjectSettings_property_physics/common/physics_ticks_per_second>`. Ciò si verifica anche se ``delta`` è utilizzato appropriatamente nei calcoli della fisica. Per evitare ciò, aumentare :ref:`physics/common/max_physics_steps_per_frame<class_ProjectSettings_property_physics/common/max_physics_steps_per_frame>` se :ref:`physics/common/physics_ticks_per_second<class_ProjectSettings_property_physics/common/physics_ticks_per_second>` è stato aumentato significativamente al di sopra del suo valore predefinito.
 
-\ **Note:** This property is only read when the project starts. To change the maximum number of simulated physics steps per frame at runtime, set :ref:`Engine.max_physics_steps_per_frame<class_Engine_property_max_physics_steps_per_frame>` instead.
+\ **Nota:** Questa proprietà viene letta solo all'avvio del progetto. Per modificare il numero massimo di passaggi simulati di fisica per frame in fase di esecuzione, imposta invece :ref:`Engine.max_physics_steps_per_frame<class_Engine_property_max_physics_steps_per_frame>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10525,9 +10525,9 @@ However, the game will appear to slow down if the rendering FPS is less than ``1
 
 :ref:`bool<class_bool>` **physics/common/physics_interpolation** = ``false`` :ref:`🔗<class_ProjectSettings_property_physics/common/physics_interpolation>`
 
-Se ``true``, il renderer interpolerà le trasformazioni degli oggetti fisici tra le ultime due trasformazioni, in modo che un movimento fluido sia visibile anche quando i tick di fisica non coincidono con i frame renderizzati. Vedi anche :ref:`Node.physics_interpolation_mode<class_Node_property_physics_interpolation_mode>` e :ref:`Node.reset_physics_interpolation()<class_Node_method_reset_physics_interpolation>`.
+Se ``true``, il renderer interpolerà le trasformazioni degli oggetti fisici tra le ultime due trasformazioni, in modo da poter notare un movimento fluido anche quando i tick di fisica non coincidono con i frame renderizzati. Vedi anche :ref:`Node.physics_interpolation_mode<class_Node_property_physics_interpolation_mode>` e :ref:`Node.reset_physics_interpolation()<class_Node_method_reset_physics_interpolation>`.
 
-\ **Nota:** Se ``true``, la correzione del jitter di fisica dovrebbe essere disabilitata impostando :ref:`physics/common/physics_jitter_fix<class_ProjectSettings_property_physics/common/physics_jitter_fix>` su ``0.0``.
+\ **Nota:** Sebbene questa sia un'impostazione globale, è disponibile un controllo più preciso dei singoli rami dello :ref:`SceneTree<class_SceneTree>` attraverso :ref:`Node.physics_interpolation_mode<class_Node_property_physics_interpolation_mode>`.
 
 \ **Nota:** Questa proprietà è letta solo all'avvio del progetto. Per attivare/disattivare l'interpolazione fisica in fase di esecuzione, imposta invece :ref:`SceneTree.physics_interpolation<class_SceneTree_property_physics_interpolation>`.
 
@@ -10941,7 +10941,7 @@ Tempo in secondi che un :ref:`RigidBody3D<class_RigidBody3D>` trascorrerà al di
 
 :ref:`float<class_float>` **physics/jolt_physics_3d/simulation/sleep_velocity_threshold** = ``0.03`` :ref:`🔗<class_ProjectSettings_property_physics/jolt_physics_3d/simulation/sleep_velocity_threshold>`
 
-La velocità lineare di punti specifici sul bounding box di un :ref:`RigidBody3D<class_RigidBody3D>`, al di sotto della quale può essere messo in riposo, in metri al secondo. Questi punti aiutano a catturare sia il movimento lineare sia quello angolare di un :ref:`RigidBody3D<class_RigidBody3D>`.
+La velocità lineare di punti specifici sulla bounding box di un :ref:`RigidBody3D<class_RigidBody3D>`, al di sotto della quale può essere messo in riposo, in metri al secondo. Questi punti aiutano a catturare sia il movimento lineare sia quello angolare di un :ref:`RigidBody3D<class_RigidBody3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11173,11 +11173,11 @@ Imposta la sensibilità ai bordi quando si utilizza SMAA per l'antialiasing. Val
 
 :ref:`bool<class_bool>` **rendering/anti_aliasing/quality/use_debanding** = ``false`` :ref:`🔗<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_debanding>`
 
-If ``true``, uses a fast post-processing filter to make banding significantly less visible. If :ref:`rendering/viewport/hdr_2d<class_ProjectSettings_property_rendering/viewport/hdr_2d>` is ``false``, 2D rendering is *not* affected by debanding unless the :ref:`Environment.background_mode<class_Environment_property_background_mode>` is :ref:`Environment.BG_CANVAS<class_Environment_constant_BG_CANVAS>`. If :ref:`rendering/viewport/hdr_2d<class_ProjectSettings_property_rendering/viewport/hdr_2d>` is ``true``, debanding will affect all 2D and 3D rendering, including canvas items.
+Se ``true``, utilizza un filtro di post-elaborazione veloce per rendere il banding notevolmente meno visibile. Se :ref:`rendering/viewport/hdr_2d<class_ProjectSettings_property_rendering/viewport/hdr_2d>` è ``false``, il rendering 2D *non* è influenzato dal debanding a meno che :ref:`Environment.background_mode<class_Environment_property_background_mode>` non sia :ref:`Environment.BG_CANVAS<class_Environment_constant_BG_CANVAS>`. Se :ref:`rendering/viewport/hdr_2d<class_ProjectSettings_property_rendering/viewport/hdr_2d>` è ``true``, il debanding influenzerà tutto il rendering 2D e 3D, inclusi gli elementi canvas.
 
-In some cases, debanding may introduce a slightly noticeable dithering pattern. It's recommended to enable debanding only when actually needed since the dithering pattern will make lossless-compressed screenshots larger.
+In alcuni casi, il debanding potrebbe introdurre un leggero motivo di dithering. Si consiglia di abilitare il debanding solo quando è effettivamente necessario, poiché il motivo di dithering renderà più grandi gli screenshot compressi senza perdita di dati.
 
-\ **Note:** This property is only read when the project starts. To set debanding at runtime, set :ref:`Viewport.use_debanding<class_Viewport_property_use_debanding>` on the root :ref:`Viewport<class_Viewport>` instead, or use :ref:`RenderingServer.viewport_set_use_debanding()<class_RenderingServer_method_viewport_set_use_debanding>`.
+\ **Nota:** Questa proprietà viene letta solo all'avvio del progetto. Per impostare il debanding in fase di esecuzione, imposta invece :ref:`Viewport.use_debanding<class_Viewport_property_use_debanding>` sulla :ref:`Viewport<class_Viewport>` radice, o usa :ref:`RenderingServer.viewport_set_use_debanding()<class_RenderingServer_method_viewport_set_use_debanding>`.
 
 .. rst-class:: classref-item-separator
 
@@ -12081,7 +12081,7 @@ Se ``true``, applica un filtro bicubico durante il campionamento delle lightmap.
 
 :ref:`float<class_float>` **rendering/lightmapping/primitive_meshes/texel_size** = ``0.2`` :ref:`🔗<class_ProjectSettings_property_rendering/lightmapping/primitive_meshes/texel_size>`
 
-La dimensione dei texel utilizzato per calcolare :ref:`Mesh.lightmap_size_hint<class_Mesh_property_lightmap_size_hint>` sulle risorse :ref:`PrimitiveMesh<class_PrimitiveMesh>` se :ref:`PrimitiveMesh.add_uv2<class_PrimitiveMesh_property_add_uv2>` è abilitato.
+La dimensione dei texel utilizzata per calcolare :ref:`Mesh.lightmap_size_hint<class_Mesh_property_lightmap_size_hint>` sulle risorse :ref:`PrimitiveMesh<class_PrimitiveMesh>` se :ref:`PrimitiveMesh.add_uv2<class_PrimitiveMesh_property_add_uv2>` è abilitato.
 
 .. rst-class:: classref-item-separator
 
@@ -12181,7 +12181,7 @@ Utilizza 16 bit per la mappa di profondità delle ombre omni/spot. Abilitando qu
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_0_subdiv** = ``2`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_0_subdiv>`
 
-The subdivision amount of the first quadrant on the shadow atlas. See the `documentation <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
+La quantità di suddivisione del primo quadrante sull'atlante delle ombre. Per ulteriori informazioni, consultare la `documentazione <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -12193,7 +12193,7 @@ The subdivision amount of the first quadrant on the shadow atlas. See the `docum
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_1_subdiv** = ``2`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_1_subdiv>`
 
-The subdivision amount of the second quadrant on the shadow atlas. See the `documentation <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
+La quantità di suddivisione del secondo quadrante sull'atlante delle ombre. Per ulteriori informazioni, consultare la `documentazione <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -12205,7 +12205,7 @@ The subdivision amount of the second quadrant on the shadow atlas. See the `docu
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_2_subdiv** = ``3`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_2_subdiv>`
 
-The subdivision amount of the third quadrant on the shadow atlas. See the `documentation <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
+La quantità di suddivisione del terzo quadrante sull'atlante delle ombre. Per ulteriori informazioni, consultare la `documentazione <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -12217,7 +12217,7 @@ The subdivision amount of the third quadrant on the shadow atlas. See the `docum
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_3_subdiv** = ``4`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_3_subdiv>`
 
-The subdivision amount of the fourth quadrant on the shadow atlas. See the `documentation <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
+La quantità di suddivisione del quarto quadrante sull'atlante delle ombre. Per ulteriori informazioni, consultare la `documentazione <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -12229,7 +12229,7 @@ The subdivision amount of the fourth quadrant on the shadow atlas. See the `docu
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_size** = ``4096`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_size>`
 
-The size of the shadow atlas used for :ref:`OmniLight3D<class_OmniLight3D>` and :ref:`SpotLight3D<class_SpotLight3D>` nodes. See the `documentation <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
+La dimensione dell'atlante delle ombre utilizzato per i nodi :ref:`OmniLight3D<class_OmniLight3D>` e :ref:`SpotLight3D<class_SpotLight3D>`. Per ulteriori informazioni, consultare la `documentazione <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -13197,7 +13197,7 @@ Se ``true``, forza l'ombreggiatura con vertici per tutto il rendering. Questo pu
 
 :ref:`int<class_int>` **rendering/textures/basis_universal/rdo_dict_size** = ``1024`` :ref:`🔗<class_ProjectSettings_property_rendering/textures/basis_universal/rdo_dict_size>`
 
-The dictionary size for Rate-Distortion Optimization (RDO) when importing textures as Basis Universal and when RDO is enabled, ranging from ``64`` to ``65536``. Higher values reduce the file sizes further, but make encoding times significantly longer.
+La dimensione del dizionario per il Rate-Distortion Optimization (RDO) quando si importano texture come Basis Universal e quando l'RDO è abilitato, varia da ``64`` a ``65536``. Valori più alti riducono ulteriormente le dimensioni dei file, ma allungano notevolmente i tempi di codifica.
 
 .. rst-class:: classref-item-separator
 
@@ -13209,9 +13209,9 @@ The dictionary size for Rate-Distortion Optimization (RDO) when importing textur
 
 :ref:`bool<class_bool>` **rendering/textures/basis_universal/zstd_supercompression** = ``true`` :ref:`🔗<class_ProjectSettings_property_rendering/textures/basis_universal/zstd_supercompression>`
 
-If ``true``, enables Zstandard supercompression to reduce file size when importing textures as Basis Universal.
+Se ``true``, abilita la supercompressione Zstandard per ridurre le dimensioni del file durante l'importazione di texture come Basis Universal.
 
-\ **Note:** Basis Universal textures need to be compressed to gain the benefit of smaller file sizes, otherwise they are as large as VRAM-compressed textures.
+\ **Nota:** È necessario che le texture Basis Universal siano compresse per godere di file più piccoli, altrimenti sono grandi quanto le texture compresse in VRAM.
 
 .. rst-class:: classref-item-separator
 
@@ -13223,7 +13223,7 @@ If ``true``, enables Zstandard supercompression to reduce file size when importi
 
 :ref:`int<class_int>` **rendering/textures/basis_universal/zstd_supercompression_level** = ``6`` :ref:`🔗<class_ProjectSettings_property_rendering/textures/basis_universal/zstd_supercompression_level>`
 
-Specify the compression level for Basis Universal Zstandard supercompression, ranging from ``1`` to ``22``.
+Specifica il livello di compressione per la supercompressione Basis Universal Zstandard, che va da ``1`` a ``22``.
 
 .. rst-class:: classref-item-separator
 
@@ -13431,13 +13431,13 @@ Il fattore di compressione predefinito per WebP senza perdite. La velocità di d
 
 :ref:`bool<class_bool>` **rendering/viewport/hdr_2d** = ``false`` :ref:`🔗<class_ProjectSettings_property_rendering/viewport/hdr_2d>`
 
-If ``true``, enables :ref:`Viewport.use_hdr_2d<class_Viewport_property_use_hdr_2d>` on the root viewport. 2D rendering will use a high dynamic range (HDR) format framebuffer matching the bit depth of the 3D framebuffer. When using the Forward+ or Compatibility renderer, this will be an ``RGBA16`` framebuffer. When using the Mobile renderer, it will be an ``RGB10_A2`` framebuffer.
+Se ``true``, abilita :ref:`Viewport.use_hdr_2d<class_Viewport_property_use_hdr_2d>` sulla viewport radice. il rendering 2D utilizzerà un framebuffer in formato HDR (High Dynamic Range, o "alta gamma dinamica") corrispondente alla profondità di bit del framebuffer 3D. Quando si utilizza il renderer Forward+ o Compatibilità, questo sarà un framebuffer ``RGBA16``. Quando si utilizza il renderer Mobile, sarà un framebuffer ``RGB10_A2``.
 
-Additionally, 2D rendering will take place in linear color space and will be converted to sRGB space immediately before blitting to the screen (if the Viewport is attached to the screen).
+Inoltre, il rendering 2D avverrà nello spazio colore lineare e sarà convertito nello spazio sRGB subito prima di essere visualizzato sullo schermo (se la Viewport è collegata allo schermo).
 
-Practically speaking, this means that the end result of the Viewport will not be clamped to the ``0-1`` range and can be used in 3D rendering without color space adjustments. This allows 2D rendering to take advantage of effects requiring high dynamic range (e.g. 2D glow) as well as substantially improves the appearance of effects requiring highly detailed gradients.
+In pratica, ciò significa che il risultato finale della Viewport non sarà limitato nell'intervallo ``0-1`` e si potrà utilizzare nel rendering 3D senza aggiustare lo spazio colore. Ciò consente al rendering 2D di sfruttare gli effetti che richiedono un'elevata gamma dinamica (ad esempio, il bagliore 2D) e migliora sostanzialmente l'aspetto degli effetti che richiedono gradienti molto dettagliati.
 
-\ **Note:** This property is only read when the project starts. To toggle HDR 2D at runtime, set :ref:`Viewport.use_hdr_2d<class_Viewport_property_use_hdr_2d>` on the root :ref:`Viewport<class_Viewport>`.
+\ **Nota:** Questa proprietà viene letta solo all'avvio del progetto. Per attivare il HDR 2D in fase di esecuzione, imposta :ref:`Viewport.use_hdr_2d<class_Viewport_property_use_hdr_2d>` sulla :ref:`Viewport<class_Viewport>` radice.
 
 .. rst-class:: classref-item-separator
 
@@ -13674,9 +13674,9 @@ Se ``true``, è richiesto il supporto per la sorgente dati non ostruita. Se supp
 
 :ref:`bool<class_bool>` **xr/openxr/extensions/render_model** = ``false`` :ref:`🔗<class_ProjectSettings_property_xr/openxr/extensions/render_model>`
 
-If ``true`` we enable the render model extension if available.
+Se ``true`` abilitiamo l'estensione del modello di rendering, se disponibile.
 
-\ **Note:** This relates to the core OpenXR render model extension and has no relation to any vendor render model extensions.
+\ **Nota:** Questo si riferisce all'estensione del modello di rendering OpenXR principale e non ha alcuna relazione con le estensioni del modello di rendering di alcun fornitore.
 
 .. rst-class:: classref-item-separator
 
@@ -13791,13 +13791,13 @@ Descrizioni dei metodi
 
 |void| **add_property_info**\ (\ hint\: :ref:`Dictionary<class_Dictionary>`\ ) :ref:`🔗<class_ProjectSettings_method_add_property_info>`
 
-Adds a custom property info to a property. The dictionary must contain:
+Aggiunge informazioni personalizzate di proprietà a una proprietà. Il dizionario deve contenere:
 
-- ``"name"``: :ref:`String<class_String>` (the property's name)
+- ``"name"``: :ref:`String<class_String>` (il nome della proprietà)
 
-- ``"type"``: :ref:`int<class_int>` (see :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`)
+- ``"type"``: :ref:`int<class_int>` (vedi :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`)
 
-- optionally ``"hint"``: :ref:`int<class_int>` (see :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`) and ``"hint_string"``: :ref:`String<class_String>`\ 
+- facoltativamente ``"hint"``: :ref:`int<class_int>` (vedi :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`) e ``"hint_string"``: :ref:`String<class_String>`\ 
 
 
 .. tabs::
@@ -13831,7 +13831,7 @@ Adds a custom property info to a property. The dictionary must contain:
 
 
 
-\ **Note:** Setting ``"usage"`` for the property is not supported. Use :ref:`set_as_basic()<class_ProjectSettings_method_set_as_basic>`, :ref:`set_restart_if_changed()<class_ProjectSettings_method_set_restart_if_changed>`, and :ref:`set_as_internal()<class_ProjectSettings_method_set_as_internal>` to modify usage flags.
+\ **Nota:** L'impostazione di ``"usage"`` per la proprietà non è supportata. Usa :ref:`set_as_basic()<class_ProjectSettings_method_set_as_basic>`, :ref:`set_restart_if_changed()<class_ProjectSettings_method_set_restart_if_changed>` e :ref:`set_as_internal()<class_ProjectSettings_method_set_as_internal>` per modificare i flag di utilizzo.
 
 .. rst-class:: classref-item-separator
 
@@ -13949,7 +13949,7 @@ Simile a :ref:`get_setting()<class_ProjectSettings_method_get_setting>`, ma appl
 
 :ref:`Variant<class_Variant>` **get_setting_with_override_and_custom_features**\ (\ name\: :ref:`StringName<class_StringName>`, features\: :ref:`PackedStringArray<class_PackedStringArray>`\ ) |const| :ref:`🔗<class_ProjectSettings_method_get_setting_with_override_and_custom_features>`
 
-Similar to :ref:`get_setting_with_override()<class_ProjectSettings_method_get_setting_with_override>`, but applies feature tag overrides instead of current OS features.
+Simile a :ref:`get_setting_with_override()<class_ProjectSettings_method_get_setting_with_override>`, ma applica le sostituzioni dei tag di funzionalità anziché le funzionalità attuali del sistema operativo.
 
 .. rst-class:: classref-item-separator
 
@@ -13989,9 +13989,9 @@ Restituisce il percorso assoluto nativo del sistema operativo corrispondente al 
 
 :ref:`bool<class_bool>` **has_setting**\ (\ name\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_ProjectSettings_method_has_setting>`
 
-Returns ``true`` if a configuration value is present.
+Restituisce ``true`` se è presente un valore di configurazione.
 
-\ **Note:** In order to be be detected, custom settings have to be either defined with :ref:`set_setting()<class_ProjectSettings_method_set_setting>`, or exist in the ``project.godot`` file. This is especially relevant when using :ref:`set_initial_value()<class_ProjectSettings_method_set_initial_value>`.
+\ **Nota:** Per essere rilevate, è necessario definire le impostazioni personalizzate con :ref:`set_setting()<class_ProjectSettings_method_set_setting>` o includerle nel file ``project.godot``. In particolare, ciò è da tenere in mente quando si utilizza :ref:`set_initial_value()<class_ProjectSettings_method_set_initial_value>`.
 
 .. rst-class:: classref-item-separator
 
@@ -14083,7 +14083,7 @@ Definisce se l'impostazione specificata è considerata interna. Un'impostazione 
 
 |void| **set_initial_value**\ (\ name\: :ref:`String<class_String>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_ProjectSettings_method_set_initial_value>`
 
-Sets the specified setting's initial value. This is the value the setting reverts to. The setting should already exist before calling this method. Note that project settings equal to their default value are not saved, so your code needs to account for that.
+Imposta il valore iniziale dell'impostazione specificata. Questo è il valore a cui l'impostazione viene ripristinata. L'impostazione dovrebbe esistere già prima di chiamare questo metodo. Si noti che le impostazioni del progetto uguali al loro valore predefinito non sono salvate, quindi il codice deve tenerne conto.
 
 ::
 
@@ -14098,7 +14098,7 @@ Sets the specified setting's initial value. This is the value the setting revert
 
         ProjectSettings.set_initial_value(SETTING_NAME, SETTING_DEFAULT)
 
-If you have a project setting defined by an :ref:`EditorPlugin<class_EditorPlugin>`, but want to use it in a running project, you will need a similar code at runtime.
+Se è presente un'impostazione del progetto definita da un :ref:`EditorPlugin<class_EditorPlugin>`, ma si desidera utilizzarla in un progetto in esecuzione, sarà necessario avere simile codice in fase di esecuzione.
 
 .. rst-class:: classref-item-separator
 

@@ -263,7 +263,7 @@ Adds the specified ``segments`` to the gizmo's collision shape for picking. Call
 
 |void| **add_collision_triangles**\ (\ triangles\: :ref:`TriangleMesh<class_TriangleMesh>`\ ) :ref:`🔗<class_EditorNode3DGizmo_method_add_collision_triangles>`
 
-Adds collision triangles to the gizmo for picking. A :ref:`TriangleMesh<class_TriangleMesh>` can be generated from a regular :ref:`Mesh<class_Mesh>` too. Call this method during :ref:`_redraw()<class_EditorNode3DGizmo_private_method__redraw>`.
+Ajoute des triangles de collision au manipulateur pour la sélection. Un :ref:`TriangleMesh<class_TriangleMesh>` peut aussi être généré à partir d'un :ref:`Mesh<class_Mesh>` habituel. Appelez cette fonction durant :ref:`_redraw()<class_EditorNode3DGizmo_private_method__redraw>`.
 
 .. rst-class:: classref-item-separator
 

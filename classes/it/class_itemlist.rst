@@ -1383,7 +1383,7 @@ La spaziatura verticale tra ogni riga di testo.
 
 La dimensione del contorno del testo dell'elemento.
 
-\ **Nota:** Se si utilizza un font con :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` abilitato, il suo :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` deve essere impostato su almeno il *doppio* del valore di :ref:`contour_size<class_ItemList_theme_item_contour_size>` affinché il rendering del contorno appaia corretto. Altrimenti, il contorno potrebbe apparire troncato prima del previsto.
+\ **Nota:** Se si utilizza un font con :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` abilitato, il suo :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` deve essere impostato su almeno il *doppio* del valore di :ref:`outline_size<class_ItemList_theme_constant_outline_size>` affinché il rendering del contorno appaia corretto. Altrimenti, il contorno potrebbe apparire troncato prima del previsto.
 
 .. rst-class:: classref-item-separator
 

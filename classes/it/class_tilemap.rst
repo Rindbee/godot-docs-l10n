@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/TileMap.xml.
+.. meta::
+	:keywords: gridmap
 
 .. _class_TileMap:
 
@@ -19,7 +19,7 @@ Nodo per mappe basate su tasselli 2D.
 Descrizione
 ----------------------
 
-Nodo per mappe basate su tasselli 2D. Le tilemap utilizzano un :ref:`TileSet<class_TileSet>` che contiene un elenco di tasselli che sono utilizzati per creare mappe basate su una griglia. Una TileMap può avere diversi livelli, disponendo i tasselli uno sopra l'altro.
+Nodo per mappe basate su tasselli 2D. Le tilemap utilizzano un :ref:`TileSet<class_TileSet>` che contiene un elenco di tasselli che servono per creare mappe basate su una griglia. Una TileMap può avere diversi livelli, disponendo i tasselli uno sopra l'altro.
 
 Per motivi di prestazioni, tutti gli aggiornamenti di TileMap sono raggruppati alla fine di un frame. In particolare, ciò significa che i tasselli di scena da un :ref:`TileSetScenesCollectionSource<class_TileSetScenesCollectionSource>` possono essere inizializzate dopo il loro genitore. Ciò viene messo in coda solo quando si trova all'interno dell'albero della scena.
 

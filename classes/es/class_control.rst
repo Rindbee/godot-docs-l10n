@@ -45,7 +45,7 @@ Tutoriales
 
 - :doc:`Índice de documentación de GUI <../tutorials/ui/index>`
 
-- :doc:`Custom drawing in 2D <../tutorials/2d/custom_drawing_in_2d>`
+- :doc:`Dibujo personalizado en 2D <../tutorials/2d/custom_drawing_in_2d>`
 
 - :doc:`Galería de nodos de Control <../tutorials/ui/control_node_gallery>`
 
@@ -1352,7 +1352,7 @@ Descripciones de Propiedades
 - |void| **set_accessibility_controls_nodes**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\] **get_accessibility_controls_nodes**\ (\ )
 
-The paths to the nodes which are controlled by this node.
+Las rutas a los nodos que están controlados por este nodo.
 
 .. rst-class:: classref-item-separator
 
@@ -1369,7 +1369,7 @@ The paths to the nodes which are controlled by this node.
 - |void| **set_accessibility_described_by_nodes**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\] **get_accessibility_described_by_nodes**\ (\ )
 
-The paths to the nodes which are describing this node.
+Las rutas a los nodos que describen este nodo.
 
 .. rst-class:: classref-item-separator
 
@@ -1386,7 +1386,7 @@ The paths to the nodes which are describing this node.
 - |void| **set_accessibility_description**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_accessibility_description**\ (\ )
 
-The human-readable node description that is reported to assistive apps.
+La descripción del nodo legible por humanos que se reporta a las aplicaciones de asistencia.
 
 .. rst-class:: classref-item-separator
 
@@ -1403,7 +1403,7 @@ The human-readable node description that is reported to assistive apps.
 - |void| **set_accessibility_flow_to_nodes**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\] **get_accessibility_flow_to_nodes**\ (\ )
 
-The paths to the nodes which this node flows into.
+Las rutas a los nodos a los que fluye este nodo.
 
 .. rst-class:: classref-item-separator
 
@@ -1420,7 +1420,7 @@ The paths to the nodes which this node flows into.
 - |void| **set_accessibility_labeled_by_nodes**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\] **get_accessibility_labeled_by_nodes**\ (\ )
 
-The paths to the nodes which label this node.
+Las rutas a los nodos que etiquetan este nodo.
 
 .. rst-class:: classref-item-separator
 
@@ -3068,9 +3068,9 @@ See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
 
 :ref:`float<class_float>` **get_theme_default_base_scale**\ (\ ) |const| :ref:`🔗<class_Control_method_get_theme_default_base_scale>`
 
-Returns the default base scale value from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a valid :ref:`Theme.default_base_scale<class_Theme_property_default_base_scale>` value.
+Devuelve el valor de escala base predeterminado del primer :ref:`Theme<class_Theme>` coincidente en el árbol si ese :ref:`Theme<class_Theme>` tiene un valor :ref:`Theme.default_base_scale<class_Theme_property_default_base_scale>` válido.
 
-See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
+Véase :ref:`get_theme_color()<class_Control_method_get_theme_color>` para obtener más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -3082,9 +3082,9 @@ See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
 
 :ref:`Font<class_Font>` **get_theme_default_font**\ (\ ) |const| :ref:`🔗<class_Control_method_get_theme_default_font>`
 
-Returns the default font from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a valid :ref:`Theme.default_font<class_Theme_property_default_font>` value.
+Devuelve la fuente predeterminada del primer :ref:`Theme<class_Theme>` coincidente en el árbol si ese :ref:`Theme<class_Theme>` tiene un valor :ref:`Theme.default_font<class_Theme_property_default_font>` válido.
 
-See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
+Véase :ref:`get_theme_color()<class_Control_method_get_theme_color>` para obtener más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -3096,9 +3096,9 @@ See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
 
 :ref:`int<class_int>` **get_theme_default_font_size**\ (\ ) |const| :ref:`🔗<class_Control_method_get_theme_default_font_size>`
 
-Returns the default font size value from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a valid :ref:`Theme.default_font_size<class_Theme_property_default_font_size>` value.
+Devuelve el tamaño de fuente predeterminado del primer :ref:`Theme<class_Theme>` coincidente en el árbol si ese :ref:`Theme<class_Theme>` tiene un valor :ref:`Theme.default_font_size<class_Theme_property_default_font_size>` válido.
 
-See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
+Véase :ref:`get_theme_color()<class_Control_method_get_theme_color>` para obtener más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -3110,9 +3110,9 @@ See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
 
 :ref:`Font<class_Font>` **get_theme_font**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Control_method_get_theme_font>`
 
-Returns a :ref:`Font<class_Font>` from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a font item with the specified ``name`` and ``theme_type``.
+Devuelve una :ref:`Font<class_Font>` del primer :ref:`Theme<class_Theme>` coincidente en el árbol si ese :ref:`Theme<class_Theme>` tiene un elemento de fuente con el ``name`` y el ``theme_type`` especificados.
 
-See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
+Véase :ref:`get_theme_color()<class_Control_method_get_theme_color>` para obtener más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -3124,9 +3124,9 @@ See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
 
 :ref:`int<class_int>` **get_theme_font_size**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Control_method_get_theme_font_size>`
 
-Returns a font size from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a font size item with the specified ``name`` and ``theme_type``.
+Devuelve un tamaño de fuente del primer :ref:`Theme<class_Theme>` coincidente en el árbol si ese :ref:`Theme<class_Theme>` tiene un elemento de tamaño de fuente con el ``name`` y el ``theme_type`` especificados.
 
-See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
+Véase :ref:`get_theme_color()<class_Control_method_get_theme_color>` para obtener más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -3237,9 +3237,9 @@ Devuelve ``true`` si este es el control enfocado actual. Ver :ref:`focus_mode<cl
 
 :ref:`bool<class_bool>` **has_theme_color**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Control_method_has_theme_color>`
 
-Returns ``true`` if there is a matching :ref:`Theme<class_Theme>` in the tree that has a color item with the specified ``name`` and ``theme_type``.
+Devuelve ``true`` si hay un :ref:`Theme<class_Theme>` coincidente en el árbol que tiene un elemento de color con el ``name`` y el ``theme_type`` especificados.
 
-See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
+Véase :ref:`get_theme_color()<class_Control_method_get_theme_color>` para más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -3251,9 +3251,9 @@ See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
 
 :ref:`bool<class_bool>` **has_theme_color_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Control_method_has_theme_color_override>`
 
-Returns ``true`` if there is a local override for a theme :ref:`Color<class_Color>` with the specified ``name`` in this **Control** node.
+Devuelve ``true`` si hay una sobreescritura local para un :ref:`Color<class_Color>` de tema con el ``name`` especificado en este nodo **Control**.
 
-See :ref:`add_theme_color_override()<class_Control_method_add_theme_color_override>`.
+Véase :ref:`add_theme_color_override()<class_Control_method_add_theme_color_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3265,9 +3265,9 @@ See :ref:`add_theme_color_override()<class_Control_method_add_theme_color_overri
 
 :ref:`bool<class_bool>` **has_theme_constant**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Control_method_has_theme_constant>`
 
-Returns ``true`` if there is a matching :ref:`Theme<class_Theme>` in the tree that has a constant item with the specified ``name`` and ``theme_type``.
+Devuelve ``true`` si hay un :ref:`Theme<class_Theme>` coincidente en el árbol que tiene un elemento constante con el ``name`` y el ``theme_type`` especificados.
 
-See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
+Véase :ref:`get_theme_color()<class_Control_method_get_theme_color>` para más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -3279,9 +3279,9 @@ See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
 
 :ref:`bool<class_bool>` **has_theme_constant_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Control_method_has_theme_constant_override>`
 
-Returns ``true`` if there is a local override for a theme constant with the specified ``name`` in this **Control** node.
+Devuelve ``true`` si existe una sobreescritura local para una constante de tema con el ``name`` especificado en este nodo **Control**.
 
-See :ref:`add_theme_constant_override()<class_Control_method_add_theme_constant_override>`.
+Véase :ref:`add_theme_constant_override()<class_Control_method_add_theme_constant_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3293,9 +3293,9 @@ See :ref:`add_theme_constant_override()<class_Control_method_add_theme_constant_
 
 :ref:`bool<class_bool>` **has_theme_font**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Control_method_has_theme_font>`
 
-Returns ``true`` if there is a matching :ref:`Theme<class_Theme>` in the tree that has a font item with the specified ``name`` and ``theme_type``.
+Devuelve ``true`` si hay un :ref:`Theme<class_Theme>` coincidente en el árbol que tiene un elemento de fuente con el ``name`` y el ``theme_type`` especificados.
 
-See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
+Véase :ref:`get_theme_color()<class_Control_method_get_theme_color>` para más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -3307,9 +3307,9 @@ See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
 
 :ref:`bool<class_bool>` **has_theme_font_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Control_method_has_theme_font_override>`
 
-Returns ``true`` if there is a local override for a theme :ref:`Font<class_Font>` with the specified ``name`` in this **Control** node.
+Devuelve ``true`` si hay una sobreescritura local para una :ref:`Font<class_Font>` de tema con el ``name`` especificado en este nodo **Control**.
 
-See :ref:`add_theme_font_override()<class_Control_method_add_theme_font_override>`.
+Véase :ref:`add_theme_font_override()<class_Control_method_add_theme_font_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3321,9 +3321,9 @@ See :ref:`add_theme_font_override()<class_Control_method_add_theme_font_override
 
 :ref:`bool<class_bool>` **has_theme_font_size**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Control_method_has_theme_font_size>`
 
-Returns ``true`` if there is a matching :ref:`Theme<class_Theme>` in the tree that has a font size item with the specified ``name`` and ``theme_type``.
+Devuelve ``true`` si hay un :ref:`Theme<class_Theme>` coincidente en el árbol que tiene un elemento de tamaño de fuente con el ``name`` y el ``theme_type`` especificados.
 
-See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
+Véase :ref:`get_theme_color()<class_Control_method_get_theme_color>` para más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -3335,9 +3335,9 @@ See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
 
 :ref:`bool<class_bool>` **has_theme_font_size_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Control_method_has_theme_font_size_override>`
 
-Returns ``true`` if there is a local override for a theme font size with the specified ``name`` in this **Control** node.
+Devuelve ``true`` si hay una sobreescritura local para un tamaño de fuente de tema con el ``name`` especificado en este nodo **Control**.
 
-See :ref:`add_theme_font_size_override()<class_Control_method_add_theme_font_size_override>`.
+Véase :ref:`add_theme_font_size_override()<class_Control_method_add_theme_font_size_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3349,9 +3349,9 @@ See :ref:`add_theme_font_size_override()<class_Control_method_add_theme_font_siz
 
 :ref:`bool<class_bool>` **has_theme_icon**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Control_method_has_theme_icon>`
 
-Returns ``true`` if there is a matching :ref:`Theme<class_Theme>` in the tree that has an icon item with the specified ``name`` and ``theme_type``.
+Devuelve ``true`` si hay un :ref:`Theme<class_Theme>` coincidente en el árbol que tiene un elemento de icono con el ``name`` y el ``theme_type`` especificados.
 
-See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
+Véase :ref:`get_theme_color()<class_Control_method_get_theme_color>` para más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -3363,9 +3363,9 @@ See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
 
 :ref:`bool<class_bool>` **has_theme_icon_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Control_method_has_theme_icon_override>`
 
-Returns ``true`` if there is a local override for a theme icon with the specified ``name`` in this **Control** node.
+Devuelve ``true`` si hay una sobreescritura local para un icono de tema con el ``name`` especificado en este nodo **Control**.
 
-See :ref:`add_theme_icon_override()<class_Control_method_add_theme_icon_override>`.
+Véase :ref:`add_theme_icon_override()<class_Control_method_add_theme_icon_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3377,9 +3377,9 @@ See :ref:`add_theme_icon_override()<class_Control_method_add_theme_icon_override
 
 :ref:`bool<class_bool>` **has_theme_stylebox**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Control_method_has_theme_stylebox>`
 
-Returns ``true`` if there is a matching :ref:`Theme<class_Theme>` in the tree that has a stylebox item with the specified ``name`` and ``theme_type``.
+Devuelve ``true`` si hay un :ref:`Theme<class_Theme>` coincidente en el árbol que tiene un elemento de stylebox con el ``name`` y el ``theme_type`` especificados.
 
-See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
+Véase :ref:`get_theme_color()<class_Control_method_get_theme_color>` para más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -3391,9 +3391,9 @@ See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
 
 :ref:`bool<class_bool>` **has_theme_stylebox_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Control_method_has_theme_stylebox_override>`
 
-Returns ``true`` if there is a local override for a theme :ref:`StyleBox<class_StyleBox>` with the specified ``name`` in this **Control** node.
+Devuelve ``true`` si hay una sobreescritura local para un :ref:`StyleBox<class_StyleBox>` de tema con el ``name`` especificado en este nodo **Control**.
 
-See :ref:`add_theme_stylebox_override()<class_Control_method_add_theme_stylebox_override>`.
+Véase :ref:`add_theme_stylebox_override()<class_Control_method_add_theme_stylebox_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3405,9 +3405,9 @@ See :ref:`add_theme_stylebox_override()<class_Control_method_add_theme_stylebox_
 
 :ref:`bool<class_bool>` **is_drag_successful**\ (\ ) |const| :ref:`🔗<class_Control_method_is_drag_successful>`
 
-Returns ``true`` if a drag operation is successful. Alternative to :ref:`Viewport.gui_is_drag_successful()<class_Viewport_method_gui_is_drag_successful>`.
+Devuelve ``true`` si una operación de arrastre es exitosa. Alternativa a :ref:`Viewport.gui_is_drag_successful()<class_Viewport_method_gui_is_drag_successful>`.
 
-Best used with :ref:`Node.NOTIFICATION_DRAG_END<class_Node_constant_NOTIFICATION_DRAG_END>`.
+Mejor usado con :ref:`Node.NOTIFICATION_DRAG_END<class_Node_constant_NOTIFICATION_DRAG_END>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3419,7 +3419,7 @@ Best used with :ref:`Node.NOTIFICATION_DRAG_END<class_Node_constant_NOTIFICATION
 
 :ref:`bool<class_bool>` **is_layout_rtl**\ (\ ) |const| :ref:`🔗<class_Control_method_is_layout_rtl>`
 
-Returns ``true`` if the layout is right-to-left. See also :ref:`layout_direction<class_Control_property_layout_direction>`.
+Devuelve ``true`` si el diseño es de derecha a izquierda. Véase también :ref:`layout_direction<class_Control_property_layout_direction>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3515,7 +3515,7 @@ Removes a local override for a theme :ref:`StyleBox<class_StyleBox>` with the sp
 
 |void| **reset_size**\ (\ ) :ref:`🔗<class_Control_method_reset_size>`
 
-Resets the size to :ref:`get_combined_minimum_size()<class_Control_method_get_combined_minimum_size>`. This is equivalent to calling ``set_size(Vector2())`` (or any size below the minimum).
+Restablece el tamaño a :ref:`get_combined_minimum_size()<class_Control_method_get_combined_minimum_size>`. Esto equivale a llamar a ``set_size(Vector2())`` (o cualquier tamaño por debajo del mínimo).
 
 .. rst-class:: classref-item-separator
 
@@ -3543,7 +3543,7 @@ Si ``push_opposite_anchor`` es ``true`` y el anclaje opuesto se superpone a este
 
 |void| **set_anchor_and_offset**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`, anchor\: :ref:`float<class_float>`, offset\: :ref:`float<class_float>`, push_opposite_anchor\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Control_method_set_anchor_and_offset>`
 
-Works the same as :ref:`set_anchor()<class_Control_method_set_anchor>`, but instead of ``keep_offset`` argument and automatic update of offset, it allows to set the offset yourself (see :ref:`set_offset()<class_Control_method_set_offset>`).
+Funciona igual que :ref:`set_anchor()<class_Control_method_set_anchor>`, pero en lugar del argumento ``keep_offset`` y la actualización automática del dessplazamiento, te permite establecer el desplazamiento tú mismo (véase :ref:`set_offset()<class_Control_method_set_offset>`).
 
 .. rst-class:: classref-item-separator
 
@@ -3555,7 +3555,7 @@ Works the same as :ref:`set_anchor()<class_Control_method_set_anchor>`, but inst
 
 |void| **set_anchors_and_offsets_preset**\ (\ preset\: :ref:`LayoutPreset<enum_Control_LayoutPreset>`, resize_mode\: :ref:`LayoutPresetMode<enum_Control_LayoutPresetMode>` = 0, margin\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_Control_method_set_anchors_and_offsets_preset>`
 
-Sets both anchor preset and offset preset. See :ref:`set_anchors_preset()<class_Control_method_set_anchors_preset>` and :ref:`set_offsets_preset()<class_Control_method_set_offsets_preset>`.
+Establece tanto el preset del ancla como el preset del desplazamiento. Véase :ref:`set_anchors_preset()<class_Control_method_set_anchors_preset>` y :ref:`set_offsets_preset()<class_Control_method_set_offsets_preset>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3581,7 +3581,7 @@ Si ``keep_offsets`` es ``true``, la posición del control también se actualizar
 
 |void| **set_begin**\ (\ position\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Control_method_set_begin>`
 
-Sets :ref:`offset_left<class_Control_property_offset_left>` and :ref:`offset_top<class_Control_property_offset_top>` at the same time. Equivalent of changing :ref:`position<class_Control_property_position>`.
+Establece :ref:`offset_left<class_Control_property_offset_left>` y :ref:`offset_top<class_Control_property_offset_top>` al mismo tiempo. Equivale a cambiar :ref:`position<class_Control_property_position>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3593,15 +3593,15 @@ Sets :ref:`offset_left<class_Control_property_offset_left>` and :ref:`offset_top
 
 |void| **set_drag_forwarding**\ (\ drag_func\: :ref:`Callable<class_Callable>`, can_drop_func\: :ref:`Callable<class_Callable>`, drop_func\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_Control_method_set_drag_forwarding>`
 
-Sets the given callables to be used instead of the control's own drag-and-drop virtual methods. If a callable is empty, its respective virtual method is used as normal.
+Establece los callables dados para ser usados en lugar de los métodos virtuales de arrastrar y soltar propios del control. Si un callable está vacío, su respectivo método virtual se usa de forma normal.
 
-The arguments for each callable should be exactly the same as their respective virtual methods, which would be:
+Los argumentos para cada callable deben ser exactamente los mismos que sus respectivos métodos virtuales, que serían:
 
-- ``drag_func`` corresponds to :ref:`_get_drag_data()<class_Control_private_method__get_drag_data>` and requires a :ref:`Vector2<class_Vector2>`;
+- ``drag_func`` corresponde a :ref:`_get_drag_data()<class_Control_private_method__get_drag_data>` y requiere un :ref:`Vector2<class_Vector2>`;
 
-- ``can_drop_func`` corresponds to :ref:`_can_drop_data()<class_Control_private_method__can_drop_data>` and requires both a :ref:`Vector2<class_Vector2>` and a :ref:`Variant<class_Variant>`;
+- ``can_drop_func`` corresponde a :ref:`_can_drop_data()<class_Control_private_method__can_drop_data>` y requiere tanto un :ref:`Vector2<class_Vector2>` como un :ref:`Variant<class_Variant>`;
 
-- ``drop_func`` corresponds to :ref:`_drop_data()<class_Control_private_method__drop_data>` and requires both a :ref:`Vector2<class_Vector2>` and a :ref:`Variant<class_Variant>`.
+- ``drop_func`` corresponde a :ref:`_drop_data()<class_Control_private_method__drop_data>` y requiere tanto un :ref:`Vector2<class_Vector2>` como un :ref:`Variant<class_Variant>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3657,7 +3657,7 @@ Shows the given control at the mouse pointer. A good time to call this method is
 
 |void| **set_end**\ (\ position\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Control_method_set_end>`
 
-Sets :ref:`offset_right<class_Control_property_offset_right>` and :ref:`offset_bottom<class_Control_property_offset_bottom>` at the same time.
+Establece :ref:`offset_right<class_Control_property_offset_right>` y :ref:`offset_bottom<class_Control_property_offset_bottom>` al mismo tiempo.
 
 .. rst-class:: classref-item-separator
 
@@ -3681,9 +3681,9 @@ Sets the focus neighbor for the specified :ref:`Side<enum_@GlobalScope_Side>` to
 
 |void| **set_global_position**\ (\ position\: :ref:`Vector2<class_Vector2>`, keep_offsets\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Control_method_set_global_position>`
 
-Sets the :ref:`global_position<class_Control_property_global_position>` to given ``position``.
+Establece la :ref:`global_position<class_Control_property_global_position>` a la ``position`` dada.
 
-If ``keep_offsets`` is ``true``, control's anchors will be updated instead of offsets.
+Si ``keep_offsets`` es ``true``, los anclajes del control se actualizarán en lugar de los desplazamientos.
 
 .. rst-class:: classref-item-separator
 
@@ -3723,9 +3723,9 @@ Usa el parámetro ``margin`` para determinar el espacio entre el **Control** y l
 
 |void| **set_position**\ (\ position\: :ref:`Vector2<class_Vector2>`, keep_offsets\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Control_method_set_position>`
 
-Sets the :ref:`position<class_Control_property_position>` to given ``position``.
+Establece la :ref:`position<class_Control_property_position>` a la ``position`` dada.
 
-If ``keep_offsets`` is ``true``, control's anchors will be updated instead of offsets.
+Si ``keep_offsets`` es ``true``, los anclajes del control se actualizarán en lugar de los desplazamientos.
 
 .. rst-class:: classref-item-separator
 
@@ -3737,9 +3737,9 @@ If ``keep_offsets`` is ``true``, control's anchors will be updated instead of of
 
 |void| **set_size**\ (\ size\: :ref:`Vector2<class_Vector2>`, keep_offsets\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Control_method_set_size>`
 
-Sets the size (see :ref:`size<class_Control_property_size>`).
+Establece el tamaño (véase :ref:`size<class_Control_property_size>`).
 
-If ``keep_offsets`` is ``true``, control's anchors will be updated instead of offsets.
+Si ``keep_offsets`` es ``true``, los anclajes del control se actualizarán en lugar de los desplazamientos.
 
 .. rst-class:: classref-item-separator
 
@@ -3763,9 +3763,9 @@ Invalidates the size cache in this node and in parent nodes up to top level. Int
 
 |void| **warp_mouse**\ (\ position\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Control_method_warp_mouse>`
 
-Moves the mouse cursor to ``position``, relative to :ref:`position<class_Control_property_position>` of this **Control**.
+Mueve el cursor del ratón a ``position``, relativo a :ref:`position<class_Control_property_position>` de este **Control**.
 
-\ **Note:** :ref:`warp_mouse()<class_Control_method_warp_mouse>` is only supported on Windows, macOS and Linux. It has no effect on Android, iOS and Web.
+\ **Nota:** :ref:`warp_mouse()<class_Control_method_warp_mouse>` solo es compatible con Windows, macOS y Linux. No tiene ningún efecto en Android, iOS y Web.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

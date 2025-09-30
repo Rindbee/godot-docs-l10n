@@ -14,20 +14,20 @@ Un temporizador de cuenta atrás.
 Descripción
 ----------------------
 
-The **Timer** node is a countdown timer and is the simplest way to handle time-based logic in the engine. When a timer reaches the end of its :ref:`wait_time<class_Timer_property_wait_time>`, it will emit the :ref:`timeout<class_Timer_signal_timeout>` signal.
+El nodo **Timer** es un temporizador de cuenta regresiva y es la forma más sencilla de manejar la lógica basada en el tiempo en el motor. Cuando un temporizador alcanza el final de su :ref:`wait_time<class_Timer_property_wait_time>`, emitirá la señal :ref:`timeout<class_Timer_signal_timeout>`.
 
-After a timer enters the scene tree, it can be manually started with :ref:`start()<class_Timer_method_start>`. A timer node is also started automatically if :ref:`autostart<class_Timer_property_autostart>` is ``true``.
+Después de que un temporizador entra en el árbol de escenas, se puede iniciar manualmente con :ref:`start()<class_Timer_method_start>`. Un nodo temporizador también se inicia automáticamente si :ref:`autostart<class_Timer_property_autostart>` es ``true``.
 
-Without requiring much code, a timer node can be added and configured in the editor. The :ref:`timeout<class_Timer_signal_timeout>` signal it emits can also be connected through the Node dock in the editor:
+Sin requerir mucho código, se puede agregar y configurar un nodo temporizador en el editor. La señal :ref:`timeout<class_Timer_signal_timeout>` que emite también se puede conectar a través del dock de Nodos en el editor:
 
 ::
 
     func _on_timer_timeout():
-        print("Time to attack!")
+        print("¡Hora de atacar!")
 
-\ **Note:** To create a one-shot timer without instantiating a node, use :ref:`SceneTree.create_timer()<class_SceneTree_method_create_timer>`.
+\ **Nota:** Para crear un temporizador de un solo disparo sin instanciar un nodo, usa :ref:`SceneTree.create_timer()<class_SceneTree_method_create_timer>`.
 
-\ **Note:** Timers are affected by :ref:`Engine.time_scale<class_Engine_property_time_scale>` unless :ref:`ignore_time_scale<class_Timer_property_ignore_time_scale>` is ``true``. The higher the time scale, the sooner timers will end. How often a timer processes may depend on the framerate or :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`.
+\ **Nota:** Los temporizadores se ven afectados por :ref:`Engine.time_scale<class_Engine_property_time_scale>` a menos que :ref:`ignore_time_scale<class_Timer_property_ignore_time_scale>` sea ``true``. Cuanto mayor sea la escala de tiempo, antes terminarán los temporizadores. La frecuencia con la que un temporizador procesa puede depender de la velocidad de fotogramas o de :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -114,7 +114,7 @@ enum **TimerProcessCallback**: :ref:`🔗<enum_Timer_TimerProcessCallback>`
 
 :ref:`TimerProcessCallback<enum_Timer_TimerProcessCallback>` **TIMER_PROCESS_PHYSICS** = ``0``
 
-Update the timer every physics process frame (see :ref:`Node.NOTIFICATION_INTERNAL_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_INTERNAL_PHYSICS_PROCESS>`).
+Actualiza el temporizador en cada frame del proceso de física (véase :ref:`Node.NOTIFICATION_INTERNAL_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_INTERNAL_PHYSICS_PROCESS>`).
 
 .. _class_Timer_constant_TIMER_PROCESS_IDLE:
 
@@ -122,7 +122,7 @@ Update the timer every physics process frame (see :ref:`Node.NOTIFICATION_INTERN
 
 :ref:`TimerProcessCallback<enum_Timer_TimerProcessCallback>` **TIMER_PROCESS_IDLE** = ``1``
 
-Update the timer every process (rendered) frame (see :ref:`Node.NOTIFICATION_INTERNAL_PROCESS<class_Node_constant_NOTIFICATION_INTERNAL_PROCESS>`).
+Actualiza el temporizador en cada frame del proceso (renderizado) (ver :ref:`Node.NOTIFICATION_INTERNAL_PROCESS<class_Node_constant_NOTIFICATION_INTERNAL_PROCESS>`).
 
 .. rst-class:: classref-section-separator
 
@@ -199,7 +199,7 @@ If ``true``, the timer will stop after reaching the end. Otherwise, as by defaul
 - |void| **set_paused**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_paused**\ (\ )
 
-If ``true``, the timer is paused. A paused timer does not process until this property is set back to ``false``, even when :ref:`start()<class_Timer_method_start>` is called. See also :ref:`stop()<class_Timer_method_stop>`.
+Si es ``true``, el temporizador se pausa. Un temporizador en pausa no se procesa hasta que esta propiedad se vuelve a establecer en ``false``, incluso cuando se llama a :ref:`start()<class_Timer_method_start>`. Véase también :ref:`stop()<class_Timer_method_stop>`.
 
 .. rst-class:: classref-item-separator
 
@@ -216,7 +216,7 @@ If ``true``, the timer is paused. A paused timer does not process until this pro
 - |void| **set_timer_process_callback**\ (\ value\: :ref:`TimerProcessCallback<enum_Timer_TimerProcessCallback>`\ )
 - :ref:`TimerProcessCallback<enum_Timer_TimerProcessCallback>` **get_timer_process_callback**\ (\ )
 
-Specifies when the timer is updated during the main loop.
+Especifica cuándo se actualiza el temporizador durante el bucle principal.
 
 .. rst-class:: classref-item-separator
 
@@ -251,9 +251,9 @@ El tiempo restante del temporizador en segundos. Siempre es ``0`` si el temporiz
 - |void| **set_wait_time**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_wait_time**\ (\ )
 
-The time required for the timer to end, in seconds. This property can also be set every time :ref:`start()<class_Timer_method_start>` is called.
+El tiempo requerido para que el temporizador termine, en segundos. Esta propiedad también se puede establecer cada vez que se llama a :ref:`start()<class_Timer_method_start>`.
 
-\ **Note:** Timers can only process once per physics or process frame (depending on the :ref:`process_callback<class_Timer_property_process_callback>`). An unstable framerate may cause the timer to end inconsistently, which is especially noticeable if the wait time is lower than roughly ``0.05`` seconds. For very short timers, it is recommended to write your own code instead of using a **Timer** node. Timers are also affected by :ref:`Engine.time_scale<class_Engine_property_time_scale>`.
+\ **Nota:** Los temporizadores solo pueden procesarse una vez por frame de física o de proceso (dependiendo del :ref:`process_callback<class_Timer_property_process_callback>`). Una velocidad de fotogramas inestable puede causar que el temporizador termine de manera inconsistente, lo cual es especialmente notable si el tiempo de espera es menor a aproximadamente ``0.05`` segundos. Para temporizadores muy cortos, se recomienda escribir tu propio código en lugar de usar un nodo **Timer**. Los temporizadores también se ven afectados por :ref:`Engine.time_scale<class_Engine_property_time_scale>`.
 
 .. rst-class:: classref-section-separator
 
@@ -270,7 +270,7 @@ Descripciones de Métodos
 
 :ref:`bool<class_bool>` **is_stopped**\ (\ ) |const| :ref:`🔗<class_Timer_method_is_stopped>`
 
-Returns ``true`` if the timer is stopped or has not started.
+Devuelve ``true`` si el temporizador está detenido o no ha comenzado.
 
 .. rst-class:: classref-item-separator
 
@@ -282,9 +282,9 @@ Returns ``true`` if the timer is stopped or has not started.
 
 |void| **start**\ (\ time_sec\: :ref:`float<class_float>` = -1\ ) :ref:`🔗<class_Timer_method_start>`
 
-Starts the timer, or resets the timer if it was started already. Fails if the timer is not inside the scene tree. If ``time_sec`` is greater than ``0``, this value is used for the :ref:`wait_time<class_Timer_property_wait_time>`.
+Inicia el temporizador, o reinicia el temporizador si ya se ha iniciado. Falla si el temporizador no está dentro del árbol de escenas. Si ``time_sec`` es mayor que ``0``, este valor se utiliza para :ref:`wait_time<class_Timer_property_wait_time>`.
 
-\ **Note:** This method does not resume a paused timer. See :ref:`paused<class_Timer_property_paused>`.
+\ **Nota:** Este método no reanuda un temporizador en pausa. Consulta :ref:`paused<class_Timer_property_paused>`.
 
 .. rst-class:: classref-item-separator
 
@@ -296,9 +296,9 @@ Starts the timer, or resets the timer if it was started already. Fails if the ti
 
 |void| **stop**\ (\ ) :ref:`🔗<class_Timer_method_stop>`
 
-Stops the timer. See also :ref:`paused<class_Timer_property_paused>`. Unlike :ref:`start()<class_Timer_method_start>`, this can safely be called if the timer is not inside the scene tree.
+Detiene el temporizador. Véase también :ref:`paused<class_Timer_property_paused>`. A diferencia de :ref:`start()<class_Timer_method_start>`, esto se puede llamar de forma segura si el temporizador no está dentro del árbol de escenas.
 
-\ **Note:** Calling :ref:`stop()<class_Timer_method_stop>` does not emit the :ref:`timeout<class_Timer_signal_timeout>` signal, as the timer is not considered to have timed out. If this is desired, use ``$Timer.timeout.emit()`` after calling :ref:`stop()<class_Timer_method_stop>` to manually emit the signal.
+\ **Nota:** Llamar a :ref:`stop()<class_Timer_method_stop>` no emite la señal :ref:`timeout<class_Timer_signal_timeout>`, ya que no se considera que el temporizador se haya agotado. Si se desea, utiliza ``$Timer.timeout.emit()`` después de llamar a :ref:`stop()<class_Timer_method_stop>` para emitir manualmente la señal.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

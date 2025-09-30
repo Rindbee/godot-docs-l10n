@@ -14,7 +14,7 @@ Una regione che contribuisce alla nebbia volumetrica predefinita dell'ambiente m
 Descrizione
 ----------------------
 
-I **FogVolume** sono utilizzati per aggiungere nebbia localizzata all'effetto nebbia volumetrica globale. I **FogVolume** possono anche rimuovere la nebbia volumetrica da aree specifiche se si utilizza un :ref:`FogMaterial<class_FogMaterial>` con un :ref:`FogMaterial.density<class_FogMaterial_property_density>` negativo.
+I **FogVolume** servono per aggiungere nebbia localizzata all'effetto nebbia volumetrica globale. I **FogVolume** possono anche rimuovere la nebbia volumetrica da aree specifiche se si utilizza un :ref:`FogMaterial<class_FogMaterial>` con un :ref:`FogMaterial.density<class_FogMaterial_property_density>` negativo.
 
 Le prestazioni dei **FogVolume** sono direttamente correlate alle loro dimensioni relative sullo schermo e alla complessità del loro :ref:`FogMaterial<class_FogMaterial>` associato. È meglio mantenere **FogVolume** relativamente piccoli e semplici, dove possibile.
 

@@ -12,15 +12,15 @@ Un colore rappresentato in formato RGBA.
 Descrizione
 ----------------------
 
-A color represented in RGBA format by a red (:ref:`r<class_Color_property_r>`), green (:ref:`g<class_Color_property_g>`), blue (:ref:`b<class_Color_property_b>`), and alpha (:ref:`a<class_Color_property_a>`) component. Each component is a 32-bit floating-point value, usually ranging from ``0.0`` to ``1.0``. Some properties (such as :ref:`CanvasItem.modulate<class_CanvasItem_property_modulate>`) may support values greater than ``1.0``, for overbright or HDR (High Dynamic Range) colors.
+Un colore rappresentato in formato RGBA da un componente rosso (:ref:`r<class_Color_property_r>`), verde (:ref:`g<class_Color_property_g>`), blu (:ref:`b<class_Color_property_b>`) e alfa (:ref:`a<class_Color_property_a>`). Ogni componente è un valore in virgola mobile a 32 bit, solitamente compreso tra ``0.0`` e ``1.0``. Alcune proprietà (come :ref:`CanvasItem.modulate<class_CanvasItem_property_modulate>`) possono supportare valori maggiori di ``1.0``, per colori sovra-luminosi o ad alta gamma dinamica (High Dynamic Range o HDR).
 
-Colors can be created in various ways: By the various **Color** constructors, by static methods such as :ref:`from_hsv()<class_Color_method_from_hsv>`, and by using a name from the set of standardized colors based on `X11 color names <https://en.wikipedia.org/wiki/X11_color_names>`__ with the addition of :ref:`TRANSPARENT<class_Color_constant_TRANSPARENT>`. GDScript also provides :ref:`@GDScript.Color8()<class_@GDScript_method_Color8>`, which uses integers from ``0`` to ``255`` and doesn't support overbright colors.
+I colori possono essere creati in vari modi: tramite i vari costruttori **Color**, tramite metodi statici come :ref:`from_hsv()<class_Color_method_from_hsv>` e usando un nome dall'insieme di colori standardizzati basato sui `nomi di colore X11 <https://en.wikipedia.org/wiki/X11_color_names>`__ con l'aggiunta di :ref:`TRANSPARENT<class_Color_constant_TRANSPARENT>`. GDScript fornisce anche :ref:`@GDScript.Color8()<class_@GDScript_method_Color8>`, che usa numeri interi da ``0`` a ``255`` e non supporta i colori sovra-luminosi.
 
-Color data may be stored in many color spaces and encodings. The :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` and :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` methods can convert between nonlinear sRGB encoding and linear RGB encoding.
+È possibile memorizzare i dati di un colore in molti spazi colore e codifiche. I metodi :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` e :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` consentono di convertire la codifica sRGB non lineare in una codifica RGB lineare e viceversa.
 
-\ **Note:** In a boolean context, a Color will evaluate to ``false`` if it is equal to ``Color(0, 0, 0, 1)`` (opaque black). Otherwise, a Color will always evaluate to ``true``.
+\ **Nota:** In un contesto booleano, un colore sarà valutato come ``false`` se è uguale a ``Color(0, 0, 0, 1)`` (nero opaco). Altrimenti, un colore sarà sempre valutato come ``true``.
 
-\ `Color constants cheatsheet <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/color_constants.png>`__
+\ `Foglio riassuntivo delle costanti di colore <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/color_constants.png>`__
 
 .. note::
 
@@ -1389,9 +1389,9 @@ Descrizioni delle proprietà
 
 :ref:`float<class_float>` **a** = ``1.0`` :ref:`🔗<class_Color_property_a>`
 
-The color's alpha component, typically on the range of 0 to 1. A value of 0 means that the color is fully transparent. A value of 1 means that the color is fully opaque.
+Il componente alfa del colore, in genere compresa tra 0 e 1. Un valore pari a 0 indica che il colore è completamente trasparente. Un valore pari a 1 indica che il colore è completamente opaco.
 
-\ **Note:** The alpha channel is always stored with linear encoding, regardless of the color space of the other color channels. The :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` and :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` methods do not affect the alpha channel.
+\ **Nota:** Il canale alfa è sempre memorizzato con codifica lineare, a prescindere dallo spazio colore degli altri canali di colore. I metodi :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` e :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` non influiscono sul canale alfa.
 
 .. rst-class:: classref-item-separator
 

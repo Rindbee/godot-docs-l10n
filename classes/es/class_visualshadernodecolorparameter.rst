@@ -14,7 +14,7 @@ Un parámetro :ref:`Color<class_Color>` para ser usado dentro del gráfico de sh
 Descripción
 ----------------------
 
-Traducido a ``uniform vec4`` en el lenguaje de shader.
+Traducido a ``uniform vec4`` en el lenguaje de shaders.
 
 .. rst-class:: classref-reftable-group
 

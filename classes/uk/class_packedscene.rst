@@ -29,14 +29,14 @@ PackedScene
  
     # Використовуйте load() замість preload(), якщо шлях невідомий під час компіляції. 
     var scene = preload("res://scene.tscn").instantiate() 
-    # Додайте вузол як дочірній вузол, до якого приєднаний сценарій. 
+    # Додайте вузол як дочірній вузол, до якого приєднаний скрипта. 
     add_child (scene)  
 
  .. code-tab:: csharp
  
     // C# не має попереднього завантаження, тому вам потрібно завжди використовувати ResourceLoader.Load<PackedScene>(). 
     var scene = ResourceLoader.Load<PackedScene>("res://scene.tscn").Instantiate(); 
-    // Додати вузол як дочірній вузол, до якого приєднаний сценарій. 
+    // Додати вузол як дочірній вузол, до якого приєднаний скрипта. 
     AddChild(сцена);  
 
  

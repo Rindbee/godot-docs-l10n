@@ -14,9 +14,9 @@ Une texture à 3 dimensions.
 Description
 -----------
 
-**ImageTexture3D** is a 3-dimensional :ref:`ImageTexture<class_ImageTexture>` that has a width, height, and depth. See also :ref:`ImageTextureLayered<class_ImageTextureLayered>`.
+**ImageTexture3D** est une image en 3 dimensions qui a une largeur, une hauteur et une profondeur. Voir aussi :ref:`ImageTextureLayered<class_ImageTextureLayered>`.
 
-3D textures are typically used to store density maps for :ref:`FogMaterial<class_FogMaterial>`, color correction LUTs for :ref:`Environment<class_Environment>`, vector fields for :ref:`GPUParticlesAttractorVectorField3D<class_GPUParticlesAttractorVectorField3D>` and collision maps for :ref:`GPUParticlesCollisionSDF3D<class_GPUParticlesCollisionSDF3D>`. 3D textures can also be used in custom shaders.
+Les textures 3D sont généralement utilisées pour stocker des density maps pour :ref:`FogMaterial<class_FogMaterial>`, des LUTs de correction de couleur pour :ref:`Environment<class_Environment>`, des champs vectoriels pour :ref:`GPUParticlesAttractorVectorField3D<class_GPUParticlesAttractorVectorField3D>` et des collision maps pour :ref:`GPUParticlesCollisionSDF3D<class_GPUParticlesCollisionSDF3D>`. Les textures 3D peuvent également être utilisées dans des shaders personnalisés.
 
 .. rst-class:: classref-reftable-group
 
@@ -47,7 +47,7 @@ Descriptions des méthodes
 
 :ref:`Error<enum_@GlobalScope_Error>` **create**\ (\ format\: :ref:`Format<enum_Image_Format>`, width\: :ref:`int<class_int>`, height\: :ref:`int<class_int>`, depth\: :ref:`int<class_int>`, use_mipmaps\: :ref:`bool<class_bool>`, data\: :ref:`Array<class_Array>`\[:ref:`Image<class_Image>`\]\ ) :ref:`🔗<class_ImageTexture3D_method_create>`
 
-Creates the **ImageTexture3D** with specified ``format``, ``width``, ``height``, and ``depth``. If ``use_mipmaps`` is ``true``, generates mipmaps for the **ImageTexture3D**.
+Crée la **ImageTexture3D** avec le format ``format`` , la largeur ``width``, la hauteur ``height`` et la profondeur ``depth`` spécifiés. Si ``use_mipmaps`` vaut ``true``, génère des mipmaps pour l'**ImageTexture3D**.
 
 .. rst-class:: classref-item-separator
 
@@ -59,7 +59,7 @@ Creates the **ImageTexture3D** with specified ``format``, ``width``, ``height``,
 
 |void| **update**\ (\ data\: :ref:`Array<class_Array>`\[:ref:`Image<class_Image>`\]\ ) :ref:`🔗<class_ImageTexture3D_method_update>`
 
-Replaces the texture's existing data with the layers specified in ``data``. The size of ``data`` must match the parameters that were used for :ref:`create()<class_ImageTexture3D_method_create>`. In other words, the texture cannot be resized or have its format changed by calling :ref:`update()<class_ImageTexture3D_method_update>`.
+Remplace les données existantes de la texture par les couches spécifiées dans ``data``. La taille de ``data`` doit correspondre aux paramètres utilisés pour :ref:`create()<class_ImageTexture3D_method_create>`. En d'autres termes, la texture ne peut pas être redimensionnée ou avoir son format modifié en appelant :ref:`update()<class_ImageTexture3D_method_update>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

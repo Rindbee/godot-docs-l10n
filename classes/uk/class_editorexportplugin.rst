@@ -7,7 +7,7 @@ EditorExportPlugin
 
 **Успадковує:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Сценарій, який виконується при експорті проекту.
+Скрипт, який виконується при експорті проекту.
 
 .. rst-class:: classref-introduction-group
 

@@ -198,7 +198,7 @@ Emitida para indicar que el espacio de referencia se ha restablecido o reconfigu
 
 Cuándo (o si) se emite esto depende del navegador o dispositivo del usuario, pero puede incluir cuando el usuario ha cambiado las dimensiones de su espacio de juego (al que puede acceder a través de :ref:`XRInterface.get_play_area()<class_XRInterface_method_get_play_area>`) o ha presionado/mantenido presionado un botón para recentrar su posición.
 
-Consulta `el evento de restablecimiento XRReferenceSpace de WebXR <https://developer.mozilla.org/en-US/docs/Web/API/XRReferenceSpace/reset_event>`__ para obtener más información.
+Véase `el evento de restablecimiento XRReferenceSpace de WebXR <https://developer.mozilla.org/en-US/docs/Web/API/XRReferenceSpace/reset_event>`__ para obtener más información.
 
 .. rst-class:: classref-item-separator
 

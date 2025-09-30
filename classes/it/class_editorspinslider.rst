@@ -145,7 +145,7 @@ Descrizioni delle proprietà
 - |void| **set_editing_integer**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_editing_integer**\ (\ )
 
-Se ``true``, **EditorSpinSlider** è considerato come se stesse modificando un valore intero. Se ``false``, **EditorSpinSlider** è considerato come se stesse modificando un valore in virgola mobile. Questo viene utilizzato per determinare se deve essere disegnato uno slider. Lo slider è disegnato solo per i float; gli interi utilizzano invece frecce su-giù simili a :ref:`SpinBox<class_SpinBox>`.
+Se ``true``, **EditorSpinSlider** è considerato come se stesse modificando un valore intero. Se ``false``, **EditorSpinSlider** è considerato come se stesse modificando un valore in virgola mobile. Questo serve per determinare se deve essere disegnato uno slider. Lo slider è disegnato solo per i float; gli interi utilizzano invece frecce su-giù simili a :ref:`SpinBox<class_SpinBox>`.
 
 .. rst-class:: classref-item-separator
 

@@ -208,14 +208,14 @@ Emesso subito prima che :ref:`Node._process()<class_Node_private_method__process
 
 **scene_changed**\ (\ ) :ref:`🔗<class_SceneTree_signal_scene_changed>`
 
-Emitted after the new scene is added to scene tree and initialized. Can be used to reliably access :ref:`current_scene<class_SceneTree_property_current_scene>` when changing scenes.
+Emesso dopo che la nuova scena è stata aggiunta all'albero di scene e inizializzata. È possibile utilizzarlo per accedere in modo sicuro a :ref:`current_scene<class_SceneTree_property_current_scene>` quando si cambia scena.
 
 ::
 
-    # This code should be inside an autoload.
+    # Questo codice si dovrebbe trovare all'interno di un autoload.
     get_tree().change_scene_to_file(other_scene_path)
     await get_tree().scene_changed
-    print(get_tree().current_scene) # Prints the new scene.
+    print(get_tree().current_scene) # Stampa la nuova scena.
 
 .. rst-class:: classref-item-separator
 
@@ -270,7 +270,7 @@ Chiama i nodi all'interno di un gruppo senza alcun comportamento speciale (prede
 
 :ref:`GroupCallFlags<enum_SceneTree_GroupCallFlags>` **GROUP_CALL_REVERSE** = ``1``
 
-Chiama i nodi all'interno di un gruppo in ordine gerarchico ad albero inverso (tutti i nodi figlio nidificati vengono chiamati prima dei rispettivi nodi genitore).
+Chiama i nodi all'interno di un gruppo in ordine gerarchico ad albero inverso (tutti i nodi figlio innestati vengono chiamati prima dei rispettivi nodi genitore).
 
 .. _class_SceneTree_constant_GROUP_CALL_DEFERRED:
 
@@ -575,19 +575,19 @@ Restituisce :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` in caso di su
 
 :ref:`Error<enum_@GlobalScope_Error>` **change_scene_to_packed**\ (\ packed_scene\: :ref:`PackedScene<class_PackedScene>`\ ) :ref:`🔗<class_SceneTree_method_change_scene_to_packed>`
 
-Changes the running scene to a new instance of the given :ref:`PackedScene<class_PackedScene>` (which must be valid).
+Sostituisce la scena in esecuzione con una nuova istanza del :ref:`PackedScene<class_PackedScene>` specificato (che deve essere valido).
 
-Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>` if the scene cannot be instantiated, or :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` if the scene is invalid.
+Restituisce :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` in caso di successo, :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>` se la scena non può essere istanziata o :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` se la scena non è valida.
 
-\ **Note:** Operations happen in the following order when :ref:`change_scene_to_packed()<class_SceneTree_method_change_scene_to_packed>` is called:
+\ **Nota:** Le operazioni vengono eseguite nel seguente ordine quando :ref:`change_scene_to_packed()<class_SceneTree_method_change_scene_to_packed>` viene chiamato:
 
-1. The current scene node is immediately removed from the tree. From that point, :ref:`Node.get_tree()<class_Node_method_get_tree>` called on the current (outgoing) scene will return ``null``. :ref:`current_scene<class_SceneTree_property_current_scene>` will be ``null``, too, because the new scene is not available yet.
+1. Il nodo della scena attuale viene immediatamente rimosso dall'albero. Da quel momento in poi, chiamando :ref:`Node.get_tree()<class_Node_method_get_tree>` sulla scena attuale (in uscita) restituirà ``null``. Anche :ref:`current_scene<class_SceneTree_property_current_scene>` sarà ``null``, poiché la nuova scena non è ancora disponibile.
 
-2. At the end of the frame, the formerly current scene, already removed from the tree, will be deleted (freed from memory) and then the new scene will be instantiated and added to the tree. :ref:`Node.get_tree()<class_Node_method_get_tree>` and :ref:`current_scene<class_SceneTree_property_current_scene>` will be back to working as usual.
+2. Alla fine del frame, la scena precedentemente attuale, già rimossa dall'albero, verrà eliminata (liberata dalla memoria) e la nuova scena verrà istanziata e aggiunta all'albero. :ref:`Node.get_tree()<class_Node_method_get_tree>` e :ref:`current_scene<class_SceneTree_property_current_scene>` torneranno a funzionare normalmente.
 
-This ensures that both scenes aren't running at the same time, while still freeing the previous scene in a safe way similar to :ref:`Node.queue_free()<class_Node_method_queue_free>`.
+Ciò garantisce che entrambe le scene non siano eseguite allo stesso tempo, liberando comunque la scena precedente in modo sicuro, simile a :ref:`Node.queue_free()<class_Node_method_queue_free>`.
 
-If you want to reliably access the new scene, await the :ref:`scene_changed<class_SceneTree_signal_scene_changed>` signal.
+Se si desidera accedere in modo affidabile alla nuova scena, attendere il segnale :ref:`scene_changed<class_SceneTree_signal_scene_changed>`.
 
 .. rst-class:: classref-item-separator
 

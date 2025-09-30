@@ -14,7 +14,7 @@ Un array uniforme de texturas 2D para usar dentro del grafo de shader visual.
 Descripción
 ----------------------
 
-Traducido a ``uniform sampler2DArray`` en el lenguaje de shader.
+Traducido a ``uniform sampler2DArray`` en el lenguaje de shaders.
 
 .. rst-class:: classref-reftable-group
 

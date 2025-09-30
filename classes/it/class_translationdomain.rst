@@ -96,7 +96,7 @@ Descrizioni delle proprietà
 - |void| **set_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_enabled**\ (\ )
 
-If ``true``, translation is enabled. Otherwise, :ref:`translate()<class_TranslationDomain_method_translate>` and :ref:`translate_plural()<class_TranslationDomain_method_translate_plural>` will return the input message unchanged regardless of the current locale.
+Se ``true``, la traduzione è abilitata. Altrimenti, :ref:`translate()<class_TranslationDomain_method_translate>` e :ref:`translate_plural()<class_TranslationDomain_method_translate_plural>` restituiranno il messaggio di ingresso invariato, a prescindere dalle impostazioni locali attuali.
 
 .. rst-class:: classref-item-separator
 
@@ -189,7 +189,7 @@ Il rapporto di espansione da usare durante la pseudolocalizzazione. Un valore di
 - |void| **set_pseudolocalization_fake_bidi_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_pseudolocalization_fake_bidi_enabled**\ (\ )
 
-Se ``true``, emula il testo bidirezionale (da destra a sinistra) quando è abilitata la pseudolocalizzazione. Questo può essere utilizzato per individuare problemi con il layout RTL e il rispecchiamento dell'interfaccia utente, i quali si presenteranno se il progetto è localizzato in lingue RTL come l'arabo o l'ebraico.
+Se ``true``, emula il testo bidirezionale (da destra a sinistra) quando è abilitata la pseudolocalizzazione. Ciò serve per individuare problemi con il layout RTL e il rispecchiamento dell'interfaccia utente, i quali si presenteranno se il progetto è localizzato in lingue RTL come l'arabo o l'ebraico.
 
 \ **Nota:** Aggiornando questa proprietà non si aggiorneranno automaticamente i testi nell'albero di scene. Si prega di propagare manualmente la notifica :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` dopo aver finito di modificare le opzioni che riguardano la pseudolocalizzazione.
 
@@ -320,7 +320,7 @@ Restituisce la sostituzione della localizzazione del dominio. Restituisce una st
 
 :ref:`Translation<class_Translation>` **get_translation_object**\ (\ locale\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_TranslationDomain_method_get_translation_object>`
 
-Restituisce l'istanza :ref:`Translation<class_Translation>` che corrisponde di più a ``locale``. Restituisce ``null`` se non ci sono corrispondenze.
+Restituisce l'istanza di :ref:`Translation<class_Translation>` che corrisponde di più alla localizzazione ``locale``. Restituisce ``null`` se non ci sono corrispondenze.
 
 .. rst-class:: classref-item-separator
 
@@ -356,11 +356,11 @@ Restituisce la traduzione specificata.
 
 |void| **set_locale_override**\ (\ locale\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TranslationDomain_method_set_locale_override>`
 
-Sets the locale override of the domain.
+Imposta la sostituzione della localizzazione del dominio.
 
-If ``locale`` is an empty string, locale override is disabled. Otherwise, ``locale`` will be standardized to match known locales (e.g. ``en-US`` would be matched to ``en_US``).
+Se ``locale`` è una stringa vuota, la sostituzione della localizzazione è disabilitata. Altrimenti, ``locale`` sarà standardizzato per corrispondere alle localizzazioni note (ad esempio, ``en-US`` sarebbe abbinato a ``en_US``).
 
-\ **Note:** Calling this method does not automatically update texts in the scene tree. Please propagate the :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` signal manually.
+\ **Nota:** La chiamata a questo metodo non aggiorna automaticamente i testi nell'albero di scene. Si prega di propagare manualmente il segnale :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>`.
 
 .. rst-class:: classref-item-separator
 

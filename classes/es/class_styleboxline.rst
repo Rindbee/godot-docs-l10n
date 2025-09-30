@@ -7,14 +7,14 @@ StyleBoxLine
 
 **Hereda:** :ref:`StyleBox<class_StyleBox>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A :ref:`StyleBox<class_StyleBox>` that displays a single line of a given color and thickness.
+Un :ref:`StyleBox<class_StyleBox>` que muestra una sola línea de un color y grosor dados. Se puede usar para dibujar cosas como separadores.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A :ref:`StyleBox<class_StyleBox>` that displays a single line of a given color and thickness. The line can be either horizontal or vertical. Useful for separators.
+Un :ref:`StyleBox<class_StyleBox>` que muestra una sola línea de un color y grosor dados. La línea puede ser horizontal o vertical. Útil para separadores.
 
 .. rst-class:: classref-reftable-group
 

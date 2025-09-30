@@ -14,9 +14,9 @@ Risorsa :ref:`VideoStream<class_VideoStream>` per i video in Ogg Theora.
 Descrizione
 ----------------------
 
-:ref:`VideoStream<class_VideoStream>` resource handling the `Ogg Theora <https://www.theora.org/>`__ video format with ``.ogv`` extension. The Theora codec is decoded on the CPU.
+Risorsa :ref:`VideoStream<class_VideoStream>` che gestisce il formato video `Ogg Theora <https://www.theora.org/>`__ con l'estensione ``.ogv``. Il codec Theora è decodificato sulla CPU.
 
-\ **Note:** While Ogg Theora videos can also have a ``.ogg`` extension, you will have to rename the extension to ``.ogv`` to use those videos within Godot.
+\ **Nota:** Sebbene i video Ogg Theora possano avere anche un'estensione ``.ogg``, sarà necessario rinominare l'estensione in ``.ogv`` per utilizzare tali video in Godot.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

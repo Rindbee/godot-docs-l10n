@@ -549,7 +549,7 @@ El modo de entorno que se utilizará al procesar lightmaps.
 
 El nivel de subdivisión que se utilizará al generar automáticamente :ref:`LightmapProbe<class_LightmapProbe>`\ s para la iluminación de objetos dinámicos. Los valores más altos dan como resultado una iluminación indirecta más precisa en los objetos dinámicos, a costa de tiempos de procesado más largos y archivos de mayor tamaño.
 
-\ **Nota:** Los :ref:`LightmapProbe<class_LightmapProbe>`\ s generados automáticamente no son visibles como nodos en el dock del árbol de la escena y no se pueden modificar de esta manera después de generarlos.
+\ **Nota:** Los :ref:`LightmapProbe<class_LightmapProbe>`\ s generados automáticamente no son visibles como nodos en el dock del árbol de escenas y no se pueden modificar de esta manera después de generarlos.
 
 \ **Nota:** Independientemente de :ref:`generate_probes_subdiv<class_LightmapGI_property_generate_probes_subdiv>`, la iluminación directa en objetos dinámicos siempre se aplica utilizando nodos :ref:`Light3D<class_Light3D>` en tiempo real.
 

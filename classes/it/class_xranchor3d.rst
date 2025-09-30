@@ -14,11 +14,11 @@ Un punto di ancoraggio nello spazio AR.
 Descrizione
 ----------------------
 
-The **XRAnchor3D** point is an :ref:`XRNode3D<class_XRNode3D>` that maps a real world location identified by the AR platform to a position within the game world. For example, as long as plane detection in ARKit is on, ARKit will identify and update the position of planes (tables, floors, etc.) and create anchors for them.
+Il punto **XRAnchor3D** è un :ref:`XRNode3D<class_XRNode3D>` che mappa una posizione del mondo reale identificata dalla piattaforma AR in una posizione all'interno del mondo di gioco. Ad esempio, finché il rilevamento del piano in ARKit è attivo, ARKit identificherà e aggiornerà la posizione dei piani (tavoli, pavimenti, ecc.) e creerà ancore per essi.
 
-This node is mapped to one of the anchors through its unique ID. When you receive a signal that a new anchor is available, you should add this node to your scene for that anchor. You can predefine nodes and set the ID; the nodes will simply remain on ``(0, 0, 0)`` until a plane is recognized.
+Questo nodo è mappato su una delle ancore tramite il suo ID univoco. Quando ricevi un segnale che è disponibile una nuova ancora, dovresti aggiungere questo nodo alla tua scena per quell'ancora. Puoi predefinire i nodi e impostare l'ID; i nodi rimarranno semplicemente su ``(0, 0, 0)`` finché non sarà riconosciuto un piano.
 
-Keep in mind that, as long as plane detection is enabled, the size, placing and orientation of an anchor will be updated as the detection logic learns more about the real world out there especially if only part of the surface is in view.
+Tieni presente che, finché il rilevamento del piano è abilitato, le dimensioni, il posizionamento e l'orientamento di un'ancora saranno aggiornati man mano che la logica di rilevamento scopre di più sul mondo reale là fuori, soprattutto se solo una parte della superficie è in vista.
 
 .. rst-class:: classref-introduction-group
 

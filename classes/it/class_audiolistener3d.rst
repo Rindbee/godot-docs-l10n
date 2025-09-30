@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/AudioListener3D.xml.
+.. meta::
+	:keywords: sound
 
 .. _class_AudioListener3D:
 
@@ -78,7 +78,7 @@ Disabilita la simulazione dell'`effetto Doppler <https://it.wikipedia.org/wiki/E
 
 :ref:`DopplerTracking<enum_AudioListener3D_DopplerTracking>` **DOPPLER_TRACKING_IDLE_STEP** = ``1``
 
-Simulate `Doppler effect <https://en.wikipedia.org/wiki/Doppler_effect>`__ by tracking positions of objects that are changed in ``_process``. Changes in the relative velocity of this listener compared to those objects affect how audio is perceived (changing the audio's :ref:`AudioStreamPlayer3D.pitch_scale<class_AudioStreamPlayer3D_property_pitch_scale>`).
+Simula l'`effetto Doppler <https://it.wikipedia.org/wiki/Effetto_Doppler>`__ monitorando le posizioni degli oggetti che cambiano in ``_process``. I cambiamenti nella velocità relativa di questo ascoltatore rispetto a tali oggetti influiscono sul modo in cui l'audio viene percepito, modificando la scala del tono (:ref:`AudioStreamPlayer3D.pitch_scale<class_AudioStreamPlayer3D_property_pitch_scale>`) dell'audio.
 
 .. _class_AudioListener3D_constant_DOPPLER_TRACKING_PHYSICS_STEP:
 
@@ -86,7 +86,7 @@ Simulate `Doppler effect <https://en.wikipedia.org/wiki/Doppler_effect>`__ by tr
 
 :ref:`DopplerTracking<enum_AudioListener3D_DopplerTracking>` **DOPPLER_TRACKING_PHYSICS_STEP** = ``2``
 
-Simulate `Doppler effect <https://en.wikipedia.org/wiki/Doppler_effect>`__ by tracking positions of objects that are changed in ``_physics_process``. Changes in the relative velocity of this listener compared to those objects affect how audio is perceived (changing the audio's :ref:`AudioStreamPlayer3D.pitch_scale<class_AudioStreamPlayer3D_property_pitch_scale>`).
+Simula l'`effetto Doppler <https://it.wikipedia.org/wiki/Effetto_Doppler>`__ monitorando le posizioni degli oggetti che cambiano in ``_physics_process``. I cambiamenti nella velocità relativa di questo ascoltatore rispetto a tali oggetti influiscono sul modo in cui l'audio viene percepito, modificando la scala del tono (:ref:`AudioStreamPlayer3D.pitch_scale<class_AudioStreamPlayer3D_property_pitch_scale>`) dell'audio.
 
 .. rst-class:: classref-section-separator
 
@@ -108,9 +108,9 @@ Descrizioni delle proprietà
 - |void| **set_doppler_tracking**\ (\ value\: :ref:`DopplerTracking<enum_AudioListener3D_DopplerTracking>`\ )
 - :ref:`DopplerTracking<enum_AudioListener3D_DopplerTracking>` **get_doppler_tracking**\ (\ )
 
-If not :ref:`DOPPLER_TRACKING_DISABLED<class_AudioListener3D_constant_DOPPLER_TRACKING_DISABLED>`, this listener will simulate the `Doppler effect <https://en.wikipedia.org/wiki/Doppler_effect>`__ for objects changed in particular ``_process`` methods.
+Se non è :ref:`DOPPLER_TRACKING_DISABLED<class_AudioListener3D_constant_DOPPLER_TRACKING_DISABLED>`, questa telecamera simulerà l'`effetto Doppler <https://it.wikipedia.org/wiki/Effetto_Doppler>`__ per gli oggetti modificati in particolari metodi ``_process``.
 
-\ **Note:** The Doppler effect will only be heard on :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`\ s if :ref:`AudioStreamPlayer3D.doppler_tracking<class_AudioStreamPlayer3D_property_doppler_tracking>` is not set to :ref:`AudioStreamPlayer3D.DOPPLER_TRACKING_DISABLED<class_AudioStreamPlayer3D_constant_DOPPLER_TRACKING_DISABLED>`.
+\ **Nota:** L'effetto Doppler sarà udibile solo sugli :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>` se :ref:`AudioStreamPlayer3D.doppler_tracking<class_AudioStreamPlayer3D_property_doppler_tracking>` non è impostato su :ref:`AudioStreamPlayer3D.DOPPLER_TRACKING_DISABLED<class_AudioStreamPlayer3D_constant_DOPPLER_TRACKING_DISABLED>`.
 
 .. rst-class:: classref-section-separator
 

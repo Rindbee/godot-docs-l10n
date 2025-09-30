@@ -351,7 +351,7 @@ Descrizioni delle proprietà
 
 **Deprecato:** This property does nothing and always equals to zero.
 
-Deprecated.
+Deprecato.
 
 .. rst-class:: classref-section-separator
 

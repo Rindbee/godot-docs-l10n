@@ -219,11 +219,11 @@ Returns ``true`` if the integer has different value than the float.
 
 :ref:`Color<class_Color>` **operator ***\ (\ right\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_float_operator_mul_Color>`
 
-Multiplies each component of the :ref:`Color<class_Color>`, including the alpha, by the given **float**.
+Multiplica cada componente del :ref:`Color<class_Color>`, incluido el alfa, por el **float** dado.
 
 ::
 
-    print(1.5 * Color(0.5, 0.5, 0.5)) # Prints (0.75, 0.75, 0.75, 1.5)
+    print(1.5 * Color(0.5, 0.5, 0.5)) # Imprime (0.75, 0.75, 0.75, 1.5)
 
 .. rst-class:: classref-item-separator
 
@@ -291,11 +291,11 @@ Multiplies each component of the :ref:`Vector3<class_Vector3>` by the given **fl
 
 :ref:`Vector3<class_Vector3>` **operator ***\ (\ right\: :ref:`Vector3i<class_Vector3i>`\ ) :ref:`🔗<class_float_operator_mul_Vector3i>`
 
-Multiplies each component of the :ref:`Vector3i<class_Vector3i>` by the given **float**. Returns a :ref:`Vector3<class_Vector3>`.
+Multiplica cada componente del :ref:`Vector3i<class_Vector3i>` por el **float** dado. Devuelve un :ref:`Vector3<class_Vector3>`.
 
 ::
 
-    print(0.9 * Vector3i(10, 15, 20)) # Prints (9.0, 13.5, 18.0)
+    print(0.9 * Vector3i(10, 15, 20)) # Imprime (9.0, 13.5, 18.0)
 
 .. rst-class:: classref-item-separator
 
@@ -319,11 +319,11 @@ Multiplies each component of the :ref:`Vector4<class_Vector4>` by the given **fl
 
 :ref:`Vector4<class_Vector4>` **operator ***\ (\ right\: :ref:`Vector4i<class_Vector4i>`\ ) :ref:`🔗<class_float_operator_mul_Vector4i>`
 
-Multiplies each component of the :ref:`Vector4i<class_Vector4i>` by the given **float**. Returns a :ref:`Vector4<class_Vector4>`.
+Multiplica cada componente del :ref:`Vector4i<class_Vector4i>` por el **float** dado. Devuelve un :ref:`Vector4<class_Vector4>`\ 
 
 ::
 
-    print(0.9 * Vector4i(10, 15, 20, -10)) # Prints (9.0, 13.5, 18.0, -9.0)
+    print(0.9 * Vector4i(10, 15, 20, -10)) # Imprime (9.0, 13.5, 18.0, -9.0)
 
 .. rst-class:: classref-item-separator
 

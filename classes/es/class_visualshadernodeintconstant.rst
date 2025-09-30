@@ -14,7 +14,7 @@ Una constante escalar entera para ser usada dentro del grafo de shader visual.
 Descripción
 ----------------------
 
-Traducido a ``int`` en el lenguaje de shader.
+Traducido a ``int`` en el lenguaje de shaders.
 
 .. rst-class:: classref-reftable-group
 

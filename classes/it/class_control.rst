@@ -511,7 +511,7 @@ Il nodo non può catturare il focus. Da utilizzare con :ref:`focus_mode<class_Co
 
 :ref:`FocusMode<enum_Control_FocusMode>` **FOCUS_CLICK** = ``1``
 
-Il nodo può catturare il focus solo tramite ii clic del mouse. Da utilizzare con :ref:`focus_mode<class_Control_property_focus_mode>`.
+Il nodo può catturare il focus solo tramite i clic del mouse. Da utilizzare con :ref:`focus_mode<class_Control_property_focus_mode>`.
 
 .. _class_Control_constant_FOCUS_ALL:
 
@@ -527,7 +527,7 @@ Il nodo può catturare il focus con un clic del mouse, usando le frecce e i tast
 
 :ref:`FocusMode<enum_Control_FocusMode>` **FOCUS_ACCESSIBILITY** = ``3``
 
-The node can grab focus only when screen reader is active. Use with :ref:`focus_mode<class_Control_property_focus_mode>`.
+Il nodo può catturare il focus solo quando il lettore dello schermo è attivo. Da utilizzare con :ref:`focus_mode<class_Control_property_focus_mode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -545,7 +545,7 @@ enum **FocusBehaviorRecursive**: :ref:`🔗<enum_Control_FocusBehaviorRecursive>
 
 :ref:`FocusBehaviorRecursive<enum_Control_FocusBehaviorRecursive>` **FOCUS_BEHAVIOR_INHERITED** = ``0``
 
-Inherits the :ref:`focus_behavior_recursive<class_Control_property_focus_behavior_recursive>` from the parent control. If there is no parent control, this is the same as :ref:`FOCUS_BEHAVIOR_ENABLED<class_Control_constant_FOCUS_BEHAVIOR_ENABLED>`.
+Eredita il :ref:`focus_behavior_recursive<class_Control_property_focus_behavior_recursive>` dal controllo padre. Se nessun controllo padre è presente, è uguale a :ref:`FOCUS_BEHAVIOR_ENABLED<class_Control_constant_FOCUS_BEHAVIOR_ENABLED>`.
 
 .. _class_Control_constant_FOCUS_BEHAVIOR_DISABLED:
 
@@ -553,7 +553,7 @@ Inherits the :ref:`focus_behavior_recursive<class_Control_property_focus_behavio
 
 :ref:`FocusBehaviorRecursive<enum_Control_FocusBehaviorRecursive>` **FOCUS_BEHAVIOR_DISABLED** = ``1``
 
-Prevents the control from getting focused. :ref:`get_focus_mode_with_override()<class_Control_method_get_focus_mode_with_override>` will return :ref:`FOCUS_NONE<class_Control_constant_FOCUS_NONE>`.
+Impedisce al controllo di ottenere il focus. :ref:`get_focus_mode_with_override()<class_Control_method_get_focus_mode_with_override>` restituirà :ref:`FOCUS_NONE<class_Control_constant_FOCUS_NONE>`.
 
 .. _class_Control_constant_FOCUS_BEHAVIOR_ENABLED:
 
@@ -561,7 +561,7 @@ Prevents the control from getting focused. :ref:`get_focus_mode_with_override()<
 
 :ref:`FocusBehaviorRecursive<enum_Control_FocusBehaviorRecursive>` **FOCUS_BEHAVIOR_ENABLED** = ``2``
 
-Allows the control to be focused, depending on the :ref:`focus_mode<class_Control_property_focus_mode>`. This can be used to ignore the parent's :ref:`focus_behavior_recursive<class_Control_property_focus_behavior_recursive>`. :ref:`get_focus_mode_with_override()<class_Control_method_get_focus_mode_with_override>` will return the :ref:`focus_mode<class_Control_property_focus_mode>`.
+Consente al controllo di ottenere il focus, a seconda di :ref:`focus_mode<class_Control_property_focus_mode>`. Si può utilizzare per ignorare il :ref:`focus_behavior_recursive<class_Control_property_focus_behavior_recursive>` del padre. :ref:`get_focus_mode_with_override()<class_Control_method_get_focus_mode_with_override>` restituirà :ref:`focus_mode<class_Control_property_focus_mode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -579,7 +579,7 @@ enum **MouseBehaviorRecursive**: :ref:`🔗<enum_Control_MouseBehaviorRecursive>
 
 :ref:`MouseBehaviorRecursive<enum_Control_MouseBehaviorRecursive>` **MOUSE_BEHAVIOR_INHERITED** = ``0``
 
-Inherits the :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` from the parent control. If there is no parent control, this is the same as :ref:`MOUSE_BEHAVIOR_ENABLED<class_Control_constant_MOUSE_BEHAVIOR_ENABLED>`.
+Eredita il :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` dal controllo padre. Se nessun controllo padre è presente, è uguale a :ref:`MOUSE_BEHAVIOR_ENABLED<class_Control_constant_MOUSE_BEHAVIOR_ENABLED>`.
 
 .. _class_Control_constant_MOUSE_BEHAVIOR_DISABLED:
 
@@ -587,7 +587,7 @@ Inherits the :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavio
 
 :ref:`MouseBehaviorRecursive<enum_Control_MouseBehaviorRecursive>` **MOUSE_BEHAVIOR_DISABLED** = ``1``
 
-Prevents the control from receiving mouse input. :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>` will return :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`.
+Impedisce al controllo di ricevere gli input del mouse. :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>` restituirà :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`.
 
 .. _class_Control_constant_MOUSE_BEHAVIOR_ENABLED:
 
@@ -595,7 +595,7 @@ Prevents the control from receiving mouse input. :ref:`get_mouse_filter_with_ove
 
 :ref:`MouseBehaviorRecursive<enum_Control_MouseBehaviorRecursive>` **MOUSE_BEHAVIOR_ENABLED** = ``2``
 
-Allows the control to be receive mouse input, depending on the :ref:`mouse_filter<class_Control_property_mouse_filter>`. This can be used to ignore the parent's :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>`. :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>` will return the :ref:`mouse_filter<class_Control_property_mouse_filter>`.
+Consente al controllo di ricevere gli input del mouse, a seconda di :ref:`mouse_filter<class_Control_property_mouse_filter>`. Si può utilizzare per ignorare il :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` del padre. :ref:`get_focus_mode_with_override()<class_Control_method_get_focus_mode_with_override>` restituirà :ref:`focus_mode<class_Control_property_focus_mode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1105,7 +1105,7 @@ Direzione di layout automatica, determinata dalla direzione di layout del contro
 
 :ref:`LayoutDirection<enum_Control_LayoutDirection>` **LAYOUT_DIRECTION_APPLICATION_LOCALE** = ``1``
 
-Direzione del layout automatica, determinata dalle impostazioni locali attuali. La direzione di layout da destra a sinistra viene utilizzata automaticamente per le lingue che la richiedono, come l'arabo e l'ebraico, ma solo se viene caricato un file di traduzione valido per la lingua specificata (a meno che detta lingua non sia configurata come riserva in :ref:`ProjectSettings.internationalization/locale/fallback<class_ProjectSettings_property_internationalization/locale/fallback>`). Per tutte le altre lingue (o se Godot non trova alcun file di traduzione valido), viene utilizzata la direzione di layout da sinistra a destra. Se si utilizza :ref:`TextServerFallback<class_TextServerFallback>` (:ref:`ProjectSettings.internationalization/rendering/text_driver<class_ProjectSettings_property_internationalization/rendering/text_driver>`), la direzione di layout da sinistra a destra viene sempre utilizzata a prescindere dalla lingua. La direzione di layout da destra a sinistra può anche essere forzata tramite :ref:`ProjectSettings.internationalization/rendering/force_right_to_left_layout_direction<class_ProjectSettings_property_internationalization/rendering/force_right_to_left_layout_direction>`.
+Direzione del layout automatica, determinata dalla lingua attuale. La direzione di layout da destra a sinistra viene utilizzata automaticamente per le lingue che la richiedono, come l'arabo e l'ebraico, ma solo se viene caricato un file di traduzione valido per la lingua specificata (a meno che detta lingua non sia configurata come riserva in :ref:`ProjectSettings.internationalization/locale/fallback<class_ProjectSettings_property_internationalization/locale/fallback>`). Per tutte le altre lingue (o se Godot non trova alcun file di traduzione valido), è utilizzata la direzione di layout da sinistra a destra. Se si sta utilizzando :ref:`TextServerFallback<class_TextServerFallback>` (:ref:`ProjectSettings.internationalization/rendering/text_driver<class_ProjectSettings_property_internationalization/rendering/text_driver>`), la direzione di layout da sinistra a destra è sempre utilizzata a prescindere dalla lingua. La direzione di layout da destra a sinistra può anche essere forzata tramite :ref:`ProjectSettings.internationalization/rendering/force_right_to_left_layout_direction<class_ProjectSettings_property_internationalization/rendering/force_right_to_left_layout_direction>`.
 
 .. _class_Control_constant_LAYOUT_DIRECTION_LTR:
 
@@ -1129,7 +1129,7 @@ Direzione di layout da destra a sinistra.
 
 :ref:`LayoutDirection<enum_Control_LayoutDirection>` **LAYOUT_DIRECTION_SYSTEM_LOCALE** = ``4``
 
-Automatic layout direction, determined from the system locale. Right-to-left layout direction is automatically used for languages that require it such as Arabic and Hebrew, but only if a valid translation file is loaded for the given language. For all other languages (or if no valid translation file is found by Godot), left-to-right layout direction is used. If using :ref:`TextServerFallback<class_TextServerFallback>` (:ref:`ProjectSettings.internationalization/rendering/text_driver<class_ProjectSettings_property_internationalization/rendering/text_driver>`), left-to-right layout direction is always used regardless of the language.
+Direzione del layout automatica, determinata dalle impostazioni locali del sistema. La direzione di layout da destra a sinistra è utilizzata automaticamente per le lingue che la richiedono, come l'arabo e l'ebraico, ma solo se è stato caricato un file di traduzione valido per la lingua specificata. Per tutte le altre lingue (o se Godot non trova un file di traduzione valido), è utilizzata la direzione di layout da sinistra a destra. Se si utilizza :ref:`TextServerFallback<class_TextServerFallback>` (:ref:`ProjectSettings.internationalization/rendering/text_driver<class_ProjectSettings_property_internationalization/rendering/text_driver>`), la direzione di layout da sinistra a destra è sempre utilizzata a prescindere dalla lingua.
 
 .. _class_Control_constant_LAYOUT_DIRECTION_MAX:
 
@@ -1173,7 +1173,7 @@ La direzione di scrittura del testo è la stessa della direzione del layout.
 
 :ref:`TextDirection<enum_Control_TextDirection>` **TEXT_DIRECTION_AUTO** = ``0``
 
-Direzione automatica di scrittura del testo, determinata in base al locale attuale e al contenuto del testo.
+Direzione automatica di scrittura del testo, determinata in base alla lingua attuale e al contenuto del testo.
 
 .. _class_Control_constant_TEXT_DIRECTION_LTR:
 
@@ -1352,7 +1352,7 @@ Descrizioni delle proprietà
 - |void| **set_accessibility_controls_nodes**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\] **get_accessibility_controls_nodes**\ (\ )
 
-The paths to the nodes which are controlled by this node.
+I percorsi ai nodi controllati da questo nodo.
 
 .. rst-class:: classref-item-separator
 
@@ -1369,7 +1369,7 @@ The paths to the nodes which are controlled by this node.
 - |void| **set_accessibility_described_by_nodes**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\] **get_accessibility_described_by_nodes**\ (\ )
 
-The paths to the nodes which are describing this node.
+I percorsi ai nodi che descrivono questo nodo.
 
 .. rst-class:: classref-item-separator
 
@@ -1386,7 +1386,7 @@ The paths to the nodes which are describing this node.
 - |void| **set_accessibility_description**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_accessibility_description**\ (\ )
 
-The human-readable node description that is reported to assistive apps.
+La descrizione del nodo leggibile in chiaro che è riportata alle applicazioni assistive.
 
 .. rst-class:: classref-item-separator
 
@@ -1403,7 +1403,7 @@ The human-readable node description that is reported to assistive apps.
 - |void| **set_accessibility_flow_to_nodes**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\] **get_accessibility_flow_to_nodes**\ (\ )
 
-The paths to the nodes which this node flows into.
+I percorsi ai nodi in cui fluisce questo nodo.
 
 .. rst-class:: classref-item-separator
 
@@ -1420,7 +1420,7 @@ The paths to the nodes which this node flows into.
 - |void| **set_accessibility_labeled_by_nodes**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\] **get_accessibility_labeled_by_nodes**\ (\ )
 
-The paths to the nodes which label this node.
+I percorsi ai nodi che etichettano questo nodo.
 
 .. rst-class:: classref-item-separator
 
@@ -1437,7 +1437,7 @@ The paths to the nodes which label this node.
 - |void| **set_accessibility_live**\ (\ value\: :ref:`AccessibilityLiveMode<enum_DisplayServer_AccessibilityLiveMode>`\ )
 - :ref:`AccessibilityLiveMode<enum_DisplayServer_AccessibilityLiveMode>` **get_accessibility_live**\ (\ )
 
-The mode with which a live region updates. A live region is a :ref:`Node<class_Node>` that is updated as a result of an external event when the user's focus may be elsewhere.
+La modalità con cui una regione attiva si aggiorna. Una regione attiva è un :ref:`Node<class_Node>` che viene aggiornato in seguito a un evento esterno quando l'attenzione dell'utente potrebbe essere rivolta altrove.
 
 .. rst-class:: classref-item-separator
 
@@ -1454,7 +1454,7 @@ The mode with which a live region updates. A live region is a :ref:`Node<class_N
 - |void| **set_accessibility_name**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_accessibility_name**\ (\ )
 
-The human-readable node name that is reported to assistive apps.
+Il nome del nodo leggibile in chiaro che è riportato alle applicazioni assistive.
 
 .. rst-class:: classref-item-separator
 
@@ -1588,7 +1588,7 @@ Le dimensioni minime del rettangolo di delimitazione del nodo. Se impostate su u
 - |void| **set_focus_behavior_recursive**\ (\ value\: :ref:`FocusBehaviorRecursive<enum_Control_FocusBehaviorRecursive>`\ )
 - :ref:`FocusBehaviorRecursive<enum_Control_FocusBehaviorRecursive>` **get_focus_behavior_recursive**\ (\ )
 
-Determines which controls can be focused together with :ref:`focus_mode<class_Control_property_focus_mode>`. See :ref:`get_focus_mode_with_override()<class_Control_method_get_focus_mode_with_override>`. Since the default behavior is :ref:`FOCUS_BEHAVIOR_INHERITED<class_Control_constant_FOCUS_BEHAVIOR_INHERITED>`, this can be used to prevent all children controls from getting focused.
+Determina quali controlli si possono focalizzare insieme a :ref:`focus_mode<class_Control_property_focus_mode>`. Vedi :ref:`get_focus_mode_with_override()<class_Control_method_get_focus_mode_with_override>`. Poiché il comportamento predefinito è :ref:`FOCUS_BEHAVIOR_INHERITED<class_Control_constant_FOCUS_BEHAVIOR_INHERITED>`, questo si può utilizzare per impedire a tutti i controlli figlio di avere il focus.
 
 .. rst-class:: classref-item-separator
 
@@ -1605,7 +1605,7 @@ Determines which controls can be focused together with :ref:`focus_mode<class_Co
 - |void| **set_focus_mode**\ (\ value\: :ref:`FocusMode<enum_Control_FocusMode>`\ )
 - :ref:`FocusMode<enum_Control_FocusMode>` **get_focus_mode**\ (\ )
 
-Determines which controls can be focused. Only one control can be focused at a time, and the focused control will receive keyboard, gamepad, and mouse events in :ref:`_gui_input()<class_Control_private_method__gui_input>`. Use :ref:`get_focus_mode_with_override()<class_Control_method_get_focus_mode_with_override>` to determine if a control can grab focus, since :ref:`focus_behavior_recursive<class_Control_property_focus_behavior_recursive>` also affects it. See also :ref:`grab_focus()<class_Control_method_grab_focus>`.
+Determina quali controlli si possono focalizzare. È possibile focalizzare un solo controllo alla volta e il controllo focalizzato riceverà eventi da tastiera, gamepad e mouse in :ref:`_gui_input()<class_Control_private_method__gui_input>`. Usa :ref:`get_focus_mode_with_override()<class_Control_method_get_focus_mode_with_override>` per determinare se un controllo può ottenere il focus, poiché anche :ref:`focus_behavior_recursive<class_Control_property_focus_behavior_recursive>` lo influenza. Vedi anche :ref:`grab_focus()<class_Control_method_grab_focus>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1795,7 +1795,7 @@ Controlla la direzione del layout e la direzione della scrittura del testo. I la
 - |void| **set_localize_numeral_system**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_localizing_numeral_system**\ (\ )
 
-Se ``true``, converte automaticamente i numeri di riga del codice, gli indici di elenco, i valori di :ref:`SpinBox<class_SpinBox>` e :ref:`ProgressBar<class_ProgressBar>` dall'arabo occidentale (0..9) ai sistemi numerici utilizzati nel locale attuale.
+Se ``true``, converte automaticamente i numeri di riga del codice, gli indici di elenco, i valori di :ref:`SpinBox<class_SpinBox>` e :ref:`ProgressBar<class_ProgressBar>` dall'arabo occidentale (0..9) ai sistemi numerici utilizzati nella lingua attuale.
 
 \ **Nota:** I numeri all'interno di testo non sono convertiti automaticamente, è possibile farlo manualmente, tramite :ref:`TextServer.format_number()<class_TextServer_method_format_number>`.
 
@@ -1814,7 +1814,7 @@ Se ``true``, converte automaticamente i numeri di riga del codice, gli indici di
 - |void| **set_mouse_behavior_recursive**\ (\ value\: :ref:`MouseBehaviorRecursive<enum_Control_MouseBehaviorRecursive>`\ )
 - :ref:`MouseBehaviorRecursive<enum_Control_MouseBehaviorRecursive>` **get_mouse_behavior_recursive**\ (\ )
 
-Determines which controls can receive mouse input together with :ref:`mouse_filter<class_Control_property_mouse_filter>`. See :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>`. Since the default behavior is :ref:`MOUSE_BEHAVIOR_INHERITED<class_Control_constant_MOUSE_BEHAVIOR_INHERITED>`, this can be used to prevent all children controls from receiving mouse input.
+Determina quali controlli possono ricevere input del mouse insieme a :ref:`mouse_filter<class_Control_property_mouse_filter>`. Vedi :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>`. Poiché il comportamento predefinito è :ref:`MOUSE_BEHAVIOR_INHERITED<class_Control_constant_MOUSE_BEHAVIOR_INHERITED>`, questo si può utilizzare per impedire a tutti i controlli figlio di ricevere input del mouse.
 
 .. rst-class:: classref-item-separator
 
@@ -1850,7 +1850,7 @@ La forma predefinita del cursore per questo controllo. Utile per le estensioni d
 - |void| **set_mouse_filter**\ (\ value\: :ref:`MouseFilter<enum_Control_MouseFilter>`\ )
 - :ref:`MouseFilter<enum_Control_MouseFilter>` **get_mouse_filter**\ (\ )
 
-Determines which controls will be able to receive mouse button input events through :ref:`_gui_input()<class_Control_private_method__gui_input>` and the :ref:`mouse_entered<class_Control_signal_mouse_entered>`, and :ref:`mouse_exited<class_Control_signal_mouse_exited>` signals. Also determines how these events should be propagated. See the constants to learn what each does. Use :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>` to determine if a control can receive mouse input, since :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` also affects it.
+Determina quali controlli saranno in grado di ricevere eventi di input dei pulsanti del mouse tramite :ref:`_gui_input()<class_Control_private_method__gui_input>` e i segnali :ref:`mouse_entered<class_Control_signal_mouse_entered>` e :ref:`mouse_exited<class_Control_signal_mouse_exited>`. Determina inoltre come questi eventi si devono propagare. Consulta le costanti per scoprire a cosa serve ciascuna di esse. Usa :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>` per determinare se un controllo può ricevere input del mouse, poiché anche :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` lo influenza.
 
 .. rst-class:: classref-item-separator
 
@@ -1871,7 +1871,7 @@ Se abilitato, gli eventi della rotellina di scorrimento elaborati da :ref:`_gui_
 
 Dovresti disabilitarlo nel controllo radice della tua interfaccia utente se non vuoi che gli eventi di scorrimento vengano elaborati in :ref:`Node._unhandled_input()<class_Node_private_method__unhandled_input>`.
 
-\ **Nota:** Poiché questa proprietà è predefinita su ``true``, ciò consente ai contenitori scorrevoli nidificati di funzionare senza aver bisogno di modifiche.
+\ **Nota:** Poiché questa proprietà è predefinita su ``true``, ciò consente ai contenitori scorrevoli annidati di funzionare senza aver bisogno di modifiche.
 
 .. rst-class:: classref-item-separator
 
@@ -2033,13 +2033,13 @@ Proprietà di supporto per accedere al :ref:`rotation<class_Control_property_rot
 - |void| **set_scale**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_scale**\ (\ )
 
-The node's scale, relative to its :ref:`size<class_Control_property_size>`. Change this property to scale the node around its :ref:`pivot_offset<class_Control_property_pivot_offset>`. The Control's tooltip will also scale according to this value.
+La scala del nodo, relativa alle sue dimensioni (:ref:`size<class_Control_property_size>`). Modifica questa proprietà per ridimensionare il nodo attorno al suo :ref:`pivot_offset<class_Control_property_pivot_offset>`. Anche il :ref:`tooltip_text<class_Control_property_tooltip_text>` del Control sarà ridimensionato in base a questo valore.
 
-\ **Note:** This property is mainly intended to be used for animation purposes. To support multiple resolutions in your project, use an appropriate viewport stretch mode as described in the :doc:`documentation <../tutorials/rendering/multiple_resolutions>` instead of scaling Controls individually.
+\ **Nota:** Questa proprietà è principalmente progettata per le animazioni. Per supportare più risoluzioni nel tuo progetto, usa una modalità appropriata di stiramento della viewport come descritto nella :doc:`documentazione <../tutorials/rendering/multiple_resolutions>`, invece di ridimensionare i controlli individualmente.
 
-\ **Note:** :ref:`FontFile.oversampling<class_FontFile_property_oversampling>` does *not* take **Control** :ref:`scale<class_Control_property_scale>` into account. This means that scaling up/down will cause bitmap fonts and rasterized (non-MSDF) dynamic fonts to appear blurry or pixelated. To ensure text remains crisp regardless of scale, you can enable MSDF font rendering by enabling :ref:`ProjectSettings.gui/theme/default_font_multichannel_signed_distance_field<class_ProjectSettings_property_gui/theme/default_font_multichannel_signed_distance_field>` (applies to the default project font only), or enabling **Multichannel Signed Distance Field** in the import options of a DynamicFont for custom fonts. On system fonts, :ref:`SystemFont.multichannel_signed_distance_field<class_SystemFont_property_multichannel_signed_distance_field>` can be enabled in the inspector.
+\ **Nota:** :ref:`FontFile.oversampling<class_FontFile_property_oversampling>` *non* tiene conto della scala del **Control**. Ciò significa che ingrandire o rimpicciolire il controllo renderà sfocati o pixelati i font bitmap e i font dinamici rasterizzati (non MSDF). Per garantire che il testo rimanga nitido a prescindere dalla scala, è possibile abilitare il rendering dei font MSDF abilitando :ref:`ProjectSettings.gui/theme/default_font_multichannel_signed_distance_field<class_ProjectSettings_property_gui/theme/default_font_multichannel_signed_distance_field>` (si applica solo al font predefinito del progetto) o abilitando **Multichannel Signed Distance Field** nelle opzioni di importazione di un DynamicFont per font personalizzati. Sui font di sistema, è possibile abilitare :ref:`SystemFont.multichannel_signed_distance_field<class_SystemFont_property_multichannel_signed_distance_field>` nell'Ispettore.
 
-\ **Note:** If the Control node is a child of a :ref:`Container<class_Container>` node, the scale will be reset to ``Vector2(1, 1)`` when the scene is instantiated. To set the Control's scale when it's instantiated, wait for one frame using ``await get_tree().process_frame`` then set its :ref:`scale<class_Control_property_scale>` property.
+\ **Nota:** Se il nodo Control è un figlio di un nodo :ref:`Container<class_Container>`, la scala sarà reimpostata su ``Vector(1, 1)`` quando la scena viene istanziata. Per impostare la scala del Control quando viene istanziato, attendi un frame usando ``await get_tree().process_frame`` quindi imposta la sua proprietà :ref:`scale<class_Control_property_scale>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2072,7 +2072,7 @@ Il :ref:`Node<class_Node>` che deve essere un genitore del **Control** focalizza
 
 - :ref:`Vector2<class_Vector2>` **get_size**\ (\ )
 
-La dimensione del rettangolo limite del nodo, nel sistema di coordinate del nodo. I nodi :ref:`Container<class_Container>` aggiornano questa proprietà automaticamente.
+La dimensione del rettangolo di delimitazione del nodo, nel sistema di coordinate del nodo. I nodi :ref:`Container<class_Container>` aggiornano questa proprietà automaticamente.
 
 .. rst-class:: classref-item-separator
 
@@ -2245,7 +2245,7 @@ Descrizioni dei metodi
 
 :ref:`String<class_String>` **_accessibility_get_contextual_info**\ (\ ) |virtual| |const| :ref:`🔗<class_Control_private_method__accessibility_get_contextual_info>`
 
-Return the description of the keyboard shortcuts and other contextual help for this control.
+Restituisce la descrizione delle scorciatoie da tastiera e altre informazioni contestuali per questo controllo.
 
 .. rst-class:: classref-item-separator
 
@@ -2257,11 +2257,11 @@ Return the description of the keyboard shortcuts and other contextual help for t
 
 :ref:`bool<class_bool>` **_can_drop_data**\ (\ at_position\: :ref:`Vector2<class_Vector2>`, data\: :ref:`Variant<class_Variant>`\ ) |virtual| |const| :ref:`🔗<class_Control_private_method__can_drop_data>`
 
-Godot calls this method to test if ``data`` from a control's :ref:`_get_drag_data()<class_Control_private_method__get_drag_data>` can be dropped at ``at_position``. ``at_position`` is local to this control.
+Godot chiama questo metodo per verificare se ``data`` da un :ref:`_get_drag_data()<class_Control_private_method__get_drag_data>` di un controllo può essere rilasciato nella posizione ``at_position``. ``at_position`` è locale a questo controllo.
 
-This method should only be used to test the data. Process the data in :ref:`_drop_data()<class_Control_private_method__drop_data>`.
+Questo metodo dovrebbe essere utilizzato solo per verificare i dati. Elabora i dati in :ref:`_drop_data()<class_Control_private_method__drop_data>`.
 
-\ **Note:** If the drag was initiated by a keyboard shortcut or :ref:`accessibility_drag()<class_Control_method_accessibility_drag>`, ``at_position`` is set to :ref:`Vector2.INF<class_Vector2_constant_INF>`, and the currently selected item/text position should be used as the drop position.
+\ **Nota:** Se il trascinamento è stato avviato tramite una scorciatoia da tastiera o :ref:`accessibility_drag()<class_Control_method_accessibility_drag>`, ``at_position`` è impostato su :ref:`Vector2.INF<class_Vector2_constant_INF>` e si dovrebbe utilizzare la posizione dell'elemento/testo attualmente selezionato come posizione di rilascio.
 
 
 .. tabs::
@@ -2269,17 +2269,17 @@ This method should only be used to test the data. Process the data in :ref:`_dro
  .. code-tab:: gdscript
 
     func _can_drop_data(position, data):
-        # Check position if it is relevant to you
-        # Otherwise, just check data
-        return typeof(data) == TYPE_DICTIONARY and data.has("expected")
+        # Controlla la posizione se ti interessa
+        # Altrimenti, controlla solo i dati
+        return typeof(data) == TYPE_DICTIONARY and data.has("previsto")
 
  .. code-tab:: csharp
 
     public override bool _CanDropData(Vector2 atPosition, Variant data)
     {
-        // Check position if it is relevant to you
-        // Otherwise, just check data
-        return data.VariantType == Variant.Type.Dictionary && data.AsGodotDictionary().ContainsKey("expected");
+        // Controlla la posizione se ti interessa
+        // Altrimenti, controlla solo i dati
+        return data.VariantType == Variant.Type.Dictionary && data.AsGodotDictionary().ContainsKey("previsto");
     }
 
 
@@ -2294,9 +2294,9 @@ This method should only be used to test the data. Process the data in :ref:`_dro
 
 |void| **_drop_data**\ (\ at_position\: :ref:`Vector2<class_Vector2>`, data\: :ref:`Variant<class_Variant>`\ ) |virtual| :ref:`🔗<class_Control_private_method__drop_data>`
 
-Godot calls this method to pass you the ``data`` from a control's :ref:`_get_drag_data()<class_Control_private_method__get_drag_data>` result. Godot first calls :ref:`_can_drop_data()<class_Control_private_method__can_drop_data>` to test if ``data`` is allowed to drop at ``at_position`` where ``at_position`` is local to this control.
+Godot chiama questo metodo per passare ``data`` dal risultato di :ref:`_get_drag_data()<class_Control_private_method__get_drag_data>` di un controllo. Godot chiama prima :ref:`_can_drop_data()<class_Control_private_method__can_drop_data>` per verificare se ``data`` può essere rilasciato nella posizione ``at_position``, dove ``at_position`` è locale a questo controllo.
 
-\ **Note:** If the drag was initiated by a keyboard shortcut or :ref:`accessibility_drag()<class_Control_method_accessibility_drag>`, ``at_position`` is set to :ref:`Vector2.INF<class_Vector2_constant_INF>`, and the currently selected item/text position should be used as the drop position.
+\ **Nota:** Se il trascinamento è stato avviato tramite una scorciatoia da tastiera o :ref:`accessibility_drag()<class_Control_method_accessibility_drag>`, ``at_position`` è impostato su :ref:`Vector2.INF<class_Vector2_constant_INF>` e si dovrebbe utilizzare la posizione dell'elemento/testo attualmente selezionato come posizione di rilascio.
 
 
 .. tabs::
@@ -2304,21 +2304,21 @@ Godot calls this method to pass you the ``data`` from a control's :ref:`_get_dra
  .. code-tab:: gdscript
 
     func _can_drop_data(position, data):
-        return typeof(data) == TYPE_DICTIONARY and data.has("color")
+        return typeof(data) == TYPE_DICTIONARY and data.has("colore")
 
     func _drop_data(position, data):
-        var color = data["color"]
+        var colore= data["colore"]
 
  .. code-tab:: csharp
 
     public override bool _CanDropData(Vector2 atPosition, Variant data)
     {
-        return data.VariantType == Variant.Type.Dictionary && data.AsGodotDictionary().ContainsKey("color");
+        return data.VariantType == Variant.Type.Dictionary && dict.AsGodotDictionary().ContainsKey("colore");
     }
 
     public override void _DropData(Vector2 atPosition, Variant data)
     {
-        Color color = data.AsGodotDictionary()["color"].AsColor();
+        Color colore = data.AsGodotDictionary()["colore"].AsColor();
     }
 
 
@@ -2333,7 +2333,7 @@ Godot calls this method to pass you the ``data`` from a control's :ref:`_get_dra
 
 :ref:`String<class_String>` **_get_accessibility_container_name**\ (\ node\: :ref:`Node<class_Node>`\ ) |virtual| |const| :ref:`🔗<class_Control_private_method__get_accessibility_container_name>`
 
-Override this method to return a human-readable description of the position of the child ``node`` in the custom container, added to the :ref:`accessibility_name<class_Control_property_accessibility_name>`.
+Sovrascrivi questo metodo per restituire una descrizione leggibile in chiaro dalla posizione del nodo figlio ``node`` nel contenitore personalizzato, aggiunto a :ref:`accessibility_name<class_Control_property_accessibility_name>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2345,11 +2345,11 @@ Override this method to return a human-readable description of the position of t
 
 :ref:`Variant<class_Variant>` **_get_drag_data**\ (\ at_position\: :ref:`Vector2<class_Vector2>`\ ) |virtual| :ref:`🔗<class_Control_private_method__get_drag_data>`
 
-Godot calls this method to get data that can be dragged and dropped onto controls that expect drop data. Returns ``null`` if there is no data to drag. Controls that want to receive drop data should implement :ref:`_can_drop_data()<class_Control_private_method__can_drop_data>` and :ref:`_drop_data()<class_Control_private_method__drop_data>`. ``at_position`` is local to this control. Drag may be forced with :ref:`force_drag()<class_Control_method_force_drag>`.
+Godot chiama questo metodo per ottenere dati che possono essere trascinati e rilasciati su controlli che prevedono dati di rilascio. Restituisce ``null`` se non ci sono dati da trascinare. I controlli che vogliono ricevere dati di rilascio devono implementare :ref:`_can_drop_data()<class_Control_private_method__can_drop_data>` e :ref:`_drop_data()<class_Control_private_method__drop_data>`. La posizione ``at_position`` è locale a questo controllo. Il trascinamento può essere forzato con :ref:`force_drag()<class_Control_method_force_drag>`.
 
-A preview that will follow the mouse that should represent the data can be set with :ref:`set_drag_preview()<class_Control_method_set_drag_preview>`. A good time to set the preview is in this method.
+Un'anteprima che seguirà il mouse che dovrebbe rappresentare i dati può essere impostata con :ref:`set_drag_preview()<class_Control_method_set_drag_preview>`. Un buon momento per impostare l'anteprima è in questo metodo.
 
-\ **Note:** If the drag was initiated by a keyboard shortcut or :ref:`accessibility_drag()<class_Control_method_accessibility_drag>`, ``at_position`` is set to :ref:`Vector2.INF<class_Vector2_constant_INF>`, and the currently selected item/text position should be used as the drag position.
+\ **Nota:** Se il trascinamento è stato avviato tramite una scorciatoia da tastiera o :ref:`accessibility_drag()<class_Control_method_accessibility_drag>`, ``at_position`` è impostato su :ref:`Vector2.INF<class_Vector2_constant_INF>` e si dovrebbe utilizzare la posizione dell'elemento/testo attualmente selezionato come posizione di rilascio.
 
 
 .. tabs::
@@ -2357,16 +2357,16 @@ A preview that will follow the mouse that should represent the data can be set w
  .. code-tab:: gdscript
 
     func _get_drag_data(position):
-        var mydata = make_data() # This is your custom method generating the drag data.
-        set_drag_preview(make_preview(mydata)) # This is your custom method generating the preview of the drag data.
+        var mydata = make_data() # Questo è il tuo metodo personalizzato che genera i dati di trascinamento.
+        set_drag_preview(make_preview(mydata)) # Questo è il tuo metodo personalizzato che genera l'anteprima dei dati di trascinamento.
         return mydata
 
  .. code-tab:: csharp
 
     public override Variant _GetDragData(Vector2 atPosition)
     {
-        var myData = MakeData(); // This is your custom method generating the drag data.
-        SetDragPreview(MakePreview(myData)); // This is your custom method generating the preview of the drag data.
+        var myData = MakeData(); // Questo è il tuo metodo personalizzato che genera i dati di trascinamento.
+        SetDragPreview(MakePreview(myData)); // Questo è il tuo metodo personalizzato che genera l'anteprima dei dati di trascinamento.
         return myData;
     }
 
@@ -2577,7 +2577,7 @@ Contrassegna un evento di input come gestito. Una volta accettato un evento di i
 
 |void| **accessibility_drag**\ (\ ) :ref:`🔗<class_Control_method_accessibility_drag>`
 
-Starts drag-and-drop operation without using a mouse.
+Avvia un'operazione di trascinamento senza l'utilizzo del mouse.
 
 .. rst-class:: classref-item-separator
 
@@ -2589,7 +2589,7 @@ Starts drag-and-drop operation without using a mouse.
 
 |void| **accessibility_drop**\ (\ ) :ref:`🔗<class_Control_method_accessibility_drop>`
 
-Ends drag-and-drop operation without using a mouse.
+Termina un'operazione di trascinamento senza l'utilizzo del mouse.
 
 .. rst-class:: classref-item-separator
 
@@ -2853,7 +2853,7 @@ Restituisce le dimensioni minime combinate da :ref:`custom_minimum_size<class_Co
 
 :ref:`CursorShape<enum_Control_CursorShape>` **get_cursor_shape**\ (\ position\: :ref:`Vector2<class_Vector2>` = Vector2(0, 0)\ ) |const| :ref:`🔗<class_Control_method_get_cursor_shape>`
 
-Returns the mouse cursor shape for this control when hovered over ``position`` in local coordinates. For most controls, this is the same as :ref:`mouse_default_cursor_shape<class_Control_property_mouse_default_cursor_shape>`, but some built-in controls implement more complex logic.
+Restituisce la forma del cursore del mouse per questo controllo quando si passa il mouse sulla posizione ``position`` in coordinate locali. Per la maggior parte dei controlli, questo è uguale a :ref:`mouse_default_cursor_shape<class_Control_property_mouse_default_cursor_shape>`, ma alcuni controlli integrati implementano una logica più complessa.
 
 .. rst-class:: classref-item-separator
 
@@ -2877,7 +2877,7 @@ Restituisce :ref:`offset_right<class_Control_property_offset_right>` e :ref:`off
 
 :ref:`FocusMode<enum_Control_FocusMode>` **get_focus_mode_with_override**\ (\ ) |const| :ref:`🔗<class_Control_method_get_focus_mode_with_override>`
 
-Returns the :ref:`focus_mode<class_Control_property_focus_mode>`, but takes the :ref:`focus_behavior_recursive<class_Control_property_focus_behavior_recursive>` into account. If :ref:`focus_behavior_recursive<class_Control_property_focus_behavior_recursive>` is set to :ref:`FOCUS_BEHAVIOR_DISABLED<class_Control_constant_FOCUS_BEHAVIOR_DISABLED>`, or it is set to :ref:`FOCUS_BEHAVIOR_INHERITED<class_Control_constant_FOCUS_BEHAVIOR_INHERITED>` and its ancestor is set to :ref:`FOCUS_BEHAVIOR_DISABLED<class_Control_constant_FOCUS_BEHAVIOR_DISABLED>`, then this returns :ref:`FOCUS_NONE<class_Control_constant_FOCUS_NONE>`.
+Restituisce :ref:`focus_mode<class_Control_property_focus_mode>`, ma tiene conto di :ref:`focus_behavior_recursive<class_Control_property_focus_behavior_recursive>`. Se :ref:`focus_behavior_recursive<class_Control_property_focus_behavior_recursive>` è impostato su :ref:`FOCUS_BEHAVIOR_DISABLED<class_Control_constant_FOCUS_BEHAVIOR_DISABLED>`, oppure è impostato su :ref:`FOCUS_BEHAVIOR_INHERITED<class_Control_constant_FOCUS_BEHAVIOR_INHERITED>` e il suo antenato è impostato su :ref:`FOCUS_BEHAVIOR_DISABLED<class_Control_constant_FOCUS_BEHAVIOR_DISABLED>`, allora restituisce :ref:`FOCUS_NONE<class_Control_constant_FOCUS_NONE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2931,7 +2931,7 @@ Restituisce le dimensioni minime per questo controllo. Vedi :ref:`custom_minimum
 
 :ref:`MouseFilter<enum_Control_MouseFilter>` **get_mouse_filter_with_override**\ (\ ) |const| :ref:`🔗<class_Control_method_get_mouse_filter_with_override>`
 
-Returns the :ref:`mouse_filter<class_Control_property_mouse_filter>`, but takes the :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` into account. If :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` is set to :ref:`MOUSE_BEHAVIOR_DISABLED<class_Control_constant_MOUSE_BEHAVIOR_DISABLED>`, or it is set to :ref:`MOUSE_BEHAVIOR_INHERITED<class_Control_constant_MOUSE_BEHAVIOR_INHERITED>` and its ancestor is set to :ref:`MOUSE_BEHAVIOR_DISABLED<class_Control_constant_MOUSE_BEHAVIOR_DISABLED>`, then this returns :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`.
+Restituisce :ref:`mouse_filter<class_Control_property_mouse_filter>`, ma tiene conto di :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>`. Se :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` è impostato su :ref:`MOUSE_BEHAVIOR_DISABLED<class_Control_constant_MOUSE_BEHAVIOR_DISABLED>`, oppure è impostato su :ref:`MOUSE_BEHAVIOR_INHERITED<class_Control_constant_MOUSE_BEHAVIOR_INHERITED>` e il suo antenato è impostato su :ref:`MOUSE_BEHAVIOR_DISABLED<class_Control_constant_MOUSE_BEHAVIOR_DISABLED>`, allora restituisce :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3419,7 +3419,7 @@ Meglio usata con :ref:`Node.NOTIFICATION_DRAG_END<class_Node_constant_NOTIFICATI
 
 :ref:`bool<class_bool>` **is_layout_rtl**\ (\ ) |const| :ref:`🔗<class_Control_method_is_layout_rtl>`
 
-Returns ``true`` if the layout is right-to-left. See also :ref:`layout_direction<class_Control_property_layout_direction>`.
+Restituisce ``true`` se il layout è da destra a sinistra. Vedi anche :ref:`layout_direction<class_Control_property_layout_direction>`.
 
 .. rst-class:: classref-item-separator
 

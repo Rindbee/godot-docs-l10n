@@ -764,7 +764,7 @@ enum **Key**: :ref:`🔗<enum_@GlobalScope_Key>`
 
 :ref:`Key<enum_@GlobalScope_Key>` **KEY_NONE** = ``0``
 
-Valore dell'enumeratore che non corrisponde ad alcun tasto. Questo è usato per inizializzare le proprietà di tipo :ref:`Key<enum_@GlobalScope_Key>` a uno stato generico.
+Valore dell'enumeratore che non corrisponde ad alcun tasto. Utilizzato per inizializzare le proprietà di tipo :ref:`Key<enum_@GlobalScope_Key>` a uno stato generico.
 
 .. _class_@GlobalScope_constant_KEY_SPECIAL:
 
@@ -2436,7 +2436,7 @@ enum **MouseButton**: :ref:`🔗<enum_@GlobalScope_MouseButton>`
 
 :ref:`MouseButton<enum_@GlobalScope_MouseButton>` **MOUSE_BUTTON_NONE** = ``0``
 
-Valore dell'enumeratore che non corrisponde ad alcun pulsante del mouse. Questo è usato per inizializzare le proprietà di tipo :ref:`MouseButton<enum_@GlobalScope_MouseButton>` a uno stato generico.
+Valore dell'enumeratore che non corrisponde ad alcun pulsante del mouse. Utilizzato per inizializzare le proprietà di tipo :ref:`MouseButton<enum_@GlobalScope_MouseButton>` a uno stato generico.
 
 .. _class_@GlobalScope_constant_MOUSE_BUTTON_LEFT:
 
@@ -3859,7 +3859,7 @@ Indica che una proprietà di tipo stringa è una password, e ogni carattere è s
 
 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` **PROPERTY_HINT_TOOL_BUTTON** = ``39``
 
-Indica che una proprietà :ref:`Callable<class_Callable>` dovrebbe essere visualizzata come un pulsante cliccabile. Quando il pulsante viene premuto, il chiamabile viene richiamato. La stringa indicativa specifica il testo del pulsante e, facoltativamente, un'icona dal tipo di tema ``"EditorIcons"``.
+Indica che una proprietà :ref:`Callable<class_Callable>` dovrebbe essere visualizzata come un pulsante cliccabile. Quando il pulsante viene premuto, il chiamabile viene richiamato. La stringa indicativa specifica il testo del pulsante e, facoltativamente, un'icona dal tipo del tema ``"EditorIcons"``.
 
 .. code:: text
 
@@ -5781,7 +5781,7 @@ Restituisce un valore "allentato" di ``x`` basato su una funzione di allentament
 
     - Minore di -1.0 (esclusi): Ease in-out
     - 1.0: Lineare
-    - Compreso tra -1.0 and 0.0 (esclusi): Ease out-in
+    - Compreso tra -1.0 e 0.0 (esclusi): Ease out-in
     - 0.0: Costante
     - Compreso tra 0.0 to 1.0 (esclusi): Ease in
     - 1.0: Lineare
@@ -5849,7 +5849,7 @@ Arrotonda ``x`` verso il basso (verso l'infinito negativo), restituendo il numer
 
 Vedi anche :ref:`ceil()<class_@GlobalScope_method_ceil>`, :ref:`round()<class_@GlobalScope_method_round>`, e :ref:`snapped()<class_@GlobalScope_method_snapped>`.
 
-\ **Nota:** Per migliore sicurezza del tipo, usa :ref:`floorf()<class_@GlobalScope_method_floorf>`, :ref:`floori()<class_@GlobalScope_method_floori>`, :ref:`Vector2.floor()<class_Vector2_method_floor>`, :ref:`Vector3.floor()<class_Vector3_method_floor>`, or :ref:`Vector4.floor()<class_Vector4_method_floor>`.
+\ **Nota:** Per migliore sicurezza del tipo, usa :ref:`floorf()<class_@GlobalScope_method_floorf>`, :ref:`floori()<class_@GlobalScope_method_floori>`, :ref:`Vector2.floor()<class_Vector2_method_floor>`, :ref:`Vector3.floor()<class_Vector3_method_floor>` o :ref:`Vector4.floor()<class_Vector4_method_floor>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6779,7 +6779,7 @@ Restituisce un value casuale in virgola mobile tra ``0.0`` e ``1.0`` (inclusi).
 
 :ref:`float<class_float>` **randf_range**\ (\ from\: :ref:`float<class_float>`, to\: :ref:`float<class_float>`\ ) :ref:`🔗<class_@GlobalScope_method_randf_range>`
 
-Restituisce un valore casuale in virgola mobile tra ``from`` and ``to`` (inclusi).
+Restituisce un valore casuale in virgola mobile tra ``from`` e ``to`` (inclusi).
 
 
 .. tabs::
@@ -7227,15 +7227,15 @@ Una versione di tipo sicuro di :ref:`snapped()<class_@GlobalScope_method_snapped
 
 :ref:`float<class_float>` **sqrt**\ (\ x\: :ref:`float<class_float>`\ ) :ref:`🔗<class_@GlobalScope_method_sqrt>`
 
-Returns the square root of ``x``, where ``x`` is a non-negative number.
+Restituisce la radice quadrata di ``x``, dove ``x`` è un numero non negativo.
 
 ::
 
-    sqrt(9)     # Returns 3
-    sqrt(10.24) # Returns 3.2
-    sqrt(-1)    # Returns NaN
+    sqrt(9)     # Restituisce 3
+    sqrt(10.24) # Restituisce 3.2
+    sqrt(-1)    # Restituisce NaN
 
-\ **Note:** Negative values of ``x`` return NaN ("Not a Number"). In C#, if you need negative inputs, use ``System.Numerics.Complex``.
+\ **Nota:** I valori negativi di ``x`` restituiscono NaN ("Not a Number"). In C#, se servono valori negativi, è suggerito l'utilizzo di ``System.Numerics.Complex``.
 
 .. rst-class:: classref-item-separator
 
@@ -7496,9 +7496,9 @@ Un riferimento debole non è sufficiente per mantenere l'oggetto in vita: se è 
 
 :ref:`Variant<class_Variant>` **wrap**\ (\ value\: :ref:`Variant<class_Variant>`, min\: :ref:`Variant<class_Variant>`, max\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_@GlobalScope_method_wrap>`
 
-Avvolge il valore :ref:`float<class_float>` ``value`` tra ``min`` e ``max``. ``min`` è *inclusivo* mentre ``max`` è *esclusivo*. Può essere usato per creare dei funzionamenti simili a cicli o superfici infinite.
+Avvolge il valore :ref:`float<class_float>` ``value`` tra ``min`` e ``max``. ``min`` è *inclusivo* mentre ``max`` è *esclusivo*. Può essere usato per creare dei comportamenti simili a cicli o superfici infinite.
 
-Sia :ref:`int<class_int>` che :ref:`float<class_float>` sono supportati. Se uno degli argomenti è :ref:`float<class_float>` questa funzione restituisce un :ref:`float<class_float>`, altrimenti restituisce un :ref:`int<class_int>`.
+Entrambi :ref:`int<class_int>` e :ref:`float<class_float>` sono supportati. Se uno degli argomenti è :ref:`float<class_float>` questa funzione restituisce un :ref:`float<class_float>`, altrimenti restituisce un :ref:`int<class_int>`.
 
 ::
 
@@ -7521,24 +7521,24 @@ Sia :ref:`int<class_int>` che :ref:`float<class_float>` sono supportati. Se uno 
 
 :ref:`float<class_float>` **wrapf**\ (\ value\: :ref:`float<class_float>`, min\: :ref:`float<class_float>`, max\: :ref:`float<class_float>`\ ) :ref:`🔗<class_@GlobalScope_method_wrapf>`
 
-Wraps the float ``value`` between ``min`` and ``max``. ``min`` is *inclusive* while ``max`` is *exclusive*. This can be used for creating loop-like behavior or infinite surfaces.
+Avvolge il valore :ref:`float<class_float>` ``value`` tra ``min`` e ``max``. ``min`` è *inclusivo* mentre ``max`` è *esclusivo*. Può essere usato per creare dei comportamenti simili a cicli o superfici infinite.
 
 ::
 
-    # Infinite loop between 5.0 and 9.9
+    # Ciclo infinito tra 5.0 e 9.9
     value = wrapf(value + 0.1, 5.0, 10.0)
 
 ::
 
-    # Infinite rotation (in radians)
+    # Rotazione infinita (in radianti)
     angle = wrapf(angle + 0.1, 0.0, TAU)
 
 ::
 
-    # Infinite rotation (in radians)
+    # Rotazione infinita (in radianti)
     angle = wrapf(angle + 0.1, -PI, PI)
 
-\ **Note:** If ``min`` is ``0``, this is equivalent to :ref:`fposmod()<class_@GlobalScope_method_fposmod>`, so prefer using that instead. :ref:`wrapf()<class_@GlobalScope_method_wrapf>` is more flexible than using the :ref:`fposmod()<class_@GlobalScope_method_fposmod>` approach by giving the user control over the minimum value.
+\ **Nota:** Se ``min`` è ``0``, questo è equivalente a :ref:`fposmod()<class_@GlobalScope_method_fposmod>`, quindi è preferibile utilizzare quello invece. :ref:`wrapf()<class_@GlobalScope_method_wrapf>` è più flessibile rispetto a :ref:`fposmod()<class_@GlobalScope_method_fposmod>` perché permette di controllare il valore minimo.
 
 .. rst-class:: classref-item-separator
 
@@ -7550,11 +7550,11 @@ Wraps the float ``value`` between ``min`` and ``max``. ``min`` is *inclusive* wh
 
 :ref:`int<class_int>` **wrapi**\ (\ value\: :ref:`int<class_int>`, min\: :ref:`int<class_int>`, max\: :ref:`int<class_int>`\ ) :ref:`🔗<class_@GlobalScope_method_wrapi>`
 
-Avvolge il valore intero ``value`` tra ``min`` e ``max``. ``min`` è *inclusivo* mentre ``max`` è *esclusivo*. Può essere usato per creare dei funzionamenti simili a cicli o superfici infinite.
+Avvolge il valore intero ``value`` tra ``min`` e ``max``. ``min`` è *inclusivo* mentre ``max`` è *esclusivo*. Può essere usato per creare dei comportamenti simili a cicli o superfici infinite.
 
 ::
 
-    # Ciclo infinito tra 5 and 9
+    # Ciclo infinito tra 5 e 9
     frame = wrapi(frame + 1, 5, 10)
 
 ::

@@ -9,7 +9,7 @@ StaticBody2D
 
 **Heredado por:** :ref:`AnimatableBody2D<class_AnimatableBody2D>`
 
-A 2D physics body that can't be moved by external forces. When moved manually, it doesn't affect other bodies in its path.
+Un cuerpo físico 2D que no puede ser movido por fuerzas externas. Cuando se mueve manualmente, no afecta a otros cuerpos en su camino.
 
 .. rst-class:: classref-introduction-group
 

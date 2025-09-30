@@ -122,7 +122,7 @@ Descriptions des méthodes
 
 :ref:`bool<class_bool>` **is_point_inside**\ (\ point\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_PolygonPathFinder_method_is_point_inside>`
 
-Returns ``true`` if ``point`` falls inside the polygon area.
+Renvoie ``true`` si ``point`` tombe dans la zone du polygone.
 
 
 .. tabs::
@@ -176,9 +176,9 @@ Returns ``true`` if ``point`` falls inside the polygon area.
 
 |void| **setup**\ (\ points\: :ref:`PackedVector2Array<class_PackedVector2Array>`, connections\: :ref:`PackedInt32Array<class_PackedInt32Array>`\ ) :ref:`🔗<class_PolygonPathFinder_method_setup>`
 
-Sets up **PolygonPathFinder** with an array of points that define the vertices of the polygon, and an array of indices that determine the edges of the polygon.
+Configure **PolygonPathFinder** avec un tableau de points qui définissent les sommets du polygone, et un tableau d'indices qui déterminent les bords du polygone.
 
-The length of ``connections`` must be even, returns an error if odd.
+La longueur des ``connections`` doit être paire, renvoie une erreur si impaire.
 
 
 .. tabs::

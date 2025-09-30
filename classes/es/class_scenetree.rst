@@ -716,7 +716,7 @@ Devuelve el número de nodos asignados al grupo dado.
 
 :ref:`Array<class_Array>`\[:ref:`Node<class_Node>`\] **get_nodes_in_group**\ (\ group\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_SceneTree_method_get_nodes_in_group>`
 
-Devuelve un :ref:`Array<class_Array>` que contiene todos los nodos dentro de este árbol, que han sido añadidos al ``grupo`` dado, en orden de jerarquía de escena.
+Devuelve un :ref:`Array<class_Array>` que contiene todos los nodos dentro de este árbol, que han sido añadidos al ``group`` dado, en orden de jerarquía de escena.
 
 .. rst-class:: classref-item-separator
 
@@ -776,7 +776,7 @@ Devuelve ``true`` si las funciones de accesibilidad son compatibles con el siste
 
 |void| **notify_group**\ (\ group\: :ref:`StringName<class_StringName>`, notification\: :ref:`int<class_int>`\ ) :ref:`🔗<class_SceneTree_method_notify_group>`
 
-Llama a :ref:`Object.notification()<class_Object_method_notification>` con la ``notification`` dada a todos los nodos dentro de este árbol añadidos al ``grupo``. Véase también :doc:`Notificaciones de Godot <../tutorials/best_practices/godot_notifications>` y :ref:`call_group()<class_SceneTree_method_call_group>` y :ref:`set_group()<class_SceneTree_method_set_group>`.
+Llama a :ref:`Object.notification()<class_Object_method_notification>` con la ``notification`` dada a todos los nodos dentro de este árbol añadidos al ``group``. Véase también :doc:`Notificaciones de Godot <../tutorials/best_practices/godot_notifications>` y :ref:`call_group()<class_SceneTree_method_call_group>` y :ref:`set_group()<class_SceneTree_method_set_group>`.
 
 \ **Nota:** Este método actúa inmediatamente sobre todos los nodos seleccionados a la vez, lo que puede causar tartamudeo en algunas situaciones de rendimiento intensivo.
 
@@ -790,7 +790,7 @@ Llama a :ref:`Object.notification()<class_Object_method_notification>` con la ``
 
 |void| **notify_group_flags**\ (\ call_flags\: :ref:`int<class_int>`, group\: :ref:`StringName<class_StringName>`, notification\: :ref:`int<class_int>`\ ) :ref:`🔗<class_SceneTree_method_notify_group_flags>`
 
-Llama a :ref:`Object.notification()<class_Object_method_notification>` con la ``notification`` dada a todos los nodos dentro de este árbol añadidos al ``grupo``. Usa ``call_flags`` para personalizar el comportamiento de este método (véase :ref:`GroupCallFlags<enum_SceneTree_GroupCallFlags>`).
+Llama a :ref:`Object.notification()<class_Object_method_notification>` con la ``notification`` dada a todos los nodos dentro de este árbol añadidos al ``group``. Usa ``call_flags`` para personalizar el comportamiento de este método (véase :ref:`GroupCallFlags<enum_SceneTree_GroupCallFlags>`).
 
 .. rst-class:: classref-item-separator
 

@@ -2452,7 +2452,7 @@ CSG 节点（例如 :ref:`CSGShape3D<class_CSGShape3D>` 和 :ref:`CSGBox3D<class
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this property. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -2466,7 +2466,7 @@ CSG 节点（例如 :ref:`CSGShape3D<class_CSGShape3D>` 和 :ref:`CSGBox3D<class
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this property. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -2480,7 +2480,7 @@ CSG 节点（例如 :ref:`CSGShape3D<class_CSGShape3D>` 和 :ref:`CSGBox3D<class
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this property. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -2494,7 +2494,7 @@ CSG 节点（例如 :ref:`CSGShape3D<class_CSGShape3D>` 和 :ref:`CSGBox3D<class
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this property. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -3599,9 +3599,9 @@ Blender 进程的最大空闲运行时间（单位为秒）。
 
 :ref:`String<class_String>` **interface/editor/editor_language** :ref:`🔗<class_EditorSettings_property_interface/editor/editor_language>`
 
-The language to use for the editor interface.
+用于编辑器界面的语言。
 
-Translations are provided by the community. If you spot a mistake, `contribute to editor translations on Weblate! <https://contributing.godotengine.org/en/latest/documentation/translation/index.html>`__
+翻译由社区提供。如果发现错误，请\ `在 Weblate 上为编辑器翻译作出贡献！ <https://contributing.godotengine.org/en/latest/documentation/translation/index.html>`__
 
 .. rst-class:: classref-item-separator
 

@@ -7,14 +7,14 @@ OpenXRRenderModelExtension
 
 **Eredita:** :ref:`OpenXRExtensionWrapper<class_OpenXRExtensionWrapper>` **<** :ref:`Object<class_Object>`
 
-This class implements the OpenXR Render Model Extension.
+Questa classe implementa l'estensione OpenXR Render Model.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-This class implements the OpenXR Render Model Extension, if enabled it will maintain a list of active render models and provides an interface to the render model data.
+Questa classe implementa l'estensione OpenXR Render Model; se abilitata, manterrà una lista di modelli di rendering attivi e fornirà un'interfaccia ai dati del modello di rendering.
 
 .. rst-class:: classref-reftable-group
 
@@ -67,7 +67,7 @@ Segnali
 
 **render_model_added**\ (\ render_model\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_OpenXRRenderModelExtension_signal_render_model_added>`
 
-Emitted when a new render model is added.
+Emesso quando un nuovo modello di rendering viene aggiunto.
 
 .. rst-class:: classref-item-separator
 
@@ -79,7 +79,7 @@ Emitted when a new render model is added.
 
 **render_model_removed**\ (\ render_model\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_OpenXRRenderModelExtension_signal_render_model_removed>`
 
-Emitted when a render model is removed.
+Emesso quando un modello di rendering viene rimosso.
 
 .. rst-class:: classref-item-separator
 
@@ -91,7 +91,7 @@ Emitted when a render model is removed.
 
 **render_model_top_level_path_changed**\ (\ render_model\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_OpenXRRenderModelExtension_signal_render_model_top_level_path_changed>`
 
-Emitted when the top level path associated with a render model changed.
+Emesso quando cambia il percorso di livello superiore associato a un modello di rendering.
 
 .. rst-class:: classref-section-separator
 
@@ -108,9 +108,9 @@ Descrizioni dei metodi
 
 :ref:`bool<class_bool>` **is_active**\ (\ ) |const| :ref:`🔗<class_OpenXRRenderModelExtension_method_is_active>`
 
-Returns ``true`` if OpenXR's render model extension is supported and enabled.
+Restituisce ``true`` se l'estensione Render Model di OpenXR è supportata e abilitata.
 
-\ **Note:** This only returns a valid value after OpenXR has been initialized.
+\ **Nota:** Questo restituisce un valore valido solo dopo l'inizializzazione di OpenXR.
 
 .. rst-class:: classref-item-separator
 
@@ -122,9 +122,9 @@ Returns ``true`` if OpenXR's render model extension is supported and enabled.
 
 :ref:`RID<class_RID>` **render_model_create**\ (\ render_model_id\: :ref:`int<class_int>`\ ) :ref:`🔗<class_OpenXRRenderModelExtension_method_render_model_create>`
 
-Creates a render model object within OpenXR using a render model id.
+Crea un oggetto modello di rendering all'interno di OpenXR, utilizzando un ID modello di rendering.
 
-\ **Note:** This function is exposed for dependent OpenXR extensions that provide render model ids to be used with the render model extension.
+\ **Nota:** Questa funzione è disponibile per le estensioni OpenXR dipendenti che forniscono ID modello di rendering da utilizzare con l'estensione modello di rendering.
 
 .. rst-class:: classref-item-separator
 
@@ -136,9 +136,9 @@ Creates a render model object within OpenXR using a render model id.
 
 |void| **render_model_destroy**\ (\ render_model\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_OpenXRRenderModelExtension_method_render_model_destroy>`
 
-Destroys a render model object within OpenXR that was previously created with :ref:`render_model_create()<class_OpenXRRenderModelExtension_method_render_model_create>`.
+Distrugge un oggetto modello di rendering all'interno di OpenXR precedentemente creato con :ref:`render_model_create()<class_OpenXRRenderModelExtension_method_render_model_create>`.
 
-\ **Note:** This function is exposed for dependent OpenXR extensions that provide render model ids to be used with the render model extension.
+\ **Nota:** Questa funzione è esposta per le estensioni OpenXR dipendenti che forniscono ID modello di rendering da utilizzare con l'estensione modello di rendering.
 
 .. rst-class:: classref-item-separator
 
@@ -150,7 +150,7 @@ Destroys a render model object within OpenXR that was previously created with :r
 
 :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\] **render_model_get_all**\ (\ ) :ref:`🔗<class_OpenXRRenderModelExtension_method_render_model_get_all>`
 
-Returns an array of all currently active render models registered with this extension.
+Restituisce un array di tutti i modelli di rendering attualmente attivi registrati con questa estensione.
 
 .. rst-class:: classref-item-separator
 
@@ -162,7 +162,7 @@ Returns an array of all currently active render models registered with this exte
 
 :ref:`int<class_int>` **render_model_get_animatable_node_count**\ (\ render_model\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_OpenXRRenderModelExtension_method_render_model_get_animatable_node_count>`
 
-Returns the number of animatable nodes this render model has.
+Restituisce il numero di nodi animabili di questo modello di rendering.
 
 .. rst-class:: classref-item-separator
 
@@ -174,7 +174,7 @@ Returns the number of animatable nodes this render model has.
 
 :ref:`String<class_String>` **render_model_get_animatable_node_name**\ (\ render_model\: :ref:`RID<class_RID>`, index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_OpenXRRenderModelExtension_method_render_model_get_animatable_node_name>`
 
-Returns the name of the given animatable node.
+Restituisce il nome del nodo animabile specificato.
 
 .. rst-class:: classref-item-separator
 
@@ -186,7 +186,7 @@ Returns the name of the given animatable node.
 
 :ref:`Transform3D<class_Transform3D>` **render_model_get_animatable_node_transform**\ (\ render_model\: :ref:`RID<class_RID>`, index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_OpenXRRenderModelExtension_method_render_model_get_animatable_node_transform>`
 
-Returns the current local transform for an animatable node. This is updated every frame.
+Restituisce la trasformazione locale attuale per un nodo animabile. È aggiornata a ogni frame.
 
 .. rst-class:: classref-item-separator
 
@@ -198,7 +198,7 @@ Returns the current local transform for an animatable node. This is updated ever
 
 :ref:`TrackingConfidence<enum_XRPose_TrackingConfidence>` **render_model_get_confidence**\ (\ render_model\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_OpenXRRenderModelExtension_method_render_model_get_confidence>`
 
-Returns the tracking confidence of the tracking data for the render model.
+Restituisce l'affidabilità dei dati di tracciamento per il modello di rendering.
 
 .. rst-class:: classref-item-separator
 
@@ -210,7 +210,7 @@ Returns the tracking confidence of the tracking data for the render model.
 
 :ref:`Transform3D<class_Transform3D>` **render_model_get_root_transform**\ (\ render_model\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_OpenXRRenderModelExtension_method_render_model_get_root_transform>`
 
-Returns the root transform of a render model. This is the tracked position relative to our :ref:`XROrigin3D<class_XROrigin3D>` node.
+Restituisce la trasformazione radice di un modello di rendering. Questa è la posizione tracciata rispetto al nostro nodo :ref:`XROrigin3D<class_XROrigin3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -222,9 +222,9 @@ Returns the root transform of a render model. This is the tracked position relat
 
 :ref:`PackedStringArray<class_PackedStringArray>` **render_model_get_subaction_paths**\ (\ render_model\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_OpenXRRenderModelExtension_method_render_model_get_subaction_paths>`
 
-Returns a list of active subaction paths for this ``render_model``.
+Restituisce una lista di percorsi di sotto-azioni attive per il modello di rendering ``render_model``.
 
-\ **Note:** If different devices are bound to your actions than available in suggested interaction bindings, this information shows paths related to the interaction bindings being mimicked by that device.
+\ **Nota:** Se diversi dispositivi sono associati alle proprie azioni da quelli disponibili nelle associazioni di interazione suggeriti, queste informazioni mostrano i percorsi relativi alle associazioni di interazione imitate da tale dispositivo.
 
 .. rst-class:: classref-item-separator
 
@@ -236,7 +236,7 @@ Returns a list of active subaction paths for this ``render_model``.
 
 :ref:`String<class_String>` **render_model_get_top_level_path**\ (\ render_model\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_OpenXRRenderModelExtension_method_render_model_get_top_level_path>`
 
-Returns the top level path associated with this ``render_model``. If provided this identifies whether the render model is associated with the player's hands or other body part.
+Restituisce il percorso di livello superiore associato a questo modello di rendering ``render_model``. Se fornito, identifica se il modello di rendering è associato alle mani del giocatore o ad altre parti del corpo.
 
 .. rst-class:: classref-item-separator
 
@@ -248,7 +248,7 @@ Returns the top level path associated with this ``render_model``. If provided th
 
 :ref:`bool<class_bool>` **render_model_is_animatable_node_visible**\ (\ render_model\: :ref:`RID<class_RID>`, index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_OpenXRRenderModelExtension_method_render_model_is_animatable_node_visible>`
 
-Returns ``true`` if this animatable node should be visible.
+Restituisce ``true`` se questa nodo animabile deve essere visibile.
 
 .. rst-class:: classref-item-separator
 
@@ -260,7 +260,7 @@ Returns ``true`` if this animatable node should be visible.
 
 :ref:`Node3D<class_Node3D>` **render_model_new_scene_instance**\ (\ render_model\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_OpenXRRenderModelExtension_method_render_model_new_scene_instance>`
 
-Returns an instance of a subscene that contains all :ref:`MeshInstance3D<class_MeshInstance3D>` nodes that allow you to visualize the render model.
+Restituisce un'istanza di una sotto-scena che contiene tutti i nodi :ref:`MeshInstance3D<class_MeshInstance3D>` che consentono di visualizzare il modello di rendering.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

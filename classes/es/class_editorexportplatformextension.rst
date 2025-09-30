@@ -14,9 +14,9 @@ Clase base para implementaciones personalizadas de :ref:`EditorExportPlatform<cl
 Descripción
 ----------------------
 
-External :ref:`EditorExportPlatform<class_EditorExportPlatform>` implementations should inherit from this class.
+Las implementaciones externas de :ref:`EditorExportPlatform<class_EditorExportPlatform>` deben heredar de esta clase.
 
-To use :ref:`EditorExportPlatform<class_EditorExportPlatform>`, register it using the :ref:`EditorPlugin.add_export_platform()<class_EditorPlugin_method_add_export_platform>` method first.
+Para usar :ref:`EditorExportPlatform<class_EditorExportPlatform>`, regístralo primero usando el método :ref:`EditorPlugin.add_export_platform()<class_EditorPlugin_method_add_export_platform>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -111,9 +111,9 @@ Descripciones de Métodos
 
 :ref:`bool<class_bool>` **_can_export**\ (\ preset\: :ref:`EditorExportPreset<class_EditorExportPreset>`, debug\: :ref:`bool<class_bool>`\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlatformExtension_private_method__can_export>`
 
-Returns ``true``, if specified ``preset`` is valid and can be exported. Use :ref:`set_config_error()<class_EditorExportPlatformExtension_method_set_config_error>` and :ref:`set_config_missing_templates()<class_EditorExportPlatformExtension_method_set_config_missing_templates>` to set error details.
+Devuelve ``true``, si el ``preset`` especificado es válido y se puede exportar. Usa :ref:`set_config_error()<class_EditorExportPlatformExtension_method_set_config_error>` y :ref:`set_config_missing_templates()<class_EditorExportPlatformExtension_method_set_config_missing_templates>` para establecer los detalles del error.
 
-Usual implementation can call :ref:`_has_valid_export_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_export_configuration>` and :ref:`_has_valid_project_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_project_configuration>` to determine if export is possible.
+La implementación habitual puede llamar a :ref:`_has_valid_export_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_export_configuration>` y :ref:`_has_valid_project_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_project_configuration>` para determinar si la exportación es posible.
 
 .. rst-class:: classref-item-separator
 
@@ -137,9 +137,9 @@ Llamado por el editor antes de que se desregistre la plataforma.
 
 :ref:`Error<enum_@GlobalScope_Error>` **_export_pack**\ (\ preset\: :ref:`EditorExportPreset<class_EditorExportPreset>`, debug\: :ref:`bool<class_bool>`, path\: :ref:`String<class_String>`, flags\: |bitfield|\[:ref:`DebugFlags<enum_EditorExportPlatform_DebugFlags>`\]\ ) |virtual| :ref:`🔗<class_EditorExportPlatformExtension_private_method__export_pack>`
 
-Creates a PCK archive at ``path`` for the specified ``preset``.
+Crea un archivo PCK en ``path`` para el ``preset`` especificado.
 
-This method is called when "Export PCK/ZIP" button is pressed in the export dialog, with "Export as Patch" disabled, and PCK is selected as a file type.
+Este método se llama cuando se presiona el botón "Export PCK/ZIP" en el diálogo de exportación, con "Export as Patch" desactivado, y PCK se selecciona como tipo de archivo.
 
 .. rst-class:: classref-item-separator
 
@@ -151,11 +151,11 @@ This method is called when "Export PCK/ZIP" button is pressed in the export dial
 
 :ref:`Error<enum_@GlobalScope_Error>` **_export_pack_patch**\ (\ preset\: :ref:`EditorExportPreset<class_EditorExportPreset>`, debug\: :ref:`bool<class_bool>`, path\: :ref:`String<class_String>`, patches\: :ref:`PackedStringArray<class_PackedStringArray>`, flags\: |bitfield|\[:ref:`DebugFlags<enum_EditorExportPlatform_DebugFlags>`\]\ ) |virtual| :ref:`🔗<class_EditorExportPlatformExtension_private_method__export_pack_patch>`
 
-Creates a patch PCK archive at ``path`` for the specified ``preset``, containing only the files that have changed since the last patch.
+Crea un archivo PCK de parche en ``path`` para el ``preset`` especificado, que contiene solo los archivos que han cambiado desde el último parche.
 
-This method is called when "Export PCK/ZIP" button is pressed in the export dialog, with "Export as Patch" enabled, and PCK is selected as a file type.
+Este método se llama cuando se presiona el botón "Export PCK/ZIP" en el diálogo de exportación, con "Export as Patch" habilitado, y PCK se selecciona como tipo de archivo.
 
-\ **Note:** The patches provided in ``patches`` have already been loaded when this method is called and are merely provided as context. When empty the patches defined in the export preset have been loaded instead.
+\ **Nota:** Los parches proporcionados en ``patches`` ya se han cargado cuando se llama a este método y simplemente se proporcionan como contexto. Cuando esté vacío, se cargarán los parches definidos en el preset de exportación.
 
 .. rst-class:: classref-item-separator
 
@@ -167,11 +167,11 @@ This method is called when "Export PCK/ZIP" button is pressed in the export dial
 
 :ref:`Error<enum_@GlobalScope_Error>` **_export_project**\ (\ preset\: :ref:`EditorExportPreset<class_EditorExportPreset>`, debug\: :ref:`bool<class_bool>`, path\: :ref:`String<class_String>`, flags\: |bitfield|\[:ref:`DebugFlags<enum_EditorExportPlatform_DebugFlags>`\]\ ) |virtual| |required| :ref:`🔗<class_EditorExportPlatformExtension_private_method__export_project>`
 
-Creates a full project at ``path`` for the specified ``preset``.
+Crea un proyecto completo en ``path`` para el ``preset`` especificado.
 
-This method is called when "Export" button is pressed in the export dialog.
+Este método se llama cuando se presiona el botón "Exportar" en el diálogo de exportación.
 
-This method implementation can call :ref:`EditorExportPlatform.save_pack()<class_EditorExportPlatform_method_save_pack>` or :ref:`EditorExportPlatform.save_zip()<class_EditorExportPlatform_method_save_zip>` to use default PCK/ZIP export process, or calls :ref:`EditorExportPlatform.export_project_files()<class_EditorExportPlatform_method_export_project_files>` and implement custom callback for processing each exported file.
+Esta implementación del método puede llamar a :ref:`EditorExportPlatform.save_pack()<class_EditorExportPlatform_method_save_pack>` o :ref:`EditorExportPlatform.save_zip()<class_EditorExportPlatform_method_save_zip>` para usar el proceso de exportación PCK/ZIP predeterminado, o llama a :ref:`EditorExportPlatform.export_project_files()<class_EditorExportPlatform_method_export_project_files>` e implementa una función de retorno personalizada para procesar cada archivo exportado.
 
 .. rst-class:: classref-item-separator
 
@@ -183,9 +183,9 @@ This method implementation can call :ref:`EditorExportPlatform.save_pack()<class
 
 :ref:`Error<enum_@GlobalScope_Error>` **_export_zip**\ (\ preset\: :ref:`EditorExportPreset<class_EditorExportPreset>`, debug\: :ref:`bool<class_bool>`, path\: :ref:`String<class_String>`, flags\: |bitfield|\[:ref:`DebugFlags<enum_EditorExportPlatform_DebugFlags>`\]\ ) |virtual| :ref:`🔗<class_EditorExportPlatformExtension_private_method__export_zip>`
 
-Create a ZIP archive at ``path`` for the specified ``preset``.
+Crea un archivo ZIP en ``path`` para el ``preset`` especificado.
 
-This method is called when "Export PCK/ZIP" button is pressed in the export dialog, with "Export as Patch" disabled, and ZIP is selected as a file type.
+Este método se llama cuando se presiona el botón "Export PCK/ZIP" en el diálogo de exportación, con "Export as Patch" desactivado, y ZIP se selecciona como tipo de archivo.
 
 .. rst-class:: classref-item-separator
 
@@ -197,11 +197,11 @@ This method is called when "Export PCK/ZIP" button is pressed in the export dial
 
 :ref:`Error<enum_@GlobalScope_Error>` **_export_zip_patch**\ (\ preset\: :ref:`EditorExportPreset<class_EditorExportPreset>`, debug\: :ref:`bool<class_bool>`, path\: :ref:`String<class_String>`, patches\: :ref:`PackedStringArray<class_PackedStringArray>`, flags\: |bitfield|\[:ref:`DebugFlags<enum_EditorExportPlatform_DebugFlags>`\]\ ) |virtual| :ref:`🔗<class_EditorExportPlatformExtension_private_method__export_zip_patch>`
 
-Create a ZIP archive at ``path`` for the specified ``preset``, containing only the files that have changed since the last patch.
+Crea un archivo ZIP en ``path`` para el ``preset`` especificado, que contiene solo los archivos que han cambiado desde el último parche.
 
-This method is called when "Export PCK/ZIP" button is pressed in the export dialog, with "Export as Patch" enabled, and ZIP is selected as a file type.
+Este método se llama cuando se presiona el botón "Export PCK/ZIP" en el diálogo de exportación, con "Export as Patch" habilitado, y ZIP se selecciona como tipo de archivo.
 
-\ **Note:** The patches provided in ``patches`` have already been loaded when this method is called and are merely provided as context. When empty the patches defined in the export preset have been loaded instead.
+\ **Nota:** Los parches proporcionados en ``patches`` ya se han cargado cuando se llama a este método y simplemente se proporcionan como contexto. Cuando esté vacío, se cargarán los parches definidos en el preset de exportación.
 
 .. rst-class:: classref-item-separator
 
@@ -225,7 +225,7 @@ Devuelve un array de extensiones binarias compatibles para la exportación compl
 
 :ref:`String<class_String>` **_get_debug_protocol**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlatformExtension_private_method__get_debug_protocol>`
 
-Returns protocol used for remote debugging. Default implementation return ``tcp://``.
+Devuelve el protocolo utilizado para la depuración remota. La implementación predeterminada devuelve ``tcp://``.
 
 .. rst-class:: classref-item-separator
 
@@ -249,7 +249,7 @@ Devuelve la arquitectura del dispositivo para una implementación con un solo cl
 
 :ref:`bool<class_bool>` **_get_export_option_visibility**\ (\ preset\: :ref:`EditorExportPreset<class_EditorExportPreset>`, option\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlatformExtension_private_method__get_export_option_visibility>`
 
-Validates ``option`` and returns visibility for the specified ``preset``. Default implementation return ``true`` for all options.
+Valida ``option`` y devuelve la visibilidad para el ``preset`` especificado. La implementación predeterminada devuelve ``true`` para todas las opciones.
 
 .. rst-class:: classref-item-separator
 
@@ -261,7 +261,7 @@ Validates ``option`` and returns visibility for the specified ``preset``. Defaul
 
 :ref:`String<class_String>` **_get_export_option_warning**\ (\ preset\: :ref:`EditorExportPreset<class_EditorExportPreset>`, option\: :ref:`StringName<class_StringName>`\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlatformExtension_private_method__get_export_option_warning>`
 
-Validates ``option`` and returns warning message for the specified ``preset``. Default implementation return empty string for all options.
+Valida ``option`` y devuelve un mensaje de advertencia para el ``preset`` especificado. La implementación predeterminada devuelve una cadena vacía para todas las opciones.
 
 .. rst-class:: classref-item-separator
 
@@ -273,9 +273,9 @@ Validates ``option`` and returns warning message for the specified ``preset``. D
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **_get_export_options**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlatformExtension_private_method__get_export_options>`
 
-Returns a property list, as an :ref:`Array<class_Array>` of dictionaries. Each :ref:`Dictionary<class_Dictionary>` must at least contain the ``name: StringName`` and ``type: Variant.Type`` entries.
+Devuelve una lista de propiedades, como un :ref:`Array<class_Array>` de diccionarios. Cada :ref:`Dictionary<class_Dictionary>` debe contener al menos las entradas ``name: StringName`` y ``type: Variant.Type``.
 
-Additionally, the following keys are supported:
+Además, se admiten las siguientes claves:
 
 - ``hint: PropertyHint``\ 
 
@@ -285,13 +285,13 @@ Additionally, the following keys are supported:
 
 - ``class_name: StringName``\ 
 
-- ``default_value: Variant``, default value of the property.
+- ``default_value: Variant``, valor predeterminado de la propiedad.
 
-- ``update_visibility: bool``, if set to ``true``, :ref:`_get_export_option_visibility()<class_EditorExportPlatformExtension_private_method__get_export_option_visibility>` is called for each property when this property is changed.
+- ``update_visibility: bool``, si se establece en ``true``, :ref:`_get_export_option_visibility()<class_EditorExportPlatformExtension_private_method__get_export_option_visibility>` se llama para cada propiedad cuando se cambia esta propiedad.
 
-- ``required: bool``, if set to ``true``, this property warnings are critical, and should be resolved to make export possible. This value is a hint for the :ref:`_has_valid_export_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_export_configuration>` implementation, and not used by the engine directly.
+- ``required: bool``, si se establece en ``true``, las advertencias de esta propiedad son críticas y deben resolverse para que la exportación sea posible. Este valor es una sugerencia para la implementación de :ref:`_has_valid_export_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_export_configuration>` y no es utilizado directamente por el motor.
 
-See also :ref:`Object._get_property_list()<class_Object_private_method__get_property_list>`.
+Véase también :ref:`Object._get_property_list()<class_Object_private_method__get_property_list>`.
 
 .. rst-class:: classref-item-separator
 
@@ -303,7 +303,7 @@ See also :ref:`Object._get_property_list()<class_Object_private_method__get_prop
 
 :ref:`Texture2D<class_Texture2D>` **_get_logo**\ (\ ) |virtual| |required| |const| :ref:`🔗<class_EditorExportPlatformExtension_private_method__get_logo>`
 
-Returns the platform logo displayed in the export dialog. The logo should be 32×32 pixels, adjusted for the current editor scale (see :ref:`EditorInterface.get_editor_scale()<class_EditorInterface_method_get_editor_scale>`).
+Devuelve el logo de la plataforma que se muestra en el diálogo de exportación. El logo debería ser de 32×32 píxeles, ajustado a la escala actual del editor (véase :ref:`EditorInterface.get_editor_scale()<class_EditorInterface_method_get_editor_scale>`).
 
 .. rst-class:: classref-item-separator
 
@@ -327,7 +327,7 @@ Devuelve el nombre de la plataforma de exportación.
 
 :ref:`Texture2D<class_Texture2D>` **_get_option_icon**\ (\ device\: :ref:`int<class_int>`\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlatformExtension_private_method__get_option_icon>`
 
-Returns the item icon for the specified ``device`` in the one-click deploy menu. The icon should be 16×16 pixels, adjusted for the current editor scale (see :ref:`EditorInterface.get_editor_scale()<class_EditorInterface_method_get_editor_scale>`).
+Devuelve el icono del elemento para el ``device`` especificado en el menú de implementación con un solo clic. El icono debe ser de 16×16 píxeles, ajustado a la escala actual del editor (véase :ref:`EditorInterface.get_editor_scale()<class_EditorInterface_method_get_editor_scale>`).
 
 .. rst-class:: classref-item-separator
 
@@ -339,7 +339,7 @@ Returns the item icon for the specified ``device`` in the one-click deploy menu.
 
 :ref:`String<class_String>` **_get_option_label**\ (\ device\: :ref:`int<class_int>`\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlatformExtension_private_method__get_option_label>`
 
-Returns one-click deploy menu item label for the specified ``device``.
+Devuelve la etiqueta del elemento del menú de implementación con un solo clic para el ``device`` especificado.
 
 .. rst-class:: classref-item-separator
 
@@ -351,7 +351,7 @@ Returns one-click deploy menu item label for the specified ``device``.
 
 :ref:`String<class_String>` **_get_option_tooltip**\ (\ device\: :ref:`int<class_int>`\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlatformExtension_private_method__get_option_tooltip>`
 
-Returns one-click deploy menu item tooltip for the specified ``device``.
+Devuelve la información sobre la herramienta del elemento del menú de implementación con un solo clic para el ``device`` especificado.
 
 .. rst-class:: classref-item-separator
 
@@ -363,7 +363,7 @@ Returns one-click deploy menu item tooltip for the specified ``device``.
 
 :ref:`int<class_int>` **_get_options_count**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlatformExtension_private_method__get_options_count>`
 
-Returns the number of devices (or other options) available in the one-click deploy menu.
+Devuelve el número de dispositivos (u otras opciones) disponibles en el menú de implementación con un solo clic.
 
 .. rst-class:: classref-item-separator
 
@@ -423,7 +423,7 @@ Devuelve un array de características específicas de la plataforma para el ``pr
 
 :ref:`Texture2D<class_Texture2D>` **_get_run_icon**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlatformExtension_private_method__get_run_icon>`
 
-Returns the icon of the one-click deploy menu button. The icon should be 16×16 pixels, adjusted for the current editor scale (see :ref:`EditorInterface.get_editor_scale()<class_EditorInterface_method_get_editor_scale>`).
+Devuelve el icono del botón del menú de implementación con un solo clic. El icono debe ser de 16×16 píxeles, ajustado a la escala actual del editor (véase :ref:`EditorInterface.get_editor_scale()<class_EditorInterface_method_get_editor_scale>`).
 
 .. rst-class:: classref-item-separator
 
@@ -459,7 +459,7 @@ Devuelve ``true`` si la configuración del proyecto es válida.
 
 :ref:`bool<class_bool>` **_is_executable**\ (\ path\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlatformExtension_private_method__is_executable>`
 
-Returns ``true`` if specified file is a valid executable (native executable or script) for the target platform.
+Devuelve ``true`` si el archivo especificado es un ejecutable válido (ejecutable nativo o script) para la plataforma de destino.
 
 .. rst-class:: classref-item-separator
 
@@ -471,7 +471,7 @@ Returns ``true`` if specified file is a valid executable (native executable or s
 
 :ref:`bool<class_bool>` **_poll_export**\ (\ ) |virtual| :ref:`🔗<class_EditorExportPlatformExtension_private_method__poll_export>`
 
-Returns ``true`` if one-click deploy options are changed and editor interface should be updated.
+Devuelve ``true`` si las opciones de implementación con un solo clic se han cambiado y la interfaz del editor debería actualizarse.
 
 .. rst-class:: classref-item-separator
 
@@ -483,9 +483,9 @@ Returns ``true`` if one-click deploy options are changed and editor interface sh
 
 :ref:`Error<enum_@GlobalScope_Error>` **_run**\ (\ preset\: :ref:`EditorExportPreset<class_EditorExportPreset>`, device\: :ref:`int<class_int>`, debug_flags\: |bitfield|\[:ref:`DebugFlags<enum_EditorExportPlatform_DebugFlags>`\]\ ) |virtual| :ref:`🔗<class_EditorExportPlatformExtension_private_method__run>`
 
-This method is called when ``device`` one-click deploy menu option is selected.
+Este método se llama cuando se selecciona la opción del menú de implementación con un solo clic ``device``.
 
-Implementation should export project to a temporary location, upload and run it on the specific ``device``, or perform another action associated with the menu item.
+La implementación debería exportar el proyecto a una ubicación temporal, cargarlo y ejecutarlo en el ``device`` específico, o realizar otra acción asociada con el elemento del menú.
 
 .. rst-class:: classref-item-separator
 
@@ -497,7 +497,7 @@ Implementation should export project to a temporary location, upload and run it 
 
 :ref:`bool<class_bool>` **_should_update_export_options**\ (\ ) |virtual| :ref:`🔗<class_EditorExportPlatformExtension_private_method__should_update_export_options>`
 
-Returns ``true`` if export options list is changed and presets should be updated.
+Devuelve ``true`` si la lista de opciones de exportación ha cambiado y los preajustes deberían actualizarse.
 
 .. rst-class:: classref-item-separator
 
@@ -509,7 +509,7 @@ Returns ``true`` if export options list is changed and presets should be updated
 
 :ref:`String<class_String>` **get_config_error**\ (\ ) |const| :ref:`🔗<class_EditorExportPlatformExtension_method_get_config_error>`
 
-Returns current configuration error message text. This method should be called only from the :ref:`_can_export()<class_EditorExportPlatformExtension_private_method__can_export>`, :ref:`_has_valid_export_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_export_configuration>`, or :ref:`_has_valid_project_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_project_configuration>` implementations.
+Devuelve el texto del mensaje de error de configuración actual. Este método solo debe llamarse desde las implementaciones de :ref:`_can_export()<class_EditorExportPlatformExtension_private_method__can_export>`, :ref:`_has_valid_export_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_export_configuration>` o :ref:`_has_valid_project_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_project_configuration>`.
 
 .. rst-class:: classref-item-separator
 
@@ -521,7 +521,7 @@ Returns current configuration error message text. This method should be called o
 
 :ref:`bool<class_bool>` **get_config_missing_templates**\ (\ ) |const| :ref:`🔗<class_EditorExportPlatformExtension_method_get_config_missing_templates>`
 
-Returns ``true`` is export templates are missing from the current configuration. This method should be called only from the :ref:`_can_export()<class_EditorExportPlatformExtension_private_method__can_export>`, :ref:`_has_valid_export_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_export_configuration>`, or :ref:`_has_valid_project_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_project_configuration>` implementations.
+Devuelve ``true`` si faltan plantillas de exportación en la configuración actual. Este método solo debe llamarse desde las implementaciones de :ref:`_can_export()<class_EditorExportPlatformExtension_private_method__can_export>`, :ref:`_has_valid_export_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_export_configuration>` o :ref:`_has_valid_project_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_project_configuration>`.
 
 .. rst-class:: classref-item-separator
 
@@ -533,7 +533,7 @@ Returns ``true`` is export templates are missing from the current configuration.
 
 |void| **set_config_error**\ (\ error_text\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_EditorExportPlatformExtension_method_set_config_error>`
 
-Sets current configuration error message text. This method should be called only from the :ref:`_can_export()<class_EditorExportPlatformExtension_private_method__can_export>`, :ref:`_has_valid_export_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_export_configuration>`, or :ref:`_has_valid_project_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_project_configuration>` implementations.
+Establece el texto del mensaje de error de configuración actual. Este método solo debe llamarse desde las implementaciones de :ref:`_can_export()<class_EditorExportPlatformExtension_private_method__can_export>`, :ref:`_has_valid_export_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_export_configuration>` o :ref:`_has_valid_project_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_project_configuration>`.
 
 .. rst-class:: classref-item-separator
 
@@ -545,7 +545,7 @@ Sets current configuration error message text. This method should be called only
 
 |void| **set_config_missing_templates**\ (\ missing_templates\: :ref:`bool<class_bool>`\ ) |const| :ref:`🔗<class_EditorExportPlatformExtension_method_set_config_missing_templates>`
 
-Set to ``true`` is export templates are missing from the current configuration. This method should be called only from the :ref:`_can_export()<class_EditorExportPlatformExtension_private_method__can_export>`, :ref:`_has_valid_export_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_export_configuration>`, or :ref:`_has_valid_project_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_project_configuration>` implementations.
+Establece en ``true`` si faltan plantillas de exportación en la configuración actual. Este método solo debe llamarse desde las implementaciones de :ref:`_can_export()<class_EditorExportPlatformExtension_private_method__can_export>`, :ref:`_has_valid_export_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_export_configuration>` o :ref:`_has_valid_project_configuration()<class_EditorExportPlatformExtension_private_method__has_valid_project_configuration>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

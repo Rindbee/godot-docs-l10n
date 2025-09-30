@@ -308,9 +308,9 @@ Se nella scena sono presenti più telecamere, una diventerà sempre attuale. Ad 
 - |void| **set_doppler_tracking**\ (\ value\: :ref:`DopplerTracking<enum_Camera3D_DopplerTracking>`\ )
 - :ref:`DopplerTracking<enum_Camera3D_DopplerTracking>` **get_doppler_tracking**\ (\ )
 
-If not :ref:`DOPPLER_TRACKING_DISABLED<class_Camera3D_constant_DOPPLER_TRACKING_DISABLED>`, this camera will simulate the `Doppler effect <https://en.wikipedia.org/wiki/Doppler_effect>`__ for objects changed in particular ``_process`` methods.
+Se non è :ref:`DOPPLER_TRACKING_DISABLED<class_Camera3D_constant_DOPPLER_TRACKING_DISABLED>`, questa telecamera simulerà l'`effetto Doppler <https://it.wikipedia.org/wiki/Effetto_Doppler>`__ per gli oggetti modificati in particolari metodi ``_process``.
 
-\ **Note:** The Doppler effect will only be heard on :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`\ s if :ref:`AudioStreamPlayer3D.doppler_tracking<class_AudioStreamPlayer3D_property_doppler_tracking>` is not set to :ref:`AudioStreamPlayer3D.DOPPLER_TRACKING_DISABLED<class_AudioStreamPlayer3D_constant_DOPPLER_TRACKING_DISABLED>`.
+\ **Nota:** L'effetto Doppler sarà udibile solo sugli :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>` se :ref:`AudioStreamPlayer3D.doppler_tracking<class_AudioStreamPlayer3D_property_doppler_tracking>` non è impostato su :ref:`AudioStreamPlayer3D.DOPPLER_TRACKING_DISABLED<class_AudioStreamPlayer3D_constant_DOPPLER_TRACKING_DISABLED>`.
 
 .. rst-class:: classref-item-separator
 
@@ -703,9 +703,9 @@ Imposta la proiezione della telecamera sulla modalità tronco (vedi :ref:`PROJEC
 
 |void| **set_orthogonal**\ (\ size\: :ref:`float<class_float>`, z_near\: :ref:`float<class_float>`, z_far\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Camera3D_method_set_orthogonal>`
 
-Sets the camera projection to orthogonal mode (see :ref:`PROJECTION_ORTHOGONAL<class_Camera3D_constant_PROJECTION_ORTHOGONAL>`), by specifying a ``size``, and the ``z_near`` and ``z_far`` clip planes in world space units.
+Imposta la proiezione della telecamera in modalità ortogonale (vedi :ref:`PROJECTION_ORTHOGONAL<class_Camera3D_constant_PROJECTION_ORTHOGONAL>`), specificando una dimensione ``size`` e i piani di ritaglio ``z_near`` e ``z_far`` in unità di spazio mondiale.
 
-As a hint, 3D games that look 2D often use this projection, with ``size`` specified in pixels.
+Come suggerimento, i giochi 3D che sembrano 2D utilizzano spesso questa proiezione, con ``size`` specificato in pixel.
 
 .. rst-class:: classref-item-separator
 

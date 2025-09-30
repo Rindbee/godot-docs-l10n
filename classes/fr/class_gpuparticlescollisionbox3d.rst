@@ -16,7 +16,7 @@ Description
 
 Une forme de collision de particules en forme de boîte affectant les nœuds :ref:`GPUParticles3D<class_GPUParticles3D>`.
 
-Les formes de collision de particules fonctionnent en temps réel et peuvent être déplacées, tournées et redimensionnées pendant le gameplay. Contrairement aux attracteurs, une dimension non uniforme des formes de collision est n'est *pas* soutenue.
+Les formes de collision de particules fonctionnent en temps réel et peuvent être déplacées, tournées et redimensionnées pendant le gameplay. Contrairement aux attracteurs, une échelle non uniforme des formes de collision n'est *pas* supportée.
 
 \ **Note :** :ref:`ParticleProcessMaterial.collision_mode<class_ParticleProcessMaterial_property_collision_mode>` doit valoir :ref:`ParticleProcessMaterial.COLLISION_RIGID<class_ParticleProcessMaterial_constant_COLLISION_RIGID>` ou :ref:`ParticleProcessMaterial.COLLISION_HIDE_ON_CONTACT<class_ParticleProcessMaterial_constant_COLLISION_HIDE_ON_CONTACT>` sur le matériau de traitement du :ref:`GPUParticles3D<class_GPUParticles3D>` pour que la collision fonctionne.
 

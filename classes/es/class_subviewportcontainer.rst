@@ -70,11 +70,11 @@ Descripciones de Propiedades
 - |void| **set_mouse_target**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_mouse_target_enabled**\ (\ )
 
-Configure, if either the **SubViewportContainer** or alternatively the :ref:`Control<class_Control>` nodes of its :ref:`SubViewport<class_SubViewport>` children should be available as targets of mouse-related functionalities, like identifying the drop target in drag-and-drop operations or cursor shape of hovered :ref:`Control<class_Control>` node.
+Configura si el **SubViewportContainer** o alternativamente los nodos :ref:`Control<class_Control>` de sus hijos :ref:`SubViewport<class_SubViewport>` deben estar disponibles como objetivos de funcionalidades relacionadas con el ratón, como identificar el objetivo de soltar en operaciones de arrastrar y soltar o la forma del cursor del nodo :ref:`Control<class_Control>` sobre el que se pasa el ratón.
 
-If ``false``, the :ref:`Control<class_Control>` nodes inside its :ref:`SubViewport<class_SubViewport>` children are considered as targets.
+Si es ``false``, los nodos :ref:`Control<class_Control>` dentro de sus hijos :ref:`SubViewport<class_SubViewport>` se consideran como objetivos.
 
-If ``true``, the **SubViewportContainer** itself will be considered as a target.
+Si es ``true``, el propio **SubViewportContainer** se considerará como un objetivo.
 
 .. rst-class:: classref-item-separator
 
@@ -91,9 +91,9 @@ If ``true``, the **SubViewportContainer** itself will be considered as a target.
 - |void| **set_stretch**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_stretch_enabled**\ (\ )
 
-If ``true``, the sub-viewport will be automatically resized to the control's size.
+Si es ``true``, el sub-viewport se redimensionará automáticamente al tamaño del control.
 
-\ **Note:** If ``true``, this will prohibit changing :ref:`SubViewport.size<class_SubViewport_property_size>` of its children manually.
+\ **Nota:** Si es ``true``, esto prohibirá cambiar :ref:`SubViewport.size<class_SubViewport_property_size>` de sus hijos manualmente.
 
 .. rst-class:: classref-item-separator
 
@@ -133,7 +133,7 @@ Descripciones de Métodos
 
 **Experimental:** Este método podría ser modificado o eliminado en versiones futuras.
 
-Virtual method to be implemented by the user. If it returns ``true``, the ``event`` is propagated to :ref:`SubViewport<class_SubViewport>` children. Propagation doesn't happen if it returns ``false``. If the function is not implemented, all events are propagated to SubViewports.
+Método virtual para ser implementado por el usuario. Si devuelve ``true``, el ``event`` se propaga a los hijos :ref:`SubViewport<class_SubViewport>`. La propagación no ocurre si devuelve ``false``. Si la función no está implementada, todos los eventos se propagan a los SubViewports.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

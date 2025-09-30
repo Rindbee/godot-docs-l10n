@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/TextEdit.xml.
+.. meta::
+	:keywords: textarea
 
 .. _class_TextEdit:
 
@@ -618,7 +618,7 @@ Emitida cuando el texto cambia.
 
 **text_set**\ (\ ) :ref:`🔗<class_TextEdit_signal_text_set>`
 
-Emitida cuando se llama a :ref:`claro()<class_TextEdit_method_claro>` o se establece\ :ref:`text<class_TextEdit_property_text>`.
+Emitida cuando se llama a :ref:`clear()<class_TextEdit_method_clear>` o se establece :ref:`text<class_TextEdit_property_text>`.
 
 .. rst-class:: classref-section-separator
 
@@ -2754,7 +2754,7 @@ You can add custom menu items or remove standard ones. Make sure your IDs don't 
 
 :ref:`int<class_int>` **get_minimap_line_at_pos**\ (\ position\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TextEdit_method_get_minimap_line_at_pos>`
 
-Devuelve la línea equivalente del minimapa en la ``posición``.
+Devuelve la línea equivalente del minimapa en la ``position``.
 
 .. rst-class:: classref-item-separator
 

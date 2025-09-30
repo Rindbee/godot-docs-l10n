@@ -16,22 +16,22 @@ La classe di base CSG.
 Descrizione
 ----------------------
 
-This is the CSG base class that provides CSG operation support to the various CSG nodes in Godot.
+Questa è la classe base CSG che fornisce supporto delle operazioni CSG ai vari nodi CSG in Godot.
 
-\ **Performance:** CSG nodes are only intended for prototyping as they have a significant CPU performance cost. Consider baking final CSG operation results into static geometry that replaces the CSG nodes.
+\ **Prestazioni:** I nodi CSG sono progettati solo alla prototipazione, poiché hanno un impatto significativo sulle prestazioni della CPU. Si consiglia di preparare i risultati finali delle operazioni CSG in una geometria statica che sostituisce i nodi CSG.
 
-Individual CSG root node results can be baked to nodes with static resources with the editor menu that appears when a CSG root node is selected.
+È possibile preparare i singoli risultati del nodo CSG radice in nodi con risorse statiche attraverso il menu dell'editor che appare quando un nodo CSG radice è selezionato.
 
-Individual CSG root nodes can also be baked to static resources with scripts by calling :ref:`bake_static_mesh()<class_CSGShape3D_method_bake_static_mesh>` for the visual mesh or :ref:`bake_collision_shape()<class_CSGShape3D_method_bake_collision_shape>` for the physics collision.
+È possibile anche preparare i singoli nodi CSG radice in risorse statiche tramite script, chiamando :ref:`bake_static_mesh()<class_CSGShape3D_method_bake_static_mesh>` per la mesh visiva o :ref:`bake_collision_shape()<class_CSGShape3D_method_bake_collision_shape>` per la collisione fisica.
 
-Entire scenes of CSG nodes can be baked to static geometry and exported with the editor glTF scene exporter: **Scene > Export As... > glTF 2.0 Scene...**
+È possibile preparare intere scene di nodi CSG in geometria statica ed esportarle con l'esportatore di scene gltf dell'editor: **Scena > Esporta come... > Scena glTF 2.0...**
 
 .. rst-class:: classref-introduction-group
 
 Tutorial
 ----------------
 
-- :doc:`Prototipazione de livelli con CSG <../tutorials/3d/csg_tools>`
+- :doc:`Prototipazione dei livelli con CSG <../tutorials/3d/csg_tools>`
 
 .. rst-class:: classref-reftable-group
 
@@ -267,11 +267,11 @@ Descrizioni dei metodi
 
 :ref:`ConcavePolygonShape3D<class_ConcavePolygonShape3D>` **bake_collision_shape**\ (\ ) :ref:`🔗<class_CSGShape3D_method_bake_collision_shape>`
 
-Returns a baked physics :ref:`ConcavePolygonShape3D<class_ConcavePolygonShape3D>` of this node's CSG operation result. Returns an empty shape if the node is not a CSG root node or has no valid geometry.
+Restituisce un :ref:`ConcavePolygonShape3D<class_ConcavePolygonShape3D>` preparato per la fisica del risultato dell'operazione CSG di questo nodo. Restituisce una forma vuota se il nodo non è un nodo radice CSG o non ha una geometria valida.
 
-\ **Performance:** If the CSG operation results in a very detailed geometry with many faces physics performance will be very slow. Concave shapes should in general only be used for static level geometry and not with dynamic objects that are moving.
+\ **Prestazioni:** Se l'operazione CSG produce una geometria molto dettagliata con molte facce, le prestazioni sulla fisica saranno molto lente. Le forme concave dovrebbero in generale essere utilizzate solo per la geometria statica di un livello e non con gli oggetti dinamici in movimento.
 
-\ **Note:** CSG mesh data updates are deferred, which means they are updated with a delay of one rendered frame. To avoid getting an empty shape or outdated mesh data, make sure to call ``await get_tree().process_frame`` before using :ref:`bake_collision_shape()<class_CSGShape3D_method_bake_collision_shape>` in :ref:`Node._ready()<class_Node_private_method__ready>` or after changing properties on the **CSGShape3D**.
+\ **Nota:** Gli aggiornamenti dei dati delle mesh CSG sono differiti, il che significa che si aggiornano con un ritardo di un frame renderizzato. Per evitare di ottenere una forma vuota o dati obsoleti di mesh, assicurarsi di chiamare ``await get_tree().process_frame`` prima di usare :ref:`bake_collision_shape()<class_CSGShape3D_method_bake_collision_shape>` in :ref:`Node._ready()<class_Node_private_method__ready>` o dopo aver modificato le proprietà sul **CSGShape3D**.
 
 .. rst-class:: classref-item-separator
 
@@ -283,9 +283,9 @@ Returns a baked physics :ref:`ConcavePolygonShape3D<class_ConcavePolygonShape3D>
 
 :ref:`ArrayMesh<class_ArrayMesh>` **bake_static_mesh**\ (\ ) :ref:`🔗<class_CSGShape3D_method_bake_static_mesh>`
 
-Returns a baked static :ref:`ArrayMesh<class_ArrayMesh>` of this node's CSG operation result. Materials from involved CSG nodes are added as extra mesh surfaces. Returns an empty mesh if the node is not a CSG root node or has no valid geometry.
+Restituisce un :ref:`ArrayMesh<class_ArrayMesh>` statico preparato dal risultato dell'operazione CSG di questo nodo. I materiali dei nodi CSG coinvolti vengono inclusi come superfici aggiuntive alla mesh. Restituisce una mesh vuota se il nodo non è un nodo radice CSG o non ha una geometria valida.
 
-\ **Note:** CSG mesh data updates are deferred, which means they are updated with a delay of one rendered frame. To avoid getting an empty mesh or outdated mesh data, make sure to call ``await get_tree().process_frame`` before using :ref:`bake_static_mesh()<class_CSGShape3D_method_bake_static_mesh>` in :ref:`Node._ready()<class_Node_private_method__ready>` or after changing properties on the **CSGShape3D**.
+\ **Nota:** Gli aggiornamenti dei dati delle mesh CSG sono differiti, il che significa che si aggiornano con un ritardo di un frame renderizzato. Per evitare di ottenere una forma vuota o dati obsoleti di mesh, assicurarsi di chiamare ``await get_tree().process_frame`` prima di usare :ref:`bake_collision_shape()<class_CSGShape3D_method_bake_collision_shape>` in :ref:`Node._ready()<class_Node_private_method__ready>` o dopo aver modificato le proprietà sul **CSGShape3D**.
 
 .. rst-class:: classref-item-separator
 
@@ -321,9 +321,9 @@ Restituisce se lo strato specificato della :ref:`collision_mask<class_CSGShape3D
 
 :ref:`Array<class_Array>` **get_meshes**\ (\ ) |const| :ref:`🔗<class_CSGShape3D_method_get_meshes>`
 
-Returns an :ref:`Array<class_Array>` with two elements, the first is the :ref:`Transform3D<class_Transform3D>` of this node and the second is the root :ref:`Mesh<class_Mesh>` of this node. Only works when this node is the root shape.
+Restituisce un :ref:`Array<class_Array>` con due elementi, il primo è il :ref:`Transform3D<class_Transform3D>` di questo nodo e il secondo è la :ref:`Mesh<class_Mesh>` radice di questo nodo. Funziona solo quando questo nodo è la forma radice.
 
-\ **Note:** CSG mesh data updates are deferred, which means they are updated with a delay of one rendered frame. To avoid getting an empty shape or outdated mesh data, make sure to call ``await get_tree().process_frame`` before using :ref:`get_meshes()<class_CSGShape3D_method_get_meshes>` in :ref:`Node._ready()<class_Node_private_method__ready>` or after changing properties on the **CSGShape3D**.
+\ **Nota:** Gli aggiornamenti dei dati delle mesh CSG sono differiti, il che significa che si aggiornano con un ritardo di un frame renderizzato. Per evitare di ottenere una forma vuota o dati obsoleti di mesh, assicurarsi di chiamare ``await get_tree().process_frame`` prima di usare :ref:`bake_collision_shape()<class_CSGShape3D_method_bake_collision_shape>` in :ref:`Node._ready()<class_Node_private_method__ready>` o dopo aver modificato le proprietà sul **CSGShape3D**.
 
 .. rst-class:: classref-item-separator
 

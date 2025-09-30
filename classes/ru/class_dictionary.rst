@@ -12,39 +12,39 @@ Dictionary
 Описание
 ----------------
 
-Dictionaries — это ассоциативные контейнеры, содержащие значения, на которые ссылаются уникальные ключи. Словари сохраняют порядок добавления новых записей. В других языках программирования эта структура данных часто называется хэш-картой или ассоциативным массивом.
+Dictionaries are associative containers that contain values referenced by unique keys. Dictionaries will preserve the insertion order when adding new entries. In other programming languages, this data structure is often referred to as a hash map or an associative array.
 
-Вы можете определить словарь, поместив список пар ``ключ: значение``, разделённых запятыми, в фигурные скобки ``{}``.
+You can define a dictionary by placing a comma-separated list of ``key: value`` pairs inside curly braces ``{}``.
 
-Создание словаря:
+Creating a dictionary:
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var my_dict = {} # Создает пустой словарь.
+    var my_dict = {} # Creates an empty dictionary.
 
-    var dict_variable_key = "Еще одно ключевое имя"
-    var dict_variable_value = "значение2"
+    var dict_variable_key = "Another key name"
+    var dict_variable_value = "value2"
     var another_dict = {
-        "Какое-то ключевое имя": "значение1",
+        "Some key name": "value1",
         dict_variable_key: dict_variable_value,
     }
 
     var points_dict = { "White": 50, "Yellow": 75, "Orange": 100 }
 
-    # Альтернативный синтаксис в стиле Lua.
-    # Не требует заключения ключей в кавычки, но в качестве имен ключей можно использовать только строковые константы.
-    # Кроме того, имена ключей должны начинаться с буквы или символа подчеркивания.
-    # Здесь `some_key` — это строковый литерал, а не переменная!
+    # Alternative Lua-style syntax.
+    # Doesn't require quotes around keys, but only string constants can be used as key names.
+    # Additionally, key names must start with a letter or an underscore.
+    # Here, `some_key` is a string literal, not a variable!
     another_dict = {
         some_key = 42,
     }
 
  .. code-tab:: csharp
 
-    var myDict = new Godot.Collections.Dictionary(); // Создает пустой словарь.
+    var myDict = new Godot.Collections.Dictionary(); // Creates an empty dictionary.
     var pointsDict = new Godot.Collections.Dictionary
     {
         { "White", 50 },
@@ -54,7 +54,7 @@ Dictionaries — это ассоциативные контейнеры, сод�
 
 
 
-Вы можете получить доступ к значению словаря, указав соответствующий ключ. В примере выше ``points_dict["White"]`` вернёт ``50``. Вы также можете написать ``points_dict.White``, что эквивалентно. Однако вам придётся использовать скобки, если ключ, по которому вы обращаетесь к словарю, не является фиксированной строкой (например, числом или переменной).
+You can access a dictionary's value by referencing its corresponding key. In the above example, ``points_dict["White"]`` will return ``50``. You can also write ``points_dict.White``, which is equivalent. However, you'll have to use the bracket syntax if the key you're accessing the dictionary with isn't a fixed string (such as a number or variable).
 
 
 .. tabs::
@@ -64,7 +64,7 @@ Dictionaries — это ассоциативные контейнеры, сод�
     @export_enum("White", "Yellow", "Orange") var my_color: String
     var points_dict = { "White": 50, "Yellow": 75, "Orange": 100 }
     func _ready():
-        # Здесь мы не можем использовать точечный синтаксис, поскольку `my_color` — это переменная.
+        # We can't use dot syntax here as `my_color` is a variable.
         var points = points_dict[my_color]
 
  .. code-tab:: csharp
@@ -85,9 +85,9 @@ Dictionaries — это ассоциативные контейнеры, сод�
 
 
 
-В приведённом выше коде ``points`` будет присвоено значение, соответствующее цвету, выбранному в ``my_color``.
+In the above code, ``points`` will be assigned the value that is paired with the appropriate color selected in ``my_color``.
 
-Словари могут содержать более сложные данные:
+Dictionaries can contain more complex data:
 
 
 .. tabs::
@@ -95,7 +95,7 @@ Dictionaries — это ассоциативные контейнеры, сод�
  .. code-tab:: gdscript
 
     var my_dict = {
-        "First Array": [1, 2, 3, 4] # Назначает массив строковому ключу.
+        "First Array": [1, 2, 3, 4] # Assigns an Array to a String key.
     }
 
  .. code-tab:: csharp
@@ -107,7 +107,7 @@ Dictionaries — это ассоциативные контейнеры, сод�
 
 
 
-Чтобы добавить ключ в существующий словарь, получите к нему доступ как к существующему ключу и назначьте ему:
+To add a key to an existing dictionary, access it like an existing key and assign to it:
 
 
 .. tabs::
@@ -115,7 +115,7 @@ Dictionaries — это ассоциативные контейнеры, сод�
  .. code-tab:: gdscript
 
     var points_dict = { "White": 50, "Yellow": 75, "Orange": 100 }
-    points_dict["Blue"] = 150 # Добавьте "Blue" в качестве ключа и присвойте ему значение 150.
+    points_dict["Blue"] = 150 # Add "Blue" as a key and assign 150 as its value.
 
  .. code-tab:: csharp
 
@@ -125,20 +125,20 @@ Dictionaries — это ассоциативные контейнеры, сод�
         { "Yellow", 75 },
         { "Orange", 100 },
     };
-    pointsDict["Blue"] = 150; // Добавьте "Blue" в качестве ключа и присвойте ему значение 150.
+    pointsDict["Blue"] = 150; // Add "Blue" as a key and assign 150 as its value.
 
 
 
-Наконец, словари могут содержать различные типы ключей и значений в одном и том же словаре:
+Finally, untyped dictionaries can contain different types of keys and values in the same dictionary:
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    # Это действительный словарь.
-    # Чтобы получить доступ к строке "Nested value" ниже, используйте `my_dict.sub_dict.sub_key` или `my_dict["sub_dict"]["sub_key"]`.
-    # Стили индексации можно комбинировать и подбирать в зависимости от ваших потребностей.
+    # This is a valid dictionary.
+    # To access the string "Nested value" below, use `my_dict.sub_dict.sub_key` or `my_dict["sub_dict"]["sub_key"]`.
+    # Indexing styles can be mixed and matched depending on your needs.
     var my_dict = {
         "String Key": 5,
         4: [1, 2, 3],
@@ -148,8 +148,8 @@ Dictionaries — это ассоциативные контейнеры, сод�
 
  .. code-tab:: csharp
 
-    // Это действительный словарь.
-    // Чтобы получить доступ к строке "Nested value" ниже, используйте `((Godot.Collections.Dictionary)myDict["sub_dict"])["sub_key"]`.
+    // This is a valid dictionary.
+    // To access the string "Nested value" below, use `((Godot.Collections.Dictionary)myDict["sub_dict"])["sub_key"]`.
     var myDict = new Godot.Collections.Dictionary {
         { "String Key", 5 },
         { 4, new Godot.Collections.Array { 1, 2, 3 } },
@@ -159,7 +159,7 @@ Dictionaries — это ассоциативные контейнеры, сод�
 
 
 
-Ключи словаря можно перебирать с помощью ключевого слова ``for``:
+The keys of a dictionary can be iterated with the ``for`` keyword:
 
 
 .. tabs::
@@ -175,14 +175,53 @@ Dictionaries — это ассоциативные контейнеры, сод�
     var groceries = new Godot.Collections.Dictionary { { "Orange", 20 }, { "Apple", 2 }, { "Banana", 4 } };
     foreach (var (fruit, amount) in groceries)
     {
-        // `fruit` — ключ, `amount` — значение.
+        // `fruit` is the key, `amount` is the value.
     }
 
 
 
-\ **Примечание:** Словари всегда передаются по ссылке. Чтобы получить копию словаря, которую можно изменять независимо от исходного, используйте :ref:`duplicate()<class_Dictionary_method_duplicate>`.
+To enforce a certain type for keys and values, you can create a *typed dictionary*. Typed dictionaries can only contain keys and values of the given types, or that inherit from the given classes:
 
-\ **Примечание:** Удаление элементов при итерации по словарям **не** поддерживается и приведёт к непредсказуемому поведению.
+
+.. tabs::
+
+ .. code-tab:: gdscript
+
+    # Creates a typed dictionary with String keys and int values.
+    # Attempting to use any other type for keys or values will result in an error.
+    var typed_dict: Dictionary[String, int] = {
+        "some_key": 1,
+        "some_other_key": 2,
+    }
+
+    # Creates a typed dictionary with String keys and values of any type.
+    # Attempting to use any other type for keys will result in an error.
+    var typed_dict_key_only: Dictionary[String, Variant] = {
+        "some_key": 12.34,
+        "some_other_key": "string",
+    }
+
+ .. code-tab:: csharp
+
+    // Creates a typed dictionary with String keys and int values.
+    // Attempting to use any other type for keys or values will result in an error.
+    var typedDict = new Godot.Collections.Dictionary<String, int> {
+        {"some_key", 1},
+        {"some_other_key", 2},
+    };
+
+    // Creates a typed dictionary with String keys and values of any type.
+    // Attempting to use any other type for keys will result in an error.
+    var typedDictKeyOnly = new Godot.Collections.Dictionary<String, Variant> {
+        {"some_key", 12.34},
+        {"some_other_key", "string"},
+    };
+
+
+
+\ **Note:** Dictionaries are always passed by reference. To get a copy of a dictionary which can be modified independently of the original dictionary, use :ref:`duplicate()<class_Dictionary_method_duplicate>`.
+
+\ **Note:** Erasing elements while iterating over dictionaries is **not** supported and will result in unpredictable behavior.
 
 .. note::
 

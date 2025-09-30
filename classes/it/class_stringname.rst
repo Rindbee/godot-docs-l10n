@@ -1403,7 +1403,7 @@ Concatena ``path`` alla fine della stringa come sotto-percorso, aggiungendo ``/`
 
 :ref:`String<class_String>` **remove_char**\ (\ what\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_StringName_method_remove_char>`
 
-Removes all occurrences of the Unicode character with code ``what``. Faster version of :ref:`replace()<class_StringName_method_replace>` when the key is only one character long and the replacement is ``""``.
+Rimuove tutte le occorrenze del carattere Unicode con il codice ``what``. Versione più veloce di :ref:`replace()<class_StringName_method_replace>` quando la chiave è lunga un solo carattere e la sostituzione è ``""``.
 
 .. rst-class:: classref-item-separator
 
@@ -1451,7 +1451,7 @@ Sostituisce tutte le occorrenze di ``what`` all'interno della stringa con il ``f
 
 :ref:`String<class_String>` **replace_char**\ (\ key\: :ref:`int<class_int>`, with\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_StringName_method_replace_char>`
 
-Replaces all occurrences of the Unicode character with code ``key`` with the Unicode character with code ``with``. Faster version of :ref:`replace()<class_StringName_method_replace>` when the key is only one character long. To get a single character use ``"X".unicode_at(0)`` (note that some strings, like compound letters and emoji, can be composed of multiple unicode codepoints, and will not work with this method, use :ref:`length()<class_StringName_method_length>` to make sure).
+Sostituisce tutte le occorrenze del carattere Unicode con codice ``key`` con il carattere Unicode con codice ``with``. Versione più veloce di :ref:`replace()<class_StringName_method_replace>` quando la chiave è lunga un solo carattere. Per ottenere un singolo carattere, utilizzare ``"X".unicode_at(0)`` (si noti che alcune stringhe, come lettere composte ed emoji, possono essere composte da più codici Unicode e non funzioneranno con questo metodo; utilizzare :ref:`length()<class_StringName_method_length>` per esserne sicuri).
 
 .. rst-class:: classref-item-separator
 
@@ -1463,7 +1463,7 @@ Replaces all occurrences of the Unicode character with code ``key`` with the Uni
 
 :ref:`String<class_String>` **replace_chars**\ (\ keys\: :ref:`String<class_String>`, with\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_StringName_method_replace_chars>`
 
-Replaces any occurrence of the characters in ``keys`` with the Unicode character with code ``with``. See also :ref:`replace_char()<class_StringName_method_replace_char>`.
+Sostituisce qualsiasi occorrenza dei caratteri in ``keys`` con il carattere Unicode con codice ``with``. Vedi anche :ref:`replace_char()<class_StringName_method_replace_char>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1487,7 +1487,7 @@ Sostituisce tutte le occorrenze **senza distinzione tra maiuscole e minuscole** 
 
 :ref:`String<class_String>` **reverse**\ (\ ) |const| :ref:`🔗<class_StringName_method_reverse>`
 
-Restituisce la copia di questa stringa in ordine inverso. Questa operazione funziona su punti di codice Unicode, piuttosto che su sequenze di punti di codice, e potrebbe spezzare elementi come lettere composte o emoji.
+Restituisce la copia di questa stringa in ordine inverso. Questa operazione funziona su codici Unicode, piuttosto che su sequenze di codici, e potrebbe spezzare elementi come lettere composte o emoji.
 
 .. rst-class:: classref-item-separator
 
@@ -1889,13 +1889,13 @@ Restituisce la stringa convertita in ``lowercase``.
 
 :ref:`PackedByteArray<class_PackedByteArray>` **to_multibyte_char_buffer**\ (\ encoding\: :ref:`String<class_String>` = ""\ ) |const| :ref:`🔗<class_StringName_method_to_multibyte_char_buffer>`
 
-Converts the string to system multibyte code page encoded :ref:`PackedByteArray<class_PackedByteArray>`. If conversion fails, empty array is returned.
+Converte la stringa in un :ref:`PackedByteArray<class_PackedByteArray>` codificato con code page multibyte di sistema. Se la conversione fallisce, viene restituito un array vuoto.
 
-The values permitted for ``encoding`` are system dependent. If ``encoding`` is empty string, system default encoding is used.
+I valori consentiti per ``encoding`` dipendono dal sistema. Se ``encoding`` è una stringa vuota, viene utilizzata la codifica predefinita del sistema.
 
-- For Windows, see `Code Page Identifiers <https://learn.microsoft.com/en-us/windows/win32/Intl/code-page-identifiers>`__ .NET names.
+- Per Windows, consultare i nomi .NET per i `Code Page Identifiers <https://learn.microsoft.com/en-us/windows/win32/Intl/code-page-identifiers>`__.
 
-- For macOS and Linux/BSD, see ``libiconv`` library documentation and ``iconv --list`` for a list of supported encodings.
+- Per macOS e Linux/BSD, consultare la documentazione della libreria ``libiconv`` e ``iconv --list`` per un elenco delle codifiche supportate.
 
 .. rst-class:: classref-item-separator
 
@@ -2034,9 +2034,9 @@ Rimuove il suffisso ``suffix`` dalla fine della stringa o restituisce la stringa
 
 :ref:`int<class_int>` **unicode_at**\ (\ at\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_StringName_method_unicode_at>`
 
-Returns the character code at position ``at``.
+Restituisce il codice carattere alla posizione ``at``.
 
-See also :ref:`String.chr()<class_String_method_chr>`, :ref:`@GDScript.char()<class_@GDScript_method_char>`, and :ref:`@GDScript.ord()<class_@GDScript_method_ord>`.
+Vedi anche :ref:`String.chr()<class_String_method_chr>`, :ref:`@GDScript.char()<class_@GDScript_method_char>` e :ref:`@GDScript.ord()<class_@GDScript_method_ord>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2108,7 +2108,7 @@ Codifica la stringa in un formato compatibile con URL. Questo metodo è pensato 
 
 :ref:`String<class_String>` **uri_file_decode**\ (\ ) |const| :ref:`🔗<class_StringName_method_uri_file_decode>`
 
-Decodes the file path from its URL-encoded format. Unlike :ref:`uri_decode()<class_StringName_method_uri_decode>` this method leaves ``+`` as is.
+Decodifica il percorso di file dal suo formato codificato URL. A differenza di :ref:`uri_decode()<class_StringName_method_uri_decode>`, questo metodo lascia ``+`` invariati.
 
 .. rst-class:: classref-item-separator
 

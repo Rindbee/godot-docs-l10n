@@ -307,7 +307,7 @@ Contrassegna questa posizione come non valida, non cancelliamo l'ultimo stato ri
 
 **Deprecato:** Use through :ref:`XRControllerTracker<class_XRControllerTracker>`.
 
-Changes the value for the given input. This method is called by an :ref:`XRInterface<class_XRInterface>` implementation and should not be used directly.
+Cambia il valore per l'input specificato. Questo metodo è chiamato da un'implementazione di :ref:`XRInterface<class_XRInterface>` e non si dovrebbe usare direttamente.
 
 .. rst-class:: classref-item-separator
 
@@ -319,7 +319,7 @@ Changes the value for the given input. This method is called by an :ref:`XRInter
 
 |void| **set_pose**\ (\ name\: :ref:`StringName<class_StringName>`, transform\: :ref:`Transform3D<class_Transform3D>`, linear_velocity\: :ref:`Vector3<class_Vector3>`, angular_velocity\: :ref:`Vector3<class_Vector3>`, tracking_confidence\: :ref:`TrackingConfidence<enum_XRPose_TrackingConfidence>`\ ) :ref:`🔗<class_XRPositionalTracker_method_set_pose>`
 
-Sets the transform, linear velocity, angular velocity and tracking confidence for the given pose. This method is called by an :ref:`XRInterface<class_XRInterface>` implementation and should not be used directly.
+Imposta la trasformazione, velocità lineare, velocità angolare e l'affidabilità di tracciamento per la posa fornita. Questo metodo è chiamato da un'implementazione di :ref:`XRInterface<class_XRInterface>` e non si dovrebbe usare direttamente.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

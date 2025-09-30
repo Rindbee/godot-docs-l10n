@@ -7,7 +7,7 @@ EditorExportPlatformVisionOS
 
 **Eredita:** :ref:`EditorExportPlatformAppleEmbedded<class_EditorExportPlatformAppleEmbedded>` **<** :ref:`EditorExportPlatform<class_EditorExportPlatform>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Exporter for visionOS.
+Esportatore per visionOS.
 
 .. rst-class:: classref-introduction-group
 
@@ -558,9 +558,9 @@ Metodo di interpolazione utilizzato per ridimensionare l'icona dell'applicazione
 
 :ref:`String<class_String>` **application/provisioning_profile_specifier_debug** :ref:`🔗<class_EditorExportPlatformVisionOS_property_application/provisioning_profile_specifier_debug>`
 
-Name of the provisioning profile. Sets XCode PROVISIONING_PROFILE_SPECIFIER for debug. `Used for manual provisioning <https://developer.apple.com/documentation/xcode/build-settings-reference#Provisioning-Profile>`__.
+Nome del profilo di provisioning. Imposta PROVISIONING_PROFILE_SPECIFIER di XCode per il debug. `Usato per il provisioning manuale <https://developer.apple.com/documentation/xcode/build-settings-reference#Provisioning-Profile>`__.
 
-Can be overridden with the environment variable ``GODOT_APPLE_PLATFORM_PROFILE_SPECIFIER_DEBUG``.
+Si può sovrascrivere con la variabile di ambiente ``GODOT_APPLE_PLATFORM_PROFILE_SPECIFIER_DEBUG``.
 
 .. rst-class:: classref-item-separator
 
@@ -572,9 +572,9 @@ Can be overridden with the environment variable ``GODOT_APPLE_PLATFORM_PROFILE_S
 
 :ref:`String<class_String>` **application/provisioning_profile_specifier_release** :ref:`🔗<class_EditorExportPlatformVisionOS_property_application/provisioning_profile_specifier_release>`
 
-Name of the provisioning profile. Sets XCode PROVISIONING_PROFILE_SPECIFIER for release. `Used for manual provisioning <https://developer.apple.com/documentation/xcode/build-settings-reference#Provisioning-Profile>`__.
+Nome del profilo di provisioning. Imposta PROVISIONING_PROFILE_SPECIFIER di XCode per il rilascio. `Usato per il provisioning manuale <https://developer.apple.com/documentation/xcode/build-settings-reference#Provisioning-Profile>`__.
 
-Can be overridden with the environment variable ``GODOT_APPLE_PLATFORM_PROFILE_SPECIFIER_RELEASE``.
+Si può sovrascrivere con la variabile di ambiente ``GODOT_APPLE_PLATFORM_PROFILE_SPECIFIER_RELEASE``.
 
 .. rst-class:: classref-item-separator
 
@@ -614,9 +614,9 @@ Can be overridden with the environment variable ``GODOT_APPLE_PLATFORM_PROVISION
 
 :ref:`String<class_String>` **application/short_version** :ref:`🔗<class_EditorExportPlatformVisionOS_property_application/short_version>`
 
-Application version visible to the user. Can only contain numeric characters (``0-9``) and periods (``.``). Falls back to :ref:`ProjectSettings.application/config/version<class_ProjectSettings_property_application/config/version>` if left empty.
+Versione dell'applicazione visibile all'utente, può contenere solo caratteri numerici (``0-9``) e punti (``.``). Se lasciato vuoto, ricade su :ref:`ProjectSettings.application/config/version<class_ProjectSettings_property_application/config/version>`.
 
-\ **Note:** This value is used for the *Identity > Version* value in the generated Xcode project.
+\ **Nota:** Questo valore è utilizzato per il valore di *Identity > Version* nel progetto Xcode generato.
 
 .. rst-class:: classref-item-separator
 
@@ -640,9 +640,9 @@ Un codice creatore di quattro caratteri specifico del pacchetto. Facoltativo.
 
 :ref:`String<class_String>` **application/version** :ref:`🔗<class_EditorExportPlatformVisionOS_property_application/version>`
 
-Machine-readable application version in the ``major.minor.patch`` format. Can only contain numeric characters (``0-9``) and periods (``.``). This must be incremented with every new release pushed to the App Store. Falls back to :ref:`ProjectSettings.application/config/version<class_ProjectSettings_property_application/config/version>` if left empty.
+La versione dell'applicazione leggibile da computer, nel formato ``major.minor.patch``. Può contenere solo caratteri numerici (``0-9``) e punti (``.``). È necessario incrementarla a ogni nuova versione inviata all'App Store. Se lasciato vuoto, ricade su :ref:`ProjectSettings.application/config/version<class_ProjectSettings_property_application/config/version>`.
 
-\ **Note:** This value is used for the *Identity > Build* value in the generated Xcode project.
+\ **Nota:** Questo valore è utilizzato per il valore di *Identity > Version* nel progetto Xcode generato.
 
 .. rst-class:: classref-item-separator
 
@@ -761,7 +761,7 @@ Ulteriori dati aggiunti alla sezione radice ``<dict>`` del file `.entitlements <
 
 :ref:`bool<class_bool>` **entitlements/game_center** :ref:`🔗<class_EditorExportPlatformVisionOS_property_entitlements/game_center>`
 
-If ``true``, allows access to Game Center features. See `com.apple.developer.game-center <https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_game-center>`__.
+Se ``true``, consente l'accesso alle funzionalità del Game Center. Consulta `com.apple.developer.game-center <https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_game-center>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -773,7 +773,7 @@ If ``true``, allows access to Game Center features. See `com.apple.developer.gam
 
 :ref:`bool<class_bool>` **entitlements/increased_memory_limit** :ref:`🔗<class_EditorExportPlatformVisionOS_property_entitlements/increased_memory_limit>`
 
-If ``true``, hints that the app might perform better with a higher memory limit. See `com.apple.developer.kernel.increased-memory-limit <https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_kernel_increased-memory-limit>`__.
+Se ``true``, suggerisce che l'applicazione potrebbe funzionare meglio con un limite di memoria più elevato. Consulta `com.apple.developer.kernel.increased-memory-limit <https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_kernel_increased-memory-limit>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2671,7 +2671,7 @@ I motivi per cui l'app utilizza l'API predefinita dell'utente. Consulta `Descriv
 
 :ref:`bool<class_bool>` **shader_baker/enabled** :ref:`🔗<class_EditorExportPlatformVisionOS_property_shader_baker/enabled>`
 
-If ``true``, shaders will be compiled and embedded in the application. This option is only supported when using the Forward+ and Mobile renderers.
+Se ``true``, gli shader saranno compilati e incorporati nell'applicazione. Questa opzione è supportata solo quando si utilizzano i renderer Forward+ e Mobile.
 
 .. rst-class:: classref-item-separator
 

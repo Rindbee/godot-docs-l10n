@@ -194,7 +194,7 @@ Descrizioni delle proprietà
 - |void| **set_text_alignment**\ (\ value\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ )
 - :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` **get_text_alignment**\ (\ )
 
-Text alignment policy for the button's text.
+Criterio di allineamento del testo per il testo del pulsante.
 
 .. rst-class:: classref-item-separator
 
@@ -211,7 +211,7 @@ Text alignment policy for the button's text.
 - |void| **set_autowrap_mode**\ (\ value\: :ref:`AutowrapMode<enum_TextServer_AutowrapMode>`\ )
 - :ref:`AutowrapMode<enum_TextServer_AutowrapMode>` **get_autowrap_mode**\ (\ )
 
-Se impostato a un valore diverso da :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_constant_AUTOWRAP_OFF>`, il testo è racchiuso all'interno del rettangolo limite del nodo.
+Se impostato a un valore diverso da :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_constant_AUTOWRAP_OFF>`, il testo è racchiuso all'interno del rettangolo di delimitazione del nodo.
 
 .. rst-class:: classref-item-separator
 
@@ -228,7 +228,7 @@ Se impostato a un valore diverso da :ref:`TextServer.AUTOWRAP_OFF<class_TextServ
 - |void| **set_autowrap_trim_flags**\ (\ value\: |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\]\ )
 - |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\] **get_autowrap_trim_flags**\ (\ )
 
-Autowrap space trimming flags. See :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_START_EDGE_SPACES>` and :ref:`TextServer.BREAK_TRIM_END_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_END_EDGE_SPACES>` for more info.
+Flag di troncamento spazi per il ritorno a capo automatico. Vedi :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_START_EDGE_SPACES>` e :ref:`TextServer.BREAK_TRIM_END_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_END_EDGE_SPACES>` per ulteriori informazioni.
 
 .. rst-class:: classref-item-separator
 
@@ -383,7 +383,7 @@ Direzione di scrittura del testo di base.
 - |void| **set_text_overrun_behavior**\ (\ value\: :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>`\ )
 - :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>` **get_text_overrun_behavior**\ (\ )
 
-Sets the clipping behavior when the text exceeds the node's bounding rectangle.
+Imposta il comportamento di ritaglio quando il testo supera il rettangolo di delimitazione del nodo.
 
 .. rst-class:: classref-item-separator
 

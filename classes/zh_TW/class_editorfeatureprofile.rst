@@ -260,7 +260,7 @@ The Game tab, which allows embedding the game window and selecting nodes by clic
 
 |void| **set_disable_class_editor**\ (\ class_name\: :ref:`StringName<class_StringName>`, disable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_EditorFeatureProfile_method_set_disable_class_editor>`
 
-如果 ``disable`` 為 ``true``\ ，則會禁用由 ``class_name`` 指定的類別的編輯功能。禁用時，該類別仍然會出現在建立新節點對話框中，但選取繼承該類別的節點時，\ ``Inspector`` 將會是唯讀。
+If ``disable`` is ``true``, disables editing for the class specified by ``class_name``. When disabled, the class will still appear in the Create New Node dialog but the Inspector will be read-only when selecting a node that extends the class.
 
 .. rst-class:: classref-item-separator
 

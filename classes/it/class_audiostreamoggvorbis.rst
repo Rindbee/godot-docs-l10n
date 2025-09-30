@@ -189,11 +189,11 @@ Contiene il dati Ogg grezzi per questo flusso.
 - |void| **set_tags**\ (\ value\: :ref:`Dictionary<class_Dictionary>`\ )
 - :ref:`Dictionary<class_Dictionary>` **get_tags**\ (\ )
 
-Contains user-defined tags if found in the Ogg Vorbis data.
+Contiene tag definiti dall'utente se presenti nei dati Ogg Vorbis.
 
-Commonly used tags include ``title``, ``artist``, ``album``, ``tracknumber``, and ``date`` (``date`` does not have a standard date format).
+I tag comunemente utilizzati includono ``title``, ``artist``, ``album``, ``tracknumber`` e ``date`` (``date`` non ha un formato di data standard).
 
-\ **Note:** No tag is *guaranteed* to be present in every file, so make sure to account for the keys not always existing.
+\ **Nota:** Nessun tag è *garantito* a essere presente in ogni file, quindi assicurati di tenere conto di chiavi che non esistono sempre.
 
 .. rst-class:: classref-section-separator
 

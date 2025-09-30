@@ -211,7 +211,7 @@ Emitelo si quieres poner una clave en una propiedad con un solo valor.
 
 **property_overridden**\ (\ ) :ref:`🔗<class_EditorProperty_signal_property_overridden>`
 
-Emitida cuando se solicita una sobrescritura de configuración para el proyecto actual.
+Emitida cuando se solicita una sobreescritura de configuración para el proyecto actual.
 
 .. rst-class:: classref-item-separator
 

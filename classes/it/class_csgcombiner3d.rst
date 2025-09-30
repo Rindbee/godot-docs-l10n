@@ -23,7 +23,7 @@ Per composizioni complesse di forme, a volte è necessario aggiungere una strutt
 Tutorial
 ----------------
 
-- :doc:`Prototipazione de livelli con CSG <../tutorials/3d/csg_tools>`
+- :doc:`Prototipazione dei livelli con CSG <../tutorials/3d/csg_tools>`
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

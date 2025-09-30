@@ -235,7 +235,7 @@ Carattere di ellissi (puntini di sospensione) utilizzato per ritagliare il testo
 - |void| **set_justification_flags**\ (\ value\: |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\]\ )
 - |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\] **get_justification_flags**\ (\ )
 
-Line fill alignment rules.
+Regole di allineamento del riempimento per le righe.
 
 .. rst-class:: classref-item-separator
 
@@ -719,7 +719,7 @@ Restituisce le dimensioni del riquadro del paragrafo.
 
 :ref:`int<class_int>` **hit_test**\ (\ coords\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_TextParagraph_method_hit_test>`
 
-Returns caret character offset at the specified coordinates. This function always returns a valid position.
+Restituisce l'offset per il cursore alle coordinate specificate. Questa funzione restituisce sempre una posizione valida.
 
 .. rst-class:: classref-item-separator
 

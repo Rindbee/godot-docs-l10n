@@ -52,7 +52,7 @@ See also :ref:`ArrayMesh<class_ArrayMesh>`, :ref:`ImmediateMesh<class_ImmediateM
 Tutoriales
 --------------------
 
-- :doc:`Using the SurfaceTool <../tutorials/3d/procedural_geometry/surfacetool>`
+- :doc:`Usar SurfaceTool <../tutorials/3d/procedural_geometry/surfacetool>`
 
 - `Demo de Vóxeles en 3D <https://godotengine.org/asset-library/asset/2755>`__
 
@@ -298,7 +298,7 @@ Especifica la posición del vértice actual. Debe ser llamado después de especi
 
 |void| **append_from**\ (\ existing\: :ref:`Mesh<class_Mesh>`, surface\: :ref:`int<class_int>`, transform\: :ref:`Transform3D<class_Transform3D>`\ ) :ref:`🔗<class_SurfaceTool_method_append_from>`
 
-Append vertices from a given :ref:`Mesh<class_Mesh>` surface onto the current vertex array with specified :ref:`Transform3D<class_Transform3D>`.
+Añade vértices de una superficie :ref:`Mesh<class_Mesh>` dada al array de vértices actual con la :ref:`Transform3D<class_Transform3D>` especificada.
 
 .. rst-class:: classref-item-separator
 
@@ -410,7 +410,7 @@ Elimina el array de índices expandiendo el array de vértices.
 
 **Obsoleto:** This method is unused internally, as it does not preserve normals or UVs. Consider using :ref:`ImporterMesh.generate_lods()<class_ImporterMesh_method_generate_lods>` instead.
 
-Generates an LOD for a given ``nd_threshold`` in linear units (square root of quadric error metric), using at most ``target_index_count`` indices.
+Genera un LOD para un ``nd_threshold`` dado en unidades lineales (raíz cuadrada de la métrica de error cuadrático), utilizando como máximo ``target_index_count`` índices.
 
 .. rst-class:: classref-item-separator
 
@@ -438,7 +438,7 @@ Generates normals from vertices so you do not have to do it manually. If ``flip`
 
 |void| **generate_tangents**\ (\ ) :ref:`🔗<class_SurfaceTool_method_generate_tangents>`
 
-Generates a tangent vector for each vertex. Requires that each vertex already has UVs and normals set (see :ref:`generate_normals()<class_SurfaceTool_method_generate_normals>`).
+Genera un vector tangente para cada vértice. Requiere que cada vértice ya tenga los UV y las normales establecidos (ver :ref:`generate_normals()<class_SurfaceTool_method_generate_normals>`).
 
 .. rst-class:: classref-item-separator
 
@@ -450,7 +450,7 @@ Generates a tangent vector for each vertex. Requires that each vertex already ha
 
 :ref:`AABB<class_AABB>` **get_aabb**\ (\ ) |const| :ref:`🔗<class_SurfaceTool_method_get_aabb>`
 
-Returns the axis-aligned bounding box of the vertex positions.
+Devuelve el cuadro delimitador alineado con los ejes de las posiciones de los vértices.
 
 .. rst-class:: classref-item-separator
 
@@ -462,7 +462,7 @@ Returns the axis-aligned bounding box of the vertex positions.
 
 :ref:`CustomFormat<enum_SurfaceTool_CustomFormat>` **get_custom_format**\ (\ channel_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_SurfaceTool_method_get_custom_format>`
 
-Returns the format for custom ``channel_index`` (currently up to 4). Returns :ref:`CUSTOM_MAX<class_SurfaceTool_constant_CUSTOM_MAX>` if this custom channel is unused.
+Devuelve el formato para ``channel_index`` personalizado (actualmente hasta 4). Devuelve :ref:`CUSTOM_MAX<class_SurfaceTool_constant_CUSTOM_MAX>` si este canal personalizado no se usa.
 
 .. rst-class:: classref-item-separator
 
@@ -474,7 +474,7 @@ Returns the format for custom ``channel_index`` (currently up to 4). Returns :re
 
 :ref:`PrimitiveType<enum_Mesh_PrimitiveType>` **get_primitive_type**\ (\ ) |const| :ref:`🔗<class_SurfaceTool_method_get_primitive_type>`
 
-Returns the type of mesh geometry, such as :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>`.
+Devuelve el tipo de geometría de la malla, como :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>`.
 
 .. rst-class:: classref-item-separator
 
@@ -502,7 +502,7 @@ Returns :ref:`SKIN_8_WEIGHTS<class_SurfaceTool_constant_SKIN_8_WEIGHTS>` if up t
 
 |void| **index**\ (\ ) :ref:`🔗<class_SurfaceTool_method_index>`
 
-Shrinks the vertex array by creating an index array. This can improve performance by avoiding vertex reuse.
+Reduce el array de vértices creando un array de índice. Esto puede mejorar el rendimiento al evitar la reutilización de vértices.
 
 .. rst-class:: classref-item-separator
 
@@ -514,7 +514,7 @@ Shrinks the vertex array by creating an index array. This can improve performanc
 
 |void| **optimize_indices_for_cache**\ (\ ) :ref:`🔗<class_SurfaceTool_method_optimize_indices_for_cache>`
 
-Optimizes triangle sorting for performance. Requires that :ref:`get_primitive_type()<class_SurfaceTool_method_get_primitive_type>` is :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>`.
+Optimiza la ordenación de triángulos para mejorar el rendimiento. Requiere que :ref:`get_primitive_type()<class_SurfaceTool_method_get_primitive_type>` sea :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>`.
 
 .. rst-class:: classref-item-separator
 
@@ -526,7 +526,7 @@ Optimizes triangle sorting for performance. Requires that :ref:`get_primitive_ty
 
 |void| **set_bones**\ (\ bones\: :ref:`PackedInt32Array<class_PackedInt32Array>`\ ) :ref:`🔗<class_SurfaceTool_method_set_bones>`
 
-Specifies an array of bones to use for the *next* vertex. ``bones`` must contain 4 integers.
+Especifica un array de huesos para usar para el *siguiente* vértice. ``bones`` debe contener 4 enteros.
 
 .. rst-class:: classref-item-separator
 
@@ -538,9 +538,9 @@ Specifies an array of bones to use for the *next* vertex. ``bones`` must contain
 
 |void| **set_color**\ (\ color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_SurfaceTool_method_set_color>`
 
-Specifies a :ref:`Color<class_Color>` to use for the *next* vertex. If every vertex needs to have this information set and you fail to submit it for the first vertex, this information may not be used at all.
+Especifica un :ref:`Color<class_Color>` para usar para el *siguiente* vértice. Si cada vértice necesita tener esta información establecida y no la envías para el primer vértice, es posible que esta información no se utilice en absoluto.
 
-\ **Note:** The material must have :ref:`BaseMaterial3D.vertex_color_use_as_albedo<class_BaseMaterial3D_property_vertex_color_use_as_albedo>` enabled for the vertex color to be visible.
+\ **Nota:** El material debe tener :ref:`BaseMaterial3D.vertex_color_use_as_albedo<class_BaseMaterial3D_property_vertex_color_use_as_albedo>` activado para que el color del vértice sea visible.
 
 .. rst-class:: classref-item-separator
 
@@ -552,9 +552,9 @@ Specifies a :ref:`Color<class_Color>` to use for the *next* vertex. If every ver
 
 |void| **set_custom**\ (\ channel_index\: :ref:`int<class_int>`, custom_color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_SurfaceTool_method_set_custom>`
 
-Sets the custom value on this vertex for ``channel_index``.
+Establece el valor personalizado en este vértice para ``channel_index``.
 
-\ :ref:`set_custom_format()<class_SurfaceTool_method_set_custom_format>` must be called first for this ``channel_index``. Formats which are not RGBA will ignore other color channels.
+\ :ref:`set_custom_format()<class_SurfaceTool_method_set_custom_format>` debe ser llamado primero para este ``channel_index``. Los formatos que no son RGBA ignorarán otros canales de color.
 
 .. rst-class:: classref-item-separator
 
@@ -566,9 +566,9 @@ Sets the custom value on this vertex for ``channel_index``.
 
 |void| **set_custom_format**\ (\ channel_index\: :ref:`int<class_int>`, format\: :ref:`CustomFormat<enum_SurfaceTool_CustomFormat>`\ ) :ref:`🔗<class_SurfaceTool_method_set_custom_format>`
 
-Sets the color format for this custom ``channel_index``. Use :ref:`CUSTOM_MAX<class_SurfaceTool_constant_CUSTOM_MAX>` to disable.
+Establece el formato de color para este ``channel_index`` personalizado. Usa :ref:`CUSTOM_MAX<class_SurfaceTool_constant_CUSTOM_MAX>` para desactivarlo.
 
-Must be invoked after :ref:`begin()<class_SurfaceTool_method_begin>` and should be set before :ref:`commit()<class_SurfaceTool_method_commit>` or :ref:`commit_to_arrays()<class_SurfaceTool_method_commit_to_arrays>`.
+Debe invocarse después de :ref:`begin()<class_SurfaceTool_method_begin>` y debe establecerse antes de :ref:`commit()<class_SurfaceTool_method_commit>` o :ref:`commit_to_arrays()<class_SurfaceTool_method_commit_to_arrays>`.
 
 .. rst-class:: classref-item-separator
 
@@ -592,7 +592,7 @@ Establece :ref:`Material<class_Material>` para ser usado por la :ref:`Mesh<class
 
 |void| **set_normal**\ (\ normal\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_SurfaceTool_method_set_normal>`
 
-Specifies a normal to use for the *next* vertex. If every vertex needs to have this information set and you fail to submit it for the first vertex, this information may not be used at all.
+Especifica una normal para usar para el *siguiente* vértice. Si cada vértice necesita tener esta información establecida y no la envías para el primer vértice, es posible que esta información no se utilice en absoluto.
 
 .. rst-class:: classref-item-separator
 
@@ -620,9 +620,9 @@ By default, only 4 bone influences are used (:ref:`SKIN_4_WEIGHTS<class_SurfaceT
 
 |void| **set_smooth_group**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_SurfaceTool_method_set_smooth_group>`
 
-Specifies the smooth group to use for the *next* vertex. If this is never called, all vertices will have the default smooth group of ``0`` and will be smoothed with adjacent vertices of the same group. To produce a mesh with flat normals, set the smooth group to ``-1``.
+Especifica el grupo suavizado a usar para el *siguiente* vértice. Si nunca se llama a esto, todos los vértices tendrán el grupo suavizado por defecto de ``0`` y se suavizarán con los vértices adyacentes del mismo grupo. Para producir una malla con normales planas, establece el grupo suavizado a ``-1``.
 
-\ **Note:** This function actually takes a ``uint32_t``, so C# users should use ``uint32.MaxValue`` instead of ``-1`` to produce a mesh with flat normals.
+\ **Nota:** Esta función en realidad toma un ``uint32_t``, por lo que los usuarios de C# deben usar ``uint32.MaxValue`` en lugar de ``-1`` para producir una malla con normales planas.
 
 .. rst-class:: classref-item-separator
 
@@ -634,7 +634,7 @@ Specifies the smooth group to use for the *next* vertex. If this is never called
 
 |void| **set_tangent**\ (\ tangent\: :ref:`Plane<class_Plane>`\ ) :ref:`🔗<class_SurfaceTool_method_set_tangent>`
 
-Specifies a tangent to use for the *next* vertex. If every vertex needs to have this information set and you fail to submit it for the first vertex, this information may not be used at all.
+Especifica una tangente para usar para el *siguiente* vértice. Si cada vértice necesita tener esta información establecida y no la envías para el primer vértice, es posible que esta información no se utilice en absoluto.
 
 .. rst-class:: classref-item-separator
 
@@ -646,7 +646,7 @@ Specifies a tangent to use for the *next* vertex. If every vertex needs to have 
 
 |void| **set_uv**\ (\ uv\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_SurfaceTool_method_set_uv>`
 
-Specifies a set of UV coordinates to use for the *next* vertex. If every vertex needs to have this information set and you fail to submit it for the first vertex, this information may not be used at all.
+Especifica un conjunto de coordenadas UV para usar para el *siguiente* vértice. Si cada vértice necesita tener esta información establecida y no la envías para el primer vértice, es posible que esta información no se utilice en absoluto.
 
 .. rst-class:: classref-item-separator
 

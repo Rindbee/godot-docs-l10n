@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/SpinBox.xml.
+.. meta::
+	:keywords: number, numeric, input
 
 .. _class_SpinBox:
 
@@ -17,11 +17,11 @@ Un campo di input per i numeri.
 Descrizione
 ----------------------
 
-**SpinBox** is a numerical input text field. It allows entering integers and floating-point numbers. The **SpinBox** also has up and down buttons that can be clicked increase or decrease the value. The value can also be changed by dragging the mouse up or down over the **SpinBox**'s arrows.
+**SpinBox** è un campo di testo di input numerico. Consente di immettere numeri interi e numeri in virgola mobile. **SpinBox** include anche due pulsanti su e giù che si possono cliccare per aumentare o diminuire il valore. Il valore si può cambiare trascinando il mouse verso l'alto o verso il basso sulle frecce dello **SpinBox**.
 
-Additionally, mathematical expressions can be entered. These are evaluated when the user presses :kbd:`Enter` while editing the **SpinBox**'s text field. This uses the :ref:`Expression<class_Expression>` class to parse and evaluate the expression. The result of the expression is then set as the value of the **SpinBox**. Some examples of valid expressions are ``5 + 2 * 3``, ``pow(2, 4)``, and ``PI + sin(0.5)``. Expressions are case-sensitive.
+Inoltre, è possibile inserire espressioni matematiche. Queste vengono valutate quando l'utente preme :kbd:`Invio` mentre il campo di testo dello **SpinBox** viene modificato. Ciò utilizza la classe :ref:`Expression<class_Expression>` per analizzare e valutare l'espressione. Il risultato dell'espressione viene quindi impostato come valore dello **SpinBox**. Alcuni esempi di espressioni valide sono ``5 + 2 * 3``, ``pow(2, 4)`` e ``PI + sin(0.5)``. Le espressioni distinguono tra maiuscole e minuscole.
 
-\ **Example:** Create a **SpinBox**, disable its context menu and set its text alignment to right.
+\ **Esempio:** Crea uno **SpinBox**, disattiva il suo menu contestuale e imposta l'allineamento del testo a destra.
 
 
 .. tabs::
@@ -44,13 +44,13 @@ Additionally, mathematical expressions can be entered. These are evaluated when 
 
 
 
-See :ref:`Range<class_Range>` class for more options over the **SpinBox**.
+Consulta la classe :ref:`Range<class_Range>` per altre opzioni su **SpinBox**.
 
-\ **Note:** With the **SpinBox**'s context menu disabled, you can right-click the bottom half of the spinbox to set the value to its minimum, while right-clicking the top half sets the value to its maximum.
+\ **Nota:** Con il menu contestuale di **SpinBox** disabilitato, puoi cliccare con il destro sulla metà inferiore dello spinbox per impostare il valore al minimo, mentre cliccando con il destro sulla metà superiore, il valore viene impostato al massimo.
 
-\ **Note:** **SpinBox** relies on an underlying :ref:`LineEdit<class_LineEdit>` node. To theme a **SpinBox**'s background, add theme items for :ref:`LineEdit<class_LineEdit>` and customize them. The :ref:`LineEdit<class_LineEdit>` has the ``SpinBoxInnerLineEdit`` theme variation, so that you can give it a distinct appearance from regular :ref:`LineEdit<class_LineEdit>`\ s.
+\ **Nota:** **SpinBox** dipende su un nodo :ref:`LineEdit<class_LineEdit>` sottostante. Per applicare un tema allo sfondo di uno **SpinBox**, aggiungi elementi del tema per :ref:`LineEdit<class_LineEdit>` e personalizzali. Tale :ref:`LineEdit<class_LineEdit>` ha la variazione del tema ``SpinBoxInnerLineEdit``, in modo da potergli dare un aspetto distinto dai normali :ref:`LineEdit<class_LineEdit>`.
 
-\ **Note:** If you want to implement drag and drop for the underlying :ref:`LineEdit<class_LineEdit>`, you can use :ref:`Control.set_drag_forwarding()<class_Control_method_set_drag_forwarding>` on the node returned by :ref:`get_line_edit()<class_SpinBox_method_get_line_edit>`.
+\ **Nota:** Se vuoi implementare il trascinamento della selezione per il :ref:`LineEdit<class_LineEdit>` sottostante, puoi usare :ref:`Control.set_drag_forwarding()<class_Control_method_set_drag_forwarding>` sul nodo restituito da :ref:`get_line_edit()<class_SpinBox_method_get_line_edit>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -203,9 +203,9 @@ Modifica l'allineamento del :ref:`LineEdit<class_LineEdit>` sottostante.
 - |void| **set_custom_arrow_step**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_custom_arrow_step**\ (\ )
 
-If not ``0``, sets the step when interacting with the arrow buttons of the **SpinBox**.
+Se diverso da ``0``, imposta il passo quando si interagisce con i pulsanti freccia della **SpinBox**.
 
-\ **Note:** :ref:`Range.value<class_Range_property_value>` will still be rounded to a multiple of :ref:`Range.step<class_Range_property_step>`.
+\ **Nota:** :ref:`Range.value<class_Range_property_value>` sarà comunque arrotondato a un multiplo di :ref:`Range.step<class_Range_property_step>`.
 
 .. rst-class:: classref-item-separator
 
@@ -290,9 +290,9 @@ Aggiunge la stringa di suffisso specificata dopo il valore numerico dello **Spin
 - |void| **set_update_on_text_changed**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_update_on_text_changed**\ (\ )
 
-Sets the value of the :ref:`Range<class_Range>` for this **SpinBox** when the :ref:`LineEdit<class_LineEdit>` text is *changed* instead of *submitted*. See :ref:`LineEdit.text_changed<class_LineEdit_signal_text_changed>` and :ref:`LineEdit.text_submitted<class_LineEdit_signal_text_submitted>`.
+Imposta il valore del :ref:`Range<class_Range>` per questa **SpinBox** quando il testo del :ref:`LineEdit<class_LineEdit>` viene *modificato* anziché *inviato*. Vedi :ref:`LineEdit.text_changed<class_LineEdit_signal_text_changed>` e :ref:`LineEdit.text_submitted<class_LineEdit_signal_text_submitted>`.
 
-\ **Note:** If set to ``true``, this will interfere with entering mathematical expressions in the **SpinBox**. The **SpinBox** will try to evaluate the expression as you type, which means symbols like a trailing ``+`` are removed immediately by the expression being evaluated.
+\ **Nota:** Se impostato su ``true``, questo interferirà con l'inserimento di espressioni matematiche nella **SpinBox**. La **SpinBox** tenterà di valutare l'espressione durante la digitazione, il che significa che simboli come ``+`` aggiunti alla fine sono rimossi immediatamente dall'espressione in fase di valutazione.
 
 .. rst-class:: classref-section-separator
 
@@ -309,7 +309,7 @@ Descrizioni dei metodi
 
 |void| **apply**\ (\ ) :ref:`🔗<class_SpinBox_method_apply>`
 
-Applies the current value of this **SpinBox**. This is equivalent to pressing :kbd:`Enter` while editing the :ref:`LineEdit<class_LineEdit>` used by the **SpinBox**. This will cause :ref:`LineEdit.text_submitted<class_LineEdit_signal_text_submitted>` to be emitted and its currently contained expression to be evaluated.
+Applica il valore attuale di questo **SpinBox**. Equivale a premere :kbd:`Invio` durante la modifica del :ref:`LineEdit<class_LineEdit>` utilizzato dallo **SpinBox**. Ciò causerà l'emissione di :ref:`LineEdit.text_submitted<class_LineEdit_signal_text_submitted>` e la valutazione dell'espressione attualmente contenuta.
 
 .. rst-class:: classref-item-separator
 
@@ -580,7 +580,7 @@ Icona del pulsante su quando il pulsante è premuto.
 
 :ref:`Texture2D<class_Texture2D>` **updown** :ref:`🔗<class_SpinBox_theme_icon_updown>`
 
-Single texture representing both the up and down buttons icons. It is displayed in the middle of the buttons and does not change upon interaction. If a valid icon is assigned, it will replace :ref:`up<class_SpinBox_theme_icon_up>` and :ref:`down<class_SpinBox_theme_icon_down>`.
+Texture singola che rappresenta le icone dei pulsanti su e giù. Viene visualizzata al centro dei pulsanti e non cambia durante l'interazione. Se è assegnata un'icona valida, sostituirà :ref:`up<class_SpinBox_theme_icon_up>` e :ref:`down<class_SpinBox_theme_icon_down>`.
 
 .. rst-class:: classref-item-separator
 

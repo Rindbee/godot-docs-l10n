@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/modules/multiplayer/doc_classes/MultiplayerSynchronizer.xml.
+.. meta::
+	:keywords: network
 
 .. _class_MultiplayerSynchronizer:
 
@@ -256,7 +256,7 @@ Se :ref:`root_path<class_MultiplayerSynchronizer_property_root_path>` è stato g
 - |void| **set_visibility_update_mode**\ (\ value\: :ref:`VisibilityUpdateMode<enum_MultiplayerSynchronizer_VisibilityUpdateMode>`\ )
 - :ref:`VisibilityUpdateMode<enum_MultiplayerSynchronizer_VisibilityUpdateMode>` **get_visibility_update_mode**\ (\ )
 
-Specifies when visibility filters are updated.
+Specifica quando i filtri di visibilità vengono aggiornati.
 
 .. rst-class:: classref-section-separator
 

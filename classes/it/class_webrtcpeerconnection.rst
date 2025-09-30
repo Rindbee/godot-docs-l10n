@@ -395,7 +395,7 @@ Le opzioni valide per ``configuration`` sono:
                 "urls": [ "stun:stun.example.com:3478" ], # Uno o più server STUN.
             },
             {
-                "urls": [ "turn:turn.example.com:3478" ], # One or more TURN servers.
+                "urls": [ "turn:turn.example.com:3478" ], # Uno o più server TURN.
                 "username": "a_username", # Nome utente facoltativo per il server TURN.
                 "credential": "a_password", # Password facoltativa per il server TURN.
             }

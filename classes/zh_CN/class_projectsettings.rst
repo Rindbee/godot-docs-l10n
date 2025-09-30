@@ -4855,7 +4855,7 @@ Zstandard 的默认压缩级别。影响压缩的场景和资源。较高的级�
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this property. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -5021,7 +5021,7 @@ Zstandard 的默认压缩级别。影响压缩的场景和资源。较高的级�
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this property. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -5291,7 +5291,7 @@ Godot 内置的 :ref:`MovieWriter<class_MovieWriter>` 有 3 个：
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this property. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -5305,7 +5305,7 @@ Godot 内置的 :ref:`MovieWriter<class_MovieWriter>` 有 3 个：
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this property. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -12393,7 +12393,7 @@ OIDN 将在可用时使用 GPU 加速。与使用计算着色器进行加速的 
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this property. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -13095,7 +13095,7 @@ Direct3D 12 渲染驱动每帧所使用的采样器描述符堆中的条目数�
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this property. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -13121,7 +13121,7 @@ Direct3D 12 渲染驱动每帧所使用的采样器描述符堆中的条目数�
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this property. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -13135,7 +13135,7 @@ Direct3D 12 渲染驱动每帧所使用的采样器描述符堆中的条目数�
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this property. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -13149,7 +13149,7 @@ Direct3D 12 渲染驱动每帧所使用的采样器描述符堆中的条目数�
 
 .. container:: contribute
 
-	该属性目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this property. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 

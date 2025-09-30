@@ -321,11 +321,11 @@ La pendenza massima che è considerata percorribile, in gradi.
 - |void| **set_agent_radius**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_agent_radius**\ (\ )
 
-The distance to erode/shrink the walkable area of the heightfield away from obstructions.
+La distanza per erodere/restringere l'area percorribile del campo di altezza dagli ostacoli.
 
-\ **Note:** While baking, this value will be rounded up to the nearest multiple of :ref:`cell_size<class_NavigationMesh_property_cell_size>`.
+\ **Nota:** Durante la preparazione, questo valore sarà arrotondato al multiplo più vicino di :ref:`cell_size<class_NavigationMesh_property_cell_size>`.
 
-\ **Note:** The radius must be equal or higher than ``0.0``. If the radius is ``0.0``, it won't be possible to fix invalid outline overlaps and other precision errors during the baking process. As a result, some obstacles may be excluded incorrectly from the final navigation mesh, or may delete the navigation mesh's polygons.
+\ **Nota:** Il raggio deve essere uguale o superiore a ``0.0``. Se il raggio è ``0.0``, non sarà possibile correggere sovrapposizioni non valide tra contorni e altri errori di precisione durante il processo di preparazione. Di conseguenza, alcuni ostacoli potrebbero essere esclusi erroneamente dalla mesh di navigazione finale o potrebbero eliminare i poligoni della mesh di navigazione.
 
 .. rst-class:: classref-item-separator
 
@@ -342,11 +342,11 @@ The distance to erode/shrink the walkable area of the heightfield away from obst
 - |void| **set_border_size**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_border_size**\ (\ )
 
-The size of the non-navigable border around the bake bounding area.
+La dimensione del bordo non navigabile attorno all'area di delimitazione della preparazione.
 
-In conjunction with the :ref:`filter_baking_aabb<class_NavigationMesh_property_filter_baking_aabb>` and a :ref:`edge_max_error<class_NavigationMesh_property_edge_max_error>` value at ``1.0`` or below the border size can be used to bake tile aligned navigation meshes without the tile edges being shrunk by :ref:`agent_radius<class_NavigationMesh_property_agent_radius>`.
+In combinazione con :ref:`filter_baking_aabb<class_NavigationMesh_property_filter_baking_aabb>` e un valore :ref:`edge_max_error<class_NavigationMesh_property_edge_max_error>` inferiore o uguale a ``1.0``, è possibile utilizzare la dimensione del bordo per preparare mesh di navigazione allineate ai tasselli senza che i bordi dei tasselli siano ridotti di :ref:`agent_radius<class_NavigationMesh_property_agent_radius>`.
 
-\ **Note:** If this value is not ``0.0``, it will be rounded up to the nearest multiple of :ref:`cell_size<class_NavigationMesh_property_cell_size>` during baking.
+\ **Nota:** Se questo valore non è ``0.0``, sarà arrotondato al multiplo più vicino di :ref:`cell_size<class_NavigationMesh_property_cell_size>` durante la preparazione.
 
 .. rst-class:: classref-item-separator
 
@@ -571,7 +571,7 @@ Utilizzato solo quando :ref:`geometry_parsed_geometry_type<class_NavigationMesh_
 - |void| **set_parsed_geometry_type**\ (\ value\: :ref:`ParsedGeometryType<enum_NavigationMesh_ParsedGeometryType>`\ )
 - :ref:`ParsedGeometryType<enum_NavigationMesh_ParsedGeometryType>` **get_parsed_geometry_type**\ (\ )
 
-Determines which type of nodes will be parsed as geometry.
+Determina quale tipo di nodi sarà interpretato come geometria.
 
 .. rst-class:: classref-item-separator
 
@@ -588,7 +588,7 @@ Determines which type of nodes will be parsed as geometry.
 - |void| **set_source_geometry_mode**\ (\ value\: :ref:`SourceGeometryMode<enum_NavigationMesh_SourceGeometryMode>`\ )
 - :ref:`SourceGeometryMode<enum_NavigationMesh_SourceGeometryMode>` **get_source_geometry_mode**\ (\ )
 
-The source of the geometry used when baking.
+La sorgente della geometria utilizzata durante la preparazione.
 
 .. rst-class:: classref-item-separator
 
@@ -662,7 +662,7 @@ La dimensione minima di una regione per la sua creazione.
 - |void| **set_sample_partition_type**\ (\ value\: :ref:`SamplePartitionType<enum_NavigationMesh_SamplePartitionType>`\ )
 - :ref:`SamplePartitionType<enum_NavigationMesh_SamplePartitionType>` **get_sample_partition_type**\ (\ )
 
-Partitioning algorithm for creating the navigation mesh polys.
+Algoritmo di partizionamento per la creazione dei poligoni della mesh di navigazione.
 
 .. rst-class:: classref-item-separator
 

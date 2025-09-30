@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/FoldableGroup.xml.
+.. meta::
+	:keywords: expandable, collapsible, collapse
 
 .. _class_FoldableGroup:
 
@@ -101,7 +101,7 @@ Descripciones de Métodos
 
 :ref:`Array<class_Array>`\[:ref:`FoldableContainer<class_FoldableContainer>`\] **get_containers**\ (\ ) |const| :ref:`🔗<class_FoldableGroup_method_get_containers>`
 
-Devuelve un :ref:`Array<class_Array>` de :ref:`FoldableContainer<class_FoldableContainer>` que tienen este como su FoldingGroup (véase :ref:`FoldingContainer.foldable_group<class_FoldingContainer_member_foldable_group>`). Esto es equivalente a :ref:`ButtonGroup<class_ButtonGroup>`, pero para los FoldingContainers.
+Devuelve un :ref:`Array<class_Array>` de :ref:`FoldableContainer<class_FoldableContainer>` que tienen este como su FoldingGroup (véase :ref:`FoldableContainer.foldable_group<class_FoldableContainer_property_foldable_group>`). Esto es equivalente a :ref:`ButtonGroup<class_ButtonGroup>`, pero para los FoldableContainers.
 
 .. rst-class:: classref-item-separator
 

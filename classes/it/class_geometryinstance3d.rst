@@ -303,7 +303,7 @@ Il flag di proiezione delle ombre selezionato.
 - |void| **set_custom_aabb**\ (\ value\: :ref:`AABB<class_AABB>`\ )
 - :ref:`AABB<class_AABB>` **get_custom_aabb**\ (\ )
 
-Sostituisce il bounding box di questo nodo con uno personalizzato. Questo può essere usato per evitare il costoso ricalcolo dell':ref:`AABB<class_AABB>` che avviene quando uno scheletro è usato con un :ref:`MeshInstance3D<class_MeshInstance3D>` o per avere un controllo preciso sul bounding box di :ref:`MeshInstance3D<class_MeshInstance3D>`. Per usare l'AABB predefinito, imposta il valore su un :ref:`AABB<class_AABB>` con tutti i campi impostati su ``0.0``. Per evitare il frustum culling, imposta :ref:`custom_aabb<class_GeometryInstance3D_property_custom_aabb>` su un AABB molto grande che copra l'intero mondo di gioco come ``AABB(-10000, -10000, -10000, 20000, 20000, 20000)``. Per disabilitare tutte le forme di culling (incluso il culling dell'occlusione), chiama :ref:`RenderingServer.instance_set_ignore_culling()<class_RenderingServer_method_instance_set_ignore_culling>` sul :ref:`RID<class_RID>` del **GeometryInstance3D**.
+Sostituisce la bounding box di questo nodo con uno personalizzato. Questo può essere usato per evitare il costoso ricalcolo dell':ref:`AABB<class_AABB>` che avviene quando uno scheletro è usato con un :ref:`MeshInstance3D<class_MeshInstance3D>` o per avere un controllo preciso sulla bounding box di :ref:`MeshInstance3D<class_MeshInstance3D>`. Per usare l'AABB predefinito, imposta il valore su un :ref:`AABB<class_AABB>` con tutti i campi impostati su ``0.0``. Per evitare il frustum culling, imposta :ref:`custom_aabb<class_GeometryInstance3D_property_custom_aabb>` su un AABB molto grande che copra l'intero mondo di gioco come ``AABB(-10000, -10000, -10000, 20000, 20000, 20000)``. Per disabilitare tutte le forme di culling (incluso il culling dell'occlusione), chiama :ref:`RenderingServer.instance_set_ignore_culling()<class_RenderingServer_method_instance_set_ignore_culling>` sul :ref:`RID<class_RID>` del **GeometryInstance3D**.
 
 .. rst-class:: classref-item-separator
 
@@ -320,7 +320,7 @@ Sostituisce il bounding box di questo nodo con uno personalizzato. Questo può e
 - |void| **set_extra_cull_margin**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_extra_cull_margin**\ (\ )
 
-La distanza ulteriormente aggiunta al bounding box (:ref:`AABB<class_AABB>`) di GeometryInstance3D per aumentare il suo cull box.
+La distanza ulteriormente aggiunta alla bounding box (:ref:`AABB<class_AABB>`) del GeometryInstance3D per aumentare il suo cull box.
 
 .. rst-class:: classref-item-separator
 

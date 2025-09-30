@@ -14,11 +14,11 @@ Mesh with a single point primitive.
 Descrizione
 ----------------------
 
-A **PointMesh** is a primitive mesh composed of a single point. Instead of relying on triangles, points are rendered as a single rectangle on the screen with a constant size. They are intended to be used with particle systems, but can also be used as a cheap way to render billboarded sprites (for example in a point cloud).
+Un **PointMesh** è una mesh primitivo composto da un singolo punto. Invece di basarsi su triangoli, i punti sono renderizzati come un singolo rettangolo sullo schermo con una dimensione costante. Sono pensati per l'utilizzo con i sistemi di particelle, ma è possibile anche utilizzarli come un modo poco costoso per renderizzare gli sprite con billboard abilitato di dimensioni costanti (ad esempio in una nuvola di punti).
 
-In order to be displayed, point meshes must be used with a material that has a point size. The point size can be accessed in a shader with the ``POINT_SIZE`` built-in, or in a :ref:`BaseMaterial3D<class_BaseMaterial3D>` by setting the :ref:`BaseMaterial3D.use_point_size<class_BaseMaterial3D_property_use_point_size>` and :ref:`BaseMaterial3D.point_size<class_BaseMaterial3D_property_point_size>` properties.
+Per essere visualizzati, i point mesh si devono utilizzare con un materiale che ha una dimensione di punto. È possibile accedere alla dimensione di punto in uno shader con l'integrato ``POINT_SIZE``, o in un :ref:`BaseMaterial3D<class_BaseMaterial3D>` impostando le proprietà :ref:`BaseMaterial3D.use_point_size<class_BaseMaterial3D_property_use_point_size>` e :ref:`BaseMaterial3D.point_size<class_BaseMaterial3D_property_point_size>`.
 
-\ **Note:** When using point meshes, properties that normally affect vertices will be ignored, including :ref:`BaseMaterial3D.billboard_mode<class_BaseMaterial3D_property_billboard_mode>`, :ref:`BaseMaterial3D.grow<class_BaseMaterial3D_property_grow>`, and :ref:`BaseMaterial3D.cull_mode<class_BaseMaterial3D_property_cull_mode>`.
+\ **Nota:** Quando si utilizzano i point mesh, le proprietà che normalmente alterano i vertici saranno ignorate, tra cui :ref:`BaseMaterial3D.billboard_mode<class_BaseMaterial3D_property_billboard_mode>`, :ref:`BaseMaterial3D.grow<class_BaseMaterial3D_property_grow>` e :ref:`BaseMaterial3D.cull_mode<class_BaseMaterial3D_property_cull_mode>`.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

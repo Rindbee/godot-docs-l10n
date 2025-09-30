@@ -14,9 +14,9 @@ Una classe per interagire con il debugger dell'editor.
 Descrizione
 ----------------------
 
-This class cannot be directly instantiated and must be retrieved via an :ref:`EditorDebuggerPlugin<class_EditorDebuggerPlugin>`.
+Questa classe non può essere istanziata direttamente e bisogna recuperarla tramite un :ref:`EditorDebuggerPlugin<class_EditorDebuggerPlugin>`.
 
-You can add tabs to the session UI via :ref:`add_session_tab()<class_EditorDebuggerSession_method_add_session_tab>`, send messages via :ref:`send_message()<class_EditorDebuggerSession_method_send_message>`, and toggle :ref:`EngineProfiler<class_EngineProfiler>`\ s via :ref:`toggle_profiler()<class_EditorDebuggerSession_method_toggle_profiler>`.
+Puoi aggiungere schede all'interfaccia utente della sessione tramite :ref:`add_session_tab()<class_EditorDebuggerSession_method_add_session_tab>`, inviare messaggi tramite :ref:`send_message()<class_EditorDebuggerSession_method_send_message>` e commutare gli :ref:`EngineProfiler<class_EngineProfiler>` tramite :ref:`toggle_profiler()<class_EditorDebuggerSession_method_toggle_profiler>`.
 
 .. rst-class:: classref-reftable-group
 

@@ -12,13 +12,13 @@ Un cuadro delimitador 3D alineado con los ejes.
 Descripción
 ----------------------
 
-El tipo :ref:`Variant<class_Variant>` integrado **AABB** representa un cuadro delimitador alineado con el eje en un espacio 3D. Se define por su ``posición del miembro`` y ``tamaño del miembro``, que son :ref:`Vector3<class_Vector3>`. Se utiliza con frecuencia para pruebas rápidas de superposición (véase :ref:`intersects()<class_AABB_method_intersects>`). Aunque **AABB** está alineado con el eje, puede combinarse con :ref:`Transform3D<class_Transform3D>` para representar un cuadro delimitador rotado o sesgado.
+El tipo :ref:`Variant<class_Variant>` integrado **AABB** representa un cuadro delimitador alineado con el eje en un espacio 3D. Se define por su :ref:`position<class_AABB_property_position>` y :ref:`size<class_AABB_property_size>`, que son :ref:`Vector3<class_Vector3>`. Se utiliza con frecuencia para pruebas rápidas de superposición (véase :ref:`intersects()<class_AABB_method_intersects>`). Aunque **AABB** está alineado con el eje, puede combinarse con :ref:`Transform3D<class_Transform3D>` para representar un cuadro delimitador rotado o sesgado.
 
 Utiliza coordenadas de punto flotante. La contraparte 2D de **AABB** es :ref:`Rect2<class_Rect2>`. No existe ninguna versión de **AABB** que utilice coordenadas enteras.
 
 \ **Nota:** No se admiten valores negativos para :ref:`size<class_AABB_property_size>`. Con un tamaño negativo, la mayoría de los métodos **AABB** no funcionan correctamente. Utiliza :ref:`abs()<class_AABB_method_abs>` para obtener un **AABB** equivalente con un tamaño no negativo.
 
-\ **Nota:** En un contexto booleano, una **AABB** se evalúa como ``false`` si tanto la ``posición del miembro`` como :ref:`size<class_AABB_property_size>` son cero (igual a :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`). De lo contrario, siempre se evalúa como ``true``.
+\ **Nota:** En un contexto booleano, una **AABB** se evalúa como ``false`` si tanto la :ref:`position<class_AABB_property_position>` como :ref:`size<class_AABB_property_size>` son cero (igual a :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`). De lo contrario, siempre se evalúa como ``true``.
 
 .. note::
 
@@ -396,7 +396,7 @@ Devuelve el eje normalizado más largo del :ref:`size<class_AABB_property_size>`
 
 
 
-Ver también :ref:`get_longest_axis_index()<class_AABB_method_get_longest_axis_index>` y :ref:`get_longest_axis_size()<class_AABB_method_get_longest_axis_size>`.
+Véase también :ref:`get_longest_axis_index()<class_AABB_method_get_longest_axis_index>` y :ref:`get_longest_axis_size()<class_AABB_method_get_longest_axis_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -459,7 +459,7 @@ Devuelve el eje normalizado más corto del :ref:`size<class_AABB_property_size>`
 
 
 
-Ver también :ref:`get_shortest_axis_index()<class_AABB_method_get_shortest_axis_index>` y :ref:`get_shortest_axis_size()<class_AABB_method_get_shortest_axis_size>`.
+Véase también :ref:`get_shortest_axis_index()<class_AABB_method_get_shortest_axis_index>` y :ref:`get_shortest_axis_size()<class_AABB_method_get_shortest_axis_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -511,7 +511,7 @@ Devuelve la posición del vértice de este cuadro delimitador que está más lej
 
 :ref:`float<class_float>` **get_volume**\ (\ ) |const| :ref:`🔗<class_AABB_method_get_volume>`
 
-Devuelve el volumen del cuadro delimitador. Esto es equivalente a ``size.x * size.y * size.z``. Ver también :ref:`has_volume()<class_AABB_method_has_volume>`.
+Devuelve el volumen del cuadro delimitador. Esto es equivalente a ``size.x * size.y * size.z``. Véase también :ref:`has_volume()<class_AABB_method_has_volume>`.
 
 .. rst-class:: classref-item-separator
 

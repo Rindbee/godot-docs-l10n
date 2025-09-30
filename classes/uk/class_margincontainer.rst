@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/MarginContainer.xml.
+.. meta::
+	:keywords: padding
 
 .. _class_MarginContainer:
 
@@ -26,7 +26,7 @@ MarginContainer
 
  .. code-tab:: gdscript
  
-    # Цей зразок коду передбачає, що поточний сценарій розширює MarginContainer. 
+    # Цей зразок коду передбачає, що поточний скрипт розширює MarginContainer. 
     var margin_value = 100 
     add_theme_constant_override("margin_top", margin_value) 
     add_theme_constant_override("margin_left", margin_value) 
@@ -35,7 +35,7 @@ MarginContainer
 
  .. code-tab:: csharp
  
-    // Цей зразок коду передбачає, що поточний сценарій розширює MarginContainer. 
+    // Цей зразок коду передбачає, що поточний скрипт розширює MarginContainer. 
     int marginValue = 100; 
     AddThemeConstantOverride("margin_top", marginValue); 
     AddThemeConstantOverride("margin_left", marginValue); 

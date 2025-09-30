@@ -71,7 +71,7 @@ Descrizioni dei metodi
 
 :ref:`bool<class_bool>` **_process_custom_fx**\ (\ char_fx\: :ref:`CharFXTransform<class_CharFXTransform>`\ ) |virtual| |const| :ref:`🔗<class_RichTextEffect_private_method__process_custom_fx>`
 
-Sostituisci questo metodo per modificare le proprietà in ``char_fx``. Il metodo deve restituire ``true`` se il carattere può essere trasformato correttamente. Se il metodo restituisce ``false``, ignorerà la trasformazione per evitare di visualizzare testo incorretto.
+Sovrascrivi questo metodo per modificare le proprietà in ``char_fx``. Il metodo deve restituire ``true`` se il carattere può essere trasformato correttamente. Se il metodo restituisce ``false``, ignorerà la trasformazione per evitare di visualizzare testo incorretto.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

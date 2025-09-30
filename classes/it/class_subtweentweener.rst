@@ -14,7 +14,7 @@ Esegue un :ref:`Tween<class_Tween>` annidato all'interno di un altro :ref:`Tween
 Descrizione
 ----------------------
 
-**SubtweenTweener** è utilizzato per eseguire un :ref:`Tween<class_Tween>` come solo passaggio in una sequenza definita da un altro :ref:`Tween<class_Tween>`. Vedi :ref:`Tween.tween_subtween()<class_Tween_method_tween_subtween>` per maggiori informazioni sull'utilizzo.
+**SubtweenTweener** serve per eseguire un :ref:`Tween<class_Tween>` come solo passaggio in una sequenza definita da un altro :ref:`Tween<class_Tween>`. Vedi :ref:`Tween.tween_subtween()<class_Tween_method_tween_subtween>` per maggiori informazioni sull'utilizzo.
 
 \ **Nota:** :ref:`Tween.tween_subtween()<class_Tween_method_tween_subtween>` è l'unico modo corretto per creare **SubtweenTweener**. Qualsiasi **SubtweenTweener** creato manualmente non funzionerà correttamente.
 

@@ -7,7 +7,7 @@ InputEventAction
 
 **Hérite de :** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-An input event type for actions.
+Un type d’évènement d’entrée pour les actions.
 
 .. rst-class:: classref-introduction-group
 

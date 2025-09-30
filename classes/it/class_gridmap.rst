@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/modules/gridmap/doc_classes/GridMap.xml.
+.. meta::
+	:keywords: tilemap
 
 .. _class_GridMap:
 
@@ -440,9 +440,9 @@ Restituisce il :ref:`RID<class_RID>` di una mesh elaborata con l'indice ``idx`` 
 
 :ref:`Array<class_Array>` **get_bake_meshes**\ (\ ) :ref:`🔗<class_GridMap_method_get_bake_meshes>`
 
-Returns an array of :ref:`ArrayMesh<class_ArrayMesh>`\ es and :ref:`Transform3D<class_Transform3D>` references of all bake meshes that exist within the current GridMap. Even indices contain :ref:`ArrayMesh<class_ArrayMesh>`\ es, while odd indices contain :ref:`Transform3D<class_Transform3D>`\ s that are always equal to :ref:`Transform3D.IDENTITY<class_Transform3D_constant_IDENTITY>`.
+Restituisce un array di riferimenti :ref:`ArrayMesh<class_ArrayMesh>` e :ref:`Transform3D<class_Transform3D>` di tutte le mesh precalcolate presenti nella GridMap attuale. Gli indici pari contengono :ref:`ArrayMesh<class_ArrayMesh>`, mentre gli indici dispari contengono :ref:`Transform3D<class_Transform3D>` che sono sempre uguali a :ref:`Transform3D.IDENTITY<class_Transform3D_constant_IDENTITY>`.
 
-This method relies on the output of :ref:`make_baked_meshes()<class_GridMap_method_make_baked_meshes>`, which will be called with ``gen_lightmap_uv`` set to ``true`` and ``lightmap_uv_texel_size`` set to ``0.1`` if it hasn't been called yet.
+Questo metodo si basa sul risultato del metodo :ref:`make_baked_meshes()<class_GridMap_method_make_baked_meshes>`, che verrà chiamato con ``gen_lightmap_uv`` impostato su ``true`` e ``lightmap_uv_texel_size`` impostato su ``0.1`` se non è ancora stato chiamato.
 
 .. rst-class:: classref-item-separator
 
@@ -600,9 +600,9 @@ Restituisce le coordinate della mappa della cella contenente la posizione locale
 
 |void| **make_baked_meshes**\ (\ gen_lightmap_uv\: :ref:`bool<class_bool>` = false, lightmap_uv_texel_size\: :ref:`float<class_float>` = 0.1\ ) :ref:`🔗<class_GridMap_method_make_baked_meshes>`
 
-Generates a baked mesh that represents all meshes in the assigned :ref:`MeshLibrary<class_MeshLibrary>` for use with :ref:`LightmapGI<class_LightmapGI>`. If ``gen_lightmap_uv`` is ``true``, UV2 data will be generated for each mesh currently used in the **GridMap**. Otherwise, only meshes that already have UV2 data present will be able to use baked lightmaps. When generating UV2, ``lightmap_uv_texel_size`` controls the texel density for lightmaps, with lower values resulting in more detailed lightmaps. ``lightmap_uv_texel_size`` is ignored if ``gen_lightmap_uv`` is ``false``. See also :ref:`get_bake_meshes()<class_GridMap_method_get_bake_meshes>`, which relies on the output of this method.
+Genera una mesh precalcolata che rappresenta tutte le mesh nella :ref:`MeshLibrary<class_MeshLibrary>` assegnata, da utilizzare con :ref:`LightmapGI<class_LightmapGI>`. Se ``gen_lightmap_uv`` è ``true``, i dati UV2 verranno generati per ogni mesh attualmente utilizzata nella **GridMap**. Altrimenti, solo le mesh che hanno già dati UV2 presenti potranno utilizzare le lightmap precalcolate. Durante la generazione di UV2, ``lightmap_uv_texel_size`` controlla la densità dei texel per le lightmap, con valori più bassi che producono lightmap più dettagliate. ``lightmap_uv_texel_size`` viene ignorato se ``gen_lightmap_uv`` è ``false``. Vedi anche :ref:`get_bake_meshes()<class_GridMap_method_get_bake_meshes>`, che si basa sul risultato di questo metodo.
 
-\ **Note:** Calling this method will not actually bake lightmaps, as lightmap baking is performed using the :ref:`LightmapGI<class_LightmapGI>` node.
+\ **Nota:** La chiamata a questo metodo non preparerà le lightmap effettivamente, poiché la preparazione è eseguita attraverso il nodo :ref:`LightmapGI<class_LightmapGI>`.
 
 .. rst-class:: classref-item-separator
 

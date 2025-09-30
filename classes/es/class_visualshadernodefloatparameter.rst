@@ -14,7 +14,7 @@ Un parámetro escalar de punto flotante para ser utilizado dentro del gráfico d
 Descripción
 ----------------------
 
-Traducido a ``uniform float`` en el lenguaje de shader.
+Traducido a ``uniform float`` en el lenguaje de shaders.
 
 .. rst-class:: classref-reftable-group
 

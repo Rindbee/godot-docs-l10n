@@ -235,7 +235,7 @@ Se ``true``, è applicato l'antialiasing sul bordo della polilinea.
 - |void| **set_begin_cap_mode**\ (\ value\: :ref:`LineCapMode<enum_Line2D_LineCapMode>`\ )
 - :ref:`LineCapMode<enum_Line2D_LineCapMode>` **get_begin_cap_mode**\ (\ )
 
-The style of the beginning of the polyline, if :ref:`closed<class_Line2D_property_closed>` is ``false``.
+Lo stile dell'inizio della polilinea, se :ref:`closed<class_Line2D_property_closed>` è ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -290,7 +290,7 @@ Il colore della polilinea. Non sarà utilizzato se è impostato un gradiente.
 - |void| **set_end_cap_mode**\ (\ value\: :ref:`LineCapMode<enum_Line2D_LineCapMode>`\ )
 - :ref:`LineCapMode<enum_Line2D_LineCapMode>` **get_end_cap_mode**\ (\ )
 
-The style of the end of the polyline, if :ref:`closed<class_Line2D_property_closed>` is ``false``.
+Lo stile della fine della polilinea, se :ref:`closed<class_Line2D_property_closed>` è ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -324,7 +324,7 @@ Il gradiente che è disegnato lungo l'intera linea dall'inizio alla fine. :ref:`
 - |void| **set_joint_mode**\ (\ value\: :ref:`LineJointMode<enum_Line2D_LineJointMode>`\ )
 - :ref:`LineJointMode<enum_Line2D_LineJointMode>` **get_joint_mode**\ (\ )
 
-The style of the connections between segments of the polyline.
+Lo stile dei collegamenti tra i segmenti della polilinea.
 
 .. rst-class:: classref-item-separator
 
@@ -377,7 +377,7 @@ La rotondità utilizzata per giunzioni e tappi arrotondati. Valori più alti pro
 - |void| **set_sharp_limit**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_sharp_limit**\ (\ )
 
-Determines the miter limit of the polyline. Normally, when :ref:`joint_mode<class_Line2D_property_joint_mode>` is set to :ref:`LINE_JOINT_SHARP<class_Line2D_constant_LINE_JOINT_SHARP>`, sharp angles fall back to using the logic of :ref:`LINE_JOINT_BEVEL<class_Line2D_constant_LINE_JOINT_BEVEL>` joints to prevent very long miters. Higher values of this property mean that the fallback to a bevel joint will happen at sharper angles.
+Determina il limite di smusso della polilinea. Normalmente, quando :ref:`joint_mode<class_Line2D_property_joint_mode>` è impostato su :ref:`LINE_JOINT_SHARP<class_Line2D_constant_LINE_JOINT_SHARP>`, gli angoli acuti ricadono alla logica delle giunzioni :ref:`LINE_JOINT_BEVEL<class_Line2D_constant_LINE_JOINT_BEVEL>` per impedire smussi molto lunghi. Valori più alti di questa proprietà indicano che il ricadimento a una giunzione smussata avverrà ad angoli più acuti.
 
 .. rst-class:: classref-item-separator
 
@@ -411,7 +411,7 @@ La texture usata per la polilinea. Usa :ref:`texture_mode<class_Line2D_property_
 - |void| **set_texture_mode**\ (\ value\: :ref:`LineTextureMode<enum_Line2D_LineTextureMode>`\ )
 - :ref:`LineTextureMode<enum_Line2D_LineTextureMode>` **get_texture_mode**\ (\ )
 
-The style to render the :ref:`texture<class_Line2D_property_texture>` of the polyline.
+Lo stile per renderizzare la :ref:`texture<class_Line2D_property_texture>` della polilinea.
 
 .. rst-class:: classref-item-separator
 

@@ -149,7 +149,7 @@ enum **DeepDuplicateMode**: :ref:`🔗<enum_Resource_DeepDuplicateMode>`
 
 :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>` **DEEP_DUPLICATE_NONE** = ``0``
 
-No subresorces at all are duplicated. This is useful even in a deep duplication to have all the arrays and dictionaries duplicated but still pointing to the original resources.
+Non duplicare affatto le sotto-risorse. Ciò è utile anche in caso di duplicazione profonda, in quanto consente di duplicare tutti gli array e i dizionari, ma di puntare comunque alle risorse originali.
 
 .. _class_Resource_constant_DEEP_DUPLICATE_INTERNAL:
 
@@ -157,7 +157,7 @@ No subresorces at all are duplicated. This is useful even in a deep duplication 
 
 :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>` **DEEP_DUPLICATE_INTERNAL** = ``1``
 
-Only subresources without a path or with a scene-local path will be duplicated.
+Solo le sotto-risorse senza percorso o con un percorso locale alla scena saranno duplicate.
 
 .. _class_Resource_constant_DEEP_DUPLICATE_ALL:
 
@@ -165,7 +165,7 @@ Only subresources without a path or with a scene-local path will be duplicated.
 
 :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>` **DEEP_DUPLICATE_ALL** = ``2``
 
-Every subresource found will be duplicated, even if it has a non-local path. In other words, even potentially big resources stored separately will be duplicated.
+Ogni sotto-risorsa trovata sarà duplicata, anche se ha un percorso non locale. In altre parole, anche risorse grandi, potenzialmente salvate separatamente, saranno duplicate.
 
 .. rst-class:: classref-section-separator
 
@@ -244,13 +244,13 @@ Il percorso univoco per questa risorsa. Se è stata salvata su disco, il valore 
 - |void| **set_scene_unique_id**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_scene_unique_id**\ (\ )
 
-A unique identifier relative to the this resource's scene. If left empty, the ID is automatically generated when this resource is saved inside a :ref:`PackedScene<class_PackedScene>`. If the resource is not inside a scene, this property is empty by default.
+Un identificatore univoco relativo alla scena di questa risorsa. Se lasciato vuoto, l'ID viene generato automaticamente quando questa risorsa viene salvata all'interno di un :ref:`PackedScene<class_PackedScene>`. Se la risorsa non è all'interno di una scena, questa proprietà è normalmente vuota.
 
-\ **Note:** When the :ref:`PackedScene<class_PackedScene>` is saved, if multiple resources in the same scene use the same ID, only the earliest resource in the scene hierarchy keeps the original ID. The other resources are assigned new IDs from :ref:`generate_scene_unique_id()<class_Resource_method_generate_scene_unique_id>`.
+\ **Nota:** Quando viene salvato il :ref:`PackedScene<class_PackedScene>`, se più risorse nella stessa scena utilizzano lo stesso ID, solo la risorsa più vecchia nella gerarchia della scena mantiene l'ID originale. Alle altre risorse vengono assegnati nuovi ID da :ref:`generate_scene_unique_id()<class_Resource_method_generate_scene_unique_id>`.
 
-\ **Note:** Setting this property does not emit the :ref:`changed<class_Resource_signal_changed>` signal.
+\ **Nota:** L'impostazione di questa proprietà non emette il segnale :ref:`changed<class_Resource_signal_changed>`.
 
-\ **Warning:** When setting, the ID must only consist of letters, numbers, and underscores. Otherwise, it will fail and default to a randomly generated ID.
+\ **Attenzione:** Quando viene impostato, l'ID deve essere composto solo da lettere, numeri e trattini bassi. Altrimenti, fallirà e sarà utilizzato come predefinito un ID generato casualmente.
 
 .. rst-class:: classref-section-separator
 
@@ -279,7 +279,7 @@ Sovrascrivi questo metodo per restituire un :ref:`RID<class_RID>` personalizzato
 
 |void| **_reset_state**\ (\ ) |virtual| :ref:`🔗<class_Resource_private_method__reset_state>`
 
-For resources that store state in non-exported properties, such as via :ref:`Object._validate_property()<class_Object_private_method__validate_property>` or :ref:`Object._get_property_list()<class_Object_private_method__get_property_list>`, this method must be implemented to clear them.
+Per le risorse che memorizzano lo stato in proprietà non esportate, ad esempio tramite :ref:`Object._validate_property()<class_Object_private_method__validate_property>` o :ref:`Object._get_property_list()<class_Object_private_method__get_property_list>`, si dovrebbe implementare questo metodo per ripulirle.
 
 .. rst-class:: classref-item-separator
 
@@ -291,7 +291,7 @@ For resources that store state in non-exported properties, such as via :ref:`Obj
 
 |void| **_set_path_cache**\ (\ path\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_Resource_private_method__set_path_cache>`
 
-Override this method to execute additional logic after :ref:`set_path_cache()<class_Resource_method_set_path_cache>` is called on this object.
+Sovrascrivi questo metodo per eseguire ulteriore logica dopo che :ref:`set_path_cache()<class_Resource_method_set_path_cache>` viene chiamato su questo oggetto.
 
 .. rst-class:: classref-item-separator
 
@@ -326,21 +326,21 @@ Sovrascrivi questo metodo per personalizzare la risorsa appena duplicata creata 
 
 :ref:`Resource<class_Resource>` **duplicate**\ (\ deep\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Resource_method_duplicate>`
 
-Duplicates this resource, returning a new resource with its ``export``\ ed or :ref:`@GlobalScope.PROPERTY_USAGE_STORAGE<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>` properties copied from the original.
+Duplica questa risorsa, restituendo una nuova risorsa con le sue proprietà con ``export`` o :ref:`@GlobalScope.PROPERTY_USAGE_STORAGE<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>` copiate dall'originale.
 
-If ``deep`` is ``false``, a **shallow** copy is returned: nested :ref:`Array<class_Array>`, :ref:`Dictionary<class_Dictionary>`, and **Resource** properties are not duplicated and are shared with the original resource.
+Se ``deep`` è ``false``, viene restituita una copia **superficiale**: le proprietà innestate di tipo :ref:`Array<class_Array>`, :ref:`Dictionary<class_Dictionary>` e **Resource** non sono duplicate e sono condivise con la risorsa originale.
 
-If ``deep`` is ``true``, a **deep** copy is returned: all nested arrays, dictionaries, and packed arrays are also duplicated (recursively). Any **Resource** found inside will only be duplicated if it's local, like :ref:`DEEP_DUPLICATE_INTERNAL<class_Resource_constant_DEEP_DUPLICATE_INTERNAL>` used with :ref:`duplicate_deep()<class_Resource_method_duplicate_deep>`.
+Se ``deep`` è ``true``, viene restituita una copia **profonda**: tutti gli array innestati, i dizionari e gli array impacchettati sono duplicati (ricorsivamente). Qualsiasi **Resource** trovata all'interno sarà duplicata solo se locale, come con :ref:`DEEP_DUPLICATE_INTERNAL<class_Resource_constant_DEEP_DUPLICATE_INTERNAL>` usato in :ref:`duplicate_deep()<class_Resource_method_duplicate_deep>`.
 
-The following exceptions apply:
+Si applicano le seguenti eccezioni:
 
-- Subresource properties with the :ref:`@GlobalScope.PROPERTY_USAGE_ALWAYS_DUPLICATE<class_@GlobalScope_constant_PROPERTY_USAGE_ALWAYS_DUPLICATE>` flag are always duplicated (recursively or not, depending on ``deep``).
+- Le proprietà delle sotto-risorse con il flag :ref:`@GlobalScope.PROPERTY_USAGE_ALWAYS_DUPLICATE<class_@GlobalScope_constant_PROPERTY_USAGE_ALWAYS_DUPLICATE>` sono sempre duplicate (ricorsivamente o meno, a seconda di ``deep``).
 
-- Subresource properties with the :ref:`@GlobalScope.PROPERTY_USAGE_NEVER_DUPLICATE<class_@GlobalScope_constant_PROPERTY_USAGE_NEVER_DUPLICATE>` flag are never duplicated.
+- Le proprietà delle sotto-risorse con il flag :ref:`@GlobalScope.PROPERTY_USAGE_NEVER_DUPLICATE<class_@GlobalScope_constant_PROPERTY_USAGE_NEVER_DUPLICATE>` non sono mai duplicate.
 
-\ **Note:** For custom resources, this method will fail if :ref:`Object._init()<class_Object_private_method__init>` has been defined with required parameters.
+\ **Nota:** Per le risorse personalizzate, questo metodo fallirà se :ref:`Object._init()<class_Object_private_method__init>` è stato definito con parametri obbligatori.
 
-\ **Note:** When duplicating with ``deep`` set to ``true``, each resource found, including the one on which this method is called, will be only duplicated once and referenced as many times as needed in the duplicate. For instance, if you are duplicating resource A that happens to have resource B referenced twice, you'll get a new resource A' referencing a new resource B' twice.
+\ **Nota:** Quando si duplica con ``deep`` impostato su ``true``, ogni risorsa trovata, inclusa quella su cui viene chiamato questo metodo, sarà duplicata una sola volta e referenziata quanto necessario nel duplicato. Ad esempio, se si duplica la risorsa A a cui si riferisce due volte la risorsa B, si otterrà una nuova risorsa A' che referenzia due volte una nuova risorsa B'.
 
 .. rst-class:: classref-item-separator
 
@@ -352,9 +352,9 @@ The following exceptions apply:
 
 :ref:`Resource<class_Resource>` **duplicate_deep**\ (\ deep_subresources_mode\: :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>` = 1\ ) |const| :ref:`🔗<class_Resource_method_duplicate_deep>`
 
-Duplicates this resource, deeply, like :ref:`duplicate()<class_Resource_method_duplicate>`\ ``(true)``, with extra control over how subresources are handled.
+Duplica questa risorsa profondamente, come :ref:`duplicate()<class_Resource_method_duplicate>`\ ``(true)``, con ulteriore controllo su come le sottorisorse sono gestite.
 
-\ ``deep_subresources_mode`` must be one of the values from :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`.
+\ ``deep_subresources_mode`` deve essere uno dei valori di :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -438,7 +438,7 @@ Restituisce il :ref:`RID<class_RID>` di questa risorsa (o un RID vuoto). Molte r
 
 :ref:`bool<class_bool>` **is_built_in**\ (\ ) |const| :ref:`🔗<class_Resource_method_is_built_in>`
 
-Returns ``true`` if the resource is saved on disk as a part of another resource's file.
+Restituisce ``true`` se la risorsa è salvata su disco come parte del file di un'altra risorsa.
 
 .. rst-class:: classref-item-separator
 
@@ -450,7 +450,7 @@ Returns ``true`` if the resource is saved on disk as a part of another resource'
 
 |void| **reset_state**\ (\ ) :ref:`🔗<class_Resource_method_reset_state>`
 
-Makes the resource clear its non-exported properties. See also :ref:`_reset_state()<class_Resource_private_method__reset_state>`. Useful when implementing a custom resource format by extending :ref:`ResourceFormatLoader<class_ResourceFormatLoader>` and :ref:`ResourceFormatSaver<class_ResourceFormatSaver>`.
+Cancella le proprietà non esportate della risorsa. Vedi anche :ref:`_reset_state()<class_Resource_private_method__reset_state>`. Utile quando si implementa un formato di risorsa personalizzato estendendo :ref:`ResourceFormatLoader<class_ResourceFormatLoader>` e :ref:`ResourceFormatSaver<class_ResourceFormatSaver>`.
 
 .. rst-class:: classref-item-separator
 
@@ -462,9 +462,9 @@ Makes the resource clear its non-exported properties. See also :ref:`_reset_stat
 
 |void| **set_id_for_path**\ (\ path\: :ref:`String<class_String>`, id\: :ref:`String<class_String>`\ ) :ref:`🔗<class_Resource_method_set_id_for_path>`
 
-In the internal cache for scene-unique IDs, sets the ID of this resource to ``id`` for the scene at ``path``. If ``id`` is empty, the cache entry for ``path`` is cleared. Useful to keep scene-unique IDs the same when implementing a VCS-friendly custom resource format by extending :ref:`ResourceFormatLoader<class_ResourceFormatLoader>` and :ref:`ResourceFormatSaver<class_ResourceFormatSaver>`.
+Nella cache interna per gli ID univoci di scena, imposta l'ID di questa risorsa su ``id`` per la scena nel percorso ``path``. Se ``id`` è vuoto, la voce nella cache per ``path`` viene cancellata. Utile per mantenere invariati gli ID univoci di scena quando si implementa un formato di risorsa personalizzato compatibile con VCS estendendo :ref:`ResourceFormatLoader<class_ResourceFormatLoader>` e :ref:`ResourceFormatSaver<class_ResourceFormatSaver>`.
 
-\ **Note:** This method is only implemented when running in an editor context.
+\ **Nota:** Questo metodo è implementato solo quando è eseguito in un contesto di editor.
 
 .. rst-class:: classref-item-separator
 
@@ -476,7 +476,7 @@ In the internal cache for scene-unique IDs, sets the ID of this resource to ``id
 
 |void| **set_path_cache**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_Resource_method_set_path_cache>`
 
-Sets the resource's path to ``path`` without involving the resource cache. Useful for handling :ref:`CacheMode<enum_ResourceFormatLoader_CacheMode>` values when implementing a custom resource format by extending :ref:`ResourceFormatLoader<class_ResourceFormatLoader>` and :ref:`ResourceFormatSaver<class_ResourceFormatSaver>`.
+Imposta il percorso della risorsa su ``path`` senza coinvolgere la cache delle risorse. Utile per gestire i valori di :ref:`CacheMode<enum_ResourceFormatLoader_CacheMode>` quando si implementa un formato di risorsa personalizzato estendendo :ref:`ResourceFormatLoader<class_ResourceFormatLoader>` e :ref:`ResourceFormatSaver<class_ResourceFormatSaver>`.
 
 .. rst-class:: classref-item-separator
 

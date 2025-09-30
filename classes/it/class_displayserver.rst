@@ -675,7 +675,7 @@ Il server di visualizzazione supporta l'`Input Method Editor <https://en.wikiped
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_WINDOW_TRANSPARENCY** = ``11``
 
-Display server supports windows can use per-pixel transparency to make windows behind them partially or fully visible. **Windows, macOS, Linux (X11/Wayland), Android**
+Il server di visualizzazione supporta finestre che possono utilizzare la trasparenza per pixel per rendere le finestre dietro di esse parzialmente o completamente visibili. **Windows, macOS, Linux (X11/Wayland), Android**
 
 .. _class_DisplayServer_constant_FEATURE_HIDPI:
 
@@ -683,7 +683,7 @@ Display server supports windows can use per-pixel transparency to make windows b
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_HIDPI** = ``12``
 
-Display server supports querying the operating system's display scale factor. This allows automatically detecting the hiDPI display *reliably*, instead of guessing based on the screen resolution and the display's reported DPI (which might be unreliable due to broken monitor EDID). **Windows, Linux (Wayland), macOS**
+Il server di visualizzazione supporta la richiesta al sistema operativo del fattore di scala del display. Ciò consente di rilevare automaticamente e *affidabilmente* l'hiDPI del display, anziché fare assunzioni in base alla risoluzione dello schermo e al DPI segnalato dal display (il che può essere inaffidabile a causa dell'EDID del monitor non funzionante). **Windows, Linux (Wayland), macOS**
 
 .. _class_DisplayServer_constant_FEATURE_ICON:
 
@@ -803,7 +803,7 @@ Il server di visualizzazione supporta l'avvio di operazioni di trascinamento e r
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_SCREEN_EXCLUDE_FROM_CAPTURE** = ``28``
 
-Display server supports :ref:`WINDOW_FLAG_EXCLUDE_FROM_CAPTURE<class_DisplayServer_constant_WINDOW_FLAG_EXCLUDE_FROM_CAPTURE>` window flag. **Windows, macOS**
+Il server di visualizzazione supporta il flag di finestra :ref:`WINDOW_FLAG_EXCLUDE_FROM_CAPTURE<class_DisplayServer_constant_WINDOW_FLAG_EXCLUDE_FROM_CAPTURE>`. **Windows, macOS**
 
 .. _class_DisplayServer_constant_FEATURE_WINDOW_EMBEDDING:
 
@@ -811,7 +811,7 @@ Display server supports :ref:`WINDOW_FLAG_EXCLUDE_FROM_CAPTURE<class_DisplayServ
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_WINDOW_EMBEDDING** = ``29``
 
-Display server supports embedding a window from another process. **Windows, Linux (X11), macOS**
+Il server di visualizzazione supporta l'incoporamento di una finestra proveniente da un altro processo. **Windows, Linux (X11)**
 
 .. _class_DisplayServer_constant_FEATURE_NATIVE_DIALOG_FILE_MIME:
 
@@ -835,7 +835,7 @@ Il server di visualizzazione supporta il selettore di emoji e simboli del sistem
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_NATIVE_COLOR_PICKER** = ``32``
 
-Display server supports native color picker. **Linux (X11/Wayland)**
+Il server di visualizzazione supporta un selettore di colore nativo. **Linux (X11/Wayland)**
 
 .. _class_DisplayServer_constant_FEATURE_SELF_FITTING_WINDOWS:
 
@@ -843,7 +843,7 @@ Display server supports native color picker. **Linux (X11/Wayland)**
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_SELF_FITTING_WINDOWS** = ``33``
 
-Display server automatically fits popups according to the screen boundaries. Window nodes should not attempt to do that themselves.
+Il server di visualizzazione adatta automaticamente i popup in base ai limiti dello schermo. I nodi Window non dovrebbero tentare di farlo autonomamente.
 
 .. _class_DisplayServer_constant_FEATURE_ACCESSIBILITY_SCREEN_READER:
 
@@ -851,7 +851,7 @@ Display server automatically fits popups according to the screen boundaries. Win
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_ACCESSIBILITY_SCREEN_READER** = ``34``
 
-Display server supports interaction with screen reader or Braille display. **Linux (X11/Wayland), macOS, Windows**
+Il server di visualizzazione supporta l'interazione con i lettori dello schermo o i display Braille. **Linux (X11/Wayland), macOS, Windows**
 
 .. rst-class:: classref-item-separator
 
@@ -877,7 +877,7 @@ Ruolo sconosciuto o personalizzato.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_DEFAULT_BUTTON** = ``1``
 
-Default dialog button element.
+Elemento pulsante di dialogo predefinito.
 
 .. _class_DisplayServer_constant_ROLE_AUDIO:
 
@@ -885,7 +885,7 @@ Default dialog button element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_AUDIO** = ``2``
 
-Audio player element.
+Elemento riproduttore audio.
 
 .. _class_DisplayServer_constant_ROLE_VIDEO:
 
@@ -893,7 +893,7 @@ Audio player element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_VIDEO** = ``3``
 
-Video player element.
+Elemento riproduttore video.
 
 .. _class_DisplayServer_constant_ROLE_STATIC_TEXT:
 
@@ -901,7 +901,7 @@ Video player element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_STATIC_TEXT** = ``4``
 
-Non-editable text label.
+Etichetta di testo non modificabile.
 
 .. _class_DisplayServer_constant_ROLE_CONTAINER:
 
@@ -909,7 +909,7 @@ Non-editable text label.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_CONTAINER** = ``5``
 
-Container element. Elements with this role are used for internal structure and ignored by screen readers.
+Elemento contenitore. Gli elementi con questo ruolo sono utilizzati per la struttura interna e ignorati dai lettori dello schermo.
 
 .. _class_DisplayServer_constant_ROLE_PANEL:
 
@@ -917,7 +917,7 @@ Container element. Elements with this role are used for internal structure and i
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_PANEL** = ``6``
 
-Panel container element.
+Elemento contenitore di pannello.
 
 .. _class_DisplayServer_constant_ROLE_BUTTON:
 
@@ -925,7 +925,7 @@ Panel container element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_BUTTON** = ``7``
 
-Button element.
+Elemento pulsante.
 
 .. _class_DisplayServer_constant_ROLE_LINK:
 
@@ -933,7 +933,7 @@ Button element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_LINK** = ``8``
 
-Link element.
+Elemento collegamento.
 
 .. _class_DisplayServer_constant_ROLE_CHECK_BOX:
 
@@ -941,7 +941,7 @@ Link element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_CHECK_BOX** = ``9``
 
-Check box element.
+Elemento casella di spunta.
 
 .. _class_DisplayServer_constant_ROLE_RADIO_BUTTON:
 
@@ -949,7 +949,7 @@ Check box element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_RADIO_BUTTON** = ``10``
 
-Radio button element.
+Elemento pulsante di opzione (radio).
 
 .. _class_DisplayServer_constant_ROLE_CHECK_BUTTON:
 
@@ -957,7 +957,7 @@ Radio button element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_CHECK_BUTTON** = ``11``
 
-Check button element.
+Elemento pulsante di spunta.
 
 .. _class_DisplayServer_constant_ROLE_SCROLL_BAR:
 
@@ -965,7 +965,7 @@ Check button element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_SCROLL_BAR** = ``12``
 
-Scroll bar element.
+Elemento barra di scorrimento.
 
 .. _class_DisplayServer_constant_ROLE_SCROLL_VIEW:
 
@@ -973,7 +973,7 @@ Scroll bar element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_SCROLL_VIEW** = ``13``
 
-Scroll container element.
+Elemento contenitore di scorrimento.
 
 .. _class_DisplayServer_constant_ROLE_SPLITTER:
 
@@ -989,7 +989,7 @@ Container splitter handle element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_SLIDER** = ``15``
 
-Slider element.
+Elemento slider.
 
 .. _class_DisplayServer_constant_ROLE_SPIN_BUTTON:
 
@@ -997,7 +997,7 @@ Slider element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_SPIN_BUTTON** = ``16``
 
-Spin box element.
+Elemento casella numerica.
 
 .. _class_DisplayServer_constant_ROLE_PROGRESS_INDICATOR:
 
@@ -1005,7 +1005,7 @@ Spin box element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_PROGRESS_INDICATOR** = ``17``
 
-Progress indicator element.
+Elemento indicatore di progresso.
 
 .. _class_DisplayServer_constant_ROLE_TEXT_FIELD:
 
@@ -1013,7 +1013,7 @@ Progress indicator element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_TEXT_FIELD** = ``18``
 
-Editable text field element.
+Elemento campo di testo modificabile.
 
 .. _class_DisplayServer_constant_ROLE_MULTILINE_TEXT_FIELD:
 
@@ -1021,7 +1021,7 @@ Editable text field element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_MULTILINE_TEXT_FIELD** = ``19``
 
-Multiline editable text field element.
+Elemento campo di testo modificabile su più righe.
 
 .. _class_DisplayServer_constant_ROLE_COLOR_PICKER:
 
@@ -1029,7 +1029,7 @@ Multiline editable text field element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_COLOR_PICKER** = ``20``
 
-Color picker element.
+Elemento selettore di colore.
 
 .. _class_DisplayServer_constant_ROLE_TABLE:
 
@@ -1037,7 +1037,7 @@ Color picker element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_TABLE** = ``21``
 
-Table element.
+Elemento tabella.
 
 .. _class_DisplayServer_constant_ROLE_CELL:
 
@@ -1045,7 +1045,7 @@ Table element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_CELL** = ``22``
 
-Table/tree cell element.
+Elemento cella di albero/tabella.
 
 .. _class_DisplayServer_constant_ROLE_ROW:
 
@@ -1053,7 +1053,7 @@ Table/tree cell element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_ROW** = ``23``
 
-Table/tree row element.
+Elemento riga di albero/tabella.
 
 .. _class_DisplayServer_constant_ROLE_ROW_GROUP:
 
@@ -1061,7 +1061,7 @@ Table/tree row element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_ROW_GROUP** = ``24``
 
-Table/tree row group element.
+Elemento gruppo di righe di albero/tabella.
 
 .. _class_DisplayServer_constant_ROLE_ROW_HEADER:
 
@@ -1069,7 +1069,7 @@ Table/tree row group element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_ROW_HEADER** = ``25``
 
-Table/tree row header element.
+Elemento intestazione di riga di tabella/albero.
 
 .. _class_DisplayServer_constant_ROLE_COLUMN_HEADER:
 
@@ -1077,7 +1077,7 @@ Table/tree row header element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_COLUMN_HEADER** = ``26``
 
-Table/tree column header element.
+Elemento intestazione di colonna di tabella/albero.
 
 .. _class_DisplayServer_constant_ROLE_TREE:
 
@@ -1085,7 +1085,7 @@ Table/tree column header element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_TREE** = ``27``
 
-Tree view element.
+Elemento vista di albero.
 
 .. _class_DisplayServer_constant_ROLE_TREE_ITEM:
 
@@ -1093,7 +1093,7 @@ Tree view element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_TREE_ITEM** = ``28``
 
-Tree view item element.
+Elemento elemento di vista di albero.
 
 .. _class_DisplayServer_constant_ROLE_LIST:
 
@@ -1101,7 +1101,7 @@ Tree view item element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_LIST** = ``29``
 
-List element.
+Elemento lista.
 
 .. _class_DisplayServer_constant_ROLE_LIST_ITEM:
 
@@ -1109,7 +1109,7 @@ List element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_LIST_ITEM** = ``30``
 
-List item element.
+Elemento elemento di lista.
 
 .. _class_DisplayServer_constant_ROLE_LIST_BOX:
 
@@ -1117,7 +1117,7 @@ List item element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_LIST_BOX** = ``31``
 
-List view element.
+Elemento vista di lista.
 
 .. _class_DisplayServer_constant_ROLE_LIST_BOX_OPTION:
 
@@ -1125,7 +1125,7 @@ List view element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_LIST_BOX_OPTION** = ``32``
 
-List view item element.
+Elemento elemento di vista di lista.
 
 .. _class_DisplayServer_constant_ROLE_TAB_BAR:
 
@@ -1133,7 +1133,7 @@ List view item element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_TAB_BAR** = ``33``
 
-Tab bar element.
+Elemento barra di schede.
 
 .. _class_DisplayServer_constant_ROLE_TAB:
 
@@ -1141,7 +1141,7 @@ Tab bar element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_TAB** = ``34``
 
-Tab bar item element.
+Elemento elemento di barra di schede.
 
 .. _class_DisplayServer_constant_ROLE_TAB_PANEL:
 
@@ -1149,7 +1149,7 @@ Tab bar item element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_TAB_PANEL** = ``35``
 
-Tab panel element.
+Elemento pannello di scheda.
 
 .. _class_DisplayServer_constant_ROLE_MENU_BAR:
 
@@ -1157,7 +1157,7 @@ Tab panel element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_MENU_BAR** = ``36``
 
-Menu bar element.
+Elemento barra di menu.
 
 .. _class_DisplayServer_constant_ROLE_MENU:
 
@@ -1165,7 +1165,7 @@ Menu bar element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_MENU** = ``37``
 
-Popup menu element.
+Elemento menu popup.
 
 .. _class_DisplayServer_constant_ROLE_MENU_ITEM:
 
@@ -1173,7 +1173,7 @@ Popup menu element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_MENU_ITEM** = ``38``
 
-Popup menu item element.
+Elemento voce di menu popup.
 
 .. _class_DisplayServer_constant_ROLE_MENU_ITEM_CHECK_BOX:
 
@@ -1181,7 +1181,7 @@ Popup menu item element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_MENU_ITEM_CHECK_BOX** = ``39``
 
-Popup menu check button item element.
+Elemento elemento di pulsante di spunta di menu popup.
 
 .. _class_DisplayServer_constant_ROLE_MENU_ITEM_RADIO:
 
@@ -1189,7 +1189,7 @@ Popup menu check button item element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_MENU_ITEM_RADIO** = ``40``
 
-Popup menu radio button item element.
+Elemento elemento di pulsante di opzione (radio) di menu popup.
 
 .. _class_DisplayServer_constant_ROLE_IMAGE:
 
@@ -1197,7 +1197,7 @@ Popup menu radio button item element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_IMAGE** = ``41``
 
-Image element.
+Elemento immagine.
 
 .. _class_DisplayServer_constant_ROLE_WINDOW:
 
@@ -1205,7 +1205,7 @@ Image element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_WINDOW** = ``42``
 
-Window element.
+Elemento finestra.
 
 .. _class_DisplayServer_constant_ROLE_TITLE_BAR:
 
@@ -1213,7 +1213,7 @@ Window element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_TITLE_BAR** = ``43``
 
-Embedded window title bar element.
+Elemento barra del titolo incorporata nella finestra.
 
 .. _class_DisplayServer_constant_ROLE_DIALOG:
 
@@ -1221,7 +1221,7 @@ Embedded window title bar element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_DIALOG** = ``44``
 
-Dialog window element.
+Elemento finestra di dialogo.
 
 .. _class_DisplayServer_constant_ROLE_TOOLTIP:
 
@@ -1229,7 +1229,7 @@ Dialog window element.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_TOOLTIP** = ``45``
 
-Tooltip element.
+Elemento suggerimento.
 
 .. rst-class:: classref-item-separator
 
@@ -1247,7 +1247,7 @@ enum **AccessibilityPopupType**: :ref:`🔗<enum_DisplayServer_AccessibilityPopu
 
 :ref:`AccessibilityPopupType<enum_DisplayServer_AccessibilityPopupType>` **POPUP_MENU** = ``0``
 
-Popup menu.
+Elemento popup.
 
 .. _class_DisplayServer_constant_POPUP_LIST:
 
@@ -1255,7 +1255,7 @@ Popup menu.
 
 :ref:`AccessibilityPopupType<enum_DisplayServer_AccessibilityPopupType>` **POPUP_LIST** = ``1``
 
-Popup list.
+Lista popup.
 
 .. _class_DisplayServer_constant_POPUP_TREE:
 
@@ -1263,7 +1263,7 @@ Popup list.
 
 :ref:`AccessibilityPopupType<enum_DisplayServer_AccessibilityPopupType>` **POPUP_TREE** = ``2``
 
-Popup tree view.
+Vista di albero popup.
 
 .. _class_DisplayServer_constant_POPUP_DIALOG:
 
@@ -1271,7 +1271,7 @@ Popup tree view.
 
 :ref:`AccessibilityPopupType<enum_DisplayServer_AccessibilityPopupType>` **POPUP_DIALOG** = ``3``
 
-Popup dialog.
+Finestra di dialogo popup.
 
 .. rst-class:: classref-item-separator
 
@@ -1289,7 +1289,7 @@ enum **AccessibilityFlags**: :ref:`🔗<enum_DisplayServer_AccessibilityFlags>`
 
 :ref:`AccessibilityFlags<enum_DisplayServer_AccessibilityFlags>` **FLAG_HIDDEN** = ``0``
 
-Element is hidden for accessibility tools.
+L'elemento è nascosto per gli strumenti di accessibilità.
 
 .. _class_DisplayServer_constant_FLAG_MULTISELECTABLE:
 
@@ -1297,7 +1297,7 @@ Element is hidden for accessibility tools.
 
 :ref:`AccessibilityFlags<enum_DisplayServer_AccessibilityFlags>` **FLAG_MULTISELECTABLE** = ``1``
 
-Element is support multiple item selection.
+L'elemento supporta la selezione di più elementi.
 
 .. _class_DisplayServer_constant_FLAG_REQUIRED:
 
@@ -1305,7 +1305,7 @@ Element is support multiple item selection.
 
 :ref:`AccessibilityFlags<enum_DisplayServer_AccessibilityFlags>` **FLAG_REQUIRED** = ``2``
 
-Element require user input.
+L'elemento richiede l'input dell'utente.
 
 .. _class_DisplayServer_constant_FLAG_VISITED:
 
@@ -1313,7 +1313,7 @@ Element require user input.
 
 :ref:`AccessibilityFlags<enum_DisplayServer_AccessibilityFlags>` **FLAG_VISITED** = ``3``
 
-Element is a visited link.
+L'elemento è un link visitato.
 
 .. _class_DisplayServer_constant_FLAG_BUSY:
 
@@ -1321,7 +1321,7 @@ Element is a visited link.
 
 :ref:`AccessibilityFlags<enum_DisplayServer_AccessibilityFlags>` **FLAG_BUSY** = ``4``
 
-Element content is not ready (e.g. loading).
+Il contenuto dell'elemento non è pronto (ad esempio, in caricamento).
 
 .. _class_DisplayServer_constant_FLAG_MODAL:
 
@@ -1329,7 +1329,7 @@ Element content is not ready (e.g. loading).
 
 :ref:`AccessibilityFlags<enum_DisplayServer_AccessibilityFlags>` **FLAG_MODAL** = ``5``
 
-Element is modal window.
+L'elemento è una finestra modale.
 
 .. _class_DisplayServer_constant_FLAG_TOUCH_PASSTHROUGH:
 
@@ -1337,7 +1337,7 @@ Element is modal window.
 
 :ref:`AccessibilityFlags<enum_DisplayServer_AccessibilityFlags>` **FLAG_TOUCH_PASSTHROUGH** = ``6``
 
-Element allows touches to be passed through when a screen reader is in touch exploration mode.
+L'elemento permette di trasmettere i tocchi quando un lettore dello schermo è in modalità di esplorazione tattile.
 
 .. _class_DisplayServer_constant_FLAG_READONLY:
 
@@ -1345,7 +1345,7 @@ Element allows touches to be passed through when a screen reader is in touch exp
 
 :ref:`AccessibilityFlags<enum_DisplayServer_AccessibilityFlags>` **FLAG_READONLY** = ``7``
 
-Element is text field with selectable but read-only text.
+L'elemento è un campo di testo, con testo selezionabile ma di sola lettura.
 
 .. _class_DisplayServer_constant_FLAG_DISABLED:
 
@@ -1353,7 +1353,7 @@ Element is text field with selectable but read-only text.
 
 :ref:`AccessibilityFlags<enum_DisplayServer_AccessibilityFlags>` **FLAG_DISABLED** = ``8``
 
-Element is disabled.
+L'elemento è disabilitato.
 
 .. _class_DisplayServer_constant_FLAG_CLIPS_CHILDREN:
 
@@ -1361,7 +1361,7 @@ Element is disabled.
 
 :ref:`AccessibilityFlags<enum_DisplayServer_AccessibilityFlags>` **FLAG_CLIPS_CHILDREN** = ``9``
 
-Element clips children.
+L'elemento ritaglia i figli.
 
 .. rst-class:: classref-item-separator
 
@@ -1379,7 +1379,7 @@ enum **AccessibilityAction**: :ref:`🔗<enum_DisplayServer_AccessibilityAction>
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_CLICK** = ``0``
 
-Single click action, callback argument is not set.
+Azione di solo clic, l'argomento del callback non è impostato.
 
 .. _class_DisplayServer_constant_ACTION_FOCUS:
 
@@ -1387,7 +1387,7 @@ Single click action, callback argument is not set.
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_FOCUS** = ``1``
 
-Focus action, callback argument is not set.
+Azione di focalizzazione, l'argomento del callback non è impostato.
 
 .. _class_DisplayServer_constant_ACTION_BLUR:
 
@@ -1395,7 +1395,7 @@ Focus action, callback argument is not set.
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_BLUR** = ``2``
 
-Blur action, callback argument is not set.
+Azione di sfocatura, l'argomento del callback non è impostato.
 
 .. _class_DisplayServer_constant_ACTION_COLLAPSE:
 
@@ -1403,7 +1403,7 @@ Blur action, callback argument is not set.
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_COLLAPSE** = ``3``
 
-Collapse action, callback argument is not set.
+Azione di compressione, l'argomento del callback non è impostato.
 
 .. _class_DisplayServer_constant_ACTION_EXPAND:
 
@@ -1411,7 +1411,7 @@ Collapse action, callback argument is not set.
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_EXPAND** = ``4``
 
-Expand action, callback argument is not set.
+Azione di espansione, l'argomento del callback non è impostato.
 
 .. _class_DisplayServer_constant_ACTION_DECREMENT:
 
@@ -1419,7 +1419,7 @@ Expand action, callback argument is not set.
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_DECREMENT** = ``5``
 
-Decrement action, callback argument is not set.
+Azione di decremento, l'argomento del callback non è impostato.
 
 .. _class_DisplayServer_constant_ACTION_INCREMENT:
 
@@ -1427,7 +1427,7 @@ Decrement action, callback argument is not set.
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_INCREMENT** = ``6``
 
-Increment action, callback argument is not set.
+Azione di incremento, l'argomento del callback non è impostato.
 
 .. _class_DisplayServer_constant_ACTION_HIDE_TOOLTIP:
 
@@ -1435,7 +1435,7 @@ Increment action, callback argument is not set.
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_HIDE_TOOLTIP** = ``7``
 
-Hide tooltip action, callback argument is not set.
+Azione per nascondere un suggerimento, l'argomento del callback non è impostato.
 
 .. _class_DisplayServer_constant_ACTION_SHOW_TOOLTIP:
 
@@ -1443,7 +1443,7 @@ Hide tooltip action, callback argument is not set.
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_SHOW_TOOLTIP** = ``8``
 
-Show tooltip action, callback argument is not set.
+Azione per mostrare un suggerimento, l'argomento del callback non è impostato.
 
 .. _class_DisplayServer_constant_ACTION_SET_TEXT_SELECTION:
 
@@ -1451,15 +1451,15 @@ Show tooltip action, callback argument is not set.
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_SET_TEXT_SELECTION** = ``9``
 
-Set text selection action, callback argument is set to :ref:`Dictionary<class_Dictionary>` with the following keys:
+Azione di selezione testo, l'argomento del callback è impostato su un :ref:`Dictionary<class_Dictionary>` con le seguenti chiavi:
 
-- ``"start_element"`` accessibility element of the selection start.
+- ``"start_element"`` elemento di accessibilità dell'inizio della selezione.
 
-- ``"start_char"`` character offset relative to the accessibility element of the selection start.
+- ``"start_char"`` offset di carattere relativo all'elemento di accessibilità dell'inizio della selezione.
 
-- ``"end_element"`` accessibility element of the selection end.
+- ``"end_element"`` elemento di accessibilità della fine della selezione.
 
-- ``"end_char"`` character offset relative to the accessibility element of the selection end.
+- ``"end_char"`` offset di carattere relativo all'elemento di accessibilità della fine della selezione.
 
 .. _class_DisplayServer_constant_ACTION_REPLACE_SELECTED_TEXT:
 
@@ -1467,7 +1467,7 @@ Set text selection action, callback argument is set to :ref:`Dictionary<class_Di
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_REPLACE_SELECTED_TEXT** = ``10``
 
-Replace text action, callback argument is set to :ref:`String<class_String>` with the replacement text.
+Azione di sostituzione testo, l'argomento del callback è impostato su una :ref:`String<class_String>` con il testo sostitutivo.
 
 .. _class_DisplayServer_constant_ACTION_SCROLL_BACKWARD:
 
@@ -1475,7 +1475,7 @@ Replace text action, callback argument is set to :ref:`String<class_String>` wit
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_SCROLL_BACKWARD** = ``11``
 
-Scroll backward action, callback argument is not set.
+Azione di scorrimento indietro, l'argomento del callback non è impostato.
 
 .. _class_DisplayServer_constant_ACTION_SCROLL_DOWN:
 
@@ -1483,7 +1483,7 @@ Scroll backward action, callback argument is not set.
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_SCROLL_DOWN** = ``12``
 
-Scroll down action, callback argument is set to :ref:`AccessibilityScrollUnit<enum_DisplayServer_AccessibilityScrollUnit>`.
+Azione di scorrimento in basso, l'argomento del callback è impostato su :ref:`AccessibilityScrollUnit<enum_DisplayServer_AccessibilityScrollUnit>`.
 
 .. _class_DisplayServer_constant_ACTION_SCROLL_FORWARD:
 
@@ -1491,7 +1491,7 @@ Scroll down action, callback argument is set to :ref:`AccessibilityScrollUnit<en
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_SCROLL_FORWARD** = ``13``
 
-Scroll forward action, callback argument is not set.
+Azione di scorrimento in avanti, l'argomento del callback non è impostato.
 
 .. _class_DisplayServer_constant_ACTION_SCROLL_LEFT:
 
@@ -1499,7 +1499,7 @@ Scroll forward action, callback argument is not set.
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_SCROLL_LEFT** = ``14``
 
-Scroll left action, callback argument is set to :ref:`AccessibilityScrollUnit<enum_DisplayServer_AccessibilityScrollUnit>`.
+Azione di scorrimento a sinistra, l'argomento del callback è impostato su :ref:`AccessibilityScrollUnit<enum_DisplayServer_AccessibilityScrollUnit>`.
 
 .. _class_DisplayServer_constant_ACTION_SCROLL_RIGHT:
 
@@ -1507,7 +1507,7 @@ Scroll left action, callback argument is set to :ref:`AccessibilityScrollUnit<en
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_SCROLL_RIGHT** = ``15``
 
-Scroll right action, callback argument is set to :ref:`AccessibilityScrollUnit<enum_DisplayServer_AccessibilityScrollUnit>`.
+Azione di scorrimento a destra, l'argomento del callback è impostato su :ref:`AccessibilityScrollUnit<enum_DisplayServer_AccessibilityScrollUnit>`.
 
 .. _class_DisplayServer_constant_ACTION_SCROLL_UP:
 
@@ -1515,7 +1515,7 @@ Scroll right action, callback argument is set to :ref:`AccessibilityScrollUnit<e
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_SCROLL_UP** = ``16``
 
-Scroll up action, callback argument is set to :ref:`AccessibilityScrollUnit<enum_DisplayServer_AccessibilityScrollUnit>`.
+Azione di scorrimento in alto, l'argomento del callback è impostato su :ref:`AccessibilityScrollUnit<enum_DisplayServer_AccessibilityScrollUnit>`.
 
 .. _class_DisplayServer_constant_ACTION_SCROLL_INTO_VIEW:
 
@@ -1523,7 +1523,7 @@ Scroll up action, callback argument is set to :ref:`AccessibilityScrollUnit<enum
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_SCROLL_INTO_VIEW** = ``17``
 
-Scroll into view action, callback argument is set to :ref:`AccessibilityScrollHint<enum_DisplayServer_AccessibilityScrollHint>`.
+Azione di scorrimento in vista, l'argomento del callback è impostato su :ref:`AccessibilityScrollHint<enum_DisplayServer_AccessibilityScrollHint>`.
 
 .. _class_DisplayServer_constant_ACTION_SCROLL_TO_POINT:
 
@@ -1531,7 +1531,7 @@ Scroll into view action, callback argument is set to :ref:`AccessibilityScrollHi
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_SCROLL_TO_POINT** = ``18``
 
-Scroll to point action, callback argument is set to :ref:`Vector2<class_Vector2>` with the relative point coordinates.
+Azione di scorrimento fino a un punto, l'argomento del callback è impostato su un :ref:`Vector2<class_Vector2>` con le coordinate relative del punto.
 
 .. _class_DisplayServer_constant_ACTION_SET_SCROLL_OFFSET:
 
@@ -1539,7 +1539,7 @@ Scroll to point action, callback argument is set to :ref:`Vector2<class_Vector2>
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_SET_SCROLL_OFFSET** = ``19``
 
-Set scroll offset action, callback argument is set to :ref:`Vector2<class_Vector2>` with the scroll offset.
+Azione di offset dello scorrimento, l'argomento del callback è impostato su un :ref:`Vector2<class_Vector2>` con l'offset.
 
 .. _class_DisplayServer_constant_ACTION_SET_VALUE:
 
@@ -1547,7 +1547,7 @@ Set scroll offset action, callback argument is set to :ref:`Vector2<class_Vector
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_SET_VALUE** = ``20``
 
-Set value action, callback argument is set to :ref:`String<class_String>` or number with the new value.
+Azione di impostazione di un valore, l'argomento del callback è impostato su una :ref:`String<class_String>` o su un numero con il nuovo valore.
 
 .. _class_DisplayServer_constant_ACTION_SHOW_CONTEXT_MENU:
 
@@ -1555,7 +1555,7 @@ Set value action, callback argument is set to :ref:`String<class_String>` or num
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_SHOW_CONTEXT_MENU** = ``21``
 
-Show context menu action, callback argument is not set.
+Azione per mostrare il menu contestuale, l'argomento del callback non è impostato.
 
 .. _class_DisplayServer_constant_ACTION_CUSTOM:
 
@@ -1563,7 +1563,7 @@ Show context menu action, callback argument is not set.
 
 :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>` **ACTION_CUSTOM** = ``22``
 
-Custom action, callback argument is set to the integer action ID.
+Azione personalizzata, l'argomento del callback è impostato sull'ID intero dell'azione.
 
 .. rst-class:: classref-item-separator
 
@@ -1581,7 +1581,7 @@ enum **AccessibilityLiveMode**: :ref:`🔗<enum_DisplayServer_AccessibilityLiveM
 
 :ref:`AccessibilityLiveMode<enum_DisplayServer_AccessibilityLiveMode>` **LIVE_OFF** = ``0``
 
-Indicates that updates to the live region should not be presented.
+Indica che gli aggiornamenti alla regione attiva non devono presentarsi.
 
 .. _class_DisplayServer_constant_LIVE_POLITE:
 
@@ -1589,7 +1589,7 @@ Indicates that updates to the live region should not be presented.
 
 :ref:`AccessibilityLiveMode<enum_DisplayServer_AccessibilityLiveMode>` **LIVE_POLITE** = ``1``
 
-Indicates that updates to the live region should be presented at the next opportunity (for example at the end of speaking the current sentence).
+Indica che gli aggiornamenti alla regione attiva devono presentarsi alla prossima occasione (ad esempio alla fine della frase attuale).
 
 .. _class_DisplayServer_constant_LIVE_ASSERTIVE:
 
@@ -1597,7 +1597,7 @@ Indicates that updates to the live region should be presented at the next opport
 
 :ref:`AccessibilityLiveMode<enum_DisplayServer_AccessibilityLiveMode>` **LIVE_ASSERTIVE** = ``2``
 
-Indicates that updates to the live region have the highest priority and should be presented immediately.
+Indica che gli aggiornamenti alla regione attiva hanno la massima priorità e devono presentarsi immediatamente.
 
 .. rst-class:: classref-item-separator
 
@@ -1615,7 +1615,7 @@ enum **AccessibilityScrollUnit**: :ref:`🔗<enum_DisplayServer_AccessibilityScr
 
 :ref:`AccessibilityScrollUnit<enum_DisplayServer_AccessibilityScrollUnit>` **SCROLL_UNIT_ITEM** = ``0``
 
-The amount by which to scroll. A single item of a list, line of text.
+La quantità da scorrere. Un singolo elemento di un elenco, una riga di testo.
 
 .. _class_DisplayServer_constant_SCROLL_UNIT_PAGE:
 
@@ -1623,7 +1623,7 @@ The amount by which to scroll. A single item of a list, line of text.
 
 :ref:`AccessibilityScrollUnit<enum_DisplayServer_AccessibilityScrollUnit>` **SCROLL_UNIT_PAGE** = ``1``
 
-The amount by which to scroll. A single page.
+La quantità da scorrere. Una singola pagina.
 
 .. rst-class:: classref-item-separator
 
@@ -1641,7 +1641,7 @@ enum **AccessibilityScrollHint**: :ref:`🔗<enum_DisplayServer_AccessibilityScr
 
 :ref:`AccessibilityScrollHint<enum_DisplayServer_AccessibilityScrollHint>` **SCROLL_HINT_TOP_LEFT** = ``0``
 
-A preferred position for the node scrolled into view. Top-left edge of the scroll container.
+Una posizione preferita per il nodo visualizzato tramite scorrimento. Il bordo superiore sinistro del contenitore di scorrimento.
 
 .. _class_DisplayServer_constant_SCROLL_HINT_BOTTOM_RIGHT:
 
@@ -1649,7 +1649,7 @@ A preferred position for the node scrolled into view. Top-left edge of the scrol
 
 :ref:`AccessibilityScrollHint<enum_DisplayServer_AccessibilityScrollHint>` **SCROLL_HINT_BOTTOM_RIGHT** = ``1``
 
-A preferred position for the node scrolled into view. Bottom-right edge of the scroll container.
+Una posizione preferita per il nodo visualizzato tramite scorrimento. Il bordo inferiore destro del contenitore di scorrimento.
 
 .. _class_DisplayServer_constant_SCROLL_HINT_TOP_EDGE:
 
@@ -1657,7 +1657,7 @@ A preferred position for the node scrolled into view. Bottom-right edge of the s
 
 :ref:`AccessibilityScrollHint<enum_DisplayServer_AccessibilityScrollHint>` **SCROLL_HINT_TOP_EDGE** = ``2``
 
-A preferred position for the node scrolled into view. Top edge of the scroll container.
+Una posizione preferita per il nodo visualizzato tramite scorrimento. Il bordo superiore del contenitore di scorrimento.
 
 .. _class_DisplayServer_constant_SCROLL_HINT_BOTTOM_EDGE:
 
@@ -1665,7 +1665,7 @@ A preferred position for the node scrolled into view. Top edge of the scroll con
 
 :ref:`AccessibilityScrollHint<enum_DisplayServer_AccessibilityScrollHint>` **SCROLL_HINT_BOTTOM_EDGE** = ``3``
 
-A preferred position for the node scrolled into view. Bottom edge of the scroll container.
+Una posizione preferita per il nodo visualizzato tramite scorrimento. Il bordo inferiore del contenitore di scorrimento.
 
 .. _class_DisplayServer_constant_SCROLL_HINT_LEFT_EDGE:
 
@@ -1673,7 +1673,7 @@ A preferred position for the node scrolled into view. Bottom edge of the scroll 
 
 :ref:`AccessibilityScrollHint<enum_DisplayServer_AccessibilityScrollHint>` **SCROLL_HINT_LEFT_EDGE** = ``4``
 
-A preferred position for the node scrolled into view. Left edge of the scroll container.
+Una posizione preferita per il nodo visualizzato tramite scorrimento. Il bordo sinistro del contenitore di scorrimento.
 
 .. _class_DisplayServer_constant_SCROLL_HINT_RIGHT_EDGE:
 
@@ -1681,7 +1681,7 @@ A preferred position for the node scrolled into view. Left edge of the scroll co
 
 :ref:`AccessibilityScrollHint<enum_DisplayServer_AccessibilityScrollHint>` **SCROLL_HINT_RIGHT_EDGE** = ``5``
 
-A preferred position for the node scrolled into view. Right edge of the scroll container.
+Una posizione preferita per il nodo visualizzato tramite scorrimento. Il bordo destro del contenitore di scorrimento.
 
 .. rst-class:: classref-item-separator
 
@@ -2129,15 +2129,15 @@ Modalità finestra massimizzata, ovvero la :ref:`Window<class_Window>` occuperà
 
 :ref:`WindowMode<enum_DisplayServer_WindowMode>` **WINDOW_MODE_FULLSCREEN** = ``3``
 
-Full screen mode with full multi-window support.
+Modalità a schermo intero con supporto multi-finestra completo.
 
-Full screen window covers the entire display area of a screen and has no decorations. The display's video mode is not changed.
+La finestra a schermo intero copre l'intera area di visualizzazione di uno schermo e non ha decorazioni. La modalità video del display non cambia.
 
-\ **On Android:** This enables immersive mode.
+\ **Su Android:** Questo abilita la modalità immersiva.
 
-\ **On macOS:** A new desktop is used to display the running project.
+\ **Su macOS:** È utilizzato un nuovo desktop per visualizzare il progetto in esecuzione.
 
-\ **Note:** Regardless of the platform, enabling full screen will change the window size to match the monitor's size. Therefore, make sure your project supports :doc:`multiple resolutions <../tutorials/rendering/multiple_resolutions>` when enabling full screen mode.
+\ **Nota:** A prescindere dalla piattaforma, abilitando lo schermo intero si modificheranno le dimensioni della finestra in modo che corrispondano alle dimensioni del monitor. Pertanto, assicurati che il tuo progetto supporti :doc:`diverse risoluzioni <../tutorials/rendering/multiple_resolutions>` quando abiliti la modalità a schermo intero.
 
 .. _class_DisplayServer_constant_WINDOW_MODE_EXCLUSIVE_FULLSCREEN:
 
@@ -2145,23 +2145,23 @@ Full screen window covers the entire display area of a screen and has no decorat
 
 :ref:`WindowMode<enum_DisplayServer_WindowMode>` **WINDOW_MODE_EXCLUSIVE_FULLSCREEN** = ``4``
 
-A single window full screen mode. This mode has less overhead, but only one window can be open on a given screen at a time (opening a child window or application switching will trigger a full screen transition).
+Modalità a schermo intero con una sola finestra. Questa modalità è più efficiente, ma può essere aperta solo una finestra alla volta su un determinato schermo (l'apertura di una finestra secondaria o il cambio dell'applicazione attiverà una transizione dallo schermo intero).
 
-Full screen window covers the entire display area of a screen and has no border or decorations. The display's video mode is not changed.
+La finestra a schermo intero copre l'intera area di visualizzazione di uno schermo e non ha bordi o decorazioni. La modalità video del display non cambia.
 
-\ **Note:** This mode might not work with screen recording software.
+\ **Nota:** Questa modalità potrebbe non funzionare con i software di registrazione dello schermo.
 
-\ **On Android:** This enables immersive mode.
+\ **Su Android:** Questo abilita la modalità immersiva.
 
-\ **On Windows:** Depending on video driver, full screen transition might cause screens to go black for a moment.
+\ **Su Windows:** A seconda del driver video, la transizione allo schermo intero potrebbe causare lo spegnimento momentaneo dello schermo.
 
-\ **On macOS:** A new desktop is used to display the running project. Exclusive full screen mode prevents Dock and Menu from showing up when the mouse pointer is hovering the edge of the screen.
+\ **Su macOS:** È utilizzato un nuovo desktop per visualizzare il progetto in esecuzione. La modalità a schermo intero esclusiva impedisce che Dock e Menu vengano visualizzati quando il puntatore del mouse passa sul bordo dello schermo.
 
-\ **On Linux (X11):** Exclusive full screen mode bypasses compositor.
+\ **Su Linux (X11):** La modalità a schermo intero esclusiva ignora il compositore.
 
-\ **On Linux (Wayland):** Equivalent to :ref:`WINDOW_MODE_FULLSCREEN<class_DisplayServer_constant_WINDOW_MODE_FULLSCREEN>`.
+\ **Su Linux (Wayland):** Equivalente a :ref:`WINDOW_MODE_FULLSCREEN<class_DisplayServer_constant_WINDOW_MODE_FULLSCREEN>`.
 
-\ **Note:** Regardless of the platform, enabling full screen will change the window size to match the monitor's size. Therefore, make sure your project supports :doc:`multiple resolutions <../tutorials/rendering/multiple_resolutions>` when enabling full screen mode.
+\ **Nota:** A prescindere dalla piattaforma, abilitando lo schermo intero si modificheranno le dimensioni della finestra in modo che corrispondano alle dimensioni del monitor. Pertanto, assicurati che il tuo progetto supporti :doc:`diverse risoluzioni <../tutorials/rendering/multiple_resolutions>` quando abiliti la modalità a schermo intero.
 
 .. rst-class:: classref-item-separator
 
@@ -2203,13 +2203,13 @@ La finestra è fluttuante sopra tutte le altre finestre. Questo flag è ignorato
 
 :ref:`WindowFlags<enum_DisplayServer_WindowFlags>` **WINDOW_FLAG_TRANSPARENT** = ``3``
 
-The window background can be transparent.
+Lo sfondo della finestra può essere trasparente.
 
-\ **Note:** This flag has no effect if :ref:`is_window_transparency_available()<class_DisplayServer_method_is_window_transparency_available>` returns ``false``.
+\ **Nota:** Questo flag non ha effetto se :ref:`is_window_transparency_available()<class_DisplayServer_method_is_window_transparency_available>` restituisce ``false``.
 
-\ **Note:** Transparency support is implemented on Linux (X11/Wayland), macOS, and Windows, but availability might vary depending on GPU driver, display manager, and compositor capabilities.
+\ **Nota:** Il supporto per la trasparenza è implementato su Linux (X11/Wayland), macOS e Windows, ma la disponibilità potrebbe variare a seconda del driver GPU, del gestore di visualizzazione e delle capacità del compositore.
 
-\ **Note:** Transparency support is implemented on Android, but can only be enabled via :ref:`ProjectSettings.display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>`. This flag has no effect on Android.
+\ **Nota:** Il supporto per la trasparenza è implementato su Android, ma può essere abilitato solo tramite :ref:`ProjectSettings.display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>`. Questo flag non ha effetto su Android.
 
 .. _class_DisplayServer_constant_WINDOW_FLAG_NO_FOCUS:
 
@@ -2265,11 +2265,11 @@ Lo stile della finestra è sostituito, forzando angoli acuti.
 
 :ref:`WindowFlags<enum_DisplayServer_WindowFlags>` **WINDOW_FLAG_EXCLUDE_FROM_CAPTURE** = ``9``
 
-Window is excluded from screenshots taken by :ref:`screen_get_image()<class_DisplayServer_method_screen_get_image>`, :ref:`screen_get_image_rect()<class_DisplayServer_method_screen_get_image_rect>`, and :ref:`screen_get_pixel()<class_DisplayServer_method_screen_get_pixel>`.
+La finestra è esclusa dagli screenshot acquisiti da :ref:`screen_get_image()<class_DisplayServer_method_screen_get_image>`, :ref:`screen_get_image_rect()<class_DisplayServer_method_screen_get_image_rect>` e :ref:`screen_get_pixel()<class_DisplayServer_method_screen_get_pixel>`.
 
-\ **Note:** This flag is implemented on macOS and Windows (10, 20H1).
+\ **Nota:** Questo flag è implementato su macOS e Windows (10, 20H1).
 
-\ **Note:** Setting this flag will prevent standard screenshot methods from capturing a window image, but does **NOT** guarantee that other apps won't be able to capture an image. It should not be used as a DRM or security measure.
+\ **Nota:** L'impostazione di questo flag impedirà ai metodi standard di catturare un'immagine della finestra, ma **NON** garantisce che altre app non siano in grado di catturare un'immagine. Non si dovrebbe utilizzare come DRM o misura di sicurezza.
 
 .. _class_DisplayServer_constant_WINDOW_FLAG_POPUP_WM_HINT:
 
@@ -2277,7 +2277,7 @@ Window is excluded from screenshots taken by :ref:`screen_get_image()<class_Disp
 
 :ref:`WindowFlags<enum_DisplayServer_WindowFlags>` **WINDOW_FLAG_POPUP_WM_HINT** = ``10``
 
-Signals the window manager that this window is supposed to be an implementation-defined "popup" (usually a floating, borderless, untileable and immovable child window).
+Segnala al gestore delle finestre che questa finestra dovrebbe essere un "popup" definito dall'implementazione (solitamente una finestra figlia mobile, senza bordi, non ordinabile e non modificabile).
 
 .. _class_DisplayServer_constant_WINDOW_FLAG_MINIMIZE_DISABLED:
 
@@ -2285,9 +2285,9 @@ Signals the window manager that this window is supposed to be an implementation-
 
 :ref:`WindowFlags<enum_DisplayServer_WindowFlags>` **WINDOW_FLAG_MINIMIZE_DISABLED** = ``11``
 
-Window minimize button is disabled.
+Il pulsante di minimizzazione della finestra è disabilitato.
 
-\ **Note:** This flag is implemented on macOS and Windows.
+\ **Nota:** Questo metodo è implementato su macOS e Windows.
 
 .. _class_DisplayServer_constant_WINDOW_FLAG_MAXIMIZE_DISABLED:
 
@@ -2295,9 +2295,9 @@ Window minimize button is disabled.
 
 :ref:`WindowFlags<enum_DisplayServer_WindowFlags>` **WINDOW_FLAG_MAXIMIZE_DISABLED** = ``12``
 
-Window maximize button is disabled.
+Il pulsante di massimizzazione della finestra è disabilitato.
 
-\ **Note:** This flag is implemented on macOS and Windows.
+\ **Nota:** Questo metodo è implementato su macOS e Windows.
 
 .. _class_DisplayServer_constant_WINDOW_FLAG_MAX:
 
@@ -2305,7 +2305,7 @@ Window maximize button is disabled.
 
 :ref:`WindowFlags<enum_DisplayServer_WindowFlags>` **WINDOW_FLAG_MAX** = ``13``
 
-Valore massimo di :ref:`WindowFlags<enum_DisplayServer_WindowFlags>`.
+Valore massimo per l'enumerazione :ref:`WindowFlags<enum_DisplayServer_WindowFlags>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2373,9 +2373,9 @@ Inviato quando il pulsante "Indietro" del dispositivo viene premuto.
 
 :ref:`WindowEvent<enum_DisplayServer_WindowEvent>` **WINDOW_EVENT_DPI_CHANGE** = ``6``
 
-Sent when the window is moved to the display with different DPI, or display DPI is changed.
+Inviato quando la finestra viene spostata su un display con un DPI diverso, o il DPI del display viene cambiato.
 
-\ **Note:** This flag is implemented only on macOS and Linux (Wayland).
+\ **Nota:** Questo flag è implementata solo su macOS e Linux (Wayland).
 
 .. _class_DisplayServer_constant_WINDOW_EVENT_TITLEBAR_CHANGE:
 
@@ -2393,9 +2393,9 @@ Inviato quando la decorazione della barra del titolo della finestra viene modifi
 
 :ref:`WindowEvent<enum_DisplayServer_WindowEvent>` **WINDOW_EVENT_FORCE_CLOSE** = ``8``
 
-Sent when the window has been forcibly closed by the Display Server. The window shall immediately hide and clean any internal rendering references.
+Inviato quando la finestra è stata chiusa forzatamente dal server di visualizzazione. La finestra deve nascondere e pulire immediatamente tutti i riferimenti interni di rendering.
 
-\ **Note:** This flag is implemented only on Linux (Wayland).
+\ **Nota:** Questo flag è implementato solo su Linux (Wayland).
 
 .. rst-class:: classref-item-separator
 
@@ -2680,7 +2680,7 @@ Costanti
 
 **INVALID_SCREEN** = ``-1`` :ref:`🔗<class_DisplayServer_constant_INVALID_SCREEN>`
 
-The ID that refers to a screen that does not exist. This is returned by some **DisplayServer** methods if no screen matches the requested result.
+L'ID che fa riferimento a uno schermo inesistente. Questo è restituito da alcuni metodi del **DisplayServer** se nessuno schermo corrisponde al risultato richiesto.
 
 .. _class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS:
 
@@ -2761,9 +2761,9 @@ Descrizioni dei metodi
 
 :ref:`RID<class_RID>` **accessibility_create_element**\ (\ window_id\: :ref:`int<class_int>`, role\: :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_create_element>`
 
-Creates a new, empty accessibility element resource.
+Crea una nuova risorsa vuota per gli elementi di accessibilità.
 
-\ **Note:** An accessibility element is created and freed automatically for each :ref:`Node<class_Node>`. In general, this function should not be called manually.
+\ **Nota:** Un elemento di accessibilità viene creato e liberato automaticamente per ogni :ref:`Node<class_Node>`. In generale, questa funzione non si dovrebbe chiamare manualmente.
 
 .. rst-class:: classref-item-separator
 
@@ -2775,7 +2775,7 @@ Creates a new, empty accessibility element resource.
 
 :ref:`RID<class_RID>` **accessibility_create_sub_element**\ (\ parent_rid\: :ref:`RID<class_RID>`, role\: :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>`, insert_pos\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_DisplayServer_method_accessibility_create_sub_element>`
 
-Creates a new, empty accessibility sub-element resource. Sub-elements can be used to provide accessibility information for objects which are not :ref:`Node<class_Node>`\ s, such as list items, table cells, or menu items. Sub-elements are freed automatically when the parent element is freed, or can be freed early using the :ref:`accessibility_free_element()<class_DisplayServer_method_accessibility_free_element>` method.
+Crea una nuova risorsa vuota per i sotto-elementi di accessibilità. I sotto-elementi si possono utilizzare per fornire informazioni di accessibilità per oggetti che non sono :ref:`Node<class_Node>`, come voci di un elenco, celle di una tabella o voci di un menu. I sotto-elementi vengono liberati automaticamente quando l'elemento padre viene liberato, oppure si possono liberare in anticipo attraverso il metodo :ref:`accessibility_free_element()<class_DisplayServer_method_accessibility_free_element>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2787,7 +2787,7 @@ Creates a new, empty accessibility sub-element resource. Sub-elements can be use
 
 :ref:`RID<class_RID>` **accessibility_create_sub_text_edit_elements**\ (\ parent_rid\: :ref:`RID<class_RID>`, shaped_text\: :ref:`RID<class_RID>`, min_height\: :ref:`float<class_float>`, insert_pos\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_DisplayServer_method_accessibility_create_sub_text_edit_elements>`
 
-Creates a new, empty accessibility sub-element from the shaped text buffer. Sub-elements are freed automatically when the parent element is freed, or can be freed early using the :ref:`accessibility_free_element()<class_DisplayServer_method_accessibility_free_element>` method.
+Crea un nuovo sotto-elemento di accessibilità vuoto dal buffer di testo sagomato. I sotto-elementi sono liberati automaticamente quando l'elemento padre è liberato, oppure si possono liberare in anticipo attraverso il metodo :ref:`accessibility_free_element()<class_DisplayServer_method_accessibility_free_element>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2823,7 +2823,7 @@ Imposta i metadati dell'elemento di accessibilità.
 
 |void| **accessibility_free_element**\ (\ id\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_free_element>`
 
-Frees an object created by :ref:`accessibility_create_element()<class_DisplayServer_method_accessibility_create_element>`, :ref:`accessibility_create_sub_element()<class_DisplayServer_method_accessibility_create_sub_element>`, or :ref:`accessibility_create_sub_text_edit_elements()<class_DisplayServer_method_accessibility_create_sub_text_edit_elements>`.
+Libera un oggetto creato da :ref:`accessibility_create_element()<class_DisplayServer_method_accessibility_create_element>`, :ref:`accessibility_create_sub_element()<class_DisplayServer_method_accessibility_create_sub_element>` o :ref:`accessibility_create_sub_text_edit_elements()<class_DisplayServer_method_accessibility_create_sub_text_edit_elements>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2847,7 +2847,7 @@ Restituisce l'elemento principale di accessibilità della finestra nativa del si
 
 :ref:`bool<class_bool>` **accessibility_has_element**\ (\ id\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_DisplayServer_method_accessibility_has_element>`
 
-Returns ``true`` if ``id`` is a valid accessibility element.
+Restituisce ``true`` se ``id`` è un elemento di accessibilità valido.
 
 .. rst-class:: classref-item-separator
 
@@ -2859,11 +2859,11 @@ Returns ``true`` if ``id`` is a valid accessibility element.
 
 :ref:`int<class_int>` **accessibility_screen_reader_active**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_accessibility_screen_reader_active>`
 
-Returns ``1`` if a screen reader, Braille display or other assistive app is active, ``0`` otherwise. Returns ``-1`` if status is unknown.
+Restituisce ``1`` se è attivo un lettore dello schermo, un display Braille o un'altra applicazione assistiva, ``0`` in caso contrario. Restituisce ``-1`` se lo stato è sconosciuto.
 
-\ **Note:** This method is implemented on Linux, macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Linux, macOS e Windows.
 
-\ **Note:** Accessibility debugging tools, such as Accessibility Insights for Windows, macOS Accessibility Inspector, or AT-SPI Browser do not count as assistive apps and will not affect this value. To test your app with these tools, set :ref:`ProjectSettings.accessibility/general/accessibility_support<class_ProjectSettings_property_accessibility/general/accessibility_support>` to ``1``.
+\ **Nota:** Gli strumenti di debug per l'accessibilità, come Accessibility Insights per Windows, Accessibility Inspector (macOS) o AT-SPI Browser (Linux/BSD), non contano come applicazioni assistive e non influiscono su questo valore. Per testare la tua applicazione con questi strumenti, imposta :ref:`ProjectSettings.accessibility/general/accessibility_support<class_ProjectSettings_property_accessibility/general/accessibility_support>` su ``1``.
 
 .. rst-class:: classref-item-separator
 
@@ -2875,11 +2875,11 @@ Returns ``1`` if a screen reader, Braille display or other assistive app is acti
 
 |void| **accessibility_set_window_focused**\ (\ window_id\: :ref:`int<class_int>`, focused\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_set_window_focused>`
 
-Sets the window focused state for assistive apps.
+Imposta lo stato di focalizzazione della finestra per le app assistive.
 
-\ **Note:** This method is implemented on Linux, macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su macOS e Windows.
 
-\ **Note:** Advanced users only! :ref:`Window<class_Window>` objects call this method automatically.
+\ **Nota:** Questo metodo non è supportato dalle voci di menu del Dock di macOS.
 
 .. rst-class:: classref-item-separator
 
@@ -2891,11 +2891,11 @@ Sets the window focused state for assistive apps.
 
 |void| **accessibility_set_window_rect**\ (\ window_id\: :ref:`int<class_int>`, rect_out\: :ref:`Rect2<class_Rect2>`, rect_in\: :ref:`Rect2<class_Rect2>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_set_window_rect>`
 
-Sets window outer (with decorations) and inner (without decorations) bounds for assistive apps.
+Imposta i limiti esterni (con decorazioni) e interni (senza decorazioni) della finestra per le applicazioni assistive.
 
-\ **Note:** This method is implemented on Linux, macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Linux, macOS e Windows.
 
-\ **Note:** Advanced users only! :ref:`Window<class_Window>` objects call this method automatically.
+\ **Nota:** Solo per utenti avanzati! Gli oggetti :ref:`Window<class_Window>` chiamano questo metodo automaticamente.
 
 .. rst-class:: classref-item-separator
 
@@ -2949,7 +2949,7 @@ Restituisce ``1`` se si dovrebbero disabilitare le immagini di sfondo, la traspa
 
 |void| **accessibility_update_add_action**\ (\ id\: :ref:`RID<class_RID>`, action\: :ref:`AccessibilityAction<enum_DisplayServer_AccessibilityAction>`, callable\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_add_action>`
 
-Adds a callback for the accessibility action (action which can be performed by using a special screen reader command or buttons on the Braille display), and marks this action as supported. The action callback receives one :ref:`Variant<class_Variant>` argument, which value depends on action type.
+Aggiunge un callback per l'azione di accessibilità (azione che si può effettuare attraverso un comando speciale in un lettore dello schermo o i pulsanti su un display Braille) e contrassegna questa azione come supportata. Il callback dell'azione riceve un argomento :ref:`Variant<class_Variant>`, il cui valore dipende dal tipo di azione.
 
 .. rst-class:: classref-item-separator
 
@@ -2961,9 +2961,9 @@ Adds a callback for the accessibility action (action which can be performed by u
 
 |void| **accessibility_update_add_child**\ (\ id\: :ref:`RID<class_RID>`, child_id\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_add_child>`
 
-Adds a child accessibility element.
+Aggiunge un elemento di accessibilità figlio.
 
-\ **Note:** :ref:`Node<class_Node>` children and sub-elements are added to the child list automatically.
+\ **Nota:** I figli :ref:`Node<class_Node>` e i sotto-elementi sono aggiunti automaticamente all'elenco degli elementi figlio.
 
 .. rst-class:: classref-item-separator
 
@@ -2975,7 +2975,7 @@ Adds a child accessibility element.
 
 |void| **accessibility_update_add_custom_action**\ (\ id\: :ref:`RID<class_RID>`, action_id\: :ref:`int<class_int>`, action_description\: :ref:`String<class_String>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_add_custom_action>`
 
-Adds support for a custom accessibility action. ``action_id`` is passed as an argument to the callback of :ref:`ACTION_CUSTOM<class_DisplayServer_constant_ACTION_CUSTOM>` action.
+Aggiunge supporto per un'azione di accessibilità personalizzata. ``action_id`` è passato come argomento al callback dell'azione :ref:`ACTION_CUSTOM<class_DisplayServer_constant_ACTION_CUSTOM>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2999,7 +2999,7 @@ Aggiunge un elemento che è controllato da questo elemento.
 
 |void| **accessibility_update_add_related_described_by**\ (\ id\: :ref:`RID<class_RID>`, related_id\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_add_related_described_by>`
 
-Adds an element that describes this element.
+Aggiunge un elemento che descrive questo elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -3011,7 +3011,7 @@ Adds an element that describes this element.
 
 |void| **accessibility_update_add_related_details**\ (\ id\: :ref:`RID<class_RID>`, related_id\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_add_related_details>`
 
-Adds an element that details this element.
+Aggiunge un elemento che descrive in dettaglio questo elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -3023,7 +3023,7 @@ Adds an element that details this element.
 
 |void| **accessibility_update_add_related_flow_to**\ (\ id\: :ref:`RID<class_RID>`, related_id\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_add_related_flow_to>`
 
-Adds an element that this element flow into.
+Aggiunge un elemento in cui fluisce questo elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -3035,7 +3035,7 @@ Adds an element that this element flow into.
 
 |void| **accessibility_update_add_related_labeled_by**\ (\ id\: :ref:`RID<class_RID>`, related_id\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_add_related_labeled_by>`
 
-Adds an element that labels this element.
+Aggiunge un elemento che etichetta questo elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -3047,9 +3047,9 @@ Adds an element that labels this element.
 
 |void| **accessibility_update_add_related_radio_group**\ (\ id\: :ref:`RID<class_RID>`, related_id\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_add_related_radio_group>`
 
-Adds an element that is part of the same radio group.
+Aggiunge un elemento che fa parte dello stesso gruppo di opzioni (radio).
 
-\ **Note:** This method should be called on each element of the group, using all other elements as ``related_id``.
+\ **Nota:** Questo metodo si dovrebbe chiamare su ogni elemento del gruppo, utilizzando tutti gli altri elementi come ``related_id``.
 
 .. rst-class:: classref-item-separator
 
@@ -3085,7 +3085,7 @@ Imposta il colore di sfondo dell'elemento.
 
 |void| **accessibility_update_set_bounds**\ (\ id\: :ref:`RID<class_RID>`, p_rect\: :ref:`Rect2<class_Rect2>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_bounds>`
 
-Restituisce il bounding box dell'elemento, relativo alla posizione del nodo.
+Restituisce la bounding box dell'elemento, relativa alla posizione del nodo.
 
 .. rst-class:: classref-item-separator
 
@@ -3133,7 +3133,7 @@ Imposta il valore di colore dell'elemento.
 
 |void| **accessibility_update_set_description**\ (\ id\: :ref:`RID<class_RID>`, description\: :ref:`String<class_String>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_description>`
 
-Sets element accessibility description.
+Imposta la descrizione d'accessibilità dell'elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -3145,7 +3145,7 @@ Sets element accessibility description.
 
 |void| **accessibility_update_set_error_message**\ (\ id\: :ref:`RID<class_RID>`, other_id\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_error_message>`
 
-Sets an element which contains an error message for this element.
+Imposta un elemento che contiene un messaggio di errore per questo elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -3157,7 +3157,7 @@ Sets an element which contains an error message for this element.
 
 |void| **accessibility_update_set_extra_info**\ (\ id\: :ref:`RID<class_RID>`, name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_extra_info>`
 
-Sets element accessibility extra information added to the element name.
+Imposta ulteriori informazioni d'accessibilità dell'elemento aggiunte al nome dell'elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -3241,7 +3241,7 @@ Imposta il numero di elementi nell'elenco.
 
 |void| **accessibility_update_set_list_item_expanded**\ (\ id\: :ref:`RID<class_RID>`, expanded\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_list_item_expanded>`
 
-Sets list/tree item expanded status.
+Imposta lo stato espanso dell'elemento elenco/albero.
 
 .. rst-class:: classref-item-separator
 
@@ -3301,7 +3301,7 @@ Imposta l'orientazione degli elementi nell'elenco.
 
 |void| **accessibility_update_set_live**\ (\ id\: :ref:`RID<class_RID>`, live\: :ref:`AccessibilityLiveMode<enum_DisplayServer_AccessibilityLiveMode>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_live>`
 
-Sets the priority of the live region updates.
+Imposta la priorità degli aggiornamenti della regione attiva.
 
 .. rst-class:: classref-item-separator
 
@@ -3349,7 +3349,7 @@ Imposta l'elemento successivo sulla riga.
 
 |void| **accessibility_update_set_num_jump**\ (\ id\: :ref:`RID<class_RID>`, jump\: :ref:`float<class_float>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_num_jump>`
 
-Sets numeric value jump.
+Imposta il salto del valore numerico.
 
 .. rst-class:: classref-item-separator
 
@@ -3373,7 +3373,7 @@ Imposta l'intervallo del valore numerico.
 
 |void| **accessibility_update_set_num_step**\ (\ id\: :ref:`RID<class_RID>`, step\: :ref:`float<class_float>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_num_step>`
 
-Sets numeric value step.
+Imposta il passo del valore numerico.
 
 .. rst-class:: classref-item-separator
 
@@ -3397,7 +3397,7 @@ Imposta il valore numerico.
 
 |void| **accessibility_update_set_placeholder**\ (\ id\: :ref:`RID<class_RID>`, placeholder\: :ref:`String<class_String>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_placeholder>`
 
-Sets placeholder text.
+Imposta il testo segnaposto.
 
 .. rst-class:: classref-item-separator
 
@@ -3409,7 +3409,7 @@ Sets placeholder text.
 
 |void| **accessibility_update_set_popup_type**\ (\ id\: :ref:`RID<class_RID>`, popup\: :ref:`AccessibilityPopupType<enum_DisplayServer_AccessibilityPopupType>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_popup_type>`
 
-Sets popup type for popup buttons.
+Imposta il tipo di popup per i pulsanti popup.
 
 .. rst-class:: classref-item-separator
 
@@ -3433,7 +3433,7 @@ Imposta l'elemento precedente sulla riga.
 
 |void| **accessibility_update_set_role**\ (\ id\: :ref:`RID<class_RID>`, role\: :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_role>`
 
-Sets element accessibility role.
+Imposta il ruolo dell'elemento di accessibilità.
 
 .. rst-class:: classref-item-separator
 
@@ -3445,7 +3445,7 @@ Sets element accessibility role.
 
 |void| **accessibility_update_set_role_description**\ (\ id\: :ref:`RID<class_RID>`, description\: :ref:`String<class_String>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_role_description>`
 
-Sets element accessibility role description text.
+Imposta il testo descrittivo per il ruolo dell'elemento di accessibilità.
 
 .. rst-class:: classref-item-separator
 
@@ -3457,7 +3457,7 @@ Sets element accessibility role description text.
 
 |void| **accessibility_update_set_scroll_x**\ (\ id\: :ref:`RID<class_RID>`, position\: :ref:`float<class_float>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_scroll_x>`
 
-Imposta la posizione x della barra di scorrimento.
+Imposta la posizione in x della barra di scorrimento.
 
 .. rst-class:: classref-item-separator
 
@@ -3469,7 +3469,7 @@ Imposta la posizione x della barra di scorrimento.
 
 |void| **accessibility_update_set_scroll_x_range**\ (\ id\: :ref:`RID<class_RID>`, min\: :ref:`float<class_float>`, max\: :ref:`float<class_float>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_scroll_x_range>`
 
-Sets scroll bar x range.
+Imposta l'intervallo in x della barra di scorrimento.
 
 .. rst-class:: classref-item-separator
 
@@ -3481,7 +3481,7 @@ Sets scroll bar x range.
 
 |void| **accessibility_update_set_scroll_y**\ (\ id\: :ref:`RID<class_RID>`, position\: :ref:`float<class_float>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_scroll_y>`
 
-Imposta la posizione y della barra di scorrimento.
+Imposta la posizione in y della barra di scorrimento.
 
 .. rst-class:: classref-item-separator
 
@@ -3493,7 +3493,7 @@ Imposta la posizione y della barra di scorrimento.
 
 |void| **accessibility_update_set_scroll_y_range**\ (\ id\: :ref:`RID<class_RID>`, min\: :ref:`float<class_float>`, max\: :ref:`float<class_float>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_scroll_y_range>`
 
-Sets scroll bar y range.
+Imposta l'intervallo in y della barra di scorrimento.
 
 .. rst-class:: classref-item-separator
 
@@ -3541,7 +3541,7 @@ Imposta la posizione nella tabella.
 
 |void| **accessibility_update_set_table_cell_span**\ (\ id\: :ref:`RID<class_RID>`, row_span\: :ref:`int<class_int>`, column_span\: :ref:`int<class_int>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_table_cell_span>`
 
-Sets cell row/column span.
+Imposta la spaziatura tra righe/colonne delle celle.
 
 .. rst-class:: classref-item-separator
 
@@ -3613,7 +3613,7 @@ Imposta l'allineamento del testo dell'elemento.
 
 |void| **accessibility_update_set_text_decorations**\ (\ id\: :ref:`RID<class_RID>`, underline\: :ref:`bool<class_bool>`, strikethrough\: :ref:`bool<class_bool>`, overline\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_text_decorations>`
 
-Sets text underline/overline/strikethrough.
+Imposta il testo sottolineato/sopralineato/barrato.
 
 .. rst-class:: classref-item-separator
 
@@ -3637,7 +3637,7 @@ Imposta l'orientazione del testo.
 
 |void| **accessibility_update_set_text_selection**\ (\ id\: :ref:`RID<class_RID>`, text_start_id\: :ref:`RID<class_RID>`, start_char\: :ref:`int<class_int>`, text_end_id\: :ref:`RID<class_RID>`, end_char\: :ref:`int<class_int>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_text_selection>`
 
-Sets text selection to the text field. ``text_start_id`` and ``text_end_id`` should be elements created by :ref:`accessibility_create_sub_text_edit_elements()<class_DisplayServer_method_accessibility_create_sub_text_edit_elements>`. Character offsets are relative to the corresponding element.
+Imposta la selezione del testo sul campo di testo. ``text_start_id`` e ``text_end_id`` devono essere elementi creati da :ref:`accessibility_create_sub_text_edit_elements()<class_DisplayServer_method_accessibility_create_sub_text_edit_elements>`. Gli offset dei caratteri sono relativi all'elemento corrispondente.
 
 .. rst-class:: classref-item-separator
 
@@ -3673,7 +3673,7 @@ Imposta la trasformazione 2D dell'elemento.
 
 |void| **accessibility_update_set_url**\ (\ id\: :ref:`RID<class_RID>`, url\: :ref:`String<class_String>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_url>`
 
-Sets link URL.
+Imposta l'URL di un collegamento.
 
 .. rst-class:: classref-item-separator
 
@@ -3723,9 +3723,9 @@ Restituisce gli appunti dell'utente come stringa, se possibile.
 
 :ref:`Image<class_Image>` **clipboard_get_image**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_clipboard_get_image>`
 
-Returns the user's clipboard as an image if possible.
+Restituisce gli appunti dell'utente come immagine, se possibile.
 
-\ **Note:** This method uses the copied pixel data, e.g. from an image editing software or a web browser, not an image file copied from file explorer.
+\ **Nota:** Questo metodo utilizza i dati dei pixel copiati, ad esempio da un software per modificare immagini o da un browser web, non un file di immagine copiato da Esplora file.
 
 .. rst-class:: classref-item-separator
 
@@ -3801,13 +3801,13 @@ Imposta gli appunti `primari <https://unix.stackexchange.com/questions/139191/wh
 
 :ref:`bool<class_bool>` **color_picker**\ (\ callback\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_DisplayServer_method_color_picker>`
 
-Displays OS native color picker.
+Visualizza il selettore colori nativo del sistema operativo.
 
-Callbacks have the following arguments: ``status: bool, color: Color``.
+I callback hanno i seguenti argomenti: ``status: bool, color: Color``.
 
-\ **Note:** This method is implemented if the display server has the :ref:`FEATURE_NATIVE_COLOR_PICKER<class_DisplayServer_constant_FEATURE_NATIVE_COLOR_PICKER>` feature.
+\ **Nota:** Questo metodo è implementato se il server di visualizzazione ha la funzionalità :ref:`FEATURE_NATIVE_COLOR_PICKER<class_DisplayServer_constant_FEATURE_NATIVE_COLOR_PICKER>`.
 
-\ **Note:** This method is only implemented on Linux (X11/Wayland).
+\ **Nota:** Questo metodo è implementato solo su Linux (X11/Wayland).
 
 .. rst-class:: classref-item-separator
 
@@ -3925,23 +3925,23 @@ Consente al PID ``process_id`` di rubare lo stato attivo da questa finestra. In 
 
 :ref:`Error<enum_@GlobalScope_Error>` **file_dialog_show**\ (\ title\: :ref:`String<class_String>`, current_directory\: :ref:`String<class_String>`, filename\: :ref:`String<class_String>`, show_hidden\: :ref:`bool<class_bool>`, mode\: :ref:`FileDialogMode<enum_DisplayServer_FileDialogMode>`, filters\: :ref:`PackedStringArray<class_PackedStringArray>`, callback\: :ref:`Callable<class_Callable>`, parent_window_id\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_DisplayServer_method_file_dialog_show>`
 
-Displays OS native dialog for selecting files or directories in the file system.
+Visualizza la finestra di dialogo nativa del sistema operativo per selezionare file o cartelle nel file system.
 
-Each filter string in the ``filters`` array should be formatted like this: ``*.png,*.jpg,*.jpeg;Image Files;image/png,image/jpeg``. The description text of the filter is optional and can be omitted. It is recommended to set both file extension and MIME type. See also :ref:`FileDialog.filters<class_FileDialog_property_filters>`.
+Ogni stringa di filtro nell'array ``filters`` deve essere formattata in questo modo: ``*.txt,*.doc;Text Files``. Il testo descrittivo del filtro è facoltativo e può essere omesso. È consigliato impostare sia l'estensione file sia il tipo MIME. Vedi anche :ref:`FileDialog.filters<class_FileDialog_property_filters>`.
 
-Callbacks have the following arguments: ``status: bool, selected_paths: PackedStringArray, selected_filter_index: int``. **On Android,** the third callback argument (``selected_filter_index``) is always ``0``.
+I callback hanno i seguenti argomenti: ``status: bool, selected_paths: PackedStringArray, selected_filter_index: int``. **Su Android,** il terzo argomento (``selected_filter_index``) del callback è sempre ``0``.
 
-\ **Note:** This method is implemented if the display server has the :ref:`FEATURE_NATIVE_DIALOG_FILE<class_DisplayServer_constant_FEATURE_NATIVE_DIALOG_FILE>` feature. Supported platforms include Linux (X11/Wayland), Windows, macOS, and Android (API level 29+).
+\ **Nota:** Questo metodo è implementato se il server di visualizzazione ha la funzionalità :ref:`FEATURE_NATIVE_DIALOG_FILE<class_DisplayServer_constant_FEATURE_NATIVE_DIALOG_FILE>`. Le piattaforme supportate includono Linux (X11/Wayland), Windows, macOS e Android (livello API 29+).
 
-\ **Note:** ``current_directory`` might be ignored.
+\ **Nota:** ``current_directory`` potrebbe essere ignorato.
 
-\ **Note:** Embedded file dialog and Windows file dialog support only file extensions, while Android, Linux, and macOS file dialogs also support MIME types.
+\ **Nota:** Sia le finestre di dialogo incorporate, sia le finestre di dialogo su Windows supportano solo le estensioni dei file, mentre su Android, Linux e macOS esse supportano anche i tipi MIME.
 
-\ **Note:** On Android and Linux, ``show_hidden`` is ignored.
+\ **Nota:** Su Android e Linux, ``show_hidden`` viene ignorato.
 
-\ **Note:** On Android and macOS, native file dialogs have no title.
+\ **Nota:** Su Android e macOS, le finestre di dialogo native dei file non hanno titolo.
 
-\ **Note:** On macOS, sandboxed apps will save security-scoped bookmarks to retain access to the opened folders across multiple sessions. Use :ref:`OS.get_granted_permissions()<class_OS_method_get_granted_permissions>` to get a list of saved bookmarks.
+\ **Nota:** Su macOS, le app in sandbox salveranno segnalibri con ambito di sicurezza per mantenere l'accesso alle cartelle aperte in più sessioni. Usa :ref:`OS.get_granted_permissions()<class_OS_method_get_granted_permissions>` per ottenere una lista dei segnalibri salvati.
 
 .. rst-class:: classref-item-separator
 
@@ -5438,13 +5438,13 @@ Questo può essere utilizzato per impedire a Godot di tralasciare il rendering q
 
 :ref:`int<class_int>` **screen_get_dpi**\ (\ screen\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_DisplayServer_method_screen_get_dpi>`
 
-Returns the dots per inch density of the specified screen. Returns platform specific default value if ``screen`` is invalid.
+Restituisce la densità di punti per pollice dello schermo specificato. Restituisce un valore predefinito specifico della piattaforma se ``screen`` non è valido.
 
-\ **Note:** One of the following constants can be used as ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>`, or :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
+\ **Nota:** È possibile utilizzare una delle seguenti costanti per ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>` o :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
 
-\ **Note:** On macOS, returned value is inaccurate if fractional display scaling mode is used.
+\ **Nota:** Su macOS, il valore restituito è impreciso se si usa la modalità frazionaria di scala della visualizzazione.
 
-\ **Note:** On Android devices, the actual screen densities are grouped into six generalized densities:
+\ **Nota:** Sui dispositivi Android, le densità effettive dello schermo sono raggruppate in sei densità generalizzate:
 
 .. code:: text
 
@@ -5455,7 +5455,7 @@ Returns the dots per inch density of the specified screen. Returns platform spec
      xxhdpi - 480 dpi
     xxxhdpi - 640 dpi
 
-\ **Note:** This method is implemented on Android, iOS, Linux (X11/Wayland), macOS, Web, and Windows. On other platforms, this method always returns ``72``.
+\ **Nota:** Questo metodo è implementato su Android, iOS, Linux (X11/Wayland), macOS, Web e Windows. Su altre piattaforme, questo metodo restituisce sempre ``72``.
 
 .. rst-class:: classref-item-separator
 
@@ -5467,13 +5467,13 @@ Returns the dots per inch density of the specified screen. Returns platform spec
 
 :ref:`Image<class_Image>` **screen_get_image**\ (\ screen\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_DisplayServer_method_screen_get_image>`
 
-Returns a screenshot of the ``screen``. Returns ``null`` if ``screen`` is invalid or the **DisplayServer** fails to capture screenshot.
+Restituisce uno screenshot dello schermo ``screen``. Restituisce ``null`` se ``screen`` non è valido o se **DisplayServer** non riesce a catturare lo screenshot.
 
-\ **Note:** One of the following constants can be used as ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>`, or :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
+\ **Nota:** È possibile utilizzare una delle seguenti costanti per ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>` o :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
 
-\ **Note:** This method is implemented on Linux (X11, excluding XWayland), macOS, and Windows. On other platforms, this method always returns ``null``.
+\ **Nota:** Questo metodo è implementato su Linux (X11, escluso XWayland), macOS e Windows. Su altre piattaforme, questo metodo restituisce sempre ``null``.
 
-\ **Note:** On macOS, this method requires the "Screen Recording" permission. If permission is not granted, this method returns a screenshot that will not include other application windows or OS elements not related to the application.
+\ **Nota:** Su macOS, questo metodo richiede l'autorizzazione "Registrazione schermo". Se l'autorizzazione non viene concessa, questo metodo restituisce uno screenshot che non includerà altre finestre dell'applicazione o elementi del sistema operativo che non riguardano l'applicazione.
 
 .. rst-class:: classref-item-separator
 
@@ -5485,11 +5485,11 @@ Returns a screenshot of the ``screen``. Returns ``null`` if ``screen`` is invali
 
 :ref:`Image<class_Image>` **screen_get_image_rect**\ (\ rect\: :ref:`Rect2i<class_Rect2i>`\ ) |const| :ref:`🔗<class_DisplayServer_method_screen_get_image_rect>`
 
-Returns a screenshot of the screen region defined by ``rect``. Returns ``null`` if ``rect`` is outside screen bounds or the **DisplayServer** fails to capture screenshot.
+Restituisce uno screenshot dell'area dello schermo definita da ``rect``. Restituisce ``null`` se ``rect`` è fuori i limiti dello schermo o se **DisplayServer** non riesce ad acquisire lo screenshot.
 
-\ **Note:** This method is implemented on macOS and Windows. On other platforms, this method always returns ``null``.
+\ **Nota:** Questo metodo è implementato su macOS e Windows. Su altre piattaforme, questo metodo restituisce sempre ``null``.
 
-\ **Note:** On macOS, this method requires the "Screen Recording" permission. If permission is not granted, this method returns a screenshot that will not include other application windows or OS elements not related to the application.
+\ **Nota:** Su macOS, questo metodo richiede l'autorizzazione "Registrazione schermo". Se l'autorizzazione non viene concessa, questo metodo restituisce uno screenshot che non includerà altre finestre dell'applicazione o elementi del sistema operativo che non riguardano l'applicazione.
 
 .. rst-class:: classref-item-separator
 
@@ -5517,11 +5517,11 @@ Restituisce il fattore di scala più grande tra tutti gli schermi.
 
 :ref:`ScreenOrientation<enum_DisplayServer_ScreenOrientation>` **screen_get_orientation**\ (\ screen\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_DisplayServer_method_screen_get_orientation>`
 
-Returns the ``screen``'s current orientation. See also :ref:`screen_set_orientation()<class_DisplayServer_method_screen_set_orientation>`. Returns :ref:`SCREEN_LANDSCAPE<class_DisplayServer_constant_SCREEN_LANDSCAPE>` if ``screen`` is invalid.
+Restituisce l'orientamento attuale dello schermo ``screen``. Vedi anche :ref:`screen_set_orientation()<class_DisplayServer_method_screen_set_orientation>`. Restituisce :ref:`SCREEN_LANDSCAPE<class_DisplayServer_constant_SCREEN_LANDSCAPE>` se ``screen`` non è valido.
 
-\ **Note:** One of the following constants can be used as ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>`, or :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
+\ **Nota:** È possibile utilizzare una delle seguenti costanti per ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>` o :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
 
-\ **Note:** This method is implemented on Android and iOS. On other platforms, this method always returns :ref:`SCREEN_LANDSCAPE<class_DisplayServer_constant_SCREEN_LANDSCAPE>`.
+\ **Nota:** Questo metodo è implementato su Android e iOS. Su altre piattaforme, questo metodo restituisce sempre :ref:`SCREEN_LANDSCAPE<class_DisplayServer_constant_SCREEN_LANDSCAPE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5533,11 +5533,11 @@ Returns the ``screen``'s current orientation. See also :ref:`screen_set_orientat
 
 :ref:`Color<class_Color>` **screen_get_pixel**\ (\ position\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_DisplayServer_method_screen_get_pixel>`
 
-Returns color of the display pixel at the ``position``.
+Restituisce il colore del pixel del display alla posizione ``position``.
 
-\ **Note:** This method is implemented on Linux (X11, excluding XWayland), macOS, and Windows. On other platforms, this method always returns :ref:`Color<class_Color>`.
+\ **Nota:** Questo metodo è implementato su Linux (X11, escludendo XWayland), macOS e Windows. Su altre piattaforme, questo metodo restituisce sempre :ref:`Color<class_Color>`.
 
-\ **Note:** On macOS, this method requires the "Screen Recording" permission. If permission is not granted, this method returns a screenshot that will only contain the desktop wallpaper, the current application's window, and other related UI elements.
+\ **Nota:** Su macOS, questo metodo richiede l'autorizzazione "Registrazione schermo". Se l'autorizzazione non viene concessa, questo metodo restituisce uno screenshot che conterrà solo lo sfondo del desktop, la finestra dell'applicazione attuale e altri elementi riguardo l'interfaccia utente.
 
 .. rst-class:: classref-item-separator
 
@@ -5549,7 +5549,7 @@ Returns color of the display pixel at the ``position``.
 
 :ref:`Vector2i<class_Vector2i>` **screen_get_position**\ (\ screen\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_DisplayServer_method_screen_get_position>`
 
-Returns the screen's top-left corner position in pixels. Returns :ref:`Vector2i.ZERO<class_Vector2i_constant_ZERO>` if ``screen`` is invalid. On multi-monitor setups, the screen position is relative to the virtual desktop area. On multi-monitor setups with different screen resolutions or orientations, the origin might be located outside any display like this:
+Restituisce la posizione dell'angolo in alto a sinistra dello schermo in pixel. Restituisce :ref:`Vector2i.ZERO<class_Vector2i_constant_ZERO>` se ``screen`` non è valido. Nelle configurazioni multi-monitor, la posizione dello schermo è relativa all'area del desktop virtuale. Nelle configurazioni multi-monitor con diverse risoluzioni o orientamenti dello schermo, l'origine può essere posizionata all'esterno di qualsiasi display in questo modo:
 
 .. code:: text
 
@@ -5560,9 +5560,9 @@ Returns the screen's top-left corner position in pixels. Returns :ref:`Vector2i.
     |             | |       |
     +-------------+ +-------+
 
-See also :ref:`screen_get_size()<class_DisplayServer_method_screen_get_size>`.
+Vedi anche :ref:`screen_get_size()<class_DisplayServer_method_screen_get_size>`.
 
-\ **Note:** One of the following constants can be used as ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>`, or :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
+\ **Nota:** È possibile utilizzare una delle seguenti costanti per ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>` o :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5574,9 +5574,9 @@ See also :ref:`screen_get_size()<class_DisplayServer_method_screen_get_size>`.
 
 :ref:`float<class_float>` **screen_get_refresh_rate**\ (\ screen\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_DisplayServer_method_screen_get_refresh_rate>`
 
-Returns the current refresh rate of the specified screen. Returns ``-1.0`` if ``screen`` is invalid or the **DisplayServer** fails to find the refresh rate for the specified screen.
+Restituisce la frequenza di aggiornamento attuale dello schermo specificato. Restituisce ``-1.0`` se ``screen`` non è valido o se il **DisplayServer** non riesce a trovare la frequenza di aggiornamento per lo schermo specificato.
 
-To fallback to a default refresh rate if the method fails, try:
+Per tornare a una frequenza di aggiornamento predefinita se il metodo fallisce, provare:
 
 ::
 
@@ -5584,9 +5584,9 @@ To fallback to a default refresh rate if the method fails, try:
     if refresh_rate < 0:
         refresh_rate = 60.0
 
-\ **Note:** One of the following constants can be used as ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>`, or :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
+\ **Nota:** È possibile utilizzare una delle seguenti costanti per ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>` o :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
 
-\ **Note:** This method is implemented on Android, iOS, macOS, Linux (X11 and Wayland), and Windows. On other platforms, this method always returns ``-1.0``.
+\ **Nota:** Questo metodo è implementato su Android, iOS, macOS, Linux (X11 e Wayland) e Windows. Su altre piattaforme, questo metodo restituisce sempre ``-1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -5598,15 +5598,15 @@ To fallback to a default refresh rate if the method fails, try:
 
 :ref:`float<class_float>` **screen_get_scale**\ (\ screen\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_DisplayServer_method_screen_get_scale>`
 
-Returns the scale factor of the specified screen by index. Returns ``1.0`` if ``screen`` is invalid.
+Restituisce il fattore di scala dello schermo specificato per indice. Restituisce ``1.0`` se ``screen`` non è valido.
 
-\ **Note:** One of the following constants can be used as ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>`, or :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
+\ **Nota:** È possibile utilizzare una delle seguenti costanti per ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>` o :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
 
-\ **Note:** On macOS, the returned value is ``2.0`` for hiDPI (Retina) screens, and ``1.0`` for all other cases.
+\ **Nota:** Su macOS, il valore restituito è ``2.0`` per gli schermi hiDPI (Retina) e ``1.0`` per tutti gli altri casi.
 
-\ **Note:** On Linux (Wayland), the returned value is accurate only when ``screen`` is :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`. Due to API limitations, passing a direct index will return a rounded-up integer, if the screen has a fractional scale (e.g. ``1.25`` would get rounded up to ``2.0``).
+\ **Nota:** Su Linux (Wayland), il valore restituito è accurato solo quando ``screen`` è :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`. A causa delle limitazioni dell'API, il passaggio di un indice diretto restituirà un intero arrotondato per eccesso, se lo schermo ha una scala frazionaria (ad esempio, ``1.25`` verrebbe arrotondato per eccesso a ``2.0``).
 
-\ **Note:** This method is implemented on Android, iOS, Web, macOS, and Linux (Wayland). On other platforms, this method always returns ``1.0``.
+\ **Nota:** Questo metodo è implementato su Android, iOS, Web, macOS e Linux (Wayland). Su altre piattaforme, questo metodo restituisce sempre ``1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -5618,9 +5618,9 @@ Returns the scale factor of the specified screen by index. Returns ``1.0`` if ``
 
 :ref:`Vector2i<class_Vector2i>` **screen_get_size**\ (\ screen\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_DisplayServer_method_screen_get_size>`
 
-Returns the screen's size in pixels. See also :ref:`screen_get_position()<class_DisplayServer_method_screen_get_position>` and :ref:`screen_get_usable_rect()<class_DisplayServer_method_screen_get_usable_rect>`. Returns :ref:`Vector2i.ZERO<class_Vector2i_constant_ZERO>` if ``screen`` is invalid.
+Restituisce la dimensione dello schermo in pixel. Vedi anche :ref:`screen_get_position()<class_DisplayServer_method_screen_get_position>` e :ref:`screen_get_usable_rect()<class_DisplayServer_method_screen_get_usable_rect>`. Restituisce :ref:`Vector2i.ZERO<class_Vector2i_constant_ZERO>` se ``screen`` non è valido.
 
-\ **Note:** One of the following constants can be used as ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>`, or :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
+\ **Nota:** È possibile utilizzare una delle seguenti costanti per ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>` o :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5632,11 +5632,11 @@ Returns the screen's size in pixels. See also :ref:`screen_get_position()<class_
 
 :ref:`Rect2i<class_Rect2i>` **screen_get_usable_rect**\ (\ screen\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_DisplayServer_method_screen_get_usable_rect>`
 
-Returns the portion of the screen that is not obstructed by a status bar in pixels. See also :ref:`screen_get_size()<class_DisplayServer_method_screen_get_size>`.
+Restituisce la porzione dello schermo non ostruita dalla barra di stato, in pixel. Vedi anche :ref:`screen_get_size()<class_DisplayServer_method_screen_get_size>`.
 
-\ **Note:** One of the following constants can be used as ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>`, or :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
+\ **Nota:** È possibile utilizzare una delle seguenti costanti per ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>` o :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
 
-\ **Note:** This method is implemented on Linux/X11, macOS, and Windows. On other platforms, this method always returns ``Rect2i(screen_get_position(screen), screen_get_size(screen))``.
+\ **Nota:** Questo metodo è implementato su Linux/X11, macOS e Windows. Su altre piattaforme, questo metodo restituisce sempre ``Rect2i(screen_get_position(screen), screen_get_size(screen))``.
 
 .. rst-class:: classref-item-separator
 
@@ -5672,13 +5672,13 @@ Imposta se lo schermo non dovrebbe mai essere spento dalle misure di risparmio e
 
 |void| **screen_set_orientation**\ (\ orientation\: :ref:`ScreenOrientation<enum_DisplayServer_ScreenOrientation>`, screen\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_DisplayServer_method_screen_set_orientation>`
 
-Sets the ``screen``'s ``orientation``. See also :ref:`screen_get_orientation()<class_DisplayServer_method_screen_get_orientation>`.
+Imposta l'orientamento dello schermo all'indice ``screen`` su ``orientation``. Vedi anche :ref:`screen_get_orientation()<class_DisplayServer_method_screen_get_orientation>`.
 
-\ **Note:** One of the following constants can be used as ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>`, or :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
+\ **Nota:** È possibile utilizzare una delle seguenti costanti per ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>` o :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
 
-\ **Note:** This method is implemented on Android and iOS.
+\ **Nota:** Questo metodo è implementato su Android e iOS.
 
-\ **Note:** On iOS, this method has no effect if :ref:`ProjectSettings.display/window/handheld/orientation<class_ProjectSettings_property_display/window/handheld/orientation>` is not set to :ref:`SCREEN_SENSOR<class_DisplayServer_constant_SCREEN_SENSOR>`.
+\ **Nota:** Su iOS, questo metodo non ha effetto se :ref:`ProjectSettings.display/window/handheld/orientation<class_ProjectSettings_property_display/window/handheld/orientation>` non è impostato su :ref:`SCREEN_SENSOR<class_DisplayServer_constant_SCREEN_SENSOR>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5690,9 +5690,9 @@ Sets the ``screen``'s ``orientation``. See also :ref:`screen_get_orientation()<c
 
 |void| **set_hardware_keyboard_connection_change_callback**\ (\ callable\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_DisplayServer_method_set_hardware_keyboard_connection_change_callback>`
 
-Sets the ``callable`` that should be called when hardware keyboard is connected/disconnected. ``callable`` should accept a single :ref:`bool<class_bool>` parameter indicating whether the keyboard is connected (true) or disconnected (false).
+Imposta il chiamabile ``callable`` che deve essere richiamato quando la tastiera hardware è connessa/disconnessa. Il ``callable`` deve accettare un singolo parametro :ref:`bool<class_bool>` che indica se la tastiera è connessa (true) o disconnessa (false).
 
-\ **Note:** This method is only implemented on Android.
+\ **Nota:** Questo metodo è implementato solo su Android.
 
 .. rst-class:: classref-item-separator
 
@@ -5898,19 +5898,19 @@ Driver supportati:
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **tts_get_voices**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_tts_get_voices>`
 
-Returns an :ref:`Array<class_Array>` of voice information dictionaries.
+Restituisce un :ref:`Array<class_Array>` di dizionari di informazioni vocali.
 
-Each :ref:`Dictionary<class_Dictionary>` contains two :ref:`String<class_String>` entries:
+Ogni :ref:`Dictionary<class_Dictionary>` contiene due voci :ref:`String<class_String>`:
 
-- ``name`` is voice name.
+- ``name`` è il nome della voce.
 
-- ``id`` is voice identifier.
+- ``id`` è l'identificativo della voce.
 
-- ``language`` is language code in ``lang_Variant`` format. The ``lang`` part is a 2 or 3-letter code based on the ISO-639 standard, in lowercase. The ``Variant`` part is an engine-dependent string describing country, region or/and dialect.
+- ``language`` è il codice della lingua nel formato ``lang_Variant``. La parte ``lang`` è un codice di 2 o 3 lettere basato sullo standard ISO-639, in minuscolo. La parte ``Variant`` è una stringa dipendente dal motore che descrive paese, regione e/o dialetto.
 
-Note that Godot depends on system libraries for text-to-speech functionality. These libraries are installed by default on Windows and macOS, but not on all Linux distributions. If they are not present, this method will return an empty list. This applies to both Godot users on Linux, as well as end-users on Linux running Godot games that use text-to-speech.
+Nota che Godot dipende dalle librerie di sistema per la funzionalità di conversione da testo a voce. Queste librerie sono installate di default su Windows e macOS, ma non su tutte le distribuzioni Linux. Se non sono presenti, questo metodo restituirà un elenco vuoto. Questo vale sia per gli utenti Godot su Linux, sia per gli utenti finali su Linux che eseguono giochi in Godot che utilizzano la conversione da testo a voce.
 
-\ **Note:** This method is implemented on Android, iOS, Web, Linux (X11/Wayland), macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Android, iOS, Web, Linux (X11/Wayland), macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -5922,9 +5922,9 @@ Note that Godot depends on system libraries for text-to-speech functionality. Th
 
 :ref:`PackedStringArray<class_PackedStringArray>` **tts_get_voices_for_language**\ (\ language\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_DisplayServer_method_tts_get_voices_for_language>`
 
-Returns a :ref:`PackedStringArray<class_PackedStringArray>` of voice identifiers for the ``language``.
+Restituisce un :ref:`PackedStringArray<class_PackedStringArray>` di identificatori di voce per la lingua ``language``.
 
-\ **Note:** This method is implemented on Android, iOS, Web, Linux (X11/Wayland), macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Android, iOS, Web, Linux (X11/Wayland), macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -5936,9 +5936,9 @@ Returns a :ref:`PackedStringArray<class_PackedStringArray>` of voice identifiers
 
 :ref:`bool<class_bool>` **tts_is_paused**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_tts_is_paused>`
 
-Returns ``true`` if the synthesizer is in a paused state.
+Restituisce ``true`` se il sintetizzatore è in pausa.
 
-\ **Note:** This method is implemented on Android, iOS, Web, Linux (X11/Wayland), macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Android, iOS, Web, Linux (X11/Wayland), macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -5950,9 +5950,9 @@ Returns ``true`` if the synthesizer is in a paused state.
 
 :ref:`bool<class_bool>` **tts_is_speaking**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_tts_is_speaking>`
 
-Returns ``true`` if the synthesizer is generating speech, or have utterance waiting in the queue.
+Restituisce ``true`` se il sintetizzatore sta generando un'espressione, o ha un'enunciazione in coda.
 
-\ **Note:** This method is implemented on Android, iOS, Web, Linux (X11/Wayland), macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Android, iOS, Web, Linux (X11/Wayland), macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -5964,9 +5964,9 @@ Returns ``true`` if the synthesizer is generating speech, or have utterance wait
 
 |void| **tts_pause**\ (\ ) :ref:`🔗<class_DisplayServer_method_tts_pause>`
 
-Puts the synthesizer into a paused state.
+Mette il sintetizzatore in pausa.
 
-\ **Note:** This method is implemented on Android, iOS, Web, Linux (X11/Wayland), macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Android, iOS, Web, Linux (X11/Wayland), macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -5978,9 +5978,9 @@ Puts the synthesizer into a paused state.
 
 |void| **tts_resume**\ (\ ) :ref:`🔗<class_DisplayServer_method_tts_resume>`
 
-Resumes the synthesizer if it was paused.
+Riprende il sintetizzatore se era in pausa.
 
-\ **Note:** This method is implemented on Android, iOS, Web, Linux (X11/Wayland), macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Android, iOS, Web, Linux (X11/Wayland), macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -5992,15 +5992,15 @@ Resumes the synthesizer if it was paused.
 
 |void| **tts_set_utterance_callback**\ (\ event\: :ref:`TTSUtteranceEvent<enum_DisplayServer_TTSUtteranceEvent>`, callable\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_DisplayServer_method_tts_set_utterance_callback>`
 
-Adds a callback, which is called when the utterance has started, finished, canceled or reached a text boundary.
+Aggiunge un callback, che viene richiamato quando l'enunciazione è iniziata, terminata, annullata o ha raggiunto un riquadro di testo.
 
-- :ref:`TTS_UTTERANCE_STARTED<class_DisplayServer_constant_TTS_UTTERANCE_STARTED>`, :ref:`TTS_UTTERANCE_ENDED<class_DisplayServer_constant_TTS_UTTERANCE_ENDED>`, and :ref:`TTS_UTTERANCE_CANCELED<class_DisplayServer_constant_TTS_UTTERANCE_CANCELED>` callable's method should take one :ref:`int<class_int>` parameter, the utterance ID.
+- Per :ref:`TTS_UTTERANCE_STARTED<class_DisplayServer_constant_TTS_UTTERANCE_STARTED>`, :ref:`TTS_UTTERANCE_ENDED<class_DisplayServer_constant_TTS_UTTERANCE_ENDED>` e :ref:`TTS_UTTERANCE_CANCELED<class_DisplayServer_constant_TTS_UTTERANCE_CANCELED>`, il metodo del chiamabile dovrebbe accettare un parametro :ref:`int<class_int>`, l'ID dell'enunciazione.
 
-- :ref:`TTS_UTTERANCE_BOUNDARY<class_DisplayServer_constant_TTS_UTTERANCE_BOUNDARY>` callable's method should take two :ref:`int<class_int>` parameters, the index of the character and the utterance ID.
+- Per :ref:`TTS_UTTERANCE_BOUNDARY<class_DisplayServer_constant_TTS_UTTERANCE_BOUNDARY>`, il metodo del chiamabile dovrebbe accettare due parametri :ref:`int<class_int>`, l'indice del carattere e l'ID dell'enunciazione.
 
-\ **Note:** The granularity of the boundary callbacks is engine dependent.
+\ **Nota:** La granularità dei callback di riquadro dipende dal motore.
 
-\ **Note:** This method is implemented on Android, iOS, Web, Linux (X11/Wayland), macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Android, iOS, Web, Linux (X11/Wayland), macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -6012,23 +6012,23 @@ Adds a callback, which is called when the utterance has started, finished, cance
 
 |void| **tts_speak**\ (\ text\: :ref:`String<class_String>`, voice\: :ref:`String<class_String>`, volume\: :ref:`int<class_int>` = 50, pitch\: :ref:`float<class_float>` = 1.0, rate\: :ref:`float<class_float>` = 1.0, utterance_id\: :ref:`int<class_int>` = 0, interrupt\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_DisplayServer_method_tts_speak>`
 
-Adds an utterance to the queue. If ``interrupt`` is ``true``, the queue is cleared first.
+Aggiunge un'enunciazione alla coda. Se ``interrupt`` è ``true``, la coda viene prima ripulita.
 
-- ``voice`` identifier is one of the ``"id"`` values returned by :ref:`tts_get_voices()<class_DisplayServer_method_tts_get_voices>` or one of the values returned by :ref:`tts_get_voices_for_language()<class_DisplayServer_method_tts_get_voices_for_language>`.
+- ``voice`` è uno dei valori ``"id"`` restituiti da :ref:`tts_get_voices()<class_DisplayServer_method_tts_get_voices>` o uno dei valori restituiti da :ref:`tts_get_voices_for_language()<class_DisplayServer_method_tts_get_voices_for_language>`.
 
-- ``volume`` ranges from ``0`` (lowest) to ``100`` (highest).
+- ``volume`` varia da ``0`` (il più basso) a ``100`` (il più alto).
 
-- ``pitch`` ranges from ``0.0`` (lowest) to ``2.0`` (highest), ``1.0`` is default pitch for the current voice.
+- ``pitch`` varia da ``0.0`` (il più basso) a ``2.0`` (il più alto), ``1.0`` è il tono predefinito per la voce attuale.
 
-- ``rate`` ranges from ``0.1`` (lowest) to ``10.0`` (highest), ``1.0`` is a normal speaking rate. Other values act as a percentage relative.
+- ``rate`` varia da ``0.1`` (minimo) a ``10.0`` (massimo), ``1.0`` è una velocità di parlato normale. Altri valori agiscono come percentuale relativa.
 
-- ``utterance_id`` is passed as a parameter to the callback functions.
+- ``utterance_id`` viene passato come parametro alle funzioni di callback.
 
-\ **Note:** On Windows and Linux (X11/Wayland), utterance ``text`` can use SSML markup. SSML support is engine and voice dependent. If the engine does not support SSML, you should strip out all XML markup before calling :ref:`tts_speak()<class_DisplayServer_method_tts_speak>`.
+\ **Nota:** Su Windows e Linux (X11/Wayland), il testo (``text``) dell'enunciazione può usare il markup SSML. Il supporto SSML dipende dal motore e dalla voce. Se il motore non supporta SSML, dovresti eliminare tutto il markup XML prima di chiamare :ref:`tts_speak()<class_DisplayServer_method_tts_speak>`.
 
-\ **Note:** The granularity of pitch, rate, and volume is engine and voice dependent. Values may be truncated.
+\ **Nota:** La granularità del tono, della velocità e del volume dipende dal motore e dalla voce. I valori potrebbero essere troncati.
 
-\ **Note:** This method is implemented on Android, iOS, Web, Linux (X11/Wayland), macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Android, iOS, Web, Linux (X11/Wayland), macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -6040,9 +6040,9 @@ Adds an utterance to the queue. If ``interrupt`` is ``true``, the queue is clear
 
 |void| **tts_stop**\ (\ ) :ref:`🔗<class_DisplayServer_method_tts_stop>`
 
-Stops synthesis in progress and removes all utterances from the queue.
+Ferma la sintesi in sviluppo e rimuove tutte le enunciazioni dalla coda.
 
-\ **Note:** This method is implemented on Android, iOS, Web, Linux (X11/Wayland), macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Android, iOS, Web, Linux (X11/Wayland), macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -6066,9 +6066,9 @@ Annulla la registrazione di un :ref:`Object<class_Object>` che rappresenta un'us
 
 :ref:`int<class_int>` **virtual_keyboard_get_height**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_virtual_keyboard_get_height>`
 
-Returns the on-screen keyboard's height in pixels. Returns 0 if there is no keyboard or if it is currently hidden.
+Restituisce l'altezza della tastiera su schermo in pixel. Restituisce 0 se nessuna tastiera è presente o se è attualmente nascosta.
 
-\ **Note:** On Android 7 and 8, the keyboard height may return 0 the first time the keyboard is opened in non-immersive mode. This behavior does not occur in immersive mode.
+\ **Nota:** Su Android 7 e 8, l'altezza della tastiera potrebbe restituire 0 la prima volta che la tastiera viene aperta in modalità non immersiva. Questo comportamento non si verifica in modalità immersiva.
 
 .. rst-class:: classref-item-separator
 
@@ -6168,9 +6168,9 @@ Restituisce l'ID d'istanza (:ref:`Object.get_instance_id()<class_Object_method_g
 
 :ref:`int<class_int>` **window_get_current_screen**\ (\ window_id\: :ref:`int<class_int>` = 0\ ) |const| :ref:`🔗<class_DisplayServer_method_window_get_current_screen>`
 
-Returns the screen the window specified by ``window_id`` is currently positioned on. If the screen overlaps multiple displays, the screen where the window's center is located is returned. See also :ref:`window_set_current_screen()<class_DisplayServer_method_window_set_current_screen>`. Returns :ref:`INVALID_SCREEN<class_DisplayServer_constant_INVALID_SCREEN>` if ``window_id`` is invalid.
+Restituisce lo schermo su cui è attualmente posizionata la finestra specificata da ``window_id``. Se lo schermo si sovrappone a più display, viene restituito lo schermo in cui si trova il centro della finestra. Vedi anche :ref:`window_set_current_screen()<class_DisplayServer_method_window_set_current_screen>`. Restituisce :ref:`INVALID_SCREEN<class_DisplayServer_constant_INVALID_SCREEN>` se ``window_id`` non è valido.
 
-\ **Note:** This method is implemented on Linux/X11, macOS, and Windows. On other platforms, this method always returns ``0``.
+\ **Nota:** Questo metodo è implementato su Linux/X11, macOS e Windows. Su altre piattaforme, questo metodo restituisce sempre ``0``.
 
 .. rst-class:: classref-item-separator
 
@@ -6418,11 +6418,11 @@ Fa in modo che la finestra specificata da ``window_id`` richieda l'attenzione, i
 
 |void| **window_set_current_screen**\ (\ screen\: :ref:`int<class_int>`, window_id\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_DisplayServer_method_window_set_current_screen>`
 
-Moves the window specified by ``window_id`` to the specified ``screen``. See also :ref:`window_get_current_screen()<class_DisplayServer_method_window_get_current_screen>`.
+Sposta la finestra specificata da ``window_id`` nello schermo ``screen``. Vedi anche :ref:`window_get_current_screen()<class_DisplayServer_method_window_get_current_screen>`.
 
-\ **Note:** One of the following constants can be used as ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>`, or :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
+\ **Nota:** È possibile utilizzare una delle seguenti costanti per ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>` o :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
 
-\ **Note:** This method is implemented on Linux/X11, macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Linux/X11, macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -6466,7 +6466,7 @@ Se impostato su ``true``, questa finestra rimarrà sempre in cima alla finestra 
 
 |void| **window_set_flag**\ (\ flag\: :ref:`WindowFlags<enum_DisplayServer_WindowFlags>`, enabled\: :ref:`bool<class_bool>`, window_id\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_DisplayServer_method_window_set_flag>`
 
-Enables or disables the given window's given ``flag``.
+Attiva o disattiva il ``flag`` specificato della finestra specificata.
 
 .. rst-class:: classref-item-separator
 
@@ -6564,11 +6564,11 @@ Imposta le dimensioni minime della finestra specificata da ``window_id`` in pixe
 
 |void| **window_set_mode**\ (\ mode\: :ref:`WindowMode<enum_DisplayServer_WindowMode>`, window_id\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_DisplayServer_method_window_set_mode>`
 
-Sets window mode for the given window to ``mode``.
+Imposta la modalità di finestra per la finestra specificata su ``mode``.
 
-\ **Note:** On Android, setting it to :ref:`WINDOW_MODE_FULLSCREEN<class_DisplayServer_constant_WINDOW_MODE_FULLSCREEN>` or :ref:`WINDOW_MODE_EXCLUSIVE_FULLSCREEN<class_DisplayServer_constant_WINDOW_MODE_EXCLUSIVE_FULLSCREEN>` will enable immersive mode.
+\ **Nota:** su Android, impostandola su :ref:`WINDOW_MODE_FULLSCREEN<class_DisplayServer_constant_WINDOW_MODE_FULLSCREEN>` o :ref:`WINDOW_MODE_EXCLUSIVE_FULLSCREEN<class_DisplayServer_constant_WINDOW_MODE_EXCLUSIVE_FULLSCREEN>` verrà abilitata la modalità immersiva.
 
-\ **Note:** Setting the window to full screen forcibly sets the borderless flag to ``true``, so make sure to set it back to ``false`` when not wanted.
+\ **Nota:** Impostando la finestra a schermo intero, il flag borderless (senza bordi) viene forzato su ``true``, quindi assicurarsi di reimpostarlo su ``false`` se non desiderato.
 
 .. rst-class:: classref-item-separator
 
@@ -6724,11 +6724,11 @@ Imposta la finestra transitoria genitore. La finestra transitoria verrà distrut
 
 |void| **window_set_vsync_mode**\ (\ vsync_mode\: :ref:`VSyncMode<enum_DisplayServer_VSyncMode>`, window_id\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_DisplayServer_method_window_set_vsync_mode>`
 
-Sets the V-Sync mode of the given window. See also :ref:`ProjectSettings.display/window/vsync/vsync_mode<class_ProjectSettings_property_display/window/vsync/vsync_mode>`.
+Imposta la modalità di V-Sync della finestra specificata. Vedi anche :ref:`ProjectSettings.display/window/vsync/vsync_mode<class_ProjectSettings_property_display/window/vsync/vsync_mode>`.
 
-Depending on the platform and used renderer, the engine will fall back to :ref:`VSYNC_ENABLED<class_DisplayServer_constant_VSYNC_ENABLED>` if the desired mode is not supported.
+A seconda della piattaforma e del renderer utilizzato, il motore ricadrà a :ref:`VSYNC_ENABLED<class_DisplayServer_constant_VSYNC_ENABLED>` se la modalità desiderata non è supportata.
 
-\ **Note:** V-Sync modes other than :ref:`VSYNC_ENABLED<class_DisplayServer_constant_VSYNC_ENABLED>` are only supported in the Forward+ and Mobile rendering methods, not Compatibility.
+\ **Nota:** Le modalità di V-Sync diverse da :ref:`VSYNC_ENABLED<class_DisplayServer_constant_VSYNC_ENABLED>` sono supportate solo nei metodi di rendering Forward+ e Mobile, non Compatibilità.
 
 .. rst-class:: classref-item-separator
 

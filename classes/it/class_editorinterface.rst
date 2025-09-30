@@ -226,7 +226,7 @@ Descrizioni dei metodi
 
 :ref:`Error<enum_@GlobalScope_Error>` **close_scene**\ (\ ) :ref:`🔗<class_EditorInterface_method_close_scene>`
 
-Closes the currently active scene, discarding any pending changes in the process. Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success or :ref:`@GlobalScope.ERR_DOES_NOT_EXIST<class_@GlobalScope_constant_ERR_DOES_NOT_EXIST>` if there is no scene to close.
+Chiude la scena attualmente attiva, ignorando eventuali modifiche in sospeso nel processo. Restituisce :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` in caso di successo oppure :ref:`@GlobalScope.ERR_DOES_NOT_EXIST<class_@GlobalScope_constant_ERR_DOES_NOT_EXIST>` se non c'è alcuna scena da chiudere.
 
 .. rst-class:: classref-item-separator
 
@@ -382,9 +382,9 @@ Restituisce il singleton :ref:`EditorPaths<class_EditorPaths>`.
 
 :ref:`float<class_float>` **get_editor_scale**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_editor_scale>`
 
-Returns the actual scale of the editor UI (``1.0`` being 100% scale). This can be used to adjust position and dimensions of the UI added by plugins.
+Restituisce la scala effettiva dell'interfaccia utente dell'editor (``1.0`` è una scala del 100%). Può essere utilizzata per regolare la posizione e le dimensioni dell'interfaccia utente aggiunta dalle estensioni.
 
-\ **Note:** This value is set via the :ref:`EditorSettings.interface/editor/display_scale<class_EditorSettings_property_interface/editor/display_scale>` and :ref:`EditorSettings.interface/editor/custom_display_scale<class_EditorSettings_property_interface/editor/custom_display_scale>` settings. The editor must be restarted for changes to be properly applied.
+\ **Nota:** Questo valore è impostato tramite le impostazioni :ref:`EditorSettings.interface/editor/display_scale<class_EditorSettings_property_interface/editor/display_scale>` and :ref:`EditorSettings.interface/editor/custom_display_scale<class_EditorSettings_property_interface/editor/custom_display_scale>`. L'editor deve essere riavviato affinché le modifiche siano applicate correttamente.
 
 .. rst-class:: classref-item-separator
 
@@ -498,7 +498,7 @@ Restituisce l'istanza :ref:`EditorInspector<class_EditorInspector>` dell'editor.
 
 :ref:`Array<class_Array>`\[:ref:`Node<class_Node>`\] **get_open_scene_roots**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_open_scene_roots>`
 
-Returns an array with references to the root nodes of the currently opened scenes.
+Restituisce un array con riferimenti ai nodi radice delle scene attualmente aperte.
 
 .. rst-class:: classref-item-separator
 
@@ -510,7 +510,7 @@ Returns an array with references to the root nodes of the currently opened scene
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_open_scenes**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_open_scenes>`
 
-Returns an array with the file paths of the currently opened scenes.
+Restituisce un array con i percorsi dei file delle scene attualmente aperte.
 
 .. rst-class:: classref-item-separator
 
@@ -926,7 +926,7 @@ Salva la scena attualmente attiva. Restituisce :ref:`@GlobalScope.OK<class_@Glob
 
 |void| **save_scene_as**\ (\ path\: :ref:`String<class_String>`, with_preview\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_EditorInterface_method_save_scene_as>`
 
-Saves the currently active scene as a file at ``path``.
+Salva la scena attualmente attiva come file nel percorso ``path``.
 
 .. rst-class:: classref-item-separator
 
@@ -966,7 +966,7 @@ Un profilo di funzionalità può essere creato in codice usando la classe :ref:`
 
 |void| **set_main_screen_editor**\ (\ name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorInterface_method_set_main_screen_editor>`
 
-Sets the editor's current main screen to the one specified in ``name``. ``name`` must match the title of the tab in question exactly (e.g. ``2D``, ``3D``, ``Script``, ``Game``, or ``AssetLib`` for default tabs).
+Imposta la schermata principale attuale dell'editor su quella specificata in ``name``. ``name`` deve corrispondere esattamente al titolo della scheda in questione (ad esempio ``2D``, ``3D``, ``Script``, ``Game`` o ``AssetLib`` per le schede predefinite).
 
 .. rst-class:: classref-item-separator
 

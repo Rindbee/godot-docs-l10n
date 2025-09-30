@@ -18,7 +18,7 @@ Description
 
 Les formes de collision de particules peuvent être utilisées pour faire arrêter ou rebondir des particules contre elles.
 
-Les formes de collision de particules fonctionnent en temps réel et peuvent être déplacées, pivotés et redimensionnées pendant le gameplay. Contrairement aux attracteurs, une échelle non uniforme des formes de collision n'est *pas* supportée.
+Les formes de collision de particules fonctionnent en temps réel et peuvent être déplacées, tournées et redimensionnées pendant le gameplay. Contrairement aux attracteurs, une échelle non uniforme des formes de collision n'est *pas* supportée.
 
 Les formes de collision de particules peuvent être temporairement désactivées en les cachant.
 

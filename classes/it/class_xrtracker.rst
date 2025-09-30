@@ -78,21 +78,21 @@ La descrizione di questo tracciatore.
 - |void| **set_tracker_name**\ (\ value\: :ref:`StringName<class_StringName>`\ )
 - :ref:`StringName<class_StringName>` **get_tracker_name**\ (\ )
 
-The unique name of this tracker. The trackers that are available differ between various XR runtimes and can often be configured by the user. Godot maintains a number of reserved names that it expects the :ref:`XRInterface<class_XRInterface>` to implement if applicable:
+Il nome univoco di questo tracciatore. I tracciatori disponibili differiscono tra i vari runtime XR e possono spesso essere configurati dall'utente. Godot mantiene un certo numero di nomi riservati che si aspetta che :ref:`XRInterface<class_XRInterface>` implementi se applicabile:
 
-- ``"head"`` identifies the :ref:`XRPositionalTracker<class_XRPositionalTracker>` of the player's head
+- ``"head"`` identifica il :ref:`XRPositionalTracker<class_XRPositionalTracker>` della testa del giocatore
 
-- ``"left_hand"`` identifies the :ref:`XRControllerTracker<class_XRControllerTracker>` in the player's left hand
+- ``"left_hand"`` identifica il :ref:`XRControllerTracker<class_XRControllerTracker>` nella mano sinistra del giocatore
 
-- ``"right_hand"`` identifies the :ref:`XRControllerTracker<class_XRControllerTracker>` in the player's right hand
+- ``"right_hand"`` identifica il :ref:`XRControllerTracker<class_XRControllerTracker>` nella mano destra del giocatore
 
-- ``"/user/hand_tracker/left"`` identifies the :ref:`XRHandTracker<class_XRHandTracker>` for the player's left hand
+- ``"/user/hand_tracker/left"`` identifica il :ref:`XRHandTracker<class_XRHandTracker>` per la mano sinistra del giocatore
 
-- ``"/user/hand_tracker/right"`` identifies the :ref:`XRHandTracker<class_XRHandTracker>` for the player's right hand
+- ``"/user/hand_tracker/right"`` identifica il :ref:`XRHandTracker<class_XRHandTracker>` per la mano destra del giocatore
 
-- ``"/user/body_tracker"`` identifies the :ref:`XRBodyTracker<class_XRBodyTracker>` for the player's body
+- ``"/user/body_tracker"`` identifica il :ref:`XRBodyTracker<class_XRBodyTracker>` per il corpo del giocatore
 
-- ``"/user/face_tracker"`` identifies the :ref:`XRFaceTracker<class_XRFaceTracker>` for the player's face
+- ``"/user/face_tracker"`` identifica il :ref:`XRFaceTracker<class_XRFaceTracker>` per il viso del giocatore
 
 .. rst-class:: classref-item-separator
 

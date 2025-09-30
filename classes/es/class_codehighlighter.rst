@@ -14,7 +14,7 @@ Un resaltador de sintaxis destinado al código.
 Descripción
 ----------------------
 
-Ajustando varias propiedades de este recurso, puedes cambiar los colores de las cadenas de texto, comentarios, números y otros patrones de texto dentro de un control :ref:`TextEdit<class_TextEdit>`.
+Ajustando varias propiedades de este recurso, puedes cambiar los colores de las strings, comentarios, números y otros patrones de texto dentro de un control :ref:`TextEdit<class_TextEdit>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -217,7 +217,7 @@ Descripciones de Métodos
 
 |void| **add_color_region**\ (\ start_key\: :ref:`String<class_String>`, end_key\: :ref:`String<class_String>`, color\: :ref:`Color<class_Color>`, line_only\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CodeHighlighter_method_add_color_region>`
 
-Añade una región de color (como para comentarios o cadenas de texto) desde ``start_key`` hasta ``end_key``. Ambas claves deben ser símbolos, y ``start_key`` no debe ser compartida con otros delimitadores.
+Añade una región de color (como para comentarios o strings) desde ``start_key`` hasta ``end_key``. Ambas claves deben ser símbolos, y ``start_key`` no debe ser compartida con otros delimitadores.
 
 Si ``line_only`` es ``true`` o ``end_key`` es una :ref:`String<class_String>` vacía, la región no se extiende a la siguiente línea.
 

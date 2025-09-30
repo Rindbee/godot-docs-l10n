@@ -257,13 +257,13 @@ Chiamato una volta durante l'inizializzazione.
 
 :ref:`bool<class_bool>` **_physics_process**\ (\ delta\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_MainLoop_private_method__physics_process>`
 
-Called each physics tick. ``delta`` is the logical time between physics ticks in seconds and is equal to :ref:`Engine.time_scale<class_Engine_property_time_scale>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`. Equivalent to :ref:`Node._physics_process()<class_Node_private_method__physics_process>`.
+Chiamato ogni tick di fisica. ``delta`` è il tempo logico tra i tick di fisica in secondi ed è uguale a :ref:`Engine.time_scale<class_Engine_property_time_scale>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`. Equivalente a :ref:`Node._physics_process()<class_Node_private_method__physics_process>`.
 
-If implemented, the method must return a boolean value. ``true`` ends the main loop, while ``false`` lets it proceed to the next step.
+Se implementato, il metodo deve restituire un valore booleano. ``true`` termina il ciclo principale, mentre ``false`` gli consente di procedere al passaggio successivo.
 
-\ **Note:** :ref:`_physics_process()<class_MainLoop_private_method__physics_process>` may be called up to :ref:`Engine.max_physics_steps_per_frame<class_Engine_property_max_physics_steps_per_frame>` times per (idle) frame. This step limit may be reached when the engine is suffering performance issues.
+\ **Nota:** :ref:`_physics_process()<class_MainLoop_private_method__physics_process>` può essere chiamato fino a :ref:`Engine.max_physics_steps_per_frame<class_Engine_property_max_physics_steps_per_frame>` volte per frame (inattivo). È possibile raggiungere tale limite quando il motore soffre di problemi di prestazioni.
 
-\ **Note:** Accumulated ``delta`` may diverge from real world seconds.
+\ **Nota:** Il ``delta`` accumulato potrebbe deviare dai secondi reali.
 
 .. rst-class:: classref-item-separator
 
@@ -275,15 +275,15 @@ If implemented, the method must return a boolean value. ``true`` ends the main l
 
 :ref:`bool<class_bool>` **_process**\ (\ delta\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_MainLoop_private_method__process>`
 
-Called on each idle frame, prior to rendering, and after physics ticks have been processed. ``delta`` is the time between frames in seconds. Equivalent to :ref:`Node._process()<class_Node_private_method__process>`.
+Chiamato su ogni frame inattivo, prima del rendering e dopo l'elaborazione dei tick di fisica. ``delta`` è il tempo tra i frame in secondi. Equivalente a :ref:`Node._process()<class_Node_private_method__process>`.
 
-If implemented, the method must return a boolean value. ``true`` ends the main loop, while ``false`` lets it proceed to the next frame.
+Se implementato, il metodo deve restituire un valore booleano. ``true`` termina il ciclo principale, mentre ``false`` gli consente di procedere al frame successivo.
 
-\ **Note:** When the engine is struggling and the frame rate is lowered, ``delta`` will increase. When ``delta`` is increased, it's capped at a maximum of :ref:`Engine.time_scale<class_Engine_property_time_scale>` \* :ref:`Engine.max_physics_steps_per_frame<class_Engine_property_max_physics_steps_per_frame>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`. As a result, accumulated ``delta`` may not represent real world time.
+\ **Nota:** Quando il motore è in difficoltà e il frame rate è ridotto, ``delta`` aumenta. Quando ``delta`` è aumentato, è limitato a un massimo di :ref:`Engine.time_scale<class_Engine_property_time_scale>` \* :ref:`Engine.max_physics_steps_per_frame<class_Engine_property_max_physics_steps_per_frame>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`. Pertanto, il ``delta`` accumulato potrebbe non rappresentare il tempo reale.
 
-\ **Note:** When ``--fixed-fps`` is enabled or the engine is running in Movie Maker mode (see :ref:`MovieWriter<class_MovieWriter>`), process ``delta`` will always be the same for every frame, regardless of how much time the frame took to render.
+\ **Nota:** Quando ``--fixed-fps`` è abilitato o il motore è in esecuzione in modalità Movie Maker (vedi :ref:`MovieWriter<class_MovieWriter>`), il ``delta`` del processo sarà sempre lo stesso per ogni frame, a prescindere dal tempo impiegato per renderizzare il frame.
 
-\ **Note:** Frame delta may be post-processed by :ref:`OS.delta_smoothing<class_OS_property_delta_smoothing>` if this is enabled for the project.
+\ **Nota:** È possibile che il delta dei frame sia post-elaborato da :ref:`OS.delta_smoothing<class_OS_property_delta_smoothing>` se questa opzione è abilitata per il progetto.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

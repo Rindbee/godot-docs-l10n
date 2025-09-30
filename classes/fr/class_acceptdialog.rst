@@ -331,7 +331,7 @@ Descriptions des propriétés du thème
 
 :ref:`int<class_int>` **buttons_min_height** = ``0`` :ref:`🔗<class_AcceptDialog_theme_constant_buttons_min_height>`
 
-La hauteur minimum de chaque bouton du rang du bas (comme OK/Annuler) en pixels. Cette valeur peut être augmentée pour faire en sorte que les boutons avec des textes courts soit plus facilement clickable.
+La hauteur minimale de chaque bouton de la ligne inférieure (comme OK/Annuler) en pixels. Cela peut être augmenté pour rendre les boutons avec des textes courts plus faciles à cliquer/presser.
 
 .. rst-class:: classref-item-separator
 
@@ -343,7 +343,7 @@ La hauteur minimum de chaque bouton du rang du bas (comme OK/Annuler) en pixels.
 
 :ref:`int<class_int>` **buttons_min_width** = ``0`` :ref:`🔗<class_AcceptDialog_theme_constant_buttons_min_width>`
 
-La largeur minimale de chaque bouton dans la ligne inférieure (comme OK/Annuler) en pixels. Cela peut être augmenté pour rendre les boutons avec des textes courts plus faciles à cliquer/presser.
+La largeur minimale de chaque bouton de la ligne inférieure (comme OK/Annuler) en pixels. Cela peut être augmenté pour rendre les boutons avec des textes courts plus faciles à cliquer/presser.
 
 .. rst-class:: classref-item-separator
 

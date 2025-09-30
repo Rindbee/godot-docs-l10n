@@ -7,22 +7,22 @@ TileSetAtlasSource
 
 **Hereda:** :ref:`TileSetSource<class_TileSetSource>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Exposes a 2D atlas texture as a set of tiles for a :ref:`TileSet<class_TileSet>` resource.
+Expone una textura atlas 2D como un conjunto de tiles para un recurso :ref:`TileSet<class_TileSet>`.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-An atlas is a grid of tiles laid out on a texture. Each tile in the grid must be exposed using :ref:`create_tile()<class_TileSetAtlasSource_method_create_tile>`. Those tiles are then indexed using their coordinates in the grid.
+Un atlas es una cuadrícula de tiles dispuestas en una textura. Cada tile en la cuadrícula debe exponerse utilizando :ref:`create_tile()<class_TileSetAtlasSource_method_create_tile>`. Esos tiles se indexan luego utilizando sus coordenadas en la cuadrícula.
 
-Each tile can also have a size in the grid coordinates, making it more or less cells in the atlas.
+Cada tile también puede tener un tamaño en las coordenadas de la cuadrícula, haciéndolo más o menos celdas en el atlas.
 
-Alternatives version of a tile can be created using :ref:`create_alternative_tile()<class_TileSetAtlasSource_method_create_alternative_tile>`, which are then indexed using an alternative ID. The main tile (the one in the grid), is accessed with an alternative ID equal to 0.
+Se pueden crear versiones alternativas de un tile utilizando :ref:`create_alternative_tile()<class_TileSetAtlasSource_method_create_alternative_tile>`, que luego se indexan utilizando un ID alternativo. Se accede al tile principal (el que está en la cuadrícula) con un ID alternativo igual a 0.
 
-Each tile alternate has a set of properties that is defined by the source's :ref:`TileSet<class_TileSet>` layers. Those properties are stored in a TileData object that can be accessed and modified using :ref:`get_tile_data()<class_TileSetAtlasSource_method_get_tile_data>`.
+Cada alternativa de tile tiene un conjunto de propiedades que se definen mediante las capas :ref:`TileSet<class_TileSet>` del origen. Esas propiedades se almacenan en un objeto TileData al que se puede acceder y modificar utilizando :ref:`get_tile_data()<class_TileSetAtlasSource_method_get_tile_data>`.
 
-As TileData properties are stored directly in the TileSetAtlasSource resource, their properties might also be set using ``TileSetAtlasSource.set("<coords_x>:<coords_y>/<alternative_id>/<tile_data_property>")``.
+Como las propiedades de TileData se almacenan directamente en el recurso TileSetAtlasSource, sus propiedades también se pueden establecer utilizando ``TileSetAtlasSource.set("<coords_x>:<coords_y>/<alternative_id>/<tile_data_property>")``.
 
 .. rst-class:: classref-reftable-group
 
@@ -137,7 +137,7 @@ enum **TileAnimationMode**: :ref:`🔗<enum_TileSetAtlasSource_TileAnimationMode
 
 :ref:`TileAnimationMode<enum_TileSetAtlasSource_TileAnimationMode>` **TILE_ANIMATION_MODE_DEFAULT** = ``0``
 
-Tile animations start at same time, looking identical.
+Las animaciones de los tiles comienzan al mismo tiempo, pareciendo idénticas.
 
 .. _class_TileSetAtlasSource_constant_TILE_ANIMATION_MODE_RANDOM_START_TIMES:
 
@@ -145,7 +145,7 @@ Tile animations start at same time, looking identical.
 
 :ref:`TileAnimationMode<enum_TileSetAtlasSource_TileAnimationMode>` **TILE_ANIMATION_MODE_RANDOM_START_TIMES** = ``1``
 
-Tile animations start at random times, looking varied.
+Las animaciones de los tiles comienzan en momentos aleatorios, pareciendo variadas.
 
 .. _class_TileSetAtlasSource_constant_TILE_ANIMATION_MODE_MAX:
 
@@ -170,16 +170,16 @@ Constantes
 
 **TRANSFORM_FLIP_H** = ``4096`` :ref:`🔗<class_TileSetAtlasSource_constant_TRANSFORM_FLIP_H>`
 
-Represents cell's horizontal flip flag. Should be used directly with :ref:`TileMapLayer<class_TileMapLayer>` to flip placed tiles by altering their alternative IDs.
+Representa la bandera de volteo horizontal de la celda. Debe usarse directamente con :ref:`TileMapLayer<class_TileMapLayer>` para voltear los tiles colocados alterando sus IDs alternativos.
 
 ::
 
-    var alternate_id = $TileMapLayer.get_cell_alternative_tile(Vector2i(2, 2))
-    if not alternate_id & TileSetAtlasSource.TRANSFORM_FLIP_H:
-        # If tile is not already flipped, flip it.
-        $TileMapLayer.set_cell(Vector2i(2, 2), source_id, atlas_coords, alternate_id | TileSetAtlasSource.TRANSFORM_FLIP_H)
+    var id_alternativo = $TileMapLayer.get_cell_alternative_tile(Vector2i(2, 2))
+    if not id_alternativo & TileSetAtlasSource.TRANSFORM_FLIP_H:
+        # Si el tile aún no está volteado, voltéalo.
+        $TileMapLayer.set_cell(Vector2i(2, 2), source_id, atlas_coords, id_alternativo | TileSetAtlasSource.TRANSFORM_FLIP_H)
 
-\ **Note:** These transformations can be combined to do the equivalent of 0, 90, 180, and 270 degree rotations, as shown below:
+\ **Nota:** Estas transformaciones pueden combinarse para hacer el equivalente a rotaciones de 0, 90, 180 y 270 grados, como se muestra a continuación:
 
 ::
 
@@ -196,7 +196,7 @@ Represents cell's horizontal flip flag. Should be used directly with :ref:`TileM
 
 **TRANSFORM_FLIP_V** = ``8192`` :ref:`🔗<class_TileSetAtlasSource_constant_TRANSFORM_FLIP_V>`
 
-Represents cell's vertical flip flag. See :ref:`TRANSFORM_FLIP_H<class_TileSetAtlasSource_constant_TRANSFORM_FLIP_H>` for usage.
+Representa la bandera de volteo vertical de la celda. Véase :ref:`TRANSFORM_FLIP_H<class_TileSetAtlasSource_constant_TRANSFORM_FLIP_H>` para su uso.
 
 .. _class_TileSetAtlasSource_constant_TRANSFORM_TRANSPOSE:
 
@@ -204,7 +204,7 @@ Represents cell's vertical flip flag. See :ref:`TRANSFORM_FLIP_H<class_TileSetAt
 
 **TRANSFORM_TRANSPOSE** = ``16384`` :ref:`🔗<class_TileSetAtlasSource_constant_TRANSFORM_TRANSPOSE>`
 
-Represents cell's transposed flag. See :ref:`TRANSFORM_FLIP_H<class_TileSetAtlasSource_constant_TRANSFORM_FLIP_H>` for usage.
+Representa la bandera de transposición de la celda. Véase :ref:`TRANSFORM_FLIP_H<class_TileSetAtlasSource_constant_TRANSFORM_FLIP_H>` para su uso.
 
 .. rst-class:: classref-section-separator
 
@@ -277,7 +277,7 @@ La textura del atlas.
 - |void| **set_texture_region_size**\ (\ value\: :ref:`Vector2i<class_Vector2i>`\ )
 - :ref:`Vector2i<class_Vector2i>` **get_texture_region_size**\ (\ )
 
-The base tile size in the texture (in pixel). This size must be bigger than or equal to the TileSet's ``tile_size`` value.
+El tamaño base del tile en la textura (en píxeles). Este tamaño debe ser mayor o igual que el valor ``tile_size`` del TileSet.
 
 .. rst-class:: classref-item-separator
 
@@ -294,9 +294,9 @@ The base tile size in the texture (in pixel). This size must be bigger than or e
 - |void| **set_use_texture_padding**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_use_texture_padding**\ (\ )
 
-If ``true``, generates an internal texture with an additional one pixel padding around each tile. Texture padding avoids a common artifact where lines appear between tiles.
+Si es ``true``, genera una textura interna con un relleno adicional de un píxel alrededor de cada tile. El relleno de la textura evita un artefacto común donde aparecen líneas entre los tiles.
 
-Disabling this setting might lead a small performance improvement, as generating the internal texture requires both memory and processing time when the TileSetAtlasSource resource is modified.
+Deshabilitar esta opción podría conducir a una pequeña mejora en el rendimiento, ya que generar la textura interna requiere tanto memoria como tiempo de procesamiento cuando se modifica el recurso TileSetAtlasSource.
 
 .. rst-class:: classref-section-separator
 
@@ -313,7 +313,7 @@ Descripciones de Métodos
 
 |void| **clear_tiles_outside_texture**\ (\ ) :ref:`🔗<class_TileSetAtlasSource_method_clear_tiles_outside_texture>`
 
-Removes all tiles that don't fit the available texture area. This method iterates over all the source's tiles, so it's advised to use :ref:`has_tiles_outside_texture()<class_TileSetAtlasSource_method_has_tiles_outside_texture>` beforehand.
+Elimina todos los tiles que no encajan en el área de textura disponible. Este método itera sobre todos los tiles del origen, por lo que se aconseja utilizar :ref:`has_tiles_outside_texture()<class_TileSetAtlasSource_method_has_tiles_outside_texture>` de antemano.
 
 .. rst-class:: classref-item-separator
 
@@ -325,9 +325,9 @@ Removes all tiles that don't fit the available texture area. This method iterate
 
 :ref:`int<class_int>` **create_alternative_tile**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`, alternative_id_override\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_TileSetAtlasSource_method_create_alternative_tile>`
 
-Creates an alternative tile for the tile at coordinates ``atlas_coords``. If ``alternative_id_override`` is -1, give it an automatically generated unique ID, or assigns it the given ID otherwise.
+Crea un tile alternativo para el tile en las coordenadas ``atlas_coords``. Si ``alternative_id_override`` es -1, le da un ID único generado automáticamente, o le asigna el ID dado de lo contrario.
 
-Returns the new alternative identifier, or -1 if the alternative could not be created with a provided ``alternative_id_override``.
+Devuelve el nuevo identificador alternativo, o -1 si la alternativa no pudo ser creada con un ``alternative_id_override`` proporcionado.
 
 .. rst-class:: classref-item-separator
 
@@ -339,7 +339,7 @@ Returns the new alternative identifier, or -1 if the alternative could not be cr
 
 |void| **create_tile**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`, size\: :ref:`Vector2i<class_Vector2i>` = Vector2i(1, 1)\ ) :ref:`🔗<class_TileSetAtlasSource_method_create_tile>`
 
-Creates a new tile at coordinates ``atlas_coords`` with the given ``size``.
+Crea un nuevo tile en las coordenadas ``atlas_coords`` con el ``size`` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -351,7 +351,7 @@ Creates a new tile at coordinates ``atlas_coords`` with the given ``size``.
 
 :ref:`Vector2i<class_Vector2i>` **get_atlas_grid_size**\ (\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_atlas_grid_size>`
 
-Returns the atlas grid size, which depends on how many tiles can fit in the texture. It thus depends on the :ref:`texture<class_TileSetAtlasSource_property_texture>`'s size, the atlas :ref:`margins<class_TileSetAtlasSource_property_margins>`, and the tiles' :ref:`texture_region_size<class_TileSetAtlasSource_property_texture_region_size>`.
+Devuelve el tamaño de la cuadrícula del atlas, que depende de cuántos tiles caben en la textura. Por lo tanto, depende del tamaño de :ref:`texture<class_TileSetAtlasSource_property_texture>`, los :ref:`margins<class_TileSetAtlasSource_property_margins>` del atlas y el :ref:`texture_region_size<class_TileSetAtlasSource_property_texture_region_size>` de los tiles.
 
 .. rst-class:: classref-item-separator
 
@@ -363,7 +363,7 @@ Returns the atlas grid size, which depends on how many tiles can fit in the text
 
 :ref:`int<class_int>` **get_next_alternative_tile_id**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_next_alternative_tile_id>`
 
-Returns the alternative ID a following call to :ref:`create_alternative_tile()<class_TileSetAtlasSource_method_create_alternative_tile>` would return.
+Devuelve el ID alternativo que devolvería una llamada posterior a :ref:`create_alternative_tile()<class_TileSetAtlasSource_method_create_alternative_tile>`.
 
 .. rst-class:: classref-item-separator
 
@@ -375,7 +375,7 @@ Returns the alternative ID a following call to :ref:`create_alternative_tile()<c
 
 :ref:`Texture2D<class_Texture2D>` **get_runtime_texture**\ (\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_runtime_texture>`
 
-If :ref:`use_texture_padding<class_TileSetAtlasSource_property_use_texture_padding>` is ``false``, returns :ref:`texture<class_TileSetAtlasSource_property_texture>`. Otherwise, returns and internal :ref:`ImageTexture<class_ImageTexture>` created that includes the padding.
+Si :ref:`use_texture_padding<class_TileSetAtlasSource_property_use_texture_padding>` es ``false``, devuelve :ref:`texture<class_TileSetAtlasSource_property_texture>`. De lo contrario, devuelve una :ref:`ImageTexture<class_ImageTexture>` interna creada que incluye el relleno.
 
 .. rst-class:: classref-item-separator
 
@@ -387,9 +387,9 @@ If :ref:`use_texture_padding<class_TileSetAtlasSource_property_use_texture_paddi
 
 :ref:`Rect2i<class_Rect2i>` **get_runtime_tile_texture_region**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`, frame\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_runtime_tile_texture_region>`
 
-Returns the region of the tile at coordinates ``atlas_coords`` for the given ``frame`` inside the texture returned by :ref:`get_runtime_texture()<class_TileSetAtlasSource_method_get_runtime_texture>`.
+Devuelve la región del tile en las coordenadas ``atlas_coords`` para el ``frame`` dado dentro de la textura devuelta por :ref:`get_runtime_texture()<class_TileSetAtlasSource_method_get_runtime_texture>`.
 
-\ **Note:** If :ref:`use_texture_padding<class_TileSetAtlasSource_property_use_texture_padding>` is ``false``, returns the same as :ref:`get_tile_texture_region()<class_TileSetAtlasSource_method_get_tile_texture_region>`.
+\ **Nota:** Si :ref:`use_texture_padding<class_TileSetAtlasSource_property_use_texture_padding>` es ``false``, devuelve lo mismo que :ref:`get_tile_texture_region()<class_TileSetAtlasSource_method_get_tile_texture_region>`.
 
 .. rst-class:: classref-item-separator
 
@@ -401,7 +401,7 @@ Returns the region of the tile at coordinates ``atlas_coords`` for the given ``f
 
 :ref:`int<class_int>` **get_tile_animation_columns**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_tile_animation_columns>`
 
-Returns how many columns the tile at ``atlas_coords`` has in its animation layout.
+Devuelve cuántas columnas tiene el tile en ``atlas_coords`` en su diseño de animación.
 
 .. rst-class:: classref-item-separator
 
@@ -413,7 +413,7 @@ Returns how many columns the tile at ``atlas_coords`` has in its animation layou
 
 :ref:`float<class_float>` **get_tile_animation_frame_duration**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`, frame_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_tile_animation_frame_duration>`
 
-Returns the animation frame duration of frame ``frame_index`` for the tile at coordinates ``atlas_coords``.
+Devuelve la duración del fotograma de animación ``frame_index`` para el tile en las coordenadas ``atlas_coords``.
 
 .. rst-class:: classref-item-separator
 
@@ -425,7 +425,7 @@ Returns the animation frame duration of frame ``frame_index`` for the tile at co
 
 :ref:`int<class_int>` **get_tile_animation_frames_count**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_tile_animation_frames_count>`
 
-Returns how many animation frames has the tile at coordinates ``atlas_coords``.
+Devuelve cuántos fotogramas de animación tiene el tile en las coordenadas ``atlas_coords``.
 
 .. rst-class:: classref-item-separator
 
@@ -437,7 +437,7 @@ Returns how many animation frames has the tile at coordinates ``atlas_coords``.
 
 :ref:`TileAnimationMode<enum_TileSetAtlasSource_TileAnimationMode>` **get_tile_animation_mode**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_tile_animation_mode>`
 
-Returns the tile animation mode of the tile at ``atlas_coords``. See also :ref:`set_tile_animation_mode()<class_TileSetAtlasSource_method_set_tile_animation_mode>`.
+Devuelve el modo de animación del tile en ``atlas_coords``. Véase también :ref:`set_tile_animation_mode()<class_TileSetAtlasSource_method_set_tile_animation_mode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -449,7 +449,7 @@ Returns the tile animation mode of the tile at ``atlas_coords``. See also :ref:`
 
 :ref:`Vector2i<class_Vector2i>` **get_tile_animation_separation**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_tile_animation_separation>`
 
-Returns the separation (as in the atlas grid) between each frame of an animated tile at coordinates ``atlas_coords``.
+Devuelve la separación (como en la cuadrícula del atlas) entre cada fotograma de un tile animado en las coordenadas ``atlas_coords``.
 
 .. rst-class:: classref-item-separator
 
@@ -461,7 +461,7 @@ Returns the separation (as in the atlas grid) between each frame of an animated 
 
 :ref:`float<class_float>` **get_tile_animation_speed**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_tile_animation_speed>`
 
-Returns the animation speed of the tile at coordinates ``atlas_coords``.
+Devuelve la velocidad de animación del tile en las coordenadas ``atlas_coords``.
 
 .. rst-class:: classref-item-separator
 
@@ -473,7 +473,7 @@ Returns the animation speed of the tile at coordinates ``atlas_coords``.
 
 :ref:`float<class_float>` **get_tile_animation_total_duration**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_tile_animation_total_duration>`
 
-Returns the sum of the sum of the frame durations of the tile at coordinates ``atlas_coords``. This value needs to be divided by the animation speed to get the actual animation loop duration.
+Devuelve la suma de la suma de las duraciones de los fotogramas del tile en las coordenadas ``atlas_coords``. Este valor debe dividirse por la velocidad de animación para obtener la duración real del bucle de animación.
 
 .. rst-class:: classref-item-separator
 
@@ -485,7 +485,7 @@ Returns the sum of the sum of the frame durations of the tile at coordinates ``a
 
 :ref:`Vector2i<class_Vector2i>` **get_tile_at_coords**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_tile_at_coords>`
 
-If there is a tile covering the ``atlas_coords`` coordinates, returns the top-left coordinates of the tile (thus its coordinate ID). Returns ``Vector2i(-1, -1)`` otherwise.
+Si hay un tile que cubre las coordenadas ``atlas_coords``, devuelve las coordenadas de la esquina superior izquierda del tile (por lo tanto, su ID de coordenada). De lo contrario, devuelve ``Vector2i(-1, -1)``.
 
 .. rst-class:: classref-item-separator
 
@@ -497,7 +497,7 @@ If there is a tile covering the ``atlas_coords`` coordinates, returns the top-le
 
 :ref:`TileData<class_TileData>` **get_tile_data**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`, alternative_tile\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_tile_data>`
 
-Returns the :ref:`TileData<class_TileData>` object for the given atlas coordinates and alternative ID.
+Devuelve el objeto :ref:`TileData<class_TileData>` para las coordenadas del atlas y el ID alternativo dados.
 
 .. rst-class:: classref-item-separator
 
@@ -509,7 +509,7 @@ Returns the :ref:`TileData<class_TileData>` object for the given atlas coordinat
 
 :ref:`Vector2i<class_Vector2i>` **get_tile_size_in_atlas**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_tile_size_in_atlas>`
 
-Returns the size of the tile (in the grid coordinates system) at coordinates ``atlas_coords``.
+Devuelve el tamaño del tile (en el sistema de coordenadas de la cuadrícula) en las coordenadas ``atlas_coords``.
 
 .. rst-class:: classref-item-separator
 
@@ -521,7 +521,7 @@ Returns the size of the tile (in the grid coordinates system) at coordinates ``a
 
 :ref:`Rect2i<class_Rect2i>` **get_tile_texture_region**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`, frame\: :ref:`int<class_int>` = 0\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_tile_texture_region>`
 
-Returns a tile's texture region in the atlas texture. For animated tiles, a ``frame`` argument might be provided for the different frames of the animation.
+Devuelve la región de textura de un tile en la textura del atlas. Para los tiles animados, se puede proporcionar un argumento ``frame`` para los diferentes fotogramas de la animación.
 
 .. rst-class:: classref-item-separator
 
@@ -533,7 +533,7 @@ Returns a tile's texture region in the atlas texture. For animated tiles, a ``fr
 
 :ref:`PackedVector2Array<class_PackedVector2Array>` **get_tiles_to_be_removed_on_change**\ (\ texture\: :ref:`Texture2D<class_Texture2D>`, margins\: :ref:`Vector2i<class_Vector2i>`, separation\: :ref:`Vector2i<class_Vector2i>`, texture_region_size\: :ref:`Vector2i<class_Vector2i>`\ ) :ref:`🔗<class_TileSetAtlasSource_method_get_tiles_to_be_removed_on_change>`
 
-Returns an array of tiles coordinates ID that will be automatically removed when modifying one or several of those properties: ``texture``, ``margins``, ``separation`` or ``texture_region_size``. This can be used to undo changes that would have caused tiles data loss.
+Devuelve un array de ID de coordenadas de tiles que se eliminarán automáticamente al modificar una o varias de estas propiedades: ``texture``, ``margins``, ``separation`` o ``texture_region_size``. Esto se puede utilizar para deshacer los cambios que habrían causado la pérdida de datos de los tiles.
 
 .. rst-class:: classref-item-separator
 
@@ -545,7 +545,7 @@ Returns an array of tiles coordinates ID that will be automatically removed when
 
 :ref:`bool<class_bool>` **has_room_for_tile**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`, size\: :ref:`Vector2i<class_Vector2i>`, animation_columns\: :ref:`int<class_int>`, animation_separation\: :ref:`Vector2i<class_Vector2i>`, frames_count\: :ref:`int<class_int>`, ignored_tile\: :ref:`Vector2i<class_Vector2i>` = Vector2i(-1, -1)\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_has_room_for_tile>`
 
-Returns whether there is enough room in an atlas to create/modify a tile with the given properties. If ``ignored_tile`` is provided, act as is the given tile was not present in the atlas. This may be used when you want to modify a tile's properties.
+Devuelve si hay suficiente espacio en un atlas para crear/modificar un tile con las propiedades dadas. Si se proporciona ``ignored_tile``, actúa como si el tile dado no estuviera presente en el atlas. Esto se puede utilizar cuando quieres modificar las propiedades de un tile.
 
 .. rst-class:: classref-item-separator
 
@@ -557,7 +557,7 @@ Returns whether there is enough room in an atlas to create/modify a tile with th
 
 :ref:`bool<class_bool>` **has_tiles_outside_texture**\ (\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_has_tiles_outside_texture>`
 
-Checks if the source has any tiles that don't fit the texture area (either partially or completely).
+Comprueba si el origen tiene algún tile que no se ajuste al área de textura (ya sea parcial o completamente).
 
 .. rst-class:: classref-item-separator
 
@@ -569,11 +569,11 @@ Checks if the source has any tiles that don't fit the texture area (either parti
 
 |void| **move_tile_in_atlas**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`, new_atlas_coords\: :ref:`Vector2i<class_Vector2i>` = Vector2i(-1, -1), new_size\: :ref:`Vector2i<class_Vector2i>` = Vector2i(-1, -1)\ ) :ref:`🔗<class_TileSetAtlasSource_method_move_tile_in_atlas>`
 
-Move the tile and its alternatives at the ``atlas_coords`` coordinates to the ``new_atlas_coords`` coordinates with the ``new_size`` size. This functions will fail if a tile is already present in the given area.
+Mueve el tile y sus alternativas en las coordenadas ``atlas_coords`` a las coordenadas ``new_atlas_coords`` con el tamaño ``new_size``. Esta función fallará si ya hay un tile presente en el área dada.
 
-If ``new_atlas_coords`` is ``Vector2i(-1, -1)``, keeps the tile's coordinates. If ``new_size`` is ``Vector2i(-1, -1)``, keeps the tile's size.
+Si ``new_atlas_coords`` es ``Vector2i(-1, -1)``, mantiene las coordenadas del tile. Si ``new_size`` es ``Vector2i(-1, -1)``, mantiene el tamaño del tile.
 
-To avoid an error, first check if a move is possible using :ref:`has_room_for_tile()<class_TileSetAtlasSource_method_has_room_for_tile>`.
+Para evitar un error, primero comprueba si un movimiento es posible usando :ref:`has_room_for_tile()<class_TileSetAtlasSource_method_has_room_for_tile>`.
 
 .. rst-class:: classref-item-separator
 
@@ -585,9 +585,9 @@ To avoid an error, first check if a move is possible using :ref:`has_room_for_ti
 
 |void| **remove_alternative_tile**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`, alternative_tile\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TileSetAtlasSource_method_remove_alternative_tile>`
 
-Remove a tile's alternative with alternative ID ``alternative_tile``.
+Elimina la alternativa de un tile con el ID alternativo ``alternative_tile``.
 
-Calling this function with ``alternative_tile`` equals to 0 will fail, as the base tile alternative cannot be removed.
+Llamar a esta función con ``alternative_tile`` igual a 0 fallará, ya que la alternativa del tile base no se puede eliminar.
 
 .. rst-class:: classref-item-separator
 
@@ -599,7 +599,7 @@ Calling this function with ``alternative_tile`` equals to 0 will fail, as the ba
 
 |void| **remove_tile**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`\ ) :ref:`🔗<class_TileSetAtlasSource_method_remove_tile>`
 
-Remove a tile and its alternative at coordinates ``atlas_coords``.
+Elimina un tile y su alternativa en las coordenadas ``atlas_coords``.
 
 .. rst-class:: classref-item-separator
 
@@ -611,9 +611,9 @@ Remove a tile and its alternative at coordinates ``atlas_coords``.
 
 |void| **set_alternative_tile_id**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`, alternative_tile\: :ref:`int<class_int>`, new_id\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TileSetAtlasSource_method_set_alternative_tile_id>`
 
-Change a tile's alternative ID from ``alternative_tile`` to ``new_id``.
+Cambia el ID alternativo de un tile de ``alternative_tile`` a ``new_id``.
 
-Calling this function with ``new_id`` of 0 will fail, as the base tile alternative cannot be moved.
+Llamar a esta función con ``new_id`` de 0 fallará, ya que la alternativa del tile base no se puede mover.
 
 .. rst-class:: classref-item-separator
 
@@ -625,7 +625,7 @@ Calling this function with ``new_id`` of 0 will fail, as the base tile alternati
 
 |void| **set_tile_animation_columns**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`, frame_columns\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TileSetAtlasSource_method_set_tile_animation_columns>`
 
-Sets the number of columns in the animation layout of the tile at coordinates ``atlas_coords``. If set to 0, then the different frames of the animation are laid out as a single horizontal line in the atlas.
+Establece el número de columnas en el diseño de animación del tile en las coordenadas ``atlas_coords``. Si se establece en 0, los diferentes fotogramas de la animación se disponen como una sola línea horizontal en el atlas.
 
 .. rst-class:: classref-item-separator
 
@@ -637,7 +637,7 @@ Sets the number of columns in the animation layout of the tile at coordinates ``
 
 |void| **set_tile_animation_frame_duration**\ (\ atlas_coords\: :ref:`Vector2i<class_Vector2i>`, frame_index\: :ref:`int<class_int>`, duration\: :ref:`float<class_float>`\ ) :ref:`🔗<class_TileSetAtlasSource_method_set_tile_animation_frame_duration>`
 
-Sets the animation frame ``duration`` of frame ``frame_index`` for the tile at coordinates ``atlas_coords``.
+Establece la duración ``duration`` del fotograma de animación ``frame_index`` para el tile en las coordenadas ``atlas_coords``.
 
 .. rst-class:: classref-item-separator
 

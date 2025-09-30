@@ -14,7 +14,7 @@ Un nodo utilizzato per precaricare sotto-risorse all'interno di una scena.
 Descrizione
 ----------------------
 
-Questo nodo viene utilizzato per precaricare le sotto-risorse all'interno di una scena, in modo che quando la scena viene caricata, tutte le risorse sono pronte per l'uso e possono essere recuperate dal preloader. Puoi aggiungere le risorse utilizzando la scheda ResourcePreloader quando il nodo è selezionato.
+Questo nodo serve per precaricare le sotto-risorse all'interno di una scena, in modo che quando la scena viene caricata, tutte le risorse sono pronte per l'uso e possono essere recuperate dal preloader. È possibile aggiungere le risorse attraverso la scheda ResourcePreloader quando il nodo è selezionato.
 
 GDScript fornisce il metodo integrato semplificato :ref:`@GDScript.preload()<class_@GDScript_method_preload>` che è sufficiente nella maggior parte delle situazioni, lasciando l'uso di **ResourcePreloader** per motivi più avanzati.
 

@@ -472,9 +472,9 @@ La dimensione angolare della luce in gradi. Aumentando questo valore, le ombre s
 - |void| **set_bake_mode**\ (\ value\: :ref:`BakeMode<enum_Light3D_BakeMode>`\ )
 - :ref:`BakeMode<enum_Light3D_BakeMode>` **get_bake_mode**\ (\ )
 
-The light's bake mode. This will affect the global illumination techniques that have an effect on the light's rendering.
+La modalità di precalcolo della luce. Ciò influirà sulle tecniche di illuminazione globale che influenzano il rendering della luce.
 
-\ **Note:** Meshes' global illumination mode will also affect the global illumination rendering. See :ref:`GeometryInstance3D.gi_mode<class_GeometryInstance3D_property_gi_mode>`.
+\ **Nota:** La modalità di illuminazione globale delle mesh influirà anche sul rendering dell'illuminazione globale. Vedi :ref:`GeometryInstance3D.gi_mode<class_GeometryInstance3D_property_gi_mode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -491,7 +491,7 @@ The light's bake mode. This will affect the global illumination techniques that 
 - |void| **set_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_color**\ (\ )
 
-The light's color in the nonlinear sRGB color space. An *overbright* color can be used to achieve a result equivalent to increasing the light's :ref:`light_energy<class_Light3D_property_light_energy>`.
+Il colore della luce nello spazio colore sRGB non-lineare. Si può utilizzare un colore *sovra-luminoso* per un risultato equivalente all'aumento del :ref:`light_energy<class_Light3D_property_light_energy>` della luce.
 
 .. rst-class:: classref-item-separator
 
@@ -508,7 +508,9 @@ The light's color in the nonlinear sRGB color space. An *overbright* color can b
 - |void| **set_cull_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_cull_mask**\ (\ )
 
-La luce influirà sugli oggetti negli strati selezionati.
+The light will affect objects in the selected layers.
+
+\ **Note:** The light cull mask is ignored by :ref:`VoxelGI<class_VoxelGI>`, SDFGI, :ref:`LightmapGI<class_LightmapGI>`, and volumetric fog. These will always render lights in a way that ignores the cull mask. See also :ref:`VisualInstance3D.layers<class_VisualInstance3D_property_layers>`.
 
 .. rst-class:: classref-item-separator
 
@@ -677,7 +679,7 @@ L'intensità della macchia speculare negli oggetti influenzati dalla luce. A ``0
 - |void| **set_temperature**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_temperature**\ (\ )
 
-Imposta la temperatura di colore della sorgente luminosa, misurata in Kelvin. È utilizzata per calcolare una temperatura di colore correlata che tinge il :ref:`light_color<class_Light3D_property_light_color>`.
+Imposta la temperatura di colore della sorgente luminosa, misurata in Kelvin. Serve per calcolare una temperatura di colore correlata che tinge il :ref:`light_color<class_Light3D_property_light_color>`.
 
 Il sole in una giornata nuvolosa è di circa 6500 Kelvin, in una giornata limpida è tra 5500 e 6000 Kelvin e in una giornata limpida all'alba o al tramonto varia fino a circa 1850 Kelvin.
 

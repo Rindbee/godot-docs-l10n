@@ -7,16 +7,16 @@ ScriptBacktrace
 
 **Eredita:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A captured backtrace of a specific script language.
+Un backtrace catturato di uno specifico linguaggio di script.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-**ScriptBacktrace** holds an already captured backtrace of a specific script language, such as GDScript or C#, which are captured using :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>`.
+**ScriptBacktrace** contiene un backtrace già catturato di uno specifico linguaggio di scripting, come GDScript o C#, che è catturato attraverso :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>`.
 
-See :ref:`ProjectSettings.debug/settings/gdscript/always_track_call_stacks<class_ProjectSettings_property_debug/settings/gdscript/always_track_call_stacks>` and :ref:`ProjectSettings.debug/settings/gdscript/always_track_local_variables<class_ProjectSettings_property_debug/settings/gdscript/always_track_local_variables>` for ways of controlling the contents of this class.
+Consultare :ref:`ProjectSettings.debug/settings/gdscript/always_track_call_stacks<class_ProjectSettings_property_debug/settings/gdscript/always_track_call_stacks>` e :ref:`ProjectSettings.debug/settings/gdscript/always_track_local_variables<class_ProjectSettings_property_debug/settings/gdscript/always_track_local_variables>` per informazioni su come controllare il contenuto di questa classe.
 
 .. rst-class:: classref-reftable-group
 
@@ -75,9 +75,9 @@ Descrizioni dei metodi
 
 :ref:`String<class_String>` **format**\ (\ indent_all\: :ref:`int<class_int>` = 0, indent_frames\: :ref:`int<class_int>` = 4\ ) |const| :ref:`🔗<class_ScriptBacktrace_method_format>`
 
-Converts the backtrace to a :ref:`String<class_String>`, where the entire string will be indented by ``indent_all`` number of spaces, and the individual stack frames will be additionally indented by ``indent_frames`` number of spaces.
+Converte il backtrace in una :ref:`String<class_String>`, dove l'intera stringa sarà rientrata di un numero di spazi pari a ``indent_all`` e i singoli stack frame saranno ulteriormente rientrati di un numero di spazi pari a ``indent_frames``.
 
-\ **Note:** Calling :ref:`Object.to_string()<class_Object_method_to_string>` on a **ScriptBacktrace** will produce the same output as calling :ref:`format()<class_ScriptBacktrace_method_format>` with all parameters left at their default values.
+\ **Nota:** Chiamare :ref:`Object.to_string()<class_Object_method_to_string>` su uno **ScriptBacktrace** produrrà lo stesso risultato di chiamare :ref:`format()<class_ScriptBacktrace_method_format>`, con tutti i parametri lasciati ai loro valori predefiniti.
 
 .. rst-class:: classref-item-separator
 
@@ -137,9 +137,9 @@ Restituisce il numero di riga del sito di chiamata rappresentato dal frame dello
 
 :ref:`int<class_int>` **get_global_variable_count**\ (\ ) |const| :ref:`🔗<class_ScriptBacktrace_method_get_global_variable_count>`
 
-Returns the number of global variables (e.g. autoload singletons) in the backtrace.
+Restituisce il numero di variabili globali (ad esempio, singleton autoload) nel backtrace.
 
-\ **Note:** This will be non-zero only if the ``include_variables`` parameter was ``true`` when capturing the backtrace with :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>`.
+\ **Nota:** Questo valore sarà diverso da zero solo se il parametro ``include_variables`` era ``true`` durante la cattura del backtrace con :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>`.
 
 .. rst-class:: classref-item-separator
 
@@ -163,9 +163,9 @@ Restituisce il nome della variabile globale al frame dello stack all'indice spec
 
 :ref:`Variant<class_Variant>` **get_global_variable_value**\ (\ variable_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ScriptBacktrace_method_get_global_variable_value>`
 
-Returns the value of the global variable at the specified index.
+Restituisce il valore della variabile globale all'indice specificato.
 
-\ **Warning:** With GDScript backtraces, the returned :ref:`Variant<class_Variant>` will be the variable's actual value, including any object references. This means that storing the returned :ref:`Variant<class_Variant>` will prevent any such object from being deallocated, so it's generally recommended not to do so.
+\ **Attenzione:** Con i backtrace di GDScript, il :ref:`Variant<class_Variant>` restituito sarà il valore attuale della variabile, inclusi eventuali riferimenti a oggetti. Ciò significa che memorizzando il :ref:`Variant<class_Variant>` restituito si impedirà la deallocazione di tali oggetti, quindi in genere si consiglia di non farlo.
 
 .. rst-class:: classref-item-separator
 
@@ -189,9 +189,9 @@ Restituisce il nome del linguaggio di script da cui è stato catturato questo ba
 
 :ref:`int<class_int>` **get_local_variable_count**\ (\ frame_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ScriptBacktrace_method_get_local_variable_count>`
 
-Returns the number of local variables in the stack frame at the specified index.
+Restituisce il numero di variabili locali nello stack frame all'indice specificato.
 
-\ **Note:** This will be non-zero only if the ``include_variables`` parameter was ``true`` when capturing the backtrace with :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>`.
+\ **Nota:** Questo valore sarà diverso da zero solo se il parametro ``include_variables`` era ``true`` durante la cattura del backtrace con :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>`.
 
 .. rst-class:: classref-item-separator
 
@@ -215,9 +215,9 @@ Restituisce il nome della variabile locale all'indice ``variable_index`` nel fra
 
 :ref:`Variant<class_Variant>` **get_local_variable_value**\ (\ frame_index\: :ref:`int<class_int>`, variable_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ScriptBacktrace_method_get_local_variable_value>`
 
-Returns the value of the local variable at the specified ``variable_index`` in the stack frame at the specified ``frame_index``.
+Restituisce il valore della variabile locale all'indice ``variable_index`` nello stack frame all'indice ``frame_index``.
 
-\ **Warning:** With GDScript backtraces, the returned :ref:`Variant<class_Variant>` will be the variable's actual value, including any object references. This means that storing the returned :ref:`Variant<class_Variant>` will prevent any such object from being deallocated, so it's generally recommended not to do so.
+\ **Attenzione:** Con i backtrace di GDScript, il :ref:`Variant<class_Variant>` restituito sarà il valore attuale della variabile, inclusi eventuali riferimenti a oggetti. Ciò significa che memorizzando il :ref:`Variant<class_Variant>` restituito si impedirà la deallocazione di tali oggetti, quindi in genere si consiglia di non farlo.
 
 .. rst-class:: classref-item-separator
 
@@ -229,9 +229,9 @@ Returns the value of the local variable at the specified ``variable_index`` in t
 
 :ref:`int<class_int>` **get_member_variable_count**\ (\ frame_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ScriptBacktrace_method_get_member_variable_count>`
 
-Returns the number of member variables in the stack frame at the specified index.
+Restituisce il numero di variabili membro nello stack frame all'indice specificato.
 
-\ **Note:** This will be non-zero only if the ``include_variables`` parameter was ``true`` when capturing the backtrace with :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>`.
+\ **Nota:** Questo valore sarà diverso da zero solo se il parametro ``include_variables`` era ``true`` durante la cattura del backtrace con :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>`.
 
 .. rst-class:: classref-item-separator
 
@@ -255,9 +255,9 @@ Restituisce il nome della variabile membro all'indice ``variable_index`` nel fra
 
 :ref:`Variant<class_Variant>` **get_member_variable_value**\ (\ frame_index\: :ref:`int<class_int>`, variable_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ScriptBacktrace_method_get_member_variable_value>`
 
-Returns the value of the member variable at the specified ``variable_index`` in the stack frame at the specified ``frame_index``.
+Restituisce il valore della variabile membro all'indice ``variable_index`` nello stack frame all'indice ``frame_index``.
 
-\ **Warning:** With GDScript backtraces, the returned :ref:`Variant<class_Variant>` will be the variable's actual value, including any object references. This means that storing the returned :ref:`Variant<class_Variant>` will prevent any such object from being deallocated, so it's generally recommended not to do so.
+\ **Attenzione:** Con i backtrace di GDScript, il :ref:`Variant<class_Variant>` restituito sarà il valore attuale della variabile, inclusi eventuali riferimenti a oggetti. Ciò significa che memorizzando il :ref:`Variant<class_Variant>` restituito si impedirà la deallocazione di tali oggetti, quindi in genere si consiglia di non farlo.
 
 .. rst-class:: classref-item-separator
 

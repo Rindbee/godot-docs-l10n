@@ -14,13 +14,13 @@ Nodo di telecamera per le scene in 2D.
 Descrizione
 ----------------------
 
-Camera node for 2D scenes. It forces the screen (current layer) to scroll following this node. This makes it easier (and faster) to program scrollable scenes than manually changing the position of :ref:`CanvasItem<class_CanvasItem>`-based nodes.
+Nodo telecamera per le scene 2D. Forza lo schermo (livello attuale) a scorrere seguendo questo nodo. Ciò rende più facile (e veloce) programmare scene scorrevoli rispetto alla modifica manuale della posizione dei nodi basati su :ref:`CanvasItem<class_CanvasItem>`.
 
-Cameras register themselves in the nearest :ref:`Viewport<class_Viewport>` node (when ascending the tree). Only one camera can be active per viewport. If no viewport is available ascending the tree, the camera will register in the global viewport.
+Le telecamere si registrano nel nodo :ref:`Viewport<class_Viewport>` più vicino (quando si sale nell'albero). Solo una telecamera può essere attiva per ogni viewport. Se non è disponibile alcuna viewport salendo nell'albero, la telecamera si registrerà nella viewport globale.
 
-This node is intended to be a simple helper to get things going quickly, but more functionality may be desired to change how the camera works. To make your own custom camera node, inherit it from :ref:`Node2D<class_Node2D>` and change the transform of the canvas by setting :ref:`Viewport.canvas_transform<class_Viewport_property_canvas_transform>` in :ref:`Viewport<class_Viewport>` (you can obtain the current :ref:`Viewport<class_Viewport>` by using :ref:`Node.get_viewport()<class_Node_method_get_viewport>`).
+Questo nodo è pensato come aiuto per far funzionare le cose rapidamente, ma potrebbero essere desiderate più funzionalità per cambiare il modo in cui funziona la telecamera. Per creare il tuo nodo telecamera personalizzato, ereditalo da :ref:`Node2D<class_Node2D>` e modifica la trasformazione del canvas impostando :ref:`Viewport.canvas_transform<class_Viewport_property_canvas_transform>` in :ref:`Viewport<class_Viewport>` (puoi ottenere la :ref:`Viewport<class_Viewport>` attuale tramite :ref:`Node.get_viewport()<class_Node_method_get_viewport>`).
 
-Note that the **Camera2D** node's :ref:`Node2D.global_position<class_Node2D_property_global_position>` doesn't represent the actual position of the screen, which may differ due to applied smoothing or limits. You can use :ref:`get_screen_center_position()<class_Camera2D_method_get_screen_center_position>` to get the real position. Same for the node's :ref:`Node2D.global_rotation<class_Node2D_property_global_rotation>` which may be different due to applied rotation smoothing. You can use :ref:`get_screen_rotation()<class_Camera2D_method_get_screen_rotation>` to get the current rotation of the screen.
+Nota che la :ref:`Node2D.global_position<class_Node2D_property_global_position>` del nodo **Camera2D** non rappresenta la posizione effettiva dello schermo, che potrebbe differire a causa di attenuazioni o limiti applicati. Puoi usare :ref:`get_screen_center_position()<class_Camera2D_method_get_screen_center_position>` per ottenere la posizione reale. Lo stesso vale per la :ref:`Node2D.global_rotation<class_Node2D_property_global_rotation>` del nodo, che potrebbe essere diversa a causa dell'applicazione dell'attenuazione della rotazione. È possibile usare :ref:`get_screen_rotation()<class_Camera2D_method_get_screen_rotation>` per ottenere la rotazione attuale dello schermo.
 
 .. rst-class:: classref-introduction-group
 
@@ -208,7 +208,7 @@ Descrizioni delle proprietà
 - |void| **set_anchor_mode**\ (\ value\: :ref:`AnchorMode<enum_Camera2D_AnchorMode>`\ )
 - :ref:`AnchorMode<enum_Camera2D_AnchorMode>` **get_anchor_mode**\ (\ )
 
-The Camera2D's anchor point.
+Il punto di ancoraggio della Camera2D.
 
 .. rst-class:: classref-item-separator
 
@@ -486,7 +486,7 @@ Limite di scorrimento inferiore in pixel. La telecamera smette di muoversi quand
 - |void| **set_limit_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_limit_enabled**\ (\ )
 
-If ``true``, the limits will be enabled. Disabling this will allow the camera to focus anywhere, when the four ``limit_*`` properties will not work.
+Se ``true``, i limiti saranno abilitati. Disabilitandoli, la telecamera potrà focalizzarsi ovunque, quando le quattro proprietà ``limit_*`` non funzioneranno.
 
 .. rst-class:: classref-item-separator
 
@@ -626,7 +626,7 @@ Velocità in pixel al secondo dell'effetto di attenuazione della fotocamera quan
 - |void| **set_process_callback**\ (\ value\: :ref:`Camera2DProcessCallback<enum_Camera2D_Camera2DProcessCallback>`\ )
 - :ref:`Camera2DProcessCallback<enum_Camera2D_Camera2DProcessCallback>` **get_process_callback**\ (\ )
 
-The camera's process callback.
+Il callback di processo della telecamera.
 
 .. rst-class:: classref-item-separator
 
@@ -679,9 +679,9 @@ Velocità angolare asintotica dell'effetto di attenuazione della rotazione della
 - |void| **set_zoom**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_zoom**\ (\ )
 
-The camera's zoom. Higher values are more zoomed in. For example, a zoom of ``Vector2(2.0, 2.0)`` will be twice as zoomed in on each axis (the view covers an area four times smaller). In contrast, a zoom of ``Vector2(0.5, 0.5)`` will be twice as zoomed out on each axis (the view covers an area four times larger). The X and Y components should generally always be set to the same value, unless you wish to stretch the camera view.
+Lo zoom della telecamera. Valori più alti risultano in un ingrandimento maggiore. Ad esempio, uno zoom di ``Vector2(2.0, 2.0)`` raddoppia l'ingrandimento su ciascun asse (la vista copre un'area quattro volte più piccola). Al contrario, uno zoom di ``Vector2(0.5, 0.5)`` rimpicciolirà di due volte su ciascun asse (la vista copre un'area quattro volte più grande). In genere, le componenti X e Y si dovrebbero sempre impostare sullo stesso valore, a meno che non si desideri stirare la vista della telecamera.
 
-\ **Note:** :ref:`FontFile.oversampling<class_FontFile_property_oversampling>` does *not* take **Camera2D** zoom into account. This means that zooming in/out will cause bitmap fonts and rasterized (non-MSDF) dynamic fonts to appear blurry or pixelated unless the font is part of a :ref:`CanvasLayer<class_CanvasLayer>` that makes it ignore camera zoom. To ensure text remains crisp regardless of zoom, you can enable MSDF font rendering by enabling :ref:`ProjectSettings.gui/theme/default_font_multichannel_signed_distance_field<class_ProjectSettings_property_gui/theme/default_font_multichannel_signed_distance_field>` (applies to the default project font only), or enabling **Multichannel Signed Distance Field** in the import options of a DynamicFont for custom fonts. On system fonts, :ref:`SystemFont.multichannel_signed_distance_field<class_SystemFont_property_multichannel_signed_distance_field>` can be enabled in the inspector.
+\ **Nota:** :ref:`FontFile.oversampling<class_FontFile_property_oversampling>` *non* tiene conto dello zoom della **Camera2D**. Ciò significa che lo zoom in avanti/indietro farà in modo che i font bitmap e i font dinamici rasterizzati (non MSDF) appaiano sfocati o pixelati, a meno che il font non faccia parte di un :ref:`CanvasLayer<class_CanvasLayer>` che gli fa ignorare lo zoom della telecamera. Per garantire che il testo rimanga nitido a prescindere dallo zoom, è possibile abilitare il rendering dei font MSDF abilitando :ref:`ProjectSettings.gui/theme/default_font_multichannel_signed_distance_field<class_ProjectSettings_property_gui/theme/default_font_multichannel_signed_distance_field>` (si applica solo al font predefinito del progetto) o abilitando **Multichannel Signed Distance Field** nelle opzioni di importazione di un DynamicFont per i font personalizzati. Sui font di sistema, è possibile abilitare :ref:`SystemFont.multichannel_signed_distance_field<class_SystemFont_property_multichannel_signed_distance_field>` nell'Ispettore.
 
 .. rst-class:: classref-section-separator
 
@@ -760,9 +760,9 @@ Restituisce il centro dello schermo dal punto di vista di questa telecamera, in 
 
 :ref:`float<class_float>` **get_screen_rotation**\ (\ ) |const| :ref:`🔗<class_Camera2D_method_get_screen_rotation>`
 
-Returns the current screen rotation from this camera's point of view.
+Restituisce la rotazione attuale dello schermo dal punto di vista di questa telecamera.
 
-\ **Note:** The screen rotation can be different from :ref:`Node2D.global_rotation<class_Node2D_property_global_rotation>` if the camera is rotating smoothly due to :ref:`rotation_smoothing_enabled<class_Camera2D_property_rotation_smoothing_enabled>`.
+\ **Nota:** La rotazione dello schermo può essere diversa da :ref:`Node2D.global_rotation<class_Node2D_property_global_rotation>` se la telecamera ruota in modo fluido a causa di :ref:`rotation_smoothing_enabled<class_Camera2D_property_rotation_smoothing_enabled>`.
 
 .. rst-class:: classref-item-separator
 

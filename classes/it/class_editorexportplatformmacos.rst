@@ -640,9 +640,9 @@ Versione minima di macOS richiesta per eseguire questa applicazione sui Mac Inte
 
 :ref:`String<class_String>` **application/short_version** :ref:`🔗<class_EditorExportPlatformMacOS_property_application/short_version>`
 
-Application version visible to the user. Can only contain numeric characters (``0-9``) and periods (``.``). Falls back to :ref:`ProjectSettings.application/config/version<class_ProjectSettings_property_application/config/version>` if left empty.
+Versione dell'applicazione visibile all'utente, può contenere solo caratteri numerici (``0-9``) e punti (``.``). Se lasciato vuoto, ricade su :ref:`ProjectSettings.application/config/version<class_ProjectSettings_property_application/config/version>`.
 
-\ **Note:** This value is used for the *Identity > Version* value in the generated Xcode project.
+\ **Nota:** Questo valore è utilizzato per il valore di *Identity > Version* nel progetto Xcode generato.
 
 .. rst-class:: classref-item-separator
 
@@ -666,9 +666,9 @@ Un codice creatore di quattro caratteri specifico del pacchetto. Facoltativo.
 
 :ref:`String<class_String>` **application/version** :ref:`🔗<class_EditorExportPlatformMacOS_property_application/version>`
 
-Machine-readable application version in the ``major.minor.patch`` format. Can only contain numeric characters (``0-9``) and periods (``.``). This must be incremented with every new release pushed to the App Store. Falls back to :ref:`ProjectSettings.application/config/version<class_ProjectSettings_property_application/config/version>` if left empty.
+La versione dell'applicazione leggibile da computer, nel formato ``major.minor.patch``. Può contenere solo caratteri numerici (``0-9``) e punti (``.``). È necessario incrementarla a ogni nuova versione inviata all'App Store. Se lasciato vuoto, ricade su :ref:`ProjectSettings.application/config/version<class_ProjectSettings_property_application/config/version>`.
 
-\ **Note:** This value is used for the *Identity > Build* value in the generated Xcode project.
+\ **Nota:** Questo valore è utilizzato per il valore di *Identity > Version* nel progetto Xcode generato.
 
 .. rst-class:: classref-item-separator
 
@@ -3219,7 +3219,7 @@ Indica se l' app utilizza dati per il tracciamento. Consulta `File manifesto sul
 
 :ref:`bool<class_bool>` **shader_baker/enabled** :ref:`🔗<class_EditorExportPlatformMacOS_property_shader_baker/enabled>`
 
-If ``true``, shaders will be compiled and embedded in the application. This option is only supported when using the Forward+ or Mobile renderers.
+Se ``true``, gli shader saranno compilati e incorporati nell'applicazione. Questa opzione è supportata solo quando si utilizzano i renderer Forward+ o Mobile.
 
 .. rst-class:: classref-item-separator
 

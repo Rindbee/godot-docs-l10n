@@ -16,7 +16,7 @@ Descripción
 
 Clase base para el servidor y el cliente de WebSocket, que permite utilizarlos como pares multijugador para la :ref:`MultiplayerAPI<class_MultiplayerAPI>`.
 
-\ **Nota:** Al exportar a Android, asegúrese de habilitar el permiso ``INTERNET`` en el preajuste de exportación de Android antes de exportar el proyecto o utilizar la implementación con un solo clic. De lo contrario, la comunicación de red de cualquier tipo será bloqueada por Android.
+\ **Nota:** Al exportar a Android, asegúrate de habilitar el permiso ``INTERNET`` en el preajuste de exportación de Android antes de exportar el proyecto o utilizar la implementación con un solo clic. De lo contrario, la comunicación de red de cualquier tipo será bloqueada por Android.
 
 .. rst-class:: classref-reftable-group
 
@@ -186,7 +186,7 @@ Descripciones de Métodos
 
 :ref:`Error<enum_@GlobalScope_Error>` **create_client**\ (\ url\: :ref:`String<class_String>`, tls_client_options\: :ref:`TLSOptions<class_TLSOptions>` = null\ ) :ref:`🔗<class_WebSocketMultiplayerPeer_method_create_client>`
 
-Inicia un nuevo cliente multijugador que se conecta a la ``url`` dada. Los certificados TLS se verificarán con el nombre de host al conectarse usando el protocolo ``wss://``. Puedes pasar el parámetro opcional ``tls_client_options`` para personalizar las autoridades de certificación de confianza, o deshabilitar la verificación de nombre común. Consulte :ref:`TLSOptions.client()<class_TLSOptions_method_client>` y :ref:`TLSOptions.client_unsafe()<class_TLSOptions_method_client_unsafe>`.
+Inicia un nuevo cliente multijugador que se conecta a la ``url`` dada. Los certificados TLS se verificarán con el nombre de host al conectarse usando el protocolo ``wss://``. Puedes pasar el parámetro opcional ``tls_client_options`` para personalizar las autoridades de certificación de confianza, o deshabilitar la verificación de nombre común. Consulta :ref:`TLSOptions.client()<class_TLSOptions_method_client>` y :ref:`TLSOptions.client_unsafe()<class_TLSOptions_method_client_unsafe>`.
 
 \ **Nota:** Se recomienda especificar la parte del esquema de la URL, es decir, la ``url`` debe comenzar con ``ws://`` o ``wss://``.
 
@@ -200,7 +200,7 @@ Inicia un nuevo cliente multijugador que se conecta a la ``url`` dada. Los certi
 
 :ref:`Error<enum_@GlobalScope_Error>` **create_server**\ (\ port\: :ref:`int<class_int>`, bind_address\: :ref:`String<class_String>` = "*", tls_server_options\: :ref:`TLSOptions<class_TLSOptions>` = null\ ) :ref:`🔗<class_WebSocketMultiplayerPeer_method_create_server>`
 
-Inicia un nuevo servidor multijugador escuchando en el ``port`` dado. Opcionalmente puede especificar una ``bind_address``, y proporcionar válidas ``tls_server_options`` para usar TLS. Consulte :ref:`TLSOptions.server()<class_TLSOptions_method_server>`.
+Inicia un nuevo servidor multijugador escuchando en el ``port`` dado. Opcionalmente puede especificar una ``bind_address``, y proporcionar válidas ``tls_server_options`` para usar TLS. Consulta :ref:`TLSOptions.server()<class_TLSOptions_method_server>`.
 
 .. rst-class:: classref-item-separator
 

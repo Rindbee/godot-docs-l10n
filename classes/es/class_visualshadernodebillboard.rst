@@ -122,7 +122,7 @@ Controla cómo el objeto mira a la cámara.
 - |void| **set_keep_scale_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_keep_scale_enabled**\ (\ )
 
-Si es ``true``, el shader mantendrá la escala establecida para la malla. De lo contrario, la escala se perderá cuando se haga billboarding. Sólo se aplica cuando :ref:`billboard_mode<class_VisualShaderNodeBillboard_property_billboard_mode>` es :ref:`BILLBOARD_ENABLED<class_VisualShaderNodeBillboard_constant_BILLBOARD_ENABLED>`.
+Si es ``true``, el shader mantendrá la escala establecida para la malla. De lo contrario, la escala se perderá cuando se haga billboarding.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

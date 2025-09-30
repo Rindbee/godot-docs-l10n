@@ -14,7 +14,7 @@ Crea un intervallo di inattività in un'animazione :ref:`Tween<class_Tween>`.
 Descrizione
 ----------------------
 
-**IntervalTweener** è utilizzato per creare ritardi in una sequenza di tweening. Vedi :ref:`Tween.tween_interval()<class_Tween_method_tween_interval>` per maggiori informazioni sull'utilizzo.
+**IntervalTweener** serve per creare ritardi in una sequenza di tweening. Vedi :ref:`Tween.tween_interval()<class_Tween_method_tween_interval>` per maggiori informazioni sull'utilizzo.
 
 \ **Nota:** :ref:`Tween.tween_interval()<class_Tween_method_tween_interval>` è l'unico modo corretto per creare **IntervalTweener**. Qualsiasi **IntervalTweener** creato manualmente non funzionerà correttamente.
 

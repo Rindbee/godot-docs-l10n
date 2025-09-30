@@ -220,7 +220,7 @@ Agrega la cámara ``feed`` al servidor de cámara.
 
 :ref:`Array<class_Array>`\[:ref:`CameraFeed<class_CameraFeed>`\] **feeds**\ (\ ) :ref:`🔗<class_CameraServer_method_feeds>`
 
-Devuelve una array de :ref:`CameraFeed<class_CameraFeed>`\ s.
+Devuelve un array de :ref:`CameraFeed<class_CameraFeed>`\ s.
 
 .. rst-class:: classref-item-separator
 

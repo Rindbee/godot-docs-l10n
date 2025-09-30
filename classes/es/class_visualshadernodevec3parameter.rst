@@ -14,7 +14,7 @@ Un parámetro :ref:`Vector3<class_Vector3>` que se utilizará dentro del gráfic
 Descripción
 ----------------------
 
-Traducido a ``uniform vec3`` en el lenguaje de shader.
+Traducido a ``uniform vec3`` en el lenguaje de shaders.
 
 .. rst-class:: classref-reftable-group
 

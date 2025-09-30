@@ -106,11 +106,11 @@ L'infinità positiva rappresentata in virgola mobile. Questo è il risultato del
 
 **NAN** = ``nan`` :ref:`🔗<class_@GDScript_constant_NAN>`
 
-"Not a Number", an invalid floating-point value. It is returned by some invalid operations, such as dividing floating-point ``0.0`` by ``0.0``.
+"Not a Number", indica un valore in virgola mobile non valido. È restituito da alcune operazioni non valide, come la divisione in virgola mobile di ``0.0`` per ``0.0``.
 
-\ :ref:`NAN<class_@GDScript_constant_NAN>` has special properties, including that ``!=`` always returns ``true``, while other comparison operators always return ``false``. This is true even when comparing with itself (``NAN == NAN`` returns ``false`` and ``NAN != NAN`` returns ``true``). Due to this, you must use :ref:`@GlobalScope.is_nan()<class_@GlobalScope_method_is_nan>` to check whether a number is equal to :ref:`NAN<class_@GDScript_constant_NAN>`.
+\ :ref:`NAN<class_@GDScript_constant_NAN>` ha proprietà particolari, tra cui quella di restituire sempre ``true`` per l'operatore ``!=``, e per gli altri operatori di uguaglianza restituisce sempre ``false`` . Ciò si applica anche nei confronti con se stesso (``NAN == NAN`` restituisce ``false`` e ``NAN != NAN`` restituisce ``true``). Per questo motivo, è necessario utilizzare :ref:`@GlobalScope.is_nan()<class_@GlobalScope_method_is_nan>` per verificare se un numero è uguale a :ref:`NAN<class_@GDScript_constant_NAN>`.
 
-\ **Warning:** "Not a Number" is only a concept with floating-point numbers, and has no equivalent for integers. Dividing an integer ``0`` by ``0`` will not result in :ref:`NAN<class_@GDScript_constant_NAN>` and will result in a run-time error instead.
+\ **Attenzione:** "Not a Number" è solo un concetto per numeri in virgola mobile, e non ha equivalenti per i numeri interi. Dividere uno ``0`` intero per ``0`` non produrrà :ref:`NAN<class_@GDScript_constant_NAN>` ma risulterà in un errore durante l'esecuzione.
 
 .. rst-class:: classref-section-separator
 
@@ -261,7 +261,7 @@ Consente di impostare un'indicazione, una stringa indicativa e flag di utilizzo 
 
 **@export_dir**\ (\ ) :ref:`🔗<class_@GDScript_annotation_@export_dir>`
 
-Esporta una proprietà di tipo :ref:`String<class_String>`, :ref:`Array<class_Array>`\ \[:ref:`String<class_String>`\ \], or :ref:`PackedStringArray<class_PackedStringArray>` come un percorso per una cartella. Il percorso sarà limitato alla cartella del progetto e alle sue sottocartelle. Vedi :ref:`@export_global_dir<class_@GDScript_annotation_@export_global_dir>` per consentire la scelta da tutto il filesystem.
+Esporta una proprietà di tipo :ref:`String<class_String>`, :ref:`Array<class_Array>`\ \[:ref:`String<class_String>`\ \], o :ref:`PackedStringArray<class_PackedStringArray>` come un percorso per una cartella. Il percorso sarà limitato alla cartella del progetto e alle sue sottocartelle. Vedi :ref:`@export_global_dir<class_@GDScript_annotation_@export_global_dir>` per consentire la scelta da tutto il filesystem.
 
 Vedi anche :ref:`@GlobalScope.PROPERTY_HINT_DIR<class_@GlobalScope_constant_PROPERTY_HINT_DIR>`.
 
@@ -340,11 +340,11 @@ Vedi anche :ref:`@GlobalScope.PROPERTY_HINT_EXP_EASING<class_@GlobalScope_consta
 
 **@export_file**\ (\ filter\: :ref:`String<class_String>` = "", ...\ ) |vararg| :ref:`🔗<class_@GDScript_annotation_@export_file>`
 
-Export a :ref:`String<class_String>`, :ref:`Array<class_Array>`\ \[:ref:`String<class_String>`\ \], or :ref:`PackedStringArray<class_PackedStringArray>` property as a path to a file. The path will be limited to the project folder and its subfolders. See :ref:`@export_global_file<class_@GDScript_annotation_@export_global_file>` to allow picking from the entire filesystem.
+Esporta una proprietà di tipo :ref:`String<class_String>`, :ref:`Array<class_Array>`\ \[:ref:`String<class_String>`\ \], o :ref:`PackedStringArray<class_PackedStringArray>` come un percorso per un file. Il percorso sarà limitato alla cartella del progetto e alle sue sottocartelle. Vedi :ref:`@export_global_file<class_@GDScript_annotation_@export_global_file>` per consentire la scelta da tutto il filesystem.
 
-If ``filter`` is provided, only matching files will be available for picking.
+Se ``filter`` è fornito, solo i file corrispondenti saranno disponibili per la raccolta.
 
-See also :ref:`@GlobalScope.PROPERTY_HINT_FILE<class_@GlobalScope_constant_PROPERTY_HINT_FILE>`.
+Vedi anche :ref:`@GlobalScope.PROPERTY_HINT_FILE<class_@GlobalScope_constant_PROPERTY_HINT_FILE>`.
 
 ::
 
@@ -352,7 +352,7 @@ See also :ref:`@GlobalScope.PROPERTY_HINT_FILE<class_@GlobalScope_constant_PROPE
     @export_file("*.txt") var notes_path: String
     @export_file var level_paths: Array[String]
 
-\ **Note:** The file will be stored and referenced as UID, if available. This ensures that the reference is valid even when the file is moved. You can use :ref:`ResourceUID<class_ResourceUID>` methods to convert it to path.
+\ **Nota:** Il file sarà memorizzato e fatto riferimento come UID, se disponibile. Ciò garantisce che il riferimento sia valido anche quando il file viene spostato. È possibile utilizzare i metodi di :ref:`ResourceUID<class_ResourceUID>` per convertirlo in percorso.
 
 .. rst-class:: classref-item-separator
 
@@ -599,7 +599,7 @@ Definisce un nuovo gruppo per le seguenti proprietà esportate. Questo aiuta a o
 
 Se non viene fornito ``prefix``, ogni proprietà seguente verrà aggiunta al gruppo. Il gruppo termina quando viene definito il prossimo gruppo o categoria. Puoi anche forzare la fine di un gruppo utilizzando questa annotazione con stringhe vuote per i parametri, ``@export_group("", "")``.
 
-I gruppi non possono essere nidificati, utilizza :ref:`@export_subgroup<class_@GDScript_annotation_@export_subgroup>` per aggiungere sottogruppi all'interno dei gruppi.
+I gruppi non si possono annidare, utilizza :ref:`@export_subgroup<class_@GDScript_annotation_@export_subgroup>` per aggiungere sottogruppi all'interno dei gruppi.
 
 Vedi anche :ref:`@GlobalScope.PROPERTY_USAGE_GROUP<class_@GlobalScope_constant_PROPERTY_USAGE_GROUP>`.
 
@@ -776,7 +776,7 @@ Vedi anche :ref:`@GlobalScope.PROPERTY_USAGE_SUBGROUP<class_@GlobalScope_constan
 
 Esporta una proprietà :ref:`Callable<class_Callable>` come pulsante cliccabile con l'etichetta ``text``. Quando il pulsante viene premuto, il chiamabile viene chiamato.
 
-Se ``icon`` è specificato, viene utilizzato per recuperare un'icona per il pulsante tramite :ref:`Control.get_theme_icon()<class_Control_method_get_theme_icon>`, dal tipo di tema ``"EditorIcons"``. Se ``icon`` viene omesso, viene utilizzata l'icona predefinita ``"Callable"``.
+Se ``icon`` è specificato, viene utilizzato per recuperare un'icona per il pulsante tramite :ref:`Control.get_theme_icon()<class_Control_method_get_theme_icon>`, dal tipo del tema ``"EditorIcons"``. Se ``icon`` viene omesso, viene utilizzata l'icona predefinita ``"Callable"``.
 
 Considera di usare :ref:`EditorUndoRedoManager<class_EditorUndoRedoManager>` per prevedere l'annullamento sicuro dell'azione.
 
@@ -859,17 +859,17 @@ Segna la proprietà seguente come assegnata quando il nodo è pronto. I valori p
 
 **@rpc**\ (\ mode\: :ref:`String<class_String>` = "authority", sync\: :ref:`String<class_String>` = "call_remote", transfer_mode\: :ref:`String<class_String>` = "unreliable", transfer_channel\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_@GDScript_annotation_@rpc>`
 
-Mark the following method for remote procedure calls. See :doc:`High-level multiplayer <../tutorials/networking/high_level_multiplayer>`.
+Contrassegna il seguente metodo per le chiamate di procedura remota. Vedi :doc:` Multigiocatore di alto livello <../tutorials/networking/high_level_multiplayer>`.
 
-If ``mode`` is set as ``"any_peer"``, allows any peer to call this RPC function. Otherwise, only the authority peer is allowed to call it and ``mode`` should be kept as ``"authority"``. When configuring functions as RPCs with :ref:`Node.rpc_config()<class_Node_method_rpc_config>`, each of these modes respectively corresponds to the :ref:`MultiplayerAPI.RPC_MODE_AUTHORITY<class_MultiplayerAPI_constant_RPC_MODE_AUTHORITY>` and :ref:`MultiplayerAPI.RPC_MODE_ANY_PEER<class_MultiplayerAPI_constant_RPC_MODE_ANY_PEER>` RPC modes. See :ref:`RPCMode<enum_MultiplayerAPI_RPCMode>`. If a peer that is not the authority tries to call a function that is only allowed for the authority, the function will not be executed. If the error can be detected locally (when the RPC configuration is consistent between the local and the remote peer), an error message will be displayed on the sender peer. Otherwise, the remote peer will detect the error and print an error there.
+Se ``mode`` è impostato a ``"any_peer"``, permette a qualsiasi peer di chiamare questa funzione RPC. Altrimenti, solo al peer dell'autorità è permesso chiamarlo e ``mode`` dovrebbe essere mantenuto a ``"autorità"``. Quando si configurano le funzioni come RPC con :ref:`Node.rpc_config()<class_Node_method_rpc_config>`, ciascuna di queste modalità corrisponde rispettivamente alle modalità RPC :ref:`MultiplayerAPI.RPC_MODE_AUTHORITY<class_MultiplayerAPI_constant_RPC_MODE_AUTHORITY>` e :ref:`MultiplayerAPI.RPC_MODE_ANY_PEER<class_MultiplayerAPI_constant_RPC_MODE_ANY_PEER>`. Vedi :ref:`RPCMode<enum_MultiplayerAPI_RPCMode>`. Se un peer che non è l'autorità cerca di chiamare una funzione che è consentita solo per l'autorità, la funzione non sarà eseguita. Se l'errore può essere rilevato localmente (quando la configurazione RPC è consistente tra il peer locale e il peer remoto), verrà visualizzato un messaggio di errore sul peer del mittente. Altrimenti, il peer remoto individuerà l'errore e stamperà un errore lì.
 
-If ``sync`` is set as ``"call_remote"``, the function will only be executed on the remote peer, but not locally. To run this function locally too, set ``sync`` to ``"call_local"``. When configuring functions as RPCs with :ref:`Node.rpc_config()<class_Node_method_rpc_config>`, this is equivalent to setting ``call_local`` to ``true``.
+Se ``sync`` è impostato a ``"call_remote"``, la funzione sarà eseguita solo sul peer remoto, ma non localmente. Per eseguire questa funzione anche localmente, imposta ``sync`` a ``"call_local"``. Quando si configurano le funzioni come RPC con :ref:`Node.rpc_config()<class_Node_method_rpc_config>`, questo equivale a impostare ``call_local`` a ``true``.
 
-The ``transfer_mode`` accepted values are ``"unreliable"``, ``"unreliable_ordered"``, or ``"reliable"``. It sets the transfer mode of the underlying :ref:`MultiplayerPeer<class_MultiplayerPeer>`. See :ref:`MultiplayerPeer.transfer_mode<class_MultiplayerPeer_property_transfer_mode>`.
+I valori accettati da ``transfer_mode`` sono ``"unreliable"``, ``"unreliable_order"``, o ``"reliable"``. Esso imposta la modalità di trasferimento del :ref:`MultiplayerPeer<class_MultiplayerPeer>` sottostante. Vedi :ref:`MultiplayerPeer.transfer_mode<class_MultiplayerPeer_property_transfer_mode>`.
 
-The ``transfer_channel`` defines the channel of the underlying :ref:`MultiplayerPeer<class_MultiplayerPeer>`. See :ref:`MultiplayerPeer.transfer_channel<class_MultiplayerPeer_property_transfer_channel>`.
+Il ``transfer_channel`` definisce il canale del :ref:`MultiplayerPeer<class_MultiplayerPeer>` sottostante. Vedi :ref:`MultiplayerPeer.transfer_channel<class_MultiplayerPeer_property_transfer_channel>`.
 
-The order of ``mode``, ``sync`` and ``transfer_mode`` does not matter, but values related to the same argument must not be used more than once. ``transfer_channel`` always has to be the 4th argument (you must specify 3 preceding arguments).
+L'ordine di ``mode``, ``sync`` e ``transfer_mode`` non importa, ma i valori relativi allo stesso argomento non devono essere utilizzati più di una volta. ``transfer_channel`` deve sempre essere il quarto argomento (è necessario specificare 3 argomenti precedenti).
 
 ::
 
@@ -882,7 +882,7 @@ The order of ``mode``, ``sync`` and ``transfer_mode`` does not matter, but value
     @rpc("authority", "call_remote", "unreliable", 0) # Equivalent to @rpc
     func fn_default(): pass
 
-\ **Note:** Methods annotated with :ref:`@rpc<class_@GDScript_annotation_@rpc>` cannot receive objects which define required parameters in :ref:`Object._init()<class_Object_private_method__init>`. See :ref:`Object._init()<class_Object_private_method__init>` for more details.
+\ **Nota:** I metodi annotati con :ref:`@rpc<class_@GDScript_annotation_@rpc>` non possono ricevere oggetti che definiscono parametri obbligatori in :ref:`Object._init()<class_Object_private_method__init>`. Per maggiori dettagli, vedi :ref:`Object._init()<class_Object_private_method__init>`.
 
 .. rst-class:: classref-item-separator
 
@@ -939,7 +939,7 @@ Segna la seguente dichiarazione per ignorare l'avviso specificato da ``warning``
         @warning_ignore("unreachable_code")
         print("non raggiungibile")
 
-Vedi anche :ref:`@warning_ignore_start<class_@GDScript_annotation_@warning_ignore_start>` and :ref:`@warning_ignore_restore<class_@GDScript_annotation_@warning_ignore_restore>`.
+Vedi anche :ref:`@warning_ignore_start<class_@GDScript_annotation_@warning_ignore_start>` e :ref:`@warning_ignore_restore<class_@GDScript_annotation_@warning_ignore_restore>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1155,7 +1155,7 @@ Stampa:
 
 \ **Nota:** Questa funzione può essere utilizzata solo per serializzare oggetti il quale :ref:`GDScript<class_GDScript>` allegato è memorizzato in un file separato. Gli oggetti senza uno script allegato, con uno script scritto in un altro linguaggio o con uno script integrato non sono supportati.
 
-\ **Nota:** Questa funzione non è ricorsiva, il che significa che gli oggetti nidificati non saranno rappresentati come dizionari. Inoltre, le proprietà passate per riferimento (:ref:`Object<class_Object>`, :ref:`Dictionary<class_Dictionary>`, :ref:`Array<class_Array>` e array impacchettati) vengono copiate per riferimento, non duplicate.
+\ **Nota:** Questa funzione non è ricorsiva, il che significa che gli oggetti annidati non saranno rappresentati come dizionari. Inoltre, le proprietà passate per riferimento (:ref:`Object<class_Object>`, :ref:`Dictionary<class_Dictionary>`, :ref:`Array<class_Array>` e array impacchettati) vengono copiate per riferimento, non duplicate.
 
 .. rst-class:: classref-item-separator
 
@@ -1342,7 +1342,7 @@ Restituisce un array contenente l'intervallo fornito. :ref:`range()<class_@GDScr
 
 \ :ref:`range()<class_@GDScript_method_range>` converte tutti gli argomenti a :ref:`int<class_int>` prima di elaborarli.
 
-\ **Nota:** Restituisce un array vuoto se nessun valore soddisfa i requisiti (es. ``range(2, 5, -1)`` or ``range(5, 5, 1)``).
+\ **Nota:** Restituisce un array vuoto se nessun valore soddisfa i requisiti (es. ``range(2, 5, -1)`` o ``range(5, 5, 1)``).
 
 \ **Esempi:**\ 
 

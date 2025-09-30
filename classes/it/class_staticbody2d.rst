@@ -29,7 +29,7 @@ Tutorial
 
 - :doc:`Introduzione alla fisica <../tutorials/physics/physics_introduction>`
 
-- :doc:`Troubleshooting physics issues <../tutorials/physics/troubleshooting_physics_issues>`
+- :doc:`Risolvere i problemi di fisica <../tutorials/physics/troubleshooting_physics_issues>`
 
 .. rst-class:: classref-reftable-group
 

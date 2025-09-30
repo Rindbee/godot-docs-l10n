@@ -1059,9 +1059,9 @@ Fallisce se non esiste, o se una proprietà simile con il nuovo nome esiste già
 
 |void| **rename_type**\ (\ old_theme_type\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_Theme_method_rename_type>`
 
-Renames the theme type ``old_theme_type`` to ``theme_type``, if the old type exists and the new one doesn't exist.
+Rinomina il tipo di tema ``old_theme_type`` in ``theme_type``, se il vecchio tipo esiste e quello nuovo non esiste.
 
-\ **Note:** Renaming a theme type to an empty name or a variation to a type associated with a built-in class removes type variation connections in a way that cannot be undone by reversing the rename alone.
+\ **Nota:** Rinominare un tipo di tema con un nome vuoto o una variazione con un tipo associato a una classe integrata rimuove le connessioni alle variazioni di tipo in un modo che non si può annullare semplicemente invertendo il cambio di nome.
 
 .. rst-class:: classref-item-separator
 

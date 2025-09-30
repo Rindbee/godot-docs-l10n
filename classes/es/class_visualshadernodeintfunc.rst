@@ -49,7 +49,7 @@ enum **Function**: :ref:`🔗<enum_VisualShaderNodeIntFunc_Function>`
 
 :ref:`Function<enum_VisualShaderNodeIntFunc_Function>` **FUNC_ABS** = ``0``
 
-Devuelve el valor absoluto del parámetro. Se traduce a ``abs(x)`` en el lenguaje de shader de Godot.
+Devuelve el valor absoluto del parámetro. Se traduce a ``abs(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeIntFunc_constant_FUNC_NEGATE:
 
@@ -65,7 +65,7 @@ Niega el ``x`` usando ``-(x)``.
 
 :ref:`Function<enum_VisualShaderNodeIntFunc_Function>` **FUNC_SIGN** = ``2``
 
-Extrae el signo del parámetro. Se traduce a ``sign(x)`` en el lenguaje de shader de Godot.
+Extrae el signo del parámetro. Se traduce a ``sign(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeIntFunc_constant_FUNC_BITWISE_NOT:
 
@@ -73,7 +73,7 @@ Extrae el signo del parámetro. Se traduce a ``sign(x)`` en el lenguaje de shade
 
 :ref:`Function<enum_VisualShaderNodeIntFunc_Function>` **FUNC_BITWISE_NOT** = ``3``
 
-Devuelve el resultado de la operación ``NOT`` bit a bit en el entero. Se traduce a ``~a`` en el lenguaje de shader de Godot.
+Devuelve el resultado de la operación ``NOT`` bit a bit en el entero. Se traduce a ``~a`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeIntFunc_constant_FUNC_MAX:
 

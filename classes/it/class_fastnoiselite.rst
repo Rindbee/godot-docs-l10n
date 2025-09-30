@@ -477,7 +477,7 @@ Un valore basso pone maggiore enfasi sugli strati base a frequenza più bassa, m
 - |void| **set_domain_warp_fractal_lacunarity**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_domain_warp_fractal_lacunarity**\ (\ )
 
-The change in frequency between octaves, also known as "lacunarity", of the fractal noise which warps the space. Increasing this value results in higher octaves, producing noise with finer details and a rougher appearance.
+Il cambiamento di frequenza tra le ottave, anche conosciuta come "lacunarità", del noise frattale che deforma lo spazio. Aumentando questo valore si ottengono ottave più alte, producendo noise con dettagli più fini e un aspetto più ruvido.
 
 .. rst-class:: classref-item-separator
 

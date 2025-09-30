@@ -16,7 +16,7 @@ Estructura de 2 elementos que se puede usar para representar coordenadas 2D o cu
 
 Utiliza coordenadas de punto flotante. De forma predeterminada, estos valores de punto flotante utilizan una precisión de 32 bits, a diferencia de :ref:`float<class_float>` que siempre tiene 64 bits. Si se necesita una precisión doble, compila el motor con la opción ``precision=double``.
 
-Ver :ref:`Vector2i<class_Vector2i>` para su contraparte entera.
+Véase :ref:`Vector2i<class_Vector2i>` para su contraparte entera.
 
 \ **Nota:** En un contexto booleano, un Vector2 se evaluará como ``false`` si es igual a ``Vector2(0, 0)``. De lo contrario, un Vector2 siempre se evaluará como ``true``.
 

@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/OptionButton.xml.
+.. meta::
+	:keywords: select, dropdown
 
 .. _class_OptionButton:
 
@@ -17,13 +17,13 @@ Un pulsante che, se premuto, apre un menu a tendina con opzioni selezionabili.
 Descrizione
 ----------------------
 
-**OptionButton** is a type of button that brings up a dropdown with selectable items when pressed. The item selected becomes the "current" item and is displayed as the button text.
+**OptionButton** è un tipo di pulsante che apre un menu a tendina con elementi selezionabili quando viene premuto. L'elemento selezionato diventa l'elemento "attuale" e viene visualizzato come testo del pulsante.
 
-See also :ref:`BaseButton<class_BaseButton>` which contains common properties and methods associated with this node.
+Vedi anche :ref:`BaseButton<class_BaseButton>` che contiene proprietà e metodi comuni associati a questo nodo.
 
-\ **Note:** The IDs used for items are limited to signed 32-bit integers, not the full 64 bits of :ref:`int<class_int>`. These have a range of ``-2^31`` to ``2^31 - 1``, that is, ``-2147483648`` to ``2147483647``.
+\ **Nota:** Gli ID utilizzati per gli elementi sono interi a 32 bit, non a 64 bit pieni di :ref:`int<class_int>`. Questi hanno un intervallo di ``-2^32`` a ``2^32 - 1``, ovvero, ``-2147483648`` a ``2147483647``.
 
-\ **Note:** The :ref:`Button.text<class_Button_property_text>` and :ref:`Button.icon<class_Button_property_icon>` properties are set automatically based on the selected item. They shouldn't be changed manually.
+\ **Nota:** Le proprietà :ref:`Button.text<class_Button_property_text>` e :ref:`Button.icon<class_Button_property_icon>` sono impostate automaticamente in base all'elemento selezionato. Non si dovrebbero cambiare manualmente.
 
 .. rst-class:: classref-reftable-group
 
@@ -253,9 +253,9 @@ Descrizioni dei metodi
 
 |void| **add_icon_item**\ (\ texture\: :ref:`Texture2D<class_Texture2D>`, label\: :ref:`String<class_String>`, id\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_OptionButton_method_add_icon_item>`
 
-Adds an item, with a ``texture`` icon, text ``label`` and (optionally) ``id``. If no ``id`` is passed, the item index will be used as the item's ID. New items are appended at the end.
+Aggiunge un elemento, con un'icona ``texture``, testo ``label`` e (facoltativamente) ``id``. Se nessun ``id`` viene passato, l'indice dell'elemento sarà utilizzato come ID dell'elemento. I nuovi elementi vengono aggiunti alla fine.
 
-\ **Note:** The item will be selected if there are no other items.
+\ **Nota:** L'elemento verrà selezionato se non ci sono altri elementi.
 
 .. rst-class:: classref-item-separator
 
@@ -267,9 +267,9 @@ Adds an item, with a ``texture`` icon, text ``label`` and (optionally) ``id``. I
 
 |void| **add_item**\ (\ label\: :ref:`String<class_String>`, id\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_OptionButton_method_add_item>`
 
-Adds an item, with text ``label`` and (optionally) ``id``. If no ``id`` is passed, the item index will be used as the item's ID. New items are appended at the end.
+Aggiunge un elemento, con testo ``label`` e (facoltativamente) ``id``. Se nessun ``id`` viene passato, l'indice dell'elemento sarà utilizzato come ID dell'elemento. I nuovi elementi vengono aggiunti alla fine.
 
-\ **Note:** The item will be selected if there are no other items.
+\ **Nota:** L'elemento verrà selezionato se non ci sono altri elementi.
 
 .. rst-class:: classref-item-separator
 
@@ -305,7 +305,7 @@ Cancella tutti gli elementi nell'**OptionButton**.
 
 :ref:`AutoTranslateMode<enum_Node_AutoTranslateMode>` **get_item_auto_translate_mode**\ (\ idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_OptionButton_method_get_item_auto_translate_mode>`
 
-Returns the auto translate mode of the item at index ``idx``.
+Restituisce la modalità di traduzione automatica dell'elemento all'indice ``idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -515,9 +515,9 @@ Se ``true``, le scorciatoie sono disabilitate e non possono essere utilizzate pe
 
 |void| **set_item_auto_translate_mode**\ (\ idx\: :ref:`int<class_int>`, mode\: :ref:`AutoTranslateMode<enum_Node_AutoTranslateMode>`\ ) :ref:`🔗<class_OptionButton_method_set_item_auto_translate_mode>`
 
-Sets the auto translate mode of the item at index ``idx``.
+Imposta la modalità di traduzione automatica dell'elemento all'indice ``idx``.
 
-Items use :ref:`Node.AUTO_TRANSLATE_MODE_INHERIT<class_Node_constant_AUTO_TRANSLATE_MODE_INHERIT>` by default, which uses the same auto translate mode as the **OptionButton** itself.
+Gli elementi utilizzano :ref:`Node.AUTO_TRANSLATE_MODE_INHERIT<class_Node_constant_AUTO_TRANSLATE_MODE_INHERIT>` come predefinito, il quale utilizza la stessa modalità di traduzione automatica dell'**OptionButton** stesso.
 
 .. rst-class:: classref-item-separator
 

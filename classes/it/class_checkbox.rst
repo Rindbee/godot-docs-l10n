@@ -81,7 +81,7 @@ Descrizioni delle proprietà del tema
 
 :ref:`Color<class_Color>` **checkbox_checked_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_CheckBox_theme_color_checkbox_checked_color>`
 
-The color of the checked icon when the checkbox is pressed.
+Il colore dell'icona di spunta quando la casella è premuta.
 
 .. rst-class:: classref-item-separator
 
@@ -93,7 +93,7 @@ The color of the checked icon when the checkbox is pressed.
 
 :ref:`Color<class_Color>` **checkbox_unchecked_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_CheckBox_theme_color_checkbox_unchecked_color>`
 
-The color of the unchecked icon when the checkbox is not pressed.
+Il colore dell'icona di spunta mancante quando la casella non è premuta.
 
 .. rst-class:: classref-item-separator
 

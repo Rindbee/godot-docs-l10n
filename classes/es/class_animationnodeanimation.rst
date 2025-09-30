@@ -106,7 +106,7 @@ Descripciones de Propiedades
 
 Si es ``true``, al recibir una solicitud para reproducir una animación desde el principio, el primer fotograma no se dibuja, sino que solo se procesa, y la reproducción comienza desde el siguiente fotograma.
 
-Consulta también las notas de :ref:`AnimationPlayer.play()<class_AnimationPlayer_method_play>`.
+Véase también las notas de :ref:`AnimationPlayer.play()<class_AnimationPlayer_method_play>`.
 
 .. rst-class:: classref-item-separator
 
@@ -140,7 +140,7 @@ Animación para usar como salida. Es una de las animaciones proporcionadas por :
 - |void| **set_loop_mode**\ (\ value\: :ref:`LoopMode<enum_Animation_LoopMode>`\ )
 - :ref:`LoopMode<enum_Animation_LoopMode>` **get_loop_mode**\ (\ )
 
-Si :ref:`use_custom_timeline<class_AnimationNodeAnimation_property_use_custom_timeline>` es ``true``, sobreescribe los ajustes de bucle del recurso :ref:`Animation<class_Animation>` original con el valor.
+Si :ref:`use_custom_timeline<class_AnimationNodeAnimation_property_use_custom_timeline>` es ``true``, sobrescribe los ajustes de bucle del recurso :ref:`Animation<class_Animation>` original con el valor.
 
 \ **Nota:** Si el :ref:`Animation.loop_mode<class_Animation_property_loop_mode>` no está configurado para bucle, la opción :ref:`Animation.track_set_interpolation_loop_wrap()<class_Animation_method_track_set_interpolation_loop_wrap>` no se respetará. Si no puedes obtener el comportamiento esperado, considera duplicar el recurso :ref:`Animation<class_Animation>` y cambiar los ajustes de bucle.
 

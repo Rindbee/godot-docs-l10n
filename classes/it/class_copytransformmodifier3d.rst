@@ -7,7 +7,7 @@ CopyTransformModifier3D
 
 **Eredita:** :ref:`BoneConstraint3D<class_BoneConstraint3D>` **<** :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` that apply transform to the bone which copied from reference.
+Uno :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` che applica una trasformazione all'osso che ha copiato dal riferimento.
 
 .. rst-class:: classref-introduction-group
 
@@ -238,7 +238,7 @@ Descrizioni dei metodi
 
 |bitfield|\[:ref:`AxisFlag<enum_CopyTransformModifier3D_AxisFlag>`\] **get_axis_flags**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CopyTransformModifier3D_method_get_axis_flags>`
 
-Returns the axis flags of the setting at ``index``.
+Restituisce i flag di asse dell'impostazione all'indice ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -250,7 +250,7 @@ Returns the axis flags of the setting at ``index``.
 
 |bitfield|\[:ref:`TransformFlag<enum_CopyTransformModifier3D_TransformFlag>`\] **get_copy_flags**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CopyTransformModifier3D_method_get_copy_flags>`
 
-Returns the copy flags of the setting at ``index``.
+Restituisce i flag di copia dell'impostazione all'indice ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -262,7 +262,7 @@ Returns the copy flags of the setting at ``index``.
 
 |bitfield|\[:ref:`AxisFlag<enum_CopyTransformModifier3D_AxisFlag>`\] **get_invert_flags**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CopyTransformModifier3D_method_get_invert_flags>`
 
-Returns the invert flags of the setting at ``index``.
+Restituisce i flag di inversione dell'impostazione all'indice ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -274,7 +274,7 @@ Returns the invert flags of the setting at ``index``.
 
 :ref:`bool<class_bool>` **is_additive**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CopyTransformModifier3D_method_is_additive>`
 
-Returns ``true`` if the additive option is enabled in the setting at ``index``.
+Restituisce ``true`` se l'opzione "additiva" è abilitata nell'impostazione all'indice ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -286,7 +286,7 @@ Returns ``true`` if the additive option is enabled in the setting at ``index``.
 
 :ref:`bool<class_bool>` **is_axis_x_enabled**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CopyTransformModifier3D_method_is_axis_x_enabled>`
 
-Returns ``true`` if the enable flags has the flag for the X-axis in the setting at ``index``. See also :ref:`set_axis_flags()<class_CopyTransformModifier3D_method_set_axis_flags>`.
+Restituisce ``true`` se i flag di abilitazione hanno il flag per l'asse X nell'impostazione all'indice ``index``. Vedi anche :ref:`set_axis_flags()<class_CopyTransformModifier3D_method_set_axis_flags>`.
 
 .. rst-class:: classref-item-separator
 
@@ -298,7 +298,7 @@ Returns ``true`` if the enable flags has the flag for the X-axis in the setting 
 
 :ref:`bool<class_bool>` **is_axis_x_inverted**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CopyTransformModifier3D_method_is_axis_x_inverted>`
 
-Returns ``true`` if the invert flags has the flag for the X-axis in the setting at ``index``. See also :ref:`set_invert_flags()<class_CopyTransformModifier3D_method_set_invert_flags>`.
+Restituisce ``true`` se i flag di inversione hanno il flag per l'asse X nell'impostazione all'indice ``index``. Vedi anche :ref:`set_invert_flags()<class_CopyTransformModifier3D_method_set_invert_flags>`.
 
 .. rst-class:: classref-item-separator
 
@@ -310,7 +310,7 @@ Returns ``true`` if the invert flags has the flag for the X-axis in the setting 
 
 :ref:`bool<class_bool>` **is_axis_y_enabled**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CopyTransformModifier3D_method_is_axis_y_enabled>`
 
-Returns ``true`` if the enable flags has the flag for the Y-axis in the setting at ``index``. See also :ref:`set_axis_flags()<class_CopyTransformModifier3D_method_set_axis_flags>`.
+Restituisce ``true`` se i flag di abilitazione hanno il flag per l'asse Y nell'impostazione all'indice ``index``. Vedi anche :ref:`set_axis_flags()<class_CopyTransformModifier3D_method_set_axis_flags>`.
 
 .. rst-class:: classref-item-separator
 
@@ -322,7 +322,7 @@ Returns ``true`` if the enable flags has the flag for the Y-axis in the setting 
 
 :ref:`bool<class_bool>` **is_axis_y_inverted**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CopyTransformModifier3D_method_is_axis_y_inverted>`
 
-Returns ``true`` if the invert flags has the flag for the Y-axis in the setting at ``index``. See also :ref:`set_invert_flags()<class_CopyTransformModifier3D_method_set_invert_flags>`.
+Restituisce ``true`` se i flag di inversione hanno il flag per l'asse Y nell'impostazione all'indice ``index``. Vedi anche :ref:`set_invert_flags()<class_CopyTransformModifier3D_method_set_invert_flags>`.
 
 .. rst-class:: classref-item-separator
 
@@ -334,7 +334,7 @@ Returns ``true`` if the invert flags has the flag for the Y-axis in the setting 
 
 :ref:`bool<class_bool>` **is_axis_z_enabled**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CopyTransformModifier3D_method_is_axis_z_enabled>`
 
-Returns ``true`` if the enable flags has the flag for the Z-axis in the setting at ``index``. See also :ref:`set_axis_flags()<class_CopyTransformModifier3D_method_set_axis_flags>`.
+Restituisce ``true`` se i flag di abilitazione hanno il flag per l'asse Z nell'impostazione all'indice ``index``. Vedi anche :ref:`set_axis_flags()<class_CopyTransformModifier3D_method_set_axis_flags>`.
 
 .. rst-class:: classref-item-separator
 
@@ -346,7 +346,7 @@ Returns ``true`` if the enable flags has the flag for the Z-axis in the setting 
 
 :ref:`bool<class_bool>` **is_axis_z_inverted**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CopyTransformModifier3D_method_is_axis_z_inverted>`
 
-Returns ``true`` if the invert flags has the flag for the Z-axis in the setting at ``index``. See also :ref:`set_invert_flags()<class_CopyTransformModifier3D_method_set_invert_flags>`.
+Restituisce ``true`` se i flag di inversione hanno il flag per l'asse Z nell'impostazione all'indice ``index``. Vedi anche :ref:`set_invert_flags()<class_CopyTransformModifier3D_method_set_invert_flags>`.
 
 .. rst-class:: classref-item-separator
 
@@ -358,7 +358,7 @@ Returns ``true`` if the invert flags has the flag for the Z-axis in the setting 
 
 :ref:`bool<class_bool>` **is_position_copying**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CopyTransformModifier3D_method_is_position_copying>`
 
-Returns ``true`` if the copy flags has the flag for the position in the setting at ``index``. See also :ref:`set_copy_flags()<class_CopyTransformModifier3D_method_set_copy_flags>`.
+Restituisce ``true`` se i flag di copia hanno il flag per la posizione nell'impostazione all'indice ``index``. Vedi anche :ref:`set_copy_flags()<class_CopyTransformModifier3D_method_set_copy_flags>`.
 
 .. rst-class:: classref-item-separator
 
@@ -370,7 +370,7 @@ Returns ``true`` if the copy flags has the flag for the position in the setting 
 
 :ref:`bool<class_bool>` **is_relative**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CopyTransformModifier3D_method_is_relative>`
 
-Returns ``true`` if the relative option is enabled in the setting at ``index``.
+Restituisce ``true`` se l'opzione "relativa" è abilitata nell'impostazione all'indice ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -382,7 +382,7 @@ Returns ``true`` if the relative option is enabled in the setting at ``index``.
 
 :ref:`bool<class_bool>` **is_rotation_copying**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CopyTransformModifier3D_method_is_rotation_copying>`
 
-Returns ``true`` if the copy flags has the flag for the rotation in the setting at ``index``. See also :ref:`set_copy_flags()<class_CopyTransformModifier3D_method_set_copy_flags>`.
+Restituisce ``true`` se i flag di copia hanno il flag per la rotazione nell'impostazione all'indice ``index``. Vedi anche :ref:`set_copy_flags()<class_CopyTransformModifier3D_method_set_copy_flags>`.
 
 .. rst-class:: classref-item-separator
 
@@ -422,7 +422,7 @@ If sets ``enabled`` to ``false``, the pose of the current apply bone is replaced
 
 |void| **set_axis_flags**\ (\ index\: :ref:`int<class_int>`, axis_flags\: |bitfield|\[:ref:`AxisFlag<enum_CopyTransformModifier3D_AxisFlag>`\]\ ) :ref:`🔗<class_CopyTransformModifier3D_method_set_axis_flags>`
 
-Sets the flags to copy axes. If the flag is valid, the axis is copied.
+Imposta i flag per copiare gli assi. Se il flag è valido, l'asse è copiato.
 
 .. rst-class:: classref-item-separator
 
@@ -506,9 +506,9 @@ Se ``enabled`` è ``true``, l'asse Z sarà invertita.
 
 |void| **set_copy_flags**\ (\ index\: :ref:`int<class_int>`, copy_flags\: |bitfield|\[:ref:`TransformFlag<enum_CopyTransformModifier3D_TransformFlag>`\]\ ) :ref:`🔗<class_CopyTransformModifier3D_method_set_copy_flags>`
 
-Sets the flags to process the transform operations. If the flag is valid, the transform operation is processed.
+Imposta i flag per elaborare le operazioni di trasformazione. Se il flag è valido, l'operazione di trasformazione viene elaborata.
 
-\ **Note:** If the rotation is valid for only one axis, it respects the roll of the valid axis. If the rotation is valid for two axes, it discards the roll of the invalid axis.
+\ **Nota:** Se la rotazione è valida per un solo asse, rispetta il rollio dell'asse valido. Se la rotazione è valida per due assi, ignora il rollio dell'asse non valido.
 
 .. rst-class:: classref-item-separator
 
@@ -556,11 +556,11 @@ Se ``enabled`` è ``true``, la scala sarà copiata.
 
 |void| **set_invert_flags**\ (\ index\: :ref:`int<class_int>`, axis_flags\: |bitfield|\[:ref:`AxisFlag<enum_CopyTransformModifier3D_AxisFlag>`\]\ ) :ref:`🔗<class_CopyTransformModifier3D_method_set_invert_flags>`
 
-Sets the flags to inverte axes. If the flag is valid, the axis is copied.
+Imposta i flag per invertire gli assi. Se il flag è valido, l'asse viene copiato.
 
-\ **Note:** An inverted scale means an inverse number, not a negative scale. For example, inverting ``2.0`` means ``0.5``.
+\ **Nota:** Una scala invertita indica un numero inverso, non una scala negativa. Ad esempio, invertendo ``2.0`` si ottiene ``0.5``.
 
-\ **Note:** An inverted rotation flips the elements of the quaternion. For example, a two-axis inversion will flip the roll of each axis, and a three-axis inversion will flip the final orientation. However, be aware that flipping only one axis may cause unintended rotation by the unflipped axes, due to the characteristics of the quaternion.
+\ **Nota:** Una rotazione invertita inverte gli elementi del quaternione. Ad esempio, un'inversione a due assi invertirà il rollio di ciascun asse, mentre un'inversione a tre assi invertirà l'orientamento finale. Tuttavia, tieni presente che l'inversione di un solo asse può causare una rotazione indesiderata degli assi non invertiti, a causa delle caratteristiche del quaternione.
 
 .. rst-class:: classref-item-separator
 
@@ -572,11 +572,11 @@ Sets the flags to inverte axes. If the flag is valid, the axis is copied.
 
 |void| **set_relative**\ (\ index\: :ref:`int<class_int>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_CopyTransformModifier3D_method_set_relative>`
 
-Sets relative option in the setting at ``index`` to ``enabled``.
+Imposta l'opzione relativa nell'impostazione all'indice ``index`` su ``enabled``.
 
-If sets ``enabled`` to ``true``, the extracted and applying transform is relative to the rest.
+Se ``enabled`` è impostato su ``true``, la trasformazione estratta e applicata è relativa al riposo.
 
-If sets ``enabled`` to ``false``, the extracted transform is absolute.
+Se ``enabled`` è impostato su ``false``, la trasformazione estratta è assoluta.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

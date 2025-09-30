@@ -49,7 +49,7 @@ enum **Function**: :ref:`🔗<enum_VisualShaderNodeFloatFunc_Function>`
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_SIN** = ``0``
 
-Devuelve el seno del parámetro. Se traduce a ``sin(x)`` en el lenguaje de shader de Godot.
+Devuelve el seno del parámetro. Se traduce a ``sin(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_COS:
 
@@ -57,7 +57,7 @@ Devuelve el seno del parámetro. Se traduce a ``sin(x)`` en el lenguaje de shade
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_COS** = ``1``
 
-Devuelve el coseno del parámetro. Se traduce a ``cos(x)`` en el lenguaje de shader de Godot.
+Devuelve el coseno del parámetro. Se traduce a ``cos(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_TAN:
 
@@ -65,7 +65,7 @@ Devuelve el coseno del parámetro. Se traduce a ``cos(x)`` en el lenguaje de sha
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_TAN** = ``2``
 
-Devuelve la tangente del parámetro. Se traduce a ``tan(x)`` en el lenguaje de shader de Godot.
+Devuelve la tangente del parámetro. Se traduce a ``tan(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_ASIN:
 
@@ -73,7 +73,7 @@ Devuelve la tangente del parámetro. Se traduce a ``tan(x)`` en el lenguaje de s
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_ASIN** = ``3``
 
-Devuelve el arcoseno del parámetro. Se traduce a ``asin(x)`` en el lenguaje de shader de Godot.
+Devuelve el arcoseno del parámetro. Se traduce a ``asin(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_ACOS:
 
@@ -81,7 +81,7 @@ Devuelve el arcoseno del parámetro. Se traduce a ``asin(x)`` en el lenguaje de 
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_ACOS** = ``4``
 
-Devuelve el arcocoseno del parámetro. Se traduce a ``acos(x)`` en el lenguaje de shader de Godot.
+Devuelve el arcocoseno del parámetro. Se traduce a ``acos(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_ATAN:
 
@@ -89,7 +89,7 @@ Devuelve el arcocoseno del parámetro. Se traduce a ``acos(x)`` en el lenguaje d
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_ATAN** = ``5``
 
-Devuelve la arcotangente del parámetro. Se traduce a ``atan(x)`` en el lenguaje de shader de Godot.
+Devuelve la arcotangente del parámetro. Se traduce a ``atan(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_SINH:
 
@@ -97,7 +97,7 @@ Devuelve la arcotangente del parámetro. Se traduce a ``atan(x)`` en el lenguaje
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_SINH** = ``6``
 
-Devuelve el seno hiperbólico del parámetro. Se traduce a ``sinh(x)`` en el lenguaje de shader de Godot.
+Devuelve el seno hiperbólico del parámetro. Se traduce a ``sinh(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_COSH:
 
@@ -105,7 +105,7 @@ Devuelve el seno hiperbólico del parámetro. Se traduce a ``sinh(x)`` en el len
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_COSH** = ``7``
 
-Devuelve el coseno hiperbólico del parámetro. Se traduce a ``cosh(x)`` en el lenguaje de shader de Godot.
+Devuelve el coseno hiperbólico del parámetro. Se traduce a ``cosh(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_TANH:
 
@@ -113,7 +113,7 @@ Devuelve el coseno hiperbólico del parámetro. Se traduce a ``cosh(x)`` en el l
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_TANH** = ``8``
 
-Devuelve la tangente hiperbólica del parámetro. Se traduce a ``tanh(x)`` en el lenguaje de shader de Godot.
+Devuelve la tangente hiperbólica del parámetro. Se traduce a ``tanh(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_LOG:
 
@@ -121,7 +121,7 @@ Devuelve la tangente hiperbólica del parámetro. Se traduce a ``tanh(x)`` en el
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_LOG** = ``9``
 
-Devuelve el logaritmo natural del parámetro. Se traduce a ``log(x)`` en el lenguaje de shader de Godot.
+Devuelve el logaritmo natural del parámetro. Se traduce a ``log(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_EXP:
 
@@ -129,7 +129,7 @@ Devuelve el logaritmo natural del parámetro. Se traduce a ``log(x)`` en el leng
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_EXP** = ``10``
 
-Devuelve la exponenciación natural del parámetro. Se traduce a ``exp(x)`` en el lenguaje de shader de Godot.
+Devuelve la exponenciación natural del parámetro. Se traduce a ``exp(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_SQRT:
 
@@ -137,7 +137,7 @@ Devuelve la exponenciación natural del parámetro. Se traduce a ``exp(x)`` en e
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_SQRT** = ``11``
 
-Devuelve la raíz cuadrada del parámetro. Se traduce a ``sqrt(x)`` en el lenguaje de shader de Godot.
+Devuelve la raíz cuadrada del parámetro. Se traduce a ``sqrt(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_ABS:
 
@@ -145,7 +145,7 @@ Devuelve la raíz cuadrada del parámetro. Se traduce a ``sqrt(x)`` en el lengua
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_ABS** = ``12``
 
-Devuelve el valor absoluto del parámetro. Se traduce a ``abs(x)`` en el lenguaje de shader de Godot.
+Devuelve el valor absoluto del parámetro. Se traduce a ``abs(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_SIGN:
 
@@ -153,7 +153,7 @@ Devuelve el valor absoluto del parámetro. Se traduce a ``abs(x)`` en el lenguaj
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_SIGN** = ``13``
 
-Extrae el signo del parámetro. Se traduce a ``sign(x)`` en el lenguaje de shader de Godot.
+Extrae el signo del parámetro. Se traduce a ``sign(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_FLOOR:
 
@@ -161,7 +161,7 @@ Extrae el signo del parámetro. Se traduce a ``sign(x)`` en el lenguaje de shade
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_FLOOR** = ``14``
 
-Encuentra el entero más cercano menor o igual que el parámetro. Se traduce a ``floor(x)`` en el lenguaje de shader de Godot.
+Encuentra el entero más cercano menor o igual que el parámetro. Se traduce a ``floor(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_ROUND:
 
@@ -169,7 +169,7 @@ Encuentra el entero más cercano menor o igual que el parámetro. Se traduce a `
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_ROUND** = ``15``
 
-Encuentra el entero más cercano al parámetro. Se traduce a ``round(x)`` en el lenguaje de shader de Godot.
+Encuentra el entero más cercano al parámetro. Se traduce a ``round(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_CEIL:
 
@@ -177,7 +177,7 @@ Encuentra el entero más cercano al parámetro. Se traduce a ``round(x)`` en el 
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_CEIL** = ``16``
 
-Encuentra el entero más cercano que es mayor o igual que el parámetro. Se traduce a ``ceil(x)`` en el lenguaje de shader de Godot.
+Encuentra el entero más cercano que es mayor o igual que el parámetro. Se traduce a ``ceil(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_FRACT:
 
@@ -185,7 +185,7 @@ Encuentra el entero más cercano que es mayor o igual que el parámetro. Se trad
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_FRACT** = ``17``
 
-Calcula la parte fraccionaria del argumento. Se traduce a ``fract(x)`` en el lenguaje de shader de Godot.
+Calcula la parte fraccionaria del argumento. Se traduce a ``fract(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_SATURATE:
 
@@ -209,7 +209,7 @@ Niega el ``x`` usando ``-(x)``.
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_ACOSH** = ``20``
 
-Devuelve el arcocoseno hiperbólico del parámetro. Se traduce a ``acosh(x)`` en el lenguaje de shader de Godot.
+Devuelve el arcocoseno hiperbólico del parámetro. Se traduce a ``acosh(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_ASINH:
 
@@ -217,7 +217,7 @@ Devuelve el arcocoseno hiperbólico del parámetro. Se traduce a ``acosh(x)`` en
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_ASINH** = ``21``
 
-Devuelve el arcoseno hiperbólico del parámetro. Se traduce a ``asinh(x)`` en el lenguaje de shader de Godot.
+Devuelve el arcoseno hiperbólico del parámetro. Se traduce a ``asinh(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_ATANH:
 
@@ -225,7 +225,7 @@ Devuelve el arcoseno hiperbólico del parámetro. Se traduce a ``asinh(x)`` en e
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_ATANH** = ``22``
 
-Devuelve la arco tangente hiperbólica del parámetro. Se traduce a ``atanh(x)`` en el lenguaje de shader de Godot.
+Devuelve la arco tangente hiperbólica del parámetro. Se traduce a ``atanh(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_DEGREES:
 
@@ -233,7 +233,7 @@ Devuelve la arco tangente hiperbólica del parámetro. Se traduce a ``atanh(x)``
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_DEGREES** = ``23``
 
-Convierte una cantidad en radianes a grados. Se traduce a ``degrees(x)`` en el lenguaje de shader de Godot.
+Convierte una cantidad en radianes a grados. Se traduce a ``degrees(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_EXP2:
 
@@ -241,7 +241,7 @@ Convierte una cantidad en radianes a grados. Se traduce a ``degrees(x)`` en el l
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_EXP2** = ``24``
 
-Devuelve 2 elevado a la potencia del parámetro. Se traduce a ``exp2(x)`` en el lenguaje de shader de Godot.
+Devuelve 2 elevado a la potencia del parámetro. Se traduce a ``exp2(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_INVERSE_SQRT:
 
@@ -249,7 +249,7 @@ Devuelve 2 elevado a la potencia del parámetro. Se traduce a ``exp2(x)`` en el 
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_INVERSE_SQRT** = ``25``
 
-Devuelve la inversa de la raíz cuadrada del parámetro. Se traduce a ``inversesqrt(x)`` en el lenguaje de shader de Godot.
+Devuelve la inversa de la raíz cuadrada del parámetro. Se traduce a ``inversesqrt(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_LOG2:
 
@@ -257,7 +257,7 @@ Devuelve la inversa de la raíz cuadrada del parámetro. Se traduce a ``inverses
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_LOG2** = ``26``
 
-Devuelve el logaritmo en base 2 del parámetro. Se traduce a ``log2(x)`` en el lenguaje de shader de Godot.
+Devuelve el logaritmo en base 2 del parámetro. Se traduce a ``log2(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_RADIANS:
 
@@ -265,7 +265,7 @@ Devuelve el logaritmo en base 2 del parámetro. Se traduce a ``log2(x)`` en el l
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_RADIANS** = ``27``
 
-Convierte una cantidad en grados a radianes. Se traduce a ``radians(x)`` en el lenguaje de shader de Godot.
+Convierte una cantidad en grados a radianes. Se traduce a ``radians(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_RECIPROCAL:
 
@@ -281,7 +281,7 @@ Encuentra el valor recíproco de dividir 1 por ``x`` (es decir, ``1 / x``).
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_ROUNDEVEN** = ``29``
 
-Encuentra el entero par más cercano al parámetro. Se traduce a ``roundEven(x)`` en el lenguaje de shader de Godot.
+Encuentra el entero par más cercano al parámetro. Se traduce a ``roundEven(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_TRUNC:
 
@@ -289,7 +289,7 @@ Encuentra el entero par más cercano al parámetro. Se traduce a ``roundEven(x)`
 
 :ref:`Function<enum_VisualShaderNodeFloatFunc_Function>` **FUNC_TRUNC** = ``30``
 
-Devuelve un valor igual al entero más cercano a ``x`` cuyo valor absoluto no es mayor que el valor absoluto de ``x``. Se traduce a ``trunc(x)`` en el lenguaje de shader de Godot.
+Devuelve un valor igual al entero más cercano a ``x`` cuyo valor absoluto no es mayor que el valor absoluto de ``x``. Se traduce a ``trunc(x)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatFunc_constant_FUNC_ONEMINUS:
 

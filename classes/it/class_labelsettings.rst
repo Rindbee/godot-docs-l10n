@@ -282,7 +282,7 @@ Dimensione dell'effetto ombra.
 - |void| **set_stacked_outline_count**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_stacked_outline_count**\ (\ )
 
-The number of stacked outlines.
+Il numero di contorni impilati.
 
 .. rst-class:: classref-item-separator
 
@@ -299,7 +299,7 @@ The number of stacked outlines.
 - |void| **set_stacked_shadow_count**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_stacked_shadow_count**\ (\ )
 
-The number of stacked shadows.
+Il numero di ombre impilate.
 
 .. rst-class:: classref-section-separator
 
@@ -316,7 +316,7 @@ Descrizioni dei metodi
 
 |void| **add_stacked_outline**\ (\ index\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_LabelSettings_method_add_stacked_outline>`
 
-Adds a new stacked outline to the label at the given ``index``. If ``index`` is ``-1``, the new stacked outline will be added at the end of the list.
+Aggiunge un nuovo contorno impilato all'etichetta all'indice ``index``. Se ``index`` è ``-1``, il nuovo contorno impilato sarà aggiunto alla fine dell'elenco.
 
 .. rst-class:: classref-item-separator
 
@@ -328,7 +328,7 @@ Adds a new stacked outline to the label at the given ``index``. If ``index`` is 
 
 |void| **add_stacked_shadow**\ (\ index\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_LabelSettings_method_add_stacked_shadow>`
 
-Adds a new stacked shadow to the label at the given ``index``. If ``index`` is ``-1``, the new stacked shadow will be added at the end of the list.
+Aggiunge una nuova ombra impilata all'etichetta all'indice ``index``. Se ``index`` è ``-1``, la nuova ombra impilata sarà aggiunta alla fine dell'elenco.
 
 .. rst-class:: classref-item-separator
 
@@ -340,7 +340,7 @@ Adds a new stacked shadow to the label at the given ``index``. If ``index`` is `
 
 :ref:`Color<class_Color>` **get_stacked_outline_color**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_LabelSettings_method_get_stacked_outline_color>`
 
-Returns the color of the stacked outline at ``index``.
+Restituisce il colore del contorno impilato all'indice ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -352,7 +352,7 @@ Returns the color of the stacked outline at ``index``.
 
 :ref:`int<class_int>` **get_stacked_outline_size**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_LabelSettings_method_get_stacked_outline_size>`
 
-Returns the size of the stacked outline at ``index``.
+Restituisce la dimensione del contorno impilato all'indice ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -364,7 +364,7 @@ Returns the size of the stacked outline at ``index``.
 
 :ref:`Color<class_Color>` **get_stacked_shadow_color**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_LabelSettings_method_get_stacked_shadow_color>`
 
-Returns the color of the stacked shadow at ``index``.
+Restituisce il colore dell'ombra impilata all'indice ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -376,7 +376,7 @@ Returns the color of the stacked shadow at ``index``.
 
 :ref:`Vector2<class_Vector2>` **get_stacked_shadow_offset**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_LabelSettings_method_get_stacked_shadow_offset>`
 
-Returns the offset of the stacked shadow at ``index``.
+Restituisce lo scostamento dell'ombra impilata all'indice ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -388,7 +388,7 @@ Returns the offset of the stacked shadow at ``index``.
 
 :ref:`int<class_int>` **get_stacked_shadow_outline_size**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_LabelSettings_method_get_stacked_shadow_outline_size>`
 
-Returns the outline size of the stacked shadow at ``index``.
+Restituisce la dimensione del contorno dell'ombra impilata all'indice ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -400,7 +400,7 @@ Returns the outline size of the stacked shadow at ``index``.
 
 |void| **move_stacked_outline**\ (\ from_index\: :ref:`int<class_int>`, to_position\: :ref:`int<class_int>`\ ) :ref:`🔗<class_LabelSettings_method_move_stacked_outline>`
 
-Moves the stacked outline at index ``from_index`` to the given position ``to_position`` in the array.
+Sposta il contorno impilato all'indice ``from_index`` nella posizione ``to_position`` specificata nell'array.
 
 .. rst-class:: classref-item-separator
 
@@ -412,7 +412,7 @@ Moves the stacked outline at index ``from_index`` to the given position ``to_pos
 
 |void| **move_stacked_shadow**\ (\ from_index\: :ref:`int<class_int>`, to_position\: :ref:`int<class_int>`\ ) :ref:`🔗<class_LabelSettings_method_move_stacked_shadow>`
 
-Moves the stacked shadow at index ``from_index`` to the given position ``to_position`` in the array.
+Sposta l'ombra impilata all'indice ``from_index`` nella posizione ``to_position`` specificata nell'array.
 
 .. rst-class:: classref-item-separator
 
@@ -424,7 +424,7 @@ Moves the stacked shadow at index ``from_index`` to the given position ``to_posi
 
 |void| **remove_stacked_outline**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_LabelSettings_method_remove_stacked_outline>`
 
-Removes the stacked outline at index ``index``.
+Rimuove il contorno impilato all'indice ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -436,7 +436,7 @@ Removes the stacked outline at index ``index``.
 
 |void| **remove_stacked_shadow**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_LabelSettings_method_remove_stacked_shadow>`
 
-Removes the stacked shadow at index ``index``.
+Rimuove l'ombra impilata all'indice ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -448,7 +448,7 @@ Removes the stacked shadow at index ``index``.
 
 |void| **set_stacked_outline_color**\ (\ index\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_LabelSettings_method_set_stacked_outline_color>`
 
-Sets the color of the stacked outline identified by the given ``index`` to ``color``.
+Imposta il colore del contorno impilato identificato dall'indice ``index`` su ``color``.
 
 .. rst-class:: classref-item-separator
 
@@ -460,7 +460,7 @@ Sets the color of the stacked outline identified by the given ``index`` to ``col
 
 |void| **set_stacked_outline_size**\ (\ index\: :ref:`int<class_int>`, size\: :ref:`int<class_int>`\ ) :ref:`🔗<class_LabelSettings_method_set_stacked_outline_size>`
 
-Sets the size of the stacked outline identified by the given ``index`` to ``size``.
+Imposta la dimensione del contorno impilato identificato dall'indice ``index`` su ``size``.
 
 .. rst-class:: classref-item-separator
 
@@ -472,7 +472,7 @@ Sets the size of the stacked outline identified by the given ``index`` to ``size
 
 |void| **set_stacked_shadow_color**\ (\ index\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_LabelSettings_method_set_stacked_shadow_color>`
 
-Sets the color of the stacked shadow identified by the given ``index`` to ``color``.
+Imposta il colore dell'ombra impilata identificata dall'indice ``index`` su ``color``.
 
 .. rst-class:: classref-item-separator
 
@@ -484,7 +484,7 @@ Sets the color of the stacked shadow identified by the given ``index`` to ``colo
 
 |void| **set_stacked_shadow_offset**\ (\ index\: :ref:`int<class_int>`, offset\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_LabelSettings_method_set_stacked_shadow_offset>`
 
-Sets the offset of the stacked shadow identified by the given ``index`` to ``offset``.
+Imposta lo scostamento dell'ombra impilata identificata dall'indice ``index`` su ``offset``.
 
 .. rst-class:: classref-item-separator
 
@@ -496,7 +496,7 @@ Sets the offset of the stacked shadow identified by the given ``index`` to ``off
 
 |void| **set_stacked_shadow_outline_size**\ (\ index\: :ref:`int<class_int>`, size\: :ref:`int<class_int>`\ ) :ref:`🔗<class_LabelSettings_method_set_stacked_shadow_outline_size>`
 
-Sets the outline size of the stacked shadow identified by the given ``index`` to ``size``.
+Imposta la dimensione del contorno dell'ombra impilata identificata dall'indice ``index`` su ``size``.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

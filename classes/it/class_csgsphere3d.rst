@@ -23,7 +23,7 @@ Questo nodo consente di creare una sfera da utilizzare con il sistema CSG.
 Tutorial
 ----------------
 
-- :doc:`Prototipazione de livelli con CSG <../tutorials/3d/csg_tools>`
+- :doc:`Prototipazione dei livelli con CSG <../tutorials/3d/csg_tools>`
 
 .. rst-class:: classref-reftable-group
 

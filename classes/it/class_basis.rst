@@ -12,7 +12,7 @@ Una matrice 3×3 per rappresentare la rotazione e la scala 3D.
 Descrizione
 ----------------------
 
-Il tipo di :ref:`Variant<class_Variant>` integrato **Basis** è una `matrice <https://it.wikipedia.org/wiki/Matrice>`__ 3×3 utilizzata per rappresentare rotazione, scala e taglio. Viene spesso utilizzato all'interno di un :ref:`Transform3D<class_Transform3D>`.
+Il tipo di :ref:`Variant<class_Variant>` integrato **Basis** è una `matrice <https://it.wikipedia.org/wiki/Matrice>`__ 3×3 utilizzata per rappresentare rotazione, scala e deformazione. Viene spesso utilizzato all'interno di un :ref:`Transform3D<class_Transform3D>`.
 
 Una base è composta da 3 vettori di assi, ciascuno dei quali rappresenta una colonna della matrice: :ref:`x<class_Basis_property_x>`, :ref:`y<class_Basis_property_y>` e :ref:`z<class_Basis_property_z>`. La lunghezza di ciascun asse (:ref:`Vector3.length()<class_Vector3_method_length>`) influenza la scala della base, mentre la direzione di tutti gli assi influenza la rotazione. Di solito questi assi sono perpendicolari tra loro. Tuttavia, quando si ruota un asse individualmente, la base diventa inclinata. L'applicazione di una base inclinata a un modello 3D farà apparire il modello distorto.
 
@@ -366,13 +366,13 @@ Descrizioni dei metodi
 
 :ref:`float<class_float>` **determinant**\ (\ ) |const| :ref:`🔗<class_Basis_method_determinant>`
 
-Restituisce il `determinante <https://it.wikipedia.org/wiki/Determinante_(algebra)>`__ della matrice di questa base. Per la matematica avanzata, questo numero può essere usato per determinare alcuni attributi:
+Returns the `determinant <https://en.wikipedia.org/wiki/Determinant>`__ of this basis's matrix. For advanced math, this number can be used to determine a few attributes:
 
-- Se il determinante è esattamente ``0.0``, la base non è invertibile (vedi :ref:`inverse()<class_Basis_method_inverse>`).
+- If the determinant is exactly ``0.0``, the basis is not invertible (see :ref:`inverse()<class_Basis_method_inverse>`).
 
-- Se il determinante è un numero negativo, la base rappresenta una scala negativa.
+- If the determinant is a negative number, the basis represents a negative scale.
 
-\ **Nota:** Se la scala della base è la stessa per ogni asse, il suo determinante è sempre quella scala elevata alla potenza di 2.
+\ **Note:** If the basis's scale is the same for every axis, its determinant is always that scale by the power of 3.
 
 .. rst-class:: classref-item-separator
 
@@ -411,7 +411,7 @@ Costruisce una nuova **Basis** che rappresenta solo la rotazione dal :ref:`Vecto
 
 
 
-L'ordine di ogni rotazione consecutiva può essere modificato con ``order`` (vedi le costanti di :ref:`EulerOrder<enum_@GlobalScope_EulerOrder>`). Come predefinito, è usata la convenzione YXZ (:ref:`@GlobalScope.EULER_ORDER_YXZ<class_@GlobalScope_constant_EULER_ORDER_YXZ>`): la base ruota prima attorno all'asse Y (imbardata), poi X (beccheggio) e infine Z (rollio). Quando si utilizza il metodo opposto :ref:`get_euler()<class_Basis_method_get_euler>`, questo ordine è invertito.
+L'ordine di ogni rotazione consecutiva si essere cambiare con ``order`` (vedi le costanti di :ref:`EulerOrder<enum_@GlobalScope_EulerOrder>`). Come predefinito, è usata la convenzione YXZ (:ref:`@GlobalScope.EULER_ORDER_YXZ<class_@GlobalScope_constant_EULER_ORDER_YXZ>`): la base ruota prima attorno all'asse Y (imbardata), poi X (beccheggio) e infine Z (rollio). Quando si utilizza il metodo opposto :ref:`get_euler()<class_Basis_method_get_euler>`, questo ordine è invertito.
 
 .. rst-class:: classref-item-separator
 
@@ -728,9 +728,9 @@ Le righe della matrice base sono moltiplicate per i componenti di ``scale``. Que
 
 :ref:`Basis<class_Basis>` **scaled_local**\ (\ scale\: :ref:`Vector3<class_Vector3>`\ ) |const| :ref:`🔗<class_Basis_method_scaled_local>`
 
-Returns this basis with each axis scaled by the corresponding component in the given ``scale``.
+Restituisce questa base con i componenti di ciascun asse ridimensionati in base ai componenti di ``scale``.
 
-The basis matrix's columns are multiplied by ``scale``'s components. This operation is a local scale (relative to self).
+Le righe della matrice base sono moltiplicate per i componenti di ``scale``. Questa operazione è una scala locale (relativa a se stesso).
 
 
 .. tabs::
@@ -742,11 +742,11 @@ The basis matrix's columns are multiplied by ``scale``'s components. This operat
         Vector3(2, 2, 2),
         Vector3(3, 3, 3)
     )
-    my_basis = my_basis.scaled_local(Vector3(0, 2, -2))
+    my_basis = my_basis.scaled(Vector3(0, 2, -2))
 
-    print(my_basis.x) # Prints (0.0, 0.0, 0.0)
-    print(my_basis.y) # Prints (4.0, 4.0, 4.0)
-    print(my_basis.z) # Prints (-6.0, -6.0, -6.0)
+    print(my_basis.x) # Stampa (0.0, 0.0, 0.0)
+    print(my_basis.y) # Stampa (4.0, 4.0, 4.0)
+    print(my_basis.z) # Stampa (-6.0, -6.0, -6.0)
 
  .. code-tab:: csharp
 
@@ -755,11 +755,11 @@ The basis matrix's columns are multiplied by ``scale``'s components. This operat
         new Vector3(2.0f, 2.0f, 2.0f),
         new Vector3(3.0f, 3.0f, 3.0f)
     );
-    myBasis = myBasis.ScaledLocal(new Vector3(0.0f, 2.0f, -2.0f));
+    myBasis = myBasis.Scaled(new Vector3(0.0f, 2.0f, -2.0f));
 
-    GD.Print(myBasis.X); // Prints (0, 0, 0)
-    GD.Print(myBasis.Y); // Prints (4, 4, 4)
-    GD.Print(myBasis.Z); // Prints (-6, -6, -6)
+    GD.Print(myBasis.X); // Stampa (0, 0, 0)
+    GD.Print(myBasis.Y); // Stampa (4, 4, 4)
+    GD.Print(myBasis.Z); // Stampa (-6, -6, -6)
 
 
 
@@ -934,7 +934,6 @@ Trasforma (moltiplica) il vettore ``right`` per questa base, restituendo un :ref
     GD.Print(myBasis * new Vector3(1, 2, 3)); // Prints (4, 2, 6)
 
 
-.. tabs::
 
 .. rst-class:: classref-item-separator
 

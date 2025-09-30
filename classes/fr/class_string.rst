@@ -499,11 +499,11 @@ Change l'apparence de la chaîne de caractères : remplace les tirets bas (``_`
 
 :ref:`int<class_int>` **casecmp_to**\ (\ to\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_String_method_casecmp_to>`
 
-Performs a case-sensitive comparison to another string. Returns ``-1`` if less than, ``1`` if greater than, or ``0`` if equal. "Less than" and "greater than" are determined by the `Unicode code points <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__ of each string, which roughly matches the alphabetical order.
+Effectue une comparaison sensible à la casse avec une autre chaîne. Renvoie ``-1`` si elle est inférieure, ``1`` si elle est plus supérieure, ou ``0`` si elles sont égales. "Inférieur à" et "supérieur à" sont déterminés par `points de code Unicode <https://fr.m.wikipedia.org/wiki/Table_des_caract%C3%A8res_Unicode>`__ de chaque chaîne, qui correspond approximativement à l'ordre alphabétique.
 
-If the character comparison reaches the end of one string, but the other string contains more characters, then it will use length as the deciding factor: ``1`` will be returned if this string is longer than the ``to`` string, or ``-1`` if shorter. Note that the length of empty strings is always ``0``.
+Si la comparaison des caractères atteint la fin d'une chaîne, mais que l'autre chaîne contient plus de caractères, elle utilisera alors la longueur comme facteur déterminant : ``1`` sera renvoyé si cette chaîne est plus longue que la chaîne ``to``, ou ``-1`` si elle est plus courte. Notez que la longueur des chaînes vides est toujours de ``0``.
 
-To get a :ref:`bool<class_bool>` result from a string comparison, use the ``==`` operator instead. See also :ref:`nocasecmp_to()<class_String_method_nocasecmp_to>`, :ref:`filecasecmp_to()<class_String_method_filecasecmp_to>`, and :ref:`naturalcasecmp_to()<class_String_method_naturalcasecmp_to>`.
+Pour obtenir un résultat booléen :ref:`bool<class_bool>` d'une comparaison de chaînes, utilisez plutôt l'opérateur ``==``. Voir aussi :ref:`nocasecmp_to()<class_String_method_nocasecmp_to>`, :ref:`filecasecmp_to()<class_String_method_filecasecmp_to>`, et :ref:`naturalcasecmp_to()<class_String_method_naturalcasecmp_to>`.
 
 .. rst-class:: classref-item-separator
 
@@ -951,9 +951,9 @@ Convertit la chaîne représentant un nombre hexadécimal en un entier :ref:`int
 
 :ref:`String<class_String>` **humanize_size**\ (\ size\: :ref:`int<class_int>`\ ) |static| :ref:`🔗<class_String_method_humanize_size>`
 
-Converts ``size`` which represents a number of bytes into a human-readable form.
+Convertit ``size`` qui représente un certain nombre d'octets en une forme facilement lisible.
 
-The result is in `IEC prefix format <https://en.wikipedia.org/wiki/Binary_prefix#IEC_prefixes>`__, which may end in either ``"B"``, ``"KiB"``, ``"MiB"``, ``"GiB"``, ``"TiB"``, ``"PiB"``, or ``"EiB"``.
+Le résultat est au `format de préfixe CEI <https://fr.wikipedia.org/wiki/Pr%C3%A9fixe_binaire#Tableaux_des_pr%C3%A9fixes_binaires_et_d%C3%A9cimaux>`__, qui peut se terminer soit ``"B"``, ``"KiB"``, ``"MiB"``, ``"GiB"``, ``"TiB"``, ``"PiB"``, ou ``"EiB"``.
 
 .. rst-class:: classref-item-separator
 
@@ -1375,13 +1375,13 @@ Renvoie le `hachage MD5 <https://fr.wikipedia.org/wiki/MD5>`__ de la chaîne en 
 
 :ref:`int<class_int>` **naturalcasecmp_to**\ (\ to\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_String_method_naturalcasecmp_to>`
 
-Performs a **case-sensitive**, *natural order* comparison to another string. Returns ``-1`` if less than, ``1`` if greater than, or ``0`` if equal. "Less than" or "greater than" are determined by the `Unicode code points <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__ of each string, which roughly matches the alphabetical order.
+Effectue une comparaison **sensible à la casse** *dans l'ordre naturel* avec une autre chaîne. Renvoie ``-1`` si elle est inférieure, ``1`` si elle est supérieure, ou ``0`` si elles sont égales. "Inférieur à" et "supérieur à" sont déterminés par `points de code Unicode <https://fr.m.wikipedia.org/wiki/Table_des_caract%C3%A8res_Unicode>`__ de chaque chaîne, qui correspond approximativement à l'ordre alphabétique.
 
-When used for sorting, natural order comparison orders sequences of numbers by the combined value of each digit as is often expected, instead of the single digit's value. A sorted sequence of numbered strings will be ``["1", "2", "3", ...]``, not ``["1", "10", "2", "3", ...]``.
+Lorsqu'elle est utilisée pour le tri, la comparaison dans l'ordre naturel ordonne des séquences de nombres par la valeur combinée de chaque chiffre comme s'y attend souvent, au lieu de la valeur du chiffre seul. Une séquence triée de chaînes de numéros sera ``["1, "2", "3", ...]``, et pas ``["1", "10", "2", "3", ...]``.
 
-If the character comparison reaches the end of one string, but the other string contains more characters, then it will use length as the deciding factor: ``1`` will be returned if this string is longer than the ``to`` string, or ``-1`` if shorter. Note that the length of empty strings is always ``0``.
+Si la comparaison des caractères atteint la fin d'une chaîne, mais que l'autre chaîne contient plus de caractères, elle utilisera alors la longueur comme facteur déterminant : ``1`` sera renvoyé si cette chaîne est plus longue que la chaîne ``to``, ou ``-1`` si elle est plus courte. Notez que la longueur des chaînes vides est toujours de ``0``.
 
-To get a :ref:`bool<class_bool>` result from a string comparison, use the ``==`` operator instead. See also :ref:`naturalnocasecmp_to()<class_String_method_naturalnocasecmp_to>`, :ref:`filecasecmp_to()<class_String_method_filecasecmp_to>`, and :ref:`nocasecmp_to()<class_String_method_nocasecmp_to>`.
+Pour obtenir un résultat booléen :ref:`bool<class_bool>` d'une comparaison de chaînes, utilisez plutôt l'opérateur ``==``. Voir aussi :ref:`naturalnocasecmp_to()<class_String_method_naturalnocasecmp_to>`, :ref:`filecasecmp_to()<class_String_method_filecasecmp_to>`, et :ref:`nocasecmp_to()<class_String_method_nocasecmp_to>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1393,13 +1393,13 @@ To get a :ref:`bool<class_bool>` result from a string comparison, use the ``==``
 
 :ref:`int<class_int>` **naturalnocasecmp_to**\ (\ to\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_String_method_naturalnocasecmp_to>`
 
-Performs a **case-insensitive**, *natural order* comparison to another string. Returns ``-1`` if less than, ``1`` if greater than, or ``0`` if equal. "Less than" or "greater than" are determined by the `Unicode code points <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__ of each string, which roughly matches the alphabetical order. Internally, lowercase characters are converted to uppercase for the comparison.
+Effectue une comparaison **insensible à la casse** *dans l'ordre naturel* avec une autre chaîne. Renvoie ``-1`` si elle est inférieure, ``1`` si elle est supérieure, ou ``0`` si elles sont égales. "Inférieur à" et "supérieur à" sont déterminés par `points de code Unicode <https://fr.m.wikipedia.org/wiki/Table_des_caract%C3%A8res_Unicode>`__ de chaque chaîne, qui correspond approximativement à l'ordre alphabétique. En interne, les caractères minuscules sont convertis en majuscules pour la comparaison.
 
-When used for sorting, natural order comparison orders sequences of numbers by the combined value of each digit as is often expected, instead of the single digit's value. A sorted sequence of numbered strings will be ``["1", "2", "3", ...]``, not ``["1", "10", "2", "3", ...]``.
+Lorsqu'elle est utilisée pour le tri, la comparaison dans l'ordre naturel ordonne des séquences de nombres par la valeur combinée de chaque chiffre comme s'y attend souvent, au lieu de la valeur du chiffre seul. Une séquence triée de chaînes de numéros sera ``["1, "2", "3", ...]``, et pas ``["1", "10", "2", "3", ...]``.
 
-If the character comparison reaches the end of one string, but the other string contains more characters, then it will use length as the deciding factor: ``1`` will be returned if this string is longer than the ``to`` string, or ``-1`` if shorter. Note that the length of empty strings is always ``0``.
+Si la comparaison des caractères atteint la fin d'une chaîne, mais que l'autre chaîne contient plus de caractères, elle utilisera alors la longueur comme facteur déterminant : ``1`` sera renvoyé si cette chaîne est plus longue que la chaîne ``to``, ou ``-1`` si elle est plus courte. Notez que la longueur des chaînes vides est toujours de ``0``.
 
-To get a :ref:`bool<class_bool>` result from a string comparison, use the ``==`` operator instead. See also :ref:`naturalcasecmp_to()<class_String_method_naturalcasecmp_to>`, :ref:`filenocasecmp_to()<class_String_method_filenocasecmp_to>`, and :ref:`casecmp_to()<class_String_method_casecmp_to>`.
+Pour obtenir un résultat booléen :ref:`bool<class_bool>` d'une comparaison de chaînes, utilisez plutôt l'opérateur ``==``. Voir aussi :ref:`naturalcasecmp_to()<class_String_method_naturalcasecmp_to>`, :ref:`filenocasecmp_to()<class_String_method_filenocasecmp_to>`, et :ref:`casecmp_to()<class_String_method_casecmp_to>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1411,11 +1411,11 @@ To get a :ref:`bool<class_bool>` result from a string comparison, use the ``==``
 
 :ref:`int<class_int>` **nocasecmp_to**\ (\ to\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_String_method_nocasecmp_to>`
 
-Performs a **case-insensitive** comparison to another string. Returns ``-1`` if less than, ``1`` if greater than, or ``0`` if equal. "Less than" or "greater than" are determined by the `Unicode code points <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__ of each string, which roughly matches the alphabetical order. Internally, lowercase characters are converted to uppercase for the comparison.
+Effectue une comparaison **insensible à la casse** avec une autre chaîne. Renvoie ``-1`` si elle est inférieure, ``1`` si elle est supérieure, ou ``0`` si elles sont égales. "Inférieur à" et "supérieur à" sont déterminés par `points de code Unicode <https://fr.m.wikipedia.org/wiki/Table_des_caract%C3%A8res_Unicode>`__ de chaque chaîne, qui correspond approximativement à l'ordre alphabétique. En interne, les caractères minuscules sont convertis en majuscules pour la comparaison.
 
-If the character comparison reaches the end of one string, but the other string contains more characters, then it will use length as the deciding factor: ``1`` will be returned if this string is longer than the ``to`` string, or ``-1`` if shorter. Note that the length of empty strings is always ``0``.
+Si la comparaison des caractères atteint la fin d'une chaîne, mais que l'autre chaîne contient plus de caractères, elle utilisera alors la longueur comme facteur déterminant : ``1`` sera renvoyé si cette chaîne est plus longue que la chaîne ``to``, ou ``-1`` si elle est plus courte. Notez que la longueur des chaînes vides est toujours de ``0``.
 
-To get a :ref:`bool<class_bool>` result from a string comparison, use the ``==`` operator instead. See also :ref:`casecmp_to()<class_String_method_casecmp_to>`, :ref:`filenocasecmp_to()<class_String_method_filenocasecmp_to>`, and :ref:`naturalnocasecmp_to()<class_String_method_naturalnocasecmp_to>`.
+Pour obtenir un résultat booléen :ref:`bool<class_bool>` d'une comparaison de chaînes, utilisez plutôt l'opérateur ``==``. Voir aussi :ref:`casecmp_to()<class_String_method_casecmp_to>`, :ref:`filenocasecmp_to()<class_String_method_filenocasecmp_to>`, et :ref:`naturalnocasecmp_to()<class_String_method_naturalnocasecmp_to>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1427,25 +1427,25 @@ To get a :ref:`bool<class_bool>` result from a string comparison, use the ``==``
 
 :ref:`String<class_String>` **num**\ (\ number\: :ref:`float<class_float>`, decimals\: :ref:`int<class_int>` = -1\ ) |static| :ref:`🔗<class_String_method_num>`
 
-Converts a :ref:`float<class_float>` to a string representation of a decimal number, with the number of decimal places specified in ``decimals``.
+Convertit un :ref:`float<class_float>` en une représentation en chaîne d'un nombre décimal, avec le nombre de décimales spécifié dans ``decimals``.
 
-If ``decimals`` is ``-1`` as by default, the string representation may only have up to 14 significant digits, with digits before the decimal point having priority over digits after.
+Si ``decimals`` vaut ``-1`` comme par défaut, la représentation en chaîne peut avoir seulement jusqu'à 14 chiffres significatifs, avec les chiffres avant la virgule ayant priorité sur les chiffres après.
 
-Trailing zeros are not included in the string. The last digit is rounded, not truncated.
+Les zéros de fin ne sont pas inclus dans la chaîne. Le dernier chiffre est arrondi, pas tronqué.
 
 ::
 
-    String.num(3.141593)     # Returns "3.141593"
-    String.num(3.141593, 3)  # Returns "3.142"
-    String.num(3.14159300)   # Returns "3.141593"
+    String.num(3.141593)     # Renvoie "3.141593"
+    String.num(3.141593, 3)  # Renvoie "3.142"
+    String.num(3.14159300)   # Renvoie "3.141593"
 
-    # Here, the last digit will be rounded up,
-    # which reduces the total digit count, since trailing zeros are removed:
-    String.num(42.129999, 5) # Returns "42.13"
+    # Ici, le dernier chiffre sera arrondi,
+    # ce qui réduit le nombre total de chiffres, puisque les zéros de fin sont supprimés :
+    String.num(42.129999, 5) # Renvoie "42.13"
 
-    # If `decimals` is not specified, the maximum number of significant digits is 14:
-    String.num(-0.0000012345432123454321)     # Returns "-0.00000123454321"
-    String.num(-10000.0000012345432123454321) # Returns "-10000.0000012345"
+    # Si `decimals` n  est pas spécifié, le nombre maximal de chiffres significatifs est de 14 :
+    String.num(-0.0000012345432123454321)     # Renvoie "-0.00000123454321"
+    String.num(-10000.0000012345432123454321) # Renvoie "-10000.0000012345"
 
 .. rst-class:: classref-item-separator
 
@@ -1457,11 +1457,11 @@ Trailing zeros are not included in the string. The last digit is rounded, not tr
 
 :ref:`String<class_String>` **num_int64**\ (\ number\: :ref:`int<class_int>`, base\: :ref:`int<class_int>` = 10, capitalize_hex\: :ref:`bool<class_bool>` = false\ ) |static| :ref:`🔗<class_String_method_num_int64>`
 
-Converts the given ``number`` to a string representation, with the given ``base``.
+Convertit le nombre ``number`` donné en une représentation en chaîne, avec la ``base`` donnée.
 
-By default, ``base`` is set to decimal (``10``). Other common bases in programming include binary (``2``), `octal <https://en.wikipedia.org/wiki/Octal>`__ (``8``), hexadecimal (``16``).
+Par défaut, ``base`` est définie en décimal (``10``). D'autres bases communes en programmation sont par exemple le binaire (``2``), l'`octal <https://fr.wikipedia.org/wiki/Syst%C3%A8me_octal>`__ (``8``), et l'hexadécimal (``16``).
 
-If ``capitalize_hex`` is ``true``, digits higher than 9 are represented in uppercase.
+Si ``capitalize_hex`` vaut ``true``, les chiffres supérieurs à 9 sont représentés en majuscules.
 
 .. rst-class:: classref-item-separator
 
@@ -1473,7 +1473,7 @@ If ``capitalize_hex`` is ``true``, digits higher than 9 are represented in upper
 
 :ref:`String<class_String>` **num_scientific**\ (\ number\: :ref:`float<class_float>`\ ) |static| :ref:`🔗<class_String_method_num_scientific>`
 
-Converts the given ``number`` to a string representation, in scientific notation.
+Convertit le nombre ``number`` donné en une représentation en chaîne, en notation scientifique.
 
 
 .. tabs::
@@ -1481,20 +1481,20 @@ Converts the given ``number`` to a string representation, in scientific notation
  .. code-tab:: gdscript
 
     var n = -5.2e8
-    print(n)                        # Prints -520000000
-    print(String.num_scientific(n)) # Prints -5.2e+08
+    print(n)                        # Affiche -520000000
+    print(String.num_scientific(n)) # Affiche -5.2e+08
 
  .. code-tab:: csharp
 
-    // This method is not implemented in C#.
-    // Use `string.ToString()` with "e" to achieve similar results.
+    // Cette méthode n'est pas implémentée en C#.
+    // Utilisez `string.ToString()` avec "e" pour obtenir un résultat similaire.
     var n = -5.2e8f;
-    GD.Print(n);                // Prints -520000000
-    GD.Print(n.ToString("e1")); // Prints -5.2e+008
+    GD.Print(n);                // Affiche -520000000
+    GD.Print(n.ToString("e1")); // Affiche -5.2e+008
 
 
 
-\ **Note:** In C#, this method is not implemented. To achieve similar results, see C#'s `Standard numeric format strings <https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings>`__.
+\ **Note :** En C#, cette méthode n'est pas implémentée. Pour obtenir des résultats similaires, voir `Chaînes de format numérique standard <https://learn.microsoft.com/fr-fr/dotnet/standard/base-types/standard-numeric-format-strings>`__ du C#.
 
 .. rst-class:: classref-item-separator
 
@@ -1506,11 +1506,11 @@ Converts the given ``number`` to a string representation, in scientific notation
 
 :ref:`String<class_String>` **num_uint64**\ (\ number\: :ref:`int<class_int>`, base\: :ref:`int<class_int>` = 10, capitalize_hex\: :ref:`bool<class_bool>` = false\ ) |static| :ref:`🔗<class_String_method_num_uint64>`
 
-Converts the given unsigned :ref:`int<class_int>` to a string representation, with the given ``base``.
+Convertit le :ref:`int<class_int>` non signé donné en une représentation en chaîne, avec la ``base`` donnée.
 
-By default, ``base`` is set to decimal (``10``). Other common bases in programming include binary (``2``), `octal <https://en.wikipedia.org/wiki/Octal>`__ (``8``), hexadecimal (``16``).
+Par défaut, ``base`` est définie en décimal (``10``). D'autres bases communes en programmation sont par exemple le binaire (``2``), l'`octal <https://fr.wikipedia.org/wiki/Syst%C3%A8me_octal>`__ (``8``), et l'hexadécimal (``16``).
 
-If ``capitalize_hex`` is ``true``, digits higher than 9 are represented in uppercase.
+Si ``capitalize_hex`` vaut ``true``, les chiffres supérieurs à 9 sont représentés en majuscules.
 
 .. rst-class:: classref-item-separator
 
@@ -1608,7 +1608,7 @@ Remplace toutes les occurrences de la chaîne ``what`` dans la chaîne courante 
 
 :ref:`String<class_String>` **replace_char**\ (\ key\: :ref:`int<class_int>`, with\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_String_method_replace_char>`
 
-Replaces all occurrences of the Unicode character with code ``key`` with the Unicode character with code ``with``. Faster version of :ref:`replace()<class_String_method_replace>` when the key is only one character long. To get a single character use ``"X".unicode_at(0)`` (note that some strings, like compound letters and emoji, can be composed of multiple unicode codepoints, and will not work with this method, use :ref:`length()<class_String_method_length>` to make sure).
+Remplace toutes les occurrences du caractère Unicode avec le code ``key`` par le caractère Unicode avec le code ``with``. Version plus rapide de :ref:`replace()<class_String_method_replace>` lorsque la clé est composée seulement d'un caractère. Pour obtenir un seul caractère, utilisez ``"X".unicode_at(0)`` (notez que certaines chaînes, comme les lettres composés et les émojis, peuvent être composées de plusieurs codes unicode, et ne fonctionneront pas avec cette méthode, utilisez :ref:`length()<class_String_method_length>` pour vous en assurer).
 
 .. rst-class:: classref-item-separator
 
@@ -2191,9 +2191,9 @@ Supprime le suffixe ``suffix`` donné depuis la fin de la chaîne, ou renvoie la
 
 :ref:`int<class_int>` **unicode_at**\ (\ at\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_String_method_unicode_at>`
 
-Returns the character code at position ``at``.
+Renvoie le code du caractère à la position ``at``.
 
-See also :ref:`chr()<class_String_method_chr>`, :ref:`@GDScript.char()<class_@GDScript_method_char>`, and :ref:`@GDScript.ord()<class_@GDScript_method_ord>`.
+Voir aussi :ref:`chr()<class_String_method_chr>`, :ref:`@GDScript.char()<class_@GDScript_method_char>`, et :ref:`@GDScript.ord()<class_@GDScript_method_ord>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2330,7 +2330,7 @@ Descriptions des opérateurs
 
 :ref:`bool<class_bool>` **operator !=**\ (\ right\: :ref:`String<class_String>`\ ) :ref:`🔗<class_String_operator_neq_String>`
 
-Returns ``true`` if both strings do not contain the same sequence of characters.
+Renvoie ``true`` si les deux chaînes ne contiennent pas la même séquence de caractères.
 
 .. rst-class:: classref-item-separator
 
@@ -2342,7 +2342,7 @@ Returns ``true`` if both strings do not contain the same sequence of characters.
 
 :ref:`bool<class_bool>` **operator !=**\ (\ right\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_String_operator_neq_StringName>`
 
-Returns ``true`` if this **String** is not equivalent to the given :ref:`StringName<class_StringName>`.
+Renvoie ``true`` si ce **String** n'est pas équivalent au :ref:`StringName<class_StringName>` donné.
 
 .. rst-class:: classref-item-separator
 
@@ -2354,20 +2354,20 @@ Returns ``true`` if this **String** is not equivalent to the given :ref:`StringN
 
 :ref:`String<class_String>` **operator %**\ (\ right\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_String_operator_mod_Variant>`
 
-Formats the **String**, replacing the placeholders with one or more parameters. To pass multiple parameters, ``right`` needs to be an :ref:`Array<class_Array>`.
+Formate le **String**, en remplaçant les placeholders par un ou plusieurs paramètres. Pour passer plusieurs paramètres, ``right`` doit être un :ref:`Array<class_Array>`.
 
 ::
 
-    print("I caught %d fishes!" % 2) # Prints "I caught 2 fishes!"
+    print("J'ai attrapé %d poissons !" % 2) # Affiche "J'ai attrapé 2 poissons !"
 
-    var my_message = "Travelling to %s, at %2.2f km/h."
-    var location = "Deep Valley"
+    var my_message = "Voyage vers %s, à %2.2f km/h."
+    var location = "Vallée lointaine"
     var speed = 40.3485
-    print(my_message % [location, speed]) # Prints "Travelling to Deep Valley, at 40.35 km/h."
+    print(my_message % [location, speed]) # Affiche "Voyage vers Vallée lointaine, à 40.35 km/h."
 
-For more information, see the :doc:`GDScript format strings <../tutorials/scripting/gdscript/gdscript_format_string>` tutorial.
+Pour plus d'informations, consultez le tutoriel :doc:`Chaînes de format en GDScript <../tutorials/scripting/gdscript/gdscript_format_string>`.
 
-\ **Note:** In C#, this operator is not available. Instead, see `how to interpolate strings with "$" <https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated>`__.
+\ **Note :** En C#, cet opérateur n'est pas disponible. À la place, voir `Comment interpoler des chaînes avec "$" <https://learn.microsoft.com/fr-fr/dotnet/csharp/language-reference/tokens/interpolated>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2379,7 +2379,7 @@ For more information, see the :doc:`GDScript format strings <../tutorials/script
 
 :ref:`String<class_String>` **operator +**\ (\ right\: :ref:`String<class_String>`\ ) :ref:`🔗<class_String_operator_sum_String>`
 
-Appends ``right`` at the end of this **String**, also known as a string concatenation.
+Ajoute ``right`` à la fin de cet **String**, également appelé concaténation de chaînes.
 
 .. rst-class:: classref-item-separator
 
@@ -2391,7 +2391,7 @@ Appends ``right`` at the end of this **String**, also known as a string concaten
 
 :ref:`String<class_String>` **operator +**\ (\ right\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_String_operator_sum_StringName>`
 
-Appends ``right`` at the end of this **String**, returning a **String**. This is also known as a string concatenation.
+Ajoute ``right`` à la fin de ce **String**, en renvoyant un **String**. Ceci est également appelé une concaténation de chaînes.
 
 .. rst-class:: classref-item-separator
 
@@ -2403,7 +2403,7 @@ Appends ``right`` at the end of this **String**, returning a **String**. This is
 
 :ref:`bool<class_bool>` **operator <**\ (\ right\: :ref:`String<class_String>`\ ) :ref:`🔗<class_String_operator_lt_String>`
 
-Returns ``true`` if the left **String** comes before ``right`` in `Unicode order <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__, which roughly matches the alphabetical order. Useful for sorting.
+Renvoie ``true`` si la **String** de gauche arrive avant ``right`` dans l'`ordre Unicode <https://fr.wikipedia.org/wiki/Table_des_caract%C3%A8res_Unicode>`__, qui correspond à peu près à l'ordre alphabétique. Utile pour le tri.
 
 .. rst-class:: classref-item-separator
 
@@ -2415,7 +2415,7 @@ Returns ``true`` if the left **String** comes before ``right`` in `Unicode order
 
 :ref:`bool<class_bool>` **operator <=**\ (\ right\: :ref:`String<class_String>`\ ) :ref:`🔗<class_String_operator_lte_String>`
 
-Returns ``true`` if the left **String** comes before ``right`` in `Unicode order <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__, which roughly matches the alphabetical order, or if both are equal.
+Renvoie ``true`` si la **String** de gauche arrive avant ``right`` dans l'`ordre Unicode <https://fr.wikipedia.org/wiki/Table_des_caract%C3%A8res_Unicode>`__, qui correspond à peu près à l'ordre alphabétique, ou si les deux sont égales.
 
 .. rst-class:: classref-item-separator
 
@@ -2427,7 +2427,7 @@ Returns ``true`` if the left **String** comes before ``right`` in `Unicode order
 
 :ref:`bool<class_bool>` **operator ==**\ (\ right\: :ref:`String<class_String>`\ ) :ref:`🔗<class_String_operator_eq_String>`
 
-Returns ``true`` if both strings contain the same sequence of characters.
+Renvoie ``true`` si les deux chaînes contiennent la même séquence de caractères.
 
 .. rst-class:: classref-item-separator
 
@@ -2439,7 +2439,7 @@ Returns ``true`` if both strings contain the same sequence of characters.
 
 :ref:`bool<class_bool>` **operator ==**\ (\ right\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_String_operator_eq_StringName>`
 
-Returns ``true`` if this **String** is equivalent to the given :ref:`StringName<class_StringName>`.
+Renvoie ``true`` si cette **String** est équivalente au :ref:`StringName<class_StringName>` donné.
 
 .. rst-class:: classref-item-separator
 
@@ -2451,7 +2451,7 @@ Returns ``true`` if this **String** is equivalent to the given :ref:`StringName<
 
 :ref:`bool<class_bool>` **operator >**\ (\ right\: :ref:`String<class_String>`\ ) :ref:`🔗<class_String_operator_gt_String>`
 
-Returns ``true`` if the left **String** comes after ``right`` in `Unicode order <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__, which roughly matches the alphabetical order. Useful for sorting.
+Renvoie ``true`` si la **String** de gauche arrive après ``right`` dans l'`ordre Unicode <https://fr.wikipedia.org/wiki/Table_des_caract%C3%A8res_Unicode>`__, qui correspond à peu près à l'ordre alphabétique. Utile pour le tri.
 
 .. rst-class:: classref-item-separator
 
@@ -2463,7 +2463,7 @@ Returns ``true`` if the left **String** comes after ``right`` in `Unicode order 
 
 :ref:`bool<class_bool>` **operator >=**\ (\ right\: :ref:`String<class_String>`\ ) :ref:`🔗<class_String_operator_gte_String>`
 
-Returns ``true`` if the left **String** comes after ``right`` in `Unicode order <https://en.wikipedia.org/wiki/List_of_Unicode_characters>`__, which roughly matches the alphabetical order, or if both are equal.
+Renvoie ``true`` si la **String** de gauche arrive après ``right`` dans l'`ordre Unicode <https://fr.wikipedia.org/wiki/Table_des_caract%C3%A8res_Unicode>`__, qui correspond à peu près à l'ordre alphabétique, ou si les deux sont égales.
 
 .. rst-class:: classref-item-separator
 
@@ -2475,7 +2475,7 @@ Returns ``true`` if the left **String** comes after ``right`` in `Unicode order 
 
 :ref:`String<class_String>` **operator []**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_String_operator_idx_int>`
 
-Returns a new **String** that only contains the character at ``index``. Indices start from ``0``. If ``index`` is greater or equal to ``0``, the character is fetched starting from the beginning of the string. If ``index`` is a negative value, it is fetched starting from the end. Accessing a string out-of-bounds will cause a run-time error, pausing the project execution if run from the editor.
+Renvoie une nouvelle **String** qui ne contient que le caractère à ``index``. Les indices commencent de ``0``. Si ``index`` est supérieur ou égal à ``0``, le caractère est récupéré à partir du début de la chaîne. Si ``index`` est une valeur négative, il est récupéré à partir de la fin. L'accès à une chaîne hors de ses limites causera une erreur d'exécution, mettant en pause l'exécution du projet s'il est exécuté depuis l'éditeur.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -76,7 +76,7 @@ Señales
 
 **tracking_changed**\ (\ tracking\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_XRNode3D_signal_tracking_changed>`
 
-Emitida cuando el ``seguimiento de miembros`` comienza o deja de recibir datos de seguimiento actualizados para la ``pose de miembro`` que se está rastreando. El argumento ``seguimiento de parámetros`` indica si el rastreador recibe datos de seguimiento actualizados.
+Emitida cuando el :ref:`tracker<class_XRNode3D_property_tracker>` comienza o deja de recibir datos de seguimiento actualizados para la :ref:`pose<class_XRNode3D_property_pose>` que se está rastreando. El argumento ``tracking`` indica si el rastreador recibe datos de seguimiento actualizados.
 
 .. rst-class:: classref-section-separator
 

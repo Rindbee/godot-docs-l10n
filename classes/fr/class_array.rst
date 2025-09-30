@@ -12,7 +12,7 @@ Une structure de données intégrée qui contient une suite d'éléments.
 Description
 -----------
 
-Une structure de données en tableau qui peut contenir une suite d'éléments de n'importe quel type :ref:`Variant<class_Variant>`. Les éléments sont accessibles par un indice numérique commençant à ``0``. Les indices négatifs peuvent être utilisés pour obtenir une position à partir de la fin du tableau (``-1`` est le dernier élément, ``-2`` est l'avant-dernier, etc...).
+Une structure de données en tableau qui peut contenir une suite d'éléments de n'importe quel type :ref:`Variant<class_Variant>` par défaut. Les valeurs peuvent être limitées à un type spécifique en créant un *tableau typé*. Les éléments sont accessibles par un indice numérique commençant à ``0``. Les indices négatifs peuvent être utilisés pour obtenir une position à partir de la fin du tableau (``-1`` est le dernier élément, ``-2`` est l'avant-dernier, etc...).
 
 
 .. tabs::
@@ -28,6 +28,10 @@ Une structure de données en tableau qui peut contenir une suite d'éléments de
     print(array[1])  # Affiche "Second"
     print(array[-3]) # Affiche "Second"
 
+    # Ce tableau typé ne peut contenir que des nombres entiers.
+    # Tenter d'ajouter un autre type retourne une erreur.
+    var tableau_typé: Array[int] = [1, 2, 3]
+
  .. code-tab:: csharp
 
     Godot.Collections.Array tableau= ["Premier", 2, 3, "Dernier"];
@@ -38,6 +42,10 @@ Une structure de données en tableau qui peut contenir une suite d'éléments de
     array[1] = "Second";
     GD.Print(array[1]); // Affiche "Second"
     GD.Print(array[^3]); // Affiche "Second"
+
+    // Ce tableau typé ne peut contenir que des nombres entiers.
+    // Tenter d'ajouter un autre type retourne une erreur.
+    Godot.Collections.Array<int> tableauTypé = [1, 2, 3];
 
 
 

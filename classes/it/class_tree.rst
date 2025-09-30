@@ -438,9 +438,9 @@ Emesso quando un elemento viene cliccato due volte, o lo si seleziona con un eve
 
 **item_collapsed**\ (\ item\: :ref:`TreeItem<class_TreeItem>`\ ) :ref:`🔗<class_Tree_signal_item_collapsed>`
 
-Emitted when an item is expanded or collapsed by clicking on the folding arrow or through code.
+Emesso quando un elemento viene espanso o compresso cliccando sulla freccia di riduzione o tramite codice.
 
-\ **Note:** Despite its name, this signal is also emitted when an item is expanded.
+\ **Nota:** Nonostante il nome, questo segnale viene emesso anche quando un elemento viene espanso.
 
 .. rst-class:: classref-item-separator
 

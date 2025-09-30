@@ -121,7 +121,7 @@ Il rettangolo di delimitazione del VisibleOnScreenNotifier2D.
 - |void| **set_show_rect**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_showing_rect**\ (\ )
 
-If ``true``, shows the rectangle area of :ref:`rect<class_VisibleOnScreenNotifier2D_property_rect>` in the editor with a translucent magenta fill. Unlike changing the visibility of the VisibleOnScreenNotifier2D, this does not affect the screen culling detection.
+Se ``true``, mostra l'area rettangolare di :ref:`rect<class_VisibleOnScreenNotifier2D_property_rect>` nell'editor con un riempimento magenta traslucido. A differenza di cambiare la visibilità del VisibleOnScreenNotifier2D, questo non influisce sul rilevamento dello screen culling.
 
 .. rst-class:: classref-section-separator
 

@@ -99,7 +99,7 @@ If ``true``, project resources are embedded into the executable.
 
 :ref:`String<class_String>` **custom_template/debug** :ref:`🔗<class_EditorExportPlatformLinuxBSD_property_custom_template/debug>`
 
-Path to the custom export template. If left empty, default template is used.
+Chemin vers le modèle d'export personnalisé. Si laissé vide, le modèle par défaut est utilisé.
 
 .. rst-class:: classref-item-separator
 
@@ -111,7 +111,7 @@ Path to the custom export template. If left empty, default template is used.
 
 :ref:`String<class_String>` **custom_template/release** :ref:`🔗<class_EditorExportPlatformLinuxBSD_property_custom_template/release>`
 
-Path to the custom export template. If left empty, default template is used.
+Chemin vers le modèle d'export personnalisé. Si laissé vide, le modèle par défaut est utilisé.
 
 .. rst-class:: classref-item-separator
 

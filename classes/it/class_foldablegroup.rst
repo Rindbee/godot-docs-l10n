@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/FoldableGroup.xml.
+.. meta::
+	:keywords: expandable, collapsible, collapse
 
 .. _class_FoldableGroup:
 
@@ -17,7 +17,7 @@ Un gruppo di contenitori riducibili che non consente a più di un pulsante di es
 Descrizione
 ----------------------
 
-A group of :ref:`FoldableContainer<class_FoldableContainer>`-derived nodes. Only one container can be expanded at a time.
+Un gruppo di nodi derivati da :ref:`FoldableContainer<class_FoldableContainer>`. È possibile espandere un solo contenitore alla volta.
 
 .. rst-class:: classref-reftable-group
 
@@ -101,7 +101,7 @@ Descrizioni dei metodi
 
 :ref:`Array<class_Array>`\[:ref:`FoldableContainer<class_FoldableContainer>`\] **get_containers**\ (\ ) |const| :ref:`🔗<class_FoldableGroup_method_get_containers>`
 
-Returns an :ref:`Array<class_Array>` of :ref:`FoldableContainer<class_FoldableContainer>`\ s that have this as their FoldableGroup (see :ref:`FoldableContainer.foldable_group<class_FoldableContainer_property_foldable_group>`). This is equivalent to :ref:`ButtonGroup<class_ButtonGroup>` but for FoldableContainers.
+Restituisce un :ref:`Array<class_Array>` di :ref:`FoldableContainer<class_FoldableContainer>` che hanno questo come FoldableGroup (vedi :ref:`FoldableContainer.foldable_group<class_FoldableContainer_property_foldable_group>`). Equivale a :ref:`ButtonGroup<class_ButtonGroup>` ma per i FoldableContainer.
 
 .. rst-class:: classref-item-separator
 

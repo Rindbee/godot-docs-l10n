@@ -385,9 +385,9 @@ Descrizioni delle proprietà
 - |void| **set_external_force**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_external_force**\ (\ )
 
-The constant force that always affected bones. It is equal to the result when the parent :ref:`Skeleton3D<class_Skeleton3D>` moves at this speed in the opposite direction.
+La forza costante che influenza sempre le ossa. È uguale al risultato quando lo :ref:`Skeleton3D<class_Skeleton3D>` genitore si muove a questa velocità nella direzione opposta.
 
-This is useful for effects such as wind and anti-gravity.
+Questo è utile per effetti come il vento e l'antigravità.
 
 .. rst-class:: classref-item-separator
 
@@ -769,9 +769,9 @@ Restituisce l'asse di rotazione in ``joint`` nella lista delle articolazioni del
 
 :ref:`Vector3<class_Vector3>` **get_joint_rotation_axis_vector**\ (\ index\: :ref:`int<class_int>`, joint\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_SpringBoneSimulator3D_method_get_joint_rotation_axis_vector>`
 
-Returns the rotation axis vector for the specified joint in the bone chain. This vector represents the axis around which the joint can rotate. It is determined based on the rotation axis set for the joint.
+Restituisce il vettore dell'asse di rotazione per l'articolazione specificata nella catena d'ossa. Questo vettore rappresenta l'asse attorno al quale l'articolazione può ruotare. È determinato in base all'asse di rotazione impostato per l'articolazione.
 
-If :ref:`get_joint_rotation_axis()<class_SpringBoneSimulator3D_method_get_joint_rotation_axis>` is :ref:`ROTATION_AXIS_ALL<class_SpringBoneSimulator3D_constant_ROTATION_AXIS_ALL>`, this method returns ``Vector3(0, 0, 0)``.
+Se :ref:`get_joint_rotation_axis()<class_SpringBoneSimulator3D_method_get_joint_rotation_axis>` è :ref:`ROTATION_AXIS_ALL<class_SpringBoneSimulator3D_constant_ROTATION_AXIS_ALL>`, questo metodo restituisce ``Vector3(0, 0, 0)``.
 
 .. rst-class:: classref-item-separator
 
@@ -855,9 +855,9 @@ Restituisce l'asse di rotazione della catena d'ossa.
 
 :ref:`Vector3<class_Vector3>` **get_rotation_axis_vector**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_SpringBoneSimulator3D_method_get_rotation_axis_vector>`
 
-Returns the rotation axis vector of the bone chain. This vector represents the axis around which the bone chain can rotate. It is determined based on the rotation axis set for the bone chain.
+Restituisce il vettore dell'asse di rotazione della catena d'ossa. Questo vettore rappresenta l'asse attorno al quale l'articolazione può ruotare. È determinato in base all'asse di rotazione impostato per la catenna d'ossa.
 
-If :ref:`get_rotation_axis()<class_SpringBoneSimulator3D_method_get_rotation_axis>` is :ref:`ROTATION_AXIS_ALL<class_SpringBoneSimulator3D_constant_ROTATION_AXIS_ALL>`, this method returns ``Vector3(0, 0, 0)``.
+Se :ref:`get_rotation_axis()<class_SpringBoneSimulator3D_method_get_rotation_axis>` è :ref:`ROTATION_AXIS_ALL<class_SpringBoneSimulator3D_constant_ROTATION_AXIS_ALL>`, questo metodo restituisce ``Vector3(0, 0, 0)``.
 
 .. rst-class:: classref-item-separator
 
@@ -1241,11 +1241,11 @@ Imposta il raggio dell'articolazione in ``joint`` nella lista delle articolazion
 
 |void| **set_joint_rotation_axis**\ (\ index\: :ref:`int<class_int>`, joint\: :ref:`int<class_int>`, axis\: :ref:`RotationAxis<enum_SpringBoneSimulator3D_RotationAxis>`\ ) :ref:`🔗<class_SpringBoneSimulator3D_method_set_joint_rotation_axis>`
 
-Sets the rotation axis at ``joint`` in the bone chain's joint list when :ref:`is_config_individual()<class_SpringBoneSimulator3D_method_is_config_individual>` is ``true``.
+Imposta l'asse di rotazione dell'articolazione ``joint`` nell'elenco delle articolazioni della catena d'ossa quando :ref:`is_config_individual()<class_SpringBoneSimulator3D_method_is_config_individual>` è ``true``.
 
-The axes are based on the :ref:`Skeleton3D.get_bone_rest()<class_Skeleton3D_method_get_bone_rest>`'s space, if ``axis`` is :ref:`ROTATION_AXIS_CUSTOM<class_SpringBoneSimulator3D_constant_ROTATION_AXIS_CUSTOM>`, you can specify any axis.
+Gli assi si basano sullo spazio di :ref:`Skeleton3D.get_bone_rest()<class_Skeleton3D_method_get_bone_rest>`. Se ``axis`` è :ref:`ROTATION_AXIS_CUSTOM<class_SpringBoneSimulator3D_constant_ROTATION_AXIS_CUSTOM>`, è possibile specificare qualsiasi asse.
 
-\ **Note:** The rotation axis and the forward vector shouldn't be colinear to avoid unintended rotation since **SpringBoneSimulator3D** does not factor in twisting forces.
+\ **Nota:** L'asse di rotazione e il vettore in avanti non dovrebbero essere collineari per evitare rotazioni indesiderate poiché **SpringBoneSimulator3D** non tiene conto delle forze di torsione.
 
 .. rst-class:: classref-item-separator
 
@@ -1257,11 +1257,11 @@ The axes are based on the :ref:`Skeleton3D.get_bone_rest()<class_Skeleton3D_meth
 
 |void| **set_joint_rotation_axis_vector**\ (\ index\: :ref:`int<class_int>`, joint\: :ref:`int<class_int>`, vector\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_SpringBoneSimulator3D_method_set_joint_rotation_axis_vector>`
 
-Sets the rotation axis vector for the specified joint in the bone chain.
+Imposta il vettore dell'asse di rotazione per l'articolazione specificata nella catena d'ossa.
 
-This vector is normalized by an internal process and represents the axis around which the bone chain can rotate.
+Questo vettore è normalizzato da un processo interno e rappresenta l'asse attorno al quale la catena d'ossa può ruotare.
 
-If the vector length is ``0``, it is considered synonymous with :ref:`ROTATION_AXIS_ALL<class_SpringBoneSimulator3D_constant_ROTATION_AXIS_ALL>`.
+Se la lunghezza del vettore è ``0``, è considerato come sinonimo di :ref:`ROTATION_AXIS_ALL<class_SpringBoneSimulator3D_constant_ROTATION_AXIS_ALL>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1285,9 +1285,9 @@ Imposta la forza di rigidità in ``joint`` nella lista delle articolazioni della
 
 |void| **set_radius**\ (\ index\: :ref:`int<class_int>`, radius\: :ref:`float<class_float>`\ ) :ref:`🔗<class_SpringBoneSimulator3D_method_set_radius>`
 
-Sets the joint radius of the bone chain. It is used to move and slide with the :ref:`SpringBoneCollision3D<class_SpringBoneCollision3D>` in the collision list.
+Imposta il raggio di un'articolazione della catena d'ossa. È utilizzato per muovere e scorrere con il :ref:`SpringBoneCollision3D<class_SpringBoneCollision3D>` nella lista di collisioni.
 
-The value is scaled by :ref:`set_radius_damping_curve()<class_SpringBoneSimulator3D_method_set_radius_damping_curve>` and cached in each joint setting in the joint list.
+Il valore è ridimensionato da :ref:`set_radius_damping_curve()<class_SpringBoneSimulator3D_method_set_radius_damping_curve>` e memorizzato nella cache in ogni impostazione d'articolazione nella lista delle articolazioni.
 
 .. rst-class:: classref-item-separator
 
@@ -1335,11 +1335,11 @@ Imposta il nome dell'osso radice della catena d'ossa.
 
 |void| **set_rotation_axis**\ (\ index\: :ref:`int<class_int>`, axis\: :ref:`RotationAxis<enum_SpringBoneSimulator3D_RotationAxis>`\ ) :ref:`🔗<class_SpringBoneSimulator3D_method_set_rotation_axis>`
 
-Sets the rotation axis of the bone chain. If set to a specific axis, it acts like a hinge joint. The value is cached in each joint setting in the joint list.
+Imposta l'asse di rotazione della catena d'ossa. Se impostato su un'asse specifico, si comporta come un giunto a cerniera. Questo valore viene memorizzato nella cache in ogni impostazione d'articolazione nella lista delle articolazioni.
 
-The axes are based on the :ref:`Skeleton3D.get_bone_rest()<class_Skeleton3D_method_get_bone_rest>`'s space, if ``axis`` is :ref:`ROTATION_AXIS_CUSTOM<class_SpringBoneSimulator3D_constant_ROTATION_AXIS_CUSTOM>`, you can specify any axis.
+Gli assi si basano sullo spazio di :ref:`Skeleton3D.get_bone_rest()<class_Skeleton3D_method_get_bone_rest>`; se ``axis`` è :ref:`ROTATION_AXIS_CUSTOM<class_SpringBoneSimulator3D_constant_ROTATION_AXIS_CUSTOM>`, è possibile specificare qualsiasi asse.
 
-\ **Note:** The rotation axis vector and the forward vector shouldn't be colinear to avoid unintended rotation since **SpringBoneSimulator3D** does not factor in twisting forces.
+\ **Nota:** L'asse di rotazione e il vettore in avanti non dovrebbero essere collineari per evitare rotazioni indesiderate poiché **SpringBoneSimulator3D** non tiene conto delle forze di torsione.
 
 .. rst-class:: classref-item-separator
 
@@ -1351,11 +1351,11 @@ The axes are based on the :ref:`Skeleton3D.get_bone_rest()<class_Skeleton3D_meth
 
 |void| **set_rotation_axis_vector**\ (\ index\: :ref:`int<class_int>`, vector\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_SpringBoneSimulator3D_method_set_rotation_axis_vector>`
 
-Sets the rotation axis vector of the bone chain. The value is cached in each joint setting in the joint list.
+Imposta il vettore dell'asse di rotazione della catena d'ossa. Il valore è memorizzato nella cache di ogni impostazione di articolazione nella lista di articolazioni.
 
-This vector is normalized by an internal process and represents the axis around which the bone chain can rotate.
+Questo vettore è normalizzato da un processo interno e rappresenta l'asse attorno al quale la catena d'ossa può ruotare.
 
-If the vector length is ``0``, it is considered synonymous with :ref:`ROTATION_AXIS_ALL<class_SpringBoneSimulator3D_constant_ROTATION_AXIS_ALL>`.
+Se la lunghezza del vettore è ``0``, è considerato come sinonimo di :ref:`ROTATION_AXIS_ALL<class_SpringBoneSimulator3D_constant_ROTATION_AXIS_ALL>`.
 
 .. rst-class:: classref-item-separator
 

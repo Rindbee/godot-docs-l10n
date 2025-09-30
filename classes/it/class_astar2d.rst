@@ -119,7 +119,7 @@ Descrizioni delle proprietà
 - |void| **set_neighbor_filter_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_neighbor_filter_enabled**\ (\ )
 
-If ``true`` enables the filtering of neighbors via :ref:`_filter_neighbor()<class_AStar2D_private_method__filter_neighbor>`.
+Se ``true`` abilita il filtraggio dei vicini tramite :ref:`_filter_neighbor()<class_AStar2D_private_method__filter_neighbor>`.
 
 .. rst-class:: classref-section-separator
 
@@ -164,9 +164,9 @@ Si noti che questa funzione è nascosta nella classe predefinita **AStar2D**.
 
 :ref:`bool<class_bool>` **_filter_neighbor**\ (\ from_id\: :ref:`int<class_int>`, neighbor_id\: :ref:`int<class_int>`\ ) |virtual| |const| :ref:`🔗<class_AStar2D_private_method__filter_neighbor>`
 
-Called when neighboring enters processing and if :ref:`neighbor_filter_enabled<class_AStar2D_property_neighbor_filter_enabled>` is ``true``. If ``true`` is returned the point will not be processed.
+Chiamato quando il punto adiacente entra in elaborazione e se :ref:`neighbor_filter_enabled<class_AStar2D_property_neighbor_filter_enabled>` è ``true``. Se viene restituito ``true``, il punto non sarà elaborato.
 
-Note that this function is hidden in the default **AStar2D** class.
+Si noti che questa funzione è nascosta nella classe predefinita **AStar2D**.
 
 .. rst-class:: classref-item-separator
 
@@ -468,13 +468,13 @@ Restituisce un array di tutti gli ID dei punti.
 
 :ref:`PackedVector2Array<class_PackedVector2Array>` **get_point_path**\ (\ from_id\: :ref:`int<class_int>`, to_id\: :ref:`int<class_int>`, allow_partial_path\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_AStar2D_method_get_point_path>`
 
-Returns an array with the points that are in the path found by AStar2D between the given points. The array is ordered from the starting point to the ending point of the path.
+Restituisce un array con i punti che sono presenti nel percorso trovato da AStar2D tra i punti indicati. L'array è ordinato dal punto iniziale al punto finale del percorso.
 
-If there is no valid path to the target, and ``allow_partial_path`` is ``true``, returns a path to the point closest to the target that can be reached.
+Se non c'è un percorso valido per la destinazione, e ``allow_partial_path`` è ``true``, restituisce un percorso al punto più vicino alla destinazione che può essere raggiunto.
 
-\ **Note:** This method is not thread-safe; it can only be used from a single :ref:`Thread<class_Thread>` at a given time. Consider using :ref:`Mutex<class_Mutex>` to ensure exclusive access to one thread to avoid race conditions.
+\ **Nota:** Questo metodo non è thread-safe; si può usare solo da un singolo :ref:`Thread<class_Thread>` alla volta. Si consiglia di utilizzare :ref:`Mutex<class_Mutex>` per garantire l'accesso esclusivo a un thread ed evitare accessi concorrenti.
 
-Additionally, when ``allow_partial_path`` is ``true`` and ``to_id`` is disabled the search may take an unusually long time to finish.
+Inoltre, quando ``allow_partial_path`` è ``true`` e ``to_id`` è disabilitato, la ricerca potrebbe richiedere un tempo insolitamente lungo per essere completata.
 
 .. rst-class:: classref-item-separator
 

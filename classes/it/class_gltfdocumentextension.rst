@@ -174,7 +174,7 @@ Questo metodo può essere utilizzato per apportare modifiche alle strutture dati
 
 Parte del processo di esportazione. Questo metodo viene eseguito per primo, prima di tutte le altre parti del processo di esportazione.
 
-Il valore restituito è utilizzato per determinare se questa istanza di **GLTFDocumentExtension** deve essere utilizzata per esportare un determinato file glTF. Se :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`, l'esportazione utilizzerà questa istanza di **GLTFDocumentExtension**. Se non sovrascritto, viene restituito :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`.
+Il valore restituito serve per determinare se questa istanza di **GLTFDocumentExtension** deve essere utilizzata per esportare un determinato file glTF. Se :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`, l'esportazione utilizzerà questa istanza di **GLTFDocumentExtension**. Se non sovrascritto, viene restituito :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`.
 
 .. rst-class:: classref-item-separator
 
@@ -244,7 +244,7 @@ Restituisce un array dei formati immagine che possono essere salvati o esportati
 
 Parte del processo di importazione. Questo metodo viene eseguito dopo :ref:`_import_preflight()<class_GLTFDocumentExtension_private_method__import_preflight>` e prima di :ref:`_parse_node_extensions()<class_GLTFDocumentExtension_private_method__parse_node_extensions>`.
 
-Restituisce un array delle estensioni glTF supportate da questa classe GLTFDocumentExtension. Viene utilizzato per verificare se è possibile caricare un file glTF con le estensioni richieste.
+Restituisce un array delle estensioni glTF supportate da questa classe GLTFDocumentExtension. Serve per verificare se è possibile caricare un file glTF con le estensioni richieste.
 
 .. rst-class:: classref-item-separator
 
@@ -330,7 +330,7 @@ Questo metodo può essere utilizzato per modificare o leggere da una qualsiasi d
 
 Parte del processo di importazione. Questo metodo viene eseguito per primo, prima di tutte le altre parti del processo di importazione.
 
-Il valore restituito è utilizzato per determinare se questa istanza di **GLTFDocumentExtension** deve essere utilizzata per importare un determinato file glTF. Se è :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`, l'importazione utilizzerà questa istanza di **GLTFDocumentExtension**. Se non sovrascritto, viene restituito :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`.
+Il valore restituito serve per determinare se questa istanza di **GLTFDocumentExtension** deve essere utilizzata per importare un determinato file glTF. Se è :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`, l'importazione utilizzerà questa istanza di **GLTFDocumentExtension**. Se non sovrascritto, viene restituito :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`.
 
 .. rst-class:: classref-item-separator
 

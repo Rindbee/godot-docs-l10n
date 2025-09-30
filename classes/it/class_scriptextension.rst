@@ -500,7 +500,7 @@ Restituisce il numero degli argomenti previsti per il metodo ``method``, o ``nul
 
 :ref:`bool<class_bool>` **_is_abstract**\ (\ ) |virtual| |const| :ref:`🔗<class_ScriptExtension_private_method__is_abstract>`
 
-Returns ``true`` if the script is an abstract script. Abstract scripts cannot be instantiated directly, instead other scripts should inherit them. Abstract scripts will be either unselectable or hidden in the Create New Node dialog (unselectable if there are non-abstract classes inheriting it, otherwise hidden).
+Restituisce ``true`` se lo script è astratto. Gli script astratti non si possono istanziare direttamente, ma altri script dovrebbero ereditarli. Gli script astratti saranno non selezionabili o nascosti nella finestra di dialogo "Crea un nuovo nodo" (non selezionabili se ci sono classi non astratte che lo ereditano, altrimenti nascosti).
 
 .. rst-class:: classref-item-separator
 

@@ -52,11 +52,11 @@ Descriptions des propriétés
 
 :ref:`int<class_int>` **create_from** = ``0`` :ref:`🔗<class_ResourceImporterBitMap_property_create_from>`
 
-The data source to use for generating the bitmap.
+La source de données à utiliser pour générer la bitmap.
 
-\ **Black & White:** Pixels whose HSV value is greater than the :ref:`threshold<class_ResourceImporterBitMap_property_threshold>` will be considered as "enabled" (bit is ``true``). If the pixel is lower than or equal to the threshold, it will be considered as "disabled" (bit is ``false``).
+\ **Noir & Blanc :** Les pixels dont la valeur HSV est supérieure au seuil :ref:`threshold<class_ResourceImporterBitMap_property_threshold>` seront considérés comme "activés" (le bit vaut ``true``). Si le pixel est inférieur ou égal au seuil, il sera considéré comme "désactivé" (le bit vaut ``false``).
 
-\ **Alpha:** Pixels whose alpha value is greater than the :ref:`threshold<class_ResourceImporterBitMap_property_threshold>` will be considered as "enabled" (bit is ``true``). If the pixel is lower than or equal to the threshold, it will be considered as "disabled" (bit is ``false``).
+\ **Alpha :** Les pixels dont la valeur alpha est supérieure au seuil :ref:`threshold<class_ResourceImporterBitMap_property_threshold>` seront considérés comme "activés" (le bit vaut ``true``). Si le pixel est inférieur ou égal au seuil, il sera considéré comme "désactivé" (le bit vaut ``false``).
 
 .. rst-class:: classref-item-separator
 
@@ -68,7 +68,7 @@ The data source to use for generating the bitmap.
 
 :ref:`float<class_float>` **threshold** = ``0.5`` :ref:`🔗<class_ResourceImporterBitMap_property_threshold>`
 
-The threshold to use to determine which bits should be considered enabled or disabled. See also :ref:`create_from<class_ResourceImporterBitMap_property_create_from>`.
+Le seuil à utiliser pour déterminer quels bits doivent être considérés comme étant activés ou désactivés. Voir aussi :ref:`create_from<class_ResourceImporterBitMap_property_create_from>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

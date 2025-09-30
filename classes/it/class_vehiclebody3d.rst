@@ -14,13 +14,13 @@ Un corpo fisico 3D che simula il comportamento di un'auto.
 Descrizione
 ----------------------
 
-This physics body implements all the physics logic needed to simulate a car. It is based on the raycast vehicle system commonly found in physics engines. Aside from a :ref:`CollisionShape3D<class_CollisionShape3D>` for the main body of the vehicle, you must also add a :ref:`VehicleWheel3D<class_VehicleWheel3D>` node for each wheel. You should also add a :ref:`MeshInstance3D<class_MeshInstance3D>` to this node for the 3D model of the vehicle, but this model should generally not include meshes for the wheels. You can control the vehicle by using the :ref:`brake<class_VehicleBody3D_property_brake>`, :ref:`engine_force<class_VehicleBody3D_property_engine_force>`, and :ref:`steering<class_VehicleBody3D_property_steering>` properties. The position or orientation of this node shouldn't be changed directly.
+Questo corpo fisico implementa tutta la logica fisica necessaria per simulare un'auto. Si basa sul sistema di veicoli con proiezione di raggi comunemente presente nei motori fisici. Oltre a un :ref:`CollisionShape3D<class_CollisionShape3D>` per il corpo principale del veicolo, bisogna anche aggiungere un nodo :ref:`VehicleWheel3D<class_VehicleWheel3D>` per ogni ruota. Bisognerebbe anche aggiungere un :ref:`MeshInstance3D<class_MeshInstance3D>` a questo nodo per il modello 3D del veicolo, ma questo modello in genere non dovrebbe includere mesh per le ruote. È possibile controllare il veicolo attraverso le proprietà :ref:`brake<class_VehicleBody3D_property_brake>`, :ref:`engine_force<class_VehicleBody3D_property_engine_force>` e :ref:`steering<class_VehicleBody3D_property_steering>`. La posizione o l'orientamento di questo nodo non dovrebbero essere modificati direttamente.
 
-\ **Note:** The local forward for this node is :ref:`Vector3.MODEL_FRONT<class_Vector3_constant_MODEL_FRONT>`.
+\ **Nota:** La direzione in avanti locale per questo nodo è :ref:`Vector3.MODEL_FRONT<class_Vector3_constant_MODEL_FRONT>`.
 
-\ **Note:** The origin point of your VehicleBody3D will determine the center of gravity of your vehicle. To make the vehicle more grounded, the origin point is usually kept low, moving the :ref:`CollisionShape3D<class_CollisionShape3D>` and :ref:`MeshInstance3D<class_MeshInstance3D>` upwards.
+\ **Nota:** il punto di origine del VehicleBody3D determinerà il baricentro del veicolo. Per rendere il veicolo più ancorato, il punto di origine è solitamente mantenuto basso, spostando :ref:`CollisionShape3D<class_CollisionShape3D>` e :ref:`MeshInstance3D<class_MeshInstance3D>` verso l'alto.
 
-\ **Note:** This class has known issues and isn't designed to provide realistic 3D vehicle physics. If you want advanced vehicle physics, you may have to write your own physics integration using :ref:`CharacterBody3D<class_CharacterBody3D>` or :ref:`RigidBody3D<class_RigidBody3D>`.
+\ **Nota:** Questa classe presenta problemi noti e non è progettata per fornire una fisica realistica dei veicoli 3D. Se desideri una fisica avanzata dei veicoli, potresti dover scrivere la tua integrazione di fisica tramite :ref:`CharacterBody3D<class_CharacterBody3D>` o :ref:`RigidBody3D<class_RigidBody3D>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -29,7 +29,7 @@ Tutorial
 
 - :doc:`Introduzione alla fisica <../tutorials/physics/physics_introduction>`
 
-- :doc:`Troubleshooting physics issues <../tutorials/physics/troubleshooting_physics_issues>`
+- :doc:`Risolvere i problemi di fisica <../tutorials/physics/troubleshooting_physics_issues>`
 
 - `Demo 3D "Truck Town" <https://godotengine.org/asset-library/asset/2752>`__
 

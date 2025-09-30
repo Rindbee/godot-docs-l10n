@@ -14,7 +14,7 @@ Un giunto fisico che collega due corpi di fisica 2D con una forza simile a quell
 Descrizione
 ----------------------
 
-A physics joint that connects two 2D physics bodies with a spring-like force. This behaves like a spring that always wants to stretch to a given length.
+Un giunto fisico che collega due corpi di fisica 2D con una forza simile a quella di una molla. Si comporta come una molla che cerca sempre allungarsi fino a una determinata lunghezza.
 
 .. rst-class:: classref-reftable-group
 

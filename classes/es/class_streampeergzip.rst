@@ -53,7 +53,7 @@ Descripciones de Métodos
 
 |void| **clear**\ (\ ) :ref:`🔗<class_StreamPeerGZIP_method_clear>`
 
-Clears this stream, resetting the internal state.
+Limpia este flujo, reiniciando el estado interno.
 
 .. rst-class:: classref-item-separator
 
@@ -65,9 +65,9 @@ Clears this stream, resetting the internal state.
 
 :ref:`Error<enum_@GlobalScope_Error>` **finish**\ (\ ) :ref:`🔗<class_StreamPeerGZIP_method_finish>`
 
-Finalizes the stream, compressing any buffered chunk left.
+Finaliza el flujo, comprimiendo cualquier fragmento almacenado en búfer que quede.
 
-You must call it only when you are compressing.
+Debes llamarlo solo cuando estés comprimiendo.
 
 .. rst-class:: classref-item-separator
 
@@ -79,7 +79,7 @@ You must call it only when you are compressing.
 
 :ref:`Error<enum_@GlobalScope_Error>` **start_compression**\ (\ use_deflate\: :ref:`bool<class_bool>` = false, buffer_size\: :ref:`int<class_int>` = 65535\ ) :ref:`🔗<class_StreamPeerGZIP_method_start_compression>`
 
-Start the stream in compression mode with the given ``buffer_size``, if ``use_deflate`` is ``true`` uses deflate instead of GZIP.
+Inicia el flujo en modo de compresión con el ``buffer_size`` dado, si ``use_deflate`` es ``true`` usa deflate en lugar de GZIP.
 
 .. rst-class:: classref-item-separator
 
@@ -91,7 +91,7 @@ Start the stream in compression mode with the given ``buffer_size``, if ``use_de
 
 :ref:`Error<enum_@GlobalScope_Error>` **start_decompression**\ (\ use_deflate\: :ref:`bool<class_bool>` = false, buffer_size\: :ref:`int<class_int>` = 65535\ ) :ref:`🔗<class_StreamPeerGZIP_method_start_decompression>`
 
-Start the stream in decompression mode with the given ``buffer_size``, if ``use_deflate`` is ``true`` uses deflate instead of GZIP.
+Inicia el flujo en modo de descompresión con el ``buffer_size`` dado, si ``use_deflate`` es ``true`` usa deflate en lugar de GZIP.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

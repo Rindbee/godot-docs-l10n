@@ -160,7 +160,7 @@ Restituisce l'interfaccia principale :ref:`TextServer<class_TextServer>` attualm
 
 |void| **remove_interface**\ (\ interface\: :ref:`TextServer<class_TextServer>`\ ) :ref:`🔗<class_TextServerManager_method_remove_interface>`
 
-Rimuove un'interfaccia. È necessario liberare tutti i font e le cache del testo modellato prima di rimuovere un'interfaccia.
+Rimuove un'interfaccia. È necessario liberare tutti i font e le cache del testo sagomato prima di rimuovere un'interfaccia.
 
 .. rst-class:: classref-item-separator
 

@@ -290,7 +290,7 @@ Quando si eredita da :ref:`AnimationRootNode<class_AnimationRootNode>`, implemen
 
 :ref:`bool<class_bool>` **_has_filter**\ (\ ) |virtual| |const| :ref:`🔗<class_AnimationNode_private_method__has_filter>`
 
-When inheriting from :ref:`AnimationRootNode<class_AnimationRootNode>`, implement this virtual method to return whether the blend tree editor should display filter editing on this animation node.
+Quando si eredita da :ref:`AnimationRootNode<class_AnimationRootNode>`, implementare questo metodo virtuale per restituire se l'editor dell'albero di fusione dovrebbe visualizzare la modifica del filtro su questo nodo di animazione.
 
 .. rst-class:: classref-item-separator
 
@@ -344,9 +344,9 @@ Aggiunge un input al nodo di animazione. È utile solo per i nodi di animazione 
 
 |void| **blend_animation**\ (\ animation\: :ref:`StringName<class_StringName>`, time\: :ref:`float<class_float>`, delta\: :ref:`float<class_float>`, seeked\: :ref:`bool<class_bool>`, is_external_seeking\: :ref:`bool<class_bool>`, blend\: :ref:`float<class_float>`, looped_flag\: :ref:`LoopedFlag<enum_Animation_LoopedFlag>` = 0\ ) :ref:`🔗<class_AnimationNode_method_blend_animation>`
 
-Blends an animation by ``blend`` amount (name must be valid in the linked :ref:`AnimationPlayer<class_AnimationPlayer>`). A ``time`` and ``delta`` may be passed, as well as whether ``seeked`` happened.
+Fonde un'animazione della quantità ``blend`` (il nome deve essere valido nell':ref:`AnimationPlayer<class_AnimationPlayer>` collegato). È possibile passare un tempo (``time``) e un ``delta``, nonché se è avvenuta una ricerca (``seeked``).
 
-A ``looped_flag`` is used by internal processing immediately after the loop.
+Un ``looped_flag`` è utilizzato dall'elaborazione interna immediatamente dopo la ripetizione.
 
 .. rst-class:: classref-item-separator
 
@@ -358,7 +358,7 @@ A ``looped_flag`` is used by internal processing immediately after the loop.
 
 :ref:`float<class_float>` **blend_input**\ (\ input_index\: :ref:`int<class_int>`, time\: :ref:`float<class_float>`, seek\: :ref:`bool<class_bool>`, is_external_seeking\: :ref:`bool<class_bool>`, blend\: :ref:`float<class_float>`, filter\: :ref:`FilterAction<enum_AnimationNode_FilterAction>` = 0, sync\: :ref:`bool<class_bool>` = true, test_only\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_AnimationNode_method_blend_input>`
 
-Blends an input. This is only useful for animation nodes created for an :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`. The ``time`` parameter is a relative delta, unless ``seek`` is ``true``, in which case it is absolute. A filter mode may be optionally passed.
+Fonde un input. Questo è utile solo per i nodi di animazione creati per un :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`. Il parametro ``time`` è un delta relativo, a meno che ``seek`` non sia ``true``, nel qual caso è assoluto. È possibile passare facoltativamente una modalità di filtro.
 
 .. rst-class:: classref-item-separator
 

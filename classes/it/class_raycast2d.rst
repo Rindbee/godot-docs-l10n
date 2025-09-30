@@ -7,20 +7,20 @@ RayCast2D
 
 **Eredita:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A ray in 2D space, used to find the first collision object it intersects.
+Un raggio nello spazio 2D, utilizzato per trovare il primo oggetto di collisione che interseca.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-A raycast represents a ray from its origin to its :ref:`target_position<class_RayCast2D_property_target_position>` that finds the closest object along its path, if it intersects any.
+Un raycast rappresenta un raggio dalla sua origine alla sua :ref:`target_position<class_RayCast2D_property_target_position>` che trova l'oggetto più vicino lungo il suo percorso, se ne interseca uno.
 
-\ **RayCast2D** can ignore some objects by adding them to an exception list, by making its detection reporting ignore :ref:`Area2D<class_Area2D>`\ s (:ref:`collide_with_areas<class_RayCast2D_property_collide_with_areas>`) or :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ s (:ref:`collide_with_bodies<class_RayCast2D_property_collide_with_bodies>`), or by configuring physics layers.
+\ **RayCast2D** può ignorare alcuni oggetti aggiungendoli a un elenco di eccezioni, facendo in modo che il suoi risultati di rilevamento ignorino :ref:`Area2D<class_Area2D>` (:ref:`collide_with_areas<class_RayCast2D_property_collide_with_areas>`) o :ref:`PhysicsBody2D<class_PhysicsBody2D>` (:ref:`collide_with_bodies<class_RayCast2D_property_collide_with_bodies>`), o configurando gli strati di fisica.
 
-\ **RayCast2D** calculates intersection every physics frame, and it holds the result until the next physics frame. For an immediate raycast, or if you want to configure a **RayCast2D** multiple times within the same physics frame, use :ref:`force_raycast_update()<class_RayCast2D_method_force_raycast_update>`.
+\ **RayCast2D** calcola l'intersezione a ogni frame di fisica e mantiene il risultato fino al frame di fisica successivo. Per un raycast immediato, o se vuoi configurare un **RayCast2D** più volte all'interno dello stesso frame di fisica, usa :ref:`force_raycast_update()<class_RayCast2D_method_force_raycast_update>`.
 
-To sweep over a region of 2D space, you can approximate the region with multiple **RayCast2D**\ s or use :ref:`ShapeCast2D<class_ShapeCast2D>`.
+Per passare su una regione nello spazio 2D, puoi approssimare la regione con più **RayCast2D** o usare :ref:`ShapeCast2D<class_ShapeCast2D>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -179,7 +179,7 @@ Se ``true``, le collisioni saranno riportate.
 - |void| **set_exclude_parent_body**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_exclude_parent_body**\ (\ )
 
-If ``true``, this raycast will not report collisions with its parent node. This property only has an effect if the parent node is a :ref:`CollisionObject2D<class_CollisionObject2D>`. See also :ref:`Node.get_parent()<class_Node_method_get_parent>` and :ref:`add_exception()<class_RayCast2D_method_add_exception>`.
+Se ``true``, questo raycast non riporterà collisioni con il suo nodo padre. Questa proprietà ha effetto solo se il nodo padre è un :ref:`CollisionObject2D<class_CollisionObject2D>`. Vedi anche :ref:`Node.get_parent()<class_Node_method_get_parent>` e :ref:`add_exception()<class_RayCast2D_method_add_exception>`.
 
 .. rst-class:: classref-item-separator
 
@@ -213,7 +213,7 @@ Se ``true``, il raggio rileverà un riscontro se iniziato all'interno di una for
 - |void| **set_target_position**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_target_position**\ (\ )
 
-The ray's destination point, relative to this raycast's :ref:`Node2D.position<class_Node2D_property_position>`.
+Il punto di destinazione del raggio, relativo alla :ref:`Node2D.position<class_Node2D_property_position>` di questo raycast.
 
 .. rst-class:: classref-section-separator
 
@@ -230,7 +230,7 @@ Descrizioni dei metodi
 
 |void| **add_exception**\ (\ node\: :ref:`CollisionObject2D<class_CollisionObject2D>`\ ) :ref:`🔗<class_RayCast2D_method_add_exception>`
 
-Adds a collision exception so the ray does not report collisions with the specified ``node``.
+Aggiunge un'eccezione di collisione in modo che il raggio non riporti le collisioni con il nodo ``node``.
 
 .. rst-class:: classref-item-separator
 
@@ -280,9 +280,9 @@ Aggiorna immediatamente le informazioni di collisione per il raggio, senza atten
 
 :ref:`Object<class_Object>` **get_collider**\ (\ ) |const| :ref:`🔗<class_RayCast2D_method_get_collider>`
 
-Returns the first object that the ray intersects, or ``null`` if no object is intersecting the ray (i.e. :ref:`is_colliding()<class_RayCast2D_method_is_colliding>` returns ``false``).
+Restituisce il primo oggetto che il raggio interseca, oppure ``null`` se nessun oggetto interseca il raggio (ovvero :ref:`is_colliding()<class_RayCast2D_method_is_colliding>` restituisce ``false``).
 
-\ **Note:** This object is not guaranteed to be a :ref:`CollisionObject2D<class_CollisionObject2D>`. For example, if the ray intersects a :ref:`TileMapLayer<class_TileMapLayer>`, the method will return a :ref:`TileMapLayer<class_TileMapLayer>` instance.
+\ **Nota:** Non è garantito che questo oggetto sia un :ref:`CollisionObject2D<class_CollisionObject2D>`. Ad esempio, se il raggio interseca un :ref:`TileMapLayer<class_TileMapLayer>`, il metodo restituirà un'istanza di :ref:`TileMapLayer<class_TileMapLayer>`.
 
 .. rst-class:: classref-item-separator
 
@@ -391,7 +391,7 @@ Restituisce se un oggetto interseca il vettore del raggio (considerando la lungh
 
 |void| **remove_exception**\ (\ node\: :ref:`CollisionObject2D<class_CollisionObject2D>`\ ) :ref:`🔗<class_RayCast2D_method_remove_exception>`
 
-Removes a collision exception so the ray can report collisions with the specified specified ``node``.
+Rimuove un'eccezione di collisione in modo che il raggio possa riportare le collisioni con il nodo ``node``.
 
 .. rst-class:: classref-item-separator
 
@@ -403,7 +403,7 @@ Removes a collision exception so the ray can report collisions with the specifie
 
 |void| **remove_exception_rid**\ (\ rid\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_RayCast2D_method_remove_exception_rid>`
 
-Removes a collision exception so the ray can report collisions with the specified :ref:`RID<class_RID>`.
+Rimuove un'eccezione di collisione in modo che il raggio possa riportare le collisioni con il :ref:`RID<class_RID>` specificato.
 
 .. rst-class:: classref-item-separator
 

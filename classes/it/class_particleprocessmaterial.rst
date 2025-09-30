@@ -2458,7 +2458,7 @@ Restituisce la :ref:`Texture2D<class_Texture2D>` utilizzata dal parametro specif
 
 :ref:`bool<class_bool>` **get_particle_flag**\ (\ particle_flag\: :ref:`ParticleFlags<enum_ParticleProcessMaterial_ParticleFlags>`\ ) |const| :ref:`🔗<class_ParticleProcessMaterial_method_get_particle_flag>`
 
-Returns ``true`` if the specified particle flag is enabled.
+Restituisce ``true`` se il flag di particelle specificato è abilitato.
 
 .. rst-class:: classref-item-separator
 
@@ -2520,7 +2520,7 @@ Imposta la :ref:`Texture2D<class_Texture2D>` per il parametro specificato (:ref:
 
 |void| **set_particle_flag**\ (\ particle_flag\: :ref:`ParticleFlags<enum_ParticleProcessMaterial_ParticleFlags>`, enable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_ParticleProcessMaterial_method_set_particle_flag>`
 
-Sets the ``particle_flag`` to ``enable``.
+Imposta il flag di particelle ``particle_flag`` su ``enable``.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -14,20 +14,20 @@ Configuración TLS para clientes y servidores.
 Descripción
 ----------------------
 
-TLSOptions abstracts the configuration options for the :ref:`StreamPeerTLS<class_StreamPeerTLS>` and :ref:`PacketPeerDTLS<class_PacketPeerDTLS>` classes.
+TLSOptions abstrae las opciones de configuración para las clases :ref:`StreamPeerTLS<class_StreamPeerTLS>` y :ref:`PacketPeerDTLS<class_PacketPeerDTLS>`.
 
-Objects of this class cannot be instantiated directly, and one of the static methods :ref:`client()<class_TLSOptions_method_client>`, :ref:`client_unsafe()<class_TLSOptions_method_client_unsafe>`, or :ref:`server()<class_TLSOptions_method_server>` should be used instead.
+Los objetos de esta clase no se pueden instanciar directamente, y en su lugar se debe utilizar uno de los métodos estáticos :ref:`client()<class_TLSOptions_method_client>`, :ref:`client_unsafe()<class_TLSOptions_method_client_unsafe>` o :ref:`server()<class_TLSOptions_method_server>`.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    # Create a TLS client configuration which uses our custom trusted CA chain.
+    # Crea una configuración de cliente TLS que usa nuestra cadena CA de confianza personalizada.
     var client_trusted_cas = load("res://my_trusted_cas.crt")
     var client_tls_options = TLSOptions.client(client_trusted_cas)
 
-    # Create a TLS server configuration.
+    # Crea una configuración de servidor TLS.
     var server_certs = load("res://my_server_cas.crt")
     var server_key = load("res://my_server_key.key")
     var server_tls_options = TLSOptions.server(server_key, server_certs)

@@ -7,7 +7,7 @@ ResourceImporterScene
 
 **Eredita:** :ref:`ResourceImporter<class_ResourceImporter>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Imports a glTF, FBX, COLLADA, or Blender 3D scene.
+Importa una scena 3D da glTF, FBX, COLLADA o Blender.
 
 .. rst-class:: classref-introduction-group
 
@@ -186,13 +186,13 @@ Percorso a uno script di importazione, il quale può eseguire codice dopo il com
 
 :ref:`int<class_int>` **materials/extract** = ``0`` :ref:`🔗<class_ResourceImporterScene_property_materials/extract>`
 
-Material extraction mode.
+Modalità di estrazione dei materiali.
 
-- ``0 (Keep Internal)``, materials are not extracted.
+- ``0 (Keep Internal)``, i materiali non sono estratti.
 
-- ``1 (Extract Once)``, materials are extracted once and reused on subsequent import.
+- ``1 (Extract Once)``, i materiali sono estratti una volta e riutilizzati nelle importazioni successive.
 
-- ``2 (Extract and Overwrite)``, materials are extracted and overwritten on every import.
+- ``2 (Extract and Overwrite)``, i materiali sono estratti e sovrascritti a ogni importazione.
 
 .. rst-class:: classref-item-separator
 
@@ -204,13 +204,13 @@ Material extraction mode.
 
 :ref:`int<class_int>` **materials/extract_format** = ``0`` :ref:`🔗<class_ResourceImporterScene_property_materials/extract_format>`
 
-Extracted material file format.
+Formato dei file dei materiali estratti.
 
-- ``0 (Text)``, text file format (``*.tres``).
+- ``0 (Text)``, formato di file testuale (``*.tres``).
 
-- ``1 (Binary)``, binary file format (``*.res``).
+- ``1 (Binary)``, formato di file binario (``*.res``).
 
-- ``2 (Material)``, binary file format (``*.material``).
+- ``2 (Material)``, formato di file bionario (``*.material``).
 
 .. rst-class:: classref-item-separator
 
@@ -222,7 +222,7 @@ Extracted material file format.
 
 :ref:`String<class_String>` **materials/extract_path** = ``""`` :ref:`🔗<class_ResourceImporterScene_property_materials/extract_path>`
 
-Path extracted materials are saved to. If empty, source scene path is used.
+Il percorso in cui i materiali estratti sono salvati. Se vuoto, è utilizzato il percorso della scena sorgente.
 
 .. rst-class:: classref-item-separator
 
@@ -358,7 +358,7 @@ La scala uniforme da usare per la radice della scena. Il valore predefinito di `
 
 :ref:`Script<class_Script>` **nodes/root_script** = ``null`` :ref:`🔗<class_ResourceImporterScene_property_nodes/root_script>`
 
-If set to a valid script, attaches the script to the root node of the imported scene. If the type of the root node is not compatible with the script, the root node will be replaced with a type that is compatible with the script. This setting can also be used on other non-mesh nodes in the scene to attach scripts to them.
+Se impostato su uno script valido, allega lo script al nodo radice della scena importata. Se il tipo del nodo radice non è compatibile con lo script, il nodo radice sarà sostituito con un tipo compatibile. È possibile utilizzare questa impostazione anche su altri nodi non mesh nella scena per allegarvi degli script.
 
 .. rst-class:: classref-item-separator
 
@@ -382,7 +382,7 @@ Sostituzione per il tipo di nodo radice. Se vuoto, il nodo radice utilizzerà ci
 
 :ref:`bool<class_bool>` **nodes/use_name_suffixes** = ``true`` :ref:`🔗<class_ResourceImporterScene_property_nodes/use_name_suffixes>`
 
-If ``true``, will use suffixes in the names of imported objects such as nodes and resources to determine types and properties, such as ``-noimp`` to skip import of a node or animation, ``-alpha`` to enable alpha transparency on a material, and ``-vcol`` to enable vertex colors on a material. Disabling this makes editor-imported files more similar to the original files, and more similar to files imported at runtime. See :doc:`Node type customization using name suffixes <../tutorials/assets_pipeline/importing_3d_scenes/node_type_customization>` for more information.
+Se ``true``, usa i suffissi nei nomi degli oggetti importati, come nodi e risorse, per determinare i tipi e le proprietà, come ``-noimp`` per saltare l'importazione di un nodo o di un'animazione, ``-alpha`` per abilitare la trasparenza alfa su un materiale, e ``-vcol`` per abilitare i colori dei vertici su un materiale. Disattivando questa opzione, i file importati dall'editor diventano più simili ai file originali e ai file importati in fase di esecuzione. Vedi :doc:`Personalizzazione del tipo di nodo tramite suffissi dei nomi <../tutorials/assets_pipeline/importing_3d_scenes/node_type_customization>` per maggiori informazioni.
 
 .. rst-class:: classref-item-separator
 
@@ -394,7 +394,7 @@ If ``true``, will use suffixes in the names of imported objects such as nodes an
 
 :ref:`bool<class_bool>` **nodes/use_node_type_suffixes** = ``true`` :ref:`🔗<class_ResourceImporterScene_property_nodes/use_node_type_suffixes>`
 
-If ``true``, will use suffixes in the node names to determine the node type, such as ``-col`` for collision shapes. This is only used when :ref:`nodes/use_name_suffixes<class_ResourceImporterScene_property_nodes/use_name_suffixes>` is ``true``. Disabling this makes editor-imported files more similar to the original files, and more similar to files imported at runtime. See :doc:`Node type customization using name suffixes <../tutorials/assets_pipeline/importing_3d_scenes/node_type_customization>` for more information.
+Se ``true``, userà i suffissi nei nomi dei nodi per determinare il tipo di nodo, come ``-col`` per le forme di collisione. Questo è utilizzato solo quando :ref:`nodes/use_name_suffixes<class_ResourceImporterScene_property_nodes/use_name_suffixes>` è ``true``. Disattivando questa opzione, i file importati dall'editor diventano più simili ai file originali e ai file importati in fase di esecuzione. Vedi :doc:`Personalizzazione del tipo di nodo tramite suffissi dei nomi <../tutorials/assets_pipeline/importing_3d_scenes/node_type_customization>` per maggiori informazioni.
 
 .. rst-class:: classref-item-separator
 

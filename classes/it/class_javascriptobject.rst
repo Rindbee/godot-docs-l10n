@@ -14,7 +14,7 @@ Una classe wrapper per oggetti JavaScript nativi del web.
 Descrizione
 ----------------------
 
-Il JavaScriptObject è utilizzato per interagire con oggetti JavaScript recuperati o creati tramite :ref:`JavaScriptBridge.get_interface()<class_JavaScriptBridge_method_get_interface>`, :ref:`JavaScriptBridge.create_object()<class_JavaScriptBridge_method_create_object>` o :ref:`JavaScriptBridge.create_callback()<class_JavaScriptBridge_method_create_callback>`.
+Il JavaScriptObject serve per interagire con oggetti JavaScript recuperati o creati tramite :ref:`JavaScriptBridge.get_interface()<class_JavaScriptBridge_method_get_interface>`, :ref:`JavaScriptBridge.create_object()<class_JavaScriptBridge_method_create_object>` o :ref:`JavaScriptBridge.create_callback()<class_JavaScriptBridge_method_create_callback>`.
 
 ::
 

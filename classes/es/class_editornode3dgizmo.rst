@@ -351,7 +351,7 @@ Devuelve el nodo :ref:`Node3D<class_Node3D>` asociado con este gizmo.
 
 :ref:`EditorNode3DGizmoPlugin<class_EditorNode3DGizmoPlugin>` **get_plugin**\ (\ ) |const| :ref:`🔗<class_EditorNode3DGizmo_method_get_plugin>`
 
-Returns the :ref:`EditorNode3DGizmoPlugin<class_EditorNode3DGizmoPlugin>` that owns this gizmo. It's useful to retrieve materials using :ref:`EditorNode3DGizmoPlugin.get_material()<class_EditorNode3DGizmoPlugin_method_get_material>`.
+Devuelve el :ref:`EditorNode3DGizmoPlugin<class_EditorNode3DGizmoPlugin>` que posee este gizmo. Es útil para recuperar materiales usando el :ref:`EditorNode3DGizmoPlugin.get_material()<class_EditorNode3DGizmoPlugin_method_get_material>`.
 
 .. rst-class:: classref-item-separator
 
@@ -399,7 +399,7 @@ Establece el estado oculto del aparato. Si es ``true``, el aparato estará ocult
 
 |void| **set_node_3d**\ (\ node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_EditorNode3DGizmo_method_set_node_3d>`
 
-Sets the reference :ref:`Node3D<class_Node3D>` node for the gizmo. ``node`` must inherit from :ref:`Node3D<class_Node3D>`.
+Establece el nodo de referencia :ref:`Node3D<class_Node3D>` para el aparato. El ``node`` debe heredar de :ref:`Node3D<class_Node3D>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -14,27 +14,27 @@ Un array di :ref:`Cubemap<class_Cubemap>`, memorizzati insieme e con un singolo 
 Descrizione
 ----------------------
 
-**CubemapArray**\ s are made of an array of :ref:`Cubemap<class_Cubemap>`\ s. Like :ref:`Cubemap<class_Cubemap>`\ s, they are made of multiple textures, the amount of which must be divisible by 6 (one for each face of the cube).
+I **CubemapArray** sono composti da un array di :ref:`Cubemap<class_Cubemap>`. Come i :ref:`Cubemap<class_Cubemap>`, sono composti da più texture, la cui quantità deve essere divisibile per 6 (una per ogni faccia del cubo).
 
-The primary benefit of **CubemapArray**\ s is that they can be accessed in shader code using a single texture reference. In other words, you can pass multiple :ref:`Cubemap<class_Cubemap>`\ s into a shader using a single **CubemapArray**. :ref:`Cubemap<class_Cubemap>`\ s are allocated in adjacent cache regions on the GPU, which makes **CubemapArray**\ s the most efficient way to store multiple :ref:`Cubemap<class_Cubemap>`\ s.
+Il vantaggio principale dei **CubemapArray** è che è possibile accedervi nel codice di uno shader attraverso un singolo riferimento di texture. In altre parole, è possibile passare più :ref:`Cubemap<class_Cubemap>` in uno shader attraverso un singolo **CubemapArray**. I :ref:`Cubemap<class_Cubemap>` sono allocati in regioni di cache adiacenti sulla GPU, il che rende i **CubemapArray** il modo più efficiente per memorizzare più :ref:`Cubemap<class_Cubemap>`.
 
-Godot uses **CubemapArray**\ s internally for many effects, including the :ref:`Sky<class_Sky>` if you set :ref:`ProjectSettings.rendering/reflections/sky_reflections/texture_array_reflections<class_ProjectSettings_property_rendering/reflections/sky_reflections/texture_array_reflections>` to ``true``.
+Godot utilizza i **CubemapArray** internamente per molti effetti, incluso lo :ref:`Sky<class_Sky>` se :ref:`ProjectSettings.rendering/reflections/sky_reflections/texture_array_reflections<class_ProjectSettings_property_rendering/reflections/sky_reflections/texture_array_reflections>` è impostato su ``true``.
 
-To create such a texture file yourself, reimport your image files using the Godot Editor import presets. To create a CubemapArray from code, use :ref:`ImageTextureLayered.create_from_images()<class_ImageTextureLayered_method_create_from_images>` on an instance of the CubemapArray class.
+Per creare manualmente un file texture di questo tipo, reimporta i file immagine tramite le preimpostazioni di importazione nel pannello File System. Per creare un CubemapArray da codice, usa :ref:`ImageTextureLayered.create_from_images()<class_ImageTextureLayered_method_create_from_images>` su un'istanza della classe CubemapArray.
 
-The expected image order is X+, X-, Y+, Y-, Z+, Z- (in Godot's coordinate system, so Y+ is "up" and Z- is "forward"). You can use one of the following templates as a base:
+L'ordine previsto delle immagini è X+, X-, Y+, Y-, Z+, Z- (nel sistema di coordinate di Godot, quindi Y+ è "su" e Z- è "avanti"). Puoi usare uno dei seguenti modelli come base:
 
-- `2×3 cubemap template (default layout option) <https://raw.githubusercontent.com/godotengine/godot-docs/master/tutorials/assets_pipeline/img/cubemap_template_2x3.webp>`__\ 
+- `Modello di cubemap 2×3 (opzione di layout predefinita) <https://raw.githubusercontent.com/godotengine/godot-docs/master/tutorials/assets_pipeline/img/cubemap_template_2x3.webp>`__\ 
 
-- `3×2 cubemap template <https://raw.githubusercontent.com/godotengine/godot-docs/master/tutorials/assets_pipeline/img/cubemap_template_3x2.webp>`__\ 
+- `Modello di cubemap 3×2 <https://raw.githubusercontent.com/godotengine/godot-docs/master/tutorials/assets_pipeline/img/cubemap_template_3x2.webp>`__\ 
 
-- `1×6 cubemap template <https://raw.githubusercontent.com/godotengine/godot-docs/master/tutorials/assets_pipeline/img/cubemap_template_1x6.webp>`__\ 
+- `Modello di cubemap 1×6 <https://raw.githubusercontent.com/godotengine/godot-docs/master/tutorials/assets_pipeline/img/cubemap_template_1x6.webp>`__\ 
 
-- `6×1 cubemap template <https://raw.githubusercontent.com/godotengine/godot-docs/master/tutorials/assets_pipeline/img/cubemap_template_6x1.webp>`__\ 
+- `Modello di cubemap 6×1 <https://raw.githubusercontent.com/godotengine/godot-docs/master/tutorials/assets_pipeline/img/cubemap_template_6x1.webp>`__\ 
 
-Multiple layers are stacked on top of each other when using the default vertical import option (with the first layer at the top). Alternatively, you can choose a horizontal layout in the import options (with the first layer at the left).
+Più livelli sono impilati uno sopra l'altro quando si utilizza l'opzione di importazione verticale predefinita (con il primo livello in alto). Alternativamente, puoi scegliere un layout orizzontale nelle opzioni di importazione (con il primo livello a sinistra).
 
-\ **Note:** **CubemapArray** is not supported in the Compatibility renderer due to graphics API limitations.
+\ **Nota:** **CubemapArray** non è supportato nel renderer Compatibilità a causa di limitazioni dell'API grafica.
 
 .. rst-class:: classref-reftable-group
 

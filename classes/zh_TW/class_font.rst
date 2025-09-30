@@ -124,7 +124,7 @@ Font
 - |void| **set_fallbacks**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`Font<class_Font>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`Font<class_Font>`\] **get_fallbacks**\ (\ )
 
-如果在該 :ref:`FontVariation<class_FontVariation>` 中找不到字形，則用作替代的退回 **Font** 陣列。如果沒有設定，則使用 :ref:`base_font<class_Font_property_base_font>` 的退回字形。
+如果在該 :ref:`FontVariation<class_FontVariation>` 中找不到字形，則用作替代的退回 **Font** 陣列。如果沒有設定，則使用 :ref:`FontVariation.base_font<class_FontVariation_property_base_font>` 的退回字形。
 
 .. rst-class:: classref-section-separator
 

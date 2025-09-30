@@ -16,7 +16,7 @@ Clase base abstracta para interactuar con tranmisiones.
 Descripción
 ----------------------
 
-StreamPeer es una clase base abstracta utilizada principalmente para protocolos basados en tranmisiones (como TCP). Proporciona una API para enviar y recibir datos a través de tranmisiones como datos brutos o cadenas de texto.
+StreamPeer es una clase base abstracta utilizada principalmente para protocolos basados en tranmisiones (como TCP). Proporciona una API para enviar y recibir datos a través de tranmisiones como datos brutos o strings de texto.
 
 \ **Nota:** Al exportar a Android, asegúrate de habilitar el permiso ``INTERNET`` en el preset de exportación de Android antes de exportar el proyecto o usar el despliegue con un solo clic. De lo contrario, la comunicación de red de cualquier tipo será bloqueada por Android.
 
@@ -401,7 +401,7 @@ Pone un valor con signo de 64 bits en el stream.
 
 :ref:`Error<enum_@GlobalScope_Error>` **put_data**\ (\ data\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_StreamPeer_method_put_data>`
 
-Sends a chunk of data through the connection, blocking if necessary until the data is done sending. This function returns an :ref:`Error<enum_@GlobalScope_Error>` code.
+Envía un fragmento de datos a través de la conexión, bloqueando si es necesario hasta que se terminen de enviar los datos. Esta función devuelve un código :ref:`Error<enum_@GlobalScope_Error>`.
 
 .. rst-class:: classref-item-separator
 

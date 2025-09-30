@@ -23,7 +23,7 @@ Un array di punti 2D che è estruso per creare rapidamente e facilmente una vari
 Tutorial
 ----------------
 
-- :doc:`Prototipazione de livelli con CSG <../tutorials/3d/csg_tools>`
+- :doc:`Prototipazione dei livelli con CSG <../tutorials/3d/csg_tools>`
 
 .. rst-class:: classref-reftable-group
 

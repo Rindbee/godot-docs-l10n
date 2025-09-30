@@ -129,7 +129,7 @@ To add a key to an existing dictionary, access it like an existing key and assig
 
 
 
-Finally, dictionaries can contain different types of keys and values in the same dictionary:
+Finally, untyped dictionaries can contain different types of keys and values in the same dictionary:
 
 
 .. tabs::
@@ -177,6 +177,45 @@ The keys of a dictionary can be iterated with the ``for`` keyword:
     {
         // `fruit` is the key, `amount` is the value.
     }
+
+
+
+To enforce a certain type for keys and values, you can create a *typed dictionary*. Typed dictionaries can only contain keys and values of the given types, or that inherit from the given classes:
+
+
+.. tabs::
+
+ .. code-tab:: gdscript
+
+    # Creates a typed dictionary with String keys and int values.
+    # Attempting to use any other type for keys or values will result in an error.
+    var typed_dict: Dictionary[String, int] = {
+        "some_key": 1,
+        "some_other_key": 2,
+    }
+
+    # Creates a typed dictionary with String keys and values of any type.
+    # Attempting to use any other type for keys will result in an error.
+    var typed_dict_key_only: Dictionary[String, Variant] = {
+        "some_key": 12.34,
+        "some_other_key": "string",
+    }
+
+ .. code-tab:: csharp
+
+    // Creates a typed dictionary with String keys and int values.
+    // Attempting to use any other type for keys or values will result in an error.
+    var typedDict = new Godot.Collections.Dictionary<String, int> {
+        {"some_key", 1},
+        {"some_other_key", 2},
+    };
+
+    // Creates a typed dictionary with String keys and values of any type.
+    // Attempting to use any other type for keys will result in an error.
+    var typedDictKeyOnly = new Godot.Collections.Dictionary<String, Variant> {
+        {"some_key", 12.34},
+        {"some_other_key", "string"},
+    };
 
 
 
@@ -385,11 +424,11 @@ Pulisce il dizionario, rimuovendo tutte le voci da esso.
 
 :ref:`Dictionary<class_Dictionary>` **duplicate**\ (\ deep\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Dictionary_method_duplicate>`
 
-Returns a new copy of the dictionary.
+Restituisce una nuova copia del dizionario.
 
-By default, a **shallow** copy is returned: all nested :ref:`Array<class_Array>`, **Dictionary**, and :ref:`Resource<class_Resource>` keys and values are shared with the original dictionary. Modifying any of those in one dictionary will also affect them in the other.
+Normalmente, viene restituita una copia **superficiale**: tutti gli elementi annidati di tipo :ref:`Array<class_Array>`, **Dictionary** e :ref:`Resource<class_Resource>` sono condivisi con il dizionario originale. Modificarli in un dizionario li influenzerà anche nell'altro.
 
-If ``deep`` is ``true``, a **deep** copy is returned: all nested arrays and dictionaries are also duplicated (recursively). Any :ref:`Resource<class_Resource>` is still shared with the original dictionary, though.
+Se ``deep`` è ``true``, viene restituita una copia **profonda**: anche tutti gli array e i dizionari annidati sono duplicati (ricorsivamente). Tuttavia, qualsiasi oggetto :ref:`Resource<class_Resource>` rimane condiviso con il dizionario originale.
 
 .. rst-class:: classref-item-separator
 
@@ -401,9 +440,9 @@ If ``deep`` is ``true``, a **deep** copy is returned: all nested arrays and dict
 
 :ref:`Dictionary<class_Dictionary>` **duplicate_deep**\ (\ deep_subresources_mode\: :ref:`int<class_int>` = 1\ ) |const| :ref:`🔗<class_Dictionary_method_duplicate_deep>`
 
-Duplicates this dictionary, deeply, like :ref:`duplicate()<class_Dictionary_method_duplicate>`\ ``(true)``, with extra control over how subresources are handled.
+Duplica questo dizionario profondamente, come :ref:`duplicate()<class_Dictionary_method_duplicate>`\ ``(true)``, con ulteriore controllo su come le sottorisorse sono gestite.
 
-\ ``deep_subresources_mode`` must be one of the values from :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. By default, only internal resources will be duplicated (recursively).
+\ ``deep_subresources_mode`` deve essere uno dei valori di :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. Come predefinito, solo le risorse interne saranno duplicate (ricorsivamente).
 
 .. rst-class:: classref-item-separator
 
@@ -539,7 +578,7 @@ Restituisce l'istanza di :ref:`Script<class_Script>` associata ai valori di ques
 
 :ref:`bool<class_bool>` **has**\ (\ key\: :ref:`Variant<class_Variant>`\ ) |const| :ref:`🔗<class_Dictionary_method_has>`
 
-Returns ``true`` if the dictionary contains an entry with the given ``key``.
+Restituisce ``true`` se il dizionario contiene una voce con la ``key`` specificata.
 
 
 .. tabs::
@@ -551,9 +590,9 @@ Returns ``true`` if the dictionary contains an entry with the given ``key``.
         210 : null,
     }
 
-    print(my_dict.has("Godot")) # Prints true
-    print(my_dict.has(210))     # Prints true
-    print(my_dict.has(4))       # Prints false
+    print(my_dict.has("Godot")) # Stampa true
+    print(my_dict.has(210))     # Stampa true
+    print(my_dict.has(4))       # Stampa false
 
  .. code-tab:: csharp
 
@@ -563,20 +602,20 @@ Returns ``true`` if the dictionary contains an entry with the given ``key``.
         { 210, default },
     };
 
-    GD.Print(myDict.ContainsKey("Godot")); // Prints True
-    GD.Print(myDict.ContainsKey(210));     // Prints True
-    GD.Print(myDict.ContainsKey(4));       // Prints False
+    GD.Print(myDict.ContainsKey("Godot")); // Stampa True
+    GD.Print(myDict.ContainsKey(210));     // Stampa True
+    GD.Print(myDict.ContainsKey(4));       // Stampa False
 
 
 
-In GDScript, this is equivalent to the ``in`` operator:
+In GDScript, questo è equivalente all'operatore ``in``:
 
 ::
 
     if "Godot" in { "Godot": 4 }:
-        print("The key is here!") # Will be printed.
+        print("La chiave è qui!") # Verrà stampato.
 
-\ **Note:** This method returns ``true`` as long as the ``key`` exists, even if its corresponding value is ``null``.
+\ **Nota:** Questo metodo restituisce ``true`` finché esiste la chiave ``key``, anche se il suo valore corrispondente è ``null``.
 
 .. rst-class:: classref-item-separator
 
@@ -588,12 +627,12 @@ In GDScript, this is equivalent to the ``in`` operator:
 
 :ref:`bool<class_bool>` **has_all**\ (\ keys\: :ref:`Array<class_Array>`\ ) |const| :ref:`🔗<class_Dictionary_method_has_all>`
 
-Returns ``true`` if the dictionary contains all keys in the given ``keys`` array.
+Restituisce ``true`` se il dizionario contiene tutte le chiavi nell'array ``keys`` specificato.
 
 ::
 
-    var data = { "width": 10, "height": 20 }
-    data.has_all(["height", "width"]) # Returns true
+    var data = { "larghezza" : 10, "altezza" : 20 }
+    data.has_all(["altezza", "larghezza"]) # Restituisce true
 
 .. rst-class:: classref-item-separator
 
@@ -605,7 +644,7 @@ Returns ``true`` if the dictionary contains all keys in the given ``keys`` array
 
 :ref:`int<class_int>` **hash**\ (\ ) |const| :ref:`🔗<class_Dictionary_method_hash>`
 
-Returns a hashed 32-bit integer value representing the dictionary contents.
+Restituisce un valore intero di hash a 32 bit che rappresenta il contenuto del dizionario.
 
 
 .. tabs::
@@ -615,21 +654,21 @@ Returns a hashed 32-bit integer value representing the dictionary contents.
     var dict1 = { "A": 10, "B": 2 }
     var dict2 = { "A": 10, "B": 2 }
 
-    print(dict1.hash() == dict2.hash()) # Prints true
+    print(dict1.hash() == dict2.hash()) # Stampa true
 
  .. code-tab:: csharp
 
-    var dict1 = new Godot.Collections.Dictionary { { "A", 10 }, { "B", 2 } };
-    var dict2 = new Godot.Collections.Dictionary { { "A", 10 }, { "B", 2 } };
+    var dict1 = new Godot.Collections.Dictionary{ {"A", 10 }, { "B", 2 } };
+    var dict2 = new Godot.Collections.Dictionary{ {"A", 10 }, { "B", 2 } };
 
-    // Godot.Collections.Dictionary has no Hash() method. Use GD.Hash() instead.
-    GD.Print(GD.Hash(dict1) == GD.Hash(dict2)); // Prints True
+    // Godot.Collections.Dictionary non ha un metodo Hash(). Usa invece GD.Hash().
+    GD.Print(GD.Hash(dict1) == GD.Hash(dict2)); // Stampa true
 
 
 
-\ **Note:** Dictionaries with the same entries but in a different order will not have the same hash.
+\ **Nota:** I dizionari con le stesse voci ma in un ordine diverso non avranno lo stesso hash.
 
-\ **Note:** Dictionaries with equal hash values are *not* guaranteed to be the same, because of hash collisions. On the contrary, dictionaries with different hash values are guaranteed to be different.
+\ **Nota:** I dizionari con valori uguali di hash *non* sono garantiti di essere uguali, a causa delle collisioni di hash. Al contrario, i dizionari con valori diversi di hash sono sicuramente diversi.
 
 .. rst-class:: classref-item-separator
 
@@ -749,7 +788,7 @@ Restituisce la lista delle chiavi nel dizionario.
 
 |void| **make_read_only**\ (\ ) :ref:`🔗<class_Dictionary_method_make_read_only>`
 
-Rende il dizionario di sola lettura, ovvero disabilita la modifica del contenuto del dizionario. Non si applica al contenuto nidificato, ad esempio il contenuto dei dizionari nidificati.
+Rende il dizionario di sola lettura, ovvero disabilita la modifica del contenuto del dizionario. Non si applica al contenuto innestato, ad esempio il contenuto dei dizionari innestati.
 
 .. rst-class:: classref-item-separator
 
@@ -874,7 +913,7 @@ Restituisce il numero di voci nel dizionario. I dizionari vuoti (``{ }``) restit
 
 |void| **sort**\ (\ ) :ref:`🔗<class_Dictionary_method_sort>`
 
-Sorts the dictionary in ascending order, by key. The final order is dependent on the "less than" (``<``) comparison between keys.
+Ordina il dizionario in ordine crescente, per chiave. L'ordine finale dipende dal confronto "minore di" (``<``) tra le chiavi.
 
 
 .. tabs::
@@ -883,11 +922,11 @@ Sorts the dictionary in ascending order, by key. The final order is dependent on
 
     var numbers = { "c": 2, "a": 0, "b": 1 }
     numbers.sort()
-    print(numbers) # Prints { "a": 0, "b": 1, "c": 2 }
+    print(numbers) # Stampa { "a": 0, "b": 1, "c": 2 }
 
 
 
-This method ensures that the dictionary's entries are ordered consistently when :ref:`keys()<class_Dictionary_method_keys>` or :ref:`values()<class_Dictionary_method_values>` are called, or when the dictionary needs to be converted to a string through :ref:`@GlobalScope.str()<class_@GlobalScope_method_str>` or :ref:`JSON.stringify()<class_JSON_method_stringify>`.
+Questo metodo garantisce che le voci del dizionario siano ordinate consistentemente quando vengono chiamati :ref:`keys()<class_Dictionary_method_keys>` o :ref:`values()<class_Dictionary_method_values>`, oppure quando c'è bisogno di convertire il dizionario in una stringa attraverso :ref:`@GlobalScope.str()<class_@GlobalScope_method_str>` o :ref:`JSON.stringify()<class_JSON_method_stringify>`.
 
 .. rst-class:: classref-item-separator
 

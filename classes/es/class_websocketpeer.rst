@@ -336,7 +336,7 @@ Cierra esta conexión WebSocket. ``code`` es el código de estado para el cierre
 
 \ **Nota:** Para lograr un cierre limpio, deberá seguir sonedeando hasta que se alcance :ref:`STATE_CLOSED<class_WebSocketPeer_constant_STATE_CLOSED>`.
 
-\ **Nota:** Es posible que la exportación Web no admita todos los códigos de estado. Consulte la documentación específica del navegador para obtener más detalles.
+\ **Nota:** Es posible que la exportación Web no admita todos los códigos de estado. Consulta la documentación específica del navegador para obtener más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -348,11 +348,11 @@ Cierra esta conexión WebSocket. ``code`` es el código de estado para el cierre
 
 :ref:`Error<enum_@GlobalScope_Error>` **connect_to_url**\ (\ url\: :ref:`String<class_String>`, tls_client_options\: :ref:`TLSOptions<class_TLSOptions>` = null\ ) :ref:`🔗<class_WebSocketPeer_method_connect_to_url>`
 
-Conecta a la URL dada. Los certificados TLS se verificarán con el nombre de host al conectarse mediante el protocolo ``wss://``. Puedes pasar el parámetro opcional ``tls_client_options`` para personalizar las autoridades de certificación de confianza, o desactivar la verificación del nombre común. Consulte :ref:`TLSOptions.client()<class_TLSOptions_method_client>` y :ref:`TLSOptions.client_unsafe()<class_TLSOptions_method_client_unsafe>`.
+Conecta a la URL dada. Los certificados TLS se verificarán con el nombre de host al conectarse mediante el protocolo ``wss://``. Puedes pasar el parámetro opcional ``tls_client_options`` para personalizar las autoridades de certificación de confianza, o desactivar la verificación del nombre común. Consulta :ref:`TLSOptions.client()<class_TLSOptions_method_client>` y :ref:`TLSOptions.client_unsafe()<class_TLSOptions_method_client_unsafe>`.
 
-\ **Nota:** Este método no es bloqueante, y devolverá :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` antes de que se establezca la conexión, siempre y cuando los parámetros proporcionados sean válidos y el par no esté en un estado inválido (por ejemplo, ya conectado). Llame regularmente a :ref:`poll()<class_WebSocketPeer_method_poll>` (por ejemplo, durante el proceso de :ref:`Node<class_Node>`) y compruebe el resultado de :ref:`get_ready_state()<class_WebSocketPeer_method_get_ready_state>` para saber si la conexión tiene éxito o falla.
+\ **Nota:** Este método no es bloqueante, y devolverá :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` antes de que se establezca la conexión, siempre y cuando los parámetros proporcionados sean válidos y el par no esté en un estado inválido (por ejemplo, ya conectado). Llama regularmente a :ref:`poll()<class_WebSocketPeer_method_poll>` (por ejemplo, durante el proceso de :ref:`Node<class_Node>`) y comprueba el resultado de :ref:`get_ready_state()<class_WebSocketPeer_method_get_ready_state>` para saber si la conexión tiene éxito o falla.
 
-\ **Nota:** Para evitar avisos o errores de contenido mixto en la Web, es posible que tenga que utilizar una ``url`` que comience con ``wss://`` (seguro) en lugar de ``ws://``. Al hacerlo, asegúrese de utilizar el nombre de dominio completo que coincida con el definido en el certificado TLS del servidor. No se conecte directamente a través de la dirección IP para las conexiones ``wss://``, ya que no coincidirá con el certificado TLS.
+\ **Nota:** Para evitar avisos o errores de contenido mixto en la Web, es posible que tengas que utilizar una ``url`` que comience con ``wss://`` (seguro) en lugar de ``ws://``. Al hacerlo, asegúrate de utilizar el nombre de dominio completo que coincida con el definido en el certificado TLS del servidor. No te conectes directamente a través de la dirección IP para las conexiones ``wss://``, ya que no coincidirá con el certificado TLS.
 
 .. rst-class:: classref-item-separator
 
@@ -500,7 +500,7 @@ Envía el ``message`` dado utilizando el modo de texto WebSocket. Es preferible 
 
 |void| **set_no_delay**\ (\ enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_WebSocketPeer_method_set_no_delay>`
 
-Desactiva el algoritmo de Nagle en el socket TCP subyacente (por defecto). Consulta :ref:`StreamPeerTCP.set_no_delay()<class_StreamPeerTCP_method_set_no_delay>` para obtener más información.
+Desactiva el algoritmo de Nagle en el socket TCP subyacente (por defecto). Véase :ref:`StreamPeerTCP.set_no_delay()<class_StreamPeerTCP_method_set_no_delay>` para obtener más información.
 
 \ **Nota:** No disponible en la exportación Web.
 

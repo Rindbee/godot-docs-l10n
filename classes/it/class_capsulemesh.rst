@@ -54,9 +54,9 @@ Descrizioni delle proprietà
 - |void| **set_height**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_height**\ (\ )
 
-Total height of the capsule mesh (including the hemispherical ends).
+Altezza totale della mesh a capsula (incluse le estremità emisferiche).
 
-\ **Note:** The :ref:`height<class_CapsuleMesh_property_height>` of a capsule must be at least twice its :ref:`radius<class_CapsuleMesh_property_radius>`. Otherwise, the capsule becomes a circle. If the :ref:`height<class_CapsuleMesh_property_height>` is less than twice the :ref:`radius<class_CapsuleMesh_property_radius>`, the properties adjust to a valid value.
+\ **Nota:** L':ref:`height<class_CapsuleMesh_property_height>` di una capsula deve essere almeno il doppio del suo :ref:`radius<class_CapsuleMesh_property_radius>`. Se non, la capsula diventa un cerchio. Se l':ref:`height<class_CapsuleMesh_property_height>` è inferiore al doppio del :ref:`radius<class_CapsuleMesh_property_radius>`, le proprietà si adattano a un valore valido.
 
 .. rst-class:: classref-item-separator
 
@@ -90,9 +90,9 @@ Numero di segmenti radiali sulla mesh a capsula.
 - |void| **set_radius**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_radius**\ (\ )
 
-Radius of the capsule mesh.
+Raggio della mesh a capsula.
 
-\ **Note:** The :ref:`radius<class_CapsuleMesh_property_radius>` of a capsule cannot be greater than half of its :ref:`height<class_CapsuleMesh_property_height>`. Otherwise, the capsule becomes a circle. If the :ref:`radius<class_CapsuleMesh_property_radius>` is greater than half of the :ref:`height<class_CapsuleMesh_property_height>`, the properties adjust to a valid value.
+\ **Nota:** Il :ref:`radius<class_CapsuleMesh_property_radius>` di una capsula non può essere maggiore della metà della sua :ref:`height<class_CapsuleMesh_property_height>`. Se non, la capsula diventa un cerchio. Se il :ref:`radius<class_CapsuleMesh_property_radius>` è maggiore della metà dell':ref:`height<class_CapsuleMesh_property_height>`, le proprietà si adattano a un valore valido.
 
 .. rst-class:: classref-item-separator
 

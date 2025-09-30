@@ -14,7 +14,7 @@ Sugerencia de posición 3D genérica para la edición.
 Descripción
 ----------------------
 
-Generic 3D position hint for editing. It's just like a plain :ref:`Node3D<class_Node3D>`, but it displays as a cross in the 3D editor at all times.
+Sugerencia de posición 3D genérica para la edición. Es como un plano :ref:`Node3D<class_Node3D>`, pero se muestra como una cruz en el editor 3D en todo momento.
 
 .. rst-class:: classref-reftable-group
 

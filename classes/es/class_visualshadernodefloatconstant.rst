@@ -14,7 +14,7 @@ Una constante escalar de punto flotante que se utilizará dentro del gráfico de
 Descripción
 ----------------------
 
-Traducido a ``float`` en el lenguaje de shader.
+Traducido a ``float`` en el lenguaje de shaders.
 
 .. rst-class:: classref-reftable-group
 

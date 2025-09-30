@@ -7,14 +7,14 @@ ResourceImporterSVG
 
 **Eredita:** :ref:`ResourceImporter<class_ResourceImporter>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Imports an SVG file as an automatically scalable texture for use in UI elements and 2D rendering.
+Importa un file SVG come texture automaticamente ridimensionabile da usare per gli elementi dell'UI e per il rendering 2D.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-This importer imports :ref:`DPITexture<class_DPITexture>` resources. See also :ref:`ResourceImporterTexture<class_ResourceImporterTexture>` and :ref:`ResourceImporterImage<class_ResourceImporterImage>`.
+Questo importatore importa risorse :ref:`DPITexture<class_DPITexture>`. Vedi anche :ref:`ResourceImporterTexture<class_ResourceImporterTexture>` e :ref:`ResourceImporterImage<class_ResourceImporterImage>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -49,7 +49,7 @@ Descrizioni delle proprietà
 
 :ref:`float<class_float>` **base_scale** = ``1.0`` :ref:`🔗<class_ResourceImporterSVG_property_base_scale>`
 
-Texture scale. ``1.0`` is the original SVG size. Higher values result in a larger image.
+Scala della texture. ``1.0`` è la dimensione originale dell'SVG. Valori più alti risultano in un'immagine più grande.
 
 .. rst-class:: classref-item-separator
 
@@ -61,7 +61,7 @@ Texture scale. ``1.0`` is the original SVG size. Higher values result in a large
 
 :ref:`Dictionary<class_Dictionary>` **color_map** = ``{}`` :ref:`🔗<class_ResourceImporterSVG_property_color_map>`
 
-If set, remaps texture colors according to :ref:`Color<class_Color>`-:ref:`Color<class_Color>` map.
+Se impostato, rimappa i colori della texture in base alla mappa :ref:`Color<class_Color>`-:ref:`Color<class_Color>`.
 
 .. rst-class:: classref-item-separator
 

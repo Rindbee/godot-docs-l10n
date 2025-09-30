@@ -253,7 +253,7 @@ Rotazione in radianti, relativa al genitore del nodo. Vedi anche :ref:`global_ro
 - |void| **set_rotation_degrees**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_rotation_degrees**\ (\ )
 
-Proprietà di supporto per accedere a :ref:`rotation<class_Node2D_property_rotation>` in gradi anziché in radianti. Vedi anche :ref:`global_rotation_degrees<class_Node2D_property_global_rotation_degrees>`.
+Proprietà ausiliare per accedere a :ref:`rotation<class_Node2D_property_rotation>` in gradi anziché in radianti. Vedi anche :ref:`global_rotation_degrees<class_Node2D_property_global_rotation_degrees>`.
 
 .. rst-class:: classref-item-separator
 

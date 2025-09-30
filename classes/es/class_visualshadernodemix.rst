@@ -14,7 +14,7 @@ Interpola linealmente entre dos valores dentro del gráfico de shader visual.
 Descripción
 ----------------------
 
-Se traduce a ``mix(a, b, weight)`` en el lenguaje de shader.
+Se traduce a ``mix(a, b, weight)`` en el lenguaje de shaders.
 
 .. rst-class:: classref-reftable-group
 

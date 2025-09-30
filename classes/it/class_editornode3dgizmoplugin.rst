@@ -166,7 +166,7 @@ Sovrascrivi questo metodo per restituire un :ref:`EditorNode3DGizmo<class_Editor
 
 :ref:`String<class_String>` **_get_gizmo_name**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorNode3DGizmoPlugin_private_method__get_gizmo_name>`
 
-Sostituisci questo metodo per fornire il nome che apparirà nel menu di visibilità dei gizmo.
+Sovrascrivi questo metodo per fornire il nome che apparirà nel menu di visibilità dei gizmo.
 
 .. rst-class:: classref-item-separator
 

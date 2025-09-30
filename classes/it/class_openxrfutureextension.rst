@@ -7,14 +7,14 @@ OpenXRFutureExtension
 
 **Eredita:** :ref:`OpenXRExtensionWrapper<class_OpenXRExtensionWrapper>` **<** :ref:`Object<class_Object>`
 
-The OpenXR Future extension allows for asynchronous APIs to be used.
+L'estensione OpenXR Future consente l'utilizzo di API asincrone.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-This is a support extension in OpenXR that allows other OpenXR extensions to start asynchronous functions and get a callback after this function finishes. It is not intended for consumption within GDScript but can be accessed from GDExtension.
+Questa è un'estensione di supporto in OpenXR che consente ad altre estensioni OpenXR di avviare funzioni asincrone e di ottenere un callback al termine di tali funzioni. Non è pensata per l'utilizzo in GDScript, ma è accessibile da GDExtension.
 
 .. rst-class:: classref-reftable-group
 
@@ -47,7 +47,7 @@ Descrizioni dei metodi
 
 |void| **cancel_future**\ (\ future\: :ref:`int<class_int>`\ ) :ref:`🔗<class_OpenXRFutureExtension_method_cancel_future>`
 
-Cancels an in-progress future. ``future`` must be an ``XrFutureEXT`` value previously returned by an API that started an asynchronous function.
+Annulla un futuro in corso. ``future`` deve essere un valore ``XrFutureEXT`` restituito in precedenza da un'API che ha avviato una funzione asincrona.
 
 .. rst-class:: classref-item-separator
 
@@ -59,7 +59,7 @@ Cancels an in-progress future. ``future`` must be an ``XrFutureEXT`` value previ
 
 :ref:`bool<class_bool>` **is_active**\ (\ ) |const| :ref:`🔗<class_OpenXRFutureExtension_method_is_active>`
 
-Returns ``true`` if futures are available in the OpenXR runtime used. This function will only return a usable result after OpenXR has been initialized.
+Restituisce ``true`` se i future sono disponibili nel runtime OpenXR utilizzato. Questa funzione restituirà un risultato utilizzabile solo dopo l'inizializzazione di OpenXR.
 
 .. rst-class:: classref-item-separator
 
@@ -71,18 +71,18 @@ Returns ``true`` if futures are available in the OpenXR runtime used. This funct
 
 :ref:`OpenXRFutureResult<class_OpenXRFutureResult>` **register_future**\ (\ future\: :ref:`int<class_int>`, on_success\: :ref:`Callable<class_Callable>` = Callable()\ ) :ref:`🔗<class_OpenXRFutureExtension_method_register_future>`
 
-Register an OpenXR Future object so we monitor for completion. ``future`` must be an ``XrFutureEXT`` value previously returned by an API that started an asynchronous function.
+Registra un oggetto OpenXR Future in modo da monitorarne il completamento. ``future`` deve essere un valore ``XrFutureEXT`` precedentemente restituito da un'API che ha avviato una funzione asincrona.
 
-You can optionally specify ``on_success``, it will be invoked on successful completion of the future.
+Facoltativamente, è possibile specificare ``on_success``, il quale sarà invocato al completamento corretto del futuro.
 
-Or you can use the returned :ref:`OpenXRFutureResult<class_OpenXRFutureResult>` object to ``await`` its :ref:`OpenXRFutureResult.completed<class_OpenXRFutureResult_signal_completed>` signal.
+In alternativa, è possibile usare l'oggetto :ref:`OpenXRFutureResult<class_OpenXRFutureResult>` restituito per attendere (``await``) il suo segnale :ref:`OpenXRFutureResult.completed<class_OpenXRFutureResult_signal_completed>`.
 
 ::
 
     var future_result = OpenXRFutureExtension.register_future(future)
     await future_result.completed
     if future_result.get_status() == OpenXRFutureResult.RESULT_FINISHED:
-        # Handle your success
+        # Gestisci il tuo successo
         pass
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`

@@ -510,6 +510,8 @@ La couleur de la lumière dans l'espace de couleur sRGB non-linéaire. Une coule
 
 La lumière affectera les objets dans les calques sélectionnés.
 
+\ **Note :** Le masque de light cull est ignoré par :ref:`VoxelGI<class_VoxelGI>`, SDFGI, :ref:`LightmapGI<class_LightmapGI>`, et le brouillard volumétrique. Ceux-ci rendront toujours la lumière en ignorant le masque de cull. Voir aussi :ref:`VisualInstance3D.layers<class_VisualInstance3D_property_layers>`.
+
 .. rst-class:: classref-item-separator
 
 ----

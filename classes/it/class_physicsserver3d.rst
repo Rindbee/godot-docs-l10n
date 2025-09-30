@@ -2468,7 +2468,7 @@ Restituisce il :ref:`PhysicsDirectBodyState3D<class_PhysicsDirectBodyState3D>` d
 
 :ref:`int<class_int>` **body_get_max_contacts_reported**\ (\ body\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_PhysicsServer3D_method_body_get_max_contacts_reported>`
 
-Restituisce il numero massimo di contatti che possono essere segnalati. Vedi :ref:`body_set_max_contacts_reported()<class_PhysicsServer3D_method_body_set_max_contacts_reported>`.
+Restituisce il numero massimo di contatti che si possono riportare. Vedi :ref:`body_set_max_contacts_reported()<class_PhysicsServer3D_method_body_set_max_contacts_reported>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2778,7 +2778,7 @@ Se ``userdata`` è ``null``, allora ``callable`` deve accettare solo il parametr
 
 |void| **body_set_max_contacts_reported**\ (\ body\: :ref:`RID<class_RID>`, amount\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PhysicsServer3D_method_body_set_max_contacts_reported>`
 
-Imposta il numero massimo di contatti da segnalare. I corpi possono tenere un registro dei contatti con altri corpi. Ciò è abilitato impostando il numero massimo di contatti segnalati a un numero maggiore di 0.
+Imposta il numero massimo di contatti da riportare. I corpi possono tenere un registro dei contatti con altri corpi. Ciò è abilitato impostando il numero massimo di contatti riportati a un numero maggiore di 0.
 
 .. rst-class:: classref-item-separator
 
@@ -3100,7 +3100,7 @@ Imposta il valore di un parametro di un giunto generico 6DOF.
 
 :ref:`int<class_int>` **get_process_info**\ (\ process_info\: :ref:`ProcessInfo<enum_PhysicsServer3D_ProcessInfo>`\ ) :ref:`🔗<class_PhysicsServer3D_method_get_process_info>`
 
-Returns the value of a physics engine state specified by ``process_info``.
+Restituisce il valore di uno stato del motore di fisica specificato da ``process_info``.
 
 .. rst-class:: classref-item-separator
 
@@ -3390,7 +3390,7 @@ Imposta la posizione del giunto nello spazio locale del corpo B del giunto.
 
 |void| **pin_joint_set_param**\ (\ joint\: :ref:`RID<class_RID>`, param\: :ref:`PinJointParam<enum_PhysicsServer3D_PinJointParam>`, value\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PhysicsServer3D_method_pin_joint_set_param>`
 
-Sets a pin joint parameter.
+Imposta un parametro di un giunto a perno.
 
 .. rst-class:: classref-item-separator
 

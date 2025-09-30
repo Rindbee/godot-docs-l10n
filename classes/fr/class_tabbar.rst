@@ -7,14 +7,14 @@ TabBar
 
 **Hérite de :** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A control that provides a horizontal bar with tabs.
+Un contrôle qui fournit une barre horizontale avec des onglets.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-A control that provides a horizontal bar with tabs. Similar to :ref:`TabContainer<class_TabContainer>` but is only in charge of drawing tabs, not interacting with children.
+Un contrôle qui fournit une barre horizontale avec des onglets. Semblable à :ref:`TabContainer<class_TabContainer>` mais est seulement chargé de dessiner les onglets, pas d'interagir avec les enfants.
 
 .. rst-class:: classref-reftable-group
 
@@ -251,9 +251,9 @@ Signaux
 
 **tab_close_pressed**\ (\ tab\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TabBar_signal_tab_close_pressed>`
 
-Emitted when a tab's close button is pressed or when middle-clicking on a tab, if :ref:`close_with_middle_mouse<class_TabBar_property_close_with_middle_mouse>` is enabled.
+Émis lorsque le bouton de fermeture d'un onglet est appuyé ou lors du clic du milieu sur un onglet, si :ref:`close_with_middle_mouse<class_TabBar_property_close_with_middle_mouse>` est activé.
 
-\ **Note:** Tabs are not removed automatically once the close button is pressed, this behavior needs to be programmed manually. For example:
+\ **Note :** Les onglets ne sont pas supprimés automatiquement une fois le bouton de fermeture appuyé, ce comportement doit être programmé manuellement. Par exemple :
 
 
 .. tabs::
@@ -290,7 +290,7 @@ Emitted when a tab's close button is pressed or when middle-clicking on a tab, i
 
 **tab_rmb_clicked**\ (\ tab\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TabBar_signal_tab_rmb_clicked>`
 
-Emitted when a tab is right-clicked. :ref:`select_with_rmb<class_TabBar_property_select_with_rmb>` must be enabled.
+Émis lorsqu'un clic droit est fait sur un onglet. :ref:`select_with_rmb<class_TabBar_property_select_with_rmb>` doit être activé.
 
 .. rst-class:: classref-item-separator
 
@@ -302,7 +302,7 @@ Emitted when a tab is right-clicked. :ref:`select_with_rmb<class_TabBar_property
 
 **tab_selected**\ (\ tab\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TabBar_signal_tab_selected>`
 
-Emitted when a tab is selected via click, directional input, or script, even if it is the current tab.
+Émis lorsqu'un onglet est sélectionné par un clic, une entrée directionnelle ou un script, même s'il s'agit de l'onglet actuel.
 
 .. rst-class:: classref-section-separator
 
@@ -413,7 +413,7 @@ Descriptions des propriétés
 - |void| **set_clip_tabs**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_clip_tabs**\ (\ )
 
-If ``true``, tabs overflowing this node's width will be hidden, displaying two navigation buttons instead. Otherwise, this node's minimum size is updated so that all tabs are visible.
+Si ``true``, les onglets débordant de la largeur de ce nœud seront cachés, affichant deux boutons de navigation à la place. Sinon, la taille minimale de ce nœud est mise à jour de sorte que tous les onglets soient visibles.
 
 .. rst-class:: classref-item-separator
 
@@ -430,7 +430,7 @@ If ``true``, tabs overflowing this node's width will be hidden, displaying two n
 - |void| **set_close_with_middle_mouse**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_close_with_middle_mouse**\ (\ )
 
-If ``true``, middle clicking on the mouse will fire the :ref:`tab_close_pressed<class_TabBar_signal_tab_close_pressed>` signal.
+Si ``true``, un clic du milieu de la souris émettra le signal :ref:`tab_close_pressed<class_TabBar_signal_tab_close_pressed>`.
 
 .. rst-class:: classref-item-separator
 
@@ -447,7 +447,7 @@ If ``true``, middle clicking on the mouse will fire the :ref:`tab_close_pressed<
 - |void| **set_current_tab**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_current_tab**\ (\ )
 
-The index of the current selected tab. A value of ``-1`` means that no tab is selected and can only be set when :ref:`deselect_enabled<class_TabBar_property_deselect_enabled>` is ``true`` or if all tabs are hidden or disabled.
+L'index de l'onglet sélectionné actuel. Une valeur de ``-1`` signifie qu'aucun onglet n'est sélectionné et ne peut être défini que lorsque :ref:`deselect_enabled<class_TabBar_property_deselect_enabled>` vaut ``true`` ou si tous les onglets sont cachés ou désactivés.
 
 .. rst-class:: classref-item-separator
 
@@ -464,7 +464,7 @@ The index of the current selected tab. A value of ``-1`` means that no tab is se
 - |void| **set_deselect_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_deselect_enabled**\ (\ )
 
-If ``true``, all tabs can be deselected so that no tab is selected. Click on the current tab to deselect it.
+Si ``true``, tous les onglets peuvent être désélectionnés de sorte qu'aucun onglet ne soit sélectionné. Cliquez sur l'onglet actuel pour le désélectionner.
 
 .. rst-class:: classref-item-separator
 
@@ -498,7 +498,7 @@ Si ``true``, les onglets peuvent être réarrangés avec par déposé-glissé.
 - |void| **set_max_tab_width**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_max_tab_width**\ (\ )
 
-Sets the maximum width which all tabs should be limited to. Unlimited if set to ``0``.
+Définit la largeur maximale à laquelle tous les onglets devraient être limités. Illimités si défini à ``0``.
 
 .. rst-class:: classref-item-separator
 
@@ -515,7 +515,7 @@ Sets the maximum width which all tabs should be limited to. Unlimited if set to 
 - |void| **set_scroll_to_selected**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_scroll_to_selected**\ (\ )
 
-If ``true``, the tab offset will be changed to keep the currently selected tab visible.
+Si ``true``, le décalage de l'onglet sera modifié pour garder l'onglet actuellement sélectionné visible.
 
 .. rst-class:: classref-item-separator
 
@@ -566,7 +566,7 @@ Si ``true``, active la possibilité de sélectionner les onglets avec le clic dr
 - |void| **set_tab_alignment**\ (\ value\: :ref:`AlignmentMode<enum_TabBar_AlignmentMode>`\ )
 - :ref:`AlignmentMode<enum_TabBar_AlignmentMode>` **get_tab_alignment**\ (\ )
 
-The position at which tabs will be placed.
+La position à laquelle les onglets seront placés.
 
 .. rst-class:: classref-item-separator
 
@@ -583,7 +583,7 @@ The position at which tabs will be placed.
 - |void| **set_tab_close_display_policy**\ (\ value\: :ref:`CloseButtonDisplayPolicy<enum_TabBar_CloseButtonDisplayPolicy>`\ )
 - :ref:`CloseButtonDisplayPolicy<enum_TabBar_CloseButtonDisplayPolicy>` **get_tab_close_display_policy**\ (\ )
 
-When the close button will appear on the tabs.
+Quand est-ce que le bouton de fermeture apparaîtra sur les onglets.
 
 .. rst-class:: classref-item-separator
 
@@ -617,9 +617,9 @@ Le nombre d'onglets actuellement dans la barre.
 - |void| **set_tabs_rearrange_group**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_tabs_rearrange_group**\ (\ )
 
-**TabBar**\ s with the same rearrange group ID will allow dragging the tabs between them. Enable drag with :ref:`drag_to_rearrange_enabled<class_TabBar_property_drag_to_rearrange_enabled>`.
+Des **TabBar**\ s avec le même ID de groupe de réorganisation permettront de glisser les onglets entre eux. Activez le glissement avec :ref:`drag_to_rearrange_enabled<class_TabBar_property_drag_to_rearrange_enabled>`.
 
-Setting this to ``-1`` will disable rearranging between **TabBar**\ s.
+Définir ceci à ``-1`` désactivera la réorganisation entre les **TabBar**\ s.
 
 .. rst-class:: classref-section-separator
 
@@ -696,7 +696,7 @@ Renvoie l'index de l'onglet précédemment actif.
 
 :ref:`Texture2D<class_Texture2D>` **get_tab_button_icon**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabBar_method_get_tab_button_icon>`
 
-Returns the icon for the right button of the tab at index ``tab_idx`` or ``null`` if the right button has no icon.
+Renvoie l'icône pour le bouton droit de l'onglet à l'index ``tab_idx`` ou ``null`` si le bouton droit n'a pas d'icône.
 
 .. rst-class:: classref-item-separator
 
@@ -708,7 +708,7 @@ Returns the icon for the right button of the tab at index ``tab_idx`` or ``null`
 
 :ref:`Texture2D<class_Texture2D>` **get_tab_icon**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabBar_method_get_tab_icon>`
 
-Returns the icon for the tab at index ``tab_idx`` or ``null`` if the tab has no icon.
+Renvoie l'icône pour l'onglet à l'index ``tab_idx`` ou ``null`` si l'onglet n'a pas d'icône.
 
 .. rst-class:: classref-item-separator
 
@@ -720,7 +720,7 @@ Returns the icon for the tab at index ``tab_idx`` or ``null`` if the tab has no 
 
 :ref:`int<class_int>` **get_tab_icon_max_width**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabBar_method_get_tab_icon_max_width>`
 
-Returns the maximum allowed width of the icon for the tab at index ``tab_idx``.
+Renvoie la largeur maximale autorisée de l'icône pour l'onglet à l'index ``tab_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -744,7 +744,7 @@ Renvoie l'index de l'onglet aux coordonnées locales ``point``. Renvoie ``-1`` s
 
 :ref:`String<class_String>` **get_tab_language**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabBar_method_get_tab_language>`
 
-Returns tab title language code.
+Renvoie le code de langue de l'onglet.
 
 .. rst-class:: classref-item-separator
 
@@ -756,7 +756,7 @@ Returns tab title language code.
 
 :ref:`Variant<class_Variant>` **get_tab_metadata**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabBar_method_get_tab_metadata>`
 
-Returns the metadata value set to the tab at index ``tab_idx`` using :ref:`set_tab_metadata()<class_TabBar_method_set_tab_metadata>`. If no metadata was previously set, returns ``null`` by default.
+Renvoie la valeur des métadonnées définies dans l'onglet à l'index ``tab_idx`` en utilisant :ref:`set_tab_metadata()<class_TabBar_method_set_tab_metadata>`. Si aucune métadonnée n'a été précédemment définie, renvoie ``null`` par défaut.
 
 .. rst-class:: classref-item-separator
 
@@ -792,7 +792,7 @@ Renvoie l'onglet :ref:`Rect2<class_Rect2>` avec la position et la taille locales
 
 :ref:`TextDirection<enum_Control_TextDirection>` **get_tab_text_direction**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabBar_method_get_tab_text_direction>`
 
-Returns tab title text base writing direction.
+Renvoie la direction d'écriture de base du texte du titre de l'onglet.
 
 .. rst-class:: classref-item-separator
 
@@ -804,7 +804,7 @@ Returns tab title text base writing direction.
 
 :ref:`String<class_String>` **get_tab_title**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabBar_method_get_tab_title>`
 
-Returns the title of the tab at index ``tab_idx``.
+Renvoie le titre de l'onglet à l'index ``tab_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -924,7 +924,7 @@ Si ``disabled`` est ``true``, désactive l'onglet à l'index ``tab_idx``, le ren
 
 |void| **set_tab_hidden**\ (\ tab_idx\: :ref:`int<class_int>`, hidden\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_TabBar_method_set_tab_hidden>`
 
-If ``hidden`` is ``true``, hides the tab at index ``tab_idx``, making it disappear from the tab area.
+Si ``hidden`` vaut ``true``, cache l'onglet à l'index ``tab_idx``, le faisait disparaître de la zone des onglets.
 
 .. rst-class:: classref-item-separator
 
@@ -936,7 +936,7 @@ If ``hidden`` is ``true``, hides the tab at index ``tab_idx``, making it disappe
 
 |void| **set_tab_icon**\ (\ tab_idx\: :ref:`int<class_int>`, icon\: :ref:`Texture2D<class_Texture2D>`\ ) :ref:`🔗<class_TabBar_method_set_tab_icon>`
 
-Sets an ``icon`` for the tab at index ``tab_idx``.
+Définit une icône ``icon`` pour l'onglet à l'index ``tab_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -948,7 +948,7 @@ Sets an ``icon`` for the tab at index ``tab_idx``.
 
 |void| **set_tab_icon_max_width**\ (\ tab_idx\: :ref:`int<class_int>`, width\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TabBar_method_set_tab_icon_max_width>`
 
-Sets the maximum allowed width of the icon for the tab at index ``tab_idx``. This limit is applied on top of the default size of the icon and on top of :ref:`icon_max_width<class_TabBar_theme_constant_icon_max_width>`. The height is adjusted according to the icon's ratio.
+Définit la largeur maximale autorisée de l'icône pour l'onglet à l'index ``tab_idx``. Cette limite est appliquée en plus de la taille par défaut de l'icône et en plus de :ref:`icon_max_width<class_TabBar_theme_constant_icon_max_width>`. La hauteur est ajustée selon le ratio de l'icône.
 
 .. rst-class:: classref-item-separator
 
@@ -960,7 +960,7 @@ Sets the maximum allowed width of the icon for the tab at index ``tab_idx``. Thi
 
 |void| **set_tab_language**\ (\ tab_idx\: :ref:`int<class_int>`, language\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TabBar_method_set_tab_language>`
 
-Sets language code of tab title used for line-breaking and text shaping algorithms, if left empty current locale is used instead.
+Définit le code de langue du titre de l'onglet utilisé pour les algorithmes de retour à la ligne et de façonnage de texte. Si vide, la langue courante est utilisée à la place.
 
 .. rst-class:: classref-item-separator
 
@@ -972,7 +972,7 @@ Sets language code of tab title used for line-breaking and text shaping algorith
 
 |void| **set_tab_metadata**\ (\ tab_idx\: :ref:`int<class_int>`, metadata\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_TabBar_method_set_tab_metadata>`
 
-Sets the metadata value for the tab at index ``tab_idx``, which can be retrieved later using :ref:`get_tab_metadata()<class_TabBar_method_get_tab_metadata>`.
+Définit la valeur des métadonnées pour l'onglet à l'index ``tab_idx``, qui peuvent être récupérées plus tard en utilisant :ref:`get_tab_metadata()<class_TabBar_method_get_tab_metadata>`.
 
 .. rst-class:: classref-item-separator
 
@@ -984,7 +984,7 @@ Sets the metadata value for the tab at index ``tab_idx``, which can be retrieved
 
 |void| **set_tab_text_direction**\ (\ tab_idx\: :ref:`int<class_int>`, direction\: :ref:`TextDirection<enum_Control_TextDirection>`\ ) :ref:`🔗<class_TabBar_method_set_tab_text_direction>`
 
-Sets tab title base writing direction.
+Définit la direction d'écriture de base du titre de l'onglet.
 
 .. rst-class:: classref-item-separator
 
@@ -996,7 +996,7 @@ Sets tab title base writing direction.
 
 |void| **set_tab_title**\ (\ tab_idx\: :ref:`int<class_int>`, title\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TabBar_method_set_tab_title>`
 
-Sets a ``title`` for the tab at index ``tab_idx``.
+Définit un titre ``title`` pour l'onglet à l'index ``tab_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -1008,9 +1008,9 @@ Sets a ``title`` for the tab at index ``tab_idx``.
 
 |void| **set_tab_tooltip**\ (\ tab_idx\: :ref:`int<class_int>`, tooltip\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TabBar_method_set_tab_tooltip>`
 
-Sets a ``tooltip`` for tab at index ``tab_idx``.
+Définit une info-bulle ``tooltip`` pour l'onglet à l'index ``tab_idx``.
 
-\ **Note:** By default, if the ``tooltip`` is empty and the tab text is truncated (not all characters fit into the tab), the title will be displayed as a tooltip. To hide the tooltip, assign ``" "`` as the ``tooltip`` text.
+\ **Note :** Par défaut, si l'info-bulle ``tooltip`` est vide et que le texte de l'onglet est tronqué (les caractères ne rentrent pas tous dans l'onglet), le titre sera affiché en tant qu'info-bulle. Pour cacher l'info-bulle, assignez ``" "`` comme texte de ``tooltip``.
 
 .. rst-class:: classref-section-separator
 
@@ -1051,7 +1051,7 @@ La couleur de la police pour les onglets désactivés.
 
 :ref:`Color<class_Color>` **font_hovered_color** = ``Color(0.95, 0.95, 0.95, 1)`` :ref:`🔗<class_TabBar_theme_color_font_hovered_color>`
 
-Font color of the currently hovered tab. Does not apply to the selected tab.
+Couleur de la police de l'onglet actuellement survolé. Ne s'applique pas à l'onglet sélectionné.
 
 .. rst-class:: classref-item-separator
 
@@ -1063,7 +1063,7 @@ Font color of the currently hovered tab. Does not apply to the selected tab.
 
 :ref:`Color<class_Color>` **font_outline_color** = ``Color(0, 0, 0, 1)`` :ref:`🔗<class_TabBar_theme_color_font_outline_color>`
 
-The tint of text outline of the tab name.
+La teinte du contour du texte du nom de l'onglet.
 
 .. rst-class:: classref-item-separator
 
@@ -1099,7 +1099,7 @@ Couleur de police pour les autres onglets, non sélectionnés.
 
 :ref:`int<class_int>` **h_separation** = ``4`` :ref:`🔗<class_TabBar_theme_constant_h_separation>`
 
-The horizontal separation between the elements inside tabs.
+La séparation horizontale entre les éléments dans les onglets.
 
 .. rst-class:: classref-item-separator
 
@@ -1111,7 +1111,7 @@ The horizontal separation between the elements inside tabs.
 
 :ref:`int<class_int>` **icon_max_width** = ``0`` :ref:`🔗<class_TabBar_theme_constant_icon_max_width>`
 
-The maximum allowed width of the tab's icon. This limit is applied on top of the default size of the icon, but before the value set with :ref:`set_tab_icon_max_width()<class_TabBar_method_set_tab_icon_max_width>`. The height is adjusted according to the icon's ratio.
+La largeur maximale autorisée de l'icône de l'onglet. Cette limite est appliquée en plus de la taille par défaut de l'icône, mais avant la valeur définie avec :ref:`set_tab_icon_max_width()<class_TabBar_method_set_tab_icon_max_width>`. La hauteur est ajustée selon le ratio de l'icône.
 
 .. rst-class:: classref-item-separator
 
@@ -1123,9 +1123,9 @@ The maximum allowed width of the tab's icon. This limit is applied on top of the
 
 :ref:`int<class_int>` **outline_size** = ``0`` :ref:`🔗<class_TabBar_theme_constant_outline_size>`
 
-The size of the tab text outline.
+La taille du contour du texte de l'onglet.
 
-\ **Note:** If using a font with :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` enabled, its :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` must be set to at least *twice* the value of :ref:`outline_size<class_TabBar_theme_constant_outline_size>` for outline rendering to look correct. Otherwise, the outline may appear to be cut off earlier than intended.
+\ **Note :** Lors de l'utilisation d'une police avec :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` activé, son :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` doit être défini à au moins *deux fois* la valeur de :ref:`outline_size<class_TabBar_theme_constant_outline_size>` pour que le rendu puisse être correct. Sinon, le contour peut sembler être coupé plus tôt que prévu.
 
 .. rst-class:: classref-item-separator
 
@@ -1137,7 +1137,7 @@ The size of the tab text outline.
 
 :ref:`int<class_int>` **tab_separation** = ``0`` :ref:`🔗<class_TabBar_theme_constant_tab_separation>`
 
-The space between tabs in the tab bar.
+L'espace entre les onglets dans la barre d'onglets.
 
 .. rst-class:: classref-item-separator
 
@@ -1245,7 +1245,7 @@ L'icône pour le bouton flèche de droite qui apparaît quand il y a trop d'ongl
 
 :ref:`StyleBox<class_StyleBox>` **button_highlight** :ref:`🔗<class_TabBar_theme_style_button_highlight>`
 
-Background of the tab and close buttons when they're being hovered with the cursor.
+Arrière-plan de l'onglet et des boutons de fermeture quand ils sont survolés avec le curseur.
 
 .. rst-class:: classref-item-separator
 
@@ -1257,7 +1257,7 @@ Background of the tab and close buttons when they're being hovered with the curs
 
 :ref:`StyleBox<class_StyleBox>` **button_pressed** :ref:`🔗<class_TabBar_theme_style_button_pressed>`
 
-Background of the tab and close buttons when it's being pressed.
+Arrière-plan de l'onglet et des boutons de fermeture quand ils sont appuyés.
 
 .. rst-class:: classref-item-separator
 
@@ -1281,7 +1281,7 @@ Le style des onglets désactivés.
 
 :ref:`StyleBox<class_StyleBox>` **tab_focus** :ref:`🔗<class_TabBar_theme_style_tab_focus>`
 
-:ref:`StyleBox<class_StyleBox>` used when the **TabBar** is focused. The :ref:`tab_focus<class_TabBar_theme_style_tab_focus>` :ref:`StyleBox<class_StyleBox>` is displayed *over* the base :ref:`StyleBox<class_StyleBox>` of the selected tab, so a partially transparent :ref:`StyleBox<class_StyleBox>` should be used to ensure the base :ref:`StyleBox<class_StyleBox>` remains visible. A :ref:`StyleBox<class_StyleBox>` that represents an outline or an underline works well for this purpose. To disable the focus visual effect, assign a :ref:`StyleBoxEmpty<class_StyleBoxEmpty>` resource. Note that disabling the focus visual effect will harm keyboard/controller navigation usability, so this is not recommended for accessibility reasons.
+:ref:`StyleBox<class_StyleBox>` utilisé lorsque le **TabBar** a le focus. La :ref:`StyleBox<class_StyleBox>` :ref:`tab_focus<class_TabBar_theme_style_tab_focus>` est affichée *par-dessus* la :ref:`StyleBox<class_StyleBox>` de base de l'onglet sélectionné, ainsi une :ref:`StyleBox<class_StyleBox>` partiellement transparente devrait être utilisée pour s'assurer que la :ref:`StyleBox<class_StyleBox>` de base reste visible. Une :ref:`StyleBox<class_StyleBox>` qui représente un contour ou un soulignement fonctionne bien à cette fin. Pour désactiver l'effet visuel du focus, assignez une ressource :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`. Notez que la désactivation de l'effet visuel du focus va nuire à l'utilisabilité de la navigation clavier/contrôleur, ce qui n'est donc pas recommandé pour des raisons d'accessibilité.
 
 .. rst-class:: classref-item-separator
 
@@ -1293,9 +1293,9 @@ Le style des onglets désactivés.
 
 :ref:`StyleBox<class_StyleBox>` **tab_hovered** :ref:`🔗<class_TabBar_theme_style_tab_hovered>`
 
-The style of the currently hovered tab. Does not apply to the selected tab.
+Le style de l'onglet actuellement survolé. Ne s'applique pas à l'onglet sélectionné.
 
-\ **Note:** This style will be drawn with the same width as :ref:`tab_unselected<class_TabBar_theme_style_tab_unselected>` at minimum.
+\ **Note :** Ce style sera dessiné avec la même largeur que :ref:`tab_unselected<class_TabBar_theme_style_tab_unselected>` au minimum.
 
 .. rst-class:: classref-item-separator
 
@@ -1319,7 +1319,7 @@ Le style de l'onglet actuellement sélectionné.
 
 :ref:`StyleBox<class_StyleBox>` **tab_unselected** :ref:`🔗<class_TabBar_theme_style_tab_unselected>`
 
-The style of the other, unselected tabs.
+Le style des autres onglets, non sélectionnés.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

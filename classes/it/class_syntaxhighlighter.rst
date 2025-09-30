@@ -113,7 +113,7 @@ Successivamente richiama il metodo sovrascrivibile :ref:`_clear_highlighting_cac
 
 Restituisce i dati di evidenziazione della sintassi per una singola riga. Se la riga non è memorizzata nella cache, chiama :ref:`_get_line_syntax_highlighting()<class_SyntaxHighlighter_private_method__get_line_syntax_highlighting>` per calcolare i dati.
 
-Il :ref:`Dictionary<class_Dictionary>` restituito è il numero di colonna da :ref:`Dictionary<class_Dictionary>`. Il numero di colonna indica l'inizio di una regione, la regione terminerà se si trova un'altra regione o alla fine della riga. Il :ref:`Dictionary<class_Dictionary>` nidificato contiene i dati per quella regione, attualmente è supportata solo la chiave ``"color"``.
+Il :ref:`Dictionary<class_Dictionary>` restituito è il numero di colonna da :ref:`Dictionary<class_Dictionary>`. Il numero di colonna indica l'inizio di una regione, la regione terminerà se si trova un'altra regione o alla fine della riga. Il :ref:`Dictionary<class_Dictionary>` innestato contiene i dati per quella regione, attualmente è supportata solo la chiave ``"color"``.
 
 \ **Esempio:** Possibile valore restituito. Ciò significa che le colonne da ``0`` a ``4`` dovrebbero essere rosse e le colonne da ``5`` alla fine della riga dovrebbero essere verdi:
 

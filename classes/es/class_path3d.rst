@@ -14,9 +14,9 @@ Contains a :ref:`Curve3D<class_Curve3D>` path for :ref:`PathFollow3D<class_PathF
 Descripción
 ----------------------
 
-Puede tener nodos hijos ``PathFollow`` moviéndose a lo largo de la :ref:`Curve3D<class_Curve3D>`. Véase ``PathFollow`` para más información sobre el uso.
+Puede tener nodos hijos :ref:`PathFollow3D<class_PathFollow3D>` moviéndose a lo largo de la :ref:`Curve3D<class_Curve3D>`. Véase :ref:`PathFollow3D<class_PathFollow3D>` para más información sobre el uso.
 
-Ten en cuenta que la ruta se considera relativa a los nodos movidos (hijos de ``PathFollow``). Como tal, la curva debería comenzar normalmente con un vector cero ``(0, 0, 0)``.
+Ten en cuenta que la ruta se considera relativa a los nodos movidos (hijos de :ref:`PathFollow3D<class_PathFollow3D>`). Como tal, la curva debería comenzar normalmente con un vector cero ``(0, 0, 0)``.
 
 .. rst-class:: classref-reftable-group
 

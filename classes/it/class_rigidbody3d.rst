@@ -16,17 +16,17 @@ Un corpo fisico 2D che viene spostato da una simulazione fisica.
 Descrizione
 ----------------------
 
-**RigidBody3D** implements full 3D physics. It cannot be controlled directly, instead, you must apply forces to it (gravity, impulses, etc.), and the physics simulation will calculate the resulting movement, rotation, react to collisions, and affect other physics bodies in its path.
+:ref:`RigidBody2D<class_RigidBody2D>` implementa la fisica 3D completa. Non può essere controllato direttamente, ma è necessario applicargli delle forze (gravità, impulsi, ecc.) e la simulazione fisica calcolerà il movimento risultante, la rotazione, reagirà alle collisioni e influenzerà altri corpi fisici sul suo percorso.
 
-The body's behavior can be adjusted via :ref:`lock_rotation<class_RigidBody3D_property_lock_rotation>`, :ref:`freeze<class_RigidBody3D_property_freeze>`, and :ref:`freeze_mode<class_RigidBody3D_property_freeze_mode>`. By changing various properties of the object, such as :ref:`mass<class_RigidBody3D_property_mass>`, you can control how the physics simulation acts on it.
+Il comportamento del corpo può essere regolato tramite :ref:`lock_rotation<class_RigidBody3D_property_lock_rotation>`, :ref:`freeze<class_RigidBody3D_property_freeze>` e :ref:`freeze_mode<class_RigidBody3D_property_freeze_mode>`. Modificando varie proprietà dell'oggetto, come :ref:`mass<class_RigidBody3D_property_mass>`, puoi controllare come la simulazione fisica agisce su di esso.
 
-A rigid body will always maintain its shape and size, even when forces are applied to it. It is useful for objects that can be interacted with in an environment, such as a tree that can be knocked over or a stack of crates that can be pushed around.
+Un corpo rigido manterrà sempre la sua forma e dimensione, anche quando gli vengono applicate delle forze. È utile per oggetti con cui è possibile interagire in un ambiente, come un albero che può essere abbattuto o una pila di casse che può essere spinta.
 
-If you need to directly affect the body, prefer :ref:`_integrate_forces()<class_RigidBody3D_private_method__integrate_forces>` as it allows you to directly access the physics state.
+Se devi influenzare direttamente il corpo, preferisci implementare :ref:`_integrate_forces()<class_RigidBody3D_private_method__integrate_forces>` in quanto ti consente di accedere direttamente allo stato fisico.
 
-If you need to override the default physics behavior, you can write a custom force integration function. See :ref:`custom_integrator<class_RigidBody3D_property_custom_integrator>`.
+Se hai bisogno di sovrascrivere il comportamento fisico predefinito, puoi scrivere una funzione di integrazione delle forze personalizzata. Vedi :ref:`custom_integrator<class_RigidBody3D_property_custom_integrator>`.
 
-\ **Note:** Changing the 3D transform or :ref:`linear_velocity<class_RigidBody3D_property_linear_velocity>` of a **RigidBody3D** very often may lead to some unpredictable behaviors. This also happens when a **RigidBody3D** is the descendant of a constantly moving node, like another **RigidBody3D**, as that will cause its global transform to be set whenever its ancestor moves.
+\ **Nota:** Cambiare la trasformazione 3D o :ref:`linear_velocity<class_RigidBody3D_property_linear_velocity>` di un **RigidBody3D** molto spesso può portare ad alcuni comportamenti imprevedibili. Questo accade anche quando un **RigidBody3D** è il discendente di un nodo in continuo movimento, come un altro **RigidBody3D**, poiché ciò causerà l'impostazione della sua trasformazione globale ogni volta che il suo antenato si muove.
 
 .. rst-class:: classref-introduction-group
 
@@ -35,7 +35,7 @@ Tutorial
 
 - :doc:`Introduzione alla fisica <../tutorials/physics/physics_introduction>`
 
-- :doc:`Troubleshooting physics issues <../tutorials/physics/troubleshooting_physics_issues>`
+- :doc:`Risolvere i problemi di fisica <../tutorials/physics/troubleshooting_physics_issues>`
 
 - `Demo 3D "Truck Town" <https://godotengine.org/asset-library/asset/2752>`__
 
@@ -344,7 +344,7 @@ Vedi :ref:`ProjectSettings.physics/3d/default_angular_damp<class_ProjectSettings
 - |void| **set_angular_damp_mode**\ (\ value\: :ref:`DampMode<enum_RigidBody3D_DampMode>`\ )
 - :ref:`DampMode<enum_RigidBody3D_DampMode>` **get_angular_damp_mode**\ (\ )
 
-Defines how :ref:`angular_damp<class_RigidBody3D_property_angular_damp>` is applied.
+Definisce come :ref:`angular_damp<class_RigidBody3D_property_angular_damp>` è applicato.
 
 .. rst-class:: classref-item-separator
 
@@ -395,9 +395,9 @@ Se ``true``, il corpo può entrare in modalità di riposo quando non c'è movime
 - |void| **set_center_of_mass**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_center_of_mass**\ (\ )
 
-The body's custom center of mass, relative to the body's origin position, when :ref:`center_of_mass_mode<class_RigidBody3D_property_center_of_mass_mode>` is set to :ref:`CENTER_OF_MASS_MODE_CUSTOM<class_RigidBody3D_constant_CENTER_OF_MASS_MODE_CUSTOM>`. This is the balanced point of the body, where applied forces only cause linear acceleration. Applying forces outside of the center of mass causes angular acceleration.
+Il centro di massa personalizzato del corpo, relativo alla posizione di origine del corpo, quando :ref:`center_of_mass_mode<class_RigidBody3D_property_center_of_mass_mode>` è impostato su :ref:`CENTER_OF_MASS_MODE_CUSTOM<class_RigidBody3D_constant_CENTER_OF_MASS_MODE_CUSTOM>`. Questo è il punto di equilibrio del corpo, dove le forze applicate provocano solo accelerazione lineare. Le forze applicate all'esterno del centro di massa provocano accelerazione angolare.
 
-When :ref:`center_of_mass_mode<class_RigidBody3D_property_center_of_mass_mode>` is set to :ref:`CENTER_OF_MASS_MODE_AUTO<class_RigidBody3D_constant_CENTER_OF_MASS_MODE_AUTO>` (default value), the center of mass is automatically determined, but this does not update the value of :ref:`center_of_mass<class_RigidBody3D_property_center_of_mass>`.
+Quando :ref:`center_of_mass_mode<class_RigidBody3D_property_center_of_mass_mode>` è impostato su :ref:`CENTER_OF_MASS_MODE_AUTO<class_RigidBody3D_constant_CENTER_OF_MASS_MODE_AUTO>` (valore predefinito), il centro di massa è calcolato automaticamente, ma ciò non aggiorna il valore di :ref:`center_of_mass<class_RigidBody3D_property_center_of_mass>`.
 
 .. rst-class:: classref-item-separator
 
@@ -649,7 +649,7 @@ Consulta :ref:`ProjectSettings.physics/3d/default_linear_damp<class_ProjectSetti
 - |void| **set_linear_damp_mode**\ (\ value\: :ref:`DampMode<enum_RigidBody3D_DampMode>`\ )
 - :ref:`DampMode<enum_RigidBody3D_DampMode>` **get_linear_damp_mode**\ (\ )
 
-Defines how :ref:`linear_damp<class_RigidBody3D_property_linear_damp>` is applied.
+Definisce come :ref:`linear_damp<class_RigidBody3D_property_linear_damp>` è applicato.
 
 .. rst-class:: classref-item-separator
 

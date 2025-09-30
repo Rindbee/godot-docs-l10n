@@ -223,18 +223,18 @@ Restituisce il riferimento alla risorsa memorizzata nella cache per il percorso 
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_dependencies**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_ResourceLoader_method_get_dependencies>`
 
-Returns the dependencies for the resource at the given ``path``.
+Restituisce le dipendenze per la risorsa nel percorso ``path``.
 
-Each dependency is a string that can be divided into sections by ``::``. There can be either one section or three sections, with the second section always being empty. When there is one section, it contains the file path. When there are three sections, the first section contains the UID and the third section contains the fallback path.
+Ogni dipendenza è una stringa che si può dividere in sezioni tra ``::``. Può essere presente una o tre sezioni, con la seconda sezione sempre vuota. Quando è presente una sola sezione, contiene il percorso del file. Quando sono presenti tre sezioni, la prima sezione contiene l'UID e la terza sezione contiene il percorso di riserva.
 
 ::
 
     for dependency in ResourceLoader.get_dependencies(path):
         if dependency.contains("::"):
-            print(dependency.get_slice("::", 0)) # Prints the UID.
-            print(dependency.get_slice("::", 2)) # Prints the fallback path.
+            print(dependency.get_slice("::", 0)) # Stampa l'UID.
+            print(dependency.get_slice("::", 2)) # Stampa il percorso di riserva.
         else:
-            print(dependency) # Prints the path.
+            print(dependency) # Stampa il percorso.
 
 .. rst-class:: classref-item-separator
 
@@ -284,16 +284,16 @@ Una volta che una risorsa è stata caricata dal motore, viene memorizzata nella 
 
 :ref:`PackedStringArray<class_PackedStringArray>` **list_directory**\ (\ directory_path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_ResourceLoader_method_list_directory>`
 
-Lists a directory, returning all resources and subdirectories contained within. The resource files have the original file names as visible in the editor before exporting. The directories have ``"/"`` appended.
+Elenca una cartella, restituendo tutte le risorse e le sottocartelle in essa contenute. I file di risorse hanno i nomi originali visibili nell'editor prima dell'esportazione. Alle cartelle è aggiunto ``"/"``.
 
 ::
 
-    # Prints ["extra_data/", "model.gltf", "model.tscn", "model_slime.png"]
+    # Stampa ["extra_data/", "model.gltf", "model.tscn", "model_slime.png"]
     print(ResourceLoader.list_directory("res://assets/enemies/slime"))
 
-\ **Note:** The order of files and directories returned by this method is not deterministic, and can vary between operating systems.
+\ **Nota:** L'ordine dei file e delle cartelle restituito da questo metodo non è deterministico e può variare a seconda del sistema operativo.
 
-\ **Note:** To normally traverse the filesystem, see :ref:`DirAccess<class_DirAccess>`.
+\ **Nota:** Per attraversare normalmente il file system, consultare :ref:`DirAccess<class_DirAccess>`.
 
 .. rst-class:: classref-item-separator
 

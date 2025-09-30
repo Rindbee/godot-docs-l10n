@@ -9,20 +9,20 @@ GraphNode
 
 **Eredita:** :ref:`GraphElement<class_GraphElement>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Un contenitore con porte di connessione, che rappresenta un nodo in un :ref:`GraphEdit<class_GraphEdit>`.
+Un contenitore con porte di collegamento, che rappresenta un nodo in un :ref:`GraphEdit<class_GraphEdit>`.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-**GraphNode** consente di creare nodi per un grafico :ref:`GraphEdit<class_GraphEdit>` con contenuti personalizzabili in base ai suoi controlli figlio. **GraphNode** deriva da :ref:`Container<class_Container>` ed è responsabile del posizionamento dei suoi figli sullo schermo. Funziona in modo simile a :ref:`VBoxContainer<class_VBoxContainer>`. I figli, a loro volta, forniscono a **GraphNode** i cosiddetti slot, ognuno dei quali può avere una porta di connessione su entrambi i lati.
+**GraphNode** consente di creare nodi per un grafico :ref:`GraphEdit<class_GraphEdit>` con contenuti personalizzabili in base ai suoi controlli figlio. **GraphNode** deriva da :ref:`Container<class_Container>` ed è responsabile del posizionamento dei suoi figli sullo schermo. Funziona in modo simile a :ref:`VBoxContainer<class_VBoxContainer>`. I figli, a loro volta, forniscono a **GraphNode** i cosiddetti slot, ognuno dei quali può avere una porta di collegamento su entrambi i lati.
 
-Ogni slot **GraphNode** è definito dal suo indice e può fornire al nodo fino a due porte: una a sinistra e una a destra. Per convenzione, la porta sinistra è anche definita **porta d'ingresso** e la porta destra è definita **porta d'uscita**. Ogni porta può essere abilitata e configurata individualmente, utilizzando un tipo e un colore diversi. Il tipo è un valore arbitrario che puoi definire come desiderato. Il :ref:`GraphEdit<class_GraphEdit>` genitore riceverà queste informazioni su ogni richiesta di connessione e disconnessione.
+Ogni slot **GraphNode** è definito dal suo indice e può fornire al nodo fino a due porte: una a sinistra e una a destra. Per convenzione, la porta sinistra è anche definita **porta d'ingresso** e la porta destra è definita **porta d'uscita**. Ogni porta può essere abilitata e configurata individualmente, utilizzando un tipo e un colore diversi. Il tipo è un valore arbitrario che si può definire a piacere. Il :ref:`GraphEdit<class_GraphEdit>` padre riceverà queste informazioni su ogni richiesta di collegamento e scollegamento.
 
-Gli slot possono essere configurati nel pannello dell'Ispettore una volta aggiunto almeno un :ref:`Control<class_Control>` figlio. Le proprietà sono raggruppate in base all'indice di ogni slot nella sezione "Slot".
+Gli slot si possono configurare nel pannello dell'Ispettore una volta aggiunto almeno un :ref:`Control<class_Control>` figlio. Le proprietà sono raggruppate in base all'indice di ogni slot nella sezione "Slot".
 
-\ **Nota:** Mentre GraphNode è impostato utilizzando slot e indici di slot, le connessioni sono effettuate tra le porte che sono abilitate. Per questo motivo :ref:`GraphEdit<class_GraphEdit>` utilizza l'indice della porta e non quello dello slot. Puoi utilizzare :ref:`get_input_port_slot()<class_GraphNode_method_get_input_port_slot>` e :ref:`get_output_port_slot()<class_GraphNode_method_get_output_port_slot>` per ottenere l'indice dello slot dall'indice della porta.
+\ **Nota:** Mentre GraphNode è configurato tramite slot e indici di slot, i collegamenti sono effettuati tra le porte che sono abilitate. Per questo motivo :ref:`GraphEdit<class_GraphEdit>` utilizza l'indice della porta e non quello dello slot. È possibile usare :ref:`get_input_port_slot()<class_GraphNode_method_get_input_port_slot>` e :ref:`get_output_port_slot()<class_GraphNode_method_get_output_port_slot>` per ottenere l'indice dello slot dall'indice della porta.
 
 .. rst-class:: classref-reftable-group
 
@@ -201,7 +201,7 @@ Descrizioni delle proprietà
 - |void| **set_ignore_invalid_connection_type**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_ignoring_valid_connection_type**\ (\ )
 
-Se ``true``, è possibile collegare porte con tipi diversi, anche se la connessione non è stata esplicitamente consentita nel :ref:`GraphEdit<class_GraphEdit>` padre.
+Se ``true``, è possibile collegare porte con tipi diversi, anche se il collegamento non è stato esplicitamente consentito nel :ref:`GraphEdit<class_GraphEdit>` padre.
 
 .. rst-class:: classref-item-separator
 
@@ -218,13 +218,13 @@ Se ``true``, è possibile collegare porte con tipi diversi, anche se la connessi
 - |void| **set_slots_focus_mode**\ (\ value\: :ref:`FocusMode<enum_Control_FocusMode>`\ )
 - :ref:`FocusMode<enum_Control_FocusMode>` **get_slots_focus_mode**\ (\ )
 
-Determines how connection slots can be focused.
+Determina come si possono focalizzare gli slot dei collegamenti.
 
-- If set to :ref:`Control.FOCUS_CLICK<class_Control_constant_FOCUS_CLICK>`, connections can only be made with the mouse.
+- Se impostato su :ref:`Control.FOCUS_CLICK<class_Control_constant_FOCUS_CLICK>`, i collegamenti si possono creare solo con il mouse.
 
-- If set to :ref:`Control.FOCUS_ALL<class_Control_constant_FOCUS_ALL>`, slots can also be focused using the :ref:`ProjectSettings.input/ui_up<class_ProjectSettings_property_input/ui_up>` and :ref:`ProjectSettings.input/ui_down<class_ProjectSettings_property_input/ui_down>` and connected using :ref:`ProjectSettings.input/ui_left<class_ProjectSettings_property_input/ui_left>` and :ref:`ProjectSettings.input/ui_right<class_ProjectSettings_property_input/ui_right>` input actions.
+- Se impostato su :ref:`Control.FOCUS_ALL<class_Control_constant_FOCUS_ALL>`, gli slot si possono focalizzare anche attraverso le azioni di input :ref:`ProjectSettings.input/ui_up<class_ProjectSettings_property_input/ui_up>` e :ref:`ProjectSettings.input/ui_down<class_ProjectSettings_property_input/ui_down>` e collegati attraverso le azioni di input :ref:`ProjectSettings.input/ui_left<class_ProjectSettings_property_input/ui_left>` e :ref:`ProjectSettings.input/ui_right<class_ProjectSettings_property_input/ui_right>`.
 
-- If set to :ref:`Control.FOCUS_ACCESSIBILITY<class_Control_constant_FOCUS_ACCESSIBILITY>`, slot input actions are only enabled when the screen reader is active.
+- Se impostato su :ref:`Control.FOCUS_ACCESSIBILITY<class_Control_constant_FOCUS_ACCESSIBILITY>`, le azioni di input per gli slot sono abilitate solo quando il lettore dello schermo è attivo.
 
 .. rst-class:: classref-item-separator
 
@@ -538,15 +538,15 @@ Restituisce ``true`` se il lato a destra (uscita) dello slot con l'indice ``slot
 
 Imposta le proprietà dello slot con l'indice ``slot_index``.
 
-Se ``enable_left_port``/``enable_right_port`` è ``true``, apparirà una porta e lo slot potrà essere connesso da questo lato.
+Se ``enable_left_port``/``enable_right_port`` è ``true``, apparirà una porta e lo slot si potrà collegare da questo lato.
 
-Con ``type_left``/``type_right`` è possibile assegnare un tipo arbitrario a ciascuna porta. È possibile connettere due porte se condividono lo stesso tipo o se la connessione tra i loro tipi è consentita nel :ref:`GraphEdit<class_GraphEdit>` padre (vedi :ref:`GraphEdit.add_valid_connection_type()<class_GraphEdit_method_add_valid_connection_type>`). Tieni presente che il :ref:`GraphEdit<class_GraphEdit>` ha l'ultima parola nell'accettare la connessione. La compatibilità di tipo consente semplicemente l'emissione del segnale :ref:`GraphEdit.connection_request<class_GraphEdit_signal_connection_request>`.
+Con ``type_left``/``type_right`` è possibile assegnare un tipo arbitrario a ciascuna porta. È possibile collegare due porte se condividono lo stesso tipo o se il collegamento tra i loro tipi è consentito nel :ref:`GraphEdit<class_GraphEdit>` padre (vedi :ref:`GraphEdit.add_valid_connection_type()<class_GraphEdit_method_add_valid_connection_type>`). Tieni presente che il :ref:`GraphEdit<class_GraphEdit>` ha l'ultima parola nell'accettare il collegamento. La compatibilità di tipo consente semplicemente l'emissione del segnale :ref:`GraphEdit.connection_request<class_GraphEdit_signal_connection_request>`.
 
-Le porte possono essere ulteriormente personalizzate attraverso ``color_left``/``color_right`` e ``custom_icon_left``/``custom_icon_right``. Il parametro color aggiunge una tinta all'icona. L'icona personalizzata può essere utilizzata per sovrascrivere il punto predefinito della porta.
+È possibile personalizzare ulteriolmente le porte attraverso ``color_left``/``color_right`` e ``custom_icon_left``/``custom_icon_right``. Il parametro color aggiunge una tinta all'icona. L'icona personalizzata si può utilizzare per sovrascrivere il punto predefinito della porta.
 
-Inoltre, ``draw_stylebox`` può essere utilizzato per abilitare o disabilitare il disegno dello stylebox di sfondo per ogni slot. Vedi :ref:`slot<class_GraphNode_theme_style_slot>`.
+Inoltre, ``draw_stylebox`` si può utilizzare per abilitare o disabilitare il disegno dello stylebox di sfondo per ogni slot. Vedi :ref:`slot<class_GraphNode_theme_style_slot>`.
 
-Le singole proprietà possono anche essere impostate attraverso uno dei metodi ``set_slot_*``.
+Le singole proprietà si possono anche impostare attraverso uno dei metodi ``set_slot_*``.
 
 \ **Nota:** Questo metodo imposta solo le proprietà dello slot. Per creare lo slot stesso, aggiungi un figlio derivato da :ref:`Control<class_Control>` al GraphNode.
 

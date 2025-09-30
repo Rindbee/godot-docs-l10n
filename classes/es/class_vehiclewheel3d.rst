@@ -230,7 +230,7 @@ La rigidez de la suspensión, medida en Newtons por milímetro (N/mm), o megagra
 - |void| **set_suspension_travel**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_suspension_travel**\ (\ )
 
-Esta es la distancia que puede recorrer la suspensión. Como las unidades Godot equivalen a metros, mantenga este ajuste relativamente bajo. Pruebe con un valor entre 0,1 y 0,3 dependiendo del tipo de coche.
+Esta es la distancia que puede recorrer la suspensión. Como las unidades Godot equivalen a metros, mantén este ajuste relativamente bajo. Prueba con un valor entre 0,1 y 0,3 dependiendo del tipo de coche.
 
 .. rst-class:: classref-item-separator
 

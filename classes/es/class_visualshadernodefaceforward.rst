@@ -14,7 +14,7 @@ Devuelve el vector que apunta en la misma dirección que un vector de referencia
 Descripción
 ----------------------
 
-Se traduce a ``faceforward(N, I, Nref)`` en el lenguaje de shader. La función tiene tres parámetros vectoriales: ``N``, el vector a orientar, ``I``, el vector incidente y ``Nref``, el vector de referencia. Si el producto punto de ``I`` y ``Nref`` es menor que cero, el valor de retorno es ``N``. De lo contrario, se devuelve ``-N``.
+Se traduce a ``faceforward(N, I, Nref)`` en el lenguaje de shaders. La función tiene tres parámetros vectoriales: ``N``, el vector a orientar, ``I``, el vector incidente y ``Nref``, el vector de referencia. Si el producto punto de ``I`` y ``Nref`` es menor que cero, el valor de retorno es ``N``. De lo contrario, se devuelve ``-N``.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

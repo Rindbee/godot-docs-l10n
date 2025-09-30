@@ -102,7 +102,7 @@ Señales
 
 **bake_finished**\ (\ ) :ref:`🔗<class_NavigationRegion3D_signal_bake_finished>`
 
-Notifica cuando se completa la operación de horneado de la malla de navegación.
+Notifica cuando se completa la operación de procesado de la malla de navegación.
 
 .. rst-class:: classref-item-separator
 

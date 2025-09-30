@@ -124,7 +124,7 @@ Per ottenere una rappresentazione leggibile in chiaro dell'**InputEventKey**, ut
 
     +-----+ +-----+
     | Q   | | Q   | - "Q" - keycode
-    |   Й | |  ض | - "Й" and "ض" - key_label
+    |   Й | |  ض | - "Й" e "ض" - key_label
     +-----+ +-----+
 
 .. rst-class:: classref-item-separator

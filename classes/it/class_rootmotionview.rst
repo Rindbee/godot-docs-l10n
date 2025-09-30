@@ -14,7 +14,7 @@ Classe di supporto solo per l'editor per configurare il movimento di radice in :
 Descrizione
 ----------------------
 
-*Root motion* si riferisce a una tecnica di animazione in cui lo scheletro di una mesh viene utilizzato per dare impulso a un personaggio. Quando si lavora con animazioni in3D, una tecnica popolare per gli animatori è quella di utilizzare l'osso radice dello scheletro per dare movimento al resto dello scheletro. Ciò consente di animare i personaggi in un modo in cui i passi corrispondono effettivamente al pavimento sottostante. Consente inoltre un'interazione precisa con gli oggetti durante le cinematiche. Vedi anche :ref:`AnimationMixer<class_AnimationMixer>`.
+*Root motion* si riferisce a una tecnica di animazione in cui lo scheletro di una mesh è utilizzato per dare impulso a un personaggio. Quando si lavora con animazioni in3D, una tecnica popolare per gli animatori è quella di utilizzare l'osso radice dello scheletro per dare movimento al resto dello scheletro. Ciò consente di animare i personaggi in modo che i passi corrispondano effettivamente al pavimento sottostante. Consente inoltre di interagire precisamente con gli oggetti durante le cinematiche. Vedi anche :ref:`AnimationMixer<class_AnimationMixer>`.
 
 \ **Nota:** **RootMotionView** è visibile solo nell'editor. Sarà nascosto automaticamente nel progetto in esecuzione.
 

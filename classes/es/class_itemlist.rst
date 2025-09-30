@@ -736,7 +736,7 @@ Se asegura de que no haya elementos seleccionados.
 
 |void| **ensure_current_is_visible**\ (\ ) :ref:`🔗<class_ItemList_method_ensure_current_is_visible>`
 
-Asegúrese de que la selección actual sea visible, ajustando la posición del scroll según sea necesario.
+Asegúrate de que la selección actual sea visible, ajustando la posición del scroll según sea necesario.
 
 .. rst-class:: classref-item-separator
 

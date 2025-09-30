@@ -244,7 +244,7 @@ Probabilidad relativa de que este tile sea seleccionado al dibujar un patrón de
 - |void| **set_terrain**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_terrain**\ (\ )
 
-ID of the terrain from the terrain set that the tile uses.
+ID del terreno del conjunto de terrenos que usa el tile.
 
 .. rst-class:: classref-item-separator
 
@@ -261,7 +261,7 @@ ID of the terrain from the terrain set that the tile uses.
 - |void| **set_terrain_set**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_terrain_set**\ (\ )
 
-ID of the terrain set that the tile uses.
+ID del conjunto de terrenos que usa el tile.
 
 .. rst-class:: classref-item-separator
 
@@ -546,7 +546,7 @@ Devuelve si las colisiones unidireccionales están habilitadas para el polígono
 
 :ref:`bool<class_bool>` **is_valid_terrain_peering_bit**\ (\ peering_bit\: :ref:`CellNeighbor<enum_TileSet_CellNeighbor>`\ ) |const| :ref:`🔗<class_TileData_method_is_valid_terrain_peering_bit>`
 
-Returns whether the given ``peering_bit`` direction is valid for this tile.
+Devuelve si la dirección dada ``peering_bit`` es válida para este tile.
 
 .. rst-class:: classref-item-separator
 
@@ -666,7 +666,7 @@ Establece el valor de los datos personalizados del tile para la capa de datos pe
 
 |void| **set_custom_data_by_layer_id**\ (\ layer_id\: :ref:`int<class_int>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_TileData_method_set_custom_data_by_layer_id>`
 
-Sets the tile's custom data value for the TileSet custom data layer with index ``layer_id``.
+Establece el valor de datos personalizado del tile para la capa de datos personalizados de TileSet con el índice ``layer_id``.
 
 .. rst-class:: classref-item-separator
 
@@ -678,7 +678,7 @@ Sets the tile's custom data value for the TileSet custom data layer with index `
 
 |void| **set_navigation_polygon**\ (\ layer_id\: :ref:`int<class_int>`, navigation_polygon\: :ref:`NavigationPolygon<class_NavigationPolygon>`\ ) :ref:`🔗<class_TileData_method_set_navigation_polygon>`
 
-Sets the navigation polygon for the TileSet navigation layer with index ``layer_id``.
+Establece el polígono de navegación para la capa de navegación TileSet con el índice ``layer_id``.
 
 .. rst-class:: classref-item-separator
 

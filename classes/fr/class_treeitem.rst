@@ -843,7 +843,7 @@ Returns the node's order in the tree. For example, if called on the first child 
 
 :ref:`String<class_String>` **get_language**\ (\ column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TreeItem_method_get_language>`
 
-Returns item's text language code.
+Renvoie le code de langue du texte de l'élément.
 
 .. rst-class:: classref-item-separator
 
@@ -1043,7 +1043,7 @@ Renvoie l'alignement du texte de la colonne donnée.
 
 :ref:`TextDirection<enum_Control_TextDirection>` **get_text_direction**\ (\ column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TreeItem_method_get_text_direction>`
 
-Returns item's text base writing direction.
+Renvoie la direction d'écriture de base du texte de l'élément.
 
 .. rst-class:: classref-item-separator
 
@@ -1615,7 +1615,7 @@ If ``indeterminate`` is ``true``, the given ``column`` is marked indeterminate.
 
 |void| **set_language**\ (\ column\: :ref:`int<class_int>`, language\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TreeItem_method_set_language>`
 
-Sets language code of item's text used for line-breaking and text shaping algorithms, if left empty current locale is used instead.
+Définit le code de langue du texte de l'élément, utilisé pour les algorithmes de retour à la ligne et de façonnage de texte. Si laissé vide, la langue actuelle est utilisée à la place.
 
 .. rst-class:: classref-item-separator
 
@@ -1737,7 +1737,7 @@ Sets the given column's text alignment to ``text_alignment``.
 
 |void| **set_text_direction**\ (\ column\: :ref:`int<class_int>`, direction\: :ref:`TextDirection<enum_Control_TextDirection>`\ ) :ref:`🔗<class_TreeItem_method_set_text_direction>`
 
-Sets item's text base writing direction.
+Définit la direction d'écriture de base du texte.
 
 .. rst-class:: classref-item-separator
 

@@ -16,9 +16,9 @@ Fornisce accesso diretto a uno spazio fisico nel :ref:`PhysicsServer3D<class_Phy
 Descrizione
 ----------------------
 
-Provides direct access to a physics space in the :ref:`PhysicsServer3D<class_PhysicsServer3D>`. It's used mainly to do queries against objects and areas residing in a given space.
+Fornisce accesso diretto a uno spazio fisico nel :ref:`PhysicsServer3D<class_PhysicsServer3D>`. È utilizzato principalmente per interrogare oggetti e aree che risiedono in un determinato spazio.
 
-\ **Note:** This class is not meant to be instantiated directly. Use :ref:`World3D.direct_space_state<class_World3D_property_direct_space_state>` to get the world's physics 3D space state.
+\ **Nota:** Questa classe non si dovrebbe istanziare direttamente. Utilizza :ref:`World3D.direct_space_state<class_World3D_property_direct_space_state>` per ottenere lo stato dello spazio fisico 3D del mondo.
 
 .. rst-class:: classref-introduction-group
 
@@ -66,11 +66,11 @@ Descrizioni dei metodi
 
 :ref:`PackedFloat32Array<class_PackedFloat32Array>` **cast_motion**\ (\ parameters\: :ref:`PhysicsShapeQueryParameters3D<class_PhysicsShapeQueryParameters3D>`\ ) :ref:`🔗<class_PhysicsDirectSpaceState3D_method_cast_motion>`
 
-Checks how far a :ref:`Shape3D<class_Shape3D>` can move without colliding. All the parameters for the query, including the shape and the motion, are supplied through a :ref:`PhysicsShapeQueryParameters3D<class_PhysicsShapeQueryParameters3D>` object.
+Verifica quanto lontano una :ref:`Shape3D<class_Shape3D>` può muoversi senza entrare in collisione. Tutti i parametri per la richiesta, inclusi la forma e il movimento, sono forniti tramite un oggetto :ref:`PhysicsShapeQueryParameters3D<class_PhysicsShapeQueryParameters3D>`.
 
-Returns an array with the safe and unsafe proportions (between 0 and 1) of the motion. The safe proportion is the maximum fraction of the motion that can be made without a collision. The unsafe proportion is the minimum fraction of the distance that must be moved for a collision. If no collision is detected a result of ``[1.0, 1.0]`` will be returned.
+Restituisce un array con le proporzioni sicure e non sicure (tra 0 e 1) del movimento. La proporzione sicura è la frazione massima del movimento che può essere effettuata senza una collisione. La proporzione non sicura è la frazione minima della distanza che deve essere percorsa per una collisione. Se nessuna collisione è rilevata, sarà restituito un risultato di ``[1.0, 1.0]``.
 
-\ **Note:** Any :ref:`Shape3D<class_Shape3D>`\ s that the shape is already colliding with e.g. inside of, will be ignored. Use :ref:`collide_shape()<class_PhysicsDirectSpaceState3D_method_collide_shape>` to determine the :ref:`Shape3D<class_Shape3D>`\ s that the shape is already colliding with.
+\ **Nota:** Qualsiasi :ref:`Shape3D<class_Shape3D>` con cui la forma è già in collisione, ad esempio all'interno, sarà ignorato. Utilizza :ref:`collide_shape()<class_PhysicsDirectSpaceState3D_method_collide_shape>` per determinare le :ref:`Shape3D<class_Shape3D>` con cui la forma è già in collisione.
 
 .. rst-class:: classref-item-separator
 

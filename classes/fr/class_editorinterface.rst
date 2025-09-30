@@ -288,9 +288,9 @@ Renvoie le conteneur principal de la fenêtre de l'éditeur de Godot. Par exempl
 
 :ref:`EditorCommandPalette<class_EditorCommandPalette>` **get_command_palette**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_command_palette>`
 
-Returns the editor's :ref:`EditorCommandPalette<class_EditorCommandPalette>` instance.
+Renvoie l'instance :ref:`EditorCommandPalette<class_EditorCommandPalette>` de l'éditeur.
 
-\ **Warning:** Removing and freeing this node will render a part of the editor useless and may cause a crash.
+\ **Avertissement :** Enlever et libérer ce nœud rendra une partie de l'éditeur inutile et peut causer un plantage.
 
 .. rst-class:: classref-item-separator
 
@@ -662,7 +662,7 @@ Returns mesh previews rendered at the given size as an :ref:`Array<class_Array>`
 
 |void| **mark_scene_as_unsaved**\ (\ ) :ref:`🔗<class_EditorInterface_method_mark_scene_as_unsaved>`
 
-Marks the current scene tab as unsaved.
+Marque l'onglet de la scène actuelle comme non sauvegardée.
 
 .. rst-class:: classref-item-separator
 
@@ -674,7 +674,7 @@ Marks the current scene tab as unsaved.
 
 |void| **open_scene_from_path**\ (\ scene_filepath\: :ref:`String<class_String>`, set_inherited\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_EditorInterface_method_open_scene_from_path>`
 
-Opens the scene at the given path. If ``set_inherited`` is ``true``, creates a new inherited scene.
+Ouvre la scène au chemin donné. Si ``set_inherited`` vaut ``true``, crée une nouvelle scène héritée.
 
 .. rst-class:: classref-item-separator
 

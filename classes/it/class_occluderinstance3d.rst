@@ -14,17 +14,17 @@ Fornisce l'occlusion culling per i nodi 3D, migliorando le prestazioni in aree c
 Descrizione
 ----------------------
 
-Occlusion culling can improve rendering performance in closed/semi-open areas by hiding geometry that is occluded by other objects.
+L'occlusion culling può migliorare le prestazioni di rendering in aree chiuse/semi-aperte nascondendo la geometria oscurata da altri oggetti.
 
-The occlusion culling system is mostly static. **OccluderInstance3D**\ s can be moved or hidden at run-time, but doing so will trigger a background recomputation that can take several frames. It is recommended to only move **OccluderInstance3D**\ s sporadically (e.g. for procedural generation purposes), rather than doing so every frame.
+Il sistema di occlusion culling è essenzialmente statico. Gli **OccluderInstance3D** possono essere spostati o nascosti durante l'esecuzione, ma ciò attiverà un ricalcolo interno che può richiedere diversi frame. Si consiglia di spostare gli **OccluderInstance3D** solo sporadicamente (ad esempio, per scopi di generazione procedurale), piuttosto che farlo a ogni frame.
 
-The occlusion culling system works by rendering the occluders on the CPU in parallel using `Embree <https://www.embree.org/>`__, drawing the result to a low-resolution buffer then using this to cull 3D nodes individually. In the 3D editor, you can preview the occlusion culling buffer by choosing **Perspective > Display Advanced... > Occlusion Culling Buffer** in the top-left corner of the 3D viewport. The occlusion culling buffer quality can be adjusted in the Project Settings.
+Il sistema di occlusion culling funziona renderizzando gli occluder sulla CPU in parallelo tramite `Embree <https://www.embree.org/>`__, disegnando il risultato in un buffer a bassa risoluzione e poi utilizzandolo per scartare i nodi 3D individualmente. Nell'editor 3D, è possibile vedere in anteprima il buffer di occlusion culling scegliendo **Prospettiva > Mostra avanzate... > Buffer di occlusion culling** nell'angolo in alto a sinistra della viewport 3D. La qualità del buffer si può regolare nelle Impostazioni del progetto.
 
-\ **Baking:** Select an **OccluderInstance3D** node, then use the **Bake Occluders** button at the top of the 3D editor. Only opaque materials will be taken into account; transparent materials (alpha-blended or alpha-tested) will be ignored by the occluder generation.
+\ **Precalcolo:** Selezionare un nodo **OccluderInstance3D**, quindi premere il pulsante **Precalcola occlusori** in alto all'editor 3D. Saranno considerati solo i materiali opachi; i materiali trasparenti (con alpha blend o alpha test) saranno ignorati dall'occlusion culling.
 
-\ **Note:** Occlusion culling is only effective if :ref:`ProjectSettings.rendering/occlusion_culling/use_occlusion_culling<class_ProjectSettings_property_rendering/occlusion_culling/use_occlusion_culling>` is ``true``. Enabling occlusion culling has a cost on the CPU. Only enable occlusion culling if you actually plan to use it. Large open scenes with few or no objects blocking the view will generally not benefit much from occlusion culling. Large open scenes generally benefit more from mesh LOD and visibility ranges (:ref:`GeometryInstance3D.visibility_range_begin<class_GeometryInstance3D_property_visibility_range_begin>` and :ref:`GeometryInstance3D.visibility_range_end<class_GeometryInstance3D_property_visibility_range_end>`) compared to occlusion culling.
+\ **Nota:** L'occlusion culling è efficace solo se :ref:`ProjectSettings.rendering/occlusion_culling/use_occlusion_culling<class_ProjectSettings_property_rendering/occlusion_culling/use_occlusion_culling>` è impostato su ``true``. Abilitare l'occlusion culling ha un impatto sulla CPU. Abilitarlo solo se si prevede effettivamente di utilizzarlo. Le scene ampie e aperte, con pochi o nessun oggetto che blocca la vista, generalmente non usufruiranno molto dall'occlusion culling. Le scene ampie e aperte generalmente usufruiscono di più dai LOD di mesh e dai campi di visibilità (:ref:`GeometryInstance3D.visibility_range_begin<class_GeometryInstance3D_property_visibility_range_begin>` e :ref:`GeometryInstance3D.visibility_range_end<class_GeometryInstance3D_property_visibility_range_end>`) rispetto all'occlusione culling.
 
-\ **Note:** Due to memory constraints, occlusion culling is not supported by default in Web export templates. It can be enabled by compiling custom Web export templates with ``module_raycast_enabled=yes``.
+\ **Nota:** A causa di limiti di memoria, l'occlusion culling non è supportato normalmente nei modelli di esportazione web. È possibile abilitarlo compilando modelli personalizzati di esportazione web con ``module_raycast_enabled=yes``.
 
 .. rst-class:: classref-introduction-group
 

@@ -7,22 +7,22 @@ Time
 
 **Hereda:** :ref:`Object<class_Object>`
 
-A singleton for working with time data.
+Un singleton para trabajar con datos de tiempo.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-The Time singleton allows converting time between various formats and also getting time information from the system.
+El singleton Time permite convertir el tiempo entre varios formatos y también obtener información del tiempo del sistema.
 
-This class conforms with as many of the ISO 8601 standards as possible. All dates follow the Proleptic Gregorian calendar. As such, the day before ``1582-10-15`` is ``1582-10-14``, not ``1582-10-04``. The year before 1 AD (aka 1 BC) is number ``0``, with the year before that (2 BC) being ``-1``, etc.
+Esta clase cumple con la mayor cantidad posible de estándares ISO 8601. Todas las fechas siguen el calendario gregoriano proléptico. Como tal, el día anterior a ``1582-10-15`` es ``1582-10-14``, no ``1582-10-04``. El año anterior a 1 d.C. (también conocido como 1 a.C.) es el número ``0``, y el año anterior a ese (2 a.C.) es ``-1``, etc.
 
-Conversion methods assume "the same timezone", and do not handle timezone conversions or DST automatically. Leap seconds are also not handled, they must be done manually if desired. Suffixes such as "Z" are not handled, you need to strip them away manually.
+Los métodos de conversión asumen "la misma zona horaria" y no manejan las conversiones de zona horaria o el horario de verano automáticamente. Los segundos bisiestos tampoco se manejan, deben hacerse manualmente si se desea. Los sufijos como "Z" no se manejan, debes eliminarlos manualmente.
 
-When getting time information from the system, the time can either be in the local timezone or UTC depending on the ``utc`` parameter. However, the :ref:`get_unix_time_from_system()<class_Time_method_get_unix_time_from_system>` method always uses UTC as it returns the seconds passed since the `Unix epoch <https://en.wikipedia.org/wiki/Unix_time>`__.
+Al obtener información de tiempo del sistema, el tiempo puede estar en la zona horaria local o en UTC dependiendo del parámetro ``utc``. Sin embargo, el método :ref:`get_unix_time_from_system()<class_Time_method_get_unix_time_from_system>` siempre usa UTC ya que devuelve los segundos transcurridos desde la `época de Unix <https://en.wikipedia.org/wiki/Unix_time>`__.
 
-\ **Important:** The ``_from_system`` methods use the system clock that the user can manually set. **Never use** this method for precise time calculation since its results are subject to automatic adjustments by the user or the operating system. **Always use** :ref:`get_ticks_usec()<class_Time_method_get_ticks_usec>` or :ref:`get_ticks_msec()<class_Time_method_get_ticks_msec>` for precise time calculation instead, since they are guaranteed to be monotonic (i.e. never decrease).
+\ **Importante:** Los métodos ``_from_system`` usan el reloj del sistema que el usuario puede configurar manualmente. **Nunca uses** este método para cálculos de tiempo precisos ya que sus resultados están sujetos a ajustes automáticos por parte del usuario o del sistema operativo. **Usa siempre** :ref:`get_ticks_usec()<class_Time_method_get_ticks_usec>` o :ref:`get_ticks_msec()<class_Time_method_get_ticks_msec>` para cálculos de tiempo precisos en su lugar, ya que se garantiza que sean monótonos (es decir, que nunca disminuyan).
 
 .. rst-class:: classref-reftable-group
 
@@ -268,9 +268,9 @@ Descripciones de Métodos
 
 :ref:`Dictionary<class_Dictionary>` **get_date_dict_from_system**\ (\ utc\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Time_method_get_date_dict_from_system>`
 
-Returns the current date as a dictionary of keys: ``year``, ``month``, ``day``, and ``weekday``.
+Devuelve la fecha actual como un diccionario de claves: ``year``, ``month``, ``day`` y ``weekday``.
 
-The returned values are in the system's local time when ``utc`` is ``false``, otherwise they are in UTC.
+Los valores devueltos están en la hora local del sistema cuando ``utc`` es ``false``, de lo contrario, están en UTC.
 
 .. rst-class:: classref-item-separator
 
@@ -282,7 +282,7 @@ The returned values are in the system's local time when ``utc`` is ``false``, ot
 
 :ref:`Dictionary<class_Dictionary>` **get_date_dict_from_unix_time**\ (\ unix_time_val\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Time_method_get_date_dict_from_unix_time>`
 
-Converts the given Unix timestamp to a dictionary of keys: ``year``, ``month``, ``day``, and ``weekday``.
+Convierte la marca de tiempo de Unix dada en un diccionario de claves: ``year``, ``month``, ``day`` y ``weekday``.
 
 .. rst-class:: classref-item-separator
 
@@ -294,9 +294,9 @@ Converts the given Unix timestamp to a dictionary of keys: ``year``, ``month``, 
 
 :ref:`String<class_String>` **get_date_string_from_system**\ (\ utc\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Time_method_get_date_string_from_system>`
 
-Returns the current date as an ISO 8601 date string (YYYY-MM-DD).
+Devuelve la fecha actual como una cadena de fecha ISO 8601 (AAAA-MM-DD).
 
-The returned values are in the system's local time when ``utc`` is ``false``, otherwise they are in UTC.
+Los valores devueltos están en la hora local del sistema cuando ``utc`` es ``false``, de lo contrario, están en UTC.
 
 .. rst-class:: classref-item-separator
 
@@ -308,7 +308,7 @@ The returned values are in the system's local time when ``utc`` is ``false``, ot
 
 :ref:`String<class_String>` **get_date_string_from_unix_time**\ (\ unix_time_val\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Time_method_get_date_string_from_unix_time>`
 
-Converts the given Unix timestamp to an ISO 8601 date string (YYYY-MM-DD).
+Convierte la marca de tiempo de Unix dada en una cadena de fecha ISO 8601 (AAAA-MM-DD).
 
 .. rst-class:: classref-item-separator
 
@@ -336,7 +336,7 @@ If ``weekday`` is ``false``, then the ``weekday`` entry is excluded (the calcula
 
 :ref:`Dictionary<class_Dictionary>` **get_datetime_dict_from_system**\ (\ utc\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Time_method_get_datetime_dict_from_system>`
 
-Returns the current date as a dictionary of keys: ``year``, ``month``, ``day``, ``weekday``, ``hour``, ``minute``, ``second``, and ``dst`` (Daylight Savings Time).
+Devuelve la fecha actual como un diccionario de claves: ``year``, ``month``, ``day``, ``weekday``, ``hour``, ``minute``, ``second`` y ``dst`` (horario de verano).
 
 .. rst-class:: classref-item-separator
 
@@ -348,9 +348,9 @@ Returns the current date as a dictionary of keys: ``year``, ``month``, ``day``, 
 
 :ref:`Dictionary<class_Dictionary>` **get_datetime_dict_from_unix_time**\ (\ unix_time_val\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Time_method_get_datetime_dict_from_unix_time>`
 
-Converts the given Unix timestamp to a dictionary of keys: ``year``, ``month``, ``day``, ``weekday``, ``hour``, ``minute``, and ``second``.
+Convierte la marca de tiempo de Unix dada en un diccionario de claves: ``year``, ``month``, ``day``, ``weekday``, ``hour``, ``minute`` y ``second``.
 
-The returned Dictionary's values will be the same as the :ref:`get_datetime_dict_from_system()<class_Time_method_get_datetime_dict_from_system>` if the Unix timestamp is the current time, with the exception of Daylight Savings Time as it cannot be determined from the epoch.
+Los valores del diccionario devuelto serán los mismos que los de :ref:`get_datetime_dict_from_system()<class_Time_method_get_datetime_dict_from_system>` si la marca de tiempo de Unix es la hora actual, con la excepción del horario de verano, ya que no se puede determinar a partir de la época.
 
 .. rst-class:: classref-item-separator
 
@@ -362,13 +362,13 @@ The returned Dictionary's values will be the same as the :ref:`get_datetime_dict
 
 :ref:`String<class_String>` **get_datetime_string_from_datetime_dict**\ (\ datetime\: :ref:`Dictionary<class_Dictionary>`, use_space\: :ref:`bool<class_bool>`\ ) |const| :ref:`🔗<class_Time_method_get_datetime_string_from_datetime_dict>`
 
-Converts the given dictionary of keys to an ISO 8601 date and time string (YYYY-MM-DDTHH:MM:SS).
+Convierte el diccionario de claves dado en una cadena de fecha y hora ISO 8601 (AAAA-MM-DDTHH:MM:SS).
 
-The given dictionary can be populated with the following keys: ``year``, ``month``, ``day``, ``hour``, ``minute``, and ``second``. Any other entries (including ``dst``) are ignored.
+El diccionario dado se puede rellenar con las siguientes claves: ``year``, ``month``, ``day``, ``hour``, ``minute`` y ``second``. Cualquier otra entrada (incluyendo ``dst``) se ignora.
 
-If the dictionary is empty, ``0`` is returned. If some keys are omitted, they default to the equivalent values for the Unix epoch timestamp 0 (1970-01-01 at 00:00:00).
+Si el diccionario está vacío, se devuelve ``0``. Si se omiten algunas claves, el valor predeterminado es el equivalente a la marca de tiempo de la época de Unix 0 (1970-01-01 a las 00:00:00).
 
-If ``use_space`` is ``true``, the date and time bits are separated by an empty space character instead of the letter T.
+Si ``use_space`` es ``true``, los bits de fecha y hora se separan con un carácter de espacio vacío en lugar de la letra T.
 
 .. rst-class:: classref-item-separator
 
@@ -380,11 +380,11 @@ If ``use_space`` is ``true``, the date and time bits are separated by an empty s
 
 :ref:`String<class_String>` **get_datetime_string_from_system**\ (\ utc\: :ref:`bool<class_bool>` = false, use_space\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Time_method_get_datetime_string_from_system>`
 
-Returns the current date and time as an ISO 8601 date and time string (YYYY-MM-DDTHH:MM:SS).
+Devuelve la fecha y hora actuales como una cadena de fecha y hora ISO 8601 (AAAA-MM-DDTHH:MM:SS).
 
-The returned values are in the system's local time when ``utc`` is ``false``, otherwise they are in UTC.
+Los valores devueltos están en la hora local del sistema cuando ``utc`` es ``false``; de lo contrario, están en UTC.
 
-If ``use_space`` is ``true``, the date and time bits are separated by an empty space character instead of the letter T.
+Si ``use_space`` es ``true``, los bits de fecha y hora se separan con un carácter de espacio vacío en lugar de la letra T.
 
 .. rst-class:: classref-item-separator
 
@@ -396,9 +396,9 @@ If ``use_space`` is ``true``, the date and time bits are separated by an empty s
 
 :ref:`String<class_String>` **get_datetime_string_from_unix_time**\ (\ unix_time_val\: :ref:`int<class_int>`, use_space\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Time_method_get_datetime_string_from_unix_time>`
 
-Converts the given Unix timestamp to an ISO 8601 date and time string (YYYY-MM-DDTHH:MM:SS).
+Convierte la marca de tiempo de Unix dada en una cadena de fecha y hora ISO 8601 (AAAA-MM-DDTHH:MM:SS).
 
-If ``use_space`` is ``true``, the date and time bits are separated by an empty space character instead of the letter T.
+Si ``use_space`` es ``true``, los bits de fecha y hora se separan con un carácter de espacio vacío en lugar de la letra T.
 
 .. rst-class:: classref-item-separator
 
@@ -410,7 +410,7 @@ If ``use_space`` is ``true``, the date and time bits are separated by an empty s
 
 :ref:`String<class_String>` **get_offset_string_from_offset_minutes**\ (\ offset_minutes\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Time_method_get_offset_string_from_offset_minutes>`
 
-Converts the given timezone offset in minutes to a timezone offset string. For example, -480 returns "-08:00", 345 returns "+05:45", and 0 returns "+00:00".
+Convierte el desplazamiento de la zona horaria dado en minutos en una cadena de desplazamiento de la zona horaria. Por ejemplo, -480 devuelve "-08:00", 345 devuelve "+05:45" y 0 devuelve "+00:00".
 
 .. rst-class:: classref-item-separator
 
@@ -422,9 +422,9 @@ Converts the given timezone offset in minutes to a timezone offset string. For e
 
 :ref:`int<class_int>` **get_ticks_msec**\ (\ ) |const| :ref:`🔗<class_Time_method_get_ticks_msec>`
 
-Returns the amount of time passed in milliseconds since the engine started.
+Devuelve la cantidad de tiempo transcurrido en milisegundos desde que se inició el motor.
 
-Will always be positive or 0 and uses a 64-bit value (it will wrap after roughly 500 million years).
+Siempre será positivo o 0 y utiliza un valor de 64 bits (se ajustará después de aproximadamente 500 millones de años).
 
 .. rst-class:: classref-item-separator
 
@@ -436,9 +436,9 @@ Will always be positive or 0 and uses a 64-bit value (it will wrap after roughly
 
 :ref:`int<class_int>` **get_ticks_usec**\ (\ ) |const| :ref:`🔗<class_Time_method_get_ticks_usec>`
 
-Returns the amount of time passed in microseconds since the engine started.
+Devuelve la cantidad de tiempo transcurrido en microsegundos desde que se inició el motor.
 
-Will always be positive or 0 and uses a 64-bit value (it will wrap after roughly half a million years).
+Siempre será positivo o 0 y utiliza un valor de 64 bits (se ajustará después de aproximadamente medio millón de años).
 
 .. rst-class:: classref-item-separator
 
@@ -450,9 +450,9 @@ Will always be positive or 0 and uses a 64-bit value (it will wrap after roughly
 
 :ref:`Dictionary<class_Dictionary>` **get_time_dict_from_system**\ (\ utc\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Time_method_get_time_dict_from_system>`
 
-Returns the current time as a dictionary of keys: ``hour``, ``minute``, and ``second``.
+Devuelve la hora actual como un diccionario de claves: ``hour``, ``minute`` y ``second``.
 
-The returned values are in the system's local time when ``utc`` is ``false``, otherwise they are in UTC.
+Los valores devueltos están en la hora local del sistema cuando ``utc`` es ``false``; de lo contrario, están en UTC.
 
 .. rst-class:: classref-item-separator
 
@@ -464,7 +464,7 @@ The returned values are in the system's local time when ``utc`` is ``false``, ot
 
 :ref:`Dictionary<class_Dictionary>` **get_time_dict_from_unix_time**\ (\ unix_time_val\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Time_method_get_time_dict_from_unix_time>`
 
-Converts the given time to a dictionary of keys: ``hour``, ``minute``, and ``second``.
+Convierte la hora dada en un diccionario de claves: ``hour``, ``minute`` y ``second``.
 
 .. rst-class:: classref-item-separator
 
@@ -476,9 +476,9 @@ Converts the given time to a dictionary of keys: ``hour``, ``minute``, and ``sec
 
 :ref:`String<class_String>` **get_time_string_from_system**\ (\ utc\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Time_method_get_time_string_from_system>`
 
-Returns the current time as an ISO 8601 time string (HH:MM:SS).
+Devuelve la hora actual como una cadena de hora ISO 8601 (HH:MM:SS).
 
-The returned values are in the system's local time when ``utc`` is ``false``, otherwise they are in UTC.
+Los valores devueltos están en la hora local del sistema cuando ``utc`` es ``false``; de lo contrario, están en UTC.
 
 .. rst-class:: classref-item-separator
 
@@ -490,7 +490,7 @@ The returned values are in the system's local time when ``utc`` is ``false``, ot
 
 :ref:`String<class_String>` **get_time_string_from_unix_time**\ (\ unix_time_val\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Time_method_get_time_string_from_unix_time>`
 
-Converts the given Unix timestamp to an ISO 8601 time string (HH:MM:SS).
+Convierte la marca de tiempo de Unix dada en una cadena de hora ISO 8601 (HH:MM:SS).
 
 .. rst-class:: classref-item-separator
 
@@ -502,11 +502,11 @@ Converts the given Unix timestamp to an ISO 8601 time string (HH:MM:SS).
 
 :ref:`Dictionary<class_Dictionary>` **get_time_zone_from_system**\ (\ ) |const| :ref:`🔗<class_Time_method_get_time_zone_from_system>`
 
-Returns the current time zone as a dictionary of keys: ``bias`` and ``name``.
+Devuelve la zona horaria actual como un diccionario de claves: ``bias`` y ``name``.
 
-- ``bias`` is the offset from UTC in minutes, since not all time zones are multiples of an hour from UTC.
+- ``bias`` es la diferencia con respecto a UTC en minutos, ya que no todas las zonas horarias son múltiplos de una hora con respecto a UTC.
 
-- ``name`` is the localized name of the time zone, according to the OS locale settings of the current user.
+- ``name`` es el nombre localizado de la zona horaria, de acuerdo con la configuración regional del sistema operativo del usuario actual.
 
 .. rst-class:: classref-item-separator
 
@@ -518,15 +518,15 @@ Returns the current time zone as a dictionary of keys: ``bias`` and ``name``.
 
 :ref:`int<class_int>` **get_unix_time_from_datetime_dict**\ (\ datetime\: :ref:`Dictionary<class_Dictionary>`\ ) |const| :ref:`🔗<class_Time_method_get_unix_time_from_datetime_dict>`
 
-Converts a dictionary of time values to a Unix timestamp.
+Convierte un diccionario de valores de tiempo a un timestamp de Unix.
 
-The given dictionary can be populated with the following keys: ``year``, ``month``, ``day``, ``hour``, ``minute``, and ``second``. Any other entries (including ``dst``) are ignored.
+El diccionario dado puede ser rellenado con las siguientes claves: ``year``, ``month``, ``day``, ``hour``, ``minute``, y ``second``. Cualquier otra entrada (incluyendo ``dst``) se ignora.
 
-If the dictionary is empty, ``0`` is returned. If some keys are omitted, they default to the equivalent values for the Unix epoch timestamp 0 (1970-01-01 at 00:00:00).
+Si el diccionario está vacío, se devuelve ``0``. Si algunas claves se omiten, se establece por defecto el valor equivalente para el timestamp de la época de Unix 0 (1970-01-01 a las 00:00:00).
 
-You can pass the output from :ref:`get_datetime_dict_from_unix_time()<class_Time_method_get_datetime_dict_from_unix_time>` directly into this function and get the same as what was put in.
+Puedes pasar la salida de :ref:`get_datetime_dict_from_unix_time()<class_Time_method_get_datetime_dict_from_unix_time>` directamente a esta función y obtener lo mismo que se introdujo.
 
-\ **Note:** Unix timestamps are often in UTC. This method does not do any timezone conversion, so the timestamp will be in the same timezone as the given datetime dictionary.
+\ **Nota:** Los timestamps de Unix suelen estar en UTC. Este método no realiza ninguna conversión de zona horaria, por lo que el timestamp estará en la misma zona horaria que el diccionario de fecha y hora dado.
 
 .. rst-class:: classref-item-separator
 
@@ -538,11 +538,11 @@ You can pass the output from :ref:`get_datetime_dict_from_unix_time()<class_Time
 
 :ref:`int<class_int>` **get_unix_time_from_datetime_string**\ (\ datetime\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_Time_method_get_unix_time_from_datetime_string>`
 
-Converts the given ISO 8601 date and/or time string to a Unix timestamp. The string can contain a date only, a time only, or both.
+Convierte la cadena de fecha y/u hora ISO 8601 dada a un timestamp de Unix. La cadena puede contener solo una fecha, solo una hora o ambas.
 
-\ **Note:** Unix timestamps are often in UTC. This method does not do any timezone conversion, so the timestamp will be in the same timezone as the given datetime string.
+\ **Nota:** Los timestamps de Unix suelen estar en UTC. Este método no realiza ninguna conversión de zona horaria, por lo que el timestamp estará en la misma zona horaria que la cadena de fecha y hora dada.
 
-\ **Note:** Any decimal fraction in the time string will be ignored silently.
+\ **Nota:** Cualquier fracción decimal en la cadena de tiempo se ignorará silenciosamente.
 
 .. rst-class:: classref-item-separator
 
@@ -554,9 +554,9 @@ Converts the given ISO 8601 date and/or time string to a Unix timestamp. The str
 
 :ref:`float<class_float>` **get_unix_time_from_system**\ (\ ) |const| :ref:`🔗<class_Time_method_get_unix_time_from_system>`
 
-Returns the current Unix timestamp in seconds based on the system time in UTC. This method is implemented by the operating system and always returns the time in UTC. The Unix timestamp is the number of seconds passed since 1970-01-01 at 00:00:00, the `Unix epoch <https://en.wikipedia.org/wiki/Unix_time>`__.
+Devuelve el timestamp de Unix actual en segundos basado en la hora del sistema en UTC. Este método es implementado por el sistema operativo y siempre devuelve la hora en UTC. El timestamp de Unix es el número de segundos transcurridos desde 1970-01-01 a las 00:00:00, la `época de Unix <https://en.wikipedia.org/wiki/Unix_time>`__.
 
-\ **Note:** Unlike other methods that use integer timestamps, this method returns the timestamp as a :ref:`float<class_float>` for sub-second precision.
+\ **Nota:** A diferencia de otros métodos que utilizan timestamps enteros, este método devuelve el timestamp como un :ref:`float<class_float>` para una precisión de sub-segundos.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

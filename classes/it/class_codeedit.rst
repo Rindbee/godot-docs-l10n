@@ -822,7 +822,7 @@ Se ``true``, si possono ridurre le righe. Altrimenti, i metodi di riduzione dell
 - |void| **set_line_length_guidelines**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`int<class_int>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`int<class_int>`\] **get_line_length_guidelines**\ (\ )
 
-Draws vertical lines at the provided columns. The first entry is considered a main hard guideline and is drawn more prominently.
+Disegna linee verticali nelle colonne fornite. La prima voce è considerata una linea guida rigida principale ed è disegnata in modo più evidente.
 
 .. rst-class:: classref-item-separator
 
@@ -873,7 +873,7 @@ Descrizioni dei metodi
 
 |void| **_confirm_code_completion**\ (\ replace\: :ref:`bool<class_bool>`\ ) |virtual| :ref:`🔗<class_CodeEdit_private_method__confirm_code_completion>`
 
-Sostituisci questo metodo per definire come deve essere inserita la voce selezionata. Se ``replace`` è ``true``, qualsiasi testo esistente dovrebbe essere sostituito.
+Sovrascrivi questo metodo per definire come deve essere inserita la voce selezionata. Se ``replace`` è ``true``, qualsiasi testo esistente dovrebbe essere sostituito.
 
 .. rst-class:: classref-item-separator
 
@@ -885,9 +885,9 @@ Sostituisci questo metodo per definire come deve essere inserita la voce selezio
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **_filter_code_completion_candidates**\ (\ candidates\: :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\]\ ) |virtual| |const| :ref:`🔗<class_CodeEdit_private_method__filter_code_completion_candidates>`
 
-Override this method to define what items in ``candidates`` should be displayed.
+Sovrascrivi questo metodo per definire quali elementi in ``candidates`` si devono visualizzare.
 
-Both ``candidates`` and the return is an :ref:`Array<class_Array>` of :ref:`Dictionary<class_Dictionary>`, see :ref:`get_code_completion_option()<class_CodeEdit_method_get_code_completion_option>` for :ref:`Dictionary<class_Dictionary>` content.
+Sia ``candidates`` sia il valore restituito sono un :ref:`Array<class_Array>` di :ref:`Dictionary<class_Dictionary>`, vedi :ref:`get_code_completion_option()<class_CodeEdit_method_get_code_completion_option>` per il contenuto dei :ref:`Dictionary<class_Dictionary>`.
 
 .. rst-class:: classref-item-separator
 
@@ -899,7 +899,7 @@ Both ``candidates`` and the return is an :ref:`Array<class_Array>` of :ref:`Dict
 
 |void| **_request_code_completion**\ (\ force\: :ref:`bool<class_bool>`\ ) |virtual| :ref:`🔗<class_CodeEdit_private_method__request_code_completion>`
 
-Sostituisci questo metodo per definire cosa succede quando l'utente richiede il completamento del codice. Se ``force`` è ``true``, tutti i controlli dovrebbero essere ignorati.
+Sovrascrivi questo metodo per definire cosa succede quando l'utente richiede il completamento del codice. Se ``force`` è ``true``, tutti i controlli dovrebbero essere ignorati.
 
 .. rst-class:: classref-item-separator
 

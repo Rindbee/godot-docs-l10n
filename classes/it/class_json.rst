@@ -16,9 +16,9 @@ Descrizione
 
 La classe **JSON** consente di convertire tutti i tipi di dati da e a una stringa JSON. Ciò è utile per la serializzazione dei dati, ad esempio per salvarli in un file o inviarli in rete.
 
-\ :ref:`stringify()<class_JSON_method_stringify>` è utilizzato per convertire qualsiasi tipo di dati in una stringa JSON.
+\ :ref:`stringify()<class_JSON_method_stringify>` serve per convertire qualsiasi tipo di dati in una stringa JSON.
 
-\ :ref:`parse()<class_JSON_method_parse>` è utilizzato per convertire qualsiasi JSON esistente in una :ref:`Variant<class_Variant>` che può essere utilizzata all'interno di Godot. Se elaborato correttamente, usa :ref:`data<class_JSON_property_data>` per recuperare il :ref:`Variant<class_Variant>` e usa :ref:`@GlobalScope.typeof()<class_@GlobalScope_method_typeof>` per verificare se il tipo della variante è quello previsto. Gli oggetti JSON sono convertiti in un :ref:`Dictionary<class_Dictionary>`, ma i dati JSON possono essere utilizzati per archiviare :ref:`Array<class_Array>`, numeri, :ref:`String<class_String>` e persino solo un valore booleano.
+\ :ref:`parse()<class_JSON_method_parse>` serve per convertire qualsiasi JSON esistente in una :ref:`Variant<class_Variant>` che può essere utilizzata all'interno di Godot. Se elaborato correttamente, usa :ref:`data<class_JSON_property_data>` per recuperare il :ref:`Variant<class_Variant>` e usa :ref:`@GlobalScope.typeof()<class_@GlobalScope_method_typeof>` per verificare se il tipo della variante è quello previsto. Gli oggetti JSON sono convertiti in un :ref:`Dictionary<class_Dictionary>`, ma i dati JSON possono essere utilizzati per archiviare :ref:`Array<class_Array>`, numeri, :ref:`String<class_String>` e persino solo un valore booleano.
 
 ::
 

@@ -16,7 +16,7 @@ Classe base per estendere gli :ref:`AnimationRootNode<class_AnimationRootNode>` 
 Descrizione
 ----------------------
 
-**AnimationNodeExtension** espone le API di :ref:`AnimationRootNode<class_AnimationRootNode>` per consentire agli utenti di estenderlo da GDScript, C# o C++. Questa classe non è pensata per essere usata direttamente, ma per essere estesa da altre classi. È utilizzata per creare nodi personalizzati per il sistema di :ref:`AnimationTree<class_AnimationTree>`.
+**AnimationNodeExtension** espone le API di :ref:`AnimationRootNode<class_AnimationRootNode>` per consentire agli utenti di estenderlo da GDScript, C# o C++. Questa classe non è pensata per essere usata direttamente, ma per essere estesa da altre classi. Serve per creare nodi personalizzati per il sistema di :ref:`AnimationTree<class_AnimationTree>`.
 
 .. rst-class:: classref-reftable-group
 

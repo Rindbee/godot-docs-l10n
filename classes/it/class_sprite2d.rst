@@ -224,9 +224,9 @@ Il numero di colonne nello spritesheet. Quando questa proprietà è modificata, 
 - |void| **set_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_offset**\ (\ )
 
-The texture's drawing offset.
+L'offset di disegno della texture.
 
-\ **Note:** When you increase :ref:`offset<class_Sprite2D_property_offset>`.y in Sprite2D, the sprite moves downward on screen (i.e., +Y is down).
+\ **Nota:** Quando si aumenta :ref:`offset<class_Sprite2D_property_offset>`.y in Sprite2D, lo sprite si sposta verso il basso sullo schermo (ovvero +Y punta verso il basso).
 
 .. rst-class:: classref-item-separator
 
@@ -243,9 +243,9 @@ The texture's drawing offset.
 - |void| **set_region_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_region_enabled**\ (\ )
 
-If ``true``, texture is cut from a larger atlas texture. See :ref:`region_rect<class_Sprite2D_property_region_rect>`.
+Se ``true``, la texture è ritagliata da una texture più grande di atlante. Vedi :ref:`region_rect<class_Sprite2D_property_region_rect>`.
 
-\ **Note:** When using a custom :ref:`Shader<class_Shader>` on a **Sprite2D**, the ``UV`` shader built-in will refer to the entire texture space. Use the ``REGION_RECT`` built-in to get the currently visible region defined in :ref:`region_rect<class_Sprite2D_property_region_rect>` instead. See :doc:`CanvasItem shaders <../tutorials/shaders/shader_reference/canvas_item_shader>` for details.
+\ **Nota:** Quando si utilizza uno :ref:`Shader<class_Shader>` personalizzato su uno **Sprite2D**, la costante integrata ``UV`` farà riferimento all'intero spazio texture. Utilizza invece la costante integrata ``REGION_RECT`` per ottenere la regione attualmente visibile definita in :ref:`region_rect<class_Sprite2D_property_region_rect>`. Consulta :doc:`Shader di CanvasItem <../tutorials/shaders/shader_reference/canvas_item_shader>` per i dettagli.
 
 .. rst-class:: classref-item-separator
 

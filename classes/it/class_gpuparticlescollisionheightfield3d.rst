@@ -7,18 +7,18 @@ GPUParticlesCollisionHeightField3D
 
 **Eredita:** :ref:`GPUParticlesCollision3D<class_GPUParticlesCollision3D>` **<** :ref:`VisualInstance3D<class_VisualInstance3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Una forma di collisione di particelle 3D a forma di mappa di altezza in tempo reale che influenza i nodi :ref:`GPUParticles3D<class_GPUParticles3D>`.
+Una forma di collisione di particelle 3D a forma di heightmap in tempo reale che influenza i nodi :ref:`GPUParticles3D<class_GPUParticles3D>`.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-Una forma di collisione di particelle 3D a forma di mappa d'altezza in tempo reale che influenza i nodi :ref:`GPUParticles3D<class_GPUParticles3D>`.
+Una forma di collisione di particelle 3D a forma di heightmap in tempo reale che influenza i nodi :ref:`GPUParticles3D<class_GPUParticles3D>`.
 
 Le forme heightmap consentono di rappresentare in modo efficiente le collisioni per oggetti convessi e concavi con un singolo "piano" (come il terreno). Questo è meno flessibile di :ref:`GPUParticlesCollisionSDF3D<class_GPUParticlesCollisionSDF3D>`, ma non richiede una fase di precalcolo.
 
-\ **GPUParticlesCollisionHeightField3D** può anche essere rigenerato in tempo reale quando viene spostato, quando la telecamera si muove o persino in modo continuo. Ciò rende **GPUParticlesCollisionHeightField3D** una buona scelta per effetti meteorologici come pioggia e neve e giochi con geometria altamente dinamica. Tuttavia, questa classe è limitata poiché le mappa di altezza non possono rappresentare sporgenze (ad esempio al chiuso o nelle grotte).
+\ **GPUParticlesCollisionHeightField3D** può anche essere rigenerato in tempo reale quando viene spostato, quando la telecamera si muove o persino in modo continuo. Ciò rende **GPUParticlesCollisionHeightField3D** una buona scelta per effetti meteorologici come pioggia e neve e giochi con geometria altamente dinamica. Tuttavia, questa classe è limitata poiché le heightmap non possono rappresentare sporgenze (ad esempio al chiuso o nelle grotte).
 
 \ **Nota:** :ref:`ParticleProcessMaterial.collision_mode<class_ParticleProcessMaterial_property_collision_mode>` deve essere ``true`` sul materiale di processo di :ref:`GPUParticles3D<class_GPUParticles3D>` affinché la collisione funzioni.
 
@@ -79,7 +79,7 @@ enum **Resolution**: :ref:`🔗<enum_GPUParticlesCollisionHeightField3D_Resoluti
 
 :ref:`Resolution<enum_GPUParticlesCollisionHeightField3D_Resolution>` **RESOLUTION_256** = ``0``
 
-Genera una mappa di altezza 256×256. Pensata per scene su piccola scala o scene più grandi senza particelle distanti.
+Genera una heightmap di 256×256. Pensata per scene su piccola scala o scene più grandi senza particelle distanti.
 
 .. _class_GPUParticlesCollisionHeightField3D_constant_RESOLUTION_512:
 
@@ -87,7 +87,7 @@ Genera una mappa di altezza 256×256. Pensata per scene su piccola scala o scene
 
 :ref:`Resolution<enum_GPUParticlesCollisionHeightField3D_Resolution>` **RESOLUTION_512** = ``1``
 
-Genera una mappa di altezza 512×512. Pensata per scene di media scala o scene più grandi senza particelle distanti.
+Genera una heightmap di 512×512. Pensata per scene di media scala o scene più grandi senza particelle distanti.
 
 .. _class_GPUParticlesCollisionHeightField3D_constant_RESOLUTION_1024:
 
@@ -95,7 +95,7 @@ Genera una mappa di altezza 512×512. Pensata per scene di media scala o scene p
 
 :ref:`Resolution<enum_GPUParticlesCollisionHeightField3D_Resolution>` **RESOLUTION_1024** = ``2``
 
-Genera una mappa di altezza 1024×1024. Pensata per scene di grandi dimensioni con particelle distanti.
+Genera una heightmap di 1024×1024. Pensata per scene di grandi dimensioni con particelle distanti.
 
 .. _class_GPUParticlesCollisionHeightField3D_constant_RESOLUTION_2048:
 
@@ -103,7 +103,7 @@ Genera una mappa di altezza 1024×1024. Pensata per scene di grandi dimensioni c
 
 :ref:`Resolution<enum_GPUParticlesCollisionHeightField3D_Resolution>` **RESOLUTION_2048** = ``3``
 
-Genera una mappa di altezza 2048×2048. Pensata per scene molto grandi con particelle distanti.
+Genera una heightmap di 2048×2048. Pensata per scene molto grandi con particelle distanti.
 
 .. _class_GPUParticlesCollisionHeightField3D_constant_RESOLUTION_4096:
 
@@ -111,7 +111,7 @@ Genera una mappa di altezza 2048×2048. Pensata per scene molto grandi con parti
 
 :ref:`Resolution<enum_GPUParticlesCollisionHeightField3D_Resolution>` **RESOLUTION_4096** = ``4``
 
-Genera una mappa di altezza 4096×4096. Pensata per scene enormi con particelle distanti.
+Genera una heightmap di 4096×4096. Pensata per scene enormi con particelle distanti.
 
 .. _class_GPUParticlesCollisionHeightField3D_constant_RESOLUTION_8192:
 
@@ -119,7 +119,7 @@ Genera una mappa di altezza 4096×4096. Pensata per scene enormi con particelle 
 
 :ref:`Resolution<enum_GPUParticlesCollisionHeightField3D_Resolution>` **RESOLUTION_8192** = ``5``
 
-Genera una mappa di altezza 8192×8192. Pensata per scene gigantesche con particelle distanti.
+Genera una heightmap di 8192×8192. Pensata per scene gigantesche con particelle distanti.
 
 .. _class_GPUParticlesCollisionHeightField3D_constant_RESOLUTION_MAX:
 
@@ -145,7 +145,7 @@ enum **UpdateMode**: :ref:`🔗<enum_GPUParticlesCollisionHeightField3D_UpdateMo
 
 :ref:`UpdateMode<enum_GPUParticlesCollisionHeightField3D_UpdateMode>` **UPDATE_MODE_WHEN_MOVED** = ``0``
 
-Aggiorna la mappa di altezza solo quando il nodo **GPUParticlesCollisionHeightField3D** viene spostato o quando la telecamera si sposta se :ref:`follow_camera_enabled<class_GPUParticlesCollisionHeightField3D_property_follow_camera_enabled>` è ``true``. Un aggiornamento può essere forzato spostando leggermente **GPUParticlesCollisionHeightField3D** in qualsiasi direzione o chiamando :ref:`RenderingServer.particles_collision_height_field_update()<class_RenderingServer_method_particles_collision_height_field_update>`.
+Aggiorna la heightmap solo quando il nodo **GPUParticlesCollisionHeightField3D** viene spostato, o quando la telecamera si sposta se :ref:`follow_camera_enabled<class_GPUParticlesCollisionHeightField3D_property_follow_camera_enabled>` è ``true``. È possibile forzare un aggiornamento spostando leggermente il **GPUParticlesCollisionHeightField3D** in qualsiasi direzione o chiamando :ref:`RenderingServer.particles_collision_height_field_update()<class_RenderingServer_method_particles_collision_height_field_update>`.
 
 .. _class_GPUParticlesCollisionHeightField3D_constant_UPDATE_MODE_ALWAYS:
 
@@ -153,7 +153,7 @@ Aggiorna la mappa di altezza solo quando il nodo **GPUParticlesCollisionHeightFi
 
 :ref:`UpdateMode<enum_GPUParticlesCollisionHeightField3D_UpdateMode>` **UPDATE_MODE_ALWAYS** = ``1``
 
-Aggiorna la mappa di altezza a ogni frame. Ciò ha un costo notevole in termini di prestazioni. Questo aggiornamento dovrebbe essere utilizzato solo quando la geometria con cui le particelle possono collidere cambia in modo significativo durante il gioco.
+Aggiorna la heightmap a ogni frame. Ciò ha un impatto notevole sulle prestazioni. Questo aggiornamento si dovrebbe utilizzare solo quando la geometria con cui le particelle possono collidere cambia significativamente durante il gioco.
 
 .. rst-class:: classref-section-separator
 
@@ -177,7 +177,7 @@ Descrizioni delle proprietà
 
 Se ``true``, **GPUParticlesCollisionHeightField3D** seguirà la telecamera attuale nello spazio globale. **GPUParticlesCollisionHeightField3D** non deve essere un nodo figlio del nodo :ref:`Camera3D<class_Camera3D>` affinché questo funzioni.
 
-Seguire la telecamera ha un costo in termini di prestazioni, poiché costringerà la mappa di altezza ad aggiornarsi ogni volta che la telecamera si muove. Considera di abbassare :ref:`resolution<class_GPUParticlesCollisionHeightField3D_property_resolution>` per migliorare le prestazioni se :ref:`follow_camera_enabled<class_GPUParticlesCollisionHeightField3D_property_follow_camera_enabled>` è ``true``.
+Seguire la telecamera ha un costo in termini di prestazioni, poiché costringerà la heightmap ad aggiornarsi ogni volta che la telecamera si muove. Considera di abbassare :ref:`resolution<class_GPUParticlesCollisionHeightField3D_property_resolution>` per migliorare le prestazioni se :ref:`follow_camera_enabled<class_GPUParticlesCollisionHeightField3D_property_follow_camera_enabled>` è ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -232,7 +232,7 @@ Le risoluzioni più elevate possono rappresentare piccoli dettagli in modo più 
 - |void| **set_size**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_size**\ (\ )
 
-La dimensione della mappa di altezza della collisione in unità 3D. Per migliorare la qualità della mappa di altezza, :ref:`size<class_GPUParticlesCollisionHeightField3D_property_size>` dovrebbe essere impostato il più piccolo possibile, coprendo le parti della scena di cui hai bisogno.
+La dimensione della heightmap di collisione in unità 3D. Per migliorare la qualità della heightmap, :ref:`size<class_GPUParticlesCollisionHeightField3D_property_size>` dovrebbe essere impostato il più piccolo possibile, coprendo le parti della scena di cui hai bisogno.
 
 .. rst-class:: classref-item-separator
 
@@ -249,7 +249,7 @@ La dimensione della mappa di altezza della collisione in unità 3D. Per migliora
 - |void| **set_update_mode**\ (\ value\: :ref:`UpdateMode<enum_GPUParticlesCollisionHeightField3D_UpdateMode>`\ )
 - :ref:`UpdateMode<enum_GPUParticlesCollisionHeightField3D_UpdateMode>` **get_update_mode**\ (\ )
 
-Il criterio di aggiornamento da usare per la mappa di altezza generata.
+Il criterio di aggiornamento da usare per la heightmap generata.
 
 .. rst-class:: classref-section-separator
 

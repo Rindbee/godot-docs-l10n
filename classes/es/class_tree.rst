@@ -1289,7 +1289,7 @@ Establece el título de una columna.
 
 |void| **set_column_title_alignment**\ (\ column\: :ref:`int<class_int>`, title_alignment\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ ) :ref:`🔗<class_Tree_method_set_column_title_alignment>`
 
-Establece la alineación del título de la columna. Tenga en cuenta que :ref:`@GlobalScope.HORIZONTAL_ALIGNMENT_FILL<class_@GlobalScope_constant_HORIZONTAL_ALIGNMENT_FILL>` no es compatible con los títulos de las columnas.
+Establece la alineación del título de la columna. Ten en cuenta que :ref:`@GlobalScope.HORIZONTAL_ALIGNMENT_FILL<class_@GlobalScope_constant_HORIZONTAL_ALIGNMENT_FILL>` no es compatible con los títulos de las columnas.
 
 .. rst-class:: classref-item-separator
 

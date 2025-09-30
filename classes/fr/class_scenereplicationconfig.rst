@@ -66,7 +66,7 @@ enum **ReplicationMode**: :ref:`🔗<enum_SceneReplicationConfig_ReplicationMode
 
 :ref:`ReplicationMode<enum_SceneReplicationConfig_ReplicationMode>` **REPLICATION_MODE_NEVER** = ``0``
 
-Do not keep the given property synchronized.
+Ne pas garder la propriété donnée synchronisée.
 
 .. _class_SceneReplicationConfig_constant_REPLICATION_MODE_ALWAYS:
 
@@ -74,7 +74,7 @@ Do not keep the given property synchronized.
 
 :ref:`ReplicationMode<enum_SceneReplicationConfig_ReplicationMode>` **REPLICATION_MODE_ALWAYS** = ``1``
 
-Replicate the given property on process by constantly sending updates using unreliable transfer mode.
+Répliquer la propriété donnée durant le traitement en envoyant constamment des mises à jour en utilisant un mode de transfert non fiable.
 
 .. _class_SceneReplicationConfig_constant_REPLICATION_MODE_ON_CHANGE:
 
@@ -82,7 +82,7 @@ Replicate the given property on process by constantly sending updates using unre
 
 :ref:`ReplicationMode<enum_SceneReplicationConfig_ReplicationMode>` **REPLICATION_MODE_ON_CHANGE** = ``2``
 
-Replicate the given property on process by sending updates using reliable transfer mode when its value changes.
+Répliquer la propriété donnée durant le traitement en envoyant des mises à jour en utilisant un mode de transfert fiable lorsque sa valeur change.
 
 .. rst-class:: classref-section-separator
 
@@ -189,7 +189,7 @@ Renvoie ``true`` si la propriété identifiée par le chemin ``path`` donné est
 
 **Obsolète :** Use :ref:`property_get_replication_mode()<class_SceneReplicationConfig_method_property_get_replication_mode>` instead.
 
-Returns ``true`` if the property identified by the given ``path`` is configured to be reliably synchronized when changes are detected on process.
+Renvoie ``true`` si la propriété identifiée par le chemin ``path`` donné est configurée pour être synchronisée de manière fiable lorsque des changements sont détectés lors du traitement.
 
 .. rst-class:: classref-item-separator
 
@@ -201,7 +201,7 @@ Returns ``true`` if the property identified by the given ``path`` is configured 
 
 |void| **property_set_replication_mode**\ (\ path\: :ref:`NodePath<class_NodePath>`, mode\: :ref:`ReplicationMode<enum_SceneReplicationConfig_ReplicationMode>`\ ) :ref:`🔗<class_SceneReplicationConfig_method_property_set_replication_mode>`
 
-Sets the synchronization mode for the property identified by the given ``path``.
+Définit le mode de synchronisation de la propriété identifiée par le chemin ``path`` donné.
 
 .. rst-class:: classref-item-separator
 
@@ -213,7 +213,7 @@ Sets the synchronization mode for the property identified by the given ``path``.
 
 |void| **property_set_spawn**\ (\ path\: :ref:`NodePath<class_NodePath>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_SceneReplicationConfig_method_property_set_spawn>`
 
-Sets whether the property identified by the given ``path`` is configured to be synchronized on spawn.
+Définit si la propriété identifiée par le chemin ``path`` donné est configurée pour être synchronisée lors de l'apparition.
 
 .. rst-class:: classref-item-separator
 

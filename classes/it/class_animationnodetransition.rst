@@ -242,7 +242,7 @@ Abilita o disabilita l'avanzamento automatico per l'ingresso all'indice ``input`
 
 |void| **set_input_break_loop_at_end**\ (\ input\: :ref:`int<class_int>`, enable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_AnimationNodeTransition_method_set_input_break_loop_at_end>`
 
-If ``true``, breaks the loop at the end of the loop cycle for transition, even if the animation is looping.
+Se ``true``, interrompe la ripetizione alla fine del ciclo per la transizione, anche se l'animazione è in ripetizione.
 
 .. rst-class:: classref-item-separator
 

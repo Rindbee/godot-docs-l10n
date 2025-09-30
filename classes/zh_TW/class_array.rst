@@ -12,7 +12,7 @@ Array
 說明
 ----
 
-通用陣列，可容納任意 :ref:`Variant<class_Variant>` 型別的元素。元素以從 ``0`` 開始的數值索引存取。負索引用於從尾端反向計數（\ ``-1`` 為最後一個元素、\ ``-2`` 為倒數第二個，如此類推）。
+An array data structure that can contain a sequence of elements of any :ref:`Variant<class_Variant>` type by default. Values can optionally be constrained to a specific type by creating a *typed array*. Elements are accessed by a numerical index starting at ``0``. Negative indices are used to count from the back (``-1`` is the last element, ``-2`` is the second to last, etc.).
 
 
 .. tabs::
@@ -20,32 +20,40 @@ Array
  .. code-tab:: gdscript
 
     var array = ["First", 2, 3, "Last"]
-    print(array[0])  # 輸出 "First"
-    print(array[2])  # 輸出 3
-    print(array[-1]) # 輸出 "Last"
+    print(array[0])  # Prints "First"
+    print(array[2])  # Prints 3
+    print(array[-1]) # Prints "Last"
 
     array[1] = "Second"
-    print(array[1])  # 輸出 "Second"
-    print(array[-3]) # 輸出 "Second"
+    print(array[1])  # Prints "Second"
+    print(array[-3]) # Prints "Second"
+
+    # This typed array can only contain integers.
+    # Attempting to add any other type will result in an error.
+    var typed_array: Array[int] = [1, 2, 3]
 
  .. code-tab:: csharp
 
     Godot.Collections.Array array = ["First", 2, 3, "Last"];
-    GD.Print(array[0]); // 輸出 "First"
-    GD.Print(array[2]); // 輸出 3
-    GD.Print(array[^1]); // 輸出 "Last"
+    GD.Print(array[0]); // Prints "First"
+    GD.Print(array[2]); // Prints 3
+    GD.Print(array[^1]); // Prints "Last"
 
     array[1] = "Second";
-    GD.Print(array[1]); // 輸出 "Second"
-    GD.Print(array[^3]); // 輸出 "Second"
+    GD.Print(array[1]); // Prints "Second"
+    GD.Print(array[^3]); // Prints "Second"
+
+    // This typed array can only contain integers.
+    // Attempting to add any other type will result in an error.
+    Godot.Collections.Array<int> typedArray = [1, 2, 3];
 
 
 
-\ **注意：** 陣列一律以 **參照** 傳遞。若需可獨立於原始陣列修改的副本，請使用 :ref:`duplicate()<class_Array_method_duplicate>`\ 。
+\ **Note:** Arrays are always passed by **reference**. To get a copy of an array that can be modified independently of the original array, use :ref:`duplicate()<class_Array_method_duplicate>`.
 
-\ **注意：** 於迭代陣列時刪除元素\ **不被支援**\ ，將導致不可預期的行為。
+\ **Note:** Erasing elements while iterating over arrays is **not** supported and will result in unpredictable behavior.
 
-\ **Packed 陣列、型別化陣列與未型別化陣列差異：** 相較同型別的型別化陣列（如 ``Array[int]``\ ），Packed 陣列（如 :ref:`PackedInt64Array<class_PackedInt64Array>`\ ）在迭代與修改時通常更快且佔用更少記憶體，缺點是缺乏如 :ref:`map()<class_Array_method_map>` 等便利方法。型別化陣列則比未型別化陣列更快。
+\ **Differences between packed arrays, typed arrays, and untyped arrays:** Packed arrays are generally faster to iterate on and modify compared to a typed array of the same type (e.g. :ref:`PackedInt64Array<class_PackedInt64Array>` versus ``Array[int]``). Also, packed arrays consume less memory. As a downside, packed arrays are less flexible as they don't offer as many convenience methods such as :ref:`map()<class_Array_method_map>`. Typed arrays are in turn faster to iterate on and modify than untyped arrays.
 
 .. note::
 

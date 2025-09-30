@@ -582,7 +582,7 @@ Chiamato dal motore quando l'utente abilita l'**EditorPlugin** nella scheda Este
 
 |void| **_forward_3d_draw_over_viewport**\ (\ viewport_control\: :ref:`Control<class_Control>`\ ) |virtual| :ref:`🔗<class_EditorPlugin_private_method__forward_3d_draw_over_viewport>`
 
-Called by the engine when the 3D editor's viewport is updated. ``viewport_control`` is an overlay on top of the viewport and it can be used for drawing. You can update the viewport manually by calling :ref:`update_overlays()<class_EditorPlugin_method_update_overlays>`.
+Chiamato dal motore quando la viewport dell'editor 3D viene aggiornata. ``viewport_control`` è un overlay sopra la viewport è si può utilizzare per disegnare. È possibile aggiornare manualmente la viewport chiamando :ref:`update_overlays()<class_EditorPlugin_method_update_overlays>`.
 
 
 .. tabs::
@@ -590,12 +590,12 @@ Called by the engine when the 3D editor's viewport is updated. ``viewport_contro
  .. code-tab:: gdscript
 
     func _forward_3d_draw_over_viewport(overlay):
-        # Draw a circle at the cursor's position.
+        # Disegna un cerchio nella posizione del cursore.
         overlay.draw_circle(overlay.get_local_mouse_position(), 64, Color.WHITE)
 
     func _forward_3d_gui_input(camera, event):
         if event is InputEventMouseMotion:
-            # Redraw the viewport when the cursor is moved.
+            # Ridisegna la viewport quando il cursore viene spostato.
             update_overlays()
             return EditorPlugin.AFTER_GUI_INPUT_STOP
         return EditorPlugin.AFTER_GUI_INPUT_PASS
@@ -604,7 +604,7 @@ Called by the engine when the 3D editor's viewport is updated. ``viewport_contro
 
     public override void _Forward3DDrawOverViewport(Control viewportControl)
     {
-        // Draw a circle at the cursor's position.
+        // Disegna un cerchio nella posizione del cursore.
         viewportControl.DrawCircle(viewportControl.GetLocalMousePosition(), 64, Colors.White);
     }
 
@@ -612,7 +612,7 @@ Called by the engine when the 3D editor's viewport is updated. ``viewport_contro
     {
         if (@event is InputEventMouseMotion)
         {
-            // Redraw the viewport when the cursor is moved.
+            // Ridisegna la viewport quando il cursore viene spostato.
             UpdateOverlays();
             return EditorPlugin.AfterGuiInput.Stop;
         }
@@ -697,7 +697,7 @@ Questo metodo deve restituire :ref:`AFTER_GUI_INPUT_PASS<class_EditorPlugin_cons
 
 |void| **_forward_canvas_draw_over_viewport**\ (\ viewport_control\: :ref:`Control<class_Control>`\ ) |virtual| :ref:`🔗<class_EditorPlugin_private_method__forward_canvas_draw_over_viewport>`
 
-Called by the engine when the 2D editor's viewport is updated. ``viewport_control`` is an overlay on top of the viewport and it can be used for drawing. You can update the viewport manually by calling :ref:`update_overlays()<class_EditorPlugin_method_update_overlays>`.
+Chiamato dal motore quando viene aggiornata la viewport dell'editor 2D. ``viewport_control`` è un overlay sopra la viewport è si può utilizzare per disegnare. È possibile aggiornare manualmente la viewport chiamando :ref:`update_overlays()<class_EditorPlugin_method_update_overlays>`.
 
 
 .. tabs::
@@ -705,12 +705,12 @@ Called by the engine when the 2D editor's viewport is updated. ``viewport_contro
  .. code-tab:: gdscript
 
     func _forward_canvas_draw_over_viewport(overlay):
-        # Draw a circle at the cursor's position.
+        # Disegna un cerchio nella posizione del cursore.
         overlay.draw_circle(overlay.get_local_mouse_position(), 64, Color.WHITE)
 
     func _forward_canvas_gui_input(event):
         if event is InputEventMouseMotion:
-            # Redraw the viewport when the cursor is moved.
+            # Ridisegna la viewport quando il cursore viene spostato.
             update_overlays()
             return true
         return false
@@ -719,7 +719,7 @@ Called by the engine when the 2D editor's viewport is updated. ``viewport_contro
 
     public override void _ForwardCanvasDrawOverViewport(Control viewportControl)
     {
-        // Draw a circle at the cursor's position.
+        // Disegna un cerchio nella posizione del cursore.
         viewportControl.DrawCircle(viewportControl.GetLocalMousePosition(), 64, Colors.White);
     }
 
@@ -727,7 +727,7 @@ Called by the engine when the 2D editor's viewport is updated. ``viewport_contro
     {
         if (@event is InputEventMouseMotion)
         {
-            // Redraw the viewport when the cursor is moved.
+            // Ridisegna la viewport quando il cursore viene spostato.
             UpdateOverlays();
             return true;
         }
@@ -945,7 +945,7 @@ Se l'estensione non ha modifiche specifiche per la scena, è possibile ignorare 
 
 |void| **_get_window_layout**\ (\ configuration\: :ref:`ConfigFile<class_ConfigFile>`\ ) |virtual| :ref:`🔗<class_EditorPlugin_private_method__get_window_layout>`
 
-Sostituisci questo metodo per fornire il layout nell'interfaccia utente dell'estensione o qualsiasi altro dato che si desidera memorizzare. Questo è utilizzato per salvare il layout dell'editor del progetto quando viene chiamato :ref:`queue_save_layout()<class_EditorPlugin_method_queue_save_layout>` o il layout dell'editor è stato modificato (ad esempio cambiando la posizione di un pannello). I dati sono memorizzati nel file ``editor_layout.cfg`` nella cartella dei metadati dell'editor.
+Sovrascrivi questo metodo per fornire il layout nell'interfaccia utente dell'estensione o qualsiasi altro dato che si desidera memorizzare. Questo è utilizzato per salvare il layout dell'editor del progetto quando viene chiamato :ref:`queue_save_layout()<class_EditorPlugin_method_queue_save_layout>` o il layout dell'editor è stato modificato (ad esempio cambiando la posizione di un pannello). I dati sono memorizzati nel file ``editor_layout.cfg`` nella cartella dei metadati dell'editor.
 
 Utilizza :ref:`_set_window_layout()<class_EditorPlugin_private_method__set_window_layout>` per ripristinare il layout salvato.
 
@@ -979,11 +979,11 @@ Implementa questa funzione se la tua estensione modifica un tipo specifico di og
 
 :ref:`bool<class_bool>` **_has_main_screen**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorPlugin_private_method__has_main_screen>`
 
-Returns ``true`` if this is a main screen editor plugin (it goes in the workspace selector together with **2D**, **3D**, **Script**, **Game**, and **AssetLib**).
+Restituisce ``true`` se questo è un'estensione dell'editor per la schermata principale (va nel selettore dell'area di lavoro insieme a **2D**, **3D**, **Script**, **Game** e **AssetLib**).
 
-When the plugin's workspace is selected, other main screen plugins will be hidden, but your plugin will not appear automatically. It needs to be added as a child of :ref:`EditorInterface.get_editor_main_screen()<class_EditorInterface_method_get_editor_main_screen>` and made visible inside :ref:`_make_visible()<class_EditorPlugin_private_method__make_visible>`.
+Quando l'area di lavoro dell'estensione è selezionata, le altre estensioni nella schermata principale saranno nascosti, ma l'estensione non apparirà automaticamente. Deve essere aggiunta come figlio di :ref:`EditorInterface.get_editor_main_screen()<class_EditorInterface_method_get_editor_main_screen>` e resa visibile all'interno di :ref:`_make_visible()<class_EditorPlugin_private_method__make_visible>`.
 
-Use :ref:`_get_plugin_name()<class_EditorPlugin_private_method__get_plugin_name>` and :ref:`_get_plugin_icon()<class_EditorPlugin_private_method__get_plugin_icon>` to customize the plugin button's appearance.
+Usa :ref:`_get_plugin_name()<class_EditorPlugin_private_method__get_plugin_name>` e :ref:`_get_plugin_icon()<class_EditorPlugin_private_method__get_plugin_icon>` per personalizzare l'aspetto del pulsante dell'estensione.
 
 ::
 
@@ -1200,7 +1200,7 @@ Registra un nuovo :ref:`EditorExportPlatform<class_EditorExportPlatform>`. Le pi
 
 |void| **add_export_plugin**\ (\ plugin\: :ref:`EditorExportPlugin<class_EditorExportPlugin>`\ ) :ref:`🔗<class_EditorPlugin_method_add_export_plugin>`
 
-Registra un nuovo :ref:`EditorExportPlugin<class_EditorExportPlugin>`. Le estensioni di esportazione sono utilizzate per effettuare attività quando il progetto viene esportato.
+Registra un nuovo :ref:`EditorExportPlugin<class_EditorExportPlugin>`. Le estensioni di esportazione servono per effettuare attività quando il progetto viene esportato.
 
 Vedi :ref:`add_inspector_plugin()<class_EditorPlugin_method_add_inspector_plugin>` per un esempio di come registrare un'estensione.
 
@@ -1214,7 +1214,7 @@ Vedi :ref:`add_inspector_plugin()<class_EditorPlugin_method_add_inspector_plugin
 
 |void| **add_import_plugin**\ (\ importer\: :ref:`EditorImportPlugin<class_EditorImportPlugin>`, first_priority\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_EditorPlugin_method_add_import_plugin>`
 
-Registra un nuovo :ref:`EditorImportPlugin<class_EditorImportPlugin>`. Le estensioni di importazione sono utilizzati per importare contenuti personalizzati e non supportati come un tipo di :ref:`Resource<class_Resource>` personalizzato.
+Registra un nuovo :ref:`EditorImportPlugin<class_EditorImportPlugin>`. Le estensioni di importazione servono per importare contenuti personalizzati e non supportati come un tipo di :ref:`Resource<class_Resource>` personalizzato.
 
 Se ``first_priority`` è ``true``, la nuovo estensione di importazione viene inserita per prima nell'elenco e ha la precedenza sulle estensioni preesistenti.
 
@@ -1232,7 +1232,7 @@ Vedi :ref:`add_inspector_plugin()<class_EditorPlugin_method_add_inspector_plugin
 
 |void| **add_inspector_plugin**\ (\ plugin\: :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>`\ ) :ref:`🔗<class_EditorPlugin_method_add_inspector_plugin>`
 
-Registra un nuovo :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>`. Le estensioni dell'Ispettore sono utilizzate per estendere :ref:`EditorInspector<class_EditorInspector>` e fornire strumenti di configurazione personalizzati per le proprietà del tuo oggetto.
+Registra un nuovo :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>`. Le estensioni dell'Ispettore servono per estendere :ref:`EditorInspector<class_EditorInspector>` e fornire strumenti di configurazione personalizzati per le proprietà del tuo oggetto.
 
 \ **Nota:** Usa sempre :ref:`remove_inspector_plugin()<class_EditorPlugin_method_remove_inspector_plugin>` per rimuovere l':ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>` registrato quando il tuo **EditorPlugin** è disabilitato per evitare perdite di memoria e comportamenti imprevisti.
 
@@ -1262,7 +1262,7 @@ Registra un nuovo :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>`. Le 
 
 |void| **add_node_3d_gizmo_plugin**\ (\ plugin\: :ref:`EditorNode3DGizmoPlugin<class_EditorNode3DGizmoPlugin>`\ ) :ref:`🔗<class_EditorPlugin_method_add_node_3d_gizmo_plugin>`
 
-Registra un nuovo :ref:`EditorNode3DGizmoPlugin<class_EditorNode3DGizmoPlugin>`. Le estensioni dei gizmo sono utilizzate per aggiungere gizmo personalizzati alla viewport di anteprima 3D per un :ref:`Node3D<class_Node3D>`.
+Registra un nuovo :ref:`EditorNode3DGizmoPlugin<class_EditorNode3DGizmoPlugin>`. Le estensioni dei gizmo servono per aggiungere gizmo personalizzati alla viewport di anteprima 3D per un :ref:`Node3D<class_Node3D>`.
 
 Vedi :ref:`add_inspector_plugin()<class_EditorPlugin_method_add_inspector_plugin>` per un esempio di come registrare un'estensione.
 
@@ -1276,7 +1276,7 @@ Vedi :ref:`add_inspector_plugin()<class_EditorPlugin_method_add_inspector_plugin
 
 |void| **add_resource_conversion_plugin**\ (\ plugin\: :ref:`EditorResourceConversionPlugin<class_EditorResourceConversionPlugin>`\ ) :ref:`🔗<class_EditorPlugin_method_add_resource_conversion_plugin>`
 
-Registra un nuovo :ref:`EditorResourceConversionPlugin<class_EditorResourceConversionPlugin>`. Le estensioni di conversione delle risorse sono utilizzate per aggiungere convertitori di risorse personalizzati all'ispettore dell'editor.
+Registra un nuovo :ref:`EditorResourceConversionPlugin<class_EditorResourceConversionPlugin>`. Le estensioni di conversione delle risorse servono per aggiungere convertitori di risorse personalizzati all'ispettore dell'editor.
 
 Vedi :ref:`EditorResourceConversionPlugin<class_EditorResourceConversionPlugin>` per un esempio di come creare un'estensione di conversione delle risorse.
 
@@ -1290,7 +1290,7 @@ Vedi :ref:`EditorResourceConversionPlugin<class_EditorResourceConversionPlugin>`
 
 |void| **add_scene_format_importer_plugin**\ (\ scene_format_importer\: :ref:`EditorSceneFormatImporter<class_EditorSceneFormatImporter>`, first_priority\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_EditorPlugin_method_add_scene_format_importer_plugin>`
 
-Registra un nuovo :ref:`EditorSceneFormatImporter<class_EditorSceneFormatImporter>`. Gli importatori di scene sono utilizzati per importare formati di contenuti 3D personalizzati come scene.
+Registra un nuovo :ref:`EditorSceneFormatImporter<class_EditorSceneFormatImporter>`. Gli importatori di scene servono per importare formati di contenuti 3D personalizzati come scene.
 
 Se ``first_priority`` è ``true``, la nuovo estensione di importazione viene inserita per prima nell'elenco e ha la precedenza sulle estensioni preesistenti.
 

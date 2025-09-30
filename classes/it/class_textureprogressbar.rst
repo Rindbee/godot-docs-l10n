@@ -202,7 +202,7 @@ La direzione di riempimento. Vedi :ref:`FillMode<enum_TextureProgressBar_FillMod
 - |void| **set_nine_patch_stretch**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_nine_patch_stretch**\ (\ )
 
-Se ``true``, Godot tratta le texture della barra come in :ref:`NinePatchRect<class_NinePatchRect>`. Usa le proprietà ``stretch_margin_*`` come :ref:`stretch_margin_bottom<class_TextureProgressBar_property_stretch_margin_bottom>` per impostare la griglia 3×3 del nove-sezioni. Quando si usa un :ref:`fill_mode<class_TextureProgressBar_property_fill_mode>` radiale, questa impostazione abiliterà l'allungamento solo per :ref:`texture_progress<class_TextureProgressBar_property_texture_progress>`, mentre :ref:`texture_under<class_TextureProgressBar_property_texture_under>` e :ref:`texture_over<class_TextureProgressBar_property_texture_over>` saranno trattati come in :ref:`NinePatchRect<class_NinePatchRect>`.
+Se ``true``, Godot tratta le texture della barra come in :ref:`NinePatchRect<class_NinePatchRect>`. Usa le proprietà ``stretch_margin_*`` come :ref:`stretch_margin_bottom<class_TextureProgressBar_property_stretch_margin_bottom>` per impostare la griglia 3×3 del nove-sezioni. Quando si usa un :ref:`fill_mode<class_TextureProgressBar_property_fill_mode>` radiale, questa impostazione abiliterà lo stiramento solo per :ref:`texture_progress<class_TextureProgressBar_property_texture_progress>`, mentre :ref:`texture_under<class_TextureProgressBar_property_texture_under>` e :ref:`texture_over<class_TextureProgressBar_property_texture_over>` saranno trattati come in :ref:`NinePatchRect<class_NinePatchRect>`.
 
 .. rst-class:: classref-item-separator
 

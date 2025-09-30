@@ -89,7 +89,7 @@ Calcula el resto de dos números usando ``a % b``.
 
 :ref:`Operator<enum_VisualShaderNodeIntOp_Operator>` **OP_MAX** = ``5``
 
-Devuelve el mayor de dos números. Se traduce a ``max(a, b)`` en el lenguaje de shader de Godot.
+Devuelve el mayor de dos números. Se traduce a ``max(a, b)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeIntOp_constant_OP_MIN:
 
@@ -97,7 +97,7 @@ Devuelve el mayor de dos números. Se traduce a ``max(a, b)`` en el lenguaje de 
 
 :ref:`Operator<enum_VisualShaderNodeIntOp_Operator>` **OP_MIN** = ``6``
 
-Devuelve el menor de dos números. Se traduce a ``max(a, b)`` en el lenguaje de shader de Godot.
+Devuelve el menor de dos números. Se traduce a ``max(a, b)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeIntOp_constant_OP_BITWISE_AND:
 
@@ -105,7 +105,7 @@ Devuelve el menor de dos números. Se traduce a ``max(a, b)`` en el lenguaje de 
 
 :ref:`Operator<enum_VisualShaderNodeIntOp_Operator>` **OP_BITWISE_AND** = ``7``
 
-Devuelve el resultado de la operación ``AND`` bit a bit en el entero. Se traduce a ``a & b`` en el lenguaje de shader de Godot.
+Devuelve el resultado de la operación ``AND`` bit a bit en el entero. Se traduce a ``a & b`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeIntOp_constant_OP_BITWISE_OR:
 
@@ -113,7 +113,7 @@ Devuelve el resultado de la operación ``AND`` bit a bit en el entero. Se traduc
 
 :ref:`Operator<enum_VisualShaderNodeIntOp_Operator>` **OP_BITWISE_OR** = ``8``
 
-Devuelve el resultado de la operación ``OR`` bit a bit para dos enteros. Se traduce a ``a | b`` en el lenguaje de shader de Godot.
+Devuelve el resultado de la operación ``OR`` bit a bit para dos enteros. Se traduce a ``a | b`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeIntOp_constant_OP_BITWISE_XOR:
 
@@ -121,7 +121,7 @@ Devuelve el resultado de la operación ``OR`` bit a bit para dos enteros. Se tra
 
 :ref:`Operator<enum_VisualShaderNodeIntOp_Operator>` **OP_BITWISE_XOR** = ``9``
 
-Devuelve el resultado de la operación ``XOR`` bit a bit para dos enteros. Se traduce a ``a ^ b`` en el lenguaje de shader de Godot.
+Devuelve el resultado de la operación ``XOR`` bit a bit para dos enteros. Se traduce a ``a ^ b`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeIntOp_constant_OP_BITWISE_LEFT_SHIFT:
 
@@ -129,7 +129,7 @@ Devuelve el resultado de la operación ``XOR`` bit a bit para dos enteros. Se tr
 
 :ref:`Operator<enum_VisualShaderNodeIntOp_Operator>` **OP_BITWISE_LEFT_SHIFT** = ``10``
 
-Devuelve el resultado de la operación de desplazamiento a la izquierda bit a bit en el entero. Se traduce a ``a << b`` en el lenguaje de shader de Godot.
+Devuelve el resultado de la operación de desplazamiento a la izquierda bit a bit en el entero. Se traduce a ``a << b`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeIntOp_constant_OP_BITWISE_RIGHT_SHIFT:
 
@@ -137,7 +137,7 @@ Devuelve el resultado de la operación de desplazamiento a la izquierda bit a bi
 
 :ref:`Operator<enum_VisualShaderNodeIntOp_Operator>` **OP_BITWISE_RIGHT_SHIFT** = ``11``
 
-Devuelve el resultado de la operación de desplazamiento a la derecha bit a bit en el entero. Se traduce a ``a >> b`` en el lenguaje de shader de Godot.
+Devuelve el resultado de la operación de desplazamiento a la derecha bit a bit en el entero. Se traduce a ``a >> b`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeIntOp_constant_OP_ENUM_SIZE:
 

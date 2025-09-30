@@ -14,7 +14,7 @@ A PBR (Physically Based Rendering) material to be used on 3D objects.
 Descripción
 ----------------------
 
-**StandardMaterial3D**'s properties are inherited from :ref:`BaseMaterial3D<class_BaseMaterial3D>`. **StandardMaterial3D** uses separate textures for ambient occlusion, roughness and metallic maps. To use a single ORM map for all 3 textures, use an :ref:`ORMMaterial3D<class_ORMMaterial3D>` instead.
+Las propiedades de **StandardMaterial3D** se heredan de :ref:`BaseMaterial3D<class_BaseMaterial3D>`. **StandardMaterial3D** utiliza texturas separadas para oclusión ambiental, rugosidad y mapas metálicos. Para usar un solo mapa ORM para las 3 texturas, utiliza un :ref:`ORMMaterial3D<class_ORMMaterial3D>` en su lugar.
 
 .. rst-class:: classref-introduction-group
 

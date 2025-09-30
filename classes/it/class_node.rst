@@ -631,7 +631,7 @@ enum **DuplicateFlags**: :ref:`🔗<enum_Node_DuplicateFlags>`
 
 :ref:`DuplicateFlags<enum_Node_DuplicateFlags>` **DUPLICATE_SIGNALS** = ``1``
 
-Duplicate the node's signal connections that are connected with the :ref:`Object.CONNECT_PERSIST<class_Object_constant_CONNECT_PERSIST>` flag.
+Duplica le connessioni dei segnali del nodo che sono connesse con il flag :ref:`Object.CONNECT_PERSIST<class_Object_constant_CONNECT_PERSIST>`.
 
 .. _class_Node_constant_DUPLICATE_GROUPS:
 
@@ -1152,7 +1152,7 @@ Notifica ricevuta quando il :ref:`TextServer<class_TextServer>` viene modificato
 
 **NOTIFICATION_ACCESSIBILITY_UPDATE** = ``3000`` :ref:`🔗<class_Node_constant_NOTIFICATION_ACCESSIBILITY_UPDATE>`
 
-Notification received when an accessibility information update is required.
+Notifica ricevuta quando è necessario un aggiornamento delle informazioni di accessibilità.
 
 .. _class_Node_constant_NOTIFICATION_ACCESSIBILITY_INVALIDATE:
 
@@ -1160,7 +1160,7 @@ Notification received when an accessibility information update is required.
 
 **NOTIFICATION_ACCESSIBILITY_INVALIDATE** = ``3001`` :ref:`🔗<class_Node_constant_NOTIFICATION_ACCESSIBILITY_INVALIDATE>`
 
-Notification received when accessibility elements are invalidated. All node accessibility elements are automatically deleted after receiving this message, therefore all existing references to such elements should be discarded.
+Notifica ricevuta quando gli elementi di accessibilità vengono invalidati. Tutti gli elementi di accessibilità del nodo vengono automaticamente eliminati dopo aver ricevuto di questo messaggio, pertanto è necessario eliminare tutti i riferimenti esistenti a tali elementi.
 
 .. rst-class:: classref-section-separator
 
@@ -1274,13 +1274,13 @@ Il proprietario di questo nodo. Il proprietario deve essere un antenato di quest
 - |void| **set_physics_interpolation_mode**\ (\ value\: :ref:`PhysicsInterpolationMode<enum_Node_PhysicsInterpolationMode>`\ )
 - :ref:`PhysicsInterpolationMode<enum_Node_PhysicsInterpolationMode>` **get_physics_interpolation_mode**\ (\ )
 
-The physics interpolation mode to use for this node. Only effective if :ref:`ProjectSettings.physics/common/physics_interpolation<class_ProjectSettings_property_physics/common/physics_interpolation>` or :ref:`SceneTree.physics_interpolation<class_SceneTree_property_physics_interpolation>` is ``true``.
+La modalità di interpolazione fisica da utilizzare per questo nodo. Efficace solo se :ref:`ProjectSettings.physics/common/physics_interpolation<class_ProjectSettings_property_physics/common/physics_interpolation>` o :ref:`SceneTree.physics_interpolation<class_SceneTree_property_physics_interpolation>` è impostato su ``true``.
 
-By default, nodes inherit the physics interpolation mode from their parent. This property can enable or disable physics interpolation individually for each node, regardless of their parents' physics interpolation mode.
+Come predefinito, i nodi ereditano la modalità di interpolazione fisica dal nodo genitore. Questa proprietà può abilitare o disabilitare l'interpolazione fisica individualmente per ciascun nodo, a prescindere dalla modalità di interpolazione fisica del nodo genitore.
 
-\ **Note:** Some node types like :ref:`VehicleWheel3D<class_VehicleWheel3D>` have physics interpolation disabled by default, as they rely on their own custom solution.
+\ **Nota:** Alcuni tipi di nodo, come :ref:`VehicleWheel3D<class_VehicleWheel3D>`, hanno l'interpolazione fisica disabilitata come predefinito, poiché si basano su un'implementazione personalizzata.
 
-\ **Note:** When teleporting a node to a distant position, it's recommended to temporarily disable interpolation with :ref:`reset_physics_interpolation()<class_Node_method_reset_physics_interpolation>` *after* moving the node. This avoids creating a visual streak between the old and new positions.
+\ **Nota:** Quando si teletrasporta un nodo in una posizione distante, si consiglia di disabilitare temporaneamente l'interpolazione con :ref:`reset_physics_interpolation()<class_Node_method_reset_physics_interpolation>` *dopo* lo spostamento del nodo. Questo evita di creare una striscia visiva tra la vecchia e la nuova posizione.
 
 .. rst-class:: classref-item-separator
 
@@ -1297,7 +1297,7 @@ By default, nodes inherit the physics interpolation mode from their parent. This
 - |void| **set_process_mode**\ (\ value\: :ref:`ProcessMode<enum_Node_ProcessMode>`\ )
 - :ref:`ProcessMode<enum_Node_ProcessMode>` **get_process_mode**\ (\ )
 
-The node's processing behavior. To check if the node can process in its current mode, use :ref:`can_process()<class_Node_method_can_process>`.
+Il comportamento di elaborazione del nodo. Per verificare se il nodo può eseguire la sua elaborazione nella sua modalità attuale, usa :ref:`can_process()<class_Node_method_can_process>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1469,9 +1469,9 @@ Corrisponde alla notifica :ref:`NOTIFICATION_EXIT_TREE<class_Node_constant_NOTIF
 
 :ref:`PackedStringArray<class_PackedStringArray>` **_get_accessibility_configuration_warnings**\ (\ ) |virtual| |const| :ref:`🔗<class_Node_private_method__get_accessibility_configuration_warnings>`
 
-The elements in the array returned from this method are displayed as warnings in the Scene dock if the script that overrides it is a ``tool`` script, and accessibility warnings are enabled in the editor settings.
+Gli elementi nell'array restituiti da questo metodo sono visualizzati come avvisi nel pannello Scena se lo script che lo sovrascrive è uno script ``tool`` e gli avvisi di accessibilità sono abilitati nelle impostazioni dell'editor.
 
-Returning an empty array produces no warnings.
+Restituire un array vuoto non produce avvisi.
 
 .. rst-class:: classref-item-separator
 
@@ -1512,7 +1512,7 @@ Chiama :ref:`update_configuration_warnings()<class_Node_method_update_configurat
 
 :ref:`RID<class_RID>` **_get_focused_accessibility_element**\ (\ ) |virtual| |const| :ref:`🔗<class_Node_private_method__get_focused_accessibility_element>`
 
-Called during accessibility information updates to determine the currently focused sub-element, should return a sub-element RID or the value returned by :ref:`get_accessibility_element()<class_Node_method_get_accessibility_element>`.
+Chiamato durante gli aggiornamenti delle informazioni di accessibilità per determinare il sotto-elemento attualmente attivo, dovrebbe restituire un RID di sotto-elemento o il valore restituito da :ref:`get_accessibility_element()<class_Node_method_get_accessibility_element>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1544,17 +1544,17 @@ Per gli input che riguardano il gioco, :ref:`_unhandled_input()<class_Node_priva
 
 |void| **_physics_process**\ (\ delta\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_Node_private_method__physics_process>`
 
-Called once on each physics tick, and allows Nodes to synchronize their logic with physics ticks. ``delta`` is the logical time between physics ticks in seconds and is equal to :ref:`Engine.time_scale<class_Engine_property_time_scale>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`.
+Chiamato una volta a ogni tick di fisica, consente ai nodi di sincronizzare la propria logica con i tick di fisica. ``delta`` è il tempo logico tra i tick di fisica in secondi ed è uguale a :ref:`Engine.time_scale<class_Engine_property_time_scale>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`.
 
-It is only called if physics processing is enabled for this Node, which is done automatically if this method is overridden, and can be toggled with :ref:`set_physics_process()<class_Node_method_set_physics_process>`.
+È chiamato solo se è abilitata l'elaborazione della fisica, il che viene effettuato automaticamente se questo metodo è sovrascritto e si può cambiare con :ref:`set_physics_process()<class_Node_method_set_physics_process>`.
 
-Processing happens in order of :ref:`process_physics_priority<class_Node_property_process_physics_priority>`, lower priority values are called first. Nodes with the same priority are processed in tree order, or top to bottom as seen in the editor (also known as pre-order traversal).
+L'elaborazione avviene in base all'ordine di :ref:`process_physics_priority<class_Node_property_process_physics_priority>`, i valori con priorità più bassa vengono chiamati per primi. I nodi con la stessa priorità vengono elaborati in ordine ad albero, ovvero dall'alto verso il basso, come mostrato nell'editor (anche noto come attraversamento pre-ordine).
 
-Corresponds to the :ref:`NOTIFICATION_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>` notification in :ref:`Object._notification()<class_Object_private_method__notification>`.
+Corrisponde alla notifica :ref:`NOTIFICATION_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>` in :ref:`Object._notification()<class_Object_private_method__notification>`.
 
-\ **Note:** This method is only called if the node is present in the scene tree (i.e. if it's not an orphan).
+\ **Nota:** Questo metodo viene chiamato solo se il nodo è presente nell'albero di scene (ovvero se non è orfano).
 
-\ **Note:** Accumulated ``delta`` may diverge from real world seconds.
+\ **Nota:** Il ``delta`` accumulato potrebbe deviare dai secondi reali.
 
 .. rst-class:: classref-item-separator
 
@@ -1566,21 +1566,21 @@ Corresponds to the :ref:`NOTIFICATION_PHYSICS_PROCESS<class_Node_constant_NOTIFI
 
 |void| **_process**\ (\ delta\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_Node_private_method__process>`
 
-Called on each idle frame, prior to rendering, and after physics ticks have been processed. ``delta`` is the time between frames in seconds.
+Chiamato a ogni frame inattivo, prima di renderizzare, e dopo l'elaborazione dei tick di fisica. ``delta`` è il tempo trascorso tra i frame, in secondi.
 
-It is only called if processing is enabled for this Node, which is done automatically if this method is overridden, and can be toggled with :ref:`set_process()<class_Node_method_set_process>`.
+Viene chiamato solo se è abilitata l'elaborazione per questo nodo, il che viene effettuato automaticamente se questo metodo è sovrascritto e si può cambiare con :ref:`set_process()<class_Node_method_set_process>`.
 
-Processing happens in order of :ref:`process_priority<class_Node_property_process_priority>`, lower priority values are called first. Nodes with the same priority are processed in tree order, or top to bottom as seen in the editor (also known as pre-order traversal).
+L'elaborazione avviene in base all'ordine di :ref:`process_physics_priority<class_Node_property_process_physics_priority>`, i valori con priorità più bassa vengono chiamati per primi. I nodi con la stessa priorità vengono elaborati in ordine ad albero, ovvero dall'alto verso il basso, come mostrato nell'editor (anche noto come attraversamento pre-ordine).
 
-Corresponds to the :ref:`NOTIFICATION_PROCESS<class_Node_constant_NOTIFICATION_PROCESS>` notification in :ref:`Object._notification()<class_Object_private_method__notification>`.
+Corrisponde alla notifica :ref:`NOTIFICATION_PROCESS<class_Node_constant_NOTIFICATION_PROCESS>` in :ref:`Object._notification()<class_Object_private_method__notification>`.
 
-\ **Note:** This method is only called if the node is present in the scene tree (i.e. if it's not an orphan).
+\ **Nota:** Questo metodo viene chiamato solo se il nodo è presente nell'albero di scene (ovvero se non è orfano).
 
-\ **Note:** When the engine is struggling and the frame rate is lowered, ``delta`` will increase. When ``delta`` is increased, it's capped at a maximum of :ref:`Engine.time_scale<class_Engine_property_time_scale>` \* :ref:`Engine.max_physics_steps_per_frame<class_Engine_property_max_physics_steps_per_frame>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`. As a result, accumulated ``delta`` may not represent real world time.
+\ **Nota:** Quando il motore è in difficoltà e la frequenza dei frame diminuisce, ``delta`` aumenterà. Quando ``delta`` è aumentato, il suo limite massimo è di :ref:`Engine.time_scale<class_Engine_property_time_scale>` \* :ref:`Engine.max_physics_steps_per_frame<class_Engine_property_max_physics_steps_per_frame>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`. Pertanto, il ``delta`` accumulato potrebbe non rappresentare il tempo reale.
 
-\ **Note:** When ``--fixed-fps`` is enabled or the engine is running in Movie Maker mode (see :ref:`MovieWriter<class_MovieWriter>`), process ``delta`` will always be the same for every frame, regardless of how much time the frame took to render.
+\ **Nota:** Quando ``--fixed-fps`` è abilitato o il motore è in esecuzione in modalità Movie Maker (vedi :ref:`MovieWriter<class_MovieWriter>`), ``delta`` sarà sempre lo stesso per ogni frame, a prescindere dal tempo impiegato per renderizzare i frame.
 
-\ **Note:** Frame delta may be post-processed by :ref:`OS.delta_smoothing<class_OS_property_delta_smoothing>` if this is enabled for the project.
+\ **Nota:** Il delta dei frame potrebbe essere post-elaborato da :ref:`OS.delta_smoothing<class_OS_property_delta_smoothing>` se questa opzione è abilitata per il progetto.
 
 .. rst-class:: classref-item-separator
 
@@ -1672,13 +1672,13 @@ Per l'input di gioco, questo metodo e :ref:`_unhandled_input()<class_Node_privat
 
 |void| **add_child**\ (\ node\: :ref:`Node<class_Node>`, force_readable_name\: :ref:`bool<class_bool>` = false, internal\: :ref:`InternalMode<enum_Node_InternalMode>` = 0\ ) :ref:`🔗<class_Node_method_add_child>`
 
-Adds a child ``node``. Nodes can have any number of children, but every child must have a unique name. Child nodes are automatically deleted when the parent node is deleted, so an entire scene can be removed by deleting its topmost node.
+Aggiunge il nodo ``node`` come figlio. I nodi possono avere un numero qualsiasi di figli, ma ogni figlio deve avere un nome univoco. I nodi figlio sono eliminati automaticamente quando il nodo padre è eliminato, quindi un'intera scena si può rimuovere eliminando il suo nodo più in alto.
 
-If ``force_readable_name`` is ``true``, improves the readability of the added ``node``. If not named, the ``node`` is renamed to its type, and if it shares :ref:`name<class_Node_property_name>` with a sibling, a number is suffixed more appropriately. This operation is very slow. As such, it is recommended leaving this to ``false``, which assigns a dummy name featuring ``@`` in both situations.
+Se ``force_readable_name`` è ``true``, migliora la leggibilità del ``node`` aggiunto. Se non è denominato, ``node`` viene rinominato nel suo tipo. Inoltre, se condivide il suo :ref:`name<class_Node_property_name>` con un fratello, un numero viene accodato più correttamente. Questa operazione è molto lenta. Pertanto, si consiglia di lasciare questo su ``false``, che assegna un nome segnaposto con ``@`` in entrambe le situazioni.
 
-If ``internal`` is different than :ref:`INTERNAL_MODE_DISABLED<class_Node_constant_INTERNAL_MODE_DISABLED>`, the child will be added as internal node. These nodes are ignored by methods like :ref:`get_children()<class_Node_method_get_children>`, unless their parameter ``include_internal`` is ``true``. It also prevents these nodes being duplicated with their parent. The intended usage is to hide the internal nodes from the user, so the user won't accidentally delete or modify them. Used by some GUI nodes, e.g. :ref:`ColorPicker<class_ColorPicker>`.
+Se ``internal`` è diverso da :ref:`INTERNAL_MODE_DISABLED<class_Node_constant_INTERNAL_MODE_DISABLED>`, il figlio verrà aggiunto come nodo interno. Questi nodi sono ignorati da metodi come :ref:`get_children()<class_Node_method_get_children>`, a meno che il loro parametro ``include_internal`` non sia ``true``. L'uso previsto è quello di nascondere i nodi interni all'utente, in modo che l'utente non li elimini o modifichi accidentalmente. Utilizzato da alcuni nodi dell'interfaccia utente, ad esempio :ref:`ColorPicker<class_ColorPicker>`.
 
-\ **Note:** If ``node`` already has a parent, this method will fail. Use :ref:`remove_child()<class_Node_method_remove_child>` first to remove ``node`` from its current parent. For example:
+\ **Nota:** Se ``node`` ha già un genitore, questo metodo fallirà. Usa prima :ref:`remove_child()<class_Node_method_remove_child>` per rimuovere ``node`` dal suo genitore attuale. Ad esempio:
 
 
 .. tabs::
@@ -1701,9 +1701,9 @@ If ``internal`` is different than :ref:`INTERNAL_MODE_DISABLED<class_Node_consta
 
 
 
-If you need the child node to be added below a specific node in the list of children, use :ref:`add_sibling()<class_Node_method_add_sibling>` instead of this method.
+Se è necessario che il nodo figlio sia aggiunto sotto un nodo specifico nell'elenco dei figli, usa :ref:`add_sibling()<class_Node_method_add_sibling>` invece di questo metodo.
 
-\ **Note:** If you want a child to be persisted to a :ref:`PackedScene<class_PackedScene>`, you must set :ref:`owner<class_Node_property_owner>` in addition to calling :ref:`add_child()<class_Node_method_add_child>`. This is typically relevant for :doc:`tool scripts <../tutorials/plugins/running_code_in_the_editor>` and :doc:`editor plugins <../tutorials/plugins/editor/index>`. If :ref:`add_child()<class_Node_method_add_child>` is called without setting :ref:`owner<class_Node_property_owner>`, the newly added **Node** will not be visible in the scene tree, though it will be visible in the 2D/3D view.
+\ **Nota:** Se è necessario che un figlio sia reso persistente in un :ref:`PackedScene<class_PackedScene>`, imposta :ref:`owner<class_Node_property_owner>` oltre a chiamare :ref:`add_child()<class_Node_method_add_child>`. Questo è in genere importante per gli :doc:`script strumenti <../tutorials/plugins/running_code_in_the_editor>` e le :doc:`estensioni dell'editor <../tutorials/plugins/editor/index>`. Se :ref:`add_child()<class_Node_method_add_child>` viene chiamato senza impostare :ref:`owner<class_Node_property_owner>`, il **Node** appena aggiunto non sarà visibile nell'albero di scene, anche se sarà visibile nella vista 2D/3D.
 
 .. rst-class:: classref-item-separator
 
@@ -1717,7 +1717,7 @@ If you need the child node to be added below a specific node in the list of chil
 
 Aggiunge il nodo ``sibling`` al nodo genitore di questo nodo e sposta il fratello aggiunto subito sotto questo nodo.
 
-Se ``force_readable_name`` è ``true``, migliora la leggibilità del ``node`` aggiunto. Se non è denominato, ``node`` viene rinominato nel suo tipo. Inoltre, se condivide il suo :ref:`name<class_Node_property_name>` con un fratello, un numero viene accodato più correttamente. Questa operazione è molto lenta. Pertanto, si consiglia di lasciare questo su ``false``, che assegna un nome fittizio con ``@`` in entrambe le situazioni.
+Se ``force_readable_name`` è ``true``, migliora la leggibilità del ``sibling`` aggiunto. Se non è denominato, ``sibling`` viene rinominato nel suo tipo. Inoltre, se condivide il suo :ref:`name<class_Node_property_name>` con un fratello, un numero viene accodato più correttamente. Questa operazione è molto lenta. Pertanto, si consiglia di lasciare questo su ``false``, che assegna un nome fittizio con ``@`` in entrambe le situazioni.
 
 Usa :ref:`add_child()<class_Node_method_add_child>` invece di questo metodo se non c'è bisogno che il nodo figlio sia aggiunto sotto un nodo specifico nella lista dei figli.
 
@@ -1815,7 +1815,7 @@ Questa funzione assicura che la chiamata di questa funzione avrà successo, a pr
 
 :ref:`bool<class_bool>` **can_auto_translate**\ (\ ) |const| :ref:`🔗<class_Node_method_can_auto_translate>`
 
-Returns ``true`` if this node can automatically translate messages depending on the current locale. See :ref:`auto_translate_mode<class_Node_property_auto_translate_mode>`, :ref:`atr()<class_Node_method_atr>`, and :ref:`atr_n()<class_Node_method_atr_n>`.
+Restituisce ``true`` se il nodo può automaticamente tradurre i messaggi a seconda della lingua attuale. Vedi anche :ref:`auto_translate_mode<class_Node_property_auto_translate_mode>`, :ref:`atr()<class_Node_method_atr>` e :ref:`atr_n()<class_Node_method_atr_n>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1882,9 +1882,9 @@ Il Tween sarà avviato automaticamente sul frame di processo o frame di fisica s
 
 :ref:`Node<class_Node>` **duplicate**\ (\ flags\: :ref:`int<class_int>` = 15\ ) |const| :ref:`🔗<class_Node_method_duplicate>`
 
-Duplicates the node, returning a new node with all of its properties, signals, groups, and children copied from the original. The behavior can be tweaked through the ``flags`` (see :ref:`DuplicateFlags<enum_Node_DuplicateFlags>`). Internal nodes are not duplicated.
+Duplica il nodo, restituendo un nuovo nodo con tutte le sue proprietà, segnali, gruppi e figli copiati dall'originale. È possibile regolare il comportamento attraverso ``flags`` (vedi :ref:`DuplicateFlags<enum_Node_DuplicateFlags>`). I nodi interni non vengono duplicati.
 
-\ **Note:** For nodes with a :ref:`Script<class_Script>` attached, if :ref:`Object._init()<class_Object_private_method__init>` has been defined with required parameters, the duplicated node will not have a :ref:`Script<class_Script>`.
+\ **Nota:** Per i nodi con uno :ref:`Script<class_Script>` allegato, se :ref:`Object._init()<class_Object_private_method__init>` è stato definito con parametri obbligatori, il nodo duplicato non avrà uno :ref:`Script<class_Script>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1940,7 +1940,7 @@ Se ``owned`` è ``true``, sono controllati solo i discendenti con un nodo :ref:`
 
 Trova il primo antenato di questo nodo il cui :ref:`name<class_Node_property_name>` corrisponde a ``pattern``, restituendo ``null`` se nessuna corrispondenza viene trovata. La corrispondenza viene effettuata tramite :ref:`String.match()<class_String_method_match>`. Pertanto, è sensibile alle maiuscole e alle minuscole, ``"*"`` corrisponde a zero o più caratteri e ``"?"`` corrisponde a qualsiasi singolo carattere. Vedi anche :ref:`find_child()<class_Node_method_find_child>` e :ref:`find_children()<class_Node_method_find_children>`.
 
-\ **Nota:** Man mano che questo metodo sale nell'albero della scena, può essere lento in nodi profondamente nidificati. Considera di memorizzare un riferimento al nodo trovato in una variabile. In alternativa, utilizza :ref:`get_node()<class_Node_method_get_node>` con nomi univoci (vedi :ref:`unique_name_in_owner<class_Node_property_unique_name_in_owner>`).
+\ **Nota:** Man mano che questo metodo sale nell'albero della scena, può essere lento in nodi profondamente innestati. Considera di memorizzare un riferimento al nodo trovato in una variabile. In alternativa, utilizza :ref:`get_node()<class_Node_method_get_node>` con nomi univoci (vedi :ref:`unique_name_in_owner<class_Node_property_unique_name_in_owner>`).
 
 .. rst-class:: classref-item-separator
 
@@ -1952,9 +1952,9 @@ Trova il primo antenato di questo nodo il cui :ref:`name<class_Node_property_nam
 
 :ref:`RID<class_RID>` **get_accessibility_element**\ (\ ) |const| :ref:`🔗<class_Node_method_get_accessibility_element>`
 
-Returns main accessibility element RID.
+Restituisce il RID dell'elemento principale di accessibilità.
 
-\ **Note:** This method should be called only during accessibility information updates (:ref:`NOTIFICATION_ACCESSIBILITY_UPDATE<class_Node_constant_NOTIFICATION_ACCESSIBILITY_UPDATE>`).
+\ **Nota:** Si dovrebbe chiamare questo metodo solo durante gli aggiornamenti delle informazioni di accessibilità (:ref:`NOTIFICATION_ACCESSIBILITY_UPDATE<class_Node_constant_NOTIFICATION_ACCESSIBILITY_UPDATE>`).
 
 .. rst-class:: classref-item-separator
 
@@ -1966,21 +1966,21 @@ Returns main accessibility element RID.
 
 :ref:`Node<class_Node>` **get_child**\ (\ idx\: :ref:`int<class_int>`, include_internal\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Node_method_get_child>`
 
-Fetches a child node by its index. Each child node has an index relative to its siblings (see :ref:`get_index()<class_Node_method_get_index>`). The first child is at index 0. Negative values can also be used to start from the end of the list. This method can be used in combination with :ref:`get_child_count()<class_Node_method_get_child_count>` to iterate over this node's children. If no child exists at the given index, this method returns ``null`` and an error is generated.
+Recupera un nodo figlio tramite il suo indice. Ogni nodo figlio ha un indice relativo ai suoi fratelli (vedi :ref:`get_index()<class_Node_method_get_index>`). Il primo figlio è all'indice 0. Si possono anche usare valori negativi per partire dalla fine della lista. Questo metodo si può usare in combinazione con :ref:`get_child_count()<class_Node_method_get_child_count>` per iterare i figli di questo nodo. Se nessun figlio esiste all'indice specificato, questo metodo restituisce ``null`` e viene generato un errore.
 
-If ``include_internal`` is ``false``, internal children are ignored (see :ref:`add_child()<class_Node_method_add_child>`'s ``internal`` parameter).
+Se ``include_internal`` è ``false``, i figli interni sono ignorati (vedi il parametro ``internal`` di :ref:`add_child()<class_Node_method_add_child>`).
 
 ::
 
-    # Assuming the following are children of this node, in order:
-    # First, Middle, Last.
+    # Supponendo che i seguenti siano figli di questo nodo, in ordine:
+    # Primo, Mezzo, Ultimo.
 
-    var a = get_child(0).name  # a is "First"
-    var b = get_child(1).name  # b is "Middle"
-    var b = get_child(2).name  # b is "Last"
-    var c = get_child(-1).name # c is "Last"
+    var a = get_child(0).name  # a è "Primo"
+    var b = get_child(1).name  # b è "Mezzo"
+    var b = get_child(2).name  # b è "Ultimo"
+    var c = get_child(-1).name # c è "Ultimo"
 
-\ **Note:** To fetch a node by :ref:`NodePath<class_NodePath>`, use :ref:`get_node()<class_Node_method_get_node>`.
+\ **Nota:** Per recuperare un nodo tramite :ref:`NodePath<class_NodePath>`, usa :ref:`get_node()<class_Node_method_get_node>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2147,15 +2147,15 @@ Le seguenti chiamate restituiranno un nodo valido:
 
 :ref:`Array<class_Array>` **get_node_and_resource**\ (\ path\: :ref:`NodePath<class_NodePath>`\ ) :ref:`🔗<class_Node_method_get_node_and_resource>`
 
-Fetches a node and its most nested resource as specified by the :ref:`NodePath<class_NodePath>`'s subname. Returns an :ref:`Array<class_Array>` of size ``3`` where:
+Recupera un nodo e la sua risorsa più innestata come specificato dal sotto-nome del :ref:`NodePath<class_NodePath>`. Restituisce un :ref:`Array<class_Array>` di dimensione ``3`` dove:
 
-- Element ``0`` is the **Node**, or ``null`` if not found;
+- L'elemento ``0`` è il **Node**, o ``null`` se non trovato;
 
-- Element ``1`` is the subname's last nested :ref:`Resource<class_Resource>`, or ``null`` if not found;
+- L'elemento ``1`` è l'ultima :ref:`Resource<class_Resource>` innestata del sotto-nome, o ``null`` se non trovata;
 
-- Element ``2`` is the remaining :ref:`NodePath<class_NodePath>`, referring to an existing, non-:ref:`Resource<class_Resource>` property (see :ref:`Object.get_indexed()<class_Object_method_get_indexed>`).
+- L'elemento ``2`` è il :ref:`NodePath<class_NodePath>` rimanente, che si riferisce a una proprietà esistente, di tipo non :ref:`Resource<class_Resource>` (vedi :ref:`Object.get_indexed()<class_Object_method_get_indexed>`).
 
-\ **Example:** Assume that the child's :ref:`Sprite2D.texture<class_Sprite2D_property_texture>` has been assigned an :ref:`AtlasTexture<class_AtlasTexture>`:
+\ **Esempio:** Supponiamo che alla :ref:`Sprite2D.texture<class_Sprite2D_property_texture>` del figlio sia stata assegnata una :ref:`AtlasTexture<class_AtlasTexture>`:
 
 
 .. tabs::
@@ -2163,36 +2163,36 @@ Fetches a node and its most nested resource as specified by the :ref:`NodePath<c
  .. code-tab:: gdscript
 
     var a = get_node_and_resource("Area2D/Sprite2D")
-    print(a[0].name) # Prints Sprite2D
-    print(a[1])      # Prints <null>
-    print(a[2])      # Prints ^""
+    print(a[0].name) # Stampa Sprite2D
+    print(a[1])      # Stampa <null>
+    print(a[2])      # Stampa ^""
 
     var b = get_node_and_resource("Area2D/Sprite2D:texture:atlas")
-    print(b[0].name)        # Prints Sprite2D
-    print(b[1].get_class()) # Prints AtlasTexture
-    print(b[2])             # Prints ^""
+    print(b[0].name)        # Stampa Sprite2D
+    print(b[1].get_class()) # Stampa AtlasTexture
+    print(b[2])             # Stampa ^""
 
     var c = get_node_and_resource("Area2D/Sprite2D:texture:atlas:region")
-    print(c[0].name)        # Prints Sprite2D
-    print(c[1].get_class()) # Prints AtlasTexture
-    print(c[2])             # Prints ^":region"
+    print(c[0].name)        # Stampa Sprite2D
+    print(c[1].get_class()) # Stampa AtlasTexture
+    print(c[2])             # Stampa ^":region"
 
  .. code-tab:: csharp
 
     var a = GetNodeAndResource(NodePath("Area2D/Sprite2D"));
-    GD.Print(a[0].Name); // Prints Sprite2D
-    GD.Print(a[1]);      // Prints <null>
-    GD.Print(a[2]);      // Prints ^"
+    GD.Print(a[0].Name); // Stampa Sprite2D
+    GD.Print(a[1]);      // Stampa <null>
+    GD.Print(a[2]);      // Stampa ^"
 
     var b = GetNodeAndResource(NodePath("Area2D/Sprite2D:texture:atlas"));
-    GD.Print(b[0].name);        // Prints Sprite2D
-    GD.Print(b[1].get_class()); // Prints AtlasTexture
-    GD.Print(b[2]);             // Prints ^""
+    GD.Print(b[0].name);        // Stampa Sprite2D
+    GD.Print(b[1].get_class()); // Stampa AtlasTexture
+    GD.Print(b[2]);             // Stampa ^""
 
     var c = GetNodeAndResource(NodePath("Area2D/Sprite2D:texture:atlas:region"));
-    GD.Print(c[0].name);        // Prints Sprite2D
-    GD.Print(c[1].get_class()); // Prints AtlasTexture
-    GD.Print(c[2]);             // Prints ^":region"
+    GD.Print(c[0].name);        // Stampa Sprite2D
+    GD.Print(c[1].get_class()); // Stampa  AtlasTexture
+    GD.Print(c[2]);             // Stampa ^":region"
 
 
 
@@ -2218,9 +2218,9 @@ Recupera un nodo tramite :ref:`NodePath<class_NodePath>`. Simile a :ref:`get_nod
 
 :ref:`Variant<class_Variant>` **get_node_rpc_config**\ (\ ) |const| :ref:`🔗<class_Node_method_get_node_rpc_config>`
 
-Returns a :ref:`Dictionary<class_Dictionary>` mapping method names to their RPC configuration defined for this node using :ref:`rpc_config()<class_Node_method_rpc_config>`.
+Restituisce un :ref:`Dictionary<class_Dictionary>` che mappa i nomi dei metodi alla loro configurazione RPC definita per questo nodo tramite :ref:`rpc_config()<class_Node_method_rpc_config>`.
 
-\ **Note:** This method only returns the RPC configuration assigned via :ref:`rpc_config()<class_Node_method_rpc_config>`. See :ref:`Script.get_rpc_config()<class_Script_method_get_rpc_config>` to retrieve the RPCs defined by the :ref:`Script<class_Script>`.
+\ **Nota:** Questo metodo restituisce solo la configurazione RPC assegnata tramite :ref:`rpc_config()<class_Node_method_rpc_config>`. Consulta :ref:`Script.get_rpc_config()<class_Script_method_get_rpc_config>` per recuperare le RPC definite dallo :ref:`Script<class_Script>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2232,9 +2232,9 @@ Returns a :ref:`Dictionary<class_Dictionary>` mapping method names to their RPC 
 
 :ref:`Array<class_Array>`\[:ref:`int<class_int>`\] **get_orphan_node_ids**\ (\ ) |static| :ref:`🔗<class_Node_method_get_orphan_node_ids>`
 
-Returns object IDs of all orphan nodes (nodes outside the :ref:`SceneTree<class_SceneTree>`). Used for debugging.
+Restituisce gli ID oggetto di tutti i nodi orfani (nodi al di fuori dello :ref:`SceneTree<class_SceneTree>`). Utile per il debug.
 
-\ **Note:** :ref:`get_orphan_node_ids()<class_Node_method_get_orphan_node_ids>` only works in debug builds. When called in a project exported in release mode, :ref:`get_orphan_node_ids()<class_Node_method_get_orphan_node_ids>` will return an empty array.
+\ **Nota:** :ref:`get_orphan_node_ids()<class_Node_method_get_orphan_node_ids>` funziona solo nelle build di debug. Se richiamato in un progetto esportato in modalità rilascio, :ref:`get_orphan_node_ids()<class_Node_method_get_orphan_node_ids>` restituirà un array vuoto.
 
 .. rst-class:: classref-item-separator
 
@@ -2792,7 +2792,7 @@ Chiama :ref:`Object.notification()<class_Object_method_notification>` con ``what
 
 |void| **queue_accessibility_update**\ (\ ) :ref:`🔗<class_Node_method_queue_accessibility_update>`
 
-Queues an accessibility information update for this node.
+Accoda un aggiornamento delle informazioni di accessibilità per questo nodo.
 
 .. rst-class:: classref-item-separator
 
@@ -3126,7 +3126,7 @@ Se impostato su ``true``, abilita l'elaborazione degli input di tasti non gestit
 
 |void| **set_scene_instance_load_placeholder**\ (\ load_placeholder\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_Node_method_set_scene_instance_load_placeholder>`
 
-If set to ``true``, the node becomes an :ref:`InstancePlaceholder<class_InstancePlaceholder>` when packed and instantiated from a :ref:`PackedScene<class_PackedScene>`. See also :ref:`get_scene_instance_load_placeholder()<class_Node_method_get_scene_instance_load_placeholder>`.
+Se impostato su ``true``, il nodo diventa un :ref:`InstancePlaceholder<class_InstancePlaceholder>` quando è impacchettato e istanziato da una :ref:`PackedScene<class_PackedScene>`. Vedi anche :ref:`get_scene_instance_load_placeholder()<class_Node_method_get_scene_instance_load_placeholder>`.
 
 .. rst-class:: classref-item-separator
 

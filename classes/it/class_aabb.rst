@@ -12,13 +12,13 @@ Una bounding box 3D allineata agli assi.
 Descrizione
 ----------------------
 
-The **AABB** built-in :ref:`Variant<class_Variant>` type represents an axis-aligned bounding box in a 3D space. It is defined by its :ref:`position<class_AABB_property_position>` and :ref:`size<class_AABB_property_size>`, which are :ref:`Vector3<class_Vector3>`. It is frequently used for fast overlap tests (see :ref:`intersects()<class_AABB_method_intersects>`). Although **AABB** itself is axis-aligned, it can be combined with :ref:`Transform3D<class_Transform3D>` to represent a rotated or skewed bounding box.
+Il tipo di :ref:`Variant<class_Variant>` integrato **AABB** rappresenta una bounding box allineata agli assi in uno spazio 3D. È definito dalla sua posizione (:ref:`position<class_AABB_property_position>`) e dimensioni (:ref:`size<class_AABB_property_size>`), che sono :ref:`Vector3<class_Vector3>`. È spesso utilizzato per fare test rapidi di sovrapposizione (vedi :ref:`intersects()<class_AABB_method_intersects>`). Nonostante **AABB** sia allineato agli assi, può essere combinato con :ref:`Transform3D<class_Transform3D>` per rappresentare una bounding box ruotata o inclinata.
 
-It uses floating-point coordinates. The 2D counterpart to **AABB** is :ref:`Rect2<class_Rect2>`. There is no version of **AABB** that uses integer coordinates.
+Utilizza coordinate in virgola mobile. La controparte 2D a **AABB** è :ref:`Rect2<class_Rect2>`. Non esiste una versione di **AABB** che utilizza coordinate intere.
 
-\ **Note:** Negative values for :ref:`size<class_AABB_property_size>` are not supported. With negative size, most **AABB** methods do not work correctly. Use :ref:`abs()<class_AABB_method_abs>` to get an equivalent **AABB** with a non-negative size.
+\ **Nota:** I valori negativi per :ref:`size<class_AABB_property_size>` non sono supportati. Con dimensioni negative, la maggior parte dei metodi **AABB** non funzionano correttamente. Utilizza :ref:`abs()<class_AABB_method_abs>` per ottenere un **AABB** equivalente con una dimensione non negativa.
 
-\ **Note:** In a boolean context, an **AABB** evaluates to ``false`` if both :ref:`position<class_AABB_property_position>` and :ref:`size<class_AABB_property_size>` are zero (equal to :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`). Otherwise, it always evaluates to ``true``.
+\ **Nota:** In un contesto booleano, un **AABB** è valutato come ``false`` se sia :ref:`position<class_AABB_property_position>` sia :ref:`size<class_AABB_property_size>` sono zero (pari a :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`). Altrimenti, è sempre valutato come ``true``.
 
 .. note::
 
@@ -361,7 +361,7 @@ Restituisce il punto centrale della bounding box. Questo è equivalente a ``posi
 
 :ref:`Vector3<class_Vector3>` **get_endpoint**\ (\ idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_AABB_method_get_endpoint>`
 
-Returns the position of one of the 8 vertices that compose this bounding box. With an ``idx`` of ``0`` this is the same as :ref:`position<class_AABB_property_position>`, and an ``idx`` of ``7`` is the same as :ref:`end<class_AABB_property_end>`.
+Restituisce la posizione di uno degli 8 vertici che compongono questa bounding box. Con un ``idx`` di ``0`` è la stessa di :ref:`position<class_AABB_property_position>`, e un ``idx`` di ``7`` è la stessa di :ref:`end<class_AABB_property_end>`.
 
 .. rst-class:: classref-item-separator
 
@@ -523,7 +523,7 @@ Restituisce il volume della bounding box. Questo è equivalente a ``size.x * siz
 
 :ref:`AABB<class_AABB>` **grow**\ (\ by\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_AABB_method_grow>`
 
-Restituisce una copia di questa bounding box estesa su tutti i lati dalla quantità fornita (``by``). Una quantità negativa invece restringe la scatola.
+Restituisce una copia di questa bounding box estesa su tutti i lati dalla quantità fornita (``by``). Una quantità negativa invece restringe il box.
 
 
 .. tabs::

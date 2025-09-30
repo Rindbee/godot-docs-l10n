@@ -14,7 +14,7 @@ Sonda di illuminazione globale (GI) in tempo reale.
 Descrizione
 ----------------------
 
-I **VoxelGI** sono utilizzati per fornire alle scene una luce indiretta e riflessi, in tempo reale e in alta qualità. Essi precalcolano l'effetto degli oggetti che emettono luce e l'effetto della geometria statica per simulare il comportamento di luce complessa in tempo reale. I **VoxelGI** devono essere precalcolati prima di avere un effetto visibile. Tuttavia, una volta precalcolati, gli oggetti dinamici riceveranno luce da essi. Inoltre, le luci possono essere completamente dinamiche o precalcolate.
+I **VoxelGI** servono per fornire alle scene una luce indiretta e riflessi, in tempo reale e in alta qualità. Essi precalcolano l'effetto degli oggetti che emettono luce e l'effetto della geometria statica per simulare il comportamento di luce complessa in tempo reale. I **VoxelGI** devono essere precalcolati prima di avere un effetto visibile. Tuttavia, una volta precalcolati, gli oggetti dinamici riceveranno luce da essi. Inoltre, le luci possono essere completamente dinamiche o precalcolate.
 
 \ **Nota:** **VoxelGI** è supportato solo nel metodo di rendering Forward+, non Mobile o Compatibilità.
 

@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/DirAccess.xml.
+.. meta::
+	:keywords: directory, path, folder
 
 .. _class_DirAccess:
 
@@ -17,11 +17,11 @@ Fornisce metodi per gestire le cartelle e il loro contenuto.
 Descrizione
 ----------------------
 
-Questa classe è utilizzata per gestire le cartelle (directory) e il loro contenuto, anche al di fuori della cartella del progetto.
+Questa classe serve per gestire le cartelle (directory) e il loro contenuto, anche al di fuori della cartella del progetto.
 
 \ **DirAccess** non può essere istanziato direttamente. Invece viene creato con un metodo statico che accetta un percorso per il quale verrà aperto.
 
-La maggior parte dei metodi ha un'alternativa statica che può essere utilizzata senza creare un **DirAccess**. I metodi statici supportano solo percorsi assoluti (inclusi ``res://`` e ``user://``).
+La maggior parte dei metodi ha un'alternativa statica che si può utilizzare senza creare un **DirAccess**. I metodi statici supportano solo percorsi assoluti (inclusi ``res://`` e ``user://``).
 
 ::
 
@@ -439,13 +439,13 @@ Usa :ref:`get_directories()<class_DirAccess_method_get_directories>` se si desid
 
 :ref:`int<class_int>` **get_drive_count**\ (\ ) |static| :ref:`🔗<class_DirAccess_method_get_drive_count>`
 
-On Windows, returns the number of drives (partitions) mounted on the current filesystem.
+Su Windows, restituisce il numero di unità (partizioni) montate sul file system attuale.
 
-On macOS and Android, returns the number of mounted volumes.
+Su macOS e Android, restituisce il numero di volumi montati.
 
-On Linux, returns the number of mounted volumes and GTK 3 bookmarks.
+Su Linux, restituisce il numero di volumi montati e segnalibri GTK 3.
 
-On other platforms, the method returns 0.
+Su altre piattaforme, il metodo restituisce 0.
 
 .. rst-class:: classref-item-separator
 
@@ -457,15 +457,15 @@ On other platforms, the method returns 0.
 
 :ref:`String<class_String>` **get_drive_name**\ (\ idx\: :ref:`int<class_int>`\ ) |static| :ref:`🔗<class_DirAccess_method_get_drive_name>`
 
-On Windows, returns the name of the drive (partition) passed as an argument (e.g. ``C:``).
+Su Windows, restituisce il nome dell'unità (partizione) passata come argomento (ad esempio ``C:``).
 
-On macOS, returns the path to the mounted volume passed as an argument.
+Su macOS, restituisce il percorso al volume montato passato come argomento.
 
-On Linux, returns the path to the mounted volume or GTK 3 bookmark passed as an argument.
+Su Linux, restituisce il percorso al volume montato o al segnalibro GTK 3 passato come argomento.
 
-On Android (API level 30+), returns the path to the mounted volume as an argument.
+Su Android (livello API 30+), restituisce il percorso al volume montato come argomento.
 
-On other platforms, or if the requested drive does not exist, the method returns an empty String.
+Su altre piattaforme, o se l'unità richiesta non esiste, il metodo restituisce una stringa vuota.
 
 .. rst-class:: classref-item-separator
 
@@ -509,9 +509,9 @@ Usa :ref:`get_files()<class_DirAccess_method_get_files>` se si desidera più con
 
 :ref:`String<class_String>` **get_filesystem_type**\ (\ ) |const| :ref:`🔗<class_DirAccess_method_get_filesystem_type>`
 
-Returns file system type name of the current directory's disk. Returned values are uppercase strings like ``NTFS``, ``FAT32``, ``EXFAT``, ``APFS``, ``EXT4``, ``BTRFS``, and so on.
+Restituisce il nome del tipo di file system del disco della cartella attuale. I valori restituiti sono stringhe maiuscole come ``NTFS``, ``FAT32``, ``EXFAT``, ``APFS``, ``EXT4``, ``BTRFS`` e così via.
 
-\ **Note:** This method is implemented on macOS, Linux, Windows and for PCK virtual file system.
+\ **Nota:** Questo metodo è implementato su macOS, Linux, Windows e per il file system virtuale dei PCK.
 
 .. rst-class:: classref-item-separator
 
@@ -589,7 +589,7 @@ Restituisce ``true`` se il file system o la cartella utilizzano nomi di file sen
 
 :ref:`bool<class_bool>` **is_equivalent**\ (\ path_a\: :ref:`String<class_String>`, path_b\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_DirAccess_method_is_equivalent>`
 
-Returns ``true`` if paths ``path_a`` and ``path_b`` resolve to the same file system object. Returns ``false`` otherwise, even if the files are bit-for-bit identical (e.g., identical copies of the file that are not symbolic links).
+Restituisce ``true`` se i percorsi ``path_a`` e ``path_b`` risolvono nello stesso oggetto del file system. Restituisce ``false`` altrimenti, anche se i file sono identici bit per bit (ad esempio, copie identiche del file che non sono collegamenti simbolici).
 
 .. rst-class:: classref-item-separator
 
@@ -711,7 +711,7 @@ Restituisce ``null`` se l'apertura della cartella non avviene con successo. È p
 
 Restituisce la destinazione del collegamento simbolico.
 
-\ **Nota:** Questo metodo è implementato su macOS, Linux, and Windows.
+\ **Nota:** Questo metodo è implementato su macOS, Linux e Windows.
 
 .. rst-class:: classref-item-separator
 

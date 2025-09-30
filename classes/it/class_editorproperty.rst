@@ -535,9 +535,9 @@ Se una o più proprietà sono state cambiate, è necessario richiamare questa fu
 
 :ref:`Object<class_Object>` **get_edited_object**\ (\ ) :ref:`🔗<class_EditorProperty_method_get_edited_object>`
 
-Returns the edited object.
+Restituisce l'oggetto in fase di modifica.
 
-\ **Note:** This method could return ``null`` if the editor has not yet been associated with a property. However, in :ref:`_update_property()<class_EditorProperty_private_method__update_property>` and :ref:`_set_read_only()<class_EditorProperty_private_method__set_read_only>`, this value is *guaranteed* to be non-``null``.
+\ **Nota:** Questo metodo potrebbe restituire ``null`` se l'editor non è ancora stato associato a una proprietà. Tuttavia, in :ref:`_update_property()<class_EditorProperty_private_method__update_property>` e :ref:`_set_read_only()<class_EditorProperty_private_method__set_read_only>`, è *garantito* che questo valore non sia ``null``.
 
 .. rst-class:: classref-item-separator
 

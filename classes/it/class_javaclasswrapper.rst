@@ -80,18 +80,18 @@ Restituisce l'eccezione Java dall'ultima chiamata in una classe Java. Se non c'�
 
 :ref:`JavaClass<class_JavaClass>` **wrap**\ (\ name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_JavaClassWrapper_method_wrap>`
 
-Wraps a class defined in Java, and returns it as a :ref:`JavaClass<class_JavaClass>` :ref:`Object<class_Object>` type that Godot can interact with.
+Effettua un wrapping su una classe definita in Java e la restituisce come un tipo :ref:`JavaClass<class_JavaClass>` :ref:`Object<class_Object>` con cui Godot può interagire.
 
-When wrapping inner (nested) classes, use ``$`` instead of ``.`` to separate them. For example, ``JavaClassWrapper.wrap("android.view.WindowManager$LayoutParams")`` wraps the **WindowManager.LayoutParams** class.
+Quando si effettua un wrapping sulle classi interne (annidate), utilizzare ``$`` anziché ``.`` per separarle. Ad esempio, ``JavaClassWrapper.wrap("android.view.WindowManager$LayoutParams")`` effettua un wrapping sulla classe **WindowManager.LayoutParams**.
 
-\ **Note:** To invoke a constructor, call a method with the same name as the class. For example:
+\ **Nota:** Per richiamare un costruttore, chiama un metodo con lo stesso nome della classe. Ad esempio:
 
 ::
 
     var Intent = JavaClassWrapper.wrap("android.content.Intent")
     var intent = Intent.Intent()
 
-\ **Note:** This method only works on Android. On every other platform, this method does nothing and returns an empty :ref:`JavaClass<class_JavaClass>`.
+\ **Nota:** Questo metodo funziona solo su Android. Su tutte le altre piattaforme, questo metodo non fa nulla e restituisce un :ref:`JavaClass<class_JavaClass>` vuoto.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -1711,7 +1711,7 @@ Spostamento di bit del primo flag di compressione. I flag di compressione devono
 
 :ref:`ArrayFormat<enum_RenderingServer_ArrayFormat>` **ARRAY_FLAG_USE_2D_VERTICES** = ``33554432``
 
-Flag utilizzato per contrassegnare che l'array contiene vertici 2D.
+Flag usato per indicare che l'array contiene vertici 2D.
 
 .. _class_RenderingServer_constant_ARRAY_FLAG_USE_DYNAMIC_UPDATE:
 
@@ -1719,7 +1719,7 @@ Flag utilizzato per contrassegnare che l'array contiene vertici 2D.
 
 :ref:`ArrayFormat<enum_RenderingServer_ArrayFormat>` **ARRAY_FLAG_USE_DYNAMIC_UPDATE** = ``67108864``
 
-Flag used to mark that the mesh data will use ``GL_DYNAMIC_DRAW`` on GLES. Unused on Vulkan.
+Flag usato per indicare che i dati della mesh utilizzeranno ``GL_DYNAMIC_DRAW`` su GLES. Non usato su Vulkan.
 
 .. _class_RenderingServer_constant_ARRAY_FLAG_USE_8_BONE_WEIGHTS:
 
@@ -1743,7 +1743,7 @@ Flag utilizzato per indicare che la mesh non ha un array di vertici e che invece
 
 :ref:`ArrayFormat<enum_RenderingServer_ArrayFormat>` **ARRAY_FLAG_COMPRESS_ATTRIBUTES** = ``536870912``
 
-Flag utilizzato per contrassegnare che una mesh sta utilizzando attributi compressi (vertici, normali, tangenti, UV). Quando questa forma di compressione è abilitata, le posizioni dei vertici saranno compresse in un attributo RGBA16UNORM e ridimensionate nello shader dei vertici. La normale e la tangente saranno compresse in un RG16UNORM che rappresenta un asse e un float a 16 bit memorizzato nel canale A del vertice. Gli UV utilizzeranno float normalizzati a 16 bit anziché float con segno a 32 bit completi. Quando si utilizza questa modalità di compressione, è necessario utilizzare vertici, normali e tangenti o solo vertici. Non è possibile utilizzare normali senza tangenti. Gli importatori abiliteranno automaticamente questa compressione se possibile.
+Flag usato per indicare che una mesh sta usando attributi compressi (vertici, normali, tangenti, UV). Quando questa forma di compressione è abilitata, le posizioni dei vertici saranno compresse in un attributo RGBA16UNORM e ridimensionate nello shader dei vertici. La normale e la tangente saranno compresse in un RG16UNORM che rappresenta un asse e un float a 16 bit memorizzato nel canale A del vertice. Gli UV utilizzeranno float normalizzati a 16 bit anziché float con segno a 32 bit completi. Quando si utilizza questa modalità di compressione, è necessario utilizzare vertici, normali e tangenti o solo vertici. Non è possibile utilizzare normali senza tangenti. Gli importatori abiliteranno automaticamente questa compressione se possibile.
 
 .. _class_RenderingServer_constant_ARRAY_FLAG_FORMAT_VERSION_BASE:
 
@@ -3389,7 +3389,7 @@ Usa un antialiasing approssimativo veloce. FXAA è un metodo di antialiasing spa
 
 :ref:`ViewportScreenSpaceAA<enum_RenderingServer_ViewportScreenSpaceAA>` **VIEWPORT_SCREEN_SPACE_AA_SMAA** = ``2``
 
-Use subpixel morphological antialiasing. SMAA may produce clearer results than FXAA, but at a slightly higher performance cost.
+Utilizza l'antialiasing morfologico subpixel. SMAA può produrre risultati più nitidi di FXAA, ma con un costo in termini di prestazioni leggermente superiore.
 
 .. _class_RenderingServer_constant_VIEWPORT_SCREEN_SPACE_AA_MAX:
 
@@ -3587,9 +3587,9 @@ Al posto della scena regolare viene disegnato il buffer delle normali, in modo d
 
 :ref:`ViewportDebugDraw<enum_RenderingServer_ViewportDebugDraw>` **VIEWPORT_DEBUG_DRAW_VOXEL_GI_ALBEDO** = ``6``
 
-Objects are displayed with only the albedo value from :ref:`VoxelGI<class_VoxelGI>`\ s. Requires at least one visible :ref:`VoxelGI<class_VoxelGI>` node that has been baked to have a visible effect.
+Gli oggetti sono visualizzati solo con il valore di albedo dai :ref:`VoxelGI<class_VoxelGI>`. Richiede almeno un nodo :ref:`VoxelGI<class_VoxelGI>` visibile che è stato elaborato affinché abbia un effetto tangibile.
 
-\ **Note:** Only supported when using the Forward+ rendering method.
+\ **Nota:** Supportato solo quando si utilizza il metodo di rendering Forward+.
 
 .. _class_RenderingServer_constant_VIEWPORT_DEBUG_DRAW_VOXEL_GI_LIGHTING:
 
@@ -3597,9 +3597,9 @@ Objects are displayed with only the albedo value from :ref:`VoxelGI<class_VoxelG
 
 :ref:`ViewportDebugDraw<enum_RenderingServer_ViewportDebugDraw>` **VIEWPORT_DEBUG_DRAW_VOXEL_GI_LIGHTING** = ``7``
 
-Objects are displayed with only the lighting value from :ref:`VoxelGI<class_VoxelGI>`\ s. Requires at least one visible :ref:`VoxelGI<class_VoxelGI>` node that has been baked to have a visible effect.
+Gli oggetti sono visualizzati solo con il valore di illuminazione dai :ref:`VoxelGI<class_VoxelGI>`. Richiede almeno un nodo :ref:`VoxelGI<class_VoxelGI>` visibile che è stato elaborato affinché abbia un effetto tangibile.
 
-\ **Note:** Only supported when using the Forward+ rendering method.
+\ **Nota:** Supportato solo quando si utilizza il metodo di rendering Forward+.
 
 .. _class_RenderingServer_constant_VIEWPORT_DEBUG_DRAW_VOXEL_GI_EMISSION:
 
@@ -3607,9 +3607,9 @@ Objects are displayed with only the lighting value from :ref:`VoxelGI<class_Voxe
 
 :ref:`ViewportDebugDraw<enum_RenderingServer_ViewportDebugDraw>` **VIEWPORT_DEBUG_DRAW_VOXEL_GI_EMISSION** = ``8``
 
-Objects are displayed with only the emission color from :ref:`VoxelGI<class_VoxelGI>`\ s. Requires at least one visible :ref:`VoxelGI<class_VoxelGI>` node that has been baked to have a visible effect.
+Gli oggetti sono visualizzati solo con il colore di emissione dai :ref:`VoxelGI<class_VoxelGI>`. Richiede almeno un nodo :ref:`VoxelGI<class_VoxelGI>` visibile che è stato elaborato affinché abbia un effetto tangibile.
 
-\ **Note:** Only supported when using the Forward+ rendering method.
+\ **Nota:** Supportato solo quando si utilizza il metodo di rendering Forward+.
 
 .. _class_RenderingServer_constant_VIEWPORT_DEBUG_DRAW_SHADOW_ATLAS:
 
@@ -3709,9 +3709,9 @@ Disegna i dati delle sonde SDFGI. Questa è la struttura dati utilizzata per dar
 
 :ref:`ViewportDebugDraw<enum_RenderingServer_ViewportDebugDraw>` **VIEWPORT_DEBUG_DRAW_GI_BUFFER** = ``18``
 
-Draws the global illumination buffer from :ref:`VoxelGI<class_VoxelGI>` or SDFGI. Requires :ref:`VoxelGI<class_VoxelGI>` (at least one visible baked VoxelGI node) or SDFGI (:ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>`) to be enabled to have a visible effect.
+Disegna il buffer dell'illuminazione globale da :ref:`VoxelGI<class_VoxelGI>` o SDFGI. Richiede che :ref:`VoxelGI<class_VoxelGI>` (almeno un nodo VoxelGI elaborato visibile) o SDFGI (:ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>`) sia abilitato affinché abbia un effetto tangibile.
 
-\ **Note:** Only supported when using the Forward+ rendering method.
+\ **Nota:** Supportato solo quando si utilizza il metodo di rendering Forward+.
 
 .. _class_RenderingServer_constant_VIEWPORT_DEBUG_DRAW_DISABLE_LOD:
 
@@ -5145,7 +5145,7 @@ enum **NinePatchAxisMode**: :ref:`🔗<enum_RenderingServer_NinePatchAxisMode>`
 
 :ref:`NinePatchAxisMode<enum_RenderingServer_NinePatchAxisMode>` **NINE_PATCH_STRETCH** = ``0``
 
-Il nove-sezioni è esteso dove necessario.
+Il nove-sezioni è stirato dove necessario.
 
 .. _class_RenderingServer_constant_NINE_PATCH_TILE:
 
@@ -5153,7 +5153,7 @@ Il nove-sezioni è esteso dove necessario.
 
 :ref:`NinePatchAxisMode<enum_RenderingServer_NinePatchAxisMode>` **NINE_PATCH_TILE** = ``1``
 
-Il nove-toppe è riempito con piastrelle ripetute dove necessario.
+Il nove-sezioni è riempito con piastrelle ripetute dove necessario.
 
 .. _class_RenderingServer_constant_NINE_PATCH_TILE_FIT:
 
@@ -5161,7 +5161,7 @@ Il nove-toppe è riempito con piastrelle ripetute dove necessario.
 
 :ref:`NinePatchAxisMode<enum_RenderingServer_NinePatchAxisMode>` **NINE_PATCH_TILE_FIT** = ``2``
 
-Il nove-toppe è riempito con piastrelle ripetute dove necessario, e le estende un po' se necessario.
+Il nove-sezioni è riempito con piastrelle ripetute dove necessario, e le stira un po' se necessario.
 
 .. rst-class:: classref-item-separator
 
@@ -5203,9 +5203,9 @@ Il filtro della texture fonde tra i 4 pixel più vicini. Ciò rende la texture l
 
 :ref:`CanvasItemTextureFilter<enum_RenderingServer_CanvasItemTextureFilter>` **CANVAS_ITEM_TEXTURE_FILTER_NEAREST_WITH_MIPMAPS** = ``3``
 
-The texture filter reads from the nearest pixel and blends between the nearest 2 mipmaps (or uses the nearest mipmap if :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` is ``true``). This makes the texture look pixelated from up close, and smooth from a distance.
+Il filtro della texture legge dal pixel più vicino e lo fonde tra le 2 mipmap più vicine (o usa la mipmap più vicina se :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` è ``true``). Ciò rende la texture pixelata da vicino, e liscia da lontano.
 
-Use this for non-pixel art textures that may be viewed at a low scale (e.g. due to :ref:`Camera2D<class_Camera2D>` zoom or sprite scaling), as mipmaps are important to smooth out pixels that are smaller than on-screen pixels.
+Usa questo filtro per texture non pixel art che potrebbero visualizzarsi a bassa scala (ad esempio a causa dello zoom :ref:`Camera2D<class_Camera2D>` o del ridimensionamento degli sprite), poiché le mipmap sono importanti per smussare i pixel più piccoli dei pixel sullo schermo.
 
 .. _class_RenderingServer_constant_CANVAS_ITEM_TEXTURE_FILTER_LINEAR_WITH_MIPMAPS:
 
@@ -5213,9 +5213,9 @@ Use this for non-pixel art textures that may be viewed at a low scale (e.g. due 
 
 :ref:`CanvasItemTextureFilter<enum_RenderingServer_CanvasItemTextureFilter>` **CANVAS_ITEM_TEXTURE_FILTER_LINEAR_WITH_MIPMAPS** = ``4``
 
-The texture filter blends between the nearest 4 pixels and between the nearest 2 mipmaps (or uses the nearest mipmap if :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` is ``true``). This makes the texture look smooth from up close, and smooth from a distance.
+Il filtro della texture fonde tra i 4 pixel più vicini e tra le 2 mipmap più vicine (o usa la mipmap più vicina se :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` è ``true``). Ciò rende la texture liscia da vicino, e liscia da lontano.
 
-Use this for non-pixel art textures that may be viewed at a low scale (e.g. due to :ref:`Camera2D<class_Camera2D>` zoom or sprite scaling), as mipmaps are important to smooth out pixels that are smaller than on-screen pixels.
+Usa questo filtro per texture non pixel art che potrebbero visualizzarsi a bassa scala (ad esempio a causa dello zoom :ref:`Camera2D<class_Camera2D>` o del ridimensionamento degli sprite), poiché le mipmap sono importanti per smussare i pixel più piccoli dei pixel sullo schermo.
 
 .. _class_RenderingServer_constant_CANVAS_ITEM_TEXTURE_FILTER_NEAREST_WITH_MIPMAPS_ANISOTROPIC:
 
@@ -5717,7 +5717,7 @@ Tipo campionatore di cubemap per un parametro di shader globale (``global unifor
 
 :ref:`GlobalShaderParameterType<enum_RenderingServer_GlobalShaderParameterType>` **GLOBAL_VAR_TYPE_SAMPLEREXT** = ``28``
 
-External sampler global shader parameter (``global uniform samplerExternalOES ...``). Exposed as an :ref:`ExternalTexture<class_ExternalTexture>` in the editor UI.
+Tipo campionatore esterno per un parametro di shader globale (``global uniform samplerExternalOES ...``). Esposto come :ref:`ExternalTexture<class_ExternalTexture>` nell'interfaccia utente dell'editor.
 
 .. _class_RenderingServer_constant_GLOBAL_VAR_TYPE_MAX:
 
@@ -5807,7 +5807,7 @@ Numero di compilazioni delle pipeline che sono state attivate caricando le mesh.
 
 :ref:`RenderingInfo<enum_RenderingServer_RenderingInfo>` **RENDERING_INFO_PIPELINE_COMPILATIONS_SURFACE** = ``8``
 
-Number of pipeline compilations that were triggered by building the surface cache before rendering the scene. These compilations will show up as a stutter when loading a scene the first time a user runs the game and the pipeline is required.
+Numero di compilazioni delle pipeline che sono state attivate creando la cache delle superfici prima di renderizzare la scena. Queste compilazioni appariranno come uno stutter quando viene caricata una scena la prima volta che un utente esegue il gioco e la pipeline viene richiesta.
 
 .. _class_RenderingServer_constant_RENDERING_INFO_PIPELINE_COMPILATIONS_DRAW:
 
@@ -6137,7 +6137,7 @@ Prepara i dati dei materiali della Mesh passati nel parametro ``base`` con sosti
 
 |void| **call_on_render_thread**\ (\ callable\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_RenderingServer_method_call_on_render_thread>`
 
-As the RenderingServer actual logic may run on a separate thread, accessing its internals from the main (or any other) thread will result in errors. To make it easier to run code that can safely access the rendering internals (such as :ref:`RenderingDevice<class_RenderingDevice>` and similar RD classes), push a callable via this function so it will be executed on the render thread.
+Poiché è possibile eseguire la logica effettiva del RenderingServer su un thread separato, l'accesso ai suoi componenti interni dal thread principale (o da qualsiasi altro) causerà errori. Per semplificare l'esecuzione di codice che può accedere in modo sicuro ai componenti interni di rendering (come :ref:`RenderingDevice<class_RenderingDevice>` e classi RD simili), passare un chiamabile attraverso questa funzione affinché sia eseguito sul thread di rendering.
 
 .. rst-class:: classref-item-separator
 
@@ -7877,7 +7877,7 @@ Imposta la qualità del filtro per le ombre delle luci direzionali in 3D su ``qu
 
 :ref:`Image<class_Image>` **environment_bake_panorama**\ (\ environment\: :ref:`RID<class_RID>`, bake_irradiance\: :ref:`bool<class_bool>`, size\: :ref:`Vector2i<class_Vector2i>`\ ) :ref:`🔗<class_RenderingServer_method_environment_bake_panorama>`
 
-Genera e restituisce un':ref:`Image<class_Image>` contenente la mappa di radianza per il cielo dell'ambiente con il RID ``environment``. Supporta i materiali integrati di cielo e gli shader personalizzati di cielo. Se ``bake_irradiance`` è ``true``, viene salvata la mappa di irradianza invece di radianza. La mappa di radianza è utilizzata per renderizzare la luce riflessa, mentre la mappa di irradianza è utilizzata per renderizzare la luce ambientale. Vedi anche :ref:`sky_bake_panorama()<class_RenderingServer_method_sky_bake_panorama>`.
+Genera e restituisce un':ref:`Image<class_Image>` contenente la mappa di radianza per il cielo dell'ambiente con il RID ``environment``. Supporta i materiali integrati di cielo e gli shader personalizzati di cielo. Se ``bake_irradiance`` è ``true``, viene salvata la mappa di irradianza invece di radianza. La mappa di radianza serve per renderizzare la luce riflessa, mentre la mappa di irradianza serve per renderizzare la luce ambientale. Vedi anche :ref:`sky_bake_panorama()<class_RenderingServer_method_sky_bake_panorama>`.
 
 \ **Nota:** L'immagine viene salvata nello spazio colore lineare senza alcuna mappatura dei toni, il che significa che apparirà troppo scura se visualizzata direttamente in un editor di immagini.
 
@@ -8079,7 +8079,7 @@ Imposta la frequenza di aggiornamento per l'illuminazione indiretta delle luci d
 
 |void| **environment_set_sdfgi_ray_count**\ (\ ray_count\: :ref:`EnvironmentSDFGIRayCount<enum_RenderingServer_EnvironmentSDFGIRayCount>`\ ) :ref:`🔗<class_RenderingServer_method_environment_set_sdfgi_ray_count>`
 
-Imposta il numero di raggi da proiettare per frame quando si calcola l'illuminazione globale del campo di distanza con segno. Equivale a :ref:`ProjectSettings.rendering/global enlightenment/sdfgi/probe_ray_count<class_ProjectSettings_property_rendering/global enlightenment/sdfgi/probe_ray_count>`.
+Imposta il numero di raggi da proiettare per frame quando si calcola l'illuminazione globale del campo di distanza con segno. Equivale a :ref:`ProjectSettings.rendering/global_illumination/sdfgi/probe_ray_count<class_ProjectSettings_property_rendering/global_illumination/sdfgi/probe_ray_count>`.
 
 .. rst-class:: classref-item-separator
 
@@ -8325,13 +8325,13 @@ Prova a liberare un oggetto nel RenderingServer. Per evitare perdite di memoria,
 
 :ref:`String<class_String>` **get_current_rendering_driver_name**\ (\ ) |const| :ref:`🔗<class_RenderingServer_method_get_current_rendering_driver_name>`
 
-Returns the name of the current rendering driver. This can be ``vulkan``, ``d3d12``, ``metal``, ``opengl3``, ``opengl3_es``, or ``opengl3_angle``. See also :ref:`get_current_rendering_method()<class_RenderingServer_method_get_current_rendering_method>`.
+Restituisce il nome del driver di rendering attuale. Può essere ``vulkan``, ``d3d12``, ``metal``, ``opengl3``, ``opengl3_es`` o ``opengl3_angle``. Vedi anche :ref:`get_current_rendering_method()<class_RenderingServer_method_get_current_rendering_method>`.
 
-When :ref:`ProjectSettings.rendering/renderer/rendering_method<class_ProjectSettings_property_rendering/renderer/rendering_method>` is ``forward_plus`` or ``mobile``, the rendering driver is determined by :ref:`ProjectSettings.rendering/rendering_device/driver<class_ProjectSettings_property_rendering/rendering_device/driver>`.
+Quando :ref:`ProjectSettings.rendering/renderer/rendering_method<class_ProjectSettings_property_rendering/renderer/rendering_method>` è impostato su ``forward_plus`` o ``mobile``, il driver di rendering è determinato da :ref:`ProjectSettings.rendering/rendering_device/driver<class_ProjectSettings_property_rendering/rendering_device/driver>`.
 
-When :ref:`ProjectSettings.rendering/renderer/rendering_method<class_ProjectSettings_property_rendering/renderer/rendering_method>` is ``gl_compatibility``, the rendering driver is determined by :ref:`ProjectSettings.rendering/gl_compatibility/driver<class_ProjectSettings_property_rendering/gl_compatibility/driver>`.
+Quando :ref:`ProjectSettings.rendering/renderer/rendering_method<class_ProjectSettings_property_rendering/renderer/rendering_method>` è impostato su ``gl_compatibility``, il driver di rendering è determinato da :ref:`ProjectSettings.rendering/gl_compatibility/driver<class_ProjectSettings_property_rendering/gl_compatibility/driver>`.
 
-The rendering driver is also determined by the ``--rendering-driver`` command line argument that overrides this project setting, or an automatic fallback that is applied depending on the hardware.
+Il driver di rendering è determinato anche dall'argomento della riga di comando ``--rendering-driver`` che sovrascrive questa impostazione del progetto, o da un'alternativa applicata automaticamente in base all'hardware.
 
 .. rst-class:: classref-item-separator
 
@@ -8963,7 +8963,7 @@ Imposta gli strati di rendering su cui verrà disegnata questa istanza. Equivale
 
 |void| **instance_set_pivot_data**\ (\ instance\: :ref:`RID<class_RID>`, sorting_offset\: :ref:`float<class_float>`, use_aabb_center\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_RenderingServer_method_instance_set_pivot_data>`
 
-Imposta l'offset di ordinamento e alterna tra l'utilizzo del bounding box o dell'origine dell'istanza per l'ordinamento in base alla profondità.
+Imposta l'offset di ordinamento e alterna tra l'utilizzo della bounding box o dell'origine dell'istanza per l'ordinamento in base alla profondità.
 
 .. rst-class:: classref-item-separator
 
@@ -9035,7 +9035,7 @@ Imposta se un'istanza viene disegnata o meno. Equivale a :ref:`Node3D.visible<cl
 
 |void| **instance_teleport**\ (\ instance\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_RenderingServer_method_instance_teleport>`
 
-Resets motion vectors and other interpolated values. Use this *after* teleporting a mesh from one position to another to avoid ghosting artifacts.
+Ripristina i vettori di movimento e altri valori interpolati. Utilizza questo *dopo* aver teletrasportato una mesh da una posizione all'altra per evitare artefatti di ghosting.
 
 .. rst-class:: classref-item-separator
 
@@ -9863,7 +9863,7 @@ Imposta il materiale della superficie di una mesh.
 
 |void| **mesh_surface_update_index_region**\ (\ mesh\: :ref:`RID<class_RID>`, surface\: :ref:`int<class_int>`, offset\: :ref:`int<class_int>`, data\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_RenderingServer_method_mesh_surface_update_index_region>`
 
-Updates the index buffer of the mesh surface with the given ``data``. The expected data are 16 or 32-bit unsigned integers, which can be determined with :ref:`mesh_surface_get_format_index_stride()<class_RenderingServer_method_mesh_surface_get_format_index_stride>`.
+Aggiorna il buffer di indici della superficie della mesh con i dati ``data`` specificati. I dati previsti sono interi senza segno a 16 o 32 bit, il che si può determinare con :ref:`mesh_surface_get_format_index_stride()<class_RenderingServer_method_mesh_surface_get_format_index_stride>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11445,7 +11445,7 @@ Restituisce il numero di ossa assegnate a questo scheletro.
 
 :ref:`Image<class_Image>` **sky_bake_panorama**\ (\ sky\: :ref:`RID<class_RID>`, energy\: :ref:`float<class_float>`, bake_irradiance\: :ref:`bool<class_bool>`, size\: :ref:`Vector2i<class_Vector2i>`\ ) :ref:`🔗<class_RenderingServer_method_sky_bake_panorama>`
 
-Genera e restituisce un':ref:`Image<class_Image>` contenente la mappa di radianza per il cielo con il RID ``sky``. Supporta i materiali integrati di cielo e gli shader personalizzati di cielo. Se ``bake_irradiance`` è ``true``, viene salvata la mappa di irradianza invece di radianza. La mappa di radianza è utilizzata per renderizzare la luce riflessa, mentre la mappa di irradianza è utilizzata per renderizzare la luce ambientale. Vedi anche :ref:`environment_bake_panorama()<class_RenderingServer_method_environment_bake_panorama>`.
+Genera e restituisce un':ref:`Image<class_Image>` contenente la mappa di radianza per il cielo con il RID ``sky``. Supporta i materiali integrati di cielo e gli shader personalizzati di cielo. Se ``bake_irradiance`` è ``true``, viene salvata la mappa di irradianza invece di radianza. La mappa di radianza serve per renderizzare la luce riflessa, mentre la mappa di irradianza serve per renderizzare la luce ambientale. Vedi anche :ref:`environment_bake_panorama()<class_RenderingServer_method_environment_bake_panorama>`.
 
 \ **Nota:** L'immagine viene salvata nello spazio colore lineare senza alcuna mappatura dei toni, il che significa che apparirà troppo scura se visualizzata direttamente in un editor di immagini. È possibile usare valori per ``energy`` superiori a ``1.0`` per schiarire l'immagine risultante.
 
@@ -12474,7 +12474,7 @@ Imposta quando la viewport si dovrebbe aggiornare.
 
 |void| **viewport_set_use_debanding**\ (\ viewport\: :ref:`RID<class_RID>`, enable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_RenderingServer_method_viewport_set_use_debanding>`
 
-Equivalent to :ref:`Viewport.use_debanding<class_Viewport_property_use_debanding>`. See also :ref:`ProjectSettings.rendering/anti_aliasing/quality/use_debanding<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_debanding>`.
+Equivale a :ref:`Viewport.use_debanding<class_Viewport_property_use_debanding>`. Vedi anche :ref:`ProjectSettings.rendering/anti_aliasing/quality/use_debanding<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_debanding>`.
 
 .. rst-class:: classref-item-separator
 
@@ -12486,11 +12486,11 @@ Equivalent to :ref:`Viewport.use_debanding<class_Viewport_property_use_debanding
 
 |void| **viewport_set_use_hdr_2d**\ (\ viewport\: :ref:`RID<class_RID>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_RenderingServer_method_viewport_set_use_hdr_2d>`
 
-If ``true``, 2D rendering will use a high dynamic range (HDR) format framebuffer matching the bit depth of the 3D framebuffer. When using the Forward+ or Compatibility renderer, this will be an ``RGBA16`` framebuffer. When using the Mobile renderer, it will be an ``RGB10_A2`` framebuffer.
+Se ``true``, il rendering 2D utilizzerà un framebuffer in formato HDR (High Dynamic Range, o "alta gamma dinamica") corrispondente alla profondità di bit del framebuffer 3D. Quando si utilizza il renderer Forward+ o Compatibilità, questo sarà un framebuffer ``RGBA16``, mentre quando si utilizza il renderer Mobile, sarà un framebuffer ``RGB10_A2``.
 
-Additionally, 2D rendering will take place in linear color space and will be converted to sRGB space immediately before blitting to the screen (if the Viewport is attached to the screen).
+Inoltre, il rendering 2D avverrà nello spazio colore lineare e sarà convertito nello spazio sRGB subito prima di essere visualizzato sullo schermo (se la Viewport è collegata allo schermo).
 
-Practically speaking, this means that the end result of the Viewport will not be clamped to the ``0-1`` range and can be used in 3D rendering without color space adjustments. This allows 2D rendering to take advantage of effects requiring high dynamic range (e.g. 2D glow) as well as substantially improves the appearance of effects requiring highly detailed gradients. This setting has the same effect as :ref:`Viewport.use_hdr_2d<class_Viewport_property_use_hdr_2d>`.
+In pratica, ciò significa che il risultato finale della Viewport non sarà limitato nell'intervallo ``0-1`` e si potrà utilizzare nel rendering 3D senza aggiustare lo spazio colore. Ciò consente al rendering 2D di sfruttare gli effetti che richiedono un'elevata gamma dinamica (ad esempio, il bagliore 2D) e migliora sostanzialmente l'aspetto degli effetti che richiedono gradienti molto dettagliati.
 
 .. rst-class:: classref-item-separator
 

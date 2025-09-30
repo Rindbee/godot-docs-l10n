@@ -14,11 +14,11 @@ Un :ref:`Semaphore<class_Semaphore>` binario per la sincronizzazione di più :re
 Descrizione
 ----------------------
 
-Un mutex di sincronizzazione (mutua esclusione). È utilizzato per sincronizzare più :ref:`Thread<class_Thread>` ed è equivalente a un :ref:`Semaphore<class_Semaphore>` binario. Garantisce che solo un thread alla volta possa accedere a una sezione critica.
+Un mutex di sincronizzazione (mutua esclusione). Serve per sincronizzare più :ref:`Thread<class_Thread>` ed è equivalente a un :ref:`Semaphore<class_Semaphore>` binario. Garantisce che solo un thread alla volta possa accedere a una sezione critica.
 
 Questo è un mutex rientrante, il che significa che può essere bloccato più volte da un thread, a condizione che lo sblocchi altrettante volte.
 
-\ **Attenzione:** ÈI mutex devono essere utilizzati con attenzione per evitare deadlock.
+\ **Attenzione:** I mutex si devono utilizzare con attenzione per evitare deadlock.
 
 \ **Attenzione:** Per garantire una pulizia corretta senza arresti anomali o deadlock, devono essere soddisfatte le seguenti condizioni:
 

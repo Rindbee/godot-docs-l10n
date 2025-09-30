@@ -174,7 +174,7 @@ La máscara del botón.
 - |void| **set_passby_press**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_passby_press_enabled**\ (\ )
 
-Si ``true``, las señales :ref:`pressed<class_TouchScreenButton_signal_pressed>` y :ref:`released<class_TouchScreenButton_signal_released>` se emiten cada vez que un dedo presionado entra y sale del botón, incluso si la presión comenzó fuera del área activa del botón.
+Si es ``true``, las señales :ref:`pressed<class_TouchScreenButton_signal_pressed>` y :ref:`released<class_TouchScreenButton_signal_released>` se emiten cada vez que un dedo presionado entra y sale del botón, incluso si la presión comenzó fuera del área activa del botón.
 
 \ **Nota:** Este es un modo de presión de "pasar por" (no "pasar por alto").
 

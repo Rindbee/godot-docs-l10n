@@ -7,14 +7,14 @@ OpenXRFutureResult
 
 **Eredita:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Result object tracking the asynchronous result of an OpenXR Future object.
+Oggetto risultato che tiene traccia del risultato asincrono di un oggetto OpenXR Future.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-Result object tracking the asynchronous result of an OpenXR Future object, you can use this object to track the result status.
+Oggetto risultato che tiene traccia del risultato asincrono di un oggetto OpenXR Future; è possibile utilizzare questo oggetto per tenere traccia dello stato del risultato.
 
 .. rst-class:: classref-reftable-group
 
@@ -51,7 +51,7 @@ Segnali
 
 **completed**\ (\ result\: :ref:`OpenXRFutureResult<class_OpenXRFutureResult>`\ ) :ref:`🔗<class_OpenXRFutureResult_signal_completed>`
 
-Emitted when the asynchronous function is finished or has been cancelled.
+Emesso quando la funzione asincrona ha terminato o è stata annullata.
 
 .. rst-class:: classref-section-separator
 
@@ -74,7 +74,7 @@ enum **ResultStatus**: :ref:`🔗<enum_OpenXRFutureResult_ResultStatus>`
 
 :ref:`ResultStatus<enum_OpenXRFutureResult_ResultStatus>` **RESULT_RUNNING** = ``0``
 
-The asynchronous function is running.
+La funzione asincrona è in esecuzione.
 
 .. _class_OpenXRFutureResult_constant_RESULT_FINISHED:
 
@@ -82,7 +82,7 @@ The asynchronous function is running.
 
 :ref:`ResultStatus<enum_OpenXRFutureResult_ResultStatus>` **RESULT_FINISHED** = ``1``
 
-The asynchronous function has finished.
+La funzione asincrona ha terminato.
 
 .. _class_OpenXRFutureResult_constant_RESULT_CANCELLED:
 
@@ -90,7 +90,7 @@ The asynchronous function has finished.
 
 :ref:`ResultStatus<enum_OpenXRFutureResult_ResultStatus>` **RESULT_CANCELLED** = ``2``
 
-The asynchronous function has been cancelled.
+La funzione asincrona è stata annullata.
 
 .. rst-class:: classref-section-separator
 
@@ -107,7 +107,7 @@ Descrizioni dei metodi
 
 |void| **cancel_future**\ (\ ) :ref:`🔗<class_OpenXRFutureResult_method_cancel_future>`
 
-Cancel this future, this will interrupt and stop the asynchronous function.
+Annulla questo futuro, ciò interromperà e fermerà la funzione asincrona.
 
 .. rst-class:: classref-item-separator
 
@@ -119,7 +119,7 @@ Cancel this future, this will interrupt and stop the asynchronous function.
 
 :ref:`int<class_int>` **get_future**\ (\ ) |const| :ref:`🔗<class_OpenXRFutureResult_method_get_future>`
 
-Return the ``XrFutureEXT`` value this result relates to.
+Restituisce il valore ``XrFutureEXT`` a cui è associato questo risultato.
 
 .. rst-class:: classref-item-separator
 
@@ -131,7 +131,7 @@ Return the ``XrFutureEXT`` value this result relates to.
 
 :ref:`Variant<class_Variant>` **get_result_value**\ (\ ) |const| :ref:`🔗<class_OpenXRFutureResult_method_get_result_value>`
 
-Returns the result value of our asynchronous function (if set by the extension). The type of this result value depends on the function being called. Consult the documentation of the relevant function.
+Restituisce il valore risultante della nostra funzione asincrona (se impostato dall'estensione). Il tipo di questo valore risultante dipende dalla funzione chiamata. Consulta la documentazione della funzione interessata.
 
 .. rst-class:: classref-item-separator
 
@@ -143,7 +143,7 @@ Returns the result value of our asynchronous function (if set by the extension).
 
 :ref:`ResultStatus<enum_OpenXRFutureResult_ResultStatus>` **get_status**\ (\ ) |const| :ref:`🔗<class_OpenXRFutureResult_method_get_status>`
 
-Returns the status of this result.
+Restituisce lo stato di questo risultato.
 
 .. rst-class:: classref-item-separator
 
@@ -155,9 +155,9 @@ Returns the status of this result.
 
 |void| **set_result_value**\ (\ result_value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_OpenXRFutureResult_method_set_result_value>`
 
-Stores the result value we expose to the user.
+Memorizza il valore risultato che esponiamo all'utente.
 
-\ **Note:** This method should only be called by an OpenXR extension that implements an asynchronous function.
+\ **Nota:** Si dovrebbe chiamare questo metodo solo da un'estensione OpenXR che implementa una funzione asincrona.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

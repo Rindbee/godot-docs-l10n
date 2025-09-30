@@ -100,7 +100,7 @@ Descripciones de Propiedades
 - |void| **set_bake_interval**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_bake_interval**\ (\ )
 
-La distancia en píxeles entre dos puntos cacheados adyacentes. Cambiarlo obliga a recomponer la caché la próxima vez que se llame a la función :ref:`get_baked_points()<class_Curve2D_method_get_baked_points>` o :ref:`get_baked_length()<class_Curve2D_method_get_baked_length>`. Cuanto menor sea la distancia, más puntos en el caché y más memoria consumirá, así que úsala con cuidado.
+La distancia en píxeles entre dos puntos cacheados adyacentes. Cambiarlo obliga a recomponer la caché la próxima vez que se llame a la función :ref:`get_baked_points()<class_Curve2D_method_get_baked_points>` o :ref:`get_baked_length()<class_Curve2D_method_get_baked_length>`. Cuanto menor sea la distancia, más puntos en la caché y más memoria consumirá, así que úsala con cuidado.
 
 .. rst-class:: classref-item-separator
 
@@ -172,7 +172,7 @@ Devuelve la longitud total de la curva, basada en los puntos cacheados. Si se le
 
 :ref:`PackedVector2Array<class_PackedVector2Array>` **get_baked_points**\ (\ ) |const| :ref:`🔗<class_Curve2D_method_get_baked_points>`
 
-Devuelve el caché de puntos como un :ref:`PackedVector2Array<class_PackedVector2Array>`.
+Devuelve la caché de puntos como un :ref:`PackedVector2Array<class_PackedVector2Array>`.
 
 .. rst-class:: classref-item-separator
 

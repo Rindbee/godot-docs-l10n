@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/MultiplayerPeer.xml.
+.. meta::
+	:keywords: network
 
 .. _class_MultiplayerPeer:
 
@@ -263,7 +263,7 @@ Il canale da usare per inviare pacchetti. Molte API di rete come ENet e WebRTC c
 - |void| **set_transfer_mode**\ (\ value\: :ref:`TransferMode<enum_MultiplayerPeer_TransferMode>`\ )
 - :ref:`TransferMode<enum_MultiplayerPeer_TransferMode>` **get_transfer_mode**\ (\ )
 
-The manner in which to send packets to the target peer. See the :ref:`set_target_peer()<class_MultiplayerPeer_method_set_target_peer>` method.
+Il modo in cui inviare pacchetti al peer di destinazione. Vedi il metodo :ref:`set_target_peer()<class_MultiplayerPeer_method_set_target_peer>`.
 
 .. rst-class:: classref-section-separator
 
@@ -316,7 +316,7 @@ Restituisce un numero intero generato a caso che può essere utilizzato come ID 
 
 :ref:`ConnectionStatus<enum_MultiplayerPeer_ConnectionStatus>` **get_connection_status**\ (\ ) |const| :ref:`🔗<class_MultiplayerPeer_method_get_connection_status>`
 
-Returns the current state of the connection.
+Restituisce lo stato attuale della connessione.
 
 .. rst-class:: classref-item-separator
 

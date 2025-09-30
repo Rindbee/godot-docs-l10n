@@ -249,9 +249,9 @@ Restituisce i metadati assegnati allo spigolo specificato.
 
 :ref:`int<class_int>` **get_edge_vertex**\ (\ idx\: :ref:`int<class_int>`, vertex\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MeshDataTool_method_get_edge_vertex>`
 
-Returns the index of the specified ``vertex`` connected to the edge at index ``idx``.
+Restituisce l'indice del vertice ``vertex`` connesso allo spigolo all'indice ``idx``.
 
-\ ``vertex`` can only be ``0`` or ``1``, as edges are composed of two vertices.
+\ ``vertex`` può essere solo ``0`` o ``1`` poiché gli spigoli sono composti da due vertici.
 
 .. rst-class:: classref-item-separator
 
@@ -275,9 +275,9 @@ Restituisce il numero di facce in questa :ref:`Mesh<class_Mesh>`.
 
 :ref:`int<class_int>` **get_face_edge**\ (\ idx\: :ref:`int<class_int>`, edge\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MeshDataTool_method_get_face_edge>`
 
-Returns the edge associated with the face at index ``idx``.
+Restituisce lo spigolo associato alla faccia all'indice ``idx``.
 
-\ ``edge`` argument must be either ``0``, ``1``, or ``2`` because a face only has three edges.
+\ ``edge`` deve essere ``0``, ``1`` o ``2`` perché una faccia ha solo tre spigoli.
 
 .. rst-class:: classref-item-separator
 
@@ -315,7 +315,7 @@ Calcola e restituisce la normale alla faccia specificata.
 
 Restituisce l'indice del vertice specificato della faccia fornita.
 
-\ ``vertex`` deve essere ``0``, ``1``, or ``2`` perché le facce contengono tre vertici.
+\ ``vertex`` deve essere ``0``, ``1`` o ``2`` perché le facce contengono tre vertici.
 
 
 .. tabs::

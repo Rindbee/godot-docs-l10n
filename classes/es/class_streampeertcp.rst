@@ -91,7 +91,7 @@ Un estado que representa un **StreamPeerTCP** que está conectado a un host.
 
 :ref:`Status<enum_StreamPeerTCP_Status>` **STATUS_ERROR** = ``3``
 
-Un estado que representa un ``StreamPeerSSL`` en estado de error.
+Un estado que representa un **StreamPeerTCP** en estado de error.
 
 .. rst-class:: classref-section-separator
 
@@ -194,7 +194,7 @@ Devuelve el estado de la conexión.
 
 :ref:`Error<enum_@GlobalScope_Error>` **poll**\ (\ ) :ref:`🔗<class_StreamPeerTCP_method_poll>`
 
-Poll the socket, updating its state. See :ref:`get_status()<class_StreamPeerTCP_method_get_status>`.
+Sondea el socket, actualizando su estado. Véase :ref:`get_status()<class_StreamPeerTCP_method_get_status>`.
 
 .. rst-class:: classref-item-separator
 
@@ -206,9 +206,9 @@ Poll the socket, updating its state. See :ref:`get_status()<class_StreamPeerTCP_
 
 |void| **set_no_delay**\ (\ enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_StreamPeerTCP_method_set_no_delay>`
 
-If ``enabled`` is ``true``, packets will be sent immediately. If ``enabled`` is ``false`` (the default), packet transfers will be delayed and combined using `Nagle's algorithm <https://en.wikipedia.org/wiki/Nagle%27s_algorithm>`__.
+Si ``enabled`` es ``true``, los paquetes se enviarán inmediatamente. Si ``enabled`` es ``false`` (el valor predeterminado), las transferencias de paquetes se retrasarán y combinarán utilizando `el algoritmo de Nagle <https://en.wikipedia.org/wiki/Nagle%27s_algorithm>`__.
 
-\ **Note:** It's recommended to leave this disabled for applications that send large packets or need to transfer a lot of data, as enabling this can decrease the total available bandwidth.
+\ **Nota:** Se recomienda dejar esto desactivado para las aplicaciones que envían paquetes grandes o necesitan transferir muchos datos, ya que habilitar esto puede disminuir el ancho de banda total disponible.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -153,7 +153,7 @@ Descripciones de Métodos
 
 :ref:`AABB<class_AABB>` **get_aabb**\ (\ ) |const| :ref:`🔗<class_VisualInstance3D_method_get_aabb>`
 
-Devuelve el :ref:`AABB<class_AABB>` (también conocido como el cuadro delimitador) para este ``VisualInstance``. Véase también :ref:`get_transformed_aabb()<class_VisualInstance3D_method_get_transformed_aabb>`.
+Devuelve el :ref:`AABB<class_AABB>` (también conocido como el cuadro delimitador) para este **VisualInstance3D**.
 
 .. rst-class:: classref-item-separator
 

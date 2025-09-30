@@ -9,7 +9,7 @@ SpringBoneCollision3D
 
 **Heredado por:** :ref:`SpringBoneCollisionCapsule3D<class_SpringBoneCollisionCapsule3D>`, :ref:`SpringBoneCollisionPlane3D<class_SpringBoneCollisionPlane3D>`, :ref:`SpringBoneCollisionSphere3D<class_SpringBoneCollisionSphere3D>`
 
-A base class of the collision that interacts with :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>`.
+Una clase base de la colisión que interactúa con :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -108,7 +108,7 @@ El nombre del hueso unido.
 - |void| **set_position_offset**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_position_offset**\ (\ )
 
-The offset of the position from :ref:`Skeleton3D<class_Skeleton3D>`'s :ref:`bone<class_SpringBoneCollision3D_property_bone>` pose position.
+El desplazamiento de la posición desde la posición de la pose del :ref:`bone<class_SpringBoneCollision3D_property_bone>` del :ref:`Skeleton3D<class_Skeleton3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -125,7 +125,7 @@ The offset of the position from :ref:`Skeleton3D<class_Skeleton3D>`'s :ref:`bone
 - |void| **set_rotation_offset**\ (\ value\: :ref:`Quaternion<class_Quaternion>`\ )
 - :ref:`Quaternion<class_Quaternion>` **get_rotation_offset**\ (\ )
 
-The offset of the rotation from :ref:`Skeleton3D<class_Skeleton3D>`'s :ref:`bone<class_SpringBoneCollision3D_property_bone>` pose rotation.
+El desplazamiento de la rotación desde la rotación de la pose del :ref:`bone<class_SpringBoneCollision3D_property_bone>` del :ref:`Skeleton3D<class_Skeleton3D>`.
 
 .. rst-class:: classref-section-separator
 
@@ -142,7 +142,7 @@ Descripciones de Métodos
 
 :ref:`Skeleton3D<class_Skeleton3D>` **get_skeleton**\ (\ ) |const| :ref:`🔗<class_SpringBoneCollision3D_method_get_skeleton>`
 
-Get parent :ref:`Skeleton3D<class_Skeleton3D>` node of the parent :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>` if found.
+Obtiene el nodo :ref:`Skeleton3D<class_Skeleton3D>` padre del :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>` padre, si se encuentra.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

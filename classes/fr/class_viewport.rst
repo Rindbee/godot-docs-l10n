@@ -45,7 +45,7 @@ Tutoriels
 
 - `Démo de l'écran partagé dynamique <https://godotengine.org/asset-library/asset/2806>`__
 
-- `3D Resolution Scaling Demo <https://godotengine.org/asset-library/asset/2805>`__
+- `Démo de redimensionnement de la résolution 3D <https://godotengine.org/asset-library/asset/2805>`__
 
 .. rst-class:: classref-reftable-group
 

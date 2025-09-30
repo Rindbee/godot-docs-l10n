@@ -463,7 +463,7 @@ Devuelve ``true`` si este cuaternión es finito, llamando a :ref:`@GlobalScope.i
 
 :ref:`bool<class_bool>` **is_normalized**\ (\ ) |const| :ref:`🔗<class_Quaternion_method_is_normalized>`
 
-Devuelve ``true`` si este cuaternión está normalizado. Ver también :ref:`normalized()<class_Quaternion_method_normalized>`.
+Devuelve ``true`` si este cuaternión está normalizado. Véase también :ref:`normalized()<class_Quaternion_method_normalized>`.
 
 .. rst-class:: classref-item-separator
 

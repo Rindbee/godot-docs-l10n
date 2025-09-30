@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/AudioStreamPlayer.xml.
+.. meta::
+	:keywords: sound, music, song
 
 .. _class_AudioStreamPlayer:
 
@@ -223,7 +223,7 @@ Il numero massimo di suoni che questo nodo può riprodurre allo stesso tempo. Ch
 - |void| **set_mix_target**\ (\ value\: :ref:`MixTarget<enum_AudioStreamPlayer_MixTarget>`\ )
 - :ref:`MixTarget<enum_AudioStreamPlayer_MixTarget>` **get_mix_target**\ (\ )
 
-The mix target channels. Has no effect when two speakers or less are detected (see :ref:`SpeakerMode<enum_AudioServer_SpeakerMode>`).
+I canali di destinazione del mix. Non ha alcun effetto quando sono rilevati due altoparlanti o meno (vedi :ref:`SpeakerMode<enum_AudioServer_SpeakerMode>`).
 
 .. rst-class:: classref-item-separator
 

@@ -7,7 +7,7 @@ SceneMultiplayer
 
 **Hereda:** :ref:`MultiplayerAPI<class_MultiplayerAPI>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-High-level multiplayer API implementation.
+Implementación de API multijugador de alto nivel.
 
 .. rst-class:: classref-introduction-group
 

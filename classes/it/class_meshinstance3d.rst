@@ -16,7 +16,7 @@ Nodo che istanzia delle mesh in uno scenario.
 Descrizione
 ----------------------
 
-MeshInstance3D is a node that takes a :ref:`Mesh<class_Mesh>` resource and adds it to the current scenario by creating an instance of it. This is the class most often used to render 3D geometry and can be used to instance a single :ref:`Mesh<class_Mesh>` in many places. This allows reusing geometry, which can save on resources. When a :ref:`Mesh<class_Mesh>` has to be instantiated more than thousands of times at close proximity, consider using a :ref:`MultiMesh<class_MultiMesh>` in a :ref:`MultiMeshInstance3D<class_MultiMeshInstance3D>` instead.
+MeshInstance3D è un nodo che prende una risorsa :ref:`Mesh<class_Mesh>` e la aggiunge allo scenario attuale creandone un'istanza. Questa è la classe usata più spesso per il rendering della geometria 3D e si può utilizzare per creare un'istanza di una singola :ref:`Mesh<class_Mesh>` in molti posti. Ciò consente di riutilizzare la geometria, risparmiando così sulle risorse. Quando è necessario istanziare una :ref:`Mesh<class_Mesh>` più di migliaia di volte in prossimità, considerare invece l'utilizzo di una :ref:`MultiMesh<class_MultiMesh>` in una :ref:`MultiMeshInstance3D<class_MultiMeshInstance3D>`.
 
 .. rst-class:: classref-introduction-group
 

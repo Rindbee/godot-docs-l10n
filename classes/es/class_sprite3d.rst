@@ -89,7 +89,7 @@ Descripciones de Propiedades
 - |void| **set_frame**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_frame**\ (\ )
 
-Current frame to display from sprite sheet. :ref:`hframes<class_Sprite3D_property_hframes>` or :ref:`vframes<class_Sprite3D_property_vframes>` must be greater than 1. This property is automatically adjusted when :ref:`hframes<class_Sprite3D_property_hframes>` or :ref:`vframes<class_Sprite3D_property_vframes>` are changed to keep pointing to the same visual frame (same column and row). If that's impossible, this value is reset to ``0``.
+Fotograma actual que se mostrará de la hoja de sprite. :ref:`hframes<class_Sprite3D_property_hframes>` o :ref:`vframes<class_Sprite3D_property_vframes>` deben ser mayores que 1. Esta propiedad se ajusta automáticamente cuando se cambian :ref:`hframes<class_Sprite3D_property_hframes>` o :ref:`vframes<class_Sprite3D_property_vframes>` para seguir apuntando al mismo fotograma visual (misma columna y fila). Si eso es imposible, este valor se restablece a ``0``.
 
 .. rst-class:: classref-item-separator
 
@@ -123,7 +123,7 @@ Coordinates of the frame to display from sprite sheet. This is as an alias for t
 - |void| **set_hframes**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_hframes**\ (\ )
 
-The number of columns in the sprite sheet. When this property is changed, :ref:`frame<class_Sprite3D_property_frame>` is adjusted so that the same visual frame is maintained (same row and column). If that's impossible, :ref:`frame<class_Sprite3D_property_frame>` is reset to ``0``.
+El número de columnas en la hoja de sprite. Cuando se cambia esta propiedad, :ref:`frame<class_Sprite3D_property_frame>` se ajusta para que se mantenga el mismo fotograma visual (misma fila y columna). Si eso es imposible, :ref:`frame<class_Sprite3D_property_frame>` se restablece a ``0``.
 
 .. rst-class:: classref-item-separator
 

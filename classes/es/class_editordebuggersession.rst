@@ -172,7 +172,7 @@ Elimina el ``control`` dado de la IU de la sesión de depuración en el panel in
 
 |void| **send_message**\ (\ message\: :ref:`String<class_String>`, data\: :ref:`Array<class_Array>` = []\ ) :ref:`🔗<class_EditorDebuggerSession_method_send_message>`
 
-Envía el ``message`` dado a la instancia remota adjunta, opcionalmente pasando además ``data``. Consulta :ref:`EngineDebugger<class_EngineDebugger>` para saber cómo recuperar esos mensajes.
+Envía el ``message`` dado a la instancia remota adjunta, opcionalmente pasando además ``data``. Véase :ref:`EngineDebugger<class_EngineDebugger>` para saber cómo recuperar esos mensajes.
 
 .. rst-class:: classref-item-separator
 
@@ -196,7 +196,7 @@ Activa o desactiva un punto de interrupción específico basado en ``enabled``, 
 
 |void| **toggle_profiler**\ (\ profiler\: :ref:`String<class_String>`, enable\: :ref:`bool<class_bool>`, data\: :ref:`Array<class_Array>` = []\ ) :ref:`🔗<class_EditorDebuggerSession_method_toggle_profiler>`
 
-Activa o desactiva el ``profiler`` dado en la instancia remota adjunta, opcionalmente pasando además ``data``. Consulta :ref:`EngineProfiler<class_EngineProfiler>` para obtener más detalles.
+Activa o desactiva el ``profiler`` dado en la instancia remota adjunta, opcionalmente pasando además ``data``. Véase :ref:`EngineProfiler<class_EngineProfiler>` para obtener más detalles.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

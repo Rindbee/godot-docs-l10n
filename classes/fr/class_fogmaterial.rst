@@ -60,7 +60,7 @@ Descriptions des propriétés
 - |void| **set_albedo**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_albedo**\ (\ )
 
-The single-scattering :ref:`Color<class_Color>` of the :ref:`FogVolume<class_FogVolume>`. Internally, :ref:`albedo<class_FogMaterial_property_albedo>` is converted into single-scattering, which is additively blended with other :ref:`FogVolume<class_FogVolume>`\ s and the :ref:`Environment.volumetric_fog_albedo<class_Environment_property_volumetric_fog_albedo>`.
+La :ref:`Color<class_Color>` de la diffusion unique du :ref:`FogVolume<class_FogVolume>`. En interne, :ref:`albedo<class_FogMaterial_property_albedo>` est converti en diffusion unique, qui est mélangé additivement avec d'autres :ref:`FogVolume<class_FogVolume>`\ s et :ref:`Environment.volumetric_fog_albedo<class_Environment_property_volumetric_fog_albedo>`.
 
 .. rst-class:: classref-item-separator
 

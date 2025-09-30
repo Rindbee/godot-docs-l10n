@@ -218,7 +218,7 @@ Obtiene el nombre de la clase del recurso asociado con el camino dado. Si el car
 
 :ref:`int<class_int>` **_get_resource_uid**\ (\ path\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_ResourceFormatLoader_private_method__get_resource_uid>`
 
-Debería devolver el ID único para el recurso asociado con la ruta dada. Si este método no se sobreescribe, se genera un archivo ``.uid`` junto con el archivo de recurso, conteniendo el ID único.
+Debería devolver el ID único para el recurso asociado con la ruta dada. Si este método no se sobrescribe, se genera un archivo ``.uid`` junto con el archivo de recurso, conteniendo el ID único.
 
 .. rst-class:: classref-item-separator
 

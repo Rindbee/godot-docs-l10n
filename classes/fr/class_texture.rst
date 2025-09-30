@@ -9,14 +9,14 @@ Texture
 
 **Hérité de:** :ref:`Texture2D<class_Texture2D>`, :ref:`Texture3D<class_Texture3D>`, :ref:`TextureLayered<class_TextureLayered>`
 
-Base class for all texture types.
+Classe de base pour tous les types de textures.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-**Texture** is the base class for all texture types. Common texture types are :ref:`Texture2D<class_Texture2D>` and :ref:`ImageTexture<class_ImageTexture>`. See also :ref:`Image<class_Image>`.
+**Texture** est la classe de base pour tous les types de textures. Les types de textures communs sont :ref:`Texture2D<class_Texture2D>` et :ref:`ImageTexture<class_ImageTexture>`. Voir aussi :ref:`Image<class_Image>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

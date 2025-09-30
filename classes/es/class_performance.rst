@@ -229,7 +229,7 @@ Número de islas en el motor de física 2D. *Cuanto menor, mejor.*
 
 :ref:`Monitor<enum_Performance_Monitor>` **PHYSICS_3D_ACTIVE_OBJECTS** = ``20``
 
-Número de nodos activos de ``RigidBody`` y ``VehicleBody`` en el juego. *Cuanto menor, mejor.*
+Número de nodos activos de :ref:`RigidBody3D<class_RigidBody3D>` y :ref:`VehicleBody3D<class_VehicleBody3D>` en el juego. *Cuanto menor, mejor.*
 
 .. _class_Performance_constant_PHYSICS_3D_COLLISION_PAIRS:
 

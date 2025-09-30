@@ -7,20 +7,20 @@ TriangleMesh
 
 **Eredita:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Triangle geometry for efficient, physicsless intersection queries.
+Geometria triangolare per ricerche di intersezione efficienti e senza fisica.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-Creates a bounding volume hierarchy (BVH) tree structure around triangle geometry.
+Crea una struttura ad albero BVH (bounding volume hierarchy) attorno alla geometria triangolare.
 
-The triangle BVH tree can be used for efficient intersection queries without involving a physics engine.
+L'albero BVH triangolare si può utilizzare per query di intersezione efficienti senza aver bisogno di un motore fisico.
 
-For example, this can be used in editor tools to select objects with complex shapes based on the mouse cursor position.
+Ad esempio, è possibile utilizzarlo negli strumenti dell'editor per selezionare oggetti con forme complesse in base alla posizione del cursore del mouse.
 
-\ **Performance:** Creating the BVH tree for complex geometry is a slow process and best done in a background thread.
+\ **Prestazioni:** La creazione dell'albero BVH per geometrie complesse è un processo lento ed è meglio eseguirlo in un thread in background.
 
 .. rst-class:: classref-reftable-group
 
@@ -81,19 +81,19 @@ Restituisce una copia delle facce della geometria. Ogni tre vertici rappresentan
 
 :ref:`Dictionary<class_Dictionary>` **intersect_ray**\ (\ begin\: :ref:`Vector3<class_Vector3>`, dir\: :ref:`Vector3<class_Vector3>`\ ) |const| :ref:`🔗<class_TriangleMesh_method_intersect_ray>`
 
-Tests for intersection with a ray starting at ``begin`` and facing ``dir`` and extending toward infinity.
+Verifica l'intersezione con un raggio che inizia in ``begin`` ed è rivolto verso ``dir``, estendendosi verso l'infinito.
 
-If an intersection with a triangle happens, returns a :ref:`Dictionary<class_Dictionary>` with the following fields:
+Se si verifica un'intersezione con un triangolo, restituisce un :ref:`Dictionary<class_Dictionary>` con i seguenti campi:
 
-\ ``position``: The position on the intersected triangle.
+\ ``position``: la posizione sul triangolo intersecato.
 
-\ ``normal``: The normal of the intersected triangle.
+\ ``normal``: la normale del triangolo intersecato.
 
-\ ``face_index``: The index of the intersected triangle.
+\ ``face_index``: l'indice del triangolo intersecato.
 
-Returns an empty :ref:`Dictionary<class_Dictionary>` if no intersection happens.
+Restituisce un :ref:`Dictionary<class_Dictionary>` vuoto se non si verifica alcuna intersezione.
 
-See also :ref:`intersect_segment()<class_TriangleMesh_method_intersect_segment>`, which is similar but uses a finite-length segment.
+Vedi anche :ref:`intersect_segment()<class_TriangleMesh_method_intersect_segment>`, che è simile ma utilizza un segmento di lunghezza finita.
 
 .. rst-class:: classref-item-separator
 
@@ -105,19 +105,19 @@ See also :ref:`intersect_segment()<class_TriangleMesh_method_intersect_segment>`
 
 :ref:`Dictionary<class_Dictionary>` **intersect_segment**\ (\ begin\: :ref:`Vector3<class_Vector3>`, end\: :ref:`Vector3<class_Vector3>`\ ) |const| :ref:`🔗<class_TriangleMesh_method_intersect_segment>`
 
-Tests for intersection with a segment going from ``begin`` to ``end``.
+Verifica l'intersezione con un segmento che va da ``begin`` a ``end``.
 
-If an intersection with a triangle happens returns a :ref:`Dictionary<class_Dictionary>` with the following fields:
+Se si verifica un'intersezione con un triangolo, restituisce un :ref:`Dictionary<class_Dictionary>` con i seguenti campi:
 
-\ ``position``: The position on the intersected triangle.
+\ ``position``: la posizione sul triangolo intersecato.
 
-\ ``normal``: The normal of the intersected triangle.
+\ ``normal``: la normale del triangolo intersecato.
 
-\ ``face_index``: The index of the intersected triangle.
+\ ``face_index``: l'indice del triangolo intersecato.
 
-Returns an empty :ref:`Dictionary<class_Dictionary>` if no intersection happens.
+Restituisce un :ref:`Dictionary<class_Dictionary>` vuoto se non si verifica alcuna intersezione.
 
-See also :ref:`intersect_ray()<class_TriangleMesh_method_intersect_ray>`, which is similar but uses an infinite-length ray.
+Vedi anche :ref:`intersect_ray()<class_TriangleMesh_method_intersect_ray>`, che è simile ma utilizza un raggio di lunghezza infinita.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

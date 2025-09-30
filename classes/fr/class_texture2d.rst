@@ -16,13 +16,13 @@ Texture pour 2D et 3D.
 Description
 -----------
 
-A texture works by registering an image in the video hardware, which then can be used in 3D models or 2D :ref:`Sprite2D<class_Sprite2D>` or GUI :ref:`Control<class_Control>`.
+Une texture fonctionne en inscrivant une image dans le matériel vidéo, qui peut ensuite être utilisée dans des modèles 3D ou de\ :ref:`Sprite2D<class_Sprite2D>` 2D ou des :ref:`Control<class_Control>` de GUI.
 
-Textures are often created by loading them from a file. See :ref:`@GDScript.load()<class_@GDScript_method_load>`.
+Les textures sont souvent créées en les chargeant depuis un fichier. Voir :ref:`@GDScript.load()<class_@GDScript_method_load>`.
 
-\ **Texture2D** is a base for other resources. It cannot be used directly.
+\ **Texture2D** est une base pour d'autres ressources. Elle ne peut pas être utilisée directement.
 
-\ **Note:** The maximum texture size is 16384×16384 pixels due to graphics hardware limitations. Larger textures may fail to import.
+\ **Note :** La taille maximale d'une texture est de 16384×16384 pixels en raison des limitations matérielles graphiques. Les textures plus grandes peuvent ne pas s'importer.
 
 .. rst-class:: classref-reftable-group
 
@@ -81,9 +81,9 @@ Descriptions des méthodes
 
 |void| **_draw**\ (\ to_canvas_item\: :ref:`RID<class_RID>`, pos\: :ref:`Vector2<class_Vector2>`, modulate\: :ref:`Color<class_Color>`, transpose\: :ref:`bool<class_bool>`\ ) |virtual| |const| :ref:`🔗<class_Texture2D_private_method__draw>`
 
-Called when the entire **Texture2D** is requested to be drawn over a :ref:`CanvasItem<class_CanvasItem>`, with the top-left offset specified in ``pos``. ``modulate`` specifies a multiplier for the colors being drawn, while ``transpose`` specifies whether drawing should be performed in column-major order instead of row-major order (resulting in 90-degree clockwise rotation).
+Appelée lorsque la **Texture2D** entière est demandée à être dessinée sur un :ref:`CanvasItem<class_CanvasItem>`, avec le décalage supérieur gauche spécifié dans ``pos``. ``modulate`` spécifie un multiplicateur pour les couleurs dessinées, tandis que ``transpose`` spécifie si le dessin doit être effectué dans l'ordre des colonnes plutôt que dans l'ordre des lignes (résultant en une rotation de 90 degrés).
 
-\ **Note:** This is only used in 2D rendering, not 3D.
+\ **Note :** Ceci est seulement utilisé dans le rendu 2D, pas 3D.
 
 .. rst-class:: classref-item-separator
 
@@ -95,9 +95,9 @@ Called when the entire **Texture2D** is requested to be drawn over a :ref:`Canva
 
 |void| **_draw_rect**\ (\ to_canvas_item\: :ref:`RID<class_RID>`, rect\: :ref:`Rect2<class_Rect2>`, tile\: :ref:`bool<class_bool>`, modulate\: :ref:`Color<class_Color>`, transpose\: :ref:`bool<class_bool>`\ ) |virtual| |const| :ref:`🔗<class_Texture2D_private_method__draw_rect>`
 
-Called when the **Texture2D** is requested to be drawn onto :ref:`CanvasItem<class_CanvasItem>`'s specified ``rect``. ``modulate`` specifies a multiplier for the colors being drawn, while ``transpose`` specifies whether drawing should be performed in column-major order instead of row-major order (resulting in 90-degree clockwise rotation).
+Appelée lorsque la **Texture2D** est demandée à être dessinée sur le ``rect`` spécifié d'un :ref:`CanvasItem<class_CanvasItem>`. ``modulate`` spécifie un multiplicateur pour les couleurs dessinées, tandis que ``transpose`` spécifie si le dessin doit être effectué dans l'ordre des colonnes plutôt que dans l'ordre des lignes (résultant en une rotation de 90 degrés).
 
-\ **Note:** This is only used in 2D rendering, not 3D.
+\ **Note :** Ceci est seulement utilisé dans le rendu 2D, pas 3D.
 
 .. rst-class:: classref-item-separator
 
@@ -109,9 +109,9 @@ Called when the **Texture2D** is requested to be drawn onto :ref:`CanvasItem<cla
 
 |void| **_draw_rect_region**\ (\ to_canvas_item\: :ref:`RID<class_RID>`, rect\: :ref:`Rect2<class_Rect2>`, src_rect\: :ref:`Rect2<class_Rect2>`, modulate\: :ref:`Color<class_Color>`, transpose\: :ref:`bool<class_bool>`, clip_uv\: :ref:`bool<class_bool>`\ ) |virtual| |const| :ref:`🔗<class_Texture2D_private_method__draw_rect_region>`
 
-Called when a part of the **Texture2D** specified by ``src_rect``'s coordinates is requested to be drawn onto :ref:`CanvasItem<class_CanvasItem>`'s specified ``rect``. ``modulate`` specifies a multiplier for the colors being drawn, while ``transpose`` specifies whether drawing should be performed in column-major order instead of row-major order (resulting in 90-degree clockwise rotation).
+Appelée lorsque une partie de la **Texture2D** spécifiée par les coordonnées de ``src_rect`` est demandée à être dessinée sur le ``rect`` spécifié d'un :ref:`CanvasItem<class_CanvasItem>`. ``modulate`` spécifie un multiplicateur pour les couleurs dessinées, tandis que ``transpose`` spécifie si le dessin doit être effectué dans l'ordre des colonnes plutôt que dans l'ordre des lignes (résultant en une rotation de 90 degrés).
 
-\ **Note:** This is only used in 2D rendering, not 3D.
+\ **Note :** Ceci est seulement utilisé dans le rendu 2D, pas 3D.
 
 .. rst-class:: classref-item-separator
 
@@ -147,7 +147,7 @@ Appelée quand la largeur de la **Texture2D** est demandée.
 
 :ref:`bool<class_bool>` **_has_alpha**\ (\ ) |virtual| |const| :ref:`🔗<class_Texture2D_private_method__has_alpha>`
 
-Called when the presence of an alpha channel in the **Texture2D** is queried.
+Appelée lorsque la présence d'un canal alpha dans la **Texture2D** est demandé.
 
 .. rst-class:: classref-item-separator
 
@@ -159,7 +159,7 @@ Called when the presence of an alpha channel in the **Texture2D** is queried.
 
 :ref:`bool<class_bool>` **_is_pixel_opaque**\ (\ x\: :ref:`int<class_int>`, y\: :ref:`int<class_int>`\ ) |virtual| |const| :ref:`🔗<class_Texture2D_private_method__is_pixel_opaque>`
 
-Called when a pixel's opaque state in the **Texture2D** is queried at the specified ``(x, y)`` position.
+Appelée lorsque l'état d'opacité d'un pixel dans la **Texture2D** est demandé à la position ``(x, y)`` spécifiée.
 
 .. rst-class:: classref-item-separator
 
@@ -171,7 +171,7 @@ Called when a pixel's opaque state in the **Texture2D** is queried at the specif
 
 :ref:`Resource<class_Resource>` **create_placeholder**\ (\ ) |const| :ref:`🔗<class_Texture2D_method_create_placeholder>`
 
-Creates a placeholder version of this resource (:ref:`PlaceholderTexture2D<class_PlaceholderTexture2D>`).
+Crée une version placeholder de cette ressource (:ref:`PlaceholderTexture2D<class_PlaceholderTexture2D>`).
 
 .. rst-class:: classref-item-separator
 
@@ -183,7 +183,7 @@ Creates a placeholder version of this resource (:ref:`PlaceholderTexture2D<class
 
 |void| **draw**\ (\ canvas_item\: :ref:`RID<class_RID>`, position\: :ref:`Vector2<class_Vector2>`, modulate\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), transpose\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Texture2D_method_draw>`
 
-Draws the texture using a :ref:`CanvasItem<class_CanvasItem>` with the :ref:`RenderingServer<class_RenderingServer>` API at the specified ``position``.
+Dessine la texture en utilisant un :ref:`CanvasItem<class_CanvasItem>` avec l'API :ref:`RenderingServer<class_RenderingServer>` à la ``position`` spécifiée.
 
 .. rst-class:: classref-item-separator
 
@@ -195,7 +195,7 @@ Draws the texture using a :ref:`CanvasItem<class_CanvasItem>` with the :ref:`Ren
 
 |void| **draw_rect**\ (\ canvas_item\: :ref:`RID<class_RID>`, rect\: :ref:`Rect2<class_Rect2>`, tile\: :ref:`bool<class_bool>`, modulate\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), transpose\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Texture2D_method_draw_rect>`
 
-Draws the texture using a :ref:`CanvasItem<class_CanvasItem>` with the :ref:`RenderingServer<class_RenderingServer>` API.
+Dessine la texture en utilisant un :ref:`CanvasItem<class_CanvasItem>` avec l'API :ref:`RenderingServer<class_RenderingServer>`.
 
 .. rst-class:: classref-item-separator
 
@@ -207,7 +207,7 @@ Draws the texture using a :ref:`CanvasItem<class_CanvasItem>` with the :ref:`Ren
 
 |void| **draw_rect_region**\ (\ canvas_item\: :ref:`RID<class_RID>`, rect\: :ref:`Rect2<class_Rect2>`, src_rect\: :ref:`Rect2<class_Rect2>`, modulate\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), transpose\: :ref:`bool<class_bool>` = false, clip_uv\: :ref:`bool<class_bool>` = true\ ) |const| :ref:`🔗<class_Texture2D_method_draw_rect_region>`
 
-Draws a part of the texture using a :ref:`CanvasItem<class_CanvasItem>` with the :ref:`RenderingServer<class_RenderingServer>` API.
+Dessine une partie de la texture en utilisant un :ref:`CanvasItem<class_CanvasItem>` avec l'API :ref:`RenderingServer<class_RenderingServer>`.
 
 .. rst-class:: classref-item-separator
 
@@ -231,11 +231,11 @@ Renvoie la hauteur de la texture en pixels.
 
 :ref:`Image<class_Image>` **get_image**\ (\ ) |const| :ref:`🔗<class_Texture2D_method_get_image>`
 
-Returns an :ref:`Image<class_Image>` that is a copy of data from this **Texture2D** (a new :ref:`Image<class_Image>` is created each time). :ref:`Image<class_Image>`\ s can be accessed and manipulated directly.
+Renvoie une :ref:`Image<class_Image>` qui est une copie des données de cette **Texture2D** (une nouvelle :ref:`Image<class_Image>` est créée à chaque fois). Les :ref:`Image<class_Image>`\ s peuvent être accédées et manipulées directement.
 
-\ **Note:** This will return ``null`` if this **Texture2D** is invalid.
+\ **Note :** Cela renverra ``null`` si cette **Texture2D** est invalide.
 
-\ **Note:** This will fetch the texture data from the GPU, which might cause performance problems when overused. Avoid calling :ref:`get_image()<class_Texture2D_method_get_image>` every frame, especially on large textures.
+\ **Note :** Cela récupérera les données de texture du GPU, ce qui pourrait causer des problèmes de performance lorsque surutilisé. Évitez d'appeler :ref:`get_image()<class_Texture2D_method_get_image>` à chaque trame, en particulier sur de grandes textures.
 
 .. rst-class:: classref-item-separator
 
@@ -271,7 +271,7 @@ Renvoie la largeur de texture en pixels.
 
 :ref:`bool<class_bool>` **has_alpha**\ (\ ) |const| :ref:`🔗<class_Texture2D_method_has_alpha>`
 
-Returns ``true`` if this **Texture2D** has an alpha channel.
+Renvoie ``true`` si cette **Texture2D** a un canal alpha.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/InputEventJoypadMotion.xml.
+.. meta::
+	:keywords: gamepad, controller
 
 .. _class_InputEventJoypadMotion:
 
@@ -60,7 +60,7 @@ Descrizioni delle proprietà
 - |void| **set_axis**\ (\ value\: :ref:`JoyAxis<enum_@GlobalScope_JoyAxis>`\ )
 - :ref:`JoyAxis<enum_@GlobalScope_JoyAxis>` **get_axis**\ (\ )
 
-Axis identifier.
+Identificatore dell'asse.
 
 .. rst-class:: classref-item-separator
 

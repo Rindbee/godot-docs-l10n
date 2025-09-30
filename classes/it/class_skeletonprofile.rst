@@ -112,7 +112,7 @@ Segnali
 
 **profile_updated**\ (\ ) :ref:`🔗<class_SkeletonProfile_signal_profile_updated>`
 
-Questo segnale viene emesso quando si modifica il valore nel profilo. Viene utilizzato per aggiornare il nome della chiave nella :ref:`BoneMap<class_BoneMap>` e per ridisegnare l'editor di :ref:`BoneMap<class_BoneMap>`.
+Questo segnale viene emesso quando si modifica il valore nel profilo. È utilizzato per aggiornare il nome della chiave nella :ref:`BoneMap<class_BoneMap>` e per ridisegnare l'editor di :ref:`BoneMap<class_BoneMap>`.
 
 \ **Nota:** Questo segnale non è collegato direttamente all'editor per semplificare il riferimento, ma viene invece trasmesso all'editor attraverso la :ref:`BoneMap<class_BoneMap>`.
 

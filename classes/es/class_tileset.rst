@@ -14,17 +14,17 @@ Biblioteca de tile para tilemaps.
 Descripción
 ----------------------
 
-A TileSet is a library of tiles for a :ref:`TileMapLayer<class_TileMapLayer>`. A TileSet handles a list of :ref:`TileSetSource<class_TileSetSource>`, each of them storing a set of tiles.
+Un TileSet es una librería de tiles para un :ref:`TileMapLayer<class_TileMapLayer>`. Un TileSet maneja una lista de :ref:`TileSetSource<class_TileSetSource>`, cada uno de ellos almacenando un conjunto de tiles.
 
-Tiles can either be from a :ref:`TileSetAtlasSource<class_TileSetAtlasSource>`, which renders tiles out of a texture with support for physics, navigation, etc., or from a :ref:`TileSetScenesCollectionSource<class_TileSetScenesCollectionSource>`, which exposes scene-based tiles.
+Los tiles pueden ser de un :ref:`TileSetAtlasSource<class_TileSetAtlasSource>`, que renderiza tiles fuera de una textura con soporte para física, navegación, etc., o de un :ref:`TileSetScenesCollectionSource<class_TileSetScenesCollectionSource>`, que expone tiles basados en escenas.
 
-Tiles are referenced by using three IDs: their source ID, their atlas coordinates ID, and their alternative tile ID.
+Se hace referencia a los tiles utilizando tres ID: su ID de origen, su ID de coordenadas del atlas y su ID de tile alternativo.
 
-A TileSet can be configured so that its tiles expose more or fewer properties. To do so, the TileSet resources use property layers, which you can add or remove depending on your needs.
+Se puede configurar un TileSet para que sus tiles expongan más o menos propiedades. Para ello, los recursos TileSet utilizan capas de propiedades, que puedes añadir o eliminar según tus necesidades.
 
-For example, adding a physics layer allows giving collision shapes to your tiles. Each layer has dedicated properties (physics layer and mask), so you may add several TileSet physics layers for each type of collision you need.
+Por ejemplo, añadir una capa de física permite dar formas de colisión a tus tiles. Cada capa tiene propiedades dedicadas (capa de física y máscara), por lo que puedes añadir varias capas de física TileSet para cada tipo de colisión que necesites.
 
-See the functions to add new layers for more information.
+Consulta las funciones para añadir nuevas capas para obtener más información.
 
 .. rst-class:: classref-introduction-group
 
@@ -39,7 +39,7 @@ Tutoriales
 
 - `Demo Hexagonal en 2D <https://godotengine.org/asset-library/asset/2717>`__
 
-- `2D Grid-based Navigation with AStarGrid2D Demo <https://godotengine.org/asset-library/asset/2723>`__
+- `Demo de navegación 2D basada en cuadrícula con AStarGrid2D <https://godotengine.org/asset-library/asset/2723>`__
 
 - `2D Role Playing Game (RPG) Demo <https://godotengine.org/asset-library/asset/2729>`__
 
@@ -262,9 +262,9 @@ Forma de tile rectangular.
 
 :ref:`TileShape<enum_TileSet_TileShape>` **TILE_SHAPE_ISOMETRIC** = ``1``
 
-Diamond tile shape (for isometric look).
+Forma de tile de diamante (para apariencia isométrica).
 
-\ **Note:** Isometric **TileSet** works best if all sibling :ref:`TileMapLayer<class_TileMapLayer>`\ s and their parent inheriting from :ref:`Node2D<class_Node2D>` have Y-sort enabled.
+\ **Nota:** El **TileSet** isométrico funciona mejor si todos los :ref:`TileMapLayer<class_TileMapLayer>` hermanos y su padre que hereda de :ref:`Node2D<class_Node2D>` tienen la ordenación Y habilitada.
 
 .. _class_TileSet_constant_TILE_SHAPE_HALF_OFFSET_SQUARE:
 
@@ -272,7 +272,7 @@ Diamond tile shape (for isometric look).
 
 :ref:`TileShape<enum_TileSet_TileShape>` **TILE_SHAPE_HALF_OFFSET_SQUARE** = ``2``
 
-Rectangular tile shape with one row/column out of two offset by half a tile.
+Forma de tile rectangular con una fila/columna de cada dos desplazada por la mitad de un tile.
 
 .. _class_TileSet_constant_TILE_SHAPE_HEXAGON:
 
@@ -298,7 +298,7 @@ enum **TileLayout**: :ref:`🔗<enum_TileSet_TileLayout>`
 
 :ref:`TileLayout<enum_TileSet_TileLayout>` **TILE_LAYOUT_STACKED** = ``0``
 
-Tile coordinates layout where both axis stay consistent with their respective local horizontal and vertical axis.
+Diseño de coordenadas de tile donde ambos ejes se mantienen consistentes con sus respectivos ejes horizontal y vertical locales.
 
 .. _class_TileSet_constant_TILE_LAYOUT_STACKED_OFFSET:
 
@@ -306,7 +306,7 @@ Tile coordinates layout where both axis stay consistent with their respective lo
 
 :ref:`TileLayout<enum_TileSet_TileLayout>` **TILE_LAYOUT_STACKED_OFFSET** = ``1``
 
-Same as :ref:`TILE_LAYOUT_STACKED<class_TileSet_constant_TILE_LAYOUT_STACKED>`, but the first half-offset is negative instead of positive.
+Igual que :ref:`TILE_LAYOUT_STACKED<class_TileSet_constant_TILE_LAYOUT_STACKED>`, pero el primer medio offset es negativo en lugar de positivo.
 
 .. _class_TileSet_constant_TILE_LAYOUT_STAIRS_RIGHT:
 
@@ -314,7 +314,7 @@ Same as :ref:`TILE_LAYOUT_STACKED<class_TileSet_constant_TILE_LAYOUT_STACKED>`, 
 
 :ref:`TileLayout<enum_TileSet_TileLayout>` **TILE_LAYOUT_STAIRS_RIGHT** = ``2``
 
-Tile coordinates layout where the horizontal axis stay horizontal, and the vertical one goes down-right.
+Diseño de coordenadas de tile donde el eje horizontal se mantiene horizontal y el vertical va hacia abajo-derecha.
 
 .. _class_TileSet_constant_TILE_LAYOUT_STAIRS_DOWN:
 
@@ -322,7 +322,7 @@ Tile coordinates layout where the horizontal axis stay horizontal, and the verti
 
 :ref:`TileLayout<enum_TileSet_TileLayout>` **TILE_LAYOUT_STAIRS_DOWN** = ``3``
 
-Tile coordinates layout where the vertical axis stay vertical, and the horizontal one goes down-right.
+Diseño de coordenadas de tile donde el eje vertical se mantiene vertical y el horizontal va hacia abajo-derecha.
 
 .. _class_TileSet_constant_TILE_LAYOUT_DIAMOND_RIGHT:
 
@@ -330,7 +330,7 @@ Tile coordinates layout where the vertical axis stay vertical, and the horizonta
 
 :ref:`TileLayout<enum_TileSet_TileLayout>` **TILE_LAYOUT_DIAMOND_RIGHT** = ``4``
 
-Tile coordinates layout where the horizontal axis goes up-right, and the vertical one goes down-right.
+Diseño de coordenadas de tile donde el eje horizontal va hacia arriba-derecha y el vertical va hacia abajo-derecha.
 
 .. _class_TileSet_constant_TILE_LAYOUT_DIAMOND_DOWN:
 
@@ -338,7 +338,7 @@ Tile coordinates layout where the horizontal axis goes up-right, and the vertica
 
 :ref:`TileLayout<enum_TileSet_TileLayout>` **TILE_LAYOUT_DIAMOND_DOWN** = ``5``
 
-Tile coordinates layout where the horizontal axis goes down-right, and the vertical one goes down-left.
+Diseño de coordenadas de tile donde el eje horizontal va hacia abajo-derecha y el vertical va hacia abajo-izquierda.
 
 .. rst-class:: classref-item-separator
 
@@ -430,7 +430,7 @@ Vecino en la esquina inferior.
 
 :ref:`CellNeighbor<enum_TileSet_CellNeighbor>` **CELL_NEIGHBOR_BOTTOM_LEFT_SIDE** = ``6``
 
-Neighbor on the bottom left side.
+Vecino en el lado inferior izquierdo.
 
 .. _class_TileSet_constant_CELL_NEIGHBOR_BOTTOM_LEFT_CORNER:
 
@@ -462,7 +462,7 @@ Vecino en la esquina izquierda.
 
 :ref:`CellNeighbor<enum_TileSet_CellNeighbor>` **CELL_NEIGHBOR_TOP_LEFT_SIDE** = ``10``
 
-Neighbor on the top left side.
+Vecino en el lado superior izquierdo.
 
 .. _class_TileSet_constant_CELL_NEIGHBOR_TOP_LEFT_CORNER:
 
@@ -478,7 +478,7 @@ Vecino en la esquina superior izquierda.
 
 :ref:`CellNeighbor<enum_TileSet_CellNeighbor>` **CELL_NEIGHBOR_TOP_SIDE** = ``12``
 
-Neighbor on the top side.
+Vecino en el lado superior.
 
 .. _class_TileSet_constant_CELL_NEIGHBOR_TOP_CORNER:
 
@@ -494,7 +494,7 @@ Vecino en la esquina superior.
 
 :ref:`CellNeighbor<enum_TileSet_CellNeighbor>` **CELL_NEIGHBOR_TOP_RIGHT_SIDE** = ``14``
 
-Neighbor on the top right side.
+Vecino en el lado superior derecho.
 
 .. _class_TileSet_constant_CELL_NEIGHBOR_TOP_RIGHT_CORNER:
 
@@ -520,7 +520,7 @@ enum **TerrainMode**: :ref:`🔗<enum_TileSet_TerrainMode>`
 
 :ref:`TerrainMode<enum_TileSet_TerrainMode>` **TERRAIN_MODE_MATCH_CORNERS_AND_SIDES** = ``0``
 
-Requires both corners and side to match with neighboring tiles' terrains.
+Requiere que tanto las esquinas como el lado coincidan con los terrenos de los tiles vecinos.
 
 .. _class_TileSet_constant_TERRAIN_MODE_MATCH_CORNERS:
 
@@ -528,7 +528,7 @@ Requires both corners and side to match with neighboring tiles' terrains.
 
 :ref:`TerrainMode<enum_TileSet_TerrainMode>` **TERRAIN_MODE_MATCH_CORNERS** = ``1``
 
-Requires corners to match with neighboring tiles' terrains.
+Requiere que las esquinas coincidan con los terrenos de los tiles vecinos.
 
 .. _class_TileSet_constant_TERRAIN_MODE_MATCH_SIDES:
 
@@ -536,7 +536,7 @@ Requires corners to match with neighboring tiles' terrains.
 
 :ref:`TerrainMode<enum_TileSet_TerrainMode>` **TERRAIN_MODE_MATCH_SIDES** = ``2``
 
-Requires sides to match with neighboring tiles' terrains.
+Requiere que los lados coincidan con los terrenos de los tiles vecinos.
 
 .. rst-class:: classref-section-separator
 
@@ -558,7 +558,7 @@ Descripciones de Propiedades
 - |void| **set_tile_layout**\ (\ value\: :ref:`TileLayout<enum_TileSet_TileLayout>`\ )
 - :ref:`TileLayout<enum_TileSet_TileLayout>` **get_tile_layout**\ (\ )
 
-For all half-offset shapes (Isometric, Hexagonal and Half-Offset square), changes the way tiles are indexed in the :ref:`TileMapLayer<class_TileMapLayer>` grid.
+Para todas las formas de medio offset (Isométrico, Hexagonal y Cuadrado de Medio Offset), cambia la forma en que se indexan los tiles en la cuadrícula de :ref:`TileMapLayer<class_TileMapLayer>`.
 
 .. rst-class:: classref-item-separator
 
@@ -575,7 +575,7 @@ For all half-offset shapes (Isometric, Hexagonal and Half-Offset square), change
 - |void| **set_tile_offset_axis**\ (\ value\: :ref:`TileOffsetAxis<enum_TileSet_TileOffsetAxis>`\ )
 - :ref:`TileOffsetAxis<enum_TileSet_TileOffsetAxis>` **get_tile_offset_axis**\ (\ )
 
-For all half-offset shapes (Isometric, Hexagonal and Half-Offset square), determines the offset axis.
+Para todas las formas de medio offset (Isométrico, Hexagonal y Cuadrado de Medio Offset), determina el eje de offset.
 
 .. rst-class:: classref-item-separator
 
@@ -609,7 +609,7 @@ La forma del tile.
 - |void| **set_tile_size**\ (\ value\: :ref:`Vector2i<class_Vector2i>`\ )
 - :ref:`Vector2i<class_Vector2i>` **get_tile_size**\ (\ )
 
-The tile size, in pixels. For all tile shapes, this size corresponds to the encompassing rectangle of the tile shape. This is thus the minimal cell size required in an atlas.
+El tamaño del tile, en píxeles. Para todas las formas de tile, este tamaño corresponde al rectángulo envolvente de la forma del tile. Por lo tanto, este es el tamaño de celda mínimo requerido en un atlas.
 
 .. rst-class:: classref-item-separator
 
@@ -626,7 +626,7 @@ The tile size, in pixels. For all tile shapes, this size corresponds to the enco
 - |void| **set_uv_clipping**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_uv_clipping**\ (\ )
 
-Enables/Disable uv clipping when rendering the tiles.
+Activa/desactiva el recorte UV al renderizar los tiles.
 
 .. rst-class:: classref-section-separator
 
@@ -643,9 +643,9 @@ Descripciones de Métodos
 
 |void| **add_custom_data_layer**\ (\ to_position\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_TileSet_method_add_custom_data_layer>`
 
-Adds a custom data layer to the TileSet at the given position ``to_position`` in the array. If ``to_position`` is -1, adds it at the end of the array.
+Añade una capa de datos personalizada al TileSet en la posición dada ``to_position`` en el array. Si ``to_position`` es -1, la añade al final del array.
 
-Custom data layers allow assigning custom properties to atlas tiles.
+Las capas de datos personalizadas permiten asignar propiedades personalizadas a los tiles del atlas.
 
 .. rst-class:: classref-item-separator
 
@@ -657,9 +657,9 @@ Custom data layers allow assigning custom properties to atlas tiles.
 
 |void| **add_navigation_layer**\ (\ to_position\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_TileSet_method_add_navigation_layer>`
 
-Adds a navigation layer to the TileSet at the given position ``to_position`` in the array. If ``to_position`` is -1, adds it at the end of the array.
+Añade una capa de navegación al TileSet en la posición dada ``to_position`` en el array. Si ``to_position`` es -1, la añade al final del array.
 
-Navigation layers allow assigning a navigable area to atlas tiles.
+Las capas de navegación permiten asignar un área navegable a los tiles del atlas.
 
 .. rst-class:: classref-item-separator
 
@@ -671,9 +671,9 @@ Navigation layers allow assigning a navigable area to atlas tiles.
 
 |void| **add_occlusion_layer**\ (\ to_position\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_TileSet_method_add_occlusion_layer>`
 
-Adds an occlusion layer to the TileSet at the given position ``to_position`` in the array. If ``to_position`` is -1, adds it at the end of the array.
+Añade una capa de oclusión al TileSet en la posición dada ``to_position`` en el array. Si ``to_position`` es -1, la añade al final del array.
 
-Occlusion layers allow assigning occlusion polygons to atlas tiles.
+Las capas de oclusión permiten asignar polígonos de oclusión a los tiles del atlas.
 
 .. rst-class:: classref-item-separator
 
@@ -685,7 +685,7 @@ Occlusion layers allow assigning occlusion polygons to atlas tiles.
 
 :ref:`int<class_int>` **add_pattern**\ (\ pattern\: :ref:`TileMapPattern<class_TileMapPattern>`, index\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_TileSet_method_add_pattern>`
 
-Adds a :ref:`TileMapPattern<class_TileMapPattern>` to be stored in the TileSet resource. If provided, insert it at the given ``index``.
+Añade un :ref:`TileMapPattern<class_TileMapPattern>` para ser almacenado en el recurso TileSet. Si se proporciona, lo inserta en el ``index`` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -697,9 +697,9 @@ Adds a :ref:`TileMapPattern<class_TileMapPattern>` to be stored in the TileSet r
 
 |void| **add_physics_layer**\ (\ to_position\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_TileSet_method_add_physics_layer>`
 
-Adds a physics layer to the TileSet at the given position ``to_position`` in the array. If ``to_position`` is -1, adds it at the end of the array.
+Añade una capa de física al TileSet en la posición dada ``to_position`` en el array. Si ``to_position`` es -1, la añade al final del array.
 
-Physics layers allow assigning collision polygons to atlas tiles.
+Las capas de física permiten asignar polígonos de colisión a los tiles del atlas.
 
 .. rst-class:: classref-item-separator
 
@@ -711,11 +711,11 @@ Physics layers allow assigning collision polygons to atlas tiles.
 
 :ref:`int<class_int>` **add_source**\ (\ source\: :ref:`TileSetSource<class_TileSetSource>`, atlas_source_id_override\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_TileSet_method_add_source>`
 
-Adds a :ref:`TileSetSource<class_TileSetSource>` to the TileSet. If ``atlas_source_id_override`` is not -1, also set its source ID. Otherwise, a unique identifier is automatically generated.
+Añade un :ref:`TileSetSource<class_TileSetSource>` al TileSet. Si ``atlas_source_id_override`` no es -1, también establece su ID de origen. De lo contrario, se genera automáticamente un identificador único.
 
-The function returns the added source ID or -1 if the source could not be added.
+La función devuelve el ID de origen añadido o -1 si no se pudo añadir el origen.
 
-\ **Warning:** A source cannot belong to two TileSets at the same time. If the added source was attached to another **TileSet**, it will be removed from that one.
+\ **Advertencia:** Un origen no puede pertenecer a dos TileSets al mismo tiempo. Si el origen añadido estaba adjunto a otro **TileSet**, se eliminará de ese.
 
 .. rst-class:: classref-item-separator
 
@@ -727,7 +727,7 @@ The function returns the added source ID or -1 if the source could not be added.
 
 |void| **add_terrain**\ (\ terrain_set\: :ref:`int<class_int>`, to_position\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_TileSet_method_add_terrain>`
 
-Adds a new terrain to the given terrain set ``terrain_set`` at the given position ``to_position`` in the array. If ``to_position`` is -1, adds it at the end of the array.
+Añade un nuevo terreno al conjunto de terrenos dado ``terrain_set`` en la posición dada ``to_position`` en el array. Si ``to_position`` es -1, lo añade al final del array.
 
 .. rst-class:: classref-item-separator
 
@@ -739,7 +739,7 @@ Adds a new terrain to the given terrain set ``terrain_set`` at the given positio
 
 |void| **add_terrain_set**\ (\ to_position\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_TileSet_method_add_terrain_set>`
 
-Adds a new terrain set at the given position ``to_position`` in the array. If ``to_position`` is -1, adds it at the end of the array.
+Añade un nuevo conjunto de terrenos en la posición dada ``to_position`` en el array. Si ``to_position`` es -1, lo añade al final del array.
 
 .. rst-class:: classref-item-separator
 
@@ -751,7 +751,7 @@ Adds a new terrain set at the given position ``to_position`` in the array. If ``
 
 |void| **cleanup_invalid_tile_proxies**\ (\ ) :ref:`🔗<class_TileSet_method_cleanup_invalid_tile_proxies>`
 
-Clears tile proxies pointing to invalid tiles.
+Limpia los proxies de tiles que apuntan a tiles inválidos.
 
 .. rst-class:: classref-item-separator
 
@@ -763,7 +763,7 @@ Clears tile proxies pointing to invalid tiles.
 
 |void| **clear_tile_proxies**\ (\ ) :ref:`🔗<class_TileSet_method_clear_tile_proxies>`
 
-Clears all tile proxies.
+Limpia todos los proxies de tiles.
 
 .. rst-class:: classref-item-separator
 
@@ -775,9 +775,9 @@ Clears all tile proxies.
 
 :ref:`Array<class_Array>` **get_alternative_level_tile_proxy**\ (\ source_from\: :ref:`int<class_int>`, coords_from\: :ref:`Vector2i<class_Vector2i>`, alternative_from\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TileSet_method_get_alternative_level_tile_proxy>`
 
-Returns the alternative-level proxy for the given identifiers. The returned array contains the three proxie's target identifiers (source ID, atlas coords ID and alternative tile ID).
+Devuelve el proxy de nivel alternativo para los identificadores dados. El array devuelto contiene los tres identificadores de destino del proxy (ID de origen, ID de coordenadas del atlas e ID de tile alternativo).
 
-If the TileSet has no proxy for the given identifiers, returns an empty Array.
+Si el TileSet no tiene proxy para los identificadores dados, devuelve un Array vacío.
 
 .. rst-class:: classref-item-separator
 
@@ -789,9 +789,9 @@ If the TileSet has no proxy for the given identifiers, returns an empty Array.
 
 :ref:`Array<class_Array>` **get_coords_level_tile_proxy**\ (\ source_from\: :ref:`int<class_int>`, coords_from\: :ref:`Vector2i<class_Vector2i>`\ ) :ref:`🔗<class_TileSet_method_get_coords_level_tile_proxy>`
 
-Returns the coordinate-level proxy for the given identifiers. The returned array contains the two target identifiers of the proxy (source ID and atlas coordinates ID).
+Devuelve el proxy de nivel de coordenada para los identificadores dados. El array devuelto contiene los dos identificadores de destino del proxy (ID de origen e ID de coordenadas del atlas).
 
-If the TileSet has no proxy for the given identifiers, returns an empty Array.
+Si el TileSet no tiene proxy para los identificadores dados, devuelve un Array vacío.
 
 .. rst-class:: classref-item-separator
 
@@ -887,7 +887,7 @@ Devuelve el número de capas de navegación.
 
 :ref:`int<class_int>` **get_next_source_id**\ (\ ) |const| :ref:`🔗<class_TileSet_method_get_next_source_id>`
 
-Returns a new unused source ID. This generated ID is the same that a call to :ref:`add_source()<class_TileSet_method_add_source>` would return.
+Devuelve un nuevo ID de origen no utilizado. Este ID generado es el mismo que devolvería una llamada a :ref:`add_source()<class_TileSet_method_add_source>`.
 
 .. rst-class:: classref-item-separator
 
@@ -959,7 +959,7 @@ Devuelve el número de :ref:`TileMapPattern<class_TileMapPattern>` que maneja es
 
 :ref:`int<class_int>` **get_physics_layer_collision_layer**\ (\ layer_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TileSet_method_get_physics_layer_collision_layer>`
 
-Returns the collision layer (as in the physics server) bodies on the given TileSet's physics layer are in.
+Devuelve la capa de colisión (como en el servidor de física) en la que se encuentran los cuerpos en la capa de física del TileSet dado.
 
 .. rst-class:: classref-item-separator
 
@@ -1019,7 +1019,7 @@ Devuelve el número de capas de físicas.
 
 :ref:`TileSetSource<class_TileSetSource>` **get_source**\ (\ source_id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TileSet_method_get_source>`
 
-Returns the :ref:`TileSetSource<class_TileSetSource>` with ID ``source_id``.
+Devuelve el :ref:`TileSetSource<class_TileSetSource>` con el ID ``source_id``.
 
 .. rst-class:: classref-item-separator
 
@@ -1117,7 +1117,7 @@ Devuelve el número de terrain sets.
 
 :ref:`int<class_int>` **get_terrains_count**\ (\ terrain_set\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TileSet_method_get_terrains_count>`
 
-Returns the number of terrains in the given terrain set.
+Devuelve el número de terrenos en el conjunto de terrenos dado.
 
 .. rst-class:: classref-item-separator
 
@@ -1253,7 +1253,7 @@ Mueve la capa de físicas en el índice ``layer_index`` a la posición dada ``to
 
 |void| **move_terrain**\ (\ terrain_set\: :ref:`int<class_int>`, terrain_index\: :ref:`int<class_int>`, to_position\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TileSet_method_move_terrain>`
 
-Moves the terrain at index ``terrain_index`` for terrain set ``terrain_set`` to the given position ``to_position`` in the array. Also updates the atlas tiles accordingly.
+Mueve el terreno en el índice ``terrain_index`` para el conjunto de terreno ``terrain_set`` a la posición dada ``to_position`` en el array. También actualiza los tiles del atlas en consecuencia.
 
 .. rst-class:: classref-item-separator
 
@@ -1265,7 +1265,7 @@ Moves the terrain at index ``terrain_index`` for terrain set ``terrain_set`` to 
 
 |void| **move_terrain_set**\ (\ terrain_set\: :ref:`int<class_int>`, to_position\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TileSet_method_move_terrain_set>`
 
-Moves the terrain set at index ``terrain_set`` to the given position ``to_position`` in the array. Also updates the atlas tiles accordingly.
+Mueve el conjunto de terrenos en el índice ``terrain_set`` a la posición dada ``to_position`` en el array. También actualiza los tiles del atlas en consecuencia.
 
 .. rst-class:: classref-item-separator
 
@@ -1373,7 +1373,7 @@ Elimina la fuente con el ID de fuente dado.
 
 |void| **remove_source_level_tile_proxy**\ (\ source_from\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TileSet_method_remove_source_level_tile_proxy>`
 
-Removes a source-level tile proxy.
+Elimina un proxy de tiles a nivel de fuente.
 
 .. rst-class:: classref-item-separator
 
@@ -1545,7 +1545,7 @@ Establece la prioridad de colisión para los cuerpos en la capa de físicas del 
 
 |void| **set_physics_layer_physics_material**\ (\ layer_index\: :ref:`int<class_int>`, physics_material\: :ref:`PhysicsMaterial<class_PhysicsMaterial>`\ ) :ref:`🔗<class_TileSet_method_set_physics_layer_physics_material>`
 
-Sets the physics material for bodies in the given TileSet physics layer.
+Establece el material físico para los cuerpos en la capa de física del TileSet dado.
 
 .. rst-class:: classref-item-separator
 
@@ -1569,9 +1569,9 @@ Cambia el ID de una fuente.
 
 |void| **set_source_level_tile_proxy**\ (\ source_from\: :ref:`int<class_int>`, source_to\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TileSet_method_set_source_level_tile_proxy>`
 
-Creates a source-level proxy for the given source ID. A proxy will map set of tile identifiers to another set of identifiers. Both the atlas coordinates ID and the alternative tile ID are kept the same when using source-level proxies.
+Crea un proxy a nivel de fuente para el ID de origen dado. Un proxy mapeará un conjunto de identificadores de tiles a otro conjunto de identificadores. Tanto el ID de las coordenadas del atlas como el ID del tile alternativo se mantienen iguales cuando se utilizan proxies a nivel de fuente.
 
-Proxied tiles can be automatically replaced in TileMapLayer nodes using the editor.
+Los tiles proxy se pueden reemplazar automáticamente en los nodos TileMapLayer utilizando el editor.
 
 .. rst-class:: classref-item-separator
 
@@ -1583,7 +1583,7 @@ Proxied tiles can be automatically replaced in TileMapLayer nodes using the edit
 
 |void| **set_terrain_color**\ (\ terrain_set\: :ref:`int<class_int>`, terrain_index\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_TileSet_method_set_terrain_color>`
 
-Sets a terrain's color. This color is used for identifying the different terrains in the TileSet editor.
+Establece el color de un terreno. Este color se utiliza para identificar los diferentes terrenos en el editor de TileSet.
 
 .. rst-class:: classref-item-separator
 
@@ -1607,7 +1607,7 @@ Establece el nombre de un terreno.
 
 |void| **set_terrain_set_mode**\ (\ terrain_set\: :ref:`int<class_int>`, mode\: :ref:`TerrainMode<enum_TileSet_TerrainMode>`\ ) :ref:`🔗<class_TileSet_method_set_terrain_set_mode>`
 
-Sets a terrain mode. Each mode determines which bits of a tile shape is used to match the neighboring tiles' terrains.
+Establece un modo de terreno. Cada modo determina qué bits de una forma de tile se utilizan para que coincidan con los terrenos de los tiles vecinos.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

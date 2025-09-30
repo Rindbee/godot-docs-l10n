@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/Label.xml.
+.. meta::
+	:keywords: text
 
 .. _class_Label:
 
@@ -177,7 +177,7 @@ Se impostato su un valore diverso da :ref:`TextServer.AUTOWRAP_OFF<class_TextSer
 - |void| **set_autowrap_trim_flags**\ (\ value\: |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\]\ )
 - |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\] **get_autowrap_trim_flags**\ (\ )
 
-Autowrap space trimming flags. See :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_START_EDGE_SPACES>` and :ref:`TextServer.BREAK_TRIM_END_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_END_EDGE_SPACES>` for more info.
+Flag di troncamento spazi per il ritorno a capo automatico. Vedi :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_START_EDGE_SPACES>` e :ref:`TextServer.BREAK_TRIM_END_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_END_EDGE_SPACES>` per ulteriori informazioni.
 
 .. rst-class:: classref-item-separator
 
@@ -245,7 +245,7 @@ Controlla l'allineamento orizzontale del testo. Supporta sinistra, centro, destr
 - |void| **set_justification_flags**\ (\ value\: |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\]\ )
 - |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\] **get_justification_flags**\ (\ )
 
-Line fill alignment rules.
+Regole di allineamento del riempimento per le righe.
 
 .. rst-class:: classref-item-separator
 
@@ -485,11 +485,11 @@ Controlla l'allineamento verticale del testo. Supporta sopra, centro, sotto e ri
 - |void| **set_visible_characters**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_visible_characters**\ (\ )
 
-The number of characters to display. If set to ``-1``, all characters are displayed. This can be useful when animating the text appearing in a dialog box.
+Il numero di caratteri da visualizzare. Se impostato su ``-1``, tutti i caratteri sono visualizzati. Può essere utile quando si anima il testo che appare in una finestra di dialogo.
 
-\ **Note:** Setting this property updates :ref:`visible_ratio<class_Label_property_visible_ratio>` accordingly.
+\ **Nota:** Impostando questa proprietà si aggiorna :ref:`visible_ratio<class_Label_property_visible_ratio>` di conseguenza.
 
-\ **Note:** Characters are counted as Unicode codepoints. A single visible grapheme may contain multiple codepoints (e.g. certain emoji use three codepoints). A single codepoint may contain two UTF-16 characters, which are used in C# strings.
+\ **Nota:** I caratteri sono conteggiati come codici Unicode. Un singolo grafema visibile può contenere più codici (ad esempio, alcune emoji ne utilizzano tre). Un singolo codice può contenere due caratteri UTF-16, i quali sono utilizzati nelle stringhe C#.
 
 .. rst-class:: classref-item-separator
 
@@ -661,7 +661,7 @@ Spaziatura verticale aggiuntiva tra le righe (in pixel), la spaziatura è aggiun
 
 Dimensione del contorno del testo.
 
-\ **Nota:** Se si utilizza un font con :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` abilitato, il suo :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` deve essere impostato su almeno il *doppio* del valore di :ref:`contour_size<class_Label_theme_item_contour_size>` affinché il rendering del contorno appaia corretto. Altrimenti, il contorno potrebbe apparire troncato prima del previsto.
+\ **Nota:** Se si utilizza un font con :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` abilitato, il suo :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` deve essere impostato su almeno il *doppio* del valore di :ref:`outline_size<class_Label_theme_constant_outline_size>` affinché il rendering del contorno appaia corretto. Altrimenti, il contorno potrebbe apparire troncato prima del previsto.
 
 \ **Nota:** Non è consigliato utilizzare un valore maggiore della metà della dimensione del font, altrimenti il contorno del font potrebbe non chiudersi completamente.
 

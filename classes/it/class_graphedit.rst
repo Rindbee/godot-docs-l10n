@@ -16,13 +16,13 @@ Un editor per strutture simili a grafici, che utilizza :ref:`GraphNode<class_Gra
 Descrizione
 ----------------------
 
-**GraphEdit** fornisce strumenti per la creazione, la manipolazione e la visualizzazione di vari grafici. Il suo scopo principale nel motore è quello di alimentare i sistemi di programmazione visuale, come gli shader visivi, ma è anche disponibile per l'uso nei progetti utente.
+**GraphEdit** fornisce strumenti per la creazione, la manipolazione e la visualizzazione di vari grafici. Il suo scopo principale nel motore è quello di alimentare i sistemi di programmazione visuale, come gli shader visuali, ma è anche disponibile per l'uso nei progetti utente.
 
-\ **GraphEdit** di per sé è solo un contenitore vuoto, che rappresenta una griglia infinita in cui possono essere posizionati i :ref:`GraphNode<class_GraphNode>`. Ogni :ref:`GraphNode<class_GraphNode>` rappresenta un nodo nel grafico, una singola unità di dati nello schema connesso. **GraphEdit**, a sua volta, aiuta a controllare varie interazioni con i nodi e tra i nodi. Quando l'utente tenta di connettere, disconnettere o eliminare un :ref:`GraphNode<class_GraphNode>`, un segnale viene emesso nel **GraphEdit**, ma non viene intrapresa alcuna azione per impostazione predefinita. È la responsabilità del programmatore che utilizza questo controllo di implementare la logica necessaria per gestire ciascuna richiesta.
+\ **GraphEdit** di per sé è solo un contenitore vuoto, che rappresenta una griglia infinita in cui si possono posizionare i :ref:`GraphNode<class_GraphNode>`. Ogni :ref:`GraphNode<class_GraphNode>` rappresenta un nodo nel grafico, una singola unità di dati nello schema collegato. **GraphEdit**, a sua volta, aiuta a controllare varie interazioni con i nodi e tra i nodi. Quando l'utente tenta di collegare, scollegare o eliminare un :ref:`GraphNode<class_GraphNode>`, un segnale viene emesso nel **GraphEdit**, ma non viene intrapresa alcuna azione predefinita. È la responsabilità del programmatore che utilizza questo controllo di implementare la logica necessaria per gestire ciascuna richiesta.
 
-\ **Prestazioni:** Si consiglia vivamente di abilitare la modalità di utilizzo a basso processore (vedi :ref:`OS.low_processor_usage_mode<class_OS_property_low_processor_usage_mode>`) quando si utilizzano i GraphEdit.
+\ **Prestazioni:** Si consiglia vivamente di abilitare la modalità di utilizzo a basso consumo (vedi :ref:`OS.low_processor_usage_mode<class_OS_property_low_processor_usage_mode>`) quando si utilizzano i GraphEdit.
 
-\ **Nota:** Tieni presente che :ref:`Node.get_children()<class_Node_method_get_children>` restituirà anche il nodo del livello di connessione denominato ``_connection_layer`` a causa di limitazioni tecniche. Questo comportamento potrebbe cambiare nelle versioni future.
+\ **Nota:** Tieni presente che :ref:`Node.get_children()<class_Node_method_get_children>` restituirà anche il nodo del livello di collegamento denominato ``_connection_layer`` a causa di limitazioni tecniche. Questo comportamento potrebbe cambiare nelle versioni future.
 
 .. rst-class:: classref-reftable-group
 
@@ -573,9 +573,9 @@ Lo spessore delle linee tra i nodi.
 - |void| **set_connections**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **get_connection_list**\ (\ )
 
-Le connessioni tra i :ref:`GraphNode<class_GraphNode>`.
+I collegamenti tra i :ref:`GraphNode<class_GraphNode>`.
 
-Una connessione è rappresentata come :ref:`Dictionary<class_Dictionary>` nel formato:
+Un collegamento è rappresentato come :ref:`Dictionary<class_Dictionary>` nel formato:
 
 ::
 
@@ -587,7 +587,7 @@ Una connessione è rappresentata come :ref:`Dictionary<class_Dictionary>` nel fo
         keep_alive: bool
     }
 
-Le connessioni con ``keep_alive`` impostato su ``false`` potrebbero essere eliminate automaticamente se non valide durante un ridisegno.
+I collegamenti con ``keep_alive`` impostato su ``false`` potrebbero essere eliminati automaticamente se non validi durante un ridisegno.
 
 .. rst-class:: classref-item-separator
 
@@ -689,7 +689,7 @@ Definisce lo schema di controllo per la panoramica con la rotellina del mouse.
 - |void| **set_right_disconnects**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_right_disconnects_enabled**\ (\ )
 
-Se ``true``, abilita la disconnessione delle connessioni esistenti nel GraphEdit trascinando l'estremità destra.
+Se ``true``, abilita lo scollegamento dei collegamenti esistenti nel GraphEdit trascinando l'estremità destra.
 
 .. rst-class:: classref-item-separator
 
@@ -876,7 +876,7 @@ Se ``true``, l'aggancio è abilitato.
 - |void| **set_type_names**\ (\ value\: :ref:`Dictionary<class_Dictionary>`\ )
 - :ref:`Dictionary<class_Dictionary>` **get_type_names**\ (\ )
 
-:ref:`Dictionary<class_Dictionary>` of human readable port type names.
+:ref:`Dictionary<class_Dictionary>` di nomi di tipi di porte leggibili in chiaro.
 
 .. rst-class:: classref-item-separator
 
@@ -961,7 +961,7 @@ Descrizioni dei metodi
 
 :ref:`PackedVector2Array<class_PackedVector2Array>` **_get_connection_line**\ (\ from_position\: :ref:`Vector2<class_Vector2>`, to_position\: :ref:`Vector2<class_Vector2>`\ ) |virtual| |const| :ref:`🔗<class_GraphEdit_private_method__get_connection_line>`
 
-Metodo virtuale che può essere sovrascritto per personalizzare il modo in cui vengono disegnate le connessioni.
+Metodo virtuale che può essere sovrascritto per personalizzare il modo in cui sono disegnati i collegamenti.
 
 .. rst-class:: classref-item-separator
 
@@ -1021,11 +1021,11 @@ Di seguito è riportato un codice di esempio per iniziare:
 
 :ref:`bool<class_bool>` **_is_node_hover_valid**\ (\ from_node\: :ref:`StringName<class_StringName>`, from_port\: :ref:`int<class_int>`, to_node\: :ref:`StringName<class_StringName>`, to_port\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_GraphEdit_private_method__is_node_hover_valid>`
 
-Questo metodo virtuale può essere utilizzato per inserire un ulteriore rilevamento di errori mentre l'utente trascina una connessione su una porta valida.
+Questo metodo virtuale si può utilizzare per inserire un ulteriore rilevamento di errori mentre l'utente trascina un collegamento su una porta valida.
 
-Restituisci ``true`` se la connessione è effettivamente valida o restituisci ``false`` se la connessione è impossibile. Se la connessione è impossibile, non ci sarà aggancio alla porta e quindi nessuna richiesta di connessione sarà effettuata a tale porta.
+Restituisci ``true`` se il collegamento è effettivamente valido o restituisci ``false`` se il collegamento è impossibile. Se il collegamento è impossibile, non ci sarà aggancio alla porta e quindi nessuna richiesta di collegamento sarà effettuata a tale porta.
 
-In questo esempio, una connessione allo stesso nodo viene soppressa:
+In questo esempio, un collegamento allo stesso nodo viene soppresso:
 
 
 .. tabs::
@@ -1054,7 +1054,7 @@ In questo esempio, una connessione allo stesso nodo viene soppressa:
 
 |void| **add_valid_connection_type**\ (\ from_type\: :ref:`int<class_int>`, to_type\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GraphEdit_method_add_valid_connection_type>`
 
-Consente la connessione tra due diversi tipi di porta. Il tipo di porta è definito individualmente per la porta sinistra e quella destra di ogni slot con il metodo :ref:`GraphNode.set_slot()<class_GraphNode_method_set_slot>`.
+Permette il collegamento tra due diversi tipi di porta. Il tipo di porta è definito individualmente per la porta sinistra e quella destra di ogni slot con il metodo :ref:`GraphNode.set_slot()<class_GraphNode_method_set_slot>`.
 
 Vedi anche :ref:`is_valid_connection_type()<class_GraphEdit_method_is_valid_connection_type>` e :ref:`remove_valid_connection_type()<class_GraphEdit_method_remove_valid_connection_type>`.
 
@@ -1092,7 +1092,7 @@ Consente di disconnettere i nodi quando si trascina dalla porta destra dello slo
 
 |void| **arrange_nodes**\ (\ ) :ref:`🔗<class_GraphEdit_method_arrange_nodes>`
 
-Riorganizza i nodi selezionati in una disposizione con incroci minimi tra le connessioni e spazi orizzontali e verticali uniformi tra i nodi.
+Riorganizza i nodi selezionati in una disposizione con incroci minimi tra i collegamenti e spazi orizzontali e verticali uniformi tra i nodi.
 
 .. rst-class:: classref-item-separator
 
@@ -1116,7 +1116,7 @@ Attacca l'elemento :ref:`GraphElement<class_GraphElement>` ``element`` alla corn
 
 |void| **clear_connections**\ (\ ) :ref:`🔗<class_GraphEdit_method_clear_connections>`
 
-Rimuove tutte le connessioni tra i nodi.
+Rimuove tutti i collegamenti tra i nodi.
 
 .. rst-class:: classref-item-separator
 
@@ -1128,9 +1128,9 @@ Rimuove tutte le connessioni tra i nodi.
 
 :ref:`Error<enum_@GlobalScope_Error>` **connect_node**\ (\ from_node\: :ref:`StringName<class_StringName>`, from_port\: :ref:`int<class_int>`, to_node\: :ref:`StringName<class_StringName>`, to_port\: :ref:`int<class_int>`, keep_alive\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_GraphEdit_method_connect_node>`
 
-Crea una connessione tra la porta ``from_port`` del nodo :ref:`GraphNode<class_GraphNode>` ``from_node`` e la porta ``to_port`` del :ref:`GraphNode<class_GraphNode>` ``to_node``. Se la connessione esiste già, nessuna connessione viene creata.
+Crea un collegamento tra la porta ``from_port`` del nodo :ref:`GraphNode<class_GraphNode>` ``from_node`` e la porta ``to_port`` del :ref:`GraphNode<class_GraphNode>` ``to_node``. Se il collegamento esiste già, nessun collegamento viene creato.
 
-Le connessioni con ``keep_alive`` impostato su ``false`` potrebbero essere eliminate automaticamente se non valide durante un ridisegno.
+I collegamenti con ``keep_alive`` impostato su ``false`` potrebbero essere eliminati automaticamente se non validi durante un ridisegno.
 
 .. rst-class:: classref-item-separator
 
@@ -1154,7 +1154,7 @@ Stacca l'elemento :ref:`GraphElement<class_GraphElement>` ``element`` dal :ref:`
 
 |void| **disconnect_node**\ (\ from_node\: :ref:`StringName<class_StringName>`, from_port\: :ref:`int<class_int>`, to_node\: :ref:`StringName<class_StringName>`, to_port\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GraphEdit_method_disconnect_node>`
 
-Rimuove una connessione tra la porta ``from_port`` del nodo :ref:`GraphNode<class_GraphNode>` ``from_node`` e la porta ``to_port`` del :ref:`GraphNode<class_GraphNode>` ``to_node``. Se la connessione non esiste, nessuna connessione viene rimossa.
+Rimuove un collegamento tra la porta ``from_port`` del nodo :ref:`GraphNode<class_GraphNode>` ``from_node`` e la porta ``to_port`` del :ref:`GraphNode<class_GraphNode>` ``to_node``. Se il collegamento non esiste, nessun collegamento viene rimosso.
 
 .. rst-class:: classref-item-separator
 
@@ -1166,11 +1166,11 @@ Rimuove una connessione tra la porta ``from_port`` del nodo :ref:`GraphNode<clas
 
 |void| **force_connection_drag_end**\ (\ ) :ref:`🔗<class_GraphEdit_method_force_connection_drag_end>`
 
-Termina la creazione della connessione attuale. In altre parole, se si sta trascinando una connessione è possibile usare questo metodo per interrompere il processo e rimuovere la linea che seguiva il cursore.
+Termina la creazione del collegamento attuale. In altre parole, se si sta trascinando un collegamento è possibile usare questo metodo per interrompere il processo e rimuovere la linea che seguiva il cursore.
 
 È meglio usarlo insieme a :ref:`connection_drag_started<class_GraphEdit_signal_connection_drag_started>` e :ref:`connection_drag_ended<class_GraphEdit_signal_connection_drag_ended>` per implementare un comportamento personalizzato come l'aggiunta di nodi attraverso scorciatoie.
 
-\ **Nota:** Questo metodo sopprime qualsiasi altro segnale di richiesta di connessione tranne :ref:`connection_drag_ended<class_GraphEdit_signal_connection_drag_ended>`.
+\ **Nota:** Questo metodo sopprime qualsiasi altro segnale di richiesta di collegamento tranne :ref:`connection_drag_ended<class_GraphEdit_signal_connection_drag_ended>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1194,9 +1194,9 @@ Restituisce un array di nomi dei nodi associati al :ref:`GraphFrame<class_GraphF
 
 :ref:`Dictionary<class_Dictionary>` **get_closest_connection_at_point**\ (\ point\: :ref:`Vector2<class_Vector2>`, max_distance\: :ref:`float<class_float>` = 4.0\ ) |const| :ref:`🔗<class_GraphEdit_method_get_closest_connection_at_point>`
 
-Restituisce la connessione più vicina al punto specificato nello spazio dello schermo. Se nessuna connessione viene trovata entro ``max_distance`` pixel, viene restituito un :ref:`Dictionary<class_Dictionary>` vuoto.
+Restituisce il collegamento più vicino al punto specificato nello spazio dello schermo. Se nessun collegamento viene trovato entro ``max_distance`` pixel, viene restituito un :ref:`Dictionary<class_Dictionary>` vuoto.
 
-Una connessione è rappresentata come :ref:`Dictionary<class_Dictionary>` nel formato:
+Un collegamento è rappresentato come :ref:`Dictionary<class_Dictionary>` nel formato:
 
 ::
 
@@ -1208,7 +1208,7 @@ Una connessione è rappresentata come :ref:`Dictionary<class_Dictionary>` nel fo
         keep_alive: bool
     }
 
-Ad esempio, è possibile ottenere una connessione a una determinata posizione del mouse in questo modo:
+Ad esempio, è possibile ottenere un collegamento a una determinata posizione del mouse in questo modo:
 
 
 .. tabs::
@@ -1229,7 +1229,7 @@ Ad esempio, è possibile ottenere una connessione a una determinata posizione de
 
 :ref:`int<class_int>` **get_connection_count**\ (\ from_node\: :ref:`StringName<class_StringName>`, from_port\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GraphEdit_method_get_connection_count>`
 
-Restituisce il numero di connessioni dalla porta ``from_port`` del nodo ``from_node``.
+Restituisce il numero di collegamenti dalla porta ``from_port`` del nodo ``from_node``.
 
 .. rst-class:: classref-item-separator
 
@@ -1241,7 +1241,7 @@ Restituisce il numero di connessioni dalla porta ``from_port`` del nodo ``from_n
 
 :ref:`PackedVector2Array<class_PackedVector2Array>` **get_connection_line**\ (\ from_node\: :ref:`Vector2<class_Vector2>`, to_node\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_GraphEdit_method_get_connection_line>`
 
-Restituisce i punti che comporrebbero una connessione tra il nodo ``from_node`` e il nodo ``to_node``.
+Restituisce i punti che comporrebbero un collegamento tra il nodo ``from_node`` e il nodo ``to_node``.
 
 .. rst-class:: classref-item-separator
 
@@ -1253,9 +1253,9 @@ Restituisce i punti che comporrebbero una connessione tra il nodo ``from_node`` 
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **get_connection_list_from_node**\ (\ node\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_GraphEdit_method_get_connection_list_from_node>`
 
-Returns an :ref:`Array<class_Array>` containing a list of all connections for ``node``.
+Restituisce un :ref:`Array<class_Array>` contenente un elenco di tutti collegamenti per ``node``.
 
-A connection is represented as a :ref:`Dictionary<class_Dictionary>` in the form of:
+Un collegamento è rappresentata come un :ref:`Dictionary<class_Dictionary>` nel formato:
 
 ::
 
@@ -1267,7 +1267,7 @@ A connection is represented as a :ref:`Dictionary<class_Dictionary>` in the form
         keep_alive: bool
     }
 
-\ **Example:** Get all connections on a specific port:
+\ **Esempio:** Ottieni tutti i collegamenti su una porta specifica:
 
 ::
 
@@ -1298,9 +1298,9 @@ A connection is represented as a :ref:`Dictionary<class_Dictionary>` in the form
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **get_connections_intersecting_with_rect**\ (\ rect\: :ref:`Rect2<class_Rect2>`\ ) |const| :ref:`🔗<class_GraphEdit_method_get_connections_intersecting_with_rect>`
 
-Restituisce un :ref:`Array<class_Array>` contenente la lista delle connessioni che intersecano il :ref:`Rect2<class_Rect2>` fornito.
+Restituisce un :ref:`Array<class_Array>` contenente la lista dei collegamenti che intersecano il :ref:`Rect2<class_Rect2>` fornito.
 
-Una connessione è rappresentata come :ref:`Dictionary<class_Dictionary>` nel formato:
+Un collegamento è rappresentato come :ref:`Dictionary<class_Dictionary>` nel formato:
 
 ::
 
@@ -1360,7 +1360,7 @@ Restituisce ``true`` se la porta ``from_port`` del nodo :ref:`GraphNode<class_Gr
 
 :ref:`bool<class_bool>` **is_valid_connection_type**\ (\ from_type\: :ref:`int<class_int>`, to_type\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_GraphEdit_method_is_valid_connection_type>`
 
-Restituisce se è possibile stabilire una connessione tra due diversi tipi di porta. Il tipo di porta è definito individualmente per la porta sinistra e quella destra di ogni slot con il metodo :ref:`GraphNode.set_slot()<class_GraphNode_method_set_slot>`.
+Restituisce se è possibile stabilire un collegamento tra due diversi tipi di porta. Il tipo di porta è definito individualmente per la porta sinistra e quella destra di ogni slot con il metodo :ref:`GraphNode.set_slot()<class_GraphNode_method_set_slot>`.
 
 Vedi anche :ref:`add_valid_connection_type()<class_GraphEdit_method_add_valid_connection_type>` e :ref:`remove_valid_connection_type()<class_GraphEdit_method_remove_valid_connection_type>`.
 
@@ -1374,7 +1374,7 @@ Vedi anche :ref:`add_valid_connection_type()<class_GraphEdit_method_add_valid_co
 
 |void| **remove_valid_connection_type**\ (\ from_type\: :ref:`int<class_int>`, to_type\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GraphEdit_method_remove_valid_connection_type>`
 
-Impedisce la connessione tra due diversi tipi di porta consentiti in precedenza da :ref:`add_valid_connection_type()<class_GraphEdit_method_add_valid_connection_type>`. Il tipo di porta è definito individualmente per la porta sinistra e quella destra di ogni slot con il metodo :ref:`GraphNode.set_slot()<class_GraphNode_method_set_slot>`.
+Impedisce il collegamento tra due diversi tipi di porta consentiti in precedenza da :ref:`add_valid_connection_type()<class_GraphEdit_method_add_valid_connection_type>`. Il tipo di porta è definito individualmente per la porta sinistra e quella destra di ogni slot con il metodo :ref:`GraphNode.set_slot()<class_GraphNode_method_set_slot>`.
 
 Vedi anche :ref:`is_valid_connection_type()<class_GraphEdit_method_is_valid_connection_type>`.
 
@@ -1388,7 +1388,7 @@ Vedi anche :ref:`is_valid_connection_type()<class_GraphEdit_method_is_valid_conn
 
 |void| **remove_valid_left_disconnect_type**\ (\ type\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GraphEdit_method_remove_valid_left_disconnect_type>`
 
-Impedisce di disconnettere i nodi quando si trascina dalla porta sinistra dello slot del :ref:`GraphNode<class_GraphNode>` se ha il tipo specificato. Utilizza questo per disabilitare la disconnessione consentita in precedenza con :ref:`add_valid_left_disconnect_type()<class_GraphEdit_method_add_valid_left_disconnect_type>`.
+Impedisce di scollegare i nodi quando si trascina dalla porta sinistra dello slot del :ref:`GraphNode<class_GraphNode>` se ha il tipo specificato. Utilizza questo per disabilitare uno scollegamento consentito in precedenza con :ref:`add_valid_left_disconnect_type()<class_GraphEdit_method_add_valid_left_disconnect_type>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1400,7 +1400,7 @@ Impedisce di disconnettere i nodi quando si trascina dalla porta sinistra dello 
 
 |void| **remove_valid_right_disconnect_type**\ (\ type\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GraphEdit_method_remove_valid_right_disconnect_type>`
 
-Impedisce di disconnettere i nodi quando si trascina dalla porta destra dello slot del :ref:`GraphNode<class_GraphNode>` se ha il tipo specificato. Utilizza questo per disabilitare la disconnessione consentita in precedenza con :ref:`add_valid_right_disconnect_type()<class_GraphEdit_method_add_valid_right_disconnect_type>`.
+Impedisce di scollegare i nodi quando si trascina dalla porta destra dello slot del :ref:`GraphNode<class_GraphNode>` se ha il tipo specificato. Utilizza questo per disabilitare uno scollegamento consentito in precedenza con :ref:`add_valid_right_disconnect_type()<class_GraphEdit_method_add_valid_right_disconnect_type>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1412,7 +1412,7 @@ Impedisce di disconnettere i nodi quando si trascina dalla porta destra dello sl
 
 |void| **set_connection_activity**\ (\ from_node\: :ref:`StringName<class_StringName>`, from_port\: :ref:`int<class_int>`, to_node\: :ref:`StringName<class_StringName>`, to_port\: :ref:`int<class_int>`, amount\: :ref:`float<class_float>`\ ) :ref:`🔗<class_GraphEdit_method_set_connection_activity>`
 
-Imposta la colorazione della connessione tra la porta ``from_port`` del nodo ``from_node`` e la porta ``to_port`` del nodo ``to_node`` con il colore fornito nella proprietà del tema :ref:`activity<class_GraphEdit_theme_color_activity>`. Il colore è linearmente interpolato tra il colore della connessione e il colore di attività usando ``amount`` come peso.
+Imposta la colorazione del collegamento tra la porta ``from_port`` del nodo ``from_node`` e la porta ``to_port`` del nodo ``to_node`` con il colore fornito nella proprietà del tema :ref:`activity<class_GraphEdit_theme_color_activity>`. Il colore è linearmente interpolato tra il colore del collegamento e il colore di attività usando ``amount`` come peso.
 
 .. rst-class:: classref-item-separator
 
@@ -1441,7 +1441,7 @@ Descrizioni delle proprietà del tema
 
 :ref:`Color<class_Color>` **activity** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_GraphEdit_theme_color_activity>`
 
-Il colore della linea di collegamento è interpolato in base al valore di attività di una connessione (vedi :ref:`set_connection_activity()<class_GraphEdit_method_set_connection_activity>`).
+Il colore della linea di collegamento che è interpolato in base al valore di attività di un collegamento (vedi :ref:`set_connection_activity()<class_GraphEdit_method_set_connection_activity>`).
 
 .. rst-class:: classref-item-separator
 

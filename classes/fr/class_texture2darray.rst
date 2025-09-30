@@ -7,7 +7,7 @@ Texture2DArray
 
 **Hérite de :** :ref:`ImageTextureLayered<class_ImageTextureLayered>` **<** :ref:`TextureLayered<class_TextureLayered>` **<** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A single texture resource which consists of multiple, separate images. Each image has the same dimensions and number of mipmap levels.
+Une ressource de texture unique qui consiste en plusieurs images séparées. Chaque image a les mêmes dimensions et le nombre de niveaux de mipmap.
 
 .. rst-class:: classref-introduction-group
 
@@ -47,7 +47,7 @@ Descriptions des méthodes
 
 :ref:`Resource<class_Resource>` **create_placeholder**\ (\ ) |const| :ref:`🔗<class_Texture2DArray_method_create_placeholder>`
 
-Creates a placeholder version of this resource (:ref:`PlaceholderTexture2DArray<class_PlaceholderTexture2DArray>`).
+Crée une version placeholder de cette ressource (:ref:`PlaceholderTexture2DArray<class_PlaceholderTexture2DArray>`).
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

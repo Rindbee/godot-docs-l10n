@@ -9,16 +9,16 @@ Window
 
 **Hérité de:** :ref:`AcceptDialog<class_AcceptDialog>`, :ref:`Popup<class_Popup>`
 
-Base class for all windows, dialogs, and popups.
+Classe de base pour toutes les fenêtres, boîtes de dialogue et popups.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-A node that creates a window. The window can either be a native system window or embedded inside another **Window** (see :ref:`Viewport.gui_embed_subwindows<class_Viewport_property_gui_embed_subwindows>`).
+Un nœud qui crée une fenêtre. La fenêtre peut être soit une fenêtre du système natif soit intégrée dans une autre **Window** (voir :ref:`Viewport.gui_embed_subwindows<class_Viewport_property_gui_embed_subwindows>`).
 
-At runtime, **Window**\ s will not close automatically when requested. You need to handle it manually using the :ref:`close_requested<class_Window_signal_close_requested>` signal (this applies both to pressing the close button and clicking outside of a popup).
+Durant l'exécution, les **Window**\ s ne fermeront pas automatiquement lorsque demandé. Vous devez le manipuler manuellement en utilisant le signal :ref:`close_requested<class_Window_signal_close_requested>` (ceci s'applique à la fois à l'appui sur le bouton de fermeture et au clic en dehors d'une popup).
 
 .. rst-class:: classref-reftable-group
 
@@ -319,7 +319,7 @@ Signaux
 
 **about_to_popup**\ (\ ) :ref:`🔗<class_Window_signal_about_to_popup>`
 
-Emitted right after :ref:`popup()<class_Window_method_popup>` call, before the **Window** appears or does anything.
+Émis juste après l'appel à :ref:`popup()<class_Window_method_popup>`, avant que la **Window** n'apparaisse ou ne fasse quelque chose.
 
 .. rst-class:: classref-item-separator
 
@@ -331,9 +331,9 @@ Emitted right after :ref:`popup()<class_Window_method_popup>` call, before the *
 
 **close_requested**\ (\ ) :ref:`🔗<class_Window_signal_close_requested>`
 
-Emitted when the **Window**'s close button is pressed or when :ref:`popup_window<class_Window_property_popup_window>` is enabled and user clicks outside the window.
+Émis lorsque le bouton de fermeture de la **Window** est appuyé ou lorsque :ref:`popup_window<class_Window_property_popup_window>` est activé et que l'utilisateur clique à l'extérieur de la fenêtre.
 
-This signal can be used to handle window closing, e.g. by connecting it to :ref:`hide()<class_Window_method_hide>`.
+Ce signal peut être utilisé pour traiter la fermeture de la fenêtre, par exemple en le connectant à :ref:`hide()<class_Window_method_hide>`.
 
 .. rst-class:: classref-item-separator
 
@@ -345,9 +345,9 @@ This signal can be used to handle window closing, e.g. by connecting it to :ref:
 
 **dpi_changed**\ (\ ) :ref:`🔗<class_Window_signal_dpi_changed>`
 
-Emitted when the **Window**'s DPI changes as a result of OS-level changes (e.g. moving the window from a Retina display to a lower resolution one).
+Émis lorsque le DPI de la **Window** change en raison de changements de niveau de l'OS (p. ex. déplacer la fenêtre d'un écran Retina à un écran de résolution inférieure).
 
-\ **Note:** Only implemented on macOS and Linux (Wayland).
+\ **Note :** Seulement implémenté sur MacOS et Linux (Wayland).
 
 .. rst-class:: classref-item-separator
 
@@ -359,7 +359,7 @@ Emitted when the **Window**'s DPI changes as a result of OS-level changes (e.g. 
 
 **files_dropped**\ (\ files\: :ref:`PackedStringArray<class_PackedStringArray>`\ ) :ref:`🔗<class_Window_signal_files_dropped>`
 
-Emitted when files are dragged from the OS file manager and dropped in the game window. The argument is a list of file paths.
+Émis lorsque des fichiers sont glissés du gestionnaire de fichiers de l'OS et déposés dans la fenêtre de jeu. L'argument est une liste de chemins de fichiers.
 
 ::
 
@@ -369,7 +369,7 @@ Emitted when files are dragged from the OS file manager and dropped in the game 
     func on_files_dropped(files):
         print(files)
 
-\ **Note:** This signal only works with native windows, i.e. the main window and **Window**-derived nodes when :ref:`Viewport.gui_embed_subwindows<class_Viewport_property_gui_embed_subwindows>` is disabled in the main viewport.
+\ **Note :** Ce signal ne fonctionne qu'avec des fenêtres natives, c'est-à-dire la fenêtre principale et les nœuds dérivés de **Window** lorsque :ref:`Viewport.gui_embed_subwindows<class_Viewport_property_gui_embed_subwindows>` est désactivé dans le viewport principal.
 
 .. rst-class:: classref-item-separator
 
@@ -381,7 +381,7 @@ Emitted when files are dragged from the OS file manager and dropped in the game 
 
 **focus_entered**\ (\ ) :ref:`🔗<class_Window_signal_focus_entered>`
 
-Emitted when the **Window** gains focus.
+Émis lorsque la **Window** prend le focus.
 
 .. rst-class:: classref-item-separator
 
@@ -393,7 +393,7 @@ Emitted when the **Window** gains focus.
 
 **focus_exited**\ (\ ) :ref:`🔗<class_Window_signal_focus_exited>`
 
-Emitted when the **Window** loses its focus.
+Émis lorsque la **Window** perd le focus.
 
 .. rst-class:: classref-item-separator
 
@@ -405,7 +405,7 @@ Emitted when the **Window** loses its focus.
 
 **go_back_requested**\ (\ ) :ref:`🔗<class_Window_signal_go_back_requested>`
 
-Emitted when a go back request is sent (e.g. pressing the "Back" button on Android), right after :ref:`Node.NOTIFICATION_WM_GO_BACK_REQUEST<class_Node_constant_NOTIFICATION_WM_GO_BACK_REQUEST>`.
+Émis lorsqu'une demande d'aller en arrière est envoyée (p. ex. appuyant sur le bouton "Retour" sur Android), juste après :ref:`Node.NOTIFICATION_WM_GO_BACK_REQUEST<class_Node_constant_NOTIFICATION_WM_GO_BACK_REQUEST>`.
 
 .. rst-class:: classref-item-separator
 
@@ -417,7 +417,7 @@ Emitted when a go back request is sent (e.g. pressing the "Back" button on Andro
 
 **mouse_entered**\ (\ ) :ref:`🔗<class_Window_signal_mouse_entered>`
 
-Emitted when the mouse cursor enters the **Window**'s visible area, that is not occluded behind other :ref:`Control<class_Control>`\ s or windows, provided its :ref:`Viewport.gui_disable_input<class_Viewport_property_gui_disable_input>` is ``false`` and regardless if it's currently focused or not.
+Émis lorsque le curseur de la souris pénètre dans la zone visible de la **Window**, qui n'est pas cachée derrière d'autres :ref:`Control<class_Control>`\ s ou fenêtres, à condition que son :ref:`Viewport.gui_disable_input<class_Viewport_property_gui_disable_input>` vaille ``false``, peu importe si elle a le focus ou non.
 
 .. rst-class:: classref-item-separator
 
@@ -429,7 +429,7 @@ Emitted when the mouse cursor enters the **Window**'s visible area, that is not 
 
 **mouse_exited**\ (\ ) :ref:`🔗<class_Window_signal_mouse_exited>`
 
-Emitted when the mouse cursor leaves the **Window**'s visible area, that is not occluded behind other :ref:`Control<class_Control>`\ s or windows, provided its :ref:`Viewport.gui_disable_input<class_Viewport_property_gui_disable_input>` is ``false`` and regardless if it's currently focused or not.
+Émis lorsque le curseur de la souris quitte la zone visible de la **Window**, qui n'est pas cachée derrière d'autres :ref:`Control<class_Control>`\ s ou fenêtres, à condition que son :ref:`Viewport.gui_disable_input<class_Viewport_property_gui_disable_input>` vaille ``false``, peu importe si elle a le focus ou non.
 
 .. rst-class:: classref-item-separator
 
@@ -441,7 +441,7 @@ Emitted when the mouse cursor leaves the **Window**'s visible area, that is not 
 
 **theme_changed**\ (\ ) :ref:`🔗<class_Window_signal_theme_changed>`
 
-Emitted when the :ref:`NOTIFICATION_THEME_CHANGED<class_Window_constant_NOTIFICATION_THEME_CHANGED>` notification is sent.
+Émis lorsque la notification :ref:`NOTIFICATION_THEME_CHANGED<class_Window_constant_NOTIFICATION_THEME_CHANGED>` est envoyée.
 
 .. rst-class:: classref-item-separator
 
@@ -453,7 +453,7 @@ Emitted when the :ref:`NOTIFICATION_THEME_CHANGED<class_Window_constant_NOTIFICA
 
 **title_changed**\ (\ ) :ref:`🔗<class_Window_signal_title_changed>`
 
-Emitted when window title bar text is changed.
+Émis lorsque le texte de la barre du titre de la fenêtre est modifié.
 
 .. rst-class:: classref-item-separator
 
@@ -465,7 +465,7 @@ Emitted when window title bar text is changed.
 
 **titlebar_changed**\ (\ ) :ref:`🔗<class_Window_signal_titlebar_changed>`
 
-Emitted when window title bar decorations are changed, e.g. macOS window enter/exit full screen mode, or extend-to-title flag is changed.
+Émis lorsque les décorations de la barre du titre de la fenêtre sont modifiées, p.ex. la fenêtre macOS entre/sort du mode plein écran, ou le drapeau d'extension au titre est changé.
 
 .. rst-class:: classref-item-separator
 
@@ -477,7 +477,7 @@ Emitted when window title bar decorations are changed, e.g. macOS window enter/e
 
 **visibility_changed**\ (\ ) :ref:`🔗<class_Window_signal_visibility_changed>`
 
-Emitted when **Window** is made visible or disappears.
+Émis lorsque la **Window** est rendue visible ou disparaît.
 
 .. rst-class:: classref-item-separator
 
@@ -489,7 +489,7 @@ Emitted when **Window** is made visible or disappears.
 
 **window_input**\ (\ event\: :ref:`InputEvent<class_InputEvent>`\ ) :ref:`🔗<class_Window_signal_window_input>`
 
-Emitted when the **Window** is currently focused and receives any input, passing the received event as an argument. The event's position, if present, is in the embedder's coordinate system.
+Émis lorsque la **Window** a actuellement le focus et reçoit une entrée, en passant l'évènement reçu en tant qu'arguement. La position de l'événement, si elle est présente, est dans le système de coordonnées de l'intégrateur.
 
 .. rst-class:: classref-section-separator
 
@@ -512,7 +512,7 @@ enum **Mode**: :ref:`🔗<enum_Window_Mode>`
 
 :ref:`Mode<enum_Window_Mode>` **MODE_WINDOWED** = ``0``
 
-Windowed mode, i.e. **Window** doesn't occupy the whole screen (unless set to the size of the screen).
+Mode fenêtré, c'est-à-dire que **Window** n'occupe pas l'écran entier (sauf si définie à la taille de l'écran).
 
 .. _class_Window_constant_MODE_MINIMIZED:
 
@@ -520,7 +520,7 @@ Windowed mode, i.e. **Window** doesn't occupy the whole screen (unless set to th
 
 :ref:`Mode<enum_Window_Mode>` **MODE_MINIMIZED** = ``1``
 
-Minimized window mode, i.e. **Window** is not visible and available on window manager's window list. Normally happens when the minimize button is pressed.
+Mode de fenêtre minimisée, c.-à-d. **Window** n'est pas visible et est disponible dans la liste des fenêtres du gestionnaire de fenêtre. Se produit normalement lorsque le bouton de minimisation est appuyé.
 
 .. _class_Window_constant_MODE_MAXIMIZED:
 
@@ -528,7 +528,7 @@ Minimized window mode, i.e. **Window** is not visible and available on window ma
 
 :ref:`Mode<enum_Window_Mode>` **MODE_MAXIMIZED** = ``2``
 
-Maximized window mode, i.e. **Window** will occupy whole screen area except task bar and still display its borders. Normally happens when the maximize button is pressed.
+Mode de fenêtre maximisée, c.-à-d. **Window** occupera tout l'écran sauf la barre des tâches et affichera toujours ses bordures. Se produit normalement lorsque le bouton de maximisation est appuyé.
 
 .. _class_Window_constant_MODE_FULLSCREEN:
 
@@ -536,15 +536,15 @@ Maximized window mode, i.e. **Window** will occupy whole screen area except task
 
 :ref:`Mode<enum_Window_Mode>` **MODE_FULLSCREEN** = ``3``
 
-Full screen mode with full multi-window support.
+Mode plein écran avec support multi-fenêtres complet.
 
-Full screen window covers the entire display area of a screen and has no decorations. The display's video mode is not changed.
+La fenêtre en plein écran couvre toute la zone d'affichage d'un écran et n'a pas de décorations. Le mode vidéo de l'écran n'est pas modifié.
 
-\ **On Android:** This enables immersive mode.
+\ ** Sur Android :** Cela active le mode immersif.
 
-\ **On macOS:** A new desktop is used to display the running project.
+\ ** Sur macOS :** Un nouveau bureau est utilisé pour afficher le projet en cours d'exécution.
 
-\ **Note:** Regardless of the platform, enabling full screen will change the window size to match the monitor's size. Therefore, make sure your project supports :doc:`multiple resolutions <../tutorials/rendering/multiple_resolutions>` when enabling full screen mode.
+\ **Note :** Quelle que soit la plate-forme, activer le plein écran changera la taille de la fenêtre pour correspondre à la taille du moniteur. Par conséquent, assurez-vous que votre projet supporte des :doc:`résolutions multiples <../tutorials/rendering/multiple_résolutions>` lors de l'activation du mode plein écran.
 
 .. _class_Window_constant_MODE_EXCLUSIVE_FULLSCREEN:
 
@@ -552,23 +552,23 @@ Full screen window covers the entire display area of a screen and has no decorat
 
 :ref:`Mode<enum_Window_Mode>` **MODE_EXCLUSIVE_FULLSCREEN** = ``4``
 
-A single window full screen mode. This mode has less overhead, but only one window can be open on a given screen at a time (opening a child window or application switching will trigger a full screen transition).
+Un mode de fenêtre simple en plein écran. Ce mode a moins de surcoût, mais une seule fenêtre peut être ouverte sur un écran donné à la fois (ouvrir une fenêtre enfant ou changer d'application déclenchera une transition de plein écran).
 
-Full screen window covers the entire display area of a screen and has no border or decorations. The display's video mode is not changed.
+La fenêtre en plein écran couvre l'ensemble de la zone d'affichage d'un écran et n'a aucune bordure ou de décoration. Le mode vidéo de l'écran n'est pas modifié.
 
-\ **Note:** This mode might not work with screen recording software.
+\ **Note :** Ce mode pourrait ne pas fonctionner avec des logiciels d'enregistrement d'écran.
 
-\ **On Android:** This enables immersive mode.
+\ ** Sur Android :** Cela active le mode immersif.
 
-\ **On Windows:** Depending on video driver, full screen transition might cause screens to go black for a moment.
+\ **Sur Windows :** Selon le pilote vidéo, la transition vers le plein écran peut forcer l'écran à devenir noir pendant un court moment.
 
-\ **On macOS:** A new desktop is used to display the running project. Exclusive full screen mode prevents Dock and Menu from showing up when the mouse pointer is hovering the edge of the screen.
+\ ** Sur macOS :** Un nouveau bureau est utilisé pour afficher le projet en cours. Le mode plein écran exclusif empêche le Dock et le Menu de s'afficher lorsque le pointeur de la souris survole le bord de l'écran.
 
-\ **On Linux (X11):** Exclusive full screen mode bypasses compositor.
+\ ** Sur Linux (X11) :** Le mode plein écran exclusif contourne le compositeur.
 
-\ **On Linux (Wayland):** Equivalent to :ref:`MODE_FULLSCREEN<class_Window_constant_MODE_FULLSCREEN>`.
+\ **Sur Linux (Wayland) :** Équivalent à :ref:`MODE_FULLSCREEN<class_Window_constant_MODE_FULLSCREEN>`.
 
-\ **Note:** Regardless of the platform, enabling full screen will change the window size to match the monitor's size. Therefore, make sure your project supports :doc:`multiple resolutions <../tutorials/rendering/multiple_resolutions>` when enabling full screen mode.
+\ **Note :** Quelle que soit la plate-forme, activer le plein écran va modifier taille de la fenêtre pour correspondre à la taille du moniteur. Par conséquent, assurez-vous que votre projet supporte des :doc:`résolutions multiples <../tutorials/rendering/multiple_résolutions>` lors de l'activation du mode plein écran.
 
 .. rst-class:: classref-item-separator
 
@@ -586,7 +586,7 @@ enum **Flags**: :ref:`🔗<enum_Window_Flags>`
 
 :ref:`Flags<enum_Window_Flags>` **FLAG_RESIZE_DISABLED** = ``0``
 
-The window can't be resized by dragging its resize grip. It's still possible to resize the window using :ref:`size<class_Window_property_size>`. This flag is ignored for full screen windows. Set with :ref:`unresizable<class_Window_property_unresizable>`.
+La fenêtre ne peut pas être redimensionnée en tirant sur sa poignée de redimensionnement. Il est encore possible de redimensionner la fenêtre en utilisant :ref:`size<class_Window_property_size>`. Ce drapeau est ignoré pour les fenêtres en plein écran. Défini avec :ref:`unresizable<class_Window_property_unresizable>`.
 
 .. _class_Window_constant_FLAG_BORDERLESS:
 
@@ -594,7 +594,7 @@ The window can't be resized by dragging its resize grip. It's still possible to 
 
 :ref:`Flags<enum_Window_Flags>` **FLAG_BORDERLESS** = ``1``
 
-The window do not have native title bar and other decorations. This flag is ignored for full-screen windows. Set with :ref:`borderless<class_Window_property_borderless>`.
+La fenêtre n'a pas de barre de titre natif et d'autres décorations. Ce drapeau est ignoré pour les fenêtres en plein écran. Défini avec :ref:`borderless<class_Window_property_borderless>`.
 
 .. _class_Window_constant_FLAG_ALWAYS_ON_TOP:
 
@@ -602,7 +602,7 @@ The window do not have native title bar and other decorations. This flag is igno
 
 :ref:`Flags<enum_Window_Flags>` **FLAG_ALWAYS_ON_TOP** = ``2``
 
-The window is floating on top of all other windows. This flag is ignored for full-screen windows. Set with :ref:`always_on_top<class_Window_property_always_on_top>`.
+La fenêtre flotte au dessus de toutes les autres fenêtres. Ce drapeau est ignoré pour les fenêtres en plein écran. Défini avec :ref:`always_on_top<class_Window_property_always_on_top>`.
 
 .. _class_Window_constant_FLAG_TRANSPARENT:
 
@@ -610,9 +610,9 @@ The window is floating on top of all other windows. This flag is ignored for ful
 
 :ref:`Flags<enum_Window_Flags>` **FLAG_TRANSPARENT** = ``3``
 
-The window background can be transparent. Set with :ref:`transparent<class_Window_property_transparent>`.
+L'arrière-plan de la fenêtre peut être transparent. Défini avec :ref:`transparent<class_Window_property_transparent>`.
 
-\ **Note:** This flag has no effect if either :ref:`ProjectSettings.display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>`, or the window's :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` is set to ``false``.
+\ **Note :** Ce drapeau n'a aucun effet si :ref:`ProjectSettings.display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>` ou le :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` de la fenêtre est défini à ``false``.
 
 .. _class_Window_constant_FLAG_NO_FOCUS:
 
@@ -620,7 +620,7 @@ The window background can be transparent. Set with :ref:`transparent<class_Windo
 
 :ref:`Flags<enum_Window_Flags>` **FLAG_NO_FOCUS** = ``4``
 
-The window can't be focused. No-focus window will ignore all input, except mouse clicks. Set with :ref:`unfocusable<class_Window_property_unfocusable>`.
+La fenêtre ne peut pas recevoir le focus. Une fenêtre sans focus ignorera toutes les entrées, sauf les clics de souris. Défini avec :ref:`unfocusable<class_Window_property_unfocusable>`.
 
 .. _class_Window_constant_FLAG_POPUP:
 
@@ -638,11 +638,11 @@ Window is part of menu or :ref:`OptionButton<class_OptionButton>` dropdown. This
 
 :ref:`Flags<enum_Window_Flags>` **FLAG_EXTEND_TO_TITLE** = ``6``
 
-Window content is expanded to the full size of the window. Unlike borderless window, the frame is left intact and can be used to resize the window, title bar is transparent, but have minimize/maximize/close buttons. Set with :ref:`extend_to_title<class_Window_property_extend_to_title>`.
+Le contenu de la fenêtre est élargi à la taille de la fenêtre. Contrairement à la fenêtre sans bords, le cadre est laissé intact et peut être utilisé pour redimensionner la fenêtre, la barre de titre est transparente, mais dispose des boutons de minimisation/maximisation/fermeture. Défini avec :ref:`extend_to_title<class_Window_property_extend_to_title>`.
 
-\ **Note:** This flag is implemented only on macOS.
+\ **Note :** Ce drapeau n'est implémenté que sur macOS.
 
-\ **Note:** This flag has no effect in embedded windows.
+\ **Note :** Ce drapeau n'a aucun effet dans les fenêtres intégrées.
 
 .. _class_Window_constant_FLAG_MOUSE_PASSTHROUGH:
 
@@ -650,9 +650,9 @@ Window content is expanded to the full size of the window. Unlike borderless win
 
 :ref:`Flags<enum_Window_Flags>` **FLAG_MOUSE_PASSTHROUGH** = ``7``
 
-All mouse events are passed to the underlying window of the same application.
+Tous les événements de la souris sont passés à la fenêtre sous-jacente de la même application.
 
-\ **Note:** This flag has no effect in embedded windows.
+\ **Note :** Ce drapeau n'a aucun effet dans les fenêtres intégrées.
 
 .. _class_Window_constant_FLAG_SHARP_CORNERS:
 
@@ -672,13 +672,13 @@ Le style de fenêtre est redéfini, forçant des coins pointus.
 
 :ref:`Flags<enum_Window_Flags>` **FLAG_EXCLUDE_FROM_CAPTURE** = ``9``
 
-Windows is excluded from screenshots taken by :ref:`DisplayServer.screen_get_image()<class_DisplayServer_method_screen_get_image>`, :ref:`DisplayServer.screen_get_image_rect()<class_DisplayServer_method_screen_get_image_rect>`, and :ref:`DisplayServer.screen_get_pixel()<class_DisplayServer_method_screen_get_pixel>`.
+La fenêtre est exclue des captures d'écran prises par :ref:`DisplayServer.screen_get_image()<class_DisplayServer_method_screen_get_image>`, :ref:`DisplayServer.screen_get_image_rect()<class_DisplayServer_method_screen_get_image_rect>`, et :ref:`DisplayServer.screen_get_pixel()<class_DisplayServer_method_screen_get_pixel>`.
 
-\ **Note:** This flag has no effect in embedded windows.
+\ **Note :** Ce drapeau n'a aucun effet dans les fenêtres intégrées.
 
-\ **Note:** This flag is implemented on macOS and Windows (10, 20H1).
+\ **Note :** Ce drapeau est implémenté sur macOS et Windows (10, 20H1).
 
-\ **Note:** Setting this flag will prevent standard screenshot methods from capturing a window image, but does **NOT** guarantee that other apps won't be able to capture an image. It should not be used as a DRM or security measure.
+\ **Note :** Définir ce drapeau empêchera les méthodes standard de capture d'écran de capturer une image de fenêtre, mais ne garantit **PAS** que d'autres applications ne pourront pas capturer une image. Il ne doit pas être utilisé comme mesure de DRM ou de sécurité.
 
 .. _class_Window_constant_FLAG_POPUP_WM_HINT:
 
@@ -694,9 +694,9 @@ Signals the window manager that this window is supposed to be an implementation-
 
 :ref:`Flags<enum_Window_Flags>` **FLAG_MINIMIZE_DISABLED** = ``11``
 
-Window minimize button is disabled.
+Le bouton de minimisation de la fenêtre est désactivé.
 
-\ **Note:** This flag is implemented on macOS and Windows.
+\ **Note :** Ce drapeau est implémenté sur macOS et Windows.
 
 .. _class_Window_constant_FLAG_MAXIMIZE_DISABLED:
 
@@ -704,9 +704,9 @@ Window minimize button is disabled.
 
 :ref:`Flags<enum_Window_Flags>` **FLAG_MAXIMIZE_DISABLED** = ``12``
 
-Window maximize button is disabled.
+Le bouton de maximisation de la fenêtre est désactivé.
 
-\ **Note:** This flag is implemented on macOS and Windows.
+\ **Note :** Ce drapeau est implémenté sur macOS et Windows.
 
 .. _class_Window_constant_FLAG_MAX:
 
@@ -714,7 +714,7 @@ Window maximize button is disabled.
 
 :ref:`Flags<enum_Window_Flags>` **FLAG_MAX** = ``13``
 
-Max value of the :ref:`Flags<enum_Window_Flags>`.
+Valeur maximale pour les drapeaux :ref:`Flags<enum_Window_Flags>`.
 
 .. rst-class:: classref-item-separator
 
@@ -732,7 +732,7 @@ enum **ContentScaleMode**: :ref:`🔗<enum_Window_ContentScaleMode>`
 
 :ref:`ContentScaleMode<enum_Window_ContentScaleMode>` **CONTENT_SCALE_MODE_DISABLED** = ``0``
 
-The content will not be scaled to match the **Window**'s size.
+Le contenu ne sera pas mis à l'échelle pour correspondre à la taille de la **Window**.
 
 .. _class_Window_constant_CONTENT_SCALE_MODE_CANVAS_ITEMS:
 
@@ -740,7 +740,7 @@ The content will not be scaled to match the **Window**'s size.
 
 :ref:`ContentScaleMode<enum_Window_ContentScaleMode>` **CONTENT_SCALE_MODE_CANVAS_ITEMS** = ``1``
 
-The content will be rendered at the target size. This is more performance-expensive than :ref:`CONTENT_SCALE_MODE_VIEWPORT<class_Window_constant_CONTENT_SCALE_MODE_VIEWPORT>`, but provides better results.
+Le contenu sera rendu à la taille cible. Ceci est plus cher en performances que :ref:`CONTENT_SCALE_MODE_VIEWPORT<class_Window_constant_CONTENT_SCALE_MODE_VIEWPORT>`, mais fournit de meilleurs résultats.
 
 .. _class_Window_constant_CONTENT_SCALE_MODE_VIEWPORT:
 
@@ -748,7 +748,7 @@ The content will be rendered at the target size. This is more performance-expens
 
 :ref:`ContentScaleMode<enum_Window_ContentScaleMode>` **CONTENT_SCALE_MODE_VIEWPORT** = ``2``
 
-The content will be rendered at the base size and then scaled to the target size. More performant than :ref:`CONTENT_SCALE_MODE_CANVAS_ITEMS<class_Window_constant_CONTENT_SCALE_MODE_CANVAS_ITEMS>`, but results in pixelated image.
+Le contenu sera rendu à la taille de base et ensuite échelonné à la taille cible. Plus performant que :ref:`CONTENT_SCALE_MODE_CANVAS_ITEMS<class_Window_constant_CONTENT_SCALE_MODE_CANVAS_ITEMS>`, mais résulte en une image pixelisée.
 
 .. rst-class:: classref-item-separator
 
@@ -766,7 +766,7 @@ enum **ContentScaleAspect**: :ref:`🔗<enum_Window_ContentScaleAspect>`
 
 :ref:`ContentScaleAspect<enum_Window_ContentScaleAspect>` **CONTENT_SCALE_ASPECT_IGNORE** = ``0``
 
-The aspect will be ignored. Scaling will simply stretch the content to fit the target size.
+Le rapport d'aspect sera ignoré. L'échelle va simplement étirer le contenu pour correspondre à la taille cible.
 
 .. _class_Window_constant_CONTENT_SCALE_ASPECT_KEEP:
 
@@ -774,7 +774,7 @@ The aspect will be ignored. Scaling will simply stretch the content to fit the t
 
 :ref:`ContentScaleAspect<enum_Window_ContentScaleAspect>` **CONTENT_SCALE_ASPECT_KEEP** = ``1``
 
-The content's aspect will be preserved. If the target size has different aspect from the base one, the image will be centered and black bars will appear on left and right sides.
+Le rapport d'aspect du contenu sera préservé. Si la taille de la cible a un rapport différent de la base, l'image sera centrée et des barres noires apparaîtront sur les côtés gauche et droit.
 
 .. _class_Window_constant_CONTENT_SCALE_ASPECT_KEEP_WIDTH:
 
@@ -782,7 +782,7 @@ The content's aspect will be preserved. If the target size has different aspect 
 
 :ref:`ContentScaleAspect<enum_Window_ContentScaleAspect>` **CONTENT_SCALE_ASPECT_KEEP_WIDTH** = ``2``
 
-The content can be expanded vertically. Scaling horizontally will result in keeping the width ratio and then black bars on left and right sides.
+Le contenu peut être étendu verticalement. Redimensionner horizontalement résultera en le maintien du rapport de largeur et des barres noires sur les côtés gauche et droit.
 
 .. _class_Window_constant_CONTENT_SCALE_ASPECT_KEEP_HEIGHT:
 
@@ -790,7 +790,7 @@ The content can be expanded vertically. Scaling horizontally will result in keep
 
 :ref:`ContentScaleAspect<enum_Window_ContentScaleAspect>` **CONTENT_SCALE_ASPECT_KEEP_HEIGHT** = ``3``
 
-The content can be expanded horizontally. Scaling vertically will result in keeping the height ratio and then black bars on top and bottom sides.
+Le contenu peut être étendu horizontalement. Redimensionner verticalement résultera en le maintien du rapport de hauteur et des barres noires en haut et en bas.
 
 .. _class_Window_constant_CONTENT_SCALE_ASPECT_EXPAND:
 
@@ -798,7 +798,7 @@ The content can be expanded horizontally. Scaling vertically will result in keep
 
 :ref:`ContentScaleAspect<enum_Window_ContentScaleAspect>` **CONTENT_SCALE_ASPECT_EXPAND** = ``4``
 
-The content's aspect will be preserved. If the target size has different aspect from the base one, the content will stay in the top-left corner and add an extra visible area in the stretched space.
+Le rapport d'aspect du contenu sera préservé. Si la taille de cible a un rapport différent de la taille de base, le contenu restera dans le coin supérieur gauche et ajoutera une zone visible supplémentaire dans l'espace étiré.
 
 .. rst-class:: classref-item-separator
 
@@ -816,7 +816,7 @@ enum **ContentScaleStretch**: :ref:`🔗<enum_Window_ContentScaleStretch>`
 
 :ref:`ContentScaleStretch<enum_Window_ContentScaleStretch>` **CONTENT_SCALE_STRETCH_FRACTIONAL** = ``0``
 
-The content will be stretched according to a fractional factor. This fills all the space available in the window, but allows "pixel wobble" to occur due to uneven pixel scaling.
+Le contenu sera étiré selon un facteur fractionnel. Cela remplit tout l'espace disponible dans la fenêtre, mais cause du "pixel wobble" en raison de l'échelle inégale des pixels.
 
 .. _class_Window_constant_CONTENT_SCALE_STRETCH_INTEGER:
 
@@ -824,7 +824,7 @@ The content will be stretched according to a fractional factor. This fills all t
 
 :ref:`ContentScaleStretch<enum_Window_ContentScaleStretch>` **CONTENT_SCALE_STRETCH_INTEGER** = ``1``
 
-The content will be stretched only according to an integer factor, preserving sharp pixels. This may leave a black background visible on the window's edges depending on the window size.
+Le contenu sera étiré seulement selon un facteur entier, en conservant les pixels nets. Cela peut laisser un fond noir visible sur les bords de la fenêtre en fonction de la taille de la fenêtre.
 
 .. rst-class:: classref-item-separator
 
@@ -842,7 +842,7 @@ enum **LayoutDirection**: :ref:`🔗<enum_Window_LayoutDirection>`
 
 :ref:`LayoutDirection<enum_Window_LayoutDirection>` **LAYOUT_DIRECTION_INHERITED** = ``0``
 
-Automatic layout direction, determined from the parent window layout direction.
+Direction de mise en page automatique, déterminée à partir de la direction de mise en page de la fenêtre parente.
 
 .. _class_Window_constant_LAYOUT_DIRECTION_APPLICATION_LOCALE:
 
@@ -850,7 +850,7 @@ Automatic layout direction, determined from the parent window layout direction.
 
 :ref:`LayoutDirection<enum_Window_LayoutDirection>` **LAYOUT_DIRECTION_APPLICATION_LOCALE** = ``1``
 
-Direction de la mise en page automatique, déterminée à partir de la langue actuelle.
+Direction de mise en page automatique, déterminée à partir de la langue actuelle.
 
 .. _class_Window_constant_LAYOUT_DIRECTION_LTR:
 
@@ -874,7 +874,7 @@ Disposition de direction de droite à gauche.
 
 :ref:`LayoutDirection<enum_Window_LayoutDirection>` **LAYOUT_DIRECTION_SYSTEM_LOCALE** = ``4``
 
-Automatic layout direction, determined from the system locale.
+Direction de mise en page automatique, déterminée à partir de la langue du système.
 
 .. _class_Window_constant_LAYOUT_DIRECTION_MAX:
 
@@ -910,7 +910,7 @@ enum **WindowInitialPosition**: :ref:`🔗<enum_Window_WindowInitialPosition>`
 
 :ref:`WindowInitialPosition<enum_Window_WindowInitialPosition>` **WINDOW_INITIAL_POSITION_ABSOLUTE** = ``0``
 
-Initial window position is determined by :ref:`position<class_Window_property_position>`.
+La position initiale de la fenêtre est déterminée par :ref:`position<class_Window_property_position>`.
 
 .. _class_Window_constant_WINDOW_INITIAL_POSITION_CENTER_PRIMARY_SCREEN:
 
@@ -918,7 +918,7 @@ Initial window position is determined by :ref:`position<class_Window_property_po
 
 :ref:`WindowInitialPosition<enum_Window_WindowInitialPosition>` **WINDOW_INITIAL_POSITION_CENTER_PRIMARY_SCREEN** = ``1``
 
-Initial window position is the center of the primary screen.
+La position initiale de la fenêtre est le centre de l'écran principal.
 
 .. _class_Window_constant_WINDOW_INITIAL_POSITION_CENTER_MAIN_WINDOW_SCREEN:
 
@@ -926,7 +926,7 @@ Initial window position is the center of the primary screen.
 
 :ref:`WindowInitialPosition<enum_Window_WindowInitialPosition>` **WINDOW_INITIAL_POSITION_CENTER_MAIN_WINDOW_SCREEN** = ``2``
 
-Initial window position is the center of the main window screen.
+La position initiale de la fenêtre est le centre de l'écran de la fenêtre principale.
 
 .. _class_Window_constant_WINDOW_INITIAL_POSITION_CENTER_OTHER_SCREEN:
 
@@ -934,7 +934,7 @@ Initial window position is the center of the main window screen.
 
 :ref:`WindowInitialPosition<enum_Window_WindowInitialPosition>` **WINDOW_INITIAL_POSITION_CENTER_OTHER_SCREEN** = ``3``
 
-Initial window position is the center of :ref:`current_screen<class_Window_property_current_screen>` screen.
+La position initiale de la fenêtre est le centre de l'écran :ref:`current_screen<class_Window_property_current_screen>`.
 
 .. _class_Window_constant_WINDOW_INITIAL_POSITION_CENTER_SCREEN_WITH_MOUSE_FOCUS:
 
@@ -942,7 +942,7 @@ Initial window position is the center of :ref:`current_screen<class_Window_prope
 
 :ref:`WindowInitialPosition<enum_Window_WindowInitialPosition>` **WINDOW_INITIAL_POSITION_CENTER_SCREEN_WITH_MOUSE_FOCUS** = ``4``
 
-Initial window position is the center of the screen containing the mouse pointer.
+La position initiale de la fenêtre est le centre de l'écran contenant le pointeur de la souris.
 
 .. _class_Window_constant_WINDOW_INITIAL_POSITION_CENTER_SCREEN_WITH_KEYBOARD_FOCUS:
 
@@ -950,7 +950,7 @@ Initial window position is the center of the screen containing the mouse pointer
 
 :ref:`WindowInitialPosition<enum_Window_WindowInitialPosition>` **WINDOW_INITIAL_POSITION_CENTER_SCREEN_WITH_KEYBOARD_FOCUS** = ``5``
 
-Initial window position is the center of the screen containing the window with the keyboard focus.
+La position initiale de la fenêtre est le centre de l'écran contenant la fenêtre avec le focus du clavier.
 
 .. rst-class:: classref-section-separator
 
@@ -967,7 +967,7 @@ Constantes
 
 **NOTIFICATION_VISIBILITY_CHANGED** = ``30`` :ref:`🔗<class_Window_constant_NOTIFICATION_VISIBILITY_CHANGED>`
 
-Emitted when **Window**'s visibility changes, right before :ref:`visibility_changed<class_Window_signal_visibility_changed>`.
+Émis lorsque la visibilité de la **Window** change, juste avant :ref:`visibility_changed<class_Window_signal_visibility_changed>`.
 
 .. _class_Window_constant_NOTIFICATION_THEME_CHANGED:
 
@@ -975,15 +975,15 @@ Emitted when **Window**'s visibility changes, right before :ref:`visibility_chan
 
 **NOTIFICATION_THEME_CHANGED** = ``32`` :ref:`🔗<class_Window_constant_NOTIFICATION_THEME_CHANGED>`
 
-Sent when the node needs to refresh its theme items. This happens in one of the following cases:
+Envoyé quand le nœud a besoin de rafraîchir ses éléments de thème. Cela se produit dans l'un des cas suivants :
 
-- The :ref:`theme<class_Window_property_theme>` property is changed on this node or any of its ancestors.
+- La propriété :ref:`theme<class_Window_property_theme>` est modifiée sur ce nœud ou l'un de ses ancêtres.
 
-- The :ref:`theme_type_variation<class_Window_property_theme_type_variation>` property is changed on this node.
+- La propriété :ref:`theme_type_variation<class_Window_property_theme_type_variation>` est modifiée sur ce nœud.
 
-- The node enters the scene tree.
+- Le nœud entre dans l'arborescence de la scène.
 
-\ **Note:** As an optimization, this notification won't be sent from changes that occur while this node is outside of the scene tree. Instead, all of the theme item updates can be applied at once when the node enters the scene tree.
+\ **Note :** En tant qu'optimisation, cette notification ne sera pas envoyée lors de modifications qui se produisent alors que ce nœud est à l'extérieur de l'arborescence de la scène. Au lieu de cela, toutes les mises à jour d'élément de thème peuvent être appliquées en une fois lorsque le nœud entre dans l'arborescence de la scène.
 
 .. rst-class:: classref-section-separator
 
@@ -1005,7 +1005,7 @@ Descriptions des propriétés
 - |void| **set_accessibility_description**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_accessibility_description**\ (\ )
 
-The human-readable node description that is reported to assistive apps.
+La description facilement lisible du nœud qui est rapportée aux applications d'assistance.
 
 .. rst-class:: classref-item-separator
 
@@ -1022,7 +1022,7 @@ The human-readable node description that is reported to assistive apps.
 - |void| **set_accessibility_name**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_accessibility_name**\ (\ )
 
-The human-readable node name that is reported to assistive apps.
+Le nom facilement lisible du nœud qui est rapporté aux applications d'assistance.
 
 .. rst-class:: classref-item-separator
 
@@ -1039,7 +1039,7 @@ The human-readable node name that is reported to assistive apps.
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`\ ) |const|
 
-If ``true``, the window will be on top of all other windows. Does not work if :ref:`transient<class_Window_property_transient>` is enabled.
+Si ``true``, la fenêtre sera au-dessus de toutes les autres fenêtres. Ne fonctionne pas si :ref:`transient<class_Window_property_transient>` est activé.
 
 .. rst-class:: classref-item-separator
 
@@ -1058,7 +1058,7 @@ If ``true``, the window will be on top of all other windows. Does not work if :r
 
 **Obsolète :** Use :ref:`Node.auto_translate_mode<class_Node_property_auto_translate_mode>` and :ref:`Node.can_auto_translate()<class_Node_method_can_auto_translate>` instead.
 
-Toggles if any text should automatically change to its translated version depending on the current locale.
+Active/désactive si du texte devrait automatiquement changer en sa version traduite selon la langue actuelle.
 
 .. rst-class:: classref-item-separator
 
@@ -1075,7 +1075,7 @@ Toggles if any text should automatically change to its translated version depend
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`\ ) |const|
 
-If ``true``, the window will have no borders.
+Si ``true``, la fenêtre n'aura pas de bordures.
 
 .. rst-class:: classref-item-separator
 
@@ -1092,7 +1092,7 @@ If ``true``, the window will have no borders.
 - |void| **set_content_scale_aspect**\ (\ value\: :ref:`ContentScaleAspect<enum_Window_ContentScaleAspect>`\ )
 - :ref:`ContentScaleAspect<enum_Window_ContentScaleAspect>` **get_content_scale_aspect**\ (\ )
 
-Specifies how the content's aspect behaves when the **Window** is resized. The base aspect is determined by :ref:`content_scale_size<class_Window_property_content_scale_size>`.
+Spécifie comment le rapport d'aspect du contenu se comporte lorsque la **Window** est redimensionnée. L'aspect de base est déterminé par :ref:`content_scale_size<class_Window_property_content_scale_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1109,7 +1109,7 @@ Specifies how the content's aspect behaves when the **Window** is resized. The b
 - |void| **set_content_scale_factor**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_content_scale_factor**\ (\ )
 
-Specifies the base scale of **Window**'s content when its :ref:`size<class_Window_property_size>` is equal to :ref:`content_scale_size<class_Window_property_content_scale_size>`. See also :ref:`Viewport.get_stretch_transform()<class_Viewport_method_get_stretch_transform>`.
+Spécifie l'échelle de base du contenu de la **Window** lorsque sa :ref:`size<class_Window_property_size>` est égale à :ref:`content_scale_size<class_Window_property_content_scale_size>`. Voir aussi :ref:`Viewport.get_stretch_transform()<class_Viewport_method_get_stretch_transform>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1126,7 +1126,7 @@ Specifies the base scale of **Window**'s content when its :ref:`size<class_Windo
 - |void| **set_content_scale_mode**\ (\ value\: :ref:`ContentScaleMode<enum_Window_ContentScaleMode>`\ )
 - :ref:`ContentScaleMode<enum_Window_ContentScaleMode>` **get_content_scale_mode**\ (\ )
 
-Specifies how the content is scaled when the **Window** is resized.
+Spécifie comment le contenu est mis à l'échelle lorsque la **Window** est redimensionnée.
 
 .. rst-class:: classref-item-separator
 
@@ -1143,7 +1143,7 @@ Specifies how the content is scaled when the **Window** is resized.
 - |void| **set_content_scale_size**\ (\ value\: :ref:`Vector2i<class_Vector2i>`\ )
 - :ref:`Vector2i<class_Vector2i>` **get_content_scale_size**\ (\ )
 
-Base size of the content (i.e. nodes that are drawn inside the window). If non-zero, **Window**'s content will be scaled when the window is resized to a different size.
+Taille de base du contenu (c.-à-d. des nœuds qui sont dessinés à l'intérieur de la fenêtre). Si différent de zéro, le contenu de la **Window** sera réduit lorsque la fenêtre est redimensionnée à une taille différente.
 
 .. rst-class:: classref-item-separator
 
@@ -1160,7 +1160,7 @@ Base size of the content (i.e. nodes that are drawn inside the window). If non-z
 - |void| **set_content_scale_stretch**\ (\ value\: :ref:`ContentScaleStretch<enum_Window_ContentScaleStretch>`\ )
 - :ref:`ContentScaleStretch<enum_Window_ContentScaleStretch>` **get_content_scale_stretch**\ (\ )
 
-The policy to use to determine the final scale factor for 2D elements. This affects how :ref:`content_scale_factor<class_Window_property_content_scale_factor>` is applied, in addition to the automatic scale factor determined by :ref:`content_scale_size<class_Window_property_content_scale_size>`.
+La politique à utiliser pour déterminer le facteur d'échelle finale pour les éléments 2D. Cela affecte la façon dont :ref:`content_scale_factor<class_Window_property_content_scale_factor>` est appliqué, en plus du facteur d'échelle automatique déterminé par :ref:`content_scale_size<class_Window_property_content_scale_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1177,7 +1177,7 @@ The policy to use to determine the final scale factor for 2D elements. This affe
 - |void| **set_current_screen**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_current_screen**\ (\ )
 
-The screen the window is currently on.
+L'écran sur lequel est actuellement la fenêtre.
 
 .. rst-class:: classref-item-separator
 
@@ -1194,11 +1194,11 @@ The screen the window is currently on.
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`\ ) |const|
 
-If ``true``, the **Window** is excluded from screenshots taken by :ref:`DisplayServer.screen_get_image()<class_DisplayServer_method_screen_get_image>`, :ref:`DisplayServer.screen_get_image_rect()<class_DisplayServer_method_screen_get_image_rect>`, and :ref:`DisplayServer.screen_get_pixel()<class_DisplayServer_method_screen_get_pixel>`.
+Si ``true``, la **Window** est exclue des captures d'écran prises par :ref:`DisplayServer.screen_get_image()<class_DisplayServer_method_screen_get_image>`, :ref:`DisplayServer.screen_get_image_rect()<class_DisplayServer_method_screen_get_image_rect>` et :ref:`DisplayServer.screen_get_pixel()<class_DisplayServer_method_screen_get_pixel>`.
 
-\ **Note:** This property is implemented on macOS and Windows.
+\ **Note :** Cette propriété est implémentée sur macOS et Windows.
 
-\ **Note:** Enabling this setting will prevent standard screenshot methods from capturing a window image, but does **NOT** guarantee that other apps won't be able to capture an image. It should not be used as a DRM or security measure.
+\ **Note :** L'activation de ce paramètre empêchera les méthodes standard de capture d'écran de capturer une image de la fenêtre, mais ne garantit **PAS** que d'autres applications ne pourront pas capturer une image. Il ne doit pas être utilisé comme mesure de DRM ou de sécurité.
 
 .. rst-class:: classref-item-separator
 
@@ -1234,11 +1234,11 @@ Nécessite que :ref:`transient<class_Window_property_transient>` soit activé po
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`\ ) |const|
 
-If ``true``, the **Window** contents is expanded to the full size of the window, window title bar is transparent.
+Si ``true``, le contenu de la **Window** est étendu à la taille complète de la fenêtre, la barre du titre de la fenêtre est transparente.
 
-\ **Note:** This property is implemented only on macOS.
+\ **Note :** Cette propriété n'est implémentée que sur macOS.
 
-\ **Note:** This property only works with native windows.
+\ **Note :** Cette propriété ne fonctionne qu'avec des fenêtres natives.
 
 .. rst-class:: classref-item-separator
 
@@ -1255,7 +1255,7 @@ If ``true``, the **Window** contents is expanded to the full size of the window,
 - |void| **set_force_native**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_force_native**\ (\ )
 
-If ``true``, native window will be used regardless of parent viewport and project settings.
+Si ``true``, une fenêtre native sera utilisée indépendamment des paramètres du viewport parent et du projet.
 
 .. rst-class:: classref-item-separator
 
@@ -1272,7 +1272,7 @@ If ``true``, native window will be used regardless of parent viewport and projec
 - |void| **set_initial_position**\ (\ value\: :ref:`WindowInitialPosition<enum_Window_WindowInitialPosition>`\ )
 - :ref:`WindowInitialPosition<enum_Window_WindowInitialPosition>` **get_initial_position**\ (\ )
 
-Specifies the initial type of position for the **Window**.
+Spécifie le type initial de position pour la **Window**.
 
 .. rst-class:: classref-item-separator
 
@@ -1289,7 +1289,7 @@ Specifies the initial type of position for the **Window**.
 - |void| **set_keep_title_visible**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_keep_title_visible**\ (\ )
 
-If ``true``, the **Window** width is expanded to keep the title bar text fully visible.
+Si ``true``, la largeur de la **Window** est étendue pour garder le texte de la barre du titre entièrement visible.
 
 .. rst-class:: classref-item-separator
 
@@ -1306,9 +1306,9 @@ If ``true``, the **Window** width is expanded to keep the title bar text fully v
 - |void| **set_max_size**\ (\ value\: :ref:`Vector2i<class_Vector2i>`\ )
 - :ref:`Vector2i<class_Vector2i>` **get_max_size**\ (\ )
 
-If non-zero, the **Window** can't be resized to be bigger than this size.
+Si différent de zéro, la **Window** ne peut être redimensionné pour être plus grande que cette taille.
 
-\ **Note:** This property will be ignored if the value is lower than :ref:`min_size<class_Window_property_min_size>`.
+\ **Note :** Cette propriété sera ignorée si la valeur est inférieure à :ref:`min_size<class_Window_property_min_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1325,11 +1325,11 @@ If non-zero, the **Window** can't be resized to be bigger than this size.
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`\ ) |const|
 
-If ``true``, the **Window**'s maximize button is disabled.
+Si ``true``, le bouton de maximisation de la **Window** est désactivé.
 
-\ **Note:** If both minimize and maximize buttons are disabled, buttons are fully hidden, and only close button is visible.
+\ **Note :** Si les boutons de minimisation et de minimisation sont tous deux désactivés, les boutons sont entièrement cachés, et seul le bouton de fermeture est visible.
 
-\ **Note:** This property is implemented only on macOS and Windows.
+\ **Note :** Cette propriété est implémentée uniquement sur macOS et Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -1346,9 +1346,9 @@ If ``true``, the **Window**'s maximize button is disabled.
 - |void| **set_min_size**\ (\ value\: :ref:`Vector2i<class_Vector2i>`\ )
 - :ref:`Vector2i<class_Vector2i>` **get_min_size**\ (\ )
 
-If non-zero, the **Window** can't be resized to be smaller than this size.
+Si différent de zéro, la **Window** ne peut être redimensionnée pour être plus petite que cette taille.
 
-\ **Note:** This property will be ignored in favor of :ref:`get_contents_minimum_size()<class_Window_method_get_contents_minimum_size>` if :ref:`wrap_controls<class_Window_property_wrap_controls>` is enabled and if its size is bigger.
+\ **Note :** Cette propriété sera ignorée en faveur de :ref:`get_contents_minimum_size()<class_Window_method_get_contents_minimum_size>` si :ref:`wrap_controls<class_Window_property_wrap_controls>` est activé et si sa taille est plus grande.
 
 .. rst-class:: classref-item-separator
 
@@ -1365,11 +1365,11 @@ If non-zero, the **Window** can't be resized to be smaller than this size.
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`\ ) |const|
 
-If ``true``, the **Window**'s minimize button is disabled.
+Si ``true``, le bouton de minimisation de la **Window** est désactivé.
 
-\ **Note:** If both minimize and maximize buttons are disabled, buttons are fully hidden, and only close button is visible.
+\ **Note :** Si les boutons de minimisation et de minimisation sont tous deux désactivés, les boutons sont entièrement cachés, et seul le bouton de fermeture est visible.
 
-\ **Note:** This property is implemented only on macOS and Windows.
+\ **Note :** Cette propriété est implémentée uniquement sur macOS et Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -1386,11 +1386,11 @@ If ``true``, the **Window**'s minimize button is disabled.
 - |void| **set_mode**\ (\ value\: :ref:`Mode<enum_Window_Mode>`\ )
 - :ref:`Mode<enum_Window_Mode>` **get_mode**\ (\ )
 
-Set's the window's current mode.
+Définit le mode actuel de la fenêtre.
 
-\ **Note:** Fullscreen mode is not exclusive full screen on Windows and Linux.
+\ **Note :** Le mode plein écran n'est pas un plein écran exclusif sur Windows et Linux.
 
-\ **Note:** This method only works with native windows, i.e. the main window and **Window**-derived nodes when :ref:`Viewport.gui_embed_subwindows<class_Viewport_property_gui_embed_subwindows>` is disabled in the main viewport.
+\ **Note :** Cette méthode ne fonctionne qu'avec des fenêtres natives, c'est-à-dire la fenêtre principale et les nœuds dérivés de **Window** lorsque :ref:`Viewport.gui_embed_subwindows<class_Viewport_property_gui_embed_subwindows>` est désactivé dans le viewport principal.
 
 .. rst-class:: classref-item-separator
 
@@ -1407,11 +1407,11 @@ Set's the window's current mode.
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`\ ) |const|
 
-If ``true``, all mouse events will be passed to the underlying window of the same application. See also :ref:`mouse_passthrough_polygon<class_Window_property_mouse_passthrough_polygon>`.
+Si ``true``, tous les événements de la souris seront transmis à la fenêtre sous-jacente de la même application. Voir aussi :ref:`mouse_passthrough_polygon<class_Window_property_mouse_passthrough_polygon>`.
 
-\ **Note:** This property is implemented on Linux (X11), macOS and Windows.
+\ **Note :** Cette propriété est implémentée sur Linux (X11), macOS et Windows.
 
-\ **Note:** This property only works with native windows.
+\ **Note :** Cette propriété ne fonctionne qu'avec des fenêtres natives.
 
 .. rst-class:: classref-item-separator
 
@@ -1428,42 +1428,42 @@ If ``true``, all mouse events will be passed to the underlying window of the sam
 - |void| **set_mouse_passthrough_polygon**\ (\ value\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ )
 - :ref:`PackedVector2Array<class_PackedVector2Array>` **get_mouse_passthrough_polygon**\ (\ )
 
-Sets a polygonal region of the window which accepts mouse events. Mouse events outside the region will be passed through.
+Définit une région polygonale de la fenêtre qui accepte les événements de la souris. Les évènements de souris en dehors de cette région passeront au travers.
 
-Passing an empty array will disable passthrough support (all mouse events will be intercepted by the window, which is the default behavior).
+Passer un tableau vide désactivera cet effet (tous les événements de la souris seront acceptés par la fenêtre, ce qui est le comportement par défaut).
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    # Set region, using Path2D node.
+    # Définir une région, avec un nœud Path2D.
     $Window.mouse_passthrough_polygon = $Path2D.curve.get_baked_points()
 
-    # Set region, using Polygon2D node.
+    # Définir une région, avec un nœud Polygon2D.
     $Window.mouse_passthrough_polygon = $Polygon2D.polygon
 
-    # Reset region to default.
-    $Window.mouse_passthrough_polygon = []
+    # Rétablir la région par défaut.
+    $Window.set_window_mouse_passthrough= []
 
  .. code-tab:: csharp
 
-    // Set region, using Path2D node.
+    // Définir une région, avec un nœud Path2D.
     GetNode<Window>("Window").MousePassthroughPolygon = GetNode<Path2D>("Path2D").Curve.GetBakedPoints();
 
-    // Set region, using Polygon2D node.
+    // Définir une région, avec un nœud Polygon2D.
     GetNode<Window>("Window").MousePassthroughPolygon = GetNode<Polygon2D>("Polygon2D").Polygon;
 
-    // Reset region to default.
+    // Rétablir la région par défaut.
     GetNode<Window>("Window").MousePassthroughPolygon = [];
 
 
 
-\ **Note:** This property is ignored if :ref:`mouse_passthrough<class_Window_property_mouse_passthrough>` is set to ``true``.
+\ **Note :** Cette propriété est ignorée si :ref:`mouse_passthrough<class_Window_property_mouse_passthrough>` est défini à ``true``.
 
-\ **Note:** On Windows, the portion of a window that lies outside the region is not drawn, while on Linux (X11) and macOS it is.
+\ **Note :** Sous Windows, la partie de la fenêtre en dehors de la région définie n'est pas dessinée, alors qu'elle l'est sous Linux (X11) et macOS.
 
-\ **Note:** This property is implemented on Linux (X11), macOS and Windows.
+\ **Note :** Cette méthode est implémentée sur Linux (X11), macOS et Windows.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedVector2Array<class_PackedVector2Array>` for more details.
 
@@ -1482,7 +1482,7 @@ Passing an empty array will disable passthrough support (all mouse events will b
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`\ ) |const|
 
-If ``true``, the **Window** will be considered a popup. Popups are sub-windows that don't show as separate windows in system's window manager's window list and will send close request when anything is clicked outside of them (unless :ref:`exclusive<class_Window_property_exclusive>` is enabled).
+Si ``true``, la **Window** sera considérée comme une popup. Les popups sont des sous-fenêtres qui ne s'affichent pas comme des fenêtres séparées dans la liste des fenêtres du gestionnaire de fenêtre du système et qui enverront une demande de fermeture lorsque un clic est effectué à l'extérieur d'elles (sauf si :ref:`exclusive<class_Window_property_exclusive>` est activé).
 
 .. rst-class:: classref-item-separator
 
@@ -1516,11 +1516,11 @@ If ``true``, the **Window** will signal to the window manager that it is suppose
 - |void| **set_position**\ (\ value\: :ref:`Vector2i<class_Vector2i>`\ )
 - :ref:`Vector2i<class_Vector2i>` **get_position**\ (\ )
 
-The window's position in pixels.
+La position de la fenêtre en pixels.
 
-If :ref:`ProjectSettings.display/window/subwindows/embed_subwindows<class_ProjectSettings_property_display/window/subwindows/embed_subwindows>` is ``false``, the position is in absolute screen coordinates. This typically applies to editor plugins. If the setting is ``true``, the window's position is in the coordinates of its parent :ref:`Viewport<class_Viewport>`.
+Si :ref:`ProjectSettings.display/window/subwindows/embed_subwindows<class_ProjectSettings_property_display/window/subwindows/embed_subwindows>` vaut ``false``, la position est dans les coordonnées de l'écran absolues. Cela s'applique généralement aux plugins d'éditeur. Si le paramètre vaut ``true``, la position de la fenêtre est dans les coordonnées de son :ref:`Viewport<class_Viewport>` parent.
 
-\ **Note:** This property only works if :ref:`initial_position<class_Window_property_initial_position>` is set to :ref:`WINDOW_INITIAL_POSITION_ABSOLUTE<class_Window_constant_WINDOW_INITIAL_POSITION_ABSOLUTE>`.
+\ **Note :** Cette propriété ne fonctionne que si :ref:`initial_position<class_Window_property_initial_position>` est défini à :ref:`WINDOW_INITIAL_POSITION_ABSOLUTE<class_Window_constant_WINDOW_INITIAL_POSITION_ABSOLUTE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1575,9 +1575,9 @@ La taille de la fenêtre en pixels.
 - |void| **set_theme**\ (\ value\: :ref:`Theme<class_Theme>`\ )
 - :ref:`Theme<class_Theme>` **get_theme**\ (\ )
 
-The :ref:`Theme<class_Theme>` resource this node and all its :ref:`Control<class_Control>` and **Window** children use. If a child node has its own :ref:`Theme<class_Theme>` resource set, theme items are merged with child's definitions having higher priority.
+La ressource :ref:`Theme<class_Theme>` que ce nœud et tous ses enfants :ref:`Control<class_Control>` et **Window** utilisent. Si un nœud enfant a son propre ensemble de ressources :ref:`Theme<class_Theme>`, les éléments de thème sont fusionnés avec les définitions de l'enfant ayant une priorité plus élevée.
 
-\ **Note:** **Window** styles will have no effect unless the window is embedded.
+\ **Note :** Les styles de **Window** n'auront aucun effet à moins que la fenêtre ne soit intégrée.
 
 .. rst-class:: classref-item-separator
 
@@ -1594,7 +1594,7 @@ The :ref:`Theme<class_Theme>` resource this node and all its :ref:`Control<class
 - |void| **set_theme_type_variation**\ (\ value\: :ref:`StringName<class_StringName>`\ )
 - :ref:`StringName<class_StringName>` **get_theme_type_variation**\ (\ )
 
-The name of a theme type variation used by this **Window** to look up its own theme items. See :ref:`Control.theme_type_variation<class_Control_property_theme_type_variation>` for more details.
+Le nom d'une variation de type de thème utilisée par cette **Window** pour rechercher ses propres éléments de thème. Voir :ref:`Control.theme_type_variation<class_Control_property_theme_type_variation>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -1611,7 +1611,7 @@ The name of a theme type variation used by this **Window** to look up its own th
 - |void| **set_title**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_title**\ (\ )
 
-The window's title. If the **Window** is native, title styles set in :ref:`Theme<class_Theme>` will have no effect.
+Le titre de la fenêtre. Si la **Window** est native, les styles de titre définis dans le :ref:`Theme<class_Theme>` n'auront aucun effet.
 
 .. rst-class:: classref-item-separator
 
@@ -1628,9 +1628,9 @@ The window's title. If the **Window** is native, title styles set in :ref:`Theme
 - |void| **set_transient**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_transient**\ (\ )
 
-If ``true``, the **Window** is transient, i.e. it's considered a child of another **Window**. The transient window will be destroyed with its transient parent and will return focus to their parent when closed. The transient window is displayed on top of a non-exclusive full-screen parent window. Transient windows can't enter full-screen mode.
+Si ``true``, la **Window** est transitoire, c'est-à-dire qu'elle est considérée comme un enfant d'une autre **Window**. La fenêtre transitoire sera détruite avec son parent transitoire et redonnera le focus à son parent lorsqu'elle sera fermée. La fenêtre transitoire est affichée par dessus une fenêtre parente en plein écran non exclusif. Les fenêtres transitoires ne peuvent pas entrer en mode plein écran.
 
-Note that behavior might be different depending on the platform.
+Notez que le comportement peut être différent selon la plate-forme.
 
 .. rst-class:: classref-item-separator
 
@@ -1647,7 +1647,7 @@ Note that behavior might be different depending on the platform.
 - |void| **set_transient_to_focused**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_transient_to_focused**\ (\ )
 
-If ``true``, and the **Window** is :ref:`transient<class_Window_property_transient>`, this window will (at the time of becoming visible) become transient to the currently focused window instead of the immediate parent window in the hierarchy. Note that the transient parent is assigned at the time this window becomes visible, so changing it afterwards has no effect until re-shown.
+Si ``true``, et la **Window** a :ref:`transient<class_Window_property_transient>` d'actif, cette fenêtre deviendra (au moment de devenir visible) transitoire à la fenêtre ayant actuellement le focus au lieu de la fenêtre parente immédiate dans la hiérarchie. Notez que le parent transitoire est assigné au moment où cette fenêtre devient visible, de sorte que le changer après n'a pas d'effet jusqu'à ce qu'elle soit ré-affichée.
 
 .. rst-class:: classref-item-separator
 
@@ -1664,11 +1664,11 @@ If ``true``, and the **Window** is :ref:`transient<class_Window_property_transie
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`\ ) |const|
 
-If ``true``, the **Window**'s background can be transparent. This is best used with embedded windows.
+Si ``true``, le fond de la **Window** peut être transparent. Ceci est généralement utilisé avec des fenêtres intégrées.
 
-\ **Note:** Transparency support is implemented on Linux, macOS and Windows, but availability might vary depending on GPU driver, display manager, and compositor capabilities.
+\ **Note :** Le support de la transparence est implémenté sur Linux, macOS et Windows, mais la disponibilité peut varier en fonction du pilote GPU, du gestionnaire d'affichage et des capacités du compositeur.
 
-\ **Note:** This property has no effect if :ref:`ProjectSettings.display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>` is set to ``false``.
+\ **Note :** Cette propriété n'a aucun effet si :ref:`ProjectSettings.display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>` est défini à ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -1685,7 +1685,7 @@ If ``true``, the **Window**'s background can be transparent. This is best used w
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`\ ) |const|
 
-If ``true``, the **Window** can't be focused nor interacted with. It can still be visible.
+Si ``true``, la **Window** ne peut avoir le focus ni être interagie avec. Elle peut encore être visible.
 
 .. rst-class:: classref-item-separator
 
@@ -1736,9 +1736,9 @@ Si ``true``, la fenêtre est visible.
 - |void| **set_wrap_controls**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_wrapping_controls**\ (\ )
 
-If ``true``, the window's size will automatically update when a child node is added or removed, ignoring :ref:`min_size<class_Window_property_min_size>` if the new size is bigger.
+Si ``true``, la taille de la fenêtre sera automatiquement mise à jour lorsqu'un nœud enfant est ajouté ou enlevé, en ignorant :ref:`min_size<class_Window_property_min_size>` si la nouvelle taille est plus grande.
 
-If ``false``, you need to call :ref:`child_controls_changed()<class_Window_method_child_controls_changed>` manually.
+Si ``false``, vous devez appeler manuellement :ref:`child_controls_changed()<class_Window_method_child_controls_changed>`.
 
 .. rst-class:: classref-section-separator
 
@@ -1755,7 +1755,7 @@ Descriptions des méthodes
 
 :ref:`Vector2<class_Vector2>` **_get_contents_minimum_size**\ (\ ) |virtual| |const| :ref:`🔗<class_Window_private_method__get_contents_minimum_size>`
 
-Virtual method to be implemented by the user. Overrides the value returned by :ref:`get_contents_minimum_size()<class_Window_method_get_contents_minimum_size>`.
+Méthode virtuelle implémentée par l'utilisateur. Redéfinit la valeur renvoyée par :ref:`get_contents_minimum_size()<class_Window_method_get_contents_minimum_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1767,9 +1767,9 @@ Virtual method to be implemented by the user. Overrides the value returned by :r
 
 |void| **add_theme_color_override**\ (\ name\: :ref:`StringName<class_StringName>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_Window_method_add_theme_color_override>`
 
-Creates a local override for a theme :ref:`Color<class_Color>` with the specified ``name``. Local overrides always take precedence when fetching theme items for the control. An override can be removed with :ref:`remove_theme_color_override()<class_Window_method_remove_theme_color_override>`.
+Crée une redéfinition locale pour une :ref:`Color<class_Color>` de thème nommée ``name``. Les redéfinitions locales ont toujours la priorité lors de la récupération des éléments du thème d'un contrôle. Une redéfinition peut être retirée avec :ref:`remove_theme_color_override()<class_Window_method_remove_theme_color_override>`.
 
-See also :ref:`get_theme_color()<class_Window_method_get_theme_color>` and :ref:`Control.add_theme_color_override()<class_Control_method_add_theme_color_override>` for more details.
+Voir aussi :ref:`get_theme_color()<class_Window_method_get_theme_color>` et :ref:`Control.add_theme_color_override()<class_Control_method_add_theme_color_override>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -1781,7 +1781,7 @@ See also :ref:`get_theme_color()<class_Window_method_get_theme_color>` and :ref:
 
 |void| **add_theme_constant_override**\ (\ name\: :ref:`StringName<class_StringName>`, constant\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Window_method_add_theme_constant_override>`
 
-Crée une redéfinition locale pour une constante de thème avec le nom ``name`` spécifié. Les redéfinitions locales ont toujours la priorité lors de la récupération des éléments de thème pour le contrôle. Une surcharge peut être supprimée avec la méthode :ref:`remove_theme_constant_override()<class_Window_method_remove_theme_constant_override>`.
+Crée une redéfinition locale pour une constante de thème nommée ``name``. Les redéfinitions locales ont toujours la priorité lors de la récupération des éléments de thème pour le contrôle. Une surcharge peut être supprimée avec la méthode :ref:`remove_theme_constant_override()<class_Window_method_remove_theme_constant_override>`.
 
 Voir aussi :ref:`get_theme_constant()<class_Window_method_get_theme_constant>`.
 
@@ -1795,7 +1795,7 @@ Voir aussi :ref:`get_theme_constant()<class_Window_method_get_theme_constant>`.
 
 |void| **add_theme_font_override**\ (\ name\: :ref:`StringName<class_StringName>`, font\: :ref:`Font<class_Font>`\ ) :ref:`🔗<class_Window_method_add_theme_font_override>`
 
-Crée une redéfinition locale pour la police :ref:`Font<class_Font>` du thème nommé ``name``. Les redéfinitions locales ont toujours la priorité lors de la récupération des éléments de thème pour le contrôle. Une redéfinition peut être supprimée avec la valeur :ref:`remove_theme_font_override()<class_Window_method_remove_theme_font_override>`.
+Crée une redéfinition locale pour une :ref:`Font<class_Font>` de thème nommée ``name``. Les redéfinitions locales ont toujours la priorité lors de la récupération des éléments de thème pour le contrôle. Une redéfinition peut être supprimée avec la valeur :ref:`remove_theme_font_override()<class_Window_method_remove_theme_font_override>`.
 
 Voir aussi :ref:`get_theme_font()<class_Window_method_get_theme_font>`.
 
@@ -1809,7 +1809,7 @@ Voir aussi :ref:`get_theme_font()<class_Window_method_get_theme_font>`.
 
 |void| **add_theme_font_size_override**\ (\ name\: :ref:`StringName<class_StringName>`, font_size\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Window_method_add_theme_font_size_override>`
 
-Crée une redéfinition locale pour la taille de police du thème nommé ``name``. Les redéfinitions locales ont toujours la priorité lors de la récupération des éléments de thème pour le contrôle. Une redéfinition peut être supprimée avec la valeur :ref:`remove_theme_font_size_override()<class_Window_method_remove_theme_font_size_override>`.
+Crée une redéfinition locale pour une taille de police de thème nommée ``name``. Les redéfinitions locales ont toujours la priorité lors de la récupération des éléments de thème pour le contrôle. Une redéfinition peut être supprimée avec la valeur :ref:`remove_theme_font_size_override()<class_Window_method_remove_theme_font_size_override>`.
 
 Voir aussi :ref:`get_theme_font_size()<class_Window_method_get_theme_font_size>`.
 
@@ -1837,9 +1837,9 @@ Voir aussi :ref:`get_theme_icon()<class_Window_method_get_theme_icon>`.
 
 |void| **add_theme_stylebox_override**\ (\ name\: :ref:`StringName<class_StringName>`, stylebox\: :ref:`StyleBox<class_StyleBox>`\ ) :ref:`🔗<class_Window_method_add_theme_stylebox_override>`
 
-Creates a local override for a theme :ref:`StyleBox<class_StyleBox>` with the specified ``name``. Local overrides always take precedence when fetching theme items for the control. An override can be removed with :ref:`remove_theme_stylebox_override()<class_Window_method_remove_theme_stylebox_override>`.
+Crée une redéfinition locale pour une :ref:`StyleBox<class_StyleBox>` de thème nommée ``name``. Les redéfinitions locales ont toujours la priorité lors de la récupération des éléments du thème d'un contrôle. Une redéfinition peut être retirée avec :ref:`remove_theme_stylebox_override()<class_Window_method_remove_theme_stylebox_override>`.
 
-See also :ref:`get_theme_stylebox()<class_Window_method_get_theme_stylebox>` and :ref:`Control.add_theme_stylebox_override()<class_Control_method_add_theme_stylebox_override>` for more details.
+Voir aussi :ref:`get_theme_stylebox()<class_Window_method_get_theme_stylebox>` et :ref:`Control.add_theme_stylebox_override()<class_Control_method_add_theme_stylebox_override>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -1851,7 +1851,7 @@ See also :ref:`get_theme_stylebox()<class_Window_method_get_theme_stylebox>` and
 
 |void| **begin_bulk_theme_override**\ (\ ) :ref:`🔗<class_Window_method_begin_bulk_theme_override>`
 
-Prevents ``*_theme_*_override`` methods from emitting :ref:`NOTIFICATION_THEME_CHANGED<class_Window_constant_NOTIFICATION_THEME_CHANGED>` until :ref:`end_bulk_theme_override()<class_Window_method_end_bulk_theme_override>` is called.
+Empêche les méthodes ``*_theme_*_override`` d'émettre :ref:`NOTIFICATION_THEME_CHANGED<class_Window_constant_NOTIFICATION_THEME_CHANGED>` jusqu'à ce que :ref:`end_bulk_theme_override()<class_Window_method_end_bulk_theme_override>` soit appelée.
 
 .. rst-class:: classref-item-separator
 
@@ -1863,7 +1863,7 @@ Prevents ``*_theme_*_override`` methods from emitting :ref:`NOTIFICATION_THEME_C
 
 :ref:`bool<class_bool>` **can_draw**\ (\ ) |const| :ref:`🔗<class_Window_method_can_draw>`
 
-Returns whether the window is being drawn to the screen.
+Renvoie si la fenêtre est dessinée à l'écran.
 
 .. rst-class:: classref-item-separator
 
@@ -1875,7 +1875,7 @@ Returns whether the window is being drawn to the screen.
 
 |void| **child_controls_changed**\ (\ ) :ref:`🔗<class_Window_method_child_controls_changed>`
 
-Requests an update of the **Window** size to fit underlying :ref:`Control<class_Control>` nodes.
+Demande une mise à jour de la taille de la **Window** pour contenir les nœuds :ref:`Control<class_Control>` sous-jacents.
 
 .. rst-class:: classref-item-separator
 
@@ -1887,7 +1887,7 @@ Requests an update of the **Window** size to fit underlying :ref:`Control<class_
 
 |void| **end_bulk_theme_override**\ (\ ) :ref:`🔗<class_Window_method_end_bulk_theme_override>`
 
-Ends a bulk theme override update. See :ref:`begin_bulk_theme_override()<class_Window_method_begin_bulk_theme_override>`.
+Termine une mise à jour de masse de redéfinition du thème. Voir :ref:`begin_bulk_theme_override()<class_Window_method_begin_bulk_theme_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1899,9 +1899,9 @@ Ends a bulk theme override update. See :ref:`begin_bulk_theme_override()<class_W
 
 :ref:`Vector2<class_Vector2>` **get_contents_minimum_size**\ (\ ) |const| :ref:`🔗<class_Window_method_get_contents_minimum_size>`
 
-Returns the combined minimum size from the child :ref:`Control<class_Control>` nodes of the window. Use :ref:`child_controls_changed()<class_Window_method_child_controls_changed>` to update it when child nodes have changed.
+Renvoie la taille minimale combinée des nœuds :ref:`Control<class_Control>` enfants de la fenêtre. Utilisez :ref:`child_controls_changed()<class_Window_method_child_controls_changed>` pour la mettre à jour lorsque les nœuds enfants ont changé.
 
-The value returned by this method can be overridden with :ref:`_get_contents_minimum_size()<class_Window_private_method__get_contents_minimum_size>`.
+La valeur renvoyée par cette méthode peut être redéfinie par :ref:`_get_contents_minimum_size()<class_Window_private_method__get_contents_minimum_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1913,7 +1913,7 @@ The value returned by this method can be overridden with :ref:`_get_contents_min
 
 :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`\ ) |const| :ref:`🔗<class_Window_method_get_flag>`
 
-Returns ``true`` if the ``flag`` is set.
+Renvoie ``true`` si le drapeau ``flag`` est défini.
 
 .. rst-class:: classref-item-separator
 
@@ -1925,7 +1925,7 @@ Returns ``true`` if the ``flag`` is set.
 
 :ref:`Window<class_Window>` **get_focused_window**\ (\ ) |static| :ref:`🔗<class_Window_method_get_focused_window>`
 
-Returns the focused window.
+Renvoie la fenêtre ayant le focus.
 
 .. rst-class:: classref-item-separator
 
@@ -1937,7 +1937,7 @@ Returns the focused window.
 
 :ref:`LayoutDirection<enum_Window_LayoutDirection>` **get_layout_direction**\ (\ ) |const| :ref:`🔗<class_Window_method_get_layout_direction>`
 
-Returns layout direction and text writing direction.
+Renvoie la direction de la mise en page et la direction d'écriture du texte.
 
 .. rst-class:: classref-item-separator
 
@@ -1949,9 +1949,9 @@ Returns layout direction and text writing direction.
 
 :ref:`Vector2i<class_Vector2i>` **get_position_with_decorations**\ (\ ) |const| :ref:`🔗<class_Window_method_get_position_with_decorations>`
 
-Returns the window's position including its border.
+Renvoie la position de la fenêtre en prenant en compte sa bordure.
 
-\ **Note:** If :ref:`visible<class_Window_property_visible>` is ``false``, this method returns the same value as :ref:`position<class_Window_property_position>`.
+\ **Note :** Si :ref:`visible<class_Window_property_visible>` vaut ``false``, cette méthode renvoie la même valeur que :ref:`position<class_Window_property_position>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1963,9 +1963,9 @@ Returns the window's position including its border.
 
 :ref:`Vector2i<class_Vector2i>` **get_size_with_decorations**\ (\ ) |const| :ref:`🔗<class_Window_method_get_size_with_decorations>`
 
-Returns the window's size including its border.
+Renvoie la taille de la fenêtre, y compris sa bordure.
 
-\ **Note:** If :ref:`visible<class_Window_property_visible>` is ``false``, this method returns the same value as :ref:`size<class_Window_property_size>`.
+\ **Note :** Si :ref:`visible<class_Window_property_visible>` vaut ``false``, cette méthode renvoie la même valeur que :ref:`size<class_Window_property_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1977,9 +1977,9 @@ Returns the window's size including its border.
 
 :ref:`Color<class_Color>` **get_theme_color**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Window_method_get_theme_color>`
 
-Returns a :ref:`Color<class_Color>` from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a color item with the specified ``name`` and ``theme_type``.
+Renvoie une :ref:`Color<class_Color>` du premier :ref:`Theme<class_Theme>` correspondant dans l'arborescence si ce :ref:`Theme<class_Theme>` a un élément de couleur nommé ``name`` et du type de thème ``theme_type``.
 
-See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for more details.
+Voir :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -1991,9 +1991,9 @@ See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for m
 
 :ref:`int<class_int>` **get_theme_constant**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Window_method_get_theme_constant>`
 
-Returns a constant from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a constant item with the specified ``name`` and ``theme_type``.
+Renvoie une constante du premier :ref:`Theme<class_Theme>` correspondant dans l'arborescence si ce :ref:`Theme<class_Theme>` a un élément de constante nommé ``name`` et du type de thème ``theme_type``.
 
-See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for more details.
+Voir :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -2005,9 +2005,9 @@ See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for m
 
 :ref:`float<class_float>` **get_theme_default_base_scale**\ (\ ) |const| :ref:`🔗<class_Window_method_get_theme_default_base_scale>`
 
-Returns the default base scale value from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a valid :ref:`Theme.default_base_scale<class_Theme_property_default_base_scale>` value.
+Renvoie la valeur d'échelle de base par défaut du premier :ref:`Theme<class_Theme>` correspondant dans l'arborescence si ce :ref:`Theme<class_Theme>` a une valeur :ref:`Theme.default_base_scale<class_Theme_property_default_base_scale>` valide.
 
-See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -2019,9 +2019,9 @@ See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for d
 
 :ref:`Font<class_Font>` **get_theme_default_font**\ (\ ) |const| :ref:`🔗<class_Window_method_get_theme_default_font>`
 
-Returns the default font from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a valid :ref:`Theme.default_font<class_Theme_property_default_font>` value.
+Renvoie la police par défaut du premier :ref:`Theme<class_Theme>` correspondant dans l'arborescence si ce :ref:`Theme<class_Theme>` a une valeur :ref:`Theme.default_font<class_Theme_property_default_font>` valide.
 
-See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -2033,9 +2033,9 @@ See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for d
 
 :ref:`int<class_int>` **get_theme_default_font_size**\ (\ ) |const| :ref:`🔗<class_Window_method_get_theme_default_font_size>`
 
-Returns the default font size value from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a valid :ref:`Theme.default_font_size<class_Theme_property_default_font_size>` value.
+Renvoie la taille de police par défaut du premier :ref:`Theme<class_Theme>` correspondant dans l'arborescence si ce :ref:`Theme<class_Theme>` a une valeur :ref:`Theme.default_font_size<class_Theme_property_default_font_size>` valide.
 
-See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -2047,9 +2047,9 @@ See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for d
 
 :ref:`Font<class_Font>` **get_theme_font**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Window_method_get_theme_font>`
 
-Returns a :ref:`Font<class_Font>` from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a font item with the specified ``name`` and ``theme_type``.
+Renvoie une :ref:`Font<class_Font>` du premier :ref:`Theme<class_Theme>` correspondant dans l'arborescence si ce :ref:`Theme<class_Theme>` a un élément de police nommé ``name`` et du type de thème ``theme_type``.
 
-See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -2061,9 +2061,9 @@ See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for d
 
 :ref:`int<class_int>` **get_theme_font_size**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Window_method_get_theme_font_size>`
 
-Returns a font size from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a font size item with the specified ``name`` and ``theme_type``.
+Renvoie une taille de police du premier :ref:`Theme<class_Theme>` correspondant dans l'arborescence si ce :ref:`Theme<class_Theme>` a un élément de taille de police nommé ``name`` et du type de thème ``theme_type``.
 
-See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -2075,9 +2075,9 @@ See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for d
 
 :ref:`Texture2D<class_Texture2D>` **get_theme_icon**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Window_method_get_theme_icon>`
 
-Returns an icon from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has an icon item with the specified ``name`` and ``theme_type``.
+Renvoie une icône du premier :ref:`Theme<class_Theme>` correspondant dans l'arborescence si ce :ref:`Theme<class_Theme>` a un élément d'icône nommé ``name`` et du type de thème ``theme_type``.
 
-See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -2089,9 +2089,9 @@ See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for d
 
 :ref:`StyleBox<class_StyleBox>` **get_theme_stylebox**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Window_method_get_theme_stylebox>`
 
-Returns a :ref:`StyleBox<class_StyleBox>` from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a stylebox item with the specified ``name`` and ``theme_type``.
+Renvoie une :ref:`StyleBox<class_StyleBox>` du premier :ref:`Theme<class_Theme>` correspondant dans l'arborescence si ce :ref:`Theme<class_Theme>` a un élément de stylebox nommé ``name`` et du type de thème ``theme_type``.
 
-See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -2103,7 +2103,7 @@ See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for d
 
 :ref:`int<class_int>` **get_window_id**\ (\ ) |const| :ref:`🔗<class_Window_method_get_window_id>`
 
-Returns the ID of the window.
+Renvoie l'identifiant de la fenêtre.
 
 .. rst-class:: classref-item-separator
 
@@ -2115,7 +2115,7 @@ Returns the ID of the window.
 
 |void| **grab_focus**\ (\ ) :ref:`🔗<class_Window_method_grab_focus>`
 
-Causes the window to grab focus, allowing it to receive user input.
+Force la fenêtre à saisir le focus, lui permettant de recevoir l'entrée utilisateur.
 
 .. rst-class:: classref-item-separator
 
@@ -2127,7 +2127,7 @@ Causes the window to grab focus, allowing it to receive user input.
 
 :ref:`bool<class_bool>` **has_focus**\ (\ ) |const| :ref:`🔗<class_Window_method_has_focus>`
 
-Returns ``true`` if the window is focused.
+Renvoie ``true`` si la fenêtre a le focus.
 
 .. rst-class:: classref-item-separator
 
@@ -2139,9 +2139,9 @@ Returns ``true`` if the window is focused.
 
 :ref:`bool<class_bool>` **has_theme_color**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Window_method_has_theme_color>`
 
-Returns ``true`` if there is a matching :ref:`Theme<class_Theme>` in the tree that has a color item with the specified ``name`` and ``theme_type``.
+Renvoie ``true`` s'il y a un :ref:`Theme<class_Theme>` correspondant dans l'arborescence qui a un élément de couleur nommé ``name`` et du type de thème ``theme_type``.
 
-See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -2153,7 +2153,7 @@ See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for d
 
 :ref:`bool<class_bool>` **has_theme_color_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_color_override>`
 
-Renvoie ``true`` s'il y a une redéfinition locale pour la :ref:`Color<class_Color>` de thème avec le nom ``name`` spécifié dans ce nœud :ref:`Control<class_Control>`.
+Renvoie ``true`` s'il y a une redéfinition locale pour une :ref:`Color<class_Color>` de thème nommée ``name`` dans ce nœud :ref:`Control<class_Control>`.
 
 Voir :ref:`add_theme_color_override()<class_Window_method_add_theme_color_override>`.
 
@@ -2167,9 +2167,9 @@ Voir :ref:`add_theme_color_override()<class_Window_method_add_theme_color_overri
 
 :ref:`bool<class_bool>` **has_theme_constant**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Window_method_has_theme_constant>`
 
-Returns ``true`` if there is a matching :ref:`Theme<class_Theme>` in the tree that has a constant item with the specified ``name`` and ``theme_type``.
+Renvoie ``true`` s'il y a un :ref:`Theme<class_Theme>` correspondant dans l'arborescence qui a un élément de constante nommé ``name`` et du type de thème ``theme_type``.
 
-See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -2181,7 +2181,7 @@ See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for d
 
 :ref:`bool<class_bool>` **has_theme_constant_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_constant_override>`
 
-Renvoie ``true`` s'il y a une redéfinition locale pour une constante de thème avec le nom ``name`` spécifié dans ce nœud :ref:`Control<class_Control>`.
+Renvoie ``true`` s'il y a une redéfinition locale pour une constante de thème nommée ``name`` dans ce nœud :ref:`Control<class_Control>`.
 
 Voir :ref:`add_theme_constant_override()<class_Window_method_add_theme_constant_override>`.
 
@@ -2195,9 +2195,9 @@ Voir :ref:`add_theme_constant_override()<class_Window_method_add_theme_constant_
 
 :ref:`bool<class_bool>` **has_theme_font**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Window_method_has_theme_font>`
 
-Returns ``true`` if there is a matching :ref:`Theme<class_Theme>` in the tree that has a font item with the specified ``name`` and ``theme_type``.
+Renvoie ``true`` s'il y a un :ref:`Theme<class_Theme>` correspondant dans l'arborescence qui a un élément de police nommé ``name`` et du type de thème ``theme_type``.
 
-See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -2209,7 +2209,7 @@ See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for d
 
 :ref:`bool<class_bool>` **has_theme_font_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_font_override>`
 
-Renvoie ``true`` s'il y a une redéfinition pour la :ref:`Font<class_Font>` du thème avec le nom ``name`` spécifié dans ce nœud :ref:`Control<class_Control>`.
+Renvoie ``true`` s'il y a une redéfinition pour une :ref:`Font<class_Font>` de thème nommée ``name`` dans ce nœud :ref:`Control<class_Control>`.
 
 Voir :ref:`add_theme_font_override()<class_Window_method_add_theme_font_override>`.
 
@@ -2223,9 +2223,9 @@ Voir :ref:`add_theme_font_override()<class_Window_method_add_theme_font_override
 
 :ref:`bool<class_bool>` **has_theme_font_size**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Window_method_has_theme_font_size>`
 
-Returns ``true`` if there is a matching :ref:`Theme<class_Theme>` in the tree that has a font size item with the specified ``name`` and ``theme_type``.
+Renvoie ``true`` s'il y a un :ref:`Theme<class_Theme>` correspondant dans l'arborescence qui a un élément de taille de police nommé ``name`` et du type de thème ``theme_type``.
 
-See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -2237,9 +2237,9 @@ See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for d
 
 :ref:`bool<class_bool>` **has_theme_font_size_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_font_size_override>`
 
-Returns ``true`` if there is a local override for a theme font size with the specified ``name`` in this :ref:`Control<class_Control>` node.
+Renvoie ``true`` s'il y a une redéfinition locale pour une taille de police de thème nommée ``name`` dans ce nœud :ref:`Control<class_Control>`.
 
-See :ref:`add_theme_font_size_override()<class_Window_method_add_theme_font_size_override>`.
+Voir :ref:`add_theme_font_size_override()<class_Window_method_add_theme_font_size_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2251,9 +2251,9 @@ See :ref:`add_theme_font_size_override()<class_Window_method_add_theme_font_size
 
 :ref:`bool<class_bool>` **has_theme_icon**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Window_method_has_theme_icon>`
 
-Returns ``true`` if there is a matching :ref:`Theme<class_Theme>` in the tree that has an icon item with the specified ``name`` and ``theme_type``.
+Renvoie ``true`` s'il y a un :ref:`Theme<class_Theme>` correspondant dans l'arborescence qui a un élément d'icône nommé ``name`` et du type de thème ``theme_type``.
 
-See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -2265,9 +2265,9 @@ See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for d
 
 :ref:`bool<class_bool>` **has_theme_icon_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_icon_override>`
 
-Returns ``true`` if there is a local override for a theme icon with the specified ``name`` in this :ref:`Control<class_Control>` node.
+Renvoie ``true`` s'il y a une redéfinition locale pour une icône de thème nommée ``name`` dans ce nœud :ref:`Control<class_Control>`.
 
-See :ref:`add_theme_icon_override()<class_Window_method_add_theme_icon_override>`.
+Voir :ref:`add_theme_icon_override()<class_Window_method_add_theme_icon_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2279,9 +2279,9 @@ See :ref:`add_theme_icon_override()<class_Window_method_add_theme_icon_override>
 
 :ref:`bool<class_bool>` **has_theme_stylebox**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Window_method_has_theme_stylebox>`
 
-Returns ``true`` if there is a matching :ref:`Theme<class_Theme>` in the tree that has a stylebox item with the specified ``name`` and ``theme_type``.
+Renvoie ``true`` s'il y a un :ref:`Theme<class_Theme>` correspondant dans l'arborescence qui a un élément de stylebox nommé ``name`` et du type de thème ``theme_type``.
 
-See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -2293,9 +2293,9 @@ See :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` for d
 
 :ref:`bool<class_bool>` **has_theme_stylebox_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_stylebox_override>`
 
-Returns ``true`` if there is a local override for a theme :ref:`StyleBox<class_StyleBox>` with the specified ``name`` in this :ref:`Control<class_Control>` node.
+Renvoie ``true`` s'il y a une redéfinition locale pour une :ref:`StyleBox<class_StyleBox>` de thème nommée ``name`` dans ce nœud :ref:`Control<class_Control>`.
 
-See :ref:`add_theme_stylebox_override()<class_Window_method_add_theme_stylebox_override>`.
+Voir :ref:`add_theme_stylebox_override()<class_Window_method_add_theme_stylebox_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2307,7 +2307,7 @@ See :ref:`add_theme_stylebox_override()<class_Window_method_add_theme_stylebox_o
 
 |void| **hide**\ (\ ) :ref:`🔗<class_Window_method_hide>`
 
-Hides the window. This is not the same as minimized state. Hidden window can't be interacted with and needs to be made visible with :ref:`show()<class_Window_method_show>`.
+Cache la fenêtre. Ceci n'est pas identique à l'état minimisé. Une fenêtre cachée ne peut pas être interagie avec et doit être rendue visible avec :ref:`show()<class_Window_method_show>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2331,7 +2331,7 @@ Renvoie ``true`` si la fenêtre est actuellement intégrée dans une autre fenê
 
 :ref:`bool<class_bool>` **is_layout_rtl**\ (\ ) |const| :ref:`🔗<class_Window_method_is_layout_rtl>`
 
-Returns ``true`` if the layout is right-to-left.
+Renvoie ``true`` si la mise en page est de droite à gauche.
 
 .. rst-class:: classref-item-separator
 
@@ -2343,7 +2343,7 @@ Returns ``true`` if the layout is right-to-left.
 
 :ref:`bool<class_bool>` **is_maximize_allowed**\ (\ ) |const| :ref:`🔗<class_Window_method_is_maximize_allowed>`
 
-Returns ``true`` if the window can be maximized (the maximize button is enabled).
+Renvoie ``true`` si la fenêtre peut être maximisée (le bouton de maximisation est activé).
 
 .. rst-class:: classref-item-separator
 
@@ -2355,7 +2355,7 @@ Returns ``true`` if the window can be maximized (the maximize button is enabled)
 
 :ref:`bool<class_bool>` **is_using_font_oversampling**\ (\ ) |const| :ref:`🔗<class_Window_method_is_using_font_oversampling>`
 
-Returns ``true`` if font oversampling is enabled. See :ref:`set_use_font_oversampling()<class_Window_method_set_use_font_oversampling>`.
+Renvoie ``true`` si le sur-échantillonnage de la police est activé. Voir :ref:`set_use_font_oversampling()<class_Window_method_set_use_font_oversampling>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2367,7 +2367,7 @@ Returns ``true`` if font oversampling is enabled. See :ref:`set_use_font_oversam
 
 |void| **move_to_center**\ (\ ) :ref:`🔗<class_Window_method_move_to_center>`
 
-Centers a native window on the current screen and an embedded window on its embedder :ref:`Viewport<class_Viewport>`.
+Centre une fenêtre native sur l'écran actuel et une fenêtre intégrée sur le :ref:`Viewport<class_Viewport>` dans lequel elle est intégrée.
 
 .. rst-class:: classref-item-separator
 
@@ -2381,7 +2381,7 @@ Centers a native window on the current screen and an embedded window on its embe
 
 **Obsolète :** Use :ref:`grab_focus()<class_Window_method_grab_focus>` instead.
 
-Causes the window to grab focus, allowing it to receive user input.
+Force la fenêtre à saisir le focus, lui permettant de recevoir l'entrée utilisateur.
 
 .. rst-class:: classref-item-separator
 
@@ -2393,13 +2393,13 @@ Causes the window to grab focus, allowing it to receive user input.
 
 |void| **popup**\ (\ rect\: :ref:`Rect2i<class_Rect2i>` = Rect2i(0, 0, 0, 0)\ ) :ref:`🔗<class_Window_method_popup>`
 
-Shows the **Window** and makes it transient (see :ref:`transient<class_Window_property_transient>`). If ``rect`` is provided, it will be set as the **Window**'s size. Fails if called on the main window.
+Affiche la **Window** et le rend transitoire (voir :ref:`transient<class_Window_property_transient>`). Si un rectangle ``rect`` est fourni, il sera défini comme la taille de la **Window**. Échoue si appelée sur la fenêtre principale.
 
-If :ref:`ProjectSettings.display/window/subwindows/embed_subwindows<class_ProjectSettings_property_display/window/subwindows/embed_subwindows>` is ``true`` (single-window mode), ``rect``'s coordinates are global and relative to the main window's top-left corner (excluding window decorations). If ``rect``'s position coordinates are negative, the window will be located outside the main window and may not be visible as a result.
+Si :ref:`ProjectSettings.display/window/subwindows/embed_subwindows<class_ProjectSettings_property_display/window/subwindows/embed_subwindows>` vaut ``true`` (mode fenêtre unique), les coordonnées du ``rect`` sont globales et relatives au coin supérieur gauche de la fenêtre principale (hors décorations de la fenêtre). Si les coordonnées de position du ``rect`` sont négatives, la fenêtre sera située à l'extérieur de la fenêtre principale et ne sera ainsi peut-être pas visible.
 
-If :ref:`ProjectSettings.display/window/subwindows/embed_subwindows<class_ProjectSettings_property_display/window/subwindows/embed_subwindows>` is ``false`` (multi-window mode), ``rect``'s coordinates are global and relative to the top-left corner of the leftmost screen. If ``rect``'s position coordinates are negative, the window will be placed at the top-left corner of the screen.
+Si :ref:`ProjectSettings.display/window/subwindows/embed_subwindows<class_ProjectSettings_property_display/window/subwindows/embed_subwindows>` vaut ``false`` (mode multi-fenêtre), les coordonnées du ``rect`` sont globales et relatives au coin supérieur gauche de l'écran le plus à gauche. Si les coordonnées de position du ``rect`` sont négatives, la fenêtre sera placée au coin supérieur gauche de l'écran.
 
-\ **Note:** ``rect`` must be in global coordinates if specified.
+\ **Note :** ``rect`` doit être dans les coordonnées globales si spécifié.
 
 .. rst-class:: classref-item-separator
 
@@ -2411,9 +2411,9 @@ If :ref:`ProjectSettings.display/window/subwindows/embed_subwindows<class_Projec
 
 |void| **popup_centered**\ (\ minsize\: :ref:`Vector2i<class_Vector2i>` = Vector2i(0, 0)\ ) :ref:`🔗<class_Window_method_popup_centered>`
 
-Popups the **Window** at the center of the current screen, with optionally given minimum size. If the **Window** is embedded, it will be centered in the parent :ref:`Viewport<class_Viewport>` instead.
+Fait apparaître la **Window** comme une popup au centre de l'écran actuel, avec en option une taille minimale donnée. Si la **Window** est intégrée, elle sera à la place centrée dans le :ref:`Viewport<class_Viewport>` parent.
 
-\ **Note:** Calling it with the default value of ``minsize`` is equivalent to calling it with :ref:`size<class_Window_property_size>`.
+\ **Note :** L'appeler avec la valeur par défaut de ``minsize`` équivaut à l'appeler avec :ref:`size<class_Window_property_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2425,9 +2425,9 @@ Popups the **Window** at the center of the current screen, with optionally given
 
 |void| **popup_centered_clamped**\ (\ minsize\: :ref:`Vector2i<class_Vector2i>` = Vector2i(0, 0), fallback_ratio\: :ref:`float<class_float>` = 0.75\ ) :ref:`🔗<class_Window_method_popup_centered_clamped>`
 
-Popups the **Window** centered inside its parent **Window**. ``fallback_ratio`` determines the maximum size of the **Window**, in relation to its parent.
+Fait apparaître la **Window** comme une popup centrée dans sa **Window** parente. ``fallback_ratio`` détermine la taille maximale de la **Window**, en relation avec son parent.
 
-\ **Note:** Calling it with the default value of ``minsize`` is equivalent to calling it with :ref:`size<class_Window_property_size>`.
+\ **Note :** L'appeler avec la valeur par défaut de ``minsize`` équivaut à l'appeler avec :ref:`size<class_Window_property_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2439,9 +2439,9 @@ Popups the **Window** centered inside its parent **Window**. ``fallback_ratio`` 
 
 |void| **popup_centered_ratio**\ (\ ratio\: :ref:`float<class_float>` = 0.8\ ) :ref:`🔗<class_Window_method_popup_centered_ratio>`
 
-If **Window** is embedded, popups the **Window** centered inside its embedder and sets its size as a ``ratio`` of embedder's size.
+Si la **Window** est intégrée, fait apparaître la **Window** comme une popup centrée à l'intérieur de son intégrateur et définit sa taille en tant que ``ratio`` de la taille de l'intégrateur.
 
-If **Window** is a native window, popups the **Window** centered inside the screen of its parent **Window** and sets its size as a ``ratio`` of the screen size.
+Si la **Window** est une fenêtre native, fait apparaître la **Window** comme une popup centrée à l'intérieur de l'écran de sa **Window** parente et définit sa taille en tant que ``ratio`` de la taille de l'écran.
 
 .. rst-class:: classref-item-separator
 
@@ -2453,9 +2453,9 @@ If **Window** is a native window, popups the **Window** centered inside the scre
 
 |void| **popup_exclusive**\ (\ from_node\: :ref:`Node<class_Node>`, rect\: :ref:`Rect2i<class_Rect2i>` = Rect2i(0, 0, 0, 0)\ ) :ref:`🔗<class_Window_method_popup_exclusive>`
 
-Attempts to parent this dialog to the last exclusive window relative to ``from_node``, and then calls :ref:`popup()<class_Window_method_popup>` on it. The dialog must have no current parent, otherwise the method fails.
+Essaye de parenter cette boîte de dialogue à la dernière fenêtre exclusive relative à ``from_node``, puis appelle :ref:`popup()<class_Window_method_popup>` dessus. La boîte de dialogue ne doit pas avoir de parent actuel, sinon la méthode échoue.
 
-See also :ref:`set_unparent_when_invisible()<class_Window_method_set_unparent_when_invisible>` and :ref:`Node.get_last_exclusive_window()<class_Node_method_get_last_exclusive_window>`.
+Voir aussi :ref:`set_unparent_when_invisible()<class_Window_method_set_unparent_when_invisible>` et :ref:`Node.get_last_exclusive_window()<class_Node_method_get_last_exclusive_window>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2467,9 +2467,9 @@ See also :ref:`set_unparent_when_invisible()<class_Window_method_set_unparent_wh
 
 |void| **popup_exclusive_centered**\ (\ from_node\: :ref:`Node<class_Node>`, minsize\: :ref:`Vector2i<class_Vector2i>` = Vector2i(0, 0)\ ) :ref:`🔗<class_Window_method_popup_exclusive_centered>`
 
-Attempts to parent this dialog to the last exclusive window relative to ``from_node``, and then calls :ref:`popup_centered()<class_Window_method_popup_centered>` on it. The dialog must have no current parent, otherwise the method fails.
+Essaye de parenter cette boîte de dialogue à la dernière fenêtre exclusive relative à ``from_node``, puis appelle :ref:`popup_centered()<class_Window_method_popup_centered>` dessus. La boîte de dialogue ne doit pas avoir de parent actuel, sinon la méthode échoue.
 
-See also :ref:`set_unparent_when_invisible()<class_Window_method_set_unparent_when_invisible>` and :ref:`Node.get_last_exclusive_window()<class_Node_method_get_last_exclusive_window>`.
+Voir aussi :ref:`set_unparent_when_invisible()<class_Window_method_set_unparent_when_invisible>` et :ref:`Node.get_last_exclusive_window()<class_Node_method_get_last_exclusive_window>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2481,9 +2481,9 @@ See also :ref:`set_unparent_when_invisible()<class_Window_method_set_unparent_wh
 
 |void| **popup_exclusive_centered_clamped**\ (\ from_node\: :ref:`Node<class_Node>`, minsize\: :ref:`Vector2i<class_Vector2i>` = Vector2i(0, 0), fallback_ratio\: :ref:`float<class_float>` = 0.75\ ) :ref:`🔗<class_Window_method_popup_exclusive_centered_clamped>`
 
-Attempts to parent this dialog to the last exclusive window relative to ``from_node``, and then calls :ref:`popup_centered_clamped()<class_Window_method_popup_centered_clamped>` on it. The dialog must have no current parent, otherwise the method fails.
+Essaye de parenter cette boîte de dialogue à la dernière fenêtre exclusive relative à ``from_node``, puis appelle :ref:`popup_centered_clamped()<class_Window_method_popup_centered_clamped>` dessus. La boîte de dialogue ne doit pas avoir de parent actuel, sinon la méthode échoue.
 
-See also :ref:`set_unparent_when_invisible()<class_Window_method_set_unparent_when_invisible>` and :ref:`Node.get_last_exclusive_window()<class_Node_method_get_last_exclusive_window>`.
+Voir aussi :ref:`set_unparent_when_invisible()<class_Window_method_set_unparent_when_invisible>` et :ref:`Node.get_last_exclusive_window()<class_Node_method_get_last_exclusive_window>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2495,9 +2495,9 @@ See also :ref:`set_unparent_when_invisible()<class_Window_method_set_unparent_wh
 
 |void| **popup_exclusive_centered_ratio**\ (\ from_node\: :ref:`Node<class_Node>`, ratio\: :ref:`float<class_float>` = 0.8\ ) :ref:`🔗<class_Window_method_popup_exclusive_centered_ratio>`
 
-Attempts to parent this dialog to the last exclusive window relative to ``from_node``, and then calls :ref:`popup_centered_ratio()<class_Window_method_popup_centered_ratio>` on it. The dialog must have no current parent, otherwise the method fails.
+Essaye de parenter cette boîte de dialogue à la dernière fenêtre exclusive relative à ``from_node``, puis appelle :ref:`popup_centered_ratio()<class_Window_method_popup_centered_ratio>` dessus. La boîte de dialogue ne doit pas avoir de parent actuel, sinon la méthode échoue.
 
-See also :ref:`set_unparent_when_invisible()<class_Window_method_set_unparent_when_invisible>` and :ref:`Node.get_last_exclusive_window()<class_Node_method_get_last_exclusive_window>`.
+Voir aussi :ref:`set_unparent_when_invisible()<class_Window_method_set_unparent_when_invisible>` et :ref:`Node.get_last_exclusive_window()<class_Node_method_get_last_exclusive_window>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2509,9 +2509,9 @@ See also :ref:`set_unparent_when_invisible()<class_Window_method_set_unparent_wh
 
 |void| **popup_exclusive_on_parent**\ (\ from_node\: :ref:`Node<class_Node>`, parent_rect\: :ref:`Rect2i<class_Rect2i>`\ ) :ref:`🔗<class_Window_method_popup_exclusive_on_parent>`
 
-Attempts to parent this dialog to the last exclusive window relative to ``from_node``, and then calls :ref:`popup_on_parent()<class_Window_method_popup_on_parent>` on it. The dialog must have no current parent, otherwise the method fails.
+Essaye de parenter cette boîte de dialogue à la dernière fenêtre exclusive relative à ``from_node``, puis appelle :ref:`popup_on_parent()<class_Window_method_popup_on_parent>` dessus. La boîte de dialogue ne doit pas avoir de parent actuel, sinon la méthode échoue.
 
-See also :ref:`set_unparent_when_invisible()<class_Window_method_set_unparent_when_invisible>` and :ref:`Node.get_last_exclusive_window()<class_Node_method_get_last_exclusive_window>`.
+Voir aussi :ref:`set_unparent_when_invisible()<class_Window_method_set_unparent_when_invisible>` et :ref:`Node.get_last_exclusive_window()<class_Node_method_get_last_exclusive_window>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2523,7 +2523,7 @@ See also :ref:`set_unparent_when_invisible()<class_Window_method_set_unparent_wh
 
 |void| **popup_on_parent**\ (\ parent_rect\: :ref:`Rect2i<class_Rect2i>`\ ) :ref:`🔗<class_Window_method_popup_on_parent>`
 
-Popups the **Window** with a position shifted by parent **Window**'s position. If the **Window** is embedded, has the same effect as :ref:`popup()<class_Window_method_popup>`.
+Fait apparaître la **Window** comme une popup avec une position décalée par la positon de la **Window** parente. Si la **Window** est intégrée, a le même effet que :ref:`popup()<class_Window_method_popup>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2535,7 +2535,7 @@ Popups the **Window** with a position shifted by parent **Window**'s position. I
 
 |void| **remove_theme_color_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_Window_method_remove_theme_color_override>`
 
-Removes a local override for a theme :ref:`Color<class_Color>` with the specified ``name`` previously added by :ref:`add_theme_color_override()<class_Window_method_add_theme_color_override>` or via the Inspector dock.
+Retire une redéfinition locale pour une :ref:`Color<class_Color>` de thème nommée ``name`` ajoutée précédemment par :ref:`add_theme_color_override()<class_Window_method_add_theme_color_override>` ou via le dock Inspecteur.
 
 .. rst-class:: classref-item-separator
 
@@ -2559,7 +2559,7 @@ Supprime une redéfinition locale pour une constante de thème nommée ``name`` 
 
 |void| **remove_theme_font_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_Window_method_remove_theme_font_override>`
 
-Removes a local override for a theme :ref:`Font<class_Font>` with the specified ``name`` previously added by :ref:`add_theme_font_override()<class_Window_method_add_theme_font_override>` or via the Inspector dock.
+Retire une redéfinition locale pour une :ref:`Font<class_Font>` de thème nommée ``name`` ajoutée précédemment par :ref:`add_theme_font_override()<class_Window_method_add_theme_font_override>` ou via le dock Inspecteur.
 
 .. rst-class:: classref-item-separator
 
@@ -2571,7 +2571,7 @@ Removes a local override for a theme :ref:`Font<class_Font>` with the specified 
 
 |void| **remove_theme_font_size_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_Window_method_remove_theme_font_size_override>`
 
-Removes a local override for a theme font size with the specified ``name`` previously added by :ref:`add_theme_font_size_override()<class_Window_method_add_theme_font_size_override>` or via the Inspector dock.
+Retire une redéfinition locale pour une taille de police de thème nommée ``name`` ajoutée précédemment par :ref:`add_theme_font_size_override()<class_Window_method_add_theme_font_size_override>` ou via le dock Inspecteur.
 
 .. rst-class:: classref-item-separator
 
@@ -2583,7 +2583,7 @@ Removes a local override for a theme font size with the specified ``name`` previ
 
 |void| **remove_theme_icon_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_Window_method_remove_theme_icon_override>`
 
-Removes a local override for a theme icon with the specified ``name`` previously added by :ref:`add_theme_icon_override()<class_Window_method_add_theme_icon_override>` or via the Inspector dock.
+Retire une redéfinition locale pour une icône de thème nommée ``name`` ajoutée précédemment par :ref:`add_theme_icon_override()<class_Window_method_add_theme_icon_override>` ou via le dock Inspecteur.
 
 .. rst-class:: classref-item-separator
 
@@ -2595,7 +2595,7 @@ Removes a local override for a theme icon with the specified ``name`` previously
 
 |void| **remove_theme_stylebox_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_Window_method_remove_theme_stylebox_override>`
 
-Removes a local override for a theme :ref:`StyleBox<class_StyleBox>` with the specified ``name`` previously added by :ref:`add_theme_stylebox_override()<class_Window_method_add_theme_stylebox_override>` or via the Inspector dock.
+Retire une redéfinition locale pour une :ref:`StyleBox<class_StyleBox>` de thème nommée ``name`` ajoutée précédemment par :ref:`add_theme_stylebox_override()<class_Window_method_add_theme_stylebox_override>` ou via le dock Inspecteur.
 
 .. rst-class:: classref-item-separator
 
@@ -2607,7 +2607,7 @@ Removes a local override for a theme :ref:`StyleBox<class_StyleBox>` with the sp
 
 |void| **request_attention**\ (\ ) :ref:`🔗<class_Window_method_request_attention>`
 
-Tells the OS that the **Window** needs an attention. This makes the window stand out in some way depending on the system, e.g. it might blink on the task bar.
+Indique à l'OS que le **Window** a besoin d'attention. Cela fait que la fenêtre se démarque d'une certaine manière en fonction du système, par exemple, elle peut clignoter dans la barre des tâches.
 
 .. rst-class:: classref-item-separator
 
@@ -2631,7 +2631,7 @@ Réinitialise la taille à la taille minimale, qui est le max de :ref:`min_size<
 
 |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_Window_method_set_flag>`
 
-Sets a specified window flag.
+Définit un drapeau de fenêtre spécifié.
 
 .. rst-class:: classref-item-separator
 
@@ -2643,7 +2643,7 @@ Sets a specified window flag.
 
 |void| **set_ime_active**\ (\ active\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_Window_method_set_ime_active>`
 
-If ``active`` is ``true``, enables system's native IME (Input Method Editor).
+Si ``active`` vaut ``true``, active l'IME natif du système (Input Method Editor, litt. "Éditeur de la méthode d'entrée").
 
 .. rst-class:: classref-item-separator
 
@@ -2667,7 +2667,7 @@ Déplace l'IME à la position donnée.
 
 |void| **set_layout_direction**\ (\ direction\: :ref:`LayoutDirection<enum_Window_LayoutDirection>`\ ) :ref:`🔗<class_Window_method_set_layout_direction>`
 
-Sets layout direction and text writing direction. Right-to-left layouts are necessary for certain languages (e.g. Arabic and Hebrew).
+Définit la direction de mise en page et la direction d'écriture de texte. Les mises en page de droite à gauche sont nécessaires pour certaines langues (par exemple, l'arabe et l'hébreu).
 
 .. rst-class:: classref-item-separator
 
@@ -2679,9 +2679,9 @@ Sets layout direction and text writing direction. Right-to-left layouts are nece
 
 |void| **set_unparent_when_invisible**\ (\ unparent\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_Window_method_set_unparent_when_invisible>`
 
-If ``unparent`` is ``true``, the window is automatically unparented when going invisible.
+Si ``unparent`` vaut ``true``, la fenêtre est automatiquement retirée de son parent lorsqu'elle devient invisible.
 
-\ **Note:** Make sure to keep a reference to the node, otherwise it will be orphaned. You also need to manually call :ref:`Node.queue_free()<class_Node_method_queue_free>` to free the window if it's not parented.
+\ **Note :** Assurez-vous de garder une référence au nœud, sinon il sera orphelin. Vous devez également appeler manuellement :ref:`Node.queue_free()<class_Node_method_queue_free>` pour libérer la fenêtre si elle n'est pas parentée.
 
 .. rst-class:: classref-item-separator
 
@@ -2693,7 +2693,7 @@ If ``unparent`` is ``true``, the window is automatically unparented when going i
 
 |void| **set_use_font_oversampling**\ (\ enable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_Window_method_set_use_font_oversampling>`
 
-Enables font oversampling. This makes fonts look better when they are scaled up.
+Active le sur-échantillonnage de la police. Cela rend les polices plus belles quand elles sont agrandies.
 
 .. rst-class:: classref-item-separator
 
@@ -2705,7 +2705,7 @@ Enables font oversampling. This makes fonts look better when they are scaled up.
 
 |void| **show**\ (\ ) :ref:`🔗<class_Window_method_show>`
 
-Makes the **Window** appear. This enables interactions with the **Window** and doesn't change any of its property other than visibility (unlike e.g. :ref:`popup()<class_Window_method_popup>`).
+Fait apparaître la **Window**. Cela permet d'interagir avec la **Window** et ne change aucune de ses propriétés autre que sa visibilité (contrairement à par exemple :ref:`popup()<class_Window_method_popup>`).
 
 .. rst-class:: classref-item-separator
 
@@ -2729,7 +2729,7 @@ Starts an interactive drag operation on the window, using the current mouse posi
 
 |void| **start_resize**\ (\ edge\: :ref:`WindowResizeEdge<enum_DisplayServer_WindowResizeEdge>`\ ) :ref:`🔗<class_Window_method_start_resize>`
 
-Starts an interactive resize operation on the window, using the current mouse position. Call this method when handling a mouse button being pressed to simulate a pressed event on the window's edge.
+Démarre une opération de redimensionnement interactive sur la fenêtre, en utilisant la position actuelle de la souris. Appelez cette méthode lors de la manipulation d'un bouton de souris appuyé pour simuler un événement d'appui sur le bord de la fenêtre.
 
 .. rst-class:: classref-section-separator
 
@@ -2746,7 +2746,7 @@ Descriptions des propriétés du thème
 
 :ref:`Color<class_Color>` **title_color** = ``Color(0.875, 0.875, 0.875, 1)`` :ref:`🔗<class_Window_theme_color_title_color>`
 
-The color of the title's text.
+La couleur du texte du titre.
 
 .. rst-class:: classref-item-separator
 
@@ -2770,7 +2770,7 @@ La couleur du contour du texte du titre.
 
 :ref:`int<class_int>` **close_h_offset** = ``18`` :ref:`🔗<class_Window_theme_constant_close_h_offset>`
 
-Horizontal position offset of the close button, relative to the end of the title bar, towards the beginning of the title bar.
+Décalage horizontal de position du bouton de fermeture, par rapport à la fin de la barre du titre, vers le début de la barre du titre.
 
 .. rst-class:: classref-item-separator
 
@@ -2782,7 +2782,7 @@ Horizontal position offset of the close button, relative to the end of the title
 
 :ref:`int<class_int>` **close_v_offset** = ``24`` :ref:`🔗<class_Window_theme_constant_close_v_offset>`
 
-Vertical position offset of the close button, relative to the bottom of the title bar, towards the top of the title bar.
+Décalage vertical de position du bouton de fermeture, par rapport au bas de la barre du titre, vers le haut de la barre du titre.
 
 .. rst-class:: classref-item-separator
 
@@ -2794,7 +2794,7 @@ Vertical position offset of the close button, relative to the bottom of the titl
 
 :ref:`int<class_int>` **resize_margin** = ``4`` :ref:`🔗<class_Window_theme_constant_resize_margin>`
 
-Defines the outside margin at which the window border can be grabbed with mouse and resized.
+Définit la marge extérieure à laquelle la bordure de la fenêtre peut être saisie avec la souris et redimensionnée.
 
 .. rst-class:: classref-item-separator
 
@@ -2806,7 +2806,7 @@ Defines the outside margin at which the window border can be grabbed with mouse 
 
 :ref:`int<class_int>` **title_height** = ``36`` :ref:`🔗<class_Window_theme_constant_title_height>`
 
-Height of the title bar.
+Hauteur de la barre du titre.
 
 .. rst-class:: classref-item-separator
 
@@ -2818,7 +2818,7 @@ Height of the title bar.
 
 :ref:`int<class_int>` **title_outline_size** = ``0`` :ref:`🔗<class_Window_theme_constant_title_outline_size>`
 
-The size of the title outline.
+La taille du contour du titre.
 
 .. rst-class:: classref-item-separator
 
@@ -2830,7 +2830,7 @@ The size of the title outline.
 
 :ref:`Font<class_Font>` **title_font** :ref:`🔗<class_Window_theme_font_title_font>`
 
-The font used to draw the title.
+La police utilisée pour dessiner le titre.
 
 .. rst-class:: classref-item-separator
 
@@ -2842,7 +2842,7 @@ The font used to draw the title.
 
 :ref:`int<class_int>` **title_font_size** :ref:`🔗<class_Window_theme_font_size_title_font_size>`
 
-The size of the title font.
+La taille de la police de titre.
 
 .. rst-class:: classref-item-separator
 
@@ -2866,7 +2866,7 @@ L'icône personnalisée pour le bouton de fermeture.
 
 :ref:`Texture2D<class_Texture2D>` **close_pressed** :ref:`🔗<class_Window_theme_icon_close_pressed>`
 
-The icon for the close button when it's being pressed.
+L'icône pour le bouton de fermeture lorsqu'il est appuyé.
 
 .. rst-class:: classref-item-separator
 
@@ -2878,9 +2878,9 @@ The icon for the close button when it's being pressed.
 
 :ref:`StyleBox<class_StyleBox>` **embedded_border** :ref:`🔗<class_Window_theme_style_embedded_border>`
 
-The background style used when the **Window** is embedded. Note that this is drawn only under the window's content, excluding the title. For proper borders and title bar style, you can use ``expand_margin_*`` properties of :ref:`StyleBoxFlat<class_StyleBoxFlat>`.
+Le style d'arrière-plan utilisé lorsque la **Window** est intégrée. Notez que cela n'est affiché que sous le contenu de la fenêtre, à l'exception du titre. Pour des bordures et un style de barre de titre appropriés, vous pouvez utiliser les propriétés ``expand_margin_*`` de :ref:`StyleBoxFlat<class_StyleBoxFlat>`.
 
-\ **Note:** The content background will not be visible unless :ref:`transparent<class_Window_property_transparent>` is enabled.
+\ **Note :** L'arrière-plan du contenu ne sera visible que si :ref:`transparent<class_Window_property_transparent>` est activé.
 
 .. rst-class:: classref-item-separator
 
@@ -2892,7 +2892,7 @@ The background style used when the **Window** is embedded. Note that this is dra
 
 :ref:`StyleBox<class_StyleBox>` **embedded_unfocused_border** :ref:`🔗<class_Window_theme_style_embedded_unfocused_border>`
 
-The background style used when the **Window** is embedded and unfocused.
+Le style d'arrière-plan utilisé lorsque la **Window** est intégrée et sans le focus.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

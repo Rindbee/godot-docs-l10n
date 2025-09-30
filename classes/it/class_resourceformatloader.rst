@@ -150,13 +150,13 @@ Descrizioni dei metodi
 
 :ref:`PackedStringArray<class_PackedStringArray>` **_get_dependencies**\ (\ path\: :ref:`String<class_String>`, add_types\: :ref:`bool<class_bool>`\ ) |virtual| |const| :ref:`🔗<class_ResourceFormatLoader_private_method__get_dependencies>`
 
-Should return the dependencies for the resource at the given ``path``. Each dependency is a string composed of one to three sections separated by ``::``, with trailing empty sections omitted:
+Dovrebbe restituire le dipendenze per la risorsa nel percorso ``path``. Ogni dipendenza è una stringa composta da una a tre sezioni separate da ``::``, con le sezioni vuote finali omesse:
 
-- The first section should contain the UID if the resource has one. Otherwise, it should contain the file path.
+- La prima sezione dovrebbe contenere l'UID se la risorsa ne ha uno. Se non, dovrebbe contenere il percorso del file.
 
-- The second section should contain the class name of the dependency if ``add_types`` is ``true``. Otherwise, it should be empty.
+- La seconda sezione dovrebbe contenere il nome della classe della dipendenza se ``add_types`` è ``true``. Se non, dovrebbe essere vuota.
 
-- The third section should contain the fallback path if the resource has a UID. Otherwise, it should be empty.
+- La terza sezione dovrebbe contenere il percorso alternativo se la risorsa ha un UID. Se non, dovrebbe essere vuota.
 
 ::
 
@@ -168,7 +168,7 @@ Should return the dependencies for the resource at the given ``path``. Each depe
             "res://script.gd",
         ]
 
-\ **Note:** Custom resource types defined by scripts aren't known by the :ref:`ClassDB<class_ClassDB>`, so ``"Resource"`` can be used for the class name.
+\ **Nota:** i tipi personalizzati di risorse definiti dagli script non sono noti al :ref:`ClassDB<class_ClassDB>`, quindi è possibile utilizzare ``"Resource"`` per il nome della classe.
 
 .. rst-class:: classref-item-separator
 

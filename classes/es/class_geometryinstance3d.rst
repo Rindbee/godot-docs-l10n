@@ -244,7 +244,7 @@ enum **VisibilityRangeFadeMode**: :ref:`🔗<enum_GeometryInstance3D_VisibilityR
 
 :ref:`VisibilityRangeFadeMode<enum_GeometryInstance3D_VisibilityRangeFadeMode>` **VISIBILITY_RANGE_FADE_DISABLED** = ``0``
 
-No se atenuará a sí mismo ni a sus dependencias de visibilidad, en su lugar se utilizará la histéresis. Este es el enfoque más rápido para el LOD manual, pero puede resultar en transiciones de LOD notables dependiendo de cómo se creen las mallas LOD. Ver :ref:`visibility_range_begin<class_GeometryInstance3D_property_visibility_range_begin>` y :ref:`Node3D.visibility_parent<class_Node3D_property_visibility_parent>` para más información.
+No se atenuará a sí mismo ni a sus dependencias de visibilidad, en su lugar se utilizará la histéresis. Este es el enfoque más rápido para el LOD manual, pero puede resultar en transiciones de LOD notables dependiendo de cómo se creen las mallas LOD. Véase :ref:`visibility_range_begin<class_GeometryInstance3D_property_visibility_range_begin>` y :ref:`Node3D.visibility_parent<class_Node3D_property_visibility_parent>` para más información.
 
 .. _class_GeometryInstance3D_constant_VISIBILITY_RANGE_FADE_SELF:
 

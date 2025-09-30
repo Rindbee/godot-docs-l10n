@@ -7,7 +7,7 @@ RayCast3D
 
 **Eredita:** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A ray in 3D space, used to find the first collision object it intersects.
+Un raggio nello spazio 3D, utilizzato per trovare il primo oggetto di collisione che interseca.
 
 .. rst-class:: classref-introduction-group
 
@@ -225,7 +225,7 @@ Se ``true``, le collisioni saranno riportate.
 - |void| **set_exclude_parent_body**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_exclude_parent_body**\ (\ )
 
-If ``true``, this raycast will not report collisions with its parent node. This property only has an effect if the parent node is a :ref:`CollisionObject3D<class_CollisionObject3D>`. See also :ref:`Node.get_parent()<class_Node_method_get_parent>` and :ref:`add_exception()<class_RayCast3D_method_add_exception>`.
+Se ``true``, questo raycast non riporterà collisioni con il suo nodo padre. Questa proprietà ha effetto solo se il nodo padre è un :ref:`CollisionObject3D<class_CollisionObject3D>`. Vedi anche :ref:`Node.get_parent()<class_Node_method_get_parent>` e :ref:`add_exception()<class_RayCast3D_method_add_exception>`.
 
 .. rst-class:: classref-item-separator
 
@@ -242,7 +242,7 @@ If ``true``, this raycast will not report collisions with its parent node. This 
 - |void| **set_hit_back_faces**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_hit_back_faces_enabled**\ (\ )
 
-Se ``true``, il raggio colpirà le facce posteriori delle forme di poligoni concave con facce posteriori abilitate o forme di mappa di altezza.
+Se ``true``, il raggio colpirà le facce posteriori delle forme di poligoni concave con facce posteriori abilitate o forme di heightmap.
 
 .. rst-class:: classref-item-separator
 
@@ -259,7 +259,7 @@ Se ``true``, il raggio colpirà le facce posteriori delle forme di poligoni conc
 - |void| **set_hit_from_inside**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_hit_from_inside_enabled**\ (\ )
 
-Se ``true``, il raggio rileverà un riscontro se iniziato all'interno di una forma. In questo caso la normale di collisione sarà ``Vector3(0, 0, 0)``. Non influisce sulle forme senza volume come poligoni concavi o mappe di altezza.
+Se ``true``, il raggio rileverà un riscontro se iniziato all'interno di una forma. In questo caso la normale di collisione sarà ``Vector3(0, 0, 0)``. Non influisce sulle forme senza volume come poligoni concavi o heightmap.
 
 .. rst-class:: classref-item-separator
 
@@ -276,7 +276,7 @@ Se ``true``, il raggio rileverà un riscontro se iniziato all'interno di una for
 - |void| **set_target_position**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_target_position**\ (\ )
 
-The ray's destination point, relative to this raycast's :ref:`Node3D.position<class_Node3D_property_position>`.
+Il punto di destinazione del raggio, relativo alla :ref:`Node3D.position<class_Node3D_property_position>` di questo raycast.
 
 .. rst-class:: classref-section-separator
 
@@ -293,7 +293,7 @@ Descrizioni dei metodi
 
 |void| **add_exception**\ (\ node\: :ref:`CollisionObject3D<class_CollisionObject3D>`\ ) :ref:`🔗<class_RayCast3D_method_add_exception>`
 
-Adds a collision exception so the ray does not report collisions with the specified ``node``.
+Aggiunge un'eccezione di collisione in modo che il raggio non riporti le collisioni con il nodo ``node``.
 
 .. rst-class:: classref-item-separator
 
@@ -466,7 +466,7 @@ Restituisce se un oggetto interseca il vettore del raggio (considerando la lungh
 
 |void| **remove_exception**\ (\ node\: :ref:`CollisionObject3D<class_CollisionObject3D>`\ ) :ref:`🔗<class_RayCast3D_method_remove_exception>`
 
-Removes a collision exception so the ray can report collisions with the specified ``node``.
+Rimuove un'eccezione di collisione in modo che il raggio possa riportare le collisioni con il nodo ``node``.
 
 .. rst-class:: classref-item-separator
 
@@ -478,7 +478,7 @@ Removes a collision exception so the ray can report collisions with the specifie
 
 |void| **remove_exception_rid**\ (\ rid\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_RayCast3D_method_remove_exception_rid>`
 
-Removes a collision exception so the ray can report collisions with the specified :ref:`RID<class_RID>`.
+Rimuove un'eccezione di collisione in modo che il raggio possa riportare le collisioni con il :ref:`RID<class_RID>` specificato.
 
 .. rst-class:: classref-item-separator
 

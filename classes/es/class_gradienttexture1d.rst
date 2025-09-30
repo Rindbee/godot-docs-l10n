@@ -14,7 +14,7 @@ Una textura 1D que utiliza colores obtenidos de un :ref:`Gradient<class_Gradient
 Descripción
 ----------------------
 
-Una textura 1D que obtiene colores de un :ref:`Gradient<class_Gradient>` para rellenar los datos de la textura. La textura se rellena muestreando el gradiente para cada píxel. Por lo tanto, la textura no representa necesariamente una copia exacta del gradiente, ya que puede perder algunos colores si no hay suficientes píxeles. Ver también :ref:`GradientTexture2D<class_GradientTexture2D>`, :ref:`CurveTexture<class_CurveTexture>` y :ref:`CurveXYZTexture<class_CurveXYZTexture>`.
+Una textura 1D que obtiene colores de un :ref:`Gradient<class_Gradient>` para rellenar los datos de la textura. La textura se rellena muestreando el gradiente para cada píxel. Por lo tanto, la textura no representa necesariamente una copia exacta del gradiente, ya que puede perder algunos colores si no hay suficientes píxeles. Véase también :ref:`GradientTexture2D<class_GradientTexture2D>`, :ref:`CurveTexture<class_CurveTexture>` y :ref:`CurveXYZTexture<class_CurveXYZTexture>`.
 
 .. rst-class:: classref-reftable-group
 

@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/TileMap.xml.
+.. meta::
+	:keywords: gridmap
 
 .. _class_TileMap:
 
@@ -421,9 +421,9 @@ The :ref:`TileSet<class_TileSet>` used by this **TileMap**. The textures, collis
 
 |void| **erase_cell**\ (\ layer\: :ref:`int<class_int>`, coords\: :ref:`Vector2i<class_Vector2i>`\ ) :ref:`🔗<class_TileMap_method_erase_cell>`
 
-設定圖層的名稱。主要在編輯器中使用。
+Erases the cell on layer ``layer`` at coordinates ``coords``.
 
-如果 ``layer`` 為負，則逆序存取圖層。
+If ``layer`` is negative, the layers are accessed from the last one.
 
 .. rst-class:: classref-item-separator
 
@@ -671,9 +671,9 @@ Returns the :ref:`RID<class_RID>` of the :ref:`NavigationServer2D<class_Navigati
 
 :ref:`TileMapPattern<class_TileMapPattern>` **get_pattern**\ (\ layer\: :ref:`int<class_int>`, coords_array\: :ref:`Array<class_Array>`\[:ref:`Vector2i<class_Vector2i>`\]\ ) :ref:`🔗<class_TileMap_method_get_pattern>`
 
-設定圖層的名稱。主要在編輯器中使用。
+Creates a new :ref:`TileMapPattern<class_TileMapPattern>` from the given layer and set of cells.
 
-如果 ``layer`` 為負，則逆序存取圖層。
+If ``layer`` is negative, the layers are accessed from the last one.
 
 .. rst-class:: classref-item-separator
 
@@ -697,7 +697,9 @@ Returns the :ref:`RID<class_RID>` of the :ref:`NavigationServer2D<class_Navigati
 
 :ref:`Array<class_Array>`\[:ref:`Vector2i<class_Vector2i>`\] **get_used_cells**\ (\ layer\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TileMap_method_get_used_cells>`
 
-返回 :ref:`Vector2i<class_Vector2i>` 陣列，其中存放的是給定圖層中所有包含圖塊的儲存格的位置。空單元格的源識別字等於 -1、合集座標識別字為 ``Vector2(-1, -1)``\ 、備選標識符為 -1。
+Returns a :ref:`Vector2i<class_Vector2i>` array with the positions of all cells containing a tile in the given layer. A cell is considered empty if its source identifier equals -1, its atlas coordinates identifiers is ``Vector2(-1, -1)`` and its alternative identifier is -1.
+
+If ``layer`` is negative, the layers are accessed from the last one.
 
 .. rst-class:: classref-item-separator
 
@@ -709,11 +711,13 @@ Returns the :ref:`RID<class_RID>` of the :ref:`NavigationServer2D<class_Navigati
 
 :ref:`Array<class_Array>`\[:ref:`Vector2i<class_Vector2i>`\] **get_used_cells_by_id**\ (\ layer\: :ref:`int<class_int>`, source_id\: :ref:`int<class_int>` = -1, atlas_coords\: :ref:`Vector2i<class_Vector2i>` = Vector2i(-1, -1), alternative_tile\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_TileMap_method_get_used_cells_by_id>`
 
-返回 :ref:`Vector2i<class_Vector2i>` 陣列，其中存放的是給定圖層中所有包含圖塊的儲存格的位置。可以根據源（\ ``source_id``\ ）、合集座標（\ ``atlas_coords``\ ）、備選 ID（\ ``alternative_tile``\ ）進行篩選。
+Returns a :ref:`Vector2i<class_Vector2i>` array with the positions of all cells containing a tile in the given layer. Tiles may be filtered according to their source (``source_id``), their atlas coordinates (``atlas_coords``) or alternative id (``alternative_tile``).
 
-如果某個參數為預設值，則該參數不會用於儲存格的篩選。因此，如果所有參數都使用預設值，則返回的結果與 :ref:`get_used_cells()<class_TileMap_method_get_used_cells>` 相同。
+If a parameter has its value set to the default one, this parameter is not used to filter a cell. Thus, if all parameters have their respective default value, this method returns the same result as :ref:`get_used_cells()<class_TileMap_method_get_used_cells>`.
 
-空儲存格的源識別字等於 -1、合集座標識別字為 ``Vector2(-1, -1)``\ 、備選識別字為 -1。
+A cell is considered empty if its source identifier equals -1, its atlas coordinates identifiers is ``Vector2(-1, -1)`` and its alternative identifier is -1.
+
+If ``layer`` is negative, the layers are accessed from the last one.
 
 .. rst-class:: classref-item-separator
 
@@ -1097,11 +1101,11 @@ Assigns ``map`` as a :ref:`NavigationServer2D<class_NavigationServer2D>` navigat
 
 |void| **update_internals**\ (\ ) :ref:`🔗<class_TileMap_method_update_internals>`
 
-觸發 TileMap 的更新。如果提供了 ``layer``\ ，則只更新給定的層。
+Triggers a direct update of the TileMap. Usually, calling this function is not needed, as TileMap node updates automatically when one of its properties or cells is modified.
 
-\ **注意：**\ TileMap 節點的屬性被修改時，該節點會自動更新。只有在需要套用運作時修改（在 :ref:`_tile_data_runtime_update()<class_TileMap_private_method__tile_data_runtime_update>` 中實作）時才需要手動更新。
+However, for performance reasons, those updates are batched and delayed to the end of the frame. Calling this function will force the TileMap to update right away instead.
 
-\ **警告：**\ 更新 TileMap 的計算量很大，可能會影響性能。請儘量限制更新的次數和受影響的圖塊（例如，將經常更新的圖塊放在專門的層中）。
+\ **Warning:** Updating the TileMap is computationally expensive and may impact performance. Try to limit the number of updates and how many tiles they impact.
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要使用者覆寫才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

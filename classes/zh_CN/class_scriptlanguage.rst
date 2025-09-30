@@ -11,7 +11,7 @@ ScriptLanguage
 
 .. container:: contribute
 
-	该类目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this class. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-section-separator
 
@@ -36,7 +36,7 @@ enum **ScriptNameCasing**: :ref:`🔗<enum_ScriptLanguage_ScriptNameCasing>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -48,7 +48,7 @@ enum **ScriptNameCasing**: :ref:`🔗<enum_ScriptLanguage_ScriptNameCasing>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -60,7 +60,7 @@ enum **ScriptNameCasing**: :ref:`🔗<enum_ScriptLanguage_ScriptNameCasing>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -72,7 +72,7 @@ enum **ScriptNameCasing**: :ref:`🔗<enum_ScriptLanguage_ScriptNameCasing>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -84,7 +84,7 @@ enum **ScriptNameCasing**: :ref:`🔗<enum_ScriptLanguage_ScriptNameCasing>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 

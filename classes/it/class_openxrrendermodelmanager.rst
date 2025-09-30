@@ -7,16 +7,16 @@ OpenXRRenderModelManager
 
 **Eredita:** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Helper node that will automatically manage displaying render models.
+Nodo ausiliare che gestirà automaticamente la visualizzazione dei modelli di rendering.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-This helper node will automatically manage displaying render models. It will create new :ref:`OpenXRRenderModel<class_OpenXRRenderModel>` nodes as controllers and other hand held devices are detected, and remove those nodes when they are deactivated.
+Questo nodo ausiliare gestirà automaticamente la visualizzazione dei modelli di rendering. Creerà nuovi nodi :ref:`OpenXRRenderModel<class_OpenXRRenderModel>` man mano che controller e altri dispositivi portatili vengono rilevati, rimuovendoli quando vengono disattivati.
 
-\ **Note:** If you want more control over this logic you can alternatively call :ref:`OpenXRRenderModelExtension.render_model_get_all()<class_OpenXRRenderModelExtension_method_render_model_get_all>` to obtain a list of active render model ids and create :ref:`OpenXRRenderModel<class_OpenXRRenderModel>` instances for each render model id provided.
+\ **Nota:** Se si desidera più controllo su questa logica, è possibile in alternativa chiamare :ref:`OpenXRRenderModelExtension.render_model_get_all()<class_OpenXRRenderModelExtension_method_render_model_get_all>` per ottenere una lista di ID di modelli di rendering attivi e creare istanze di :ref:`OpenXRRenderModel<class_OpenXRRenderModel>` per ogni ID di modello di rendering fornito.
 
 .. rst-class:: classref-reftable-group
 
@@ -47,7 +47,7 @@ Segnali
 
 **render_model_added**\ (\ render_model\: :ref:`OpenXRRenderModel<class_OpenXRRenderModel>`\ ) :ref:`🔗<class_OpenXRRenderModelManager_signal_render_model_added>`
 
-Emitted when a render model node is added as a child to this node.
+Emesso quando un nodo di modello di rendering viene aggiunto come figlio di questo nodo.
 
 .. rst-class:: classref-item-separator
 
@@ -59,7 +59,7 @@ Emitted when a render model node is added as a child to this node.
 
 **render_model_removed**\ (\ render_model\: :ref:`OpenXRRenderModel<class_OpenXRRenderModel>`\ ) :ref:`🔗<class_OpenXRRenderModelManager_signal_render_model_removed>`
 
-Emitted when a render model child node is about to be removed from this node.
+Emesso quando un nodo figlio di modello di rendering sta per essere rimosso da questo nodo.
 
 .. rst-class:: classref-section-separator
 
@@ -82,7 +82,7 @@ enum **RenderModelTracker**: :ref:`🔗<enum_OpenXRRenderModelManager_RenderMode
 
 :ref:`RenderModelTracker<enum_OpenXRRenderModelManager_RenderModelTracker>` **RENDER_MODEL_TRACKER_ANY** = ``0``
 
-All active render models are shown regardless of what tracker they relate to.
+Sono mostrati tutti i modelli di rendering attivi, a prescindere dal tracker a cui sono correlati.
 
 .. _class_OpenXRRenderModelManager_constant_RENDER_MODEL_TRACKER_NONE_SET:
 
@@ -90,7 +90,7 @@ All active render models are shown regardless of what tracker they relate to.
 
 :ref:`RenderModelTracker<enum_OpenXRRenderModelManager_RenderModelTracker>` **RENDER_MODEL_TRACKER_NONE_SET** = ``1``
 
-Only active render models are shown that are not related to any tracker we manage.
+Sono mostrati solo i modelli di rendering attivi che non sono correlati ad alcun tracker da noi gestito.
 
 .. _class_OpenXRRenderModelManager_constant_RENDER_MODEL_TRACKER_LEFT_HAND:
 
@@ -98,7 +98,7 @@ Only active render models are shown that are not related to any tracker we manag
 
 :ref:`RenderModelTracker<enum_OpenXRRenderModelManager_RenderModelTracker>` **RENDER_MODEL_TRACKER_LEFT_HAND** = ``2``
 
-Only active render models are shown that are related to the left hand tracker.
+Sono mostrati solo i modelli di rendering attivi correlati al tracker della mano sinistra.
 
 .. _class_OpenXRRenderModelManager_constant_RENDER_MODEL_TRACKER_RIGHT_HAND:
 
@@ -106,7 +106,7 @@ Only active render models are shown that are related to the left hand tracker.
 
 :ref:`RenderModelTracker<enum_OpenXRRenderModelManager_RenderModelTracker>` **RENDER_MODEL_TRACKER_RIGHT_HAND** = ``3``
 
-Only active render models are shown that are related to the right hand tracker.
+Sono mostrati solo i modelli di rendering attivi correlati al tracker della mano destra.
 
 .. rst-class:: classref-section-separator
 
@@ -128,7 +128,7 @@ Descrizioni delle proprietà
 - |void| **set_make_local_to_pose**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_make_local_to_pose**\ (\ )
 
-Position render models local to this pose (this will adjust the position of the render models container node).
+Posiziona i modelli di rendering localmente a questa posa (ciò regolerà la posizione del nodo contenitore dei modelli di rendering).
 
 .. rst-class:: classref-item-separator
 
@@ -145,7 +145,7 @@ Position render models local to this pose (this will adjust the position of the 
 - |void| **set_tracker**\ (\ value\: :ref:`RenderModelTracker<enum_OpenXRRenderModelManager_RenderModelTracker>`\ )
 - :ref:`RenderModelTracker<enum_OpenXRRenderModelManager_RenderModelTracker>` **get_tracker**\ (\ )
 
-Limits render models to the specified tracker. Include: 0 = All render models, 1 = Render models not related to a tracker, 2 = Render models related to the left hand tracker, 3 = Render models related to the right hand tracker.
+Limita i modelli di rendering al tracker specificato. Include: 0 = Tutti i modelli di rendering, 1 = Modelli di rendering correlati a un tracker, 2 = Modelli di rendering correlati al tracker della mano sinistra, 3 = Modelli di rendering correlati al tracker della mano destra.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

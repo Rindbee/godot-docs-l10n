@@ -14,13 +14,13 @@ Un nodo 3D che rappresenta un controller tracciato nello spazio.
 Descrizione
 ----------------------
 
-This is a helper 3D node that is linked to the tracking of controllers. It also offers several handy passthroughs to the state of buttons and such on the controllers.
+Questo è un nodo 3D ausiliare collegato al tracciamento dei controller. Offre anche diversi utili passthrough allo stato dei pulsanti e simili sui controller.
 
-Controllers are linked by their ID. You can create controller nodes before the controllers are available. If your game always uses two controllers (one for each hand), you can predefine the controllers with ID 1 and 2; they will become active as soon as the controllers are identified. If you expect additional controllers to be used, you should react to the signals and add XRController3D nodes to your scene.
+I controller sono collegati tramite il loro ID. È possibile creare nodi controller prima che i controller siano disponibili. Se il tuo gioco utilizza sempre due controller (uno per ogni mano), puoi predefinire i controller con ID 1 e 2; diventeranno attivi non appena i controller saranno identificati. Se prevedi che siano utilizzati controller aggiuntivi, dovresti reagire ai segnali e aggiungere nodi XRController3D alla tua scena.
 
-The position of the controller node is automatically updated by the :ref:`XRServer<class_XRServer>`. This makes this node ideal to add child nodes to visualize the controller.
+La posizione del nodo controller è aggiornata automaticamente dal :ref:`XRServer<class_XRServer>`. Ciò rende questo nodo ideale per aggiungere nodi figlio per visualizzare il controller.
 
-The current :ref:`XRInterface<class_XRInterface>` defines the names of inputs. In the case of OpenXR, these are the names of actions in the current action set from the OpenXR action map.
+L':ref:`XRInterface<class_XRInterface>` attuale definisce i nomi degli input. Nel caso di OpenXR, questi sono i nomi delle azioni nell'insieme di azioni attuale dalla mappa di azioni di OpenXR.
 
 .. rst-class:: classref-introduction-group
 
@@ -129,9 +129,9 @@ Descrizioni dei metodi
 
 :ref:`float<class_float>` **get_float**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_XRController3D_method_get_float>`
 
-Returns a numeric value for the input with the given ``name``. This is used for triggers and grip sensors.
+Restituisce un valore numerico per l'input con il nome ``name``. È utilizzato per grilletti e sensori grip.
 
-\ **Note:** The current :ref:`XRInterface<class_XRInterface>` defines the ``name`` for each input. In the case of OpenXR, these are the names of actions in the current action set.
+\ **Nota:** L'attuale :ref:`XRInterface<class_XRInterface>` definisce il ``name`` per ciascun input. Nel caso di OpenXR, questi sono i nomi delle azioni nell'insieme di azioni attuale.
 
 .. rst-class:: classref-item-separator
 
@@ -183,9 +183,9 @@ Restituisce un :ref:`Vector2<class_Vector2>` per l'input con il nome ``name``. �
 
 :ref:`bool<class_bool>` **is_button_pressed**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_XRController3D_method_is_button_pressed>`
 
-Returns ``true`` if the button with the given ``name`` is pressed.
+Restituisce ``true`` se il pulsante con il nome ``name`` è premuto.
 
-\ **Note:** The current :ref:`XRInterface<class_XRInterface>` defines the ``name`` for each input. In the case of OpenXR, these are the names of actions in the current action set.
+\ **Nota:** L'attuale :ref:`XRInterface<class_XRInterface>` definisce il ``name`` per ciascun input. Nel caso di OpenXR, questi sono i nomi delle azioni nell'insieme di azioni attuale.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

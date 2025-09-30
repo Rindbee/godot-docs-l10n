@@ -4113,7 +4113,7 @@ enum **EnvironmentAmbientSource**: :ref:`🔗<enum_RenderingServer_EnvironmentAm
 
 :ref:`EnvironmentAmbientSource<enum_RenderingServer_EnvironmentAmbientSource>` **ENV_AMBIENT_SOURCE_BG** = ``0``
 
-Gather ambient light from whichever source is specified as the background.
+Recueillir la lumière ambiante depuis la source spécifiée comme arrière-plan.
 
 .. _class_RenderingServer_constant_ENV_AMBIENT_SOURCE_DISABLED:
 
@@ -4137,7 +4137,7 @@ Specify a specific :ref:`Color<class_Color>` for ambient light.
 
 :ref:`EnvironmentAmbientSource<enum_RenderingServer_EnvironmentAmbientSource>` **ENV_AMBIENT_SOURCE_SKY** = ``3``
 
-Gather ambient light from the :ref:`Sky<class_Sky>` regardless of what the background is.
+Recueillir la lumière ambiante depuis le :ref:`Sky<class_Sky>` peu importe de ce qu'est l'arrière-plan.
 
 .. rst-class:: classref-item-separator
 
@@ -4171,7 +4171,7 @@ Désactive les réflexions.
 
 :ref:`EnvironmentReflectionSource<enum_RenderingServer_EnvironmentReflectionSource>` **ENV_REFLECTION_SOURCE_SKY** = ``2``
 
-Use the :ref:`Sky<class_Sky>` for reflections regardless of what the background is.
+Utiliser le :ref:`Sky<class_Sky>` pour les réflexions quel que soit l'arrière-plan.
 
 .. rst-class:: classref-item-separator
 
@@ -4221,7 +4221,7 @@ Mode de mélange de glow en remplacement. Remplace toutes les couleurs des pixel
 
 :ref:`EnvironmentGlowBlendMode<enum_RenderingServer_EnvironmentGlowBlendMode>` **ENV_GLOW_BLEND_MODE_MIX** = ``4``
 
-Mixes the glow with the underlying color to avoid increasing brightness as much while still maintaining a glow effect.
+Mélange le glow avec la couleur sous-jacente pour éviter d'augmenter la luminosité tout en maintenant un effet de glow.
 
 .. rst-class:: classref-item-separator
 
@@ -4239,7 +4239,7 @@ enum **EnvironmentFogMode**: :ref:`🔗<enum_RenderingServer_EnvironmentFogMode>
 
 :ref:`EnvironmentFogMode<enum_RenderingServer_EnvironmentFogMode>` **ENV_FOG_MODE_EXPONENTIAL** = ``0``
 
-Use a physically-based fog model defined primarily by fog density.
+Utiliser un modèle de brouillard physique défini principalement par la densité du brouillard.
 
 .. _class_RenderingServer_constant_ENV_FOG_MODE_DEPTH:
 
@@ -4247,7 +4247,7 @@ Use a physically-based fog model defined primarily by fog density.
 
 :ref:`EnvironmentFogMode<enum_RenderingServer_EnvironmentFogMode>` **ENV_FOG_MODE_DEPTH** = ``1``
 
-Use a simple fog model defined by start and end positions and a custom curve. While not physically accurate, this model can be useful when you need more artistic control.
+Utiliser un modèle de brouillard simple défini par les positions de démarrage et de fin et une courbe personnalisée. Bien qu'il ne soit pas physiquement exact, ce modèle peut être utile lorsque vous avez besoin d'un contrôle plus artistique.
 
 .. rst-class:: classref-item-separator
 

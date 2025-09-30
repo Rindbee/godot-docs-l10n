@@ -464,7 +464,7 @@ I valori restituiti sono nell'ora locale del sistema quando ``utc`` è ``false``
 
 :ref:`Dictionary<class_Dictionary>` **get_time_dict_from_unix_time**\ (\ unix_time_val\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Time_method_get_time_dict_from_unix_time>`
 
-Converte l'ora specificata in un dizionario di chiavi: ``hour``, ``minute``, and ``second``.
+Converte l'ora specificata in un dizionario di chiavi: ``hour``, ``minute`` e ``second``.
 
 .. rst-class:: classref-item-separator
 

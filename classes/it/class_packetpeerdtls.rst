@@ -132,7 +132,7 @@ Disconnette questo peer, terminando la sessione DTLS.
 
 :ref:`Status<enum_PacketPeerDTLS_Status>` **get_status**\ (\ ) |const| :ref:`🔗<class_PacketPeerDTLS_method_get_status>`
 
-Returns the status of the connection.
+Restituisce lo stato della connessione.
 
 .. rst-class:: classref-item-separator
 

@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/PhysicalBone3D.xml.
+.. meta::
+	:keywords: ragdoll
 
 .. _class_PhysicalBone3D:
 
@@ -213,7 +213,7 @@ Vedi :ref:`ProjectSettings.physics/3d/default_angular_damp<class_ProjectSettings
 - |void| **set_angular_damp_mode**\ (\ value\: :ref:`DampMode<enum_PhysicalBone3D_DampMode>`\ )
 - :ref:`DampMode<enum_PhysicalBone3D_DampMode>` **get_angular_damp_mode**\ (\ )
 
-Defines how :ref:`angular_damp<class_PhysicalBone3D_property_angular_damp>` is applied.
+Definisce come :ref:`angular_damp<class_PhysicalBone3D_property_angular_damp>` è applicato.
 
 .. rst-class:: classref-item-separator
 
@@ -387,7 +387,7 @@ Imposta la rotazione dell'articolazione in radianti.
 - |void| **set_joint_type**\ (\ value\: :ref:`JointType<enum_PhysicalBone3D_JointType>`\ )
 - :ref:`JointType<enum_PhysicalBone3D_JointType>` **get_joint_type**\ (\ )
 
-Sets the joint type.
+Imposta il tipo di giunto.
 
 .. rst-class:: classref-item-separator
 
@@ -423,7 +423,7 @@ Vedi :ref:`ProjectSettings.physics/3d/default_linear_damp<class_ProjectSettings_
 - |void| **set_linear_damp_mode**\ (\ value\: :ref:`DampMode<enum_PhysicalBone3D_DampMode>`\ )
 - :ref:`DampMode<enum_PhysicalBone3D_DampMode>` **get_linear_damp_mode**\ (\ )
 
-Defines how :ref:`linear_damp<class_PhysicalBone3D_property_linear_damp>` is applied.
+Definisce come :ref:`linear_damp<class_PhysicalBone3D_property_linear_damp>` è applicato.
 
 .. rst-class:: classref-item-separator
 

@@ -126,7 +126,7 @@ enum **LineJointMode**: :ref:`🔗<enum_Line2D_LineJointMode>`
 
 :ref:`LineJointMode<enum_Line2D_LineJointMode>` **LINE_JOINT_ROUND** = ``2``
 
-使折線的關節變圓，用圓弧連接兩個線段的側面。此圓弧的細部取決於\ :ref:`round_ precision<class_Line2D_property_round_ precision>`\ 。
+使折線的關節變圓，用圓弧連接兩個線段的側面。此圓弧的細部取決於\ :ref:`round_precision<class_Line2D_property_round_precision>`\ 。
 
 .. rst-class:: classref-item-separator
 

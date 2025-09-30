@@ -256,7 +256,7 @@ If enabled, icon and metadata of the exported executable is set according to the
 
 :ref:`String<class_String>` **application/product_name** :ref:`🔗<class_EditorExportPlatformWindows_property_application/product_name>`
 
-Name of the application. Required. See `StringFileInfo <https://learn.microsoft.com/en-us/windows/win32/menurc/stringfileinfo-block>`__.
+Nom de l'application. Requis. Voir `StringFileInfo <https://learn.microsoft.com/fr-fr/windows/win32/menurc/stringfileinfo-block>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -268,7 +268,7 @@ Name of the application. Required. See `StringFileInfo <https://learn.microsoft.
 
 :ref:`String<class_String>` **application/product_version** :ref:`🔗<class_EditorExportPlatformWindows_property_application/product_version>`
 
-Application version visible to the user. Falls back to :ref:`ProjectSettings.application/config/version<class_ProjectSettings_property_application/config/version>` if left empty. See `StringFileInfo <https://learn.microsoft.com/en-us/windows/win32/menurc/stringfileinfo-block>`__.
+Version d'application visible par l'utilisateur. Revient à :ref:`ProjectSettings.application/config/version<class_ProjectSettings_property_application/config/version>` si laissé vide. Voir `StringFileInfo <https://learn.microsoft.com/fr-fr/windows/win32/menurc/stringfileinfo-block>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -280,7 +280,7 @@ Application version visible to the user. Falls back to :ref:`ProjectSettings.app
 
 :ref:`String<class_String>` **application/trademarks** :ref:`🔗<class_EditorExportPlatformWindows_property_application/trademarks>`
 
-Trademarks and registered trademarks that apply to the file. Optional. See `StringFileInfo <https://learn.microsoft.com/en-us/windows/win32/menurc/stringfileinfo-block>`__.
+Marques et marques déposées qui s'appliquent au fichier. Facultatif. Voir `StringFileInfo <https://learn.microsoft.com/fr-fr/windows/win32/menurc/stringfileinfo-block>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -292,9 +292,9 @@ Trademarks and registered trademarks that apply to the file. Optional. See `Stri
 
 :ref:`String<class_String>` **binary_format/architecture** :ref:`🔗<class_EditorExportPlatformWindows_property_binary_format/architecture>`
 
-Application executable architecture.
+Architecture de l'exécutable de l'application.
 
-Supported architectures: ``x86_32``, ``x86_64``, and ``arm64``.
+Architectures supportées : ``x86_32``, ``x86_64``, et ``arm64``.
 
 .. rst-class:: classref-item-separator
 
@@ -434,7 +434,7 @@ URL of the time stamp server. If left empty, the default server is used. See `Si
 
 :ref:`String<class_String>` **custom_template/debug** :ref:`🔗<class_EditorExportPlatformWindows_property_custom_template/debug>`
 
-Path to the custom export template. If left empty, default template is used.
+Chemin vers le modèle d'export personnalisé. Si laissé vide, le modèle par défaut est utilisé.
 
 .. rst-class:: classref-item-separator
 
@@ -446,7 +446,7 @@ Path to the custom export template. If left empty, default template is used.
 
 :ref:`String<class_String>` **custom_template/release** :ref:`🔗<class_EditorExportPlatformWindows_property_custom_template/release>`
 
-Path to the custom export template. If left empty, default template is used.
+Chemin vers le modèle d'export personnalisé. Si laissé vide, le modèle par défaut est utilisé.
 
 .. rst-class:: classref-item-separator
 

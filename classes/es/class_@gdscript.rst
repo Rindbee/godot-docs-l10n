@@ -340,11 +340,11 @@ Véase además :ref:`@GlobalScope.PROPERTY_HINT_EXP_EASING<class_@GlobalScope_co
 
 **@export_file**\ (\ filter\: :ref:`String<class_String>` = "", ...\ ) |vararg| :ref:`🔗<class_@GDScript_annotation_@export_file>`
 
-Exporta una propiedad :ref:`String<class_String>`, :ref:`Array<class_Array>`\ \[:ref:`String<class_String>`\ \] o :ref:`PackedStringArray<class_PackedStringArray>` como una ruta a un archivo. La ruta se limitará a la carpeta del proyecto y sus subcarpetas. Consulte :ref:`@export_global_file<class_@GDScript_annotation_@export_global_file>` para permitir la selección de todo el sistema de archivos.
+Exporta una propiedad :ref:`String<class_String>`, :ref:`Array<class_Array>`\ \[:ref:`String<class_String>`\ \] o :ref:`PackedStringArray<class_PackedStringArray>` como una ruta a un archivo. La ruta se limitará a la carpeta del proyecto y sus subcarpetas. Consulta :ref:`@export_global_file<class_@GDScript_annotation_@export_global_file>` para permitir la selección de todo el sistema de archivos.
 
 Si se proporciona ``filter``, solo estarán disponibles para la selección los archivos coincidentes.
 
-Consulte también :ref:`@GlobalScope.PROPERTY_HINT_FILE<class_@GlobalScope_constant_PROPERTY_HINT_FILE>`.
+Véase también :ref:`@GlobalScope.PROPERTY_HINT_FILE<class_@GlobalScope_constant_PROPERTY_HINT_FILE>`.
 
 ::
 
@@ -364,7 +364,7 @@ Consulte también :ref:`@GlobalScope.PROPERTY_HINT_FILE<class_@GlobalScope_const
 
 **@export_file_path**\ (\ filter\: :ref:`String<class_String>` = "", ...\ ) |vararg| :ref:`🔗<class_@GDScript_annotation_@export_file_path>`
 
-Igual que :ref:`@export_file<class_@GDScript_annotation_@export_file>`, excepto que el archivo se guardará como una ruta sin procesar. Esto significa que puede volverse inválida cuando se mueva el archivo. Si está exportando una ruta de :ref:`Resource<class_Resource>`, considere usar :ref:`@export_file<class_@GDScript_annotation_@export_file>` en su lugar.
+Igual que :ref:`@export_file<class_@GDScript_annotation_@export_file>`, excepto que el archivo se guardará como una ruta sin procesar. Esto significa que puede volverse inválida cuando se mueva el archivo. Si está exportando una ruta de :ref:`Resource<class_Resource>`, considera usar :ref:`@export_file<class_@GDScript_annotation_@export_file>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -595,9 +595,9 @@ Véase también :ref:`@GlobalScope.PROPERTY_HINT_GLOBAL_FILE<class_@GlobalScope_
 
 **@export_group**\ (\ name\: :ref:`String<class_String>`, prefix\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_@GDScript_annotation_@export_group>`
 
-Define un nuevo grupo para las siguientes propiedades exportadas. Esto ayuda a organizar las propiedades en el panel Inspector. Los grupos pueden ser agregados con un ``prefijo de parameteo`` opcional, que podría hacer un grupo para solo considerar las propiedades que tenga este prefijo. El agrupamiento se romperá con la primera propiedad que no tenga un prefijo. El prefijo también sera removido del nombre de la propiedad en el panel Inspector.
+Define un nuevo grupo para las siguientes propiedades exportadas. Esto ayuda a organizar las propiedades en el panel Inspector. Los grupos pueden ser agregados con un ``prefix`` opcional, que podría hacer un grupo para solo considerar las propiedades que tenga este prefijo. El agrupamiento se romperá con la primera propiedad que no tenga un prefijo. El prefijo también sera removido del nombre de la propiedad en el panel Inspector.
 
-Si no se proporciona un ``prefix``, entonces cada propiedad siguiente sera agregada al grupo. El grupo se disuelve para cuando el grupo o categoría siguiente es definida. Tambien puedes forzar la disolución de un grupo usando esta anotación con cadenas vacías como parámetros, ``@export_group("", "")``.
+Si no se proporciona un ``prefix``, entonces cada propiedad siguiente sera agregada al grupo. El grupo se disuelve para cuando el grupo o categoría siguiente es definida. Tambien puedes forzar la disolución de un grupo usando esta anotación con strings vacías como parámetros, ``@export_group("", "")``.
 
 Los grupos no pueden ser anidados, usa :ref:`@export_subgroup<class_@GDScript_annotation_@export_subgroup>` para añadir subgrupos dentro de grupos.
 
@@ -735,9 +735,9 @@ Exporta una propiedad con la bandera :ref:`@GlobalScope.PROPERTY_USAGE_STORAGE<c
 
 **@export_subgroup**\ (\ name\: :ref:`String<class_String>`, prefix\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_@GDScript_annotation_@export_subgroup>`
 
-Define un nuevo subgrupo para las siguientes propiedades exportadas. Esto ayuda a organizar las propiedades en el dock Inspector. Los subgrupos funcionan exactamente como los grupos, excepto que necesitan que exista un grupo padre. Ver :ref:`@export_group<class_@GDScript_annotation_@export_group>`.
+Define un nuevo subgrupo para las siguientes propiedades exportadas. Esto ayuda a organizar las propiedades en el dock Inspector. Los subgrupos funcionan exactamente como los grupos, excepto que necesitan que exista un grupo padre. Véase :ref:`@export_group<class_@GDScript_annotation_@export_group>`.
 
-Ver también :ref:`@GlobalScope.PROPERTY_USAGE_SUBGROUP<class_@GlobalScope_constant_PROPERTY_USAGE_SUBGROUP>`.
+Véase también :ref:`@GlobalScope.PROPERTY_USAGE_SUBGROUP<class_@GlobalScope_constant_PROPERTY_USAGE_SUBGROUP>`.
 
 ::
 
@@ -780,7 +780,7 @@ Si se especifica ``icon``, este se utiliza para obtener un icono para el botón 
 
 Considera usar :ref:`EditorUndoRedoManager<class_EditorUndoRedoManager>` para permitir que la acción pueda revertirse de manera segura.
 
-Consulta también :ref:`@GlobalScope.PROPERTY_HINT_TOOL_BUTTON<class_@GlobalScope_constant_PROPERTY_HINT_TOOL_BUTTON>`.
+Véase también :ref:`@GlobalScope.PROPERTY_HINT_TOOL_BUTTON<class_@GlobalScope_constant_PROPERTY_HINT_TOOL_BUTTON>`.
 
 ::
 
@@ -809,7 +809,7 @@ Consulta también :ref:`@GlobalScope.PROPERTY_HINT_TOOL_BUTTON<class_@GlobalScop
 
     var undo_redo = Engine.get_singleton(&"EditorInterface").get_editor_undo_redo()
 
-\ **Nota:** Evita almacenar :ref:`Callable<class_Callable>` tipo lambda en variables miembro de clases basadas en :ref:`RefCounted<class_RefCounted>` (por ejemplo, recursos), ya que esto podría provocar fugas de memoria. Usa únicamente :ref:`Callable<class_Callable>` de métodos y, si es necesario, utiliza los métodos ``Callable.bind`` o ``Callable.unbind``.
+\ **Nota:** Evita almacenar :ref:`Callable<class_Callable>` tipo lambda en variables miembro de clases basadas en :ref:`RefCounted<class_RefCounted>` (por ejemplo, recursos), ya que esto podría provocar fugas de memoria. Usa únicamente :ref:`Callable<class_Callable>` de métodos y, si es necesario, utiliza los métodos :ref:`Callable.bind()<class_Callable_method_bind>` o :ref:`Callable.unbind()<class_Callable_method_unbind>`.
 
 .. rst-class:: classref-item-separator
 

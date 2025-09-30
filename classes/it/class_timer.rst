@@ -14,20 +14,20 @@ Un timer per il conto alla rovescia.
 Descrizione
 ----------------------
 
-The **Timer** node is a countdown timer and is the simplest way to handle time-based logic in the engine. When a timer reaches the end of its :ref:`wait_time<class_Timer_property_wait_time>`, it will emit the :ref:`timeout<class_Timer_signal_timeout>` signal.
+Il nodo **Timer** è un timer per il conto alla rovescia ed è il modo più semplice per gestire logica basata sul tempo nel motore. Quando un timer raggiunge la fine del suo :ref:`wait_time<class_Timer_property_wait_time>`, emetterà il segnale :ref:`timeout<class_Timer_signal_timeout>`.
 
-After a timer enters the scene tree, it can be manually started with :ref:`start()<class_Timer_method_start>`. A timer node is also started automatically if :ref:`autostart<class_Timer_property_autostart>` is ``true``.
+Dopo che un timer entra nell'albero di scene, lo si può avviare manualmente con :ref:`start()<class_Timer_method_start>`. Inoltre, un nodo timer viene avviato automaticamente se :ref:`autostart<class_Timer_property_autostart>` è ``true``.
 
-Without requiring much code, a timer node can be added and configured in the editor. The :ref:`timeout<class_Timer_signal_timeout>` signal it emits can also be connected through the Node dock in the editor:
+Senza richiedere molto codice, un nodo timer può essere aggiunto e configurato nell'editor. Il segnale :ref:`timeout<class_Timer_signal_timeout>` che emette può anche essere collegato tramite il pannello Nodo nell'editor:
 
 ::
 
     func _on_timer_timeout():
-        print("Time to attack!")
+        print("È ora di attaccare!")
 
-\ **Note:** To create a one-shot timer without instantiating a node, use :ref:`SceneTree.create_timer()<class_SceneTree_method_create_timer>`.
+\ **Nota:** Per creare un timer a colpo singolo senza istanziare un nodo, usa :ref:`SceneTree.create_timer()<class_SceneTree_method_create_timer>`.
 
-\ **Note:** Timers are affected by :ref:`Engine.time_scale<class_Engine_property_time_scale>` unless :ref:`ignore_time_scale<class_Timer_property_ignore_time_scale>` is ``true``. The higher the time scale, the sooner timers will end. How often a timer processes may depend on the framerate or :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`.
+\ **Nota:** I timer sono influenzati da :ref:`Engine.time_scale<class_Engine_property_time_scale>` a meno che :ref:`ignore_time_scale<class_Timer_property_ignore_time_scale>` non sia ``true``. Più alta è la scala temporale, prima scadranno i timer. La frequenza con cui un timer elabora può dipendere dal frame rate o da :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -199,7 +199,7 @@ Se ``true``, il timer si fermerà dopo aver raggiunto la fine. Altrimenti, come 
 - |void| **set_paused**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_paused**\ (\ )
 
-If ``true``, the timer is paused. A paused timer does not process until this property is set back to ``false``, even when :ref:`start()<class_Timer_method_start>` is called. See also :ref:`stop()<class_Timer_method_stop>`.
+Se ``true``, il timer è in pausa. Un timer in pausa non elabora finché questa proprietà non viene reimpostata su ``false``, anche quando viene chiamato :ref:`start()<class_Timer_method_start>`. Vedi anche :ref:`stop()<class_Timer_method_stop>`.
 
 .. rst-class:: classref-item-separator
 
@@ -282,9 +282,9 @@ Restituisce ``true`` se il timer è fermato o non è iniziato.
 
 |void| **start**\ (\ time_sec\: :ref:`float<class_float>` = -1\ ) :ref:`🔗<class_Timer_method_start>`
 
-Starts the timer, or resets the timer if it was started already. Fails if the timer is not inside the scene tree. If ``time_sec`` is greater than ``0``, this value is used for the :ref:`wait_time<class_Timer_property_wait_time>`.
+Avvia il timer, o reimposta il timer se è già stato avviato. Fallisce se il timer non è all'interno dell'albero di scene. Se ``time_sec`` è maggiore di ``0``, questo valore viene usato per :ref:`wait_time<class_Timer_property_wait_time>`.
 
-\ **Note:** This method does not resume a paused timer. See :ref:`paused<class_Timer_property_paused>`.
+\ **Nota:** Questo metodo non riprende un timer in pausa. Vedi :ref:`paused<class_Timer_property_paused>`.
 
 .. rst-class:: classref-item-separator
 
@@ -296,9 +296,9 @@ Starts the timer, or resets the timer if it was started already. Fails if the ti
 
 |void| **stop**\ (\ ) :ref:`🔗<class_Timer_method_stop>`
 
-Stops the timer. See also :ref:`paused<class_Timer_property_paused>`. Unlike :ref:`start()<class_Timer_method_start>`, this can safely be called if the timer is not inside the scene tree.
+Arresta il timer. Vedi anche :ref:`paused<class_Timer_property_paused>`. A differenza di :ref:`start()<class_Timer_method_start>`, è possibile chiamare questa funzione in sicurezza anche se il timer non si trova nell'albero di scene.
 
-\ **Note:** Calling :ref:`stop()<class_Timer_method_stop>` does not emit the :ref:`timeout<class_Timer_signal_timeout>` signal, as the timer is not considered to have timed out. If this is desired, use ``$Timer.timeout.emit()`` after calling :ref:`stop()<class_Timer_method_stop>` to manually emit the signal.
+\ **Nota:** Chiamare :ref:`stop()<class_Timer_method_stop>` non emette il segnale :ref:`timeout<class_Timer_signal_timeout>`, poiché il timer non è considerato scaduto. Se ciò si desidera, utilizzare ``$Timer.timeout.emit()`` dopo aver chiamato :ref:`stop()<class_Timer_method_stop>` per emettere manualmente il segnale.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

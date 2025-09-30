@@ -9,14 +9,14 @@ ImageTextureLayered
 
 **Hérité de:** :ref:`Cubemap<class_Cubemap>`, :ref:`CubemapArray<class_CubemapArray>`, :ref:`Texture2DArray<class_Texture2DArray>`
 
-Base class for texture types which contain the data of multiple :ref:`ImageTexture<class_ImageTexture>`\ s. Each image is of the same size and format.
+Classe de base pour les types de texture qui contiennent les données de plusieurs :ref:`ImageTexture<class_ImageTexture>`\ s. Chaque image est de la même taille et du même format.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Base class for :ref:`Texture2DArray<class_Texture2DArray>`, :ref:`Cubemap<class_Cubemap>` and :ref:`CubemapArray<class_CubemapArray>`. Cannot be used directly, but contains all the functions necessary for accessing the derived resource types. See also :ref:`Texture3D<class_Texture3D>`.
+Classe de base pour :ref:`Texture2DArray<class_Texture2DArray>`, :ref:`Cubemap<class_Cubemap>` et :ref:`CubemapArray<class_CubemapArray>`. Ne peut être utilisée directement, mais contient toutes les fonctions nécessaires pour accéder aux types de ressources dérivées. Voir aussi :ref:`Texture3D<class_Texture3D>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -47,16 +47,16 @@ Descriptions des méthodes
 
 :ref:`Error<enum_@GlobalScope_Error>` **create_from_images**\ (\ images\: :ref:`Array<class_Array>`\[:ref:`Image<class_Image>`\]\ ) :ref:`🔗<class_ImageTextureLayered_method_create_from_images>`
 
-Creates an **ImageTextureLayered** from an array of :ref:`Image<class_Image>`\ s. See :ref:`Image.create()<class_Image_method_create>` for the expected data format. The first image decides the width, height, image format and mipmapping setting. The other images *must* have the same width, height, image format and mipmapping setting.
+Crée une **ImageTextureLayered** depuis un tableau d':ref:`Image<class_Image>`\ s. Voir :ref:`Image.create()<class_Image_method_create>` pour le format attendu des données. La première image décide de la largeur, de la hauteur, du format d'image et des paramètres de mipmaps. Les autres images *doivent* avoir la même largeur, hauteur, format d'image et paramètres de mipmaps.
 
-Each :ref:`Image<class_Image>` represents one ``layer``.
+Chaque :ref:`Image<class_Image>` représente une couche ``layer``.
 
 ::
 
-    # Fill in an array of Images with different colors.
+    # Remplir un tableau d'images avec des images de différentes couleurs.
     var images = []
-    const LAYERS = 6
-    for i in LAYERS:
+    const COUCHES = 6
+    for i in COUCHES:
         var image = Image.create_empty(128, 128, false, Image.FORMAT_RGB8)
         if i % 3 == 0:
             image.fill(Color.RED)
@@ -66,24 +66,24 @@ Each :ref:`Image<class_Image>` represents one ``layer``.
             image.fill(Color.BLUE)
         images.push_back(image)
 
-    # Create and save a 2D texture array. The array of images must have at least 1 Image.
-    var texture_2d_array = Texture2DArray.new()
-    texture_2d_array.create_from_images(images)
-    ResourceSaver.save(texture_2d_array, "res://texture_2d_array.res", ResourceSaver.FLAG_COMPRESS)
+    # Créer et sauvegarder un tableau de textures 2D. Le tableau d'images doit avoir au moins une image.
+    var tableau_texture_2d = Texture2DArray.new()
+    tableau_texture_2d.create_from_images(images)
+    ResourceSaver.save(tableau_texture_2d, "res://tableau_texture_2d.res", ResourceSaver.FLAG_COMPRESS)
 
-    # Create and save a cubemap. The array of images must have exactly 6 Images.
-    # The cubemap's images are specified in this order: X+, X-, Y+, Y-, Z+, Z-
-    # (in Godot's coordinate system, so Y+ is "up" and Z- is "forward").
+    # Créer et sauvegarder une cubemap. Le tableau d'images doit avoir exactement 6 images.
+    # Les images de la cubemap sont spécifiés dans cet ordre : X+, X-, Y+, Y-, Z+, Z-
+    # (dans le système de coordonnées de Godot, donc Y+ est "haut" et Z- est "avant").
     var cubemap = Cubemap.new()
     cubemap.create_from_images(images)
     ResourceSaver.save(cubemap, "res://cubemap.res", ResourceSaver.FLAG_COMPRESS)
 
-    # Create and save a cubemap array. The array of images must have a multiple of 6 Images.
-    # Each cubemap's images are specified in this order: X+, X-, Y+, Y-, Z+, Z-
-    # (in Godot's coordinate system, so Y+ is "up" and Z- is "forward").
-    var cubemap_array = CubemapArray.new()
-    cubemap_array.create_from_images(images)
-    ResourceSaver.save(cubemap_array, "res://cubemap_array.res", ResourceSaver.FLAG_COMPRESS)
+    # Créer et sauvegarder un tableau de cubemaps. Le tableau d'images doit avoir un multiple de 6 images.
+    # Les images de chaque cubemap sont spécifiés dans cet ordre : X+, X-, Y+, Y-, Z+, Z-
+    # (dans le système de coordonnées de Godot, donc Y+ est "haut" et Z- est "avant").
+    var tableau_cubemap = CubemapArray.new()
+    tableau_cubemap.create_from_images(images)
+    ResourceSaver.save(tableau_cubemap, "res://tableau_cubemap.res", ResourceSaver.FLAG_COMPRESS)
 
 .. rst-class:: classref-item-separator
 
@@ -95,13 +95,13 @@ Each :ref:`Image<class_Image>` represents one ``layer``.
 
 |void| **update_layer**\ (\ image\: :ref:`Image<class_Image>`, layer\: :ref:`int<class_int>`\ ) :ref:`🔗<class_ImageTextureLayered_method_update_layer>`
 
-Replaces the existing :ref:`Image<class_Image>` data at the given ``layer`` with this new image.
+Remplace les données de l':ref:`Image<class_Image>` existante à la couche ``layer`` donnée par cette nouvelle image.
 
-The given :ref:`Image<class_Image>` must have the same width, height, image format, and mipmapping flag as the rest of the referenced images.
+L'image donnée doit avoir la même largeur, hauteur, format d'image et drapeau de mipmapping que le reste des images référencées.
 
-If the image format is unsupported, it will be decompressed and converted to a similar and supported :ref:`Format<enum_Image_Format>`.
+Si le format d'image n'est pas supporté, elle sera décompressée et convertie en un :ref:`Format<enum_Image_Format>` similaire et supporté.
 
-The update is immediate: it's synchronized with drawing.
+La mise à jour est immédiate : elle est synchronisée avec le dessin.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

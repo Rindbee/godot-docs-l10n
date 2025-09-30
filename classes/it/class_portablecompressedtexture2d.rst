@@ -271,9 +271,9 @@ Restituisce se il flag è sovrascritto per tutte le texture di questo tipo.
 
 |void| **set_basisu_compressor_params**\ (\ uastc_level\: :ref:`int<class_int>`, rdo_quality_loss\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PortableCompressedTexture2D_method_set_basisu_compressor_params>`
 
-Sets the compressor parameters for Basis Universal compression. See also the settings in :ref:`ResourceImporterTexture<class_ResourceImporterTexture>`.
+Imposta i parametri del compressore per la compressione Basis Universal. Consulta anche le impostazioni in :ref:`ResourceImporterTexture<class_ResourceImporterTexture>`.
 
-\ **Note:** This must be set before :ref:`create_from_image()<class_PortableCompressedTexture2D_method_create_from_image>` to take effect.
+\ **Nota:** Ciò deve essere impostato prima di :ref:`create_from_image()<class_PortableCompressedTexture2D_method_create_from_image>` per avere effetto.
 
 .. rst-class:: classref-item-separator
 

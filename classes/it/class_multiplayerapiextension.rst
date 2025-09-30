@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/MultiplayerAPIExtension.xml.
+.. meta::
+	:keywords: network
 
 .. _class_MultiplayerAPIExtension:
 
@@ -17,9 +17,9 @@ Classe di base utilizzata per estendere la :ref:`MultiplayerAPI<class_Multiplaye
 Descrizione
 ----------------------
 
-This class can be used to extend or replace the default :ref:`MultiplayerAPI<class_MultiplayerAPI>` implementation via script or extensions.
+Questa classe può essere utilizzata per estendere o sostituire l'implementazione predefinita della :ref:`MultiplayerAPI<class_MultiplayerAPI>` tramite script o estensioni.
 
-The following example extend the default implementation (:ref:`SceneMultiplayer<class_SceneMultiplayer>`) by logging every RPC being made, and every object being configured for replication.
+L'esempio seguente estende l'implementazione predefinita (:ref:`SceneMultiplayer<class_SceneMultiplayer>`) registrando ogni RPC eseguita e ogni oggetto configurato per la replica.
 
 
 .. tabs::
@@ -29,11 +29,11 @@ The following example extend the default implementation (:ref:`SceneMultiplayer<
     extends MultiplayerAPIExtension
     class_name LogMultiplayer
 
-    # We want to extend the default SceneMultiplayer.
+    # Vogliamo estendere il SceneMultiplayer predefinito.
     var base_multiplayer = SceneMultiplayer.new()
 
     func _init():
-        # Just passthrough base signals (copied to var to avoid cyclic reference)
+        # Oltrepassa i segnali di base (copiati in var per evitare riferimenti ciclici)
         var cts = connected_to_server
         var cf = connection_failed
         var sd = server_disconnected
@@ -48,28 +48,28 @@ The following example extend the default implementation (:ref:`SceneMultiplayer<
     func _poll():
         return base_multiplayer.poll()
 
-    # Log RPC being made and forward it to the default multiplayer.
+    # Registra l'RPC in corso e inoltrala al multiplayer predefinito.
     func _rpc(peer: int, object: Object, method: StringName, args: Array) -> Error:
-        print("Got RPC for %d: %s::%s(%s)" % [peer, object, method, args])
+        print("Ricevuta RPC per %d: %s::%s(%s)" % [peer, object, method, args])
         return base_multiplayer.rpc(peer, object, method, args)
 
-    # Log configuration add. E.g. root path (nullptr, NodePath), replication (Node, Spawner|Synchronizer), custom.
+    # Registra l'aggiunta di una configurazione. Ad esempio percorso radice (nullptr, NodePath), replicazione (Node, Spawner|Synchronizer), personalizzato.
     func _object_configuration_add(object, config: Variant) -> Error:
         if config is MultiplayerSynchronizer:
-            print("Adding synchronization configuration for %s. Synchronizer: %s" % [object, config])
+            print("Aggiunta configurazione di sincronizzazione per %s. Sincronizzatore: %s" % [object, config])
         elif config is MultiplayerSpawner:
-            print("Adding node %s to the spawn list. Spawner: %s" % [object, config])
+            print("Aggiunta nodo %s alla lista di generazioni. Generatore: %s" % [object, config])
         return base_multiplayer.object_configuration_add(object, config)
 
     # Log configuration remove. E.g. root path (nullptr, NodePath), replication (Node, Spawner|Synchronizer), custom.
     func _object_configuration_remove(object, config: Variant) -> Error:
         if config is MultiplayerSynchronizer:
-            print("Removing synchronization configuration for %s. Synchronizer: %s" % [object, config])
+            print("Rimozione configurazione di sincronizzazione per %s. Sincronizzatore: %s" % [object, config])
         elif config is MultiplayerSpawner:
-            print("Removing node %s from the spawn list. Spawner: %s" % [object, config])
+            print("Rimozione nodo %s dalla lista di generazioni. Generatore: %s" % [object, config])
         return base_multiplayer.object_configuration_remove(object, config)
 
-    # These can be optional, but in our case we want to extend SceneMultiplayer, so forward everything.
+    # Questi possono essere facoltativi, ma nel nostro caso vogliamo estendere SceneMultiplayer, quindi inoltra tutto.
     func _set_multiplayer_peer(p_peer: MultiplayerPeer):
         base_multiplayer.multiplayer_peer = p_peer
 
@@ -87,7 +87,7 @@ The following example extend the default implementation (:ref:`SceneMultiplayer<
 
 
 
-Then in your main scene or in an autoload call :ref:`SceneTree.set_multiplayer()<class_SceneTree_method_set_multiplayer>` to start using your custom :ref:`MultiplayerAPI<class_MultiplayerAPI>`:
+Successivamente, nella tua scena principale o in un autoload, chiama :ref:`SceneTree.set_multiplayer()<class_SceneTree_method_set_multiplayer>` per iniziare a usare la :ref:`MultiplayerAPI<class_MultiplayerAPI>` personalizzata:
 
 
 .. tabs::
@@ -96,12 +96,12 @@ Then in your main scene or in an autoload call :ref:`SceneTree.set_multiplayer()
 
     # autoload.gd
     func _enter_tree():
-        # Sets our custom multiplayer as the main one in SceneTree.
-        get_tree().set_multiplayer(LogMultiplayer.new())
+        # Imposta il multiplayer personalizzato come quello principale in SceneTree.
+    get_tree().set_multiplayer(LogMultiplayer.new())
 
 
 
-Native extensions can alternatively use the :ref:`MultiplayerAPI.set_default_interface()<class_MultiplayerAPI_method_set_default_interface>` method during initialization to configure themselves as the default implementation.
+In alternativa, le estensioni native possono utilizzare il metodo :ref:`MultiplayerAPI.set_default_interface()<class_MultiplayerAPI_method_set_default_interface>` durante l'inizializzazione per configurarsi come implementazione predefinita.
 
 .. rst-class:: classref-reftable-group
 

@@ -83,7 +83,7 @@ Descrizioni dei metodi
 
 :ref:`PackedStringArray<class_PackedStringArray>` **_get_build_dependencies**\ (\ path\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_ResourceImporter_private_method__get_build_dependencies>`
 
-Called when the engine compilation profile editor wants to check what build options an imported resource needs. For example, :ref:`ResourceImporterDynamicFont<class_ResourceImporterDynamicFont>` has a property called :ref:`ResourceImporterDynamicFont.multichannel_signed_distance_field<class_ResourceImporterDynamicFont_property_multichannel_signed_distance_field>`, that depends on the engine to be build with the "msdfgen" module. If that resource happened to be a custom one, it would be handled like this:
+Chiamato quando l'editor del profilo di compilazione del motore desidera verificare quali opzioni di compilazione sono necessarie per una risorsa importata. Ad esempio, :ref:`ResourceImporterDynamicFont<class_ResourceImporterDynamicFont>` ha una proprietà con il nome :ref:`ResourceImporterDynamicFont.multichannel_signed_distance_field<class_ResourceImporterDynamicFont_property_multichannel_signed_distance_field>`, che dipende dalla compilazione del motore con il modulo "msdfgen". Se tale risorsa fosse personalizzata, verrebbe gestita in questo modo:
 
 ::
 

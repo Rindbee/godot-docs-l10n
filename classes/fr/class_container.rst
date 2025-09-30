@@ -107,7 +107,7 @@ Notification juste avant que les enfants ne soient triés, au cas où il y a que
 
 **NOTIFICATION_SORT_CHILDREN** = ``51`` :ref:`🔗<class_Container_constant_NOTIFICATION_SORT_CHILDREN>`
 
-La notification pour le tri des enfants, à laquelle faut l'obéir immédiatement.
+Notification lors du tri des enfants, à laquelle il faut obéir immédiatement.
 
 .. rst-class:: classref-section-separator
 
@@ -164,7 +164,7 @@ Ajuste un contrôle enfant dans un rectangle donné. Il s'agit principalement d'
 
 |void| **queue_sort**\ (\ ) :ref:`🔗<class_Container_method_queue_sort>`
 
-Ajoute un commande de tri pour les contrôles enfants. Ceci est appelé automatiquement de tous les cas, mais peut être appelé sur demande.
+Ajoute un commande de tri pour les enfants contenus. Ceci est appelé automatiquement dans tous les cas, mais peut être appelé sur demande.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

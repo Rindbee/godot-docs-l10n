@@ -14,9 +14,9 @@ JavaScriptBridge
 描述
 ----
 
-The JavaScriptBridge singleton is implemented only in the Web export. It's used to access the browser's JavaScript context. This allows interaction with embedding pages or calling third-party JavaScript APIs.
+JavaScriptBridge 单例仅在 Web 导出中实现。它用于访问浏览器的 JavaScript 上下文。这允许与嵌入页面或调用第三方 JavaScript API 进行交互。
 
-\ **Note:** This singleton can be disabled at build-time to improve security. By default, the JavaScriptBridge singleton is enabled. Official export templates also have the JavaScriptBridge singleton enabled. See :doc:`Compiling for the Web <../engine_details/development/compiling/compiling_for_web>` in the documentation for more information.
+\ **注意：**\ 可以在构建时禁用该单例以提高安全性。默认情况下，启用 JavaScriptBridge 单例。官方导出模板也启用了 JavaScriptBridge 单例。有关详细信息，请参阅文档中的\ :doc:`《为 Web 平台编译》 <../engine_details/development/compiling/compiling_for_web>`\ 。
 
 .. rst-class:: classref-introduction-group
 

@@ -206,7 +206,7 @@ Shows the properties of the given ``object`` in this inspector for editing. To c
 
 :ref:`Object<class_Object>` **get_edited_object**\ (\ ) :ref:`🔗<class_EditorInspector_method_get_edited_object>`
 
-Returns the object currently selected in this inspector.
+Renvoie l'objet actuellement sélectionné dans cet inspecteur.
 
 .. rst-class:: classref-item-separator
 
@@ -218,7 +218,7 @@ Returns the object currently selected in this inspector.
 
 :ref:`String<class_String>` **get_selected_path**\ (\ ) |const| :ref:`🔗<class_EditorInspector_method_get_selected_path>`
 
-Gets the path of the currently selected property.
+Obtient le chemin de la propriété actuellement sélectionnée.
 
 .. rst-class:: classref-item-separator
 

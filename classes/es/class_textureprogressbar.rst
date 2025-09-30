@@ -240,7 +240,7 @@ Desplaza :ref:`texture_progress<class_TextureProgressBar_property_texture_progre
 
 Límite superior para el relleno de :ref:`texture_progress<class_TextureProgressBar_property_texture_progress>` si :ref:`fill_mode<class_TextureProgressBar_property_fill_mode>` es :ref:`FILL_CLOCKWISE<class_TextureProgressBar_constant_FILL_CLOCKWISE>`, :ref:`FILL_COUNTER_CLOCKWISE<class_TextureProgressBar_constant_FILL_COUNTER_CLOCKWISE>` o :ref:`FILL_CLOCKWISE_AND_COUNTER_CLOCKWISE<class_TextureProgressBar_constant_FILL_CLOCKWISE_AND_COUNTER_CLOCKWISE>`. Cuando el ``value`` del nodo es igual a su ``max_value``, la textura se rellena hasta este ángulo.
 
-Ver :ref:`Range.value<class_Range_property_value>`, :ref:`Range.max_value<class_Range_property_max_value>`.
+Véase :ref:`Range.value<class_Range_property_value>`, :ref:`Range.max_value<class_Range_property_max_value>`.
 
 .. rst-class:: classref-item-separator
 
@@ -361,9 +361,9 @@ La altura de la fila superior del 9-patch. Solo es efectivo si :ref:`nine_patch_
 - |void| **set_progress_texture**\ (\ value\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_progress_texture**\ (\ )
 
-:ref:`Texture2D<class_Texture2D>` that clips based on the node's ``value`` and :ref:`fill_mode<class_TextureProgressBar_property_fill_mode>`. As ``value`` increased, the texture fills up. It shows entirely when ``value`` reaches ``max_value``. It doesn't show at all if ``value`` is equal to ``min_value``.
+:ref:`Texture2D<class_Texture2D>` que se recorta según el ``value`` del nodo y :ref:`fill_mode<class_TextureProgressBar_property_fill_mode>`. A medida que aumenta ``value``, la textura se rellena. Se muestra por completo cuando ``value`` alcanza ``max_value``. No se muestra en absoluto si ``value`` es igual a ``min_value``.
 
-The ``value`` property comes from :ref:`Range<class_Range>`. See :ref:`Range.value<class_Range_property_value>`, :ref:`Range.min_value<class_Range_property_min_value>`, :ref:`Range.max_value<class_Range_property_max_value>`.
+La propiedad ``value`` proviene de :ref:`Range<class_Range>`. Véase :ref:`Range.value<class_Range_property_value>`, :ref:`Range.min_value<class_Range_property_min_value>`, :ref:`Range.max_value<class_Range_property_max_value>`.
 
 .. rst-class:: classref-item-separator
 

@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/MultiMesh.xml.
+.. meta::
+	:keywords: batch
 
 .. _class_MultiMesh:
 
@@ -414,7 +414,7 @@ Descrizioni dei metodi
 
 :ref:`AABB<class_AABB>` **get_aabb**\ (\ ) |const| :ref:`🔗<class_MultiMesh_method_get_aabb>`
 
-Restituisce il bounding box di visibilità allineato all'asse nello spazio locale.
+Restituisce la bounding box di visibilità allineato all'asse nello spazio locale.
 
 .. rst-class:: classref-item-separator
 

@@ -296,9 +296,9 @@ Descrizioni delle proprietà
 - |void| **set_agent_radius**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_agent_radius**\ (\ )
 
-The distance to erode/shrink the walkable surface when baking the navigation mesh.
+La distanza per erodere/restringere la superficie percorribile durante la preparazione della mesh di navigazione.
 
-\ **Note:** The radius must be equal or higher than ``0.0``. If the radius is ``0.0``, it won't be possible to fix invalid outline overlaps and other precision errors during the baking process. As a result, some obstacles may be excluded incorrectly from the final navigation mesh, or may delete the navigation mesh's polygons.
+\ **Nota:** Il raggio deve essere uguale o superiore a ``0.0``. Se il raggio è ``0.0``, non sarà possibile correggere sovrapposizioni non valide tra contorni e altri errori di precisione durante il processo di preparazione. Di conseguenza, alcuni ostacoli potrebbero essere esclusi erroneamente dalla mesh di navigazione finale o potrebbero eliminare i poligoni della mesh di navigazione.
 
 .. rst-class:: classref-item-separator
 
@@ -404,7 +404,7 @@ Utilizzato solo quando :ref:`parsed_geometry_type<class_NavigationPolygon_proper
 - |void| **set_parsed_geometry_type**\ (\ value\: :ref:`ParsedGeometryType<enum_NavigationPolygon_ParsedGeometryType>`\ )
 - :ref:`ParsedGeometryType<enum_NavigationPolygon_ParsedGeometryType>` **get_parsed_geometry_type**\ (\ )
 
-Determines which type of nodes will be parsed as geometry.
+Determina quale tipo di nodi sarà interpretato come geometria.
 
 .. rst-class:: classref-item-separator
 
@@ -421,7 +421,7 @@ Determines which type of nodes will be parsed as geometry.
 - |void| **set_sample_partition_type**\ (\ value\: :ref:`SamplePartitionType<enum_NavigationPolygon_SamplePartitionType>`\ )
 - :ref:`SamplePartitionType<enum_NavigationPolygon_SamplePartitionType>` **get_sample_partition_type**\ (\ )
 
-Partitioning algorithm for creating the navigation mesh polys.
+Algoritmo di partizionamento per la creazione dei poligoni della mesh di navigazione.
 
 .. rst-class:: classref-item-separator
 
@@ -457,7 +457,7 @@ Utilizzato solo quando :ref:`source_geometry_mode<class_NavigationPolygon_proper
 - |void| **set_source_geometry_mode**\ (\ value\: :ref:`SourceGeometryMode<enum_NavigationPolygon_SourceGeometryMode>`\ )
 - :ref:`SourceGeometryMode<enum_NavigationPolygon_SourceGeometryMode>` **get_source_geometry_mode**\ (\ )
 
-The source of the geometry used when baking.
+La sorgente della geometria utilizzata durante la preparazione.
 
 .. rst-class:: classref-section-separator
 
@@ -546,7 +546,7 @@ Cancella l'array dei poligoni, ma non cancella l'array dei contorni e dei vertic
 
 :ref:`NavigationMesh<class_NavigationMesh>` **get_navigation_mesh**\ (\ ) :ref:`🔗<class_NavigationPolygon_method_get_navigation_mesh>`
 
-Returns the :ref:`NavigationMesh<class_NavigationMesh>` resulting from this navigation polygon. This navigation mesh can be used to update the navigation mesh of a region with the :ref:`NavigationServer3D.region_set_navigation_mesh()<class_NavigationServer3D_method_region_set_navigation_mesh>` API directly.
+Restituisce il :ref:`NavigationMesh<class_NavigationMesh>` risultante da questo poligono di navigazione. È possibile utilizzare questa mesh di navigazione per aggiornare la mesh di navigazione di una regione con l'API :ref:`NavigationServer3D.region_set_navigation_mesh()<class_NavigationServer3D_method_region_set_navigation_mesh>` direttamente.
 
 .. rst-class:: classref-item-separator
 

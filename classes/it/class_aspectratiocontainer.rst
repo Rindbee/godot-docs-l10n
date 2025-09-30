@@ -78,7 +78,7 @@ La larghezza dei controlli figli è regolata automaticamente in base all'altezza
 
 :ref:`StretchMode<enum_AspectRatioContainer_StretchMode>` **STRETCH_FIT** = ``2``
 
-Il rettangolo limite dei controlli figli è regolato automaticamente per adattarsi all'interno del contenitore mantenendo il rapporto di aspetto.
+Il rettangolo di delimitazione dei controlli figli è regolato automaticamente per adattarsi all'interno del contenitore mantenendo il rapporto di aspetto.
 
 .. _class_AspectRatioContainer_constant_STRETCH_COVER:
 
@@ -86,9 +86,9 @@ Il rettangolo limite dei controlli figli è regolato automaticamente per adattar
 
 :ref:`StretchMode<enum_AspectRatioContainer_StretchMode>` **STRETCH_COVER** = ``3``
 
-La larghezza e l'altezza dei controlli figli sono regolate automaticamente in modo che il loro rettangolo limite copre l'intera area del contenitore, allo stesso tempo mantenendo il rapporto di aspetto.
+La larghezza e l'altezza dei controlli figli sono regolate automaticamente in modo che il loro rettangolo di delimitazione copre l'intera area del contenitore, allo stesso tempo mantenendo il rapporto di aspetto.
 
-Quando il rettangolo limite dei controlli figli supera le dimensioni del contenitore e :ref:`Control.clip_contents<class_Control_property_clip_contents>` è abilitato, questo permette di mostrare solo l'area del contenitore limitata dal proprio rettangolo limite.
+Quando il rettangolo di delimitazione dei controlli figli supera le dimensioni del contenitore e :ref:`Control.clip_contents<class_Control_property_clip_contents>` è abilitato, questo permette di mostrare solo l'area del contenitore limitata dal proprio rettangolo di delimitazione.
 
 .. rst-class:: classref-item-separator
 
@@ -195,7 +195,7 @@ Il rapporto di aspetto da applicare sui controlli figli. Questa è la larghezza 
 - |void| **set_stretch_mode**\ (\ value\: :ref:`StretchMode<enum_AspectRatioContainer_StretchMode>`\ )
 - :ref:`StretchMode<enum_AspectRatioContainer_StretchMode>` **get_stretch_mode**\ (\ )
 
-La modalità di allargamento utilizzata per allineare i controlli figli.
+La modalità di stiramento utilizzata per allineare i controlli figli.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

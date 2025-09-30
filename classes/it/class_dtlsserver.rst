@@ -14,9 +14,9 @@ Classe di supporto per implementare un server DTLS.
 Descrizione
 ----------------------
 
-Questa classe è utilizzata per memorizzare lo stato di un server DTLS. Dopo aver chiamato :ref:`setup()<class_DTLSServer_method_setup>`, converte i :ref:`PacketPeerUDP<class_PacketPeerUDP>` connessi in :ref:`PacketPeerDTLS<class_PacketPeerDTLS>` accettandoli tramite :ref:`take_connection()<class_DTLSServer_method_take_connection>` come client DTLS. In realtà, questa classe è utilizzata per memorizzare lo stato DTLS e i cookie del server. Il motivo per cui lo stato e i cookie sono necessari è al di fuori dell'ambito di questa documentazione.
+Questa classe serve per memorizzare lo stato di un server DTLS. Dopo aver chiamato :ref:`setup()<class_DTLSServer_method_setup>`, converte i :ref:`PacketPeerUDP<class_PacketPeerUDP>` connessi in :ref:`PacketPeerDTLS<class_PacketPeerDTLS>` accettandoli tramite :ref:`take_connection()<class_DTLSServer_method_take_connection>` come client DTLS. Internamente, questa classe serve per memorizzare lo stato DTLS e i cookie del server. Il motivo per cui lo stato e i cookie sono necessari è al di fuori dell'ambito di questa documentazione.
 
-Di seguito un piccolo esempio di come utilizzarlo:
+Di seguito un piccolo esempio di come utilizzarla:
 
 
 .. tabs::

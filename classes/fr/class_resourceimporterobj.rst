@@ -7,16 +7,16 @@ ResourceImporterOBJ
 
 **Hérite de :** :ref:`ResourceImporter<class_ResourceImporter>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Imports an OBJ 3D model as an independent :ref:`Mesh<class_Mesh>` or scene.
+Importe un modèle 3D OBJ en tant que :ref:`Mesh<class_Mesh>` ou scène indépendant.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Unlike :ref:`ResourceImporterScene<class_ResourceImporterScene>`, **ResourceImporterOBJ** will import a single :ref:`Mesh<class_Mesh>` resource by default instead of importing a :ref:`PackedScene<class_PackedScene>`. This makes it easier to use the :ref:`Mesh<class_Mesh>` resource in nodes that expect direct :ref:`Mesh<class_Mesh>` resources, such as :ref:`GridMap<class_GridMap>`, :ref:`GPUParticles3D<class_GPUParticles3D>` or :ref:`CPUParticles3D<class_CPUParticles3D>`. Note that it is still possible to save mesh resources from 3D scenes using the **Advanced Import Settings** dialog, regardless of the source format.
+Contrairement à :ref:`ResourceImporterScene<class_ResourceImporterScene>`, **ResourceImporterOBJ** importera une seule ressource :ref:`Mesh<class_Mesh>` par défaut au lieu d'importer une :ref:`PackedScene<class_PackedScene>`. Cela facilite l'utilisation de la ressource :ref:`Mesh<class_Mesh>` dans les nœuds qui s'attendent à des ressources :ref:`Mesh<class_Mesh>` directes, tels que :ref:`GridMap<class_GridMap>`, :ref:`GPUParticles3D<class_GPUParticles3D>` ou :ref:`CPUParticles3D<class_CPUParticles3D>`. Notez qu'il est encore possible d'enregistrer des ressources en maillage à partir de scènes 3D en utilisant la fenêtre **Paramètres avancés d'import**, peu importe le format source.
 
-See also :ref:`ResourceImporterScene<class_ResourceImporterScene>`, which is used for more advanced 3D formats such as glTF.
+Voir aussi :ref:`ResourceImporterScene<class_ResourceImporterScene>`, qui est utilisé pour des formats 3D plus avancés tels que le glTF.
 
 .. rst-class:: classref-introduction-group
 
@@ -78,7 +78,7 @@ Si ``true``, la compression du maillage ne sera pas utilisée. Envisagez d'activ
 
 :ref:`bool<class_bool>` **generate_lightmap_uv2** = ``false`` :ref:`🔗<class_ResourceImporterOBJ_property_generate_lightmap_uv2>`
 
-If ``true``, generates UV2 on import for :ref:`LightmapGI<class_LightmapGI>` baking.
+Si ``true``, génère des UV2 lors de l'import pour les pré-calculs avec :ref:`LightmapGI<class_LightmapGI>`.
 
 .. rst-class:: classref-item-separator
 
@@ -90,9 +90,9 @@ If ``true``, generates UV2 on import for :ref:`LightmapGI<class_LightmapGI>` bak
 
 :ref:`float<class_float>` **generate_lightmap_uv2_texel_size** = ``0.2`` :ref:`🔗<class_ResourceImporterOBJ_property_generate_lightmap_uv2_texel_size>`
 
-Controls the size of each texel on the baked lightmap. A smaller value results in more precise lightmaps, at the cost of larger lightmap sizes and longer bake times.
+Contrôle la taille de chaque texel sur la lightmap pré-calculée. Une plus petite valeur se traduit par des lightmaps plus précises, au coût de plus grandes tailles de lightmaps et de temps de calcul plus longs.
 
-\ **Note:** Only effective if :ref:`generate_lightmap_uv2<class_ResourceImporterOBJ_property_generate_lightmap_uv2>` is ``true``.
+\ **Note :** Seulement effectif si :ref:`generate_lightmap_uv2<class_ResourceImporterOBJ_property_generate_lightmap_uv2>` vaut ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -104,7 +104,7 @@ Controls the size of each texel on the baked lightmap. A smaller value results i
 
 :ref:`bool<class_bool>` **generate_lods** = ``true`` :ref:`🔗<class_ResourceImporterOBJ_property_generate_lods>`
 
-If ``true``, generates lower detail variants of the mesh which will be displayed in the distance to improve rendering performance. Not all meshes benefit from LOD, especially if they are never rendered from far away. Disabling this can reduce output file size and speed up importing. See `Mesh level of detail (LOD) <../tutorials/3d/mesh_lod.html#doc-mesh-lod>`__ for more information.
+Si ``true``, génère des variantes du maillage à plus faibles détails qui seront affichées à distance pour améliorer la performance de rendu. Tous les maillages ne bénéficient pas du niveau de détail (LOD), surtout s'ils ne sont jamais rendus de loin. Désactiver cela peut réduire la taille du fichier de sortie et accélérer l'import. Voir `Niveau de détail d'un maillage (LOD) <../tutorials/3d/mesh_lod.html#doc-mesh-lod>`__ pour plus d'informations.
 
 .. rst-class:: classref-item-separator
 
@@ -116,7 +116,7 @@ If ``true``, generates lower detail variants of the mesh which will be displayed
 
 :ref:`bool<class_bool>` **generate_shadow_mesh** = ``true`` :ref:`🔗<class_ResourceImporterOBJ_property_generate_shadow_mesh>`
 
-If ``true``, enables the generation of shadow meshes on import. This optimizes shadow rendering without reducing quality by welding vertices together when possible. This in turn reduces the memory bandwidth required to render shadows. Shadow mesh generation currently doesn't support using a lower detail level than the source mesh (but shadow rendering will make use of LODs when relevant).
+Si ``true``, active la génération des maillages d'ombre lors de l'import. Cela optimise le rendu des ombres sans réduire la qualité en fusionnant des sommets si possible. Cela réduit à son tour la bande passante mémoire requise pour rendre les ombres. La génération de maillage d'ombre ne supporte actuellement pas un niveau de détail plus bas que le maillage source (mais le rendu des ombres fera usage des LODs lorsque cela est pertinent).
 
 .. rst-class:: classref-item-separator
 
@@ -128,9 +128,9 @@ If ``true``, enables the generation of shadow meshes on import. This optimizes s
 
 :ref:`bool<class_bool>` **generate_tangents** = ``true`` :ref:`🔗<class_ResourceImporterOBJ_property_generate_tangents>`
 
-If ``true``, generate vertex tangents using `Mikktspace <http://www.mikktspace.com/>`__ if the source mesh doesn't have tangent data. When possible, it's recommended to let the 3D modeling software generate tangents on export instead on relying on this option. Tangents are required for correct display of normal and height maps, along with any material/shader features that require tangents.
+Si ``true``, génère les tangentes aux sommets en utilisant `Mikktspace <http://www.mikktspace.com/>`__ si le maillage source n'a pas de données de tangentes. Lorsque c'est possible, il est recommandé de laisser le logiciel de modélisation 3D générer des tangentes lors de l'export au lieu de compter sur cette option. Les tangentes sont requises pour l'affichage correct des normal maps et des height maps, ainsi que pour toutes les fonctionnalités de matériau/shader qui nécessitent des tangentes.
 
-If you don't need material features that require tangents, disabling this can reduce output file size and speed up importing if the source 3D file doesn't contain tangents.
+Si vous n'avez pas besoin de fonctionnalités de matériau qui nécessitent des tangentes, désactiver cela peut réduire la taille du fichier de sortie et accélérer l'import si le fichier 3D source ne contient pas de tangentes.
 
 .. rst-class:: classref-item-separator
 
@@ -142,7 +142,7 @@ If you don't need material features that require tangents, disabling this can re
 
 :ref:`Vector3<class_Vector3>` **offset_mesh** = ``Vector3(0, 0, 0)`` :ref:`🔗<class_ResourceImporterOBJ_property_offset_mesh>`
 
-Offsets the mesh's data by the specified value. This can be used to work around misaligned meshes without having to modify the source file.
+Décale les données du maillage par la valeur spécifiée. Cela peut être utilisé pour contourner un problème de maillage désaligné sans avoir à modifier le fichier source.
 
 .. rst-class:: classref-item-separator
 
@@ -154,7 +154,7 @@ Offsets the mesh's data by the specified value. This can be used to work around 
 
 :ref:`Vector3<class_Vector3>` **scale_mesh** = ``Vector3(1, 1, 1)`` :ref:`🔗<class_ResourceImporterOBJ_property_scale_mesh>`
 
-Scales the mesh's data by the specified value. This can be used to work around misscaled meshes without having to modify the source file.
+Redimensionne les données du maillage par la valeur spécifiée. Cela peut être utilisé pour contourner un problème de maillage à mauvaise échelle sans avoir à modifier le fichier source.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

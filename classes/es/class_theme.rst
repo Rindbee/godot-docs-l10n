@@ -27,7 +27,7 @@ Tutoriales
 
 - :doc:`Skinning GUI <../tutorials/ui/gui_skinning>`
 
-- :doc:`Using the theme editor <../tutorials/ui/gui_using_theme_editor>`
+- :doc:`Usar el editor de temas <../tutorials/ui/gui_using_theme_editor>`
 
 .. rst-class:: classref-reftable-group
 
@@ -1167,7 +1167,7 @@ Esto añade ``theme_type`` como una opción sugerida para :ref:`Control.theme_ty
 
 Las variaciones también pueden anidarse, es decir, ``base_type`` puede ser otra variación. Si una cadena de variaciones termina con un ``base_type`` que coincide con la clase del :ref:`Control<class_Control>`, toda la cadena se va a sugerir como opciones.
 
-\ **Nota:** Las sugerencias solo aparecen si este recurso de tema está establecido como el tema predeterminado del proyecto. Consulta :ref:`ProjectSettings.gui/theme/custom<class_ProjectSettings_property_gui/theme/custom>`.
+\ **Nota:** Las sugerencias solo aparecen si este recurso de tema está establecido como el tema predeterminado del proyecto. Véase :ref:`ProjectSettings.gui/theme/custom<class_ProjectSettings_property_gui/theme/custom>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

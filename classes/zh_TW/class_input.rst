@@ -881,11 +881,11 @@ If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:
 
 :ref:`bool<class_bool>` **is_action_pressed**\ (\ action\: :ref:`StringName<class_StringName>`, exact_match\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Input_method_is_action_pressed>`
 
-如果給定的動作正被按下，則返回 ``true``\ （除非 ``allow_echo`` 為 ``true``\ ，否則不是 :ref:`InputEventKey<class_InputEventKey>` 事件中的回顯事件）。與 :ref:`InputEventMouseMotion<class_InputEventMouseMotion>` 或 :ref:`InputEventScreenDrag<class_InputEventScreenDrag>` 型別的事件無關。
+Returns ``true`` if you are pressing the action event.
 
-如果 ``exact_match`` 為 ``false``\ ，則它會忽略 :ref:`InputEventKey<class_InputEventKey>` 和 :ref:`InputEventMouseButton<class_InputEventMouseButton>` 事件的額外輸入修飾鍵，以及 :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` 事件的方向。
+If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:`InputEventKey<class_InputEventKey>` and :ref:`InputEventMouseButton<class_InputEventMouseButton>` events, and the direction for :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` events.
 
-\ **注意：**\ 由於鍵盤重影，\ :ref:`is_action_pressed()<class_Input_method_is_action_pressed>` 可能會返回 ``false``\ ，即使動作的某個鍵被按下時也是如此。有關詳細資訊，請參閱文檔中的 `《輸入範例》 <../tutorials/inputs/input_examples.html#keyboard-events>`__\ 。
+\ **Note:** Due to keyboard ghosting, :ref:`is_action_pressed()<class_Input_method_is_action_pressed>` may return ``false`` even if one of the action's keys is pressed. See `Input examples <../tutorials/inputs/input_examples.html#keyboard-events>`__ in the documentation for more information.
 
 .. rst-class:: classref-item-separator
 

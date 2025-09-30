@@ -1974,7 +1974,7 @@ Returns ``true`` if the ``region`` uses an async synchronization process that ru
 
 |void| **region_set_enabled**\ (\ region\: :ref:`RID<class_RID>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_NavigationServer2D_method_region_set_enabled>`
 
-如果 ``enabled`` 為 ``true``\ ，則指定的 ``agent`` 使用避障。
+如果 ``enabled`` 為 ``true``\ ，則指定的 ``region`` 使用避障。
 
 .. rst-class:: classref-item-separator
 

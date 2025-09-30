@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/LineEdit.xml.
+.. meta::
+	:keywords: text, input
 
 .. _class_LineEdit:
 
@@ -17,73 +17,73 @@ Un campo di input per testo su una sola riga.
 Descrizione
 ----------------------
 
-**LineEdit** provides an input field for editing a single line of text.
+**LineEdit** fornisce un campo di input per modificare una singola riga di testo.
 
-- When the **LineEdit** control is focused using the keyboard arrow keys, it will only gain focus and not enter edit mode.
+- Quando il controllo **LineEdit** è focalizzato usando i tasti freccia della tastiera, otterrà solo il focus e non entrerà in modalità di modifica.
 
-- To enter edit mode, click on the control with the mouse, see also :ref:`keep_editing_on_text_submit<class_LineEdit_property_keep_editing_on_text_submit>`.
+- Per entrare in modalità di modifica, clicca sul controllo con il mouse, vedi anche :ref:`keep_editing_on_text_submit<class_LineEdit_property_keep_editing_on_text_submit>`.
 
-- To exit edit mode, press ``ui_text_submit`` or ``ui_cancel`` (by default :kbd:`Escape`) actions.
+- Per uscire dalla modalità di modifica, premi ``ui_text_submit`` o ``ui_cancel`` (come predefinito le azioni con :kbd:`Escape`).
 
-- Check :ref:`edit()<class_LineEdit_method_edit>`, :ref:`unedit()<class_LineEdit_method_unedit>`, :ref:`is_editing()<class_LineEdit_method_is_editing>`, and :ref:`editing_toggled<class_LineEdit_signal_editing_toggled>` for more information.
+- Consulta :ref:`edit()<class_LineEdit_method_edit>`, :ref:`unedit()<class_LineEdit_method_unedit>`, :ref:`is_editing()<class_LineEdit_method_is_editing>` e :ref:`editing_toggled<class_LineEdit_signal_editing_toggled>` per maggiori informazioni.
 
-While entering text, it is possible to insert special characters using Unicode, OEM or Windows alt codes:
+Durante l'inserimento del testo, è possibile inserire caratteri speciali attraverso i codici alt Unicode, OEM o Windows:
 
-- To enter Unicode codepoints, hold :kbd:`Alt` and type the codepoint on the numpad. For example, to enter the character ``á`` (U+00E1), hold :kbd:`Alt` and type :kbd:`+E1` on the numpad (the leading zeroes can be omitted).
+- Per inserire codici Unicode, tenere premuto :kbd:`Alt` e digitare il codice sul tastierino numerico. Ad esempio, per inserire il carattere ``á`` (U+00E1), tenere premuto :kbd:`Alt` e digitare :kbd:`+E1` sul tastierino numerico (gli zeri iniziali si possono omettere).
 
-- To enter OEM codepoints, hold :kbd:`Alt` and type the code on the numpad. For example, to enter the character ``á`` (OEM 160), hold :kbd:`Alt` and type ``160`` on the numpad.
+- Per inserire codici OEM, tenere premuto :kbd:`Alt` e digitare il codice sul tastierino numerico. Ad esempio, per inserire il carattere ``á`` (OEM 160), tenere premuto :kbd:`Alt` e digitare ``160`` sul tastierino numerico.
 
-- To enter Windows codepoints, hold :kbd:`Alt` and type the code on the numpad. For example, to enter the character ``á`` (Windows 0225), hold :kbd:`Alt` and type :kbd:`0`, :kbd:`2`, :kbd:`2`, :kbd:`5` on the numpad. The leading zero here must **not** be omitted, as this is how Windows codepoints are distinguished from OEM codepoints.
+- Per inserire i codici Windows, tenere premuto :kbd:`Alt` e digitare il codice sul tastierino numerico. Ad esempio, per inserire il carattere ``á`` (Windows 0225), tenere premuto :kbd:`Alt` e digitare :kbd:`0`, :kbd:`2`, :kbd:`2`, :kbd:`5` sul tastierino numerico. Lo zero iniziale qui **non** si deve omettere, poiché è questo il modo in cui i codici di Windows si distinguono dai codici OEM.
 
-\ **Important:**\ 
+\ **Importante:**\ 
 
-- Focusing the **LineEdit** with ``ui_focus_next`` (by default :kbd:`Tab`) or ``ui_focus_prev`` (by default :kbd:`Shift + Tab`) or :ref:`Control.grab_focus()<class_Control_method_grab_focus>` still enters edit mode (for compatibility).
+- Ottenere il focus del **LineEdit** con ``ui_focus_next`` (predefinito su :kbd:`Tab`) o ``ui_focus_prev`` (predefinito su :kbd:`Maiusc + Tab`) o :ref:`Control.grab_focus()<class_Control_method_grab_focus>` attiva comunque la modalità di modifica (per compatibilità).
 
-\ **LineEdit** features many built-in shortcuts that are always available (:kbd:`Ctrl` here maps to :kbd:`Cmd` on macOS):
+\ **LineEdit** fornisce un campo di input per modificare una singola riga di testo. Include molte scorciatoie integrate che sono sempre disponibili (:kbd:`Ctrl` qui corrisponde a :kbd:`Cmd` su macOS):
 
-- :kbd:`Ctrl + C`: Copy
+- :kbd:`Ctrl + C`: copia
 
-- :kbd:`Ctrl + X`: Cut
+- :kbd:`Ctrl + X`: taglia
 
-- :kbd:`Ctrl + V` or :kbd:`Ctrl + Y`: Paste/"yank"
+- :kbd:`Ctrl + V` o :kbd:`Ctrl + Y`: incolla/"strappa"
 
-- :kbd:`Ctrl + Z`: Undo
+- :kbd:`Ctrl + Z`: annulla
 
-- :kbd:`Ctrl + ~`: Swap input direction.
+- :kbd:`Ctrl + ~`: inverti la direzione di input.
 
-- :kbd:`Ctrl + Shift + Z`: Redo
+- :kbd:`Ctrl + Maiusc + Z`: ripeti
 
-- :kbd:`Ctrl + U`: Delete text from the caret position to the beginning of the line
+- :kbd:`Ctrl + U`: elimina il testo dalla posizione del cursore all'inizio della riga
 
-- :kbd:`Ctrl + K`: Delete text from the caret position to the end of the line
+- :kbd:`Ctrl + K`: elimina il testo dalla posizione del cursore alla fine della riga
 
-- :kbd:`Ctrl + A`: Select all text
+- :kbd:`Ctrl + A`: seleziona tutto il testo
 
-- :kbd:`Up Arrow`/:kbd:`Down Arrow`: Move the caret to the beginning/end of the line
+- :kbd:`Freccia su`/:kbd:`Freccia giù`: sposta il cursore all'inizio/fine della riga
 
-On macOS, some extra keyboard shortcuts are available:
+Su macOS sono disponibili alcune scorciatoie da tastiera aggiuntive:
 
-- :kbd:`Cmd + F`: Same as :kbd:`Right Arrow`, move the caret one character right
+- :kbd:`Cmd + F`: uguale a :kbd:`Freccia destra`, sposta il cursore di un carattere a destra
 
-- :kbd:`Cmd + B`: Same as :kbd:`Left Arrow`, move the caret one character left
+- :kbd:`Cmd + B`: uguale a :kbd:`Freccia sinistra`, sposta il cursore di un carattere a sinistra
 
-- :kbd:`Cmd + P`: Same as :kbd:`Up Arrow`, move the caret to the previous line
+- :kbd:`Cmd + P`: uguale a :kbd:`Freccia su`, sposta il cursore alla riga precedente
 
-- :kbd:`Cmd + N`: Same as :kbd:`Down Arrow`, move the caret to the next line
+- :kbd:`Cmd + N`: uguale a :kbd:`Freccia giù`, sposta il cursore alla riga successiva
 
-- :kbd:`Cmd + D`: Same as :kbd:`Delete`, delete the character on the right side of caret
+- :kbd:`Cmd + D`: uguale a :kbd:`Elimina`, elimina il carattere sul lato destro del cursore
 
-- :kbd:`Cmd + H`: Same as :kbd:`Backspace`, delete the character on the left side of the caret
+- :kbd:`Cmd + H`: uguale a :kbd:`Backspace`, elimina il carattere sul lato sinistro del cursore
 
-- :kbd:`Cmd + A`: Same as :kbd:`Home`, move the caret to the beginning of the line
+- :kbd:`Cmd + A`: uguale a :kbd:`Home`, sposta il cursore all'inizio della riga
 
-- :kbd:`Cmd + E`: Same as :kbd:`End`, move the caret to the end of the line
+- :kbd:`Cmd + E`: uguale a :kbd:`End`, sposta il cursore alla fine della riga
 
-- :kbd:`Cmd + Left Arrow`: Same as :kbd:`Home`, move the caret to the beginning of the line
+- :kbd:`Cmd + Freccia sinistra`: uguale a :kbd:`Home`, sposta il cursore all'inizio della riga
 
-- :kbd:`Cmd + Right Arrow`: Same as :kbd:`End`, move the caret to the end of the line
+- :kbd:`Cmd + Freccia destra`: uguale a :kbd:`End`, sposta il cursore alla fine della riga
 
-\ **Note:** Caret movement shortcuts listed above are not affected by :ref:`shortcut_keys_enabled<class_LineEdit_property_shortcut_keys_enabled>`.
+\ **Nota:** Le scorciatoie per il movimento del cursore elencate sopra non sono influenzate da :ref:`shortcut_keys_enabled<class_LineEdit_property_shortcut_keys_enabled>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -712,7 +712,7 @@ Allineamento del testo come definito nell'enumerazione :ref:`HorizontalAlignment
 - |void| **set_backspace_deletes_composite_character_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_backspace_deletes_composite_character_enabled**\ (\ )
 
-If ``true`` and :ref:`caret_mid_grapheme<class_LineEdit_property_caret_mid_grapheme>` is ``false``, backspace deletes an entire composite character such as ❤️‍🩹, instead of deleting part of the composite character.
+Se ``true`` e :ref:`caret_mid_grapheme<class_LineEdit_property_caret_mid_grapheme>` è ``false``, il tasto backspace elimina un intero carattere composto, ad esempio ❤️‍🩹, anziché eliminare parte del carattere composto.
 
 .. rst-class:: classref-item-separator
 
@@ -1003,11 +1003,11 @@ Codice lingua utilizzato per gli algoritmi di interruzione di riga e di formazio
 - |void| **set_max_length**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_max_length**\ (\ )
 
-Maximum number of characters that can be entered inside the **LineEdit**. If ``0``, there is no limit.
+Numero massimo di caratteri che è possibile inserire nel **LineEdit**. Se ``0``, non c'è limite.
 
-When a limit is defined, characters that would exceed :ref:`max_length<class_LineEdit_property_max_length>` are truncated. This happens both for existing :ref:`text<class_LineEdit_property_text>` contents when setting the max length, or for new text inserted in the **LineEdit**, including pasting.
+Quando è definito un limite, i caratteri che supererebbero :ref:`max_length<class_LineEdit_property_max_length>` vengono troncati. Ciò accade sia per il contenuto di :ref:`text<class_LineEdit_property_text>` esistente quando si imposta la lunghezza massima, sia per nuovo testo inserito nel **LineEdit**, anche tramite copia-incolla.
 
-If any input text is truncated, the :ref:`text_change_rejected<class_LineEdit_signal_text_change_rejected>` signal is emitted with the truncated substring as a parameter:
+Se del testo inserito viene troncato, il segnale :ref:`text_change_rejected<class_LineEdit_signal_text_change_rejected>` viene emesso con la sottostringa troncata come parametro.
 
 
 .. tabs::
@@ -1016,21 +1016,21 @@ If any input text is truncated, the :ref:`text_change_rejected<class_LineEdit_si
 
     text = "Hello world"
     max_length = 5
-    # `text` becomes "Hello".
+    # `text` diventa "Hello".
     max_length = 10
     text += " goodbye"
-    # `text` becomes "Hello good".
-    # `text_change_rejected` is emitted with "bye" as a parameter.
+    # `text` diventa "Hello good".
+    # `text_change_rejected` viene emesso con "bye" come parametro.
 
  .. code-tab:: csharp
 
     Text = "Hello world";
     MaxLength = 5;
-    // `Text` becomes "Hello".
+    // `Text` diventa "Hello".
     MaxLength = 10;
     Text += " goodbye";
-    // `Text` becomes "Hello good".
-    // `text_change_rejected` is emitted with "bye" as a parameter.
+    // `Text` diventa "Hello good".
+    // `text_change_rejected` viene emesso con "bye" come parametro.
 
 
 
@@ -1257,7 +1257,7 @@ Direzione di scrittura del testo di base.
 - |void| **set_virtual_keyboard_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_virtual_keyboard_enabled**\ (\ )
 
-If ``true``, the native virtual keyboard is enabled on platforms that support it.
+Se ``true``, la tastiera virtuale nativa è abilitata sulle piattaforme che la supportano.
 
 .. rst-class:: classref-item-separator
 
@@ -1274,7 +1274,7 @@ If ``true``, the native virtual keyboard is enabled on platforms that support it
 - |void| **set_virtual_keyboard_show_on_focus**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_virtual_keyboard_show_on_focus**\ (\ )
 
-If ``true``, the native virtual keyboard is shown on focus events on platforms that support it.
+Se ``true``, la tastiera virtuale nativa è mostrata dopo eventi di focus sulle piattaforme che la supportano.
 
 .. rst-class:: classref-item-separator
 
@@ -1453,9 +1453,9 @@ Restituisce il :ref:`PopupMenu<class_PopupMenu>` di questo **LineEdit**. Per imp
 
 :ref:`int<class_int>` **get_next_composite_character_column**\ (\ column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_LineEdit_method_get_next_composite_character_column>`
 
-Returns the correct column at the end of a composite character like ❤️‍🩹 (mending heart; Unicode: ``U+2764 U+FE0F U+200D U+1FA79``) which is comprised of more than one Unicode code point, if the caret is at the start of the composite character. Also returns the correct column with the caret at mid grapheme and for non-composite characters.
+Restituisce la colonna corretta alla fine di un carattere composto come ❤️‍🩹 (cuore guarito; Unicode: ``U+2764 U+FE0F U+200D U+1FA79``) che è composto da più di un punto di codice Unicode, se il cursore si trova all'inizio del carattere composto. Restituisce anche la colonna corretta con il cursore a metà grafema e per i caratteri non composti.
 
-\ **Note:** To check at caret location use ``get_next_composite_character_column(get_caret_column())``
+\ **Nota:** Per verificare la posizione del cursore, utilizza ``get_next_composite_character_column(get_caret_column())``
 
 .. rst-class:: classref-item-separator
 
@@ -1467,9 +1467,9 @@ Returns the correct column at the end of a composite character like ❤️‍�
 
 :ref:`int<class_int>` **get_previous_composite_character_column**\ (\ column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_LineEdit_method_get_previous_composite_character_column>`
 
-Returns the correct column at the start of a composite character like ❤️‍🩹 (mending heart; Unicode: ``U+2764 U+FE0F U+200D U+1FA79``) which is comprised of more than one Unicode code point, if the caret is at the end of the composite character. Also returns the correct column with the caret at mid grapheme and for non-composite characters.
+Restituisce la colonna corretta all'inizio di un carattere composto come ❤️‍🩹 (cuore guarito; Unicode: ``U+2764 U+FE0F U+200D U+1FA79``) che è composto da più di un punto di codice Unicode, se il cursore si trova alla fine del carattere composto. Restituisce anche la colonna corretta con il cursore a metà grafema e per i caratteri non composti.
 
-\ **Note:** To check at caret location use ``get_previous_composite_character_column(get_caret_column())``
+\ **Nota:** Per verificare la posizione del cursore, utilizza ``get_previous_composite_character_column(get_caret_column())``
 
 .. rst-class:: classref-item-separator
 

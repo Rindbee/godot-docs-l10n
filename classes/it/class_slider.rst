@@ -122,7 +122,7 @@ enum **TickPosition**: :ref:`🔗<enum_Slider_TickPosition>`
 
 :ref:`TickPosition<enum_Slider_TickPosition>` **TICK_POSITION_BOTTOM_RIGHT** = ``0``
 
-Places the ticks at the bottom of the :ref:`HSlider<class_HSlider>`, or right of the :ref:`VSlider<class_VSlider>`.
+Posiziona le tacche in basso lo :ref:`HSlider<class_HSlider>` o a destra del :ref:`VSlider<class_VSlider>`.
 
 .. _class_Slider_constant_TICK_POSITION_TOP_LEFT:
 
@@ -130,7 +130,7 @@ Places the ticks at the bottom of the :ref:`HSlider<class_HSlider>`, or right of
 
 :ref:`TickPosition<enum_Slider_TickPosition>` **TICK_POSITION_TOP_LEFT** = ``1``
 
-Places the ticks at the top of the :ref:`HSlider<class_HSlider>`, or left of the :ref:`VSlider<class_VSlider>`.
+Posiziona le tacche in alto lo :ref:`HSlider<class_HSlider>` o a sinistra del :ref:`VSlider<class_VSlider>`.
 
 .. _class_Slider_constant_TICK_POSITION_BOTH:
 
@@ -138,7 +138,7 @@ Places the ticks at the top of the :ref:`HSlider<class_HSlider>`, or left of the
 
 :ref:`TickPosition<enum_Slider_TickPosition>` **TICK_POSITION_BOTH** = ``2``
 
-Places the ticks at the both sides of the slider.
+Posiziona le tacche su entrambi i lati dello slider.
 
 .. _class_Slider_constant_TICK_POSITION_CENTER:
 
@@ -146,7 +146,7 @@ Places the ticks at the both sides of the slider.
 
 :ref:`TickPosition<enum_Slider_TickPosition>` **TICK_POSITION_CENTER** = ``3``
 
-Places the ticks at the center of the slider.
+Posiziona le tacche al centro dello slider.
 
 .. rst-class:: classref-section-separator
 
@@ -236,7 +236,7 @@ Se ``true``, lo slider visualizzerà delle tacche per i valori minimo e massimo.
 - |void| **set_ticks_position**\ (\ value\: :ref:`TickPosition<enum_Slider_TickPosition>`\ )
 - :ref:`TickPosition<enum_Slider_TickPosition>` **get_ticks_position**\ (\ )
 
-Sets the position of the ticks. See :ref:`TickPosition<enum_Slider_TickPosition>` for details.
+Imposta la posizione delle tacche. Vedi :ref:`TickPosition<enum_Slider_TickPosition>` per i dettagli.
 
 .. rst-class:: classref-section-separator
 
@@ -277,7 +277,7 @@ Offset verticale o orizzontale del grabber.
 
 :ref:`int<class_int>` **tick_offset** = ``0`` :ref:`🔗<class_Slider_theme_constant_tick_offset>`
 
-Vertical or horizontal offset of the ticks. The offset is reversed for top or left ticks.
+Scostamento verticale o orizzontale delle tacche. Lo scostamento è invertito per le tacche superiori o sinistre.
 
 .. rst-class:: classref-item-separator
 

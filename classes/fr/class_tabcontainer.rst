@@ -272,7 +272,7 @@ Signaux
 
 **tab_selected**\ (\ tab\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TabContainer_signal_tab_selected>`
 
-Emitted when a tab is selected via click, directional input, or script, even if it is the current tab.
+Émis lorsqu'un onglet est sélectionné par un clic, une entrée directionnelle ou un script, même s'il s'agit de l'onglet actuel.
 
 .. rst-class:: classref-section-separator
 
@@ -350,7 +350,7 @@ Si ``true``, tous les onglets sont dessinés devant le panneau. Si ``false``, le
 - |void| **set_clip_tabs**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_clip_tabs**\ (\ )
 
-If ``true``, tabs overflowing this node's width will be hidden, displaying two navigation buttons instead. Otherwise, this node's minimum size is updated so that all tabs are visible.
+Si ``true``, les onglets débordant de la largeur de ce nœud seront cachés, affichant deux boutons de navigation à la place. Sinon, la taille minimale de ce nœud est mise à jour de sorte que tous les onglets soient visibles.
 
 .. rst-class:: classref-item-separator
 
@@ -422,7 +422,7 @@ Si ``true``, les onglets peuvent être réarrangés avec par déposé-glissé.
 - |void| **set_tab_alignment**\ (\ value\: :ref:`AlignmentMode<enum_TabBar_AlignmentMode>`\ )
 - :ref:`AlignmentMode<enum_TabBar_AlignmentMode>` **get_tab_alignment**\ (\ )
 
-The position at which tabs will be placed.
+La position à laquelle les onglets seront placés.
 
 .. rst-class:: classref-item-separator
 
@@ -626,7 +626,7 @@ Renvoie la :ref:`Texture2D<class_Texture2D>` pour l'onglet à l'index ``tab_idx`
 
 :ref:`int<class_int>` **get_tab_icon_max_width**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabContainer_method_get_tab_icon_max_width>`
 
-Returns the maximum allowed width of the icon for the tab at index ``tab_idx``.
+Renvoie la largeur maximale autorisée de l'icône pour l'onglet à l'index ``tab_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -662,7 +662,7 @@ Returns the index of the tab tied to the given ``control``. The control must be 
 
 :ref:`Variant<class_Variant>` **get_tab_metadata**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabContainer_method_get_tab_metadata>`
 
-Returns the metadata value set to the tab at index ``tab_idx`` using :ref:`set_tab_metadata()<class_TabContainer_method_set_tab_metadata>`. If no metadata was previously set, returns ``null`` by default.
+Renvoie la valeur des métadonnées définies dans l'onglet à l'index ``tab_idx`` en utilisant :ref:`set_tab_metadata()<class_TabContainer_method_set_tab_metadata>`. Si aucune métadonnée n'a été précédemment définie, renvoie ``null`` par défaut.
 
 .. rst-class:: classref-item-separator
 
@@ -782,7 +782,7 @@ Si ``disabled`` est ``true``, désactive l'onglet à l'index ``tab_idx``, le ren
 
 |void| **set_tab_hidden**\ (\ tab_idx\: :ref:`int<class_int>`, hidden\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_TabContainer_method_set_tab_hidden>`
 
-If ``hidden`` is ``true``, hides the tab at index ``tab_idx``, making it disappear from the tab area.
+Si ``hidden`` vaut ``true``, cache l'onglet à l'index ``tab_idx``, le faisait disparaître de la zone des onglets.
 
 .. rst-class:: classref-item-separator
 
@@ -806,7 +806,7 @@ Définit une icône pour l'onglet à la position ``tab_idx``.
 
 |void| **set_tab_icon_max_width**\ (\ tab_idx\: :ref:`int<class_int>`, width\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TabContainer_method_set_tab_icon_max_width>`
 
-Sets the maximum allowed width of the icon for the tab at index ``tab_idx``. This limit is applied on top of the default size of the icon and on top of :ref:`icon_max_width<class_TabContainer_theme_constant_icon_max_width>`. The height is adjusted according to the icon's ratio.
+Définit la largeur maximale autorisée de l'icône pour l'onglet à l'index ``tab_idx``. Cette limite est appliquée en plus de la taille par défaut de l'icône et en plus de :ref:`icon_max_width<class_TabContainer_theme_constant_icon_max_width>`. La hauteur est ajustée selon le ratio de l'icône.
 
 .. rst-class:: classref-item-separator
 
@@ -818,7 +818,7 @@ Sets the maximum allowed width of the icon for the tab at index ``tab_idx``. Thi
 
 |void| **set_tab_metadata**\ (\ tab_idx\: :ref:`int<class_int>`, metadata\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_TabContainer_method_set_tab_metadata>`
 
-Sets the metadata value for the tab at index ``tab_idx``, which can be retrieved later using :ref:`get_tab_metadata()<class_TabContainer_method_get_tab_metadata>`.
+Définit la valeur des métadonnées pour l'onglet à l'index ``tab_idx``, qui peuvent être récupérées plus tard en utilisant :ref:`get_tab_metadata()<class_TabContainer_method_get_tab_metadata>`.
 
 .. rst-class:: classref-item-separator
 
@@ -897,7 +897,7 @@ Font color of the currently hovered tab.
 
 :ref:`Color<class_Color>` **font_outline_color** = ``Color(0, 0, 0, 1)`` :ref:`🔗<class_TabContainer_theme_color_font_outline_color>`
 
-The tint of text outline of the tab name.
+La teinte du contour du texte du nom de l'onglet.
 
 .. rst-class:: classref-item-separator
 
@@ -957,9 +957,9 @@ Space between tab's name and its icon.
 
 :ref:`int<class_int>` **outline_size** = ``0`` :ref:`🔗<class_TabContainer_theme_constant_outline_size>`
 
-The size of the tab text outline.
+La taille du contour du texte de l'onglet.
 
-\ **Note:** If using a font with :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` enabled, its :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` must be set to at least *twice* the value of :ref:`outline_size<class_TabContainer_theme_constant_outline_size>` for outline rendering to look correct. Otherwise, the outline may appear to be cut off earlier than intended.
+\ **Note :** Lors de l'utilisation d'une police avec :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` activé, son :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` doit être défini à au moins *deux fois* la valeur de :ref:`outline_size<class_TabContainer_theme_constant_outline_size>` pour que le rendu puisse être correct. Sinon, le contour peut sembler être coupé plus tôt que prévu.
 
 .. rst-class:: classref-item-separator
 
@@ -985,7 +985,7 @@ The margin is ignored with :ref:`TabBar.ALIGNMENT_RIGHT<class_TabBar_constant_AL
 
 :ref:`int<class_int>` **tab_separation** = ``0`` :ref:`🔗<class_TabContainer_theme_constant_tab_separation>`
 
-The space between tabs in the tab bar.
+L'espace entre les onglets dans la barre d'onglets.
 
 .. rst-class:: classref-item-separator
 
@@ -1129,7 +1129,7 @@ Le style des onglets désactivés.
 
 :ref:`StyleBox<class_StyleBox>` **tab_focus** :ref:`🔗<class_TabContainer_theme_style_tab_focus>`
 
-:ref:`StyleBox<class_StyleBox>` used when the :ref:`TabBar<class_TabBar>` is focused. The :ref:`tab_focus<class_TabContainer_theme_style_tab_focus>` :ref:`StyleBox<class_StyleBox>` is displayed *over* the base :ref:`StyleBox<class_StyleBox>` of the selected tab, so a partially transparent :ref:`StyleBox<class_StyleBox>` should be used to ensure the base :ref:`StyleBox<class_StyleBox>` remains visible. A :ref:`StyleBox<class_StyleBox>` that represents an outline or an underline works well for this purpose. To disable the focus visual effect, assign a :ref:`StyleBoxEmpty<class_StyleBoxEmpty>` resource. Note that disabling the focus visual effect will harm keyboard/controller navigation usability, so this is not recommended for accessibility reasons.
+:ref:`StyleBox<class_StyleBox>` utilisé lorsque le :ref:`TabBar<class_TabBar>` a le focus. La :ref:`StyleBox<class_StyleBox>` :ref:`tab_focus<class_TabContainer_theme_style_tab_focus>` est affichée *par-dessus* la :ref:`StyleBox<class_StyleBox>` de base de l'onglet sélectionné, ainsi une :ref:`StyleBox<class_StyleBox>` partiellement transparente devrait être utilisée pour s'assurer que la :ref:`StyleBox<class_StyleBox>` de base reste visible. Une :ref:`StyleBox<class_StyleBox>` qui représente un contour ou un soulignement fonctionne bien à cette fin. Pour désactiver l'effet visuel du focus, assignez une ressource :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`. Notez que la désactivation de l'effet visuel du focus va nuire à l'utilisabilité de la navigation clavier/contrôleur, ce qui n'est donc pas recommandé pour des raisons d'accessibilité.
 
 .. rst-class:: classref-item-separator
 
@@ -1167,7 +1167,7 @@ Le style de l'onglet actuellement sélectionné.
 
 :ref:`StyleBox<class_StyleBox>` **tab_unselected** :ref:`🔗<class_TabContainer_theme_style_tab_unselected>`
 
-The style of the other, unselected tabs.
+Le style des autres onglets, non sélectionnés.
 
 .. rst-class:: classref-item-separator
 

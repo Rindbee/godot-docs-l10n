@@ -1451,7 +1451,7 @@ Remplace toutes les occurrences de la chaîne ``what`` dans la chaîne courante 
 
 :ref:`String<class_String>` **replace_char**\ (\ key\: :ref:`int<class_int>`, with\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_StringName_method_replace_char>`
 
-Replaces all occurrences of the Unicode character with code ``key`` with the Unicode character with code ``with``. Faster version of :ref:`replace()<class_StringName_method_replace>` when the key is only one character long. To get a single character use ``"X".unicode_at(0)`` (note that some strings, like compound letters and emoji, can be composed of multiple unicode codepoints, and will not work with this method, use :ref:`length()<class_StringName_method_length>` to make sure).
+Remplace toutes les occurrences du caractère Unicode avec le code ``key`` par le caractère Unicode avec le code ``with``. Version plus rapide de :ref:`replace()<class_StringName_method_replace>` lorsque la clé est composée seulement d'un caractère. Pour obtenir un seul caractère, utilisez ``"X".unicode_at(0)`` (notez que certaines chaînes, comme les lettres composés et les émojis, peuvent être composées de plusieurs codes unicode, et ne fonctionneront pas avec cette méthode, utilisez :ref:`length()<class_StringName_method_length>` pour vous en assurer).
 
 .. rst-class:: classref-item-separator
 
@@ -2034,9 +2034,9 @@ Supprime le suffixe ``suffix`` donné depuis la fin de la chaîne, ou renvoie la
 
 :ref:`int<class_int>` **unicode_at**\ (\ at\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_StringName_method_unicode_at>`
 
-Returns the character code at position ``at``.
+Renvoie le code du caractère à la position ``at``.
 
-See also :ref:`String.chr()<class_String_method_chr>`, :ref:`@GDScript.char()<class_@GDScript_method_char>`, and :ref:`@GDScript.ord()<class_@GDScript_method_ord>`.
+Voir aussi :ref:`String.chr()<class_String_method_chr>`, :ref:`@GDScript.char()<class_@GDScript_method_char>`, et :ref:`@GDScript.ord()<class_@GDScript_method_ord>`.
 
 .. rst-class:: classref-item-separator
 

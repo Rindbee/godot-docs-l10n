@@ -260,7 +260,7 @@ If ``disable`` is ``true``, disables the class specified by ``class_name``. When
 
 |void| **set_disable_class_editor**\ (\ class_name\: :ref:`StringName<class_StringName>`, disable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_EditorFeatureProfile_method_set_disable_class_editor>`
 
-If ``disable`` is ``true``, disables editing for the class specified by ``class_name``. When disabled, the class will still appear in the Create New Node dialog but the Inspector will be read-only when selecting a node that extends the class.
+Si ``disable`` vaut ``true``, désactive l'édition de la classe nommée ``class_name``. Lorsqu'elle est désactivée, la classe apparaîtra toujours dans la fenêtre "Créer un nouveau nœud", mais l'inspecteur sera en lecture-seule lors de la sélection d'un nœud qui étend cette classe.
 
 .. rst-class:: classref-item-separator
 
@@ -272,7 +272,7 @@ If ``disable`` is ``true``, disables editing for the class specified by ``class_
 
 |void| **set_disable_class_property**\ (\ class_name\: :ref:`StringName<class_StringName>`, property\: :ref:`StringName<class_StringName>`, disable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_EditorFeatureProfile_method_set_disable_class_property>`
 
-If ``disable`` is ``true``, disables editing for ``property`` in the class specified by ``class_name``. When a property is disabled, it won't appear in the Inspector when selecting a node that extends the class specified by ``class_name``.
+Si ``disable`` vaut ``true``, désactive l'édition de la ``property`` dans la classe nommée ``class_name``. Lorsqu'une propriété est désactivée, elle n'apparaît plus dans l'inspecteur lors de la sélection d'un nœud qui étend la classe spécifiée par ``class_name``.
 
 .. rst-class:: classref-item-separator
 
@@ -284,7 +284,7 @@ If ``disable`` is ``true``, disables editing for ``property`` in the class speci
 
 |void| **set_disable_feature**\ (\ feature\: :ref:`Feature<enum_EditorFeatureProfile_Feature>`, disable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_EditorFeatureProfile_method_set_disable_feature>`
 
-If ``disable`` is ``true``, disables the editor feature specified in ``feature``. When a feature is disabled, it will disappear from the editor entirely.
+Si ``disable`` vaut ``true``, désactive la fonctionnalité d'éditeur spécifiée dans ``feature``. Lorsqu'une fonctionnalité est désactivée, elle disparaîtra entièrement de l'éditeur.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

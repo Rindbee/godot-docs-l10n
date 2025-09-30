@@ -2191,7 +2191,7 @@ enum **LightParam**: :ref:`🔗<enum_RenderingServer_LightParam>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2645,7 +2645,7 @@ enum **ParticlesTransformAlign**: :ref:`🔗<enum_RenderingServer_ParticlesTrans
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2657,7 +2657,7 @@ enum **ParticlesTransformAlign**: :ref:`🔗<enum_RenderingServer_ParticlesTrans
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2669,7 +2669,7 @@ enum **ParticlesTransformAlign**: :ref:`🔗<enum_RenderingServer_ParticlesTrans
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2681,7 +2681,7 @@ enum **ParticlesTransformAlign**: :ref:`🔗<enum_RenderingServer_ParticlesTrans
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2745,7 +2745,7 @@ enum **ParticlesCollisionType**: :ref:`🔗<enum_RenderingServer_ParticlesCollis
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2757,7 +2757,7 @@ enum **ParticlesCollisionType**: :ref:`🔗<enum_RenderingServer_ParticlesCollis
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2769,7 +2769,7 @@ enum **ParticlesCollisionType**: :ref:`🔗<enum_RenderingServer_ParticlesCollis
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2781,7 +2781,7 @@ enum **ParticlesCollisionType**: :ref:`🔗<enum_RenderingServer_ParticlesCollis
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2793,7 +2793,7 @@ enum **ParticlesCollisionType**: :ref:`🔗<enum_RenderingServer_ParticlesCollis
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2805,7 +2805,7 @@ enum **ParticlesCollisionType**: :ref:`🔗<enum_RenderingServer_ParticlesCollis
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2817,7 +2817,7 @@ enum **ParticlesCollisionType**: :ref:`🔗<enum_RenderingServer_ParticlesCollis
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2839,7 +2839,7 @@ enum **ParticlesCollisionHeightfieldResolution**: :ref:`🔗<enum_RenderingServe
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2851,7 +2851,7 @@ enum **ParticlesCollisionHeightfieldResolution**: :ref:`🔗<enum_RenderingServe
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2863,7 +2863,7 @@ enum **ParticlesCollisionHeightfieldResolution**: :ref:`🔗<enum_RenderingServe
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2875,7 +2875,7 @@ enum **ParticlesCollisionHeightfieldResolution**: :ref:`🔗<enum_RenderingServe
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2887,7 +2887,7 @@ enum **ParticlesCollisionHeightfieldResolution**: :ref:`🔗<enum_RenderingServe
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -2899,7 +2899,7 @@ enum **ParticlesCollisionHeightfieldResolution**: :ref:`🔗<enum_RenderingServe
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -4027,7 +4027,7 @@ enum **CompositorEffectCallbackType**: :ref:`🔗<enum_RenderingServer_Composito
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -5337,7 +5337,7 @@ enum **CanvasGroupMode**: :ref:`🔗<enum_RenderingServer_CanvasGroupMode>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -6036,7 +6036,7 @@ enum **Features**: :ref:`🔗<enum_RenderingServer_Features>`
 
 .. container:: contribute
 
-	该常量目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this constant. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -6048,7 +6048,7 @@ enum **Features**: :ref:`🔗<enum_RenderingServer_Features>`
 
 .. container:: contribute
 
-	该常量目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this constant. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -6060,7 +6060,7 @@ enum **Features**: :ref:`🔗<enum_RenderingServer_Features>`
 
 .. container:: contribute
 
-	该常量目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this constant. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -6072,7 +6072,7 @@ enum **Features**: :ref:`🔗<enum_RenderingServer_Features>`
 
 .. container:: contribute
 
-	该常量目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this constant. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -6084,7 +6084,7 @@ enum **Features**: :ref:`🔗<enum_RenderingServer_Features>`
 
 .. container:: contribute
 
-	该常量目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this constant. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -7083,7 +7083,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -7467,7 +7467,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -8177,7 +8177,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9311,7 +9311,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9325,7 +9325,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9339,7 +9339,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9353,7 +9353,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9379,7 +9379,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9393,7 +9393,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9407,7 +9407,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9421,7 +9421,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9547,7 +9547,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9561,7 +9561,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9605,7 +9605,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9655,7 +9655,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9705,7 +9705,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9851,7 +9851,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9877,7 +9877,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9891,7 +9891,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -9905,7 +9905,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -10593,7 +10593,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -10739,7 +10739,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -10839,7 +10839,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -10853,7 +10853,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -10879,7 +10879,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -11345,7 +11345,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -11433,7 +11433,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -11757,7 +11757,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -11835,7 +11835,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -11849,7 +11849,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -11863,7 +11863,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -12596,7 +12596,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -12610,7 +12610,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -12624,7 +12624,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -12654,7 +12654,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -12668,7 +12668,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -12682,7 +12682,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -12696,7 +12696,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -12710,7 +12710,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -12724,7 +12724,7 @@ RID 使用结束后，应该使用 RenderingServer 的 :ref:`free_rid()<class_Re
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 

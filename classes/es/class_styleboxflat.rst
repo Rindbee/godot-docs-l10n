@@ -156,9 +156,9 @@ Antialiasing draws a small ring around the edges, which fades to transparency. A
 - |void| **set_aa_size**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_aa_size**\ (\ )
 
-This changes the size of the antialiasing effect. ``1.0`` is recommended for an optimal result at 100% scale, identical to how rounded rectangles are rendered in web browsers and most vector drawing software.
+Esto cambia el tamaño del efecto de antialiasing. Se recomienda ``1.0`` para un resultado óptimo a escala 100%, idéntico a como se renderizan los rectángulos redondeados en los navegadores web y en la mayoría de los programas de dibujo vectorial.
 
-\ **Note:** Higher values may produce a blur effect but can also create undesired artifacts on small boxes with large-radius corners.
+\ **Nota:** Los valores más altos pueden producir un efecto de desenfoque, pero también pueden crear artefactos no deseados en cajas pequeñas con esquinas de gran radio.
 
 .. rst-class:: classref-item-separator
 
@@ -606,7 +606,7 @@ Establece el ancho del borde del :ref:`Side<enum_@GlobalScope_Side>` especificad
 
 |void| **set_border_width_all**\ (\ width\: :ref:`int<class_int>`\ ) :ref:`🔗<class_StyleBoxFlat_method_set_border_width_all>`
 
-Sets the border width to ``width`` pixels for all sides.
+Establece el ancho del borde a ``width`` píxeles para todos los lados.
 
 .. rst-class:: classref-item-separator
 
@@ -618,7 +618,7 @@ Sets the border width to ``width`` pixels for all sides.
 
 |void| **set_corner_radius**\ (\ corner\: :ref:`Corner<enum_@GlobalScope_Corner>`, radius\: :ref:`int<class_int>`\ ) :ref:`🔗<class_StyleBoxFlat_method_set_corner_radius>`
 
-Sets the corner radius to ``radius`` pixels for the given ``corner``.
+Establece el radio de la esquina a ``radius`` píxeles para la ``corner`` dada.
 
 .. rst-class:: classref-item-separator
 
@@ -630,7 +630,7 @@ Sets the corner radius to ``radius`` pixels for the given ``corner``.
 
 |void| **set_corner_radius_all**\ (\ radius\: :ref:`int<class_int>`\ ) :ref:`🔗<class_StyleBoxFlat_method_set_corner_radius_all>`
 
-Sets the corner radius to ``radius`` pixels for all corners.
+Establece el radio de la esquina a ``radius`` píxeles para todas las esquinas.
 
 .. rst-class:: classref-item-separator
 
@@ -642,7 +642,7 @@ Sets the corner radius to ``radius`` pixels for all corners.
 
 |void| **set_expand_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, size\: :ref:`float<class_float>`\ ) :ref:`🔗<class_StyleBoxFlat_method_set_expand_margin>`
 
-Sets the expand margin to ``size`` pixels for the specified :ref:`Side<enum_@GlobalScope_Side>`.
+Establece el margen de expansión a ``size`` píxeles para el :ref:`Side<enum_@GlobalScope_Side>` especificado.
 
 .. rst-class:: classref-item-separator
 
@@ -654,7 +654,7 @@ Sets the expand margin to ``size`` pixels for the specified :ref:`Side<enum_@Glo
 
 |void| **set_expand_margin_all**\ (\ size\: :ref:`float<class_float>`\ ) :ref:`🔗<class_StyleBoxFlat_method_set_expand_margin_all>`
 
-Sets the expand margin to ``size`` pixels for all sides.
+Establece el margen de expansión a ``size`` píxeles para todos los lados.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

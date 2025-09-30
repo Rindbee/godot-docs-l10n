@@ -16,7 +16,7 @@ Base class for the Apple embedded platform exporters (iOS and visionOS).
 Descrizione
 ----------------------
 
-The base class for Apple embedded platform exporters. These include iOS and visionOS, but not macOS. See the classes inheriting from this one for more details.
+La classe di base per gli esportatori di Apple embedded platform. Questi includono iOS e visionOS, ma non macOS. Vedi le classi che la ereditano per ulteriori dettagli.
 
 .. rst-class:: classref-introduction-group
 

@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/DirectionalLight2D.xml.
+.. meta::
+	:keywords: sun
 
 .. _class_DirectionalLight2D:
 
@@ -17,11 +17,11 @@ Luce direzionale 2D a distanza.
 Descrizione
 ----------------------
 
-A directional light is a type of :ref:`Light2D<class_Light2D>` node that models an infinite number of parallel rays covering the entire scene. It is used for lights with strong intensity that are located far away from the scene (for example: to model sunlight or moonlight).
+Una luce direzionale è un tipo di nodo :ref:`Light2D<class_Light2D>` che modella un numero infinito di raggi paralleli che coprono l'intera scena. È utilizzato per luci con forte intensità che si trovano lontano dalla scena (ad esempio: per modellare la luce solare o la luce lunare).
 
-Light is emitted in the +Y direction of the node's global basis. For an unrotated light, this means that the light is emitted downwards. The position of the node is ignored; only the basis is used to determine light direction.
+La luce è emessa nella direzione +Y della base globale del nodo. Per una luce non ruotata, ciò significa che la luce è emessa verso il basso. La posizione del nodo è ignorata; solo la base è utilizzata per determinare la direzione della luce.
 
-\ **Note:** **DirectionalLight2D** does not support light cull masks (but it supports shadow cull masks). It will always light up 2D nodes, regardless of the 2D node's :ref:`CanvasItem.light_mask<class_CanvasItem_property_light_mask>`.
+\ **Nota:** **DirectionalLight2D** non supporta maschere di culling della luce (ma supporta maschere di culling dell'ombra). Illuminerà sempre i nodi 2D, indipendentemente dalla :ref:`CanvasItem.light_mask<class_CanvasItem_property_light_mask>` del nodo 2D.
 
 .. rst-class:: classref-introduction-group
 

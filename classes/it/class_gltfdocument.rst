@@ -142,7 +142,7 @@ enum **VisibilityMode**: :ref:`🔗<enum_GLTFDocument_VisibilityMode>`
 
 :ref:`VisibilityMode<enum_GLTFDocument_VisibilityMode>` **VISIBILITY_MODE_INCLUDE_REQUIRED** = ``0``
 
-If the scene contains any non-visible nodes, include them, mark them as non-visible with ``KHR_node_visibility``, and require that importers respect their non-visibility. Downside: If the importer does not support ``KHR_node_visibility``, the file cannot be imported.
+Se la scena contiene nodi non visibili, includili, segnali come non visibili con ``KHR_node_visibility`` e richiedi agli importatori di rispettarne la non visibilità. Svantaggio: se l'importatore non supporta ``KHR_node_visibility``, il file non può essere importato.
 
 .. _class_GLTFDocument_constant_VISIBILITY_MODE_INCLUDE_OPTIONAL:
 
@@ -150,7 +150,7 @@ If the scene contains any non-visible nodes, include them, mark them as non-visi
 
 :ref:`VisibilityMode<enum_GLTFDocument_VisibilityMode>` **VISIBILITY_MODE_INCLUDE_OPTIONAL** = ``1``
 
-If the scene contains any non-visible nodes, include them, mark them as non-visible with ``KHR_node_visibility``, and do not impose any requirements on importers. Downside: If the importer does not support ``KHR_node_visibility``, invisible objects will be visible.
+Se la scena contiene nodi non visibili, includili, segnali come non visibili con ``KHR_node_visibility`` e non imporre alcun requisito agli importatori. Svantaggio: se l'importatore non supporta ``KHR_node_visibility``, gli oggetti invisibili saranno visibili.
 
 .. _class_GLTFDocument_constant_VISIBILITY_MODE_EXCLUDE:
 
@@ -158,7 +158,7 @@ If the scene contains any non-visible nodes, include them, mark them as non-visi
 
 :ref:`VisibilityMode<enum_GLTFDocument_VisibilityMode>` **VISIBILITY_MODE_EXCLUDE** = ``2``
 
-If the scene contains any non-visible nodes, do not include them in the export. This is the same as the behavior in Godot 4.4 and earlier. Downside: Invisible nodes will not exist in the exported file.
+Se la scena contiene nodi non visibili, non includerli nell'esportazione. Questo è lo stesso comportamento di Godot 4.4 e versioni precedenti. Svantaggio: i nodi invisibili non esisteranno nel file esportato.
 
 .. rst-class:: classref-section-separator
 
@@ -199,7 +199,7 @@ This property may only be one of "None", "PNG", or "JPEG", and is only used when
 - |void| **set_fallback_image_quality**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_fallback_image_quality**\ (\ )
 
-The quality of the fallback image, if any. For PNG files, this downscales the image on both dimensions by this factor. For JPEG files, this is the lossy quality of the image. A low value is recommended, since including multiple high quality images in a glTF file defeats the file size gains of using a more efficient image format.
+La qualità dell'immagine di riserva, se presente. Per i file PNG, questa opzione riduce l'immagine su entrambe le dimensioni di questo fattore. Per i file JPEG, questa opzione rappresenta la qualità lossy dell'immagine. Si consiglia un valore basso, poiché includere più immagini ad alta qualità in un file glTF vanifica i guadagni in dimensioni del file derivanti dall'utilizzo di un formato immagine più efficiente.
 
 .. rst-class:: classref-item-separator
 
@@ -271,7 +271,7 @@ Come elaborare il nodo radice durante l'esportazione. Il valore predefinito e co
 - |void| **set_visibility_mode**\ (\ value\: :ref:`VisibilityMode<enum_GLTFDocument_VisibilityMode>`\ )
 - :ref:`VisibilityMode<enum_GLTFDocument_VisibilityMode>` **get_visibility_mode**\ (\ )
 
-How to deal with node visibility during export. This setting does nothing if all nodes are visible. The default and recommended value is :ref:`VISIBILITY_MODE_INCLUDE_REQUIRED<class_GLTFDocument_constant_VISIBILITY_MODE_INCLUDE_REQUIRED>`, which uses the ``KHR_node_visibility`` extension.
+Come gestire la visibilità dei nodi durante l'esportazione. Questa impostazione non ha alcun effetto se tutti i nodi sono visibili. Il valore predefinito e consigliato è :ref:`VISIBILITY_MODE_INCLUDE_REQUIRED<class_GLTFDocument_constant_VISIBILITY_MODE_INCLUDE_REQUIRED>`, che utilizza l'estensione ``KHR_node_visibility``.
 
 .. rst-class:: classref-section-separator
 

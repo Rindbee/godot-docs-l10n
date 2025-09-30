@@ -439,7 +439,9 @@ enum **PlatformOnLeave**: :ref:`🔗<enum_CharacterBody2D_PlatformOnLeave>`
 - |void| **set_velocity**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_velocity**\ (\ )
 
-Текущий вектор скорости в пикселях в секунду, используемый и изменяемый во время вызовов :ref:`move_and_slide()<class_CharacterBody2D_method_move_and_slide>`.
+Current velocity vector in pixels per second, used and modified during calls to :ref:`move_and_slide()<class_CharacterBody2D_method_move_and_slide>`.
+
+This property should not be set to a value multiplied by ``delta``, because this happens internally in :ref:`move_and_slide()<class_CharacterBody2D_method_move_and_slide>`. Otherwise, the simulation will run at an incorrect speed.
 
 .. rst-class:: classref-item-separator
 
@@ -702,15 +704,17 @@ enum **PlatformOnLeave**: :ref:`🔗<enum_CharacterBody2D_PlatformOnLeave>`
 
 :ref:`bool<class_bool>` **move_and_slide**\ (\ ) :ref:`🔗<class_CharacterBody2D_method_move_and_slide>`
 
-Перемещает тело на основе :ref:`velocity<class_CharacterBody2D_property_velocity>`. Если тело сталкивается с другим, оно будет скользить вдоль другого тела (по умолчанию только по полу), а не останавливаться немедленно. Если другое тело — **CharacterBody2D** или :ref:`RigidBody2D<class_RigidBody2D>`, оно также будет затронуто движением другого тела. Вы можете использовать это, чтобы создавать движущиеся и вращающиеся платформы или заставлять узлы толкать другие узлы.
+Moves the body based on :ref:`velocity<class_CharacterBody2D_property_velocity>`. If the body collides with another, it will slide along the other body (by default only on floor) rather than stop immediately. If the other body is a **CharacterBody2D** or :ref:`RigidBody2D<class_RigidBody2D>`, it will also be affected by the motion of the other body. You can use this to make moving and rotating platforms, or to make nodes push other nodes.
 
-Изменяет :ref:`velocity<class_CharacterBody2D_property_velocity>`, если произошло столкновение слайда. Чтобы получить последнее столкновение, вызовите :ref:`get_last_slide_collision()<class_CharacterBody2D_method_get_last_slide_collision>`, для получения подробной информации о произошедших столкновениях используйте :ref:`get_slide_collision()<class_CharacterBody2D_method_get_slide_collision>`.
+This method should be used in :ref:`Node._physics_process()<class_Node_private_method__physics_process>` (or in a method called by :ref:`Node._physics_process()<class_Node_private_method__physics_process>`), as it uses the physics step's ``delta`` value automatically in calculations. Otherwise, the simulation will run at an incorrect speed.
 
-Когда тело касается движущейся платформы, скорость платформы автоматически добавляется к движению тела. Если столкновение происходит из-за движения платформы, оно всегда будет первым в столкновениях скольжения.
+Modifies :ref:`velocity<class_CharacterBody2D_property_velocity>` if a slide collision occurred. To get the latest collision call :ref:`get_last_slide_collision()<class_CharacterBody2D_method_get_last_slide_collision>`, for detailed information about collisions that occurred, use :ref:`get_slide_collision()<class_CharacterBody2D_method_get_slide_collision>`.
 
-Общее поведение и доступные свойства изменяются в соответствии с :ref:`motion_mode<class_CharacterBody2D_property_motion_mode>`.
+When the body touches a moving platform, the platform's velocity is automatically added to the body motion. If a collision occurs due to the platform's motion, it will always be first in the slide collisions.
 
-Возвращает ``true``, если тело столкнулось, в противном случае возвращает ``false``.
+The general behavior and available properties change according to the :ref:`motion_mode<class_CharacterBody2D_property_motion_mode>`.
+
+Returns ``true`` if the body collided, otherwise, returns ``false``.
 
 .. |virtual| replace:: :abbr:`virtual (Этот метод обычно должен быть переопределен пользователем, чтобы иметь какой-либо эффект.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

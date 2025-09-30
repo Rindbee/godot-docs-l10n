@@ -224,7 +224,7 @@ Direzione di scrittura del testo di base.
 - |void| **set_underline_mode**\ (\ value\: :ref:`UnderlineMode<enum_LinkButton_UnderlineMode>`\ )
 - :ref:`UnderlineMode<enum_LinkButton_UnderlineMode>` **get_underline_mode**\ (\ )
 
-The underline mode to use for the text.
+La modalità di sottolineatura da utilizzare per il testo.
 
 .. rst-class:: classref-item-separator
 

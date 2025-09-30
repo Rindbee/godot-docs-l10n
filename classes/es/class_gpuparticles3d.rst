@@ -357,7 +357,7 @@ El número de partículas a emitir en un ciclo de emisión. La tasa de emisión 
 
 La relación de partículas que deberían emitirse realmente. Si se establece a un valor menor que ``1.0``, esto establecerá la cantidad de partículas emitidas a lo largo de la vida útil a ``amount * amount_ratio``. A diferencia de cambiar :ref:`amount<class_GPUParticles3D_property_amount>`, cambiar :ref:`amount_ratio<class_GPUParticles3D_property_amount_ratio>` mientras se emite no afecta a las partículas ya emitidas y no hace que el sistema de partículas se reinicie. :ref:`amount_ratio<class_GPUParticles3D_property_amount_ratio>` se puede utilizar para crear efectos que hagan que el número de partículas emitidas varíe con el tiempo.
 
-\ **Nota:** Reducir el :ref:`amount_ratio<class_GPUParticles3D_property_amount_ratio>` no tiene ningún beneficio de rendimiento, ya que los recursos deben ser asignados y procesados para la :ref:`amount<class_GPUParticles3D_property_amount>` total de partículas independientemente del :ref:`amount_ratio<class_GPUParticles3D_property_amount_ratio>`. Si no tiene la intención de cambiar el número de partículas emitidas mientras las partículas están emitiendo, asegúrese de que :ref:`amount_ratio<class_GPUParticles3D_property_amount_ratio>` esté establecido en ``1`` y cambie :ref:`amount<class_GPUParticles3D_property_amount>` a su gusto en su lugar.
+\ **Nota:** Reducir el :ref:`amount_ratio<class_GPUParticles3D_property_amount_ratio>` no tiene ningún beneficio de rendimiento, ya que los recursos deben ser asignados y procesados para la :ref:`amount<class_GPUParticles3D_property_amount>` total de partículas independientemente del :ref:`amount_ratio<class_GPUParticles3D_property_amount_ratio>`. Si no tienes la intención de cambiar el número de partículas emitidas mientras las partículas están emitiendo, asegúrate de que :ref:`amount_ratio<class_GPUParticles3D_property_amount_ratio>` esté establecido en ``1`` y cambia :ref:`amount<class_GPUParticles3D_property_amount>` a tu gusto en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -859,7 +859,7 @@ El :ref:`AABB<class_AABB>` que determina la región del nodo que debe estar visi
 
 Aumenta el tamaño de la caja si las partículas aparecen/desaparecen repentinamente cuando el nodo entra/sale de la pantalla. El :ref:`AABB<class_AABB>` se puede aumentar mediante código o con la herramienta del editor **Partículas → Generar AABB**.
 
-\ **Nota:** :ref:`visibility_aabb<class_GPUParticles3D_property_visibility_aabb>` se anula mediante :ref:`GeometryInstance3D.custom_aabb<class_GeometryInstance3D_property_custom_aabb>` si esa propiedad se establece en un valor no predeterminado.
+\ **Nota:** :ref:`visibility_aabb<class_GPUParticles3D_property_visibility_aabb>` se sobrescribe mediante :ref:`GeometryInstance3D.custom_aabb<class_GeometryInstance3D_property_custom_aabb>` si esa propiedad se establece en un valor no predeterminado.
 
 .. rst-class:: classref-section-separator
 

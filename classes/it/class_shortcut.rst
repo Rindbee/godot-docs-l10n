@@ -14,11 +14,11 @@ Una scorciatoia per associare input.
 Descrizione
 ----------------------
 
-Shortcuts (also known as hotkeys) are containers of :ref:`InputEvent<class_InputEvent>` resources. They are commonly used to interact with a :ref:`Control<class_Control>` element from an :ref:`InputEvent<class_InputEvent>`.
+Le scorciatoie (note anche come tasti di scelta rapida) sono contenitori di risorse :ref:`InputEvent<class_InputEvent>`. Sono comunemente utilizzate per interagire con un elemento :ref:`Control<class_Control>` da un :ref:`InputEvent<class_InputEvent>`.
 
-One shortcut can contain multiple :ref:`InputEvent<class_InputEvent>` resources, making it possible to trigger one action with multiple different inputs.
+Una scorciatoia può contenere più risorse :ref:`InputEvent<class_InputEvent>`, rendendo possibile attivare un'azione con più input diversi.
 
-\ **Example:** Capture the :kbd:`Ctrl + S` shortcut using a **Shortcut** resource:
+\ **Esempio:** Cattura la scorciatoia :kbd:`Ctrl + S` attraverso una risorsa **Shortcut**:
 
 
 .. tabs::
@@ -32,12 +32,12 @@ One shortcut can contain multiple :ref:`InputEvent<class_InputEvent>` resources,
         var key_event = InputEventKey.new()
         key_event.keycode = KEY_S
         key_event.ctrl_pressed = true
-        key_event.command_or_control_autoremap = true # Swaps Ctrl for Command on Mac.
+        key_event.command_or_control_autoremap = true # Sostituisce Ctrl per Command su Mac.
         save_shortcut.events = [key_event]
 
     func _input(event):
         if save_shortcut.matches_event(event) and event.is_pressed() and not event.is_echo():
-            print("Save shortcut pressed!")
+            print("Scorciatoia Salva attivata!")
             get_viewport().set_input_as_handled()
 
  .. code-tab:: csharp
@@ -54,7 +54,7 @@ One shortcut can contain multiple :ref:`InputEvent<class_InputEvent>` resources,
             {
                 Keycode = Key.S,
                 CtrlPressed = true,
-                CommandOrControlAutoremap = true, // Swaps Ctrl for Command on Mac.
+                CommandOrControlAutoremap = true, // Sostituisce Ctrl per Command su Mac.
             };
 
             _saveShortcut.Events = [keyEvent];
@@ -66,7 +66,7 @@ One shortcut can contain multiple :ref:`InputEvent<class_InputEvent>` resources,
                 _saveShortcut.MatchesEvent(@event) &&
                 keyEvent.Pressed && !keyEvent.Echo)
             {
-                GD.Print("Save shortcut pressed!");
+                GD.Print("Scorciatoia Salva attivata!");
                 GetViewport().SetInputAsHandled();
             }
         }

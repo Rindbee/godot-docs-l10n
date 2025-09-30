@@ -75,7 +75,7 @@ enum **ContextMenuSlot**: :ref:`🔗<enum_EditorContextMenuPlugin_ContextMenuSlo
 
 :ref:`ContextMenuSlot<enum_EditorContextMenuPlugin_ContextMenuSlot>` **CONTEXT_SLOT_SCRIPT_EDITOR** = ``2``
 
-Контекстне меню вкладок сценаріїв редактора сценаріїв. Буде викликано :ref:`_popup_menu()<class_EditorContextMenuPlugin_private_method__popup_menu>` із шляхом до поточного редагованого сценарію, тоді як зворотний виклик опції отримає посилання на цей сценарій.
+Контекстне меню вкладок скрипти редактора скрипт. Буде викликано :ref:`_popup_menu()<class_EditorContextMenuPlugin_private_method__popup_menu>` із шляхом до поточного редагованого скрипту, тоді як зворотний виклик опції отримає посилання на цей скрипт.
 
 .. _class_EditorContextMenuPlugin_constant_CONTEXT_SLOT_FILESYSTEM_CREATE:
 

@@ -16,17 +16,17 @@ Riduce i suoni che superano un certa soglia sonora, attenua la dinamica e aument
 Descrizione
 ----------------------
 
-Dynamic range compressor reduces the level of the sound when the amplitude goes over a certain threshold in Decibels. One of the main uses of a compressor is to increase the dynamic range by clipping as little as possible (when sound goes over 0dB).
+Il compressore di gamma dinamica riduce il livello del suono quando l'ampiezza supera una certa soglia in Decibel. Uno degli usi principali di un compressore è quello di aumentare la gamma dinamica tagliando il meno possibile (quando il suono supera 0dB).
 
-Compressor has many uses in the mix:
+Il compressore ha molti usi nel mix:
 
-- In the Master bus to compress the whole output (although an :ref:`AudioEffectHardLimiter<class_AudioEffectHardLimiter>` is probably better).
+- Nel bus Master per comprimere l'intero risultato (anche se un :ref:`AudioEffectHardLimiter<class_AudioEffectHardLimiter>` è probabilmente migliore).
 
-- In voice channels to ensure they sound as balanced as possible.
+- Nei canali vocali per assicurarsi che suonino quanto più bilanciati possibili.
 
-- Sidechained. This can reduce the sound level sidechained with another audio bus for threshold detection. This technique is common in video game mixing to the level of music and SFX while voices are being heard.
+- In sidechain. Questo può ridurre il livello del suono in sidechain con un altro bus audio per rilevare le soglie. Questa tecnica è comune nei videogiochi che mixano al livello della musica e degli effetti sonori mentre si ascoltano voci.
 
-- Accentuates transients by using a wider attack, making effects sound more punchy.
+- Accentua i transienti utilizzando un attacco più ampio, rendendo gli effetti sonori più pungenti.
 
 .. rst-class:: classref-introduction-group
 

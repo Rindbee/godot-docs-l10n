@@ -159,7 +159,7 @@ Cancella tutte le ostruzioni proiettate.
 
 :ref:`Rect2<class_Rect2>` **get_bounds**\ (\ ) :ref:`🔗<class_NavigationMeshSourceGeometryData2D_method_get_bounds>`
 
-Returns an axis-aligned bounding box that covers all the stored geometry data. The bounds are calculated when calling this function with the result cached until further geometry changes are made.
+Restituisce una bounding box allineata agli assi che copre tutti i dati geometrici memorizzati. I limiti vengono calcolati quando si richiama questa funzione, con il risultato memorizzato nella cache finché non vengono apportate ulteriori modifiche alla geometria.
 
 .. rst-class:: classref-item-separator
 

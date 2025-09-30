@@ -114,7 +114,7 @@ Descripciones de Propiedades
 - |void| **set_bake_interval**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_bake_interval**\ (\ )
 
-La distancia en metros entre dos puntos cacheados adyacentes. Cambiarlo obliga a recomponer la caché la próxima vez que se llame a la función :ref:`get_baked_points()<class_Curve3D_method_get_baked_points>` o :ref:`get_baked_length()<class_Curve3D_method_get_baked_length>`. Cuanto más pequeña sea la distancia, más puntos en el caché y más memoria consumirá, así que úsala con cuidado.
+La distancia en metros entre dos puntos cacheados adyacentes. Cambiarlo obliga a recomponer la caché la próxima vez que se llame a la función :ref:`get_baked_points()<class_Curve3D_method_get_baked_points>` o :ref:`get_baked_length()<class_Curve3D_method_get_baked_length>`. Cuanto más pequeña sea la distancia, más puntos en la caché y más memoria consumirá, así que úsala con cuidado.
 
 .. rst-class:: classref-item-separator
 

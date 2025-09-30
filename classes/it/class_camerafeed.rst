@@ -14,11 +14,11 @@ Un feed della telecamera ti dà accesso a una singola telecamera fisica collegat
 Descrizione
 ----------------------
 
-A camera feed gives you access to a single physical camera attached to your device. When enabled, Godot will start capturing frames from the camera which can then be used. See also :ref:`CameraServer<class_CameraServer>`.
+Un feed di fotocamera ti dà accesso a una singola fotocamera fisica collegata al tuo dispositivo. Quando abilitato, Godot inizierà a catturare fotogrammi dalla fotocamera da poi utilizzare. Vedi anche :ref:`CameraServer<class_CameraServer>`.
 
-\ **Note:** Many cameras will return YCbCr images which are split into two textures and need to be combined in a shader. Godot does this automatically for you if you set the environment to show the camera image in the background.
+\ **Nota:** Molte fotocamere restituiscono immagini in YCbCr che sono divise in due texture e che devono essere combinate in uno shader. Godot fa ciò automaticamente se l'ambiente è impostato per mostrare l'immagine della fotocamera nello sfondo.
 
-\ **Note:** This class is currently only implemented on Linux, Android, macOS, and iOS. On other platforms no **CameraFeed**\ s will be available. To get a **CameraFeed** on iOS, the camera plugin from `godot-ios-plugins <https://github.com/godotengine/godot-ios-plugins>`__ is required.
+\ **Nota:** Questa classe è attualmente implementata solo su Linux, Android, macOS e iOS. Su altre piattaforme i **CameraFeed** non saranno disponibili. Per ottenere un **CameraFeed** su iOS, è necessaria l'estensione della fotocamera da `godot-ios-plugins <https://github.com/godotengine/godot-ios-plugins>`__.
 
 .. rst-class:: classref-reftable-group
 
@@ -356,13 +356,13 @@ Imposta il feed come feed esterno fornito da un'altra libreria.
 
 :ref:`bool<class_bool>` **set_format**\ (\ index\: :ref:`int<class_int>`, parameters\: :ref:`Dictionary<class_Dictionary>`\ ) :ref:`🔗<class_CameraFeed_method_set_format>`
 
-Sets the feed format parameters for the given ``index`` in the :ref:`formats<class_CameraFeed_property_formats>` array. Returns ``true`` on success. By default, the YUYV encoded stream is transformed to :ref:`FEED_RGB<class_CameraFeed_constant_FEED_RGB>`. The YUYV encoded stream output format can be changed by setting ``parameters``'s ``output`` entry to one of the following:
+Imposta i parametri del formato feed per l'indice ``index`` nell'array :ref:`formats<class_CameraFeed_property_formats>`. Restituisce ``true`` in caso di successo. Come predefinito, il flusso codificato in YUYV viene trasformato in :ref:`FEED_RGB<class_CameraFeed_constant_FEED_RGB>`. È possibile modificare il formato risultante del flusso codificato in YUYV impostando la voce ``output`` di ``parameters`` a uno dei seguenti:
 
-- ``"separate"`` will result in :ref:`FEED_YCBCR_SEP<class_CameraFeed_constant_FEED_YCBCR_SEP>`;
+- ``"separate"`` produrrà :ref:`FEED_YCBCR_SEP<class_CameraFeed_constant_FEED_YCBCR_SEP>`;
 
-- ``"grayscale"`` will result in desaturated :ref:`FEED_RGB<class_CameraFeed_constant_FEED_RGB>`;
+- ``"grayscale"`` produrrà :ref:`FEED_RGB<class_CameraFeed_constant_FEED_RGB>` desaturato;
 
-- ``"copy"`` will result in :ref:`FEED_YCBCR<class_CameraFeed_constant_FEED_YCBCR>`.
+- ``"copy"`` produrrà :ref:`FEED_YCBCR<class_CameraFeed_constant_FEED_YCBCR>`.
 
 .. rst-class:: classref-item-separator
 

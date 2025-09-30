@@ -14,7 +14,7 @@ Exporter for Android.
 Tutoriales
 --------------------
 
-- :doc:`Exporting for Android <../tutorials/export/exporting_for_android>`
+- :doc:`Exportar a Android <../tutorials/export/exporting_for_android>`
 
 - :doc:`Compilaciones de Gradle para Android <../tutorials/export/android_gradle_build>`
 
@@ -527,7 +527,7 @@ If ``true``, ``x86_32`` binaries are included into exported project.
 
 :ref:`bool<class_bool>` **architectures/x86_64** :ref:`🔗<class_EditorExportPlatformAndroid_property_architectures/x86_64>`
 
-If ``true``, ``x86_64`` binaries are included into exported project.
+Si es ``true``, los binarios ``x86_64`` se incluirán en el proyecto exportado.
 
 .. rst-class:: classref-item-separator
 
@@ -539,7 +539,7 @@ If ``true``, ``x86_64`` binaries are included into exported project.
 
 :ref:`String<class_String>` **command_line/extra_args** :ref:`🔗<class_EditorExportPlatformAndroid_property_command_line/extra_args>`
 
-A list of additional command line arguments, separated by space, which the exported project will receive when started.
+Una lista de argumentos de línea de comandos adicionales, separados por espacios, que el proyecto exportado recibirá cuando se inicie.
 
 .. rst-class:: classref-item-separator
 
@@ -551,9 +551,9 @@ A list of additional command line arguments, separated by space, which the expor
 
 :ref:`String<class_String>` **custom_template/debug** :ref:`🔗<class_EditorExportPlatformAndroid_property_custom_template/debug>`
 
-Path to an APK file to use as a custom export template for debug exports. If left empty, default template is used.
+Ruta a un archivo APK para usar como plantilla de exportación personalizada para exportaciones de depuración. Si se deja vacío, se utiliza la plantilla predeterminada.
 
-\ **Note:** This is only used if :ref:`gradle_build/use_gradle_build<class_EditorExportPlatformAndroid_property_gradle_build/use_gradle_build>` is disabled.
+\ **Nota:** Esto solo se usa si :ref:`gradle_build/use_gradle_build<class_EditorExportPlatformAndroid_property_gradle_build/use_gradle_build>` está deshabilitado.
 
 .. rst-class:: classref-item-separator
 
@@ -565,9 +565,9 @@ Path to an APK file to use as a custom export template for debug exports. If lef
 
 :ref:`String<class_String>` **custom_template/release** :ref:`🔗<class_EditorExportPlatformAndroid_property_custom_template/release>`
 
-Path to an APK file to use as a custom export template for release exports. If left empty, default template is used.
+Ruta a un archivo APK para usar como plantilla de exportación personalizada para exportaciones de lanzamiento. Si se deja vacío, se utiliza la plantilla predeterminada.
 
-\ **Note:** This is only used if :ref:`gradle_build/use_gradle_build<class_EditorExportPlatformAndroid_property_gradle_build/use_gradle_build>` is disabled.
+\ **Nota:** Esto solo se usa si :ref:`gradle_build/use_gradle_build<class_EditorExportPlatformAndroid_property_gradle_build/use_gradle_build>` está deshabilitado.
 
 .. rst-class:: classref-item-separator
 
@@ -579,11 +579,11 @@ Path to an APK file to use as a custom export template for release exports. If l
 
 :ref:`bool<class_bool>` **gesture/swipe_to_dismiss** :ref:`🔗<class_EditorExportPlatformAndroid_property_gesture/swipe_to_dismiss>`
 
-If ``true``, `Swipe to dismiss <https://developer.android.com/design/ui/wear/guides/components/swipe-to-dismiss>`__ will be enabled.
+Si es ``true``, `Deslizar para descartar <https://developer.android.com/design/ui/wear/guides/components/swipe-to-dismiss>`__ se habilitará.
 
-This functionality is intended for smartwatches and is generally ignored on standard Android devices. However, some devices may not ignore it. Therefore, it is recommended to keep this feature disabled for standard Android apps to avoid unexpected behavior.
+Esta funcionalidad está pensada para relojes inteligentes y generalmente se ignora en dispositivos Android estándar. Sin embargo, algunos dispositivos pueden no ignorarlo. Por lo tanto, se recomienda mantener esta función desactivada para las aplicaciones estándar de Android para evitar un comportamiento inesperado.
 
-\ **Note:** This is ``false`` by default. To enable this behavior, :ref:`gradle_build/use_gradle_build<class_EditorExportPlatformAndroid_property_gradle_build/use_gradle_build>` is required.
+\ **Nota:** Esto es ``false`` por defecto. Para habilitar este comportamiento, se requiere :ref:`gradle_build/use_gradle_build<class_EditorExportPlatformAndroid_property_gradle_build/use_gradle_build>`.
 
 .. rst-class:: classref-item-separator
 
@@ -595,7 +595,7 @@ This functionality is intended for smartwatches and is generally ignored on stan
 
 :ref:`String<class_String>` **gradle_build/android_source_template** :ref:`🔗<class_EditorExportPlatformAndroid_property_gradle_build/android_source_template>`
 
-Path to a ZIP file holding the source for the export template used in a Gradle build. If left empty, the default template is used.
+Ruta a un archivo ZIP que contiene la fuente para la plantilla de exportación utilizada en una compilación de Gradle. Si se deja vacío, se utiliza la plantilla predeterminada.
 
 .. rst-class:: classref-item-separator
 
@@ -607,11 +607,11 @@ Path to a ZIP file holding the source for the export template used in a Gradle b
 
 :ref:`bool<class_bool>` **gradle_build/compress_native_libraries** :ref:`🔗<class_EditorExportPlatformAndroid_property_gradle_build/compress_native_libraries>`
 
-If ``true``, native libraries are compressed when performing a Gradle build.
+Si es ``true``, las librerías nativas se comprimen cuando se realiza una compilación de Gradle.
 
-\ **Note:** While enabling compression can reduce the size of the binary, it may result in slower application startup because the native libraries must be extracted before use, rather than being loaded directly.
+\ **Nota:** Si bien habilitar la compresión puede reducir el tamaño del binario, puede resultar en un inicio de aplicación más lento porque las librerías nativas deben extraerse antes de usarse, en lugar de cargarse directamente.
 
-If you're distributing your app via the Play Store, it's generally recommended to keep this option ``false``, see `official documentation <https://developer.android.com/build/releases/past-releases/agp-3-6-0-release-notes#extractNativeLibs>`__.
+Si estás distribuyendo tu aplicación a través de Play Store, generalmente se recomienda mantener esta opción ``false``, consulta `documentación oficial <https://developer.android.com/build/releases/past-releases/agp-3-6-0-release-notes#extractNativeLibs>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -623,13 +623,13 @@ If you're distributing your app via the Play Store, it's generally recommended t
 
 :ref:`Dictionary<class_Dictionary>` **gradle_build/custom_theme_attributes** :ref:`🔗<class_EditorExportPlatformAndroid_property_gradle_build/custom_theme_attributes>`
 
-A dictionary of custom theme attributes to include in the exported Android project. Each entry defines a theme attribute name and its value, and will be added to the **GodotAppMainTheme**.
+Un diccionario de atributos de tema personalizados para incluir en el proyecto Android exportado. Cada entrada define un nombre de atributo de tema y su valor, y se agregará a **GodotAppMainTheme**.
 
-For example, the key ``android:windowSwipeToDismiss`` with the value ``false`` is resolved to ``<item name="android:windowSwipeToDismiss">false</item>``.
+Por ejemplo, la clave ``android:windowSwipeToDismiss`` con el valor ``false`` se resuelve a ``<item name="android:windowSwipeToDismiss">false</item>``.
 
-\ **Note:** To add a custom attribute to the **GodotAppSplashTheme**, prefix the attribute name with ``[splash]``.
+\ **Nota:** Para agregar un atributo personalizado a **GodotAppSplashTheme**, prefija el nombre del atributo con ``[splash]``.
 
-\ **Note:** Reserved attributes configured via other export options or project settings cannot be overridden by ``custom_theme_attributes`` and are skipped during export.
+\ **Nota:** Los atributos reservados configurados a través de otras opciones de exportación o la configuración del proyecto no pueden ser anulados por ``custom_theme_attributes`` y se omiten durante la exportación.
 
 .. rst-class:: classref-item-separator
 
@@ -641,7 +641,7 @@ For example, the key ``android:windowSwipeToDismiss`` with the value ``false`` i
 
 :ref:`int<class_int>` **gradle_build/export_format** :ref:`🔗<class_EditorExportPlatformAndroid_property_gradle_build/export_format>`
 
-Application export format (\*.apk or \*.aab).
+Formato de exportación de la aplicación (\*.apk o \*.aab).
 
 .. rst-class:: classref-item-separator
 
@@ -653,7 +653,7 @@ Application export format (\*.apk or \*.aab).
 
 :ref:`String<class_String>` **gradle_build/gradle_build_directory** :ref:`🔗<class_EditorExportPlatformAndroid_property_gradle_build/gradle_build_directory>`
 
-Path to the Gradle build directory. If left empty, then ``res://android`` will be used.
+Ruta al directorio de compilación de Gradle. Si se deja vacío, se utilizará ``res://android``.
 
 .. rst-class:: classref-item-separator
 
@@ -665,7 +665,7 @@ Path to the Gradle build directory. If left empty, then ``res://android`` will b
 
 :ref:`String<class_String>` **gradle_build/min_sdk** :ref:`🔗<class_EditorExportPlatformAndroid_property_gradle_build/min_sdk>`
 
-Minimum Android API level required for the application to run (used during Gradle build). See `android:minSdkVersion <https://developer.android.com/guide/topics/manifest/uses-sdk-element#uses>`__.
+Nivel mínimo de API de Android requerido para que la aplicación se ejecute (utilizado durante la compilación de Gradle). Véase `android:minSdkVersion <https://developer.android.com/guide/topics/manifest/uses-sdk-element#uses>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -677,7 +677,7 @@ Minimum Android API level required for the application to run (used during Gradl
 
 :ref:`String<class_String>` **gradle_build/target_sdk** :ref:`🔗<class_EditorExportPlatformAndroid_property_gradle_build/target_sdk>`
 
-The Android API level on which the application is designed to run (used during Gradle build). See `android:targetSdkVersion <https://developer.android.com/guide/topics/manifest/uses-sdk-element#uses>`__.
+El nivel de API de Android en el que la aplicación está diseñada para ejecutarse (utilizado durante la compilación de Gradle). Véase `android:targetSdkVersion <https://developer.android.com/guide/topics/manifest/uses-sdk-element#uses>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -689,7 +689,7 @@ The Android API level on which the application is designed to run (used during G
 
 :ref:`bool<class_bool>` **gradle_build/use_gradle_build** :ref:`🔗<class_EditorExportPlatformAndroid_property_gradle_build/use_gradle_build>`
 
-If ``true``, Gradle build is used instead of pre-built APK.
+Si es ``true``, se utiliza la compilación de Gradle en lugar de APK precompilado.
 
 .. rst-class:: classref-item-separator
 
@@ -701,7 +701,7 @@ If ``true``, Gradle build is used instead of pre-built APK.
 
 :ref:`bool<class_bool>` **graphics/opengl_debug** :ref:`🔗<class_EditorExportPlatformAndroid_property_graphics/opengl_debug>`
 
-If ``true``, OpenGL ES debug context will be created (additional runtime checking, validation, and logging).
+Si es ``true``, se creará un contexto de depuración OpenGL ES (verificación, validación y registro adicionales en tiempo de ejecución).
 
 .. rst-class:: classref-item-separator
 
@@ -713,11 +713,11 @@ If ``true``, OpenGL ES debug context will be created (additional runtime checkin
 
 :ref:`String<class_String>` **keystore/debug** :ref:`🔗<class_EditorExportPlatformAndroid_property_keystore/debug>`
 
-Path of the debug keystore file.
+Ruta del archivo keystore de depuración.
 
-Can be overridden with the environment variable ``GODOT_ANDROID_KEYSTORE_DEBUG_PATH``.
+Se puede anular con la variable de entorno ``GODOT_ANDROID_KEYSTORE_DEBUG_PATH``.
 
-Fallbacks to ``EditorSettings.export/android/debug_keystore`` if empty.
+Si está vacío, recurre a ``EditorSettings.export/android/debug_keystore``.
 
 .. rst-class:: classref-item-separator
 
@@ -729,11 +729,11 @@ Fallbacks to ``EditorSettings.export/android/debug_keystore`` if empty.
 
 :ref:`String<class_String>` **keystore/debug_password** :ref:`🔗<class_EditorExportPlatformAndroid_property_keystore/debug_password>`
 
-Password for the debug keystore file.
+Contraseña para el archivo keystore de depuración.
 
-Can be overridden with the environment variable ``GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD``.
+Se puede anular con la variable de entorno ``GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD``.
 
-Fallbacks to ``EditorSettings.export/android/debug_keystore_pass`` if both it and :ref:`keystore/debug<class_EditorExportPlatformAndroid_property_keystore/debug>` are empty.
+Si tanto esta como :ref:`keystore/debug<class_EditorExportPlatformAndroid_property_keystore/debug>` están vacías, recurre a ``EditorSettings.export/android/debug_keystore_pass``.
 
 .. rst-class:: classref-item-separator
 
@@ -745,11 +745,11 @@ Fallbacks to ``EditorSettings.export/android/debug_keystore_pass`` if both it an
 
 :ref:`String<class_String>` **keystore/debug_user** :ref:`🔗<class_EditorExportPlatformAndroid_property_keystore/debug_user>`
 
-User name for the debug keystore file.
+Nombre de usuario para el archivo keystore de depuración.
 
-Can be overridden with the environment variable ``GODOT_ANDROID_KEYSTORE_DEBUG_USER``.
+Se puede anular con la variable de entorno ``GODOT_ANDROID_KEYSTORE_DEBUG_USER``.
 
-Fallbacks to ``EditorSettings.export/android/debug_keystore_user`` if both it and :ref:`keystore/debug<class_EditorExportPlatformAndroid_property_keystore/debug>` are empty.
+Si tanto esta como :ref:`keystore/debug<class_EditorExportPlatformAndroid_property_keystore/debug>` están vacías, recurre a ``EditorSettings.export/android/debug_keystore_user``.
 
 .. rst-class:: classref-item-separator
 
@@ -761,9 +761,9 @@ Fallbacks to ``EditorSettings.export/android/debug_keystore_user`` if both it an
 
 :ref:`String<class_String>` **keystore/release** :ref:`🔗<class_EditorExportPlatformAndroid_property_keystore/release>`
 
-Path of the release keystore file.
+Ruta del archivo keystore de lanzamiento.
 
-Can be overridden with the environment variable ``GODOT_ANDROID_KEYSTORE_RELEASE_PATH``.
+Se puede anular con la variable de entorno ``GODOT_ANDROID_KEYSTORE_RELEASE_PATH``.
 
 .. rst-class:: classref-item-separator
 
@@ -775,9 +775,9 @@ Can be overridden with the environment variable ``GODOT_ANDROID_KEYSTORE_RELEASE
 
 :ref:`String<class_String>` **keystore/release_password** :ref:`🔗<class_EditorExportPlatformAndroid_property_keystore/release_password>`
 
-Password for the release keystore file.
+Contraseña para el archivo keystore de lanzamiento.
 
-Can be overridden with the environment variable ``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``.
+Se puede anular con la variable de entorno ``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``.
 
 .. rst-class:: classref-item-separator
 
@@ -789,9 +789,9 @@ Can be overridden with the environment variable ``GODOT_ANDROID_KEYSTORE_RELEASE
 
 :ref:`String<class_String>` **keystore/release_user** :ref:`🔗<class_EditorExportPlatformAndroid_property_keystore/release_user>`
 
-User name for the release keystore file.
+Nombre de usuario para el archivo keystore de lanzamiento.
 
-Can be overridden with the environment variable ``GODOT_ANDROID_KEYSTORE_RELEASE_USER``.
+Se puede anular con la variable de entorno ``GODOT_ANDROID_KEYSTORE_RELEASE_USER``.
 
 .. rst-class:: classref-item-separator
 
@@ -803,7 +803,7 @@ Can be overridden with the environment variable ``GODOT_ANDROID_KEYSTORE_RELEASE
 
 :ref:`String<class_String>` **launcher_icons/adaptive_background_432x432** :ref:`🔗<class_EditorExportPlatformAndroid_property_launcher_icons/adaptive_background_432x432>`
 
-Background layer of the application adaptive icon file. See `Design adaptive icons <https://developer.android.com/develop/ui/views/launch/icon_design_adaptive#design-adaptive-icons>`__.
+Capa de fondo del archivo de icono adaptativo de la aplicación. Véase `Diseñar iconos adaptativos <https://developer.android.com/develop/ui/views/launch/icon_design_adaptive#design-adaptive-icons>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -815,7 +815,7 @@ Background layer of the application adaptive icon file. See `Design adaptive ico
 
 :ref:`String<class_String>` **launcher_icons/adaptive_foreground_432x432** :ref:`🔗<class_EditorExportPlatformAndroid_property_launcher_icons/adaptive_foreground_432x432>`
 
-Foreground layer of the application adaptive icon file. See `Design adaptive icons <https://developer.android.com/develop/ui/views/launch/icon_design_adaptive#design-adaptive-icons>`__.
+Capa de primer plano del archivo de icono adaptativo de la aplicación. Véase `Diseñar iconos adaptativos <https://developer.android.com/develop/ui/views/launch/icon_design_adaptive#design-adaptive-icons>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -827,7 +827,7 @@ Foreground layer of the application adaptive icon file. See `Design adaptive ico
 
 :ref:`String<class_String>` **launcher_icons/adaptive_monochrome_432x432** :ref:`🔗<class_EditorExportPlatformAndroid_property_launcher_icons/adaptive_monochrome_432x432>`
 
-Monochrome layer of the application adaptive icon file. See `Design adaptive icons <https://developer.android.com/develop/ui/views/launch/icon_design_adaptive#design-adaptive-icons>`__.
+Capa monocromática del archivo de icono adaptativo de la aplicación. Véase `Diseñar iconos adaptativos <https://developer.android.com/develop/ui/views/launch/icon_design_adaptive#design-adaptive-icons>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -839,7 +839,7 @@ Monochrome layer of the application adaptive icon file. See `Design adaptive ico
 
 :ref:`String<class_String>` **launcher_icons/main_192x192** :ref:`🔗<class_EditorExportPlatformAndroid_property_launcher_icons/main_192x192>`
 
-Application icon file. If left empty, it will fallback to :ref:`ProjectSettings.application/config/icon<class_ProjectSettings_property_application/config/icon>`.
+Archivo de icono de la aplicación. Si se deja vacío, recurrirá a :ref:`ProjectSettings.application/config/icon<class_ProjectSettings_property_application/config/icon>`.
 
 .. rst-class:: classref-item-separator
 
@@ -851,7 +851,7 @@ Application icon file. If left empty, it will fallback to :ref:`ProjectSettings.
 
 :ref:`int<class_int>` **package/app_category** :ref:`🔗<class_EditorExportPlatformAndroid_property_package/app_category>`
 
-Application category for the Google Play Store. Only define this if your application fits one of the categories well. See `android:appCategory <https://developer.android.com/guide/topics/manifest/application-element#appCategory>`__.
+Categoría de la aplicación para Google Play Store. Solo define esto si tu aplicación se ajusta bien a una de las categorías. Véase `android:appCategory <https://developer.android.com/guide/topics/manifest/application-element#appCategory>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -863,7 +863,7 @@ Application category for the Google Play Store. Only define this if your applica
 
 :ref:`bool<class_bool>` **package/exclude_from_recents** :ref:`🔗<class_EditorExportPlatformAndroid_property_package/exclude_from_recents>`
 
-If ``true``, task initiated by main activity will be excluded from the list of recently used applications. See `android:excludeFromRecents <https://developer.android.com/guide/topics/manifest/activity-element#exclude>`__.
+Si es ``true``, la tarea iniciada por la actividad principal se excluirá de la lista de aplicaciones utilizadas recientemente. Véase `android:excludeFromRecents <https://developer.android.com/guide/topics/manifest/activity-element#exclude>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -887,7 +887,7 @@ El nombre de la aplicación.
 
 :ref:`bool<class_bool>` **package/retain_data_on_uninstall** :ref:`🔗<class_EditorExportPlatformAndroid_property_package/retain_data_on_uninstall>`
 
-If ``true``, when the user uninstalls an app, a prompt to keep the app's data will be shown. See `android:hasFragileUserData <https://developer.android.com/guide/topics/manifest/application-element#fragileuserdata>`__.
+Si es ``true``, cuando el usuario desinstala una aplicación, se mostrará un aviso para conservar los datos de la aplicación. Véase `android:hasFragileUserData <https://developer.android.com/guide/topics/manifest/application-element#fragileuserdata>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -899,7 +899,7 @@ If ``true``, when the user uninstalls an app, a prompt to keep the app's data wi
 
 :ref:`bool<class_bool>` **package/show_as_launcher_app** :ref:`🔗<class_EditorExportPlatformAndroid_property_package/show_as_launcher_app>`
 
-If ``true``, the user will be able to set this app as the system launcher in Android preferences.
+Si es ``true``, el usuario podrá establecer esta aplicación como el launcher del sistema en las preferencias de Android.
 
 .. rst-class:: classref-item-separator
 
@@ -911,7 +911,7 @@ If ``true``, the user will be able to set this app as the system launcher in And
 
 :ref:`bool<class_bool>` **package/show_in_android_tv** :ref:`🔗<class_EditorExportPlatformAndroid_property_package/show_in_android_tv>`
 
-If ``true``, this app will show in Android TV launcher UI.
+Si es ``true``, esta aplicación se mostrará en la interfaz de inicio de Android TV.
 
 .. rst-class:: classref-item-separator
 
@@ -923,9 +923,9 @@ If ``true``, this app will show in Android TV launcher UI.
 
 :ref:`bool<class_bool>` **package/show_in_app_library** :ref:`🔗<class_EditorExportPlatformAndroid_property_package/show_in_app_library>`
 
-If ``true``, this app will show in the device's app library.
+Si es ``true``, esta aplicación se mostrará en la biblioteca de aplicaciones del dispositivo.
 
-\ **Note:** This is ``true`` by default.
+\ **Nota:** Esto es ``true`` por defecto.
 
 .. rst-class:: classref-item-separator
 
@@ -937,7 +937,7 @@ If ``true``, this app will show in the device's app library.
 
 :ref:`bool<class_bool>` **package/signed** :ref:`🔗<class_EditorExportPlatformAndroid_property_package/signed>`
 
-If ``true``, package signing is enabled.
+Si es ``true``, la firma del paquete está habilitada.
 
 .. rst-class:: classref-item-separator
 
@@ -949,13 +949,13 @@ If ``true``, package signing is enabled.
 
 :ref:`String<class_String>` **package/unique_name** :ref:`🔗<class_EditorExportPlatformAndroid_property_package/unique_name>`
 
-Unique application identifier in a reverse-DNS format. The reverse DNS format should preferably match a domain name you control, but this is not strictly required. For instance, if you own ``example.com``, your package unique name should preferably be of the form ``com.example.mygame``. This identifier can only contain lowercase alphanumeric characters (``a-z``, and ``0-9``), underscores (``_``), and periods (``.``). Each component of the reverse DNS format must start with a letter: for instance, ``com.example.8game`` is not valid.
+Identificador único de la aplicación en un formato de DNS inverso. El formato de DNS inverso debe coincidir preferiblemente con un nombre de dominio que controles, pero esto no es estrictamente obligatorio. Por ejemplo, si eres dueño de ``example.com``, el nombre único de tu paquete debería ser preferiblemente de la forma ``com.example.mygame``. Este identificador solo puede contener caracteres alfanuméricos en minúsculas (``a-z`` y ``0-9``), guiones bajos (``_``) y puntos (``.``). Cada componente del formato de DNS inverso debe comenzar con una letra: por ejemplo, ``com.example.8game`` no es válido.
 
-If ``$genname`` is present in the value, it will be replaced by the project name converted to lowercase. If there are invalid characters in the project name, they will be stripped. If all characters in the project name are stripped, ``$genname`` is replaced by ``noname``.
+Si ``$genname`` está presente en el valor, se reemplazará por el nombre del proyecto convertido a minúsculas. Si hay caracteres no válidos en el nombre del proyecto, se eliminarán. Si todos los caracteres en el nombre del proyecto se eliminan, ``$genname`` se reemplaza por ``noname``.
 
-\ **Note:** Changing the package name will cause the package to be considered as a new package, with its own installation and data paths. The new package won't be usable to update existing installations.
+\ **Nota:** Cambiar el nombre del paquete hará que el paquete se considere como un nuevo paquete, con su propia instalación y rutas de datos. El nuevo paquete no se podrá utilizar para actualizar las instalaciones existentes.
 
-\ **Note:** When publishing to Google Play, the package name must be *globally* unique. This means no other apps published on Google Play must be using the same package name as yours. Otherwise, you'll be prevented from publishing your app on Google Play.
+\ **Nota:** Al publicar en Google Play, el nombre del paquete debe ser *globalmente* único. Esto significa que ninguna otra aplicación publicada en Google Play debe estar utilizando el mismo nombre de paquete que la tuya. De lo contrario, se te impedirá publicar tu aplicación en Google Play.
 
 .. rst-class:: classref-item-separator
 
@@ -967,7 +967,7 @@ If ``$genname`` is present in the value, it will be replaced by the project name
 
 :ref:`bool<class_bool>` **permissions/access_checkin_properties** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/access_checkin_properties>`
 
-Allows read/write access to the "properties" table in the checkin database. See `ACCESS_CHECKIN_PROPERTIES <https://developer.android.com/reference/android/Manifest.permission#ACCESS_CHECKIN_PROPERTIES>`__.
+Permite el acceso de lectura/escritura a la tabla de "propiedades" en la base de datos de registro. Véase `ACCESS_CHECKIN_PROPERTIES <https://developer.android.com/reference/android/Manifest.permission#ACCESS_CHECKIN_PROPERTIES>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -979,7 +979,7 @@ Allows read/write access to the "properties" table in the checkin database. See 
 
 :ref:`bool<class_bool>` **permissions/access_coarse_location** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/access_coarse_location>`
 
-Allows access to the approximate location information. See `ACCESS_COARSE_LOCATION <https://developer.android.com/reference/android/Manifest.permission#ACCESS_COARSE_LOCATION>`__.
+Permite acceder a la información de ubicación aproximada. Véase `ACCESS_COARSE_LOCATION <https://developer.android.com/reference/android/Manifest.permission#ACCESS_COARSE_LOCATION>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -991,7 +991,7 @@ Allows access to the approximate location information. See `ACCESS_COARSE_LOCATI
 
 :ref:`bool<class_bool>` **permissions/access_fine_location** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/access_fine_location>`
 
-Allows access to the precise location information. See `ACCESS_FINE_LOCATION <https://developer.android.com/reference/android/Manifest.permission#ACCESS_FINE_LOCATION>`__.
+Permite acceder a la información de ubicación precisa. Véase `ACCESS_FINE_LOCATION <https://developer.android.com/reference/android/Manifest.permission#ACCESS_FINE_LOCATION>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1003,7 +1003,7 @@ Allows access to the precise location information. See `ACCESS_FINE_LOCATION <ht
 
 :ref:`bool<class_bool>` **permissions/access_location_extra_commands** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/access_location_extra_commands>`
 
-Allows access to the extra location provider commands. See `ACCESS_LOCATION_EXTRA_COMMANDS <https://developer.android.com/reference/android/Manifest.permission#ACCESS_LOCATION_EXTRA_COMMANDS>`__.
+Permite acceder a los comandos adicionales del proveedor de ubicación. Véase `ACCESS_LOCATION_EXTRA_COMMANDS <https://developer.android.com/reference/android/Manifest.permission#ACCESS_LOCATION_EXTRA_COMMANDS>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1015,7 +1015,7 @@ Allows access to the extra location provider commands. See `ACCESS_LOCATION_EXTR
 
 :ref:`bool<class_bool>` **permissions/access_media_location** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/access_media_location>`
 
-Allows an application to access any geographic locations persisted in the user's shared collection. See `ACCESS_MEDIA_LOCATION <https://developer.android.com/reference/android/Manifest.permission#ACCESS_MEDIA_LOCATION>`__.
+Permite que una aplicación acceda a cualquier ubicación geográfica persistente en la colección compartida del usuario. Véase `ACCESS_MEDIA_LOCATION <https://developer.android.com/reference/android/Manifest.permission#ACCESS_MEDIA_LOCATION>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1027,7 +1027,7 @@ Allows an application to access any geographic locations persisted in the user's
 
 :ref:`bool<class_bool>` **permissions/access_mock_location** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/access_mock_location>`
 
-Allows an application to create mock location providers for testing.
+Permite que una aplicación cree proveedores de ubicación simulados para realizar pruebas.
 
 .. rst-class:: classref-item-separator
 
@@ -1039,7 +1039,7 @@ Allows an application to create mock location providers for testing.
 
 :ref:`bool<class_bool>` **permissions/access_network_state** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/access_network_state>`
 
-Allows access to the information about networks. See `ACCESS_NETWORK_STATE <https://developer.android.com/reference/android/Manifest.permission#ACCESS_NETWORK_STATE>`__.
+Permite acceder a la información sobre las redes. Véase `ACCESS_NETWORK_STATE <https://developer.android.com/reference/android/Manifest.permission#ACCESS_NETWORK_STATE>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1051,7 +1051,7 @@ Allows access to the information about networks. See `ACCESS_NETWORK_STATE <http
 
 :ref:`bool<class_bool>` **permissions/access_surface_flinger** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/access_surface_flinger>`
 
-Allows an application to use SurfaceFlinger's low level features.
+Permite que una aplicación utilice las características de bajo nivel de SurfaceFlinger.
 
 .. rst-class:: classref-item-separator
 
@@ -1063,7 +1063,7 @@ Allows an application to use SurfaceFlinger's low level features.
 
 :ref:`bool<class_bool>` **permissions/access_wifi_state** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/access_wifi_state>`
 
-Allows access to the information about Wi-Fi networks. See `ACCESS_WIFI_STATE <https://developer.android.com/reference/android/Manifest.permission#ACCESS_WIFI_STATE>`__.
+Permite acceder a la información sobre las redes Wi-Fi. Véase `ACCESS_WIFI_STATE <https://developer.android.com/reference/android/Manifest.permission#ACCESS_WIFI_STATE>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1075,7 +1075,7 @@ Allows access to the information about Wi-Fi networks. See `ACCESS_WIFI_STATE <h
 
 :ref:`bool<class_bool>` **permissions/account_manager** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/account_manager>`
 
-Allows applications to call into AccountAuthenticators. See `ACCOUNT_MANAGER <https://developer.android.com/reference/android/Manifest.permission#ACCOUNT_MANAGER>`__.
+Permite que las aplicaciones llamen a AccountAuthenticators. Véase `ACCOUNT_MANAGER <https://developer.android.com/reference/android/Manifest.permission#ACCOUNT_MANAGER>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1087,7 +1087,7 @@ Allows applications to call into AccountAuthenticators. See `ACCOUNT_MANAGER <ht
 
 :ref:`bool<class_bool>` **permissions/add_voicemail** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/add_voicemail>`
 
-Allows an application to add voicemails into the system. See `ADD_VOICEMAIL <https://developer.android.com/reference/android/Manifest.permission#ADD_VOICEMAIL>`__.
+Permite que una aplicación agregue mensajes de voz al sistema. Véase `ADD_VOICEMAIL <https://developer.android.com/reference/android/Manifest.permission#ADD_VOICEMAIL>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1099,7 +1099,7 @@ Allows an application to add voicemails into the system. See `ADD_VOICEMAIL <htt
 
 :ref:`bool<class_bool>` **permissions/authenticate_accounts** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/authenticate_accounts>`
 
-Allows an application to act as an AccountAuthenticator for the AccountManager.
+Permite que una aplicación actúe como un AccountAuthenticator para el AccountManager.
 
 .. rst-class:: classref-item-separator
 
@@ -1111,7 +1111,7 @@ Allows an application to act as an AccountAuthenticator for the AccountManager.
 
 :ref:`bool<class_bool>` **permissions/battery_stats** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/battery_stats>`
 
-Allows an application to collect battery statistics. See `BATTERY_STATS <https://developer.android.com/reference/android/Manifest.permission#BATTERY_STATS>`__.
+Permite que una aplicación recopile estadísticas de batería. Véase `BATTERY_STATS <https://developer.android.com/reference/android/Manifest.permission#BATTERY_STATS>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1123,7 +1123,7 @@ Allows an application to collect battery statistics. See `BATTERY_STATS <https:/
 
 :ref:`bool<class_bool>` **permissions/bind_accessibility_service** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/bind_accessibility_service>`
 
-Must be required by an AccessibilityService, to ensure that only the system can bind to it. See `BIND_ACCESSIBILITY_SERVICE <https://developer.android.com/reference/android/Manifest.permission#BIND_ACCESSIBILITY_SERVICE>`__.
+Debe ser requerido por un AccessibilityService, para garantizar que solo el sistema pueda vincularse a él. Véase `BIND_ACCESSIBILITY_SERVICE <https://developer.android.com/reference/android/Manifest.permission#BIND_ACCESSIBILITY_SERVICE>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1135,7 +1135,7 @@ Must be required by an AccessibilityService, to ensure that only the system can 
 
 :ref:`bool<class_bool>` **permissions/bind_appwidget** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/bind_appwidget>`
 
-Allows an application to tell the AppWidget service which application can access AppWidget's data. See `BIND_APPWIDGET <https://developer.android.com/reference/android/Manifest.permission#BIND_APPWIDGET>`__.
+Permite que una aplicación le diga al servicio AppWidget qué aplicación puede acceder a los datos de AppWidget. Véase `BIND_APPWIDGET <https://developer.android.com/reference/android/Manifest.permission#BIND_APPWIDGET>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1147,7 +1147,7 @@ Allows an application to tell the AppWidget service which application can access
 
 :ref:`bool<class_bool>` **permissions/bind_device_admin** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/bind_device_admin>`
 
-Must be required by device administration receiver, to ensure that only the system can interact with it. See `BIND_DEVICE_ADMIN <https://developer.android.com/reference/android/Manifest.permission#BIND_DEVICE_ADMIN>`__.
+Debe ser requerido por el receptor de administración de dispositivos, para garantizar que solo el sistema pueda interactuar con él. Véase `BIND_DEVICE_ADMIN <https://developer.android.com/reference/android/Manifest.permission#BIND_DEVICE_ADMIN>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1159,7 +1159,7 @@ Must be required by device administration receiver, to ensure that only the syst
 
 :ref:`bool<class_bool>` **permissions/bind_input_method** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/bind_input_method>`
 
-Must be required by an InputMethodService, to ensure that only the system can bind to it. See `BIND_INPUT_METHOD <https://developer.android.com/reference/android/Manifest.permission#BIND_INPUT_METHOD>`__.
+Debe ser requerido por un InputMethodService, para garantizar que solo el sistema pueda vincularse a él. Véase `BIND_INPUT_METHOD <https://developer.android.com/reference/android/Manifest.permission#BIND_INPUT_METHOD>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1171,7 +1171,7 @@ Must be required by an InputMethodService, to ensure that only the system can bi
 
 :ref:`bool<class_bool>` **permissions/bind_nfc_service** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/bind_nfc_service>`
 
-Must be required by a HostApduService or OffHostApduService to ensure that only the system can bind to it. See `BIND_NFC_SERVICE <https://developer.android.com/reference/android/Manifest.permission#BIND_NFC_SERVICE>`__.
+Debe ser requerido por un HostApduService u OffHostApduService para garantizar que solo el sistema pueda vincularse a él. Véase `BIND_NFC_SERVICE <https://developer.android.com/reference/android/Manifest.permission#BIND_NFC_SERVICE>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1183,7 +1183,7 @@ Must be required by a HostApduService or OffHostApduService to ensure that only 
 
 :ref:`bool<class_bool>` **permissions/bind_notification_listener_service** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/bind_notification_listener_service>`
 
-Must be required by a NotificationListenerService, to ensure that only the system can bind to it. See `BIND_NOTIFICATION_LISTENER_SERVICE <https://developer.android.com/reference/android/Manifest.permission#BIND_NOTIFICATION_LISTENER_SERVICE>`__.
+Debe ser requerido por un NotificationListenerService, para garantizar que solo el sistema pueda vincularse a él. Véase `BIND_NOTIFICATION_LISTENER_SERVICE <https://developer.android.com/reference/android/Manifest.permission#BIND_NOTIFICATION_LISTENER_SERVICE>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1195,7 +1195,7 @@ Must be required by a NotificationListenerService, to ensure that only the syste
 
 :ref:`bool<class_bool>` **permissions/bind_print_service** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/bind_print_service>`
 
-Must be required by a PrintService, to ensure that only the system can bind to it. See `BIND_PRINT_SERVICE <https://developer.android.com/reference/android/Manifest.permission#BIND_PRINT_SERVICE>`__.
+Debe ser requerido por un PrintService, para garantizar que solo el sistema pueda vincularse a él. Véase `BIND_PRINT_SERVICE <https://developer.android.com/reference/android/Manifest.permission#BIND_PRINT_SERVICE>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1207,7 +1207,7 @@ Must be required by a PrintService, to ensure that only the system can bind to i
 
 :ref:`bool<class_bool>` **permissions/bind_remoteviews** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/bind_remoteviews>`
 
-Must be required by a RemoteViewsService, to ensure that only the system can bind to it. See `BIND_REMOTEVIEWS <https://developer.android.com/reference/android/Manifest.permission#BIND_REMOTEVIEWS>`__.
+Debe ser requerido por un RemoteViewsService, para garantizar que solo el sistema pueda vincularse a él. Véase `BIND_REMOTEVIEWS <https://developer.android.com/reference/android/Manifest.permission#BIND_REMOTEVIEWS>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1219,7 +1219,7 @@ Must be required by a RemoteViewsService, to ensure that only the system can bin
 
 :ref:`bool<class_bool>` **permissions/bind_text_service** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/bind_text_service>`
 
-Must be required by a TextService (e.g. SpellCheckerService) to ensure that only the system can bind to it. See `BIND_TEXT_SERVICE <https://developer.android.com/reference/android/Manifest.permission#BIND_TEXT_SERVICE>`__.
+Debe ser requerido por un TextService (ej. SpellCheckerService) para garantizar que solo el sistema pueda vincularse a él. Véase `BIND_TEXT_SERVICE <https://developer.android.com/reference/android/Manifest.permission#BIND_TEXT_SERVICE>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1231,7 +1231,7 @@ Must be required by a TextService (e.g. SpellCheckerService) to ensure that only
 
 :ref:`bool<class_bool>` **permissions/bind_vpn_service** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/bind_vpn_service>`
 
-Must be required by a VpnService, to ensure that only the system can bind to it. See `BIND_VPN_SERVICE <https://developer.android.com/reference/android/Manifest.permission#BIND_VPN_SERVICE>`__.
+Debe ser requerido por un VpnService, para garantizar que solo el sistema pueda vincularse a él. Véase `BIND_VPN_SERVICE <https://developer.android.com/reference/android/Manifest.permission#BIND_VPN_SERVICE>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1243,7 +1243,7 @@ Must be required by a VpnService, to ensure that only the system can bind to it.
 
 :ref:`bool<class_bool>` **permissions/bind_wallpaper** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/bind_wallpaper>`
 
-Must be required by a WallpaperService, to ensure that only the system can bind to it. See `BIND_WALLPAPER <https://developer.android.com/reference/android/Manifest.permission#BIND_WALLPAPER>`__.
+Debe ser requerido por un WallpaperService, para garantizar que solo el sistema pueda vincularse a él. Véase `BIND_WALLPAPER <https://developer.android.com/reference/android/Manifest.permission#BIND_WALLPAPER>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1519,7 +1519,7 @@ Permite activar/desactivar las notificaciones de actualización de la ubicación
 
 :ref:`PackedStringArray<class_PackedStringArray>` **permissions/custom_permissions** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/custom_permissions>`
 
-Array de cadenas de permisos personalizados.
+Array de strings de permisos personalizados.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedStringArray<class_PackedStringArray>` for more details.
 
@@ -2487,7 +2487,7 @@ Permite a las aplicaciones establecer el fondo de pantalla. Véase `SET_WALLPAPE
 
 :ref:`bool<class_bool>` **permissions/set_wallpaper_hints** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/set_wallpaper_hints>`
 
-Allows applications to set the wallpaper hints. See `SET_WALLPAPER_HINTS <https://developer.android.com/reference/android/Manifest.permission#SET_WALLPAPER_HINTS>`__.
+Permite que las aplicaciones establezcan las sugerencias del fondo de pantalla. Véase `SET_WALLPAPER_HINTS <https://developer.android.com/reference/android/Manifest.permission#SET_WALLPAPER_HINTS>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2499,7 +2499,7 @@ Allows applications to set the wallpaper hints. See `SET_WALLPAPER_HINTS <https:
 
 :ref:`bool<class_bool>` **permissions/signal_persistent_processes** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/signal_persistent_processes>`
 
-Allow an application to request that a signal be sent to all persistent processes. See `SIGNAL_PERSISTENT_PROCESSES <https://developer.android.com/reference/android/Manifest.permission#SIGNAL_PERSISTENT_PROCESSES>`__.
+Permite que una aplicación solicite que se envíe una señal a todos los procesos persistentes. Véase `SIGNAL_PERSISTENT_PROCESSES <https://developer.android.com/reference/android/Manifest.permission#SIGNAL_PERSISTENT_PROCESSES>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2511,7 +2511,7 @@ Allow an application to request that a signal be sent to all persistent processe
 
 :ref:`bool<class_bool>` **permissions/status_bar** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/status_bar>`
 
-Allows an application to open, close, or disable the status bar and its icons. See `STATUS_BAR <https://developer.android.com/reference/android/Manifest.permission#STATUS_BAR>`__.
+Permite que una aplicación abra, cierre o desactive la barra de estado y sus iconos. Véase `STATUS_BAR <https://developer.android.com/reference/android/Manifest.permission#STATUS_BAR>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2523,7 +2523,7 @@ Allows an application to open, close, or disable the status bar and its icons. S
 
 :ref:`bool<class_bool>` **permissions/subscribed_feeds_read** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/subscribed_feeds_read>`
 
-Allows an application to allow access the subscribed feeds ContentProvider.
+Permite que una aplicación permita el acceso al ContentProvider de fuentes suscritas.
 
 .. rst-class:: classref-item-separator
 
@@ -2547,7 +2547,7 @@ Allows an application to allow access the subscribed feeds ContentProvider.
 
 :ref:`bool<class_bool>` **permissions/system_alert_window** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/system_alert_window>`
 
-Allows an app to create windows using the type WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY, shown on top of all other apps. See `SYSTEM_ALERT_WINDOW <https://developer.android.com/reference/android/Manifest.permission#SYSTEM_ALERT_WINDOW>`__.
+Permite que una aplicación cree ventanas usando el tipo WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY, que se muestra encima de todas las demás aplicaciones. Véase `SYSTEM_ALERT_WINDOW <https://developer.android.com/reference/android/Manifest.permission#SYSTEM_ALERT_WINDOW>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2559,7 +2559,7 @@ Allows an app to create windows using the type WindowManager.LayoutParams.TYPE_A
 
 :ref:`bool<class_bool>` **permissions/transmit_ir** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/transmit_ir>`
 
-Allows using the device's IR transmitter, if available. See `TRANSMIT_IR <https://developer.android.com/reference/android/Manifest.permission#TRANSMIT_IR>`__.
+Permite usar el transmisor de infrarrojos del dispositivo, si está disponible. Véase `TRANSMIT_IR <https://developer.android.com/reference/android/Manifest.permission#TRANSMIT_IR>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2583,7 +2583,7 @@ Allows using the device's IR transmitter, if available. See `TRANSMIT_IR <https:
 
 :ref:`bool<class_bool>` **permissions/update_device_stats** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/update_device_stats>`
 
-Allows an application to update device statistics. See `UPDATE_DEVICE_STATS <https://developer.android.com/reference/android/Manifest.permission#UPDATE_DEVICE_STATS>`__.
+Permite que una aplicación actualice las estadísticas del dispositivo. Véase `UPDATE_DEVICE_STATS <https://developer.android.com/reference/android/Manifest.permission#UPDATE_DEVICE_STATS>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2595,7 +2595,7 @@ Allows an application to update device statistics. See `UPDATE_DEVICE_STATS <htt
 
 :ref:`bool<class_bool>` **permissions/use_credentials** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/use_credentials>`
 
-Allows an application to request authtokens from the AccountManager.
+Permite que una aplicación solicite authtokens del AccountManager.
 
 .. rst-class:: classref-item-separator
 
@@ -2607,7 +2607,7 @@ Allows an application to request authtokens from the AccountManager.
 
 :ref:`bool<class_bool>` **permissions/use_sip** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/use_sip>`
 
-Allows an application to use SIP service. See `USE_SIP <https://developer.android.com/reference/android/Manifest.permission#USE_SIP>`__.
+Permite que una aplicación utilice el servicio SIP. Véase `USE_SIP <https://developer.android.com/reference/android/Manifest.permission#USE_SIP>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2619,7 +2619,7 @@ Allows an application to use SIP service. See `USE_SIP <https://developer.androi
 
 :ref:`bool<class_bool>` **permissions/vibrate** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/vibrate>`
 
-Allows access to the vibrator. See `VIBRATE <https://developer.android.com/reference/android/Manifest.permission#VIBRATE>`__.
+Permite acceder al vibrador. Véase `VIBRATE <https://developer.android.com/reference/android/Manifest.permission#VIBRATE>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2631,7 +2631,7 @@ Allows access to the vibrator. See `VIBRATE <https://developer.android.com/refer
 
 :ref:`bool<class_bool>` **permissions/wake_lock** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/wake_lock>`
 
-Allows using PowerManager WakeLocks to keep processor from sleeping or screen from dimming. See `WAKE_LOCK <https://developer.android.com/reference/android/Manifest.permission#WAKE_LOCK>`__.
+Permite usar PowerManager WakeLocks para evitar que el procesador se suspenda o que la pantalla se atenúe. Véase `WAKE_LOCK <https://developer.android.com/reference/android/Manifest.permission#WAKE_LOCK>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2643,7 +2643,7 @@ Allows using PowerManager WakeLocks to keep processor from sleeping or screen fr
 
 :ref:`bool<class_bool>` **permissions/write_apn_settings** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/write_apn_settings>`
 
-Allows applications to write the apn settings and read sensitive fields of an existing apn settings like user and password. See `WRITE_APN_SETTINGS <https://developer.android.com/reference/android/Manifest.permission#WRITE_APN_SETTINGS>`__.
+Permite que las aplicaciones escriban la configuración apn y lean campos confidenciales de una configuración apn existente, como el usuario y la contraseña. Véase `WRITE_APN_SETTINGS <https://developer.android.com/reference/android/Manifest.permission#WRITE_APN_SETTINGS>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2655,7 +2655,7 @@ Allows applications to write the apn settings and read sensitive fields of an ex
 
 :ref:`bool<class_bool>` **permissions/write_calendar** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/write_calendar>`
 
-Allows an application to write the user's calendar data. See `WRITE_CALENDAR <https://developer.android.com/reference/android/Manifest.permission#WRITE_CALENDAR>`__.
+Permite que una aplicación escriba los datos del calendario del usuario. Véase `WRITE_CALENDAR <https://developer.android.com/reference/android/Manifest.permission#WRITE_CALENDAR>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2667,7 +2667,7 @@ Allows an application to write the user's calendar data. See `WRITE_CALENDAR <ht
 
 :ref:`bool<class_bool>` **permissions/write_call_log** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/write_call_log>`
 
-Allows an application to write (but not read) the user's call log data. See `WRITE_CALL_LOG <https://developer.android.com/reference/android/Manifest.permission#WRITE_CALL_LOG>`__.
+Permite que una aplicación escriba (pero no lea) los datos del registro de llamadas del usuario. Véase `WRITE_CALL_LOG <https://developer.android.com/reference/android/Manifest.permission#WRITE_CALL_LOG>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2679,7 +2679,7 @@ Allows an application to write (but not read) the user's call log data. See `WRI
 
 :ref:`bool<class_bool>` **permissions/write_contacts** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/write_contacts>`
 
-Allows an application to write the user's contacts data. See `WRITE_CONTACTS <https://developer.android.com/reference/android/Manifest.permission#WRITE_CONTACTS>`__.
+Permite que una aplicación escriba los datos de los contactos del usuario. Véase `WRITE_CONTACTS <https://developer.android.com/reference/android/Manifest.permission#WRITE_CONTACTS>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2691,7 +2691,7 @@ Allows an application to write the user's contacts data. See `WRITE_CONTACTS <ht
 
 :ref:`bool<class_bool>` **permissions/write_external_storage** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/write_external_storage>`
 
-Allows an application to write to external storage. See `WRITE_EXTERNAL_STORAGE <https://developer.android.com/reference/android/Manifest.permission#WRITE_EXTERNAL_STORAGE>`__.
+Permite que una aplicación escriba en el almacenamiento externo. Véase `WRITE_EXTERNAL_STORAGE <https://developer.android.com/reference/android/Manifest.permission#WRITE_EXTERNAL_STORAGE>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2703,7 +2703,7 @@ Allows an application to write to external storage. See `WRITE_EXTERNAL_STORAGE 
 
 :ref:`bool<class_bool>` **permissions/write_gservices** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/write_gservices>`
 
-Allows an application to modify the Google service map. See `WRITE_GSERVICES <https://developer.android.com/reference/android/Manifest.permission#WRITE_GSERVICES>`__.
+Permite que una aplicación modifique el mapa de servicios de Google. Véase `WRITE_GSERVICES <https://developer.android.com/reference/android/Manifest.permission#WRITE_GSERVICES>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2727,7 +2727,7 @@ Permite que una aplicación escriba (pero no lea) el historial de navegación y 
 
 :ref:`bool<class_bool>` **permissions/write_profile** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/write_profile>`
 
-Allows an application to write (but not read) the user's personal profile data.
+Permite que una aplicación escriba (pero no lea) los datos del perfil personal del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -2739,7 +2739,7 @@ Allows an application to write (but not read) the user's personal profile data.
 
 :ref:`bool<class_bool>` **permissions/write_secure_settings** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/write_secure_settings>`
 
-Allows an application to read or write the secure system settings. See `WRITE_SECURE_SETTINGS <https://developer.android.com/reference/android/Manifest.permission#WRITE_SECURE_SETTINGS>`__.
+Permite que una aplicación lea o escriba la configuración segura del sistema. Véase `WRITE_SECURE_SETTINGS <https://developer.android.com/reference/android/Manifest.permission#WRITE_SECURE_SETTINGS>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2751,7 +2751,7 @@ Allows an application to read or write the secure system settings. See `WRITE_SE
 
 :ref:`bool<class_bool>` **permissions/write_settings** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/write_settings>`
 
-Allows an application to read or write the system settings. See `WRITE_SETTINGS <https://developer.android.com/reference/android/Manifest.permission#WRITE_SETTINGS>`__.
+Permite que una aplicación lea o escriba la configuración del sistema. Véase `WRITE_SETTINGS <https://developer.android.com/reference/android/Manifest.permission#WRITE_SETTINGS>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2787,7 +2787,7 @@ Allows an application to write (but not read) the user's social stream data.
 
 :ref:`bool<class_bool>` **permissions/write_sync_settings** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/write_sync_settings>`
 
-Allows applications to write the sync settings. See `WRITE_SYNC_SETTINGS <https://developer.android.com/reference/android/Manifest.permission#WRITE_SYNC_SETTINGS>`__.
+Permite que las aplicaciones escriban la configuración de sincronización. Véase `WRITE_SYNC_SETTINGS <https://developer.android.com/reference/android/Manifest.permission#WRITE_SYNC_SETTINGS>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2799,7 +2799,7 @@ Allows applications to write the sync settings. See `WRITE_SYNC_SETTINGS <https:
 
 :ref:`bool<class_bool>` **permissions/write_user_dictionary** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/write_user_dictionary>`
 
-Allows an application to write to the user dictionary.
+Permite que una aplicación escriba en el diccionario del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -2811,7 +2811,7 @@ Allows an application to write to the user dictionary.
 
 :ref:`Color<class_Color>` **screen/background_color** :ref:`🔗<class_EditorExportPlatformAndroid_property_screen/background_color>`
 
-The background color used for the root window. Default is ``black``.
+El color de fondo utilizado para la ventana raíz. El valor predeterminado es ``black``.
 
 .. rst-class:: classref-item-separator
 
@@ -2823,9 +2823,9 @@ The background color used for the root window. Default is ``black``.
 
 :ref:`bool<class_bool>` **screen/edge_to_edge** :ref:`🔗<class_EditorExportPlatformAndroid_property_screen/edge_to_edge>`
 
-If ``true``, this makes the navigation and status bars translucent and allows the application content to extend edge to edge.
+Si es ``true``, esto hace que las barras de navegación y de estado sean translúcidas y permite que el contenido de la aplicación se extienda de borde a borde.
 
-\ **Note:** You should ensure that none of the application content is occluded by system elements by using the :ref:`DisplayServer.get_display_safe_area()<class_DisplayServer_method_get_display_safe_area>` and :ref:`DisplayServer.get_display_cutouts()<class_DisplayServer_method_get_display_cutouts>` methods.
+\ **Nota:** Debes asegurarte de que ningún elemento del sistema ocluya el contenido de la aplicación utilizando los métodos :ref:`DisplayServer.get_display_safe_area()<class_DisplayServer_method_get_display_safe_area>` y :ref:`DisplayServer.get_display_cutouts()<class_DisplayServer_method_get_display_cutouts>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2837,7 +2837,7 @@ If ``true``, this makes the navigation and status bars translucent and allows th
 
 :ref:`bool<class_bool>` **screen/immersive_mode** :ref:`🔗<class_EditorExportPlatformAndroid_property_screen/immersive_mode>`
 
-If ``true``, hides the navigation and status bar. Set :ref:`DisplayServer.window_set_mode()<class_DisplayServer_method_window_set_mode>` to change this at runtime.
+Si es ``true``, oculta la barra de navegación y la de estado. Establece :ref:`DisplayServer.window_set_mode()<class_DisplayServer_method_window_set_mode>` para cambiar esto en tiempo de ejecución.
 
 .. rst-class:: classref-item-separator
 
@@ -2849,7 +2849,7 @@ If ``true``, hides the navigation and status bar. Set :ref:`DisplayServer.window
 
 :ref:`bool<class_bool>` **screen/support_large** :ref:`🔗<class_EditorExportPlatformAndroid_property_screen/support_large>`
 
-Indicates whether the application supports larger screen form-factors.
+Indica si la aplicación soporta factores de forma de pantalla más grandes.
 
 .. rst-class:: classref-item-separator
 
@@ -2861,7 +2861,7 @@ Indicates whether the application supports larger screen form-factors.
 
 :ref:`bool<class_bool>` **screen/support_normal** :ref:`🔗<class_EditorExportPlatformAndroid_property_screen/support_normal>`
 
-Indicates whether an application supports the "normal" screen form-factors.
+Indica si una aplicación soporta los factores de forma de pantalla "normales".
 
 .. rst-class:: classref-item-separator
 
@@ -2897,7 +2897,7 @@ Indica si la aplicación admite factores de formato de pantalla extra grandes.
 
 :ref:`bool<class_bool>` **shader_baker/enabled** :ref:`🔗<class_EditorExportPlatformAndroid_property_shader_baker/enabled>`
 
-If ``true``, shaders will be compiled and embedded in the application. This option is only supported when using the Forward+ or Mobile renderers.
+Si es ``true``, los shaders se compilarán e integrarán en la aplicación. Esta opción solo es compatible cuando se utilizan los renderizadores Forward+ o Mobile.
 
 .. rst-class:: classref-item-separator
 
@@ -2909,7 +2909,7 @@ If ``true``, shaders will be compiled and embedded in the application. This opti
 
 :ref:`bool<class_bool>` **user_data_backup/allow** :ref:`🔗<class_EditorExportPlatformAndroid_property_user_data_backup/allow>`
 
-If ``true``, allows the application to participate in the backup and restore infrastructure.
+Si es ``true``, permite que la aplicación participe en la infraestructura de copia de seguridad y restauración.
 
 .. rst-class:: classref-item-separator
 
@@ -2921,7 +2921,7 @@ If ``true``, allows the application to participate in the backup and restore inf
 
 :ref:`int<class_int>` **version/code** :ref:`🔗<class_EditorExportPlatformAndroid_property_version/code>`
 
-Machine-readable application version. This must be incremented for every new release pushed to the Play Store.
+Versión de la aplicación legible por máquina. Debe incrementarse con cada nuevo lanzamiento enviado a Play Store.
 
 .. rst-class:: classref-item-separator
 
@@ -2933,7 +2933,7 @@ Machine-readable application version. This must be incremented for every new rel
 
 :ref:`String<class_String>` **version/name** :ref:`🔗<class_EditorExportPlatformAndroid_property_version/name>`
 
-Application version visible to the user. Falls back to :ref:`ProjectSettings.application/config/version<class_ProjectSettings_property_application/config/version>` if left empty.
+Versión de la aplicación visible para el usuario. Si se deja vacía, se recurre a :ref:`ProjectSettings.application/config/version<class_ProjectSettings_property_application/config/version>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2945,7 +2945,7 @@ Application version visible to the user. Falls back to :ref:`ProjectSettings.app
 
 :ref:`int<class_int>` **xr_features/xr_mode** :ref:`🔗<class_EditorExportPlatformAndroid_property_xr_features/xr_mode>`
 
-The extended reality (XR) mode for this application.
+El modo de realidad extendida (XR) para esta aplicación.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

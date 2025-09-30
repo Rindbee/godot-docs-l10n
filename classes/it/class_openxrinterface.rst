@@ -112,7 +112,7 @@ Segnali
 
 **cpu_level_changed**\ (\ sub_domain\: :ref:`int<class_int>`, from_level\: :ref:`int<class_int>`, to_level\: :ref:`int<class_int>`\ ) :ref:`🔗<class_OpenXRInterface_signal_cpu_level_changed>`
 
-Informs the device CPU performance level has changed in the specified subdomain.
+Informa il dispositivo che il livello di prestazioni della CPU è cambiato nel sottodominio specificato.
 
 .. rst-class:: classref-item-separator
 
@@ -124,7 +124,7 @@ Informs the device CPU performance level has changed in the specified subdomain.
 
 **gpu_level_changed**\ (\ sub_domain\: :ref:`int<class_int>`, from_level\: :ref:`int<class_int>`, to_level\: :ref:`int<class_int>`\ ) :ref:`🔗<class_OpenXRInterface_signal_gpu_level_changed>`
 
-Informs the device GPU performance level has changed in the specified subdomain.
+Informa il dispositivo che il livello di prestazioni della GPU è cambiato nel sottodominio specificato.
 
 .. rst-class:: classref-item-separator
 
@@ -186,7 +186,7 @@ Informa che la nostra sessione OpenXR è stata avviata.
 
 **session_focussed**\ (\ ) :ref:`🔗<class_OpenXRInterface_signal_session_focussed>`
 
-Informs our OpenXR session now has focus, for example output is sent to the HMD and we're receiving XR input.
+Informa che la nostra sessione OpenXR è ora focalizzata, ad esempio l'output viene inviato all'HMD e stiamo ricevendo input XR.
 
 .. rst-class:: classref-item-separator
 
@@ -222,7 +222,7 @@ Informa che la nostra sessione OpenXR si sta interrompendo.
 
 **session_synchronized**\ (\ ) :ref:`🔗<class_OpenXRInterface_signal_session_synchronized>`
 
-Informs our OpenXR session has been synchronized.
+Informa che la nostra sessione OpenXR è stata sincronizzata.
 
 .. rst-class:: classref-item-separator
 
@@ -234,7 +234,7 @@ Informs our OpenXR session has been synchronized.
 
 **session_visible**\ (\ ) :ref:`🔗<class_OpenXRInterface_signal_session_visible>`
 
-Informs our OpenXR session is now visible, for example output is sent to the HMD but we don't receive XR input.
+Informa che la nostra sessione OpenXR è ora visibile, ad esempio l'output viene inviato all'HMD e ma non riceviamo input XR.
 
 .. rst-class:: classref-section-separator
 
@@ -257,7 +257,7 @@ enum **SessionState**: :ref:`🔗<enum_OpenXRInterface_SessionState>`
 
 :ref:`SessionState<enum_OpenXRInterface_SessionState>` **SESSION_STATE_UNKNOWN** = ``0``
 
-The state of the session is unknown, we haven't tried setting up OpenXR yet.
+Lo stato della sessione è sconosciuto, non abbiamo ancora provato a configurare OpenXR.
 
 .. _class_OpenXRInterface_constant_SESSION_STATE_IDLE:
 
@@ -265,7 +265,7 @@ The state of the session is unknown, we haven't tried setting up OpenXR yet.
 
 :ref:`SessionState<enum_OpenXRInterface_SessionState>` **SESSION_STATE_IDLE** = ``1``
 
-The initial state after the OpenXR session is created or after the session is destroyed.
+Lo stato iniziale dopo la creazione della sessione OpenXR o dopo la sua eliminazione.
 
 .. _class_OpenXRInterface_constant_SESSION_STATE_READY:
 
@@ -273,7 +273,7 @@ The initial state after the OpenXR session is created or after the session is de
 
 :ref:`SessionState<enum_OpenXRInterface_SessionState>` **SESSION_STATE_READY** = ``2``
 
-OpenXR is ready to begin our session. :ref:`session_begun<class_OpenXRInterface_signal_session_begun>` is emitted when we change to this state.
+OpenXR è pronto per iniziare la nostra sessione. :ref:`session_begun<class_OpenXRInterface_signal_session_begun>` viene emesso quando si passa a questo stato.
 
 .. _class_OpenXRInterface_constant_SESSION_STATE_SYNCHRONIZED:
 
@@ -281,7 +281,7 @@ OpenXR is ready to begin our session. :ref:`session_begun<class_OpenXRInterface_
 
 :ref:`SessionState<enum_OpenXRInterface_SessionState>` **SESSION_STATE_SYNCHRONIZED** = ``3``
 
-The application has synched its frame loop with the runtime but we're not rendering anything. :ref:`session_synchronized<class_OpenXRInterface_signal_session_synchronized>` is emitted when we change to this state.
+L'applicazione ha sincronizzato il suo ciclo di frame con l'esecuzione, ma nulla è stato renderizzando ancora. :ref:`session_synchronized<class_OpenXRInterface_signal_session_synchronized>` viene emesso quando si passa a questo stato.
 
 .. _class_OpenXRInterface_constant_SESSION_STATE_VISIBLE:
 
@@ -289,9 +289,9 @@ The application has synched its frame loop with the runtime but we're not render
 
 :ref:`SessionState<enum_OpenXRInterface_SessionState>` **SESSION_STATE_VISIBLE** = ``4``
 
-The application has synched its frame loop with the runtime and we're rendering output to the user, however we receive no user input. :ref:`session_visible<class_OpenXRInterface_signal_session_visible>` is emitted when we change to this state.
+L'applicazione ha sincronizzato il suo ciclo di frame con l'esecuzione e si sta renderizzando il risultato all'utente, tuttavia non è stato ricevuto alcun input dall'utente. :ref:`session_visible<class_OpenXRInterface_signal_session_visible>` viene emesso quando si passa a questo stato.
 
-\ **Note:** This is the current state just before we get the focused state, whenever the user opens a system menu, switches to another application, or takes off their headset.
+\ **Nota:** Questo è lo stato attuale appena prima di ottenere lo stato focalizzato, ogni volta che l'utente apre un menu di sistema, passa a un'altra applicazione o si toglie il visore.
 
 .. _class_OpenXRInterface_constant_SESSION_STATE_FOCUSED:
 
@@ -299,9 +299,9 @@ The application has synched its frame loop with the runtime and we're rendering 
 
 :ref:`SessionState<enum_OpenXRInterface_SessionState>` **SESSION_STATE_FOCUSED** = ``5``
 
-The application has synched its frame loop with the runtime, we're rendering output to the user and we're receiving XR input. :ref:`session_focussed<class_OpenXRInterface_signal_session_focussed>` is emitted when we change to this state.
+L'applicazione ha sincronizzato il suo ciclo di frame con l'esecuzione, si sta renderizzando il risultato all'utente e si sta ricevendo l'input XR. :ref:`session_focussed<class_OpenXRInterface_signal_session_focussed>` viene emesso quando si passa a questo stato.
 
-\ **Note:** This is the state OpenXR will be in when the user can fully interact with your game.
+\ **Nota:** Questo è lo stato in cui si troverà OpenXR quando l'utente potrà interagire completamente con il gioco.
 
 .. _class_OpenXRInterface_constant_SESSION_STATE_STOPPING:
 
@@ -309,7 +309,7 @@ The application has synched its frame loop with the runtime, we're rendering out
 
 :ref:`SessionState<enum_OpenXRInterface_SessionState>` **SESSION_STATE_STOPPING** = ``6``
 
-Our session is being stopped. :ref:`session_stopping<class_OpenXRInterface_signal_session_stopping>` is emitted when we change to this state.
+La nostra sessione è in interruzione. :ref:`session_stopping<class_OpenXRInterface_signal_session_stopping>` viene emesso quando si passa a questo stato.
 
 .. _class_OpenXRInterface_constant_SESSION_STATE_LOSS_PENDING:
 
@@ -317,7 +317,7 @@ Our session is being stopped. :ref:`session_stopping<class_OpenXRInterface_signa
 
 :ref:`SessionState<enum_OpenXRInterface_SessionState>` **SESSION_STATE_LOSS_PENDING** = ``7``
 
-The session is about to be lost. :ref:`session_loss_pending<class_OpenXRInterface_signal_session_loss_pending>` is emitted when we change to this state.
+La sessione sta per perdersi. :ref:`session_loss_pending<class_OpenXRInterface_signal_session_loss_pending>` viene emesso quando si passa a questo stato.
 
 .. _class_OpenXRInterface_constant_SESSION_STATE_EXITING:
 
@@ -325,7 +325,7 @@ The session is about to be lost. :ref:`session_loss_pending<class_OpenXRInterfac
 
 :ref:`SessionState<enum_OpenXRInterface_SessionState>` **SESSION_STATE_EXITING** = ``8``
 
-The OpenXR instance is about to be destroyed and we're existing. :ref:`instance_exiting<class_OpenXRInterface_signal_instance_exiting>` is emitted when we change to this state.
+L'istanza OpenXR sta per distruggersi e si sta uscendo. :ref:`instance_exiting<class_OpenXRInterface_signal_instance_exiting>` viene emesso quando si passa a questo stato.
 
 .. rst-class:: classref-item-separator
 
@@ -435,7 +435,7 @@ La sorgente dei dati di tracciamento della mano è un controller, le posizioni d
 
 :ref:`HandTrackedSource<enum_OpenXRInterface_HandTrackedSource>` **HAND_TRACKED_SOURCE_MAX** = ``3``
 
-Represents the size of the :ref:`HandTrackedSource<enum_OpenXRInterface_HandTrackedSource>` enum.
+Rappresenta la dimensione dell'enumerazione :ref:`HandTrackedSource<enum_OpenXRInterface_HandTrackedSource>`.
 
 .. rst-class:: classref-item-separator
 
@@ -661,7 +661,7 @@ Articolazione della punta del mignolo.
 
 :ref:`HandJoints<enum_OpenXRInterface_HandJoints>` **HAND_JOINT_MAX** = ``26``
 
-Represents the size of the :ref:`HandJoints<enum_OpenXRInterface_HandJoints>` enum.
+Rappresenta la dimensione dell'enumerazione :ref:`HandJoints<enum_OpenXRInterface_HandJoints>`.
 
 .. rst-class:: classref-item-separator
 
@@ -679,7 +679,7 @@ enum **PerfSettingsLevel**: :ref:`🔗<enum_OpenXRInterface_PerfSettingsLevel>`
 
 :ref:`PerfSettingsLevel<enum_OpenXRInterface_PerfSettingsLevel>` **PERF_SETTINGS_LEVEL_POWER_SAVINGS** = ``0``
 
-The application has entered a non-XR section (head-locked / static screen), during which power savings are to be prioritized.
+L'applicazione è entrata in una sezione non XR (testa bloccata o schermo statico), durante la quale si deve priorizzare il risparmio energetico.
 
 .. _class_OpenXRInterface_constant_PERF_SETTINGS_LEVEL_SUSTAINED_LOW:
 
@@ -687,7 +687,7 @@ The application has entered a non-XR section (head-locked / static screen), duri
 
 :ref:`PerfSettingsLevel<enum_OpenXRInterface_PerfSettingsLevel>` **PERF_SETTINGS_LEVEL_SUSTAINED_LOW** = ``1``
 
-The application has entered a low and stable complexity section, during which reducing power is more important than occasional late rendering frames.
+L'applicazione è entrata in una sezione di complessità bassa e stabile, durante la quale la riduzione del consumo energetico è più importante dei frame di rendering occasionalmente in ritardo.
 
 .. _class_OpenXRInterface_constant_PERF_SETTINGS_LEVEL_SUSTAINED_HIGH:
 
@@ -695,7 +695,7 @@ The application has entered a low and stable complexity section, during which re
 
 :ref:`PerfSettingsLevel<enum_OpenXRInterface_PerfSettingsLevel>` **PERF_SETTINGS_LEVEL_SUSTAINED_HIGH** = ``2``
 
-The application has entered a high or dynamic complexity section, during which the XR Runtime strives for consistent XR compositing and frame rendering within a thermally sustainable range.
+L'applicazione è entrata in una sezione di complessità elevata o dinamica, durante la quale il Runtime XR si impegna a ottenere un compositing XR e un rendering dei frame costanti entro un intervallo termicamente sostenibile.
 
 .. _class_OpenXRInterface_constant_PERF_SETTINGS_LEVEL_BOOST:
 
@@ -703,7 +703,7 @@ The application has entered a high or dynamic complexity section, during which t
 
 :ref:`PerfSettingsLevel<enum_OpenXRInterface_PerfSettingsLevel>` **PERF_SETTINGS_LEVEL_BOOST** = ``3``
 
-The application has entered a section with very high complexity, during which the XR Runtime is allowed to step up beyond the thermally sustainable range.
+L'applicazione è entrata in una sezione di complessità molto elevata, durante la quale il Runtime XR può superare l'intervallo termicamente sostenibile.
 
 .. rst-class:: classref-item-separator
 
@@ -721,7 +721,7 @@ enum **PerfSettingsSubDomain**: :ref:`🔗<enum_OpenXRInterface_PerfSettingsSubD
 
 :ref:`PerfSettingsSubDomain<enum_OpenXRInterface_PerfSettingsSubDomain>` **PERF_SETTINGS_SUB_DOMAIN_COMPOSITING** = ``0``
 
-The compositing performance within the runtime has reached a new level.
+Le prestazioni di compositing in fase di esecuzione hanno raggiunto un nuovo livello.
 
 .. _class_OpenXRInterface_constant_PERF_SETTINGS_SUB_DOMAIN_RENDERING:
 
@@ -729,7 +729,7 @@ The compositing performance within the runtime has reached a new level.
 
 :ref:`PerfSettingsSubDomain<enum_OpenXRInterface_PerfSettingsSubDomain>` **PERF_SETTINGS_SUB_DOMAIN_RENDERING** = ``1``
 
-The application rendering performance has reached a new level.
+Le prestazioni di rendering delle applicazioni hanno raggiunto un nuovo livello.
 
 .. _class_OpenXRInterface_constant_PERF_SETTINGS_SUB_DOMAIN_THERMAL:
 
@@ -737,7 +737,7 @@ The application rendering performance has reached a new level.
 
 :ref:`PerfSettingsSubDomain<enum_OpenXRInterface_PerfSettingsSubDomain>` **PERF_SETTINGS_SUB_DOMAIN_THERMAL** = ``2``
 
-The temperature of the device has reached a new level.
+La temperatura del dispositivo ha raggiunto un nuovo livello.
 
 .. rst-class:: classref-item-separator
 
@@ -755,7 +755,7 @@ enum **PerfSettingsNotificationLevel**: :ref:`🔗<enum_OpenXRInterface_PerfSett
 
 :ref:`PerfSettingsNotificationLevel<enum_OpenXRInterface_PerfSettingsNotificationLevel>` **PERF_SETTINGS_NOTIF_LEVEL_NORMAL** = ``0``
 
-The sub-domain has reached a level where no further actions other than currently applied are necessary.
+Il sottodominio ha raggiunto un livello in cui non sono necessarie ulteriori azioni oltre a quelle attualmente applicate.
 
 .. _class_OpenXRInterface_constant_PERF_SETTINGS_NOTIF_LEVEL_WARNING:
 
@@ -763,7 +763,7 @@ The sub-domain has reached a level where no further actions other than currently
 
 :ref:`PerfSettingsNotificationLevel<enum_OpenXRInterface_PerfSettingsNotificationLevel>` **PERF_SETTINGS_NOTIF_LEVEL_WARNING** = ``1``
 
-The sub-domain has reached an early warning level where the application should start proactive mitigation actions.
+Il sottodominio ha raggiunto un livello precoce di allerta tale per cui l'applicazione dovrebbe avviare azioni proattive di mitigazione.
 
 .. _class_OpenXRInterface_constant_PERF_SETTINGS_NOTIF_LEVEL_IMPAIRED:
 
@@ -771,7 +771,7 @@ The sub-domain has reached an early warning level where the application should s
 
 :ref:`PerfSettingsNotificationLevel<enum_OpenXRInterface_PerfSettingsNotificationLevel>` **PERF_SETTINGS_NOTIF_LEVEL_IMPAIRED** = ``2``
 
-The sub-domain has reached a critical level where the application should start drastic mitigation actions.
+Il sottodominio ha raggiunto un livello critico tale per cui l'applicazione dovrebbe avviare drastiche azioni di mitigazione.
 
 .. rst-class:: classref-item-separator
 
@@ -876,9 +876,9 @@ La frequenza di aggiornamento del display per l'HMD corrente. Funziona solo se q
 - |void| **set_foveation_dynamic**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_foveation_dynamic**\ (\ )
 
-Enable dynamic foveation adjustment, the interface must be initialized before this is accessible. If enabled foveation will automatically adjusted between low and :ref:`foveation_level<class_OpenXRInterface_property_foveation_level>`.
+Abilita la regolazione dinamica della foveazione, l'interfaccia deve essere inizializzata prima che sia accessibile. Se abilitata, la foveazione sarà regolata automaticamente tra bassa e :ref:`foveation_level<class_OpenXRInterface_property_foveation_level>`.
 
-\ **Note:** Only works on the Compatibility renderer.
+\ **Nota:** Funziona solo sul renderer Compatibilità.
 
 .. rst-class:: classref-item-separator
 
@@ -895,9 +895,9 @@ Enable dynamic foveation adjustment, the interface must be initialized before th
 - |void| **set_foveation_level**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_foveation_level**\ (\ )
 
-Set foveation level from 0 (off) to 3 (high), the interface must be initialized before this is accessible.
+Imposta il livello di foveazione da 0 (spento) a 3 (alto), l'interfaccia deve essere inizializzata prima che sia accessibile.
 
-\ **Note:** Only works on the Compatibility renderer.
+\ **Nota:** Funziona solo sul renderer Compatibilità.
 
 .. rst-class:: classref-item-separator
 
@@ -1103,7 +1103,7 @@ Se il tracciamento manuale è abilitato e l'intervallo di movimento è supportat
 
 :ref:`SessionState<enum_OpenXRInterface_SessionState>` **get_session_state**\ (\ ) :ref:`🔗<class_OpenXRInterface_method_get_session_state>`
 
-Returns the current state of our OpenXR session.
+Restituisce lo stato attuale della nostra sessione OpenXR.
 
 .. rst-class:: classref-item-separator
 
@@ -1141,9 +1141,9 @@ Restituisce le capacità dell'estensione di interazione dello sguardo.
 
 :ref:`bool<class_bool>` **is_foveation_supported**\ (\ ) |const| :ref:`🔗<class_OpenXRInterface_method_is_foveation_supported>`
 
-Returns ``true`` if OpenXR's foveation extension is supported, the interface must be initialized before this returns a valid value.
+Restituisce ``true`` se l'estensione di foveazione di OpenXR è supportata, l'interfaccia deve essere inizializzata prima che questo restituisca un valore valido.
 
-\ **Note:** This feature is only available on the Compatibility renderer and currently only available on some stand alone headsets. For Vulkan set :ref:`Viewport.vrs_mode<class_Viewport_property_vrs_mode>` to ``VRS_XR`` on desktop.
+\ **Nota:** Questa funzionalità è disponibile solo sul renderer Compatibilità e attualmente disponibile soltanto su alcuni visori autonomi. Per Vulkan imposta :ref:`Viewport.vrs_mode<class_Viewport_property_vrs_mode>` su ``VRS_XR`` su desktop.
 
 .. rst-class:: classref-item-separator
 
@@ -1195,7 +1195,7 @@ Imposta l'insieme di azioni come attivo o inattivo.
 
 |void| **set_cpu_level**\ (\ level\: :ref:`PerfSettingsLevel<enum_OpenXRInterface_PerfSettingsLevel>`\ ) :ref:`🔗<class_OpenXRInterface_method_set_cpu_level>`
 
-Sets the CPU performance level of the OpenXR device.
+Imposta il livello di prestazioni della CPU del dispositivo OpenXR.
 
 .. rst-class:: classref-item-separator
 
@@ -1207,7 +1207,7 @@ Sets the CPU performance level of the OpenXR device.
 
 |void| **set_gpu_level**\ (\ level\: :ref:`PerfSettingsLevel<enum_OpenXRInterface_PerfSettingsLevel>`\ ) :ref:`🔗<class_OpenXRInterface_method_set_gpu_level>`
 
-Sets the GPU performance level of the OpenXR device.
+Imposta il livello di prestazioni della GPU del dispositivo OpenXR.
 
 .. rst-class:: classref-item-separator
 

@@ -117,7 +117,7 @@ Descripciones de Propiedades
 - |void| **set_pseudolocalization_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_pseudolocalization_enabled**\ (\ )
 
-Si es ``true``, habilita el uso de pseudolocalización en el dominio de traducción principal. Consulta :ref:`ProjectSettings.internationalization/pseudolocalization/use_pseudolocalization<class_ProjectSettings_property_internationalization/pseudolocalization/use_pseudolocalization>` para más detalles.
+Si es ``true``, habilita el uso de pseudolocalización en el dominio de traducción principal. Véase :ref:`ProjectSettings.internationalization/pseudolocalization/use_pseudolocalization<class_ProjectSettings_property_internationalization/pseudolocalization/use_pseudolocalization>` para más detalles.
 
 .. rst-class:: classref-section-separator
 
@@ -244,7 +244,7 @@ Devuelve un array de todas las configuraciones regionales cargadas del proyecto.
 
 Devuelve la configuración regional actual del proyecto.
 
-Consulta también :ref:`OS.get_locale()<class_OS_method_get_locale>` y :ref:`OS.get_locale_language()<class_OS_method_get_locale_language>` para consultar la configuración regional del sistema del usuario.
+Véase también :ref:`OS.get_locale()<class_OS_method_get_locale>` y :ref:`OS.get_locale_language()<class_OS_method_get_locale_language>` para consultar la configuración regional del sistema del usuario.
 
 .. rst-class:: classref-item-separator
 

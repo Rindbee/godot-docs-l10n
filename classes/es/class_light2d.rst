@@ -257,7 +257,7 @@ El valor energético de Light2D. Cuanto mayor sea el valor, más fuerte es la lu
 - |void| **set_item_cull_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_item_cull_mask**\ (\ )
 
-La máscara de capa. Solo los objetos con una :ref:`CanvasItem.light_mask<class_CanvasItem_property_light_mask>` coincidente se verán afectados por la Light2D. Consulta también :ref:`shadow_item_cull_mask<class_Light2D_property_shadow_item_cull_mask>`, que afecta a qué objetos pueden proyectar sombras.
+La máscara de capa. Solo los objetos con una :ref:`CanvasItem.light_mask<class_CanvasItem_property_light_mask>` coincidente se verán afectados por la Light2D. Véase también :ref:`shadow_item_cull_mask<class_Light2D_property_shadow_item_cull_mask>`, que afecta a qué objetos pueden proyectar sombras.
 
 \ **Nota:** :ref:`range_item_cull_mask<class_Light2D_property_range_item_cull_mask>` es ignorado por :ref:`DirectionalLight2D<class_DirectionalLight2D>`, que siempre iluminará un nodo 2D independientemente de la :ref:`CanvasItem.light_mask<class_CanvasItem_property_light_mask>` del nodo 2D.
 
@@ -412,7 +412,7 @@ Valor de suavizado para las sombras. Los valores más altos resultarán en sombr
 - |void| **set_item_shadow_cull_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_item_shadow_cull_mask**\ (\ )
 
-La máscara de sombra. Se usa con :ref:`LightOccluder2D<class_LightOccluder2D>` para proyectar sombras. Solo los oclusores con una :ref:`CanvasItem.light_mask<class_CanvasItem_property_light_mask>` coincidente proyectarán sombras. Consulta también :ref:`range_item_cull_mask<class_Light2D_property_range_item_cull_mask>`, que afecta a qué objetos pueden *recibir* la luz.
+La máscara de sombra. Se usa con :ref:`LightOccluder2D<class_LightOccluder2D>` para proyectar sombras. Solo los oclusores con una :ref:`CanvasItem.light_mask<class_CanvasItem_property_light_mask>` coincidente proyectarán sombras. Véase también :ref:`range_item_cull_mask<class_Light2D_property_range_item_cull_mask>`, que afecta a qué objetos pueden *recibir* la luz.
 
 .. rst-class:: classref-section-separator
 

@@ -249,7 +249,7 @@ Vous permet de définir un indice personnalisé, une chaîne d'indice et des dra
 
     @export_custom(PROPERTY_HINT_NONE, "suffix:m") var suffix: Vector3
 
-\ **Remarque :** Quelle que soit la valeur de ``usage``, le drapeau\ :ref:`@GlobalScope.PROPERTY_USAGE_SCRIPT_VARIABLE<class_@GlobalScope_constant_PROPERTY_USAGE_SCRIPT_VARIABLE>` est toujours ajouté, comme pour toute variable de script explicitement déclarée.
+\ **Remarque :** Quelle que soit la valeur de ``usage``, le drapeau :ref:`@GlobalScope.PROPERTY_USAGE_SCRIPT_VARIABLE<class_@GlobalScope_constant_PROPERTY_USAGE_SCRIPT_VARIABLE>` est toujours ajouté, comme pour toute variable de script explicitement déclarée.
 
 .. rst-class:: classref-item-separator
 
@@ -382,20 +382,20 @@ Voir également :ref:`@GlobalScope.PROPERTY_HINT_FLAGS<class_@GlobalScope_consta
 
 ::
 
-    @export_flags("Feu", "Eau", "Terre", "Vent") var éléments_sort = 0
+    @export_flags("Fire", "Water", "Earth", "Wind") var spell_elements = 0
 
 Vous pouvez ajouter des valeurs explicites en utilisant les deux-points :
 
 ::
 
-    @export_flags("Soi:4", "Alliés:8", "Ennemis:16") var cibles_sort = 0
+    @export_flags("Self:4", "Allies:8", "Foes:16") var spell_targets = 0
 
 Vous pouvez aussi combiner plusieurs options :
 
 ::
 
-    @export_flags("Soi:4", "Alliés:8", "Alliés et soi:12", "Ennemis:16")
-    var cibles_sort = 0
+    @export_flags("Self:4", "Allies:8", "Self and Allies:12", "Foes:16")
+    var spell_targets = 0
 
 \ **Note :** Une valeur de drapeau doit être au minimum ``1`` et au maximum ``2 ** 32 - 1``.
 
@@ -409,7 +409,7 @@ Vous pouvez aussi l'utiliser cette annotation sur un :ref:`Array<class_Array>`\ 
 
 ::
 
-    @export_flags("Feu", "Eau", "Terre", "Vent") var phase_elements: Array[int]
+    @export_flags("Fire", "Water", "Earth", "Wind") var phase_elements: Array[int]
 
 .. rst-class:: classref-item-separator
 
@@ -605,16 +605,16 @@ Voir aussi :ref:`@GlobalScope.PROPERTY_USAGE_GROUP<class_@GlobalScope_constant_P
 
 ::
 
-    @export_group("Propriétés du coureur")
-    @export var surnom = "Nick"
+    @export_group("Propriétés du pilote")
+    @export var nickname = "Nick"
     @export var age = 26
 
-    @export_group("Propriétés de la voiture", "voiture_")
-    @export var voiture_label = "Speedy"
-    @export var voiture_numero = 3
+    @export_group("Propriétés de la voiture", "car_")
+    @export var car_label = "Speedy"
+    @export var car_number = 3
 
     @export_group("", "")
-    @export var nombre_sans_groupe= 3
+    @export var ungrouped_number = 3
 
 .. rst-class:: classref-item-separator
 
@@ -695,17 +695,17 @@ Voir également :ref:`@GlobalScope.PROPERTY_HINT_RANGE<class_@GlobalScope_consta
 
 ::
 
-    @export_range(0, 20) var nombre
-    @export_range(-10, 20) var nombre
-    @export_range(-10, 20, 0.2) var nombre: float
-    @export_range(0, 20) var nombre: Array[float]
+    @export_range(0, 20) var number
+    @export_range(-10, 20) var number
+    @export_range(-10, 20, 0.2) var number: float
+    @export_range(0, 20) var numbers: Array[float]
 
-    @export_range(0, 100, 1, "or_greater") var pourcentage_puissance
-    @export_range(0, 100, 1, "or_greater", "or_less") var delta_vie
+    @export_range(0, 100, 1, "or_greater") var power_percent
+    @export_range(0, 100, 1, "or_greater", "or_less") var health_delta
 
     @export_range(-180, 180, 0.001, "radians_as_degrees") var angle_radians
-    @export_range(0, 360, 1, "degrees") var angle_degres
-    @export_range(-8, 8, 2, "suffix:px") var decalage_cible
+    @export_range(0, 360, 1, "degrees") var angle_degrees
+    @export_range(-8, 8, 2, "suffix:px") var target_offset
 
 .. rst-class:: classref-item-separator
 
@@ -742,12 +742,12 @@ Voir également :ref:`@GlobalScope.PROPERTY_USAGE_SUBGROUP<class_@GlobalScope_co
 ::
 
     @export_group("Propriétés du pilote")
-    @export var pseudo = "Nick"
+    @export var nickname = "Nick"
     @export var age = 26
 
     @export_subgroup("Propriétés de la voiture", "car_")
-    @export var car_label = "Vite"
-    @export var car_number= 3
+    @export var car_label = "Speedy"
+    @export var car_number = 3
 
 \ **Note :** Les sous-groupes ne peuvent pas être imbriqués, mais vous pouvez utiliser l'opérateur slash (``/``) pour obtenir l'effet désiré :
 
@@ -1273,7 +1273,7 @@ Renvoie la :ref:`Resource<class_Resource>` localisée à ``path`` dans le systè
 ::
 
     # Créer une instance d'une scène.
-    var diamant = preload("res://diamant.tscn").instantiate()
+    var diamond = preload("res://diamond.tscn").instantiate()
 
 \ **Note :** :ref:`preload()<class_@GDScript_method_preload>` est un mot-clé, pas une fonction. Vous ne pouvez donc pas y accéder en tant que :ref:`Callable<class_Callable>`.
 

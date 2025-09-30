@@ -7,14 +7,14 @@ ReferenceRect
 
 **Eredita:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A rectangular box for designing UIs.
+Un riferimento rettangolare per progettare le interfacce utente.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-A rectangular box that displays only a colored border around its rectangle (see :ref:`Control.get_rect()<class_Control_method_get_rect>`). It can be used to visualize the extents of a :ref:`Control<class_Control>` node, for testing purposes.
+Un riquadro rettangolare che mostra solo un bordo colorato attorno al suo rettangolo (vedi :ref:`Control.get_rect()<class_Control_method_get_rect>`). È utilizzata per visualizzare le estensioni di un :ref:`Control<class_Control>`, a scopi di test.
 
 .. rst-class:: classref-reftable-group
 

@@ -419,7 +419,7 @@ Descrizioni dei metodi
 
 |void| **add_button**\ (\ column\: :ref:`int<class_int>`, button\: :ref:`Texture2D<class_Texture2D>`, id\: :ref:`int<class_int>` = -1, disabled\: :ref:`bool<class_bool>` = false, tooltip_text\: :ref:`String<class_String>` = "", description\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_TreeItem_method_add_button>`
 
-Adds a button with :ref:`Texture2D<class_Texture2D>` ``button`` to the end of the cell at column ``column``. The ``id`` is used to identify the button in the according :ref:`Tree.button_clicked<class_Tree_signal_button_clicked>` signal and can be different from the buttons index. If not specified, the next available index is used, which may be retrieved by calling :ref:`get_button_count()<class_TreeItem_method_get_button_count>` immediately before this method. Optionally, the button can be ``disabled`` and have a ``tooltip_text``. ``description`` is used as the button description for assistive apps.
+Aggiunge un pulsante con :ref:`Texture2D<class_Texture2D>` ``button`` alla fine della cella alla colonna ``column``. L'``id`` è utilizzato per identificare il pulsante nel segnale :ref:`Tree.button_clicked<class_Tree_signal_button_clicked>` corrispondente e può essere diverso dall'indice del pulsante. Se non specificato, è utilizzato l'indice successivo disponibile, che si può recuperare chiamando :ref:`get_button_count()<class_TreeItem_method_get_button_count>` subito prima di questo metodo. Facoltativamente, il pulsante può essere disabilitato (``disabled``) e avere un suggerimento (``tooltip_text``). ``description`` è utilizzato come descrizione del pulsante per le applicazioni assistive.
 
 .. rst-class:: classref-item-separator
 
@@ -735,7 +735,7 @@ Restituisce la dimensione personalizzata del font utilizzata per disegnare il te
 
 :ref:`String<class_String>` **get_description**\ (\ column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TreeItem_method_get_description>`
 
-Returns the given column's description for assistive apps.
+Imposta la descrizione della colonna specificata per le applicazioni assistive.
 
 .. rst-class:: classref-item-separator
 
@@ -1329,7 +1329,7 @@ Imposta il colore del pulsante della colonna specificata all'indice ``button_ind
 
 |void| **set_button_description**\ (\ column\: :ref:`int<class_int>`, button_index\: :ref:`int<class_int>`, description\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TreeItem_method_set_button_description>`
 
-Sets the given column's button description at index ``button_index`` for assistive apps.
+Imposta la descrizione del pulsante della colonna specificata all'indice ``button_index`` per le applicazioni assistive.
 
 .. rst-class:: classref-item-separator
 
@@ -1491,7 +1491,7 @@ Imposta la dimensione personalizzata del font utilizzata per disegnare il testo 
 
 |void| **set_description**\ (\ column\: :ref:`int<class_int>`, description\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TreeItem_method_set_description>`
 
-Sets the given column's description for assistive apps.
+Imposta la descrizione della colonna specificata per le applicazioni assistive.
 
 .. rst-class:: classref-item-separator
 

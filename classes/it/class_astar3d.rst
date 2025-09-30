@@ -14,13 +14,13 @@ Un'implementazione di A\* per trovare il percorso più breve tra due vertici su 
 Descrizione
 ----------------------
 
-A\* (A star) is a computer algorithm used in pathfinding and graph traversal, the process of plotting short paths among vertices (points), passing through a given set of edges (segments). It enjoys widespread use due to its performance and accuracy. Godot's A\* implementation uses points in 3D space and Euclidean distances by default.
+A\* (A star) è un algoritmo informatico utilizzato per le ricerche di percorsi e l'attraversamento di grafi, ovvero il processo di tracciare brevi percorsi tra vertici (punti) che passano per un determinato insieme di spigoli (segmenti). È ampiamente utilizzato grazie alle sue prestazioni e alla sua precisione. L'implementazione di A\* di Godot utilizza punti nello spazio 3D e distanze euclidee per impostazione predefinita.
 
-You must add points manually with :ref:`add_point()<class_AStar3D_method_add_point>` and create segments manually with :ref:`connect_points()<class_AStar3D_method_connect_points>`. Once done, you can test if there is a path between two points with the :ref:`are_points_connected()<class_AStar3D_method_are_points_connected>` function, get a path containing indices by :ref:`get_id_path()<class_AStar3D_method_get_id_path>`, or one containing actual coordinates with :ref:`get_point_path()<class_AStar3D_method_get_point_path>`.
+È necessario aggiungere manualmente i punti con :ref:`add_point()<class_AStar3D_method_add_point>` e creare manualmente i segmenti con :ref:`connect_points()<class_AStar3D_method_connect_points>`. Una volta fatto, è possibile verificare se esiste un percorso tra due punti con la funzione :ref:`are_points_connected()<class_AStar3D_method_are_points_connected>`, ottenere un percorso contenente indici con :ref:`get_id_path()<class_AStar3D_method_get_id_path>` o uno contenente coordinate effettive con :ref:`get_point_path()<class_AStar3D_method_get_point_path>`.
 
-It is also possible to use non-Euclidean distances. To do so, create a script that extends **AStar3D** and override the methods :ref:`_compute_cost()<class_AStar3D_private_method__compute_cost>` and :ref:`_estimate_cost()<class_AStar3D_private_method__estimate_cost>`. Both should take two point IDs and return the distance between the corresponding points.
+È anche possibile utilizzare distanze non euclidee. Per farlo, è necessario creare uno script che estenda **AStar3D** e sovrascriva i metodi :ref:`_compute_cost()<class_AStar3D_private_method__compute_cost>` e :ref:`_estimate_cost()<class_AStar3D_private_method__estimate_cost>`. Entrambi dovrebbero accettare due ID punto e restituire la distanza tra i punti corrispondenti.
 
-\ **Example:** Use Manhattan distance instead of Euclidean distance:
+\ **Esempio:** Usa la distanza di Manhattan invece della distanza euclidea:
 
 
 .. tabs::
@@ -65,9 +65,9 @@ It is also possible to use non-Euclidean distances. To do so, create a script th
 
 
 
-\ :ref:`_estimate_cost()<class_AStar3D_private_method__estimate_cost>` should return a lower bound of the distance, i.e. ``_estimate_cost(u, v) <= _compute_cost(u, v)``. This serves as a hint to the algorithm because the custom :ref:`_compute_cost()<class_AStar3D_private_method__compute_cost>` might be computation-heavy. If this is not the case, make :ref:`_estimate_cost()<class_AStar3D_private_method__estimate_cost>` return the same value as :ref:`_compute_cost()<class_AStar3D_private_method__compute_cost>` to provide the algorithm with the most accurate information.
+\ :ref:`_estimate_cost()<class_AStar3D_private_method__estimate_cost>` dovrebbe restituire un limite inferiore della distanza, ovvero ``_estimate_cost(u, v) <= _compute_cost(u, v)``. Questo serve come suggerimento per l'algoritmo, poiché il metodo personalizzato :ref:`_compute_cost()<class_AStar3D_private_method__compute_cost>` potrebbe richiedere un'elaborazione complessa. In caso contrario, assicurarsi che :ref:`_estimate_cost()<class_AStar3D_private_method__estimate_cost>` restituisca lo stesso valore di :ref:`_compute_cost()<class_AStar3D_private_method__compute_cost>` per fornire all'algoritmo le informazioni più accurate.
 
-If the default :ref:`_estimate_cost()<class_AStar3D_private_method__estimate_cost>` and :ref:`_compute_cost()<class_AStar3D_private_method__compute_cost>` methods are used, or if the supplied :ref:`_estimate_cost()<class_AStar3D_private_method__estimate_cost>` method returns a lower bound of the cost, then the paths returned by A\* will be the lowest-cost paths. Here, the cost of a path equals the sum of the :ref:`_compute_cost()<class_AStar3D_private_method__compute_cost>` results of all segments in the path multiplied by the ``weight_scale``\ s of the endpoints of the respective segments. If the default methods are used and the ``weight_scale``\ s of all points are set to ``1.0``, then this equals the sum of Euclidean distances of all segments in the path.
+Se sono utilizzati i metodi predefiniti :ref:`_estimate_cost()<class_AStar3D_private_method__estimate_cost>` e :ref:`_compute_cost()<class_AStar3D_private_method__compute_cost>`, o se il metodo :ref:`_estimate_cost()<class_AStar3D_private_method__estimate_cost>` fornito restituisce un limite inferiore del costo, i percorsi restituiti da A\* saranno quelli con il costo più basso. In questo caso, il costo di un percorso è uguale alla somma dei risultati di :ref:`_compute_cost()<class_AStar3D_private_method__compute_cost>` di tutti i segmenti del percorso, moltiplicati per i valori di ``weight_scale`` dei punti finali dei rispettivi segmenti. Se sono utilizzati i metodi predefiniti, e i valori di ``weight_scale`` di tutti i punti sono impostati su ``1.0``, questo è uguale alla somma delle distanze euclidee di tutti i segmenti del percorso.
 
 .. rst-class:: classref-reftable-group
 
@@ -163,7 +163,7 @@ Descrizioni delle proprietà
 - |void| **set_neighbor_filter_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_neighbor_filter_enabled**\ (\ )
 
-If ``true`` enables the filtering of neighbors via :ref:`_filter_neighbor()<class_AStar3D_private_method__filter_neighbor>`.
+Se ``true`` abilita il filtraggio dei vicini tramite :ref:`_filter_neighbor()<class_AStar3D_private_method__filter_neighbor>`.
 
 .. rst-class:: classref-section-separator
 
@@ -208,9 +208,9 @@ Si noti che questa funzione è nascosta nella classe predefinita **AStar3D**.
 
 :ref:`bool<class_bool>` **_filter_neighbor**\ (\ from_id\: :ref:`int<class_int>`, neighbor_id\: :ref:`int<class_int>`\ ) |virtual| |const| :ref:`🔗<class_AStar3D_private_method__filter_neighbor>`
 
-Called when neighboring point enters processing and if :ref:`neighbor_filter_enabled<class_AStar3D_property_neighbor_filter_enabled>` is ``true``. If ``true`` is returned the point will not be processed.
+Chiamato quando il punto adiacente entra in elaborazione e se :ref:`neighbor_filter_enabled<class_AStar3D_property_neighbor_filter_enabled>` è ``true``. Se viene restituito ``true``, il punto non sarà elaborato.
 
-Note that this function is hidden in the default **AStar3D** class.
+Si noti che questa funzione è nascosta nella classe predefinita **AStar3D**.
 
 .. rst-class:: classref-item-separator
 
@@ -510,13 +510,13 @@ Restituisce un array di tutti gli ID dei punti.
 
 :ref:`PackedVector3Array<class_PackedVector3Array>` **get_point_path**\ (\ from_id\: :ref:`int<class_int>`, to_id\: :ref:`int<class_int>`, allow_partial_path\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_AStar3D_method_get_point_path>`
 
-Returns an array with the points that are in the path found by AStar3D between the given points. The array is ordered from the starting point to the ending point of the path.
+Restituisce un array con i punti che sono presenti nel percorso trovato da AStar3D tra i punti indicati. L'array è ordinato dal punto iniziale al punto finale del percorso.
 
-If there is no valid path to the target, and ``allow_partial_path`` is ``true``, returns a path to the point closest to the target that can be reached.
+Se non c'è un percorso valido per la destinazione, e ``allow_partial_path`` è ``true``, restituisce un percorso al punto più vicino alla destinazione che può essere raggiunto.
 
-\ **Note:** This method is not thread-safe; it can only be used from a single :ref:`Thread<class_Thread>` at a given time. Consider using :ref:`Mutex<class_Mutex>` to ensure exclusive access to one thread to avoid race conditions.
+\ **Nota:** Questo metodo non è thread-safe; si può usare solo da un singolo :ref:`Thread<class_Thread>` alla volta. Si consiglia di utilizzare :ref:`Mutex<class_Mutex>` per garantire l'accesso esclusivo a un thread ed evitare accessi concorrenti.
 
-Additionally, when ``allow_partial_path`` is ``true`` and ``to_id`` is disabled the search may take an unusually long time to finish.
+Inoltre, quando ``allow_partial_path`` è ``true`` e ``to_id`` è disabilitato, la ricerca potrebbe richiedere un tempo insolitamente lungo per essere completata.
 
 .. rst-class:: classref-item-separator
 

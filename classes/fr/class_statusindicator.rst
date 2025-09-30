@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/StatusIndicator.xml.
+.. meta::
+	:keywords: tray
 
 .. _class_StatusIndicator:
 
@@ -10,9 +10,9 @@ StatusIndicator
 
 **Hérite de :** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Application status indicator (aka notification area icon).
+Indicateur de statut d'application (icône de zone de notification).
 
-\ **Note:** Status indicator is implemented on macOS and Windows.
+\ **Note :** L'indicateur de statut est implémenté sur macOS et Windows.
 
 .. rst-class:: classref-reftable-group
 
@@ -59,7 +59,7 @@ Signaux
 
 **pressed**\ (\ mouse_button\: :ref:`int<class_int>`, mouse_position\: :ref:`Vector2i<class_Vector2i>`\ ) :ref:`🔗<class_StatusIndicator_signal_pressed>`
 
-Emitted when the status indicator is pressed.
+Émis lorsque l'indicateur de statut est appuyé.
 
 .. rst-class:: classref-section-separator
 
@@ -134,7 +134,7 @@ Info-bulle d'indicateur de statut.
 - |void| **set_visible**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_visible**\ (\ )
 
-If ``true``, the status indicator is visible.
+Si ``true``, l'indicateur de statut est visible.
 
 .. rst-class:: classref-section-separator
 
@@ -151,7 +151,7 @@ Descriptions des méthodes
 
 :ref:`Rect2<class_Rect2>` **get_rect**\ (\ ) |const| :ref:`🔗<class_StatusIndicator_method_get_rect>`
 
-Returns the status indicator rectangle in screen coordinates. If this status indicator is not visible, returns an empty :ref:`Rect2<class_Rect2>`.
+Renvoie le rectangle de l'indicateur de statut dans les coordonnées de l'écran. Si cet indicateur de statut n'est pas visible, renvoie un :ref:`Rect2<class_Rect2>` vide.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

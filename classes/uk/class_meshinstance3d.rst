@@ -9,7 +9,7 @@ MeshInstance3D
 
 **Успадковано від:** :ref:`SoftBody3D<class_SoftBody3D>`
 
-Немає, що сіточки екземплярів в сценарій.
+Немає, що сіточки екземплярів в скрипт.
 
 .. rst-class:: classref-introduction-group
 

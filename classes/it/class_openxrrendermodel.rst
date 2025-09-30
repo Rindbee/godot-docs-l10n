@@ -7,16 +7,16 @@ OpenXRRenderModel
 
 **Eredita:** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-This node will display an OpenXR render model.
+Questo nodo visualizzerà un modello di rendering OpenXR.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-This node will display an OpenXR render model by accessing the associated GLTF and processes all animation data (if supported by the XR runtime).
+Questo nodo visualizzerà un modello di rendering OpenXR accedendo al GLTF associato ed elaborerà tutti i dati di animazione (se supportati dal runtime XR).
 
-Render models were introduced to allow showing the correct model for the controller (or other device) the user has in hand, since the OpenXR action map does not provide information about the hardware used by the user. Note that while the controller (or device) can be somewhat inferred by the bound action map profile, this is a dangerous approach as the user may be using hardware not known at time of development and OpenXR will simply simulate an available interaction profile.
+I modelli di rendering sono stati introdotti per consentire di mostrare il modello corretto per il controller (o altro dispositivo) in uso dall'utente, poiché la mappa di azioni OpenXR non fornisce informazioni sull'hardware utilizzato dall'utente. Si noti che, sebbene il controller (o dispositivo) possa essere in qualche modo dedotto dal profilo della mappa di azioni associata, questo è un approccio rischioso, poiché l'utente potrebbe utilizzare hardware non noto al momento dello sviluppo e OpenXR si limiterà a simulare un profilo di interazione disponibile.
 
 .. rst-class:: classref-reftable-group
 
@@ -57,7 +57,7 @@ Segnali
 
 **render_model_top_level_path_changed**\ (\ ) :ref:`🔗<class_OpenXRRenderModel_signal_render_model_top_level_path_changed>`
 
-Emitted when the top level path of this render model has changed.
+Emesso quando il percorso di livello superiore di questo modello di rendering viene cambiato.
 
 .. rst-class:: classref-section-separator
 
@@ -79,7 +79,7 @@ Descrizioni delle proprietà
 - |void| **set_render_model**\ (\ value\: :ref:`RID<class_RID>`\ )
 - :ref:`RID<class_RID>` **get_render_model**\ (\ )
 
-The render model RID for the render model to load, as returned by :ref:`OpenXRRenderModelExtension.render_model_create()<class_OpenXRRenderModelExtension_method_render_model_create>` or :ref:`OpenXRRenderModelExtension.render_model_get_all()<class_OpenXRRenderModelExtension_method_render_model_get_all>`.
+Il RID del modello di rendering da caricare, come restituito da :ref:`OpenXRRenderModelExtension.render_model_create()<class_OpenXRRenderModelExtension_method_render_model_create>` o :ref:`OpenXRRenderModelExtension.render_model_get_all()<class_OpenXRRenderModelExtension_method_render_model_get_all>`.
 
 .. rst-class:: classref-section-separator
 
@@ -96,7 +96,7 @@ Descrizioni dei metodi
 
 :ref:`String<class_String>` **get_top_level_path**\ (\ ) |const| :ref:`🔗<class_OpenXRRenderModel_method_get_top_level_path>`
 
-Returns the top level path related to this render model.
+Restituisce il percorso di livello superiore correlato a questo modello di rendering.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

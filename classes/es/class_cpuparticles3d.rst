@@ -417,7 +417,7 @@ Utilizar con :ref:`set_particle_flag()<class_CPUParticles3D_method_set_particle_
 
 :ref:`ParticleFlags<enum_CPUParticles3D_ParticleFlags>` **PARTICLE_FLAG_ROTATE_Y** = ``1``
 
-Utilizar con :ref:`set_particle_flag()<class_CPUParticles3D_method_set_particle_flag>` para establecer :ref:`flag_rotate_y<class_CPUParticles3D_property_flag_rotate_y>`.
+Utilizar con :ref:`set_particle_flag()<class_CPUParticles3D_method_set_particle_flag>` para establecer :ref:`particle_flag_rotate_y<class_CPUParticles3D_property_particle_flag_rotate_y>`.
 
 .. _class_CPUParticles3D_constant_PARTICLE_FLAG_DISABLE_Z:
 
@@ -425,7 +425,7 @@ Utilizar con :ref:`set_particle_flag()<class_CPUParticles3D_method_set_particle_
 
 :ref:`ParticleFlags<enum_CPUParticles3D_ParticleFlags>` **PARTICLE_FLAG_DISABLE_Z** = ``2``
 
-Utiliza con :ref:`set_particle_flag()<class_CPUParticles3D_method_set_particle_flag>` para establecer :ref:`flag_disable_z<class_CPUParticles3D_property_flag_disable_z>`.
+Utiliza con :ref:`set_particle_flag()<class_CPUParticles3D_method_set_particle_flag>` para establecer :ref:`particle_flag_disable_z<class_CPUParticles3D_property_particle_flag_disable_z>`.
 
 .. _class_CPUParticles3D_constant_PARTICLE_FLAG_MAX:
 

@@ -275,7 +275,7 @@ Le connessioni con conteggio dei riferimenti possono essere assegnate allo stess
 
 :ref:`ConnectFlags<enum_Object_ConnectFlags>` **CONNECT_APPEND_SOURCE_OBJECT** = ``16``
 
-The source object is automatically bound when a :ref:`PackedScene<class_PackedScene>` is instantiated. If this flag bit is enabled, the source object will be appended right after the original arguments of the signal.
+L'oggetto sorgente è automaticamente associato quando viene istanziato un :ref:`PackedScene<class_PackedScene>`. Se questo bit di flag è abilitato, l'oggetto sorgente sarà aggiunto subito dopo gli argomenti originali del segnale.
 
 .. rst-class:: classref-section-separator
 
@@ -325,11 +325,11 @@ Descrizioni dei metodi
 
 :ref:`Variant<class_Variant>` **_get**\ (\ property\: :ref:`StringName<class_StringName>`\ ) |virtual| :ref:`🔗<class_Object_private_method__get>`
 
-Override this method to customize the behavior of :ref:`get()<class_Object_method_get>`. Should return the given ``property``'s value, or ``null`` if the ``property`` should be handled normally.
+Sovrascrivi questo metodo per personalizzare il comportamento di :ref:`get()<class_Object_method_get>`. Dovrebbe restituire il valore della proprietà ``property``, oppure ``null`` se la ``property`` deve essere gestita normalmente.
 
-Combined with :ref:`_set()<class_Object_private_method__set>` and :ref:`_get_property_list()<class_Object_private_method__get_property_list>`, this method allows defining custom properties, which is particularly useful for editor plugins.
+In combinazione con :ref:`_set()<class_Object_private_method__set>` e :ref:`_get_property_list()<class_Object_private_method__get_property_list>`, questo metodo consente di definire proprietà personalizzate, il che è particolarmente utile per le estensioni dell'editor.
 
-\ **Note:** This method is not called when getting built-in properties of an object, including properties defined with :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
+\ **Nota:** Questo metodo non viene chiamato quando si ottengono le proprietà integrate di un oggetto, incluse le proprietà definite con :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
 
 
 .. tabs::
@@ -338,7 +338,7 @@ Combined with :ref:`_set()<class_Object_private_method__set>` and :ref:`_get_pro
 
     func _get(property):
         if property == "fake_property":
-            print("Getting my property!")
+            print("Ottenendo la mia proprietà!")
             return 4
 
     func _get_property_list():
@@ -352,7 +352,7 @@ Combined with :ref:`_set()<class_Object_private_method__set>` and :ref:`_get_pro
     {
         if (property == "FakeProperty")
         {
-            GD.Print("Getting my property!");
+            GD.Print("Ottenendo la mia proprietà!");
             return 4;
         }
         return default;
@@ -360,14 +360,14 @@ Combined with :ref:`_set()<class_Object_private_method__set>` and :ref:`_get_pro
 
     public override Godot.Collections.Array<Godot.Collections.Dictionary> _GetPropertyList()
     {
-        return
-        [
+        return new Godot.Collections.Array<Godot.Collections.Dictionary>()
+        {
             new Godot.Collections.Dictionary()
             {
                 { "name", "FakeProperty" },
                 { "type", (int)Variant.Type.Int },
-            },
-        ];
+            }
+        };
     }
 
 
@@ -382,7 +382,7 @@ Combined with :ref:`_set()<class_Object_private_method__set>` and :ref:`_get_pro
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **_get_property_list**\ (\ ) |virtual| :ref:`🔗<class_Object_private_method__get_property_list>`
 
-Sostituisci questo metodo per fornire un elenco personalizzato di proprietà aggiuntive da gestire dal motore.
+Sovrascrivi questo metodo per fornire un elenco personalizzato di proprietà aggiuntive da gestire dal motore.
 
 Dovrebbe restituire un elenco di proprietà, come :ref:`Array<class_Array>` di dizionari. Il risultato viene aggiunto all'array di :ref:`get_property_list()<class_Object_method_get_property_list>` e dovrebbe essere formattato nello stesso modo. Ogni :ref:`Dictionary<class_Dictionary>` deve contenere almeno le voci ``name`` e ``type``.
 
@@ -524,9 +524,9 @@ Chiamato quando lo script dell'oggetto è istanziato, spesso dopo che l'oggetto 
 
 :ref:`Variant<class_Variant>` **_iter_get**\ (\ iter\: :ref:`Variant<class_Variant>`\ ) |virtual| :ref:`🔗<class_Object_private_method__iter_get>`
 
-Returns the current iterable value. ``iter`` stores the iteration state, but unlike :ref:`_iter_init()<class_Object_private_method__iter_init>` and :ref:`_iter_next()<class_Object_private_method__iter_next>` the state is supposed to be read-only, so there is no :ref:`Array<class_Array>` wrapper.
+Restituisce il valore iterabile attuale. ``iter`` memorizza lo stato dell'iterazione, ma a differenza di :ref:`_iter_init()<class_Object_private_method__iter_init>` e :ref:`_iter_next()<class_Object_private_method__iter_next>` lo stato dovrebbe essere di sola lettura, quindi non c'è alcun :ref:`Array<class_Array>` come wrapper.
 
-\ **Tip:** In GDScript, you can use a subtype of :ref:`Variant<class_Variant>` as the return type for :ref:`_iter_get()<class_Object_private_method__iter_get>`. The specified type will be used to set the type of the iterator variable in ``for`` loops, enhancing type safety.
+\ **Suggerimento:** in GDScript, è possibile usare un sottotipo di :ref:`Variant<class_Variant>` come tipo restituito per :ref:`_iter_get()<class_Object_private_method__iter_get>`. Il tipo specificato sarà usato per impostare il tipo della variabile iteratore nei cicli ``for``, garantendo migliore sicurezza di tipo.
 
 .. rst-class:: classref-item-separator
 
@@ -538,7 +538,7 @@ Returns the current iterable value. ``iter`` stores the iteration state, but unl
 
 :ref:`bool<class_bool>` **_iter_init**\ (\ iter\: :ref:`Array<class_Array>`\ ) |virtual| :ref:`🔗<class_Object_private_method__iter_init>`
 
-Initializes the iterator. ``iter`` stores the iteration state. Since GDScript does not support passing arguments by reference, a single-element array is used as a wrapper. Returns ``true`` so long as the iterator has not reached the end.
+Inizializza l'iteratore. ``iter`` memorizza lo stato dell'iterazione. Poiché GDScript non supporta il passaggio di argomenti per riferimento, viene utilizzato un array con un singolo elemento come wrapper. Restituisce ``true`` finché l'iteratore non ha raggiunto la fine.
 
 ::
 
@@ -567,7 +567,7 @@ Initializes the iterator. ``iter`` stores the iteration state. Since GDScript do
         for x in my_range:
             print(x) # Prints 2, 3, 4.
 
-\ **Note:** Alternatively, you can ignore ``iter`` and use the object's state instead, see `online docs <../tutorials/scripting/gdscript/gdscript_advanced.html#custom-iterators>`__ for an example. Note that in this case you will not be able to reuse the same iterator instance in nested loops. Also, make sure you reset the iterator state in this method if you want to reuse the same instance multiple times.
+\ **Nota:** In alternativa, è possibile ignorare ``iter`` e usare invece lo stato dell'oggetto, vedi la `documentazione online <../tutorials/scripting/gdscript/gdscript_advanced.html#custom-iterators>`__ per un esempio. Nota che in questo caso non sarà possibile riutilizzare la stessa istanza dell'iteratore in cicli annidati. Inoltre, assicurarsi di reimpostare lo stato dell'iteratore in questo metodo se si desidera riutilizzare la stessa istanza più volte.
 
 .. rst-class:: classref-item-separator
 
@@ -591,7 +591,7 @@ Sposta l'iteratore all'iterazione successiva. ``iter`` memorizza lo stato dell'i
 
 |void| **_notification**\ (\ what\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_Object_private_method__notification>`
 
-Called when the object receives a notification, which can be identified in ``what`` by comparing it with a constant. See also :ref:`notification()<class_Object_method_notification>`.
+Chiamato quando l'oggetto riceve una notifica, la quale può essere identificata in ``what`` confrontandola con una costante. Vedi anche :ref:`notification()<class_Object_method_notification>`.
 
 
 .. tabs::
@@ -600,7 +600,7 @@ Called when the object receives a notification, which can be identified in ``wha
 
     func _notification(what):
         if what == NOTIFICATION_PREDELETE:
-            print("Goodbye!")
+            print("Addio!")
 
  .. code-tab:: csharp
 
@@ -608,15 +608,15 @@ Called when the object receives a notification, which can be identified in ``wha
     {
         if (what == NotificationPredelete)
         {
-            GD.Print("Goodbye!");
+            GD.Print("Addio!");
         }
     }
 
 
 
-\ **Note:** The base **Object** defines a few notifications (:ref:`NOTIFICATION_POSTINITIALIZE<class_Object_constant_NOTIFICATION_POSTINITIALIZE>` and :ref:`NOTIFICATION_PREDELETE<class_Object_constant_NOTIFICATION_PREDELETE>`). Inheriting classes such as :ref:`Node<class_Node>` define a lot more notifications, which are also received by this method.
+\ **Nota:** L'**Object** base definisce alcune notifiche (:ref:`NOTIFICATION_POSTINITIALIZE<class_Object_constant_NOTIFICATION_POSTINITIALIZE>` e :ref:`NOTIFICATION_PREDELETE<class_Object_constant_NOTIFICATION_PREDELETE>`). Le classi che lo ereditano come :ref:`Node<class_Node>` definiscono molte più notifiche, che sono anche ricevute da questo metodo.
 
-\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages.
+\ **Nota:** A differenza di altri metodi virtuali, questo metodo viene chiamato automaticamente per ogni script che lo sovrascrive. Ciò significa che non si dovrebbe chiamare l'implementazione di base tramite ``super`` in GDScript o i suoi equivalenti in altri linguaggi.
 
 .. rst-class:: classref-item-separator
 
@@ -642,7 +642,7 @@ Sovrascrivi questo metodo per personalizzare il comportamento di ripristino dell
 
 :ref:`Variant<class_Variant>` **_property_get_revert**\ (\ property\: :ref:`StringName<class_StringName>`\ ) |virtual| :ref:`🔗<class_Object_private_method__property_get_revert>`
 
-Sostituisci questo metodo per personalizzare il comportamento di ripristino della proprietà denominata ``property``. Dovrebbe restituire il valore predefinito per ``property``. Se il valore predefinito è diverso dal valore attuale della proprietà denominata ``property``, è visualizzata un'icona di ripristino nel pannello dell'Ispettore.
+Sovrascrivi questo metodo per personalizzare il comportamento di ripristino della proprietà denominata ``property``. Dovrebbe restituire il valore predefinito per ``property``. Se il valore predefinito è diverso dal valore attuale della proprietà denominata ``property``, è visualizzata un'icona di ripristino nel pannello dell'Ispettore.
 
 \ **Nota:** :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` deve essere sovrascritto affinché questo metodo sia chiamato.
 
@@ -656,11 +656,11 @@ Sostituisci questo metodo per personalizzare il comportamento di ripristino dell
 
 :ref:`bool<class_bool>` **_set**\ (\ property\: :ref:`StringName<class_StringName>`, value\: :ref:`Variant<class_Variant>`\ ) |virtual| :ref:`🔗<class_Object_private_method__set>`
 
-Override this method to customize the behavior of :ref:`set()<class_Object_method_set>`. Should set the ``property`` to ``value`` and return ``true``, or ``false`` if the ``property`` should be handled normally. The *exact* way to set the ``property`` is up to this method's implementation.
+Sovrascrivi questo metodo per personalizzare il comportamento di :ref:`set()<class_Object_method_set>`. Dovrebbe impostare la proprietà ``property`` su ``value`` e restituire ``true``, o ``false`` se la proprietà ``property`` dovrebbe essere gestita normalmente. Il modo *esatto* per impostare la proprietà ``property`` dipende dall'implementazione di questo metodo.
 
-Combined with :ref:`_get()<class_Object_private_method__get>` and :ref:`_get_property_list()<class_Object_private_method__get_property_list>`, this method allows defining custom properties, which is particularly useful for editor plugins.
+In combinazione con :ref:`_get()<class_Object_private_method__get>` e :ref:`_get_property_list()<class_Object_private_method__get_property_list>`, questo metodo consente di definire proprietà personalizzate, il che è particolarmente utile per le estensioni dell'editor.
 
-\ **Note:** This method is not called when setting built-in properties of an object, including properties defined with :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
+\ **Nota:** Questo metodo non viene chiamato quando si ottengono le proprietà integrate di un oggetto, incluse le proprietà definite con :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
 
 
 .. tabs::
@@ -671,7 +671,7 @@ Combined with :ref:`_get()<class_Object_private_method__get>` and :ref:`_get_pro
 
     func _set(property, value):
         if property == "fake_property":
-            # Storing the value in the fake property.
+            # Memorizza i valori nella proprietà fasulla.
             internal_data["fake_property"] = value
             return true
         return false
@@ -973,15 +973,15 @@ Se questo metodo viene chiamato durante :ref:`NOTIFICATION_PREDELETE<class_Objec
 
 :ref:`Error<enum_@GlobalScope_Error>` **connect**\ (\ signal\: :ref:`StringName<class_StringName>`, callable\: :ref:`Callable<class_Callable>`, flags\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_Object_method_connect>`
 
-Connects a ``signal`` by name to a ``callable``. Optional ``flags`` can be also added to configure the connection's behavior (see :ref:`ConnectFlags<enum_Object_ConnectFlags>` constants).
+Collega un segnale ``signal`` per nome al chiamabile ``callable``. È possibile aggiungere anche ``flags`` facoltativi per configurare il comportamento della connessione (vedi le costanti di :ref:`ConnectFlags<enum_Object_ConnectFlags>`).
 
-A signal can only be connected once to the same :ref:`Callable<class_Callable>`. If the signal is already connected, this method returns :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` and generates an error, unless the signal is connected with :ref:`CONNECT_REFERENCE_COUNTED<class_Object_constant_CONNECT_REFERENCE_COUNTED>`. To prevent this, use :ref:`is_connected()<class_Object_method_is_connected>` first to check for existing connections.
+Un segnale può essere connesso solo una volta allo stesso :ref:`Callable<class_Callable>`. Se il segnale è già connesso, restituisce :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` e invia un messaggio di errore, a meno che il segnale non sia connesso con :ref:`CONNECT_REFERENCE_COUNTED<class_Object_constant_CONNECT_REFERENCE_COUNTED>`. Per evitare ciò, usa prima :ref:`is_connected()<class_Object_method_is_connected>` per verificare le connessioni esistenti.
 
-\ **Note:** If the ``callable``'s object is freed, the connection will be lost.
+\ **Nota:** Se l'oggetto di ``callable`` viene liberato, la connessione andrà persa.
 
-\ **Note:** In GDScript, it is generally recommended to connect signals with :ref:`Signal.connect()<class_Signal_method_connect>` instead.
+\ **Nota:** In GDScript, si consiglia generalmente di connettere i segnali con :ref:`Signal.connect()<class_Signal_method_connect>`.
 
-\ **Note:** This operation (and all other signal related operations) is thread-safe.
+\ **Nota:** Questa operazione (e tutte le altre operazioni relative ai segnali) è thread-safe.
 
 .. rst-class:: classref-item-separator
 
@@ -1036,7 +1036,7 @@ Restituisce :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_U
 
 |void| **free**\ (\ ) :ref:`🔗<class_Object_method_free>`
 
-Deletes the object from memory. Pre-existing references to the object become invalid, and any attempt to access them will result in a runtime error. Checking the references with :ref:`@GlobalScope.is_instance_valid()<class_@GlobalScope_method_is_instance_valid>` will return ``false``. This is equivalent to the ``memdelete`` function in GDExtension C++.
+Elimina l'oggetto dalla memoria. I riferimenti preesistenti all'oggetto diventano non validi e qualsiasi tentativo di accedervi causerà un errore di esecuzione. Verificare i riferimenti con :ref:`@GlobalScope.is_instance_valid()<class_@GlobalScope_method_is_instance_valid>` restituirà ``false``. Questo è equivalente alla funzione ``memdelete`` in GDExtension C++.
 
 .. rst-class:: classref-item-separator
 
@@ -1111,7 +1111,7 @@ Restituisce un :ref:`Array<class_Array>` di connessioni di segnale ricevute da q
 
 :ref:`Variant<class_Variant>` **get_indexed**\ (\ property_path\: :ref:`NodePath<class_NodePath>`\ ) |const| :ref:`🔗<class_Object_method_get_indexed>`
 
-Ottiene la proprietà dell'oggetto indicizzata dal parametro ``property_path`` specificato. Il percorso deve essere un :ref:`NodePath<class_NodePath>` relativo all'oggetto attuale e può utilizzare il carattere due punti (``:``) per accedere alle proprietà nidificate.
+Ottiene la proprietà dell'oggetto indicizzata dal parametro ``property_path`` specificato. Il percorso deve essere un :ref:`NodePath<class_NodePath>` relativo all'oggetto attuale e può utilizzare il carattere due punti (``:``) per accedere alle proprietà innestate.
 
 \ **Esempi:** ``"position:x"`` o ``"material:next_pass:blend_mode"``.
 
@@ -1646,7 +1646,7 @@ Assegna ``value`` alla proprietà ``property`` specificata, alla fine del frame 
 
 |void| **set_indexed**\ (\ property_path\: :ref:`NodePath<class_NodePath>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_Object_method_set_indexed>`
 
-Assegna un nuovo ``value`` alla proprietà identificata da ``property_path``. Il percorso dovrebbe essere un :ref:`NodePath<class_NodePath>` relativo a questo oggetto e può utilizzare il carattere due punti (``:``) per accedere alle proprietà nidificate.
+Assegna un nuovo ``value`` alla proprietà identificata da ``property_path``. Il percorso dovrebbe essere un :ref:`NodePath<class_NodePath>` relativo a questo oggetto e può utilizzare il carattere due punti (``:``) per accedere alle proprietà innestate.
 
 
 .. tabs::
@@ -1709,7 +1709,7 @@ Se ``value`` è ``null``, la voce viene rimossa. Ciò equivale a usare :ref:`rem
 
 |void| **set_script**\ (\ script\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_Object_method_set_script>`
 
-Allega ``script`` all'oggetto e ne crea un'istanza. Di conseguenza, viene chiamato il :ref:`_init()<class_Object_private_method__init>` dello script. Uno :ref:`Script<class_Script>` è utilizzato per estendere la funzionalità dell'oggetto.
+Allega ``script`` all'oggetto e ne crea un'istanza. Di conseguenza, viene chiamato il :ref:`_init()<class_Object_private_method__init>` dello script. Uno :ref:`Script<class_Script>` serve per estendere la funzionalità dell'oggetto.
 
 Se uno script esiste già, la sua istanza viene staccata e i suoi valori di proprietà e lo stato vengono persi. I valori di proprietà integrate vengono comunque mantenuti.
 

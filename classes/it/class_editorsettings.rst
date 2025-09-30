@@ -1048,9 +1048,9 @@ Se ``true``, passa automaticamente al pannello **Stack Trace** quando il debugge
 
 :ref:`int<class_int>` **debugger/max_node_selection** :ref:`🔗<class_EditorSettings_property_debugger/max_node_selection>`
 
-The limit of how many remote nodes can be selected at once.
+Il limite del numero di nodi remoti che si possono selezionare contemporaneamente.
 
-\ **Warning:** Increasing this value is not recommended, as selecting too many can make the editing and inspection of remote properties unreliable.
+\ **Attenzione:** Si sconsiglia di aumentare questo valore, poiché selezionarne troppi può rendere inaffidabile la modifica e l'ispezione delle proprietà remote.
 
 .. rst-class:: classref-item-separator
 
@@ -1198,7 +1198,7 @@ L'intervallo di aggiornamento da usare per le proprietà del pannello dell'Ispet
 
 :ref:`float<class_float>` **docks/property_editor/subresource_hue_tint** :ref:`🔗<class_EditorSettings_property_docks/property_editor/subresource_hue_tint>`
 
-L'intensità della tinta da usare per lo sfondo delle sotto-risorse nel pannello dell'Ispettore. La tinta è usata per distinguere tra diverse sotto-risorse nell'Ispettore. Valori più alti rendono la differenza del colore di sfondo più evidente.
+L'intensità della tinta da usare per lo sfondo delle sotto-risorse nel pannello dell'Ispettore. La tinta aiuta a distinguere tra diverse sotto-risorse nell'Ispettore. Valori più alti rendono la differenza del colore di sfondo più evidente.
 
 .. rst-class:: classref-item-separator
 
@@ -1406,7 +1406,7 @@ Il colore delle guide da usare nell'editor 2D. Le guide possono essere create tr
 
 :ref:`float<class_float>` **editors/2d/ruler_width** :ref:`🔗<class_EditorSettings_property_editors/2d/ruler_width>`
 
-The thickness of the coordinate ruler in the 2D editor. Increasing this will also increase the size of the ruler font, improving readability when using a lower editor scale. The editor may force a minimum size to keep the ruler numbers legible.
+Lo spessore del righello delle coordinate nell'editor 2D. Aumentando questo valore, aumenterà anche la dimensione del font del righello, migliorando la leggibilità quando si utilizza una scala dell'editor inferiore . L'editor potrebbe imporre una dimensione minima per mantenere leggibili i numeri del righello.
 
 .. rst-class:: classref-item-separator
 
@@ -1466,9 +1466,9 @@ Il fattore da usare quando si effettua uno zoom avanti o indietro nell'editor 2D
 
 :ref:`Color<class_Color>` **editors/3d/active_selection_box_color** :ref:`🔗<class_EditorSettings_property_editors/3d/active_selection_box_color>`
 
-The color to use for the active selection box that surrounds selected nodes in the 3D editor viewport. The color's alpha channel influences the selection box's opacity.
+Il colore da utilizzare per la casella di spunta attiva che circonda i nodi selezionati nella finestra dell'editor 3D. Il canale alfa del colore influenza l'opacità della casella di spunta.
 
-\ **Note:** The term "active" indicates that this object is the primary selection used as the basis for certain operations. This is the last selected :ref:`Node3D<class_Node3D>`, which can be reordered with :kbd:`Shift + Left mouse button`.
+\ **Nota:** Il termine "attivo" indica che questo oggetto è la selezione primaria utilizzata come base per determinate operazioni. Questo è l'ultimo :ref:`Node3D<class_Node3D>` selezionato, che può essere riordinato con :kbd:`Maiusc + Pulsante sinistro del mouse`.
 
 .. rst-class:: classref-item-separator
 
@@ -1560,11 +1560,11 @@ L'inerzia della telecamera della visuale libera 3D. Valori più alti riducono l'
 
 Lo schema di navigazione da utilizzare quando la visuale libera è abilitata nell'editor 3D. Alcuni degli schemi di navigazione di seguito potrebbero essere più comodi quando si progettano livelli specifici nell'editor 3D.
 
-- **Default:** i tasti "Vista libera avanti", "Vista libera indietro", "Vista libera su" e "Vista libera giù" si muoveranno rispetto alla telecamera, tenendo conto del suo angolo di inclinazione per il movimento.
+- **Default:** i tasti "Visuale libera avanti", "Visuale libera indietro", "Visuale libera su" e "Visuale libera giù" si muoveranno rispetto alla telecamera, tenendo conto del suo angolo di inclinazione per il movimento.
 
-- **Partially Axis-Locked:** i tasti "Vista libera avanti" e "Vista libera indietro" si muoveranno rispetto alla telecamera, tenendo conto del suo angolo di inclinazione per il movimento. I tasti "Vista libera su" e "Vista libera giù" si muoveranno in modo "assoluto", *non* tenendo conto dell'angolo di inclinazione della telecamera per il movimento.
+- **Partially Axis-Locked:** i tasti "Visuale libera avanti" e "Visuale libera indietro" si muoveranno rispetto alla telecamera, tenendo conto del suo angolo di inclinazione per il movimento. I tasti "Visuale libera su" e "Visuale libera giù" si muoveranno in modo "assoluto", *non* tenendo conto dell'angolo di inclinazione della telecamera per il movimento.
 
-- **Fully Axis-Locked:** i tasti "Vista libera avanti", "Vista libera indietro", "Vista libera su" e "Vista libera giù" si muoveranno in modo "assoluto", *senza* tenere conto dell'angolo di inclinazione della telecamera per il movimento.
+- **Fully Axis-Locked:** i tasti "Visuale libera avanti", "Visuale libera indietro", "Visuale libera su" e "Visuale libera giù" si muoveranno in modo "assoluto", *senza* tenere conto dell'angolo di inclinazione della telecamera per il movimento.
 
 Vedi anche :ref:`editors/3d/navigation/navigation_scheme<class_EditorSettings_property_editors/3d/navigation/navigation_scheme>`.
 
@@ -1772,7 +1772,7 @@ Tutti gli schemi possono usare :kbd:`Rotellina del mouse` per effettuare lo zoom
 
 - **Tablet/Trackpad:** :kbd:`Alt` per orbitare. :kbd:`Shift` per spostarsi. :kbd:`Ctrl` per ingrandire. Abilita la modalità emulazione di mouse a 3 pulsanti.
 
-Vedi anche :ref:`editors/3d/navigation/orbit_mouse_button<class_EditorSettings_property_editors/3d/navigation/orbit_mouse_button>`, :ref:`editors/3d/navigation/pan_mouse_button<class_EditorSettings_property_editors/3d/navigation/pan_mouse_button>`, :ref:`editors/3d/navigation/zoom_mouse_button<class_EditorSettings_property_editors/3d/navigation/zoom_mouse_button>`, :ref:`editors/3d/freelook/freelook_navigation_scheme<class_EditorSettings_property_editors/3d/freelook/freelook_navigation_scheme>`, and :ref:`editors/3d/navigation/emulate_3_button_mouse<class_EditorSettings_property_editors/3d/navigation/emulate_3_button_mouse>`.
+Vedi anche :ref:`editors/3d/navigation/orbit_mouse_button<class_EditorSettings_property_editors/3d/navigation/orbit_mouse_button>`, :ref:`editors/3d/navigation/pan_mouse_button<class_EditorSettings_property_editors/3d/navigation/pan_mouse_button>`, :ref:`editors/3d/navigation/zoom_mouse_button<class_EditorSettings_property_editors/3d/navigation/zoom_mouse_button>`, :ref:`editors/3d/freelook/freelook_navigation_scheme<class_EditorSettings_property_editors/3d/freelook/freelook_navigation_scheme>` e :ref:`editors/3d/navigation/emulate_3_button_mouse<class_EditorSettings_property_editors/3d/navigation/emulate_3_button_mouse>`.
 
 \ **Nota:** Su alcuni gestori di finestre su Linux, il tasto :kbd:`Alt` sarà intercettato dal gestore di finestre quando si clicca su un pulsante del mouse allo stesso tempo. Ciò significa che Godot non potrà considerare il tasto modificatore come premuto.
 
@@ -2364,9 +2364,9 @@ Se ``false``, il comportamento è invertito, ovvero la finestra di dialogo appar
 
 :ref:`float<class_float>` **editors/animation/default_animation_step** :ref:`🔗<class_EditorSettings_property_editors/animation/default_animation_step>`
 
-Default step used when creating a new :ref:`Animation<class_Animation>` in the Animation bottom panel. Only affects the first animation created in the :ref:`AnimationPlayer<class_AnimationPlayer>`. By default, other newly created animations will use the step from the previous ones.
+Passo predefinito utilizzato alla creazione di una nuova :ref:`Animation<class_Animation>` nel pannello inferiore di Animazione. Influisce solo sulla prima animazione creata nell':ref:`AnimationPlayer<class_AnimationPlayer>`. Come predefinito, le altre animazioni create utilizzeranno il passo delle precedenti.
 
-This value is always expressed in seconds. If you want e.g. ``10`` FPS to be the default, you need to set the default step to ``0.1``.
+Questo valore è sempre espresso in secondi. Se, ad esempio, si desidera che ``10`` FPS sia il valore predefinito, è necessario impostare il passo predefinito su ``0.1``.
 
 .. rst-class:: classref-item-separator
 
@@ -2402,7 +2402,7 @@ Se ``true``, crea una traccia ``RESET`` quando si crea una nuova traccia di anim
 
 :ref:`bool<class_bool>` **editors/animation/default_fps_compatibility** :ref:`🔗<class_EditorSettings_property_editors/animation/default_fps_compatibility>`
 
-Controls whether :ref:`AnimationPlayer<class_AnimationPlayer>` will apply snapping to nearest integer FPS when snapping is in Seconds mode. The option is remembered locally for a scene and this option only determines the default value when scene doesn't have local state yet.
+Controlla se :ref:`AnimationPlayer<class_AnimationPlayer>` applicherà lo scatto al valore intero più vicino degli FPS quando lo scatto è in modalità Secondi. L'opzione è memorizzata localmente per una scena, e questa opzione determina soltanto il valore predefinito quando la scena non ha ancora uno stato locale.
 
 .. rst-class:: classref-item-separator
 
@@ -2414,7 +2414,7 @@ Controls whether :ref:`AnimationPlayer<class_AnimationPlayer>` will apply snappi
 
 :ref:`int<class_int>` **editors/animation/default_fps_mode** :ref:`🔗<class_EditorSettings_property_editors/animation/default_fps_mode>`
 
-Default step mode for :ref:`AnimationPlayer<class_AnimationPlayer>` (seconds or FPS). The option is remembered locally for a scene and this option only determines the default value when scene doesn't have local state yet.
+Modalità di passo predefinita per :ref:`AnimationPlayer<class_AnimationPlayer>` (secondi o FPS). L'opzione è memorizzata localmente per una scena, e questa opzione determina soltanto il valore predefinito quando la scena non ha ancora uno stato locale.
 
 .. rst-class:: classref-item-separator
 
@@ -2614,7 +2614,7 @@ Se ``true``, avvolge il mouse attorno alla viewport 2D durante lo spostamento (p
 
 :ref:`int<class_int>` **editors/panning/zoom_style** :ref:`🔗<class_EditorSettings_property_editors/panning/zoom_style>`
 
-The mouse cursor movement direction to use when drag-zooming in any editor (except 3D scene editor) by moving the mouse. This does not affect zooming with the mouse wheel.
+La direzione del movimento del cursore del mouse da usare quando si esegue lo zoom trascinando il mouse (tranne nell'editor di scene 3D). Questo non influisce sullo zoom con la rotellina del mouse.
 
 .. rst-class:: classref-item-separator
 
@@ -3315,11 +3315,11 @@ Se impostato su ``Adaptive``, la finestra di dialogo si apre in modo di visualiz
 
 :ref:`bool<class_bool>` **filesystem/quick_open_dialog/enable_fuzzy_matching** :ref:`🔗<class_EditorSettings_property_filesystem/quick_open_dialog/enable_fuzzy_matching>`
 
-If ``true``, together with exact matches of a filename, the dialog includes approximate matches.
+Se ``true``, insieme alle corrispondenze esatte del nome di un file, la finestra di dialogo include anche le corrispondenze approssimative.
 
-This is useful for finding the correct files even when there are typos in the search query; for example, searching "nprmal" will find "normal". Additionally, it allows you to write shorter search queries; for example, searching "nml" will also find "normal".
+Questo è utile per trovare i file corretti anche quando ci sono errori di battitura nella query di ricerca ; ad esempio, cercando "nprmal" si troverà "normal". Inoltre, consente di scrivere query di ricerca più brevi; ad esempio, cercando "nml" si troverà anche "normal".
 
-See also :ref:`filesystem/quick_open_dialog/max_fuzzy_misses<class_EditorSettings_property_filesystem/quick_open_dialog/max_fuzzy_misses>`.
+Vedi anche :ref:`filesystem/quick_open_dialog/max_fuzzy_misses<class_EditorSettings_property_filesystem/quick_open_dialog/max_fuzzy_misses>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3343,7 +3343,7 @@ Se ``true``, i risultati includeranno i file situati nella cartella ``addons``.
 
 :ref:`int<class_int>` **filesystem/quick_open_dialog/max_fuzzy_misses** :ref:`🔗<class_EditorSettings_property_filesystem/quick_open_dialog/max_fuzzy_misses>`
 
-The number of missed query characters allowed in a match when fuzzy matching is enabled. For example, with the default value of ``2``, ``"normal"`` would match ``"narmal"`` and ``"norma"`` but not ``"nor"``.
+Il numero di caratteri di ricerca mancanti consentiti in una corrispondenza, se è abilitata la corrispondenza fuzzy. Ad esempio, con il valore predefinito di ``2``, ``"normal"`` corrisponderebbe a ``"narmal"`` e ``"norma"`` ma non a ``"nor"``.
 
 .. rst-class:: classref-item-separator
 
@@ -3425,15 +3425,15 @@ L'accumulo di input può essere disabilitato per ottenere un input leggermente p
 
 :ref:`int<class_int>` **interface/accessibility/accessibility_support** :ref:`🔗<class_EditorSettings_property_interface/accessibility/accessibility_support>`
 
-Editor accessibility support mode:
+Modalità di supporto per l'accessibilità nell'editor:
 
-- **Auto** (``0``): Accessibility support is enabled, but updates to the accessibility information are processed only if an assistive app (such as a screen reader or a Braille display) is active (default).
+- **Auto** (``0``): il supporto per l'accessibilità è abilitato, ma gli aggiornamenti alle informazioni di accessibilità sono elaborati solo se è attiva un'applicazione assistiva (come un lettore dello schermo o un display Braille) (predefinito).
 
-- **Always Active** (``1``): Accessibility support is enabled, and updates to the accessibility information are always processed, regardless of the status of assistive apps.
+- **Always active** (``1``): il supporto per l'accessibilità è abilitato e gli aggiornamenti alle informazioni di accessibilità sono sempre elaborati, a prescindere dallo stato delle app assistive.
 
-- **Disabled** (``2``): Accessibility support is fully disabled.
+- **Disabled** (``2``): il supporto per l'accessibilità è completamente disabilitato.
 
-\ **Note:** Accessibility debugging tools, such as Accessibility Insights for Windows, Accessibility Inspector (macOS), or AT-SPI Browser (Linux/BSD) do not count as assistive apps. To test your project with these tools, use **Always Active**.
+\ **Nota:** Gli strumenti di debug per l'accessibilità, come Accessibility Insights per Windows, Accessibility Inspector (macOS) o AT-SPI Browser (Linux/BSD), non contano come applicazioni assistive. Per testare il tuo progetto con questi strumenti, usa **Always Active**.
 
 .. rst-class:: classref-item-separator
 
@@ -3445,13 +3445,13 @@ Editor accessibility support mode:
 
 :ref:`int<class_int>` **interface/editor/accept_dialog_cancel_ok_buttons** :ref:`🔗<class_EditorSettings_property_interface/editor/accept_dialog_cancel_ok_buttons>`
 
-How to position the Cancel and OK buttons in the editor's :ref:`AcceptDialog<class_AcceptDialog>`\ s. Different platforms have different standard behaviors for this, which can be overridden using this setting. This is useful if you use Godot both on Windows and macOS/Linux and your Godot muscle memory is stronger than your OS specific one.
+Come posizionare i pulsanti Annulla e OK negli :ref:`AcceptDialog<class_AcceptDialog>` dell'editor. Le diverse piattaforme hanno diversi comportamenti standard per questo, che si possono sovrascrivere attraverso questa impostazione. Ciò è utile se si utilizza Godot sia su Windows sia su macOS/Linux e la memoria muscolare di Godot è più forte di quella specifica del proprio sistema operativo.
 
-- **Auto** follows the platform convention: OK first on Windows, KDE, and LXQt, Cancel first on macOS and other Linux desktop environments.
+- **Auto** segue la convenzione della piattaforma: prima OK su Windows, KDE, e LXQt, prima Annulla su macOS e altri ambienti desktop Linux.,
 
-- **Cancel First** forces the ordering Cancel/OK.
+- **Cancel First** Forza l'ordinamento Annulla/OK.
 
-- **OK First** forces the ordering OK/Cancel.
+- **OK First** Forza l'ordinamento OK/Annulla.
 
 .. rst-class:: classref-item-separator
 
@@ -3541,11 +3541,11 @@ La dimensione del font nell'editor di script. Questa impostazione non ha alcun i
 
 :ref:`bool<class_bool>` **interface/editor/collapse_main_menu** :ref:`🔗<class_EditorSettings_property_interface/editor/collapse_main_menu>`
 
-If ``true``, the main menu collapses into a :ref:`MenuButton<class_MenuButton>`.
+Se ``true``, il menu principale si riduce in un :ref:`MenuButton<class_MenuButton>`.
 
-\ **Note:** This setting is only applicable on macOS when :ref:`interface/editor/use_embedded_menu<class_EditorSettings_property_interface/editor/use_embedded_menu>` is ``true``.
+\ **Nota:** Questa impostazione è applicabile solo su macOS quando :ref:`interface/editor/use_embedded_menu<class_EditorSettings_property_interface/editor/use_embedded_menu>` è ``true``.
 
-\ **Note:** Defaults to ``true`` on the Android editor.
+\ **Nota:** Il valore predefinito è ``true`` nell'editor Android.
 
 .. rst-class:: classref-item-separator
 
@@ -3599,9 +3599,9 @@ Stile delle schede dei pannelli dell'editor.
 
 :ref:`String<class_String>` **interface/editor/editor_language** :ref:`🔗<class_EditorSettings_property_interface/editor/editor_language>`
 
-The language to use for the editor interface.
+La lingua da usare per l'interfaccia dell'editor.
 
-Translations are provided by the community. If you spot a mistake, `contribute to editor translations on Weblate! <https://contributing.godotengine.org/en/latest/documentation/translation/index.html>`__
+Le traduzioni sono fornite dalla community. Se noti un errore, `contribuisci alle traduzioni dell'editor su Weblate! <https://contributing.godotengine.org/en/latest/documentation/translation/index.html>`__
 
 .. rst-class:: classref-item-separator
 
@@ -3613,7 +3613,7 @@ Translations are provided by the community. If you spot a mistake, `contribute t
 
 :ref:`int<class_int>` **interface/editor/editor_screen** :ref:`🔗<class_EditorSettings_property_interface/editor/editor_screen>`
 
-The preferred monitor to display the editor. If **Auto**, the editor will remember the last screen it was displayed on across multiple sessions.
+Il monitor preferito per visualizzare l'editor. Se **Auto**, l'editor ricorderà l'ultimo schermo su cui è stato visualizzato tra più sessioni.
 
 .. rst-class:: classref-item-separator
 
@@ -3745,9 +3745,9 @@ Se ``true``, i nomi delle impostazioni nell'editor vengono localizzati quando po
 
 :ref:`int<class_int>` **interface/editor/low_processor_mode_sleep_usec** :ref:`🔗<class_EditorSettings_property_interface/editor/low_processor_mode_sleep_usec>`
 
-The amount of sleeping between frames in the editor (in microseconds). Higher values will result in lower CPU/GPU usage, which can improve battery life on laptops. However, higher values will result in a less responsive editor. The default value is set to allow for maximum smoothness on monitors up to 144 Hz. See also :ref:`interface/editor/unfocused_low_processor_mode_sleep_usec<class_EditorSettings_property_interface/editor/unfocused_low_processor_mode_sleep_usec>`.
+La quantità di sospensione tra i frame nell'editor (in microsecondi). Valori più alti porteranno a un utilizzo inferiore della CPU/GPU, il che può migliorare la durata della batteria sui laptop. Tuttavia, valori più alti risulteranno in un editor meno reattivo. Il valore predefinito è impostato per consentire la massima fluidità sui monitor fino a 144 Hz. Vedi anche :ref:`interface/editor/unfocused_low_processor_mode_sleep_usec<class_EditorSettings_property_interface/editor/unfocused_low_processor_mode_sleep_usec>`.
 
-\ **Note:** This setting is ignored if :ref:`interface/editor/update_continuously<class_EditorSettings_property_interface/editor/update_continuously>` is ``true``, as enabling that setting disables low-processor mode.
+\ **Nota:** Questa impostazione è ignorata se :ref:`interface/editor/update_continuously<class_EditorSettings_property_interface/editor/update_continuously>` è ``true``, poiché abilitando tale impostazione si disabilita la modalità a basso consumo.
 
 .. rst-class:: classref-item-separator
 
@@ -3759,9 +3759,9 @@ The amount of sleeping between frames in the editor (in microseconds). Higher va
 
 :ref:`String<class_String>` **interface/editor/main_font** :ref:`🔗<class_EditorSettings_property_interface/editor/main_font>`
 
-The font to use for the editor interface. Must be a resource of a :ref:`Font<class_Font>` type such as a ``.ttf`` or ``.otf`` font file.
+Il font da utilizzare per l'interfaccia dell'editor. Deve essere una risorsa di tipo :ref:`Font<class_Font>` come un file font ``.ttf`` o ``.otf``.
 
-\ **Note:** If the provided font is variable, a weight of 400 (normal) will be used.
+\ **Nota:** Se il font fornito è variabile, sarà utilizzato un peso di 400 (normale).
 
 .. rst-class:: classref-item-separator
 
@@ -3773,9 +3773,9 @@ The font to use for the editor interface. Must be a resource of a :ref:`Font<cla
 
 :ref:`String<class_String>` **interface/editor/main_font_bold** :ref:`🔗<class_EditorSettings_property_interface/editor/main_font_bold>`
 
-The font to use for bold text in the editor interface. Must be a resource of a :ref:`Font<class_Font>` type such as a ``.ttf`` or ``.otf`` font file.
+Il font da utilizzare per il testo in grassetto per l'interfaccia dell'editor. Deve essere una risorsa di tipo :ref:`Font<class_Font>` come un file font ``.ttf`` o ``.otf``.
 
-\ **Note:** If the provided font is variable, a weight of 700 (bold) will be used.
+\ **Nota:** Se il font fornito è variabile, sarà utilizzato un peso di 700 (grassetto).
 
 .. rst-class:: classref-item-separator
 
@@ -3847,7 +3847,7 @@ Se ``true``, le scene e gli script vengono salvati quando l'editor non è più i
 
 :ref:`bool<class_bool>` **interface/editor/separate_distraction_mode** :ref:`🔗<class_EditorSettings_property_interface/editor/separate_distraction_mode>`
 
-If ``true``, the editor's Script tab will have a separate distraction mode setting from the 2D/3D/Game/AssetLib tabs. If ``false``, the distraction-free mode toggle is shared between all tabs.
+Se ``true``, la scheda Script dell'editor avrà un interruttore per la modalità senza distrazioni che sarà separato dalle schede 2D/3D/Gioco/Libreria. Se ``false``, l'interruttore della modalità senza distrazioni è condiviso tra tutte le schede.
 
 .. rst-class:: classref-item-separator
 
@@ -3911,7 +3911,7 @@ Ciò equivale a :ref:`ProjectSettings.display/window/subwindows/embed_subwindows
 
 :ref:`int<class_int>` **interface/editor/tablet_driver** :ref:`🔗<class_EditorSettings_property_interface/editor/tablet_driver>`
 
-Overrides the tablet driver used by the editor.
+Sostituisce il driver per i tablet utilizzato dall'editor.
 
 .. rst-class:: classref-item-separator
 
@@ -3935,9 +3935,9 @@ Direzione del layout predefinita per l'interfaccia utente dell'editor.
 
 :ref:`int<class_int>` **interface/editor/unfocused_low_processor_mode_sleep_usec** :ref:`🔗<class_EditorSettings_property_interface/editor/unfocused_low_processor_mode_sleep_usec>`
 
-When the editor window is unfocused, the amount of sleeping between frames when the low-processor usage mode is enabled (in microseconds). Higher values will result in lower CPU/GPU usage, which can improve battery life on laptops (in addition to improving the running project's performance if the editor has to redraw continuously). However, higher values will result in a less responsive editor. The default value is set to limit the editor to 10 FPS when the editor window is unfocused. See also :ref:`interface/editor/low_processor_mode_sleep_usec<class_EditorSettings_property_interface/editor/low_processor_mode_sleep_usec>`.
+Quando la finestra dell'editor non è in primo piano, la quantità di sospensione tra i frame quando è abilitata la modalità di utilizzo a basso consumo (in microsecondi). Valori più alti porteranno a un utilizzo inferiore della CPU/GPU, il che può migliorare la durata della batteria sui laptop (oltre a migliorare le prestazioni del progetto in esecuzione se l'editor deve ridisegnare continuamente). Tuttavia, valori più alti risulteranno in un editor meno reattivo. Il valore predefinito è impostato per limitare l'editor a 10 FPS quando la finestra dell'editor non è in primo piano. Vedi anche :ref:`interface/editor/low_processor_mode_sleep_usec<class_EditorSettings_property_interface/editor/low_processor_mode_sleep_usec>`.
 
-\ **Note:** This setting is ignored if :ref:`interface/editor/update_continuously<class_EditorSettings_property_interface/editor/update_continuously>` is ``true``, as enabling that setting disables low-processor mode.
+\ **Nota:** Questa impostazione è ignorata se :ref:`interface/editor/update_continuously<class_EditorSettings_property_interface/editor/update_continuously>` è ``true``, poiché abilitando tale impostazione si disabilita la modalità a basso consumo.
 
 .. rst-class:: classref-item-separator
 
@@ -4029,9 +4029,9 @@ Se ``true``, il pannello dell'albero di scene visualizzerà i pulsanti per aggiu
 
 :ref:`bool<class_bool>` **interface/inspector/auto_unfold_foreign_scenes** :ref:`🔗<class_EditorSettings_property_interface/inspector/auto_unfold_foreign_scenes>`
 
-If ``true``, automatically unfolds Inspector property groups containing modified values when opening a scene for the first time. Only affects scenes without saved folding preferences and only unfolds groups with properties that have been changed from their default values.
+Se ``true``, espande automaticamente i gruppi di proprietà dell'Ispettore contenenti valori modificati quando si apre una scena per la prima volta. Influisce solo sulle scene senza preferenze di riduzione salvate e espande solo i gruppi con proprietà che sono state modificate rispetto ai valori predefiniti.
 
-\ **Note:** This setting only works in specific scenarios: when opening a scene brought in from another project, or when opening a new scene that already has modified properties (e.g., from version control). Duplicated scenes are not considered foreign, so this setting will not affect them.
+\ **Nota:** Questa impostazione funziona solo in scenari specifici: quando si apre una scena importata da un altro progetto o quando si apre una nuova scena che ha già proprietà modificate (ad esempio, dal controllo di versione). Le scene duplicate non sono considerate esterne, quindi questa impostazione non le influenzerà.
 
 .. rst-class:: classref-item-separator
 
@@ -4043,7 +4043,7 @@ If ``true``, automatically unfolds Inspector property groups containing modified
 
 :ref:`bool<class_bool>` **interface/inspector/color_picker_show_intensity** :ref:`🔗<class_EditorSettings_property_interface/inspector/color_picker_show_intensity>`
 
-If ``true``, show the intensity slider in the :ref:`ColorPicker<class_ColorPicker>`\ s opened in the editor.
+Se ``true``, mostra lo slider dell'intensità nei :ref:`ColorPicker<class_ColorPicker>` aperti nell'editor.
 
 .. rst-class:: classref-item-separator
 
@@ -4605,9 +4605,9 @@ Specifica il moltiplicatore da applicare alla scala per le maniglie dei gizmo ne
 
 :ref:`int<class_int>` **interface/touchscreen/touch_actions_panel** :ref:`🔗<class_EditorSettings_property_interface/touchscreen/touch_actions_panel>`
 
-A touch-friendly panel that provides easy access to common actions such as save, delete, undo, and redo without requiring a keyboard.
+Un pannello touch-friendly che consente di accedere facilmente alle azioni più comuni, come salvare, eliminare, annullare e ripristinare, senza dover utilizzare una tastiera.
 
-\ **Note:** Only available in the Android and XR editor.
+\ **Nota:** Disponibile solo nell'editor Android e XR.
 
 .. rst-class:: classref-item-separator
 
@@ -4619,15 +4619,15 @@ A touch-friendly panel that provides easy access to common actions such as save,
 
 :ref:`int<class_int>` **network/connection/check_for_updates** :ref:`🔗<class_EditorSettings_property_network/connection/check_for_updates>`
 
-Specifica come il motore deve controllare gli aggiornamenti.
+Specifica come il motore deve verificare gli aggiornamenti.
 
-- **Disable Update Checks** bloccherà il motore dal controllo degli aggiornamenti (vedi anche :ref:`network/connection/network_mode<class_EditorSettings_property_network/connection/network_mode>`).
+- **Disable Update Checks** non consentirà al motore di verificare gli aggiornamenti (vedi anche :ref:`network/connection/network_mode<class_EditorSettings_property_network/connection/network_mode>`).
 
-- **Check Newest Preview** (predefinito per le versioni in anteprima) controllerà lo snapshot in sviluppo più recente disponibile.
+- **Check Newest Preview** (predefinito per le versioni in anteprima) verificherà lo snapshot di sviluppo più recente disponibile.
 
-- **Check Newest Stable** (predefinito per le versioni stabili) controllerà l'ultima versione stabile disponibile.
+- **Check Newest Stable** (predefinito per le versioni stabili) verificherà l'ultima versione stabile disponibile.
 
-- **Check Newest Patch** controllerà l'ultima versione stabile disponibile, ma solo all'interno della stessa versione minore. Ad esempio, se la tua versione è ``4.3.stable``, sarai informato su ``4.3.1.stable``, ma non su ``4.4.stable``.
+- **Check Newest Patch** verificherà l'ultima versione stabile disponibile, ma solo all'interno della stessa versione minore. Ad esempio, se la tua versione è ``4.3.stable``, sarai informato su ``4.3.1.stable``, ma non su ``4.4.stable``.
 
 Tutte le modalità di aggiornamento ignoreranno le build con diverse versioni principali (ad esempio, Godot 4 -> Godot 5).
 
@@ -4641,9 +4641,9 @@ Tutte le modalità di aggiornamento ignoreranno le build con diverse versioni pr
 
 :ref:`int<class_int>` **network/connection/network_mode** :ref:`🔗<class_EditorSettings_property_network/connection/network_mode>`
 
-Determines whether online features are enabled in the editor, such as the Asset Library or update checks. Disabling these online features helps alleviate privacy concerns by preventing the editor from making HTTP requests to the Godot website or third-party platforms hosting assets from the Asset Library.
+Determina se le funzionalità online sono abilitate nell'editor, come la Libreria dei contenuti o verifiche per gli aggiornamenti. La disattivazione di queste funzionalità online aiuta ad alleviare i problemi di privacy, impedendo all'editor di effettuare richieste HTTP al sito web di Godot o a piattaforme di terze parti che ospitano contenuti dalla Libreria dei contenuti.
 
-Editor plugins and tool scripts are recommended to follow this setting. However, Godot can't prevent them from violating this rule.
+Si raccomanda che le estensioni dell'editor e gli script strumento seguano questa impostazione. Tuttavia, Godot non può impedire loro di violare questa regola.
 
 .. rst-class:: classref-item-separator
 
@@ -4987,7 +4987,7 @@ Forma del cursore da utilizzare nell'editor di script. **Linea** visualizza una 
 
 :ref:`bool<class_bool>` **text_editor/appearance/enable_inline_color_picker** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/enable_inline_color_picker>`
 
-If ``true``, displays a colored button before any :ref:`Color<class_Color>` constructor in the script editor. Clicking on them allows the color to be modified through a color picker.
+Se ``true``, visualizza un pulsante colorato prima di qualsiasi costruttore di :ref:`Color<class_Color>` nell'editor di script. Cliccandoci sopra è possibile modificare il colore tramite un selettore di colori.
 
 .. rst-class:: classref-item-separator
 
@@ -5167,7 +5167,7 @@ Se ``true``, disegna i caratteri di tabulazione come chevron.
 
 :ref:`int<class_int>` **text_editor/appearance/whitespace/line_spacing** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/whitespace/line_spacing>`
 
-Lo spazio da aggiungere tra le righee (in pixel). Una spaziatura più grande tra le righe può migliorare la leggibilità a costo di visualizzare meno righe sullo schermo.
+Lo spazio da aggiungere tra le righe (in pixel). Una spaziatura più grande tra le righe può migliorare la leggibilità a costo di visualizzare meno righe sullo schermo.
 
 .. rst-class:: classref-item-separator
 
@@ -5203,11 +5203,11 @@ Se ``true``, gli script di strumento (tool) verranno ricaricati automaticamente 
 
 :ref:`bool<class_bool>` **text_editor/behavior/files/auto_reload_scripts_on_external_change** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/files/auto_reload_scripts_on_external_change>`
 
-If ``true``, automatically reloads scripts and text-based shaders in the editor when they have been modified and saved by external editors or tools and the editor regains focus. External changes can be discarded by using the Undo function after they've been loaded in the editor.
+Se ``true``, ricarica automaticamente gli script e gli shader testuali nell'editor quando sono stati modificati e salvati da editor o strumenti esterni e l'editor riottiene il focus. È possibile scartare le modifiche esterne attraverso la funzione Annulla dopo averle caricate nell'editor.
 
-If ``false``, a file conflict dialog will always be displayed when the editor regains focus. This dialog allows you to choose whether to keep local changes or discard them.
+Se ``false``, verrà sempre visualizzata una finestra di dialogo di conflitto file quando l'editor riottiene il focus. Questa finestra di dialogo consente di scegliere se mantenere le modifiche locali o scartarle.
 
-\ **Note:** Even when this setting is ``true``, a file conflict dialog is still displayed in certain situations. For instance, it will display when the script editor has unsaved changes that the external editor did not account for.
+\ **Nota:** Anche quando questa impostazione è ``true``, una finestra di dialogo di conflitto file viene comunque visualizzata in certe situazioni. Ad esempio, verrà visualizzata quando l'editor di script contiene modifiche non salvate di cui un editor esterno non ha tenuto conto.
 
 .. rst-class:: classref-item-separator
 
@@ -5243,9 +5243,9 @@ Se ``true``, converte l'indentazione per farla corrispondere alle impostazioni d
 
 :ref:`bool<class_bool>` **text_editor/behavior/files/drop_preload_resources_as_uid** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/files/drop_preload_resources_as_uid>`
 
-If ``true``, when dropping a :ref:`Resource<class_Resource>` file to script editor while :kbd:`Ctrl` is held, the resource will be preloaded with a UID. If ``false``, the resource will be preloaded with a path.
+Se ``true``, quando si rilascia un file :ref:`Resource<class_Resource>` nell'editor di script tenendo premuto :kbd:`Ctrl`, la risorsa sarà precaricata con un UID. Se ``false``, la risorsa sarà precaricata con un percorso.
 
-When you hold :kbd:`Ctrl+Shift`, the behavior is reversed.
+Tenendo premuti :kbd:`Ctrl+Shift`, questo comportamento è invertito.
 
 .. rst-class:: classref-item-separator
 
@@ -5465,7 +5465,7 @@ Se ``true``, utilizza i caratteri in :ref:`text_editor/behavior/navigation/custo
 
 :ref:`bool<class_bool>` **text_editor/behavior/navigation/use_default_word_separators** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/navigation/use_default_word_separators>`
 
-Se ``true``, utilizza i caratteri in ```!"#$%&'()*+,-./:;<=>?@[\]^`{|}~``, la tabella di punteggiatura generale Unicode e la tabella di punteggiatura Unicode CJK come separatori di parole per la navigazione e le operazioni tra parole. Se ``false``, viene utilizzato un sottoinsieme di questi caratteri e non include i caratteri ``<>$~^=+|``. Questo è in aggiunta ai caratteri personalizzati se anche :ref:`text_editor/behavior/navigation/use_custom_word_separators<class_EditorSettings_property_text_editor/behavior/navigation/use_custom_word_separators>` è abilitato. Questi caratteri sono utilizzati per determinare dove finisce una parola. La navigazione e le operazioni tra parole includono il doppio clic su una parola o la pressione prolungata di :kbd:`Ctrl` (:kbd:`Cmd` su macOS) mentre si premono :kbd:`sinistra`, :kbd:`destra`, :kbd:`backspace`, o :kbd:`cancella`.
+Se ``true``, utilizza i caratteri in ```!"#$%&'()*+,-./:;<=>?@[\]^`{|}~``, la tabella di punteggiatura generale Unicode e la tabella di punteggiatura Unicode CJK come separatori di parole per la navigazione e le operazioni tra parole. Se ``false``, viene utilizzato un sottoinsieme di questi caratteri e non include i caratteri ``<>$~^=+|``. Questo è in aggiunta ai caratteri personalizzati se anche :ref:`text_editor/behavior/navigation/use_custom_word_separators<class_EditorSettings_property_text_editor/behavior/navigation/use_custom_word_separators>` è abilitato. Questi caratteri servono per determinare dove finisce una parola. La navigazione e le operazioni tra parole includono il doppio clic su una parola o la pressione prolungata di :kbd:`Ctrl` (:kbd:`Cmd` su macOS) mentre si premono :kbd:`sinistra`, :kbd:`destra`, :kbd:`backspace`, o :kbd:`cancella`.
 
 .. rst-class:: classref-item-separator
 
@@ -5515,15 +5515,15 @@ Se ``true``, utilizza :ref:`StringName<class_StringName>` anziché :ref:`String<
 
 :ref:`bool<class_bool>` **text_editor/completion/add_type_hints** :ref:`🔗<class_EditorSettings_property_text_editor/completion/add_type_hints>`
 
-If ``true``, automatically adds :doc:`GDScript static typing <../tutorials/scripting/gdscript/static_typing>` (such as ``-> void`` and ``: int``) in many situations where it's possible to, including when:
+Se ``true``, aggiunge automaticamente la :doc:`tipizzazione statica di GDScript <../tutorials/scripting/gdscript/static_typing>` (ad esempio ``-> void`` e ``: int``) in molte situazioni in cui è possibile, tra cui:
 
-- Accepting a suggestion from code autocompletion;
+- Accettare un suggerimento dal completamento automatico del codice;
 
-- Creating a new script from a template;
+- Creare un nuovo script da un modello;
 
-- Connecting signals from the Node dock;
+- Collegare segnali dal pannello Nodo;
 
-- Creating variables prefixed with :ref:`@GDScript.@onready<class_@GDScript_annotation_@onready>`, by dropping nodes from the Scene dock into the script editor while holding :kbd:`Ctrl`.
+- Creare variabili con prefisso :ref:`@GDScript.@onready<class_@GDScript_annotation_@onready>`, trascinando i nodi dal pannello Scena nell'editor di script tenendo premuto :kbd:`Ctrl`.
 
 .. rst-class:: classref-item-separator
 
@@ -5977,7 +5977,7 @@ Il colore dei commenti nell'editor di script.
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/comment_markers/critical_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/critical_color>`
 
-The script editor's critical comment marker text color. These markers are determined by :ref:`text_editor/theme/highlighting/comment_markers/critical_list<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/critical_list>`.
+Il colore di testo dei marcatori critici nell'editor di script. Questi marcatori sono determinati da :ref:`text_editor/theme/highlighting/comment_markers/critical_list<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/critical_list>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5989,9 +5989,9 @@ The script editor's critical comment marker text color. These markers are determ
 
 :ref:`String<class_String>` **text_editor/theme/highlighting/comment_markers/critical_list** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/critical_list>`
 
-A comma-separated list of case-sensitive words to highlight in comments. The text will be highlighted in the script editor with the :ref:`text_editor/theme/highlighting/comment_markers/critical_color<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/critical_color>` color. These must not include spaces or symbols or they will not be highlighted.
+Un elenco di parole separate da virgole, sensibili alle maiuscole, da evidenziare nei commenti. Il testo sarà evidenziato nell'editor di script con il colore :ref:`text_editor/theme/highlighting/comment_markers/critical_color<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/critical_color>`. Non devono includere spazi o simboli, altrimenti non saranno evidenziati.
 
-\ **Note:** This is only implemented in the GDScript syntax highlighter.
+\ **Nota:** Questa funzionalità è implementata solo nell'evidenziatore di sintassi di GDScript.
 
 .. rst-class:: classref-item-separator
 
@@ -6003,7 +6003,7 @@ A comma-separated list of case-sensitive words to highlight in comments. The tex
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/comment_markers/notice_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/notice_color>`
 
-The script editor's notice comment marker text color. These markers are determined by :ref:`text_editor/theme/highlighting/comment_markers/notice_list<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/notice_list>`.
+Il colore di testo dei marcatori di nota nell'editor di script. Questi marcatori sono determinati da :ref:`text_editor/theme/highlighting/comment_markers/notice_list<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/notice_list>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6015,9 +6015,9 @@ The script editor's notice comment marker text color. These markers are determin
 
 :ref:`String<class_String>` **text_editor/theme/highlighting/comment_markers/notice_list** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/notice_list>`
 
-A comma-separated list of case-sensitive words to highlight in comments. The text will be highlighted in the script editor with the :ref:`text_editor/theme/highlighting/comment_markers/notice_color<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/notice_color>` color. These must not include spaces or symbols or they will not be highlighted.
+Un elenco di parole separate da virgole, sensibili alle maiuscole, da evidenziare nei commenti. Il testo sarà evidenziato nell'editor di script con il colore :ref:`text_editor/theme/highlighting/comment_markers/notice_color<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/notice_color>`. Non devono includere spazi o simboli, altrimenti non saranno evidenziati.
 
-\ **Note:** This is only implemented in the GDScript syntax highlighter.
+\ **Nota:** Questa funzionalità è implementata solo nell'evidenziatore di sintassi di GDScript.
 
 .. rst-class:: classref-item-separator
 
@@ -6029,7 +6029,7 @@ A comma-separated list of case-sensitive words to highlight in comments. The tex
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/comment_markers/warning_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/warning_color>`
 
-The script editor's warning comment marker text color. These markers are determined by :ref:`text_editor/theme/highlighting/comment_markers/warning_list<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/warning_list>`.
+Il colore di testo dei marcatori di avviso nell'editor di script. Questi marcatori sono determinati da :ref:`text_editor/theme/highlighting/comment_markers/warning_list<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/warning_list>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6041,9 +6041,9 @@ The script editor's warning comment marker text color. These markers are determi
 
 :ref:`String<class_String>` **text_editor/theme/highlighting/comment_markers/warning_list** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/warning_list>`
 
-A comma-separated list of case-sensitive words to highlight in comments. The text will be highlighted in the script editor with the :ref:`text_editor/theme/highlighting/comment_markers/warning_color<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/warning_color>` color. These must not include spaces or symbols or they will not be highlighted.
+Un elenco di parole separate da virgole, sensibili alle maiuscole, da evidenziare nei commenti. Il testo sarà evidenziato nell'editor di script con il colore :ref:`text_editor/theme/highlighting/comment_markers/warning_color<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/warning_color>`. Non devono includere spazi o simboli, altrimenti non saranno evidenziati.
 
-\ **Note:** This is only implemented in the GDScript syntax highlighter.
+\ **Nota:** Questa funzionalità è implementata solo nell'evidenziatore di sintassi di GDScript.
 
 .. rst-class:: classref-item-separator
 
@@ -6199,9 +6199,9 @@ Il colore di evidenziazione della riga di sfondo dell'editor di script per la re
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/function_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/function_color>`
 
-The script editor's function call color.
+Il colore di chiamata di funzioni dell'editor di script.
 
-\ **Note:** When using the GDScript syntax highlighter, this is only used when calling some functions since function definitions and global functions have their own colors :ref:`text_editor/theme/highlighting/gdscript/function_definition_color<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/function_definition_color>` and :ref:`text_editor/theme/highlighting/gdscript/global_function_color<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/global_function_color>`.
+\ **Nota:** Quando si utilizza l'evidenziatore di sintassi GDScript, questo è utilizzato solo quando si chiamano alcune funzioni, poiché le definizioni di funzioni e le funzioni globali hanno i propri colori :ref:`text_editor/theme/highlighting/gdscript/function_definition_color<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/function_definition_color>` e :ref:`text_editor/theme/highlighting/gdscript/global_function_color<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/global_function_color>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6213,7 +6213,7 @@ The script editor's function call color.
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/gdscript/annotation_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/annotation_color>`
 
-The GDScript syntax highlighter text color for annotations (e.g. ``@export``).
+Il colore del testo usato per l'evidenziatore della sintassi di GDScript per le annotazioni (ad esempio ``@export``).
 
 .. rst-class:: classref-item-separator
 
@@ -6225,7 +6225,7 @@ The GDScript syntax highlighter text color for annotations (e.g. ``@export``).
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/gdscript/function_definition_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/function_definition_color>`
 
-The GDScript syntax highlighter text color for function definitions (e.g. the ``_ready`` in ``func _ready():``).
+Il colore del testo usato per l'evidenziatore della sintassi di GDScript per le definizioni di funzioni (ad esempio ``_ready`` in ``func _ready():``).
 
 .. rst-class:: classref-item-separator
 
@@ -6237,7 +6237,7 @@ The GDScript syntax highlighter text color for function definitions (e.g. the ``
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/gdscript/global_function_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/global_function_color>`
 
-The GDScript syntax highlighter text color for global functions, such as the ones in :ref:`@GlobalScope<class_@GlobalScope>` (e.g. ``preload()``).
+Il colore del testo usato per l'evidenziatore della sintassi di GDScript per le funzioni globali, come quelle in :ref:`@GlobalScope<class_@GlobalScope>` (ad esempio ``preload()``).
 
 .. rst-class:: classref-item-separator
 
@@ -6249,7 +6249,7 @@ The GDScript syntax highlighter text color for global functions, such as the one
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/gdscript/node_path_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/node_path_color>`
 
-The GDScript syntax highlighter text color for :ref:`NodePath<class_NodePath>` literals (e.g. ``^"position:x"``).
+Il colore del testo usato per l'evidenziatore della sintassi di GDScript per i letterali :ref:`NodePath<class_NodePath>` (ad esempio ``^"position:x"``).
 
 .. rst-class:: classref-item-separator
 
@@ -6261,7 +6261,7 @@ The GDScript syntax highlighter text color for :ref:`NodePath<class_NodePath>` l
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/gdscript/node_reference_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/node_reference_color>`
 
-The GDScript syntax highlighter text color for node reference literals (e.g. ``$"Sprite"`` and ``%"Sprite"``]).
+Il colore del testo usato per l'evidenziatore della sintassi di GDScript per i letterali di riferimenti ai nodi (ad esempio ``$"Sprite"`` e ``%"Sprite"``]).
 
 .. rst-class:: classref-item-separator
 
@@ -6273,7 +6273,7 @@ The GDScript syntax highlighter text color for node reference literals (e.g. ``$
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/gdscript/string_name_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/string_name_color>`
 
-The GDScript syntax highlighter text color for :ref:`StringName<class_StringName>` literals (e.g. ``&"example"``).
+Il colore del testo usato per l'evidenziatore della sintassi di GDScript per i letterali :ref:`StringName<class_StringName>` (ad esempio ``&"example"``).
 
 .. rst-class:: classref-item-separator
 
@@ -6718,7 +6718,7 @@ Imposta la lista dei file e delle cartelle preferite per questo progetto.
 
 |void| **set_initial_value**\ (\ name\: :ref:`StringName<class_StringName>`, value\: :ref:`Variant<class_Variant>`, update_current\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_EditorSettings_method_set_initial_value>`
 
-Imposta il valore iniziale dell'impostazione specificata da ``name`` su ``value``. Questo è utilizzato per fornire un valore per il pulsante Ripristina nelle Impostazioni dell'editor. Se ``update_current`` è ``true``, anche il valore attuale dell'impostazione verrà impostato su ``value``.
+Imposta il valore iniziale dell'impostazione specificata da ``name`` su ``value``. Questo serve per fornire un valore per il pulsante Ripristina nelle Impostazioni dell'editor. Se ``update_current`` è ``true``, anche il valore attuale dell'impostazione verrà impostato su ``value``.
 
 .. rst-class:: classref-item-separator
 

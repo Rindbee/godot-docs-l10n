@@ -47,7 +47,7 @@ Descrizioni dei metodi
 
 |void| **configure**\ (\ config\: :ref:`RenderSceneBuffersConfiguration<class_RenderSceneBuffersConfiguration>`\ ) :ref:`🔗<class_RenderSceneBuffers_method_configure>`
 
-This method is called by the rendering server when the associated viewport's configuration is changed. It will discard the old buffers and recreate the internal buffers used.
+Questo metodo viene chiamato dal server di rendering quando cambia la configurazione della viewport associata. Scarterà i vecchi buffer e ricreerà i buffer interni utilizzati.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

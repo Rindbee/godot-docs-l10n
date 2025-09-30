@@ -21,7 +21,7 @@ The Windows exporter customizes how a Windows build is handled. In the editor's 
 Tutoriales
 --------------------
 
-- :doc:`Exporting for Windows <../tutorials/export/exporting_for_windows>`
+- :doc:`Exportar a Windows <../tutorials/export/exporting_for_windows>`
 
 .. rst-class:: classref-reftable-group
 
@@ -232,7 +232,7 @@ Application icon file. If left empty, it will fallback to :ref:`ProjectSettings.
 
 :ref:`int<class_int>` **application/icon_interpolation** :ref:`🔗<class_EditorExportPlatformWindows_property_application/icon_interpolation>`
 
-Interpolation method used to resize application icon.
+Método de interpolación utilizado para redimensionar el icono de la aplicación.
 
 .. rst-class:: classref-item-separator
 
@@ -434,7 +434,7 @@ URL of the time stamp server. If left empty, the default server is used. See `Si
 
 :ref:`String<class_String>` **custom_template/debug** :ref:`🔗<class_EditorExportPlatformWindows_property_custom_template/debug>`
 
-Path to the custom export template. If left empty, default template is used.
+Ruta a la plantilla de exportación personalizada. Si se deja vacío, se utiliza la plantilla predeterminada.
 
 .. rst-class:: classref-item-separator
 
@@ -446,7 +446,7 @@ Path to the custom export template. If left empty, default template is used.
 
 :ref:`String<class_String>` **custom_template/release** :ref:`🔗<class_EditorExportPlatformWindows_property_custom_template/release>`
 
-Path to the custom export template. If left empty, default template is used.
+Ruta a la plantilla de exportación personalizada. Si se deja vacío, se utiliza la plantilla predeterminada.
 
 .. rst-class:: classref-item-separator
 

@@ -158,11 +158,11 @@ Vedi `Modalità di compressione <../tutorials/assets_pipeline/importing_images.h
 
 :ref:`float<class_float>` **compress/rdo_quality_loss** = ``0.0`` :ref:`🔗<class_ResourceImporterLayeredTexture_property_compress/rdo_quality_loss>`
 
-If greater than or equal to ``0.01``, enables Rate-Distortion Optimization (RDO) to reduce file size. Higher values result in smaller file sizes but lower quality.
+Se maggiore o uguale a ``0.01``, abilita il Rate-Distortion Optimization(RDO) per ridurre le dimensioni del file. Valori più elevati risultano in file più piccoli ma di qualità inferiore.
 
-\ **Note:** Enabling RDO makes encoding times significantly longer, especially when the image is large.
+\ **Nota:** Abilitare l'RDO allunga notevolmente i tempi di codifica, soprattutto quando l'immagine è grande.
 
-See also :ref:`ProjectSettings.rendering/textures/basis_universal/rdo_dict_size<class_ProjectSettings_property_rendering/textures/basis_universal/rdo_dict_size>` and :ref:`ProjectSettings.rendering/textures/basis_universal/zstd_supercompression_level<class_ProjectSettings_property_rendering/textures/basis_universal/zstd_supercompression_level>` if you want to reduce the file size further.
+Vedi anche :ref:`ProjectSettings.rendering/textures/basis_universal/rdo_dict_size<class_ProjectSettings_property_rendering/textures/basis_universal/rdo_dict_size>` e :ref:`ProjectSettings.rendering/textures/basis_universal/zstd_supercompression_level<class_ProjectSettings_property_rendering/textures/basis_universal/zstd_supercompression_level>` se si desidera ridurre ulteriormente le dimensioni del file.
 
 .. rst-class:: classref-item-separator
 
@@ -174,7 +174,7 @@ See also :ref:`ProjectSettings.rendering/textures/basis_universal/rdo_dict_size<
 
 :ref:`int<class_int>` **compress/uastc_level** = ``0`` :ref:`🔗<class_ResourceImporterLayeredTexture_property_compress/uastc_level>`
 
-The UASTC encoding level. Higher values result in better quality but make encoding times longer.
+Il livello di codifica UASTC. Valori più alti risultano in una qualità migliore, ma allungano i tempi di codifica.
 
 .. rst-class:: classref-item-separator
 

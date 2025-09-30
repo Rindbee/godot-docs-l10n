@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/LineEdit.xml.
+.. meta::
+	:keywords: text, input
 
 .. _class_LineEdit:
 
@@ -17,73 +17,73 @@ Un campo de entrada para texto de una sola línea.
 Descripción
 ----------------------
 
-**LineEdit** provides an input field for editing a single line of text.
+**LineEdit** proporciona un campo de entrada para editar una sola línea de texto.
 
-- When the **LineEdit** control is focused using the keyboard arrow keys, it will only gain focus and not enter edit mode.
+- Cuando el control **LineEdit** está enfocado usando las teclas de flecha del teclado, solo ganará el foco y no entrará en el modo de edición.
 
-- To enter edit mode, click on the control with the mouse, see also :ref:`keep_editing_on_text_submit<class_LineEdit_property_keep_editing_on_text_submit>`.
+- Para entrar en el modo de edición, haz clic en el control con el ratón, mira también :ref:`keep_editing_on_text_submit<class_LineEdit_property_keep_editing_on_text_submit>`.
 
-- To exit edit mode, press ``ui_text_submit`` or ``ui_cancel`` (by default :kbd:`Escape`) actions.
+- Para salir del modo de edición, pulsa las acciones ``ui_text_submit`` o ``ui_cancel`` (por defecto :kbd:`Escape`).
 
-- Check :ref:`edit()<class_LineEdit_method_edit>`, :ref:`unedit()<class_LineEdit_method_unedit>`, :ref:`is_editing()<class_LineEdit_method_is_editing>`, and :ref:`editing_toggled<class_LineEdit_signal_editing_toggled>` for more information.
+- Véase :ref:`edit()<class_LineEdit_method_edit>`, :ref:`unedit()<class_LineEdit_method_unedit>`, :ref:`is_editing()<class_LineEdit_method_is_editing>` y :ref:`editing_toggled<class_LineEdit_signal_editing_toggled>` para obtener más información.
 
-While entering text, it is possible to insert special characters using Unicode, OEM or Windows alt codes:
+Al introducir texto, es posible insertar caracteres especiales utilizando códigos Unicode, OEM o Windows alt:
 
-- To enter Unicode codepoints, hold :kbd:`Alt` and type the codepoint on the numpad. For example, to enter the character ``á`` (U+00E1), hold :kbd:`Alt` and type :kbd:`+E1` on the numpad (the leading zeroes can be omitted).
+- Para introducir puntos de código Unicode, mantén pulsado :kbd:`Alt` y escribe el punto de código en el teclado numérico. Por ejemplo, para introducir el carácter ``á`` (U+00E1), mantén pulsado :kbd:`Alt` y escribe :kbd:`+E1` en el teclado numérico (los ceros iniciales pueden omitirse).
 
-- To enter OEM codepoints, hold :kbd:`Alt` and type the code on the numpad. For example, to enter the character ``á`` (OEM 160), hold :kbd:`Alt` and type ``160`` on the numpad.
+- Para introducir puntos de código OEM, mantén pulsado :kbd:`Alt` y escribe el código en el teclado numérico. Por ejemplo, para introducir el carácter ``á`` (OEM 160), mantén pulsado :kbd:`Alt` y escribe ``160`` en el teclado numérico.
 
-- To enter Windows codepoints, hold :kbd:`Alt` and type the code on the numpad. For example, to enter the character ``á`` (Windows 0225), hold :kbd:`Alt` and type :kbd:`0`, :kbd:`2`, :kbd:`2`, :kbd:`5` on the numpad. The leading zero here must **not** be omitted, as this is how Windows codepoints are distinguished from OEM codepoints.
+- Para introducir puntos de código de Windows, mantén pulsado :kbd:`Alt` y escribe el código en el teclado numérico. Por ejemplo, para introducir el carácter ``á`` (Windows 0225), mantén pulsado :kbd:`Alt` y escribe :kbd:`0`, :kbd:`2`, :kbd:`2`, :kbd:`5` en el teclado numérico. El cero inicial aquí **no** debe omitirse, ya que así es como los puntos de código de Windows se distinguen de los puntos de código OEM.
 
-\ **Important:**\ 
+\ **Importante:**\ 
 
-- Focusing the **LineEdit** with ``ui_focus_next`` (by default :kbd:`Tab`) or ``ui_focus_prev`` (by default :kbd:`Shift + Tab`) or :ref:`Control.grab_focus()<class_Control_method_grab_focus>` still enters edit mode (for compatibility).
+- Enfocar el **LineEdit** con ``ui_focus_next`` (por defecto :kbd:`Tab`) o ``ui_focus_prev`` (por defecto :kbd:`Shift + Tab`) o :ref:`Control.grab_focus()<class_Control_method_grab_focus>` todavía entra en modo de edición (por compatibilidad).
 
-\ **LineEdit** features many built-in shortcuts that are always available (:kbd:`Ctrl` here maps to :kbd:`Cmd` on macOS):
+\ **LineEdit** incluye muchos atajos integrados que siempre están disponibles (:kbd:`Ctrl` aquí se asigna a :kbd:`Cmd` en macOS):
 
-- :kbd:`Ctrl + C`: Copy
+- :kbd:`Ctrl + C`: Copiar
 
-- :kbd:`Ctrl + X`: Cut
+- :kbd:`Ctrl + X`: Cortar
 
-- :kbd:`Ctrl + V` or :kbd:`Ctrl + Y`: Paste/"yank"
+- :kbd:`Ctrl + V` o :kbd:`Ctrl + Y`: Pegar/"tirar"
 
-- :kbd:`Ctrl + Z`: Undo
+- :kbd:`Ctrl + Z`: Deshacer
 
-- :kbd:`Ctrl + ~`: Swap input direction.
+- :kbd:`Ctrl + ~`: Intercambiar la dirección de entrada.
 
-- :kbd:`Ctrl + Shift + Z`: Redo
+- :kbd:`Ctrl + Shift + Z`: Rehacer
 
-- :kbd:`Ctrl + U`: Delete text from the caret position to the beginning of the line
+- :kbd:`Ctrl + U`: Borrar el texto desde la posición del cursor hasta el principio de la línea
 
-- :kbd:`Ctrl + K`: Delete text from the caret position to the end of the line
+- :kbd:`Ctrl + K`: Borrar el texto desde la posición del cursor hasta el final de la línea
 
-- :kbd:`Ctrl + A`: Select all text
+- :kbd:`Ctrl + A`: Seleccionar todo el texto
 
-- :kbd:`Up Arrow`/:kbd:`Down Arrow`: Move the caret to the beginning/end of the line
+- :kbd:`Up Arrow`/:kbd:`Down Arrow`: Mueve el cursor al principio/final de la línea
 
-On macOS, some extra keyboard shortcuts are available:
+En macOS, hay algunos atajos de teclado adicionales disponibles:
 
-- :kbd:`Cmd + F`: Same as :kbd:`Right Arrow`, move the caret one character right
+- :kbd:`Cmd + F`: Igual que :kbd:`Right Arrow`, mueve el cursor un carácter a la derecha
 
-- :kbd:`Cmd + B`: Same as :kbd:`Left Arrow`, move the caret one character left
+- :kbd:`Cmd + B`: Igual que :kbd:`Left Arrow`, mueve el cursor un carácter a la izquierda
 
-- :kbd:`Cmd + P`: Same as :kbd:`Up Arrow`, move the caret to the previous line
+- :kbd:`Cmd + P`: Igual que :kbd:`Up Arrow`, mueve el cursor a la línea anterior
 
-- :kbd:`Cmd + N`: Same as :kbd:`Down Arrow`, move the caret to the next line
+- :kbd:`Cmd + N`: Igual que :kbd:`Down Arrow`, mueve el cursor a la línea siguiente
 
-- :kbd:`Cmd + D`: Same as :kbd:`Delete`, delete the character on the right side of caret
+- :kbd:`Cmd + D`: Igual que :kbd:`Delete`, borra el carácter a la derecha del cursor
 
-- :kbd:`Cmd + H`: Same as :kbd:`Backspace`, delete the character on the left side of the caret
+- :kbd:`Cmd + H`: Igual que :kbd:`Backspace`, borra el carácter a la izquierda del cursor
 
-- :kbd:`Cmd + A`: Same as :kbd:`Home`, move the caret to the beginning of the line
+- :kbd:`Cmd + A`: Igual que :kbd:`Home`, mueve el cursor al principio de la línea
 
-- :kbd:`Cmd + E`: Same as :kbd:`End`, move the caret to the end of the line
+- :kbd:`Cmd + E`: Igual que :kbd:`End`, mueve el cursor al final de la línea
 
-- :kbd:`Cmd + Left Arrow`: Same as :kbd:`Home`, move the caret to the beginning of the line
+- :kbd:`Cmd + Left Arrow`: Igual que :kbd:`Home`, mueve el cursor al principio de la línea
 
-- :kbd:`Cmd + Right Arrow`: Same as :kbd:`End`, move the caret to the end of the line
+- :kbd:`Cmd + Right Arrow`: Igual que :kbd:`End`, mueve el cursor al final de la línea
 
-\ **Note:** Caret movement shortcuts listed above are not affected by :ref:`shortcut_keys_enabled<class_LineEdit_property_shortcut_keys_enabled>`.
+\ **Nota:** Los atajos de movimiento del cursor listados arriba no se ven afectados por :ref:`shortcut_keys_enabled<class_LineEdit_property_shortcut_keys_enabled>`.
 
 .. rst-class:: classref-reftable-group
 

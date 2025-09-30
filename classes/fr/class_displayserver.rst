@@ -2105,7 +2105,7 @@ enum **WindowMode**: :ref:`🔗<enum_DisplayServer_WindowMode>`
 
 :ref:`WindowMode<enum_DisplayServer_WindowMode>` **WINDOW_MODE_WINDOWED** = ``0``
 
-Windowed mode, i.e. :ref:`Window<class_Window>` doesn't occupy the whole screen (unless set to the size of the screen).
+Mode fenêtré, c'est-à-dire que :ref:`Window<class_Window>` n'occupe pas l'écran entier (sauf si définie à la taille de l'écran).
 
 .. _class_DisplayServer_constant_WINDOW_MODE_MINIMIZED:
 
@@ -2113,7 +2113,7 @@ Windowed mode, i.e. :ref:`Window<class_Window>` doesn't occupy the whole screen 
 
 :ref:`WindowMode<enum_DisplayServer_WindowMode>` **WINDOW_MODE_MINIMIZED** = ``1``
 
-Minimized window mode, i.e. :ref:`Window<class_Window>` is not visible and available on window manager's window list. Normally happens when the minimize button is pressed.
+Mode de fenêtre minimisée, c.-à-d. :ref:`Window<class_Window>` n'est pas visible et est disponible dans la liste des fenêtres du gestionnaire de fenêtre. Se produit normalement lorsque le bouton de minimisation est appuyé.
 
 .. _class_DisplayServer_constant_WINDOW_MODE_MAXIMIZED:
 
@@ -2121,7 +2121,7 @@ Minimized window mode, i.e. :ref:`Window<class_Window>` is not visible and avail
 
 :ref:`WindowMode<enum_DisplayServer_WindowMode>` **WINDOW_MODE_MAXIMIZED** = ``2``
 
-Maximized window mode, i.e. :ref:`Window<class_Window>` will occupy whole screen area except task bar and still display its borders. Normally happens when the maximize button is pressed.
+Mode de fenêtre maximisée, c.-à-d. :ref:`Window<class_Window>` occupera tout l'écran sauf la barre des tâches et affichera toujours ses bordures. Se produit normalement lorsque le bouton de maximisation est appuyé.
 
 .. _class_DisplayServer_constant_WINDOW_MODE_FULLSCREEN:
 
@@ -2129,15 +2129,15 @@ Maximized window mode, i.e. :ref:`Window<class_Window>` will occupy whole screen
 
 :ref:`WindowMode<enum_DisplayServer_WindowMode>` **WINDOW_MODE_FULLSCREEN** = ``3``
 
-Full screen mode with full multi-window support.
+Mode plein écran avec support multi-fenêtres complet.
 
-Full screen window covers the entire display area of a screen and has no decorations. The display's video mode is not changed.
+La fenêtre en plein écran couvre toute la zone d'affichage d'un écran et n'a pas de décorations. Le mode vidéo de l'écran n'est pas modifié.
 
-\ **On Android:** This enables immersive mode.
+\ ** Sur Android :** Cela active le mode immersif.
 
-\ **On macOS:** A new desktop is used to display the running project.
+\ ** Sur macOS :** Un nouveau bureau est utilisé pour afficher le projet en cours d'exécution.
 
-\ **Note:** Regardless of the platform, enabling full screen will change the window size to match the monitor's size. Therefore, make sure your project supports :doc:`multiple resolutions <../tutorials/rendering/multiple_resolutions>` when enabling full screen mode.
+\ **Note :** Quelle que soit la plate-forme, activer le plein écran changera la taille de la fenêtre pour correspondre à la taille du moniteur. Par conséquent, assurez-vous que votre projet supporte des :doc:`résolutions multiples <../tutorials/rendering/multiple_résolutions>` lors de l'activation du mode plein écran.
 
 .. _class_DisplayServer_constant_WINDOW_MODE_EXCLUSIVE_FULLSCREEN:
 
@@ -2285,9 +2285,9 @@ Signals the window manager that this window is supposed to be an implementation-
 
 :ref:`WindowFlags<enum_DisplayServer_WindowFlags>` **WINDOW_FLAG_MINIMIZE_DISABLED** = ``11``
 
-Window minimize button is disabled.
+Le bouton de minimisation de la fenêtre est désactivé.
 
-\ **Note:** This flag is implemented on macOS and Windows.
+\ **Note :** Ce drapeau est implémenté sur macOS et Windows.
 
 .. _class_DisplayServer_constant_WINDOW_FLAG_MAXIMIZE_DISABLED:
 
@@ -2295,9 +2295,9 @@ Window minimize button is disabled.
 
 :ref:`WindowFlags<enum_DisplayServer_WindowFlags>` **WINDOW_FLAG_MAXIMIZE_DISABLED** = ``12``
 
-Window maximize button is disabled.
+Le bouton de maximisation de la fenêtre est désactivé.
 
-\ **Note:** This flag is implemented on macOS and Windows.
+\ **Note :** Ce drapeau est implémenté sur macOS et Windows.
 
 .. _class_DisplayServer_constant_WINDOW_FLAG_MAX:
 

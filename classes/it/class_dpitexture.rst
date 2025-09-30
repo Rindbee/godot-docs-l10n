@@ -9,14 +9,14 @@ DPITexture
 
 **Eredita:** :ref:`Texture2D<class_Texture2D>` **<** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-An automatically scalable :ref:`Texture2D<class_Texture2D>` based on an SVG image.
+Una :ref:`Texture2D<class_Texture2D>` automaticamente ridimensionabile basata su un immagine SVG.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-An automatically scalable :ref:`Texture2D<class_Texture2D>` based on an SVG image. **DPITexture**\ s are used to automatically re-rasterize icons and other texture based UI theme elements to match viewport scale and font oversampling. See also :ref:`ProjectSettings.display/window/stretch/mode<class_ProjectSettings_property_display/window/stretch/mode>` ("canvas_items" mode) and :ref:`Viewport.oversampling_override<class_Viewport_property_oversampling_override>`.
+Una :ref:`Texture2D<class_Texture2D>` automaticamente ridimensionabile basata su un immagine SVG. Le **DPITexture** servono per ri-rasterizzare automaticamente icone e altri elementi del tema dell'interfaccia utente basati sulle texture, in modo che corrispondano alla scala della viewport e al sovracampionamento dei font. Vedi anche :ref:`ProjectSettings.display/window/stretch/mode<class_ProjectSettings_property_display/window/stretch/mode>` (modalità "canvas_items") e :ref:`Viewport.oversampling_override<class_Viewport_property_oversampling_override>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -76,7 +76,7 @@ Descrizioni delle proprietà
 - |void| **set_base_scale**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_base_scale**\ (\ )
 
-Texture scale. ``1.0`` is the original SVG size. Higher values result in a larger image.
+Scala della texture. ``1.0`` è la dimensione originale dell'SVG. Valori più alti risultano in un'immagine più grande.
 
 .. rst-class:: classref-item-separator
 
@@ -93,7 +93,7 @@ Texture scale. ``1.0`` is the original SVG size. Higher values result in a large
 - |void| **set_color_map**\ (\ value\: :ref:`Dictionary<class_Dictionary>`\ )
 - :ref:`Dictionary<class_Dictionary>` **get_color_map**\ (\ )
 
-If set, remaps texture colors according to :ref:`Color<class_Color>`-:ref:`Color<class_Color>` map.
+Se impostato, rimappa i colori della texture in base alla mappa :ref:`Color<class_Color>`-:ref:`Color<class_Color>`.
 
 .. rst-class:: classref-item-separator
 
@@ -127,7 +127,7 @@ Descrizioni dei metodi
 
 :ref:`DPITexture<class_DPITexture>` **create_from_string**\ (\ source\: :ref:`String<class_String>`, scale\: :ref:`float<class_float>` = 1.0, saturation\: :ref:`float<class_float>` = 1.0, color_map\: :ref:`Dictionary<class_Dictionary>` = {}\ ) |static| :ref:`🔗<class_DPITexture_method_create_from_string>`
 
-Creates a new **DPITexture** and initializes it by allocating and setting the SVG data from string.
+Crea una nuova **DPITexture** e la inizializza allocando e impostando i dati SVG da una stringa.
 
 .. rst-class:: classref-item-separator
 
@@ -139,7 +139,7 @@ Creates a new **DPITexture** and initializes it by allocating and setting the SV
 
 :ref:`RID<class_RID>` **get_scaled_rid**\ (\ ) |const| :ref:`🔗<class_DPITexture_method_get_scaled_rid>`
 
-Returns the :ref:`RID<class_RID>` of the texture rasterized to match the oversampling of the currently drawn canvas item.
+Restituisce il :ref:`RID<class_RID>` della texture rasterizzata per corrispondere al sovracampionamento dell'elemento canvas attualmente disegnato.
 
 .. rst-class:: classref-item-separator
 
@@ -175,7 +175,7 @@ Ridimensiona la texture alle dimensioni specificate.
 
 |void| **set_source**\ (\ source\: :ref:`String<class_String>`\ ) :ref:`🔗<class_DPITexture_method_set_source>`
 
-Sets SVG source code.
+Imposta il codice sorgente SVG.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

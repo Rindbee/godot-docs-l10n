@@ -14,7 +14,7 @@ Un parámetro de vector 4D para ser usado dentro del gráfico de shader visual.
 Descripción
 ----------------------
 
-Traducido a ``uniform vec4`` en el lenguaje de shader.
+Traducido a ``uniform vec4`` en el lenguaje de shaders.
 
 .. rst-class:: classref-reftable-group
 

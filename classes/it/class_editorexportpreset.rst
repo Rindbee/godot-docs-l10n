@@ -14,7 +14,7 @@ La configurazione della preimpostazione d'esportazione.
 Descrizione
 ----------------------
 
-Represents the configuration of an export preset, as created by the editor's export dialog. An **EditorExportPreset** instance is intended to be used a read-only configuration passed to the :ref:`EditorExportPlatform<class_EditorExportPlatform>` methods when exporting the project.
+Rappresenta la configurazione di una preimpostazione di esportazione, così come creata dalla finestra di dialogo di esportazione dell'editor. Un'istanza di **EditorExportPreset** si utilizza come configurazione sola lettura passata ai metodi di :ref:`EditorExportPlatform<class_EditorExportPlatform>` quando si esporta il progetto.
 
 .. rst-class:: classref-reftable-group
 
@@ -282,7 +282,7 @@ Returns ``true`` if the "Advanced" toggle is enabled in the export dialog.
 
 :ref:`String<class_String>` **get_custom_features**\ (\ ) |const| :ref:`🔗<class_EditorExportPreset_method_get_custom_features>`
 
-Returns a comma-separated list of custom features added to this preset, as a string. See :doc:`Feature tags <../tutorials/export/feature_tags>` in the documentation for more information.
+Restituisce una lista separata da virgole di funzionalità personalizzate aggiunte a questa preimpostazione, sotto forma di stringa. Consultare :doc:`Tag di funzionalità <../tutorials/export/feature_tags>` nella documentazione per ulteriori informazioni.
 
 .. rst-class:: classref-item-separator
 
@@ -318,7 +318,7 @@ Returns the number of files selected in the "Resources" tab of the export dialog
 
 :ref:`bool<class_bool>` **get_encrypt_directory**\ (\ ) |const| :ref:`🔗<class_EditorExportPreset_method_get_encrypt_directory>`
 
-Returns ``true`` if PCK directory encryption is enabled in the export dialog.
+Restituisce ``true`` se la crittografia delle cartelle del PCK è abilitata nella finestra di dialogo d'esportazione.
 
 .. rst-class:: classref-item-separator
 
@@ -330,7 +330,7 @@ Returns ``true`` if PCK directory encryption is enabled in the export dialog.
 
 :ref:`bool<class_bool>` **get_encrypt_pck**\ (\ ) |const| :ref:`🔗<class_EditorExportPreset_method_get_encrypt_pck>`
 
-Returns ``true`` if PCK encryption is enabled in the export dialog.
+Restituisce ``true`` se la crittografia del PCK è abilitata nella finestra di dialogo d'esportazione.
 
 .. rst-class:: classref-item-separator
 
@@ -474,7 +474,7 @@ Restituisce la lista dei pacchetti da cui basare un'esportazione di patch.
 
 :ref:`String<class_String>` **get_preset_name**\ (\ ) |const| :ref:`🔗<class_EditorExportPreset_method_get_preset_name>`
 
-Returns this export preset's name.
+Restituisce il nome di questa preimpostazione d'esportazione.
 
 .. rst-class:: classref-item-separator
 
@@ -486,7 +486,7 @@ Returns this export preset's name.
 
 :ref:`Variant<class_Variant>` **get_project_setting**\ (\ name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_EditorExportPreset_method_get_project_setting>`
 
-Returns the value of the setting identified by ``name`` using export preset feature tag overrides instead of current OS features.
+Restituisce il valore dell'impostazione specificata da ``name`` utilizzando sostituzioni dei tag di funzionalità nella preimpostazione d'esportazione, anziché funzionalità dell'OS attuale.
 
 .. rst-class:: classref-item-separator
 
@@ -498,7 +498,7 @@ Returns the value of the setting identified by ``name`` using export preset feat
 
 :ref:`int<class_int>` **get_script_export_mode**\ (\ ) |const| :ref:`🔗<class_EditorExportPreset_method_get_script_export_mode>`
 
-Returns the export mode used by GDScript files. ``0`` for "Text", ``1`` for "Binary tokens", and ``2`` for "Compressed binary tokens (smaller files)".
+Restituisce la modalità di esportazione utilizzata dai file GDScript. ``0`` per "Testo", ``1`` per "Token binari" e ``2`` per "Token binari compressi (file più piccoli)".
 
 .. rst-class:: classref-item-separator
 
@@ -524,7 +524,7 @@ Se ``windows_version`` è ``true``, formatta il numero di versione restituito in
 
 :ref:`bool<class_bool>` **has**\ (\ property\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_EditorExportPreset_method_has>`
 
-Returns ``true`` if the preset has the property named ``property``.
+Restituisce ``true`` se la preimpostazione ha la proprietà con il nome ``property``.
 
 .. rst-class:: classref-item-separator
 
@@ -536,7 +536,7 @@ Returns ``true`` if the preset has the property named ``property``.
 
 :ref:`bool<class_bool>` **has_export_file**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorExportPreset_method_has_export_file>`
 
-Returns ``true`` if the file at the specified ``path`` will be exported.
+Restituisce ``true`` se il file al percorso ``path`` sarà esportato.
 
 .. rst-class:: classref-item-separator
 
@@ -548,7 +548,7 @@ Returns ``true`` if the file at the specified ``path`` will be exported.
 
 :ref:`bool<class_bool>` **is_dedicated_server**\ (\ ) |const| :ref:`🔗<class_EditorExportPreset_method_is_dedicated_server>`
 
-Returns ``true`` if the dedicated server export mode is selected in the export dialog.
+Restituisce ``true`` se la modalità d'esportazione "server dedicato" è selezionata nella finestra di dialogo d'esportazione.
 
 .. rst-class:: classref-item-separator
 

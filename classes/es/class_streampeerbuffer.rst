@@ -72,7 +72,7 @@ Descripciones de Propiedades
 - |void| **set_data_array**\ (\ value\: :ref:`PackedByteArray<class_PackedByteArray>`\ )
 - :ref:`PackedByteArray<class_PackedByteArray>` **get_data_array**\ (\ )
 
-The underlying data buffer. Setting this value resets the cursor.
+El búfer de datos subyacente. Establecer este valor reinicia el cursor.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedByteArray<class_PackedByteArray>` for more details.
 
@@ -91,7 +91,7 @@ Descripciones de Métodos
 
 |void| **clear**\ (\ ) :ref:`🔗<class_StreamPeerBuffer_method_clear>`
 
-Clears the :ref:`data_array<class_StreamPeerBuffer_property_data_array>` and resets the cursor.
+Limpia el :ref:`data_array<class_StreamPeerBuffer_property_data_array>` y reinicia el cursor.
 
 .. rst-class:: classref-item-separator
 
@@ -103,7 +103,7 @@ Clears the :ref:`data_array<class_StreamPeerBuffer_property_data_array>` and res
 
 :ref:`StreamPeerBuffer<class_StreamPeerBuffer>` **duplicate**\ (\ ) |const| :ref:`🔗<class_StreamPeerBuffer_method_duplicate>`
 
-Returns a new **StreamPeerBuffer** with the same :ref:`data_array<class_StreamPeerBuffer_property_data_array>` content.
+Devuelve un nuevo **StreamPeerBuffer** con el mismo contenido de :ref:`data_array<class_StreamPeerBuffer_property_data_array>`.
 
 .. rst-class:: classref-item-separator
 
@@ -139,7 +139,7 @@ Devuelve el tamaño de :ref:`data_array<class_StreamPeerBuffer_property_data_arr
 
 |void| **resize**\ (\ size\: :ref:`int<class_int>`\ ) :ref:`🔗<class_StreamPeerBuffer_method_resize>`
 
-Resizes the :ref:`data_array<class_StreamPeerBuffer_property_data_array>`. This *doesn't* update the cursor.
+Redimensiona el :ref:`data_array<class_StreamPeerBuffer_property_data_array>`. Esto *no* actualiza el cursor.
 
 .. rst-class:: classref-item-separator
 
@@ -151,7 +151,7 @@ Resizes the :ref:`data_array<class_StreamPeerBuffer_property_data_array>`. This 
 
 |void| **seek**\ (\ position\: :ref:`int<class_int>`\ ) :ref:`🔗<class_StreamPeerBuffer_method_seek>`
 
-Moves the cursor to the specified position. ``position`` must be a valid index of :ref:`data_array<class_StreamPeerBuffer_property_data_array>`.
+Mueve el cursor a la posición especificada. ``position`` debe ser un índice válido de :ref:`data_array<class_StreamPeerBuffer_property_data_array>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

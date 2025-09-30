@@ -244,9 +244,9 @@ UASTC 编码级别。值越高质量越好，但编码耗时更长。
 
 :ref:`bool<class_bool>` **editor/convert_colors_with_editor_theme** = ``false`` :ref:`🔗<class_ResourceImporterTexture_property_editor/convert_colors_with_editor_theme>`
 
-If ``true``, converts the imported image's colors to match :ref:`EditorSettings.interface/theme/icon_and_font_color<class_EditorSettings_property_interface/theme/icon_and_font_color>`. This assumes the image uses the exact same colors as :doc:`Godot's own color palette for editor icons <../engine_details/editor/creating_icons>`, with the source file designed for a dark editor theme. This should be enabled for editor plugin icons and custom class icons, but should be left disabled otherwise.
+如果为 ``true``\ ，则转换导入图像的颜色以匹配 :ref:`EditorSettings.interface/theme/icon_and_font_color<class_EditorSettings_property_interface/theme/icon_and_font_color>`\ 。这假设该图像使用与 :doc:`Godot 自己的编辑器图标调色板 <../engine_details/editor/creating_icons>`\ 完全相同的颜色，源文件是为深色编辑器主题设计的。应该为编辑器插件图标和自定义类图标启用该功能，否则应保持禁用状态。
 
-\ **Note:** Only available for SVG images.
+\ **注意：**\ 仅适用于 SVG 图像。
 
 .. rst-class:: classref-item-separator
 

@@ -681,7 +681,7 @@ Ce nœud ne sera pas interne.
 
 :ref:`InternalMode<enum_Node_InternalMode>` **INTERNAL_MODE_FRONT** = ``1``
 
-The node will be placed at the beginning of the parent's children, before any non-internal sibling.
+Le nœud sera placé au début des enfants du parent, avant tout frère non interne.
 
 .. _class_Node_constant_INTERNAL_MODE_BACK:
 
@@ -689,7 +689,7 @@ The node will be placed at the beginning of the parent's children, before any no
 
 :ref:`InternalMode<enum_Node_InternalMode>` **INTERNAL_MODE_BACK** = ``2``
 
-The node will be placed at the end of the parent's children, after any non-internal sibling.
+Le nœud sera placé à la fin des enfants du parent, après tout frère non interne.
 
 .. rst-class:: classref-item-separator
 
@@ -715,7 +715,7 @@ Inherits :ref:`auto_translate_mode<class_Node_property_auto_translate_mode>` fro
 
 :ref:`AutoTranslateMode<enum_Node_AutoTranslateMode>` **AUTO_TRANSLATE_MODE_ALWAYS** = ``1``
 
-Always automatically translate. This is the inverse of :ref:`AUTO_TRANSLATE_MODE_DISABLED<class_Node_constant_AUTO_TRANSLATE_MODE_DISABLED>`, and the default for the root node.
+Toujours traduire automatiquement. Il s'agit de l'inverse de :ref:`AUTO_TRANSLATE_MODE_DISABLED<class_Node_constant_AUTO_TRANSLATE_MODE_DISABLED>`, et la valeur par défaut pour le nœud racine.
 
 .. _class_Node_constant_AUTO_TRANSLATE_MODE_DISABLED:
 

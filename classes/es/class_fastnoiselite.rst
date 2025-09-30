@@ -125,7 +125,7 @@ Celular incluye tanto ruido de Worley como diagramas de Voronoi que crean varias
 
 :ref:`NoiseType<enum_FastNoiseLite_NoiseType>` **TYPE_SIMPLEX** = ``0``
 
-A diferencia de ``constante TYPE_PERLIN``, los gradientes existen en una red símplex en lugar de una red de cuadrícula, lo que evita artefactos direccionales. Internamente, utiliza el tipo de ruido OpenSimplex2 de FastNoiseLite.
+A diferencia de :ref:`TYPE_PERLIN<class_FastNoiseLite_constant_TYPE_PERLIN>`, los gradientes existen en una red símplex en lugar de una red de cuadrícula, lo que evita artefactos direccionales. Internamente, utiliza el tipo de ruido OpenSimplex2 de FastNoiseLite.
 
 .. _class_FastNoiseLite_constant_TYPE_SIMPLEX_SMOOTH:
 

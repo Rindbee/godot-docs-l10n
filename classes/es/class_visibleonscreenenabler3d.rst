@@ -16,7 +16,7 @@ Descripción
 
 **VisibleOnScreenEnabler3D** contiene una región con forma de caja del espacio 3D y un nodo objetivo. El nodo objetivo se activará automáticamente (a través de su propiedad :ref:`Node.process_mode<class_Node_property_process_mode>`) cuando cualquier parte de esta región se haga visible en la pantalla, y se desactivará automáticamente en caso contrario. Esto puede, por ejemplo, utilizarse para activar a los enemigos sólo cuando el jugador se acerca a ellos.
 
-Consulta :ref:`VisibleOnScreenNotifier3D<class_VisibleOnScreenNotifier3D>` si sólo quieres que se te notifique cuando la región sea visible en la pantalla.
+Véase :ref:`VisibleOnScreenNotifier3D<class_VisibleOnScreenNotifier3D>` si sólo quieres que se te notifique cuando la región sea visible en la pantalla.
 
 \ **Nota:** **VisibleOnScreenEnabler3D** utiliza una heurística aproximada que no tiene en cuenta las paredes y otras oclusiones, a menos que se utilice el culling por oclusión. Tampoco funcionará a menos que :ref:`Node3D.visible<class_Node3D_property_visible>` esté establecido en ``true``.
 
@@ -110,7 +110,7 @@ Determina cómo se habilita el nodo objetivo. Corresponde a :ref:`ProcessMode<en
 - |void| **set_enable_node_path**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_enable_node_path**\ (\ )
 
-La ruta al nodo objetivo, relativa al **VisibleOnScreenEnabler3D**. El nodo objetivo se almacena en caché; solo se asigna al establecer esta propiedad (si el **VisibleOnScreenEnabler3D** está dentro del árbol de la escena) y cada vez que el **VisibleOnScreenEnabler3D** entra en el árbol de la escena. Si la ruta está vacía, ningún nodo se verá afectado. Si la ruta no es válida, también se genera un error.
+La ruta al nodo objetivo, relativa al **VisibleOnScreenEnabler3D**. El nodo objetivo se almacena en caché; solo se asigna al establecer esta propiedad (si el **VisibleOnScreenEnabler3D** está dentro del árbol de escenas) y cada vez que el **VisibleOnScreenEnabler3D** entra en el árbol de escenas. Si la ruta está vacía, ningún nodo se verá afectado. Si la ruta no es válida, también se genera un error.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

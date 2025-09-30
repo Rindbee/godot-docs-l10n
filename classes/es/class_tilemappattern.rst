@@ -7,16 +7,16 @@ TileMapPattern
 
 **Hereda:** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Holds a pattern to be copied from or pasted into :ref:`TileMap<class_TileMap>`\ s.
+Contiene un patrón para copiar o pegar en :ref:`TileMap<class_TileMap>`\ s.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-This resource holds a set of cells to help bulk manipulations of :ref:`TileMap<class_TileMap>`.
+Este recurso contiene un conjunto de celdas para ayudar a las manipulaciones masivas de :ref:`TileMap<class_TileMap>`.
 
-A pattern always starts at the ``(0, 0)`` coordinates and cannot have cells with negative coordinates.
+Un patrón siempre comienza en las coordenadas ``(0, 0)`` y no puede tener celdas con coordenadas negativas.
 
 .. rst-class:: classref-reftable-group
 
@@ -87,7 +87,7 @@ Devuelve el ID de las coordenadas del atlas del tile en ``coords``.
 
 :ref:`int<class_int>` **get_cell_source_id**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileMapPattern_method_get_cell_source_id>`
 
-Returns the tile source ID of the cell at ``coords``.
+Devuelve el ID de la fuente de tile de la celda en ``coords``.
 
 .. rst-class:: classref-item-separator
 
@@ -159,7 +159,7 @@ Elimina la celda en las coordenadas dadas.
 
 |void| **set_cell**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`, source_id\: :ref:`int<class_int>` = -1, atlas_coords\: :ref:`Vector2i<class_Vector2i>` = Vector2i(-1, -1), alternative_tile\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_TileMapPattern_method_set_cell>`
 
-Sets the tile identifiers for the cell at coordinates ``coords``. See :ref:`TileMap.set_cell()<class_TileMap_method_set_cell>`.
+Establece los identificadores de tile para la celda en las coordenadas ``coords``. Véase :ref:`TileMap.set_cell()<class_TileMap_method_set_cell>`.
 
 .. rst-class:: classref-item-separator
 

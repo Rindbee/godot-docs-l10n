@@ -200,7 +200,7 @@ Seulement exposée dans le but de la redéfinir. Vous ne pouvez pas appeler cett
 
 :ref:`Resource<class_Resource>` **create_placeholder**\ (\ ) |const| :ref:`🔗<class_Material_method_create_placeholder>`
 
-Crée une version à remplacer de cette ressource (:ref:`PlaceholderMaterial<class_PlaceholderMaterial>`).
+Crée une version placeholder de cette ressource (:ref:`PlaceholderMaterial<class_PlaceholderMaterial>`).
 
 .. rst-class:: classref-item-separator
 

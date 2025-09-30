@@ -51,7 +51,7 @@ Descrizioni dei metodi
 
 :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` **_create**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorSyntaxHighlighter_private_method__create>`
 
-Virtual method which creates a new instance of the syntax highlighter.
+Metodo virtuale che si può sovrascrivere per restituire una nuova istanza dell'evidenziatore di sintassi.
 
 .. rst-class:: classref-item-separator
 
@@ -63,7 +63,7 @@ Virtual method which creates a new instance of the syntax highlighter.
 
 :ref:`String<class_String>` **_get_name**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorSyntaxHighlighter_private_method__get_name>`
 
-Metodo virtuale che può essere sovrascritto per restituire il nome dell'evidenziatore della sintassi.
+Metodo virtuale che si può sovrascrivere per restituire il nome dell'evidenziatore di sintassi.
 
 .. rst-class:: classref-item-separator
 
@@ -75,7 +75,7 @@ Metodo virtuale che può essere sovrascritto per restituire il nome dell'evidenz
 
 :ref:`PackedStringArray<class_PackedStringArray>` **_get_supported_languages**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorSyntaxHighlighter_private_method__get_supported_languages>`
 
-Metodo virtuale che può essere sovrascritto per restituire i nomi dei linguaggi supportati.
+Metodo virtuale che si può sovrascrivere per restituire i nomi dei linguaggi supportati.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

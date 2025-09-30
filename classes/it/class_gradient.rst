@@ -309,7 +309,7 @@ Inverte/specchia il gradiente.
 
 :ref:`Color<class_Color>` **sample**\ (\ offset\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Gradient_method_sample>`
 
-Returns the interpolated color specified by ``offset``. ``offset`` should be between ``0.0`` and ``1.0`` (inclusive). Using a value lower than ``0.0`` will return the same color as ``0.0``, and using a value higher than ``1.0`` will return the same color as ``1.0``. If your input value is not within this range, consider using :ref:`@GlobalScope.remap()<class_@GlobalScope_method_remap>` on the input value with output values set to ``0.0`` and ``1.0``.
+Restituisce il colore interpolato specificato da ``offset``. ``offset`` deve essere compreso tra ``0.0`` e ``1.0`` (inclusi). Usando un valore inferiore a ``0.0`` sarà restituito lo stesso colore di ``0.0``, mentre usando un valore superiore a ``1.0`` sarà restituito lo stesso colore di ``1.0``. Se il valore in ingresso non rientra in questo intervallo, si consiglia di utilizzare :ref:`@GlobalScope.remap()<class_@GlobalScope_method_remap>` sul valore di input con i valori di output impostati su ``0.0`` e ``1.0``.
 
 .. rst-class:: classref-item-separator
 

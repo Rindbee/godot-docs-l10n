@@ -14,7 +14,7 @@ GLTFObjectModelProperty
 Опис
 --------
 
-GLTFObjectModelProperty визначає відображення між властивістю в об’єктній моделі glTF і NodePath у дереві сцени Godot. Це можна використовувати для анімації властивостей у файлі glTF за допомогою розширення ``KHR_animation_pointer`` або для доступу до них через сценарій, що не залежить від механізму, наприклад графік поведінки, як визначено розширенням ``KHR_interactivity``. 
+GLTFObjectModelProperty визначає відображення між властивістю в об’єктній моделі glTF і NodePath у дереві сцени Godot. Це можна використовувати для анімації властивостей у файлі glTF за допомогою розширення ``KHR_animation_pointer`` або для доступу до них через скрипт, що не залежить від механізму, наприклад графік поведінки, як визначено розширенням ``KHR_interactivity``. 
 
 Властивість glTF ідентифікується покажчиком(-ами) JSON, що зберігається в :ref:`json_pointers<class_GLTFObjectModelProperty_property_json_pointers>`, тоді як властивість Godot, на яку вона відображається, визначається :ref:`node_paths<class_GLTFObjectModelProperty_property_node_paths>`. У більшості випадків :ref:`json_pointers<class_GLTFObjectModelProperty_property_json_pointers>` і :ref:`node_paths<class_GLTFObjectModelProperty_property_node_paths>` матимуть лише один елемент, але в деяких випадках один вказівник glTF JSON буде зіставлено з декількома властивостями Godot, або одна властивість Godot буде зіставлена з кількома покажчиками glTF JSON, або це може бути зв’язок «багато-до-багатьох». 
 

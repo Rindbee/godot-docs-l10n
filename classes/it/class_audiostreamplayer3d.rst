@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/AudioStreamPlayer3D.xml.
+.. meta::
+	:keywords: sound, sfx
 
 .. _class_AudioStreamPlayer3D:
 
@@ -330,9 +330,9 @@ Il bus su cui viene riprodotto questo audio.
 - |void| **set_doppler_tracking**\ (\ value\: :ref:`DopplerTracking<enum_AudioStreamPlayer3D_DopplerTracking>`\ )
 - :ref:`DopplerTracking<enum_AudioStreamPlayer3D_DopplerTracking>` **get_doppler_tracking**\ (\ )
 
-Decides in which step the Doppler effect should be calculated.
+Decide in quale fase calcolare l'effetto Doppler.
 
-\ **Note:** If :ref:`doppler_tracking<class_AudioStreamPlayer3D_property_doppler_tracking>` is not :ref:`DOPPLER_TRACKING_DISABLED<class_AudioStreamPlayer3D_constant_DOPPLER_TRACKING_DISABLED>` but the current :ref:`Camera3D<class_Camera3D>`/:ref:`AudioListener3D<class_AudioListener3D>` has doppler tracking disabled, the Doppler effect will be heard but will not take the movement of the current listener into account. If accurate Doppler effect is desired, doppler tracking should be enabled on both the **AudioStreamPlayer3D** and the current :ref:`Camera3D<class_Camera3D>`/:ref:`AudioListener3D<class_AudioListener3D>`.
+\ **Nota:** Se :ref:`doppler_tracking<class_AudioStreamPlayer3D_property_doppler_tracking>` non è :ref:`DOPPLER_TRACKING_DISABLED<class_AudioStreamPlayer3D_constant_DOPPLER_TRACKING_DISABLED>` ma il :ref:`Camera3D<class_Camera3D>`/:ref:`AudioListener3D<class_AudioListener3D>` attuale ha il tracciamento Doppler disabilitato, l'effetto Doppler sarà udito ma non terrà conto del movimento dell'ascoltatore attuale. Se si desidera un effetto Doppler accurato, è necessario abilitare il tracciamento Doppler sia su **AudioStreamPlayer3D** sia sul :ref:`Camera3D<class_Camera3D>`/:ref:`AudioListener3D<class_AudioListener3D>` attuale.
 
 .. rst-class:: classref-item-separator
 
@@ -451,11 +451,11 @@ Il numero massimo di suoni che questo nodo può riprodurre allo stesso tempo. Ri
 - |void| **set_panning_strength**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_panning_strength**\ (\ )
 
-Scales the panning strength for this node by multiplying the base :ref:`ProjectSettings.audio/general/3d_panning_strength<class_ProjectSettings_property_audio/general/3d_panning_strength>` by this factor. If the product is ``0.0`` then stereo panning is disabled and the volume is the same for all channels. If the product is ``1.0`` then one of the channels will be muted when the sound is located exactly to the left (or right) of the listener.
+Scala l'intensità del panning per questo nodo moltiplicando la :ref:`ProjectSettings.audio/general/3d_panning_strength<class_ProjectSettings_property_audio/general/3d_panning_strength>` base per questo fattore. Se il prodotto è ``0.0``, il panning stereo è disabilitato e il volume è lo stesso per tutti i canali. Se il prodotto è ``1.0``, uno dei canali sarà silenziato quando il suono si trova esattamente a sinistra (o a destra) dell'ascoltatore.
 
-Two speaker stereo arrangements implement the `WebAudio standard for StereoPannerNode Panning <https://webaudio.github.io/web-audio-api/#stereopanner-algorithm>`__ where the volume is cosine of half the azimuth angle to the ear.
+Le disposizioni stereo a due altoparlanti implementano lo `standard WebAudio per il panning StereoPannerNode <https://webaudio.github.io/web-audio-api/#stereopanner-algorithm>`__, dove il volume è il coseno di metà dell'angolo azimutale rispetto all'orecchio.
 
-For other speaker arrangements such as the 5.1 and 7.1 the SPCAP (Speaker-Placement Correction Amplitude) algorithm is implemented.
+Per altre disposizioni di altoparlanti, come 5.1 e 7.1, è implementato l'algoritmo SPCAP (Speaker-Placement Correction Amplitude).
 
 .. rst-class:: classref-item-separator
 

@@ -14,9 +14,9 @@ Contiene un motivo da copiare o incollare nei :ref:`TileMap<class_TileMap>`.
 Descrizione
 ----------------------
 
-This resource holds a set of cells to help bulk manipulations of :ref:`TileMap<class_TileMap>`.
+Questa risorsa contiene un insieme di celle per facilitare le manipolazioni in massa di :ref:`TileMap<class_TileMap>`.
 
-A pattern always starts at the ``(0, 0)`` coordinates and cannot have cells with negative coordinates.
+Un motivo inizia sempre alle coordinate ``(0,0)`` e non può avere celle con coordinate negative.
 
 .. rst-class:: classref-reftable-group
 

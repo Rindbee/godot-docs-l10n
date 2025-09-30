@@ -924,9 +924,9 @@ La cantidad mínima de tiempo durante la cual las velocidades del agente que son
 
 Establece si el agente usa la evitación 2D o la evitación 3D mientras la evitación está habilitada.
 
-Si ``true``, el agente calcula las velocidades de evitación en 3D para el eje xyz, p. ej., para juegos que tienen lugar en el aire, bajo el agua o en el espacio. El agente que usa 3D solo evita a otros agentes que usan la evitación 3D. El agente que usa 3D solo reacciona a los obstáculos de evitación basados en el radio. El agente que usa 3D ignora cualquier obstáculo basado en vértices. El agente que usa 3D solo evita a otros agentes que usan 3D.
+Si es ``true``, el agente calcula las velocidades de evitación en 3D para el eje xyz, p. ej., para juegos que tienen lugar en el aire, bajo el agua o en el espacio. El agente que usa 3D solo evita a otros agentes que usan la evitación 3D. El agente que usa 3D solo reacciona a los obstáculos de evitación basados en el radio. El agente que usa 3D ignora cualquier obstáculo basado en vértices. El agente que usa 3D solo evita a otros agentes que usan 3D.
 
-Si ``false``, el agente calcula las velocidades de evitación en 2D a lo largo del eje xz ignorando el eje y. El agente que usa 2D solo evita a otros agentes que usan la evitación 2D. El agente que usa 2D reacciona a los obstáculos de evitación basados en el radio. El agente que usa 2D reacciona a los obstáculos basados en vértices. El agente que usa 2D solo evita a otros agentes que usan 2D. Los agentes que usan 2D ignorarán a otros agentes u obstáculos que estén por debajo de su posición actual o por encima de su posición actual, incluida la altura de los agentes en la evitación 2D.
+Si es ``false``, el agente calcula las velocidades de evitación en 2D a lo largo del eje xz ignorando el eje y. El agente que usa 2D solo evita a otros agentes que usan la evitación 2D. El agente que usa 2D reacciona a los obstáculos de evitación basados en el radio. El agente que usa 2D reacciona a los obstáculos basados en vértices. El agente que usa 2D solo evita a otros agentes que usan 2D. Los agentes que usan 2D ignorarán a otros agentes u obstáculos que estén por debajo de su posición actual o por encima de su posición actual, incluida la altura de los agentes en la evitación 2D.
 
 .. rst-class:: classref-item-separator
 
@@ -1958,7 +1958,7 @@ Consulta una ruta en un mapa de navegación dado. La posición de inicio y de de
 
 **Obsoleto:** This method is deprecated due to core threading changes. To upgrade existing code, first create a :ref:`NavigationMeshSourceGeometryData3D<class_NavigationMeshSourceGeometryData3D>` resource. Use this resource with :ref:`parse_source_geometry_data()<class_NavigationServer3D_method_parse_source_geometry_data>` to parse the :ref:`SceneTree<class_SceneTree>` for nodes that should contribute to the navigation mesh baking. The :ref:`SceneTree<class_SceneTree>` parsing needs to happen on the main thread. After the parsing is finished use the resource with :ref:`bake_from_source_geometry_data()<class_NavigationServer3D_method_bake_from_source_geometry_data>` to bake a navigation mesh.
 
-Hornea la ``navigation_mesh`` con la geometría de origen de horneado recogida a partir del ``root_node``.
+Hornea la ``navigation_mesh`` con la geometría de origen de procesado recogida a partir del ``root_node``.
 
 .. rst-class:: classref-item-separator
 

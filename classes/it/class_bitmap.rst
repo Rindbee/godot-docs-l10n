@@ -67,7 +67,7 @@ Descrizioni dei metodi
 
 :ref:`Image<class_Image>` **convert_to_image**\ (\ ) |const| :ref:`🔗<class_BitMap_method_convert_to_image>`
 
-Returns an image of the same size as the bitmap and with an :ref:`Format<enum_Image_Format>` of type :ref:`Image.FORMAT_L8<class_Image_constant_FORMAT_L8>`. ``true`` bits of the bitmap are being converted into white pixels, and ``false`` bits into black.
+Restituisce un'immagine delle stesse dimensioni della bitmap e con un :ref:`Format<enum_Image_Format>` di tipo :ref:`Image.FORMAT_L8<class_Image_constant_FORMAT_L8>`. I bit ``true`` della bitmap vengono convertiti in pixel bianchi, mentre i bit ``false`` in pixel neri.
 
 .. rst-class:: classref-item-separator
 

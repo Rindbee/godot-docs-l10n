@@ -130,7 +130,7 @@ enum **Mode**: :ref:`🔗<enum_AESContext_Mode>`
 
 :ref:`Mode<enum_AESContext_Mode>` **MODE_ECB_ENCRYPT** = ``0``
 
-Modo encripción AES electronic codebook(ECB).
+AES electronic codebook encryption mode.
 
 .. _class_AESContext_constant_MODE_ECB_DECRYPT:
 
@@ -138,7 +138,7 @@ Modo encripción AES electronic codebook(ECB).
 
 :ref:`Mode<enum_AESContext_Mode>` **MODE_ECB_DECRYPT** = ``1``
 
-Modo desencripción AES electronic codebook(ECB).
+Modo de desencripción AES electronic codebook(ECB).
 
 .. _class_AESContext_constant_MODE_CBC_ENCRYPT:
 
@@ -146,7 +146,7 @@ Modo desencripción AES electronic codebook(ECB).
 
 :ref:`Mode<enum_AESContext_Mode>` **MODE_CBC_ENCRYPT** = ``2``
 
-Modo encripción AES cipher blocker chaining (CBC).
+Modo de encripción AES cipher blocker chaining (CBC).
 
 .. _class_AESContext_constant_MODE_CBC_DECRYPT:
 
@@ -154,7 +154,7 @@ Modo encripción AES cipher blocker chaining (CBC).
 
 :ref:`Mode<enum_AESContext_Mode>` **MODE_CBC_DECRYPT** = ``3``
 
-Modo desencripción AES cipher blocker chaining (CBC).
+Modo de desencripción AES cipher blocker chaining (CBC).
 
 .. _class_AESContext_constant_MODE_MAX:
 

@@ -157,7 +157,7 @@ Abre el archivo zip en la ``path`` dada y lee su índice de archivos.
 
 Carga en memoria todo el contenido de un archivo .zip cargado y lo devuelve.
 
-Debe llamarse después de :ref:`abierto()<class_ZIPReader_method_abierto>`.
+Debe llamarse después de :ref:`open()<class_ZIPReader_method_open>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

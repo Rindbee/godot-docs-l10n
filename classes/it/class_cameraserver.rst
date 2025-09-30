@@ -14,11 +14,11 @@ Server che tiene traccia delle diverse fotocamere accessibili in Godot.
 Descrizione
 ----------------------
 
-The **CameraServer** keeps track of different cameras accessible in Godot. These are external cameras such as webcams or the cameras on your phone.
+Il **CameraServer** tiene traccia delle diverse fotocamere accessibili in Godot. Queste sono fotocamere esterne come webcam o fotocamere sul un telefono.
 
-It is notably used to provide AR modules with a video feed from the camera.
+Serve in particolare per fornire ai moduli AR un feed video dalla fotocamera.
 
-\ **Note:** This class is currently only implemented on Linux, Android, macOS, and iOS. On other platforms no :ref:`CameraFeed<class_CameraFeed>`\ s will be available. To get a :ref:`CameraFeed<class_CameraFeed>` on iOS, the camera plugin from `godot-ios-plugins <https://github.com/godotengine/godot-ios-plugins>`__ is required.
+\ **Nota:** Questa classe è attualmente implementata solo su Linux, Android, macOS e iOS. Su altre piattaforme i :ref:`CameraFeed<class_CameraFeed>` non saranno disponibili. Per ottenere un :ref:`CameraFeed<class_CameraFeed>` su iOS, è necessaria l'estensione della fotocamera da `godot-ios-plugins <https://github.com/godotengine/godot-ios-plugins>`__.
 
 .. rst-class:: classref-reftable-group
 
@@ -91,7 +91,7 @@ Emesso quando un :ref:`CameraFeed<class_CameraFeed>` viene rimosso (ad esempio u
 
 **camera_feeds_updated**\ (\ ) :ref:`🔗<class_CameraServer_signal_camera_feeds_updated>`
 
-Emitted when camera feeds are updated.
+Emesso quando i feed della fotocamera vengono aggiornati.
 
 .. rst-class:: classref-section-separator
 
@@ -160,11 +160,11 @@ Descrizioni delle proprietà
 - |void| **set_monitoring_feeds**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_monitoring_feeds**\ (\ )
 
-If ``true``, the server is actively monitoring available camera feeds.
+Se ``true``, il server sta monitorando attivamente i feed della fotocamera disponibili.
 
-This has a performance cost, so only set it to ``true`` when you're actively accessing the camera.
+Questo ha un impatto negativo sulle prestazioni, quindi impostalo su ``true`` solo quando accedi attivamente alla fotocamera.
 
-\ **Note:** After setting it to ``true``, you can receive updated camera feeds through the :ref:`camera_feeds_updated<class_CameraServer_signal_camera_feeds_updated>` signal.
+\ **Nota:** Dopo averlo impostato su ``true``, è possibile ricevere feed aggiornati della telecamera attraverso il segnale :ref:`camera_feeds_updated<class_CameraServer_signal_camera_feeds_updated>`.
 
 
 .. tabs::

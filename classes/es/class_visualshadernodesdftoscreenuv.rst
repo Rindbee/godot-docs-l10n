@@ -14,7 +14,7 @@ Una función para convertir un SDF (campo de distancia firmado) a UV de pantalla
 Descripción
 ----------------------
 
-Se traduce a ``sdf_to_screen_uv(sdf_pos)`` en el lenguaje de shader.
+Se traduce a ``sdf_to_screen_uv(sdf_pos)`` en el lenguaje de shaders.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

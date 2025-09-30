@@ -115,7 +115,7 @@ Si es ``true``, la traducción está activada. De lo contrario, :ref:`translate(
 
 Reemplaza todos los caracteres con sus variantes acentuadas durante la seudolocalización.
 
-\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de la escena. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
+\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de escenas. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
 
 .. rst-class:: classref-item-separator
 
@@ -134,7 +134,7 @@ Reemplaza todos los caracteres con sus variantes acentuadas durante la seudoloca
 
 Duplica las vocales en las strings durante la seudolocalización para simular el alargamiento del texto debido a la localización.
 
-\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de la escena. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
+\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de escenas. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
 
 .. rst-class:: classref-item-separator
 
@@ -153,7 +153,7 @@ Duplica las vocales en las strings durante la seudolocalización para simular el
 
 Si es ``true``, activa la seudolocalización para el proyecto. Esto se puede utilizar para detectar strings no traducibles o problemas de diseño que pueden ocurrir una vez que el proyecto se localiza a idiomas que tienen strings más largas que el idioma de origen.
 
-\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de la escena. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
+\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de escenas. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
 
 .. rst-class:: classref-item-separator
 
@@ -172,7 +172,7 @@ Si es ``true``, activa la seudolocalización para el proyecto. Esto se puede uti
 
 La relación de expansión a utilizar durante la seudolocalización. Un valor de ``0.3`` es suficiente para la mayoría de los propósitos prácticos, y aumentará la longitud de cada cadena en un 30%.
 
-\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de la escena. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
+\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de escenas. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
 
 .. rst-class:: classref-item-separator
 
@@ -191,7 +191,7 @@ La relación de expansión a utilizar durante la seudolocalización. Un valor de
 
 Si es ``true``, emula texto bidireccional (de derecha a izquierda) cuando la seudolocalización está activada. Esto se puede utilizar para detectar problemas con el diseño RTL y la duplicación de la interfaz de usuario que surgirán si el proyecto se localiza a idiomas RTL como el árabe o el hebreo.
 
-\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de la escena. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
+\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de escenas. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
 
 .. rst-class:: classref-item-separator
 
@@ -210,7 +210,7 @@ Si es ``true``, emula texto bidireccional (de derecha a izquierda) cuando la seu
 
 Reemplaza todos los caracteres de la cadena con ``*``. Útil para encontrar strings no localizables.
 
-\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de la escena. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
+\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de escenas. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
 
 .. rst-class:: classref-item-separator
 
@@ -229,7 +229,7 @@ Reemplaza todos los caracteres de la cadena con ``*``. Útil para encontrar stri
 
 Prefijo que se añadirá a la cadena pseudolocalizada.
 
-\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de la escena. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
+\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de escenas. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
 
 .. rst-class:: classref-item-separator
 
@@ -248,7 +248,7 @@ Prefijo que se añadirá a la cadena pseudolocalizada.
 
 Omite los marcadores de posición para el formato de strings como ``%s`` o ``%f`` durante la seudolocalización. Útil para identificar strings que necesitan caracteres de control adicionales para mostrarse correctamente.
 
-\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de la escena. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
+\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de escenas. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
 
 .. rst-class:: classref-item-separator
 
@@ -267,7 +267,7 @@ Omite los marcadores de posición para el formato de strings como ``%s`` o ``%f`
 
 Sufijo que se añadirá a la cadena pseudolocalizada.
 
-\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de la escena. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
+\ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de escenas. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
 
 .. rst-class:: classref-section-separator
 
@@ -360,7 +360,7 @@ Establece la anulación de la configuración regional del dominio.
 
 Si ``locale`` es una cadena vacía, la anulación de la configuración regional está desactivada. De lo contrario, ``locale`` se estandarizará para que coincida con las configuraciones regionales conocidas (por ejemplo, ``en-US`` se correspondería con ``en_US``).
 
-\ **Nota:** Llamar a este método no actualiza automáticamente los textos en el árbol de la escena. Por favor, propaga la señal :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente.
+\ **Nota:** Llamar a este método no actualiza automáticamente los textos en el árbol de escenas. Por favor, propaga la señal :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente.
 
 .. rst-class:: classref-item-separator
 

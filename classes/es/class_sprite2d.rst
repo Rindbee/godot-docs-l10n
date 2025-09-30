@@ -120,9 +120,9 @@ Descripciones de Propiedades
 - |void| **set_centered**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_centered**\ (\ )
 
-If ``true``, texture is centered.
+Si es ``true``, la textura se centra.
 
-\ **Note:** For games with a pixel art aesthetic, textures may appear deformed when centered. This is caused by their position being between pixels. To prevent this, set this property to ``false``, or consider enabling :ref:`ProjectSettings.rendering/2d/snap/snap_2d_vertices_to_pixel<class_ProjectSettings_property_rendering/2d/snap/snap_2d_vertices_to_pixel>` and :ref:`ProjectSettings.rendering/2d/snap/snap_2d_transforms_to_pixel<class_ProjectSettings_property_rendering/2d/snap/snap_2d_transforms_to_pixel>`.
+\ **Nota:** Para juegos con una estética de pixel art, las texturas pueden aparecer deformadas cuando se centran. Esto se debe a que su posición está entre píxeles. Para evitar esto, establece esta propiedad en ``false``, o considera habilitar :ref:`ProjectSettings.rendering/2d/snap/snap_2d_vertices_to_pixel<class_ProjectSettings_property_rendering/2d/snap/snap_2d_vertices_to_pixel>` y :ref:`ProjectSettings.rendering/2d/snap/snap_2d_transforms_to_pixel<class_ProjectSettings_property_rendering/2d/snap/snap_2d_transforms_to_pixel>`.
 
 .. rst-class:: classref-item-separator
 
@@ -173,7 +173,7 @@ Si es ``true``, la textura se voltea verticalmente.
 - |void| **set_frame**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_frame**\ (\ )
 
-Current frame to display from sprite sheet. :ref:`hframes<class_Sprite2D_property_hframes>` or :ref:`vframes<class_Sprite2D_property_vframes>` must be greater than 1. This property is automatically adjusted when :ref:`hframes<class_Sprite2D_property_hframes>` or :ref:`vframes<class_Sprite2D_property_vframes>` are changed to keep pointing to the same visual frame (same column and row). If that's impossible, this value is reset to ``0``.
+Fotograma actual que se mostrará de la hoja de sprite. :ref:`hframes<class_Sprite2D_property_hframes>` o :ref:`vframes<class_Sprite2D_property_vframes>` deben ser mayores que 1. Esta propiedad se ajusta automáticamente cuando se cambian :ref:`hframes<class_Sprite2D_property_hframes>` o :ref:`vframes<class_Sprite2D_property_vframes>` para seguir apuntando al mismo fotograma visual (misma columna y fila). Si eso es imposible, este valor se restablece a ``0``.
 
 .. rst-class:: classref-item-separator
 
@@ -207,7 +207,7 @@ Coordinates of the frame to display from sprite sheet. This is as an alias for t
 - |void| **set_hframes**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_hframes**\ (\ )
 
-The number of columns in the sprite sheet. When this property is changed, :ref:`frame<class_Sprite2D_property_frame>` is adjusted so that the same visual frame is maintained (same row and column). If that's impossible, :ref:`frame<class_Sprite2D_property_frame>` is reset to ``0``.
+El número de columnas en la hoja de sprite. Cuando se cambia esta propiedad, :ref:`frame<class_Sprite2D_property_frame>` se ajusta para que se mantenga el mismo fotograma visual (misma fila y columna). Si eso es imposible, :ref:`frame<class_Sprite2D_property_frame>` se restablece a ``0``.
 
 .. rst-class:: classref-item-separator
 
@@ -224,9 +224,9 @@ The number of columns in the sprite sheet. When this property is changed, :ref:`
 - |void| **set_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_offset**\ (\ )
 
-The texture's drawing offset.
+El desplazamiento de dibujo de la textura.
 
-\ **Note:** When you increase :ref:`offset<class_Sprite2D_property_offset>`.y in Sprite2D, the sprite moves downward on screen (i.e., +Y is down).
+\ **Nota:** Cuando aumentas :ref:`offset<class_Sprite2D_property_offset>`.y en Sprite2D, el sprite se mueve hacia abajo en la pantalla (es decir, +Y es hacia abajo).
 
 .. rst-class:: classref-item-separator
 
@@ -262,7 +262,7 @@ If ``true``, texture is cut from a larger atlas texture. See :ref:`region_rect<c
 - |void| **set_region_filter_clip_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_region_filter_clip_enabled**\ (\ )
 
-If ``true``, the area outside of the :ref:`region_rect<class_Sprite2D_property_region_rect>` is clipped to avoid bleeding of the surrounding texture pixels. :ref:`region_enabled<class_Sprite2D_property_region_enabled>` must be ``true``.
+Si es ``true``, el área fuera de :ref:`region_rect<class_Sprite2D_property_region_rect>` se recorta para evitar el sangrado de los píxeles de la textura circundante. :ref:`region_enabled<class_Sprite2D_property_region_enabled>` debe ser ``true``.
 
 .. rst-class:: classref-item-separator
 

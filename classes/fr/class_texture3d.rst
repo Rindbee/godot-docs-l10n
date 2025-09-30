@@ -145,7 +145,7 @@ Called when the presence of mipmaps in the **Texture3D** is queried.
 
 :ref:`Resource<class_Resource>` **create_placeholder**\ (\ ) |const| :ref:`🔗<class_Texture3D_method_create_placeholder>`
 
-Creates a placeholder version of this resource (:ref:`PlaceholderTexture3D<class_PlaceholderTexture3D>`).
+Crée une version placeholder de cette ressource (:ref:`PlaceholderTexture3D<class_PlaceholderTexture3D>`).
 
 .. rst-class:: classref-item-separator
 

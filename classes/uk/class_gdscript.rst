@@ -7,7 +7,7 @@ GDScript
 
 **Успадковує:** :ref:`Script<class_Script>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Сценарій, що реалізується мовою програмування GDScript.
+Скрипт, що реалізується мовою програмування GDScript.
 
 .. rst-class:: classref-introduction-group
 

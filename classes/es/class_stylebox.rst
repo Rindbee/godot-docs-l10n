@@ -117,9 +117,9 @@ It is up to the code using this style box to decide what these contents are: for
 - |void| **set_content_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, offset\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_content_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-The left margin for the contents of this style box. Increasing this value reduces the space available to the contents from the left.
+El margen izquierdo para el contenido de esta caja de estilo. Aumentar este valor reduce el espacio disponible para el contenido desde la izquierda.
 
-Refer to :ref:`content_margin_bottom<class_StyleBox_property_content_margin_bottom>` for extra considerations.
+Véase :ref:`content_margin_bottom<class_StyleBox_property_content_margin_bottom>` para consideraciones adicionales.
 
 .. rst-class:: classref-item-separator
 
@@ -202,7 +202,7 @@ Descripciones de Métodos
 
 :ref:`Vector2<class_Vector2>` **_get_minimum_size**\ (\ ) |virtual| |const| :ref:`🔗<class_StyleBox_private_method__get_minimum_size>`
 
-Virtual method to be implemented by the user. Returns a custom minimum size that the stylebox must respect when drawing. By default :ref:`get_minimum_size()<class_StyleBox_method_get_minimum_size>` only takes content margins into account. This method can be overridden to add another size restriction. A combination of the default behavior and the output of this method will be used, to account for both sizes.
+Método virtual para ser implementado por el usuario. Devuelve un tamaño mínimo personalizado que el stylebox debe respetar al dibujar. Por defecto, :ref:`get_minimum_size()<class_StyleBox_method_get_minimum_size>` solo tiene en cuenta los márgenes de contenido. Este método puede ser sobreescrito para añadir otra restricción de tamaño. Se utilizará una combinación del comportamiento por defecto y la salida de este método, para tener en cuenta ambos tamaños.
 
 .. rst-class:: classref-item-separator
 
@@ -228,9 +228,9 @@ Virtual method to be implemented by the user. Returns a custom minimum size that
 
 |void| **draw**\ (\ canvas_item\: :ref:`RID<class_RID>`, rect\: :ref:`Rect2<class_Rect2>`\ ) |const| :ref:`🔗<class_StyleBox_method_draw>`
 
-Draws this stylebox using a canvas item identified by the given :ref:`RID<class_RID>`.
+Dibuja este stylebox usando un elemento del canvas identificado por el :ref:`RID<class_RID>` dado.
 
-The :ref:`RID<class_RID>` value can either be the result of :ref:`CanvasItem.get_canvas_item()<class_CanvasItem_method_get_canvas_item>` called on an existing :ref:`CanvasItem<class_CanvasItem>`-derived node, or directly from creating a canvas item in the :ref:`RenderingServer<class_RenderingServer>` with :ref:`RenderingServer.canvas_item_create()<class_RenderingServer_method_canvas_item_create>`.
+El valor de :ref:`RID<class_RID>` puede ser el resultado de :ref:`CanvasItem.get_canvas_item()<class_CanvasItem_method_get_canvas_item>` llamado en un nodo derivado de :ref:`CanvasItem<class_CanvasItem>` existente, o directamente de la creación de un elemento del canvas en el :ref:`RenderingServer<class_RenderingServer>` con :ref:`RenderingServer.canvas_item_create()<class_RenderingServer_method_canvas_item_create>`.
 
 .. rst-class:: classref-item-separator
 
@@ -242,7 +242,7 @@ The :ref:`RID<class_RID>` value can either be the result of :ref:`CanvasItem.get
 
 :ref:`float<class_float>` **get_content_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const| :ref:`🔗<class_StyleBox_method_get_content_margin>`
 
-Returns the default margin of the specified :ref:`Side<enum_@GlobalScope_Side>`.
+Devuelve el margen por defecto del :ref:`Side<enum_@GlobalScope_Side>` especificado.
 
 .. rst-class:: classref-item-separator
 
@@ -266,9 +266,9 @@ Devuelve el :ref:`CanvasItem<class_CanvasItem>` que maneja su :ref:`CanvasItem.N
 
 :ref:`float<class_float>` **get_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const| :ref:`🔗<class_StyleBox_method_get_margin>`
 
-Returns the content margin offset for the specified :ref:`Side<enum_@GlobalScope_Side>`.
+Devuelve el desplazamiento del margen de contenido para el :ref:`Side<enum_@GlobalScope_Side>` especificado.
 
-Positive values reduce size inwards, unlike :ref:`Control<class_Control>`'s margin values.
+Los valores positivos reducen el tamaño hacia adentro, a diferencia de los valores de margen de :ref:`Control<class_Control>`.
 
 .. rst-class:: classref-item-separator
 
@@ -304,7 +304,7 @@ Devuelve el "desplazamiento" de una caja de estilo. Esta función de ayuda devue
 
 |void| **set_content_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, offset\: :ref:`float<class_float>`\ ) :ref:`🔗<class_StyleBox_method_set_content_margin>`
 
-Sets the default value of the specified :ref:`Side<enum_@GlobalScope_Side>` to ``offset`` pixels.
+Establece el valor por defecto del :ref:`Side<enum_@GlobalScope_Side>` especificado a ``offset`` píxeles.
 
 .. rst-class:: classref-item-separator
 
@@ -316,7 +316,7 @@ Sets the default value of the specified :ref:`Side<enum_@GlobalScope_Side>` to `
 
 |void| **set_content_margin_all**\ (\ offset\: :ref:`float<class_float>`\ ) :ref:`🔗<class_StyleBox_method_set_content_margin_all>`
 
-Sets the default margin to ``offset`` pixels for all sides.
+Establece el margen por defecto a ``offset`` píxeles para todos los lados.
 
 .. rst-class:: classref-item-separator
 
@@ -328,7 +328,7 @@ Sets the default margin to ``offset`` pixels for all sides.
 
 :ref:`bool<class_bool>` **test_mask**\ (\ point\: :ref:`Vector2<class_Vector2>`, rect\: :ref:`Rect2<class_Rect2>`\ ) |const| :ref:`🔗<class_StyleBox_method_test_mask>`
 
-Pruebe una posición en un rectángulo, vuelva si pasa la prueba de la máscara.
+Prueba una posición en un rectángulo, devolver si pasa la prueba de máscara.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

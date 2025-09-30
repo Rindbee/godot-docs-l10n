@@ -202,11 +202,11 @@ Nota che la compressione RGTC influisce sull'immagine della mappa normale risult
 
 :ref:`float<class_float>` **compress/rdo_quality_loss** = ``0.0`` :ref:`🔗<class_ResourceImporterTexture_property_compress/rdo_quality_loss>`
 
-If greater than or equal to ``0.01``, enables Rate-Distortion Optimization (RDO) to reduce file size. Higher values result in smaller file sizes but lower quality.
+Se maggiore o uguale a ``0.01``, abilita il Rate-Distortion Optimization(RDO) per ridurre le dimensioni del file. Valori più elevati risultano in file più piccoli ma di qualità inferiore.
 
-\ **Note:** Enabling RDO makes encoding times significantly longer, especially when the image is large.
+\ **Nota:** Abilitare l'RDO allunga notevolmente i tempi di codifica, soprattutto quando l'immagine è grande.
 
-See also :ref:`ProjectSettings.rendering/textures/basis_universal/rdo_dict_size<class_ProjectSettings_property_rendering/textures/basis_universal/rdo_dict_size>` and :ref:`ProjectSettings.rendering/textures/basis_universal/zstd_supercompression_level<class_ProjectSettings_property_rendering/textures/basis_universal/zstd_supercompression_level>` if you want to reduce the file size further.
+Vedi anche :ref:`ProjectSettings.rendering/textures/basis_universal/rdo_dict_size<class_ProjectSettings_property_rendering/textures/basis_universal/rdo_dict_size>` e :ref:`ProjectSettings.rendering/textures/basis_universal/zstd_supercompression_level<class_ProjectSettings_property_rendering/textures/basis_universal/zstd_supercompression_level>` se si desidera ridurre ulteriormente le dimensioni del file.
 
 .. rst-class:: classref-item-separator
 
@@ -218,7 +218,7 @@ See also :ref:`ProjectSettings.rendering/textures/basis_universal/rdo_dict_size<
 
 :ref:`int<class_int>` **compress/uastc_level** = ``0`` :ref:`🔗<class_ResourceImporterTexture_property_compress/uastc_level>`
 
-The UASTC encoding level. Higher values result in better quality but make encoding times longer.
+Il livello di codifica UASTC. Valori più alti risultano in una qualità migliore, ma allungano i tempi di codifica.
 
 .. rst-class:: classref-item-separator
 
@@ -244,9 +244,9 @@ La modifica di questa opzione in **Disabled** e la successiva reimportazione non
 
 :ref:`bool<class_bool>` **editor/convert_colors_with_editor_theme** = ``false`` :ref:`🔗<class_ResourceImporterTexture_property_editor/convert_colors_with_editor_theme>`
 
-If ``true``, converts the imported image's colors to match :ref:`EditorSettings.interface/theme/icon_and_font_color<class_EditorSettings_property_interface/theme/icon_and_font_color>`. This assumes the image uses the exact same colors as :doc:`Godot's own color palette for editor icons <../engine_details/editor/creating_icons>`, with the source file designed for a dark editor theme. This should be enabled for editor plugin icons and custom class icons, but should be left disabled otherwise.
+Se ``true``, converte i colori dell'immagine importata per abbinarli a :ref:`EditorSettings.interface/theme/icon_and_font_color<class_EditorSettings_property_interface/theme/icon_and_font_color>`. Ciò presuppone che l'immagine utilizzi esattamente gli stessi colori della :doc:`tavolozza di colori di Godot per le icone dell'editor <../contributing/development/editor/creating_icons>`, con il file sorgente progettato per un tema scuro dell'editor. Dovrebbe essere abilitato per le icone delle estensioni dell'editor e le icone delle classi personalizzate, ma dovrebbe essere lasciato disabilitato altrimenti.
 
-\ **Note:** Only available for SVG images.
+\ **Nota:** Disponibile solo per le immagini SVG.
 
 .. rst-class:: classref-item-separator
 
@@ -304,29 +304,29 @@ Non implementato. Al momento non ha alcun effetto quando viene modificato.
 
 :ref:`int<class_int>` **process/channel_remap/alpha** = ``3`` :ref:`🔗<class_ResourceImporterTexture_property_process/channel_remap/alpha>`
 
-Specifies the data source of the output image's alpha channel.
+Specifica l'origine dei dati per il canale alfa dell'immagine risultante.
 
-\ **Red:** Use the values from the source image's red channel.
+\ **Red:** Usa i valori del canale rosso dell'immagine sorgente.
 
-\ **Green:** Use the values from the source image's green channel.
+\ **Green:** Usa i valori del canale verde dell'immagine sorgente.
 
-\ **Blue:** Use the values from the source image's blue channel.
+\ **Blue:** Usa i valori del canale blu dell'immagine sorgente.
 
-\ **Alpha:** Use the values from the source image's alpha channel.
+\ **Alpha:** Usa i valori del canale alfa dell'immagine sorgente.
 
-\ **Red Inverted:** Use inverted values from the source image's red channel (``1.0 - R``).
+\ **Red Inverted:** Usa i valori invertiti del canale rosso dell'immagine sorgente (``1.0 - R``).
 
-\ **Green Inverted:** Use inverted values from the source image's green channel (``1.0 - G``).
+\ **Green Inverted:** Usa i valori invertiti del canale verde dell'immagine sorgente (``1.0 - G``).
 
-\ **Blue Inverted:** Use inverted values from the source image's blue channel (``1.0 - B``).
+\ **Blue Inverted:** Usa i valori invertiti del canale blu dell'immagine sorgente (``1.0 - B``).
 
-\ **Alpha Inverted:** Use inverted values from the source image's alpha channel (``1.0 - A``).
+\ **Alpha Inverted:** Usa i valori invertiti del canale alfa dell'immagine sorgente (``1.0 - A``).
 
-\ **Unused:** Set the color channel's value to the default (``1.0`` for alpha, ``0.0`` for red, green or blue).
+\ **Unused:** Imposta il valore del canale colore sul valore predefinito (``1.0`` per alfa, ``0.0`` per rosso, verde o blu).
 
-\ **Zero:** Set the color channel's value to ``0.0``.
+\ **Zero:** Imposta il valore del canale colore su ``0.0``.
 
-\ **One:** Set the color channel's value to ``1.0``.
+\ **One:** Imposta il valore del canale colore su ``1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -338,29 +338,29 @@ Specifies the data source of the output image's alpha channel.
 
 :ref:`int<class_int>` **process/channel_remap/blue** = ``2`` :ref:`🔗<class_ResourceImporterTexture_property_process/channel_remap/blue>`
 
-Specifies the data source of the output image's blue channel.
+Specifica l'origine dei dati per il canale blu dell'immagine risultante.
 
-\ **Red:** Use the values from the source image's red channel.
+\ **Red:** Usa i valori del canale rosso dell'immagine sorgente.
 
-\ **Green:** Use the values from the source image's green channel.
+\ **Green:** Usa i valori del canale verde dell'immagine sorgente.
 
-\ **Blue:** Use the values from the source image's blue channel.
+\ **Blue:** Usa i valori del canale blu dell'immagine sorgente.
 
-\ **Alpha:** Use the values from the source image's alpha channel.
+\ **Alpha:** Usa i valori del canale alfa dell'immagine sorgente.
 
-\ **Red Inverted:** Use inverted values from the source image's red channel (``1.0 - R``).
+\ **Red Inverted:** Usa i valori invertiti del canale rosso dell'immagine sorgente (``1.0 - R``).
 
-\ **Green Inverted:** Use inverted values from the source image's green channel (``1.0 - G``).
+\ **Green Inverted:** Usa i valori invertiti del canale verde dell'immagine sorgente (``1.0 - G``).
 
-\ **Blue Inverted:** Use inverted values from the source image's blue channel (``1.0 - B``).
+\ **Blue Inverted:** Usa i valori invertiti del canale blu dell'immagine sorgente (``1.0 - B``).
 
-\ **Alpha Inverted:** Use inverted values from the source image's alpha channel (``1.0 - A``).
+\ **Alpha Inverted:** Usa i valori invertiti del canale alfa dell'immagine sorgente (``1.0 - A``).
 
-\ **Unused:** Set the color channel's value to the default (``1.0`` for alpha, ``0.0`` for red, green or blue).
+\ **Unused:** Imposta il valore del canale colore sul valore predefinito (``1.0`` per alfa, ``0.0`` per rosso, verde o blu).
 
-\ **Zero:** Set the color channel's value to ``0.0``.
+\ **Zero:** Imposta il valore del canale colore su ``0.0``.
 
-\ **One:** Set the color channel's value to ``1.0``.
+\ **One:** Imposta il valore del canale colore su ``1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -372,29 +372,29 @@ Specifies the data source of the output image's blue channel.
 
 :ref:`int<class_int>` **process/channel_remap/green** = ``1`` :ref:`🔗<class_ResourceImporterTexture_property_process/channel_remap/green>`
 
-Specifies the data source of the output image's green channel.
+Specifica l'origine dei dati per il canale verde dell'immagine risultante.
 
-\ **Red:** Use the values from the source image's red channel.
+\ **Red:** Usa i valori del canale rosso dell'immagine sorgente.
 
-\ **Green:** Use the values from the source image's green channel.
+\ **Green:** Usa i valori del canale verde dell'immagine sorgente.
 
-\ **Blue:** Use the values from the source image's blue channel.
+\ **Blue:** Usa i valori del canale blu dell'immagine sorgente.
 
-\ **Alpha:** Use the values from the source image's alpha channel.
+\ **Alpha:** Usa i valori del canale alfa dell'immagine sorgente.
 
-\ **Red Inverted:** Use inverted values from the source image's red channel (``1.0 - R``).
+\ **Red Inverted:** Usa i valori invertiti del canale rosso dell'immagine sorgente (``1.0 - R``).
 
-\ **Green Inverted:** Use inverted values from the source image's green channel (``1.0 - G``).
+\ **Green Inverted:** Usa i valori invertiti del canale verde dell'immagine sorgente (``1.0 - G``).
 
-\ **Blue Inverted:** Use inverted values from the source image's blue channel (``1.0 - B``).
+\ **Blue Inverted:** Usa i valori invertiti del canale blu dell'immagine sorgente (``1.0 - B``).
 
-\ **Alpha Inverted:** Use inverted values from the source image's alpha channel (``1.0 - A``).
+\ **Alpha Inverted:** Usa i valori invertiti del canale alfa dell'immagine sorgente (``1.0 - A``).
 
-\ **Unused:** Set the color channel's value to the default (``1.0`` for alpha, ``0.0`` for red, green or blue).
+\ **Unused:** Imposta il valore del canale colore sul valore predefinito (``1.0`` per alfa, ``0.0`` per rosso, verde o blu).
 
-\ **Zero:** Set the color channel's value to ``0.0``.
+\ **Zero:** Imposta il valore del canale colore su ``0.0``.
 
-\ **One:** Set the color channel's value to ``1.0``.
+\ **One:** Imposta il valore del canale colore su ``1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -406,29 +406,29 @@ Specifies the data source of the output image's green channel.
 
 :ref:`int<class_int>` **process/channel_remap/red** = ``0`` :ref:`🔗<class_ResourceImporterTexture_property_process/channel_remap/red>`
 
-Specifies the data source of the output image's red channel.
+Specifica l'origine dei dati per il canale rosso dell'immagine risultante.
 
-\ **Red:** Use the values from the source image's red channel.
+\ **Red:** Usa i valori del canale rosso dell'immagine sorgente.
 
-\ **Green:** Use the values from the source image's green channel.
+\ **Green:** Usa i valori del canale verde dell'immagine sorgente.
 
-\ **Blue:** Use the values from the source image's blue channel.
+\ **Blue:** Usa i valori del canale blu dell'immagine sorgente.
 
-\ **Alpha:** Use the values from the source image's alpha channel.
+\ **Alpha:** Usa i valori del canale alfa dell'immagine sorgente.
 
-\ **Red Inverted:** Use inverted values from the source image's red channel (``1.0 - R``).
+\ **Red Inverted:** Usa i valori invertiti del canale rosso dell'immagine sorgente (``1.0 - R``).
 
-\ **Green Inverted:** Use inverted values from the source image's green channel (``1.0 - G``).
+\ **Green Inverted:** Usa i valori invertiti del canale verde dell'immagine sorgente (``1.0 - G``).
 
-\ **Blue Inverted:** Use inverted values from the source image's blue channel (``1.0 - B``).
+\ **Blue Inverted:** Usa i valori invertiti del canale blu dell'immagine sorgente (``1.0 - B``).
 
-\ **Alpha Inverted:** Use inverted values from the source image's alpha channel (``1.0 - A``).
+\ **Alpha Inverted:** Usa i valori invertiti del canale alfa dell'immagine sorgente (``1.0 - A``).
 
-\ **Unused:** Set the color channel's value to the default (``1.0`` for alpha, ``0.0`` for red, green or blue).
+\ **Unused:** Imposta il valore del canale colore sul valore predefinito (``1.0`` per alfa, ``0.0`` per rosso, verde o blu).
 
-\ **Zero:** Set the color channel's value to ``0.0``.
+\ **Zero:** Imposta il valore del canale colore su ``0.0``.
 
-\ **One:** Set the color channel's value to ``1.0``.
+\ **One:** Imposta il valore del canale colore su ``1.0``.
 
 .. rst-class:: classref-item-separator
 

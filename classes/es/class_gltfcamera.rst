@@ -136,7 +136,7 @@ El FOV de la cámara. Esta clase y glTF definen el FOV de la cámara en radianes
 - |void| **set_perspective**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_perspective**\ (\ )
 
-Si es ``true``, la cámara está en modo de perspectiva. De lo contrario, la cámara está en modo ortográfico/ortogonal. Esto se asigna a la propiedad ``type`` de la cámara glTF. Consulta :ref:`Camera3D.projection<class_Camera3D_property_projection>` y la especificación glTF para obtener más información.
+Si es ``true``, la cámara está en modo de perspectiva. De lo contrario, la cámara está en modo ortográfico/ortogonal. Esto se asigna a la propiedad ``type`` de la cámara glTF. Véase :ref:`Camera3D.projection<class_Camera3D_property_projection>` y la especificación glTF para obtener más información.
 
 .. rst-class:: classref-item-separator
 

@@ -224,7 +224,7 @@ Emitida cuando se ha cambiado alguna configuración del proyecto.
 
 **resource_saved**\ (\ resource\: :ref:`Resource<class_Resource>`\ ) :ref:`🔗<class_EditorPlugin_signal_resource_saved>`
 
-Emitida cuando el ``resource`` dado es guardado en el disco. Ver también :ref:`scene_saved<class_EditorPlugin_signal_scene_saved>`.
+Emitida cuando el ``resource`` dado es guardado en el disco. Véase también :ref:`scene_saved<class_EditorPlugin_signal_scene_saved>`.
 
 .. rst-class:: classref-item-separator
 
@@ -645,7 +645,7 @@ You need to enable calling of this method by using :ref:`set_force_draw_over_for
 
 :ref:`int<class_int>` **_forward_3d_gui_input**\ (\ viewport_camera\: :ref:`Camera3D<class_Camera3D>`, event\: :ref:`InputEvent<class_InputEvent>`\ ) |virtual| :ref:`🔗<class_EditorPlugin_private_method__forward_3d_gui_input>`
 
-Se llama cuando hay un nodo raíz en la escena editada actual, se implementa :ref:`_handles()<class_EditorPlugin_private_method__handles>` y ocurre un :ref:`InputEvent<class_InputEvent>` en el viewport 3D. El valor de retorno decide si el :ref:`InputEvent<class_InputEvent>` es consumido o reenviado a otros **EditorPlugin**\ s. Ver :ref:`AfterGUIInput<enum_EditorPlugin_AfterGUIInput>` para las opciones.
+Se llama cuando hay un nodo raíz en la escena editada actual, se implementa :ref:`_handles()<class_EditorPlugin_private_method__handles>` y ocurre un :ref:`InputEvent<class_InputEvent>` en el viewport 3D. El valor de retorno decide si el :ref:`InputEvent<class_InputEvent>` es consumido o reenviado a otros **EditorPlugin**\ s. Véase :ref:`AfterGUIInput<enum_EditorPlugin_AfterGUIInput>` para las opciones.
 
 
 .. tabs::
@@ -1434,7 +1434,7 @@ Consigue el objeto deshacer/rehacer. La mayoría de las acciones del editor pued
 
 |void| **hide_bottom_panel**\ (\ ) :ref:`🔗<class_EditorPlugin_method_hide_bottom_panel>`
 
-Minimizes the bottom panel.
+Minimiza el panel inferior.
 
 .. rst-class:: classref-item-separator
 

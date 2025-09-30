@@ -16,7 +16,7 @@ Classe de base abstraite pour les barres de défilement.
 Description
 -----------
 
-Abstract base class for scrollbars, typically used to navigate through content that extends beyond the visible area of a control. Scrollbars are :ref:`Range<class_Range>`-based controls.
+Classe de base abstraite pour les barres de défilement, généralement utilisée pour naviguer à travers du contenu qui s'étend au-delà de la zone visible d'un contrôle. Les barres de défilement sont des contrôles basés sur :ref:`Range<class_Range>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -120,7 +120,7 @@ Descriptions des propriétés du thème
 
 :ref:`Texture2D<class_Texture2D>` **decrement** :ref:`🔗<class_ScrollBar_theme_icon_decrement>`
 
-Icon used as a button to scroll the **ScrollBar** left/up. Supports custom step using the :ref:`custom_step<class_ScrollBar_property_custom_step>` property.
+Icône utilisée comme un bouton pour défiler la **ScrollBar** vers la gauche/le haut. Supporte un pas de déplacement personnalisé en utilisant la propriété :ref:`custom_step<class_ScrollBar_property_custom_step>`.
 
 .. rst-class:: classref-item-separator
 

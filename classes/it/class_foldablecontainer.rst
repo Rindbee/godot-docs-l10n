@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/FoldableContainer.xml.
+.. meta::
+	:keywords: expandable, collapsible, collapse
 
 .. _class_FoldableContainer:
 
@@ -10,22 +10,22 @@ FoldableContainer
 
 **Eredita:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A container that can be expanded/collapsed.
+Un contenitore che si può espandere/comprimere.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-A container that can be expanded/collapsed, with a title that can be filled with controls, such as buttons.
+Un contenitore che si può espandere/comprimere, con un titolo che si può riempire con controlli, come pulsanti.
 
-The title can be positioned at the top or bottom of the container.
+Il titolo può essere posizionato in alto o in basso il contenitore.
 
-The container can be expanded or collapsed by clicking the title or by pressing ``ui_accept`` when focused.
+Il contenitore si può espandere o comprimere cliccando sul titolo o premendo ``ui_accept`` quando è focalizzato.
 
-Child control nodes are hidden when the container is collapsed. Ignores non-control children.
+I nodi di controllo figlio sono nascosti quando il contenitore è compresso. Ignora i nodi figlio non di controllo.
 
-Can allow grouping with other FoldableContainers, check :ref:`foldable_group<class_FoldableContainer_property_foldable_group>` and :ref:`FoldableGroup<class_FoldableGroup>`.
+Consentire di raggruppare altri FoldableContainer, consulta :ref:`foldable_group<class_FoldableContainer_property_foldable_group>` e :ref:`FoldableGroup<class_FoldableGroup>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -189,7 +189,7 @@ Descrizioni delle proprietà
 - |void| **set_foldable_group**\ (\ value\: :ref:`FoldableGroup<class_FoldableGroup>`\ )
 - :ref:`FoldableGroup<class_FoldableGroup>` **get_foldable_group**\ (\ )
 
-The :ref:`FoldableGroup<class_FoldableGroup>` associated with the container. When multiple **FoldableContainer** nodes share the same group, only one of them is allowed to be unfolded.
+Il :ref:`FoldableGroup<class_FoldableGroup>` associato al contenitore. Quando più nodi **FoldableContainer** condividono lo stesso gruppo, solo uno di essi può essere espanso.
 
 .. rst-class:: classref-item-separator
 
@@ -308,7 +308,7 @@ Direzione di scrittura del testo del titolo.
 - |void| **set_title_text_overrun_behavior**\ (\ value\: :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>`\ )
 - :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>` **get_title_text_overrun_behavior**\ (\ )
 
-Defines the behavior of the title when the text is longer than the available space.
+Definisce il comportamento del titolo quando il testo è più lungo dello spazio disponibile.
 
 .. rst-class:: classref-section-separator
 
@@ -325,9 +325,9 @@ Descrizioni dei metodi
 
 |void| **add_title_bar_control**\ (\ control\: :ref:`Control<class_Control>`\ ) :ref:`🔗<class_FoldableContainer_method_add_title_bar_control>`
 
-Adds a :ref:`Control<class_Control>` that will be placed next to the container's title, obscuring the clickable area. Prime usage is adding :ref:`Button<class_Button>` nodes, but it can be any :ref:`Control<class_Control>`.
+Aggiunge un :ref:`Control<class_Control>` che sarà posizionato accanto al titolo del contenitore, oscurando l'area cliccabile. Serve principalmente per aggiungere nodi :ref:`Button<class_Button>`, ma può essere qualsiasi :ref:`Control<class_Control>`.
 
-The control will be added as a child of this container and removed from previous parent if necessary. The controls will be placed aligned to the right, with the first added control being the leftmost one.
+Il controllo sarà aggiunto come figlio di questo contenitore e rimosso dal precedente genitore, se necessario. I controlli sarà posizionati allineati a destra, vale a dire che il primo controllo aggiunto sarà quello più a sinistra.
 
 .. rst-class:: classref-item-separator
 
@@ -339,7 +339,7 @@ The control will be added as a child of this container and removed from previous
 
 |void| **expand**\ (\ ) :ref:`🔗<class_FoldableContainer_method_expand>`
 
-Expands the container and emits :ref:`folding_changed<class_FoldableContainer_signal_folding_changed>`.
+Espande il contenitore ed emette :ref:`folding_changed<class_FoldableContainer_signal_folding_changed>`.
 
 .. rst-class:: classref-item-separator
 
@@ -351,7 +351,7 @@ Expands the container and emits :ref:`folding_changed<class_FoldableContainer_si
 
 |void| **fold**\ (\ ) :ref:`🔗<class_FoldableContainer_method_fold>`
 
-Folds the container and emits :ref:`folding_changed<class_FoldableContainer_signal_folding_changed>`.
+Riduce il contenitore ed emette :ref:`folding_changed<class_FoldableContainer_signal_folding_changed>`.
 
 .. rst-class:: classref-item-separator
 
@@ -363,7 +363,7 @@ Folds the container and emits :ref:`folding_changed<class_FoldableContainer_sign
 
 |void| **remove_title_bar_control**\ (\ control\: :ref:`Control<class_Control>`\ ) :ref:`🔗<class_FoldableContainer_method_remove_title_bar_control>`
 
-Removes a :ref:`Control<class_Control>` added with :ref:`add_title_bar_control()<class_FoldableContainer_method_add_title_bar_control>`. The node is not freed automatically, you need to use :ref:`Node.queue_free()<class_Node_method_queue_free>`.
+Rimuove un :ref:`Control<class_Control>` aggiunto con :ref:`add_title_bar_control()<class_FoldableContainer_method_add_title_bar_control>`. Il nodo non viene liberato automaticamente, è necessario usare :ref:`Node.queue_free()<class_Node_method_queue_free>`.
 
 .. rst-class:: classref-section-separator
 
@@ -488,7 +488,7 @@ L'icona del titolo utilizzata quando espanso.
 
 :ref:`Texture2D<class_Texture2D>` **expanded_arrow_mirrored** :ref:`🔗<class_FoldableContainer_theme_icon_expanded_arrow_mirrored>`
 
-The title's icon used when expanded (for bottom title).
+L'icona del titolo utilizzata quando espanso (per il titolo in basso).
 
 .. rst-class:: classref-item-separator
 
@@ -548,7 +548,7 @@ Sfondo predefinito per il **FoldableContainer**.
 
 :ref:`StyleBox<class_StyleBox>` **title_collapsed_hover_panel** :ref:`🔗<class_FoldableContainer_theme_style_title_collapsed_hover_panel>`
 
-Background used when the mouse cursor enters the title's area when collapsed.
+Sfondo utilizzato quando il cursore del mouse entra nell'area del titolo quando compresso.
 
 .. rst-class:: classref-item-separator
 
@@ -572,7 +572,7 @@ Sfondo predefinito per il **FoldableContainer** quando è compresso.
 
 :ref:`StyleBox<class_StyleBox>` **title_hover_panel** :ref:`🔗<class_FoldableContainer_theme_style_title_hover_panel>`
 
-Background used when the mouse cursor enters the title's area when expanded.
+Sfondo utilizzato quando il cursore del mouse entra nell'area del titolo quando espanso.
 
 .. rst-class:: classref-item-separator
 

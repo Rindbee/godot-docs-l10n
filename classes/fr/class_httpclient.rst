@@ -1000,7 +1000,7 @@ Cela doit être appelé pour que les requêtes puissent être traitée. Vérifie
 
 :ref:`String<class_String>` **query_string_from_dict**\ (\ fields\: :ref:`Dictionary<class_Dictionary>`\ ) :ref:`🔗<class_HTTPClient_method_query_string_from_dict>`
 
-Generates a GET/POST application/x-www-form-urlencoded style query string from a provided dictionary, e.g.:
+Génère une chaîne de requête de style GET/POST application/x-www-form-urlencoded depuis un dictionnaire fourni, par ex. :
 
 
 .. tabs::
@@ -1009,17 +1009,17 @@ Generates a GET/POST application/x-www-form-urlencoded style query string from a
 
     var fields = { "username": "user", "password": "pass" }
     var query_string = http_client.query_string_from_dict(fields)
-    # Returns "username=user&password=pass"
+    # Renvoie "username=user&password=pass"
 
  .. code-tab:: csharp
 
     var fields = new Godot.Collections.Dictionary { { "username", "user" }, { "password", "pass" } };
     string queryString = httpClient.QueryStringFromDict(fields);
-    // Returns "username=user&password=pass"
+    // Renvoie "username=user&password=pass"
 
 
 
-Furthermore, if a key has a ``null`` value, only the key itself is added, without equal sign and value. If the value is an array, for each value in it a pair with the same key is added.
+En outre, si une clé a une valeur ``null``, seule la clé elle-même est ajoutée, sans signe égal et valeur. Si la valeur est un tableau, pour chaque valeur dans celui-ci une paire avec la même clé est ajoutée.
 
 
 .. tabs::
@@ -1028,7 +1028,7 @@ Furthermore, if a key has a ``null`` value, only the key itself is added, withou
 
     var fields = { "single": 123, "not_valued": null, "multiple": [22, 33, 44] }
     var query_string = http_client.query_string_from_dict(fields)
-    # Returns "single=123&not_valued&multiple=22&multiple=33&multiple=44"
+    # Renvoie "single=123&not_valued&multiple=22&multiple=33&multiple=44"
 
  .. code-tab:: csharp
 
@@ -1039,7 +1039,7 @@ Furthermore, if a key has a ``null`` value, only the key itself is added, withou
         { "multiple", new Godot.Collections.Array { 22, 33, 44 } },
     };
     string queryString = httpClient.QueryStringFromDict(fields);
-    // Returns "single=123&not_valued&multiple=22&multiple=33&multiple=44"
+    // Renvoie "single=123&not_valued&multiple=22&multiple=33&multiple=44"
 
 
 
@@ -1065,13 +1065,13 @@ Lit une partie de la réponse.
 
 :ref:`Error<enum_@GlobalScope_Error>` **request**\ (\ method\: :ref:`Method<enum_HTTPClient_Method>`, url\: :ref:`String<class_String>`, headers\: :ref:`PackedStringArray<class_PackedStringArray>`, body\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_HTTPClient_method_request>`
 
-Sends an HTTP request to the connected host with the given ``method``.
+Envoie une requête HTTP à l'hôte connecté avec la méthode ``method`` donnée.
 
-The URL parameter is usually just the part after the host, so for ``https://example.com/index.php``, it is ``/index.php``. When sending requests to an HTTP proxy server, it should be an absolute URL. For :ref:`METHOD_OPTIONS<class_HTTPClient_constant_METHOD_OPTIONS>` requests, ``*`` is also allowed. For :ref:`METHOD_CONNECT<class_HTTPClient_constant_METHOD_CONNECT>` requests, it should be the authority component (``host:port``).
+Le paramètre de l'URL est généralement juste la partie après l'hôte, donc pour ``https://example.com/index.php``, il s'agit de ``/index.php``. Lors de l'envoi de requêtes vers un serveur proxy HTTP, elle devrait être une URL absolue. Pour les requêtes :ref:`METHOD_OPTIONS<class_HTTPClient_constant_METHOD_OPTIONS>`, ``*`` est aussi autorisé. Pour les requêtes :ref:`METHOD_CONNECT<class_HTTPClient_constant_METHOD_CONNECT>`, elle devrait être le composant d'autorité (``host:port``).
 
-\ ``headers`` are HTTP request headers.
+\ ``headers`` sont des en-têtes de requête HTTP.
 
-To create a POST request with query strings to push to the server, do:
+Pour créer une requête POST avec des chaînes de requête à envoyer sur le serveur, faire :
 
 
 .. tabs::
@@ -1092,7 +1092,7 @@ To create a POST request with query strings to push to the server, do:
 
 
 
-\ **Note:** The ``body`` parameter is ignored if ``method`` is :ref:`METHOD_GET<class_HTTPClient_constant_METHOD_GET>`. This is because GET methods can't contain request data. As a workaround, you can pass request data as a query string in the URL. See :ref:`String.uri_encode()<class_String_method_uri_encode>` for an example.
+\ **Note :** Le paramètre ``body`` est ignoré si ``method`` vaut :ref:`METHOD_GET<class_HTTPClient_constant_METHOD_GET>`. C'est parce que les méthodes GET ne peuvent pas contenir de données de requête. Pour contourner cela, vous pouvez passer des données de requête en tant que chaîne de requête dans l'URL. Voir :ref:`String.uri_encode()<class_String_method_uri_encode>` pour un exemple.
 
 .. rst-class:: classref-item-separator
 

@@ -114,7 +114,7 @@ Definire questo metodo è **facoltativo**. Se non sovrascritto, il nodo sarà in
 
 :ref:`String<class_String>` **_get_code**\ (\ input_vars\: :ref:`Array<class_Array>`\[:ref:`String<class_String>`\], output_vars\: :ref:`Array<class_Array>`\[:ref:`String<class_String>`\], mode\: :ref:`Mode<enum_Shader_Mode>`, type\: :ref:`Type<enum_VisualShader_Type>`\ ) |virtual| |const| :ref:`🔗<class_VisualShaderNodeCustom_private_method__get_code>`
 
-Sostituisci questo metodo per definire il codice di shader effettivo del nodo personalizzato associato. Il codice di shader dovrebbe essere restituito come una stringa, che può avere più righe (per comodità può essere utilizzato il costrutto stringa multilinea ``"""``).
+Sovrascrivi questo metodo per definire il codice di shader effettivo del nodo personalizzato associato. Il codice di shader dovrebbe essere restituito come una stringa, che può avere più righe (per comodità può essere utilizzato il costrutto stringa multilinea ``"""``).
 
 Gli array ``input_vars`` e ``output_vars`` contengono i nomi stringa delle varie variabili in ingresso e in uscita, come definito dai metodi virtuali ``_get_input_*`` e ``_get_output_*`` in questa classe.
 
@@ -380,7 +380,7 @@ Definire questo metodo è **facoltativo**. Se non sovrascritto, non viene mostra
 
 :ref:`bool<class_bool>` **_is_available**\ (\ mode\: :ref:`Mode<enum_Shader_Mode>`, type\: :ref:`Type<enum_VisualShader_Type>`\ ) |virtual| |const| :ref:`🔗<class_VisualShaderNodeCustom_private_method__is_available>`
 
-Sostituisci questo metodo per impedire che il nodo sia visibile nella finestra di dialogo dei membri per la modalità ``mode`` (vedi :ref:`Mode<enum_Shader_Mode>`) e/o il tipo ``type``.
+Sovrascrivi questo metodo per impedire che il nodo sia visibile nella finestra di dialogo dei membri per la modalità ``mode`` (vedi :ref:`Mode<enum_Shader_Mode>`) e/o il tipo ``type``.
 
 Definire questo metodo è **facoltativo**. Se non sovrascritto, è ``true``.
 

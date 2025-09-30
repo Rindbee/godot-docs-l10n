@@ -1979,9 +1979,9 @@ Versione sovrascrivibile di :ref:`PhysicsServer2D.space_set_param()<class_Physic
 
 |void| **_step**\ (\ step\: :ref:`float<class_float>`\ ) |virtual| |required| :ref:`🔗<class_PhysicsServer2DExtension_private_method__step>`
 
-Called every physics step to process the physics simulation. ``step`` is the time elapsed since the last physics step, in seconds. It is usually the same as the value returned by :ref:`Node.get_physics_process_delta_time()<class_Node_method_get_physics_process_delta_time>`.
+Chiamato in ogni passaggio di fisica per elaborare la simulazione fisica. ``step`` è il tempo trascorso dall'ultimo passaggio di fisica, in secondi. Di solito è uguale al valore restituito da :ref:`Node.get_physics_process_delta_time()<class_Node_method_get_physics_process_delta_time>`.
 
-Overridable version of :ref:`PhysicsServer2D<class_PhysicsServer2D>`'s internal ``step`` method.
+Versione sovrascrivibile del metodo interno ``step`` di :ref:`PhysicsServer2D<class_PhysicsServer2D>`.
 
 .. rst-class:: classref-item-separator
 

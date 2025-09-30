@@ -14,7 +14,7 @@ Un nodo de parámetro :ref:`Cubemap<class_Cubemap>` que se utilizará dentro del
 Descripción
 ----------------------
 
-Traducido a ``uniform samplerCube`` en el lenguaje de shader. El valor de salida se puede utilizar como puerto para :ref:`VisualShaderNodeCubemap<class_VisualShaderNodeCubemap>`.
+Traducido a ``uniform samplerCube`` en el lenguaje de shaders. El valor de salida se puede utilizar como puerto para :ref:`VisualShaderNodeCubemap<class_VisualShaderNodeCubemap>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

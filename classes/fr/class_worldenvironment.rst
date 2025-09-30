@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/WorldEnvironment.xml.
+.. meta::
+	:keywords: background, sky
 
 .. _class_WorldEnvironment:
 
@@ -17,11 +17,11 @@ Les propriétés par défaut de l'environnement de toute la scène (effets de po
 Description
 -----------
 
-The **WorldEnvironment** node is used to configure the default :ref:`Environment<class_Environment>` for the scene.
+Le nœud **WorldEnvironment** est utilisé pour configurer l':ref:`Environment<class_Environment>` par défaut pour la scène.
 
-The parameters defined in the **WorldEnvironment** can be overridden by an :ref:`Environment<class_Environment>` node set on the current :ref:`Camera3D<class_Camera3D>`. Additionally, only one **WorldEnvironment** may be instantiated in a given scene at a time.
+Les paramètres définis dans le **WorldEnvironment** peuvent être redéfinis par un nœud :ref:`Environment<class_Environment>` défini sur la :ref:`Camera3D<class_Camera3D>` courante. En plus, un seul **WorldEnvironment** peut être instancié dans une scène donnée à la fois.
 
-The **WorldEnvironment** allows the user to specify default lighting parameters (e.g. ambient lighting), various post-processing effects (e.g. SSAO, DOF, Tonemapping), and how to draw the background (e.g. solid color, skybox). Usually, these are added in order to improve the realism/color balance of the scene.
+Le **WorldEnvironment** permet à l'utilisateur de spécifier les paramètres de lumière par défaut (par exemple l'éclairage ambiant), les divers effets de post-traitement (p. ex. SSAO, profondeur de champ, Tonemapping) et comment dessiner l'arrière-plan (p. ex. couleur solide, skybox). Habituellement, ils sont ajoutés afin d'améliorer le réalisme/la balance des couleurs de la scène.
 
 .. rst-class:: classref-introduction-group
 
@@ -87,7 +87,7 @@ La ressource :ref:`CameraAttributes<class_CameraAttributes>` par défaut à util
 - |void| **set_compositor**\ (\ value\: :ref:`Compositor<class_Compositor>`\ )
 - :ref:`Compositor<class_Compositor>` **get_compositor**\ (\ )
 
-The default :ref:`Compositor<class_Compositor>` resource to use if none set on the :ref:`Camera3D<class_Camera3D>`.
+La ressource :ref:`Compositor<class_Compositor>` par défaut à utiliser si aucune n'est définie sur la :ref:`Camera3D<class_Camera3D>`.
 
 .. rst-class:: classref-item-separator
 

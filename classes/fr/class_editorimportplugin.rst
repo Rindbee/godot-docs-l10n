@@ -260,7 +260,7 @@ Obtient le nom unique de l'importateur.
 
 :ref:`bool<class_bool>` **_get_option_visibility**\ (\ path\: :ref:`String<class_String>`, option_name\: :ref:`StringName<class_StringName>`, options\: :ref:`Dictionary<class_Dictionary>`\ ) |virtual| |const| :ref:`🔗<class_EditorImportPlugin_private_method__get_option_visibility>`
 
-Gets whether the import option specified by ``option_name`` should be visible in the Import dock. The default implementation always returns ``true``, making all options visible. This is mainly useful for hiding options that depend on others if one of them is disabled.
+Obtient si l'option d'importation spécifiée par ``option_name`` devrait être visible dans le dock Import. L'implémentation par défaut renvoie toujours ``true``, rendant toutes les options visibles. Ceci est principalement utile pour cacher des options qui dépendent des autres si l'une d'entre elle est désactivée.
 
 
 .. tabs::
@@ -268,9 +268,9 @@ Gets whether the import option specified by ``option_name`` should be visible in
  .. code-tab:: gdscript
 
     func _get_option_visibility(path, option_name, options):
-        # Only show the lossy quality setting if the compression mode is set to "Lossy".
+        # Affiche seulement le réglage de la qualité avec perte si le mode de compression est défini à "Lossy".
         if option_name == "compress/lossy_quality" and options.has("compress/mode"):
-            return int(options["compress/mode"]) == COMPRESS_LOSSY # This is a constant that you set
+            return int(options["compress/mode"]) == COMPRESS_LOSSY # Il s'agit d'une constante que vous définissez
 
         return true
 
@@ -278,10 +278,10 @@ Gets whether the import option specified by ``option_name`` should be visible in
 
     public override bool _GetOptionVisibility(string path, StringName optionName, Godot.Collections.Dictionary options)
     {
-        // Only show the lossy quality setting if the compression mode is set to "Lossy".
+        // Affiche seulement le réglage de la qualité avec perte si le mode de compression est défini à "Lossy".
         if (optionName == "compress/lossy_quality" && options.ContainsKey("compress/mode"))
         {
-            return (int)options["compress/mode"] == CompressLossy; // This is a constant you set
+            return (int)options["compress/mode"] == CompressLossy; // Il s'agit d'une constante que vous définissez
         }
 
         return true;

@@ -16,7 +16,7 @@ EditorSceneFormatImporter
 Опис
 --------
 
-**EditorSceneFormatImporter** дозволяє визначити сценарій імпортера для третього формату 3D.
+**EditorSceneFormatImporter** дозволяє визначити скрипт імпортера для третього формату 3D.
 
 Для використання **EditorSceneFormatImporter**, зареєструйте його за допомогою :ref:`EditorPlugin.add_scene_format_importer_plugin()<class_EditorPlugin_method_add_scene_format_importer_plugin>`.
 

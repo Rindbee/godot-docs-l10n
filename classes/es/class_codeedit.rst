@@ -14,7 +14,7 @@ Un editor de texto multilínea diseñado para editar código.
 Descripción
 ----------------------
 
-CodeEdit es un :ref:`TextEdit<class_TextEdit>` especializado, diseñado para editar archivos de código de texto plano. Cuenta con muchas características comunes en los editores de código, como números de línea, plegado de líneas, autocompletado de código, gestión de la sangría y gestión de cadenas/comentarios.
+CodeEdit es un :ref:`TextEdit<class_TextEdit>` especializado, diseñado para editar archivos de código de texto plano. Cuenta con muchas características comunes en los editores de código, como números de línea, plegado de líneas, autocompletado de código, gestión de la sangría y gestión de strings/comentarios.
 
 \ **Nota:** Independientemente de la configuración regional, **CodeEdit** por defecto siempre usará la dirección de texto de izquierda a derecha para mostrar correctamente el código fuente.
 
@@ -1181,7 +1181,7 @@ Gets the matching auto brace close key for ``open_key``.
 
 :ref:`PackedInt32Array<class_PackedInt32Array>` **get_bookmarked_lines**\ (\ ) |const| :ref:`🔗<class_CodeEdit_method_get_bookmarked_lines>`
 
-Gets all bookmarked lines.
+Obtiene todas las líneas con marcadores.
 
 .. rst-class:: classref-item-separator
 

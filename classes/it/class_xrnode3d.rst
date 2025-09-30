@@ -16,7 +16,7 @@ Un nodo 3D la cui posizione è aggiornata automaticamente dal :ref:`XRServer<cla
 Descrizione
 ----------------------
 
-This node can be bound to a specific pose of an :ref:`XRPositionalTracker<class_XRPositionalTracker>` and will automatically have its :ref:`Node3D.transform<class_Node3D_property_transform>` updated by the :ref:`XRServer<class_XRServer>`. Nodes of this type must be added as children of the :ref:`XROrigin3D<class_XROrigin3D>` node.
+Questo nodo si può associare a una posa specifica di un :ref:`XRPositionalTracker<class_XRPositionalTracker>` e il suo :ref:`Node3D.transform<class_Node3D_property_transform>` sarà automaticamente aggiornato dal :ref:`XRServer<class_XRServer>`. I nodi di questo tipo si devono aggiungere come figli del nodo :ref:`XROrigin3D<class_XROrigin3D>`.
 
 .. rst-class:: classref-introduction-group
 

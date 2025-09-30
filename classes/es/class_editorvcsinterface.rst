@@ -21,7 +21,7 @@ Defines the API that the editor uses to extract information from the underlying 
 Tutoriales
 --------------------
 
-- :doc:`Version control systems <../tutorials/best_practices/version_control_systems>`
+- :doc:`Sistemas de control de versiones <../tutorials/best_practices/version_control_systems>`
 
 .. rst-class:: classref-reftable-group
 

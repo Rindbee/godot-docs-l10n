@@ -59,7 +59,7 @@ Emesso quando :ref:`curve<class_Path3D_property_curve>` cambia.
 
 **debug_color_changed**\ (\ ) :ref:`🔗<class_Path3D_signal_debug_color_changed>`
 
-Emitted when the :ref:`debug_custom_color<class_Path3D_property_debug_custom_color>` changes.
+Emesso quando il :ref:`debug_custom_color<class_Path3D_property_debug_custom_color>` cambia.
 
 .. rst-class:: classref-section-separator
 
@@ -98,9 +98,9 @@ Una :ref:`Curve3D<class_Curve3D>` che descrive il percorso.
 - |void| **set_debug_custom_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_debug_custom_color**\ (\ )
 
-The custom color to use to draw the shape in the editor.
+Il colore personalizzato da utilizzare per disegnare la forma nell'editor.
 
-If set to ``Color(0.0, 0.0, 0.0)`` (by default), the color set in EditorSettings is used.
+Se impostato su ``Color(0.0, 0.0, 0.0)`` (come predefinito), è utilizzato il colore impostato in EditorSettings.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -16,9 +16,9 @@ Fornisce accesso diretto a uno spazio fisico nel :ref:`PhysicsServer2D<class_Phy
 Descrizione
 ----------------------
 
-Provides direct access to a physics space in the :ref:`PhysicsServer2D<class_PhysicsServer2D>`. It's used mainly to do queries against objects and areas residing in a given space.
+Fornisce accesso diretto a uno spazio fisico nel :ref:`PhysicsServer2D<class_PhysicsServer2D>`. È utilizzato principalmente per interrogare oggetti e aree che risiedono in un determinato spazio.
 
-\ **Note:** This class is not meant to be instantiated directly. Use :ref:`World2D.direct_space_state<class_World2D_property_direct_space_state>` to get the world's physics 2D space state.
+\ **Nota:** Questa classe non si dovrebbe istanziare direttamente. Utilizza :ref:`World2D.direct_space_state<class_World2D_property_direct_space_state>` per ottenere lo stato dello spazio fisico 2D del mondo.
 
 .. rst-class:: classref-introduction-group
 
@@ -96,21 +96,21 @@ I punti restituiti sono una lista di coppie di punti di contatto. Per ogni coppi
 
 :ref:`Dictionary<class_Dictionary>` **get_rest_info**\ (\ parameters\: :ref:`PhysicsShapeQueryParameters2D<class_PhysicsShapeQueryParameters2D>`\ ) :ref:`🔗<class_PhysicsDirectSpaceState2D_method_get_rest_info>`
 
-Checks the intersections of a shape, given through a :ref:`PhysicsShapeQueryParameters2D<class_PhysicsShapeQueryParameters2D>` object, against the space. If it collides with more than one shape, the nearest one is selected. The returned object is a dictionary containing the following fields:
+Verifica le intersezioni di una forma, fornite tramite un oggetto :ref:`PhysicsShapeQueryParameters2D<class_PhysicsShapeQueryParameters2D>`, rispetto allo spazio. Se entra in collisione con più di una forma, quella più vicina è selezionata. L'oggetto restituito è un dizionario contenente i seguenti campi:
 
-\ ``collider_id``: The colliding object's ID.
+\ ``collider_id``: l'ID dell'oggetto in collisione.
 
-\ ``linear_velocity``: The colliding object's velocity :ref:`Vector2<class_Vector2>`. If the object is an :ref:`Area2D<class_Area2D>`, the result is ``(0, 0)``.
+\ ``linear_velocity``: La velocità dell'oggetto in collisione come :ref:`Vector2<class_Vector2>`. Se l'oggetto è un :ref:`Area2D<class_Area2D>`, il risultato è ``(0, 0)``.
 
-\ ``normal``: The collision normal of the query shape at the intersection point, pointing away from the intersecting object.
+\ ``normal``: La normale della collisione relativa alla forma dell'interrogazione nel punto di intersezione, che punta lontano dall'oggetto intersecante.
 
-\ ``point``: The intersection point.
+\ ``point``: il punto di intersezione.
 
-\ ``rid``: The intersecting object's :ref:`RID<class_RID>`.
+\ ``rid``: il :ref:`RID<class_RID>` dell'oggetto in intersezione.
 
-\ ``shape``: The shape index of the colliding shape.
+\ ``shape``: l'indice di forma della forma in collisione.
 
-If the shape did not intersect anything, then an empty dictionary is returned instead.
+Se la forma non ha intersecato nulla, viene restituito un dizionario vuoto.
 
 .. rst-class:: classref-item-separator
 

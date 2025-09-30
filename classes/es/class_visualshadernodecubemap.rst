@@ -14,7 +14,7 @@ Un nodo de muestreo :ref:`Cubemap<class_Cubemap>` para ser usado dentro del grá
 Descripción
 ----------------------
 
-Traducido a ``texture(cubemap, vec3)`` en el lenguaje de shader. Devuelve un vector de color y un canal alfa como escalar.
+Traducido a ``texture(cubemap, vec3)`` en el lenguaje de shaders. Devuelve un vector de color y un canal alfa como escalar.
 
 .. rst-class:: classref-reftable-group
 

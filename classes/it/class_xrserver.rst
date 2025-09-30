@@ -177,7 +177,7 @@ enum **TrackerType**: :ref:`🔗<enum_XRServer_TrackerType>`
 
 :ref:`TrackerType<enum_XRServer_TrackerType>` **TRACKER_HEAD** = ``1``
 
-The tracker tracks the location of the player's head. This is usually a location centered between the player's eyes. Note that for handheld AR devices this can be the current location of the device.
+Il tracciatore traccia la posizione della testa del giocatore. Di solito è una posizione centrata tra gli occhi del giocatore. Nota che per i dispositivi AR portatili questa può essere la posizione attuale del dispositivo.
 
 .. _class_XRServer_constant_TRACKER_CONTROLLER:
 
@@ -401,17 +401,17 @@ Registra un nuovo :ref:`XRTracker<class_XRTracker>` che traccia un oggetto fisic
 
 |void| **center_on_hmd**\ (\ rotation_mode\: :ref:`RotationMode<enum_XRServer_RotationMode>`, keep_height\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_XRServer_method_center_on_hmd>`
 
-This is an important function to understand correctly. AR and VR platforms all handle positioning slightly differently.
+Questa è una funzione importante da capire correttamente. Le piattaforme AR e VR gestiscono tutte il posizionamento in modo leggermente diverso.
 
-For platforms that do not offer spatial tracking, our origin point ``(0, 0, 0)`` is the location of our HMD, but you have little control over the direction the player is facing in the real world.
+Per le piattaforme che non offrono il tracciamento spaziale, il nostro punto di origine ``(0, 0, 0)`` è la posizione del nostro HMD, ma hai poco controllo sulla direzione in cui è rivolto il giocatore nel mondo reale.
 
-For platforms that do offer spatial tracking, our origin point depends very much on the system. For OpenVR, our origin point is usually the center of the tracking space, on the ground. For other platforms, it's often the location of the tracking camera.
+Per le piattaforme che offrono il tracciamento spaziale, il nostro punto di origine dipende molto dal sistema. Per OpenVR, il nostro punto di origine è solitamente il centro dello spazio di tracciamento, a terra. Per altre piattaforme, è spesso la posizione della telecamera di tracciamento.
 
-This method allows you to center your tracker on the location of the HMD. It will take the current location of the HMD and use that to adjust all your tracking data; in essence, realigning the real world to your player's current position in the game world.
+Questo metodo ti consente di centrare il tuo tracciatore sulla posizione dell'HMD. Prenderà la posizione attuale dell'HMD e la utilizzerà per regolare tutti i tuoi dati di tracciamento; in sostanza, riallineando il mondo reale alla posizione attuale del tuo giocatore nel mondo di gioco.
 
-For this method to produce usable results, tracking information must be available. This often takes a few frames after starting your game.
+Affinché questo metodo produca risultati utilizzabili, devono essere disponibili informazioni di tracciamento. Spesso ciò richiede qualche frame dopo l'avvio del gioco.
 
-You should call this method after a few seconds have passed. For example, when the user requests a realignment of the display holding a designated button on a controller for a short period of time, or when implementing a teleport mechanism.
+Si consiglia di chiamare questo metodo dopo qualche secondo. Ad esempio, quando l'utente richiede un riallineamento del display tenendo premuto un pulsante designato su un controller per un breve periodo di tempo, oppure quando si implementa un meccanismo di teletrasporto.
 
 .. rst-class:: classref-item-separator
 

@@ -254,7 +254,7 @@ Devuelve a qué enum pertenece la constante de tipo integer ``name`` de ``class`
 
 :ref:`PackedStringArray<class_PackedStringArray>` **class_get_integer_constant_list**\ (\ class\: :ref:`StringName<class_StringName>`, no_inheritance\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_ClassDB_method_class_get_integer_constant_list>`
 
-Devuelve un array con los nombres de todas las constantes de tipo integer de ``clase`` o su ascendencia.
+Devuelve un array con los nombres de todas las constantes de tipo integer de ``class`` o su ascendencia.
 
 .. rst-class:: classref-item-separator
 
@@ -266,7 +266,7 @@ Devuelve un array con los nombres de todas las constantes de tipo integer de ``c
 
 :ref:`int<class_int>` **class_get_method_argument_count**\ (\ class\: :ref:`StringName<class_StringName>`, method\: :ref:`StringName<class_StringName>`, no_inheritance\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_ClassDB_method_class_get_method_argument_count>`
 
-Devuelve el número de argumentos del método ``metodo`` de ``clase`` o su ascendencia si ``no_inheritance`` es ``false``.
+Devuelve el número de argumentos del método ``method`` de ``class`` o su ascendencia si ``no_inheritance`` es ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -278,7 +278,7 @@ Devuelve el número de argumentos del método ``metodo`` de ``clase`` o su ascen
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **class_get_method_list**\ (\ class\: :ref:`StringName<class_StringName>`, no_inheritance\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_ClassDB_method_class_get_method_list>`
 
-Devuelve un array con todos los métodos de ``clase`` o su ascendencia si ``no_inheritance`` es ``false``. Cada elemento del array es un :ref:`Dictionary<class_Dictionary>` con las siguientes claves: ``args``, ``default_args``, ``flags``, ``id``, ``name``, ``return: (class_name, hint, hint_string, name, type, usage)``.
+Devuelve un array con todos los métodos de ``class`` o su ascendencia si ``no_inheritance`` es ``false``. Cada elemento del array es un :ref:`Dictionary<class_Dictionary>` con las siguientes claves: ``args``, ``default_args``, ``flags``, ``id``, ``name``, ``return: (class_name, hint, hint_string, name, type, usage)``.
 
 \ **Nota:** En las compilaciones de lanzamiento exportadas, la información de depuración no está disponible, por lo que los diccionarios devueltos solo contendrán los nombres de métodos.
 
@@ -292,7 +292,7 @@ Devuelve un array con todos los métodos de ``clase`` o su ascendencia si ``no_i
 
 :ref:`Variant<class_Variant>` **class_get_property**\ (\ object\: :ref:`Object<class_Object>`, property\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_ClassDB_method_class_get_property>`
 
-Devuelve el valor de ``propiedad`` de ``objeto`` o su ascendencia.
+Devuelve el valor de ``property`` de ``object`` o su ascendencia.
 
 .. rst-class:: classref-item-separator
 
@@ -304,7 +304,7 @@ Devuelve el valor de ``propiedad`` de ``objeto`` o su ascendencia.
 
 :ref:`Variant<class_Variant>` **class_get_property_default_value**\ (\ class\: :ref:`StringName<class_StringName>`, property\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_ClassDB_method_class_get_property_default_value>`
 
-Devuelve el valor por defecto de ``propiedad`` de ``clase`` o sus clases ascendentes.
+Devuelve el valor por defecto de ``property`` de ``class`` o sus clases ascendentes.
 
 .. rst-class:: classref-item-separator
 
@@ -316,7 +316,7 @@ Devuelve el valor por defecto de ``propiedad`` de ``clase`` o sus clases ascende
 
 :ref:`StringName<class_StringName>` **class_get_property_getter**\ (\ class\: :ref:`StringName<class_StringName>`, property\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_ClassDB_method_class_get_property_getter>`
 
-Devuelve el nombre del método getter de ``propiedad`` de ``clase``.
+Devuelve el nombre del método getter de ``property`` de ``class``.
 
 .. rst-class:: classref-item-separator
 
@@ -328,7 +328,7 @@ Devuelve el nombre del método getter de ``propiedad`` de ``clase``.
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **class_get_property_list**\ (\ class\: :ref:`StringName<class_StringName>`, no_inheritance\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_ClassDB_method_class_get_property_list>`
 
-Devuelve un array con todas las propiedades de ``clase`` o su ascendencia si ``no_inheritance`` es ``false``.
+Devuelve un array con todas las propiedades de ``class`` o su ascendencia si ``no_inheritance`` es ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -340,7 +340,7 @@ Devuelve un array con todas las propiedades de ``clase`` o su ascendencia si ``n
 
 :ref:`StringName<class_StringName>` **class_get_property_setter**\ (\ class\: :ref:`StringName<class_StringName>`, property\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_ClassDB_method_class_get_property_setter>`
 
-Devuelve el nombre del método setter de ``propiedad`` de ``clase``.
+Devuelve el nombre del método setter de ``property`` de ``class``.
 
 .. rst-class:: classref-item-separator
 
@@ -352,7 +352,7 @@ Devuelve el nombre del método setter de ``propiedad`` de ``clase``.
 
 :ref:`Dictionary<class_Dictionary>` **class_get_signal**\ (\ class\: :ref:`StringName<class_StringName>`, signal\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_ClassDB_method_class_get_signal>`
 
-Devuelve los datos de la señal ``senal`` de ``clase`` o su ascendencia. El valor devuelto es un :ref:`Dictionary<class_Dictionary>` con las siguientes claves: ``args``, ``default_args``, ``flags``, ``id``, ``name``, ``return: (class_name, hint, hint_string, name, type, usage)``.
+Devuelve los datos de la señal ``signal`` de ``class`` o su ascendencia. El valor devuelto es un :ref:`Dictionary<class_Dictionary>` con las siguientes claves: ``args``, ``default_args``, ``flags``, ``id``, ``name``, ``return: (class_name, hint, hint_string, name, type, usage)``.
 
 .. rst-class:: classref-item-separator
 
@@ -364,7 +364,7 @@ Devuelve los datos de la señal ``senal`` de ``clase`` o su ascendencia. El valo
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **class_get_signal_list**\ (\ class\: :ref:`StringName<class_StringName>`, no_inheritance\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_ClassDB_method_class_get_signal_list>`
 
-Devuelve un array con todas las señales de ``clase`` o su ascendencia si ``no_inheritance`` es ``false``. Cada elemento del array es un :ref:`Dictionary<class_Dictionary>` como se describe en :ref:`class_get_signal()<class_ClassDB_method_class_get_signal>`.
+Devuelve un array con todas las señales de ``class`` o su ascendencia si ``no_inheritance`` es ``false``. Cada elemento del array es un :ref:`Dictionary<class_Dictionary>` como se describe en :ref:`class_get_signal()<class_ClassDB_method_class_get_signal>`.
 
 .. rst-class:: classref-item-separator
 

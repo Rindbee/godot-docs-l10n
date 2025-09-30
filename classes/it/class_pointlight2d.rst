@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/PointLight2D.xml.
+.. meta::
+	:keywords: omni, spot
 
 .. _class_PointLight2D:
 

@@ -560,7 +560,7 @@ Spostamento di bit del primo flag di compressione. I flag di compressione devono
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FLAG_USE_2D_VERTICES** = ``33554432``
 
-Flag utilizzato per contrassegnare che l'array contiene vertici 2D.
+Flag usato per indicare che l'array contiene vertici 2D.
 
 .. _class_Mesh_constant_ARRAY_FLAG_USE_DYNAMIC_UPDATE:
 
@@ -568,7 +568,7 @@ Flag utilizzato per contrassegnare che l'array contiene vertici 2D.
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FLAG_USE_DYNAMIC_UPDATE** = ``67108864``
 
-Flag used to mark that the mesh data will use ``GL_DYNAMIC_DRAW`` on GLES. Unused on Vulkan.
+Flag usato per indicare che i dati della mesh utilizzeranno ``GL_DYNAMIC_DRAW`` su GLES. Non usato su Vulkan.
 
 .. _class_Mesh_constant_ARRAY_FLAG_USE_8_BONE_WEIGHTS:
 
@@ -576,7 +576,7 @@ Flag used to mark that the mesh data will use ``GL_DYNAMIC_DRAW`` on GLES. Unuse
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FLAG_USE_8_BONE_WEIGHTS** = ``134217728``
 
-Flag utilizzato per indicare che la mesh contiene fino a 8 influenze di ossa per vertice. Questo flag indica che gli elementi di :ref:`ARRAY_BONES<class_Mesh_constant_ARRAY_BONES>` e di :ref:`ARRAY_WEIGHTS<class_Mesh_constant_ARRAY_WEIGHTS>` avranno una lunghezza doppia.
+Flag usato per indicare che la mesh contiene fino a 8 influenze di ossa per vertice. Questo flag indica che gli elementi di :ref:`ARRAY_BONES<class_Mesh_constant_ARRAY_BONES>` e di :ref:`ARRAY_WEIGHTS<class_Mesh_constant_ARRAY_WEIGHTS>` avranno una lunghezza doppia.
 
 .. _class_Mesh_constant_ARRAY_FLAG_USES_EMPTY_VERTEX_ARRAY:
 
@@ -584,7 +584,7 @@ Flag utilizzato per indicare che la mesh contiene fino a 8 influenze di ossa per
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FLAG_USES_EMPTY_VERTEX_ARRAY** = ``268435456``
 
-Flag utilizzato per indicare che la mesh non contiene alcun array di vertici intenzionalmente.
+Flag usato per indicare che la mesh intenzionalmente non contiene alcun array di vertici.
 
 .. _class_Mesh_constant_ARRAY_FLAG_COMPRESS_ATTRIBUTES:
 
@@ -592,7 +592,7 @@ Flag utilizzato per indicare che la mesh non contiene alcun array di vertici int
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FLAG_COMPRESS_ATTRIBUTES** = ``536870912``
 
-Flag utilizzato per contrassegnare che una mesh sta utilizzando attributi compressi (vertici, normali, tangenti, UV). Quando questa forma di compressione è abilitata, le posizioni dei vertici saranno compresse in un attributo RGBA16UNORM e ridimensionate nello shader dei vertici. La normale e la tangente saranno compresse in un RG16UNORM che rappresenta un asse e un float a 16 bit memorizzato nel canale A del vertice. Gli UV utilizzeranno float normalizzati a 16 bit anziché float con segno a 32 bit completi. Quando si utilizza questa modalità di compressione, è necessario utilizzare vertici, normali e tangenti o solo vertici. Non è possibile utilizzare normali senza tangenti. Gli importatori abiliteranno automaticamente questa compressione se possibile.
+Flag usato per indicare che una mesh sta usando attributi compressi (vertici, normali, tangenti, UV). Quando questa forma di compressione è abilitata, le posizioni dei vertici saranno compresse in un attributo RGBA16UNORM e ridimensionate nello shader dei vertici. La normale e la tangente saranno compresse in un RG16UNORM che rappresenta un asse e un float a 16 bit memorizzato nel canale A del vertice. Gli UV utilizzeranno float normalizzati a 16 bit anziché float con segno a 32 bit completi. Quando si utilizza questa modalità di compressione, è necessario utilizzare vertici, normali e tangenti o solo vertici. Non è possibile utilizzare normali senza tangenti. Gli importatori abiliteranno automaticamente questa compressione se possibile.
 
 .. rst-class:: classref-item-separator
 

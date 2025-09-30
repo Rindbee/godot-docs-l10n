@@ -54,9 +54,9 @@ Descrizioni delle proprietà
 - |void| **set_height**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_height**\ (\ )
 
-The capsule's full height, including the semicircles.
+L'altezza totale della capsula, inclusi i semicerchi.
 
-\ **Note:** The :ref:`height<class_CapsuleShape2D_property_height>` of a capsule must be at least twice its :ref:`radius<class_CapsuleShape2D_property_radius>`. Otherwise, the capsule becomes a circle. If the :ref:`height<class_CapsuleShape2D_property_height>` is less than twice the :ref:`radius<class_CapsuleShape2D_property_radius>`, the properties adjust to a valid value.
+\ **Nota:** L':ref:`height<class_CapsuleShape2D_property_height>` di una capsula deve essere almeno il doppio del suo :ref:`radius<class_CapsuleShape2D_property_radius>`. Se non, la capsula diventa un cerchio. Se l':ref:`height<class_CapsuleShape2D_property_height>` è inferiore al doppio del :ref:`radius<class_CapsuleShape2D_property_radius>`, le proprietà si adattano a un valore valido.
 
 .. rst-class:: classref-item-separator
 
@@ -73,7 +73,7 @@ The capsule's full height, including the semicircles.
 - |void| **set_mid_height**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_mid_height**\ (\ )
 
-The capsule's height, excluding the semicircles. This is the height of the central rectangular part in the middle of the capsule, and is the distance between the centers of the two semicircles. This is a wrapper for :ref:`height<class_CapsuleShape2D_property_height>`.
+L'altezza della capsula, esclusi i semicerchi. Questa è l'altezza della parte rettangolare centrale in mezzo alla capsula, ed è la distanza tra i centri dei due semicerchi. Questo è un wrapper per :ref:`height<class_CapsuleShape2D_property_height>`.
 
 .. rst-class:: classref-item-separator
 
@@ -90,9 +90,9 @@ The capsule's height, excluding the semicircles. This is the height of the centr
 - |void| **set_radius**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_radius**\ (\ )
 
-The capsule's radius.
+Il raggio della capsula.
 
-\ **Note:** The :ref:`radius<class_CapsuleShape2D_property_radius>` of a capsule cannot be greater than half of its :ref:`height<class_CapsuleShape2D_property_height>`. Otherwise, the capsule becomes a circle. If the :ref:`radius<class_CapsuleShape2D_property_radius>` is greater than half of the :ref:`height<class_CapsuleShape2D_property_height>`, the properties adjust to a valid value.
+\ **Nota:** Il :ref:`radius<class_CapsuleShape2D_property_radius>` di una capsula non può essere maggiore della metà della sua :ref:`height<class_CapsuleShape2D_property_height>`. Se non, la capsula diventa un cerchio. Se il :ref:`radius<class_CapsuleShape2D_property_radius>` è maggiore della metà dell':ref:`height<class_CapsuleShape2D_property_height>`, le proprietà si adattano a un valore valido.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

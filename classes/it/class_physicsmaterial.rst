@@ -14,7 +14,7 @@ Contiene gli attributi fisici di una superficie, ossia la sua rugosità e la sua
 Descrizione
 ----------------------
 
-Contiene gli attributi fisici di una superficie, ossia la sua rugosità e la sua elasticità. Questa classe è utilizzata per applicare questi attributi a un corpo fisico.
+Contiene gli attributi fisici di una superficie, ossia la sua rugosità e la sua elasticità. Questa classe serve per applicare questi attributi a un corpo fisico.
 
 .. rst-class:: classref-reftable-group
 

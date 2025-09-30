@@ -7,7 +7,7 @@ EditorExportPreset
 
 **Hérite de :** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Export preset configuration.
+Configuration de préreglage d'export.
 
 .. rst-class:: classref-introduction-group
 

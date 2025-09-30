@@ -91,7 +91,7 @@ Descripciones de Propiedades
 
 El factor de escala base de reserva de cada nodo :ref:`Control<class_Control>` y recurso :ref:`Theme<class_Theme>`. Se utiliza cuando no hay otro valor disponible para el control.
 
-Consulta también :ref:`Theme.default_base_scale<class_Theme_property_default_base_scale>`.
+Véase también :ref:`Theme.default_base_scale<class_Theme_property_default_base_scale>`.
 
 .. rst-class:: classref-item-separator
 
@@ -110,7 +110,7 @@ Consulta también :ref:`Theme.default_base_scale<class_Theme_property_default_ba
 
 La fuente de reserva de cada nodo :ref:`Control<class_Control>` y recurso :ref:`Theme<class_Theme>`. Se utiliza cuando no hay otro valor disponible para el control.
 
-Consulta también :ref:`Theme.default_font<class_Theme_property_default_font>`.
+Véase también :ref:`Theme.default_font<class_Theme_property_default_font>`.
 
 .. rst-class:: classref-item-separator
 
@@ -129,7 +129,7 @@ Consulta también :ref:`Theme.default_font<class_Theme_property_default_font>`.
 
 El tamaño de fuente de reserva de cada nodo :ref:`Control<class_Control>` y recurso :ref:`Theme<class_Theme>`. Se utiliza cuando no hay otro valor disponible para el control.
 
-Consulta también :ref:`Theme.default_font_size<class_Theme_property_default_font_size>`.
+Véase también :ref:`Theme.default_font_size<class_Theme_property_default_font_size>`.
 
 .. rst-class:: classref-item-separator
 

@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/DirectionalLight3D.xml.
+.. meta::
+	:keywords: sun
 
 .. _class_DirectionalLight3D:
 
@@ -17,9 +17,9 @@ Luce direzionale proveniente da lontano, come quella del sole.
 Descrizione
 ----------------------
 
-A directional light is a type of :ref:`Light3D<class_Light3D>` node that models an infinite number of parallel rays covering the entire scene. It is used for lights with strong intensity that are located far away from the scene to model sunlight or moonlight.
+Una luce direzionale è un tipo di nodo :ref:`Light3D<class_Light3D>` che modella un numero infinito di raggi paralleli che coprono l'intera scena. È utilizzato per luci con forte intensità che si trovano lontano dalla scena (ad esempio: per modellare la luce solare o la luce lunare). 
 
-Light is emitted in the -Z direction of the node's global basis. For an unrotated light, this means that the light is emitted forwards, illuminating the front side of a 3D model (see :ref:`Vector3.FORWARD<class_Vector3_constant_FORWARD>` and :ref:`Vector3.MODEL_FRONT<class_Vector3_constant_MODEL_FRONT>`). The position of the node is ignored; only the basis is used to determine light direction.
+La luce è emessa nella direzione -Z della base globale del nodo. Per una luce non ruotata, ciò significa che la luce è emessa in avanti, illuminando il lato frontale di un modello 3D (vedi :ref:`Vector3.FORWARD<class_Vector3_constant_FORWARD>` e :ref:`Vector3.MODEL_FRONT<class_Vector3_constant_MODEL_FRONT>`). La posizione del nodo è ignorata. Solo la base è utilizzata per determinare la direzione della luce.
 
 .. rst-class:: classref-introduction-group
 

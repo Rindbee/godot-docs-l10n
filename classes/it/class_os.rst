@@ -453,7 +453,7 @@ Descrizioni dei metodi
 
 |void| **add_logger**\ (\ logger\: :ref:`Logger<class_Logger>`\ ) :ref:`🔗<class_OS_method_add_logger>`
 
-Add a custom logger to intercept the internal message stream.
+Aggiunge un logger personalizzato per intercettare il flusso interno di messaggi.
 
 .. rst-class:: classref-item-separator
 
@@ -930,11 +930,11 @@ Restituisce il percorso del file eseguibile attuale del motore.
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_granted_permissions**\ (\ ) |const| :ref:`🔗<class_OS_method_get_granted_permissions>`
 
-On Android devices: Returns the list of dangerous permissions that have been granted.
+Sui dispositivi Android: Restituisce la lista delle autorizzazioni pericolose concesse.
 
-On macOS: Returns the list of granted permissions and user selected folders accessible to the application (sandboxed applications only). Use the native file dialog to request folder access permission.
+Su macOS: Restituisce la lista delle cartelle selezionate dall'utente accessibili all'applicazione (solo applicazioni in sandbox). Usa la finestra di dialogo nativa dei file per richiedere l'autorizzazione di accesso alle cartelle.
 
-On iOS, visionOS: Returns the list of granted permissions.
+Su iOS, visionOS: restituisce la lista di autorizzazioni concesse.
 
 .. rst-class:: classref-item-separator
 
@@ -1001,9 +1001,9 @@ Se vuoi solo il codice della lingua e non le impostazioni locali completamente s
 
 :ref:`String<class_String>` **get_locale_language**\ (\ ) |const| :ref:`🔗<class_OS_method_get_locale_language>`
 
-Restituisce il `codice lingua <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`__ a 2 o 3 lettere del locale del sistema operativo host come stringa che dovrebbe essere coerente su tutte le piattaforme. Ciò equivale a estrarre la parte ``language`` della stringa da :ref:`get_locale()<class_OS_method_get_locale>`.
+Restituisce il `codice lingua <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`__ a 2 o 3 lettere delle impostazioni locali del sistema operativo host come stringa che dovrebbe essere coerente su tutte le piattaforme. Ciò equivale a estrarre la parte ``language`` della stringa da :ref:`get_locale()<class_OS_method_get_locale>`.
 
-Questo può essere utilizzato per restringere le stringhe di locale complete a solo il codice lingua "comune", quando non sono necessarie informazioni aggiuntive sul codice paese o sulle varianti. Ad esempio, per un utente franco-canadese con locale ``fr_CA``, questo restituirebbe ``fr``.
+Questo è utile per limitare le stringhe delle impostazioni locali a solo il codice della lingua "comune", quando non sono necessarie informazioni aggiuntive sul codice paese o sulle varianti. Ad esempio, per un utente franco-canadese con locale ``fr_CA``, questo restituirebbe ``fr``.
 
 .. rst-class:: classref-item-separator
 
@@ -1162,9 +1162,9 @@ Restituisce ``-1`` se il ``pid`` non è un PID di un processo figlio generato, i
 
 :ref:`int<class_int>` **get_process_id**\ (\ ) |const| :ref:`🔗<class_OS_method_get_process_id>`
 
-Returns the number used by the host machine to uniquely identify this application.
+Restituisce il numero usato dalla machina ospite per identificare unicamente questa applicazione.
 
-\ **Note:** On Web, this method always returns ``0``.
+\ **Nota:** Su Web, questo metodo restituisce sempre ``0``.
 
 .. rst-class:: classref-item-separator
 
@@ -1238,9 +1238,9 @@ Restituisce la quantità di memoria statica utilizzata dal programma in byte. Fu
 
 :ref:`StdHandleType<enum_OS_StdHandleType>` **get_stderr_type**\ (\ ) |const| :ref:`🔗<class_OS_method_get_stderr_type>`
 
-Returns the type of the standard error device.
+Restituisce il tipo del dispositivo di errore standard.
 
-\ **Note:** This method is implemented on Linux, macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Linux, macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -1252,11 +1252,11 @@ Returns the type of the standard error device.
 
 :ref:`StdHandleType<enum_OS_StdHandleType>` **get_stdin_type**\ (\ ) |const| :ref:`🔗<class_OS_method_get_stdin_type>`
 
-Returns the type of the standard input device.
+Restituisce il tipo del dispositivo di input standard.
 
-\ **Note:** This method is implemented on Linux, macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Linux, macOS e Windows.
 
-\ **Note:** On exported Windows builds, run the console wrapper executable to access the standard input. If you need a single executable with full console support, use a custom build compiled with the ``windows_subsystem=console`` flag.
+\ **Nota:** Nelle build esportate di Windows, bisogna eseguire l'eseguibile wrapper della console per accedere all'input standard. Se è necessario un singolo eseguibile con supporto completo per la console, utilizzare una build personalizzata compilata con il flag ``windows_subsystem=console``.
 
 .. rst-class:: classref-item-separator
 
@@ -1268,9 +1268,9 @@ Returns the type of the standard input device.
 
 :ref:`StdHandleType<enum_OS_StdHandleType>` **get_stdout_type**\ (\ ) |const| :ref:`🔗<class_OS_method_get_stdout_type>`
 
-Returns the type of the standard output device.
+Restituisce il tipo del dispositivo di output standard.
 
-\ **Note:** This method is implemented on Linux, macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Linux, macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -1350,7 +1350,7 @@ I seguenti alias possono essere utilizzati per richiedere i font predefiniti: "s
 
 Restituisce la lista di nomi di famiglie di font disponibili.
 
-\ **Nota:** Questo metodo è implementato su Android, iOS, Linux, macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Android, iOS, Linux, macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -1430,17 +1430,17 @@ Da non confondere con :ref:`get_data_dir()<class_OS_method_get_data_dir>`, che r
 
 :ref:`String<class_String>` **get_version**\ (\ ) |const| :ref:`🔗<class_OS_method_get_version>`
 
-Returns the exact production and build version of the operating system. This is different from the branded version used in marketing. This helps to distinguish between different releases of operating systems, including minor versions, and insider and custom builds.
+Restituisce la versione esatta di produzione e build del sistema operativo. Questa è diversa dalla versione di marca utilizzata nella vendita. Ciò aiuta a distinguere tra diverse versioni di sistemi operativi, comprese le versioni minori e build privilegiate e personalizzate.
 
-- For Windows, the major and minor version are returned, as well as the build number. For example, the returned string may look like ``10.0.9926`` for a build of Windows 10.
+- Per Windows, sono restituite la versione principale e minore, così come il numero di build. Ad esempio, la stringa restituita potrebbe essere simile a ``10.0.9926`` per una build di Windows 10.
 
-- For rolling distributions, such as Arch Linux, an empty string is returned.
+- Per le distribuzioni rolling, come Arch Linux, è restituita una stringa vuota.
 
-- For macOS and iOS, the major and minor version are returned, as well as the patch number.
+- Per macOS e iOS, sono restituite la versione principale e minore, così come il numero di patch.
 
-- For Android, the SDK version and the incremental build number are returned. If it's a custom ROM, it attempts to return its version instead.
+- Per Android, sono restituiti la versione SDK e il numero di build incrementale. Se si tratta di una ROM personalizzata, tenta di restituire la sua versione.
 
-\ **Note:** This method is not supported on the Web platform. It returns an empty string.
+\ **Nota:** Questo metodo non è supportato sulla piattaforma Web. Restituisce una stringa vuota.
 
 .. rst-class:: classref-item-separator
 
@@ -1452,11 +1452,11 @@ Returns the exact production and build version of the operating system. This is 
 
 :ref:`String<class_String>` **get_version_alias**\ (\ ) |const| :ref:`🔗<class_OS_method_get_version_alias>`
 
-Returns the branded version used in marketing, followed by the build number (on Windows), the version number (on macOS), or the SDK version and incremental build number (on Android). Examples include ``11 (build 22000)``, ``Sequoia (15.0.0)``, and ``15 (SDK 35 build abc528-11988f)``.
+Restituisce la versione brandizzata utilizzata nel marketing, seguita dal numero di build (su Windows), dal numero di versione (su macOS), o dalla versione dell'SDK e dal numero incrementale di build (su Android). Esempi includono ``11 (build 22000)``, ``Sequoia (15.0.0)`` e ``15 (SDK 35 build abc528-11988f)``.
 
-This value can then be appended to :ref:`get_name()<class_OS_method_get_name>` to get a full, human-readable operating system name and version combination for the operating system. Windows feature updates such as 24H2 are not contained in the resulting string, but Windows Server is recognized as such (e.g. ``2025 (build 26100)`` for Windows Server 2025).
+Questo valore può quindi essere aggiunto a :ref:`get_name()<class_OS_method_get_name>` per ottenere una combinazione completa e leggibile in chiaro del nome e della versione del sistema operativo. Gli aggiornamenti delle funzionalità di Windows come 24H2 non sono contenuti nella stringa risultante, ma Windows Server è riconosciuto come tale (ad esempio ``2025 (build 26100)`` per Windows Server 2025).
 
-\ **Note:** This method is only supported on Windows, macOS, and Android. On other operating systems, it returns the same value as :ref:`get_version()<class_OS_method_get_version>`.
+\ **Nota:** Questo metodo è supportato solo su Windows, macOS e Android. Su altri sistemi operativi, restituisce lo stesso valore di :ref:`get_version()<class_OS_method_get_version>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1468,15 +1468,15 @@ This value can then be appended to :ref:`get_name()<class_OS_method_get_name>` t
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_video_adapter_driver_info**\ (\ ) |const| :ref:`🔗<class_OS_method_get_video_adapter_driver_info>`
 
-Returns the video adapter driver name and version for the user's currently active graphics card, as a :ref:`PackedStringArray<class_PackedStringArray>`. See also :ref:`RenderingServer.get_video_adapter_api_version()<class_RenderingServer_method_get_video_adapter_api_version>`.
+Restituisce il nome e la versione del driver della scheda video per la scheda grafica attualmente attiva dell'utente, come :ref:`PackedStringArray<class_PackedStringArray>`. Vedi anche :ref:`RenderingServer.get_video_adapter_api_version()<class_RenderingServer_method_get_video_adapter_api_version>`.
 
-The first element holds the driver name, such as ``nvidia``, ``amdgpu``, etc.
+Il primo elemento contiene il nome del driver, come ``nvidia``, ``amdgpu``, ecc.
 
-The second element holds the driver version. For example, on the ``nvidia`` driver on a Linux/BSD platform, the version is in the format ``510.85.02``. For Windows, the driver's format is ``31.0.15.1659``.
+Il secondo elemento contiene la versione del driver. Ad esempio, sul driver ``nvidia`` su una piattaforma Linux/BSD, la versione è nel formato ``510.85.02``. Per Windows, il formato del driver è ``31.0.15.1659``.
 
-\ **Note:** This method is only supported on Linux/BSD and Windows when not running in headless mode. On other platforms, it returns an empty array.
+\ **Nota:** Questo metodo è supportato solo su Linux/BSD e Windows quando non è in esecuzione in modalità headless. Su altre piattaforme, restituisce un array vuoto.
 
-\ **Note:** This method will run slowly the first time it is called in a session; it can take several seconds depending on the operating system and hardware. It is blocking if called on the main thread, so it's recommended to call it on a separate thread using :ref:`Thread<class_Thread>`. This allows the engine to keep running while the information is being retrieved. However, :ref:`get_video_adapter_driver_info()<class_OS_method_get_video_adapter_driver_info>` is *not* thread-safe, so it should not be called from multiple threads at the same time.
+\ **Nota:** Questo metodo sarà eseguito lentamente la prima volta che viene chiamato in una sessione; potrebbe richiedere diversi secondi a seconda del sistema operativo e dell'hardware. È bloccante se chiamato sul thread principale, quindi si consiglia di chiamarlo su un thread separato tramite :ref:`Thread<class_Thread>`. Ciò consente al motore di continuare a funzionare mentre le informazioni vengono recuperate. Tuttavia, :ref:`get_video_adapter_driver_info()<class_OS_method_get_video_adapter_driver_info>` *non* è thread-safe, quindi non si dovrebbe chiamare da più thread allo stesso tempo.
 
 
 .. tabs::
@@ -1492,7 +1492,7 @@ The second element holds the driver version. For example, on the ``nvidia`` driv
                 if not driver_info.is_empty():
                     print("Driver: %s %s" % [driver_info[0], driver_info[1]])
                 else:
-                    print("Driver: (unknown)")
+                    print("Driver: (sconosciuto)")
         )
 
     func _exit_tree():
@@ -1589,7 +1589,7 @@ Restituisce ``true`` se il codice tasto di input corrisponde a un carattere Unic
 
 Restituisce ``true`` se ID del processo figlio (``pid``) è ancora in esecuzione o ``false`` è ha terminato. ``pid`` deve essere un ID valido generato da :ref:`create_process()<class_OS_method_create_process>`.
 
-\ **Nota:** Questo metodo è implementato su Android, iOS, Linux, macOS, and Windows.
+\ **Nota:** Questo metodo è implementato su Android, iOS, Linux, macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -1720,11 +1720,11 @@ Inizializza il singleton per il driver MIDI del sistema, consentendo a Godot di 
 
 :ref:`Error<enum_@GlobalScope_Error>` **open_with_program**\ (\ program_path\: :ref:`String<class_String>`, paths\: :ref:`PackedStringArray<class_PackedStringArray>`\ ) :ref:`🔗<class_OS_method_open_with_program>`
 
-Opens one or more files/directories with the specified application. The ``program_path`` specifies the path to the application to use for opening the files, and ``paths`` contains an array of file/directory paths to open.
+Apre uno o più file/cartelle con l'applicazione specificata. Il parametro ``program_path`` specifica il percorso dell'applicazione da utilizzare per aprire i file, mentre ``paths`` contiene un array di percorsi di file/cartelle da aprire.
 
-\ **Note:** This method is mostly only relevant for macOS, where opening files using :ref:`create_process()<class_OS_method_create_process>` might fail. On other platforms, this falls back to using :ref:`create_process()<class_OS_method_create_process>`.
+\ **Nota:** Questo metodo è rilevante principalmente solo per macOS, dove l'apertura dei file tramite :ref:`create_process()<class_OS_method_create_process>` potrebbe non riuscire. Su altre piattaforme, si ricorre all'utilizzo di :ref:`create_process()<class_OS_method_create_process>`.
 
-\ **Note:** On macOS, ``program_path`` should ideally be the path to a ``.app`` bundle.
+\ **Nota:** Su macOS, ``program_path`` dovrebbe idealmente essere il percorso di un pacchetto ``.app``.
 
 .. rst-class:: classref-item-separator
 
@@ -1782,7 +1782,7 @@ Legge l'input dell'utente dall'input standard come stringa codificata in UTF-8. 
 
 |void| **remove_logger**\ (\ logger\: :ref:`Logger<class_Logger>`\ ) :ref:`🔗<class_OS_method_remove_logger>`
 
-Remove a custom logger added by :ref:`add_logger()<class_OS_method_add_logger>`.
+Rimuove un logger personalizzato aggiunto da :ref:`add_logger()<class_OS_method_add_logger>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1794,9 +1794,9 @@ Remove a custom logger added by :ref:`add_logger()<class_OS_method_add_logger>`.
 
 :ref:`bool<class_bool>` **request_permission**\ (\ name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_OS_method_request_permission>`
 
-Requests permission from the OS for the given ``name``. Returns ``true`` if the permission has already been granted. See also :ref:`MainLoop.on_request_permissions_result<class_MainLoop_signal_on_request_permissions_result>`.
+Richiede l'autorizzazione dal sistema operativo per il nome ``name``. Restituisce ``true`` se l'autorizzazione è già stata concessa. Vedi anche :ref:`MainLoop.on_request_permissions_result<class_MainLoop_signal_on_request_permissions_result>`.
 
-The ``name`` must be the full permission name. For example:
+\ ``name`` deve essere il nome completo di un'autorizzazione. Ad esempio:
 
 - ``OS.request_permission("android.permission.READ_EXTERNAL_STORAGE")``\ 
 
@@ -1806,9 +1806,9 @@ The ``name`` must be the full permission name. For example:
 
 - ``OS.request_permission("appleembedded.permission.AUDIO_RECORD")``\ 
 
-\ **Note:** On Android, permission must be checked during export.
+\ **Nota:** Su Android, l'autorizzazione deve essere spuntata durante l'esportazione.
 
-\ **Note:** This method is implemented on Android, macOS, and visionOS platforms.
+\ **Nota:** Questo metodo è implementato su Android, macOS e piattaforme visionOS.
 
 .. rst-class:: classref-item-separator
 

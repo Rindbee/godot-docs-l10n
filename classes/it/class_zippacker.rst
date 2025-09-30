@@ -118,7 +118,7 @@ enum **CompressionLevel**: :ref:`🔗<enum_ZIPPacker_CompressionLevel>`
 
 :ref:`CompressionLevel<enum_ZIPPacker_CompressionLevel>` **COMPRESSION_DEFAULT** = ``-1``
 
-Start a file with the default Deflate compression level (``6``). This is a good compromise between speed and file size.
+Comincia un file con il livello di compressione predefinito Deflate (``6``). Questo è un buon compromesso tra velocità e dimensioni del file.
 
 .. _class_ZIPPacker_constant_COMPRESSION_NONE:
 
@@ -126,7 +126,7 @@ Start a file with the default Deflate compression level (``6``). This is a good 
 
 :ref:`CompressionLevel<enum_ZIPPacker_CompressionLevel>` **COMPRESSION_NONE** = ``0``
 
-Start a file with no compression. This is also known as the "Store" compression mode and is the fastest method of packing files inside a ZIP archive. Consider using this mode for files that are already compressed (such as JPEG, PNG, MP3, or Ogg Vorbis files).
+Comincia un file senza compressione. Questa è anche nota come modalità di compressione "Archivia" ed è il metodo più veloce per comprimere i file in un archivio ZIP. Si consiglia di utilizzare questa modalità per i file già compressi (come JPEG, PNG, MP3 o Ogg Vorbis).
 
 .. _class_ZIPPacker_constant_COMPRESSION_FAST:
 
@@ -134,7 +134,7 @@ Start a file with no compression. This is also known as the "Store" compression 
 
 :ref:`CompressionLevel<enum_ZIPPacker_CompressionLevel>` **COMPRESSION_FAST** = ``1``
 
-Start a file with the fastest Deflate compression level (``1``). This is fast to compress, but results in larger file sizes than :ref:`COMPRESSION_DEFAULT<class_ZIPPacker_constant_COMPRESSION_DEFAULT>`. Decompression speed is generally unaffected by the chosen compression level.
+Comincia un file con il livello di compressione Deflate più veloce (``1``). Questo è veloce da comprimere, ma produce file di dimensioni maggiori rispetto a :ref:`COMPRESSION_DEFAULT<class_ZIPPacker_constant_COMPRESSION_DEFAULT>`. La velocità di decompressione non è generalmente influenzata dal livello di compressione scelto.
 
 .. _class_ZIPPacker_constant_COMPRESSION_BEST:
 
@@ -142,7 +142,7 @@ Start a file with the fastest Deflate compression level (``1``). This is fast to
 
 :ref:`CompressionLevel<enum_ZIPPacker_CompressionLevel>` **COMPRESSION_BEST** = ``9``
 
-Start a file with the best Deflate compression level (``9``). This is slow to compress, but results in smaller file sizes than :ref:`COMPRESSION_DEFAULT<class_ZIPPacker_constant_COMPRESSION_DEFAULT>`. Decompression speed is generally unaffected by the chosen compression level.
+Comincia un file con il miglior livello di compressione Deflate (``9``). Questo è lento da comprimere, ma produce file di dimensioni più piccole di :ref:`COMPRESSION_DEFAULT<class_ZIPPacker_constant_COMPRESSION_DEFAULT>`. La velocità di decompressione non è generalmente influenzata dal livello di compressione scelto.
 
 .. rst-class:: classref-section-separator
 
@@ -164,7 +164,7 @@ Descrizioni delle proprietà
 - |void| **set_compression_level**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_compression_level**\ (\ )
 
-The compression level used when :ref:`start_file()<class_ZIPPacker_method_start_file>` is called. Use :ref:`CompressionLevel<enum_ZIPPacker_CompressionLevel>` as a reference.
+Il livello di compressione utilizzato quando viene chiamato :ref:`start_file()<class_ZIPPacker_method_start_file>`. Utilizza :ref:`CompressionLevel<enum_ZIPPacker_CompressionLevel>` come riferimento.
 
 .. rst-class:: classref-section-separator
 

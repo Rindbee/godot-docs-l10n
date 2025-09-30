@@ -114,7 +114,7 @@ Descripciones de Métodos
 
 Si es ``true``, el cuadro delimitador está en la pantalla.
 
-\ **Nota:** Se necesita un fotograma para que se evalúe la visibilidad del **VisibleOnScreenNotifier3D** una vez que se añade al árbol de la escena, por lo que este método siempre devolverá ``false`` justo después de que se instancie.
+\ **Nota:** Se necesita un fotograma para que se evalúe la visibilidad del **VisibleOnScreenNotifier3D** una vez que se añade al árbol de escenas, por lo que este método siempre devolverá ``false`` justo después de que se instancie.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -260,7 +260,7 @@ Ottiene il nome univoco dell'importatore.
 
 :ref:`bool<class_bool>` **_get_option_visibility**\ (\ path\: :ref:`String<class_String>`, option_name\: :ref:`StringName<class_StringName>`, options\: :ref:`Dictionary<class_Dictionary>`\ ) |virtual| |const| :ref:`🔗<class_EditorImportPlugin_private_method__get_option_visibility>`
 
-Gets whether the import option specified by ``option_name`` should be visible in the Import dock. The default implementation always returns ``true``, making all options visible. This is mainly useful for hiding options that depend on others if one of them is disabled.
+Determina se bisogna mostrare l'opzione di importazione specificata da ``option_name`` nel pannello Importazione. L'implementazione predefinita restituisce sempre ``true``, rendendo visibili tutte le opzioni. È utile principalmente per nascondere le opzioni che dipendono da altre se una di esse è disabilitata.
 
 
 .. tabs::
@@ -268,9 +268,9 @@ Gets whether the import option specified by ``option_name`` should be visible in
  .. code-tab:: gdscript
 
     func _get_option_visibility(path, option_name, options):
-        # Only show the lossy quality setting if the compression mode is set to "Lossy".
+        # Mostra solo l'impostazione della qualità lossy se la modalità di compressione è impostata su "Lossy".
         if option_name == "compress/lossy_quality" and options.has("compress/mode"):
-            return int(options["compress/mode"]) == COMPRESS_LOSSY # This is a constant that you set
+            return int(options["compress/mode"]) == COMPRESS_LOSSY # Questa è una costante che imposti
 
         return true
 
@@ -278,10 +278,10 @@ Gets whether the import option specified by ``option_name`` should be visible in
 
     public override bool _GetOptionVisibility(string path, StringName optionName, Godot.Collections.Dictionary options)
     {
-        // Only show the lossy quality setting if the compression mode is set to "Lossy".
+        // Mostra solo l'impostazione della qualità lossy se la modalità di compressione è impostata su "Lossy".
         if (optionName == "compress/lossy_quality" && options.ContainsKey("compress/mode"))
         {
-            return (int)options["compress/mode"] == CompressLossy; // This is a constant you set
+            return (int)options["compress/mode"] == CompressLossy; // Questa è una costante che imposti
         }
 
         return true;
@@ -383,13 +383,13 @@ Ottiene il nome da visualizzare nella finestra di importazione. Dovresti sceglie
 
 :ref:`Error<enum_@GlobalScope_Error>` **_import**\ (\ source_file\: :ref:`String<class_String>`, save_path\: :ref:`String<class_String>`, options\: :ref:`Dictionary<class_Dictionary>`, platform_variants\: :ref:`Array<class_Array>`\[:ref:`String<class_String>`\], gen_files\: :ref:`Array<class_Array>`\[:ref:`String<class_String>`\]\ ) |virtual| |const| :ref:`🔗<class_EditorImportPlugin_private_method__import>`
 
-Imports ``source_file`` with the import ``options`` specified. Should return :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` if the import is successful, other values indicate failure.
+Importa ``source_file`` con le opzioni di importazione ``options``. Dovrebbe restituire :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` se l'importazione ha avuto successo, altri valori indicano un errore.
 
-The imported resource is expected to be saved to ``save_path + "." + _get_save_extension()``. If a different variant is preferred for a :doc:`feature tag <../tutorials/export/feature_tags>`, save the variant to ``save_path + "." + tag + "." + _get_save_extension()`` and add the feature tag to ``platform_variants``.
+La risorsa importata si dovrebbe salvare in ``save_path + "." + _get_save_extension()``. Se si preferisce una variante diversa per un :doc:`tag di funzionalità <../tutorials/export/feature_tags>`, salvare la variante in ``save_path + "." + tag + "." + _get_save_extension()`` e aggiungere il tag di funzionalità a ``platform_variants``.
 
-If additional resource files are generated in the resource filesystem (``res://``), add their full path to ``gen_files`` so that the editor knows they depend on ``source_file``.
+Se vengono generati file di risorse aggiuntivi nel file system delle risorse (``res://``), aggiungere il loro percorso completo a ``gen_files`` in modo che l'editor sappia che dipendono da ``source_file``.
 
-This method must be overridden to do the actual importing work. See this class' description for an example of overriding this method.
+Questo metodo si deve sovrascrivere per eseguire l'importazione effettiva. Per un esempio di come sovrascrivere questo metodo, vedere la descrizione di questa classe.
 
 .. rst-class:: classref-item-separator
 

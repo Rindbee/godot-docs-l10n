@@ -71,11 +71,11 @@ Descrizioni delle proprietà
 
 :ref:`String<class_String>` **binary_format/architecture** :ref:`🔗<class_EditorExportPlatformLinuxBSD_property_binary_format/architecture>`
 
-Application executable architecture.
+Architettura dell'eseguibile dell'applicazione.
 
-Supported architectures: ``x86_32``, ``x86_64``, ``arm64``, ``arm32``, ``rv64``, ``ppc64``, and ``loongarch64``.
+Architetture supportate: ``x86_32``, ``x86_64``, ``arm64``, ``arm32``, ``rv64``, ``ppc64`` e ``loongarch64``.
 
-Official export templates include ``x86_32``, ``x86_64``, ``arm32``, and ``arm64`` binaries only.
+I modelli di esportazione ufficiali includono solo i binari ``x86_32``, ``x86_64``, ``arm32`` e ``arm64``.
 
 .. rst-class:: classref-item-separator
 
@@ -135,7 +135,7 @@ Se ``true``, un wrapper per la console è esportato insieme all'eseguibile princ
 
 :ref:`bool<class_bool>` **shader_baker/enabled** :ref:`🔗<class_EditorExportPlatformLinuxBSD_property_shader_baker/enabled>`
 
-If ``true``, shaders will be compiled and embedded in the application. This option is only supported when using the Forward+ or Mobile renderers.
+Se ``true``, gli shader saranno compilati e incorporati nell'applicazione. Questa opzione è supportata solo quando si utilizzano i renderer Forward+ o Mobile.
 
 .. rst-class:: classref-item-separator
 

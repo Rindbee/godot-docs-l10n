@@ -14,7 +14,7 @@ Impostazioni di telecamera basate sulla fisica.
 Descrizione
 ----------------------
 
-**CameraAttributesPhysical** è utilizzato per impostare le impostazioni di rendering, in base alle impostazioni di una fotocamera reale. È responsabile dell'esposizione, dell'esposizione automatica e della profondità di campo.
+**CameraAttributesPhysical** serve per cambiare le impostazioni di rendering in base alle impostazioni di una fotocamera reale. È responsabile dell'esposizione, dell'esposizione automatica e della profondità di campo.
 
 Quando è utilizzato in un :ref:`WorldEnvironment<class_WorldEnvironment>`, fornisce impostazioni predefinite per l'esposizione, l'esposizione automatica e la profondità di campo che saranno utilizzate da tutte le telecamere senza i propri :ref:`CameraAttributes<class_CameraAttributes>`, inclusa la telecamera dell'editor. Quando è utilizzato in un :ref:`Camera3D<class_Camera3D>`, sostituirà qualsiasi :ref:`CameraAttributes<class_CameraAttributes>` impostato nel :ref:`WorldEnvironment<class_WorldEnvironment>` e sostituirà le proprietà :ref:`Camera3D.far<class_Camera3D_property_far>`, :ref:`Camera3D.near<class_Camera3D_property_near>`, :ref:`Camera3D.fov<class_Camera3D_property_fov>` e :ref:`Camera3D.keep_aspect<class_Camera3D_property_keep_aspect>` del :ref:`Camera3D<class_Camera3D>`. Quando è utilizzato in :ref:`VoxelGI<class_VoxelGI>` o :ref:`LightmapGI<class_LightmapGI>`, solo le impostazioni di esposizione saranno utilizzate.
 

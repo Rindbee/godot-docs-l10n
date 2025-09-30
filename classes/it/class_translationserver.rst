@@ -242,9 +242,9 @@ Restituisce un array di tutte le impostazioni locali caricate del progetto.
 
 :ref:`String<class_String>` **get_locale**\ (\ ) |const| :ref:`🔗<class_TranslationServer_method_get_locale>`
 
-Restituisce l'impostazione locale attuale del progetto.
+Restituisce la localizzazione attuale del progetto.
 
-Vedi anche :ref:`OS.get_locale()<class_OS_method_get_locale>` e :ref:`OS.get_locale language()<class_OS_method_get_locale language>` per recuperare l'impostazione locale del sistema utente.
+Vedi anche :ref:`OS.get_locale()<class_OS_method_get_locale>` e :ref:`OS.get_locale_language()<class_OS_method_get_locale_language>` per recuperare la localizzazione del sistema utente.
 
 .. rst-class:: classref-item-separator
 
@@ -256,7 +256,7 @@ Vedi anche :ref:`OS.get_locale()<class_OS_method_get_locale>` e :ref:`OS.get_loc
 
 :ref:`String<class_String>` **get_locale_name**\ (\ locale\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_TranslationServer_method_get_locale_name>`
 
-Restituisce la lingua di un'impostazione locale e la sua variante (ad esempio ``"en_US"`` restituirebbe ``"English (United States)"``).
+Restituisce la lingua di una localizzazione e la sua variante (ad esempio ``"it_IT"`` restituirebbe ``"Italiano (Italia)"``).
 
 .. rst-class:: classref-item-separator
 
@@ -292,7 +292,7 @@ Restituisce un nome leggibile di alfabeto per il codice alfabeto ``script``.
 
 :ref:`String<class_String>` **get_tool_locale**\ (\ ) :ref:`🔗<class_TranslationServer_method_get_tool_locale>`
 
-Restituisce l'impostazione locale attuale dell'editor.
+Restituisce la localizzazione attuale dell'editor.
 
 \ **Nota:** Quando viene chiamato da un progetto esportato, restituisce lo stesso valore di :ref:`get_locale()<class_TranslationServer_method_get_locale>`.
 
@@ -306,7 +306,7 @@ Restituisce l'impostazione locale attuale dell'editor.
 
 :ref:`Translation<class_Translation>` **get_translation_object**\ (\ locale\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TranslationServer_method_get_translation_object>`
 
-Restituisce l'istanza :ref:`Translation<class_Translation>` che corrisponde di più a ``locale`` nel dominio di traduzione principale. Restituisce ``null`` se non ci sono corrispondenze.
+Restituisce l'istanza di :ref:`Translation<class_Translation>` che corrisponde di più alla localizzazione ``locale`` nel dominio di traduzione principale. Restituisce ``null`` se non ci sono corrispondenze.
 
 .. rst-class:: classref-item-separator
 
@@ -382,9 +382,9 @@ Rimuove la traduzione specificata dal dominio di traduzione principale.
 
 |void| **set_locale**\ (\ locale\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TranslationServer_method_set_locale>`
 
-Imposta l'impostazione locale del progetto. La stringa ``locale`` sarà standardizzata per corrispondere alle impostazioni locali note (ad esempio, ``en-US`` sarebbe abbinata a ``en_US``).
+Imposta la localizzazione del progetto. La stringa ``locale`` sarà standardizzata per corrispondere alle localizzazioni note (ad esempio, ``en-US`` sarebbe abbinata a ``en_US``).
 
-Se sono state caricate traduzioni in precedenza per la nuova impostazione locale, saranno applicate.
+Se sono state caricate traduzioni in precedenza per la nuova localizzazione, saranno applicate.
 
 .. rst-class:: classref-item-separator
 
@@ -396,7 +396,7 @@ Se sono state caricate traduzioni in precedenza per la nuova impostazione locale
 
 :ref:`String<class_String>` **standardize_locale**\ (\ locale\: :ref:`String<class_String>`, add_defaults\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_TranslationServer_method_standardize_locale>`
 
-Restituisce una stringa ``locale`` standardizzata per corrispondere alle localizzazioni note (ad esempio, ``en-US`` sarebbe abbinato a ``en_US``). Se ``add_defaults`` è ``true``, è possibile che alla localizzazione venga aggiunto un alfabeto o un paese predefinito.
+Restituisce una stringa ``locale`` standardizzata per corrispondere alle localizzazioni note (ad esempio, ``en-US`` sarebbe abbinato a ``en_US``). Se ``add_defaults`` è ``true``, è possibile che alla localizzazione sia aggiunto un alfabeto o un paese predefinito.
 
 .. rst-class:: classref-item-separator
 
@@ -408,7 +408,7 @@ Restituisce una stringa ``locale`` standardizzata per corrispondere alle localiz
 
 :ref:`StringName<class_StringName>` **translate**\ (\ message\: :ref:`StringName<class_StringName>`, context\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_TranslationServer_method_translate>`
 
-Restituisce la traduzione locale attuale per il messaggio e il contesto specificati.
+Restituisce la traduzione della lingua attuale per il messaggio e il contesto specificati.
 
 \ **Nota:** Questo metodo utilizza sempre il dominio di traduzione principale.
 

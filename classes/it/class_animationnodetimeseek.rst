@@ -82,7 +82,7 @@ Descrizioni delle proprietà
 - |void| **set_explicit_elapse**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_explicit_elapse**\ (\ )
 
-If ``true``, some processes are executed to handle keys between seeks, such as calculating root motion and finding the nearest discrete key.
+Se ``true``, sono eseguiti alcuni processi per gestire le chiavi tra le funzioni di ricerca, come il calcolo del movimento radice e la ricerca della chiave discreta più vicina.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -16,13 +16,13 @@ Un nodo utilizzato per il rendering indipendente di oggetti all'interno di una s
 Descrizione
 ----------------------
 
-:ref:`CanvasItem<class_CanvasItem>`-derived nodes that are direct or indirect children of a **CanvasLayer** will be drawn in that layer. The layer is a numeric index that defines the draw order. The default 2D scene renders with index ``0``, so a **CanvasLayer** with index ``-1`` will be drawn below, and a **CanvasLayer** with index ``1`` will be drawn above. This order will hold regardless of the :ref:`CanvasItem.z_index<class_CanvasItem_property_z_index>` of the nodes within each layer.
+I nodi derivati da :ref:`CanvasItem<class_CanvasItem>` che sono figli diretti o indiretti di un **CanvasLayer** saranno disegnati in quel livello. Il livello è un indice numerico che definisce l'ordine di disegno. La scena 2D predefinita renderizza con un indice ``0``, quindi un **CanvasLayer** con indice ``-1`` sarà disegnato sotto, e un **CanvasLayer** con indice ``1`` sarà disegnato sopra. Questo ordine sarà mantenuto a prescindere dal :ref:`CanvasItem.z_index<class_CanvasItem_property_z_index>` dei nodi all'interno di ciascun livello.
 
-\ **CanvasLayer**\ s can be hidden and they can also optionally follow the viewport. This makes them useful for HUDs like health bar overlays (on layers ``1`` and higher) or backgrounds (on layers ``-1`` and lower).
+È possibile nascondere i **CanvasLayer** e anche facoltativamente seguire la viewport. Ciò li rende utili per HUD come overlay di barre della salute (su livelli ``1`` e superiori) o sfondi (su livelli ``-1`` e inferiori).
 
-\ **Note:** Embedded :ref:`Window<class_Window>`\ s are placed on layer ``1024``. :ref:`CanvasItem<class_CanvasItem>`\ s on layers ``1025`` and higher appear in front of embedded windows.
+\ **Nota:** I nodi :ref:`Window<class_Window>` incorporati sono posizionati sul livello ``1024``. I :ref:`CanvasItem<class_CanvasItem>` sui livelli ``1025`` e superiori sono visualizzati davanti alle finestre incorporate.
 
-\ **Note:** Each **CanvasLayer** is drawn on one specific :ref:`Viewport<class_Viewport>` and cannot be shared between multiple :ref:`Viewport<class_Viewport>`\ s, see :ref:`custom_viewport<class_CanvasLayer_property_custom_viewport>`. When using multiple :ref:`Viewport<class_Viewport>`\ s, for example in a split-screen game, you need to create an individual **CanvasLayer** for each :ref:`Viewport<class_Viewport>` you want it to be drawn on.
+\ **Nota:** Ogni **CanvasLayer** è disegnato su una specifica :ref:`Viewport<class_Viewport>` e non può essere condiviso tra più :ref:`Viewport<class_Viewport>`, vedi :ref:`custom_viewport<class_CanvasLayer_property_custom_viewport>`. Quando si utilizzano più :ref:`Viewport<class_Viewport>`, ad esempio in un gioco a schermo diviso, è necessario creare un **CanvasLayer** per ogni :ref:`Viewport<class_Viewport>` su cui si desidera che sia disegnato.
 
 .. rst-class:: classref-introduction-group
 
@@ -135,9 +135,9 @@ Il nodo :ref:`Viewport<class_Viewport>` personalizzato assegnato al **CanvasLaye
 - |void| **set_follow_viewport**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_following_viewport**\ (\ )
 
-If enabled, the **CanvasLayer** maintains its position in world space. If disabled, the **CanvasLayer** stays in a fixed position on the screen.
+Se abilitato, il **CanvasLayer** mantiene la sua pozione in spazio globale. Se disabilitato, il **CanvasLayer** rimarrà in una posizione fissa sullo schermo.
 
-Together with :ref:`follow_viewport_scale<class_CanvasLayer_property_follow_viewport_scale>`, this can be used for a pseudo-3D effect.
+Insieme a :ref:`follow_viewport_scale<class_CanvasLayer_property_follow_viewport_scale>` può essere utilizzato per un effetto pseudo 3D.
 
 .. rst-class:: classref-item-separator
 
@@ -171,11 +171,11 @@ Ridimensiona il livello quando si usa :ref:`follow_viewport_enabled<class_Canvas
 - |void| **set_layer**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_layer**\ (\ )
 
-Layer index for draw order. Lower values are drawn behind higher values.
+Indice di livello per l'ordine di visualizzazione. I valori più bassi sono disegnati dietro i valori più alti.
 
-\ **Note:** If multiple CanvasLayers have the same layer index, :ref:`CanvasItem<class_CanvasItem>` children of one CanvasLayer are drawn behind the :ref:`CanvasItem<class_CanvasItem>` children of the other CanvasLayer. Which CanvasLayer is drawn in front is non-deterministic.
+\ **Nota:** Se più CanvasLayer hanno lo stesso indice di livello, i figli :ref:`CanvasItem<class_CanvasItem>` di un CanvasLayer sono disegnati dietro i figli :ref:`CanvasItem<class_CanvasItem>` dell'altro CanvasLayer. Quale dei CanvasLayer è disegnato in primo piano non è deterministico.
 
-\ **Note:** The layer index should be between :ref:`RenderingServer.CANVAS_LAYER_MIN<class_RenderingServer_constant_CANVAS_LAYER_MIN>` and :ref:`RenderingServer.CANVAS_LAYER_MAX<class_RenderingServer_constant_CANVAS_LAYER_MAX>` (inclusive). Any other value will wrap around.
+\ **Nota:** L'indice di livello deve essere compreso tra :ref:`RenderingServer.CANVAS_LAYER_MIN<class_RenderingServer_constant_CANVAS_LAYER_MIN>` e :ref:`RenderingServer.CANVAS_LAYER_MAX<class_RenderingServer_constant_CANVAS_LAYER_MAX>` (inclusi). Qualsiasi altro valore verrà avvolto.
 
 .. rst-class:: classref-item-separator
 

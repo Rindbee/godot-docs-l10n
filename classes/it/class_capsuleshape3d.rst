@@ -61,9 +61,9 @@ Descrizioni delle proprietà
 - |void| **set_height**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_height**\ (\ )
 
-The capsule's full height, including the hemispheres.
+L'altezza totale della capsula, inclusi gli emisferi.
 
-\ **Note:** The :ref:`height<class_CapsuleShape3D_property_height>` of a capsule must be at least twice its :ref:`radius<class_CapsuleShape3D_property_radius>`. Otherwise, the capsule becomes a sphere. If the :ref:`height<class_CapsuleShape3D_property_height>` is less than twice the :ref:`radius<class_CapsuleShape3D_property_radius>`, the properties adjust to a valid value.
+\ **Nota:** L':ref:`height<class_CapsuleShape3D_property_height>` di una capsula deve essere almeno il doppio del suo :ref:`radius<class_CapsuleShape3D_property_radius>`. Se non, la capsula diventa una sfera. Se l':ref:`height<class_CapsuleShape3D_property_height>` è inferiore al doppio del :ref:`radius<class_CapsuleShape3D_property_radius>`, le proprietà si adattano a un valore valido.
 
 .. rst-class:: classref-item-separator
 
@@ -80,7 +80,7 @@ The capsule's full height, including the hemispheres.
 - |void| **set_mid_height**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_mid_height**\ (\ )
 
-The capsule's height, excluding the hemispheres. This is the height of the central cylindrical part in the middle of the capsule, and is the distance between the centers of the two hemispheres. This is a wrapper for :ref:`height<class_CapsuleShape3D_property_height>`.
+L'altezza della capsula, esclusi gli emisferi. Questa è l'altezza della parte cilindrica centrale in mezzo alla capsula, ed è la distanza tra i centri dei due emisferi. Questo è un wrapper per :ref:`height<class_CapsuleShape3D_property_height>`.
 
 .. rst-class:: classref-item-separator
 
@@ -97,9 +97,9 @@ The capsule's height, excluding the hemispheres. This is the height of the centr
 - |void| **set_radius**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_radius**\ (\ )
 
-The capsule's radius.
+Il raggio della capsula.
 
-\ **Note:** The :ref:`radius<class_CapsuleShape3D_property_radius>` of a capsule cannot be greater than half of its :ref:`height<class_CapsuleShape3D_property_height>`. Otherwise, the capsule becomes a sphere. If the :ref:`radius<class_CapsuleShape3D_property_radius>` is greater than half of the :ref:`height<class_CapsuleShape3D_property_height>`, the properties adjust to a valid value.
+\ **Nota:** Il :ref:`radius<class_CapsuleShape3D_property_radius>` di una capsula non può essere maggiore della metà della sua :ref:`height<class_CapsuleShape3D_property_height>`. Se non, la capsula diventa una sfera. Se il :ref:`radius<class_CapsuleShape3D_property_radius>` è maggiore della metà dell':ref:`height<class_CapsuleShape3D_property_height>`, le proprietà si adattano a un valore valido.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

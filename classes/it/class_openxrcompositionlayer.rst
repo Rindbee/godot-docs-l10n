@@ -103,7 +103,7 @@ enum **Filter**: :ref:`🔗<enum_OpenXRCompositionLayer_Filter>`
 
 :ref:`Filter<enum_OpenXRCompositionLayer_Filter>` **FILTER_NEAREST** = ``0``
 
-Perform nearest-neighbor filtering when sampling the texture.
+Utilizza il filtro vicino più ravvicinato per campionare la texture.
 
 .. _class_OpenXRCompositionLayer_constant_FILTER_LINEAR:
 
@@ -111,7 +111,7 @@ Perform nearest-neighbor filtering when sampling the texture.
 
 :ref:`Filter<enum_OpenXRCompositionLayer_Filter>` **FILTER_LINEAR** = ``1``
 
-Perform linear filtering when sampling the texture.
+Utilizza il filtro lineare per campionare la texture.
 
 .. _class_OpenXRCompositionLayer_constant_FILTER_CUBIC:
 
@@ -119,7 +119,7 @@ Perform linear filtering when sampling the texture.
 
 :ref:`Filter<enum_OpenXRCompositionLayer_Filter>` **FILTER_CUBIC** = ``2``
 
-Perform cubic filtering when sampling the texture.
+Utilizza il filtro cubico per campionare la texture.
 
 .. rst-class:: classref-item-separator
 
@@ -137,9 +137,9 @@ enum **MipmapMode**: :ref:`🔗<enum_OpenXRCompositionLayer_MipmapMode>`
 
 :ref:`MipmapMode<enum_OpenXRCompositionLayer_MipmapMode>` **MIPMAP_MODE_DISABLED** = ``0``
 
-Disable mipmapping.
+Disabilita il mipmapping.
 
-\ **Note:** Mipmapping can only be disabled in the Compatibility renderer.
+\ **Nota:** il mipmapping si può disabilitare solo nel renderer Compatibilità.
 
 .. _class_OpenXRCompositionLayer_constant_MIPMAP_MODE_NEAREST:
 
@@ -147,7 +147,7 @@ Disable mipmapping.
 
 :ref:`MipmapMode<enum_OpenXRCompositionLayer_MipmapMode>` **MIPMAP_MODE_NEAREST** = ``1``
 
-Use the mipmap of the nearest resolution.
+Utilizza la mipmap della risoluzione più vicina.
 
 .. _class_OpenXRCompositionLayer_constant_MIPMAP_MODE_LINEAR:
 
@@ -155,7 +155,7 @@ Use the mipmap of the nearest resolution.
 
 :ref:`MipmapMode<enum_OpenXRCompositionLayer_MipmapMode>` **MIPMAP_MODE_LINEAR** = ``2``
 
-Use linear interpolation of the two mipmaps of the nearest resolution.
+Utilizza un'interpolazione lineare tra le due mipmap della risoluzione più vicina.
 
 .. rst-class:: classref-item-separator
 
@@ -173,7 +173,7 @@ enum **Wrap**: :ref:`🔗<enum_OpenXRCompositionLayer_Wrap>`
 
 :ref:`Wrap<enum_OpenXRCompositionLayer_Wrap>` **WRAP_CLAMP_TO_BORDER** = ``0``
 
-Clamp the texture to its specified border color.
+Limita la texture al suo colore di bordo specificato.
 
 .. _class_OpenXRCompositionLayer_constant_WRAP_CLAMP_TO_EDGE:
 
@@ -181,7 +181,7 @@ Clamp the texture to its specified border color.
 
 :ref:`Wrap<enum_OpenXRCompositionLayer_Wrap>` **WRAP_CLAMP_TO_EDGE** = ``1``
 
-Clamp the texture to its edge color.
+Limita la texture al suo colore di bordo.
 
 .. _class_OpenXRCompositionLayer_constant_WRAP_REPEAT:
 
@@ -189,7 +189,7 @@ Clamp the texture to its edge color.
 
 :ref:`Wrap<enum_OpenXRCompositionLayer_Wrap>` **WRAP_REPEAT** = ``2``
 
-Repeat the texture infinitely.
+Ripete la texture infinitamente.
 
 .. _class_OpenXRCompositionLayer_constant_WRAP_MIRRORED_REPEAT:
 
@@ -197,7 +197,7 @@ Repeat the texture infinitely.
 
 :ref:`Wrap<enum_OpenXRCompositionLayer_Wrap>` **WRAP_MIRRORED_REPEAT** = ``3``
 
-Repeat the texture infinitely, mirroring it on each repeat.
+Ripeti la texture all'infinito, rispecchiandola a ogni ripetizione.
 
 .. _class_OpenXRCompositionLayer_constant_WRAP_MIRROR_CLAMP_TO_EDGE:
 
@@ -205,9 +205,9 @@ Repeat the texture infinitely, mirroring it on each repeat.
 
 :ref:`Wrap<enum_OpenXRCompositionLayer_Wrap>` **WRAP_MIRROR_CLAMP_TO_EDGE** = ``4``
 
-Mirror the texture once and then clamp the texture to its edge color.
+Rispecchia la texture una sola volta e poi la limita al suo colore di bordo.
 
-\ **Note:** This wrap mode is not available in the Compatibility renderer.
+\ **Nota:** Questa modalità di avvolgimento non è disponibile nel renderer Compatibilità.
 
 .. rst-class:: classref-item-separator
 
@@ -225,7 +225,7 @@ enum **Swizzle**: :ref:`🔗<enum_OpenXRCompositionLayer_Swizzle>`
 
 :ref:`Swizzle<enum_OpenXRCompositionLayer_Swizzle>` **SWIZZLE_RED** = ``0``
 
-Maps a color channel to the value of the red channel.
+Mappa un canale colore al valore del canale rosso.
 
 .. _class_OpenXRCompositionLayer_constant_SWIZZLE_GREEN:
 
@@ -233,7 +233,7 @@ Maps a color channel to the value of the red channel.
 
 :ref:`Swizzle<enum_OpenXRCompositionLayer_Swizzle>` **SWIZZLE_GREEN** = ``1``
 
-Maps a color channel to the value of the green channel.
+Mappa un canale colore al valore del canale verde.
 
 .. _class_OpenXRCompositionLayer_constant_SWIZZLE_BLUE:
 
@@ -241,7 +241,7 @@ Maps a color channel to the value of the green channel.
 
 :ref:`Swizzle<enum_OpenXRCompositionLayer_Swizzle>` **SWIZZLE_BLUE** = ``2``
 
-Maps a color channel to the value of the blue channel.
+Mappa un canale colore al valore del canale blu.
 
 .. _class_OpenXRCompositionLayer_constant_SWIZZLE_ALPHA:
 
@@ -249,7 +249,7 @@ Maps a color channel to the value of the blue channel.
 
 :ref:`Swizzle<enum_OpenXRCompositionLayer_Swizzle>` **SWIZZLE_ALPHA** = ``3``
 
-Maps a color channel to the value of the alpha channel.
+Mappa un canale colore al valore del canale alfa.
 
 .. _class_OpenXRCompositionLayer_constant_SWIZZLE_ZERO:
 
@@ -257,7 +257,7 @@ Maps a color channel to the value of the alpha channel.
 
 :ref:`Swizzle<enum_OpenXRCompositionLayer_Swizzle>` **SWIZZLE_ZERO** = ``4``
 
-Maps a color channel to the value of zero.
+Mappa un canale colore al valore di zero.
 
 .. _class_OpenXRCompositionLayer_constant_SWIZZLE_ONE:
 
@@ -265,7 +265,7 @@ Maps a color channel to the value of zero.
 
 :ref:`Swizzle<enum_OpenXRCompositionLayer_Swizzle>` **SWIZZLE_ONE** = ``5``
 
-Maps a color channel to the value of one.
+Mappa un canale colore al valore di uno.
 
 .. rst-class:: classref-section-separator
 
@@ -378,9 +378,9 @@ L'ordine di ordinamento per questo livello di composizione. I numeri più alti s
 - |void| **set_alpha_swizzle**\ (\ value\: :ref:`Swizzle<enum_OpenXRCompositionLayer_Swizzle>`\ )
 - :ref:`Swizzle<enum_OpenXRCompositionLayer_Swizzle>` **get_alpha_swizzle**\ (\ )
 
-The swizzle value for the alpha channel of the swapchain state.
+Il valore di permutazione (swizzle) per il canale alfa dello stato della swapchain.
 
-\ **Note:** This property only has an effect on devices that support the OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan extensions.
+\ **Nota:** Questa proprietà ha effetto solo sui dispositivi che supportano le estensioni OpenGLES/Vulkan OpenXR XR_FB_swapchain_update_state.
 
 .. rst-class:: classref-item-separator
 
@@ -397,9 +397,9 @@ The swizzle value for the alpha channel of the swapchain state.
 - |void| **set_blue_swizzle**\ (\ value\: :ref:`Swizzle<enum_OpenXRCompositionLayer_Swizzle>`\ )
 - :ref:`Swizzle<enum_OpenXRCompositionLayer_Swizzle>` **get_blue_swizzle**\ (\ )
 
-The swizzle value for the blue channel of the swapchain state.
+Il valore di permutazione (swizzle) per il canale blu dello stato della swapchain.
 
-\ **Note:** This property only has an effect on devices that support the OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan extensions.
+\ **Nota:** Questa proprietà ha effetto solo sui dispositivi che supportano le estensioni OpenGLES/Vulkan OpenXR XR_FB_swapchain_update_state.
 
 .. rst-class:: classref-item-separator
 
@@ -416,9 +416,9 @@ The swizzle value for the blue channel of the swapchain state.
 - |void| **set_border_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_border_color**\ (\ )
 
-The border color of the swapchain state that is used when the wrap mode clamps to the border.
+Colore di bordo dello stato di swapchain utilizzato quando la modalità di avvolgimento si limita al bordo.
 
-\ **Note:** This property only has an effect on devices that support the OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan extensions.
+\ **Nota:** Questa proprietà ha effetto solo sui dispositivi che supportano le estensioni OpenGLES/Vulkan OpenXR XR_FB_swapchain_update_state.
 
 .. rst-class:: classref-item-separator
 
@@ -435,9 +435,9 @@ The border color of the swapchain state that is used when the wrap mode clamps t
 - |void| **set_green_swizzle**\ (\ value\: :ref:`Swizzle<enum_OpenXRCompositionLayer_Swizzle>`\ )
 - :ref:`Swizzle<enum_OpenXRCompositionLayer_Swizzle>` **get_green_swizzle**\ (\ )
 
-The swizzle value for the green channel of the swapchain state.
+Il valore di permutazione (swizzle) per il canale verde dello stato della swapchain.
 
-\ **Note:** This property only has an effect on devices that support the OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan extensions.
+\ **Nota:** Questa proprietà ha effetto solo sui dispositivi che supportano le estensioni OpenGLES/Vulkan OpenXR XR_FB_swapchain_update_state.
 
 .. rst-class:: classref-item-separator
 
@@ -454,9 +454,9 @@ The swizzle value for the green channel of the swapchain state.
 - |void| **set_horizontal_wrap**\ (\ value\: :ref:`Wrap<enum_OpenXRCompositionLayer_Wrap>`\ )
 - :ref:`Wrap<enum_OpenXRCompositionLayer_Wrap>` **get_horizontal_wrap**\ (\ )
 
-The horizontal wrap mode of the swapchain state.
+La modalità di avvolgimento orizzontale dello stato della swapchain.
 
-\ **Note:** This property only has an effect on devices that support the OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan extensions.
+\ **Nota:** Questa proprietà ha effetto solo sui dispositivi che supportano le estensioni OpenGLES/Vulkan OpenXR XR_FB_swapchain_update_state.
 
 .. rst-class:: classref-item-separator
 
@@ -473,9 +473,9 @@ The horizontal wrap mode of the swapchain state.
 - |void| **set_mag_filter**\ (\ value\: :ref:`Filter<enum_OpenXRCompositionLayer_Filter>`\ )
 - :ref:`Filter<enum_OpenXRCompositionLayer_Filter>` **get_mag_filter**\ (\ )
 
-The magnification filter of the swapchain state.
+Il filtro di ingrandimento dello stato della swapchain.
 
-\ **Note:** This property only has an effect on devices that support the OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan extensions.
+\ **Nota:** Questa proprietà ha effetto solo sui dispositivi che supportano le estensioni OpenGLES/Vulkan OpenXR XR_FB_swapchain_update_state.
 
 .. rst-class:: classref-item-separator
 
@@ -492,9 +492,9 @@ The magnification filter of the swapchain state.
 - |void| **set_max_anisotropy**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_max_anisotropy**\ (\ )
 
-The max anisotropy of the swapchain state.
+L'anisotropia massima dello stato della swapchain.
 
-\ **Note:** This property only has an effect on devices that support the OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan extensions.
+\ **Nota:** Questa proprietà ha effetto solo sui dispositivi che supportano le estensioni OpenGLES/Vulkan OpenXR XR_FB_swapchain_update_state.
 
 .. rst-class:: classref-item-separator
 
@@ -511,9 +511,9 @@ The max anisotropy of the swapchain state.
 - |void| **set_min_filter**\ (\ value\: :ref:`Filter<enum_OpenXRCompositionLayer_Filter>`\ )
 - :ref:`Filter<enum_OpenXRCompositionLayer_Filter>` **get_min_filter**\ (\ )
 
-The minification filter of the swapchain state.
+Il filtro di minimizzazione dello stato della swapchain.
 
-\ **Note:** This property only has an effect on devices that support the OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan extensions.
+\ **Nota:** Questa proprietà ha effetto solo sui dispositivi che supportano le estensioni OpenGLES/Vulkan OpenXR XR_FB_swapchain_update_state.
 
 .. rst-class:: classref-item-separator
 
@@ -530,9 +530,9 @@ The minification filter of the swapchain state.
 - |void| **set_mipmap_mode**\ (\ value\: :ref:`MipmapMode<enum_OpenXRCompositionLayer_MipmapMode>`\ )
 - :ref:`MipmapMode<enum_OpenXRCompositionLayer_MipmapMode>` **get_mipmap_mode**\ (\ )
 
-The mipmap mode of the swapchain state.
+La modalità di mipmap dello stato della swapchain.
 
-\ **Note:** This property only has an effect on devices that support the OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan extensions.
+\ **Nota:** Questa proprietà ha effetto solo sui dispositivi che supportano le estensioni OpenGLES/Vulkan OpenXR XR_FB_swapchain_update_state.
 
 .. rst-class:: classref-item-separator
 
@@ -549,9 +549,9 @@ The mipmap mode of the swapchain state.
 - |void| **set_red_swizzle**\ (\ value\: :ref:`Swizzle<enum_OpenXRCompositionLayer_Swizzle>`\ )
 - :ref:`Swizzle<enum_OpenXRCompositionLayer_Swizzle>` **get_red_swizzle**\ (\ )
 
-The swizzle value for the red channel of the swapchain state.
+Il valore di permutazione (swizzle) per il canale rosso dello stato della swapchain.
 
-\ **Note:** This property only has an effect on devices that support the OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan extensions.
+\ **Nota:** Questa proprietà ha effetto solo sui dispositivi che supportano le estensioni OpenGLES/Vulkan OpenXR XR_FB_swapchain_update_state.
 
 .. rst-class:: classref-item-separator
 
@@ -568,9 +568,9 @@ The swizzle value for the red channel of the swapchain state.
 - |void| **set_vertical_wrap**\ (\ value\: :ref:`Wrap<enum_OpenXRCompositionLayer_Wrap>`\ )
 - :ref:`Wrap<enum_OpenXRCompositionLayer_Wrap>` **get_vertical_wrap**\ (\ )
 
-The vertical wrap mode of the swapchain state.
+La modalità di avvolgimento verticale dello stato della swapchain.
 
-\ **Note:** This property only has an effect on devices that support the OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan extensions.
+\ **Nota:** Questa proprietà ha effetto solo sui dispositivi che supportano le estensioni OpenGLES/Vulkan OpenXR XR_FB_swapchain_update_state.
 
 .. rst-class:: classref-item-separator
 

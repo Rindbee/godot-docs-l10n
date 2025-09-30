@@ -7,16 +7,16 @@ RemoteTransform3D
 
 **Hereda:** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-RemoteTransform3D pushes its own :ref:`Transform3D<class_Transform3D>` to another :ref:`Node3D<class_Node3D>` derived Node in the scene.
+RemoteTransform3D empuja su propia :ref:`Transform3D<class_Transform3D>` a otro Nodo derivado de :ref:`Node3D<class_Node3D>` en la escena.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-RemoteTransform3D pushes its own :ref:`Transform3D<class_Transform3D>` to another :ref:`Node3D<class_Node3D>` derived Node (called the remote node) in the scene.
+RemoteTransform3D empuja su propia :ref:`Transform3D<class_Transform3D>` a otro Nodo derivado de :ref:`Node3D<class_Node3D>` (llamado el nodo remoto) en la escena.
 
-It can be set to update another Node's position, rotation and/or scale. It can use either global or local coordinates.
+Puede ser configurado para actualizar la posición, rotación y/o escala de otro Nodo. Puede usar tanto coordenadas globales como locales.
 
 .. rst-class:: classref-reftable-group
 

@@ -589,7 +589,7 @@ The vertical wrap mode of the swapchain state.
 
 Si está habilitado, se creará una superficie de Android (con las dimensiones de :ref:`android_surface_size<class_OpenXRCompositionLayer_property_android_surface_size>`) que proporcionará el contenido 2D para la capa de composición, en lugar de utilizar :ref:`layer_viewport<class_OpenXRCompositionLayer_property_layer_viewport>`.
 
-Consulta :ref:`get_android_surface()<class_OpenXRCompositionLayer_method_get_android_surface>` para obtener información sobre cómo obtener la superficie para que tu aplicación pueda dibujar en ella.
+Véase :ref:`get_android_surface()<class_OpenXRCompositionLayer_method_get_android_surface>` para obtener información sobre cómo obtener la superficie para que tu aplicación pueda dibujar en ella.
 
 \ **Nota:** Esto solo funcionará en compilaciones de Android.
 

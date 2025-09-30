@@ -350,7 +350,7 @@ Si es ``true``, todas las pestañas se dibujan delante del panel. Si es ``false`
 - |void| **set_clip_tabs**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_clip_tabs**\ (\ )
 
-If ``true``, tabs overflowing this node's width will be hidden, displaying two navigation buttons instead. Otherwise, this node's minimum size is updated so that all tabs are visible.
+Si es ``true``, las pestañas que se desborden del ancho de este nodo se ocultarán, mostrando dos botones de navegación en su lugar. De lo contrario, el tamaño mínimo de este nodo se actualiza para que todas las pestañas sean visibles.
 
 .. rst-class:: classref-item-separator
 
@@ -422,7 +422,7 @@ Si es ``true``, las pestañas se pueden reorganizar con el arrastre del ratón.
 - |void| **set_tab_alignment**\ (\ value\: :ref:`AlignmentMode<enum_TabBar_AlignmentMode>`\ )
 - :ref:`AlignmentMode<enum_TabBar_AlignmentMode>` **get_tab_alignment**\ (\ )
 
-The position at which tabs will be placed.
+La posición en la que se colocarán las pestañas.
 
 .. rst-class:: classref-item-separator
 
@@ -638,7 +638,7 @@ Devuelve el ancho máximo permitido del icono para la pestaña en el índice ``t
 
 :ref:`int<class_int>` **get_tab_idx_at_point**\ (\ point\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_TabContainer_method_get_tab_idx_at_point>`
 
-Returns the index of the tab at local coordinates ``point``. Returns ``-1`` if the point is outside the control boundaries or if there's no tab at the queried position.
+Devuelve el índice de la pestaña en las coordenadas locales ``point``. Devuelve ``-1`` si el punto está fuera de los límites del control o si no hay ninguna pestaña en la posición consultada.
 
 .. rst-class:: classref-item-separator
 
@@ -662,7 +662,7 @@ Returns the index of the tab tied to the given ``control``. The control must be 
 
 :ref:`Variant<class_Variant>` **get_tab_metadata**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabContainer_method_get_tab_metadata>`
 
-Returns the metadata value set to the tab at index ``tab_idx`` using :ref:`set_tab_metadata()<class_TabContainer_method_set_tab_metadata>`. If no metadata was previously set, returns ``null`` by default.
+Devuelve el valor de los metadatos establecidos en la pestaña en el índice ``tab_idx`` utilizando :ref:`set_tab_metadata()<class_TabContainer_method_set_tab_metadata>`. Si no se han establecido metadatos previamente, devuelve ``null`` por defecto.
 
 .. rst-class:: classref-item-separator
 
@@ -686,7 +686,7 @@ Returns the title of the tab at index ``tab_idx``. Tab titles default to the nam
 
 :ref:`String<class_String>` **get_tab_tooltip**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabContainer_method_get_tab_tooltip>`
 
-Returns the tooltip text of the tab at index ``tab_idx``.
+Devuelve el texto de la información sobre herramientas de la pestaña en el índice ``tab_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -698,7 +698,7 @@ Returns the tooltip text of the tab at index ``tab_idx``.
 
 :ref:`bool<class_bool>` **is_tab_disabled**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabContainer_method_is_tab_disabled>`
 
-Returns ``true`` if the tab at index ``tab_idx`` is disabled.
+Devuelve ``true`` si la pestaña en el índice ``tab_idx`` está desactivada.
 
 .. rst-class:: classref-item-separator
 
@@ -710,7 +710,7 @@ Returns ``true`` if the tab at index ``tab_idx`` is disabled.
 
 :ref:`bool<class_bool>` **is_tab_hidden**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabContainer_method_is_tab_hidden>`
 
-Returns ``true`` if the tab at index ``tab_idx`` is hidden.
+Devuelve ``true`` si la pestaña en el índice ``tab_idx`` está oculta.
 
 .. rst-class:: classref-item-separator
 
@@ -722,7 +722,7 @@ Returns ``true`` if the tab at index ``tab_idx`` is hidden.
 
 :ref:`bool<class_bool>` **select_next_available**\ (\ ) :ref:`🔗<class_TabContainer_method_select_next_available>`
 
-Selects the first available tab with greater index than the currently selected. Returns ``true`` if tab selection changed.
+Selecciona la primera pestaña disponible con un índice mayor que la actualmente seleccionada. Devuelve ``true`` si la selección de la pestaña cambió.
 
 .. rst-class:: classref-item-separator
 
@@ -734,7 +734,7 @@ Selects the first available tab with greater index than the currently selected. 
 
 :ref:`bool<class_bool>` **select_previous_available**\ (\ ) :ref:`🔗<class_TabContainer_method_select_previous_available>`
 
-Selects the first available tab with lower index than the currently selected. Returns ``true`` if tab selection changed.
+Selecciona la primera pestaña disponible con un índice menor que la actualmente seleccionada. Devuelve ``true`` si la selección de la pestaña cambió.
 
 .. rst-class:: classref-item-separator
 
@@ -770,7 +770,7 @@ Establece el icono del botón de la pestaña en el índice ``tab_idx``.
 
 |void| **set_tab_disabled**\ (\ tab_idx\: :ref:`int<class_int>`, disabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_TabContainer_method_set_tab_disabled>`
 
-If ``disabled`` is ``true``, disables the tab at index ``tab_idx``, making it non-interactable.
+Si ``disabled`` es ``true``, desactiva la pestaña en el índice ``tab_idx``, haciéndola no interactiva.
 
 .. rst-class:: classref-item-separator
 
@@ -782,7 +782,7 @@ If ``disabled`` is ``true``, disables the tab at index ``tab_idx``, making it no
 
 |void| **set_tab_hidden**\ (\ tab_idx\: :ref:`int<class_int>`, hidden\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_TabContainer_method_set_tab_hidden>`
 
-If ``hidden`` is ``true``, hides the tab at index ``tab_idx``, making it disappear from the tab area.
+Si ``hidden`` es ``true``, oculta la pestaña en el índice ``tab_idx``, haciéndola desaparecer del área de pestañas.
 
 .. rst-class:: classref-item-separator
 
@@ -806,7 +806,7 @@ Establece un icono para la pestaña en el índice ``tab_idx``.
 
 |void| **set_tab_icon_max_width**\ (\ tab_idx\: :ref:`int<class_int>`, width\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TabContainer_method_set_tab_icon_max_width>`
 
-Sets the maximum allowed width of the icon for the tab at index ``tab_idx``. This limit is applied on top of the default size of the icon and on top of :ref:`icon_max_width<class_TabContainer_theme_constant_icon_max_width>`. The height is adjusted according to the icon's ratio.
+Establece el ancho máximo permitido del icono para la pestaña en el índice ``tab_idx``. Este límite se aplica sobre el tamaño predeterminado del icono y sobre :ref:`icon_max_width<class_TabContainer_theme_constant_icon_max_width>`. La altura se ajusta según la relación del icono.
 
 .. rst-class:: classref-item-separator
 
@@ -818,7 +818,7 @@ Sets the maximum allowed width of the icon for the tab at index ``tab_idx``. Thi
 
 |void| **set_tab_metadata**\ (\ tab_idx\: :ref:`int<class_int>`, metadata\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_TabContainer_method_set_tab_metadata>`
 
-Sets the metadata value for the tab at index ``tab_idx``, which can be retrieved later using :ref:`get_tab_metadata()<class_TabContainer_method_get_tab_metadata>`.
+Establece el valor de los metadatos para la pestaña en el índice ``tab_idx``, que se puede recuperar más tarde utilizando :ref:`get_tab_metadata()<class_TabContainer_method_get_tab_metadata>`.
 
 .. rst-class:: classref-item-separator
 

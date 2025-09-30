@@ -598,9 +598,9 @@ Returns a :ref:`Dictionary<class_Dictionary>` with the selected values of the ad
 
 :ref:`VBoxContainer<class_VBoxContainer>` **get_vbox**\ (\ ) :ref:`🔗<class_EditorFileDialog_method_get_vbox>`
 
-Returns the :ref:`VBoxContainer<class_VBoxContainer>` used to display the file system.
+Renvoie le :ref:`VBoxContainer<class_VBoxContainer>` utilisé pour afficher le système de fichiers.
 
-\ **Warning:** This is a required internal node, removing and freeing it may cause a crash. If you wish to hide it or any of its children, use their :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` property.
+\ **Avertissement :** Il s'agit d'un nœud requis en interne, l'enlever et le libérer peut causer un plantage. Si vous voulez le cacher lui ou un de ses enfants, utilisez leur propriété :ref:`CanvasItem.visible<class_CanvasItem_property_visible>`.
 
 .. rst-class:: classref-item-separator
 

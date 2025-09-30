@@ -238,9 +238,9 @@ Use :ref:`get_input_source_tracker()<class_WebXRInterface_method_get_input_sourc
 
 **selectstart**\ (\ input_source_id\: :ref:`int<class_int>`\ ) :ref:`🔗<class_WebXRInterface_signal_selectstart>`
 
-Emitted when one of the input source has started its "primary action".
+Émis lorsque l'une des sources d'entrée a commencé son "action primaire".
 
-Use :ref:`get_input_source_tracker()<class_WebXRInterface_method_get_input_source_tracker>` and :ref:`get_input_source_target_ray_mode()<class_WebXRInterface_method_get_input_source_target_ray_mode>` to get more information about the input source.
+Utilisez :ref:`get_input_source_tracker()<class_WebXRInterface_method_get_input_source_tracker>` et :ref:`get_input_source_target_ray_mode()<class_WebXRInterface_method_get_input_source_target_ray_mode>` pour obtenir plus d'informations sur la source d'entrée.
 
 .. rst-class:: classref-item-separator
 
@@ -252,9 +252,9 @@ Use :ref:`get_input_source_tracker()<class_WebXRInterface_method_get_input_sourc
 
 **session_ended**\ (\ ) :ref:`🔗<class_WebXRInterface_signal_session_ended>`
 
-Emitted when the user ends the WebXR session (which can be done using UI from the browser or device).
+Émis lorsque l'utilisateur termine la session WebXR (ce qui peut être fait à l'aide de l'interface utilisateur du navigateur ou de l'appareil).
 
-At this point, you should do ``get_viewport().use_xr = false`` to instruct Godot to resume rendering to the screen.
+À ce stade, vous devriez faire ``get_viewport().use_xr = false`` pour demander à Godot de reprendre le rendu à l'écran.
 
 .. rst-class:: classref-item-separator
 
@@ -266,9 +266,9 @@ At this point, you should do ``get_viewport().use_xr = false`` to instruct Godot
 
 **session_failed**\ (\ message\: :ref:`String<class_String>`\ ) :ref:`🔗<class_WebXRInterface_signal_session_failed>`
 
-Emitted by :ref:`XRInterface.initialize()<class_XRInterface_method_initialize>` if the session fails to start.
+Émis par :ref:`XRInterface.initialize()<class_XRInterface_method_initialize>` si la session échoue au démarrage.
 
-\ ``message`` may optionally contain an error message from WebXR, or an empty string if no message is available.
+\ ``message`` peut éventuellement contenir un message d'erreur de WebXR, ou une chaîne vide si aucun message n'est disponible.
 
 .. rst-class:: classref-item-separator
 
@@ -280,9 +280,9 @@ Emitted by :ref:`XRInterface.initialize()<class_XRInterface_method_initialize>` 
 
 **session_started**\ (\ ) :ref:`🔗<class_WebXRInterface_signal_session_started>`
 
-Emitted by :ref:`XRInterface.initialize()<class_XRInterface_method_initialize>` if the session is successfully started.
+Émis par :ref:`XRInterface.initialize()<class_XRInterface_method_initialize>` si la session a démarré avec succès.
 
-At this point, it's safe to do ``get_viewport().use_xr = true`` to instruct Godot to start rendering to the XR device.
+À ce stade, il est sûr de faire ``get_viewport().use_xr = true`` pour demander à Godot de commencer à rendre vers le périphérique XR.
 
 .. rst-class:: classref-item-separator
 
@@ -294,7 +294,7 @@ At this point, it's safe to do ``get_viewport().use_xr = true`` to instruct Godo
 
 **session_supported**\ (\ session_mode\: :ref:`String<class_String>`, supported\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_WebXRInterface_signal_session_supported>`
 
-Emitted by :ref:`is_session_supported()<class_WebXRInterface_method_is_session_supported>` to indicate if the given ``session_mode`` is supported or not.
+Émis par :ref:`is_session_supported()<class_WebXRInterface_method_is_session_supported>` pour indiquer si le mode de session ``session_mode`` donné est supporté ou pas.
 
 .. rst-class:: classref-item-separator
 

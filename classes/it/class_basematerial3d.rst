@@ -380,7 +380,7 @@ Texture che specifica i vettori di normali per pixel.
 
 :ref:`TextureParam<enum_BaseMaterial3D_TextureParam>` **TEXTURE_BENT_NORMAL** = ``18``
 
-Texture specifying per-pixel bent normal vector.
+Texture che specifica i vettori di normali piegati per pixel.
 
 .. _class_BaseMaterial3D_constant_TEXTURE_RIM:
 
@@ -944,7 +944,7 @@ enum **DepthTest**: :ref:`🔗<enum_BaseMaterial3D_DepthTest>`
 
 :ref:`DepthTest<enum_BaseMaterial3D_DepthTest>` **DEPTH_TEST_DEFAULT** = ``0``
 
-Depth test will discard the pixel if it is behind other pixels.
+Il test di profondità scarterà il pixel se si trova dietro altri pixel.
 
 .. _class_BaseMaterial3D_constant_DEPTH_TEST_INVERTED:
 
@@ -952,7 +952,7 @@ Depth test will discard the pixel if it is behind other pixels.
 
 :ref:`DepthTest<enum_BaseMaterial3D_DepthTest>` **DEPTH_TEST_INVERTED** = ``1``
 
-Depth test will discard the pixel if it is in front of other pixels. Useful for stencil effects.
+Il test di profondità scarterà il pixel se si trova davanti ad altri pixel. Utile per gli effetti stencil.
 
 .. rst-class:: classref-item-separator
 
@@ -1142,7 +1142,7 @@ Abilita la ripetizione della texture quando le coordinate UV sono all di fuori d
 
 :ref:`Flags<enum_BaseMaterial3D_Flags>` **FLAG_INVERT_HEIGHTMAP** = ``17``
 
-Inverte i valori letti da una texture di profondità per convertirli in valori di altezza (mappa di altezza).
+Inverte i valori letti da una texture di profondità per convertirli in valori di altezza (heightmap).
 
 .. _class_BaseMaterial3D_constant_FLAG_SUBSURFACE_MODE_SKIN:
 
@@ -1150,7 +1150,7 @@ Inverte i valori letti da una texture di profondità per convertirli in valori d
 
 :ref:`Flags<enum_BaseMaterial3D_Flags>` **FLAG_SUBSURFACE_MODE_SKIN** = ``18``
 
-Abilita la modalità pelle per il subsurface scattering che è utilizzata per migliorare l'aspetto del subsurface scattering quando utilizzata per la pelle umana.
+Abilita la modalità pelle per il subsurface scattering che serve per migliorare l'aspetto del subsurface scattering quando utilizzata per la pelle umana.
 
 .. _class_BaseMaterial3D_constant_FLAG_PARTICLE_TRAILS_MODE:
 
@@ -1224,7 +1224,7 @@ enum **DiffuseMode**: :ref:`🔗<enum_BaseMaterial3D_DiffuseMode>`
 
 :ref:`DiffuseMode<enum_BaseMaterial3D_DiffuseMode>` **DIFFUSE_BURLEY** = ``0``
 
-Default diffuse scattering algorithm.
+Algoritmo di riflessione diffusa predefinito.
 
 .. _class_BaseMaterial3D_constant_DIFFUSE_LAMBERT:
 
@@ -1232,7 +1232,7 @@ Default diffuse scattering algorithm.
 
 :ref:`DiffuseMode<enum_BaseMaterial3D_DiffuseMode>` **DIFFUSE_LAMBERT** = ``1``
 
-La dispersione diffusa ignora la rugosità.
+La riflessione diffusa ignora la rugosità.
 
 .. _class_BaseMaterial3D_constant_DIFFUSE_LAMBERT_WRAP:
 
@@ -1266,11 +1266,11 @@ enum **SpecularMode**: :ref:`🔗<enum_BaseMaterial3D_SpecularMode>`
 
 :ref:`SpecularMode<enum_BaseMaterial3D_SpecularMode>` **SPECULAR_SCHLICK_GGX** = ``0``
 
-Default specular blob.
+Blob speculare predefinito.
 
-\ **Note:** Forward+ uses multiscattering for more accurate reflections, although the impact of multiscattering is more noticeable on rough metallic surfaces than on smooth, non-metallic surfaces.
+\ **Nota:** Forward+ utilizza un multiscattering per riflessi più accurati, sebbene l'impatto del multiscattering sia più evidente sulle superfici metalliche ruvide rispetto alle superfici lisce e non metalliche.
 
-\ **Note:** Mobile and Compatibility don't perform multiscattering for performance reasons. Instead, they perform single scattering, which means rough metallic surfaces may look slightly darker than intended.
+\ **Nota:** Mobile e Compatibilità non eseguono un multiscattering per motivi di prestazioni. Eseguono invece un single scattering, il che significa che le superfici metalliche ruvide potrebbero apparire leggermente più scure del previsto.
 
 .. _class_BaseMaterial3D_constant_SPECULAR_TOON:
 
@@ -1474,9 +1474,9 @@ Disabilita le operazioni di stencil.
 
 :ref:`StencilMode<enum_BaseMaterial3D_StencilMode>` **STENCIL_MODE_OUTLINE** = ``1``
 
-Stencil preset which applies an outline to the object.
+Preimpostazione di stencil che applica un contorno all'oggetto.
 
-\ **Note:** Requires a :ref:`Material.next_pass<class_Material_property_next_pass>` material which will be automatically applied. Any manual changes made to :ref:`Material.next_pass<class_Material_property_next_pass>` will be lost when the stencil properties are modified or the scene is reloaded. To safely apply a :ref:`Material.next_pass<class_Material_property_next_pass>` material on a material that uses stencil presets, use :ref:`GeometryInstance3D.material_overlay<class_GeometryInstance3D_property_material_overlay>` instead.
+\ **Nota:** Richiede un materiale :ref:`Material.next_pass<class_Material_property_next_pass>` che verrà applicato automaticamente. Qualsiasi modifica manuale apportata a :ref:`Material.next_pass<class_Material_property_next_pass>` andrà persa quando le proprietà dello stencil cambiano o la scena viene ricaricata. Per applicare in modo sicuro un materiale :ref:`Material.next_pass<class_Material_property_next_pass>` a un materiale che utilizza una preimpostazione di stencil, utilizzare invece :ref:`GeometryInstance3D.material_overlay<class_GeometryInstance3D_property_material_overlay>`.
 
 .. _class_BaseMaterial3D_constant_STENCIL_MODE_XRAY:
 
@@ -1484,9 +1484,9 @@ Stencil preset which applies an outline to the object.
 
 :ref:`StencilMode<enum_BaseMaterial3D_StencilMode>` **STENCIL_MODE_XRAY** = ``2``
 
-Stencil preset which shows a silhouette of the object behind walls.
+Preimpostazione di stencil che mostra la silhouette dell'oggetto dietro i muri.
 
-\ **Note:** Requires a :ref:`Material.next_pass<class_Material_property_next_pass>` material which will be automatically applied. Any manual changes made to :ref:`Material.next_pass<class_Material_property_next_pass>` will be lost when the stencil properties are modified or the scene is reloaded. To safely apply a :ref:`Material.next_pass<class_Material_property_next_pass>` material on a material that uses stencil presets, use :ref:`GeometryInstance3D.material_overlay<class_GeometryInstance3D_property_material_overlay>` instead.
+\ **Nota:** Richiede un materiale :ref:`Material.next_pass<class_Material_property_next_pass>` che verrà applicato automaticamente. Qualsiasi modifica manuale apportata a :ref:`Material.next_pass<class_Material_property_next_pass>` andrà persa quando le proprietà dello stencil cambiano o la scena viene ricaricata. Per applicare in modo sicuro un materiale :ref:`Material.next_pass<class_Material_property_next_pass>` a un materiale che utilizza una preimpostazione di stencil, utilizzare invece :ref:`GeometryInstance3D.material_overlay<class_GeometryInstance3D_property_material_overlay>`.
 
 .. _class_BaseMaterial3D_constant_STENCIL_MODE_CUSTOM:
 
@@ -1494,7 +1494,7 @@ Stencil preset which shows a silhouette of the object behind walls.
 
 :ref:`StencilMode<enum_BaseMaterial3D_StencilMode>` **STENCIL_MODE_CUSTOM** = ``3``
 
-Enables stencil operations without a preset.
+Permette le operazioni di stencil senza una preimpostazione.
 
 .. rst-class:: classref-item-separator
 
@@ -1512,7 +1512,7 @@ enum **StencilFlags**: :ref:`🔗<enum_BaseMaterial3D_StencilFlags>`
 
 :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>` **STENCIL_FLAG_READ** = ``1``
 
-The material will only be rendered where it passes a stencil comparison with existing stencil buffer values. See :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>`.
+Il materiale sarà renderizzato solo se passa un confronto di stencil con i valori esistenti nel buffer dello stencil. Vedi :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>`.
 
 .. _class_BaseMaterial3D_constant_STENCIL_FLAG_WRITE:
 
@@ -1520,7 +1520,7 @@ The material will only be rendered where it passes a stencil comparison with exi
 
 :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>` **STENCIL_FLAG_WRITE** = ``2``
 
-The material will write the reference value to the stencil buffer where it passes the depth test.
+Il materiale scriverà il valore di riferimento nel buffer dello stencil dove passa il test di profondità.
 
 .. _class_BaseMaterial3D_constant_STENCIL_FLAG_WRITE_DEPTH_FAIL:
 
@@ -1528,7 +1528,7 @@ The material will write the reference value to the stencil buffer where it passe
 
 :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>` **STENCIL_FLAG_WRITE_DEPTH_FAIL** = ``4``
 
-The material will write the reference value to the stencil buffer where it fails the depth test.
+Il materiale scriverà il valore di riferimento nel buffer dello stencil dove fallisce il test di profondità.
 
 .. rst-class:: classref-item-separator
 
@@ -1546,7 +1546,7 @@ enum **StencilCompare**: :ref:`🔗<enum_BaseMaterial3D_StencilCompare>`
 
 :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>` **STENCIL_COMPARE_ALWAYS** = ``0``
 
-Always passes the stencil test.
+Passa sempre il test dello stencil.
 
 .. _class_BaseMaterial3D_constant_STENCIL_COMPARE_LESS:
 
@@ -1554,7 +1554,7 @@ Always passes the stencil test.
 
 :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>` **STENCIL_COMPARE_LESS** = ``1``
 
-Passes the stencil test when the reference value is less than the existing stencil value.
+Passa il test dello stencil quando il valore di riferimento è minore del valore esistente nello stencil.
 
 .. _class_BaseMaterial3D_constant_STENCIL_COMPARE_EQUAL:
 
@@ -1562,7 +1562,7 @@ Passes the stencil test when the reference value is less than the existing stenc
 
 :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>` **STENCIL_COMPARE_EQUAL** = ``2``
 
-Passes the stencil test when the reference value is equal to the existing stencil value.
+Passa il test dello stencil quando il valore di riferimento è uguale al valore esistente nello stencil.
 
 .. _class_BaseMaterial3D_constant_STENCIL_COMPARE_LESS_OR_EQUAL:
 
@@ -1570,7 +1570,7 @@ Passes the stencil test when the reference value is equal to the existing stenci
 
 :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>` **STENCIL_COMPARE_LESS_OR_EQUAL** = ``3``
 
-Passes the stencil test when the reference value is less than or equal to the existing stencil value.
+Passa il test dello stencil quando il valore di riferimento è minore o uguale al valore esistente nello stencil.
 
 .. _class_BaseMaterial3D_constant_STENCIL_COMPARE_GREATER:
 
@@ -1578,7 +1578,7 @@ Passes the stencil test when the reference value is less than or equal to the ex
 
 :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>` **STENCIL_COMPARE_GREATER** = ``4``
 
-Passes the stencil test when the reference value is greater than the existing stencil value.
+Passa il test dello stencil quando il valore di riferimento è maggiore del valore esistente nello stencil.
 
 .. _class_BaseMaterial3D_constant_STENCIL_COMPARE_NOT_EQUAL:
 
@@ -1586,7 +1586,7 @@ Passes the stencil test when the reference value is greater than the existing st
 
 :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>` **STENCIL_COMPARE_NOT_EQUAL** = ``5``
 
-Passes the stencil test when the reference value is not equal to the existing stencil value.
+Passa il test dello stencil quando il valore di riferimento non è uguale al valore esistente nello stencil.
 
 .. _class_BaseMaterial3D_constant_STENCIL_COMPARE_GREATER_OR_EQUAL:
 
@@ -1594,7 +1594,7 @@ Passes the stencil test when the reference value is not equal to the existing st
 
 :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>` **STENCIL_COMPARE_GREATER_OR_EQUAL** = ``6``
 
-Passes the stencil test when the reference value is greater than or equal to the existing stencil value.
+Passa il test dello stencil quando il valore di riferimento è maggiore o uguale al valore esistente nello stencil.
 
 .. rst-class:: classref-section-separator
 
@@ -2008,9 +2008,9 @@ Se ``true``, lo shader manterrà la scala impostata per la mesh. Altrimenti la s
 - |void| **set_billboard_mode**\ (\ value\: :ref:`BillboardMode<enum_BaseMaterial3D_BillboardMode>`\ )
 - :ref:`BillboardMode<enum_BaseMaterial3D_BillboardMode>` **get_billboard_mode**\ (\ )
 
-Controls how the object faces the camera.
+Controlla il modo in cui l'oggetto è rivolto verso la telecamera.
 
-\ **Note:** Billboard mode is not suitable for VR because the left-right vector of the camera is not horizontal when the screen is attached to your head instead of on the table. See `GitHub issue #41567 <https://github.com/godotengine/godot/issues/41567>`__ for details.
+\ **Nota:** La modalità billboard non è adatta per il VR perché il vettore di sinistra-destra della telecamera non è orizzontale quando lo schermo è fissato alla testa anziché sul tavolo. Vedi `Problema su GitHub #41567 <https://github.com/godotengine/godot/issues/41567>`__ per i dettagli.
 
 .. rst-class:: classref-item-separator
 
@@ -2027,9 +2027,9 @@ Controls how the object faces the camera.
 - |void| **set_blend_mode**\ (\ value\: :ref:`BlendMode<enum_BaseMaterial3D_BlendMode>`\ )
 - :ref:`BlendMode<enum_BaseMaterial3D_BlendMode>` **get_blend_mode**\ (\ )
 
-The material's blend mode.
+La modalità di fusione del materiale.
 
-\ **Note:** Values other than ``Mix`` force the object into the transparent pipeline.
+\ **Nota:** Valori diversi da ``Mix`` forzano l'oggetto nella pipeline di trasparenza.
 
 .. rst-class:: classref-item-separator
 
@@ -2116,7 +2116,7 @@ Texture che definisce l'intensità dell'effetto di rivestimento trasparente e la
 - |void| **set_cull_mode**\ (\ value\: :ref:`CullMode<enum_BaseMaterial3D_CullMode>`\ )
 - :ref:`CullMode<enum_BaseMaterial3D_CullMode>` **get_cull_mode**\ (\ )
 
-Determines which side of the triangle to cull depending on whether the triangle faces towards or away from the camera.
+Determina quale lato del triangolo eliminare a seconda che il triangolo sia rivolto verso o via dalla telecamera.
 
 .. rst-class:: classref-item-separator
 
@@ -2133,7 +2133,7 @@ Determines which side of the triangle to cull depending on whether the triangle 
 - |void| **set_depth_draw_mode**\ (\ value\: :ref:`DepthDrawMode<enum_BaseMaterial3D_DepthDrawMode>`\ )
 - :ref:`DepthDrawMode<enum_BaseMaterial3D_DepthDrawMode>` **get_depth_draw_mode**\ (\ )
 
-Determines when depth rendering takes place. See also :ref:`transparency<class_BaseMaterial3D_property_transparency>`.
+Determina quando avviene il rendering della profondità. Vedi anche :ref:`transparency<class_BaseMaterial3D_property_transparency>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2152,9 +2152,9 @@ Determines when depth rendering takes place. See also :ref:`transparency<class_B
 
 **Sperimentale:** May be affected by future rendering pipeline changes.
 
-Determines which comparison operator is used when testing depth. See :ref:`DepthTest<enum_BaseMaterial3D_DepthTest>`.
+Determina quale operatore di confronto viene utilizzato durante il test di profondità. Vedi :ref:`DepthTest<enum_BaseMaterial3D_DepthTest>`.
 
-\ **Note:** Changing :ref:`depth_test<class_BaseMaterial3D_property_depth_test>` to a non-default value only has a visible effect when used on a transparent material, or a material that has :ref:`depth_draw_mode<class_BaseMaterial3D_property_depth_draw_mode>` set to :ref:`DEPTH_DRAW_DISABLED<class_BaseMaterial3D_constant_DEPTH_DRAW_DISABLED>`.
+\ **Nota:** Modificare :ref:`depth_test<class_BaseMaterial3D_property_depth_test>` in un valore non predefinito ha un effetto visibile solo se utilizzato su un materiale trasparente o su un materiale che ha :ref:`depth_draw_mode<class_BaseMaterial3D_property_depth_draw_mode>` impostato su :ref:`DEPTH_DRAW_DISABLED<class_BaseMaterial3D_constant_DEPTH_DRAW_DISABLED>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2190,7 +2190,7 @@ Texture che specifica il colore della sovrapposizione del dettaglio. Il canale a
 - |void| **set_detail_blend_mode**\ (\ value\: :ref:`BlendMode<enum_BaseMaterial3D_BlendMode>`\ )
 - :ref:`BlendMode<enum_BaseMaterial3D_BlendMode>` **get_detail_blend_mode**\ (\ )
 
-Specifies how the :ref:`detail_albedo<class_BaseMaterial3D_property_detail_albedo>` should blend with the current ``ALBEDO``.
+Specifica come il :ref:`detail_albedo<class_BaseMaterial3D_property_detail_albedo>` dovrebbe fondersi con l'attuale ``ALBEDO``.
 
 .. rst-class:: classref-item-separator
 
@@ -2260,7 +2260,7 @@ Texture che specifica la normale per ogni pixel della sovrapposizione del dettag
 - |void| **set_detail_uv**\ (\ value\: :ref:`DetailUV<enum_BaseMaterial3D_DetailUV>`\ )
 - :ref:`DetailUV<enum_BaseMaterial3D_DetailUV>` **get_detail_uv**\ (\ )
 
-Specifies whether to use ``UV`` or ``UV2`` for the detail layer.
+Specifica se utilizzare ``UV`` o ``UV2`` per lo strato del dettaglio.
 
 .. rst-class:: classref-item-separator
 
@@ -2277,7 +2277,7 @@ Specifies whether to use ``UV`` or ``UV2`` for the detail layer.
 - |void| **set_diffuse_mode**\ (\ value\: :ref:`DiffuseMode<enum_BaseMaterial3D_DiffuseMode>`\ )
 - :ref:`DiffuseMode<enum_BaseMaterial3D_DiffuseMode>` **get_diffuse_mode**\ (\ )
 
-The algorithm used for diffuse light scattering.
+L'algoritmo utilizzato per la diffusione della luce.
 
 .. rst-class:: classref-item-separator
 
@@ -2345,7 +2345,7 @@ Se ``true``, l'oggetto non riceve alcuna ombra che altrimenti sarebbe proiettata
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-If ``true``, disables specular occlusion even if :ref:`ProjectSettings.rendering/reflections/specular_occlusion/enabled<class_ProjectSettings_property_rendering/reflections/specular_occlusion/enabled>` is ``false``.
+Se ``true``, disabilita l'occlusione speculare anche se :ref:`ProjectSettings.rendering/reflections/specular_occlusion/enabled<class_ProjectSettings_property_rendering/reflections/specular_occlusion/enabled>` è ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -2502,7 +2502,7 @@ Utilizza ``UV2`` per leggere da :ref:`emission_texture<class_BaseMaterial3D_prop
 - |void| **set_emission_operator**\ (\ value\: :ref:`EmissionOperator<enum_BaseMaterial3D_EmissionOperator>`\ )
 - :ref:`EmissionOperator<enum_BaseMaterial3D_EmissionOperator>` **get_emission_operator**\ (\ )
 
-Sets how :ref:`emission<class_BaseMaterial3D_property_emission>` interacts with :ref:`emission_texture<class_BaseMaterial3D_property_emission_texture>`. Can either add or multiply.
+Imposta il modo in cui :ref:`emission<class_BaseMaterial3D_property_emission>` interagisce con :ref:`emission_texture<class_BaseMaterial3D_property_emission_texture>`. Può essere una somma o una moltiplicazione.
 
 .. rst-class:: classref-item-separator
 
@@ -2536,7 +2536,7 @@ Texture che specifica quanta luce è emessa per la superfice in un determinato p
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-If ``true``, the object is rendered at the same size regardless of distance. The object's size on screen is the same as if the camera was ``1.0`` units away from the object's origin, regardless of the actual distance from the camera. The :ref:`Camera3D<class_Camera3D>`'s field of view (or :ref:`Camera3D.size<class_Camera3D_property_size>` when in orthogonal/frustum mode) still affects the size the object is drawn at.
+Se ``true``, l'oggetto viene renderizzato con le stesse dimensioni a prescindere dalla distanza. Le dimensioni dell'oggetto sullo schermo sono le stesse che avrebbe se la telecamera fosse a ``1.0`` unità di distanza dall'origine dell'oggetto, a prescindere dalla distanza effettiva dalla telecamera. Il campo visivo della :ref:`Camera3D<class_Camera3D>` (o :ref:`Camera3D.size<class_Camera3D_property_size>` in modalità ortogonale/tronco) influenza comunque le dimensioni dell'oggetto disegnato.
 
 .. rst-class:: classref-item-separator
 
@@ -2553,9 +2553,9 @@ If ``true``, the object is rendered at the same size regardless of distance. The
 - |void| **set_fov_override**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_fov_override**\ (\ )
 
-Overrides the :ref:`Camera3D<class_Camera3D>`'s field of view angle (in degrees).
+Sostituisce l'angolo del campo visivo del :ref:`Camera3D<class_Camera3D>` (in gradi).
 
-\ **Note:** This behaves as if the field of view is set on a :ref:`Camera3D<class_Camera3D>` with :ref:`Camera3D.keep_aspect<class_Camera3D_property_keep_aspect>` set to :ref:`Camera3D.KEEP_HEIGHT<class_Camera3D_constant_KEEP_HEIGHT>`. Additionally, it may not look correct on a non-perspective camera where the field of view setting is ignored.
+\ **Nota:** Questo si comporta come se il campo visivo fosse impostato su una :ref:`Camera3D<class_Camera3D>` con :ref:`Camera3D.keep_aspect<class_Camera3D_property_keep_aspect>` impostato su :ref:`Camera3D.KEEP_HEIGHT<class_Camera3D_constant_KEEP_HEIGHT>`. Inoltre, potrebbe non apparire corretto su una telecamera non prospettica, in cui l'impostazione del campo visivo è ignorata.
 
 .. rst-class:: classref-item-separator
 
@@ -2644,7 +2644,7 @@ Se ``true``, la mappatura dell'altezza è abilitata (chiamata anche "mappatura d
 - |void| **set_heightmap_deep_parallax_flip_binormal**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_heightmap_deep_parallax_flip_binormal**\ (\ )
 
-Se ``true``, capovolge i vettori binormali della mesh quando interpreta la mappa dell'altezza. Se l'effetto della mappa d'altezza sembra strano quando la telecamera si muove (anche con un adeguato :ref:`heightmap_scale<class_BaseMaterial3D_property_heightmap_scale>`), prova a impostare questo a ``true``.
+Se ``true``, capovolge i vettori binormali della mesh durante l'interpretazione della heightmap. Se l'effetto della heightmap appare strano quando la telecamera si muove (anche con un'adeguata :ref:`heightmap_scale<class_BaseMaterial3D_property_heightmap_scale>`), prova a impostare questo su ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -2661,7 +2661,7 @@ Se ``true``, capovolge i vettori binormali della mesh quando interpreta la mappa
 - |void| **set_heightmap_deep_parallax_flip_tangent**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_heightmap_deep_parallax_flip_tangent**\ (\ )
 
-Se ``true``, inverte i vettori tangenti della mesh durante l'interpretazione della mappa di altezza. Se l'effetto della mappa d'altezza sembra strano quando la telecamera si muove (anche con un :ref:`heightmap_scale<class_BaseMaterial3D_property_heightmap_scale>` adeguato), prova a impostarlo su ``true``.
+Se ``true``, inverte i vettori tangenti della mesh durante l'interpretazione della heightmap. Se l'effetto della heightmap appare strano quando la telecamera si muove (anche con un :ref:`heightmap_scale<class_BaseMaterial3D_property_heightmap_scale>` adeguato), prova a impostarlo su ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -2678,9 +2678,9 @@ Se ``true``, inverte i vettori tangenti della mesh durante l'interpretazione del
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-Se ``true``, interpreta la texture della mappa d'altezza come una mappa di profondità, con valori più chiari che sembrano essere "più bassi" in altitudine rispetto ai valori più scuri.
+Se ``true``, interpreta la texture della heightmap come una mappa di profondità, con valori più chiari che sembrano essere "più bassi" in altitudine rispetto ai valori più scuri.
 
-Questo si può abilitare per compatibilità con alcuni materiali creati per Godot 3.x. Ciò non è necessario se l'opzione Inverti importazione è stata usata per invertire la mappa di profondità in Godot 3.x, nel qual caso :ref:`heightmap_flip_texture<class_BaseMaterial3D_property_heightmap_flip_texture>` dovrebbe rimanere ``false``.
+Si può abilitare per compatibilità con alcuni materiali creati per Godot 3.x. Ciò non è necessario se l'opzione d'importazione Inverti è stata usata per invertire la mappa di profondità in Godot 3.x, nel qual caso :ref:`heightmap_flip_texture<class_BaseMaterial3D_property_heightmap_flip_texture>` dovrebbe rimanere ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -2735,9 +2735,9 @@ Il numero di strati da utilizzare per la mappatura di occlusione parallasse quan
 - |void| **set_heightmap_scale**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_heightmap_scale**\ (\ )
 
-The heightmap scale to use for the parallax effect (see :ref:`heightmap_enabled<class_BaseMaterial3D_property_heightmap_enabled>`). The default value is tuned so that the highest point (value = 255) appears to be 5 cm higher than the lowest point (value = 0). Higher values result in a deeper appearance, but may result in artifacts appearing when looking at the material from oblique angles, especially when the camera moves. Negative values can be used to invert the parallax effect, but this is different from inverting the texture using :ref:`heightmap_flip_texture<class_BaseMaterial3D_property_heightmap_flip_texture>` as the material will also appear to be "closer" to the camera. In most cases, :ref:`heightmap_scale<class_BaseMaterial3D_property_heightmap_scale>` should be kept to a positive value.
+La scala della heightmap da utilizzare per l'effetto di parallasse (vedi :ref:`heightmap_enabled<class_BaseMaterial3D_property_heightmap_enabled>`). Il valore predefinito è calibrato in modo che il punto più alto (valore = 255) sembri essere 5 cm più alto del punto più basso (valore = 0). Valori più alti producono un aspetto più profondo, ma potrebbero far apparire artefatti quando si guarda il materiale da angolazioni oblique, soprattutto quando la telecamera si muove. È possibile usare valori negativi per invertire l'effetto di parallasse, ma ciò è diverso dall'invertire la texture tramite :ref:`heightmap_flip_texture<class_BaseMaterial3D_property_heightmap_flip_texture>` poiché anche il materiale sembrerà essere "più vicino" alla telecamera. Nella maggior parte dei casi, :ref:`heightmap_scale<class_BaseMaterial3D_property_heightmap_scale>` dovrebbe essere mantenuto su un valore positivo.
 
-\ **Note:** If the height map effect looks strange regardless of this value, try adjusting :ref:`heightmap_flip_binormal<class_BaseMaterial3D_property_heightmap_flip_binormal>` and :ref:`heightmap_flip_tangent<class_BaseMaterial3D_property_heightmap_flip_tangent>`. See also :ref:`heightmap_texture<class_BaseMaterial3D_property_heightmap_texture>` for recommendations on authoring heightmap textures, as the way the heightmap texture is authored affects how :ref:`heightmap_scale<class_BaseMaterial3D_property_heightmap_scale>` behaves.
+\ **Nota:** Se l'effetto della heightmap appare strano a prescindere da questo valore, prova a regolare :ref:`heightmap_flip_binormal<class_BaseMaterial3D_property_heightmap_flip_binormal>` e :ref:`heightmap_flip_tangent<class_BaseMaterial3D_property_heightmap_flip_tangent>`. Vedi anche :ref:`heightmap_texture<class_BaseMaterial3D_property_heightmap_texture>` per consigli sulla creazione di texture di heightmap, poiché il modo in cui viene creata la texture di heightmap influisce sul comportamento di :ref:`heightmap_scale<class_BaseMaterial3D_property_heightmap_scale>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2754,11 +2754,11 @@ The heightmap scale to use for the parallax effect (see :ref:`heightmap_enabled<
 - |void| **set_texture**\ (\ param\: :ref:`TextureParam<enum_BaseMaterial3D_TextureParam>`, texture\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_texture**\ (\ param\: :ref:`TextureParam<enum_BaseMaterial3D_TextureParam>`\ ) |const|
 
-La texture da utilizzare come mappa d'altezza. Vedi anche :ref:`heightmap_enabled<class_BaseMaterial3D_property_heightmap_enabled>`.
+La texture da utilizzare come heightmap. Vedi anche :ref:`heightmap_enabled<class_BaseMaterial3D_property_heightmap_enabled>`.
 
 Per ottenere i migliori risultati, la texture dovrebbe essere normalizzata (con :ref:`heightmap_scale<class_BaseMaterial3D_property_heightmap_scale>` ridotto per compensare). In `GIMP <https://gimp.org>`__, ciò si può fare tramite **Colori > Auto > Equalizza**. Se la texture utilizza solo una piccola parte della suo intervallo disponibile, l'effetto di parallasse potrebbe apparire strano, soprattutto quando la telecamera si muove.
 
-\ **Nota:** Per ridurre l'utilizzo di memoria e migliorare i tempi di caricamento, potresti essere in grado di utilizzare una texture della mappa d'altezza a risoluzione inferiore poiché la maggior parte delle mappe d'altezza sono composte solo da dati a bassa frequenza.
+\ **Nota:** Per ridurre l'utilizzo di memoria e migliorare i tempi di caricamento, potrebbe essere possibile utilizzare una texture di heightmap a bassa risoluzione, poiché la maggior parte delle heightmap sono composte solo da dati a bassa frequenza.
 
 .. rst-class:: classref-item-separator
 
@@ -3297,9 +3297,9 @@ Se ``true``, abilita la modalità di rendering "da ombra a opacità" in cui l'il
 - |void| **set_specular_mode**\ (\ value\: :ref:`SpecularMode<enum_BaseMaterial3D_SpecularMode>`\ )
 - :ref:`SpecularMode<enum_BaseMaterial3D_SpecularMode>` **get_specular_mode**\ (\ )
 
-The method for rendering the specular blob.
+Il modo per renderizzare il blob speculare.
 
-\ **Note:** :ref:`specular_mode<class_BaseMaterial3D_property_specular_mode>` only applies to the specular blob. It does not affect specular reflections from the sky, screen-space reflections, :ref:`VoxelGI<class_VoxelGI>`, SDFGI or :ref:`ReflectionProbe<class_ReflectionProbe>`\ s. To disable reflections from these sources as well, set :ref:`metallic_specular<class_BaseMaterial3D_property_metallic_specular>` to ``0.0`` instead.
+\ **Nota:** :ref:`specular_mode<class_BaseMaterial3D_property_specular_mode>` si applica solo al blob speculare. Non influisce sui riflessi speculari del cielo, sui riflessi nello spazio dello schermo, sui :ref:`VoxelGI<class_VoxelGI>`, SDFGI o :ref:`ReflectionProbe<class_ReflectionProbe>`. Per disabilitare anche i riflessi provenienti da queste fonti, imposta invece :ref:`metallic_specular<class_BaseMaterial3D_property_metallic_specular>` su ``0.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -3318,7 +3318,7 @@ The method for rendering the specular blob.
 
 **Sperimentale:** May be affected by future rendering pipeline changes.
 
-The primary color of the stencil effect.
+Il colore primario dell'effetto stencil.
 
 .. rst-class:: classref-item-separator
 
@@ -3337,7 +3337,7 @@ The primary color of the stencil effect.
 
 **Sperimentale:** May be affected by future rendering pipeline changes.
 
-The comparison operator to use for stencil masking operations. See :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>`.
+L'operatore di confronto da utilizzare per le operazioni di mascheramento di stencil. Vedi :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3356,7 +3356,7 @@ The comparison operator to use for stencil masking operations. See :ref:`Stencil
 
 **Sperimentale:** May be affected by future rendering pipeline changes.
 
-The flags dictating how the stencil operation behaves. See :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>`.
+I flag che determinano il comportamento dell'operazione di stencil. Vedi :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3375,7 +3375,7 @@ The flags dictating how the stencil operation behaves. See :ref:`StencilFlags<en
 
 **Sperimentale:** May be affected by future rendering pipeline changes.
 
-The stencil effect mode. See :ref:`StencilMode<enum_BaseMaterial3D_StencilMode>`.
+La modalità dell'effetto stencil. Vedi :ref:`StencilMode<enum_BaseMaterial3D_StencilMode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3394,7 +3394,7 @@ The stencil effect mode. See :ref:`StencilMode<enum_BaseMaterial3D_StencilMode>`
 
 **Sperimentale:** May be affected by future rendering pipeline changes.
 
-The outline thickness for :ref:`STENCIL_MODE_OUTLINE<class_BaseMaterial3D_constant_STENCIL_MODE_OUTLINE>`.
+Lo spessore del contorno per :ref:`STENCIL_MODE_OUTLINE<class_BaseMaterial3D_constant_STENCIL_MODE_OUTLINE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3413,7 +3413,7 @@ The outline thickness for :ref:`STENCIL_MODE_OUTLINE<class_BaseMaterial3D_consta
 
 **Sperimentale:** May be affected by future rendering pipeline changes.
 
-The stencil reference value (0-255). Typically a power of 2.
+Il valore di riferimento di stencil (0-255). Solitamente una potenza di 2.
 
 .. rst-class:: classref-item-separator
 
@@ -3583,9 +3583,9 @@ La texture da utilizzare per moltiplicare l'intensità della trasmittanza del su
 - |void| **set_texture_filter**\ (\ value\: :ref:`TextureFilter<enum_BaseMaterial3D_TextureFilter>`\ )
 - :ref:`TextureFilter<enum_BaseMaterial3D_TextureFilter>` **get_texture_filter**\ (\ )
 
-Filter flags for the texture.
+I flag di filtro per la texture.
 
-\ **Note:** :ref:`heightmap_texture<class_BaseMaterial3D_property_heightmap_texture>` is always sampled with linear filtering, even if nearest-neighbor filtering is selected here. This is to ensure the heightmap effect looks as intended. If you need sharper height transitions between pixels, resize the heightmap texture in an image editor with nearest-neighbor filtering.
+\ **Nota:** :ref:`heightmap_texture<class_BaseMaterial3D_property_heightmap_texture>` è sempre campionato con il filtro lineare, anche se qui è selezionato il filtro più vicino. Ciò è per garantire che l'effetto della heightmap appaia come previsto. Se c'è bisogno di transizioni più nitide tra i pixel che rappresentano le altezze, ridimensiona la texture della heightmap in un editor di immagini con il filtro più vicino.
 
 .. rst-class:: classref-item-separator
 
@@ -3602,7 +3602,7 @@ Filter flags for the texture.
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-If ``true``, the texture repeats when exceeding the texture's size. See :ref:`FLAG_USE_TEXTURE_REPEAT<class_BaseMaterial3D_constant_FLAG_USE_TEXTURE_REPEAT>`.
+Se ``true``, la texture si ripete quando supera le dimensioni della texture. Vedi :ref:`FLAG_USE_TEXTURE_REPEAT<class_BaseMaterial3D_constant_FLAG_USE_TEXTURE_REPEAT>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3689,7 +3689,7 @@ Se ``true``, la dimensione di rendering dei punti può essere modificata.
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-If ``true`` use :ref:`z_clip_scale<class_BaseMaterial3D_property_z_clip_scale>` to scale the object being rendered towards the camera to avoid clipping into things like walls.
+Se ``true`` usa :ref:`z_clip_scale<class_BaseMaterial3D_property_z_clip_scale>` per ridimensionare l'oggetto renderizzato verso la telecamera per evitare il clipping in cose come i muri.
 
 .. rst-class:: classref-item-separator
 
@@ -3740,7 +3740,7 @@ Di quanto scalare le coordinate ``UV``. Questo è moltiplicato per ``UV`` nella 
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-If ``true``, instead of using ``UV`` textures will use a triplanar texture lookup to determine how to apply textures. Triplanar uses the orientation of the object's surface to blend between texture coordinates. It reads from the source texture 3 times, once for each axis and then blends between the results based on how closely the pixel aligns with each axis. This is often used for natural features to get a realistic blend of materials. Because triplanar texturing requires many more texture reads per-pixel it is much slower than normal UV texturing. Additionally, because it is blending the texture between the three axes, it is unsuitable when you are trying to achieve crisp texturing.
+Se ``true``, invece di usare gli ``UV``, le texture useranno una ricerca triplanare per determinare come applicarsi. Triplanar usa l'orientamento della superficie dell'oggetto per fondere tra le coordinate delle texture. Legge dalla texture sorgente 3 volte, una per ogni asse, e poi fonde i risultati in base a quanto il pixel si allinea con ogni asse. Questo è spesso usato per le caratteristiche naturali, al fine di ottenere una fusione realistica di materiali. Poiché la texturizzazione triplanare richiede molte più letture di texture per pixel, è molto più lenta della solita texturizzazione tramite UV. Inoltre, poiché fonde la texture tra i tre assi, non è adatta per ottenere una texturizzazione nitida.
 
 .. rst-class:: classref-item-separator
 
@@ -3827,7 +3827,7 @@ Di quanto scalare le coordinate ``UV2``. Questo è moltiplicato per ``UV2`` nell
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-If ``true``, instead of using ``UV2`` textures will use a triplanar texture lookup to determine how to apply textures. Triplanar uses the orientation of the object's surface to blend between texture coordinates. It reads from the source texture 3 times, once for each axis and then blends between the results based on how closely the pixel aligns with each axis. This is often used for natural features to get a realistic blend of materials. Because triplanar texturing requires many more texture reads per-pixel it is much slower than normal UV texturing. Additionally, because it is blending the texture between the three axes, it is unsuitable when you are trying to achieve crisp texturing.
+Se ``true``, invece di usare gli ``UV2``, le texture useranno una ricerca triplanare per determinare come applicarsi. Triplanar usa l'orientamento della superficie dell'oggetto per fondere tra le coordinate delle texture. Legge dalla texture sorgente 3 volte, una per ogni asse, e poi fonde i risultati in base a quanto il pixel si allinea con ogni asse. Questo è spesso usato per le caratteristiche naturali, al fine di ottenere una fusione realistica di materiali. Poiché la texturizzazione triplanare richiede molte più letture di texture per pixel, è molto più lenta della solita texturizzazione tramite UV. Inoltre, poiché fonde la texture tra i tre assi, non è adatta per ottenere una texturizzazione nitida.
 
 .. rst-class:: classref-item-separator
 
@@ -3916,7 +3916,7 @@ Se ``true``, il colore dei vertici è utilizzato per il colore dell'albedo.
 - |void| **set_z_clip_scale**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_z_clip_scale**\ (\ )
 
-Scales the object being rendered towards the camera to avoid clipping into things like walls. This is intended to be used for objects that are fixed with respect to the camera like player arms, tools, etc. Lighting and shadows will continue to work correctly when this setting is adjusted, but screen-space effects like SSAO and SSR may break with lower scales. Therefore, try to keep this setting as close to ``1.0`` as possible.
+Ridimensiona l'oggetto renderizzato verso la telecamera per evitare il clipping in cose come i muri. Questa impostazione è pensata per oggetti fissi rispetto alla telecamera, come le braccia, gli strumenti, ecc. del giocatore. Luci e ombre continueranno a funzionare correttamente quando questa impostazione è regolata, ma gli effetti nello spazio dello schermo, come SSAO e SSR, potrebbero non funzionare correttamente con scale inferiori. Pertanto, si consiglia di mantenere questa impostazione il più vicino possibile a ``1.0``.
 
 .. rst-class:: classref-section-separator
 

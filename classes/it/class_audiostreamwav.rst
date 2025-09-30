@@ -305,13 +305,13 @@ Se ``true``, l'audio è stereo.
 - |void| **set_tags**\ (\ value\: :ref:`Dictionary<class_Dictionary>`\ )
 - :ref:`Dictionary<class_Dictionary>` **get_tags**\ (\ )
 
-Contains user-defined tags if found in the WAV data.
+Contiene tag definiti dall'utente se presenti nei dati WAV.
 
-Commonly used tags include ``title``, ``artist``, ``album``, ``tracknumber``, and ``date`` (``date`` does not have a standard date format).
+I tag comunemente utilizzati includono ``title``, ``artist``, ``album``, ``tracknumber`` e ``date`` (``date`` non ha un formato di data standard).
 
-\ **Note:** No tag is *guaranteed* to be present in every file, so make sure to account for the keys not always existing.
+\ **Nota:** Nessun tag è *garantito* a essere presente in ogni file, quindi assicurati di tenere conto di chiavi che non esistono sempre.
 
-\ **Note:** Only WAV files using a ``LIST`` chunk with an identifier of ``INFO`` to encode the tags are currently supported.
+\ **Nota:** Attualmente sono supportati solo i file WAV che utilizzano un blocco ``LIST`` con un identificatore di ``INFO`` per codificare i tag.
 
 .. rst-class:: classref-section-separator
 

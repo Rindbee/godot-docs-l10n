@@ -231,7 +231,7 @@ Vector mínimo, un vector con todos los componentes iguales a ``INT32_MIN``. Se 
 
 **MAX** = ``Vector3i(2147483647, 2147483647, 2147483647)`` :ref:`🔗<class_Vector3i_constant_MAX>`
 
-Vector máximo, un vector con todos los componentes iguales a ``INT32_MAX``. Se puede utilizar como un entero equivalente a ``constante Vector3.INF``.
+Vector máximo, un vector con todos los componentes iguales a ``INT32_MAX``. Se puede utilizar como un entero equivalente a :ref:`Vector3.INF<class_Vector3_constant_INF>`.
 
 .. _class_Vector3i_constant_LEFT:
 
@@ -520,7 +520,7 @@ Devuelve el mínimo componente por componente de este y ``with``, equivalente a 
 
 :ref:`int<class_int>` **min_axis_index**\ (\ ) |const| :ref:`🔗<class_Vector3i_method_min_axis_index>`
 
-Devuelve el eje del valor más bajo del vector. Consulta las constantes ``AXIS_*``. Si todos los componentes son iguales, este método devuelve la constante ``AXIS_Z``.
+Devuelve el eje del valor más bajo del vector. Consulta las constantes ``AXIS_*``. Si todos los componentes son iguales, este método devuelve la constante :ref:`AXIS_Z<class_Vector3i_constant_AXIS_Z>`.
 
 .. rst-class:: classref-item-separator
 

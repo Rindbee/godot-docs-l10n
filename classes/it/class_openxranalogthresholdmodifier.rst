@@ -73,7 +73,7 @@ Impulso tattile da emettere quando l'utente rilascia l'input.
 - |void| **set_off_threshold**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_off_threshold**\ (\ )
 
-When our input value falls below this, our output becomes ``false``.
+Quando il valore di input scende al di sotto di questo valore, l'output diventa ``falso``.
 
 .. rst-class:: classref-item-separator
 
@@ -107,7 +107,7 @@ Impulso tattile da emettere quando l'utente preme l'input.
 - |void| **set_on_threshold**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_on_threshold**\ (\ )
 
-When our input value is equal or larger than this value, our output becomes ``true``. It stays ``true`` until it falls under the :ref:`off_threshold<class_OpenXRAnalogThresholdModifier_property_off_threshold>` value.
+Quando il nostro valore di input è uguale o maggiore di questo valore, il nostro output diventa ``true``. Rimane ``true`` finché non scende al di sotto del valore di :ref:`off_threshold<class_OpenXRAnalogThresholdModifier_property_off_threshold>`.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

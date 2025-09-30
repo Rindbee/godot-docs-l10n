@@ -14,11 +14,11 @@ Un'azione OpenXR.
 Descrizione
 ----------------------
 
-Questa risorsa definisce un'azione OpenXR. Le azioni possono essere utilizzate sia per gli input (pulsanti, joystick, trigger, ecc.) sia per gli output (feedback aptico).
+Questa risorsa definisce un'azione OpenXR. Le azioni si possono utilizzare sia per gli input (pulsanti, joystick, trigger, ecc.) sia per gli output (feedback aptico).
 
 OpenXR esegue la conversione automatica tra il tipo di azione e il tipo di input ogni volta che è possibile. Un grilletto analogico associato a un'azione booleana restituirà quindi ``false`` se il grilletto è premuto e ``true`` se premuto completamente.
 
-Le azioni non sono direttamente associate a dispositivi specifici, invece OpenXR riconosce un numero limitato di percorsi di primo livello che identificano i dispositivi in base all'utilizzo. Possiamo limitare i dispositivi a cui un'azione può essere associata da questi percorsi di primo livello. Ad esempio, un'azione che dovrebbe essere utilizzata solo per i controller portatili può avere i percorsi di livello primo "/user/hand/left" e "/user/hand/right" associati. Consulta la `sezione di percorso riservato nella specifica OpenXR <https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#semantic-path-reserved>`__ per maggiori informazioni sui percorsi di livello primo.
+Le azioni non sono direttamente associate a dispositivi specifici, invece OpenXR riconosce un numero limitato di percorsi di primo livello che identificano i dispositivi in base all'utilizzo. Possiamo limitare i dispositivi a cui un'azione può essere associata da questi percorsi di primo livello. Ad esempio, un'azione che si dovrebbe utilizzare solo per i controller portatili può avere i percorsi di livello primo "/user/hand/left" e "/user/hand/right" associati. Consulta la `sezione di percorso riservato nella specifica OpenXR <https://www.khronos.org/registry/OpenXR/specs/1.0/html/xrspec.html#semantic-path-reserved>`__ per maggiori informazioni sui percorsi di livello primo.
 
 Nota che il nome della risorsa è utilizzato per registrare l'azione.
 

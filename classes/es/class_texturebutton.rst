@@ -16,7 +16,7 @@ Descripción
 
 **TextureButton** tiene la misma funcionalidad que :ref:`Button<class_Button>`, excepto que utiliza sprites en lugar del recurso :ref:`Theme<class_Theme>` de Godot. Es más rápido de crear, pero no soporta la localización como los :ref:`Control<class_Control>`\ s más complejos.
 
-Consulta también :ref:`BaseButton<class_BaseButton>`, que contiene propiedades y métodos comunes asociados a este nodo.
+Véase también :ref:`BaseButton<class_BaseButton>`, que contiene propiedades y métodos comunes asociados a este nodo.
 
 \ **Nota:** Se recomienda establecer una textura para el estado "normal" (:ref:`texture_normal<class_TextureButton_property_texture_normal>`). Si no se establece :ref:`texture_normal<class_TextureButton_property_texture_normal>`, **TextureButton** seguirá recibiendo eventos de entrada y se podrá hacer clic en él, pero el usuario no podrá verlo a menos que active otro de sus estados con una textura asignada (por ejemplo, pasar el ratón por encima para mostrar :ref:`texture_hover<class_TextureButton_property_texture_hover>`).
 

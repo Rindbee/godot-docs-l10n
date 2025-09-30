@@ -1912,7 +1912,7 @@ ProjectSettings
 
 **settings_changed**\ (\ ) :ref:`🔗<class_ProjectSettings_signal_settings_changed>`
 
-在鍵 ``name`` 下新增 :ref:`Animation<class_Animation>` 時發出。
+Emitted when any setting is changed, up to once per process frame.
 
 .. rst-class:: classref-section-separator
 

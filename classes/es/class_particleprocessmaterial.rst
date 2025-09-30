@@ -458,7 +458,7 @@ Utilizar con :ref:`set_particle_flag()<class_ParticleProcessMaterial_method_set_
 
 :ref:`ParticleFlags<enum_ParticleProcessMaterial_ParticleFlags>` **PARTICLE_FLAG_ROTATE_Y** = ``1``
 
-Utilizar con :ref:`set_particle_flag()<class_ParticleProcessMaterial_method_set_particle_flag>` para establecer :ref:`flag_rotate_y<class_ParticleProcessMaterial_property_flag_rotate_y>`.
+Utilizar con :ref:`set_particle_flag()<class_ParticleProcessMaterial_method_set_particle_flag>` para establecer :ref:`particle_flag_rotate_y<class_ParticleProcessMaterial_property_particle_flag_rotate_y>`.
 
 .. _class_ParticleProcessMaterial_constant_PARTICLE_FLAG_DISABLE_Z:
 
@@ -466,7 +466,7 @@ Utilizar con :ref:`set_particle_flag()<class_ParticleProcessMaterial_method_set_
 
 :ref:`ParticleFlags<enum_ParticleProcessMaterial_ParticleFlags>` **PARTICLE_FLAG_DISABLE_Z** = ``2``
 
-Utiliza con :ref:`set_particle_flag()<class_ParticleProcessMaterial_method_set_particle_flag>` para establecer :ref:`flag_disable_z<class_ParticleProcessMaterial_property_flag_disable_z>`.
+Utiliza con :ref:`set_particle_flag()<class_ParticleProcessMaterial_method_set_particle_flag>` para establecer :ref:`particle_flag_disable_z<class_ParticleProcessMaterial_property_particle_flag_disable_z>`.
 
 .. _class_ParticleProcessMaterial_constant_PARTICLE_FLAG_DAMPING_AS_FRICTION:
 
@@ -738,9 +738,9 @@ La rotación de cada partícula será animada a lo largo de esta :ref:`CurveText
 - |void| **set_param_max**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`, value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_param_max**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`\ ) |const|
 
-Maximum initial rotation applied to each particle, in degrees.
+Rotación inicial aplicada a cada partícula, en grados.
 
-Only applied when :ref:`particle_flag_disable_z<class_ParticleProcessMaterial_property_particle_flag_disable_z>` or :ref:`particle_flag_rotate_y<class_ParticleProcessMaterial_property_particle_flag_rotate_y>` are ``true`` or the :ref:`BaseMaterial3D<class_BaseMaterial3D>` being used to draw the particle is using :ref:`BaseMaterial3D.BILLBOARD_PARTICLES<class_BaseMaterial3D_constant_BILLBOARD_PARTICLES>`.
+Sólo se aplica cuando :ref:`particle_flag_disable_z<class_ParticleProcessMaterial_property_particle_flag_disable_z>` o :ref:`particle_flag_rotate_y<class_ParticleProcessMaterial_property_particle_flag_rotate_y>` son ``true`` o el :ref:`BaseMaterial3D<class_BaseMaterial3D>` que se usa para dibujar la partícula está usando :ref:`BaseMaterial3D.BILLBOARD_PARTICLES<class_BaseMaterial3D_constant_BILLBOARD_PARTICLES>`.
 
 .. rst-class:: classref-item-separator
 

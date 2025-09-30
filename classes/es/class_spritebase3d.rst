@@ -123,7 +123,7 @@ Si se ajusta, las luces del entorno afectan al sprite.
 
 :ref:`DrawFlags<enum_SpriteBase3D_DrawFlags>` **FLAG_DOUBLE_SIDED** = ``2``
 
-If set, texture can be seen from the back as well. If not, the texture is invisible when looking at it from behind.
+Si está activado, la textura también se puede ver desde atrás. Si no, la textura es invisible cuando se mira desde atrás.
 
 .. _class_SpriteBase3D_constant_FLAG_DISABLE_DEPTH_TEST:
 
@@ -165,7 +165,7 @@ enum **AlphaCutMode**: :ref:`🔗<enum_SpriteBase3D_AlphaCutMode>`
 
 :ref:`AlphaCutMode<enum_SpriteBase3D_AlphaCutMode>` **ALPHA_CUT_DISABLED** = ``0``
 
-This mode performs standard alpha blending. It can display translucent areas, but transparency sorting issues may be visible when multiple transparent materials are overlapping.
+Este modo realiza una mezcla alfa estándar. Puede mostrar áreas translúcidas, pero los problemas de ordenación de la transparencia pueden ser visibles cuando varios materiales transparentes se superponen.
 
 .. _class_SpriteBase3D_constant_ALPHA_CUT_DISCARD:
 
@@ -173,7 +173,7 @@ This mode performs standard alpha blending. It can display translucent areas, bu
 
 :ref:`AlphaCutMode<enum_SpriteBase3D_AlphaCutMode>` **ALPHA_CUT_DISCARD** = ``1``
 
-This mode only allows fully transparent or fully opaque pixels. Harsh edges will be visible unless some form of screen-space antialiasing is enabled (see :ref:`ProjectSettings.rendering/anti_aliasing/quality/screen_space_aa<class_ProjectSettings_property_rendering/anti_aliasing/quality/screen_space_aa>`). On the bright side, this mode doesn't suffer from transparency sorting issues when multiple transparent materials are overlapping. This mode is also known as *alpha testing* or *1-bit transparency*.
+Este modo solo permite píxeles totalmente transparentes o totalmente opacos. Los bordes duros serán visibles a menos que se active alguna forma de antialiasing en el espacio de la pantalla (consulta :ref:`ProjectSettings.rendering/anti_aliasing/quality/screen_space_aa<class_ProjectSettings_property_rendering/anti_aliasing/quality/screen_space_aa>`). En el lado bueno, este modo no sufre problemas de ordenación de la transparencia cuando varios materiales transparentes se superponen. Este modo también se conoce como *prueba alfa* o *transparencia de 1 bit*.
 
 .. _class_SpriteBase3D_constant_ALPHA_CUT_OPAQUE_PREPASS:
 
@@ -181,7 +181,7 @@ This mode only allows fully transparent or fully opaque pixels. Harsh edges will
 
 :ref:`AlphaCutMode<enum_SpriteBase3D_AlphaCutMode>` **ALPHA_CUT_OPAQUE_PREPASS** = ``2``
 
-This mode draws fully opaque pixels in the depth prepass. This is slower than :ref:`ALPHA_CUT_DISABLED<class_SpriteBase3D_constant_ALPHA_CUT_DISABLED>` or :ref:`ALPHA_CUT_DISCARD<class_SpriteBase3D_constant_ALPHA_CUT_DISCARD>`, but it allows displaying translucent areas and smooth edges while using proper sorting.
+Este modo dibuja píxeles completamente opacos en el pre-pase de profundidad. Esto es más lento que :ref:`ALPHA_CUT_DISABLED<class_SpriteBase3D_constant_ALPHA_CUT_DISABLED>` o :ref:`ALPHA_CUT_DISCARD<class_SpriteBase3D_constant_ALPHA_CUT_DISCARD>`, pero permite mostrar áreas translúcidas y bordes suaves mientras se usa la ordenación adecuada.
 
 .. _class_SpriteBase3D_constant_ALPHA_CUT_HASH:
 
@@ -455,9 +455,9 @@ Si es ``true``, la prueba de profundidad está desactivada y el objeto se dibuja
 - |void| **set_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_offset**\ (\ )
 
-The texture's drawing offset.
+El desplazamiento de dibujo de la textura.
 
-\ **Note:** When you increase :ref:`offset<class_SpriteBase3D_property_offset>`.y in Sprite3D, the sprite moves upward in world space (i.e., +Y is up).
+\ **Nota:** Cuando aumentas :ref:`offset<class_SpriteBase3D_property_offset>`.y en Sprite3D, el sprite se mueve hacia arriba en el espacio mundial (es decir, +Y es hacia arriba).
 
 .. rst-class:: classref-item-separator
 
@@ -529,9 +529,9 @@ If ``true``, the :ref:`Light3D<class_Light3D>` in the :ref:`Environment<class_En
 - |void| **set_texture_filter**\ (\ value\: :ref:`TextureFilter<enum_BaseMaterial3D_TextureFilter>`\ )
 - :ref:`TextureFilter<enum_BaseMaterial3D_TextureFilter>` **get_texture_filter**\ (\ )
 
-Filter flags for the texture.
+Marcas de filtro para la textura.
 
-\ **Note:** Linear filtering may cause artifacts around the edges, which are especially noticeable on opaque textures. To prevent this, use textures with transparent or identical colors around the edges.
+\ **Nota:** El filtrado lineal puede causar artefactos alrededor de los bordes, que son especialmente notables en texturas opacas. Para evitar esto, utiliza texturas con colores transparentes o idénticos alrededor de los bordes.
 
 .. rst-class:: classref-item-separator
 

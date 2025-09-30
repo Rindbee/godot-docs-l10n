@@ -443,7 +443,9 @@ Vecteur pointant vers le haut, utilisé pour déterminer ce qui est un mur et ce
 - |void| **set_velocity**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_velocity**\ (\ )
 
-Vecteur de vitesse actuelle (typiquement en mères par seconde), utilisé et modifié pendant les appels à :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
+Vecteur de vitesse actuel (typiquement en mètres par seconde), utilisé et modifié pendant les appels à :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
+
+Cette propriété ne doit pas être assignée une valeur multipliée par ``delta``, car cela est appliqué en interne dans :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Dans le cas contraire, la simulation avancera à une vitesse incorrecte.
 
 .. rst-class:: classref-item-separator
 
@@ -698,6 +700,8 @@ Renvoie ``true`` si le corps était entré seulement en collision avec un mur lo
 :ref:`bool<class_bool>` **move_and_slide**\ (\ ) :ref:`🔗<class_CharacterBody3D_method_move_and_slide>`
 
 Déplace le corps selon la vitesse :ref:`velocity<class_CharacterBody3D_property_velocity>`. Si le corps entre en collision avec un autre, il glisse sur l'autre corps plutôt que de s'arrêter immédiatement. Si l'autre corps est un **CharacterBody3D** ou un :ref:`RigidBody3D<class_RigidBody3D>`, il sera également affecté par le mouvement de l'autre corps. Vous pouvez utiliser ceci pour faire des plates-formes mobiles et tournantes, ou pour faire que des nœuds poussent d'autres nœuds.
+
+Cette méthode doit être utilisée dans :ref:`Node._physics_process()<class_Node_private_method__physics_process>` (ou dans une méthode appelée par :ref:`Node._physics_process()<class_Node_private_method__physics_process>`), car elle utilise automatique la valeur ``delta`` de l'étape de physique dans son calcul. Dans le cas contraire, la simulation avancera à une vitesse incorrecte.
 
 Modifie :ref:`velocity<class_CharacterBody3D_property_velocity>` si une collision de glissement s'est produite. Pour obtenir la dernière collision, appelez :ref:`get_last_slide_collision()<class_CharacterBody3D_method_get_last_slide_collision>`, pour des informations plus détaillées sur les collisions qui se sont produites, utilisez :ref:`get_slide_collision()<class_CharacterBody3D_method_get_slide_collision>`.
 

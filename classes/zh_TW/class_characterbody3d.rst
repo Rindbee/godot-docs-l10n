@@ -443,7 +443,9 @@ Vector pointing upwards, used to determine what is a wall and what is a floor (o
 - |void| **set_velocity**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_velocity**\ (\ )
 
-目前速度向量（通常為米每秒），呼叫 :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>` 期間會進行使用並修改。
+Current velocity vector (typically meters per second), used and modified during calls to :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
+
+This property should not be set to a value multiplied by ``delta``, because this happens internally in :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Otherwise, the simulation will run at an incorrect speed.
 
 .. rst-class:: classref-item-separator
 
@@ -697,13 +699,15 @@ Returns the collision normal of the wall at the last collision point. Only valid
 
 :ref:`bool<class_bool>` **move_and_slide**\ (\ ) :ref:`🔗<class_CharacterBody3D_method_move_and_slide>`
 
-根據 :ref:`velocity<class_CharacterBody3D_property_velocity>` 移動該物體。該物體如果與其他物體發生碰撞，則會沿著對方滑動，不會立即停止移動。如果對方是 **CharacterBody3D** 或 :ref:`RigidBody3D<class_RigidBody3D>`\ ，還會受到對方運動的影響。可以用於製作移動、旋轉的平臺，也可用於推動其他節點。
+Moves the body based on :ref:`velocity<class_CharacterBody3D_property_velocity>`. If the body collides with another, it will slide along the other body rather than stop immediately. If the other body is a **CharacterBody3D** or :ref:`RigidBody3D<class_RigidBody3D>`, it will also be affected by the motion of the other body. You can use this to make moving and rotating platforms, or to make nodes push other nodes.
 
-發生滑動碰撞時會改變 :ref:`velocity<class_CharacterBody3D_property_velocity>`\ 。要獲取最後一次碰撞，請呼叫 :ref:`get_last_slide_collision()<class_CharacterBody3D_method_get_last_slide_collision>`\ ，要獲取碰撞的更多資訊，請使用 :ref:`get_slide_collision()<class_CharacterBody3D_method_get_slide_collision>`\ 。
+This method should be used in :ref:`Node._physics_process()<class_Node_private_method__physics_process>` (or in a method called by :ref:`Node._physics_process()<class_Node_private_method__physics_process>`), as it uses the physics step's ``delta`` value automatically in calculations. Otherwise, the simulation will run at an incorrect speed.
 
-該物體接觸到移動平臺時，平臺的速度會自動加入到該物體的運動中。平臺運動所造成的碰撞始終為所有滑動碰撞中的第一個。
+Modifies :ref:`velocity<class_CharacterBody3D_property_velocity>` if a slide collision occurred. To get the latest collision call :ref:`get_last_slide_collision()<class_CharacterBody3D_method_get_last_slide_collision>`, for more detailed information about collisions that occurred, use :ref:`get_slide_collision()<class_CharacterBody3D_method_get_slide_collision>`.
 
-如果該物體發生了碰撞，則返回 ``true``\ ，否則返回 ``false``\ 。
+When the body touches a moving platform, the platform's velocity is automatically added to the body motion. If a collision occurs due to the platform's motion, it will always be first in the slide collisions.
+
+Returns ``true`` if the body collided, otherwise, returns ``false``.
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要使用者覆寫才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

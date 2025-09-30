@@ -297,7 +297,7 @@ Called right after the given viewport is rendered.
 
 |void| **_on_pre_draw_viewport**\ (\ viewport\: :ref:`RID<class_RID>`\ ) |virtual| :ref:`🔗<class_OpenXRExtensionWrapper_private_method__on_pre_draw_viewport>`
 
-Called right before the given viewport is rendered.
+Appelée juste avant que le viewport donné soit rendu.
 
 .. rst-class:: classref-item-separator
 
@@ -309,7 +309,7 @@ Called right before the given viewport is rendered.
 
 |void| **_on_pre_render**\ (\ ) |virtual| :ref:`🔗<class_OpenXRExtensionWrapper_private_method__on_pre_render>`
 
-Called right before the XR viewports begin their rendering step.
+Appelée juste avant que les viewports XR commencent leur étape de rendu.
 
 .. rst-class:: classref-item-separator
 
@@ -479,9 +479,9 @@ Called when OpenXR has performed its action sync.
 
 |void| **_on_viewport_composition_layer_destroyed**\ (\ layer\: ``const void*``\ ) |virtual| :ref:`🔗<class_OpenXRExtensionWrapper_private_method__on_viewport_composition_layer_destroyed>`
 
-Called when a composition layer created via :ref:`OpenXRCompositionLayer<class_OpenXRCompositionLayer>` is destroyed.
+Appelée quand un calque de composition créé via :ref:`OpenXRCompositionLayer<class_OpenXRCompositionLayer>` est détruit.
 
-\ ``layer`` is a pointer to an ``XrCompositionLayerBaseHeader`` struct.
+\ ``layer`` est un pointeur vers une struct ``XrCompositionLayerBaseHeader``.
 
 .. rst-class:: classref-item-separator
 

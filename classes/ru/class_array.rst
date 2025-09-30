@@ -12,7 +12,7 @@ Array
 Описание
 ----------------
 
-Структура данных массива, которая может содержать последовательность элементов любого типа :ref:`Variant<class_Variant>`. Доступ к элементам осуществляется по числовому индексу, начиная с ``0``. Отрицательные индексы используются для отсчета с конца (``-1`` — последний элемент, ``-2`` — предпоследний и т. д.).
+An array data structure that can contain a sequence of elements of any :ref:`Variant<class_Variant>` type by default. Values can optionally be constrained to a specific type by creating a *typed array*. Elements are accessed by a numerical index starting at ``0``. Negative indices are used to count from the back (``-1`` is the last element, ``-2`` is the second to last, etc.).
 
 
 .. tabs::
@@ -28,6 +28,10 @@ Array
     print(array[1])  # Prints "Second"
     print(array[-3]) # Prints "Second"
 
+    # This typed array can only contain integers.
+    # Attempting to add any other type will result in an error.
+    var typed_array: Array[int] = [1, 2, 3]
+
  .. code-tab:: csharp
 
     Godot.Collections.Array array = ["First", 2, 3, "Last"];
@@ -39,13 +43,17 @@ Array
     GD.Print(array[1]); // Prints "Second"
     GD.Print(array[^3]); // Prints "Second"
 
+    // This typed array can only contain integers.
+    // Attempting to add any other type will result in an error.
+    Godot.Collections.Array<int> typedArray = [1, 2, 3];
 
 
-\ **Примечание:** Массивы всегда передаются по **ссылке**. Чтобы получить копию массива, которую можно изменять независимо от исходного массива, используйте :ref:`duplicate()<class_Array_method_duplicate>`.
 
-\ **Примечание:** Стирание элементов при итерации по массивам **не** поддерживается и приведет к непредсказуемому поведению.
+\ **Note:** Arrays are always passed by **reference**. To get a copy of an array that can be modified independently of the original array, use :ref:`duplicate()<class_Array_method_duplicate>`.
 
-\ **Различия между упакованными массивами, типизированными массивами и нетипизированными массивами:** Упакованные массивы, как правило, быстрее итерируются и изменяются по сравнению с типизированным массивом того же типа (например, :ref:`PackedInt64Array<class_PackedInt64Array>` по сравнению с ``Array[int]``). Кроме того, упакованные массивы потребляют меньше памяти. Недостатком упакованных массивов является то, что они менее гибкие, поскольку не предлагают столько удобных методов, как :ref:`map()<class_Array_method_map>`. Типизированные массивы, в свою очередь, быстрее итерируются и изменяются, чем нетипизированные массивы.
+\ **Note:** Erasing elements while iterating over arrays is **not** supported and will result in unpredictable behavior.
+
+\ **Differences between packed arrays, typed arrays, and untyped arrays:** Packed arrays are generally faster to iterate on and modify compared to a typed array of the same type (e.g. :ref:`PackedInt64Array<class_PackedInt64Array>` versus ``Array[int]``). Also, packed arrays consume less memory. As a downside, packed arrays are less flexible as they don't offer as many convenience methods such as :ref:`map()<class_Array_method_map>`. Typed arrays are in turn faster to iterate on and modify than untyped arrays.
 
 .. note::
 

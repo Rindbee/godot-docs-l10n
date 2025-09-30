@@ -27,7 +27,7 @@ Tutoriels
 
 - :doc:`SceneTree <../tutorials/scripting/scene_tree>`
 
-- :doc:`Multiples résolutions <../tutorials/rendering/multiple_resolutions>`
+- :doc:`Résolutions multiples <../tutorials/rendering/multiple_resolutions>`
 
 .. rst-class:: classref-reftable-group
 

@@ -9,7 +9,7 @@ StaticBody3D
 
 **Heredado por:** :ref:`AnimatableBody3D<class_AnimatableBody3D>`
 
-A 3D physics body that can't be moved by external forces. When moved manually, it doesn't affect other bodies in its path.
+Un cuerpo físico 3D que no puede ser movido por fuerzas externas. Cuando se mueve manualmente, no afecta a otros cuerpos en su camino.
 
 .. rst-class:: classref-introduction-group
 

@@ -99,7 +99,7 @@ enum **ExportFilter**: :ref:`🔗<enum_EditorExportPreset_ExportFilter>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -111,7 +111,7 @@ enum **ExportFilter**: :ref:`🔗<enum_EditorExportPreset_ExportFilter>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -123,7 +123,7 @@ enum **ExportFilter**: :ref:`🔗<enum_EditorExportPreset_ExportFilter>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -135,7 +135,7 @@ enum **ExportFilter**: :ref:`🔗<enum_EditorExportPreset_ExportFilter>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -147,7 +147,7 @@ enum **ExportFilter**: :ref:`🔗<enum_EditorExportPreset_ExportFilter>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -169,7 +169,7 @@ enum **FileExportMode**: :ref:`🔗<enum_EditorExportPreset_FileExportMode>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -181,7 +181,7 @@ enum **FileExportMode**: :ref:`🔗<enum_EditorExportPreset_FileExportMode>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -193,7 +193,7 @@ enum **FileExportMode**: :ref:`🔗<enum_EditorExportPreset_FileExportMode>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -205,7 +205,7 @@ enum **FileExportMode**: :ref:`🔗<enum_EditorExportPreset_FileExportMode>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -227,7 +227,7 @@ enum **ScriptExportMode**: :ref:`🔗<enum_EditorExportPreset_ScriptExportMode>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -239,7 +239,7 @@ enum **ScriptExportMode**: :ref:`🔗<enum_EditorExportPreset_ScriptExportMode>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 
@@ -251,7 +251,7 @@ enum **ScriptExportMode**: :ref:`🔗<enum_EditorExportPreset_ScriptExportMode>`
 
 .. container:: contribute
 
-	该枚举目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this enum. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 
 

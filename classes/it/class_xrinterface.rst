@@ -293,7 +293,7 @@ Uguale a :ref:`XR_PLAY_AREA_ROOMSCALE<class_XRInterface_constant_XR_PLAY_AREA_RO
 
 :ref:`PlayAreaMode<enum_XRInterface_PlayAreaMode>` **XR_PLAY_AREA_CUSTOM** = ``2147483647``
 
-Custom play area set by a GDExtension.
+Area di gioco personalizzata impostata da una GDExtension.
 
 .. rst-class:: classref-item-separator
 
@@ -345,7 +345,7 @@ enum **VRSTextureFormat**: :ref:`🔗<enum_XRInterface_VRSTextureFormat>`
 
 :ref:`VRSTextureFormat<enum_XRInterface_VRSTextureFormat>` **XR_VRS_TEXTURE_FORMAT_UNIFIED** = ``0``
 
-The texture format is the same as returned by :ref:`XRVRS.make_vrs_texture()<class_XRVRS_method_make_vrs_texture>`.
+Il formato di texture è lo stesso restituito da :ref:`XRVRS.make_vrs_texture()<class_XRVRS_method_make_vrs_texture>`.
 
 .. _class_XRInterface_constant_XR_VRS_TEXTURE_FORMAT_FRAGMENT_SHADING_RATE:
 
@@ -353,7 +353,7 @@ The texture format is the same as returned by :ref:`XRVRS.make_vrs_texture()<cla
 
 :ref:`VRSTextureFormat<enum_XRInterface_VRSTextureFormat>` **XR_VRS_TEXTURE_FORMAT_FRAGMENT_SHADING_RATE** = ``1``
 
-The texture format is the same as expected by the Vulkan ``VK_KHR_fragment_shading_rate`` extension.
+Il formato di texture è lo stesso previsto dall'estensione Vulkan ``VK_KHR_fragment_shading_rate``.
 
 .. _class_XRInterface_constant_XR_VRS_TEXTURE_FORMAT_FRAGMENT_DENSITY_MAP:
 
@@ -361,7 +361,7 @@ The texture format is the same as expected by the Vulkan ``VK_KHR_fragment_shadi
 
 :ref:`VRSTextureFormat<enum_XRInterface_VRSTextureFormat>` **XR_VRS_TEXTURE_FORMAT_FRAGMENT_DENSITY_MAP** = ``2``
 
-The texture format is the same as expected by the Vulkan ``VK_EXT_fragment_density_map`` extension.
+Il formato di texture è lo stesso previsto dall'estensione Vulkan ``VK_EXT_fragment_density_map``.
 
 .. rst-class:: classref-section-separator
 

@@ -95,9 +95,9 @@ Segnali
 
 **state_finished**\ (\ state\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_AnimationNodeStateMachinePlayback_signal_state_finished>`
 
-Emitted when the ``state`` finishes playback. If ``state`` is a state machine set to grouped mode, its signals are passed through with its name prefixed.
+Emesso quando lo stato ``state`` termina la riproduzione. Se ``state`` è una macchina a stati impostata in modalità raggruppata, i suoi segnali vengono trasmessi con il suo nome come prefisso.
 
-If there is a crossfade, this will be fired when the influence of the :ref:`get_fading_from_node()<class_AnimationNodeStateMachinePlayback_method_get_fading_from_node>` animation is no longer present.
+Se è presente una dissolvenza incrociata, questo segnale verrà attivato quando l'influenza dell'animazione di :ref:`get_fading_from_node()<class_AnimationNodeStateMachinePlayback_method_get_fading_from_node>` non sarà più presente.
 
 .. rst-class:: classref-item-separator
 
@@ -109,7 +109,7 @@ If there is a crossfade, this will be fired when the influence of the :ref:`get_
 
 **state_started**\ (\ state\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_AnimationNodeStateMachinePlayback_signal_state_started>`
 
-Emitted when the ``state`` starts playback. If ``state`` is a state machine set to grouped mode, its signals are passed through with its name prefixed.
+Emesso quando lo stato ``state`` avvia la riproduzione. Se ``state`` è una macchina a stati impostata in modalità raggruppata, i suoi segnali vengono trasmessi con il suo nome come prefisso.
 
 .. rst-class:: classref-section-separator
 

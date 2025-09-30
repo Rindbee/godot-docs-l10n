@@ -16,7 +16,7 @@ Descripción
 
 Este recurso describe una transición de color definiendo un conjunto de puntos coloreados y cómo interpolar entre ellos.
 
-Ver también :ref:`Curve<class_Curve>` que soporta métodos de interpolación más complejos, pero no soporta colores.
+Véase también :ref:`Curve<class_Curve>` que soporta métodos de interpolación más complejos, pero no soporta colores.
 
 .. rst-class:: classref-reftable-group
 
@@ -309,7 +309,7 @@ Invierte/refleja el gradiente.
 
 :ref:`Color<class_Color>` **sample**\ (\ offset\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Gradient_method_sample>`
 
-Devuelve el color interpolado especificado por ``offset``. ``offset`` debe estar entre ``0.0`` y ``1.0`` (inclusive). Usar un valor inferior a ``0.0`` devolverá el mismo color que ``0.0``, y usar un valor superior a ``1.0`` devolverá el mismo color que ``1.0``. Si su valor de entrada no está dentro de este rango, considere usar :ref:`@GlobalScope.remap()<class_@GlobalScope_method_remap>` en el valor de entrada con los valores de salida establecidos en ``0.0`` y ``1.0``.
+Devuelve el color interpolado especificado por ``offset``. ``offset`` debe estar entre ``0.0`` y ``1.0`` (inclusive). Usar un valor inferior a ``0.0`` devolverá el mismo color que ``0.0``, y usar un valor superior a ``1.0`` devolverá el mismo color que ``1.0``. Si su valor de entrada no está dentro de este rango, considera usar :ref:`@GlobalScope.remap()<class_@GlobalScope_method_remap>` en el valor de entrada con los valores de salida establecidos en ``0.0`` y ``1.0``.
 
 .. rst-class:: classref-item-separator
 

@@ -160,7 +160,7 @@ Restituisce la mesh dell'elemento.
 
 :ref:`ShadowCastingSetting<enum_RenderingServer_ShadowCastingSetting>` **get_item_mesh_cast_shadow**\ (\ id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MeshLibrary_method_get_item_mesh_cast_shadow>`
 
-Returns the item's shadow casting mode.
+Restituisce la modalità di proiezione dell'ombra dell'elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -294,7 +294,7 @@ Imposta la mesh dell'elemento.
 
 |void| **set_item_mesh_cast_shadow**\ (\ id\: :ref:`int<class_int>`, shadow_casting_setting\: :ref:`ShadowCastingSetting<enum_RenderingServer_ShadowCastingSetting>`\ ) :ref:`🔗<class_MeshLibrary_method_set_item_mesh_cast_shadow>`
 
-Sets the item's shadow casting mode to ``shadow_casting_setting``.
+Imposta la modalità di proiezione dell'ombra dell'elemento su ``shadow_casting_setting``.
 
 .. rst-class:: classref-item-separator
 

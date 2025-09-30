@@ -1005,7 +1005,7 @@ Descripciones de Propiedades
 - |void| **set_accessibility_description**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_accessibility_description**\ (\ )
 
-The human-readable node description that is reported to assistive apps.
+La descripción del nodo legible por humanos que se reporta a las aplicaciones de asistencia.
 
 .. rst-class:: classref-item-separator
 
@@ -1407,7 +1407,7 @@ Establece el modo actual de la ventana.
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`\ ) |const|
 
-Si es ``true``, todos los eventos del ratón se pasarán a la ventana subyacente de la misma aplicación. Consulta también :ref:`mouse_passthrough_polygon<class_Window_property_mouse_passthrough_polygon>`.
+Si es ``true``, todos los eventos del ratón se pasarán a la ventana subyacente de la misma aplicación. Véase también :ref:`mouse_passthrough_polygon<class_Window_property_mouse_passthrough_polygon>`.
 
 \ **Nota:** Esta propiedad está implementada en Linux (X11), macOS y Windows.
 
@@ -1979,7 +1979,7 @@ Devuelve el tamaño de la ventana incluyendo su borde.
 
 Devuelve un :ref:`Color<class_Color>` del primer :ref:`Theme<class_Theme>` coincidente en el árbol si ese :ref:`Theme<class_Theme>` tiene un elemento de color con el ``name`` y el ``theme_type`` especificados.
 
-Consulta :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` para obtener más detalles.
+Véase :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` para obtener más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -1993,7 +1993,7 @@ Consulta :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` 
 
 Devuelve una constante del primer :ref:`Theme<class_Theme>` coincidente en el árbol si ese :ref:`Theme<class_Theme>` tiene un elemento constante con el ``name`` y el ``theme_type`` especificados.
 
-Consulta :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` para obtener más detalles.
+Véase :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` para obtener más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -2141,7 +2141,7 @@ Devuelve ``true`` si la ventana está enfocada.
 
 Devuelve ``true`` si hay un :ref:`Theme<class_Theme>` coincidente en el árbol que tiene un elemento de color con el ``name`` y el ``theme_type`` especificados.
 
-Consulta :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` para obtener más detalles.
+Véase :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` para obtener más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -2153,9 +2153,9 @@ Consulta :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` 
 
 :ref:`bool<class_bool>` **has_theme_color_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_color_override>`
 
-Returns ``true`` if there is a local override for a theme :ref:`Color<class_Color>` with the specified ``name`` in this :ref:`Control<class_Control>` node.
+Devuelve ``true`` si hay una sobreescritura local para un :ref:`Color<class_Color>` de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
 
-See :ref:`add_theme_color_override()<class_Window_method_add_theme_color_override>`.
+Véase :ref:`add_theme_color_override()<class_Window_method_add_theme_color_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2181,9 +2181,9 @@ Véase :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pa
 
 :ref:`bool<class_bool>` **has_theme_constant_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_constant_override>`
 
-Returns ``true`` if there is a local override for a theme constant with the specified ``name`` in this :ref:`Control<class_Control>` node.
+Devuelve ``true`` si existe una sobreescritura local para una constante de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
 
-See :ref:`add_theme_constant_override()<class_Window_method_add_theme_constant_override>`.
+Véase :ref:`add_theme_constant_override()<class_Window_method_add_theme_constant_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2209,9 +2209,9 @@ Véase :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pa
 
 :ref:`bool<class_bool>` **has_theme_font_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_font_override>`
 
-Returns ``true`` if there is a local override for a theme :ref:`Font<class_Font>` with the specified ``name`` in this :ref:`Control<class_Control>` node.
+Devuelve ``true`` si hay una sobreescritura local para una :ref:`Font<class_Font>` de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
 
-See :ref:`add_theme_font_override()<class_Window_method_add_theme_font_override>`.
+Véase :ref:`add_theme_font_override()<class_Window_method_add_theme_font_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2237,9 +2237,9 @@ Véase :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pa
 
 :ref:`bool<class_bool>` **has_theme_font_size_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_font_size_override>`
 
-Returns ``true`` if there is a local override for a theme font size with the specified ``name`` in this :ref:`Control<class_Control>` node.
+Devuelve ``true`` si hay una sobreescritura local para un tamaño de fuente de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
 
-See :ref:`add_theme_font_size_override()<class_Window_method_add_theme_font_size_override>`.
+Véase :ref:`add_theme_font_size_override()<class_Window_method_add_theme_font_size_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2265,9 +2265,9 @@ Véase :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pa
 
 :ref:`bool<class_bool>` **has_theme_icon_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_icon_override>`
 
-Returns ``true`` if there is a local override for a theme icon with the specified ``name`` in this :ref:`Control<class_Control>` node.
+Devuelve ``true`` si hay una sobreescritura local para un icono de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
 
-See :ref:`add_theme_icon_override()<class_Window_method_add_theme_icon_override>`.
+Véase :ref:`add_theme_icon_override()<class_Window_method_add_theme_icon_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2293,9 +2293,9 @@ Véase :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pa
 
 :ref:`bool<class_bool>` **has_theme_stylebox_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_stylebox_override>`
 
-Returns ``true`` if there is a local override for a theme :ref:`StyleBox<class_StyleBox>` with the specified ``name`` in this :ref:`Control<class_Control>` node.
+Devuelve ``true`` si hay una sobreescritura local para un :ref:`StyleBox<class_StyleBox>` de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
 
-See :ref:`add_theme_stylebox_override()<class_Window_method_add_theme_stylebox_override>`.
+Véase :ref:`add_theme_stylebox_override()<class_Window_method_add_theme_stylebox_override>`.
 
 .. rst-class:: classref-item-separator
 

@@ -174,7 +174,7 @@ Si es ``true``, recorta el principio y el final de las animaciones si no hay cam
 
 :ref:`String<class_String>` **import_script/path** = ``""`` :ref:`🔗<class_ResourceImporterScene_property_import_script/path>`
 
-Ruta a un script de importación, que puede ejecutar código después de que el proceso de importación se haya completado para el procesamiento personalizado. Ver `Usando scripts de importación para la automatización <../tutorials/assets_pipeline/importing_3d_scenes/import_configuration.html#using-import-scripts-for-automation>`__ para más información.
+Ruta a un script de importación, que puede ejecutar código después de que el proceso de importación se haya completado para el procesamiento personalizado. Véase `Usando scripts de importación para la automatización <../tutorials/assets_pipeline/importing_3d_scenes/import_configuration.html#using-import-scripts-for-automation>`__ para más información.
 
 .. rst-class:: classref-item-separator
 
@@ -272,7 +272,7 @@ Si es ``true``, la compresión de la malla no se utilizará. Considera activar e
 
 :ref:`bool<class_bool>` **meshes/generate_lods** = ``true`` :ref:`🔗<class_ResourceImporterScene_property_meshes/generate_lods>`
 
-Si es ``true``, genera variantes de menor detalle de la malla que se mostrarán en la distancia para mejorar el rendimiento del renderizado. No todas las mallas se benefician de LOD, especialmente si nunca se renderizan desde lejos. Deshabilitar esto puede reducir el tamaño del archivo de salida y acelerar la importación. Ver `Nivel de detalle de la malla (LOD) <../tutorials/3d/mesh_lod.html#doc-mesh-lod>`__ para obtener más información.
+Si es ``true``, genera variantes de menor detalle de la malla que se mostrarán en la distancia para mejorar el rendimiento del renderizado. No todas las mallas se benefician de LOD, especialmente si nunca se renderizan desde lejos. Deshabilitar esto puede reducir el tamaño del archivo de salida y acelerar la importación. Véase `Nivel de detalle de la malla (LOD) <../tutorials/3d/mesh_lod.html#doc-mesh-lod>`__ para obtener más información.
 
 .. rst-class:: classref-item-separator
 
@@ -296,7 +296,7 @@ Configura :ref:`GeometryInstance3D.gi_mode<class_GeometryInstance3D_property_gi_
 
 :ref:`float<class_float>` **meshes/lightmap_texel_size** = ``0.2`` :ref:`🔗<class_ResourceImporterScene_property_meshes/lightmap_texel_size>`
 
-Controla el tamaño de cada texel en el mapa de luces horneado. Un valor más pequeño da como resultado mapas de luces más precisos, a costa de tamaños de mapas de luces más grandes y tiempos de horneado más largos.
+Controla el tamaño de cada texel en el mapa de luces procesado. Un valor más pequeño da como resultado mapas de luces más precisos, a costa de tamaños de mapas de luces más grandes y tiempos de procesado más largos.
 
 \ **Nota:** Solo es efectivo si :ref:`meshes/light_baking<class_ResourceImporterScene_property_meshes/light_baking>` está establecido en **Mapas de luces estáticos**.
 
@@ -310,7 +310,7 @@ Controla el tamaño de cada texel en el mapa de luces horneado. Un valor más pe
 
 :ref:`bool<class_bool>` **nodes/apply_root_scale** = ``true`` :ref:`🔗<class_ResourceImporterScene_property_nodes/apply_root_scale>`
 
-Si es ``true``, :ref:`nodes/root_scale<class_ResourceImporterScene_property_nodes/root_scale>` se aplicará a los nodos descendientes, mallas, animaciones, huesos, etc. Esto significa que si agregas un nodo hijo más adelante dentro de la escena importada, no se escalará. Si ``false``, :ref:`nodes/root_scale<class_ResourceImporterScene_property_nodes/root_scale>` multiplicará la escala del nodo raíz en su lugar.
+Si es ``true``, :ref:`nodes/root_scale<class_ResourceImporterScene_property_nodes/root_scale>` se aplicará a los nodos descendientes, mallas, animaciones, huesos, etc. Esto significa que si agregas un nodo hijo más adelante dentro de la escena importada, no se escalará. Si es ``false``, :ref:`nodes/root_scale<class_ResourceImporterScene_property_nodes/root_scale>` multiplicará la escala del nodo raíz en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -322,7 +322,7 @@ Si es ``true``, :ref:`nodes/root_scale<class_ResourceImporterScene_property_node
 
 :ref:`bool<class_bool>` **nodes/import_as_skeleton_bones** = ``false`` :ref:`🔗<class_ResourceImporterScene_property_nodes/import_as_skeleton_bones>`
 
-Trata todos los nodos en la escena importada como si fueran huesos dentro de un solo :ref:`Skeleton3D<class_Skeleton3D>`. Se puede usar para garantizar que las animaciones importadas se dirijan a los huesos del esqueleto en lugar de los nodos. También se puede usar para asignar el hueso ``"Root"`` en un :ref:`BoneMap<class_BoneMap>`. Consulta :doc:`Retargeting 3D Skeletons <../tutorials/assets_pipeline/retargeting_3d_skeletons>` para obtener más información.
+Trata todos los nodos en la escena importada como si fueran huesos dentro de un solo :ref:`Skeleton3D<class_Skeleton3D>`. Se puede usar para garantizar que las animaciones importadas se dirijan a los huesos del esqueleto en lugar de los nodos. También se puede usar para asignar el hueso ``"Root"`` en un :ref:`BoneMap<class_BoneMap>`. Véase :doc:`Retargeting 3D Skeletons <../tutorials/assets_pipeline/retargeting_3d_skeletons>` para obtener más información.
 
 .. rst-class:: classref-item-separator
 
@@ -346,7 +346,7 @@ Sobrescribe el nombre del nodo raíz. Si está vacío, el nodo raíz usará lo q
 
 :ref:`float<class_float>` **nodes/root_scale** = ``1.0`` :ref:`🔗<class_ResourceImporterScene_property_nodes/root_scale>`
 
-La escala uniforme que se utilizará para la raíz de la escena. El valor predeterminado de ``1.0`` no realizará ningún cambio de escala. Consulta :ref:`nodes/apply_root_scale<class_ResourceImporterScene_property_nodes/apply_root_scale>` para obtener detalles de cómo se aplica esta escala.
+La escala uniforme que se utilizará para la raíz de la escena. El valor predeterminado de ``1.0`` no realizará ningún cambio de escala. Véase :ref:`nodes/apply_root_scale<class_ResourceImporterScene_property_nodes/apply_root_scale>` para obtener detalles de cómo se aplica esta escala.
 
 .. rst-class:: classref-item-separator
 
@@ -382,7 +382,7 @@ Sobrescribe el tipo de nodo raíz. Si está vacío, el nodo raíz usará lo que 
 
 :ref:`bool<class_bool>` **nodes/use_name_suffixes** = ``true`` :ref:`🔗<class_ResourceImporterScene_property_nodes/use_name_suffixes>`
 
-Si es ``true``, utilizará sufijos en los nombres de los objetos importados como nodos y recursos para determinar los tipos y propiedades, como ``-noimp`` para omitir la importación de un nodo o animación, ``-alpha`` para habilitar la transparencia alfa en un material, y ``-vcol`` para habilitar colores de vértice en un material. Deshabilitar esto hace que los archivos importados por el editor sean más similares a los archivos originales, y más similares a los archivos importados en tiempo de ejecución. Consulta :doc:`Personalización del tipo de nodo usando sufijos de nombre <../tutorials/assets_pipeline/importing_3d_scenes/node_type_customization>` para obtener más información.
+Si es ``true``, utilizará sufijos en los nombres de los objetos importados como nodos y recursos para determinar los tipos y propiedades, como ``-noimp`` para omitir la importación de un nodo o animación, ``-alpha`` para habilitar la transparencia alfa en un material, y ``-vcol`` para habilitar colores de vértice en un material. Deshabilitar esto hace que los archivos importados por el editor sean más similares a los archivos originales, y más similares a los archivos importados en tiempo de ejecución. Véase :doc:`Personalización del tipo de nodo usando sufijos de nombre <../tutorials/assets_pipeline/importing_3d_scenes/node_type_customization>` para obtener más información.
 
 .. rst-class:: classref-item-separator
 
@@ -394,7 +394,7 @@ Si es ``true``, utilizará sufijos en los nombres de los objetos importados como
 
 :ref:`bool<class_bool>` **nodes/use_node_type_suffixes** = ``true`` :ref:`🔗<class_ResourceImporterScene_property_nodes/use_node_type_suffixes>`
 
-Si es ``true``, utilizará sufijos en los nombres de los nodos para determinar el tipo de nodo, como ``-col`` para las formas de colisión. Esto solo se usa cuando :ref:`nodes/use_name_suffixes<class_ResourceImporterScene_property_nodes/use_name_suffixes>` es ``true``. Deshabilitar esto hace que los archivos importados por el editor sean más similares a los archivos originales, y más similares a los archivos importados en tiempo de ejecución. Consulta :doc:`Personalización del tipo de nodo usando sufijos de nombre <../tutorials/assets_pipeline/importing_3d_scenes/node_type_customization>` para obtener más información.
+Si es ``true``, utilizará sufijos en los nombres de los nodos para determinar el tipo de nodo, como ``-col`` para las formas de colisión. Esto solo se usa cuando :ref:`nodes/use_name_suffixes<class_ResourceImporterScene_property_nodes/use_name_suffixes>` es ``true``. Deshabilitar esto hace que los archivos importados por el editor sean más similares a los archivos originales, y más similares a los archivos importados en tiempo de ejecución. Véase :doc:`Personalización del tipo de nodo usando sufijos de nombre <../tutorials/assets_pipeline/importing_3d_scenes/node_type_customization>` para obtener más información.
 
 .. rst-class:: classref-item-separator
 

@@ -182,7 +182,7 @@ Restituisce la porta locale a cui questo peer è associato.
 
 :ref:`Status<enum_StreamPeerTCP_Status>` **get_status**\ (\ ) |const| :ref:`🔗<class_StreamPeerTCP_method_get_status>`
 
-Returns the status of the connection.
+Restituisce lo stato della connessione.
 
 .. rst-class:: classref-item-separator
 

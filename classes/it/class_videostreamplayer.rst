@@ -239,7 +239,7 @@ Se ``true``, il video è messo in pausa.
 - |void| **set_speed_scale**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_speed_scale**\ (\ )
 
-The stream's current speed scale. ``1.0`` is the normal speed, while ``2.0`` is double speed and ``0.5`` is half speed. A speed scale of ``0.0`` pauses the video, similar to setting :ref:`paused<class_VideoStreamPlayer_property_paused>` to ``true``.
+La scala di velocità attuale del flusso. ``1.0`` è la velocità normale, mentre ``2.0`` è una velocità doppia e ``0.5`` è una velocità dimezzata. Una scala di velocità di ``0.0`` mette in pausa il video, come impostare :ref:`paused<class_VideoStreamPlayer_property_paused>` su ``true``.
 
 .. rst-class:: classref-item-separator
 

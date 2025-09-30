@@ -14,17 +14,17 @@ Un controllo per visualizzare testo che può contenere diversi stili di font, im
 Descrizione
 ----------------------
 
-A control for displaying text that can contain custom fonts, images, and basic formatting. **RichTextLabel** manages these as an internal tag stack. It also adapts itself to given width/heights.
+Un controllo per visualizzare testo che può contenere font personalizzati, immagini e formattazione basilare. **RichTextLabel** li gestisce come uno stack di tag interno. Si adatta anche a larghezze o altezze specificate.
 
-\ **Note:** :ref:`newline()<class_RichTextLabel_method_newline>`, :ref:`push_paragraph()<class_RichTextLabel_method_push_paragraph>`, ``"\n"``, ``"\r\n"``, ``p`` tag, and alignment tags start a new paragraph. Each paragraph is processed independently, in its own BiDi context. If you want to force line wrapping within paragraph, any other line breaking character can be used, for example, Form Feed (U+000C), Next Line (U+0085), Line Separator (U+2028).
+\ **Nota:** :ref:`newline()<class_RichTextLabel_method_newline>`, :ref:`push_paragraph()<class_RichTextLabel_method_push_paragraph>`, ``"\n"``, ``"\r\n"``, il tag ``p`` e il tag di allineamento cominciano un nuovo paragrafo. Ogni paragrafo viene elaborato in modo indipendente, nel suo proprio contesto BiDi. Se si desidera forzare un'interruzione di riga all'interno del paragrafo, è possibile utilizzare qualsiasi altro carattere d'interruzione di riga, ad esempio, Form Feed (U+000C), Next Line (U+0085), Line Separator (U+2028).
 
-\ **Note:** Assignments to :ref:`text<class_RichTextLabel_property_text>` clear the tag stack and reconstruct it from the property's contents. Any edits made to :ref:`text<class_RichTextLabel_property_text>` will erase previous edits made from other manual sources such as :ref:`append_text()<class_RichTextLabel_method_append_text>` and the ``push_*`` / :ref:`pop()<class_RichTextLabel_method_pop>` methods.
+\ **Nota:** Le assegnazioni a :ref:`text<class_RichTextLabel_property_text>` cancellano lo stack di tag e lo ricostruiscono dai contenuti della proprietà. Qualsiasi modifica apportata a :ref:`text<class_RichTextLabel_property_text>` cancellerà le modifiche precedenti apportate da altre sorgenti manuali come :ref:`append_text()<class_RichTextLabel_method_append_text>` e i metodi ``push_*`` / :ref:`pop()<class_RichTextLabel_method_pop>`.
 
-\ **Note:** RichTextLabel doesn't support entangled BBCode tags. For example, instead of using ``[b]bold[i]bold italic[/b]italic[/i]``, use ``[b]bold[i]bold italic[/i][/b][i]italic[/i]``.
+\ **Nota:** RichTextLabel non supporta i tag BBCode aggrovigliati. Ad esempio, invece di usare ``[b]grassetto[i]grassetto corsivo[/b]corsivo[/i]``, usa ``[b]grassetto[i]grassetto corsivo[/i][/b][i]corsivo[/i]``.
 
-\ **Note:** ``push_*/pop_*`` functions won't affect BBCode.
+\ **Nota:** Le funzioni ``push_*/pop_*`` non influenzeranno il BBCode.
 
-\ **Note:** While :ref:`bbcode_enabled<class_RichTextLabel_property_bbcode_enabled>` is enabled, alignment tags such as ``[center]`` will take priority over the :ref:`horizontal_alignment<class_RichTextLabel_property_horizontal_alignment>` setting which determines the default text alignment.
+\ **Nota:** Quando :ref:`bbcode_enabled<class_RichTextLabel_property_bbcode_enabled>` è abilitato, i tag di allineamento come ``[center]`` avranno la priorità sull'impostazione :ref:`horizontal_alignment<class_RichTextLabel_property_horizontal_alignment>` che determina l'allineamento predefinito del testo.
 
 .. rst-class:: classref-introduction-group
 
@@ -632,7 +632,7 @@ Descrizioni delle proprietà
 - |void| **set_autowrap_mode**\ (\ value\: :ref:`AutowrapMode<enum_TextServer_AutowrapMode>`\ )
 - :ref:`AutowrapMode<enum_TextServer_AutowrapMode>` **get_autowrap_mode**\ (\ )
 
-Se impostato a un valore diverso da :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_constant_AUTOWRAP_OFF>`, il testo è racchiuso all'interno del rettangolo limite del nodo.
+Se impostato a un valore diverso da :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_constant_AUTOWRAP_OFF>`, il testo è racchiuso all'interno del rettangolo di delimitazione del nodo.
 
 .. rst-class:: classref-item-separator
 
@@ -649,7 +649,7 @@ Se impostato a un valore diverso da :ref:`TextServer.AUTOWRAP_OFF<class_TextServ
 - |void| **set_autowrap_trim_flags**\ (\ value\: |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\]\ )
 - |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\] **get_autowrap_trim_flags**\ (\ )
 
-Autowrap space trimming flags. See :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_START_EDGE_SPACES>` and :ref:`TextServer.BREAK_TRIM_END_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_END_EDGE_SPACES>` for more info.
+Flag di troncamento spazi per il ritorno a capo automatico. Vedi :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_START_EDGE_SPACES>` e :ref:`TextServer.BREAK_TRIM_END_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_END_EDGE_SPACES>` per ulteriori informazioni.
 
 .. rst-class:: classref-item-separator
 
@@ -806,7 +806,7 @@ Controlla l'allineamento orizzontale del testo. Supporta sinistra, centro, destr
 - |void| **set_justification_flags**\ (\ value\: |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\]\ )
 - |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\] **get_justification_flags**\ (\ )
 
-Line fill alignment rules.
+Regole di allineamento del riempimento per le righe.
 
 .. rst-class:: classref-item-separator
 
@@ -910,7 +910,7 @@ Se ``true``, la finestra scorre verso il basso per visualizzare automaticamente 
 - |void| **set_scroll_follow_visible_characters**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_scroll_following_visible_characters**\ (\ )
 
-If ``true``, the window scrolls to display the last visible line when :ref:`visible_characters<class_RichTextLabel_property_visible_characters>` or :ref:`visible_ratio<class_RichTextLabel_property_visible_ratio>` is changed.
+Se ``true``, la finestra scorre per visualizzare l'ultima riga visibile quando :ref:`visible_characters<class_RichTextLabel_property_visible_characters>` o :ref:`visible_ratio<class_RichTextLabel_property_visible_ratio>` vengono modificati.
 
 .. rst-class:: classref-item-separator
 
@@ -1101,11 +1101,11 @@ Controlla l'allineamento verticale del testo. Supporta sopra, centro, sotto e ri
 - |void| **set_visible_characters**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_visible_characters**\ (\ )
 
-The number of characters to display. If set to ``-1``, all characters are displayed. This can be useful when animating the text appearing in a dialog box.
+Il numero di caratteri da visualizzare. Se impostato su ``-1``, tutti i caratteri sono visualizzati. Può essere utile quando si anima il testo che appare in una finestra di dialogo.
 
-\ **Note:** Setting this property updates :ref:`visible_ratio<class_RichTextLabel_property_visible_ratio>` accordingly.
+\ **Nota:** Impostando questa proprietà si aggiorna :ref:`visible_ratio<class_RichTextLabel_property_visible_ratio>` di conseguenza.
 
-\ **Note:** Characters are counted as Unicode codepoints. A single visible grapheme may contain multiple codepoints (e.g. certain emoji use three codepoints). A single codepoint may contain two UTF-16 characters, which are used in C# strings.
+\ **Nota:** I caratteri sono conteggiati come codici Unicode. Un singolo grafema visibile può contenere più codici (ad esempio, alcune emoji ne utilizzano tre). Un singolo codice può contenere due caratteri UTF-16, i quali sono utilizzati nelle stringhe C#.
 
 .. rst-class:: classref-item-separator
 
@@ -1158,11 +1158,11 @@ Descrizioni dei metodi
 
 |void| **add_hr**\ (\ width\: :ref:`int<class_int>` = 90, height\: :ref:`int<class_int>` = 2, color\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), alignment\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` = 1, width_in_percent\: :ref:`bool<class_bool>` = true, height_in_percent\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_RichTextLabel_method_add_hr>`
 
-Adds a horizontal rule that can be used to separate content.
+Aggiunge una linea orizzontale che si può utilizzare per separare il contenuto.
 
-If ``width_in_percent`` is set, ``width`` values are percentages of the control width instead of pixels.
+Se ``width_in_percent`` è impostato, i valori di ``width`` sono percentuali della larghezza del controllo anziché pixel.
 
-If ``height_in_percent`` is set, ``height`` values are percentages of the control width instead of pixels.
+Se ``height_in_percent`` è impostato, i valori di ``height`` sono percentuali della larghezza del controllo anziché pixel.
 
 .. rst-class:: classref-item-separator
 
@@ -1174,21 +1174,21 @@ If ``height_in_percent`` is set, ``height`` values are percentages of the contro
 
 |void| **add_image**\ (\ image\: :ref:`Texture2D<class_Texture2D>`, width\: :ref:`int<class_int>` = 0, height\: :ref:`int<class_int>` = 0, color\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), inline_align\: :ref:`InlineAlignment<enum_@GlobalScope_InlineAlignment>` = 5, region\: :ref:`Rect2<class_Rect2>` = Rect2(0, 0, 0, 0), key\: :ref:`Variant<class_Variant>` = null, pad\: :ref:`bool<class_bool>` = false, tooltip\: :ref:`String<class_String>` = "", width_in_percent\: :ref:`bool<class_bool>` = false, height_in_percent\: :ref:`bool<class_bool>` = false, alt_text\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_RichTextLabel_method_add_image>`
 
-Adds an image's opening and closing tags to the tag stack, optionally providing a ``width`` and ``height`` to resize the image, a ``color`` to tint the image and a ``region`` to only use parts of the image.
+Aggiunge i tag di apertura e chiusura di un'immagine allo stack dei tag, fornendo facoltativamente un ``width`` e ``height`` per ridimensionare l'immagine, un ``color`` per colorare l'immagine e un ``region`` per utilizzare solo parti dell'immagine.
 
-If ``width`` or ``height`` is set to 0, the image size will be adjusted in order to keep the original aspect ratio.
+Se ``width`` o ``height`` sono impostati su 0, le dimensioni dell'immagine saranno regolate per mantenere le proporzioni originali.
 
-If ``width`` and ``height`` are not set, but ``region`` is, the region's rect will be used.
+Se ``width`` e ``height`` non sono impostati, ma ``region`` lo è, sarà utilizzato il rettangolo della regione.
 
-\ ``key`` is an optional identifier, that can be used to modify the image via :ref:`update_image()<class_RichTextLabel_method_update_image>`.
+\ ``key`` è un identificatore facoltativo, che può essere utilizzato per modificare l'immagine tramite :ref:`update_image()<class_RichTextLabel_method_update_image>`.
 
-If ``pad`` is set, and the image is smaller than the size specified by ``width`` and ``height``, the image padding is added to match the size instead of upscaling.
+Se ``pad`` è impostato e l'immagine è più piccola delle dimensioni specificate da ``width`` e ``height``, il padding dell'immagine viene aggiunto per adattarla alle dimensioni anziché ridimensionarla.
 
-If ``width_in_percent`` is set, ``width`` values are percentages of the control width instead of pixels.
+Se ``width_in_percent`` è impostato, i valori per ``width`` sono percentuali della larghezza del controllo anziché pixel.
 
-If ``height_in_percent`` is set, ``height`` values are percentages of the control width instead of pixels.
+Se ``height_in_percent`` è impostato, i valori per ``height`` sono percentuali della larghezza del controllo anziché pixel.
 
-\ ``alt_text`` is used as the image description for assistive apps.
+\ ``alt_text`` è utilizzato come descrizione dell'immagine per le applicazioni assistive.
 
 .. rst-class:: classref-item-separator
 
@@ -1280,11 +1280,11 @@ Restituisce il numero di paragrafo della posizione di carattere fornita. I numer
 
 :ref:`int<class_int>` **get_content_height**\ (\ ) |const| :ref:`🔗<class_RichTextLabel_method_get_content_height>`
 
-Returns the height of the content.
+Restituisce l'altezza del contenuto.
 
-\ **Note:** This method always returns the full content size, and is not affected by :ref:`visible_ratio<class_RichTextLabel_property_visible_ratio>` and :ref:`visible_characters<class_RichTextLabel_property_visible_characters>`. To get the visible content size, use :ref:`get_visible_content_rect()<class_RichTextLabel_method_get_visible_content_rect>`.
+\ **Nota:** Questo metodo restituisce sempre la dimensione completa del contenuto e non è influenzato da :ref:`visible_ratio<class_RichTextLabel_property_visible_ratio>` e :ref:`visible_characters<class_RichTextLabel_property_visible_characters>`. Per ottenere la dimensione visibile del contenuto, utilizzare :ref:`get_visible_content_rect()<class_RichTextLabel_method_get_visible_content_rect>`.
 
-\ **Note:** If :ref:`threaded<class_RichTextLabel_property_threaded>` is enabled, this method returns a value for the loaded part of the document. Use :ref:`is_finished()<class_RichTextLabel_method_is_finished>` or :ref:`finished<class_RichTextLabel_signal_finished>` to determine whether document is fully loaded.
+\ **Nota:** Se :ref:`threaded<class_RichTextLabel_property_threaded>` è abilitato, questo metodo restituisce un valore per la parte caricata del documento. Usa :ref:`is_finished()<class_RichTextLabel_method_is_finished>` o :ref:`finished<class_RichTextLabel_signal_finished>` per determinare se il documento ha caricato completamente.
 
 .. rst-class:: classref-item-separator
 
@@ -1296,11 +1296,11 @@ Returns the height of the content.
 
 :ref:`int<class_int>` **get_content_width**\ (\ ) |const| :ref:`🔗<class_RichTextLabel_method_get_content_width>`
 
-Returns the width of the content.
+Restituisce la larghezza del contenuto.
 
-\ **Note:** This method always returns the full content size, and is not affected by :ref:`visible_ratio<class_RichTextLabel_property_visible_ratio>` and :ref:`visible_characters<class_RichTextLabel_property_visible_characters>`. To get the visible content size, use :ref:`get_visible_content_rect()<class_RichTextLabel_method_get_visible_content_rect>`.
+\ **Nota:** Questo metodo restituisce sempre la dimensione completa del contenuto e non è influenzato da :ref:`visible_ratio<class_RichTextLabel_property_visible_ratio>` e :ref:`visible_characters<class_RichTextLabel_property_visible_characters>`. Per ottenere la dimensione visibile del contenuto, utilizzare :ref:`get_visible_content_rect()<class_RichTextLabel_method_get_visible_content_rect>`.
 
-\ **Note:** If :ref:`threaded<class_RichTextLabel_property_threaded>` is enabled, this method returns a value for the loaded part of the document. Use :ref:`is_finished()<class_RichTextLabel_method_is_finished>` or :ref:`finished<class_RichTextLabel_signal_finished>` to determine whether document is fully loaded.
+\ **Nota:** Se :ref:`threaded<class_RichTextLabel_property_threaded>` è abilitato, questo metodo restituisce un valore per la parte caricata del documento. Usa :ref:`is_finished()<class_RichTextLabel_method_is_finished>` o :ref:`finished<class_RichTextLabel_signal_finished>` per determinare se il documento ha caricato completamente.
 
 .. rst-class:: classref-item-separator
 
@@ -1312,9 +1312,9 @@ Returns the width of the content.
 
 :ref:`int<class_int>` **get_line_count**\ (\ ) |const| :ref:`🔗<class_RichTextLabel_method_get_line_count>`
 
-Returns the total number of lines in the text. Wrapped text is counted as multiple lines.
+Restituisce il numero totale di righe nel testo. Il testo avvolto conta come più righe.
 
-\ **Note:** If :ref:`threaded<class_RichTextLabel_property_threaded>` is enabled, this method returns a value for the loaded part of the document. Use :ref:`is_finished()<class_RichTextLabel_method_is_finished>` or :ref:`finished<class_RichTextLabel_signal_finished>` to determine whether document is fully loaded.
+\ **Nota:** Se :ref:`threaded<class_RichTextLabel_property_threaded>` è abilitato, questo metodo restituisce un valore per la parte caricata del documento. Usa :ref:`is_finished()<class_RichTextLabel_method_is_finished>` o :ref:`finished<class_RichTextLabel_signal_finished>` per determinare se il documento ha caricato completamente.
 
 .. rst-class:: classref-item-separator
 
@@ -1555,9 +1555,9 @@ Restituisce la barra di scorrimento verticale.
 
 :ref:`Rect2i<class_Rect2i>` **get_visible_content_rect**\ (\ ) |const| :ref:`🔗<class_RichTextLabel_method_get_visible_content_rect>`
 
-Returns the bounding rectangle of the visible content.
+Restituisce il rettangolo limite del contenuto visibile.
 
-\ **Note:** This method returns a correct value only after the label has been drawn.
+\ **Nota:** Questo metodo restituisce un valore corretto solo dopo che l'etichetta è stata disegnata.
 
 
 .. tabs::
@@ -1600,11 +1600,11 @@ Returns the bounding rectangle of the visible content.
 
 :ref:`int<class_int>` **get_visible_line_count**\ (\ ) |const| :ref:`🔗<class_RichTextLabel_method_get_visible_line_count>`
 
-Returns the number of visible lines.
+Restituisce il numero di righe visibili.
 
-\ **Note:** This method returns a correct value only after the label has been drawn.
+\ **Nota:** Questo metodo restituisce un valore corretto solo dopo che l'etichetta è stata disegnata.
 
-\ **Note:** If :ref:`threaded<class_RichTextLabel_property_threaded>` is enabled, this method returns a value for the loaded part of the document. Use :ref:`is_finished()<class_RichTextLabel_method_is_finished>` or :ref:`finished<class_RichTextLabel_signal_finished>` to determine whether document is fully loaded.
+\ **Nota:** Se :ref:`threaded<class_RichTextLabel_property_threaded>` è abilitato, questo metodo restituisce un valore per la parte caricata del documento. Usa :ref:`is_finished()<class_RichTextLabel_method_is_finished>` o :ref:`finished<class_RichTextLabel_signal_finished>` per determinare se il documento ha caricato completamente.
 
 .. rst-class:: classref-item-separator
 
@@ -1616,11 +1616,11 @@ Returns the number of visible lines.
 
 :ref:`int<class_int>` **get_visible_paragraph_count**\ (\ ) |const| :ref:`🔗<class_RichTextLabel_method_get_visible_paragraph_count>`
 
-Returns the number of visible paragraphs. A paragraph is considered visible if at least one of its lines is visible.
+Restituisce il numero di paragrafi visibili. Un paragrafo è considerato visibile se almeno una delle sue righe è visibile.
 
-\ **Note:** This method returns a correct value only after the label has been drawn.
+\ **Nota:** Questo metodo restituisce un valore corretto solo dopo che l'etichetta è stata disegnata.
 
-\ **Note:** If :ref:`threaded<class_RichTextLabel_property_threaded>` is enabled, this method returns a value for the loaded part of the document. Use :ref:`is_finished()<class_RichTextLabel_method_is_finished>` or :ref:`finished<class_RichTextLabel_signal_finished>` to determine whether document is fully loaded.
+\ **Nota:** Se :ref:`threaded<class_RichTextLabel_property_threaded>` è abilitato, questo metodo restituisce un valore per la parte caricata del documento. Usa :ref:`is_finished()<class_RichTextLabel_method_is_finished>` o :ref:`finished<class_RichTextLabel_signal_finished>` per determinare se il documento ha caricato completamente.
 
 .. rst-class:: classref-item-separator
 
@@ -1803,9 +1803,9 @@ Termina i tag aperti dopo l'ultima chiamata a :ref:`push_context()<class_RichTex
 
 |void| **push_bgcolor**\ (\ bgcolor\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_RichTextLabel_method_push_bgcolor>`
 
-Adds a ``[bgcolor]`` tag to the tag stack.
+Aggiunge un tag ``[bgcolor]`` allo stack dei tag.
 
-\ **Note:** The background color has padding applied by default, which is controlled using :ref:`text_highlight_h_padding<class_RichTextLabel_theme_constant_text_highlight_h_padding>` and :ref:`text_highlight_v_padding<class_RichTextLabel_theme_constant_text_highlight_v_padding>`. This can lead to overlapping highlights if background colors are placed on neighboring lines/columns, so consider setting those theme items to ``0`` if you want to avoid this.
+\ **Nota:** Al colore di sfondo è applicato un rientro predefinito, che è controllato attraverso :ref:`text_highlight_h_padding<class_RichTextLabel_theme_constant_text_highlight_h_padding>` e :ref:`text_highlight_v_padding<class_RichTextLabel_theme_constant_text_highlight_v_padding>`. Ciò può portare le evidenziazioni a sovrapporsi se i colori di sfondo si trovano su righe/colonne adiacenti, quindi si consiglia di impostare tali elementi del tema su ``0`` se si desidera evitarlo.
 
 .. rst-class:: classref-item-separator
 
@@ -1901,9 +1901,9 @@ Aggiunge un tag ``[dropcap]`` allo stack dei tag. Il capolettera è un elemento 
 
 |void| **push_fgcolor**\ (\ fgcolor\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_RichTextLabel_method_push_fgcolor>`
 
-Adds a ``[fgcolor]`` tag to the tag stack.
+Aggiunge un tag ``[fgcolor]`` allo stack dei tag.
 
-\ **Note:** The foreground color has padding applied by default, which is controlled using :ref:`text_highlight_h_padding<class_RichTextLabel_theme_constant_text_highlight_h_padding>` and :ref:`text_highlight_v_padding<class_RichTextLabel_theme_constant_text_highlight_v_padding>`. This can lead to overlapping highlights if foreground colors are placed on neighboring lines/columns, so consider setting those theme items to ``0`` if you want to avoid this.
+\ **Nota:** Al colore di primo piano è applicato un rientro predefinito, che è controllato attraverso :ref:`text_highlight_h_padding<class_RichTextLabel_theme_constant_text_highlight_h_padding>` e :ref:`text_highlight_v_padding<class_RichTextLabel_theme_constant_text_highlight_v_padding>`. Ciò può portare le evidenziazioni a sovrapporsi se i colori di primo piano si trovano su righe/colonne adiacenti, quindi si consiglia di impostare tali elementi del tema su ``0`` se si desidera evitarlo.
 
 .. rst-class:: classref-item-separator
 
@@ -2077,7 +2077,7 @@ Aggiunge un tag ``[p]`` allo stack dei tag.
 
 |void| **push_strikethrough**\ (\ color\: :ref:`Color<class_Color>` = Color(0, 0, 0, 0)\ ) :ref:`🔗<class_RichTextLabel_method_push_strikethrough>`
 
-Adds a ``[s]`` tag to the tag stack. If ``color`` alpha value is zero, current font color with alpha multiplied by :ref:`strikethrough_alpha<class_RichTextLabel_theme_constant_strikethrough_alpha>` is used.
+Aggiunge un tag ``[s]`` allo stack dei tag. Se il valore alfa di ``color`` è zero, è utilizzato il colore del font attuale con alfa moltiplicato per :ref:`strikethrough_alpha<class_RichTextLabel_theme_constant_strikethrough_alpha>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2113,7 +2113,7 @@ Aggiunge un tag ``[u]`` allo stack dei tag. Se il valore alfa di ``color`` è ze
 
 |void| **reload_effects**\ (\ ) :ref:`🔗<class_RichTextLabel_method_reload_effects>`
 
-Reloads custom effects. Useful when :ref:`custom_effects<class_RichTextLabel_property_custom_effects>` is modified manually.
+Ricarica gli effetti personalizzati. Utile quando :ref:`custom_effects<class_RichTextLabel_property_custom_effects>` viene modificato manualmente.
 
 .. rst-class:: classref-item-separator
 
@@ -2406,7 +2406,7 @@ La dimensione del contorno del testo.
 
 :ref:`int<class_int>` **paragraph_separation** = ``0`` :ref:`🔗<class_RichTextLabel_theme_constant_paragraph_separation>`
 
-Additional vertical spacing between paragraphs (in pixels). Spacing is added after the last line. This value can be negative.
+Spaziatura verticale aggiuntiva tra paragrafi (in pixel). La spaziatura è aggiunta dopo l'ultima riga. Questo valore può essere negativo.
 
 .. rst-class:: classref-item-separator
 
@@ -2454,7 +2454,7 @@ La dimensione del contorno dell'ombra.
 
 :ref:`int<class_int>` **strikethrough_alpha** = ``50`` :ref:`🔗<class_RichTextLabel_theme_constant_strikethrough_alpha>`
 
-The default strikethrough color transparency (percent). For strikethroughs with a custom color, this theme item is only used if the custom color's alpha is ``0.0`` (fully transparent).
+La trasparenza predefinita del colore di barratura (in percentuale). Per le barrature con un colore personalizzato, questo elemento del tema è utilizzato solo se il valore alfa del colore personalizzato è ``0.0`` (completamente trasparente).
 
 .. rst-class:: classref-item-separator
 
@@ -2514,7 +2514,7 @@ La spaziatura verticale attorno ai riquadri disegnati dai tag ``[fgcolor]`` e ``
 
 :ref:`int<class_int>` **underline_alpha** = ``50`` :ref:`🔗<class_RichTextLabel_theme_constant_underline_alpha>`
 
-The default underline color transparency (percent). For underlines with a custom color, this theme item is only used if the custom color's alpha is ``0.0`` (fully transparent).
+La trasparenza predefinita del colore di sottolineatura (in percentuale). Per le sottolineature con un colore personalizzato, questo elemento del tema è utilizzato solo se il valore alfa del colore personalizzato è ``0.0`` (completamente trasparente).
 
 .. rst-class:: classref-item-separator
 
@@ -2646,7 +2646,7 @@ La dimensione predefinita del font.
 
 :ref:`Texture2D<class_Texture2D>` **horizontal_rule** :ref:`🔗<class_RichTextLabel_theme_icon_horizontal_rule>`
 
-The horizontal rule texture.
+La texture della linea orizzontale.
 
 .. rst-class:: classref-item-separator
 

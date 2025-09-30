@@ -114,7 +114,7 @@ Per registrare questo UID, è necessario chiamare :ref:`add_id()<class_ResourceU
 
 :ref:`int<class_int>` **create_id_for_path**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_ResourceUID_method_create_id_for_path>`
 
-Like :ref:`create_id()<class_ResourceUID_method_create_id>`, but the UID is seeded with the provided ``path`` and project name. UIDs generated for that path will be always the same within the current project.
+Simile a :ref:`create_id()<class_ResourceUID_method_create_id>`, ma l'UID è generato con il parametro ``path`` fornito e il nome del progetto. Gli UID generati per quel percorso saranno sempre gli stessi all'interno del progetto attuale.
 
 .. rst-class:: classref-item-separator
 
@@ -126,7 +126,7 @@ Like :ref:`create_id()<class_ResourceUID_method_create_id>`, but the UID is seed
 
 :ref:`String<class_String>` **ensure_path**\ (\ path_or_uid\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_ResourceUID_method_ensure_path>`
 
-Returns a path, converting ``path_or_uid`` if necessary. Prints an error if provided an invalid UID.
+Restituisce un percorso, convertendo ``path_or_uid`` se necessario. Stampa un errore se viene fornito un UID non valido.
 
 .. rst-class:: classref-item-separator
 
@@ -176,7 +176,7 @@ Converte l'UID specificato in un valore di stringa ``uid://``.
 
 :ref:`String<class_String>` **path_to_uid**\ (\ path\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_ResourceUID_method_path_to_uid>`
 
-Converts the provided resource ``path`` to a UID. Returns the unchanged path if it has no associated UID.
+Converte la risorsa fornita al percorso ``path`` in un UID. Restituisce il percorso invariato se non ha un UID associato.
 
 .. rst-class:: classref-item-separator
 
@@ -228,7 +228,7 @@ Estrae il valore UID dalla stringa ``uid://`` specificata.
 
 :ref:`String<class_String>` **uid_to_path**\ (\ uid\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_ResourceUID_method_uid_to_path>`
 
-Converts the provided ``uid`` to a path. Prints an error if the UID is invalid.
+Converte l'``uid`` fornito in un percorso. Stampa un errore se l'UID non è valido.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

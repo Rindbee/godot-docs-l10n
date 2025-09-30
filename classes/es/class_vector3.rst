@@ -16,7 +16,7 @@ Estructura de 3 elementos que puede ser usada para representar coordenadas 3D o 
 
 Utiliza coordenadas de punto flotante. De forma predeterminada, estos valores de punto flotante utilizan una precisión de 32 bits, a diferencia de :ref:`float<class_float>` que siempre es de 64 bits. Si se necesita una precisión doble, compila el motor con la opción ``precision=double``.
 
-Ver :ref:`Vector3i<class_Vector3i>` para su contraparte entera.
+Véase :ref:`Vector3i<class_Vector3i>` para su contraparte entera.
 
 \ **Nota:** En un contexto booleano, un Vector3 se evaluará como ``false`` si es igual a ``Vector3(0, 0, 0)``. De lo contrario, un Vector3 siempre se evaluará como ``true``.
 
@@ -337,7 +337,7 @@ Vector de la unidad inferior.
 
 **FORWARD** = ``Vector3(0, 0, -1)`` :ref:`🔗<class_Vector3_constant_FORWARD>`
 
-Vector unitario hacia adelante. Representa la dirección local de avance y la dirección global del norte. Tenga en cuenta que la dirección de avance para las luces, las cámaras, etc. es diferente de los activos 3D como los personajes, que miran hacia la cámara por convención. Utilice :ref:`MODEL_FRONT<class_Vector3_constant_MODEL_FRONT>` y constantes similares cuando trabaje en el espacio de activos 3D.
+Vector unitario hacia adelante. Representa la dirección local de avance y la dirección global del norte. Ten en cuenta que la dirección de avance para las luces, las cámaras, etc. es diferente de los activos 3D como los personajes, que miran hacia la cámara por convención. Utiliza :ref:`MODEL_FRONT<class_Vector3_constant_MODEL_FRONT>` y constantes similares cuando trabaje en el espacio de activos 3D.
 
 .. _class_Vector3_constant_BACK:
 
@@ -864,7 +864,7 @@ Devuelve el mínimo componente a componente de este y ``with``, equivalente a ``
 
 :ref:`int<class_int>` **min_axis_index**\ (\ ) |const| :ref:`🔗<class_Vector3_method_min_axis_index>`
 
-Devuelve el eje del valor más bajo del vector. Consulta las constantes ``AXIS_*``. Si todos los componentes son iguales, este método devuelve la constante ``AXIS_Z``.
+Devuelve el eje del valor más bajo del vector. Consulta las constantes ``AXIS_*``. Si todos los componentes son iguales, este método devuelve la constante :ref:`AXIS_Z<class_Vector3_constant_AXIS_Z>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1129,7 +1129,7 @@ Devuelve ``true`` si los vectores no son iguales.
 
 Transforma inversamente (multiplica) el **Vector3** por la matriz :ref:`Basis<class_Basis>` dada, bajo el supuesto de que la base es ortonormal (es decir, la rotación/reflexión está bien, la escala/sesgo no lo está).
 
-\ ``vector * basis`` es equivalente a ``basis.transposed() * vector``. Ver :ref:`Basis.transposed()<class_Basis_method_transposed>`.
+\ ``vector * basis`` es equivalente a ``basis.transposed() * vector``. Véase :ref:`Basis.transposed()<class_Basis_method_transposed>`.
 
 Para transformar por la inversa de una base no ortonormal (por ejemplo, con escalado) se puede utilizar ``basis.inverse() * vector`` en su lugar. Véase :ref:`Basis.inverse()<class_Basis_method_inverse>`.
 

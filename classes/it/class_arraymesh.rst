@@ -14,7 +14,7 @@ Un tipo di :ref:`Mesh<class_Mesh>` che fornisce utilità per la costruzione di u
 Descrizione
 ----------------------
 
-Un **ArrayMesh** viene utilizzato per costruire una :ref:`Mesh<class_Mesh>` specificando gli attributi come più array.
+Un **ArrayMesh** serve per costruire una :ref:`Mesh<class_Mesh>` specificando gli attributi come più array.
 
 L'esempio più basilare è la creazione di un unico triangolo:
 

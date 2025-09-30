@@ -388,7 +388,7 @@ Il formato di visualizzazione in cui l'**EditorFileDialog** mostra le risorse al
 - |void| **set_file_mode**\ (\ value\: :ref:`FileMode<enum_EditorFileDialog_FileMode>`\ )
 - :ref:`FileMode<enum_EditorFileDialog_FileMode>` **get_file_mode**\ (\ )
 
-The dialog's open or save mode, which affects the selection behavior.
+La modalità di apertura o salvataggio della finestra di dialogo, che influenza il comportamento di selezione.
 
 .. rst-class:: classref-item-separator
 

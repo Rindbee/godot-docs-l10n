@@ -33,7 +33,7 @@ Tutoriales
 
 - :doc:`Viewport and canvas transforms <../tutorials/2d/2d_transforms>`
 
-- :doc:`Custom drawing in 2D <../tutorials/2d/custom_drawing_in_2d>`
+- :doc:`Dibujo personalizado en 2D <../tutorials/2d/custom_drawing_in_2d>`
 
 - `Demo de Visualizador de Espectro de Audio <https://godotengine.org/asset-library/asset/2762>`__
 

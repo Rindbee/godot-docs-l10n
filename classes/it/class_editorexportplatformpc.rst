@@ -16,7 +16,7 @@ Classe di base per l'esportatore su piattaforma desktop (Windows e Linux/BSD).
 Descrizione
 ----------------------
 
-The base class for the desktop platform exporters. These include Windows and Linux/BSD, but not macOS. See the classes inheriting from this one for more details.
+La classe di base per gli esportatori di piattaforme desktop. Questi includono Windows e Linux/BSD, ma non macOS. Vedi le classi che la ereditano per ulteriori dettagli.
 
 .. rst-class:: classref-introduction-group
 

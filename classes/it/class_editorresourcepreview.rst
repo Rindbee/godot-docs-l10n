@@ -14,7 +14,7 @@ Un nodo utilizzato per generare anteprime di risorse o file.
 Descrizione
 ----------------------
 
-Questo nodo viene utilizzato per generare anteprime per le risorse o i file.
+Questo nodo serve per generare anteprime per le risorse o i file.
 
 \ **Nota:** Questa classe non dovrebbe essere istanziata direttamente. Invece, accedi al singleton tramite :ref:`EditorInterface.get_resource_previewer()<class_EditorInterface_method_get_resource_previewer>`.
 

@@ -153,7 +153,7 @@ Si disconnette dall'host.
 
 :ref:`Status<enum_StreamPeerTLS_Status>` **get_status**\ (\ ) |const| :ref:`🔗<class_StreamPeerTLS_method_get_status>`
 
-Returns the status of the connection.
+Restituisce lo stato della connessione.
 
 .. rst-class:: classref-item-separator
 

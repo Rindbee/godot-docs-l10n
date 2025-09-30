@@ -366,13 +366,13 @@ Basis
 
 :ref:`float<class_float>` **determinant**\ (\ ) |const| :ref:`🔗<class_Basis_method_determinant>`
 
-返回基矩阵的\ `行列式 <https://zh.wikipedia.org/wiki/%E8%A1%8C%E5%88%97%E5%BC%8F>`__\ 。在高等数学中，这个数可以用来确定一些性质：
+Returns the `determinant <https://en.wikipedia.org/wiki/Determinant>`__ of this basis's matrix. For advanced math, this number can be used to determine a few attributes:
 
-- 如果行列式为 ``0.0``\ ，则基不可逆（见 :ref:`inverse()<class_Basis_method_inverse>`\ ）。
+- If the determinant is exactly ``0.0``, the basis is not invertible (see :ref:`inverse()<class_Basis_method_inverse>`).
 
-- 如果行列式为负数，则基表示负缩放。
+- If the determinant is a negative number, the basis represents a negative scale.
 
-\ **注意：**\ 如果基的每个轴缩放都相同，那么这个行列式始终为 2 的该缩放次幂。
+\ **Note:** If the basis's scale is the same for every axis, its determinant is always that scale by the power of 3.
 
 .. rst-class:: classref-item-separator
 

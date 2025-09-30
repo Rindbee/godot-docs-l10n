@@ -899,7 +899,7 @@ Returns the index of the item containing the specified ``id``. Index is automati
 
 :ref:`String<class_String>` **get_item_language**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PopupMenu_method_get_item_language>`
 
-Returns item's text language code.
+Renvoie le code de langue du texte de l'élément.
 
 .. rst-class:: classref-item-separator
 
@@ -997,7 +997,7 @@ Returns the text of the item at the given ``index``.
 
 :ref:`TextDirection<enum_Control_TextDirection>` **get_item_text_direction**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PopupMenu_method_get_item_text_direction>`
 
-Returns item's text base writing direction.
+Renvoie la direction d'écriture de base du texte de l'élément.
 
 .. rst-class:: classref-item-separator
 
@@ -1313,7 +1313,7 @@ Sets the horizontal offset of the item at the given ``index``.
 
 |void| **set_item_language**\ (\ index\: :ref:`int<class_int>`, language\: :ref:`String<class_String>`\ ) :ref:`🔗<class_PopupMenu_method_set_item_language>`
 
-Sets language code of item's text used for line-breaking and text shaping algorithms, if left empty current locale is used instead.
+Définit le code de langue du texte de l'élément, utilisé pour les algorithmes de retour à la ligne et de façonnage de texte. Si laissé vide, la langue actuelle est utilisée à la place.
 
 .. rst-class:: classref-item-separator
 
@@ -1423,7 +1423,7 @@ Sets the text of the item at the given ``index``.
 
 |void| **set_item_text_direction**\ (\ index\: :ref:`int<class_int>`, direction\: :ref:`TextDirection<enum_Control_TextDirection>`\ ) :ref:`🔗<class_PopupMenu_method_set_item_text_direction>`
 
-Sets item's text base writing direction.
+Définit la direction d'écriture de base du texte.
 
 .. rst-class:: classref-item-separator
 
@@ -1620,9 +1620,9 @@ Horizontal padding to the left of the items (or right, in RTL layout).
 
 :ref:`int<class_int>` **outline_size** = ``0`` :ref:`🔗<class_PopupMenu_theme_constant_outline_size>`
 
-The size of the item text outline.
+La taille du contour du texte de l'élément.
 
-\ **Note:** If using a font with :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` enabled, its :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` must be set to at least *twice* the value of :ref:`outline_size<class_PopupMenu_theme_constant_outline_size>` for outline rendering to look correct. Otherwise, the outline may appear to be cut off earlier than intended.
+\ **Note :** Si vous utilisez une police avec :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` activé, sa :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` doit être définie à au moins *deux fois* la valeur de :ref:`outline_size<class_PopupMenu_theme_constant_outline_size>` pour que le rendu du contour puisse être correct. Sinon, le contour peut sembler être coupé plus tôt que prévu.
 
 .. rst-class:: classref-item-separator
 

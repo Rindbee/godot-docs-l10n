@@ -85,11 +85,11 @@ Prueba la intersección con un rayo que comienza en ``begin`` y mira hacia ``dir
 
 Si se produce una intersección con un triángulo, devuelve un :ref:`Dictionary<class_Dictionary>` con los siguientes campos:
 
-\ ``position``: La posición en el triángulo intersectado.
+\ ``position``: La posición en el triángulo intersecado.
 
-\ ``normal``: La normal del triángulo intersectado.
+\ ``normal``: La normal del triángulo intersecado.
 
-\ ``face_index``: El índice del triángulo intersectado.
+\ ``face_index``: El índice del triángulo intersecado.
 
 Devuelve un :ref:`Dictionary<class_Dictionary>` vacío si no se produce ninguna intersección.
 
@@ -109,11 +109,11 @@ Prueba la intersección con un segmento que va desde ``begin`` hasta ``end``.
 
 Si se produce una intersección con un triángulo, devuelve un :ref:`Dictionary<class_Dictionary>` con los siguientes campos:
 
-\ ``position``: La posición en el triángulo intersectado.
+\ ``position``: La posición en el triángulo intersecado.
 
-\ ``normal``: La normal del triángulo intersectado.
+\ ``normal``: La normal del triángulo intersecado.
 
-\ ``face_index``: El índice del triángulo intersectado.
+\ ``face_index``: El índice del triángulo intersecado.
 
 Devuelve un :ref:`Dictionary<class_Dictionary>` vacío si no se produce ninguna intersección.
 

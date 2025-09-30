@@ -536,15 +536,15 @@ Modalità finestra massimizzata, ovvero la **Window** occuperà l'intera area de
 
 :ref:`Mode<enum_Window_Mode>` **MODE_FULLSCREEN** = ``3``
 
-Full screen mode with full multi-window support.
+Modalità a schermo intero con supporto multi-finestra completo.
 
-Full screen window covers the entire display area of a screen and has no decorations. The display's video mode is not changed.
+La finestra a schermo intero copre l'intera area di visualizzazione di uno schermo e non ha decorazioni. La modalità video del display non cambia.
 
-\ **On Android:** This enables immersive mode.
+\ **Su Android:** Questo abilita la modalità immersiva.
 
-\ **On macOS:** A new desktop is used to display the running project.
+\ **Su macOS:** È utilizzato un nuovo desktop per visualizzare il progetto in esecuzione.
 
-\ **Note:** Regardless of the platform, enabling full screen will change the window size to match the monitor's size. Therefore, make sure your project supports :doc:`multiple resolutions <../tutorials/rendering/multiple_resolutions>` when enabling full screen mode.
+\ **Nota:** A prescindere dalla piattaforma, abilitando lo schermo intero si modificheranno le dimensioni della finestra in modo che corrispondano alle dimensioni del monitor. Pertanto, assicurati che il tuo progetto supporti :doc:`diverse risoluzioni <../tutorials/rendering/multiple_resolutions>` quando abiliti la modalità a schermo intero.
 
 .. _class_Window_constant_MODE_EXCLUSIVE_FULLSCREEN:
 
@@ -552,23 +552,23 @@ Full screen window covers the entire display area of a screen and has no decorat
 
 :ref:`Mode<enum_Window_Mode>` **MODE_EXCLUSIVE_FULLSCREEN** = ``4``
 
-A single window full screen mode. This mode has less overhead, but only one window can be open on a given screen at a time (opening a child window or application switching will trigger a full screen transition).
+Modalità a schermo intero con una sola finestra. Questa modalità è più efficiente, ma può essere aperta solo una finestra alla volta su un determinato schermo (l'apertura di una finestra secondaria o il cambio dell'applicazione attiverà una transizione dallo schermo intero).
 
-Full screen window covers the entire display area of a screen and has no border or decorations. The display's video mode is not changed.
+La finestra a schermo intero copre l'intera area di visualizzazione di uno schermo e non ha bordi o decorazioni. La modalità video del display non cambia.
 
-\ **Note:** This mode might not work with screen recording software.
+\ **Nota:** Questa modalità potrebbe non funzionare con il software di registrazione dello schermo.
 
-\ **On Android:** This enables immersive mode.
+\ **Su Android:** Questo abilita la modalità immersiva.
 
-\ **On Windows:** Depending on video driver, full screen transition might cause screens to go black for a moment.
+\ **Su Windows:** A seconda del driver video, la transizione allo schermo intero potrebbe causare lo spegnimento momentaneo dello schermo.
 
-\ **On macOS:** A new desktop is used to display the running project. Exclusive full screen mode prevents Dock and Menu from showing up when the mouse pointer is hovering the edge of the screen.
+\ **Su macOS:** È utilizzato un nuovo desktop per visualizzare il progetto in esecuzione. La modalità a schermo intero esclusiva impedisce che Dock e Menu vengano visualizzati quando il puntatore del mouse passa sul bordo dello schermo.
 
-\ **On Linux (X11):** Exclusive full screen mode bypasses compositor.
+\ **Su Linux (X11):** La modalità a schermo intero esclusiva ignora il compositore.
 
-\ **On Linux (Wayland):** Equivalent to :ref:`MODE_FULLSCREEN<class_Window_constant_MODE_FULLSCREEN>`.
+\ **Su Linux (Wayland):** Equivalente a :ref:`MODE_FULLSCREEN<class_Window_constant_MODE_FULLSCREEN>`.
 
-\ **Note:** Regardless of the platform, enabling full screen will change the window size to match the monitor's size. Therefore, make sure your project supports :doc:`multiple resolutions <../tutorials/rendering/multiple_resolutions>` when enabling full screen mode.
+\ **Nota:** A prescindere dalla piattaforma, abilitando lo schermo intero si modificheranno le dimensioni della finestra in modo che corrispondano alle dimensioni del monitor. Pertanto, assicurati che il tuo progetto supporti :doc:`diverse risoluzioni <../tutorials/rendering/multiple_resolutions>` quando abiliti la modalità a schermo intero.
 
 .. rst-class:: classref-item-separator
 
@@ -672,13 +672,13 @@ Lo stile della finestra è sostituito, forzando angoli acuti.
 
 :ref:`Flags<enum_Window_Flags>` **FLAG_EXCLUDE_FROM_CAPTURE** = ``9``
 
-Windows is excluded from screenshots taken by :ref:`DisplayServer.screen_get_image()<class_DisplayServer_method_screen_get_image>`, :ref:`DisplayServer.screen_get_image_rect()<class_DisplayServer_method_screen_get_image_rect>`, and :ref:`DisplayServer.screen_get_pixel()<class_DisplayServer_method_screen_get_pixel>`.
+La finestra è esclusa dagli screenshot acquisiti da :ref:`DisplayServer.screen_get_image()<class_DisplayServer_method_screen_get_image>`, :ref:`DisplayServer.screen_get_image_rect()<class_DisplayServer_method_screen_get_image_rect>` e :ref:`DisplayServer.screen_get_pixel()<class_DisplayServer_method_screen_get_pixel>`.
 
-\ **Note:** This flag has no effect in embedded windows.
+\ **Nota:** Questo flag non ha effetto nelle finestre incorporate.
 
-\ **Note:** This flag is implemented on macOS and Windows (10, 20H1).
+\ **Nota:** Questo flag è implementato su macOS e Windows (10, 20H1).
 
-\ **Note:** Setting this flag will prevent standard screenshot methods from capturing a window image, but does **NOT** guarantee that other apps won't be able to capture an image. It should not be used as a DRM or security measure.
+\ **Nota:** L'impostazione di questo flag impedirà ai metodi standard di catturare un'immagine della finestra, ma **NON** garantisce che altre app non siano in grado di catturare un'immagine. Non si dovrebbe utilizzare come DRM o misura di sicurezza.
 
 .. _class_Window_constant_FLAG_POPUP_WM_HINT:
 
@@ -686,7 +686,7 @@ Windows is excluded from screenshots taken by :ref:`DisplayServer.screen_get_ima
 
 :ref:`Flags<enum_Window_Flags>` **FLAG_POPUP_WM_HINT** = ``10``
 
-Signals the window manager that this window is supposed to be an implementation-defined "popup" (usually a floating, borderless, untileable and immovable child window).
+Segnala al gestore delle finestre che questa finestra dovrebbe essere un "popup" definito dall'implementazione (solitamente una finestra figlia mobile, senza bordi, non ordinabile e non modificabile).
 
 .. _class_Window_constant_FLAG_MINIMIZE_DISABLED:
 
@@ -694,9 +694,9 @@ Signals the window manager that this window is supposed to be an implementation-
 
 :ref:`Flags<enum_Window_Flags>` **FLAG_MINIMIZE_DISABLED** = ``11``
 
-Window minimize button is disabled.
+Il pulsante di minimizzazione della finestra è disabilitato.
 
-\ **Note:** This flag is implemented on macOS and Windows.
+\ **Nota:** Questo metodo è implementato su macOS e Windows.
 
 .. _class_Window_constant_FLAG_MAXIMIZE_DISABLED:
 
@@ -704,9 +704,9 @@ Window minimize button is disabled.
 
 :ref:`Flags<enum_Window_Flags>` **FLAG_MAXIMIZE_DISABLED** = ``12``
 
-Window maximize button is disabled.
+Il pulsante di massimizzazione della finestra è disabilitato.
 
-\ **Note:** This flag is implemented on macOS and Windows.
+\ **Nota:** Questo metodo è implementato su macOS e Windows.
 
 .. _class_Window_constant_FLAG_MAX:
 
@@ -1005,7 +1005,7 @@ Descrizioni delle proprietà
 - |void| **set_accessibility_description**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_accessibility_description**\ (\ )
 
-The human-readable node description that is reported to assistive apps.
+La descrizione del nodo leggibile in chiaro che è riportata alle applicazioni assistive.
 
 .. rst-class:: classref-item-separator
 
@@ -1022,7 +1022,7 @@ The human-readable node description that is reported to assistive apps.
 - |void| **set_accessibility_name**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_accessibility_name**\ (\ )
 
-The human-readable node name that is reported to assistive apps.
+Il nome del nodo leggibile in chiaro che è riportato alle applicazioni assistive.
 
 .. rst-class:: classref-item-separator
 
@@ -1194,11 +1194,11 @@ Lo schermo su cui la finestra si trova attualmente.
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`\ ) |const|
 
-If ``true``, the **Window** is excluded from screenshots taken by :ref:`DisplayServer.screen_get_image()<class_DisplayServer_method_screen_get_image>`, :ref:`DisplayServer.screen_get_image_rect()<class_DisplayServer_method_screen_get_image_rect>`, and :ref:`DisplayServer.screen_get_pixel()<class_DisplayServer_method_screen_get_pixel>`.
+Se ``true``, il **Window** è escluso dagli screenshot catturati da method DisplayServer.screen_get_image], :ref:`DisplayServer.screen_get_image_rect()<class_DisplayServer_method_screen_get_image_rect>` e :ref:`DisplayServer.screen_get_pixel()<class_DisplayServer_method_screen_get_pixel>`.
 
-\ **Note:** This property is implemented on macOS and Windows.
+\ **Nota:** Questa proprietà è implementata su macOS e Windows.
 
-\ **Note:** Enabling this setting will prevent standard screenshot methods from capturing a window image, but does **NOT** guarantee that other apps won't be able to capture an image. It should not be used as a DRM or security measure.
+\ **Nota:** Abilitare questa impostazione impedirà ai metodi standard di catturare un'immagine della finestra, ma **NON** garantisce che altre app non siano in grado di catturare un'immagine. Non si dovrebbe utilizzare come DRM o misura di sicurezza.
 
 .. rst-class:: classref-item-separator
 
@@ -1325,11 +1325,11 @@ Se non zero, il **Window** non può essere ridimensionato per essere più grande
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`\ ) |const|
 
-If ``true``, the **Window**'s maximize button is disabled.
+Se ``true``, il pulsante di massimizzazione della **Window** è disabilitato.
 
-\ **Note:** If both minimize and maximize buttons are disabled, buttons are fully hidden, and only close button is visible.
+\ **Nota:** Se entrambi i pulsanti di massimizzazione e minimizzazione sono disabilitati, i pulsanti sono completamente nascosti e solo il pulsante di chiusura è visibile.
 
-\ **Note:** This property is implemented only on macOS and Windows.
+\ **Nota:** Questa proprietà è implementata solo su macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -1365,11 +1365,11 @@ Se non è zero, il **Window** non può essere ridimensionato per essere più pic
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`\ ) |const|
 
-If ``true``, the **Window**'s minimize button is disabled.
+Se ``true``, il pulsante di minimizzazione della **Window** è disabilitato.
 
-\ **Note:** If both minimize and maximize buttons are disabled, buttons are fully hidden, and only close button is visible.
+\ **Nota:** Se entrambi i pulsanti di massimizzazione e minimizzazione sono disabilitati, i pulsanti sono completamente nascosti e solo il pulsante di chiusura è visibile.
 
-\ **Note:** This property is implemented only on macOS and Windows.
+\ **Nota:** Questa proprietà è implementata solo su macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -1499,7 +1499,7 @@ Se ``true``, il **Window** sarà considerato un popup. I popup sono sottofinestr
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_Window_Flags>`\ ) |const|
 
-If ``true``, the **Window** will signal to the window manager that it is supposed to be an implementation-defined "popup" (usually a floating, borderless, untileable and immovable child window).
+Se ``true``, la **Window** segnalerà al gestore delle finestre che si tratta di un "popup" definito dall'implementazione (solitamente una finestra figlia fluttuante, senza bordi, non ordinabile e immobile).
 
 .. rst-class:: classref-item-separator
 
@@ -2770,7 +2770,7 @@ Il colore del contorno del testo del titolo.
 
 :ref:`int<class_int>` **close_h_offset** = ``18`` :ref:`🔗<class_Window_theme_constant_close_h_offset>`
 
-Horizontal position offset of the close button, relative to the end of the title bar, towards the beginning of the title bar.
+Scostamento orizzontale della posizione del pulsante di chiusura, rispetto alla fine della barra del titolo, verso l'inizio della barra del titolo.
 
 .. rst-class:: classref-item-separator
 
@@ -2782,7 +2782,7 @@ Horizontal position offset of the close button, relative to the end of the title
 
 :ref:`int<class_int>` **close_v_offset** = ``24`` :ref:`🔗<class_Window_theme_constant_close_v_offset>`
 
-Vertical position offset of the close button, relative to the bottom of the title bar, towards the top of the title bar.
+Scostamento verticale della posizione del pulsante di chiusura, rispetto alla parte inferiore della barra del titolo, verso la parte superiore della barra del titolo.
 
 .. rst-class:: classref-item-separator
 

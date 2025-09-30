@@ -228,7 +228,7 @@ Retrieve the number of interaction profiles in our action map.
 
 |void| **remove_action_set**\ (\ action_set\: :ref:`OpenXRActionSet<class_OpenXRActionSet>`\ ) :ref:`🔗<class_OpenXRActionMap_method_remove_action_set>`
 
-Remove an action set.
+Elimina un conjunto de acciones.
 
 .. rst-class:: classref-item-separator
 

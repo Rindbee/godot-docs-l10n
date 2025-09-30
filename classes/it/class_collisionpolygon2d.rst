@@ -89,7 +89,7 @@ Descrizioni delle proprietà
 - |void| **set_build_mode**\ (\ value\: :ref:`BuildMode<enum_CollisionPolygon2D_BuildMode>`\ )
 - :ref:`BuildMode<enum_CollisionPolygon2D_BuildMode>` **get_build_mode**\ (\ )
 
-Collision build mode.
+Modalità di costruzione delle collisioni.
 
 .. rst-class:: classref-item-separator
 
@@ -106,7 +106,7 @@ Collision build mode.
 - |void| **set_disabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_disabled**\ (\ )
 
-If ``true``, no collisions will be detected. This property should be changed with :ref:`Object.set_deferred()<class_Object_method_set_deferred>`.
+Se ``true``, nessuna collisione sarà rilevata. Questa proprietà dovrebbe essere modificata con :ref:`Object.set_deferred()<class_Object_method_set_deferred>`.
 
 .. rst-class:: classref-item-separator
 

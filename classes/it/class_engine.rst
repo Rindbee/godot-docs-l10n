@@ -277,13 +277,13 @@ Descrizioni dei metodi
 
 :ref:`Array<class_Array>`\[:ref:`ScriptBacktrace<class_ScriptBacktrace>`\] **capture_script_backtraces**\ (\ include_variables\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Engine_method_capture_script_backtraces>`
 
-Captures and returns backtraces from all registered script languages.
+Cattura e restituisce backtrace da tutti i linguaggi di script registrati.
 
-By default, the returned :ref:`ScriptBacktrace<class_ScriptBacktrace>` will only contain stack frames in editor builds and debug builds. To enable them for release builds as well, you need to enable :ref:`ProjectSettings.debug/settings/gdscript/always_track_call_stacks<class_ProjectSettings_property_debug/settings/gdscript/always_track_call_stacks>`.
+Come predefinito, il :ref:`ScriptBacktrace<class_ScriptBacktrace>` restituito conterrà gli stack frame solo nelle build dell'editor e nelle build di debug. Per abilitarli anche per le build di rilascio, è necessario abilitare :ref:`ProjectSettings.debug/settings/gdscript/always_track_call_stacks<class_ProjectSettings_property_debug/settings/gdscript/always_track_call_stacks>`.
 
-If ``include_variables`` is ``true``, the backtrace will also include the names and values of any global variables (e.g. autoload singletons) at the point of the capture, as well as local variables and class member variables at each stack frame. This will however will only be respected when running the game with a debugger attached, like when running the game from the editor. To enable it for export builds as well, you need to enable :ref:`ProjectSettings.debug/settings/gdscript/always_track_local_variables<class_ProjectSettings_property_debug/settings/gdscript/always_track_local_variables>`.
+Se ``include_variables`` è ``true``, il backtrace includerà anche i nomi e i valori di eventuali variabili globali (ad esempio, singleton autoload) al momento della cattura, nonché le variabili locali e le variabili membro delle classi in ogni stack frame. Questo, tuttavia, sarà rispettato solo quando si esegue il gioco con un debugger collegato, ad esempio quando si esegue il gioco dall'editor. Per abilitarlo anche per le build di esportazione, è necessario abilitare :ref:`ProjectSettings.debug/settings/gdscript/always_track_local_variables<class_ProjectSettings_property_debug/settings/gdscript/always_track_local_variables>`.
 
-\ **Warning:** When ``include_variables`` is ``true``, any captured variables can potentially (e.g. with GDScript backtraces) be their actual values, including any object references. This means that storing such a :ref:`ScriptBacktrace<class_ScriptBacktrace>` will prevent those objects from being deallocated, so it's generally recommended not to do so.
+\ **Attenzione:** Quando ``include_variables`` è ``true``, qualsiasi variabile catturata può potenzialmente (ad esempio con i backtrace GDScript) essere il suo valore effettivo, inclusi eventuali riferimenti agli oggetti. Ciò significa che memorizzare tale :ref:`ScriptBacktrace<class_ScriptBacktrace>` impedirà di deallocare tali oggetti, quindi in genere si consiglia di non farlo.
 
 .. rst-class:: classref-item-separator
 

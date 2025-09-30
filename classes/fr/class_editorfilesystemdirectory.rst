@@ -81,7 +81,7 @@ Returns the index of the directory with name ``name`` or ``-1`` if not found.
 
 :ref:`int<class_int>` **find_file_index**\ (\ name\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_EditorFileSystemDirectory_method_find_file_index>`
 
-Returns the index of the file with name ``name`` or ``-1`` if not found.
+Renvoie l'index du fichier nommé ``name`` ou ``-1`` s'il n'est pas trouvé.
 
 .. rst-class:: classref-item-separator
 
@@ -93,7 +93,7 @@ Returns the index of the file with name ``name`` or ``-1`` if not found.
 
 :ref:`String<class_String>` **get_file**\ (\ idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_EditorFileSystemDirectory_method_get_file>`
 
-Returns the name of the file at index ``idx``.
+Renvoie le nom du fichier à l'index ``idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -117,7 +117,7 @@ Renvoie le nombre de fichiers dans ce dossier.
 
 :ref:`bool<class_bool>` **get_file_import_is_valid**\ (\ idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_EditorFileSystemDirectory_method_get_file_import_is_valid>`
 
-Returns ``true`` if the file at index ``idx`` imported properly.
+Renvoie ``true`` si le fichier à l'index ``idx`` à été importé correctement.
 
 .. rst-class:: classref-item-separator
 
@@ -129,7 +129,7 @@ Returns ``true`` if the file at index ``idx`` imported properly.
 
 :ref:`String<class_String>` **get_file_path**\ (\ idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_EditorFileSystemDirectory_method_get_file_path>`
 
-Returns the path to the file at index ``idx``.
+Renvoie le chemin du fichier à l'index ``idx``.
 
 .. rst-class:: classref-item-separator
 

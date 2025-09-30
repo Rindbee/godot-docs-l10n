@@ -124,7 +124,7 @@ enum **CacheMode**: :ref:`🔗<enum_ResourceFormatLoader_CacheMode>`
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 
@@ -138,7 +138,7 @@ enum **CacheMode**: :ref:`🔗<enum_ResourceFormatLoader_CacheMode>`
 
 .. container:: contribute
 
-	该方法目前没有描述，请帮我们\ `贡献一个 <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__\ 吧！
+	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
 
 .. rst-class:: classref-item-separator
 

@@ -14,7 +14,7 @@ Una :ref:`StyleBox<class_StyleBox>` vacía (no muestra nada).
 Descripción
 ----------------------
 
-An empty :ref:`StyleBox<class_StyleBox>` that can be used to display nothing instead of the default style (e.g. it can "disable" ``focus`` styles).
+Un :ref:`StyleBox<class_StyleBox>` vacío que puede ser usado para no mostrar nada en lugar del estilo por defecto (p.ej. puede "deshabilitar" estilos de ``focus``).
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

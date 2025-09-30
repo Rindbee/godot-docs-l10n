@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/WorldEnvironment.xml.
+.. meta::
+	:keywords: background, sky
 
 .. _class_WorldEnvironment:
 
@@ -17,7 +17,7 @@ Proprietà d'ambiente predefinite per l'intera scena (effetti di post-elaborazio
 Descrizione
 ----------------------
 
-Il nodo **WorldEnvironment** viene utilizzato per configurare l':ref:`Environment<class_Environment>` predefinito per la scena.
+Il nodo **WorldEnvironment** serve per configurare l':ref:`Environment<class_Environment>` predefinito per la scena.
 
 I parametri definiti nel **WorldEnvironment** possono essere sovrascritti da un nodo :ref:`Environment<class_Environment>` impostato sulla :ref:`Camera3D<class_Camera3D>` attuale. Inoltre, solo uno **WorldEnvironment** può essere istanziato alla volta in una qualunque scena.
 

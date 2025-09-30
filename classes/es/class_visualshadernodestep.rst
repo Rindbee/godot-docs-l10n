@@ -14,7 +14,7 @@ Calcula una función Step dentro del gráfico de shader visual.
 Descripción
 ----------------------
 
-Se traduce a ``step(edge, x)`` en el lenguaje de shader.
+Se traduce a ``step(edge, x)`` en el lenguaje de shaders.
 
 Devuelve ``0.0`` si ``x`` es más pequeño que ``edge`` y ``1.0`` en caso contrario.
 

@@ -12,11 +12,11 @@ Un array compatto di byte.
 Descrizione
 ----------------------
 
-An array specifically designed to hold bytes. Packs data tightly, so it saves memory for large array sizes.
+Un array specificamente progettato per contenere byte. Impacchetta i dati in modo compatto, in modo da risparmiare memoria per array di grandi dimensioni.
 
-\ **PackedByteArray** also provides methods to encode/decode various types to/from bytes. The way values are encoded is an implementation detail and shouldn't be relied upon when interacting with external apps.
+\ **PackedByteArray** fornisce anche metodi per codificare/decodificare vari tipi da/a byte. Il modo in cui i valori sono codificati è un dettaglio di implementazione e non ci si dovrebbe dipendere quando si interagisce con applicazioni esterne.
 
-\ **Note:** Packed arrays are always passed by reference. To get a copy of an array that can be modified independently of the original array, use :ref:`duplicate()<class_PackedByteArray_method_duplicate>`. This is *not* the case for built-in properties and methods. In these cases the returned packed array is a copy, and changing it will *not* affect the original value. To update a built-in property of this type, modify the returned array and then assign it to the property again.
+\ **Nota:** Gli array impacchettati sono sempre passati per riferimento. Per ottenere una copia di un array che può essere modificata indipendentemente dall'array originale, usa :ref:`duplicate()<class_PackedByteArray_method_duplicate>`. Questo *non* è il caso per le proprietà e per i metodi integrati. L'array impacchettato restituito da essi è una copia e modificarlo *non* influenzerà il valore originale. Per aggiornare una proprietà integrata è necessario modificare l'array restituito e successivamente riassegnarlo alla proprietà.
 
 .. note::
 
@@ -294,7 +294,7 @@ Trova l'indice di un valore esistente (o l'indice di inserimento che mantiene l'
 
 |void| **bswap16**\ (\ offset\: :ref:`int<class_int>` = 0, count\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_PackedByteArray_method_bswap16>`
 
-Swaps the byte order of ``count`` 16-bit segments of the array starting at ``offset``. Swap is done in-place. If ``count`` is less than zero, all segments to the end of array are processed, if processed data size is not a multiple of 2, the byte after the last processed 16-bit segment is not modified.
+Scambia l'ordine dei byte di ``count`` segmenti a 16 bit nell'array a partire da ``offset``. Lo scambio viene eseguito sul posto. Se ``count`` è minore di zero, vengono elaborati tutti i segmenti fino alla fine dell'array; se la dimensione dei dati elaborati non è un multiplo di 2, il byte successivo all'ultimo segmento a 16 bit elaborato non viene modificato.
 
 .. rst-class:: classref-item-separator
 
@@ -306,7 +306,7 @@ Swaps the byte order of ``count`` 16-bit segments of the array starting at ``off
 
 |void| **bswap32**\ (\ offset\: :ref:`int<class_int>` = 0, count\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_PackedByteArray_method_bswap32>`
 
-Swaps the byte order of ``count`` 32-bit segments of the array starting at ``offset``. Swap is done in-place. If ``count`` is less than zero, all segments to the end of array are processed, if processed data size is not a multiple of 4, bytes after the last processed 32-bit segment are not modified.
+Scambia l'ordine dei byte di ``count`` segmenti a 32 bit nell'array a partire da ``offset``. Lo scambio viene eseguito sul posto. Se ``count`` è minore di zero, vengono elaborati tutti i segmenti fino alla fine dell'array; se la dimensione dei dati elaborati non è un multiplo di 4, il byte successivo all'ultimo segmento a 32 bit elaborato non viene modificato.
 
 .. rst-class:: classref-item-separator
 
@@ -318,7 +318,7 @@ Swaps the byte order of ``count`` 32-bit segments of the array starting at ``off
 
 |void| **bswap64**\ (\ offset\: :ref:`int<class_int>` = 0, count\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_PackedByteArray_method_bswap64>`
 
-Swaps the byte order of ``count`` 64-bit segments of the array starting at ``offset``. Swap is done in-place. If ``count`` is less than zero, all segments to the end of array are processed, if processed data size is not a multiple of 8, bytes after the last processed 64-bit segment are not modified.
+Scambia l'ordine dei byte di ``count`` segmenti a 64 bit nell'array a partire da ``offset``. Lo scambio viene eseguito sul posto. Se ``count`` è minore di zero, vengono elaborati tutti i segmenti fino alla fine dell'array; se la dimensione dei dati elaborati non è un multiplo di 8, il byte successivo all'ultimo segmento a 64 bit elaborato non viene modificato.
 
 .. rst-class:: classref-item-separator
 
@@ -710,7 +710,7 @@ Codifica una :ref:`Variant<class_Variant>` all'indice di ``byte_offset`` byte. D
 
 :ref:`bool<class_bool>` **erase**\ (\ value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PackedByteArray_method_erase>`
 
-Removes the first occurrence of a value from the array and returns ``true``. If the value does not exist in the array, nothing happens and ``false`` is returned. To remove an element by index, use :ref:`remove_at()<class_PackedByteArray_method_remove_at>` instead.
+Rimuove la prima occorrenza di un valore dall'array e restituisce ``true``. Se il valore non esiste nell'array, nulla accade e viene restituito ``false``. Per rimuovere un elemento in base all'indice, utilizzare invece :ref:`remove_at()<class_PackedByteArray_method_remove_at>`.
 
 .. rst-class:: classref-item-separator
 
@@ -746,9 +746,9 @@ Cerca un valore nell'array e restituisce il suo indice o ``-1`` se non trovato. 
 
 :ref:`int<class_int>` **get**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedByteArray_method_get>`
 
-Returns the byte at the given ``index`` in the array. If ``index`` out-of-bounds or negative, this method fails and returns ``0``.
+Restituisce il byte all'indice ``index`` nell'array. Se ``index`` è fuori limite o negativo, questo metodo fallisce e restituisce ``0``.
 
-This method is similar (but not identical) to the ``[]`` operator. Most notably, when this method fails, it doesn't pause project execution if run from the editor.
+Questo metodo è simile (ma non identico) all'operatore ``[]``. In particolare, quando questo metodo fallisce, non interrompe l'esecuzione del progetto se eseguito dall'editor.
 
 .. rst-class:: classref-item-separator
 
@@ -772,13 +772,13 @@ Converte un array codificato con ASCII/Latin-1 in :ref:`String<class_String>`. A
 
 :ref:`String<class_String>` **get_string_from_multibyte_char**\ (\ encoding\: :ref:`String<class_String>` = ""\ ) |const| :ref:`🔗<class_PackedByteArray_method_get_string_from_multibyte_char>`
 
-Converts system multibyte code page encoded array to :ref:`String<class_String>`. If conversion fails, empty string is returned. This is the inverse of :ref:`String.to_multibyte_char_buffer()<class_String_method_to_multibyte_char_buffer>`.
+Converte un array codificato con code page multibyte di sistema in :ref:`String<class_String>`. Se la conversione fallisce, viene restituita una stringa vuota. Questo è l'inverso di :ref:`String.to_multibyte_char_buffer()<class_String_method_to_multibyte_char_buffer>`.
 
-The values permitted for ``encoding`` are system dependent. If ``encoding`` is empty string, system default encoding is used.
+I valori consentiti per ``encoding`` dipendono dal sistema. Se ``encoding`` è una stringa vuota, viene utilizzata la codifica predefinita del sistema.
 
-- For Windows, see `Code Page Identifiers <https://learn.microsoft.com/en-us/windows/win32/Intl/code-page-identifiers>`__ .NET names.
+- Per Windows, consultare i nomi .NET per i `Code Page Identifiers <https://learn.microsoft.com/en-us/windows/win32/Intl/code-page-identifiers>`__.
 
-- For macOS and Linux/BSD, see ``libiconv`` library documentation and ``iconv --list`` for a list of supported encodings.
+- Per macOS e Linux/BSD, consultare la documentazione della libreria ``libiconv`` e ``iconv --list`` per un elenco delle codifiche supportate.
 
 .. rst-class:: classref-item-separator
 
@@ -802,7 +802,7 @@ Converte un array codificato con UTF-8 in :ref:`String<class_String>`. Più lent
 
 :ref:`String<class_String>` **get_string_from_utf16**\ (\ ) |const| :ref:`🔗<class_PackedByteArray_method_get_string_from_utf16>`
 
-Converts UTF-16 encoded array to :ref:`String<class_String>`. If the BOM is missing, little-endianness is assumed. Returns empty string if source array is not valid UTF-16 string. This is the inverse of :ref:`String.to_utf16_buffer()<class_String_method_to_utf16_buffer>`.
+Converte un array codificato in UTF-16 in :ref:`String<class_String>`. Se il BOM manca, si presume l'ordine dei byte "little" . Restituisce una stringa vuota se l'array sorgente non è una stringa UTF-16 valida. Questo è l'inverso di :ref:`String.to_utf16_buffer()<class_String_method_to_utf16_buffer>`.
 
 .. rst-class:: classref-item-separator
 
@@ -814,7 +814,7 @@ Converts UTF-16 encoded array to :ref:`String<class_String>`. If the BOM is miss
 
 :ref:`String<class_String>` **get_string_from_utf32**\ (\ ) |const| :ref:`🔗<class_PackedByteArray_method_get_string_from_utf32>`
 
-Converts UTF-32 encoded array to :ref:`String<class_String>`. Returns empty string if source array is not valid UTF-32 string. This is the inverse of :ref:`String.to_utf32_buffer()<class_String_method_to_utf32_buffer>`.
+Converte un array codificato con UTF-32 in :ref:`String<class_String>`. Restituisce una stringa vuota se l'array sorgente non è una stringa UTF-32 valida. Questo è l'inverso di :ref:`String.to_utf32_buffer()<class_String_method_to_utf32_buffer>`.
 
 .. rst-class:: classref-item-separator
 
@@ -937,9 +937,9 @@ Rimuove un elemento dall'array in base all'indice.
 
 :ref:`int<class_int>` **resize**\ (\ new_size\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PackedByteArray_method_resize>`
 
-Sets the size of the array. If the array is grown, reserves elements at the end of the array. If the array is shrunk, truncates the array to the new size. Calling :ref:`resize()<class_PackedByteArray_method_resize>` once and assigning the new values is faster than adding new elements one by one.
+Imposta la dimensione dell'array. Se l'array viene ingrandito, riserva gli elementi alla fine dell'array. Se l'array viene rimpicciolito, tronca l'array alla nuova dimensione. Chiamare :ref:`resize()<class_PackedByteArray_method_resize>` una sola volta e assegnare i nuovi valori è più veloce che aggiungere nuovi elementi uno alla volta.
 
-Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, or one of the following :ref:`Error<enum_@GlobalScope_Error>` constants if this method fails: :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` if the size is negative, or :ref:`@GlobalScope.ERR_OUT_OF_MEMORY<class_@GlobalScope_constant_ERR_OUT_OF_MEMORY>` if allocations fail. Use :ref:`size()<class_PackedByteArray_method_size>` to find the actual size of the array after resize.
+Restituisce :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` in caso di successo, oppure una delle seguenti costanti di :ref:`Error<enum_@GlobalScope_Error>` se questo metodo fallisce: :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` se la dimensione è negativa, oppure :ref:`@GlobalScope.ERR_OUT_OF_MEMORY<class_@GlobalScope_constant_ERR_OUT_OF_MEMORY>` se le allocazioni falliscono. Usare :ref:`size()<class_PackedByteArray_method_size>` per trovare la dimensione effettiva dell'array dopo il ridimensionamento.
 
 .. rst-class:: classref-item-separator
 
@@ -1027,9 +1027,9 @@ Ordina gli elementi dell'array in ordine crescente.
 
 :ref:`PackedColorArray<class_PackedColorArray>` **to_color_array**\ (\ ) |const| :ref:`🔗<class_PackedByteArray_method_to_color_array>`
 
-Returns a copy of the data converted to a :ref:`PackedColorArray<class_PackedColorArray>`, where each block of 16 bytes has been converted to a :ref:`Color<class_Color>` variant.
+Restituisce una copia dei dati convertiti in un :ref:`PackedColorArray<class_PackedColorArray>`, dove ogni blocco di 16 byte è stato convertito in un variante di tipo :ref:`Color<class_Color>`\ 
 
-\ **Note:** The size of the input array must be a multiple of 16 (size of four 32-bit float variables). The size of the new array will be ``byte_array.size() / 16``. If the original data can't be converted to :ref:`Color<class_Color>` variants, the resulting data is undefined.
+\ **Nota:** La dimensione dell'array in input deve essere un multiplo di 16 (dimensione di quattro float a 32 bit). La dimensione del nuovo array sarà ``byte_array.size() / 16``. Se non è possibile convertire i dati originali in varianti :ref:`Color<class_Color>`, i dati risultanti sono indefiniti.
 
 .. rst-class:: classref-item-separator
 
@@ -1045,7 +1045,7 @@ Restituisce una copia dei dati convertiti in un :ref:`PackedFloat32Array<class_P
 
 La dimensione dell'array in input deve essere un multiplo di 4 (dimensione di float a 32 bit). La dimensione del nuovo array sarà ``byte_array.size() / 4``.
 
-Se i dati originali non possono essere convertiti in float a 32 bit, i dati risultanti sono indefiniti.
+Se non è possibile convertire i dati originali convertiti in float a 32 bit, i dati risultanti sono indefiniti.
 
 .. rst-class:: classref-item-separator
 
@@ -1061,7 +1061,7 @@ Restituisce una copia dei dati convertiti in un :ref:`PackedFloat32Array<class_P
 
 La dimensione dell'array in input deve essere un multiplo di 8 (dimensione di double a 64 bit). La dimensione del nuovo array sarà ``byte_array.size() / 8``.
 
-Se i dati originali non possono essere convertiti in float a 64 bit, i dati risultanti sono indefiniti.
+Se non è possibile convertire i dati originali in float a 64 bit, i dati risultanti sono indefiniti.
 
 .. rst-class:: classref-item-separator
 
@@ -1077,7 +1077,7 @@ Restituisce una copia dei dati convertiti in un :ref:`PackedInt32Array<class_Pac
 
 La dimensione dell'array in input deve essere un multiplo di 4 (dimensione di intero a 32 bit). La dimensione del nuovo array sarà ``byte_array.size() / 4``.
 
-Se i dati originali non possono essere convertiti in interi con segno a 32 bit, i dati risultanti sono indefiniti.
+Se non è possibile convertire i dati originali in interi con segno a 32 bit, i dati risultanti sono indefiniti.
 
 .. rst-class:: classref-item-separator
 
@@ -1093,7 +1093,7 @@ Restituisce una copia dei dati convertiti in un :ref:`PackedInt32Array<class_Pac
 
 La dimensione dell'array in input deve essere un multiplo di 8 (dimensione di intero a 64 bit). La dimensione del nuovo array sarà ``byte_array.size() / 8``.
 
-Se i dati originali non possono essere convertiti in interi con segno a 64 bit, i dati risultanti sono indefiniti.
+Se non è possibile convertire i dati originali in interi con segno a 64 bit, i dati risultanti sono indefiniti.
 
 .. rst-class:: classref-item-separator
 
@@ -1105,9 +1105,9 @@ Se i dati originali non possono essere convertiti in interi con segno a 64 bit, 
 
 :ref:`PackedVector2Array<class_PackedVector2Array>` **to_vector2_array**\ (\ ) |const| :ref:`🔗<class_PackedByteArray_method_to_vector2_array>`
 
-Returns a copy of the data converted to a :ref:`PackedVector2Array<class_PackedVector2Array>`, where each block of 8 bytes or 16 bytes (32-bit or 64-bit) has been converted to a :ref:`Vector2<class_Vector2>` variant.
+Restituisce una copia dei dati convertiti in un :ref:`PackedVector2Array<class_PackedVector2Array>`, dove ogni blocco di 8 o 16 byte (32 bit o 64 bit) è stato convertito in un variante di tipo :ref:`Vector2<class_Vector2>`\ 
 
-\ **Note:** The size of the input array must be a multiple of 8 or 16 (depending on the build settings, see :ref:`Vector2<class_Vector2>` for more details). The size of the new array will be ``byte_array.size() / (8 or 16)``. If the original data can't be converted to :ref:`Vector2<class_Vector2>` variants, the resulting data is undefined.
+\ **Nota:** La dimensione dell'array in input deve essere un multiplo di 8 o 16 (a seconda della configurazione della build, vedi :ref:`Vector2<class_Vector2>` per più dettagli). La dimensione del nuovo array sarà ``byte_array.size() / (8 o 16)``. Se non è possibile convertire i dati originali in varianti :ref:`Vector2<class_Vector2>`, i dati risultanti sono indefiniti.
 
 .. rst-class:: classref-item-separator
 
@@ -1119,9 +1119,9 @@ Returns a copy of the data converted to a :ref:`PackedVector2Array<class_PackedV
 
 :ref:`PackedVector3Array<class_PackedVector3Array>` **to_vector3_array**\ (\ ) |const| :ref:`🔗<class_PackedByteArray_method_to_vector3_array>`
 
-Returns a copy of the data converted to a :ref:`PackedVector3Array<class_PackedVector3Array>`, where each block of 12 or 24 bytes (32-bit or 64-bit) has been converted to a :ref:`Vector3<class_Vector3>` variant.
+Restituisce una copia dei dati convertiti in un :ref:`PackedVector3Array<class_PackedVector3Array>`, dove ogni blocco di 12 o 24 byte (32 bit o 64 bit) è stato convertito in un variante di tipo :ref:`Vector3<class_Vector3>`\ 
 
-\ **Note:** The size of the input array must be a multiple of 12 or 24 (depending on the build settings, see :ref:`Vector3<class_Vector3>` for more details). The size of the new array will be ``byte_array.size() / (12 or 24)``. If the original data can't be converted to :ref:`Vector3<class_Vector3>` variants, the resulting data is undefined.
+\ **Nota:** La dimensione dell'array in input deve essere un multiplo di 12 o 24 (a seconda della configurazione della build, vedi :ref:`Vector3<class_Vector3>` per più dettagli). La dimensione del nuovo array sarà ``byte_array.size() / (12 o 24)``. Se non è possibile convertire i dati originali in varianti :ref:`Vector3<class_Vector3>`, i dati risultanti sono indefiniti.
 
 .. rst-class:: classref-item-separator
 
@@ -1133,9 +1133,9 @@ Returns a copy of the data converted to a :ref:`PackedVector3Array<class_PackedV
 
 :ref:`PackedVector4Array<class_PackedVector4Array>` **to_vector4_array**\ (\ ) |const| :ref:`🔗<class_PackedByteArray_method_to_vector4_array>`
 
-Returns a copy of the data converted to a :ref:`PackedVector4Array<class_PackedVector4Array>`, where each block of 16 or 32 bytes (32-bit or 64-bit) has been converted to a :ref:`Vector4<class_Vector4>` variant.
+Restituisce una copia dei dati convertiti in un :ref:`PackedVector4Array<class_PackedVector4Array>`, dove ogni blocco di 16 o 32 byte (32 bit o 64 bit) è stato convertito in un variante di tipo :ref:`Vector4<class_Vector4>`\ 
 
-\ **Note:** The size of the input array must be a multiple of 16 or 32 (depending on the build settings, see :ref:`Vector4<class_Vector4>` for more details). The size of the new array will be ``byte_array.size() / (16 or 32)``. If the original data can't be converted to :ref:`Vector4<class_Vector4>` variants, the resulting data is undefined.
+\ **Nota:** La dimensione dell'array in input deve essere un multiplo di 16 o 32 (a seconda della configurazione della build, vedi :ref:`Vector4<class_Vector4>` per più dettagli). La dimensione del nuovo array sarà ``byte_array.size() / (16 o 32)``. Se non è possibile convertire i dati originali in varianti :ref:`Vector4<class_Vector4>`, i dati risultanti sono indefiniti.
 
 .. rst-class:: classref-section-separator
 

@@ -396,7 +396,7 @@ Restituisce un :ref:`PackedStringArray<class_PackedStringArray>` di funzionalit�
 
 :ref:`bool<class_bool>` **_get_export_option_visibility**\ (\ platform\: :ref:`EditorExportPlatform<class_EditorExportPlatform>`, option\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlugin_private_method__get_export_option_visibility>`
 
-Validates ``option`` and returns the visibility for the specified ``platform``. The default implementation returns ``true`` for all options.
+Convalida l'opzione ``option`` e restituisce la visibilità per la piattaforma ``platform``. L'implementazione predefinita restituisce ``true`` per tutte le opzioni.
 
 .. rst-class:: classref-item-separator
 
@@ -486,7 +486,7 @@ L'implementazione di questo metodo è obbligatoria.
 
 :ref:`bool<class_bool>` **_should_update_export_options**\ (\ platform\: :ref:`EditorExportPlatform<class_EditorExportPlatform>`\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlugin_private_method__should_update_export_options>`
 
-Return ``true`` if the result of :ref:`_get_export_options()<class_EditorExportPlugin_private_method__get_export_options>` has changed and the export options of the preset corresponding to ``platform`` should be updated.
+Restituisce ``true``, se il risultato di :ref:`_get_export_options()<class_EditorExportPlugin_private_method__get_export_options>` è cambiato ed è necessario aggiornare le opzioni di esportazione della preimpostazione corrispondente alla piattaforma ``platform``.
 
 .. rst-class:: classref-item-separator
 
@@ -510,11 +510,11 @@ Restituisce ``true`` se l'estensione supporta la piattaforma ``platform``.
 
 :ref:`PackedByteArray<class_PackedByteArray>` **_update_android_prebuilt_manifest**\ (\ platform\: :ref:`EditorExportPlatform<class_EditorExportPlatform>`, manifest_data\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlugin_private_method__update_android_prebuilt_manifest>`
 
-Provide access to the Android prebuilt manifest and allows the plugin to modify it if needed.
+Fornire l'accesso al manifest predefinito di Android e consentire al plugin di modificarlo se necessario.
 
-Implementers of this virtual method should take the binary manifest data from ``manifest_data``, copy it, modify it, and then return it with the modifications.
+Gli implementatori di questo metodo virtuale devono prendere i dati dell'eseguibile manifest da ``manifest_data``, copiarli, modificarli e quindi restituirli con le modifiche.
 
-If no modifications are needed, then an empty :ref:`PackedByteArray<class_PackedByteArray>` should be returned.
+Se non sono necessarie modifiche, deve essere restituito un :ref:`PackedByteArray<class_PackedByteArray>` vuoto.
 
 .. rst-class:: classref-item-separator
 
@@ -526,7 +526,7 @@ If no modifications are needed, then an empty :ref:`PackedByteArray<class_Packed
 
 |void| **add_apple_embedded_platform_bundle_file**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorExportPlugin_method_add_apple_embedded_platform_bundle_file>`
 
-Adds an Apple embedded platform bundle file from the given ``path`` to the exported project.
+Aggiunge un file pacchetto di Apple embedded platform dal percorso ``path`` al progetto esportato.
 
 .. rst-class:: classref-item-separator
 
@@ -538,7 +538,7 @@ Adds an Apple embedded platform bundle file from the given ``path`` to the expor
 
 |void| **add_apple_embedded_platform_cpp_code**\ (\ code\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorExportPlugin_method_add_apple_embedded_platform_cpp_code>`
 
-Adds C++ code to the Apple embedded platform export. The final code is created from the code appended by each active export plugin.
+Aggiunge codice C++ all'esportazione di Apple embedded platform. Il codice finale viene creato dal codice aggiunto da ogni estensione attiva di esportazione.
 
 .. rst-class:: classref-item-separator
 
@@ -550,11 +550,11 @@ Adds C++ code to the Apple embedded platform export. The final code is created f
 
 |void| **add_apple_embedded_platform_embedded_framework**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorExportPlugin_method_add_apple_embedded_platform_embedded_framework>`
 
-Adds a dynamic library (\*.dylib, \*.framework) to the Linking Phase in the Apple embedded platform's Xcode project and embeds it into the resulting binary.
+Aggiunge una libreria dinamica (\*.dylib, \*.framework) al Linking Phase nel progetto Xcode di Apple embedded platform e la incorpora nel binario risultante.
 
-\ **Note:** For static libraries (\*.a), this works in the same way as :ref:`add_apple_embedded_platform_framework()<class_EditorExportPlugin_method_add_apple_embedded_platform_framework>`.
+\ **Nota:** Per le librerie statiche (\*.a) funziona allo stesso modo di :ref:`add_apple_embedded_platform_framework()<class_EditorExportPlugin_method_add_apple_embedded_platform_framework>`.
 
-\ **Note:** This method should not be used for System libraries as they are already present on the device.
+\ **Nota:** Questo metodo non si dovrebbe utilizzare per le librerie di sistema poiché sono già presenti sul dispositivo.
 
 .. rst-class:: classref-item-separator
 
@@ -566,7 +566,7 @@ Adds a dynamic library (\*.dylib, \*.framework) to the Linking Phase in the Appl
 
 |void| **add_apple_embedded_platform_framework**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorExportPlugin_method_add_apple_embedded_platform_framework>`
 
-Adds a static library (\*.a) or a dynamic library (\*.dylib, \*.framework) to the Linking Phase to the Apple embedded platform's Xcode project.
+Aggiunge una libreria statica (\*.a) o dinamica (\*.dylib, \*.framework) al Linking Phase nel progetto Xcode di Apple embedded platform.
 
 .. rst-class:: classref-item-separator
 
@@ -578,7 +578,7 @@ Adds a static library (\*.a) or a dynamic library (\*.dylib, \*.framework) to th
 
 |void| **add_apple_embedded_platform_linker_flags**\ (\ flags\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorExportPlugin_method_add_apple_embedded_platform_linker_flags>`
 
-Adds linker flags for the Apple embedded platform export.
+Aggiunge flag al linker per l'esportazione di Apple embedded platform.
 
 .. rst-class:: classref-item-separator
 
@@ -590,7 +590,7 @@ Adds linker flags for the Apple embedded platform export.
 
 |void| **add_apple_embedded_platform_plist_content**\ (\ plist_content\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorExportPlugin_method_add_apple_embedded_platform_plist_content>`
 
-Adds additional fields to the Apple embedded platform's project Info.plist file.
+Aggiunge campi aggiuntivi al file Info.plist del progetto per Apple embedded platform.
 
 .. rst-class:: classref-item-separator
 
@@ -602,7 +602,7 @@ Adds additional fields to the Apple embedded platform's project Info.plist file.
 
 |void| **add_apple_embedded_platform_project_static_lib**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorExportPlugin_method_add_apple_embedded_platform_project_static_lib>`
 
-Adds a static library from the given ``path`` to the Apple embedded platform project.
+Aggiunge una libreria statica dal percorso ``path`` al progetto di Apple embedded platform.
 
 .. rst-class:: classref-item-separator
 
@@ -646,7 +646,7 @@ Aggiunge un file bundle iOS dal percorso ``path`` al progetto esportato.
 
 **Deprecato:** Use :ref:`add_apple_embedded_platform_cpp_code()<class_EditorExportPlugin_method_add_apple_embedded_platform_cpp_code>` instead.
 
-Adds C++ code to the iOS export. The final code is created from the code appended by each active export plugin.
+Aggiunge codice C++ all'esportazione iOS. Il codice finale viene creato dal codice aggiunto da ogni estensione attiva di esportazione.
 
 .. rst-class:: classref-item-separator
 
@@ -660,11 +660,11 @@ Adds C++ code to the iOS export. The final code is created from the code appende
 
 **Deprecato:** Use :ref:`add_apple_embedded_platform_embedded_framework()<class_EditorExportPlugin_method_add_apple_embedded_platform_embedded_framework>` instead.
 
-Adds a dynamic library (\*.dylib, \*.framework) to Linking Phase in iOS's Xcode project and embeds it into resulting binary.
+Aggiunge una libreria dinamica (\*.dylib, \*.framework) al Linking Phase nel progetto Xcode di iOS e la incorpora nel binario risultante.
 
-\ **Note:** For static libraries (\*.a), this works the in same way as :ref:`add_apple_embedded_platform_framework()<class_EditorExportPlugin_method_add_apple_embedded_platform_framework>`.
+\ **Nota:** Per le librerie statiche (\*.a) funziona allo stesso modo di :ref:`add_apple_embedded_platform_framework()<class_EditorExportPlugin_method_add_apple_embedded_platform_framework>`.
 
-\ **Note:** This method should not be used for System libraries as they are already present on the device.
+\ **Nota:** Questo metodo non si dovrebbe utilizzare per le librerie di sistema poiché sono già presenti sul dispositivo.
 
 .. rst-class:: classref-item-separator
 
@@ -678,7 +678,7 @@ Adds a dynamic library (\*.dylib, \*.framework) to Linking Phase in iOS's Xcode 
 
 **Deprecato:** Use :ref:`add_apple_embedded_platform_framework()<class_EditorExportPlugin_method_add_apple_embedded_platform_framework>` instead.
 
-Adds a static library (\*.a) or a dynamic library (\*.dylib, \*.framework) to the Linking Phase to the iOS Xcode project.
+Aggiunge una libreria statica (\*.a) o dinamica (\*.dylib, \*.framework) al Linking Phase nel progetto Xcode di iOS.
 
 .. rst-class:: classref-item-separator
 
@@ -706,7 +706,7 @@ Aggiunge flag al linker per l'esportazione iOS.
 
 **Deprecato:** Use :ref:`add_apple_embedded_platform_plist_content()<class_EditorExportPlugin_method_add_apple_embedded_platform_plist_content>` instead.
 
-Adds additional fields to the iOS project Info.plist file.
+Aggiunge campi aggiuntivi al file Info.plist del progetto per iOS.
 
 .. rst-class:: classref-item-separator
 
@@ -720,7 +720,7 @@ Adds additional fields to the iOS project Info.plist file.
 
 **Deprecato:** Use :ref:`add_apple_embedded_platform_project_static_lib()<class_EditorExportPlugin_method_add_apple_embedded_platform_project_static_lib>` instead.
 
-Adds a static library from the given ``path`` to the iOS project.
+Aggiunge una libreria statica dal percorso ``path`` al progetto iOS.
 
 .. rst-class:: classref-item-separator
 

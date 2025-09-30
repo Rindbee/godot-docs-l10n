@@ -25,7 +25,7 @@ Classe padre per vari primitivi CSG. Contiene codice e funzionalità comuni tra 
 Tutorial
 ----------------
 
-- :doc:`Prototipazione de livelli con CSG <../tutorials/3d/csg_tools>`
+- :doc:`Prototipazione dei livelli con CSG <../tutorials/3d/csg_tools>`
 
 .. rst-class:: classref-reftable-group
 

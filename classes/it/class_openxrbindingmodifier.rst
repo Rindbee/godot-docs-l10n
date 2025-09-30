@@ -59,9 +59,9 @@ Restituisce la descrizione di questa classe, utilizzata per la barra del titolo 
 
 :ref:`PackedByteArray<class_PackedByteArray>` **_get_ip_modification**\ (\ ) |virtual| |required| :ref:`🔗<class_OpenXRBindingModifier_private_method__get_ip_modification>`
 
-Returns the data that is sent to OpenXR when submitting the suggested interacting bindings this modifier is a part of.
+Restituisce i dati inviati a OpenXR quando si inviano le associazioni interattive suggerite di cui questo modificatore fa parte.
 
-\ **Note:** This must be data compatible with an ``XrBindingModificationBaseHeaderKHR`` structure.
+\ **Nota:** Questi dati devono essere compatibili con una struttura ``XrBindingModificationBaseHeaderKHR``.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

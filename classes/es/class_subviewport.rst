@@ -7,7 +7,7 @@ SubViewport
 
 **Hereda:** :ref:`Viewport<class_Viewport>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-An interface to a game world that doesn't create a window or draw to the screen directly.
+Una interfaz a un mundo de juego que no crea una ventana ni dibuja directamente en la pantalla.
 
 .. rst-class:: classref-introduction-group
 
@@ -98,7 +98,7 @@ Nunca despejen el objetivo de renderizado.
 
 :ref:`ClearMode<enum_SubViewport_ClearMode>` **CLEAR_MODE_ONCE** = ``2``
 
-Clear the render target on the next frame, then switch to :ref:`CLEAR_MODE_NEVER<class_SubViewport_constant_CLEAR_MODE_NEVER>`.
+Limpia el objetivo de renderizado en el siguiente fotograma, luego cambia a :ref:`CLEAR_MODE_NEVER<class_SubViewport_constant_CLEAR_MODE_NEVER>`.
 
 .. rst-class:: classref-item-separator
 

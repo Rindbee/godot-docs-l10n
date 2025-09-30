@@ -445,7 +445,7 @@ Restituisce le dimensioni del riquadro del testo.
 
 :ref:`int<class_int>` **hit_test**\ (\ coords\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_TextLine_method_hit_test>`
 
-Returns caret character offset at the specified pixel offset at the baseline. This function always returns a valid position.
+Restituisce l'offset per il cursore nel pixel specificato sulla linea di base. Questa funzione restituisce sempre una posizione valida.
 
 .. rst-class:: classref-item-separator
 

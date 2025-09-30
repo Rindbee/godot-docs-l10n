@@ -192,9 +192,9 @@ Descrizioni delle proprietà
 - |void| **set_excluded_regions**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\] **get_excluded_regions**\ (\ )
 
-The list of region :ref:`RID<class_RID>`\ s that will be excluded from the path query. Use :ref:`NavigationRegion2D.get_rid()<class_NavigationRegion2D_method_get_rid>` to get the :ref:`RID<class_RID>` associated with a :ref:`NavigationRegion2D<class_NavigationRegion2D>` node.
+La lista degli :ref:`RID<class_RID>` delle regioni che saranno escluse dalla ricerca del percorso. Usa :ref:`NavigationRegion2D.get_rid()<class_NavigationRegion2D_method_get_rid>` per ottenere il :ref:`RID<class_RID>` associato a un nodo :ref:`NavigationRegion2D<class_NavigationRegion2D>`.
 
-\ **Note:** The returned array is copied and any changes to it will not update the original property value. To update the value you need to modify the returned array, and then set it to the property again.
+\ **Nota:** L'array restituito è copiato e qualsiasi modifica non aggiornerà il valore della proprietà originale. Per aggiornare il valore è necessario modificare l'array restituito e quindi assegnarlo nuovamente alla proprietà.
 
 .. rst-class:: classref-item-separator
 
@@ -211,9 +211,9 @@ The list of region :ref:`RID<class_RID>`\ s that will be excluded from the path 
 - |void| **set_included_regions**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\] **get_included_regions**\ (\ )
 
-The list of region :ref:`RID<class_RID>`\ s that will be included by the path query. Use :ref:`NavigationRegion2D.get_rid()<class_NavigationRegion2D_method_get_rid>` to get the :ref:`RID<class_RID>` associated with a :ref:`NavigationRegion2D<class_NavigationRegion2D>` node. If left empty all regions are included. If a region ends up being both included and excluded at the same time it will be excluded.
+La lista degli :ref:`RID<class_RID>` delle regioni che saranno escluse dalla ricerca del percorso. Usa :ref:`NavigationRegion2D.get_rid()<class_NavigationRegion2D_method_get_rid>` per ottenere il :ref:`RID<class_RID>` associato a un nodo :ref:`NavigationRegion2D<class_NavigationRegion2D>`. Se lasciato vuoto, tutte le regioni saranno incluse. Se una regione è inclusa ed esclusa allo stesso tempo, sarà esclusa.
 
-\ **Note:** The returned array is copied and any changes to it will not update the original property value. To update the value you need to modify the returned array, and then set it to the property again.
+\ **Nota:** L'array restituito è copiato e qualsiasi modifica non aggiornerà il valore della proprietà originale. Per aggiornare il valore è necessario modificare l'array restituito e quindi assegnarlo nuovamente alla proprietà.
 
 .. rst-class:: classref-item-separator
 
@@ -298,7 +298,7 @@ Post-elaborazione del percorso applicata al corridoio del percorso grezzo trovat
 - |void| **set_path_return_max_length**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_path_return_max_length**\ (\ )
 
-The maximum allowed length of the returned path in world units. A path will be clipped when going over this length. A value of ``0`` or below counts as disabled.
+La lunghezza massima consentita del percorso restituito in unità mondiali. Un percorso sarà troncato quando supera questa lunghezza. Un valore pari o inferiore a ``0`` è considerato disabilitato.
 
 .. rst-class:: classref-item-separator
 
@@ -315,9 +315,9 @@ The maximum allowed length of the returned path in world units. A path will be c
 - |void| **set_path_return_max_radius**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_path_return_max_radius**\ (\ )
 
-The maximum allowed radius in world units that the returned path can be from the path start. The path will be clipped when going over this radius. A value of ``0`` or below counts as disabled.
+Il raggio massimo consentito in unità mondiali che il percorso restituito può avere dall'inizio del percorso. Il percorso sarà troncato quando supera questo raggio. Un valore pari o inferiore a ``0`` è considerato disabilitato.
 
-\ **Note:** This will perform a circle shaped clip operation on the path with the first path position being the circle's center position.
+\ **Nota:** Questo eseguirà un'operazione di ritaglio a forma di cerchio sul percorso, con la prima posizione del percorso corrispondente al centro del cerchio.
 
 .. rst-class:: classref-item-separator
 

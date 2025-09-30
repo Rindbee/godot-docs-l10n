@@ -448,7 +448,7 @@ Apple Team ID, unique 10-character string. To locate your Team ID check "Members
 
 :ref:`String<class_String>` **application/bundle_identifier** :ref:`🔗<class_EditorExportPlatformVisionOS_property_application/bundle_identifier>`
 
-Unique application identifier in a reverse-DNS format, can only contain alphanumeric characters (``A-Z``, ``a-z``, and ``0-9``), hyphens (``-``), and periods (``.``).
+Identificador único de la aplicación en formato DNS inverso, solo puede contener caracteres alfanuméricos (``A-Z``, ``a-z`` y ``0-9``), guiones (``-``) y puntos (``.``).
 
 .. rst-class:: classref-item-separator
 
@@ -496,7 +496,7 @@ If ``true``, existing "project name" and "project name.xcodeproj" in the export 
 
 :ref:`int<class_int>` **application/export_method_debug** :ref:`🔗<class_EditorExportPlatformVisionOS_property_application/export_method_debug>`
 
-Application distribution target (debug export).
+Objetivo de distribución de la aplicación (exportación de depuración).
 
 .. rst-class:: classref-item-separator
 
@@ -508,7 +508,7 @@ Application distribution target (debug export).
 
 :ref:`int<class_int>` **application/export_method_release** :ref:`🔗<class_EditorExportPlatformVisionOS_property_application/export_method_release>`
 
-Application distribution target (release export).
+Objetivo de distribución de la aplicación (exportación de lanzamiento).
 
 .. rst-class:: classref-item-separator
 
@@ -520,7 +520,7 @@ Application distribution target (release export).
 
 :ref:`bool<class_bool>` **application/export_project_only** :ref:`🔗<class_EditorExportPlatformVisionOS_property_application/export_project_only>`
 
-If ``true``, exports iOS project files without building an XCArchive or ``.ipa`` file. If ``false``, exports iOS project files and builds an XCArchive and ``.ipa`` file at the same time. When combining Godot with Fastlane or other build pipelines, you may want to set this to ``true``.
+Si es ``true``, exporta los archivos del proyecto de iOS sin construir un archivo XCArchive o ``.ipa``. Si es ``false``, exporta los archivos del proyecto de iOS y construye un archivo XCArchive y ``.ipa`` al mismo tiempo. Cuando combines Godot con Fastlane u otros flujos de trabajo de construcción, es posible que desees establecer esto en ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -532,7 +532,7 @@ If ``true``, exports iOS project files without building an XCArchive or ``.ipa``
 
 :ref:`int<class_int>` **application/icon_interpolation** :ref:`🔗<class_EditorExportPlatformVisionOS_property_application/icon_interpolation>`
 
-Interpolation method used to resize application icon.
+Método de interpolación utilizado para redimensionar el icono de la aplicación.
 
 .. rst-class:: classref-item-separator
 
@@ -586,9 +586,9 @@ Can be overridden with the environment variable ``GODOT_APPLE_PLATFORM_PROFILE_S
 
 :ref:`String<class_String>` **application/provisioning_profile_uuid_debug** :ref:`🔗<class_EditorExportPlatformVisionOS_property_application/provisioning_profile_uuid_debug>`
 
-UUID of the provisioning profile. If left empty, Xcode will download or create a provisioning profile automatically. See `Edit, download, or delete provisioning profiles <https://developer.apple.com/help/account/manage-profiles/edit-download-or-delete-profiles>`__.
+UUID del perfil de aprovisionamiento. Si se deja vacío, Xcode descargará o creará un perfil de aprovisionamiento automáticamente. Véase `Editar, descargar o eliminar perfiles de aprovisionamiento <https://developer.apple.com/help/account/manage-profiles/edit-download-or-delete-profiles>`__.
 
-Can be overridden with the environment variable ``GODOT_APPLE_PLATFORM_PROVISIONING_PROFILE_UUID_DEBUG``.
+Se puede anular con la variable de entorno `` GODOT_APPLE_PLATFORM_PROVISIONING_PROFILE_UUID_DEBUG``.
 
 .. rst-class:: classref-item-separator
 
@@ -600,9 +600,9 @@ Can be overridden with the environment variable ``GODOT_APPLE_PLATFORM_PROVISION
 
 :ref:`String<class_String>` **application/provisioning_profile_uuid_release** :ref:`🔗<class_EditorExportPlatformVisionOS_property_application/provisioning_profile_uuid_release>`
 
-UUID of the provisioning profile. If left empty, Xcode will download or create a provisioning profile automatically. See `Edit, download, or delete provisioning profiles <https://developer.apple.com/help/account/manage-profiles/edit-download-or-delete-profiles>`__.
+UUID del perfil de aprovisionamiento. Si se deja vacío, Xcode descargará o creará un perfil de aprovisionamiento automáticamente. Véase `Editar, descargar o eliminar perfiles de aprovisionamiento <https://developer.apple.com/help/account/manage-profiles/edit-download-or-delete-profiles>`__.
 
-Can be overridden with the environment variable ``GODOT_APPLE_PLATFORM_PROVISIONING_PROFILE_UUID_RELEASE``.
+Se puede anular con la variable de entorno `` GODOT_APPLE_PLATFORM_PROVISIONING_PROFILE_UUID_RELEASE``.
 
 .. rst-class:: classref-item-separator
 
@@ -628,7 +628,7 @@ Application version visible to the user. Can only contain numeric characters (``
 
 :ref:`String<class_String>` **application/signature** :ref:`🔗<class_EditorExportPlatformVisionOS_property_application/signature>`
 
-A four-character creator code that is specific to the bundle. Optional.
+Un código de creador de cuatro caracteres que es específico del paquete. Opcional.
 
 .. rst-class:: classref-item-separator
 
@@ -666,7 +666,7 @@ If ``true``, ``arm64`` binaries are included into exported project.
 
 :ref:`bool<class_bool>` **capabilities/access_wifi** :ref:`🔗<class_EditorExportPlatformVisionOS_property_capabilities/access_wifi>`
 
-If ``true``, networking features related to Wi-Fi access are enabled. See `Required Device Capabilities <https://developer.apple.com/support/required-device-capabilities/>`__.
+Si es ``true``, las funciones de red relacionadas con el acceso Wi-Fi están habilitadas. Véase ` Required Device Capabilities <https://developer.apple.com/support/required-device-capabilities/>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -678,7 +678,7 @@ If ``true``, networking features related to Wi-Fi access are enabled. See `Requi
 
 :ref:`PackedStringArray<class_PackedStringArray>` **capabilities/additional** :ref:`🔗<class_EditorExportPlatformVisionOS_property_capabilities/additional>`
 
-Additional data added to the ``UIRequiredDeviceCapabilities`` array of the ``Info.plist`` file.
+Datos adicionales añadidos al array ``UIRequiredDeviceCapabilities`` del archivo ``Info.plist``.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedStringArray<class_PackedStringArray>` for more details.
 
@@ -706,9 +706,9 @@ Enabling this option limits supported devices to: iPhone XS, iPhone XR, iPad Min
 
 :ref:`bool<class_bool>` **capabilities/performance_gaming_tier** :ref:`🔗<class_EditorExportPlatformVisionOS_property_capabilities/performance_gaming_tier>`
 
-Requires the graphics performance and features of the A17 Pro and later chips.
+Requiere el rendimiento gráfico y las características de los chips A17 Pro y posteriores.
 
-Enabling this option limits supported devices to: iPhone 15 Pro and newer.
+Habilitar esta opción limita los dispositivos compatibles a: iPhone 15 Pro y más nuevos.
 
 .. rst-class:: classref-item-separator
 
@@ -720,7 +720,7 @@ Enabling this option limits supported devices to: iPhone 15 Pro and newer.
 
 :ref:`String<class_String>` **custom_template/debug** :ref:`🔗<class_EditorExportPlatformVisionOS_property_custom_template/debug>`
 
-Path to the custom export template. If left empty, default template is used.
+Ruta a la plantilla de exportación personalizada. Si se deja vacío, se utiliza la plantilla predeterminada.
 
 .. rst-class:: classref-item-separator
 
@@ -732,7 +732,7 @@ Path to the custom export template. If left empty, default template is used.
 
 :ref:`String<class_String>` **custom_template/release** :ref:`🔗<class_EditorExportPlatformVisionOS_property_custom_template/release>`
 
-Path to the custom export template. If left empty, default template is used.
+Ruta a la plantilla de exportación personalizada. Si se deja vacío, se utiliza la plantilla predeterminada.
 
 .. rst-class:: classref-item-separator
 
@@ -744,7 +744,7 @@ Path to the custom export template. If left empty, default template is used.
 
 :ref:`String<class_String>` **entitlements/additional** :ref:`🔗<class_EditorExportPlatformVisionOS_property_entitlements/additional>`
 
-Additional data added to the root ``<dict>`` section of the `.entitlements <https://developer.apple.com/documentation/bundleresources/entitlements>`__ file. The value should be an XML section with pairs of key-value elements, for example:
+Datos adicionales añadidos a la sección raíz ``<dict>`` del archivo `.entitlements <https://developer.apple.com/documentation/bundleresources/entitlements>`__. El valor debe ser una sección XML con pares de elementos clave-valor, por ejemplo:
 
 .. code:: text
 
@@ -761,7 +761,7 @@ Additional data added to the root ``<dict>`` section of the `.entitlements <http
 
 :ref:`bool<class_bool>` **entitlements/game_center** :ref:`🔗<class_EditorExportPlatformVisionOS_property_entitlements/game_center>`
 
-If ``true``, allows access to Game Center features. See `com.apple.developer.game-center <https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_game-center>`__.
+Si es ``true``, permite el acceso a las funciones de Game Center. Véase `com.apple.developer.game-center <https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_game-center>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -773,7 +773,7 @@ If ``true``, allows access to Game Center features. See `com.apple.developer.gam
 
 :ref:`bool<class_bool>` **entitlements/increased_memory_limit** :ref:`🔗<class_EditorExportPlatformVisionOS_property_entitlements/increased_memory_limit>`
 
-If ``true``, hints that the app might perform better with a higher memory limit. See `com.apple.developer.kernel.increased-memory-limit <https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_kernel_increased-memory-limit>`__.
+Si es ``true``, indica que la aplicación podría funcionar mejor con un límite de memoria más alto. Véase `com.apple.developer.kernel.increased-memory-limit <https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_kernel_increased-memory-limit>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -785,7 +785,7 @@ If ``true``, hints that the app might perform better with a higher memory limit.
 
 :ref:`String<class_String>` **entitlements/push_notifications** :ref:`🔗<class_EditorExportPlatformVisionOS_property_entitlements/push_notifications>`
 
-Environment for Apple Push Notification service. See `aps-environment <https://developer.apple.com/documentation/bundleresources/entitlements/aps-environment>`__.
+Entorno para el servicio de notificaciones push de Apple. Véase `aps-environment <https://developer.apple.com/documentation/bundleresources/entitlements/aps-environment>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -797,7 +797,7 @@ Environment for Apple Push Notification service. See `aps-environment <https://d
 
 :ref:`String<class_String>` **icons/icon_1024x1024** :ref:`🔗<class_EditorExportPlatformVisionOS_property_icons/icon_1024x1024>`
 
-Base application icon used to generate other icons. If left empty, it will fallback to :ref:`ProjectSettings.application/config/icon<class_ProjectSettings_property_application/config/icon>`. See `App icons <https://developer.apple.com/design/human-interface-guidelines/foundations/app-icons>`__.
+Icono de la aplicación base utilizado para generar otros iconos. Si se deja vacío, volverá a :ref:`ProjectSettings.application/config/icon<class_ProjectSettings_property_application/config/icon>`. Véase `Iconos de aplicación <https://developer.apple.com/design/human-interface-guidelines/foundations/app-icons>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -809,7 +809,7 @@ Base application icon used to generate other icons. If left empty, it will fallb
 
 :ref:`String<class_String>` **icons/icon_1024x1024_dark** :ref:`🔗<class_EditorExportPlatformVisionOS_property_icons/icon_1024x1024_dark>`
 
-Base application icon used to generate other icons, dark version. See `App icons <https://developer.apple.com/design/human-interface-guidelines/foundations/app-icons>`__.
+Icono de la aplicación base utilizado para generar otros iconos, versión oscura. Véase `Iconos de aplicación <https://developer.apple.com/design/human-interface-guidelines/foundations/app-icons>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -821,7 +821,7 @@ Base application icon used to generate other icons, dark version. See `App icons
 
 :ref:`String<class_String>` **icons/icon_1024x1024_tinted** :ref:`🔗<class_EditorExportPlatformVisionOS_property_icons/icon_1024x1024_tinted>`
 
-Base application icon used to generate other icons, tinted version. See `App icons <https://developer.apple.com/design/human-interface-guidelines/foundations/app-icons>`__.
+Icono de la aplicación base utilizado para generar otros iconos, versión tintada. Véase `Iconos de aplicación <https://developer.apple.com/design/human-interface-guidelines/foundations/app-icons>`__.
 
 .. rst-class:: classref-item-separator
 

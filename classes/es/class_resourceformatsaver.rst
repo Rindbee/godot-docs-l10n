@@ -53,7 +53,7 @@ Descripciones de Métodos
 
 :ref:`PackedStringArray<class_PackedStringArray>` **_get_recognized_extensions**\ (\ resource\: :ref:`Resource<class_Resource>`\ ) |virtual| |const| :ref:`🔗<class_ResourceFormatSaver_private_method__get_recognized_extensions>`
 
-Devuelve la lista de extensiones disponibles para guardar el objeto de recurso, siempre que se reconozca (véase :ref:`recognize()<class_ResourceFormatSaver_method_recognize>`).
+Devuelve la lista de extensiones disponibles para guardar el objeto de recurso, siempre que se reconozca (véase :ref:`_recognize()<class_ResourceFormatSaver_private_method__recognize>`).
 
 .. rst-class:: classref-item-separator
 

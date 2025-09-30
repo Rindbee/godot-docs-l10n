@@ -14,7 +14,7 @@ Un parámetro :ref:`Transform3D<class_Transform3D>` para usar dentro del gráfic
 Descripción
 ----------------------
 
-Traducido a ``uniform mat4`` en el lenguaje de shader.
+Traducido a ``uniform mat4`` en el lenguaje de shaders.
 
 .. rst-class:: classref-reftable-group
 

@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/Decal.xml.
+.. meta::
+	:keywords: stain
 
 .. _class_Decal:
 
@@ -17,11 +17,11 @@ Nodo che proietta una texture su un :ref:`MeshInstance3D<class_MeshInstance3D>`.
 Descrizione
 ----------------------
 
-I **Decal** sono utilizzati per proiettare una texture su una :ref:`Mesh<class_Mesh>` nella scena. Utilizza le decalcomanie per aggiungere dettagli a una scena senza influenzare la :ref:`Mesh<class_Mesh>` sottostante. Sono spesso utilizzati per aggiungere intemperie a un edificio, sporcizia o fango al terreno o varietà agli oggetti di scena. Le decalcomanie possono essere spostate in qualsiasi momento, rendendole adatte per cose come ammassi di ombre o punti laser.
+I **Decal** servono per proiettare una texture su una :ref:`Mesh<class_Mesh>` nella scena. Utilizza le decalcomanie per aggiungere dettagli a una scena senza influenzare la :ref:`Mesh<class_Mesh>` sottostante. Sono spesso utilizzati per aggiungere intemperie a un edificio, sporcizia o fango al terreno o varietà agli oggetti di scena. Le decalcomanie possono essere spostate in qualsiasi momento, rendendole adatte per cose come ammassi di ombre o punti laser.
 
 Sono costituiti da un :ref:`AABB<class_AABB>` e un gruppo di :ref:`Texture2D<class_Texture2D>` che specificano :ref:`Color<class_Color>`, normale, ORM (occlusione ambientale, ruvidità, metallico) ed emissione. Le decalcomanie sono proiettate all'interno del loro :ref:`AABB<class_AABB>`, quindi la modifica dell'orientamento della decalcomania influenza la direzione in cui sono proiettate. Per impostazione predefinita, le decalcomanie sono proiettate verso il basso (ovvero da Y positivo a Y negativo).
 
-Le :ref:`Texture2D<class_Texture2D>` associate alle decalcomanie sono automaticamente memorizzate in un atlante di texture che è utilizzato per disegnare le decalcomanie in modo che tutte le decalcomanie possano essere disegnate allo stesso tempo. Godot utilizza decalcomanie raggruppate, ovvero sono memorizzate in dati raggruppati e disegnate quando viene disegnata la mesh, non vengono disegnate come effetto in post-elaborazione dopo.
+Le :ref:`Texture2D<class_Texture2D>` associate alle decalcomanie sono automaticamente memorizzate in un atlante di texture che serve per disegnare le decalcomanie in modo che tutte le decalcomanie siano disegnate allo stesso tempo. Godot utilizza decalcomanie raggruppate, ovvero sono memorizzate in dati raggruppati e disegnate quando viene disegnata la mesh, non vengono disegnate come effetto in post-elaborazione dopo.
 
 \ **Nota:** Le decalcomanie non possono influenzare la trasparenza di un materiale sottostante, indipendentemente dalla sua modalità di trasparenza (alpha blend, alpha scissor, alpha hash, pre-passaggio opaco). Ciò significa che le aree traslucide o trasparenti di un materiale rimarranno traslucide o trasparenti anche se viene applicata una decalcomania opaca su di esse.
 

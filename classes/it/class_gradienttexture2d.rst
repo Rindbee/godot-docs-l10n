@@ -14,9 +14,9 @@ Una texture 2D che crea un motivo con colori ottenuti da un :ref:`Gradient<class
 Descrizione
 ----------------------
 
-A 2D texture that obtains colors from a :ref:`Gradient<class_Gradient>` to fill the texture data. This texture is able to transform a color transition into different patterns such as a linear or a radial gradient. The texture is filled by interpolating colors starting from :ref:`fill_from<class_GradientTexture2D_property_fill_from>` to :ref:`fill_to<class_GradientTexture2D_property_fill_to>` offsets by default, but the gradient fill can be repeated to cover the entire texture.
+Una texture 2D che ottiene colori da un :ref:`Gradient<class_Gradient>` per riempire i dati della texture. Questa texture è in grado di trasformare una transizione di colore in diversi motivi, come un gradiente lineare o radiale. Come predefinito, la texture è riempita interpolando i colori a partire dagli offset :ref:`fill_from<class_GradientTexture2D_property_fill_from>` a :ref:`fill_to<class_GradientTexture2D_property_fill_to>`, ma il riempimento del gradiente si può ripetere per coprire l'intera texture.
 
-The gradient is sampled individually for each pixel so it does not necessarily represent an exact copy of the gradient (see :ref:`width<class_GradientTexture2D_property_width>` and :ref:`height<class_GradientTexture2D_property_height>`). See also :ref:`GradientTexture1D<class_GradientTexture1D>`, :ref:`CurveTexture<class_CurveTexture>` and :ref:`CurveXYZTexture<class_CurveXYZTexture>`.
+Il gradiente è campionato individualmente per ogni pixel, quindi non rappresenta necessariamente una copia esatta del gradiente (vedi :ref:`width<class_GradientTexture2D_property_width>` e :ref:`height<class_GradientTexture2D_property_height>`). Vedi anche :ref:`GradientTexture1D<class_GradientTexture1D>`, :ref:`CurveTexture<class_CurveTexture>` e :ref:`CurveXYZTexture<class_CurveXYZTexture>`.
 
 .. rst-class:: classref-reftable-group
 

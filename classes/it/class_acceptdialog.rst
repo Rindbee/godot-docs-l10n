@@ -133,7 +133,7 @@ Emesso quando la finestra di dialogo è accettata, ossia quando il pulsante OK v
 
 **custom_action**\ (\ action\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_AcceptDialog_signal_custom_action>`
 
-Emitted when a custom button with an action is pressed. See :ref:`add_button()<class_AcceptDialog_method_add_button>`.
+Emesso quando viene premuto un pulsante personalizzato con un'azione. Vedi :ref:`add_button()<class_AcceptDialog_method_add_button>`.
 
 .. rst-class:: classref-section-separator
 
@@ -242,13 +242,13 @@ Descrizioni dei metodi
 
 :ref:`Button<class_Button>` **add_button**\ (\ text\: :ref:`String<class_String>`, right\: :ref:`bool<class_bool>` = false, action\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_AcceptDialog_method_add_button>`
 
-Adds a button with label ``text`` and a custom ``action`` to the dialog and returns the created button.
+Aggiunge un pulsante con l'etichetta ``text`` e una azione ``action`` personalizzata alla finestra di dialogo e restituisce il pulsante creato. 
 
-If ``action`` is not empty, pressing the button will emit the :ref:`custom_action<class_AcceptDialog_signal_custom_action>` signal with the specified action string.
+Se ``action`` non è vuoto, premendo il pulsante verrà emesso il segnale :ref:`custom_action<class_AcceptDialog_signal_custom_action>` con la stringa di azione specificata.
 
-If ``true``, ``right`` will place the button to the right of any sibling buttons.
+Se ``true``, ``right`` metterà il pulsante a destra di eventuali pulsanti fratelli.
 
-You can use :ref:`remove_button()<class_AcceptDialog_method_remove_button>` method to remove a button created with this method from the dialog.
+È possibile usare il metodo :ref:`remove_button()<class_AcceptDialog_method_remove_button>` per rimuovere un pulsante creato con questo metodo dalla finestra di dialogo.
 
 .. rst-class:: classref-item-separator
 

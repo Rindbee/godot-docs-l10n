@@ -354,13 +354,13 @@ enum **DriverResource**: :ref:`🔗<enum_RenderingDevice_DriverResource>`
 
 :ref:`DriverResource<enum_RenderingDevice_DriverResource>` **DRIVER_RESOURCE_LOGICAL_DEVICE** = ``0``
 
-Specific device object based on a physical device (``rid`` parameter is ignored).
+Oggetto dispositivo specifico basato su un dispositivo fisico (il parametro ``rid`` è ignorato).
 
-- Vulkan: Vulkan device driver resource (``VkDevice``).
+- Vulkan: Risorsa driver dispositivo Vulkan (``VkDevice``).
 
-- D3D12: D3D12 device driver resource (``ID3D12Device``).
+- D3D12: Risorsa driver dispositivo D3D12 (``ID3D12Device``).
 
-- Metal: Metal device driver resource (``MTLDevice``).
+- Metal: Risorsa driver dispositivo Metal (``MTLDevice``).
 
 .. _class_RenderingDevice_constant_DRIVER_RESOURCE_PHYSICAL_DEVICE:
 
@@ -368,7 +368,7 @@ Specific device object based on a physical device (``rid`` parameter is ignored)
 
 :ref:`DriverResource<enum_RenderingDevice_DriverResource>` **DRIVER_RESOURCE_PHYSICAL_DEVICE** = ``1``
 
-Physical device the specific logical device is based on (``rid`` parameter is ignored).
+Dispositivo fisico su cui si basa il dispositivo logico specifico (il parametro ``rid`` è ignorato).
 
 - Vulkan: ``VkPhysicalDevice``.
 
@@ -380,7 +380,7 @@ Physical device the specific logical device is based on (``rid`` parameter is ig
 
 :ref:`DriverResource<enum_RenderingDevice_DriverResource>` **DRIVER_RESOURCE_TOPMOST_OBJECT** = ``2``
 
-Top-most graphics API entry object (``rid`` parameter is ignored).
+Oggetto di ingresso di livello superiore nell'API grafica (il parametro ``rid`` è ignorato).
 
 - Vulkan: ``VkInstance``.
 
@@ -390,7 +390,7 @@ Top-most graphics API entry object (``rid`` parameter is ignored).
 
 :ref:`DriverResource<enum_RenderingDevice_DriverResource>` **DRIVER_RESOURCE_COMMAND_QUEUE** = ``3``
 
-The main graphics-compute command queue (``rid`` parameter is ignored).
+La coda principale dei comandi di elaborazione grafica (il parametro ``rid`` è ignorato).
 
 - Vulkan: ``VkQueue``.
 
@@ -402,9 +402,9 @@ The main graphics-compute command queue (``rid`` parameter is ignored).
 
 :ref:`DriverResource<enum_RenderingDevice_DriverResource>` **DRIVER_RESOURCE_QUEUE_FAMILY** = ``4``
 
-The specific family the main queue belongs to (``rid`` parameter is ignored).
+La famiglia specifica a cui appartiene la coda principale (il parametro ``rid`` è ignorato).
 
-- Vulkan: The queue family index, a ``uint32_t``.
+- Vulkan: l'indice della famiglia di code, un ``uint32_t``.
 
 .. _class_RenderingDevice_constant_DRIVER_RESOURCE_TEXTURE:
 
@@ -420,11 +420,11 @@ The specific family the main queue belongs to (``rid`` parameter is ignored).
 
 :ref:`DriverResource<enum_RenderingDevice_DriverResource>` **DRIVER_RESOURCE_TEXTURE_VIEW** = ``6``
 
-The view of an owned or shared texture.
+La vista di una texture posseduta o condivisa.
 
 - Vulkan: ``VkImageView``.
 
-- D3D12: ``ID3D12Resource``.
+- D3D12: ``VkImageView``.
 
 .. _class_RenderingDevice_constant_DRIVER_RESOURCE_TEXTURE_DATA_FORMAT:
 
@@ -432,7 +432,7 @@ The view of an owned or shared texture.
 
 :ref:`DriverResource<enum_RenderingDevice_DriverResource>` **DRIVER_RESOURCE_TEXTURE_DATA_FORMAT** = ``7``
 
-The native id of the data format of the texture.
+L'ID nativo del formato dati della texture.
 
 - Vulkan: ``VkFormat``.
 
@@ -460,7 +460,7 @@ The native id of the data format of the texture.
 
 :ref:`DriverResource<enum_RenderingDevice_DriverResource>` **DRIVER_RESOURCE_BUFFER** = ``10``
 
-Buffer of any kind of (storage, vertex, etc.).
+Buffer di qualsiasi tipo (memorizzazione, vertici, ecc.).
 
 - Vulkan: ``VkBuffer``.
 
@@ -2802,7 +2802,7 @@ La texture può essere usata come allegato di profondità/stencil in un framebuf
 
 :ref:`TextureUsageBits<enum_RenderingDevice_TextureUsageBits>` **TEXTURE_USAGE_STORAGE_BIT** = ``8``
 
-Texture can be used as a `storage image <https://registry.khronos.org/vulkan/specs/1.3-extensions/html/vkspec.html#descriptorsets-storageimage>`__.
+La texture può essere usata come `immagine di archiviazione <https://registry.khronos.org/vulkan/specs/1.3-extensions/html/vkspec.html#descriptorsets-storageimage>`__.
 
 .. _class_RenderingDevice_constant_TEXTURE_USAGE_STORAGE_ATOMIC_BIT:
 
@@ -2810,7 +2810,7 @@ Texture can be used as a `storage image <https://registry.khronos.org/vulkan/spe
 
 :ref:`TextureUsageBits<enum_RenderingDevice_TextureUsageBits>` **TEXTURE_USAGE_STORAGE_ATOMIC_BIT** = ``16``
 
-Texture can be used as a `storage image <https://registry.khronos.org/vulkan/specs/1.3-extensions/html/vkspec.html#descriptorsets-storageimage>`__ with support for atomic operations.
+La texture può essere usata come `immagine di archiviazione <https://registry.khronos.org/vulkan/specs/1.3-extensions/html/vkspec.html#descriptorsets-storageimage>`__ con supporto per operazioni atomiche.
 
 .. _class_RenderingDevice_constant_TEXTURE_USAGE_CPU_READ_BIT:
 
@@ -3068,7 +3068,7 @@ Restituisce un colore nero trasparente a virgola mobile quando si campiona al di
 
 :ref:`SamplerBorderColor<enum_RenderingDevice_SamplerBorderColor>` **SAMPLER_BORDER_COLOR_INT_TRANSPARENT_BLACK** = ``1``
 
-Return an integer transparent black color when sampling outside the ``[0.0, 1.0]`` range. Only effective if the sampler repeat mode is :ref:`SAMPLER_REPEAT_MODE_CLAMP_TO_BORDER<class_RenderingDevice_constant_SAMPLER_REPEAT_MODE_CLAMP_TO_BORDER>`.
+Restituisce un colore nero trasparente intero quando si campiona al di fuori dell'intervallo ``[0.0, 1.0]``. Efficace solo se la modalità di ripetizione del campionatore è :ref:`SAMPLER_REPEAT_MODE_CLAMP_TO_BORDER<class_RenderingDevice_constant_SAMPLER_REPEAT_MODE_CLAMP_TO_BORDER>`.
 
 .. _class_RenderingDevice_constant_SAMPLER_BORDER_COLOR_FLOAT_OPAQUE_BLACK:
 
@@ -3084,7 +3084,7 @@ Restituisce un colore nero opaco a virgola mobile quando si campiona al di fuori
 
 :ref:`SamplerBorderColor<enum_RenderingDevice_SamplerBorderColor>` **SAMPLER_BORDER_COLOR_INT_OPAQUE_BLACK** = ``3``
 
-Return an integer opaque black color when sampling outside the ``[0.0, 1.0]`` range. Only effective if the sampler repeat mode is :ref:`SAMPLER_REPEAT_MODE_CLAMP_TO_BORDER<class_RenderingDevice_constant_SAMPLER_REPEAT_MODE_CLAMP_TO_BORDER>`.
+Restituisce un colore nero opaco intero quando si campiona al di fuori dell'intervallo ``[0.0, 1.0]``. Efficace solo se la modalità di ripetizione del campionatore è :ref:`SAMPLER_REPEAT_MODE_CLAMP_TO_BORDER<class_RenderingDevice_constant_SAMPLER_REPEAT_MODE_CLAMP_TO_BORDER>`.
 
 .. _class_RenderingDevice_constant_SAMPLER_BORDER_COLOR_FLOAT_OPAQUE_WHITE:
 
@@ -3100,7 +3100,7 @@ Restituisce un colore bianco opaco a virgola mobile quando si campiona al di fuo
 
 :ref:`SamplerBorderColor<enum_RenderingDevice_SamplerBorderColor>` **SAMPLER_BORDER_COLOR_INT_OPAQUE_WHITE** = ``5``
 
-Return an integer opaque white color when sampling outside the ``[0.0, 1.0]`` range. Only effective if the sampler repeat mode is :ref:`SAMPLER_REPEAT_MODE_CLAMP_TO_BORDER<class_RenderingDevice_constant_SAMPLER_REPEAT_MODE_CLAMP_TO_BORDER>`.
+Restituisce un colore bianco opaco intero quando si campiona al di fuori dell'intervallo ``[0.0, 1.0]``. Efficace solo se la modalità di ripetizione del campionatore è :ref:`SAMPLER_REPEAT_MODE_CLAMP_TO_BORDER<class_RenderingDevice_constant_SAMPLER_REPEAT_MODE_CLAMP_TO_BORDER>`.
 
 .. _class_RenderingDevice_constant_SAMPLER_BORDER_COLOR_MAX:
 
@@ -4455,7 +4455,7 @@ enum **Features**: :ref:`🔗<enum_RenderingDevice_Features>`
 
 :ref:`Features<enum_RenderingDevice_Features>` **SUPPORTS_METALFX_SPATIAL** = ``3``
 
-Support for MetalFX spatial upscaling.
+Supporto per lo spatial upscaling di MetalFX.
 
 .. _class_RenderingDevice_constant_SUPPORTS_METALFX_TEMPORAL:
 
@@ -4463,7 +4463,7 @@ Support for MetalFX spatial upscaling.
 
 :ref:`Features<enum_RenderingDevice_Features>` **SUPPORTS_METALFX_TEMPORAL** = ``4``
 
-Support for MetalFX temporal upscaling.
+Supporto per il temporal upscaling di MetalFX.
 
 .. _class_RenderingDevice_constant_SUPPORTS_BUFFER_DEVICE_ADDRESS:
 
@@ -4479,7 +4479,7 @@ Features support for buffer device address extension.
 
 :ref:`Features<enum_RenderingDevice_Features>` **SUPPORTS_IMAGE_ATOMIC_32_BIT** = ``7``
 
-Support for 32-bit image atomic operations.
+Supporto per operazioni atomiche su immagini a 32 bit.
 
 .. rst-class:: classref-item-separator
 
@@ -4857,7 +4857,7 @@ enum **BreadcrumbMarker**: :ref:`🔗<enum_RenderingDevice_BreadcrumbMarker>`
 
 :ref:`BreadcrumbMarker<enum_RenderingDevice_BreadcrumbMarker>` **NONE** = ``0``
 
-No breadcrumb marker will be added.
+Non verrà aggiunto alcun indicatore di breadcrumb.
 
 .. _class_RenderingDevice_constant_REFLECTION_PROBES:
 
@@ -4865,7 +4865,7 @@ No breadcrumb marker will be added.
 
 :ref:`BreadcrumbMarker<enum_RenderingDevice_BreadcrumbMarker>` **REFLECTION_PROBES** = ``65536``
 
-During a GPU crash in dev or debug mode, Godot's error message will include ``"REFLECTION_PROBES"`` for added context as to when the crash occurred.
+Durante un arresto anomalo della GPU in modalità dev o debug, il messaggio di errore di Godot includerà ``"REFLECTION_PROBES"`` per ulteriore contesto sul momento in cui si è verificato l'arresto.
 
 .. _class_RenderingDevice_constant_SKY_PASS:
 
@@ -4873,7 +4873,7 @@ During a GPU crash in dev or debug mode, Godot's error message will include ``"R
 
 :ref:`BreadcrumbMarker<enum_RenderingDevice_BreadcrumbMarker>` **SKY_PASS** = ``131072``
 
-During a GPU crash in dev or debug mode, Godot's error message will include ``"SKY_PASS"`` for added context as to when the crash occurred.
+Durante un arresto anomalo della GPU in modalità dev o debug, il messaggio di errore di Godot includerà ``"SKY_PASS"`` per ulteriore contesto sul momento in cui si è verificato l'arresto.
 
 .. _class_RenderingDevice_constant_LIGHTMAPPER_PASS:
 
@@ -4881,7 +4881,7 @@ During a GPU crash in dev or debug mode, Godot's error message will include ``"S
 
 :ref:`BreadcrumbMarker<enum_RenderingDevice_BreadcrumbMarker>` **LIGHTMAPPER_PASS** = ``196608``
 
-During a GPU crash in dev or debug mode, Godot's error message will include ``"LIGHTMAPPER_PASS"`` for added context as to when the crash occurred.
+Durante un arresto anomalo della GPU in modalità dev o debug, il messaggio di errore di Godot includerà ``"LIGHTMAPPER_PASS"`` per ulteriore contesto sul momento in cui si è verificato l'arresto.
 
 .. _class_RenderingDevice_constant_SHADOW_PASS_DIRECTIONAL:
 
@@ -4889,7 +4889,7 @@ During a GPU crash in dev or debug mode, Godot's error message will include ``"L
 
 :ref:`BreadcrumbMarker<enum_RenderingDevice_BreadcrumbMarker>` **SHADOW_PASS_DIRECTIONAL** = ``262144``
 
-During a GPU crash in dev or debug mode, Godot's error message will include ``"SHADOW_PASS_DIRECTIONAL"`` for added context as to when the crash occurred.
+Durante un arresto anomalo della GPU in modalità dev o debug, il messaggio di errore di Godot includerà ``"SHADOW_PASS_DIRECTIONAL"`` per ulteriore contesto sul momento in cui si è verificato l'arresto.
 
 .. _class_RenderingDevice_constant_SHADOW_PASS_CUBE:
 
@@ -4897,7 +4897,7 @@ During a GPU crash in dev or debug mode, Godot's error message will include ``"S
 
 :ref:`BreadcrumbMarker<enum_RenderingDevice_BreadcrumbMarker>` **SHADOW_PASS_CUBE** = ``327680``
 
-During a GPU crash in dev or debug mode, Godot's error message will include ``"SHADOW_PASS_CUBE"`` for added context as to when the crash occurred.
+Durante un arresto anomalo della GPU in modalità dev o debug, il messaggio di errore di Godot includerà ``"SHADOW_PASS_CUBE"`` per ulteriore contesto sul momento in cui si è verificato l'arresto.
 
 .. _class_RenderingDevice_constant_OPAQUE_PASS:
 
@@ -4905,7 +4905,7 @@ During a GPU crash in dev or debug mode, Godot's error message will include ``"S
 
 :ref:`BreadcrumbMarker<enum_RenderingDevice_BreadcrumbMarker>` **OPAQUE_PASS** = ``393216``
 
-During a GPU crash in dev or debug mode, Godot's error message will include ``"OPAQUE_PASS"`` for added context as to when the crash occurred.
+Durante un arresto anomalo della GPU in modalità dev o debug, il messaggio di errore di Godot includerà ``"OPAQUE_PASS"`` per ulteriore contesto sul momento in cui si è verificato l'arresto.
 
 .. _class_RenderingDevice_constant_ALPHA_PASS:
 
@@ -4913,7 +4913,7 @@ During a GPU crash in dev or debug mode, Godot's error message will include ``"O
 
 :ref:`BreadcrumbMarker<enum_RenderingDevice_BreadcrumbMarker>` **ALPHA_PASS** = ``458752``
 
-During a GPU crash in dev or debug mode, Godot's error message will include ``"ALPHA_PASS"`` for added context as to when the crash occurred.
+Durante un arresto anomalo della GPU in modalità dev o debug, il messaggio di errore di Godot includerà ``"ALPHA_PASS"`` per ulteriore contesto sul momento in cui si è verificato l'arresto.
 
 .. _class_RenderingDevice_constant_TRANSPARENT_PASS:
 
@@ -4921,7 +4921,7 @@ During a GPU crash in dev or debug mode, Godot's error message will include ``"A
 
 :ref:`BreadcrumbMarker<enum_RenderingDevice_BreadcrumbMarker>` **TRANSPARENT_PASS** = ``524288``
 
-During a GPU crash in dev or debug mode, Godot's error message will include ``"TRANSPARENT_PASS"`` for added context as to when the crash occurred.
+Durante un arresto anomalo della GPU in modalità dev o debug, il messaggio di errore di Godot includerà ``"TRANSPARENT_PASS"`` per ulteriore contesto sul momento in cui si è verificato l'arresto.
 
 .. _class_RenderingDevice_constant_POST_PROCESSING_PASS:
 
@@ -4929,7 +4929,7 @@ During a GPU crash in dev or debug mode, Godot's error message will include ``"T
 
 :ref:`BreadcrumbMarker<enum_RenderingDevice_BreadcrumbMarker>` **POST_PROCESSING_PASS** = ``589824``
 
-During a GPU crash in dev or debug mode, Godot's error message will include ``"POST_PROCESSING_PASS"`` for added context as to when the crash occurred.
+Durante un arresto anomalo della GPU in modalità dev o debug, il messaggio di errore di Godot includerà ``"POST_PROCESSING_PASS"`` per ulteriore contesto sul momento in cui si è verificato l'arresto.
 
 .. _class_RenderingDevice_constant_BLIT_PASS:
 
@@ -4937,7 +4937,7 @@ During a GPU crash in dev or debug mode, Godot's error message will include ``"P
 
 :ref:`BreadcrumbMarker<enum_RenderingDevice_BreadcrumbMarker>` **BLIT_PASS** = ``655360``
 
-During a GPU crash in dev or debug mode, Godot's error message will include ``"BLIT_PASS"`` for added context as to when the crash occurred.
+Durante un arresto anomalo della GPU in modalità dev o debug, il messaggio di errore di Godot includerà ``"BLIT_PASS"`` per ulteriore contesto sul momento in cui si è verificato l'arresto.
 
 .. _class_RenderingDevice_constant_UI_PASS:
 
@@ -4945,7 +4945,7 @@ During a GPU crash in dev or debug mode, Godot's error message will include ``"B
 
 :ref:`BreadcrumbMarker<enum_RenderingDevice_BreadcrumbMarker>` **UI_PASS** = ``720896``
 
-During a GPU crash in dev or debug mode, Godot's error message will include ``"UI_PASS"`` for added context as to when the crash occurred.
+Durante un arresto anomalo della GPU in modalità dev o debug, il messaggio di errore di Godot includerà ``"UI_PASS"`` per ulteriore contesto sul momento in cui si è verificato l'arresto.
 
 .. _class_RenderingDevice_constant_DEBUG_PASS:
 
@@ -4953,7 +4953,7 @@ During a GPU crash in dev or debug mode, Godot's error message will include ``"U
 
 :ref:`BreadcrumbMarker<enum_RenderingDevice_BreadcrumbMarker>` **DEBUG_PASS** = ``786432``
 
-During a GPU crash in dev or debug mode, Godot's error message will include ``"DEBUG_PASS"`` for added context as to when the crash occurred.
+Durante un arresto anomalo della GPU in modalità dev o debug, il messaggio di errore di Godot includerà ``"DEBUG_PASS"`` per ulteriore contesto sul momento in cui si è verificato l'arresto.
 
 .. rst-class:: classref-item-separator
 
@@ -6167,7 +6167,7 @@ Questo è utilizzato solo da Vulkan nelle build di debug e può restituire 0 qua
 
 :ref:`int<class_int>` **get_driver_resource**\ (\ resource\: :ref:`DriverResource<enum_RenderingDevice_DriverResource>`, rid\: :ref:`RID<class_RID>`, index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_RenderingDevice_method_get_driver_resource>`
 
-Returns the unique identifier of the driver ``resource`` for the specified ``rid``. Some driver resource types ignore the specified ``rid``. ``index`` is always ignored but must be specified anyway.
+Restituisce l'identificatore univoco della ``resource`` del driver per il ``rid`` specificato. Alcuni tipi di risorse driver ignorano il ``rid`` specificato. ``index`` è sempre ignorato ma deve essere specificato comunque.
 
 .. rst-class:: classref-item-separator
 
@@ -6447,9 +6447,9 @@ Compila uno shader binario da ``spirv_data`` e restituisce i dati binari compila
 
 :ref:`RDShaderSPIRV<class_RDShaderSPIRV>` **shader_compile_spirv_from_source**\ (\ shader_source\: :ref:`RDShaderSource<class_RDShaderSource>`, allow_cache\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_RenderingDevice_method_shader_compile_spirv_from_source>`
 
-Compiles a SPIR-V from the shader source code in ``shader_source`` and returns the SPIR-V as an :ref:`RDShaderSPIRV<class_RDShaderSPIRV>`. This intermediate language shader is portable across different GPU models and driver versions, but cannot be run directly by GPUs until compiled into a binary shader using :ref:`shader_compile_binary_from_spirv()<class_RenderingDevice_method_shader_compile_binary_from_spirv>`.
+Compila uno SPIR-V dal codice sorgente dello shader in ``shader_source`` e restituisce lo SPIR-V come :ref:`RDShaderSPIRV<class_RDShaderSPIRV>`. Questo shader di linguaggio intermedio è portabile su diversi modelli di GPU e versioni di driver, ma non può essere eseguito direttamente dalle GPU finché non viene compilato in uno shader binario attraverso :ref:`shader_compile_binary_from_spirv()<class_RenderingDevice_method_shader_compile_binary_from_spirv>`.
 
-If ``allow_cache`` is ``true``, make use of the shader cache generated by Godot. This avoids a potentially lengthy shader compilation step if the shader is already in cache. If ``allow_cache`` is ``false``, Godot's shader cache is ignored and the shader will always be recompiled.
+Se ``allow_cache`` è ``true``, utilizza la cache degli shader generata da Godot. Ciò evita un passaggio potenzialmente lungo per compilare lo shader, se lo shader è già nella cache. Se ``allow_cache`` è ``false``, la cache degli shader di Godot è ignorata e lo shader sarà sempre ricompilato.
 
 .. rst-class:: classref-item-separator
 
@@ -6527,9 +6527,9 @@ Una volta finito con il RID, si consiglia di liberarlo tramite il metodo :ref:`f
 
 |void| **submit**\ (\ ) :ref:`🔗<class_RenderingDevice_method_submit>`
 
-Pushes the frame setup and draw command buffers then marks the local device as currently processing (which allows calling :ref:`sync()<class_RenderingDevice_method_sync>`).
+Inserisce i buffer di configurazione e di comando di disegno del frame, quindi contrassegna il dispositivo locale come in fase di elaborazione (il che consente di chiamare :ref:`sync()<class_RenderingDevice_method_sync>`).
 
-\ **Note:** Only available in local RenderingDevices.
+\ **Nota:** Disponibile solo nei RenderingDevice locali.
 
 .. rst-class:: classref-item-separator
 
@@ -6607,13 +6607,13 @@ Copia la texture ``from_texture`` in ``to_texture`` con le coordinate specificat
 
 :ref:`RID<class_RID>` **texture_create**\ (\ format\: :ref:`RDTextureFormat<class_RDTextureFormat>`, view\: :ref:`RDTextureView<class_RDTextureView>`, data\: :ref:`Array<class_Array>`\[:ref:`PackedByteArray<class_PackedByteArray>`\] = []\ ) :ref:`🔗<class_RenderingDevice_method_texture_create>`
 
-Creates a new texture. It can be accessed with the RID that is returned.
+Crea una nuova texture. È possibile accedervi con il RID restituito.
 
-Once finished with your RID, you will want to free the RID using the RenderingDevice's :ref:`free_rid()<class_RenderingDevice_method_free_rid>` method.
+Una volta finito con il RID, si consiglia di liberarlo tramite il metodo :ref:`free_rid()<class_RenderingDevice_method_free_rid>` del RenderingServer.
 
-\ **Note:** ``data`` takes an :ref:`Array<class_Array>` of :ref:`PackedByteArray<class_PackedByteArray>`\ s. For :ref:`TEXTURE_TYPE_1D<class_RenderingDevice_constant_TEXTURE_TYPE_1D>`, :ref:`TEXTURE_TYPE_2D<class_RenderingDevice_constant_TEXTURE_TYPE_2D>`, and :ref:`TEXTURE_TYPE_3D<class_RenderingDevice_constant_TEXTURE_TYPE_3D>` types, this array should only have one element, a :ref:`PackedByteArray<class_PackedByteArray>` containing all the data for the texture. For ``_ARRAY`` and ``_CUBE`` types, the length should be the same as the number of :ref:`RDTextureFormat.array_layers<class_RDTextureFormat_property_array_layers>` in ``format``.
+\ **Nota:** ``data`` accetta un :ref:`Array<class_Array>` di :ref:`PackedByteArray<class_PackedByteArray>`. Per i tipi :ref:`TEXTURE_TYPE_1D<class_RenderingDevice_constant_TEXTURE_TYPE_1D>`, :ref:`TEXTURE_TYPE_2D<class_RenderingDevice_constant_TEXTURE_TYPE_2D>` e :ref:`TEXTURE_TYPE_3D<class_RenderingDevice_constant_TEXTURE_TYPE_3D>`, questo array dovrebbe avere un solo elemento, un :ref:`PackedByteArray<class_PackedByteArray>` contenente tutti i dati per la texture. Per i tipi ``_ARRAY`` e ``_CUBE``, la lunghezza dovrebbe essere uguale al numero di :ref:`RDTextureFormat.array_layers<class_RDTextureFormat_property_array_layers>` in ``format``.
 
-\ **Note:** Not to be confused with :ref:`RenderingServer.texture_2d_create()<class_RenderingServer_method_texture_2d_create>`, which creates the Godot-specific :ref:`Texture2D<class_Texture2D>` resource as opposed to the graphics API's own texture type.
+\ **Nota:** Da non confondere con :ref:`RenderingServer.texture_2d_create()<class_RenderingServer_method_texture_2d_create>`, che crea la risorsa :ref:`Texture2D<class_Texture2D>` specifica di Godot a differenza del tipo texture dell'API grafica.
 
 .. rst-class:: classref-item-separator
 
@@ -6625,7 +6625,7 @@ Once finished with your RID, you will want to free the RID using the RenderingDe
 
 :ref:`RID<class_RID>` **texture_create_from_extension**\ (\ type\: :ref:`TextureType<enum_RenderingDevice_TextureType>`, format\: :ref:`DataFormat<enum_RenderingDevice_DataFormat>`, samples\: :ref:`TextureSamples<enum_RenderingDevice_TextureSamples>`, usage_flags\: |bitfield|\[:ref:`TextureUsageBits<enum_RenderingDevice_TextureUsageBits>`\], image\: :ref:`int<class_int>`, width\: :ref:`int<class_int>`, height\: :ref:`int<class_int>`, depth\: :ref:`int<class_int>`, layers\: :ref:`int<class_int>`, mipmaps\: :ref:`int<class_int>` = 1\ ) :ref:`🔗<class_RenderingDevice_method_texture_create_from_extension>`
 
-Returns an RID for an existing ``image`` (``VkImage``) with the given ``type``, ``format``, ``samples``, ``usage_flags``, ``width``, ``height``, ``depth``, ``layers``, and ``mipmaps``. This can be used to allow Godot to render onto foreign images.
+Restituisce un RID per un'immagine ``image`` esistente (``VkImage``) con il tipo ``type``, il formato ``format``, i campioni ``samples``, i flag d'utilizzo ``usage_flags``, la larghezza ``width``, l'altezza ``height``, la profondità ``depth``, i livelli ``layers`` e le mipmap ``mipmaps`` specificati. Si può utilizzare per consentire a Godot di renderizzare su immagini esterne.
 
 .. rst-class:: classref-item-separator
 
@@ -6649,11 +6649,11 @@ Crea una texture condivisa utilizzando la vista ``view`` e le informazioni sulla
 
 :ref:`RID<class_RID>` **texture_create_shared_from_slice**\ (\ view\: :ref:`RDTextureView<class_RDTextureView>`, with_texture\: :ref:`RID<class_RID>`, layer\: :ref:`int<class_int>`, mipmap\: :ref:`int<class_int>`, mipmaps\: :ref:`int<class_int>` = 1, slice_type\: :ref:`TextureSliceType<enum_RenderingDevice_TextureSliceType>` = 0\ ) :ref:`🔗<class_RenderingDevice_method_texture_create_shared_from_slice>`
 
-Creates a shared texture using the specified ``view`` and the texture information from ``with_texture``'s ``layer`` and ``mipmap``. The number of included mipmaps from the original texture can be controlled using the ``mipmaps`` parameter. Only relevant for textures with multiple layers, such as 3D textures, texture arrays and cubemaps. For single-layer textures, use :ref:`texture_create_shared()<class_RenderingDevice_method_texture_create_shared>`.
+Crea una texture condivisa utilizzando la vista ``view`` e le informazioni sulla texture da ``with_texture`` con il livello ``layer`` e la mipmap ``mipmap``. È possibile controllare il numero di mipmap incluse dalla texture originale tramite il parametro ``mipmaps``. Rilevante solo per texture con più livelli, come texture 3D, array di texture e cubemap. Per texture con un singolo livello, usa :ref:`texture_create_shared()<class_RenderingDevice_method_texture_create_shared>`.
 
-For 2D textures (which only have one layer), ``layer`` must be ``0``.
+Per texture 2D (che hanno un solo livello), ``layer`` deve essere ``0``.
 
-\ **Note:** Layer slicing is only supported for 2D texture arrays, not 3D textures or cubemaps.
+\ **Nota:** Il layer slicing è supportato solo per array di texture 2D, non per texture 3D o cubemap.
 
 .. rst-class:: classref-item-separator
 
@@ -6665,13 +6665,13 @@ For 2D textures (which only have one layer), ``layer`` must be ``0``.
 
 :ref:`PackedByteArray<class_PackedByteArray>` **texture_get_data**\ (\ texture\: :ref:`RID<class_RID>`, layer\: :ref:`int<class_int>`\ ) :ref:`🔗<class_RenderingDevice_method_texture_get_data>`
 
-Returns the ``texture`` data for the specified ``layer`` as raw binary data. For 2D textures (which only have one layer), ``layer`` must be ``0``.
+Restituisce i dati della ``texture`` per il livello ``layer`` come dati binari grezzi. Per le texture 2D (che hanno un solo livello), ``layer`` deve essere ``0``.
 
-\ **Note:** ``texture`` can't be retrieved while a draw list that uses it as part of a framebuffer is being created. Ensure the draw list is finalized (and that the color/depth texture using it is not set to :ref:`FINAL_ACTION_CONTINUE<class_RenderingDevice_constant_FINAL_ACTION_CONTINUE>`) to retrieve this texture. Otherwise, an error is printed and an empty :ref:`PackedByteArray<class_PackedByteArray>` is returned.
+\ **Nota:** Non è possibile recuperare la ``texture`` mentre viene creata una lista di disegno che la utilizza come parte di un framebuffer. Assicurati che la lista di disegno sia finalizzata (e che la texture colore/profondità che la usa non sia impostata su :ref:`FINAL_ACTION_CONTINUE<class_RenderingDevice_constant_FINAL_ACTION_CONTINUE>`) per recuperare questa texture. Altrimenti, viene stampato un errore e viene restituito un :ref:`PackedByteArray<class_PackedByteArray>` vuoto.
 
-\ **Note:** ``texture`` requires the :ref:`TEXTURE_USAGE_CAN_COPY_FROM_BIT<class_RenderingDevice_constant_TEXTURE_USAGE_CAN_COPY_FROM_BIT>` to be retrieved. Otherwise, an error is printed and an empty :ref:`PackedByteArray<class_PackedByteArray>` is returned.
+\ **Nota:** ``texture`` richiede che sia recuperato :ref:`TEXTURE_USAGE_CAN_COPY_FROM_BIT<class_RenderingDevice_constant_TEXTURE_USAGE_CAN_COPY_FROM_BIT>`. Altrimenti, viene stampato un errore e viene restituito un :ref:`PackedByteArray<class_PackedByteArray>` vuoto.
 
-\ **Note:** This method will block the GPU from working until the data is retrieved. Refer to :ref:`texture_get_data_async()<class_RenderingDevice_method_texture_get_data_async>` for an alternative that returns the data in more performant way.
+\ **Nota:** Questo metodo impedirà alla GPU di funzionare finché i dati non vengono recuperati. Fare riferimento a :ref:`texture_get_data_async()<class_RenderingDevice_method_texture_get_data_async>` per un'alternativa che restituisce i dati in modo più performante.
 
 .. rst-class:: classref-item-separator
 
@@ -6872,7 +6872,7 @@ Una volta finito con il RID, si consiglia di liberarlo tramite il metodo :ref:`f
 
 :ref:`bool<class_bool>` **uniform_set_is_valid**\ (\ uniform_set\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_RenderingDevice_method_uniform_set_is_valid>`
 
-Checks if the ``uniform_set`` is valid, i.e. is owned.
+Verifica se ``uniform_set`` è valido, ovvero se qualcosa lo possiede.
 
 .. rst-class:: classref-item-separator
 

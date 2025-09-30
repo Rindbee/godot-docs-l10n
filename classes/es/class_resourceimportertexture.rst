@@ -118,7 +118,7 @@ Controla cómo se deben usar los canales de color en la textura importada.
 
 Controla cómo se debe realizar la compresión VRAM para las imágenes HDR.
 
-\ **Desactivado:** Nunca uses la compresión VRAM para texturas HDR, independientemente de si son opacas o transparentes. En su lugar, la textura se convierte a RGBE9995 (9 bits por canal + exponente de 5 bits = 32 bits por píxel) para reducir el uso de memoria en comparación con un formato de imagen de coma flotante de media precisión o de precisión simple.
+\ **Desactivado:** Nunca uses la compresión VRAM para texturas HDR, independientemente de si son opacas o transparentes. En su lugar, la textura se convierte a RGBE9995 (9 bits por canal + exponente de 5 bits = 32 bits por píxel) para reducir el uso de memoria en comparación con un formato de imagen de punto flotante de media precisión o de precisión simple.
 
 \ **Solo opaco:** Solo usa la compresión VRAM para texturas HDR opacas. Esto se debe a una limitación de los formatos HDR, ya que no hay un formato HDR comprimido en VRAM que admita la transparencia al mismo tiempo.
 
@@ -176,7 +176,7 @@ El modo de compresión a utilizar. Cada modo de compresión ofrece una compensac
 
 \ **Basis Universal:** Calidad reducida, bajo uso de memoria, menor tamaño en el disco, importación lenta. Solo usar para texturas en escenas 3D, no para elementos 2D.
 
-Ver `Modo de compresión <../tutorials/assets_pipeline/importing_images.html#compress-mode>`__ en el manual para más detalles.
+Véase `Modo de compresión <../tutorials/assets_pipeline/importing_images.html#compress-mode>`__ en el manual para más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -206,7 +206,7 @@ Si es mayor o igual que ``0.01``, activa la optimización de tasa-distorsión (R
 
 \ **Nota:** Habilitar RDO hace que los tiempos de codificación sean significativamente más largos, especialmente cuando la imagen es grande.
 
-Ver también :ref:`ProjectSettings.rendering/textures/basis_universal/rdo_dict_size<class_ProjectSettings_property_rendering/textures/basis_universal/rdo_dict_size>` y :ref:`ProjectSettings.rendering/textures/basis_universal/zstd_supercompression_level<class_ProjectSettings_property_rendering/textures/basis_universal/zstd_supercompression_level>` si quieres reducir aún más el tamaño del archivo.
+Véase también :ref:`ProjectSettings.rendering/textures/basis_universal/rdo_dict_size<class_ProjectSettings_property_rendering/textures/basis_universal/rdo_dict_size>` y :ref:`ProjectSettings.rendering/textures/basis_universal/zstd_supercompression_level<class_ProjectSettings_property_rendering/textures/basis_universal/zstd_supercompression_level>` si quieres reducir aún más el tamaño del archivo.
 
 .. rst-class:: classref-item-separator
 
@@ -564,7 +564,7 @@ El filtrado de rugosidad en la importación solo se usa en renderizado 3D, no 2D
 
 :ref:`float<class_float>` **svg/scale** = ``1.0`` :ref:`🔗<class_ResourceImporterTexture_property_svg/scale>`
 
-La escala a la que se debe renderizar el SVG, siendo ``1.0`` el tamaño original del diseño. Los valores más altos resultan en una imagen más grande. Ten en cuenta que, a diferencia del sobremuestreo de fuentes, esto afecta el tamaño al que se renderiza el SVG en 2D. Consulta también :ref:`editor/scale_with_editor_scale<class_ResourceImporterTexture_property_editor/scale_with_editor_scale>`.
+La escala a la que se debe renderizar el SVG, siendo ``1.0`` el tamaño original del diseño. Los valores más altos resultan en una imagen más grande. Ten en cuenta que, a diferencia del sobremuestreo de fuentes, esto afecta el tamaño al que se renderiza el SVG en 2D. Véase también :ref:`editor/scale_with_editor_scale<class_ResourceImporterTexture_property_editor/scale_with_editor_scale>`.
 
 \ **Nota:** Solo disponible para imágenes SVG.
 

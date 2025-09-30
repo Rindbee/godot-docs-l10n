@@ -366,7 +366,7 @@ Se ``true``, la texture è visibile anche dal retro, se ``false``, è invisibile
 - |void| **set_draw_flag**\ (\ flag\: :ref:`DrawFlags<enum_SpriteBase3D_DrawFlags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_draw_flag**\ (\ flag\: :ref:`DrawFlags<enum_SpriteBase3D_DrawFlags>`\ ) |const|
 
-If ``true``, the texture is rendered at the same size regardless of distance. The texture's size on screen is the same as if the camera was ``1.0`` units away from the texture's origin, regardless of the actual distance from the camera. The :ref:`Camera3D<class_Camera3D>`'s field of view (or :ref:`Camera3D.size<class_Camera3D_property_size>` when in orthogonal/frustum mode) still affects the size the sprite is drawn at.
+Se ``true``, la texture viene renderizzata con le stesse dimensioni a prescindere dalla distanza. Le dimensioni della texture sullo schermo sono le stesse che avrebbe se la telecamera fosse a ``1.0`` unità di distanza dall'origine della texture, a prescindere dalla distanza effettiva dalla telecamera. Il campo visivo della :ref:`Camera3D<class_Camera3D>` (o :ref:`Camera3D.size<class_Camera3D_property_size>` in modalità ortogonale/tronco) influenza comunque le dimensioni della texture disegnata.
 
 .. rst-class:: classref-item-separator
 
@@ -455,9 +455,9 @@ Se ``true``, il test di profondità è disabilitato e l'oggetto sarà disegnato 
 - |void| **set_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_offset**\ (\ )
 
-The texture's drawing offset.
+L'offset di disegno della texture.
 
-\ **Note:** When you increase :ref:`offset<class_SpriteBase3D_property_offset>`.y in Sprite3D, the sprite moves upward in world space (i.e., +Y is up).
+\ **Nota:** Quando si aumenta :ref:`offset<class_SpriteBase3D_property_offset>`.y in Sprite3D, lo sprite si sposta verso l'alto nello spazio mondiale (ovvero +Y punta verso l'alto).
 
 .. rst-class:: classref-item-separator
 

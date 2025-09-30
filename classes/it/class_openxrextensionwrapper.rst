@@ -9,14 +9,14 @@ OpenXRExtensionWrapper
 
 **Ereditato da:** :ref:`OpenXRExtensionWrapperExtension<class_OpenXRExtensionWrapperExtension>`, :ref:`OpenXRFutureExtension<class_OpenXRFutureExtension>`, :ref:`OpenXRRenderModelExtension<class_OpenXRRenderModelExtension>`
 
-Allows implementing OpenXR extensions with GDExtension.
+Consente di implementare estensioni OpenXR con GDExtension.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-**OpenXRExtensionWrapper** allows implementing OpenXR extensions with GDExtension. The extension should be registered with :ref:`register_extension_wrapper()<class_OpenXRExtensionWrapper_method_register_extension_wrapper>`.
+:ref:`OpenXRExtensionWrapperExtension<class_OpenXRExtensionWrapperExtension>` consente di implementare estensioni OpenXR con GDExtension. L'estensione deve essere registrata con :ref:`register_extension_wrapper()<class_OpenXRExtensionWrapper_method_register_extension_wrapper>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -467,7 +467,7 @@ Chiamato quando lo stato della sessione OpenXR viene cambiato in visibile. Ciò 
 
 |void| **_on_sync_actions**\ (\ ) |virtual| :ref:`🔗<class_OpenXRExtensionWrapper_private_method__on_sync_actions>`
 
-Called when OpenXR has performed its action sync.
+Chiamato quando OpenXR ha effettuato la sua sincronizzazione di azioni.
 
 .. rst-class:: classref-item-separator
 
@@ -507,9 +507,9 @@ Aggiunge ulteriori strutture dati alle swapchain di superfice di Android create 
 
 :ref:`int<class_int>` **_set_frame_end_info_and_get_next_pointer**\ (\ next_pointer\: ``void*``\ ) |virtual| :ref:`🔗<class_OpenXRExtensionWrapper_private_method__set_frame_end_info_and_get_next_pointer>`
 
-Adds additional data structures to ``XrFrameEndInfo``.
+Aggiunge ulteriori strutture dati a ``XrFrameEndInfo``.
 
-This will only be called if the extension previously registered itself with :ref:`OpenXRAPIExtension.register_frame_info_extension()<class_OpenXRAPIExtension_method_register_frame_info_extension>`.
+Sarà chiamato solo se l'estensione si è precedentemente registrata con :ref:`OpenXRAPIExtension.register_frame_info_extension()<class_OpenXRAPIExtension_method_register_frame_info_extension>`.
 
 .. rst-class:: classref-item-separator
 
@@ -521,9 +521,9 @@ This will only be called if the extension previously registered itself with :ref
 
 :ref:`int<class_int>` **_set_frame_wait_info_and_get_next_pointer**\ (\ next_pointer\: ``void*``\ ) |virtual| :ref:`🔗<class_OpenXRExtensionWrapper_private_method__set_frame_wait_info_and_get_next_pointer>`
 
-Adds additional data structures to ``XrFrameWaitInfo``.
+Aggiunge ulteriori strutture dati a ``XrFrameWaitInfo``.
 
-This will only be called if the extension previously registered itself with :ref:`OpenXRAPIExtension.register_frame_info_extension()<class_OpenXRAPIExtension_method_register_frame_info_extension>`.
+Sarà chiamato solo se l'estensione si è precedentemente registrata con :ref:`OpenXRAPIExtension.register_frame_info_extension()<class_OpenXRAPIExtension_method_register_frame_info_extension>`.
 
 .. rst-class:: classref-item-separator
 
@@ -571,7 +571,7 @@ Aggiunge ulteriori strutture dati alla vista di proiezione dell'indice ``view_in
 
 :ref:`int<class_int>` **_set_reference_space_create_info_and_get_next_pointer**\ (\ reference_space_type\: :ref:`int<class_int>`, next_pointer\: ``void*``\ ) |virtual| :ref:`🔗<class_OpenXRExtensionWrapper_private_method__set_reference_space_create_info_and_get_next_pointer>`
 
-Adds additional data structures to ``XrReferenceSpaceCreateInfo``.
+Aggiunge ulteriori strutture dati a ``XrReferenceSpaceCreateInfo``.
 
 .. rst-class:: classref-item-separator
 
@@ -619,9 +619,9 @@ Aggiunge ulteriori strutture dati quando le capacità del sistema OpenXR vengono
 
 :ref:`int<class_int>` **_set_view_locate_info_and_get_next_pointer**\ (\ next_pointer\: ``void*``\ ) |virtual| :ref:`🔗<class_OpenXRExtensionWrapper_private_method__set_view_locate_info_and_get_next_pointer>`
 
-Adds additional data structures to ``XrViewLocateInfo``.
+Aggiunge ulteriori strutture dati a ``XrViewLocateInfo``.
 
-This will only be called if the extension previously registered itself with :ref:`OpenXRAPIExtension.register_frame_info_extension()<class_OpenXRAPIExtension_method_register_frame_info_extension>`.
+Sarà chiamato solo se l'estensione si è precedentemente registrata con :ref:`OpenXRAPIExtension.register_frame_info_extension()<class_OpenXRAPIExtension_method_register_frame_info_extension>`.
 
 .. rst-class:: classref-item-separator
 

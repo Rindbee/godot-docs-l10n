@@ -7,18 +7,18 @@ TextMesh
 
 **Eredita:** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Generate a :ref:`PrimitiveMesh<class_PrimitiveMesh>` from the text.
+Genera un :ref:`PrimitiveMesh<class_PrimitiveMesh>` dal testo.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-Generate a :ref:`PrimitiveMesh<class_PrimitiveMesh>` from the text.
+Genera un :ref:`PrimitiveMesh<class_PrimitiveMesh>` dal testo.
 
-TextMesh can be generated only when using dynamic fonts with vector glyph contours. Bitmap fonts (including bitmap data in the TrueType/OpenType containers, like color emoji fonts) are not supported.
+È possibile generare un TextMesh solo quando si utilizzano font dinamici con contorni di glifi vettoriali. I caratteri bitmap (compresi i dati bitmap nei contenitori TrueType/OpenType, come i caratteri emoji a colori) non sono supportati.
 
-The UV layout is arranged in 4 horizontal strips, top to bottom: 40% of the height for the front face, 40% for the back face, 10% for the outer edges and 10% for the inner edges.
+Il layout UV è disposto in 4 fasce orizzontali, dall'alto verso il basso: 40% dell'altezza per la faccia anteriore, 40% per la faccia posteriore, 10% per i bordi esterni e 10% per i bordi interni.
 
 .. rst-class:: classref-introduction-group
 
@@ -195,7 +195,7 @@ Controlla l'allineamento orizzontale del testo. Supporta sinistra, centro, destr
 - |void| **set_justification_flags**\ (\ value\: |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\]\ )
 - |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\] **get_justification_flags**\ (\ )
 
-Line fill alignment rules.
+Regole di allineamento del riempimento per le righe.
 
 .. rst-class:: classref-item-separator
 

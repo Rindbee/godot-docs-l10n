@@ -90,7 +90,7 @@ Si es ``true``, genera UV2 al importar para el procesado de :ref:`LightmapGI<cla
 
 :ref:`float<class_float>` **generate_lightmap_uv2_texel_size** = ``0.2`` :ref:`🔗<class_ResourceImporterOBJ_property_generate_lightmap_uv2_texel_size>`
 
-Controla el tamaño de cada texel en el mapa de luz horneado. Un valor más pequeño da como resultado mapas de luz más precisos, a costa de tamaños de mapas de luz más grandes y tiempos de horneado más largos.
+Controla el tamaño de cada texel en el mapa de luz procesado. Un valor más pequeño da como resultado mapas de luz más precisos, a costa de tamaños de mapas de luz más grandes y tiempos de procesado más largos.
 
 \ **Nota:** Solo es efectivo si :ref:`generate_lightmap_uv2<class_ResourceImporterOBJ_property_generate_lightmap_uv2>` es ``true``.
 
@@ -104,7 +104,7 @@ Controla el tamaño de cada texel en el mapa de luz horneado. Un valor más pequ
 
 :ref:`bool<class_bool>` **generate_lods** = ``true`` :ref:`🔗<class_ResourceImporterOBJ_property_generate_lods>`
 
-Si es ``true``, genera variantes de menor detalle de la malla que se mostrarán en la distancia para mejorar el rendimiento del renderizado. No todas las mallas se benefician de LOD, especialmente si nunca se renderizan desde lejos. Deshabilitar esto puede reducir el tamaño del archivo de salida y acelerar la importación. Ver `Nivel de detalle de la malla (LOD) <../tutorials/3d/mesh_lod.html#doc-mesh-lod>`__ para obtener más información.
+Si es ``true``, genera variantes de menor detalle de la malla que se mostrarán en la distancia para mejorar el rendimiento del renderizado. No todas las mallas se benefician de LOD, especialmente si nunca se renderizan desde lejos. Deshabilitar esto puede reducir el tamaño del archivo de salida y acelerar la importación. Véase `Nivel de detalle de la malla (LOD) <../tutorials/3d/mesh_lod.html#doc-mesh-lod>`__ para obtener más información.
 
 .. rst-class:: classref-item-separator
 

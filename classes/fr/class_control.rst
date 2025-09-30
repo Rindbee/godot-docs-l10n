@@ -49,7 +49,7 @@ Tutoriels
 
 - :doc:`Galerie des nœuds de contrôle <../tutorials/ui/control_node_gallery>`
 
-- :doc:`Multiples résolutions <../tutorials/rendering/multiple_resolutions>`
+- :doc:`Résolutions multiples <../tutorials/rendering/multiple_resolutions>`
 
 - `Toutes les démos d'interface graphique <https://github.com/godotengine/godot-demo-projects/tree/master/gui>`__
 
@@ -480,7 +480,7 @@ Emitted when the mouse cursor leaves the control's (and all child control's) vis
 
 **theme_changed**\ (\ ) :ref:`🔗<class_Control_signal_theme_changed>`
 
-Emitted when the :ref:`NOTIFICATION_THEME_CHANGED<class_Control_constant_NOTIFICATION_THEME_CHANGED>` notification is sent.
+Émis lorsque la notification :ref:`NOTIFICATION_THEME_CHANGED<class_Control_constant_NOTIFICATION_THEME_CHANGED>` est envoyée.
 
 .. rst-class:: classref-section-separator
 
@@ -1386,7 +1386,7 @@ The paths to the nodes which are describing this node.
 - |void| **set_accessibility_description**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_accessibility_description**\ (\ )
 
-The human-readable node description that is reported to assistive apps.
+La description facilement lisible du nœud qui est rapportée aux applications d'assistance.
 
 .. rst-class:: classref-item-separator
 
@@ -1454,7 +1454,7 @@ The mode with which a live region updates. A live region is a :ref:`Node<class_N
 - |void| **set_accessibility_name**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_accessibility_name**\ (\ )
 
-The human-readable node name that is reported to assistive apps.
+Le nom facilement lisible du nœud qui est rapporté aux applications d'assistance.
 
 .. rst-class:: classref-item-separator
 
@@ -1537,7 +1537,7 @@ Anchors the top edge of the node to the origin, the center or the end of its par
 
 **Obsolète :** Use :ref:`Node.auto_translate_mode<class_Node_property_auto_translate_mode>` and :ref:`Node.can_auto_translate()<class_Node_method_can_auto_translate>` instead.
 
-Toggles if any text should automatically change to its translated version depending on the current locale.
+Active/désactive si du texte devrait automatiquement changer en sa version traduite selon la langue actuelle.
 
 .. rst-class:: classref-item-separator
 
@@ -2140,9 +2140,9 @@ Signale au :ref:`Container<class_Container>` parent qu'il devrait redimensionner
 - |void| **set_theme**\ (\ value\: :ref:`Theme<class_Theme>`\ )
 - :ref:`Theme<class_Theme>` **get_theme**\ (\ )
 
-The :ref:`Theme<class_Theme>` resource this node and all its **Control** and :ref:`Window<class_Window>` children use. If a child node has its own :ref:`Theme<class_Theme>` resource set, theme items are merged with child's definitions having higher priority.
+La ressource :ref:`Theme<class_Theme>` que ce nœud et tous ses enfants **Control** et :ref:`Window<class_Window>` utilisent. Si un nœud enfant a son propre ensemble de ressources :ref:`Theme<class_Theme>`, les éléments de thème sont fusionnés avec les définitions de l'enfant ayant une priorité plus élevée.
 
-\ **Note:** :ref:`Window<class_Window>` styles will have no effect unless the window is embedded.
+\ **Note :** Les styles de :ref:`Window<class_Window>` n'auront aucun effet à moins que la fenêtre ne soit intégrée.
 
 .. rst-class:: classref-item-separator
 
@@ -2640,7 +2640,7 @@ See also :ref:`get_theme_color()<class_Control_method_get_theme_color>`.
 
 |void| **add_theme_constant_override**\ (\ name\: :ref:`StringName<class_StringName>`, constant\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Control_method_add_theme_constant_override>`
 
-Crée une redéfinition locale pour une constante de thème avec le nom ``name`` spécifié. Les redéfinitions locales ont toujours la priorité lors de la récupération des éléments de thème pour le contrôle. Une surcharge peut être supprimée avec la méthode :ref:`remove_theme_constant_override()<class_Control_method_remove_theme_constant_override>`.
+Crée une redéfinition locale pour une constante de thème nommée ``name``. Les redéfinitions locales ont toujours la priorité lors de la récupération des éléments de thème pour le contrôle. Une surcharge peut être supprimée avec la méthode :ref:`remove_theme_constant_override()<class_Control_method_remove_theme_constant_override>`.
 
 Voir aussi :ref:`get_theme_constant()<class_Control_method_get_theme_constant>`.
 
@@ -2654,7 +2654,7 @@ Voir aussi :ref:`get_theme_constant()<class_Control_method_get_theme_constant>`.
 
 |void| **add_theme_font_override**\ (\ name\: :ref:`StringName<class_StringName>`, font\: :ref:`Font<class_Font>`\ ) :ref:`🔗<class_Control_method_add_theme_font_override>`
 
-Crée une redéfinition locale pour la police :ref:`Font<class_Font>` du thème nommé ``name``. Les redéfinitions locales ont toujours la priorité lors de la récupération des éléments de thème pour le contrôle. Une redéfinition peut être supprimée avec la valeur :ref:`remove_theme_font_override()<class_Control_method_remove_theme_font_override>`.
+Crée une redéfinition locale pour une :ref:`Font<class_Font>` de thème nommée ``name``. Les redéfinitions locales ont toujours la priorité lors de la récupération des éléments de thème pour le contrôle. Une redéfinition peut être supprimée avec la valeur :ref:`remove_theme_font_override()<class_Control_method_remove_theme_font_override>`.
 
 Voir aussi :ref:`get_theme_font()<class_Control_method_get_theme_font>`.
 
@@ -2668,7 +2668,7 @@ Voir aussi :ref:`get_theme_font()<class_Control_method_get_theme_font>`.
 
 |void| **add_theme_font_size_override**\ (\ name\: :ref:`StringName<class_StringName>`, font_size\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Control_method_add_theme_font_size_override>`
 
-Crée une redéfinition locale pour la taille de police du thème nommé ``name``. Les redéfinitions locales ont toujours la priorité lors de la récupération des éléments de thème pour le contrôle. Une redéfinition peut être supprimée avec la valeur :ref:`remove_theme_font_size_override()<class_Control_method_remove_theme_font_size_override>`.
+Crée une redéfinition locale pour une taille de police de thème nommée ``name``. Les redéfinitions locales ont toujours la priorité lors de la récupération des éléments de thème pour le contrôle. Une redéfinition peut être supprimée avec la valeur :ref:`remove_theme_font_size_override()<class_Control_method_remove_theme_font_size_override>`.
 
 Voir aussi :ref:`get_theme_font_size()<class_Control_method_get_theme_font_size>`.
 
@@ -2741,7 +2741,7 @@ See also :ref:`get_theme_stylebox()<class_Control_method_get_theme_stylebox>`.
 
 |void| **begin_bulk_theme_override**\ (\ ) :ref:`🔗<class_Control_method_begin_bulk_theme_override>`
 
-Prevents ``*_theme_*_override`` methods from emitting :ref:`NOTIFICATION_THEME_CHANGED<class_Control_constant_NOTIFICATION_THEME_CHANGED>` until :ref:`end_bulk_theme_override()<class_Control_method_end_bulk_theme_override>` is called.
+Empêche les méthodes ``*_theme_*_override`` d'émettre :ref:`NOTIFICATION_THEME_CHANGED<class_Control_constant_NOTIFICATION_THEME_CHANGED>` jusqu'à ce que :ref:`end_bulk_theme_override()<class_Control_method_end_bulk_theme_override>` soit appelée.
 
 .. rst-class:: classref-item-separator
 
@@ -2753,7 +2753,7 @@ Prevents ``*_theme_*_override`` methods from emitting :ref:`NOTIFICATION_THEME_C
 
 |void| **end_bulk_theme_override**\ (\ ) :ref:`🔗<class_Control_method_end_bulk_theme_override>`
 
-Ends a bulk theme override update. See :ref:`begin_bulk_theme_override()<class_Control_method_begin_bulk_theme_override>`.
+Termine une mise à jour de masse de redéfinition du thème. Voir :ref:`begin_bulk_theme_override()<class_Control_method_begin_bulk_theme_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3251,7 +3251,7 @@ Voir :ref:`get_theme_color()<class_Control_method_get_theme_color>` pour plus de
 
 :ref:`bool<class_bool>` **has_theme_color_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Control_method_has_theme_color_override>`
 
-Renvoie ``true`` s'il y a une redéfinition locale pour la :ref:`Color<class_Color>` de thème avec le nom ``name`` spécifié dans ce nœud **Control**.
+Renvoie ``true`` s'il y a une redéfinition locale pour une :ref:`Color<class_Color>` de thème nommée ``name`` dans ce nœud **Control**.
 
 Voir :ref:`add_theme_color_override()<class_Control_method_add_theme_color_override>`.
 
@@ -3279,7 +3279,7 @@ Voir :ref:`get_theme_color()<class_Control_method_get_theme_color>` pour plus de
 
 :ref:`bool<class_bool>` **has_theme_constant_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Control_method_has_theme_constant_override>`
 
-Renvoie ``true`` s'il y a une redéfinition locale pour une constante de thème avec le nom ``name`` spécifié dans ce nœud **Control**.
+Renvoie ``true`` s'il y a une redéfinition locale pour une constante de thème nommée ``name`` dans ce nœud **Control**.
 
 Voir :ref:`add_theme_constant_override()<class_Control_method_add_theme_constant_override>`.
 
@@ -3307,7 +3307,7 @@ Voir :ref:`get_theme_color()<class_Control_method_get_theme_color>` pour plus de
 
 :ref:`bool<class_bool>` **has_theme_font_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Control_method_has_theme_font_override>`
 
-Renvoie ``true`` s'il y a une redéfinition pour la :ref:`Font<class_Font>` du thème avec le nom ``name`` spécifié dans ce nœud **Control**.
+Renvoie ``true`` s'il y a une redéfinition pour une :ref:`Font<class_Font>` de thème nommée ``name`` dans ce nœud **Control**.
 
 Voir :ref:`add_theme_font_override()<class_Control_method_add_theme_font_override>`.
 
@@ -3335,9 +3335,9 @@ Voir :ref:`get_theme_color()<class_Control_method_get_theme_color>` pour les dé
 
 :ref:`bool<class_bool>` **has_theme_font_size_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Control_method_has_theme_font_size_override>`
 
-Returns ``true`` if there is a local override for a theme font size with the specified ``name`` in this **Control** node.
+Renvoie ``true`` s'il y a une redéfinition locale pour une taille de police de thème nommée ``name`` dans ce nœud **Control**.
 
-See :ref:`add_theme_font_size_override()<class_Control_method_add_theme_font_size_override>`.
+Voir :ref:`add_theme_font_size_override()<class_Control_method_add_theme_font_size_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3363,9 +3363,9 @@ See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
 
 :ref:`bool<class_bool>` **has_theme_icon_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Control_method_has_theme_icon_override>`
 
-Returns ``true`` if there is a local override for a theme icon with the specified ``name`` in this **Control** node.
+Renvoie ``true`` s'il y a une redéfinition locale pour une icône de thème nommée ``name`` dans ce nœud **Control**.
 
-See :ref:`add_theme_icon_override()<class_Control_method_add_theme_icon_override>`.
+Voir :ref:`add_theme_icon_override()<class_Control_method_add_theme_icon_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3391,9 +3391,9 @@ See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
 
 :ref:`bool<class_bool>` **has_theme_stylebox_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Control_method_has_theme_stylebox_override>`
 
-Returns ``true`` if there is a local override for a theme :ref:`StyleBox<class_StyleBox>` with the specified ``name`` in this **Control** node.
+Renvoie ``true`` s'il y a une redéfinition locale pour une :ref:`StyleBox<class_StyleBox>` de thème nommée ``name`` dans ce nœud **Control**.
 
-See :ref:`add_theme_stylebox_override()<class_Control_method_add_theme_stylebox_override>`.
+Voir :ref:`add_theme_stylebox_override()<class_Control_method_add_theme_stylebox_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3443,7 +3443,7 @@ Give up the focus. No other control will be able to receive input.
 
 |void| **remove_theme_color_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_Control_method_remove_theme_color_override>`
 
-Removes a local override for a theme :ref:`Color<class_Color>` with the specified ``name`` previously added by :ref:`add_theme_color_override()<class_Control_method_add_theme_color_override>` or via the Inspector dock.
+Retire une redéfinition locale pour une :ref:`Color<class_Color>` de thème nommée ``name`` ajoutée précédemment par :ref:`add_theme_color_override()<class_Control_method_add_theme_color_override>` ou via le dock Inspecteur.
 
 .. rst-class:: classref-item-separator
 
@@ -3467,7 +3467,7 @@ Supprime une redéfinition locale pour une constante de thème nommée ``name`` 
 
 |void| **remove_theme_font_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_Control_method_remove_theme_font_override>`
 
-Removes a local override for a theme :ref:`Font<class_Font>` with the specified ``name`` previously added by :ref:`add_theme_font_override()<class_Control_method_add_theme_font_override>` or via the Inspector dock.
+Retire une redéfinition locale pour une :ref:`Font<class_Font>` de thème nommée ``name`` ajoutée précédemment par :ref:`add_theme_font_override()<class_Control_method_add_theme_font_override>` ou via le dock Inspecteur.
 
 .. rst-class:: classref-item-separator
 
@@ -3479,7 +3479,7 @@ Removes a local override for a theme :ref:`Font<class_Font>` with the specified 
 
 |void| **remove_theme_font_size_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_Control_method_remove_theme_font_size_override>`
 
-Removes a local override for a theme font size with the specified ``name`` previously added by :ref:`add_theme_font_size_override()<class_Control_method_add_theme_font_size_override>` or via the Inspector dock.
+Retire une redéfinition locale pour une taille de police de thème nommée ``name`` ajoutée précédemment par :ref:`add_theme_font_size_override()<class_Control_method_add_theme_font_size_override>` ou via le dock Inspecteur.
 
 .. rst-class:: classref-item-separator
 
@@ -3491,7 +3491,7 @@ Removes a local override for a theme font size with the specified ``name`` previ
 
 |void| **remove_theme_icon_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_Control_method_remove_theme_icon_override>`
 
-Removes a local override for a theme icon with the specified ``name`` previously added by :ref:`add_theme_icon_override()<class_Control_method_add_theme_icon_override>` or via the Inspector dock.
+Retire une redéfinition locale pour une icône de thème nommée ``name`` ajoutée précédemment par :ref:`add_theme_icon_override()<class_Control_method_add_theme_icon_override>` ou via le dock Inspecteur.
 
 .. rst-class:: classref-item-separator
 
@@ -3503,7 +3503,7 @@ Removes a local override for a theme icon with the specified ``name`` previously
 
 |void| **remove_theme_stylebox_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_Control_method_remove_theme_stylebox_override>`
 
-Removes a local override for a theme :ref:`StyleBox<class_StyleBox>` with the specified ``name`` previously added by :ref:`add_theme_stylebox_override()<class_Control_method_add_theme_stylebox_override>` or via the Inspector dock.
+Retire une redéfinition locale pour une :ref:`StyleBox<class_StyleBox>` de thème nommée ``name`` ajoutée précédemment par :ref:`add_theme_stylebox_override()<class_Control_method_add_theme_stylebox_override>` ou via le dock Inspecteur.
 
 .. rst-class:: classref-item-separator
 

@@ -724,7 +724,7 @@ Articolazione della punta del mignolo destro.
 
 :ref:`Joint<enum_XRBodyTracker_Joint>` **JOINT_LOWER_CHEST** = ``76``
 
-Lower chest joint.
+Articolazione del torace inferiore.
 
 .. _class_XRBodyTracker_constant_JOINT_LEFT_SCAPULA:
 
@@ -732,7 +732,7 @@ Lower chest joint.
 
 :ref:`Joint<enum_XRBodyTracker_Joint>` **JOINT_LEFT_SCAPULA** = ``77``
 
-Left scapula joint.
+Articolazione della scapola sinistra.
 
 .. _class_XRBodyTracker_constant_JOINT_LEFT_WRIST_TWIST:
 
@@ -740,7 +740,7 @@ Left scapula joint.
 
 :ref:`Joint<enum_XRBodyTracker_Joint>` **JOINT_LEFT_WRIST_TWIST** = ``78``
 
-Left wrist twist joint.
+Articolazione di torsione del polso sinistro.
 
 .. _class_XRBodyTracker_constant_JOINT_RIGHT_SCAPULA:
 
@@ -748,7 +748,7 @@ Left wrist twist joint.
 
 :ref:`Joint<enum_XRBodyTracker_Joint>` **JOINT_RIGHT_SCAPULA** = ``79``
 
-Right scapula joint.
+Articolazione della scapola destra.
 
 .. _class_XRBodyTracker_constant_JOINT_RIGHT_WRIST_TWIST:
 
@@ -756,7 +756,7 @@ Right scapula joint.
 
 :ref:`Joint<enum_XRBodyTracker_Joint>` **JOINT_RIGHT_WRIST_TWIST** = ``80``
 
-Right wrist twist joint.
+Articolazione di torsione del polso destro.
 
 .. _class_XRBodyTracker_constant_JOINT_LEFT_FOOT_TWIST:
 
@@ -764,7 +764,7 @@ Right wrist twist joint.
 
 :ref:`Joint<enum_XRBodyTracker_Joint>` **JOINT_LEFT_FOOT_TWIST** = ``81``
 
-Left foot twist joint.
+Articolazione di torsione del piede sinistro.
 
 .. _class_XRBodyTracker_constant_JOINT_LEFT_HEEL:
 
@@ -772,7 +772,7 @@ Left foot twist joint.
 
 :ref:`Joint<enum_XRBodyTracker_Joint>` **JOINT_LEFT_HEEL** = ``82``
 
-Left heel joint.
+Articolazione del tallone sinistro.
 
 .. _class_XRBodyTracker_constant_JOINT_LEFT_MIDDLE_FOOT:
 
@@ -780,7 +780,7 @@ Left heel joint.
 
 :ref:`Joint<enum_XRBodyTracker_Joint>` **JOINT_LEFT_MIDDLE_FOOT** = ``83``
 
-Left middle foot joint.
+Articolazione della parte media del piede sinistro.
 
 .. _class_XRBodyTracker_constant_JOINT_RIGHT_FOOT_TWIST:
 
@@ -788,7 +788,7 @@ Left middle foot joint.
 
 :ref:`Joint<enum_XRBodyTracker_Joint>` **JOINT_RIGHT_FOOT_TWIST** = ``84``
 
-Right foot twist joint.
+Articolazione di torsione del piede destro.
 
 .. _class_XRBodyTracker_constant_JOINT_RIGHT_HEEL:
 
@@ -796,7 +796,7 @@ Right foot twist joint.
 
 :ref:`Joint<enum_XRBodyTracker_Joint>` **JOINT_RIGHT_HEEL** = ``85``
 
-Right heel joint.
+Articolazione del tallone destro.
 
 .. _class_XRBodyTracker_constant_JOINT_RIGHT_MIDDLE_FOOT:
 
@@ -804,7 +804,7 @@ Right heel joint.
 
 :ref:`Joint<enum_XRBodyTracker_Joint>` **JOINT_RIGHT_MIDDLE_FOOT** = ``86``
 
-Right middle foot joint.
+Articolazione della parte media del piede destro.
 
 .. _class_XRBodyTracker_constant_JOINT_MAX:
 

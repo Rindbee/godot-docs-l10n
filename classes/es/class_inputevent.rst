@@ -245,7 +245,7 @@ Devuelve ``true`` si este evento de entrada ha sido cancelado.
 
 Devuelve ``true`` si este evento de entrada es un evento de eco (solo para eventos de tipo :ref:`InputEventKey<class_InputEventKey>`). Un evento de eco es un evento de tecla repetido que se envía cuando el usuario mantiene pulsada la tecla. Cualquier otro tipo de evento devuelve ``false``.
 
-\ **Nota:** La velocidad a la que se envían los eventos de eco suele ser de unos 20 eventos por segundo (después de mantener pulsada la tecla durante aproximadamente medio segundo). Sin embargo, el retardo/velocidad de repetición de las teclas puede ser modificado por el usuario o desactivado por completo en la configuración del sistema operativo. Para asegurar que su proyecto funciona correctamente en todas las configuraciones, no asuma que el usuario tiene una configuración específica de repetición de teclas en el comportamiento de su proyecto.
+\ **Nota:** La velocidad a la que se envían los eventos de eco suele ser de unos 20 eventos por segundo (después de mantener pulsada la tecla durante aproximadamente medio segundo). Sin embargo, el retardo/velocidad de repetición de las teclas puede ser modificado por el usuario o desactivado por completo en la configuración del sistema operativo. Para asegurar que su proyecto funciona correctamente en todas las configuraciones, no asumas que el usuario tiene una configuración específica de repetición de teclas en el comportamiento de tu proyecto.
 
 .. rst-class:: classref-item-separator
 
@@ -275,7 +275,7 @@ Si ``exact_match`` es ``false``, la comprobación ignora los modificadores de en
 
 Devuelve ``true`` si este evento de entrada está presionado. No es relevante para eventos de tipo :ref:`InputEventMouseMotion<class_InputEventMouseMotion>` o :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`.
 
-\ **Nota:** Debido al efecto fantasma del teclado, :ref:`is_pressed()<class_InputEvent_method_is_pressed>` puede devolver ``false`` incluso si una de las teclas de la acción está presionada. Consulta `Ejemplos de entrada <../tutorials/inputs/input_examples.html#keyboard-events>`__ en la documentación para obtener más información.
+\ **Nota:** Debido al efecto fantasma del teclado, :ref:`is_pressed()<class_InputEvent_method_is_pressed>` puede devolver ``false`` incluso si una de las teclas de la acción está presionada. Véase `Ejemplos de entrada <../tutorials/inputs/input_examples.html#keyboard-events>`__ en la documentación para obtener más información.
 
 .. rst-class:: classref-item-separator
 

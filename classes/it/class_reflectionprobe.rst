@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/ReflectionProbe.xml.
+.. meta::
+	:keywords: environment, envmap
 
 .. _class_ReflectionProbe:
 
@@ -17,15 +17,15 @@ Cattura l'ambiente circostante per creare riflessi rapidi e precisi da un punto 
 Descrizione
 ----------------------
 
-Captures its surroundings as a cubemap, and stores versions of it with increasing levels of blur to simulate different material roughnesses.
+Cattura l'ambiente circostante come una cubemap e ne memorizza versioni con livelli crescenti di sfocatura per simulare diverse rugosità dei materiali.
 
-The **ReflectionProbe** is used to create high-quality reflections at a low performance cost (when :ref:`update_mode<class_ReflectionProbe_property_update_mode>` is :ref:`UPDATE_ONCE<class_ReflectionProbe_constant_UPDATE_ONCE>`). **ReflectionProbe**\ s can be blended together and with the rest of the scene smoothly. **ReflectionProbe**\ s can also be combined with :ref:`VoxelGI<class_VoxelGI>`, SDFGI (:ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>`) and screen-space reflections (:ref:`Environment.ssr_enabled<class_Environment_property_ssr_enabled>`) to get more accurate reflections in specific areas. **ReflectionProbe**\ s render all objects within their :ref:`cull_mask<class_ReflectionProbe_property_cull_mask>`, so updating them can be quite expensive. It is best to update them once with the important static objects and then leave them as-is.
+\ **ReflectionProbe** serve per creare riflessi di alta qualità a basso costo sulle prestazioni (quando :ref:`update_mode<class_ReflectionProbe_property_update_mode>` è impostato su :ref:`UPDATE_ONCE<class_ReflectionProbe_constant_UPDATE_ONCE>`). È possibile fondere fluidamente i **ReflectionProbe** tra loro e con il resto della scena. È possibile anche combinare i **ReflectionProbe** con :ref:`VoxelGI<class_VoxelGI>`, SDFGI (:ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>`) e riflessioni sullo spazio dello schermo (:ref:`Environment.ssr_enabled<class_Environment_property_ssr_enabled>`) per ottenere riflessi più accurati in aree specifiche. I **ReflectionProbe** renderizzano tutti gli oggetti all'interno della loro :ref:`cull_mask<class_ReflectionProbe_property_cull_mask>`, quindi aggiornarli può essere piuttosto costoso. È consigliabile aggiornarli una sola volta con gli oggetti statici importanti e poi lasciarli così come sono.
 
-\ **Note:** Unlike :ref:`VoxelGI<class_VoxelGI>` and SDFGI, **ReflectionProbe**\ s only source their environment from a :ref:`WorldEnvironment<class_WorldEnvironment>` node. If you specify an :ref:`Environment<class_Environment>` resource within a :ref:`Camera3D<class_Camera3D>` node, it will be ignored by the **ReflectionProbe**. This can lead to incorrect lighting within the **ReflectionProbe**.
+\ **Nota:** A differenza di :ref:`VoxelGI<class_VoxelGI>` e SDFGI, le **ReflectionProbe** ricavano il loro ambiente solo da un nodo :ref:`WorldEnvironment<class_WorldEnvironment>`. Se si specifica una risorsa :ref:`Environment<class_Environment>` all'interno di un nodo :ref:`Camera3D<class_Camera3D>`, questa verrà ignorata da **ReflectionProbe**. Ciò può causare un'illuminazione errata all'interno di **ReflectionProbe**.
 
-\ **Note:** When using the Mobile rendering method, only ``8`` reflection probes can be displayed on each mesh resource, while the Compatibility rendering method only supports up to ``2`` reflection probes on each mesh. Attempting to display more than ``8`` reflection probes on a single mesh resource using the Mobile renderer will result in reflection probes flickering in and out as the camera moves, while the Compatibility renderer will not render any additional probes if more than ``2`` reflection probes are being used.
+\ **Nota:** Quando si utilizza il metodo di rendering Mobile, è possibile visualizzare solo ``8`` sonde di riflessione su ciascuna risorsa mesh, mentre il metodo di rendering Compatibilità supporta solo fino a ``2`` sonde di riflessione su ciascuna mesh. Tentare di visualizzare più di ``8`` sonde su una singola risorsa mesh tramite il renderer Mobile provocherà uno sfarfallio tra sonde mentre la telecamera si muove, mentre il renderer Compatibilità non renderizzerà alcuna sonda in più se sono utilizzate più di ``2`` sonde.
 
-\ **Note:** When using the Mobile rendering method, reflection probes will only correctly affect meshes whose visibility AABB intersects with the reflection probe's AABB. If using a shader to deform the mesh in a way that makes it go outside its AABB, :ref:`GeometryInstance3D.extra_cull_margin<class_GeometryInstance3D_property_extra_cull_margin>` must be increased on the mesh. Otherwise, the reflection probe may not be visible on the mesh.
+\ **Nota:** Quando si utilizza il metodo di rendering Mobile, le sonde di riflessione influenzeranno correttamente solo le mesh il cui AABB di visibilità interseca l'AABB della sonda di riflessione. Se si usa uno shader per deformare la mesh in modo che esca dal suo AABB, è necessario aumentare il valore di :ref:`GeometryInstance3D.extra_cull_margin<class_GeometryInstance3D_property_extra_cull_margin>` sulla mesh. Altrimenti, la sonda di riflessione potrebbe non essere visibile sulla mesh.
 
 .. rst-class:: classref-introduction-group
 

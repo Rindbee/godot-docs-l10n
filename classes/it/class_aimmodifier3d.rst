@@ -14,9 +14,9 @@ L'**AimModifier3D** ruota un osso per puntare verso un osso di riferimento.
 Descrizione
 ----------------------
 
-This is a simple version of :ref:`LookAtModifier3D<class_LookAtModifier3D>` that only allows bone to the reference without advanced options such as angle limitation or time-based interpolation.
+Questa è una versione semplice di :ref:`LookAtModifier3D<class_LookAtModifier3D>` che consente solo un osso come riferimento, senza opzioni avanzate come la limitazione dell'angolo o l'interpolazione nel tempo.
 
-The feature is simplified, but instead it is implemented with smooth tracking without euler, see :ref:`set_use_euler()<class_AimModifier3D_method_set_use_euler>`.
+La funzionalità è semplificata, ma è implementata con un tracciamento fluido senza Eulero, vedere :ref:`set_use_euler()<class_AimModifier3D_method_set_use_euler>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -165,9 +165,9 @@ Imposta l'asse della prima rotazione. È abilitato solo se :ref:`is_using_euler(
 
 |void| **set_use_euler**\ (\ index\: :ref:`int<class_int>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_AimModifier3D_method_set_use_euler>`
 
-If sets ``enabled`` to ``true``, it provides rotation with using euler.
+Se ``enabled`` è impostato su ``true``, la rotazione avviene attraverso Eulero.
 
-If sets ``enabled`` to ``false``, it provides rotation with using rotation by arc generated from the forward axis vector and the vector toward the reference.
+Se ``enabled`` è impostato su ``false``, la rotazione avviene attraverso un arco generato dal vettore dell'asse in avanti e dal vettore verso il riferimento.
 
 .. rst-class:: classref-item-separator
 
@@ -179,7 +179,7 @@ If sets ``enabled`` to ``false``, it provides rotation with using rotation by ar
 
 |void| **set_use_secondary_rotation**\ (\ index\: :ref:`int<class_int>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_AimModifier3D_method_set_use_secondary_rotation>`
 
-If sets ``enabled`` to ``true``, it provides rotation by two axes. It is enabled only if :ref:`is_using_euler()<class_AimModifier3D_method_is_using_euler>` is ``true``.
+Se ``enabled`` è impostato su ``true``, fornisce la rotazione su due assi. È abilitato solo se :ref:`is_using_euler()<class_AimModifier3D_method_is_using_euler>` è ``true``.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

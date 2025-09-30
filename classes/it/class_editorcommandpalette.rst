@@ -84,7 +84,7 @@ Aggiunge un comando personalizzato all'EditorCommandPalette.
 
 - ``command_name``: :ref:`String<class_String>` (Nome del **Comando**. Viene visualizzato all'utente.)
 
-- ``key_name``: :ref:`String<class_String>` (Nome della chiave per un particolare **Comando**. Viene utilizzato per identificare in modo univoco il **Comando**.)
+- ``key_name``: :ref:`String<class_String>` (Nome della chiave per un particolare **Comando**. Serve per identificare univocamente il **Comando**.)
 
 - ``binded_callable``: :ref:`Callable<class_Callable>` (Chiamabile del **Comando**. Verrà eseguito quando il **Comando** viene selezionato.)
 

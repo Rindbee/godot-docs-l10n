@@ -16,7 +16,7 @@ Descripción
 
 Una textura 2D que obtiene colores de un :ref:`Gradient<class_Gradient>` para rellenar los datos de la textura. Esta textura es capaz de transformar una transición de color en diferentes patrones, como un gradiente lineal o radial. La textura se rellena interpolando colores que comienzan desde los desplazamientos :ref:`fill_from<class_GradientTexture2D_property_fill_from>` a :ref:`fill_to<class_GradientTexture2D_property_fill_to>` de forma predeterminada, pero el relleno del gradiente se puede repetir para cubrir toda la textura.
 
-El gradiente se muestrea individualmente para cada píxel, por lo que no necesariamente representa una copia exacta del gradiente (ver :ref:`width<class_GradientTexture2D_property_width>` y :ref:`height<class_GradientTexture2D_property_height>`). Ver también :ref:`GradientTexture1D<class_GradientTexture1D>`, :ref:`CurveTexture<class_CurveTexture>` y :ref:`CurveXYZTexture<class_CurveXYZTexture>`.
+El gradiente se muestrea individualmente para cada píxel, por lo que no necesariamente representa una copia exacta del gradiente (ver :ref:`width<class_GradientTexture2D_property_width>` y :ref:`height<class_GradientTexture2D_property_height>`). Véase también :ref:`GradientTexture1D<class_GradientTexture1D>`, :ref:`CurveTexture<class_CurveTexture>` y :ref:`CurveXYZTexture<class_CurveXYZTexture>`.
 
 .. rst-class:: classref-reftable-group
 

@@ -443,7 +443,9 @@ enum **PlatformOnLeave**: :ref:`🔗<enum_CharacterBody3D_PlatformOnLeave>`
 - |void| **set_velocity**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_velocity**\ (\ )
 
-Текущий вектор скорости (обычно метры в секунду), используемый и изменяемый во время вызовов :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
+Current velocity vector (typically meters per second), used and modified during calls to :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
+
+This property should not be set to a value multiplied by ``delta``, because this happens internally in :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Otherwise, the simulation will run at an incorrect speed.
 
 .. rst-class:: classref-item-separator
 
@@ -697,13 +699,15 @@ enum **PlatformOnLeave**: :ref:`🔗<enum_CharacterBody3D_PlatformOnLeave>`
 
 :ref:`bool<class_bool>` **move_and_slide**\ (\ ) :ref:`🔗<class_CharacterBody3D_method_move_and_slide>`
 
-Перемещает тело на основе :ref:`velocity<class_CharacterBody3D_property_velocity>`. Если тело сталкивается с другим, оно будет скользить вдоль другого тела, а не останавливаться немедленно. Если другое тело является **CharacterBody3D** или :ref:`RigidBody3D<class_RigidBody3D>`, оно также будет затронуто движением другого тела. Вы можете использовать это, чтобы заставить движущиеся и вращающиеся платформы или заставить узлы толкать другие узлы.
+Moves the body based on :ref:`velocity<class_CharacterBody3D_property_velocity>`. If the body collides with another, it will slide along the other body rather than stop immediately. If the other body is a **CharacterBody3D** or :ref:`RigidBody3D<class_RigidBody3D>`, it will also be affected by the motion of the other body. You can use this to make moving and rotating platforms, or to make nodes push other nodes.
 
-Изменяет :ref:`velocity<class_CharacterBody3D_property_velocity>`, если произошло столкновение скольжения. Чтобы получить последнее столкновение, вызовите :ref:`get_last_slide_collision()<class_CharacterBody3D_method_get_last_slide_collision>`, для получения более подробной информации о произошедших столкновениях используйте :ref:`get_slide_collision()<class_CharacterBody3D_method_get_slide_collision>`.
+This method should be used in :ref:`Node._physics_process()<class_Node_private_method__physics_process>` (or in a method called by :ref:`Node._physics_process()<class_Node_private_method__physics_process>`), as it uses the physics step's ``delta`` value automatically in calculations. Otherwise, the simulation will run at an incorrect speed.
 
-Когда тело касается движущейся платформы, скорость платформы автоматически добавляется к движению тела. Если столкновение происходит из-за движения платформы, оно всегда будет первым в столкновениях скольжения.
+Modifies :ref:`velocity<class_CharacterBody3D_property_velocity>` if a slide collision occurred. To get the latest collision call :ref:`get_last_slide_collision()<class_CharacterBody3D_method_get_last_slide_collision>`, for more detailed information about collisions that occurred, use :ref:`get_slide_collision()<class_CharacterBody3D_method_get_slide_collision>`.
 
-Возвращает ``true``, если тело столкнулось, в противном случае возвращает ``false``.
+When the body touches a moving platform, the platform's velocity is automatically added to the body motion. If a collision occurs due to the platform's motion, it will always be first in the slide collisions.
+
+Returns ``true`` if the body collided, otherwise, returns ``false``.
 
 .. |virtual| replace:: :abbr:`virtual (Этот метод обычно должен быть переопределен пользователем, чтобы иметь какой-либо эффект.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -1,7 +1,7 @@
 :github_url: hide
 
-.. Generator: https://github.com/godotengine/godot/tree/master/doc/tools/make_rst.py.
-.. XML source: https://github.com/godotengine/godot/tree/master/doc/classes/MultiplayerPeerExtension.xml.
+.. meta::
+	:keywords: network
 
 .. _class_MultiplayerPeerExtension:
 

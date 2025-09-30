@@ -131,11 +131,11 @@ Imposta il **Material** da utilizzare per il passaggio successivo. Questo render
 - |void| **set_render_priority**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_render_priority**\ (\ )
 
-Sets the render priority for objects in 3D scenes. Higher priority objects will be sorted in front of lower priority objects. In other words, all objects with :ref:`render_priority<class_Material_property_render_priority>` ``1`` will render on top of all objects with :ref:`render_priority<class_Material_property_render_priority>` ``0``.
+Imposta la priorità di rendering per gli oggetti nelle scene 3D. Gli oggetti con priorità più alta saranno ordinati prima di quelli con priorità più bassa. In altre parole, tutti gli oggetti con un :ref:`render_priority<class_Material_property_render_priority>` di ``1`` saranno renderizzati prima di tutti gli oggetti con un :ref:`render_priority<class_Material_property_render_priority>` di ``0``.
 
-\ **Note:** This only applies to :ref:`StandardMaterial3D<class_StandardMaterial3D>`\ s and :ref:`ShaderMaterial<class_ShaderMaterial>`\ s with type "Spatial".
+\ **Nota:** Questo si applica solo ai :ref:`StandardMaterial3D<class_StandardMaterial3D>` e :ref:`ShaderMaterial<class_ShaderMaterial>` con tipo "Spatial".
 
-\ **Note:** This will not impact how transparent objects are sorted relative to opaque objects or how dynamic meshes will be sorted relative to other opaque meshes. This is because all transparent objects are drawn after all opaque objects and all dynamic opaque meshes are drawn before other opaque meshes.
+\ **Nota:** Questo non avrà alcun impatto sul modo in cui gli oggetti trasparenti sono ordinati rispetto agli oggetti opachi o sul modo in cui le mesh dinamiche sono ordinate rispetto ad altre mesh opache. Ciò perché tutti gli oggetti trasparenti sono disegnati dopo tutti gli oggetti opachi e tutte le mesh opache dinamiche sono disegnate prima di altre mesh opache.
 
 .. rst-class:: classref-section-separator
 

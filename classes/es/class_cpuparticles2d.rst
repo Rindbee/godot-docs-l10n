@@ -733,7 +733,7 @@ El color inicial de cada partícula. Si se define :ref:`texture<class_CPUParticl
 - |void| **set_color_initial_ramp**\ (\ value\: :ref:`Gradient<class_Gradient>`\ )
 - :ref:`Gradient<class_Gradient>` **get_color_initial_ramp**\ (\ )
 
-El color inicial de cada partícula variará a lo largo de este :ref:`Gradient<class_Gradient>` (multiplicado por ``color del miembro``).
+El color inicial de cada partícula variará a lo largo de este :ref:`Gradient<class_Gradient>` (multiplicado por :ref:`color<class_CPUParticles2D_property_color>`).
 
 .. rst-class:: classref-item-separator
 

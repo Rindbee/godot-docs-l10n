@@ -14,7 +14,7 @@ Interpola una proprietà di un :ref:`Object<class_Object>` nel corso del tempo.
 Descrizione
 ----------------------
 
-**PropertyTweener** è utilizzato per interpolare una proprietà in un oggetto. Vedi :ref:`Tween.tween_property()<class_Tween_method_tween_property>` per ulteriori informazioni sull'utilizzo.
+**PropertyTweener** serve per interpolare una proprietà in un oggetto. Vedi :ref:`Tween.tween_property()<class_Tween_method_tween_property>` per ulteriori informazioni sull'utilizzo.
 
 Il tweener terminerà automaticamente se l'oggetto di destinazione viene liberato.
 

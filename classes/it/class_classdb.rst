@@ -14,9 +14,9 @@ Un archivio di informazioni sulle classi.
 Descrizione
 ----------------------
 
-Provides access to metadata stored for every available engine class.
+Fornisce l'accesso ai metadati memorizzati per ogni classe disponibile nel motore.
 
-\ **Note:** Script-defined classes with ``class_name`` are not part of **ClassDB**, so they will not return reflection data such as a method or property list. However, :ref:`GDExtension<class_GDExtension>`-defined classes *are* part of **ClassDB**, so they will return reflection data.
+\ **Nota:** Le classi definite tramite script con ``class_name`` non fanno parte di **ClassDB**, quindi non restituiranno dati di riflessione come liste di metodi o proprietà. Tuttavia, le classi definite tramite :ref:`GDExtension<class_GDExtension>` *fanno* parte di **ClassDB**, quindi restituiranno dati di riflessione.
 
 .. rst-class:: classref-reftable-group
 
@@ -436,9 +436,9 @@ Imposta il valore della proprietà nominata ``property`` dell'oggetto ``object``
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_class_list**\ (\ ) |const| :ref:`🔗<class_ClassDB_method_get_class_list>`
 
-Returns the names of all engine classes available.
+Restituisce i nomi di tutte le classi disponibili nel motore.
 
-\ **Note:** Script-defined classes with ``class_name`` are not included in this list. Use :ref:`ProjectSettings.get_global_class_list()<class_ProjectSettings_method_get_global_class_list>` to get a list of script-defined classes instead.
+\ **Nota:** Le classi definite da script con ``class_name`` non sono incluse in questa lista. Usa invece :ref:`ProjectSettings.get_global_class_list()<class_ProjectSettings_method_get_global_class_list>` per ottenere una lista di classi definite da script.
 
 .. rst-class:: classref-item-separator
 
@@ -450,7 +450,7 @@ Returns the names of all engine classes available.
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_inheriters_from_class**\ (\ class\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_ClassDB_method_get_inheriters_from_class>`
 
-Returns the names of all engine classes that directly or indirectly inherit from ``class``.
+Restituisce i nomi di tutte le classi nel motore che ereditano dalla classe ``class`` direttamente o indirettamente.
 
 .. rst-class:: classref-item-separator
 

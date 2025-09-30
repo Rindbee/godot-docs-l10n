@@ -16,11 +16,11 @@ Un nodo per guidare le mesh di volto standard dai pesi di un :ref:`XRFaceTracker
 Descrizione
 ----------------------
 
-This node applies weights from an :ref:`XRFaceTracker<class_XRFaceTracker>` to a mesh with supporting face blend shapes.
+Questo nodo applica i pesi da un :ref:`XRFaceTracker<class_XRFaceTracker>` a una mesh con forme di fusione dei volti supportati.
 
-The `Unified Expressions <https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/unified-blendshapes>`__ blend shapes are supported, as well as ARKit and SRanipal blend shapes.
+Sono supportate le forme di fusione `Unified Expressions <https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/unified-blendshapes>`__, così come le forme di fusione ARKit e SRanipal.
 
-The node attempts to identify blend shapes based on name matching. Blend shapes should match the names listed in the `Unified Expressions Compatibility <https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/compatibility/overview>`__ chart.
+Il nodo tenta di identificare le forme di fusione in base alla corrispondenza dei nomi. Le forme di fusione dovrebbero corrispondere ai nomi elencati nel grafico `Unified Expressions Compatibility <https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/compatibility/overview>`__.
 
 .. rst-class:: classref-introduction-group
 

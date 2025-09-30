@@ -63,7 +63,7 @@ Descriptions des méthodes
 
 :ref:`Resource<class_Resource>` **create_placeholder**\ (\ ) |const| :ref:`🔗<class_CubemapArray_method_create_placeholder>`
 
-Creates a placeholder version of this resource (:ref:`PlaceholderCubemapArray<class_PlaceholderCubemapArray>`).
+Crée une version placeholder de cette ressource (:ref:`PlaceholderCubemapArray<class_PlaceholderCubemapArray>`).
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

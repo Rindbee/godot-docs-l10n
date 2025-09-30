@@ -14,13 +14,13 @@ Nodo para mapas basados en tiles 2D.
 Descripción
 ----------------------
 
-Node for 2D tile-based maps. A **TileMapLayer** uses a :ref:`TileSet<class_TileSet>` which contain a list of tiles which are used to create grid-based maps. Unlike the :ref:`TileMap<class_TileMap>` node, which is deprecated, **TileMapLayer** has only one layer of tiles. You can use several **TileMapLayer** to achieve the same result as a :ref:`TileMap<class_TileMap>` node.
+Nodo para mapas 2D basados en tiles. Un **TileMapLayer** utiliza un :ref:`TileSet<class_TileSet>` que contiene una lista de tiles que se utilizan para crear mapas basados en cuadrículas. A diferencia del nodo :ref:`TileMap<class_TileMap>`, que está obsoleto, **TileMapLayer** tiene solo una capa de tiles. Puedes usar varios **TileMapLayer** para lograr el mismo resultado que un nodo :ref:`TileMap<class_TileMap>`.
 
-For performance reasons, all TileMap updates are batched at the end of a frame. Notably, this means that scene tiles from a :ref:`TileSetScenesCollectionSource<class_TileSetScenesCollectionSource>` are initialized after their parent. This is only queued when inside the scene tree.
+Por razones de rendimiento, todas las actualizaciones de TileMap se procesan por lotes al final de un fotograma. En particular, esto significa que los tiles de escena de un :ref:`TileSetScenesCollectionSource<class_TileSetScenesCollectionSource>` se inicializan después de su padre. Esto solo se pone en cola cuando está dentro del árbol de escena.
 
-To force an update earlier on, call :ref:`update_internals()<class_TileMapLayer_method_update_internals>`.
+Para forzar una actualización antes, llama a :ref:`update_internals()<class_TileMapLayer_method_update_internals>`.
 
-\ **Note:** For performance and compatibility reasons, the coordinates serialized by **TileMapLayer** are limited to 16-bit signed integers, i.e. the range for X and Y coordinates is from ``-32768`` to ``32767``. When saving tile data, tiles outside this range are wrapped.
+\ **Nota:** Por razones de rendimiento y compatibilidad, las coordenadas serializadas por **TileMapLayer** están limitadas a enteros firmados de 16 bits, es decir, el rango para las coordenadas X e Y es de ``-32768`` a ``32767``. Al guardar datos de tiles, los tiles fuera de este rango se ajustan.
 
 .. rst-class:: classref-introduction-group
 
@@ -35,13 +35,13 @@ Tutoriales
 
 - `Demo Hexagonal en 2D <https://godotengine.org/asset-library/asset/2717>`__
 
-- `2D Grid-based Navigation with AStarGrid2D Demo <https://godotengine.org/asset-library/asset/2723>`__
+- `Demo de navegación 2D basada en cuadrícula con AStarGrid2D <https://godotengine.org/asset-library/asset/2723>`__
 
 - `2D Role Playing Game (RPG) Demo <https://godotengine.org/asset-library/asset/2729>`__
 
 - `Demo de Personaje Cinemático en 2D <https://godotengine.org/asset-library/asset/2719>`__
 
-- `2D Dynamic TileMap Layers Demo <https://godotengine.org/asset-library/asset/2713>`__
+- `Demo de capas dinámicas de TileMap 2D <https://godotengine.org/asset-library/asset/2713>`__
 
 .. rst-class:: classref-reftable-group
 
@@ -168,9 +168,9 @@ Señales
 
 **changed**\ (\ ) :ref:`🔗<class_TileMapLayer_signal_changed>`
 
-Emitted when this **TileMapLayer**'s properties changes. This includes modified cells, properties, or changes made to its assigned :ref:`TileSet<class_TileSet>`.
+Se emite cuando cambian las propiedades de este **TileMapLayer**. Esto incluye celdas modificadas, propiedades o cambios realizados en su :ref:`TileSet<class_TileSet>` asignado.
 
-\ **Note:** This signal may be emitted very often when batch-modifying a **TileMapLayer**. Avoid executing complex processing in a connected function, and consider delaying it to the end of the frame instead (i.e. calling :ref:`Object.call_deferred()<class_Object_method_call_deferred>`).
+\ **Nota:** Esta señal puede emitirse muy a menudo al modificar por lotes un **TileMapLayer**. Evita ejecutar procesamiento complejo en una función conectada y considera retrasarlo hasta el final del fotograma (es decir, llamando a :ref:`Object.call_deferred()<class_Object_method_call_deferred>`).
 
 .. rst-class:: classref-section-separator
 
@@ -193,7 +193,7 @@ enum **DebugVisibilityMode**: :ref:`🔗<enum_TileMapLayer_DebugVisibilityMode>`
 
 :ref:`DebugVisibilityMode<enum_TileMapLayer_DebugVisibilityMode>` **DEBUG_VISIBILITY_MODE_DEFAULT** = ``0``
 
-Hide the collisions or navigation debug shapes in the editor, and use the debug settings to determine their visibility in game (i.e. :ref:`SceneTree.debug_collisions_hint<class_SceneTree_property_debug_collisions_hint>` or :ref:`SceneTree.debug_navigation_hint<class_SceneTree_property_debug_navigation_hint>`).
+Oculta las formas de depuración de colisiones o navegación en el editor y utiliza la configuración de depuración para determinar su visibilidad en el juego (es decir, :ref:`SceneTree.debug_collisions_hint<class_SceneTree_property_debug_collisions_hint>` o :ref:`SceneTree.debug_navigation_hint<class_SceneTree_property_debug_navigation_hint>`).
 
 .. _class_TileMapLayer_constant_DEBUG_VISIBILITY_MODE_FORCE_HIDE:
 
@@ -201,7 +201,7 @@ Hide the collisions or navigation debug shapes in the editor, and use the debug 
 
 :ref:`DebugVisibilityMode<enum_TileMapLayer_DebugVisibilityMode>` **DEBUG_VISIBILITY_MODE_FORCE_HIDE** = ``2``
 
-Always hide the collisions or navigation debug shapes.
+Siempre oculta las formas de depuración de colisiones o navegación.
 
 .. _class_TileMapLayer_constant_DEBUG_VISIBILITY_MODE_FORCE_SHOW:
 
@@ -209,7 +209,7 @@ Always hide the collisions or navigation debug shapes.
 
 :ref:`DebugVisibilityMode<enum_TileMapLayer_DebugVisibilityMode>` **DEBUG_VISIBILITY_MODE_FORCE_SHOW** = ``1``
 
-Always show the collisions or navigation debug shapes.
+Siempre muestra las formas de depuración de colisiones o navegación.
 
 .. rst-class:: classref-section-separator
 
@@ -248,7 +248,7 @@ Activa o desactiva las colisiones.
 - |void| **set_collision_visibility_mode**\ (\ value\: :ref:`DebugVisibilityMode<enum_TileMapLayer_DebugVisibilityMode>`\ )
 - :ref:`DebugVisibilityMode<enum_TileMapLayer_DebugVisibilityMode>` **get_collision_visibility_mode**\ (\ )
 
-Show or hide the **TileMapLayer**'s collision shapes. If set to :ref:`DEBUG_VISIBILITY_MODE_DEFAULT<class_TileMapLayer_constant_DEBUG_VISIBILITY_MODE_DEFAULT>`, this depends on the show collision debug settings.
+Muestra u oculta las formas de colisión del **TileMapLayer**. Si se establece en :ref:`DEBUG_VISIBILITY_MODE_DEFAULT<class_TileMapLayer_constant_DEBUG_VISIBILITY_MODE_DEFAULT>`, esto depende de la configuración de depuración de visualización de colisiones.
 
 .. rst-class:: classref-item-separator
 
@@ -265,7 +265,7 @@ Show or hide the **TileMapLayer**'s collision shapes. If set to :ref:`DEBUG_VISI
 - |void| **set_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_enabled**\ (\ )
 
-If ``false``, disables this **TileMapLayer** completely (rendering, collision, navigation, scene tiles, etc.)
+Si es ``false``, deshabilita este **TileMapLayer** por completo (renderizado, colisión, navegación, tiles de escena, etc.).
 
 .. rst-class:: classref-item-separator
 
@@ -282,7 +282,7 @@ If ``false``, disables this **TileMapLayer** completely (rendering, collision, n
 - |void| **set_navigation_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_navigation_enabled**\ (\ )
 
-If ``true``, navigation regions are enabled.
+Si es ``true``, las regiones de navegación están habilitadas.
 
 .. rst-class:: classref-item-separator
 
@@ -299,7 +299,7 @@ If ``true``, navigation regions are enabled.
 - |void| **set_navigation_visibility_mode**\ (\ value\: :ref:`DebugVisibilityMode<enum_TileMapLayer_DebugVisibilityMode>`\ )
 - :ref:`DebugVisibilityMode<enum_TileMapLayer_DebugVisibilityMode>` **get_navigation_visibility_mode**\ (\ )
 
-Show or hide the **TileMapLayer**'s navigation meshes. If set to :ref:`DEBUG_VISIBILITY_MODE_DEFAULT<class_TileMapLayer_constant_DEBUG_VISIBILITY_MODE_DEFAULT>`, this depends on the show navigation debug settings.
+Muestra u oculta las mallas de navegación del **TileMapLayer**. Si se establece en :ref:`DEBUG_VISIBILITY_MODE_DEFAULT<class_TileMapLayer_constant_DEBUG_VISIBILITY_MODE_DEFAULT>`, esto depende de la configuración de depuración de visualización de navegación.
 
 .. rst-class:: classref-item-separator
 
@@ -333,11 +333,11 @@ Habilitar o deshabilitar la oclusión de luz.
 - |void| **set_physics_quadrant_size**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_physics_quadrant_size**\ (\ )
 
-The **TileMapLayer**'s physics quadrant size. Within a physics quadrant, cells with similar physics properties are grouped together and their collision shapes get merged. :ref:`physics_quadrant_size<class_TileMapLayer_property_physics_quadrant_size>` defines the length of a square's side, in the map's coordinate system, that forms the quadrant. Thus, the default quadrant size groups together ``16 * 16 = 256`` tiles.
+El tamaño del cuadrante de física de **TileMapLayer**. Dentro de un cuadrante de física, las celdas con propiedades físicas similares se agrupan y sus formas de colisión se fusionan. :ref:`physics_quadrant_size<class_TileMapLayer_property_physics_quadrant_size>` define la longitud del lado de un cuadrado, en el sistema de coordenadas del mapa, que forma el cuadrante. Por lo tanto, el tamaño de cuadrante predeterminado agrupa juntos ``16 * 16 = 256`` tiles.
 
-\ **Note:** As quadrants are created according to the map's coordinate system, the quadrant's "square shape" might not look like square in the **TileMapLayer**'s local coordinate system.
+\ **Nota:** Como los cuadrantes se crean de acuerdo con el sistema de coordenadas del mapa, la "forma cuadrada" del cuadrante podría no parecerse a un cuadrado en el sistema de coordenadas local de **TileMapLayer**.
 
-\ **Note:** This impacts the value returned by :ref:`get_coords_for_body_rid()<class_TileMapLayer_method_get_coords_for_body_rid>`.
+\ **Nota:** Esto afecta el valor devuelto por :ref:`get_coords_for_body_rid()<class_TileMapLayer_method_get_coords_for_body_rid>`.
 
 .. rst-class:: classref-item-separator
 
@@ -354,11 +354,11 @@ The **TileMapLayer**'s physics quadrant size. Within a physics quadrant, cells w
 - |void| **set_rendering_quadrant_size**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_rendering_quadrant_size**\ (\ )
 
-The **TileMapLayer**'s rendering quadrant size. A quadrant is a group of tiles to be drawn together on a single canvas item, for optimization purposes. :ref:`rendering_quadrant_size<class_TileMapLayer_property_rendering_quadrant_size>` defines the length of a square's side, in the map's coordinate system, that forms the quadrant. Thus, the default quadrant size groups together ``16 * 16 = 256`` tiles.
+El tamaño del cuadrante de renderizado del **TileMapLayer**. Un cuadrante es un grupo de tiles que se dibujan juntos en un solo elemento de lienzo, con fines de optimización. :ref:`rendering_quadrant_size<class_TileMapLayer_property_rendering_quadrant_size>` define la longitud del lado de un cuadrado, en el sistema de coordenadas del mapa, que forma el cuadrante. Por lo tanto, el tamaño de cuadrante predeterminado agrupa juntos ``16 * 16 = 256`` tiles.
 
-The quadrant size does not apply on a Y-sorted **TileMapLayer**, as tiles are grouped by Y position instead in that case.
+El tamaño del cuadrante no se aplica en un **TileMapLayer** ordenado por Y, ya que los tiles se agrupan por posición Y en ese caso.
 
-\ **Note:** As quadrants are created according to the map's coordinate system, the quadrant's "square shape" might not look like square in the **TileMapLayer**'s local coordinate system.
+\ **Nota:** Como los cuadrantes se crean de acuerdo con el sistema de coordenadas del mapa, la "forma cuadrada" del cuadrante podría no parecerse a un cuadrado en el sistema de coordenadas local de **TileMapLayer**.
 
 .. rst-class:: classref-item-separator
 
@@ -375,7 +375,7 @@ The quadrant size does not apply on a Y-sorted **TileMapLayer**, as tiles are gr
 - |void| **set_tile_map_data_from_array**\ (\ value\: :ref:`PackedByteArray<class_PackedByteArray>`\ )
 - :ref:`PackedByteArray<class_PackedByteArray>` **get_tile_map_data_as_array**\ (\ )
 
-The raw tile map data as a byte array.
+Los datos del mapa de tiles sin procesar como un array de bytes.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedByteArray<class_PackedByteArray>` for more details.
 
@@ -394,7 +394,7 @@ The raw tile map data as a byte array.
 - |void| **set_tile_set**\ (\ value\: :ref:`TileSet<class_TileSet>`\ )
 - :ref:`TileSet<class_TileSet>` **get_tile_set**\ (\ )
 
-The :ref:`TileSet<class_TileSet>` used by this layer. The textures, collisions, and additional behavior of all available tiles are stored here.
+El :ref:`TileSet<class_TileSet>` utilizado por esta capa. Las texturas, colisiones y el comportamiento adicional de todos los tiles disponibles se almacenan aquí.
 
 .. rst-class:: classref-item-separator
 
@@ -411,7 +411,7 @@ The :ref:`TileSet<class_TileSet>` used by this layer. The textures, collisions, 
 - |void| **set_use_kinematic_bodies**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_using_kinematic_bodies**\ (\ )
 
-If ``true``, this **TileMapLayer** collision shapes will be instantiated as kinematic bodies. This can be needed for moving **TileMapLayer** nodes (i.e. moving platforms).
+Si es ``true``, las formas de colisión de este **TileMapLayer** se instanciarán como cuerpos cinemáticos. Esto puede ser necesario para mover nodos **TileMapLayer** (es decir, plataformas móviles).
 
 .. rst-class:: classref-item-separator
 
@@ -428,7 +428,7 @@ If ``true``, this **TileMapLayer** collision shapes will be instantiated as kine
 - |void| **set_x_draw_order_reversed**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_x_draw_order_reversed**\ (\ )
 
-If :ref:`CanvasItem.y_sort_enabled<class_CanvasItem_property_y_sort_enabled>` is enabled, setting this to ``true`` will reverse the order the tiles are drawn on the X-axis.
+Si :ref:`CanvasItem.y_sort_enabled<class_CanvasItem_property_y_sort_enabled>` está habilitado, establecer esto en ``true`` invertirá el orden en que se dibujan los tiles en el eje X.
 
 .. rst-class:: classref-item-separator
 
@@ -445,7 +445,7 @@ If :ref:`CanvasItem.y_sort_enabled<class_CanvasItem_property_y_sort_enabled>` is
 - |void| **set_y_sort_origin**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_y_sort_origin**\ (\ )
 
-This Y-sort origin value is added to each tile's Y-sort origin value. This allows, for example, to fake a different height level. This can be useful for top-down view games.
+Este valor de origen de ordenación Y se agrega al valor de origen de ordenación Y de cada tile. Esto permite, por ejemplo, simular un nivel de altura diferente. Esto puede ser útil para juegos de vista superior.
 
 .. rst-class:: classref-section-separator
 
@@ -462,13 +462,13 @@ Descripciones de Métodos
 
 |void| **_tile_data_runtime_update**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`, tile_data\: :ref:`TileData<class_TileData>`\ ) |virtual| :ref:`🔗<class_TileMapLayer_private_method__tile_data_runtime_update>`
 
-Called with a :ref:`TileData<class_TileData>` object about to be used internally by the **TileMapLayer**, allowing its modification at runtime.
+Se llama con un objeto :ref:`TileData<class_TileData>` que está a punto de ser utilizado internamente por el **TileMapLayer**, lo que permite su modificación en tiempo de ejecución.
 
-This method is only called if :ref:`_use_tile_data_runtime_update()<class_TileMapLayer_private_method__use_tile_data_runtime_update>` is implemented and returns ``true`` for the given tile ``coords``.
+Este método solo se llama si :ref:`_use_tile_data_runtime_update()<class_TileMapLayer_private_method__use_tile_data_runtime_update>` está implementado y devuelve ``true`` para el ``coords`` del tile dado.
 
-\ **Warning:** The ``tile_data`` object's sub-resources are the same as the one in the TileSet. Modifying them might impact the whole TileSet. Instead, make sure to duplicate those resources.
+\ **Advertencia:** Los subrecursos del objeto ``tile_data`` son los mismos que los del TileSet. Modificarlos podría afectar a todo el TileSet. En su lugar, asegúrate de duplicar esos recursos.
 
-\ **Note:** If the properties of ``tile_data`` object should change over time, use :ref:`notify_runtime_tile_data_update()<class_TileMapLayer_method_notify_runtime_tile_data_update>` to notify the **TileMapLayer** it needs an update.
+\ **Nota:** Si las propiedades del objeto ``tile_data`` deben cambiar con el tiempo, usa :ref:`notify_runtime_tile_data_update()<class_TileMapLayer_method_notify_runtime_tile_data_update>` para notificar al **TileMapLayer** que necesita una actualización.
 
 .. rst-class:: classref-item-separator
 
@@ -480,21 +480,21 @@ This method is only called if :ref:`_use_tile_data_runtime_update()<class_TileMa
 
 |void| **_update_cells**\ (\ coords\: :ref:`Array<class_Array>`\[:ref:`Vector2i<class_Vector2i>`\], forced_cleanup\: :ref:`bool<class_bool>`\ ) |virtual| :ref:`🔗<class_TileMapLayer_private_method__update_cells>`
 
-Called when this **TileMapLayer**'s cells need an internal update. This update may be caused from individual cells being modified or by a change in the :ref:`tile_set<class_TileMapLayer_property_tile_set>` (causing all cells to be queued for an update). The first call to this function is always for initializing all the **TileMapLayer**'s cells. ``coords`` contains the coordinates of all modified cells, roughly in the order they were modified. ``forced_cleanup`` is ``true`` when the **TileMapLayer**'s internals should be fully cleaned up. This is the case when:
+Se llama cuando las celdas de este **TileMapLayer** necesitan una actualización interna. Esta actualización puede deberse a que las celdas individuales se están modificando o a un cambio en el :ref:`tile_set<class_TileMapLayer_property_tile_set>` (lo que hace que todas las celdas se pongan en cola para una actualización). La primera llamada a esta función es siempre para inicializar todas las celdas del **TileMapLayer**. ``coords`` contiene las coordenadas de todas las celdas modificadas, aproximadamente en el orden en que fueron modificadas. ``forced_cleanup`` es ``true`` cuando los internos del **TileMapLayer** deben limpiarse por completo. Este es el caso cuando:
 
-- The layer is disabled;
+- La capa está deshabilitada;
 
-- The layer is not visible;
+- La capa no es visible;
 
-- :ref:`tile_set<class_TileMapLayer_property_tile_set>` is set to ``null``;
+- :ref:`tile_set<class_TileMapLayer_property_tile_set>` está establecido en ``null``;
 
-- The node is removed from the tree;
+- El nodo se elimina del árbol;
 
-- The node is freed.
+- El nodo se libera.
 
-Note that any internal update happening while one of these conditions is verified is considered to be a "cleanup". See also :ref:`update_internals()<class_TileMapLayer_method_update_internals>`.
+Ten en cuenta que cualquier actualización interna que ocurra mientras se verifica una de estas condiciones se considera una "limpieza". Véase también :ref:`update_internals()<class_TileMapLayer_method_update_internals>`.
 
-\ **Warning:** Implementing this method may degrade the **TileMapLayer**'s performance.
+\ **Advertencia:** La implementación de este método puede degradar el rendimiento del **TileMapLayer**.
 
 .. rst-class:: classref-item-separator
 
@@ -506,11 +506,11 @@ Note that any internal update happening while one of these conditions is verifie
 
 :ref:`bool<class_bool>` **_use_tile_data_runtime_update**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`\ ) |virtual| :ref:`🔗<class_TileMapLayer_private_method__use_tile_data_runtime_update>`
 
-Should return ``true`` if the tile at coordinates ``coords`` requires a runtime update.
+Debería devolver ``true`` si el tile en las coordenadas ``coords`` requiere una actualización en tiempo de ejecución.
 
-\ **Warning:** Make sure this function only returns ``true`` when needed. Any tile processed at runtime without a need for it will imply a significant performance penalty.
+\ **Advertencia:** Asegúrate de que esta función solo devuelva ``true`` cuando sea necesario. Cualquier tile procesado en tiempo de ejecución sin necesidad de ello implicará una penalización significativa en el rendimiento.
 
-\ **Note:** If the result of this function should change, use :ref:`notify_runtime_tile_data_update()<class_TileMapLayer_method_notify_runtime_tile_data_update>` to notify the **TileMapLayer** it needs an update.
+\ **Nota:** Si el resultado de esta función debe cambiar, usa :ref:`notify_runtime_tile_data_update()<class_TileMapLayer_method_notify_runtime_tile_data_update>` para notificar al **TileMapLayer** que necesita una actualización.
 
 .. rst-class:: classref-item-separator
 
@@ -534,7 +534,7 @@ Limpia todas las celdas.
 
 |void| **erase_cell**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`\ ) :ref:`🔗<class_TileMapLayer_method_erase_cell>`
 
-Erases the cell at coordinates ``coords``.
+Borra la celda en las coordenadas ``coords``.
 
 .. rst-class:: classref-item-separator
 
@@ -546,7 +546,7 @@ Erases the cell at coordinates ``coords``.
 
 |void| **fix_invalid_tiles**\ (\ ) :ref:`🔗<class_TileMapLayer_method_fix_invalid_tiles>`
 
-Clears cells containing tiles that do not exist in the :ref:`tile_set<class_TileMapLayer_property_tile_set>`.
+Borra las celdas que contienen tiles que no existen en el :ref:`tile_set<class_TileMapLayer_property_tile_set>`.
 
 .. rst-class:: classref-item-separator
 
@@ -558,7 +558,7 @@ Clears cells containing tiles that do not exist in the :ref:`tile_set<class_Tile
 
 :ref:`int<class_int>` **get_cell_alternative_tile**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileMapLayer_method_get_cell_alternative_tile>`
 
-Returns the tile alternative ID of the cell at coordinates ``coords``.
+Devuelve el ID alternativo del tile de la celda en las coordenadas ``coords``.
 
 .. rst-class:: classref-item-separator
 
@@ -570,7 +570,7 @@ Returns the tile alternative ID of the cell at coordinates ``coords``.
 
 :ref:`Vector2i<class_Vector2i>` **get_cell_atlas_coords**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileMapLayer_method_get_cell_atlas_coords>`
 
-Returns the tile atlas coordinates ID of the cell at coordinates ``coords``. Returns ``Vector2i(-1, -1)`` if the cell does not exist.
+Devuelve el ID de las coordenadas del atlas del tile de la celda en las coordenadas ``coords``. Devuelve ``Vector2i(-1, -1)`` si la celda no existe.
 
 .. rst-class:: classref-item-separator
 
@@ -582,7 +582,7 @@ Returns the tile atlas coordinates ID of the cell at coordinates ``coords``. Ret
 
 :ref:`int<class_int>` **get_cell_source_id**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileMapLayer_method_get_cell_source_id>`
 
-Returns the tile source ID of the cell at coordinates ``coords``. Returns ``-1`` if the cell does not exist.
+Devuelve el ID de origen del tile de la celda en las coordenadas ``coords``. Devuelve ``-1`` si la celda no existe.
 
 .. rst-class:: classref-item-separator
 
@@ -594,15 +594,15 @@ Returns the tile source ID of the cell at coordinates ``coords``. Returns ``-1``
 
 :ref:`TileData<class_TileData>` **get_cell_tile_data**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileMapLayer_method_get_cell_tile_data>`
 
-Returns the :ref:`TileData<class_TileData>` object associated with the given cell, or ``null`` if the cell does not exist or is not a :ref:`TileSetAtlasSource<class_TileSetAtlasSource>`.
+Devuelve el objeto :ref:`TileData<class_TileData>` asociado con la celda dada, o ``null`` si la celda no existe o no es un :ref:`TileSetAtlasSource<class_TileSetAtlasSource>`.
 
 ::
 
     func get_clicked_tile_power():
-        var clicked_cell = tile_map_layer.local_to_map(tile_map_layer.get_local_mouse_position())
-        var data = tile_map_layer.get_cell_tile_data(clicked_cell)
-        if data:
-            return data.get_custom_data("power")
+        var celda_pulsada = tile_map_layer.local_to_map(tile_map_layer.get_local_mouse_position())
+        var datos = tile_map_layer.get_cell_tile_data(celda_pulsada)
+        if datos:
+            return datos.get_custom_data("power")
         else:
             return 0
 
@@ -616,7 +616,7 @@ Returns the :ref:`TileData<class_TileData>` object associated with the given cel
 
 :ref:`Vector2i<class_Vector2i>` **get_coords_for_body_rid**\ (\ body\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TileMapLayer_method_get_coords_for_body_rid>`
 
-Returns the coordinates of the physics quadrant (see :ref:`physics_quadrant_size<class_TileMapLayer_property_physics_quadrant_size>`) for given physics body :ref:`RID<class_RID>`. Such an :ref:`RID<class_RID>` can be retrieved from :ref:`KinematicCollision2D.get_collider_rid()<class_KinematicCollision2D_method_get_collider_rid>`, when colliding with a tile.
+Devuelve las coordenadas del cuadrante de física (ver :ref:`physics_quadrant_size<class_TileMapLayer_property_physics_quadrant_size>`) para el cuerpo de física :ref:`RID<class_RID>` dado. Dicho :ref:`RID<class_RID>` se puede recuperar de :ref:`KinematicCollision2D.get_collider_rid()<class_KinematicCollision2D_method_get_collider_rid>`, al colisionar con un tile.
 
 .. rst-class:: classref-item-separator
 
@@ -628,9 +628,9 @@ Returns the coordinates of the physics quadrant (see :ref:`physics_quadrant_size
 
 :ref:`RID<class_RID>` **get_navigation_map**\ (\ ) |const| :ref:`🔗<class_TileMapLayer_method_get_navigation_map>`
 
-Returns the :ref:`RID<class_RID>` of the :ref:`NavigationServer2D<class_NavigationServer2D>` navigation used by this **TileMapLayer**.
+Devuelve el :ref:`RID<class_RID>` de la navegación :ref:`NavigationServer2D<class_NavigationServer2D>` utilizada por este **TileMapLayer**.
 
-By default this returns the default :ref:`World2D<class_World2D>` navigation map, unless a custom map was provided using :ref:`set_navigation_map()<class_TileMapLayer_method_set_navigation_map>`.
+Por defecto, esto devuelve el mapa de navegación :ref:`World2D<class_World2D>` predeterminado, a menos que se haya proporcionado un mapa personalizado usando :ref:`set_navigation_map()<class_TileMapLayer_method_set_navigation_map>`.
 
 .. rst-class:: classref-item-separator
 
@@ -642,7 +642,7 @@ By default this returns the default :ref:`World2D<class_World2D>` navigation map
 
 :ref:`Vector2i<class_Vector2i>` **get_neighbor_cell**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`, neighbor\: :ref:`CellNeighbor<enum_TileSet_CellNeighbor>`\ ) |const| :ref:`🔗<class_TileMapLayer_method_get_neighbor_cell>`
 
-Returns the neighboring cell to the one at coordinates ``coords``, identified by the ``neighbor`` direction. This method takes into account the different layouts a TileMap can take.
+Devuelve la celda vecina a la que se encuentra en las coordenadas ``coords``, identificada por la dirección ``neighbor``. Este método tiene en cuenta los diferentes diseños que puede tener un TileMap.
 
 .. rst-class:: classref-item-separator
 
@@ -690,11 +690,11 @@ Devuelve un array de :ref:`Vector2i<class_Vector2i>` con las posiciones de todas
 
 :ref:`Array<class_Array>`\[:ref:`Vector2i<class_Vector2i>`\] **get_used_cells_by_id**\ (\ source_id\: :ref:`int<class_int>` = -1, atlas_coords\: :ref:`Vector2i<class_Vector2i>` = Vector2i(-1, -1), alternative_tile\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_TileMapLayer_method_get_used_cells_by_id>`
 
-Returns a :ref:`Vector2i<class_Vector2i>` array with the positions of all cells containing a tile. Tiles may be filtered according to their source (``source_id``), their atlas coordinates (``atlas_coords``), or alternative id (``alternative_tile``).
+Devuelve un array :ref:`Vector2i<class_Vector2i>` con las posiciones de todas las celdas que contienen un tile. Los tiles pueden filtrarse según su origen (``source_id``), sus coordenadas del atlas (``atlas_coords``) o el ID alternativo (``alternative_tile``).
 
-If a parameter has its value set to the default one, this parameter is not used to filter a cell. Thus, if all parameters have their respective default values, this method returns the same result as :ref:`get_used_cells()<class_TileMapLayer_method_get_used_cells>`.
+Si un parámetro tiene su valor establecido en el predeterminado, este parámetro no se utiliza para filtrar una celda. Por lo tanto, si todos los parámetros tienen sus respectivos valores predeterminados, este método devuelve el mismo resultado que :ref:`get_used_cells()<class_TileMapLayer_method_get_used_cells>`.
 
-A cell is considered empty if its source identifier equals ``-1``, its atlas coordinate identifier is ``Vector2(-1, -1)`` and its alternative identifier is ``-1``.
+Se considera que una celda está vacía si su identificador de origen es igual a ``-1``, su identificador de coordenadas del atlas es ``Vector2(-1, -1)`` y su identificador alternativo es ``-1``.
 
 .. rst-class:: classref-item-separator
 
@@ -766,7 +766,7 @@ Devuelve ``true`` si la celda en las coordenadas ``coords`` está transpuesta. E
 
 :ref:`Vector2i<class_Vector2i>` **local_to_map**\ (\ local_position\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_TileMapLayer_method_local_to_map>`
 
-Returns the map coordinates of the cell containing the given ``local_position``. If ``local_position`` is in global coordinates, consider using :ref:`Node2D.to_local()<class_Node2D_method_to_local>` before passing it to this method. See also :ref:`map_to_local()<class_TileMapLayer_method_map_to_local>`.
+Devuelve las coordenadas del mapa de la celda que contiene la ``local_position`` dada. Si ``local_position`` está en coordenadas globales, considera usar :ref:`Node2D.to_local()<class_Node2D_method_to_local>` antes de pasarla a este método. Véase también :ref:`map_to_local()<class_TileMapLayer_method_map_to_local>`.
 
 .. rst-class:: classref-item-separator
 
@@ -778,7 +778,7 @@ Returns the map coordinates of the cell containing the given ``local_position``.
 
 :ref:`Vector2i<class_Vector2i>` **map_pattern**\ (\ position_in_tilemap\: :ref:`Vector2i<class_Vector2i>`, coords_in_pattern\: :ref:`Vector2i<class_Vector2i>`, pattern\: :ref:`TileMapPattern<class_TileMapPattern>`\ ) :ref:`🔗<class_TileMapLayer_method_map_pattern>`
 
-Returns for the given coordinates ``coords_in_pattern`` in a :ref:`TileMapPattern<class_TileMapPattern>` the corresponding cell coordinates if the pattern was pasted at the ``position_in_tilemap`` coordinates (see :ref:`set_pattern()<class_TileMapLayer_method_set_pattern>`). This mapping is required as in half-offset tile shapes, the mapping might not work by calculating ``position_in_tile_map + coords_in_pattern``.
+Devuelve para las coordenadas dadas ``coords_in_pattern`` en un :ref:`TileMapPattern<class_TileMapPattern>` las coordenadas de celda correspondientes si el patrón se pegó en las coordenadas ``position_in_tilemap`` (ver :ref:`set_pattern()<class_TileMapLayer_method_set_pattern>`). Esta asignación es necesaria ya que en las formas de tile de medio desplazamiento, la asignación podría no funcionar calculando ``position_in_tile_map + coords_in_pattern``.
 
 .. rst-class:: classref-item-separator
 
@@ -790,9 +790,9 @@ Returns for the given coordinates ``coords_in_pattern`` in a :ref:`TileMapPatter
 
 :ref:`Vector2<class_Vector2>` **map_to_local**\ (\ map_position\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileMapLayer_method_map_to_local>`
 
-Returns the centered position of a cell in the **TileMapLayer**'s local coordinate space. To convert the returned value into global coordinates, use :ref:`Node2D.to_global()<class_Node2D_method_to_global>`. See also :ref:`local_to_map()<class_TileMapLayer_method_local_to_map>`.
+Devuelve la posición centrada de una celda en el espacio de coordenadas local del **TileMapLayer**. Para convertir el valor devuelto en coordenadas globales, usa :ref:`Node2D.to_global()<class_Node2D_method_to_global>`. Véase también :ref:`local_to_map()<class_TileMapLayer_method_local_to_map>`.
 
-\ **Note:** This may not correspond to the visual position of the tile, i.e. it ignores the :ref:`TileData.texture_origin<class_TileData_property_texture_origin>` property of individual tiles.
+\ **Nota:** Esto puede no corresponder a la posición visual del tile, es decir, ignora la propiedad :ref:`TileData.texture_origin<class_TileData_property_texture_origin>` de los tiles individuales.
 
 .. rst-class:: classref-item-separator
 
@@ -804,11 +804,11 @@ Returns the centered position of a cell in the **TileMapLayer**'s local coordina
 
 |void| **notify_runtime_tile_data_update**\ (\ ) :ref:`🔗<class_TileMapLayer_method_notify_runtime_tile_data_update>`
 
-Notifies the **TileMapLayer** node that calls to :ref:`_use_tile_data_runtime_update()<class_TileMapLayer_private_method__use_tile_data_runtime_update>` or :ref:`_tile_data_runtime_update()<class_TileMapLayer_private_method__tile_data_runtime_update>` will lead to different results. This will thus trigger a **TileMapLayer** update.
+Notifica al nodo **TileMapLayer** que las llamadas a :ref:`_use_tile_data_runtime_update()<class_TileMapLayer_private_method__use_tile_data_runtime_update>` o :ref:`_tile_data_runtime_update()<class_TileMapLayer_private_method__tile_data_runtime_update>` conducirán a resultados diferentes. Esto activará así una actualización de **TileMapLayer**.
 
-\ **Warning:** Updating the **TileMapLayer** is computationally expensive and may impact performance. Try to limit the number of calls to this function to avoid unnecessary update.
+\ **Advertencia:** La actualización del **TileMapLayer** es computacionalmente costosa y puede afectar el rendimiento. Intenta limitar el número de llamadas a esta función para evitar actualizaciones innecesarias.
 
-\ **Note:** This does not trigger a direct update of the **TileMapLayer**, the update will be done at the end of the frame as usual (unless you call :ref:`update_internals()<class_TileMapLayer_method_update_internals>`).
+\ **Nota:** Esto no activa una actualización directa del **TileMapLayer**, la actualización se realizará al final del fotograma como de costumbre (a menos que llames a :ref:`update_internals()<class_TileMapLayer_method_update_internals>`).
 
 .. rst-class:: classref-item-separator
 
@@ -820,15 +820,15 @@ Notifies the **TileMapLayer** node that calls to :ref:`_use_tile_data_runtime_up
 
 |void| **set_cell**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`, source_id\: :ref:`int<class_int>` = -1, atlas_coords\: :ref:`Vector2i<class_Vector2i>` = Vector2i(-1, -1), alternative_tile\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_TileMapLayer_method_set_cell>`
 
-Sets the tile identifiers for the cell at coordinates ``coords``. Each tile of the :ref:`TileSet<class_TileSet>` is identified using three parts:
+Establece los identificadores de tile para la celda en las coordenadas ``coords``. Cada tile del :ref:`TileSet<class_TileSet>` se identifica utilizando tres partes:
 
-- The source identifier ``source_id`` identifies a :ref:`TileSetSource<class_TileSetSource>` identifier. See :ref:`TileSet.set_source_id()<class_TileSet_method_set_source_id>`,
+- El identificador de origen ``source_id`` identifica un identificador :ref:`TileSetSource<class_TileSetSource>`. Véase :ref:`TileSet.set_source_id()<class_TileSet_method_set_source_id>`,
 
-- The atlas coordinate identifier ``atlas_coords`` identifies a tile coordinates in the atlas (if the source is a :ref:`TileSetAtlasSource<class_TileSetAtlasSource>`). For :ref:`TileSetScenesCollectionSource<class_TileSetScenesCollectionSource>` it should always be ``Vector2i(0, 0)``,
+- El identificador de coordenadas del atlas ``atlas_coords`` identifica las coordenadas de un tile en el atlas (si el origen es un :ref:`TileSetAtlasSource<class_TileSetAtlasSource>`). Para :ref:`TileSetScenesCollectionSource<class_TileSetScenesCollectionSource>` siempre debe ser ``Vector2i(0, 0)``,
 
-- The alternative tile identifier ``alternative_tile`` identifies a tile alternative in the atlas (if the source is a :ref:`TileSetAtlasSource<class_TileSetAtlasSource>`), and the scene for a :ref:`TileSetScenesCollectionSource<class_TileSetScenesCollectionSource>`.
+- El identificador de tile alternativo ``alternative_tile`` identifica un tile alternativo en el atlas (si el origen es un :ref:`TileSetAtlasSource<class_TileSetAtlasSource>`), y la escena para un :ref:`TileSetScenesCollectionSource<class_TileSetScenesCollectionSource>`.
 
-If ``source_id`` is set to ``-1``, ``atlas_coords`` to ``Vector2i(-1, -1)``, or ``alternative_tile`` to ``-1``, the cell will be erased. An erased cell gets **all** its identifiers automatically set to their respective invalid values, namely ``-1``, ``Vector2i(-1, -1)`` and ``-1``.
+Si ``source_id`` se establece en ``-1``, ``atlas_coords`` en ``Vector2i(-1, -1)``, o ``alternative_tile`` en ``-1``, la celda se borrará. Una celda borrada obtiene **todos** sus identificadores establecidos automáticamente en sus respectivos valores no válidos, a saber, ``-1``, ``Vector2i(-1, -1)`` y ``-1``.
 
 .. rst-class:: classref-item-separator
 
@@ -840,11 +840,11 @@ If ``source_id`` is set to ``-1``, ``atlas_coords`` to ``Vector2i(-1, -1)``, or 
 
 |void| **set_cells_terrain_connect**\ (\ cells\: :ref:`Array<class_Array>`\[:ref:`Vector2i<class_Vector2i>`\], terrain_set\: :ref:`int<class_int>`, terrain\: :ref:`int<class_int>`, ignore_empty_terrains\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_TileMapLayer_method_set_cells_terrain_connect>`
 
-Update all the cells in the ``cells`` coordinates array so that they use the given ``terrain`` for the given ``terrain_set``. If an updated cell has the same terrain as one of its neighboring cells, this function tries to join the two. This function might update neighboring tiles if needed to create correct terrain transitions.
+Actualiza todas las celdas en el array de coordenadas ``cells`` para que utilicen el ``terrain`` dado para el ``terrain_set`` dado. Si una celda actualizada tiene el mismo terreno que una de sus celdas vecinas, esta función intenta unir las dos. Esta función podría actualizar los tiles vecinos si es necesario para crear transiciones de terreno correctas.
 
-If ``ignore_empty_terrains`` is ``true``, empty terrains will be ignored when trying to find the best fitting tile for the given terrain constraints.
+Si ``ignore_empty_terrains`` es ``true``, los terrenos vacíos se ignorarán al intentar encontrar el tile que mejor se adapte a las restricciones de terreno dadas.
 
-\ **Note:** To work correctly, this method requires the **TileMapLayer**'s TileSet to have terrains set up with all required terrain combinations. Otherwise, it may produce unexpected results.
+\ **Nota:** Para que funcione correctamente, este método requiere que el TileSet del **TileMapLayer** tenga terrenos configurados con todas las combinaciones de terreno necesarias. De lo contrario, puede producir resultados inesperados.
 
 .. rst-class:: classref-item-separator
 
@@ -856,11 +856,11 @@ If ``ignore_empty_terrains`` is ``true``, empty terrains will be ignored when tr
 
 |void| **set_cells_terrain_path**\ (\ path\: :ref:`Array<class_Array>`\[:ref:`Vector2i<class_Vector2i>`\], terrain_set\: :ref:`int<class_int>`, terrain\: :ref:`int<class_int>`, ignore_empty_terrains\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_TileMapLayer_method_set_cells_terrain_path>`
 
-Update all the cells in the ``path`` coordinates array so that they use the given ``terrain`` for the given ``terrain_set``. The function will also connect two successive cell in the path with the same terrain. This function might update neighboring tiles if needed to create correct terrain transitions.
+Actualiza todas las celdas en el array de coordenadas ``path`` para que utilicen el ``terrain`` dado para el ``terrain_set`` dado. La función también conectará dos celdas sucesivas en la ruta con el mismo terreno. Esta función podría actualizar los tiles vecinos si es necesario para crear transiciones de terreno correctas.
 
-If ``ignore_empty_terrains`` is ``true``, empty terrains will be ignored when trying to find the best fitting tile for the given terrain constraints.
+Si ``ignore_empty_terrains`` es ``true``, los terrenos vacíos se ignorarán al intentar encontrar el tile que mejor se adapte a las restricciones de terreno dadas.
 
-\ **Note:** To work correctly, this method requires the **TileMapLayer**'s TileSet to have terrains set up with all required terrain combinations. Otherwise, it may produce unexpected results.
+\ **Nota:** Para que funcione correctamente, este método requiere que el TileSet del **TileMapLayer** tenga terrenos configurados con todas las combinaciones de terreno necesarias. De lo contrario, puede producir resultados inesperados.
 
 .. rst-class:: classref-item-separator
 
@@ -872,7 +872,7 @@ If ``ignore_empty_terrains`` is ``true``, empty terrains will be ignored when tr
 
 |void| **set_navigation_map**\ (\ map\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_TileMapLayer_method_set_navigation_map>`
 
-Sets a custom ``map`` as a :ref:`NavigationServer2D<class_NavigationServer2D>` navigation map. If not set, uses the default :ref:`World2D<class_World2D>` navigation map instead.
+Establece un ``map`` personalizado como un mapa de navegación :ref:`NavigationServer2D<class_NavigationServer2D>`. Si no se establece, se utiliza el mapa de navegación :ref:`World2D<class_World2D>` predeterminado en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -884,7 +884,7 @@ Sets a custom ``map`` as a :ref:`NavigationServer2D<class_NavigationServer2D>` n
 
 |void| **set_pattern**\ (\ position\: :ref:`Vector2i<class_Vector2i>`, pattern\: :ref:`TileMapPattern<class_TileMapPattern>`\ ) :ref:`🔗<class_TileMapLayer_method_set_pattern>`
 
-Pastes the :ref:`TileMapPattern<class_TileMapPattern>` at the given ``position`` in the tile map. See also :ref:`get_pattern()<class_TileMapLayer_method_get_pattern>`.
+Pega el :ref:`TileMapPattern<class_TileMapPattern>` en la ``position`` dada en el mapa de tiles. Véase también :ref:`get_pattern()<class_TileMapLayer_method_get_pattern>`.
 
 .. rst-class:: classref-item-separator
 
@@ -896,11 +896,11 @@ Pastes the :ref:`TileMapPattern<class_TileMapPattern>` at the given ``position``
 
 |void| **update_internals**\ (\ ) :ref:`🔗<class_TileMapLayer_method_update_internals>`
 
-Triggers a direct update of the **TileMapLayer**. Usually, calling this function is not needed, as **TileMapLayer** node updates automatically when one of its properties or cells is modified.
+Activa una actualización directa del **TileMapLayer**. Por lo general, no es necesario llamar a esta función, ya que el nodo **TileMapLayer** se actualiza automáticamente cuando se modifica una de sus propiedades o celdas.
 
-However, for performance reasons, those updates are batched and delayed to the end of the frame. Calling this function will force the **TileMapLayer** to update right away instead.
+Sin embargo, por razones de rendimiento, esas actualizaciones se procesan por lotes y se retrasan hasta el final del fotograma. Llamar a esta función forzará al **TileMapLayer** a actualizarse de inmediato.
 
-\ **Warning:** Updating the **TileMapLayer** is computationally expensive and may impact performance. Try to limit the number of updates and how many tiles they impact.
+\ **Advertencia:** La actualización del **TileMapLayer** es computacionalmente costosa y puede afectar el rendimiento. Intenta limitar el número de actualizaciones y cuántos tiles impactan.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

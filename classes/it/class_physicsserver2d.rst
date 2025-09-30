@@ -685,7 +685,7 @@ Costante per impostare/ottenere l'inerzia di un corpo. Il valore predefinito di 
 
 :ref:`BodyParameter<enum_PhysicsServer2D_BodyParameter>` **BODY_PARAM_CENTER_OF_MASS** = ``4``
 
-Constant to set/get a body's center of mass position in the body's local coordinate system. The default value of this parameter is ``Vector2(0, 0)``. If this parameter is never set explicitly, then it is recalculated based on the body's shapes when setting the parameter :ref:`BODY_PARAM_MASS<class_PhysicsServer2D_constant_BODY_PARAM_MASS>` or when calling :ref:`body_set_space()<class_PhysicsServer2D_method_body_set_space>`.
+Costante per impostare/ottenere la posizione del centro di massa di un corpo nel sistema di coordinate locale del corpo. Il valore predefinito di questo parametro è ``Vector2(0,0)``. Se questo parametro non viene mai impostato esplicitamente, viene ricalcolato in base alle forme del corpo quando si imposta il parametro :ref:`BODY_PARAM_MASS<class_PhysicsServer2D_constant_BODY_PARAM_MASS>` o quando viene chiamato :ref:`body_set_space()<class_PhysicsServer2D_method_body_set_space>`.
 
 .. _class_PhysicsServer2D_constant_BODY_PARAM_GRAVITY_SCALE:
 
@@ -1214,7 +1214,7 @@ Restituisce l'``ObjectID`` collegato all'area. Usa :ref:`@GlobalScope.instance_f
 
 :ref:`Variant<class_Variant>` **area_get_param**\ (\ area\: :ref:`RID<class_RID>`, param\: :ref:`AreaParameter<enum_PhysicsServer2D_AreaParameter>`\ ) |const| :ref:`🔗<class_PhysicsServer2D_method_area_get_param>`
 
-Returns the value of the given area parameter.
+Restituisce il valore del parametro specificato di area.
 
 .. rst-class:: classref-item-separator
 
@@ -1382,7 +1382,7 @@ Imposta se l'area è monitorabile o meno. Se ``monitorable`` è ``true``, il cal
 
 |void| **area_set_param**\ (\ area\: :ref:`RID<class_RID>`, param\: :ref:`AreaParameter<enum_PhysicsServer2D_AreaParameter>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_PhysicsServer2D_method_area_set_param>`
 
-Sets the value of the given area parameter.
+Imposta il valore del parametro specificato di area.
 
 .. rst-class:: classref-item-separator
 
@@ -1732,7 +1732,7 @@ Vedi :ref:`body_add_constant_torque()<class_PhysicsServer2D_method_body_add_cons
 
 :ref:`CCDMode<enum_PhysicsServer2D_CCDMode>` **body_get_continuous_collision_detection_mode**\ (\ body\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_PhysicsServer2D_method_body_get_continuous_collision_detection_mode>`
 
-Returns the body's continuous collision detection mode.
+Restituisce la modalità di rilevamento continuo delle collisioni del corpo.
 
 .. rst-class:: classref-item-separator
 
@@ -1756,7 +1756,7 @@ Restituisce il :ref:`PhysicsDirectBodyState2D<class_PhysicsDirectBodyState2D>` d
 
 :ref:`int<class_int>` **body_get_max_contacts_reported**\ (\ body\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_PhysicsServer2D_method_body_get_max_contacts_reported>`
 
-Restituisce il numero massimo di contatti che il corpo può segnalare. Vedi :ref:`body_set_max_contacts_reported()<class_PhysicsServer2D_method_body_set_max_contacts_reported>`.
+Restituisce il numero massimo di contatti che il corpo può riportare. Vedi :ref:`body_set_max_contacts_reported()<class_PhysicsServer2D_method_body_set_max_contacts_reported>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1768,7 +1768,7 @@ Restituisce il numero massimo di contatti che il corpo può segnalare. Vedi :ref
 
 :ref:`BodyMode<enum_PhysicsServer2D_BodyMode>` **body_get_mode**\ (\ body\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_PhysicsServer2D_method_body_get_mode>`
 
-Returns the body's mode.
+Restituisce la modalità del corpo.
 
 .. rst-class:: classref-item-separator
 
@@ -1792,7 +1792,7 @@ Restituisce l'``ObjectID`` collegato al corpo. Usa :ref:`@GlobalScope.instance_f
 
 :ref:`Variant<class_Variant>` **body_get_param**\ (\ body\: :ref:`RID<class_RID>`, param\: :ref:`BodyParameter<enum_PhysicsServer2D_BodyParameter>`\ ) |const| :ref:`🔗<class_PhysicsServer2D_method_body_get_param>`
 
-Returns the value of the given body parameter.
+Restituisce il valore del parametro specificato di corpo.
 
 .. rst-class:: classref-item-separator
 
@@ -1852,7 +1852,7 @@ Restituisce il :ref:`RID<class_RID>` dello spazio assegnato al corpo. Restituisc
 
 :ref:`Variant<class_Variant>` **body_get_state**\ (\ body\: :ref:`RID<class_RID>`, state\: :ref:`BodyState<enum_PhysicsServer2D_BodyState>`\ ) |const| :ref:`🔗<class_PhysicsServer2D_method_body_get_state>`
 
-Returns the value of the given state of the body.
+Restituisce il valore dello stato specificato del corpo.
 
 .. rst-class:: classref-item-separator
 
@@ -1988,9 +1988,9 @@ Vedi :ref:`body_add_constant_torque()<class_PhysicsServer2D_method_body_add_cons
 
 |void| **body_set_continuous_collision_detection_mode**\ (\ body\: :ref:`RID<class_RID>`, mode\: :ref:`CCDMode<enum_PhysicsServer2D_CCDMode>`\ ) :ref:`🔗<class_PhysicsServer2D_method_body_set_continuous_collision_detection_mode>`
 
-Sets the continuous collision detection mode.
+Imposta la modalità di rilevamento continuo delle collisioni.
 
-Continuous collision detection tries to predict where a moving body would collide in between physics updates, instead of moving it and correcting its movement if it collided.
+Il rilevamento continuo delle collisioni cerca di prevedere dove un corpo in movimento entrerebbe in collisione tra gli aggiornamenti della fisica, invece di spostarlo e correggerne il movimento in caso di collisione.
 
 .. rst-class:: classref-item-separator
 
@@ -2024,7 +2024,7 @@ Se ``userdata`` è ``null``, allora ``callable`` deve accettare solo il parametr
 
 |void| **body_set_max_contacts_reported**\ (\ body\: :ref:`RID<class_RID>`, amount\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PhysicsServer2D_method_body_set_max_contacts_reported>`
 
-Imposta il numero massimo di contatti che il corpo può segnalare. Se ``amount`` è maggiore di zero, il corpo terrà traccia al massimo questo numero di contatti con altri corpi.
+Imposta il numero massimo di contatti che il corpo può riportare. Se ``amount`` è maggiore di zero, il corpo terrà traccia al massimo questo numero di contatti con altri corpi.
 
 .. rst-class:: classref-item-separator
 
@@ -2036,7 +2036,7 @@ Imposta il numero massimo di contatti che il corpo può segnalare. Se ``amount``
 
 |void| **body_set_mode**\ (\ body\: :ref:`RID<class_RID>`, mode\: :ref:`BodyMode<enum_PhysicsServer2D_BodyMode>`\ ) :ref:`🔗<class_PhysicsServer2D_method_body_set_mode>`
 
-Sets the body's mode.
+Imposta la modalità del corpo.
 
 .. rst-class:: classref-item-separator
 
@@ -2062,7 +2062,7 @@ Questo metodo viene chiamato quando la proprietà :ref:`RigidBody2D.custom_integ
 
 |void| **body_set_param**\ (\ body\: :ref:`RID<class_RID>`, param\: :ref:`BodyParameter<enum_PhysicsServer2D_BodyParameter>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_PhysicsServer2D_method_body_set_param>`
 
-Sets the value of the given body parameter.
+Imposta il valore del parametro specificato di corpo.
 
 .. rst-class:: classref-item-separator
 
@@ -2140,9 +2140,9 @@ Aggiunge il corpo allo spazio fornito, dopo averlo rimosso dallo spazio assegnat
 
 |void| **body_set_state**\ (\ body\: :ref:`RID<class_RID>`, state\: :ref:`BodyState<enum_PhysicsServer2D_BodyState>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_PhysicsServer2D_method_body_set_state>`
 
-Sets the value of a body's state.
+Imposta il valore dello stato di un corpo.
 
-\ **Note:** The state change doesn't take effect immediately. The state will change on the next physics frame.
+\ **Nota:** Il cambio di stato non ha un effetto immediato. Lo stato cambierà nel prossimo frame di fisica.
 
 .. rst-class:: classref-item-separator
 
@@ -2232,7 +2232,7 @@ Crea una forma di poligono convesso 2D nel server di fisica e restituisce il :re
 
 :ref:`float<class_float>` **damped_spring_joint_get_param**\ (\ joint\: :ref:`RID<class_RID>`, param\: :ref:`DampedSpringParam<enum_PhysicsServer2D_DampedSpringParam>`\ ) |const| :ref:`🔗<class_PhysicsServer2D_method_damped_spring_joint_get_param>`
 
-Returns the value of the given damped spring joint parameter.
+Restituisce il valore del parametro specificato di giunto a molla smorzata.
 
 .. rst-class:: classref-item-separator
 
@@ -2244,7 +2244,7 @@ Returns the value of the given damped spring joint parameter.
 
 |void| **damped_spring_joint_set_param**\ (\ joint\: :ref:`RID<class_RID>`, param\: :ref:`DampedSpringParam<enum_PhysicsServer2D_DampedSpringParam>`, value\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PhysicsServer2D_method_damped_spring_joint_set_param>`
 
-Sets the value of the given damped spring joint parameter.
+Imposta il valore del parametro specificato di giunto a molla smorzata.
 
 .. rst-class:: classref-item-separator
 
@@ -2268,7 +2268,7 @@ Distrugge uno qualsiasi degli oggetti creati dal PhysicsServer2D. Se il :ref:`RI
 
 :ref:`int<class_int>` **get_process_info**\ (\ process_info\: :ref:`ProcessInfo<enum_PhysicsServer2D_ProcessInfo>`\ ) :ref:`🔗<class_PhysicsServer2D_method_get_process_info>`
 
-Returns the value of a physics engine state specified by ``process_info``.
+Restituisce il valore di uno stato del motore di fisica specificato da ``process_info``.
 
 .. rst-class:: classref-item-separator
 
@@ -2316,7 +2316,7 @@ Imposta se i corpi attaccati al :ref:`Joint2D<class_Joint2D>` entreranno in coll
 
 :ref:`float<class_float>` **joint_get_param**\ (\ joint\: :ref:`RID<class_RID>`, param\: :ref:`JointParam<enum_PhysicsServer2D_JointParam>`\ ) |const| :ref:`🔗<class_PhysicsServer2D_method_joint_get_param>`
 
-Returns the value of the given joint parameter.
+Restituisce il valore del parametro specificato di giunto.
 
 .. rst-class:: classref-item-separator
 
@@ -2328,7 +2328,7 @@ Returns the value of the given joint parameter.
 
 :ref:`JointType<enum_PhysicsServer2D_JointType>` **joint_get_type**\ (\ joint\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_PhysicsServer2D_method_joint_get_type>`
 
-Returns the joint's type.
+Restituisce il tipo del giunto.
 
 .. rst-class:: classref-item-separator
 
@@ -2388,7 +2388,7 @@ Rende il giunto un giunto a perno. Se ``body_b`` è un :ref:`RID<class_RID>` vuo
 
 |void| **joint_set_param**\ (\ joint\: :ref:`RID<class_RID>`, param\: :ref:`JointParam<enum_PhysicsServer2D_JointParam>`, value\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PhysicsServer2D_method_joint_set_param>`
 
-Sets the value of the given joint parameter.
+Imposta il valore del parametro specificato di giunto.
 
 .. rst-class:: classref-item-separator
 
@@ -2400,7 +2400,7 @@ Sets the value of the given joint parameter.
 
 :ref:`bool<class_bool>` **pin_joint_get_flag**\ (\ joint\: :ref:`RID<class_RID>`, flag\: :ref:`PinJointFlag<enum_PhysicsServer2D_PinJointFlag>`\ ) |const| :ref:`🔗<class_PhysicsServer2D_method_pin_joint_get_flag>`
 
-Gets a pin joint flag.
+Ottiene un flag di un giunto a perno.
 
 .. rst-class:: classref-item-separator
 
@@ -2412,7 +2412,7 @@ Gets a pin joint flag.
 
 :ref:`float<class_float>` **pin_joint_get_param**\ (\ joint\: :ref:`RID<class_RID>`, param\: :ref:`PinJointParam<enum_PhysicsServer2D_PinJointParam>`\ ) |const| :ref:`🔗<class_PhysicsServer2D_method_pin_joint_get_param>`
 
-Returns the value of a pin joint parameter.
+Restituisce il valore di un parametro di un giunto a perno.
 
 .. rst-class:: classref-item-separator
 
@@ -2424,7 +2424,7 @@ Returns the value of a pin joint parameter.
 
 |void| **pin_joint_set_flag**\ (\ joint\: :ref:`RID<class_RID>`, flag\: :ref:`PinJointFlag<enum_PhysicsServer2D_PinJointFlag>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_PhysicsServer2D_method_pin_joint_set_flag>`
 
-Sets a pin joint flag.
+Imposta un flag di un giunto a perno.
 
 .. rst-class:: classref-item-separator
 
@@ -2436,7 +2436,7 @@ Sets a pin joint flag.
 
 |void| **pin_joint_set_param**\ (\ joint\: :ref:`RID<class_RID>`, param\: :ref:`PinJointParam<enum_PhysicsServer2D_PinJointParam>`, value\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PhysicsServer2D_method_pin_joint_set_param>`
 
-Sets a pin joint parameter.
+Imposta un parametro di un giunto a perno.
 
 .. rst-class:: classref-item-separator
 

@@ -90,7 +90,7 @@ CanvasTexture
 
 要使用的法線貼圖紋理。僅在有 :ref:`Light2D<class_Light2D>` 影響該 **CanvasTexture** 時才有可見的效果。
 
-\ **注意：**\ Godot 期望法線貼圖使用 X+、Y+、Z+ 坐標系。比較流行的引擎所期望的法線貼圖坐標系見\ `這個頁面 <http://wiki.polycount.com/wiki/Normal_Map_Technical_Details#Common_Swizzle_Coordinates>`__\ 。
+\ **注意：** Godot 期望使用 X+、Y+、Z+ 座標系，可參考 `此頁 <http://wiki.polycount.com/wiki/Normal_Map_Technical_Details#Common_Swizzle_Coordinates>`__ 了解各引擎差異。
 
 .. rst-class:: classref-item-separator
 

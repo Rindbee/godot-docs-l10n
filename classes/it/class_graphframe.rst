@@ -16,9 +16,9 @@ GraphFrame è un :ref:`GraphElement<class_GraphElement>` speciale che può esser
 Descrizione
 ----------------------
 
-GraphFrame è un :ref:`GraphElement<class_GraphElement>` speciale a cui possono essere attaccati altri :ref:`GraphElement<class_GraphElement>`. Può essere configurato per ridimensionarsi automaticamente per racchiudere tutti i :ref:`GraphElement<class_GraphElement>` attaccati. Se la cornice viene spostata, anche tutti i :ref:`GraphElement<class_GraphElement>` attaccati al suo interno verranno spostati.
+GraphFrame è un :ref:`GraphElement<class_GraphElement>` speciale a cui è possibile attaccare altri :ref:`GraphElement<class_GraphElement>`. Si può configurare per ridimensionarsi automaticamente per racchiudere tutti i :ref:`GraphElement<class_GraphElement>` attaccati. Se la cornice è spostata, anche tutti i :ref:`GraphElement<class_GraphElement>` attaccati al suo interno saranno spostati.
 
-Un GraphFrame è sempre mantenuto dietro il livello di connessione e altri :ref:`GraphElement<class_GraphElement>` all'interno di un :ref:`GraphEdit<class_GraphEdit>`.
+Un GraphFrame è sempre mantenuto dietro il livello di collegamento e altri :ref:`GraphElement<class_GraphElement>` all'interno di un :ref:`GraphEdit<class_GraphEdit>`.
 
 .. rst-class:: classref-reftable-group
 

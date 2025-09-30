@@ -178,7 +178,7 @@ Emesso quando l'osso all'indice ``bone_idx`` viene attivato con :ref:`set_bone_e
 
 **bone_list_changed**\ (\ ) :ref:`🔗<class_Skeleton3D_signal_bone_list_changed>`
 
-Emitted when the list of bones changes, such as when calling :ref:`add_bone()<class_Skeleton3D_method_add_bone>`, :ref:`set_bone_parent()<class_Skeleton3D_method_set_bone_parent>`, :ref:`unparent_bone_and_rest()<class_Skeleton3D_method_unparent_bone_and_rest>`, or :ref:`clear_bones()<class_Skeleton3D_method_clear_bones>`.
+Emesso quando la lista delle ossa cambia, ad esempio quando si chiama :ref:`add_bone()<class_Skeleton3D_method_add_bone>`, :ref:`set_bone_parent()<class_Skeleton3D_method_set_bone_parent>`, :ref:`unparent_bone_and_rest()<class_Skeleton3D_method_unparent_bone_and_rest>` o :ref:`clear_bones()<class_Skeleton3D_method_clear_bones>`.
 
 .. rst-class:: classref-item-separator
 
@@ -396,9 +396,9 @@ Aggiunge un nuovo osso con il nome specificato. Restituisce l'indice del nuovo o
 
 |void| **advance**\ (\ delta\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Skeleton3D_method_advance>`
 
-Manually advance the child :ref:`SkeletonModifier3D<class_SkeletonModifier3D>`\ s by the specified time (in seconds).
+Avanza manualmente gli :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` figlio del tempo specificato (in secondi).
 
-\ **Note:** The ``delta`` is temporarily accumulated in the **Skeleton3D**, and the deferred process uses the accumulated value to process the modification.
+\ **Nota:** Il ``delta`` è temporaneamente accumulato nello **Skeleton3D** e il processo differito utilizza il valore accumulato per elaborare la modificazione.
 
 .. rst-class:: classref-item-separator
 

@@ -14,11 +14,11 @@ Un conteneur utilisé pour afficher le contenu d'un :ref:`SubViewport<class_SubV
 Description
 -----------
 
-A container that displays the contents of underlying :ref:`SubViewport<class_SubViewport>` child nodes. It uses the combined size of the :ref:`SubViewport<class_SubViewport>`\ s as minimum size, unless :ref:`stretch<class_SubViewportContainer_property_stretch>` is enabled.
+Un conteneur qui affiche le contenu des nœuds enfants :ref:`SubViewport<class_SubViewport>` sous-jacents. Il utilise la taille combinée des :ref:`SubViewport<class_SubViewport>` comme taille minimale, à moins que :ref:`stretch<class_SubViewportContainer_property_stretch>` ne soit activé.
 
-\ **Note:** Changing a **SubViewportContainer**'s :ref:`Control.scale<class_Control_property_scale>` will cause its contents to appear distorted. To change its visual size without causing distortion, adjust the node's margins instead (if it's not already in a container).
+\ **Note :** Modifier l'échelle :ref:`Control.scale<class_Control_property_scale>` d'un **SubViewportContainer** fera apparaître son contenu comme déformé. Pour changer sa taille visuelle sans causer de déformation, ajustez les marges du nœud à la place (s'il n'est pas déjà dans un conteneur).
 
-\ **Note:** The **SubViewportContainer** forwards mouse-enter and mouse-exit notifications to its sub-viewports.
+\ **Note :** Le **SubViewportContainer** transmet les notifications d'entrée et de sortie de la souris à ses sub-viewports.
 
 .. rst-class:: classref-reftable-group
 
@@ -70,11 +70,11 @@ Descriptions des propriétés
 - |void| **set_mouse_target**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_mouse_target_enabled**\ (\ )
 
-Configure, if either the **SubViewportContainer** or alternatively the :ref:`Control<class_Control>` nodes of its :ref:`SubViewport<class_SubViewport>` children should be available as targets of mouse-related functionalities, like identifying the drop target in drag-and-drop operations or cursor shape of hovered :ref:`Control<class_Control>` node.
+Configure, si soit le **SubViewportContainer** ou soit les nœuds :ref:`Control<class_Control>` de ses enfants :ref:`SubViewport<class_SubViewport>` devraient être disponibles comme cibles de fonctionnalités liées à la souris, comme l'identification de la cible du dépôt dans les opérations de glisser-déposer ou la forme de curseur du nœud :ref:`Control<class_Control>` survolé.
 
-If ``false``, the :ref:`Control<class_Control>` nodes inside its :ref:`SubViewport<class_SubViewport>` children are considered as targets.
+Si ``false``, les nœuds :ref:`Control<class_Control>` à l'intérieur de ses enfants :ref:`SubViewport<class_SubViewport>` sont considérés comme des cibles.
 
-If ``true``, the **SubViewportContainer** itself will be considered as a target.
+Si ``true``, le **SubViewportContainer** lui-même sera considéré comme une cible.
 
 .. rst-class:: classref-item-separator
 
@@ -91,9 +91,9 @@ If ``true``, the **SubViewportContainer** itself will be considered as a target.
 - |void| **set_stretch**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_stretch_enabled**\ (\ )
 
-If ``true``, the sub-viewport will be automatically resized to the control's size.
+Si ``true``, le sub-viewport sera automatiquement redimensionné à la taille du contrôle.
 
-\ **Note:** If ``true``, this will prohibit changing :ref:`SubViewport.size<class_SubViewport_property_size>` of its children manually.
+\ **Note :** Si ``true``, cela interdira de changer le :ref:`SubViewport.size<class_SubViewport_property_size>` de ses enfants manuellement.
 
 .. rst-class:: classref-item-separator
 
@@ -110,11 +110,11 @@ If ``true``, the sub-viewport will be automatically resized to the control's siz
 - |void| **set_stretch_shrink**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_stretch_shrink**\ (\ )
 
-Divides the sub-viewport's effective resolution by this value while preserving its scale. This can be used to speed up rendering.
+Divise la résolution effective du sub-viewport par cette valeur tout en préservant son échelle. Cela peut être utilisé pour accélérer le rendu.
 
-For example, a 1280×720 sub-viewport with :ref:`stretch_shrink<class_SubViewportContainer_property_stretch_shrink>` set to ``2`` will be rendered at 640×360 while occupying the same size in the container.
+Par exemple, un sub-viewport de 1280×720 avec :ref:`stretch_shrink<class_SubViewportContainer_property_stretch_shrink>` défini à ``2`` sera rendu à 640×360 tout en occupant la même taille dans le conteneur.
 
-\ **Note:** :ref:`stretch<class_SubViewportContainer_property_stretch>` must be ``true`` for this property to work.
+\ **Note :** :ref:`stretch<class_SubViewportContainer_property_stretch>` doit valoir ``true`` pour que cette propriété fonctionne.
 
 .. rst-class:: classref-section-separator
 
@@ -133,7 +133,7 @@ Descriptions des méthodes
 
 **Expérimental :** Cette méthode peut être changée ou retirée dans de futures versions.
 
-Virtual method to be implemented by the user. If it returns ``true``, the ``event`` is propagated to :ref:`SubViewport<class_SubViewport>` children. Propagation doesn't happen if it returns ``false``. If the function is not implemented, all events are propagated to SubViewports.
+Méthode virtuelle à implémenter par l'utilisateur. Si elle renvoie ``true``, l'événement ``event`` est propagé aux enfants :ref:`SubViewport<class_SubViewport>`. La propagation n'arrive pas si elle renvoie ``false``. Si la fonction n'est pas implémentée, tous les événements sont propagés aux SubViewports.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

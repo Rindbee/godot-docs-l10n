@@ -7,14 +7,14 @@ Logger
 
 **Eredita:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Custom logger to receive messages from the internal error/warning stream.
+Logger personalizzato per ricevere messaggi dal flusso interno di errori/avvisi.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-Custom logger to receive messages from the internal error/warning stream. Loggers are registered via :ref:`OS.add_logger()<class_OS_method_add_logger>`.
+Logger personalizzato per ricevere messaggi dal flusso interno di errori/avvisi. I logger si registrano tramite :ref:`OS.add_logger()<class_OS_method_add_logger>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -51,7 +51,7 @@ enum **ErrorType**: :ref:`🔗<enum_Logger_ErrorType>`
 
 :ref:`ErrorType<enum_Logger_ErrorType>` **ERROR_TYPE_ERROR** = ``0``
 
-The message received is an error.
+Il messaggio ricevuto è un errore.
 
 .. _class_Logger_constant_ERROR_TYPE_WARNING:
 
@@ -59,7 +59,7 @@ The message received is an error.
 
 :ref:`ErrorType<enum_Logger_ErrorType>` **ERROR_TYPE_WARNING** = ``1``
 
-The message received is a warning.
+Il messaggio ricevuto è un avviso.
 
 .. _class_Logger_constant_ERROR_TYPE_SCRIPT:
 
@@ -67,7 +67,7 @@ The message received is a warning.
 
 :ref:`ErrorType<enum_Logger_ErrorType>` **ERROR_TYPE_SCRIPT** = ``2``
 
-The message received is a script error.
+Il messaggio ricevuto è un errore di script.
 
 .. _class_Logger_constant_ERROR_TYPE_SHADER:
 
@@ -75,7 +75,7 @@ The message received is a script error.
 
 :ref:`ErrorType<enum_Logger_ErrorType>` **ERROR_TYPE_SHADER** = ``3``
 
-The message received is a shader error.
+Il messaggio ricevuto è un errore di shader.
 
 .. rst-class:: classref-section-separator
 
@@ -92,15 +92,15 @@ Descrizioni dei metodi
 
 |void| **_log_error**\ (\ function\: :ref:`String<class_String>`, file\: :ref:`String<class_String>`, line\: :ref:`int<class_int>`, code\: :ref:`String<class_String>`, rationale\: :ref:`String<class_String>`, editor_notify\: :ref:`bool<class_bool>`, error_type\: :ref:`int<class_int>`, script_backtraces\: :ref:`Array<class_Array>`\[:ref:`ScriptBacktrace<class_ScriptBacktrace>`\]\ ) |virtual| :ref:`🔗<class_Logger_private_method__log_error>`
 
-Called when an error is logged. The error provides the ``function``, ``file``, and ``line`` that it originated from, as well as either the ``code`` that generated the error or a ``rationale``.
+Chiamato quando un errore viene registrato. L'errore fornisce la funzione (``function``), il file (``file``) e la riga (``line``) da cui ha avuto origine, nonché il codice (``code``) che ha generato l'errore o una motivazione (``rationale``).
 
-The type of error provided by ``error_type`` is described in the :ref:`ErrorType<enum_Logger_ErrorType>` enumeration.
+Il tipo di errore, fornito da ``error_type``, è descritto nell'enumerazione :ref:`ErrorType<enum_Logger_ErrorType>`.
 
-Additionally, ``script_backtraces`` provides backtraces for each of the script languages. These will only contain stack frames in editor builds and debug builds by default. To enable them for release builds as well, you need to enable :ref:`ProjectSettings.debug/settings/gdscript/always_track_call_stacks<class_ProjectSettings_property_debug/settings/gdscript/always_track_call_stacks>`.
+Inoltre, ``script_backtraces`` fornisce backtrace per ciascuno dei linguaggi di script. Normalmente, questi conterranno stack frame solo nelle build dell'editor e nelle build di debug. Per abilitarli anche per le build di rilascio, è necessario abilitare :ref:`ProjectSettings.debug/settings/gdscript/always_track_call_stacks<class_ProjectSettings_property_debug/settings/gdscript/always_track_call_stacks>`.
 
-\ **Warning:** This function may be called from multiple different threads, so you may need to do your own locking.
+\ **Attenzione:** Questa funzione si può chiamare da più thread diversi, quindi potrebbe essere necessario eseguire i propri blocchi.
 
-\ **Note:** ``script_backtraces`` will not contain any captured variables, due to its prohibitively high cost. To get those you will need to capture the backtraces yourself, from within the **Logger** virtual methods, using :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>`.
+\ **Nota:** ``script_backtraces`` non conterrà alcuna variabile catturata, a causa del suo costo proibitivo. Per ottenerle, sarà necessario catturare personalmente i backtrace, dall'interno dei metodi virtuali del **Logger**, attraverso :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>`.
 
 .. rst-class:: classref-item-separator
 
@@ -112,9 +112,9 @@ Additionally, ``script_backtraces`` provides backtraces for each of the script l
 
 |void| **_log_message**\ (\ message\: :ref:`String<class_String>`, error\: :ref:`bool<class_bool>`\ ) |virtual| :ref:`🔗<class_Logger_private_method__log_message>`
 
-Called when a message is logged. If ``error`` is ``true``, then this message was meant to be sent to ``stderr``.
+Chiamato quando un messaggio viene registrato. Se ``error`` è ``true``, allora questo messaggio era destinato per ``stderr``.
 
-\ **Warning:** This function may be called from multiple different threads, so you may need to do your own locking.
+\ **Attenzione:** Questa funzione si può chiamare da più thread diversi, quindi potrebbe essere necessario eseguire i propri blocchi.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

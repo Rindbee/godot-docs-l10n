@@ -1904,7 +1904,7 @@ Minimum radial velocity applied to each particle. Makes particles move away from
 - |void| **set_param_texture**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`, texture\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_param_texture**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`\ ) |const|
 
-Each particle's scale will vary along this :ref:`CurveTexture<class_CurveTexture>` over its lifetime. If a :ref:`CurveXYZTexture<class_CurveXYZTexture>` is supplied instead, the scale will be separated per-axis.
+L'échelle de chaque particule variera suivant cette :ref:`CurveTexture<class_CurveTexture>` durant sa durée de vie. Si une :ref:`CurveXYZTexture<class_CurveXYZTexture>` est fournie à la place, l'échelle sera séparée par axe.
 
 .. rst-class:: classref-item-separator
 
@@ -1955,7 +1955,7 @@ Each particle's scale will vary along this :ref:`CurveTexture<class_CurveTexture
 - |void| **set_param_texture**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`, texture\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_param_texture**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`\ ) |const|
 
-Either a :ref:`CurveTexture<class_CurveTexture>` or a :ref:`CurveXYZTexture<class_CurveXYZTexture>` that scales each particle based on its velocity.
+Soit une :ref:`CurveTexture<class_CurveTexture>` ou une :ref:`CurveXYZTexture<class_CurveXYZTexture>` qui dimensionne chaque particule en fonction de sa vitesse.
 
 .. rst-class:: classref-item-separator
 

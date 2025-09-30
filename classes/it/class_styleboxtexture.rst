@@ -14,7 +14,7 @@ Uno :ref:`StyleBox<class_StyleBox>` divisa in nove sezioni basata su una texture
 Descrizione
 ----------------------
 
-Uno :ref:`StyleBox<class_StyleBox>` a nove sezioni basato su texture, in un modo simile a :ref:`NinePatchRect<class_NinePatchRect>`. Questo stylebox esegue un ridimensionamento 3×3 di una texture, dove solo la cella centrale è completamente allungata. Ciò rende possibile progettare stili con bordi a prescindere dalle dimensioni dello stylebox.
+Uno :ref:`StyleBox<class_StyleBox>` a nove sezioni basato su texture, in un modo simile a :ref:`NinePatchRect<class_NinePatchRect>`. Questo stylebox esegue un ridimensionamento 3×3 di una texture, dove solo la cella centrale è completamente stirata. Ciò rende possibile progettare stili con bordi a prescindere dalle dimensioni dello stylebox.
 
 .. rst-class:: classref-reftable-group
 

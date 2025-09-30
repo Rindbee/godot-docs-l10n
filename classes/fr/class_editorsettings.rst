@@ -3425,15 +3425,15 @@ Input accumulation can be disabled to get slightly more precise/reactive input a
 
 :ref:`int<class_int>` **interface/accessibility/accessibility_support** :ref:`🔗<class_EditorSettings_property_interface/accessibility/accessibility_support>`
 
-Editor accessibility support mode:
+Mode de support d'accessibilité de l'éditeur :
 
-- **Auto** (``0``): Accessibility support is enabled, but updates to the accessibility information are processed only if an assistive app (such as a screen reader or a Braille display) is active (default).
+- **Auto** (``0``) : Le support d'accessibilité est activé, mais les mises à jour d'information d'accessibilité ne sont traitées que si une application d'assistance (p. ex. lecteur d'écran ou affichage en braille) est active (par défaut).
 
-- **Always Active** (``1``): Accessibility support is enabled, and updates to the accessibility information are always processed, regardless of the status of assistive apps.
+- **Toujours actif** (``1``) : Le support d'accessibilité est activé et les mises à jour d'information d'accessibilité sont traitées indépendamment du statut des applications d'assistance.
 
-- **Disabled** (``2``): Accessibility support is fully disabled.
+- **Désactivé** (``2``) : Le support d'accessibilité est entièrement désactivé.
 
-\ **Note:** Accessibility debugging tools, such as Accessibility Insights for Windows, Accessibility Inspector (macOS), or AT-SPI Browser (Linux/BSD) do not count as assistive apps. To test your project with these tools, use **Always Active**.
+\ **Note :** Les outils de débogage d'accessibilité, tels que Accessibility Insights pour Windows, l'inspecteur d'accessibilité (macOS) ou le navigateur AT-SPI (Linux/BDS) ne comptent pas comme des applications d'assistance. Pour tester votre application avec ces outils, utilisez ``Toujours actif``.
 
 .. rst-class:: classref-item-separator
 

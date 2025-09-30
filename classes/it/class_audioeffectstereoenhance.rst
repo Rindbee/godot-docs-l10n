@@ -76,7 +76,7 @@ Amplifica la differenza tra i canali stereo, aumentando o diminuendo il panning 
 - |void| **set_surround**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_surround**\ (\ )
 
-Widens sound stage through phase shifting in conjunction with :ref:`time_pullout_ms<class_AudioEffectStereoEnhance_property_time_pullout_ms>`. Just pans sound to the left channel if :ref:`time_pullout_ms<class_AudioEffectStereoEnhance_property_time_pullout_ms>` is 0.
+Amplia la scena sonora tramite sfasamento, in combinazione con :ref:`time_pullout_ms<class_AudioEffectStereoEnhance_property_time_pullout_ms>`. Sposta semplicemente l'audio sul canale sinistro se :ref:`time_pullout_ms<class_AudioEffectStereoEnhance_property_time_pullout_ms>` è 0.
 
 .. rst-class:: classref-item-separator
 

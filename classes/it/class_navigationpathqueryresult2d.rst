@@ -127,7 +127,7 @@ L'array del percorso risultante dalla ricerca di navigazione. Tutte le posizioni
 - |void| **set_path_length**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_path_length**\ (\ )
 
-Returns the length of the path.
+Restituisce la lunghezza del percorso.
 
 .. rst-class:: classref-item-separator
 

@@ -16,11 +16,11 @@ Un nodo che potrebbe modificare le ossa di uno Skeleton3D.
 Descrizione
 ----------------------
 
-**SkeletonModifier3D** retrieves a target :ref:`Skeleton3D<class_Skeleton3D>` by having a :ref:`Skeleton3D<class_Skeleton3D>` parent.
+**SkeletonModifier3D** recupera uno :ref:`Skeleton3D<class_Skeleton3D>` di destinazione avendo un :ref:`Skeleton3D<class_Skeleton3D>` genitore.
 
-If there is an :ref:`AnimationMixer<class_AnimationMixer>`, a modification always performs after playback process of the :ref:`AnimationMixer<class_AnimationMixer>`.
+Se un :ref:`AnimationMixer<class_AnimationMixer>` è presente, la modificazione è sempre eseguita dopo il processo di riproduzione dell':ref:`AnimationMixer<class_AnimationMixer>`.
 
-This node should be used to implement custom IK solvers, constraints, or skeleton physics.
+Questo nodo si dovrebbe utilizzare per implementare risolutori IK personalizzati, vincoli o fisica per lo scheletro.
 
 .. rst-class:: classref-introduction-group
 
@@ -217,11 +217,11 @@ Sostituisci questo metodo virtuale per implementare un modificatore scheletro pe
 
 |void| **_process_modification_with_delta**\ (\ delta\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_SkeletonModifier3D_private_method__process_modification_with_delta>`
 
-Override this virtual method to implement a custom skeleton modifier. You should do things like get the :ref:`Skeleton3D<class_Skeleton3D>`'s current pose and apply the pose here.
+Sostituisci questo metodo virtuale per implementare un modificatore personalizzato di scheletro. Dovresti fare cose come ottenere la posa attuale dello :ref:`Skeleton3D<class_Skeleton3D>` e applicare la posa qui.
 
-\ :ref:`_process_modification_with_delta()<class_SkeletonModifier3D_private_method__process_modification_with_delta>` must not apply :ref:`influence<class_SkeletonModifier3D_property_influence>` to bone poses because the :ref:`Skeleton3D<class_Skeleton3D>` automatically applies influence to all bone poses set by the modifier.
+\ :ref:`_process_modification_with_delta()<class_SkeletonModifier3D_private_method__process_modification_with_delta>` non deve applicare :ref:`influence<class_SkeletonModifier3D_property_influence>` alle pose delle ossa perché lo :ref:`Skeleton3D<class_Skeleton3D>` applica automaticamente l'influenza a tutte le pose delle ossa impostate dal modificatore.
 
-\ ``delta`` is passed from parent :ref:`Skeleton3D<class_Skeleton3D>`. See also :ref:`Skeleton3D.advance()<class_Skeleton3D_method_advance>`.
+\ ``delta`` viene passato dallo :ref:`Skeleton3D<class_Skeleton3D>` genitore. Vedi anche :ref:`Skeleton3D.advance()<class_Skeleton3D_method_advance>`.
 
 .. rst-class:: classref-item-separator
 
@@ -245,7 +245,7 @@ Emesso quando lo scheletro è cambiato.
 
 |void| **_validate_bone_names**\ (\ ) |virtual| :ref:`🔗<class_SkeletonModifier3D_private_method__validate_bone_names>`
 
-Called when bone name and index need to be validated such as the timing of the entering tree or changing skeleton.
+Chiamato quando è necessario convalidare il nome e l'indice dell'osso, ad esempio nel momento in cui si entra nell'albero o lo scheletro cambia.
 
 .. rst-class:: classref-item-separator
 

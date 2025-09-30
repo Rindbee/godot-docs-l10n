@@ -20,7 +20,7 @@ NavigationServer2D es el servidor que gestiona los mapas, regiones y agentes de 
 
 Los mapas se dividen en regiones, que se componen de polígonos de navegación. Juntos, definen las áreas transitables en el mundo 2D.
 
-\ **Nota:** La mayoría de los cambios de **NavigationServer2D** surten efecto después del siguiente fotograma de física y no inmediatamente. Esto incluye todos los cambios realizados en mapas, regiones o agentes por nodos relacionados con la navegación en el árbol de la escena o realizados a través de scripts.
+\ **Nota:** La mayoría de los cambios de **NavigationServer2D** surten efecto después del siguiente fotograma de física y no inmediatamente. Esto incluye todos los cambios realizados en mapas, regiones o agentes por nodos relacionados con la navegación en el árbol de escenas o realizados a través de scripts.
 
 Para que dos regiones se conecten entre sí, deben compartir un borde similar. Se considera que un borde está conectado a otro si ambos vértices están a una distancia inferior a ``edge_connection_margin`` del vértice del otro borde respectivo.
 
@@ -1720,7 +1720,7 @@ Establece los vértices del contorno para el obstáculo. Si los vértices se enr
 
 |void| **parse_source_geometry_data**\ (\ navigation_polygon\: :ref:`NavigationPolygon<class_NavigationPolygon>`, source_geometry_data\: :ref:`NavigationMeshSourceGeometryData2D<class_NavigationMeshSourceGeometryData2D>`, root_node\: :ref:`Node<class_Node>`, callback\: :ref:`Callable<class_Callable>` = Callable()\ ) :ref:`🔗<class_NavigationServer2D_method_parse_source_geometry_data>`
 
-Analiza el :ref:`SceneTree<class_SceneTree>` para la geometría de origen de acuerdo con las propiedades de ``navigation_polygon``. Actualiza el recurso ``source_geometry_data`` proporcionado con los datos resultantes. El recurso se puede utilizar para hornear una malla de navegación con :ref:`bake_from_source_geometry_data()<class_NavigationServer2D_method_bake_from_source_geometry_data>`. Una vez finalizado el proceso, se llamará a la ``callback`` opcional.
+Analiza el :ref:`SceneTree<class_SceneTree>` para la geometría de origen de acuerdo con las propiedades de ``navigation_polygon``. Actualiza el recurso ``source_geometry_data`` proporcionado con los datos resultantes. El recurso se puede utilizar para procesar una malla de navegación con :ref:`bake_from_source_geometry_data()<class_NavigationServer2D_method_bake_from_source_geometry_data>`. Una vez finalizado el proceso, se llamará a la ``callback`` opcional.
 
 \ **Nota:** Esta función debe ejecutarse en el hilo principal o con una llamada diferida, ya que SceneTree no es seguro para subprocesos.
 
@@ -2148,7 +2148,7 @@ Establece la ``callback`` :ref:`Callable<class_Callable>` para la geometría de 
 
 - ``navigation_mesh`` - La referencia :ref:`NavigationPolygon<class_NavigationPolygon>` utilizada para definir la configuración de análisis. NO edite ni agregue directamente a la malla de navegación.
 
-- ``source_geometry_data`` - La referencia :ref:`NavigationMeshSourceGeometryData2D<class_NavigationMeshSourceGeometryData2D>`. Agregue geometría de origen personalizada para el horneado de la malla de navegación a este objeto.
+- ``source_geometry_data`` - La referencia :ref:`NavigationMeshSourceGeometryData2D<class_NavigationMeshSourceGeometryData2D>`. Agregue geometría de origen personalizada para el procesado de la malla de navegación a este objeto.
 
 - ``node`` - El :ref:`Node<class_Node>` que se analiza.
 

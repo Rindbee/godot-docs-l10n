@@ -14,7 +14,7 @@ Utilizzato per interrogare e configurare il supporto del formato di importazione
 Descrizione
 ----------------------
 
-Questa classe è usata per interrogare e configurare un certo formato di importazione. È usata insieme alle estensioni di importazione del formato delle risorse.
+Questa classe serve per interrogare e configurare un certo formato di importazione. È usata insieme alle estensioni di importazione di formato per le risorse.
 
 .. rst-class:: classref-reftable-group
 

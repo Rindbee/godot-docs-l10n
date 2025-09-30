@@ -453,7 +453,7 @@ Descrizioni delle proprietà
 
 :ref:`String<class_String>` **apk_expansion/SALT** :ref:`🔗<class_EditorExportPlatformAndroid_property_apk_expansion/SALT>`
 
-Array di byte casuali utilizzata dalla Politica di licenza per creare un'`Obfuscator <https://developer.android.com/google/play/licensing/adding-licensing#impl-Obfuscator>`__.
+Array di byte casuali utilizzata dalla Politica di licenza per creare un `Obfuscator <https://developer.android.com/google/play/licensing/adding-licensing#impl-Obfuscator>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -607,11 +607,11 @@ Percorso a un file ZIP contenente la sorgente per il modello di esportazione uti
 
 :ref:`bool<class_bool>` **gradle_build/compress_native_libraries** :ref:`🔗<class_EditorExportPlatformAndroid_property_gradle_build/compress_native_libraries>`
 
-If ``true``, native libraries are compressed when performing a Gradle build.
+Se ``true``, le librerie native vengono compresse durante l'esecuzione di una build Gradle.
 
-\ **Note:** While enabling compression can reduce the size of the binary, it may result in slower application startup because the native libraries must be extracted before use, rather than being loaded directly.
+\ **Nota:** Sebbene abilitare la compressione possa ridurre le dimensioni dell'eseguibile, potrebbe rallentare l'avvio dell'applicazione perché le librerie native si devono estrarre prima dell'uso, anziché caricarle direttamente.
 
-If you're distributing your app via the Play Store, it's generally recommended to keep this option ``false``, see `official documentation <https://developer.android.com/build/releases/past-releases/agp-3-6-0-release-notes#extractNativeLibs>`__.
+Se si distribuisce la propria app tramite il Play Store, in genere si consiglia di mantenere questa opzione su ``false``, consulta la `documentazione ufficiale <https://developer.android.com/build/releases/past-releases/agp-3-6-0-release-notes#extractNativeLibs>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -623,13 +623,13 @@ If you're distributing your app via the Play Store, it's generally recommended t
 
 :ref:`Dictionary<class_Dictionary>` **gradle_build/custom_theme_attributes** :ref:`🔗<class_EditorExportPlatformAndroid_property_gradle_build/custom_theme_attributes>`
 
-A dictionary of custom theme attributes to include in the exported Android project. Each entry defines a theme attribute name and its value, and will be added to the **GodotAppMainTheme**.
+Un dizionario di attributi personalizzati di tema da includere nel progetto Android esportato. Ogni voce definisce un nome di attributo di tema e il suo valore, e sarà aggiunta a **GodotAppMainTheme**.
 
-For example, the key ``android:windowSwipeToDismiss`` with the value ``false`` is resolved to ``<item name="android:windowSwipeToDismiss">false</item>``.
+Ad esempio, la chiave ``android:windowSwipeToDismiss`` con il valore ``false`` è risolta in ``<item name="android:windowSwipeToDismiss">false</item>``.
 
-\ **Note:** To add a custom attribute to the **GodotAppSplashTheme**, prefix the attribute name with ``[splash]``.
+\ **Nota:** Per aggiungere un attributo personalizzato a **GodotAppSplashTheme**, anteporre al nome dell'attributo ``[splash]``.
 
-\ **Note:** Reserved attributes configured via other export options or project settings cannot be overridden by ``custom_theme_attributes`` and are skipped during export.
+\ **Nota:** Gli attributi riservati configurati tramite altre opzioni di esportazione o impostazioni del progetto non si possono sovrascrivere da ``custom_theme_attributes`` e sono ignorati durante l'esportazione.
 
 .. rst-class:: classref-item-separator
 
@@ -2811,7 +2811,7 @@ Consente a un'applicazione di scrivere nel dizionario utente.
 
 :ref:`Color<class_Color>` **screen/background_color** :ref:`🔗<class_EditorExportPlatformAndroid_property_screen/background_color>`
 
-The background color used for the root window. Default is ``black``.
+Il colore di sfondo utilizzato per la finestra principale. Predefinito su ``black``.
 
 .. rst-class:: classref-item-separator
 
@@ -2823,9 +2823,9 @@ The background color used for the root window. Default is ``black``.
 
 :ref:`bool<class_bool>` **screen/edge_to_edge** :ref:`🔗<class_EditorExportPlatformAndroid_property_screen/edge_to_edge>`
 
-If ``true``, this makes the navigation and status bars translucent and allows the application content to extend edge to edge.
+Se ``true``, le barre di navigazione e di stato diventano trasparenti e il contenuto dell'applicazione si estende da un bordo all'altro.
 
-\ **Note:** You should ensure that none of the application content is occluded by system elements by using the :ref:`DisplayServer.get_display_safe_area()<class_DisplayServer_method_get_display_safe_area>` and :ref:`DisplayServer.get_display_cutouts()<class_DisplayServer_method_get_display_cutouts>` methods.
+\ **Nota:** È necessario assicurarsi che nessuno dei contenuti dell'applicazione sia nascosto da elementi di sistema utilizzando i metodi :ref:`DisplayServer.get_display_safe_area()<class_DisplayServer_method_get_display_safe_area>` e :ref:`DisplayServer.get_display_cutouts()<class_DisplayServer_method_get_display_cutouts>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2837,7 +2837,7 @@ If ``true``, this makes the navigation and status bars translucent and allows th
 
 :ref:`bool<class_bool>` **screen/immersive_mode** :ref:`🔗<class_EditorExportPlatformAndroid_property_screen/immersive_mode>`
 
-If ``true``, hides the navigation and status bar. Set :ref:`DisplayServer.window_set_mode()<class_DisplayServer_method_window_set_mode>` to change this at runtime.
+Se ``true``, nasconde la barra di navigazione e di stato. Vedi :ref:`DisplayServer.window_set_mode()<class_DisplayServer_method_window_set_mode>` per cambiarne la visibilità durante l'esecuzione.
 
 .. rst-class:: classref-item-separator
 
@@ -2897,7 +2897,7 @@ Indica se l'applicazione supporta fattori forma di schermi di grandi dimensioni.
 
 :ref:`bool<class_bool>` **shader_baker/enabled** :ref:`🔗<class_EditorExportPlatformAndroid_property_shader_baker/enabled>`
 
-If ``true``, shaders will be compiled and embedded in the application. This option is only supported when using the Forward+ or Mobile renderers.
+Se ``true``, gli shader saranno compilati e incorporati nell'applicazione. Questa opzione è supportata solo quando si utilizzano i renderer Forward+ o Mobile.
 
 .. rst-class:: classref-item-separator
 

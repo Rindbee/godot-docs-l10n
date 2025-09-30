@@ -671,23 +671,23 @@ Su Windows, tutti i GUID dei joypad XInput saranno sovrascritti da Godot in ``__
 
 :ref:`Dictionary<class_Dictionary>` **get_joy_info**\ (\ device\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Input_method_get_joy_info>`
 
-Returns a dictionary with extra platform-specific information about the device, e.g. the raw gamepad name from the OS or the Steam Input index.
+Restituisce un dizionario con ulteriori informazioni sul dispositivo, specifiche per la piattaforma, ad esempio il nome grezzo del gamepad dal sistema operativo o l'indice per Steam Input.
 
-On Windows, Linux, and macOS, the dictionary contains the following fields:
+Su Windows, Linux e macOS il dizionario contiene i seguenti campi:
 
-\ ``raw_name``: The name of the controller as it came from the OS, before getting renamed by the controller database.
+\ ``raw_name``: Il nome del controller così come è stato fornito dall'OS, prima di essere rinominato dal database dei controller.
 
-\ ``vendor_id``: The USB vendor ID of the device.
+\ ``vendor_id``: L'ID fornitore USB del dispositivo.
 
-\ ``product_id``: The USB product ID of the device.
+\ ``product_id``: l'ID prodotto USB del dispositivo.
 
-\ ``steam_input_index``: The Steam Input gamepad index, if the device is not a Steam Input device this key won't be present.
+\ ``steam_input_index``: l'indice Steam Input del gamepad, se il dispositivo non è un dispositivo Steam Input questa chiave non sarà presente.
 
-On Windows, the dictionary can have an additional field:
+Su Windows, il dizionario può avere un ulteriore campo:
 
-\ ``xinput_index``: The index of the controller in the XInput system. This key won't be present for devices not handled by XInput.
+\ ``xinput_index``: l'indice del controller nel sistema XInput. Questa chiave non sarà presente sui dispositivi non gestiti da XInput.
 
-\ **Note:** The returned dictionary is always empty on Android, iOS, visionOS, and Web.
+\ **Nota:** Il dizionario restituito è sempre vuoto su Android, iOS, visionOS e Web.
 
 .. rst-class:: classref-item-separator
 
@@ -825,15 +825,15 @@ If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:
 
 :ref:`bool<class_bool>` **is_action_just_pressed_by_event**\ (\ action\: :ref:`StringName<class_StringName>`, event\: :ref:`InputEvent<class_InputEvent>`, exact_match\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Input_method_is_action_just_pressed_by_event>`
 
-Returns ``true`` when the user has *started* pressing the action event in the current frame or physics tick, and the first event that triggered action press in the current frame/physics tick was ``event``. It will only return ``true`` on the frame or tick that the user pressed down the button.
+Restituisce ``true`` quando l'utente ha *iniziato* a premere l'evento d'azione nel frame o nel tick di fisica attuale. Restituirà ``true`` solo sul frame o sul tick in cui l'utente ha premuto il pulsante.
 
-This is useful for code that needs to run only once when an action is pressed, and the action is processed during input handling (e.g. :ref:`Node._input()<class_Node_private_method__input>`).
+Questo è utile per codice che bisogna eseguire solo una volta quando viene premuta un'azione, anziché a ogni frame mentre viene premuta.
 
-If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:`InputEventKey<class_InputEventKey>` and :ref:`InputEventMouseButton<class_InputEventMouseButton>` events, and the direction for :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` events.
+Se ``exact_match`` è ``false``, ignora i modificatori aggiuntivi di input per gli eventi :ref:`InputEventKey<class_InputEventKey>` e :ref:`InputEventMouseButton<class_InputEventMouseButton>` e la direzione per gli eventi :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`.
 
-\ **Note:** Returning ``true`` does not imply that the action is *still* pressed. An action can be pressed and released again rapidly, and ``true`` will still be returned so as not to miss input.
+\ **Nota:** Restituire ``true`` non significa che l'azione sia *ancora* premuta. Un'azione può essere premuta e rilasciata di nuovo rapidamente e ``true`` verrà comunque restituito per non perdere gli input.
 
-\ **Note:** Due to keyboard ghosting, :ref:`is_action_just_pressed()<class_Input_method_is_action_just_pressed>` may return ``false`` even if one of the action's keys is pressed. See `Input examples <../tutorials/inputs/input_examples.html#keyboard-events>`__ in the documentation for more information.
+\ **Nota:** A causa di ghosting per le tastiere, :ref:`is_action_just_pressed()<class_Input_method_is_action_just_pressed>` potrebbe restituire ``false`` anche se viene premuto uno dei tasti dell'azione. Consulta `Esempi di input <../tutorials/inputs/input_examples.html#keyboard-events>`__ nella documentazione per maggiori informazioni.
 
 .. rst-class:: classref-item-separator
 
@@ -863,13 +863,15 @@ If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:
 
 :ref:`bool<class_bool>` **is_action_just_released_by_event**\ (\ action\: :ref:`StringName<class_StringName>`, event\: :ref:`InputEvent<class_InputEvent>`, exact_match\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Input_method_is_action_just_released_by_event>`
 
-Returns ``true`` when the user *stops* pressing the action event in the current frame or physics tick, and the first event that triggered action release in the current frame/physics tick was ``event``. It will only return ``true`` on the frame or tick that the user releases the button.
+Restituisce ``true`` quando l'utente ha *finito* di premere l'evento azione nel frame o nel tick di fisica attuale, e il primo evento che ha attivato il rilascio dell'azione nel frame/tick di fisica attuale è stato ``event``.
 
-This is useful when an action is processed during input handling (e.g. :ref:`Node._input()<class_Node_private_method__input>`).
+Restituirà ``true`` solo sul frame o sul tick in cui l'utente ha rilasciato il pulsante.
 
-\ **Note:** Returning ``true`` does not imply that the action is *still* not pressed. An action can be released and pressed again rapidly, and ``true`` will still be returned so as not to miss input.
+Ciò è utile quando un'azione è elaborata durante la gestione degli input (ad esempio :ref:`Node._input()<class_Node_private_method__input>`).
 
-If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:`InputEventKey<class_InputEventKey>` and :ref:`InputEventMouseButton<class_InputEventMouseButton>` events, and the direction for :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` events.
+\ **Nota:** Restituire ``true`` non significa che l'azione non sia *ancora* premuta. Un'azione può essere premuta e rilasciata di nuovo rapidamente e ``true`` verrà comunque restituito per non perdere gli input.
+
+Se ``exact_match`` è ``false``, ignora i modificatori aggiuntivi di input per gli eventi :ref:`InputEventKey<class_InputEventKey>` e :ref:`InputEventMouseButton<class_InputEventMouseButton>` e la direzione per gli eventi :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`.
 
 .. rst-class:: classref-item-separator
 

@@ -89,9 +89,9 @@ Descrizioni delle proprietà
 - |void| **set_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_color**\ (\ )
 
-The :ref:`Color<class_Color>` of the light in linear space. Defaults to white. A black color causes the light to have no effect.
+Il :ref:`Color<class_Color>` della luce nello spazio lineare. Il valore predefinito è bianco. Un colore nero fa sì che la luce non abbia alcun effetto.
 
-This value is linear to match glTF, but will be converted to nonlinear sRGB when creating a Godot :ref:`Light3D<class_Light3D>` node upon import, or converted to linear when exporting a Godot :ref:`Light3D<class_Light3D>` to glTF.
+Questo valore è lineare per corrispondere a glTF, ma sarà convertito in sRGB non lineare durante la creazione di un nodo :ref:`Light3D<class_Light3D>` di Godot durante l'importazione, o convertito in lineare all'esportazione di un :ref:`Light3D<class_Light3D>` di Godot in glTF.
 
 .. rst-class:: classref-item-separator
 
@@ -110,7 +110,7 @@ This value is linear to match glTF, but will be converted to nonlinear sRGB when
 
 L'angolo interno del cono in un riflettore. Deve essere minore o uguale all'angolo del cono esterno.
 
-All'interno di questo angolo, la luce è a piena luminosità. Tra gli angoli del cono interno ed esterno, c'è una transizione dalla piena luminosità alla luminosità zero. Quando si crea un :ref:`SpotLight3D<class_SpotLight3D>` di Godot, il rapporto tra gli angoli del cono interno ed esterno viene utilizzato per calcolare l'attenuazione della luce.
+All'interno di questo angolo, la luce è a piena luminosità. Tra gli angoli del cono interno ed esterno, c'è una transizione dalla piena luminosità alla luminosità zero. Quando si crea un :ref:`SpotLight3D<class_SpotLight3D>` di Godot, il rapporto tra gli angoli del cono interno ed esterno serve per calcolare l'attenuazione della luce.
 
 .. rst-class:: classref-item-separator
 

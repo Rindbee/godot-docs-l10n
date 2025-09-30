@@ -165,7 +165,7 @@ Devuelve el estado de la conexión.
 
 :ref:`StreamPeer<class_StreamPeer>` **get_stream**\ (\ ) |const| :ref:`🔗<class_StreamPeerTLS_method_get_stream>`
 
-Returns the underlying :ref:`StreamPeer<class_StreamPeer>` connection, used in :ref:`accept_stream()<class_StreamPeerTLS_method_accept_stream>` or :ref:`connect_to_stream()<class_StreamPeerTLS_method_connect_to_stream>`.
+Devuelve la conexión subyacente :ref:`StreamPeer<class_StreamPeer>`, utilizada en :ref:`accept_stream()<class_StreamPeerTLS_method_accept_stream>` o :ref:`connect_to_stream()<class_StreamPeerTLS_method_connect_to_stream>`.
 
 .. rst-class:: classref-item-separator
 

@@ -81,7 +81,7 @@ Divide dos números usando ``a / b``.
 
 :ref:`Operator<enum_VisualShaderNodeFloatOp_Operator>` **OP_MOD** = ``4``
 
-Calcula el resto de dos números. Se traduce a ``mod(a, b)`` en el lenguaje de shader de Godot.
+Calcula el resto de dos números. Se traduce a ``mod(a, b)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatOp_constant_OP_POW:
 
@@ -89,7 +89,7 @@ Calcula el resto de dos números. Se traduce a ``mod(a, b)`` en el lenguaje de s
 
 :ref:`Operator<enum_VisualShaderNodeFloatOp_Operator>` **OP_POW** = ``5``
 
-Eleva ``a`` a la potencia de ``b``. Se traduce a ``pow(a, b)`` en el lenguaje de shader de Godot.
+Eleva ``a`` a la potencia de ``b``. Se traduce a ``pow(a, b)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatOp_constant_OP_MAX:
 
@@ -97,7 +97,7 @@ Eleva ``a`` a la potencia de ``b``. Se traduce a ``pow(a, b)`` en el lenguaje de
 
 :ref:`Operator<enum_VisualShaderNodeFloatOp_Operator>` **OP_MAX** = ``6``
 
-Devuelve el mayor de dos números. Se traduce a ``max(a, b)`` en el lenguaje de shader de Godot.
+Devuelve el mayor de dos números. Se traduce a ``max(a, b)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatOp_constant_OP_MIN:
 
@@ -105,7 +105,7 @@ Devuelve el mayor de dos números. Se traduce a ``max(a, b)`` en el lenguaje de 
 
 :ref:`Operator<enum_VisualShaderNodeFloatOp_Operator>` **OP_MIN** = ``7``
 
-Devuelve el menor de dos números. Se traduce a ``min(a, b)`` en el lenguaje de shader de Godot.
+Devuelve el menor de dos números. Se traduce a ``min(a, b)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatOp_constant_OP_ATAN2:
 
@@ -113,7 +113,7 @@ Devuelve el menor de dos números. Se traduce a ``min(a, b)`` en el lenguaje de 
 
 :ref:`Operator<enum_VisualShaderNodeFloatOp_Operator>` **OP_ATAN2** = ``8``
 
-Devuelve la arcotangente de los parámetros. Se traduce a ``atan(a, b)`` en el lenguaje de shader de Godot.
+Devuelve la arcotangente de los parámetros. Se traduce a ``atan(a, b)`` en el lenguaje de shaders de Godot.
 
 .. _class_VisualShaderNodeFloatOp_constant_OP_STEP:
 

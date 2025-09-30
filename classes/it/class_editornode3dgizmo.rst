@@ -189,7 +189,7 @@ L'argomento ``secondary`` è ``true`` quando la maniglia richiesta è secondaria
 
 |void| **_redraw**\ (\ ) |virtual| :ref:`🔗<class_EditorNode3DGizmo_private_method__redraw>`
 
-Sostituisci questo metodo per aggiungere tutti gli elementi gizmo quando un aggiornamento dei gizmo viene richiesto. È comune chiamare :ref:`clear()<class_EditorNode3DGizmo_method_clear>` all'inizio di questo metodo e successivamente aggiungere elementi visivi in base alle proprietà del nodo.
+Sovrascrivi questo metodo per aggiungere tutti gli elementi gizmo quando un aggiornamento dei gizmo viene richiesto. È comune chiamare :ref:`clear()<class_EditorNode3DGizmo_method_clear>` all'inizio di questo metodo e successivamente aggiungere elementi visivi in base alle proprietà del nodo.
 
 .. rst-class:: classref-item-separator
 
@@ -239,7 +239,7 @@ Sovrascrivi questo metodo per consentire la selezione di gizmo secondari tramite
 
 :ref:`int<class_int>` **_subgizmos_intersect_ray**\ (\ camera\: :ref:`Camera3D<class_Camera3D>`, point\: :ref:`Vector2<class_Vector2>`\ ) |virtual| |const| :ref:`🔗<class_EditorNode3DGizmo_private_method__subgizmos_intersect_ray>`
 
-Sovrascrivi questo metodo per consentire la selezione di gizmo secondari tramite clic del mouse. Specificata una telecamera (``camera``) e un punto (``frustum``) in coordinate dello schermo, questo metodo dovrebbe restituire quale gizmo secondario dovrebbe essere selezionato. Il valore restituito dovrebbe essere un identificatore univoco di gizmo secondario, che può avere qualsiasi valore non negativo e sarà utilizzato in altri metodi virtuali come :ref:`_get_subgizmo_transform()<class_EditorNode3DGizmo_private_method__get_subgizmo_transform>` o :ref:`_commit_subgizmos()<class_EditorNode3DGizmo_private_method__commit_subgizmos>`.
+Sovrascrivi questo metodo per consentire la selezione di gizmo secondari tramite clic del mouse. Specificata una telecamera (``camera``) e un punto (``point``) in coordinate dello schermo, questo metodo dovrebbe restituire quale gizmo secondario dovrebbe essere selezionato. Il valore restituito dovrebbe essere un identificatore univoco di gizmo secondario, che può avere qualsiasi valore non negativo e sarà utilizzato in altri metodi virtuali come :ref:`_get_subgizmo_transform()<class_EditorNode3DGizmo_private_method__get_subgizmo_transform>` o :ref:`_commit_subgizmos()<class_EditorNode3DGizmo_private_method__commit_subgizmos>`.
 
 .. rst-class:: classref-item-separator
 

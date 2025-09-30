@@ -14,13 +14,13 @@ Espone un insieme di scene come tasselli per una risorsa :ref:`TileSet<class_Til
 Descrizione
 ----------------------
 
-When placed on a :ref:`TileMapLayer<class_TileMapLayer>`, tiles from **TileSetScenesCollectionSource** will automatically instantiate an associated scene at the cell's position in the TileMapLayer.
+Quando sono posizionati su un :ref:`TileMapLayer<class_TileMapLayer>`, i tasselli da **TileSetScenesCollectionSource** creeranno automaticamente un'istanza di una scena associata nella posizione della cella nel TileMapLayer.
 
-Scenes are instantiated as children of the :ref:`TileMapLayer<class_TileMapLayer>` after it enters the tree, at the end of the frame (their creation is deferred). If you add/remove a scene tile in the :ref:`TileMapLayer<class_TileMapLayer>` that is already inside the tree, the :ref:`TileMapLayer<class_TileMapLayer>` will automatically instantiate/free the scene accordingly.
+Le scene vengono create come figlie del :ref:`TileMapLayer<class_TileMapLayer>` dopo che entra nell'albero, alla fine del frame (la loro creazione viene differita). Se si aggiunge rimuove un tassello di scena nel :ref:`TileMapLayer<class_TileMapLayer>` che è già all'interno dell'albero, il :ref:`TileMapLayer<class_TileMapLayer>` creerà automaticamente un'istanza o libererà la scena di conseguenza.
 
-\ **Note:** Scene tiles all occupy one tile slot and instead use alternate tile ID to identify scene index. :ref:`TileSetSource.get_tiles_count()<class_TileSetSource_method_get_tiles_count>` will always return ``1``. Use :ref:`get_scene_tiles_count()<class_TileSetScenesCollectionSource_method_get_scene_tiles_count>` to get a number of scenes in a **TileSetScenesCollectionSource**.
+\ **Nota:** Tutte i tasselli di scena occupano un solo posto tassello e invece usano l'ID alternativo per identificare l'indice della scena. :ref:`TileSetSource.get_tiles_count()<class_TileSetSource_method_get_tiles_count>` restituirà sempre ``1``. Usa :ref:`get_scene_tiles_count()<class_TileSetScenesCollectionSource_method_get_scene_tiles_count>` per ottenere un numero di scene in una **TileSetScenesCollectionSource**.
 
-Use this code if you want to find the scene path at a given tile in :ref:`TileMapLayer<class_TileMapLayer>`:
+Usa questo codice se vuoi trovare il percorso della scena contenuta in un determinato tassello in :ref:`TileMapLayer<class_TileMapLayer>`:
 
 
 .. tabs::
@@ -32,7 +32,7 @@ Use this code if you want to find the scene path at a given tile in :ref:`TileMa
         var scene_source = tile_map_layer.tile_set.get_source(source_id)
         if scene_source is TileSetScenesCollectionSource:
             var alt_id = tile_map_layer.get_cell_alternative_tile(Vector2i(x, y))
-            # The assigned PackedScene.
+            # Il PackedScene assegnato.
             var scene = scene_source.get_scene_tile_scene(alt_id)
 
  .. code-tab:: csharp
@@ -44,7 +44,7 @@ Use this code if you want to find the scene path at a given tile in :ref:`TileMa
         if (source is TileSetScenesCollectionSource sceneSource)
         {
             int altId = tileMapLayer.GetCellAlternativeTile(new Vector2I(x, y));
-            // The assigned PackedScene.
+            // Il PackedScene assegnato.
             PackedScene scene = sceneSource.GetSceneTileScene(altId);
         }
     }

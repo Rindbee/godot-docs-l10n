@@ -315,7 +315,7 @@ El offset relativo al inicio de la vista de búfer en bytes.
 - |void| **set_component_type**\ (\ value\: :ref:`GLTFComponentType<enum_GLTFAccessor_GLTFComponentType>`\ )
 - :ref:`GLTFComponentType<enum_GLTFAccessor_GLTFComponentType>` **get_component_type**\ (\ )
 
-El tipo de componente glTF como un enum. Consulta :ref:`GLTFComponentType<enum_GLTFAccessor_GLTFComponentType>` para ver los valores posibles. Dentro de la especificación central de glTF, un valor de 5125 o "UNSIGNED_INT" no debe utilizarse para ningún accessor al que no haga referencia mesh.primitive.indices.
+El tipo de componente glTF como un enum. Véase :ref:`GLTFComponentType<enum_GLTFAccessor_GLTFComponentType>` para ver los valores posibles. Dentro de la especificación central de glTF, un valor de 5125 o "UNSIGNED_INT" no debe utilizarse para ningún accessor al que no haga referencia mesh.primitive.indices.
 
 .. rst-class:: classref-item-separator
 

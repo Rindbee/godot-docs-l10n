@@ -121,7 +121,7 @@ Devuelve la instancia singleton :ref:`EditorInterface<class_EditorInterface>`.
 
 :ref:`Node<class_Node>` **get_scene**\ (\ ) |const| :ref:`🔗<class_EditorScript_method_get_scene>`
 
-Devuelve la raíz ``Nodo`` de la escena editada (actual). Equivalente de :ref:`EditorInterface.get_edited_scene_root()<class_EditorInterface_method_get_edited_scene_root>`.
+Devuelve la raíz :ref:`Node<class_Node>` de la escena editada (actual). Equivalente de :ref:`EditorInterface.get_edited_scene_root()<class_EditorInterface_method_get_edited_scene_root>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -178,7 +178,7 @@ El margen a cortar en los lados de toda la imagen. Esto se puede usar para corta
 
 Pares de kerning para la fuente. El par de kerning ajusta el espaciado entre dos caracteres.
 
-Cada cadena consiste en tres valores separados por espacios: cadena "desde", cadena "hasta" y un desplazamiento entero. Cada combinación forma las dos cadenas para un par de kerning, por ejemplo, ``ab cd -3`` creará pares de kerning ``ac``, ``ad``, ``bc``, y ``bd`` con un desplazamiento de ``-3``. Las secuencias de escape ``\uXXXX`` se pueden usar para añadir caracteres Unicode.
+Cada cadena consiste en tres valores separados por espacios: cadena "desde", cadena "hasta" y un desplazamiento entero. Cada combinación forma las dos strings para un par de kerning, por ejemplo, ``ab cd -3`` creará pares de kerning ``ac``, ``ad``, ``bc``, y ``bd`` con un desplazamiento de ``-3``. Las secuencias de escape ``\uXXXX`` se pueden usar para añadir caracteres Unicode.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedStringArray<class_PackedStringArray>` for more details.
 

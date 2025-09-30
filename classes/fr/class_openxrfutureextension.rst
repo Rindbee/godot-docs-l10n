@@ -7,7 +7,7 @@ OpenXRFutureExtension
 
 **Hérite de :** :ref:`OpenXRExtensionWrapper<class_OpenXRExtensionWrapper>` **<** :ref:`Object<class_Object>`
 
-The OpenXR Future extension allows for asynchronous APIs to be used.
+L'extension OpenXR Future permet d'utiliser des API asynchrones.
 
 .. rst-class:: classref-introduction-group
 

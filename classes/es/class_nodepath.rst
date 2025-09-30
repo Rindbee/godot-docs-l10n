@@ -48,9 +48,9 @@ En algunas situaciones, es posible omitir el prefijo ``:`` inicial cuando se apu
 
 Las rutas de nodos no pueden comprobar si son válidas y pueden apuntar a nodos o propiedades que no existen. Su significado depende completamente del contexto en el que se utilizan.
 
-Normalmente no hay que preocuparse por el tipo **NodePath**, ya que las cadenas se convierten automáticamente al tipo cuando es necesario. Aún hay ocasiones en las que definir rutas de nodos es útil. Por ejemplo, las propiedades **NodePath** exportadas permiten seleccionar fácilmente cualquier nodo dentro de la escena que se está editando actualmente. También se actualizan automáticamente al mover, renombrar o eliminar nodos en el editor del árbol de escenas. Consulta también ``anotación @GDScript.@export_node_path``.
+Normalmente no hay que preocuparse por el tipo **NodePath**, ya que las strings se convierten automáticamente al tipo cuando es necesario. Aún hay ocasiones en las que definir rutas de nodos es útil. Por ejemplo, las propiedades **NodePath** exportadas permiten seleccionar fácilmente cualquier nodo dentro de la escena que se está editando actualmente. También se actualizan automáticamente al mover, renombrar o eliminar nodos en el editor del árbol de escenas. Véase también :ref:`@GDScript.@export_node_path<class_@GDScript_annotation_@export_node_path>`.
 
-Consulta también :ref:`StringName<class_StringName>`, que es un tipo similar diseñado para cadenas optimizadas.
+Véase también :ref:`StringName<class_StringName>`, que es un tipo similar diseñado para strings optimizadas.
 
 \ **Nota:** En un contexto booleano, un **NodePath** se evaluará como ``false`` si está vacío (``NodePath("")``). De lo contrario, un **NodePath** siempre se evaluará como ``true``.
 

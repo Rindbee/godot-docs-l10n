@@ -1332,7 +1332,7 @@ El TextServer admite diseños verticales.
 
 :ref:`Feature<enum_TextServer_Feature>` **FEATURE_SHAPING** = ``8``
 
-TextServer supports complex text shaping.
+TextServer admite el modelado de texto complejo.
 
 .. _class_TextServer_constant_FEATURE_KASHIDA_JUSTIFICATION:
 
@@ -2989,7 +2989,7 @@ Establece el tamaño de la fuente de origen utilizada para generar texturas MSDF
 
 Si se establece en ``true``, los glifos de todos los tamaños se renderizan utilizando un único campo de distancia con signo multicanal generado a partir de los datos vectoriales de la fuente dinámica. El renderizado MSDF permite mostrar la fuente a cualquier factor de escala sin que se vea borrosa y sin incurrir en un coste de CPU cuando cambia el tamaño de la fuente (ya que la fuente ya no necesita ser rasterizada en la CPU). Como desventaja, el hinting de fuentes no está disponible con MSDF. La falta de hinting de fuentes puede dar como resultado fuentes menos nítidas y menos legibles en tamaños pequeños.
 
-\ **Nota:** El renderizado de fuentes MSDF no renderiza correctamente los glifos con formas superpuestas. Las formas superpuestas no son válidas según el estándar OpenType, pero aún se encuentran comúnmente en muchos archivos de fuentes, especialmente aquellos convertidos por Google Fonts. Para evitar problemas con los glifos superpuestos, considere descargar el archivo de fuente directamente de la fundición de tipos en lugar de confiar en Google Fonts.
+\ **Nota:** El renderizado de fuentes MSDF no renderiza correctamente los glifos con formas superpuestas. Las formas superpuestas no son válidas según el estándar OpenType, pero aún se encuentran comúnmente en muchos archivos de fuentes, especialmente aquellos convertidos por Google Fonts. Para evitar problemas con los glifos superpuestos, considera descargar el archivo de fuente directamente de la fundición de tipos en lugar de confiar en Google Fonts.
 
 .. rst-class:: classref-item-separator
 
@@ -3025,7 +3025,7 @@ Establece la sobreescritura del conjunto de características OpenType de la fuen
 
 |void| **font_set_oversampling**\ (\ font_rid\: :ref:`RID<class_RID>`, oversampling\: :ref:`float<class_float>`\ ) :ref:`🔗<class_TextServer_method_font_set_oversampling>`
 
-Si se establece en un valor positivo, sobrescribe el factor de sobremuestreo del viewport en la que se utiliza esta fuente. Consulta :ref:`Viewport.oversampling<class_Viewport_property_oversampling>`. Este valor no sobrescribe el parámetro ``oversampling`` de los métodos ``draw_*``. Se utiliza solo con fuentes dinámicas.
+Si se establece en un valor positivo, sobrescribe el factor de sobremuestreo del viewport en la que se utiliza esta fuente. Véase :ref:`Viewport.oversampling<class_Viewport_property_oversampling>`. Este valor no sobrescribe el parámetro ``oversampling`` de los métodos ``draw_*``. Se utiliza solo con fuentes dinámicas.
 
 .. rst-class:: classref-item-separator
 
@@ -3187,7 +3187,7 @@ Sets thickness of the underline in pixels.
 
 |void| **font_set_variation_coordinates**\ (\ font_rid\: :ref:`RID<class_RID>`, variation_coordinates\: :ref:`Dictionary<class_Dictionary>`\ ) :ref:`🔗<class_TextServer_method_font_set_variation_coordinates>`
 
-Establece las coordenadas de variación para la entrada de caché de fuente especificada. Consulta :ref:`font_supported_variation_list()<class_TextServer_method_font_supported_variation_list>` para más información.
+Establece las coordenadas de variación para la entrada de caché de fuente especificada. Véase :ref:`font_supported_variation_list()<class_TextServer_method_font_supported_variation_list>` para más información.
 
 .. rst-class:: classref-item-separator
 
@@ -3745,9 +3745,9 @@ Draw shaped text into a canvas item at a given position, with ``color``. ``pos``
 
 |void| **shaped_text_draw_outline**\ (\ shaped\: :ref:`RID<class_RID>`, canvas\: :ref:`RID<class_RID>`, pos\: :ref:`Vector2<class_Vector2>`, clip_l\: :ref:`float<class_float>` = -1, clip_r\: :ref:`float<class_float>` = -1, outline_size\: :ref:`int<class_int>` = 1, color\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), oversampling\: :ref:`float<class_float>` = 0.0\ ) |const| :ref:`🔗<class_TextServer_method_shaped_text_draw_outline>`
 
-Draw the outline of the shaped text into a canvas item at a given position, with ``color``. ``pos`` specifies the leftmost point of the baseline (for horizontal layout) or topmost point of the baseline (for vertical layout). If ``oversampling`` is greater than zero, it is used as font oversampling factor, otherwise viewport oversampling settings are used.
+Dibuja el contorno del texto conformado en un elemento del canvas en una posición dada, con ``color``. ``pos`` especifica el punto más a la izquierda de la línea base (para el diseño horizontal) o el punto más alto de la línea base (para el diseño vertical). Si ``oversampling`` es mayor que cero, se utiliza como factor de sobremuestreo de la fuente, de lo contrario, se utiliza la configuración de sobremuestreo del viewport.
 
-\ ``clip_l`` and ``clip_r`` are offsets relative to ``pos``, going to the right in horizontal layout and downward in vertical layout. If ``clip_l`` is not negative, glyphs starting before the offset are clipped. If ``clip_r`` is not negative, glyphs ending after the offset are clipped.
+\ ``clip_l`` y ``clip_r`` son desplazamientos relativos a ``pos``, yendo hacia la derecha en el diseño horizontal y hacia abajo en el diseño vertical. Si ``clip_l`` no es negativo, los glifos que comienzan antes del desplazamiento se recortan. Si ``clip_r`` no es negativo, los glifos que terminan después del desplazamiento se recortan.
 
 .. rst-class:: classref-item-separator
 
@@ -4125,7 +4125,7 @@ Devuelve el espaciado extra añadido entre glifos o líneas en píxeles.
 
 :ref:`int<class_int>` **shaped_text_get_trim_pos**\ (\ shaped\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_shaped_text_get_trim_pos>`
 
-Returns the position of the overrun trim.
+Devuelve la posición del recorte de desbordamiento.
 
 .. rst-class:: classref-item-separator
 
@@ -4471,12 +4471,12 @@ Devuelve ``true`` si es probable que ``string`` sea un intento de confundir al l
 
 :ref:`PackedInt32Array<class_PackedInt32Array>` **string_get_character_breaks**\ (\ string\: :ref:`String<class_String>`, language\: :ref:`String<class_String>` = ""\ ) |const| :ref:`🔗<class_TextServer_method_string_get_character_breaks>`
 
-Returns array of the composite character boundaries.
+Devuelve un array de los límites de los caracteres compuestos.
 
 ::
 
     var ts = TextServerManager.get_primary_interface()
-    print(ts.string_get_character_breaks("Test ❤️‍🔥 Test")) # Prints [1, 2, 3, 4, 5, 9, 10, 11, 12, 13, 14]
+    print(ts.string_get_character_breaks("Prueba ❤️‍🔥 Prueba")) # Imprime [1, 2, 3, 4, 5, 6, 7, 11, 12, 13, 14, 15, 16, 17, 18]
 
 .. rst-class:: classref-item-separator
 

@@ -804,7 +804,7 @@ Tecla Shift + Tab.
 
 :ref:`Key<enum_@GlobalScope_Key>` **KEY_BACKSPACE** = ``4194308``
 
-Tecla retorno.
+Backspace key.
 
 .. _class_@GlobalScope_constant_KEY_ENTER:
 
@@ -828,7 +828,7 @@ Pulsa la tecla en el teclado numerico.
 
 :ref:`Key<enum_@GlobalScope_Key>` **KEY_INSERT** = ``4194311``
 
-Tecla Insert.
+Insert key.
 
 .. _class_@GlobalScope_constant_KEY_DELETE:
 
@@ -1476,7 +1476,7 @@ Tecla Subir Volumen.
 
 :ref:`Key<enum_@GlobalScope_Key>` **KEY_MEDIAPLAY** = ``4194388``
 
-Tecla reproduccion play.
+Media play key.
 
 .. _class_@GlobalScope_constant_KEY_MEDIASTOP:
 
@@ -1492,7 +1492,7 @@ Tecla reproduccion parar.
 
 :ref:`Key<enum_@GlobalScope_Key>` **KEY_MEDIAPREVIOUS** = ``4194390``
 
-Tecla cancion previa.
+Previous song key.
 
 .. _class_@GlobalScope_constant_KEY_MEDIANEXT:
 
@@ -1500,7 +1500,7 @@ Tecla cancion previa.
 
 :ref:`Key<enum_@GlobalScope_Key>` **KEY_MEDIANEXT** = ``4194391``
 
-Tecla siguiente cancion.
+Next song key.
 
 .. _class_@GlobalScope_constant_KEY_MEDIARECORD:
 
@@ -1508,7 +1508,7 @@ Tecla siguiente cancion.
 
 :ref:`Key<enum_@GlobalScope_Key>` **KEY_MEDIARECORD** = ``4194392``
 
-Tecla grabar.
+Media record key.
 
 .. _class_@GlobalScope_constant_KEY_HOMEPAGE:
 
@@ -1516,7 +1516,7 @@ Tecla grabar.
 
 :ref:`Key<enum_@GlobalScope_Key>` **KEY_HOMEPAGE** = ``4194393``
 
-Tecla pagina inicio.
+Home page key.
 
 .. _class_@GlobalScope_constant_KEY_FAVORITES:
 
@@ -2318,7 +2318,7 @@ flags **KeyModifierMask**: :ref:`🔗<enum_@GlobalScope_KeyModifierMask>`
 
 :ref:`KeyModifierMask<enum_@GlobalScope_KeyModifierMask>` **KEY_CODE_MASK** = ``8388607``
 
-Tecla máscara codigo.
+Key Code mask.
 
 .. _class_@GlobalScope_constant_KEY_MODIFIER_MASK:
 
@@ -2326,7 +2326,7 @@ Tecla máscara codigo.
 
 :ref:`KeyModifierMask<enum_@GlobalScope_KeyModifierMask>` **KEY_MODIFIER_MASK** = ``2130706432``
 
-Tecla modificar máscara.
+Modifier key mask.
 
 .. _class_@GlobalScope_constant_KEY_MASK_CMD_OR_CTRL:
 
@@ -2342,7 +2342,7 @@ Es automáticamente redirigido a :ref:`KEY_META<class_@GlobalScope_constant_KEY_
 
 :ref:`KeyModifierMask<enum_@GlobalScope_KeyModifierMask>` **KEY_MASK_SHIFT** = ``33554432``
 
-Tecla desplazamiento de la máscara.
+Máscara de la tecla Shift.
 
 .. _class_@GlobalScope_constant_KEY_MASK_ALT:
 
@@ -2366,7 +2366,7 @@ Máscara de la tecla Command (en macOS) o Meta/Windows.
 
 :ref:`KeyModifierMask<enum_@GlobalScope_KeyModifierMask>` **KEY_MASK_CTRL** = ``268435456``
 
-Control key mask.
+Máscara de la tecla Control.
 
 .. _class_@GlobalScope_constant_KEY_MASK_KPAD:
 
@@ -2374,7 +2374,7 @@ Control key mask.
 
 :ref:`KeyModifierMask<enum_@GlobalScope_KeyModifierMask>` **KEY_MASK_KPAD** = ``536870912``
 
-Tecla máscara keypad.
+Keypad key mask.
 
 .. _class_@GlobalScope_constant_KEY_MASK_GROUP_SWITCH:
 
@@ -2382,7 +2382,7 @@ Tecla máscara keypad.
 
 :ref:`KeyModifierMask<enum_@GlobalScope_KeyModifierMask>` **KEY_MASK_GROUP_SWITCH** = ``1073741824``
 
-Tecla máscara intercambio grupo.
+Group Switch key mask.
 
 .. rst-class:: classref-item-separator
 
@@ -3204,7 +3204,7 @@ Archivo: Error Fin de fichero (EOF).
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_CANT_OPEN** = ``19``
 
-Error no se puede abrir.
+Can't open error.
 
 .. _class_@GlobalScope_constant_ERR_CANT_CREATE:
 
@@ -3212,7 +3212,7 @@ Error no se puede abrir.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_CANT_CREATE** = ``20``
 
-Error no se puede crear.
+Can't create error.
 
 .. _class_@GlobalScope_constant_ERR_QUERY_FAILED:
 
@@ -3220,7 +3220,7 @@ Error no se puede crear.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_QUERY_FAILED** = ``21``
 
-Error fallo la consulta.
+Query failed error.
 
 .. _class_@GlobalScope_constant_ERR_ALREADY_IN_USE:
 
@@ -3228,7 +3228,7 @@ Error fallo la consulta.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_ALREADY_IN_USE** = ``22``
 
-Error ya se esta usando.
+Already in use error.
 
 .. _class_@GlobalScope_constant_ERR_LOCKED:
 
@@ -3244,7 +3244,7 @@ Error Bloqueado (Locked error).
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_TIMEOUT** = ``24``
 
-Error tiempo sobrepasado.
+Timeout error.
 
 .. _class_@GlobalScope_constant_ERR_CANT_CONNECT:
 
@@ -3252,7 +3252,7 @@ Error tiempo sobrepasado.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_CANT_CONNECT** = ``25``
 
-Error no se puede conectar.
+Can't connect error.
 
 .. _class_@GlobalScope_constant_ERR_CANT_RESOLVE:
 
@@ -3260,7 +3260,7 @@ Error no se puede conectar.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_CANT_RESOLVE** = ``26``
 
-Error no se puede resolver.
+Can't resolve error.
 
 .. _class_@GlobalScope_constant_ERR_CONNECTION_ERROR:
 
@@ -3276,7 +3276,7 @@ Error de conexión.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_CANT_ACQUIRE_RESOURCE** = ``28``
 
-Error, no se pudo adquirir el recurso.
+Can't acquire resource error.
 
 .. _class_@GlobalScope_constant_ERR_CANT_FORK:
 
@@ -3284,7 +3284,7 @@ Error, no se pudo adquirir el recurso.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_CANT_FORK** = ``29``
 
-Error, no se pudo dividir el proceso.
+Can't fork process error.
 
 .. _class_@GlobalScope_constant_ERR_INVALID_DATA:
 
@@ -3308,7 +3308,7 @@ Error de parámetro inválido.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_ALREADY_EXISTS** = ``32``
 
-Error, ya existe.
+Already exists error.
 
 .. _class_@GlobalScope_constant_ERR_DOES_NOT_EXIST:
 
@@ -3316,7 +3316,7 @@ Error, ya existe.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_DOES_NOT_EXIST** = ``33``
 
-Error, no existe.
+Does not exist error.
 
 .. _class_@GlobalScope_constant_ERR_DATABASE_CANT_READ:
 
@@ -3348,7 +3348,7 @@ Error de compilación fallida.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_METHOD_NOT_FOUND** = ``37``
 
-Error, método no encontrado.
+Method not found error.
 
 .. _class_@GlobalScope_constant_ERR_LINK_FAILED:
 
@@ -3396,7 +3396,7 @@ Error de símbolo duplicado.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_PARSE_ERROR** = ``43``
 
-Error de parseo.
+Parse error.
 
 .. _class_@GlobalScope_constant_ERR_BUSY:
 
@@ -3412,7 +3412,7 @@ Error recurso ocupado.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_SKIP** = ``45``
 
-Error de salto(Skip error).
+Skip error.
 
 .. _class_@GlobalScope_constant_ERR_HELP:
 
@@ -3630,7 +3630,7 @@ Sugiere que una propiedad de tipo :ref:`String<class_String>` es texto con salto
 
 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` **PROPERTY_HINT_EXPRESSION** = ``19``
 
-Indica que una propiedad :ref:`String<class_String>` es una ``Expresión``.
+Indica que una propiedad :ref:`String<class_String>` es una :ref:`Expression<class_Expression>`.
 
 .. _class_@GlobalScope_constant_PROPERTY_HINT_PLACEHOLDER_TEXT:
 
@@ -3662,76 +3662,76 @@ Indica que el valor de la propiedad es un objeto codificado como ID de objeto, c
 
 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` **PROPERTY_HINT_TYPE_STRING** = ``23``
 
-If a property is :ref:`String<class_String>`, hints that the property represents a particular type (class). This allows to select a type from the create dialog. The property will store the selected type as a string.
+Si una propiedad es :ref:`String<class_String>`, indica que la propiedad representa un tipo particular (clase). Esto permite seleccionar un tipo desde el diálogo de creación. La propiedad almacenará el tipo seleccionado como una string.
 
-If a property is :ref:`Array<class_Array>`, hints the editor how to show elements. The ``hint_string`` must encode nested types using ``":"`` and ``"/"``.
+Si una propiedad es :ref:`Array<class_Array>`, indica al editor cómo mostrar los elementos. ``hint_string`` debe codificar tipos anidados usando ``":"`` y ``"/"``.
 
-If a property is :ref:`Dictionary<class_Dictionary>`, hints the editor how to show elements. The ``hint_string`` is the same as :ref:`Array<class_Array>`, with a ``";"`` separating the key and value.
+Si una propiedad es :ref:`Dictionary<class_Dictionary>`, indica al editor cómo mostrar los elementos. ``hint_string`` es lo mismo que :ref:`Array<class_Array>`, con un ``";"`` separando la clave y el valor.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    # Array of elem_type.
+    # Array de elem_type.
     hint_string = "%d:" % [elem_type]
     hint_string = "%d/%d:%s" % [elem_type, elem_hint, elem_hint_string]
-    # Two-dimensional array of elem_type (array of arrays of elem_type).
+    # Array bidimensional de elem_type (array de arrays de elem_type).
     hint_string = "%d:%d:" % [TYPE_ARRAY, elem_type]
     hint_string = "%d:%d/%d:%s" % [TYPE_ARRAY, elem_type, elem_hint, elem_hint_string]
-    # Three-dimensional array of elem_type (array of arrays of arrays of elem_type).
+    # Array tridimensional de elem_type (array de arrays de arrays de elem_type).
     hint_string = "%d:%d:%d:" % [TYPE_ARRAY, TYPE_ARRAY, elem_type]
     hint_string = "%d:%d:%d/%d:%s" % [TYPE_ARRAY, TYPE_ARRAY, elem_type, elem_hint, elem_hint_string]
 
  .. code-tab:: csharp
 
-    // Array of elemType.
+    // Array de elemType.
     hintString = $"{elemType:D}:";
     hintString = $"{elemType:}/{elemHint:D}:{elemHintString}";
-    // Two-dimensional array of elemType (array of arrays of elemType).
+    // Array bidimensional de elemType (array de arrays de elemType).
     hintString = $"{Variant.Type.Array:D}:{elemType:D}:";
     hintString = $"{Variant.Type.Array:D}:{elemType:D}/{elemHint:D}:{elemHintString}";
-    // Three-dimensional array of elemType (array of arrays of arrays of elemType).
+    // Array tridimensional de elemType (array de arrays de arrays de elemType).
     hintString = $"{Variant.Type.Array:D}:{Variant.Type.Array:D}:{elemType:D}:";
     hintString = $"{Variant.Type.Array:D}:{Variant.Type.Array:D}:{elemType:D}/{elemHint:D}:{elemHintString}";
 
 
 
-\ **Examples:**\ 
+\ **Ejemplos:**\ 
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    hint_string = "%d:" % [TYPE_INT] # Array of integers.
-    hint_string = "%d/%d:1,10,1" % [TYPE_INT, PROPERTY_HINT_RANGE] # Array of integers (in range from 1 to 10).
-    hint_string = "%d/%d:Zero,One,Two" % [TYPE_INT, PROPERTY_HINT_ENUM] # Array of integers (an enum).
-    hint_string = "%d/%d:Zero,One,Three:3,Six:6" % [TYPE_INT, PROPERTY_HINT_ENUM] # Array of integers (an enum).
-    hint_string = "%d/%d:*.png" % [TYPE_STRING, PROPERTY_HINT_FILE] # Array of strings (file paths).
-    hint_string = "%d/%d:Texture2D" % [TYPE_OBJECT, PROPERTY_HINT_RESOURCE_TYPE] # Array of textures.
+    hint_string = "%d:" % [TYPE_INT] # Array de enteros.
+    hint_string = "%d/%d:1,10,1" % [TYPE_INT, PROPERTY_HINT_RANGE] # Array de enteros (en el rango de 1 a 10).
+    hint_string = "%d/%d:Zero,One,Two" % [TYPE_INT, PROPERTY_HINT_ENUM] # Array de enteros (un enum).
+    hint_string = "%d/%d:Zero,One,Three:3,Six:6" % [TYPE_INT, PROPERTY_HINT_ENUM] # Array de enteros (un enum).
+    hint_string = "%d/%d:*.png" % [TYPE_STRING, PROPERTY_HINT_FILE] # Array de strings (rutas de archivos).
+    hint_string = "%d/%d:Texture2D" % [TYPE_OBJECT, PROPERTY_HINT_RESOURCE_TYPE] # Array de texturas.
 
-    hint_string = "%d:%d:" % [TYPE_ARRAY, TYPE_FLOAT] # Two-dimensional array of floats.
-    hint_string = "%d:%d/%d:" % [TYPE_ARRAY, TYPE_STRING, PROPERTY_HINT_MULTILINE_TEXT] # Two-dimensional array of multiline strings.
-    hint_string = "%d:%d/%d:-1,1,0.1" % [TYPE_ARRAY, TYPE_FLOAT, PROPERTY_HINT_RANGE] # Two-dimensional array of floats (in range from -1 to 1).
-    hint_string = "%d:%d/%d:Texture2D" % [TYPE_ARRAY, TYPE_OBJECT, PROPERTY_HINT_RESOURCE_TYPE] # Two-dimensional array of textures.
+    hint_string = "%d:%d:" % [TYPE_ARRAY, TYPE_FLOAT] # Array bidimensional de floats.
+    hint_string = "%d:%d/%d:" % [TYPE_ARRAY, TYPE_STRING, PROPERTY_HINT_MULTILINE_TEXT] # Array bidimensional de strings multilínea.
+    hint_string = "%d:%d/%d:-1,1,0.1" % [TYPE_ARRAY, TYPE_FLOAT, PROPERTY_HINT_RANGE] # Array bidimensional de floats (en rango de -1 a 1).
+    hint_string = "%d:%d/%d:Texture2D" % [TYPE_ARRAY, TYPE_OBJECT, PROPERTY_HINT_RESOURCE_TYPE] # Array bidimensional de texturas.
 
  .. code-tab:: csharp
 
-    hintString = $"{Variant.Type.Int:D}/{PropertyHint.Range:D}:1,10,1"; // Array of integers (in range from 1 to 10).
-    hintString = $"{Variant.Type.Int:D}/{PropertyHint.Enum:D}:Zero,One,Two"; // Array of integers (an enum).
-    hintString = $"{Variant.Type.Int:D}/{PropertyHint.Enum:D}:Zero,One,Three:3,Six:6"; // Array of integers (an enum).
-    hintString = $"{Variant.Type.String:D}/{PropertyHint.File:D}:*.png"; // Array of strings (file paths).
-    hintString = $"{Variant.Type.Object:D}/{PropertyHint.ResourceType:D}:Texture2D"; // Array of textures.
+    hintString = $"{Variant.Type.Int:D}/{PropertyHint.Range:D}:1,10,1"; // Array de enteros (en rango de 1 a 10).
+    hintString = $"{Variant.Type.Int:D}/{PropertyHint.Enum:D}:Zero,One,Two"; // Array de enteros (un enum).
+    hintString = $"{Variant.Type.Int:D}/{PropertyHint.Enum:D}:Zero,One,Three:3,Six:6"; // Array de enteros (un enum).
+    hintString = $"{Variant.Type.String:D}/{PropertyHint.File:D}:*.png"; // Array de strings (rutas de archivos).
+    hintString = $"{Variant.Type.Object:D}/{PropertyHint.ResourceType:D}:Texture2D"; // Array de texturas.
 
-    hintString = $"{Variant.Type.Array:D}:{Variant.Type.Float:D}:"; // Two-dimensional array of floats.
-    hintString = $"{Variant.Type.Array:D}:{Variant.Type.String:D}/{PropertyHint.MultilineText:D}:"; // Two-dimensional array of multiline strings.
-    hintString = $"{Variant.Type.Array:D}:{Variant.Type.Float:D}/{PropertyHint.Range:D}:-1,1,0.1"; // Two-dimensional array of floats (in range from -1 to 1).
-    hintString = $"{Variant.Type.Array:D}:{Variant.Type.Object:D}/{PropertyHint.ResourceType:D}:Texture2D"; // Two-dimensional array of textures.
+    hintString = $"{Variant.Type.Array:D}:{Variant.Type.Float:D}:"; // Array bidimensional de floats.
+    hintString = $"{Variant.Type.Array:D}:{Variant.Type.String:D}/{PropertyHint.MultilineText:D}:"; // Array bidimensional de strings multilínea.
+    hintString = $"{Variant.Type.Array:D}:{Variant.Type.Float:D}/{PropertyHint.Range:D}:-1,1,0.1"; // Array bidimensional de floats (en rango de -1 a 1).
+    hintString = $"{Variant.Type.Array:D}:{Variant.Type.Object:D}/{PropertyHint.ResourceType:D}:Texture2D"; // Array bidimensional de texturas.
 
 
 
-\ **Note:** The trailing colon is required for properly detecting built-in types.
+\ **Nota:** Los dos puntos finales son necesarios para detectar correctamente los tipos integrados.
 
 .. _class_@GlobalScope_constant_PROPERTY_HINT_NODE_PATH_TO_EDITED_NODE:
 
@@ -3765,7 +3765,7 @@ Indica que la cadena de indicación especifica tipos de nodos válidos para una 
 
 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` **PROPERTY_HINT_SAVE_FILE** = ``27``
 
-Sugiere que una propiedad de tipo :ref:`String<class_String>` es una ruta a un archivo. Al editarla, se mostrará un diálogo de archivo para seleccionar la ruta del archivo que se guardará. El diálogo tiene acceso al directorio del proyecto. La string de sugerencia puede ser un conjunto de filtros con comodines como ``"*.png,*.jpg"``. Ver también :ref:`FileDialog.filters<class_FileDialog_property_filters>`.
+Sugiere que una propiedad de tipo :ref:`String<class_String>` es una ruta a un archivo. Al editarla, se mostrará un diálogo de archivo para seleccionar la ruta del archivo que se guardará. El diálogo tiene acceso al directorio del proyecto. La string de sugerencia puede ser un conjunto de filtros con comodines como ``"*.png,*.jpg"``. Véase también :ref:`FileDialog.filters<class_FileDialog_property_filters>`.
 
 .. _class_@GlobalScope_constant_PROPERTY_HINT_GLOBAL_SAVE_FILE:
 
@@ -3773,7 +3773,7 @@ Sugiere que una propiedad de tipo :ref:`String<class_String>` es una ruta a un a
 
 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` **PROPERTY_HINT_GLOBAL_SAVE_FILE** = ``28``
 
-Sugiere que una propiedad de tipo :ref:`String<class_String>` es una ruta a un archivo. Al editarla, se mostrará un diálogo de archivo para seleccionar la ruta del archivo que se guardará. El diálogo tiene acceso a todo el sistema de archivos. La string de sugerencia puede ser un conjunto de filtros con comodines como ``"*.png,*.jpg"``. Ver también :ref:`FileDialog.filters<class_FileDialog_property_filters>`.
+Sugiere que una propiedad de tipo :ref:`String<class_String>` es una ruta a un archivo. Al editarla, se mostrará un diálogo de archivo para seleccionar la ruta del archivo que se guardará. El diálogo tiene acceso a todo el sistema de archivos. La string de sugerencia puede ser un conjunto de filtros con comodines como ``"*.png,*.jpg"``. Véase también :ref:`FileDialog.filters<class_FileDialog_property_filters>`.
 
 .. _class_@GlobalScope_constant_PROPERTY_HINT_INT_IS_OBJECTID:
 
@@ -3827,7 +3827,7 @@ Sugiere que una propiedad de tipo string es un código de configuración regiona
 
 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` **PROPERTY_HINT_LOCALIZABLE_STRING** = ``33``
 
-Indica que una propiedad tipo diccionario es un mapa de traducción de cadenas. Las claves del diccionario son códigos de idioma y los valores son las cadenas traducidas.
+Indica que una propiedad tipo diccionario es un mapa de traducción de strings. Las claves del diccionario son códigos de idioma y los valores son las strings traducidas.
 
 .. _class_@GlobalScope_constant_PROPERTY_HINT_NODE_TYPE:
 
@@ -4200,7 +4200,7 @@ flags **MethodFlags**: :ref:`🔗<enum_@GlobalScope_MethodFlags>`
 
 :ref:`MethodFlags<enum_@GlobalScope_MethodFlags>` **METHOD_FLAG_NORMAL** = ``1``
 
-Flag para un método normal.
+Bandera para un método normal.
 
 .. _class_@GlobalScope_constant_METHOD_FLAG_EDITOR:
 
@@ -4208,7 +4208,7 @@ Flag para un método normal.
 
 :ref:`MethodFlags<enum_@GlobalScope_MethodFlags>` **METHOD_FLAG_EDITOR** = ``2``
 
-Flag para un método editor.
+Bandera para un método editor.
 
 .. _class_@GlobalScope_constant_METHOD_FLAG_CONST:
 
@@ -4216,7 +4216,7 @@ Flag para un método editor.
 
 :ref:`MethodFlags<enum_@GlobalScope_MethodFlags>` **METHOD_FLAG_CONST** = ``4``
 
-Flag para un método constante.
+Bandera para un método constante.
 
 .. _class_@GlobalScope_constant_METHOD_FLAG_VIRTUAL:
 
@@ -4224,7 +4224,7 @@ Flag para un método constante.
 
 :ref:`MethodFlags<enum_@GlobalScope_MethodFlags>` **METHOD_FLAG_VIRTUAL** = ``8``
 
-Flag para un método virtual.
+Bandera para un método virtual.
 
 .. _class_@GlobalScope_constant_METHOD_FLAG_VARARG:
 
@@ -5354,7 +5354,7 @@ Devuelve el valor absoluto del parámetro int ``x`` (es decir, un valor positivo
 
 :ref:`float<class_float>` **acos**\ (\ x\: :ref:`float<class_float>`\ ) :ref:`🔗<class_@GlobalScope_method_acos>`
 
-Devuelve el arco coseno de ``x`` en radianes. Se usa para obtener el ángulo del coseno de ``x``. ``x`` debe estar entre ``-1.0`` y ``1.0`` (incluyéndolos); en otro caso, :ref:`acos()<class_@GlobalScope_method_acos>` devolverá :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>`.
+Devuelve el arco coseno de ``x`` en radianes. Se usa para obtener el ángulo del coseno de ``x``. ``x`` debe estar entre ``-1.0`` y ``1.0`` (inclusivo); en otro caso, :ref:`acos()<class_@GlobalScope_method_acos>` devolverá :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>`.
 
 ::
 
@@ -5390,7 +5390,7 @@ Devuelve el arco coseno hiperbólico (también llamado inverso) de ``x``, devolv
 
 :ref:`float<class_float>` **angle_difference**\ (\ from\: :ref:`float<class_float>`, to\: :ref:`float<class_float>`\ ) :ref:`🔗<class_@GlobalScope_method_angle_difference>`
 
-Devuelve la diferencia entre dos ángulos (en radianes), en el rango ``[-PI, +PI]``. Cuando ``desde`` y ``hasta`` son opuestos, devuelve ``-PI`` si ``desde`` es menor que ``hasta``, o ``PI`` en caso contrario.
+Devuelve la diferencia entre dos ángulos (en radianes), en el rango ``[-PI, +PI]``. Cuando ``from`` y ``to`` son opuestos, devuelve ``-PI`` si ``from`` es menor que ``to``, o ``PI`` en caso contrario.
 
 .. rst-class:: classref-item-separator
 
@@ -5861,7 +5861,7 @@ Véase también: :ref:`ceil()<class_@GlobalScope_method_ceil>`, :ref:`round()<cl
 
 :ref:`float<class_float>` **floorf**\ (\ x\: :ref:`float<class_float>`\ ) :ref:`🔗<class_@GlobalScope_method_floorf>`
 
-Redondea a ``params x`` hacia abajo (hacia el negativo infinito), devolviendo el numero entero de mayor tamaño que no sea superior a ``x``.
+Redondea a ``x`` hacia abajo (hacia el negativo infinito), devolviendo el numero entero de mayor tamaño que no sea superior a ``x``.
 
 Una version con tipado seguro de :ref:`floor()<class_@GlobalScope_method_floor>`, que devuelve un :ref:`float<class_float>`.
 
@@ -5875,7 +5875,7 @@ Una version con tipado seguro de :ref:`floor()<class_@GlobalScope_method_floor>`
 
 :ref:`int<class_int>` **floori**\ (\ x\: :ref:`float<class_float>`\ ) :ref:`🔗<class_@GlobalScope_method_floori>`
 
-Redondea a ``params x`` hacia abajo (hacia el negativo infinito), devolviendo el numero entero de mayor tamaño que no sea superior a ``x``.
+Redondea a ``x`` hacia abajo (hacia el negativo infinito), devolviendo el numero entero de mayor tamaño que no sea superior a ``x``.
 
 Una version con tipado seguro de :ref:`floor()<class_@GlobalScope_method_floor>`, que devuelve un :ref:`int<class_int>`.
 
@@ -5943,14 +5943,18 @@ Imprime:
 
 Devuelve el hash de tipo integer de la variable ``variable`` pasada.
 
-::
 
-    [gdscript]
+.. tabs::
+
+ .. code-tab:: gdscript
+
     print(hash("a")) # Imprime 177670
-    [/gdscript]
-    [csharp]
+
+ .. code-tab:: csharp
+
     GD.Print(GD.Hash("a")); // Imprime 177670
-    [/csharp]
+
+
 
 .. rst-class:: classref-item-separator
 
@@ -6002,7 +6006,7 @@ Devuelve el :ref:`Object<class_Object>` que corresponde a ``instance_id``. Todos
 
 :ref:`float<class_float>` **inverse_lerp**\ (\ from\: :ref:`float<class_float>`, to\: :ref:`float<class_float>`, weight\: :ref:`float<class_float>`\ ) :ref:`🔗<class_@GlobalScope_method_inverse_lerp>`
 
-Devuelve un factor de interpolación o extrapolación, considerando el rango especificado en ``from y [param to``, y el valor interpolado especificado en ``weight``. El valor devuelto estará entre ``0.0`` y ``1.0`` si ``weight`` está entre ``from`` y ``to`` (incluyéndolos). Si ``weight`` está ubicado fuera de este rango, se devolverá un factor de extrapolación (valor de retorno menor que ``0.0`` o mayor que ``1.0``). Utiliza :ref:`clamp()<class_@GlobalScope_method_clamp>` sobre el resultado de :ref:`inverse_lerp()<class_@GlobalScope_method_inverse_lerp>` si este no es el comportamiento deseado.
+Devuelve un factor de interpolación o extrapolación, considerando el rango especificado en ``from`` y ``to``, y el valor interpolado especificado en ``weight``. El valor devuelto estará entre ``0.0`` y ``1.0`` si ``weight`` está entre ``from`` y ``to`` (inclusivo). Si ``weight`` está ubicado fuera de este rango, se devolverá un factor de extrapolación (valor de retorno menor que ``0.0`` o mayor que ``1.0``). Utiliza :ref:`clamp()<class_@GlobalScope_method_clamp>` sobre el resultado de :ref:`inverse_lerp()<class_@GlobalScope_method_inverse_lerp>` si este no es el comportamiento deseado.
 
 ::
 
@@ -6539,7 +6543,7 @@ Al imprimir en la salida estándar, el subconjunto compatible de BBCode se convi
 
 |void| **print_verbose**\ (\ ...\ ) |vararg| :ref:`🔗<class_@GlobalScope_method_print_verbose>`
 
-Si el modo detallado (verbose mode) está habilitado (:ref:`OF.is_stdout_verbose()<class_OF_method_is_stdout_verbose>` devolverá ``true``), convierte uno o más argumentos de cualquier tipo en una cadena de la mejor manera posible y los imprime en la consola.
+Si el modo detallado (verbose mode) está habilitado (:ref:`OS.is_stdout_verbose()<class_OS_method_is_stdout_verbose>` devolverá ``true``), convierte uno o más argumentos de cualquier tipo en una cadena de la mejor manera posible y los imprime en la consola.
 
 .. rst-class:: classref-item-separator
 
@@ -6611,14 +6615,18 @@ Imprime uno o más argumentos como strings de la mejor manera posible en la term
 
 Imprime uno o más argumentos en la consola con un espacio entre cada argumento.
 
-::
 
-    [gdscript]
+.. tabs::
+
+ .. code-tab:: gdscript
+
     prints("A", "B", "C") # Imprime "A B C"
-    [/gdscript]
-    [csharp]
+
+ .. code-tab:: csharp
+
     GD.PrintS("A","B","C"); // Imprime "A B C"
-    [/csharp][/codeblocks]
+
+
 
 .. rst-class:: classref-item-separator
 
@@ -6814,20 +6822,24 @@ Genera un número pseudoaleatorio `distribuido normalmente <https://en.wikipedia
 
 Devuelve un entero aleatorio sin signo de 32 bits. Utiliza el residuo para obtener un valor aleatorio en el intervalo ``[0, N - 1]`` (donde N es menor que 2^32).
 
-::
 
-    [gdscript]
+.. tabs::
+
+ .. code-tab:: gdscript
+
     randi() # Devuelve un entero aleatorio entre 0 y 2^32 - 1.
     randi() % 20 # Devuelve un entero aleatorio entre 0 y 19.
     randi() % 100 # Devuelve un entero aleatorio entre 0 y 99.
     randi() % 100 + 1 # Devuelve un entero aleatoria entre 1 y 100
-    [/gdscript]
-    [csharp]
+
+ .. code-tab:: csharp
+
     GD.Randi();           // Devuelve un entero aleatorio entre 0 y 2^32 - 1.
     GD.Randi() % 20;      // Devuelve un entero aleatorio entre 0 y 19.
     GD.Randi() % 100;     // Devuelve un entero aleatorio entre 0 y 99.
     GD.Randi() % 100 + 1; //  Devuelve un entero aleatoria entre 1 y 100
-    [/csharp]
+
+
 
 .. rst-class:: classref-item-separator
 
@@ -6841,16 +6853,20 @@ Devuelve un entero aleatorio sin signo de 32 bits. Utiliza el residuo para obten
 
 Devuelve un entero aleatorio con signo de 32 bits en el rango de ``from`` hasta ``to`` (inclusivo). Si ``to`` es menor que ``from``, se intercambian.
 
-::
 
-    [gdscript]
+.. tabs::
+
+ .. code-tab:: gdscript
+
     randi_range(0, 1)      # Devuelve el valor 0 o 1
     randi_range(-10, 1000) # Devuelve un entero aleatorio entre -10 y 1000
-    [/gdscript]
-    [csharp]
+
+ .. code-tab:: csharp
+
     GD.RandRange(0, 1);      // Devuelve el valor 0 o 1
     GD.RandRange(-10, 1000); // Devuelve un entero aleatorio entre -10 y 1000
-    [/csharp]
+
+
 
 .. rst-class:: classref-item-separator
 
@@ -7330,7 +7346,7 @@ Devuelve la tangente hiperbólica de ``x``.
 
 :ref:`Variant<class_Variant>` **type_convert**\ (\ variant\: :ref:`Variant<class_Variant>`, type\: :ref:`int<class_int>`\ ) :ref:`🔗<class_@GlobalScope_method_type_convert>`
 
-Convierte un ``variant`` dado a ``type``, usando los valores de :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`. Este método es amigable con como maneja los tipos, puede convertir automáticamente entre tipos de array, convertir :ref:`String<class_String>`\ s numéricos a ``Int`` y convertir la gran mayoría de cosas a :ref:`String<class_String>`.
+Convierte un ``variant`` dado a ``type``, usando los valores de :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`. Este método es amigable con como maneja los tipos, puede convertir automáticamente entre tipos de array, convertir :ref:`String<class_String>`\ s numéricos a :ref:`int<class_int>` y convertir la gran mayoría de cosas a :ref:`String<class_String>`.
 
 Si no se puede pasar de un tipo a otro, este método devolverá el valor por defecto de ese tipo, por ejemplo, convertir un :ref:`Rect2<class_Rect2>` a :ref:`Vector2<class_Vector2>` siempre devolverá :ref:`Vector2.ZERO<class_Vector2_constant_ZERO>`. Este método no muestra mensajes de error siempre que ``type`` sea un tipo valido.
 
@@ -7466,9 +7482,9 @@ Imprime:
 
 :ref:`Variant<class_Variant>` **weakref**\ (\ obj\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_@GlobalScope_method_weakref>`
 
-Returns a :ref:`WeakRef<class_WeakRef>` instance holding a weak reference to ``obj``. Returns an empty :ref:`WeakRef<class_WeakRef>` instance if ``obj`` is ``null``. Prints an error and returns ``null`` if ``obj`` is neither :ref:`Object<class_Object>`-derived nor ``null``.
+Devuelve una instancia :ref:`WeakRef<class_WeakRef>` que contiene una referencia débil a ``obj``. Devuelve una instancia :ref:`WeakRef<class_WeakRef>` vacía si ``obj`` es ``null``. Imprime un error y devuelve ``null`` si ``obj`` no es derivado de :ref:`Object<class_Object>` ni ``null``.
 
-A weak reference to an object is not enough to keep the object alive: when the only remaining references to a referent are weak references, garbage collection is free to destroy the referent and reuse its memory for something else. However, until the object is actually destroyed the weak reference may return the object even if there are no strong references to it.
+Una referencia débil a un objeto no es suficiente para mantenerlo activo: cuando las únicas referencias restantes a un referente son débiles, la recolección de elementos no utilizados puede destruir el referente y reutilizar su memoria para otra cosa. Sin embargo, hasta que el objeto se destruya, la referencia débil puede devolverlo incluso si no existen referencias fuertes a él.
 
 .. rst-class:: classref-item-separator
 

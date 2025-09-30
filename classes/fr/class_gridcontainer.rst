@@ -14,9 +14,9 @@ Un conteneur qui arrange ses contrôles enfants en une disposition en grille.
 Description
 -----------
 
-**GridContainer** arranges its child controls in a grid layout. The number of columns is specified by the :ref:`columns<class_GridContainer_property_columns>` property, whereas the number of rows depends on how many are needed for the child controls. The number of rows and columns is preserved for every size of the container.
+**GridContainer** arrange ses contrôles enfants en une disposition en grille. Le nombre de colonnes est spécifié par la propriété :ref:`columns<class_GridContainer_property_columns>`, alors que le nombre de lignes dépend du nombre nécessaire pour les contrôles enfants. Le nombre de lignes et de colonnes est conservé pour chaque taille du conteneur.
 
-\ **Note:** **GridContainer** only works with child nodes inheriting from :ref:`Control<class_Control>`. It won't rearrange child nodes inheriting from :ref:`Node2D<class_Node2D>`.
+\ **Note :** **GridContainer** ne fonctionne qu'avec des nœuds enfants héritant de :ref:`Control<class_Control>`. Il ne réarrangera pas les nœuds enfants héritant de :ref:`Node2D<class_Node2D>`.
 
 .. rst-class:: classref-introduction-group
 

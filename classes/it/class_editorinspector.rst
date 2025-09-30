@@ -14,17 +14,17 @@ Un controllo per modificare le proprietà di un oggetto.
 Descrizione
 ----------------------
 
-This is the control that implements property editing in the editor's Settings dialogs, the Inspector dock, etc. To get the **EditorInspector** used in the editor's Inspector dock, use :ref:`EditorInterface.get_inspector()<class_EditorInterface_method_get_inspector>`.
+Questo è il controllo che implementa la modifica delle proprietà nelle finestre Impostazioni, nel pannello Ispettore, ecc. dell'editor. Per utilizzare **EditorInspector** nel pannello Ispettore dell'editor, usa :ref:`EditorInterface.get_inspector()<class_EditorInterface_method_get_inspector>`.
 
-\ **EditorInspector** will show properties in the same order as the array returned by :ref:`Object.get_property_list()<class_Object_method_get_property_list>`.
+\ **EditorInspector** mostrerà le proprietà nello stesso ordine dell'array restituito da :ref:`Object.get_property_list()<class_Object_method_get_property_list>`.
 
-If a property's name is path-like (i.e. if it contains forward slashes), **EditorInspector** will create nested sections for "directories" along the path. For example, if a property is named ``highlighting/gdscript/node_path_color``, it will be shown as "Node Path Color" inside the "GDScript" section nested inside the "Highlighting" section.
+Se il nome di una proprietà è simile a un percorso (ovvero se contiene barre), **EditorInspector** creerà sezioni nidificate per le "cartelle" lungo il percorso. Ad esempio, se una proprietà si chiama ``highlighting/gdscript/node_path_color``, sarà mostrata come "Node Path Color", dentro la sezione "GDScript", nidificata dentro la sezione "Highlighting".
 
-If a property has :ref:`@GlobalScope.PROPERTY_USAGE_GROUP<class_@GlobalScope_constant_PROPERTY_USAGE_GROUP>` usage, it will group subsequent properties whose name starts with the property's hint string. The group ends when a property does not start with that hint string or when a new group starts. An empty group name effectively ends the current group. **EditorInspector** will create a top-level section for each group. For example, if a property with group usage is named ``Collide With`` and its hint string is ``collide_with_``, a subsequent ``collide_with_area`` property will be shown as "Area" inside the "Collide With" section. There is also a special case: when the hint string contains the name of a property, that property is grouped too. This is mainly to help grouping properties like ``font``, ``font_color`` and ``font_size`` (using the hint string ``font_``).
+Se una proprietà ha un uso :ref:`@GlobalScope.PROPERTY_USAGE_GROUP<class_@GlobalScope_constant_PROPERTY_USAGE_GROUP>`, raggrupperà le proprietà successive il cui nome inizia con la stringa indicativa della proprietà. Il gruppo termina quando una proprietà non inizia con quella stringa indicativa o quando inizia un nuovo gruppo. Un nome di gruppo vuoto termina il gruppo attuale. **EditorInspector** creerà una sezione di primo livello per ogni gruppo. Ad esempio, se una proprietà con uso di gruppo ha il nome ``Collide With`` e la sua stringa indicativa è ``collide_with_``, una proprietà successiva ``collide_with_area`` sarà mostrata come "Area" dentro la sezione "Collide With". Esiste anche un caso speciale: quando la stringa indicativa contiene il nome di una proprietà, anche quella proprietà è raggruppata. Questo serve principalmente per aiutare a raggruppare proprietà come ``font``, ``font_color`` e ``font_size`` (tramite la stringa indicativa ``font_``).
 
-If a property has :ref:`@GlobalScope.PROPERTY_USAGE_SUBGROUP<class_@GlobalScope_constant_PROPERTY_USAGE_SUBGROUP>` usage, a subgroup will be created in the same way as a group, and a second-level section will be created for each subgroup.
+Se una proprietà ha un uso :ref:`@GlobalScope.PROPERTY_USAGE_SUBGROUP<class_@GlobalScope_constant_PROPERTY_USAGE_SUBGROUP>`, un sottogruppo sarà creato allo stesso modo di un gruppo e sarà creata una sezione di secondo livello per ciascun sottogruppo.
 
-\ **Note:** Unlike sections created from path-like property names, **EditorInspector** won't capitalize the name for sections created from groups. So properties with group usage usually use capitalized names instead of snake_cased names.
+\ **Nota:** A differenza delle sezioni create da nomi di proprietà simili a percorsi, **EditorInspector** non userà la maiuscola per i nomi delle sezioni create da gruppi. Pertanto, i nomi delle proprietà con l'uso di gruppo solitamente in maiuscolo anziché in snake_case.
 
 .. rst-class:: classref-reftable-group
 

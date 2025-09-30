@@ -228,7 +228,7 @@ This is called when the customization process for resources ends.
 
 |void| **_end_customize_scenes**\ (\ ) |virtual| :ref:`🔗<class_EditorExportPlugin_private_method__end_customize_scenes>`
 
-This is called when the customization process for scenes ends.
+Ceci est appelé lorsque le processus de personnalisation pour les scènes se termine.
 
 .. rst-class:: classref-item-separator
 
@@ -486,7 +486,7 @@ Implementing this method is required.
 
 :ref:`bool<class_bool>` **_should_update_export_options**\ (\ platform\: :ref:`EditorExportPlatform<class_EditorExportPlatform>`\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlugin_private_method__should_update_export_options>`
 
-Return ``true`` if the result of :ref:`_get_export_options()<class_EditorExportPlugin_private_method__get_export_options>` has changed and the export options of the preset corresponding to ``platform`` should be updated.
+Renvoie ``true`` si le résultat de :ref:`_get_export_options()<class_EditorExportPlugin_private_method__get_export_options>` a changé et les options d'export du préréglage correspondant à ``platform`` devraient être mises à jour.
 
 .. rst-class:: classref-item-separator
 
@@ -498,7 +498,7 @@ Return ``true`` if the result of :ref:`_get_export_options()<class_EditorExportP
 
 :ref:`bool<class_bool>` **_supports_platform**\ (\ platform\: :ref:`EditorExportPlatform<class_EditorExportPlatform>`\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlugin_private_method__supports_platform>`
 
-Return ``true`` if the plugin supports the given ``platform``.
+Renvoie ``true`` si le plugin supporte la plate-forme ``platform`` donnée.
 
 .. rst-class:: classref-item-separator
 
@@ -762,7 +762,7 @@ In case of a directory code-sign will error if you place non code object in dire
 
 :ref:`EditorExportPlatform<class_EditorExportPlatform>` **get_export_platform**\ (\ ) |const| :ref:`🔗<class_EditorExportPlugin_method_get_export_platform>`
 
-Returns currently used export platform.
+Renvoie la plateforme d'export actuellement utilisée.
 
 .. rst-class:: classref-item-separator
 
@@ -774,7 +774,7 @@ Returns currently used export platform.
 
 :ref:`EditorExportPreset<class_EditorExportPreset>` **get_export_preset**\ (\ ) |const| :ref:`🔗<class_EditorExportPlugin_method_get_export_preset>`
 
-Returns currently used export preset.
+Renvoie le préreglage d'export actuellement utilisé.
 
 .. rst-class:: classref-item-separator
 
@@ -786,7 +786,7 @@ Returns currently used export preset.
 
 :ref:`Variant<class_Variant>` **get_option**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_EditorExportPlugin_method_get_option>`
 
-Returns the current value of an export option supplied by :ref:`_get_export_options()<class_EditorExportPlugin_private_method__get_export_options>`.
+Renvoie la valeur actuelle d'une option d'export fournie par :ref:`_get_export_options()<class_EditorExportPlugin_private_method__get_export_options>`.
 
 .. rst-class:: classref-item-separator
 
@@ -798,7 +798,7 @@ Returns the current value of an export option supplied by :ref:`_get_export_opti
 
 |void| **skip**\ (\ ) :ref:`🔗<class_EditorExportPlugin_method_skip>`
 
-To be called inside :ref:`_export_file()<class_EditorExportPlugin_private_method__export_file>`. Skips the current file, so it's not included in the export.
+Sera appelée dans :ref:`_export_file()<class_EditorExportPlugin_private_method__export_file>`. Ignore le fichier actuel, il ne figurera donc pas dans l'export.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -178,7 +178,7 @@ Descrizioni dei metodi
 
 |void| **add_node**\ (\ name\: :ref:`StringName<class_StringName>`, node\: :ref:`AnimationNode<class_AnimationNode>`, position\: :ref:`Vector2<class_Vector2>` = Vector2(0, 0)\ ) :ref:`🔗<class_AnimationNodeBlendTree_method_add_node>`
 
-Aggiunge un :ref:`AnimationNode<class_AnimationNode>` alla posizione ``position``. Il nome ``name`` è utilizzato per identificare il nodo di animazione secondario creato in seguito.
+Aggiunge un :ref:`AnimationNode<class_AnimationNode>` alla posizione ``position``. Il nome ``name`` serve per identificare il nodo di animazione secondario creato in seguito.
 
 .. rst-class:: classref-item-separator
 

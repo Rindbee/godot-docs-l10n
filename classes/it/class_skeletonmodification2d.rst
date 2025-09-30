@@ -20,7 +20,7 @@ Descrizione
 
 Questa risorsa fornisce un'interfaccia che può essere ampliata in modo che il codice che opera sui nodi :ref:`Bone2D<class_Bone2D>` in uno :ref:`Skeleton2D<class_Skeleton2D>` possa essere mescolato e abbinato insieme per creare interazioni complesse.
 
-Questo viene utilizzato per fornire a Godot una soluzione di cinematica inversa flessibile e potente che può essere adattata per molti usi diversi.
+Questa serve per fornire a Godot una soluzione di cinematica inversa flessibile e potente che può essere adattata per molti usi diversi.
 
 .. rst-class:: classref-reftable-group
 

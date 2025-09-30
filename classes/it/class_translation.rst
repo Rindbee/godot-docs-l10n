@@ -25,7 +25,7 @@ Tutorial
 
 - :doc:`Internazionalizzazione dei giochi <../tutorials/i18n/internationalizing_games>`
 
-- :doc:`Localization using gettext <../tutorials/i18n/localization_using_gettext>`
+- :doc:`Ottimizzazione attraverso gettext <../tutorials/i18n/localization_using_gettext>`
 
 - :doc:`Localizzazione <../tutorials/i18n/locales>`
 
@@ -146,11 +146,11 @@ Un contesto aggiuntivo potrebbe essere usato per specificare il contesto della t
 
 |void| **add_plural_message**\ (\ src_message\: :ref:`StringName<class_StringName>`, xlated_messages\: :ref:`PackedStringArray<class_PackedStringArray>`, context\: :ref:`StringName<class_StringName>` = &""\ ) :ref:`🔗<class_Translation_method_add_plural_message>`
 
-Adds a message involving plural translation if nonexistent, followed by its translation.
+Aggiunge un messaggio riguardo la traduzione al plurale se non esiste, seguito dalla sua traduzione.
 
-An additional context could be used to specify the translation context or differentiate polysemic words.
+Si potrebbe usare un ulteriore contesto per specificare il contesto della traduzione o differenziare le parole polisemiche.
 
-\ **Note:** Plurals are only supported in :doc:`gettext-based translations (PO) <../tutorials/i18n/localization_using_gettext>`, not CSV.
+\ **Nota:** I plurali sono supportati solo nelle :doc:`traduzioni basate su gettext (PO) <../tutorials/i18n/localization_using_gettext>`, non in CSV.
 
 .. rst-class:: classref-item-separator
 
@@ -210,11 +210,11 @@ Restituisce tutti i messaggi (chiavi).
 
 :ref:`StringName<class_StringName>` **get_plural_message**\ (\ src_message\: :ref:`StringName<class_StringName>`, src_plural_message\: :ref:`StringName<class_StringName>`, n\: :ref:`int<class_int>`, context\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Translation_method_get_plural_message>`
 
-Returns a message's translation involving plurals.
+Restituisce la traduzione di un messaggio che include i plurali.
 
-The number ``n`` is the number or quantity of the plural object. It will be used to guide the translation system to fetch the correct plural form for the selected language.
+Il numero ``n`` è il numero o la quantità dell'oggetto plurale. Sarà utilizzato per guidare il sistema di traduzione a recuperare la forma plurale corretta per la lingua selezionata.
 
-\ **Note:** Plurals are only supported in :doc:`gettext-based translations (PO) <../tutorials/i18n/localization_using_gettext>`, not CSV.
+\ **Nota:** I plurali sono supportati solo nelle :doc:`traduzioni basate su gettext (PO) <../tutorials/i18n/localization_using_gettext>`, non in CSV.
 
 .. rst-class:: classref-item-separator
 

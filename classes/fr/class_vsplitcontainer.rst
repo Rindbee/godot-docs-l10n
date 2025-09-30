@@ -7,14 +7,14 @@ VSplitContainer
 
 **Hérite de :** :ref:`SplitContainer<class_SplitContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A container that splits two child controls vertically and provides a grabber for adjusting the split ratio.
+Un conteneur qui divise deux contrôles enfants verticalement et fournit un séparateur pour ajuster le ratio de division.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-A container that accepts only two child controls, then arranges them vertically and creates a divisor between them. The divisor can be dragged around to change the size relation between the child controls.
+Un conteneur qui n'accepte que deux contrôles enfants, puis les arrange verticalement et crée un diviseur entre eux. Le diviseur peut être coulissé pour changer la relation de taille entre les contrôles enfants.
 
 .. rst-class:: classref-introduction-group
 

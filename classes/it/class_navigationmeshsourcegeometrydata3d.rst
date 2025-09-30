@@ -111,7 +111,7 @@ Aggiunge un :ref:`Array<class_Array>` di dimensioni :ref:`Mesh.ARRAY_MAX<class_M
 
 |void| **add_projected_obstruction**\ (\ vertices\: :ref:`PackedVector3Array<class_PackedVector3Array>`, elevation\: :ref:`float<class_float>`, height\: :ref:`float<class_float>`, carve\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_NavigationMeshSourceGeometryData3D_method_add_projected_obstruction>`
 
-Adds a projected obstruction shape to the source geometry. The ``vertices`` are considered projected on an xz-axes plane, placed at the global y-axis ``elevation`` and extruded by ``height``. If ``carve`` is ``true`` the carved shape will not be affected by additional offsets (e.g. agent radius) of the navigation mesh baking process.
+Aggiunge una forma di ostruzione proiettata alla geometria sorgente. I vertici ``vertices`` sono considerati proiettati su un piano degli assi xz, posizionati sull'asse y globale ``elevation`` ed estrusi da ``height``. Se ``carve`` è ``true`` la forma intagliata non sarà influenzata da offset aggiuntivi (ad esempio, raggio degli agenti) del processo di preparazione della mesh di navigazione.
 
 .. rst-class:: classref-item-separator
 
@@ -159,7 +159,7 @@ Cancella tutte le ostruzioni proiettate.
 
 :ref:`AABB<class_AABB>` **get_bounds**\ (\ ) :ref:`🔗<class_NavigationMeshSourceGeometryData3D_method_get_bounds>`
 
-Returns an axis-aligned bounding box that covers all the stored geometry data. The bounds are calculated when calling this function with the result cached until further geometry changes are made.
+Restituisce una bounding box allineata agli assi che copre tutti i dati geometrici memorizzati. I limiti vengono calcolati quando si richiama questa funzione, con il risultato memorizzato nella cache finché non vengono apportate ulteriori modifiche alla geometria.
 
 .. rst-class:: classref-item-separator
 

@@ -1349,7 +1349,7 @@ Returns ``true`` if system fonts can be automatically used as fallbacks.
 
 :ref:`bool<class_bool>` **_font_is_force_autohinter**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__font_is_force_autohinter>`
 
-Returns ``true`` if auto-hinting is supported and preferred over font built-in hinting.
+Devuelve ``true`` si el auto-hinting es compatible y preferido sobre el hinting incorporado de la fuente.
 
 .. rst-class:: classref-item-separator
 
@@ -1829,7 +1829,7 @@ Establece el tamaño de la fuente de origen utilizada para generar texturas MSDF
 
 |void| **_font_set_multichannel_signed_distance_field**\ (\ font_rid\: :ref:`RID<class_RID>`, msdf\: :ref:`bool<class_bool>`\ ) |virtual| :ref:`🔗<class_TextServerExtension_private_method__font_set_multichannel_signed_distance_field>`
 
-If set to ``true``, glyphs of all sizes are rendered using single multichannel signed distance field generated from the dynamic font vector data. MSDF rendering allows displaying the font at any scaling factor without blurriness, and without incurring a CPU cost when the font size changes (since the font no longer needs to be rasterized on the CPU). As a downside, font hinting is not available with MSDF. The lack of font hinting may result in less crisp and less readable fonts at small sizes.
+Si se establece como ``true``, los glifos de todos los tamaños se renderizan utilizando un único campo de distancia con signo multicanal generado a partir de los datos vectoriales de la fuente dinámica. El renderizado MSDF permite mostrar la fuente a cualquier factor de escala sin que se vea borrosa y sin incurrir en un coste de CPU cuando cambia el tamaño de la fuente (ya que la fuente ya no necesita ser rasterizada en la CPU). Como desventaja, el hinting de fuentes no está disponible con MSDF. La falta de hinting de fuentes puede dar como resultado fuentes menos nítidas y menos legibles en tamaños pequeños.
 
 .. rst-class:: classref-item-separator
 
@@ -1865,7 +1865,7 @@ Establece la sobreescritura del conjunto de características OpenType de la fuen
 
 |void| **_font_set_oversampling**\ (\ font_rid\: :ref:`RID<class_RID>`, oversampling\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_TextServerExtension_private_method__font_set_oversampling>`
 
-Si se establece en un valor positivo, sobrescribe el factor de sobremuestreo del viewport en la que se utiliza esta fuente. Consulta :ref:`Viewport.oversampling<class_Viewport_property_oversampling>`. Este valor no sobrescribe el parámetro ``oversampling`` de los métodos ``draw_*``. Se utiliza solo con fuentes dinámicas.
+Si se establece en un valor positivo, sobrescribe el factor de sobremuestreo del viewport en la que se utiliza esta fuente. Véase :ref:`Viewport.oversampling<class_Viewport_property_oversampling>`. Este valor no sobrescribe el parámetro ``oversampling`` de los métodos ``draw_*``. Se utiliza solo con fuentes dinámicas.
 
 .. rst-class:: classref-item-separator
 
@@ -2935,7 +2935,7 @@ Devuelve el espaciado extra añadido entre glifos o líneas en píxeles.
 
 :ref:`int<class_int>` **_shaped_text_get_trim_pos**\ (\ shaped\: :ref:`RID<class_RID>`\ ) |virtual| |required| |const| :ref:`🔗<class_TextServerExtension_private_method__shaped_text_get_trim_pos>`
 
-Returns the position of the overrun trim.
+Devuelve la posición del recorte de desbordamiento.
 
 .. rst-class:: classref-item-separator
 
