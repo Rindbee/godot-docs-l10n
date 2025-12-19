@@ -60,7 +60,7 @@ msgid "To style specific parts of text you can use BBCode tags similarly to how 
 msgstr ""
 
 #: ../../docs/tutorials/scripting/cpp/gdextension_docs_system.rst:88
-msgid "Currently they supported tags for the GDExtension documentation system are:"
+msgid "Currently, the supported tags for the GDExtension documentation system are:"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/cpp/gdextension_docs_system.rst:95

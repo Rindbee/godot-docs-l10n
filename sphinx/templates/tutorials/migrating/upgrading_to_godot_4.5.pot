@@ -52,7 +52,7 @@ msgid "**Source compatible** - Source code will compile successfully without cha
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:36
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:205
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:217
 msgid "Core"
 msgstr ""
 
@@ -106,7 +106,7 @@ msgid "**JSONRPC**"
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:42
-msgid "Method ``set_scope`` replaced by ``set_method`` optional parameter"
+msgid "Method ``set_scope`` replaced by ``set_method``"
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:42
@@ -135,6 +135,21 @@ msgid "|❌|"
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:42
+msgid "|❌ with stub|"
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:42
+msgid "`GH-104890`_"
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:43
+msgid "**Node**"
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:44
+msgid "Method ``get_rpc_config`` renamed to ``get_node_rpc_config``"
+msgstr ""
+
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:44
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:45
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:55
@@ -180,18 +195,6 @@ msgstr ""
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:181
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:183
 msgid "|✔️ with compat|"
-msgstr ""
-
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:42
-msgid "`GH-104890`_"
-msgstr ""
-
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:43
-msgid "**Node**"
-msgstr ""
-
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:44
-msgid "Method ``get_rpc_config`` renamed to ``get_node_rpc_config``"
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:44
@@ -312,7 +315,7 @@ msgid "Method ``instance_set_interpolated`` removed"
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:66
-msgid "In C#, the enum ``RenderingDevice.Features`` breaks compatibility because of the way the bindings generator detects the enum prefix. New members where added to the enum in `GH-103941`_ that caused the enum member ``Address`` to be renamed to ``BufferDeviceAddress``."
+msgid "In C#, the enum ``RenderingDevice.Features`` breaks compatibility because of the way the bindings generator detects the enum prefix. New members were added to the enum in `GH-103941`_ that caused the enum member ``Address`` to be renamed to ``BufferDeviceAddress``."
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:71
@@ -382,7 +385,7 @@ msgid "As a result of changing the type metadata, the C# bindings changed the ty
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:95
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:234
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:286
 msgid "Text"
 msgstr ""
 
@@ -699,37 +702,65 @@ msgid "Behavior changes"
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:191
-msgid "In 4.5 some behavior changes have been introduced, which might require you to adjust your project."
+msgid "In 4.5, some behavior changes have been introduced, which might require you to adjust your project."
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:194
-msgid "3D Model Import"
+msgid "TileMapLayer"
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:196
+msgid ":ref:`TileMapLayer.get_coords_for_body_rid() <class_TileMapLayer_method_get_coords_for_body_rid>` will return different values in 4.5 compared to 4.4, as TileMapLayer physics chunking is enabled by default. Higher values of :ref:`TileMapLayer.physics_quadrant_size <class_TileMapLayer_property_physics_quadrant_size>` will make this function less precise. To get the exact cell coordinates like in 4.4 and prior versions, you need to set :ref:`TileMapLayer.physics_quadrant_size <class_TileMapLayer_property_physics_quadrant_size>` to ``1``, which disables physics chunking."
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:206
+msgid "3D Model Import"
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:208
 msgid "A fix has been made to the 3D model importers to correctly handle non-joint nodes within a skeleton hierarchy (`GH-104184`_). To preserve compatibility, the default behavior is to import existing files with the same behavior as before (`GH-107352`_). New ``.gltf``, ``.glb``, ``.blend``, and ``.fbx`` files (without a corresponding ``.import`` file) will be imported with the new behavior. However, for existing files, if you want to use the new behavior, you must change the \"Naming Version\" option at the bottom of the Import dock:"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:209
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:221
+msgid ":ref:`Resource.duplicate(true) <class_Resource_method_duplicate>` (which performs deep duplication) now only duplicates resources internal to the resource file it's called on. In 4.4, this duplicated everything instead, including external resources. If you were deep-duplicating a resource that contained references to other external resources, those external resources aren't duplicated anymore. You must call :ref:`Resource.duplicate_deep(RESOURCE_DEEP_DUPLICATE_ALL) <class_Resource_method_duplicate_deep>` instead to keep the old behavior."
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:231
+msgid ":ref:`ProjectSettings.add_property_info() <class_ProjectSettings_method_add_property_info>` now prints a warning when the dictionary parameter has missing keys or invalid keys. Most importantly, it will now warn when a ``usage`` key is passed, as this key is not used. This was also the case before 4.5, but it was silently ignored instead. As a reminder, to set property usage information correctly, you must use :ref:`ProjectSettings.set_as_basic() <class_ProjectSettings_method_set_as_basic>`, :ref:`ProjectSettings.set_restart_if_changed() <class_ProjectSettings_method_set_restart_if_changed>`, or :ref:`ProjectSettings.set_as_internal() <class_ProjectSettings_method_set_as_internal>` instead."
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:242
 msgid "In C#, ``StringExtensions.PathJoin`` now avoids adding an extra path separator when the original string is empty, or when the appended path starts with a path separator (`GH-105281`_)."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:214
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:247
 msgid "In C#, ``StringExtensions.GetExtension`` now returns an empty string instead of the original string when the original string does not contain an extension (`GH-108041`_)."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:219
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:252
 msgid "In C#, the ``Quaternion(Vector3, Vector3)`` constructor now correctly creates a quaternion representing the shortest arc between the two input vectors. Previously, it would return incorrect values for certain inputs (`GH-107618`_)."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:224
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:257
+msgid "Navigation"
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:261
+msgid "By default, the regions in a NavigationServer map now update asynchronously using threads to improve performance. This can cause additional delay in the update due to thread synchronisation. The asynchronous region update can be toggled with the ``navigation/world/region_use_async_iterations`` project setting."
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:266
+msgid "The merging of navmeshes in the NavigationServer has changed processing order. Regions now merge and cache internal navmeshes first, then the remaining free edges are merged by the navigation map. If a project had navigation map synchronisation errors before, it might now have shifted affected edges, making already existing errors in a layout more noticeable in the pathfinding. The ``navigation/2d_or_3d/merge_rasterizer_cell_scale`` project setting can be set to a lower value to increase the detail of the rasterization grid (with `0.01` being the smallest cell size possible). If edge merge errors still persist with the lowest possible rasterization scale value, the error may be caused by overlap: two navmeshes are stacked on top of each other, causing geometry conflict."
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:276
 msgid "Physics"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:228
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:280
 msgid "When the 3D physics engine is set to Jolt Physics, you will now always have overlaps between ``Area3D`` and static bodies reported by default, as the ``physics/jolt_physics_3d/simulation/areas_detect_static_bodies`` project setting has been removed (`GH-105746`_). If you still want such overlaps to be ignored, you will need to change the collision mask or layer of either the ``Area3D`` or the static body instead."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:238
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.5.rst:290
 msgid "In GDScript, calls to functions ``RichTextLabel::add_image`` and ``RichTextLabel::update_image`` will continue to work, but the ``size_in_percent`` argument will now be used as the value for ``width_in_percent`` and ``height_in_percent`` will default to ``false`` (`GH-107347`_). To restore the previous behavior, you can explicitly set ``height_in_percent`` to the same value you were passing as ``size_in_percent``."
 msgstr ""

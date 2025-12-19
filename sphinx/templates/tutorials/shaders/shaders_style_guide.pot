@@ -240,33 +240,49 @@ msgid "To preserve the natural flow of indentation when shader errors are printe
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shaders_style_guide.rst:381
-msgid "Code order"
+msgid "Applying formatting automatically"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shaders_style_guide.rst:383
+msgid "To automatically format shader files, you can use `clang-format <https://clang.llvm.org/docs/ClangFormat.html>`__ on one or several ``.gdshader`` files, as the syntax is close enough to a C-style language."
+msgstr ""
+
+#: ../../docs/tutorials/shaders/shaders_style_guide.rst:387
+msgid "However, the default style in clang-format doesn't follow this style guide, so you need to save this file as ``.clang-format`` in your project's root folder:"
+msgstr ""
+
+#: ../../docs/tutorials/shaders/shaders_style_guide.rst:414
+msgid "While in the project root, you can then call ``clang-format -i path/to/shader.gdshader`` in a terminal to format a single shader file, or ``clang-format -i path/to/folder/*.gdshader`` to format all shaders in a folder."
+msgstr ""
+
+#: ../../docs/tutorials/shaders/shaders_style_guide.rst:419
+msgid "Code order"
+msgstr ""
+
+#: ../../docs/tutorials/shaders/shaders_style_guide.rst:421
 msgid "We suggest to organize shader code this way:"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shaders_style_guide.rst:400
+#: ../../docs/tutorials/shaders/shaders_style_guide.rst:438
 msgid "We optimized the order to make it easy to read the code from top to bottom, to help developers reading the code for the first time understand how it works, and to avoid errors linked to the order of variable declarations."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shaders_style_guide.rst:404
+#: ../../docs/tutorials/shaders/shaders_style_guide.rst:442
 msgid "This code order follows two rules of thumb:"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shaders_style_guide.rst:406
+#: ../../docs/tutorials/shaders/shaders_style_guide.rst:444
 msgid "Metadata and properties first, followed by methods."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shaders_style_guide.rst:407
+#: ../../docs/tutorials/shaders/shaders_style_guide.rst:445
 msgid "\"Public\" comes before \"private\". In a shader language's context, \"public\" refers to what's easily adjustable by the user (uniforms)."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shaders_style_guide.rst:411
+#: ../../docs/tutorials/shaders/shaders_style_guide.rst:449
 msgid "Local variables"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shaders_style_guide.rst:413
+#: ../../docs/tutorials/shaders/shaders_style_guide.rst:451
 msgid "Declare local variables as close as possible to their first use. This makes it easier to follow the code, without having to scroll too much to find where the variable was declared."
 msgstr ""

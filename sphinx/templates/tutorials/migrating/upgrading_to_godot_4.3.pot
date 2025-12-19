@@ -782,7 +782,7 @@ msgid "Behavior changes"
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.3.rst:227
-msgid "In 4.3 some behavior changes have been introduced, which might require you to adjust your project."
+msgid "In 4.3, some behavior changes have been introduced, which might require you to adjust your project."
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.3.rst:230

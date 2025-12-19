@@ -91,34 +91,42 @@ msgstr ""
 msgid "The MoltenVK static ``.xcframework`` folder must also be placed in the ``ios_xcode`` folder once it has been created. MoltenVK is always statically linked on iOS; there is no dynamic linking option available, unlike macOS."
 msgstr ""
 
-#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:78
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:79
+msgid "Compiling for the iOS simulator is currently not supported as per `GH-102149 <https://github.com/godotengine/godot/issues/102149>`__."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:82
+msgid "Apple Silicon Macs can run iOS apps natively, so you can run exported iOS projects directly on an Apple Silicon Mac without needing the iOS simulator."
+msgstr ""
+
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:86
 msgid "Run"
 msgstr ""
 
-#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:80
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:88
 msgid "To run on a device, follow these instructions: :ref:`doc_exporting_for_ios`."
 msgstr ""
 
-#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:83
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:91
 msgid "iOS exports can run directly on an Apple Silicon Mac. To run exported iOS project on Mac, open exported project in Xcode and select ``My Mac`` in the ``Run Destinations`` dropdown."
 msgstr ""
 
-#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:88
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:96
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:91
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:99
 msgid "Fatal error: 'cstdint' file not found"
 msgstr ""
 
-#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:93
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:101
 msgid "If you get a compilation error of this form early on, it's likely because the Xcode command line tools installation needs to be repaired after a macOS or Xcode update:"
 msgstr ""
 
-#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:103
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:111
 msgid "Run these two commands to reinstall Xcode command line tools (enter your administrator password as needed):"
 msgstr ""
 
-#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:111
+#: ../../docs/engine_details/development/compiling/compiling_for_ios.rst:119
 msgid "If it still does not work, try updating Xcode from the Mac App Store and try again."
 msgstr ""

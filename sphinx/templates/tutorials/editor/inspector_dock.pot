@@ -32,7 +32,7 @@ msgid "Usage"
 msgstr ""
 
 #: ../../docs/tutorials/editor/inspector_dock.rst:18
-msgid "If the inspector dock is visible, clicking on a node in the scene tree will automatically display its properties. If it is not visible, you can show it by navigating to **Editor > Editor Settings > Editor Docks > Inspector**."
+msgid "If the inspector dock is visible, clicking on a node in the scene tree will automatically display its properties. If it is not visible, you can show it by navigating to **Editor > Editor Docks > Inspector**."
 msgstr ""
 
 #: ../../docs/tutorials/editor/inspector_dock.rst:23

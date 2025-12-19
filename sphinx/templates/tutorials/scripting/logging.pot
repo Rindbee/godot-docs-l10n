@@ -167,10 +167,10 @@ msgstr ""
 msgid "Here is a minimal working example of a custom logger, with the script added as an autoload:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/logging.rst:250
+#: ../../docs/tutorials/scripting/logging.rst:254
 msgid "Note that to avoid infinite recursion, you cannot effectively use :ref:`print() <class_@GlobalScope_method_print>` and its related methods in ``_log_message()``. You also can't effectively use :ref:`push_error() <class_@GlobalScope_method_push_error>` or :ref:`push_warning() <class_@GlobalScope_method_push_warning>` in ``_log_error()``. Attempting to do so will print a message to the same stream as the original message. This message is not available in the custom logger, which is what prevents infinite recursion from occurring:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/logging.rst:269
+#: ../../docs/tutorials/scripting/logging.rst:273
 msgid "You can find an example of an in-game console built with a custom logger in the `Custom Logging demo project <https://github.com/godotengine/godot-demo-projects/tree/master/misc/custom_logging>`__."
 msgstr ""
