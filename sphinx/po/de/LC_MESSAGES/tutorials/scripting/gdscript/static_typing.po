@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -374,9 +374,6 @@ msgstr ""
 "verwenden. Es ist für alle einfacher, zusammenzuarbeiten, wenn Sie dieselben "
 "Richtlinien befolgen, und macht es einfacher und schneller, den Code anderer "
 "Leute zu lesen und zu verstehen."
-
-msgid "pass"
-msgstr "pass"
 
 msgid "Warning system"
 msgstr "Warnsystem"

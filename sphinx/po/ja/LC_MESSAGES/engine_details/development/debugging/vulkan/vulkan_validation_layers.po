@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,9 +20,6 @@ msgstr "macOS"
 msgid "Linux, \\*BSD"
 msgstr "X11 (Linux, \\*BSD)"
 
-msgid "Android"
-msgstr "Android"
-
 msgid "iOS"
 msgstr "iOS"
 
@@ -31,3 +28,6 @@ msgstr "検証レイヤーは現在、iOSではサポート **されていませ
 
 msgid "Web"
 msgstr "Web"
+
+msgid "Android"
+msgstr "Android"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -78,9 +78,6 @@ msgstr "El resultado es sólo albedo. El material no recibe luces ni shading."
 msgid "**light_only**"
 msgstr "**light_only**"
 
-msgid "Only draw on light pass."
-msgstr "Sólo dibuja en light pass (cuando se usa multipass)."
-
 msgid "**skip_vertex_transform**"
 msgstr "**skip_vertex_transform**"
 
@@ -155,10 +152,6 @@ msgstr "in vec4 **FRAGCOORD**"
 msgid "in vec2 **SCREEN_PIXEL_SIZE**"
 msgstr "in vec2 **SCREEN_PIXEL_SIZE**"
 
-msgid "Size of individual pixels. Equal to inverse of resolution."
-msgstr ""
-"El tamaño de los píxeles individuales. Igual a la inversa de la resolución."
-
 msgid "in vec2 **POINT_COORD**"
 msgstr "in vec2 **POINT_COORD**"
 
@@ -177,9 +170,6 @@ msgstr "in vec2 **UV**"
 msgid "in vec2 **SCREEN_UV**"
 msgstr "in vec2 **SCREEN_UV**"
 
-msgid "Screen UV coordinate for current pixel."
-msgstr "Muestra la coordenada UV para el píxel actual."
-
 msgid "sampler2D **SCREEN_TEXTURE**"
 msgstr "sampler2D **SCREEN_TEXTURE**"
 
@@ -197,9 +187,6 @@ msgstr "in vec3 **NORMAL**"
 
 msgid "in vec4 **COLOR**"
 msgstr "in vec4 **COLOR**"
-
-msgid "Current texture in use for CanvasItem."
-msgstr "Textura actual en uso para CanvasItem."
 
 msgid "UV for Point Sprite."
 msgstr "UV para Point Sprite."

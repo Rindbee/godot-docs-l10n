@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -159,17 +159,6 @@ msgstr ""
 "as a luaithe a tharlaíonn earráid bhailíochtaithe. Is féidir leis seo cosc a "
 "chur ar do chóras reo má tharlaíonn earráid bhailíochtaithe."
 
-msgid "Android"
-msgstr "Android"
-
-msgid ""
-"After enabling validation layers on Android, a developer can see errors and "
-"warning messages in the ``adb logcat`` output."
-msgstr ""
-"Tar éis sraitheanna bailíochtaithe a chumasú ar Android, is féidir le "
-"forbróir earráidí agus teachtaireachtaí rabhaidh a fheiceáil san aschur "
-"``adb logcat``."
-
 msgid "iOS"
 msgstr "iOS"
 
@@ -185,6 +174,17 @@ msgid ""
 msgstr ""
 "Ní thacaítear le sraitheanna bailíochtaithe** ar an ardán gréasáin, mar níl "
 "aon tacaíocht ann do Vulkan ansin."
+
+msgid "Android"
+msgstr "Android"
+
+msgid ""
+"After enabling validation layers on Android, a developer can see errors and "
+"warning messages in the ``adb logcat`` output."
+msgstr ""
+"Tar éis sraitheanna bailíochtaithe a chumasú ar Android, is féidir le "
+"forbróir earráidí agus teachtaireachtaí rabhaidh a fheiceáil san aschur "
+"``adb logcat``."
 
 msgid "Enabling validation layers"
 msgstr "Sraitheanna bailíochtaithe a"

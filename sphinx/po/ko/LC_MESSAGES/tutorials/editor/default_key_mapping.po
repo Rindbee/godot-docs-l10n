@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -54,17 +54,11 @@ msgstr "macOS"
 msgid "Editor setting"
 msgstr "편집기 설정"
 
-msgid "Open 2D Editor"
-msgstr "2D 편집기 열기"
-
 msgid ":kbd:`Ctrl + F1`"
 msgstr ":kbd:`Ctrl + F1`"
 
 msgid "``editor/editor_2d``"
 msgstr "``editor/editor_2d``"
-
-msgid "Open 3D Editor"
-msgstr "3D 편집기 열기"
 
 msgid ":kbd:`Ctrl + F2`"
 msgstr ":kbd:`Ctrl + F2`"
@@ -95,9 +89,6 @@ msgstr "집중 모드"
 
 msgid ":kbd:`Ctrl + Shift + F11`"
 msgstr ":kbd:`Ctrl + Shift + F11`"
-
-msgid ":kbd:`Cmd + Ctrl + D`"
-msgstr ":kbd:`Cmd + Ctrl + D`"
 
 msgid "``editor/distraction_free_mode``"
 msgstr "``editor/distraction_free_mode``"

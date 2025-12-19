@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -127,17 +127,11 @@ msgstr "எமாக்கள்"
 msgid "``emacs +{line}:{col} {file}``"
 msgstr "`` emacs +{line}: {col} {file} ``"
 
-msgid "Sublime Text"
-msgstr "விழுமிய உரை"
-
 msgid "``{project} {file}:{line}:{col}``"
 msgstr "`{{project} {file}: {line}: {col}` `"
 
 msgid "Visual Studio*"
 msgstr "விசுவல் ச்டுடியோ*"
-
-msgid "``/edit \"file\"``"
-msgstr "``/\"கோப்பைத் திருத்து\" ``"
 
 msgid ""
 "\\*: Arguments are not automatically detected, so you must fill them in "

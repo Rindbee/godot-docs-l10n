@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,22 +13,6 @@ msgstr ""
 
 msgid "Spatial shaders"
 msgstr "Просторові шейдери"
-
-msgid ""
-"Spatial shaders are used for shading 3D objects. They are the most complex "
-"type of shader Godot offers. Spatial shaders are highly configurable with "
-"different render modes and different rendering options (e.g. Subsurface "
-"Scattering, Transmission, Ambient Occlusion, Rim lighting etc). Users can "
-"optionally write vertex, fragment, and light processor functions to affect "
-"how objects are drawn."
-msgstr ""
-"Просторові шейдери використовуються для затінення тривимірних об'єктів. Вони "
-"є найскладнішим типом шейдерів, які пропонує Godot. Просторові шейдери легко "
-"налаштовуються з різними режимами візуалізації та різними параметрами "
-"візуалізації (наприклад, підповерхневе розсіювання, трансмісія, навколишнє "
-"затемнення, освітлення обода тощо). Користувачі можуть додатково писати "
-"функції процесора вершин, фрагментів і світла, щоб впливати на малювання "
-"об’єктів."
 
 msgid "Render modes"
 msgstr "Режими візуалізації"
@@ -279,9 +263,6 @@ msgstr ""
 msgid "**particle_trails**"
 msgstr "**Particle_trails**"
 
-msgid "Enables the trails when used on particles geometry."
-msgstr "Вмикає сліди при використанні на геометрії частинок."
-
 msgid "**alpha_to_coverage**"
 msgstr "**Alpha_to_coverage**"
 
@@ -345,54 +326,14 @@ msgstr "Вбудований"
 msgid "in float **TIME**"
 msgstr "In float **TIME**"
 
-msgid ""
-"Global time since the engine has started, in seconds. It repeats after every "
-"``3,600`` seconds (which can  be changed with "
-"the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/"
-"time_rollover_secs>` setting). It's affected "
-"by :ref:`time_scale<class_Engine_property_time_scale>` but not by pausing. "
-"If you need a ``TIME`` variable that is not affected by time scale, add your "
-"own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and "
-"update it each frame."
-msgstr ""
-"Глобальний час із моменту запуску двигуна, у секундах. Він повторюється "
-"кожні ``3600`` секунд (що можна змінити за допомогою "
-"параметра :ref:`rollover<class_ProjectSettings_property_rendering/limits/"
-"time/time_rollover_secs>`). На нього "
-"впливає :ref:`time_scale<class_Engine_property_time_scale>`, але не пауза. "
-"Якщо вам потрібна змінна ``TIME``, на яку не впливає шкала часу, додайте "
-"власний :ref:`global shader uniform<doc_shading_language_global_uniforms>` і "
-"оновлюйте його кожного кадру."
-
 msgid "in float **PI**"
 msgstr "у float **PI**"
-
-msgid ""
-"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
-"diameter and amount of radians in half turn."
-msgstr ""
-"Константа ``PI`` (``3,141592``). Відношення довжини кола до його діаметра та "
-"кількості радіан на півоберта."
 
 msgid "in float **TAU**"
 msgstr "у float **TAU**"
 
-msgid ""
-"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
-"radians in full turn."
-msgstr ""
-"Константа ``TAU`` (``6,283185``). Еквівалент ``PI * 2`` і кількість радіан у "
-"повному оберті."
-
 msgid "in float **E**"
 msgstr "у float **E**"
-
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr ""
-"Константа ``E`` (``2,718281``). Число Ейлера та основа натурального "
-"логарифма."
 
 msgid "in bool **OUTPUT_IS_SRGB**"
 msgstr "In bool **OUTPUT_IS_SRGB**"
@@ -482,15 +423,6 @@ msgstr "**y**: Фаза протягом життя (``0,0`` до ``1,0``)."
 msgid "**z**: Animation frame."
 msgstr "**z**: рамка анімації."
 
-msgid ""
-"This allows you to easily adjust the shader to a particle system using "
-"default particles material. When writing a custom particle shader, this "
-"value can be used as desired."
-msgstr ""
-"Це дозволяє вам легко налаштувати шейдер до системи частинок, використовуючи "
-"матеріал частинок за замовчуванням. Під час написання спеціального шейдера "
-"частинок це значення можна використовувати за бажанням."
-
 msgid "in vec2 **VIEWPORT_SIZE**"
 msgstr "у vec2 **VIEWPORT_SIZE**"
 
@@ -511,13 +443,6 @@ msgstr "Перетворення простору погляду на світо
 
 msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
 msgstr "In mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
-
-msgid ""
-"View space to world space transform of camera used to draw the current "
-"viewport."
-msgstr ""
-"Перетворення простору перегляду у простір світу камери, яка використовується "
-"для малювання поточного вікна перегляду."
 
 msgid "in mat4 **INV_PROJECTION_MATRIX**"
 msgstr "In mat4 **INV_PROJECTION_MATRIX**"
@@ -653,9 +578,6 @@ msgstr "УФ вторинний канал."
 
 msgid "inout vec4 **COLOR**"
 msgstr "Inout vec4 **COLOR**"
-
-msgid "Color from vertices."
-msgstr "Колір з вершин."
 
 msgid "out float **ROUGHNESS**"
 msgstr "Out float **ROUGHNESS**"
@@ -888,9 +810,6 @@ msgstr ""
 msgid "in vec2 **SCREEN_UV**"
 msgstr "In vec2 **SCREEN_UV**"
 
-msgid "Screen UV coordinate for current pixel."
-msgstr "УФ-координата екрана для поточного пікселя."
-
 msgid "sampler2D **DEPTH_TEXTURE**"
 msgstr "Sampler2D **DEPTH_TEXTURE**"
 
@@ -902,17 +821,6 @@ msgstr ""
 
 msgid "out float **DEPTH**"
 msgstr "Out float **DEPTH**"
-
-msgid ""
-"Custom depth value (range of ``[0.0, 1.0]``). If ``DEPTH`` is being written "
-"to in any shader branch, then you are responsible for setting the ``DEPTH`` "
-"for **all** other branches. Otherwise, the graphics API will leave them "
-"uninitialized."
-msgstr ""
-"Спеціальне значення глибини (діапазон ``[0.0, 1.0]``). Якщо ``DEPTH`` "
-"записується в будь-якій гілці шейдера, тоді ви несете відповідальність за "
-"встановлення ``DEPTH`` для **всіх** інших гілок. Інакше графічний API "
-"залишить їх неініціалізованими."
 
 msgid ""
 "Normal that comes from the ``vertex()`` function, in view space. If "
@@ -958,13 +866,6 @@ msgstr "Альбедо (за замовчуванням білий). Базов�
 
 msgid "out float **ALPHA**"
 msgstr "Out float **ALPHA**"
-
-msgid ""
-"Alpha (range of ``[0.0, 1.0]``). If read from or written to, the material "
-"will go to the transparent pipeline."
-msgstr ""
-"Альфа (діапазон ``[0.0, 1.0]``). Якщо зчитувати або записувати, матеріал "
-"буде передано в прозорий конвеєр."
 
 msgid "out float **ALPHA_SCISSOR_THRESHOLD**"
 msgstr "Out float **ALPHA_SCISSOR_THRESHOLD**"
@@ -1028,9 +929,6 @@ msgstr ""
 msgid "out float **METALLIC**"
 msgstr "Out float **METALLIC**"
 
-msgid "Metallic (range of ``[0.0, 1.0]``)."
-msgstr "Металевий (діапазон ``[0.0, 1.0]``)."
-
 msgid "out float **SPECULAR**"
 msgstr "Out float **SPECULAR**"
 
@@ -1041,28 +939,11 @@ msgstr ""
 "Specular (фізично не точний для зміни). За замовчуванням ``0,5``. ``0.0`` "
 "вимикає відображення."
 
-msgid "Roughness (range of ``[0.0, 1.0]``)."
-msgstr "Шорсткість (діапазон ``[0.0, 1.0]``)."
-
 msgid "out float **RIM**"
 msgstr "Out float **RIM**"
 
-msgid ""
-"Rim (range of ``[0.0, 1.0]``). If used, Godot calculates rim lighting. Rim "
-"size depends on ``ROUGHNESS``."
-msgstr ""
-"Обріз (діапазон ``[0.0, 1.0]``). Якщо використовується, Godot обчислює "
-"освітлення обода. Розмір обода залежить від ``ШОРСТОСТІ``."
-
 msgid "out float **RIM_TINT**"
 msgstr "Out float **RIM_TINT**"
-
-msgid ""
-"Rim Tint, range of ``0.0`` (white) to ``1.0`` (albedo). If used, Godot "
-"calculates rim lighting."
-msgstr ""
-"Відтінок обода, діапазон від ``0.0`` (білий) до ``1.0`` (альбедо). Якщо "
-"використовується, Godot обчислює освітлення обода."
 
 msgid "out float **CLEARCOAT**"
 msgstr "Out float **CLEARCOAT**"
@@ -1155,13 +1036,6 @@ msgstr "Сила амбієнтної оклюзії. Для використа�
 
 msgid "out float **AO_LIGHT_AFFECT**"
 msgstr "Out float **AO_LIGHT_AFFECT**"
-
-msgid ""
-"How much ambient occlusion affects direct light (range of ``[0.0, 1.0]``, "
-"default ``0.0``)."
-msgstr ""
-"Наскільки навколишня оклюзія впливає на пряме світло (діапазон ``[0.0, "
-"1.0]``, за умовчанням ``0.0``)."
 
 msgid "out vec3 **EMISSION**"
 msgstr "Out vec3 **EMISSION**"
@@ -1355,13 +1229,6 @@ msgstr "Out vec3 **SPECULAR_LIGHT**"
 
 msgid "Specular light result."
 msgstr "Результат дзеркального світла."
-
-msgid ""
-"Alpha (range of ``[0.0, 1.0]``). If written to, the material will go to the "
-"transparent pipeline."
-msgstr ""
-"Альфа (діапазон ``[0.0, 1.0]``). У разі запису матеріал потрапляє в прозорий "
-"конвеєр."
 
 msgid ""
 "Transparent materials also cannot cast shadows or appear in "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,13 +20,6 @@ msgid ""
 msgstr ""
 "Godot는 VCS 친화적이 되기를 지향합니다. 그리고 최대한 읽기 쉽고 병합 가능한 "
 "파일을 생성합니다."
-
-msgid ""
-"As of July 2023, there is only a Git plugin available, but the community may "
-"create additional VCS plugins."
-msgstr ""
-"2023 7월을 기준으로, Git 플러그인만이 사용가능합니다. 하지만, 커뮤니티가 추가"
-"적인 VCS 플러그인들을 제작했을 수 있습니다."
 
 msgid "Official Git plugin"
 msgstr "공식 Git 플러그인"

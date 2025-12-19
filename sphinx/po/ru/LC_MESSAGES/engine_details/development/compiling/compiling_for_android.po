@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -57,16 +57,6 @@ msgid "`SCons 4.0+ <https://scons.org/pages/download.html>`_ build system."
 msgstr "`SCons 4.0+ <https://scons.org/pages/download.html>`_ система сборки."
 
 msgid ""
-"`Android SDK <https://developer.android.com/studio/#command-tools>`_ "
-"(command-line tools are sufficient)."
-msgstr ""
-"`Android SDK <https://developer.android.com/studio/#command-tools>`_ "
-"(достаточно лишь \"command-line tools\")."
-
-msgid "Required SDK components will be automatically installed."
-msgstr "Необходимые компоненты SDK будут установлены автоматически."
-
-msgid ""
 "On Linux, **do not use an Android SDK provided by your distribution's "
 "repositories** as it will often be outdated."
 msgstr ""
@@ -85,13 +75,6 @@ msgstr "Gradle (будет загружен и установлен автома
 
 msgid "JDK 17 (either OpenJDK or Oracle JDK)."
 msgstr "JDK 17 (либо OpenJDK, либо Oracle JDK)."
-
-msgid ""
-"You can download a build from `Adoptium <https://adoptium.net/temurin/"
-"releases/?variant=openjdk17>`_."
-msgstr ""
-"Вы можете загрузить сборку с сайта `Adoptium <https://adoptium.net/temurin/"
-"releases/?variant=openjdk17>`_."
 
 msgid ""
 "To get the Godot source code for compiling, see :ref:`doc_getting_source`."
@@ -136,25 +119,6 @@ msgstr ""
 "Linux или macOS: Добавьте текст ``export ANDROID_HOME=\"/path/to/android-"
 "sdk\"`` в файл ``.bashrc`` или ``.zshrc``, где ``/path/to/android-sdk`` "
 "указывает на корень каталогов SDK."
-
-msgid "Install the necessary SDK components in this folder:"
-msgstr "Установите необходимые компоненты SDK в эту папку:"
-
-msgid ""
-"Accept the SDK component licenses by running the following command where "
-"``android_sdk_path`` is the path to the Android SDK, then answering all the "
-"prompts with ``y``:"
-msgstr ""
-"Примите лицензии компонентов SDK, выполнив следующую команду, где "
-"``android_sdk_path`` — это путь к Android SDK, а затем ответьте на все "
-"запросы ``y``:"
-
-msgid ""
-"Complete setup by running the following command where ``android_sdk_path`` "
-"is the path to the Android SDK."
-msgstr ""
-"Завершите настройку, выполнив следующую команду, где ``android_sdk_path`` — "
-"это путь к Android SDK."
 
 msgid ""
 "After setting up the SDK and environment variables, be sure to **restart "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -83,6 +83,13 @@ msgstr ""
 "thógáil Godot féin agus eisiúintí oifigiúla, is féidir leat:ref: "
 "`doc_data_paths_self_contained_mode` a chumasú trí chomhad darb ainm ``a "
 "chruthú. _sc_`` nó ``_sc_`` sa fhillteán ``bin/``."
+
+msgid ""
+"You can optionally build the godot-angle-static libraries yourself with the "
+"following steps:"
+msgstr ""
+"Is féidir leat na leabharlanna godot-uille-statacha a thógáil tú féin go "
+"roghnach leis na céimeanna seo a leanas:"
 
 msgid "Running a headless/server build"
 msgstr "Tógáil gan ceann/freastalaí a rith"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -403,16 +403,6 @@ msgid ""
 msgstr ""
 "**Додати:** Остаточний колір об’єкта додається до кольору екрана, добре для "
 "відблисків або ефектів, схожих на вогонь."
-
-msgid ""
-"**Sub:** The final color of the object is subtracted from the color of the "
-"screen."
-msgstr "**Sub:** Кінцевий колір об’єкта віднімається від кольору екрана."
-
-msgid ""
-"**Mul:** The final color of the object is multiplied with the color of the "
-"screen."
-msgstr "**Sub:** Кінцевий колір об’єкта віднімається від кольору екрана."
 
 msgid ""
 "**Premultiplied Alpha:** The color of the object is expected to have already "
@@ -840,6 +830,13 @@ msgstr ""
 
 msgid "Bent normal map"
 msgstr "Зігнута карта нормалей"
+
+msgid ""
+"*This is only available in the Forward+ and Mobile renderers, not the "
+"Compatibility renderer.*"
+msgstr ""
+"*Це доступно лише в програмах візуалізації Forward+ і Mobile, а не в системі "
+"візуалізації Compatibility.*"
 
 msgid ""
 "A bent normal map describes the average direction of ambient lighting. "
@@ -1283,16 +1280,10 @@ msgstr ""
 msgid "Shadows"
 msgstr "Тіні"
 
-msgid "Do Not Receive Shadows"
-msgstr "Не отримувати тіні"
-
 msgid ""
 "Makes the object not receive any kind of shadow that would otherwise be cast "
 "onto it."
 msgstr "Тіні від інших об'єктів не будуть показані на цьому об'єкті."
-
-msgid "Use Shadow to Opacity"
-msgstr "Використовувати тінь для непрозорості"
 
 msgid ""
 "Lighting modifies the alpha so shadowed areas are opaque and non-shadowed "

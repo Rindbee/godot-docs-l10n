@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -117,9 +117,6 @@ msgstr "Cló nó Bailiúchán OpenType (''.otf'', ''.otc'')"
 
 msgid "Web Open Font Format 1 (``.woff``)"
 msgstr "Formáid Cló Oscailte Gréasáin 1 (''.woff'')"
-
-msgid "Web Open Font Format 2 (``.woff2``, since Godot 3.5)"
-msgstr "Formáid Cló Oscailte Gréasáin 2 (''.woff2'', ós rud é Godot 3.5)"
 
 msgid ""
 "While ``.woff`` and especially ``.woff2`` tend to result in smaller file "

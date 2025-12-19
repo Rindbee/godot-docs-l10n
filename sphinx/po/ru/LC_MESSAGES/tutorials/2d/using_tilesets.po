@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -291,20 +291,6 @@ msgstr "Автоматическое пересоздание тайлов по�
 
 msgid "Using a collection of scenes"
 msgstr "Наборы сцен"
-
-msgid ""
-"Since Godot 4.0, you can place actual *scenes* as tiles. This allows you to "
-"use any collection of nodes as a tile. For example, you could use scene "
-"tiles to place gameplay elements, such as shops the player may be able to "
-"interact with. You could also use scene tiles to place AudioStreamPlayer2Ds "
-"(for ambient sounds), particle effects, and more."
-msgstr ""
-"Начиная с Godot 4.0, вы можете размещать настоящие *сцены* как тайла. Это "
-"позволяет вам использовать любую коллекцию узлов в качестве тайла. Например, "
-"вы можете использовать тайлы сцены для размещения элементов игрового "
-"процесса, таких как магазины, с которыми игрок может взаимодействовать. Вы "
-"также можете использовать тайлы сцены для размещения AudioStreamPlayer2D-ов "
-"(для окружающих звуков), эффектов частиц и многого другого."
 
 msgid ""
 "Scene tiles come with a greater performance overhead compared to atlases, as "

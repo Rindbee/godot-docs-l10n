@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -406,13 +406,6 @@ msgstr ""
 "A questo punto potresti pensare: **\"Ok, ma come faccio a ottenere gli "
 "angoli da una trasformazione?\"**. Ancora una volta, la risposta è: non si "
 "ottiene. Devi fare del tuo meglio per smettere di pensare in angoli."
-
-msgid ""
-"Imagine you need to shoot a bullet in the direction your player is facing. "
-"Just use the forward axis (commonly ``Z`` or ``-Z``)."
-msgstr ""
-"Immagina di dover sparare un proiettile nella direzione in cui è rivolto il "
-"tuo giocatore. Usa solo l'asse in avanti (comunemente ``Z`` o ``-Z``)."
 
 msgid ""
 "Is the enemy looking at the player? Use the dot product for this (see "

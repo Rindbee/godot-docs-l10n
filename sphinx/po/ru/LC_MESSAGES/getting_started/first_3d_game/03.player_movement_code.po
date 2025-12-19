@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -378,13 +378,6 @@ msgstr "|image8|"
 
 msgid "image8"
 msgstr "изображение8"
-
-msgid ""
-"You can run the scene by pressing :kbd:`F6` and press the arrow keys to move "
-"the character."
-msgstr ""
-"Вы можете запустить сцену, нажав :kbd:`F6` и нажимать клавиши со стрелками "
-"для перемещения персонажа."
 
 msgid "|image9|"
 msgstr "|image9|"

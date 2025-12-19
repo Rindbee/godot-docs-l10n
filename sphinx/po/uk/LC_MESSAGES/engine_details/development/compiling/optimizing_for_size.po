@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -132,14 +132,6 @@ msgstr "Оптимізація за розміром замість швидко
 
 msgid "**Performed in official builds:** Yes, but only for web builds"
 msgstr "**Виконується в офіційних збірках:** Так, але лише для веб-версій"
-
-msgid ""
-"Godot 3.1 onwards allows compiling using size optimizations (instead of "
-"speed). To enable this, set the ``optimize`` flag to ``size``:"
-msgstr ""
-"Godot 3.1 і вище дозволяє компілювати за допомогою оптимізації розміру "
-"(замість швидкості). Щоб увімкнути це, встановіть прапорець ``optimize`` на "
-"``size``:"
 
 msgid "Some platforms such as WebAssembly already use this mode by default."
 msgstr ""

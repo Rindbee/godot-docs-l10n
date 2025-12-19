@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -360,16 +360,6 @@ msgid ""
 msgstr ""
 "**Add：**\\ （添加）对象的最终颜色会添加到屏幕的颜色中，非常适合耀斑或类似火"
 "焰的效果。"
-
-msgid ""
-"**Sub:** The final color of the object is subtracted from the color of the "
-"screen."
-msgstr "**Sub：**\\ （减去）从屏幕颜色中减去对象的最终颜色。"
-
-msgid ""
-"**Mul:** The final color of the object is multiplied with the color of the "
-"screen."
-msgstr "**Mul：**\\（相乘） 对象的最终颜色与屏幕的颜色相乘。"
 
 msgid ""
 "**Premultiplied Alpha:** The color of the object is expected to have already "
@@ -749,6 +739,12 @@ msgstr ""
 
 msgid "Bent normal map"
 msgstr "弯曲法线贴图"
+
+msgid ""
+"*This is only available in the Forward+ and Mobile renderers, not the "
+"Compatibility renderer.*"
+msgstr ""
+"*该功能仅适用于集群 Forward+ 和 Forward 移动后端，不适用于兼容性渲染器。*"
 
 msgid ""
 "A bent normal map describes the average direction of ambient lighting. "
@@ -1133,16 +1129,10 @@ msgstr ""
 msgid "Shadows"
 msgstr "阴影"
 
-msgid "Do Not Receive Shadows"
-msgstr "不接受阴影（Do Not Receive Shadows）"
-
 msgid ""
 "Makes the object not receive any kind of shadow that would otherwise be cast "
 "onto it."
 msgstr "使对象不会接收任何可能会被投射到其上的阴影。"
-
-msgid "Use Shadow to Opacity"
-msgstr "使用阴影到不透明度（Use Shadow to Opacity）"
 
 msgid ""
 "Lighting modifies the alpha so shadowed areas are opaque and non-shadowed "

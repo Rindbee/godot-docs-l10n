@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -398,16 +398,6 @@ msgid ""
 msgstr ""
 "**Add:** オブジェクトの最終的な色が画面の色に加算されます。フレアや火のような"
 "エフェクトに適しています。"
-
-msgid ""
-"**Sub:** The final color of the object is subtracted from the color of the "
-"screen."
-msgstr "**Sub:** オブジェクトの最終的な色が画面の色から減算されます。"
-
-msgid ""
-"**Mul:** The final color of the object is multiplied with the color of the "
-"screen."
-msgstr "**Mul:** オブジェクトの最終的な色が画面の色と掛け合わされます。"
 
 msgid "Cull Mode"
 msgstr "カリングモード"
@@ -1073,18 +1063,12 @@ msgstr ""
 msgid "Shadows"
 msgstr "Shadows (シャドウ)"
 
-msgid "Do Not Receive Shadows"
-msgstr "Disable Receive Shadows (シャドウを受け取らない)"
-
 msgid ""
 "Makes the object not receive any kind of shadow that would otherwise be cast "
 "onto it."
 msgstr ""
 "オブジェクトに投影されるあらゆる種類の影がオブジェクトに当たらないようにしま"
 "す。"
-
-msgid "Use Shadow to Opacity"
-msgstr "Use Shadow to Opacity (影を不透明度に使用)"
 
 msgid ""
 "Lighting modifies the alpha so shadowed areas are opaque and non-shadowed "

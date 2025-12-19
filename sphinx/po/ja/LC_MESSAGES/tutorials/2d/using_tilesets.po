@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -213,19 +213,6 @@ msgstr "アトラスのプロパティを変更した後にタイルを自動再
 
 msgid "Using a collection of scenes"
 msgstr "シーンのコレクションを使用する"
-
-msgid ""
-"Since Godot 4.0, you can place actual *scenes* as tiles. This allows you to "
-"use any collection of nodes as a tile. For example, you could use scene "
-"tiles to place gameplay elements, such as shops the player may be able to "
-"interact with. You could also use scene tiles to place AudioStreamPlayer2Ds "
-"(for ambient sounds), particle effects, and more."
-msgstr ""
-"Godot 4.0からは、 *シーン* そのものをタイルとして設置することができます。これ"
-"によってどのようなノードもタイルとして扱うことができます。例えば、シーンタイ"
-"ルを使えばプレイヤーがインタラクトするショップのようなゲーム要素をタイルに並"
-"べることができます。また、 AudioStreamPlayer2D (環境音に)、パーティクルエフェ"
-"クトなども並べられます。"
 
 msgid ""
 "Scene tiles come with a greater performance overhead compared to atlases, as "

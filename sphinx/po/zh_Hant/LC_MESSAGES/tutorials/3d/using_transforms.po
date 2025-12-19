@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -352,13 +352,6 @@ msgid ""
 msgstr ""
 "現在你可能在想: **\"好吧, 但是我怎麼從變換中獲得角度？\"** . 答案又一次是: 沒"
 "有必要. 你必須盡最大努力停止用角度思考."
-
-msgid ""
-"Imagine you need to shoot a bullet in the direction your player is facing. "
-"Just use the forward axis (commonly ``Z`` or ``-Z``)."
-msgstr ""
-"想像一下, 你需要朝你的遊戲角色面對的方向射擊子彈. 只需使用向前的軸(通常為 "
-"``Z`` 或 ``-Z`` )."
 
 msgid ""
 "Is the enemy looking at the player? Use the dot product for this (see "

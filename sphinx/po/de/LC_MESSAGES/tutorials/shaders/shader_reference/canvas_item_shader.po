@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -79,9 +79,6 @@ msgstr ""
 msgid "**light_only**"
 msgstr "**light_only**"
 
-msgid "Only draw on light pass."
-msgstr "Nur bei Lichtdurchlauf zeichnen."
-
 msgid "**skip_vertex_transform**"
 msgstr "**skip_vertex_transform**"
 
@@ -108,33 +105,11 @@ msgstr "in float **TIME**"
 msgid "in float **PI**"
 msgstr "in float **PI**"
 
-msgid ""
-"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
-"diameter and amount of radians in half turn."
-msgstr ""
-"Eine ``PI``-Konstante (``3,141592``). Das Verhältnis des Umfangs eines "
-"Kreises zu seinem Durchmesser und die Anzahl der Bogenmaßeinheiten in einer "
-"halben Umdrehung."
-
 msgid "in float **TAU**"
 msgstr "in float **TAU**"
 
-msgid ""
-"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
-"radians in full turn."
-msgstr ""
-"Eine ``TAU``-Konstante (``6.283185``). Ein Äquivalent von ``PI * 2`` und die "
-"Anzahl der Bogenmaßeinheiten in einer vollen Umdrehung."
-
 msgid "in float **E**"
 msgstr "in float **E**"
-
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr ""
-"Eine ``E``-Konstante (``2,718281``). Eulersche Zahl und eine Basis des "
-"natürlichen Logarithmus."
 
 msgid "Vertex built-ins"
 msgstr "Vertex-Built-ins"
@@ -201,13 +176,6 @@ msgstr "Immer ``false``."
 msgid "in vec2 **TEXTURE_PIXEL_SIZE**"
 msgstr "in vec2 **TEXTURE_PIXEL_SIZE**"
 
-msgid ""
-"Normalized pixel size of default 2D texture. For a Sprite2D with a texture "
-"of size 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
-msgstr ""
-"Normalisierte Pixelgröße der Default-2D-Textur. Für ein Sprite2D mit einer "
-"Textur der Größe 64x32px ist **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
-
 msgid "inout vec2 **VERTEX**"
 msgstr "inout vec2 **VERTEX**"
 
@@ -247,9 +215,6 @@ msgstr "in vec4 **FRAGCOORD**"
 msgid "in vec2 **SCREEN_PIXEL_SIZE**"
 msgstr "in vec2 **SCREEN_PIXEL_SIZE**"
 
-msgid "Size of individual pixels. Equal to inverse of resolution."
-msgstr "Größe der einzelnen Pixel. Entspricht dem Inversen der Auflösung."
-
 msgid "in vec2 **POINT_COORD**"
 msgstr "in vec2 **POINT_COORD**"
 
@@ -280,9 +245,6 @@ msgstr "in vec2 **UV**"
 
 msgid "in vec2 **SCREEN_UV**"
 msgstr "in vec2 **SCREEN_UV**"
-
-msgid "Screen UV coordinate for current pixel."
-msgstr "Screen-UV-Koordinate für das aktuelle Pixel."
 
 msgid "sampler2D **SCREEN_TEXTURE**"
 msgstr "sampler2D **SCREEN_TEXTURE**"
@@ -354,9 +316,6 @@ msgstr "in vec3 **NORMAL**"
 
 msgid "in vec4 **COLOR**"
 msgstr "in vec4 **COLOR**"
-
-msgid "Current texture in use for CanvasItem."
-msgstr "Aktuell verwendete Textur für CanvasItem."
 
 msgid "UV for Point Sprite."
 msgstr "UV für Punkt-Sprite."

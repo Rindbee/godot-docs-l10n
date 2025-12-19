@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -66,6 +66,9 @@ msgstr "运行无头/服务器构建"
 
 msgid "Building export templates"
 msgstr "构建导出模板"
+
+msgid "::"
+msgstr "::"
 
 msgid "Cross-compiling for macOS from Linux"
 msgstr "从 Linux 交叉编译 macOS"

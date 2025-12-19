@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -159,17 +159,6 @@ msgstr ""
 
 msgid "OpenXR"
 msgstr "OpenXR"
-
-msgid ""
-"OpenXR is a new industry standard that allows different XR platforms to "
-"present themselves through a standardised API to XR applications. This "
-"standard is an open standard maintained by the Khronos Group and thus aligns "
-"very well with Godot's interests."
-msgstr ""
-"OpenXR est une nouvelle norme de l'industrie qui permet à différentes "
-"plateformes XR de se présenter via une API standardisée aux applications XR. "
-"Cette norme est une norme ouverte maintenue par le groupe Khronos et "
-"s'harmonise donc très bien avec les intérêts de Godot."
 
 msgid ""
 "The Vulkan implementation of OpenXR is closely integrated with Vulkan, "

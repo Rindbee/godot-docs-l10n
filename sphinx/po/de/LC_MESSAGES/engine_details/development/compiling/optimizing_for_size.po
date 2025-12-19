@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -120,15 +120,6 @@ msgstr "Optimieren auf Größe statt Geschwindigkeit"
 
 msgid "**Performed in official builds:** Yes, but only for web builds"
 msgstr "**Durchgeführt in offiziellen Builds:** Ja, aber nur für Web-Builds"
-
-msgid ""
-"Godot 3.1 onwards allows compiling using size optimizations (instead of "
-"speed). To enable this, set the ``optimize`` flag to ``size``:"
-msgstr ""
-"Ab Godot 3.1 ist es möglich, die Kompilierung unter Verwendung von "
-"Größenoptimierungen (anstelle von Geschwindigkeitsoptimierungen) "
-"durchzuführen. Um dies zu aktivieren, setzen Sie das Flag ``optimize`` auf "
-"``size``:"
 
 msgid "Some platforms such as WebAssembly already use this mode by default."
 msgstr ""

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -376,9 +376,6 @@ msgid ""
 msgstr ""
 "*எடுத்துக்காட்டு (வல்கன்): குவால்காம் அட்ரினோ 505, மாலி-சி 71 எம்பி 2, ஆப்பிள் ஏ 12 "
 "(ஐபோன் எக்ச்ஆர்/எக்ச்எச்)*"
-
-msgid "*Example (Metal): Apple A11 (iPhone 8/X)*"
-msgstr "*எடுத்துக்காட்டு (உலோகம்): ஆப்பிள் ஏ 11 (ஐபோன் 8/x)*"
 
 msgid ""
 "**Mobile renderer:** SoC featuring GPU with full Vulkan 1.0 support, or "

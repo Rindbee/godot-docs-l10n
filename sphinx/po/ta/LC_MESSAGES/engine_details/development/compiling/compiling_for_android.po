@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -58,16 +58,6 @@ msgstr ""
 "`ச்கான் 4.0+ <https://scons.org/pages/download.html> _ _ அமைப்பை உருவாக்குங்கள்."
 
 msgid ""
-"`Android SDK <https://developer.android.com/studio/#command-tools>`_ "
-"(command-line tools are sufficient)."
-msgstr ""
-"`Android Sdk <https://developer.android.com/studio/#command-tools>` _ (கட்டளை-"
-"வரி கருவிகள் போதுமானவை)."
-
-msgid "Required SDK components will be automatically installed."
-msgstr "தேவையான SDK கூறுகள் தானாக நிறுவப்படும்."
-
-msgid ""
 "On Linux, **do not use an Android SDK provided by your distribution's "
 "repositories** as it will often be outdated."
 msgstr ""
@@ -86,13 +76,6 @@ msgstr "கிரேடில் (காணாமல் போனால் ப�
 
 msgid "JDK 17 (either OpenJDK or Oracle JDK)."
 msgstr "JDK 17 (OpenJDK அல்லது ஆரக்கிள் JDK)."
-
-msgid ""
-"You can download a build from `Adoptium <https://adoptium.net/temurin/"
-"releases/?variant=openjdk17>`_."
-msgstr ""
-"நீங்கள் `தத்தெடுப்பு <https://adoptium.net/temurin/releases/?variant=openjdk17>` "
-"_ இலிருந்து ஒரு கட்டமைப்பைப் பதிவிறக்கலாம்."
 
 msgid ""
 "To get the Godot source code for compiling, see :ref:`doc_getting_source`."
@@ -133,25 +116,6 @@ msgid ""
 msgstr ""
 "லினக்ச் அல்லது மேகோச்: உங்கள் `` .Bashrc`` அல்லது `` .ZSHRC`` எங்கே ``/பாதை/to/to/"
 "android-sdk `` எச்.டி.கே கோப்பகங்களின் வேரை சுட்டிக்காட்டுகிறது."
-
-msgid "Install the necessary SDK components in this folder:"
-msgstr "இந்த கோப்புறையில் தேவையான SDK கூறுகளை நிறுவவும்:"
-
-msgid ""
-"Accept the SDK component licenses by running the following command where "
-"``android_sdk_path`` is the path to the Android SDK, then answering all the "
-"prompts with ``y``:"
-msgstr ""
-"பின்வரும் கட்டளையை இயக்குவதன் மூலம் SDK கூறு உரிமங்களை ஏற்றுக்கொள்ளுங்கள், அங்கு `` "
-"android_sdk_path`` என்பது ஆண்ட்ராய்டு SDK க்கான பாதை, பின்னர் அனைத்து "
-"அறிவுறுத்தல்களுக்கும் பதிலளித்தல் `` y``:"
-
-msgid ""
-"Complete setup by running the following command where ``android_sdk_path`` "
-"is the path to the Android SDK."
-msgstr ""
-"பின்வரும் கட்டளையை இயக்குவதன் மூலம் முழுமையான அமைப்பை `` Android_sdk_path`` என்பது "
-"ஆண்ட்ராய்டு SDK க்கான பாதை."
 
 msgid ""
 "After setting up the SDK and environment variables, be sure to **restart "

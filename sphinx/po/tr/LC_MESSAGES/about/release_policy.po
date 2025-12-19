@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -180,23 +180,23 @@ msgstr ""
 msgid "supported"
 msgstr "supported"
 
+msgid "partial"
+msgstr "partial"
+
+msgid "eol"
+msgstr "eol"
+
 msgid "Godot 4.2"
 msgstr "Godot 4.2"
 
 msgid "November 2023"
 msgstr "Kasım 2023"
 
-msgid "partial"
-msgstr "partial"
-
 msgid "Godot 4.1"
 msgstr "Godot 4.1"
 
 msgid "July 2023"
 msgstr "Temmuz 2023"
-
-msgid "eol"
-msgstr "eol"
 
 msgid "Godot 4.0"
 msgstr "Godot 4.0"

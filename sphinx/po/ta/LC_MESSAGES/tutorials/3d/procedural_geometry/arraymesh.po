@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -263,16 +263,6 @@ msgstr ""
 
 msgid "Put together, the full code looks like:"
 msgstr "ஒன்றாகச் சென்று, முழு குறியீடு போல் தெரிகிறது:"
-
-msgid ""
-"The code that goes in the middle can be whatever you want. Below we will "
-"present some example code for generating a sphere."
-msgstr ""
-"நடுவில் செல்லும் குறியீடு நீங்கள் எதை வேண்டுமானாலும் இருக்கலாம். ஒரு கோளத்தை "
-"உருவாக்குவதற்கான சில எடுத்துக்காட்டு குறியீட்டை கீழே வழங்குவோம்."
-
-msgid "Generating geometry"
-msgstr "வடிவவியலை உருவாக்குதல்"
 
 msgid ""
 "Here is sample code for generating a sphere. Although the code is presented "

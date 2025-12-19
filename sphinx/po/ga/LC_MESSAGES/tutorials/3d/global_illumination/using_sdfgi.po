@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,16 +13,6 @@ msgstr ""
 
 msgid "Signed distance field global illumination (SDFGI)"
 msgstr "Soilsiú domhanda réimse achair sínithe (SDFGI)"
-
-msgid ""
-"Signed distance field global illumination (SDFGI) is a novel technique "
-"available in Godot 4.0. It provides semi-real-time global illumination that "
-"scales to any world size and works with procedurally generated levels."
-msgstr ""
-"Teicníc úrnua atá ar fáil in Godot 4.0 is ea soilsiú domhanda an achair "
-"sínithe (SDFGI). Soláthraíonn sé soilsiú domhanda leathfhíor-ama a scálaíonn "
-"go haon mhéid dhomhanda agus a oibríonn le leibhéil a ghintear de réir nós "
-"imeachta."
 
 msgid ""
 "SDFGI supports dynamic lights, but *not* dynamic occluders or dynamic "

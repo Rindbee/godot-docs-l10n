@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,8 +23,8 @@ msgstr "씬 트리"
 msgid "Rendering"
 msgstr "렌더링"
 
-msgid "GDScript arrays, dictionaries"
-msgstr "GDScript 배열(arrays), 딕셔너리(dictionaries)"
+msgid "Physics"
+msgstr "물리"
 
 msgid "Resources"
 msgstr "리소스"

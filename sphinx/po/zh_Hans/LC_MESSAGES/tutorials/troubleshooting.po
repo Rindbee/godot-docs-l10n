@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -131,17 +131,6 @@ msgstr ""
 
 msgid "The editor or project takes a very long time to start"
 msgstr "编辑器或项目花了很长时间才启动"
-
-msgid ""
-"When using one of the Vulkan-based renderers (Forward+ or Mobile), the first "
-"startup is expected to be relatively long. This is because shaders need to "
-"be compiled before they can be cached. Shaders also need to be cached again "
-"after updating Godot, after updating graphics drivers or after switching "
-"graphics cards."
-msgstr ""
-"使用基于 Vulkan 的渲染器（Forward+ 或 Mobile）时，首次启动将会花费较长的时"
-"间。这是因为着色器需要先编译才能进行缓存。更新 Godot、更新显卡驱动或切换显卡"
-"后，着色器也需要重新缓存。"
 
 msgid ""
 "If the issue persists after the first startup, this is a `known bug <https://"

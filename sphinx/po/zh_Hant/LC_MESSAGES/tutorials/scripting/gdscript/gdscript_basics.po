@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1353,17 +1353,6 @@ msgstr ""
 
 msgid "Typed arrays"
 msgstr "切線陣列"
-
-msgid ""
-"Godot 4.0 added support for typed arrays. On write operations, Godot checks "
-"that element values match the specified type, so the array cannot contain "
-"invalid values. The GDScript static analyzer takes typed arrays into "
-"account, however array methods like ``front()`` and ``back()`` still have "
-"the ``Variant`` return type."
-msgstr ""
-"Godot 4.0 新增了對型別陣列的支援。在寫入操作中，Godot 檢查元素值是否與指定型"
-"別配對，因此陣列不能包含無效值。 GDScript 靜態分析器考慮型別化陣列，但像"
-"「front()」和「back()」這樣的陣列方法仍然具有「Variant」回傳型別。"
 
 msgid ""
 "Typed arrays have the syntax ``Array[Type]``, where ``Type`` can be any "
@@ -2745,12 +2734,6 @@ msgstr ""
 "即使 ``idle.gd`` 的 ``_init`` 建構函式不接受參數，也仍需要傳遞某個值給 "
 "``state.gd`` 的基底類別，即使該值不做任何事。這也表示不只能傳變數給基底建構函"
 "式，你也可以直接傳遞運算式，例如："
-
-msgid "func _init():"
-msgstr "func _init():"
-
-msgid "super(5)"
-msgstr "super(5)"
 
 msgid "Static constructor"
 msgstr "類別建置函式"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1547,21 +1547,6 @@ msgstr "`` i``, `` நான்` - கீழ் மற்றும் மேல�
 
 msgid "Text effects"
 msgstr "உரை விளைவுகள்"
-
-msgid ""
-"BBCode can also be used to create different text effects that can optionally "
-"be animated. Five customizable effects are provided out of the box, and you "
-"can easily create your own. By default, animated effects will "
-"pause :ref:`when the SceneTree is paused <doc_pausing_games>`. You can "
-"change this behavior by adjusting the RichTextLabel's **Process > Mode** "
-"property."
-msgstr ""
-"விருப்பமாக அனிமேசன் செய்யக்கூடிய வெவ்வேறு உரை விளைவுகளை உருவாக்க BBCODE ஐப் "
-"பயன்படுத்தலாம். தனிப்பயனாக்கக்கூடிய ஐந்து விளைவுகள் பெட்டியின் வெளியே வழங்கப்படுகின்றன, "
-"மேலும் நீங்கள் உங்கள் சொந்தத்தை எளிதாக உருவாக்கலாம். இயல்பாக, அனிமேசன் விளைவுகள் "
-"இடைநிறுத்தப்படும்: குறிப்பு: `காட்சி இடைநிறுத்தப்படும்போது <doc_pausing_games>`. "
-"ரிச்ச்டெக்ச்ட்லேபலின் ** செயல்முறை> பயன்முறை ** சொத்தை சரிசெய்வதன் மூலம் இந்த நடத்தையை "
-"மாற்றலாம்."
 
 msgid ""
 "All examples below mention the default values for options in the listed tag "

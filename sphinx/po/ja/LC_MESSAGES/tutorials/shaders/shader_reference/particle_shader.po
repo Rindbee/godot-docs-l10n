@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,17 +13,6 @@ msgstr ""
 
 msgid "Particle shaders"
 msgstr "Particleシェーダー"
-
-msgid ""
-"Particle shaders are a special type of shader that runs before the object is "
-"drawn. They are used for calculating material properties such as color, "
-"position, and rotation. They are drawn with any regular material for "
-"CanvasItem or Spatial, depending on whether they are 2D or 3D."
-msgstr ""
-"Particleシェーダーはオブジェクトが描画される前に実行される特別なタイプの"
-"シェーダーです。これらは、色、位置、回転などのマテリアルのプロパティを計算す"
-"るために使用されます。これらは2Dか3Dかに応じて、CanvasItemまたはSpatialの通常"
-"のマテリアルを使用して描画されます。"
 
 msgid ""
 "Unlike other shader types, particle shaders keep the data that was output "
@@ -101,22 +90,8 @@ msgstr "\\ in float **TIME**"
 msgid "in float **PI**"
 msgstr "\\ in float **PI**"
 
-msgid ""
-"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
-"diameter and amount of radians in half turn."
-msgstr ""
-"``PI`` 円周率の定数 (``3.141592``)。円の円周とその直径の比率、および半回転の"
-"ラジアン量。"
-
 msgid "in float **TAU**"
 msgstr "\\ in float **TAU**"
-
-msgid ""
-"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
-"radians in full turn."
-msgstr ""
-"定数 `TAU`` は円周率の2倍 (``6.283185``)。 ``PI * 2`` と、1回転のラジアン量に"
-"相当します。"
 
 msgid "in float **E**"
 msgstr "\\ in float **E**"
@@ -173,19 +148,8 @@ msgstr "乱数のベースとして使用される乱数シード。"
 msgid "inout bool **ACTIVE**"
 msgstr "\\ inout bool **ACTIVE**"
 
-msgid "``true`` when the particle is active, can be set ``false``."
-msgstr ""
-"パーティクルがアクティブな場合は ``true`` 。更新中に ``false`` に設定できま"
-"す。"
-
 msgid "inout vec4 **COLOR**"
 msgstr "\\ inout vec4 **COLOR**"
-
-msgid ""
-"Particle color, can be written to and accessed in mesh's vertex function."
-msgstr ""
-"パーティクルの色。書き込むことができ、メッシュのシェーダーからアクセスされま"
-"す。"
 
 msgid "inout vec3 **VELOCITY**"
 msgstr "\\ inout vec3 **VELOCITY**"
@@ -204,13 +168,6 @@ msgstr "\\ inout vec4 **CUSTOM**"
 
 msgid "inout float **MASS**"
 msgstr "\\ inout float **MASS**"
-
-msgid ""
-"Particle mass, intended to be used with attractors. Equals ``1.0`` by "
-"default."
-msgstr ""
-"パーティクルの質量。アトラクターの処理で使用されることを意図しています。デ"
-"フォルトは ``1.0`` 。"
 
 msgid "in vec4 **USERDATAX**"
 msgstr "\\in vec4 **USERDATAX**"
@@ -317,9 +274,6 @@ msgstr "process()のビルトイン"
 msgid "in bool **RESTART**"
 msgstr "\\ in bool **RESTART**"
 
-msgid "``true`` if the current process frame is first for the particle."
-msgstr "現在のプロセスフレームがパーティクルの初回であるときは ``true`` 。"
-
 msgid "in bool **COLLIDED**"
 msgstr "\\ in bool **COLLIDED**"
 
@@ -331,12 +285,6 @@ msgstr "\\ in vec3 **COLLISION_NORMAL**"
 
 msgid "in float **COLLISION_DEPTH**"
 msgstr "\\ in float **COLLISION_DEPTH**"
-
-msgid ""
-"A length of normal of the last collision. If there is no collision detected "
-"it is equal to ``0.0``."
-msgstr ""
-"最後の衝突時の法線の長さ。衝突が検出されていない場合 ``0.0`` になります。"
 
 msgid "in vec3 **ATTRACTOR_FORCE**"
 msgstr "\\ in vec3 **ATTRACTOR_FORCE**"

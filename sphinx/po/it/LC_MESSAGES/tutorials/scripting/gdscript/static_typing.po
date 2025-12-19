@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -546,15 +546,6 @@ msgstr ""
 
 msgid "And the same callback, with type hints:"
 msgstr "E lo stesso callback, con suggerimenti di tipo:"
-
-msgid "::"
-msgstr "::"
-
-msgid "func _on_area_2d_body_entered(body: PhysicsBody2D) -> void:"
-msgstr "func _on_area_2d_body_entered(body: PhysicsBody2D) -> void:"
-
-msgid "pass"
-msgstr "pass"
 
 msgid "Warning system"
 msgstr "Sistema di avvertimento"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -45,16 +45,6 @@ msgstr "EditorNode3DGizmoPlugin"
 
 msgid "This would be a basic setup:"
 msgstr "这是一个基本设置:"
-
-msgid ""
-"For simple gizmos, inheriting :ref:`EditorNode3DGizmoPlugin "
-"<class_EditorNode3DGizmoPlugin>` is enough. If you want to store some per-"
-"gizmo data or you are porting a Godot 3.0 gizmo to 3.1+, you should go with "
-"the second approach."
-msgstr ""
-"简单的小工具只要继承 :ref:`EditorNode3DGizmoPlugin "
-"<class_EditorNode3DGizmoPlugin>` 就足够了。如果你想存储各个小工具的一些数据，"
-"或者你要把 Godot 3.0 的小工具移植到 3.1+，你应该选择第二种方法。"
 
 msgid "Simple approach"
 msgstr "简单方法"

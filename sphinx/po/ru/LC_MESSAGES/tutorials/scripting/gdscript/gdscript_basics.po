@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1489,19 +1489,6 @@ msgstr ""
 
 msgid "Typed arrays"
 msgstr "Типизированные массивы"
-
-msgid ""
-"Godot 4.0 added support for typed arrays. On write operations, Godot checks "
-"that element values match the specified type, so the array cannot contain "
-"invalid values. The GDScript static analyzer takes typed arrays into "
-"account, however array methods like ``front()`` and ``back()`` still have "
-"the ``Variant`` return type."
-msgstr ""
-"В Godot 4.0 добавлена поддержка типизированных массивов. При операциях "
-"записи Godot проверяет соответствие значений элементов указанному типу, "
-"чтобы массив не содержал недопустимых значений. Статический анализатор "
-"GDScript учитывает типизированные массивы, однако методы массивов, такие как "
-"``front()`` и ``back()``, по-прежнему возвращают тип ``Variant``."
 
 msgid ""
 "Typed arrays have the syntax ``Array[Type]``, where ``Type`` can be any "
@@ -3107,12 +3094,6 @@ msgstr ""
 "``state.gd``, даже если он ничего не делает. Это подводит нас к тому, что "
 "базовому конструктору можно передавать не только переменные, но и выражения, "
 "например:"
-
-msgid "func _init():"
-msgstr "функция _init():"
-
-msgid "super(5)"
-msgstr "супер(5)"
 
 msgid "Static constructor"
 msgstr "Статический конструктор"

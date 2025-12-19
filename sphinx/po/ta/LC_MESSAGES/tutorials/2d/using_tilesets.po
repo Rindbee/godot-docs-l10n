@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -273,19 +273,6 @@ msgstr "அட்லச் பண்புகளை மாற்றிய பி
 
 msgid "Using a collection of scenes"
 msgstr "காட்சிகளின் தொகுப்பைப் பயன்படுத்துதல்"
-
-msgid ""
-"Since Godot 4.0, you can place actual *scenes* as tiles. This allows you to "
-"use any collection of nodes as a tile. For example, you could use scene "
-"tiles to place gameplay elements, such as shops the player may be able to "
-"interact with. You could also use scene tiles to place AudioStreamPlayer2Ds "
-"(for ambient sounds), particle effects, and more."
-msgstr ""
-"கோடோட் 4.0 என்பதால், நீங்கள் உண்மையான * காட்சிகளை * ஓடுகளாக வைக்கலாம். எந்தவொரு "
-"முனைகளின் தொகுப்பையும் ஓடு பயன்படுத்த இது உங்களை அனுமதிக்கிறது. எடுத்துக்காட்டாக, "
-"விளையாட்டு ஓடுகளை நீங்கள் பயன்படுத்தலாம், விளையாட்டு கூறுகளை வைக்க, அதாவது பிளேயர் "
-"தொடர்பு கொள்ளக்கூடிய கடைகள் போன்றவை. ஆடியோச்ட்ரீஆம்ப்ளேயர் 2 டி (சுற்றுப்புற ஒலிகளுக்கு), "
-"துகள் விளைவுகள் மற்றும் பலவற்றை வைக்க நீங்கள் காட்சி ஓடுகளைப் பயன்படுத்தலாம்."
 
 msgid ""
 "Scene tiles come with a greater performance overhead compared to atlases, as "

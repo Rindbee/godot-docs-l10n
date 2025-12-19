@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -214,9 +214,6 @@ msgid ""
 msgstr ""
 "|release| Chemin vers un projet (``<directory>`` doit contenir un fichier "
 "'project.godot')."
-
-msgid "``scene <path>``"
-msgstr "``scene <chemin>``"
 
 msgid "|release| Path or UID of a scene in the project that should be started."
 msgstr ""

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -84,9 +84,6 @@ msgstr ""
 
 msgid "Android SDK Platform-Tools version 35.0.0 or later"
 msgstr "ஆண்ட்ராய்டு SDK இயங்குதள-கருவிகள் பதிப்பு 35.0.0 அல்லது அதற்குப் பிறகு"
-
-msgid "Android SDK Build-Tools version 35.0.0"
-msgstr "ஆண்ட்ராய்டு SDK பில்ட்-டூல்ச் பதிப்பு 35.0.0"
 
 msgid "Android SDK Platform 35"
 msgstr "ஆண்ட்ராய்டு SDK இயங்குதளம் 35"

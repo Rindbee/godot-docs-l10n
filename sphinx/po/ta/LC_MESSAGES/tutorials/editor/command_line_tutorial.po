@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -236,9 +236,6 @@ msgid ""
 msgstr ""
 "| வெளியீடு | ஒரு திட்டத்திற்கான பாதை (`` <ightory> `` ஒரு 'திட்டத்தை' கோடோட் "
 "'கோப்பைக் கொண்டிருக்க வேண்டும்)."
-
-msgid "``scene <path>``"
-msgstr "`` காட்சி <பாதை> ``"
 
 msgid "|release| Path or UID of a scene in the project that should be started."
 msgstr "| வெளியீடு | தொடங்க வேண்டிய திட்டத்தின் ஒரு காட்சியின் பாதை அல்லது யுஐடி."

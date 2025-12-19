@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -98,13 +98,6 @@ msgstr "针对大小而不是速度优化"
 
 msgid "**Performed in official builds:** Yes, but only for web builds"
 msgstr "**在官方构建中执行：**\\ 是，但仅限于 Web 构建"
-
-msgid ""
-"Godot 3.1 onwards allows compiling using size optimizations (instead of "
-"speed). To enable this, set the ``optimize`` flag to ``size``:"
-msgstr ""
-"Godot 3.1以上版本允许使用尺寸优化(而不是速度优化)进行编译. 要启用这个功能, 请"
-"将 ``optimize`` 标志设置为 ``size`` :"
 
 msgid "Some platforms such as WebAssembly already use this mode by default."
 msgstr "某些平台如WebAssembly默认情况下已使用此模式."

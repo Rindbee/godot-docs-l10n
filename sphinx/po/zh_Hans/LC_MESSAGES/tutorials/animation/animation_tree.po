@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -96,19 +96,6 @@ msgstr ""
 
 msgid "For better blending"
 msgstr "为了更好的混合"
-
-msgid ""
-"In Godot 4.0+, in order for the blending results to be deterministic "
-"(reproducible and always consistent), the blended property values must have "
-"a specific initial value. For example, in the case of two animations to be "
-"blended, if one animation has a property track and the other does not, the "
-"blended animation is calculated as if the latter animation had a property "
-"track with the initial value."
-msgstr ""
-"在 Godot 4.0+ 中，为了使混合结果具有确定性（结果可复现且始终一致），混合属性"
-"值必须具有特定的初始值。例如，在要混合两个动画的情况下，如果一个动画具有属性"
-"轨道而另一个动画没有，则计算混合动画时，要好像后一个动画（即本来没有属性轨道"
-"的那个）具有初始值的属性轨道一样去处理。"
 
 msgid ""
 "When using Position/Rotation/Scale 3D tracks for Skeleton3D bones, the "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1498,20 +1498,6 @@ msgstr ""
 
 msgid "Typed arrays"
 msgstr "Array tipizzati"
-
-msgid ""
-"Godot 4.0 added support for typed arrays. On write operations, Godot checks "
-"that element values match the specified type, so the array cannot contain "
-"invalid values. The GDScript static analyzer takes typed arrays into "
-"account, however array methods like ``front()`` and ``back()`` still have "
-"the ``Variant`` return type."
-msgstr ""
-"Godot 4.0 ha aggiunto il supporto per gli array tipizzati. Durante le "
-"operazioni di scrittura, Godot verifica che i valori degli elementi "
-"corrispondano al tipo specificato, in modo che l'array non contenga valori "
-"non validi. L'analizzatore statico di GDScript tiene conto degli array "
-"tipizzati, tuttavia metodi di array come ``front()`` e ``back()`` "
-"restituiranno comunque il tipo ``Variant``."
 
 msgid ""
 "Typed arrays have the syntax ``Array[Type]``, where ``Type`` can be any "
@@ -3152,12 +3138,6 @@ msgstr ""
 "comunque passare un valore alla classe base ``state.gd``, anche se non fa "
 "nulla. Questo porta al fatto che è possibile passare anche espressioni al "
 "costruttore base, non solo variabili, ad esempio:"
-
-msgid "func _init():"
-msgstr "func _init():"
-
-msgid "super(5)"
-msgstr "super(5)"
 
 msgid "Static constructor"
 msgstr "Costruttore statico"

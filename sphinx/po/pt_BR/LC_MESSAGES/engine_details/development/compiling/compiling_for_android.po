@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -19,20 +19,6 @@ msgstr "Observação"
 
 msgid "Requirements"
 msgstr "Requisitos"
-
-msgid ""
-"`Android SDK <https://developer.android.com/studio/#command-tools>`_ "
-"(command-line tools are sufficient)."
-msgstr ""
-"`Android SDK <https://developer.android.com/studio/#command-tools>`_ "
-"(ferramentas de linha de comando são suficientes)."
-
-msgid ""
-"Complete setup by running the following command where ``android_sdk_path`` "
-"is the path to the Android SDK."
-msgstr ""
-"Conclua a configuração executando o seguinte comando onde "
-"``android_sdk_path`` é o caminho para o Android SDK."
 
 msgid "Cleaning the generated export templates"
 msgstr "Limpando os modelos de exportação gerados"

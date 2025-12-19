@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -76,21 +76,6 @@ msgstr "Рисовать пользовательский интерфейс 3D-
 
 msgid "And more."
 msgstr "И многому другому."
-
-msgid ""
-"This tutorial is for beginners who followed the complete getting started "
-"series. We'll start slow with detailed instructions and shorten them as we "
-"do similar steps. If you're an experienced programmer, you can browse the "
-"complete demo's source code here: `Squash the Creep source code <https://"
-"github.com/godotengine/godot-demo-projects/tree/master/3d/"
-"squash_the_creeps>`__."
-msgstr ""
-"Это руководство предназначено для новичков, прошедших всю серию вводных "
-"уроков. Мы начнём с подробных инструкций и будем сокращать их по мере "
-"выполнения аналогичных шагов. Если вы опытный программист, вы можете "
-"ознакомиться с полным исходным кодом демо-версии здесь: `Squash the Creep "
-"source code <https://github.com/godotengine/godot-demo-projects/tree/master/"
-"3d/squash_the_creeps>`__."
 
 msgid ""
 "You can follow this series without having done the 2D one. However, if "

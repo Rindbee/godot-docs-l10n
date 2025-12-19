@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,14 +27,6 @@ msgstr ""
 "нижняя панель **Debugger > Monitors**, которая позволяет отслеживать "
 "различные значения с помощью графиков, отображающих их динамику. Данные для "
 "этих графиков берутся из синглтона движка :ref:`class_Performance`."
-
-msgid ""
-"Since Godot 4.0, you can declare custom values to be displayed in the "
-"Monitors tab. Example use cases for custom performance monitors include:"
-msgstr ""
-"Начиная с Godot 4.0, вы можете задавать пользовательские значения для "
-"отображения на вкладке «Monitors». Примеры использования пользовательских "
-"мониторов производительности:"
 
 msgid ""
 "Displaying performance metrics that are specific to your project. For "

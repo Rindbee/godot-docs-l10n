@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -115,9 +115,6 @@ msgstr "Opentype எழுத்துரு அல்லது சேகரி�
 
 msgid "Web Open Font Format 1 (``.woff``)"
 msgstr "வலை திறந்த எழுத்துரு வடிவமைப்பு 1 (`` .வோஃப்``)"
-
-msgid "Web Open Font Format 2 (``.woff2``, since Godot 3.5)"
-msgstr "வலை திறந்த எழுத்துரு வடிவம் 2 (`` .வோஃப் 2``, கோடோட் 3.5 முதல்)"
 
 msgid ""
 "While ``.woff`` and especially ``.woff2`` tend to result in smaller file "

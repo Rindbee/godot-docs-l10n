@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -170,12 +170,6 @@ msgstr "** வெளியீட்டு தேதி **"
 msgid "**Support level**"
 msgstr "** உதவி நிலை **"
 
-msgid "Godot 4.5 (`master`)"
-msgstr "கோடோட் 4.5 (`மாச்டர்`)"
-
-msgid "Q3 2025 (estimate)"
-msgstr "அணை 2025 (மதிப்பீடு)"
-
 msgid ""
 "|unstable| *Development.* Receives new features, usability and performance "
 "improvements, as well as bug fixes, while under development."
@@ -185,12 +179,6 @@ msgstr ""
 
 msgid "unstable"
 msgstr "நிலையற்றது"
-
-msgid "Godot 4.4"
-msgstr "கோடோட் 4.4"
-
-msgid "March 2025"
-msgstr "மார்ச் 2025"
 
 msgid ""
 "|supported| Receives fixes for bugs and security issues, as well as patches "
@@ -202,17 +190,11 @@ msgstr ""
 msgid "supported"
 msgstr "ஆதரிக்கப்பட்டது"
 
-msgid "Godot 4.3"
-msgstr "கோடோட் 4.3"
+msgid "Godot 4.4"
+msgstr "கோடோட் 4.4"
 
-msgid "August 2024"
-msgstr "ஆகச்ட் 2024"
-
-msgid "Godot 4.2"
-msgstr "கோடோட் 4.2"
-
-msgid "November 2023"
-msgstr "நவம்பர் 2023"
+msgid "March 2025"
+msgstr "மார்ச் 2025"
 
 msgid "|partial| Receives fixes for security and platform support issues only."
 msgstr ""
@@ -222,6 +204,21 @@ msgstr ""
 msgid "partial"
 msgstr "பகுதி"
 
+msgid "Godot 4.3"
+msgstr "கோடோட் 4.3"
+
+msgid "August 2024"
+msgstr "ஆகச்ட் 2024"
+
+msgid "eol"
+msgstr "EOL"
+
+msgid "Godot 4.2"
+msgstr "கோடோட் 4.2"
+
+msgid "November 2023"
+msgstr "நவம்பர் 2023"
+
 msgid "Godot 4.1"
 msgstr "கோடோட் 4.1"
 
@@ -230,9 +227,6 @@ msgstr "சூலை 2023"
 
 msgid "|eol| No longer supported (last update: 4.1.4)."
 msgstr "| EOL | இனி ஆதரிக்கப்படாது (கடைசி புதுப்பிப்பு: 4.1.4)."
-
-msgid "eol"
-msgstr "EOL"
 
 msgid "Godot 4.0"
 msgstr "கோடோட் 4.0"

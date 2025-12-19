@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,14 +27,6 @@ msgstr ""
 "** Dífhabhtóir > Monatóirí** ag Godot a ligeann do luachanna éagsúla a rianú "
 "le graif a thaispeánann a n-éabhlóid le himeacht ama. Faightear na sonraí do "
 "na graif sin ó shingilton :ref:`class_Performance` an innill."
-
-msgid ""
-"Since Godot 4.0, you can declare custom values to be displayed in the "
-"Monitors tab. Example use cases for custom performance monitors include:"
-msgstr ""
-"Ós rud é Godot 4.0, is féidir leat a dhearbhú luachanna saincheaptha a "
-"bheith ar taispeáint sa chluaisín Monitors. I measc na gcásanna úsáide "
-"samplacha le haghaidh monatóirí feidhmíochta saincheaptha tá:"
 
 msgid ""
 "Displaying performance metrics that are specific to your project. For "

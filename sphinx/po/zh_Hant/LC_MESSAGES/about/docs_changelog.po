@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -23,12 +23,17 @@ msgstr ""
 "文件持續改進中。每次新版本除了新增頁面，還會修正與更新現有內容，以及大"
 "量 :ref:`類別參考 <doc_class_reference>`。以下是 3.0 版以來新增的頁面。"
 
-msgid ""
-"This document only contains new pages so not all changes are reflected, many "
-"pages have been substantially updated but are not reflected in this document."
-msgstr ""
-"這份文件只包含了新的教學，所以並能反映出所有改動。許多教學都已經被大幅更新"
-"了，但並未反映在這份文件中。"
+msgid "Editor"
+msgstr "編輯器"
+
+msgid "GDExtension"
+msgstr "GDExtension"
+
+msgid "Migrating"
+msgstr "Light Baking - 光照烘焙"
+
+msgid "Scripting"
+msgstr "撰寫腳本"
 
 msgid "New pages since version 4.3"
 msgstr "自 4.3 版本以來的新增頁面"
@@ -50,9 +55,6 @@ msgstr "除錯"
 
 msgid ":ref:`doc_output_panel`"
 msgstr ":ref:`doc_output_panel`"
-
-msgid "Editor"
-msgstr "編輯器"
 
 msgid ":ref:`doc_using_the_xr_editor`"
 msgstr ":ref:`doc_using_the_xr_editor`"
@@ -114,17 +116,11 @@ msgstr "參與貢獻"
 msgid ":ref:`doc_handling_compatibility_breakages`"
 msgstr ":ref:`doc_handling_compatibility_breakages`"
 
-msgid "GDExtension"
-msgstr "GDExtension"
-
 msgid ":ref:`doc_gdextension_file`"
 msgstr ":ref:`doc_gdextension_file`"
 
 msgid ":ref:`doc_godot_cpp_docs_system`"
 msgstr ":ref:`doc_godot_cpp_docs_system`"
-
-msgid "Migrating"
-msgstr "Light Baking - 光照烘焙"
 
 msgid ":ref:`doc_upgrading_to_godot_4.3`"
 msgstr ":ref:`doc_upgrading_to_godot_4.3`"
@@ -257,9 +253,6 @@ msgstr ":ref:`doc_upgrading_to_godot_4`"
 
 msgid ":ref:`doc_large_world_coordinates`"
 msgstr ":ref:`doc_large_world_coordinates`"
-
-msgid "Scripting"
-msgstr "撰寫腳本"
 
 msgid ":ref:`doc_custom_performance_monitors`"
 msgstr ":ref:`doc_custom_performance_monitors`"

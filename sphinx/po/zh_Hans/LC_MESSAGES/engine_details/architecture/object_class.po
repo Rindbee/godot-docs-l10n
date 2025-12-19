@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,19 +24,6 @@ msgstr ""
 msgid "General definition"
 msgstr "一般定义"
 
-msgid ""
-":ref:`Object <class_object>` is the base class for almost everything. Most "
-"classes in Godot inherit directly or indirectly from it. Objects provide "
-"reflection and editable properties, and declaring them is a matter of using "
-"a single macro like this:"
-msgstr ""
-":ref:`Object <class_object>` 几乎是一切的基类。Godot 中的大多数类都直接或间接"
-"继承自它。Object 提供了反射和可编辑的属性，只需要一个宏就可以声明属性，就像这"
-"样："
-
-msgid "This adds a lot of functionality to Objects. For example:"
-msgstr "这就为 Object 添加了许多功能。例如："
-
 msgid "References:"
 msgstr "参考："
 
@@ -46,39 +33,6 @@ msgid ""
 msgstr ""
 "`core/object/object.h <https://github.com/godotengine/godot/blob/master/core/"
 "object/object.h>`__"
-
-msgid "Registering an Object"
-msgstr "注册对象"
-
-msgid ""
-"ClassDB is a static class that holds the entire list of registered classes "
-"that inherit from Object, as well as dynamic bindings to all their methods "
-"properties and integer constants."
-msgstr ""
-"ClassDB 是一个静态类，其中包含从 Object 继承的所有已注册类的完整列表，以及对"
-"其所有方法属性和整数常量的动态绑定。"
-
-msgid "Classes are registered by calling:"
-msgstr "通过以下调用来注册类："
-
-msgid ""
-"Registering it will allow the class to be instanced by scripts, code, or "
-"creating them again when deserializing."
-msgstr "注册它将允许通过脚本、代码实例化类，或在反序列化时再次创建它们。"
-
-msgid "Registering as virtual is the same but it can't be instanced."
-msgstr "注册为虚是相同的，但它不能实例化。"
-
-msgid ""
-"Object-derived classes can override the static function ``static void "
-"_bind_methods()``. When one class is registered, this static function is "
-"called to register all the object methods, properties, constants, etc. It's "
-"only called once. If an Object derived class is instanced but has not been "
-"registered, it will be registered as virtual automatically."
-msgstr ""
-"Object 派生类可以重写静态函数 ``static void _bind_methods()``\\ 。当类被注册"
-"时，将调用此静态函数来注册所有对象方法、属性、常量等。它只被调用一次。如果 "
-"Object 派生类已实例化但尚未注册，则它将自动注册为虚。"
 
 msgid ""
 "Inside ``_bind_methods``, there are a couple of things that can be done. "
@@ -196,6 +150,14 @@ msgid ""
 "against the desired names in serial order."
 msgstr "由于 ``p_property`` 必须按顺序与所需的名称进行比较, 因此效率也较低."
 
+msgid "Signals"
+msgstr "信号"
+
+msgid ""
+"Adding signals to a class is done in ``_bind_methods``, using the "
+"``ADD_SIGNAL`` macro, for example:"
+msgstr "使用 ``ADD_SIGNAL`` 宏在 ``_bind_methods`` 中添加信号到类中, 例如:"
+
 msgid "Dynamic casting"
 msgstr "动态转型"
 
@@ -203,48 +165,8 @@ msgid ""
 "Godot provides dynamic casting between Object-derived classes, for example:"
 msgstr "Godot在Object派生类之间提供动态转换, 例如:"
 
-msgid ""
-"If cast fails, NULL is returned. This system uses RTTI, but it also works "
-"fine (although a bit slower) when RTTI is disabled. This is useful on "
-"platforms where a small binary size is ideal, such as HTML5 or consoles "
-"(with low memory footprint)."
-msgstr ""
-"如果强制转换失败, 则返回NULL. 这个系统使用RTTI, 但是当RTTI被禁用时它也可以正"
-"常工作(虽然有点慢). 这在二进制大小较小的平台上非常有用, 例如HTML5或游戏主机"
-"(具有较小的内存占用)."
-
-msgid "Signals"
-msgstr "信号"
-
-msgid ""
-"The method ``_node_entered_tree`` must be registered to the class using "
-"``ClassDB::bind_method`` (explained before)."
-msgstr ""
-"``_node_entered_tree`` 方法必须使用 ``ClassDB::bind_method`` (前面解释过)注册"
-"到类."
-
-msgid ""
-"Adding signals to a class is done in ``_bind_methods``, using the "
-"``ADD_SIGNAL`` macro, for example:"
-msgstr "使用 ``ADD_SIGNAL`` 宏在 ``_bind_methods`` 中添加信号到类中, 例如:"
-
 msgid "Notifications"
 msgstr "通知"
-
-msgid "References"
-msgstr "参考"
-
-msgid ""
-"``myref`` is reference counted. It will be freed when no more Ref<> "
-"templates point to it."
-msgstr "``myref`` 进行了引用计数。当没有其他 Ref<> 模板指向它时，它将被释放。"
-
-msgid ""
-"`core/object/reference.h <https://github.com/godotengine/godot/blob/master/"
-"core/object/ref_counted.h>`__"
-msgstr ""
-"`core/object/reference.h <https://github.com/godotengine/godot/blob/master/"
-"core/object/ref_counted.h>`__"
 
 msgid "Resources"
 msgstr "资源"

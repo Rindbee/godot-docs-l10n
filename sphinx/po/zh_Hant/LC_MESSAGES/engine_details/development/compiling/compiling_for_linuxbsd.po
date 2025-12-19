@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -188,6 +188,14 @@ msgstr ""
 "若希望自編譯 Godot 和官方版本使用不同編輯器設定，可在 ``bin/`` 資料夾內建立 "
 "``._sc_`` 或 ``_sc_`` 檔案，以啟"
 "用 :ref:`doc_data_paths_self_contained_mode`。"
+
+msgid ""
+"You can optionally build the godot-angle-static libraries yourself with the "
+"following steps:"
+msgstr "你也可以依下列步驟自行編譯 godot-angle-static 靜態函式庫："
+
+msgid "Run the following command:"
+msgstr "執行下列指令："
 
 msgid "Running a headless/server build"
 msgstr "執行無介面／伺服器版本"

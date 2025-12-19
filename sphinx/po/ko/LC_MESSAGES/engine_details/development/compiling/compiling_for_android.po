@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -33,16 +33,6 @@ msgid "For compiling under Windows, Linux or macOS, the following is required:"
 msgstr "Windows, Linux 또는 macOS에서 컴파일하려면 다음이 필요합니다:"
 
 msgid ""
-"`Android SDK <https://developer.android.com/studio/#command-tools>`_ "
-"(command-line tools are sufficient)."
-msgstr ""
-"`Android SDK <https://developer.android.com/studio/#command-tools>`_ (명령줄 "
-"툴로 충분합니다)."
-
-msgid "Required SDK components will be automatically installed."
-msgstr "필요한 SDK 컴포넌트는 자동으로 설치됩니다."
-
-msgid ""
 "On Linux, **do not use an Android SDK provided by your distribution's "
 "repositories** as it will often be outdated."
 msgstr ""
@@ -62,24 +52,8 @@ msgstr "Gradle (누락된 경우 자동으로 다운로드 및 설치됩니다).
 msgid "JDK 17 (either OpenJDK or Oracle JDK)."
 msgstr "JDK 17 (OpenJDK 또는 Oracle JDK 중 하나)."
 
-msgid ""
-"You can download a build from `Adoptium <https://adoptium.net/temurin/"
-"releases/?variant=openjdk17>`_."
-msgstr ""
-"`Adoptium <https://adoptium.net/temurin/releases/?variant=openjdk17>`_\\ 에"
-"서 빌드를 다운로드할 수 있습니다."
-
 msgid "Setting up the buildsystem"
 msgstr "빌드시스템 설정하기"
-
-msgid ""
-"Accept the SDK component licenses by running the following command where "
-"``android_sdk_path`` is the path to the Android SDK, then answering all the "
-"prompts with ``y``:"
-msgstr ""
-"다음 명령을 실행하여 SDK 컴포넌트 라이선스에 동의합니다. 여기서 "
-"``android_sdk_path``\\ 는 Android SDK의 경로이고, 모든 프롬프트에 ``y``\\ 로 "
-"답합니다:"
 
 msgid "Adding support for x86 devices"
 msgstr "x86 기기에 대한 지원 추가하기"

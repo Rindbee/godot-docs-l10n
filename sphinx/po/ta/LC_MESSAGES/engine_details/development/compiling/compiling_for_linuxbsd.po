@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -200,6 +200,14 @@ msgstr ""
 "உங்கள் சொந்த கோடோட் கட்டமைப்புகள் மற்றும் உத்தியோகபூர்வ வெளியீடுகளுக்கு நீங்கள் தனித்தனி "
 "எடிட்டர் அமைப்புகளைப் பயன்படுத்த விரும்பினால், நீங்கள் இயக்கலாம்: ref: "
 "`Doc_data_paths_eff_antained_mode`.` `. `கோப்புறை."
+
+msgid ""
+"You can optionally build the godot-angle-static libraries yourself with the "
+"following steps:"
+msgstr "பின்வரும் படிகளுடன் கோடோட்-கோண-நிலையான நூலகங்களை நீங்கள் விருப்பமாக உருவாக்கலாம்:"
+
+msgid "Run the following command:"
+msgstr "பின்வரும் கட்டளையை இயக்கவும்:"
 
 msgid "Running a headless/server build"
 msgstr "எட்லெச்/சர்வர் உருவாக்கத்தை இயக்குகிறது"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1478,19 +1478,6 @@ msgstr ""
 
 msgid "Typed arrays"
 msgstr "Типізовані масиви"
-
-msgid ""
-"Godot 4.0 added support for typed arrays. On write operations, Godot checks "
-"that element values match the specified type, so the array cannot contain "
-"invalid values. The GDScript static analyzer takes typed arrays into "
-"account, however array methods like ``front()`` and ``back()`` still have "
-"the ``Variant`` return type."
-msgstr ""
-"Godot 4.0 додав підтримку типізованих масивів. Під час запису Godot "
-"перевіряє, чи значення елементів відповідають указаному типу, тому масив не "
-"може містити недійсні значення. Статичний аналізатор GDScript враховує "
-"введені масиви, однак такі методи масиву, як ``front()`` і ``back()``, все "
-"ще мають тип повернення ``Variant``."
 
 msgid ""
 "Typed arrays have the syntax ``Array[Type]``, where ``Type`` can be any "
@@ -3085,12 +3072,6 @@ msgstr ""
 "``state.gd``, навіть якщо він нічого не робить. Це підводить нас до того "
 "факту, що базовому конструктору можна передавати не лише змінні, а й вирази, "
 "наприклад:"
-
-msgid "func _init():"
-msgstr "func _init():"
-
-msgid "super(5)"
-msgstr "super(5)"
 
 msgid "Static constructor"
 msgstr "Статичний конструктор"

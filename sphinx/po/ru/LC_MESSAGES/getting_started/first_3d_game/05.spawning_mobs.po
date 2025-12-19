@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -534,13 +534,6 @@ msgstr "выдаст ошибку, потому, что $Player не сущес�
 
 msgid "Here is the complete ``main.gd`` script so far, for reference."
 msgstr "Вот, для справки, полный скрипт ``main.gd``."
-
-msgid ""
-"You can test the scene by pressing :kbd:`F6`. You should see the monsters "
-"spawn and move in a straight line."
-msgstr ""
-"Вы можете протестировать сцену, нажав :kbd:`F6`. Вы должны увидеть, что "
-"монстры появляются и движутся по прямой линии."
 
 msgid "|image25|"
 msgstr "|image25|"

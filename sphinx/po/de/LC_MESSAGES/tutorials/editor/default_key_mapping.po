@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -54,17 +54,11 @@ msgstr "macOS"
 msgid "Editor setting"
 msgstr "Editoreinstellung"
 
-msgid "Open 2D Editor"
-msgstr "2D-Editor öffnen"
-
 msgid ":kbd:`Ctrl + F1`"
 msgstr ":kbd:`Strg + F1`"
 
 msgid "``editor/editor_2d``"
 msgstr "``editor/editor_2d``"
-
-msgid "Open 3D Editor"
-msgstr "3D-Editor öffnen"
 
 msgid ":kbd:`Ctrl + F2`"
 msgstr ":kbd:`Strg + F2`"
@@ -99,8 +93,8 @@ msgstr "Ablenkungsfreier Modus"
 msgid ":kbd:`Ctrl + Shift + F11`"
 msgstr ":kbd:`Strg + Umschalt + F11`"
 
-msgid ":kbd:`Cmd + Ctrl + D`"
-msgstr ":kbd:`Cmd + Ctrl + D`"
+msgid ":kbd:`Cmd + Shift + D`"
+msgstr ":kbd:`Cmd + Umschalt + D`"
 
 msgid "``editor/distraction_free_mode``"
 msgstr "``editor/distraction_free_mode``"
@@ -1673,9 +1667,6 @@ msgstr "``animation_editor/duplicate_selection``"
 
 msgid "Duplicate Transposed"
 msgstr "Transponiert duplizieren"
-
-msgid ":kbd:`Cmd + Shift + D`"
-msgstr ":kbd:`Cmd + Umschalt + D`"
 
 msgid "``animation_editor/duplicate_selection_transposed``"
 msgstr "``animation_editor/duplicate_selection_transposed``"

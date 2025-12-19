@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -185,13 +185,6 @@ msgid ""
 msgstr ""
 ":ref:`Show Image <class_ProjectSettings_property_application/boot_splash/"
 "show_image>`: ``show-image--true``, ``show-image--false``"
-
-msgid ""
-":ref:`Fullsize <class_ProjectSettings_property_application/boot_splash/"
-"fullsize>`: ``fullsize--true``, ``fullsize--false``"
-msgstr ""
-":ref:`Fullsize <class_ProjectSettings_property_application/boot_splash/"
-"fullsize>`: ``fullsize--true``, ``fullsize--false``"
 
 msgid ""
 ":ref:`Use Filter <class_ProjectSettings_property_application/boot_splash/"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,21 +13,6 @@ msgstr ""
 
 msgid "Spatial shaders"
 msgstr "Shaders spásúil"
-
-msgid ""
-"Spatial shaders are used for shading 3D objects. They are the most complex "
-"type of shader Godot offers. Spatial shaders are highly configurable with "
-"different render modes and different rendering options (e.g. Subsurface "
-"Scattering, Transmission, Ambient Occlusion, Rim lighting etc). Users can "
-"optionally write vertex, fragment, and light processor functions to affect "
-"how objects are drawn."
-msgstr ""
-"Úsáidtear shaders spásúla chun rudaí 3D a scáthú. Is iad an cineál is casta "
-"de shader Godot tairiscintí. Tá shaders spásúil an-configurable le modhanna "
-"rindreála éagsúla agus roghanna rindreáil éagsúla (m.sh. Scaipeadh "
-"Subsurface, Tarchur, Occlusion Comhthimpeallach, soilsiú imeall srl). Is "
-"féidir le húsáideoirí feidhmeanna stuaic, blúire agus próiseálaí éadroma a "
-"scríobh go roghnach chun tionchar a imirt ar an gcaoi a dtarraingítear rudaí."
 
 msgid "Render modes"
 msgstr "Modhanna rindreála"
@@ -193,10 +178,6 @@ msgstr "**soilsiú vertex**"
 msgid "**particle_trails**"
 msgstr "**trealaí_cáithníne**"
 
-msgid "Enables the trails when used on particles geometry."
-msgstr ""
-"Cumasaigh na cosáin nuair a úsáidtear iad ar gheoiméadracht na gcáithníní."
-
 msgid "**alpha_to_coverage**"
 msgstr "**alpha_to_clúdaithe**"
 
@@ -233,32 +214,11 @@ msgstr "i snámhphointe **AM**"
 msgid "in float **PI**"
 msgstr "i snámhphointe **PI**"
 
-msgid ""
-"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
-"diameter and amount of radians in half turn."
-msgstr ""
-"Tairiseach ''PI'' (''3.141592''). Cóimheas idir imlíne ciorcail agus a "
-"thrastomhas agus méid na radians ina leathsheal."
-
 msgid "in float **TAU**"
 msgstr "i snámhphointe **TAU**"
 
-msgid ""
-"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
-"radians in full turn."
-msgstr ""
-"Tairiseach ''TAU'' (''6.283185''). Comhionann le ''PI * 2'' agus méid na "
-"radians ina lánseal."
-
 msgid "in float **E**"
 msgstr "i snámhphointe **E**"
-
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr ""
-"Tairiseach ''E'' (''2.718281''). Uimhir Euler agus bonn den logartam "
-"nádúrtha."
 
 msgid "in bool **OUTPUT_IS_SRGB**"
 msgstr "i bool **OUTPUT_IS_SRGB**"
@@ -296,16 +256,6 @@ msgstr "** x **: Uillinn rothlaithe i radians."
 msgid "**z**: Animation frame."
 msgstr "**z **: Fráma beochana."
 
-msgid ""
-"This allows you to easily adjust the shader to a particle system using "
-"default particles material. When writing a custom particle shader, this "
-"value can be used as desired."
-msgstr ""
-"Ligeann sé seo duit an scáthóir a choigeartú go héasca ar chóras cáithníní "
-"ag baint úsáide as ábhar cáithníní réamhshocraithe. Nuair a bhíonn scáthóir "
-"cáithníní saincheaptha á scríobh, is féidir an luach seo a úsáid mar atá ag "
-"teastáil."
-
 msgid "in vec2 **VIEWPORT_SIZE**"
 msgstr "In Vec2 **VIEWPORT_SIZE**"
 
@@ -326,13 +276,6 @@ msgstr "Amharc ar spás chun spás domhanda a athrú."
 
 msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
 msgstr "I Mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
-
-msgid ""
-"View space to world space transform of camera used to draw the current "
-"viewport."
-msgstr ""
-"Amharc ar spás chun athrú spáis domhanda a dhéanamh ar cheamara a úsáidtear "
-"chun an t-amharc reatha a tharraingt."
 
 msgid "in mat4 **INV_PROJECTION_MATRIX**"
 msgstr "I Mat4 **INV_PROJECTION_MATRIX**"
@@ -439,9 +382,6 @@ msgstr "Cainéal tánaisteach UV."
 
 msgid "inout vec4 **COLOR**"
 msgstr "inout vec4 ** COLOR **"
-
-msgid "Color from vertices."
-msgstr "Dath ó vertices."
 
 msgid "out float **ROUGHNESS**"
 msgstr "snámhphointe amach **ROUGHNESS**"
@@ -578,9 +518,6 @@ msgstr ""
 
 msgid "in vec2 **SCREEN_UV**"
 msgstr "In Vec2 **SCREEN_UV**"
-
-msgid "Screen UV coordinate for current pixel."
-msgstr "Comhordanáid UV scáileáin le haghaidh picteilín reatha."
 
 msgid "sampler2D **DEPTH_TEXTURE**"
 msgstr "Sampler2D**DEIPTH_TEXTURE**"

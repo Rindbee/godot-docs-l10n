@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -89,9 +89,6 @@ msgstr ""
 msgid "**light_only**"
 msgstr "**lіght_only**"
 
-msgid "Only draw on light pass."
-msgstr "Отрисовывать только при проходе освещения."
-
 msgid "**skip_vertex_transform**"
 msgstr "**skіp_vertex_transform**"
 
@@ -146,55 +143,14 @@ msgstr "Встроенный"
 msgid "in float **TIME**"
 msgstr "в плавающем **TIME**"
 
-msgid ""
-"Global time since the engine has started, in seconds. It repeats after every "
-"``3,600`` seconds (which can  be changed with "
-"the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/"
-"time_rollover_secs>` setting). It's affected "
-"by :ref:`time_scale<class_Engine_property_time_scale>` but not by pausing. "
-"If you need a ``TIME`` variable that is not affected by time scale, add your "
-"own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and "
-"update it each frame."
-msgstr ""
-"Глобальное время с момента запуска движка, в секундах. Оно повторяется "
-"каждые ``3600`` секунд (это можно изменить с помощью "
-"параметра :ref:`rollover<class_ProjectSettings_property_rendering/limits/"
-"time/time_rollover_secs>`). На него влияет "
-"параметр :ref:`time_scale<class_Engine_property_time_scale>`, но не пауза. "
-"Если вам нужна переменная ``TIME``, не зависящая от масштаба времени, "
-"добавьте свою собственную переменную :ref:`global shader "
-"uniform<doc_shading_language_global_uniforms>` и обновляйте её в каждом "
-"кадре."
-
 msgid "in float **PI**"
 msgstr "в float **PI**"
-
-msgid ""
-"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
-"diameter and amount of radians in half turn."
-msgstr ""
-"Константа ``PI`` (``3.141592``). Отношение длины окружности к её диаметру и "
-"количеству радиан в полуобороте."
 
 msgid "in float **TAU**"
 msgstr "в float **TAU**"
 
-msgid ""
-"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
-"radians in full turn."
-msgstr ""
-"Константа ``TAU`` (``6.283185``). Эквивалент ``PI * 2`` и количество "
-"радианов в полном обороте."
-
 msgid "in float **E**"
 msgstr "В float **E**"
-
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr ""
-"Константа ``E`` (``2,718281``). Число Эйлера и основание натурального "
-"логарифма."
 
 msgid "Vertex built-ins"
 msgstr "Вершинные встроенные константы"
@@ -255,25 +211,8 @@ msgstr ""
 msgid "in mat4 **CANVAS_MATRIX**"
 msgstr "in mat4 **CANVAS_MATRIX**"
 
-msgid ""
-"World space to canvas space transform. In canvas space the origin is the "
-"upper-left corner of the screen and coordinates ranging from ``(0.0, 0.0)`` "
-"to viewport size."
-msgstr ""
-"Преобразование из мирового пространства в пространство холста. В "
-"пространстве холста началом координат является верхний левый угол экрана, а "
-"координаты находятся в диапазоне от ``(0.0, 0.0)`` до размера области "
-"просмотра."
-
 msgid "in mat4 **SCREEN_MATRIX**"
 msgstr "in mat4 **SCREEN_MATRIX**"
-
-msgid ""
-"Canvas space to clip space. In clip space coordinates ranging from ``(-1.0, "
-"-1.0)`` to ``(1.0, 1.0).``"
-msgstr ""
-"Пространство холста в пространство обрезки. В пространстве обрезки "
-"координаты находятся в диапазоне от ``(-1.0, -1.0)`` до ``(1.0, 1.0).``"
 
 msgid "in int  **INSTANCE_ID**"
 msgstr "in int  **INSTANCE_ID**"
@@ -296,13 +235,6 @@ msgstr "Всегда ``false``."
 msgid "in vec2 **TEXTURE_PIXEL_SIZE**"
 msgstr "in vec2 **TEXTURE_PIXEL_SIZE**"
 
-msgid ""
-"Normalized pixel size of default 2D texture. For a Sprite2D with a texture "
-"of size 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
-msgstr ""
-"Нормализованный размер пикселя 2D-текстуры по умолчанию. Для Sprite2D с "
-"текстурой размером 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
-
 msgid "inout vec2 **VERTEX**"
 msgstr "inout vec2 **VERTEX**"
 
@@ -323,17 +255,6 @@ msgstr "Нормализованные текстурные координаты
 
 msgid "inout vec4 **COLOR**"
 msgstr "inout vec4 **COLOR**"
-
-msgid ""
-"Color from vertex primitive multiplied by "
-"CanvasItem's :ref:`modulate<class_CanvasItem_property_modulate>` multiplied "
-"by "
-"CanvasItem's :ref:`self_modulate<class_CanvasItem_property_self_modulate>`."
-msgstr ""
-"Цвет из примитива вершины, умноженный "
-"на :ref:`modulate<class_CanvasItem_property_modulate>` CanvasItem, "
-"умноженный на :ref:`self_modulate<class_CanvasItem_property_self_modulate>` "
-"CanvasItem."
 
 msgid "inout float **POINT_SIZE**"
 msgstr "inout float **POINT_SIZE**"
@@ -449,9 +370,6 @@ msgstr ""
 msgid "in vec2 **SCREEN_PIXEL_SIZE**"
 msgstr "in vec2 **SCREEN_PIXEL_SIZE**"
 
-msgid "Size of individual pixels. Equal to inverse of resolution."
-msgstr "Размер отдельных пикселей. Равно обратному разрешению."
-
 msgid "in vec4 **REGION_RECT**"
 msgstr "in vec4 **REGION_RECT**"
 
@@ -474,14 +392,6 @@ msgstr "sampler2D **TEXTURE**"
 msgid "Default 2D texture."
 msgstr "2D текстура по умолчанию."
 
-msgid ""
-"Normalized pixel size of default 2D texture. For a Sprite2D with a texture "
-"of size 64x32px, ``TEXTURE_PIXEL_SIZE`` = ``vec2(1/64, 1/32)``"
-msgstr ""
-"Нормализованный размер пикселя стандартной 2D-текстуры. Для Sprite2D с "
-"текстурой размером 64x32 пикселя, ``TEXTURE_PIXEL_SIZE`` = ``vec2(1/64, "
-"1/32)``"
-
 msgid "sampler2D **SPECULAR_SHININESS_TEXTURE**"
 msgstr "sampler2D **SPECULAR_SHININESS_TEXTURE**"
 
@@ -497,20 +407,8 @@ msgstr "Цвет зеркального блеска, взятый из текс
 msgid "in vec2 **UV**"
 msgstr "vec2 **UV**"
 
-msgid ""
-"UV from the ``vertex()`` function. For Sprite2D with region enabled, this "
-"will sample the entire texture. Use ``REGION_RECT`` instead to sample only "
-"the region defined in the Sprite2D's properties."
-msgstr ""
-"UV-развёртка из функции ``vertex()``. Для Sprite2D с включённой областью это "
-"будет означать выборку всей текстуры. Используйте ``REGION_RECT``, чтобы "
-"выбрать только область, заданную в свойствах Sprite2D."
-
 msgid "in vec2 **SCREEN_UV**"
 msgstr "vec2 **SCREEN_UV**"
-
-msgid "Screen UV coordinate for current pixel."
-msgstr "Экранная UV-координата для текущего пикселя."
 
 msgid "sampler2D **SCREEN_TEXTURE**"
 msgstr "sampler2D **SCREEN_TEXTURE**"
@@ -630,9 +528,6 @@ msgid ""
 "``fragment()`` function."
 msgstr "UV из функции ``vertex()``, эквивалентно UV в функции ``fragment()``."
 
-msgid "Current texture in use for CanvasItem."
-msgstr "Текущая текстура, используемая для CanvasItem."
-
 msgid ""
 "Normalized pixel size of ``TEXTURE``. For a Sprite2D with a ``TEXTURE`` of "
 "size ``64x32`` pixels, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
@@ -713,18 +608,6 @@ msgstr "Умножение теней, отбрасываемые в этой т
 
 msgid "SDF functions"
 msgstr "SDF функции"
-
-msgid ""
-"There are a few additional functions implemented to sample an automatically "
-"generated Signed Distance Field texture. These functions available for the "
-"``fragment()`` and ``light()`` functions of CanvasItem shaders. Custom "
-"functions may also use them as long as they called from supported functions."
-msgstr ""
-"Реализовано несколько дополнительных функций для сэмплирования автоматически "
-"сгенерированной текстуры Signed Distance Field. Эти функции доступны для "
-"функций ``fragment()`` и ``light()`` шейдеров CanvasItem. Пользовательские "
-"функции также могут использовать их, если они вызываются из поддерживаемых "
-"функций."
 
 msgid ""
 "The signed distance field is generated from :ref:`class_LightOccluder2D` "

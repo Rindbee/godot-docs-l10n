@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -46,17 +46,6 @@ msgstr ""
 
 msgid "Enabling and configuring pseudolocalization"
 msgstr "啟用與設定偽在地化"
-
-msgid ""
-"Enabling pseudolocalization and the configurations related to it is as "
-"simple as toggling a checkbox in the project settings. These settings can be "
-"found in **Project → Project Settings → General → Internationalization → "
-"Pseudolocalization** after enabling the **Advanced** toggle in the project "
-"settings dialog:"
-msgstr ""
-"啟用偽本地化及相關設定非常簡單，只需在專案設定中勾選選項即可。在專案設定對話"
-"框開啟 **進階** 選項後，這些設定位於 **專案 → 專案設定 → 一般 → 國際化 → 偽本"
-"地化**："
 
 msgid ""
 "Pseudolocalization can also be :ref:`toggled at runtime from a script "

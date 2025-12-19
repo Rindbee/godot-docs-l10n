@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -235,25 +235,6 @@ msgstr "Вбудований"
 msgid "in float **TIME**"
 msgstr "In float **TIME**"
 
-msgid ""
-"Global time since the engine has started, in seconds. It repeats after every "
-"``3,600`` seconds (which can  be changed with "
-"the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/"
-"time_rollover_secs>` setting). It's affected "
-"by :ref:`time_scale<class_Engine_property_time_scale>` but not by pausing. "
-"If you need a ``TIME`` variable that is not affected by time scale, add your "
-"own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and "
-"update it each frame."
-msgstr ""
-"Глобальний час із моменту запуску двигуна, у секундах. Він повторюється "
-"кожні ``3600`` секунд (що можна змінити за допомогою "
-"параметра :ref:`rollover<class_ProjectSettings_property_rendering/limits/"
-"time/time_rollover_secs>`). На нього "
-"впливає :ref:`time_scale<class_Engine_property_time_scale>`, але не пауза. "
-"Якщо вам потрібна змінна ``TIME``, на яку не впливає шкала часу, додайте "
-"власний :ref:`global shader uniform<doc_shading_language_global_uniforms>` і "
-"оновлюйте його кожного кадру."
-
 msgid "in vec3 **POSITION**"
 msgstr "In vec3 **POSITION**"
 
@@ -263,31 +244,14 @@ msgstr "Розташування камери у світовому просто
 msgid "samplerCube **RADIANCE**"
 msgstr "samplerCube **RADIANCE**"
 
-msgid ""
-"Radiance cubemap. Can only be read from during background pass. Check ``!"
-"AT_CUBEMAP_PASS`` before using."
-msgstr ""
-"Кубічна карта Radiance. Можна прочитати лише під час фонового проходу. Перед "
-"використанням перевірте ``!AT_CUBEMAP_PASS``."
-
 msgid "in bool **AT_HALF_RES_PASS**"
 msgstr "In bool **AT_HALF_RES_PASS**"
-
-msgid "``true`` when rendering to half resolution pass."
-msgstr ""
-"``true`` під час візуалізації з пропуском половинної роздільної здатності."
 
 msgid "in bool **AT_QUARTER_RES_PASS**"
 msgstr "In bool **AT_QUARTER_RES_PASS**"
 
-msgid "``true`` when rendering to quarter resolution pass."
-msgstr "``true`` під час візуалізації з роздільною здатністю на чверть."
-
 msgid "in bool **AT_CUBEMAP_PASS**"
 msgstr "In bool **AT_CUBEMAP_PASS**"
-
-msgid "``true`` when rendering to radiance cubemap."
-msgstr "``true`` під час візуалізації в кубічну карту radiance."
 
 msgid "in bool **LIGHTX_ENABLED**"
 msgstr "In bool **LIGHTX_ENABLED**"
@@ -330,32 +294,11 @@ msgstr ""
 msgid "in float **PI**"
 msgstr "у float **PI**"
 
-msgid ""
-"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
-"diameter and amount of radians in half turn."
-msgstr ""
-"Константа ``PI`` (``3,141592``). Відношення довжини кола до його діаметра та "
-"кількості радіан на півоберта."
-
 msgid "in float **TAU**"
 msgstr "у float **TAU**"
 
-msgid ""
-"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
-"radians in full turn."
-msgstr ""
-"Константа ``TAU`` (``6,283185``). Еквівалент ``PI * 2`` і кількість радіан у "
-"повному оберті."
-
 msgid "in float **E**"
 msgstr "у float **E**"
-
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr ""
-"Константа ``E`` (``2,718281``). Число Ейлера та основа натурального "
-"логарифма."
 
 msgid "Sky built-ins"
 msgstr "Sky вбудовані"
@@ -363,22 +306,8 @@ msgstr "Sky вбудовані"
 msgid "in vec3 **EYEDIR**"
 msgstr "In vec3 **EYEDIR**"
 
-msgid ""
-"Normalized direction of current pixel. Use this as your basic direction for "
-"procedural effects."
-msgstr ""
-"Нормований напрямок поточного пікселя. Використовуйте це як основний "
-"напрямок для процедурних ефектів."
-
 msgid "in vec2 **SCREEN_UV**"
 msgstr "In vec2 **SCREEN_UV**"
-
-msgid ""
-"Screen UV coordinate for current pixel. Used to map a texture to the full "
-"screen."
-msgstr ""
-"УФ-координата екрана для поточного пікселя. Використовується для "
-"відображення текстури на весь екран."
 
 msgid "in vec2 **SKY_COORDS**"
 msgstr "In vec2 **SKY_COORDS**"
@@ -389,22 +318,8 @@ msgstr "Сфера УФ. Використовується для нанесен�
 msgid "in vec4 **HALF_RES_COLOR**"
 msgstr "In vec4 **HALF_RES_COLOR**"
 
-msgid ""
-"Color value of corresponding pixel from half resolution pass. Uses linear "
-"filter."
-msgstr ""
-"Значення кольору відповідного пікселя з половини роздільної здатності. "
-"Використовує лінійний фільтр."
-
 msgid "in vec4 **QUARTER_RES_COLOR**"
 msgstr "In vec4 **QUARTER_RES_COLOR**"
-
-msgid ""
-"Color value of corresponding pixel from quarter resolution pass. Uses linear "
-"filter."
-msgstr ""
-"Значення кольору відповідного пікселя з чверті роздільної здатності. "
-"Використовує лінійний фільтр."
 
 msgid "out vec3 **COLOR**"
 msgstr "Out vec3 **COLOR**"

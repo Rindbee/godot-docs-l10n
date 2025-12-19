@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -393,13 +393,6 @@ msgid ""
 msgstr ""
 "Ви можете подумати: **„Добре, а як мені отримати кути з матриці перетворення?"
 "**. Якщо стисло — то ніяк. Вам потрібно перестати думати про кути."
-
-msgid ""
-"Imagine you need to shoot a bullet in the direction your player is facing. "
-"Just use the forward axis (commonly ``Z`` or ``-Z``)."
-msgstr ""
-"Уявімо, вам потрібно вистрілити кулю в напрямку, куди дивиться ваш персонаж. "
-"Просто використайте його вісь уперед (зазвичай це ``Z`` або ``-Z``)."
 
 msgid ""
 "Is the enemy looking at the player? Use the dot product for this (see "

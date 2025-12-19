@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -295,13 +295,6 @@ msgstr ""
 
 msgid "Nodes"
 msgstr "Вузли"
-
-msgid ""
-"Since Godot 4.0, nodes can be directly exported without having to use "
-"NodePaths."
-msgstr ""
-"Починаючи з Godot 4.0, вузли можна експортувати безпосередньо без "
-"використання NodePaths."
 
 msgid ""
 "A specific type of node can also be directly exported. The list of nodes "

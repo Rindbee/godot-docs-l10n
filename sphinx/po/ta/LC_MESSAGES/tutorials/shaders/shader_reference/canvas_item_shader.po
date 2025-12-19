@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -85,9 +85,6 @@ msgstr "முடிவு வெறும் ஆல்பிடோ. பொர�
 msgid "**light_only**"
 msgstr "** லைட்_ஒன் **"
 
-msgid "Only draw on light pass."
-msgstr "ஒளி பாசில் மட்டுமே வரையவும்."
-
 msgid "**skip_vertex_transform**"
 msgstr "** skip_vertex_transform **"
 
@@ -139,53 +136,14 @@ msgstr "உள்ளமைக்கப்பட்ட"
 msgid "in float **TIME**"
 msgstr "மிதவையில் ** நேரம் **"
 
-msgid ""
-"Global time since the engine has started, in seconds. It repeats after every "
-"``3,600`` seconds (which can  be changed with "
-"the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/"
-"time_rollover_secs>` setting). It's affected "
-"by :ref:`time_scale<class_Engine_property_time_scale>` but not by pausing. "
-"If you need a ``TIME`` variable that is not affected by time scale, add your "
-"own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and "
-"update it each frame."
-msgstr ""
-"இயந்திரம் தொடங்கியதிலிருந்து உலகளாவிய நேரம், நொடிகளில். ஒவ்வொரு `` 3,600`` "
-"விநாடிகளுக்குப் பிறகு இது மீண்டும் நிகழ்கிறது (இதை மாற்றலாம்: rew: `ரோல்ஓவர் "
-"<class_projectsettings_property_rendering/limites/time_rollover_secs>` "
-"அமைப்பு). இது பாதிக்கப்படுகிறது: ref: `time_scale "
-"<class_engine_property_time_scale>` ஆனால் இடைநிறுத்துவதன் மூலம் அல்ல. நேர அளவால் "
-"பாதிக்கப்படாத `` நேரம்`` மாறுபாடு உங்களுக்குத் தேவைப்பட்டால், உங்கள் சொந்தத்தைச் சேர்க்கவும்: "
-"குறிப்பு: `உலகளாவிய சேடர் சீருடை <doc_shading_language_global_uniforms>` ஒவ்வொரு "
-"சட்டகத்தையும் புதுப்பிக்கவும்."
-
 msgid "in float **PI**"
 msgstr "மிதவை ** பை **"
-
-msgid ""
-"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
-"diameter and amount of radians in half turn."
-msgstr ""
-"A `` pi`` மாறிலி (`` 3.141592``). ஒரு வட்டத்தின் சுற்றளவு அதன் விட்டம் மற்றும் "
-"ரேடியன்களின் அளவு பாதி திரும்பும் விகிதம்."
 
 msgid "in float **TAU**"
 msgstr "மிதவையில் ** த அயு **"
 
-msgid ""
-"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
-"radians in full turn."
-msgstr ""
-"A `` tau`` மாறிலி (`` 6.283185``). `` பை * 2`` க்கு சமமான மற்றும் முழு "
-"திருப்பத்தில் ரேடியன்களின் அளவு."
-
 msgid "in float **E**"
 msgstr "மிதவையில் ** இ **"
-
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr ""
-"ஒரு `` E`` மாறிலி (`` 2.718281``). யூலரின் எண் மற்றும் இயற்கை மடக்கையின் அடிப்படை."
 
 msgid "Vertex built-ins"
 msgstr "வெர்டெக்ச் பில்ட்-இன்ச்"
@@ -244,23 +202,8 @@ msgstr ""
 msgid "in mat4 **CANVAS_MATRIX**"
 msgstr "MAT4 ** Canvas_matrix ** இல்"
 
-msgid ""
-"World space to canvas space transform. In canvas space the origin is the "
-"upper-left corner of the screen and coordinates ranging from ``(0.0, 0.0)`` "
-"to viewport size."
-msgstr ""
-"கேன்வாச் விண்வெளி உருமாற்றத்திற்கு உலக இடம். கேன்வாச் ச்பேசில் தோற்றம் திரையின் மேல்-இடது "
-"மூலையாகும், மேலும் `` (0.0, 0.0) `` `முதல் அளவிலான அளவு வரை ஒருங்கிணைக்கிறது."
-
 msgid "in mat4 **SCREEN_MATRIX**"
 msgstr "MAT4 ** Screen_Matrix ** இல்"
-
-msgid ""
-"Canvas space to clip space. In clip space coordinates ranging from ``(-1.0, "
-"-1.0)`` to ``(1.0, 1.0).``"
-msgstr ""
-"இடத்தை கிளிப் செய்ய கேன்வாச் இடம். கிளிப் விண்வெளி ஒருங்கிணைப்புகளில் `` (-1.0, -1.0) "
-"`` முதல் `` (1.0, 1.0) வரை .``"
 
 msgid "in int  **INSTANCE_ID**"
 msgstr "int ** instance_id **"
@@ -283,13 +226,6 @@ msgstr "எப்போதும் `` பொய்``."
 msgid "in vec2 **TEXTURE_PIXEL_SIZE**"
 msgstr "VEC2 ** stecture_pixel_size ** இல்"
 
-msgid ""
-"Normalized pixel size of default 2D texture. For a Sprite2D with a texture "
-"of size 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
-msgstr ""
-"இயல்புநிலை 2 டி அமைப்பின் இயல்பாக்கப்பட்ட படப்புள்ளி அளவு. 64x32px அளவின் அமைப்பைக் கொண்ட "
-"ஒரு ச்ப்ரைட் 2 டி க்கு, ** stecture_pixel_size ** = `` vec2 (1/64, 1/32) `` `"
-
 msgid "inout vec2 **VERTEX**"
 msgstr "vec2 ** vertex **"
 
@@ -310,16 +246,6 @@ msgstr "இயல்பாக்கப்பட்ட அமைப்பு ஆ�
 
 msgid "inout vec4 **COLOR**"
 msgstr "VEC4 ** வண்ணம் **"
-
-msgid ""
-"Color from vertex primitive multiplied by "
-"CanvasItem's :ref:`modulate<class_CanvasItem_property_modulate>` multiplied "
-"by "
-"CanvasItem's :ref:`self_modulate<class_CanvasItem_property_self_modulate>`."
-msgstr ""
-"கேன்வாசிட்டெமால் பெருக்கப்படும் வெர்டெக்சிலிருந்து வண்ணம்: ref: `மாடுலேட் "
-"<class_canvasitem_property_modulate>` கேன்வாசிடெமால் பெருக்கப்படுகிறது: ref: "
-"`சுய_மொடூட் <class_canvasitem_property_modulatul>`."
 
 msgid "inout float **POINT_SIZE**"
 msgstr "inout float ** point_size **"
@@ -427,9 +353,6 @@ msgstr ""
 msgid "in vec2 **SCREEN_PIXEL_SIZE**"
 msgstr "VEC2 ** Screen_Pixel_Size ** இல்"
 
-msgid "Size of individual pixels. Equal to inverse of resolution."
-msgstr "தனிப்பட்ட பிக்சல்களின் அளவு. தீர்மானத்தின் தலைகீழ் சமம்."
-
 msgid "in vec4 **REGION_RECT**"
 msgstr "VEC4 ** Rection_Rect ** இல்"
 
@@ -452,13 +375,6 @@ msgstr "sampler2d ** அமைப்பு **"
 msgid "Default 2D texture."
 msgstr "இயல்புநிலை 2 டி அமைப்பு."
 
-msgid ""
-"Normalized pixel size of default 2D texture. For a Sprite2D with a texture "
-"of size 64x32px, ``TEXTURE_PIXEL_SIZE`` = ``vec2(1/64, 1/32)``"
-msgstr ""
-"இயல்புநிலை 2 டி அமைப்பின் இயல்பாக்கப்பட்ட படப்புள்ளி அளவு. 64x32px அளவின் அமைப்பைக் கொண்ட "
-"ஒரு SPRITE2D க்கு, `` stecture_pixel_size`` = `` vec2 (1/64, 1/32) ``"
-
 msgid "sampler2D **SPECULAR_SHININESS_TEXTURE**"
 msgstr "sampler2d ** seploral_hininess_texture **"
 
@@ -474,21 +390,8 @@ msgstr "எக்சுலர் சினினச் நிறம், அம�
 msgid "in vec2 **UV**"
 msgstr "VEC2 ** UV ** இல்"
 
-msgid ""
-"UV from the ``vertex()`` function. For Sprite2D with region enabled, this "
-"will sample the entire texture. Use ``REGION_RECT`` instead to sample only "
-"the region defined in the Sprite2D's properties."
-msgstr ""
-"`` வெர்டெக்ச் () `` செயல்பாட்டிலிருந்து புற ஊதா. பிராந்தியத்தை இயக்கப்பட்ட SPRITE2D "
-"க்கு, இது முழு அமைப்பையும் மாதிரியாகக் கொண்டிருக்கும். ச்ப்ரைட் 2 டி பண்புகளில் "
-"வரையறுக்கப்பட்ட பகுதியை மட்டுமே மாதிரியாக மாற்றுவதற்கு பதிலாக `` பிராந்திய_ரெக்ட்` ஐப் "
-"பயன்படுத்தவும்."
-
 msgid "in vec2 **SCREEN_UV**"
 msgstr "VEC2 ** Screen_uv ** இல்"
-
-msgid "Screen UV coordinate for current pixel."
-msgstr "தற்போதைய பிக்சலுக்கான திரை யு.வி ஒருங்கிணைப்பு."
 
 msgid "sampler2D **SCREEN_TEXTURE**"
 msgstr "sampler2d ** screen_texture **"
@@ -607,9 +510,6 @@ msgstr ""
 "`` Vertex () `` செயல்பாட்டிலிருந்து புற ஊதா, `` துண்டு () `` செயல்பாட்டில் உள்ள UV "
 "க்கு சமம்."
 
-msgid "Current texture in use for CanvasItem."
-msgstr "கேன்வாசிட்டெமுக்கு பயன்பாட்டில் உள்ள தற்போதைய அமைப்பு."
-
 msgid ""
 "Normalized pixel size of ``TEXTURE``. For a Sprite2D with a ``TEXTURE`` of "
 "size ``64x32`` pixels, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
@@ -689,17 +589,6 @@ msgstr "இந்த வண்ணத்தில் இந்த கட்டத
 
 msgid "SDF functions"
 msgstr "SDF செயல்பாடுகள்"
-
-msgid ""
-"There are a few additional functions implemented to sample an automatically "
-"generated Signed Distance Field texture. These functions available for the "
-"``fragment()`` and ``light()`` functions of CanvasItem shaders. Custom "
-"functions may also use them as long as they called from supported functions."
-msgstr ""
-"தானாக உருவாக்கப்பட்ட கையொப்பமிடப்பட்ட தூர புல அமைப்பை மாதிரியாக மாற்ற சில கூடுதல் "
-"செயல்பாடுகள் செயல்படுத்தப்படுகின்றன. இந்த செயல்பாடுகள் `` துண்டு () `` மற்றும் `` ஒளி () "
-"`` கேன்வாசிடெம் சேடர்களின் செயல்பாடுகளுக்கு கிடைக்கின்றன. தனிப்பயன் செயல்பாடுகள் "
-"ஆதரிக்கப்பட்ட செயல்பாடுகளிலிருந்து அழைக்கும் வரை அவற்றைப் பயன்படுத்தலாம்."
 
 msgid ""
 "The signed distance field is generated from :ref:`class_LightOccluder2D` "

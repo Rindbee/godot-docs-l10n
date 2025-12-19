@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -375,13 +375,6 @@ msgstr ""
 "あなたはこの時点で考えているかもしれません: **「わかりました、しかし、どうす"
 "ればtransformから角度を取得できますか？」**\\ 。もう一度答えます: あなたはそ"
 "うしません。角度で考えるのをやめるために最善を尽くさなければなりません。"
-
-msgid ""
-"Imagine you need to shoot a bullet in the direction your player is facing. "
-"Just use the forward axis (commonly ``Z`` or ``-Z``)."
-msgstr ""
-"プレイヤーが向いている方向に弾丸を撃つ必要があると想像してください。前方軸(通"
-"常は ``Z`` または ``-Z``)を使用します。"
 
 msgid ""
 "Is the enemy looking at the player? Use the dot product for this (see "

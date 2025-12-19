@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,14 +28,6 @@ msgstr ""
 "பரிணாமத்தைக் காட்டும் வரைபடங்களுடன் பல்வேறு மதிப்புகளைக் கண்காணிக்க அனுமதிக்கிறது. அந்த "
 "வரைபடங்களுக்கான தரவு இயந்திரத்திலிருந்து பெறப்படுகிறது: குறிப்பு: "
 "`class_performance` சிங்கிள்டன்."
-
-msgid ""
-"Since Godot 4.0, you can declare custom values to be displayed in the "
-"Monitors tab. Example use cases for custom performance monitors include:"
-msgstr ""
-"கோடோட் 4.0 என்பதால், தனிப்பயன் மதிப்புகள் மானிட்டர்கள் தாவலில் காண்பிக்கப்படுவதை நீங்கள் "
-"அறிவிக்கலாம். எடுத்துக்காட்டு தனிப்பயன் செயல்திறன் கண்காணிப்பாளர்களுக்கான வழக்குகள் "
-"பின்வருமாறு:"
 
 msgid ""
 "Displaying performance metrics that are specific to your project. For "

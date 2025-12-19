@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -25,12 +25,17 @@ msgstr ""
 "ஆகியவை அடங்கும்: குறிப்பு: `வகுப்பு குறிப்பு <doc_class_reference>`. பதிப்பு 3.0 "
 "முதல் சேர்க்கப்பட்ட புதிய பக்கங்களின் பட்டியல் கீழே."
 
-msgid ""
-"This document only contains new pages so not all changes are reflected, many "
-"pages have been substantially updated but are not reflected in this document."
-msgstr ""
-"இந்த ஆவணத்தில் புதிய பக்கங்கள் மட்டுமே உள்ளன, எனவே எல்லா மாற்றங்களும் பிரதிபலிக்கவில்லை, "
-"பல பக்கங்கள் கணிசமாக புதுப்பிக்கப்பட்டுள்ளன, ஆனால் அவை இந்த ஆவணத்தில் பிரதிபலிக்கவில்லை."
+msgid "Editor"
+msgstr "திருத்தி"
+
+msgid "GDExtension"
+msgstr "Gdextension"
+
+msgid "Migrating"
+msgstr "இடம்பெயர்வு"
+
+msgid "Scripting"
+msgstr "ச்கிரிப்டிங்"
 
 msgid "New pages since version 4.3"
 msgstr "பதிப்பு 4.3 முதல் புதிய பக்கங்கள்"
@@ -52,9 +57,6 @@ msgstr "பிழைத்திருத்தம்"
 
 msgid ":ref:`doc_output_panel`"
 msgstr ": குறிப்பு: `doc_output_panel`"
-
-msgid "Editor"
-msgstr "திருத்தி"
 
 msgid ":ref:`doc_using_the_xr_editor`"
 msgstr ": ref: `doc_using_the_xr_editor`"
@@ -116,17 +118,11 @@ msgstr "பங்களிப்பு"
 msgid ":ref:`doc_handling_compatibility_breakages`"
 msgstr ": Ref: `doc_handling_compatibility_breakages`"
 
-msgid "GDExtension"
-msgstr "Gdextension"
-
 msgid ":ref:`doc_gdextension_file`"
 msgstr ": Ref: `doc_gdextension_file`"
 
 msgid ":ref:`doc_godot_cpp_docs_system`"
 msgstr ": Ref: `doc_godot_cpp_docs_system`"
-
-msgid "Migrating"
-msgstr "இடம்பெயர்வு"
 
 msgid ":ref:`doc_upgrading_to_godot_4.3`"
 msgstr ": ref: `doc_uprading_to_godot_4.3`"
@@ -259,9 +255,6 @@ msgstr ": ref: `doc_uprading_to_godot_4`"
 
 msgid ":ref:`doc_large_world_coordinates`"
 msgstr ": குறிப்பு: `doc_large_world_coordinates`"
-
-msgid "Scripting"
-msgstr "ச்கிரிப்டிங்"
 
 msgid ":ref:`doc_custom_performance_monitors`"
 msgstr ": குறிப்பு: `doc_custom_performance_monitors`"

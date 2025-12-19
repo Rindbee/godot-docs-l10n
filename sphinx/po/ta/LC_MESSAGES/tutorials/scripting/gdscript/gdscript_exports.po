@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -315,13 +315,6 @@ msgstr ""
 
 msgid "Nodes"
 msgstr "முனைகள்"
-
-msgid ""
-"Since Godot 4.0, nodes can be directly exported as properties in a script "
-"without having to use NodePaths:"
-msgstr ""
-"கோடோட் 4.0 என்பதால், முனைகளை நேரடியாக ஒரு ச்கிரிப்டில் பண்புகளாக ஏற்றுமதி செய்யலாம், "
-"இது நோட்பாதுகளைப் பயன்படுத்தாமல்:"
 
 msgid ""
 "Exporting NodePaths like in Godot 3.x is still possible, in case you need it:"

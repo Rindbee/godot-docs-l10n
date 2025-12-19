@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -69,9 +69,6 @@ msgstr "மேகோச்"
 msgid "Editor setting"
 msgstr "ஆசிரியர் அமைப்பு"
 
-msgid "Open 2D Editor"
-msgstr "திறந்த 2 டி எடிட்டர்"
-
 msgid ":kbd:`Ctrl + F1`"
 msgstr ": KBD: `Ctrl + F1`"
 
@@ -80,9 +77,6 @@ msgstr ": KBD: `CMD + கட்டுப்பாடு + 1`"
 
 msgid "``editor/editor_2d``"
 msgstr "`` எடிட்டர்/எடிட்டர்_2 டி``"
-
-msgid "Open 3D Editor"
-msgstr "திறந்த 3D எடிட்டர்"
 
 msgid ":kbd:`Ctrl + F2`"
 msgstr ": KBD: `Ctrl + F2`"
@@ -123,8 +117,8 @@ msgstr "கவனச்சிதறல் இல்லாத பயன்மு�
 msgid ":kbd:`Ctrl + Shift + F11`"
 msgstr ": KBD: `Ctrl + உயர்த்து + F11`"
 
-msgid ":kbd:`Cmd + Ctrl + D`"
-msgstr ": KBD: `CMD + கட்டுப்பாடு + D`"
+msgid ":kbd:`Cmd + Shift + D`"
+msgstr ": KBD: `CMD + உயர்த்து + D`"
 
 msgid "``editor/distraction_free_mode``"
 msgstr "`` எடிட்டர்/கவனச்சிதறல்_பிரீ_மோட்``"
@@ -1821,9 +1815,6 @@ msgstr "`` அனிமேசன்_டிட்டர்/டூம்லிக�
 
 msgid "Duplicate Transposed"
 msgstr "நகல் மாற்றப்பட்டது"
-
-msgid ":kbd:`Cmd + Shift + D`"
-msgstr ": KBD: `CMD + உயர்த்து + D`"
 
 msgid "``animation_editor/duplicate_selection_transposed``"
 msgstr "`` animation_editor/duciplical_selection_transopes``"

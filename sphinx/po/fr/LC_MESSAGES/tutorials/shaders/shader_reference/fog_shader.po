@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,19 +13,6 @@ msgstr ""
 
 msgid "Fog shaders"
 msgstr "Shaders de brouillard"
-
-msgid ""
-"Fog shaders are a special form of compute shader that is called once for "
-"every froxel that is touched by an axis aligned bounding box of the "
-"associated :ref:`FogVolume <class_FogVolume>`. This means that froxels that "
-"just barely touch a given :ref:`FogVolume <class_FogVolume>` will still be "
-"used."
-msgstr ""
-"Les shaders de brouillard sont une forme spéciale de shader de calcul qui "
-"est appelé une fois pour chaque froxel qui est touché par une boîte de "
-"délimitation alignée sur les axes (AABB) du :ref:`FogVolume "
-"<class_FogVolume>` associé. Cela signifie que les froxels qui touchent à "
-"peine un :ref:`FogVolume <class_FogVolume>` donné seront toujours utilisés."
 
 msgid "Built-ins"
 msgstr "Variables intégrées"

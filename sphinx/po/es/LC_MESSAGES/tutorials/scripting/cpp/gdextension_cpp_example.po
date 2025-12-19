@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -34,29 +34,6 @@ msgstr ""
 "Si clonaste el ejemplo del enlace especificado en la introducción, los "
 "submódulos no son inicializados automáticamente. Tendrás que ejecutar los "
 "siguientes comandos:"
-
-msgid "Building the C++ bindings"
-msgstr "Compilar las ligaduras de C++"
-
-msgid ""
-"Now that we've downloaded our prerequisites, it is time to build the C++ "
-"bindings."
-msgstr ""
-"Ya que descargamos los prerequisitos, es hora de compilar las ligaduras de C+"
-"+."
-
-msgid ""
-"This step will take a while. When it is completed, you should have static "
-"libraries that can be compiled into your project stored in ``godot-cpp/bin/"
-"``."
-msgstr ""
-"Este paso tomará tiempo en finalizar, una vez completo, deberías de tener "
-"unas bibliotecas estáticas que pueden ser compiladas dentro de tu proyecto "
-"guardado en ``godot-cpp/bin/``."
-
-msgid "You may need to add ``bits=64`` to the command on Windows or Linux."
-msgstr ""
-"Es posible que necesites agregar ``bits=64`` al comando en Windows o Linux."
 
 msgid "Creating a simple plugin"
 msgstr "Creación de un plugin simple"

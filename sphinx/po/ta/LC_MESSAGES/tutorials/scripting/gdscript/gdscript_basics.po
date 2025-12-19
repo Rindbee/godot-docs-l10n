@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1443,19 +1443,6 @@ msgstr ""
 
 msgid "Typed arrays"
 msgstr "தட்டச்சு செய்யப்பட்ட வரிசைகள்"
-
-msgid ""
-"Godot 4.0 added support for typed arrays. On write operations, Godot checks "
-"that element values match the specified type, so the array cannot contain "
-"invalid values. The GDScript static analyzer takes typed arrays into "
-"account, however array methods like ``front()`` and ``back()`` still have "
-"the ``Variant`` return type."
-msgstr ""
-"கோடோட் 4.0 தட்டச்சு செய்யப்பட்ட வரிசைகளுக்கு உதவி சேர்த்தது. எழுதும் செயல்பாடுகளில், "
-"உறுப்பு மதிப்புகள் குறிப்பிட்ட வகையுடன் பொருந்துகின்றன என்பதை கோடோட் சரிபார்க்கிறார், "
-"எனவே வரிசையில் தவறான மதிப்புகள் இருக்க முடியாது. GDSCRIPT நிலையான பகுப்பாய்வி "
-"தட்டச்சு செய்யப்பட்ட வரிசைகளை கணக்கில் எடுத்துக்கொள்கிறது, இருப்பினும் `` முன் () `` "
-"மற்றும் `` பின் () `` போன்ற வரிசை முறைகள் `` மாறுபாடு`` திரும்பும் வகையைக் கொண்டுள்ளன."
 
 msgid ""
 "Typed arrays have the syntax ``Array[Type]``, where ``Type`` can be any "
@@ -3023,12 +3010,6 @@ msgstr ""
 "state.gd`` அடிப்படை வகுப்பிற்கு சில மதிப்பை அனுப்ப வேண்டும், அது எதுவும் "
 "செய்யாவிட்டாலும் கூட. மாறிகள் மட்டுமல்லாமல், அடிப்படை கட்டமைப்பாளருக்கும் நீங்கள் "
 "வெளிப்பாடுகளை அனுப்ப முடியும் என்ற உண்மையை இது நம்மைக் கொண்டுவருகிறது, எ.கா.:"
-
-msgid "func _init():"
-msgstr "func _init ():"
-
-msgid "super(5)"
-msgstr "சூப்பர் (5)"
 
 msgid "Static constructor"
 msgstr "நிலையான கட்டமைப்பாளர்"

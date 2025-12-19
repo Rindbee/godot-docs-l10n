@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -235,13 +235,6 @@ msgstr "Не підтримується C#/Mono."
 
 msgid "No support for external script editors."
 msgstr "Немає підтримки зовнішніх редакторів скриптів."
-
-msgid ""
-"While available, the *Vulkan Forward+* renderer is not recommended due to "
-"severe performance issues."
-msgstr ""
-"Поки доступний, рендерер *Vulkan Forward+* не рекомендується через серйозні "
-"проблеми з продуктивністю."
 
 msgid "UX not optimized for Android phones form-factor."
 msgstr "UX не оптимізований для форм-фактора телефонів Android."

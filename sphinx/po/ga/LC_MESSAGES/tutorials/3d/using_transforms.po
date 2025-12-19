@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -402,13 +402,6 @@ msgstr ""
 "féidir liom uillinneacha a fháil ó athrú?\" **. Is é an freagra arís: ní gá "
 "duit. Ní mór duit do dhícheall a dhéanamh chun stop a chur ag smaoineamh in "
 "uillinneacha."
-
-msgid ""
-"Imagine you need to shoot a bullet in the direction your player is facing. "
-"Just use the forward axis (commonly ``Z`` or ``-Z``)."
-msgstr ""
-"Samhlaigh is gá duit a shoot piléar sa treo a bhfuil do imreoir os comhair. "
-"Ní gá ach an ais chun tosaigh a úsáid (''Z'' nó ''-Z'' go coitianta)."
 
 msgid ""
 "Is the enemy looking at the player? Use the dot product for this (see "

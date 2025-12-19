@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -244,16 +244,6 @@ msgstr ""
 
 msgid "Put together, the full code looks like:"
 msgstr "Mis ensemble, le code complet ressemble à ceci :"
-
-msgid ""
-"The code that goes in the middle can be whatever you want. Below we will "
-"present some example code for generating a sphere."
-msgstr ""
-"Le code qui va au milieu peut être ce que vous voulez. Ci-dessous, nous "
-"présenterons un exemple de code pour générer une sphère."
-
-msgid "Generating geometry"
-msgstr "Génération de la géométrie"
 
 msgid ""
 "Here is sample code for generating a sphere. Although the code is presented "

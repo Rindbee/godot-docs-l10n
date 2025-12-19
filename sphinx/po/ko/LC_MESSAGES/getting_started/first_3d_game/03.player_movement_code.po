@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -330,13 +330,6 @@ msgstr ""
 
 msgid "|image8|"
 msgstr "|image8|"
-
-msgid ""
-"You can run the scene by pressing :kbd:`F6` and press the arrow keys to move "
-"the character."
-msgstr ""
-"씬을 실행하려면 :kbd:`F6` 키를 누르고, 화살표 키를 눌러 캐릭터를 이동시킬 수 "
-"있습니다."
 
 msgid "|image9|"
 msgstr "|image9|"

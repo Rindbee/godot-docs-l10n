@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -223,13 +223,6 @@ msgstr "\\|eol\\| 已停止支援。"
 
 msgid "No support for external script editors."
 msgstr "尚未支援 MIDI 輸出。"
-
-msgid ""
-"While available, the *Vulkan Forward+* renderer is not recommended due to "
-"severe performance issues."
-msgstr ""
-"*Vulkan Forward+* 著色器雖然可用，但是由於存在嚴重的效能問題，所以不推薦使"
-"用。"
 
 msgid "UX not optimized for Android phones form-factor."
 msgstr "使用者介面未針對 Android 手機進行最佳化。"

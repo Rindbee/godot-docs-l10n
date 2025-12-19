@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -83,13 +83,6 @@ msgstr "C#/Mono 지원이 없습니다."
 
 msgid "No support for external script editors."
 msgstr "외부 스크립트 편집기를 위한 지원이 없습니다."
-
-msgid ""
-"While available, the *Vulkan Forward+* renderer is not recommended due to "
-"severe performance issues."
-msgstr ""
-"*Vulkan Forward+* 렌더러는 사용 가능하지만 심각한 성능 문제로 인해 권장되지 "
-"않습니다."
 
 msgid ""
 "See the `list of open issues on GitHub related to the Android editor "

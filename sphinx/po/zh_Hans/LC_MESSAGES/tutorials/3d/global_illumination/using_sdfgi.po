@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,14 +13,6 @@ msgstr ""
 
 msgid "Signed distance field global illumination (SDFGI)"
 msgstr "带符号距离场全局光照（SDFGI）"
-
-msgid ""
-"Signed distance field global illumination (SDFGI) is a novel technique "
-"available in Godot 4.0. It provides semi-real-time global illumination that "
-"scales to any world size and works with procedurally generated levels."
-msgstr ""
-"带符号距离场全局光照（SDFGI）是 Godot 4.0 中提供的一种新技术。它提供了半实时"
-"的全局光照，可以适用于任何世界大小，并且适用于程序化生成的关卡。"
 
 msgid ""
 "SDFGI supports dynamic lights, but *not* dynamic occluders or dynamic "

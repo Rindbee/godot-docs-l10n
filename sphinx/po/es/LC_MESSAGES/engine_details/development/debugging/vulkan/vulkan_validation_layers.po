@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -26,9 +26,6 @@ msgstr "**Arch Linux**"
 msgid "Debian/Ubuntu"
 msgstr "**Debian** / **Ubuntu**"
 
-msgid "Android"
-msgstr "Android"
-
 msgid "iOS"
 msgstr "iOS"
 
@@ -37,6 +34,9 @@ msgstr "La validación de capas **no** está soportada en iOS actualmente."
 
 msgid "Web"
 msgstr "Web"
+
+msgid "Android"
+msgstr "Android"
 
 msgid "Enabling validation layers"
 msgstr "Habilitando capas de validación"

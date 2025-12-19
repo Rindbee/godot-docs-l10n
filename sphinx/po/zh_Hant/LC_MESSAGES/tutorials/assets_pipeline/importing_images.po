@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -293,24 +293,6 @@ msgstr ""
 
 msgid "Import options"
 msgstr "匯入選項"
-
-msgid ""
-"In Godot 4.0, changing the texture filter and repeat mode is no longer done "
-"in the import options."
-msgstr "在 Godot 4.0 中，對紋理篩選模式以及重複模式的修改不再位於匯入選項中。"
-
-msgid ""
-"Instead, texture filter and repeat modes are changed in the CanvasItem "
-"properties in 2D (with a project setting acting as a default), and in "
-"a :ref:`per-material configuration in 3D "
-"<doc_standard_material_3d_sampling>`. In custom shaders, filter and repeat "
-"mode is changed on the ``sampler2D`` uniform using hints described in "
-"the :ref:`doc_shading_language` documentation."
-msgstr ""
-"現在，2D 中需要在 CanvasItem 的屬性中對紋理篩選模式和重複模式進行修改（專案設"
-"定中可以設定預設值），3D 中則是 :ref:`針對材質進行配置 "
-"<doc_standard_material_3d_sampling>`。在自訂著色器中， ``sampler2D`` uniform "
-"的篩選和重複模式使用提示修改，見 :ref:`doc_shading_language` 文件。"
 
 msgid "Compress > Mode"
 msgstr "壓縮模式"

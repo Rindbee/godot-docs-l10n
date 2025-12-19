@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1445,18 +1445,6 @@ msgstr "``i``、``I`` - 小寫或大寫羅馬數字。"
 
 msgid "Text effects"
 msgstr "文字特效"
-
-msgid ""
-"BBCode can also be used to create different text effects that can optionally "
-"be animated. Five customizable effects are provided out of the box, and you "
-"can easily create your own. By default, animated effects will "
-"pause :ref:`when the SceneTree is paused <doc_pausing_games>`. You can "
-"change this behavior by adjusting the RichTextLabel's **Process > Mode** "
-"property."
-msgstr ""
-"BBCode 也能產生可自訂的動態文字特效，內建五種可調整的效果，亦可自製。預設動畫"
-"特效會在 :ref:`SceneTree 暫停時 <doc_pausing_games>` 一起暫停。你可透過 "
-"RichTextLabel 的 **Process > Mode** 屬性調整此行為。"
 
 msgid ""
 "All examples below mention the default values for options in the listed tag "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -95,16 +95,6 @@ msgstr ""
 
 msgid "Handling resizing and different aspect ratios"
 msgstr "மறுஅளவிடுதல் மற்றும் வெவ்வேறு அம்ச விகிதங்களைக் கையாளுதல்"
-
-msgid ""
-"By default in Godot 4.0, the VideoStreamPlayer will automatically be resized "
-"to match the video's resolution. You can make it follow "
-"usual :ref:`class_Control` sizing by enabling **Expand** on the "
-"VideoStreamPlayer node."
-msgstr ""
-"கோடோட் 4.0 இல் இயல்பாக, வீடியோவின் தெளிவுத்திறனுடன் பொருந்துமாறு வீடியோச்ட்ரீஆம்ப்ளேயர் "
-"தானாகவே மறுஅளவிடப்படும். நீங்கள் அதை வழக்கமாக பின்பற்றலாம்: ref: `class_control` "
-"அளவிடுதல் ** VideoStreamPlayer முனையில் ** ஐ விரிவாக்குவதன் மூலம்."
 
 msgid ""
 "To adjust how the VideoStreamPlayer node resizes depending on window size, "

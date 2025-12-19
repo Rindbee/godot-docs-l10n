@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -207,6 +207,16 @@ msgstr ""
 "сборок Godot и официальных релизов, вы можете "
 "включить :ref:`doc_data_paths_self_contained_mode`, создав файл с именем "
 "``._sc_`` или ``_sc_`` в папке ``bin/``."
+
+msgid ""
+"You can optionally build the godot-angle-static libraries yourself with the "
+"following steps:"
+msgstr ""
+"При желании вы можете самостоятельно собрать библиотеки godot-angle-static, "
+"выполнив следующие шаги:"
+
+msgid "Run the following command:"
+msgstr "Выполните следующую команду:"
 
 msgid "Running a headless/server build"
 msgstr "Запуск headless/серверной сборки"

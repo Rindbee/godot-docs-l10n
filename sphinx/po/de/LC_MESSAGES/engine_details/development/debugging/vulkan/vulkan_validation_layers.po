@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -163,16 +163,6 @@ msgstr ""
 "Validierungsfehler auftritt. Dies kann verhindern, dass Ihr System "
 "einfriert, wenn ein Validierungsfehler auftritt."
 
-msgid "Android"
-msgstr "Android"
-
-msgid ""
-"After enabling validation layers on Android, a developer can see errors and "
-"warning messages in the ``adb logcat`` output."
-msgstr ""
-"Nach der Aktivierung von Validation Layers unter Android können Fehler und "
-"Warnmeldungen in der Entwickler-Ausgabe ``adb logcat`` auftauchen."
-
 msgid "iOS"
 msgstr "iOS"
 
@@ -188,6 +178,16 @@ msgid ""
 msgstr ""
 "Validation Layers werden auf der Webplattform **nicht** unterstützt, da es "
 "dort keine Unterstützung für Vulkan gibt."
+
+msgid "Android"
+msgstr "Android"
+
+msgid ""
+"After enabling validation layers on Android, a developer can see errors and "
+"warning messages in the ``adb logcat`` output."
+msgstr ""
+"Nach der Aktivierung von Validation Layers unter Android können Fehler und "
+"Warnmeldungen in der Entwickler-Ausgabe ``adb logcat`` auftauchen."
 
 msgid "Enabling validation layers"
 msgstr "Aktivieren von Validation Layers"

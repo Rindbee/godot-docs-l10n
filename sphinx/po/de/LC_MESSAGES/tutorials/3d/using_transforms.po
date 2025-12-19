@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -401,14 +401,6 @@ msgstr ""
 "Vielleicht denken Sie jetzt: **\"Ok, aber wie bekomme ich den Winkel aus "
 "einem Transform zurück?\"**. Die Antwort lautet auch hier: gar nicht. Sie "
 "müssen Ihr Bestes tun, um nicht mehr in Winkeln zu denken."
-
-msgid ""
-"Imagine you need to shoot a bullet in the direction your player is facing. "
-"Just use the forward axis (commonly ``Z`` or ``-Z``)."
-msgstr ""
-"Stellen Sie sich vor, Sie müssen ein Projektil in die Richtung schießen, in "
-"die Ihr Spieler blickt. Verwenden Sie einfach die Vorwärtsachse "
-"(üblicherweise ``Z`` oder ``-Z``)."
 
 msgid ""
 "Is the enemy looking at the player? Use the dot product for this (see "

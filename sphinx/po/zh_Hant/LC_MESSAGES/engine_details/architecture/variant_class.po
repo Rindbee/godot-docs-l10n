@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -251,14 +251,6 @@ msgstr ""
 ":ref:`class_array` 與 :ref:`class_dictionary` 都是透過 Variant 實作。"
 "Dictionary 可將任意型別作為鍵對應至其他任意型別。Array 則僅儲存 Variant 的陣"
 "列。當然，Variant 內也能再儲存 Dictionary 或 Array，讓其更加靈活。"
-
-msgid ""
-"Modifications to a container will modify all references to it. A Mutex "
-"should be created to lock it if :ref:`multi-threaded access "
-"<doc_using_multiple_threads>` is desired."
-msgstr ""
-"對容器的修改會影響所有指向該容器的參照。若需 :ref:`多執行緒存取 "
-"<doc_using_multiple_threads>`，應建立 Mutex 來鎖定。"
 
 msgid ""
 "`core/variant/dictionary.h <https://github.com/godotengine/godot/blob/master/"

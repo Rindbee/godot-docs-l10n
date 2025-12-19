@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1377,19 +1377,6 @@ msgstr ""
 
 msgid "Typed arrays"
 msgstr "型付き配列 (Typed arrays)"
-
-msgid ""
-"Godot 4.0 added support for typed arrays. On write operations, Godot checks "
-"that element values match the specified type, so the array cannot contain "
-"invalid values. The GDScript static analyzer takes typed arrays into "
-"account, however array methods like ``front()`` and ``back()`` still have "
-"the ``Variant`` return type."
-msgstr ""
-"Godot 4.0では型付き配列のサポートが追加されました。書き込み操作の際、Godotは"
-"要素の値が指定された型と一致するかどうかをチェックするため、配列に無効な値を"
-"含めることはできません。 GDScript 静的アナライザーは型付き配列を考慮します"
-"が、 ``front()`` や ``back()`` のような配列メソッドの戻り値は引き続き "
-"``Variant`` 型になります。"
 
 msgid ""
 "Typed arrays have the syntax ``Array[Type]``, where ``Type`` can be any "

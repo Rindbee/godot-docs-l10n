@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -96,12 +96,6 @@ msgstr "inout booleano **ACTIVE**"
 
 msgid "inout vec4 **COLOR**"
 msgstr "inout vec4 **COLOR**"
-
-msgid ""
-"Particle color, can be written to and accessed in mesh's vertex function."
-msgstr ""
-"El color de las partículas, se puede escribir y acceder a la función de "
-"vértice de la malla."
 
 msgid "inout vec3 **VELOCITY**"
 msgstr "inout vec3 **VELOCITY**"

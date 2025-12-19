@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -25,13 +25,17 @@ msgstr ""
 "обновлений в :ref:`справочнике классов <doc_class_reference>`. Ниже приведён "
 "список новых страниц, добавленных с версии 3.0."
 
-msgid ""
-"This document only contains new pages so not all changes are reflected, many "
-"pages have been substantially updated but are not reflected in this document."
-msgstr ""
-"Этот документ содержит только новые страницы, поэтому в нём отражены не все "
-"изменения. Многие страницы были существенно обновлены, но не отражены в этом "
-"документе."
+msgid "Editor"
+msgstr "Редактор"
+
+msgid "GDExtension"
+msgstr "GDExtension"
+
+msgid "Migrating"
+msgstr "Переход"
+
+msgid "Scripting"
+msgstr "Написание скриптов"
 
 msgid "New pages since version 4.3"
 msgstr "Новые страницы с версии 4.3"
@@ -53,9 +57,6 @@ msgstr "Отладка"
 
 msgid ":ref:`doc_output_panel`"
 msgstr ":ref:`doc_output_panel`"
-
-msgid "Editor"
-msgstr "Редактор"
 
 msgid ":ref:`doc_using_the_xr_editor`"
 msgstr ":ref:`doc_using_the_xr_editor`"
@@ -117,17 +118,11 @@ msgstr "Вклад в развитие"
 msgid ":ref:`doc_handling_compatibility_breakages`"
 msgstr ":ref:`doc_handling_compatibility_breakages`"
 
-msgid "GDExtension"
-msgstr "GDExtension"
-
 msgid ":ref:`doc_gdextension_file`"
 msgstr ":ref:`doc_gdextension_file`"
 
 msgid ":ref:`doc_godot_cpp_docs_system`"
 msgstr ":ref:`doc_godot_cpp_docs_system`"
-
-msgid "Migrating"
-msgstr "Переход"
 
 msgid ":ref:`doc_upgrading_to_godot_4.3`"
 msgstr ":ref:`doc_upgrading_to_godot_4.3`"
@@ -260,9 +255,6 @@ msgstr ":ref:`doc_upgrading_to_godot_4`"
 
 msgid ":ref:`doc_large_world_coordinates`"
 msgstr ":ref:`doc_large_world_coordinates`"
-
-msgid "Scripting"
-msgstr "Написание скриптов"
 
 msgid ":ref:`doc_custom_performance_monitors`"
 msgstr ":ref:`doc_custom_performance_monitors`"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -69,9 +69,6 @@ msgstr "macOS"
 msgid "Editor setting"
 msgstr "Настройки редактора"
 
-msgid "Open 2D Editor"
-msgstr "Открыть 2D-редактор"
-
 msgid ":kbd:`Ctrl + F1`"
 msgstr ":kbd:`Ctrl + F1`"
 
@@ -80,9 +77,6 @@ msgstr ":kbd:`Cmd + Ctrl + 1`"
 
 msgid "``editor/editor_2d``"
 msgstr "``editor/editor_2d``"
-
-msgid "Open 3D Editor"
-msgstr "Открыть 3D-редактор"
 
 msgid ":kbd:`Ctrl + F2`"
 msgstr ":kbd:`Ctrl + F2`"
@@ -123,8 +117,8 @@ msgstr "Режим без отвлечения"
 msgid ":kbd:`Ctrl + Shift + F11`"
 msgstr ":kbd:`Ctrl + Shift + F11`"
 
-msgid ":kbd:`Cmd + Ctrl + D`"
-msgstr ":kbd:`Cmd + Ctrl + D`"
+msgid ":kbd:`Cmd + Shift + D`"
+msgstr ":kbd:`Cmd + Shift + D`"
 
 msgid "``editor/distraction_free_mode``"
 msgstr "``editor/distraction_free_mode``"
@@ -1822,9 +1816,6 @@ msgstr "``animation_editor/duplicate_selection``"
 
 msgid "Duplicate Transposed"
 msgstr "Дублировать и транспонировать"
-
-msgid ":kbd:`Cmd + Shift + D`"
-msgstr ":kbd:`Cmd + Shift + D`"
 
 msgid "``animation_editor/duplicate_selection_transposed``"
 msgstr "``animation_editor/duplicate_selection_transposed``"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,6 +14,15 @@ msgstr ""
 msgid "Documentation changelog"
 msgstr "Dziennik zmian w dokumentacji"
 
+msgid "Editor"
+msgstr "Edytor"
+
+msgid "Migrating"
+msgstr "Migrowanie"
+
+msgid "Scripting"
+msgstr "Programowanie"
+
 msgid "2D"
 msgstr "2D"
 
@@ -22,9 +31,6 @@ msgstr "3D"
 
 msgid "Debug"
 msgstr "Debugowanie"
-
-msgid "Editor"
-msgstr "Edytor"
 
 msgid "Performance"
 msgstr "Wydajność"
@@ -43,9 +49,6 @@ msgstr "O Godocie"
 
 msgid "Contributing"
 msgstr "Wkład w rozwój Godota"
-
-msgid "Migrating"
-msgstr "Migrowanie"
 
 msgid "XR"
 msgstr "XR"
@@ -127,9 +130,6 @@ msgstr ":ref:`doc_upgrading_to_godot_4`"
 
 msgid ":ref:`doc_large_world_coordinates`"
 msgstr ":ref:`doc_large_world_coordinates`"
-
-msgid "Scripting"
-msgstr "Programowanie"
 
 msgid ":ref:`doc_custom_performance_monitors`"
 msgstr ":ref:`doc_custom_performance_monitors`"

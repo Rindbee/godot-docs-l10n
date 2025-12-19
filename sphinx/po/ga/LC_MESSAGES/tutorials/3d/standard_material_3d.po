@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -413,17 +413,6 @@ msgid ""
 msgstr ""
 "** Cuir leis: ** Cuirtear dath deiridh an réada le dath an scáileáin, go "
 "deas le haghaidh flares nó roinnt éifeachtaí cosúil le tine."
-
-msgid ""
-"**Sub:** The final color of the object is subtracted from the color of the "
-"screen."
-msgstr ""
-"**Fos: ** Déantar dath deiridh an réada a shaoradh ó dhath an scáileáin."
-
-msgid ""
-"**Mul:** The final color of the object is multiplied with the color of the "
-"screen."
-msgstr "**Mul: ** Déantar dath deiridh an réada a iolrú le dath an scáileáin."
 
 msgid "Cull Mode"
 msgstr "Mód Cull"
@@ -1124,18 +1113,12 @@ msgstr ""
 msgid "Shadows"
 msgstr "Scáthanna"
 
-msgid "Do Not Receive Shadows"
-msgstr "Ná Faigh Scáthanna"
-
 msgid ""
 "Makes the object not receive any kind of shadow that would otherwise be cast "
 "onto it."
 msgstr ""
 "Fágann nach bhfaigheann an réad scáth de chineál ar bith a chaitheadh air ar "
 "shlí eile."
-
-msgid "Use Shadow to Opacity"
-msgstr "Úsáid Scáth go Dtrédhearcacht"
 
 msgid ""
 "Lighting modifies the alpha so shadowed areas are opaque and non-shadowed "

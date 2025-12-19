@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -63,17 +63,6 @@ msgstr ""
 
 msgid "To continue with the example, use the following values:"
 msgstr "예제를 계속하려면, 다음 값을 사용하세요:"
-
-msgid ""
-"Unchecking the ``Activate now?`` option in C# is always required because, "
-"like every other C# script, the EditorPlugin script needs to be compiled "
-"which requires building the project. After building the project the plugin "
-"can be enabled in the ``Plugins`` tab of ``Project Settings``."
-msgstr ""
-"다른 모든 C# 스크립트와 마찬가지로 EditorPlugin 스크립트를 컴파일해야 프로젝"
-"트를 빌드해야 하기 때문에 C#에서 ``지금 활성화하시겠습니까?`` 옵션을 선택 취"
-"소해야 합니다. 프로젝트를 빌드한 후 ``프로젝트 설정``\\ 의 ``플러그인`` 탭에"
-"서 플러그인을 활성화할 수 있습니다."
 
 msgid "You should end up with a directory structure like this:"
 msgstr "다음과 같은 디렉터리 구조로 끝나야 합니다:"

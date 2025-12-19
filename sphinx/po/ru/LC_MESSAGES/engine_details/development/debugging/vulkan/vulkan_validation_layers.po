@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -158,16 +158,6 @@ msgstr ""
 "ошибки валидации. Это поможет предотвратить зависание системы при "
 "возникновении ошибки валидации."
 
-msgid "Android"
-msgstr "Android"
-
-msgid ""
-"After enabling validation layers on Android, a developer can see errors and "
-"warning messages in the ``adb logcat`` output."
-msgstr ""
-"После включения уровней проверки на Android разработчик может увидеть ошибки "
-"и предупреждающие сообщения в выводе ``adb logcat``."
-
 msgid "iOS"
 msgstr "iOS"
 
@@ -183,6 +173,16 @@ msgid ""
 msgstr ""
 "Уровни проверки **не** поддерживаются на веб-платформе, поскольку там нет "
 "поддержки Vulkan."
+
+msgid "Android"
+msgstr "Android"
+
+msgid ""
+"After enabling validation layers on Android, a developer can see errors and "
+"warning messages in the ``adb logcat`` output."
+msgstr ""
+"После включения уровней проверки на Android разработчик может увидеть ошибки "
+"и предупреждающие сообщения в выводе ``adb logcat``."
 
 msgid "Enabling validation layers"
 msgstr "Включение уровней проверки"

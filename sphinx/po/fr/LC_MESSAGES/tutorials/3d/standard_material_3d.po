@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -91,20 +91,6 @@ msgid ""
 msgstr ""
 "**Add :** La couleur finale de l'objet est ajoutée à la couleur de l'écran, "
 "agréable pour les fusées éclairantes ou pour certains effets de type feu."
-
-msgid ""
-"**Sub:** The final color of the object is subtracted from the color of the "
-"screen."
-msgstr ""
-"**Sub :** La couleur finale de l'objet est soustraite de la couleur de "
-"l'écran."
-
-msgid ""
-"**Mul:** The final color of the object is multiplied with the color of the "
-"screen."
-msgstr ""
-"**Mul :** La couleur finale de l'objet est multipliée avec la couleur de "
-"l'écran."
 
 msgid "Cull Mode"
 msgstr "Mode de cull"
@@ -784,17 +770,11 @@ msgstr ""
 msgid "Shadows"
 msgstr "Ombres"
 
-msgid "Do Not Receive Shadows"
-msgstr "Ne pas recevoir d'ombres"
-
 msgid ""
 "Makes the object not receive any kind of shadow that would otherwise be cast "
 "onto it."
 msgstr ""
 "L'objet ne reçoit pas l'ombre qui aurait autrement été projetée sur lui."
-
-msgid "Use Shadow to Opacity"
-msgstr "Utiliser l'ombre pour l'opacité"
 
 msgid ""
 "Lighting modifies the alpha so shadowed areas are opaque and non-shadowed "

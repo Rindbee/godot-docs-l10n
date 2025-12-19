@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -273,13 +273,6 @@ msgstr "Die Farbe wird als Rot-Grün-Blau-Wert angegeben (Alpha ist immer 1)."
 
 msgid "Nodes"
 msgstr "Nodes"
-
-msgid ""
-"Since Godot 4.0, nodes can be directly exported without having to use "
-"NodePaths."
-msgstr ""
-"Seit Godot 4.0 können Nodes direkt exportiert werden, ohne NodePaths "
-"verwenden zu müssen."
 
 msgid ""
 "A specific type of node can also be directly exported. The list of nodes "

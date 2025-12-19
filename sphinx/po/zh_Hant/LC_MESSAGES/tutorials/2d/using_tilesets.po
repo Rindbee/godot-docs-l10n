@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -244,17 +244,6 @@ msgstr "變更圖塊集屬性後自動重新產生圖塊"
 
 msgid "Using a collection of scenes"
 msgstr "使用場景集合"
-
-msgid ""
-"Since Godot 4.0, you can place actual *scenes* as tiles. This allows you to "
-"use any collection of nodes as a tile. For example, you could use scene "
-"tiles to place gameplay elements, such as shops the player may be able to "
-"interact with. You could also use scene tiles to place AudioStreamPlayer2Ds "
-"(for ambient sounds), particle effects, and more."
-msgstr ""
-"自 Godot 4.0 起，你可以將實際的 *場景* 作為圖塊放置。這表示你可以將任意節點集"
-"合用作圖塊。例如，場景圖塊可以用來放置遊戲要素，像是玩家可以互動的商店，也能"
-"用於放置 AudioStreamPlayer2D（環境音效）、粒子特效等。"
 
 msgid ""
 "Scene tiles come with a greater performance overhead compared to atlases, as "

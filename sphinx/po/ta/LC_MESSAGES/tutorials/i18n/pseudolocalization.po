@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -48,18 +48,6 @@ msgstr ""
 
 msgid "Enabling and configuring pseudolocalization"
 msgstr "சூடோலோகலைசேசனை இயக்குதல் மற்றும் கட்டமைத்தல்"
-
-msgid ""
-"Enabling pseudolocalization and the configurations related to it is as "
-"simple as toggling a checkbox in the project settings. These settings can be "
-"found in **Project → Project Settings → General → Internationalization → "
-"Pseudolocalization** after enabling the **Advanced** toggle in the project "
-"settings dialog:"
-msgstr ""
-"சூடோலோகலைசேசன் மற்றும் அதனுடன் தொடர்புடைய உள்ளமைவுகளை இயக்குவது திட்ட அமைப்புகளில் ஒரு "
-"தேர்வுப்பெட்டியை மாற்றுவது போல எளிது. இந்த அமைப்புகளை ** திட்ட → திட்ட அமைப்புகள் → "
-"பொது → பன்னாட்டுமயமாக்கல் → சூடோலோகலைசேசன் ** திட்ட அமைப்புகள் உரையாடலில் ** மேம்பட்ட "
-"** மாற்றத்தை இயக்கிய பிறகு:"
 
 msgid ""
 "Pseudolocalization can also be :ref:`toggled at runtime from a script "

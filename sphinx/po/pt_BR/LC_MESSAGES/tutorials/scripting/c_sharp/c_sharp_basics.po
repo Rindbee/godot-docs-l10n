@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -194,13 +194,6 @@ msgstr ""
 "diretamente. Eles também podem ser adicionados manualmente adicionando a "
 "referência do pacote no arquivo ``.csproj`` localizado na pasta principal do "
 "projeto:"
-
-msgid ""
-"As of Godot 3.2.3, Godot automatically downloads and sets up newly added "
-"NuGet packages the next time it builds the project."
-msgstr ""
-"A partir da versão 3.2.3, o Godot automaticamente baixa e instala os últimos "
-"pacotes NuGet na próxima vez que ele compila o projeto."
 
 msgid "Profiling your C# code"
 msgstr "Perfilando seu código C#"

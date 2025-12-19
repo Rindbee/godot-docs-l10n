@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -160,16 +160,6 @@ msgstr ""
 "belirtebilirsiniz. Bu, bir doğrulama hatası oluştuğunda sisteminizin "
 "donmasını önleyebilir."
 
-msgid "Android"
-msgstr "Android"
-
-msgid ""
-"After enabling validation layers on Android, a developer can see errors and "
-"warning messages in the ``adb logcat`` output."
-msgstr ""
-"Android'de doğrulama katmanlarını etkinleştirdikten sonra, bir geliştirici "
-"``adb logcat`` çıktısında hataları ve uyarı mesajlarını görebilir."
-
 msgid "iOS"
 msgstr "iOS"
 
@@ -185,6 +175,16 @@ msgid ""
 msgstr ""
 "Doğrulama katmanları web platformunda **desteklenmez**, çünkü orada Vulkan "
 "desteği yoktur."
+
+msgid "Android"
+msgstr "Android"
+
+msgid ""
+"After enabling validation layers on Android, a developer can see errors and "
+"warning messages in the ``adb logcat`` output."
+msgstr ""
+"Android'de doğrulama katmanlarını etkinleştirdikten sonra, bir geliştirici "
+"``adb logcat`` çıktısında hataları ve uyarı mesajlarını görebilir."
 
 msgid "Enabling validation layers"
 msgstr "Doğrulama katmanlarını etkinleştirme"

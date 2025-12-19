@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -128,13 +128,6 @@ msgstr "வேகத்திற்கு பதிலாக அளவை மே
 msgid "**Performed in official builds:** Yes, but only for web builds"
 msgstr ""
 "** அதிகாரப்பூர்வ கட்டடங்களில் நிகழ்த்தப்பட்டது: ** ஆம், ஆனால் வலை உருவாக்கங்களுக்கு மட்டுமே"
-
-msgid ""
-"Godot 3.1 onwards allows compiling using size optimizations (instead of "
-"speed). To enable this, set the ``optimize`` flag to ``size``:"
-msgstr ""
-"கோடோட் 3.1 முதல் அளவு மேம்படுத்தல்களைப் பயன்படுத்தி தொகுக்க அனுமதிக்கிறது (வேகத்திற்கு "
-"பதிலாக). இதை இயக்க, `` உகந்த`` கொடியை `` அளவு`` என அமைக்கவும்:"
 
 msgid "Some platforms such as WebAssembly already use this mode by default."
 msgstr ""

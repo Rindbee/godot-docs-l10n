@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -378,13 +378,6 @@ msgid ""
 msgstr ""
 "Вы хотите настроить характеристики материала, не поддерживаемые вашим 3D-"
 "приложением."
-
-msgid ""
-"You want to use a different texture filtering mode, as this option is "
-"configured in the material since Godot 4.0 (and not in the image)."
-msgstr ""
-"Вы хотите использовать другой режим фильтрации текстур, так как эта опция "
-"настраивается в материале, начиная с Godot 4.0 (а не в изображении)."
 
 msgid ""
 "You want to replace one of the materials with an entirely different "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -152,16 +152,6 @@ msgstr ""
 "விட்டு வெளியேறும் `` --gpu-abort`` ஐயும் நீங்கள் குறிப்பிடலாம். சரிபார்ப்பு பிழை "
 "ஏற்பட்டால் இது உங்கள் கணினி உறைவதைத் தடுக்கலாம்."
 
-msgid "Android"
-msgstr "ஆண்ட்ராய்டு"
-
-msgid ""
-"After enabling validation layers on Android, a developer can see errors and "
-"warning messages in the ``adb logcat`` output."
-msgstr ""
-"ஆண்ட்ராய்டு இல் சரிபார்ப்பு அடுக்குகளை இயக்கிய பிறகு, ஒரு உருவாக்குபவர் `` adb "
-"logcat`` வெளியீட்டில் பிழைகள் மற்றும் எச்சரிக்கை செய்திகளைக் காணலாம்."
-
 msgid "iOS"
 msgstr "ஐஇமு"
 
@@ -177,6 +167,16 @@ msgid ""
 msgstr ""
 "சரிபார்ப்பு அடுக்குகள் ** அல்ல ** வலை மேடையில் ஆதரிக்கப்படுகின்றன, ஏனெனில் அங்கு "
 "வல்கனுக்கு எந்த ஆதரவும் இல்லை."
+
+msgid "Android"
+msgstr "ஆண்ட்ராய்டு"
+
+msgid ""
+"After enabling validation layers on Android, a developer can see errors and "
+"warning messages in the ``adb logcat`` output."
+msgstr ""
+"ஆண்ட்ராய்டு இல் சரிபார்ப்பு அடுக்குகளை இயக்கிய பிறகு, ஒரு உருவாக்குபவர் `` adb "
+"logcat`` வெளியீட்டில் பிழைகள் மற்றும் எச்சரிக்கை செய்திகளைக் காணலாம்."
 
 msgid "Enabling validation layers"
 msgstr "சரிபார்ப்பு அடுக்குகளை செயல்படுத்துகிறது"

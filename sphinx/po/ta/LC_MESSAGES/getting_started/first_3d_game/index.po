@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -75,21 +75,6 @@ msgstr "3D விளையாட்டில் பயனர் இடைமு�
 
 msgid "And more."
 msgstr "மேலும்."
-
-msgid ""
-"This tutorial is for beginners who followed the complete getting started "
-"series. We'll start slow with detailed instructions and shorten them as we "
-"do similar steps. If you're an experienced programmer, you can browse the "
-"complete demo's source code here: `Squash the Creep source code <https://"
-"github.com/godotengine/godot-demo-projects/tree/master/3d/"
-"squash_the_creeps>`__."
-msgstr ""
-"This tutorial is க்கு beginners who followed the complete getting started "
-"series. We'll தொடங்கு slow with detailed instructions and shorten them அச் we "
-"do similar steps. If you're an experienced programmer, you can browse the "
-"complete demo's மூலம் குறியீடு here: `Squash the Creep மூலம் குறியீடு <https://"
-"github.com/godotengine/godot-demo-projects/tree/master/3d/"
-"squash_the_creeps>`__."
 
 msgid ""
 "You can follow this series without having done the 2D one. However, if "

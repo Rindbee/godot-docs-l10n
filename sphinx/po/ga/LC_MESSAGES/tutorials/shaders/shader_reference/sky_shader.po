@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -229,13 +229,6 @@ msgstr "Suíomh an cheamara, i spás an domhain."
 msgid "samplerCube **RADIANCE**"
 msgstr "SamplerCube **RADIANCE**"
 
-msgid ""
-"Radiance cubemap. Can only be read from during background pass. Check ``!"
-"AT_CUBEMAP_PASS`` before using."
-msgstr ""
-"Mapa ciúb radiance. Ní féidir é a léamh ach amháin le linn pas cúlra. "
-"Seiceáil ''! AT_CUBEMAP_PASS'' sula n-úsáidtear é."
-
 msgid "in bool **AT_HALF_RES_PASS**"
 msgstr "i bool **AT_HALF_RES_PASS**"
 
@@ -279,32 +272,11 @@ msgstr ""
 msgid "in float **PI**"
 msgstr "i snámhphointe **PI**"
 
-msgid ""
-"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
-"diameter and amount of radians in half turn."
-msgstr ""
-"Tairiseach ''PI'' (''3.141592''). Cóimheas idir imlíne ciorcail agus a "
-"thrastomhas agus méid na radians ina leathsheal."
-
 msgid "in float **TAU**"
 msgstr "i snámhphointe **TAU**"
 
-msgid ""
-"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
-"radians in full turn."
-msgstr ""
-"Tairiseach ''TAU'' (''6.283185''). Comhionann le ''PI * 2'' agus méid na "
-"radians ina lánseal."
-
 msgid "in float **E**"
 msgstr "i snámhphointe **E**"
-
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr ""
-"Tairiseach ''E'' (''2.718281''). Uimhir Euler agus bonn den logartam "
-"nádúrtha."
 
 msgid "Sky built-ins"
 msgstr "Spéir-tógtha isteach"
@@ -312,22 +284,8 @@ msgstr "Spéir-tógtha isteach"
 msgid "in vec3 **EYEDIR**"
 msgstr "i vec3 **EYEDIR**"
 
-msgid ""
-"Normalized direction of current pixel. Use this as your basic direction for "
-"procedural effects."
-msgstr ""
-"Treo normalaithe picteilín reatha. Bain úsáid as seo mar do threoir "
-"bhunúsach le haghaidh éifeachtaí nós imeachta."
-
 msgid "in vec2 **SCREEN_UV**"
 msgstr "In Vec2 **SCREEN_UV**"
-
-msgid ""
-"Screen UV coordinate for current pixel. Used to map a texture to the full "
-"screen."
-msgstr ""
-"Comhordanáid UV scáileáin le haghaidh picteilín reatha. Úsáidtear é chun "
-"uigeacht a mhapáil ar an scáileán iomlán."
 
 msgid "in vec2 **SKY_COORDS**"
 msgstr "In Vec2 **SKY_COORDS**"
@@ -338,22 +296,8 @@ msgstr "Sféar UV. Úsáidtear é chun uigeacht lánléargais a mhapáil ar an s
 msgid "in vec4 **HALF_RES_COLOR**"
 msgstr "In Vec4 **HALF_RES_COLOR**"
 
-msgid ""
-"Color value of corresponding pixel from half resolution pass. Uses linear "
-"filter."
-msgstr ""
-"Luach datha an phicteilín chomhfhreagraigh ó phas leathtaifigh. Úsáideann an "
-"páiste scagaire líneach."
-
 msgid "in vec4 **QUARTER_RES_COLOR**"
 msgstr "In Vec4 **QUARTER_RES_COLOR**"
-
-msgid ""
-"Color value of corresponding pixel from quarter resolution pass. Uses linear "
-"filter."
-msgstr ""
-"Luach datha an phicteilín chomhfhreagraigh ó phas réitigh ráithe. Úsáideann "
-"an páiste scagaire líneach."
 
 msgid "out vec3 **COLOR**"
 msgstr "amach vec3 ** DATH **"

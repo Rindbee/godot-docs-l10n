@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,22 +13,6 @@ msgstr ""
 
 msgid "Spatial shaders"
 msgstr "Shaders spatiaux"
-
-msgid ""
-"Spatial shaders are used for shading 3D objects. They are the most complex "
-"type of shader Godot offers. Spatial shaders are highly configurable with "
-"different render modes and different rendering options (e.g. Subsurface "
-"Scattering, Transmission, Ambient Occlusion, Rim lighting etc). Users can "
-"optionally write vertex, fragment, and light processor functions to affect "
-"how objects are drawn."
-msgstr ""
-"Les shaders spatiaux sont utilisés pour l'ombrage des objets 3D. Ce sont les "
-"shaders les plus complexes proposés par Godot. Les shaders spatiaux sont "
-"hautement configurables avec différents modes de rendu et différentes "
-"options de rendu (par exemple, transluminescence, transmission, occlusion "
-"ambiante, éclairage de bordure, etc.). Les utilisateurs peuvent "
-"éventuellement écrire des fonctions de processeur de vertex, de fragment et "
-"de lumière pour affecter la façon dont les objets sont dessinés."
 
 msgid "Render modes"
 msgstr "Mode de rendu"
@@ -255,16 +239,6 @@ msgstr "**x** : Angle de rotation en radians."
 msgid "**z**: Animation frame."
 msgstr "**z** : Trame d'animation."
 
-msgid ""
-"This allows you to easily adjust the shader to a particle system using "
-"default particles material. When writing a custom particle shader, this "
-"value can be used as desired."
-msgstr ""
-"Cela permet d'ajuster facilement le shader à un système de particules en "
-"utilisant un matériau de particules par défaut. Lorsque vous écrivez un "
-"shader de particules personnalisé, cette valeur peut être utilisée comme "
-"vous le souhaitez."
-
 msgid "in vec2 **VIEWPORT_SIZE**"
 msgstr "in vec2 **VIEWPORT_SIZE**"
 
@@ -365,9 +339,6 @@ msgstr "Canal UV secondaire."
 msgid "inout vec4 **COLOR**"
 msgstr "inout vec4 **COLOR**"
 
-msgid "Color from vertices."
-msgstr "Couleur des sommets."
-
 msgid "out float **ROUGHNESS**"
 msgstr "out float **ROUGHNESS**"
 
@@ -467,9 +438,6 @@ msgstr "sampler2D **SCREEN_TEXTURE**"
 
 msgid "in vec2 **SCREEN_UV**"
 msgstr "in vec2 **SCREEN_UV**"
-
-msgid "Screen UV coordinate for current pixel."
-msgstr "Coordonnées UV de l'écran pour le pixel actuel."
 
 msgid "sampler2D **DEPTH_TEXTURE**"
 msgstr "sampler2D **DEPTH_TEXTURE**"
@@ -667,10 +635,3 @@ msgstr "out vec3 **SPECULAR_LIGHT**"
 
 msgid "Specular light result."
 msgstr "Résultat de la lumière spéculaire."
-
-msgid ""
-"Alpha (range of ``[0.0, 1.0]``). If written to, the material will go to the "
-"transparent pipeline."
-msgstr ""
-"Alpha (dans l'intervalle ``[0.0,1.0]``). En cas d'écriture, le matériau "
-"passera dans la pipeline de transparence."

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -51,16 +51,6 @@ msgstr "Requerimientos"
 msgid "For compiling under Windows, Linux or macOS, the following is required:"
 msgstr "Para compilar en Windows, Linux o macOS, se requiere lo siguiente:"
 
-msgid ""
-"`Android SDK <https://developer.android.com/studio/#command-tools>`_ "
-"(command-line tools are sufficient)."
-msgstr ""
-"`Android SDK <https://developer.android.com/studio/#command-tools>`_ (las "
-"herramientas de línea de comandos son suficiente)."
-
-msgid "Required SDK components will be automatically installed."
-msgstr "Los componentes del SDK necesarios se instalarán automáticamente."
-
 msgid "Gradle (will be downloaded and installed automatically if missing)."
 msgstr "Gradle (se descargará e instalará automáticamente si falta)."
 
@@ -82,25 +72,6 @@ msgstr ""
 
 msgid "Setting up the buildsystem"
 msgstr "Configurando el sistema de construcción"
-
-msgid "Install the necessary SDK components in this folder:"
-msgstr "Instala los componentes necesarios del SDK en esta carpeta:"
-
-msgid ""
-"Accept the SDK component licenses by running the following command where "
-"``android_sdk_path`` is the path to the Android SDK, then answering all the "
-"prompts with ``y``:"
-msgstr ""
-"Acepta las licencias de los componentes del SDK ejecutando el siguiente "
-"comando donde ``android_sdk_path`` es la ruta al SDK de Android y luego "
-"respondiendo todas las solicitudes con ``y``:"
-
-msgid ""
-"Complete setup by running the following command where ``android_sdk_path`` "
-"is the path to the Android SDK."
-msgstr ""
-"Completa la configuración ejecutando el siguiente comando donde "
-"``android_sdk_path`` es la ruta al SDK de Android."
 
 msgid ""
 "After setting up the SDK and environment variables, be sure to **restart "

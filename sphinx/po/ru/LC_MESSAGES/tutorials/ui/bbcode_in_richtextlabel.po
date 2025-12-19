@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1591,21 +1591,6 @@ msgstr "``i``, ``I`` - Строчные и прописные римские ц�
 
 msgid "Text effects"
 msgstr "Текстовые эффекты"
-
-msgid ""
-"BBCode can also be used to create different text effects that can optionally "
-"be animated. Five customizable effects are provided out of the box, and you "
-"can easily create your own. By default, animated effects will "
-"pause :ref:`when the SceneTree is paused <doc_pausing_games>`. You can "
-"change this behavior by adjusting the RichTextLabel's **Process > Mode** "
-"property."
-msgstr ""
-"BBCode также можно использовать для создания различных текстовых эффектов, "
-"которые при необходимости можно анимировать. Пять настраиваемых эффектов "
-"доступны в стандартной комплектации, и вы можете легко создать свой "
-"собственный. По умолчанию анимированные эффекты приостанавливаются :ref:`при "
-"приостановке SceneTree <doc_pausing_games>`. Вы можете изменить это "
-"поведение, настроив свойство **Process > Mode** объекта RichTextLabel."
 
 msgid ""
 "All examples below mention the default values for options in the listed tag "

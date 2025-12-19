@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,19 +13,6 @@ msgstr ""
 
 msgid "Spatial shaders"
 msgstr "空間著色器"
-
-msgid ""
-"Spatial shaders are used for shading 3D objects. They are the most complex "
-"type of shader Godot offers. Spatial shaders are highly configurable with "
-"different render modes and different rendering options (e.g. Subsurface "
-"Scattering, Transmission, Ambient Occlusion, Rim lighting etc). Users can "
-"optionally write vertex, fragment, and light processor functions to affect "
-"how objects are drawn."
-msgstr ""
-"空間著色器用於三維物件的著色，是 Godot 提供中最複雜的著色器類型。空間著色器支"
-"援高度自訂，擁有多種算繪模式與不同的算繪選項（如：次表面散射、透射、環境遮"
-"蔽、邊緣光等）。開發者可以選擇撰寫頂點、片段、光照處理函式，以自訂物件的繪製"
-"方式。"
 
 msgid "Render modes"
 msgstr "算繪模式"
@@ -259,9 +246,6 @@ msgstr "使用頂點光照（取代逐像素光照）。"
 msgid "**particle_trails**"
 msgstr "**particle_trails**"
 
-msgid "Enables the trails when used on particles geometry."
-msgstr "用於粒子幾何時啟用軌跡效果。"
-
 msgid "**alpha_to_coverage**"
 msgstr "**alpha_to_coverage**"
 
@@ -319,46 +303,14 @@ msgstr "內建變數"
 msgid "in float **TIME**"
 msgstr "in float **TIME**"
 
-msgid ""
-"Global time since the engine has started, in seconds. It repeats after every "
-"``3,600`` seconds (which can  be changed with "
-"the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/"
-"time_rollover_secs>` setting). It's affected "
-"by :ref:`time_scale<class_Engine_property_time_scale>` but not by pausing. "
-"If you need a ``TIME`` variable that is not affected by time scale, add your "
-"own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and "
-"update it each frame."
-msgstr ""
-"自引擎啟動以來的全域時間（秒）。每 3,600 秒會重設（可透"
-"過 :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/"
-"time_rollover_secs>` 設定變更）。該值會受"
-"到 :ref:`time_scale<class_Engine_property_time_scale>` 影響，但不受暫停影響。"
-"如果你需要不受 time_scale 影響的 ``TIME``，請自訂 :ref:`全域著色器 "
-"uniform<doc_shading_language_global_uniforms>` 並於每幀更新。"
-
 msgid "in float **PI**"
 msgstr "in float **PI**"
-
-msgid ""
-"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
-"diameter and amount of radians in half turn."
-msgstr "常數 PI（3.141592），為圓周長與直徑的比值，也是一半圈的弧度數。"
 
 msgid "in float **TAU**"
 msgstr "in float **TAU**"
 
-msgid ""
-"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
-"radians in full turn."
-msgstr "常數 TAU（6.283185），等於 PI * 2，也是一整圈的弧度數。"
-
 msgid "in float **E**"
 msgstr "in float **E**"
-
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr "常數 E（2.718281），歐拉數，也是自然對數的底數。"
 
 msgid "in bool **OUTPUT_IS_SRGB**"
 msgstr "in bool **OUTPUT_IS_SRGB**"
@@ -441,14 +393,6 @@ msgstr "**y**：生命週期進度階段（0.0 ~ 1.0）。"
 msgid "**z**: Animation frame."
 msgstr "**z**：動畫影格索引。"
 
-msgid ""
-"This allows you to easily adjust the shader to a particle system using "
-"default particles material. When writing a custom particle shader, this "
-"value can be used as desired."
-msgstr ""
-"如此可讓你輕鬆將著色器調整至採用預設粒子材質的粒子系統。若撰寫自訂粒子 "
-"shader，也可依需求使用這些值。"
-
 msgid "in vec2 **VIEWPORT_SIZE**"
 msgstr "in vec2 **VIEWPORT_SIZE**"
 
@@ -469,11 +413,6 @@ msgstr "視圖空間到世界空間的轉換。"
 
 msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
 msgstr "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
-
-msgid ""
-"View space to world space transform of camera used to draw the current "
-"viewport."
-msgstr "用於繪製目前視窗的相機，其視圖空間到世界空間的轉換。"
 
 msgid "in mat4 **INV_PROJECTION_MATRIX**"
 msgstr "in mat4 **INV_PROJECTION_MATRIX**"
@@ -600,9 +539,6 @@ msgstr "UV2 次通道。"
 
 msgid "inout vec4 **COLOR**"
 msgstr "inout vec4 **COLOR**"
-
-msgid "Color from vertices."
-msgstr "頂點顏色。"
 
 msgid "out float **ROUGHNESS**"
 msgstr "out float **ROUGHNESS**"
@@ -815,9 +751,6 @@ msgstr ""
 msgid "in vec2 **SCREEN_UV**"
 msgstr "in vec2 **SCREEN_UV**"
 
-msgid "Screen UV coordinate for current pixel."
-msgstr "當前像素的螢幕 UV 座標。"
-
 msgid "sampler2D **DEPTH_TEXTURE**"
 msgstr "sampler2D **DEPTH_TEXTURE**"
 
@@ -828,15 +761,6 @@ msgstr ""
 
 msgid "out float **DEPTH**"
 msgstr "out float **DEPTH**"
-
-msgid ""
-"Custom depth value (range of ``[0.0, 1.0]``). If ``DEPTH`` is being written "
-"to in any shader branch, then you are responsible for setting the ``DEPTH`` "
-"for **all** other branches. Otherwise, the graphics API will leave them "
-"uninitialized."
-msgstr ""
-"自訂深度值（範圍 0.0 ~ 1.0）。若任一 shader 分支寫入 ``DEPTH``，則所有分支都"
-"必須明確設定 ``DEPTH``，否則圖形 API 會將其視為未初始化。"
 
 msgid ""
 "Normal that comes from the ``vertex()`` function, in view space. If "
@@ -879,11 +803,6 @@ msgstr "反照率（預設白色）。基底色。"
 
 msgid "out float **ALPHA**"
 msgstr "out float **ALPHA**"
-
-msgid ""
-"Alpha (range of ``[0.0, 1.0]``). If read from or written to, the material "
-"will go to the transparent pipeline."
-msgstr "Alpha（0.0 ~ 1.0）。若有讀寫，材質將進入透明管線。"
 
 msgid "out float **ALPHA_SCISSOR_THRESHOLD**"
 msgstr "out float **ALPHA_SCISSOR_THRESHOLD**"
@@ -941,9 +860,6 @@ msgstr ""
 msgid "out float **METALLIC**"
 msgstr "out float **METALLIC**"
 
-msgid "Metallic (range of ``[0.0, 1.0]``)."
-msgstr "金屬度（0.0 ~ 1.0）。"
-
 msgid "out float **SPECULAR**"
 msgstr "out float **SPECULAR**"
 
@@ -952,28 +868,11 @@ msgid ""
 "disables reflections."
 msgstr "鏡面反射強度（非物理準確）。預設 0.5，設為 0.0 可停用反射。"
 
-msgid "Roughness (range of ``[0.0, 1.0]``)."
-msgstr "粗糙度（0.0 ~ 1.0）。"
-
 msgid "out float **RIM**"
 msgstr "out float **RIM**"
 
-msgid ""
-"Rim (range of ``[0.0, 1.0]``). If used, Godot calculates rim lighting. Rim "
-"size depends on ``ROUGHNESS``."
-msgstr ""
-"邊緣光（0.0 ~ 1.0）。如有使用 Godot 會自動計算邊緣光照，大小取決於 "
-"``ROUGHNESS``。"
-
 msgid "out float **RIM_TINT**"
 msgstr "out float **RIM_TINT**"
-
-msgid ""
-"Rim Tint, range of ``0.0`` (white) to ``1.0`` (albedo). If used, Godot "
-"calculates rim lighting."
-msgstr ""
-"邊緣色調，範圍從 0.0（白）到 1.0（反照率顏色）。如有使用，Godot 會計算邊緣光"
-"照。"
 
 msgid "out float **CLEARCOAT**"
 msgstr "out float **CLEARCOAT**"
@@ -1055,11 +954,6 @@ msgstr "環境遮蔽強度。用於搭配預先烘焙的 AO。"
 
 msgid "out float **AO_LIGHT_AFFECT**"
 msgstr "out float **AO_LIGHT_AFFECT**"
-
-msgid ""
-"How much ambient occlusion affects direct light (range of ``[0.0, 1.0]``, "
-"default ``0.0``)."
-msgstr "環境遮蔽對直接光影響程度（0.0 ~ 1.0，預設 0.0）。"
 
 msgid "out vec3 **EMISSION**"
 msgstr "out vec3 **EMISSION**"
@@ -1241,11 +1135,6 @@ msgstr "out vec3 **SPECULAR_LIGHT**"
 
 msgid "Specular light result."
 msgstr "鏡面反射光輸出。"
-
-msgid ""
-"Alpha (range of ``[0.0, 1.0]``). If written to, the material will go to the "
-"transparent pipeline."
-msgstr "Alpha（0.0 ~ 1.0）。如有寫入，材質將進入透明管線。"
 
 msgid ""
 "Transparent materials also cannot cast shadows or appear in "

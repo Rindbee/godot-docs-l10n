@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -26,13 +26,17 @@ msgstr ""
 "<doc_class_reference>`. Seo thíos liosta de na leathanaigh nua a cuireadh "
 "leis ó leagan 3.0."
 
-msgid ""
-"This document only contains new pages so not all changes are reflected, many "
-"pages have been substantially updated but are not reflected in this document."
-msgstr ""
-"Níl ach leathanaigh nua sa doiciméad seo mar sin ní léirítear gach athrú, tá "
-"go leor leathanaigh nuashonraithe go suntasach ach ní léirítear iad sa "
-"doiciméad seo."
+msgid "Editor"
+msgstr "Eagarthóir"
+
+msgid "GDExtension"
+msgstr "GDExTension"
+
+msgid "Migrating"
+msgstr "Ag imirce"
+
+msgid "Scripting"
+msgstr "Scriptiú"
 
 msgid "2D"
 msgstr "2D"
@@ -42,9 +46,6 @@ msgstr "3D"
 
 msgid "Debug"
 msgstr "Dífhabhtú"
-
-msgid "Editor"
-msgstr "Eagarthóir"
 
 msgid "Performance"
 msgstr "feidhmíocht"
@@ -63,12 +64,6 @@ msgstr "Maidir"
 
 msgid "Contributing"
 msgstr "Ag cur leis an"
-
-msgid "GDExtension"
-msgstr "GDExTension"
-
-msgid "Migrating"
-msgstr "Ag imirce"
 
 msgid "XR"
 msgstr "XRName"
@@ -177,9 +172,6 @@ msgstr ":ref:'doc_upgrading_to_godot_4'"
 
 msgid ":ref:`doc_large_world_coordinates`"
 msgstr ":tag:'doc_large_world_coordinates'"
-
-msgid "Scripting"
-msgstr "Scriptiú"
 
 msgid ":ref:`doc_custom_performance_monitors`"
 msgstr ":ref:'doc_custom_performance_monitors'"

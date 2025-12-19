@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -226,25 +226,6 @@ msgstr "உள்ளமைக்கப்பட்ட"
 msgid "in float **TIME**"
 msgstr "மிதவையில் ** நேரம் **"
 
-msgid ""
-"Global time since the engine has started, in seconds. It repeats after every "
-"``3,600`` seconds (which can  be changed with "
-"the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/"
-"time_rollover_secs>` setting). It's affected "
-"by :ref:`time_scale<class_Engine_property_time_scale>` but not by pausing. "
-"If you need a ``TIME`` variable that is not affected by time scale, add your "
-"own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and "
-"update it each frame."
-msgstr ""
-"இயந்திரம் தொடங்கியதிலிருந்து உலகளாவிய நேரம், நொடிகளில். ஒவ்வொரு `` 3,600`` "
-"விநாடிகளுக்குப் பிறகு இது மீண்டும் நிகழ்கிறது (இதை மாற்றலாம்: rew: `ரோல்ஓவர் "
-"<class_projectsettings_property_rendering/limites/time_rollover_secs>` "
-"அமைப்பு). இது பாதிக்கப்படுகிறது: ref: `time_scale "
-"<class_engine_property_time_scale>` ஆனால் இடைநிறுத்துவதன் மூலம் அல்ல. நேர அளவால் "
-"பாதிக்கப்படாத `` நேரம்`` மாறுபாடு உங்களுக்குத் தேவைப்பட்டால், உங்கள் சொந்தத்தைச் சேர்க்கவும்: "
-"குறிப்பு: `உலகளாவிய சேடர் சீருடை <doc_shading_language_global_uniforms>` ஒவ்வொரு "
-"சட்டகத்தையும் புதுப்பிக்கவும்."
-
 msgid "in vec3 **POSITION**"
 msgstr "VEC3 ** நிலை ** இல்"
 
@@ -254,30 +235,14 @@ msgstr "கேமரா நிலை, உலக இடத்தில்."
 msgid "samplerCube **RADIANCE**"
 msgstr "samplercube ** ஒளி **"
 
-msgid ""
-"Radiance cubemap. Can only be read from during background pass. Check ``!"
-"AT_CUBEMAP_PASS`` before using."
-msgstr ""
-"ரேடியன்ச் க்யூப்மேப். பின்னணி பாசின் போது மட்டுமே படிக்க முடியும். பயன்படுத்துவதற்கு முன் "
-"``!"
-
 msgid "in bool **AT_HALF_RES_PASS**"
 msgstr "பூல் ** at_half_res_pass ** இல்"
-
-msgid "``true`` when rendering to half resolution pass."
-msgstr "`` உண்மை`` அரை தெளிவுத்திறன் பாசுக்கு வழங்கும்போது."
 
 msgid "in bool **AT_QUARTER_RES_PASS**"
 msgstr "பூல் ** at_quarter_res_pass ** இல்"
 
-msgid "``true`` when rendering to quarter resolution pass."
-msgstr "`` உண்மை`` காலாண்டு தெளிவுத்திறன் பாசுக்கு வழங்கும்போது."
-
 msgid "in bool **AT_CUBEMAP_PASS**"
 msgstr "பூல் ** at_cubemap_pass ** இல்"
-
-msgid "``true`` when rendering to radiance cubemap."
-msgstr "`` உண்மை`` ரேடியன்ச் க்யூப்மேப்பிற்கு வழங்கும்போது."
 
 msgid "in bool **LIGHTX_ENABLED**"
 msgstr "bool ** lightx_enabled **"
@@ -320,31 +285,11 @@ msgstr ""
 msgid "in float **PI**"
 msgstr "மிதவை ** பை **"
 
-msgid ""
-"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
-"diameter and amount of radians in half turn."
-msgstr ""
-"A `` pi`` மாறிலி (`` 3.141592``). ஒரு வட்டத்தின் சுற்றளவு அதன் விட்டம் மற்றும் "
-"ரேடியன்களின் அளவு பாதி திரும்பும் விகிதம்."
-
 msgid "in float **TAU**"
 msgstr "மிதவையில் ** த அயு **"
 
-msgid ""
-"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
-"radians in full turn."
-msgstr ""
-"A `` tau`` மாறிலி (`` 6.283185``). `` பை * 2`` க்கு சமமான மற்றும் முழு "
-"திருப்பத்தில் ரேடியன்களின் அளவு."
-
 msgid "in float **E**"
 msgstr "மிதவையில் ** இ **"
-
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr ""
-"ஒரு `` E`` மாறிலி (`` 2.718281``). யூலரின் எண் மற்றும் இயற்கை மடக்கையின் அடிப்படை."
 
 msgid "Sky built-ins"
 msgstr "ச்கை பில்ட்-இன்ச்"
@@ -352,22 +297,8 @@ msgstr "ச்கை பில்ட்-இன்ச்"
 msgid "in vec3 **EYEDIR**"
 msgstr "vec3 ** iedir ** இல்"
 
-msgid ""
-"Normalized direction of current pixel. Use this as your basic direction for "
-"procedural effects."
-msgstr ""
-"தற்போதைய பிக்சலின் இயல்பாக்கப்பட்ட திசை. நடைமுறை விளைவுகளுக்கு இதை உங்கள் அடிப்படை "
-"திசையாகப் பயன்படுத்தவும்."
-
 msgid "in vec2 **SCREEN_UV**"
 msgstr "VEC2 ** Screen_uv ** இல்"
-
-msgid ""
-"Screen UV coordinate for current pixel. Used to map a texture to the full "
-"screen."
-msgstr ""
-"தற்போதைய பிக்சலுக்கான திரை யு.வி ஒருங்கிணைப்பு. முழுத் திரையில் ஒரு அமைப்பை "
-"வரைபடமாக்க பயன்படுகிறது."
 
 msgid "in vec2 **SKY_COORDS**"
 msgstr "VEC2 ** sky_coords ** இல்"
@@ -378,22 +309,8 @@ msgstr "கோளம் புற ஊதா. வானத்திற்கு �
 msgid "in vec4 **HALF_RES_COLOR**"
 msgstr "VEC4 ** Harm_RES_COLOR ** இல்"
 
-msgid ""
-"Color value of corresponding pixel from half resolution pass. Uses linear "
-"filter."
-msgstr ""
-"அரை தெளிவுத்திறன் பாசிலிருந்து தொடர்புடைய பிக்சலின் வண்ண மதிப்பு. நேரியல் வடிகட்டியைப் "
-"பயன்படுத்துகிறது."
-
 msgid "in vec4 **QUARTER_RES_COLOR**"
 msgstr "VEC4 ** warder_res_color ** இல்"
-
-msgid ""
-"Color value of corresponding pixel from quarter resolution pass. Uses linear "
-"filter."
-msgstr ""
-"காலாண்டு தெளிவுத்திறன் பாசிலிருந்து தொடர்புடைய பிக்சலின் வண்ண மதிப்பு. நேரியல் "
-"வடிகட்டியைப் பயன்படுத்துகிறது."
 
 msgid "out vec3 **COLOR**"
 msgstr "அவுட் VEC3 ** வண்ணம் **"

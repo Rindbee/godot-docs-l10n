@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -346,20 +346,6 @@ msgid ""
 msgstr ""
 "**Add**: Aditivo. El color final del objeto se suma al color de la pantalla, "
 "ideal para efectos como destellos o fuego."
-
-msgid ""
-"**Sub:** The final color of the object is subtracted from the color of the "
-"screen."
-msgstr ""
-"**Subtract:** Sustractivo. El color final del objeto es sustraido del color "
-"de la escena."
-
-msgid ""
-"**Mul:** The final color of the object is multiplied with the color of the "
-"screen."
-msgstr ""
-"**Multiply**: Multiplicativo. El color final del objeto es multiplicado por "
-"el color en pantalla."
 
 msgid "Cull Mode"
 msgstr "Cull Mode (Modo de Sacrificio)"
@@ -778,6 +764,13 @@ msgstr ""
 
 msgid "Bent normal map"
 msgstr "Bent normal map (Mapa de normales doblado)"
+
+msgid ""
+"*This is only available in the Forward+ and Mobile renderers, not the "
+"Compatibility renderer.*"
+msgstr ""
+"*Esto solo está disponible en los renderizadores Forward+ y Mobile, no en el "
+"renderizador Compatibility.*"
 
 msgid ""
 "A bent normal map describes the average direction of ambient lighting. "
@@ -1203,18 +1196,12 @@ msgstr "Repeat (Repetir)"
 msgid "Shadows"
 msgstr "Shadows (Sombras)"
 
-msgid "Do Not Receive Shadows"
-msgstr "Disable Receive Shadows (No recibir sombras)"
-
 msgid ""
 "Makes the object not receive any kind of shadow that would otherwise be cast "
 "onto it."
 msgstr ""
 "Hace que el objeto no reciba ningún tipo de sombra que de otro modo sería "
 "proyectada sobre él."
-
-msgid "Use Shadow to Opacity"
-msgstr "Shadow to Opacity (Usar la sombra para la opacidad)"
 
 msgid ""
 "Lighting modifies the alpha so shadowed areas are opaque and non-shadowed "

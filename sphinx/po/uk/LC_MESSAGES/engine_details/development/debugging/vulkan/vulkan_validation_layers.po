@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -156,16 +156,6 @@ msgstr ""
 "щойно станеться помилка перевірки. Це може запобігти зависанню вашої "
 "системи, якщо станеться помилка перевірки."
 
-msgid "Android"
-msgstr "Android"
-
-msgid ""
-"After enabling validation layers on Android, a developer can see errors and "
-"warning messages in the ``adb logcat`` output."
-msgstr ""
-"Після ввімкнення рівнів перевірки на Android розробник може бачити помилки "
-"та попередження у виводі ``adb logcat``."
-
 msgid "iOS"
 msgstr "iOS"
 
@@ -181,6 +171,16 @@ msgid ""
 msgstr ""
 "Шари перевірки **не** підтримуються на веб-платформі, оскільки там немає "
 "підтримки Vulkan."
+
+msgid "Android"
+msgstr "Android"
+
+msgid ""
+"After enabling validation layers on Android, a developer can see errors and "
+"warning messages in the ``adb logcat`` output."
+msgstr ""
+"Після ввімкнення рівнів перевірки на Android розробник може бачити помилки "
+"та попередження у виводі ``adb logcat``."
 
 msgid "Enabling validation layers"
 msgstr "Увімкнення шарів перевірки"

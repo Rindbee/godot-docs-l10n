@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -1376,18 +1376,6 @@ msgstr ""
 
 msgid "Typed arrays"
 msgstr "类型化数组"
-
-msgid ""
-"Godot 4.0 added support for typed arrays. On write operations, Godot checks "
-"that element values match the specified type, so the array cannot contain "
-"invalid values. The GDScript static analyzer takes typed arrays into "
-"account, however array methods like ``front()`` and ``back()`` still have "
-"the ``Variant`` return type."
-msgstr ""
-"Godot 4.0 开始支持类型化数组。向类型化数组中写入数据时，Godot 会检查每个元素"
-"是否与该数组所指定的类型相匹配，因此类型化数组不能含有无效数据。而诸如 "
-"``front()`` 和 ``back()`` 等方法，虽然 GDScript 静态分析器会将类型化数组考虑"
-"在内，却仍会返回 ``Variant`` 类型的数值。"
 
 msgid ""
 "Typed arrays have the syntax ``Array[Type]``, where ``Type`` can be any "
@@ -2799,12 +2787,6 @@ msgstr ""
 "如果 ``idle.gd`` 的 ``_init`` 构造函数不接受任何参数，即便该构造函数即便什么"
 "也不做，也仍然需要将一些值传递给 ``state.gd`` 父类。因此我们除了可以给基类构"
 "造函数传变量之外，还可以传表达式，例如："
-
-msgid "func _init():"
-msgstr "func _init():"
-
-msgid "super(5)"
-msgstr "super(5)"
 
 msgid "Static constructor"
 msgstr "静态构造函数"

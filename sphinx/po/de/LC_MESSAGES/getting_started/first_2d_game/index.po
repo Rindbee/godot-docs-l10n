@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -97,13 +97,6 @@ msgstr ""
 
 msgid "You can find a completed version of this project at this location:"
 msgstr "Eine vollständige Version dieses Projekts finden Sie unter:"
-
-msgid ""
-"https://github.com/godotengine/godot-demo-projects/tree/master/2d/"
-"dodge_the_creeps"
-msgstr ""
-"https://github.com/godotengine/godot-demo-projects/tree/master/2d/"
-"dodge_the_creeps"
 
 msgid "Prerequisites"
 msgstr "Voraussetzungen"

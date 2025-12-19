@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -78,9 +78,6 @@ msgstr ""
 msgid "**light_only**"
 msgstr "\\ **light_only**"
 
-msgid "Only draw on light pass."
-msgstr "ライトパスでのみ描画します。"
-
 msgid "**skip_vertex_transform**"
 msgstr "\\ **skip_vertex_transform**"
 
@@ -105,22 +102,8 @@ msgstr "\\ in float **TIME**"
 msgid "in float **PI**"
 msgstr "\\ in float **PI**"
 
-msgid ""
-"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
-"diameter and amount of radians in half turn."
-msgstr ""
-"``PI`` 円周率の定数 (``3.141592``)。円の円周とその直径の比率、および半回転の"
-"ラジアン量。"
-
 msgid "in float **TAU**"
 msgstr "\\ in float **TAU**"
-
-msgid ""
-"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
-"radians in full turn."
-msgstr ""
-"定数 `TAU`` は円周率の2倍 (``6.283185``)。 ``PI * 2`` と、1回転のラジアン量に"
-"相当します。"
 
 msgid "in float **E**"
 msgstr "\\ in float **E**"
@@ -188,13 +171,6 @@ msgstr "常に ``false``."
 msgid "in vec2 **TEXTURE_PIXEL_SIZE**"
 msgstr "\\ in vec2 **TEXTURE_PIXEL_SIZE**"
 
-msgid ""
-"Normalized pixel size of default 2D texture. For a Sprite2D with a texture "
-"of size 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
-msgstr ""
-"デフォルトの2Dテクスチャの正規化されたピクセルサイズ。サイズが64x32pxのテクス"
-"チャを持つSprite2Dの場合、\\ **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
-
 msgid "inout vec2 **VERTEX**"
 msgstr "\\ inout vec2 **VERTEX**"
 
@@ -231,9 +207,6 @@ msgstr "\\ in vec4 **FRAGCOORD**"
 msgid "in vec2 **SCREEN_PIXEL_SIZE**"
 msgstr "\\ in vec2 **SCREEN_PIXEL_SIZE**"
 
-msgid "Size of individual pixels. Equal to inverse of resolution."
-msgstr "個々のピクセルのサイズ。解像度の逆数に等しい。"
-
 msgid "in vec2 **POINT_COORD**"
 msgstr "\\ in vec2 **POINT_COORD**"
 
@@ -263,9 +236,6 @@ msgstr "\\ in vec2 **UV**"
 
 msgid "in vec2 **SCREEN_UV**"
 msgstr "\\ in vec2 **SCREEN_UV**"
-
-msgid "Screen UV coordinate for current pixel."
-msgstr "現在のピクセルのスクリーンUV座標。"
 
 msgid "sampler2D **SCREEN_TEXTURE**"
 msgstr "\\ sampler2D **SCREEN_TEXTURE**"
@@ -332,9 +302,6 @@ msgstr "\\ in vec3 **NORMAL**"
 
 msgid "in vec4 **COLOR**"
 msgstr "\\ in vec4 **COLOR**"
-
-msgid "Current texture in use for CanvasItem."
-msgstr "CanvasItemに使用されている現在のテクスチャ。"
 
 msgid "UV for Point Sprite."
 msgstr "ポイントスプライトのUV。"

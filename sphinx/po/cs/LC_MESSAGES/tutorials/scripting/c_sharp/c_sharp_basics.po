@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -199,13 +199,6 @@ msgstr ""
 "Godotem stejně jako s jakýmkoli jiným projektem v jazyce C#. Mnoho IDE umí "
 "balíčky přidávat přímo. Lze je také přidat ručně vložením odkazu na balíček "
 "do souboru ``.csproj`` umístěného v kořenovém adresáři projektu:"
-
-msgid ""
-"As of Godot 3.2.3, Godot automatically downloads and sets up newly added "
-"NuGet packages the next time it builds the project."
-msgstr ""
-"Od Godot 3.2.3 Godot automaticky stahuje a nastavuje nově přidané balíčky "
-"NuGet při následném sestavení projektu."
 
 msgid "Profiling your C# code"
 msgstr "Profilování kódu C#"

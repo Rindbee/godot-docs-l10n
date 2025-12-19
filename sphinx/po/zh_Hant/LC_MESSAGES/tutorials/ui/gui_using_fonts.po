@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -100,9 +100,6 @@ msgstr "OpenType 字型或合集（``.otf``、``.otc``）"
 
 msgid "Web Open Font Format 1 (``.woff``)"
 msgstr "Web 開放字型格式 1（``.woff``）"
-
-msgid "Web Open Font Format 2 (``.woff2``, since Godot 3.5)"
-msgstr "Web 開放字型格式 2（``.woff2``，自 Godot 3.5 支援）"
 
 msgid ""
 "While ``.woff`` and especially ``.woff2`` tend to result in smaller file "

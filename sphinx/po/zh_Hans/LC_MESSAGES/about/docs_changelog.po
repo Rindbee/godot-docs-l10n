@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,12 +24,17 @@ msgstr ""
 "\\ :ref:`类参考手册 <doc_class_reference>`\\ 的诸多更新。以下是自 3.0 版以来"
 "添加的新页面的列表。"
 
-msgid ""
-"This document only contains new pages so not all changes are reflected, many "
-"pages have been substantially updated but are not reflected in this document."
-msgstr ""
-"本文档仅包含新页面，因此并未反映所有更改，许多页面已经大幅更新，但未反映在本"
-"文档中。"
+msgid "Editor"
+msgstr "编辑器"
+
+msgid "GDExtension"
+msgstr "GDExtension"
+
+msgid "Migrating"
+msgstr "迁移"
+
+msgid "Scripting"
+msgstr "脚本"
 
 msgid "New pages since version 4.3"
 msgstr "4.3 版本加入的新页面"
@@ -51,9 +56,6 @@ msgstr "调试"
 
 msgid ":ref:`doc_output_panel`"
 msgstr ":ref:`doc_output_panel`"
-
-msgid "Editor"
-msgstr "编辑器"
 
 msgid ":ref:`doc_using_the_xr_editor`"
 msgstr ":ref:`doc_using_the_xr_editor`"
@@ -115,17 +117,11 @@ msgstr "贡献"
 msgid ":ref:`doc_handling_compatibility_breakages`"
 msgstr ":ref:`doc_handling_compatibility_breakages`"
 
-msgid "GDExtension"
-msgstr "GDExtension"
-
 msgid ":ref:`doc_gdextension_file`"
 msgstr ":ref:`doc_gdextension_file`"
 
 msgid ":ref:`doc_godot_cpp_docs_system`"
 msgstr ":ref:`doc_godot_cpp_docs_system`"
-
-msgid "Migrating"
-msgstr "迁移"
 
 msgid ":ref:`doc_upgrading_to_godot_4.3`"
 msgstr ":ref:`doc_upgrading_to_godot_4.3`"
@@ -258,9 +254,6 @@ msgstr ":ref:`doc_upgrading_to_godot_4`"
 
 msgid ":ref:`doc_large_world_coordinates`"
 msgstr ":ref:`doc_large_world_coordinates`"
-
-msgid "Scripting"
-msgstr "脚本"
 
 msgid ":ref:`doc_custom_performance_monitors`"
 msgstr ":ref:`doc_custom_performance_monitors`"

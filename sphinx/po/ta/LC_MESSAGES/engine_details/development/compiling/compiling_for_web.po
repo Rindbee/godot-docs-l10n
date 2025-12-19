@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,9 +28,6 @@ msgstr "தேவைகள்"
 
 msgid "To compile export templates for the Web, the following is required:"
 msgstr "வலைக்கான ஏற்றுமதி வார்ப்புருக்களை தொகுக்க, பின்வருபவை தேவை:"
-
-msgid "`Emscripten 3.1.62+ <https://emscripten.org>`__."
-msgstr "`Emscripten 3.1.62+ <https://emscripten.org> ____."
 
 msgid "`Python 3.8+ <https://www.python.org/>`__."
 msgstr "`பைதான் 3.8+ <https://www.python.org/> ____."

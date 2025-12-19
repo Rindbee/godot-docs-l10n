@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,52 +17,14 @@ msgstr "래그돌(Ragdoll) 시스템"
 msgid "Introduction"
 msgstr "소개"
 
-msgid ""
-"In this tutorial, we will be using the Platformer3D demo to set up a ragdoll."
-msgstr ""
-"이번 튜토리얼에서는 래그돌을 설치하기 위해 Platformer3D 데모를 사용합니다."
-
 msgid "Setting up the ragdoll"
 msgstr "래그돌 설정하기"
 
 msgid "Creating physical bones"
 msgstr "물리적 본 만들기"
 
-msgid ""
-"Like many other features in the engine, there is a node to set up a ragdoll: "
-"the :ref:`PhysicalBone3D <class_PhysicalBone3D>` node. To simplify the "
-"setup, you can generate ``PhysicalBone`` nodes with the \"Create physical "
-"skeleton\" feature in the skeleton node."
-msgstr ""
-"엔진 내 다른 특징들과 마찬가지로 래그돌을 설정하기 위한 :ref:`PhysicalBone3D "
-"<class_PhysicalBone3D>` 노드가 있습니다. 설정을 단순화 하기 위해서 스켈레톤 "
-"노드의 \"물리 스켈레톤 만들기\" 기능으로``PhysicalBone`` 노드를 생성할 수 있"
-"습니다."
-
-msgid ""
-"Click it and select the ``Create physical skeleton`` option. Godot will "
-"generate ``PhysicalBone`` nodes and collision shapes for each bone in the "
-"skeleton and pin joints to connect them together:"
-msgstr ""
-"버튼을 클릭하고 ``Create physical skeleton`` 옵션을 선택하세요. Godot가 "
-"``PhysicalBone`` 노드와 스켈레톤의 각 뼈에 대한 콜리전 모양과 핀 접합부를 생"
-"성하여 서로 연결합니다."
-
-msgid "Cleaning up the skeleton"
-msgstr "스켈레톤 정리하기"
-
-msgid "Collision shape adjustment"
-msgstr "콜리전 모양 조정"
-
 msgid "This is the final result:"
 msgstr "최종 결과물입니다:"
 
 msgid "Collision layer and mask"
 msgstr "콜리전 레이어와 마스크"
-
-msgid ""
-"For more information, "
-"read :ref:`doc_physics_introduction_collision_layers_and_masks`."
-msgstr ""
-"자세한 정보는 :ref:`doc_physics_introduction_collision_layers_and_masks`\\ "
-"를 읽으세요."

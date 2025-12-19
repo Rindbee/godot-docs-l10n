@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -154,12 +154,6 @@ msgstr "**发布日期**"
 msgid "**Support level**"
 msgstr "**支持级别**"
 
-msgid "Godot 4.5 (`master`)"
-msgstr "Godot 4.5（`master`）"
-
-msgid "Q3 2025 (estimate)"
-msgstr "2025 年第三季度（预计）"
-
 msgid ""
 "|unstable| *Development.* Receives new features, usability and performance "
 "improvements, as well as bug fixes, while under development."
@@ -170,12 +164,6 @@ msgstr ""
 msgid "unstable"
 msgstr "不稳定版"
 
-msgid "Godot 4.4"
-msgstr "Godot 4.4"
-
-msgid "March 2025"
-msgstr "2025 年 3 月"
-
 msgid ""
 "|supported| Receives fixes for bugs and security issues, as well as patches "
 "that enable platform support."
@@ -184,23 +172,32 @@ msgstr "|supported| 接受针对 Bug 和安全问题的修复，以及启用平�
 msgid "supported"
 msgstr "受支持的"
 
-msgid "Godot 4.3"
-msgstr "Godot 4.3"
+msgid "Godot 4.4"
+msgstr "Godot 4.4"
 
-msgid "August 2024"
-msgstr "2024 年 8 月"
-
-msgid "Godot 4.2"
-msgstr "Godot 4.2"
-
-msgid "November 2023"
-msgstr "2023 年 11 月"
+msgid "March 2025"
+msgstr "2025 年 3 月"
 
 msgid "|partial| Receives fixes for security and platform support issues only."
 msgstr "|partial| 仅接受针对安全问题和平台支持问题的修复。"
 
 msgid "partial"
 msgstr "partial"
+
+msgid "Godot 4.3"
+msgstr "Godot 4.3"
+
+msgid "August 2024"
+msgstr "2024 年 8 月"
+
+msgid "eol"
+msgstr "生命结束"
+
+msgid "Godot 4.2"
+msgstr "Godot 4.2"
+
+msgid "November 2023"
+msgstr "2023 年 11 月"
 
 msgid "Godot 4.1"
 msgstr "Godot 4.1"
@@ -210,9 +207,6 @@ msgstr "2023 年 7 月"
 
 msgid "|eol| No longer supported (last update: 4.1.4)."
 msgstr "|eol| 不再支持（最后更新：4.1.4）。"
-
-msgid "eol"
-msgstr "生命结束"
 
 msgid "Godot 4.0"
 msgstr "Godot 4.0"

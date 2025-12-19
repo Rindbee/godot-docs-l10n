@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,22 +13,6 @@ msgstr ""
 
 msgid "Spatial shaders"
 msgstr "Shaders espaciales"
-
-msgid ""
-"Spatial shaders are used for shading 3D objects. They are the most complex "
-"type of shader Godot offers. Spatial shaders are highly configurable with "
-"different render modes and different rendering options (e.g. Subsurface "
-"Scattering, Transmission, Ambient Occlusion, Rim lighting etc). Users can "
-"optionally write vertex, fragment, and light processor functions to affect "
-"how objects are drawn."
-msgstr ""
-"Los shaders espaciales se utilizan para sombrear objetos 3D. Son el tipo más "
-"complejo shader que ofrece Godot. Los shaders espaciales son altamente "
-"configurables con diferentes modos de renderización y diferentes opciones de "
-"renderización (por ejemplo, dispersión en el subsuelo, transmisión, oclusión "
-"ambiental, iluminación del borde, etc.). Los usuarios pueden opcionalmente "
-"escribir vértices, fragmentos y funciones de procesador de luz para afectar "
-"a la forma en que se dibujan los objetos."
 
 msgid "Render modes"
 msgstr "Modos de renderizado"
@@ -228,15 +212,6 @@ msgstr "**x**: Ángulo de rotación en radianes."
 msgid "**z**: Animation frame."
 msgstr "**z**: Fotograma de animación."
 
-msgid ""
-"This allows you to easily adjust the shader to a particle system using "
-"default particles material. When writing a custom particle shader, this "
-"value can be used as desired."
-msgstr ""
-"Esto te permite ajustar fácilmente el shader a un sistema de partículas "
-"usando el material de partículas predeterminado. Cuando se escribe un shader "
-"de partículas personalizado, este valor puede ser usado como se desee."
-
 msgid "in vec2 **VIEWPORT_SIZE**"
 msgstr "en vec2 **VIEWPORT_SIZE**"
 
@@ -300,9 +275,6 @@ msgstr "Canal secundario UV."
 
 msgid "inout vec4 **COLOR**"
 msgstr "inout vec4 **COLOR**"
-
-msgid "Color from vertices."
-msgstr "Color de los vértices."
 
 msgid "out float **ROUGHNESS**"
 msgstr "out real **ROUGHNESS**"
@@ -373,9 +345,6 @@ msgstr "sampler2D **SCREEN_TEXTURE**"
 
 msgid "in vec2 **SCREEN_UV**"
 msgstr "in vec2 **SCREEN_UV**"
-
-msgid "Screen UV coordinate for current pixel."
-msgstr "Muestra la coordenada UV para el píxel actual."
 
 msgid "sampler2D **DEPTH_TEXTURE**"
 msgstr "sampler2D **DEPTH_TEXTURE**"

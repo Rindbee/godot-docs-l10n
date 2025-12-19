@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -48,16 +48,6 @@ msgid "For compiling under Windows, Linux or macOS, the following is required:"
 msgstr "要在Windows, Linux或macOS下进行编译, 需要以下内容:"
 
 msgid ""
-"`Android SDK <https://developer.android.com/studio/#command-tools>`_ "
-"(command-line tools are sufficient)."
-msgstr ""
-"`Android SDK <https://developer.android.com/studio/#command-tools>`_ (命令行"
-"工具就足够了)."
-
-msgid "Required SDK components will be automatically installed."
-msgstr "所需的 SDK 组件将被自动安装。"
-
-msgid ""
 "On Linux, **do not use an Android SDK provided by your distribution's "
 "repositories** as it will often be outdated."
 msgstr ""
@@ -77,31 +67,8 @@ msgstr "Gradle（如果缺少，将自动下载并安装）。"
 msgid "JDK 17 (either OpenJDK or Oracle JDK)."
 msgstr "JDK 17（OpenJDK 或 Oracle JDK）。"
 
-msgid ""
-"You can download a build from `Adoptium <https://adoptium.net/temurin/"
-"releases/?variant=openjdk17>`_."
-msgstr ""
-"你可以从 `Adoptium <https://adoptium.net/temurin/releases/?"
-"variant=openjdk17>`_ 下载一个版本。"
-
 msgid "Setting up the buildsystem"
 msgstr "设置构建系统"
-
-msgid "Install the necessary SDK components in this folder:"
-msgstr "在此文件夹中安装必要的SDK组件:"
-
-msgid ""
-"Accept the SDK component licenses by running the following command where "
-"``android_sdk_path`` is the path to the Android SDK, then answering all the "
-"prompts with ``y``:"
-msgstr ""
-"通过运行以下命令接受SDK组件许可证, 其中 ``android_sdk_path`` 是android SDK的"
-"路径, 然后用 ``y`` 回答所有提示:"
-
-msgid ""
-"Complete setup by running the following command where ``android_sdk_path`` "
-"is the path to the Android SDK."
-msgstr "运行以下命令完成安装, 其中 ``android_sdk_path`` 是Android SDK的路径."
 
 msgid "Building the export templates"
 msgstr "构建导出模板"

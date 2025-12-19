@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,9 +20,6 @@ msgstr "Definição geral"
 msgid "References:"
 msgstr "Referências:"
 
-msgid "Registering an Object"
-msgstr "Registrando um Objeto"
-
 msgid "Constants"
 msgstr "Constantes"
 
@@ -35,25 +32,11 @@ msgstr "Por exemplo:"
 msgid "Another example:"
 msgstr "Outro exemplo:"
 
-msgid ""
-"If cast fails, NULL is returned. This system uses RTTI, but it also works "
-"fine (although a bit slower) when RTTI is disabled. This is useful on "
-"platforms where a small binary size is ideal, such as HTML5 or consoles "
-"(with low memory footprint)."
-msgstr ""
-"Se a conversão falhar, NULL será retornado. Este sistema usa o RTTI, mas "
-"também funciona bem (embora um pouco mais lento) quando o RTTI está "
-"desativado. Isso é útil em plataformas em que um tamanho binário muito "
-"pequeno é ideal, como HTML5 ou consoles (com baixo consumo de memória)."
-
 msgid "Signals"
 msgstr "Sinais"
 
 msgid "Notifications"
 msgstr "Notificações"
-
-msgid "References"
-msgstr "Referências"
 
 msgid "Resources"
 msgstr "Recursos"

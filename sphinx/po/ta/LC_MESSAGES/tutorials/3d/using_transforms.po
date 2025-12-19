@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -399,13 +399,6 @@ msgstr ""
 "இந்த கட்டத்தில் நீங்கள் யோசித்துக்கொண்டிருக்கலாம்: ** \"சரி, ஆனால் ஒரு உருமாற்றத்திலிருந்து "
 "நான் எவ்வாறு கோணங்களைப் பெறுவது?\" **. மீண்டும் பதில்: நீங்கள் இல்லை. கோணங்களில் சிந்திப்பதை "
 "நிறுத்த நீங்கள் உங்களால் முடிந்த அனைத்தையும் செய்ய வேண்டும்."
-
-msgid ""
-"Imagine you need to shoot a bullet in the direction your player is facing. "
-"Just use the forward axis (commonly ``Z`` or ``-Z``)."
-msgstr ""
-"உங்கள் வீரர் எதிர்கொள்ளும் திசையில் ஒரு புல்லட்டை சுட வேண்டும் என்று கற்பனை செய்து பாருங்கள். "
-"முன்னோக்கி அச்சைப் பயன்படுத்தவும் (பொதுவாக `` z`` அல்லது `` -z``)."
 
 msgid ""
 "Is the enemy looking at the player? Use the dot product for this (see "

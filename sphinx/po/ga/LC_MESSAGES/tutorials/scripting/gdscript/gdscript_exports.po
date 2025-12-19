@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -152,13 +152,6 @@ msgstr "Dath rialta a thugtar mar luach dearg-glas-gorm-alfa."
 
 msgid "Nodes"
 msgstr "Nóid"
-
-msgid ""
-"Since Godot 4.0, nodes can be directly exported as properties in a script "
-"without having to use NodePaths:"
-msgstr ""
-"Ós rud é Godot 4.0, is féidir nóid a onnmhairiú go díreach mar airíonna i "
-"script gan NodePaths a úsáid:"
 
 msgid ""
 "Exporting NodePaths like in Godot 3.x is still possible, in case you need it:"

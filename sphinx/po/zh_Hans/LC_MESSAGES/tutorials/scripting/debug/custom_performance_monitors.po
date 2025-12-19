@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -26,13 +26,6 @@ msgstr ""
 "如 :ref:`doc_debugger_panel` 文档所述，Godot 中的 **调试器 > 监视** 底部面板"
 "可以跟踪显示各种值，用图表展示这些值随时间的变化。这些图的数据来源于引擎"
 "的 :ref:`class_Performance` 单例。"
-
-msgid ""
-"Since Godot 4.0, you can declare custom values to be displayed in the "
-"Monitors tab. Example use cases for custom performance monitors include:"
-msgstr ""
-"从 Godot 4.0 开始，你可以声明要在“监视”选项卡中显示的自定义值。自定义性能监视"
-"器的示例用例包括："
 
 msgid "Creating a custom performance monitor"
 msgstr "创建自定义性能监视器"

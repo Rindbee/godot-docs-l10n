@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -59,17 +59,6 @@ msgstr ""
 
 msgid "This would be a basic setup:"
 msgstr "இது ஒரு அடிப்படை அமைப்பாக இருக்கும்:"
-
-msgid ""
-"For simple gizmos, inheriting :ref:`EditorNode3DGizmoPlugin "
-"<class_EditorNode3DGizmoPlugin>` is enough. If you want to store some per-"
-"gizmo data or you are porting a Godot 3.0 gizmo to 3.1+, you should go with "
-"the second approach."
-msgstr ""
-"எளிமையான கிச்மோசுக்கு, மரபுரிமை: குறிப்பு: `Itimitornode3dgizmoplugin "
-"<class_editornode3dgizmoplugin>` போதுமானது. நீங்கள் சில கிச்மோ தரவை சேமிக்க "
-"விரும்பினால் அல்லது நீங்கள் ஒரு கோடோட் 3.0 கிச்மோவை 3.1+ க்கு அனுப்புகிறீர்கள் என்றால், "
-"நீங்கள் இரண்டாவது அணுகுமுறையுடன் செல்ல வேண்டும்."
 
 msgid "Simple approach"
 msgstr "எளிய அணுகுமுறை"

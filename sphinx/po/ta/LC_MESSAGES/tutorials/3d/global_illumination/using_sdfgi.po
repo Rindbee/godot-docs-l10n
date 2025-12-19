@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,16 +13,6 @@ msgstr ""
 
 msgid "Signed distance field global illumination (SDFGI)"
 msgstr "கையொப்பமிடப்பட்ட தூர புலம் உலகளாவிய வெளிச்சம் (எச்.டி.எஃப்.சி.ஐ)"
-
-msgid ""
-"Signed distance field global illumination (SDFGI) is a novel technique "
-"available in Godot 4.0. It provides semi-real-time global illumination that "
-"scales to any world size and works with procedurally generated levels."
-msgstr ""
-"கையொப்பமிடப்பட்ட தூர புலம் உலகளாவிய வெளிச்சம் (எச்.டி.எஃப்.சி.ஐ) என்பது கோடோட் 4.0 இல் "
-"கிடைக்கும் ஒரு புதிய நுட்பமாகும். இது எந்தவொரு உலக அளவிற்கும் அளவிடப்படும் மற்றும் "
-"நடைமுறை ரீதியாக உருவாக்கப்பட்ட நிலைகளுடன் வேலை செய்யும் அரை-உண்மையான நேர உலகளாவிய "
-"வெளிச்சத்தை வழங்குகிறது."
 
 msgid ""
 "SDFGI supports dynamic lights, but *not* dynamic occluders or dynamic "

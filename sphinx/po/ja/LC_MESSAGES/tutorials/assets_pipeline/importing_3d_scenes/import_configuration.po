@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -421,19 +421,6 @@ msgstr ""
 
 msgid "Using animation libraries"
 msgstr "アニメーションライブラリの使用"
-
-msgid ""
-"As of Godot 4.0, you can choose to import **only** animations from a glTF "
-"file and nothing else. This is used in some asset pipelines to distribute "
-"animations separately from models. For example, this allows you to use one "
-"set of animations for several characters, without having to duplicate "
-"animation data in every character."
-msgstr ""
-"Godot 4.0 以降では、glTFファイルからアニメーションのみをインポートし、それ以"
-"外はインポートしないことを選択できます。これは一部のアセットパイプラインで、"
-"モデルとは別にアニメーションを配布するために使用されます。たとえば、これによ"
-"りすべてのキャラクターでアニメーションデータを複製することなく、複数のキャラ"
-"クターに1セットのアニメーションを使用できます。"
 
 msgid ""
 "To do so, select the glTF file in the FileSystem dock, then change the "

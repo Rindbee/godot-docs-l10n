@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,9 +28,6 @@ msgstr "4"
 
 msgid "5"
 msgstr "5"
-
-msgid "Generating geometry"
-msgstr "지오메트리 생성하기"
 
 msgid "Saving"
 msgstr "저장하기"

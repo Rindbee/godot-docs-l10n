@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -359,11 +359,6 @@ msgid ""
 "**Mix:** Default blend mode, alpha controls how much the object is visible."
 msgstr ""
 "**Mix:** Modo de mesclagem padrão, alfa controla o quanto o objeto é visível."
-
-msgid ""
-"**Sub:** The final color of the object is subtracted from the color of the "
-"screen."
-msgstr "**Sub:** A cor final do objeto é subtraída da cor da tela."
 
 msgid ""
 "**Premultiplied Alpha:** The color of the object is expected to have already "
@@ -1117,18 +1112,12 @@ msgstr ""
 msgid "Shadows"
 msgstr "Sombras"
 
-msgid "Do Not Receive Shadows"
-msgstr "Não Receber Sombras"
-
 msgid ""
 "Makes the object not receive any kind of shadow that would otherwise be cast "
 "onto it."
 msgstr ""
 "Faz com que o objeto não receba nenhum tipo de sombra que de outra forma "
 "seria lançada sobre ele."
-
-msgid "Use Shadow to Opacity"
-msgstr "Use sombra para opacidade"
 
 msgid ""
 "Lighting modifies the alpha so shadowed areas are opaque and non-shadowed "

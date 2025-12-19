@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -52,17 +52,11 @@ msgstr "macOS"
 msgid "Editor setting"
 msgstr "エディタ設定"
 
-msgid "Open 2D Editor"
-msgstr "2Dエディタを開く"
-
 msgid ":kbd:`Ctrl + F1`"
 msgstr ":kbd:`Ctrl + F1`"
 
 msgid "``editor/editor_2d``"
 msgstr "``editor/editor_2d``"
-
-msgid "Open 3D Editor"
-msgstr "3Dエディタを開く"
 
 msgid ":kbd:`Ctrl + F2`"
 msgstr ":kbd:`Ctrl + F2`"
@@ -97,8 +91,8 @@ msgstr "集中モード"
 msgid ":kbd:`Ctrl + Shift + F11`"
 msgstr ":kbd:`Ctrl + Shift + F11`"
 
-msgid ":kbd:`Cmd + Ctrl + D`"
-msgstr ":kbd:`Cmd + Ctrl + D`"
+msgid ":kbd:`Cmd + Shift + D`"
+msgstr ":kbd:`Cmd + Shift + D`"
 
 msgid "``editor/distraction_free_mode``"
 msgstr "``editor/distraction_free_mode``"
@@ -1671,9 +1665,6 @@ msgstr "``animation_editor/duplicate_selection``"
 
 msgid "Duplicate Transposed"
 msgstr "転置して複製"
-
-msgid ":kbd:`Cmd + Shift + D`"
-msgstr ":kbd:`Cmd + Shift + D`"
 
 msgid "``animation_editor/duplicate_selection_transposed``"
 msgstr "``animation_editor/duplicate_selection_transposed``"

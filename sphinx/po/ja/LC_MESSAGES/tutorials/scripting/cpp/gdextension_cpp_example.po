@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -30,23 +30,6 @@ msgid ""
 msgstr ""
 "概要で指定したリンクからサンプルを複製した場合、サブモジュールは自動的に初期"
 "化されません。次のコマンドを実行する必要があります。"
-
-msgid "Building the C++ bindings"
-msgstr "C++バインディングのビルド"
-
-msgid ""
-"Now that we've downloaded our prerequisites, it is time to build the C++ "
-"bindings."
-msgstr ""
-"前提条件に書かれた物をダウンロードしたので、C++バインディングを作成します。"
-
-msgid ""
-"This step will take a while. When it is completed, you should have static "
-"libraries that can be compiled into your project stored in ``godot-cpp/bin/"
-"``."
-msgstr ""
-"この手順にはしばらく時間がかかります。完了後、プロジェクト内の \\ ``godot-"
-"cpp/bin/`` に、コンパイルされた静的ライブラリが格納されているはずです。"
 
 msgid "Creating a simple plugin"
 msgstr "シンプルなプラグインの作成"

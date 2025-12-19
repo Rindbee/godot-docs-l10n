@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -101,17 +101,6 @@ msgstr ""
 
 msgid "Handling resizing and different aspect ratios"
 msgstr "Управление изменением размера и различных соотношений сторон"
-
-msgid ""
-"By default in Godot 4.0, the VideoStreamPlayer will automatically be resized "
-"to match the video's resolution. You can make it follow "
-"usual :ref:`class_Control` sizing by enabling **Expand** on the "
-"VideoStreamPlayer node."
-msgstr ""
-"По умолчанию в Godot 4.0 размер VideoStreamPlayer будет автоматически "
-"изменен в соответствии с разрешением видео. Вы можете привести его к "
-"обычному размеру :ref:`class_Control`, включив **Expand** на узле "
-"VideoStreamPlayer."
 
 msgid ""
 "To adjust how the VideoStreamPlayer node resizes depending on window size, "

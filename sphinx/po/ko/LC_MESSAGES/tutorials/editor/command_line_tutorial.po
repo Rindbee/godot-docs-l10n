@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -129,9 +129,6 @@ msgstr ""
 
 msgid "``--path <directory>``"
 msgstr "``--path <디렉터리>``"
-
-msgid "``scene <path>``"
-msgstr "``scene <경로>``"
 
 msgid "``-u``, ``--upwards``"
 msgstr "``-u``, ``--upwards``"

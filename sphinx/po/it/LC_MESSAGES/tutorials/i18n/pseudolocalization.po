@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -51,19 +51,6 @@ msgstr ""
 
 msgid "Enabling and configuring pseudolocalization"
 msgstr "Abilitare e configurare la pseudolocalizzazione"
-
-msgid ""
-"Enabling pseudolocalization and the configurations related to it is as "
-"simple as toggling a checkbox in the project settings. These settings can be "
-"found in **Project → Project Settings → General → Internationalization → "
-"Pseudolocalization** after enabling the **Advanced** toggle in the project "
-"settings dialog:"
-msgstr ""
-"Per abilitare la pseudolocalizzazione e le relative configurazioni basta "
-"attivare una casella di spunta nelle impostazioni del progetto. Queste "
-"impostazioni si trovano in **Progetto → Impostazioni del progetto → Generale "
-"→ Internazionalizzazione → Pseudolocalizzazione** dopo aver abilitato "
-"l'opzione **Avanzate** nella finestra delle impostazioni del progetto:"
 
 msgid ""
 "Pseudolocalization can also be :ref:`toggled at runtime from a script "

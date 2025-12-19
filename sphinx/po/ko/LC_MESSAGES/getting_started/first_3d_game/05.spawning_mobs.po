@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -480,13 +480,6 @@ msgstr "메인 장면에서 ``Player`` 를 제거하면 다음 줄이 표시됩�
 
 msgid "gives an error because there is no $Player!"
 msgstr "$Player 가 없기 때문에 오류가 발생합니다!"
-
-msgid ""
-"You can test the scene by pressing :kbd:`F6`. You should see the monsters "
-"spawn and move in a straight line."
-msgstr ""
-":kbd:`F6`\\ 을 눌러 장면을 테스트할 수 있습니다. 괴물이 소환되고 일직선으로 "
-"움직이는 것을 볼 수 있을 것입니다."
 
 msgid ""
 "For now, they bump and slide against one another when their paths cross. "

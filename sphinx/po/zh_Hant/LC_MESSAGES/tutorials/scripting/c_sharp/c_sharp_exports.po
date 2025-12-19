@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -253,11 +253,6 @@ msgstr "以紅、綠、藍值指定顏色（Alpha 固定為 1）。"
 
 msgid "Nodes"
 msgstr "節點"
-
-msgid ""
-"Since Godot 4.0, nodes can be directly exported without having to use "
-"NodePaths."
-msgstr "自 Godot 4.0 起，節點可以直接匯出，無需再用 NodePath。"
 
 msgid ""
 "A specific type of node can also be directly exported. The list of nodes "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,22 +13,6 @@ msgstr ""
 
 msgid "Spatial shaders"
 msgstr "Spatial-Shader"
-
-msgid ""
-"Spatial shaders are used for shading 3D objects. They are the most complex "
-"type of shader Godot offers. Spatial shaders are highly configurable with "
-"different render modes and different rendering options (e.g. Subsurface "
-"Scattering, Transmission, Ambient Occlusion, Rim lighting etc). Users can "
-"optionally write vertex, fragment, and light processor functions to affect "
-"how objects are drawn."
-msgstr ""
-"Spatial-Shader werden zum Schattieren von 3D-Objekten verwendet, Sie sind "
-"die komplexesten, die Godot bietet. Spatial-Shader sind mit verschiedenen "
-"Rendermodi und verschiedenen Rendering-Optionen (z.B. Subsurface Scattering, "
-"Transmission, Ambient Occlusion, Randbeleuchtung usw.) hochgradig "
-"konfigurierbar. Benutzer können optional Vertex-, Fragment- und "
-"Lichtprozessorfunktionen schreiben, um zu beeinflussen, wie Objekte "
-"gezeichnet werden."
 
 msgid "Render modes"
 msgstr "Render-Modi"
@@ -190,10 +174,6 @@ msgstr "**vertex_lighting**"
 msgid "**particle_trails**"
 msgstr "**particle_trails**"
 
-msgid "Enables the trails when used on particles geometry."
-msgstr ""
-"Aktiviert die Trails, wenn sie auf Partikelgeometrien verwendet werden."
-
 msgid "**alpha_to_coverage**"
 msgstr "**alpha_to_coverage**"
 
@@ -230,33 +210,11 @@ msgstr "in float **TIME**"
 msgid "in float **PI**"
 msgstr "in float **PI**"
 
-msgid ""
-"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
-"diameter and amount of radians in half turn."
-msgstr ""
-"Eine ``PI``-Konstante (``3,141592``). Das Verhältnis des Umfangs eines "
-"Kreises zu seinem Durchmesser und die Anzahl der Bogenmaßeinheiten in einer "
-"halben Umdrehung."
-
 msgid "in float **TAU**"
 msgstr "in float **TAU**"
 
-msgid ""
-"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
-"radians in full turn."
-msgstr ""
-"Eine ``TAU``-Konstante (``6.283185``). Ein Äquivalent von ``PI * 2`` und die "
-"Anzahl der Bogenmaßeinheiten in einer vollen Umdrehung."
-
 msgid "in float **E**"
 msgstr "in float **E**"
-
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr ""
-"Eine ``E``-Konstante (``2,718281``). Eulersche Zahl und eine Basis des "
-"natürlichen Logarithmus."
 
 msgid "in bool **OUTPUT_IS_SRGB**"
 msgstr "in bool **OUTPUT_IS_SRGB**"
@@ -294,16 +252,6 @@ msgstr "**x**: Rotationswinkel in Bogenmaß."
 msgid "**z**: Animation frame."
 msgstr "**z**: Animations-Frame."
 
-msgid ""
-"This allows you to easily adjust the shader to a particle system using "
-"default particles material. When writing a custom particle shader, this "
-"value can be used as desired."
-msgstr ""
-"Dies ermöglicht es Ihnen, den Shader einfach an ein Partikelsystem "
-"anzupassen, das Default-Partikelmaterial verwendet. Wenn Sie einen "
-"benutzerdefinierten Partikel-Shader schreiben, können Sie diesen Wert nach "
-"Belieben verwenden."
-
 msgid "in vec2 **VIEWPORT_SIZE**"
 msgstr "in vec2 **VIEWPORT_SIZE**"
 
@@ -324,13 +272,6 @@ msgstr "Transformation von View-Space nach World-Space."
 
 msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
 msgstr "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
-
-msgid ""
-"View space to world space transform of camera used to draw the current "
-"viewport."
-msgstr ""
-"Transformation der Kamera, die zum Zeichnen des aktuellen Viewports "
-"verwendet wird, vom View Space in den World Space."
 
 msgid "in mat4 **INV_PROJECTION_MATRIX**"
 msgstr "in mat4 **INV_PROJECTION_MATRIX**"
@@ -437,9 +378,6 @@ msgstr "UV Sekundärkanal."
 
 msgid "inout vec4 **COLOR**"
 msgstr "inout vec4 **COLOR**"
-
-msgid "Color from vertices."
-msgstr "Farbe der Vertices."
 
 msgid "out float **ROUGHNESS**"
 msgstr "out float **ROUGHNESS**"
@@ -588,9 +526,6 @@ msgstr ""
 
 msgid "in vec2 **SCREEN_UV**"
 msgstr "in vec2 **SCREEN_UV**"
-
-msgid "Screen UV coordinate for current pixel."
-msgstr "Screen-UV-Koordinate für das aktuelle Pixel."
 
 msgid "sampler2D **DEPTH_TEXTURE**"
 msgstr "sampler2D **DEPTH_TEXTURE**"

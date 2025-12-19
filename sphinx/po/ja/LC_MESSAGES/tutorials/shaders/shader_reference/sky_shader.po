@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -215,13 +215,6 @@ msgstr "ワールド空間内のカメラの位置。"
 msgid "samplerCube **RADIANCE**"
 msgstr "\\ samplerCube **RADIANCE**"
 
-msgid ""
-"Radiance cubemap. Can only be read from during background pass. Check ``!"
-"AT_CUBEMAP_PASS`` before using."
-msgstr ""
-"放射キューブマップ。背景パス中でのみ読み取ることができます。使用前に ``!"
-"AT_CUBEMAP_PASS`` をチェックしてください。"
-
 msgid "in bool **AT_HALF_RES_PASS**"
 msgstr "\\ in bool **AT_HALF_RES_PASS**"
 
@@ -265,22 +258,8 @@ msgstr ""
 msgid "in float **PI**"
 msgstr "\\ in float **PI**"
 
-msgid ""
-"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
-"diameter and amount of radians in half turn."
-msgstr ""
-"``PI`` 円周率の定数 (``3.141592``)。円の円周とその直径の比率、および半回転の"
-"ラジアン量。"
-
 msgid "in float **TAU**"
 msgstr "\\ in float **TAU**"
-
-msgid ""
-"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
-"radians in full turn."
-msgstr ""
-"定数 `TAU`` は円周率の2倍 (``6.283185``)。 ``PI * 2`` と、1回転のラジアン量に"
-"相当します。"
 
 msgid "in float **E**"
 msgstr "\\ in float **E**"
@@ -291,22 +270,8 @@ msgstr "Skyビルトイン"
 msgid "in vec3 **EYEDIR**"
 msgstr "\\ in vec3 **EYEDIR**"
 
-msgid ""
-"Normalized direction of current pixel. Use this as your basic direction for "
-"procedural effects."
-msgstr ""
-"現在のピクセルの正規化された方向。これをプロシージャルエフェクトのベースの方"
-"向として使用します。"
-
 msgid "in vec2 **SCREEN_UV**"
 msgstr "\\ in vec2 **SCREEN_UV**"
-
-msgid ""
-"Screen UV coordinate for current pixel. Used to map a texture to the full "
-"screen."
-msgstr ""
-"現在のピクセルのスクリーンUV座標。テクスチャを全画面にマッピングするために使"
-"用されます。"
 
 msgid "in vec2 **SKY_COORDS**"
 msgstr "\\ in vec2 **SKY_COORDS**"
@@ -318,18 +283,8 @@ msgstr ""
 msgid "in vec4 **HALF_RES_COLOR**"
 msgstr "\\ in vec4 **HALF_RES_COLOR**"
 
-msgid ""
-"Color value of corresponding pixel from half resolution pass. Uses linear "
-"filter."
-msgstr "1/2解像度パスからの対応するピクセルの色。リニアフィルターを使用。"
-
 msgid "in vec4 **QUARTER_RES_COLOR**"
 msgstr "\\ in vec4 **QUARTER_RES_COLOR**"
-
-msgid ""
-"Color value of corresponding pixel from quarter resolution pass. Uses linear "
-"filter."
-msgstr "1/4解像度パスからの対応するピクセルの色。リニアフィルターを使用。"
 
 msgid "out vec3 **COLOR**"
 msgstr "\\ out vec3 **COLOR**"

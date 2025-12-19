@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -442,9 +442,6 @@ msgid ""
 msgstr ""
 "*Exemplo (Vulkan): Qualcomm Adreno 630, Mali-G72 MP18, Apple G11P (iPhone XR/"
 "XS)*"
-
-msgid "*Example (Metal): Apple A11 (iPhone 8/X)*"
-msgstr "*Exemplo (Metal): Applet A7 (iPhone 5S)*"
 
 msgid ""
 "**Mobile renderer:** SoC featuring GPU with full Vulkan 1.0 support, or "

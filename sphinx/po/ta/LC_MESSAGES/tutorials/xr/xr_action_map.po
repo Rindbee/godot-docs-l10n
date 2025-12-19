@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -275,15 +275,6 @@ msgstr "1"
 
 msgid "my_first_action_set"
 msgstr "my_first_action_set"
-
-msgid ""
-"This is the internal name of the action set. OpenXR doesn't specify specific "
-"restrictions on this name other then size, however some XR runtimes will not "
-"like spaces or special characters."
-msgstr ""
-"இது செயல் தொகுப்பின் உள் பெயர். OpenXR இந்த பெயரில் குறிப்பிட்ட கட்டுப்பாடுகளை "
-"குறிப்பிடவில்லை, இருப்பினும் சில எக்ச்ஆர் ரன் டைம்கள் இடைவெளிகள் அல்லது சிறப்பு "
-"எழுத்துக்களை விரும்பாது."
 
 msgid "2"
 msgstr "2"

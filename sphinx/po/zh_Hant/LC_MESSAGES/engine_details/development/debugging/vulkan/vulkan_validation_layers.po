@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -138,15 +138,6 @@ msgstr ""
 "<doc_command_line_tutorial>` 執行 Godot。你也可以加上 ``--gpu-abort``，讓 "
 "Godot 在驗證錯誤發生時立即結束，避免系統當機。"
 
-msgid "Android"
-msgstr "Android"
-
-msgid ""
-"After enabling validation layers on Android, a developer can see errors and "
-"warning messages in the ``adb logcat`` output."
-msgstr ""
-"在 Android 啟用驗證層後，開發者可於 ``adb logcat`` 輸出中看到錯誤與警告訊息。"
-
 msgid "iOS"
 msgstr "iOS"
 
@@ -160,6 +151,15 @@ msgid ""
 "Validation layers are **not** supported on the web platform, as there is no "
 "support for Vulkan there."
 msgstr "Web 平台**不**支援驗證層，因為該平台不支援 Vulkan。"
+
+msgid "Android"
+msgstr "Android"
+
+msgid ""
+"After enabling validation layers on Android, a developer can see errors and "
+"warning messages in the ``adb logcat`` output."
+msgstr ""
+"在 Android 啟用驗證層後，開發者可於 ``adb logcat`` 輸出中看到錯誤與警告訊息。"
 
 msgid "Enabling validation layers"
 msgstr "啟用驗證層"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,17 +13,6 @@ msgstr ""
 
 msgid "Particle shaders"
 msgstr "Shaders cáithníní"
-
-msgid ""
-"Particle shaders are a special type of shader that runs before the object is "
-"drawn. They are used for calculating material properties such as color, "
-"position, and rotation. They are drawn with any regular material for "
-"CanvasItem or Spatial, depending on whether they are 2D or 3D."
-msgstr ""
-"Is cineál speisialta scáthóra iad shaders cáithníní a ritheann sula "
-"dtarraingítear an réad. Úsáidtear iad chun airíonna ábhair a ríomh, mar "
-"shampla dath, suíomh, agus rothlú. Tarraingítear iad le haon ábhar rialta le "
-"haghaidh CanvasItem nó Spásúil, ag brath ar cibé an bhfuil siad 2D nó 3D."
 
 msgid ""
 "Unlike other shader types, particle shaders keep the data that was output "
@@ -103,32 +92,11 @@ msgstr "i snámhphointe **AM**"
 msgid "in float **PI**"
 msgstr "i snámhphointe **PI**"
 
-msgid ""
-"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
-"diameter and amount of radians in half turn."
-msgstr ""
-"Tairiseach ''PI'' (''3.141592''). Cóimheas idir imlíne ciorcail agus a "
-"thrastomhas agus méid na radians ina leathsheal."
-
 msgid "in float **TAU**"
 msgstr "i snámhphointe **TAU**"
 
-msgid ""
-"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
-"radians in full turn."
-msgstr ""
-"Tairiseach ''TAU'' (''6.283185''). Comhionann le ''PI * 2'' agus méid na "
-"radians ina lánseal."
-
 msgid "in float **E**"
 msgstr "i snámhphointe **E**"
-
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr ""
-"Tairiseach ''E'' (''2.718281''). Uimhir Euler agus bonn den logartam "
-"nádúrtha."
 
 msgid "Start and Process built-ins"
 msgstr "Tosaigh agus Próiseas tógtha isteach"
@@ -182,19 +150,8 @@ msgstr "Síol randamach a úsáidtear mar bhonn randamach."
 msgid "inout bool **ACTIVE**"
 msgstr "bool inout **ACTIVE**"
 
-msgid "``true`` when the particle is active, can be set ``false``."
-msgstr ""
-"Is féidir ''fíor'' nuair a bhíonn an cáithnín gníomhach, a shocrú "
-"''bréagach''."
-
 msgid "inout vec4 **COLOR**"
 msgstr "inout vec4 ** COLOR **"
-
-msgid ""
-"Particle color, can be written to and accessed in mesh's vertex function."
-msgstr ""
-"Dath na gcáithníní, is féidir é a scríobh chuig feidhm stuaic mogalra agus "
-"rochtain a fháil air."
 
 msgid "inout vec3 **VELOCITY**"
 msgstr "inout vec3 **LUAS**"
@@ -213,13 +170,6 @@ msgstr "inout vec4 **CUSTOMA**"
 
 msgid "inout float **MASS**"
 msgstr "snámhphointe inout **MASS**"
-
-msgid ""
-"Particle mass, intended to be used with attractors. Equals ``1.0`` by "
-"default."
-msgstr ""
-"Mais cháithnín, atá beartaithe le húsáid le mealltóirí. Is ionann é agus "
-"''1.0'' de réir réamhshocraithe."
 
 msgid "in vec4 **USERDATAX**"
 msgstr "i vec4 **USERDATAX**"
@@ -326,9 +276,6 @@ msgstr "Próiseas tógtha"
 msgid "in bool **RESTART**"
 msgstr "i mbuail**RESTART**"
 
-msgid "``true`` if the current process frame is first for the particle."
-msgstr "``fíor`` má tá an fráma próisis reatha ar dtús don cháithnín."
-
 msgid "in bool **COLLIDED**"
 msgstr "in bool**COLLIDED**"
 
@@ -340,13 +287,6 @@ msgstr "i vec3 **COLLISION_NORMAL**"
 
 msgid "in float **COLLISION_DEPTH**"
 msgstr "i snámh**COLLISION_DEPTH**"
-
-msgid ""
-"A length of normal of the last collision. If there is no collision detected "
-"it is equal to ``0.0``."
-msgstr ""
-"Fad de ghnáth an imbhualadh deireanach. Mura bhraitear aon imbhualadh tá sé "
-"comhionann le ``0.0``."
 
 msgid "in vec3 **ATTRACTOR_FORCE**"
 msgstr "i vec3 **ATTRACTOR_FORCE**"
